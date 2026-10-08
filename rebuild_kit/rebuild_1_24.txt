@@ -1,0 +1,72 @@
+python racingpost_excel_charts_swiss.py --csv racecards/20210825_musselburgh/race_batch_20210825_musselburgh_1345.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20210825_musselburgh/race_batch_20210825_musselburgh_1345.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20210825_wolverhampton_aw/race_batch_20210825_wolverhampton_aw_2010.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20210825_wolverhampton_aw/race_batch_20210825_wolverhampton_aw_2010.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20210826_chelmsford_aw/race_batch_20210826_chelmsford_aw_1530.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20210826_chelmsford_aw/race_batch_20210826_chelmsford_aw_1530.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20210827_goodwood/race_batch_20210827_goodwood_1853.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20210827_goodwood/race_batch_20210827_goodwood_1853.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20210903_ascot/race_batch_20210903_ascot_1645.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20210903_ascot/race_batch_20210903_ascot_1645.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20210904_haydock/race_batch_20210904_haydock_1420.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20210904_haydock/race_batch_20210904_haydock_1420.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20210914_redcar/race_batch_20210914_redcar_1310.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20210914_redcar/race_batch_20210914_redcar_1310.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20210915_yarmouth/race_batch_20210915_yarmouth_1520.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20210915_yarmouth/race_batch_20210915_yarmouth_1520.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20211014_carlisle/race_batch_20211014_carlisle_1355.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20211014_carlisle/race_batch_20211014_carlisle_1355.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20211017_kempton/race_batch_20211017_kempton_1440.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20211017_kempton/race_batch_20211017_kempton_1440.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20211019_exeter/race_batch_20211019_exeter_1405.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20211019_exeter/race_batch_20211019_exeter_1405.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20211019_exeter/race_batch_20211019_exeter_1515.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20211019_exeter/race_batch_20211019_exeter_1515.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20211109_newcastle_aw/race_batch_20211109_newcastle_aw_1800.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20211109_newcastle_aw/race_batch_20211109_newcastle_aw_1800.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20211111_chelmsford_aw/race_batch_20211111_chelmsford_aw_1830.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20211111_chelmsford_aw/race_batch_20211111_chelmsford_aw_1830.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20211112_newcastle_aw/race_batch_20211112_newcastle_aw_1540.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20211112_newcastle_aw/race_batch_20211112_newcastle_aw_1540.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20211126_newbury/race_batch_20211126_newbury_1350.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20211126_newbury/race_batch_20211126_newbury_1350.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20211211_newcastle_aw/race_batch_20211211_newcastle_aw_1420.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20211211_newcastle_aw/race_batch_20211211_newcastle_aw_1420.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20211216_exeter/race_batch_20211216_exeter_1415.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20211216_exeter/race_batch_20211216_exeter_1415.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20211217_kempton_aw/race_batch_20211217_kempton_aw_1845.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20211217_kempton_aw/race_batch_20211217_kempton_aw_1845.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20211218_haydock/race_batch_20211218_haydock_1330.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20211218_haydock/race_batch_20211218_haydock_1330.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20220102_newcastle_aw/race_batch_20220102_newcastle_aw_1330.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20220102_newcastle_aw/race_batch_20220102_newcastle_aw_1330.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20220110_ludlow/race_batch_20220110_ludlow_1515.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20220110_ludlow/race_batch_20220110_ludlow_1515.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20220121_lingfield/race_batch_20220121_lingfield_1350.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20220121_lingfield/race_batch_20220121_lingfield_1350.xlsx
+
+python racingpost_excel_charts_swiss.py --csv racecards/20220129_doncaster/race_batch_20220129_doncaster_1410.csv --ephemeris-path ephe --engine celestial_bodies_swisseph.py
+python active_vibrations.py --input racecards/20220129_doncaster/race_batch_20220129_doncaster_1410.xlsx
+
