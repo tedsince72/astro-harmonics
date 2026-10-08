@@ -1,0 +1,1321 @@
+# Method 1 list — 3 Oot Ma Way (horse, P05 of 20220318_doncaster_1440, born 19-May-18)
+Birth chart at 12:00 (the midday rule). Kept wide: every number (±0.002°) and every chord (≤0.15%) found in Method 1. Natal Moon left out. ★ = a star. 'Held all day' = the chord stays within 0.15% from 00:00 to 24:00 on the birth day.
+
+## 1. The bodies
+| Body | RA | Dec | RA move /day | Dec move /day | Out of bounds | Numbers | Star chords | Body chords |
+|---|---|---|---|---|---|---|---|---|
+| Sun | 55.923 | +19.750 | +0.998 | +0.214 |  | 7 | 10 | 15 |
+| Mercury | 37.770 | +12.615 | +1.655 | +0.665 |  | 6 | 15 | 13 |
+| Venus | 89.603 | +25.008 | +1.320 | +0.036 | YES +1.57 | 8 | 9 | 13 |
+| Mars | 303.715 | -22.045 | +0.404 | +0.031 |  | 6 | 10 | 11 |
+| Jupiter | 224.693 | -15.652 | -0.123 | +0.033 |  | 11 | 8 | 8 |
+| Saturn | 278.787 | -22.305 | -0.050 | -0.004 |  | 8 | 6 | 9 |
+| Uranus | 28.050 | +10.961 | +0.050 | +0.018 |  | 4 | 17 | 16 |
+| Neptune | 347.469 | -6.392 | +0.015 | +0.006 |  | 14 | 14 | 11 |
+| Pluto | 292.517 | -21.569 | -0.013 | -0.004 |  | 9 | 11 | 10 |
+| Chiron | 359.775 | +3.660 | +0.034 | +0.016 |  | 6 | 12 | 17 |
+| Ceres | 141.257 | +26.009 | +0.310 | -0.134 | YES +2.57 | 8 | 18 | 8 |
+| Pallas | 88.649 | -0.737 | +0.536 | +0.104 |  | 10 | 10 | 10 |
+| Juno | 9.059 | +3.800 | +0.459 | +0.136 |  | 3 | 11 | 14 |
+| Vesta | 274.342 | -18.024 | -0.095 | -0.037 |  | 4 | 12 | 10 |
+| Eris | 26.172 | -1.989 | +0.009 | +0.002 |  | 3 | 15 | 11 |
+| Sedna | 56.747 | +7.850 | +0.013 | +0.003 |  | 7 | 9 | 13 |
+| Haumea | 212.672 | +17.208 | -0.016 | +0.000 |  | 9 | 12 | 7 |
+| Makemake | 194.610 | +24.941 | -0.012 | -0.003 | YES +1.50 | 12 | 10 | 14 |
+| Quaoar | 271.457 | -15.365 | -0.016 | +0.002 |  | 6 | 8 | 9 |
+| Orcus | 152.269 | -9.551 | +0.001 | +0.006 |  | 4 | 13 | 6 |
+| Gonggong | 336.633 | -12.013 | +0.002 | +0.001 |  | 6 | 11 | 15 |
+| Transpluto | 152.984 | +11.141 | +0.001 | +0.000 |  | 9 | 15 | 13 |
+| Rahu | 130.577 | +18.225 | -0.030 | +0.008 |  | 10 | 11 | 18 |
+| Ketu | 310.577 | -18.225 | -0.030 | -0.008 |  | 13 | 8 | 11 |
+
+## 2. Body by body (everything)
+
+### Sun — RA 55.923, Dec +19.750
+- **Numbers (7):**
+  - RA to Ceres = 768/9 (85.3341, off +0.0008; 11:58–12:05)
+  - RA to Altair ★ = 1064/9 (118.2210, off -0.0013; 11:59–12:04)
+  - RA to Algol ★ = 80/9 (8.8873, off -0.0016; 12:00–12:05)
+  - Flat to Vega ★ = whole 138 (137.9998, off -0.0002; 11:58–12:03)
+  - Flat to Antares ★ = 1573/9 (174.7767, off -0.0011; 11:59–12:04)
+  - Flat to Jupiter = 1552/9 (172.4431, off -0.0013; 11:56–12:00)
+  - Sky to Haumea = 1229/9 (136.5573, off +0.0018; 12:00–12:07)
+- **Star chords (10):**
+  - Dec Betelgeuse–Equator 3:5:8 0.001% (00:00 0.885%, 24:00 0.853%)  [base 7.406 | to Betelgeuse 12.344 | to Equator 19.750]
+  - Dec Betelgeuse–Fomalhaut 1:3:4 0.009% (00:00 0.883%, 24:00 0.856%)  [base 37.028 | to Betelgeuse 12.344 | to Fomalhaut 49.371]
+  - Dec Equator–Fomalhaut 2:3:5 0.011% (00:00 0.544%, 24:00 0.543%)  [base 29.622 | to Equator 19.750 | to Fomalhaut 49.371]
+  - Dec Altair–Pleiades 2:5:7 0.027% (00:00 3.450%, 24:00 3.449%)  [base 15.235 | to Altair 10.882 | to Pleiades 4.354]
+  - Flat Algorab–Procyon 4:5:9 0.032% (00:00 0.745%, 24:00 0.767%)  [base 75.832 | to Algorab 136.454 | to Procyon 60.662]
+  - RA Alphecca–Arcturus 1:8:9 0.077% (00:00 0.239%, 24:00 0.392%)  [base 19.764 | to Alphecca 177.756 | to Arcturus 157.992]
+  - RA Algorab–Betelgeuse 1:3:4 0.084% (00:00 1.413%, 24:00 1.625%)  [base 98.680 | to Algorab 131.546 | to Betelgeuse 32.866]
+  - RA Castor–Regulus 2:3:5 0.088% (00:00 0.954%, 24:00 0.776%)  [base 38.447 | to Castor 57.722 | to Regulus 96.169]
+  - Dec Alphecca–Pleiades 3:5:8 0.098% (00:00 2.610%, 24:00 2.328%)  [base 2.610 | to Alphecca 6.964 | to Pleiades 4.354]
+  - RA Algol–Capella φ: 2−1/φ/φ²/φ√5 0.105% (00:00 8.113%, 24:00 7.437%)  [base 32.130 | to Algol 8.887 | to Capella 23.243]
+- **Chords with two other natal bodies (15):**
+  - Dec Chiron–Jupiter 5:6:11 0.023% (00:00 0.698%, 24:00 0.620%)  [base 19.312 | to Chiron 16.090 | to Jupiter 35.402]
+  - Dec Haumea–Rahu 2:3:5 0.023% (00:00 6.427%, 24:00 6.474%)  [base 1.017 | to Haumea 2.542 | to Rahu 1.525]
+  - RA Chiron–Venus 3:5:8 0.025% (00:00 0.353%, 24:00 0.406%)  [base 89.827 | to Chiron 56.147 | to Venus 33.680]
+  - Dec Saturn–Venus 1:8:9 0.026% (00:00 1.952%, 24:00 1.973%)  [base 47.313 | to Saturn 42.055 | to Venus 5.258]
+  - RA Ceres–Makemake 5:8:13 0.036% — held all day  [base 53.353 | to Ceres 85.334 | to Makemake 138.687]
+  - Dec Chiron–Neptune 5:8:13 0.040% (00:00 0.535%, 24:00 0.592%)  [base 10.052 | to Chiron 16.090 | to Neptune 26.142]
+  - Flat Chiron–Uranus 1:1:2 0.079% (00:00 1.571%, 24:00 1.697%)  [base 29.202 | to Chiron 58.407 | to Uranus 29.225]
+  - Flat Gonggong–Neptune 1:6:7 0.085% (00:00 0.576%, 24:00 0.663%)  [base 12.207 | to Gonggong 85.415 | to Neptune 73.275]
+  - Dec Mercury–Neptune 3:8:11 0.092% (00:00 4.805%, 24:00 4.988%)  [base 19.008 | to Mercury 7.134 | to Neptune 26.142]
+  - RA Eris–Gonggong 3:5:8 0.093% (00:00 1.590%, 24:00 1.719%)  [base 49.538 | to Eris 29.751 | to Gonggong 79.289]
+  - Dec Sedna–Transpluto φ: 2−1/φ/φ²/φ√5 0.098% (00:00 1.409%, 24:00 1.173%)  [base 3.292 | to Sedna 11.900 | to Transpluto 8.609]
+  - Dec Juno–Quaoar 5:6:11 0.126% (00:00 0.033%, 24:00 0.238%)  [base 19.165 | to Juno 15.950 | to Quaoar 35.115]
+  - Dec Juno–Mars φ: φ/φ² 0.141% (00:00 0.197%, 24:00 0.109%)  [base 25.845 | to Juno 15.950 | to Mars 41.795]
+  - RA Ceres–Rahu 1:7:8 0.142% (00:00 2.233%, 24:00 2.325%)  [base 10.680 | to Ceres 85.334 | to Rahu 74.654]
+  - Dec Gonggong–Sedna 3:5:8 0.143% (00:00 1.052%, 24:00 0.721%)  [base 19.862 | to Gonggong 31.763 | to Sedna 11.900]
+
+### Mercury — RA 37.770, Dec +12.615
+- **Numbers (6):**
+  - Dec to Arcturus ★ = 59/9 (6.5564, off +0.0008; 11:58–12:06)
+  - Dec to Spica ★ = 214/9 (23.7788, off +0.0010; 11:54–12:02)
+  - Flat to Transpluto = 1037/9 (115.2230, off +0.0008; 11:59–12:02)
+  - Flat to Pluto = 996/9 (110.6651, off -0.0015; 12:00–12:02)
+  - Flat to Saturn = whole 124 (124.0018, off +0.0018; 11:58–12:00)
+  - Sky to Algorab ★ = 1354/9 (150.4427, off -0.0017; 11:57–12:00)
+- **Star chords (15):**
+  - Dec Deneb Algedi–Polaris 3:8:11 0.005% (00:00 1.604%, 24:00 1.579%)  [base 105.390 | to Deneb Algedi 28.744 | to Polaris 76.647]
+  - RA Regulus–Sirius 4:5:9 0.008% (00:00 1.287%, 24:00 1.320%)  [base 50.812 | to Regulus 114.322 | to Sirius 63.510]
+  - Sky Alkaid–Altair 30:35:42 0.029% (00:00 1.147%, 24:00 1.099%)  [base 83.812 | to Alkaid 117.330 | to Altair 97.752]
+  - RA Capella–Castor 5:6:11 0.050% (00:00 2.037%, 24:00 1.964%)  [base 34.479 | to Capella 41.396 | to Castor 75.875]
+  - Dec Aldebaran–Regulus 1:6:7 0.059% (00:00 122.999%, 24:00 39.537%)  [base 4.540 | to Aldebaran 3.892 | to Regulus 0.648]
+  - Dec Alkaid–Sirius 4:5:9 0.066% (00:00 2.130%, 24:00 1.954%)  [base 66.039 | to Alkaid 36.699 | to Sirius 29.340]
+  - RA Algorab–Capella φ: 2−1/φ/φ²/φ√5 0.066% (00:00 2.013%, 24:00 1.987%)  [base 108.303 | to Algorab 149.698 | to Capella 41.396]
+  - RA Rigel–Spica 1:3:4 0.078% (00:00 1.897%, 24:00 2.161%)  [base 122.673 | to Rigel 40.859 | to Spica 163.532]
+  - Dec Deneb Algedi–Pleiades 2:5:7 0.081% (00:00 3.860%, 24:00 4.260%)  [base 40.232 | to Deneb Algedi 28.744 | to Pleiades 11.488]
+  - RA Aldebaran–Spica φ: 2/φ/φ³/φ³+1 0.107% (00:00 2.463%, 24:00 2.854%)  [base 132.327 | to Aldebaran 31.205 | to Spica 163.532]
+  - RA Algorab–Rigel 3:8:11 0.109% (00:00 2.080%, 24:00 1.970%)  [base 108.839 | to Algorab 149.698 | to Rigel 40.859]
+  - RA Aldebaran–Regulus 3:8:11 0.116% (00:00 2.680%, 24:00 2.625%)  [base 83.117 | to Aldebaran 31.205 | to Regulus 114.322]
+  - Dec Betelgeuse–Rigel 1:3:4 0.117% (00:00 6.694%, 24:00 6.115%)  [base 15.609 | to Betelgeuse 5.209 | to Rigel 20.819]
+  - Dec Alphecca–Fomalhaut 1:3:4 0.135% (00:00 3.204%, 24:00 3.086%)  [base 56.335 | to Alphecca 14.098 | to Fomalhaut 42.237]
+  - Dec Algorab–Rigel 2:5:7 0.144% (00:00 1.455%, 24:00 1.745%)  [base 8.315 | to Algorab 29.134 | to Rigel 20.819]
+- **Chords with two other natal bodies (13):**
+  - RA Eris–Rahu 1:8:9 0.023% (00:00 8.589%, 24:00 7.498%)  [base 104.405 | to Eris 11.598 | to Rahu 92.807]
+  - RA Juno–Pluto 3:8:11 0.027% (00:00 1.769%, 24:00 1.781%)  [base 76.542 | to Juno 28.711 | to Pluto 105.253]
+  - RA Orcus–Pallas 4:5:9 0.035% (00:00 0.625%, 24:00 0.737%)  [base 63.621 | to Orcus 114.499 | to Pallas 50.879]
+  - RA Pluto–Quaoar 1:5:6 0.046% (00:00 0.826%, 24:00 0.744%)  [base 21.060 | to Pluto 105.253 | to Quaoar 126.313]
+  - Sky Chiron–Uranus 1:3:4 0.049% (00:00 9.161%, 24:00 7.938%)  [base 28.956 | to Chiron 38.609 | to Uranus 9.657]
+  - Sky Ketu–Neptune 1:√2:1+√2 0.066% (00:00 1.599%, 24:00 1.505%)  [base 37.839 | to Ketu 91.313 | to Neptune 53.477]
+  - Dec Juno–Ketu 2:5:7 0.071% (00:00 2.678%, 24:00 2.678%)  [base 22.024 | to Juno 8.816 | to Ketu 30.840]
+  - Dec Orcus–Vesta φ: 2−1/φ/φ²/φ√5 0.073% (00:00 1.316%, 24:00 1.149%)  [base 8.473 | to Orcus 22.166 | to Vesta 30.639]
+  - Dec Ketu–Makemake 2:5:7 0.089% (00:00 3.619%, 24:00 3.999%)  [base 43.165 | to Ketu 30.840 | to Makemake 12.325]
+  - Dec Gonggong–Makemake 1:2:3 0.090% (00:00 4.038%, 24:00 4.082%)  [base 36.953 | to Gonggong 24.628 | to Makemake 12.325]
+  - Dec Neptune–Sun 3:8:11 0.092% (00:00 4.805%, 24:00 4.988%)  [base 26.142 | to Neptune 19.008 | to Sun 7.134]
+  - RA Chiron–Sedna 1:2:3 0.108% (00:00 6.054%, 24:00 6.917%)  [base 56.971 | to Chiron 37.995 | to Sedna 18.977]
+  - RA Gonggong–Pallas 5:6:11 0.135% (00:00 2.274%, 24:00 2.640%)  [base 112.015 | to Gonggong 61.137 | to Pallas 50.879]
+
+### Venus — RA 89.603, Dec +25.008
+- **Numbers (8):**
+  - RA to Orcus = 564/9 (62.6669, off +0.0003; 11:59–12:02)
+  - RA to Castor ★ = 17√2 (24.0420, off +0.0004; 11:59–12:02)
+  - RA to Mars = 1313/9 (145.8878, off -0.0011; 11:59–12:04)
+  - Dec to Ceres = whole 1 (1.0004, off +0.0004; 11:47–12:20)
+  - Flat to Arcturus ★ = 88√2 (124.4490, off -0.0018; 11:56–12:00)
+  - Sky to Orcus = 631/9 (70.1108, off -0.0004; 11:57–12:02)
+  - Sky to Altair ★ = 1228/9 (136.4441, off -0.0004; 11:57–12:04)
+  - Sky to Rigel ★ = 314/9 (34.8895, off +0.0006; 11:52–12:04)
+- **Star chords (9):**
+  - Dec Algol–Sirius φ: 2−1/φ/φ²/φ√5 0.033% (00:00 0.206%, 24:00 0.102%)  [base 57.678 | to Algol 15.946 | to Sirius 41.733]
+  - Dec Antares–Procyon 5:8:13 0.035% — held all day  [base 31.652 | to Antares 51.441 | to Procyon 19.789]
+  - RA Castor–Regulus 5:8:13 0.052% (00:00 2.730%, 24:00 2.761%)  [base 38.447 | to Castor 24.042 | to Regulus 62.489]
+  - RA Algol–Vega 1:3:4 0.072% (00:00 1.652%, 24:00 1.452%)  [base 127.794 | to Algol 42.567 | to Vega 170.361]
+  - Dec Antares–Polaris 4:5:9 0.074% — held all day  [base 115.695 | to Antares 51.441 | to Polaris 64.254]
+  - RA Polaris–Regulus 5:6:11 0.101% (00:00 2.445%, 24:00 2.205%)  [base 114.511 | to Polaris 52.022 | to Regulus 62.489]
+  - Dec Aldebaran–Vega φ: φ/φ² 0.141% (00:00 0.522%, 24:00 0.155%)  [base 22.275 | to Aldebaran 8.501 | to Vega 13.774]
+  - Flat Procyon–Spica 12:33:44 0.144% (00:00 1.712%, 24:00 1.455%)  [base 88.022 | to Procyon 32.054 | to Spica 117.411]
+  - RA Alphecca–Castor 1:5:6 0.146% (00:00 2.822%, 24:00 2.663%)  [base 120.034 | to Alphecca 144.076 | to Castor 24.042]
+- **Chords with two other natal bodies (13):**
+  - Dec Juno–Sedna φ: 2/φ/φ³/φ³+1 0.014% (00:00 1.711%, 24:00 1.762%)  [base 4.050 | to Juno 21.209 | to Sedna 17.159]
+  - Dec Haumea–Sedna 5:6:11 0.021% (00:00 0.243%, 24:00 0.227%)  [base 9.358 | to Haumea 7.800 | to Sedna 17.159]
+  - RA Chiron–Sun 3:5:8 0.025% (00:00 0.353%, 24:00 0.406%)  [base 56.147 | to Chiron 89.827 | to Sun 33.680]
+  - Dec Saturn–Sun 1:8:9 0.026% (00:00 1.952%, 24:00 1.973%)  [base 42.055 | to Saturn 47.313 | to Sun 5.258]
+  - Dec Pallas–Uranus 5:6:11 0.070% (00:00 0.377%, 24:00 0.486%)  [base 11.698 | to Pallas 25.745 | to Uranus 14.047]
+  - RA Eris–Transpluto 1:1:2 0.079% (00:00 2.023%, 24:00 2.170%)  [base 126.812 | to Eris 63.431 | to Transpluto 63.381]
+  - Dec Pallas–Sedna 1:2:3 0.081% (00:00 0.780%, 24:00 0.595%)  [base 8.586 | to Pallas 25.745 | to Sedna 17.159]
+  - Dec Haumea–Uranus 4:5:9 0.106% (00:00 0.498%, 24:00 0.228%)  [base 6.247 | to Haumea 7.800 | to Uranus 14.047]
+  - Sky Gonggong–Rahu 1:3:4 0.109% (00:00 2.023%, 24:00 2.188%)  [base 154.119 | to Gonggong 115.715 | to Rahu 38.546]
+  - Dec Jupiter–Rahu 1:5:6 0.116% (00:00 0.140%, 24:00 0.345%)  [base 33.877 | to Jupiter 40.661 | to Rahu 6.783]
+  - Dec Chiron–Orcus φ: φ/φ² 0.128% — held all day  [base 13.211 | to Chiron 21.348 | to Orcus 34.559]
+  - RA Chiron–Mars 5:8:13 0.145% (00:00 0.893%, 24:00 1.201%)  [base 56.061 | to Chiron 89.827 | to Mars 145.888]
+  - RA Rahu–Uranus 2:3:5 0.148% (00:00 2.510%, 24:00 2.856%)  [base 102.526 | to Rahu 40.974 | to Uranus 61.552]
+
+### Mars — RA 303.715, Dec -22.045
+- **Numbers (6):**
+  - RA to Orcus = 1363/9 (151.4453, off +0.0009; 11:50–12:03)
+  - RA to Venus = 1313/9 (145.8878, off -0.0011; 11:59–12:04)
+  - Dec to Algol ★ = whole 63 (62.9993, off -0.0007; 10:12–12:50)
+  - Flat to Makemake = 84√2 (118.7921, off -0.0018; 12:00–12:14)
+  - Flat to Aldebaran ★ = 81φ (131.0588, off -0.0019; 11:46–12:00)
+  - Sky to Neptune = whole 45 (44.9986, off -0.0014; 11:47–12:02)
+- **Star chords (10):**
+  - Dec Altair–Arcturus 1:3:4 0.011% — held all day  [base 10.303 | to Altair 30.914 | to Arcturus 41.217]
+  - Dec Alkaid–Procyon φ: φ/φ² 0.043% — held all day  [base 44.096 | to Alkaid 71.360 | to Procyon 27.264]
+  - Dec Capella–Regulus 1:1:2 0.049% — held all day  [base 34.029 | to Capella 68.042 | to Regulus 34.013]
+  - Dec Bellatrix–Pleiades 5:8:13 0.050% — held all day  [base 17.755 | to Bellatrix 28.394 | to Pleiades 46.149]
+  - RA Antares–Polaris 3:5:8 0.066% (00:00 0.485%, 24:00 0.658%)  [base 150.223 | to Antares 56.357 | to Polaris 93.866]
+  - Dec Altair–Capella 5:6:11 0.084% — held all day  [base 37.128 | to Altair 30.914 | to Capella 68.042]
+  - Dec Rigel–Sirius 5:8:13 0.095% (00:00 0.202%, 24:00 0.378%)  [base 8.521 | to Rigel 13.842 | to Sirius 5.321]
+  - RA Arcturus–Vega 3:8:11 0.099% (00:00 0.913%, 24:00 0.736%)  [base 65.327 | to Arcturus 89.800 | to Vega 24.473]
+  - Dec Arcturus–Betelgeuse 2:5:7 0.128% (00:00 0.182%, 24:00 0.077%)  [base 11.766 | to Arcturus 41.217 | to Betelgeuse 29.452]
+  - RA Alkaid–Alphecca φ: 2−1/φ/φ²/φ√5 0.135% (00:00 0.416%, 24:00 0.159%)  [base 26.787 | to Alkaid 96.824 | to Alphecca 70.036]
+- **Chords with two other natal bodies (11):**
+  - Dec Makemake–Rahu 1:6:7 0.060% — held all day  [base 6.716 | to Makemake 46.986 | to Rahu 40.270]
+  - Dec Makemake–Neptune 1:2:3 0.086% — held all day  [base 31.333 | to Makemake 46.986 | to Neptune 15.653]
+  - Flat Rahu–Vesta 1:5:6 0.089% (00:00 0.852%, 24:00 0.818%)  [base 148.265 | to Rahu 177.760 | to Vesta 29.646]
+  - Dec Eris–Gonggong 1:1:2 0.090% (00:00 0.254%, 24:00 0.064%)  [base 10.024 | to Eris 20.056 | to Gonggong 10.033]
+  - RA Makemake–Transpluto φ: 2−1/φ/φ²/φ√5 0.116% (00:00 0.086%, 24:00 0.325%)  [base 41.626 | to Makemake 109.105 | to Transpluto 150.731]
+  - Dec Eris–Quaoar 1:2:3 0.118% (00:00 0.110%, 24:00 0.333%)  [base 13.376 | to Eris 20.056 | to Quaoar 6.680]
+  - RA Juno–Saturn φ: 2−1/φ/φ²/φ√5 0.125% (00:00 0.981%, 24:00 0.758%)  [base 90.272 | to Juno 65.344 | to Saturn 24.928]
+  - RA Chiron–Pluto 1:5:6 0.128% (00:00 2.314%, 24:00 2.067%)  [base 67.258 | to Chiron 56.061 | to Pluto 11.198]
+  - RA Quaoar–Uranus φ: 2−1/φ/φ²/φ√5 0.139% (00:00 0.707%, 24:00 1.010%)  [base 116.594 | to Quaoar 32.258 | to Uranus 84.335]
+  - Dec Juno–Sun φ: φ/φ² 0.141% (00:00 0.197%, 24:00 0.109%)  [base 15.950 | to Juno 25.845 | to Sun 41.795]
+  - RA Chiron–Venus 5:8:13 0.145% (00:00 0.893%, 24:00 1.201%)  [base 89.827 | to Chiron 56.061 | to Venus 145.888]
+
+### Jupiter — RA 224.693, Dec -15.652
+- **Numbers (11):**
+  - RA to Arcturus ★ = 97/9 (10.7779, off +0.0002; 11:39–12:25)
+  - RA to Polaris ★ = 1556/9 (172.8881, off -0.0008; 11:46–12:34)
+  - RA to Neptune = 1105/9 (122.7770, off -0.0008; 11:48–12:29)
+  - RA to Antares ★ = 204/9 (22.6654, off -0.0013; 11:52–12:39)
+  - RA to Algorab ★ = 335/9 (37.2241, off +0.0019; 11:59–12:46)
+  - Dec to Bellatrix ★ = whole 22 (22.0011, off +0.0011; 11:19–14:15)
+  - Flat to Gonggong = whole 112 (112.0000, off -0.0000; 11:37–12:24)
+  - Flat to Sun = 1552/9 (172.4431, off -0.0013; 11:56–12:00)
+  - Flat to Polaris ★ = 143√2 (202.2309, off -0.0017; 11:55–13:04)
+  - Sky to Ceres = 820/9 (91.1105, off -0.0006; 11:52–12:04)
+  - Sky to Aldebaran ★ = 1410/9 (156.6658, off -0.0008; 11:26–12:14)
+- **Star chords (8):**
+  - Dec Equator–Procyon 1:3:4 0.028% — held all day  [base 5.219 | to Equator 15.652 | to Procyon 20.871]
+  - RA Algol–Castor 3:5:8 0.029% — held all day  [base 66.609 | to Algol 177.657 | to Castor 111.048]
+  - RA Alphecca–Arcturus 5:6:11 0.051% (00:00 1.216%, 24:00 1.296%)  [base 19.764 | to Alphecca 8.986 | to Arcturus 10.778]
+  - Dec Aldebaran–Pleiades φ: 2/φ/φ³/φ³+1 0.058% — held all day  [base 7.596 | to Aldebaran 32.160 | to Pleiades 39.756]
+  - Dec Algol–Equator φ: 2−1/φ/φ²/φ√5 0.060% (00:00 0.166%, 24:00 0.043%)  [base 40.954 | to Algol 56.606 | to Equator 15.652]
+  - RA Antares–Betelgeuse 1:6:7 0.065% (00:00 0.254%, 24:00 0.380%)  [base 158.570 | to Antares 22.665 | to Betelgeuse 135.904]
+  - Dec Algol–Arcturus 5:8:13 0.078% — held all day  [base 21.782 | to Algol 56.606 | to Arcturus 34.824]
+  - Sky Algorab–Bellatrix 1:3:4 0.098% (00:00 0.078%, 24:00 0.258%)  [base 107.285 | to Algorab 35.727 | to Bellatrix 142.967]
+- **Chords with two other natal bodies (8):**
+  - Dec Saturn–Uranus 1:4:5 0.013% (00:00 0.314%, 24:00 0.281%)  [base 33.266 | to Saturn 6.653 | to Uranus 26.613]
+  - Dec Chiron–Sun 5:6:11 0.023% (00:00 0.698%, 24:00 0.620%)  [base 16.090 | to Chiron 19.312 | to Sun 35.402]
+  - Flat Orcus–Saturn 3:4:7 0.024% (00:00 0.172%, 24:00 0.142%)  [base 127.159 | to Orcus 72.680 | to Saturn 54.502]
+  - Sky Juno–Neptune 1:5:6 0.033% (00:00 0.898%, 24:00 0.897%)  [base 23.843 | to Juno 143.014 | to Neptune 119.210]
+  - Dec Gonggong–Ketu 1:√2:1+√2 0.047% (00:00 1.343%, 24:00 1.108%)  [base 6.212 | to Gonggong 3.640 | to Ketu 2.572]
+  - Dec Rahu–Venus 1:5:6 0.116% (00:00 0.140%, 24:00 0.345%)  [base 6.783 | to Rahu 33.877 | to Venus 40.661]
+  - RA Juno–Saturn 3:5:8 0.128% (00:00 0.088%, 24:00 0.344%)  [base 90.272 | to Juno 144.366 | to Saturn 54.094]
+  - Sky Chiron–Saturn φ: φ/φ² 0.143% (00:00 0.152%, 24:00 0.134%)  [base 83.086 | to Chiron 134.243 | to Saturn 51.329]
+
+### Saturn — RA 278.787, Dec -22.305
+- **Numbers (8):**
+  - RA to Polaris ★ = 84√2 (118.7938, off -0.0001; 11:09–13:08)
+  - RA to Vesta = 40/9 (4.4443, off -0.0002; 10:55–13:21)
+  - RA to Betelgeuse ★ = whole 170 (170.0015, off +0.0015; 10:21–12:13)
+  - Dec to Transpluto = 301/9 (33.4460, off +0.0016; 00:00–15:47)
+  - Flat to Algol ★ = whole 143 (143.0012, off +0.0012; 10:21–12:23)
+  - Flat to Arcturus ★ = whole 77 (76.9982, off -0.0018; 09:49–12:08)
+  - Flat to Mercury = whole 124 (124.0018, off +0.0018; 11:58–12:00)
+  - Sky to Neptune = 48√2 (67.8832, off +0.0009; 10:54–12:25)
+- **Star chords (6):**
+  - Dec Betelgeuse–Spica 3:5:8 0.001% — held all day  [base 18.570 | to Betelgeuse 29.711 | to Spica 11.142]
+  - Dec Alkaid–Bellatrix 2:3:5 0.033% — held all day  [base 42.966 | to Alkaid 71.620 | to Bellatrix 28.654]
+  - Dec Equator–Polaris 1:4:5 0.047% — held all day  [base 89.262 | to Equator 22.305 | to Polaris 111.567]
+  - RA Alkaid–Deneb Algedi 2:3:5 0.093% (00:00 0.004%, 24:00 0.181%)  [base 119.871 | to Alkaid 71.896 | to Deneb Algedi 47.975]
+  - Dec Equator–Sirius 1:3:4 0.101% — held all day  [base 16.724 | to Equator 22.305 | to Sirius 5.580]
+  - Dec Alkaid–Procyon 5:8:13 0.131% — held all day  [base 44.096 | to Alkaid 71.620 | to Procyon 27.524]
+- **Chords with two other natal bodies (9):**
+  - Dec Jupiter–Uranus 1:4:5 0.013% (00:00 0.314%, 24:00 0.281%)  [base 26.613 | to Jupiter 6.653 | to Uranus 33.266]
+  - RA Chiron–Gonggong 2:5:7 0.015% — held all day  [base 23.142 | to Chiron 80.989 | to Gonggong 57.847]
+  - Flat Jupiter–Orcus 3:4:7 0.024% (00:00 0.172%, 24:00 0.142%)  [base 72.680 | to Jupiter 54.502 | to Orcus 127.159]
+  - Dec Sun–Venus 1:8:9 0.026% (00:00 1.952%, 24:00 1.973%)  [base 5.258 | to Sun 42.055 | to Venus 47.313]
+  - RA Neptune–Pluto 1:4:5 0.058% (00:00 0.171%, 24:00 0.054%)  [base 54.952 | to Neptune 68.683 | to Pluto 13.730]
+  - Sky Ketu–Transpluto φ: 2/φ/φ³/φ³+1 0.068% — held all day  [base 157.221 | to Ketu 30.044 | to Transpluto 127.183]
+  - RA Juno–Mars φ: 2−1/φ/φ²/φ√5 0.125% (00:00 0.981%, 24:00 0.758%)  [base 65.344 | to Juno 90.272 | to Mars 24.928]
+  - RA Juno–Jupiter 3:5:8 0.128% (00:00 0.088%, 24:00 0.344%)  [base 144.366 | to Juno 90.272 | to Jupiter 54.094]
+  - Sky Chiron–Jupiter φ: φ/φ² 0.143% (00:00 0.152%, 24:00 0.134%)  [base 134.243 | to Chiron 83.086 | to Jupiter 51.329]
+
+### Uranus — RA 28.050, Dec +10.961
+- **Numbers (4):**
+  - Dec to Sedna = 28/9 (3.1115, off +0.0004; 08:14–14:29)
+  - Dec to Betelgeuse ★ = 32/9 (3.5548, off -0.0007; 10:21–15:38)
+  - Sky to Vega ★ = 876/9 (97.3337, off +0.0003; 09:42–13:41)
+  - Sky to Algol ★ = 309/9 (34.3349, off +0.0015; 11:43–14:16)
+- **Star chords (17):**
+  - Dec Altair–Equator φ: 2/φ/φ³/φ³+1 0.042% (00:00 0.479%, 24:00 0.388%)  [base 8.868 | to Altair 2.093 | to Equator 10.961]
+  - Sky Antares–Regulus 5:6:7 0.043% — held all day  [base 99.945 | to Antares 139.895 | to Regulus 119.882]
+  - Dec Bellatrix–Sirius 1:5:6 0.048% (00:00 0.247%, 24:00 0.147%)  [base 23.073 | to Bellatrix 4.612 | to Sirius 27.686]
+  - RA Alkaid–Capella 2:5:7 0.049% — held all day  [base 127.726 | to Alkaid 178.841 | to Capella 51.115]
+  - Dec Capella–Pleiades 3:5:8 0.054% — held all day  [base 21.893 | to Capella 35.035 | to Pleiades 13.143]
+  - RA Arcturus–Vega 3:5:8 0.064% — held all day  [base 65.327 | to Arcturus 174.136 | to Vega 108.809]
+  - Sky Antares–Arcturus 6:15:16 0.065% — held all day  [base 55.974 | to Antares 139.895 | to Arcturus 149.318]
+  - Dec Alkaid–Rigel 1:2:3 0.066% — held all day  [base 57.518 | to Alkaid 38.354 | to Rigel 19.164]
+  - RA Aldebaran–Rigel φ: 2/φ/φ³/φ³+1 0.069% — held all day  [base 9.654 | to Aldebaran 40.925 | to Rigel 50.579]
+  - Dec Alkaid–Castor 5:6:11 0.080% — held all day  [base 17.426 | to Alkaid 38.354 | to Castor 20.928]
+  - Dec Equator–Pleiades 5:6:11 0.081% (00:00 0.072%, 24:00 0.232%)  [base 24.104 | to Equator 10.961 | to Pleiades 13.143]
+  - RA Capella–Deneb Algedi 5:6:11 0.082% (00:00 0.171%, 24:00 0.007%)  [base 112.404 | to Capella 51.115 | to Deneb Algedi 61.288]
+  - RA Deneb Algedi–Procyon 1:√2:1+√2 0.108% (00:00 0.178%, 24:00 0.039%)  [base 148.057 | to Deneb Algedi 61.288 | to Procyon 86.768]
+  - Dec Arcturus–Pleiades 3:5:8 0.109% (00:00 0.001%, 24:00 0.218%)  [base 4.932 | to Arcturus 8.211 | to Pleiades 13.143]
+  - Dec Alkaid–Deneb Algedi 1:√2:1+√2 0.113% (00:00 0.171%, 24:00 0.056%)  [base 65.443 | to Alkaid 38.354 | to Deneb Algedi 27.090]
+  - Dec Fomalhaut–Spica 5:6:11 0.115% (00:00 0.156%, 24:00 0.074%)  [base 18.458 | to Fomalhaut 40.583 | to Spica 22.124]
+  - Dec Arcturus–Equator 3:4:7 0.122% (00:00 0.073%, 24:00 0.315%)  [base 19.172 | to Arcturus 8.211 | to Equator 10.961]
+- **Chords with two other natal bodies (16):**
+  - RA Neptune–Sedna 1:√2:1+√2 0.006% — held all day  [base 69.277 | to Neptune 40.581 | to Sedna 28.697]
+  - Dec Jupiter–Saturn 1:4:5 0.013% (00:00 0.314%, 24:00 0.281%)  [base 6.653 | to Jupiter 26.613 | to Saturn 33.266]
+  - Dec Pallas–Quaoar 4:5:9 0.043% (00:00 0.680%, 24:00 0.764%)  [base 14.628 | to Pallas 11.698 | to Quaoar 26.326]
+  - RA Makemake–Transpluto 1:3:4 0.044% — held all day  [base 41.626 | to Makemake 166.560 | to Transpluto 124.933]
+  - Sky Chiron–Mercury 1:3:4 0.049% (00:00 9.161%, 24:00 7.938%)  [base 38.609 | to Chiron 28.956 | to Mercury 9.657]
+  - Sky Ketu–Rahu 5:6:11 0.061% (00:00 0.163%, 24:00 0.020%)  [base 180.000 | to Ketu 81.791 | to Rahu 98.209]
+  - Dec Pallas–Venus 5:6:11 0.070% (00:00 0.377%, 24:00 0.486%)  [base 25.745 | to Pallas 11.698 | to Venus 14.047]
+  - RA Makemake–Rahu 5:8:13 0.072% — held all day  [base 64.033 | to Makemake 166.560 | to Rahu 102.526]
+  - Sky Chiron–Vesta 1:3:4 0.077% — held all day  [base 86.801 | to Chiron 28.956 | to Vesta 115.734]
+  - Flat Chiron–Sun 1:1:2 0.079% (00:00 1.571%, 24:00 1.697%)  [base 58.407 | to Chiron 29.202 | to Sun 29.225]
+  - Dec Chiron–Ketu 1:3:4 0.085% — held all day  [base 21.885 | to Chiron 7.301 | to Ketu 29.186]
+  - RA Ceres–Chiron 1:4:5 0.095% (00:00 0.007%, 24:00 0.181%)  [base 141.481 | to Ceres 113.206 | to Chiron 28.275]
+  - Dec Haumea–Venus 4:5:9 0.106% (00:00 0.498%, 24:00 0.228%)  [base 7.800 | to Haumea 6.247 | to Venus 14.047]
+  - RA Mars–Quaoar φ: 2−1/φ/φ²/φ√5 0.139% (00:00 0.707%, 24:00 1.010%)  [base 32.258 | to Mars 84.335 | to Quaoar 116.594]
+  - Sky Juno–Transpluto 1:6:7 0.141% (00:00 0.877%, 24:00 1.187%)  [base 141.120 | to Juno 20.136 | to Transpluto 120.987]
+  - RA Rahu–Venus 2:3:5 0.148% (00:00 2.510%, 24:00 2.856%)  [base 40.974 | to Rahu 102.526 | to Venus 61.552]
+
+### Neptune — RA 347.469, Dec -6.392
+- **Numbers (14):**
+  - RA to Polaris ★ = 451/9 (50.1111, off +0.0000; 04:34–14:02)
+  - RA to Quaoar = φ^9 (76.0128, off -0.0004; 10:45–13:49)
+  - RA to Antares ★ = 901/9 (100.1116, off +0.0005; 08:05–14:26)
+  - RA to Arcturus ★ = 1202/9 (133.5549, off -0.0006; 09:50–16:19)
+  - RA to Jupiter = 1105/9 (122.7770, off -0.0008; 11:48–12:29)
+  - RA to Algorab ★ = whole 160 (160.0011, off +0.0011; 07:06–13:31)
+  - Dec to Makemake = 282/9 (31.3329, off -0.0004; 05:31–16:19)
+  - Dec to Sirius ★ = 93/9 (10.3322, off -0.0011; 08:23–24:00)
+  - Dec to Pallas = 4√2 (5.6556, off -0.0012; 11:49–12:46)
+  - Flat to Chiron = 143/9 (15.8898, off +0.0009; 08:42–13:15)
+  - Sky to Pleiades ★ = 667/9 (74.1119, off +0.0007; 10:04–16:08)
+  - Sky to Saturn = 48√2 (67.8832, off +0.0009; 10:54–12:25)
+  - Sky to Mars = whole 45 (44.9986, off -0.0014; 11:47–12:02)
+  - Sky to Ceres = 1334/9 (148.2238, off +0.0016; 11:43–12:02)
+- **Star chords (14):**
+  - RA Aldebaran–Capella 1:8:9 0.023% — held all day  [base 10.191 | to Aldebaran 81.505 | to Capella 91.696]
+  - Dec Arcturus–Equator 1:3:4 0.026% — held all day  [base 19.172 | to Arcturus 25.564 | to Equator 6.392]
+  - Dec Fomalhaut–Procyon 1:2:3 0.029% — held all day  [base 34.840 | to Fomalhaut 23.229 | to Procyon 11.611]
+  - RA Betelgeuse–Regulus 5:8:13 0.033% — held all day  [base 63.304 | to Betelgeuse 101.319 | to Regulus 164.622]
+  - Flat Bellatrix–Regulus 3:4:7 0.066% — held all day  [base 71.037 | to Bellatrix 94.669 | to Regulus 165.643]
+  - Dec Castor–Polaris 2:3:5 0.085% — held all day  [base 57.373 | to Castor 38.281 | to Polaris 95.654]
+  - Dec Alphecca–Bellatrix 5:8:13 0.102% — held all day  [base 20.365 | to Alphecca 33.106 | to Bellatrix 12.741]
+  - Dec Equator–Sirius φ: φ/φ² 0.104% (00:00 0.176%, 24:00 0.032%)  [base 16.724 | to Equator 6.392 | to Sirius 10.332]
+  - RA Antares–Polaris 1:2:3 0.110% — held all day  [base 150.223 | to Antares 100.112 | to Polaris 50.111]
+  - Dec Aldebaran–Altair 1:2:3 0.113% — held all day  [base 7.639 | to Aldebaran 22.900 | to Altair 15.261]
+  - Dec Arcturus–Procyon 5:6:11 0.140% (00:00 0.115%, 24:00 0.164%)  [base 13.953 | to Arcturus 25.564 | to Procyon 11.611]
+  - Dec Fomalhaut–Sirius 4:5:9 0.141% (00:00 0.115%, 24:00 0.169%)  [base 12.897 | to Fomalhaut 23.229 | to Sirius 10.332]
+  - Dec Bellatrix–Spica 3:8:11 0.144% (00:00 0.226%, 24:00 0.062%)  [base 17.512 | to Bellatrix 12.741 | to Spica 4.771]
+  - Dec Antares–Capella φ: 2−1/φ/φ²/φ√5 0.149% (00:00 0.129%, 24:00 0.169%)  [base 72.429 | to Antares 20.041 | to Capella 52.389]
+- **Chords with two other natal bodies (11):**
+  - Dec Makemake–Sedna 5:6:11 0.005% — held all day  [base 17.091 | to Makemake 31.333 | to Sedna 14.242]
+  - RA Sedna–Uranus 1:√2:1+√2 0.006% — held all day  [base 28.697 | to Sedna 69.277 | to Uranus 40.581]
+  - Sky Juno–Jupiter 1:5:6 0.033% (00:00 0.898%, 24:00 0.897%)  [base 143.014 | to Juno 23.843 | to Jupiter 119.210]
+  - Dec Chiron–Sun 5:8:13 0.040% (00:00 0.535%, 24:00 0.592%)  [base 16.090 | to Chiron 10.052 | to Sun 26.142]
+  - RA Pluto–Saturn 1:4:5 0.058% (00:00 0.171%, 24:00 0.054%)  [base 13.730 | to Pluto 54.952 | to Saturn 68.683]
+  - Sky Ketu–Mercury 1:√2:1+√2 0.066% (00:00 1.599%, 24:00 1.505%)  [base 91.313 | to Ketu 37.839 | to Mercury 53.477]
+  - RA Chiron–Ketu 1:3:4 0.068% — held all day  [base 49.199 | to Chiron 12.306 | to Ketu 36.893]
+  - Dec Juno–Rahu 1:√2:1+√2 0.083% (00:00 1.168%, 24:00 0.999%)  [base 14.425 | to Juno 10.192 | to Rahu 24.617]
+  - Flat Gonggong–Sun 1:6:7 0.085% (00:00 0.576%, 24:00 0.663%)  [base 85.415 | to Gonggong 12.207 | to Sun 73.275]
+  - Dec Makemake–Mars 1:2:3 0.086% — held all day  [base 46.986 | to Makemake 31.333 | to Mars 15.653]
+  - Dec Mercury–Sun 3:8:11 0.092% (00:00 4.805%, 24:00 4.988%)  [base 7.134 | to Mercury 19.008 | to Sun 26.142]
+
+### Pluto — RA 292.517, Dec -21.569
+- **Numbers (9):**
+  - RA to Rigel ★ = 1315/9 (146.1123, off +0.0012; 06:26–13:29)
+  - Dec to Gonggong = 86/9 (9.5563, off +0.0007; 00:00–19:25)
+  - Dec to Haumea = 349/9 (38.7769, off -0.0009; 05:11–24:00)
+  - Flat to Ceres = 98φ (158.5664, off -0.0009; 11:48–12:04)
+  - Flat to Sedna = 1149/9 (127.6656, off -0.0011; 11:11–14:48)
+  - Flat to Mercury = 996/9 (110.6651, off -0.0015; 12:00–12:02)
+  - Flat to Alphecca ★ = 685/9 (76.1127, off +0.0016; 10:41–22:42)
+  - Sky to Fomalhaut ★ = 424/9 (47.1109, off -0.0002; 07:47–17:20)
+  - Sky to Alkaid ★ = 931/9 (103.4460, off +0.0015; 10:05–24:00)
+- **Star chords (11):**
+  - Dec Castor–Rigel 1:3:4 0.014% — held all day  [base 40.092 | to Castor 53.458 | to Rigel 13.366]
+  - RA Alkaid–Deneb Algedi 2:5:7 0.016% — held all day  [base 119.871 | to Alkaid 85.626 | to Deneb Algedi 34.245]
+  - Dec Alphecca–Vega 1:4:5 0.016% — held all day  [base 12.069 | to Alphecca 48.282 | to Vega 60.351]
+  - Dec Aldebaran–Deneb Algedi 1:6:7 0.023% — held all day  [base 32.636 | to Aldebaran 38.076 | to Deneb Algedi 5.441]
+  - Dec Algol–Procyon 3:4:7 0.050% — held all day  [base 35.735 | to Algol 62.523 | to Procyon 26.788]
+  - Dec Alphecca–Betelgeuse 2:3:5 0.050% — held all day  [base 19.307 | to Alphecca 48.282 | to Betelgeuse 28.975]
+  - Dec Regulus–Vega 4:5:9 0.052% — held all day  [base 26.815 | to Regulus 33.536 | to Vega 60.351]
+  - Dec Alphecca–Fomalhaut 1:6:7 0.068% — held all day  [base 56.335 | to Alphecca 48.282 | to Fomalhaut 8.053]
+  - Dec Altair–Pleiades 1:2:3 0.109% — held all day  [base 15.235 | to Altair 30.437 | to Pleiades 45.673]
+  - Dec Betelgeuse–Capella 3:4:7 0.113% — held all day  [base 38.590 | to Betelgeuse 28.975 | to Capella 67.565]
+  - RA Deneb Algedi–Spica 3:8:11 0.115% — held all day  [base 125.460 | to Deneb Algedi 34.245 | to Spica 91.215]
+- **Chords with two other natal bodies (10):**
+  - Dec Quaoar–Vesta 3:4:7 0.001% (00:00 1.150%, 24:00 1.223%)  [base 2.659 | to Quaoar 6.204 | to Vesta 3.545]
+  - Dec Juno–Makemake 5:6:11 0.003% (00:00 0.606%, 24:00 0.600%)  [base 21.141 | to Juno 25.368 | to Makemake 46.510]
+  - RA Juno–Mercury 3:8:11 0.027% (00:00 1.769%, 24:00 1.781%)  [base 28.711 | to Juno 76.542 | to Mercury 105.253]
+  - RA Mercury–Quaoar 1:5:6 0.046% (00:00 0.826%, 24:00 0.744%)  [base 126.313 | to Mercury 105.253 | to Quaoar 21.060]
+  - RA Neptune–Saturn 1:4:5 0.058% (00:00 0.171%, 24:00 0.054%)  [base 68.683 | to Neptune 54.952 | to Saturn 13.730]
+  - RA Eris–Pallas 2:3:5 0.065% (00:00 0.348%, 24:00 0.472%)  [base 62.477 | to Eris 93.655 | to Pallas 156.132]
+  - Flat Rahu–Vesta 1:8:9 0.087% (00:00 0.311%, 24:00 0.128%)  [base 148.265 | to Rahu 166.758 | to Vesta 18.517]
+  - Dec Ceres–Sedna φ: φ/φ² 0.125% (00:00 0.262%, 24:00 0.514%)  [base 18.159 | to Ceres 47.578 | to Sedna 29.419]
+  - RA Chiron–Mars 1:5:6 0.128% (00:00 2.314%, 24:00 2.067%)  [base 56.061 | to Chiron 67.258 | to Mars 11.198]
+  - Flat Eris–Transpluto 6:8:9 0.142% (00:00 0.125%, 24:00 0.157%)  [base 127.490 | to Eris 95.680 | to Transpluto 143.316]
+
+### Chiron — RA 359.775, Dec +3.660
+- **Numbers (6):**
+  - Dec to Pleiades ★ = 184/9 (20.4438, off -0.0007; 08:04–13:57)
+  - Flat to Alkaid ★ = 1436/9 (159.5555, off -0.0001; 10:19–13:51)
+  - Flat to Neptune = 143/9 (15.8898, off +0.0009; 08:42–13:15)
+  - Sky to Antares ★ = 1005/9 (111.6666, off -0.0000; 10:44–13:18)
+  - Sky to Vega ★ = 723/9 (80.3327, off -0.0006; 09:55–15:57)
+  - Sky to Polaris ★ = 53φ (85.7571, off +0.0013; 10:55–16:43)
+- **Star chords (12):**
+  - RA Algol–Polaris 1:4:5 0.035% (00:00 0.129%, 24:00 0.189%)  [base 9.455 | to Algol 47.260 | to Polaris 37.805]
+  - Dec Sirius–Spica 3:8:11 0.044% — held all day  [base 5.561 | to Sirius 20.384 | to Spica 14.823]
+  - Dec Capella–Castor 1:2:3 0.050% — held all day  [base 14.107 | to Capella 42.336 | to Castor 28.229]
+  - Dec Algol–Alphecca φ: φ/φ² 0.052% — held all day  [base 14.240 | to Algol 37.294 | to Alphecca 23.053]
+  - Dec Arcturus–Equator φ: 2/φ/φ³/φ³+1 0.052% (00:00 0.331%, 24:00 0.222%)  [base 19.172 | to Arcturus 15.512 | to Equator 3.660]
+  - RA Algol–Alphecca 3:8:11 0.056% — held all day  [base 173.357 | to Algol 47.260 | to Alphecca 126.097]
+  - RA Pleiades–Regulus 3:5:8 0.081% — held all day  [base 95.227 | to Pleiades 57.090 | to Regulus 152.316]
+  - RA Aldebaran–Regulus 5:6:11 0.093% — held all day  [base 83.117 | to Aldebaran 69.199 | to Regulus 152.316]
+  - RA Regulus–Sirius 1:2:3 0.118% — held all day  [base 50.812 | to Regulus 152.316 | to Sirius 101.504]
+  - Dec Alkaid–Castor φ: φ/φ² 0.118% — held all day  [base 17.426 | to Alkaid 45.655 | to Castor 28.229]
+  - Dec Algorab–Polaris φ: 2/φ/φ³/φ³+1 0.146% (00:00 0.196%, 24:00 0.096%)  [base 105.780 | to Algorab 20.178 | to Polaris 85.602]
+  - RA Fomalhaut–Vega φ: 2/φ/φ³/φ³+1 0.147% (00:00 0.257%, 24:00 0.036%)  [base 65.172 | to Fomalhaut 15.362 | to Vega 80.534]
+- **Chords with two other natal bodies (17):**
+  - RA Gonggong–Saturn 2:5:7 0.015% — held all day  [base 57.847 | to Gonggong 23.142 | to Saturn 80.989]
+  - Dec Jupiter–Sun 5:6:11 0.023% (00:00 0.698%, 24:00 0.620%)  [base 35.402 | to Jupiter 19.312 | to Sun 16.090]
+  - RA Sun–Venus 3:5:8 0.025% (00:00 0.353%, 24:00 0.406%)  [base 33.680 | to Sun 56.147 | to Venus 89.827]
+  - RA Sedna–Vesta 2:3:5 0.028% — held all day  [base 142.404 | to Sedna 56.971 | to Vesta 85.433]
+  - Dec Haumea–Vesta 5:8:13 0.033% (00:00 0.144%, 24:00 0.216%)  [base 35.232 | to Haumea 13.548 | to Vesta 21.684]
+  - Dec Neptune–Sun 5:8:13 0.040% (00:00 0.535%, 24:00 0.592%)  [base 26.142 | to Neptune 10.052 | to Sun 16.090]
+  - Sky Mercury–Uranus 1:3:4 0.049% (00:00 9.161%, 24:00 7.938%)  [base 9.657 | to Mercury 38.609 | to Uranus 28.956]
+  - RA Ketu–Neptune 1:3:4 0.068% — held all day  [base 36.893 | to Ketu 49.199 | to Neptune 12.306]
+  - Sky Uranus–Vesta 1:3:4 0.077% — held all day  [base 115.734 | to Uranus 28.956 | to Vesta 86.801]
+  - Flat Sun–Uranus 1:1:2 0.079% (00:00 1.571%, 24:00 1.697%)  [base 29.225 | to Sun 58.407 | to Uranus 29.202]
+  - Dec Ketu–Uranus 1:3:4 0.085% — held all day  [base 29.186 | to Ketu 21.885 | to Uranus 7.301]
+  - RA Ceres–Uranus 1:4:5 0.095% (00:00 0.007%, 24:00 0.181%)  [base 113.206 | to Ceres 141.481 | to Uranus 28.275]
+  - RA Mercury–Sedna 1:2:3 0.108% (00:00 6.054%, 24:00 6.917%)  [base 18.977 | to Mercury 37.995 | to Sedna 56.971]
+  - RA Mars–Pluto 1:5:6 0.128% (00:00 2.314%, 24:00 2.067%)  [base 11.198 | to Mars 56.061 | to Pluto 67.258]
+  - Dec Orcus–Venus φ: φ/φ² 0.128% — held all day  [base 34.559 | to Orcus 13.211 | to Venus 21.348]
+  - Sky Jupiter–Saturn φ: φ/φ² 0.143% (00:00 0.152%, 24:00 0.134%)  [base 51.329 | to Jupiter 134.243 | to Saturn 83.086]
+  - RA Mars–Venus 5:8:13 0.145% (00:00 0.893%, 24:00 1.201%)  [base 145.888 | to Mars 56.061 | to Venus 89.827]
+
+### Ceres — RA 141.257, Dec +26.009
+- **Numbers (8):**
+  - RA to Altair ★ = 1408/9 (156.4449, off +0.0005; 11:53–12:11)
+  - RA to Sun = 768/9 (85.3341, off +0.0008; 11:58–12:05)
+  - RA to Algol ★ = 848/9 (94.2214, off -0.0008; 11:55–12:12)
+  - Dec to Venus = whole 1 (1.0004, off +0.0004; 11:47–12:20)
+  - Flat to Pluto = 98φ (158.5664, off -0.0009; 11:48–12:04)
+  - Flat to Betelgeuse ★ = 501/9 (55.6684, off +0.0018; 11:39–12:01)
+  - Sky to Jupiter = 820/9 (91.1105, off -0.0006; 11:52–12:04)
+  - Sky to Neptune = 1334/9 (148.2238, off +0.0016; 11:43–12:02)
+- **Star chords (18):**
+  - RA Algorab–Alphecca 1:1:2 0.003% (00:00 0.341%, 24:00 0.331%)  [base 46.210 | to Algorab 46.212 | to Alphecca 92.422]
+  - RA Aldebaran–Deneb Algedi 1:√2:1+√2 0.009% (00:00 0.208%, 24:00 0.221%)  [base 102.213 | to Aldebaran 72.282 | to Deneb Algedi 174.495]
+  - RA Aldebaran–Castor φ: φ/φ² 0.017% (00:00 0.551%, 24:00 0.572%)  [base 44.670 | to Aldebaran 72.282 | to Castor 27.612]
+  - Dec Altair–Pleiades 1:8:9 0.022% (00:00 3.418%, 24:00 3.623%)  [base 15.235 | to Altair 17.140 | to Pleiades 1.905]
+  - Dec Bellatrix–Regulus 2:5:7 0.035% (00:00 0.441%, 24:00 0.513%)  [base 5.619 | to Bellatrix 19.660 | to Regulus 14.041]
+  - Dec Antares–Bellatrix 3:5:8 0.046% (00:00 0.294%, 24:00 0.388%)  [base 32.782 | to Antares 52.441 | to Bellatrix 19.660]
+  - Dec Deneb Algedi–Regulus 1:2:3 0.046% (00:00 0.429%, 24:00 0.526%)  [base 28.096 | to Deneb Algedi 42.137 | to Regulus 14.041]
+  - RA Castor–Vega 1:5:6 0.055% (00:00 0.627%, 24:00 0.720%)  [base 165.597 | to Castor 27.612 | to Vega 137.985]
+  - RA Bellatrix–Sirius 1:2:3 0.070% (00:00 0.460%, 24:00 0.315%)  [base 20.002 | to Bellatrix 59.979 | to Sirius 39.977]
+  - RA Alkaid–Betelgeuse 4:5:9 0.075% (00:00 0.612%, 24:00 0.452%)  [base 118.103 | to Alkaid 65.635 | to Betelgeuse 52.468]
+  - Dec Deneb Algedi–Polaris 2:3:5 0.076% (00:00 0.189%, 24:00 0.341%)  [base 105.390 | to Deneb Algedi 42.137 | to Polaris 63.253]
+  - Flat Alkaid–Betelgeuse 4:5:9 0.092% (00:00 0.496%, 24:00 0.304%)  [base 125.318 | to Alkaid 69.650 | to Betelgeuse 55.668]
+  - Dec Arcturus–Rigel 1:4:5 0.103% (00:00 0.869%, 24:00 1.094%)  [base 27.375 | to Arcturus 6.837 | to Rigel 34.212]
+  - RA Capella–Castor 4:5:9 0.105% (00:00 0.463%, 24:00 0.658%)  [base 34.479 | to Capella 62.091 | to Castor 27.612]
+  - RA Bellatrix–Spica 1:1:2 0.111% (00:00 0.633%, 24:00 0.403%)  [base 120.025 | to Bellatrix 59.979 | to Spica 60.046]
+  - RA Sirius–Spica 2:3:5 0.134% (00:00 0.788%, 24:00 0.505%)  [base 100.022 | to Sirius 39.977 | to Spica 60.046]
+  - Sky Aldebaran–Alphecca 5:6:10 0.139% (00:00 0.240%, 24:00 0.439%)  [base 134.297 | to Aldebaran 67.242 | to Alphecca 80.608]
+  - Dec Aldebaran–Castor φ: φ/φ² 0.140% (00:00 1.721%, 24:00 1.963%)  [base 15.381 | to Aldebaran 9.501 | to Castor 5.880]
+- **Chords with two other natal bodies (8):**
+  - Dec Rahu–Sedna 3:4:7 0.028% (00:00 0.978%, 24:00 0.887%)  [base 10.375 | to Rahu 7.784 | to Sedna 18.159]
+  - RA Makemake–Sun 5:8:13 0.036% — held all day  [base 138.687 | to Makemake 53.353 | to Sun 85.334]
+  - Dec Haumea–Vesta 1:4:5 0.083% (00:00 0.727%, 24:00 0.910%)  [base 35.232 | to Haumea 8.801 | to Vesta 44.032]
+  - RA Makemake–Rahu 1:5:6 0.088% (00:00 1.891%, 24:00 1.897%)  [base 64.033 | to Makemake 53.353 | to Rahu 10.680]
+  - RA Chiron–Uranus 1:4:5 0.095% (00:00 0.007%, 24:00 0.181%)  [base 28.275 | to Chiron 141.481 | to Uranus 113.206]
+  - Dec Pluto–Sedna φ: φ/φ² 0.125% (00:00 0.262%, 24:00 0.514%)  [base 29.419 | to Pluto 47.578 | to Sedna 18.159]
+  - Dec Pallas–Transpluto 4:5:9 0.137% — held all day  [base 11.878 | to Pallas 26.745 | to Transpluto 14.867]
+  - RA Rahu–Sun 1:7:8 0.142% (00:00 2.233%, 24:00 2.325%)  [base 74.654 | to Rahu 10.680 | to Sun 85.334]
+
+### Pallas — RA 88.649, Dec -0.737
+- **Numbers (10):**
+  - RA to Regulus ★ = 571/9 (63.4432, off -0.0013; 11:52–12:02)
+  - RA to Transpluto = 579/9 (64.3349, off +0.0015; 11:59–12:09)
+  - Dec to Haumea = φ^6 (17.9446, off +0.0003; 11:37–12:32)
+  - Dec to Neptune = 4√2 (5.6556, off -0.0012; 11:49–12:46)
+  - Dec to Polaris ★ = whole 90 (89.9987, off -0.0013; 11:14–12:09)
+  - Flat to Antares ★ = 1447/9 (160.7759, off -0.0018; 11:50–12:00)
+  - Flat to Spica ★ = 80√2 (113.1352, off -0.0019; 11:50–12:00)
+  - Flat to Bellatrix ★ = 92/9 (10.2242, off +0.0020; 11:42–12:00)
+  - Sky to Alkaid ★ = 977/9 (108.5546, off -0.0010; 11:50–12:03)
+  - Sky to Arcturus ★ = 1110/9 (123.3345, off +0.0012; 11:58–12:08)
+- **Star chords (10):**
+  - Dec Algol–Procyon 1:6:7 0.004% (00:00 0.871%, 24:00 0.886%)  [base 35.735 | to Algol 41.691 | to Procyon 5.956]
+  - Dec Capella–Fomalhaut φ: φ/φ² 0.008% (00:00 0.287%, 24:00 0.299%)  [base 75.618 | to Capella 46.733 | to Fomalhaut 28.885]
+  - Dec Arcturus–Rigel 3:8:11 0.009% (00:00 0.965%, 24:00 0.962%)  [base 27.375 | to Arcturus 19.909 | to Rigel 7.466]
+  - RA Fomalhaut–Vega 5:8:13 0.037% (00:00 0.295%, 24:00 0.219%)  [base 65.172 | to Fomalhaut 104.236 | to Vega 169.407]
+  - Dec Algol–Spica 1:4:5 0.038% (00:00 0.595%, 24:00 0.659%)  [base 52.117 | to Algol 41.691 | to Spica 10.427]
+  - RA Capella–Sirius 3:4:7 0.103% (00:00 4.995%, 24:00 4.896%)  [base 22.114 | to Capella 9.483 | to Sirius 12.631]
+  - RA Antares–Regulus 2:3:5 0.106% (00:00 0.316%, 24:00 0.530%)  [base 95.266 | to Antares 158.709 | to Regulus 63.443]
+  - RA Algol–Castor 3:5:8 0.111% (00:00 1.811%, 24:00 1.617%)  [base 66.609 | to Algol 41.613 | to Castor 24.996]
+  - Dec Altair–Sirius 3:5:8 0.129% (00:00 0.999%, 24:00 0.743%)  [base 25.593 | to Altair 9.605 | to Sirius 15.988]
+  - RA Aldebaran–Bellatrix 3:5:8 0.144% (00:00 3.931%, 24:00 3.360%)  [base 12.303 | to Aldebaran 19.674 | to Bellatrix 7.371]
+- **Chords with two other natal bodies (10):**
+  - Dec Juno–Transpluto φ: φ/φ² 0.026% (00:00 1.299%, 24:00 1.239%)  [base 7.342 | to Juno 4.536 | to Transpluto 11.878]
+  - RA Mercury–Orcus 4:5:9 0.035% (00:00 0.625%, 24:00 0.737%)  [base 114.499 | to Mercury 50.879 | to Orcus 63.621]
+  - Dec Eris–Gonggong 1:8:9 0.040% (00:00 4.297%, 24:00 3.848%)  [base 10.024 | to Eris 1.252 | to Gonggong 11.276]
+  - Dec Quaoar–Uranus 4:5:9 0.043% (00:00 0.680%, 24:00 0.764%)  [base 26.326 | to Quaoar 14.628 | to Uranus 11.698]
+  - RA Eris–Pluto 2:3:5 0.065% (00:00 0.348%, 24:00 0.472%)  [base 93.655 | to Eris 62.477 | to Pluto 156.132]
+  - Dec Uranus–Venus 5:6:11 0.070% (00:00 0.377%, 24:00 0.486%)  [base 14.047 | to Uranus 11.698 | to Venus 25.745]
+  - RA Juno–Orcus 4:5:9 0.080% (00:00 0.390%, 24:00 0.548%)  [base 143.210 | to Juno 79.590 | to Orcus 63.621]
+  - Dec Sedna–Venus 1:2:3 0.081% (00:00 0.780%, 24:00 0.595%)  [base 17.159 | to Sedna 8.586 | to Venus 25.745]
+  - RA Gonggong–Mercury 5:6:11 0.135% (00:00 2.274%, 24:00 2.640%)  [base 61.137 | to Gonggong 112.015 | to Mercury 50.879]
+  - Dec Ceres–Transpluto 4:5:9 0.137% — held all day  [base 14.867 | to Ceres 26.745 | to Transpluto 11.878]
+
+### Juno — RA 9.059, Dec +3.800
+- **Numbers (3):**
+  - RA to Sirius ★ = 830/9 (92.2209, off -0.0013; 11:50–12:02)
+  - RA to Eris = 154/9 (17.1128, off +0.0016; 11:59–12:11)
+  - Flat to Transpluto = 1297/9 (144.1117, off +0.0006; 11:56–12:07)
+- **Star chords (11):**
+  - RA Castor–Polaris 3:8:11 0.008% (00:00 0.737%, 24:00 0.862%)  [base 76.064 | to Castor 104.586 | to Polaris 28.522]
+  - RA Deneb Algedi–Procyon 2:5:7 0.016% (00:00 0.778%, 24:00 0.742%)  [base 148.057 | to Deneb Algedi 42.297 | to Procyon 105.760]
+  - RA Arcturus–Deneb Algedi 3:8:11 0.049% (00:00 0.593%, 24:00 0.493%)  [base 112.847 | to Arcturus 155.144 | to Deneb Algedi 42.297]
+  - Dec Altair–Equator 3:4:7 0.057% (00:00 3.250%, 24:00 3.009%)  [base 8.868 | to Altair 5.069 | to Equator 3.800]
+  - Sky Antares–Regulus 5:6:7 0.062% (00:00 0.426%, 24:00 0.303%)  [base 99.945 | to Antares 119.935 | to Regulus 140.010]
+  - RA Aldebaran–Vega 2:3:5 0.063% (00:00 0.697%, 24:00 0.580%)  [base 149.733 | to Aldebaran 59.916 | to Vega 89.818]
+  - Dec Algorab–Pleiades 1:1:2 0.068% (00:00 0.604%, 24:00 0.738%)  [base 40.622 | to Algorab 20.318 | to Pleiades 20.304]
+  - Dec Aldebaran–Algorab 5:8:13 0.072% (00:00 0.937%, 24:00 0.798%)  [base 33.026 | to Aldebaran 12.708 | to Algorab 20.318]
+  - RA Altair–Polaris 2:5:7 0.075% (00:00 1.004%, 24:00 1.244%)  [base 99.879 | to Altair 71.357 | to Polaris 28.522]
+  - Dec Arcturus–Sirius 3:4:7 0.134% (00:00 0.637%, 24:00 0.909%)  [base 35.896 | to Arcturus 15.372 | to Sirius 20.524]
+  - Dec Alphecca–Bellatrix 1:8:9 0.140% (00:00 2.737%, 24:00 2.586%)  [base 20.365 | to Alphecca 22.914 | to Bellatrix 2.549]
+- **Chords with two other natal bodies (14):**
+  - Dec Ketu–Transpluto 1:3:4 0.001% (00:00 1.249%, 24:00 1.253%)  [base 29.366 | to Ketu 22.024 | to Transpluto 7.342]
+  - Dec Makemake–Pluto 5:6:11 0.003% (00:00 0.606%, 24:00 0.600%)  [base 46.510 | to Makemake 21.141 | to Pluto 25.368]
+  - Dec Sedna–Venus φ: 2/φ/φ³/φ³+1 0.014% (00:00 1.711%, 24:00 1.762%)  [base 17.159 | to Sedna 4.050 | to Venus 21.209]
+  - Dec Pallas–Transpluto φ: φ/φ² 0.026% (00:00 1.299%, 24:00 1.239%)  [base 11.878 | to Pallas 4.536 | to Transpluto 7.342]
+  - RA Mercury–Pluto 3:8:11 0.027% (00:00 1.769%, 24:00 1.781%)  [base 105.253 | to Mercury 28.711 | to Pluto 76.542]
+  - Sky Jupiter–Neptune 1:5:6 0.033% (00:00 0.898%, 24:00 0.897%)  [base 119.210 | to Jupiter 143.014 | to Neptune 23.843]
+  - Dec Ketu–Mercury 2:5:7 0.071% (00:00 2.678%, 24:00 2.678%)  [base 30.840 | to Ketu 22.024 | to Mercury 8.816]
+  - RA Orcus–Pallas 4:5:9 0.080% (00:00 0.390%, 24:00 0.548%)  [base 63.621 | to Orcus 143.210 | to Pallas 79.590]
+  - Dec Neptune–Rahu 1:√2:1+√2 0.083% (00:00 1.168%, 24:00 0.999%)  [base 24.617 | to Neptune 10.192 | to Rahu 14.425]
+  - RA Mars–Saturn φ: 2−1/φ/φ²/φ√5 0.125% (00:00 0.981%, 24:00 0.758%)  [base 24.928 | to Mars 65.344 | to Saturn 90.272]
+  - Dec Quaoar–Sun 5:6:11 0.126% (00:00 0.033%, 24:00 0.238%)  [base 35.115 | to Quaoar 19.165 | to Sun 15.950]
+  - RA Jupiter–Saturn 3:5:8 0.128% (00:00 0.088%, 24:00 0.344%)  [base 54.094 | to Jupiter 144.366 | to Saturn 90.272]
+  - Sky Transpluto–Uranus 1:6:7 0.141% (00:00 0.877%, 24:00 1.187%)  [base 120.987 | to Transpluto 141.120 | to Uranus 20.136]
+  - Dec Mars–Sun φ: φ/φ² 0.141% (00:00 0.197%, 24:00 0.109%)  [base 41.795 | to Mars 25.845 | to Sun 15.950]
+
+### Vesta — RA 274.342, Dec -18.024
+- **Numbers (4):**
+  - RA to Saturn = 40/9 (4.4443, off -0.0002; 10:55–13:21)
+  - RA to Betelgeuse ★ = 1570/9 (174.4458, off +0.0013; 11:07–12:10)
+  - Flat to Algorab ★ = 782/9 (86.8871, off -0.0017; 11:01–12:04)
+  - Sky to Capella ★ = 1344/9 (149.3315, off -0.0018; 11:56–13:27)
+- **Star chords (12):**
+  - Dec Algol–Pleiades 2:5:7 0.005% — held all day  [base 16.850 | to Algol 58.978 | to Pleiades 42.128]
+  - RA Castor–Spica 5:6:11 0.011% — held all day  [base 87.658 | to Castor 160.698 | to Spica 73.040]
+  - RA Altair–Fomalhaut 1:2:3 0.014% (00:00 0.195%, 24:00 0.213%)  [base 46.712 | to Altair 23.359 | to Fomalhaut 70.071]
+  - RA Alkaid–Antares 2:3:5 0.025% (00:00 0.206%, 24:00 0.147%)  [base 40.467 | to Alkaid 67.451 | to Antares 26.985]
+  - Dec Arcturus–Procyon 3:5:8 0.052% — held all day  [base 13.953 | to Arcturus 37.196 | to Procyon 23.243]
+  - Dec Deneb Algedi–Spica φ: 2−1/φ/φ²/φ√5 0.054% (00:00 0.989%, 24:00 0.940%)  [base 4.965 | to Deneb Algedi 1.895 | to Spica 6.861]
+  - RA Polaris–Rigel 1:3:4 0.075% — held all day  [base 41.049 | to Polaris 123.238 | to Rigel 164.287]
+  - Dec Alkaid–Antares 1:8:9 0.100% (00:00 0.135%, 24:00 0.354%)  [base 75.748 | to Alkaid 67.339 | to Antares 8.409]
+  - Flat Alphecca–Procyon 3:6:8 0.103% — held all day  [base 120.788 | to Alphecca 60.456 | to Procyon 161.208]
+  - Dec Algol–Rigel 1:5:6 0.107% (00:00 0.287%, 24:00 0.086%)  [base 49.157 | to Algol 58.978 | to Rigel 9.821]
+  - Flat Procyon–Spica 5:6:11 0.116% (00:00 0.151%, 24:00 0.129%)  [base 88.022 | to Procyon 161.208 | to Spica 73.362]
+  - Dec Aldebaran–Algol 1:√2:1+√2 0.119% (00:00 0.170%, 24:00 0.064%)  [base 24.447 | to Aldebaran 34.531 | to Algol 58.978]
+- **Chords with two other natal bodies (10):**
+  - Dec Pluto–Quaoar 3:4:7 0.001% (00:00 1.150%, 24:00 1.223%)  [base 6.204 | to Pluto 3.545 | to Quaoar 2.659]
+  - Sky Ketu–Rahu φ: 2/φ/φ³/φ³+1 0.009% — held all day  [base 180.000 | to Ketu 34.379 | to Rahu 145.621]
+  - RA Chiron–Sedna 2:3:5 0.028% — held all day  [base 56.971 | to Chiron 85.433 | to Sedna 142.404]
+  - Dec Chiron–Haumea 5:8:13 0.033% (00:00 0.144%, 24:00 0.216%)  [base 13.548 | to Chiron 21.684 | to Haumea 35.232]
+  - Dec Eris–Gonggong 3:5:8 0.048% (00:00 0.339%, 24:00 0.264%)  [base 10.024 | to Eris 16.035 | to Gonggong 6.011]
+  - Dec Mercury–Orcus φ: 2−1/φ/φ²/φ√5 0.073% (00:00 1.316%, 24:00 1.149%)  [base 22.166 | to Mercury 30.639 | to Orcus 8.473]
+  - Sky Chiron–Uranus 1:3:4 0.077% — held all day  [base 28.956 | to Chiron 86.801 | to Uranus 115.734]
+  - Dec Ceres–Haumea 1:4:5 0.083% (00:00 0.727%, 24:00 0.910%)  [base 8.801 | to Ceres 44.032 | to Haumea 35.232]
+  - Flat Pluto–Rahu 1:8:9 0.087% (00:00 0.311%, 24:00 0.128%)  [base 166.758 | to Pluto 18.517 | to Rahu 148.265]
+  - Flat Mars–Rahu 1:5:6 0.089% (00:00 0.852%, 24:00 0.818%)  [base 177.760 | to Mars 29.646 | to Rahu 148.265]
+
+### Eris — RA 26.172, Dec -1.989
+- **Numbers (3):**
+  - RA to Juno = 154/9 (17.1128, off +0.0016; 11:59–12:11)
+  - Dec to Antares ★ = 220/9 (24.4438, off -0.0007; 00:34–24:00)
+  - Sky to Arcturus ★ = 114√2 (161.2199, off -0.0005; ALL DAY)
+- **Star chords (15):**
+  - RA Deneb Algedi–Vega 4:5:9 0.016% — held all day  [base 47.520 | to Deneb Algedi 59.410 | to Vega 106.930]
+  - RA Betelgeuse–Fomalhaut 2:3:5 0.034% — held all day  [base 104.375 | to Betelgeuse 62.617 | to Fomalhaut 41.759]
+  - RA Algol–Betelgeuse 1:2:3 0.063% — held all day  [base 41.753 | to Algol 20.863 | to Betelgeuse 62.617]
+  - RA Aldebaran–Vega 2:5:7 0.073% — held all day  [base 149.733 | to Aldebaran 42.803 | to Vega 106.930]
+  - Dec Pleiades–Procyon φ: 2−1/φ/φ²/φ√5 0.074% — held all day  [base 18.885 | to Pleiades 26.093 | to Procyon 7.208]
+  - RA Algol–Fomalhaut 1:2:3 0.076% — held all day  [base 62.622 | to Algol 20.863 | to Fomalhaut 41.759]
+  - Dec Antares–Vega 3:5:8 0.078% — held all day  [base 65.215 | to Antares 24.444 | to Vega 40.771]
+  - RA Altair–Betelgeuse 1:√2:1+√2 0.094% — held all day  [base 151.087 | to Altair 88.470 | to Betelgeuse 62.617]
+  - RA Algol–Altair φ: 2/φ/φ³/φ³+1 0.103% — held all day  [base 109.334 | to Algol 20.863 | to Altair 88.470]
+  - Dec Pleiades–Polaris 2:5:7 0.113% — held all day  [base 65.158 | to Pleiades 26.093 | to Polaris 91.251]
+  - RA Arcturus–Betelgeuse 4:8:11 0.121% — held all day  [base 125.126 | to Arcturus 172.257 | to Betelgeuse 62.617]
+  - RA Sirius–Spica 3:4:7 0.122% — held all day  [base 100.022 | to Sirius 75.108 | to Spica 175.131]
+  - RA Castor–Rigel 2:3:5 0.124% — held all day  [base 35.015 | to Castor 87.473 | to Rigel 52.458]
+  - Dec Antares–Spica 3:5:8 0.136% — held all day  [base 15.270 | to Antares 24.444 | to Spica 9.174]
+  - Sky Polaris–Regulus 30:35:48 0.143% — held all day  [base 78.340 | to Polaris 91.266 | to Regulus 125.504]
+- **Chords with two other natal bodies (11):**
+  - RA Mercury–Rahu 1:8:9 0.023% (00:00 8.589%, 24:00 7.498%)  [base 92.807 | to Mercury 11.598 | to Rahu 104.405]
+  - Dec Gonggong–Pallas 1:8:9 0.040% (00:00 4.297%, 24:00 3.848%)  [base 11.276 | to Gonggong 10.024 | to Pallas 1.252]
+  - Dec Gonggong–Vesta 3:5:8 0.048% (00:00 0.339%, 24:00 0.264%)  [base 6.011 | to Gonggong 10.024 | to Vesta 16.035]
+  - RA Pallas–Pluto 2:3:5 0.065% (00:00 0.348%, 24:00 0.472%)  [base 156.132 | to Pallas 62.477 | to Pluto 93.655]
+  - RA Transpluto–Venus 1:1:2 0.079% (00:00 2.023%, 24:00 2.170%)  [base 63.381 | to Transpluto 126.812 | to Venus 63.431]
+  - Dec Gonggong–Mars 1:1:2 0.090% (00:00 0.254%, 24:00 0.064%)  [base 10.033 | to Gonggong 10.024 | to Mars 20.056]
+  - RA Gonggong–Sun 3:5:8 0.093% (00:00 1.590%, 24:00 1.719%)  [base 79.289 | to Gonggong 49.538 | to Sun 29.751]
+  - RA Gonggong–Haumea 2:5:7 0.093% — held all day  [base 123.962 | to Gonggong 49.538 | to Haumea 173.500]
+  - Dec Mars–Quaoar 1:2:3 0.118% (00:00 0.110%, 24:00 0.333%)  [base 6.680 | to Mars 20.056 | to Quaoar 13.376]
+  - RA Gonggong–Sedna φ: φ/φ² 0.135% — held all day  [base 80.114 | to Gonggong 49.538 | to Sedna 30.575]
+  - Flat Pluto–Transpluto 6:8:9 0.142% (00:00 0.125%, 24:00 0.157%)  [base 143.316 | to Pluto 95.680 | to Transpluto 127.490]
+
+### Sedna — RA 56.747, Dec +7.850
+- **Numbers (7):**
+  - RA to Spica ★ = 1301/9 (144.5555, off -0.0000; 08:16–15:53)
+  - RA to Fomalhaut ★ = 651/9 (72.3337, off +0.0004; 07:35–14:59)
+  - Dec to Uranus = 28/9 (3.1115, off +0.0004; 08:14–14:29)
+  - Dec to Betelgeuse ★ = 4/9 (0.4433, off -0.0012; 05:01–24:00)
+  - Flat to Rahu = 671/9 (74.5553, off -0.0002; 10:44–13:02)
+  - Flat to Pluto = 1149/9 (127.6656, off -0.0011; 11:11–14:48)
+  - Sky to Haumea = 1309/9 (145.4436, off -0.0009; 08:48–13:15)
+- **Star chords (9):**
+  - RA Aldebaran–Capella 5:6:11 0.005% — held all day  [base 10.191 | to Aldebaran 12.228 | to Capella 22.419]
+  - RA Castor–Rigel 5:8:13 0.009% — held all day  [base 35.015 | to Castor 56.898 | to Rigel 21.882]
+  - Dec Algorab–Pleiades 2:3:5 0.054% — held all day  [base 40.622 | to Algorab 24.368 | to Pleiades 16.254]
+  - Dec Fomalhaut–Rigel 3:4:7 0.070% — held all day  [base 21.418 | to Fomalhaut 37.471 | to Rigel 16.053]
+  - RA Algorab–Procyon 4:5:9 0.083% — held all day  [base 72.650 | to Algorab 130.722 | to Procyon 58.072]
+  - RA Antares–Regulus 9:9:16 0.083% — held all day  [base 95.266 | to Antares 169.389 | to Regulus 95.345]
+  - Dec Alphecca–Arcturus 2:3:5 0.088% — held all day  [base 7.542 | to Alphecca 18.864 | to Arcturus 11.322]
+  - RA Aldebaran–Betelgeuse φ: φ/φ² 0.141% (00:00 0.089%, 24:00 0.193%)  [base 19.813 | to Aldebaran 12.228 | to Betelgeuse 32.041]
+  - Dec Bellatrix–Equator φ: 2/φ/φ³/φ³+1 0.145% (00:00 0.050%, 24:00 0.238%)  [base 6.349 | to Bellatrix 1.501 | to Equator 7.850]
+- **Chords with two other natal bodies (13):**
+  - Dec Makemake–Neptune 5:6:11 0.005% — held all day  [base 31.333 | to Makemake 17.091 | to Neptune 14.242]
+  - RA Neptune–Uranus 1:√2:1+√2 0.006% — held all day  [base 40.581 | to Neptune 69.277 | to Uranus 28.697]
+  - Dec Juno–Venus φ: 2/φ/φ³/φ³+1 0.014% (00:00 1.711%, 24:00 1.762%)  [base 21.209 | to Juno 4.050 | to Venus 17.159]
+  - Dec Haumea–Venus 5:6:11 0.021% (00:00 0.243%, 24:00 0.227%)  [base 7.800 | to Haumea 9.358 | to Venus 17.159]
+  - RA Chiron–Vesta 2:3:5 0.028% — held all day  [base 85.433 | to Chiron 56.971 | to Vesta 142.404]
+  - Dec Ceres–Rahu 3:4:7 0.028% (00:00 0.978%, 24:00 0.887%)  [base 7.784 | to Ceres 18.159 | to Rahu 10.375]
+  - Dec Pallas–Venus 1:2:3 0.081% (00:00 0.780%, 24:00 0.595%)  [base 25.745 | to Pallas 8.586 | to Venus 17.159]
+  - Dec Sun–Transpluto φ: 2−1/φ/φ²/φ√5 0.098% (00:00 1.409%, 24:00 1.173%)  [base 8.609 | to Sun 11.900 | to Transpluto 3.292]
+  - RA Gonggong–Transpluto 5:6:11 0.105% — held all day  [base 176.350 | to Gonggong 80.114 | to Transpluto 96.237]
+  - RA Chiron–Mercury 1:2:3 0.108% (00:00 6.054%, 24:00 6.917%)  [base 37.995 | to Chiron 56.971 | to Mercury 18.977]
+  - Dec Ceres–Pluto φ: φ/φ² 0.125% (00:00 0.262%, 24:00 0.514%)  [base 47.578 | to Ceres 18.159 | to Pluto 29.419]
+  - RA Eris–Gonggong φ: φ/φ² 0.135% — held all day  [base 49.538 | to Eris 30.575 | to Gonggong 80.114]
+  - Dec Gonggong–Sun 3:5:8 0.143% (00:00 1.052%, 24:00 0.721%)  [base 31.763 | to Gonggong 19.862 | to Sun 11.900]
+
+### Haumea — RA 212.672, Dec +17.208
+- **Numbers (9):**
+  - Dec to Gonggong = 263/9 (29.2206, off -0.0016; ALL DAY)
+  - Dec to Pallas = φ^6 (17.9446, off +0.0003; 11:37–12:32)
+  - Dec to Pluto = 349/9 (38.7769, off -0.0009; 05:11–24:00)
+  - Flat to Sirius ★ = 1048/9 (116.4455, off +0.0011; 10:28–17:11)
+  - Flat to Castor ★ = 901/9 (100.1096, off -0.0015; 06:34–12:43)
+  - Sky to Sedna = 1309/9 (145.4436, off -0.0009; 08:48–13:15)
+  - Sky to Transpluto = 41√2 (57.9816, off -0.0011; 06:58–13:26)
+  - Sky to Vega ★ = 551/9 (61.2234, off +0.0012; 05:22–13:47)
+  - Sky to Sun = 1229/9 (136.5573, off +0.0018; 12:00–12:07)
+- **Star chords (12):**
+  - RA Alkaid–Antares 1:6:7 0.008% (00:00 0.146%, 24:00 0.163%)  [base 40.467 | to Alkaid 5.781 | to Antares 34.686]
+  - RA Algorab–Alphecca 5:6:11 0.019% — held all day  [base 46.210 | to Algorab 25.203 | to Alphecca 21.007]
+  - Sky Fomalhaut–Rigel 2:3:3 0.025% — held all day  [base 89.584 | to Fomalhaut 134.353 | to Rigel 134.386]
+  - Dec Arcturus–Regulus 3:8:11 0.067% — held all day  [base 7.205 | to Arcturus 1.964 | to Regulus 5.241]
+  - Dec Altair–Antares φ: 2/φ/φ³/φ³+1 0.072% — held all day  [base 35.301 | to Altair 8.340 | to Antares 43.641]
+  - Dec Altair–Deneb Algedi 1:3:4 0.087% — held all day  [base 24.997 | to Altair 8.340 | to Deneb Algedi 33.336]
+  - Dec Algol–Castor φ: φ/φ² 0.091% — held all day  [base 9.065 | to Algol 23.746 | to Castor 14.681]
+  - Flat Pleiades–Rigel 2:7:8 0.092% — held all day  [base 38.954 | to Pleiades 155.959 | to Rigel 136.430]
+  - RA Castor–Sirius 1:8:9 0.112% — held all day  [base 12.365 | to Castor 99.027 | to Sirius 111.392]
+  - Dec Algol–Alphecca 2:3:5 0.125% — held all day  [base 14.240 | to Algol 23.746 | to Alphecca 9.506]
+  - Sky Capella–Deneb Algedi 8:9:9 0.142% — held all day  [base 117.011 | to Capella 104.126 | to Deneb Algedi 117.177]
+  - Dec Betelgeuse–Castor 2:3:5 0.147% (00:00 0.140%, 24:00 0.152%)  [base 24.483 | to Betelgeuse 9.802 | to Castor 14.681]
+- **Chords with two other natal bodies (7):**
+  - Dec Sedna–Venus 5:6:11 0.021% (00:00 0.243%, 24:00 0.227%)  [base 17.159 | to Sedna 9.358 | to Venus 7.800]
+  - Dec Rahu–Sun 2:3:5 0.023% (00:00 6.427%, 24:00 6.474%)  [base 1.525 | to Rahu 1.017 | to Sun 2.542]
+  - Dec Chiron–Vesta 5:8:13 0.033% (00:00 0.144%, 24:00 0.216%)  [base 21.684 | to Chiron 13.548 | to Vesta 35.232]
+  - Dec Ceres–Vesta 1:4:5 0.083% (00:00 0.727%, 24:00 0.910%)  [base 44.032 | to Ceres 8.801 | to Vesta 35.232]
+  - RA Eris–Gonggong 2:5:7 0.093% — held all day  [base 49.538 | to Eris 173.500 | to Gonggong 123.962]
+  - RA Rahu–Transpluto 3:8:11 0.106% (00:00 0.006%, 24:00 0.167%)  [base 22.407 | to Rahu 82.095 | to Transpluto 59.688]
+  - Dec Uranus–Venus 4:5:9 0.106% (00:00 0.498%, 24:00 0.228%)  [base 14.047 | to Uranus 6.247 | to Venus 7.800]
+
+### Makemake — RA 194.610, Dec +24.941
+- **Numbers (12):**
+  - RA to Capella ★ = 1039/9 (115.4443, off -0.0001; 07:54–15:54)
+  - RA to Bellatrix ★ = 1020/9 (113.3322, off -0.0011; 05:53–13:44)
+  - RA to Ketu = 82√2 (115.9669, off +0.0013; 11:09–17:55)
+  - Dec to Neptune = 282/9 (31.3329, off -0.0004; 05:31–16:19)
+  - Dec to Sirius ★ = 375/9 (41.6651, off -0.0016; 00:00–15:29)
+  - Flat to Vega ★ = 53φ (85.7561, off +0.0003; 07:26–15:31)
+  - Flat to Algorab ★ = 26φ (42.0697, off +0.0008; 06:37–24:00)
+  - Flat to Mars = 84√2 (118.7921, off -0.0018; 12:00–12:14)
+  - Sky to Betelgeuse ★ = whole 101 (100.9994, off -0.0006; 05:45–15:25)
+  - Sky to Arcturus ★ = 169/9 (18.7767, off -0.0011; 09:43–19:35)
+  - Sky to Algol ★ = 968/9 (107.5567, off +0.0011; 01:31–24:00)
+  - Sky to Procyon ★ = 707/9 (78.5567, off +0.0011; 10:05–19:05)
+- **Star chords (10):**
+  - RA Aldebaran–Polaris 1:4:5 0.046% — held all day  [base 31.394 | to Aldebaran 125.635 | to Polaris 157.029]
+  - Dec Altair–Polaris 1:4:5 0.051% — held all day  [base 80.394 | to Altair 16.072 | to Polaris 64.321]
+  - Dec Castor–Sirius 1:6:7 0.058% — held all day  [base 48.613 | to Castor 6.948 | to Sirius 41.665]
+  - RA Bellatrix–Castor 2:5:7 0.059% — held all day  [base 32.367 | to Bellatrix 113.332 | to Castor 80.965]
+  - Dec Betelgeuse–Capella 5:6:11 0.069% — held all day  [base 38.590 | to Betelgeuse 17.534 | to Capella 21.056]
+  - RA Bellatrix–Regulus 3:5:8 0.069% — held all day  [base 70.814 | to Bellatrix 113.332 | to Regulus 42.518]
+  - Dec Arcturus–Regulus 4:5:9 0.087% — held all day  [base 7.205 | to Arcturus 5.769 | to Regulus 12.973]
+  - Sky Altair–Spica 3:8:8 0.092% — held all day  [base 97.926 | to Altair 97.928 | to Spica 36.689]
+  - Dec Aldebaran–Capella 2:5:7 0.130% (00:00 0.155%, 24:00 0.104%)  [base 29.489 | to Aldebaran 8.433 | to Capella 21.056]
+  - RA Arcturus–Rigel 1:6:7 0.131% (00:00 0.168%, 24:00 0.095%)  [base 135.285 | to Arcturus 19.305 | to Rigel 115.981]
+- **Chords with two other natal bodies (14):**
+  - Dec Juno–Pluto 5:6:11 0.003% (00:00 0.606%, 24:00 0.600%)  [base 25.368 | to Juno 21.141 | to Pluto 46.510]
+  - Dec Neptune–Sedna 5:6:11 0.005% — held all day  [base 14.242 | to Neptune 31.333 | to Sedna 17.091]
+  - RA Quaoar–Rahu 5:6:11 0.009% — held all day  [base 140.880 | to Quaoar 76.847 | to Rahu 64.033]
+  - Dec Quaoar–Rahu 1:5:6 0.033% — held all day  [base 33.590 | to Quaoar 40.306 | to Rahu 6.716]
+  - Dec Orcus–Transpluto 2:3:5 0.036% — held all day  [base 20.692 | to Orcus 34.492 | to Transpluto 13.800]
+  - RA Ceres–Sun 5:8:13 0.036% — held all day  [base 85.334 | to Ceres 53.353 | to Sun 138.687]
+  - RA Transpluto–Uranus 1:3:4 0.044% — held all day  [base 124.933 | to Transpluto 41.626 | to Uranus 166.560]
+  - Dec Mars–Rahu 1:6:7 0.060% — held all day  [base 40.270 | to Mars 46.986 | to Rahu 6.716]
+  - RA Rahu–Uranus 5:8:13 0.072% — held all day  [base 102.526 | to Rahu 64.033 | to Uranus 166.560]
+  - Dec Mars–Neptune 1:2:3 0.086% — held all day  [base 15.653 | to Mars 46.986 | to Neptune 31.333]
+  - RA Ceres–Rahu 1:5:6 0.088% (00:00 1.891%, 24:00 1.897%)  [base 10.680 | to Ceres 53.353 | to Rahu 64.033]
+  - Dec Ketu–Mercury 2:5:7 0.089% (00:00 3.619%, 24:00 3.999%)  [base 30.840 | to Ketu 43.165 | to Mercury 12.325]
+  - Dec Gonggong–Mercury 1:2:3 0.090% (00:00 4.038%, 24:00 4.082%)  [base 24.628 | to Gonggong 36.953 | to Mercury 12.325]
+  - RA Mars–Transpluto φ: 2−1/φ/φ²/φ√5 0.116% (00:00 0.086%, 24:00 0.325%)  [base 150.731 | to Mars 109.105 | to Transpluto 41.626]
+
+### Quaoar — RA 271.457, Dec -15.365
+- **Numbers (6):**
+  - RA to Alphecca ★ = 340/9 (37.7780, off +0.0002; 09:21–15:15)
+  - RA to Neptune = φ^9 (76.0128, off -0.0004; 10:45–13:49)
+  - RA to Betelgeuse ★ = 1596/9 (177.3316, off -0.0017; 11:36–17:35)
+  - Dec to Regulus ★ = 246/9 (27.3324, off -0.0010; ALL DAY)
+  - Flat to Arcturus ★ = 604/9 (67.1111, off +0.0000; 08:48–15:12)
+  - Sky to Rigel ★ = 1379/9 (153.2229, off +0.0007; 05:13–15:25)
+- **Star chords (8):**
+  - RA Aldebaran–Altair 1:5:6 0.037% — held all day  [base 131.273 | to Aldebaran 157.518 | to Altair 26.245]
+  - RA Castor–Spica 4:5:9 0.040% — held all day  [base 87.658 | to Castor 157.812 | to Spica 70.154]
+  - Dec Arcturus–Pleiades 1:7:8 0.041% — held all day  [base 4.932 | to Arcturus 34.537 | to Pleiades 39.469]
+  - Dec Algol–Equator 3:8:11 0.048% — held all day  [base 40.954 | to Algol 56.319 | to Equator 15.365]
+  - Dec Alkaid–Polaris φ: φ/φ² 0.068% — held all day  [base 39.947 | to Alkaid 64.680 | to Polaris 104.627]
+  - Dec Aldebaran–Betelgeuse 2:5:7 0.081% — held all day  [base 9.101 | to Aldebaran 31.873 | to Betelgeuse 22.771]
+  - Dec Alkaid–Altair 3:5:8 0.141% — held all day  [base 40.446 | to Alkaid 64.680 | to Altair 24.234]
+  - Dec Betelgeuse–Regulus 1:5:6 0.146% — held all day  [base 4.561 | to Betelgeuse 22.771 | to Regulus 27.332]
+- **Chords with two other natal bodies (9):**
+  - Dec Pluto–Vesta 3:4:7 0.001% (00:00 1.150%, 24:00 1.223%)  [base 3.545 | to Pluto 6.204 | to Vesta 2.659]
+  - RA Makemake–Rahu 5:6:11 0.009% — held all day  [base 64.033 | to Makemake 76.847 | to Rahu 140.880]
+  - Dec Makemake–Rahu 1:5:6 0.033% — held all day  [base 6.716 | to Makemake 40.306 | to Rahu 33.590]
+  - Dec Pallas–Uranus 4:5:9 0.043% (00:00 0.680%, 24:00 0.764%)  [base 11.698 | to Pallas 14.628 | to Uranus 26.326]
+  - RA Mercury–Pluto 1:5:6 0.046% (00:00 0.826%, 24:00 0.744%)  [base 105.253 | to Mercury 126.313 | to Pluto 21.060]
+  - RA Gonggong–Ketu 2:3:5 0.090% (00:00 0.197%, 24:00 0.039%)  [base 26.057 | to Gonggong 65.177 | to Ketu 39.120]
+  - Dec Eris–Mars 1:2:3 0.118% (00:00 0.110%, 24:00 0.333%)  [base 20.056 | to Eris 13.376 | to Mars 6.680]
+  - Dec Juno–Sun 5:6:11 0.126% (00:00 0.033%, 24:00 0.238%)  [base 15.950 | to Juno 19.165 | to Sun 35.115]
+  - RA Mars–Uranus φ: 2−1/φ/φ²/φ√5 0.139% (00:00 0.707%, 24:00 1.010%)  [base 84.335 | to Mars 32.258 | to Uranus 116.594]
+
+### Orcus — RA 152.269, Dec -9.551
+- **Numbers (4):**
+  - RA to Venus = 564/9 (62.6669, off +0.0003; 11:59–12:02)
+  - RA to Mars = 1363/9 (151.4453, off +0.0009; 11:50–12:03)
+  - Dec to Vega ★ = 435/9 (48.3330, off -0.0003; 02:58–18:11)
+  - Sky to Venus = 631/9 (70.1108, off -0.0004; 11:57–12:02)
+- **Star chords (13):**
+  - RA Alkaid–Castor 1:√2:1+√2 0.004% — held all day  [base 93.247 | to Alkaid 54.622 | to Castor 38.625]
+  - Dec Regulus–Sirius 1:3:4 0.012% — held all day  [base 28.692 | to Regulus 21.518 | to Sirius 7.174]
+  - Dec Altair–Castor 4:5:9 0.016% — held all day  [base 23.020 | to Altair 18.419 | to Castor 41.440]
+  - RA Polaris–Sirius 4:5:9 0.059% — held all day  [base 63.699 | to Polaris 114.689 | to Sirius 50.990]
+  - Flat Rigel–Spica 2:3:5 0.086% — held all day  [base 122.709 | to Rigel 73.653 | to Spica 49.059]
+  - RA Altair–Deneb Algedi 1:5:6 0.090% — held all day  [base 29.060 | to Altair 145.432 | to Deneb Algedi 174.492]
+  - Dec Arcturus–Sirius 1:4:5 0.099% (00:00 0.154%, 24:00 0.045%)  [base 35.896 | to Arcturus 28.723 | to Sirius 7.174]
+  - Dec Alphecca–Castor 1:7:8 0.101% — held all day  [base 5.175 | to Alphecca 36.264 | to Castor 41.440]
+  - Dec Alkaid–Pleiades 3:4:7 0.119% — held all day  [base 25.211 | to Alkaid 58.866 | to Pleiades 33.655]
+  - RA Rigel–Spica 2:3:5 0.123% — held all day  [base 122.673 | to Rigel 73.640 | to Spica 49.033]
+  - Dec Algol–Pleiades 1:2:3 0.136% — held all day  [base 16.850 | to Algol 50.505 | to Pleiades 33.655]
+  - RA Antares–Betelgeuse 2:3:5 0.140% — held all day  [base 158.570 | to Antares 95.088 | to Betelgeuse 63.481]
+  - Dec Equator–Sirius 3:4:7 0.145% (00:00 0.068%, 24:00 0.221%)  [base 16.724 | to Equator 9.551 | to Sirius 7.174]
+- **Chords with two other natal bodies (6):**
+  - Flat Jupiter–Saturn 3:4:7 0.024% (00:00 0.172%, 24:00 0.142%)  [base 54.502 | to Jupiter 72.680 | to Saturn 127.159]
+  - RA Mercury–Pallas 4:5:9 0.035% (00:00 0.625%, 24:00 0.737%)  [base 50.879 | to Mercury 114.499 | to Pallas 63.621]
+  - Dec Makemake–Transpluto 2:3:5 0.036% — held all day  [base 13.800 | to Makemake 34.492 | to Transpluto 20.692]
+  - Dec Mercury–Vesta φ: 2−1/φ/φ²/φ√5 0.073% (00:00 1.316%, 24:00 1.149%)  [base 30.639 | to Mercury 22.166 | to Vesta 8.473]
+  - RA Juno–Pallas 4:5:9 0.080% (00:00 0.390%, 24:00 0.548%)  [base 79.590 | to Juno 143.210 | to Pallas 63.621]
+  - Dec Chiron–Venus φ: φ/φ² 0.128% — held all day  [base 21.348 | to Chiron 13.211 | to Venus 34.559]
+
+### Gonggong — RA 336.633, Dec -12.013
+- **Numbers (6):**
+  - Dec to Haumea = 263/9 (29.2206, off -0.0016; ALL DAY)
+  - Dec to Pluto = 86/9 (9.5563, off +0.0007; 00:00–19:25)
+  - Flat to Spica ★ = 1218/9 (135.3336, off +0.0003; ALL DAY)
+  - Flat to Jupiter = whole 112 (112.0000, off -0.0000; 11:37–12:24)
+  - Sky to Arcturus ★ = 77φ (124.5905, off +0.0019; 00:00–14:24)
+  - Sky to Regulus ★ = 1580/9 (175.5575, off +0.0019; 10:19–24:00)
+- **Star chords (11):**
+  - Dec Algorab–Equator 3:8:11 0.023% — held all day  [base 16.519 | to Algorab 4.506 | to Equator 12.013]
+  - Dec Antares–Equator 5:6:11 0.034% — held all day  [base 26.433 | to Antares 14.420 | to Equator 12.013]
+  - RA Algorab–Vega 5:8:13 0.059% — held all day  [base 91.773 | to Algorab 149.165 | to Vega 57.392]
+  - RA Altair–Rigel φ: 2−1/φ/φ²/φ√5 0.070% — held all day  [base 140.928 | to Altair 38.932 | to Rigel 101.996]
+  - RA Castor–Pleiades 1:√2:1+√2 0.082% — held all day  [base 56.779 | to Castor 137.011 | to Pleiades 80.232]
+  - RA Altair–Fomalhaut 1:5:6 0.084% — held all day  [base 46.712 | to Altair 38.932 | to Fomalhaut 7.780]
+  - Dec Aldebaran–Fomalhaut φ: φ/φ² 0.100% — held all day  [base 46.129 | to Aldebaran 28.520 | to Fomalhaut 17.609]
+  - RA Antares–Arcturus 3:8:11 0.105% — held all day  [base 33.443 | to Antares 89.275 | to Arcturus 122.719]
+  - Flat Aldebaran–Spica 5:7:7 0.107% — held all day  [base 135.190 | to Aldebaran 96.646 | to Spica 135.334]
+  - Dec Betelgeuse–Vega φ: φ/φ² 0.142% — held all day  [base 31.376 | to Betelgeuse 19.419 | to Vega 50.795]
+  - Dec Antares–Deneb Algedi 2:5:7 0.146% (00:00 0.156%, 24:00 0.137%)  [base 10.304 | to Antares 14.420 | to Deneb Algedi 4.116]
+- **Chords with two other natal bodies (15):**
+  - RA Chiron–Saturn 2:5:7 0.015% — held all day  [base 80.989 | to Chiron 23.142 | to Saturn 57.847]
+  - Dec Eris–Pallas 1:8:9 0.040% (00:00 4.297%, 24:00 3.848%)  [base 1.252 | to Eris 10.024 | to Pallas 11.276]
+  - Dec Jupiter–Ketu 1:√2:1+√2 0.047% (00:00 1.343%, 24:00 1.108%)  [base 2.572 | to Jupiter 3.640 | to Ketu 6.212]
+  - Dec Eris–Vesta 3:5:8 0.048% (00:00 0.339%, 24:00 0.264%)  [base 16.035 | to Eris 10.024 | to Vesta 6.011]
+  - Flat Neptune–Sun 1:6:7 0.085% (00:00 0.576%, 24:00 0.663%)  [base 73.275 | to Neptune 12.207 | to Sun 85.415]
+  - RA Ketu–Quaoar 2:3:5 0.090% (00:00 0.197%, 24:00 0.039%)  [base 39.120 | to Ketu 26.057 | to Quaoar 65.177]
+  - Dec Makemake–Mercury 1:2:3 0.090% (00:00 4.038%, 24:00 4.082%)  [base 12.325 | to Makemake 36.953 | to Mercury 24.628]
+  - Dec Eris–Mars 1:1:2 0.090% (00:00 0.254%, 24:00 0.064%)  [base 20.056 | to Eris 10.024 | to Mars 10.033]
+  - RA Eris–Sun 3:5:8 0.093% (00:00 1.590%, 24:00 1.719%)  [base 29.751 | to Eris 49.538 | to Sun 79.289]
+  - RA Eris–Haumea 2:5:7 0.093% — held all day  [base 173.500 | to Eris 49.538 | to Haumea 123.962]
+  - RA Sedna–Transpluto 5:6:11 0.105% — held all day  [base 96.237 | to Sedna 80.114 | to Transpluto 176.350]
+  - Sky Rahu–Venus 1:3:4 0.109% (00:00 2.023%, 24:00 2.188%)  [base 38.546 | to Rahu 154.119 | to Venus 115.715]
+  - RA Mercury–Pallas 5:6:11 0.135% (00:00 2.274%, 24:00 2.640%)  [base 50.879 | to Mercury 61.137 | to Pallas 112.015]
+  - RA Eris–Sedna φ: φ/φ² 0.135% — held all day  [base 30.575 | to Eris 49.538 | to Sedna 80.114]
+  - Dec Sedna–Sun 3:5:8 0.143% (00:00 1.052%, 24:00 0.721%)  [base 11.900 | to Sedna 19.862 | to Sun 31.763]
+
+### Transpluto — RA 152.984, Dec +11.141
+- **Numbers (9):**
+  - RA to Deneb Algedi ★ = 1564/9 (173.7784, off +0.0006; ALL DAY)
+  - RA to Pallas = 579/9 (64.3349, off +0.0015; 11:59–12:09)
+  - Dec to Saturn = 301/9 (33.4460, off +0.0016; 00:00–15:47)
+  - Flat to Juno = 1297/9 (144.1117, off +0.0006; 11:56–12:07)
+  - Flat to Mercury = 1037/9 (115.2230, off +0.0008; 11:59–12:02)
+  - Sky to Alkaid ★ = 526/9 (58.4451, off +0.0007; ALL DAY)
+  - Sky to Ketu = 1415/9 (157.2211, off -0.0011; 09:37–12:45)
+  - Sky to Rahu = 205/9 (22.7789, off +0.0011; 09:37–12:45)
+  - Sky to Haumea = 41√2 (57.9816, off -0.0011; 06:58–13:26)
+- **Star chords (15):**
+  - Dec Algorab–Castor 3:4:7 0.015% — held all day  [base 48.407 | to Algorab 27.660 | to Castor 20.748]
+  - Dec Alphecca–Fomalhaut φ: 2−1/φ/φ²/φ√5 0.016% — held all day  [base 56.335 | to Alphecca 15.572 | to Fomalhaut 40.763]
+  - Dec Aldebaran–Antares 1:7:8 0.025% — held all day  [base 42.940 | to Aldebaran 5.366 | to Antares 37.574]
+  - RA Aldebaran–Sirius 5:8:13 0.030% — held all day  [base 32.305 | to Aldebaran 84.009 | to Sirius 51.704]
+  - RA Algorab–Sirius 2:3:5 0.046% — held all day  [base 86.188 | to Algorab 34.485 | to Sirius 51.704]
+  - Dec Capella–Sirius 4:5:9 0.067% — held all day  [base 62.721 | to Capella 34.855 | to Sirius 27.866]
+  - Dec Algorab–Vega 1:1:2 0.067% — held all day  [base 55.301 | to Algorab 27.660 | to Vega 27.641]
+  - Dec Equator–Sirius 2:3:5 0.077% — held all day  [base 16.724 | to Equator 11.141 | to Sirius 27.866]
+  - RA Alkaid–Antares 3:4:7 0.089% — held all day  [base 40.467 | to Alkaid 53.908 | to Antares 94.374]
+  - Dec Aldebaran–Pleiades 1:√2:1+√2 0.094% — held all day  [base 7.596 | to Aldebaran 5.366 | to Pleiades 12.963]
+  - Dec Castor–Pleiades 3:5:8 0.097% — held all day  [base 7.785 | to Castor 20.748 | to Pleiades 12.963]
+  - RA Aldebaran–Procyon 5:6:11 0.100% — held all day  [base 45.844 | to Aldebaran 84.009 | to Procyon 38.165]
+  - RA Alkaid–Procyon 1:√2:1+√2 0.122% — held all day  [base 92.073 | to Alkaid 53.908 | to Procyon 38.165]
+  - Dec Bellatrix–Procyon φ: 2/φ/φ³/φ³+1 0.142% — held all day  [base 1.130 | to Bellatrix 4.792 | to Procyon 5.922]
+  - Dec Algol–Polaris φ: φ/φ² 0.145% — held all day  [base 48.308 | to Algol 29.813 | to Polaris 78.121]
+- **Chords with two other natal bodies (13):**
+  - Dec Juno–Ketu 1:3:4 0.001% (00:00 1.249%, 24:00 1.253%)  [base 22.024 | to Juno 7.342 | to Ketu 29.366]
+  - Dec Juno–Pallas φ: φ/φ² 0.026% (00:00 1.299%, 24:00 1.239%)  [base 4.536 | to Juno 7.342 | to Pallas 11.878]
+  - Dec Makemake–Orcus 2:3:5 0.036% — held all day  [base 34.492 | to Makemake 13.800 | to Orcus 20.692]
+  - RA Makemake–Uranus 1:3:4 0.044% — held all day  [base 166.560 | to Makemake 41.626 | to Uranus 124.933]
+  - Sky Ketu–Saturn φ: 2/φ/φ³/φ³+1 0.068% — held all day  [base 30.044 | to Ketu 157.221 | to Saturn 127.183]
+  - RA Eris–Venus 1:1:2 0.079% (00:00 2.023%, 24:00 2.170%)  [base 63.431 | to Eris 126.812 | to Venus 63.381]
+  - Dec Sedna–Sun φ: 2−1/φ/φ²/φ√5 0.098% (00:00 1.409%, 24:00 1.173%)  [base 11.900 | to Sedna 3.292 | to Sun 8.609]
+  - RA Gonggong–Sedna 5:6:11 0.105% — held all day  [base 80.114 | to Gonggong 176.350 | to Sedna 96.237]
+  - RA Haumea–Rahu 3:8:11 0.106% (00:00 0.006%, 24:00 0.167%)  [base 82.095 | to Haumea 59.688 | to Rahu 22.407]
+  - RA Makemake–Mars φ: 2−1/φ/φ²/φ√5 0.116% (00:00 0.086%, 24:00 0.325%)  [base 109.105 | to Makemake 41.626 | to Mars 150.731]
+  - Dec Ceres–Pallas 4:5:9 0.137% — held all day  [base 26.745 | to Ceres 14.867 | to Pallas 11.878]
+  - Sky Juno–Uranus 1:6:7 0.141% (00:00 0.877%, 24:00 1.187%)  [base 20.136 | to Juno 141.120 | to Uranus 120.987]
+  - Flat Eris–Pluto 6:8:9 0.142% (00:00 0.125%, 24:00 0.157%)  [base 95.680 | to Eris 127.490 | to Pluto 143.316]
+
+### Rahu — RA 130.577, Dec +18.225
+- **Numbers (10):**
+  - RA to Ketu = whole 180 (180.0000, off +0.0000; ALL DAY)
+  - RA to Vega ★ = 1338/9 (148.6648, off -0.0019; 11:54–15:27)
+  - Dec to Vega ★ = 185/9 (20.5572, off +0.0017; 10:58–24:00)
+  - Flat to Sedna = 671/9 (74.5553, off -0.0002; 10:44–13:02)
+  - Sky to Ketu = whole 180 (180.0000, off +0.0000; ALL DAY)
+  - Sky to Bellatrix ★ = 445/9 (49.4446, off +0.0001; 10:24–13:59)
+  - Sky to Rigel ★ = 519/9 (57.6662, off -0.0005; 09:35–13:39)
+  - Sky to Transpluto = 205/9 (22.7789, off +0.0011; 09:37–12:45)
+  - Sky to Algorab ★ = 593/9 (65.8901, off +0.0012; 09:25–12:39)
+  - Sky to Sirius ★ = 28φ (45.3068, off +0.0018; 11:40–21:19)
+- **Star chords (11):**
+  - RA Algol–Capella 5:8:13 0.005% — held all day  [base 32.130 | to Algol 83.541 | to Capella 51.411]
+  - Dec Alkaid–Bellatrix φ: 2−1/φ/φ²/φ√5 0.008% — held all day  [base 42.966 | to Alkaid 31.090 | to Bellatrix 11.876]
+  - Dec Pleiades–Spica 1:5:6 0.021% — held all day  [base 35.267 | to Pleiades 5.879 | to Spica 29.388]
+  - Dec Castor–Equator 3:4:7 0.034% — held all day  [base 31.889 | to Castor 13.664 | to Equator 18.225]
+  - RA Algol–Fomalhaut 3:4:7 0.054% — held all day  [base 62.622 | to Algol 83.541 | to Fomalhaut 146.164]
+  - Flat Algorab–Arcturus 8:12:15 0.065% — held all day  [base 44.421 | to Algorab 66.662 | to Arcturus 83.343]
+  - Dec Algorab–Capella 4:5:9 0.084% — held all day  [base 62.515 | to Algorab 34.743 | to Capella 27.771]
+  - RA Algol–Betelgeuse 1:1:2 0.085% — held all day  [base 41.753 | to Algol 83.541 | to Betelgeuse 41.788]
+  - RA Betelgeuse–Fomalhaut 2:5:7 0.092% — held all day  [base 104.375 | to Betelgeuse 41.788 | to Fomalhaut 146.164]
+  - Flat Alkaid–Rigel 1:√2:1+√2 0.100% — held all day  [base 140.568 | to Alkaid 82.404 | to Rigel 58.284]
+  - Dec Pleiades–Vega 2:5:7 0.128% (00:00 0.213%, 24:00 0.083%)  [base 14.678 | to Pleiades 5.879 | to Vega 20.557]
+- **Chords with two other natal bodies (18):**
+  - Sky Ketu–Vesta φ: 2/φ/φ³/φ³+1 0.009% — held all day  [base 34.379 | to Ketu 180.000 | to Vesta 145.621]
+  - RA Makemake–Quaoar 5:6:11 0.009% — held all day  [base 76.847 | to Makemake 64.033 | to Quaoar 140.880]
+  - RA Eris–Mercury 1:8:9 0.023% (00:00 8.589%, 24:00 7.498%)  [base 11.598 | to Eris 104.405 | to Mercury 92.807]
+  - Dec Haumea–Sun 2:3:5 0.023% (00:00 6.427%, 24:00 6.474%)  [base 2.542 | to Haumea 1.017 | to Sun 1.525]
+  - Dec Ceres–Sedna 3:4:7 0.028% (00:00 0.978%, 24:00 0.887%)  [base 18.159 | to Ceres 7.784 | to Sedna 10.375]
+  - Dec Makemake–Quaoar 1:5:6 0.033% — held all day  [base 40.306 | to Makemake 6.716 | to Quaoar 33.590]
+  - Dec Makemake–Mars 1:6:7 0.060% — held all day  [base 46.986 | to Makemake 6.716 | to Mars 40.270]
+  - Sky Ketu–Uranus 5:6:11 0.061% (00:00 0.163%, 24:00 0.020%)  [base 81.791 | to Ketu 180.000 | to Uranus 98.209]
+  - RA Makemake–Uranus 5:8:13 0.072% — held all day  [base 166.560 | to Makemake 64.033 | to Uranus 102.526]
+  - Dec Juno–Neptune 1:√2:1+√2 0.083% (00:00 1.168%, 24:00 0.999%)  [base 10.192 | to Juno 14.425 | to Neptune 24.617]
+  - Flat Pluto–Vesta 1:8:9 0.087% (00:00 0.311%, 24:00 0.128%)  [base 18.517 | to Pluto 166.758 | to Vesta 148.265]
+  - RA Ceres–Makemake 1:5:6 0.088% (00:00 1.891%, 24:00 1.897%)  [base 53.353 | to Ceres 10.680 | to Makemake 64.033]
+  - Flat Mars–Vesta 1:5:6 0.089% (00:00 0.852%, 24:00 0.818%)  [base 29.646 | to Mars 177.760 | to Vesta 148.265]
+  - RA Haumea–Transpluto 3:8:11 0.106% (00:00 0.006%, 24:00 0.167%)  [base 59.688 | to Haumea 82.095 | to Transpluto 22.407]
+  - Sky Gonggong–Venus 1:3:4 0.109% (00:00 2.023%, 24:00 2.188%)  [base 115.715 | to Gonggong 154.119 | to Venus 38.546]
+  - Dec Jupiter–Venus 1:5:6 0.116% (00:00 0.140%, 24:00 0.345%)  [base 40.661 | to Jupiter 33.877 | to Venus 6.783]
+  - RA Ceres–Sun 1:7:8 0.142% (00:00 2.233%, 24:00 2.325%)  [base 85.334 | to Ceres 10.680 | to Sun 74.654]
+  - RA Uranus–Venus 2:3:5 0.148% (00:00 2.510%, 24:00 2.856%)  [base 61.552 | to Uranus 102.526 | to Venus 40.974]
+
+### Ketu — RA 310.577, Dec -18.225
+- **Numbers (13):**
+  - RA to Rahu = whole 180 (180.0000, off +0.0000; ALL DAY)
+  - RA to Makemake = 82√2 (115.9669, off +0.0013; 11:09–17:55)
+  - RA to Vega ★ = 282/9 (31.3352, off +0.0019; 11:54–15:27)
+  - Dec to Procyon ★ = 211/9 (23.4438, off -0.0007; 08:07–23:42)
+  - Dec to Capella ★ = 578/9 (64.2211, off -0.0011; 09:21–24:00)
+  - Flat to Rigel ★ = 1156/9 (128.4442, off -0.0003; 10:41–13:54)
+  - Flat to Regulus ★ = 1452/9 (161.3350, off +0.0017; 11:45–15:29)
+  - Sky to Rahu = whole 180 (180.0000, off +0.0000; ALL DAY)
+  - Sky to Bellatrix ★ = 1175/9 (130.5554, off -0.0001; 10:24–13:59)
+  - Sky to Rigel ★ = 1101/9 (122.3338, off +0.0005; 09:35–13:39)
+  - Sky to Transpluto = 1415/9 (157.2211, off -0.0011; 09:37–12:45)
+  - Sky to Algorab ★ = 1027/9 (114.1099, off -0.0012; 09:25–12:39)
+  - Sky to Arcturus ★ = 63φ (101.9343, off -0.0019; 08:33–12:08)
+- **Star chords (8):**
+  - Dec Castor–Rigel 1:4:5 0.012% — held all day  [base 40.092 | to Castor 50.114 | to Rigel 10.022]
+  - RA Aldebaran–Fomalhaut 2:5:7 0.035% — held all day  [base 84.562 | to Aldebaran 118.398 | to Fomalhaut 33.836]
+  - Dec Fomalhaut–Vega 1:5:6 0.042% — held all day  [base 68.404 | to Fomalhaut 11.397 | to Vega 57.007]
+  - Dec Equator–Fomalhaut 5:8:13 0.054% — held all day  [base 29.622 | to Equator 18.225 | to Fomalhaut 11.397]
+  - RA Algol–Capella 1:3:4 0.070% — held all day  [base 32.130 | to Algol 96.459 | to Capella 128.589]
+  - Flat Polaris–Regulus 6:6:7 0.094% — held all day  [base 138.157 | to Polaris 138.286 | to Regulus 161.335]
+  - Dec Aldebaran–Antares φ: 2/φ/φ³/φ³+1 0.108% (00:00 0.182%, 24:00 0.067%)  [base 42.940 | to Aldebaran 34.732 | to Antares 8.208]
+  - Dec Pleiades–Spica 1:5:6 0.115% (00:00 0.045%, 24:00 0.153%)  [base 35.267 | to Pleiades 42.329 | to Spica 7.062]
+- **Chords with two other natal bodies (11):**
+  - Dec Juno–Transpluto 1:3:4 0.001% (00:00 1.249%, 24:00 1.253%)  [base 7.342 | to Juno 22.024 | to Transpluto 29.366]
+  - Sky Rahu–Vesta φ: 2/φ/φ³/φ³+1 0.009% — held all day  [base 145.621 | to Rahu 180.000 | to Vesta 34.379]
+  - Dec Gonggong–Jupiter 1:√2:1+√2 0.047% (00:00 1.343%, 24:00 1.108%)  [base 3.640 | to Gonggong 6.212 | to Jupiter 2.572]
+  - Sky Rahu–Uranus 5:6:11 0.061% (00:00 0.163%, 24:00 0.020%)  [base 98.209 | to Rahu 180.000 | to Uranus 81.791]
+  - Sky Mercury–Neptune 1:√2:1+√2 0.066% (00:00 1.599%, 24:00 1.505%)  [base 53.477 | to Mercury 91.313 | to Neptune 37.839]
+  - Sky Saturn–Transpluto φ: 2/φ/φ³/φ³+1 0.068% — held all day  [base 127.183 | to Saturn 30.044 | to Transpluto 157.221]
+  - RA Chiron–Neptune 1:3:4 0.068% — held all day  [base 12.306 | to Chiron 49.199 | to Neptune 36.893]
+  - Dec Juno–Mercury 2:5:7 0.071% (00:00 2.678%, 24:00 2.678%)  [base 8.816 | to Juno 22.024 | to Mercury 30.840]
+  - Dec Chiron–Uranus 1:3:4 0.085% — held all day  [base 7.301 | to Chiron 21.885 | to Uranus 29.186]
+  - Dec Makemake–Mercury 2:5:7 0.089% (00:00 3.619%, 24:00 3.999%)  [base 12.325 | to Makemake 43.165 | to Mercury 30.840]
+  - RA Gonggong–Quaoar 2:3:5 0.090% (00:00 0.197%, 24:00 0.039%)  [base 65.177 | to Gonggong 26.057 | to Quaoar 39.120]
+
+## 3. Star strings and who holds them (the watch list for Methods 2 and 3)
+Every star base (pair of stars, or a star and the Equator) with each natal body that makes a chord on it. Bases held by two or more bodies first, then the rest; all kept.
+- **Dec Equator–Sirius** (4): Transpluto 2:3:5 0.077% all day; Saturn 1:3:4 0.101% all day; Neptune φ: φ/φ² 0.104%; Orcus 3:4:7 0.145%
+- **RA Algol–Capella** (3): Rahu 5:8:13 0.005% all day; Ketu 1:3:4 0.070% all day; Sun φ: 2−1/φ/φ²/φ√5 0.105%
+- **RA Alkaid–Antares** (3): Haumea 1:6:7 0.008%; Vesta 2:3:5 0.025%; Transpluto 3:4:7 0.089% all day
+- **Dec Alphecca–Fomalhaut** (3): Transpluto φ: 2−1/φ/φ²/φ√5 0.016% all day; Pluto 1:6:7 0.068% all day; Mercury 1:3:4 0.135%
+- **Dec Altair–Pleiades** (3): Ceres 1:8:9 0.022%; Sun 2:5:7 0.027%; Pluto 1:2:3 0.109% all day
+- **Dec Arcturus–Equator** (3): Neptune 1:3:4 0.026% all day; Chiron φ: 2/φ/φ³/φ³+1 0.052%; Uranus 3:4:7 0.122%
+- **RA Algorab–Alphecca** (2): Ceres 1:1:2 0.003%; Haumea 5:6:11 0.019% all day
+- **Dec Algol–Procyon** (2): Pallas 1:6:7 0.004%; Pluto 3:4:7 0.050% all day
+- **Dec Deneb Algedi–Polaris** (2): Mercury 3:8:11 0.005%; Ceres 2:3:5 0.076%
+- **RA Aldebaran–Capella** (2): Sedna 5:6:11 0.005% all day; Neptune 1:8:9 0.023% all day
+- **Dec Algol–Pleiades** (2): Vesta 2:5:7 0.005% all day; Orcus 1:2:3 0.136% all day
+- **RA Regulus–Sirius** (2): Mercury 4:5:9 0.008%; Chiron 1:2:3 0.118% all day
+- **Dec Alkaid–Bellatrix** (2): Rahu φ: 2−1/φ/φ²/φ√5 0.008% all day; Saturn 2:3:5 0.033% all day
+- **Dec Arcturus–Rigel** (2): Pallas 3:8:11 0.009%; Ceres 1:4:5 0.103%
+- **RA Castor–Rigel** (2): Sedna 5:8:13 0.009% all day; Eris 2:3:5 0.124% all day
+- **Dec Equator–Fomalhaut** (2): Sun 2:3:5 0.011%; Ketu 5:8:13 0.054% all day
+- **RA Castor–Spica** (2): Vesta 5:6:11 0.011% all day; Quaoar 4:5:9 0.040% all day
+- **Dec Castor–Rigel** (2): Ketu 1:4:5 0.012% all day; Pluto 1:3:4 0.014% all day
+- **RA Altair–Fomalhaut** (2): Vesta 1:2:3 0.014%; Gonggong 1:5:6 0.084% all day
+- **RA Alkaid–Deneb Algedi** (2): Pluto 2:5:7 0.016% all day; Saturn 2:3:5 0.093%
+- **RA Deneb Algedi–Procyon** (2): Juno 2:5:7 0.016%; Uranus 1:√2:1+√2 0.108%
+- **Dec Pleiades–Spica** (2): Rahu 1:5:6 0.021% all day; Ketu 1:5:6 0.115%
+- **Dec Aldebaran–Antares** (2): Transpluto 1:7:8 0.025% all day; Ketu φ: 2/φ/φ³/φ³+1 0.108%
+- **RA Algol–Castor** (2): Jupiter 3:5:8 0.029% all day; Pallas 3:5:8 0.111%
+- **RA Betelgeuse–Fomalhaut** (2): Eris 2:3:5 0.034% all day; Rahu 2:5:7 0.092% all day
+- **RA Fomalhaut–Vega** (2): Pallas 5:8:13 0.037%; Chiron φ: 2/φ/φ³/φ³+1 0.147%
+- **Dec Arcturus–Pleiades** (2): Quaoar 1:7:8 0.041% all day; Uranus 3:5:8 0.109%
+- **Dec Altair–Equator** (2): Uranus φ: 2/φ/φ³/φ³+1 0.042%; Juno 3:4:7 0.057%
+- **Dec Alkaid–Procyon** (2): Mars φ: φ/φ² 0.043% all day; Saturn 5:8:13 0.131% all day
+- **Sky Antares–Regulus** (2): Uranus 5:6:7 0.043% all day; Juno 5:6:7 0.062%
+- **Dec Algol–Equator** (2): Quaoar 3:8:11 0.048% all day; Jupiter φ: 2−1/φ/φ²/φ√5 0.060%
+- **RA Capella–Castor** (2): Mercury 5:6:11 0.050%; Ceres 4:5:9 0.105%
+- **RA Alphecca–Arcturus** (2): Jupiter 5:6:11 0.051%; Sun 1:8:9 0.077%
+- **RA Castor–Regulus** (2): Venus 5:8:13 0.052%; Sun 2:3:5 0.088%
+- **Dec Arcturus–Procyon** (2): Vesta 3:5:8 0.052% all day; Neptune 5:6:11 0.140%
+- **Dec Algol–Alphecca** (2): Chiron φ: φ/φ² 0.052% all day; Haumea 2:3:5 0.125% all day
+- **Dec Algorab–Pleiades** (2): Sedna 2:3:5 0.054% all day; Juno 1:1:2 0.068%
+- **RA Algol–Fomalhaut** (2): Rahu 3:4:7 0.054% all day; Eris 1:2:3 0.076% all day
+- **Dec Aldebaran–Pleiades** (2): Jupiter φ: 2/φ/φ³/φ³+1 0.058% all day; Transpluto 1:√2:1+√2 0.094% all day
+- **RA Aldebaran–Vega** (2): Juno 2:3:5 0.063%; Eris 2:5:7 0.073% all day
+- **RA Algol–Betelgeuse** (2): Eris 1:2:3 0.063% all day; Rahu 1:1:2 0.085% all day
+- **RA Arcturus–Vega** (2): Uranus 3:5:8 0.064% all day; Mars 3:8:11 0.099%
+- **RA Antares–Betelgeuse** (2): Jupiter 1:6:7 0.065%; Orcus 2:3:5 0.140% all day
+- **RA Antares–Polaris** (2): Mars 3:5:8 0.066%; Neptune 1:2:3 0.110% all day
+- **Dec Arcturus–Regulus** (2): Haumea 3:8:11 0.067% all day; Makemake 4:5:9 0.087% all day
+- **Dec Betelgeuse–Capella** (2): Makemake 5:6:11 0.069% all day; Pluto 3:4:7 0.113% all day
+- **RA Rigel–Spica** (2): Mercury 1:3:4 0.078%; Orcus 2:3:5 0.123% all day
+- **Dec Alkaid–Castor** (2): Uranus 5:6:11 0.080% all day; Chiron φ: φ/φ² 0.118% all day
+- **RA Antares–Regulus** (2): Sedna 9:9:16 0.083% all day; Pallas 2:3:5 0.106%
+- **RA Aldebaran–Regulus** (2): Chiron 5:6:11 0.093% all day; Mercury 3:8:11 0.116%
+- **Dec Arcturus–Sirius** (2): Orcus 1:4:5 0.099%; Juno 3:4:7 0.134%
+- **Dec Alphecca–Bellatrix** (2): Neptune 5:8:13 0.102% all day; Juno 1:8:9 0.140%
+- **Flat Procyon–Spica** (2): Vesta 5:6:11 0.116%; Venus 12:33:44 0.144%
+- **RA Sirius–Spica** (2): Eris 3:4:7 0.122% all day; Ceres 2:3:5 0.134%
+- **Dec Betelgeuse–Equator** (1): Sun 3:5:8 0.001%
+- **Dec Betelgeuse–Spica** (1): Saturn 3:5:8 0.001% all day
+- **RA Alkaid–Castor** (1): Orcus 1:√2:1+√2 0.004% all day
+- **Dec Capella–Fomalhaut** (1): Pallas φ: φ/φ² 0.008%
+- **RA Castor–Polaris** (1): Juno 3:8:11 0.008%
+- **Dec Betelgeuse–Fomalhaut** (1): Sun 1:3:4 0.009%
+- **RA Aldebaran–Deneb Algedi** (1): Ceres 1:√2:1+√2 0.009%
+- **Dec Altair–Arcturus** (1): Mars 1:3:4 0.011% all day
+- **Dec Regulus–Sirius** (1): Orcus 1:3:4 0.012% all day
+- **Dec Algorab–Castor** (1): Transpluto 3:4:7 0.015% all day
+- **Dec Alphecca–Vega** (1): Pluto 1:4:5 0.016% all day
+- **RA Deneb Algedi–Vega** (1): Eris 4:5:9 0.016% all day
+- **Dec Altair–Castor** (1): Orcus 4:5:9 0.016% all day
+- **RA Aldebaran–Castor** (1): Ceres φ: φ/φ² 0.017%
+- **Dec Aldebaran–Deneb Algedi** (1): Pluto 1:6:7 0.023% all day
+- **Dec Algorab–Equator** (1): Gonggong 3:8:11 0.023% all day
+- **Sky Fomalhaut–Rigel** (1): Haumea 2:3:3 0.025% all day
+- **Dec Equator–Procyon** (1): Jupiter 1:3:4 0.028% all day
+- **Sky Alkaid–Altair** (1): Mercury 30:35:42 0.029%
+- **Dec Fomalhaut–Procyon** (1): Neptune 1:2:3 0.029% all day
+- **RA Aldebaran–Sirius** (1): Transpluto 5:8:13 0.030% all day
+- **Flat Algorab–Procyon** (1): Sun 4:5:9 0.032%
+- **Dec Algol–Sirius** (1): Venus φ: 2−1/φ/φ²/φ√5 0.033%
+- **RA Betelgeuse–Regulus** (1): Neptune 5:8:13 0.033% all day
+- **Dec Antares–Equator** (1): Gonggong 5:6:11 0.034% all day
+- **Dec Castor–Equator** (1): Rahu 3:4:7 0.034% all day
+- **Dec Antares–Procyon** (1): Venus 5:8:13 0.035% all day
+- **RA Algol–Polaris** (1): Chiron 1:4:5 0.035%
+- **Dec Bellatrix–Regulus** (1): Ceres 2:5:7 0.035%
+- **RA Aldebaran–Fomalhaut** (1): Ketu 2:5:7 0.035% all day
+- **RA Aldebaran–Altair** (1): Quaoar 1:5:6 0.037% all day
+- **Dec Algol–Spica** (1): Pallas 1:4:5 0.038%
+- **Dec Fomalhaut–Vega** (1): Ketu 1:5:6 0.042% all day
+- **Dec Sirius–Spica** (1): Chiron 3:8:11 0.044% all day
+- **Dec Antares–Bellatrix** (1): Ceres 3:5:8 0.046%
+- **Dec Deneb Algedi–Regulus** (1): Ceres 1:2:3 0.046%
+- **RA Aldebaran–Polaris** (1): Makemake 1:4:5 0.046% all day
+- **RA Algorab–Sirius** (1): Transpluto 2:3:5 0.046% all day
+- **Dec Equator–Polaris** (1): Saturn 1:4:5 0.047% all day
+- **Dec Bellatrix–Sirius** (1): Uranus 1:5:6 0.048%
+- **Dec Capella–Regulus** (1): Mars 1:1:2 0.049% all day
+- **RA Alkaid–Capella** (1): Uranus 2:5:7 0.049% all day
+- **RA Arcturus–Deneb Algedi** (1): Juno 3:8:11 0.049%
+- **Dec Bellatrix–Pleiades** (1): Mars 5:8:13 0.050% all day
+- **Dec Alphecca–Betelgeuse** (1): Pluto 2:3:5 0.050% all day
+- **Dec Capella–Castor** (1): Chiron 1:2:3 0.050% all day
+- **Dec Altair–Polaris** (1): Makemake 1:4:5 0.051% all day
+- **Dec Regulus–Vega** (1): Pluto 4:5:9 0.052% all day
+- **Dec Capella–Pleiades** (1): Uranus 3:5:8 0.054% all day
+- **Dec Deneb Algedi–Spica** (1): Vesta φ: 2−1/φ/φ²/φ√5 0.054%
+- **RA Castor–Vega** (1): Ceres 1:5:6 0.055%
+- **RA Algol–Alphecca** (1): Chiron 3:8:11 0.056% all day
+- **Dec Castor–Sirius** (1): Makemake 1:6:7 0.058% all day
+- **Dec Aldebaran–Regulus** (1): Mercury 1:6:7 0.059%
+- **RA Bellatrix–Castor** (1): Makemake 2:5:7 0.059% all day
+- **RA Polaris–Sirius** (1): Orcus 4:5:9 0.059% all day
+- **RA Algorab–Vega** (1): Gonggong 5:8:13 0.059% all day
+- **Sky Antares–Arcturus** (1): Uranus 6:15:16 0.065% all day
+- **Flat Algorab–Arcturus** (1): Rahu 8:12:15 0.065% all day
+- **Dec Alkaid–Sirius** (1): Mercury 4:5:9 0.066%
+- **RA Algorab–Capella** (1): Mercury φ: 2−1/φ/φ²/φ√5 0.066%
+- **Dec Alkaid–Rigel** (1): Uranus 1:2:3 0.066% all day
+- **Flat Bellatrix–Regulus** (1): Neptune 3:4:7 0.066% all day
+- **Dec Capella–Sirius** (1): Transpluto 4:5:9 0.067% all day
+- **Dec Algorab–Vega** (1): Transpluto 1:1:2 0.067% all day
+- **Dec Alkaid–Polaris** (1): Quaoar φ: φ/φ² 0.068% all day
+- **RA Aldebaran–Rigel** (1): Uranus φ: 2/φ/φ³/φ³+1 0.069% all day
+- **RA Bellatrix–Regulus** (1): Makemake 3:5:8 0.069% all day
+- **RA Bellatrix–Sirius** (1): Ceres 1:2:3 0.070%
+- **Dec Fomalhaut–Rigel** (1): Sedna 3:4:7 0.070% all day
+- **RA Altair–Rigel** (1): Gonggong φ: 2−1/φ/φ²/φ√5 0.070% all day
+- **RA Algol–Vega** (1): Venus 1:3:4 0.072%
+- **Dec Aldebaran–Algorab** (1): Juno 5:8:13 0.072%
+- **Dec Altair–Antares** (1): Haumea φ: 2/φ/φ³/φ³+1 0.072% all day
+- **Dec Antares–Polaris** (1): Venus 4:5:9 0.074% all day
+- **Dec Pleiades–Procyon** (1): Eris φ: 2−1/φ/φ²/φ√5 0.074% all day
+- **RA Alkaid–Betelgeuse** (1): Ceres 4:5:9 0.075%
+- **RA Altair–Polaris** (1): Juno 2:5:7 0.075%
+- **RA Polaris–Rigel** (1): Vesta 1:3:4 0.075% all day
+- **Dec Algol–Arcturus** (1): Jupiter 5:8:13 0.078% all day
+- **Dec Antares–Vega** (1): Eris 3:5:8 0.078% all day
+- **Dec Deneb Algedi–Pleiades** (1): Mercury 2:5:7 0.081%
+- **Dec Equator–Pleiades** (1): Uranus 5:6:11 0.081%
+- **RA Pleiades–Regulus** (1): Chiron 3:5:8 0.081% all day
+- **Dec Aldebaran–Betelgeuse** (1): Quaoar 2:5:7 0.081% all day
+- **RA Capella–Deneb Algedi** (1): Uranus 5:6:11 0.082%
+- **RA Castor–Pleiades** (1): Gonggong 1:√2:1+√2 0.082% all day
+- **RA Algorab–Procyon** (1): Sedna 4:5:9 0.083% all day
+- **RA Algorab–Betelgeuse** (1): Sun 1:3:4 0.084%
+- **Dec Altair–Capella** (1): Mars 5:6:11 0.084% all day
+- **Dec Algorab–Capella** (1): Rahu 4:5:9 0.084% all day
+- **Dec Castor–Polaris** (1): Neptune 2:3:5 0.085% all day
+- **Flat Rigel–Spica** (1): Orcus 2:3:5 0.086% all day
+- **Dec Altair–Deneb Algedi** (1): Haumea 1:3:4 0.087% all day
+- **Dec Alphecca–Arcturus** (1): Sedna 2:3:5 0.088% all day
+- **RA Altair–Deneb Algedi** (1): Orcus 1:5:6 0.090% all day
+- **Dec Algol–Castor** (1): Haumea φ: φ/φ² 0.091% all day
+- **Flat Alkaid–Betelgeuse** (1): Ceres 4:5:9 0.092%
+- **Flat Pleiades–Rigel** (1): Haumea 2:7:8 0.092% all day
+- **Sky Altair–Spica** (1): Makemake 3:8:8 0.092% all day
+- **RA Altair–Betelgeuse** (1): Eris 1:√2:1+√2 0.094% all day
+- **Flat Polaris–Regulus** (1): Ketu 6:6:7 0.094% all day
+- **Dec Rigel–Sirius** (1): Mars 5:8:13 0.095%
+- **Dec Castor–Pleiades** (1): Transpluto 3:5:8 0.097% all day
+- **Dec Alphecca–Pleiades** (1): Sun 3:5:8 0.098%
+- **Sky Algorab–Bellatrix** (1): Jupiter 1:3:4 0.098%
+- **Dec Alkaid–Antares** (1): Vesta 1:8:9 0.100%
+- **Dec Aldebaran–Fomalhaut** (1): Gonggong φ: φ/φ² 0.100% all day
+- **RA Aldebaran–Procyon** (1): Transpluto 5:6:11 0.100% all day
+- **Flat Alkaid–Rigel** (1): Rahu 1:√2:1+√2 0.100% all day
+- **RA Polaris–Regulus** (1): Venus 5:6:11 0.101%
+- **Dec Alphecca–Castor** (1): Orcus 1:7:8 0.101% all day
+- **RA Capella–Sirius** (1): Pallas 3:4:7 0.103%
+- **Flat Alphecca–Procyon** (1): Vesta 3:6:8 0.103% all day
+- **RA Algol–Altair** (1): Eris φ: 2/φ/φ³/φ³+1 0.103% all day
+- **RA Antares–Arcturus** (1): Gonggong 3:8:11 0.105% all day
+- **RA Aldebaran–Spica** (1): Mercury φ: 2/φ/φ³/φ³+1 0.107%
+- **Dec Algol–Rigel** (1): Vesta 1:5:6 0.107%
+- **Flat Aldebaran–Spica** (1): Gonggong 5:7:7 0.107% all day
+- **RA Algorab–Rigel** (1): Mercury 3:8:11 0.109%
+- **RA Bellatrix–Spica** (1): Ceres 1:1:2 0.111%
+- **RA Castor–Sirius** (1): Haumea 1:8:9 0.112% all day
+- **Dec Alkaid–Deneb Algedi** (1): Uranus 1:√2:1+√2 0.113%
+- **Dec Aldebaran–Altair** (1): Neptune 1:2:3 0.113% all day
+- **Dec Pleiades–Polaris** (1): Eris 2:5:7 0.113% all day
+- **Dec Fomalhaut–Spica** (1): Uranus 5:6:11 0.115%
+- **RA Deneb Algedi–Spica** (1): Pluto 3:8:11 0.115% all day
+- **Dec Betelgeuse–Rigel** (1): Mercury 1:3:4 0.117%
+- **Dec Aldebaran–Algol** (1): Vesta 1:√2:1+√2 0.119%
+- **Dec Alkaid–Pleiades** (1): Orcus 3:4:7 0.119% all day
+- **RA Arcturus–Betelgeuse** (1): Eris 4:8:11 0.121% all day
+- **RA Alkaid–Procyon** (1): Transpluto 1:√2:1+√2 0.122% all day
+- **Dec Arcturus–Betelgeuse** (1): Mars 2:5:7 0.128%
+- **Dec Pleiades–Vega** (1): Rahu 2:5:7 0.128%
+- **Dec Altair–Sirius** (1): Pallas 3:5:8 0.129%
+- **Dec Aldebaran–Capella** (1): Makemake 2:5:7 0.130%
+- **RA Arcturus–Rigel** (1): Makemake 1:6:7 0.131%
+- **RA Alkaid–Alphecca** (1): Mars φ: 2−1/φ/φ²/φ√5 0.135%
+- **Dec Antares–Spica** (1): Eris 3:5:8 0.136% all day
+- **Sky Aldebaran–Alphecca** (1): Ceres 5:6:10 0.139%
+- **Dec Aldebaran–Castor** (1): Ceres φ: φ/φ² 0.140%
+- **Dec Aldebaran–Vega** (1): Venus φ: φ/φ² 0.141%
+- **Dec Fomalhaut–Sirius** (1): Neptune 4:5:9 0.141%
+- **RA Aldebaran–Betelgeuse** (1): Sedna φ: φ/φ² 0.141%
+- **Dec Alkaid–Altair** (1): Quaoar 3:5:8 0.141% all day
+- **Sky Capella–Deneb Algedi** (1): Haumea 8:9:9 0.142% all day
+- **Dec Betelgeuse–Vega** (1): Gonggong φ: φ/φ² 0.142% all day
+- **Dec Bellatrix–Procyon** (1): Transpluto φ: 2/φ/φ³/φ³+1 0.142% all day
+- **Sky Polaris–Regulus** (1): Eris 30:35:48 0.143% all day
+- **Dec Algorab–Rigel** (1): Mercury 2:5:7 0.144%
+- **Dec Bellatrix–Spica** (1): Neptune 3:8:11 0.144%
+- **RA Aldebaran–Bellatrix** (1): Pallas 3:5:8 0.144%
+- **Dec Bellatrix–Equator** (1): Sedna φ: 2/φ/φ³/φ³+1 0.145%
+- **Dec Algol–Polaris** (1): Transpluto φ: φ/φ² 0.145% all day
+- **RA Alphecca–Castor** (1): Venus 1:5:6 0.146%
+- **Dec Algorab–Polaris** (1): Chiron φ: 2/φ/φ³/φ³+1 0.146%
+- **Dec Betelgeuse–Regulus** (1): Quaoar 1:5:6 0.146% all day
+- **Dec Antares–Deneb Algedi** (1): Gonggong 2:5:7 0.146%
+- **Dec Betelgeuse–Castor** (1): Haumea 2:3:5 0.147%
+- **Dec Antares–Capella** (1): Neptune φ: 2−1/φ/φ²/φ√5 0.149%
+
+## 4. Figures between natal bodies (each counted once)
+- Dec Pluto–Quaoar–Vesta: 3:4:7 0.001%
+- Dec Juno–Ketu–Transpluto: 1:3:4 0.001%
+- Dec Juno–Makemake–Pluto: 5:6:11 0.003%
+- Dec Makemake–Neptune–Sedna: 5:6:11 0.005% all day
+- RA Neptune–Sedna–Uranus: 1:√2:1+√2 0.006% all day
+- Sky Ketu–Rahu–Vesta: φ: 2/φ/φ³/φ³+1 0.009% all day
+- RA Makemake–Quaoar–Rahu: 5:6:11 0.009% all day
+- Dec Jupiter–Saturn–Uranus: 1:4:5 0.013%
+- Dec Juno–Sedna–Venus: φ: 2/φ/φ³/φ³+1 0.014%
+- RA Chiron–Gonggong–Saturn: 2:5:7 0.015% all day
+- Dec Haumea–Sedna–Venus: 5:6:11 0.021%
+- Dec Chiron–Jupiter–Sun: 5:6:11 0.023%
+- Dec Haumea–Rahu–Sun: 2:3:5 0.023%
+- RA Eris–Mercury–Rahu: 1:8:9 0.023%
+- Flat Jupiter–Orcus–Saturn: 3:4:7 0.024%
+- RA Chiron–Sun–Venus: 3:5:8 0.025%
+- Dec Saturn–Sun–Venus: 1:8:9 0.026%
+- Dec Juno–Pallas–Transpluto: φ: φ/φ² 0.026%
+- RA Juno–Mercury–Pluto: 3:8:11 0.027%
+- RA Chiron–Sedna–Vesta: 2:3:5 0.028% all day
+- Dec Ceres–Rahu–Sedna: 3:4:7 0.028%
+- Sky Juno–Jupiter–Neptune: 1:5:6 0.033%
+- Dec Chiron–Haumea–Vesta: 5:8:13 0.033%
+- Dec Makemake–Quaoar–Rahu: 1:5:6 0.033% all day
+- RA Mercury–Orcus–Pallas: 4:5:9 0.035%
+- RA Ceres–Makemake–Sun: 5:8:13 0.036% all day
+- Dec Makemake–Orcus–Transpluto: 2:3:5 0.036% all day
+- Dec Chiron–Neptune–Sun: 5:8:13 0.040%
+- Dec Eris–Gonggong–Pallas: 1:8:9 0.040%
+- Dec Pallas–Quaoar–Uranus: 4:5:9 0.043%
+- RA Makemake–Transpluto–Uranus: 1:3:4 0.044% all day
+- RA Mercury–Pluto–Quaoar: 1:5:6 0.046%
+- Dec Gonggong–Jupiter–Ketu: 1:√2:1+√2 0.047%
+- Dec Eris–Gonggong–Vesta: 3:5:8 0.048%
+- Sky Chiron–Mercury–Uranus: 1:3:4 0.049%
+- RA Neptune–Pluto–Saturn: 1:4:5 0.058%
+- Dec Makemake–Mars–Rahu: 1:6:7 0.060% all day
+- Sky Ketu–Rahu–Uranus: 5:6:11 0.061%
+- RA Eris–Pallas–Pluto: 2:3:5 0.065%
+- Sky Ketu–Mercury–Neptune: 1:√2:1+√2 0.066%
+- Sky Ketu–Saturn–Transpluto: φ: 2/φ/φ³/φ³+1 0.068% all day
+- RA Chiron–Ketu–Neptune: 1:3:4 0.068% all day
+- Dec Pallas–Uranus–Venus: 5:6:11 0.070%
+- Dec Juno–Ketu–Mercury: 2:5:7 0.071%
+- RA Makemake–Rahu–Uranus: 5:8:13 0.072% all day
+- Dec Mercury–Orcus–Vesta: φ: 2−1/φ/φ²/φ√5 0.073%
+- Sky Chiron–Uranus–Vesta: 1:3:4 0.077% all day
+- Flat Chiron–Sun–Uranus: 1:1:2 0.079% — MIDPOINT
+- RA Eris–Transpluto–Venus: 1:1:2 0.079% — MIDPOINT
+- RA Juno–Orcus–Pallas: 4:5:9 0.080%
+- Dec Pallas–Sedna–Venus: 1:2:3 0.081%
+- Dec Juno–Neptune–Rahu: 1:√2:1+√2 0.083%
+- Dec Ceres–Haumea–Vesta: 1:4:5 0.083%
+- Flat Gonggong–Neptune–Sun: 1:6:7 0.085%
+- Dec Chiron–Ketu–Uranus: 1:3:4 0.085% all day
+- Dec Makemake–Mars–Neptune: 1:2:3 0.086% all day
+- Flat Pluto–Rahu–Vesta: 1:8:9 0.087%
+- RA Ceres–Makemake–Rahu: 1:5:6 0.088%
+- Dec Ketu–Makemake–Mercury: 2:5:7 0.089%
+- Flat Mars–Rahu–Vesta: 1:5:6 0.089%
+- Dec Gonggong–Makemake–Mercury: 1:2:3 0.090%
+- Dec Eris–Gonggong–Mars: 1:1:2 0.090% — MIDPOINT
+- RA Gonggong–Ketu–Quaoar: 2:3:5 0.090%
+- Dec Mercury–Neptune–Sun: 3:8:11 0.092%
+- RA Eris–Gonggong–Sun: 3:5:8 0.093%
+- RA Eris–Gonggong–Haumea: 2:5:7 0.093% all day
+- RA Ceres–Chiron–Uranus: 1:4:5 0.095%
+- Dec Sedna–Sun–Transpluto: φ: 2−1/φ/φ²/φ√5 0.098%
+- RA Gonggong–Sedna–Transpluto: 5:6:11 0.105% all day
+- Dec Haumea–Uranus–Venus: 4:5:9 0.106%
+- RA Haumea–Rahu–Transpluto: 3:8:11 0.106%
+- RA Chiron–Mercury–Sedna: 1:2:3 0.108%
+- Sky Gonggong–Rahu–Venus: 1:3:4 0.109%
+- Dec Jupiter–Rahu–Venus: 1:5:6 0.116%
+- RA Makemake–Mars–Transpluto: φ: 2−1/φ/φ²/φ√5 0.116%
+- Dec Eris–Mars–Quaoar: 1:2:3 0.118%
+- RA Juno–Mars–Saturn: φ: 2−1/φ/φ²/φ√5 0.125%
+- Dec Ceres–Pluto–Sedna: φ: φ/φ² 0.125%
+- Dec Juno–Quaoar–Sun: 5:6:11 0.126%
+- Dec Chiron–Orcus–Venus: φ: φ/φ² 0.128% all day
+- RA Chiron–Mars–Pluto: 1:5:6 0.128%
+- RA Juno–Jupiter–Saturn: 3:5:8 0.128%
+- RA Gonggong–Mercury–Pallas: 5:6:11 0.135%
+- RA Eris–Gonggong–Sedna: φ: φ/φ² 0.135% all day
+- Dec Ceres–Pallas–Transpluto: 4:5:9 0.137% all day
+- RA Mars–Quaoar–Uranus: φ: 2−1/φ/φ²/φ√5 0.139%
+- Dec Juno–Mars–Sun: φ: φ/φ² 0.141%
+- Sky Juno–Transpluto–Uranus: 1:6:7 0.141%
+- RA Ceres–Rahu–Sun: 1:7:8 0.142%
+- Flat Eris–Pluto–Transpluto: 6:8:9 0.142%
+- Dec Gonggong–Sedna–Sun: 3:5:8 0.143%
+- Sky Chiron–Jupiter–Saturn: φ: φ/φ² 0.143%
+- RA Chiron–Mars–Venus: 5:8:13 0.145%
+- RA Rahu–Uranus–Venus: 2:3:5 0.148%
+
+## 5. Midpoints (1:1:2) on star bases
+- Ceres on RA Algorab–Alphecca 1:1:2 0.003% (00:00 0.341%, 24:00 0.331%)  [base 46.210 | to Algorab 46.212 | to Alphecca 92.422]
+- Mars on Dec Capella–Regulus 1:1:2 0.049% — held all day  [base 34.029 | to Capella 68.042 | to Regulus 34.013]
+- Transpluto on Dec Algorab–Vega 1:1:2 0.067% — held all day  [base 55.301 | to Algorab 27.660 | to Vega 27.641]
+- Juno on Dec Algorab–Pleiades 1:1:2 0.068% (00:00 0.604%, 24:00 0.738%)  [base 40.622 | to Algorab 20.318 | to Pleiades 20.304]
+- Rahu on RA Algol–Betelgeuse 1:1:2 0.085% — held all day  [base 41.753 | to Algol 83.541 | to Betelgeuse 41.788]
+- Ceres on RA Bellatrix–Spica 1:1:2 0.111% (00:00 0.633%, 24:00 0.403%)  [base 120.025 | to Bellatrix 59.979 | to Spica 60.046]
+
+## 6. Stars and every body that reaches them (by chord or by number)
+- **Arcturus** — 22 bodies (Ceres, Chiron, Eris, Gonggong, Haumea, Juno, Jupiter, Ketu, Makemake, Mars, Mercury, Neptune, Orcus, Pallas, Quaoar, Rahu, Saturn, Sedna, Sun, Uranus, Venus, Vesta): Sun chord RA Alphecca–Arcturus 0.077%; Mars chord Dec Altair–Arcturus 0.011%; Mars chord RA Arcturus–Vega 0.099%; Mars chord Dec Arcturus–Betelgeuse 0.128%; Jupiter chord RA Alphecca–Arcturus 0.051%; Jupiter chord Dec Algol–Arcturus 0.078%; Uranus chord RA Arcturus–Vega 0.064%; Uranus chord Sky Antares–Arcturus 0.065%; Uranus chord Dec Arcturus–Pleiades 0.109%; Uranus chord Dec Arcturus–Equator 0.122%; Neptune chord Dec Arcturus–Equator 0.026%; Neptune chord Dec Arcturus–Procyon 0.140%; Chiron chord Dec Arcturus–Equator 0.052%; Ceres chord Dec Arcturus–Rigel 0.103%; Pallas chord Dec Arcturus–Rigel 0.009%; Juno chord RA Arcturus–Deneb Algedi 0.049%; Juno chord Dec Arcturus–Sirius 0.134%; Vesta chord Dec Arcturus–Procyon 0.052%; Eris chord RA Arcturus–Betelgeuse 0.121%; Sedna chord Dec Alphecca–Arcturus 0.088%; Haumea chord Dec Arcturus–Regulus 0.067%; Makemake chord Dec Arcturus–Regulus 0.087%; Makemake chord RA Arcturus–Rigel 0.131%; Quaoar chord Dec Arcturus–Pleiades 0.041%; Orcus chord Dec Arcturus–Sirius 0.099%; Gonggong chord RA Antares–Arcturus 0.105%; Rahu chord Flat Algorab–Arcturus 0.065%; Mercury number Dec 59/9; Venus number Flat 88√2; Jupiter number RA 97/9; Saturn number Flat whole 77; Neptune number RA 1202/9; Pallas number Sky 1110/9; Eris number Sky 114√2; Makemake number Sky 169/9; Quaoar number Flat 604/9; Gonggong number Sky 77φ; Ketu number Sky 63φ
+- **Castor** — 22 bodies (Ceres, Chiron, Eris, Gonggong, Haumea, Juno, Jupiter, Ketu, Makemake, Mercury, Neptune, Orcus, Pallas, Pluto, Quaoar, Rahu, Sedna, Sun, Transpluto, Uranus, Venus, Vesta): Sun chord RA Castor–Regulus 0.088%; Mercury chord RA Capella–Castor 0.050%; Venus chord RA Castor–Regulus 0.052%; Venus chord RA Alphecca–Castor 0.146%; Jupiter chord RA Algol–Castor 0.029%; Uranus chord Dec Alkaid–Castor 0.080%; Neptune chord Dec Castor–Polaris 0.085%; Pluto chord Dec Castor–Rigel 0.014%; Chiron chord Dec Capella–Castor 0.050%; Chiron chord Dec Alkaid–Castor 0.118%; Ceres chord RA Aldebaran–Castor 0.017%; Ceres chord RA Castor–Vega 0.055%; Ceres chord RA Capella–Castor 0.105%; Ceres chord Dec Aldebaran–Castor 0.140%; Pallas chord RA Algol–Castor 0.111%; Juno chord RA Castor–Polaris 0.008%; Vesta chord RA Castor–Spica 0.011%; Eris chord RA Castor–Rigel 0.124%; Sedna chord RA Castor–Rigel 0.009%; Haumea chord Dec Algol–Castor 0.091%; Haumea chord RA Castor–Sirius 0.112%; Haumea chord Dec Betelgeuse–Castor 0.147%; Makemake chord Dec Castor–Sirius 0.058%; Makemake chord RA Bellatrix–Castor 0.059%; Quaoar chord RA Castor–Spica 0.040%; Orcus chord RA Alkaid–Castor 0.004%; Orcus chord Dec Altair–Castor 0.016%; Orcus chord Dec Alphecca–Castor 0.101%; Gonggong chord RA Castor–Pleiades 0.082%; Transpluto chord Dec Algorab–Castor 0.015%; Transpluto chord Dec Castor–Pleiades 0.097%; Rahu chord Dec Castor–Equator 0.034%; Ketu chord Dec Castor–Rigel 0.012%; Venus number RA 17√2; Haumea number Flat 901/9
+- **Pleiades** — 20 bodies (Ceres, Chiron, Eris, Gonggong, Haumea, Juno, Jupiter, Ketu, Mars, Mercury, Neptune, Orcus, Pluto, Quaoar, Rahu, Sedna, Sun, Transpluto, Uranus, Vesta): Sun chord Dec Altair–Pleiades 0.027%; Sun chord Dec Alphecca–Pleiades 0.098%; Mercury chord Dec Deneb Algedi–Pleiades 0.081%; Mars chord Dec Bellatrix–Pleiades 0.050%; Jupiter chord Dec Aldebaran–Pleiades 0.058%; Uranus chord Dec Capella–Pleiades 0.054%; Uranus chord Dec Equator–Pleiades 0.081%; Uranus chord Dec Arcturus–Pleiades 0.109%; Pluto chord Dec Altair–Pleiades 0.109%; Chiron chord RA Pleiades–Regulus 0.081%; Ceres chord Dec Altair–Pleiades 0.022%; Juno chord Dec Algorab–Pleiades 0.068%; Vesta chord Dec Algol–Pleiades 0.005%; Eris chord Dec Pleiades–Procyon 0.074%; Eris chord Dec Pleiades–Polaris 0.113%; Sedna chord Dec Algorab–Pleiades 0.054%; Haumea chord Flat Pleiades–Rigel 0.092%; Quaoar chord Dec Arcturus–Pleiades 0.041%; Orcus chord Dec Alkaid–Pleiades 0.119%; Orcus chord Dec Algol–Pleiades 0.136%; Gonggong chord RA Castor–Pleiades 0.082%; Transpluto chord Dec Aldebaran–Pleiades 0.094%; Transpluto chord Dec Castor–Pleiades 0.097%; Rahu chord Dec Pleiades–Spica 0.021%; Rahu chord Dec Pleiades–Vega 0.128%; Ketu chord Dec Pleiades–Spica 0.115%; Neptune number Sky 667/9; Chiron number Dec 184/9
+- **Regulus** — 19 bodies (Ceres, Chiron, Eris, Gonggong, Haumea, Juno, Ketu, Makemake, Mars, Mercury, Neptune, Orcus, Pallas, Pluto, Quaoar, Sedna, Sun, Uranus, Venus): Sun chord RA Castor–Regulus 0.088%; Mercury chord RA Regulus–Sirius 0.008%; Mercury chord Dec Aldebaran–Regulus 0.059%; Mercury chord RA Aldebaran–Regulus 0.116%; Venus chord RA Castor–Regulus 0.052%; Venus chord RA Polaris–Regulus 0.101%; Mars chord Dec Capella–Regulus 0.049%; Uranus chord Sky Antares–Regulus 0.043%; Neptune chord RA Betelgeuse–Regulus 0.033%; Neptune chord Flat Bellatrix–Regulus 0.066%; Pluto chord Dec Regulus–Vega 0.052%; Chiron chord RA Pleiades–Regulus 0.081%; Chiron chord RA Aldebaran–Regulus 0.093%; Chiron chord RA Regulus–Sirius 0.118%; Ceres chord Dec Bellatrix–Regulus 0.035%; Ceres chord Dec Deneb Algedi–Regulus 0.046%; Pallas chord RA Antares–Regulus 0.106%; Juno chord Sky Antares–Regulus 0.062%; Eris chord Sky Polaris–Regulus 0.143%; Sedna chord RA Antares–Regulus 0.083%; Haumea chord Dec Arcturus–Regulus 0.067%; Makemake chord RA Bellatrix–Regulus 0.069%; Makemake chord Dec Arcturus–Regulus 0.087%; Quaoar chord Dec Betelgeuse–Regulus 0.146%; Orcus chord Dec Regulus–Sirius 0.012%; Ketu chord Flat Polaris–Regulus 0.094%; Pallas number RA 571/9; Quaoar number Dec 246/9; Gonggong number Sky 1580/9; Ketu number Flat 1452/9
+- **Algol** — 19 bodies (Ceres, Chiron, Eris, Haumea, Jupiter, Ketu, Makemake, Mars, Orcus, Pallas, Pluto, Quaoar, Rahu, Saturn, Sun, Transpluto, Uranus, Venus, Vesta): Sun chord RA Algol–Capella 0.105%; Venus chord Dec Algol–Sirius 0.033%; Venus chord RA Algol–Vega 0.072%; Jupiter chord RA Algol–Castor 0.029%; Jupiter chord Dec Algol–Equator 0.060%; Jupiter chord Dec Algol–Arcturus 0.078%; Pluto chord Dec Algol–Procyon 0.050%; Chiron chord RA Algol–Polaris 0.035%; Chiron chord Dec Algol–Alphecca 0.052%; Chiron chord RA Algol–Alphecca 0.056%; Pallas chord Dec Algol–Procyon 0.004%; Pallas chord Dec Algol–Spica 0.038%; Pallas chord RA Algol–Castor 0.111%; Vesta chord Dec Algol–Pleiades 0.005%; Vesta chord Dec Algol–Rigel 0.107%; Vesta chord Dec Aldebaran–Algol 0.119%; Eris chord RA Algol–Betelgeuse 0.063%; Eris chord RA Algol–Fomalhaut 0.076%; Eris chord RA Algol–Altair 0.103%; Haumea chord Dec Algol–Castor 0.091%; Haumea chord Dec Algol–Alphecca 0.125%; Quaoar chord Dec Algol–Equator 0.048%; Orcus chord Dec Algol–Pleiades 0.136%; Transpluto chord Dec Algol–Polaris 0.145%; Rahu chord RA Algol–Capella 0.005%; Rahu chord RA Algol–Fomalhaut 0.054%; Rahu chord RA Algol–Betelgeuse 0.085%; Ketu chord RA Algol–Capella 0.070%; Sun number RA 80/9; Mars number Dec whole 63; Saturn number Flat whole 143; Uranus number Sky 309/9; Ceres number RA 848/9; Makemake number Sky 968/9
+- **Aldebaran** — 19 bodies (Ceres, Chiron, Eris, Gonggong, Juno, Jupiter, Ketu, Makemake, Mars, Mercury, Neptune, Pallas, Pluto, Quaoar, Sedna, Transpluto, Uranus, Venus, Vesta): Mercury chord Dec Aldebaran–Regulus 0.059%; Mercury chord RA Aldebaran–Spica 0.107%; Mercury chord RA Aldebaran–Regulus 0.116%; Venus chord Dec Aldebaran–Vega 0.141%; Jupiter chord Dec Aldebaran–Pleiades 0.058%; Uranus chord RA Aldebaran–Rigel 0.069%; Neptune chord RA Aldebaran–Capella 0.023%; Neptune chord Dec Aldebaran–Altair 0.113%; Pluto chord Dec Aldebaran–Deneb Algedi 0.023%; Chiron chord RA Aldebaran–Regulus 0.093%; Ceres chord RA Aldebaran–Deneb Algedi 0.009%; Ceres chord RA Aldebaran–Castor 0.017%; Ceres chord Sky Aldebaran–Alphecca 0.139%; Ceres chord Dec Aldebaran–Castor 0.140%; Pallas chord RA Aldebaran–Bellatrix 0.144%; Juno chord RA Aldebaran–Vega 0.063%; Juno chord Dec Aldebaran–Algorab 0.072%; Vesta chord Dec Aldebaran–Algol 0.119%; Eris chord RA Aldebaran–Vega 0.073%; Sedna chord RA Aldebaran–Capella 0.005%; Sedna chord RA Aldebaran–Betelgeuse 0.141%; Makemake chord RA Aldebaran–Polaris 0.046%; Makemake chord Dec Aldebaran–Capella 0.130%; Quaoar chord RA Aldebaran–Altair 0.037%; Quaoar chord Dec Aldebaran–Betelgeuse 0.081%; Gonggong chord Dec Aldebaran–Fomalhaut 0.100%; Gonggong chord Flat Aldebaran–Spica 0.107%; Transpluto chord Dec Aldebaran–Antares 0.025%; Transpluto chord RA Aldebaran–Sirius 0.030%; Transpluto chord Dec Aldebaran–Pleiades 0.094%; Transpluto chord RA Aldebaran–Procyon 0.100%; Ketu chord RA Aldebaran–Fomalhaut 0.035%; Ketu chord Dec Aldebaran–Antares 0.108%; Mars number Flat 81φ; Jupiter number Sky 1410/9
+- **Betelgeuse** — 18 bodies (Ceres, Eris, Gonggong, Haumea, Jupiter, Makemake, Mars, Mercury, Neptune, Orcus, Pluto, Quaoar, Rahu, Saturn, Sedna, Sun, Uranus, Vesta): Sun chord Dec Betelgeuse–Equator 0.001%; Sun chord Dec Betelgeuse–Fomalhaut 0.009%; Sun chord RA Algorab–Betelgeuse 0.084%; Mercury chord Dec Betelgeuse–Rigel 0.117%; Mars chord Dec Arcturus–Betelgeuse 0.128%; Jupiter chord RA Antares–Betelgeuse 0.065%; Saturn chord Dec Betelgeuse–Spica 0.001%; Neptune chord RA Betelgeuse–Regulus 0.033%; Pluto chord Dec Alphecca–Betelgeuse 0.050%; Pluto chord Dec Betelgeuse–Capella 0.113%; Ceres chord RA Alkaid–Betelgeuse 0.075%; Ceres chord Flat Alkaid–Betelgeuse 0.092%; Eris chord RA Betelgeuse–Fomalhaut 0.034%; Eris chord RA Algol–Betelgeuse 0.063%; Eris chord RA Altair–Betelgeuse 0.094%; Eris chord RA Arcturus–Betelgeuse 0.121%; Sedna chord RA Aldebaran–Betelgeuse 0.141%; Haumea chord Dec Betelgeuse–Castor 0.147%; Makemake chord Dec Betelgeuse–Capella 0.069%; Quaoar chord Dec Aldebaran–Betelgeuse 0.081%; Quaoar chord Dec Betelgeuse–Regulus 0.146%; Orcus chord RA Antares–Betelgeuse 0.140%; Gonggong chord Dec Betelgeuse–Vega 0.142%; Rahu chord RA Algol–Betelgeuse 0.085%; Rahu chord RA Betelgeuse–Fomalhaut 0.092%; Saturn number RA whole 170; Uranus number Dec 32/9; Ceres number Flat 501/9; Vesta number RA 1570/9; Sedna number Dec 4/9; Makemake number Sky whole 101; Quaoar number RA 1596/9
+- **Spica** — 18 bodies (Ceres, Chiron, Eris, Gonggong, Ketu, Makemake, Mercury, Neptune, Orcus, Pallas, Pluto, Quaoar, Rahu, Saturn, Sedna, Uranus, Venus, Vesta): Mercury chord RA Rigel–Spica 0.078%; Mercury chord RA Aldebaran–Spica 0.107%; Venus chord Flat Procyon–Spica 0.144%; Saturn chord Dec Betelgeuse–Spica 0.001%; Uranus chord Dec Fomalhaut–Spica 0.115%; Neptune chord Dec Bellatrix–Spica 0.144%; Pluto chord RA Deneb Algedi–Spica 0.115%; Chiron chord Dec Sirius–Spica 0.044%; Ceres chord RA Bellatrix–Spica 0.111%; Ceres chord RA Sirius–Spica 0.134%; Pallas chord Dec Algol–Spica 0.038%; Vesta chord RA Castor–Spica 0.011%; Vesta chord Dec Deneb Algedi–Spica 0.054%; Vesta chord Flat Procyon–Spica 0.116%; Eris chord RA Sirius–Spica 0.122%; Eris chord Dec Antares–Spica 0.136%; Makemake chord Sky Altair–Spica 0.092%; Quaoar chord RA Castor–Spica 0.040%; Orcus chord Flat Rigel–Spica 0.086%; Orcus chord RA Rigel–Spica 0.123%; Gonggong chord Flat Aldebaran–Spica 0.107%; Rahu chord Dec Pleiades–Spica 0.021%; Ketu chord Dec Pleiades–Spica 0.115%; Mercury number Dec 214/9; Pallas number Flat 80√2; Sedna number RA 1301/9; Gonggong number Flat 1218/9
+- **Antares** — 18 bodies (Ceres, Chiron, Eris, Gonggong, Haumea, Juno, Jupiter, Ketu, Mars, Neptune, Orcus, Pallas, Sedna, Sun, Transpluto, Uranus, Venus, Vesta): Venus chord Dec Antares–Procyon 0.035%; Venus chord Dec Antares–Polaris 0.074%; Mars chord RA Antares–Polaris 0.066%; Jupiter chord RA Antares–Betelgeuse 0.065%; Uranus chord Sky Antares–Regulus 0.043%; Uranus chord Sky Antares–Arcturus 0.065%; Neptune chord RA Antares–Polaris 0.110%; Neptune chord Dec Antares–Capella 0.149%; Ceres chord Dec Antares–Bellatrix 0.046%; Pallas chord RA Antares–Regulus 0.106%; Juno chord Sky Antares–Regulus 0.062%; Vesta chord RA Alkaid–Antares 0.025%; Vesta chord Dec Alkaid–Antares 0.100%; Eris chord Dec Antares–Vega 0.078%; Eris chord Dec Antares–Spica 0.136%; Sedna chord RA Antares–Regulus 0.083%; Haumea chord RA Alkaid–Antares 0.008%; Haumea chord Dec Altair–Antares 0.072%; Orcus chord RA Antares–Betelgeuse 0.140%; Gonggong chord Dec Antares–Equator 0.034%; Gonggong chord RA Antares–Arcturus 0.105%; Gonggong chord Dec Antares–Deneb Algedi 0.146%; Transpluto chord Dec Aldebaran–Antares 0.025%; Transpluto chord RA Alkaid–Antares 0.089%; Ketu chord Dec Aldebaran–Antares 0.108%; Sun number Flat 1573/9; Jupiter number RA 204/9; Neptune number RA 901/9; Chiron number Sky 1005/9; Pallas number Flat 1447/9; Eris number Dec 220/9
+- **Altair** — 17 bodies (Ceres, Eris, Gonggong, Haumea, Juno, Makemake, Mars, Mercury, Neptune, Orcus, Pallas, Pluto, Quaoar, Sun, Uranus, Venus, Vesta): Sun chord Dec Altair–Pleiades 0.027%; Mercury chord Sky Alkaid–Altair 0.029%; Mars chord Dec Altair–Arcturus 0.011%; Mars chord Dec Altair–Capella 0.084%; Uranus chord Dec Altair–Equator 0.042%; Neptune chord Dec Aldebaran–Altair 0.113%; Pluto chord Dec Altair–Pleiades 0.109%; Ceres chord Dec Altair–Pleiades 0.022%; Pallas chord Dec Altair–Sirius 0.129%; Juno chord Dec Altair–Equator 0.057%; Juno chord RA Altair–Polaris 0.075%; Vesta chord RA Altair–Fomalhaut 0.014%; Eris chord RA Altair–Betelgeuse 0.094%; Eris chord RA Algol–Altair 0.103%; Haumea chord Dec Altair–Antares 0.072%; Haumea chord Dec Altair–Deneb Algedi 0.087%; Makemake chord Dec Altair–Polaris 0.051%; Makemake chord Sky Altair–Spica 0.092%; Quaoar chord RA Aldebaran–Altair 0.037%; Quaoar chord Dec Alkaid–Altair 0.141%; Orcus chord Dec Altair–Castor 0.016%; Orcus chord RA Altair–Deneb Algedi 0.090%; Gonggong chord RA Altair–Rigel 0.070%; Gonggong chord RA Altair–Fomalhaut 0.084%; Sun number RA 1064/9; Venus number Sky 1228/9; Ceres number RA 1408/9
+- **Polaris** — 17 bodies (Ceres, Chiron, Eris, Juno, Jupiter, Ketu, Makemake, Mars, Mercury, Neptune, Orcus, Pallas, Quaoar, Saturn, Transpluto, Venus, Vesta): Mercury chord Dec Deneb Algedi–Polaris 0.005%; Venus chord Dec Antares–Polaris 0.074%; Venus chord RA Polaris–Regulus 0.101%; Mars chord RA Antares–Polaris 0.066%; Saturn chord Dec Equator–Polaris 0.047%; Neptune chord Dec Castor–Polaris 0.085%; Neptune chord RA Antares–Polaris 0.110%; Chiron chord RA Algol–Polaris 0.035%; Chiron chord Dec Algorab–Polaris 0.146%; Ceres chord Dec Deneb Algedi–Polaris 0.076%; Juno chord RA Castor–Polaris 0.008%; Juno chord RA Altair–Polaris 0.075%; Vesta chord RA Polaris–Rigel 0.075%; Eris chord Dec Pleiades–Polaris 0.113%; Eris chord Sky Polaris–Regulus 0.143%; Makemake chord RA Aldebaran–Polaris 0.046%; Makemake chord Dec Altair–Polaris 0.051%; Quaoar chord Dec Alkaid–Polaris 0.068%; Orcus chord RA Polaris–Sirius 0.059%; Transpluto chord Dec Algol–Polaris 0.145%; Ketu chord Flat Polaris–Regulus 0.094%; Jupiter number RA 1556/9; Jupiter number Flat 143√2; Saturn number RA 84√2; Neptune number RA 451/9; Chiron number Sky 53φ; Pallas number Dec whole 90
+- **Rigel** — 17 bodies (Ceres, Eris, Gonggong, Haumea, Ketu, Makemake, Mars, Mercury, Orcus, Pallas, Pluto, Quaoar, Rahu, Sedna, Uranus, Venus, Vesta): Mercury chord RA Rigel–Spica 0.078%; Mercury chord RA Algorab–Rigel 0.109%; Mercury chord Dec Betelgeuse–Rigel 0.117%; Mercury chord Dec Algorab–Rigel 0.144%; Mars chord Dec Rigel–Sirius 0.095%; Uranus chord Dec Alkaid–Rigel 0.066%; Uranus chord RA Aldebaran–Rigel 0.069%; Pluto chord Dec Castor–Rigel 0.014%; Ceres chord Dec Arcturus–Rigel 0.103%; Pallas chord Dec Arcturus–Rigel 0.009%; Vesta chord RA Polaris–Rigel 0.075%; Vesta chord Dec Algol–Rigel 0.107%; Eris chord RA Castor–Rigel 0.124%; Sedna chord RA Castor–Rigel 0.009%; Sedna chord Dec Fomalhaut–Rigel 0.070%; Haumea chord Sky Fomalhaut–Rigel 0.025%; Haumea chord Flat Pleiades–Rigel 0.092%; Makemake chord RA Arcturus–Rigel 0.131%; Orcus chord Flat Rigel–Spica 0.086%; Orcus chord RA Rigel–Spica 0.123%; Gonggong chord RA Altair–Rigel 0.070%; Rahu chord Flat Alkaid–Rigel 0.100%; Ketu chord Dec Castor–Rigel 0.012%; Venus number Sky 314/9; Pluto number RA 1315/9; Quaoar number Sky 1379/9; Rahu number Sky 519/9; Ketu number Flat 1156/9; Ketu number Sky 1101/9
+- **Vega** — 17 bodies (Ceres, Chiron, Eris, Gonggong, Haumea, Juno, Ketu, Makemake, Mars, Orcus, Pallas, Pluto, Rahu, Sun, Transpluto, Uranus, Venus): Venus chord RA Algol–Vega 0.072%; Venus chord Dec Aldebaran–Vega 0.141%; Mars chord RA Arcturus–Vega 0.099%; Uranus chord RA Arcturus–Vega 0.064%; Pluto chord Dec Alphecca–Vega 0.016%; Pluto chord Dec Regulus–Vega 0.052%; Chiron chord RA Fomalhaut–Vega 0.147%; Ceres chord RA Castor–Vega 0.055%; Pallas chord RA Fomalhaut–Vega 0.037%; Juno chord RA Aldebaran–Vega 0.063%; Eris chord RA Deneb Algedi–Vega 0.016%; Eris chord RA Aldebaran–Vega 0.073%; Eris chord Dec Antares–Vega 0.078%; Gonggong chord RA Algorab–Vega 0.059%; Gonggong chord Dec Betelgeuse–Vega 0.142%; Transpluto chord Dec Algorab–Vega 0.067%; Rahu chord Dec Pleiades–Vega 0.128%; Ketu chord Dec Fomalhaut–Vega 0.042%; Sun number Flat whole 138; Uranus number Sky 876/9; Chiron number Sky 723/9; Haumea number Sky 551/9; Makemake number Flat 53φ; Orcus number Dec 435/9; Rahu number RA 1338/9; Rahu number Dec 185/9; Ketu number RA 282/9
+- **Procyon** — 16 bodies (Eris, Juno, Jupiter, Ketu, Makemake, Mars, Neptune, Pallas, Pluto, Saturn, Sedna, Sun, Transpluto, Uranus, Venus, Vesta): Sun chord Flat Algorab–Procyon 0.032%; Venus chord Dec Antares–Procyon 0.035%; Venus chord Flat Procyon–Spica 0.144%; Mars chord Dec Alkaid–Procyon 0.043%; Jupiter chord Dec Equator–Procyon 0.028%; Saturn chord Dec Alkaid–Procyon 0.131%; Uranus chord RA Deneb Algedi–Procyon 0.108%; Neptune chord Dec Fomalhaut–Procyon 0.029%; Neptune chord Dec Arcturus–Procyon 0.140%; Pluto chord Dec Algol–Procyon 0.050%; Pallas chord Dec Algol–Procyon 0.004%; Juno chord RA Deneb Algedi–Procyon 0.016%; Vesta chord Dec Arcturus–Procyon 0.052%; Vesta chord Flat Alphecca–Procyon 0.103%; Vesta chord Flat Procyon–Spica 0.116%; Eris chord Dec Pleiades–Procyon 0.074%; Sedna chord RA Algorab–Procyon 0.083%; Transpluto chord RA Aldebaran–Procyon 0.100%; Transpluto chord RA Alkaid–Procyon 0.122%; Transpluto chord Dec Bellatrix–Procyon 0.142%; Makemake number Sky 707/9; Ketu number Dec 211/9
+- **Alphecca** — 16 bodies (Ceres, Chiron, Haumea, Juno, Jupiter, Mars, Mercury, Neptune, Orcus, Pluto, Quaoar, Sedna, Sun, Transpluto, Venus, Vesta): Sun chord RA Alphecca–Arcturus 0.077%; Sun chord Dec Alphecca–Pleiades 0.098%; Mercury chord Dec Alphecca–Fomalhaut 0.135%; Venus chord RA Alphecca–Castor 0.146%; Mars chord RA Alkaid–Alphecca 0.135%; Jupiter chord RA Alphecca–Arcturus 0.051%; Neptune chord Dec Alphecca–Bellatrix 0.102%; Pluto chord Dec Alphecca–Vega 0.016%; Pluto chord Dec Alphecca–Betelgeuse 0.050%; Pluto chord Dec Alphecca–Fomalhaut 0.068%; Chiron chord Dec Algol–Alphecca 0.052%; Chiron chord RA Algol–Alphecca 0.056%; Ceres chord RA Algorab–Alphecca 0.003%; Ceres chord Sky Aldebaran–Alphecca 0.139%; Juno chord Dec Alphecca–Bellatrix 0.140%; Vesta chord Flat Alphecca–Procyon 0.103%; Sedna chord Dec Alphecca–Arcturus 0.088%; Haumea chord RA Algorab–Alphecca 0.019%; Haumea chord Dec Algol–Alphecca 0.125%; Orcus chord Dec Alphecca–Castor 0.101%; Transpluto chord Dec Alphecca–Fomalhaut 0.016%; Pluto number Flat 685/9; Quaoar number RA 340/9
+- **Capella** — 16 bodies (Ceres, Chiron, Haumea, Ketu, Makemake, Mars, Mercury, Neptune, Pallas, Pluto, Rahu, Sedna, Sun, Transpluto, Uranus, Vesta): Sun chord RA Algol–Capella 0.105%; Mercury chord RA Capella–Castor 0.050%; Mercury chord RA Algorab–Capella 0.066%; Mars chord Dec Capella–Regulus 0.049%; Mars chord Dec Altair–Capella 0.084%; Uranus chord RA Alkaid–Capella 0.049%; Uranus chord Dec Capella–Pleiades 0.054%; Uranus chord RA Capella–Deneb Algedi 0.082%; Neptune chord RA Aldebaran–Capella 0.023%; Neptune chord Dec Antares–Capella 0.149%; Pluto chord Dec Betelgeuse–Capella 0.113%; Chiron chord Dec Capella–Castor 0.050%; Ceres chord RA Capella–Castor 0.105%; Pallas chord Dec Capella–Fomalhaut 0.008%; Pallas chord RA Capella–Sirius 0.103%; Sedna chord RA Aldebaran–Capella 0.005%; Haumea chord Sky Capella–Deneb Algedi 0.142%; Makemake chord Dec Betelgeuse–Capella 0.069%; Makemake chord Dec Aldebaran–Capella 0.130%; Transpluto chord Dec Capella–Sirius 0.067%; Rahu chord RA Algol–Capella 0.005%; Rahu chord Dec Algorab–Capella 0.084%; Ketu chord RA Algol–Capella 0.070%; Vesta number Sky 1344/9; Makemake number RA 1039/9; Ketu number Dec 578/9
+- **Sirius** — 16 bodies (Ceres, Chiron, Eris, Haumea, Juno, Makemake, Mars, Mercury, Neptune, Orcus, Pallas, Rahu, Saturn, Transpluto, Uranus, Venus): Mercury chord RA Regulus–Sirius 0.008%; Mercury chord Dec Alkaid–Sirius 0.066%; Venus chord Dec Algol–Sirius 0.033%; Mars chord Dec Rigel–Sirius 0.095%; Saturn chord Dec Equator–Sirius 0.101%; Uranus chord Dec Bellatrix–Sirius 0.048%; Neptune chord Dec Equator–Sirius 0.104%; Neptune chord Dec Fomalhaut–Sirius 0.141%; Chiron chord Dec Sirius–Spica 0.044%; Chiron chord RA Regulus–Sirius 0.118%; Ceres chord RA Bellatrix–Sirius 0.070%; Ceres chord RA Sirius–Spica 0.134%; Pallas chord RA Capella–Sirius 0.103%; Pallas chord Dec Altair–Sirius 0.129%; Juno chord Dec Arcturus–Sirius 0.134%; Eris chord RA Sirius–Spica 0.122%; Haumea chord RA Castor–Sirius 0.112%; Makemake chord Dec Castor–Sirius 0.058%; Orcus chord Dec Regulus–Sirius 0.012%; Orcus chord RA Polaris–Sirius 0.059%; Orcus chord Dec Arcturus–Sirius 0.099%; Orcus chord Dec Equator–Sirius 0.145%; Transpluto chord RA Aldebaran–Sirius 0.030%; Transpluto chord RA Algorab–Sirius 0.046%; Transpluto chord Dec Capella–Sirius 0.067%; Transpluto chord Dec Equator–Sirius 0.077%; Neptune number Dec 93/9; Juno number RA 830/9; Haumea number Flat 1048/9; Makemake number Dec 375/9; Rahu number Sky 28φ
+- **Fomalhaut** — 15 bodies (Chiron, Eris, Gonggong, Haumea, Ketu, Mercury, Neptune, Pallas, Pluto, Rahu, Sedna, Sun, Transpluto, Uranus, Vesta): Sun chord Dec Betelgeuse–Fomalhaut 0.009%; Sun chord Dec Equator–Fomalhaut 0.011%; Mercury chord Dec Alphecca–Fomalhaut 0.135%; Uranus chord Dec Fomalhaut–Spica 0.115%; Neptune chord Dec Fomalhaut–Procyon 0.029%; Neptune chord Dec Fomalhaut–Sirius 0.141%; Pluto chord Dec Alphecca–Fomalhaut 0.068%; Chiron chord RA Fomalhaut–Vega 0.147%; Pallas chord Dec Capella–Fomalhaut 0.008%; Pallas chord RA Fomalhaut–Vega 0.037%; Vesta chord RA Altair–Fomalhaut 0.014%; Eris chord RA Betelgeuse–Fomalhaut 0.034%; Eris chord RA Algol–Fomalhaut 0.076%; Sedna chord Dec Fomalhaut–Rigel 0.070%; Haumea chord Sky Fomalhaut–Rigel 0.025%; Gonggong chord RA Altair–Fomalhaut 0.084%; Gonggong chord Dec Aldebaran–Fomalhaut 0.100%; Transpluto chord Dec Alphecca–Fomalhaut 0.016%; Rahu chord RA Algol–Fomalhaut 0.054%; Rahu chord RA Betelgeuse–Fomalhaut 0.092%; Ketu chord RA Aldebaran–Fomalhaut 0.035%; Ketu chord Dec Fomalhaut–Vega 0.042%; Ketu chord Dec Equator–Fomalhaut 0.054%; Pluto number Sky 424/9; Sedna number RA 651/9
+- **Algorab** — 15 bodies (Ceres, Chiron, Gonggong, Haumea, Juno, Jupiter, Ketu, Makemake, Mercury, Neptune, Rahu, Sedna, Sun, Transpluto, Vesta): Sun chord Flat Algorab–Procyon 0.032%; Sun chord RA Algorab–Betelgeuse 0.084%; Mercury chord RA Algorab–Capella 0.066%; Mercury chord RA Algorab–Rigel 0.109%; Mercury chord Dec Algorab–Rigel 0.144%; Jupiter chord Sky Algorab–Bellatrix 0.098%; Chiron chord Dec Algorab–Polaris 0.146%; Ceres chord RA Algorab–Alphecca 0.003%; Juno chord Dec Algorab–Pleiades 0.068%; Juno chord Dec Aldebaran–Algorab 0.072%; Sedna chord Dec Algorab–Pleiades 0.054%; Sedna chord RA Algorab–Procyon 0.083%; Haumea chord RA Algorab–Alphecca 0.019%; Gonggong chord Dec Algorab–Equator 0.023%; Gonggong chord RA Algorab–Vega 0.059%; Transpluto chord Dec Algorab–Castor 0.015%; Transpluto chord RA Algorab–Sirius 0.046%; Transpluto chord Dec Algorab–Vega 0.067%; Rahu chord Flat Algorab–Arcturus 0.065%; Rahu chord Dec Algorab–Capella 0.084%; Mercury number Sky 1354/9; Jupiter number RA 335/9; Neptune number RA whole 160; Vesta number Flat 782/9; Makemake number Flat 26φ; Rahu number Sky 593/9; Ketu number Sky 1027/9
+- **Alkaid** — 14 bodies (Ceres, Chiron, Haumea, Mars, Mercury, Orcus, Pallas, Pluto, Quaoar, Rahu, Saturn, Transpluto, Uranus, Vesta): Mercury chord Sky Alkaid–Altair 0.029%; Mercury chord Dec Alkaid–Sirius 0.066%; Mars chord Dec Alkaid–Procyon 0.043%; Mars chord RA Alkaid–Alphecca 0.135%; Saturn chord Dec Alkaid–Bellatrix 0.033%; Saturn chord RA Alkaid–Deneb Algedi 0.093%; Saturn chord Dec Alkaid–Procyon 0.131%; Uranus chord RA Alkaid–Capella 0.049%; Uranus chord Dec Alkaid–Rigel 0.066%; Uranus chord Dec Alkaid–Castor 0.080%; Uranus chord Dec Alkaid–Deneb Algedi 0.113%; Pluto chord RA Alkaid–Deneb Algedi 0.016%; Chiron chord Dec Alkaid–Castor 0.118%; Ceres chord RA Alkaid–Betelgeuse 0.075%; Ceres chord Flat Alkaid–Betelgeuse 0.092%; Vesta chord RA Alkaid–Antares 0.025%; Vesta chord Dec Alkaid–Antares 0.100%; Haumea chord RA Alkaid–Antares 0.008%; Quaoar chord Dec Alkaid–Polaris 0.068%; Quaoar chord Dec Alkaid–Altair 0.141%; Orcus chord RA Alkaid–Castor 0.004%; Orcus chord Dec Alkaid–Pleiades 0.119%; Transpluto chord RA Alkaid–Antares 0.089%; Transpluto chord RA Alkaid–Procyon 0.122%; Rahu chord Dec Alkaid–Bellatrix 0.008%; Rahu chord Flat Alkaid–Rigel 0.100%; Pluto number Sky 931/9; Chiron number Flat 1436/9; Pallas number Sky 977/9; Transpluto number Sky 526/9
+- **Bellatrix** — 13 bodies (Ceres, Juno, Jupiter, Ketu, Makemake, Mars, Neptune, Pallas, Rahu, Saturn, Sedna, Transpluto, Uranus): Mars chord Dec Bellatrix–Pleiades 0.050%; Jupiter chord Sky Algorab–Bellatrix 0.098%; Saturn chord Dec Alkaid–Bellatrix 0.033%; Uranus chord Dec Bellatrix–Sirius 0.048%; Neptune chord Flat Bellatrix–Regulus 0.066%; Neptune chord Dec Alphecca–Bellatrix 0.102%; Neptune chord Dec Bellatrix–Spica 0.144%; Ceres chord Dec Bellatrix–Regulus 0.035%; Ceres chord Dec Antares–Bellatrix 0.046%; Ceres chord RA Bellatrix–Sirius 0.070%; Ceres chord RA Bellatrix–Spica 0.111%; Pallas chord RA Aldebaran–Bellatrix 0.144%; Juno chord Dec Alphecca–Bellatrix 0.140%; Sedna chord Dec Bellatrix–Equator 0.145%; Makemake chord RA Bellatrix–Castor 0.059%; Makemake chord RA Bellatrix–Regulus 0.069%; Transpluto chord Dec Bellatrix–Procyon 0.142%; Rahu chord Dec Alkaid–Bellatrix 0.008%; Jupiter number Dec whole 22; Pallas number Flat 92/9; Makemake number RA 1020/9; Rahu number Sky 445/9; Ketu number Sky 1175/9
+- **Deneb Algedi** — 12 bodies (Ceres, Eris, Gonggong, Haumea, Juno, Mercury, Orcus, Pluto, Saturn, Transpluto, Uranus, Vesta): Mercury chord Dec Deneb Algedi–Polaris 0.005%; Mercury chord Dec Deneb Algedi–Pleiades 0.081%; Saturn chord RA Alkaid–Deneb Algedi 0.093%; Uranus chord RA Capella–Deneb Algedi 0.082%; Uranus chord RA Deneb Algedi–Procyon 0.108%; Uranus chord Dec Alkaid–Deneb Algedi 0.113%; Pluto chord RA Alkaid–Deneb Algedi 0.016%; Pluto chord Dec Aldebaran–Deneb Algedi 0.023%; Pluto chord RA Deneb Algedi–Spica 0.115%; Ceres chord RA Aldebaran–Deneb Algedi 0.009%; Ceres chord Dec Deneb Algedi–Regulus 0.046%; Ceres chord Dec Deneb Algedi–Polaris 0.076%; Juno chord RA Deneb Algedi–Procyon 0.016%; Juno chord RA Arcturus–Deneb Algedi 0.049%; Vesta chord Dec Deneb Algedi–Spica 0.054%; Eris chord RA Deneb Algedi–Vega 0.016%; Haumea chord Dec Altair–Deneb Algedi 0.087%; Haumea chord Sky Capella–Deneb Algedi 0.142%; Orcus chord RA Altair–Deneb Algedi 0.090%; Gonggong chord Dec Antares–Deneb Algedi 0.146%; Transpluto number RA 1564/9
+
+## 7. Numbers between natal bodies (each pair once)
+- Dec Ceres–Venus = whole 1 (1.0004; 11:47–12:20)
+- Dec Gonggong–Haumea = 263/9 (29.2206; ALL DAY)
+- Dec Gonggong–Pluto = 86/9 (9.5563; 00:00–19:25)
+- Dec Haumea–Pallas = φ^6 (17.9446; 11:37–12:32)
+- Dec Haumea–Pluto = 349/9 (38.7769; 05:11–24:00)
+- Dec Makemake–Neptune = 282/9 (31.3329; 05:31–16:19)
+- Dec Neptune–Pallas = 4√2 (5.6556; 11:49–12:46)
+- Dec Saturn–Transpluto = 301/9 (33.4460; 00:00–15:47)
+- Dec Sedna–Uranus = 28/9 (3.1115; 08:14–14:29)
+- Flat Ceres–Pluto = 98φ (158.5664; 11:48–12:04)
+- Flat Chiron–Neptune = 143/9 (15.8898; 08:42–13:15)
+- Flat Gonggong–Jupiter = whole 112 (112.0000; 11:37–12:24)
+- Flat Juno–Transpluto = 1297/9 (144.1117; 11:56–12:07)
+- Flat Jupiter–Sun = 1552/9 (172.4431; 11:56–12:00)
+- Flat Makemake–Mars = 84√2 (118.7921; 12:00–12:14)
+- Flat Mercury–Transpluto = 1037/9 (115.2230; 11:59–12:02)
+- Flat Mercury–Pluto = 996/9 (110.6651; 12:00–12:02)
+- Flat Mercury–Saturn = whole 124 (124.0018; 11:58–12:00)
+- Flat Pluto–Sedna = 1149/9 (127.6656; 11:11–14:48)
+- Flat Rahu–Sedna = 671/9 (74.5553; 10:44–13:02)
+- RA Ceres–Sun = 768/9 (85.3341; 11:58–12:05)
+- RA Eris–Juno = 154/9 (17.1128; 11:59–12:11)
+- RA Jupiter–Neptune = 1105/9 (122.7770; 11:48–12:29)
+- RA Ketu–Rahu = whole 180 (180.0000; ALL DAY)
+- RA Ketu–Makemake = 82√2 (115.9669; 11:09–17:55)
+- RA Mars–Orcus = 1363/9 (151.4453; 11:50–12:03)
+- RA Mars–Venus = 1313/9 (145.8878; 11:59–12:04)
+- RA Neptune–Quaoar = φ^9 (76.0128; 10:45–13:49)
+- RA Orcus–Venus = 564/9 (62.6669; 11:59–12:02)
+- RA Pallas–Transpluto = 579/9 (64.3349; 11:59–12:09)
+- RA Saturn–Vesta = 40/9 (4.4443; 10:55–13:21)
+- Sky Ceres–Jupiter = 820/9 (91.1105; 11:52–12:04)
+- Sky Ceres–Neptune = 1334/9 (148.2238; 11:43–12:02)
+- Sky Haumea–Sedna = 1309/9 (145.4436; 08:48–13:15)
+- Sky Haumea–Transpluto = 41√2 (57.9816; 06:58–13:26)
+- Sky Haumea–Sun = 1229/9 (136.5573; 12:00–12:07)
+- Sky Ketu–Rahu = whole 180 (180.0000; ALL DAY)
+- Sky Ketu–Transpluto = 1415/9 (157.2211; 09:37–12:45)
+- Sky Mars–Neptune = whole 45 (44.9986; 11:47–12:02)
+- Sky Neptune–Saturn = 48√2 (67.8832; 10:54–12:25)
+- Sky Orcus–Venus = 631/9 (70.1108; 11:57–12:02)
+- Sky Rahu–Transpluto = 205/9 (22.7789; 09:37–12:45)
+
+## 8. Dec numbers (the Dec lattice): own Dec, and Dec distances to stars and bodies
+- Ceres Dec to Venus = whole 1 (1.0004, off +0.0004; 11:47–12:20)
+- Chiron Dec to Pleiades ★ = 184/9 (20.4438, off -0.0007; 08:04–13:57)
+- Eris Dec to Antares ★ = 220/9 (24.4438, off -0.0007; 00:34–24:00)
+- Gonggong Dec to Haumea = 263/9 (29.2206, off -0.0016; ALL DAY)
+- Gonggong Dec to Pluto = 86/9 (9.5563, off +0.0007; 00:00–19:25)
+- Haumea Dec to Gonggong = 263/9 (29.2206, off -0.0016; ALL DAY)
+- Haumea Dec to Pallas = φ^6 (17.9446, off +0.0003; 11:37–12:32)
+- Haumea Dec to Pluto = 349/9 (38.7769, off -0.0009; 05:11–24:00)
+- Jupiter Dec to Bellatrix ★ = whole 22 (22.0011, off +0.0011; 11:19–14:15)
+- Ketu Dec to Procyon ★ = 211/9 (23.4438, off -0.0007; 08:07–23:42)
+- Ketu Dec to Capella ★ = 578/9 (64.2211, off -0.0011; 09:21–24:00)
+- Makemake Dec to Neptune = 282/9 (31.3329, off -0.0004; 05:31–16:19)
+- Makemake Dec to Sirius ★ = 375/9 (41.6651, off -0.0016; 00:00–15:29)
+- Mars Dec to Algol ★ = whole 63 (62.9993, off -0.0007; 10:12–12:50)
+- Mercury Dec to Arcturus ★ = 59/9 (6.5564, off +0.0008; 11:58–12:06)
+- Mercury Dec to Spica ★ = 214/9 (23.7788, off +0.0010; 11:54–12:02)
+- Neptune Dec to Makemake = 282/9 (31.3329, off -0.0004; 05:31–16:19)
+- Neptune Dec to Sirius ★ = 93/9 (10.3322, off -0.0011; 08:23–24:00)
+- Neptune Dec to Pallas = 4√2 (5.6556, off -0.0012; 11:49–12:46)
+- Orcus Dec to Vega ★ = 435/9 (48.3330, off -0.0003; 02:58–18:11)
+- Pallas Dec to Haumea = φ^6 (17.9446, off +0.0003; 11:37–12:32)
+- Pallas Dec to Neptune = 4√2 (5.6556, off -0.0012; 11:49–12:46)
+- Pallas Dec to Polaris ★ = whole 90 (89.9987, off -0.0013; 11:14–12:09)
+- Pluto Dec to Gonggong = 86/9 (9.5563, off +0.0007; 00:00–19:25)
+- Pluto Dec to Haumea = 349/9 (38.7769, off -0.0009; 05:11–24:00)
+- Quaoar Dec to Regulus ★ = 246/9 (27.3324, off -0.0010; ALL DAY)
+- Rahu Dec to Vega ★ = 185/9 (20.5572, off +0.0017; 10:58–24:00)
+- Saturn Dec to Transpluto = 301/9 (33.4460, off +0.0016; 00:00–15:47)
+- Sedna Dec to Uranus = 28/9 (3.1115, off +0.0004; 08:14–14:29)
+- Sedna Dec to Betelgeuse ★ = 4/9 (0.4433, off -0.0012; 05:01–24:00)
+- Transpluto Dec to Saturn = 301/9 (33.4460, off +0.0016; 00:00–15:47)
+- Uranus Dec to Sedna = 28/9 (3.1115, off +0.0004; 08:14–14:29)
+- Uranus Dec to Betelgeuse ★ = 32/9 (3.5548, off -0.0007; 10:21–15:38)
+- Venus Dec to Ceres = whole 1 (1.0004, off +0.0004; 11:47–12:20)
+
+## 9. Number families
+- ninth 133, whole 21, √2 16, φ 9, φⁿ 4
+- The same number from more than one body: 1037/9 — Mercury Flat to Transpluto, Transpluto Flat to Mercury; 1105/9 — Jupiter RA to Neptune, Neptune RA to Jupiter; 1149/9 — Pluto Flat to Sedna, Sedna Flat to Pluto; 1229/9 — Sun Sky to Haumea, Haumea Sky to Sun; 1297/9 — Juno Flat to Transpluto, Transpluto Flat to Juno; 1309/9 — Sedna Sky to Haumea, Haumea Sky to Sedna; 1313/9 — Venus RA to Mars, Mars RA to Venus; 1334/9 — Neptune Sky to Ceres, Ceres Sky to Neptune; 1363/9 — Mars RA to Orcus, Orcus RA to Mars; 1415/9 — Transpluto Sky to Ketu, Ketu Sky to Transpluto; 143/9 — Neptune Flat to Chiron, Chiron Flat to Neptune; 154/9 — Juno RA to Eris, Eris RA to Juno; 1552/9 — Sun Flat to Jupiter, Jupiter Flat to Sun; 205/9 — Transpluto Sky to Rahu, Rahu Sky to Transpluto; 263/9 — Haumea Dec to Gonggong, Gonggong Dec to Haumea; 28/9 — Uranus Dec to Sedna, Sedna Dec to Uranus; 282/9 — Neptune Dec to Makemake, Makemake Dec to Neptune, Ketu RA to Vega; 301/9 — Saturn Dec to Transpluto, Transpluto Dec to Saturn; 349/9 — Pluto Dec to Haumea, Haumea Dec to Pluto; 40/9 — Saturn RA to Vesta, Vesta RA to Saturn; 41√2 — Haumea Sky to Transpluto, Transpluto Sky to Haumea; 48√2 — Saturn Sky to Neptune, Neptune Sky to Saturn; 4√2 — Neptune Dec to Pallas, Pallas Dec to Neptune; 53φ — Chiron Sky to Polaris, Makemake Flat to Vega; 564/9 — Venus RA to Orcus, Orcus RA to Venus; 579/9 — Pallas RA to Transpluto, Transpluto RA to Pallas; 631/9 — Venus Sky to Orcus, Orcus Sky to Venus; 671/9 — Sedna Flat to Rahu, Rahu Flat to Sedna; 768/9 — Sun RA to Ceres, Ceres RA to Sun; 820/9 — Jupiter Sky to Ceres, Ceres Sky to Jupiter; 82√2 — Makemake RA to Ketu, Ketu RA to Makemake; 84√2 — Mars Flat to Makemake, Saturn RA to Polaris, Makemake Flat to Mars; 86/9 — Pluto Dec to Gonggong, Gonggong Dec to Pluto; 901/9 — Neptune RA to Antares, Haumea Flat to Castor; 98φ — Pluto Flat to Ceres, Ceres Flat to Pluto; 996/9 — Mercury Flat to Pluto, Pluto Flat to Mercury; whole 1 — Venus Dec to Ceres, Ceres Dec to Venus; whole 112 — Jupiter Flat to Gonggong, Gonggong Flat to Jupiter; whole 124 — Mercury Flat to Saturn, Saturn Flat to Mercury; whole 180 — Rahu RA to Ketu, Rahu Sky to Ketu, Ketu RA to Rahu, Ketu Sky to Rahu; whole 45 — Mars Sky to Neptune, Neptune Sky to Mars; φ^6 — Pallas Dec to Haumea, Haumea Dec to Pallas; φ^9 — Neptune RA to Quaoar, Quaoar RA to Neptune

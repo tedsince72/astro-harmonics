@@ -25,6 +25,12 @@ def exact_t(b, a, c, mm):
         for dd in np.arange(best[1] - 2 * step, best[1] + 2 * step, step / 40):
             r = tri(moved(P0, b, dd), REF[a], REF[c], mm)
             if r and r[1] < best[0]: best = (r[1], dd)
+        fs = step / 40                     # 8 Oct: keep refining to under a second (slow bodies were left on a 1.8-min step)
+        while fs > 0.5 / 86400:
+            for dd in np.arange(best[1] - 2 * fs, best[1] + 2 * fs + 1e-15, fs / 10):
+                r = tri(moved(P0, b, dd), REF[a], REF[c], mm)
+                if r and r[1] < best[0]: best = (r[1], dd)
+            fs /= 10
     LOCKT = None
     edge = best[1] is not None and abs(abs(best[1]) - span) < step
     return best[1], best[0], edge

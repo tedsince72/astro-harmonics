@@ -64,6 +64,12 @@ def strikes(a, c, mm):
                     for dd in np.arange(bb[1] - 2 * stp, bb[1] + 2 * stp, stp / 40):
                         r = tri(moved(P, BODY, dd), REF[a], REF[c], mm)
                         if r and r[1] < bb[0]: bb = (r[1], dd)
+                    fs = stp / 40
+                    while fs > 0.5 / 86400:            # down to under a second
+                        for dd in np.arange(bb[1] - 2 * fs, bb[1] + 2 * fs + 1e-15, fs / 10):
+                            r = tri(moved(P, BODY, dd), REF[a], REF[c], mm)
+                            if r and r[1] < bb[0]: bb = (r[1], dd)
+                        fs /= 10
                 x = None if bb[1] is None else (tb_ - t0) / 1440 + bb[1]
                 edge, dvx = bb[1] is not None and abs(abs(bb[1]) - span) < stp, bb[0]
             LOCKT = None

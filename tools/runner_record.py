@@ -51,7 +51,7 @@ if not (A.off and A.dur): sys.exit(f"no off time / duration for {RACE}: add it t
 OFF, DUR = A.off, A.dur
 h_, m_, s_ = map(int, OFF.split(':')); T0 = h_ * 60 + m_ + s_ / 60; T1 = T0 + DUR / 60; TEND = T1 + 30
 OUT = f'{H}/rr/{RACE}'
-for d in ('m3', 'm2', 'm1', 'mlist', 'records', 'logs'): os.makedirs(f'{OUT}/{d}', exist_ok=True)
+for d in ('m3', 'm2', 'm1', 'mlist', 'records', 'logs', 'notes'): os.makedirs(f'{OUT}/{d}', exist_ok=True)
 META = list(csv.reader(open(f'{POSD}/{RACE}__META.csv')))
 TABS = {r[0]: dict(role=r[1], cloth=r[2], name=r[3], dob=r[5] if len(r) > 5 else '') for r in META if r and r[0].startswith('P') and r[0][1:].isdigit()}
 PAIR = {}
@@ -484,6 +484,129 @@ def items_json(tab):
                             rank=rank(r, tab, b), field=len(r['hold']), charts=len({x[1] for x in r['hold']}),
                             partner=bool(PAIR.get(tab) and NATSTR[PAIR[tab]].get((r['mm'], frozenset((r['a'], r['c'])))))))
     return out
+# ------------------------------------------------------------------ the walk-through (the chat / project version)
+# Same rule for every runner: everything whose exact moment falls in the window (off-30 to finish+30), body by body;
+# then the transit Sun and the transit Moon in full; then the pair. The full record keeps everything else.
+WMIN = re.compile(r"exact ([\d.]+) min (before|after) the off")
+def m2_time(r):
+    """minute the Method 2 transit chord is exact / held, or None if outside the window"""
+    if r['transit_body'] == 'Moon' or 'Moon' in (r['x'], r['e']): return r['transit_t']
+    m = WMIN.search(r['transit_when'] or '')
+    if not m: return None
+    t = T0 + float(m.group(1)) * (-1 if m.group(2) == 'before' else 1)
+    return t if T0 - 30 <= t <= TEND else None
+def in_win(t): return t is not None and T0 - 30 <= t <= TEND
+def tz(t): return f"{hm(t)} ({'off' if abs(t - T0) < 0.05 else rel(t)})"
+def w_m3(r, h, tab):
+    a, c = r['a'], r['c']; key = (r['mm'], frozenset((a, c)))
+    nat = [x for x in NATSTR[tab].get(key, []) if x[0] == h[2]]; natc = nat[0][1] if nat else None
+    sp = place(r['d_best'][0], r['d_best'][1], r['d_best'][2], a, c)
+    npl = place(natc['dA'], natc['dB'], natc['base'], natc['A'], natc['B']) if natc else '?'
+    tags = ('UNISON' if h[3] == r['typ'] else 'tuned') + (' · SAME BODY' if r['sky'] == h[2] else '')
+    hold = r['hold']; others = [x for x in STR.get(key, []) if x is not r]
+    also = '; '.join(f"{x['sky']} {hm(row_time(x))}" for x in sorted(others, key=row_time))
+    pn = partner_on(tab, key)
+    return (f"{tz(row_time(r))} **{r['sky']}** {r['mm']} {a}–{c} {r['typ']} {pc(r['dv'])} · natal {h[2]} {h[3]} {pc(h[0])}"
+            f"{' STRONG' if h[0] * 100 <= STRONG else ''} · {tags} · sky {sp}, natal {npl} · {len(hold)} bodies in {len({x[1] for x in hold})} charts, "
+            f"this #{rank(r, tab, h[2])}{' (tightest)' if rank(r, tab, h[2]) == 1 else ', tightest ' + short(min(hold)[1]) + ' ' + min(hold)[2]}"
+            f" · partner: {pn or 'no'}{' · also on the string: ' + also if also else ''}")
+def w_m2(r, tab):
+    others = [x for x in M2IDX[(r['layer'], r['mm'], r['x'], r['e'], r['transit_body'])] if not (x['tab'] == tab and x['natal_body'] == r['natal_body'])]
+    tight = all(r['natal_dev'] <= x['natal_dev'] for x in others)
+    tags = ('UNISON' if r['natal_type'] == r['transit_type'] else 'tuned') + (' · SAME BODY' if r['natal_body'] == r['transit_body'] else '')
+    ln = (r.get('lengths') or '')
+    tt = m2_time(r)
+    return (f"{tz(tt) if tt is not None else 'held at the off (' + (r['transit_when'] or '') + ')'} {r['layer']} **{r['transit_body']}** on {r['mm']} {r['x']}–{r['e']} {r['transit_type']} {r['transit_dev'] * 100:.3f}% · "
+            f"natal {r['natal_body']} {r['natal_type']} {r['natal_dev'] * 100:.3f}% · {tags}{' · base ' + ln if ln and not ln.startswith('ratio') else ''} · "
+            f"{'tightest of ' + str(len(others) + 1) if tight else str(len(others) + 1) + ' tuned'}")
+def w_sb(x):
+    return (f"{tz(x['t'])} same body: natal {x['body']} – sky {x['body']} + {x['third']} {x['mm']} {x['type']} {pc(x['dv'])} — {x['movement']}")
+def w_num(x, what): return f"{tz(x['t'])} {what} = **{x['num']}** (off {x['off']:+.4f}; within ±0.002 {hm(x['start'])}–{hm(x['end'])})"
+def walk(tab):
+    t = TABS[tab]; f = FIN.get(t['cloth'], {}); p = PAIR.get(tab); nm = re.sub(r'[^a-z0-9]+', '-', short(tab).lower()).strip('-')
+    L = [f"# Walk-through — {short(tab)} ({t['role']}, {tab}) — {RACE}",
+         f"Finish {f.get('finish', '?')} · SP {f.get('sp', '?')}{' · FAVOURITE' if f.get('fav') == '1' else ''} · born {t['dob']} · partner {label(p) if p else '—'}",
+         f"Full record: `rr/{RACE}/records/{tab}_{nm}.md` (repo tedsince72/astro-harmonics). Off {hm(T0)}, finish {hm(T1)}; window {hm(T0 - 30)}–{hm(TEND)}; "
+         "natal 12:00, no natal Moon; chords ≤0.15%; numbers ±0.002°.",
+         "Here: everything that comes exact inside the window, body by body (Method 3 sky bodies; Method 2 body-to-body and node layers; "
+         "same-body chords ≤0.05%; natal→sky numbers), then the transit Sun and the transit Moon in full, then the pair. "
+         "Method 2's star-base layer (L1) is the same strings as Method 3 seen at the off, so it is not repeated here (it is in the record).",
+         "", "## What I see"]
+    nf = f'{OUT}/notes/{tab}.md'                      # my notes, kept apart so a rebuild never loses them
+    L += ([open(nf).read().rstrip()] if os.path.exists(nf) else ["_(not written yet)_"]) + ["", "## 1. Body by body — what comes exact in the window"]
+    sky_other = [b for b in BODIES if b not in ('Sun', 'Moon')]
+    for b in NATAL_ORDER:
+        P = NATPOS[tab].get(b, {}).get(12)
+        if not P: continue
+        items = []
+        for r, h in m3_items(tab, b, sky_other):
+            te = exact_min(r)
+            if in_win(te): items.append((te, w_m3(r, h, tab)))
+        for r in m2_rows(tab, body=b, exclude_sm=True):
+            if r['layer'] == 'L1': continue
+            tt = m2_time(r)
+            if in_win(tt): items.append((tt, w_m2(r, tab)))
+        for x in SB['part2'].get(tab, []):
+            if x['body'] == b and x['third'] not in ('Sun', 'Moon') and x['dv'] <= 0.0005 and not x['edge'] and in_win(x['t']): items.append((x['t'], w_sb(x)))
+        for x in EXTRA['n2t'].get(tab, []):
+            if x['body'] == b and b != 'Sun': items.append((x['t'], w_num(x, f"natal {b} – sky {b} {x['mm']}")))
+        hs = sorted(NATPOS[tab][b]); oob = abs(P[1]) > OBL
+        flag = f" — OUT OF BOUNDS {abs(P[1]) - OBL:+.2f}" if oob else ''
+        if not items: continue
+        L.append(f"\n**{b}** (RA {P[0]:.3f}, Dec {P[1]:+.3f}{flag})")
+        for tt, s in sorted(items, key=lambda x: x[0]): L.append(f"- {s}")
+    quiet = [b for b in NATAL_ORDER if NATPOS[tab].get(b, {}).get(12) and not any(
+        in_win(exact_min(r)) for r, h in m3_items(tab, b, sky_other))]
+    L.append(f"\nNo sky body (other than the Sun and Moon) comes exact in the window on these bodies' star strings (Method 3; their other items are above): {', '.join(quiet) or '—'}")
+    for X in ('Sun', 'Moon'):
+        L.append(f"\n## {'2. The transit Sun' if X == 'Sun' else '3. The transit Moon — the clock'} (in full, time order)")
+        items = []
+        for b in NATAL_ORDER:
+            for r, h in m3_items(tab, b, [X]):
+                items.append((row_time(r), w_m3(r, h, tab) + ('' if in_win(exact_min(r)) else f" — not exact in the window ({r['when']})")))
+        for r in m2_rows(tab):
+            if r['layer'] == 'L1': continue
+            if r['transit_body'] == X or X in (r['x'], r['e']):
+                tt = m2_time(r)
+                items.append((tt if tt is not None else T0, w_m2(r, tab)))
+        for x in SB['part2'].get(tab, []):
+            if x['body'] == X or x['third'] == X: items.append((x['t'], w_sb(x) + (f"; followed out {pc(x['edge']['dv'])} at {hm(x['edge']['t'])}" if x['edge'] else '')))
+        if X == 'Sun':
+            for x in EXTRA['n2t'].get(tab, []):
+                if x['body'] == 'Sun': items.append((x['t'], w_num(x, f"natal Sun – sky Sun {x['mm']}")))
+        for x in EXTRA['skynum'].get(X, []): items.append((x['t'], w_num(x, f"sky {X} {x['mm']} to {x['to']}") + " (sky only, every runner)"))
+        for x in EXTRA['par'].get(tab, []):
+            if x['sky'] == X: items.append((x['t'], f"{tz(x['t'])} sky {X} {x['kind']} natal {x['natal']}, closest {x['min']:.3f}"))
+        for tt, s in sorted(items, key=lambda x: x[0]): L.append(f"- {s}")
+        if not items: L.append("- (none)")
+    L.append("\n### The Sun and the Moon on the same string (held by this chart)")
+    n = 0
+    for key, rows in sorted(STR.items(), key=lambda kv: min(row_time(r) for r in kv[1])):
+        if not {'Sun', 'Moon'} <= {r['sky'] for r in rows}: continue
+        mine = sorted({f"{h[2]} {h[3]} {pc(h[0])}" for r in rows for h in r['hold'] if h[1] == tab})
+        if not mine: continue
+        n += 1; a, c = sorted(key[1])
+        L.append(f"- {key[0]} {a}–{c}: " + '; '.join(f"{r['sky']} {r['typ']} {hm(row_time(r))}" for r in sorted(rows, key=row_time) if r['sky'] in ('Sun', 'Moon'))
+                 + f" — this chart: {'; '.join(mine)}")
+    if not n: L.append("- (none)")
+    if p:
+        L.append(f"\n## 4. The pair — {short(tab)} and {short(p)}")
+        shared = [k for k in NATSTR[tab] if k in NATSTR[p] and k in STR]
+        hits = []
+        for k in shared:
+            for r in STR[k]:
+                if in_win(exact_min(r)): hits.append((exact_min(r), k, r))
+        L.append(f"- Shared strings struck in the window ({len(hits)}):")
+        for te, k, r in sorted(hits, key=lambda x: x[0]):
+            a, c = sorted(k[1])
+            me = ', '.join(f"{b} {x['dev']:.3f}%" for b, x in NATSTR[tab][k]); pa = ', '.join(f"{b} {x['dev']:.3f}%" for b, x in NATSTR[p][k])
+            L.append(f"  - {tz(te)} **{r['sky']}** {k[0]} {a}–{c} {r['typ']} — {short(tab)}: {me} | {short(p)}: {pa}")
+        hh = tab if t['role'] == 'horse' else p
+        p1 = [x for x in SB['part1'].get(hh, []) if in_win(x['t'])]
+        L.append("- Same body, sky X + horse X + jockey X, in the window: " + ('; '.join(f"{x['body']} {x['mm']} {x['type']} {pc(x['dv'])} {hm(x['t'])}" for x in sorted(p1, key=lambda x: x['t'])) or 'none'))
+        par = [ln.strip() for ln in CROSS.get(tab, []) if 'PARALLEL' in ln]
+        L.append("- Dec links between the two charts: " + ('; '.join(par) or 'none'))
+    return '\n'.join(L) + '\n'
 want = [x for x in A.tabs.split(',') if x] or sorted(TABS)
 for tab in want:
     md = build(tab)
@@ -491,3 +614,6 @@ for tab in want:
     open(f'{OUT}/records/{tab}_{nm}.md', 'w').write(md)
     json.dump(items_json(tab), open(f'{OUT}/records/{tab}_{nm}.json', 'w'))
     print(f"record {tab} {short(tab)}: {len(md.splitlines())} lines -> {OUT}/records/{tab}_{nm}.md", file=sys.stderr)
+    if os.environ.get('RR_WALK', '1') != '0':
+        wk = walk(tab); open(f'{OUT}/records/{tab}_{nm}_walk.md', 'w').write(wk)
+        print(f"walk {tab}: {len(wk.splitlines())} lines", file=sys.stderr)
