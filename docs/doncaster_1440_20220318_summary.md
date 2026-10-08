@@ -62,7 +62,7 @@
 ## The 'against' check
 - **Discord:**
   - The **favourite horse**, Oot Ma Way, takes the most:
-    - The Moon's √2 on Ketu–Castor comes in 10 seconds before the off and holds to the finish (his Mercury 0.010%, his Transpluto √2 in UNISON).
+    - The Moon's √2 on Ketu–Castor comes in 10 seconds before the off and holds through the finish to 14:49:22, tightest 14:44:57 (his Mercury 0.010%, his Transpluto √2 in UNISON). [corrected 8 Oct]
     - Vesta's √2 on Sun–Regulus, 15 seconds before the off (his Makemake).
     - His jockey has none.
   - The **winning horse** is caught too: the Moon's √2 on Sedna–Aldebaran comes in at 14:41:41, during the race (his Ketu 0.008%).
@@ -119,6 +119,8 @@
 ---
 
 # Second read, 8 Oct 2026 — Methods 1, 2 and 3 pulled together
+> **Timing correction (8 Oct evening, runner-record tool):** the old exact-time search for slow bodies used a 1.8-minute step. Refined to the second: **Mars is exact on Altair–Arcturus at 14:41:34, 53 s into the race** (0.003% at the off), and **Juno at 14:34:30**. The Sun's exact times also come 5–11 s earlier than below (the old minute file understated its rate). The first read's line 'At the off, Mars…' stands as 'within 0.003% at the off'.
+> **Exactness correction (8 Oct, later):** the old search also printed the closest approach of chords that never come exact as "exact". Checked for this race: Mercury on Algorab–Fomalhaut (O'Farrell's Pallas) was not exact near the off (exact only at 15:17:41), so the near-race control in sky-dig §77 is now 16 chords, winning pair 7 (about 2.7% by chance; window chosen after looking). From now on the tools call a chord exact only when the leftover is ≤0.005%.
 Natal charts at 12:00 (midday rule). Window: 30 min before the off to 30 min after the finish. Detail in sky-dig §77; the Method 1 lists are claude/m1-list-olympe-de-gouges.md, claude/m1-list-david-noonan.md and claude/m1-list-olympe-de-gouges-x-david-noonan.md. Said as seen, with the result known.
 
 ## Method 1 — what the two charts are made of
@@ -148,7 +150,7 @@ Natal charts at 12:00 (midday rule). Window: 30 min before the off to 30 min aft
 - Parallels: sky Orcus on his Juno; sky Ketu on his Gonggong.
 
 ### Olympe De Gouges
-- **SUN — the strike at the off:** Altair–Arcturus by Juno at 14:35:17 and Mars exactly at the off (14:40:41); her Sun the tightest both times (0.017%), her Mars on it too; only one other body in the field (§62: Mercury on Haumea–Altair 14:38:15, her Sun tightest; the Midheaven repeats Mars's chord at 14:42:47). Also Alphecca–Altair by Vesta (0.010%, a combined string), Pleiades–Regulus by Pallas.
+- **SUN — the strike at the off:** Altair–Arcturus by Juno at 14:34:30 and Mars at 14:41:34, 53 s into the race (0.003% at the off); her Sun the tightest both times (0.017%), her Mars on it too; only one other body in the field (§62: Mercury on Haumea–Altair 14:38:15, her Sun tightest; the Midheaven repeats Mars's chord at 14:42:47). Also Alphecca–Altair by Vesta (0.010%, a combined string), Pleiades–Regulus by Pallas.
 - **MARS:** Rigel–Sirius by Pluto (tightest 0.005%); Altair–Castor by Mercury and Juno (UNISON with both); Altair–Arcturus at the off; Altair–Deneb Algedi by Saturn.
 - **CHIRON:** Betelgeuse–Procyon — the Moon at 14:38:22 and Jupiter closing through the race (tightest 0.004%), with Noonan's Chiron; Aldebaran–Betelgeuse by Quaoar (0.013%, with Noonan's Pluto).
 - **TRANSPLUTO:** Arcturus–Pleiades by Chiron (tightest 0.001% — her strongest Method 1 string); Aldebaran–Fomalhaut (midpoint) by Neptune and Sedna; her node axis by the Moon at 14:29:41; natal-to-transit RA whole 1.
@@ -163,7 +165,7 @@ Natal charts at 12:00 (midday rule). Window: 30 min before the off to 30 min aft
 Betelgeuse–Procyon (Jupiter, Moon — both Chirons); Aldebaran–Betelgeuse (Quaoar — his Pluto, her Chiron, same chord); Alphecca–Altair (Vesta); Algol–Fomalhaut (Vesta); Altair–Spica (Vesta, Ketu, Moon); Pleiades–Sirius (Mercury, Vesta, Transpluto); Antares–Equator (Chiron, Transpluto, Rahu); Capella–Polaris (Sedna); Regulus–Vega (Rahu); Algol–Alkaid (Rahu); Alphecca–Bellatrix (Pluto, Ceres, Makemake, the Moon). The direct link her Orcus ∥ his Rahu shows on Bellatrix–Equator (Mars), both φ.
 
 ## Where the three methods meet
-1. **The horse's SUN — Altair–Arcturus.** M1: her Sun φ on it, and Arcturus by whole 120. M3: Juno 5½ min before the off, Mars exactly at the off, her Sun the tightest, almost no one else in the field. M2: the same chord at the off with only her tuned; Mercury on Haumea–Altair 2½ min before with her Sun tightest; the Midheaven repeats Mars's chord in the race.
+1. **The horse's SUN — Altair–Arcturus.** M1: her Sun φ on it, and Arcturus by whole 120. M3: Juno 6 min before the off, Mars 53 s into the race (0.003% at the off), her Sun the tightest, almost no one else in the field. M2: the same chord at the off with only her tuned; Mercury on Haumea–Altair 2½ min before with her Sun tightest; the Midheaven repeats Mars's chord in the race.
 2. **Noonan's NEPTUNE — all four strings.** M1: stationary, four star strings (and the receiver in the first imprint). M3: the Sun in the race, Mercury and the Sun just after the finish, Mars separating. M2: the Moon on Alkaid–Regulus after the finish, and on Haumea–Alphecca before the off.
 3. **Noonan's SEDNA — Algol–Polaris.** M1: the hub's string. M3: Makemake holds it. M2: the Moon exact at 14:36 and held through the race. Same-body: Sedna–Moon 45 s before the off.
 4. **Both CHIRONS — Betelgeuse–Procyon.** M1: a string in both charts. M2: the Moon at 14:38:22. M3: Jupiter closing through the race, her Chiron tightest.
@@ -175,13 +177,14 @@ Betelgeuse–Procyon (Jupiter, Moon — both Chirons); Aldebaran–Betelgeuse (Q
 | 14:29:41 | Moon on the node axis | horse Transpluto |
 | 14:31:41 | Pallas √2 on Altair–Equator | Noonan Haumea (UNISON, tightest) |
 | 14:34:34 | Moon on Bellatrix–Rigel | horse Pallas |
-| 14:35:17 | Juno φ on Altair–Arcturus | **horse Sun (tightest)** |
+| 14:34:30 | Juno φ on Altair–Arcturus | **horse Sun (tightest)** |
 | 14:36:03 | Moon on Algol–Polaris (held through the race) | **Noonan Sedna 0.004%** |
 | 14:37:29 | Moon on Algol–Regulus | Noonan Saturn |
 | 14:38:15 | Mercury on Haumea–Altair | horse Sun |
 | 14:38:22 | Moon on Betelgeuse–Procyon | **both Chirons** (horse 0.004%) |
 | 14:39:56 | same-body Sedna–Moon, Pallas–Rigel | Noonan |
-| **14:40:41** | **OFF — Mars on Altair–Arcturus; Pallas on Altair–Fomalhaut** | **horse Sun**; Noonan Makemake, Pluto |
+| **14:40:41** | **OFF — Mars 0.003% on Altair–Arcturus; Pallas on Altair–Fomalhaut** | **horse Sun**; Noonan Makemake, Pluto |
+| 14:41:34 | Mars exact on Altair–Arcturus (in the race) | **horse Sun (tightest)** |
 | 14:40:56 | Moon on Venus–Procyon | Noonan Transpluto 0.001% |
 | 14:41:04 | Mercury on Orcus–Castor | Noonan Juno |
 | 14:42:24 | Mercury on Algol–Procyon | horse Pluto |
