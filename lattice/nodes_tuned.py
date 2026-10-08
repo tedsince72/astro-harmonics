@@ -122,7 +122,7 @@ with open(f"/home/claude/lattice/dump/{RACE}_Nodes.csv", "w", newline="") as _f:
                 r = tri(moved(N0, nn, dd_), Ed, moved(P0, tb, dd_), mm)
                 if r and r[1] < best[0]: best = (r[1], dd_)
         LOCKT = None
-        return when(best[1], best[1] is not None and abs(abs(best[1]) - span) < span / 1500, tb)
+        return when_dv(best[1], best[1] is not None and abs(abs(best[1]) - span) < span / 1500, tb, best[0])
     _w = _csv.writer(_f); _w.writerow(["layer", "tab", "mm", "x", "e", "natal_body", "natal_dev", "natal_type", "transit_body", "transit_dev", "transit_type",
                                        "natal_dx", "natal_de", "transit_dx", "transit_de", "transit_t", "natal_base", "transit_base", "lengths", "transit_when"])
     _WT = {}

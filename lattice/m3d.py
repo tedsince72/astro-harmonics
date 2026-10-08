@@ -73,7 +73,7 @@ def strikes(a, c, mm):
                 x = None if bb[1] is None else (tb_ - t0) / 1440 + bb[1]
                 edge, dvx = bb[1] is not None and abs(abs(bb[1]) - span) < stp, bb[0]
             LOCKT = None
-            out.append((ser[kb][1], tb_, ty, ser[kb][0], at, x, edge))
+            out.append((ser[kb][1], tb_, ty, ser[kb][0], at, x, edge, dvx))
             k = m + 1
         i = j + 1
     return out
@@ -83,8 +83,8 @@ for a, c in (itertools.combinations(RN, 2) if WIDE else []):
         S_ = strikes(a, c, mm)
         if not S_: continue
         hold = holders(a, c, mm); r0 = tri(P0, REF[a], REF[c], mm)
-        for dv, tb_, ty, db, at, x, edge in S_:
-            rows.append((mm, dv, a, c, r0[0] if r0 else db, ty, at, x, edge, hold, tb_, db))
+        for dv, tb_, ty, db, at, x, edge, dvx in S_:
+            rows.append((mm, dv, a, c, r0[0] if r0 else db, ty, at, x, edge, hold, tb_, db, dvx))
 for a, c in ([] if WIDE else itertools.combinations(RN, 2)):
     for mm in ('RA', 'Dec', 'Flat', 'Sky'):
         if (REF[a][0] is None or REF[c][0] is None) and mm != 'Dec': continue
@@ -113,7 +113,8 @@ if _os.environ.get('M3DUMP'):
     # hold rows: [dev, tab, natal body, type, natal–a, natal–c]; d_off / d_best: [body–a, body–c, base] at the off / at the tightest moment
     _json.dump(dict(body=BODY, t0=t0, t1=t1, tend=TEND, wide=WIDE, pos_off=P0, rate=RATE[BODY],
                     rows=[dict(mm=r[0], dv=r[1], a=r[2], c=r[3], typ=r[5], at=r[6], x=None if r[7] is None else float(r[7]), edge=bool(r[8]),
-                               when=when(r[7], r[8], BODY), tbest=float(r[10]), d_off=list(r[4]), d_best=list(r[11]),
+                               when=when_dv(r[7], r[8], BODY, r[12] if len(r) > 12 else None), xdv=(float(r[12]) if len(r) > 12 and r[12] is not None else None),
+                               tbest=float(r[10]), d_off=list(r[4]), d_best=list(r[11]),
                                hold=[[h[0], h[1], h[2], h[3], h[4], h[5]] for h in r[9]]) for r in rows]),
                open(_os.environ['M3DUMP'], 'w'))
 for mm in ('RA', 'Dec', 'Flat', 'Sky'):
