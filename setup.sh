@@ -16,5 +16,10 @@ cp -n $R/tools/* $H/tools/
 cp -n $R/reference/profiles_blind_kit.csv $H/pinpoint_blind_kit/reference/profiles.csv
 cp -n $R/reference/profiles_test_scored.csv $H/scored/profiles_test_scored.csv
 cp -n $R/docs/*.md $H/reads/ 2>/dev/null || true
-pip install --break-system-packages -q pyswisseph numpy openpyxl 2>/dev/null || true
+pip install --break-system-packages -q numpy openpyxl
+python3 -c "import swisseph" 2>/dev/null || pip install --break-system-packages pyswisseph || { echo "ERROR: pyswisseph did not install (try: pip install --break-system-packages --no-build-isolation pyswisseph)"; exit 1; }
+# checks — fail loudly
+n=$(find $H/ledger/allpos -type l | wc -l); [ "$n" = 0 ] || { echo "ERROR: $n linked files in ledger/allpos"; exit 1; }
+[ -s $H/ledger/allpos/20220318_doncaster_1440__NATAL_HOURLY.csv ] || { echo "ERROR: Doncaster natal file missing"; exit 1; }
+python3 -c "import swisseph; print('swisseph ok')"
 echo "layout ready under $H"
