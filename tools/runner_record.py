@@ -584,7 +584,7 @@ def walk(tab):
          f"Full record: `rr/{RACE}/records/{tab}_{nm}.md` (repo tedsince72/astro-harmonics). Off {hm(T0)}, finish {hm(T1)}; window {hm(T0 - 30)}–{hm(TEND)}; "
          "natal 12:00, no natal Moon; chords ≤0.15%; numbers ±0.002°.",
          "Here, body by body: its Method 1 line; every sky body (not the Sun or Moon) on its star strings within 0.15% at any point in the window, "
-         "with the deviation at off−30 / off / finish / off+30 / finish+30, the exact time wherever it falls and the zone; then the Method 2 body-to-body "
+         "with the deviation at off−30 / off / finish / finish+30, the exact time wherever it falls and the zone; then the Method 2 body-to-body "
          "and node layers, same-body chords ≤0.05% and natal→sky numbers that come exact in the window. Then the transit Sun, the transit Moon, the pair. "
          "Method 2's star-base layer (L1) is the same strings as Method 3 seen at the off, so it is not repeated here (it is in the record).",
          "", "## What I see"]
@@ -624,9 +624,12 @@ def walk(tab):
                          f" · partner: {partner_on(tab, key) or 'no'}")
                 for tt, r, h in sorted(bys[k], key=lambda x: x[0]):
                     sp = place(r['d_best'][0], r['d_best'][1], r['d_best'][2], a, c)
-                    tags = ('UNISON' if h[3] == r['typ'] else 'tuned') + (' · SAME BODY' if r['sky'] == b else '')
+                    mir = mirror(r, natc, a, c)
+                    # a MIRROR is always the same chord type, so it carries the MIRROR tag in place of UNISON (not counted twice)
+                    tags = ('MIRROR' if 'MIRROR' in mir else 'UNISON' if h[3] == r['typ'] else 'tuned') + (' · SAME BODY' if r['sky'] == b else '')
+                    mir = mir.replace(' · MIRROR with natal', ' · mirror:')
                     L.append(f"    - {exact_txt(r)} — {zone_full(r)} · **{r['sky']}** {r['typ']} (closest {pc(r['dv'])} at {hm(r['tbest'])}) · {tags} · "
-                             f"sky {sp}{mirror(r, natc, a, c)} · {pathtxt(r['at'])}")
+                             f"sky {sp}{mir} · {pathtxt(r['at'])}")
         else: L.append("- *Sky bodies on its star strings:* none within 0.15% in the window")
         if items:
             L.append("- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*")

@@ -11,8 +11,8 @@ Settings (the agreed procedure, 8 Oct 17:38–17:44): natal charts at 12:00, nat
 |---|---|---|---|---|---|---|
 | 1 | P03 | Olympe De Gouges | horse | 25/1 | `rr/20220318_doncaster_1440/records/P03_olympe-de-gouges.md` | `claude/walk-doncaster-1440-20220318-p03-olympe-de-gouges.md` |
 | 1 | P04 | David Noonan | jockey | 25/1 | `rr/20220318_doncaster_1440/records/P04_david-noonan.md` | `claude/walk-doncaster-1440-20220318-p04-david-noonan.md` |
-| 2 | P05 | Oot Ma Way | horse | 5/6 fav | not built yet | — |
-| 2 | P06 | Conor O'Farrell | jockey | 5/6 fav | not built yet | — |
+| 2 | P05 | Oot Ma Way | horse | 5/6 fav | `rr/20220318_doncaster_1440/records/P05_oot-ma-way.md` | `claude/walk-doncaster-1440-20220318-p05-oot-ma-way.md` |
+| 2 | P06 | Conor O'Farrell | jockey | 5/6 fav | `rr/20220318_doncaster_1440/records/P06_conor-o-farrell.md` | `claude/walk-doncaster-1440-20220318-p06-conor-o-farrell.md` |
 | 3 | P07 | Poetria | horse | 15/8 | not built yet | — |
 | 3 | P08 | Jamie Hamilton | jockey | 15/8 | not built yet | — |
 | 4 | P01 | Fiamette | horse | 5/1 | `rr/20220318_doncaster_1440/records/P01_fiamette.md` | `claude/walk-doncaster-1440-20220318-p01-fiamette.md` |
@@ -39,4 +39,5 @@ Working files go to `/home/claude/rr/20220318_doncaster_1440/`; records are copi
 - **The Moon striking the same string more than once in the window is now kept strike by strike.** This restored the Moon 5:8:13 on Sun–Betelgeuse at 14:43:41 in the race (the horse's Quaoar tightest), which the wide Moon window had replaced with the φ at 14:48:56.
 - **Exact times of the Sun (and other sky bodies) are a few seconds earlier than in §77** (e.g. Alkaid–Arcturus 14:42:53, not 14:42:56; Procyon–Spica 14:52:08, not 14:52:18): the old minute file ended at 15:10, before off+30, so the Sun's rate came out ~1.2% low. The 1-minute grid gives the correct rate.
 - **The direct links between two charts (`cross.py`) no longer include the natal Moon** (it had been counted as a body): now 24 × 24 bodies, 2,304 values (§77 had 25 × 25). For Olympe De Gouges / Noonan: φ/√2/whole/φⁿ 21 (chance ≈ 21), ninths 84 (chance ≈ 74).
-- **MIRROR** is named when a sky body and the natal body sit inside the same string nearer opposite ends at distances within 1% of the base (three in the four records built so far, each 0.01–0.02% apart, all UNISON).
+- **MIRROR** is named when a sky body and the natal body sit inside the same string nearer opposite ends at distances within 1% of the base (three in the first four records, each 0.01–0.02% apart; Oot Ma Way three and O'Farrell one more). A mirror is always the same chord type, so it is tagged MIRROR instead of UNISON and not counted again as UNISON.
+- **§77 control, O'Farrell's Pallas on Mercury's Algorab–Fomalhaut:** §77 gave this as exact at about off−8.4 min. Re-run, Mercury makes one strike on that string in the window, φ, exact at 15:17:41 (0.394% at off−30, 0.217% at the off); his Pallas is the tightest holder (0.002%). The old time does not reproduce and looks like an artefact of the old exact-time search.
