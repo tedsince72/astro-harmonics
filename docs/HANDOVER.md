@@ -29,7 +29,7 @@ Fixed settings: natal at 12:00; window off−30 min to finish+30 min; chords ≤
 - In the chat (Eddie chose option b, 17:44): full records saved to the project; each runner taken through in the chat — the main texture body by body, and the Sun and Moon in full. Nothing dropped from the records.
 - Comparing: runners side by side by kind of texture (exclusive strike at the off; one natal body struck in sequence around the race; a hub held by the Moon; the two charts meeting on one string; the Sun and Moon on the same string; a whole Method 1 figure held) — what the winner has that the others don't. Then across races.
 
-## Tools (repo `astro-harmonics`; run `bash setup.sh` to recreate the /home/claude layout the scripts expect)
+## Tools (repo https://github.com/tedsince72/astro-harmonics — clone it, then run `bash setup.sh` to recreate the /home/claude layout the scripts expect)
 Data
 - `ledger/allpos/<RACE>__NATAL_HOURLY.csv`, `__META.csv`, `__TRANS_POS.csv` — natal positions hourly per tab (P01 horse, P02 jockey, …), race meta.
 - `ledger/sky/<RACE>__SKYM.csv` — race sky by minute (scheduled −30…+30; sparse before the off). `ledger/sky_minutes.py` builds it.
