@@ -122,7 +122,7 @@ Here, body by body: its Method 1 line; every sky body (not the Sun or Moon) on i
   - 14:48:05 (finish+3.3m) L4 **Pallas** on Dec Mercury–Altair 1:7:8 0.137% · natal Mars 3:8:11 0.021% · tuned · 12 tuned
 
 **Jupiter** (RA 230.880, Dec -17.353)
-- *Method 1:* strongest strings: Dec Betelgeuse–Spica 1:3:4 0.009% (all day); Dec Arcturus–Procyon φ: φ/φ² 0.010% (all day); Dec Equator–Fomalhaut 1:√2:1+√2 0.012% (all day) · numbers: Dec Saturn whole 5; Sky Haumea whole 38; ninths 6 (Dec Quaoar 16/9 (all day); Dec Deneb Algedi ★ 11/9 (all day); Dec Altair ★ 236/9 (all day) all day) · figures ≤0.02%: Dec Orcus–Venus 5:6:11 0.011% · Dec turns in the birth day · partner links: P01 Jupiter – P02 Eris Flat 151.3332 = 1362/9 [slow–slow]; P01 Jupiter – P02 Gonggong Sky 89.6663 = 807/9 [slow–slow]
+- *Method 1:* strongest strings: Dec Betelgeuse–Spica 1:3:4 0.009% (all day); Dec Arcturus–Procyon φ: φ/φ² 0.010% (all day); Dec Equator–Fomalhaut 1:√2:1+√2 0.012% (all day) · numbers: Dec Saturn whole 5; Sky Haumea whole 38; ninths 6 (Dec Quaoar 16/9 (all day); Dec Deneb Algedi ★ 11/9 (all day); Dec Altair ★ 236/9 (all day) all day) · figures ≤0.02%: Dec Orcus–Venus 5:6:11 0.011% · Dec turns in the birth day, near-stationary (RA +0.009°/d, Dec +0.000°/d) · partner links: P01 Jupiter – P02 Eris Flat 151.3332 = 1362/9 [slow–slow]; P01 Jupiter – P02 Gonggong Sky 89.6663 = 807/9 [slow–slow]
 - *Sky bodies on its star strings within 0.15% in the window (12 holds), string by string, in order of the first exact time:*
   - **Dec Alkaid–Polaris** — natal Jupiter 3:5:8 0.095%, beyond the Alkaid end · 9 bodies in 6 charts, this #8, tightest Suntory Star Jupiter 0.032% · partner: no
     - exact 7.8 d ago (separating) — held, separating · **Quaoar** φ: φ/φ² (closest 0.042% at 14:10:41) · tuned · sky beyond the Alkaid end · off−30 0.042% · off 0.043% · finish 0.043% · finish+30 0.043%
@@ -267,7 +267,7 @@ Here, body by body: its Method 1 line; every sky body (not the Sun or Moon) on i
   - 14:56:35 (finish+11.8m) L2 **Venus** on Dec Eris–Sedna 2:3:5 0.012% · natal Chiron 4:5:9 0.145% · tuned · 5 tuned
 
 **Ceres** (RA 131.238, Dec +32.102 — OUT OF BOUNDS +8.67)
-- *Method 1:* strongest strings: RA Alphecca–Altair 5:8:13 0.004% (all day); Dec Algorab–Regulus 1:√2:1+√2 0.018% (all day) · numbers: RA Venus 93√2; Dec Rahu 11√2; ninths 8 · figures ≤0.02%: RA Makemake–Pallas 5:6:11 0.012% · OUT OF BOUNDS +8.67 · partner links: P01 Ceres – P02 Quaoar Sky 100.3170 = 62φ [one fast]; P01 Ceres – P02 Chiron Dec 14.3338 = 129/9 [one fast]; P01 Ceres – P02 Orcus Dec 25.3324 = 228/9 [one fast]
+- *Method 1:* strongest strings: RA Alphecca–Altair 5:8:13 0.004% (all day); Dec Algorab–Regulus 1:√2:1+√2 0.018% (all day) · numbers: RA Venus 93√2; Dec Rahu 11√2; ninths 8 · figures ≤0.02%: RA Makemake–Pallas 5:6:11 0.012% · OUT OF BOUNDS +8.67, near-stationary (Dec -0.004°/d) · partner links: P01 Ceres – P02 Quaoar Sky 100.3170 = 62φ [one fast]; P01 Ceres – P02 Chiron Dec 14.3338 = 129/9 [one fast]; P01 Ceres – P02 Orcus Dec 25.3324 = 228/9 [one fast]
 - *Sky bodies on its star strings within 0.15% in the window (7 holds), string by string, in order of the first exact time:*
   - **RA Polaris–Spica** — natal Ceres 3:4:7 0.093%, INSIDE (nearer Spica) · 3 bodies in 3 charts, this #2, tightest Conor O'Farrell Venus 0.066% · partner: no
     - exact 3.8 d ago (separating) — held, separating · **Transpluto** 2:5:7 (closest 0.092% at 14:10:41) · tuned · sky INSIDE (nearer Spica) · off−30 0.092% · off 0.093% · finish 0.093% · finish+30 0.093%
@@ -326,7 +326,7 @@ Here, body by body: its Method 1 line; every sky body (not the Sun or Moon) on i
   - 15:11:11 (finish+26.4m) same body: natal Juno – sky Juno + Jupiter Dec 1:√2:1+√2 0.000% — applying through the race, exact 26.4 min after the finish
 
 **Vesta** (RA 261.024, Dec -17.338)
-- *Method 1:* strongest strings: none ≤0.02% (tightest RA Alphecca–Polaris 1:5:6 0.028%) · numbers: Dec Makemake whole 42; Flat Vega ★ whole 59; Flat Betelgeuse ★ whole 174; ninths 9 · figures ≤0.02%: none · partner links: P01 Vesta – P02 Haumea Flat 89.0955 = 63√2 [one fast]; P01 Vesta – P02 Eris Flat 121.2233 = 1091/9 [one fast]; P01 Vesta – P02 Eris Sky 115.3318 = 1038/9 [one fast]
+- *Method 1:* strongest strings: none ≤0.02% (tightest RA Alphecca–Polaris 1:5:6 0.028%) · numbers: Dec Makemake whole 42; Flat Vega ★ whole 59; Flat Betelgeuse ★ whole 174; ninths 9 · figures ≤0.02%: none · near-stationary (Dec -0.017°/d) · partner links: P01 Vesta – P02 Haumea Flat 89.0955 = 63√2 [one fast]; P01 Vesta – P02 Eris Flat 121.2233 = 1091/9 [one fast]; P01 Vesta – P02 Eris Sky 115.3318 = 1038/9 [one fast]
 - *Sky bodies on its star strings within 0.15% in the window (10 holds), string by string, in order of the first exact time:*
   - **Dec Alkaid–Polaris** — natal Vesta 3:5:8 0.073%, beyond the Alkaid end · 9 bodies in 6 charts, this #5, tightest Suntory Star Jupiter 0.032% · partner: no
     - exact 7.8 d ago (separating) — held, separating · **Quaoar** φ: φ/φ² (closest 0.042% at 14:10:41) · tuned · sky beyond the Alkaid end · off−30 0.042% · off 0.043% · finish 0.043% · finish+30 0.043%

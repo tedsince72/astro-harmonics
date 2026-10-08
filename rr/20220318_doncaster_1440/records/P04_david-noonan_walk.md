@@ -109,7 +109,7 @@ Here, body by body: its Method 1 line; every sky body (not the Sun or Moon) on i
   - 15:06:36 (finish+21.8m) natal Mars – sky Mars Flat = **772/9** (off -0.0000; within ±0.002 15:02:56–15:10:21)
 
 **Jupiter** (RA 249.561, Dec -21.694)
-- *Method 1:* strongest strings: Dec Aldebaran–Altair 1:4:5 0.020% (all day) · numbers: RA Bellatrix ★ 104φ; Flat Neptune whole 45; Sky Transpluto 66φ; ninths 5 · figures ≤0.02%: none · partner links: P03 Chiron – P04 Jupiter Sky 105.1708 = 65φ [slow–slow]; P03 Sedna – P04 Jupiter Dec 29.2228 = 263/9 [slow–slow]; P03 Venus – P04 Jupiter Flat 90.1102 = 811/9 [one fast]
+- *Method 1:* strongest strings: Dec Aldebaran–Altair 1:4:5 0.020% (all day) · numbers: RA Bellatrix ★ 104φ; Flat Neptune whole 45; Sky Transpluto 66φ; ninths 5 · figures ≤0.02%: none · near-stationary (Dec -0.025°/d) · partner links: P03 Chiron – P04 Jupiter Sky 105.1708 = 65φ [slow–slow]; P03 Sedna – P04 Jupiter Dec 29.2228 = 263/9 [slow–slow]; P03 Venus – P04 Jupiter Flat 90.1102 = 811/9 [one fast]
 - *Sky bodies on its star strings within 0.15% in the window (4 holds), string by string, in order of the first exact time:*
   - **RA Procyon–Regulus** — natal Jupiter φ: 2−1/φ/φ²/φ√5 0.088%, beyond the Regulus end · 3 bodies in 3 charts, this #1 (tightest) · partner: Rahu 2:3:5 0.116%
     - exact 7.6 h before the off (18 Mar 7:03:46) — held, separating · **Pallas** 3:8:11 (closest 0.114% at 14:10:41) · tuned · sky beyond the Procyon end · off−30 0.114% · off 0.122% · finish 0.123% · finish+30 0.131%
