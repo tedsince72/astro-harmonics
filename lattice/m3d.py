@@ -17,12 +17,75 @@ def natref(tab, a):
     if a == 'Equator': return (None, 0.0)
     if a == 'CourseLat': return None
     return NATB[tab].get(a)
-TS = np.arange(t0 - 30, t0 + 30 + 1e-9, 0.25)
+import os as _os
+WIDE = _os.environ.get('M3WIN', '') == 'wide'      # wide: off-30 to finish+30 (the agreed procedure, 8 Oct 17:38); needs MOONWIN=wide (1-minute grid)
+TEND = t1 + 30 if WIDE else t0 + 30
+TS = np.unique(np.concatenate([np.arange(t0 - 30, TEND + 1e-9, 0.25), [t0, t1, TEND]])) if WIDE else np.arange(t0 - 30, t0 + 30 + 1e-9, 0.25)
 P0 = pos(BODY, t0)
 print('=' * 116); print(f"{RACE} off {OFF} finish {hm(t1)} — METHOD 3, sky {BODY}: RA {P0[0]:.3f} Dec {P0[1]:+.3f}  (moving RA {RATE[BODY][0]:+.4f}/d, Dec {RATE[BODY][1]:+.4f}/d)")
 print(f"winning pair: {NAME[WH]} ({WH}) / {NAME[WJ]} ({WJ})"); print('=' * 116)
 rows = []
-for a, c in itertools.combinations(RN, 2):
+def holders(a, c, mm):
+    hold = []
+    for tab in tabs:
+        A, C = natref(tab, a), natref(tab, c)
+        if A is None or C is None: continue
+        for b, p in NP[tab].items():
+            q = tri(p, A, C, mm)
+            if q and q[1] <= 0.0015: hold.append((q[1], tab, b, ctype(q[0]), dist(p, A, mm), dist(p, C, mm)))
+    return hold
+def strikes(a, c, mm):
+    """WIDE: every separate strike on the string in the window - each stretch within 0.15%, split where the chord type changes;
+    each strike gets its own exact moment (refined to the second on the grid when it falls inside the window, else followed out
+    linearly at the body's rate) and its path at off-30 / off / finish / finish+30 measured against ITS chord."""
+    global LOCKT
+    ser = [tri(pos(BODY, t), REF[a], REF[c], mm) for t in TS]
+    out = []; i = 0
+    while i < len(TS):
+        if not (ser[i] and ser[i][1] <= 0.0015): i += 1; continue
+        j = i
+        while j + 1 < len(TS) and ser[j + 1] and ser[j + 1][1] <= 0.0015: j += 1
+        k = i
+        while k <= j:                                           # split the stretch by chord type
+            ty = ctype(ser[k][0]); m = k
+            while m + 1 <= j and ctype(ser[m + 1][0]) == ty: m += 1
+            kb = min(range(k, m + 1), key=lambda q: ser[q][1]); tb_ = TS[kb]
+            LOCKT = lockT(pos(BODY, tb_), REF[a], REF[c], mm)
+            at = [(lambda r: r[1] if r else None)(tri(pos(BODY, t), REF[a], REF[c], mm)) for t in (t0 - 30, t0, t1, TEND)]
+            if 0 < kb < len(TS) - 1:                            # inside the window: refine to the second on the grid
+                best = min(((tri(pos(BODY, t), REF[a], REF[c], mm) or (None, 9))[1], t) for t in np.arange(tb_ - 0.3, tb_ + 0.3 + 1e-9, 1 / 60))
+                x, edge, dvx = (best[1] - t0) / 1440, False, best[0]
+            else:                                               # at a window edge: follow it out at the body's rate
+                span = SPAN.get(BODY, 60); stp = span / 1200; P = pos(BODY, tb_); bb = (9, None)
+                for dd in np.arange(-span, span + 1e-9, stp):
+                    r = tri(moved(P, BODY, dd), REF[a], REF[c], mm)
+                    if r and r[1] < bb[0]: bb = (r[1], dd)
+                if bb[1] is not None:
+                    for dd in np.arange(bb[1] - 2 * stp, bb[1] + 2 * stp, stp / 40):
+                        r = tri(moved(P, BODY, dd), REF[a], REF[c], mm)
+                        if r and r[1] < bb[0]: bb = (r[1], dd)
+                    fs = stp / 40
+                    while fs > 0.5 / 86400:            # down to under a second
+                        for dd in np.arange(bb[1] - 2 * fs, bb[1] + 2 * fs + 1e-15, fs / 10):
+                            r = tri(moved(P, BODY, dd), REF[a], REF[c], mm)
+                            if r and r[1] < bb[0]: bb = (r[1], dd)
+                        fs /= 10
+                x = None if bb[1] is None else (tb_ - t0) / 1440 + bb[1]
+                edge, dvx = bb[1] is not None and abs(abs(bb[1]) - span) < stp, bb[0]
+            LOCKT = None
+            out.append((ser[kb][1], tb_, ty, ser[kb][0], at, x, edge))
+            k = m + 1
+        i = j + 1
+    return out
+for a, c in (itertools.combinations(RN, 2) if WIDE else []):
+    for mm in ('RA', 'Dec', 'Flat', 'Sky'):
+        if (REF[a][0] is None or REF[c][0] is None) and mm != 'Dec': continue
+        S_ = strikes(a, c, mm)
+        if not S_: continue
+        hold = holders(a, c, mm); r0 = tri(P0, REF[a], REF[c], mm)
+        for dv, tb_, ty, db, at, x, edge in S_:
+            rows.append((mm, dv, a, c, r0[0] if r0 else db, ty, at, x, edge, hold, tb_, db))
+for a, c in ([] if WIDE else itertools.combinations(RN, 2)):
     for mm in ('RA', 'Dec', 'Flat', 'Sky'):
         if (REF[a][0] is None or REF[c][0] is None) and mm != 'Dec': continue
         best = (9, None)
@@ -31,7 +94,7 @@ for a, c in itertools.combinations(RN, 2):
             if r and r[1] < best[0]: best = (r[1], t)
         if best[0] > 0.0015: continue
         at = []
-        for t in (t0 - 30, t0, t1, t0 + 30):
+        for t in (t0 - 30, t0, t1, TEND):
             r = tri(pos(BODY, t), REF[a], REF[c], mm); at.append(r[1] if r else None)
         r0 = tri(pos(BODY, t0), REF[a], REF[c], mm) or tri(pos(BODY, best[1]), REF[a], REF[c], mm)
         typ = ctype(r0[0]); x, xd, edge = exact_t(BODY, a, c, mm)
@@ -42,16 +105,21 @@ for a, c in itertools.combinations(RN, 2):
             for b, p in NP[tab].items():
                 q = tri(p, A, C, mm)
                 if q and q[1] <= 0.0015: hold.append((q[1], tab, b, ctype(q[0]), dist(p, A, mm), dist(p, C, mm)))
-        rows.append((mm, best[0], a, c, r0[0], typ, at, x, edge, hold, best[1]))
+        rb = tri(pos(BODY, best[1]), REF[a], REF[c], mm)
+        rows.append((mm, best[0], a, c, r0[0], typ, at, x, edge, hold, best[1], rb[0] if rb else r0[0]))
 def f(v): return '   –  ' if v is None else f"{v*100:.3f}%"
-import os as _os, json as _json
+import json as _json
 if _os.environ.get('M3DUMP'):
-    _json.dump([dict(mm=r[0], dv=r[1], a=r[2], c=r[3], typ=r[5], at=r[6], x=r[7], edge=bool(r[8]), tbest=float(r[10]),
-                     hold=[[h[0], h[1], h[2], h[3]] for h in r[9]]) for r in rows], open(_os.environ['M3DUMP'], 'w'))
+    # hold rows: [dev, tab, natal body, type, natal–a, natal–c]; d_off / d_best: [body–a, body–c, base] at the off / at the tightest moment
+    _json.dump(dict(body=BODY, t0=t0, t1=t1, tend=TEND, wide=WIDE, pos_off=P0, rate=RATE[BODY],
+                    rows=[dict(mm=r[0], dv=r[1], a=r[2], c=r[3], typ=r[5], at=r[6], x=None if r[7] is None else float(r[7]), edge=bool(r[8]),
+                               when=when(r[7], r[8], BODY), tbest=float(r[10]), d_off=list(r[4]), d_best=list(r[11]),
+                               hold=[[h[0], h[1], h[2], h[3], h[4], h[5]] for h in r[9]]) for r in rows]),
+               open(_os.environ['M3DUMP'], 'w'))
 for mm in ('RA', 'Dec', 'Flat', 'Sky'):
     L = sorted([r for r in rows if r[0] == mm], key=lambda r: r[1])
     print(f"\n{mm}: {len(L)} chords within 0.15% (off−30 to off+30)")
-    for mm_, dv, a, c, d, typ, at, x, edge, hold, tb in L:
+    for mm_, dv, a, c, d, typ, at, x, edge, hold, tb, *_ in L:
         win = [h for h in hold if h[1] in (WH, WJ)]
         print(f"\n  {a}–{c}  {typ}  base {d[2]:.3f} | {BODY}–{a} {d[0]:.3f} | {BODY}–{c} {d[1]:.3f}   {when(x, edge, BODY)}")
         print(f"     off−30 {f(at[0])} | off {f(at[1])} | finish {f(at[2])} | off+30 {f(at[3])}")

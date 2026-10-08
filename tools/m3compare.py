@@ -26,7 +26,8 @@ for tab in tabs:
 rows = []
 for f in glob.glob(f'{S}/m3json/*.json'):
     sb = os.path.basename(f)[:-5]
-    for r in json.load(open(f)): r['sky'] = sb; rows.append(r)
+    J = json.load(open(f)); J = J['rows'] if isinstance(J, dict) else J      # m3d dump: dict since 8 Oct (rows + context); list before
+    for r in J: r['sky'] = sb; rows.append(r)
 win0, win1 = -30, 248 / 60 + 30           # minutes from the off
 near0, near1 = -10, 248 / 60 + 10
 def tmin(r): return None if r['x'] is None or r['edge'] else r['x'] * 1440

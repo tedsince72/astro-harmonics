@@ -47,14 +47,27 @@ def hm(t):
 def fmt(dv): return '  –   ' if dv is None else f"{dv*100:.3f}%"
 def evaluate(mk):
     """mk(src, i) -> point maker; returns dict with window min, the four check points and, for an edge minimum, the outward exact moment"""
-    best = (9, None, None); devs = [None] * len(TS)
+    best = (9, None, None); devs = [None] * len(TS); ds = [None] * len(TS)
     for i in range(len(TS)):
         r = mk('w', i)
         if r is None: continue
-        devs[i] = r[1]
+        devs[i] = r[1]; ds[i] = r[0]
         if r[1] < best[0]: best = (r[1], i, r[0])
     if best[1] is None or best[0] > 0.0015: return None
     out = dict(dv=best[0], t=TS[best[1]], d=best[2], at=[devs[I_A], devs[I_OFF], devs[I_FIN], devs[I_B]], edge=None)
+    segs = []; i = 0                      # every separate strike in the window (stretches within 0.15%, split by chord type) - for the dump
+    while i < len(TS):
+        if devs[i] is None or devs[i] > 0.0015: i += 1; continue
+        j = i
+        while j + 1 < len(TS) and devs[j + 1] is not None and devs[j + 1] <= 0.0015: j += 1
+        k = i
+        while k <= j:
+            ty = ctype(ds[k]); m = k
+            while m + 1 <= j and ctype(ds[m + 1]) == ty: m += 1
+            kb = min(range(k, m + 1), key=lambda q: devs[q]); segs.append((devs[kb], TS[kb], ds[kb], kb in (0, len(TS) - 1)))
+            k = m + 1
+        i = j + 1
+    out['segs'] = segs
     if best[1] in (0, len(TS) - 1):                    # follow it outward through the 1-minute grid
         step = -1 if best[1] == 0 else 1
         j = int(np.searchsorted(KS, TS[best[1]])) - (1 if step < 0 else 0); prev = 9; bj = None; bd = None
@@ -143,3 +156,28 @@ for tab in (WH, WJ):
     for dv, b, y, mm, o in sorted(rows, key=lambda x: x[0]):
         txt, d = line(o)
         print(f"   natal {b:10s} – sky {b:10s} + {y:12s} {mm:4s} {ctype(d):16s} {txt}\n        [natal–sky {d[0]:.3f} | natal–{y} {d[1]:.3f} | sky–{y} {d[2]:.3f}]")
+# ---- full dump for the runner records (8 Oct): SB2DUMP=file.json
+import os as _os, json as _json
+if _os.environ.get('SB2DUMP'):
+    def _o(o):
+        e = o['edge']
+        return dict(dv=float(o['dv']), t=float(o['t']), d=[float(x) for x in o['d']], at=[None if v is None else float(v) for v in o['at']],
+                    edge=None if not e else dict(dv=float(e[0]), t=float(e[1]), d=[float(x) for x in e[2]], at_limit=bool(e[3])),
+                    zone=zone(o), movement=movement(o), type=ctype(o['d']))
+    def _all(o):
+        """the main strike (with its edge follow-out) plus every other separate strike in the window"""
+        res = [_o(o)]
+        for dv_, t_, d_, at_edge in o.get('segs', []):
+            if abs(t_ - o['t']) < 1e-9: continue
+            z = 'before' if t_ < t0 else ('race' if t_ <= t1 else 'after')
+            mv = ('exact IN THE RACE' if z == 'race' else (f"exact {t_ - t1:.1f} min after the finish" if z == 'after' else f"exact {t0 - t_:.1f} min before the off"))
+            res.append(dict(dv=float(dv_), t=float(t_), d=[float(x) for x in d_], at=[None] * 4, edge=None, zone=z if not at_edge else 'edge',
+                            movement=mv + ' (another strike on the same string)', type=ctype(d_)))
+        return res
+    P1 = {hh: [dict(body=b, mm=mm, **x) for dv, b, mm, o in part1(hh, pair[hh], False) for x in _all(o)] for hh in horses}
+    _json.dump(dict(race=RACE, t0=t0, t1=t1, pairs={hh: pair[hh] for hh in horses},
+                    part1=P1, control=dict(n=len(ctrl), mean015=float(np.mean([len(x) for x in ctrl])),
+                                           mean005=float(np.mean([sum(1 for y in x if y[0] <= 0.0005) for x in ctrl])),
+                                           mean002=float(np.mean([sum(1 for y in x if y[0] <= 0.0002) for x in ctrl]))),
+                    part2={tab: [dict(body=b, third=y, mm=mm, **x) for dv, b, y, mm, o in P2[tab] for x in _all(o)] for tab in tabs}),
+               open(_os.environ['SB2DUMP'], 'w'))

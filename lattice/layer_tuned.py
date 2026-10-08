@@ -40,6 +40,7 @@ def chords(P, ends, thirds, lay):
 ENDS_T = {a: REF[a] for a in RN}
 TT = collections.defaultdict(dict)
 P0 = {b: pos(b, t0) for b in BODIES}
+MALL = {}          # (base key, third body, chord type) -> every Moon strike (Moon third, or Moon a base end): (d, dev, minute)
 for k, lst in chords(P0, ENDS_T, [b for b in BODIES if b != 'Moon'], [b for b in LB if b != 'Moon']).items():
     for bn, d, dv, typ in lst: TT[k][bn] = (d, dv, typ, t0)
 for t in (np.arange(t0 - 30, t1 + 30 + 1e-9, 0.25) if MOONWIN == 'wide' else np.arange(t0 - 2, t1 + 1e-9, 0.25)):        # the Moon as third point, and as base end in L4
@@ -50,6 +51,7 @@ for t in (np.arange(t0 - 30, t1 + 30 + 1e-9, 0.25) if MOONWIN == 'wide' else np.
     for k, lst in got.items():
         for bn, d, dv, typ in lst:
             if bn not in TT[k] or dv < TT[k][bn][1]: TT[k][bn] = (d, dv, typ, t)
+            if (k, bn, typ) not in MALL or dv < MALL[(k, bn, typ)][1]: MALL[(k, bn, typ)] = (d, dv, t)
 print('=' * 120)
 print(f"{RACE}  off {OFF}  finish {hm(t1)}  - LAYER {LNAME} ({', '.join(LB)}): TRANSIT AND NATAL TUNED IN")
 print('=' * 120)
@@ -89,8 +91,15 @@ for tab, (role, cloth, nm) in order:
         for bn, d, dv, typ in lst:
             for tb, (td, tdv, ttyp, tt) in TT[k].items():
                 pairs.append((k, bn, d, dv, typ, tb, td, tdv, ttyp, tt, lt, ln, rel))
-                DUMP.append((LNAME, tab, k[0], k[1], k[2], bn, dv, typ, tb, tdv, ttyp))
+                if not (tb == 'Moon' or 'Moon' in k): DUMP.append((LNAME, tab, k[0], k[1], k[2], bn, dv, typ, tb, tdv, ttyp, d[1], d[2], td[1], td[2], tt, ln, lt, rel))
                 ALL.append((tab, k, bn, dv, typ, tb, tdv, ttyp, tt, rel))
+        for (mk, tbn, mty), (md, mdv, mt) in MALL.items():          # the Moon: every strike on this base
+            if mk != k: continue
+            Pm = dict(P0); Pm['Moon'] = pos('Moon', mt); ltm = blen(k, Pm, ENDS_T)
+            rrm = max(ltm, ln) / max(min(ltm, ln), 1e-9); nm_, dr_ = iv(rrm)
+            relm = 'SAME LENGTH' if nm_ == '1' and dr_ <= 0.0015 else (f"lengths {nm_}" if dr_ <= 0.0015 else f"ratio {rrm:.3f}")
+            for bn, d, dv, typ in lst:
+                DUMP.append((LNAME, tab, k[0], k[1], k[2], bn, dv, typ, tbn, mdv, mty, d[1], d[2], md[1], md[2], mt, ln, ltm, relm))
     print('\n' + '-' * 120)
     print(f"[{f[0]}] {role.upper():6s} {nm:24s} {f[1]:>5s}{' FAV' if f[2] == '1' else ''}   natal chords {sum(len(v) for v in NN.values())}   tuned pairs {len(pairs)}   "
           f"UNISON {sum(1 for p in pairs if p[4] == p[8])}   same body {sum(1 for p in pairs if p[1] == p[5])}   lengths in tune {sum(1 for p in pairs if not p[12].startswith('ratio'))}")
@@ -127,5 +136,12 @@ for m_, k, tb, ttyp, tdv, ws in sorted(rows, key=lambda r: r[0]):
     print(f"        tuned: {'; '.join(who) if who else '-'}")
 import csv as _csv
 with open(f"/home/claude/lattice/dump/{RACE}_{LNAME}.csv", "w", newline="") as _f:
-    _w = _csv.writer(_f); _w.writerow(["layer", "tab", "mm", "x", "e", "natal_body", "natal_dev", "natal_type", "transit_body", "transit_dev", "transit_type"])
-    for r in DUMP: _w.writerow(r)
+    # extra columns (8 Oct): third body–x | –e on each side, minute held (Moon) or the off (slow), natal / transit base lengths and their relation, exact time
+    _w = _csv.writer(_f); _w.writerow(["layer", "tab", "mm", "x", "e", "natal_body", "natal_dev", "natal_type", "transit_body", "transit_dev", "transit_type",
+                                       "natal_dx", "natal_de", "transit_dx", "transit_de", "transit_t", "natal_base", "transit_base", "lengths", "transit_when"])
+    _WT = {}
+    for r in DUMP:
+        k, tb, tt = (r[2], r[3], r[4]), r[8], r[15]
+        if tb == 'Moon' or 'Moon' in k: _w.writerow(list(r) + [f"Moon held at {hm(tt)} ({tt - t0:+.2f})"]); continue     # per strike, never cached
+        if (k, tb) not in _WT: _WT[(k, tb)] = when_transit(k, tb)
+        _w.writerow(list(r) + [_WT[(k, tb)]])
