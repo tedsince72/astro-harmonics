@@ -1,4 +1,4 @@
-25 × 25 bodies; 2500 values; hits: φ/√2/whole/φⁿ 13 (chance ≈ 23), ninths 110 (chance ≈ 80)
+24 × 24 bodies; 2304 values; hits: φ/√2/whole/φⁿ 11 (chance ≈ 21), ninths 102 (chance ≈ 74)
 PARALLEL       P09 Juno          -8.751  P10 Eris          -8.741  diff 0.009
 PARALLEL       P09 Neptune       -7.442  P10 Mercury       -7.447  diff 0.005
 PARALLEL       P09 Saturn       -22.412  P10 Uranus       -22.322  diff 0.090
@@ -68,7 +68,6 @@ CONTRAPARALLEL P09 Sedna         +7.538  P10 Mercury       -7.447  diff 0.091
   P09 Chiron      – P10 Ceres       Flat   22.2234 = 200/9          [one fast]
   P09 Chiron      – P10 Mercury     Dec     9.2227 = 83/9           [one fast]
   P09 Gonggong    – P10 Mars        Dec    39.1104 = 352/9          [one fast]
-  P09 Gonggong    – P10 Moon        Flat   92.6655 = 834/9          [one fast]
   P09 Haumea      – P10 Ceres       Dec    32.6664 = 294/9          [one fast]
   P09 Haumea      – P10 Pallas      Flat   95.3321 = 858/9          [one fast]
   P09 Juno        – P10 Chiron      Dec    16.6656 = 150/9          [one fast]
@@ -89,11 +88,6 @@ CONTRAPARALLEL P09 Sedna         +7.538  P10 Mercury       -7.447  diff 0.091
   P09 Mars        – P10 Uranus      Dec     0.2233 = 2/9            [one fast]
   P09 Mercury     – P10 Chiron      Flat  166.6654 = 1500/9         [one fast]
   P09 Mercury     – P10 Gonggong    RA      4.6669 = 42/9           [one fast]
-  P09 Moon        – P10 Chiron      RA    126.4461 = 1138/9         [one fast]
-  P09 Moon        – P10 Ketu        Dec    22.8876 = 206/9          [one fast]
-  P09 Moon        – P10 Makemake    Dec    34.8878 = 314/9          [one fast]
-  P09 Moon        – P10 Neptune     Sky    82.7759 = 745/9          [one fast]
-  P09 Moon        – P10 Saturn      Sky    51.2240 = 461/9          [one fast]
   P09 Orcus       – P10 Juno        Sky    63.7775 = 574/9          [one fast]
   P09 Orcus       – P10 Mercury     Sky   159.6670 = 1437/9         [one fast]
   P09 Pallas      – P10 Eris        Dec     7.5542 = 68/9           [one fast]
@@ -108,11 +102,9 @@ CONTRAPARALLEL P09 Sedna         +7.538  P10 Mercury       -7.447  diff 0.091
   P09 Rahu        – P10 Mercury     Dec    23.8873 = 215/9          [one fast]
   P09 Rahu        – P10 Mercury     Flat  155.6649 = 1401/9         [one fast]
   P09 Saturn      – P10 Mercury     Flat   68.1130 = 613/9          [one fast]
-  P09 Sedna       – P10 Moon        Dec    30.7764 = 277/9          [one fast]
   P09 Sun         – P10 Gonggong    Dec     7.8872 = 71/9           [one fast]
   P09 Sun         – P10 Haumea      RA    141.6680 = 1275/9         [one fast]
   P09 Sun         – P10 Makemake    RA    159.7796 = 1438/9         [one fast]
-  P09 Transpluto  – P10 Moon        Sky    94.6672 = 852/9          [one fast]
   P09 Uranus      – P10 Ceres       RA     41.4452 = 373/9          [one fast]
   P09 Venus       – P10 Haumea      RA    151.5560 = 1364/9         [one fast]
   P09 Venus       – P10 Makemake    RA    169.6676 = 1527/9         [one fast]
@@ -123,8 +115,6 @@ CONTRAPARALLEL P09 Sedna         +7.538  P10 Mercury       -7.447  diff 0.091
   P09 Vesta       – P10 Orcus       Flat  124.6665 = 1122/9         [one fast]
 --- both fast
   P09 Juno        – P10 Mars        Flat  135.9150 = 84φ            [both fast]
-  P09 Moon        – P10 Venus       Flat    9.0012 = whole 9        [both fast]
-  P09 Moon        – P10 Venus       RA      6.0017 = whole 6        [both fast]
   P09 Mars        – P10 Venus       Flat  118.3317 = 1065/9         [both fast]
   P09 Sun         – P10 Venus       Dec    18.1096 = 163/9          [both fast]
   P09 Venus       – P10 Ceres       Flat    7.1121 = 64/9           [both fast]

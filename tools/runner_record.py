@@ -197,8 +197,14 @@ for l in LAYERS:
         for k in ('natal_dev', 'transit_dev', 'natal_dx', 'natal_de', 'transit_dx', 'transit_de', 'transit_t', 'natal_base', 'transit_base'):
             r[k] = float(r[k]) if r.get(k) not in (None, '') else None
         M2.append(r)
-M2IDX = collections.defaultdict(list)        # (layer, mm, x, e, transit body) -> rows (every chart)
-for r in M2: M2IDX[(r['layer'], r['mm'], r['x'], r['e'], r['transit_body'])].append(r)
+def m2key(r):
+    """one transit strike: layer, base, transit body, and for the Moon its chord type and minute (several strikes per base)"""
+    moon = r['transit_body'] == 'Moon' or 'Moon' in (r['x'], r['e'])
+    return (r['layer'], r['mm'], r['x'], r['e'], r['transit_body']) + ((r['transit_type'], round(r['transit_t'], 3)) if moon else ())
+M2IDX = collections.defaultdict(list)        # one transit strike -> rows (every chart tuned to it)
+for r in M2: M2IDX[m2key(r)].append(r)
+M2BASE = collections.defaultdict(set)        # (layer, mm, x, e) -> every transit body that plays the base
+for r in M2: M2BASE[(r['layer'], r['mm'], r['x'], r['e'])].add(r['transit_body'])
 SB = json.load(open(f'{OUT}/sb2.json'))
 EXTRA = json.load(open(f'{OUT}/extra.json'))
 
@@ -286,7 +292,7 @@ def m2_rows(tab, body=None, transit=None, base_has=None, exclude_sm=False):
     return out
 def m2_line(r, tab):
     flags = (['UNISON'] if r['natal_type'] == r['transit_type'] else ['tuned']) + (['SAME BODY'] if r['natal_body'] == r['transit_body'] else [])
-    others = [x for x in M2IDX[(r['layer'], r['mm'], r['x'], r['e'], r['transit_body'])] if not (x['tab'] == tab and x['natal_body'] == r['natal_body'])]
+    others = [x for x in M2IDX[m2key(r)] if not (x['tab'] == tab and x['natal_body'] == r['natal_body'])]
     others.sort(key=lambda x: x['natal_dev'])
     me_tight = all(r['natal_dev'] <= x['natal_dev'] for x in others)
     oth = '; '.join(f"{short(x['tab'])} {x['natal_body']} {x['natal_type']}{' U' if x['natal_type'] == x['transit_type'] else ''} {x['natal_dev'] * 100:.3f}%" for x in others[:12])
@@ -511,7 +517,7 @@ def w_m3(r, h, tab):
             f"this #{rank(r, tab, h[2])}{' (tightest)' if rank(r, tab, h[2]) == 1 else ', tightest ' + short(min(hold)[1]) + ' ' + min(hold)[2]}"
             f" · partner: {pn or 'no'}{' · also on the string: ' + also if also else ''}")
 def w_m2(r, tab):
-    others = [x for x in M2IDX[(r['layer'], r['mm'], r['x'], r['e'], r['transit_body'])] if not (x['tab'] == tab and x['natal_body'] == r['natal_body'])]
+    others = [x for x in M2IDX[m2key(r)] if not (x['tab'] == tab and x['natal_body'] == r['natal_body'])]
     tight = all(r['natal_dev'] <= x['natal_dev'] for x in others)
     tags = ('UNISON' if r['natal_type'] == r['transit_type'] else 'tuned') + (' · SAME BODY' if r['natal_body'] == r['transit_body'] else '')
     ln = (r.get('lengths') or '')
@@ -558,27 +564,66 @@ def walk(tab):
     quiet = [b for b in NATAL_ORDER if NATPOS[tab].get(b, {}).get(12) and not any(
         in_win(exact_min(r)) for r, h in m3_items(tab, b, sky_other))]
     L.append(f"\nNo sky body (other than the Sun and Moon) comes exact in the window on these bodies' star strings (Method 3; their other items are above): {', '.join(quiet) or '—'}")
+    near = lambda t: t is not None and T0 - 10 <= t <= T1 + 10
+    def moon_m3_keep(r, h):
+        """outside off-10..finish+10: the textures Eddie listed (8 Oct 20:34)"""
+        key = (r['mm'], frozenset((r['a'], r['c']))); why = []
+        if h[0] * 100 <= STRONG: why.append('strong Method 1 string')
+        oth = sorted({x['sky'] for x in STR.get(key, []) if x['sky'] != 'Moon'})
+        if oth: why.append('also played by ' + ', '.join(oth))
+        if h[3] == r['typ']: why.append('UNISON')
+        if rank(r, tab, h[2]) == 1: why.append('tightest in the field')
+        if partner_on(tab, key): why.append('partner on it')
+        return why
+    def moon_m2_keep(r):
+        why = []
+        if r['natal_dev'] * 100 <= STRONG: why.append('strong Method 1 figure')
+        oth = sorted(b for b in M2BASE[(r['layer'], r['mm'], r['x'], r['e'])] if b != 'Moon')
+        if oth: why.append('also played by ' + ', '.join(oth))
+        if r['natal_type'] == r['transit_type']: why.append('UNISON')
+        if r['natal_body'] == r['transit_body']: why.append('same body')
+        others = [x for x in M2IDX[m2key(r)] if not (x['tab'] == tab and x['natal_body'] == r['natal_body'])]
+        if all(r['natal_dev'] <= x['natal_dev'] for x in others): why.append('tightest in the field')
+        if PAIR.get(tab) and any(x['tab'] == PAIR[tab] for x in M2IDX[m2key(r)]): why.append('partner on it')
+        if 'Sun' in (r['x'], r['e']): why.append("on the Sun's distance")
+        return why
     for X in ('Sun', 'Moon'):
-        L.append(f"\n## {'2. The transit Sun' if X == 'Sun' else '3. The transit Moon — the clock'} (in full, time order)")
-        items = []
+        L.append(f"\n## {'2. The transit Sun (in full, time order)' if X == 'Sun' else '3. The transit Moon — the clock (time order)'}")
+        if X == 'Moon':
+            L.append(f"Every Moon strike from off−10 ({hm(T0 - 10)}) to finish+10 ({hm(T1 + 10)}); outside that, only strikes with texture — on the runner's strongest "
+                     "Method 1 strings (≤0.02%), on a string another sky body or the Sun also plays, UNISON or same body, the runner tightest in the field, "
+                     "the partner on the string, or on the Sun's own distances — each marked with why it is kept. The full Moon list is in the repo record.")
+        items = []; dropped = 0
         for b in NATAL_ORDER:
             for r, h in m3_items(tab, b, [X]):
-                items.append((row_time(r), w_m3(r, h, tab) + ('' if in_win(exact_min(r)) else f" — not exact in the window ({r['when']})")))
+                ln = w_m3(r, h, tab) + ('' if in_win(exact_min(r)) else f" — not exact in the window ({r['when']})")
+                if X == 'Moon' and not near(row_time(r)):
+                    why = moon_m3_keep(r, h)
+                    if not why: dropped += 1; continue
+                    ln += f" [kept: {'; '.join(why)}]"
+                items.append((row_time(r), ln))
         for r in m2_rows(tab):
             if r['layer'] == 'L1': continue
             if r['transit_body'] == X or X in (r['x'], r['e']):
-                tt = m2_time(r)
-                items.append((tt if tt is not None else T0, w_m2(r, tab)))
+                tt = m2_time(r); ln = w_m2(r, tab)
+                if X == 'Moon' and not near(tt):
+                    why = moon_m2_keep(r)
+                    if not why: dropped += 1; continue
+                    ln += f" [kept: {'; '.join(why)}]"
+                items.append((tt if tt is not None else T0, ln))
         for x in SB['part2'].get(tab, []):
             if x['body'] == X or x['third'] == X: items.append((x['t'], w_sb(x) + (f"; followed out {pc(x['edge']['dv'])} at {hm(x['edge']['t'])}" if x['edge'] else '')))
         if X == 'Sun':
             for x in EXTRA['n2t'].get(tab, []):
                 if x['body'] == 'Sun': items.append((x['t'], w_num(x, f"natal Sun – sky Sun {x['mm']}")))
-        for x in EXTRA['skynum'].get(X, []): items.append((x['t'], w_num(x, f"sky {X} {x['mm']} to {x['to']}") + " (sky only, every runner)"))
+        for x in EXTRA['skynum'].get(X, []):
+            if X == 'Moon' and not near(x['t']): dropped += 1; continue
+            items.append((x['t'], w_num(x, f"sky {X} {x['mm']} to {x['to']}") + " (sky only, every runner)"))
         for x in EXTRA['par'].get(tab, []):
             if x['sky'] == X: items.append((x['t'], f"{tz(x['t'])} sky {X} {x['kind']} natal {x['natal']}, closest {x['min']:.3f}"))
         for tt, s in sorted(items, key=lambda x: x[0]): L.append(f"- {s}")
         if not items: L.append("- (none)")
+        if X == 'Moon': L.append(f"- ({dropped} other Moon strikes outside off−10…finish+10 without those textures: in the full record)")
     L.append("\n### The Sun and the Moon on the same string (held by this chart)")
     n = 0
     for key, rows in sorted(STR.items(), key=lambda kv: min(row_time(r) for r in kv[1])):
@@ -603,7 +648,11 @@ def walk(tab):
             L.append(f"  - {tz(te)} **{r['sky']}** {k[0]} {a}–{c} {r['typ']} — {short(tab)}: {me} | {short(p)}: {pa}")
         hh = tab if t['role'] == 'horse' else p
         p1 = [x for x in SB['part1'].get(hh, []) if in_win(x['t'])]
-        L.append("- Same body, sky X + horse X + jockey X, in the window: " + ('; '.join(f"{x['body']} {x['mm']} {x['type']} {pc(x['dv'])} {hm(x['t'])}" for x in sorted(p1, key=lambda x: x['t'])) or 'none'))
+        def p1s(x):
+            e = x.get('edge')
+            tail = f" (at the window edge, {x['movement']}; tightest {pc(e['dv'])} at {hm(e['t'])})" if e else f" ({x['movement']})"
+            return f"{x['body']} {x['mm']} {x['type']} {pc(x['dv'])} {hm(x['t'])}{tail}"
+        L.append("- Same body, sky X + horse X + jockey X, in the window: " + ('; '.join(p1s(x) for x in sorted(p1, key=lambda x: x['t'])) or 'none'))
         par = [ln.strip() for ln in CROSS.get(tab, []) if 'PARALLEL' in ln]
         L.append("- Dec links between the two charts: " + ('; '.join(par) or 'none'))
     return '\n'.join(L) + '\n'

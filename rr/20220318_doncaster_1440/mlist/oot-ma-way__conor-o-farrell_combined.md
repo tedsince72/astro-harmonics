@@ -4,49 +4,49 @@ Both charts at 12:00. Kept wide. Natal Moon left out. Race-day items (same-body 
 ## 1. Star strings held in both charts
 - **Dec Altair–Arcturus** — horse: Mars 1:3:4 0.011% | jockey: Neptune 1:3:4 0.000%; Ketu φ: φ/φ² 0.018%
 - **Dec Altair–Castor** — horse: Orcus 4:5:9 0.016% | jockey: Jupiter φ: φ/φ² 0.001%; Uranus 1:√2:1+√2 0.021%
-- **RA Algorab–Rigel** — horse: Mercury 3:8:11 0.109% | jockey: Sedna 1:3:4 0.003%
 - **RA Algol–Fomalhaut** — horse: Rahu 3:4:7 0.054%; Eris 1:2:3 0.076% | jockey: Ketu φ: φ/φ² 0.003%; Mars φ: φ/φ² 0.019%
-- **Dec Betelgeuse–Vega** — horse: Gonggong φ: φ/φ² 0.142% | jockey: Jupiter 1:1:2 0.004%
+- **RA Algorab–Rigel** — horse: Mercury 3:8:11 0.109% | jockey: Sedna 1:3:4 0.003%
 - **Dec Algol–Procyon** — horse: Pallas 1:6:7 0.004%; Pluto 3:4:7 0.050% | jockey: Jupiter 1:1:2 0.057%
+- **Dec Betelgeuse–Vega** — horse: Gonggong φ: φ/φ² 0.142% | jockey: Jupiter 1:1:2 0.004%
 - **RA Aldebaran–Capella** — horse: Sedna 5:6:11 0.005%; Neptune 1:8:9 0.023% | jockey: Ceres 1:2:3 0.010%; Jupiter 1:1:2 0.149%
 - **RA Bellatrix–Castor** — horse: Makemake 2:5:7 0.059% | jockey: Makemake 3:5:8 0.007%; Jupiter 1:3:4 0.022%
-- **Dec Capella–Fomalhaut** — horse: Pallas φ: φ/φ² 0.008% | jockey: Chiron 5:8:13 0.014%; Pluto 5:8:13 0.127%
 - **RA Alkaid–Antares** — horse: Haumea 1:6:7 0.008%; Vesta 2:3:5 0.025%; Transpluto 3:4:7 0.089% | jockey: Rahu 1:2:3 0.085%; Saturn 4:5:9 0.110%
+- **Dec Capella–Fomalhaut** — horse: Pallas φ: φ/φ² 0.008% | jockey: Chiron 5:8:13 0.014%; Pluto 5:8:13 0.127%
 - **Dec Arcturus–Rigel** — horse: Pallas 3:8:11 0.009%; Ceres 1:4:5 0.103% | jockey: Makemake 3:5:8 0.055%; Pallas 1:√2:1+√2 0.090%
-- **Dec Bellatrix–Spica** — horse: Neptune 3:8:11 0.144% | jockey: Sedna 1:7:8 0.011%; Neptune 5:8:13 0.060%; Ceres 1:√2:1+√2 0.119%
-- **Dec Alphecca–Arcturus** — horse: Sedna 2:3:5 0.088% | jockey: Pluto φ: 2−1/φ/φ²/φ√5 0.011%
 - **Dec Equator–Fomalhaut** — horse: Sun 2:3:5 0.011%; Ketu 5:8:13 0.054% | jockey: Uranus 1:4:5 0.014%; Venus φ: 2−1/φ/φ²/φ√5 0.086%
 - **RA Castor–Spica** — horse: Vesta 5:6:11 0.011%; Quaoar 4:5:9 0.040% | jockey: Makemake 5:8:13 0.012%
+- **Dec Bellatrix–Spica** — horse: Neptune 3:8:11 0.144% | jockey: Sedna 1:7:8 0.011%; Neptune 5:8:13 0.060%; Ceres 1:√2:1+√2 0.119%
+- **Dec Alphecca–Arcturus** — horse: Sedna 2:3:5 0.088% | jockey: Pluto φ: 2−1/φ/φ²/φ√5 0.011%
 - **RA Aldebaran–Spica** — horse: Mercury φ: 2/φ/φ³/φ³+1 0.107% | jockey: Ketu 2:3:5 0.012%; Mars 2:3:5 0.062%; Chiron 1:3:4 0.112%
 - **Dec Regulus–Sirius** — horse: Orcus 1:3:4 0.012% | jockey: Ceres φ: 2/φ/φ³/φ³+1 0.126%
 - **RA Aldebaran–Castor** — horse: Ceres φ: φ/φ² 0.017% | jockey: Haumea φ: φ/φ² 0.119%
-- **Dec Aldebaran–Altair** — horse: Neptune 1:2:3 0.113% | jockey: Makemake 2:5:7 0.020%; Pallas 3:4:7 0.041%
-- **RA Aldebaran–Rigel** — horse: Uranus φ: 2/φ/φ³/φ³+1 0.069% | jockey: Sun 1:5:6 0.020%
 - **Dec Capella–Sirius** — horse: Transpluto 4:5:9 0.067% | jockey: Sun 3:4:7 0.020%; Mercury 4:5:9 0.048%
-- **Dec Castor–Sirius** — horse: Makemake 1:6:7 0.058% | jockey: Pluto 1:2:3 0.021%
+- **RA Aldebaran–Rigel** — horse: Uranus φ: 2/φ/φ³/φ³+1 0.069% | jockey: Sun 1:5:6 0.020%
+- **Dec Aldebaran–Altair** — horse: Neptune 1:2:3 0.113% | jockey: Makemake 2:5:7 0.020%; Pallas 3:4:7 0.041%
 - **Dec Pleiades–Spica** — horse: Rahu 1:5:6 0.021%; Ketu 1:5:6 0.115% | jockey: Transpluto φ: 2−1/φ/φ²/φ√5 0.052%; Mars 2:5:7 0.085%
+- **Dec Castor–Sirius** — horse: Makemake 1:6:7 0.058% | jockey: Pluto 1:2:3 0.021%
 - **Dec Algorab–Polaris** — horse: Chiron φ: 2/φ/φ³/φ³+1 0.146% | jockey: Ceres 1:2:3 0.022%
 - **Dec Aldebaran–Deneb Algedi** — horse: Pluto 1:6:7 0.023% | jockey: Haumea 1:5:6 0.118%
 - **Dec Algol–Sirius** — horse: Venus φ: 2−1/φ/φ²/φ√5 0.033% | jockey: Juno 2:3:5 0.024%
-- **Dec Altair–Antares** — horse: Haumea φ: 2/φ/φ³/φ³+1 0.072% | jockey: Quaoar φ: φ/φ² 0.025%
 - **Dec Aldebaran–Antares** — horse: Transpluto 1:7:8 0.025%; Ketu φ: 2/φ/φ³/φ³+1 0.108% | jockey: Gonggong 1:6:7 0.099%
+- **Dec Altair–Antares** — horse: Haumea φ: 2/φ/φ³/φ³+1 0.072% | jockey: Quaoar φ: φ/φ² 0.025%
 - **Dec Arcturus–Equator** — horse: Neptune 1:3:4 0.026%; Chiron φ: 2/φ/φ³/φ³+1 0.052%; Uranus 3:4:7 0.122% | jockey: Rahu 2:3:5 0.139%
-- **Dec Alphecca–Betelgeuse** — horse: Pluto 2:3:5 0.050% | jockey: Mercury 4:5:9 0.030%
-- **RA Aldebaran–Sirius** — horse: Transpluto 5:8:13 0.030% | jockey: Haumea φ: 2−1/φ/φ²/φ√5 0.039%
 - **Dec Antares–Capella** — horse: Neptune φ: 2−1/φ/φ²/φ√5 0.149% | jockey: Mercury 5:8:13 0.030%
+- **RA Aldebaran–Sirius** — horse: Transpluto 5:8:13 0.030% | jockey: Haumea φ: 2−1/φ/φ²/φ√5 0.039%
+- **Dec Alphecca–Betelgeuse** — horse: Pluto 2:3:5 0.050% | jockey: Mercury 4:5:9 0.030%
 - **Dec Castor–Equator** — horse: Rahu 3:4:7 0.034% | jockey: Saturn 1:√2:1+√2 0.032%
 - **Dec Bellatrix–Regulus** — horse: Ceres 2:5:7 0.035% | jockey: Orcus 1:3:4 0.034%
-- **Dec Aldebaran–Vega** — horse: Venus φ: φ/φ² 0.141% | jockey: Pallas 3:5:8 0.035%
 - **Dec Aldebaran–Algol** — horse: Vesta 1:√2:1+√2 0.119% | jockey: Rahu 5:6:11 0.035%; Saturn 5:8:13 0.110%
 - **RA Aldebaran–Fomalhaut** — horse: Ketu 2:5:7 0.035% | jockey: Eris 5:6:11 0.061%
+- **Dec Aldebaran–Vega** — horse: Venus φ: φ/φ² 0.141% | jockey: Pallas 3:5:8 0.035%
 - **Dec Alkaid–Pleiades** — horse: Orcus 3:4:7 0.119% | jockey: Mars 2:5:7 0.036%
 - **Dec Arcturus–Pleiades** — horse: Quaoar 1:7:8 0.041%; Uranus 3:5:8 0.109% | jockey: Venus 5:8:13 0.087%
 - **Dec Altair–Equator** — horse: Uranus φ: 2/φ/φ³/φ³+1 0.042%; Juno 3:4:7 0.057% | jockey: Transpluto φ: φ/φ² 0.073%; Haumea 5:8:13 0.097%
 - **Dec Deneb Algedi–Regulus** — horse: Ceres 1:2:3 0.046% | jockey: Pluto 4:5:9 0.058%
-- **Dec Algol–Equator** — horse: Quaoar 3:8:11 0.048%; Jupiter φ: 2−1/φ/φ²/φ√5 0.060% | jockey: Venus φ: 2−1/φ/φ²/φ√5 0.049%
 - **Dec Betelgeuse–Rigel** — horse: Mercury 1:3:4 0.117% | jockey: Sun 3:4:7 0.048%
-- **RA Arcturus–Deneb Algedi** — horse: Juno 3:8:11 0.049% | jockey: Juno 3:8:11 0.142%
+- **Dec Algol–Equator** — horse: Quaoar 3:8:11 0.048%; Jupiter φ: 2−1/φ/φ²/φ√5 0.060% | jockey: Venus φ: 2−1/φ/φ²/φ√5 0.049%
 - **Dec Capella–Regulus** — horse: Mars 1:1:2 0.049% | jockey: Neptune 1:1:2 0.117%
+- **RA Arcturus–Deneb Algedi** — horse: Juno 3:8:11 0.049% | jockey: Juno 3:8:11 0.142%
 - **RA Capella–Castor** — horse: Mercury 5:6:11 0.050%; Ceres 4:5:9 0.105% | jockey: Venus 4:5:9 0.060%
 - **Dec Bellatrix–Pleiades** — horse: Mars 5:8:13 0.050% | jockey: Gonggong 2:3:5 0.087%
 - **Dec Algol–Alphecca** — horse: Chiron φ: φ/φ² 0.052%; Haumea 2:3:5 0.125% | jockey: Makemake 3:5:8 0.051%
@@ -56,15 +56,15 @@ Both charts at 12:00. Kept wide. Natal Moon left out. Race-day items (same-body 
 - **RA Polaris–Rigel** — horse: Vesta 1:3:4 0.075% | jockey: Transpluto 5:8:13 0.055%
 - **RA Deneb Algedi–Spica** — horse: Pluto 3:8:11 0.115% | jockey: Juno φ: 2/φ/φ³/φ³+1 0.057%
 - **RA Arcturus–Vega** — horse: Uranus 3:5:8 0.064%; Mars 3:8:11 0.099% | jockey: Sun 3:4:7 0.099%
+- **Dec Fomalhaut–Sirius** — horse: Neptune 4:5:9 0.141% | jockey: Sedna φ: φ/φ² 0.065%
 - **Dec Antares–Deneb Algedi** — horse: Gonggong 2:5:7 0.146% | jockey: Orcus 1:2:3 0.065%; Venus 3:8:11 0.148%
 - **RA Antares–Betelgeuse** — horse: Jupiter 1:6:7 0.065%; Orcus 2:3:5 0.140% | jockey: Venus 3:4:7 0.080%
-- **Dec Fomalhaut–Sirius** — horse: Neptune 4:5:9 0.141% | jockey: Sedna φ: φ/φ² 0.065%
 - **Dec Alkaid–Sirius** — horse: Mercury 4:5:9 0.066% | jockey: Eris 1:8:9 0.130%
 - **RA Antares–Polaris** — horse: Mars 3:5:8 0.066%; Neptune 1:2:3 0.110% | jockey: Uranus 1:5:6 0.071%
 - **RA Bellatrix–Sirius** — horse: Ceres 1:2:3 0.070% | jockey: Neptune 1:8:9 0.067%
 - **RA Antares–Arcturus** — horse: Gonggong 3:8:11 0.105% | jockey: Ceres φ: 2/φ/φ³/φ³+1 0.067%; Uranus 3:4:7 0.116%
-- **Dec Fomalhaut–Rigel** — horse: Sedna 3:4:7 0.070% | jockey: Uranus φ: 2−1/φ/φ²/φ√5 0.101%
 - **Dec Altair–Capella** — horse: Mars 5:6:11 0.084% | jockey: Haumea φ: φ/φ² 0.070%; Neptune 5:6:11 0.087%
+- **Dec Fomalhaut–Rigel** — horse: Sedna 3:4:7 0.070% | jockey: Uranus φ: 2−1/φ/φ²/φ√5 0.101%
 - **Dec Rigel–Sirius** — horse: Mars 5:8:13 0.095% | jockey: Pallas 3:4:7 0.071%
 - **RA Algol–Vega** — horse: Venus 1:3:4 0.072% | jockey: Rahu 5:8:13 0.096%
 - **Dec Antares–Polaris** — horse: Venus 4:5:9 0.074% | jockey: Chiron 3:5:8 0.129%
@@ -75,8 +75,8 @@ Both charts at 12:00. Kept wide. Natal Moon left out. Race-day items (same-body 
 - **RA Sirius–Spica** — horse: Eris 3:4:7 0.122%; Ceres 2:3:5 0.134% | jockey: Neptune 4:5:9 0.098%
 - **Dec Algol–Rigel** — horse: Vesta 1:5:6 0.107% | jockey: Sun 4:5:9 0.099%
 - **RA Algol–Altair** — horse: Eris φ: 2/φ/φ³/φ³+1 0.103% | jockey: Quaoar 3:5:8 0.113%
-- **Dec Aldebaran–Capella** — horse: Makemake 2:5:7 0.130% | jockey: Quaoar 1:1:2 0.105%; Gonggong 4:5:9 0.126%
 - **RA Bellatrix–Spica** — horse: Ceres 1:1:2 0.111% | jockey: Neptune 2:3:4 0.105%
+- **Dec Aldebaran–Capella** — horse: Makemake 2:5:7 0.130% | jockey: Quaoar 1:1:2 0.105%; Gonggong 4:5:9 0.126%
 - **Dec Fomalhaut–Spica** — horse: Uranus 5:6:11 0.115% | jockey: Ceres φ: φ/φ² 0.145%
 - **Dec Aldebaran–Castor** — horse: Ceres φ: φ/φ² 0.140% | jockey: Jupiter 3:4:7 0.128%; Uranus φ: 2−1/φ/φ²/φ√5 0.148%
 - **RA Aldebaran–Bellatrix** — horse: Pallas 3:5:8 0.144% | jockey: Ceres φ: 2−1/φ/φ²/φ√5 0.138%
@@ -168,10 +168,10 @@ Both charts at 12:00. Kept wide. Natal Moon left out. Race-day items (same-body 
 - none
 
 ## 4. The same number in both charts
-- **53φ** — horse: Chiron Sky to Polaris, Makemake Flat to Vega | jockey: Chiron RA to Pallas, Pallas RA to Chiron
 - **whole 45** — horse: Mars Sky to Neptune, Neptune Sky to Mars | jockey: Eris Dec to Makemake, Makemake Dec to Eris
-- **whole 63** — horse: Mars Dec to Algol | jockey: Ketu Sky to Arcturus
 - **whole 180** — horse: Rahu RA to Ketu, Rahu Sky to Ketu, Ketu RA to Rahu, Ketu Sky to Rahu | jockey: Rahu RA to Ketu, Rahu Sky to Ketu, Ketu RA to Rahu, Ketu Sky to Rahu
+- **whole 63** — horse: Mars Dec to Algol | jockey: Ketu Sky to Arcturus
+- **53φ** — horse: Chiron Sky to Polaris, Makemake Flat to Vega | jockey: Chiron RA to Pallas, Pallas RA to Chiron
 - **4/9** — horse: Sedna Dec to Betelgeuse | jockey: Ceres Dec to Arcturus
 - **211/9** — horse: Ketu Dec to Procyon | jockey: Pallas Dec to Gonggong, Gonggong Dec to Pallas
 - **631/9** — horse: Venus Sky to Orcus, Orcus Sky to Venus | jockey: Sun Sky to Algol
@@ -183,8 +183,8 @@ Both charts at 12:00. Kept wide. Natal Moon left out. Race-day items (same-body 
 
 ## 5. Stars reached in both charts (by chord or number)
 - **Arcturus** — horse 22 (Ceres, Chiron, Eris, Gonggong, Haumea, Juno, Jupiter, Ketu, Makemake, Mars, Mercury, Neptune, Orcus, Pallas, Quaoar, Rahu, Saturn, Sedna, Sun, Uranus, Venus, Vesta) | jockey 19 (Ceres, Chiron, Eris, Gonggong, Haumea, Juno, Ketu, Makemake, Neptune, Orcus, Pallas, Pluto, Quaoar, Rahu, Saturn, Sedna, Sun, Uranus, Venus)
-- **Aldebaran** — horse 19 (Ceres, Chiron, Eris, Gonggong, Juno, Jupiter, Ketu, Makemake, Mars, Mercury, Neptune, Pallas, Pluto, Quaoar, Sedna, Transpluto, Uranus, Venus, Vesta) | jockey 20 (Ceres, Chiron, Eris, Gonggong, Haumea, Jupiter, Ketu, Makemake, Mars, Mercury, Pallas, Pluto, Quaoar, Rahu, Saturn, Sedna, Sun, Transpluto, Uranus, Venus)
 - **Antares** — horse 18 (Ceres, Chiron, Eris, Gonggong, Haumea, Juno, Jupiter, Ketu, Mars, Neptune, Orcus, Pallas, Sedna, Sun, Transpluto, Uranus, Venus, Vesta) | jockey 21 (Ceres, Chiron, Eris, Gonggong, Juno, Jupiter, Makemake, Mars, Mercury, Neptune, Orcus, Pluto, Quaoar, Rahu, Saturn, Sedna, Sun, Transpluto, Uranus, Venus, Vesta)
+- **Aldebaran** — horse 19 (Ceres, Chiron, Eris, Gonggong, Juno, Jupiter, Ketu, Makemake, Mars, Mercury, Neptune, Pallas, Pluto, Quaoar, Sedna, Transpluto, Uranus, Venus, Vesta) | jockey 20 (Ceres, Chiron, Eris, Gonggong, Haumea, Jupiter, Ketu, Makemake, Mars, Mercury, Pallas, Pluto, Quaoar, Rahu, Saturn, Sedna, Sun, Transpluto, Uranus, Venus)
 - **Spica** — horse 18 (Ceres, Chiron, Eris, Gonggong, Ketu, Makemake, Mercury, Neptune, Orcus, Pallas, Pluto, Quaoar, Rahu, Saturn, Sedna, Uranus, Venus, Vesta) | jockey 20 (Ceres, Chiron, Eris, Gonggong, Haumea, Juno, Ketu, Makemake, Mars, Neptune, Orcus, Pallas, Pluto, Quaoar, Saturn, Sedna, Transpluto, Uranus, Venus, Vesta)
 - **Algol** — horse 19 (Ceres, Chiron, Eris, Haumea, Jupiter, Ketu, Makemake, Mars, Orcus, Pallas, Pluto, Quaoar, Rahu, Saturn, Sun, Transpluto, Uranus, Venus, Vesta) | jockey 18 (Ceres, Eris, Haumea, Juno, Jupiter, Ketu, Makemake, Mars, Mercury, Neptune, Pluto, Quaoar, Rahu, Saturn, Sun, Transpluto, Uranus, Venus)
 - **Capella** — horse 16 (Ceres, Chiron, Haumea, Ketu, Makemake, Mars, Mercury, Neptune, Pallas, Pluto, Rahu, Sedna, Sun, Transpluto, Uranus, Vesta) | jockey 20 (Ceres, Chiron, Gonggong, Haumea, Jupiter, Makemake, Mars, Mercury, Neptune, Orcus, Pallas, Pluto, Quaoar, Saturn, Sedna, Sun, Transpluto, Uranus, Venus, Vesta)
@@ -194,13 +194,13 @@ Both charts at 12:00. Kept wide. Natal Moon left out. Race-day items (same-body 
 - **Castor** — horse 22 (Ceres, Chiron, Eris, Gonggong, Haumea, Juno, Jupiter, Ketu, Makemake, Mercury, Neptune, Orcus, Pallas, Pluto, Quaoar, Rahu, Sedna, Sun, Transpluto, Uranus, Venus, Vesta) | jockey 13 (Eris, Gonggong, Haumea, Jupiter, Makemake, Mars, Pluto, Quaoar, Rahu, Saturn, Sun, Uranus, Venus)
 - **Pleiades** — horse 20 (Ceres, Chiron, Eris, Gonggong, Haumea, Juno, Jupiter, Ketu, Mars, Mercury, Neptune, Orcus, Pluto, Quaoar, Rahu, Sedna, Sun, Transpluto, Uranus, Vesta) | jockey 13 (Eris, Gonggong, Jupiter, Ketu, Mars, Mercury, Orcus, Rahu, Saturn, Sedna, Transpluto, Uranus, Venus)
 - **Regulus** — horse 19 (Ceres, Chiron, Eris, Gonggong, Haumea, Juno, Ketu, Makemake, Mars, Mercury, Neptune, Orcus, Pallas, Pluto, Quaoar, Sedna, Sun, Uranus, Venus) | jockey 14 (Ceres, Chiron, Eris, Gonggong, Haumea, Juno, Ketu, Neptune, Orcus, Pallas, Pluto, Quaoar, Rahu, Sedna)
-- **Procyon** — horse 16 (Eris, Juno, Jupiter, Ketu, Makemake, Mars, Neptune, Pallas, Pluto, Saturn, Sedna, Sun, Transpluto, Uranus, Venus, Vesta) | jockey 16 (Eris, Haumea, Juno, Jupiter, Ketu, Mars, Mercury, Neptune, Pluto, Quaoar, Rahu, Sedna, Sun, Transpluto, Venus, Vesta)
-- **Bellatrix** — horse 13 (Ceres, Juno, Jupiter, Ketu, Makemake, Mars, Neptune, Pallas, Rahu, Saturn, Sedna, Transpluto, Uranus) | jockey 19 (Ceres, Chiron, Eris, Gonggong, Haumea, Jupiter, Ketu, Makemake, Mars, Neptune, Orcus, Pallas, Pluto, Quaoar, Rahu, Saturn, Sedna, Sun, Venus)
 - **Rigel** — horse 17 (Ceres, Eris, Gonggong, Haumea, Ketu, Makemake, Mars, Mercury, Orcus, Pallas, Pluto, Quaoar, Rahu, Sedna, Uranus, Venus, Vesta) | jockey 15 (Ceres, Gonggong, Juno, Jupiter, Makemake, Mars, Mercury, Orcus, Pallas, Rahu, Sedna, Sun, Transpluto, Uranus, Venus)
+- **Bellatrix** — horse 13 (Ceres, Juno, Jupiter, Ketu, Makemake, Mars, Neptune, Pallas, Rahu, Saturn, Sedna, Transpluto, Uranus) | jockey 19 (Ceres, Chiron, Eris, Gonggong, Haumea, Jupiter, Ketu, Makemake, Mars, Neptune, Orcus, Pallas, Pluto, Quaoar, Rahu, Saturn, Sedna, Sun, Venus)
+- **Procyon** — horse 16 (Eris, Juno, Jupiter, Ketu, Makemake, Mars, Neptune, Pallas, Pluto, Saturn, Sedna, Sun, Transpluto, Uranus, Venus, Vesta) | jockey 16 (Eris, Haumea, Juno, Jupiter, Ketu, Mars, Mercury, Neptune, Pluto, Quaoar, Rahu, Sedna, Sun, Transpluto, Venus, Vesta)
 - **Alphecca** — horse 16 (Ceres, Chiron, Haumea, Juno, Jupiter, Mars, Mercury, Neptune, Orcus, Pluto, Quaoar, Sedna, Sun, Transpluto, Venus, Vesta) | jockey 15 (Gonggong, Juno, Ketu, Makemake, Mars, Mercury, Orcus, Pallas, Pluto, Quaoar, Sedna, Sun, Transpluto, Uranus, Venus)
 - **Vega** — horse 17 (Ceres, Chiron, Eris, Gonggong, Haumea, Juno, Ketu, Makemake, Mars, Orcus, Pallas, Pluto, Rahu, Sun, Transpluto, Uranus, Venus) | jockey 14 (Ceres, Chiron, Jupiter, Makemake, Mercury, Orcus, Pallas, Pluto, Quaoar, Rahu, Sedna, Sun, Uranus, Venus)
-- **Algorab** — horse 15 (Ceres, Chiron, Gonggong, Haumea, Juno, Jupiter, Ketu, Makemake, Mercury, Neptune, Rahu, Sedna, Sun, Transpluto, Vesta) | jockey 15 (Ceres, Chiron, Eris, Gonggong, Jupiter, Makemake, Mercury, Orcus, Pallas, Quaoar, Saturn, Sedna, Sun, Transpluto, Uranus)
 - **Sirius** — horse 16 (Ceres, Chiron, Eris, Haumea, Juno, Makemake, Mars, Mercury, Neptune, Orcus, Pallas, Rahu, Saturn, Transpluto, Uranus, Venus) | jockey 14 (Ceres, Eris, Haumea, Juno, Ketu, Makemake, Mercury, Neptune, Orcus, Pallas, Pluto, Sedna, Sun, Vesta)
+- **Algorab** — horse 15 (Ceres, Chiron, Gonggong, Haumea, Juno, Jupiter, Ketu, Makemake, Mercury, Neptune, Rahu, Sedna, Sun, Transpluto, Vesta) | jockey 15 (Ceres, Chiron, Eris, Gonggong, Jupiter, Makemake, Mercury, Orcus, Pallas, Quaoar, Saturn, Sedna, Sun, Transpluto, Uranus)
 - **Alkaid** — horse 14 (Ceres, Chiron, Haumea, Mars, Mercury, Orcus, Pallas, Pluto, Quaoar, Rahu, Saturn, Transpluto, Uranus, Vesta) | jockey 15 (Eris, Haumea, Juno, Jupiter, Makemake, Mars, Mercury, Pallas, Pluto, Quaoar, Rahu, Saturn, Sedna, Sun, Vesta)
 - **Betelgeuse** — horse 18 (Ceres, Eris, Gonggong, Haumea, Jupiter, Makemake, Mars, Mercury, Neptune, Orcus, Pluto, Quaoar, Rahu, Saturn, Sedna, Sun, Uranus, Vesta) | jockey 11 (Eris, Gonggong, Haumea, Jupiter, Makemake, Mercury, Pluto, Saturn, Sun, Venus, Vesta)
 - **Deneb Algedi** — horse 12 (Ceres, Eris, Gonggong, Haumea, Juno, Mercury, Orcus, Pluto, Saturn, Transpluto, Uranus, Vesta) | jockey 15 (Eris, Haumea, Juno, Jupiter, Makemake, Mercury, Orcus, Pallas, Pluto, Quaoar, Saturn, Sun, Transpluto, Venus, Vesta)
@@ -235,7 +235,7 @@ Both charts at 12:00. Kept wide. Natal Moon left out. Race-day items (same-body 
 
 ## 7. Direct links between the two charts (cross.py: Dec parallels ≤0.1; numbers between every horse body and every jockey body)
 ```
-25 × 25 bodies; 2500 values; hits: φ/√2/whole/φⁿ 32 (chance ≈ 23), ninths 97 (chance ≈ 80)
+24 × 24 bodies; 2304 values; hits: φ/√2/whole/φⁿ 30 (chance ≈ 21), ninths 93 (chance ≈ 74)
 CONTRAPARALLEL P05 Ketu         -18.225  P06 Mercury      +18.135  diff 0.090
 PARALLEL       P05 Mars         -22.045  P06 Neptune      -22.099  diff 0.054
 CONTRAPARALLEL P05 Neptune       -6.392  P06 Juno          +6.358  diff 0.034
@@ -307,8 +307,6 @@ PARALLEL       P05 Rahu         +18.225  P06 Mercury      +18.135  diff 0.090
   P05 Mars        – P06 Gonggong    Flat   25.8888 = 16φ            [one fast]
   P05 Mercury     – P06 Eris        Dec    21.9981 = whole 22       [one fast]
   P05 Mercury     – P06 Makemake    Dec    23.0013 = whole 23       [one fast]
-  P05 Moon        – P06 Eris        Dec    28.9986 = whole 29       [one fast]
-  P05 Moon        – P06 Makemake    Dec    16.0009 = whole 16       [one fast]
   P05 Orcus       – P06 Pallas      RA    135.9980 = whole 136      [one fast]
   P05 Transpluto  – P06 Ceres       RA     80.6101 = 57√2           [one fast]
   P05 Transpluto  – P06 Pallas      Dec     8.0011 = whole 8        [one fast]
@@ -322,7 +320,6 @@ PARALLEL       P05 Rahu         +18.225  P06 Mercury      +18.135  diff 0.090
   P05 Eris        – P06 Vesta       RA    117.4429 = 1057/9         [one fast]
   P05 Juno        – P06 Chiron      Flat   93.8907 = 845/9          [one fast]
   P05 Juno        – P06 Transpluto  Dec    10.5541 = 95/9           [one fast]
-  P05 Ketu        – P06 Moon        RA    105.4462 = 949/9          [one fast]
   P05 Ketu        – P06 Sun         RA    176.3330 = 1587/9         [one fast]
   P05 Makemake    – P06 Pallas      Flat  179.6659 = 1617/9         [one fast]
   P05 Makemake    – P06 Venus       Sky    38.3337 = 345/9          [one fast]
@@ -335,8 +332,6 @@ PARALLEL       P05 Rahu         +18.225  P06 Mercury      +18.135  diff 0.090
   P05 Pallas      – P06 Rahu        Flat  120.8881 = 1088/9         [one fast]
   P05 Quaoar      – P06 Ceres       Dec    34.1131 = 307/9          [one fast]
   P05 Quaoar      – P06 Pallas      Sky   105.1115 = 946/9          [one fast]
-  P05 Rahu        – P06 Moon        Dec     6.4435 = 58/9           [one fast]
-  P05 Rahu        – P06 Moon        RA     74.5538 = 671/9          [one fast]
   P05 Rahu        – P06 Sun         RA      3.6670 = 33/9           [one fast]
   P05 Saturn      – P06 Pallas      Dec    25.4449 = 229/9          [one fast]
   P05 Saturn      – P06 Pallas      Sky    98.1128 = 883/9          [one fast]
@@ -366,7 +361,6 @@ PARALLEL       P05 Rahu         +18.225  P06 Mercury      +18.135  diff 0.090
   P05 Juno        – P06 Mercury     Dec    14.3350 = 129/9          [both fast]
   P05 Juno        – P06 Venus       Sky   144.4464 = 1300/9         [both fast]
   P05 Mars        – P06 Pallas      RA     72.5567 = 653/9          [both fast]
-  P05 Moon        – P06 Mars        Sky    32.6685 = 294/9          [both fast]
   P05 Sun         – P06 Mercury     RA     81.6671 = 735/9          [both fast]
   P05 Sun         – P06 Venus       Sky    96.1110 = 865/9          [both fast]
   P05 Venus       – P06 Sun         Dec     5.8888 = 53/9           [both fast]

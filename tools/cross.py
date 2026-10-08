@@ -6,7 +6,7 @@ SLOW={'Saturn','Uranus','Neptune','Pluto','Chiron','Eris','Sedna','Haumea','Make
 P={}
 for r in csv.DictReader(open(f'/home/claude/ledger/allpos/{R}__NATAL_HOURLY.csv')):
     b=r['body'].replace('_B','')
-    if r['hour']=='12' and r['dec'] and b not in stars and r['tab'] in (A,B): P.setdefault(r['tab'],{})[b]=(float(r['ra']),float(r['dec']))
+    if r['hour']=='12' and r['dec'] and b not in stars and b!='Moon' and r['tab'] in (A,B): P.setdefault(r['tab'],{})[b]=(float(r['ra']),float(r['dec']))   # natal Moon left out (8 Oct)
 phi=(1+5**.5)/2
 def ra(x,y): d=abs(x-y)%360; return min(d,360-d)
 def sky(p,q):

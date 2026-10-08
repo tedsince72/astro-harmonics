@@ -1,7 +1,6 @@
-25 × 25 bodies; 2500 values; hits: φ/√2/whole/φⁿ 12 (chance ≈ 23), ninths 83 (chance ≈ 80)
+24 × 24 bodies; 2304 values; hits: φ/√2/whole/φⁿ 10 (chance ≈ 21), ninths 75 (chance ≈ 74)
 CONTRAPARALLEL P01 Juno          -6.836  P02 Orcus         +6.770  diff 0.066
 PARALLEL       P01 Saturn       -22.353  P02 Neptune      -22.256  diff 0.096
-CONTRAPARALLEL P01 Uranus        +9.512  P02 Moon          -9.586  diff 0.075
 --- slow–slow
   P01 Pluto       – P02 Sedna       Dec    25.0020 = whole 25       [slow–slow]
   P01 Transpluto  – P02 Saturn      Dec    24.2707 = 15φ            [slow–slow]
@@ -41,10 +40,8 @@ CONTRAPARALLEL P01 Uranus        +9.512  P02 Moon          -9.586  diff 0.075
   P01 Ceres       – P02 Quaoar      Sky   100.3170 = 62φ            [one fast]
   P01 Makemake    – P02 Juno        Dec    16.1813 = 10φ            [one fast]
   P01 Mars        – P02 Jupiter     Flat   10.9989 = whole 11       [one fast]
-  P01 Moon        – P02 Orcus       Flat   97.0812 = 60φ            [one fast]
   P01 Pluto       – P02 Juno        Dec    29.9984 = whole 30       [one fast]
   P01 Saturn      – P02 Juno        Sky   131.0622 = 81φ            [one fast]
-  P01 Saturn      – P02 Moon        RA     69.2946 = 49√2           [one fast]
   P01 Uranus      – P02 Vesta       Sky   121.3507 = 75φ            [one fast]
   P01 Vesta       – P02 Haumea      Flat   89.0955 = 63√2           [one fast]
   P01 Ceres       – P02 Chiron      Dec    14.3338 = 129/9          [one fast]
@@ -53,10 +50,8 @@ CONTRAPARALLEL P01 Uranus        +9.512  P02 Moon          -9.586  diff 0.075
   P01 Chiron      – P02 Sun         Dec     6.6663 = 60/9           [one fast]
   P01 Eris        – P02 Ceres       RA     28.5556 = 257/9          [one fast]
   P01 Gonggong    – P02 Mars        Flat   91.7782 = 826/9          [one fast]
-  P01 Haumea      – P02 Moon        Flat   26.7767 = 241/9          [one fast]
   P01 Juno        – P02 Orcus       Flat  150.4425 = 1354/9         [one fast]
   P01 Juno        – P02 Uranus      RA     87.2229 = 785/9          [one fast]
-  P01 Jupiter     – P02 Moon        Flat   23.4436 = 211/9          [one fast]
   P01 Ketu        – P02 Pallas      RA     26.4464 = 238/9          [one fast]
   P01 Makemake    – P02 Pallas      Flat  148.8876 = 1340/9         [one fast]
   P01 Makemake    – P02 Sun         Flat   39.8885 = 359/9          [one fast]
@@ -65,15 +60,12 @@ CONTRAPARALLEL P01 Uranus        +9.512  P02 Moon          -9.586  diff 0.075
   P01 Mercury     – P02 Makemake    Flat  166.8898 = 1502/9         [one fast]
   P01 Mercury     – P02 Quaoar      Dec    12.2214 = 110/9          [one fast]
   P01 Mercury     – P02 Rahu        RA     59.4435 = 535/9          [one fast]
-  P01 Moon        – P02 Gonggong    RA    107.1131 = 964/9          [one fast]
-  P01 Moon        – P02 Uranus      Sky    28.4445 = 256/9          [one fast]
   P01 Neptune     – P02 Ceres       RA     68.6684 = 618/9          [one fast]
   P01 Orcus       – P02 Juno        Sky    19.5553 = 176/9          [one fast]
   P01 Orcus       – P02 Mercury     RA      1.5539 = 14/9           [one fast]
   P01 Pallas      – P02 Ketu        RA    174.3342 = 1569/9         [one fast]
   P01 Pallas      – P02 Rahu        RA      5.6658 = 51/9           [one fast]
   P01 Pluto       – P02 Juno        RA    145.1115 = 1306/9         [one fast]
-  P01 Quaoar      – P02 Moon        Sky    61.5553 = 554/9          [one fast]
   P01 Quaoar      – P02 Vesta       Sky   123.4444 = 1111/9         [one fast]
   P01 Rahu        – P02 Pallas      RA    153.5536 = 1382/9         [one fast]
   P01 Saturn      – P02 Mars        Sky    30.3330 = 273/9          [one fast]
@@ -93,9 +85,6 @@ CONTRAPARALLEL P01 Uranus        +9.512  P02 Moon          -9.586  diff 0.075
   P01 Mercury     – P02 Juno        Flat  147.2241 = 1325/9         [both fast]
   P01 Mercury     – P02 Mars        Flat  117.4446 = 1057/9         [both fast]
   P01 Mercury     – P02 Mars        Sky   112.7779 = 1015/9         [both fast]
-  P01 Moon        – P02 Mercury     Flat   68.4461 = 616/9          [both fast]
-  P01 Moon        – P02 Moon        Dec     1.5546 = 14/9           [both fast]
-  P01 Sun         – P02 Moon        Sky   135.4460 = 1219/9         [both fast]
   P01 Sun         – P02 Sun         RA    172.4430 = 1552/9         [both fast]
   P01 Venus       – P02 Ceres       RA     54.3341 = 489/9          [both fast]
   P01 Venus       – P02 Mars        Dec    22.3316 = 201/9          [both fast]
