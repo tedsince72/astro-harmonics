@@ -230,9 +230,34 @@ def field(r):
 def rank(r, tab, body):
     hold = sorted(r['hold']); i = next((k for k, h in enumerate(hold) if h[1] == tab and h[2] == body), None)
     return None if i is None else i + 1
+def pathtxt(at):
+    lab = ['off−30', 'off', 'finish', 'off+30', 'finish+30'] if len(at) == 5 else ['off−30', 'off', 'finish', 'finish+30']
+    return ' · '.join(f"{l} {pc(v)}" for l, v in zip(lab, at))
+def mirror(r, natc, a, c):
+    """the sky body and the natal body both inside the string, each nearer a different end (a reflection across the midpoint)"""
+    if not natc: return ''
+    sa, sc, base = r['d_best']
+    na, nc = (natc['dA'], natc['dB']) if natc['A'] == a else (natc['dB'], natc['dA'])
+    if max(sa, sc) > base or max(na, nc) > natc['base']: return ''
+    if (sa < sc) == (na < nc): return ''
+    off = abs(min(sa, sc) - min(na, nc)) / base * 100
+    what = 'MIRROR with natal' if off <= 1 else 'inside, nearer opposite ends'
+    return f" · {what} (sky {min(sa, sc):.3f} from {a if sa < sc else c}, natal {min(na, nc):.3f} from {a if na < nc else c}; {off:.2f}% of the base apart)"
+def exact_any(r):
+    """minute of the exact moment wherever it falls (None if beyond the search span)"""
+    return None if r['x'] is None or r['edge'] else T0 + r['x'] * 1440
+def zone_full(r):
+    te = exact_any(r)
+    if te is None: return 'exact beyond the search span'
+    if T0 - 30 <= te <= TEND: return zone(te)
+    return 'held, separating' if te < T0 - 30 else 'held, applying'
+def exact_txt(r):
+    te = exact_any(r)
+    if te is not None and T0 - 30 <= te <= TEND: return f"exact {hm(te)} ({rel(te)})"
+    return r['when']
 def timing(r):
     te = exact_min(r); at = r['at']
-    path = f"off−30 {pc(at[0])} · off {pc(at[1])} · finish {pc(at[2])} · finish+30 {pc(at[3])}"
+    path = pathtxt(at)
     if te is not None and T0 - 30 <= te <= TEND: w = f"exact {hm(te)} ({rel(te)})"
     else: w = f"tightest in the window {hm(r['tbest'])} ({rel(r['tbest'])}); {r['when']}"
     return w, path
@@ -503,7 +528,7 @@ def m2_time(r):
     return t if T0 - 30 <= t <= TEND else None
 def in_win(t): return t is not None and T0 - 30 <= t <= TEND
 def tz(t): return f"{hm(t)} ({'off' if abs(t - T0) < 0.05 else rel(t)})"
-def w_m3(r, h, tab):
+def w_m3(r, h, tab, notime=False):
     a, c = r['a'], r['c']; key = (r['mm'], frozenset((a, c)))
     nat = [x for x in NATSTR[tab].get(key, []) if x[0] == h[2]]; natc = nat[0][1] if nat else None
     sp = place(r['d_best'][0], r['d_best'][1], r['d_best'][2], a, c)
@@ -512,7 +537,7 @@ def w_m3(r, h, tab):
     hold = r['hold']; others = [x for x in STR.get(key, []) if x is not r]
     also = '; '.join(f"{x['sky']} {hm(row_time(x))}" for x in sorted(others, key=row_time))
     pn = partner_on(tab, key)
-    return (f"{tz(row_time(r))} **{r['sky']}** {r['mm']} {a}–{c} {r['typ']} {pc(r['dv'])} · natal {h[2]} {h[3]} {pc(h[0])}"
+    return (f"{'' if notime else tz(row_time(r)) + ' '}**{r['sky']}** {r['mm']} {a}–{c} {r['typ']} {pc(r['dv'])}{' (closest in the window ' + hm(r['tbest']) + ')' if notime else ''} · natal {h[2]} {h[3]} {pc(h[0])}"
             f"{' STRONG' if h[0] * 100 <= STRONG else ''} · {tags} · sky {sp}, natal {npl} · {len(hold)} bodies in {len({x[1] for x in hold})} charts, "
             f"this #{rank(r, tab, h[2])}{' (tightest)' if rank(r, tab, h[2]) == 1 else ', tightest ' + short(min(hold)[1]) + ' ' + min(hold)[2]}"
             f" · partner: {pn or 'no'}{' · also on the string: ' + also if also else ''}")
@@ -528,26 +553,51 @@ def w_m2(r, tab):
 def w_sb(x):
     return (f"{tz(x['t'])} same body: natal {x['body']} – sky {x['body']} + {x['third']} {x['mm']} {x['type']} {pc(x['dv'])} — {x['movement']}")
 def w_num(x, what): return f"{tz(x['t'])} {what} = **{x['num']}** (off {x['off']:+.4f}; within ±0.002 {hm(x['start'])}–{hm(x['end'])})"
+def m1_line(tab, b):
+    """strongest strings, numbers and figures, out of bounds / turning, partner links — one line per body"""
+    nums, stc, boc = M1[tab][b]
+    st = sorted(stc, key=lambda c: c['dev']); strong = [c for c in st if c['dev'] <= STRONG]
+    sdesc = lambda c: f"{c['meas']} {c['A']}–{c['B']} {c['ratio']} {c['dev']:.3f}%{' (all day)' if c['d0'] is not None and c['d24'] is not None and c['d0'] <= 0.15 and c['d24'] <= 0.15 else ''}"
+    parts = []
+    parts.append("strongest strings: " + ('; '.join(sdesc(c) for c in strong) if strong else (f"none ≤0.02% (tightest {sdesc(st[0])})" if st else 'none')))
+    big = [n for n in nums if '/9' not in n['lab']]; nin = [n for n in nums if '/9' in n['lab']]
+    nd = lambda n: f"{n['meas']} {'own |Dec|' if n['to'] == 'own' else n['to'] + (' ★' if n['star'] else '')} {n['lab']}{' (all day)' if 'ALL DAY' in n['when'] else ''}"
+    parts.append("numbers: " + ('; '.join(nd(n) for n in big) if big else 'no φ/√2/whole') + f"; ninths {len(nin)}" +
+                 (f" ({'; '.join(nd(n) for n in nin if 'ALL DAY' in n['when'])} all day)" if any('ALL DAY' in n['when'] for n in nin) else ''))
+    fig = sorted([c for c in boc if c['dev'] <= STRONG], key=lambda c: c['dev'])
+    parts.append("figures ≤0.02%: " + ('; '.join(f"{c['meas']} {c['A']}–{c['B']} {c['ratio']} {c['dev']:.3f}%" for c in fig) if fig else 'none'))
+    P = NATPOS[tab][b]; hs = sorted(P); ra, de = P[12]
+    steps = [((P[hs[i + 1]][0] - P[hs[i]][0] + 180) % 360) - 180 for i in range(len(hs) - 1)]
+    dsteps = [P[hs[i + 1]][1] - P[hs[i]][1] for i in range(len(hs) - 1)]
+    fl = []
+    if abs(de) > OBL: fl.append(f"OUT OF BOUNDS {abs(de) - OBL:+.2f}")
+    if steps and min(steps) < 0 < max(steps): fl.append('stationary in RA (turns in the birth day)')
+    if dsteps and min(dsteps) < 0 < max(dsteps): fl.append('Dec turns in the birth day')
+    if fl: parts.append(', '.join(fl))
+    links = [re.sub(r'\s+', ' ', ln.strip()) for ln in CROSS.get(tab, []) if re.search(rf"\b{tab} {re.escape(b)}\b", ln)]
+    parts.append("partner links: " + ('; '.join(links) if links else 'none'))
+    return ' · '.join(parts)
 def walk(tab):
     t = TABS[tab]; f = FIN.get(t['cloth'], {}); p = PAIR.get(tab); nm = re.sub(r'[^a-z0-9]+', '-', short(tab).lower()).strip('-')
     L = [f"# Walk-through — {short(tab)} ({t['role']}, {tab}) — {RACE}",
          f"Finish {f.get('finish', '?')} · SP {f.get('sp', '?')}{' · FAVOURITE' if f.get('fav') == '1' else ''} · born {t['dob']} · partner {label(p) if p else '—'}",
          f"Full record: `rr/{RACE}/records/{tab}_{nm}.md` (repo tedsince72/astro-harmonics). Off {hm(T0)}, finish {hm(T1)}; window {hm(T0 - 30)}–{hm(TEND)}; "
          "natal 12:00, no natal Moon; chords ≤0.15%; numbers ±0.002°.",
-         "Here: everything that comes exact inside the window, body by body (Method 3 sky bodies; Method 2 body-to-body and node layers; "
-         "same-body chords ≤0.05%; natal→sky numbers), then the transit Sun and the transit Moon in full, then the pair. "
+         "Here, body by body: its Method 1 line; every sky body (not the Sun or Moon) on its star strings within 0.15% at any point in the window, "
+         "with the deviation at off−30 / off / finish / off+30 / finish+30, the exact time wherever it falls and the zone; then the Method 2 body-to-body "
+         "and node layers, same-body chords ≤0.05% and natal→sky numbers that come exact in the window. Then the transit Sun, the transit Moon, the pair. "
          "Method 2's star-base layer (L1) is the same strings as Method 3 seen at the off, so it is not repeated here (it is in the record).",
          "", "## What I see"]
     nf = f'{OUT}/notes/{tab}.md'                      # my notes, kept apart so a rebuild never loses them
-    L += ([open(nf).read().rstrip()] if os.path.exists(nf) else ["_(not written yet)_"]) + ["", "## 1. Body by body — what comes exact in the window"]
+    L += ([open(nf).read().rstrip()] if os.path.exists(nf) else ["_(not written yet)_"]) + ["", "## 1. Body by body — Method 1 line, every sky hold, other items exact in the window"]
     sky_other = [b for b in BODIES if b not in ('Sun', 'Moon')]
     for b in NATAL_ORDER:
         P = NATPOS[tab].get(b, {}).get(12)
         if not P: continue
-        items = []
+        items = []; holds = []
         for r, h in m3_items(tab, b, sky_other):
-            te = exact_min(r)
-            if in_win(te): items.append((te, w_m3(r, h, tab)))
+            te = exact_any(r)
+            holds.append((te if te is not None else r['tbest'], r, h))
         for r in m2_rows(tab, body=b, exclude_sm=True):
             if r['layer'] == 'L1': continue
             tt = m2_time(r)
@@ -558,12 +608,30 @@ def walk(tab):
             if x['body'] == b and b != 'Sun': items.append((x['t'], w_num(x, f"natal {b} – sky {b} {x['mm']}")))
         hs = sorted(NATPOS[tab][b]); oob = abs(P[1]) > OBL
         flag = f" — OUT OF BOUNDS {abs(P[1]) - OBL:+.2f}" if oob else ''
-        if not items: continue
         L.append(f"\n**{b}** (RA {P[0]:.3f}, Dec {P[1]:+.3f}{flag})")
-        for tt, s in sorted(items, key=lambda x: x[0]): L.append(f"- {s}")
-    quiet = [b for b in NATAL_ORDER if NATPOS[tab].get(b, {}).get(12) and not any(
-        in_win(exact_min(r)) for r, h in m3_items(tab, b, sky_other))]
-    L.append(f"\nNo sky body (other than the Sun and Moon) comes exact in the window on these bodies' star strings (Method 3; their other items are above): {', '.join(quiet) or '—'}")
+        L.append(f"- *Method 1:* {m1_line(tab, b)}")
+        if holds:
+            L.append(f"- *Sky bodies on its star strings within 0.15% in the window ({len(holds)} holds), string by string, in order of the first exact time:*")
+            bys = collections.defaultdict(list)
+            for tt, r, h in holds: bys[(r['mm'], r['a'], r['c'])].append((tt, r, h))
+            for k in sorted(bys, key=lambda k: min(x[0] for x in bys[k])):
+                mm, a, c = k; key = (mm, frozenset((a, c))); r0, h0 = bys[k][0][1], bys[k][0][2]
+                natc = next((x[1] for x in NATSTR[tab].get(key, []) if x[0] == b), None)
+                npl = place(natc['dA'], natc['dB'], natc['base'], natc['A'], natc['B']) if natc else '?'
+                hold = r0['hold']; rk = rank(r0, tab, b)
+                L.append(f"  - **{mm} {a}–{c}** — natal {b} {h0[3]} {pc(h0[0])}{' STRONG' if h0[0] * 100 <= STRONG else ''}, {npl} · {len(hold)} bodies in "
+                         f"{len({x[1] for x in hold})} charts, this #{rk}{' (tightest)' if rk == 1 else ', tightest ' + short(min(hold)[1]) + ' ' + min(hold)[2] + ' ' + pc(min(hold)[0])}"
+                         f" · partner: {partner_on(tab, key) or 'no'}")
+                for tt, r, h in sorted(bys[k], key=lambda x: x[0]):
+                    sp = place(r['d_best'][0], r['d_best'][1], r['d_best'][2], a, c)
+                    tags = ('UNISON' if h[3] == r['typ'] else 'tuned') + (' · SAME BODY' if r['sky'] == b else '')
+                    L.append(f"    - {exact_txt(r)} — {zone_full(r)} · **{r['sky']}** {r['typ']} (closest {pc(r['dv'])} at {hm(r['tbest'])}) · {tags} · "
+                             f"sky {sp}{mirror(r, natc, a, c)} · {pathtxt(r['at'])}")
+        else: L.append("- *Sky bodies on its star strings:* none within 0.15% in the window")
+        if items:
+            L.append("- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*")
+            for tt, s_ in sorted(items, key=lambda x: x[0]): L.append(f"  - {s_}")
+
     near = lambda t: t is not None and T0 - 10 <= t <= T1 + 10
     def moon_m3_keep(r, h):
         """outside off-10..finish+10: the textures Eddie listed (8 Oct 20:34)"""
