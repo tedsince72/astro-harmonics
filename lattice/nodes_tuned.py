@@ -32,6 +32,7 @@ def chords(nodes, ends, bodies, label):
 # transit
 ENDS_T = {a: REF[a] for a in RN}
 TT = collections.defaultdict(dict)
+MALL = {}          # (base key, chord type) -> every Moon strike: (d, dev, minute)
 for t in [t0] + list((np.arange(t0 - 30, t1 + 30 + 1e-9, 0.25) if MOONWIN == 'wide' else np.arange(t0 - 2, t1 + 1e-9, 0.25))):
     nodes = {'Rahu': pos('Rahu', t), 'Ketu': pos('Ketu', t)}
     bodies = {b: pos(b, t) for b in BODIES if (b == 'Moon') == (t != t0) or (t == t0 and b != 'Moon')}
@@ -39,6 +40,7 @@ for t in [t0] + list((np.arange(t0 - 30, t1 + 30 + 1e-9, 0.25) if MOONWIN == 'wi
     for k, lst in chords(nodes, ENDS_T, bodies, 'T').items():
         for bn, d, dv, typ in lst:
             if bn not in TT[k] or dv < TT[k][bn][1]: TT[k][bn] = (d, dv, typ, t)
+            if bn == 'Moon' and ((k, typ) not in MALL or dv < MALL[(k, typ)][1]): MALL[(k, typ)] = (d, dv, t)
 NT = sum(len(v) for v in TT.values())
 print('=' * 120)
 print(f"{RACE}  off {OFF}  finish {hm(t1)}  - NODES LAYER: TRANSIT AND NATAL TUNED IN (bases with a node at one end; third point a body)")
@@ -63,7 +65,9 @@ for tab, (role, cloth, nm) in order:
         for bn, d, dv, typ in lst:
             for tb, (td, tdv, ttyp, tt) in TT[k].items():
                 pairs.append((k, bn, d, dv, typ, tb, td, tdv, ttyp, tt, lt, ln, rel))
-                DUMP.append(("Nodes", tab, k[0], k[1], k[2], bn, dv, typ, tb, tdv, ttyp))
+                if tb != 'Moon': DUMP.append(("Nodes", tab, k[0], k[1], k[2], bn, dv, typ, tb, tdv, ttyp, d[1], d[2], td[1], td[2], tt, ln, lt, rel))
+            for (mk, mty), (md, mdv, mt) in MALL.items():            # the Moon: every strike on this base
+                if mk == k: DUMP.append(("Nodes", tab, k[0], k[1], k[2], bn, dv, typ, 'Moon', mdv, mty, d[1], d[2], md[1], md[2], mt, ln, lt, rel))
     summ.append((f, role, nm, pairs))
     print('\n' + '-' * 120)
     un = sum(1 for p in pairs if p[4] == p[8]); sb = sum(1 for p in pairs if p[1] == p[5])
@@ -103,5 +107,27 @@ for f, role, nm, pairs in summ:
           f"{sum(1 for p in pairs if not p[12].startswith('ratio')):4d} {sum(1 for p in pairs if max(p[3], p[7]) <= 0.0002):4d}")
 import csv as _csv
 with open(f"/home/claude/lattice/dump/{RACE}_Nodes.csv", "w", newline="") as _f:
-    _w = _csv.writer(_f); _w.writerow(["layer", "tab", "mm", "x", "e", "natal_body", "natal_dev", "natal_type", "transit_body", "transit_dev", "transit_type"])
-    for r in DUMP: _w.writerow(r)
+    # extra columns (8 Oct): third body–node | –end on each side, minute held (Moon) or the off (slow), base lengths and relation, exact time
+    def _node_when(k, tb):     # the same search as the printed list above
+        global LOCKT
+        mm, nn, en = k; P0 = pos(tb, t0); N0 = TN0[nn]; E0 = (TN0[en] if en in TN0 else ENDS_T[en])
+        span = SPAN.get(tb, 60); best = (9, None); LOCKT = lockT(N0, E0, P0, mm)
+        for dd_ in np.arange(-span, span + 1e-9, span / 1500):
+            Ed = moved(E0, en, dd_) if en in TN0 else E0
+            r = tri(moved(N0, nn, dd_), Ed, moved(P0, tb, dd_), mm)
+            if r and r[1] < best[0]: best = (r[1], dd_)
+        if best[1] is not None:
+            for dd_ in np.arange(best[1] - span / 750, best[1] + span / 750, span / 300000):
+                Ed = moved(E0, en, dd_) if en in TN0 else E0
+                r = tri(moved(N0, nn, dd_), Ed, moved(P0, tb, dd_), mm)
+                if r and r[1] < best[0]: best = (r[1], dd_)
+        LOCKT = None
+        return when(best[1], best[1] is not None and abs(abs(best[1]) - span) < span / 1500, tb)
+    _w = _csv.writer(_f); _w.writerow(["layer", "tab", "mm", "x", "e", "natal_body", "natal_dev", "natal_type", "transit_body", "transit_dev", "transit_type",
+                                       "natal_dx", "natal_de", "transit_dx", "transit_de", "transit_t", "natal_base", "transit_base", "lengths", "transit_when"])
+    _WT = {}
+    for r in DUMP:
+        k, tb, tt = (r[2], r[3], r[4]), r[8], r[15]
+        if tb == 'Moon': _w.writerow(list(r) + [f"Moon held at {hm(tt)} ({tt - t0:+.2f})"]); continue     # per strike, never cached
+        if (k, tb) not in _WT: _WT[(k, tb)] = _node_when(k, tb)
+        _w.writerow(list(r) + [_WT[(k, tb)]])

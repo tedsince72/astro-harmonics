@@ -40,6 +40,8 @@ def when(x, edge, b):
 PAIRS = list(itertools.combinations(RN, 2))
 # transit chords
 TT = collections.defaultdict(list)
+MALL = {}                                  # (base key, chord type) -> the Moon's best strike of that type (d, dev, minute)
+TTT = {}                                   # (base key, transit body) -> minute the transit chord is tightest (the off for slow bodies)
 for b in BODIES:
     times = list((np.arange(t0 - 30, t1 + 30 + 1e-9, 0.25) if MOONWIN == 'wide' else np.arange(t0 - 2, t1 + 1e-9, 0.25))) if b == 'Moon' else [t0]
     seen = {}
@@ -50,7 +52,10 @@ for b in BODIES:
                 r = tri(P, REF[a], REF[c], mm)
                 if r and r[1] <= 0.0015:
                     k = (mm, a, c)
-                    if k not in seen or r[1] < seen[k][1]: seen[k] = (r[0], r[1], ctype(r[0]))
+                    if k not in seen or r[1] < seen[k][1]: seen[k] = (r[0], r[1], ctype(r[0])); TTT[(k, b)] = t
+                    if b == 'Moon':
+                        ty_ = ctype(r[0])
+                        if (k, ty_) not in MALL or r[1] < MALL[(k, ty_)][1]: MALL[(k, ty_)] = (r[0], r[1], t)
     for k, (d, dv, typ) in seen.items(): TT[k].append((b, d, dv, typ))
 print(f"transit chords: {sum(len(v) for v in TT.values())} on {len(TT)} bases", file=sys.stderr)
 # natal chords
@@ -89,7 +94,8 @@ for tab, (role, cloth, nm) in order:
     for k, nb, d, dv, typ in NN[tab]:
         for tb, td, tdv, ttyp in TT[k]:
             pairs.append((k, nb, d, dv, typ, tb, td, tdv, ttyp))
-            DUMP.append(("L1", tab, k[0], k[1], k[2], nb, dv, typ, tb, tdv, ttyp))
+            DUMP.append(("L1", tab, k[0], k[1], k[2], nb, dv, typ, tb, tdv, ttyp, d[0], d[1], td[0], td[1],
+                         TTT[(k, tb)], d[2], td[2]))
     un = [p for p in pairs if p[4] == p[8]]; sb = [p for p in pairs if p[1] == p[5]]
     tight = [p for p in pairs if max(p[3], p[7]) <= 0.0002]
     summ.append((f, role, nm, len(pairs), len(un), len(sb), len(tight)))
@@ -112,5 +118,17 @@ print("SUMMARY  finish  chart  SP  tuned pairs / UNISON / same body / both withi
 for f, role, nm, n, u, s_, t in summ: print(f"   [{f[0]}] {role:6s} {nm:24s} {f[1]:>5s}   {n:4d} {u:4d} {s_:4d} {t:4d}")
 import csv as _csv
 with open(f"/home/claude/lattice/dump/{RACE}_L1.csv", "w", newline="") as _f:
-    _w = _csv.writer(_f); _w.writerow(["layer", "tab", "mm", "x", "e", "natal_body", "natal_dev", "natal_type", "transit_body", "transit_dev", "transit_type"])
-    for r in DUMP: _w.writerow(r)
+    # extra columns (8 Oct): natal body–x | –e, transit body–x | –e, minute held (Moon) or the off (slow), natal base, transit base, exact time
+    _w = _csv.writer(_f); _w.writerow(["layer", "tab", "mm", "x", "e", "natal_body", "natal_dev", "natal_type", "transit_body", "transit_dev", "transit_type",
+                                       "natal_dx", "natal_de", "transit_dx", "transit_de", "transit_t", "natal_base", "transit_base", "transit_when"])
+    for r in DUMP:
+        tb, k = r[8], (r[2], r[3], r[4])
+        if tb == 'Moon': continue                      # the Moon is written below, every strike
+        _w.writerow(list(r) + [when(*ex(tb, k)[:1], ex(tb, k)[2], tb)])
+    MIDX = collections.defaultdict(list)
+    for (k, ty_), v in MALL.items(): MIDX[k].append((ty_, v))
+    for tab, (role, cloth, nm) in order:
+        for k, nb, d, dv, typ in NN[tab]:
+            for ty_, (td, tdv, tt) in sorted(MIDX.get(k, []), key=lambda x: x[1][2]):
+                _w.writerow(["L1", tab, k[0], k[1], k[2], nb, dv, typ, 'Moon', tdv, ty_, d[0], d[1], td[0], td[1], tt, d[2], td[2],
+                             f"Moon held at {hm(tt)} ({tt - t0:+.2f})"])
