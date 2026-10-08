@@ -578,6 +578,10 @@ def m1_line(tab, b):
     if abs(de) > OBL: fl.append(f"OUT OF BOUNDS {abs(de) - OBL:+.2f}")
     if steps and min(steps) < 0 < max(steps): fl.append('stationary in RA (turns in the birth day)')
     if dsteps and min(dsteps) < 0 < max(dsteps): fl.append('Dec turns in the birth day')
+    if b in ('Mercury', 'Venus', 'Mars', 'Jupiter', 'Ceres', 'Pallas', 'Juno', 'Vesta'):    # near a station (as the §77 out-of-bounds / station check)
+        dra = ((P[hs[-1]][0] - P[hs[0]][0] + 180) % 360) - 180; dde = P[hs[-1]][1] - P[hs[0]][1]
+        slow = [f"RA {dra:+.3f}°/d" if abs(dra) < 0.05 else '', f"Dec {dde:+.3f}°/d" if abs(dde) < 0.03 else '']
+        if any(slow): fl.append('near-stationary (' + ', '.join(x for x in slow if x) + ')')
     if fl: parts.append(', '.join(fl))
     links = [re.sub(r'\s+', ' ', ln.strip()) for ln in CROSS.get(tab, []) if re.search(rf"\b{tab} {re.escape(b)}\b", ln)]
     parts.append("partner links: " + ('; '.join(links) if links else 'none'))
