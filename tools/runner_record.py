@@ -143,10 +143,15 @@ for b in BODIES:
     J = json.load(open(f'{OUT}/m3/{b}.json'))
     for r in J['rows']: r['sky'] = b
     M3[b] = J
+EXACT_TOL = 0.00005      # 'exact' only when the leftover deviation at that moment is <=0.005% (8 Oct)
+def truly_exact(r): return r['x'] is not None and not r['edge'] and (r.get('xdv') is None or r['xdv'] <= EXACT_TOL)
 def exact_min(r):
-    """the moment the chord is exact (minutes of the race day) if it falls within the +-span searched, else None"""
-    if r['x'] is None or r['edge']: return None
+    """the moment the chord is exact (minutes of the race day), None if it does not come exact within the span searched"""
+    if not truly_exact(r): return None
     return T0 + r['x'] * 1440
+def closest_min(r):
+    """the exact moment, or for a chord that never comes exact its closest moment (from the same search)"""
+    return None if r['x'] is None or r['edge'] else T0 + r['x'] * 1440
 def row_time(r):
     """the time that places the chord: its exact moment when that lies in the window, else the tightest moment in the window"""
     te = exact_min(r)
@@ -244,11 +249,11 @@ def mirror(r, natc, a, c):
     what = 'MIRROR with natal' if off <= 1 else 'inside, nearer opposite ends'
     return f" · {what} (sky {min(sa, sc):.3f} from {a if sa < sc else c}, natal {min(na, nc):.3f} from {a if na < nc else c}; {off:.2f}% of the base apart)"
 def exact_any(r):
-    """minute of the exact moment wherever it falls (None if beyond the search span)"""
-    return None if r['x'] is None or r['edge'] else T0 + r['x'] * 1440
+    """minute of the exact moment wherever it falls (None if beyond the search span or never exact)"""
+    return T0 + r['x'] * 1440 if truly_exact(r) else None
 def zone_full(r):
     te = exact_any(r)
-    if te is None: return 'exact beyond the search span'
+    if te is None: return 'does not come exact' if (r['x'] is not None and not r['edge']) else 'exact beyond the search span'
     if T0 - 30 <= te <= TEND: return zone(te)
     return 'held, separating' if te < T0 - 30 else 'held, applying'
 def exact_txt(r):
@@ -589,14 +594,24 @@ def walk(tab):
          "Method 2's star-base layer (L1) is the same strings as Method 3 seen at the off, so it is not repeated here (it is in the record).",
          "", "## What I see"]
     nf = f'{OUT}/notes/{tab}.md'                      # my notes, kept apart so a rebuild never loses them
-    L += ([open(nf).read().rstrip()] if os.path.exists(nf) else ["_(not written yet)_"]) + ["", "## 1. Body by body — Method 1 line, every sky hold, other items exact in the window"]
+    L += ([open(nf).read().rstrip()] if os.path.exists(nf) else ["_(not written yet)_"])
+    ch = []
+    for b_ in NATAL_ORDER:
+        for r, h in m3_items(tab, b_, BODIES):
+            if str(r['when']).startswith('closest'): ch.append(f"{b_}: sky {r['sky']} {r['mm']} {r['a']}–{r['c']} {r['typ']} — {r['when']}")
+    for r in M2:
+        if r['tab'] == tab and str(r['transit_when']).startswith('closest'):
+            ch.append(f"{r['natal_body']}: {r['layer']} {r['transit_body']} on {r['mm']} {r['x']}–{r['e']} {r['transit_type']} — {r['transit_when']}")
+    L += ["", f"## Exact → closest (8 Oct check: 'exact' only when the deviation at that moment is ≤0.005%) — {len(ch)} items on this chart that earlier builds called exact"]
+    L += [f"- {x}" for x in sorted(set(ch))] or ["- (none)"]
+    L += ["", "## 1. Body by body — Method 1 line, every sky hold, other items exact in the window"]
     sky_other = [b for b in BODIES if b not in ('Sun', 'Moon')]
     for b in NATAL_ORDER:
         P = NATPOS[tab].get(b, {}).get(12)
         if not P: continue
         items = []; holds = []
         for r, h in m3_items(tab, b, sky_other):
-            te = exact_any(r)
+            te = closest_min(r)
             holds.append((te if te is not None else r['tbest'], r, h))
         for r in m2_rows(tab, body=b, exclude_sm=True):
             if r['layer'] == 'L1': continue

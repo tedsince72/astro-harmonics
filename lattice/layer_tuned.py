@@ -74,7 +74,7 @@ def when_transit(k, tb):
             r = tri(Q[x], Q[e] if e in Q else ENDS_T[e], Q[tb], mm)
             if r and r[1] < best[0]: best = (r[1], dd_)
     LOCKT = None
-    return when(best[1], best[1] is not None and abs(abs(best[1]) - span) < step, movers[0] if span == 60 else min(movers, key=lambda n: SPAN.get(n, 60)))
+    return when_dv(best[1], best[1] is not None and abs(abs(best[1]) - span) < step, movers[0] if span == 60 else min(movers, key=lambda n: SPAN.get(n, 60)), best[0])
 NAMEC = {}
 ALL = []
 DUMP = []

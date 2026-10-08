@@ -43,6 +43,12 @@ def when(x, edge, b):
         tt = t0 + mins; dd = int(tt // 1440); tt -= dd * 1440
         return f"exact {abs(x)*24:.1f} h {'after' if x > 0 else 'before'} the off ({(_dt.date(int(RACE[:4]),int(RACE[4:6]),int(RACE[6:8]))+_dt.timedelta(days=dd)).strftime('%-d %b')} {hm(tt)})"
     return f"exact in {x:.1f} d (applying)" if x > 0 else f"exact {-x:.1f} d ago (separating)"
+EXACT_TOL = 0.00005     # 8 Oct (Eddie): "exact" only when the leftover deviation at that moment is <=0.005%
+def when_dv(x, edge, b, dv):
+    """when(), but checked: 'exact T' only if the chord's deviation at T is <=0.005%, else 'closest X% at T, does not come exact'"""
+    w = when(x, edge, b)
+    if not w or dv is None or dv <= EXACT_TOL: return w
+    return f"closest {dv*100:.3f}% at {w[6:] if w.startswith('exact ') else w}, does not come exact"
 PAIRS = list(itertools.combinations(RN, 2))
 # transit chords
 TT = collections.defaultdict(list)
@@ -130,7 +136,8 @@ with open(f"/home/claude/lattice/dump/{RACE}_L1.csv", "w", newline="") as _f:
     for r in DUMP:
         tb, k = r[8], (r[2], r[3], r[4])
         if tb == 'Moon': continue                      # the Moon is written below, every strike
-        _w.writerow(list(r) + [when(*ex(tb, k)[:1], ex(tb, k)[2], tb)])
+        x_, dv_, ed_ = ex(tb, k)
+        _w.writerow(list(r) + [when_dv(x_, ed_, tb, dv_)])
     MIDX = collections.defaultdict(list)
     for (k, ty_), v in MALL.items(): MIDX[k].append((ty_, v))
     for tab, (role, cloth, nm) in order:

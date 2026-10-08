@@ -126,7 +126,7 @@ Reading the lines: **string** = the two base points and the measure; *path* = th
       also tuned: Suntory Star Orcus φ: 2/φ/φ³/φ³+1 0.046%; Stephen Mulqueen Juno 1:1:2 0.094%; James Davies Mars 1:8:9 0.099%; Conor O'Farrell Quaoar 1:5:6 0.114%; Conor O'Farrell Mars 1:√2:1+√2 0.138%; Olympe De Gouges Orcus φ: 2/φ/φ³/φ³+1 0.147%
   - **L1 Dec Alphecca–Deneb Algedi** — natal Sun φ: 2−1/φ/φ²/φ√5 0.140% [31.014 | 11.830] · transit **Neptune** 2:5:7 0.136% [30.612 | 12.228] exact 19.2 h after the off (19 Mar 9:53:32) · base natal 42.844 / transit 42.841 · tuned · tuned with it: 4
       also tuned: Stephen Mulqueen Jupiter φ: 2−1/φ/φ²/φ√5 0.069%; David Noonan Ceres 2:3:5 0.103%; Poetria Pluto 1:8:9 0.133%
-  - **Nodes Sky Ketu–Regulus** — natal Sun 1:3:4 0.090% [164.219 | 41.027] · transit **Vesta** 5:6:11 0.029% [69.828 | 153.589] exact 39.7 min before the off (14:00:56) · base natal 123.193 / transit 83.770 ratio 1.471 · tuned · tuned with it: 2
+  - **Nodes Sky Ketu–Regulus** — natal Sun 1:3:4 0.090% [164.219 | 41.027] · transit **Vesta** 5:6:11 0.029% [69.828 | 153.589] closest 0.006% at 39.7 min before the off (14:00:56), does not come exact · base natal 123.193 / transit 83.770 ratio 1.471 · tuned · tuned with it: 2
       also tuned: Olympe De Gouges Jupiter 1:1:2 0.056%
   - **L2 Dec Transpluto–Alphecca** — natal Sun 3:4:7 0.070% [17.728 | 31.014] · transit **Saturn** φ: φ/φ² 0.060% [26.111 | 42.258] exact 16.1 h before the off (17 Mar 22:33:52) · base natal 13.286 / transit 16.147 ratio 1.215 · tuned · tuned with it: 8
       also tuned: Suntory Star Juno 4:5:9 0.021%; Stephen Mulqueen Mercury 3:5:8 0.063%; Poetria Rahu 5:8:13 0.085%; David Noonan Venus φ: φ/φ² U 0.092%; David Noonan Uranus φ: 2−1/φ/φ²/φ√5 0.094%; Oot Ma Way Rahu 5:6:11 0.141%; Poetria Mercury 1:2:3 0.150%
@@ -1163,7 +1163,7 @@ Reading the lines: **string** = the two base points and the measure; *path* = th
       path off−30 0.084% · off 0.089% · finish 0.090% · finish+30 0.095% | sky beyond the Alkaid end [Venus–Alkaid 64.599 | –Polaris 104.557 | base 39.958] · natal beyond the Alkaid end → same place | field: 9 natal bodies in 6 charts (UNISON 2); tightest Suntory Star Jupiter 0.032%; this body #9
     - all sky bodies on this string in the window: Neptune 3:4:7 0.122% 14:10:41; Quaoar φ: φ/φ² 0.042% 14:10:41; Venus φ: φ/φ² 0.084% 14:10:41
   - **Flat Altair–Bellatrix** — natal Chiron 1:√2:2 0.129% [natal Chiron–Altair 116.155 | –Bellatrix 101.505]; Method 1 1:√2:2 0.129%; partner on it: no
-    - sky **Chiron** 1:1:2 0.150% — tightest in the window 14:10:41 (off−30.0m); exact 1.0 d ago (separating); tuned · SAME BODY
+    - sky **Chiron** 1:1:2 0.150% — tightest in the window 14:10:41 (off−30.0m); closest 0.018% at 1.0 d ago (separating), does not come exact; tuned · SAME BODY
       path off−30 0.150% · off 0.153% · finish 0.153% · finish+30 0.156% | sky at the MIDPOINT [Chiron–Altair 71.870 | –Bellatrix 71.763 | base 143.608] · natal INSIDE (nearer Bellatrix) → one inside, one beyond | field: 1 natal bodies in 1 charts (UNISON 0); tightest David Noonan Chiron 0.129%; this body #1
     - all sky bodies on this string in the window: Chiron 1:1:2 0.150% 14:10:41
   - **Dec Algorab–Spica** — natal Chiron 3:4:7 0.100% [natal Chiron–Algorab 12.499 | –Spica 7.145]; Method 1 3:4:7 0.100%; partner on it: Mercury 3:5:8 0.118%
@@ -1179,7 +1179,7 @@ Reading the lines: **string** = the two base points and the measure; *path* = th
       path off−30 0.088% · off 0.098% · finish 0.099% · finish+30 0.108% | sky beyond the Alphecca end [Juno–Alphecca 83.793 | –Arcturus 103.556 | base 19.763] · natal beyond the Arcturus end → opposite ends (mirror) | field: 9 natal bodies in 7 charts (UNISON 0); tightest Oot Ma Way Jupiter 0.051%; this body #9
     - all sky bodies on this string in the window: Juno φ: 2/φ/φ³/φ³+1 0.088% 14:10:41
   - **RA Alphecca–Castor** — natal Chiron 3:4:7 0.095% [natal Chiron–Alphecca 51.409 | –Castor 68.610]; Method 1 3:4:7 0.095%; partner on it: Sun 4:5:6 0.063%; Mercury 4:5:6 0.063%; Vesta 1:6:7 0.100%
-    - sky **Vesta** 3:5:7 0.032% — tightest in the window 14:10:41 (off−30.0m); exact 32.3 min before the off (14:08:23); tuned
+    - sky **Vesta** 3:5:7 0.032% — tightest in the window 14:10:41 (off−30.0m); closest 0.031% at 32.3 min before the off (14:08:23), does not come exact; tuned
       path off−30 0.032% · off 0.038% · finish 0.039% · finish+30 0.045% | sky beyond the Alphecca end [Vesta–Alphecca 71.993 | –Castor 167.982 | base 120.025] · natal INSIDE (nearer Alphecca) → one inside, one beyond | field: 9 natal bodies in 6 charts (UNISON 0); tightest Suntory Star Ceres 0.056%; this body #7
     - all sky bodies on this string in the window: Vesta 3:5:7 0.032% 14:10:41
   - **Dec Antares–Castor** — natal Chiron 5:8:13 0.091% [natal Chiron–Antares 22.418 | –Castor 35.901]; Method 1 5:8:13 0.091%; partner on it: no
@@ -1229,7 +1229,7 @@ Reading the lines: **string** = the two base points and the measure; *path* = th
       also tuned: James Davies Ceres 3:5:8 0.006%; Stephen Mulqueen Saturn φ: 2/φ/φ³/φ³+1 U 0.006%; Conor O'Farrell Pluto 4:5:9 0.008%; Jamie Hamilton Vesta 3:5:8 0.024%; David Noonan Pallas 3:4:7 0.031%; Poetria Sedna 1:√2:1+√2 0.138%
   - **L1 Dec Equator–Pleiades** — natal Chiron 1:6:7 0.095% [4.014 | 28.120] · transit **Uranus** 3:5:8 0.066% [15.062 | 9.043] exact 6.3 h after the off (18 Mar 20:57:40) · base natal 24.106 / transit 24.105 · tuned · tuned with it: 8
       also tuned: James Davies Mercury 3:8:11 0.013%; Suntory Star Uranus 5:8:13 0.035%; Poetria Venus 3:5:8 U 0.057%; Oot Ma Way Uranus 5:6:11 0.081%; Suntory Star Transpluto 5:6:11 0.090%; James Davies Quaoar 1:2:3 0.094%; David Noonan Venus 1:3:4 0.138%
-  - **L1 RA Alphecca–Castor** — natal Chiron 3:4:7 0.095% [51.409 | 68.610] · transit **Vesta** 3:5:7 0.038% [72.004 | 167.971] exact 32.3 min before the off (14:08:23) · base natal 120.019 / transit 120.025 · tuned · tuned with it: 9
+  - **L1 RA Alphecca–Castor** — natal Chiron 3:4:7 0.095% [51.409 | 68.610] · transit **Vesta** 3:5:7 0.038% [72.004 | 167.971] closest 0.031% at 32.3 min before the off (14:08:23), does not come exact · base natal 120.019 / transit 120.025 · tuned · tuned with it: 9
       also tuned: Suntory Star Ceres 1:5:6 0.056%; Suntory Star Uranus 3:4:5 0.061%; Olympe De Gouges Sun 4:5:6 0.063%; Olympe De Gouges Mercury 4:5:6 0.063%; Poetria Saturn φ: 2−1/φ/φ²/φ√5 0.064%; James Davies Jupiter 1:3:4 0.077%; Olympe De Gouges Vesta 1:6:7 0.100%; Oot Ma Way Venus 1:5:6 0.146%
   - **L1 Dec Algorab–Spica** — natal Chiron 3:4:7 0.100% [12.499 | 7.145] · transit **Haumea** 1:5:6 0.008% [32.131 | 26.776] exact 5.0 h before the off (18 Mar 9:40:52) · base natal 5.354 / transit 5.355 · tuned · tuned with it: 7
       also tuned: Poetria Chiron φ: 2−1/φ/φ²/φ√5 0.020%; Jamie Hamilton Neptune 4:5:9 0.031%; Conor O'Farrell Gonggong 1:√2:1+√2 0.057%; David Noonan Ketu 1:4:5 0.072%; Conor O'Farrell Quaoar 1:2:3 0.089%; Olympe De Gouges Mercury 3:5:8 0.118%
@@ -1745,7 +1745,7 @@ Reading the lines: **string** = the two base points and the measure; *path* = th
       also tuned: Jamie Hamilton Makemake φ: φ/φ² 0.028%; Poetria Eris 4:5:9 0.067%; Olympe De Gouges Quaoar φ: 2−1/φ/φ²/φ√5 0.122%
   - **L2 RA Transpluto–Sirius** — natal Vesta 3:5:8 0.028% [27.183 | 72.474] · transit **Eris** 1:√2:1+√2 0.124% [128.428 | 75.193] exact in 32.5 d (applying) · base natal 45.292 / transit 53.235 ratio 1.175 · tuned · tightest of 2
       also tuned: Conor O'Farrell Pallas 1:2:3 0.084%
-  - **L2 RA Pluto–Haumea** — natal Vesta 2:5:7 0.127% [65.614 | 18.764] · transit **Rahu** 3:4:6 0.123% [110.862 | 166.094] exact 12.5 h after the off (19 Mar 3:12:39) · base natal 46.850 / transit 83.044 ratio 1.773 · tuned · tuned with it: 9
+  - **L2 RA Pluto–Haumea** — natal Vesta 2:5:7 0.127% [65.614 | 18.764] · transit **Rahu** 3:4:6 0.123% [110.862 | 166.094] closest 0.024% at 12.5 h after the off (19 Mar 3:12:39), does not come exact · base natal 46.850 / transit 83.044 ratio 1.773 · tuned · tuned with it: 9
       also tuned: Stephen Mulqueen Transpluto 1:1:2 0.006%; Jamie Hamilton Makemake φ: 2−1/φ/φ²/φ√5 0.037%; Stephen Mulqueen Sun 1:2:3 0.053%; James Davies Quaoar 3:8:11 0.096%; Jamie Hamilton Neptune 5:6:11 0.111%; Stephen Mulqueen Neptune 5:6:11 0.136%; Suntory Star Saturn φ: 2/φ/φ³/φ³+1 0.138%; Jamie Hamilton Jupiter 3:4:7 0.140%
   - **L2 RA Pluto–Haumea** — natal Vesta 2:5:7 0.127% [65.614 | 18.764] · transit **Chiron** 5:6:11 0.058% [69.163 | 152.207] exact in 8.4 d (applying) · base natal 46.850 / transit 83.044 ratio 1.773 · tuned · tuned with it: 9
       also tuned: Stephen Mulqueen Transpluto 1:1:2 0.006%; Jamie Hamilton Makemake φ: 2−1/φ/φ²/φ√5 0.037%; Stephen Mulqueen Sun 1:2:3 0.053%; James Davies Quaoar 3:8:11 0.096%; Jamie Hamilton Neptune 5:6:11 U 0.111%; Stephen Mulqueen Neptune 5:6:11 U 0.136%; Suntory Star Saturn φ: 2/φ/φ³/φ³+1 0.138%; Jamie Hamilton Jupiter 3:4:7 0.140%
@@ -2225,7 +2225,7 @@ Reading the lines: **string** = the two base points and the measure; *path* = th
       also tuned: Jamie Hamilton Transpluto 1:√2:1+√2 0.024%; Oot Ma Way Neptune 3:5:8 0.119%; Fiamette Mars 1:5:6 0.142%
   - **L2 Dec Transpluto–Spica** — natal Makemake 4:5:9 0.116% [19.650 | 44.241] · transit **Jupiter** 1:3:4 0.047% [16.293 | 5.433] exact 29.7 min before the off (14:11:01) · base natal 24.591 / transit 21.726 ratio 1.132 · tuned · tuned with it: 9
       also tuned: Conor O'Farrell Makemake 5:6:11 0.005%; Oot Ma Way Ceres 2:3:5 0.014%; David Noonan Neptune 2:5:7 0.059%; Fiamette Rahu 1:4:5 0.073%; Oot Ma Way Saturn 1:2:3 0.095%; Stephen Mulqueen Sedna 5:8:13 0.095%; Oot Ma Way Makemake φ: φ/φ² 0.106%; Fiamette Eris 2:3:5 0.126%
-  - **L2 RA Haumea–Rahu** — natal Makemake 1:√2:1+√2 0.116% [17.205 | 29.384] · transit **Pluto** 3:4:6 0.123% [83.044 | 110.862] exact 12.5 h after the off (19 Mar 3:12:39) · base natal 12.180 / transit 166.094 ratio 13.637 · tuned · tuned with it: 7
+  - **L2 RA Haumea–Rahu** — natal Makemake 1:√2:1+√2 0.116% [17.205 | 29.384] · transit **Pluto** 3:4:6 0.123% [83.044 | 110.862] closest 0.024% at 12.5 h after the off (19 Mar 3:12:39), does not come exact · base natal 12.180 / transit 166.094 ratio 13.637 · tuned · tuned with it: 7
       also tuned: Olympe De Gouges Quaoar 3:4:7 0.050%; Suntory Star Quaoar 3:4:7 0.056%; Poetria Sedna 1:1:2 0.083%; Fiamette Saturn 5:6:11 0.087%; Oot Ma Way Transpluto 3:8:11 0.106%; Stephen Mulqueen Uranus 1:2:3 0.133%
   - **L2 RA Transpluto–Ketu** — natal Makemake φ: 2/φ/φ³/φ³+1 0.101% [28.742 | 150.616] · transit **Saturn** 5:6:11 0.147% [168.602 | 91.903] exact 7.9 h after the off (18 Mar 22:34:27) · base natal 121.874 / transit 76.699 ratio 1.589 · tuned · tuned with it: 4
       also tuned: Conor O'Farrell Makemake φ: 2/φ/φ³/φ³+1 0.073%; Stephen Mulqueen Gonggong φ: φ/φ² 0.110%; David Noonan Ceres 2:5:7 0.126%
@@ -2445,7 +2445,7 @@ Reading the lines: **string** = the two base points and the measure; *path* = th
       also tuned: Conor O'Farrell Quaoar 3:8:11 0.080%; Conor O'Farrell Orcus 3:5:8 0.104%; Conor O'Farrell Sedna φ: φ/φ² 0.134%; Fiamette Juno 5:6:11 0.148%
   - **L2 Dec Neptune–Castor** — natal Orcus 1:√2:1+√2 0.080% [21.892 | 30.985] · transit **Haumea** 5:6:11 0.074% [19.515 | 16.275] exact in 2.0 d (applying) · base natal 52.878 / transit 35.790 ratio 1.477 · tuned · tuned with it: 4
       also tuned: Suntory Star Jupiter 1:4:5 0.023%; Conor O'Farrell Pluto 2:3:5 0.071%; Poetria Haumea 5:8:13 0.125%
-  - **L2 RA Pluto–Rahu** — natal Orcus 1:2:3 0.038% [104.037 | 69.367] · transit **Haumea** 3:4:6 0.123% [83.044 | 166.094] exact 12.5 h after the off (19 Mar 3:12:39) · base natal 34.670 / transit 110.862 ratio 3.198 · tuned · tuned with it: 4
+  - **L2 RA Pluto–Rahu** — natal Orcus 1:2:3 0.038% [104.037 | 69.367] · transit **Haumea** 3:4:6 0.123% [83.044 | 166.094] closest 0.024% at 12.5 h after the off (19 Mar 3:12:39), does not come exact · base natal 34.670 / transit 110.862 ratio 3.198 · tuned · tuned with it: 4
       also tuned: Suntory Star Mars 1:3:4 0.011%; Fiamette Vesta 1:4:5 0.043%; James Davies Mercury 5:8:13 0.052%
   - **L2 RA Neptune–Spica** — natal Orcus 1:√2:1+√2 0.011% [159.217 | 65.954] · transit **Pallas** 1:7:8 0.139% [21.755 | 174.248] exact 2.1 h after the off (18 Mar 16:47:07) · base natal 93.263 / transit 152.494 ratio 1.635 · tuned · tightest of 6
       also tuned: James Davies Vesta 3:4:7 0.055%; Conor O'Farrell Uranus 1:8:9 0.117%; Fiamette Vesta 1:√2:1+√2 0.118%; Oot Ma Way Vesta 1:1:2 0.119%; Jamie Hamilton Transpluto 3:5:8 0.128%
@@ -2879,7 +2879,7 @@ Reading the lines: **string** = the two base points and the measure; *path* = th
       also tuned: Oot Ma Way Pluto 1:6:7 0.023%; Poetria Eris 3:4:7 0.043%; Fiamette Neptune 3:8:11 0.057%; David Noonan Vesta φ: 2−1/φ/φ²/φ√5 0.075%; Fiamette Makemake 1:4:5 0.092%; Conor O'Farrell Haumea 1:5:6 0.118%; Olympe De Gouges Pluto 1:6:7 0.148%
   - **L2 Dec Chiron–Spica** — natal Ketu 1:2:3 0.041% [14.285 | 21.430] · transit **Eris** 3:4:7 0.044% [7.461 | 9.952] exact 6.2 h after the off (18 Mar 20:55:22) · base natal 7.145 / transit 17.413 ratio 2.437 · tuned · tightest of 8
       also tuned: Suntory Star Venus 1:5:6 0.046%; Olympe De Gouges Neptune 2:5:7 0.066%; Fiamette Sun 1:√2:1+√2 0.069%; Conor O'Farrell Makemake 2:3:5 0.098%; Conor O'Farrell Sedna 5:6:11 0.106%; Fiamette Quaoar 1:3:4 0.109%; Jamie Hamilton Uranus 5:8:13 0.144%
-  - **L2 RA Haumea–Betelgeuse** — natal Ketu φ: φ/φ² 0.033% [167.820 | 64.088] · transit **Mercury** 4:5:5 0.075% [128.616 | 102.864] exact 14.3 min before the off (14:26:21) · base natal 103.732 / transit 128.520 ratio 1.239 · tuned · tightest of 3
+  - **L2 RA Haumea–Betelgeuse** — natal Ketu φ: φ/φ² 0.033% [167.820 | 64.088] · transit **Mercury** 4:5:5 0.075% [128.616 | 102.864] closest 0.063% at 14.3 min before the off (14:26:21), does not come exact · base natal 103.732 / transit 128.520 ratio 1.239 · tuned · tightest of 3
       also tuned: Jamie Hamilton Rahu 2:5:7 0.100%; Olympe De Gouges Saturn 4:8:11 0.127%
   - **L2 Dec Haumea–Arcturus** — natal Ketu 1:4:5 0.086% [11.147 | 8.916] · transit **Jupiter** 1:6:7 0.095% [21.343 | 24.897] exact 21.0 h after the off (19 Mar 11:42:42) · base natal 2.231 / transit 3.554 ratio 1.593 · tuned · tightest of 1
   - **L2 Dec Orcus–Aldebaran** — natal Ketu 2:3:5 0.107% [9.369 | 6.239] · transit **Mars** 1:4:5 0.093% [7.114 | 35.545] exact 53.6 min after the off (15:34:15) · base natal 15.608 / transit 28.431 ratio 1.822 · tuned · tuned with it: 9
@@ -2909,7 +2909,7 @@ Reading the lines: **string** = the two base points and the measure; *path* = th
 
 **natal Venus**
   - **Sky Bellatrix–Procyon** — natal Venus φ: 2−1/φ/φ²/φ√5 0.112% [natal Venus–Bellatrix 120.645 | –Procyon 87.386]; Method 1 φ: 2−1/φ/φ²/φ√5 0.112%; partner on it: no
-    - sky **Sun** 2:5:7 0.100% — tightest in the window 15:14:49 (finish+30.0m); exact 2.7 h after the off (18 Mar 17:22:12); tuned
+    - sky **Sun** 2:5:7 0.100% — tightest in the window 15:14:49 (finish+30.0m); closest 0.014% at 2.7 h after the off (18 Mar 17:22:12), does not come exact; tuned
       path off−30 0.150% · off 0.127% · finish 0.124% · finish+30 0.100% | sky beyond the Bellatrix end [Sun–Bellatrix 83.544 | –Procyon 116.911 | base 33.384] · natal beyond the Procyon end → opposite ends (mirror) | field: 1 natal bodies in 1 charts (UNISON 0); tightest David Noonan Venus 0.112%; this body #1
     - all sky bodies on this string in the window: Sun 2:5:7 0.100% 15:14:49
 
@@ -2978,7 +2978,7 @@ Reading the lines: **string** = the two base points and the measure; *path* = th
       also tuned: Fiamette Chiron φ: 2/φ/φ³/φ³+1 0.057%; Conor O'Farrell Neptune 2:3:5 0.105%; Stephen Mulqueen Neptune φ: φ/φ² 0.114%; David Noonan Transpluto 1:2:3 0.125%; Poetria Mars 3:4:7 0.137%; Suntory Star Mars 2:3:5 0.141%; James Davies Jupiter 3:4:7 0.149%
   - **L1 Dec Procyon–Spica** — natal Transpluto 1:2:3 0.125% [8.204 | 24.591] · transit **Sun** 3:5:8 0.082% [6.146 | 10.234] exact 11.4 min after the off (14:52:08) · base natal 16.387 / transit 16.380 · tuned · tuned with it: 8
       also tuned: David Noonan Neptune 3:5:8 U 0.017%; Fiamette Chiron φ: 2/φ/φ³/φ³+1 0.057%; Conor O'Farrell Neptune 2:3:5 0.105%; Stephen Mulqueen Neptune φ: φ/φ² 0.114%; Poetria Mars 3:4:7 0.137%; Suntory Star Mars 2:3:5 0.141%; James Davies Jupiter 3:4:7 0.149%
-  - **L1 Sky Bellatrix–Procyon** — natal Venus φ: 2−1/φ/φ²/φ√5 0.112% [120.645 | 87.386] · transit **Sun** 2:5:7 0.127% [83.566 | 116.933] exact 2.7 h after the off (18 Mar 17:22:12) · base natal 33.383 / transit 33.384 · tuned · tightest of 1
+  - **L1 Sky Bellatrix–Procyon** — natal Venus φ: 2−1/φ/φ²/φ√5 0.112% [120.645 | 87.386] · transit **Sun** 2:5:7 0.127% [83.566 | 116.933] closest 0.014% at 2.7 h after the off (18 Mar 17:22:12), does not come exact · base natal 33.383 / transit 33.384 · tuned · tightest of 1
   - **L1 Dec Arcturus–Capella** — natal Neptune 2:3:5 0.090% [40.177 | 66.987] · transit **Sun** 3:4:7 0.135% [20.096 | 46.926] exact 1.6 h before the off (18 Mar 13:01:46) · base natal 26.809 / transit 26.831 · tuned · tuned with it: 8
       also tuned: Conor O'Farrell Uranus 5:8:13 0.010%; Stephen Mulqueen Vesta 2:3:5 0.017%; Fiamette Eris 4:5:9 0.043%; Jamie Hamilton Rahu 1:√2:1+√2 0.048%; James Davies Juno 2:5:7 0.051%; Conor O'Farrell Quaoar 5:6:11 0.092%; David Noonan Gonggong 1:√2:1+√2 0.092%
   - **L1 Dec Arcturus–Capella** — natal Gonggong 1:√2:1+√2 0.092% [37.879 | 64.688] · transit **Sun** 3:4:7 0.135% [20.096 | 46.926] exact 1.6 h before the off (18 Mar 13:01:46) · base natal 26.809 / transit 26.831 · tuned · tuned with it: 8
