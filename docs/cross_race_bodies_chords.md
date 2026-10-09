@@ -180,7 +180,7 @@ Catterick and Exeter. Beaten charts too: Doncaster O'Farrell, Hamilton, Suntory 
 Chiron 3:4:7 in the race, M2 L3 Dec Saturn–Equator). Connor Beasley 4th Catterick / 1st Newcastle. Tom O'Brien 2nd Wincanton / PU Exeter.
 
 ## I. Race by race, layer by layer (Eddie, 9 Oct: "go through each race, each method / layer ... COMBINATIONS")
-Times: applying = time to exact from the FINISH, separating = from the OFF. Doncaster, Catterick, Ffos Las and Newcastle were checked by an independent reviewer
+Times: applying = time to exact from the FINISH, separating = from the OFF. Doncaster, Catterick, Ffos Las, Newcastle and Carlisle were checked by an independent reviewer
 (9 Oct) against the tables; its corrections are applied below.
 **Rule (Eddie, 9 Oct, "please learn this"): every race is read at the same full depth as Doncaster — every layer, every runner, the beaten runners
 for contrast, presented one layer at a time. Never read a race only from the pack's summary parts. The Catterick and Ffos Las sections below were first
@@ -419,6 +419,68 @@ jockey's Ceres, Mars on Uranus–Algol → the jockey's Mercury, Uranus on Mars�
 Venus–Sirius → the horse's Juno; on Altair–Castor → the jockey's Sun) and **Transpluto** (on Aldebaran–Sirius and Altair–Procyon over both charts; the horse's
 Mars tightest; the jockey's own Mars + Transpluto; the horse's natal Transpluto by Mercury). The horse's MARS is held by both. Rahu–Fomalhaut bases on both Junos (separate triangles). The horse's Pallas a receiver (0.000%, 0.005%, 0.014%). Not yet checked against the other races: Uranus/Transpluto as a join-maker elsewhere.
 
+### Carlisle 13:55, 14 Oct 2021 — 1st Arvico Bleu (25/1) / Callum Bewley (236-s race, five runners) — FULL DEPTH (9 Oct)
+Off 13:57:10, finish 14:01:06. Pack: `rr/20211014_carlisle_1355/compare/reading-pack.md`. 2nd the Evens favourite Gold Des Bois / Conor O'Farrell. The beaten
+runners hold most of the tightest and strong places; the winners' items are mostly loose and spread.
+**Method 3.**
+- Horse: **Mercury 5:6:11 on Dec Algorab–Spica in the race** (13:57:59) → her Eris (0.046%, #3/13), Saturn, Quaoar (6 charts, 13 bodies on it; Nichol's Juno tightest).
+  The Moon 1:2:3 on RA Altair–Fomalhaut in the race → her Saturn 1:2:3 (0.012%, strong, tightest, UNISON). Her **Chiron**: Sedna on RA Algol–**Pleiades** (0.032%,
+  tightest of 4, −1.2 h) and Neptune 1:8:9 on Algorab–Polaris (0.045%). Her own Juno held by Juno 5:8:13 on Dec Arcturus–Equator (SAME, 0.074%, −34.9 min; the
+  jockey's Mercury on it too). No strong string of hers live except the Moon's; her Mars not live.
+- Jockey: **Venus 2:3:5 on Dec Altair–Spica → his JUNO 5:6:11 0.001%** (strong, tightest of 11, exact 13:51:33 = −5.6 min); Venus 1:7:8 on Betelgeuse–**Regulus**
+  → his CERES (0.028%, tightest); **the Sun 4:5:9 on Dec Altair–Fomalhaut → his VENUS** (0.104%, #2, exact 14:04:26 = +3.3 min). His Mars held three ways, loose
+  (Rahu on Bellatrix–Sirius 0.071%, Gonggong on Deneb Algedi–Vega 0.066%, Transpluto on Castor–Spica 0.101%). Vesta on Antares–Deneb Algedi → his Neptune (+6.8 min).
+- Juno in both charts (her own Juno by Juno; his Juno by Venus). Not only them: Slanelough's Mars and own Juno by Juno, Mercury on Nichol's Juno in the race.
+- Altair–Fomalhaut on both charts (RA: the Moon → her Saturn; Dec: the Sun → his Venus). Stars: Spica (Algorab–Spica, Altair–Spica, Castor–Spica), Altair, Algorab, Regulus.
+- Beaten strong + tightest: Nichol Pallas → Sun 0.004%; Slanelough Juno → Mars 0.004%, Saturn → Uranus 0.011% UNI; Finisk River the Sun → Vesta 0.005% (+3.3 min),
+  Mars → Eris 0.006%; Hughes Chiron → Haumea 0.005% UNI, Uranus → Vesta 0.005%; If Not For Dylan Makemake → Venus 0.006%; Coltherd Uranus → Eris 0.012%, Rahu → Mars
+  0.017%; O'Farrell Juno → Jupiter 0.004% (+34 min); If Not For Dylan the Moon → Ketu 0.004% in the race. Strong, not tightest: Gold Des Bois Saturn → Juno 0.019% UNI (#2/5). [corrected after the independent check]
+**Nodes.** Thin; the winners tightest on both bases they are on. **Makemake 3:4:7 on Dec Rahu–Pleiades** (exact 13:32:40, −24.5 min) → the horse's QUAOAR 0.006%
+(tightest of 7; Coltherd's Sun 0.021% on it). **Orcus 4:5:9 on Dec Rahu–Bellatrix** (−1.1 h) → the jockey's ERIS 0.027% (tightest of 6) — the same base holds the
+favourite pair's Mars in both charts (Gold Des Bois 0.053%, O'Farrell 0.090%) and O'Farrell's Sun. Uranus on Ketu–Fomalhaut (+34.7 min after the finish): Slanelough's
+Saturn tightest, winners not on it.
+**L2.**
+- **In the race: Pallas 3:4:7 on Dec Chiron–Pleiades → the horse's SEDNA** (0.027%, tightest of 5; 0.003→0.000%, exact 14:00:52, 14 s before the finish). With
+  Method 3 (Sedna on Algol–Pleiades → her Chiron): Sedna → her Chiron, and a Chiron–Pleiades base → her Sedna, both through Pleiades.
+- **Joint triangle Rahu–Makemake–Pleiades, both winners tightest**: Makemake corner (Nodes) → the horse's Quaoar 0.006%; Rahu corner (L2) → the jockey's VESTA 0.031%
+  (tightest of 4) + the horse's Ceres (0.049%).
+- **Pluto–Gonggong–Betelgeuse** (+2.3 h): Pluto corner → the jockey's MARS 0.026% (tightest of 3); Gonggong corner → his Orcus 0.027% (tightest of 9) + the horse's
+  Transpluto. O'Farrell has his own Gonggong and own Pluto on the same two corners (0.060%), less tight.
+- Jockey: Eris on Chiron–Haumea → his Neptune (0.033%, tightest, +41 min). Horse: Pluto on Eris–Aldebaran → her SUN 0.005% (tightest, +12.7 h); Makemake on
+  Transpluto–Arcturus → her Pluto (0.026%, tightest, −27.4 min); Makemake on Chiron–Altair → her Mercury 0.006% (tightest) — her own Chiron and own Makemake on the
+  two corners (double same-body, loose 0.137%). Neptune–Pluto–Altair (−12.4 min): her Venus, Haumea (Hughes's Mars tightest). Her Mars loose (Makemake on Uranus–Vega).
+- Beaten: own-body triangles on the favourite side (Gold Des Bois Uranus–Eris–Quaoar all three own, 0.043%; Quaoar–Transpluto–Castor; O'Farrell Pluto–Gonggong,
+  Haumea–Transpluto) — none tightest; Hughes own Quaoar + Transpluto 0.007% tightest; Finisk River Chiron → Saturn 0.001%; If Not For Dylan 0.002% ×2; Nichol's Juno ×3.
+**L3.**
+- **Saturn–Vesta–Equator exact AT THE OFF (13:57:10)**: Vesta corner the horse's MARS (0.071%) and the jockey's SUN (0.048%) + Ceres (O'Farrell's Chiron 0.004%
+  tightest); Saturn corner the horse's Quaoar (tightest, 0.092%).
+- **Pallas again on the horse's Sedna**: Pallas on RA Ceres–Vega → Sedna 0.004% (tightest of 4, −27.4 min).
+- Jockey: **Saturn φ on Dec Pallas–Regulus → his CERES 0.014%** (tightest of 7, −3.2 min; his Quaoar 0.026% too) — his Ceres held twice through Regulus (Method 3
+  Venus on Betelgeuse–Regulus); Pallas corner Gold Des Bois's Uranus. Uranus on Juno–Castor → his JUPITER 0.004% (tightest, −2.8 h); Chiron on Vesta–Antares → his
+  Jupiter (+5.3 min; Finisk River's Rahu 0.007% tightest).
+- Horse: Neptune on Juno–Antares → Pluto UNISON (tightest, −17.6 min). Jupiter–Pallas–Vesta (+0.8 h): her Mars, Rahu + the jockey's Ceres (loose).
+- Beaten: Gold Des Bois Neptune → Sun 0.001%, the Sun on Jupiter–Alphecca → Quaoar 0.002%; O'Farrell Vesta at the off → Chiron 0.004%; Coltherd Pluto → Juno 0.010%.
+**L4.** Almost empty; the jockey nothing. Chiron 1:1:2 on RA Mercury–Vega (+11 min): the horse's Sun (0.123%, loose; O'Farrell's Quaoar 0.007% tightest).
+Jupiter on Sun–Alphecca (−6.4 min): the horse's Pluto only (0.144%); the Sun corner is Gold Des Bois's (0.002%).
+**Corners.** Chiron–Pallas–Pleiades (in the race): Pallas corner the winning horse (Sedna, tightest), Chiron corner Slanelough. Saturn–Vesta–Equator (at the off):
+Saturn corner the winning horse (Quaoar), Vesta corner O'Farrell. Pallas–Regulus–Saturn: Saturn corner the winning jockey (Ceres), Pallas corner Gold Des Bois.
+Jupiter–Sun–Alphecca: Sun corner Gold Des Bois.
+**Sun and Mars of both charts on one triangle** (non-Moon, all layers, all pairs): winners — **both natal SUNS on Dec Aldebaran–Eris–Pluto** (Pluto corner the horse's
+Sun 0.005% tightest; Eris corner the jockey's Sun 0.067%, Finisk River's Sun tightest; exact +12.7 h), and the horse's Mars + the jockey's Sun on Saturn–Vesta–Equator
+(exact at the off). Favourite pair: Mars + Mars + O'Farrell's Sun on Rahu–Orcus–Bellatrix (−1.1 h), Gold Des Bois's Sun + O'Farrell's Mars on Algol–Chiron–Quaoar.
+Finisk River / Hughes: Juno–Pallas–Saturn. No other pair has both Suns on one triangle.
+**Same body / numbers / parallels.** Jockey: **natal Venus → sky Venus Flat 498/9 IN THE RACE (13:59:35)**; Sun + Castor 0.002% (−1.5 min); **Sun + Ceres** RA φ
+(−7.0 min); Venus + Haumea (−2.5 min); parallel Sedna ∥ Mercury 0.000% at 13:56:40. Horse: no same-body item except with the Moon (Chiron + Moon in the race); parallel Pallas ∥ Neptune at the window edge. No pair same-body chord.
+Beaten in the race: Gold Des Bois Venus number 13:59:40 (5 s after the jockey's); Slanelough Pallas number Flat 194/9 at 13:59:35 (the same second as the jockey's Venus number); Nichol Mercury + Mars, Sun + Quaoar, Juno number 14:01:00; Finisk River Venus + Deneb
+Algedi. Pair chords: If Not For Dylan Saturn 0.001%, Juno; Gold Des Bois Transpluto.
+**Timeline.** Winners: 13:55:40 J Sun + Castor (pre-off); in the race 13:57:59 Mercury → H Eris; 13:59:35 J Venus number; 14:00:55 Pallas → H Sedna. No beats for any pair.
+**Joins by body:** 19 joins, 5 tight (one chart tightest ≤0.02%): Juno/Uranus–Castor → J Jupiter 0.004%; Eris/Pluto–Aldebaran → H Sun 0.005% (both Suns);
+Rahu–Makemake–Pleiades → H Quaoar 0.006%; Chiron–Makemake–Altair → H Mercury 0.006% (her own Chiron + Makemake); Saturn on Pallas–Regulus → J Ceres 0.014%.
+No body runs through them (Makemake, Jupiter, Mercury twice each, counting both charts' tightest bodies) — as Ffos Las, not Newcastle.
+**Carlisle in short:** a spread, loose race for the winners; the beaten own the tightness. Particular to the pair: both natal Suns on one triangle (the only pair);
+the triangle exact at the off with her Mars and his Sun; Pleiades through the horse (Sedna ↔ Chiron; Pallas on her Sedna in the race, and again on Ceres–Vega) and the pair (Rahu–Makemake–Pleiades,
+both tightest); Venus on the jockey (his Juno 0.001%, the Sun on his Venus, his Venus number in the race); his Ceres through Regulus twice and with his own Sun.
+
 ### Looking across: Mars and the Sun in BOTH charts of a pair near the race (off −3 min to finish +2 min; any layer, any role — sky body, base end, natal body, third point)
 | race | pairs with Mars in both charts (nearest gap between the two charts) | pairs with the Sun in both charts |
 |---|---|---|
@@ -432,7 +494,7 @@ Mars tightest; the jockey's own Mars + Transpluto; the horse's natal Transpluto 
 Seen: Mars in both charts is rarer than the Sun and falls on the winning pair in four of seven races (nearest of all in three: Doncaster, Catterick, Ffos Las);
 the Sun in both charts is common and does not pick out the winner. Background, not a rule.
 
-### Looking across: which bodies make each pair's TIGHT joins (9 Oct; the four races read at full depth)
+### Looking across: which bodies make each pair's TIGHT joins (9 Oct; the races read at full depth)
 Tight join = a pack-3b triangle holding both charts of the pair on which one chart is tightest at ≤0.02%. Body counted in any role (triangle point or that row's
 tightest natal body). Top bodies per pair:
 | race | winners: tight / joins, top bodies | beaten pairs (finish: tight / joins, top body) |
@@ -440,8 +502,9 @@ tightest natal body). Top bodies per pair:
 | Doncaster | 5/17 — **Haumea 3, Regulus 3** (Pallas on Haumea–Regulus → J Mercury; Haumea on Betelgeuse–Regulus → J Juno, H own Haumea; Ceres on Uranus–Regulus → H Haumea) | 2: 5/18 several ×2 · 3: 8/17 Uranus 4 · 4: 8/19 Pallas 5 · 5: 3/17 Chiron 2 |
 | Catterick | 9/33 — **Neptune 5**, Algorab 3, Saturn 3, Pallas 3 (Algorab bases → H Neptune ×2 and J Neptune) | 2: 1/18 · 3: 5/24 Vesta 3, Jupiter 3 · 4: 8/22 Mercury 4 · 5: 3/25 Haumea 2 |
 | Ffos Las | 3/16 — no body twice (Ceres–Jupiter–Algol → H Rahu 0.000% in the race; Pluto–Sedna–Fomalhaut, J own Pluto + Sedna; Vesta–Antares–Orcus → J Transpluto) | 2: 7/24 Orcus 4, Pluto 4 · 3: 11/27 Gonggong 4 · 4: 9/21 Neptune 3, Makemake 3, Sun 3 |
+| Carlisle | 5/19 — Makemake 2, Jupiter 2, Mercury 2, no body more (both Suns on Aldebaran–Eris–Pluto; J Ceres via Regulus; H Quaoar via Pleiades) | 2: 3/17 Pluto, Saturn 2 · 3: 4/24 Juno 3 · 4: 4/20 Eris, Uranus 2 · 5: 4/19 Chiron, Vesta 2 |
 | Newcastle | 6/20 — **Uranus 5**, Transpluto 3 | 2: 4/21 Neptune, Aldebaran, Venus 2 · 3: 6/26 Pluto 3 · 4: 6/25 Neptune 3 · 5: 3/22 none twice |
-Seen: in three of four races one body runs through the winners' tight joins (Haumea–Regulus, Neptune via Algorab, Uranus); Ffos Las has none. **Beaten pairs have a
+Seen: in three of five races one body runs through the winners' tight joins (Haumea–Regulus, Neptune via Algorab, Uranus); Ffos Las and Carlisle have none. **Beaten pairs have a
 dominant body too** (Fiamette / Davies Pallas 5 of 8, Poetria / Hamilton Uranus 4 of 8, You Say Nothing / Tudor Orcus and Pluto 4 of 7), so having one does not
 separate the winners; what each body carries (which natal bodies, which stars, which corner) is the thing to read. Background, not a rule.
 
