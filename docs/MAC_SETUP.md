@@ -52,3 +52,4 @@ The Mac is now the reference machine: races are built here. A race is never buil
 - Results go back into the repo: copy `~/astro-work/rr/<RACE>/records`, `notes` and `compare` into `~/astro-harmonics/rr/<RACE>/`, commit,
   `git pull`, `git push`. Summaries and walk-throughs to the project as before.
 - A new race needs its off time and duration in `reference/races.csv` (then `setup.sh` again).
+- A race needs its sky grid first: python3 lattice/skygrid.py <RACE> (then commit it to data/skygrid/).

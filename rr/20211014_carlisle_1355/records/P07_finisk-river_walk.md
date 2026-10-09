@@ -1,0 +1,761 @@
+# Walk-through — Finisk River (horse, P07) — 20211014_carlisle_1355
+Finish 5 · SP 5/2 · born 2013-04-05 · partner Brian Hughes (5, 5/2)
+Full record: `rr/20211014_carlisle_1355/records/P07_finisk-river.md` (repo tedsince72/astro-harmonics). Off 13:57:10, finish 14:01:06; window 13:27:10–14:31:06; natal 12:00, no natal Moon; chords ≤0.15%; numbers ±0.002°.
+Here, body by body: its Method 1 line; every sky body (not the Sun or Moon) on its star strings within 0.15% at any point in the window, with the deviation at off−30 / off / finish / finish+30, the exact time wherever it falls and the zone; then the Method 2 body-to-body and node layers, same-body chords ≤0.05% and natal→sky numbers that come exact in the window. Then the transit Sun, the transit Moon, the pair. Method 2's star-base layer (L1) is the same strings as Method 3 seen at the off, so it is not repeated here (it is in the record).
+
+## What I see
+_(not written yet)_
+
+## Exact → closest (8 Oct check: 'exact' only when the deviation at that moment is ≤0.005%) — 8 items on this chart that earlier builds called exact
+- Chiron: L3 Venus on RA Pallas–Capella other: 1/1+1/√2 — closest 0.087% at 31.1 min before the off (13:26:05), does not come exact
+- Gonggong: L2 Makemake on RA Uranus–Pluto 15:16:24 — closest 0.062% at in 1.1 d (applying), does not come exact
+- Haumea: L2 Vesta on Flat Quaoar–Orcus 5:6:11 — closest 0.058% at 1.8 h after the off (14 Oct 15:45:27), does not come exact
+- Ketu: L3 Transpluto on RA Juno–Pleiades 15:16:24 — closest 0.015% at 1.7 h before the off (14 Oct 12:13:12), does not come exact
+- Mercury: L3 Neptune on Sky Vesta–Regulus 45:80:99 — closest 0.096% at 53.0 min after the off (14:50:10), does not come exact
+- Rahu: L2 Makemake on RA Uranus–Pluto 15:16:24 — closest 0.062% at in 1.1 d (applying), does not come exact
+- Sun: L3 Transpluto on RA Juno–Pleiades 15:16:24 — closest 0.015% at 1.7 h before the off (14 Oct 12:13:12), does not come exact
+- Venus: L3 Mars on Sky Jupiter–Regulus 2:5:7 — closest 0.019% at 1.2 h after the off (14 Oct 15:07:44), does not come exact
+
+## 1. Body by body — Method 1 line, every sky hold, other items exact in the window
+
+**Sun** (RA 14.435, Dec +6.166)
+- *Method 1:* strongest strings: none ≤0.02% (tightest Dec Algol–Regulus 1:5:6 0.032%) · numbers: RA Jupiter 40√2; RA Spica ★ 107φ; Flat Polaris ★ 61√2; Sky Altair ★ whole 76; ninths 5 · figures ≤0.02%: RA Gonggong–Saturn 1:3:4 0.013% · partner links: PARALLEL P07 Sun +6.166 P08 Juno +6.221 diff 0.055; P07 Sun – P08 Rahu RA 31.1113 = 22√2 [one fast]; P07 Sun – P08 Gonggong RA 45.6661 = 411/9 [one fast]; P07 Sun – P08 Ketu RA 148.8887 = 1340/9 [one fast]; P07 Sun – P08 Mars RA 81.6678 = 735/9 [both fast]
+- *Sky bodies on its star strings within 0.15% in the window (6 holds), string by string, in order of the first exact time:*
+  - **RA Antares–Deneb Algedi** — natal Sun 3:5:8 0.075%, beyond the Deneb Algedi end · 7 bodies in 5 charts, this #4, tightest If Not For Dylan Transpluto 0.050% · partner: no
+    - exact 2.4 d ago (separating) — held, separating · **Pluto** 5:8:13 (closest 0.057% at 13:27:10) · tuned · sky INSIDE (nearer Deneb Algedi) · off−30 0.057% · off 0.057% · finish 0.057% · finish+30 0.058%
+    - exact 2.1 h before the off (14 Oct 11:51:56) — held, separating · **Mars** 5:8:13 (closest 0.081% at 13:27:10) · tuned · sky beyond the Antares end · off−30 0.081% · off 0.107% · finish 0.110% · finish+30 0.136%
+    - exact 14:07:53 (finish+6.8m) — after the finish · **Vesta** 1:3:4 (closest 0.000% at 14:07:55) · tuned · sky beyond the Antares end · off−30 0.054% · off 0.014% · finish 0.009% · finish+30 0.031%
+    - exact in 8.4 d (applying) — held, applying · **Eris** 3:4:7 (closest 0.121% at 14:31:06) · tuned · sky beyond the Deneb Algedi end · off−30 0.122% · off 0.121% · finish 0.121% · finish+30 0.121%
+  - **Dec Alkaid–Equator** — natal Sun 1:7:8 0.039%, INSIDE (nearer Equator) · 10 bodies in 7 charts, this #4, tightest Slanelough Mars 0.013% · partner: Jupiter 1:3:4 0.029%
+    - exact 1.1 h before the off (14 Oct 12:49:13) — held, separating · **Vesta** φ: 2/φ/φ³/φ³+1 (closest 0.041% at 13:27:10) · tuned · sky beyond the Equator end · off−30 0.041% · off 0.073% · finish 0.077% · finish+30 0.109%
+  - **RA Alphecca–Altair** — natal Sun 5:6:11 0.112%, beyond the Altair end · 11 bodies in 6 charts, this #11, tightest Conor O'Farrell Mercury 0.047% · partner: no
+    - exact 13:28:02 (off−29.1m) — before the off · **Vesta** 1:5:6 (closest 0.000% at 13:27:55) · tuned · sky beyond the Alphecca end · off−30 0.002% · off 0.079% · finish 0.090% · finish+30 0.172%
+
+**Mercury** (RA 350.143, Dec -6.550)
+- *Method 1:* strongest strings: none ≤0.02% (tightest Dec Fomalhaut–Spica 1:4:5 0.025%) · numbers: RA Saturn whole 132; Dec Juno 1φ; ninths 3 · figures ≤0.02%: Dec Orcus–Pallas φ: 2−1/φ/φ²/φ√5 0.005%; Dec Ketu–Uranus 2:3:5 0.011% · partner links: P07 Mercury – P08 Jupiter Flat 32.1111 = 289/9 [one fast]; P07 Mercury – P08 Quaoar Dec 5.6647 = 51/9 [one fast]; P07 Mercury – P08 Quaoar Flat 122.8904 = 1106/9 [one fast]; P07 Mercury – P08 Mercury Flat 113.3330 = 1020/9 [both fast]
+- *Sky bodies on its star strings within 0.15% in the window (5 holds), string by string, in order of the first exact time:*
+  - **Dec Aldebaran–Castor** — natal Mercury 2:3:5 0.061%, beyond the Aldebaran end · 12 bodies in 7 charts, this #4, tightest Sam Coltherd Venus 0.011% · partner: Sedna 5:6:11 0.088%; Mercury 4:5:9 0.121%
+    - exact 1.9 h before the off (14 Oct 12:03:34) — held, separating · **Venus** 3:8:11 (closest 0.033% at 13:27:10) · tuned · sky beyond the Aldebaran end · off−30 0.033% · off 0.045% · finish 0.047% · finish+30 0.059%
+    - exact in 1.8 d (applying) — held, applying · **Transpluto** 2:5:7 (closest 0.080% at 14:31:06) · tuned · sky beyond the Aldebaran end · off−30 0.082% · off 0.081% · finish 0.081% · finish+30 0.080%
+  - **Dec Fomalhaut–Spica** — natal Mercury 1:4:5 0.025%, beyond the Spica end · 10 bodies in 6 charts, this #1 (tightest) · partner: Jupiter 2:5:7 0.037%; Transpluto 1:√2:1+√2 0.051%; Makemake φ: 2−1/φ/φ²/φ√5 0.055%; Gonggong 4:5:9 0.135%
+    - exact 14:22:47 (finish+21.7m) — after the finish · **Venus** φ: 2−1/φ/φ²/φ√5 (closest 0.001% at 14:22:40) · tuned · sky INSIDE (nearer Fomalhaut) · off−30 0.247% · off 0.114% · finish 0.096% · finish+30 0.037%
+  - **Dec Aldebaran–Fomalhaut** — natal Mercury 1:1:2 0.071%, at the MIDPOINT · 7 bodies in 5 charts, this #5, tightest Sam Coltherd Venus 0.016% · partner: Jupiter 2:5:7 0.055%; Pluto φ: 2−1/φ/φ²/φ√5 0.106%
+    - exact 6.2 h after the off (14 Oct 20:09:17) — held, applying · **Juno** φ: φ/φ² (closest 0.147% at 14:31:06) · tuned · sky INSIDE (nearer Fomalhaut) · inside, nearer opposite ends (sky 17.637 from Fomalhaut, natal 23.057 from Aldebaran; 11.75% of the base apart) · off−30 0.175% · off 0.162% · finish 0.160% · finish+30 0.147%
+  - **Dec Algol–Castor** — natal Mercury φ: 2/φ/φ³/φ³+1 0.076%, beyond the Castor end · 6 bodies in 5 charts, this #1 (tightest) · partner: no
+    - exact in 3.0 d (applying) — held, applying · **Sedna** φ: 2−1/φ/φ²/φ√5 (closest 0.037% at 14:31:06) · tuned · sky beyond the Castor end · off−30 0.038% · off 0.037% · finish 0.037% · finish+30 0.037%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 13:27:10 (off−30.0m) L3 **Pluto** on Dec Mars–Algorab 2:3:5 0.056% · natal Mercury 3:4:7 0.085% · tuned · base lengths 1+√2 · 10 tuned
+  - 13:32:25 (off−24.8m) same body: natal Mercury – sky Mercury + Chiron Dec 1:6:7 0.003% — exact 24.8 min before the off, separating through the race
+  - 13:33:34 (off−23.6m) L3 **Orcus** on RA Juno–Ketu φ: 2/φ/φ³/φ³+1 0.028% · natal Mercury 4:5:9 0.138% · tuned · base lengths 5 · 2 tuned
+  - 13:45:10 (off−12.0m) same body: natal Mercury – sky Mercury + Equator Dec φ: 2−1/φ/φ²/φ√5 0.001% — exact 12.0 min before the off, separating through the race
+  - 13:46:10 (off−11.0m) same body: natal Mercury – sky Mercury + Vesta RA φ: 2/φ/φ³/φ³+1 0.000% — exact 11.0 min before the off, separating through the race
+  - 13:48:10 (off−9.0m) same body: natal Mercury – sky Mercury + Juno Dec 1:3:4 0.002% — exact 9.0 min before the off, separating through the race
+  - 13:49:34 (off−7.6m) L4 **Gonggong** on RA Venus–Vega 3:5:8 0.018% · natal Mercury 3:8:11 0.013% · tuned · tightest of 3
+  - 13:53:50 (off−3.3m) natal Mercury – sky Mercury Flat = **113√2** (off -0.0000; within ±0.002 13:48:50–13:58:55)
+  - 13:54:40 (off−2.5m) natal Mercury – sky Mercury Sky = **1412/9** (off +0.0000; within ±0.002 13:51:00–13:58:20)
+  - 14:06:22 (finish+5.3m) L3 **Chiron** on Dec Vesta–Antares 5:6:11 0.014% · natal Mercury 2:3:5 0.091% · tuned · 6 tuned
+  - 14:20:30 (finish+19.4m) natal Mercury – sky Mercury RA = **113√2** (off -0.0000; within ±0.002 14:15:25–14:25:40)
+  - 14:26:10 (finish+25.1m) L4 **Mercury** on RA Venus–Vega 5:8:13 0.129% · natal Mercury 3:8:11 0.013% · tuned · SAME BODY · tightest of 3
+
+**Venus** (RA 16.736, Dec +5.831)
+- *Method 1:* strongest strings: none ≤0.02% (tightest Dec Deneb Algedi–Vega 2:3:5 0.025%) · numbers: Dec Juno whole 14; Flat Polaris ★ whole 86; ninths 8 · figures ≤0.02%: Dec Pallas–Saturn 1:2:3 0.001%; Dec Makemake–Quaoar 1:1:2 0.005% · partner links: P07 Venus – P08 Orcus RA 107.7765 = 970/9 [one fast]; P07 Venus – P08 Uranus Sky 121.8894 = 1097/9 [one fast]; P07 Venus – P08 Mars Dec 18.3864 = 13√2 [both fast]; P07 Venus – P08 Ceres Flat 79.5537 = 716/9 [both fast]
+- *Sky bodies on its star strings within 0.15% in the window (9 holds), string by string, in order of the first exact time:*
+  - **Dec Alphecca–Polaris** — natal Venus 1:3:4 0.135%, beyond the Alphecca end · 7 bodies in 4 charts, this #7, tightest Gold Des Bois Rahu 0.006% · partner: no
+    - exact 16.3 h before the off (13 Oct 21:36:28) — held, separating · **Juno** φ: φ/φ² (closest 0.116% at 13:27:10) · tuned · sky beyond the Alphecca end · off−30 0.116% · off 0.120% · finish 0.121% · finish+30 0.124%
+  - **Dec Algol–Deneb Algedi** — natal Venus 5:8:13 0.034%, INSIDE (nearer Deneb Algedi) · 7 bodies in 6 charts, this #3, tightest Gold Des Bois Haumea 0.026% · partner: Venus 1:1:2 0.032%
+    - exact 56.1 min after the off (14:53:15) — held, applying · **Mercury** 1:4:5 (closest 0.100% at 14:31:06) · tuned · sky INSIDE (nearer Deneb Algedi) · off−30 0.388% · off 0.252% · finish 0.235% · finish+30 0.100%
+  - **Dec Deneb Algedi–Pleiades** — natal Venus 5:6:11 0.148%, INSIDE (nearer Pleiades) · 7 bodies in 5 charts, this #7, tightest If Not For Dylan Ceres 0.010% · partner: Juno 4:5:9 0.034%; Vesta 3:5:8 0.120%
+    - exact 1.0 h after the off (14 Oct 14:59:02) — held, applying · **Vesta** 1:8:9 (closest 0.088% at 14:31:06) · tuned · sky INSIDE (nearer Deneb Algedi) · inside, nearer opposite ends (sky 4.474 from Deneb Algedi, natal 18.273 from Pleiades; 34.30% of the base apart) · off−30 0.288% · off 0.194% · finish 0.182% · finish+30 0.088%
+  - **RA Castor–Pleiades** — natal Venus 1:√2:1+√2 0.051%, beyond the Pleiades end · 8 bodies in 4 charts, this #3, tightest Gold Des Bois Orcus 0.011% · partner: Transpluto 1:2:3 0.090%; Haumea 5:6:11 0.094%; Vesta 5:8:13 0.105%
+    - exact 2.0 h after the off (14 Oct 15:58:48) — held, applying · **Ceres** 1:3:4 (closest 0.020% at 14:31:06) · tuned · sky INSIDE (nearer Pleiades) · off−30 0.035% · off 0.028% · finish 0.027% · finish+30 0.020%
+  - **RA Aldebaran–Fomalhaut** — natal Venus φ: φ/φ² 0.125%, INSIDE (nearer Fomalhaut) · 4 bodies in 4 charts, this #3, tightest Conor O'Farrell Eris 0.061% · partner: no
+    - exact 4.8 h after the off (14 Oct 18:47:02) — held, applying · **Juno** 1:1:2 (closest 0.059% at 14:31:06) · tuned · sky beyond the Fomalhaut end · off−30 0.073% · off 0.066% · finish 0.065% · finish+30 0.059%
+    - exact in 2.1 d (applying) — held, applying · **Quaoar** 5:6:11 (closest 0.017% at 14:31:06) · tuned · sky beyond the Fomalhaut end · off−30 0.017% · off 0.017% · finish 0.017% · finish+30 0.017%
+  - **Dec Algol–Rigel** — natal Venus 2:5:7 0.102%, INSIDE (nearer Rigel) · 6 bodies in 6 charts, this #3, tightest Callum Bewley Juno 0.012% · partner: no
+    - exact in 2.0 d (applying) — held, applying · **Rahu** 1:√2:1+√2 (closest 0.134% at 14:31:06) · tuned · sky INSIDE (nearer Algol) · inside, nearer opposite ends (sky 20.345 from Algol, natal 14.036 from Rigel; 12.83% of the base apart) · off−30 0.137% · off 0.136% · finish 0.135% · finish+30 0.134%
+  - **RA Aldebaran–Sirius** — natal Venus φ: φ/φ² 0.064%, beyond the Aldebaran end · 10 bodies in 6 charts, this #4, tightest If Not For Dylan Orcus 0.014% · partner: no
+    - exact in 5.6 d (applying) — held, applying · **Makemake** 1:3:4 (closest 0.114% at 14:31:06) · tuned · sky beyond the Sirius end · off−30 0.115% · off 0.114% · finish 0.114% · finish+30 0.114%
+    - exact in 10.0 d (applying) — held, applying · **Transpluto** 3:5:8 (closest 0.133% at 14:31:06) · tuned · sky beyond the Sirius end · off−30 0.134% · off 0.133% · finish 0.133% · finish+30 0.133%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 13:34:25 (off−22.8m) same body: natal Venus – sky Venus + Arcturus RA φ: 2/φ/φ³/φ³+1 0.000% — exact 22.8 min before the off, separating through the race
+  - 13:43:10 (off−14.0m) same body: natal Venus – sky Venus + Altair RA 2:3:5 0.000% — exact 14.0 min before the off, separating through the race
+  - 13:57:10 (off) L3 **Saturn** on Dec Vesta–Equator 2:3:5 0.000% · natal Venus 1:3:4 0.131% · tuned · base lengths 2 · 4 tuned
+  - 13:59:25 (off+2.2m, in the race) same body: natal Venus – sky Venus + Deneb Algedi Dec φ: 2−1/φ/φ²/φ√5 0.000% — exact IN THE RACE
+  - 14:06:16 (finish+5.2m) L2 **Mercury** on Dec Makemake–Quaoar 2:5:7 0.049% · natal Venus 1:1:2 0.005% · tuned · tightest of 4
+  - 14:12:04 (finish+11.0m) L4 **Chiron** on RA Mercury–Vega 1:1:2 0.007% · natal Venus 3:8:11 0.013% · tuned · 6 tuned
+  - 14:12:28 (finish+11.4m) L3 **Vesta** on Dec Mars–Betelgeuse 1:3:4 0.036% · natal Venus 1:√2:1+√2 0.068% · tuned · 6 tuned
+  - 14:18:30 (finish+17.4m) natal Venus – sky Venus Sky = **1171/9** (off -0.0000; within ±0.002 14:15:50–14:21:10)
+  - 14:20:46 (finish+19.7m) L3 **Quaoar** on Dec Mars–Betelgeuse 3:5:8 0.078% · natal Venus 1:√2:1+√2 0.068% · tuned · 6 tuned
+  - 14:23:10 (finish+22.1m) natal Venus – sky Venus Sky = **92√2** (off +0.0000; within ±0.002 14:20:30–14:25:50)
+  - 14:26:10 (finish+25.1m) L4 **Venus** on RA Mercury–Vega 5:8:13 0.129% · natal Venus 3:8:11 0.013% · tuned · SAME BODY · 6 tuned
+
+**Mars** (RA 17.244, Dec +6.753)
+- *Method 1:* strongest strings: RA Procyon–Regulus φ: 2−1/φ/φ²/φ√5 0.000% · numbers: RA Procyon ★ 69√2; ninths 4 · figures ≤0.02%: none · partner links: PARALLEL P07 Mars +6.753 P08 Orcus +6.679 diff 0.074; P07 Mars – P08 Saturn Dec 23.0004 = whole 23 [one fast]; P07 Mars – P08 Chiron RA 52.2204 = 470/9 [one fast]; P07 Mars – P08 Pluto RA 161.3342 = 1452/9 [one fast]; P07 Mars – P08 Rahu Dec 10.4445 = 94/9 [one fast]; P07 Mars – P08 Venus Dec 5.6564 = 4√2 [both fast]
+- *Sky bodies on its star strings within 0.15% in the window (6 holds), string by string, in order of the first exact time:*
+  - **Dec Algol–Polaris** — natal Mars 1:√2:1+√2 0.123%, beyond the Algol end · 5 bodies in 4 charts, this #4, tightest Slanelough Uranus 0.011% · partner: no
+    - exact 9.0 d ago (separating) — held, separating · **Saturn** 4:5:9 (closest 0.018% at 13:27:10) · tuned · sky beyond the Algol end · off−30 0.018% · off 0.018% · finish 0.018% · finish+30 0.018%
+  - **Dec Betelgeuse–Regulus** — natal Mars 1:7:8 0.150%, beyond the Betelgeuse end · 8 bodies in 5 charts, this #8, tightest Callum Bewley Ceres 0.028% · partner: Haumea φ: 2−1/φ/φ²/φ√5 0.136%
+    - exact 23.8 h before the off (13 Oct 14:09:29) — held, separating · **Neptune** 3:8:11 (closest 0.070% at 13:27:10) · tuned · sky beyond the Betelgeuse end · off−30 0.070% · off 0.072% · finish 0.072% · finish+30 0.073%
+    - exact 40.2 min before the off (13:16:58) — held, separating · **Mercury** 3:8:11 (closest 0.034% at 13:27:10) · tuned · sky beyond the Betelgeuse end · off−30 0.034% · off 0.136% · finish 0.149% · finish+30 0.250%
+    - exact 32.5 min before the off (13:24:38) — held, separating · **Venus** 1:7:8 (closest 0.001% at 13:27:10) · UNISON · sky beyond the Betelgeuse end · off−30 0.001% · off 0.017% · finish 0.019% · finish+30 0.034%
+  - **RA Aldebaran–Sirius** — natal Mars 5:8:13 0.080%, beyond the Aldebaran end · 10 bodies in 6 charts, this #5, tightest If Not For Dylan Orcus 0.014% · partner: no
+    - exact in 5.6 d (applying) — held, applying · **Makemake** 1:3:4 (closest 0.114% at 14:31:06) · tuned · sky beyond the Sirius end · off−30 0.115% · off 0.114% · finish 0.114% · finish+30 0.114%
+    - exact in 10.0 d (applying) — held, applying · **Transpluto** 3:5:8 (closest 0.133% at 14:31:06) · tuned · sky beyond the Sirius end · off−30 0.134% · off 0.133% · finish 0.133% · finish+30 0.133%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 13:38:10 (off−19.0m) L3 **Gonggong** on Dec Pallas–Algorab 5:6:11 0.056% · natal Mars 4:5:9 0.043% · tuned · 5 tuned
+  - 13:47:55 (off−9.2m) natal Mars – sky Mars Flat = **whole 180** (off +0.0000; within ±0.002 13:43:05–13:52:50)
+  - 13:51:16 (off−5.9m) L4 **Juno** on Dec Mercury–Algorab 5:8:13 0.043% · natal Mars 3:4:7 0.085% · tuned · 2 tuned
+  - 14:02:40 (finish+1.6m) L3 **Pluto** on Dec Pallas–Algorab 1:√2:1+√2 0.007% · natal Mars 4:5:9 0.043% · tuned · 5 tuned
+  - 14:12:04 (finish+11.0m) L4 **Chiron** on RA Mercury–Vega 1:1:2 0.007% · natal Mars φ: 2−1/φ/φ²/φ√5 0.064% · tuned · 6 tuned
+  - 14:17:40 (finish+16.6m) same body: natal Mars – sky Mars + Alphecca RA 1:4:5 0.000% — applying through the race, exact 16.6 min after the finish
+  - 14:18:25 (finish+17.3m) same body: natal Mars – sky Mars + Fomalhaut Dec 3:5:8 0.000% — applying through the race, exact 17.3 min after the finish
+  - 14:26:10 (finish+25.1m) L4 **Venus** on RA Mercury–Vega 5:8:13 0.129% · natal Mars φ: 2−1/φ/φ²/φ√5 0.064% · tuned · 6 tuned
+  - 14:29:58 (finish+28.9m) L2 **Mercury** on Dec Chiron–Haumea 5:6:11 0.131% · natal Mars 4:5:9 0.048% · tuned · base lengths 7/3 · 3 tuned
+
+**Jupiter** (RA 71.003, Dec +21.906)
+- *Method 1:* strongest strings: Dec Capella–Rigel 4:5:9 0.015% (all day) · numbers: RA Sun 40√2; Dec Bellatrix ★ 11√2; ninths 6 · figures ≤0.02%: RA Eris–Makemake φ: 2−1/φ/φ²/φ√5 0.001%; Dec Ceres–Haumea 1:2:3 0.004%; RA Juno–Quaoar 1:3:4 0.005%; Dec Quaoar–Transpluto 3:8:11 0.011% · near-stationary (Dec +0.025°/d) · partner links: P07 Jupiter – P08 Rahu Flat 25.8886 = 16φ [slow–slow]; P07 Jupiter – P08 Rahu RA 25.4568 = 18√2 [slow–slow]; P07 Jupiter – P08 Transpluto Sky 67.2242 = 605/9 [slow–slow]; P07 Jupiter – P08 Ceres Dec 3.5550 = 32/9 [one fast]
+- *Sky bodies on its star strings within 0.15% in the window (8 holds), string by string, in order of the first exact time:*
+  - **Dec Alkaid–Equator** — natal Jupiter 4:5:9 0.082%, INSIDE (nearer Equator) · 10 bodies in 7 charts, this #6, tightest Slanelough Mars 0.013% · partner: Jupiter 1:3:4 0.029%
+    - exact 1.1 h before the off (14 Oct 12:49:13) — held, separating · **Vesta** φ: 2/φ/φ³/φ³+1 (closest 0.041% at 13:27:10) · tuned · sky beyond the Equator end · off−30 0.041% · off 0.073% · finish 0.077% · finish+30 0.109%
+  - **Dec Algorab–Alphecca** — natal Jupiter 1:8:9 0.038%, INSIDE (nearer Alphecca) · 8 bodies in 6 charts, this #5, tightest Brian Hughes Transpluto 0.007% · partner: Transpluto 3:8:11 0.007%
+    - exact 14:23:48 (finish+22.7m) — after the finish · **Mercury** 3:8:11 (closest 0.001% at 14:23:55) · tuned · sky INSIDE (nearer Algorab) · inside, nearer opposite ends (sky 11.790 from Algorab, natal 4.805 from Alphecca; 16.16% of the base apart) · off−30 0.272% · off 0.127% · finish 0.109% · finish+30 0.035%
+  - **Dec Capella–Castor** — natal Jupiter 1:√2:1+√2 0.055%, beyond the Castor end · 6 bodies in 4 charts, this #2, tightest Brian Hughes Sedna 0.032% · partner: Sedna 1:2:3 0.032%; Makemake 3:5:8 0.103%
+    - exact 2.8 h after the off (14 Oct 16:43:56) — held, applying · **Venus** 1:4:5 (closest 0.039% at 14:31:06) · tuned · sky beyond the Castor end · off−30 0.057% · off 0.048% · finish 0.047% · finish+30 0.039%
+    - exact in 1.4 d (applying) — held, applying · **Rahu** 4:5:9 (closest 0.095% at 14:31:06) · tuned · sky beyond the Castor end · off−30 0.098% · off 0.097% · finish 0.097% · finish+30 0.095%
+  - **Dec Equator–Rigel** — natal Jupiter 3:8:11 0.126%, beyond the Equator end · 5 bodies in 4 charts, this #3, tightest Slanelough Juno 0.086% · partner: no
+    - exact 7.9 h after the off (14 Oct 21:50:46) — held, applying · **Orcus** 2:5:7 (closest 0.101% at 14:31:06) · tuned · sky beyond the Rigel end · off−30 0.115% · off 0.108% · finish 0.108% · finish+30 0.101%
+  - **Dec Aldebaran–Altair** — natal Jupiter 1:√2:1+√2 0.083%, beyond the Aldebaran end · 7 bodies in 4 charts, this #5, tightest Conor O'Farrell Makemake 0.020% · partner: no
+    - exact in 1.2 d (applying) — held, applying · **Orcus** 3:8:11 (closest 0.063% at 14:31:06) · tuned · sky beyond the Altair end · off−30 0.065% · off 0.064% · finish 0.064% · finish+30 0.063%
+  - **Dec Capella–Rigel** — natal Jupiter 4:5:9 0.015% STRONG, INSIDE (nearer Capella) · 3 bodies in 3 charts, this #1 (tightest) · partner: no
+    - exact in 1.7 d (applying) — held, applying · **Eris** 1:7:8 (closest 0.093% at 14:31:06) · tuned · sky INSIDE (nearer Rigel) · inside, nearer opposite ends (sky 6.780 from Rigel, natal 24.092 from Capella; 31.95% of the base apart) · off−30 0.096% · off 0.094% · finish 0.094% · finish+30 0.093%
+  - **RA Algorab–Alkaid** — natal Jupiter 1:6:7 0.054%, beyond the Algorab end · 5 bodies in 3 charts, this #4, tightest Finisk River Quaoar 0.015% · partner: no
+    - exact in 3.2 d (applying) — held, applying · **Ceres** 1:6:7 (closest 0.095% at 14:31:06) · UNISON · sky beyond the Algorab end · off−30 0.097% · off 0.096% · finish 0.096% · finish+30 0.095%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 13:29:46 (off−27.4m) L3 **Pallas** on RA Ceres–Vega 1:√2:1+√2 0.004% · natal Jupiter 1:8:9 0.052% · tuned · base lengths 9/8 · 4 tuned
+  - 13:40:10 (off−17.0m) L3 **Gonggong** on Dec Pallas–Sirius 4:5:9 0.050% · natal Jupiter 3:8:11 0.141% · tuned · 6 tuned
+  - 13:51:04 (off−6.1m) L3 **Mercury** on Dec Juno–Capella 1:7:8 0.044% · natal Jupiter 4:5:9 0.133% · tuned · 2 tuned
+  - 14:07:16 (finish+6.2m) L3 **Sedna** on Dec Saturn–Mars 5:6:11 0.027% · natal Jupiter 4:5:9 0.031% · tuned · 8 tuned
+
+**Saturn** (RA 218.142, Dec -12.182)
+- *Method 1:* strongest strings: RA Antares–Sirius 1:4:5 0.005% (all day); Dec Betelgeuse–Castor 4:5:9 0.007% (all day); Dec Castor–Equator φ: 2−1/φ/φ²/φ√5 0.015% (all day) · numbers: RA Mercury whole 132; RA Rahu 4φ; Sky Algorab ★ whole 30; ninths 5 · figures ≤0.02%: Dec Eris–Haumea 2:5:7 0.001%; Dec Pallas–Venus 1:2:3 0.001%; RA Gonggong–Pluto 5:6:11 0.008%; RA Gonggong–Sun 1:3:4 0.013%; RA Ceres–Orcus 5:6:11 0.015% · partner links: PARALLEL P07 Saturn -12.182 P08 Quaoar -12.214 diff 0.032; P07 Saturn – P08 Saturn Sky 13.1121 = 118/9 [slow–slow]; P07 Saturn – P08 Ceres Flat 129.8869 = 1169/9 [one fast]
+- *Sky bodies on its star strings within 0.15% in the window (9 holds), string by string, in order of the first exact time:*
+  - **Dec Pleiades–Sirius** — natal Saturn 1:8:9 0.135%, INSIDE (nearer Sirius) · 8 bodies in 6 charts, this #4, tightest Callum Bewley Ketu 0.013% · partner: Sedna 1:1:2 0.149%; Vesta 5:8:13 0.150%
+    - exact 2.6 d ago (separating) — held, separating · **Eris** 3:5:8 (closest 0.092% at 13:27:10) · tuned · sky INSIDE (nearer Sirius) · off−30 0.092% · off 0.092% · finish 0.092% · finish+30 0.093%
+  - **RA Antares–Sirius** — natal Saturn 1:4:5 0.005% STRONG, INSIDE (nearer Antares) · 3 bodies in 3 charts, this #1 (tightest) · partner: no
+    - exact 1.9 d ago (separating) — held, separating · **Orcus** φ: φ/φ² (closest 0.099% at 13:27:10) · tuned · sky INSIDE (nearer Sirius) · inside, nearer opposite ends (sky 55.825 from Sirius, natal 29.213 from Antares; 18.22% of the base apart) · off−30 0.099% · off 0.100% · finish 0.101% · finish+30 0.102%
+  - **Dec Arcturus–Betelgeuse** — natal Saturn 3:5:8 0.121%, beyond the Betelgeuse end · 3 bodies in 3 charts, this #3, tightest Arvico Bleu Mars 0.091% · partner: Quaoar 3:5:8 0.103%
+    - exact 1.4 d ago (separating) — held, separating · **Eris** 3:4:7 (closest 0.054% at 13:27:10) · tuned · sky beyond the Betelgeuse end · off−30 0.054% · off 0.055% · finish 0.055% · finish+30 0.056%
+    - exact 3.2 h before the off (14 Oct 10:43:36) — held, separating · **Vesta** φ: φ/φ² (closest 0.107% at 13:27:10) · tuned · sky beyond the Betelgeuse end · off−30 0.107% · off 0.127% · finish 0.130% · finish+30 0.149%
+  - **Dec Arcturus–Vega** — natal Saturn 5:8:13 0.054%, beyond the Arcturus end · 5 bodies in 3 charts, this #2, tightest Finisk River Transpluto 0.020% · partner: no
+    - exact 11.0 h before the off (14 Oct 2:57:17) — held, separating · **Chiron** 2:3:5 (closest 0.063% at 13:27:10) · tuned · sky beyond the Arcturus end · off−30 0.063% · off 0.066% · finish 0.066% · finish+30 0.069%
+  - **Dec Castor–Equator** — natal Saturn φ: 2−1/φ/φ²/φ√5 0.015% STRONG, beyond the Equator end · 7 bodies in 5 charts, this #2, tightest If Not For Dylan Sun 0.008% · partner: Haumea 1:3:4 0.137%
+    - exact 5.4 h before the off (14 Oct 8:33:13) — held, separating · **Chiron** φ: 2/φ/φ³/φ³+1 (closest 0.078% at 13:27:10) · tuned · sky INSIDE (nearer Equator) · off−30 0.078% · off 0.086% · finish 0.087% · finish+30 0.095%
+  - **Dec Betelgeuse–Vega** — natal Saturn 5:8:13 0.108%, beyond the Betelgeuse end · 4 bodies in 4 charts, this #4, tightest Conor O'Farrell Jupiter 0.004% · partner: Quaoar 5:8:13 0.061%
+    - exact 37.9 min after the off (14:35:06) — held, applying · **Juno** φ: φ/φ² (closest 0.001% at 14:31:06) · tuned · sky beyond the Betelgeuse end · off−30 0.017% · off 0.009% · finish 0.008% · finish+30 0.001%
+  - **Sky Algol–Alkaid** — natal Saturn 1:√2:1+√2 0.127%, beyond the Alkaid end · 2 bodies in 2 charts, this #2, tightest Brian Hughes Venus 0.076% · partner: Venus 1:3:4 0.076%
+    - exact 2.2 h after the off (14 Oct 16:11:57) — held, applying · **Vesta** 1:√2:1+√2 (closest 0.030% at 14:31:06) · UNISON · sky beyond the Alkaid end · off−30 0.049% · off 0.040% · finish 0.039% · finish+30 0.030%
+  - **RA Alphecca–Deneb Algedi** — natal Saturn 1:6:7 0.137%, beyond the Alphecca end · 5 bodies in 4 charts, this #5, tightest Craig Nichol Chiron 0.044% · partner: no
+    - exact in 1.6 d (applying) — held, applying · **Makemake** φ: 2−1/φ/φ²/φ√5 (closest 0.088% at 14:31:06) · tuned · sky beyond the Alphecca end · off−30 0.090% · off 0.089% · finish 0.089% · finish+30 0.088%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 13:39:04 (off−18.1m) L3 **Uranus** on Dec Jupiter–Mars 3:8:11 0.052% · natal Saturn 4:5:9 0.031% · tuned · tightest of 3
+
+**Uranus** (RA 8.279, Dec +2.843)
+- *Method 1:* strongest strings: Dec Algorab–Castor 2:3:5 0.009% (all day) · numbers: RA Neptune whole 32; RA Bellatrix ★ whole 73; Sky Antares ★ 84√2; ninths 7 · figures ≤0.02%: RA Pluto–Rahu 2:3:5 0.003%; Dec Ketu–Mercury 2:3:5 0.011%; Sky Ketu–Transpluto 3:8:11 0.015%; RA Gonggong–Pluto φ: φ/φ² 0.018%; Dec Ceres–Gonggong 5:8:13 0.019% · partner links: P07 Uranus – P08 Saturn Flat 138.5932 = 98√2 [slow–slow]
+- *Sky bodies on its star strings within 0.15% in the window (16 holds), string by string, in order of the first exact time:*
+  - **Dec Algorab–Castor** — natal Uranus 2:3:5 0.009% STRONG, INSIDE (nearer Algorab) · 7 bodies in 6 charts, this #1 (tightest) · partner: no
+    - exact 4.4 d ago (separating) — held, separating · **Transpluto** 4:5:9 (closest 0.100% at 13:27:10) · tuned · sky INSIDE (nearer Castor) · inside, nearer opposite ends (sky 21.523 from Castor, natal 19.362 from Algorab; 4.47% of the base apart) · off−30 0.100% · off 0.100% · finish 0.100% · finish+30 0.101%
+  - **Dec Betelgeuse–Regulus** — natal Uranus 1:1:2 0.042%, beyond the Betelgeuse end · 8 bodies in 5 charts, this #2, tightest Callum Bewley Ceres 0.028% · partner: Haumea φ: 2−1/φ/φ²/φ√5 0.136%
+    - exact 23.8 h before the off (13 Oct 14:09:29) — held, separating · **Neptune** 3:8:11 (closest 0.070% at 13:27:10) · tuned · sky beyond the Betelgeuse end · off−30 0.070% · off 0.072% · finish 0.072% · finish+30 0.073%
+    - exact 40.2 min before the off (13:16:58) — held, separating · **Mercury** 3:8:11 (closest 0.034% at 13:27:10) · tuned · sky beyond the Betelgeuse end · off−30 0.034% · off 0.136% · finish 0.149% · finish+30 0.250%
+    - exact 32.5 min before the off (13:24:38) — held, separating · **Venus** 1:7:8 (closest 0.001% at 13:27:10) · tuned · sky beyond the Betelgeuse end · off−30 0.001% · off 0.017% · finish 0.019% · finish+30 0.034%
+  - **Dec Algol–Arcturus** — natal Uranus 3:4:7 0.051%, beyond the Arcturus end · 5 bodies in 3 charts, this #2, tightest Gold Des Bois Neptune 0.028% · partner: no
+    - exact 21.8 h before the off (13 Oct 16:10:39) — held, separating · **Chiron** 3:5:8 (closest 0.128% at 13:27:10) · tuned · sky beyond the Arcturus end · off−30 0.128% · off 0.131% · finish 0.131% · finish+30 0.134%
+    - exact 2.2 h before the off (14 Oct 11:44:57) — held, separating · **Vesta** 1:√2:1+√2 (closest 0.041% at 13:27:10) · tuned · sky beyond the Arcturus end · off−30 0.041% · off 0.054% · finish 0.055% · finish+30 0.067%
+  - **Dec Alphecca–Polaris** — natal Uranus φ: 2−1/φ/φ²/φ√5 0.110%, beyond the Alphecca end · 7 bodies in 4 charts, this #6, tightest Gold Des Bois Rahu 0.006% · partner: no
+    - exact 16.3 h before the off (13 Oct 21:36:28) — held, separating · **Juno** φ: φ/φ² (closest 0.116% at 13:27:10) · tuned · sky beyond the Alphecca end · off−30 0.116% · off 0.120% · finish 0.121% · finish+30 0.124%
+  - **Dec Arcturus–Vega** — natal Uranus 5:6:11 0.064%, beyond the Arcturus end · 5 bodies in 3 charts, this #3, tightest Finisk River Transpluto 0.020% · partner: no
+    - exact 11.0 h before the off (14 Oct 2:57:17) — held, separating · **Chiron** 2:3:5 (closest 0.063% at 13:27:10) · tuned · sky beyond the Arcturus end · off−30 0.063% · off 0.066% · finish 0.066% · finish+30 0.069%
+  - **Dec Arcturus–Sirius** — natal Uranus 5:6:11 0.139%, INSIDE (nearer Arcturus) · 1 bodies in 1 charts, this #1 (tightest) · partner: no
+    - exact 10.6 h before the off (14 Oct 3:22:49) — held, separating · **Neptune** 1:2:3 (closest 0.046% at 13:27:10) · tuned · sky INSIDE (nearer Sirius) · inside, nearer opposite ends (sky 11.961 from Sirius, natal 16.329 from Arcturus; 12.17% of the base apart) · off−30 0.046% · off 0.049% · finish 0.049% · finish+30 0.051%
+    - exact 52.0 min before the off (13:05:09) — held, separating · **Mercury** 1:2:3 (closest 0.113% at 13:27:10) · tuned · sky INSIDE (nearer Sirius) · inside, nearer opposite ends (sky 11.973 from Sirius, natal 16.329 from Arcturus; 12.14% of the base apart) · off−30 0.113% · off 0.267% · finish 0.288% · finish+30 0.441%
+  - **Dec Alphecca–Regulus** — natal Uranus φ: φ/φ² 0.104%, beyond the Regulus end · 4 bodies in 4 charts, this #1 (tightest) · partner: no
+    - exact 2.7 h before the off (14 Oct 11:12:41) — held, separating · **Vesta** 5:8:13 (closest 0.071% at 13:27:10) · tuned · sky beyond the Regulus end · off−30 0.071% · off 0.087% · finish 0.089% · finish+30 0.105%
+    - exact 10.2 h after the off (15 Oct 0:08:18) — held, applying · **Rahu** 1:√2:1+√2 (closest 0.089% at 14:31:06) · tuned · sky INSIDE (nearer Alphecca) · off−30 0.099% · off 0.094% · finish 0.094% · finish+30 0.089%
+  - **Dec Algorab–Spica** — natal Uranus φ: 2−1/φ/φ²/φ√5 0.086%, beyond the Spica end · 13 bodies in 6 charts, this #9, tightest Craig Nichol Juno 0.022% · partner: no
+    - exact 46.1 min before the off (13:11:06) — held, separating · **Mars** 4:5:9 (closest 0.067% at 13:27:10) · tuned · sky beyond the Spica end · off−30 0.067% · off 0.193% · finish 0.209% · finish+30 0.335%
+    - exact 13:57:59 (off+0.8m, in the race) — in the race · **Mercury** 5:6:11 (closest 0.000% at 13:57:55) · tuned · sky beyond the Spica end · off−30 0.197% · off 0.005% · finish 0.020% · finish+30 0.211%
+    - exact in 19.6 d (applying) — held, applying · **Pluto** 5:6:11 (closest 0.030% at 14:31:06) · tuned · sky beyond the Algorab end · off−30 0.030% · off 0.030% · finish 0.030% · finish+30 0.030%
+  - **Dec Alkaid–Castor** — natal Uranus 3:5:8 0.027%, beyond the Castor end · 8 bodies in 6 charts, this #2, tightest Arvico Bleu Pallas 0.024% · partner: Sedna φ: φ/φ² 0.042%
+    - exact 4.6 h after the off (14 Oct 18:31:55) — held, applying · **Vesta** 2:5:7 (closest 0.069% at 14:31:06) · tuned · sky beyond the Castor end · off−30 0.087% · off 0.079% · finish 0.078% · finish+30 0.069%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 13:34:04 (off−23.1m) L4 **Haumea** on Dec Mercury–Ketu 4:5:9 0.108% · natal Uranus 2:3:5 0.011% · tuned · 6 tuned
+  - 14:12:28 (finish+11.4m) L3 **Vesta** on Dec Mars–Betelgeuse 1:3:4 0.036% · natal Uranus 1:6:7 0.126% · tuned · 6 tuned
+  - 14:20:46 (finish+19.7m) L3 **Quaoar** on Dec Mars–Betelgeuse 3:5:8 0.078% · natal Uranus 1:6:7 0.126% · tuned · 6 tuned
+
+**Neptune** (RA 336.279, Dec -10.562)
+- *Method 1:* strongest strings: RA Altair–Capella 3:8:11 0.004% (all day) · numbers: RA Uranus whole 32; RA Bellatrix ★ whole 105; Dec Haumea whole 29; ninths 7 · figures ≤0.02%: none · partner links: P07 Neptune – P08 Quaoar RA 108.8963 = 77√2 [slow–slow]; P07 Neptune – P08 Makemake Sky 152.7787 = 1375/9 [slow–slow]; P07 Neptune – P08 Mars Dec 34.7793 = 313/9 [one fast]
+- *Sky bodies on its star strings within 0.15% in the window (8 holds), string by string, in order of the first exact time:*
+  - **RA Betelgeuse–Spica** — natal Neptune 5:5:6 0.029%, beyond the Betelgeuse end · 2 bodies in 2 charts, this #1 (tightest) · partner: no
+    - exact 2.9 d ago (separating) — held, separating · **Gonggong** 5:5:6 (closest 0.039% at 13:27:10) · UNISON · sky beyond the Betelgeuse end · off−30 0.039% · off 0.039% · finish 0.039% · finish+30 0.040%
+  - **RA Altair–Capella** — natal Neptune 3:8:11 0.004% STRONG, INSIDE (nearer Altair) · 5 bodies in 4 charts, this #1 (tightest) · partner: no
+    - exact 1.7 d ago (separating) — held, separating · **Gonggong** 3:8:11 (closest 0.050% at 13:27:10) · UNISON · sky INSIDE (nearer Altair) · off−30 0.050% · off 0.051% · finish 0.051% · finish+30 0.052%
+  - **Dec Algorab–Antares** — natal Neptune 3:5:8 0.136%, beyond the Algorab end · 10 bodies in 5 charts, this #8, tightest Conor O'Farrell Gonggong 0.002% · partner: Ceres φ: 2/φ/φ³/φ³+1 0.068%; Eris 5:8:13 0.085%
+    - exact 23.9 h before the off (13 Oct 14:03:52) — held, separating · **Gonggong** 1:2:3 (closest 0.049% at 13:27:10) · tuned · sky beyond the Algorab end · off−30 0.049% · off 0.050% · finish 0.050% · finish+30 0.051%
+  - **Dec Rigel–Sirius** — natal Neptune φ: 2−1/φ/φ²/φ√5 0.147%, INSIDE (nearer Rigel) · 6 bodies in 5 charts, this #6, tightest Sam Coltherd Ceres 0.012% · partner: no
+    - exact 14:30:33 (finish+29.4m) — after the finish · **Juno** 4:5:9 (closest 0.000% at 14:30:40) · tuned · sky INSIDE (nearer Rigel) · off−30 0.143% · off 0.075% · finish 0.066% · finish+30 0.001%
+    - exact 2.9 h after the off (14 Oct 16:53:20) — held, applying · **Orcus** 5:8:13 (closest 0.053% at 14:31:06) · tuned · sky INSIDE (nearer Rigel) · off−30 0.077% · off 0.066% · finish 0.064% · finish+30 0.053%
+  - **RA Altair–Spica** — natal Neptune 2:5:7 0.065%, beyond the Altair end · 4 bodies in 4 charts, this #2, tightest Sam Coltherd Vesta 0.033% · partner: no
+    - exact 23.1 h after the off (15 Oct 13:00:16) — held, applying · **Gonggong** 2:5:7 (closest 0.020% at 14:31:06) · UNISON · sky beyond the Altair end · off−30 0.021% · off 0.020% · finish 0.020% · finish+30 0.020%
+  - **RA Pleiades–Vega** — natal Neptune 1:√2:1+√2 0.103%, INSIDE (nearer Vega) · 4 bodies in 4 charts, this #4, tightest Conor O'Farrell Jupiter 0.040% · partner: no
+    - exact in 2.7 d (applying) — held, applying · **Gonggong** 1:√2:1+√2 (closest 0.067% at 14:31:06) · UNISON · sky INSIDE (nearer Vega) · off−30 0.068% · off 0.067% · finish 0.067% · finish+30 0.067%
+  - **Dec Alkaid–Polaris** — natal Neptune 2:3:5 0.099%, beyond the Alkaid end · 9 bodies in 7 charts, this #7, tightest Sam Coltherd Ceres 0.013% · partner: Pallas 4:5:9 0.017%; Ketu 3:5:8 0.086%
+    - exact in 29.0 d (applying) — held, applying · **Jupiter** φ: φ/φ² (closest 0.112% at 14:31:06) · tuned · sky beyond the Alkaid end · off−30 0.112% · off 0.112% · finish 0.112% · finish+30 0.112%
+
+**Pluto** (RA 282.080, Dec -19.681)
+- *Method 1:* strongest strings: Dec Bellatrix–Fomalhaut φ: 2−1/φ/φ²/φ√5 0.003% (all day); Dec Capella–Pleiades 1:2:3 0.006% (all day); Dec Alphecca–Altair 5:8:13 0.010% (all day) · numbers: no φ/√2/whole; ninths 5 (Dec Quaoar 37/9 (all day) all day) · figures ≤0.02%: RA Rahu–Uranus 2:3:5 0.003%; RA Gonggong–Saturn 5:6:11 0.008%; RA Gonggong–Uranus φ: φ/φ² 0.018% · partner links: P07 Pluto – P08 Chiron Flat 152.0941 = 94φ [slow–slow]; P07 Pluto – P08 Ketu Sky 53.4457 = 481/9 [slow–slow]; P07 Pluto – P08 Rahu Sky 126.5543 = 1139/9 [slow–slow]
+- *Sky bodies on its star strings within 0.15% in the window (3 holds), string by string, in order of the first exact time:*
+  - **Dec Castor–Equator** — natal Pluto φ: φ/φ² 0.139%, beyond the Equator end · 7 bodies in 5 charts, this #7, tightest If Not For Dylan Sun 0.008% · partner: Haumea 1:3:4 0.137%
+    - exact 5.4 h before the off (14 Oct 8:33:13) — held, separating · **Chiron** φ: 2/φ/φ³/φ³+1 (closest 0.078% at 13:27:10) · tuned · sky INSIDE (nearer Equator) · off−30 0.078% · off 0.086% · finish 0.087% · finish+30 0.095%
+  - **Dec Capella–Pleiades** — natal Pluto 1:2:3 0.006% STRONG, beyond the Pleiades end · 6 bodies in 4 charts, this #2, tightest If Not For Dylan Neptune 0.002% · partner: no
+    - exact 3.3 h before the off (14 Oct 10:40:14) — held, separating · **Mars** 1:√2:1+√2 (closest 0.097% at 13:27:10) · tuned · sky beyond the Pleiades end · off−30 0.097% · off 0.114% · finish 0.116% · finish+30 0.133%
+  - **Dec Bellatrix–Fomalhaut** — natal Pluto φ: 2−1/φ/φ²/φ√5 0.003% STRONG, INSIDE (nearer Fomalhaut) · 9 bodies in 6 charts, this #1 (tightest) · partner: no
+    - exact 1.9 h before the off (14 Oct 12:03:32) — held, separating · **Vesta** 1:1:2 (closest 0.116% at 13:27:10) · tuned · sky at the MIDPOINT · off−30 0.116% · off 0.158% · finish 0.164% · finish+30 0.205%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 13:51:04 (off−6.1m) L4 **Juno** on Dec Mercury–Capella 1:7:8 0.044% · natal Pluto 1:4:5 0.043% · tuned · 5 tuned
+  - 14:02:04 (finish+1.0m) L2 **Mars** on Dec Orcus–Equator 2:3:5 0.030% · natal Pluto φ: φ/φ² 0.122% · tuned · 4 tuned
+  - 14:08:40 (finish+7.6m) L2 **Mercury** on Dec Eris–Betelgeuse 3:8:11 0.144% · natal Pluto 2:3:5 0.078% · tuned · 6 tuned
+  - 14:13:34 (finish+12.5m) L4 **Orcus** on RA Mercury–Ketu 2:3:5 0.032% · natal Pluto 4:5:9 0.043% · tuned · 8 tuned
+  - 14:17:10 (finish+16.1m) same body: natal Pluto – sky Pluto + Venus RA φ: 2−1/φ/φ²/φ√5 0.000% — applying through the race, exact 16.1 min after the finish
+  - 14:22:10 (finish+21.1m) same body: natal Pluto – sky Pluto + Ketu Dec 2:5:7 0.000% — applying through the race, exact 21.1 min after the finish
+
+**Chiron** (RA 340.948, Dec -2.589)
+- *Method 1:* strongest strings: Dec Betelgeuse–Sirius 1:√2:1+√2 0.005% · numbers: Dec Vesta 16φ; ninths 9 · figures ≤0.02%: none · partner links: P07 Chiron – P08 Transpluto RA 161.1115 = 1450/9 [slow–slow]; P07 Chiron – P08 Ceres Sky 111.7235 = 79√2 [one fast]; P07 Chiron – P08 Sun RA 105.1703 = 65φ [one fast]; P07 Chiron – P08 Venus Dec 14.9985 = whole 15 [one fast]; P07 Chiron – P08 Sun Flat 108.3320 = 975/9 [one fast]
+- *Sky bodies on its star strings within 0.15% in the window (14 holds), string by string, in order of the first exact time:*
+  - **Dec Castor–Polaris** — natal Chiron 3:5:8 0.148%, beyond the Castor end · 4 bodies in 3 charts, this #4, tightest Arvico Bleu Eris 0.066% · partner: no
+    - exact 2.6 d ago (separating) — held, separating · **Transpluto** 3:8:11 (closest 0.033% at 13:27:10) · tuned · sky beyond the Castor end · off−30 0.033% · off 0.033% · finish 0.033% · finish+30 0.033%
+  - **Dec Castor–Vega** — natal Chiron 1:5:6 0.063%, beyond the Castor end · 6 bodies in 5 charts, this #3, tightest Slanelough Mercury 0.033% · partner: no
+    - exact 1.6 d ago (separating) — held, separating · **Makemake** 1:√2:1+√2 (closest 0.142% at 13:27:10) · tuned · sky beyond the Castor end · off−30 0.142% · off 0.144% · finish 0.144% · finish+30 0.146%
+  - **Dec Algol–Arcturus** — natal Chiron 1:1:2 0.100%, beyond the Arcturus end · 5 bodies in 3 charts, this #5, tightest Gold Des Bois Neptune 0.028% · partner: no
+    - exact 21.8 h before the off (13 Oct 16:10:39) — held, separating · **Chiron** 3:5:8 (closest 0.128% at 13:27:10) · tuned · SAME BODY · sky beyond the Arcturus end · off−30 0.128% · off 0.131% · finish 0.131% · finish+30 0.134%
+    - exact 2.2 h before the off (14 Oct 11:44:57) — held, separating · **Vesta** 1:√2:1+√2 (closest 0.041% at 13:27:10) · tuned · sky beyond the Arcturus end · off−30 0.041% · off 0.054% · finish 0.055% · finish+30 0.067%
+  - **Dec Algorab–Spica** — natal Chiron 5:8:13 0.080%, beyond the Spica end · 13 bodies in 6 charts, this #7, tightest Craig Nichol Juno 0.022% · partner: no
+    - exact 46.1 min before the off (13:11:06) — held, separating · **Mars** 4:5:9 (closest 0.067% at 13:27:10) · tuned · sky beyond the Spica end · off−30 0.067% · off 0.193% · finish 0.209% · finish+30 0.335%
+    - exact 13:57:59 (off+0.8m, in the race) — in the race · **Mercury** 5:6:11 (closest 0.000% at 13:57:55) · tuned · sky beyond the Spica end · off−30 0.197% · off 0.005% · finish 0.020% · finish+30 0.211%
+    - exact in 19.6 d (applying) — held, applying · **Pluto** 5:6:11 (closest 0.030% at 14:31:06) · tuned · sky beyond the Algorab end · off−30 0.030% · off 0.030% · finish 0.030% · finish+30 0.030%
+  - **Dec Pleiades–Regulus** — natal Chiron 5:6:11 0.078%, beyond the Regulus end · 9 bodies in 6 charts, this #4, tightest Sam Coltherd Eris 0.012% · partner: no
+    - exact 14:30:14 (finish+29.1m) — after the finish · **Uranus** 2:5:7 (closest 0.000% at 14:30:10) · tuned · sky INSIDE (nearer Regulus) · off−30 0.020% · off 0.010% · finish 0.009% · finish+30 0.000%
+    - exact 2.9 h after the off (14 Oct 16:51:42) — held, applying · **Pallas** 5:8:13 (closest 0.091% at 14:31:06) · tuned · sky beyond the Regulus end · off−30 0.132% · off 0.113% · finish 0.110% · finish+30 0.091%
+  - **RA Alkaid–Alphecca** — natal Chiron 1:4:5 0.123%, beyond the Alphecca end · 3 bodies in 3 charts, this #3, tightest Callum Bewley Mars 0.018% · partner: no
+    - exact 1.2 h after the off (14 Oct 15:09:15) — held, applying · **Mercury** φ: φ/φ² (closest 0.089% at 14:31:06) · tuned · sky beyond the Alkaid end · off−30 0.239% · off 0.168% · finish 0.159% · finish+30 0.089%
+  - **Dec Betelgeuse–Sirius** — natal Chiron 1:√2:1+√2 0.005% STRONG, INSIDE (nearer Betelgeuse) · 6 bodies in 5 charts, this #1 (tightest) · partner: no
+    - exact 1.4 h after the off (14 Oct 15:22:06) — held, applying · **Pallas** 5:8:13 (closest 0.112% at 14:31:06) · tuned · sky INSIDE (nearer Sirius) · inside, nearer opposite ends (sky 9.287 from Sirius, natal 9.995 from Betelgeuse; 2.94% of the base apart) · off−30 0.252% · off 0.186% · finish 0.177% · finish+30 0.112%
+  - **Dec Aldebaran–Fomalhaut** — natal Chiron 1:√2:1+√2 0.102%, INSIDE (nearer Aldebaran) · 7 bodies in 5 charts, this #6, tightest Sam Coltherd Venus 0.016% · partner: Jupiter 2:5:7 0.055%; Pluto φ: 2−1/φ/φ²/φ√5 0.106%
+    - exact 6.2 h after the off (14 Oct 20:09:17) — held, applying · **Juno** φ: φ/φ² (closest 0.147% at 14:31:06) · tuned · sky INSIDE (nearer Fomalhaut) · inside, nearer opposite ends (sky 17.637 from Fomalhaut, natal 19.097 from Aldebaran; 3.16% of the base apart) · off−30 0.175% · off 0.162% · finish 0.160% · finish+30 0.147%
+  - **Dec Aldebaran–Altair** — natal Chiron 2:3:5 0.048%, beyond the Altair end · 7 bodies in 4 charts, this #3, tightest Conor O'Farrell Makemake 0.020% · partner: no
+    - exact in 1.2 d (applying) — held, applying · **Orcus** 3:8:11 (closest 0.063% at 14:31:06) · tuned · sky beyond the Altair end · off−30 0.065% · off 0.064% · finish 0.064% · finish+30 0.063%
+  - **RA Algol–Antares** — natal Chiron 1:√2:1+√2 0.139%, INSIDE (nearer Algol) · 5 bodies in 5 charts, this #5, tightest Craig Nichol Venus 0.019% · partner: Quaoar 1:8:9 0.075%
+    - exact in 4.9 d (applying) — held, applying · **Quaoar** 1:5:6 (closest 0.122% at 14:31:06) · tuned · sky INSIDE (nearer Antares) · inside, nearer opposite ends (sky 26.590 from Antares, natal 66.088 from Algol; 24.73% of the base apart) · off−30 0.123% · off 0.123% · finish 0.123% · finish+30 0.122%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 13:30:58 (off−26.2m) L2 **Vesta** on Dec Haumea–Quaoar 1:7:8 0.096% · natal Chiron φ: φ/φ² 0.106% · tuned · 7 tuned
+
+**Ceres** (RA 89.984, Dec +28.846 — OUT OF BOUNDS +5.41)
+- *Method 1:* strongest strings: Dec Betelgeuse–Capella 4:5:9 0.002% (all day); RA Pleiades–Procyon 3:4:7 0.010%; RA Arcturus–Castor φ: 2/φ/φ³/φ³+1 0.016% · numbers: RA Orcus 36φ; Sky Quaoar whole 166; ninths 9 · figures ≤0.02%: Dec Haumea–Jupiter 1:2:3 0.004%; RA Orcus–Saturn 5:6:11 0.015%; Dec Gonggong–Uranus 5:8:13 0.019% · OUT OF BOUNDS +5.41, near-stationary (Dec +0.011°/d) · partner links: P07 Ceres – P08 Gonggong Sky 126.7794 = 1141/9 [one fast]; P07 Ceres – P08 Uranus Dec 51.5559 = 464/9 [one fast]
+- *Sky bodies on its star strings within 0.15% in the window (11 holds), string by string, in order of the first exact time:*
+  - **Dec Algorab–Polaris** — natal Ceres 3:4:7 0.108%, INSIDE (nearer Algorab) · 9 bodies in 7 charts, this #6, tightest Conor O'Farrell Ceres 0.022% · partner: Sedna φ: 2/φ/φ³/φ³+1 0.024%
+    - exact 4.8 d ago (separating) — held, separating · **Eris** 1:6:7 (closest 0.126% at 13:27:10) · tuned · sky INSIDE (nearer Algorab) · off−30 0.126% · off 0.126% · finish 0.127% · finish+30 0.127%
+    - exact 1.1 h before the off (14 Oct 12:52:51) — held, separating · **Mercury** 1:8:9 (closest 0.135% at 13:27:10) · tuned · sky INSIDE (nearer Algorab) · off−30 0.135% · off 0.252% · finish 0.268% · finish+30 0.385%
+    - exact 3.2 h after the off (14 Oct 17:08:07) — held, applying · **Neptune** 1:8:9 (closest 0.009% at 14:31:06) · tuned · sky INSIDE (nearer Algorab) · off−30 0.013% · off 0.011% · finish 0.011% · finish+30 0.009%
+  - **RA Fomalhaut–Vega** — natal Ceres φ: φ/φ² 0.117%, beyond the Fomalhaut end · 9 bodies in 6 charts, this #7, tightest Finisk River Eris 0.006% · partner: no
+    - exact 4.3 h before the off (14 Oct 9:39:33) — held, separating · **Gonggong** 1:7:8 (closest 0.018% at 13:27:10) · tuned · sky INSIDE (nearer Fomalhaut) · off−30 0.018% · off 0.021% · finish 0.021% · finish+30 0.023%
+    - exact 13:29:38 (off−27.5m) — before the off · **Mars** 4:5:9 (closest 0.000% at 13:29:40) · tuned · sky beyond the Vega end · off−30 0.001% · off 0.014% · finish 0.016% · finish+30 0.032%
+    - exact in 1.4 d (applying) — held, applying · **Ketu** 3:5:8 (closest 0.149% at 14:31:06) · tuned · sky beyond the Vega end · off−30 0.153% · off 0.151% · finish 0.151% · finish+30 0.149%
+  - **Dec Bellatrix–Fomalhaut** — natal Ceres 5:8:13 0.070%, beyond the Bellatrix end · 9 bodies in 6 charts, this #6, tightest Finisk River Pluto 0.003% · partner: no
+    - exact 1.9 h before the off (14 Oct 12:03:32) — held, separating · **Vesta** 1:1:2 (closest 0.116% at 13:27:10) · tuned · sky at the MIDPOINT · off−30 0.116% · off 0.158% · finish 0.164% · finish+30 0.205%
+  - **Dec Procyon–Regulus** — natal Ceres 2:5:7 0.083%, beyond the Regulus end · 10 bodies in 8 charts, this #7, tightest Craig Nichol Jupiter 0.030% · partner: Ceres 1:2:3 0.114%
+    - exact 13:56:09 (off−1.0m) — before the off · **Vesta** 2:5:7 (closest 0.000% at 13:56:10) · UNISON · sky beyond the Procyon end · off−30 0.021% · off 0.001% · finish 0.004% · finish+30 0.026%
+  - **Dec Antares–Spica** — natal Ceres φ: 2−1/φ/φ²/φ√5 0.088%, beyond the Spica end · 5 bodies in 4 charts, this #3, tightest Gold Des Bois Pluto 0.007% · partner: no
+    - exact 43.7 min after the off (14:40:54) — held, applying · **Venus** 1:7:8 (closest 0.096% at 14:31:06) · tuned · sky INSIDE (nearer Antares) · off−30 0.719% · off 0.427% · finish 0.389% · finish+30 0.096%
+  - **Dec Altair–Deneb Algedi** — natal Ceres 4:5:9 0.090%, beyond the Altair end · 8 bodies in 6 charts, this #6, tightest If Not For Dylan Pallas 0.004% · partner: Rahu 1:3:4 0.012%
+    - exact 11.2 h after the off (15 Oct 1:10:23) — held, applying · **Neptune** 5:6:11 (closest 0.063% at 14:31:06) · tuned · sky INSIDE (nearer Deneb Algedi) · off−30 0.069% · off 0.066% · finish 0.066% · finish+30 0.063%
+  - **RA Aldebaran–Bellatrix** — natal Ceres 1:√2:1+√2 0.036%, beyond the Bellatrix end · 6 bodies in 5 charts, this #3, tightest Sam Coltherd Mars 0.022% · partner: no
+    - exact in 6.2 d (applying) — held, applying · **Transpluto** 1:6:7 (closest 0.061% at 14:31:06) · tuned · sky beyond the Bellatrix end · off−30 0.061% · off 0.061% · finish 0.061% · finish+30 0.061%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 13:29:46 (off−27.4m) L2 **Transpluto** on Dec Makemake–Arcturus 1:3:4 0.006% · natal Ceres 1:5:6 0.050% · tuned · 7 tuned
+  - 13:35:55 (off−21.2m) same body: natal Ceres – sky Ceres + Capella RA 3:4:7 0.000% — exact 21.2 min before the off, separating through the race
+  - 14:13:34 (finish+12.5m) L4 **Orcus** on RA Mercury–Ketu 2:3:5 0.032% · natal Ceres 5:6:11 0.060% · tuned · 8 tuned
+
+**Pallas** (RA 37.102, Dec -6.178)
+- *Method 1:* strongest strings: none ≤0.02% (tightest RA Fomalhaut–Pleiades 3:8:11 0.024%) · numbers: RA Capella ★ 26φ; Flat Sedna whole 21; ninths 12 · figures ≤0.02%: Dec Saturn–Venus 1:2:3 0.001%; Dec Mercury–Orcus φ: 2−1/φ/φ²/φ√5 0.005%; RA Juno–Vesta 1:2:3 0.013% · partner links: CONTRAPARALLEL P07 Pallas -6.178 P08 Juno +6.221 diff 0.043; P07 Pallas – P08 Chiron RA 32.3619 = 20φ [one fast]; P07 Pallas – P08 Transpluto Sky 106.0015 = whole 106 [one fast]; P07 Pallas – P08 Gonggong RA 68.3337 = 615/9 [one fast]; P07 Pallas – P08 Ketu RA 171.5562 = 1544/9 [one fast]; P07 Pallas – P08 Rahu RA 8.4438 = 76/9 [one fast]; P07 Pallas – P08 Mars RA 59.0003 = whole 59 [both fast]
+- *Sky bodies on its star strings within 0.15% in the window (8 holds), string by string, in order of the first exact time:*
+  - **Dec Alkaid–Pleiades** — natal Pallas 5:6:11 0.113%, beyond the Pleiades end · 4 bodies in 4 charts, this #4, tightest If Not For Dylan Transpluto 0.019% · partner: Saturn 5:8:13 0.027%
+    - exact 4.7 d ago (separating) — held, separating · **Gonggong** 1:√2:1+√2 (closest 0.033% at 13:27:10) · tuned · sky beyond the Pleiades end · off−30 0.033% · off 0.033% · finish 0.033% · finish+30 0.033%
+    - exact 3.1 h before the off (14 Oct 10:50:53) — held, separating · **Pallas** 4:5:9 (closest 0.062% at 13:27:10) · tuned · SAME BODY · sky beyond the Pleiades end · off−30 0.062% · off 0.074% · finish 0.076% · finish+30 0.088%
+  - **RA Arcturus–Bellatrix** — natal Pallas 1:3:4 0.076%, beyond the Bellatrix end · 5 bodies in 4 charts, this #5, tightest Callum Bewley Mercury 0.013% · partner: no
+    - exact 2.4 d ago (separating) — held, separating · **Orcus** 3:4:7 (closest 0.134% at 13:27:10) · tuned · sky INSIDE (nearer Arcturus) · off−30 0.134% · off 0.135% · finish 0.135% · finish+30 0.136%
+    - exact in 2.5 d (applying) — held, applying · **Sedna** 1:6:7 (closest 0.059% at 14:31:06) · tuned · sky beyond the Bellatrix end · off−30 0.060% · off 0.059% · finish 0.059% · finish+30 0.059%
+  - **Dec Antares–Arcturus** — natal Pallas 4:5:9 0.128%, INSIDE (nearer Antares) · 8 bodies in 4 charts, this #8, tightest Gold Des Bois Chiron 0.027% · partner: no
+    - exact 14:13:41 (finish+12.6m) — after the finish · **Mars** 3:4:7 (closest 0.000% at 14:13:40) · tuned · sky INSIDE (nearer Antares) · off−30 0.075% · off 0.026% · finish 0.020% · finish+30 0.028%
+  - **Dec Betelgeuse–Equator** — natal Pallas 5:6:11 0.106%, beyond the Equator end · 15 bodies in 8 charts, this #11, tightest Arvico Bleu Pallas 0.013% · partner: Chiron 1:√2:1+√2 0.037%; Neptune 1:3:4 0.140%
+    - exact 1.0 h after the off (14 Oct 14:57:17) — held, applying · **Juno** φ: φ/φ² (closest 0.010% at 14:31:06) · tuned · sky beyond the Equator end · off−30 0.036% · off 0.024% · finish 0.022% · finish+30 0.010%
+    - exact in 17.3 d (applying) — held, applying · **Saturn** φ: 2−1/φ/φ²/φ√5 (closest 0.108% at 14:31:06) · tuned · sky beyond the Equator end · off−30 0.108% · off 0.108% · finish 0.108% · finish+30 0.108%
+  - **Dec Aldebaran–Regulus** — natal Pallas 1:4:5 0.130%, beyond the Regulus end · 4 bodies in 3 charts, this #4, tightest Craig Nichol Sedna 0.002% · partner: no
+    - exact in 10.2 d (applying) — held, applying · **Jupiter** 1:6:7 (closest 0.093% at 14:31:06) · tuned · sky beyond the Regulus end · off−30 0.094% · off 0.094% · finish 0.094% · finish+30 0.093%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 13:27:10 (off−30.0m) L3 **Pluto** on Dec Mars–Algorab 2:3:5 0.056% · natal Pallas 4:5:9 0.043% · tuned · base lengths 1+√2 · 10 tuned
+  - 13:27:46 (off−29.4m) L3 **Sedna** on Dec Ceres–Arcturus 3:8:11 0.011% · natal Pallas φ: 2−1/φ/φ²/φ√5 0.100% · tuned · 4 tuned
+  - 13:30:58 (off−26.2m) L2 **Vesta** on Dec Haumea–Quaoar 1:7:8 0.096% · natal Pallas φ: 2−1/φ/φ²/φ√5 0.107% · tuned · 7 tuned
+  - 13:39:40 (off−17.5m) same body: natal Pallas – sky Pallas + Rigel Dec φ: φ/φ² 0.001% — exact 17.5 min before the off, separating through the race
+  - 14:16:10 (finish+15.1m) L2 **Pallas** on Dec Eris–Equator φ: 2/φ/φ³/φ³+1 0.036% · natal Pallas 4:5:9 0.130% · tuned · SAME BODY · 10 tuned
+  - 14:22:16 (finish+21.2m) L2 **Pallas** on Dec Neptune–Eris 4:5:9 0.109% · natal Pallas 5:8:13 0.138% · tuned · SAME BODY · 6 tuned
+
+**Juno** (RA 306.624, Dec -8.169)
+- *Method 1:* strongest strings: none ≤0.02% (tightest RA Arcturus–Regulus 2:3:5 0.025%) · numbers: RA Orcus 112√2; Dec Venus whole 14; Dec Mercury 1φ; Flat Orcus 112√2; ninths 6 · figures ≤0.02%: RA Jupiter–Quaoar 1:3:4 0.005%; Sky Haumea–Ketu 1:1:√2 0.012%; RA Pallas–Vesta 1:2:3 0.013% · partner links: P07 Juno – P08 Saturn Flat 76.0473 = 47φ [one fast]; P07 Juno – P08 Eris Flat 75.6654 = 681/9 [one fast]; P07 Juno – P08 Orcus RA 177.8887 = 1601/9 [one fast]; P07 Juno – P08 Ceres Flat 150.9985 = whole 151 [both fast]
+- *Sky bodies on its star strings within 0.15% in the window (5 holds), string by string, in order of the first exact time:*
+  - **Dec Algol–Procyon** — natal Juno 3:8:11 0.095%, beyond the Procyon end · 6 bodies in 3 charts, this #5, tightest Slanelough Orcus 0.017% · partner: no
+    - exact 16.5 h before the off (13 Oct 21:25:35) — held, separating · **Haumea** φ: 2−1/φ/φ²/φ√5 (closest 0.095% at 13:27:10) · tuned · sky INSIDE (nearer Procyon) · off−30 0.095% · off 0.098% · finish 0.098% · finish+30 0.101%
+    - exact 4.4 h after the off (14 Oct 18:23:27) — held, applying · **Venus** 5:6:11 (closest 0.128% at 14:31:06) · tuned · sky beyond the Procyon end · off−30 0.163% · off 0.147% · finish 0.145% · finish+30 0.128%
+    - exact 12.7 h after the off (15 Oct 2:41:22) — held, applying · **Uranus** 2:5:7 (closest 0.078% at 14:31:06) · tuned · sky INSIDE (nearer Procyon) · off−30 0.085% · off 0.082% · finish 0.082% · finish+30 0.078%
+  - **RA Altair–Fomalhaut** — natal Juno φ: 2/φ/φ³/φ³+1 0.082%, INSIDE (nearer Altair) · 7 bodies in 6 charts, this #4, tightest Arvico Bleu Saturn 0.012% · partner: Vesta 1:2:3 0.133%
+    - exact in 4.6 d (applying) — held, applying · **Sedna** 5:8:13 (closest 0.032% at 14:31:06) · tuned · sky beyond the Fomalhaut end · off−30 0.032% · off 0.032% · finish 0.032% · finish+30 0.032%
+  - **RA Arcturus–Regulus** — natal Juno 2:3:5 0.025%, beyond the Arcturus end · 6 bodies in 5 charts, this #1 (tightest) · partner: Pallas 3:5:8 0.063%
+    - exact in 20.4 d (applying) — held, applying · **Pluto** 3:4:7 (closest 0.112% at 14:31:06) · tuned · sky beyond the Arcturus end · off−30 0.112% · off 0.112% · finish 0.112% · finish+30 0.112%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 13:27:46 (off−29.4m) L2 **Ceres** on Dec Sedna–Arcturus 3:8:11 0.011% · natal Juno 4:5:9 0.095% · tuned · 6 tuned
+  - 14:06:40 (finish+5.6m) natal Juno – sky Juno Flat = **φ^8** (off -0.0000; within ±0.002 13:56:10–14:17:10)
+  - 14:13:34 (finish+12.5m) L4 **Orcus** on RA Mercury–Ketu 2:3:5 0.032% · natal Juno 4:5:9 0.138% · tuned · 8 tuned
+
+**Vesta** (RA 82.336, Dec +23.301)
+- *Method 1:* strongest strings: Dec Altair–Fomalhaut 3:8:11 0.005% · numbers: Dec Chiron 16φ; ninths 7 · figures ≤0.02%: RA Juno–Pallas 1:2:3 0.013% · partner links: PARALLEL P07 Vesta +23.301 P08 Sun +23.392 diff 0.091; P07 Vesta – P08 Orcus Flat 45.3344 = 408/9 [one fast]; P07 Vesta – P08 Orcus Sky 43.7787 = 394/9 [one fast]; P07 Vesta – P08 Quaoar Flat 149.3322 = 1344/9 [one fast]
+- *Sky bodies on its star strings within 0.15% in the window (3 holds), string by string, in order of the first exact time:*
+  - **Dec Algol–Fomalhaut** — natal Vesta 1:3:4 0.073%, INSIDE (nearer Algol) · 5 bodies in 4 charts, this #2, tightest Arvico Bleu Sun 0.010% · partner: no
+    - exact 2.2 h before the off (14 Oct 11:46:41) — held, separating · **Juno** 1:3:4 (closest 0.036% at 13:27:10) · MIRROR · sky INSIDE (nearer Fomalhaut) · mirror: (sky 17.640 from Fomalhaut, natal 17.654 from Algol; 0.02% of the base apart) · off−30 0.036% · off 0.047% · finish 0.048% · finish+30 0.059%
+  - **Dec Bellatrix–Equator** — natal Vesta 3:8:11 0.150%, beyond the Bellatrix end · 8 bodies in 5 charts, this #8, tightest Craig Nichol Eris 0.019% · partner: no
+    - exact 10.1 h after the off (15 Oct 0:02:53) — held, applying · **Neptune** 3:4:7 (closest 0.073% at 14:31:06) · tuned · sky beyond the Equator end · off−30 0.082% · off 0.078% · finish 0.077% · finish+30 0.073%
+  - **Dec Capella–Regulus** — natal Vesta 1:2:3 0.114%, INSIDE (nearer Regulus) · 8 bodies in 7 charts, this #4, tightest Brian Hughes Vesta 0.022% · partner: Vesta φ: 2−1/φ/φ²/φ√5 0.022%; Mercury 5:8:13 0.091%
+    - exact 17.1 h after the off (15 Oct 7:04:41) — held, applying · **Jupiter** 4:5:9 (closest 0.006% at 14:31:06) · tuned · sky beyond the Regulus end · off−30 0.007% · off 0.007% · finish 0.007% · finish+30 0.006%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 13:30:58 (off−26.2m) L2 **Vesta** on Dec Haumea–Quaoar 1:7:8 0.096% · natal Vesta 1:7:8 0.142% · UNISON · SAME BODY · 7 tuned
+  - 13:33:52 (off−23.3m) L3 **Haumea** on Dec Mars–Ketu 5:8:13 0.049% · natal Vesta 5:8:13 0.054% · UNISON · 8 tuned
+  - 13:53:58 (off−3.2m) L3 **Saturn** on Dec Pallas–Regulus φ: φ/φ² 0.005% · natal Vesta 5:8:13 0.038% · tuned · 7 tuned
+  - 14:01:25 (finish+0.3m) same body: natal Vesta – sky Vesta + Equator Dec 1:2:3 0.000% — applying through the race, exact 0.3 min after the finish
+  - 14:30:00 (finish+28.9m) natal Vesta – sky Vesta Flat = **1286/9** (off +0.0000; within ±0.002 14:24:35–14:31:06)
+
+**Eris** (RA 25.139, Dec -3.434)
+- *Method 1:* strongest strings: RA Fomalhaut–Vega 5:8:13 0.006% (all day); Dec Alkaid–Arcturus 3:4:7 0.012% (all day); RA Algol–Deneb Algedi 3:8:11 0.017% (all day) · numbers: Dec Antares ★ whole 23; Flat Algol ★ 35√2; Sky Procyon ★ whole 90; ninths 11 (Dec Makemake 276/9 (all day); Sky Sedna 271/9 (all day) all day) · figures ≤0.02%: Dec Haumea–Saturn 2:5:7 0.001%; RA Jupiter–Makemake φ: 2−1/φ/φ²/φ√5 0.001% · partner links: P07 Eris – P08 Jupiter Dec 13.0001 = whole 13 [slow–slow]; P07 Eris – P08 Ketu Flat 160.1858 = 99φ [slow–slow]; P07 Eris – P08 Quaoar Flat 158.0006 = whole 158 [slow–slow]
+- *Sky bodies on its star strings within 0.15% in the window (10 holds), string by string, in order of the first exact time:*
+  - **RA Altair–Capella** — natal Eris φ: φ/φ² 0.023%, INSIDE (nearer Capella) · 5 bodies in 4 charts, this #2, tightest Finisk River Neptune 0.004% · partner: no
+    - exact 1.7 d ago (separating) — held, separating · **Gonggong** 3:8:11 (closest 0.050% at 13:27:10) · tuned · sky INSIDE (nearer Altair) · inside, nearer opposite ends (sky 38.571 from Altair, natal 54.030 from Capella; 10.93% of the base apart) · off−30 0.050% · off 0.051% · finish 0.051% · finish+30 0.052%
+  - **RA Fomalhaut–Vega** — natal Eris 5:8:13 0.006% STRONG, beyond the Fomalhaut end · 9 bodies in 6 charts, this #1 (tightest) · partner: no
+    - exact 4.3 h before the off (14 Oct 9:39:33) — held, separating · **Gonggong** 1:7:8 (closest 0.018% at 13:27:10) · tuned · sky INSIDE (nearer Fomalhaut) · off−30 0.018% · off 0.021% · finish 0.021% · finish+30 0.023%
+    - exact 13:29:38 (off−27.5m) — before the off · **Mars** 4:5:9 (closest 0.000% at 13:29:40) · tuned · sky beyond the Vega end · off−30 0.001% · off 0.014% · finish 0.016% · finish+30 0.032%
+    - exact in 1.4 d (applying) — held, applying · **Ketu** 3:5:8 (closest 0.149% at 14:31:06) · tuned · sky beyond the Vega end · off−30 0.153% · off 0.151% · finish 0.151% · finish+30 0.149%
+  - **RA Aldebaran–Pleiades** — natal Eris φ: 2−1/φ/φ²/φ√5 0.071%, beyond the Pleiades end · 5 bodies in 5 charts, this #2, tightest Callum Bewley Sedna 0.036% · partner: Sun 1:√2:1+√2 0.116%
+    - exact 2.4 h after the off (14 Oct 16:20:05) — held, applying · **Rahu** 3:8:11 (closest 0.132% at 14:31:06) · tuned · sky INSIDE (nearer Pleiades) · off−30 0.210% · off 0.174% · finish 0.169% · finish+30 0.132%
+  - **Dec Capella–Castor** — natal Eris 2:5:7 0.138%, beyond the Castor end · 6 bodies in 4 charts, this #6, tightest Brian Hughes Sedna 0.032% · partner: Sedna 1:2:3 0.032%; Makemake 3:5:8 0.103%
+    - exact 2.8 h after the off (14 Oct 16:43:56) — held, applying · **Venus** 1:4:5 (closest 0.039% at 14:31:06) · tuned · sky beyond the Castor end · off−30 0.057% · off 0.048% · finish 0.047% · finish+30 0.039%
+    - exact in 1.4 d (applying) — held, applying · **Rahu** 4:5:9 (closest 0.095% at 14:31:06) · tuned · sky beyond the Castor end · off−30 0.098% · off 0.097% · finish 0.097% · finish+30 0.095%
+  - **RA Algol–Deneb Algedi** — natal Eris 3:8:11 0.017% STRONG, INSIDE (nearer Algol) · 4 bodies in 3 charts, this #1 (tightest) · partner: no
+    - exact 5.4 h after the off (14 Oct 19:21:56) — held, applying · **Juno** 5:6:11 (closest 0.084% at 14:31:06) · tuned · sky beyond the Deneb Algedi end · off−30 0.103% · off 0.094% · finish 0.093% · finish+30 0.084%
+  - **RA Pleiades–Regulus** — natal Eris 1:3:4 0.049%, beyond the Pleiades end · 1 bodies in 1 charts, this #1 (tightest) · partner: no
+    - exact 8.3 h after the off (14 Oct 22:14:48) — held, applying · **Uranus** 1:6:7 (closest 0.074% at 14:31:06) · tuned · sky beyond the Pleiades end · off−30 0.084% · off 0.079% · finish 0.079% · finish+30 0.074%
+  - **Dec Alphecca–Vega** — natal Eris 2:5:7 0.089%, beyond the Alphecca end · 3 bodies in 2 charts, this #3, tightest If Not For Dylan Rahu 0.028% · partner: no
+    - exact 8.5 h after the off (14 Oct 22:25:54) — held, applying · **Makemake** φ: 2−1/φ/φ²/φ√5 (closest 0.064% at 14:31:06) · tuned · sky beyond the Alphecca end · off−30 0.072% · off 0.068% · finish 0.068% · finish+30 0.064%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 13:31:16 (off−25.9m) L2 **Mars** on Dec Gonggong–Aldebaran 1:5:6 0.118% · natal Eris 1:2:3 0.061% · tuned · base lengths 16/15 · 10 tuned
+  - 13:33:52 (off−23.3m) L3 **Haumea** on Dec Mars–Ketu 5:8:13 0.049% · natal Eris 1:1:2 0.058% · tuned · 8 tuned
+  - 14:08:46 (finish+7.7m) L2 **Mercury** on Dec Pluto–Betelgeuse 2:3:5 0.065% · natal Eris 2:3:5 0.078% · UNISON · 9 tuned
+  - 14:16:10 (finish+15.1m) L3 **Eris** on Dec Pallas–Equator φ: 2/φ/φ³/φ³+1 0.036% · natal Eris 4:5:9 0.130% · tuned · SAME BODY · 7 tuned
+  - 14:25:16 (finish+24.2m) L4 **Saturn** on Dec Venus–Spica φ: φ/φ² 0.091% · natal Eris 5:6:11 0.108% · tuned · 2 tuned
+
+**Sedna** (RA 53.429, Dec +7.027)
+- *Method 1:* strongest strings: none ≤0.02% (tightest RA Alkaid–Procyon 2:3:5 0.026% (all day)) · numbers: Flat Pallas whole 21; Sky Rahu 118√2; ninths 5 (Sky Eris 271/9 (all day) all day) · figures ≤0.02%: none · partner links: P07 Sedna – P08 Eris Flat 35.6686 = 321/9 [slow–slow]; P07 Sedna – P08 Sun Flat 36.5572 = 329/9 [one fast]
+- *Sky bodies on its star strings:* none within 0.15% in the window
+
+**Haumea** (RA 208.796, Dec +18.436)
+- *Method 1:* strongest strings: Dec Alphecca–Betelgeuse 3:4:7 0.018% (all day) · numbers: Dec Regulus ★ 4φ; Dec Neptune whole 29; ninths 3 · figures ≤0.02%: Dec Eris–Saturn 2:5:7 0.001%; RA Gonggong–Rahu 1:7:8 0.002%; Dec Ceres–Jupiter 1:2:3 0.004%; Sky Juno–Ketu 1:1:√2 0.012% · partner links: P07 Haumea – P08 Eris Sky 169.7047 = 120√2 [slow–slow]; P07 Haumea – P08 Haumea Flat 27.5059 = 17φ [slow–slow]; P07 Haumea – P08 Saturn Sky 40.9989 = whole 41 [slow–slow]; P07 Haumea – P08 Chiron Flat 139.3328 = 1254/9 [slow–slow]; P07 Haumea – P08 Chiron RA 139.3317 = 1254/9 [slow–slow]; P07 Haumea – P08 Sun Flat 122.7774 = 1105/9 [one fast]
+- *Sky bodies on its star strings within 0.15% in the window (1 holds), string by string, in order of the first exact time:*
+  - **RA Castor–Polaris** — natal Haumea 4:5:9 0.077%, beyond the Castor end · 10 bodies in 7 charts, this #6, tightest Slanelough Pallas 0.009% · partner: Orcus 1:7:8 0.117%
+    - exact in 3.6 d (applying) — held, applying · **Sedna** φ: 2−1/φ/φ²/φ√5 (closest 0.122% at 14:31:06) · tuned · sky INSIDE (nearer Polaris) · off−30 0.124% · off 0.123% · finish 0.123% · finish+30 0.122%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 14:06:25 (finish+5.3m) same body: natal Haumea – sky Haumea + Mercury RA φ: 2−1/φ/φ²/φ√5 0.000% — applying through the race, exact 5.3 min after the finish
+
+**Makemake** (RA 191.077, Dec +27.233 — OUT OF BOUNDS +3.80)
+- *Method 1:* strongest strings: none ≤0.02% (tightest Dec Capella–Vega 5:8:13 0.022% (all day)) · numbers: no φ/√2/whole; ninths 10 (Dec Eris 276/9 (all day) all day) · figures ≤0.02%: RA Eris–Jupiter φ: 2−1/φ/φ²/φ√5 0.001%; Dec Quaoar–Venus 1:1:2 0.005% · OUT OF BOUNDS +3.80 · partner links: P07 Makemake – P08 Jupiter Dec 43.6671 = 393/9 [slow–slow]; P07 Makemake – P08 Orcus Dec 20.5538 = 185/9 [slow–slow]; P07 Makemake – P08 Orcus Flat 69.6649 = 627/9 [slow–slow]
+- *Sky bodies on its star strings within 0.15% in the window (3 holds), string by string, in order of the first exact time:*
+  - **Dec Capella–Pleiades** — natal Makemake 1:6:7 0.030%, INSIDE (nearer Pleiades) · 6 bodies in 4 charts, this #4, tightest If Not For Dylan Neptune 0.002% · partner: no
+    - exact 3.3 h before the off (14 Oct 10:40:14) — held, separating · **Mars** 1:√2:1+√2 (closest 0.097% at 13:27:10) · tuned · sky beyond the Pleiades end · off−30 0.097% · off 0.114% · finish 0.116% · finish+30 0.133%
+  - **Dec Capella–Vega** — natal Makemake 5:8:13 0.022%, beyond the Vega end · 6 bodies in 4 charts, this #4, tightest Gold Des Bois Makemake 0.004% · partner: no
+    - exact 2.1 h before the off (14 Oct 11:51:29) — held, separating · **Vesta** 1:7:8 (closest 0.024% at 13:27:10) · tuned · sky beyond the Vega end · off−30 0.024% · off 0.031% · finish 0.032% · finish+30 0.040%
+  - **RA Betelgeuse–Polaris** — natal Makemake 1:2:3 0.114%, beyond the Betelgeuse end · 9 bodies in 7 charts, this #5, tightest Callum Bewley Makemake 0.010% · partner: Mars 1:7:8 0.148%
+    - exact 7.9 h after the off (14 Oct 21:49:34) — held, applying · **Chiron** 3:5:8 (closest 0.040% at 14:31:06) · tuned · sky beyond the Polaris end · off−30 0.046% · off 0.043% · finish 0.042% · finish+30 0.040%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 13:27:46 (off−29.4m) L3 **Sedna** on Dec Ceres–Arcturus 3:8:11 0.011% · natal Makemake 1:5:6 0.050% · tuned · 4 tuned
+  - 13:51:16 (off−5.9m) L3 **Mercury** on Dec Juno–Algorab 5:8:13 0.043% · natal Makemake φ: 2/φ/φ³/φ³+1 0.094% · tuned · 5 tuned
+  - 14:06:22 (finish+5.3m) L2 **Vesta** on Dec Chiron–Antares 5:6:11 0.014% · natal Makemake 4:5:9 0.060% · tuned · tightest of 4
+  - 14:31:06 (finish+30.0m) natal Makemake – sky Makemake RA = **whole 7** (off -0.0001; within ±0.002 13:27:10–14:31:06)
+
+**Quaoar** (RA 265.166, Dec -15.570)
+- *Method 1:* strongest strings: RA Alkaid–Castor 5:8:13 0.005% (all day); RA Algorab–Alkaid 1:3:4 0.015% (all day) · numbers: Sky Sirius ★ 89φ (all day); Sky Ceres whole 166; Sky Polaris ★ 75√2; ninths 4 (Dec Pluto 37/9 (all day) all day) · figures ≤0.02%: RA Juno–Jupiter 1:3:4 0.005%; Dec Makemake–Venus 1:1:2 0.005%; Dec Jupiter–Transpluto 3:8:11 0.011% · partner links: P07 Quaoar – P08 Chiron Flat 167.6679 = 1509/9 [slow–slow]; P07 Quaoar – P08 Eris Sky 112.5554 = 1013/9 [slow–slow]
+- *Sky bodies on its star strings within 0.15% in the window (3 holds), string by string, in order of the first exact time:*
+  - **Dec Pleiades–Spica** — natal Quaoar 1:8:9 0.052%, beyond the Spica end · 8 bodies in 5 charts, this #3, tightest If Not For Dylan Ketu 0.048% · partner: no
+    - exact 2.0 d ago (separating) — held, separating · **Eris** φ: 2−1/φ/φ²/φ√5 (closest 0.096% at 13:27:10) · tuned · sky INSIDE (nearer Spica) · off−30 0.096% · off 0.097% · finish 0.097% · finish+30 0.098%
+  - **RA Arcturus–Deneb Algedi** — natal Quaoar 5:6:11 0.149%, INSIDE (nearer Arcturus) · 4 bodies in 4 charts, this #4, tightest Sam Coltherd Eris 0.110% · partner: no
+    - exact 34.9 min after the off (14:32:01) — held, applying · **Mars** 1:7:8 (closest 0.002% at 14:31:06) · tuned · sky beyond the Arcturus end · off−30 0.170% · off 0.092% · finish 0.081% · finish+30 0.002%
+  - **RA Algorab–Alkaid** — natal Quaoar 1:3:4 0.015% STRONG, beyond the Alkaid end · 5 bodies in 3 charts, this #1 (tightest) · partner: no
+    - exact in 3.2 d (applying) — held, applying · **Ceres** 1:6:7 (closest 0.095% at 14:31:06) · tuned · sky beyond the Algorab end · off−30 0.097% · off 0.096% · finish 0.096% · finish+30 0.095%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 14:26:52 (finish+25.8m) L2 **Mercury** on Dec Chiron–Alkaid 1:4:5 0.117% · natal Quaoar 1:4:5 0.044% · UNISON · base lengths 6/5 · 4 tuned
+  - 14:29:58 (finish+28.9m) L2 **Mercury** on Dec Chiron–Haumea 5:6:11 0.131% · natal Quaoar φ: φ/φ² 0.106% · tuned · base lengths 7/3 · 3 tuned
+
+**Orcus** (RA 148.233, Dec -7.523)
+- *Method 1:* strongest strings: RA Aldebaran–Betelgeuse 1:3:4 0.003% (all day) · numbers: RA Ceres 36φ; RA Juno 112√2; Flat Capella ★ 54φ; Flat Juno 112√2; ninths 5 · figures ≤0.02%: Dec Mercury–Pallas φ: 2−1/φ/φ²/φ√5 0.005%; RA Ceres–Saturn 5:6:11 0.015% · partner links: P07 Orcus – P08 Gonggong Flat 180.0007 = whole 180 [slow–slow]; P07 Orcus – P08 Eris Sky 123.3333 = 1110/9 [slow–slow]; P07 Orcus – P08 Haumea Sky 45.4439 = 409/9 [slow–slow]; P07 Orcus – P08 Venus RA 109.0002 = whole 109 [one fast]; P07 Orcus – P08 Juno Flat 37.1100 = 334/9 [one fast]
+- *Sky bodies on its star strings within 0.15% in the window (8 holds), string by string, in order of the first exact time:*
+  - **RA Antares–Deneb Algedi** — natal Orcus 4:5:9 0.131%, beyond the Antares end · 7 bodies in 5 charts, this #6, tightest If Not For Dylan Transpluto 0.050% · partner: no
+    - exact 2.4 d ago (separating) — held, separating · **Pluto** 5:8:13 (closest 0.057% at 13:27:10) · tuned · sky INSIDE (nearer Deneb Algedi) · off−30 0.057% · off 0.057% · finish 0.057% · finish+30 0.058%
+    - exact 2.1 h before the off (14 Oct 11:51:56) — held, separating · **Mars** 5:8:13 (closest 0.081% at 13:27:10) · tuned · sky beyond the Antares end · off−30 0.081% · off 0.107% · finish 0.110% · finish+30 0.136%
+    - exact 14:07:53 (finish+6.8m) — after the finish · **Vesta** 1:3:4 (closest 0.000% at 14:07:55) · tuned · sky beyond the Antares end · off−30 0.054% · off 0.014% · finish 0.009% · finish+30 0.031%
+    - exact in 8.4 d (applying) — held, applying · **Eris** 3:4:7 (closest 0.121% at 14:31:06) · tuned · sky beyond the Deneb Algedi end · off−30 0.122% · off 0.121% · finish 0.121% · finish+30 0.121%
+  - **RA Aldebaran–Antares** — natal Orcus 4:5:9 0.054%, INSIDE (nearer Aldebaran) · 4 bodies in 4 charts, this #2, tightest Conor O'Farrell Mercury 0.014% · partner: no
+    - exact 1.3 d ago (separating) — held, separating · **Makemake** φ: 2−1/φ/φ²/φ√5 (closest 0.074% at 13:27:10) · tuned · sky INSIDE (nearer Antares) · inside, nearer opposite ends (sky 49.272 from Antares, natal 79.256 from Aldebaran; 16.81% of the base apart) · off−30 0.074% · off 0.075% · finish 0.075% · finish+30 0.076%
+  - **Dec Castor–Equator** — natal Orcus φ: 2/φ/φ³/φ³+1 0.063%, beyond the Equator end · 7 bodies in 5 charts, this #4, tightest If Not For Dylan Sun 0.008% · partner: Haumea 1:3:4 0.137%
+    - exact 5.4 h before the off (14 Oct 8:33:13) — held, separating · **Chiron** φ: 2/φ/φ³/φ³+1 (closest 0.078% at 13:27:10) · UNISON · sky INSIDE (nearer Equator) · off−30 0.078% · off 0.086% · finish 0.087% · finish+30 0.095%
+  - **RA Alphecca–Altair** — natal Orcus 3:4:7 0.099%, beyond the Alphecca end · 11 bodies in 6 charts, this #10, tightest Conor O'Farrell Mercury 0.047% · partner: no
+    - exact 13:28:02 (off−29.1m) — before the off · **Vesta** 1:5:6 (closest 0.000% at 13:27:55) · tuned · sky beyond the Alphecca end · off−30 0.002% · off 0.079% · finish 0.090% · finish+30 0.172%
+  - **RA Algol–Fomalhaut** — natal Orcus φ: φ/φ² 0.135%, beyond the Algol end · 12 bodies in 8 charts, this #11, tightest If Not For Dylan Saturn 0.002% · partner: Gonggong 1:4:5 0.077%; Sun 5:8:13 0.149%
+    - exact in 3.4 d (applying) — held, applying · **Ketu** 3:5:8 (closest 0.138% at 14:31:06) · tuned · sky beyond the Fomalhaut end · off−30 0.139% · off 0.139% · finish 0.138% · finish+30 0.138%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 14:11:25 (finish+10.3m) same body: natal Orcus – sky Orcus + Mercury Dec 1:√2:1+√2 0.001% — applying through the race, exact 10.3 min after the finish
+
+**Gonggong** (RA 335.358, Dec -13.411)
+- *Method 1:* strongest strings: Dec Altair–Capella 3:5:8 0.004% (all day); RA Antares–Polaris 1:√2:1+√2 0.010% (all day) · numbers: no φ/√2/whole; ninths 4 · figures ≤0.02%: RA Haumea–Rahu 1:7:8 0.002%; RA Pluto–Saturn 5:6:11 0.008%; RA Saturn–Sun 1:3:4 0.013%; RA Pluto–Uranus φ: φ/φ² 0.018%; Dec Ceres–Uranus 5:8:13 0.019% · partner links: P07 Gonggong – P08 Gonggong Dec 7.9987 = whole 8 [slow–slow]; P07 Gonggong – P08 Makemake RA 172.7776 = 1555/9 [slow–slow]
+- *Sky bodies on its star strings within 0.15% in the window (6 holds), string by string, in order of the first exact time:*
+  - **Dec Antares–Rigel** — natal Gonggong 2:5:7 0.033%, INSIDE (nearer Rigel) · 6 bodies in 4 charts, this #3, tightest Arvico Bleu Quaoar 0.019% · partner: no
+    - exact 1.9 d ago (separating) — held, separating · **Saturn** 5:8:13 (closest 0.053% at 13:27:10) · tuned · sky INSIDE (nearer Antares) · inside, nearer opposite ends (sky 7.015 from Antares, natal 5.207 from Rigel; 9.92% of the base apart) · off−30 0.053% · off 0.054% · finish 0.054% · finish+30 0.054%
+  - **RA Aldebaran–Vega** — natal Gonggong 3:5:8 0.090%, INSIDE (nearer Vega) · 5 bodies in 5 charts, this #4, tightest Slanelough Gonggong 0.006% · partner: no
+    - exact 1.5 d ago (separating) — held, separating · **Saturn** 1:4:5 (closest 0.040% at 13:27:10) · tuned · sky INSIDE (nearer Vega) · off−30 0.040% · off 0.040% · finish 0.040% · finish+30 0.041%
+  - **RA Antares–Polaris** — natal Gonggong 1:√2:1+√2 0.010% STRONG, INSIDE (nearer Polaris) · 5 bodies in 5 charts, this #1 (tightest) · partner: no
+    - exact 22.4 h before the off (13 Oct 15:34:35) — held, separating · **Chiron** 1:4:5 (closest 0.149% at 13:27:10) · tuned · sky INSIDE (nearer Polaris) · off−30 0.149% · off 0.152% · finish 0.153% · finish+30 0.156%
+  - **Dec Antares–Arcturus** — natal Gonggong 2:5:7 0.095%, INSIDE (nearer Antares) · 8 bodies in 4 charts, this #6, tightest Gold Des Bois Chiron 0.027% · partner: no
+    - exact 14:13:41 (finish+12.6m) — after the finish · **Mars** 3:4:7 (closest 0.000% at 14:13:40) · tuned · sky INSIDE (nearer Antares) · off−30 0.075% · off 0.026% · finish 0.020% · finish+30 0.028%
+  - **Dec Algorab–Procyon** — natal Gonggong 1:6:7 0.064%, INSIDE (nearer Algorab) · 8 bodies in 5 charts, this #2, tightest If Not For Dylan Sun 0.020% · partner: no
+    - exact in 2.9 d (applying) — held, applying · **Rahu** 1:√2:1+√2 (closest 0.147% at 14:31:06) · tuned · sky beyond the Procyon end · off−30 0.149% · off 0.148% · finish 0.148% · finish+30 0.147%
+  - **Dec Algol–Castor** — natal Gonggong 1:5:6 0.079%, beyond the Castor end · 6 bodies in 5 charts, this #2, tightest Finisk River Mercury 0.076% · partner: no
+    - exact in 3.0 d (applying) — held, applying · **Sedna** φ: 2−1/φ/φ²/φ√5 (closest 0.037% at 14:31:06) · tuned · sky beyond the Castor end · off−30 0.038% · off 0.037% · finish 0.037% · finish+30 0.037%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 14:22:16 (finish+21.2m) L2 **Pallas** on Dec Neptune–Eris 4:5:9 0.109% · natal Gonggong 2:5:7 0.058% · tuned · 6 tuned
+
+**Transpluto** (RA 151.510, Dec +11.685)
+- *Method 1:* strongest strings: RA Castor–Pleiades 2:3:5 0.014% (all day); Dec Arcturus–Vega φ: 2−1/φ/φ²/φ√5 0.020% (all day) · numbers: no φ/√2/whole; ninths 4 (Dec Rigel ★ 179/9 (all day) all day) · figures ≤0.02%: Dec Jupiter–Quaoar 3:8:11 0.011%; Sky Ketu–Uranus 3:8:11 0.015% · partner links: P07 Transpluto – P08 Eris Dec 21.9982 = whole 22 [slow–slow]; P07 Transpluto – P08 Eris Flat 131.1092 = 1180/9 [slow–slow]; P07 Transpluto – P08 Haumea RA 30.3336 = 273/9 [slow–slow]; P07 Transpluto – P08 Pluto Flat 64.8869 = 584/9 [slow–slow]; P07 Transpluto – P08 Ceres Dec 13.7765 = 124/9 [one fast]
+- *Sky bodies on its star strings within 0.15% in the window (8 holds), string by string, in order of the first exact time:*
+  - **Dec Algorab–Alkaid** — natal Transpluto 3:4:7 0.060%, INSIDE (nearer Algorab) · 5 bodies in 4 charts, this #3, tightest Sam Coltherd Saturn 0.003% · partner: no
+    - exact 6.9 d ago (separating) — held, separating · **Sedna** 3:5:8 (closest 0.134% at 13:27:10) · tuned · sky INSIDE (nearer Algorab) · off−30 0.134% · off 0.134% · finish 0.134% · finish+30 0.135%
+  - **Dec Algorab–Equator** — natal Transpluto 1:√2:1+√2 0.038%, beyond the Equator end · 10 bodies in 7 charts, this #3, tightest Brian Hughes Uranus 0.002% · partner: Uranus 3:8:11 0.002%; Sun 1:√2:1+√2 0.146%
+    - exact 3.9 d ago (separating) — held, separating · **Rahu** 4:5:9 (closest 0.149% at 13:27:10) · tuned · sky beyond the Equator end · off−30 0.149% · off 0.149% · finish 0.150% · finish+30 0.150%
+    - exact 39.6 min after the off (14:36:45) — held, applying · **Mercury** 2:5:7 (closest 0.069% at 14:31:06) · tuned · sky INSIDE (nearer Equator) · off−30 0.842% · off 0.480% · finish 0.432% · finish+30 0.069%
+  - **Dec Arcturus–Vega** — natal Transpluto φ: 2−1/φ/φ²/φ√5 0.020%, beyond the Arcturus end · 5 bodies in 3 charts, this #1 (tightest) · partner: no
+    - exact 11.0 h before the off (14 Oct 2:57:17) — held, separating · **Chiron** 2:3:5 (closest 0.063% at 13:27:10) · tuned · sky beyond the Arcturus end · off−30 0.063% · off 0.066% · finish 0.066% · finish+30 0.069%
+  - **RA Castor–Pleiades** — natal Transpluto 2:3:5 0.014% STRONG, beyond the Castor end · 8 bodies in 4 charts, this #2, tightest Gold Des Bois Orcus 0.011% · partner: Transpluto 1:2:3 0.090%; Haumea 5:6:11 0.094%; Vesta 5:8:13 0.105%
+    - exact 2.0 h after the off (14 Oct 15:58:48) — held, applying · **Ceres** 1:3:4 (closest 0.020% at 14:31:06) · tuned · sky INSIDE (nearer Pleiades) · off−30 0.035% · off 0.028% · finish 0.027% · finish+30 0.020%
+  - **RA Algol–Betelgeuse** — natal Transpluto 2:3:5 0.136%, beyond the Betelgeuse end · 4 bodies in 4 charts, this #4, tightest Gold Des Bois Ketu 0.062% · partner: no
+    - exact 16.4 h after the off (15 Oct 6:22:17) — held, applying · **Makemake** φ: 2−1/φ/φ²/φ√5 (closest 0.012% at 14:31:06) · tuned · sky beyond the Betelgeuse end · off−30 0.013% · off 0.012% · finish 0.012% · finish+30 0.012%
+  - **Dec Capella–Spica** — natal Transpluto 2:3:5 0.121%, INSIDE (nearer Spica) · 4 bodies in 4 charts, this #4, tightest Gold Des Bois Ketu 0.021% · partner: no
+    - exact in 2.4 d (applying) — held, applying · **Rahu** 4:5:9 (closest 0.134% at 14:31:06) · tuned · sky INSIDE (nearer Capella) · inside, nearer opposite ends (sky 25.383 from Capella, natal 22.848 from Spica; 4.43% of the base apart) · off−30 0.137% · off 0.135% · finish 0.135% · finish+30 0.134%
+  - **RA Algol–Fomalhaut** — natal Transpluto 3:5:8 0.090%, beyond the Algol end · 12 bodies in 8 charts, this #9, tightest If Not For Dylan Saturn 0.002% · partner: Gonggong 1:4:5 0.077%; Sun 5:8:13 0.149%
+    - exact in 3.4 d (applying) — held, applying · **Ketu** 3:5:8 (closest 0.138% at 14:31:06) · UNISON · sky beyond the Fomalhaut end · off−30 0.139% · off 0.139% · finish 0.138% · finish+30 0.138%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 14:09:34 (finish+8.5m) L2 **Mercury** on Dec Pluto–Gonggong 3:5:8 0.075% · natal Transpluto 1:4:5 0.067% · tuned · 5 tuned
+  - 14:31:06 (finish+30.0m) natal Transpluto – sky Transpluto Flat = **34/9** (off -0.0010; within ±0.002 13:27:10–14:31:06)
+
+**Rahu** (RA 224.616, Dec -16.935)
+- *Method 1:* strongest strings: Dec Alphecca–Rigel 1:4:5 0.014% (all day); Dec Bellatrix–Rigel 3:5:8 0.016% (all day) · numbers: RA Ketu whole 180 (all day); RA Saturn 4φ; Sky Ketu whole 180 (all day); Sky Sedna 118√2; ninths 8 · figures ≤0.02%: RA Gonggong–Haumea 1:7:8 0.002%; RA Pluto–Uranus 2:3:5 0.003% · partner links: P07 Rahu – P08 Transpluto RA 82.5568 = 743/9 [slow–slow]; P07 Rahu – P08 Sun Flat 144.2494 = 102√2 [one fast]; P07 Rahu – P08 Vesta RA 20.2214 = 182/9 [one fast]
+- *Sky bodies on its star strings within 0.15% in the window (9 holds), string by string, in order of the first exact time:*
+  - **Dec Algol–Polaris** — natal Rahu 5:6:11 0.141%, beyond the Algol end · 5 bodies in 4 charts, this #5, tightest Slanelough Uranus 0.011% · partner: no
+    - exact 9.0 d ago (separating) — held, separating · **Saturn** 4:5:9 (closest 0.018% at 13:27:10) · tuned · sky beyond the Algol end · off−30 0.018% · off 0.018% · finish 0.018% · finish+30 0.018%
+  - **Dec Aldebaran–Vega** — natal Rahu 2:3:5 0.102%, beyond the Aldebaran end · 7 bodies in 5 charts, this #7, tightest Callum Bewley Juno 0.006% · partner: no
+    - exact 1.8 d ago (separating) — held, separating · **Ketu** 3:5:8 (closest 0.039% at 13:27:10) · tuned · sky beyond the Aldebaran end · off−30 0.039% · off 0.039% · finish 0.040% · finish+30 0.040%
+    - exact 20.3 h before the off (13 Oct 17:40:04) — held, separating · **Sedna** 3:8:11 (closest 0.029% at 13:27:10) · tuned · sky beyond the Aldebaran end · off−30 0.029% · off 0.030% · finish 0.030% · finish+30 0.031%
+  - **Dec Bellatrix–Rigel** — natal Rahu 3:5:8 0.016% STRONG, beyond the Rigel end · 7 bodies in 4 charts, this #1 (tightest) · partner: Ketu φ: φ/φ² 0.031%
+    - exact 18.3 h before the off (13 Oct 19:39:39) — held, separating · **Uranus** 5:8:13 (closest 0.092% at 13:27:10) · tuned · sky beyond the Bellatrix end · off−30 0.092% · off 0.095% · finish 0.095% · finish+30 0.098%
+    - exact 21.4 h after the off (15 Oct 11:24:07) — held, applying · **Haumea** 3:5:8 (closest 0.101% at 14:31:06) · UNISON · sky beyond the Bellatrix end · off−30 0.106% · off 0.104% · finish 0.103% · finish+30 0.101%
+    - exact in 2.5 d (applying) — held, applying · **Quaoar** 1:2:3 (closest 0.102% at 14:31:06) · tuned · sky beyond the Rigel end · off−30 0.104% · off 0.103% · finish 0.103% · finish+30 0.102%
+  - **Dec Equator–Regulus** — natal Rahu 1:√2:1+√2 0.072%, beyond the Equator end · 6 bodies in 6 charts, this #4, tightest Craig Nichol Eris 0.063% · partner: Haumea 1:1:2 0.087%
+    - exact 5.7 h before the off (14 Oct 8:17:47) — held, separating · **Juno** 1:1:2 (closest 0.122% at 13:27:10) · tuned · sky beyond the Equator end · off−30 0.122% · off 0.134% · finish 0.136% · finish+30 0.148%
+  - **Dec Bellatrix–Equator** — natal Rahu 3:8:11 0.038%, beyond the Equator end · 8 bodies in 5 charts, this #2, tightest Craig Nichol Eris 0.019% · partner: no
+    - exact 10.1 h after the off (15 Oct 0:02:53) — held, applying · **Neptune** 3:4:7 (closest 0.073% at 14:31:06) · tuned · sky beyond the Equator end · off−30 0.082% · off 0.078% · finish 0.077% · finish+30 0.073%
+  - **Dec Altair–Arcturus** — natal Rahu 2:5:7 0.144%, beyond the Altair end · 6 bodies in 5 charts, this #6, tightest Conor O'Farrell Neptune 0.000% · partner: no
+    - exact in 1.9 d (applying) — held, applying · **Eris** 1:1:2 (closest 0.060% at 14:31:06) · tuned · sky beyond the Altair end · off−30 0.062% · off 0.061% · finish 0.061% · finish+30 0.060%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 14:02:04 (finish+1.0m) L2 **Mars** on Dec Orcus–Equator 2:3:5 0.030% · natal Rahu 4:5:9 0.080% · tuned · tightest of 4
+  - 14:06:22 (finish+5.3m) L3 **Chiron** on Dec Vesta–Antares 5:6:11 0.014% · natal Rahu φ: 2/φ/φ³/φ³+1 0.007% · tuned · tightest of 6
+  - 14:27:20 (finish+26.2m) natal Rahu – sky Rahu Flat = **1518/9** (off +0.0000; within ±0.002 13:27:10–14:31:06)
+
+**Ketu** (RA 44.616, Dec +16.935)
+- *Method 1:* strongest strings: none ≤0.02% (tightest Dec Bellatrix–Equator 3:5:8 0.062% (all day)) · numbers: RA Rahu whole 180 (all day); RA Regulus ★ 76√2; Sky Rahu whole 180 (all day); ninths 9 · figures ≤0.02%: Dec Mercury–Uranus 2:3:5 0.011%; Sky Haumea–Juno 1:1:√2 0.012%; Sky Transpluto–Uranus 3:8:11 0.015% · partner links: P07 Ketu – P08 Uranus Sky 151.3224 = 107√2 [slow–slow]; P07 Ketu – P08 Transpluto RA 97.4432 = 877/9 [slow–slow]; P07 Ketu – P08 Mars Flat 51.9987 = whole 52 [one fast]; P07 Ketu – P08 Sun Flat 42.0015 = whole 42 [one fast]; P07 Ketu – P08 Vesta RA 159.7786 = 1438/9 [one fast]
+- *Sky bodies on its star strings within 0.15% in the window (5 holds), string by string, in order of the first exact time:*
+  - **Dec Antares–Polaris** — natal Ketu 3:5:8 0.074%, INSIDE (nearer Antares) · 8 bodies in 6 charts, this #7, tightest If Not For Dylan Haumea 0.010% · partner: no
+    - exact 5.1 h before the off (14 Oct 8:51:29) — held, separating · **Juno** 1:7:8 (closest 0.103% at 13:27:10) · tuned · sky INSIDE (nearer Antares) · off−30 0.103% · off 0.115% · finish 0.116% · finish+30 0.127%
+  - **Dec Alphecca–Procyon** — natal Ketu 5:6:11 0.143%, INSIDE (nearer Alphecca) · 5 bodies in 5 charts, this #5, tightest Callum Bewley Eris 0.001% · partner: Saturn 1:1:2 0.048%
+    - exact 2.6 h before the off (14 Oct 11:22:28) — held, separating · **Juno** 4:5:9 (closest 0.034% at 13:27:10) · tuned · sky beyond the Procyon end · off−30 0.034% · off 0.043% · finish 0.044% · finish+30 0.052%
+    - exact in 4.5 d (applying) — held, applying · **Ketu** 5:6:11 (closest 0.137% at 14:31:06) · UNISON · SAME BODY · sky beyond the Procyon end · off−30 0.138% · off 0.138% · finish 0.137% · finish+30 0.137%
+  - **Dec Bellatrix–Equator** — natal Ketu 3:5:8 0.062%, beyond the Bellatrix end · 8 bodies in 5 charts, this #4, tightest Craig Nichol Eris 0.019% · partner: no
+    - exact 10.1 h after the off (15 Oct 0:02:53) — held, applying · **Neptune** 3:4:7 (closest 0.073% at 14:31:06) · tuned · sky beyond the Equator end · off−30 0.082% · off 0.078% · finish 0.077% · finish+30 0.073%
+  - **Dec Bellatrix–Castor** — natal Ketu 1:√2:1+√2 0.117%, INSIDE (nearer Bellatrix) · 6 bodies in 5 charts, this #6, tightest Conor O'Farrell Sun 0.009% · partner: no
+    - exact 11.7 h after the off (15 Oct 1:38:08) — held, applying · **Ceres** 5:8:13 (closest 0.086% at 14:31:06) · tuned · sky INSIDE (nearer Bellatrix) · off−30 0.094% · off 0.090% · finish 0.090% · finish+30 0.086%
+- *Other items exact in the window (Method 2 body/node layers, same body, numbers):*
+  - 14:27:20 (finish+26.2m) natal Ketu – sky Ketu Flat = **1518/9** (off +0.0000; within ±0.002 13:27:10–14:31:06)
+
+## 2. The transit Sun (in full, time order)
+- 13:27:10 (off−30.0m) **Sun** Dec Alkaid–Equator 1:6:7 0.089% · natal Sun 1:7:8 0.039% · tuned · SAME BODY · sky beyond the Equator end, natal INSIDE (nearer Equator) · 10 bodies in 7 charts, this #4, tightest Slanelough Mars · partner: Jupiter 1:3:4 0.029% · also on the string: Vesta 13:27:10 — not exact in the window (exact 58.5 min before the off (12:58:42))
+- 13:27:10 (off−30.0m) **Sun** Dec Alkaid–Equator 1:6:7 0.089% · natal Jupiter 4:5:9 0.082% · tuned · sky beyond the Equator end, natal INSIDE (nearer Equator) · 10 bodies in 7 charts, this #6, tightest Slanelough Mars · partner: Jupiter 1:3:4 0.029% · also on the string: Vesta 13:27:10 — not exact in the window (exact 58.5 min before the off (12:58:42))
+- 13:27:10 (off−30.0m) **Sun** Dec Antares–Bellatrix 4:5:9 0.092% · natal Chiron 3:8:11 0.047% · tuned · sky INSIDE (nearer Bellatrix), natal INSIDE (nearer Bellatrix) · 6 bodies in 5 charts, this #2, tightest Craig Nichol Saturn · partner: no — not exact in the window (exact 58.8 min before the off (12:58:22))
+- 13:27:10 (off−30.0m) **Sun** Dec Antares–Bellatrix 4:5:9 0.092% · natal Pallas φ: φ/φ² 0.064% · tuned · sky INSIDE (nearer Bellatrix), natal INSIDE (nearer Bellatrix) · 6 bodies in 5 charts, this #4, tightest Craig Nichol Saturn · partner: no — not exact in the window (exact 58.8 min before the off (12:58:22))
+- 13:27:10 (off−30.0m) **Sun** RA Alphecca–Antares 2:5:7 0.025% · natal Transpluto 1:6:7 0.118% · tuned · sky beyond the Alphecca end, natal beyond the Alphecca end · 5 bodies in 4 charts, this #4, tightest Sam Coltherd Neptune · partner: no — not exact in the window (exact 43.3 min before the off (13:13:54))
+- 13:27:10 (off−30.0m) **Sun** Dec Alphecca–Procyon 5:8:13 0.083% · natal Ketu 5:6:11 0.143% · tuned · sky beyond the Procyon end, natal INSIDE (nearer Alphecca) · 5 bodies in 5 charts, this #5, tightest Callum Bewley Eris · partner: Saturn 1:1:2 0.048% · also on the string: Juno 13:27:10; Ketu 14:31:06 — not exact in the window (exact 1.2 h before the off (14 Oct 12:43:36))
+- 13:27:10 (off−30.0m) same body: natal Makemake – sky Makemake + Sun RA 1:5:6 0.067% — separating since before off-30; followed out 0.015% at 13:26:00
+- 13:27:10 (off−30.0m) same body: natal Sun – sky Sun + Alkaid Dec 1:3:4 0.066% — separating since before off-30; followed out 0.000% at 12:50:00
+- 13:27:10 (off−30.0m) same body: natal Sun – sky Sun + Equator Dec 3:4:7 0.062% — separating since before off-30; followed out 0.001% at 13:07:00
+- 13:27:10 (off−30.0m) sky Sun Dec to Castor = **361/9** (off +0.0018; within ±0.002 13:27:10–13:28:00) (sky only, every runner)
+- 13:27:10 (off−30.0m) sky Sun parallel natal Juno, closest 0.058
+- 13:27:28 (off−29.7m) L4 **Jupiter** on RA Sun–Antares φ: φ/φ² 0.039% · natal Mercury φ: 2/φ/φ³/φ³+1 0.112% · tuned · tightest of 3
+- 13:28:30 (off−28.7m) sky Sun RA to Altair = **884/9** (off +0.0000; within ±0.002 13:27:10–13:31:35) (sky only, every runner)
+- 13:32:00 (off−25.2m) sky Sun Dec to Pleiades = **291/9** (off -0.0000; within ±0.002 13:27:10–13:39:45) (sky only, every runner)
+- 13:34:45 (off−22.4m) sky Sun Dec to CourseLat = **568/9** (off +0.0000; within ±0.002 13:27:10–13:42:25) (sky only, every runner)
+- 13:34:55 (off−22.2m) sky Sun Dec to Capella = **488/9** (off +0.0000; within ±0.002 13:27:10–13:42:40) (sky only, every runner)
+- 13:36:30 (off−20.7m) sky Sun RA to Polaris = **1450/9** (off -0.0000; within ±0.002 13:33:25–13:39:35) (sky only, every runner)
+- 13:37:10 (off−20.0m) L2 **Sun** on Dec Makemake–Antares 3:5:8 0.045% · natal Chiron 4:5:9 0.060% · tuned · 7 tuned
+- 13:37:10 (off−20.0m) L2 **Sun** on Dec Makemake–Antares 3:5:8 0.045% · natal Eris 3:4:7 0.009% · tuned · tightest of 7
+- 13:37:10 (off−20.0m) L2 **Sun** on Dec Makemake–Antares 3:5:8 0.045% · natal Mars φ: φ/φ² 0.146% · tuned · 7 tuned
+- 13:37:10 (off−20.0m) L2 **Sun** on Dec Makemake–Antares 3:5:8 0.045% · natal Uranus 5:6:11 0.028% · tuned · 7 tuned
+- 13:37:10 (off−20.0m) L4 **Makemake** on Dec Sun–Antares 3:5:8 0.045% · natal Quaoar 1:2:3 0.048% · tuned · 3 tuned
+- 13:41:40 (off−15.5m) sky Sun RA to Deneb Algedi = **90√2** (off -0.0000; within ±0.002 13:38:35–13:44:45) (sky only, every runner)
+- 13:44:10 (off−13.0m) same body: natal Sun – sky Sun + Moon Sky φ: φ/φ² 0.017% — exact 13.0 min before the off, separating through the race
+- 13:45:10 (off−12.0m) sky Sun RA to Procyon = **762/9** (off +0.0000; within ±0.002 13:42:05–13:48:15) (sky only, every runner)
+- 13:45:46 (off−11.4m) L2 **Sun** on Dec Neptune–Pluto φ: 2/φ/φ³/φ³+1 0.103% · natal Orcus 1:3:4 0.035% · tuned · 8 tuned
+- 13:53:25 (off−3.7m) sky Sun RA to Algol = **1372/9** (off +0.0000; within ±0.002 13:50:20–13:56:30) (sky only, every runner)
+- 13:53:40 (off−3.5m) L4 **Orcus** on Dec Sun–Sirius φ: φ/φ² 0.027% · natal Mercury 4:5:9 0.020% · tuned · tightest of 5
+- held at the off (exact 39.9 min after the off (14:37:06)) Nodes **Sun** on Dec Rahu–Equator 2:5:7 0.126% · natal Orcus 4:5:9 0.080% · tuned · 7 tuned
+- held at the off (exact 1.1 h after the off (14 Oct 15:03:53)) L2 **Sun** on Dec Sedna–Algol 1:2:3 0.104% · natal Mercury 2:5:7 0.040% · tuned · 10 tuned
+- held at the off (exact 1.1 h after the off (14 Oct 15:03:53)) L2 **Sun** on Dec Sedna–Algol 1:2:3 0.104% · natal Rahu 1:√2:1+√2 0.123% · tuned · 10 tuned
+- held at the off (exact 1.1 h after the off (14 Oct 15:03:53)) L2 **Sun** on Dec Sedna–Algol 1:2:3 0.104% · natal Quaoar 2:3:5 0.099% · tuned · 10 tuned
+- held at the off (exact 1.2 h before the off (14 Oct 12:42:26)) L2 **Sun** on Dec Haumea–Bellatrix 3:5:8 0.138% · natal Juno 5:6:11 0.074% · tuned · base lengths 2−1/φ · 5 tuned
+- held at the off (exact 45.6 min after the off (14:42:44)) L2 **Sun** on RA Orcus–Deneb Algedi 1:3:4 0.090% · natal Pluto 1:3:4 0.137% · UNISON · 4 tuned
+- held at the off (exact 2.2 h before the off (14 Oct 11:43:07)) L3 **Sun** on Dec Ceres–Polaris 1:3:4 0.147% · natal Sun 3:8:11 0.098% · tuned · SAME BODY · 5 tuned
+- held at the off (exact 1.1 h after the off (14 Oct 15:03:53)) L4 **Sedna** on Dec Sun–Algol 1:2:3 0.104% · natal Quaoar 5:8:13 0.036% · tuned · base lengths √2 · tightest of 8
+- held at the off (exact 42.7 min before the off (13:14:26)) L4 **Jupiter** on Dec Sun–Deneb Algedi 1:8:9 0.147% · natal Neptune 1:3:4 0.149% · tuned · 5 tuned
+- held at the off (exact 2.2 h before the off (14 Oct 11:43:07)) L4 **Ceres** on Dec Sun–Polaris 1:3:4 0.147% · natal Ceres 3:8:11 0.098% · tuned · SAME BODY · 7 tuned
+- 13:59:20 (off+2.2m, in the race) sky Sun Dec to Sirius = **6√2** (off +0.0000; within ±0.002 13:51:40–14:07:05) (sky only, every runner)
+- 14:04:26 (finish+3.3m) **Sun** Dec Altair–Fomalhaut 4:5:9 0.000% · natal Vesta 3:8:11 0.005% STRONG · tuned · sky INSIDE (nearer Altair), natal beyond the Altair end · 3 bodies in 3 charts, this #1 (tightest) · partner: no
+- 14:08:34 (finish+7.5m) L4 **Uranus** on Dec Sun–Deneb Algedi 1:3:4 0.049% · natal Neptune 1:3:4 0.149% · UNISON · 5 tuned
+- 14:10:15 (finish+9.1m) sky Sun Dec to Altair = **154/9** (off -0.0000; within ±0.002 14:02:35–14:18:00) (sky only, every runner)
+- 14:11:22 (finish+10.3m) L4 **Ketu** on Dec Sun–Aldebaran 1:2:3 0.045% · natal Neptune φ: φ/φ² 0.032% · tuned · 8 tuned
+- 14:11:22 (finish+10.3m) L4 **Ketu** on Dec Sun–Aldebaran 1:2:3 0.045% · natal Pluto 2:5:7 0.028% · tuned · 8 tuned
+- 14:15:35 (finish+14.5m) sky Sun RA to Sirius = **884/9** (off +0.0000; within ±0.002 14:12:30–14:18:40) (sky only, every runner)
+- 14:16:25 (finish+15.3m) sky Sun RA to Bellatrix = **1064/9** (off -0.0000; within ±0.002 14:13:20–14:19:30) (sky only, every runner)
+- 14:17:25 (finish+16.3m) sky Sun Dec to Deneb Algedi = **71/9** (off -0.0000; within ±0.002 14:09:40–14:25:05) (sky only, every runner)
+- 14:18:30 (finish+17.4m) natal Sun – sky Sun Sky = **1571/9** (off -0.0000; within ±0.002 14:15:35–14:21:20)
+- 14:20:55 (finish+19.8m) sky Sun RA to Capella = **1083/9** (off +0.0000; within ±0.002 14:17:50–14:24:00) (sky only, every runner)
+- 14:22:45 (finish+21.6m) sky Sun Dec to Alkaid = **518/9** (off -0.0000; within ±0.002 14:15:00–14:30:30) (sky only, every runner)
+- 14:23:16 (finish+22.2m) L2 **Sun** on Dec Eris–Antares 3:8:11 0.135% · natal Makemake 3:4:7 0.009% · tuned · tightest of 6
+- 14:23:16 (finish+22.2m) L4 **Eris** on Dec Sun–Antares 3:8:11 0.135% · natal Quaoar 1:2:3 0.048% · tuned · 3 tuned
+- 14:23:30 (finish+22.4m) **Sun** Dec Bellatrix–Spica 1:5:6 0.001% · natal Uranus 1:4:5 0.083% · tuned · sky INSIDE (nearer Spica), natal INSIDE (nearer Bellatrix) · 10 bodies in 6 charts, this #7, tightest Conor O'Farrell Sedna · partner: no
+- 14:23:40 (finish+22.6m) same body: natal Neptune – sky Neptune + Sun Dec 2:3:5 0.001% — applying through the race, exact 22.6 min after the finish
+- 14:27:35 (finish+26.5m) sky Sun RA to Spica = **16/9** (off -0.0000; within ±0.002 14:24:30–14:30:40) (sky only, every runner)
+- 14:31:06 (finish+30.0m) **Sun** Dec Algorab–Antares 5:6:11 0.071% · natal Neptune 3:5:8 0.136% · tuned · sky beyond the Algorab end, natal beyond the Algorab end · 10 bodies in 5 charts, this #8, tightest Conor O'Farrell Gonggong · partner: Ceres φ: 2/φ/φ³/φ³+1 0.068%; Eris 5:8:13 0.085% · also on the string: Gonggong 13:27:10 — not exact in the window (exact 56.7 min after the off (14:53:51))
+- 14:31:06 (finish+30.0m) **Sun** Dec Pleiades–Regulus 3:5:8 0.085% · natal Chiron 5:6:11 0.078% · tuned · sky beyond the Regulus end, natal beyond the Regulus end · 9 bodies in 6 charts, this #4, tightest Sam Coltherd Eris · partner: no · also on the string: Uranus 14:30:14; Pallas 14:31:06 — not exact in the window (exact 1.7 h after the off (14 Oct 15:37:57))
+- 14:31:06 (finish+30.0m) **Sun** RA Algol–Procyon 4:5:9 0.023% · natal Rahu φ: φ/φ² 0.101% · tuned · sky beyond the Procyon end, natal beyond the Procyon end · 8 bodies in 6 charts, this #6, tightest Conor O'Farrell Venus · partner: Orcus 1:7:8 0.056%; Mars φ: 2−1/φ/φ²/φ√5 0.110%; Juno 1:1:2 0.138% — not exact in the window (exact 1.1 h after the off (14 Oct 15:01:50))
+- 14:31:06 (finish+30.0m) same body: natal Sun – sky Sun + Deneb Algedi RA 3:8:11 0.101% — still applying at off+30; followed out 0.000% at 17:51:00
+
+## 3. The transit Moon — the clock (time order)
+Every Moon strike from off−10 (13:47:10) to finish+10 (14:11:06); outside that, only strikes with texture — on the runner's strongest Method 1 strings (≤0.02%), on a string another sky body or the Sun also plays, UNISON or same body, the runner tightest in the field, the partner on the string, or on the Sun's own distances — each marked with why it is kept. The full Moon list is in the repo record.
+- 13:27:10 (off−30.0m) **Moon** Dec Arcturus–Betelgeuse φ: 2−1/φ/φ²/φ√5 0.145% · natal Saturn 3:5:8 0.121% · tuned · sky beyond the Betelgeuse end, natal beyond the Betelgeuse end · 3 bodies in 3 charts, this #3, tightest Arvico Bleu Mars · partner: Quaoar 3:5:8 0.103% · also on the string: Eris 13:27:10; Vesta 13:27:10 — not exact in the window (exact 1.1 h before the off (14 Oct 12:52:47)) [kept: also played by Eris, Vesta; partner on it]
+- 13:27:10 (off−30.0m) **Moon** Dec Procyon–Regulus φ: 2/φ/φ³/φ³+1 0.070% · natal Ceres 2:5:7 0.083% · tuned · sky beyond the Procyon end, natal beyond the Regulus end · 10 bodies in 8 charts, this #7, tightest Craig Nichol Jupiter · partner: Ceres 1:2:3 0.114% · also on the string: Vesta 13:56:09 — not exact in the window (exact 45.4 min before the off (13:11:49)) [kept: also played by Vesta; partner on it]
+- 13:27:10 (off−30.0m) **Moon** Dec Algol–Procyon 4:5:9 0.080% · natal Juno 3:8:11 0.095% · tuned · sky beyond the Procyon end, natal beyond the Procyon end · 6 bodies in 3 charts, this #5, tightest Slanelough Orcus · partner: no · also on the string: Haumea 13:27:10; Uranus 14:31:06; Venus 14:31:06 — not exact in the window (exact 47.6 min before the off (13:09:34)) [kept: also played by Haumea, Uranus, Venus]
+- 13:27:10 (off−30.0m) **Moon** RA Arcturus–Regulus 5:8:13 0.132% · natal Juno 2:3:5 0.025% · tuned · sky beyond the Arcturus end, natal beyond the Arcturus end · 6 bodies in 5 charts, this #1 (tightest) · partner: Pallas 3:5:8 0.063% · also on the string: Pluto 14:31:06 — not exact in the window (exact 42.8 min before the off (13:14:25)) [kept: also played by Pluto; tightest in the field; partner on it]
+- 13:27:10 (off−30.0m) L2 **Moon** on Sky Uranus–Ketu 1:√2:1+√2 0.095% · natal Transpluto 3:8:11 0.015% · tuned · tightest of 4 [kept: strong Method 1 figure; tightest in the field]
+- 13:27:10 (off−30.0m) L2 **Moon** on RA Neptune–Algol 1:√2:1+√2 0.002% · natal Venus 3:4:7 0.140% · tuned · 3 tuned [kept: also played by Quaoar]
+- 13:27:10 (off−30.0m) L2 **Moon** on RA Neptune–Quaoar 1:1:2 0.047% · natal Jupiter 3:4:7 0.099% · tuned · 6 tuned [kept: also played by Pluto]
+- 13:27:10 (off−30.0m) L2 **Moon** on Dec Chiron–Spica 1:√2:1+√2 0.067% · natal Transpluto 3:5:8 0.120% · tuned · 4 tuned [kept: also played by Quaoar; partner on it]
+- 13:27:10 (off−30.0m) L2 **Moon** on RA Eris–Fomalhaut 3:4:7 0.009% · natal Uranus 1:√2:1+√2 0.109% · tuned · 3 tuned [kept: partner on it]
+- 13:27:10 (off−30.0m) L2 **Moon** on Dec Sedna–Capella 5:6:11 0.124% · natal Jupiter φ: φ/φ² 0.073% · tuned · 7 tuned [kept: also played by Jupiter, Quaoar]
+- 13:27:55 (off−29.2m) same body: natal Pluto – sky Pluto + Moon Dec 1:8:9 0.017% — exact 29.2 min before the off, separating through the race
+- 13:27:59 (off−29.2m) **Moon** Dec Castor–Vega 1:8:9 0.000% · natal Chiron 1:5:6 0.063% · tuned · sky beyond the Castor end, natal beyond the Castor end · 6 bodies in 5 charts, this #3, tightest Slanelough Mercury · partner: no · also on the string: Makemake 13:27:10 [kept: also played by Makemake]
+- 13:28:25 (off−28.8m) Nodes **Moon** on Dec Rahu–Fomalhaut 1:7:8 0.002% · natal Saturn 3:8:11 0.128% · tuned · 5 tuned [kept: partner on it]
+- 13:29:25 (off−27.8m) L3 **Moon** on Dec Saturn–Fomalhaut 5:8:13 0.000% · natal Rahu 3:8:11 0.128% · tuned · base lengths 1+1/√2 · 9 tuned [kept: also played by Chiron; partner on it]
+- 13:31:25 (off−25.8m) L2 **Moon** on RA Gonggong–Polaris 3:8:11 0.000% · natal Eris 1:4:5 0.046% · tuned · 7 tuned [kept: partner on it]
+- 13:34:10 (off−23.0m) Nodes **Moon** on RA Rahu–Altair 1:7:8 0.007% · natal Transpluto 1:1:2 0.036% · tuned · 9 tuned [kept: partner on it]
+- 13:35:25 (off−21.8m) L2 **Moon** on Dec Eris–Spica 4:5:9 0.001% · natal Venus 5:6:11 0.108% · tuned · tightest of 2 [kept: tightest in the field; partner on it]
+- 13:35:40 (off−21.5m) L3 **Moon** on RA Saturn–Altair 1:3:4 0.023% · natal Mars 1:1:2 0.009% · tuned · tightest of 11 [kept: strong Method 1 figure; also played by Ketu, Uranus; tightest in the field; partner on it]
+- 13:35:40 (off−21.5m) L3 **Moon** on RA Saturn–Altair 1:3:4 0.023% · natal Pallas 4:5:9 0.038% · tuned · 11 tuned [kept: also played by Ketu, Uranus; partner on it]
+- 13:36:25 (off−20.8m) L2 **Moon** on RA Orcus–Capella φ: 2/2/φ/φ 0.037% · natal Ketu 1:2:3 0.062% · tuned · 4 tuned [kept: partner on it]
+- 13:37:10 (off−20.0m) L4 **Moon** on Dec Mercury–Antares 1:6:7 0.002% · natal Vesta 2:3:5 0.091% · tuned · 4 tuned [kept: partner on it]
+- 13:37:55 (off−19.2m) L2 **Moon** on Dec Quaoar–Fomalhaut 4:5:9 0.001% · natal Jupiter 3:8:11 0.002% · tuned · tightest of 12 [kept: strong Method 1 figure; also played by Sedna; tightest in the field; partner on it]
+- 13:37:55 (off−19.2m) L4 **Moon** on Dec Venus–Antares φ: φ/φ² 0.005% · natal Orcus 1:√2:1+√2 0.124% · tuned · tightest of 3 [kept: tightest in the field]
+- 13:38:25 (off−18.8m) L3 **Moon** on RA Jupiter–Algol 1:7:8 0.002% · natal Uranus φ: φ/φ² 0.055% · tuned · 4 tuned [kept: also played by Quaoar]
+- 13:38:55 (off−18.2m) same body: natal Orcus – sky Orcus + Moon Dec 1:3:4 0.000% — exact 18.2 min before the off, separating through the race
+- 13:39:25 (off−17.8m) L3 **Moon** on RA Vesta–Altair 1:5:6 0.006% · natal Sedna 1:4:5 0.090% · tuned · 6 tuned [kept: partner on it]
+- 13:40:55 (off−16.2m) L2 **Moon** on Dec Sedna–Fomalhaut 1:5:6 0.001% · natal Eris 2:5:7 0.138% · tuned · 6 tuned [kept: also played by Quaoar]
+- 13:40:55 (off−16.2m) L3 **Moon** on Dec Pallas–Algorab 3:4:7 0.001% · natal Mars 4:5:9 0.043% · tuned · 5 tuned [kept: also played by Gonggong, Pluto]
+- 13:41:55 (off−15.2m) L2 **Moon** on RA Gonggong–Aldebaran 1:4:5 0.002% · natal Quaoar 3:4:7 0.033% · tuned · tightest of 5 [kept: tightest in the field]
+- 13:42:25 (off−14.8m) L2 **Moon** on Dec Pluto–Antares 1:8:9 0.006% · natal Pallas 1:2:3 0.004% · tuned · tightest of 7 [kept: strong Method 1 figure; tightest in the field]
+- 13:43:11 (off−14.0m) **Moon** RA Algol–Fomalhaut 1:2:3 0.001% · natal Orcus φ: φ/φ² 0.135% · tuned · sky beyond the Fomalhaut end, natal beyond the Algol end · 12 bodies in 8 charts, this #11, tightest If Not For Dylan Saturn · partner: Gonggong 1:4:5 0.077%; Sun 5:8:13 0.149% · also on the string: Ketu 14:31:06 [kept: also played by Ketu; partner on it]
+- 13:43:11 (off−14.0m) **Moon** RA Algol–Fomalhaut 1:2:3 0.001% · natal Transpluto 3:5:8 0.090% · tuned · sky beyond the Fomalhaut end, natal beyond the Algol end · 12 bodies in 8 charts, this #9, tightest If Not For Dylan Saturn · partner: Gonggong 1:4:5 0.077%; Sun 5:8:13 0.149% · also on the string: Ketu 14:31:06 [kept: also played by Ketu; partner on it]
+- 13:44:10 (off−13.0m) L3 **Moon** on Dec Mars–Algorab 1:√2:1+√2 0.002% · natal Mercury 3:4:7 0.085% · tuned · base lengths 1+√2 · 10 tuned [kept: also played by Pluto]
+- 13:44:10 (off−13.0m) L3 **Moon** on Dec Mars–Algorab 1:√2:1+√2 0.002% · natal Pallas 4:5:9 0.043% · tuned · base lengths 1+√2 · 10 tuned [kept: also played by Pluto]
+- 13:44:10 (off−13.0m) same body: natal Sun – sky Sun + Moon Sky φ: φ/φ² 0.017% — exact 13.0 min before the off, separating through the race
+- 13:44:40 (off−12.5m) L2 **Moon** on RA Transpluto–Haumea 5:8:13 0.001% · natal Pallas 1:2:3 0.144% · tuned · 5 tuned [kept: also played by Ketu]
+- 13:47:14 (off−9.9m) **Moon** Dec Alphecca–Polaris 4:5:9 0.000% · natal Venus 1:3:4 0.135% · tuned · sky beyond the Alphecca end, natal beyond the Alphecca end · 7 bodies in 4 charts, this #7, tightest Gold Des Bois Rahu · partner: no · also on the string: Juno 13:27:10
+- 13:47:14 (off−9.9m) **Moon** Dec Alphecca–Polaris 4:5:9 0.000% · natal Uranus φ: 2−1/φ/φ²/φ√5 0.110% · tuned · sky beyond the Alphecca end, natal beyond the Alphecca end · 7 bodies in 4 charts, this #6, tightest Gold Des Bois Rahu · partner: no · also on the string: Juno 13:27:10
+- 13:47:25 (off−9.7m) sky Moon RA to Polaris = **767/9** (off -0.0001; within ±0.002 13:47:15–13:47:35) (sky only, every runner)
+- 13:47:40 (off−9.5m) L2 **Moon** on Dec Haumea–Betelgeuse 1:4:5 0.000% · natal Venus 1:7:8 0.084% · tuned · 9 tuned
+- 13:47:55 (off−9.2m) sky Moon RA to Procyon = **1455/9** (off +0.0002; within ±0.002 13:47:45–13:48:05) (sky only, every runner)
+- 13:48:10 (off−9.0m) L4 **Moon** on Dec Venus–Antares 5:8:13 0.000% · natal Orcus 1:√2:1+√2 0.124% · tuned · tightest of 3
+- 13:48:25 (off−8.7m) sky Moon RA to Algol = **845/9** (off +0.0003; within ±0.002 13:48:20–13:48:35) (sky only, every runner)
+- 13:49:10 (off−8.0m) L3 **Moon** on Dec Juno–Bellatrix φ: φ/φ² 0.001% · natal Chiron 5:8:13 0.103% · tuned · 10 tuned
+- 13:49:10 (off−8.0m) L3 **Moon** on Dec Juno–Bellatrix φ: φ/φ² 0.001% · natal Haumea 5:6:11 0.074% · tuned · 10 tuned
+- 13:49:40 (off−7.5m) L3 **Moon** on RA Pallas–Aldebaran 1:3:4 0.004% · natal Eris 3:8:11 0.081% · tuned · 6 tuned
+- 13:49:50 (off−7.3m) sky Moon RA to Bellatrix = **1153/9** (off +0.0004; within ±0.002 13:49:45–13:50:00) (sky only, every runner)
+- 13:49:50 (off−7.3m) sky Moon RA to Sirius = **1333/9** (off -0.0002; within ±0.002 13:49:40–13:50:00) (sky only, every runner)
+- 13:49:55 (off−7.2m) L4 **Moon** on RA Venus–Polaris 4:5:9 0.002% · natal Jupiter 5:8:13 0.135% · tuned · 8 tuned
+- 13:50:00 (off−7.2m) sky Moon RA to Vega = **24√2** (off +0.0001; within ±0.002 13:49:50–13:50:10) (sky only, every runner)
+- 13:50:10 (off−7.0m) L3 **Moon** on Dec Saturn–Fomalhaut φ: φ/φ² 0.005% · natal Rahu 3:8:11 0.128% · tuned · base lengths 1+1/√2 · 9 tuned
+- 13:50:10 (off−7.0m) sky Moon Dec to Bellatrix = **267/9** (off -0.0000; within ±0.002 13:48:40–13:51:40) (sky only, every runner)
+- 13:50:10 (off−7.0m) sky Moon RA to Capella = **whole 126** (off -0.0002; within ±0.002 13:50:00–13:50:20) (sky only, every runner)
+- 13:50:35 (off−6.6m) sky Moon RA to Spica = **1007/9** (off +0.0003; within ±0.002 13:50:25–13:50:45) (sky only, every runner)
+- 13:50:40 (off−6.5m) L2 **Moon** on RA Pluto–Betelgeuse 1:8:9 0.004% · natal Eris φ: φ/φ² 0.066% · tuned · 4 tuned
+- 13:51:10 (off−6.0m) L3 **Moon** on Dec Saturn–Antares 4:5:9 0.002% · natal Rahu 1:2:3 0.071% · tuned · 2 tuned
+- 13:51:10 (off−6.0m) L4 **Moon** on RA Mercury–Vega φ: 2−1/φ/φ²/φ√5 0.002% · natal Mars φ: 2−1/φ/φ²/φ√5 0.064% · UNISON · 6 tuned
+- 13:51:10 (off−6.0m) L4 **Moon** on RA Mercury–Vega φ: 2−1/φ/φ²/φ√5 0.002% · natal Venus 3:8:11 0.013% · tuned · 6 tuned
+- 13:51:25 (off−5.8m) L2 **Moon** on RA Neptune–Altair 2:5:7 0.003% · natal Sedna 1:2:3 0.020% · tuned · 3 tuned
+- 13:51:40 (off−5.5m) L2 **Moon** on RA Pluto–Deneb Algedi 4:5:9 0.013% · natal Orcus 1:3:4 0.137% · tuned · 5 tuned
+- 13:51:40 (off−5.5m) sky Moon RA to Rigel = **1129/9** (off +0.0001; within ±0.002 13:51:30–13:51:50) (sky only, every runner)
+- 13:52:05 (off−5.1m) sky Moon RA to Fomalhaut = **281/9** (off +0.0001; within ±0.002 13:51:55–13:52:15) (sky only, every runner)
+- 13:52:10 (off−5.0m) L2 **Moon** on RA Haumea–Ketu 1:3:4 0.001% · natal Ceres φ: 2−1/φ/φ²/φ√5 0.033% · tuned · 3 tuned
+- 13:52:15 (off−4.9m) sky Moon RA to Regulus = **1450/9** (off -0.0002; within ±0.002 13:52:05–13:52:25) (sky only, every runner)
+- 13:52:35 (off−4.6m) sky Moon RA to Algol = **58φ** (off +0.0002; within ±0.002 13:52:25–13:52:45) (sky only, every runner)
+- 13:52:40 (off−4.5m) sky Moon RA to Castor = **1444/9** (off +0.0004; within ±0.002 13:52:35–13:52:50) (sky only, every runner)
+- 13:53:00 (off−4.2m) sky Moon RA to Aldebaran = **1042/9** (off -0.0001; within ±0.002 13:52:50–13:53:10) (sky only, every runner)
+- 13:53:15 (off−3.9m) sky Moon RA to Alkaid = **957/9** (off -0.0000; within ±0.002 13:53:05–13:53:25) (sky only, every runner)
+- 13:53:15 (off−3.9m) sky Moon RA to Deneb Algedi = **122/9** (off -0.0001; within ±0.002 13:53:05–13:53:25) (sky only, every runner)
+- 13:53:15 (off−3.9m) sky Moon RA to Pleiades = **933/9** (off +0.0001; within ±0.002 13:53:05–13:53:25) (sky only, every runner)
+- 13:53:25 (off−3.8m) same body: natal Pluto – sky Pluto + Moon RA 5:6:11 0.004% — exact 3.8 min before the off, separating through the race
+- 13:53:40 (off−3.5m) sky Moon RA to Vega = **21φ** (off +0.0003; within ±0.002 13:53:30–13:53:45) (sky only, every runner)
+- 13:54:10 (off−3.0m) L2 **Moon** on RA Eris–Bellatrix 3:4:7 0.001% · natal Transpluto 4:5:9 0.075% · tuned · 7 tuned
+- 13:54:20 (off−2.8m) sky Moon Dec to Rigel = **136/9** (off -0.0000; within ±0.002 13:52:50–13:55:50) (sky only, every runner)
+- 13:54:35 (off−2.6m) sky Moon RA to Alphecca = **716/9** (off -0.0002; within ±0.002 13:54:25–13:54:45) (sky only, every runner)
+- 13:55:10 (off−2.0m) L2 **Moon** on RA Chiron–Antares 5:6:11 0.001% · natal Pallas 3:5:8 0.003% · tuned · tightest of 5
+- 13:55:10 (off−2.0m) L2 **Moon** on RA Chiron–Antares 5:6:11 0.001% · natal Venus φ: 2−1/φ/φ²/φ√5 0.109% · tuned · 5 tuned
+- 13:55:40 (off−1.5m) sky Moon RA to Vega = **whole 34** (off -0.0004; within ±0.002 13:55:35–13:55:50) (sky only, every runner)
+- 13:55:50 (off−1.3m) sky Moon RA to Arcturus = **894/9** (off -0.0003; within ±0.002 13:55:45–13:56:00) (sky only, every runner)
+- 13:55:55 (off−1.2m) same body: natal Mercury – sky Mercury + Moon Sky 1:3:4 0.003% — exact 1.2 min before the off, separating through the race
+- 13:55:55 (off−1.2m) sky Moon RA to Antares = **593/9** (off +0.0002; within ±0.002 13:55:45–13:56:05) (sky only, every runner)
+- 13:56:00 (off−1.2m) sky Moon RA to Algorab = **1132/9** (off +0.0003; within ±0.002 13:55:50–13:56:05) (sky only, every runner)
+- 13:56:10 (off−1.0m) L3 **Moon** on Dec Juno–Algorab 2:3:5 0.002% · natal Makemake φ: 2/φ/φ³/φ³+1 0.094% · tuned · 5 tuned
+- 13:56:15 (off−0.9m) sky Moon RA to Betelgeuse = **1220/9** (off -0.0003; within ±0.002 13:56:05–13:56:20) (sky only, every runner)
+- 13:57:40 (off+0.5m, in the race) L3 **Moon** on RA Mars–Pallas 1:4:5 0.003% · natal Ceres 3:8:11 0.141% · tuned · 3 tuned
+- 13:57:40 (off+0.5m, in the race) L3 **Moon** on RA Mars–Pallas 1:4:5 0.003% · natal Saturn 1:8:9 0.147% · tuned · 3 tuned
+- 13:57:40 (off+0.5m, in the race) sky Moon RA to Altair = **140/9** (off -0.0003; within ±0.002 13:57:35–13:57:50) (sky only, every runner)
+- 13:57:45 (off+0.6m, in the race) sky Moon RA to Altair = **11√2** (off -0.0003; within ±0.002 13:57:35–13:57:55) (sky only, every runner)
+- 13:57:55 (off+0.8m, in the race) L2 **Moon** on Dec Eris–Antares 1:7:8 0.003% · natal Makemake 3:4:7 0.009% · tuned · tightest of 6
+- 13:57:55 (off+0.8m, in the race) L3 **Moon** on RA Jupiter–Pallas 2:3:5 0.007% · natal Juno 3:8:11 0.085% · tuned · 5 tuned
+- 13:57:55 (off+0.8m, in the race) L3 **Moon** on RA Jupiter–Pallas 2:3:5 0.007% · natal Venus 3:5:8 0.126% · tuned · 5 tuned
+- 13:58:10 (off+1.0m, in the race) sky Moon RA to Polaris = **766/9** (off +0.0003; within ±0.002 13:58:05–13:58:20) (sky only, every runner)
+- 13:58:25 (off+1.2m, in the race) L2 **Moon** on RA Chiron–Bellatrix 3:4:7 0.001% · natal Orcus 2:3:5 0.095% · tuned · 6 tuned
+- 13:58:40 (off+1.5m, in the race) same body: natal Ketu – sky Ketu + Moon RA 4:5:9 0.002% — exact IN THE RACE
+- 13:58:45 (off+1.6m, in the race) sky Moon RA to Procyon = **1454/9** (off -0.0002; within ±0.002 13:58:35–13:58:55) (sky only, every runner)
+- 13:59:10 (off+2.0m, in the race) L2 **Moon** on RA Haumea–Gonggong φ: 2/φ/φ³/φ³+1 0.004% · natal Rahu 1:7:8 0.002% · tuned · tightest of 2
+- 13:59:15 (off+2.1m, in the race) sky Moon RA to Algol = **844/9** (off +0.0000; within ±0.002 13:59:05–13:59:25) (sky only, every runner)
+- 13:59:27 (off+2.3m, in the race) **Moon** RA Altair–Fomalhaut 1:2:3 0.003% · natal Juno φ: 2/φ/φ³/φ³+1 0.082% · tuned · sky INSIDE (nearer Altair), natal INSIDE (nearer Altair) · 7 bodies in 6 charts, this #4, tightest Arvico Bleu Saturn · partner: Vesta 1:2:3 0.133% · also on the string: Sedna 14:31:06
+- 14:00:00 (off+2.8m, in the race) sky Moon Dec to Capella = **49√2** (off -0.0000; within ±0.002 13:58:30–14:01:30) (sky only, every runner)
+- 14:00:40 (off+3.5m, in the race) sky Moon RA to Bellatrix = **whole 128** (off +0.0002; within ±0.002 14:00:30–14:00:50) (sky only, every runner)
+- 14:00:40 (off+3.5m, in the race) sky Moon RA to Sirius = **whole 148** (off -0.0003; within ±0.002 14:00:30–14:00:45) (sky only, every runner)
+- 14:01:00 (off+3.8m, in the race) sky Moon RA to Capella = **1133/9** (off -0.0003; within ±0.002 14:00:50–14:01:06) (sky only, every runner)
+- 14:01:05 (off+3.9m, in the race) sky Moon contraparallel natal Vesta, closest 0.000
+- 14:01:06 (off+3.9m, in the race) same body: natal Vesta – sky Vesta + Moon Dec 1:3:4 0.000% — exact IN THE RACE
+- 14:01:10 (finish+0.1m) L2 **Moon** on RA Uranus–Ketu 5:6:11 0.000% · natal Ceres 4:5:9 0.120% · tuned · tightest of 1
+- 14:01:25 (finish+0.3m) sky Moon RA to Spica = **whole 112** (off +0.0003; within ±0.002 14:01:15–14:01:30) (sky only, every runner)
+- 14:01:40 (finish+0.6m) L3 **Moon** on RA Jupiter–Pleiades 1:8:9 0.001% · natal Sun 1:3:4 0.058% · tuned · 4 tuned
+- 14:01:55 (finish+0.8m) L3 **Moon** on RA Mars–Vesta 1:4:5 0.000% · natal Sedna 4:5:9 0.142% · tuned · 3 tuned
+- 14:01:55 (finish+0.8m) L3 **Moon** on Dec Vesta–Equator 1:1:2 0.001% · natal Venus 1:3:4 0.131% · tuned · base lengths 2 · 4 tuned
+- 14:02:30 (finish+1.4m) sky Moon RA to Rigel = **1128/9** (off +0.0002; within ±0.002 14:02:20–14:02:40) (sky only, every runner)
+- 14:02:45 (finish+1.6m) sky Moon RA to Fomalhaut = **22√2** (off +0.0003; within ±0.002 14:02:40–14:02:55) (sky only, every runner)
+- 14:02:55 (finish+1.8m) L2 **Moon** on Dec Quaoar–Antares 2:5:7 0.001% · natal Sun 1:2:3 0.048% · tuned · 10 tuned
+- 14:02:55 (finish+1.8m) sky Moon RA to Fomalhaut = **280/9** (off +0.0002; within ±0.002 14:02:45–14:03:05) (sky only, every runner)
+- 14:02:55 (finish+1.8m) sky Moon RA to Regulus = **114√2** (off -0.0002; within ±0.002 14:02:45–14:03:05) (sky only, every runner)
+- 14:03:05 (finish+2.0m) sky Moon RA to Regulus = **1451/9** (off -0.0003; within ±0.002 14:03:00–14:03:15) (sky only, every runner)
+- 14:03:10 (finish+2.1m) L3 **Moon** on RA Saturn–Pallas 1:7:8 0.004% · natal Mars 1:8:9 0.147% · tuned · 8 tuned
+- 14:03:20 (finish+2.2m) sky Moon RA to Capella = **89√2** (off -0.0002; within ±0.002 14:03:10–14:03:30) (sky only, every runner)
+- 14:03:25 (finish+2.3m) same body: natal Juno – sky Juno + Moon RA 1:7:8 0.003% — applying through the race, exact 2.3 min after the finish
+- 14:03:35 (finish+2.5m) sky Moon RA to Castor = **1443/9** (off -0.0003; within ±0.002 14:03:25–14:03:45) (sky only, every runner)
+- 14:03:50 (finish+2.7m) sky Moon RA to Aldebaran = **1041/9** (off +0.0001; within ±0.002 14:03:40–14:04:00) (sky only, every runner)
+- 14:03:55 (finish+2.8m) L2 **Moon** on RA Chiron–Eris 1:3:4 0.000% · natal Pluto 3:4:7 0.092% · tuned · 6 tuned
+- 14:04:05 (finish+3.0m) sky Moon RA to Alkaid = **958/9** (off -0.0003; within ±0.002 14:03:55–14:04:15) (sky only, every runner)
+- 14:04:05 (finish+3.0m) sky Moon RA to Deneb Algedi = **121/9** (off +0.0002; within ±0.002 14:03:55–14:04:15) (sky only, every runner)
+- 14:04:05 (finish+3.0m) sky Moon RA to Pleiades = **932/9** (off +0.0004; within ±0.002 14:04:00–14:04:15) (sky only, every runner)
+- 14:04:08 (finish+3.0m) **Moon** RA Algol–Altair 1:6:7 0.002% · natal Mars 3:8:11 0.126% · tuned · sky INSIDE (nearer Altair), natal INSIDE (nearer Algol) · 5 bodies in 4 charts, this #4, tightest Finisk River Pluto · partner: Jupiter 1:4:5 0.142%
+- 14:04:08 (finish+3.0m) **Moon** RA Algol–Altair 1:6:7 0.002% · natal Pluto 1:7:8 0.023% · tuned · sky INSIDE (nearer Altair), natal beyond the Altair end · 5 bodies in 4 charts, this #1 (tightest) · partner: Jupiter 1:4:5 0.142%
+- 14:04:15 (finish+3.1m) sky Moon RA to Pleiades = **64φ** (off +0.0001; within ±0.002 14:04:05–14:04:25) (sky only, every runner)
+- 14:04:30 (finish+3.4m) sky Moon RA to Algorab = **89√2** (off -0.0001; within ±0.002 14:04:20–14:04:40) (sky only, every runner)
+- 14:05:30 (finish+4.4m) sky Moon RA to Alphecca = **717/9** (off +0.0002; within ±0.002 14:05:20–14:05:40) (sky only, every runner)
+- 14:06:10 (finish+5.1m) Nodes **Moon** on Dec Rahu–Spica φ: 2−1/φ/φ²/φ√5 0.001% · natal Mercury 4:5:9 0.065% · tuned · 7 tuned
+- 14:06:10 (finish+5.1m) Nodes **Moon** on Dec Rahu–Spica φ: 2−1/φ/φ²/φ√5 0.001% · natal Sun 1:3:4 0.095% · tuned · 7 tuned
+- 14:06:35 (finish+5.5m) sky Moon RA to Vega = **307/9** (off -0.0001; within ±0.002 14:06:25–14:06:45) (sky only, every runner)
+- 14:06:45 (finish+5.6m) sky Moon RA to Antares = **whole 66** (off -0.0003; within ±0.002 14:06:40–14:06:55) (sky only, every runner)
+- 14:06:45 (finish+5.6m) sky Moon RA to Arcturus = **895/9** (off -0.0000; within ±0.002 14:06:35–14:06:55) (sky only, every runner)
+- 14:06:50 (finish+5.7m) sky Moon RA to Algorab = **1133/9** (off -0.0003; within ±0.002 14:06:40–14:07:00) (sky only, every runner)
+- 14:07:05 (finish+6.0m) sky Moon RA to Betelgeuse = **1219/9** (off +0.0003; within ±0.002 14:06:55–14:07:15) (sky only, every runner)
+- 14:07:35 (finish+6.5m) sky Moon Dec to Polaris = **1013/9** (off +0.0000; within ±0.002 14:06:05–14:09:05) (sky only, every runner)
+- 14:08:03 (finish+6.9m) **Moon** Dec Arcturus–Spica 2:5:7 0.001% · natal Sun 3:4:7 0.072% · tuned · sky beyond the Spica end, natal INSIDE (nearer Arcturus) · 8 bodies in 6 charts, this #5, tightest Slanelough Chiron · partner: no
+- 14:08:30 (finish+7.4m) sky Moon Dec to Algorab = **61/9** (off +0.0000; within ±0.002 14:07:00–14:10:00) (sky only, every runner)
+- 14:08:35 (finish+7.5m) sky Moon RA to Altair = **141/9** (off -0.0003; within ±0.002 14:08:25–14:08:45) (sky only, every runner)
+- 14:09:05 (finish+8.0m) sky Moon RA to Polaris = **whole 85** (off +0.0003; within ±0.002 14:08:55–14:09:15) (sky only, every runner)
+- 14:09:10 (finish+8.1m) Nodes **Moon** on RA Ketu–Pleiades 1:√2:1+√2 0.001% · natal Juno 1:8:9 0.013% · tuned · 4 tuned
+- 14:09:25 (finish+8.3m) L2 **Moon** on RA Gonggong–Castor 1:6:7 0.003% · natal Orcus 1:4:5 0.030% · tuned · 2 tuned
+- 14:09:40 (finish+8.6m) sky Moon RA to Procyon = **1453/9** (off -0.0001; within ±0.002 14:09:30–14:09:50) (sky only, every runner)
+- 14:09:55 (finish+8.8m) L3 **Moon** on Dec Pallas–Sirius 1:√2:1+√2 0.002% · natal Jupiter 3:8:11 0.141% · tuned · 6 tuned
+- 14:10:00 (finish+8.9m) sky Moon Dec to Fomalhaut = **57/9** (off +0.0000; within ±0.002 14:08:30–14:11:30) (sky only, every runner)
+- 14:10:10 (finish+9.1m) sky Moon RA to Algol = **843/9** (off +0.0001; within ±0.002 14:10:00–14:10:20) (sky only, every runner)
+- 14:10:24 (finish+9.3m) **Moon** RA Algol–Deneb Algedi 1:6:7 0.002% · natal Eris 3:8:11 0.017% STRONG · tuned · sky beyond the Deneb Algedi end, natal INSIDE (nearer Algol) · 4 bodies in 3 charts, this #1 (tightest) · partner: no · also on the string: Juno 14:31:06
+- 14:10:55 (finish+9.8m) L2 **Moon** on RA Pluto–Gonggong 3:4:7 0.008% · natal Saturn 5:6:11 0.008% · tuned · tightest of 6
+- 14:10:55 (finish+9.8m) L2 **Moon** on RA Pluto–Gonggong 3:4:7 0.008% · natal Uranus φ: φ/φ² 0.018% · tuned · 6 tuned
+- 14:13:10 (finish+12.1m) L3 **Moon** on RA Jupiter–Vega 1:3:4 0.003% · natal Ceres 1:8:9 0.052% · tuned · 6 tuned [kept: also played by Venus; partner on it]
+- 14:13:52 (finish+12.8m) **Moon** RA Altair–Capella 1:8:9 0.003% · natal Neptune 3:8:11 0.004% STRONG · tuned · sky INSIDE (nearer Altair), natal INSIDE (nearer Altair) · 5 bodies in 4 charts, this #1 (tightest) · partner: no · also on the string: Gonggong 13:27:10 [kept: strong Method 1 string; also played by Gonggong; tightest in the field]
+- 14:13:52 (finish+12.8m) **Moon** RA Altair–Capella 1:8:9 0.003% · natal Eris φ: φ/φ² 0.023% · tuned · sky INSIDE (nearer Altair), natal INSIDE (nearer Capella) · 5 bodies in 4 charts, this #2, tightest Finisk River Neptune · partner: no · also on the string: Gonggong 13:27:10 [kept: also played by Gonggong]
+- 14:16:55 (finish+15.8m) L4 **Moon** on RA Venus–Vega 1:1:2 0.000% · natal Mercury 3:8:11 0.013% · tuned · tightest of 3 [kept: strong Method 1 figure; also played by Gonggong, Jupiter, Mercury; tightest in the field; partner on it]
+- 14:17:10 (finish+16.1m) L2 **Moon** on RA Pluto–Eris φ: 2/φ/φ³/φ³+1 0.007% · natal Chiron 3:4:7 0.092% · tuned · base lengths 8/7 · tightest of 1 [kept: also played by Rahu; tightest in the field]
+- 14:17:55 (finish+16.8m) L3 **Moon** on Dec Jupiter–Algol 1:7:8 0.000% · natal Uranus 1:1:2 0.069% · tuned · 13 tuned [kept: partner on it]
+- 14:18:27 (finish+17.3m) **Moon** RA Alphecca–Deneb Algedi 1:6:7 0.003% · natal Saturn 1:6:7 0.137% · UNISON · sky INSIDE (nearer Deneb Algedi), natal beyond the Alphecca end · 5 bodies in 4 charts, this #5, tightest Craig Nichol Chiron · partner: no · also on the string: Makemake 14:31:06 [kept: also played by Makemake; UNISON]
+- 14:19:25 (finish+18.3m) L3 **Moon** on Dec Mars–Sirius 2:3:5 0.002% · natal Uranus 1:5:6 0.097% · tuned · 8 tuned [kept: partner on it]
+- 14:21:43 (finish+20.6m) **Moon** RA Algol–Antares 1:√2:1+√2 0.001% · natal Chiron 1:√2:1+√2 0.139% · UNISON · sky INSIDE (nearer Antares), natal INSIDE (nearer Algol) · 5 bodies in 5 charts, this #5, tightest Craig Nichol Venus · partner: Quaoar 1:8:9 0.075% · also on the string: Quaoar 14:31:06 [kept: also played by Quaoar; UNISON; partner on it]
+- 14:22:25 (finish+21.3m) L3 **Moon** on RA Saturn–Altair 3:8:11 0.003% · natal Mars 1:1:2 0.009% · tuned · tightest of 11 [kept: strong Method 1 figure; also played by Ketu, Uranus; tightest in the field; partner on it]
+- 14:22:25 (finish+21.3m) L3 **Moon** on RA Saturn–Altair 3:8:11 0.003% · natal Pallas 4:5:9 0.038% · tuned · 11 tuned [kept: also played by Ketu, Uranus; partner on it]
+- 14:24:48 (finish+23.7m) **Moon** RA Antares–Deneb Algedi 1:5:6 0.010% · natal Sun 3:5:8 0.075% · tuned · sky INSIDE (nearer Deneb Algedi), natal beyond the Deneb Algedi end · 7 bodies in 5 charts, this #4, tightest If Not For Dylan Transpluto · partner: no · also on the string: Pluto 13:27:10; Mars 13:27:10; Vesta 14:07:53; Eris 14:31:06 [kept: also played by Eris, Mars, Pluto, Vesta]
+- 14:24:48 (finish+23.7m) **Moon** RA Antares–Deneb Algedi 1:5:6 0.010% · natal Orcus 4:5:9 0.131% · tuned · sky INSIDE (nearer Deneb Algedi), natal beyond the Antares end · 7 bodies in 5 charts, this #6, tightest If Not For Dylan Transpluto · partner: no · also on the string: Pluto 13:27:10; Mars 13:27:10; Vesta 14:07:53; Eris 14:31:06 [kept: also played by Eris, Mars, Pluto, Vesta]
+- 14:27:10 (finish+26.1m) L2 **Moon** on RA Sedna–Quaoar 3:8:11 0.004% · natal Eris φ: 2/φ/φ³/φ³+1 0.115% · tuned · 3 tuned [kept: also played by Uranus]
+- 14:27:40 (finish+26.6m) same body: natal Mars – sky Mars + Moon Sky 5:8:13 0.009% — applying through the race, exact 26.6 min after the finish
+- 14:28:40 (finish+27.6m) L2 **Moon** on RA Transpluto–Quaoar 1:3:4 0.000% · natal Chiron 4:6:9 0.045% · tuned · tightest of 2 [kept: tightest in the field]
+- 14:28:55 (finish+27.8m) L2 **Moon** on Flat Haumea–Quaoar 40:65:104 0.038% · natal Orcus 9:9:16 0.148% · tuned · tightest of 1 [kept: tightest in the field]
+- 14:29:10 (finish+28.1m) L3 **Moon** on Dec Pallas–Antares 1:5:6 0.001% · natal Pluto 1:2:3 0.004% · tuned · base lengths 16/15 · tightest of 3 [kept: strong Method 1 figure; tightest in the field]
+- 14:29:52 (finish+28.8m) **Moon** Dec Algol–Deneb Algedi 1:8:9 0.001% · natal Venus 5:8:13 0.034% · tuned · sky beyond the Deneb Algedi end, natal INSIDE (nearer Deneb Algedi) · 7 bodies in 6 charts, this #3, tightest Gold Des Bois Haumea · partner: Venus 1:1:2 0.032% · also on the string: Mercury 14:31:06 [kept: also played by Mercury; partner on it]
+- 14:30:25 (finish+29.3m) L3 **Moon** on RA Saturn–Altair φ: 2−1/φ/φ²/φ√5 0.011% · natal Mars 1:1:2 0.009% · tuned · tightest of 11 [kept: strong Method 1 figure; also played by Ketu, Uranus; tightest in the field; partner on it]
+- 14:30:25 (finish+29.3m) L3 **Moon** on RA Saturn–Altair φ: 2−1/φ/φ²/φ√5 0.011% · natal Pallas 4:5:9 0.038% · tuned · 11 tuned [kept: also played by Ketu, Uranus; partner on it]
+- 14:30:55 (finish+29.8m) L2 **Moon** on Dec Makemake–Alkaid 3:5:8 0.062% · natal Rahu 1:2:3 0.025% · tuned · 10 tuned [kept: partner on it]
+- 14:30:55 (finish+29.8m) L4 **Moon** on RA Mercury–Arcturus φ: 2/φ/φ³/φ³+1 0.104% · natal Pluto 1:1:2 0.150% · tuned · 5 tuned [kept: also played by Transpluto; partner on it]
+- 14:30:55 (finish+29.8m) L4 **Moon** on RA Mercury–Fomalhaut 1:4:5 0.063% · natal Sun φ: 2/φ/φ³/φ³+1 0.014% · tuned · tightest of 4 [kept: strong Method 1 figure; tightest in the field]
+- 14:31:06 (finish+30.0m) same body: natal Mars – sky Mars + Moon Dec 5:6:11 0.000% — still applying at off+30; followed out 0.009% at 14:32:00
+- (126 other Moon strikes outside off−10…finish+10 without those textures: in the full record)
+
+### The Sun and the Moon on the same string (held by this chart)
+- (none)
+
+## 4. The pair — Finisk River and Brian Hughes
+- Shared strings struck in the window (8):
+  - 13:43:11 (off−14.0m) **Moon** RA Algol–Fomalhaut 1:2:3 — Finisk River: Orcus 0.135%, Transpluto 0.090% | Brian Hughes: Sun 0.149%, Gonggong 0.077%
+  - 13:56:09 (off−1.0m) **Vesta** Dec Procyon–Regulus 2:5:7 — Finisk River: Ceres 0.083% | Brian Hughes: Ceres 0.114%
+  - 13:59:27 (off+2.3m, in the race) **Moon** RA Altair–Fomalhaut 1:2:3 — Finisk River: Juno 0.082% | Brian Hughes: Vesta 0.133%
+  - 14:04:08 (finish+3.0m) **Moon** RA Algol–Altair 1:6:7 — Finisk River: Mars 0.126%, Pluto 0.023% | Brian Hughes: Jupiter 0.142%
+  - 14:21:43 (finish+20.6m) **Moon** RA Algol–Antares 1:√2:1+√2 — Finisk River: Chiron 0.139% | Brian Hughes: Quaoar 0.075%
+  - 14:22:47 (finish+21.7m) **Venus** Dec Fomalhaut–Spica φ: 2−1/φ/φ²/φ√5 — Finisk River: Mercury 0.025% | Brian Hughes: Jupiter 0.037%, Makemake 0.055%, Gonggong 0.135%, Transpluto 0.051%
+  - 14:23:48 (finish+22.7m) **Mercury** Dec Algorab–Alphecca 3:8:11 — Finisk River: Jupiter 0.038% | Brian Hughes: Transpluto 0.007%
+  - 14:29:52 (finish+28.8m) **Moon** Dec Algol–Deneb Algedi 1:8:9 — Finisk River: Venus 0.034% | Brian Hughes: Venus 0.032%
+- Same body, sky X + horse X + jockey X, in the window: none
+- Dec links between the two charts: PARALLEL       P07 Mars          +6.753  P08 Orcus         +6.679  diff 0.074; CONTRAPARALLEL P07 Pallas        -6.178  P08 Juno          +6.221  diff 0.043; PARALLEL       P07 Saturn       -12.182  P08 Quaoar       -12.214  diff 0.032; PARALLEL       P07 Sun           +6.166  P08 Juno          +6.221  diff 0.055; PARALLEL       P07 Vesta        +23.301  P08 Sun          +23.392  diff 0.091
