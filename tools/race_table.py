@@ -4,6 +4,7 @@
 Every item in every runner record, one row each, with the same texture columns, so the runners can be read side by side:
   M3    a sky body (Sun and Moon included) on one of the runner's natal star strings (<=0.15% somewhere in the window)
   M2    a tuned layer (L1 star bases, Nodes, L2, L3, L4): transit chord and natal chord on the same base
+        (dev_off/dev_finish: the transit chord re-measured at the off and the finish, 9 Oct)
   SB    same body: natal X - sky X + a third point
   SBP   the pair: sky X + horse X + jockey X
   N2T   natal X -> sky X numbers
@@ -20,6 +21,27 @@ SRC = open('/home/claude/tools/runner_record.py', encoding='utf-8').read()
 cut = SRC.index('# ------------------------------------------------------------------ the record')
 sys.argv = ['runner_record.py', RACE, '--stages', 'records']
 exec(SRC[:cut])
+
+# M2 deviations at the off and the finish (9 Oct, Eddie: "start with method 2"). The tuned-layer dumps keep one transit deviation (slow
+# bodies at the off, the Moon at its best minute); here the same chord is re-measured at the off and at the finish with the stage's own
+# geometry (lattice/nodes_chords.py: 1-minute sky grid, stars as on race day, tri() locked to the chord's own interval values).
+_G = {'__name__': 'm2geo'}; _argv = sys.argv; _env = os.environ.get('MOONWIN')
+sys.argv = ['nodes_chords.py', RACE, OFF, str(DUR)]; os.environ['MOONWIN'] = 'wide'
+import contextlib, io
+with contextlib.redirect_stdout(io.StringIO()): exec(open(f'{LAT_D}/nodes_chords.py', encoding='utf-8').read().split('# A')[0], _G)
+sys.argv = _argv
+if _env is None: os.environ.pop('MOONWIN', None)
+else: os.environ['MOONWIN'] = _env
+def _P(n, t): return _G['REF'][n] if n in _G['REF'] else _G['pos'](n, t)
+def m2dev(r, t):
+    """the M2 row's transit chord (third point = transit body on base x-e, measure mm) at minute t, deviation from its own chord"""
+    x, e, b, mm = r['x'], r['e'], r['transit_body'], r['mm']; tr = float(r['transit_t'])
+    try:
+        _G['LOCKT'] = _G['lockT'](_P(x, tr), _P(e, tr), _P(b, tr), mm)
+        res = _G['tri'](_P(x, t), _P(e, t), _P(b, t), mm)
+    except (KeyError, ZeroDivisionError, TypeError): res = None
+    finally: _G['LOCKT'] = None
+    return '' if res is None else f"{res[1] * 100:.3f}"
 
 WMIN = re.compile(r"exact ([\d.]+) min (before|after) the off")
 FIB = {'1:2:3', '2:3:5', '3:5:8', '5:8:13'}
@@ -85,7 +107,7 @@ for tab in sorted(TABS):
         inwin = tt is not None and T0 - 30 <= tt <= TEND
         rows.append(dict(base, kind='M2', natal_body=r['natal_body'], sky_body=r['transit_body'], layer=r['layer'], mm=r['mm'], base=f"{r['x']}–{r['e']}",
                          sky_chord=r['transit_type'], sky_family=fam(r['transit_type']), natal_chord=r['natal_type'], natal_family=fam(r['natal_type']),
-                         **{'sky_dev_%': f"{r['transit_dev'] * 100:.3f}", 'natal_dev_%': f"{r['natal_dev'] * 100:.3f}", 'm1_dev_%': '', 'dev_off_%': '', 'dev_finish_%': ''},
+                         **{'sky_dev_%': f"{r['transit_dev'] * 100:.3f}", 'natal_dev_%': f"{r['natal_dev'] * 100:.3f}", 'm1_dev_%': '', 'dev_off_%': m2dev(r, T0), 'dev_finish_%': m2dev(r, T1)},
                          m1_strong='', unison='UNISON' if r['natal_type'] == r['transit_type'] else '', mirror='',
                          same_body='SAME BODY' if r['natal_body'] == r['transit_body'] else '',
                          time=hm(tt) if inwin else '', zone=zone(tt) if inwin else 'held (outside the window)', exact_time=hm(tt) if tt is not None else '',
