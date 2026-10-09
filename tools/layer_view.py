@@ -20,7 +20,7 @@ st = x.apply(state, axis=1); x['st'] = [a for a, b in st]; x['dist'] = [b for a,
 x = x[(x.rd <= 0.02) | (x.st == 'X')].drop_duplicates(['tab', 'natal_body', 'sky_body', 'mm', 'base', 'sky_chord'])
 od = t[['tab', 'runner', 'role', 'finish', 'fav']].drop_duplicates(); od['f'] = pd.to_numeric(od.finish, errors='coerce'); od = od.sort_values(['f', 'tab'])
 for _, o in od.iterrows():
-    y = x[x.tab == o.tab].copy(); y['k'] = y.st.map({'X': 0, 'A': 1, 'S': 2}); y = y.sort_values(['k', 'rd'])
+    y = x[x.tab == o.tab].copy(); y['k'] = y.st.map({'X': 0, 'A': 1, 'S': 2}); y = y.sort_values(['k', 'rd', 'natal_body', 'sky_body', 'mm', 'base', 'sky_chord'], kind='mergesort')
     print(f"\n{o.finish} {o.runner} ({o.role}{', fav' if o.fav == 'fav' else ''}) — X{(y.st == 'X').sum()} A{(y.st == 'A').sum()} S{(y.st == 'S').sum()}")
     for _, r in y.iterrows():
         nd = (f"{r['m1_dev_%']:.3f}{'*' if r.m1_strong == 'STRONG' else ''}" if KIND == 'M3' else f"{r['natal_dev_%']:.3f}")

@@ -82,7 +82,7 @@ for lay, title in [('M3', 'Method 3 — sky body on a natal star string'), ('Nod
                    ('L3', 'Method 2 — L3 (Jupiter, Saturn, Mars, Ceres, Pallas, Juno, Vesta as base ends)'), ('L4', 'Method 2 — L4 (Sun, Mercury, Venus, Moon as base ends)')]:
     P(f"\n## {title}\n")
     for _, o in order.iterrows():
-        x = v[(v.tab == o.tab) & (v.lay == lay)].sort_values(['k', 'rd'])
+        x = v[(v.tab == o.tab) & (v.lay == lay)].sort_values(['k', 'rd'] + ['natal_body', 'sky_body', 'mm', 'base', 'sky_chord'], kind='mergesort')
         if not len(x): continue
         P(f"**{o.finish} {o.runner}** ({o.role}{', fav' if o.fav == 'fav' else ''})")
         for _, r in x.iterrows(): P(f"- {'**' if (r.tight and r.top) else ''}{item(r)}{'**' if (r.tight and r.top) else ''}")
@@ -95,7 +95,7 @@ t['tm_clock'] = t.exact_time.map(lambda s: clock(s) if isinstance(s, str) else N
 for body in ['Sun', 'Mars', 'Neptune', 'Uranus']:
     P(f"\n## natal {body}\n")
     for _, o in order.iterrows():
-        x = v[(v.tab == o.tab) & (v.natal_body == body)].sort_values(['k', 'rd'])
+        x = v[(v.tab == o.tab) & (v.natal_body == body)].sort_values(['k', 'rd', 'lay'] + ['natal_body', 'sky_body', 'mm', 'base', 'sky_chord'], kind='mergesort')
         extra = t[(t.tab == o.tab) & (t.natal_body == body) & t.kind.isin(['SB', 'N2T'])]
         extra = extra[extra.tm_clock.map(near) | extra.exact_zone.astype(str).str.contains('IN THE RACE')]
         if not len(x) and not len(extra): continue
@@ -132,7 +132,7 @@ P("A join = one triangle (three points, one measure: a star string with its sky 
   "natal bodies and stars make each pair's joins — compare the KIND of join across the pairs, not the number.\n")
 _STARS = set(REF.keys()) if 'REF' in globals() else set()
 def _tri(r):
-    x, e = r.base.split('–', 1); return (r.mm, frozenset((r.sky_body, x, e)))
+    x, e = r.base.split('–', 1); return (r.mm, tuple(sorted((r.sky_body, x, e))))
 vj = v[v.sky_body != 'Moon'].copy(); vj['tri3'] = vj.apply(_tri, axis=1)
 _BODYSET = set(t.sky_body.dropna()) | set(t.natal_body.dropna())
 field_rows = []
@@ -147,8 +147,8 @@ for _, o in order[order.role == 'horse'].iterrows():
     jb, js, jn, nown, nrace = set(), set(), set(), 0, 0
     def _key(k):
         A = a[a.tri3 == k]; B = b[b.tri3 == k]; return min(A.ndev.min(), B.ndev.min())
-    for k in sorted(common, key=_key):
-        A = a[a.tri3 == k].sort_values('ndev'); B = b[b.tri3 == k].sort_values('ndev'); ra, rb = A.iloc[0], B.iloc[0]
+    for k in sorted(common, key=lambda k: (_key(k), k)):
+        A = a[a.tri3 == k].sort_values(['ndev'] + ['natal_body', 'sky_body', 'mm', 'base', 'sky_chord'], kind='mergesort'); B = b[b.tri3 == k].sort_values(['ndev'] + ['natal_body', 'sky_body', 'mm', 'base', 'sky_chord'], kind='mergesort'); ra, rb = A.iloc[0], B.iloc[0]
         pts_ = sorted(k[1]); stars = [x for x in pts_ if x not in _BODYSET]
         own = [f"H {x}" for x in A[A.same_body == 'SAME BODY'].natal_body] + [f"J {x}" for x in B[B.same_body == 'SAME BODY'].natal_body]
         race = 'X' if ((A.st == 'X').any() or (B.st == 'X').any()) else ''
@@ -169,20 +169,20 @@ P("\n# 4. Triangle corners — the same three points read in different layers\n"
 P("Each line: one triangle (three points, one measure) with something exact in or within 10 min of the race; under it each reading = which body moves "
   "and on which base, and who is on that reading (tightest first).\n")
 def pts(r):
-    x, e = r.base.split('–', 1); return frozenset((r.sky_body, x, e))
+    x, e = r.base.split('–', 1); return tuple(sorted((r.sky_body, x, e)))
 v['tri'] = v.apply(lambda r: (r.mm, pts(r)), axis=1)
 v['near'] = v.apply(lambda r: r.st == 'X' or (r.dist is not None and not pd.isna(r.dist) and abs(r.dist) <= 10), axis=1)
-for key, g in v.groupby('tri'):
+for key, g in sorted(v.groupby('tri'), key=lambda kv: kv[0]):
     if g.sky_body.nunique() < 2 or not g.near.any() or 'Moon' in key[1]: continue
     P(f"\n**{key[0]} {' · '.join(sorted(key[1]))}**")
     for (sb, base), gg in g.groupby(['sky_body', 'base']):
-        gg = gg.sort_values('ndev'); r0 = gg.iloc[0]
+        gg = gg.sort_values(['ndev', 'tab', 'natal_body'], kind='mergesort'); r0 = gg.iloc[0]
         P(f"- {sb} moves on {base} ({r0.lay}, {r0.sky_chord}, {when(r0)}): " + '; '.join(f"{NAME[r.tab]} ({FINP[r.tab]}) {r.natal_body} {r.natal_chord} {r.ndev:.3f}" for _, r in gg.iterrows()))
 
 # 5. same body, pair, numbers, parallels
 P("\n# 5. Same body, pair same body, natal→sky numbers, parallels near the race\n")
 for _, o in order.iterrows():
-    sb = t[(t.tab == o.tab) & (t.kind == 'SB') & ((t.rd <= 0.02) | t.exact_zone.astype(str).str.contains('IN THE RACE'))].sort_values('rd')
+    sb = t[(t.tab == o.tab) & (t.kind == 'SB') & ((t.rd <= 0.02) | t.exact_zone.astype(str).str.contains('IN THE RACE'))].sort_values(['rd', 'natal_body', 'note'], kind='mergesort')
     n2 = t[(t.tab == o.tab) & (t.kind == 'N2T')]; n2 = n2[n2.tm_clock.map(near)]
     pa = t[(t.tab == o.tab) & (t.kind == 'PAR') & t.note.astype(str).str.contains(r'closest 0\.00\d')]
     pa = pa[pa.time.map(lambda s: OFF - 30 <= (clock(s) or -1e9) <= FIN + 30 if isinstance(s, str) else False)]
@@ -220,7 +220,7 @@ beats_all = []
 for _, o in order[order.role == 'horse'].iterrows():
     j = partner(o.tab)
     if not j: continue
-    x = ev[ev.tab.isin([o.tab, j])].sort_values('tm')
+    x = ev[ev.tab.isin([o.tab, j])].sort_values(['tm', 'tab', 'kind', 'd'], kind='mergesort')
     P(f"\n## {o.runner} / {NAME[j]} — finished {o.finish}{' (fav)' if o.fav == 'fav' else ''}\n")
     if not len(x): P("- nothing"); continue
     for _, r in x.iterrows():

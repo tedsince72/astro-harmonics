@@ -84,7 +84,7 @@ def line(r):
     kind = r.kind + (f" {r.layer}" if r.kind == 'M2' else '')
     return f"| {r.st} | {d} | {kind} | {r.sky_body} {r.sky_chord} | {r.mm} {r.base} | {nat} | {nd} | {r['dev_off_%']:.3f}→{r['dev_finish_%']:.3f} | {rank} | {fl} |"
 for _, o in order.iterrows():
-    x = h[h.tab == o.tab].copy(); x['k'] = x.st.map({'X': 0, 'A': 1, 'S': 2}); x = x.sort_values(['k', 'rd'])
+    x = h[h.tab == o.tab].copy(); x['k'] = x.st.map({'X': 0, 'A': 1, 'S': 2}); x = x.sort_values(['k', 'rd', 'kind', 'natal_body', 'sky_body', 'mm', 'base', 'sky_chord'], kind='mergesort')
     cnt = lambda k: f"A {((x.kind == k) & (x.st == 'A')).sum()} · S {((x.kind == k) & (x.st == 'S')).sum()} · X {((x.kind == k) & (x.st == 'X')).sum()}"
     P(f"\n## {o.runner} — {o.role}, finished {o.finish}, {o.sp}{' (fav)' if o.fav == 'fav' else ''}   ·   M3 {cnt('M3')}   ·   M2 {cnt('M2')}\n")
     P("| | to exact | kind | sky body + chord | measure, base | natal body + chord | natal dev | off→fin | # | flags |\n|---|---|---|---|---|---|---|---|---|---|")
