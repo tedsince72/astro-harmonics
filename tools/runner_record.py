@@ -77,6 +77,11 @@ def run(cmd, env=None, out=None, cwd=LAT_D):
 def stage_on(name): return name in A.stages.split(',')
 def need(path): return A.force or not os.path.exists(path) or os.path.getsize(path) == 0
 ARGS = [RACE, OFF, str(int(DUR) if DUR == int(DUR) else DUR)]
+GRIDF = f'{H}/ledger/skygrid/{RACE}__GRID.csv'          # the 1-minute race sky the sky, m2 and sb stages read
+if any(stage_on(s) for s in ('sky', 'm2', 'sb')) and (not os.path.exists(GRIDF) or os.path.getsize(GRIDF) == 0):
+    print(f"sky grid missing: lattice/skygrid.py {RACE} ...", file=sys.stderr)
+    run(['python3', f'{LAT_D}/skygrid.py', RACE])
+    print(f"  made {GRIDF} - copy it to the repo's data/skygrid/ with the records", file=sys.stderr)
 
 # ------------------------------------------------------------------ stages
 if stage_on('sky'):

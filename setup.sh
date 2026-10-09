@@ -33,14 +33,14 @@ fi
 [ -d "$H/ephe" ] || cp -r "$R/data/ephe" "$H/ephe"
 [ -d "$H/ledger/allpos" ] || cp -r "$R/data/allpos" "$H/ledger/allpos"
 [ -d "$H/ledger/sky" ] || cp -r "$R/data/sky" "$H/ledger/sky"
-[ -d "$H/ledger/skygrid" ] || cp -r "$R/data/skygrid" "$H/ledger/skygrid"
+mkdir -p "$H/ledger/skygrid"; cp -n "$R"/data/skygrid/*.csv "$H/ledger/skygrid/" 2>/dev/null || true   # grids: any new ones added, existing kept
 cp -n "$R/reference/profiles_blind_kit.csv" "$H/pinpoint_blind_kit/reference/profiles.csv" 2>/dev/null || true
 cp -n "$R/reference/profiles_test_scored.csv" "$H/scored/profiles_test_scored.csv" 2>/dev/null || true
 cp "$R/reference/races.csv" "$H/reference/races.csv"        # off times and race durations for tools/runner_record.py
 cp -n "$R"/docs/*.md "$H/reads/" 2>/dev/null || true
 # python packages
 if [ -n "$VIRTUAL_ENV" ]; then PIP="python3 -m pip install -q"; else PIP="python3 -m pip install -q --break-system-packages"; fi
-$PIP numpy pandas scipy openpyxl matplotlib
+$PIP numpy pandas scipy openpyxl matplotlib pytz
 # pyswisseph: on Debian the plain build can fail against the system setuptools; an isolated PEP 517 build works
 python3 -c "import swisseph" 2>/dev/null || $PIP pyswisseph 2>/dev/null || $PIP --use-pep517 pyswisseph || { echo "ERROR: pyswisseph did not install"; exit 1; }
 # checks — fail loudly
@@ -49,5 +49,5 @@ n=$(find "$H/ledger/allpos" -type l | wc -l | tr -d ' '); [ "$n" = 0 ] || { echo
 [ -e "$H/ds/active_vibrations.py" ] || { echo "ERROR: $H/ds/active_vibrations.py missing"; exit 1; }
 left=$(grep -h "/home/claude" "$H"/lattice/*.py "$H"/tools/* "$H"/ledger/*.py 2>/dev/null | grep -v "$H" | wc -l | tr -d ' ')
 [ "$H" = "/home/claude" ] || [ "$left" = 0 ] || { echo "ERROR: $left lines in the working scripts still point at /home/claude"; exit 1; }
-python3 -c "import swisseph, numpy, pandas; print('python packages ok')"
+python3 -c "import swisseph, numpy, pandas, pytz; print('python packages ok')"
 echo "working folder ready: $H"

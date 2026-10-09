@@ -52,4 +52,6 @@ The Mac is now the reference machine: races are built here. A race is never buil
 - Results go back into the repo: copy `~/astro-work/rr/<RACE>/records`, `notes` and `compare` into `~/astro-harmonics/rr/<RACE>/`, commit,
   `git pull`, `git push`. Summaries and walk-throughs to the project as before.
 - A new race needs its off time and duration in `reference/races.csv` (then `setup.sh` again).
-- A race needs its sky grid first: python3 lattice/skygrid.py <RACE> (then commit it to data/skygrid/).
+- A race's sky grid (`ledger/skygrid/<RACE>__GRID.csv`) is made by `runner_record.py` itself when it is missing (9 Oct); copy it to the repo's
+  `data/skygrid/` with the records. `setup.sh` copies any grids in `data/skygrid/` that the working folder lacks, and installs pytz (needed by the grid).
+  Tested 9 Oct: Doncaster rebuilt in a fresh working folder with its grid deleted — grid remade, all .md records identical, .json within 1e-12.

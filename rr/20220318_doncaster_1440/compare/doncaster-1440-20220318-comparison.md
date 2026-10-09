@@ -148,6 +148,22 @@ the sky does with it at the race time is what differs.
 - Pair same-body Mercury chord: the last pair has the same one.
 - Chord family: no family lines up with the winner on its own.
 
+## What others have that the winning pair does not (added 9 Oct)
+- **More strong strings struck in the race:** Hamilton 3 (the Moon on Haumea, the Sun on Quaoar, the Moon on Neptune), Oot Ma Way 2 (Mercury on
+  Pallas, tightest 0.004%; the Moon on Saturn 0.001%), Fiamette 2 (the Moon on Neptune, the busiest strike, 11 bodies; the Moon on Jupiter).
+  The winning horse and jockey have one each. All of the others' are by the Moon or Mercury, apart from Hamilton's Sun at a string's midpoint.
+- **Oot Ma Way (5/6F, 2nd):** four same-body items in the race (Mars + Spica 0.001%, Mars + Gonggong 0.001%, Vesta + Mars, Juno + Moon) and three
+  same-body slow holds; the Sun on her own Sun string, after the finish. The winning horse has two same-body items in the race and no same-body
+  slow holds. (Same-body items in the race, all kinds: Noonan 6 — the most; Oot Ma Way, Poetria, Fiamette, Suntory Star 4; so the number does
+  not separate.)
+- **O'Farrell (2nd):** 41 strong strings, the most left alone (19), struck only by the Moon.
+- **Hamilton (3rd):** the two lights on one string, tightest (Bellatrix–Rigel), and three same-body slow holds.
+- **Fiamette (4th):** her natal Sun → sky Sun number (100/9) in the race — the only other Sun number in the race.
+- **Mulqueen (5th):** an out-of-bounds, near-stationary Mars (the Frankel picture) — reached only after the finish.
+- Suntory Star / Mulqueen: the same pair Mercury chord as the winning pair.
+What is seen: the beaten runners have more strong strikes in the race, not fewer; what the winning pair has is the kind — Mars and the Sun, one in
+each chart — not the number.
+
 ## Next
 - The same table for the earlier races (Catterick, Ffos Las, Newcastle, Carlisle, Wincanton, Exeter) once they are rebuilt in the record form —
   to see whether these kinds recur on the winners: both charts struck on strong strings in the race; by which sky bodies; the natal Sun in sequence;
