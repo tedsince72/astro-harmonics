@@ -585,7 +585,7 @@ both charts, e.g. a strike on a triangle holding both).
 | Wincanton | **winner 45 s**; Ballyblack (3, fav) 185 s | Reserve Tank (6) 22 s; winner 36 s; Ballyblack 185 s; Guernesey (2) 221 s | Ballyblack 14 s; Reserve Tank 62 s; Birds Of Prey (4) 80 s; winner 113 s |
 | Exeter | none | all six pairs, five at 0 s (winner 0 s), Jarlath (2) 104 s | Pointed And Sharp, Blaze A Trail 0 s; winner 45 s; Jarlath, Pens Man, Caspers Court 182–288 s |
 Seen: **on tight items**, Mars in both charts falls on the winning pair in four of seven races (Doncaster, Catterick, Ffos Las, Wincanton) and in each of those the
-winner is the nearest pair; it is on a beaten pair only in the other three (Newcastle, Carlisle; none at Exeter). **On all items it is common** (every pair at
+winner is the nearest pair; in the other three it is on a beaten pair only (Newcastle, Carlisle) or on no pair (Exeter). **On all items it is common** (every pair at
 Catterick and Exeter) and does not pick out the winner. So for this thread the tightness of the natal side matters. The Sun in both charts does not pick out the
 winner on either view. Background, not a rule. (The Wincanton pair Sun chord — sky Sun + both natal Suns, 0.0%, −10.5 min — is outside the −3 min window.)
 
