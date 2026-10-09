@@ -66,6 +66,8 @@ e.g. Mercury moving on Haumea–Altair (L2) and Haumea moving on Mercury–Altai
 
 ## 4. Threads to follow across layers (observations so far — not rules)
 - **Mars and the Sun** in both charts of the pair, and on which corner (Doncaster Mars beat in both charts; Catterick Sun–Mars–Antares).
+  Eddie, 9 Oct: keep this thread even where a single measure (e.g. counting loose items) makes it look common — Mars / Sun in both charts may tie in with
+  something else of significance in the winners' charts; read what it ties to (which natal bodies, which corner, which other thread), never discount it on one count.
 - **Juno with Mars or the Sun** (Doncaster: Juno on the horse's Sun–Mars string, her Mars on a Juno base; Catterick: the jockey's Mars on Pallas–
   Juno–Sirius, her natal Sun + Juno same-body chord).
 - **A natal body that keeps receiving** (Noonan's Neptune; the Catterick horse's Neptune and Chiron) — follow it through every layer.

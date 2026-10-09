@@ -587,7 +587,8 @@ both charts, e.g. a strike on a triangle holding both).
 Seen: **on tight items**, Mars in both charts falls on the winning pair in four of seven races (Doncaster, Catterick, Ffos Las, Wincanton) and in each of those the
 winner is the nearest pair; in the other three it is on a beaten pair only (Newcastle, Carlisle) or on no pair (Exeter). **On all items it is common** (every pair at
 Catterick and Exeter) and does not pick out the winner. So for this thread the tightness of the natal side matters. The Sun in both charts does not pick out the
-winner on either view. Background, not a rule. (The Wincanton pair Sun chord — sky Sun + both natal Suns, 0.0%, −10.5 min — is outside the −3 min window.)
+winner on either view. Background, not a rule — and not a reason to drop the thread (Eddie: Mars / Sun in both charts may tie in with something else of
+significance in the winners' charts; read what it ties to). (The Wincanton pair Sun chord — sky Sun + both natal Suns, 0.0%, −10.5 min — is outside the −3 min window.)
 
 ### Looking across: which bodies make each pair's TIGHT joins (9 Oct; the races read at full depth)
 Tight join = a pack-3b triangle holding both charts of the pair on which one chart is tightest at ≤0.02%. Body counted in any role (triangle point or that row's
