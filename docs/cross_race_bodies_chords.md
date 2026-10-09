@@ -230,6 +230,30 @@ Other pairs: Poetria / Hamilton also have a Sun beat in both charts (14:42:46 Ha
 Davies a Sun beat by same-body items (14:40:41–14:41:41, her Sun number). **No other pair has Mars in both charts in the race**; Oot Ma Way's Mars
 items are her own same-body chords (Mars + Spica, Mars + Gonggong), her jockey none.
 
+### Catterick 14:40, 6 Apr 2022 — 1st Wotever Next / Joanna Mason (88-s race; from `rr/20220406_catterick_1440/compare/reading-pack.md`)
+**Timeline, the winning pair (non-Moon, off 14:40:09, finish 14:41:37):**
+| time | chart | item |
+|---|---|---|
+| 14:37:53 | J | Mercury 1:6:7 on Dec Regulus–Vega → **Mars** 3:4:7 (strong, tightest); horse's Orcus #2 (strong) |
+| 14:38:09 | J | natal Sun → sky Sun 37φ |
+| ◆ 14:38:24–32 | H / J | horse: natal Pallas → sky Pallas 1560/9 · jockey: **the Sun 5:8:13 on RA Mars–Antares → Pluto 5:8:13** and **Mars 5:8:13 on RA Sun–Antares → Saturn 5:8:13** (one triangle, Sun–Mars–Antares, both lights of the race moving, the natal chords the same 5:8:13) |
+| 14:38:45 | J | **Mercury–Pluto–Rahu**, RA: Mercury on Pluto–Rahu → her own **Mercury** 2:5:7 (0.001%) and Pluto on Mercury–Rahu → her own **Pluto** 2:5:7 (0.001%) — same body and same chord, both corners |
+| ◆ 14:39:21 | H / J | Mercury 4:5:9 on Dec Algorab–Alphecca → jockey's **Neptune** 1:8:9 (strong, tightest), horse's Vesta #2 |
+| ◆ 14:40:49–50 | J / H | in the race: Gonggong 3:4:7 on RA Mercury–Rahu → jockey's Pluto (0.001%) · Mercury 3:5:8 on Dec Altair–Procyon → horse's Chiron (tightest, 0.024%) |
+| ◆ 14:41:04–09 | J / H | in the race: **jockey's natal Sun → sky Sun 201/9** · horse's Mercury + Uranus same body 3:5:8 |
+| ◆ 14:42:39–45 | H / J | after: Mercury 1:1:2 on Dec Pallas–Sirius → horse's **Juno** 1:7:8 (tightest) · **Juno** √2 on Dec Quaoar–Bellatrix → jockey's Saturn 2:5:7 (0.003%, tightest) |
+What is seen:
+- **Mercury is the striking body** for this pair from 2¼ min before the off to 1 min after the finish: the jockey's Mars, Neptune, her own Mercury; the horse's
+  Chiron (in the race) and Juno. The **Mercury–Rahu** base carries the jockey's own Pluto twice (Pluto moving at 14:38:45, Gonggong moving in the race), both 0.001%.
+- **The Sun and Mars together on the jockey**, 1.6 min before the off, as one triangle (Sun–Mars–Antares 5:8:13, her Pluto and Saturn in the same chord).
+  Shared: Hart's Neptune (0.008%) and Thakuri's Uranus are on it too.
+- **The jockey's Sun number in the race (201/9)** — as Doncaster's winning jockey (1511/9). Also Capuchinero (3rd) 325/9 in the race.
+- **Juno and Mars again:** the jockey's Mars is tightest (0.009%) on Pallas 3:4:7 on RA **Juno**–Sirius, applying (+38 min); Doncaster's horse had her Mars on a
+  Juno base (Eris on Juno–Aldebaran) and Juno on her Sun–Mars string. After the finish here, sky Juno and the horse's natal Juno are both in the pair's last beat.
+- The horse's Mars: Neptune 1:2:3 on Dec Venus–Equator, −2.8 min (0.023%), the same transit holding her own Neptune (a same-body crossing).
+- Beats: 5 for the winning pair (most in the race), 2 of them in the race; Capuchinero 2, Tea Garden 3, Thakuri 3, Beluga Gold 1. Over the seven races
+  beat counts and same-body crossing counts do not follow the result (beaten favourites' pairs often have the most crossings) — background only.
+
 ## Same jockey, two races
 Connor Beasley: 4th at Catterick (Tea Garden), 1st at Newcastle (Venturous). At Catterick his nearest strong strike is Venus 1:5:6 → Orcus 1:3:4
 (+1:32, #1 of 7); at Newcastle Jupiter 1:5:6 → Haumea 5:8:13 (+0:51, #1 of 3).
