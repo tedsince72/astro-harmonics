@@ -39,9 +39,11 @@ mkdir -p ~/astro-work/rr/20220318_doncaster_1440/notes
 cp ~/astro-harmonics/rr/20220318_doncaster_1440/notes/*.md ~/astro-work/rr/20220318_doncaster_1440/notes/
 cd ~/astro-work
 python3 tools/runner_record.py 20220318_doncaster_1440 --jobs 4
-diff -rq ~/astro-harmonics/rr/20220318_doncaster_1440/records ~/astro-work/rr/20220318_doncaster_1440/records && echo "SAME - the Mac reproduces the records"
+diff -rq -x '*.json' ~/astro-harmonics/rr/20220318_doncaster_1440/records ~/astro-work/rr/20220318_doncaster_1440/records && echo "SAME - the Mac reproduces the .md records"
 ```
-All 30 record files must come out the same. (Tested in a cloud session on 9 Oct with a working folder other than /home/claude: identical.)
+All 15 `.md` records must be identical. The `.json` records may differ only in the last digits of numbers: compare numeric values to a tolerance of 1e-12; everything else must match exactly. (Tested in a cloud session on 9 Oct with a working folder other than /home/claude: identical. Mac, 9 Oct 2026: .md identical; 5 .json files differed at ~1e-16 in `natal_dev`/`sky_dev`, accepted.)
+
+The Mac is now the reference machine: races are built here. A race is never built in two places.
 
 ## Every session after that
 - Start: `source ~/astro-venv/bin/activate`, then `cd ~/astro-harmonics && git pull`.
