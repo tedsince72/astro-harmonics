@@ -254,6 +254,43 @@ What is seen:
 - Beats: 5 for the winning pair (most in the race), 2 of them in the race; Capuchinero 2, Tea Garden 3, Thakuri 3, Beluga Gold 1. Over the seven races
   beat counts and same-body crossing counts do not follow the result (beaten favourites' pairs often have the most crossings) — background only.
 
+### Ffos Las 17:25, 23 Mar 2022 — 1st Ring The Moon / Adam Wedge (237-s race, four runners)
+**Timeline, the winning pair (off 17:25:24, finish 17:29:21):**
+| time | chart | item |
+|---|---|---|
+| 17:23:54 | H | same body: natal **Mars** – sky Mars + Mercury, Dec √2 |
+| 17:24:09 | J | same body: natal Pluto – sky Pluto + **Mars**, RA 1:5:6 |
+| 17:26:39 | H | same body: Pluto + Venus (Sky) |
+| ◆ 17:28:51 | H | in the race: **Ceres 3:8:11 on RA Jupiter–Algol → Rahu 1:5:6 (0.000%)**, tightest — the only chart struck in the race this way |
+| ◆ 17:28:54–59 | J | in the race: natal Venus → sky Venus 13√2; natal Makemake → sky Makemake 266/9 |
+| 17:29:39 | J | same body: Vesta + **Mars** (Dec 1:8:9) |
+| 17:30:04 | H | natal **Juno** → sky Juno 4φ |
+| 17:30:24 | J | **the Sun 1:3:4 on RA Fomalhaut–Pleiades → Sedna 1:4:5 (strong, tightest)**, +63 s |
+| 17:31:05 | H | **Mars 5:8:13 on RA Altair–Deneb Algedi → Ketu** (#2), +1 min 44 s |
+Background through the race: the jockey's natal **Mars held by Eris 3:5:8** (Dec Aldebaran–Capella, 0.002% at the race, separating); his Sun held by Rahu 5:8:13
+(#2, applying). Joint: Vesta 5:6:11 on Dec Altair–Castor, applying (+28 min), holds **both natal Suns** (horse 2:5:7, jockey 3:8:11 strong).
+What is seen:
+- **Mars in both charts on each side of the race**: 1.5 min before the off (the horse's own Mars with Mercury; the jockey's Pluto with Mars, 15 s apart) and after
+  the finish (Vesta + Mars on the jockey; sky Mars on the horse). Plus the jockey's Mars held through the race by Eris.
+- In the race the beat is the horse's Rahu struck by Ceres (0.000%) with the jockey's Venus and Makemake numbers, in the last 30 s of the race.
+- The Sun reaches the winning pair only after the finish (the jockey's Sedna, +63 s), and through the slow Vesta hold on both Suns.
+- Not here: the winning jockey's Sun number in the race (Doncaster, Catterick). Instead the favourite (You Say Nothing) has her Sun number twice in the
+  race (280/9, 22√2) and Venus twice; Worsley (4th) has hers.
+- Juno again: the horse's Juno number 43 s after the finish.
+
+### Looking across: Mars and the Sun in BOTH charts of a pair near the race (off −3 min to finish +2 min; any layer, any role — sky body, base end, natal body, third point)
+| race | pairs with Mars in both charts (nearest gap between the two charts) | pairs with the Sun in both charts |
+|---|---|---|
+| Doncaster | **winner 2 s, both in the race**; Fiamette (4th) 138 s | winner, Oot Ma Way (2nd), Poetria (3rd), Fiamette (4th) — all in the race |
+| Catterick | **winner 31 s**; Capuchinero (3rd) 45 s (in the race) | none |
+| Ffos Las | **winner 15 s**; Yourholidayisover (4th) 255 s | Time Leader (3rd), Yourholidayisover (4th) |
+| Newcastle | Mondammej (2nd) 105 s — not the winner | none |
+| Carlisle | If Not For Dylan (4th) 16 s — not the winner | Slanelough (3rd) |
+| Wincanton | winner 45 s (in the race); Ballyblack (3rd, fav) 15 s (in the race) | winner, Ballyblack, Birds Of Prey, Reserve Tank |
+| Exeter | none | winner, Jarlath (2nd), Caspers Court, Pens Man, Pointed And Sharp |
+Seen: Mars in both charts is rarer than the Sun and falls on the winning pair in four of seven races (nearest of all in three: Doncaster, Catterick, Ffos Las);
+the Sun in both charts is common and does not pick out the winner. Background, not a rule.
+
 ## Same jockey, two races
 Connor Beasley: 4th at Catterick (Tea Garden), 1st at Newcastle (Venturous). At Catterick his nearest strong strike is Venus 1:5:6 → Orcus 1:3:4
 (+1:32, #1 of 7); at Newcastle Jupiter 1:5:6 → Haumea 5:8:13 (+0:51, #1 of 3).
