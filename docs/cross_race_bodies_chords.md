@@ -180,7 +180,7 @@ Catterick and Exeter. Beaten charts too: Doncaster O'Farrell, Hamilton, Suntory 
 Chiron 3:4:7 in the race, M2 L3 Dec Saturn–Equator). Connor Beasley 4th Catterick / 1st Newcastle. Tom O'Brien 2nd Wincanton / PU Exeter.
 
 ## I. Race by race, layer by layer (Eddie, 9 Oct: "go through each race, each method / layer ... COMBINATIONS")
-Times: applying = time to exact from the FINISH, separating = from the OFF. Doncaster, Catterick, Ffos Las, Newcastle and Carlisle were checked by an independent reviewer
+Times: applying = time to exact from the FINISH, separating = from the OFF. Doncaster, Catterick, Ffos Las, Newcastle, Carlisle and Wincanton were checked by an independent reviewer
 (9 Oct) against the tables; its corrections are applied below.
 **Timelines (9 Oct, later):** the pack's timeline used to drop loose items (M3 natal string >0.05%, M2 natal chord >0.03%); it now lists every non-Moon
 event and splits beats into both-sides-tight (the old rule — unchanged in all seven races) and with a loose side. Note: when one sky event lands on a
@@ -499,18 +499,95 @@ No body runs through them (Makemake, Jupiter, Mercury twice each, counting both 
 the triangle exact at the off with her Mars and his Sun; Pleiades through the horse (Sedna ↔ Chiron; Pallas on her Sedna in the race, and again on Ceres–Vega) and the pair (Rahu–Makemake–Pleiades,
 both tightest); Venus on the jockey (his Juno 0.001%, the Sun on his Venus, his Venus number in the race); his Ceres through Regulus twice and with his own Sun.
 
-### Looking across: Mars and the Sun in BOTH charts of a pair near the race (off −3 min to finish +2 min; any layer, any role — sky body, base end, natal body, third point)
-| race | pairs with Mars in both charts (nearest gap between the two charts) | pairs with the Sun in both charts |
-|---|---|---|
-| Doncaster | **winner 2 s, both in the race**; Fiamette (4th) 138 s | winner, Oot Ma Way (2nd), Poetria (3rd), Fiamette (4th) — all in the race |
-| Catterick | **winner 31 s**; Capuchinero (3rd) 45 s (in the race) | none |
-| Ffos Las | **winner 15 s**; Yourholidayisover (4th) 255 s | Time Leader (3rd), Yourholidayisover (4th) |
-| Newcastle | Mondammej (2nd) 105 s — not the winner | none |
-| Carlisle | If Not For Dylan (4th) 16 s — not the winner | Slanelough (3rd) |
-| Wincanton | winner 45 s (in the race); Ballyblack (3rd, fav) 15 s (in the race) | winner, Ballyblack, Birds Of Prey, Reserve Tank |
-| Exeter | none | winner, Jarlath (2nd), Caspers Court, Pens Man, Pointed And Sharp |
-Seen: Mars in both charts is rarer than the Sun and falls on the winning pair in four of seven races (nearest of all in three: Doncaster, Catterick, Ffos Las);
-the Sun in both charts is common and does not pick out the winner. Background, not a rule.
+### Wincanton 14:20, 21 Mar 2022 — 1st River Bray (22/1) / Alan Johns (296-s race, six runners) — FULL DEPTH (9 Oct)
+Off 14:20:30, finish 14:25:26. Pack: `rr/20220321_wincanton_1420/compare/reading-pack.md` (fuller timeline). 3rd the 10/11 favourite Ballyblack / Rex Dingle.
+**Method 3.**
+- Horse's MARS held near the race: **Jupiter 2:5:7 on Dec Castor–Procyon → Mars 3:5:8 0.025% (tightest of 7; exact 14:44:21, +18.9 min)**; Pallas 4:5:9 on
+  Betelgeuse–Sirius → Mars 0.043% (+4.9 min); Orcus 1:1:2 on Alphecca–Betelgeuse → Mars 0.054% (−1.7 h). **The Sun 3:5:8 on Dec Aldebaran–Bellatrix → her Mercury
+  0.033% in the race (14:25:20, 6 s before the finish)**. Ketu on Betelgeuse–Rigel → her SATURN 0.002% (strong, tightest of 10, −6.4 h). Her Chiron: Saturn on
+  Algorab–Alkaid (0.033%), the Moon on it in the race, Pallas φ on Aldebaran–Sirius (−1.4 min). The Moon in the race on her Sun ×2, Quaoar (strong, tightest, UNI), Ceres 0.004%.
+- Jockey: **the Sun 1:6:7 on RA Antares–Fomalhaut → his MAKEMAKE 4:5:9 0.001% (strong, tightest of 7) in the race (14:23:27)**; Eris on Castor–Rigel → Makemake
+  0.032% (tightest of 12). **His GONGGONG 1:4:5 held by Rahu, Sedna and Transpluto on Dec Algol–Rigel, 0.008% (strong, tightest)**; Haumea on Algol–Equator → Gonggong.
+  Gonggong on Castor–Polaris → his Vesta 0.013% (strong, tightest). His Mars loose (Eris on Castor–Rigel 0.085%).
+- Shared strings: Mars φ on Arcturus–Regulus (her Pallas, his Vesta 0.047%; Dingle's Quaoar 0.001% tightest; −32.5 min); Pallas on Algorab–Altair; Haumea on
+  Algol–Equator; Gonggong on Castor–Polaris; Transpluto on Capella–Pleiades; Sedna on Aldebaran–Castor; Eris on Castor–Rigel (her Ketu, his Makemake 0.032% and Mars).
+- The Sun in both charts in the race — **every pair in this race has it** (Method 3 alone: winners, Guernesey / O'Brien, Ballyblack / Dingle, Birds Of Prey / Cobden;
+  with Method 2 and same-body items the other two as well). [corrected after the independent check]
+- Beaten: **Dingle's MAKEMAKE** struck by the Sun in the race (Aldebaran–Bellatrix, 0.002%, tightest) and held on the same Algol–Rigel string by the same Rahu,
+  Sedna, Transpluto (0.017%, #2) and by Haumea on Algol–Equator (0.010%); Dingle Mars → Quaoar 0.001%. Ballyblack Ketu → Ceres 0.002%, own Eris 0.003%, Uranus →
+  Chiron 0.006%; Birds Of Prey Haumea → Sun 0.002%, the Sun → Venus 0.009% in the race (UNI); Powell Transpluto → Mars 0.008%, Vesta → Uranus 0.002%;
+  Scholfield strong + tightest ×5; Reserve Tank Pallas → Makemake 0.002%.
+**Nodes.** Rahu only. Transpluto 1:5:6 on Dec Rahu–Fomalhaut (−3.5 h) → **the jockey's PALLAS 0.023% (tightest of 8)**; Vesta 2:5:7 on Dec Rahu–Rigel (exact 14:05:14,
+−15.3 min) → **the horse's PALLAS** (0.090%; Powell's Venus tightest). Natal Pallas in both winning charts (Reserve Tank / Powell are on both bases with other bodies).
+Newcastle had Transpluto on Dec Rahu–Fomalhaut too (1:4:5, the winning horse's Juno).
+**L2.**
+- **In the race, Venus φ on Dec Pluto–Procyon (14:22:15) → the horse's NEPTUNE 0.007% (tightest of 11) + her MARS 0.048% + the jockey's MAKEMAKE 0.062%.**
+  Juno 1:7:8 on Dec Orcus–Rahu (14:23:23) → her Sedna 0.043%, his Saturn (Reserve Tank's Mars tightest). Venus 3:4:7 on RA Chiron–Bellatrix (14:24:37) → her Quaoar
+  0.018% (Dingle's Juno 0.010% tightest). Ceres 1:5:6 on RA Haumea–Polaris (14:22:31) → his own Ceres (SAME, 0.077%).
+- Horse tightest: Venus on Eris–Arcturus → Transpluto 0.013% (−11.5 min); Juno on Eris–Haumea → Neptune (own Juno SAME on it, −17.9 min). Jockey tightest:
+  **Jupiter 5:6:11 on Dec Haumea–Algol → his VENUS 0.009%** (+22.4 min); Ceres on Neptune–Castor → his Quaoar 0.008% (−6.6 min).
+- Orcus 4:5:9 on Makemake–Betelgeuse (−1.9 h): the horse's SUN 0.077% + the jockey's MARS 0.072% (loose; Electric Annie's Juno tightest). Sedna on
+  Makemake–Bellatrix → the horse's Pallas 0.027% + the jockey's Jupiter, Sun, Rahu (Powell tightest).
+- Beaten: Powell the Sun in the race → Eris 0.004%, Makemake → Rahu 0.000%; O'Brien Ceres in the race → Mercury 0.001%; Reserve Tank Mercury in the race → Jupiter
+  0.006%; Guernesey Venus → Ceres 0.002%, the Sun → Jupiter 0.007%; Birds Of Prey tightest ×4; Dingle, Cobden in-race strikes.
+**L3.**
+- **Last 20 s of the race**: Haumea 3:5:8 on Dec Ceres–Rahu → **the jockey's MARS** (14:25:06; 0.063%; Powell's Sedna 0.004% tightest); **the Sun 4:5:9 on RA Saturn–Algol
+  → the horse's Vesta 0.082% + the jockey's GONGGONG 0.147%** (14:25:16; Scholfield tightest); then the Sun → her Mercury (14:25:20, Method 3).
+- Mercury 5:6:11 on Dec Saturn–Antares (14:21:54) → **the horse's PALLAS 0.045% (tightest of 3)**. Haumea 1:5:6 on RA Ceres–Polaris (14:22:31) → the jockey's own HAUMEA
+  (SAME) + Chiron (UNI) — with L2's Ceres corner (own Ceres): **a double same-body triangle for the jockey, exact in the race** (loose, 0.077%; Cobden's Neptune 0.003% tightest).
+  Pluto on Ceres–Juno (14:21:39) → her Jupiter; Mercury on Vesta–Equator (14:22:51) → her Rahu; Orcus on Juno–Rahu (14:23:23) → her Ketu, Uranus.
+- Joint triangles: Rahu–Vesta–Rigel (−15.3 min; Vesta corner her Pallas, Rahu corner his Neptune 0.005% + Makemake UNI; O'Brien's Eris 0.003% tightest);
+  Ceres–Jupiter–Fomalhaut (+22.4 min; Ceres corner her Eris 0.031% tightest, Jupiter corner his Neptune, Eris; Powell's Pallas 0.002% tightest);
+  Venus 1:6:7 on Mars–Betelgeuse → **her CHIRON 0.009% (tightest of 7)** + his Makemake (+43.1 min).
+- Beaten: Powell (0.002%), Cobden, O'Brien, Guernesey, Electric Annie, Dingle tightest 0.002–0.010%; Ballyblack, Birds Of Prey and Reserve Tank nothing tightest
+  (nor the winning jockey in L3).
+**L4.** In-race triangles carry the winners from both corners:
+- **Mercury–Vesta–Equator (14:22:51): Vesta corner the jockey's JUNO 0.003% (tightest of 9) + Saturn 0.019%; Mercury corner the horse's Rahu** — joint, in the race
+  (Vesta + Equator again, as Carlisle's Saturn–Vesta–Equator at the off).
+- Venus–Chiron–Bellatrix (14:24:37): Chiron corner the horse's Gonggong (tightest of 5, 0.071%), Venus corner her Quaoar — the horse on both corners.
+- Sun–Saturn–Algol (14:25:16): Saturn corner her Quaoar, Juno, Orcus, Rahu (Electric Annie's Uranus tightest); Sun corner her Vesta + his Gonggong.
+- Mars–Venus–Betelgeuse (+43.1 min): Mars corner her Pluto, Uranus + his PALLAS 0.071% (O'Brien tightest); Venus corner her Chiron (tightest) + his Makemake.
+- Uranus on Sun–Mercury (14:23:56) → her Sedna, Transpluto (Scholfield tightest).
+- Corners with the beaten: Venus–Pluto–Procyon (in the race) — Venus corner the winning horse (Neptune 0.007%), Pluto corner Guernesey (Chiron 0.012%);
+  Mercury–Saturn–Antares (in the race) — Mercury corner the winning horse (Pallas), Saturn corner the favourite Ballyblack (Uranus 0.015%).
+**Same body / numbers.** Horse: **Uranus + MARS RA 1:2:3 exact IN THE RACE (14:24:30; 0.004→0.001%)**; Mercury numbers 14:20:05 (pre) and **RA 1048/9 at 14:21:25
+(race)**; Sun + Vesta (−8.8 min); Jupiter + Uranus (+23.8 min). Jockey: **MARS + Neptune Sky 2:5:7 exact IN THE RACE (14:23:45; 0.006→0.003%)**; Eris + Mercury
+(14:21:30, race); Saturn + Bellatrix 0.002% (−4.0 min); Juno + Altair (−3.2 min); Venus + Gonggong (14:19:15). **Pair same-body SUN chord** (sky Sun + horse Sun +
+jockey Sun, Dec φ, 0.0%, exact 10.5 min before the off). Other pairs: Reserve Tank pair Sun (Flat 1:2:3, 0.022%, older); Ballyblack pair MARS 0.0% (+18.3 min).
+**Mars in both winning charts in the race** — nearest 36 s apart (14:24:30 horse Uranus + Mars; 14:25:06 Haumea → his Mars); the two same-body chords 45 s apart
+(14:23:45 jockey Mars + Neptune; 14:24:30 horse); also Venus → her Mars 14:22:15 — by separate events, not one triangle. Not theirs only: Reserve Tank / Powell
+have Mars in both charts in the race 22 s apart (Juno → Reserve Tank's Mars 0.039% tightest 14:23:23; Powell's Mercury + Mars 14:23:45). The only triangle holding
+a natal Sun or Mars of both winners: Orcus–Makemake–Betelgeuse (her Sun, his Mars, loose, −1.9 h; Sun or Mars as a triangle POINT: Sun–Saturn–Algol in the race,
+Mars–Venus–Betelgeuse +43.1 min); [corrected after the independent check] Birds Of Prey / Cobden have Mars–Mars on two triangles (Bellatrix–Procyon–Vesta, Algol–Haumea–Jupiter).
+**Timeline (fuller).** Both-sides-tight beat: **14:21:25–30 Mercury in both charts** (her Mercury number / his Eris + Mercury). Loose-side joint moments: 14:22:15
+(Venus–Pluto–Procyon), 14:22:51 (Mercury–Vesta–Equator), 14:23:23 (Juno–Orcus–Rahu), 14:25:16 (Sun–Saturn–Algol), 14:25:20, 14:21:39; before the off 14:19:06.
+In the race the winners' events are never more than 34 s apart from 14:21:25 to 14:25:20 (gaps 4–34 s). Beaten pairs are busy too (both-sides-tight beats: Birds Of Prey 5, Ballyblack 3,
+Guernesey, Electric Annie, Reserve Tank 1 each).
+**Joins by body:** 23 joins, 4 tight — two exact in the race: Mercury–Vesta–Equator (J Juno 0.003%), Venus–Pluto–Procyon (H Neptune 0.007%); and Venus–Mars–Betelgeuse
+(H Chiron 0.009%), Gonggong on Castor–Polaris (J Vesta 0.013%). No body runs through them (Mercury, Venus, Vesta twice each).
+**Wincanton in short:** a busy race for the winners, like Doncaster: the Sun in both charts (the pair Sun chord before the off; the Sun striking the jockey's
+Makemake 0.001% and both charts in the last seconds — though every pair has the Sun in both charts in this race); Mars in both charts in the race by
+separate events (nearest 36 s; Reserve Tank / Powell also, 22 s); the Mercury beat in the race;
+the horse's Mars held four ways (Jupiter tightest) and her Pallas in four layers (not L4); the jockey's Gonggong on Algol bases and his Juno 0.003% in the race; Venus as
+the in-race mover on both charts. The favourite's jockey mirrors the winning jockey on the same strings (Makemake, Algol–Rigel).
+
+### Looking across: Mars and the Sun in BOTH charts of a pair near the race (off −3 min to finish +2 min; any layer, any role — sky body, base end, natal body, third point; non-Moon)
+**Rebuilt 9 Oct after the timeline fix** (the first version mixed in Moon items and used only tight natal items). Two views. TIGHT = M3 natal string ≤0.05%, M2
+natal chord ≤0.03%, same-body and natal→sky numbers always; ALL = every natal tightness. Gap = nearest horse event to nearest jockey event (0 s = one event on
+both charts, e.g. a strike on a triangle holding both).
+| race | Mars in both — TIGHT items | Mars in both — ALL items | Sun in both — TIGHT items |
+|---|---|---|---|
+| Doncaster | **winner 2 s**; Fiamette (4) 138 s | winner 2 s; Poetria (3) 79 s; Fiamette 138 s | winner 7 s; Oot Ma Way (2) 0 s; Poetria 7 s; Fiamette 10 s |
+| Catterick | **winner 31 s**; Capuchinero (3) 45 s | all five pairs (winner 0 s; Thakuri 0 s; Capuchinero 3 s; Tea Garden 5 s; Beluga Gold 25 s) | none |
+| Ffos Las | **winner 15 s** — the only pair | winner 3 s; Yourholidayisover (4) 0 s | Time Leader (3) 6 s; Yourholidayisover 0 s |
+| Newcastle | Mondammej (2) 105 s — not the winner | Mondammej 105 s only | none |
+| Carlisle | If Not For Dylan (4) 16 s — not the winner | winner 0 s; Slanelough (3) 0 s; Finisk River (5) 0 s; If Not For Dylan 16 s | Slanelough 120 s |
+| Wincanton | **winner 45 s**; Ballyblack (3, fav) 185 s | Reserve Tank (6) 22 s; winner 36 s; Ballyblack 185 s; Guernesey (2) 221 s | Ballyblack 14 s; Reserve Tank 62 s; Birds Of Prey (4) 80 s; winner 113 s |
+| Exeter | none | all six pairs, five at 0 s (winner 0 s), Jarlath (2) 104 s | Pointed And Sharp, Blaze A Trail 0 s; winner 45 s; Jarlath, Pens Man, Caspers Court 182–288 s |
+Seen: **on tight items**, Mars in both charts falls on the winning pair in four of seven races (Doncaster, Catterick, Ffos Las, Wincanton) and in each of those the
+winner is the nearest pair; it is on a beaten pair only in the other three (Newcastle, Carlisle; none at Exeter). **On all items it is common** (every pair at
+Catterick and Exeter) and does not pick out the winner. So for this thread the tightness of the natal side matters. The Sun in both charts does not pick out the
+winner on either view. Background, not a rule. (The Wincanton pair Sun chord — sky Sun + both natal Suns, 0.0%, −10.5 min — is outside the −3 min window.)
 
 ### Looking across: which bodies make each pair's TIGHT joins (9 Oct; the races read at full depth)
 Tight join = a pack-3b triangle holding both charts of the pair on which one chart is tightest at ≤0.02%. Body counted in any role (triangle point or that row's
@@ -521,8 +598,9 @@ tightest natal body). Top bodies per pair:
 | Catterick | 9/33 — **Neptune 5**, Algorab 3, Saturn 3, Pallas 3 (Algorab bases → H Neptune ×2 and J Neptune) | 2: 1/18 · 3: 5/24 Vesta 3, Jupiter 3 · 4: 8/22 Mercury 4 · 5: 3/25 Haumea 2 |
 | Ffos Las | 3/16 — no body twice (Ceres–Jupiter–Algol → H Rahu 0.000% in the race; Pluto–Sedna–Fomalhaut, J own Pluto + Sedna; Vesta–Antares–Orcus → J Transpluto) | 2: 7/24 Orcus 4, Pluto 4 · 3: 11/27 Gonggong 4 · 4: 9/21 Neptune 3, Makemake 3, Sun 3 |
 | Carlisle | 5/19 — Makemake 2, Jupiter 2, Mercury 2, no body more (both Suns on Aldebaran–Eris–Pluto; J Ceres via Regulus; H Quaoar via Pleiades) | 2: 3/17 Pluto, Saturn 2 · 3: 4/24 Juno 3 · 4: 4/20 Eris, Uranus 2 · 5: 4/19 Chiron, Vesta 2 |
+| Wincanton | 4/23 — Mercury 2, Venus 2, Vesta 2, no body more (two tight joins in the race: J Juno on Mercury–Vesta–Equator, H Neptune on Venus–Pluto–Procyon) | 2: 8/26 Saturn, Rahu, Sedna, Sun 3 · 3: 5/21 Venus 3 · 4: 4/22 Chiron 3 · 5: 7/21 several ×2 · 6: 6/15 Rahu, Makemake 3 |
 | Newcastle | 6/20 — **Uranus 5**, Transpluto 3 | 2: 4/21 Neptune, Aldebaran, Venus 2 · 3: 6/26 Pluto 3 · 4: 6/25 Neptune 3 · 5: 3/22 none twice |
-Seen: in three of five races one body runs through the winners' tight joins (Haumea–Regulus, Neptune via Algorab, Uranus); Ffos Las and Carlisle have none. **Beaten pairs have a
+Seen: in three of six races one body runs through the winners' tight joins (Haumea–Regulus, Neptune via Algorab, Uranus); Ffos Las, Carlisle and Wincanton have none. **Beaten pairs have a
 dominant body too** (Fiamette / Davies Pallas 5 of 8, Poetria / Hamilton Uranus 4 of 8, You Say Nothing / Tudor Orcus and Pluto 4 of 7), so having one does not
 separate the winners; what each body carries (which natal bodies, which stars, which corner) is the thing to read. Background, not a rule.
 
