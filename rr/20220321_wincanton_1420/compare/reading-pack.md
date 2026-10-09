@@ -1742,117 +1742,274 @@ Pair same-body chords (sky X + horse X + jockey X): Reserve Tank pair Sun Flat 1
 
 # 6. The race timeline — every pair, non-Moon, 14:18:30 to 14:27:26 (off 14:20:30, finish 14:25:26)
 
-M3 with the natal string ≤0.05%, M2 with the natal chord ≤0.03%, same body, natal→sky numbers. ◆ = BEAT: the other chart of the pair has an event within 10 s.
+Every non-Moon M3 / M2 event at ANY natal tightness, same body, natal→sky numbers (since 9 Oct; before, M3 was cut at a natal string ≤0.05% and M2 at a natal chord ≤0.03%). Loose = M3 natal string >0.05% or M2 natal chord >0.03%, marked (loose) — still listed. ◆ = BEAT: the other chart of the pair has an event within 10 s; the beats list says whether each side has a tight event.
 
 
 ## River Bray / Alan Johns — finished 1
 
-- 14:19:15 (pre) J [SB] Venus + Gonggong RA 2:5:7
+- ◆ 14:19:06 (pre) H [M2 L3] Mercury 2:3:5 on Dec Saturn–Betelgeuse → Transpluto φ: 2/φ/φ³/φ³+1 0.070 (loose)
+- ◆ 14:19:06 (pre) H [M2 L4] Saturn 2:3:5 on Dec Mercury–Betelgeuse → Pluto 3:5:8 0.150 (loose)
+- ◆ 14:19:06 (pre) H [M3] Pallas φ: φ/φ² on RA Aldebaran–Sirius → Chiron 3:8:11 0.073 (loose)
+- ◆ 14:19:15 (pre) J [SB] Venus + Gonggong RA 2:5:7
 - 14:20:05 (pre) H [N2T] natal Mercury → sky Mercury Dec whole 30
-- ◆ 14:21:18 (race) J [M2 L4] Rahu 2:3:5 on Sky Mercury–Regulus → Transpluto 1:8:9 0.010
 - ◆ 14:21:25 (race) H [N2T] natal Mercury → sky Mercury RA 1048/9
 - ◆ 14:21:30 (race) J [SB] Eris + Mercury Dec 2:3:5
-- 14:22:15 (race) H [M2 L2] Venus φ: 2−1/φ/φ²/φ√5 on Dec Pluto–Procyon → Neptune φ: φ/φ² 0.007
-- 14:22:51 (race) J [M2 L4] Vesta 1:2:3 on Dec Mercury–Equator → Juno 5:6:11 0.003
-- 14:22:51 (race) J [M2 L4] Vesta 1:2:3 on Dec Mercury–Equator → Saturn 5:6:11 0.019
-- 14:23:27 (race) J [M3] Sun 1:6:7 on RA Antares–Fomalhaut → Makemake 4:5:9 0.001 STRONG
+- ◆ 14:21:39 (race) H [M2 L3] Pluto 1:6:7 on RA Ceres–Juno → Jupiter 1:4:5 0.145 (loose)
+- 14:21:54 (race) H [M2 L3] Mercury 5:6:11 on Dec Saturn–Antares → Pallas 3:5:8 0.045 (loose)
+- 14:21:54 (race) H [M2 L3] Mercury 5:6:11 on Dec Saturn–Antares → Rahu 3:5:8 0.136 (loose)
+- ◆ 14:22:15 (race) H [M2 L2] Venus φ: 2−1/φ/φ²/φ√5 on Dec Pluto–Procyon → Mars 2:3:5 0.048 (loose)
+- ◆ 14:22:15 (race) H [M2 L2] Venus φ: 2−1/φ/φ²/φ√5 on Dec Pluto–Procyon → Neptune φ: φ/φ² 0.007
+- ◆ 14:22:15 (race) J [M2 L2] Venus φ: 2−1/φ/φ²/φ√5 on Dec Pluto–Procyon → Makemake φ: 2/φ/φ³/φ³+1 0.062 (loose)
+- 14:22:31 (race) J [M2 L2] Ceres 1:5:6 on RA Haumea–Polaris → Ceres 5:8:13 0.077 (loose)
+- 14:22:31 (race) J [M2 L3] Haumea 1:5:6 on RA Ceres–Polaris → Chiron 1:5:6 0.114 (loose)
+- 14:22:31 (race) J [M2 L3] Haumea 1:5:6 on RA Ceres–Polaris → Haumea 5:8:13 0.077 (loose)
+- ◆ 14:22:51 (race) H [M2 L3] Mercury 1:2:3 on Dec Vesta–Equator → Rahu 1:√2:1+√2 0.074 (loose)
+- ◆ 14:22:51 (race) J [M2 L4] Vesta 1:2:3 on Dec Mercury–Equator → Juno 5:6:11 0.003
+- ◆ 14:22:51 (race) J [M2 L4] Vesta 1:2:3 on Dec Mercury–Equator → Saturn 5:6:11 0.019
+- ◆ 14:23:23 (race) H [M2 L2] Juno 1:7:8 on Dec Orcus–Rahu → Sedna 2:3:5 0.043 (loose)
+- ◆ 14:23:23 (race) H [M2 L3] Orcus 1:7:8 on Dec Juno–Rahu → Ketu 1:√2:1+√2 0.043 (loose)
+- ◆ 14:23:23 (race) H [M2 L3] Orcus 1:7:8 on Dec Juno–Rahu → Uranus 1:2:3 0.137 (loose)
+- ◆ 14:23:23 (race) J [M2 L2] Juno 1:7:8 on Dec Orcus–Rahu → Saturn 1:2:3 0.105 (loose)
+- ◆ 14:23:27 (race) J [M3] Sun 1:6:7 on RA Antares–Fomalhaut → Makemake 4:5:9 0.001 STRONG
 - 14:23:45 (race) J [SB] Mars + Neptune Sky 2:5:7
+- 14:23:56 (race) H [M2 L4] Uranus 1:4:5 on RA Sun–Mercury → Sedna 1:1:2 0.055 (loose)
+- 14:23:56 (race) H [M2 L4] Uranus 1:4:5 on RA Sun–Mercury → Transpluto 3:5:8 0.108 (loose)
 - 14:24:30 (race) H [SB] Uranus + Mars RA 1:2:3
 - 14:24:37 (race) H [M2 L2] Venus 3:4:7 on RA Chiron–Bellatrix → Quaoar 4:5:9 0.018
-- 14:25:20 (race) H [M3] Sun 3:5:8 on Dec Aldebaran–Bellatrix → Mercury 1:√2:1+√2 0.033
+- 14:24:37 (race) H [M2 L4] Chiron 3:4:7 on RA Venus–Bellatrix → Gonggong 1:5:6 0.071 (loose)
+- ◆ 14:25:06 (race) J [M2 L3] Haumea 3:5:8 on Dec Ceres–Rahu → Mars 1:8:9 0.063 (loose)
+- ◆ 14:25:16 (race) H [M2 L3] Sun 4:5:9 on RA Saturn–Algol → Vesta 5:8:13 0.082 (loose)
+- ◆ 14:25:16 (race) H [M2 L4] Saturn 4:5:9 on RA Sun–Algol → Juno 3:8:11 0.077 (loose)
+- ◆ 14:25:16 (race) H [M2 L4] Saturn 4:5:9 on RA Sun–Algol → Orcus 1:2:3 0.098 (loose)
+- ◆ 14:25:16 (race) H [M2 L4] Saturn 4:5:9 on RA Sun–Algol → Quaoar φ: 2/φ/φ³/φ³+1 0.052 (loose)
+- ◆ 14:25:16 (race) H [M2 L4] Saturn 4:5:9 on RA Sun–Algol → Rahu φ: 2/φ/φ³/φ³+1 0.104 (loose)
+- ◆ 14:25:16 (race) J [M2 L3] Sun 4:5:9 on RA Saturn–Algol → Gonggong φ: φ/φ² 0.147 (loose)
+- ◆ 14:25:20 (race) H [M3] Sun 3:5:8 on Dec Aldebaran–Bellatrix → Mercury 1:√2:1+√2 0.033
 - 14:25:45 (post) H [SB] Neptune + Venus Sky 5:6:11
+- 14:26:50 (post) J [M2 L2] Jupiter 1:3:4 on Dec Quaoar–Pleiades → Saturn 1:4:5 0.092 (loose)
 
 ## Guernesey / Tom O'Brien — finished 2
 
 - 14:18:30 (pre) H [SB] Sun + Deneb Algedi Flat 3:4:7
+- 14:19:06 (pre) H [M2 L3] Mercury 2:3:5 on Dec Saturn–Betelgeuse → Juno 1:3:4 0.087 (loose)
 - 14:19:06 (pre) H [M2 L4] Saturn 2:3:5 on Dec Mercury–Betelgeuse → Chiron φ: φ/φ² 0.028
-- 14:21:44 (race) H [M2 L2] Mercury 3:8:11 on RA Pluto–Chiron → Haumea 5:6:11 0.016
+- 14:19:06 (pre) H [M2 L4] Saturn 2:3:5 on Dec Mercury–Betelgeuse → Orcus 3:5:8 0.107 (loose)
+- 14:19:06 (pre) H [M3] Pallas φ: φ/φ² on RA Aldebaran–Sirius → Eris 3:4:7 0.119 (loose)
+- 14:19:06 (pre) H [M3] Pallas φ: φ/φ² on RA Aldebaran–Sirius → Uranus 2:3:5 0.059 (loose)
+- ◆ 14:21:44 (race) H [M2 L2] Mercury 3:8:11 on RA Pluto–Chiron → Haumea 5:6:11 0.016
+- ◆ 14:21:54 (race) J [M2 L4] Saturn 5:6:11 on Dec Mercury–Antares → Chiron φ: 2−1/φ/φ²/φ√5 0.064 (loose)
+- ◆ 14:21:56 (race) H [M2 L3] Sedna 2:3:5 on Dec Juno–Vesta → Mars 1:√2:1+√2 0.071 (loose)
+- ◆ 14:21:56 (race) J [M2 L3] Sedna 2:3:5 on Dec Juno–Vesta → Uranus 2:3:5 0.031 (loose)
+- 14:22:15 (race) H [M2 L2] Venus φ: 2−1/φ/φ²/φ√5 on Dec Pluto–Procyon → Transpluto φ: 2/φ/φ³/φ³+1 0.147 (loose)
 - 14:22:15 (race) H [M2 L4] Pluto φ: 2−1/φ/φ²/φ√5 on Dec Venus–Procyon → Chiron 2:5:7 0.012
 - 14:22:31 (race) H [M2 L3] Haumea 1:5:6 on RA Ceres–Polaris → Uranus 1:2:3 0.030
-- 14:23:27 (race) H [M3] Sun 1:6:7 on RA Antares–Fomalhaut → Haumea 3:8:11 0.013 STRONG
+- ◆ 14:22:51 (race) H [M2 L3] Mercury 1:2:3 on Dec Vesta–Equator → Makemake φ: φ/φ² 0.060 (loose)
+- ◆ 14:22:51 (race) H [M2 L3] Mercury 1:2:3 on Dec Vesta–Equator → Neptune 1:2:3 0.131 (loose)
+- ◆ 14:22:51 (race) H [M2 L4] Vesta 1:2:3 on Dec Mercury–Equator → Transpluto 1:2:3 0.055 (loose)
+- ◆ 14:22:51 (race) J [M2 L4] Vesta 1:2:3 on Dec Mercury–Equator → Uranus 5:8:13 0.138 (loose)
+- ◆ 14:23:20 (race) H [M2 L4] Vesta 5:8:13 on Dec Mercury–Spica → Mars 3:8:11 0.112 (loose)
+- ◆ 14:23:27 (race) H [M3] Sun 1:6:7 on RA Antares–Fomalhaut → Haumea 3:8:11 0.013 STRONG
+- ◆ 14:23:27 (race) J [M3] Sun 1:6:7 on RA Antares–Fomalhaut → Mercury φ: 2/φ/φ³/φ³+1 0.093 (loose)
 - 14:24:25 (race) H [M3] Gonggong 2:5:7 on RA Betelgeuse–Pleiades → Juno 1:4:5 0.043
-- 14:25:06 (race) J [M2 L2] Ceres 3:5:8 on Dec Haumea–Rahu → Mercury 2:3:5 0.001
+- 14:24:37 (race) H [M2 L2] Venus 3:4:7 on RA Chiron–Bellatrix → Sun φ: φ/φ² 0.136 (loose)
+- ◆ 14:25:06 (race) H [M2 L3] Haumea 3:5:8 on Dec Ceres–Rahu → Saturn 1:2:3 0.078 (loose)
+- ◆ 14:25:06 (race) J [M2 L2] Ceres 3:5:8 on Dec Haumea–Rahu → Mercury 2:3:5 0.001
+- ◆ 14:25:06 (race) J [M2 L3] Haumea 3:5:8 on Dec Ceres–Rahu → Neptune 2:5:7 0.031 (loose)
 - ◆ 14:25:15 (race) J [SB] Pallas + Eris Dec 1:8:9
 - ◆ 14:25:20 (race) H [M3] Sun 3:5:8 on Dec Aldebaran–Bellatrix → Neptune 1:√2:1+√2 0.050
 - ◆ 14:25:20 (race) H [M3] Sun 3:5:8 on Dec Aldebaran–Bellatrix → Saturn 3:8:11 0.011 STRONG
+- ◆ 14:25:22 (race) H [M2 L2] Mercury 3:8:11 on RA Pluto–Gonggong → Haumea φ: φ/φ² 0.055 (loose)
+- ◆ 14:25:22 (race) J [M2 L2] Mercury 3:8:11 on RA Pluto–Gonggong → Saturn 3:8:11 0.080 (loose)
+- 14:26:50 (post) H [M2 L2] Jupiter 1:3:4 on Dec Quaoar–Pleiades → Ceres 2:5:7 0.146 (loose)
+- 14:26:50 (post) H [M2 L2] Jupiter 1:3:4 on Dec Quaoar–Pleiades → Juno 2:3:5 0.147 (loose)
+- 14:26:50 (post) H [M2 L2] Jupiter 1:3:4 on Dec Quaoar–Pleiades → Ketu 2:5:7 0.070 (loose)
 
 ## Ballyblack / Rex Dingle — finished 3 (fav)
 
-- 14:19:00 (pre) J [N2T] natal Mars → sky Mars RA 43/9
+- 14:18:45 (pre) J [M2 L4] Gonggong 3:4:7 on RA Mercury–Deneb Algedi → Chiron 5:8:13 0.048 (loose)
+- 14:18:45 (pre) J [M2 L4] Gonggong 3:4:7 on RA Mercury–Deneb Algedi → Juno 4:5:9 0.047 (loose)
+- ◆ 14:19:00 (pre) J [N2T] natal Mars → sky Mars RA 43/9
+- ◆ 14:19:06 (pre) H [M2 L4] Saturn 2:3:5 on Dec Mercury–Betelgeuse → Juno 5:6:11 0.109 (loose)
+- ◆ 14:19:06 (pre) J [M2 L3] Mercury 2:3:5 on Dec Saturn–Betelgeuse → Ceres φ: 2/φ/φ³/φ³+1 0.079 (loose)
 - 14:19:45 (pre) J [SB] Mars + Mercury Sky 1:7:8
 - 14:20:15 (pre) H [N2T] natal Venus → sky Venus RA 134/9
 - 14:21:30 (race) J [N2T] natal Mercury → sky Mercury RA 785/9
-- 14:21:45 (race) H [SB] Uranus + Jupiter Dec 3:4:7
-- 14:21:54 (race) H [M2 L4] Saturn 5:6:11 on Dec Mercury–Antares → Uranus φ: 2/φ/φ³/φ³+1 0.015
+- ◆ 14:21:44 (race) J [M2 L2] Mercury 3:8:11 on RA Pluto–Chiron → Rahu φ: 2−1/φ/φ²/φ√5 0.041 (loose)
+- ◆ 14:21:45 (race) H [SB] Uranus + Jupiter Dec 3:4:7
+- ◆ 14:21:54 (race) H [M2 L4] Saturn 5:6:11 on Dec Mercury–Antares → Uranus φ: 2/φ/φ³/φ³+1 0.015
+- 14:22:15 (race) J [M2 L2] Venus φ: 2−1/φ/φ²/φ√5 on Dec Pluto–Procyon → Chiron φ: 2−1/φ/φ²/φ√5 0.091 (loose)
 - 14:22:15 (race) J [M2 L2] Venus φ: 2−1/φ/φ²/φ√5 on Dec Pluto–Procyon → Mercury 4:5:9 0.007
+- 14:22:15 (race) J [M2 L2] Venus φ: 2−1/φ/φ²/φ√5 on Dec Pluto–Procyon → Uranus φ: φ/φ² 0.110 (loose)
+- 14:22:31 (race) J [M2 L3] Haumea 1:5:6 on RA Ceres–Polaris → Saturn 1:1:2 0.036 (loose)
 - ◆ 14:22:50 (race) H [N2T] natal Mars → sky Mars RA 755/9
+- ◆ 14:22:51 (race) J [M2 L4] Vesta 1:2:3 on Dec Mercury–Equator → Juno 1:5:6 0.060 (loose)
+- ◆ 14:22:51 (race) J [M2 L4] Vesta 1:2:3 on Dec Mercury–Equator → Jupiter 1:2:3 0.073 (loose)
 - ◆ 14:22:51 (race) J [M2 L4] Vesta 1:2:3 on Dec Mercury–Equator → Uranus 1:7:8 0.011
+- ◆ 14:22:51 (race) J [M2 L4] Vesta 1:2:3 on Dec Mercury–Equator → Venus 1:3:4 0.035 (loose)
 - ◆ 14:23:15 (race) H [SB] Venus + Saturn RA 1:2:3
 - ◆ 14:23:20 (race) J [M2 L3] Mercury 5:8:13 on Dec Vesta–Spica → Chiron 1:3:4 0.008
-- 14:23:27 (race) J [M3] Sun 1:6:7 on RA Antares–Fomalhaut → Neptune 4:5:9 0.041
-- 14:24:37 (race) J [M2 L2] Venus 3:4:7 on RA Chiron–Bellatrix → Juno φ: 2−1/φ/φ²/φ√5 0.010
+- ◆ 14:23:20 (race) J [M2 L4] Vesta 5:8:13 on Dec Mercury–Spica → Eris 1:3:4 0.114 (loose)
+- ◆ 14:23:23 (race) H [M2 L3] Orcus 1:7:8 on Dec Juno–Rahu → Chiron 1:2:3 0.098 (loose)
+- ◆ 14:23:23 (race) J [M2 L2] Juno 1:7:8 on Dec Orcus–Rahu → Sedna 2:5:7 0.132 (loose)
+- ◆ 14:23:27 (race) H [M3] Sun 1:6:7 on RA Antares–Fomalhaut → Pluto 1:√2:1+√2 0.133 (loose)
+- ◆ 14:23:27 (race) J [M3] Sun 1:6:7 on RA Antares–Fomalhaut → Neptune 4:5:9 0.041
+- 14:23:38 (race) J [M3] Mercury φ: φ/φ² on Dec Algorab–Equator → Transpluto 4:5:9 0.147 (loose)
+- ◆ 14:24:25 (race) H [M3] Gonggong 2:5:7 on RA Betelgeuse–Pleiades → Rahu φ: 2−1/φ/φ²/φ√5 0.140 (loose)
+- ◆ 14:24:25 (race) J [M3] Gonggong 2:5:7 on RA Betelgeuse–Pleiades → Chiron φ: 2/φ/φ³/φ³+1 0.051 (loose)
+- ◆ 14:24:25 (race) J [M3] Gonggong 2:5:7 on RA Betelgeuse–Pleiades → Juno 1:3:4 0.057 (loose)
+- ◆ 14:24:37 (race) H [M2 L2] Venus 3:4:7 on RA Chiron–Bellatrix → Sedna 2:5:7 0.057 (loose)
+- ◆ 14:24:37 (race) J [M2 L2] Venus 3:4:7 on RA Chiron–Bellatrix → Juno φ: 2−1/φ/φ²/φ√5 0.010
+- 14:25:06 (race) H [M2 L2] Ceres 3:5:8 on Dec Haumea–Rahu → Makemake 3:5:8 0.063 (loose)
+- 14:25:06 (race) H [M2 L3] Haumea 3:5:8 on Dec Ceres–Rahu → Ketu 1:2:3 0.121 (loose)
 - 14:25:06 (race) H [M2 L3] Haumea 3:5:8 on Dec Ceres–Rahu → Sun φ: 2/φ/φ³/φ³+1 0.025
-- 14:25:20 (race) J [M3] Sun 3:5:8 on Dec Aldebaran–Bellatrix → Makemake 5:8:13 0.002 STRONG
+- ◆ 14:25:20 (race) J [M3] Sun 3:5:8 on Dec Aldebaran–Bellatrix → Makemake 5:8:13 0.002 STRONG
+- ◆ 14:25:22 (race) H [M2 L2] Mercury 3:8:11 on RA Pluto–Gonggong → Mars 5:6:11 0.130 (loose)
+- ◆ 14:25:22 (race) J [M2 L2] Mercury 3:8:11 on RA Pluto–Gonggong → Eris φ: φ/φ² 0.060 (loose)
+- ◆ 14:26:50 (post) H [M2 L2] Jupiter 1:3:4 on Dec Quaoar–Pleiades → Chiron 5:8:13 0.048 (loose)
+- ◆ 14:26:50 (post) H [M2 L3] Quaoar 1:3:4 on Dec Jupiter–Pleiades → Orcus 3:4:7 0.133 (loose)
 - ◆ 14:26:50 (post) H [M2 L3] Quaoar 1:3:4 on Dec Jupiter–Pleiades → Venus 3:4:7 0.030
 - ◆ 14:26:50 (post) J [M2 L3] Quaoar 1:3:4 on Dec Jupiter–Pleiades → Neptune 1:7:8 0.027
 - ◆ 14:26:50 (post) J [M2 L3] Quaoar 1:3:4 on Dec Jupiter–Pleiades → Rahu 4:5:9 0.012
+- ◆ 14:26:59 (post) J [M3] Mercury 1:8:9 on Dec Altair–Rigel → Rahu 1:8:9 0.099 (loose)
 - 14:27:20 (post) H [N2T] natal Ceres → sky Ceres Flat 851/9
 
 ## Birds Of Prey / Harry Cobden — finished 4
 
-- 14:19:06 (pre) J [M3] Pallas φ: φ/φ² on RA Aldebaran–Sirius → Eris 1:√2:1+√2 0.031
-- 14:19:15 (pre) J [SB] Saturn + Mercury Sky 1:√2:1+√2
+- 14:18:45 (pre) H [M2 L4] Gonggong 3:4:7 on RA Mercury–Deneb Algedi → Makemake 1:4:5 0.148 (loose)
+- ◆ 14:19:06 (pre) H [M2 L4] Saturn 2:3:5 on Dec Mercury–Betelgeuse → Jupiter φ: φ/φ² 0.033 (loose)
+- ◆ 14:19:06 (pre) H [M3] Pallas φ: φ/φ² on RA Aldebaran–Sirius → Saturn 1:4:5 0.143 (loose)
+- ◆ 14:19:06 (pre) J [M3] Pallas φ: φ/φ² on RA Aldebaran–Sirius → Chiron 1:4:5 0.112 (loose)
+- ◆ 14:19:06 (pre) J [M3] Pallas φ: φ/φ² on RA Aldebaran–Sirius → Eris 1:√2:1+√2 0.031
+- ◆ 14:19:15 (pre) J [SB] Saturn + Mercury Sky 1:√2:1+√2
 - 14:20:00 (pre) H [SB] Pluto + Mercury Dec 1:6:7
 - 14:20:45 (race) H [SB] Sun + Neptune Dec 5:8:13
-- 14:21:44 (race) J [M2 L2] Mercury 3:8:11 on RA Pluto–Chiron → Pallas 1:6:7 0.010
+- ◆ 14:21:44 (race) H [M2 L2] Mercury 3:8:11 on RA Pluto–Chiron → Mars 1:√2:1+√2 0.134 (loose)
+- ◆ 14:21:44 (race) J [M2 L2] Mercury 3:8:11 on RA Pluto–Chiron → Mercury φ: 2−1/φ/φ²/φ√5 0.127 (loose)
+- ◆ 14:21:44 (race) J [M2 L2] Mercury 3:8:11 on RA Pluto–Chiron → Pallas 1:6:7 0.010
+- ◆ 14:21:54 (race) H [M2 L4] Saturn 5:6:11 on Dec Mercury–Antares → Juno φ: 2/φ/φ³/φ³+1 0.120 (loose)
+- ◆ 14:21:54 (race) J [M2 L3] Mercury 5:6:11 on Dec Saturn–Antares → Makemake 2:3:5 0.066 (loose)
 - 14:22:15 (race) J [SB] Mercury + Sirius Dec 2:3:5
 - ◆ 14:22:30 (race) J [SB] Venus + Regulus Sky 5:6:11
 - ◆ 14:22:31 (race) J [M2 L3] Haumea 1:5:6 on RA Ceres–Polaris → Neptune 1:3:4 0.003
 - ◆ 14:22:35 (race) H [N2T] natal Vesta → sky Vesta RA 896/9
 - ◆ 14:22:40 (race) H [N2T] natal Pallas → sky Pallas RA 1150/9
+- ◆ 14:23:20 (race) H [M2 L4] Vesta 5:8:13 on Dec Mercury–Spica → Ketu 2:3:5 0.086 (loose)
 - ◆ 14:23:20 (race) H [N2T] natal Vesta → sky Vesta Sky 898/9
 - ◆ 14:23:20 (race) J [M2 L3] Mercury 5:8:13 on Dec Vesta–Spica → Sedna 3:4:7 0.021
+- ◆ 14:23:23 (race) J [M2 L2] Juno 1:7:8 on Dec Orcus–Rahu → Ceres φ: 2−1/φ/φ²/φ√5 0.059 (loose)
+- ◆ 14:23:23 (race) J [M2 L2] Juno 1:7:8 on Dec Orcus–Rahu → Sedna 5:6:11 0.055 (loose)
+- ◆ 14:23:27 (race) J [M3] Sun 1:6:7 on RA Antares–Fomalhaut → Eris 2:5:7 0.106 (loose)
+- 14:23:56 (race) J [M2 L4] Uranus 1:4:5 on RA Sun–Mercury → Ketu 1:4:5 0.131 (loose)
 - 14:24:00 (race) J [SB] Sun + Bellatrix Dec φ: 2−1/φ/φ²/φ√5
+- ◆ 14:24:32 (race) H [M2 L2] Sun 1:8:9 on RA Neptune–Pluto → Uranus φ: φ/φ² 0.082 (loose)
+- ◆ 14:24:32 (race) H [M2 L2] Sun 1:8:9 on RA Neptune–Pluto → Vesta 1:√2:1+√2 0.105 (loose)
+- ◆ 14:24:32 (race) J [M2 L2] Sun 1:8:9 on RA Neptune–Pluto → Makemake 4:5:9 0.050 (loose)
+- ◆ 14:24:37 (race) H [M2 L2] Venus 3:4:7 on RA Chiron–Bellatrix → Pluto 5:8:13 0.082 (loose)
+- ◆ 14:24:37 (race) J [M2 L4] Chiron 3:4:7 on RA Venus–Bellatrix → Pallas 6:8:9 0.114 (loose)
 - 14:24:50 (race) J [N2T] natal Vesta → sky Vesta Flat whole 172
+- ◆ 14:25:06 (race) J [M2 L2] Ceres 3:5:8 on Dec Haumea–Rahu → Saturn 2:5:7 0.043 (loose)
+- ◆ 14:25:06 (race) J [M2 L3] Haumea 3:5:8 on Dec Ceres–Rahu → Orcus φ: 2−1/φ/φ²/φ√5 0.059 (loose)
+- ◆ 14:25:16 (race) H [M2 L4] Saturn 4:5:9 on RA Sun–Algol → Mercury 1:2:3 0.069 (loose)
 - ◆ 14:25:20 (race) H [M3] Sun 3:5:8 on Dec Aldebaran–Bellatrix → Venus 3:5:8 0.009 STRONG
 - ◆ 14:25:20 (race) H [M3] Sun 3:5:8 on Dec Aldebaran–Bellatrix → Vesta 2:5:7 0.033
+- ◆ 14:25:22 (race) H [M2 L2] Mercury 3:8:11 on RA Pluto–Gonggong → Mars 3:5:8 0.103 (loose)
 - ◆ 14:25:26 (race) H [SB] Neptune + Mercury RA 1:4:5
 - ◆ 14:25:26 (race) J [SB] Pluto + Venus Dec 3:5:8
 - 14:26:10 (post) J [N2T] natal Mercury → sky Mercury RA 975/9
-- 14:26:50 (post) H [M2 L2] Jupiter 1:3:4 on Dec Quaoar–Pleiades → Orcus φ: 2/φ/φ³/φ³+1 0.014
+- ◆ 14:26:50 (post) H [M2 L2] Jupiter 1:3:4 on Dec Quaoar–Pleiades → Mercury 1:2:3 0.137 (loose)
+- ◆ 14:26:50 (post) H [M2 L2] Jupiter 1:3:4 on Dec Quaoar–Pleiades → Orcus φ: 2/φ/φ³/φ³+1 0.014
+- ◆ 14:26:50 (post) J [M2 L2] Jupiter 1:3:4 on Dec Quaoar–Pleiades → Transpluto 2:5:7 0.051 (loose)
+- ◆ 14:26:59 (post) J [M3] Mercury 1:8:9 on Dec Altair–Rigel → Quaoar φ: 2−1/φ/φ²/φ√5 0.144 (loose)
 
 ## Electric Annie / Nick Scholfield — finished 5
 
+- 14:18:45 (pre) H [M2 L2] Mercury 3:4:7 on RA Gonggong–Deneb Algedi → Ceres 5:8:13 0.050 (loose)
+- 14:18:45 (pre) H [M2 L4] Gonggong 3:4:7 on RA Mercury–Deneb Algedi → Ceres 1:7:8 0.038 (loose)
+- ◆ 14:19:06 (pre) H [M2 L4] Saturn 2:3:5 on Dec Mercury–Betelgeuse → Pluto 3:5:8 0.107 (loose)
 - ◆ 14:19:06 (pre) H [M3] Pallas φ: φ/φ² on RA Aldebaran–Sirius → Orcus 2:3:5 0.029
+- ◆ 14:19:06 (pre) J [M2 L3] Mercury 2:3:5 on Dec Saturn–Betelgeuse → Rahu 1:2:3 0.078 (loose)
+- ◆ 14:19:06 (pre) J [M2 L4] Saturn 2:3:5 on Dec Mercury–Betelgeuse → Eris 3:4:7 0.103 (loose)
 - ◆ 14:19:06 (pre) J [M3] Pallas φ: φ/φ² on RA Aldebaran–Sirius → Orcus 5:6:11 0.029
+- 14:21:39 (race) J [M2 L3] Pluto 1:6:7 on RA Ceres–Juno → Pluto 5:8:13 0.147 (loose)
+- 14:21:54 (race) H [M2 L4] Saturn 5:6:11 on Dec Mercury–Antares → Sun 1:8:9 0.106 (loose)
+- 14:21:56 (race) H [M2 L3] Sedna 2:3:5 on Dec Juno–Vesta → Rahu φ: 2/φ/φ³/φ³+1 0.079 (loose)
+- 14:22:15 (race) J [M2 L2] Venus φ: 2−1/φ/φ²/φ√5 on Dec Pluto–Procyon → Ceres 1:2:3 0.059 (loose)
+- 14:22:15 (race) J [M2 L2] Venus φ: 2−1/φ/φ²/φ√5 on Dec Pluto–Procyon → Mercury 3:8:11 0.040 (loose)
+- 14:22:15 (race) J [M2 L2] Venus φ: 2−1/φ/φ²/φ√5 on Dec Pluto–Procyon → Uranus φ: 2/φ/φ³/φ³+1 0.097 (loose)
+- ◆ 14:22:31 (race) H [M2 L3] Haumea 1:5:6 on RA Ceres–Polaris → Mercury φ: 2−1/φ/φ²/φ√5 0.105 (loose)
+- ◆ 14:22:31 (race) J [M2 L2] Ceres 1:5:6 on RA Haumea–Polaris → Makemake 1:7:8 0.066 (loose)
+- 14:22:51 (race) H [M2 L3] Mercury 1:2:3 on Dec Vesta–Equator → Transpluto 2:3:5 0.113 (loose)
+- 14:22:51 (race) H [M2 L4] Vesta 1:2:3 on Dec Mercury–Equator → Uranus 3:8:11 0.041 (loose)
 - 14:23:23 (race) H [M2 L3] Orcus 1:7:8 on Dec Juno–Rahu → Ketu 1:√2:1+√2 0.006
 - 14:23:23 (race) H [M2 L3] Orcus 1:7:8 on Dec Juno–Rahu → Venus 1:√2:1+√2 0.014
-- 14:23:38 (race) J [M3] Mercury φ: φ/φ² on Dec Algorab–Equator → Haumea 1:√2:1+√2 0.019 STRONG
-- 14:23:38 (race) J [M3] Mercury φ: φ/φ² on Dec Algorab–Equator → Neptune 1:3:4 0.022
+- 14:23:23 (race) H [M2 L3] Orcus 1:7:8 on Dec Juno–Rahu → Vesta φ: 2/φ/φ³/φ³+1 0.079 (loose)
+- 14:23:27 (race) H [M3] Sun 1:6:7 on RA Antares–Fomalhaut → Pluto 2:3:5 0.068 (loose)
+- ◆ 14:23:38 (race) H [M3] Mercury φ: φ/φ² on Dec Algorab–Equator → Uranus 2:5:7 0.114 (loose)
+- ◆ 14:23:38 (race) J [M3] Mercury φ: φ/φ² on Dec Algorab–Equator → Haumea 1:√2:1+√2 0.019 STRONG
+- ◆ 14:23:38 (race) J [M3] Mercury φ: φ/φ² on Dec Algorab–Equator → Neptune 1:3:4 0.022
+- ◆ 14:23:38 (race) J [M3] Mercury φ: φ/φ² on Dec Algorab–Equator → Sun 1:√2:1+√2 0.085 (loose)
+- 14:23:56 (race) J [M2 L4] Uranus 1:4:5 on RA Sun–Mercury → Haumea 1:4:5 0.100 (loose)
+- 14:23:56 (race) J [M2 L4] Uranus 1:4:5 on RA Sun–Mercury → Jupiter 4:5:9 0.041 (loose)
 - 14:24:15 (race) H [SB] Neptune + Mercury Dec 1:1:2
-- 14:24:32 (race) H [M2 L2] Sun 1:8:9 on RA Neptune–Pluto → Mercury φ: φ/φ² 0.008
-- 14:25:22 (race) J [M2 L2] Mercury 3:8:11 on RA Pluto–Gonggong → Saturn 5:6:11 0.027
+- ◆ 14:24:32 (race) H [M2 L2] Sun 1:8:9 on RA Neptune–Pluto → Mercury φ: φ/φ² 0.008
+- ◆ 14:24:32 (race) J [M2 L2] Sun 1:8:9 on RA Neptune–Pluto → Gonggong 5:6:11 0.127 (loose)
+- ◆ 14:24:37 (race) H [M2 L4] Chiron 3:4:7 on RA Venus–Bellatrix → Mercury 2:3:5 0.135 (loose)
+- ◆ 14:24:37 (race) H [M2 L4] Chiron 3:4:7 on RA Venus–Bellatrix → Sedna 5:8:13 0.078 (loose)
+- ◆ 14:24:37 (race) J [M2 L4] Chiron 3:4:7 on RA Venus–Bellatrix → Eris 5:8:13 0.143 (loose)
+- ◆ 14:25:06 (race) H [M2 L3] Haumea 3:5:8 on Dec Ceres–Rahu → Uranus 1:2:3 0.090 (loose)
+- ◆ 14:25:16 (race) H [M2 L4] Saturn 4:5:9 on RA Sun–Algol → Uranus 1:8:9 0.036 (loose)
+- ◆ 14:25:16 (race) J [M2 L3] Sun 4:5:9 on RA Saturn–Algol → Quaoar 2:5:7 0.073 (loose)
+- ◆ 14:25:16 (race) J [M2 L4] Saturn 4:5:9 on RA Sun–Algol → Ceres φ: 2−1/φ/φ²/φ√5 0.077 (loose)
+- ◆ 14:25:22 (race) H [M2 L2] Mercury 3:8:11 on RA Pluto–Gonggong → Eris 1:1:2 0.117 (loose)
+- ◆ 14:25:22 (race) H [M2 L2] Mercury 3:8:11 on RA Pluto–Gonggong → Sun 2:3:5 0.077 (loose)
+- ◆ 14:25:22 (race) J [M2 L2] Mercury 3:8:11 on RA Pluto–Gonggong → Neptune 5:6:11 0.127 (loose)
+- ◆ 14:25:22 (race) J [M2 L2] Mercury 3:8:11 on RA Pluto–Gonggong → Saturn 5:6:11 0.027
+- 14:26:59 (post) H [M3] Mercury 1:8:9 on Dec Altair–Rigel → Jupiter 1:2:3 0.070 (loose)
+- 14:26:59 (post) H [M3] Mercury 1:8:9 on Dec Altair–Rigel → Venus 1:1:2 0.099 (loose)
 
 ## Reserve Tank / Brendan Powell — finished 6
 
 - 14:18:30 (pre) J [SB] Mercury + Sirius RA 1:4:5
+- 14:19:06 (pre) J [M2 L3] Mercury 2:3:5 on Dec Saturn–Betelgeuse → Makemake 5:8:13 0.100 (loose)
+- 14:19:06 (pre) J [M2 L3] Mercury 2:3:5 on Dec Saturn–Betelgeuse → Pallas 5:6:11 0.084 (loose)
+- 14:19:06 (pre) J [M3] Pallas φ: φ/φ² on RA Aldebaran–Sirius → Saturn 3:8:11 0.144 (loose)
 - 14:19:30 (pre) J [SB] Jupiter + Rahu RA 3:5:8
 - 14:19:45 (pre) H [SB] Venus + Mercury RA 1:5:6
 - 14:20:30 (race) J [SB] Haumea + Sedna Dec 5:6:11
-- 14:22:00 (race) J [N2T] natal Venus → sky Venus Flat 514/9
+- ◆ 14:21:54 (race) H [M2 L4] Saturn 5:6:11 on Dec Mercury–Antares → Makemake 5:8:13 0.115 (loose)
+- ◆ 14:21:56 (race) H [M2 L3] Sedna 2:3:5 on Dec Juno–Vesta → Mercury φ: φ/φ² 0.110 (loose)
+- ◆ 14:21:56 (race) H [M2 L3] Sedna 2:3:5 on Dec Juno–Vesta → Pallas 1:2:3 0.090 (loose)
+- ◆ 14:21:56 (race) H [M2 L3] Sedna 2:3:5 on Dec Juno–Vesta → Uranus 2:5:7 0.052 (loose)
+- ◆ 14:22:00 (race) J [N2T] natal Venus → sky Venus Flat 514/9
+- 14:22:15 (race) H [M2 L2] Venus φ: 2−1/φ/φ²/φ√5 on Dec Pluto–Procyon → Gonggong φ: 2−1/φ/φ²/φ√5 0.036 (loose)
 - 14:22:15 (race) H [SB] Mercury + Transpluto Dec 1:3:4
-- 14:23:30 (race) H [SB] Sun + Rigel Dec 4:5:9
+- 14:22:51 (race) H [M2 L3] Mercury 1:2:3 on Dec Vesta–Equator → Neptune 1:3:4 0.071 (loose)
+- ◆ 14:23:20 (race) J [M2 L4] Vesta 5:8:13 on Dec Mercury–Spica → Pallas 1:6:7 0.095 (loose)
+- ◆ 14:23:23 (race) H [M2 L2] Juno 1:7:8 on Dec Orcus–Rahu → Mars 3:4:7 0.039 (loose)
+- ◆ 14:23:23 (race) H [M2 L3] Orcus 1:7:8 on Dec Juno–Rahu → Gonggong 1:7:8 0.041 (loose)
+- ◆ 14:23:30 (race) H [SB] Sun + Rigel Dec 4:5:9
+- ◆ 14:23:38 (race) J [M3] Mercury φ: φ/φ² on Dec Algorab–Equator → Pallas 2:5:7 0.073 (loose)
 - 14:23:45 (race) J [SB] Mercury + Mars RA 1:3:4
 - 14:23:50 (race) J [N2T] natal Mercury → sky Mercury Sky whole 28
+- 14:23:56 (race) J [M2 L4] Uranus 1:4:5 on RA Sun–Mercury → Saturn 3:4:7 0.042 (loose)
 - 14:24:15 (race) J [SB] Juno + Vesta RA φ: 2/φ/φ³/φ³+1
 - 14:24:32 (race) J [M2 L2] Sun 1:8:9 on RA Neptune–Pluto → Eris 5:8:13 0.004
+- 14:24:32 (race) J [M2 L2] Sun 1:8:9 on RA Neptune–Pluto → Mars φ: φ/φ² 0.110 (loose)
 - 14:24:55 (race) J [N2T] natal Jupiter → sky Jupiter Dec 141/9
+- 14:25:06 (race) J [M2 L2] Ceres 3:5:8 on Dec Haumea–Rahu → Uranus 1:6:7 0.056 (loose)
 - 14:25:06 (race) J [M2 L3] Haumea 3:5:8 on Dec Ceres–Rahu → Sedna 4:5:9 0.004
 - ◆ 14:25:22 (race) H [M2 L2] Mercury 3:8:11 on RA Pluto–Gonggong → Jupiter 2:5:7 0.006
 - ◆ 14:25:26 (race) J [SB] Mercury + Sun Dec 1:1:2
 - ◆ 14:25:30 (post) J [SB] Venus + Neptune RA 2:3:5
 - 14:26:30 (post) J [SB] Venus + Mars Dec 2:5:7
-- 14:26:45 (post) J [SB] Juno + Ketu Dec 2:3:5
+- ◆ 14:26:45 (post) J [SB] Juno + Ketu Dec 2:3:5
+- ◆ 14:26:50 (post) H [M2 L3] Quaoar 1:3:4 on Dec Jupiter–Pleiades → Makemake 3:8:11 0.101 (loose)
+- ◆ 14:26:50 (post) J [M2 L2] Jupiter 1:3:4 on Dec Quaoar–Pleiades → Orcus 2:3:5 0.150 (loose)
+- ◆ 14:26:50 (post) J [M2 L2] Jupiter 1:3:4 on Dec Quaoar–Pleiades → Transpluto 3:8:11 0.146 (loose)
+- ◆ 14:26:59 (post) H [M3] Mercury 1:8:9 on Dec Altair–Rigel → Jupiter 5:6:11 0.054 (loose)
+- ◆ 14:26:59 (post) J [M3] Mercury 1:8:9 on Dec Altair–Rigel → Sun φ: φ/φ² 0.090 (loose)
 
-**Beats (horse event with a jockey event within 10 s):** 1 River Bray at 14:21:25; 2 Guernesey at 14:25:20; 2 Guernesey at 14:25:20; 3 Ballyblack at 14:22:50; 3 Ballyblack at 14:23:15; 3 Ballyblack at 14:26:50; 4 Birds Of Prey at 14:22:35; 4 Birds Of Prey at 14:22:40; 4 Birds Of Prey at 14:23:20; 4 Birds Of Prey at 14:25:20; 4 Birds Of Prey at 14:25:20; 4 Birds Of Prey at 14:25:26; 5 Electric Annie at 14:19:06; 6 Reserve Tank at 14:25:22
+**Beats, both sides tight (horse event with a jockey event within 10 s; the rule used before 9 Oct):** 1 River Bray at 14:21:25; 2 Guernesey at 14:25:20; 3 Ballyblack at 14:22:50; 3 Ballyblack at 14:23:15; 3 Ballyblack at 14:26:50; 4 Birds Of Prey at 14:22:35; 4 Birds Of Prey at 14:22:40; 4 Birds Of Prey at 14:23:20; 4 Birds Of Prey at 14:25:20; 4 Birds Of Prey at 14:25:26; 5 Electric Annie at 14:19:06; 6 Reserve Tank at 14:25:22
+
+**Beats with a loose side (added 9 Oct):** 1 River Bray at 14:19:06 (H loose / J tight); 1 River Bray at 14:21:39 (H loose / J tight); 1 River Bray at 14:22:15 (H tight / J loose); 1 River Bray at 14:22:51 (H loose / J tight); 1 River Bray at 14:23:23 (H loose / J tight); 1 River Bray at 14:25:16 (H loose / J loose); 1 River Bray at 14:25:20 (H tight / J loose); 2 Guernesey at 14:21:44 (H tight / J loose); 2 Guernesey at 14:21:56 (H loose / J loose); 2 Guernesey at 14:22:51 (H loose / J loose); 2 Guernesey at 14:23:20 (H loose / J loose); 2 Guernesey at 14:23:27 (H tight / J loose); 2 Guernesey at 14:25:06 (H loose / J tight); 2 Guernesey at 14:25:22 (H loose / J tight); 3 Ballyblack at 14:19:06 (H loose / J tight); 3 Ballyblack at 14:21:45 (H tight / J loose); 3 Ballyblack at 14:21:54 (H tight / J loose); 3 Ballyblack at 14:23:23 (H loose / J tight); 3 Ballyblack at 14:23:27 (H loose / J tight); 3 Ballyblack at 14:24:25 (H loose / J loose); 3 Ballyblack at 14:24:37 (H loose / J tight); 3 Ballyblack at 14:25:22 (H loose / J tight); 4 Birds Of Prey at 14:19:06 (H loose / J tight); 4 Birds Of Prey at 14:21:44 (H loose / J tight); 4 Birds Of Prey at 14:21:54 (H loose / J tight); 4 Birds Of Prey at 14:24:32 (H loose / J loose); 4 Birds Of Prey at 14:24:37 (H loose / J loose); 4 Birds Of Prey at 14:25:16 (H loose / J tight); 4 Birds Of Prey at 14:25:22 (H loose / J tight); 4 Birds Of Prey at 14:26:50 (H tight / J loose); 5 Electric Annie at 14:22:31 (H loose / J loose); 5 Electric Annie at 14:23:38 (H loose / J tight); 5 Electric Annie at 14:24:32 (H tight / J loose); 5 Electric Annie at 14:24:37 (H loose / J loose); 5 Electric Annie at 14:25:06 (H loose / J loose); 5 Electric Annie at 14:25:16 (H loose / J tight); 5 Electric Annie at 14:25:22 (H loose / J tight); 6 Reserve Tank at 14:21:54 (H loose / J tight); 6 Reserve Tank at 14:21:56 (H loose / J tight); 6 Reserve Tank at 14:23:23 (H loose / J loose); 6 Reserve Tank at 14:23:30 (H tight / J loose); 6 Reserve Tank at 14:26:50 (H loose / J tight); 6 Reserve Tank at 14:26:59 (H loose / J loose)
 

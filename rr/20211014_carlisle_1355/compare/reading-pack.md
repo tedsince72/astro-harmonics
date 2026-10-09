@@ -1270,54 +1270,112 @@ Pair same-body chords (sky X + horse X + jockey X): Gold Des Bois pair Transplut
 
 # 6. The race timeline — every pair, non-Moon, 13:55:10 to 14:03:06 (off 13:57:10, finish 14:01:06)
 
-M3 with the natal string ≤0.05%, M2 with the natal chord ≤0.03%, same body, natal→sky numbers. ◆ = BEAT: the other chart of the pair has an event within 10 s.
+Every non-Moon M3 / M2 event at ANY natal tightness, same body, natal→sky numbers (since 9 Oct; before, M3 was cut at a natal string ≤0.05% and M2 at a natal chord ≤0.03%). Loose = M3 natal string >0.05% or M2 natal chord >0.03%, marked (loose) — still listed. ◆ = BEAT: the other chart of the pair has an event within 10 s; the beats list says whether each side has a tight event.
 
 
 ## Arvico Bleu / Callum Bewley — finished 1
 
 - 13:55:40 (pre) J [SB] Sun + Castor RA 3:4:7
+- ◆ 13:56:09 (pre) H [M3] Vesta 2:5:7 on Dec Procyon–Regulus → Jupiter 1:√2:1+√2 0.054 (loose)
+- ◆ 13:56:09 (pre) J [M3] Vesta 2:5:7 on Dec Procyon–Regulus → Pluto φ: φ/φ² 0.118 (loose)
+- ◆ 13:57:10 (race) H [M2 L3] Saturn 2:3:5 on Dec Vesta–Equator → Quaoar 2:5:7 0.092 (loose)
+- ◆ 13:57:10 (race) H [M2 L3] Vesta 2:3:5 on Dec Saturn–Equator → Mars 3:5:8 0.071 (loose)
+- ◆ 13:57:10 (race) J [M2 L3] Vesta 2:3:5 on Dec Saturn–Equator → Ceres 2:5:7 0.087 (loose)
+- ◆ 13:57:10 (race) J [M2 L3] Vesta 2:3:5 on Dec Saturn–Equator → Sun 4:5:9 0.048 (loose)
 - 13:57:59 (race) H [M3] Mercury 5:6:11 on Dec Algorab–Spica → Eris 1:√2:1+√2 0.046
+- 13:57:59 (race) H [M3] Mercury 5:6:11 on Dec Algorab–Spica → Quaoar φ: 2/φ/φ³/φ³+1 0.142 (loose)
+- 13:57:59 (race) H [M3] Mercury 5:6:11 on Dec Algorab–Spica → Saturn 3:4:7 0.081 (loose)
 - 13:59:35 (race) J [N2T] natal Venus → sky Venus Flat 498/9
 - 14:00:55 (race) H [M2 L2] Pallas 3:4:7 on Dec Chiron–Pleiades → Sedna 3:5:8 0.027
+- ◆ 14:02:04 (post) H [M2 L3] Orcus 2:3:5 on Dec Mars–Equator → Makemake 3:4:7 0.137 (loose)
+- ◆ 14:02:04 (post) H [M2 L3] Orcus 2:3:5 on Dec Mars–Equator → Saturn 3:5:8 0.071 (loose)
+- ◆ 14:02:04 (post) J [M2 L3] Orcus 2:3:5 on Dec Mars–Equator → Sedna 1:4:5 0.069 (loose)
+- 14:02:38 (post) J [M2 L3] Pluto 1:√2:1+√2 on Dec Pallas–Algorab → Ketu 1:2:3 0.118 (loose)
 
 ## Gold Des Bois / Conor O'Farrell — finished 2 (fav)
 
-- 13:56:02 (pre) H [M3] Mercury 2:5:7 on Dec Fomalhaut–Procyon → Makemake φ: φ/φ² 0.016 STRONG
-- 13:57:10 (race) J [M2 L3] Vesta 2:3:5 on Dec Saturn–Equator → Chiron 3:4:7 0.004
+- ◆ 13:56:02 (pre) H [M3] Mercury 2:5:7 on Dec Fomalhaut–Procyon → Makemake φ: φ/φ² 0.016 STRONG
+- ◆ 13:56:09 (pre) J [M3] Vesta 2:5:7 on Dec Procyon–Regulus → Ketu 1:8:9 0.052 (loose)
+- ◆ 13:57:10 (race) H [M2 L3] Vesta 2:3:5 on Dec Saturn–Equator → Eris 1:4:5 0.043 (loose)
+- ◆ 13:57:10 (race) J [M2 L3] Vesta 2:3:5 on Dec Saturn–Equator → Chiron 3:4:7 0.004
+- 13:57:59 (race) J [M3] Mercury 5:6:11 on Dec Algorab–Spica → Gonggong 1:√2:1+√2 0.057 (loose)
+- 13:57:59 (race) J [M3] Mercury 5:6:11 on Dec Algorab–Spica → Quaoar 1:2:3 0.089 (loose)
 - 13:59:40 (race) H [N2T] natal Venus → sky Venus RA 739/9
+- ◆ 14:00:55 (race) H [M2 L3] Chiron 3:4:7 on Dec Pallas–Pleiades → Pluto 5:6:11 0.123 (loose)
+- ◆ 14:00:55 (race) J [M2 L2] Pallas 3:4:7 on Dec Chiron–Pleiades → Makemake 5:8:13 0.104 (loose)
+- 14:02:04 (post) H [M2 L2] Mars 2:3:5 on Dec Orcus–Equator → Pluto 2:3:5 0.092 (loose)
+- ◆ 14:02:38 (post) H [M2 L3] Pluto 1:√2:1+√2 on Dec Pallas–Algorab → Ketu 1:3:4 0.107 (loose)
+- ◆ 14:02:38 (post) J [M2 L2] Pallas 1:√2:1+√2 on Dec Pluto–Algorab → Ketu 5:6:11 0.077 (loose)
 - 14:03:00 (post) H [N2T] natal Sun → sky Sun Sky 1533/9
 
 ## Slanelough / Craig Nichol — finished 3
 
 - 13:55:10 (pre) H [N2T] natal Venus → sky Venus RA 116√2
-- 13:56:09 (pre) J [M3] Vesta 2:5:7 on Dec Procyon–Regulus → Jupiter 1:3:4 0.030
-- 13:57:00 (pre) H [N2T] natal Pallas → sky Pallas Dec 114/9
+- ◆ 13:56:09 (pre) H [M3] Vesta 2:5:7 on Dec Procyon–Regulus → Mars 4:5:9 0.062 (loose)
+- ◆ 13:56:09 (pre) J [M3] Vesta 2:5:7 on Dec Procyon–Regulus → Jupiter 1:3:4 0.030
+- ◆ 13:56:09 (pre) J [M3] Vesta 2:5:7 on Dec Procyon–Regulus → Pluto 3:5:8 0.053 (loose)
+- ◆ 13:57:00 (pre) H [N2T] natal Pallas → sky Pallas Dec 114/9
+- ◆ 13:57:10 (race) J [M2 L3] Vesta 2:3:5 on Dec Saturn–Equator → Ketu 3:5:8 0.043 (loose)
+- ◆ 13:57:10 (race) J [M2 L3] Vesta 2:3:5 on Dec Saturn–Equator → Mars 2:5:7 0.082 (loose)
+- ◆ 13:57:10 (race) J [M2 L3] Vesta 2:3:5 on Dec Saturn–Equator → Rahu 2:3:5 0.108 (loose)
 - 13:57:25 (race) J [SB] Mercury + Mars Dec 1:8:9
 - 13:57:59 (race) J [M3] Mercury 5:6:11 on Dec Algorab–Spica → Juno 1:1:2 0.022
+- 13:57:59 (race) J [M3] Mercury 5:6:11 on Dec Algorab–Spica → Mercury 3:4:7 0.146 (loose)
+- 13:57:59 (race) J [M3] Mercury 5:6:11 on Dec Algorab–Spica → Quaoar 1:√2:1+√2 0.065 (loose)
 - 13:59:35 (race) H [N2T] natal Pallas → sky Pallas Flat 194/9
 - 14:00:25 (race) J [SB] Sun + Quaoar Dec 1:√2:1+√2
-- 14:01:00 (race) J [N2T] natal Juno → sky Juno Sky 418/9
+- ◆ 14:00:55 (race) H [M2 L2] Pallas 3:4:7 on Dec Chiron–Pleiades → Ceres 3:4:7 0.086 (loose)
+- ◆ 14:00:55 (race) H [M2 L3] Chiron 3:4:7 on Dec Pallas–Pleiades → Saturn 5:8:13 0.055 (loose)
+- ◆ 14:00:55 (race) J [M2 L2] Pallas 3:4:7 on Dec Chiron–Pleiades → Venus φ: φ/φ² 0.031 (loose)
+- ◆ 14:01:00 (race) J [N2T] natal Juno → sky Juno Sky 418/9
+- ◆ 14:02:04 (post) H [M2 L3] Orcus 2:3:5 on Dec Mars–Equator → Juno 1:3:4 0.132 (loose)
+- ◆ 14:02:04 (post) H [M2 L3] Orcus 2:3:5 on Dec Mars–Equator → Neptune 3:4:7 0.096 (loose)
+- ◆ 14:02:04 (post) J [M2 L3] Orcus 2:3:5 on Dec Mars–Equator → Saturn 2:5:7 0.082 (loose)
 - 14:02:25 (post) H [SB] Sun + Saturn Dec φ: 2−1/φ/φ²/φ√5
+- 14:02:38 (post) J [M2 L3] Pluto 1:√2:1+√2 on Dec Pallas–Algorab → Orcus 3:5:8 0.065 (loose)
 
 ## If Not For Dylan / Sam Coltherd — finished 4
 
+- 13:56:09 (pre) H [M3] Vesta 2:5:7 on Dec Procyon–Regulus → Gonggong 3:8:11 0.118 (loose)
 - 13:56:09 (pre) H [M3] Vesta 2:5:7 on Dec Procyon–Regulus → Mars 1:√2:1+√2 0.038
 - 13:56:25 (pre) J [SB] Mars + Haumea RA 1:1:2
 - 13:56:25 (pre) J [SB] Mercury + Pallas Dec 1:6:7
 - 13:56:55 (pre) H [SB] Venus + Juno Dec 1:3:4
-- 13:57:05 (pre) H [N2T] natal Sun → sky Sun Sky 1288/9
-- 13:57:59 (race) H [M3] Mercury 5:6:11 on Dec Algorab–Spica → Makemake 1:7:8 0.041
+- ◆ 13:57:05 (pre) H [N2T] natal Sun → sky Sun Sky 1288/9
+- ◆ 13:57:10 (race) H [M2 L3] Saturn 2:3:5 on Dec Vesta–Equator → Saturn 5:8:13 0.131 (loose)
+- ◆ 13:57:10 (race) H [M2 L3] Vesta 2:3:5 on Dec Saturn–Equator → Vesta 5:8:13 0.131 (loose)
+- ◆ 13:57:10 (race) J [M2 L3] Saturn 2:3:5 on Dec Vesta–Equator → Sun 4:5:9 0.119 (loose)
+- ◆ 13:57:10 (race) J [M2 L3] Vesta 2:3:5 on Dec Saturn–Equator → Pallas 3:5:8 0.033 (loose)
+- ◆ 13:57:59 (race) H [M3] Mercury 5:6:11 on Dec Algorab–Spica → Makemake 1:7:8 0.041
+- ◆ 13:57:59 (race) H [M3] Mercury 5:6:11 on Dec Algorab–Spica → Transpluto φ: 2/φ/φ³/φ³+1 0.112 (loose)
+- ◆ 13:57:59 (race) J [M3] Mercury 5:6:11 on Dec Algorab–Spica → Neptune 5:8:13 0.056 (loose)
+- 14:00:55 (race) J [M2 L2] Pallas 3:4:7 on Dec Chiron–Pleiades → Ceres 1:5:6 0.146 (loose)
+- 14:02:04 (post) J [M2 L3] Orcus 2:3:5 on Dec Mars–Equator → Jupiter 1:3:4 0.149 (loose)
+- 14:02:04 (post) J [M2 L3] Orcus 2:3:5 on Dec Mars–Equator → Pallas 1:7:8 0.066 (loose)
 - 14:02:10 (post) J [SB] Venus + Juno Flat 1:4:5
+- 14:02:38 (post) J [M2 L2] Pallas 1:√2:1+√2 on Dec Pluto–Algorab → Mars 1:2:3 0.065 (loose)
 - 14:02:38 (post) J [M2 L3] Pluto 1:√2:1+√2 on Dec Pallas–Algorab → Juno 3:5:8 0.010
 
 ## Finisk River / Brian Hughes — finished 5
 
 - 13:55:55 (pre) J [N2T] natal Chiron → sky Chiron Sky 548/9
-- 13:56:10 (pre) J [SB] Venus + Quaoar Flat φ: 2/φ/φ³/φ³+1
+- ◆ 13:56:09 (pre) H [M3] Vesta 2:5:7 on Dec Procyon–Regulus → Ceres 2:5:7 0.083 (loose)
+- ◆ 13:56:09 (pre) J [M3] Vesta 2:5:7 on Dec Procyon–Regulus → Ceres 1:2:3 0.114 (loose)
+- ◆ 13:56:10 (pre) J [SB] Venus + Quaoar Flat φ: 2/φ/φ³/φ³+1
+- 13:57:10 (race) H [M2 L3] Saturn 2:3:5 on Dec Vesta–Equator → Venus 1:3:4 0.131 (loose)
+- 13:57:59 (race) H [M3] Mercury 5:6:11 on Dec Algorab–Spica → Chiron 5:8:13 0.080 (loose)
+- 13:57:59 (race) H [M3] Mercury 5:6:11 on Dec Algorab–Spica → Uranus φ: 2−1/φ/φ²/φ√5 0.086 (loose)
 - 13:59:25 (race) H [SB] Venus + Deneb Algedi Dec φ: 2−1/φ/φ²/φ√5
+- 14:00:55 (race) J [M2 L3] Chiron 3:4:7 on Dec Pallas–Pleiades → Juno φ: 2−1/φ/φ²/φ√5 0.088 (loose)
 - 14:01:25 (post) H [SB] Vesta + Equator Dec 1:2:3
-- 14:02:40 (post) J [SB] Haumea + Mercury RA 1:3:4
+- ◆ 14:02:04 (post) H [M2 L2] Mars 2:3:5 on Dec Orcus–Equator → Pluto φ: φ/φ² 0.122 (loose)
+- ◆ 14:02:04 (post) H [M2 L2] Mars 2:3:5 on Dec Orcus–Equator → Rahu 4:5:9 0.080 (loose)
+- ◆ 14:02:04 (post) J [M2 L2] Mars 2:3:5 on Dec Orcus–Equator → Sun 2:5:7 0.091 (loose)
+- ◆ 14:02:38 (post) H [M2 L3] Pluto 1:√2:1+√2 on Dec Pallas–Algorab → Mars 4:5:9 0.043 (loose)
+- ◆ 14:02:40 (post) J [SB] Haumea + Mercury RA 1:3:4
 - 14:02:55 (post) J [N2T] natal Sun → sky Sun Sky 1032/9
 
-**Beats (horse event with a jockey event within 10 s):** none
+**Beats, both sides tight (horse event with a jockey event within 10 s; the rule used before 9 Oct):** none
+
+**Beats with a loose side (added 9 Oct):** 1 Arvico Bleu at 13:56:09 (H loose / J loose); 1 Arvico Bleu at 13:57:10 (H loose / J loose); 1 Arvico Bleu at 14:02:04 (H loose / J loose); 2 Gold Des Bois at 13:56:02 (H tight / J loose); 2 Gold Des Bois at 13:57:10 (H loose / J tight); 2 Gold Des Bois at 14:00:55 (H loose / J loose); 2 Gold Des Bois at 14:02:38 (H loose / J loose); 3 Slanelough at 13:56:09 (H loose / J tight); 3 Slanelough at 13:57:00 (H tight / J loose); 3 Slanelough at 14:00:55 (H loose / J tight); 3 Slanelough at 14:02:04 (H loose / J loose); 4 If Not For Dylan at 13:57:05 (H tight / J loose); 4 If Not For Dylan at 13:57:10 (H loose / J loose); 4 If Not For Dylan at 13:57:59 (H tight / J loose); 5 Finisk River at 13:56:09 (H loose / J tight); 5 Finisk River at 14:02:04 (H loose / J loose); 5 Finisk River at 14:02:38 (H loose / J tight)
 

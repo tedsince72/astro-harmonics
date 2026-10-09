@@ -1187,33 +1187,81 @@ Pair same-body chords (sky X + horse X + jockey X): You Say Nothing pair Gonggon
 
 # 6. The race timeline — every pair, non-Moon, 17:23:24 to 17:31:21 (off 17:25:24, finish 17:29:21)
 
-M3 with the natal string ≤0.05%, M2 with the natal chord ≤0.03%, same body, natal→sky numbers. ◆ = BEAT: the other chart of the pair has an event within 10 s.
+Every non-Moon M3 / M2 event at ANY natal tightness, same body, natal→sky numbers (since 9 Oct; before, M3 was cut at a natal string ≤0.05% and M2 at a natal chord ≤0.03%). Loose = M3 natal string >0.05% or M2 natal chord >0.03%, marked (loose) — still listed. ◆ = BEAT: the other chart of the pair has an event within 10 s; the beats list says whether each side has a tight event.
 
 
 ## Ring The Moon / Adam Wedge — finished 1
 
+- 17:23:29 (pre) J [M3] Vesta 1:8:9 on RA Altair–Arcturus → Haumea 1:3:4 0.145 (loose)
 - 17:23:54 (pre) H [SB] Mars + Mercury Dec 1:√2:1+√2
 - 17:24:09 (pre) J [SB] Pluto + Mars RA 1:5:6
+- ◆ 17:24:41 (pre) H [M2 L4] Transpluto 1:7:8 on RA Venus–Altair → Chiron 2:3:5 0.079 (loose)
+- ◆ 17:24:41 (pre) J [M2 L2] Venus 1:7:8 on RA Transpluto–Altair → Venus φ: 2/φ/φ³/φ³+1 0.042 (loose)
+- ◆ 17:24:41 (pre) J [M2 L4] Transpluto 1:7:8 on RA Venus–Altair → Pluto 1:√2:1+√2 0.078 (loose)
+- ◆ 17:24:41 (pre) J [M2 L4] Transpluto 1:7:8 on RA Venus–Altair → Transpluto φ: 2/φ/φ³/φ³+1 0.042 (loose)
+- ◆ 17:24:55 (pre) H [M2 L3] Mercury φ: 2−1/φ/φ²/φ√5 on Dec Juno–Deneb Algedi → Neptune 4:5:9 0.142 (loose)
+- ◆ 17:24:55 (pre) H [M2 L3] Mercury φ: 2−1/φ/φ²/φ√5 on Dec Juno–Deneb Algedi → Transpluto 3:5:8 0.049 (loose)
+- ◆ 17:24:55 (pre) J [M2 L4] Juno φ: 2−1/φ/φ²/φ√5 on Dec Mercury–Deneb Algedi → Jupiter 5:8:13 0.064 (loose)
+- 17:25:09 (pre) H [M3] Ceres 3:8:11 on RA Castor–Sirius → Jupiter 1:2:3 0.054 (loose)
+- 17:26:25 (race) H [M3] Pallas 2:5:7 on RA Castor–Regulus → Saturn 3:5:8 0.102 (loose)
 - 17:26:39 (race) H [SB] Pluto + Venus Sky 15:16:30
+- ◆ 17:28:51 (race) H [M2 L3] Ceres 3:8:11 on RA Jupiter–Algol → Pluto φ: 2/φ/φ³/φ³+1 0.042 (loose)
 - ◆ 17:28:51 (race) H [M2 L3] Ceres 3:8:11 on RA Jupiter–Algol → Rahu 1:5:6 0.000
+- ◆ 17:28:51 (race) J [M2 L3] Jupiter 3:8:11 on RA Ceres–Algol → Chiron 5:6:11 0.140 (loose)
 - ◆ 17:28:54 (race) J [N2T] natal Venus → sky Venus Dec 13√2
 - ◆ 17:28:59 (race) J [N2T] natal Makemake → sky Makemake Sky 266/9
-- 17:29:39 (post) J [SB] Vesta + Mars Dec 1:8:9
+- ◆ 17:29:38 (post) H [M2 L2] Sun 5:8:13 on Dec Transpluto–Aldebaran → Venus 1:4:5 0.097 (loose)
+- ◆ 17:29:38 (post) J [M2 L2] Sun 5:8:13 on Dec Transpluto–Aldebaran → Mars 3:5:8 0.049 (loose)
+- ◆ 17:29:39 (post) J [SB] Vesta + Mars Dec 1:8:9
 - 17:30:04 (post) H [N2T] natal Juno → sky Juno RA 4φ
-- 17:30:24 (post) J [M3] Sun 1:3:4 on RA Fomalhaut–Pleiades → Sedna 1:4:5 0.013 STRONG
-- 17:31:05 (post) H [M3] Mars 5:8:13 on RA Altair–Deneb Algedi → Ketu 3:8:11 0.043
+- ◆ 17:30:18 (post) H [M2 L2] Juno 3:5:8 on RA Eris–Fomalhaut → Jupiter 4:5:9 0.139 (loose)
+- ◆ 17:30:18 (post) H [M2 L2] Juno 3:5:8 on RA Eris–Fomalhaut → Uranus 5:8:13 0.056 (loose)
+- ◆ 17:30:18 (post) H [M2 L3] Eris 3:5:8 on RA Juno–Fomalhaut → Uranus 4:5:9 0.042 (loose)
+- ◆ 17:30:18 (post) H [M2 L3] Sun φ: 2−1/φ/φ²/φ√5 on Dec Pallas–Arcturus → Mercury 3:5:8 0.109 (loose)
+- ◆ 17:30:18 (post) H [M2 L3] Sun φ: 2−1/φ/φ²/φ√5 on Dec Pallas–Arcturus → Pluto 1:√2:1+√2 0.128 (loose)
+- ◆ 17:30:18 (post) H [M2 L4] Pallas φ: 2−1/φ/φ²/φ√5 on Dec Sun–Arcturus → Transpluto 1:1:2 0.037 (loose)
+- ◆ 17:30:18 (post) J [M2 L2] Juno 3:5:8 on RA Eris–Fomalhaut → Pallas 1:6:7 0.086 (loose)
+- ◆ 17:30:24 (post) H [M3] Sun 1:3:4 on RA Fomalhaut–Pleiades → Ceres 3:5:8 0.118 (loose)
+- ◆ 17:30:24 (post) J [M3] Sun 1:3:4 on RA Fomalhaut–Pleiades → Orcus 1:1:2 0.133 (loose)
+- ◆ 17:30:24 (post) J [M3] Sun 1:3:4 on RA Fomalhaut–Pleiades → Pallas 5:6:11 0.146 (loose)
+- ◆ 17:30:24 (post) J [M3] Sun 1:3:4 on RA Fomalhaut–Pleiades → Sedna 1:4:5 0.013 STRONG
+- ◆ 17:30:24 (post) J [M3] Sun 1:3:4 on RA Fomalhaut–Pleiades → Uranus 1:1:2 0.056 (loose)
+- ◆ 17:31:05 (post) H [M3] Mars 5:8:13 on RA Altair–Deneb Algedi → Ketu 3:8:11 0.043
+- ◆ 17:31:08 (post) H [M2 L4] Pluto 1:3:4 on RA Venus–Antares → Orcus 8:8:13 0.069 (loose)
+- ◆ 17:31:08 (post) J [M2 L2] Venus 1:3:4 on RA Pluto–Antares → Mars 1:3:4 0.077 (loose)
+- ◆ 17:31:08 (post) J [M2 L4] Pluto 1:3:4 on RA Venus–Antares → Uranus 1:3:4 0.089 (loose)
 
 ## You Say Nothing / Jack Tudor — finished 2 (fav)
 
-- 17:24:55 (pre) H [M2 L3] Mercury φ: 2−1/φ/φ²/φ√5 on Dec Juno–Deneb Algedi → Sun φ: 2/φ/φ³/φ³+1 0.026
-- 17:24:55 (pre) H [M2 L4] Juno φ: 2−1/φ/φ²/φ√5 on Dec Mercury–Deneb Algedi → Eris 1:6:7 0.024
-- 17:25:54 (race) H [N2T] natal Venus → sky Venus Sky 367/9
+- ◆ 17:24:55 (pre) H [M2 L3] Mercury φ: 2−1/φ/φ²/φ√5 on Dec Juno–Deneb Algedi → Sun φ: 2/φ/φ³/φ³+1 0.026
+- ◆ 17:24:55 (pre) H [M2 L4] Juno φ: 2−1/φ/φ²/φ√5 on Dec Mercury–Deneb Algedi → Eris 1:6:7 0.024
+- ◆ 17:24:55 (pre) J [M2 L3] Mercury φ: 2−1/φ/φ²/φ√5 on Dec Juno–Deneb Algedi → Mercury φ: 2−1/φ/φ²/φ√5 0.130 (loose)
+- ◆ 17:24:55 (pre) J [M2 L4] Juno φ: 2−1/φ/φ²/φ√5 on Dec Mercury–Deneb Algedi → Eris 1:3:4 0.058 (loose)
+- ◆ 17:24:55 (pre) J [M2 L4] Juno φ: 2−1/φ/φ²/φ√5 on Dec Mercury–Deneb Algedi → Juno φ: 2−1/φ/φ²/φ√5 0.130 (loose)
+- ◆ 17:25:54 (race) H [N2T] natal Venus → sky Venus Sky 367/9
+- ◆ 17:25:58 (race) H [M2 L2] Venus 5:6:11 on RA Gonggong–Deneb Algedi → Sun 5:6:11 0.125 (loose)
+- ◆ 17:25:58 (race) H [M2 L2] Venus 5:6:11 on RA Gonggong–Deneb Algedi → Venus φ: 2−1/φ/φ²/φ√5 0.039 (loose)
+- ◆ 17:25:58 (race) H [M2 L4] Gonggong 5:6:11 on RA Venus–Deneb Algedi → Gonggong φ: 2−1/φ/φ²/φ√5 0.039 (loose)
+- ◆ 17:25:58 (race) J [M2 L2] Venus 5:6:11 on RA Gonggong–Deneb Algedi → Eris 1:8:9 0.082 (loose)
+- ◆ 17:25:59 (race) H [M2 L2] Juno 2:3:5 on Dec Transpluto–Makemake → Gonggong 3:5:8 0.135 (loose)
 - 17:26:19 (race) H [N2T] natal Sun → sky Sun RA 280/9
+- 17:26:25 (race) H [M3] Pallas 2:5:7 on RA Castor–Regulus → Quaoar 1:3:4 0.106 (loose)
+- 17:26:25 (race) H [M3] Pallas 2:5:7 on RA Castor–Regulus → Uranus φ: 2−1/φ/φ²/φ√5 0.104 (loose)
 - 17:28:19 (race) H [N2T] natal Venus → sky Venus RA 355/9
-- 17:28:49 (race) H [N2T] natal Sun → sky Sun RA 22√2
+- ◆ 17:28:49 (race) H [N2T] natal Sun → sky Sun RA 22√2
+- ◆ 17:28:51 (race) J [M2 L3] Ceres 3:8:11 on RA Jupiter–Algol → Ceres 4:5:9 0.143 (loose)
+- ◆ 17:28:51 (race) J [M2 L3] Jupiter 3:8:11 on RA Ceres–Algol → Jupiter 4:5:9 0.143 (loose)
+- ◆ 17:28:51 (race) J [M2 L3] Jupiter 3:8:11 on RA Ceres–Algol → Rahu 2:3:5 0.088 (loose)
 - 17:29:24 (post) J [SB] Uranus + Ceres Sky φ: 2−1/φ/φ²/φ√5
+- ◆ 17:29:38 (post) H [M2 L4] Transpluto 5:8:13 on Dec Sun–Aldebaran → Makemake 1:3:4 0.064 (loose)
+- ◆ 17:29:38 (post) J [M2 L2] Sun 5:8:13 on Dec Transpluto–Aldebaran → Quaoar 1:8:9 0.031 (loose)
 - 17:29:49 (post) J [N2T] natal Venus → sky Venus RA 1055/9
-- 17:30:18 (post) H [M2 L4] Pallas φ: 2−1/φ/φ²/φ√5 on Dec Sun–Arcturus → Chiron 1:2:3 0.027
+- ◆ 17:30:18 (post) H [M2 L4] Pallas φ: 2−1/φ/φ²/φ√5 on Dec Sun–Arcturus → Chiron 1:2:3 0.027
+- ◆ 17:30:18 (post) J [M2 L2] Juno 3:5:8 on RA Eris–Fomalhaut → Jupiter 1:2:3 0.097 (loose)
+- ◆ 17:30:18 (post) J [M2 L2] Juno 3:5:8 on RA Eris–Fomalhaut → Rahu 3:4:7 0.115 (loose)
+- 17:31:00 (post) H [M3] Juno φ: φ/φ² on Dec Algorab–Spica → Venus 3:5:8 0.121 (loose)
+- 17:31:05 (post) H [M3] Mars 5:8:13 on RA Altair–Deneb Algedi → Transpluto 1:5:6 0.108 (loose)
+- 17:31:08 (post) H [M2 L4] Pluto 1:3:4 on RA Venus–Antares → Chiron 1:8:9 0.061 (loose)
 - 17:31:08 (post) H [M2 L4] Pluto 1:3:4 on RA Venus–Antares → Vesta 2:3:5 0.013
 - 17:31:09 (post) H [N2T] natal Vesta → sky Vesta RA 48/9
 
@@ -1221,24 +1269,55 @@ M3 with the natal string ≤0.05%, M2 with the natal chord ≤0.03%, same body, 
 
 - 17:23:49 (pre) J [N2T] natal Venus → sky Venus RA 1000/9
 - 17:23:54 (pre) J [N2T] natal Venus → sky Venus Sky 962/9
+- 17:24:41 (pre) H [M2 L2] Venus 1:7:8 on RA Transpluto–Altair → Sedna 10:12:15 0.083 (loose)
 - 17:24:55 (pre) H [M2 L4] Juno φ: 2−1/φ/φ²/φ√5 on Dec Mercury–Deneb Algedi → Sun 1:6:7 0.029
 - 17:25:09 (pre) H [M3] Ceres 3:8:11 on RA Castor–Sirius → Venus 1:7:8 0.034
+- ◆ 17:25:58 (race) H [M2 L4] Gonggong 5:6:11 on RA Venus–Deneb Algedi → Ketu φ: 2/φ/φ³/φ³+1 0.049 (loose)
+- ◆ 17:25:58 (race) H [M2 L4] Gonggong 5:6:11 on RA Venus–Deneb Algedi → Sun 4:5:9 0.126 (loose)
+- ◆ 17:25:59 (race) J [M2 L2] Juno 2:3:5 on Dec Transpluto–Makemake → Vesta 3:5:8 0.035 (loose)
+- 17:29:38 (post) H [M2 L2] Sun 5:8:13 on Dec Transpluto–Aldebaran → Ceres 3:5:8 0.130 (loose)
+- 17:29:38 (post) H [M2 L2] Sun 5:8:13 on Dec Transpluto–Aldebaran → Haumea 3:8:11 0.048 (loose)
+- 17:29:38 (post) H [M2 L2] Sun 5:8:13 on Dec Transpluto–Aldebaran → Jupiter 4:5:9 0.142 (loose)
+- 17:29:38 (post) H [M2 L2] Sun 5:8:13 on Dec Transpluto–Aldebaran → Venus 2:3:5 0.042 (loose)
+- 17:29:38 (post) H [M2 L2] Sun 5:8:13 on Dec Transpluto–Aldebaran → Vesta 5:8:13 0.134 (loose)
+- ◆ 17:30:18 (post) H [M2 L3] Sun φ: 2−1/φ/φ²/φ√5 on Dec Pallas–Arcturus → Chiron 2:5:7 0.089 (loose)
+- ◆ 17:30:18 (post) J [M2 L3] Sun φ: 2−1/φ/φ²/φ√5 on Dec Pallas–Arcturus → Juno 1:3:4 0.057 (loose)
+- ◆ 17:30:18 (post) J [M2 L3] Sun φ: 2−1/φ/φ²/φ√5 on Dec Pallas–Arcturus → Orcus 4:5:9 0.128 (loose)
 - ◆ 17:30:18 (post) J [M2 L3] Sun φ: 2−1/φ/φ²/φ√5 on Dec Pallas–Arcturus → Sedna 2:3:5 0.012
+- ◆ 17:30:24 (post) H [M3] Sun 1:3:4 on RA Fomalhaut–Pleiades → Pluto 5:6:11 0.066 (loose)
 - ◆ 17:30:24 (post) H [SB] Chiron + Sun Dec 1:3:4
-- 17:31:08 (post) H [M2 L2] Venus 1:3:4 on RA Pluto–Antares → Gonggong 1:√2:1+√2 0.011
+- ◆ 17:31:05 (post) H [M3] Mars 5:8:13 on RA Altair–Deneb Algedi → Chiron 2:3:5 0.122 (loose)
+- ◆ 17:31:05 (post) H [M3] Mars 5:8:13 on RA Altair–Deneb Algedi → Pallas 1:5:6 0.116 (loose)
+- ◆ 17:31:05 (post) H [M3] Mars 5:8:13 on RA Altair–Deneb Algedi → Uranus φ: φ/φ² 0.127 (loose)
+- ◆ 17:31:08 (post) H [M2 L2] Venus 1:3:4 on RA Pluto–Antares → Gonggong 1:√2:1+√2 0.011
+- ◆ 17:31:08 (post) J [M2 L4] Pluto 1:3:4 on RA Venus–Antares → Uranus 2:3:5 0.141 (loose)
 
 ## Yourholidayisover / Tabitha Worsley — finished 4
 
-- 17:24:54 (pre) H [SB] Sun + Jupiter Sky 1:3:4
+- 17:23:29 (pre) J [M3] Vesta 1:8:9 on RA Altair–Arcturus → Haumea 1:4:5 0.100 (loose)
+- ◆ 17:24:54 (pre) H [SB] Sun + Jupiter Sky 1:3:4
+- ◆ 17:24:55 (pre) J [M2 L4] Juno φ: 2−1/φ/φ²/φ√5 on Dec Mercury–Deneb Algedi → Saturn 5:8:13 0.087 (loose)
 - 17:25:24 (race) J [SB] Neptune + Algol Dec φ: 2−1/φ/φ²/φ√5
+- 17:26:25 (race) H [M3] Pallas 2:5:7 on RA Castor–Regulus → Haumea 3:4:7 0.103 (loose)
+- 17:26:25 (race) H [M3] Pallas 2:5:7 on RA Castor–Regulus → Vesta φ: 2−1/φ/φ²/φ√5 0.129 (loose)
 - ◆ 17:28:09 (race) H [SB] Mercury + Sun RA 1:√2:1+√2
 - ◆ 17:28:14 (race) J [N2T] natal Sun → sky Sun Sky 647/9
+- 17:29:38 (post) H [M2 L4] Transpluto 5:8:13 on Dec Sun–Aldebaran → Haumea 1:4:5 0.117 (loose)
 - ◆ 17:30:18 (post) H [M2 L3] Sun φ: 2−1/φ/φ²/φ√5 on Dec Pallas–Arcturus → Mercury 1:1:2 0.018
+- ◆ 17:30:18 (post) J [M2 L3] Eris 3:5:8 on RA Juno–Fomalhaut → Rahu 3:8:11 0.069 (loose)
+- ◆ 17:30:18 (post) J [M2 L3] Sun φ: 2−1/φ/φ²/φ√5 on Dec Pallas–Arcturus → Ceres 1:6:7 0.144 (loose)
 - ◆ 17:30:18 (post) J [M2 L3] Sun φ: 2−1/φ/φ²/φ√5 on Dec Pallas–Arcturus → Gonggong 1:5:6 0.030
+- ◆ 17:31:00 (post) H [M3] Juno φ: φ/φ² on Dec Algorab–Spica → Pallas 1:3:4 0.123 (loose)
 - ◆ 17:31:00 (post) H [M3] Juno φ: φ/φ² on Dec Algorab–Spica → Quaoar 1:4:5 0.048
 - ◆ 17:31:00 (post) J [M3] Juno φ: φ/φ² on Dec Algorab–Spica → Ketu 1:5:6 0.037
 - ◆ 17:31:05 (post) H [M3] Mars 5:8:13 on RA Altair–Deneb Algedi → Neptune 1:8:9 0.033
+- ◆ 17:31:05 (post) H [M3] Mars 5:8:13 on RA Altair–Deneb Algedi → Uranus 1:√2:1+√2 0.135 (loose)
+- ◆ 17:31:05 (post) J [M3] Mars 5:8:13 on RA Altair–Deneb Algedi → Rahu 3:8:11 0.134 (loose)
+- ◆ 17:31:05 (post) J [M3] Mars 5:8:13 on RA Altair–Deneb Algedi → Saturn 1:2:3 0.120 (loose)
 - ◆ 17:31:08 (post) H [M2 L4] Pluto 1:3:4 on RA Venus–Antares → Mercury 3:5:8 0.022
+- ◆ 17:31:08 (post) J [M2 L2] Venus 1:3:4 on RA Pluto–Antares → Haumea 1:7:8 0.111 (loose)
 
-**Beats (horse event with a jockey event within 10 s):** 1 Ring The Moon at 17:28:51; 3 Time Leader at 17:30:24; 4 Yourholidayisover at 17:28:09; 4 Yourholidayisover at 17:30:18; 4 Yourholidayisover at 17:31:00; 4 Yourholidayisover at 17:31:05; 4 Yourholidayisover at 17:31:08
+**Beats, both sides tight (horse event with a jockey event within 10 s; the rule used before 9 Oct):** 1 Ring The Moon at 17:28:51; 3 Time Leader at 17:30:24; 4 Yourholidayisover at 17:28:09; 4 Yourholidayisover at 17:30:18; 4 Yourholidayisover at 17:31:00; 4 Yourholidayisover at 17:31:05; 4 Yourholidayisover at 17:31:08
+
+**Beats with a loose side (added 9 Oct):** 1 Ring The Moon at 17:24:41 (H loose / J loose); 1 Ring The Moon at 17:24:55 (H loose / J loose); 1 Ring The Moon at 17:29:38 (H loose / J tight); 1 Ring The Moon at 17:30:18 (H loose / J tight); 1 Ring The Moon at 17:30:24 (H loose / J tight); 1 Ring The Moon at 17:31:05 (H tight / J loose); 1 Ring The Moon at 17:31:08 (H loose / J loose); 2 You Say Nothing at 17:24:55 (H tight / J loose); 2 You Say Nothing at 17:25:54 (H tight / J loose); 2 You Say Nothing at 17:25:58 (H loose / J loose); 2 You Say Nothing at 17:25:59 (H loose / J loose); 2 You Say Nothing at 17:28:49 (H tight / J loose); 2 You Say Nothing at 17:29:38 (H loose / J loose); 2 You Say Nothing at 17:30:18 (H tight / J loose); 3 Time Leader at 17:25:58 (H loose / J loose); 3 Time Leader at 17:30:18 (H loose / J tight); 3 Time Leader at 17:31:05 (H loose / J loose); 3 Time Leader at 17:31:08 (H tight / J loose); 4 Yourholidayisover at 17:24:54 (H tight / J loose)
 

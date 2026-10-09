@@ -1345,37 +1345,58 @@ Pair same-body chords (sky X + horse X + jockey X): Good Effort pair Sedna RA 1:
 
 # 6. The race timeline — every pair, non-Moon, 13:30:49 to 13:35:48 (off 13:32:49, finish 13:33:48)
 
-M3 with the natal string ≤0.05%, M2 with the natal chord ≤0.03%, same body, natal→sky numbers. ◆ = BEAT: the other chart of the pair has an event within 10 s.
+Every non-Moon M3 / M2 event at ANY natal tightness, same body, natal→sky numbers (since 9 Oct; before, M3 was cut at a natal string ≤0.05% and M2 at a natal chord ≤0.03%). Loose = M3 natal string >0.05% or M2 natal chord >0.03%, marked (loose) — still listed. ◆ = BEAT: the other chart of the pair has an event within 10 s; the beats list says whether each side has a tight event.
 
 
 ## Venturous / Connor Beasley — finished 1
 
 - 13:34:39 (post) J [M3] Jupiter 1:5:6 on Dec Betelgeuse–Deneb Algedi → Haumea 5:8:13 0.008 STRONG
+- 13:35:36 (post) H [M2 L2] Venus φ: 2/φ/φ³/φ³+1 on Dec Pluto–Equator → Pallas 3:5:8 0.095 (loose)
 
 ## Mondammej / Cam Hardie — finished 2
 
+- ◆ 13:31:23 (pre) H [M2 L3] Quaoar 1:2:3 on RA Vesta–Altair → Ceres 2:3:5 0.113 (loose)
+- ◆ 13:31:23 (pre) J [M2 L3] Quaoar 1:2:3 on RA Vesta–Altair → Pluto 1:4:5 0.117 (loose)
 - 13:31:49 (pre) H [SB] Juno + Sun RA 1:7:8
 - 13:32:49 (race) J [N2T] natal Mars → sky Mars RA 1264/9
 - 13:33:24 (race) H [N2T] natal Jupiter → sky Jupiter Dec 52/9
 - 13:34:34 (post) H [SB] Juno + Mars RA 1:5:6
+- 13:34:39 (post) H [M3] Jupiter 1:5:6 on Dec Betelgeuse–Deneb Algedi → Vesta 4:5:9 0.099 (loose)
 - 13:35:09 (post) H [N2T] natal Juno → sky Juno Sky φ^4
 - ◆ 13:35:34 (post) H [N2T] natal Mercury → sky Mercury Sky 670/9
 - ◆ 13:35:36 (post) J [M2 L2] Venus φ: 2/φ/φ³/φ³+1 on Dec Pluto–Equator → Uranus 3:5:8 0.013
+- ◆ 13:35:36 (post) J [M2 L4] Pluto φ: 2/φ/φ³/φ³+1 on Dec Venus–Equator → Jupiter 4:5:9 0.139 (loose)
 
 ## Good Effort / Jim Crowley — finished 3 (fav)
 
+- ◆ 13:31:23 (pre) H [M2 L2] Vesta 1:2:3 on RA Quaoar–Altair → Jupiter φ: 2/φ/φ³/φ³+1 0.057 (loose)
+- ◆ 13:31:23 (pre) J [M2 L2] Vesta 1:2:3 on RA Quaoar–Altair → Mars 5:8:13 0.032 (loose)
 - 13:33:34 (race) H [SB] Sun + Gonggong Dec 1:4:5
+- ◆ 13:35:36 (post) H [M2 L4] Pluto φ: 2/φ/φ³/φ³+1 on Dec Venus–Equator → Neptune 5:6:11 0.143 (loose)
+- ◆ 13:35:36 (post) J [M2 L2] Venus φ: 2/φ/φ³/φ³+1 on Dec Pluto–Equator → Chiron φ: 2−1/φ/φ²/φ√5 0.094 (loose)
+- ◆ 13:35:36 (post) J [M2 L2] Venus φ: 2/φ/φ³/φ³+1 on Dec Pluto–Equator → Sedna 2:5:7 0.137 (loose)
 
 ## Regional / Daniel Tudhope — finished 4
 
 - 13:31:04 (pre) J [SB] Saturn + Orcus Dec 1:8:9
+- ◆ 13:31:23 (pre) H [M2 L2] Vesta 1:2:3 on RA Quaoar–Altair → Juno 1:√2:1+√2 0.130 (loose)
+- ◆ 13:31:23 (pre) J [M2 L2] Vesta 1:2:3 on RA Quaoar–Altair → Transpluto 4:5:9 0.098 (loose)
+- 13:34:39 (post) J [M3] Jupiter 1:5:6 on Dec Betelgeuse–Deneb Algedi → Juno 3:8:11 0.147 (loose)
 
 ## King Of Stars / Jason Watson — finished 5
 
+- 13:31:23 (pre) H [M2 L2] Vesta 1:2:3 on RA Quaoar–Altair → Gonggong 1:√2:1+√2 0.090 (loose)
+- 13:31:23 (pre) H [M2 L2] Vesta 1:2:3 on RA Quaoar–Altair → Jupiter 3:8:11 0.148 (loose)
+- 13:31:23 (pre) H [M2 L3] Quaoar 1:2:3 on RA Vesta–Altair → Sedna 1:2:3 0.118 (loose)
 - 13:31:49 (pre) H [SB] Ketu + Mars Sky 1:6:7
 - 13:32:39 (pre) J [N2T] natal Mercury → sky Mercury Flat 1067/9
 - 13:33:04 (race) H [N2T] natal Sun → sky Sun Sky 809/9
 - 13:33:48 (post) J [SB] Saturn + Pallas RA φ: φ/φ²
+- ◆ 13:35:36 (post) H [M2 L2] Venus φ: 2/φ/φ³/φ³+1 on Dec Pluto–Equator → Mars 4:5:9 0.050 (loose)
+- ◆ 13:35:36 (post) H [M2 L2] Venus φ: 2/φ/φ³/φ³+1 on Dec Pluto–Equator → Rahu 1:2:3 0.090 (loose)
+- ◆ 13:35:36 (post) J [M2 L4] Pluto φ: 2/φ/φ³/φ³+1 on Dec Venus–Equator → Rahu 3:8:11 0.044 (loose)
 
-**Beats (horse event with a jockey event within 10 s):** 2 Mondammej at 13:35:34
+**Beats, both sides tight (horse event with a jockey event within 10 s; the rule used before 9 Oct):** 2 Mondammej at 13:35:34
+
+**Beats with a loose side (added 9 Oct):** 2 Mondammej at 13:31:23 (H loose / J loose); 3 Good Effort at 13:31:23 (H loose / J loose); 3 Good Effort at 13:35:36 (H loose / J loose); 4 Regional at 13:31:23 (H loose / J loose); 5 King Of Stars at 13:35:36 (H loose / J loose)
 

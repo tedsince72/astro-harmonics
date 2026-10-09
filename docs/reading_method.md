@@ -47,7 +47,9 @@ to the layers before.
 6. **Same body, pair same body, natal→sky numbers, parallels** near the race (pack section 5): the jockey's Sun number in the race (Doncaster
    1511/9, Catterick 201/9); natal body + a third point that ties to the other chart's strike (Catterick: horse's Mercury + Alphecca 18 s after
    Mercury struck the jockey's Neptune on Algorab–Alphecca); a chart's two receivers in one same-body chord (Catterick horse: Neptune + Chiron).
-7. **The timeline** (pack section 6): every non-Moon event per pair, off −2 min to finish +2 min, ◆ = both charts within 10 s. Read the beats as
+7. **The timeline** (pack section 6): every non-Moon event per pair, off −2 min to finish +2 min, at ANY natal tightness (since 9 Oct; loose ones
+   marked "(loose)" — before, the pack dropped M3 strings >0.05% and M2 natal chords >0.03%, and Method 2 items that do not come exact were wrongly
+   listed), ◆ = both charts within 10 s; the beats are listed in two groups, both sides tight and with a loose side. Read the beats as
    moments: which bodies fire together in both charts (Doncaster: Mars on the horse's Sun at 14:41:34 and the jockey's Mars number at 14:41:36;
    then the Sun beat 14:42:36–53).
 

@@ -11,7 +11,7 @@ rr/<RACE>/compare/reading-pack.md with:
      partner too); 3b. joins by body: every triangle/string holding both charts, per pair, and a field table of which bodies and stars make the joins
   4. triangle corners: the same three points read in different layers (which body moves, who sits on each reading)
   5. same body, pair same body, natal->sky numbers, parallels near the race
-  6. the race timeline per pair (non-Moon), off-2 min to finish+2 min, with BEATS = both charts of a pair within 10 s
+  6. the race timeline per pair (non-Moon, every natal tightness, loose ones marked), off-2 min to finish+2 min, with BEATS = both charts of a pair within 10 s
 It does not judge: it lays out what is there. The reading is done on it."""
 import sys, os, re, collections
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -197,15 +197,16 @@ P("Pair same-body chords (sky X + horse X + jockey X): " + ('; '.join(f"{NAME[r.
 
 # 6. timeline
 P(f"\n# 6. The race timeline — every pair, non-Moon, {hms(OFF - W)} to {hms(FIN + W)} (off {off}, finish {fin_s})\n")
-P("M3 with the natal string ≤0.05%, M2 with the natal chord ≤0.03%, same body, natal→sky numbers. ◆ = BEAT: the other chart of the pair has an "
-  "event within 10 s.\n")
+P("Every non-Moon M3 / M2 event at ANY natal tightness, same body, natal→sky numbers (since 9 Oct; before, M3 was cut at a natal string ≤0.05% and "
+  "M2 at a natal chord ≤0.03%). Loose = M3 natal string >0.05% or M2 natal chord >0.03%, marked (loose) — still listed. ◆ = BEAT: the other chart "
+  "of the pair has an event within 10 s; the beats list says whether each side has a tight event.\n")
 def m2clock(z):
     m_ = re.search(r'min (?:after|before) the off \((\d+:\d+:\d+)\)', str(z)); return clock(m_[1]) if m_ else None
 ev = []
 for _, r in t.iterrows():
     if r.sky_body == 'Moon' or 'Moon' in str(r.base) or 'Moon' in str(r.note): continue
-    if r.kind == 'M3' and r['m1_dev_%'] <= 0.05 and r.exact_zone in ('before the off', 'in the race', 'after the finish'): tm = clock(r.exact_time)
-    elif r.kind == 'M2' and r['natal_dev_%'] <= 0.03: tm = m2clock(r.exact_zone)
+    if r.kind == 'M3' and r.exact_zone in ('before the off', 'in the race', 'after the finish'): tm = clock(r.exact_time)
+    elif r.kind == 'M2' and 'does not come exact' not in str(r.exact_zone): tm = m2clock(r.exact_zone)
     elif r.kind == 'SB' and 'min' in str(r.exact_zone) or (r.kind == 'SB' and 'IN THE RACE' in str(r.exact_zone)): tm = clock(r.exact_time)
     elif r.kind == 'N2T': tm = clock(r.time) if isinstance(r.time, str) else None
     else: continue
@@ -214,8 +215,9 @@ for _, r in t.iterrows():
     d = (f"{r.sky_body} {r.sky_chord} on {r.mm} {r.base} → {r.natal_body} {r.natal_chord} {(r['m1_dev_%'] if r.kind == 'M3' else r['natal_dev_%']):.3f}"
          f"{' STRONG' if r.m1_strong == 'STRONG' else ''}" if r.kind in ('M3', 'M2') else
          (f"natal {r.natal_body} → sky {r.sky_body} {r.mm} {r.sky_chord}" if r.kind == 'N2T' else f"{r.natal_body} + {str(r.note).replace('third point ', '')} {r.mm} {r.sky_chord}"))
-    ev.append(dict(tab=r.tab, tm=tm, kind=r.kind + (' ' + r.layer if r.kind == 'M2' else ''), d=d))
-ev = pd.DataFrame(ev).drop_duplicates(['tab', 'tm', 'kind', 'd']) if ev else pd.DataFrame(columns=['tab', 'tm', 'kind', 'd'])
+    tight = (r['m1_dev_%'] <= 0.05) if r.kind == 'M3' else ((r['natal_dev_%'] <= 0.03) if r.kind == 'M2' else True)
+    ev.append(dict(tab=r.tab, tm=tm, kind=r.kind + (' ' + r.layer if r.kind == 'M2' else ''), d=d + ('' if tight else ' (loose)'), tight=bool(tight)))
+ev = pd.DataFrame(ev).drop_duplicates(['tab', 'tm', 'kind', 'd']) if ev else pd.DataFrame(columns=['tab', 'tm', 'kind', 'd', 'tight'])
 beats_all = []
 for _, o in order[order.role == 'horse'].iterrows():
     j = partner(o.tab)
@@ -227,7 +229,13 @@ for _, o in order[order.role == 'horse'].iterrows():
         other = x[(x.tab != r.tab) & ((x.tm - r.tm).abs() <= BEAT)]
         zone = 'race' if OFF <= r.tm <= FIN else ('pre' if r.tm < OFF else 'post')
         P(f"- {'◆ ' if len(other) else ''}{hms(r.tm)} ({zone}) {'H' if r.tab == o.tab else 'J'} [{r.kind}] {r.d}")
-        if len(other) and r.tab == o.tab: beats_all.append((o.finish, o.runner, hms(r.tm)))
-P("\n**Beats (horse event with a jockey event within 10 s):** " + ('; '.join(f"{f} {n} at {tm}" for f, n, tm in beats_all) or 'none') + "\n")
+    hx = x[x.tab == o.tab]
+    for tm in sorted(hx.tm.unique()):
+        jx = x[(x.tab != o.tab) & ((x.tm - tm).abs() <= BEAT)]
+        if len(jx): beats_all.append((o.finish, o.runner, hms(tm), bool(hx[hx.tm == tm].tight.any()), bool(jx.tight.any())))
+def _b(sel): return '; '.join(f"{f} {n} at {tm}" + ('' if (ht and jt) else f" (H {'tight' if ht else 'loose'} / J {'tight' if jt else 'loose'})")
+                              for f, n, tm, ht, jt in beats_all if sel(ht, jt)) or 'none'
+P("\n**Beats, both sides tight (horse event with a jockey event within 10 s; the rule used before 9 Oct):** " + _b(lambda h, j: h and j) + "\n")
+P("**Beats with a loose side (added 9 Oct):** " + _b(lambda h, j: not (h and j)) + "\n")
 open(OUT, 'w', encoding='utf-8').write('\n'.join(L) + '\n')
 print(OUT, len(L), 'lines', sum(len(l) for l in L), 'chars')
