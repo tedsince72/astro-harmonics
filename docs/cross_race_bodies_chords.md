@@ -179,6 +179,57 @@ Catterick and Exeter. Beaten charts too: Doncaster O'Farrell, Hamilton, Suntory 
 **Same jockeys in two races:** Conor O'Farrell 2nd on the favourite in both Doncaster and Carlisle — at Carlisle nearest of all (Vesta 2:3:5 →
 Chiron 3:4:7 in the race, M2 L3 Dec Saturn–Equator). Connor Beasley 4th Catterick / 1st Newcastle. Tom O'Brien 2nd Wincanton / PU Exeter.
 
+## I. Race by race, layer by layer (Eddie, 9 Oct: "go through each race, each method / layer ... COMBINATIONS")
+Live at the race = struck in the race, or held within 0.02% at both the off and the finish (applying or separating). Method 3 = sky body on a
+natal star string; Method 2 = tuned layers (Nodes, L2, L3, L4; L1 repeats Method 3). Then same body, pair, natal→sky numbers, parallels.
+
+### Doncaster 14:40, 18 Mar 2022 — 1st Olympe De Gouges / David Noonan
+**Method 3.**
+- Both natal SUNS of the winning pair live and tightest — the only pair: horse's Sun φ (strong) struck by **Mars 1:6:7** on RA Altair–Arcturus in
+  the race (her own Mars #2 on the string); jockey's Sun 1:8:9 held by **Uranus φ** on Dec Altair–Betelgeuse (0.002→0.001%, exact 7 min after).
+- Jockey's NEPTUNE 3:4:7 (strong) struck by the **Sun 2:3:5** on Dec Alkaid–Arcturus in the race — Sun on his Neptune while Uranus holds his Sun.
+- Horse's MARS: sky Mars (same body, in the race), Juno (same Altair–Arcturus string, −6 min), **Pluto 2:3:5** on Dec Rigel–Sirius (strong, tightest,
+  applying, exact +13 h) — the only natal Mars tightest and applying.
+- Stars tying the pair: Altair–Arcturus (horse Sun+Mars), Alkaid–Arcturus (jockey Neptune), Altair–Betelgeuse (jockey Sun).
+- Joint: Haumea 4:5:9 on Betelgeuse–Regulus, applying — horse's own Haumea + jockey's Juno (strong, tightest).
+**Nodes.** Thin. Mercury 3:4:7 on Ketu–Procyon in the race (five charts; Mulqueen tightest). Ceres on Ketu–Castor → O'Farrell's Sun (applying).
+**L2.**
+- Horse's Sun + Mars again, again on Altair: **Mercury 3:5:8 on RA Haumea–Altair**, exact seconds before the off (Sun tightest). Sequence on her
+  Sun+Mars: Juno (−6 min) → Mercury (at the off) → Mars (in the race).
+- Mercury through the jockey: 1:3:4 on Orcus–Castor in the race (his Juno tightest); 5:8:13 on Transpluto–Algol at the finish (his NEPTUNE tightest,
+  0.012→0.002%); and Method 3's Mercury 1:5:6 on Procyon–Spica +24 s (Neptune). Neptune = the jockey's receiver: Sun in the race, Mercury ×2 at the finish.
+- Jockey's Juno: Jupiter 5:6:11 on Pluto–Sedna (race), Mercury (race, tightest), Quaoar 1:7:8 on Sedna–Ketu (0.002%, applying), Makemake (tightest).
+- Shared L2 bases in the race / applying: Jupiter on Pluto–Sedna, Mercury on Orcus–Castor, Mercury on Transpluto–Algol, the 1:7:8 cluster on
+  Sedna–Ketu, Ceres 3:8:11 on Uranus–Regulus (horse's Haumea 0.007% tightest).
+- Also live: Hamilton's natal Sun (Jupiter 5:6:11 on Pluto–Sedna, in the race, tightest) — but not his partner's.
+**L3.**
+- Horse's Mars on a Juno base: Eris 5:8:13 on RA Juno–Aldebaran (Mars + her own Eris), −12 min.
+- Crossed same-body joints, both applying: **Haumea** (horse's own Haumea + jockey's Juno) and **Sedna 1:1:2 on Dec Saturn–Castor** (jockey's own
+  Sedna + horse's Chiron tightest), exact +1.7 h.
+- Jockey tightest, applying: Orcus 1:8:9 on Vesta–Capella → Uranus 3:4:7; Transpluto 1:5:6 on Vesta–Aldebaran → Mercury 5:8:13.
+- Shared with the field: the Sun 1:2:3 on RA Juno–Rigel 16 s before the finish (both winners; Suntory Star tightest; 7 bodies). Mars–Ceres–Fomalhaut
+  (+13 min): O'Farrell tightest.
+**L4.** Winners never tightest. Beaten charts take L4's tightest places (Oot Ma Way, O'Farrell, Hamilton, Poetria, Fiamette — her Sun on Transpluto
+5:8:13 Mercury–Algol, Davies). L4 bases are mostly the same triangles as L2/L3 read from another corner; the winners sit on the corner where a FAST
+body moves on a slow/star base (Mercury on Haumea–Altair, Mars on Altair–Arcturus, the Sun on Alkaid–Arcturus), the beaten on the corner where a
+slow body moves on a fast-body base.
+**Same body / numbers / parallels — the race as a timeline (non-Moon, winning pair):**
+| time | chart | item |
+|---|---|---|
+| 14:41:04 | jockey | Mercury 1:3:4 on Orcus–Castor → Juno (L2) |
+| **14:41:34** | horse | **Mars 1:6:7 → Sun** φ (strong) on Altair–Arcturus |
+| **14:41:36** | jockey | **natal Mars → sky Mars 53φ** |
+| **14:42:36** | jockey | **natal Sun → sky Sun 1511/9** |
+| 14:42:46 | horse | the Sun 1:1:2 on Bellatrix–Rigel → Pallas |
+| 14:42:51 | horse | natal Pluto → sky Pluto 79/9 |
+| **14:42:53** | jockey | **the Sun 2:3:5 → Neptune 3:4:7** (strong) on Alkaid–Arcturus |
+| 14:42:56 | jockey | Mercury + Jupiter same body 4:5:9 |
+Two beats: **Mars at 14:41:34–36 in both charts** (Mars on the horse's Sun; the jockey's Mars number), and **the Sun at 14:42:36–53** (the jockey's
+Sun number, the Sun on the horse's Pallas, the Sun on the jockey's Neptune), with Pluto (the horse's Mars holder) in between.
+Other pairs: Poetria / Hamilton also have a Sun beat in both charts (14:42:46 Hamilton's Quaoar strong; 14:42:53 Poetria's Eris 0.021%); Fiamette /
+Davies a Sun beat by same-body items (14:40:41–14:41:41, her Sun number). **No other pair has Mars in both charts in the race**; Oot Ma Way's Mars
+items are her own same-body chords (Mars + Spica, Mars + Gonggong), her jockey none.
+
 ## Same jockey, two races
 Connor Beasley: 4th at Catterick (Tea Garden), 1st at Newcastle (Venturous). At Catterick his nearest strong strike is Venus 1:5:6 → Orcus 1:3:4
 (+1:32, #1 of 7); at Newcastle Jupiter 1:5:6 → Haumea 5:8:13 (+0:51, #1 of 3).
