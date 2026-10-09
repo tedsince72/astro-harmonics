@@ -194,8 +194,8 @@ natal star string; Method 2 = tuned layers (Nodes, L2, L3, L4; L1 repeats Method
 - Joint: Haumea 4:5:9 on Betelgeuse–Regulus, applying — horse's own Haumea + jockey's Juno (strong, tightest).
 **Nodes.** Thin. Mercury 3:4:7 on Ketu–Procyon in the race (five charts; Mulqueen tightest). Ceres on Ketu–Castor → O'Farrell's Sun (applying).
 **L2.**
-- Horse's Sun + Mars again, again on Altair: **Mercury 3:5:8 on RA Haumea–Altair**, exact seconds before the off (Sun tightest). Sequence on her
-  Sun+Mars: Juno (−6 min) → Mercury (at the off) → Mars (in the race).
+- Horse's Sun + Mars again, again on Altair: **Mercury 3:5:8 on RA Haumea–Altair**, exact 2.4 min before the off (Sun tightest). Sequence on her
+  Sun+Mars: Juno (−6 min) → Mercury (−2.4 min) → Mars (in the race).
 - Mercury through the jockey: 1:3:4 on Orcus–Castor in the race (his Juno tightest); 5:8:13 on Transpluto–Algol at the finish (his NEPTUNE tightest,
   0.012→0.002%); and Method 3's Mercury 1:5:6 on Procyon–Spica +24 s (Neptune). Neptune = the jockey's receiver: Sun in the race, Mercury ×2 at the finish.
 - Jockey's Juno: Jupiter 5:6:11 on Pluto–Sedna (race), Mercury (race, tightest), Quaoar 1:7:8 on Sedna–Ketu (0.002%, applying), Makemake (tightest).
