@@ -78,8 +78,14 @@ L4 and the Nodes layers), their own same-body figures, their Sun/Mars numbers in
 before it is called different.
 
 ## 6. Cautions
-- **Exactness fault on short Method 2 bases**: an item can show "exact in the race" while its sky deviation at the off and finish is well above
-  0.005% (Catterick: Mars/Saturn √2 on Saturn/Mars–Deneb Algedi, 0.063→0.097%). Check the off→finish deviations; set such items aside until fixed.
+- **Short bases swing fast**: on a small base the sky deviation can be large at the off and the finish and still pass through exact in between
+  (Catterick: Mars/Saturn √2 on Saturn/Mars–Deneb Algedi — 0.063% at the off, 0.002% at 14:40:45, 0.097% at the finish; real). Since 9 Oct
+  `race_table.py` re-measures every non-Moon Method 2 "exact" time in the window on the 1-minute sky: kept if ≤0.005%, re-timed if it comes exact
+  within ±10 min, otherwise marked "does not come exact"; the pack shows which. Do not judge exactness from the off/finish deviations alone.
+- **Checks before words**: no "only", "unique", "the most" or "different" without a query over all charts in the race; numbers and times copied
+  from the tool output (never from a rounded column); unchecked points marked "not yet checked against the field".
+- **Joins**: count is not the signal (Ffos Las: the beaten pairs are joined MORE); read which bodies and stars make the joins (pack section 3b).
+- **Independent check** after each race: a reviewer that has not seen the reading checks the race's section of the note against the table.
 - L1 rows repeat Method 3 rows (left out of the views).
 - Counts (beats, crossings, strings struck) do not follow the result across the seven races — background only.
 - The reads so far were done with the result known; the test is a blind read (results withheld, then compared).

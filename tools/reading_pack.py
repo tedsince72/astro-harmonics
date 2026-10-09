@@ -8,7 +8,7 @@ rr/<RACE>/compare/reading-pack.md with:
      within 0.02% at both the off and the finish, applying (A) or separating (S); tightest flags; M2 L1 rows that repeat Method 3 left out
   2. the natal Sun, Mars, Neptune and Uranus of every chart, across all layers
   3. joint: transits holding both charts of a pair (★ same base), and same-body crossings (a transit holding its own body in one chart and the
-     partner too)
+     partner too); 3b. joins by body: every triangle/string holding both charts, per pair, and a field table of which bodies and stars make the joins
   4. triangle corners: the same three points read in different layers (which body moves, who sits on each reading)
   5. same body, pair same body, natal->sky numbers, parallels near the race
   6. the race timeline per pair (non-Moon), off-2 min to finish+2 min, with BEATS = both charts of a pair within 10 s
@@ -56,7 +56,8 @@ def item(r, with_lay=False):
                               'MIRROR' if r.mirror == 'MIRROR' else ''] if f)
     nd = f"{r.ndev:.3f}%{' STRONG' if (r.kind == 'M3' and r.m1_strong == 'STRONG') else ''}"
     rk = f"#{r['rank']}/{r.field_bodies}" if isinstance(r['rank'], str) and r['rank'] not in ('', 'nan') else f"–/{r.field_bodies}"
-    return (f"{'[' + r.lay + '] ' if with_lay else ''}{when(r)} · {r.sky_body} {r.sky_chord} on {r.mm} {r.base} → {r.natal_body} {r.natal_chord} {nd}"
+    chk = ' [exact re-checked on the 1-min sky]' if 're-timed' in str(r.exact_zone) else (' [stage said exact; NOT exact on the 1-min sky]' if 'checked on the 1-minute sky' in str(r.exact_zone) else '')
+    return (f"{'[' + r.lay + '] ' if with_lay else ''}{when(r)}{chk} · {r.sky_body} {r.sky_chord} on {r.mm} {r.base} → {r.natal_body} {r.natal_chord} {nd}"
             f" · sky {r['dev_off_%']:.3f}→{r['dev_finish_%']:.3f} · {rk}{' ' + fl if fl else ''}")
 
 L = []; P = L.append
@@ -122,6 +123,46 @@ for _, o in order[order.role == 'horse'].iterrows():
           f" — horse: {f(A)} | jockey: {f(B)}")
     for _, r in t[(t.kind == 'SBP') & (t.tab == o.tab)].iterrows():
         P(f"- pair same-body: {r.sky_body} {r.mm} {r.sky_chord} {r['sky_dev_%']}% · {r.exact_zone}")
+
+# 3b. joins by body (9 Oct, Eddie: "keep building in the parts that would identify the winning reasons" - which bodies make the joins)
+P("\n# 3b. Joins by body — every pair, every triangle or string holding BOTH charts (non-Moon)\n")
+P("A join = one triangle (three points, one measure: a star string with its sky body, or a tuned base with its moving body) on which both the horse and "
+  "the jockey have a live item. Per pair: each join with the tightest natal body of each chart (★ = that chart tightest on it and tight: STRONG / natal "
+  "chord ≤0.02%), own bodies (SAME BODY), the stars in the triangle, and whether it is struck in the race. Then the field table: which sky bodies, "
+  "natal bodies and stars make each pair's joins — compare the KIND of join across the pairs, not the number.\n")
+_STARS = set(REF.keys()) if 'REF' in globals() else set()
+def _tri(r):
+    x, e = r.base.split('–', 1); return (r.mm, frozenset((r.sky_body, x, e)))
+vj = v[v.sky_body != 'Moon'].copy(); vj['tri3'] = vj.apply(_tri, axis=1)
+_BODYSET = set(t.sky_body.dropna()) | set(t.natal_body.dropna())
+field_rows = []
+for _, o in order[order.role == 'horse'].iterrows():
+    j = partner(o.tab)
+    if not j: continue
+    a = vj[vj.tab == o.tab]; b = vj[vj.tab == j]
+    common = set(a.tri3) & set(b.tri3)
+    P(f"\n## {o.runner} / {NAME[j]} — finished {o.finish}{' (fav)' if o.fav == 'fav' else ''}: {len(common)} joins\n")
+    if not common: P("- none"); field_rows.append((o, j, 0, set(), set(), set(), 0, 0)); continue
+    P("| measure · points | stars | horse (tightest body) | jockey (tightest body) | own bodies | in the race |\n|---|---|---|---|---|---|")
+    jb, js, jn, nown, nrace = set(), set(), set(), 0, 0
+    def _key(k):
+        A = a[a.tri3 == k]; B = b[b.tri3 == k]; return min(A.ndev.min(), B.ndev.min())
+    for k in sorted(common, key=_key):
+        A = a[a.tri3 == k].sort_values('ndev'); B = b[b.tri3 == k].sort_values('ndev'); ra, rb = A.iloc[0], B.iloc[0]
+        pts_ = sorted(k[1]); stars = [x for x in pts_ if x not in _BODYSET]
+        own = [f"H {x}" for x in A[A.same_body == 'SAME BODY'].natal_body] + [f"J {x}" for x in B[B.same_body == 'SAME BODY'].natal_body]
+        race = 'X' if ((A.st == 'X').any() or (B.st == 'X').any()) else ''
+        movers = sorted(set(A.sky_body) | set(B.sky_body))
+        ht = '★ ' if (A.top & A.tight).any() else ''; jt = '★ ' if (B.top & B.tight).any() else ''
+        P(f"| {k[0]} {'·'.join(pts_)} (moving: {', '.join(movers)}) | {', '.join(stars) or '—'} | {ht}{ra.natal_body} {ra.natal_chord} {ra.ndev:.3f} {ra.st} "
+          f"| {jt}{rb.natal_body} {rb.natal_chord} {rb.ndev:.3f} {rb.st} | {', '.join(own) or '—'} | {race} |")
+        jb |= set(movers); js |= set(stars); jn |= {f"H {ra.natal_body}", f"J {rb.natal_body}"}; nown += bool(own); nrace += bool(race)
+    field_rows.append((o, j, len(common), jb, js, jn, nown, nrace))
+P("\n**The field — which bodies and stars make each pair's joins** (sky bodies that move on the joins · stars in them · the pair's natal bodies on them):\n")
+P("| pair (finish) | joins | with own bodies | struck in the race | sky bodies | stars | natal bodies (H / J) |\n|---|---|---|---|---|---|---|")
+for o, j, n, jb, js, jn, nown, nrace in field_rows:
+    P(f"| {o.runner} / {NAME[j]} ({o.finish}{', fav' if o.fav == 'fav' else ''}) | {n} | {nown} | {nrace} | {', '.join(sorted(jb))} | {', '.join(sorted(js))} | {', '.join(sorted(jn))} |")
+P("")
 
 # 4. triangle corners
 P("\n# 4. Triangle corners — the same three points read in different layers\n")

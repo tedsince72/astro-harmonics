@@ -1364,6 +1364,181 @@ Off 14:20:30, finish 14:25:26 (296 s). Live at the race = struck in the race (X)
 - **Vesta** ★ Dec Rahu–Rigel, RA Bellatrix–Procyon — horse: M3 S −1.2h 1:4:5 RA Bellatrix–Procyon → Eris 0.022; Nodes S −15.3m 2:5:7 Dec Rahu–Rigel → Neptune 0.043 | jockey: M3 S −1.2h 1:4:5 RA Bellatrix–Procyon → Uranus 0.002*; Nodes S −15.3m 2:5:7 Dec Rahu–Rigel → Venus 0.034; L4 in race 5:8:13 Dec Mercury–Spica → Pallas 0.095
 - pair same-body: Sun Flat 1:2:3 0.022% · separating since before off-30
 
+# 3b. Joins by body — every pair, every triangle or string holding BOTH charts (non-Moon)
+
+A join = one triangle (three points, one measure: a star string with its sky body, or a tuned base with its moving body) on which both the horse and the jockey have a live item. Per pair: each join with the tightest natal body of each chart (★ = that chart tightest on it and tight: STRONG / natal chord ≤0.02%), own bodies (SAME BODY), the stars in the triangle, and whether it is struck in the race. Then the field table: which sky bodies, natal bodies and stars make each pair's joins — compare the KIND of join across the pairs, not the number.
+
+
+## River Bray / Alan Johns — finished 1: 23 joins
+
+| measure · points | stars | horse (tightest body) | jockey (tightest body) | own bodies | in the race |
+|---|---|---|---|---|---|
+| Dec Equator·Mercury·Vesta (moving: Mercury, Vesta) | Equator | Rahu 1:√2:1+√2 0.074 X | ★ Juno 5:6:11 0.003 X | — | X |
+| Dec Rahu·Rigel·Vesta (moving: Rahu, Vesta) | Rigel | Pallas 4:5:9 0.090 S | Neptune φ: 2/φ/φ³/φ³+1 0.005 S | — |  |
+| Dec Pluto·Procyon·Venus (moving: Venus) | Procyon | ★ Neptune φ: φ/φ² 0.007 X | Makemake φ: 2/φ/φ³/φ³+1 0.062 X | — | X |
+| Dec Betelgeuse·Mars·Venus (moving: Mars, Venus) | Betelgeuse | ★ Chiron φ: φ/φ² 0.009 A | Pallas 2:5:7 0.071 A | — |  |
+| Dec Castor·Gonggong·Polaris (moving: Gonggong) | Castor, Polaris | Mercury 1:7:8 0.053 A | ★ Vesta 1:1:2 0.013 A | — |  |
+| Dec Pluto·Quaoar·Rigel (moving: Pluto, Quaoar) | Rigel | Sedna 3:4:7 0.099 A | Mercury 1:3:4 0.016 A | — |  |
+| Dec Orcus·Pleiades·Uranus (moving: Orcus, Uranus) | Pleiades | Transpluto φ: φ/φ² 0.021 S | Ketu 1:1:2 0.046 S | — |  |
+| Dec Ceres·Fomalhaut·Orcus (moving: Ceres, Orcus) | Fomalhaut | Gonggong φ: 2−1/φ/φ²/φ√5 0.025 S | Neptune 1:6:7 0.049 S | — |  |
+| Dec Bellatrix·Makemake·Sedna (moving: Sedna) | Bellatrix | Pallas 3:8:11 0.027 S | Jupiter 3:4:7 0.041 S | — |  |
+| RA Capella·Haumea·Transpluto (moving: Haumea) | Capella | Rahu 1:1:2 0.099 S | Makemake φ: 2−1/φ/φ²/φ√5 0.029 S | — |  |
+| Dec Ceres·Fomalhaut·Jupiter (moving: Ceres, Jupiter) | Fomalhaut | Eris 1:1:2 0.031 A | Neptune 1:6:7 0.049 A | — |  |
+| RA Castor·Eris·Rigel (moving: Eris) | Castor, Rigel | Ketu 1:1:2 0.106 S | Makemake 5:8:13 0.032 S | — |  |
+| RA Aldebaran·Castor·Sedna (moving: Sedna) | Aldebaran, Castor | Juno 2:5:7 0.064 A | Ceres 2:3:5 0.035 A | — |  |
+| Dec Algorab·Altair·Pallas (moving: Pallas) | Algorab, Altair | Haumea φ: 2−1/φ/φ²/φ√5 0.039 S | Venus 2:5:7 0.146 S | — |  |
+| Dec Juno·Orcus·Rahu (moving: Juno, Orcus) | — | Sedna 2:3:5 0.043 X | Saturn 1:2:3 0.105 X | — | X |
+| Dec Algol·Equator·Haumea (moving: Haumea) | Algol, Equator | Transpluto 2:5:7 0.093 A | Gonggong 1:2:3 0.044 A | — |  |
+| RA Arcturus·Mars·Regulus (moving: Mars) | Arcturus, Regulus | Pallas 3:4:7 0.121 S | Vesta 4:5:9 0.047 S | — |  |
+| RA Algol·Saturn·Sun (moving: Saturn, Sun) | Algol | Quaoar φ: 2/φ/φ³/φ³+1 0.052 X | Gonggong φ: φ/φ² 0.147 X | — | X |
+| RA Betelgeuse·Ceres·Pluto (moving: Ceres, Pluto) | Betelgeuse | Venus 5:6:11 0.076 A | Makemake 1:√2:1+√2 0.058 A | — |  |
+| RA Chiron·Orcus·Polaris (moving: Chiron, Orcus) | Polaris | Venus 1:√2:1+√2 0.067 S | Juno 4:5:9 0.083 S | — |  |
+| RA Haumea·Orcus·Sedna (moving: Haumea, Sedna) | — | Pluto 1:√2:2 0.085 S | Saturn φ: φ/φ² 0.069 S | — |  |
+| Dec Betelgeuse·Makemake·Orcus (moving: Orcus) | Betelgeuse | Sun 1:4:5 0.077 S | Mars 5:8:13 0.072 S | — |  |
+| Dec Capella·Pleiades·Transpluto (moving: Transpluto) | Capella, Pleiades | Eris 4:5:9 0.124 A | Makemake 1:1:2 0.148 A | — |  |
+
+## Guernesey / Tom O'Brien — finished 2: 26 joins
+
+| measure · points | stars | horse (tightest body) | jockey (tightest body) | own bodies | in the race |
+|---|---|---|---|---|---|
+| Dec Ceres·Haumea·Rahu (moving: Ceres, Haumea) | — | Saturn 1:2:3 0.078 X | ★ Mercury 2:3:5 0.001 X | — | X |
+| Dec Sedna·Vega·Venus (moving: Sedna, Venus) | Vega | ★ Ceres 3:8:11 0.002 A | Chiron 1:√2:1+√2 0.025 A | — |  |
+| Dec Rahu·Rigel·Vesta (moving: Rahu) | Rigel | Transpluto φ: 2/φ/φ³/φ³+1 0.059 S | ★ Eris 2:5:7 0.003 S | — |  |
+| Dec Fomalhaut·Pluto·Sedna (moving: Pluto, Sedna) | Fomalhaut | Vesta φ: 2/φ/φ³/φ³+1 0.083 A | ★ Sun 3:8:11 0.005 A | — |  |
+| Dec Pallas·Saturn·Sedna (moving: Sedna) | — | ★ Neptune 2:3:5 0.005 A | Mars 3:4:7 0.085 A | H Sedna |  |
+| Dec Castor·Makemake·Sun (moving: Makemake, Sun) | Castor | ★ Jupiter 1:3:4 0.007 A | Chiron 3:8:11 0.124 A | — |  |
+| Dec Makemake·Quaoar·Rahu (moving: Quaoar, Rahu) | — | Sun 3:5:8 0.044 S | ★ Haumea 3:8:11 0.013 S | — |  |
+| RA Antares·Fomalhaut·Sun (moving: Sun) | Antares, Fomalhaut | Haumea 3:8:11 0.013 X | Mercury φ: 2/φ/φ³/φ³+1 0.093 X | — | X |
+| Dec Betelgeuse·Ketu·Rigel (moving: Ketu) | Betelgeuse, Rigel | Pallas φ: 2/φ/φ³/φ³+1 0.016 S | Saturn 4:5:9 0.080 S | — |  |
+| Dec Pluto·Quaoar·Rigel (moving: Pluto) | Rigel | Pallas 3:8:11 0.017 A | Juno 1:7:8 0.133 A | — |  |
+| Dec Antares·Eris·Sirius (moving: Eris) | Antares, Sirius | ★ Saturn 1:√2:1+√2 0.018 S | Quaoar φ: 2−1/φ/φ²/φ√5 0.102 S | — |  |
+| Dec Capella·Juno·Polaris (moving: Juno) | Capella, Polaris | Transpluto 4:5:9 0.021 S | Uranus 5:8:13 0.092 S | — |  |
+| Dec Betelgeuse·Makemake·Orcus (moving: Makemake, Orcus) | Betelgeuse | Ceres 5:8:13 0.021 S | Venus 1:√2:1+√2 0.059 S | — |  |
+| RA Altair·Capella·Eris (moving: Eris) | Altair, Capella | Vesta 1:5:6 0.052 A | Juno 1:5:6 0.022 A | — |  |
+| RA Betelgeuse·Ceres·Pluto (moving: Ceres, Pluto) | Betelgeuse | Uranus 1:8:9 0.024 A | Transpluto 1:√2:1+√2 0.045 A | — |  |
+| RA Castor·Ceres·Neptune (moving: Ceres, Neptune) | Castor | Uranus 2:5:7 0.047 S | Haumea 5:8:13 0.029 S | — |  |
+| Dec Ceres·Fomalhaut·Orcus (moving: Ceres, Orcus) | Fomalhaut | Mercury 5:6:11 0.039 S | Ketu 3:5:8 0.029 S | — |  |
+| Dec Juno·Sedna·Vesta (moving: Sedna) | — | Mars 1:√2:1+√2 0.071 X | Uranus 2:3:5 0.031 X | — | X |
+| Dec Ceres·Fomalhaut·Jupiter (moving: Ceres, Jupiter) | Fomalhaut | Mercury 5:6:11 0.039 A | Sedna 1:2:3 0.087 A | — |  |
+| Dec Castor·Mars·Uranus (moving: Uranus) | Castor | Mercury φ: 2−1/φ/φ²/φ√5 0.049 A | Rahu 5:6:11 0.081 A | — |  |
+| RA Gonggong·Mercury·Pluto (moving: Mercury) | — | Haumea φ: φ/φ² 0.055 X | Saturn 3:8:11 0.080 X | — | X |
+| Dec Equator·Mercury·Vesta (moving: Mercury, Vesta) | Equator | Transpluto 1:2:3 0.055 X | Uranus 5:8:13 0.138 X | — | X |
+| Dec Capella·Saturn·Sedna (moving: Sedna) | Capella | Eris 3:8:11 0.119 A | Rahu 3:4:7 0.063 A | — |  |
+| RA Haumea·Orcus·Sedna (moving: Haumea) | — | Gonggong 5:6:11 0.101 S | Chiron 4:5:9 0.121 S | — |  |
+| Dec Orcus·Pleiades·Uranus (moving: Orcus, Uranus) | Pleiades | Venus 1:√2:1+√2 0.117 S | Orcus 2:3:5 0.107 S | J Orcus, J Uranus |  |
+| RA Capella·Haumea·Transpluto (moving: Haumea, Transpluto) | Capella | Haumea 4:5:9 0.123 S | Pallas 1:4:5 0.111 S | H Haumea, H Transpluto |  |
+
+## Ballyblack / Rex Dingle — finished 3 (fav): 21 joins
+
+| measure · points | stars | horse (tightest body) | jockey (tightest body) | own bodies | in the race |
+|---|---|---|---|---|---|
+| Dec Algol·Ketu·Procyon (moving: Ketu) | Algol, Procyon | ★ Ceres 3:5:8 0.002 A | Haumea 4:5:9 0.065 A | — |  |
+| RA Bellatrix·Chiron·Venus (moving: Venus) | Bellatrix | Sedna 2:5:7 0.057 X | ★ Juno φ: 2−1/φ/φ²/φ√5 0.010 X | — | X |
+| Dec Algol·Equator·Haumea (moving: Haumea) | Algol, Equator | Transpluto 3:8:11 0.113 A | Makemake 1:4:5 0.010 A | — |  |
+| Dec Jupiter·Pleiades·Quaoar (moving: Jupiter, Quaoar) | Pleiades | Venus 3:4:7 0.030 A | ★ Rahu 4:5:9 0.012 A | — |  |
+| Dec Algol·Ketu·Spica (moving: Ketu) | Algol, Spica | Rahu φ: 2−1/φ/φ²/φ√5 0.014 A | Saturn φ: 2−1/φ/φ²/φ√5 0.069 A | — |  |
+| Dec Antares·Sedna·Uranus (moving: Sedna, Uranus) | Antares | ★ Mercury φ: 2/φ/φ³/φ³+1 0.015 S | Gonggong 3:8:11 0.119 S | — |  |
+| Dec Algol·Eris·Gonggong (moving: Gonggong) | Algol | ★ Venus 2:5:7 0.015 S | Transpluto 3:4:7 0.074 S | — |  |
+| Dec Orcus·Pleiades·Uranus (moving: Orcus, Uranus) | Pleiades | Chiron 3:8:11 0.016 S | Pallas 1:√2:1+√2 0.146 S | — |  |
+| Dec Sedna·Vega·Venus (moving: Sedna, Venus) | Vega | Rahu 2:3:5 0.018 A | Sun 4:5:9 0.062 A | — |  |
+| Dec Makemake·Quaoar·Rahu (moving: Makemake, Quaoar) | — | Haumea 3:5:8 0.063 S | Neptune φ: 2/φ/φ³/φ³+1 0.022 S | — |  |
+| RA Antares·Fomalhaut·Sun (moving: Sun) | Antares, Fomalhaut | Pluto 1:√2:1+√2 0.133 X | Neptune 4:5:9 0.041 X | — | X |
+| RA Bellatrix·Eris·Sedna (moving: Eris, Sedna) | Bellatrix | Gonggong 1:3:4 0.049 A | Sedna 5:8:13 0.105 A | J Sedna, J Eris |  |
+| RA Betelgeuse·Gonggong·Pleiades (moving: Gonggong) | Betelgeuse, Pleiades | Rahu φ: 2−1/φ/φ²/φ√5 0.140 X | Chiron φ: 2/φ/φ³/φ³+1 0.051 X | — | X |
+| Dec Ceres·Fomalhaut·Jupiter (moving: Ceres) | Fomalhaut | Mercury 3:8:11 0.059 A | Rahu 1:√2:1+√2 0.143 A | — |  |
+| RA Gonggong·Mercury·Pluto (moving: Mercury) | — | Mars 5:6:11 0.130 X | Eris φ: φ/φ² 0.060 X | — | X |
+| Dec Betelgeuse·Makemake·Orcus (moving: Makemake, Orcus) | Betelgeuse | Jupiter 1:6:7 0.062 S | Gonggong 1:1:2 0.132 S | — |  |
+| Dec Pluto·Quaoar·Rigel (moving: Pluto, Quaoar) | Rigel | Mars 1:6:7 0.074 A | Orcus 1:5:6 0.134 A | — |  |
+| Dec Betelgeuse·Mars·Venus (moving: Mars) | Betelgeuse | Ketu φ: φ/φ² 0.133 A | Pluto φ: 2−1/φ/φ²/φ√5 0.090 A | — |  |
+| Dec Juno·Orcus·Rahu (moving: Juno, Orcus) | — | Chiron 1:2:3 0.098 X | Sedna 2:5:7 0.132 X | — | X |
+| RA Haumea·Orcus·Sedna (moving: Haumea, Orcus, Sedna) | — | Orcus 5:8:13 0.121 S | Quaoar 5:6:11 0.099 S | H Orcus, H Haumea, H Sedna |  |
+| Dec Fomalhaut·Rahu·Transpluto (moving: Transpluto) | Fomalhaut | Orcus φ: φ/φ² 0.124 S | Jupiter 1:√2:1+√2 0.143 S | — |  |
+
+## Birds Of Prey / Harry Cobden — finished 4: 22 joins
+
+| measure · points | stars | horse (tightest body) | jockey (tightest body) | own bodies | in the race |
+|---|---|---|---|---|---|
+| Dec Alkaid·Chiron·Makemake (moving: Chiron, Makemake) | Alkaid | ★ Haumea φ: 2−1/φ/φ²/φ√5 0.002 S | Rahu 3:4:7 0.104 S | H Chiron, H Makemake |  |
+| Dec Orcus·Pleiades·Uranus (moving: Orcus, Uranus) | Pleiades | ★ Eris φ: 2−1/φ/φ²/φ√5 0.007 S | Chiron 3:5:8 0.023 S | — |  |
+| RA Chiron·Mercury·Pluto (moving: Mercury) | — | Mars 1:√2:1+√2 0.134 X | ★ Pallas 1:6:7 0.010 X | J Mercury | X |
+| Dec Algol·Haumea·Jupiter (moving: Haumea, Jupiter) | Algol | Mars 5:8:13 0.064 A | Ketu φ: φ/φ² 0.012 A | — |  |
+| Dec Jupiter·Pleiades·Quaoar (moving: Jupiter) | Pleiades | ★ Orcus φ: 2/φ/φ³/φ³+1 0.014 A | Transpluto 2:5:7 0.051 A | — |  |
+| Dec Betelgeuse·Mars·Venus (moving: Venus) | Betelgeuse | Jupiter 4:5:9 0.017 A | Sedna 3:4:7 0.102 A | — |  |
+| Dec Mercury·Spica·Vesta (moving: Mercury, Vesta) | Spica | Ketu 2:3:5 0.086 X | Sedna 3:4:7 0.021 X | — | X |
+| RA Aldebaran·Pallas·Sirius (moving: Pallas) | Aldebaran, Sirius | Saturn 1:4:5 0.143 S | Eris 1:√2:1+√2 0.031 S | — |  |
+| Dec Betelgeuse·Pallas·Sirius (moving: Pallas) | Betelgeuse, Sirius | Ketu 1:7:8 0.060 A | Eris 5:8:13 0.033 A | — |  |
+| Dec Fomalhaut·Rahu·Transpluto (moving: Rahu, Transpluto) | Fomalhaut | Gonggong 2:3:5 0.034 S | Mercury 1:6:7 0.080 S | — |  |
+| Dec Bellatrix·Transpluto·Venus (moving: Venus) | Bellatrix | Mercury 3:5:8 0.042 S | Vesta φ: φ/φ² 0.088 S | — |  |
+| RA Capella·Haumea·Transpluto (moving: Haumea) | Capella | Ceres 4:5:9 0.051 S | Ceres 1:8:9 0.043 S | — |  |
+| Dec Algol·Ceres·Jupiter (moving: Ceres, Jupiter) | Algol | Saturn 1:2:3 0.046 S | Rahu 5:8:13 0.115 S | — |  |
+| Dec Pluto·Quaoar·Rigel (moving: Pluto, Quaoar) | Rigel | Pluto φ: φ/φ² 0.048 A | Venus 3:8:11 0.088 A | H Pluto, H Quaoar |  |
+| Dec Makemake·Quaoar·Rahu (moving: Makemake, Quaoar, Rahu) | — | Quaoar 1:8:9 0.049 S | Saturn 1:1:2 0.115 S | H Quaoar, H Rahu, H Makemake |  |
+| RA Neptune·Pluto·Sun (moving: Sun) | — | Uranus φ: φ/φ² 0.082 X | Makemake 4:5:9 0.050 X | — | X |
+| Dec Sedna·Vega·Venus (moving: Sedna, Venus) | Vega | Mercury 1:5:6 0.063 A | Haumea 1:2:3 0.099 A | — |  |
+| Dec Antares·Mercury·Saturn (moving: Mercury, Saturn) | Antares | Juno φ: 2/φ/φ³/φ³+1 0.120 X | Makemake 2:3:5 0.066 X | — | X |
+| RA Bellatrix·Procyon·Vesta (moving: Vesta) | Bellatrix, Procyon | Mars 2:5:7 0.070 S | Mars φ: φ/φ² 0.138 S | — |  |
+| RA Bellatrix·Chiron·Venus (moving: Chiron, Venus) | Bellatrix | Pluto 5:8:13 0.082 X | Pallas 6:8:9 0.114 X | — | X |
+| Dec Betelgeuse·Makemake·Orcus (moving: Makemake, Orcus) | Betelgeuse | Haumea 4:5:9 0.094 S | Jupiter φ: φ/φ² 0.085 S | — |  |
+| RA Alkaid·Chiron·Vega (moving: Chiron) | Alkaid, Vega | Orcus 4:5:9 0.087 S | Pluto 4:5:9 0.086 S | — |  |
+
+## Electric Annie / Nick Scholfield — finished 5: 21 joins
+
+| measure · points | stars | horse (tightest body) | jockey (tightest body) | own bodies | in the race |
+|---|---|---|---|---|---|
+| Dec Capella·Pleiades·Transpluto (moving: Transpluto) | Capella, Pleiades | Uranus 4:5:9 0.060 A | ★ Juno 2:3:5 0.004 A | — |  |
+| Dec Betelgeuse·Pallas·Sirius (moving: Pallas) | Betelgeuse, Sirius | Vesta 3:5:8 0.043 A | ★ Venus 5:8:13 0.005 A | — |  |
+| Dec Sedna·Vega·Venus (moving: Sedna) | Vega | Jupiter 2:3:5 0.043 A | ★ Gonggong φ: 2−1/φ/φ²/φ√5 0.008 A | — |  |
+| RA Neptune·Pluto·Sun (moving: Sun) | — | Mercury φ: φ/φ² 0.008 X | Gonggong 5:6:11 0.127 X | — | X |
+| RA Ketu·Pleiades·Rigel (moving: Ketu) | Pleiades, Rigel | Pluto 1:6:7 0.065 S | ★ Gonggong 1:4:5 0.009 S | — |  |
+| Dec Castor·Makemake·Sun (moving: Makemake, Sun) | Castor | ★ Mars 1:5:6 0.010 A | Transpluto φ: 2/φ/φ³/φ³+1 0.015 A | — |  |
+| Dec Algorab·Equator·Mercury (moving: Mercury) | Algorab, Equator | Uranus 2:5:7 0.114 X | ★ Haumea 1:√2:1+√2 0.019 X | — | X |
+| RA Aldebaran·Castor·Sedna (moving: Sedna) | Aldebaran, Castor | Ceres φ: 2−1/φ/φ²/φ√5 0.053 A | ★ Sedna 3:5:8 0.019 A | J Sedna |  |
+| RA Gonggong·Mercury·Pluto (moving: Mercury) | — | Sun 2:3:5 0.077 X | Saturn 5:6:11 0.027 X | — | X |
+| RA Capella·Haumea·Transpluto (moving: Haumea) | Capella | Gonggong 1:√2:1+√2 0.118 S | Venus 2:3:5 0.028 S | — |  |
+| RA Aldebaran·Pallas·Sirius (moving: Pallas) | Aldebaran, Sirius | Orcus 2:3:5 0.029 S | Orcus 5:6:11 0.029 S | — |  |
+| RA Haumea·Orcus·Sedna (moving: Haumea, Orcus, Sedna) | — | Gonggong 5:6:11 0.035 S | Juno 1:5:6 0.054 S | J Orcus, J Haumea, J Sedna |  |
+| RA Algol·Saturn·Sun (moving: Saturn, Sun) | Algol | Uranus 1:8:9 0.036 X | Quaoar 2:5:7 0.073 X | — | X |
+| RA Bellatrix·Eris·Sedna (moving: Eris, Sedna) | Bellatrix | Venus 5:8:13 0.078 A | Orcus 5:6:11 0.039 A | — |  |
+| Dec Capella·Juno·Polaris (moving: Juno) | Capella, Polaris | Ceres φ: φ/φ² 0.054 S | Mars 3:5:8 0.098 S | — |  |
+| RA Algorab·Gonggong·Quaoar (moving: Quaoar) | Algorab | Pallas 5:6:11 0.081 A | Makemake 1:7:8 0.063 A | — |  |
+| RA Algorab·Gonggong·Vesta (moving: Vesta) | Algorab | Pallas 5:6:11 0.081 S | Makemake 1:7:8 0.063 S | — |  |
+| RA Ceres·Haumea·Polaris (moving: Ceres, Haumea) | Polaris | Mercury φ: 2−1/φ/φ²/φ√5 0.105 X | Makemake 1:7:8 0.066 X | — | X |
+| Dec Castor·Jupiter·Procyon (moving: Jupiter) | Castor, Procyon | Sun 1:1:2 0.117 A | Ceres 1:√2:1+√2 0.076 A | — |  |
+| RA Bellatrix·Chiron·Venus (moving: Chiron) | Bellatrix | Sedna 5:8:13 0.078 X | Eris 5:8:13 0.143 X | — | X |
+| Dec Antares·Equator·Transpluto (moving: Transpluto) | Antares, Equator | Uranus 1:4:5 0.126 A | Neptune 1:5:6 0.116 A | — |  |
+
+## Reserve Tank / Brendan Powell — finished 6: 15 joins
+
+| measure · points | stars | horse (tightest body) | jockey (tightest body) | own bodies | in the race |
+|---|---|---|---|---|---|
+| Dec Betelgeuse·Makemake·Orcus (moving: Makemake, Orcus) | Betelgeuse | Vesta 3:8:11 0.039 S | ★ Rahu 2:5:7 0.000 S | — |  |
+| Dec Alkaid·Chiron·Makemake (moving: Chiron, Makemake) | Alkaid | ★ Pluto 3:8:11 0.002 S | Rahu φ: 2/φ/φ³/φ³+1 0.058 S | — |  |
+| Dec Ceres·Fomalhaut·Orcus (moving: Ceres, Orcus) | Fomalhaut | Neptune 2:3:5 0.008 S | ★ Pallas 1:8:9 0.002 S | — |  |
+| RA Bellatrix·Procyon·Vesta (moving: Vesta) | Bellatrix, Procyon | Eris 3:5:8 0.022 S | ★ Uranus φ: 2/φ/φ³/φ³+1 0.002 S | — |  |
+| Dec Ceres·Fomalhaut·Jupiter (moving: Jupiter) | Fomalhaut | Neptune 2:3:5 0.008 A | ★ Pallas 1:8:9 0.002 A | — |  |
+| Dec Makemake·Quaoar·Rahu (moving: Makemake, Quaoar, Rahu) | — | Mars 3:8:11 0.080 S | ★ Chiron 1:3:4 0.010 S | H Quaoar, H Rahu, H Makemake |  |
+| Dec Rahu·Rigel·Vesta (moving: Rahu, Vesta) | Rigel | Eris 4:5:9 0.015 S | Venus 1:√2:1+√2 0.034 S | — |  |
+| RA Altair·Capella·Eris (moving: Eris) | Altair, Capella | Juno φ: φ/φ² 0.051 A | Sedna 1:3:4 0.018 A | — |  |
+| Dec Fomalhaut·Rahu·Transpluto (moving: Transpluto) | Fomalhaut | Quaoar 1:3:4 0.042 S | Saturn 2:5:7 0.131 S | — |  |
+| Dec Antares·Sedna·Uranus (moving: Sedna, Uranus) | Antares | Sun 1:5:6 0.088 S | Ketu 1:7:8 0.050 S | — |  |
+| Dec Fomalhaut·Pluto·Sedna (moving: Pluto, Sedna) | Fomalhaut | Venus 5:8:13 0.097 A | Venus 3:4:7 0.056 A | — |  |
+| Dec Orcus·Pleiades·Uranus (moving: Uranus) | Pleiades | Pluto φ: 2−1/φ/φ²/φ√5 0.068 S | Transpluto 5:6:11 0.084 S | — |  |
+| RA Alkaid·Chiron·Vega (moving: Chiron) | Alkaid, Vega | Orcus 4:5:9 0.083 S | Gonggong 1:√2:1+√2 0.096 S | — |  |
+| Dec Jupiter·Pleiades·Quaoar (moving: Jupiter, Quaoar) | Pleiades | Makemake 3:8:11 0.101 A | Transpluto 3:8:11 0.146 A | — |  |
+| Dec Algol·Haumea·Jupiter (moving: Haumea, Jupiter) | Algol | Uranus 3:5:8 0.112 A | Saturn φ: 2/φ/φ³/φ³+1 0.102 A | — |  |
+
+**The field — which bodies and stars make each pair's joins** (sky bodies that move on the joins · stars in them · the pair's natal bodies on them):
+
+| pair (finish) | joins | with own bodies | struck in the race | sky bodies | stars | natal bodies (H / J) |
+|---|---|---|---|---|---|---|
+| River Bray / Alan Johns (1) | 23 | 0 | 4 | Ceres, Chiron, Eris, Gonggong, Haumea, Juno, Jupiter, Mars, Mercury, Orcus, Pallas, Pluto, Quaoar, Rahu, Saturn, Sedna, Sun, Transpluto, Uranus, Venus, Vesta | Aldebaran, Algol, Algorab, Altair, Arcturus, Bellatrix, Betelgeuse, Capella, Castor, Equator, Fomalhaut, Pleiades, Polaris, Procyon, Regulus, Rigel | H Chiron, H Eris, H Gonggong, H Haumea, H Juno, H Ketu, H Mercury, H Neptune, H Pallas, H Pluto, H Quaoar, H Rahu, H Sedna, H Sun, H Transpluto, H Venus, J Ceres, J Gonggong, J Juno, J Jupiter, J Ketu, J Makemake, J Mars, J Mercury, J Neptune, J Pallas, J Saturn, J Venus, J Vesta |
+| Guernesey / Tom O'Brien (2) | 26 | 3 | 5 | Ceres, Eris, Haumea, Juno, Jupiter, Ketu, Makemake, Mercury, Neptune, Orcus, Pluto, Quaoar, Rahu, Sedna, Sun, Transpluto, Uranus, Venus, Vesta | Altair, Antares, Betelgeuse, Capella, Castor, Equator, Fomalhaut, Pleiades, Polaris, Rigel, Sirius, Vega | H Ceres, H Eris, H Gonggong, H Haumea, H Jupiter, H Mars, H Mercury, H Neptune, H Pallas, H Saturn, H Sun, H Transpluto, H Uranus, H Venus, H Vesta, J Chiron, J Eris, J Haumea, J Juno, J Ketu, J Mars, J Mercury, J Orcus, J Pallas, J Quaoar, J Rahu, J Saturn, J Sedna, J Sun, J Transpluto, J Uranus, J Venus |
+| Ballyblack / Rex Dingle (3, fav) | 21 | 2 | 5 | Ceres, Eris, Gonggong, Haumea, Juno, Jupiter, Ketu, Makemake, Mars, Mercury, Orcus, Pluto, Quaoar, Sedna, Sun, Transpluto, Uranus, Venus | Algol, Antares, Bellatrix, Betelgeuse, Equator, Fomalhaut, Pleiades, Procyon, Rigel, Spica, Vega | H Ceres, H Chiron, H Gonggong, H Haumea, H Jupiter, H Ketu, H Mars, H Mercury, H Orcus, H Pluto, H Rahu, H Sedna, H Transpluto, H Venus, J Chiron, J Eris, J Gonggong, J Haumea, J Juno, J Jupiter, J Makemake, J Neptune, J Orcus, J Pallas, J Pluto, J Quaoar, J Rahu, J Saturn, J Sedna, J Sun, J Transpluto |
+| Birds Of Prey / Harry Cobden (4) | 22 | 4 | 5 | Ceres, Chiron, Haumea, Jupiter, Makemake, Mercury, Orcus, Pallas, Pluto, Quaoar, Rahu, Saturn, Sedna, Sun, Transpluto, Uranus, Venus, Vesta | Aldebaran, Algol, Alkaid, Antares, Bellatrix, Betelgeuse, Capella, Fomalhaut, Pleiades, Procyon, Rigel, Sirius, Spica, Vega | H Ceres, H Eris, H Gonggong, H Haumea, H Juno, H Jupiter, H Ketu, H Mars, H Mercury, H Orcus, H Pluto, H Quaoar, H Saturn, H Uranus, J Ceres, J Chiron, J Eris, J Haumea, J Jupiter, J Ketu, J Makemake, J Mars, J Mercury, J Pallas, J Pluto, J Rahu, J Saturn, J Sedna, J Transpluto, J Venus, J Vesta |
+| Electric Annie / Nick Scholfield (5) | 21 | 2 | 6 | Ceres, Chiron, Eris, Haumea, Juno, Jupiter, Ketu, Makemake, Mercury, Orcus, Pallas, Quaoar, Saturn, Sedna, Sun, Transpluto, Vesta | Aldebaran, Algol, Algorab, Antares, Bellatrix, Betelgeuse, Capella, Castor, Equator, Pleiades, Polaris, Procyon, Rigel, Sirius, Vega | H Ceres, H Gonggong, H Jupiter, H Mars, H Mercury, H Orcus, H Pallas, H Pluto, H Sedna, H Sun, H Uranus, H Venus, H Vesta, J Ceres, J Eris, J Gonggong, J Haumea, J Juno, J Makemake, J Mars, J Neptune, J Orcus, J Quaoar, J Saturn, J Sedna, J Transpluto, J Venus |
+| Reserve Tank / Brendan Powell (6) | 15 | 1 | 0 | Ceres, Chiron, Eris, Haumea, Jupiter, Makemake, Orcus, Pluto, Quaoar, Rahu, Sedna, Transpluto, Uranus, Vesta | Algol, Alkaid, Altair, Antares, Bellatrix, Betelgeuse, Capella, Fomalhaut, Pleiades, Procyon, Rigel, Vega | H Eris, H Juno, H Makemake, H Mars, H Neptune, H Orcus, H Pluto, H Quaoar, H Sun, H Uranus, H Venus, H Vesta, J Chiron, J Gonggong, J Ketu, J Pallas, J Rahu, J Saturn, J Sedna, J Transpluto, J Uranus, J Venus |
+
+
 # 4. Triangle corners — the same three points read in different layers
 
 Each line: one triangle (three points, one measure) with something exact in or within 10 min of the race; under it each reading = which body moves and on which base, and who is on that reading (tightest first).

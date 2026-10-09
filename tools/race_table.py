@@ -44,6 +44,20 @@ def m2dev(r, t):
     return '' if res is None else f"{res[1] * 100:.3f}"
 
 WMIN = re.compile(r"exact ([\d.]+) min (before|after) the off")
+def m2check(r, tt):
+    """9 Oct (exactness check on the 1-minute sky): a non-Moon M2 'exact' time is re-measured with the stage geometry. If the chord is not within
+    0.005% at that time, search +-10 min in 5-s steps: re-time it if it does come exact there, otherwise say 'does not come exact'. Returns
+    (tt, when-text) - unchanged when the claim holds."""
+    d0 = m2dev(r, tt)
+    if d0 == '' or float(d0) <= 0.005: return tt, r['transit_when']
+    best = (float(d0), tt)
+    for k in range(-120, 121):
+        t_ = tt + k * 5 / 60; d = m2dev(r, t_)
+        if d != '' and float(d) < best[0]: best = (float(d), t_)
+    if best[0] <= 0.005:
+        mins = best[1] - T0
+        return best[1], f"exact {abs(mins):.1f} min {'after' if mins >= 0 else 'before'} the off ({hm(best[1])}) [re-timed on the 1-minute sky; stage said: {r['transit_when']}]"
+    return None, (f"closest {best[0]:.3f}% at {hm(best[1])}, does not come exact [checked on the 1-minute sky; stage said: {r['transit_when']}]")
 FIB = {'1:2:3', '2:3:5', '3:5:8', '5:8:13'}
 def fam(t):
     if not t: return ''
@@ -104,6 +118,8 @@ for tab in sorted(TABS):
         tt = r['transit_t'] if (r['transit_body'] == 'Moon' or 'Moon' in (r['x'], r['e'])) else None
         m = WMIN.search(r['transit_when'] or '') if tt is None else None
         if m: tt = T0 + float(m.group(1)) * (-1 if m.group(2) == 'before' else 1)
+        when_txt = r['transit_when'] or ''
+        if m and tt is not None and T0 - 30 <= tt <= TEND: tt, when_txt = m2check(r, tt)
         inwin = tt is not None and T0 - 30 <= tt <= TEND
         rows.append(dict(base, kind='M2', natal_body=r['natal_body'], sky_body=r['transit_body'], layer=r['layer'], mm=r['mm'], base=f"{r['x']}–{r['e']}",
                          sky_chord=r['transit_type'], sky_family=fam(r['transit_type']), natal_chord=r['natal_type'], natal_family=fam(r['natal_type']),
@@ -111,7 +127,7 @@ for tab in sorted(TABS):
                          m1_strong='', unison='UNISON' if r['natal_type'] == r['transit_type'] else '', mirror='',
                          same_body='SAME BODY' if r['natal_body'] == r['transit_body'] else '',
                          time=hm(tt) if inwin else '', zone=zone(tt) if inwin else 'held (outside the window)', exact_time=hm(tt) if tt is not None else '',
-                         exact_zone=r['transit_when'] or '', rank=1 if tight else '', field_bodies=len(others) + 1, field_charts=len({x['tab'] for x in others} | {tab}),
+                         exact_zone=when_txt, rank=1 if tight else '', field_bodies=len(others) + 1, field_charts=len({x['tab'] for x in others} | {tab}),
                          tightest='this chart' if tight else '', partner_on='', also_on_string='; '.join(sorted(M2BASE[(r['layer'], r['mm'], r['x'], r['e'])] - {r['transit_body']})),
                          note=r.get('lengths') or ''))
     # same body

@@ -263,7 +263,9 @@ Orcus → Mercury UNISON), Capuchinero (Gonggong → Sun, applying; Eris → Mar
 - **Pallas–Juno–Sirius** (3:4:7, applying +38 min): Pallas moving → **jockey's MARS** (0.009%, tightest) + horse's Saturn, Vesta; Juno moving → jockey's Vesta,
   Makemake. Juno with Mars again.
 - Mercury 1:1:2 on Pallas–Sirius (+1 min) → horse's Juno (tightest) + jockey's Uranus, Gonggong. Pluto √2 on Pallas–Bellatrix in the race → jockey's Saturn UNISON (6 bodies).
-- Set aside: Mars/Saturn √2 on Saturn/Mars–Deneb Algedi shown "in the race" with sky 0.063→0.097% — the Method 2 exactness fault on a short base; not used.
+- Mars/Saturn √2 on Saturn/Mars–Deneb Algedi IS exact in the race: re-measured on the 1-minute sky, 0.063% at the off, **0.002% at 14:40:45**,
+  0.097% at the finish — a fast V on a 1.85° base (I first called it a fault; the check showed it is real). On it: the horse's SUN 3:4:7 (0.107%, loose)
+  and Eris; Thakuri's Juno tightest (Mars corner); Costello's Jupiter tightest (Saturn corner); Thakuri's Sun, Allan's Juno, Tea Garden's Neptune.
 - Beaten: Hart — Mars–Pallas–Alphecca, his own Mars and own Pallas (both corners, 0.103%); Capuchinero tightest ×4 (the Sun 1:2:3 on Vesta–Fomalhaut → Jupiter
   0.008%); Thakuri Mars → Venus 0.010%; Beasley Orcus → Jupiter.
 **L4.** The winners ARE tightest here (not at Doncaster).
