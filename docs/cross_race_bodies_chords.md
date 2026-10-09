@@ -182,6 +182,10 @@ Chiron 3:4:7 in the race, M2 L3 Dec Saturn–Equator). Connor Beasley 4th Catter
 ## I. Race by race, layer by layer (Eddie, 9 Oct: "go through each race, each method / layer ... COMBINATIONS")
 Times: applying = time to exact from the FINISH, separating = from the OFF. Doncaster, Catterick, Ffos Las, Newcastle and Carlisle were checked by an independent reviewer
 (9 Oct) against the tables; its corrections are applied below.
+**Timelines (9 Oct, later):** the pack's timeline used to drop loose items (M3 natal string >0.05%, M2 natal chord >0.03%); it now lists every non-Moon
+event and splits beats into both-sides-tight (the old rule — unchanged in all seven races) and with a loose side. Note: when one sky event lands on a
+triangle or string that holds both charts, it makes a loose-side "beat" by itself — a joint strike, not two events meeting. Each race below has a
+"fuller timeline" line added from the rebuilt pack.
 **Rule (Eddie, 9 Oct, "please learn this"): every race is read at the same full depth as Doncaster — every layer, every runner, the beaten runners
 for contrast, presented one layer at a time. Never read a race only from the pack's summary parts. The Catterick and Ffos Las sections below were first
 written from the summary parts only and are being redone at full depth.**
@@ -235,6 +239,10 @@ Other pairs: Poetria / Hamilton also have a Sun beat in both charts (14:42:46 Ha
 Davies a Sun beat by same-body items (14:40:41–14:41:41, her Sun number). **On tight natal strings (≤0.05%) no other pair has Mars in both charts in the race**; on loose ones Poetria / Hamilton do too (sky Mars on
 Altair–Arcturus → Hamilton's Gonggong 0.132%; the Sun on Alkaid–Arcturus → Poetria's Mars 0.056%). Oot Ma Way's Mars items are her own same-body
 chords (Mars + Spica, Mars + Gonggong, and Vesta + Vesta with Mars as the third point), her jockey none. [corrected after the independent check]
+Fuller timeline (loose items included): loose-side beats for the winners at 14:40:27 (Sun–Vesta–Regulus: H Neptune / J Sedna, before the off), 14:41:04
+(Mercury on Orcus–Castor: H Pallas / J Juno), 14:43:51 (Jupiter on Pluto–Sedna: H Chiron / J Juno), 14:44:33 (Sun–Juno–Rigel: H Ceres, Pallas / J Gonggong),
+14:45:31–42 after (Mercury on Neptune–Chiron: H Pallas 0.013% / J Rahu; Mercury–Transpluto–Algol: H Orcus, Saturn / J Neptune). At 14:41:34 Mars on
+Altair–Arcturus also reaches the horse's own Mars (0.096%) with her Sun.
 
 ### Catterick 14:40, 6 Apr 2022 — 1st Wotever Next / Joanna Mason (88-s race) — FULL DEPTH (redone 9 Oct)
 Off 14:40:09, finish 14:41:37. Pack: `rr/20220406_catterick_1440/compare/reading-pack.md`.
@@ -294,6 +302,9 @@ Orcus → Mercury UNISON), Capuchinero (Gonggong → Sun, applying, tightest; al
 J Sun–Mars–Antares (Pluto, Saturn, UNISON) · 14:38:45 J Mercury–Pluto–Rahu (own Mercury, own Pluto) · ◆14:39:21 Mercury → J Neptune (strong) + H Vesta ·
 14:39:39 H Mercury + Alphecca · ◆14:40:49–50 in the race: Gonggong → J Pluto (0.001%) / Mercury → H Chiron (tightest) · ◆14:41:04–09 in the race: **J Sun
 number 201/9** / H Mercury + Uranus · ◆14:42:39–45 after: Mercury → H Juno / Juno → J Saturn (0.003%).
+Fuller timeline (loose items included): the Sun–Mars–Antares moment (14:38:32) also holds the horse's Pluto (0.141%) — Pluto in both charts on it; 14:40:04
+Venus–Neptune–Altair at the off (H Jupiter / J Sun); 14:40:44 in the race Mars on Saturn–Deneb Algedi → the horse's Sun and Eris (loose) beside the 14:40:49–50
+beat; 14:41:01 Pallas–Pluto–Bellatrix (H Gonggong / J Saturn); 14:39:34 Mercury on Chiron–Bellatrix (H Haumea / J Saturn).
 **Catterick in short:** Venus (Neptune bases, both corners of two triangles, the horse's own Venus + own Neptune); double same-body triangles in both charts
 (horse ×2, jockey ×1); the Sun–Mars triangle holding the jockey's Pluto through the race on the Sun corner (beaten favourite's jockey on the Mars corner);
 horse-Mars + jockey-Pluto and jockey-Mars + horse-Saturn on Pallas triangles; Juno with the jockey's Sun and Mars; Mercury through the pair in and around the race.
@@ -332,6 +343,10 @@ Algol 0.000%; Time Leader pair Transpluto (0.006% at the race, applying) — tig
 **Timeline.** In-race beat: Ceres → the horse's Rahu (0.000%) at 17:28:51 with the jockey's Venus and Makemake numbers (17:28:54–59). Mars in both charts
 before the off (−1.5 min, 15 s apart) and after the finish; the Sun on the jockey's Mars at the finish; the Sun on his Sedna +63 s (a strike; 0.023% at the off). Beaten in-race beat:
 Yourholidayisover / Worsley (Mercury + Sun / her Sun number, 17:28:09–14).
+Fuller timeline (loose items included): at the finish (17:29:38) the Sun on Transpluto–Aldebaran is on both charts (J Mars, H Venus); +63 s (17:30:24) the Sun on
+Fomalhaut–Pleiades → J Sedna (strong) and H Ceres (loose) — the Sun in both charts; 17:30:18 Juno–Eris–Fomalhaut and Sun–Pallas–Arcturus on both; 17:31:05–08
+Mars → H Ketu (0.043%) with Venus on Pluto–Antares → J MARS (0.077%) — Mars in both charts after the finish (as already noted); before the off 17:24:41
+Venus–Transpluto–Altair (the jockey's own Venus and own Transpluto, loose here) and 17:24:55 Mercury–Juno–Deneb Algedi on both.
 **Checked: "joined across the pair"** (triangles/strings holding both charts on which one chart is tightest AND tight — STRONG / ≤0.02% — or an own body; with "tightest" alone the counts are 6 / 18 / 21 / 14, same conclusion): winning pair 4 of 16 shared triangles;
 You Say Nothing / Tudor 10 of 24 (incl. Ceres–Deneb Algedi–Eris with both charts' own Ceres and own Eris); Time Leader / Sheppard 11 of 27;
 Yourholidayisover / Worsley 10 of 21. **The beaten pairs are joined MORE, by number.** What is particular to the winning pair is which bodies and stars
@@ -396,8 +411,9 @@ Mercury–Eris–Bellatrix: Mercury corner the horse's Transpluto (tightest), Er
 - Beaten, IN the race: Hardie's Mars number RA 1264/9 at the off; Mondammej's Jupiter number Dec 52/9 (13:33:24); Good Effort's Sun + Gonggong Dec 1:4:5 0.000%
   (13:33:34); King Of Stars' Sun number 809/9 (13:33:04); Watson Saturn + Pallas at the finish. Hardie Eris + Polaris 0.000% (+3.0 min); Tudhope Neptune + Algol 0.001%.
   Pair chords: Good Effort ×3, Regional ×2, King Of Stars Saturn, Mondammej Juno (all loose, 0.041–0.144%).
-**Timeline.** The winners (pack filter: M3 natal ≤0.05%, M2 ≤0.03%): one event, Jupiter → the jockey's Haumea at 13:34:39 (+51 s). No beats. (Unfiltered: Venus on Pluto–Equator → the horse's Pallas 0.095% at 13:35:37.) The only beat in the window is Mondammej / Hardie at 13:35:34–36
-(after the finish: Mercury number / Venus on Pluto–Equator → Uranus). Non-Moon Mars in both charts near the race: Mondammej / Hardie only (see the table below; with the Moon, the Moon on Mars–Pallas at 13:30:34 puts Mars in both winners' charts too).
+**Timeline.** The winners (pack filter: M3 natal ≤0.05%, M2 ≤0.03%): one event, Jupiter → the jockey's Haumea at 13:34:39 (+51 s). No beats. (Unfiltered: Venus on Pluto–Equator → the horse's Pallas 0.095% at 13:35:37.) The only both-sides-tight beat in the window is Mondammej / Hardie at 13:35:34–36
+(after the finish: Mercury number / Venus on Pluto–Equator → Uranus). Fuller timeline: the winners still have no beat of any kind (two events only); loose-side
+beats for the beaten — Mondammej 13:31:23, 13:31:49; Good Effort 13:31:23, 13:35:36; Regional 13:31:23; King Of Stars 13:35:36. Non-Moon Mars in both charts near the race: Mondammej / Hardie only (see the table below; with the Moon, the Moon on Mars–Pallas at 13:30:34 puts Mars in both winners' charts too).
 **Joins by body** (pack 3b; "any role" = the body is a point of the triangle OR the tightest natal body of either chart; "points" = triangle points only):
 | pair (finish) | joins | Uranus any / points | Transpluto any / points | Mars any / points | Juno any / points | Altair |
 |---|---|---|---|---|---|---|
@@ -473,7 +489,9 @@ Finisk River / Hughes: Juno–Pallas–Saturn. No other pair has both Suns on on
 (−7.0 min); Venus + Haumea (−2.5 min); parallel Sedna ∥ Mercury 0.000% at 13:56:40. Horse: no same-body item except with the Moon (Chiron + Moon in the race); parallel Pallas ∥ Neptune at the window edge. No pair same-body chord.
 Beaten in the race: Gold Des Bois Venus number 13:59:40 (5 s after the jockey's); Slanelough Pallas number Flat 194/9 at 13:59:35 (the same second as the jockey's Venus number); Nichol Mercury + Mars, Sun + Quaoar, Juno number 14:01:00; Finisk River Venus + Deneb
 Algedi. Pair chords: If Not For Dylan Saturn 0.001%, Juno; Gold Des Bois Transpluto.
-**Timeline.** Winners: 13:55:40 J Sun + Castor (pre-off); in the race 13:57:59 Mercury → H Eris; 13:59:35 J Venus number; 14:00:55 Pallas → H Sedna. No beats for any pair.
+**Timeline.** Winners: 13:55:40 J Sun + Castor (pre-off); in the race 13:57:59 Mercury → H Eris; 13:59:35 J Venus number; 14:00:55 Pallas → H Sedna. No both-sides-tight beat for any pair. Fuller timeline (loose sides): the winners at 13:56:09 (Vesta on Procyon–Regulus: H Jupiter /
+J Pluto), **13:57:10 at the off (Saturn–Vesta–Equator: H Mars, Quaoar / J Sun, Ceres)** and 14:02:04, +58 s (**Orcus on Mars–Equator**: H Saturn, Makemake / J Sedna —
+a Mars base with Equator again); the beaten pairs have loose-side beats too (Gold Des Bois 4, Slanelough 4, If Not For Dylan 3, Finisk River 3 moments).
 **Joins by body:** 19 joins, 5 tight (one chart tightest ≤0.02%): Juno/Uranus–Castor → J Jupiter 0.004%; Eris/Pluto–Aldebaran → H Sun 0.005% (both Suns);
 Rahu–Makemake–Pleiades → H Quaoar 0.006%; Chiron–Makemake–Altair → H Mercury 0.006% (her own Chiron + Makemake); Saturn on Pallas–Regulus → J Ceres 0.014%.
 No body runs through them (Makemake, Jupiter, Mercury twice each, counting both charts' tightest bodies) — as Ffos Las, not Newcastle.
