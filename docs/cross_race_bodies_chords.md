@@ -180,6 +180,9 @@ Catterick and Exeter. Beaten charts too: Doncaster O'Farrell, Hamilton, Suntory 
 Chiron 3:4:7 in the race, M2 L3 Dec Saturn–Equator). Connor Beasley 4th Catterick / 1st Newcastle. Tom O'Brien 2nd Wincanton / PU Exeter.
 
 ## I. Race by race, layer by layer (Eddie, 9 Oct: "go through each race, each method / layer ... COMBINATIONS")
+**Rule (Eddie, 9 Oct, "please learn this"): every race is read at the same full depth as Doncaster — every layer, every runner, the beaten runners
+for contrast, presented one layer at a time. Never read a race only from the pack's summary parts. The Catterick and Ffos Las sections below were first
+written from the summary parts only and are being redone at full depth.**
 Live at the race = struck in the race, or held within 0.02% at both the off and the finish (applying or separating). Method 3 = sky body on a
 natal star string; Method 2 = tuned layers (Nodes, L2, L3, L4; L1 repeats Method 3). Then same body, pair, natal→sky numbers, parallels.
 
