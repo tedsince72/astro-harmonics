@@ -78,6 +78,35 @@ Cam Hardie (2nd) Mars 1264/9 at the off. Spread over the field — not separatin
 - Strong strings struck in the race in both charts (Doncaster only).
 - The two lights on one string, tightest (winning horse at Doncaster and Catterick; Hamilton too; none at Ffos Las or Newcastle).
 
+## F. Slow background — what the slow bodies hold through the race (added 9 Oct)
+Eddie: "there must still be slower background conditions as well". First cut: a slow sky body (Jupiter, Saturn, Uranus, Neptune, Pluto, Chiron,
+Transpluto, the TNOs, Rahu/Ketu) holding a chord on a star string within **0.02% at both the off and the finish**, on a **strong** natal string,
+the chart **tightest**. Mostly slow holds (exact hours or days away), a few exact in the window.
+
+**Natal MARS held this way** — every chart with it finished in the first three:
+| race | chart (finish) | slow body + chord | measure, string | natal Mars chord | at the race | exact |
+|---|---|---|---|---|---|---|
+| Doncaster | **Olympe De Gouges (1)** | Pluto 2:3:5 | Dec Rigel–Sirius | 3:5:8 0.005% | 0.018% | 19 Mar 03:51 (applying) |
+| Ffos Las | **Adam Wedge (1)** | Eris 3:5:8 | Dec Aldebaran–Capella | 1:5:6 0.004% | **0.002%** | 15:23 (separating) |
+| Ffos Las | You Say Nothing (2, fav) | Ketu 2:3:5 | Dec Betelgeuse–Rigel | 5:6:11 0.013% | 0.007% | 13:54 (separating) |
+| Newcastle | Mondammej (2) | Ketu 1:4:5 | RA Arcturus–Procyon | 4:5:9 0.005% | 0.006% | 13:10:36 (in the window) |
+| Newcastle | Jim Crowley (3, fav) | Quaoar 1:1:2 | RA Arcturus–Regulus | 3:8:11 0.020% | 0.018% | 23:34 (applying) |
+Catterick: none (there the winning jockey's Mars is struck by Mercury, 2¼ min before the off — section A). Widening to 0.05% at the race adds
+Wedge's Mars ← Transpluto, You Say Nothing's ← Uranus, Capuchinero (3rd) ← Quaoar, Sheppard (3rd) ← Quaoar, Tudhope (4th) ← Sedna (0.050%).
+Seen: a natal Mars held by a slow body through the race marks the front of the field (1st ×2, 2nd ×2, 3rd ×1), not the winner alone.
+Slow bodies holding Mars: Pluto, Eris, Ketu ×2, Quaoar; chords 2:3:5 ×2, 3:5:8, 1:4:5, 1:1:2.
+
+**Natal SUN held this way (strong, ≤0.03% at the race):** Noonan (1) ← Makemake 3:4:7 (Dec Alphecca–Castor, natal 1:6:7 0.006%, #1);
+Adam Wedge (1) ← Rahu 5:8:13 (RA Arcturus–Castor, natal φ 0.018%, #2); Davies (4) ← Jupiter 1:5:6 (#3); Tudhope (4) ← Saturn 5:6:11 (#1).
+Not strong: Beasley (1) ← Uranus 1:3:4 0.007% at the race (#2); Suntory Star (5), Thakuri (5), Beluga Gold (2, fav).
+
+**Charts with the most tight slow holds tightest on strong strings:** Catterick — Wotever Next (1) 4 (Rahu 2:5:7 → Ketu 3:4:7 0.001%; Rahu 3:8:11
+→ Neptune 4:5:9 0.001%; Jupiter 4:5:9 → Chiron φ; Gonggong 1:7:8 → Vesta 1:4:5), the most in that field; Ffos Las — Sheppard (3) 4; Doncaster —
+Fiamette (4) 3; Newcastle — Cam Hardie (2) 2. The count does not follow the result.
+
+Still to look at in the slow layer: tuned bases of slow bodies (Method 2 L3/L4), same-body slow holds, pair same-body holds, natal bodies out of
+bounds or stationary, and how many days each hold is from exact (the slowest backgrounds).
+
 ## Same jockey, two races
 Connor Beasley: 4th at Catterick (Tea Garden), 1st at Newcastle (Venturous). At Catterick his nearest strong strike is Venus 1:5:6 → Orcus 1:3:4
 (+1:32, #1 of 7); at Newcastle Jupiter 1:5:6 → Haumea 5:8:13 (+0:51, #1 of 3).
