@@ -293,29 +293,44 @@ number 201/9** / H Mercury + Uranus · ◆14:42:39–45 after: Mercury → H Jun
 (horse ×2, jockey ×1); the Sun–Mars triangle holding the jockey's Pluto through the race on the Sun corner (beaten favourite's jockey on the Mars corner);
 horse-Mars + jockey-Pluto and jockey-Mars + horse-Saturn on Pallas triangles; Juno with the jockey's Sun and Mars; Mercury through the pair in and around the race.
 
-### Ffos Las 17:25, 23 Mar 2022 — 1st Ring The Moon / Adam Wedge (237-s race, four runners)
-**Timeline, the winning pair (off 17:25:24, finish 17:29:21):**
-| time | chart | item |
-|---|---|---|
-| 17:23:54 | H | same body: natal **Mars** – sky Mars + Mercury, Dec √2 |
-| 17:24:09 | J | same body: natal Pluto – sky Pluto + **Mars**, RA 1:5:6 |
-| 17:26:39 | H | same body: Pluto + Venus (Sky) |
-| ◆ 17:28:51 | H | in the race: **Ceres 3:8:11 on RA Jupiter–Algol → Rahu 1:5:6 (0.000%)**, tightest — the only chart struck in the race this way |
-| ◆ 17:28:54–59 | J | in the race: natal Venus → sky Venus 13√2; natal Makemake → sky Makemake 266/9 |
-| 17:29:39 | J | same body: Vesta + **Mars** (Dec 1:8:9) |
-| 17:30:04 | H | natal **Juno** → sky Juno 4φ |
-| 17:30:24 | J | **the Sun 1:3:4 on RA Fomalhaut–Pleiades → Sedna 1:4:5 (strong, tightest)**, +63 s |
-| 17:31:05 | H | **Mars 5:8:13 on RA Altair–Deneb Algedi → Ketu** (#2), +1 min 44 s |
-Background through the race: the jockey's natal **Mars held by Eris 3:5:8** (Dec Aldebaran–Capella, 0.002% at the race, separating); his Sun held by Rahu 5:8:13
-(#2, applying). Joint: Vesta 5:6:11 on Dec Altair–Castor, applying (+28 min), holds **both natal Suns** (horse 2:5:7, jockey 3:8:11 strong).
-What is seen:
-- **Mars in both charts on each side of the race**: 1.5 min before the off (the horse's own Mars with Mercury; the jockey's Pluto with Mars, 15 s apart) and after
-  the finish (Vesta + Mars on the jockey; sky Mars on the horse). Plus the jockey's Mars held through the race by Eris.
-- In the race the beat is the horse's Rahu struck by Ceres (0.000%) with the jockey's Venus and Makemake numbers, in the last 30 s of the race.
-- The Sun reaches the winning pair only after the finish (the jockey's Sedna, +63 s), and through the slow Vesta hold on both Suns.
-- Not here: the winning jockey's Sun number in the race (Doncaster, Catterick). Instead the favourite (You Say Nothing) has her Sun number twice in the
-  race (280/9, 22√2) and Venus twice; Worsley (4th) has hers.
-- Juno again: the horse's Juno number 43 s after the finish.
+### Ffos Las 17:25, 23 Mar 2022 — 1st Ring The Moon / Adam Wedge (237-s race, four runners) — FULL DEPTH (redone 9 Oct)
+Off 17:25:24, finish 17:29:21. Pack: `rr/20220323_ffos_las_1725/compare/reading-pack.md`. **Here the winners are NOT the tightest charts in any
+layer** — the beaten runners hold most of the strong/tightest places (Time Leader and Sheppard most of all).
+**Method 3.** Horse: no strong string live; **Castor** on eight of her live strings; the race's one non-Moon strike, **Pallas 2:5:7 on RA Castor–Regulus
+→ her SATURN** (tightest, held 0.000→0.001% through the race); Vesta 2:5:7 → Uranus (tightest, +6 min). Jockey: **Eris 3:5:8 → MARS** (strong, tightest,
+0.002% all race); his **Sun** held by Vesta 5:6:11 on Altair–Castor (+28 min) and Rahu 5:8:13 on Arcturus–Castor; Eris also → his Mercury (strong,
+tightest); Jupiter → his Eris. Both natal Suns on Vesta Altair–Castor. Beaten: Worsley tighter on the Sun string (0.010%, tightest); You Say Nothing's
+own Eris #2 on the jockey's Mars string; Tudor tighter on the Arcturus–Castor Sun string; You Say Nothing's Mars held three ways (Ketu, Orcus, Neptune).
+**Nodes.** Almost empty. Jupiter on Rahu–Regulus (the horse's Pluto, loose). Uranus φ on Rahu–Aldebaran holds BOTH charts of the 4th pair.
+**L2.** The jockey's MARS is the receiver: Eris (M3), Ceres on Eris–Deneb Algedi (−12 min), Haumea on Pluto–Chiron (+15 h), and **the Sun 5:8:13 on
+Transpluto–Aldebaran AT THE FINISH** (0.012→0.001%; the horse's Venus on it; Tudor's Quaoar tightest). Sky Mars 3:5:8 on Sedna–Rigel on both charts (+6 min;
+Time Leader tightest). **Juno 3:5:8 on Eris–Fomalhaut** at the finish → horse's Uranus (tightest), jockey's Pallas. **Pluto–Sedna–Fomalhaut**: the jockey's
+own Sedna + own Pluto (loose) + the horse's Quaoar (0.001%, tightest). Venus on Transpluto–**Altair** → the jockey's own Venus (tightest).
+**L3.** The in-race triangle **Ceres–Jupiter–Algol**: Ceres corner → the horse's Rahu 0.000% (tightest); Jupiter corner → Tudor's own Jupiter + Rahu (tightest),
+with his own Ceres on the Ceres corner (a double same-body triangle for the favourite's jockey, loose 0.143%). Horse's double same-body triangle
+**Ceres–Pallas–Deneb Algedi** (own Pallas + own Ceres, 0.022%). **Juno–Eris–Fomalhaut**: the horse's Uranus tightest on two corners. Mars as a base end:
+Mars on Jupiter–Alphecca → horse's Ceres (tightest); Mars–Pallas–Capella → jockey's Eris UNISON, Quaoar, horse's Juno. The jockey's **Juno** with the Sun
+(the Sun on Ceres–Procyon, +1.6 h) and on a Mars base (Haumea on Mars–Bellatrix, +6 min). Beaten: Time Leader own Sun (UNISON) and own Uranus, Vesta → Juno
+0.001%; You Say Nothing own Jupiter; Worsley, Sheppard tight.
+**L4.** The jockey's double same-body triangle on **Altair: Venus–Transpluto–Altair** — own Venus (Venus corner) and own Transpluto (Transpluto corner), both
+tightest, the horse's Chiron on it. **Sun–Ceres–Procyon**: the Sun corner → jockey's Juno; the Ceres corner → horse's Neptune + jockey's Makemake (Time
+Leader has own Sun + own Ceres here, UNISON). Gonggong on Sun–Antares → the horse's Neptune (tightest, +6 min). Beaten: You Say Nothing's double
+same-body in the race (Venus–Gonggong–Deneb Algedi, loose by the finish); five charts in this race have a double same-body triangle.
+**Same body / numbers.** **Saturn through the pair**: Pallas strikes the horse's Saturn on Castor–**Regulus** in the race; the jockey's natal Saturn + sky
+Saturn with **Regulus** (Sky 1:3:4, held) and with Bellatrix (Dec 1:3:4, 0.004→0.003%, +7 min); and the **pair same-body chord Saturn** (sky Saturn +
+horse Saturn + jockey Saturn, Sky √2, 0.008%). Jockey: Pluto + Mars (−1.2 min); his Venus and Makemake numbers in the race. Horse: Juno number after the
+finish. Beaten: You Say Nothing's Sun number twice and Venus twice in the race, Mars + Moon in the race; Worsley's Sun number in the race and Neptune +
+Algol 0.000%; Time Leader pair Transpluto 0.003% and Yourholidayisover pair Mercury 0.002% (pair same-body chords, applying).
+**Timeline.** In-race beat: Ceres → the horse's Rahu (0.000%) at 17:28:51 with the jockey's Venus and Makemake numbers (17:28:54–59). Mars in both charts
+before the off (−1.5 min, 15 s apart) and after the finish; the Sun on the jockey's Mars at the finish; the Sun on his Sedna +63 s. Beaten in-race beat:
+Yourholidayisover / Worsley (Mercury + Sun / her Sun number, 17:28:09–14).
+**Checked: "joined across the pair"** (triangles/strings holding both charts with a tightest piece or an own body): winning pair 4 of 16 shared triangles;
+You Say Nothing / Tudor 10 of 24 (incl. Ceres–Deneb Algedi–Eris with both charts' own Ceres and own Eris); Time Leader / Sheppard 11 of 27;
+Yourholidayisover / Worsley 10 of 21. **The beaten pairs are joined MORE, by number.** What is particular to the winning pair is which bodies and stars
+join: Saturn (horse struck in the race on Castor–Regulus; jockey's own Saturn with Regulus; the pair Saturn chord), Altair (jockey's own Venus + own
+Transpluto, the horse on it), Juno (the horse's Uranus, the jockey's Juno with the Sun), the Sun on the jockey's Mars at the finish, Castor.
+**Ffos Las in short:** not tightness, not number of joins; the kind of join — Saturn–Regulus through both charts and the pair chord, the Altair double in the
+jockey with the horse on it, the Sun reaching the jockey's Mars at the finish, the in-race strike at 0.000% on the horse's Rahu.
 
 ### Looking across: Mars and the Sun in BOTH charts of a pair near the race (off −3 min to finish +2 min; any layer, any role — sky body, base end, natal body, third point)
 | race | pairs with Mars in both charts (nearest gap between the two charts) | pairs with the Sun in both charts |
