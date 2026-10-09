@@ -180,7 +180,7 @@ Catterick and Exeter. Beaten charts too: Doncaster O'Farrell, Hamilton, Suntory 
 Chiron 3:4:7 in the race, M2 L3 Dec Saturn–Equator). Connor Beasley 4th Catterick / 1st Newcastle. Tom O'Brien 2nd Wincanton / PU Exeter.
 
 ## I. Race by race, layer by layer (Eddie, 9 Oct: "go through each race, each method / layer ... COMBINATIONS")
-Times: applying = time to exact from the FINISH, separating = from the OFF. Doncaster, Catterick and Ffos Las were checked by an independent reviewer
+Times: applying = time to exact from the FINISH, separating = from the OFF. Doncaster, Catterick, Ffos Las and Newcastle were checked by an independent reviewer
 (9 Oct) against the tables; its corrections are applied below.
 **Rule (Eddie, 9 Oct, "please learn this"): every race is read at the same full depth as Doncaster — every layer, every runner, the beaten runners
 for contrast, presented one layer at a time. Never read a race only from the pack's summary parts. The Catterick and Ffos Las sections below were first
@@ -341,8 +341,8 @@ Transpluto, the horse on it), Juno (the horse's Uranus, the jockey's Juno with t
 jockey with the horse on it, the Sun reaching the jockey's Mars at the finish, the in-race strike at 0.000% on the horse's Rahu.
 
 ### Newcastle 13:30, 2 Jan 2022 — 1st Venturous (25/1) / Connor Beasley (59-s race, five runners) — FULL DEPTH (9 Oct)
-Off 13:32:49, finish 13:33:48. Pack: `rr/20220102_newcastle_aw_1330/compare/reading-pack.md`. Nothing non-Moon is exact IN the race for any chart
-(X0 in every layer); the winners' nearest event is 51 s after the finish.
+Off 13:32:49, finish 13:33:48. Pack: `rr/20220102_newcastle_aw_1330/compare/reading-pack.md`. In the layers (Method 3, Nodes, L2–L4) nothing non-Moon is exact IN the race
+for any chart (X0 everywhere); the in-race non-Moon items are beaten runners' numbers and same-body chords (below). The winners' nearest event is 51 s after the finish. [corrected after the independent check]
 **Method 3.**
 - Jockey: **Jupiter 1:5:6 on Dec Betelgeuse–Deneb Algedi → his HAUMEA 5:8:13** (0.008%, strong, tightest of 3; 0.003→0.001%, exact 13:34:39 = +51 s).
   Ketu 1:4:5 on Arcturus–Procyon → his Sedna (0.008%, strong, #2; Mondammej's Mars tightest).
@@ -354,7 +354,7 @@ Off 13:32:49, finish 13:33:48. Pack: `rr/20220102_newcastle_aw_1330/compare/read
 - Neptune 1:5:6 on Alphecca–Spica → the horse's Mars (0.075%, #5). Juno 1:7:8 on Betelgeuse–Spica → the horse's Orcus, the jockey's Sedna and own Juno (Regional's Jupiter tightest, 0.004%).
 - Beaten tightest + strong: Hardie Sedna → Saturn 0.000%; Mondammej the Moon → Transpluto, Ketu → Mars 0.005%; Good Effort own Juno (SAME, UNISON); King Of Stars Eris → Quaoar 0.002%;
   Watson Neptune → Jupiter, Mercury → Orcus; Tudhope Mars → Quaoar 0.017%; Crowley tightest ×5 (Quaoar → his Mars 0.020%).
-**Nodes.** Thin. **Rahu–Fomalhaut carries both Junos**: Pluto 5:8:13 on RA Rahu–Fomalhaut → the jockey's JUNO (0.027%, tightest of 2, +9.2 h); Transpluto 1:4:5 on Dec
+**Nodes.** Thin. **Rahu–Fomalhaut bases reach both Junos** (two different triangles, not one join): Pluto 5:8:13 on RA Rahu–Fomalhaut → the jockey's JUNO (0.027%, tightest of 2, +9.2 h); Transpluto 1:4:5 on Dec
 Rahu–Fomalhaut → the horse's Juno (0.113%, King Of Stars' Gonggong tightest 0.006%). Beaten tightest: Regional Neptune on Rahu–Procyon → Jupiter 0.000%; Good Effort Pallas ×2.
 **L2. Uranus is the hub of the winning pair.**
 - **Uranus 2:5:7 on RA Neptune–Transpluto → the horse's MARS** (0.007%, tightest of 5, +0.8 h); the same base with Transpluto moving → the horse's Haumea; the jockey's Pluto on the Uranus corner.
@@ -362,10 +362,10 @@ Rahu–Fomalhaut → the horse's Juno (0.113%, King Of Stars' Gonggong tightest 
 - **Mars 1:√2:1+√2 on Dec Uranus–Algol → the jockey's MERCURY** (0.006%, not tightest — Mondammej's Eris 0.006% is) + his Jupiter, +0.2 h.
 - Makemake 1:7:8 on RA Uranus–Sedna → the jockey's VESTA (0.018%, tightest); Sedna on Uranus–Makemake → the horse's Rahu.
 - Horse tightest also: Pallas on Sedna–Makemake → Juno 0.003%; **Haumea 1:8:9 on Transpluto–Antares → her PALLAS 0.000%** (−0.7 h; the jockey's Eris on it);
-  **Mercury 2:3:5 on Eris–Bellatrix → her own TRANSPLUTO 0.005%** (+0.2 h); Transpluto 5:6:11 on Quaoar–Castor → her MARS (tightest, +11.6 h) — on the Quaoar
+  **Mercury 2:3:5 on Eris–Bellatrix → her natal TRANSPLUTO 0.005%** (+0.2 h); Transpluto 5:6:11 on Quaoar–Castor → her MARS (tightest, +11.6 h) — on the Quaoar
   corner of the same triangle, **Crowley's Mars** 0.003% (tightest). Ketu on Chiron–Algorab → her Pluto (tightest, loose).
 - Rahu 1:4:5 on Transpluto–Fomalhaut: the horse's Mars (UNISON) + the jockey's Jupiter.
-- Beaten: Crowley tightest ×9, his MARS held on four bases (Quaoar, Vesta, Pluto, the Moon) — the favourite's jockey Mars-heavy; Regional Neptune → Eris 0.001%,
+- Beaten: Crowley tightest ×9, his MARS held tightest by four movers (Quaoar on Transpluto–Castor, Vesta on Quaoar–Altair, Pluto on Eris–Castor, the Moon on Uranus–Ketu; a fifth, Jupiter on Haumea–Castor, loose) — the favourite's jockey Mars-heavy; Regional Neptune → Eris 0.001%,
   Jupiter on Haumea–Castor → Transpluto (exact +0.1 h); Good Effort Eris → Vesta 0.002%, Pallas → Mars 0.003%; Tudhope Transpluto → Ketu UNISON 0.006%;
   King Of Stars Rahu → Orcus 0.005%; Hardie Venus on Pluto–Equator → Uranus (exact 13:35:36).
 **L3.**
@@ -373,9 +373,9 @@ Rahu–Fomalhaut → the horse's Juno (0.113%, King Of Stars' Gonggong tightest 
   Pluto (0.055%). With L2: the horse's Neptune and the jockey's Mercury on one triangle.
 - **Saturn bases → the horse's PALLAS**: Uranus 1:5:6 on RA Saturn–Altair (0.005%, tightest, −0.5 h); Jupiter φ on RA Saturn–Fomalhaut (0.014%, tightest, +0.2 h).
   With L2's Haumea (0.000%), her Pallas is the horse's receiver: three tightest holds.
-- Sedna on Saturn–Pleiades → the jockey's own URANUS (tightest, 0.047%); Neptune on Ceres–Betelgeuse → his Orcus 0.004% (King Of Stars' Vesta 0.002% tightest);
+- Sedna on Saturn–Pleiades → the jockey's natal URANUS (tightest, 0.047%); Neptune on Ceres–Betelgeuse → his Orcus 0.004% (King Of Stars' Vesta 0.002% tightest);
   Neptune on Jupiter–Deneb Algedi → the horse's Uranus (tightest, 0.043%).
-- **Mars–Jupiter–Castor** (exact +8.5 min): **Crowley tightest on all three corners** (Orcus ×2, Transpluto 0.003%); the winners on it loosely (horse Quaoar,
+- **Mars–Jupiter–Castor** (exact +8.5 min): **Crowley tightest on both moving corners** (Jupiter corner his Transpluto 0.003%, Mars corner his Orcus 0.031%; his Orcus also tightest on Haumea–Jupiter–Castor); the winners on it loosely (horse Quaoar,
   Juno; jockey Vesta, Uranus).
 - Beaten: Mondammej Transpluto → Ketu 0.006%; Regional own Saturn (SAME), Orcus → Sedna 0.002%; Crowley Mercury on Pallas–Alkaid → Haumea 0.005%;
   King Of Stars Makemake on Mars–Juno → Sun 0.008%; Tudhope Uranus → Vesta 0.008%.
@@ -390,12 +390,14 @@ Mercury–Eris–Bellatrix: Mercury corner the horse's Transpluto (tightest), Er
   (+3.3 min); Vesta + Pleiades, Venus + Alkaid, Uranus + Capella / Betelgeuse (slow).
 - Jockey: **Sedna + Bellatrix RA 3:5:8, 0.001%** (+9.5 min); Pallas + Venus Dec 3:4:7 (−8.2 min); **Mars + Transpluto** RA 1:√2:1+√2 (−20.5 min — his own
   Mars and Transpluto joined); Quaoar + Pallas, Rahu + Regulus, Sedna + Gonggong; parallel Haumea ∥ Makemake (window edge).
-- **No natal→sky numbers for either chart near the race; no pair same-body chord.**
+- **No natal→sky number exact within ±2 min of the race for either chart; no pair same-body chord.** Further out (table): jockey Mars Flat 122√2 −4.6 min,
+  Mercury RA 115√2 +4.9 min, Mars Sky 1506/9 +6.6 min; horse Vesta Sky 1567/9 and Mercury Sky 38 +5.4 min (Vesta within ±0.002 from 13:33:29, the last 19 s);
+  held through the race: horse Pluto RA 16, Vesta Dec 395/9; jockey Saturn Flat 21√2. [added after the independent check]
 - Beaten, IN the race: Hardie's Mars number RA 1264/9 at the off; Mondammej's Jupiter number Dec 52/9 (13:33:24); Good Effort's Sun + Gonggong Dec 1:4:5 0.000%
   (13:33:34); King Of Stars' Sun number 809/9 (13:33:04); Watson Saturn + Pallas at the finish. Hardie Eris + Polaris 0.000% (+3.0 min); Tudhope Neptune + Algol 0.001%.
   Pair chords: Good Effort ×3, Regional ×2, King Of Stars Saturn, Mondammej Juno (all loose, 0.041–0.144%).
-**Timeline.** The winners: one event, Jupiter → the jockey's Haumea at 13:34:39 (+51 s). No beats. The only beat in the window is Mondammej / Hardie at 13:35:34–36
-(after the finish: Mercury number / Venus on Pluto–Equator → Uranus). Mars in both charts near the race: Mondammej / Hardie only (see the table below).
+**Timeline.** The winners (pack filter: M3 natal ≤0.05%, M2 ≤0.03%): one event, Jupiter → the jockey's Haumea at 13:34:39 (+51 s). No beats. (Unfiltered: Venus on Pluto–Equator → the horse's Pallas 0.095% at 13:35:37.) The only beat in the window is Mondammej / Hardie at 13:35:34–36
+(after the finish: Mercury number / Venus on Pluto–Equator → Uranus). Non-Moon Mars in both charts near the race: Mondammej / Hardie only (see the table below; with the Moon, the Moon on Mars–Pallas at 13:30:34 puts Mars in both winners' charts too).
 **Joins by body** (pack 3b; "any role" = the body is a point of the triangle OR the tightest natal body of either chart; "points" = triangle points only):
 | pair (finish) | joins | Uranus any / points | Transpluto any / points | Mars any / points | Juno any / points | Altair |
 |---|---|---|---|---|---|---|
@@ -406,12 +408,16 @@ Mercury–Eris–Bellatrix: Mercury corner the horse's Transpluto (tightest), Er
 | King Of Stars / Watson (5) | 22 | 1 / 1 | 5 / 5 | 7 / 4 | 2 / 1 | 0 |
 Uranus makes more of the winners' joins than any other pair's, either way of counting; Transpluto the most counting any role, tied with King Of Stars (5) as
 triangle points. The winners have the fewest joins (20).
-**Newcastle in short:** a quiet race for the winners — nothing exact in the race, no numbers, no beats (the beaten have the in-race numbers and same-body
+**Tight joins** (a join where one chart of the pair is tightest at ≤0.02%): the winners have 6 of 20, and **all 6 are Uranus or Transpluto triangles** —
+Uranus on Neptune–Transpluto → the horse's Mars 0.007%; the Sun on Uranus–Chiron → the jockey's Ceres 0.001%; Uranus on Saturn–Altair → the horse's Pallas 0.005%;
+Mars/Uranus on Algol → the horse's Neptune 0.013%; Makemake/Sedna on Uranus → the jockey's Vesta 0.018%; Haumea on Transpluto–Antares → the horse's Pallas 0.000%.
+The beaten pairs' tight joins with Uranus or Transpluto as a point: Mondammej / Hardie 1 of 4, Good Effort / Crowley 1 of 6, Regional / Tudhope 1 of 6 (plus Regional's
+natal Transpluto on Jupiter–Haumea–Castor), King Of Stars / Watson 1 of 3.
+**Newcastle in short:** a quiet race for the winners — nothing exact in the race, no numbers within ±2 min, no beats (the beaten have the in-race numbers and same-body
 strikes). What marks them is which bodies join them: **Uranus** (the L2 hub — on Neptune–Transpluto → the horse's Mars, the Sun on Uranus–Chiron → the
 jockey's Ceres, Mars on Uranus–Algol → the jockey's Mercury, Uranus on Mars–Algol → the horse's Neptune, Uranus on Saturn–Altair → the horse's Pallas, Uranus on
 Venus–Sirius → the horse's Juno; on Altair–Castor → the jockey's Sun) and **Transpluto** (on Aldebaran–Sirius and Altair–Procyon over both charts; the horse's
-Mars tightest; the jockey's own Mars + Transpluto; the horse's own Transpluto by Mercury). The horse's MARS is held by both. Juno on Rahu–Fomalhaut in both
-charts. The horse's Pallas a receiver (0.000%, 0.005%, 0.014%). Not yet checked against the other races: Uranus/Transpluto as a join-maker elsewhere.
+Mars tightest; the jockey's own Mars + Transpluto; the horse's natal Transpluto by Mercury). The horse's MARS is held by both. Rahu–Fomalhaut bases on both Junos (separate triangles). The horse's Pallas a receiver (0.000%, 0.005%, 0.014%). Not yet checked against the other races: Uranus/Transpluto as a join-maker elsewhere.
 
 ### Looking across: Mars and the Sun in BOTH charts of a pair near the race (off −3 min to finish +2 min; any layer, any role — sky body, base end, natal body, third point)
 | race | pairs with Mars in both charts (nearest gap between the two charts) | pairs with the Sun in both charts |
@@ -425,6 +431,19 @@ charts. The horse's Pallas a receiver (0.000%, 0.005%, 0.014%). Not yet checked 
 | Exeter | none | winner, Jarlath (2nd), Caspers Court, Pens Man, Pointed And Sharp |
 Seen: Mars in both charts is rarer than the Sun and falls on the winning pair in four of seven races (nearest of all in three: Doncaster, Catterick, Ffos Las);
 the Sun in both charts is common and does not pick out the winner. Background, not a rule.
+
+### Looking across: which bodies make each pair's TIGHT joins (9 Oct; the four races read at full depth)
+Tight join = a pack-3b triangle holding both charts of the pair on which one chart is tightest at ≤0.02%. Body counted in any role (triangle point or that row's
+tightest natal body). Top bodies per pair:
+| race | winners: tight / joins, top bodies | beaten pairs (finish: tight / joins, top body) |
+|---|---|---|
+| Doncaster | 5/17 — **Haumea 3, Regulus 3** (Pallas on Haumea–Regulus → J Mercury; Haumea on Betelgeuse–Regulus → J Juno, H own Haumea; Ceres on Uranus–Regulus → H Haumea) | 2: 5/18 several ×2 · 3: 8/17 Uranus 4 · 4: 8/19 Pallas 5 · 5: 3/17 Chiron 2 |
+| Catterick | 9/33 — **Neptune 5**, Algorab 3, Saturn 3, Pallas 3 (Algorab bases → H Neptune ×2 and J Neptune) | 2: 1/18 · 3: 5/24 Vesta 3, Jupiter 3 · 4: 8/22 Mercury 4 · 5: 3/25 Haumea 2 |
+| Ffos Las | 3/16 — no body twice (Ceres–Jupiter–Algol → H Rahu 0.000% in the race; Pluto–Sedna–Fomalhaut, J own Pluto + Sedna; Vesta–Antares–Orcus → J Transpluto) | 2: 7/24 Orcus 4, Pluto 4 · 3: 11/27 Gonggong 4 · 4: 9/21 Neptune 3, Makemake 3, Sun 3 |
+| Newcastle | 6/20 — **Uranus 5**, Transpluto 3 | 2: 4/21 Neptune, Aldebaran, Venus 2 · 3: 6/26 Pluto 3 · 4: 6/25 Neptune 3 · 5: 3/22 none twice |
+Seen: in three of four races one body runs through the winners' tight joins (Haumea–Regulus, Neptune via Algorab, Uranus); Ffos Las has none. **Beaten pairs have a
+dominant body too** (Fiamette / Davies Pallas 5 of 8, Poetria / Hamilton Uranus 4 of 8, You Say Nothing / Tudor Orcus and Pluto 4 of 7), so having one does not
+separate the winners; what each body carries (which natal bodies, which stars, which corner) is the thing to read. Background, not a rule.
 
 ## Same jockey, two races
 Connor Beasley: 4th at Catterick (Tea Garden), 1st at Newcastle (Venturous). At Catterick his nearest strong strike is Venus 1:5:6 → Orcus 1:3:4
