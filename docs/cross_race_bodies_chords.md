@@ -5,7 +5,8 @@ collects, race by race, **which sky body, which chord, which string, which natal
 on the winners' side and on the others'. Read with the results known; what is seen, not a rule. Settings as the records (natal at 12:00, no
 natal Moon; window off−30 to finish+30; STRONG = Method 1 ≤0.02%; "exact" leftover ≤0.005%).
 
-Races so far: Doncaster 18/03/22 · Catterick 06/04/22 · Ffos Las 23/03/22 · Newcastle 02/01/22. Still to read: Carlisle, Wincanton, Exeter.
+Races: Doncaster 18/03/22 · Catterick 06/04/22 · Ffos Las 23/03/22 · Newcastle 02/01/22 (sections A–G read on these four) · Carlisle 14/10/21 ·
+Wincanton 21/03/22 · Exeter 19/10/21 (added in section H with Method 2, 9 Oct). **Section H says which of A–G hold over all seven.**
 
 ## A. Non-Moon strikes on strong strings closest to the race — the WINNING JOCKEY
 In all four races the winning jockey has a strong string struck by a body other than the Moon, him or her tightest, within about a minute of the
@@ -41,7 +42,7 @@ Bodies and chords seen here:
 Seen: in the three races with a non-Moon star-string strike in the race, the winning horse is tightest at one (Mars, Mercury, Pallas).
 Natal bodies: Sun, Chiron, Saturn, Vesta, Orcus, Mercury. Sky: Mercury ×3, Mars, Juno, Pallas, Jupiter.
 
-## C. The pair one-two on a Mercury strike
+## C. The pair one-two on a Mercury strike — NOT held over seven races (see H)
 | race | time | Mercury chord | string | jockey (#1) | horse (#2) |
 |---|---|---|---|---|---|
 | Catterick | 14:18:56 | 1:6:7 | Dec Arcturus–Polaris | Mason Rahu 1:2:3 0.009% STRONG (her Sun 1:2:3 next, 0.051%) | Wotever Next Vesta 1:3:4 0.112% |
@@ -78,7 +79,7 @@ Cam Hardie (2nd) Mars 1264/9 at the off. Spread over the field — not separatin
 - Strong strings struck in the race in both charts (Doncaster only).
 - The two lights on one string, tightest (winning horse at Doncaster and Catterick; Hamilton too; none at Ffos Las or Newcastle).
 
-## F. Slow background — what the slow bodies hold through the race (added 9 Oct)
+## F. Slow background — what the slow bodies hold through the race (added 9 Oct) — the Mars line is NOT held over seven races (see H)
 Eddie: "there must still be slower background conditions as well". First cut: a slow sky body (Jupiter, Saturn, Uranus, Neptune, Pluto, Chiron,
 Transpluto, the TNOs, Rahu/Ketu) holding a chord on a star string within **0.02% at both the off and the finish**, on a **strong** natal string,
 the chart **tightest**. Mostly slow holds (exact hours or days away), a few exact in the window.
@@ -129,6 +130,54 @@ marked A applying / S separating / X exact in the race, with the time to exact: 
 - Newcastle's winning pair: five shared strings (Juno, the Moon, Neptune, Transpluto ×2), four applying, none with a strong string or the same
   natal body.
 - Every pair has shared strings (4–12); the number does not follow the result.
+
+## H. Seven races, with Method 2 (added 9 Oct)
+Tables rebuilt on the Mac with the Method 2 chords re-measured at the off and the finish (commit b2895a5); held lists for all seven in
+`rr/<race>/compare/held-through-the-race.md` (repo only). Results: Carlisle 1st **Arvico Bleu / Callum Bewley**, 2nd Gold Des Bois / Conor
+O'Farrell (fav); Wincanton 1st **River Bray / Alan Johns**, 3rd Ballyblack / Rex Dingle (fav); Exeter 1st **Forget You Not / James Best**,
+4th Pens Man / Jonjo O'Neill Jr (fav).
+
+**What does not hold up over seven:**
+- **C (pair one-two on Mercury, the winning jockey on top):** no winning pair has it at Carlisle, Wincanton or Exeter, and a beaten pair does —
+  Carlisle, Mercury on Capella–Sirius 13:36:57: O'Farrell's SUN 0.020% STRONG #1, Gold Des Bois's Haumea #2 (2nd, the favourite).
+- **F (a natal Mars held by a slow body = the front of the field):** at Carlisle, Wincanton and Exeter the natal Mars holds fall on 3rd, 4th,
+  5th, 6th and a pulled-up chart (Slanelough Juno 5:8:13; Coltherd Rahu φ; Hughes Neptune 3:4:7 M2; Electric Annie Pluto 1:1:2 and Makemake
+  2:5:7 M2; Brendan Powell Transpluto 2:5:7; Connor Brace Transpluto φ). No winning chart at those three has one. With Method 2 the Newcastle
+  winning horse does (Uranus 2:5:7 on Neptune–Transpluto → Mars φ, applying 0.8 h).
+
+**What does hold: a winning chart is first (or level first) to a non-Moon strike on a tight natal chord, it tightest, nearest the race.**
+Measure: for every chart, the nearest strike to the race by a body other than the Moon — Method 3 on a STRONG string, or Method 2 with the natal
+chord ≤0.02% — the chart tightest; distance 0 = in the race.
+| race | race length | the winning chart(s) | gap | sky body + chord → natal body + chord | level with them / ahead of them |
+|---|---|---|---|---|---|
+| Doncaster | 248 s | **both** | 0 | horse: Mars 1:6:7 → Sun φ (M3 RA Altair–Arcturus); jockey: Sun 2:3:5 → Neptune 3:4:7 (M3 Dec Alkaid–Arcturus) | level: O'Farrell, Oot Ma Way, Hamilton, Fiamette (0) |
+| Catterick | 88 s | jockey | 0 | Gonggong 3:4:7 → Pluto 2:5:7 0.001% (M2 L4 RA Mercury–Rahu) | level: Costello, Tea Garden (0) |
+| Ffos Las | 237 s | **horse — alone** | 0 | Ceres 3:8:11 → Rahu 1:5:6 0.000% (M2 L3 RA Jupiter–Algol) | next: Sheppard 1.0 min, the winning jockey 1.1 min (Sun 1:3:4 → Sedna) |
+| Newcastle | 59 s | **jockey — alone** | 0.8 min | Jupiter 1:5:6 → Haumea 5:8:13 (M3 Dec Betelgeuse–Deneb Algedi) | next: Cam Hardie 1.8 min |
+| Carlisle | 236 s | jockey | 3.2 min | Saturn φ → Ceres √2 (M2 L3 Dec Pallas–Regulus) | **ahead: O'Farrell (2nd, fav) 0 — Vesta 2:3:5 → Chiron 3:4:7; Gold Des Bois 1.1; Coltherd (4th) 1.6** |
+| Wincanton | 296 s | **both** | 0 | jockey: Sun 1:6:7 → Makemake 4:5:9 0.001% (M3 RA Antares–Fomalhaut); horse: Venus φ → Neptune φ 0.007% (M2 L2 Dec Pluto–Procyon) | level: Guernesey, O'Brien (2nd), Ballyblack, Dingle (3rd, fav), Cobden, Electric Annie, Powell (0) |
+| Exeter | 291 s | **both** | 0 | horse: Mercury 5:8:13 → Eris 5:8:13 0.007% UNISON (M3 Dec Algol–Pleiades, 1 s after the off); jockey: Mars 1:8:9 → Jupiter 1:1:2 0.002% (M2 L2 Dec Orcus–Spica, 15:20:40) | level: Pens Man (4th, fav), Blaze A Trail, Pointed And Sharp (PU) |
+Charts struck in the race this way: Doncaster 8 of 10, Catterick 3 of 10, Ffos Las 1 of 8, Newcastle 0 of 10, Carlisle 1 of 10, Wincanton 11 of 12,
+Exeter 5 of 12. Pairs with BOTH charts struck in the race: Doncaster — the winning pair, Oot Ma Way / O'Farrell (2nd), Suntory Star / Mulqueen (5th);
+Wincanton — five of six pairs (all but Birds Of Prey / Cobden, 4th); **Exeter — the winning pair only**.
+Seen: a winning chart is first or level first in six of seven races (not Carlisle, where the beaten favourite's pair is nearest). Where few charts
+are struck (Ffos Las, Newcastle, Catterick, Exeter) the winning side stands alone or nearly; where almost everyone is struck (Doncaster, Wincanton)
+"struck in the race" does not separate, and what differs is the body and the chord (Doncaster: Mars and the Sun).
+
+**The bodies and chords on the winning side, seven races** (strikes in or within ~1 minute of the race, tight natal, the chart tightest):
+- Sky bodies: the Sun ×3 (Doncaster jockey, Ffos Las jockey +63 s, Wincanton jockey), Mercury ×2 (Catterick jockey −48 s, Exeter horse),
+  Mars ×2 (Doncaster horse, Exeter jockey), Jupiter (Newcastle jockey), Ceres (Ffos Las horse), Gonggong (Catterick jockey), Venus (Wincanton horse).
+- Natal bodies: Neptune ×3 (Noonan, Mason, River Bray), Sun (Olympe De Gouges), Sedna, Haumea, Makemake, Eris, Jupiter, Pluto, Rahu.
+- Sky chords: 1:6:7 ×2 (Mars Doncaster, Sun Wincanton), 2:3:5, 1:5:6, 1:3:4, 4:5:9, 3:4:7, 3:8:11, 5:8:13, 1:8:9, φ.
+- **Mars and the Sun on the winning pair in the race:** Doncaster (Mars on the horse, the Sun on the jockey), Wincanton (the Sun on the jockey),
+  Exeter (Mars on the jockey). Mars or the Sun reaches a winning chart in the race in three of seven, and within ~1 minute in two more
+  (Ffos Las Sun +63 s, Newcastle — Jupiter, no).
+
+**Method 2 on its own (tight natal ≤0.02%, the chart tightest, in the race):** winning horse at Ffos Las, Wincanton, Exeter; winning jockey at
+Catterick and Exeter. Beaten charts too: Doncaster O'Farrell, Hamilton, Suntory Star; Carlisle O'Farrell; Wincanton six charts; Exeter two PU.
+
+**Same jockeys in two races:** Conor O'Farrell 2nd on the favourite in both Doncaster and Carlisle — at Carlisle nearest of all (Vesta 2:3:5 →
+Chiron 3:4:7 in the race, M2 L3 Dec Saturn–Equator). Connor Beasley 4th Catterick / 1st Newcastle. Tom O'Brien 2nd Wincanton / PU Exeter.
 
 ## Same jockey, two races
 Connor Beasley: 4th at Catterick (Tea Garden), 1st at Newcastle (Venturous). At Catterick his nearest strong strike is Venus 1:5:6 → Orcus 1:3:4
