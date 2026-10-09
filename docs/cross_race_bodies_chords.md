@@ -107,6 +107,29 @@ Fiamette (4) 3; Newcastle — Cam Hardie (2) 2. The count does not follow the re
 Still to look at in the slow layer: tuned bases of slow bodies (Method 2 L3/L4), same-body slow holds, pair same-body holds, natal bodies out of
 bounds or stationary, and how many days each hold is from exact (the slowest backgrounds).
 
+## G. Applying or separating, and the joint horse–jockey–transit holds (added 9 Oct)
+Full lists, every runner, every body and chord held within 0.02% at both the off and the finish (star strings, same-body and pair same-body chords),
+marked A applying / S separating / X exact in the race, with the time to exact: `rr/<race>/compare/held-through-the-race.md` (project:
+`claude/<race>-held.md`). Each ends with the joint section: for each pair, the transit bodies that hold both charts, ★ when on the same string.
+
+**Natal Mars, applying or separating** (section F's holds):
+- Applying: Olympe De Gouges (1) ← Pluto 2:3:5, exact 13 h after the race; Jim Crowley (3, fav) ← Quaoar 1:1:2, exact ~10 h after.
+- Separating: Adam Wedge (1) ← Eris 3:5:8 (exact 2 h before the off); You Say Nothing (2, fav) ← Ketu 2:3:5 (3½ h before); Mondammej (2) ← Ketu
+  1:4:5 (22 min before the off, in the window).
+
+**Joint — one transit body, one string, both charts of a pair** (★ with a strong string or the same natal body on both sides):
+- **Both natal SUNS on one string under one transit:** Ring The Moon / Adam Wedge (1st) — **Vesta 5:6:11, Dec Altair–Castor, APPLYING** (exact
+  17:57, 28 min after the finish): horse Sun 2:5:7, jockey Sun 3:8:11 0.020% STRONG. The only other pair with it is King Of Stars / Watson (5th) —
+  Uranus 3:5:8, RA Bellatrix–Deneb Algedi, **SEPARATING** (exact 11:53, before the race), neither strong.
+- **The transit holds the horse's same natal body and the jockey's strong body, applying:** Olympe De Gouges / Noonan (1st) — **Haumea 4:5:9,
+  Dec Betelgeuse–Regulus** (exact 15:22): horse Haumea 1:1:2 #2 (same body), jockey Juno φ 0.014% STRONG #1. Also Mondammej / Hardie (2nd) —
+  Transpluto 3:5:8, RA Aldebaran–Sirius (exact 16:54): horse Transpluto (same body) #9, jockey Neptune 1:4:5 0.014% STRONG #1.
+- Catterick's winning pair: its joint holds are separating (Rahu 3:8:11 on Algorab–Fomalhaut — horse Neptune 4:5:9 0.001% #1, jockey Makemake
+  STRONG; Rahu 2:5:7 on Betelgeuse–Capella — horse Ketu 3:4:7 0.001% #1; Mercury 4:5:9, the jockey's Neptune, 48 s before the off).
+- Newcastle's winning pair: five shared strings (Juno, the Moon, Neptune, Transpluto ×2), four applying, none with a strong string or the same
+  natal body.
+- Every pair has shared strings (4–12); the number does not follow the result.
+
 ## Same jockey, two races
 Connor Beasley: 4th at Catterick (Tea Garden), 1st at Newcastle (Venturous). At Catterick his nearest strong strike is Venus 1:5:6 → Orcus 1:3:4
 (+1:32, #1 of 7); at Newcastle Jupiter 1:5:6 → Haumea 5:8:13 (+0:51, #1 of 3).
