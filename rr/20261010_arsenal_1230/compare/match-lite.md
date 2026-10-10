@@ -141,3 +141,25 @@ Lite build: sky every minute, same-body stage scanned every 5 min then refined t
 | Harry Wilson (player) | Daniel Farke | 4 (2) | 0 | 0 | 13 |
 | Dominic Calvert-Lewin (player) | Daniel Farke | 4 (3) | 1 | 0 | 24 |
 | Wilfried Gnonto (player) | Daniel Farke | 6 (0) | 1 | 0 | 22 |
+
+## 6. Patterns (tight receivers, non-Moon)
+
+**A natal body struck in sequence on one string (two or more sky bodies):**
+- William Saliba (Mikel Arteta's side): natal Haumea on RA Gonggong–Quaoar struck by Sun 12:32:41 → Pallas 13:19:15
+- Wilfried Gnonto (Daniel Farke's side): natal Transpluto on Dec Mercury–Fomalhaut struck by Chiron 12:39:28 → Orcus 12:45:56
+- Brenden Aaronson (Daniel Farke's side): natal Mars on Dec Sun–Algorab struck by Neptune 12:42:57 → Saturn 12:51:14
+- Joe Rodon (Daniel Farke's side): natal Haumea on Dec Antares–Betelgeuse struck by Sun 12:43:19 → Mercury 12:44:01
+- Brenden Aaronson (Daniel Farke's side): natal Makemake on Dec Ketu–Equator struck by Mercury 12:50:29 → Uranus 13:01:24
+- Declan Rice (Mikel Arteta's side): natal Juno on Dec Mercury–Equator struck by Rahu 12:50:29 → Ketu 12:50:29 → Gonggong 13:01:54
+- Lucas Perri (Daniel Farke's side): natal Juno on Dec Mercury–Rahu struck by Ketu 12:50:29 → Juno 12:59:13
+- James Justin (Daniel Farke's side): natal Juno on RA Bellatrix–Spica struck by Mercury 12:52:01 → Orcus 13:53:25
+- Bukayo Saka (Mikel Arteta's side): natal Transpluto on Dec Orcus–Alkaid struck by Sun 12:58:09 → Vesta 14:08:30
+- David Raya (Mikel Arteta's side): natal Ceres on Dec Deneb Algedi–Rigel struck by Sun 12:59:46 → Mercury 14:24:25
+- Daniel Farke (Daniel Farke's side): natal Uranus on Dec Bellatrix–Vega struck by Mercury 13:06:52 → Sun 13:44:00
+
+**One triangle holding two of a chart's own bodies, each by its own sky body (double same-body), at the same moment:**
+- 12:42:58 Jurrien Timber (Mikel Arteta's side): Pallas 5:8:13 on Dec Mars–Bellatrix → Pallas 3:5:8 0.000% #1; Mars 5:8:13 on Dec Pallas–Bellatrix → Mars 3:5:8 0.000% #1
+- 12:59:13 Lucas Perri (Daniel Farke's side): Mercury φ: 2/φ/φ³/φ³+1 on Dec Juno–Rahu → Mercury 2:5:7 0.003% #1; Juno φ: 2/φ/φ³/φ³+1 on Dec Mercury–Rahu → Juno 2:5:7 0.003% #1
+
+**Rahu and Ketu together on one natal body:**
+- 12:50:29 Declan Rice (Mikel Arteta's side): Rahu and Ketu → natal Juno (Rahu 1:2:3 on Dec Mercury–Equator → Juno 5:6:11 0.008% #1)

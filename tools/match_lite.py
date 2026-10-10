@@ -110,6 +110,27 @@ def run(R):
     for tb in sorted(NAME):
         x = ev[(ev.tab == tb) & ev.tight & ev.top]; y = x[~x.moon]
         out.append(f"| {NAME[tb]} ({ROLE[tb]}) | {NAME[side[tb]]} | {len(y)} ({y.vt.sum()}) | {(y.natal == 'Sun').sum()} | {(y.natal == 'Mars').sum()} | {x.moon.sum()} |")
+    # 6. patterns (as read in the races): a natal body struck in sequence on one string; one triangle holding two of a chart's own bodies;
+    #    Rahu and Ketu together on one natal body
+    out.append("\n## 6. Patterns (tight receivers, non-Moon)\n")
+    rc_ = nm[nm.tight & nm.top].copy()
+    rc_['string'] = rc_.d.str.extract(r' on (\S+ [^→]+?) → ')[0]
+    seq = []
+    for (tb, nb, st), g in rc_.groupby(['tab', 'natal', 'string']):
+        if g.sky.nunique() >= 2:
+            g = g.sort_values('tm'); seq.append((g.tm.min(), f"{NAME[tb]} ({NAME[side[tb]]}'s side): natal {nb} on {st} struck by " + ' → '.join(f"{r.sky} {hms(r.tm)}" for r in g.itertuples())))
+    out.append("**A natal body struck in sequence on one string (two or more sky bodies):**")
+    out += [f"- {x}" for _, x in sorted(seq)] or ['- none']
+    dbl = []
+    for (tb, tm_), g in rc_[rc_.sky == rc_.natal].groupby(['tab', rc_.tm.round(2)]):
+        if g.natal.nunique() >= 2: dbl.append(f"{hms(tm_)} {NAME[tb]} ({NAME[side[tb]]}'s side): " + '; '.join(g.d))
+    out.append("\n**One triangle holding two of a chart's own bodies, each by its own sky body (double same-body), at the same moment:**")
+    out += [f"- {x}" for x in sorted(dbl)] or ['- none']
+    nod = []
+    for (tb, nb, tm_), g in rc_[rc_.sky.isin(['Rahu', 'Ketu'])].groupby(['tab', 'natal', rc_.tm.round(2)]):
+        if set(g.sky) == {'Rahu', 'Ketu'}: nod.append(f"{hms(tm_)} {NAME[tb]} ({NAME[side[tb]]}'s side): Rahu and Ketu → natal {nb} ({g.d.iloc[0]})")
+    out.append("\n**Rahu and Ketu together on one natal body:**")
+    out += [f"- {x}" for x in sorted(nod)] or ['- none']
     txt = '\n'.join(out) + '\n'
     open(P + 'match-lite.md', 'w', encoding='utf-8').write(txt)
     return txt, sm, ev
