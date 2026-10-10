@@ -1,12 +1,22 @@
 #!/usr/bin/env python3
 """
-racingpost_card_scraper.py  v2.0
+racingpost_card_scraper.py  v2.1
 --------------------------------
 Scrapes UK race cards from Racing Post into the race_batch CSV format shared
 with racingpost_results_scraper.py (see racing_common.py).
 
 Output: one CSV per race, e.g.
   racecards/20260929_uk_all/race_batch_20260929_ayr_1438.csv
+
+v2.1 (10/10/2026): also writes race_info.csv in the day's folder - one row per race
+written: race, course, off, race_name, race_type (flat / aw_flat / hurdle / chase /
+nh_flat), surface, race_class, age_band, rating_band, distance, distance_f, going,
+runners_declared, runners_running, expected_dur_s. Read from the racecard index
+page data (meetings.byDate.<date>.races.byRaceId, and raceCards.meetings), with the
+race page's own race block as a fallback. expected_dur_s = distance_f x seconds
+per furlong (flat / aw_flat 12.5, hurdle 15, nh_flat 15, chase 15.5) - an estimate
+for pre-race builds. The race_batch CSVs are unchanged. New option --index-html:
+write race_info.csv from a saved racecard index page alone (offline).
 
 Rules (plan items CARD-1, CARD-2, CARD-3, CARD-5, CARD-6, D4):
   - Same CSV columns as the results scraper. finish_pos / sp / is_fav stay
@@ -28,9 +38,12 @@ Usage:
   python racingpost_card_scraper.py --lookup jockeys_lookup.csv --date 2026-09-30
   # Offline check of a saved racecard page (no browser, no profile pages)
   python racingpost_card_scraper.py --lookup jockeys_lookup.csv --html "Ayr 14.38.html"
+  # Offline race_info.csv from a saved racecard index page (no runners, no browser)
+  python racingpost_card_scraper.py --lookup jockeys_lookup.csv --index-html "Racecards.html" --max-runners 8
 """
 
 import argparse
+import csv
 import re
 import sys
 import time
@@ -40,7 +53,7 @@ from typing import Dict, List, Optional, Tuple
 
 import racing_common as rc
 
-SCRIPT_VERSION = "2.0"
+SCRIPT_VERSION = "2.1"
 
 _TIME_KEYS = ("localRaceDatetime", "raceDatetime", "raceDateTime", "startDateTime",
               "localStartDateTime")
@@ -220,6 +233,142 @@ def read_card_from_page(page) -> Dict:
 
 
 # ---------------------------------------------------------------------------
+# Race information (v2.1): distance, type, class, going -> race_info.csv
+# ---------------------------------------------------------------------------
+
+RACE_INFO_FIELDS = ["race", "course", "off", "race_name", "race_type", "surface",
+                    "race_class", "age_band", "rating_band", "distance", "distance_f",
+                    "going", "runners_declared", "runners_running", "expected_dur_s"]
+SECONDS_PER_FURLONG = {"flat": 12.5, "aw_flat": 12.5, "hurdle": 15.0, "nh_flat": 15.0,
+                       "chase": 15.5}
+RACE_INFO: Dict[str, Dict] = {}          # race id -> Racing Post race record
+INFO_ROWS: List[Dict] = []               # race_info.csv rows for the races written this run
+
+
+def _race_id(url: str) -> str:
+    return (url or "").strip("/").split("/")[-1]
+
+
+def collect_race_info(state: Dict, target_date: date) -> int:
+    """Store every race record found in a page's data under its race id.
+    Index page: initialState.meetings.byDate.<date>.races.byRaceId (confirmed on
+    the saved 10/10/2026 index) and raceCards.meetings[].races[]. Race page:
+    racePage.data.race. Fields already stored are not overwritten by blanks."""
+    found = 0
+    def add(rid, rec):
+        nonlocal found
+        if not rid or not isinstance(rec, dict):
+            return
+        cur = RACE_INFO.setdefault(str(rid), {})
+        for k, v in rec.items():
+            if v not in (None, "") and cur.get(k) in (None, ""):
+                cur[k] = v
+        found += 1
+    day = (((state.get("meetings") or {}).get("byDate") or {}).get(target_date.isoformat())) or {}
+    for rid, rec in (((day.get("races") or {}).get("byRaceId")) or {}).items():
+        add(rid, rec)
+    for meeting in ((state.get("raceCards") or {}).get("meetings") or []):
+        for rec in (meeting.get("races") or []):
+            if isinstance(rec, dict):
+                add(rec.get("raceId") or _race_id(rec.get("raceUrl", "")), rec)
+    race = (((state.get("racePage") or {}).get("data")) or {}).get("race")
+    if isinstance(race, dict):
+        add(race.get("raceId") or race.get("raceInstanceUid") or _race_id(race.get("raceUrl", "")), race)
+    return found
+
+
+def distance_furlongs(text: str) -> Optional[float]:
+    """'2m7½f' -> 23.5, '1m' -> 8, '7f' -> 7, '2m½f' -> 16.5, '2m4f15y' -> 20.07"""
+    s = (text or "").replace("½", ".5").replace(" ", "").lower()
+    m = re.fullmatch(r"(?:(\d+)m)?(?:(\d*\.?\d+)f)?(?:(\d+)y(?:ds)?)?", s)
+    if not s or not m or not any(m.groups()):
+        return None
+    miles, furl, yards = m.groups()
+    return round(int(miles or 0) * 8 + float(furl or 0) + int(yards or 0) / 220.0, 2)
+
+
+def race_type_of(rec: Dict) -> str:
+    t = str(rec.get("raceType") or "").strip().lower()
+    surface = str(rec.get("surfaceType") or "").strip().lower()
+    if t == "flat":
+        return "flat" if surface in ("", "turf") else "aw_flat"
+    if t in ("nh flat", "nhflat", "national hunt flat", "bumper"):
+        return "nh_flat"
+    return t.replace(" ", "_")
+
+
+def race_info_row(rec: Dict, race_ref: str, venue: str, race_time: str,
+                  running: Optional[int]) -> Dict:
+    rtype = race_type_of(rec)
+    dist = str(rec.get("displayDistance") or rec.get("distance") or "")
+    df = distance_furlongs(dist)
+    spf = SECONDS_PER_FURLONG.get(rtype)
+    if df is None:
+        print(f"  [WARN] {race_ref}: unreadable distance {dist!r} - no expected duration")
+    if spf is None:
+        print(f"  [WARN] {race_ref}: race type {rtype!r} has no seconds-per-furlong - no expected duration")
+    return {"race": race_ref.replace("race_batch_", ""), "course": venue, "off": f"{race_time}:00",
+            "race_name": rec.get("raceTitle", ""), "race_type": rtype,
+            "surface": rec.get("surfaceType", ""), "race_class": rec.get("raceClass", ""),
+            "age_band": rec.get("ageRestriction", ""), "rating_band": rec.get("ratingBand") or "",
+            "distance": dist, "distance_f": "" if df is None else df,
+            "going": rec.get("going", ""), "runners_declared": rec.get("numberOfRunners", ""),
+            "runners_running": "" if running is None else running,
+            "expected_dur_s": "" if (df is None or spf is None) else round(df * spf, 1)}
+
+
+def write_race_info(folder: Path, rows: List[Dict]) -> Optional[Path]:
+    """Merge rows into <folder>/race_info.csv (one row per race, sorted by race)."""
+    if not rows:
+        return None
+    path = folder / "race_info.csv"
+    keep: Dict[str, Dict] = {}
+    if path.exists():
+        with open(path, newline="", encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                keep[r["race"]] = r
+    for r in rows:
+        keep[r["race"]] = r
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=RACE_INFO_FIELDS)
+        w.writeheader()
+        for k in sorted(keep):
+            w.writerow({c: keep[k].get(c, "") for c in RACE_INFO_FIELDS})
+    print(f"[INFO] race_info.csv: {len(rows)} race(s) written - {path}")
+    return path
+
+
+def race_info_from_index(html: str, target_date: Optional[date], max_runners=None,
+                         min_runners=None) -> Tuple[date, List[Dict]]:
+    """Offline (--index-html): every UK race on a saved racecard index page."""
+    state = rc.initial_state(rc.get_next_data(html))
+    by_date = ((state.get("meetings") or {}).get("byDate") or {})
+    if target_date is None:
+        if len(by_date) != 1:
+            raise rc.ScrapeError(f"Saved index holds dates {sorted(by_date)} - give --date")
+        target_date = datetime.strptime(next(iter(by_date)), "%Y-%m-%d").date()
+    if not collect_race_info(state, target_date):
+        raise rc.ScrapeError(f"No race records for {target_date} in the saved index page")
+    rows = []
+    for rid, rec in RACE_INFO.items():
+        if not rec.get("raceUrl"):
+            continue
+        m = re.search(r"/racecards/\d+/([a-z\-]+)/", rec["raceUrl"])
+        venue = rc.venue_name(m.group(1) if m else rec.get("venueName", ""))
+        if not rc.is_uk(rec.get("countryCode"), venue):
+            continue
+        n = rec.get("numberOfRunners")
+        if max_runners and isinstance(n, int) and n > max_runners:
+            continue
+        if min_runners and isinstance(n, int) and n < min_runners:
+            continue
+        day, t = rc.race_time_from_iso(str(rec.get("startDateTime") or f"{target_date} {rec.get('startTime')}"))
+        ref = rc.race_filename(day, venue, t)[:-4]
+        rows.append(race_info_row(rec, ref, venue, t, None))
+    return target_date, rows
+
+
+# ---------------------------------------------------------------------------
 # One race
 # ---------------------------------------------------------------------------
 
@@ -278,6 +427,11 @@ def process_race(race: Dict, target_date: date, index_venue: str,
     nr = len(race["runners"]) - len(running)
     print(f"  {venue} {race['race_time']}  {len(running)} runners" + (f", {nr} NR" if nr else ""))
     print(f"  → Saved: {fname}")
+    rec = RACE_INFO.get(race.get("race_id") or "")
+    if rec:
+        INFO_ROWS.append(race_info_row(rec, race_ref, venue, race["race_time"], len(running)))
+    else:
+        print(f"  [WARN] No race information (distance/type) found for {race_ref} - not in race_info.csv")
     return path
 
 
@@ -297,6 +451,7 @@ def discover_race_urls(page, target_date: date, course_filter: Optional[str],
         url_venue = rc.venue_name(m.group(1)) if m else ""
         page.goto(direct_url, wait_until="networkidle", timeout=40000)
         time.sleep(4)
+        collect_race_info(rc.initial_state(rc.get_next_data(page.content())), target_date)
         for link in page.locator("a").all():
             href = link.get_attribute("href") or ""
             m2 = pattern.match(href)
@@ -310,6 +465,8 @@ def discover_race_urls(page, target_date: date, course_filter: Optional[str],
     page.goto(index_url, wait_until="networkidle", timeout=40000)
     time.sleep(4)
     state = rc.initial_state(rc.get_next_data(page.content()))
+    n_info = collect_race_info(state, target_date)
+    print(f"[INFO] Race information found for {n_info} race(s)")
     for meeting in (state.get("raceCards") or {}).get("meetings", []) or []:
         venue = rc.venue_name(meeting.get("courseKey", ""))
         if not rc.is_uk(meeting.get("countryCode"), venue):
@@ -319,6 +476,15 @@ def discover_race_urls(page, target_date: date, course_filter: Optional[str],
             url = race.get("raceUrl", "")
             rid = url.strip("/").split("/")[-1] if url else ""
             if url and rid not in seen:
+                seen.add(rid)
+                races.append((venue, f"https://www.racingpost.com{url}"))
+    if not races:
+        # v2.1: the index data may hold the day's races under meetings.byDate only
+        for rid, rec in sorted(RACE_INFO.items()):
+            url = rec.get("raceUrl", "")
+            m = re.search(r"/racecards/\d+/([a-z\-]+)/", url)
+            venue = rc.venue_name(m.group(1) if m else rec.get("venueName", ""))
+            if url and rid not in seen and rc.is_uk(rec.get("countryCode"), venue):
                 seen.add(rid)
                 races.append((venue, f"https://www.racingpost.com{url}"))
     if not races:
@@ -344,6 +510,8 @@ def parse_args():
     p.add_argument("--outdir", default=".")
     p.add_argument("--url", default=None, help="Direct meeting URL")
     p.add_argument("--html", default=None, help="Saved racecard page (.html) - offline, no profiles")
+    p.add_argument("--index-html", default=None,
+                   help="Saved racecard INDEX page (.html) - offline, writes race_info.csv only")
     p.add_argument("--min-runners", type=int, default=None, help="Declared runners, NRs excluded")
     p.add_argument("--max-runners", type=int, default=None, help="Declared runners, NRs excluded")
     p.add_argument("--uk-only", action="store_true",
@@ -363,10 +531,29 @@ def main() -> int:
     failures: List[Tuple[str, str]] = []
     written: List[Path] = []
 
+    if args.index_html:
+        html = Path(args.index_html).read_text(encoding="utf-8", errors="replace")
+        try:
+            d, rows = race_info_from_index(html, target_date if args.date else None,
+                                           args.max_runners, args.min_runners)
+            folder = Path(args.outdir) / "racecards" / f"{d.strftime('%Y%m%d')}_{suffix}"
+            folder.mkdir(parents=True, exist_ok=True)
+            INFO_ROWS.extend(rows)
+            write_race_info(folder, INFO_ROWS)
+            return 0
+        except rc.ScrapeError as e:
+            print(f"[ERROR] {e}")
+            return 1
     if args.html:
         html = Path(args.html).read_text(encoding="utf-8", errors="replace")
         try:
             race = parse_card_html(html)
+            st_ = rc.initial_state(rc.get_next_data(html))
+            rp_race = (((st_.get("racePage") or {}).get("data")) or {}).get("race") or {}
+            if race is not None and rp_race:
+                rid = str(rp_race.get("raceId") or rp_race.get("raceInstanceUid") or "html")
+                RACE_INFO[rid] = rp_race
+                race["race_id"] = rid
             if race is None:
                 raise rc.ScrapeError("No runner list in the saved page's data - send this "
                                      "page so the reader can be matched to it")
@@ -405,7 +592,10 @@ def main() -> int:
                 try:
                     page.goto(url, wait_until="domcontentloaded", timeout=30000)
                     time.sleep(3)
-                    race = parse_card_html(page.content()) or read_card_from_page(page)
+                    html = page.content()
+                    collect_race_info(rc.initial_state(rc.get_next_data(html)), target_date)
+                    race = parse_card_html(html) or read_card_from_page(page)
+                    race["race_id"] = _race_id(url)
                     p = process_race(race, target_date, venue, lookup, folder, page,
                                      args.min_runners, args.max_runners)
                     if p:
@@ -420,6 +610,7 @@ def main() -> int:
             browser.close()
 
     lookup.write_report(folder)
+    write_race_info(folder, INFO_ROWS)
     print(f"\n[RESULT] {len(written)} race file(s) written to {folder}")
     if failures:
         print(f"[RESULT] {len(failures)} race(s) FAILED:")
