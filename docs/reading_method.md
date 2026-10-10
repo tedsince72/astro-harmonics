@@ -14,6 +14,11 @@ Principles carried in from the project: say what you see; one race at a time; on
 - `tools/reading_pack.py RACE` → `rr/<RACE>/compare/reading-pack.md` (all layers, focus bodies, joint, triangle corners, numbers, timeline).
 - `tools/layer_view.py RACE KIND [LAYER]` prints one layer for every runner (the view used layer by layer):
   `M3` · `M2 Nodes` · `M2 L2` · `M2 L3` · `M2 L4`.
+- **Pre-race builds (10 Oct):** `git pull --rebase` first. The scraper (v2.1) writes `race_info.csv` (distance, type, runners); `races.csv`
+  takes the scheduled off and an expected duration (flat/AW 12.5 s per furlong, hurdle / NH flat 15, chase 15.5). The minute-by-minute sky
+  file (`data/sky/<RACE>__SKYM.csv`) must exist: run `ledger/sky_minutes.py` on a scratch folder holding ONLY that day's races (it reads every
+  `*__TRANS_POS.csv` in `--pos`, and neighbouring races change the slow-body rates). Then `tools/prerace_score.py RACE` gives the rough
+  scores (see `docs/prerace/20261010_scores.md`).
 
 ## 1. What counts as "live at the race"
 - **X** = the sky chord comes exact between the off and the finish.
