@@ -109,6 +109,10 @@ before it is called different.
   time inside the window counts as in the race (before, only Method 3 Moon items showed; Hexham 15:05 Imperial Merlin's Sun 0.005% ★ was
   table-only). (2) Every natal→sky number is printed with its ±0.002 hold window (an "exact 17:28:30" can be held into the race). (3) Same-body
   chords held at both ends or exact within 5 min of the window are listed in sections 2 and 5. Joins (3b) and the timeline are unchanged.
+- **Football lite (10 Oct)**: a match = a race from kick-off to KO+120; a pair = a player with his own manager (roles manager / player, side
+  1 home / 2 away). Setup `tools/setup_football.py` (cloud) or `rebuild_kit/charts_football.py` (Mac); same stages; `SB2STEP=5` for the
+  same-body stage; `tools/match_lite.py` lays the match out by time (the race scorer saturates over two hours). Index: `docs/football/20261010_gw06_lite.md`.
+  M2 items exact over 60 min from the off are written in hours ("exact 1.2 h after the off (10 Oct 13:42:00)") - race_table and the pack now read them.
 
 ## 7. Writing it down
 After each race: its section in `docs/cross_race_bodies_chords.md` (section I), layer by layer, then the timeline, then a short "in short";
