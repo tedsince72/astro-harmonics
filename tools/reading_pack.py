@@ -31,7 +31,12 @@ def hms(m):
 order = t[['tab', 'runner', 'role', 'finish', 'sp', 'fav']].drop_duplicates().copy()
 order['f'] = pd.to_numeric(order.finish, errors='coerce'); order = order.sort_values(['f', 'tab'])
 NAME = dict(zip(order.tab, order.runner)); FINP = dict(zip(order.tab, order.finish)); ROLE = dict(zip(order.tab, order.role))
+TEAM = any(r in ('manager', 'player') for r in ROLE.values())   # football (10 Oct): a pair = a player with his own manager (H = player, J = manager)
+_MGRS = sorted(tb for tb, r in ROLE.items() if r == 'manager')
+def side_mgr(tab):
+    m_ = [g for g in _MGRS if int(g[1:]) <= int(tab[1:])]; return m_[-1] if m_ else None
 def partner(tab):
+    if TEAM: return side_mgr(tab) if ROLE.get(tab) == 'player' else None
     n = int(tab[1:]); j = 'P%02d' % (n + 1 if ROLE.get(tab) == 'horse' else n - 1)
     return j if j in NAME else None
 def who(tab): return f"{NAME[tab]} ({FINP[tab]})"
@@ -86,6 +91,9 @@ def item(r, with_lay=False):
 L = []; P = L.append
 fin_s = hms(FIN)
 P(f"# Reading pack — {R}\n")
+if TEAM: P("FOOTBALL: each 'pair' below is a player with his own manager — H = the player, J = the manager. The off = kick-off, the finish = "
+           "kick-off + the duration in reference/races.csv (whole match incl. half-time and added time). Sides: " +
+           ' · '.join(f"{NAME[g]} ({g}) and players" for g in _MGRS) + ".\n")
 P("Result: " + ' · '.join(f"{o.finish} {o.runner} ({o.role}{', ' + o.sp if isinstance(o.sp, str) else ''}{', fav' if o.fav == 'fav' else ''})" for _, o in order.iterrows()) + "\n")
 P(f"Off {off}, finish {fin_s} ({dur:.0f} s). Live at the race = struck in the race (X) or held within 0.02% at both the off and the finish, applying "
   "(A, exact after the finish) or separating (S, exact before the off); +/− time to exact from the finish / the off. Natal dev = Method 1 string (M3, "
@@ -160,7 +168,7 @@ for body in ['Sun', 'Mars', 'Neptune', 'Uranus']:
 
 # 3. joint
 P("\n# 3. Joint — horse, jockey and the same transit\n")
-for _, o in order[order.role == 'horse'].iterrows():
+for _, o in order[order.role.isin(['horse', 'player'])].iterrows():
     j = partner(o.tab)
     if not j: continue
     a = v[v.tab == o.tab]; b = v[v.tab == j]
@@ -188,7 +196,7 @@ def _tri(r):
 vj = v[v.sky_body != 'Moon'].copy(); vj['tri3'] = vj.apply(_tri, axis=1)
 _BODYSET = set(t.sky_body.dropna()) | set(t.natal_body.dropna())
 field_rows = []
-for _, o in order[order.role == 'horse'].iterrows():
+for _, o in order[order.role.isin(['horse', 'player'])].iterrows():
     j = partner(o.tab)
     if not j: continue
     a = vj[vj.tab == o.tab]; b = vj[vj.tab == j]
@@ -255,7 +263,9 @@ P("Every non-Moon M3 / M2 event at ANY natal tightness, same body, natal→sky n
   "M2 at a natal chord ≤0.03%). Loose = M3 natal string >0.05% or M2 natal chord >0.03%, marked (loose) — still listed. ◆ = BEAT: the other chart "
   "of the pair has an event within 10 s; the beats list says whether each side has a tight event.\n")
 def m2clock(z):
-    m_ = re.search(r'min (?:after|before) the off \((\d+:\d+:\d+)\)', str(z)); return clock(m_[1]) if m_ else None
+    m_ = (re.search(r'min (?:after|before) the off \((\d+:\d+:\d+)\)', str(z))
+          or re.search(r'h (?:after|before) the off \(\d+ \w+ (\d+:\d+:\d+)\)', str(z)))   # 10 Oct: over 60 min from the off (football windows)
+    return clock(m_[1]) if m_ else None
 ev = []
 for _, r in t.iterrows():
     if r.sky_body == 'Moon' or 'Moon' in str(r.base) or 'Moon' in str(r.note): continue
@@ -273,7 +283,7 @@ for _, r in t.iterrows():
     ev.append(dict(tab=r.tab, tm=tm, kind=r.kind + (' ' + r.layer if r.kind == 'M2' else ''), d=d + ('' if tight else ' (loose)'), tight=bool(tight)))
 ev = pd.DataFrame(ev).drop_duplicates(['tab', 'tm', 'kind', 'd']) if ev else pd.DataFrame(columns=['tab', 'tm', 'kind', 'd', 'tight'])
 beats_all = []
-for _, o in order[order.role == 'horse'].iterrows():
+for _, o in order[order.role.isin(['horse', 'player'])].iterrows():
     j = partner(o.tab)
     if not j: continue
     x = ev[ev.tab.isin([o.tab, j])].sort_values(['tm', 'tab', 'kind', 'd'], kind='mergesort')

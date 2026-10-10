@@ -20,13 +20,18 @@ for r in csv.DictReader(open(GRID)):
 FAST = {'Ascendant', 'Midheaven', 'Vertex', 'Part_of_Fortune', 'Part_of_Spirit'}
 SKYB = [b for b in M if b not in STARS and b not in FAST]
 KS = np.array(sorted(M['Sun']), dtype=float)
-TS = np.unique(np.concatenate([np.arange(t0 - 30, t1 + 30 + 1e-9, 0.25), [t0, t1, t1 + 30]]))
+import os as _os0
+STEP = float(_os0.environ.get('SB2STEP', '0.25'))   # football LITE (10 Oct, Eddie "every 5 mins"): coarse scan every STEP min, then 15 s around the best
+TS = np.unique(np.concatenate([np.arange(t0 - 30, t1 + 30 + 1e-9, STEP), [t0, t1, t1 + 30]]))
 I_A, I_OFF, I_FIN, I_B = 0, int(np.argmin(abs(TS - t0))), int(np.argmin(abs(TS - t1))), int(np.argmin(abs(TS - (t1 + 30))))
 def series(b, ts):
     ra = np.degrees(np.unwrap(np.radians([M[b][k][0] for k in KS]))); de = np.array([M[b][k][1] for k in KS])
     return np.interp(ts, KS, ra) % 360, np.interp(ts, KS, de)
 SER = {b: series(b, TS) for b in SKYB}          # the window, every 15 s
 GSER = {b: series(b, KS) for b in SKYB}         # the +-12 h grid, every minute
+LITE = STEP > 0.25
+if LITE:
+    TSF = np.arange(t0 - 30, t1 + 30 + 1e-9, 0.25); FSER = {b: series(b, TSF) for b in SKYB}
 STAR = {b: tuple(float(x) for x in (series(b, np.array([t0]))[0][0], series(b, np.array([t0]))[1][0])) for b in M if b in STARS}
 META = list(csv.reader(open(f"{POSD}/{RACE}__META.csv")))
 tabs = {r[0]: (r[1], r[3]) for r in META if r and r[0].startswith('P') and r[0][1:].isdigit()}
@@ -53,6 +58,17 @@ def evaluate(mk):
         if r is None: continue
         devs[i] = r[1]; ds[i] = r[0]
         if r[1] < best[0]: best = (r[1], i, r[0])
+    if LITE and best[1] is not None and best[0] <= 0.02 and 0 < best[1] < len(TS) - 1:
+        # lite: refine every 15 s within one coarse step either side of the coarse best (one strike per string)
+        lo, hi = np.searchsorted(TSF, TS[best[1]] - STEP), np.searchsorted(TSF, TS[best[1]] + STEP)
+        fb = (9, None, None)
+        for q in range(max(0, lo), min(len(TSF), hi + 1)):
+            r = mk('f', q)
+            if r is not None and r[1] < fb[0]: fb = (r[1], q, r[0])
+        if fb[1] is not None and fb[0] <= 0.0015:
+            return dict(dv=fb[0], t=TSF[fb[1]], d=fb[2], at=[devs[I_A], devs[I_OFF], devs[I_FIN], devs[I_B]], edge=None,
+                        segs=[(fb[0], TSF[fb[1]], fb[2], False)])
+        return None
     if best[1] is None or best[0] > 0.0015: return None
     out = dict(dv=best[0], t=TS[best[1]], d=best[2], at=[devs[I_A], devs[I_OFF], devs[I_FIN], devs[I_B]], edge=None)
     segs = []; i = 0                      # every separate strike in the window (stretches within 0.15%, split by chord type) - for the dump
@@ -94,9 +110,18 @@ def line(o):
     w, d = where(o)
     a, off, fin, b = o['at']
     return (f"{w}  — {movement(o)}\n        at off−30 {fmt(a)} | off {fmt(off)} | finish {fmt(fin)} | finish+30 {fmt(b)}", d)
-def P(b, src, i): return (SER[b][0][i], SER[b][1][i]) if src == 'w' else (GSER[b][0][i], GSER[b][1][i])
+def P(b, src, i):
+    if src == 'w': return (SER[b][0][i], SER[b][1][i])
+    if src == 'f': return (FSER[b][0][i], FSER[b][1][i])
+    return (GSER[b][0][i], GSER[b][1][i])
 horses = [p for p, (role, nm) in tabs.items() if role == 'horse']; jockeys = [p for p, (role, nm) in tabs.items() if role == 'jockey']
 pair = {hh: 'P%02d' % (int(hh[1:]) + 1) for hh in horses}
+if any(role in ('manager', 'player') for role, nm in tabs.values()):     # football (10 Oct): each player with his own manager
+    _side = {r[0]: r[2] for r in csv.reader(open(f"{POSD}/{RACE}__META.csv")) if r and r[0] in tabs}
+    jockeys = [p for p, (role, nm) in tabs.items() if role == 'manager']
+    _mg = {_side[p]: p for p in jockeys}
+    horses = [p for p, (role, nm) in tabs.items() if role == 'player' and _side[p] in _mg]
+    pair = {hh: _mg[_side[hh]] for hh in horses}
 WH, WJ = (sys.argv[4], sys.argv[5]) if len(sys.argv) > 5 else (None, None)
 print('=' * 110); print(f"{RACE}  off {OFF}  finish {hm(t1)}  - SAME-BODY CHORDS v2 (window {hm(TS[0])} to {hm(TS[-1])}; edges followed out to ±12 h)"); print('=' * 110)
 print("\nPART 1 - sky X + horse natal X + jockey natal X (≤0.15% somewhere in the window)")

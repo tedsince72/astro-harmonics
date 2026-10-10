@@ -31,6 +31,11 @@ def score(R):
         m = re.search(r'within ±0\.002 (\d+:\d+:\d+)\s*[–-]\s*(\d+:\d+:\d+)', str(z)); return (mi(m[1]), mi(m[2])) if m else (None, None)
     names = t[['tab', 'runner', 'role']].drop_duplicates(); NAME = dict(zip(names.tab, names.runner)); ROLE = dict(zip(names.tab, names.role))
     horses = [tb for tb in sorted(NAME) if ROLE[tb] == 'horse' and 'NON-RUNNER' not in str(NAME.get('P%02d' % (int(tb[1:]) + 1), ''))]
+    MGRS = sorted(tb for tb in NAME if ROLE[tb] == 'manager')       # football (10 Oct): a pair = a player with his own manager
+    def mate(h):
+        if not MGRS: return 'P%02d' % (int(h[1:]) + 1)
+        m_ = [g for g in MGRS if int(g[1:]) <= int(h[1:])]; return m_[-1] if m_ else None
+    if MGRS: horses = [tb for tb in sorted(NAME) if ROLE[tb] == 'player']
     def tight_events(tab, body):
         """list of (kind, in_race:bool, near:bool)"""
         out = []
@@ -65,11 +70,11 @@ def score(R):
             if live and ((h[0] and h[1] <= 0.02) or (j[0] and j[1] <= 0.02)): tj[pair].append(2 if max(h[1], j[1]) <= 0.02 else 1)
     bl = re.search(r'\*\*Beats, both sides tight[^\n]*?:\*\* ([^\n]*)', L); beats = collections.Counter()
     if bl:
-        for nm, tm in re.findall(r'(?:\?|\d+|[A-Z]+) (.+?) at (\d+:\d+:\d+)', bl.group(1)):
+        for nm, tm in re.findall(r'(?:\?|\d+|[A-Z]+|nan) (.+?) at (\d+:\d+:\d+)', bl.group(1)):
             if O - W <= mi(tm) <= F + W: beats[nm] += 1
     rows = []
     for h in horses:
-        j = 'P%02d' % (int(h[1:]) + 1)
+        j = mate(h)
         if j not in NAME: continue
         ev = {(k, b): tight_events(k, b) for k in (h, j) for b in ('Sun', 'Mars')}
         inr = {k: any(e[1] for e in v) for k, v in ev.items()}; nr = {k: any(e[2] for e in v) for k, v in ev.items()}
@@ -89,13 +94,23 @@ def score(R):
         raw = A + B + C + D
         flags = ''.join(f for f, on in [('Hs', nr[(h, 'Sun')]), ('Hm', nr[(h, 'Mars')]), ('Js', nr[(j, 'Sun')]), ('Jm', nr[(j, 'Mars')])] if on)
         fin_ = t[t.tab == h].finish.iloc[0]
-        rows.append(dict(fin=fin_, pair=f"{NAME[h]} / {NAME[j]}", A=A, B=B, C=C, rec=rec, D=D, score=round(raw * 10 / 8, 1), sunmars=flags))
+        rows.append(dict(fin=fin_, side=NAME[j] if MGRS else '', pair=f"{NAME[h]} / {NAME[j]}", A=A, B=B, C=C, rec=rec, D=D, score=round(raw * 10 / 8, 1), sunmars=flags))
     df = pd.DataFrame(rows).sort_values('score', ascending=False, kind='mergesort').reset_index(drop=True)
     df['flag'] = ''
     a3 = df[df.A == 3]
     if len(a3) == 1 and a3.score.iloc[0] == df.score.max(): df.loc[a3.index[0], 'flag'] = 'STANDOUT'
     elif len(a3) == 1: df.loc[a3.index[0], 'flag'] = 'only Sun-Mars in race'
     return off, df
+def sides(df):
+    """football: the pair scores summed up per side (manager) - background, not a rule"""
+    g = df.groupby('side')
+    return pd.DataFrame(dict(pairs=g.size(), mean=g.score.mean().round(2), total=g.score.sum().round(1), top=g.score.max(),
+                             A3=g.A.apply(lambda a: int((a == 3).sum())), A2plus=g.A.apply(lambda a: int((a >= 2).sum())),
+                             B2=g.B.apply(lambda b: int((b == 2).sum())), rec=g.rec.sum(), beats=g.D.sum())).sort_values('mean', ascending=False)
 if __name__ == '__main__':
     for R in sys.argv[1:]:
-        off, df = score(R); print(f"\n## {R} (off {off})"); print(df.to_string(index=False))
+        off, df = score(R); print(f"\n## {R} (off {off})")
+        if (df.side != '').any():
+            print(sides(df).to_string()); print()
+            df = df.sort_values(['side', 'score'], ascending=[True, False], kind='mergesort')
+        print(df.drop(columns=['fin'] if (df.side != '').any() else []).to_string(index=False))

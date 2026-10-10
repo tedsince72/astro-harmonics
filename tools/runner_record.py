@@ -55,10 +55,15 @@ for d in ('m3', 'm2', 'm1', 'mlist', 'records', 'logs', 'notes'): os.makedirs(f'
 META = list(csv.reader(open(f'{POSD}/{RACE}__META.csv')))
 TABS = {r[0]: dict(role=r[1], cloth=r[2], name=r[3], dob=r[5] if len(r) > 5 else '') for r in META if r and r[0].startswith('P') and r[0][1:].isdigit()}
 PAIR = {}
+TEAM = any(v['role'] in ('manager', 'player') for v in TABS.values())   # football (10 Oct): each player paired with his own manager
 for t in sorted(TABS):
     if TABS[t]['role'] == 'horse':
         j = 'P%02d' % (int(t[1:]) + 1)
         if j in TABS and TABS[j]['role'] == 'jockey' and TABS[j]['cloth'] == TABS[t]['cloth']: PAIR[t] = j; PAIR[j] = t
+if TEAM:
+    _MG = {v['cloth']: t for t, v in TABS.items() if v['role'] == 'manager'}
+    for t, v in TABS.items():
+        if v['role'] == 'player' and v['cloth'] in _MG: PAIR[t] = _MG[v['cloth']]      # the manager has no single partner
 FIN = {}
 for p in (f'{H}/pinpoint_blind_kit/reference/profiles.csv', f'{H}/scored/profiles_test_scored.csv'):
     if os.path.exists(p):
@@ -120,7 +125,7 @@ if stage_on('m1'):
     todo = [(t, b) for t in sorted(TABS) for b in NATAL_ORDER if need(f'{OUT}/m1/{t}_{b}.txt')]
     if todo: print(f"m1: natnums + natchords, {len(todo)} chart bodies ...", file=sys.stderr)
     with ThreadPoolExecutor(A.jobs) as ex: list(ex.map(m1job, todo))
-    for hh in sorted(t for t in PAIR if TABS[t]['role'] == 'horse'):
+    for hh in sorted(t for t in PAIR if TABS[t]['role'] in ('horse', 'player')):
         jj = PAIR[hh]; cf = f'{OUT}/cross_{hh}_{jj}.txt'
         if need(cf): run(['python3', f'{TOOLS}/cross.py', RACE, hh, jj], out=cf)
         run(['python3', f'{LAT_D}/mlist.py', RACE, hh, jj, f'{OUT}/m1', cf, f'{OUT}/mlist'], out=f'{OUT}/logs/mlist_{hh}.txt')
@@ -197,9 +202,10 @@ for t in TABS:
         for c in M1[t][b][1]: NATSTR[t][(c['meas'], frozenset((c['A'], c['B'])))].append((b, c))
 CROSS = {}
 for hh in PAIR:
-    if TABS[hh]['role'] != 'horse': continue
+    if TABS[hh]['role'] not in ('horse', 'player'): continue
     f = f'{OUT}/cross_{hh}_{PAIR[hh]}.txt'
-    CROSS[hh] = CROSS[PAIR[hh]] = [ln.rstrip() for ln in open(f)] if os.path.exists(f) else []
+    CROSS[hh] = [ln.rstrip() for ln in open(f)] if os.path.exists(f) else []
+    if not TEAM: CROSS[PAIR[hh]] = CROSS[hh]
 # Method 2
 M2 = []
 for l in LAYERS:
@@ -419,7 +425,7 @@ def sun_moon_block(tab, X, L):
     L.append(f"\n### Same-body chords with the {X}")
     sb_lines(tab, lambda x: x['body'] == X or x['third'] == X, L)
     if PAIR.get(tab):
-        hh = tab if TABS[tab]['role'] == 'horse' else PAIR[tab]
+        hh = tab if TABS[tab]['role'] in ('horse', 'player') else PAIR[tab]
         p1 = [x for x in SB['part1'].get(hh, []) if x['body'] == X]
         for x in p1: L.append(f"  - pair: sky {X} + horse {X} + jockey {X} {x['mm']} {x['type']} {pc(x['dv'])} at {hm(x['t'])} — {x['movement']}")
     if X == 'Sun':
@@ -503,7 +509,7 @@ def build(tab):
         L.append("\n### Direct links between the two charts (cross.py, 12:00)")
         for ln in CROSS.get(tab, []): L.append(f"    {ln}")
         L.append("\n### Same-body chords — sky X + horse X + jockey X")
-        hh = tab if t['role'] == 'horse' else p
+        hh = tab if t['role'] in ('horse', 'player') else p
         p1 = SB['part1'].get(hh, [])
         if not p1: L.append("- (none)")
         for x in sorted(p1, key=lambda x: x['t']):
@@ -741,7 +747,7 @@ def walk(tab):
             a, c = sorted(k[1])
             me = ', '.join(f"{b} {x['dev']:.3f}%" for b, x in NATSTR[tab][k]); pa = ', '.join(f"{b} {x['dev']:.3f}%" for b, x in NATSTR[p][k])
             L.append(f"  - {tz(te)} **{r['sky']}** {k[0]} {a}–{c} {r['typ']} — {short(tab)}: {me} | {short(p)}: {pa}")
-        hh = tab if t['role'] == 'horse' else p
+        hh = tab if t['role'] in ('horse', 'player') else p
         p1 = [x for x in SB['part1'].get(hh, []) if in_win(x['t'])]
         def p1s(x):
             e = x.get('edge')

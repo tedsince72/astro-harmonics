@@ -44,6 +44,7 @@ def m2dev(r, t):
     return '' if res is None else f"{res[1] * 100:.3f}"
 
 WMIN = re.compile(r"exact ([\d.]+) min (before|after) the off")
+WHR = re.compile(r"exact ([\d.]+) h (before|after) the off \(\d+ \w+ (\d+:\d+:\d+)\)")
 def m2check(r, tt):
     """9 Oct (exactness check on the 1-minute sky): a non-Moon M2 'exact' time is re-measured with the stage geometry. If the chord is not within
     0.005% at that time, search +-10 min in 5-s steps: re-time it if it does come exact there, otherwise say 'does not come exact'. Returns
@@ -74,6 +75,7 @@ def fam(t):
     if n[2] == 11: return 'elevenths'
     if n in ([1, 3, 4], [1, 4, 5], [1, 5, 6]): return 'low'
     return 'other'
+LITE = not any(f.endswith('.txt') for f in os.listdir(f'{OUT}/m1'))   # football lite (10 Oct): the M1 stage was not run
 def strong_tag(tab, body, mm, a, c):
     nat = [x for x in NATSTR[tab].get((mm, frozenset((a, c))), []) if x[0] == body]
     if not nat: return '', ''
@@ -96,6 +98,7 @@ for tab in sorted(TABS):
         for r, h in m3_items(tab, b, BODIES):
             a, c = r['a'], r['c']; key = (r['mm'], frozenset((a, c)))
             md, ms = strong_tag(tab, b, r['mm'], a, c)
+            if not md and LITE: md, ms = f"{h[0] * 100:.3f}", ('STRONG' if h[0] * 100 <= STRONG else '')   # lite: no M1 stage, the M3 natal chord stands in
             nat = [x for x in NATSTR[tab].get(key, []) if x[0] == b]
             mir = mirror(r, nat[0][1] if nat else None, a, c)
             te = exact_any(r); tt = row_time(r)
@@ -118,6 +121,11 @@ for tab in sorted(TABS):
         tt = r['transit_t'] if (r['transit_body'] == 'Moon' or 'Moon' in (r['x'], r['e'])) else None
         m = WMIN.search(r['transit_when'] or '') if tt is None else None
         if m: tt = T0 + float(m.group(1)) * (-1 if m.group(2) == 'before' else 1)
+        elif tt is None:      # 10 Oct (football windows): over 60 min from the off the stage writes "exact 1.2 h after the off (10 Oct 13:42:00)"
+            m = WHR.search(r['transit_when'] or '')
+            if m:
+                tt = sum(int(x) * f for x, f in zip(m.group(3).split(':'), (60, 1, 1 / 60)))     # clock minutes of the day
+                if abs(tt - T0) > 720: tt = None      # another day: leave it
         when_txt = r['transit_when'] or ''
         if m and tt is not None and T0 - 30 <= tt <= TEND: tt, when_txt = m2check(r, tt)
         inwin = tt is not None and T0 - 30 <= tt <= TEND
@@ -137,7 +145,7 @@ for tab in sorted(TABS):
                          'dev_off_%': '' if x['at'][1] is None else f"{x['at'][1] * 100:.3f}", 'dev_finish_%': '' if x['at'][2] is None else f"{x['at'][2] * 100:.3f}"},
                          m1_strong='', unison='', mirror='', same_body='SAME BODY', time=hm(x['t']), zone=zone(x['t']), exact_time=hm(x['t']), exact_zone=x['movement'],
                          rank='', field_bodies='', field_charts='', tightest='', partner_on='', also_on_string='', note=f"third point {x['third']}"))
-    if t_['role'] == 'horse' and PAIR.get(tab):
+    if t_['role'] in ('horse', 'player') and PAIR.get(tab):
         for x in SB['part1'].get(tab, []):
             rows.append(dict(base, kind='SBP', natal_body=x['body'], sky_body=x['body'], layer='', mm=x['mm'], base='sky + horse + jockey', sky_chord=x['type'],
                              sky_family=fam(x['type']), natal_chord='', natal_family='', **{'sky_dev_%': f"{x['dv'] * 100:.3f}", 'natal_dev_%': '', 'm1_dev_%': '',
