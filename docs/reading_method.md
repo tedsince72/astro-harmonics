@@ -100,6 +100,10 @@ before it is called different.
 - **Natal→sky numbers (10 Oct)**: listed when exact near the race OR when their ±0.002 window covers any of the race, whatever the exact time
   (Newmarket 13:50: Buick's Mars number, exact 13:54:30, held 13:49:20–13:59:35, was only in the table). Numbers held over the whole
   off−30 / finish+30 scan (slow bodies) are counted, not listed. Sky-Moon items are in the layers: read them (the first 13:50 M3 report missed them).
+- **Pack additions (10 Oct, after the ten pre-race reads; go-ahead given):** (1) Moon items on the Method 2 layers now show — a "Moon held at"
+  time inside the window counts as in the race (before, only Method 3 Moon items showed; Hexham 15:05 Imperial Merlin's Sun 0.005% ★ was
+  table-only). (2) Every natal→sky number is printed with its ±0.002 hold window (an "exact 17:28:30" can be held into the race). (3) Same-body
+  chords held at both ends or exact within 5 min of the window are listed in sections 2 and 5. Joins (3b) and the timeline are unchanged.
 
 ## 7. Writing it down
 After each race: its section in `docs/cross_race_bodies_chords.md` (section I), layer by layer, then the timeline, then a short "in short";

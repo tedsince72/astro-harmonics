@@ -6,18 +6,18 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 
 | chart | M3 | Nodes | L2 | L3 | L4 |
 |---|---|---|---|---|---|
-| 1 Forget You Not | X10 A2 S10 · tight+top 3 | X0 A3 S1 · tight+top 0 | X1 A10 S6 · tight+top 3 | X1 A4 S4 · tight+top 0 | X1 A0 S3 · tight+top 3 |
-| 1 James Best | X10 A8 S10 · tight+top 3 | X0 A3 S1 · tight+top 0 | X2 A4 S9 · tight+top 3 | X2 A4 S3 · tight+top 1 | X0 A1 S3 · tight+top 0 |
-| 2 Jarlath | X5 A5 S12 · tight+top 1 | X1 A1 S2 · tight+top 0 | X0 A9 S15 · tight+top 1 | X1 A3 S2 · tight+top 0 | X1 A2 S4 · tight+top 0 |
-| 2 Sean Houlihan | X13 A3 S5 · tight+top 3 | X0 A2 S2 · tight+top 0 | X1 A10 S7 · tight+top 1 | X4 A5 S5 · tight+top 2 | X0 A0 S0 · tight+top 0 |
-| 3 Caspers Court | X6 A6 S8 · tight+top 3 | X1 A2 S1 · tight+top 2 | X0 A10 S8 · tight+top 2 | X2 A7 S3 · tight+top 0 | X0 A0 S1 · tight+top 0 |
-| 3 Tom Scudamore | X5 A6 S8 · tight+top 1 | X0 A4 S1 · tight+top 0 | X1 A9 S6 · tight+top 1 | X2 A2 S6 · tight+top 1 | X1 A1 S1 · tight+top 0 |
-| 4 Pens Man | X6 A4 S14 · tight+top 4 | X2 A3 S1 · tight+top 1 | X0 A9 S11 · tight+top 2 | X2 A5 S2 · tight+top 0 | X0 A2 S1 · tight+top 1 |
-| 4 Jonjo O'Neill Jr | X3 A5 S11 · tight+top 1 | X0 A2 S0 · tight+top 0 | X2 A9 S8 · tight+top 3 | X3 A7 S10 · tight+top 2 | X2 A3 S4 · tight+top 0 |
-| PU Pointed And Sharp | X3 A5 S9 · tight+top 1 | X0 A1 S1 · tight+top 0 | X2 A7 S13 · tight+top 0 | X3 A2 S5 · tight+top 1 | X3 A3 S3 · tight+top 2 |
-| PU Tom O'Brien | X4 A6 S3 · tight+top 0 | X0 A0 S2 · tight+top 0 | X3 A5 S6 · tight+top 0 | X3 A5 S5 · tight+top 3 | X2 A0 S2 · tight+top 0 |
-| PU Blaze A Trail | X4 A3 S11 · tight+top 0 | X0 A3 S3 · tight+top 2 | X0 A10 S9 · tight+top 4 | X5 A3 S6 · tight+top 3 | X0 A0 S3 · tight+top 0 |
-| PU Connor Brace | X6 A4 S7 · tight+top 1 | X1 A4 S1 · tight+top 0 | X0 A9 S10 · tight+top 0 | X3 A4 S3 · tight+top 1 | X0 A1 S3 · tight+top 0 |
+| 1 Forget You Not | X10 A2 S10 · tight+top 3 | X0 A3 S1 · tight+top 0 | X8 A10 S6 · tight+top 4 | X6 A4 S4 · tight+top 1 | X1 A0 S3 · tight+top 3 |
+| 1 James Best | X10 A8 S10 · tight+top 3 | X0 A3 S1 · tight+top 0 | X8 A4 S9 · tight+top 3 | X6 A4 S3 · tight+top 2 | X0 A1 S3 · tight+top 0 |
+| 2 Jarlath | X5 A5 S12 · tight+top 1 | X1 A1 S2 · tight+top 0 | X8 A9 S15 · tight+top 2 | X10 A3 S2 · tight+top 2 | X1 A2 S4 · tight+top 0 |
+| 2 Sean Houlihan | X13 A3 S5 · tight+top 3 | X0 A2 S2 · tight+top 0 | X4 A10 S7 · tight+top 1 | X6 A5 S5 · tight+top 2 | X0 A0 S0 · tight+top 0 |
+| 3 Caspers Court | X6 A6 S8 · tight+top 3 | X1 A2 S1 · tight+top 2 | X5 A10 S8 · tight+top 4 | X6 A7 S3 · tight+top 0 | X0 A0 S1 · tight+top 0 |
+| 3 Tom Scudamore | X5 A6 S8 · tight+top 1 | X0 A4 S1 · tight+top 0 | X4 A9 S6 · tight+top 3 | X6 A2 S6 · tight+top 2 | X1 A1 S1 · tight+top 0 |
+| 4 Pens Man | X6 A4 S14 · tight+top 4 | X2 A3 S1 · tight+top 1 | X10 A9 S11 · tight+top 2 | X12 A5 S2 · tight+top 1 | X0 A2 S1 · tight+top 1 |
+| 4 Jonjo O'Neill Jr | X3 A5 S11 · tight+top 1 | X0 A2 S0 · tight+top 0 | X12 A9 S8 · tight+top 4 | X6 A7 S10 · tight+top 2 | X2 A3 S4 · tight+top 0 |
+| PU Pointed And Sharp | X3 A5 S9 · tight+top 1 | X0 A1 S1 · tight+top 0 | X8 A7 S13 · tight+top 0 | X10 A2 S5 · tight+top 1 | X3 A3 S3 · tight+top 2 |
+| PU Tom O'Brien | X4 A6 S3 · tight+top 0 | X0 A0 S2 · tight+top 0 | X13 A5 S6 · tight+top 0 | X6 A5 S5 · tight+top 3 | X2 A0 S2 · tight+top 0 |
+| PU Blaze A Trail | X4 A3 S11 · tight+top 0 | X0 A3 S3 · tight+top 2 | X5 A10 S9 · tight+top 4 | X13 A3 S6 · tight+top 3 | X0 A0 S3 · tight+top 0 |
+| PU Connor Brace | X6 A4 S7 · tight+top 1 | X1 A4 S1 · tight+top 0 | X9 A9 S10 · tight+top 1 | X8 A4 S3 · tight+top 1 | X0 A1 S3 · tight+top 0 |
 
 # 1. Layer by layer
 
@@ -369,6 +369,13 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 
 **1 Forget You Not** (horse)
 - in race · Sun 4:5:9 on Dec Transpluto–Antares → Mars 1:8:9 0.115% · sky 0.001→0.012 · –/4
+- in race · Moon 2:3:5 on Dec Haumea–Pleiades → Saturn 1:6:7 0.105% · sky 0.063→0.075 · –/6
+- in race · Moon φ: φ/φ² on Dec Pluto–Algol → Chiron 1:2:3 0.138% · sky 0.104→0.020 · –/6
+- in race · Moon φ: φ/φ² on Dec Pluto–Algol → Jupiter 3:5:8 0.136% · sky 0.104→0.020 · –/6
+- in race · Moon φ: φ/φ² on Dec Haumea–Ketu → Saturn 5:8:13 0.117% · sky 0.116→0.105 · –/3
+- in race · Moon 5:6:11 on Dec Haumea–Altair → Sedna 1:6:7 0.092% · sky 0.149→0.102 · –/12
+- **in race · Moon 5:6:11 on RA Uranus–Fomalhaut → Sun 3:8:11 0.005% · sky 0.032→0.299 · #1/6**
+- in race · Moon φ: 2−1/φ/φ²/φ√5 on Dec Haumea–Procyon → Gonggong 1:√2:1+√2 0.106% · sky 0.355→0.139 · –/10
 - A +1.4h · Pallas 5:6:11 on RA Sedna–Regulus → Mercury 1:6:7 0.106% · sky 0.004→0.004 · –/5
 - A +5.8h · Chiron 1:1:2 on Dec Haumea–Pleiades → Saturn 1:6:7 0.105% · sky 0.007→0.007 · –/6
 - A +4.5h · Haumea φ: φ/φ² on RA Chiron–Quaoar → Ketu 1:4:5 0.104% · sky 0.008→0.008 · #1/3
@@ -387,8 +394,14 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - S −2.3m · Mars 2:3:5 on Dec Quaoar–Antares → Juno 3:8:11 0.080% · sky 0.006→0.017 · –/9
 
 **1 James Best** (jockey)
+- in race · Moon 5:8:13 on RA Transpluto–Sirius → Juno 2:5:7 0.148% · sky 0.031→0.023 · –/5
 - **in race · Mars 1:8:9 on Dec Orcus–Spica → Jupiter 1:1:2 0.002% · sky 0.038→0.001 · #1/6**
 - in race · Rahu φ: 2/φ/φ³/φ³+1 on RA Sedna–Pleiades → Transpluto 1:6:7 0.031% · sky 0.004→0.055 · #1/2
+- in race · Moon φ: φ/φ² on Dec Haumea–Ketu → Jupiter φ: φ/φ² 0.110% · sky 0.116→0.105 · –/3 UNISON
+- in race · Moon 5:6:11 on Dec Haumea–Altair → Ceres 2:5:7 0.010% · sky 0.149→0.102 · –/12
+- in race · Moon 5:6:11 on Dec Haumea–Altair → Mercury φ: 2−1/φ/φ²/φ√5 0.058% · sky 0.149→0.102 · –/12
+- in race · Moon φ: 2−1/φ/φ²/φ√5 on Dec Haumea–Procyon → Gonggong 2:3:5 0.016% · sky 0.355→0.139 · –/10
+- in race · Moon 1:5:6 on Dec Pluto–Bellatrix → Neptune 1:2:3 0.087% · sky 0.416→0.040 · –/5
 - **A +4.5h · Quaoar φ: φ/φ² on RA Chiron–Haumea → Neptune 3:4:7 0.014% · sky 0.008→0.008 · #1/4**
 - A +1.1h · Sedna 1:7:8 on RA Uranus–Algorab → Rahu 1:4:5 0.126% · sky 0.008→0.007 · –/5
 - A +3.7h · Saturn 1:4:5 on RA Gonggong–Spica → Makemake φ: 2/φ/φ³/φ³+1 0.069% · sky 0.014→0.014 · –/3
@@ -404,6 +417,14 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - S −7.4h · Haumea 1:5:6 on Dec Sedna–Antares → Juno 5:6:11 0.023% · sky 0.020→0.020 · #1/3
 
 **2 Jarlath** (horse)
+- in race · Moon 5:6:11 on Dec Haumea–Altair → Jupiter 1:4:5 0.031% · sky 0.149→0.102 · –/12
+- in race · Moon 1:2:3 on Dec Chiron–Haumea → Juno 4:5:9 0.046% · sky 0.208→0.204 · –/8
+- in race · Moon 1:4:5 on Dec Chiron–Pleiades → Sedna 2:3:5 0.062% · sky 0.205→0.208 · –/4
+- in race · Moon φ: 2−1/φ/φ²/φ√5 on Dec Haumea–Procyon → Ceres 2:3:5 0.110% · sky 0.355→0.139 · –/10
+- **in race · Moon φ: 2−1/φ/φ²/φ√5 on Dec Haumea–Procyon → Quaoar 2:3:5 0.014% · sky 0.355→0.139 · #1/10**
+- in race · Moon 1:5:6 on Dec Pluto–Bellatrix → Neptune 3:8:11 0.026% · sky 0.416→0.040 · #1/5
+- in race · Moon 1:5:6 on Dec Pluto–Bellatrix → Uranus 1:3:4 0.026% · sky 0.416→0.040 · –/5
+- in race · Moon 3:5:8 on Dec Neptune–Procyon → Pluto 2:5:7 0.043% · sky 0.371→0.421 · –/7
 - A +5.8h · Haumea 1:1:2 on Dec Chiron–Pleiades → Sedna 2:3:5 0.062% · sky 0.007→0.007 · –/4
 - A +1.1h · Uranus 1:7:8 on RA Sedna–Algorab → Haumea 1:7:8 0.132% · sky 0.008→0.007 · –/4 UNISON
 - A +4.5h · Chiron φ: φ/φ² on RA Haumea–Quaoar → Venus 3:5:8 0.084% · sky 0.008→0.008 · –/6
@@ -431,6 +452,9 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 
 **2 Sean Houlihan** (jockey)
 - in race · Sun 4:5:9 on Dec Transpluto–Antares → Gonggong 1:4:5 0.129% · sky 0.001→0.012 · –/4
+- in race · Moon 5:8:13 on RA Transpluto–Sirius → Vesta φ: φ/φ² 0.148% · sky 0.031→0.023 · –/5
+- in race · Moon φ: φ/φ² on Dec Pluto–Algol → Venus 5:8:13 0.057% · sky 0.104→0.020 · –/6
+- in race · Moon 1:5:6 on Dec Pluto–Bellatrix → Orcus 3:5:8 0.036% · sky 0.416→0.040 · –/5
 - A +1.4h · Pallas 5:6:11 on RA Sedna–Regulus → Makemake 1:5:6 0.064% · sky 0.004→0.004 · –/5
 - A +4.5h · Chiron φ: φ/φ² on RA Haumea–Quaoar → Ceres 1:√2:1+√2 0.078% · sky 0.008→0.008 · –/6
 - A +1.1h · Sedna 1:7:8 on RA Uranus–Algorab → Mars 1:6:7 0.076% · sky 0.008→0.007 · –/5
@@ -450,6 +474,11 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - S −7.4h · Haumea 1:5:6 on Dec Sedna–Antares → Ketu 1:4:5 0.139% · sky 0.020→0.020 · –/3
 
 **3 Caspers Court** (horse)
+- in race · Moon 5:8:13 on RA Transpluto–Sirius → Eris 2:3:5 0.121% · sky 0.031→0.023 · –/5
+- in race · Moon 5:6:11 on Dec Haumea–Altair → Uranus 3:8:11 0.011% · sky 0.149→0.102 · –/12
+- in race · Moon 1:2:3 on Dec Chiron–Haumea → Venus 5:6:11 0.141% · sky 0.208→0.204 · –/8
+- **in race · Moon 3:8:11 on Dec Gonggong–Bellatrix → Haumea φ: φ/φ² 0.015% · sky 0.330→0.193 · #1/10**
+- **in race · Moon 3:5:8 on Dec Neptune–Procyon → Orcus 1:7:8 0.019% · sky 0.371→0.421 · #1/7**
 - A +4.5h · Quaoar φ: φ/φ² on RA Chiron–Haumea → Pluto 5:6:11 0.149% · sky 0.008→0.008 · –/4
 - **A +1.1h · Sedna 1:7:8 on RA Uranus–Algorab → Sun φ: 2−1/φ/φ²/φ√5 0.004% · sky 0.008→0.007 · #1/5**
 - A +6.7d · Neptune 2:5:7 on Dec Makemake–Polaris → Ceres φ: 2−1/φ/φ²/φ√5 0.058% · sky 0.011→0.011 · –/11
@@ -470,7 +499,10 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - S −4.0h · Neptune 1:8:9 on Dec Gonggong–Alkaid → Sun 5:6:11 0.125% · sky 0.019→0.019 · –/6
 
 **3 Tom Scudamore** (jockey)
+- **in race · Moon 5:8:13 on RA Transpluto–Sirius → Chiron 4:5:9 0.018% · sky 0.031→0.023 · #1/5**
 - in race · Mars 1:8:9 on Dec Orcus–Spica → Juno 2:5:7 0.086% · sky 0.038→0.001 · –/6
+- **in race · Moon 5:6:11 on Dec Haumea–Altair → Rahu 1:8:9 0.006% · sky 0.149→0.102 · #1/12**
+- in race · Moon 3:8:11 on Dec Gonggong–Bellatrix → Ceres 5:6:11 0.021% · sky 0.330→0.193 · –/10
 - A +4.5h · Quaoar φ: φ/φ² on RA Chiron–Haumea → Jupiter 1:4:5 0.071% · sky 0.008→0.008 · –/4
 - A +1.1h · Sedna 1:7:8 on RA Uranus–Algorab → Ketu 5:6:11 0.141% · sky 0.008→0.007 · –/5
 - A +1.1h · Uranus 1:7:8 on RA Sedna–Algorab → Orcus 4:5:9 0.070% · sky 0.008→0.007 · –/4
@@ -488,6 +520,16 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - **S −9.5h · Jupiter 3:8:11 on RA Uranus–Pluto → Makemake 5:8:13 0.019% · sky 0.017→0.018 · #1/7**
 
 **4 Pens Man** (horse, fav)
+- in race · Moon 2:3:5 on Dec Haumea–Pleiades → Juno 3:4:7 0.029% · sky 0.063→0.075 · #1/6
+- in race · Moon 5:6:11 on Dec Haumea–Altair → Ketu 3:5:8 0.124% · sky 0.149→0.102 · –/12
+- in race · Moon 5:6:11 on Dec Haumea–Altair → Transpluto 2:5:7 0.068% · sky 0.149→0.102 · –/12
+- in race · Moon 1:2:3 on Dec Chiron–Haumea → Ceres 1:√2:1+√2 0.090% · sky 0.208→0.204 · –/8
+- in race · Moon 1:2:3 on Dec Chiron–Haumea → Pluto 5:6:11 0.115% · sky 0.208→0.204 · –/8
+- in race · Moon 1:4:5 on Dec Chiron–Pleiades → Saturn 4:5:9 0.094% · sky 0.205→0.208 · –/4
+- in race · Moon 3:8:11 on Dec Gonggong–Bellatrix → Ceres 3:5:8 0.075% · sky 0.330→0.193 · –/10
+- in race · Moon φ: 2−1/φ/φ²/φ√5 on Dec Haumea–Procyon → Rahu 2:3:5 0.052% · sky 0.355→0.139 · –/10
+- in race · Moon 1:5:6 on Dec Pluto–Bellatrix → Venus 1:√2:1+√2 0.127% · sky 0.416→0.040 · –/5
+- in race · Moon 3:5:8 on Dec Neptune–Procyon → Eris 3:4:7 0.105% · sky 0.371→0.421 · –/7
 - A +5.8h · Chiron 1:1:2 on Dec Haumea–Pleiades → Juno 3:4:7 0.029% · sky 0.007→0.007 · #1/6
 - A +5.8h · Haumea 1:1:2 on Dec Chiron–Pleiades → Saturn 4:5:9 0.094% · sky 0.007→0.007 · –/4
 - A +1.1h · Uranus 1:7:8 on RA Sedna–Algorab → Jupiter 3:5:8 0.092% · sky 0.008→0.007 · –/4
@@ -512,6 +554,16 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 **4 Jonjo O'Neill Jr** (jockey, fav)
 - in race · Sun 4:5:9 on Dec Transpluto–Antares → Neptune 1:5:6 0.051% · sky 0.001→0.012 · #1/4
 - in race · Rahu φ: 2/φ/φ³/φ³+1 on RA Sedna–Pleiades → Vesta 3:5:8 0.072% · sky 0.004→0.055 · –/2
+- **in race · Moon 1:4:5 on Dec Chiron–Pleiades → Ceres 1:8:9 0.019% · sky 0.205→0.208 · #1/4**
+- in race · Moon 1:2:3 on Dec Chiron–Haumea → Sedna 4:5:9 0.059% · sky 0.208→0.204 · –/8
+- in race · Moon 1:4:5 on Dec Chiron–Pleiades → Transpluto 3:8:11 0.066% · sky 0.205→0.208 · –/4
+- in race · Moon 5:6:11 on RA Uranus–Fomalhaut → Makemake 1:4:5 0.042% · sky 0.032→0.299 · –/6
+- in race · Moon 5:6:11 on RA Uranus–Fomalhaut → Venus 3:5:8 0.022% · sky 0.032→0.299 · –/6
+- in race · Moon 5:6:11 on RA Uranus–Fomalhaut → Vesta 4:5:9 0.012% · sky 0.032→0.299 · –/6
+- in race · Moon 3:8:11 on Dec Gonggong–Bellatrix → Haumea φ: φ/φ² 0.023% · sky 0.330→0.193 · –/10
+- in race · Moon 3:8:11 on Dec Gonggong–Bellatrix → Orcus 2:5:7 0.097% · sky 0.330→0.193 · –/10
+- in race · Moon φ: 2−1/φ/φ²/φ√5 on Dec Haumea–Procyon → Quaoar 4:5:9 0.145% · sky 0.355→0.139 · –/10
+- in race · Moon 3:5:8 on Dec Neptune–Procyon → Venus 1:4:5 0.091% · sky 0.371→0.421 · –/7
 - **A +5.8h · Haumea 1:1:2 on Dec Chiron–Pleiades → Ceres 1:8:9 0.019% · sky 0.007→0.007 · #1/4**
 - A +5.8h · Haumea 1:1:2 on Dec Chiron–Pleiades → Transpluto 3:8:11 0.066% · sky 0.007→0.007 · –/4
 - A +4.5h · Chiron φ: φ/φ² on RA Haumea–Quaoar → Orcus 5:6:11 0.096% · sky 0.008→0.008 · –/6
@@ -533,6 +585,12 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 **PU Pointed And Sharp** (horse)
 - in race · Sun 4:5:9 on Dec Transpluto–Antares → Mercury 5:8:13 0.111% · sky 0.001→0.012 · –/4
 - in race · Mars 1:8:9 on Dec Orcus–Spica → Chiron 4:5:9 0.138% · sky 0.038→0.001 · –/6
+- in race · Moon 5:6:11 on Dec Haumea–Altair → Venus 3:5:8 0.011% · sky 0.149→0.102 · –/12
+- in race · Moon 1:2:3 on Dec Chiron–Haumea → Ceres 1:√2:1+√2 0.054% · sky 0.208→0.204 · –/8
+- in race · Moon 1:2:3 on Dec Chiron–Haumea → Makemake 2:5:7 0.021% · sky 0.208→0.204 · #1/8
+- in race · Moon 3:8:11 on Dec Gonggong–Bellatrix → Haumea φ: φ/φ² 0.043% · sky 0.330→0.193 · –/10
+- in race · Moon 3:5:8 on Dec Neptune–Procyon → Jupiter φ: φ/φ² 0.093% · sky 0.371→0.421 · –/7
+- in race · Moon 3:5:8 on Dec Neptune–Procyon → Transpluto 2:5:7 0.033% · sky 0.371→0.421 · –/7
 - A +1.4h · Pallas 5:6:11 on RA Sedna–Regulus → Ketu 1:8:9 0.094% · sky 0.004→0.004 · –/5
 - A +50.4m · Mercury 5:8:13 on RA Quaoar–Deneb Algedi → Jupiter 5:6:11 0.137% · sky 0.009→0.009 · –/5
 - A +2.0h · Rahu 4:5:9 on Dec Quaoar–Alkaid → Makemake 1:2:3 0.070% · sky 0.010→0.010 · #1/2
@@ -555,9 +613,19 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - S −4.0h · Gonggong 1:8:9 on Dec Neptune–Alkaid → Eris 1:7:8 0.088% · sky 0.019→0.019 · –/5
 
 **PU Tom O'Brien** (jockey)
+- in race · Moon 5:8:13 on RA Transpluto–Sirius → Mars 1:3:4 0.070% · sky 0.031→0.023 · –/5
 - in race · Mars 1:8:9 on Dec Orcus–Spica → Gonggong 5:8:13 0.066% · sky 0.038→0.001 · –/6
 - in race · Mars 1:8:9 on Dec Orcus–Spica → Ketu 1:4:5 0.128% · sky 0.038→0.001 · –/6
 - in race · Mars 1:8:9 on Dec Orcus–Spica → Sun 5:8:13 0.070% · sky 0.038→0.001 · –/6
+- in race · Moon φ: φ/φ² on Dec Pluto–Algol → Mercury 3:8:11 0.120% · sky 0.104→0.020 · –/6
+- in race · Moon φ: φ/φ² on Dec Pluto–Algol → Vesta 1:5:6 0.055% · sky 0.104→0.020 · –/6
+- in race · Moon φ: φ/φ² on Dec Haumea–Ketu → Quaoar 1:6:7 0.031% · sky 0.116→0.105 · #1/3
+- in race · Moon 5:6:11 on Dec Haumea–Altair → Chiron 5:8:13 0.102% · sky 0.149→0.102 · –/12
+- in race · Moon 5:6:11 on Dec Haumea–Altair → Transpluto 2:3:5 0.074% · sky 0.149→0.102 · –/12
+- in race · Moon 3:8:11 on Dec Gonggong–Bellatrix → Juno φ: 2−1/φ/φ²/φ√5 0.023% · sky 0.330→0.193 · –/10
+- in race · Moon φ: 2−1/φ/φ²/φ√5 on Dec Haumea–Procyon → Ketu 3:4:7 0.104% · sky 0.355→0.139 · –/10
+- in race · Moon φ: 2−1/φ/φ²/φ√5 on Dec Haumea–Procyon → Pallas 1:3:4 0.046% · sky 0.355→0.139 · –/10
+- in race · Moon 3:5:8 on Dec Neptune–Procyon → Transpluto 1:3:4 0.115% · sky 0.371→0.421 · –/7
 - A +4.5h · Quaoar φ: φ/φ² on RA Chiron–Haumea → Pallas 1:4:5 0.024% · sky 0.008→0.008 · –/4
 - A +2.4h · Uranus 3:4:7 on Dec Orcus–Equator → Ceres 3:8:11 0.051% · sky 0.018→0.017 · –/11
 - A +2.4h · Uranus 3:4:7 on Dec Orcus–Equator → Juno 3:8:11 0.052% · sky 0.018→0.017 · –/11
@@ -571,6 +639,11 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - S −4.9m · Vesta 4:5:9 on Dec Eris–Antares → Pluto 1:√2:1+√2 0.073% · sky 0.009→0.019 · –/8
 
 **PU Blaze A Trail** (horse)
+- in race · Moon 2:3:5 on Dec Haumea–Pleiades → Rahu 1:5:6 0.106% · sky 0.063→0.075 · –/6
+- in race · Moon 5:6:11 on RA Uranus–Fomalhaut → Eris φ: 2−1/φ/φ²/φ√5 0.043% · sky 0.032→0.299 · –/6
+- in race · Moon 3:8:11 on Dec Gonggong–Bellatrix → Haumea φ: φ/φ² 0.086% · sky 0.330→0.193 · –/10
+- in race · Moon 3:8:11 on Dec Gonggong–Bellatrix → Juno 1:4:5 0.139% · sky 0.330→0.193 · –/10
+- in race · Moon φ: 2−1/φ/φ²/φ√5 on Dec Haumea–Procyon → Rahu 5:6:11 0.069% · sky 0.355→0.139 · –/10
 - **A +1.4h · Pallas 5:6:11 on RA Sedna–Regulus → Ceres 1:2:3 0.019% · sky 0.004→0.004 · #1/5**
 - A +5.8h · Chiron 1:1:2 on Dec Haumea–Pleiades → Rahu 1:5:6 0.106% · sky 0.007→0.007 · –/6
 - A +4.5h · Haumea φ: φ/φ² on RA Chiron–Quaoar → Rahu 3:4:7 0.127% · sky 0.008→0.008 · –/3
@@ -592,6 +665,15 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - S −2.6h · Pallas 4:5:9 on RA Orcus–Rahu → Sun 1:√2:1+√2 0.129% · sky 0.019→0.019 · –/2
 
 **PU Connor Brace** (jockey)
+- in race · Moon 2:3:5 on Dec Haumea–Pleiades → Makemake 2:5:7 0.068% · sky 0.063→0.075 · –/6
+- in race · Moon 2:3:5 on Dec Haumea–Pleiades → Pallas 5:6:11 0.148% · sky 0.063→0.075 · –/6
+- in race · Moon 2:3:5 on Dec Haumea–Pleiades → Transpluto 3:8:11 0.117% · sky 0.063→0.075 · –/6
+- **in race · Moon φ: φ/φ² on Dec Pluto–Algol → Sun φ: φ/φ² 0.017% · sky 0.104→0.020 · #1/6 UNISON**
+- in race · Moon 5:6:11 on Dec Haumea–Altair → Juno 4:5:9 0.094% · sky 0.149→0.102 · –/12
+- in race · Moon 1:2:3 on Dec Chiron–Haumea → Vesta 1:4:5 0.058% · sky 0.208→0.204 · –/8
+- in race · Moon 5:6:11 on RA Uranus–Fomalhaut → Venus 1:5:6 0.070% · sky 0.032→0.299 · –/6
+- in race · Moon 3:8:11 on Dec Gonggong–Bellatrix → Sun 5:8:13 0.081% · sky 0.330→0.193 · –/10
+- in race · Moon φ: 2−1/φ/φ²/φ√5 on Dec Haumea–Procyon → Makemake 2:3:5 0.124% · sky 0.355→0.139 · –/10
 - A +1.4h · Pallas 5:6:11 on RA Sedna–Regulus → Juno 3:5:8 0.125% · sky 0.004→0.004 · –/5
 - A +5.8h · Chiron 1:1:2 on Dec Haumea–Pleiades → Makemake 2:5:7 0.068% · sky 0.007→0.007 · –/6
 - A +5.8h · Chiron 1:1:2 on Dec Haumea–Pleiades → Pallas 5:6:11 0.148% · sky 0.007→0.007 · –/6
@@ -617,6 +699,11 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 
 **1 Forget You Not** (horse)
 - in race · Gonggong 1:7:8 on Dec Saturn–Vesta → Gonggong 1:3:4 0.089% · sky 0.052→0.016 · –/9 SAME BODY
+- in race · Moon 3:8:11 on Dec Vesta–Vega → Makemake 1:3:4 0.078% · sky 0.024→0.163 · –/12
+- **in race · Moon 3:8:11 on Dec Vesta–Vega → Mars 5:6:11 0.001% · sky 0.024→0.163 · #1/12**
+- in race · Moon 3:8:11 on Dec Vesta–Vega → Pallas 2:3:5 0.040% · sky 0.024→0.163 · –/12
+- in race · Moon φ: 2−1/φ/φ²/φ√5 on Dec Mars–Alphecca → Juno 1:4:5 0.127% · sky 0.191→0.085 · –/7
+- in race · Moon 1:2:3 on Dec Pallas–Bellatrix → Saturn 1:2:3 0.148% · sky 0.455→0.120 · –/8 UNISON
 - A +4.9m · Mars 3:5:8 on RA Jupiter–Antares → Venus 3:5:8 0.068% · sky 0.009→0.005 · #1/2 UNISON
 - A +3.7h · Gonggong 1:4:5 on RA Saturn–Spica → Chiron φ: 2−1/φ/φ²/φ√5 0.084% · sky 0.014→0.014 · –/8
 - A +3.7h · Gonggong 1:4:5 on RA Saturn–Spica → Jupiter φ: φ/φ² 0.040% · sky 0.014→0.014 · –/8
@@ -629,6 +716,10 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 **1 James Best** (jockey)
 - in race · Ceres 1:3:4 on Dec Jupiter–Alphecca → Orcus 2:3:5 0.114% · sky 0.000→0.000 · –/11
 - in race · Ceres 1:3:4 on Dec Jupiter–Alphecca → Venus φ: 2/φ/φ³/φ³+1 0.049% · sky 0.000→0.000 · –/11
+- **in race · Moon 3:8:11 on Dec Jupiter–Capella → Mercury 2:3:5 0.012% · sky 0.023→0.130 · #1/8**
+- in race · Moon 3:8:11 on Dec Jupiter–Capella → Pluto 1:√2:1+√2 0.111% · sky 0.023→0.130 · –/8
+- in race · Moon φ: φ/φ² on Dec Vesta–Pleiades → Quaoar 5:8:13 0.102% · sky 0.015→0.204 · –/8
+- in race · Moon 1:2:3 on Dec Pallas–Bellatrix → Mars 1:√2:1+√2 0.107% · sky 0.455→0.120 · –/8
 - A +1.4h · Sedna 5:6:11 on RA Pallas–Regulus → Jupiter 3:8:11 0.032% · sky 0.004→0.004 · –/6
 - A +49.5m · Rahu φ: φ/φ² on Dec Vesta–Algol → Haumea 2:3:5 0.040% · sky 0.014→0.013 · –/7
 - **A +49.5m · Rahu φ: φ/φ² on Dec Vesta–Algol → Juno 1:√2:1+√2 0.007% · sky 0.014→0.013 · #1/7**
@@ -639,6 +730,15 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 
 **2 Jarlath** (horse)
 - in race · Gonggong 1:7:8 on Dec Saturn–Vesta → Sun 4:5:9 0.072% · sky 0.052→0.016 · –/9
+- in race · Moon 3:8:11 on Dec Jupiter–Capella → Venus 1:4:5 0.145% · sky 0.023→0.130 · –/8
+- in race · Moon 3:8:11 on Dec Jupiter–Capella → Vesta φ: φ/φ² 0.062% · sky 0.023→0.130 · –/8
+- in race · Moon 3:8:11 on Dec Vesta–Vega → Mars φ: φ/φ² 0.011% · sky 0.024→0.163 · –/12
+- in race · Moon 3:8:11 on Dec Vesta–Vega → Neptune 1:8:9 0.073% · sky 0.024→0.163 · –/12
+- in race · Moon 1:√2:1+√2 on Dec Saturn–Ceres → Gonggong 1:7:8 0.092% · sky 0.171→0.044 · –/7
+- **in race · Moon 1:√2:1+√2 on Dec Saturn–Ceres → Rahu 3:5:8 0.010% · sky 0.171→0.044 · #1/7**
+- in race · Moon 1:√2:1+√2 on Dec Saturn–Ceres → Uranus 1:5:6 0.045% · sky 0.171→0.044 · –/7
+- **in race · Moon φ: 2−1/φ/φ²/φ√5 on Dec Mars–Alphecca → Neptune 2:3:5 0.009% · sky 0.191→0.085 · #1/7**
+- in race · Moon 1:2:3 on Dec Pallas–Bellatrix → Sun 5:8:13 0.143% · sky 0.455→0.120 · –/8
 - A +1.4m · Orcus 1:3:4 on RA Vesta–Alkaid → Mars 5:8:13 0.030% · sky 0.014→0.003 · #1/6
 - A +1.4m · Orcus 1:3:4 on RA Vesta–Alkaid → Orcus 3:5:8 0.136% · sky 0.014→0.003 · –/6 SAME BODY
 - A +8.3m · Ketu 1:7:8 on RA Juno–Betelgeuse → Venus 5:6:11 0.114% · sky 0.017→0.011 · –/6
@@ -650,6 +750,8 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - in race · Ceres 1:3:4 on Dec Jupiter–Alphecca → Transpluto 3:8:11 0.119% · sky 0.000→0.000 · –/11
 - in race · Orcus 1:8:9 on Dec Mars–Spica → Ceres 4:5:9 0.072% · sky 0.038→0.001 · –/6
 - in race · Orcus 1:8:9 on Dec Mars–Spica → Pluto 2:5:7 0.090% · sky 0.038→0.001 · –/6
+- in race · Moon 1:2:3 on Dec Pallas–Bellatrix → Venus 1:5:6 0.101% · sky 0.455→0.120 · –/8
+- in race · Moon φ: φ/φ² on Dec Mars–Betelgeuse → Sedna 3:5:8 0.044% · sky 0.049→0.467 · –/7
 - A +4.9m · Jupiter 3:5:8 on RA Mars–Antares → Mercury 5:6:11 0.130% · sky 0.009→0.005 · –/4
 - A +1.2h · Chiron 2:3:5 on RA Saturn–Algol → Venus 2:3:5 0.092% · sky 0.010→0.009 · –/5 UNISON
 - **A +1.2h · Chiron 2:3:5 on RA Saturn–Algol → Vesta 5:8:13 0.002% · sky 0.010→0.009 · #1/5**
@@ -664,6 +766,10 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 **3 Caspers Court** (horse)
 - in race · Jupiter 1:3:4 on Dec Ceres–Alphecca → Mars 1:4:5 0.067% · sky 0.000→0.000 · –/5
 - in race · Ceres 1:3:4 on Dec Jupiter–Alphecca → Orcus 1:7:8 0.095% · sky 0.000→0.000 · –/11
+- in race · Moon φ: 2−1/φ/φ²/φ√5 on Dec Mars–Alphecca → Ceres 1:4:5 0.067% · sky 0.191→0.085 · –/7
+- in race · Moon φ: φ/φ² on Dec Vesta–Pleiades → Transpluto 2:3:5 0.038% · sky 0.015→0.204 · #1/8
+- in race · Moon 1:2:3 on Dec Pallas–Bellatrix → Makemake φ: φ/φ² 0.098% · sky 0.455→0.120 · –/8
+- in race · Moon φ: φ/φ² on Dec Mars–Betelgeuse → Uranus 1:4:5 0.067% · sky 0.049→0.467 · –/7
 - A +32.0m · Pluto 2:5:7 on RA Saturn–Pallas → Jupiter 5:8:13 0.029% · sky 0.008→0.007 · –/7
 - A +4.9m · Jupiter 3:5:8 on RA Mars–Antares → Transpluto 5:8:13 0.030% · sky 0.009→0.005 · #1/4
 - A +1.2h · Chiron 2:3:5 on RA Saturn–Algol → Ceres 1:6:7 0.125% · sky 0.010→0.009 · –/5
@@ -678,6 +784,10 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 **3 Tom Scudamore** (jockey)
 - in race · Jupiter 1:3:4 on Dec Ceres–Alphecca → Pluto 4:5:9 0.080% · sky 0.000→0.000 · –/5
 - in race · Ceres 1:3:4 on Dec Jupiter–Alphecca → Sun 1:5:6 0.118% · sky 0.000→0.000 · –/11
+- in race · Moon 3:4:7 on Dec Vesta–Regulus → Ketu φ: 2/φ/φ³/φ³+1 0.043% · sky 0.159→0.155 · –/5
+- **in race · Moon 3:4:7 on Dec Vesta–Regulus → Rahu φ: 2−1/φ/φ²/φ√5 0.007% · sky 0.159→0.155 · #1/5**
+- in race · Moon 1:√2:1+√2 on Dec Saturn–Ceres → Pluto 1:2:3 0.100% · sky 0.171→0.044 · –/7
+- in race · Moon φ: φ/φ² on Dec Mars–Betelgeuse → Saturn 3:5:8 0.029% · sky 0.049→0.467 · –/7
 - A +1.4h · Sedna 5:6:11 on RA Pallas–Regulus → Makemake 1:5:6 0.066% · sky 0.004→0.004 · –/6
 - A +1.4m · Orcus 1:3:4 on RA Vesta–Alkaid → Juno 5:8:13 0.047% · sky 0.014→0.003 · –/6
 - S −22.2m · Rahu 1:8:9 on Dec Mars–Pleiades → Orcus 1:2:3 0.147% · sky 0.004→0.005 · –/6
@@ -690,6 +800,16 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 **4 Pens Man** (horse, fav)
 - in race · Ceres 1:3:4 on Dec Jupiter–Alphecca → Pallas 3:8:11 0.099% · sky 0.000→0.000 · –/11
 - in race · Orcus 1:8:9 on Dec Mars–Spica → Juno 1:3:4 0.042% · sky 0.038→0.001 · –/6
+- in race · Moon 3:8:11 on Dec Jupiter–Capella → Vesta 5:6:11 0.054% · sky 0.023→0.130 · –/8
+- in race · Moon 5:6:11 on Sky Saturn–Ceres → Vesta 2:3:5 0.125% · sky 0.153→0.068 · #1/1
+- in race · Moon 3:8:11 on Dec Vesta–Vega → Ceres φ: 2−1/φ/φ²/φ√5 0.105% · sky 0.024→0.163 · –/12
+- in race · Moon 3:8:11 on Dec Vesta–Vega → Makemake 3:8:11 0.132% · sky 0.024→0.163 · –/12 UNISON
+- in race · Moon 1:√2:1+√2 on Dec Saturn–Ceres → Eris φ: 2−1/φ/φ²/φ√5 0.065% · sky 0.171→0.044 · –/7
+- in race · Moon φ: 2−1/φ/φ²/φ√5 on Dec Mars–Alphecca → Gonggong 1:7:8 0.092% · sky 0.191→0.085 · –/7
+- in race · Moon φ: 2−1/φ/φ²/φ√5 on Dec Mars–Alphecca → Haumea 3:4:7 0.099% · sky 0.191→0.085 · –/7
+- in race · Moon φ: 2−1/φ/φ²/φ√5 on Dec Mars–Alphecca → Juno 3:5:8 0.075% · sky 0.191→0.085 · –/7
+- **in race · Moon 1:2:3 on Dec Pallas–Bellatrix → Makemake 1:8:9 0.004% · sky 0.455→0.120 · #1/8**
+- in race · Moon φ: φ/φ² on Dec Mars–Betelgeuse → Eris 1:√2:1+√2 0.026% · sky 0.049→0.467 · #1/7
 - A +1.4h · Sedna 5:6:11 on RA Pallas–Regulus → Venus 2:5:7 0.051% · sky 0.004→0.004 · –/6
 - A +32.0m · Pluto 2:5:7 on RA Saturn–Pallas → Chiron 1:3:4 0.126% · sky 0.008→0.007 · –/7
 - A +32.0m · Pluto 2:5:7 on RA Saturn–Pallas → Uranus 1:4:5 0.031% · sky 0.008→0.007 · –/7
@@ -702,6 +822,9 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - in race · Ceres 1:3:4 on Dec Jupiter–Alphecca → Sun 1:7:8 0.086% · sky 0.000→0.000 · –/11
 - in race · Orcus 1:8:9 on Dec Mars–Spica → Sun 1:7:8 0.123% · sky 0.038→0.001 · –/6
 - in race · Orcus 1:8:9 on Dec Mars–Spica → Uranus 1:7:8 0.032% · sky 0.038→0.001 · #1/6
+- in race · Moon φ: φ/φ² on Dec Vesta–Pleiades → Ketu 3:5:8 0.142% · sky 0.015→0.204 · –/8
+- in race · Moon φ: φ/φ² on Dec Vesta–Pleiades → Orcus 1:4:5 0.140% · sky 0.015→0.204 · –/8
+- in race · Moon 1:2:3 on Dec Pallas–Bellatrix → Mars 5:8:13 0.054% · sky 0.455→0.120 · –/8
 - A +32.0m · Pluto 2:5:7 on RA Saturn–Pallas → Pluto 5:6:11 0.059% · sky 0.008→0.007 · –/7 SAME BODY
 - A +4.9m · Jupiter 3:5:8 on RA Mars–Antares → Haumea 3:5:8 0.049% · sky 0.009→0.005 · –/4 UNISON
 - A +4.9m · Mars 3:5:8 on RA Jupiter–Antares → Orcus 3:4:6 0.138% · sky 0.009→0.005 · –/2
@@ -724,6 +847,13 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - in race · Ceres 1:3:4 on Dec Jupiter–Alphecca → Mercury φ: φ/φ² 0.062% · sky 0.000→0.000 · –/11
 - in race · Jupiter 1:3:4 on Dec Ceres–Alphecca → Quaoar 1:1:2 0.090% · sky 0.000→0.000 · –/5
 - **in race · Ceres 1:3:4 on Dec Jupiter–Alphecca → Sedna 3:4:7 0.018% · sky 0.000→0.000 · #1/11**
+- in race · Moon 3:8:11 on Dec Jupiter–Capella → Chiron 5:8:13 0.147% · sky 0.023→0.130 · –/8
+- in race · Moon 3:4:7 on Dec Vesta–Regulus → Jupiter 3:8:11 0.085% · sky 0.159→0.155 · –/5
+- in race · Moon 1:√2:1+√2 on Dec Saturn–Ceres → Makemake 3:5:8 0.073% · sky 0.171→0.044 · –/7
+- in race · Moon φ: 2−1/φ/φ²/φ√5 on Dec Mars–Alphecca → Saturn 2:3:5 0.082% · sky 0.191→0.085 · –/7
+- in race · Moon φ: φ/φ² on Dec Vesta–Pleiades → Sedna φ: 2/φ/φ³/φ³+1 0.125% · sky 0.015→0.204 · –/8
+- in race · Moon φ: φ/φ² on Dec Mars–Betelgeuse → Eris 1:2:3 0.072% · sky 0.049→0.467 · –/7
+- in race · Moon φ: φ/φ² on Dec Mars–Betelgeuse → Makemake 3:8:11 0.093% · sky 0.049→0.467 · –/7
 - A +32.0m · Pluto 2:5:7 on RA Saturn–Pallas → Quaoar 1:√2:1+√2 0.069% · sky 0.008→0.007 · –/7
 - A +32.0m · Pluto 2:5:7 on RA Saturn–Pallas → Rahu 3:8:11 0.098% · sky 0.008→0.007 · –/7
 - S −9.8m · Chiron 4:5:9 on RA Saturn–Bellatrix → Makemake 1:7:8 0.077% · sky 0.001→0.001 · #1/3
@@ -736,6 +866,9 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - in race · Gonggong 1:7:8 on Dec Saturn–Vesta → Pluto 3:5:8 0.100% · sky 0.052→0.016 · –/9
 - in race · Gonggong 1:7:8 on Dec Saturn–Vesta → Sedna 4:5:9 0.007% · sky 0.052→0.016 · –/9
 - in race · Gonggong 1:7:8 on Dec Saturn–Vesta → Transpluto φ: φ/φ² 0.110% · sky 0.052→0.016 · –/9
+- in race · Moon 3:4:7 on Dec Vesta–Regulus → Ceres 1:3:4 0.086% · sky 0.159→0.155 · –/5
+- in race · Moon 3:4:7 on Dec Vesta–Regulus → Juno 1:3:4 0.133% · sky 0.159→0.155 · –/5
+- in race · Moon φ: φ/φ² on Dec Vesta–Pleiades → Makemake φ: 2−1/φ/φ²/φ√5 0.079% · sky 0.015→0.204 · –/8
 - **A +1.4h · Sedna 5:6:11 on RA Pallas–Regulus → Haumea 4:5:9 0.013% · sky 0.004→0.004 · #1/6**
 - A +3.7h · Gonggong 1:4:5 on RA Saturn–Spica → Ceres 1:√2:1+√2 0.082% · sky 0.014→0.014 · –/8
 - A +49.5m · Rahu φ: φ/φ² on Dec Vesta–Algol → Pluto 1:5:6 0.055% · sky 0.014→0.013 · –/7
@@ -753,6 +886,14 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - in race · Gonggong 1:7:8 on Dec Saturn–Vesta → Orcus 1:√2:1+√2 0.005% · sky 0.052→0.016 · –/9
 - in race · Gonggong 1:7:8 on Dec Saturn–Vesta → Pallas 2:3:5 0.094% · sky 0.052→0.016 · –/9
 - **in race · Gonggong 1:7:8 on Dec Saturn–Vesta → Rahu 1:3:4 0.003% · sky 0.052→0.016 · #1/9**
+- in race · Moon 3:8:11 on Dec Jupiter–Capella → Neptune 3:4:7 0.067% · sky 0.023→0.130 · –/8
+- in race · Moon 3:8:11 on Dec Jupiter–Capella → Uranus 1:√2:1+√2 0.092% · sky 0.023→0.130 · –/8
+- in race · Moon 3:8:11 on Dec Vesta–Vega → Mercury 2:3:5 0.075% · sky 0.024→0.163 · –/12
+- in race · Moon 1:√2:1+√2 on Dec Saturn–Ceres → Makemake 1:√2:1+√2 0.098% · sky 0.171→0.044 · –/7 UNISON
+- in race · Moon φ: φ/φ² on Dec Vesta–Pleiades → Rahu φ: φ/φ² 0.083% · sky 0.015→0.204 · –/8 UNISON
+- in race · Moon φ: φ/φ² on Dec Vesta–Pleiades → Venus φ: φ/φ² 0.097% · sky 0.015→0.204 · –/8 UNISON
+- in race · Moon 1:2:3 on Dec Pallas–Bellatrix → Juno 2:3:5 0.099% · sky 0.455→0.120 · –/8
+- in race · Moon φ: φ/φ² on Dec Mars–Betelgeuse → Sun 3:4:7 0.049% · sky 0.049→0.467 · –/7
 - A +1.2h · Chiron 2:3:5 on RA Saturn–Algol → Ceres 1:6:7 0.146% · sky 0.010→0.009 · –/5
 - A +1.4m · Orcus 1:3:4 on RA Vesta–Alkaid → Ceres 1:3:4 0.039% · sky 0.014→0.003 · –/6 UNISON
 - **A +8.3m · Ketu 1:7:8 on RA Juno–Betelgeuse → Rahu 1:3:4 0.017% · sky 0.017→0.011 · #1/6**
@@ -767,6 +908,11 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - in race · Ceres 1:3:4 on Dec Jupiter–Alphecca → Pallas 1:5:6 0.090% · sky 0.000→0.000 · –/11
 - in race · Jupiter 1:3:4 on Dec Ceres–Alphecca → Quaoar 3:8:11 0.073% · sky 0.000→0.000 · –/5
 - in race · Gonggong 1:7:8 on Dec Saturn–Vesta → Uranus 1:4:5 0.008% · sky 0.052→0.016 · –/9
+- in race · Moon 3:8:11 on Dec Vesta–Vega → Chiron 5:6:11 0.114% · sky 0.024→0.163 · –/12
+- in race · Moon 3:8:11 on Dec Vesta–Vega → Neptune 4:5:9 0.146% · sky 0.024→0.163 · –/12
+- in race · Moon 3:8:11 on Dec Vesta–Vega → Pluto 1:1:2 0.064% · sky 0.024→0.163 · –/12
+- in race · Moon 3:8:11 on Dec Vesta–Vega → Venus 3:8:11 0.142% · sky 0.024→0.163 · –/12 UNISON
+- in race · Moon 5:8:13 on Flat Pallas–Aldebaran → Haumea 3:8:11 0.125% · sky 0.169→0.063 · #1/1
 - A +1.4h · Sedna 5:6:11 on RA Pallas–Regulus → Neptune 1:√2:1+√2 0.116% · sky 0.004→0.004 · –/6
 - A +1.4h · Sedna 5:6:11 on RA Pallas–Regulus → Orcus 1:7:8 0.058% · sky 0.004→0.004 · –/6
 - **A +32.0m · Pluto 2:5:7 on RA Saturn–Pallas → Jupiter 1:7:8 0.010% · sky 0.008→0.007 · #1/7**
@@ -858,18 +1004,22 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 ## natal Sun
 
 **1 Forget You Not**
+- [L2] in race · Moon 5:6:11 on RA Uranus–Fomalhaut → Sun 3:8:11 0.005% · sky 0.032→0.299 · #1/6
 - [M3] S −6.5h · Pluto 1:4:5 on RA Betelgeuse–Deneb Algedi → Sun 1:1:2 0.056% · sky 0.006→0.006 · #4/7
 - [L4] S −21.8m · Eris 3:5:8 on Dec Venus–Vega → Sun 5:6:11 0.034% · sky 0.011→0.014 · –/10
 
 **1 James Best**
 - [L3] S −2.6h · Orcus 4:5:9 on RA Pallas–Rahu → Sun 5:8:13 0.020% · sky 0.019→0.019 · –/4
+- [SB] 15:09:19 · Sun + Neptune RA 2:5:7 (exact 6.8 min before the off, separating through the race)
+- [SB] 15:13:49 · Sun + Orcus Dec 1:7:8 (exact 2.2 min before the off, separating through the race)
 
 **2 Jarlath**
 - [L3] in race · Gonggong 1:7:8 on Dec Saturn–Vesta → Sun 4:5:9 0.072% · sky 0.052→0.016 · –/9
+- [L3] in race · Moon 1:2:3 on Dec Pallas–Bellatrix → Sun 5:8:13 0.143% · sky 0.455→0.120 · –/8
 - [L2] S −3.8h · Haumea 5:8:13 on Dec Pluto–Vega → Sun 1:1:2 0.084% · sky 0.009→0.009 · –/7
 - [L4] S −0.1m · Vesta 5:6:11 on Dec Mercury–Procyon → Sun 1:3:4 0.089% · sky 0.000→0.017 · –/6
 - [L2] S −4.9m · Vesta 4:5:9 on Dec Eris–Antares → Sun φ: φ/φ² 0.059% · sky 0.009→0.019 · –/8
-- [N2T] 15:20:54 · natal Sun → sky Sun RA 1619/9
+- [N2T] 15:20:54 · natal Sun → sky Sun RA 1619/9 (within ±0.002 15:17:49–15:23:54)
 
 **2 Sean Houlihan**
 - [M3] in race · Sun φ: φ/φ² on Dec Aldebaran–Bellatrix → Sun 2:3:5 0.028% · sky 0.003→0.005 · #1/7 SAME BODY
@@ -883,7 +1033,7 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - [M3] S −35.4m · Venus 4:5:9 on Dec Bellatrix–Castor → Sun 3:4:7 0.041% · sky 0.014→0.016 · #2/10
 - [L2] S −4.0h · Neptune 1:8:9 on Dec Gonggong–Alkaid → Sun 5:6:11 0.125% · sky 0.019→0.019 · –/6
 - [N2T] 15:22:59 · natal Sun → sky Sun Flat 1310/9 (after the finish; held in part of the race, within ±0.002 15:20:04–15:25:49)
-- [N2T] 15:19:04 · natal Sun → sky Sun Sky 1279/9
+- [N2T] 15:19:04 · natal Sun → sky Sun Sky 1279/9 (within ±0.002 15:16:09–15:21:54)
 
 **3 Tom Scudamore**
 - [L3] in race · Ceres 1:3:4 on Dec Jupiter–Alphecca → Sun 1:5:6 0.118% · sky 0.000→0.000 · –/11
@@ -897,6 +1047,7 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - [M3] in race · Mercury 5:8:13 on Dec Algol–Pleiades → Sun φ: 2/φ/φ³/φ³+1 0.081% · sky 0.000→0.002 · #7/11
 - [M3] A +2.1h · Transpluto 4:5:9 on RA Alkaid–Castor → Sun 3:5:8 0.062% · sky 0.003→0.003 · #1/3
 - [M3] S −17.3h · Gonggong 1:2:3 on Dec Procyon–Vega → Sun 4:5:9 0.086% · sky 0.007→0.007 · #8/10
+- [SB] 15:23:04 · Sun + Mercury Sky 1:8:9 (applying through the race, exact 2.1 min after the finish)
 - [SB] 15:16:49 · Sun + Moon Dec φ: φ/φ² (exact IN THE RACE)
 - [SB] 15:20:55 · Sun + Deneb Algedi Dec 1:5:6 (exact IN THE RACE)
 
@@ -915,30 +1066,41 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - [M3] S −2.0h · Uranus 4:5:9 on RA Bellatrix–Castor → Sun 1:2:3 0.062% · sky 0.008→0.008 · #4/6
 - [L3] S −4.9m · Eris 4:5:9 on Dec Vesta–Antares → Sun 1:7:8 0.020% · sky 0.009→0.019 · –/7
 - [N2T] 15:23:19 · natal Sun → sky Sun Flat 107φ (after the finish; held in part of the race, within ±0.002 15:20:09–15:26:29)
-- [N2T] 15:20:34 · natal Sun → sky Sun Sky 1546/9
+- [N2T] 15:20:34 · natal Sun → sky Sun Sky 1546/9 (within ±0.002 15:17:39–15:23:24)
 
 **PU Tom O'Brien**
 - [L2] in race · Mars 1:8:9 on Dec Orcus–Spica → Sun 5:8:13 0.070% · sky 0.038→0.001 · –/6
+- [SB] 15:13:49 · Sun + Algorab Dec 3:4:7 (exact 2.2 min before the off, separating through the race)
 
 **PU Blaze A Trail**
+- [L3] in race · Moon φ: φ/φ² on Dec Mars–Betelgeuse → Sun 3:4:7 0.049% · sky 0.049→0.467 · –/7
 - [M3] S −2.0h · Uranus 4:5:9 on RA Bellatrix–Castor → Sun 3:8:11 0.050% · sky 0.008→0.008 · #3/6
 - [L4] S −21.8m · Eris 3:5:8 on Dec Venus–Vega → Sun 2:3:5 0.083% · sky 0.011→0.014 · –/10
 - [L2] S −2.6h · Pallas 4:5:9 on RA Orcus–Rahu → Sun 1:√2:1+√2 0.129% · sky 0.019→0.019 · –/2
+- [SB] 15:24:34 · Sun + Algorab Dec 1:5:6 (applying through the race, exact 3.6 min after the finish)
+
+**PU Connor Brace**
+- [L2] in race · Moon φ: φ/φ² on Dec Pluto–Algol → Sun φ: φ/φ² 0.017% · sky 0.104→0.020 · #1/6 UNISON
+- [L2] in race · Moon 3:8:11 on Dec Gonggong–Bellatrix → Sun 5:8:13 0.081% · sky 0.330→0.193 · –/10
+- [SB] 15:25:34 · Sun + Moon Dec 3:5:8 (applying through the race, exact 4.6 min after the finish)
 
 
 ## natal Mars
 
 **1 Forget You Not**
 - [L2] in race · Sun 4:5:9 on Dec Transpluto–Antares → Mars 1:8:9 0.115% · sky 0.001→0.012 · –/4
+- [L3] in race · Moon 3:8:11 on Dec Vesta–Vega → Mars 5:6:11 0.001% · sky 0.024→0.163 · #1/12
 - [M3] A +5.1h · Ceres 3:8:11 on Dec Polaris–Spica → Mars 3:8:11 0.090% · sky 0.012→0.012 · #4/4 UNISON
 
 **1 James Best**
+- [L3] in race · Moon 1:2:3 on Dec Pallas–Bellatrix → Mars 1:√2:1+√2 0.107% · sky 0.455→0.120 · –/8
 - [L3] A +49.5m · Rahu φ: φ/φ² on Dec Vesta–Algol → Mars 1:√2:1+√2 0.121% · sky 0.014→0.013 · –/7
 - [L2] S −4.0h · Gonggong 1:8:9 on Dec Neptune–Alkaid → Mars 3:5:8 0.069% · sky 0.019→0.019 · –/5
 - [M3] S −1.9d · Sedna 5:8:13 on RA Altair–Fomalhaut → Mars 3:5:8 0.105% · sky 0.020→0.020 · #6/8
 
 **2 Jarlath**
 - [M3] in race · Moon 3:5:8 on RA Altair–Deneb Algedi → Mars 2:3:5 0.055% · sky 0.047→0.048 · #1/6
+- [L3] in race · Moon 3:8:11 on Dec Vesta–Vega → Mars φ: φ/φ² 0.011% · sky 0.024→0.163 · –/12
 - [L4] A +16.6m · Orcus φ: φ/φ² on Dec Mercury–Venus → Mars 2:5:7 0.145% · sky 0.007→0.005 · –/7
 - [L3] A +1.4m · Orcus 1:3:4 on RA Vesta–Alkaid → Mars 5:8:13 0.030% · sky 0.014→0.003 · #1/6
 - [L2] S −4.3h · Eris 5:8:13 on Dec Makemake–Deneb Algedi → Mars 4:5:9 0.071% · sky 0.001→0.001 · –/10
@@ -962,6 +1124,7 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - [L2] A +1.1h · Sedna 1:7:8 on RA Uranus–Algorab → Mars φ: 2−1/φ/φ²/φ√5 0.060% · sky 0.008→0.007 · –/5
 
 **4 Jonjo O'Neill Jr**
+- [L3] in race · Moon 1:2:3 on Dec Pallas–Bellatrix → Mars 5:8:13 0.054% · sky 0.455→0.120 · –/8
 - [L2] A +6.7d · Neptune 2:5:7 on Dec Makemake–Polaris → Mars 4:5:9 0.116% · sky 0.011→0.011 · –/11
 - [L4] S −15.9m · Saturn 2:5:7 on RA Sun–Vega → Mars 5:6:11 0.051% · sky 0.014→0.019 · –/5
 
@@ -969,6 +1132,9 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - [L2] S −4.3h · Makemake 5:8:13 on Dec Eris–Deneb Algedi → Mars 3:4:7 0.132% · sky 0.001→0.001 · –/4
 - [M3] S −2.0h · Uranus 4:5:9 on RA Bellatrix–Castor → Mars 3:4:7 0.021% · sky 0.008→0.008 · #1/6
 - [L2] S −2.3m · Mars 2:3:5 on Dec Quaoar–Antares → Mars φ: 2−1/φ/φ²/φ√5 0.104% · sky 0.006→0.017 · –/9 SAME BODY
+
+**PU Tom O'Brien**
+- [L2] in race · Moon 5:8:13 on RA Transpluto–Sirius → Mars 1:3:4 0.070% · sky 0.031→0.023 · –/5
 
 **PU Blaze A Trail**
 - [L3] S −0.1m · Mercury 5:6:11 on Dec Vesta–Procyon → Mars 2:5:7 0.068% · sky 0.000→0.017 · –/5
@@ -983,12 +1149,18 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - [M3] in race · Moon 2:3:5 on RA Capella–Vega → Neptune 5:8:13 0.021% · sky 0.043→0.078 · #2/6
 
 **1 James Best**
+- [L2] in race · Moon 1:5:6 on Dec Pluto–Bellatrix → Neptune 1:2:3 0.087% · sky 0.416→0.040 · –/5
 - [L2] A +4.5h · Quaoar φ: φ/φ² on RA Chiron–Haumea → Neptune 3:4:7 0.014% · sky 0.008→0.008 · #1/4
 - [M3] A +6.4h · Chiron φ: 2−1/φ/φ²/φ√5 on RA Antares–Spica → Neptune 4:5:9 0.068% · sky 0.009→0.008 · #7/13
 - [M3] A +3.7h · Transpluto 1:3:4 on Dec Arcturus–Betelgeuse → Neptune 2:5:7 0.146% · sky 0.018→0.017 · #9/9
+- [SB] 14:46:04 · Neptune + Sirius RA φ: φ/φ² (separating since before off-30)
 
 **2 Jarlath**
+- [L3] in race · Moon 3:8:11 on Dec Vesta–Vega → Neptune 1:8:9 0.073% · sky 0.024→0.163 · –/12
+- [L3] in race · Moon φ: 2−1/φ/φ²/φ√5 on Dec Mars–Alphecca → Neptune 2:3:5 0.009% · sky 0.191→0.085 · #1/7
+- [L2] in race · Moon 1:5:6 on Dec Pluto–Bellatrix → Neptune 3:8:11 0.026% · sky 0.416→0.040 · #1/5
 - [M3] S −20.9h · Jupiter 2:5:7 on RA Rigel–Vega → Neptune 1:2:3 0.150% · sky 0.011→0.011 · #7/7
+- [SB] 14:46:04 · Neptune + Betelgeuse RA 1:5:6 (separating since before off-30)
 
 **2 Sean Houlihan**
 - [M3] in race · Moon 1:2:3 on Dec Alphecca–Spica → Neptune 1:4:5 0.042% · sky 0.155→0.066 · #2/7
@@ -1017,19 +1189,24 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 **PU Pointed And Sharp**
 - [L2] S −4.3h · Eris 5:8:13 on Dec Makemake–Deneb Algedi → Neptune 1:8:9 0.095% · sky 0.001→0.001 · –/10
 - [SB] 15:16:49 · Neptune + Moon RA 3:4:7 (exact IN THE RACE)
+- [SB] 15:23:04 · Neptune + Vesta Dec 1:5:6 (applying through the race, exact 2.1 min after the finish)
 
 **PU Tom O'Brien**
 - [M3] A +6.4h · Chiron φ: 2−1/φ/φ²/φ√5 on RA Antares–Spica → Neptune 3:5:8 0.143% · sky 0.009→0.008 · #13/13
 
 **PU Blaze A Trail**
+- [L3] in race · Moon 3:8:11 on Dec Jupiter–Capella → Neptune 3:4:7 0.067% · sky 0.023→0.130 · –/8
 - [M3] A +6.4h · Chiron φ: 2−1/φ/φ²/φ√5 on RA Antares–Spica → Neptune 1:2:3 0.141% · sky 0.009→0.008 · #12/13
 - [M3] S −11.0h · Orcus 5:8:13 on RA Algol–Procyon → Neptune 1:1:2 0.130% · sky 0.015→0.015 · #7/8
 - [L2] S −4.9m · Vesta 4:5:9 on Dec Eris–Antares → Neptune φ: 2−1/φ/φ²/φ√5 0.061% · sky 0.009→0.019 · –/8
 - [M3] S −6.2h · Sedna 1:7:8 on Dec Regulus–Vega → Neptune 4:5:9 0.096% · sky 0.020→0.020 · #6/10
+- [SB] 15:13:34 · Neptune + Pallas Dec 1:3:4 (exact 2.5 min before the off, separating through the race)
 
 **PU Connor Brace**
+- [L3] in race · Moon 3:8:11 on Dec Vesta–Vega → Neptune 4:5:9 0.146% · sky 0.024→0.163 · –/12
 - [L3] A +1.4h · Sedna 5:6:11 on RA Pallas–Regulus → Neptune 1:√2:1+√2 0.116% · sky 0.004→0.004 · –/6
 - [L2] S −23.3m · Rahu φ: φ/φ² on RA Eris–Castor → Neptune 5:6:11 0.120% · sky 0.008→0.009 · –/6
+- [SB] 14:46:04 · Neptune + Antares RA 2:3:5 (separating since before off-30)
 
 
 ## natal Uranus
@@ -1037,12 +1214,15 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 **1 Forget You Not**
 - [L2] A +50.4m · Mercury 5:8:13 on RA Quaoar–Deneb Algedi → Uranus 5:6:11 0.013% · sky 0.009→0.009 · #1/5
 - [L2] A +2.0h · Rahu 4:5:9 on Dec Quaoar–Alkaid → Uranus 1:2:3 0.135% · sky 0.010→0.010 · –/2
+- [SB] 15:24:04 · Uranus + Moon Dec 1:2:3 (applying through the race, exact 3.1 min after the finish)
 
 **1 James Best**
 - [L2] S −3.1h · Uranus 5:8:13 on Dec Pluto–Rigel → Uranus 1:3:4 0.054% · sky 0.006→0.006 · –/9 SAME BODY
 
 **2 Jarlath**
 - [M3] in race · Sun φ: φ/φ² on Dec Aldebaran–Bellatrix → Uranus φ: φ/φ² 0.148% · sky 0.003→0.005 · #7/7 UNISON
+- [L3] in race · Moon 1:√2:1+√2 on Dec Saturn–Ceres → Uranus 1:5:6 0.045% · sky 0.171→0.044 · –/7
+- [L2] in race · Moon 1:5:6 on Dec Pluto–Bellatrix → Uranus 1:3:4 0.026% · sky 0.416→0.040 · –/5
 - [L2] A +1.2h · Saturn 2:3:5 on RA Chiron–Algol → Uranus 5:8:13 0.095% · sky 0.010→0.009 · –/3
 
 **2 Sean Houlihan**
@@ -1050,8 +1230,11 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - [SB] 15:17:04 · Uranus + Moon Dec 5:8:13 (exact IN THE RACE (another strike on the same string))
 
 **3 Caspers Court**
+- [L2] in race · Moon 5:6:11 on Dec Haumea–Altair → Uranus 3:8:11 0.011% · sky 0.149→0.102 · –/12
+- [L3] in race · Moon φ: φ/φ² on Dec Mars–Betelgeuse → Uranus 1:4:5 0.067% · sky 0.049→0.467 · –/7
 - [L2] S −4.3h · Eris 5:8:13 on Dec Makemake–Deneb Algedi → Uranus 1:1:2 0.045% · sky 0.001→0.001 · –/10
 - [SB] 15:21:04 · Uranus + Moon Dec φ: 2−1/φ/φ²/φ√5 (exact 0.1 min after the finish (another strike on the same string))
+- [SB] 15:50:55 · Uranus + Rigel RA 1:√2:1+√2 (still applying at off+30)
 
 **3 Tom Scudamore**
 - [L2] A +4.5h · Chiron φ: φ/φ² on RA Haumea–Quaoar → Uranus 3:8:11 0.054% · sky 0.008→0.008 · #1/6
@@ -1079,6 +1262,10 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - [Nodes] S −22.2m · Mars 1:8:9 on Dec Rahu–Pleiades → Uranus 1:1:2 0.126% · sky 0.004→0.005 · –/11
 - [SB] 15:19:19 · Uranus + Moon RA 2:5:7 (exact IN THE RACE)
 
+**PU Blaze A Trail**
+- [L3] in race · Moon 3:8:11 on Dec Jupiter–Capella → Uranus 1:√2:1+√2 0.092% · sky 0.023→0.130 · –/8
+- [SB] 15:12:04 · Uranus + Moon Dec 2:5:7 (exact 4.0 min before the off, separating through the race)
+
 **PU Connor Brace**
 - [L3] in race · Gonggong 1:7:8 on Dec Saturn–Vesta → Uranus 1:4:5 0.008% · sky 0.052→0.016 · –/9
 - [M3] S −11.6h · Quaoar φ: φ/φ² on Dec Betelgeuse–Fomalhaut → Uranus 1:√2:1+√2 0.079% · sky 0.014→0.014 · #7/10
@@ -1098,7 +1285,7 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - **Jupiter** — horse: M3 S −20.9h 2:5:7 RA Rigel–Vega → Eris 0.079; L2 S −6.5h 2:5:7 Flat Neptune–Rahu → Mercury 0.089 | jockey: L4 S −5.9m 5:6:11 Dec Mercury–Venus → Saturn 0.106
 - **Mars** ★ Dec Quaoar–Antares — horse: L2 S −2.3m 2:3:5 Dec Quaoar–Antares → Juno 0.080; L3 A +4.9m 3:5:8 RA Jupiter–Antares → Venus 0.068 | jockey: M3 A +7.1m 3:8:11 Dec Algol–Procyon → Juno 0.078; Nodes S −22.2m 1:8:9 Dec Rahu–Pleiades → Sedna 0.053; L2 S −2.3m 2:3:5 Dec Quaoar–Antares → Ketu 0.131; L2 S −2.3m 2:3:5 Dec Quaoar–Antares → Pluto 0.106; L2 in race 1:8:9 Dec Orcus–Spica → Jupiter 0.002*
 - **Mercury** ★ Dec Algol–Pleiades — horse: M3 in race 5:8:13 Dec Algol–Pleiades → Juno 0.127; M3 in race 5:8:13 Dec Algol–Pleiades → Eris 0.007*; M3 in race 5:8:13 Dec Algol–Pleiades → Transpluto 0.073; L2 A +50.4m 5:8:13 RA Quaoar–Deneb Algedi → Uranus 0.013*; L2 A +50.4m 5:8:13 RA Quaoar–Deneb Algedi → Orcus 0.050 | jockey: M3 in race 5:8:13 Dec Algol–Pleiades → Orcus 0.024
-- **Moon** ★ Dec Aldebaran–Procyon, Dec Alphecca–Spica, RA Arcturus–Fomalhaut — horse: M3 in race 1:2:3 Dec Alphecca–Spica → Saturn 0.047; M3 in race 2:3:5 RA Capella–Vega → Neptune 0.021; M3 in race φ: 2/φ/φ³/φ³+1 RA Arcturus–Fomalhaut → Pluto 0.091; M3 in race 3:5:8 RA Altair–Deneb Algedi → Haumea 0.142; M3 in race 1:3:4 Dec Aldebaran–Procyon → Gonggong 0.005*; M3 in race φ: 2−1/φ/φ²/φ√5 Dec Arcturus–Bellatrix → Transpluto 0.084 | jockey: M3 in race φ: 2/φ/φ³/φ³+1 RA Arcturus–Fomalhaut → Mercury 0.140; M3 in race 1:2:3 Dec Alphecca–Spica → Jupiter 0.115; M3 in race φ: 2/φ/φ³/φ³+1 RA Arcturus–Fomalhaut → Saturn 0.038; M3 in race φ: 2/φ/φ³/φ³+1 RA Arcturus–Fomalhaut → Pluto 0.045; M3 in race 1:2:3 Dec Alphecca–Spica → Orcus 0.048; M3 in race 1:3:4 Dec Aldebaran–Procyon → Ketu 0.147
+- **Moon** ★ Dec Aldebaran–Procyon, Dec Alphecca–Spica, Dec Haumea–Altair, Dec Haumea–Ketu, Dec Haumea–Procyon, Dec Pallas–Bellatrix, RA Arcturus–Fomalhaut — horse: M3 in race 1:2:3 Dec Alphecca–Spica → Saturn 0.047; M3 in race 2:3:5 RA Capella–Vega → Neptune 0.021; M3 in race φ: 2/φ/φ³/φ³+1 RA Arcturus–Fomalhaut → Pluto 0.091; M3 in race 3:5:8 RA Altair–Deneb Algedi → Haumea 0.142; M3 in race 1:3:4 Dec Aldebaran–Procyon → Gonggong 0.005*; M3 in race φ: 2−1/φ/φ²/φ√5 Dec Arcturus–Bellatrix → Transpluto 0.084; L2 in race 5:6:11 RA Uranus–Fomalhaut → Sun 0.005*; L2 in race φ: φ/φ² Dec Pluto–Algol → Chiron 0.138; L2 in race φ: φ/φ² Dec Pluto–Algol → Jupiter 0.136; L2 in race 5:6:11 Dec Haumea–Altair → Sedna 0.092; L2 in race 2:3:5 Dec Haumea–Pleiades → Saturn 0.105; L2 in race φ: 2−1/φ/φ²/φ√5 Dec Haumea–Procyon → Gonggong 0.106; L2 in race φ: φ/φ² Dec Haumea–Ketu → Saturn 0.117; L3 in race φ: 2−1/φ/φ²/φ√5 Dec Mars–Alphecca → Juno 0.127; L3 in race 1:2:3 Dec Pallas–Bellatrix → Saturn 0.148; L3 in race 3:8:11 Dec Vesta–Vega → Mars 0.001*; L3 in race 3:8:11 Dec Vesta–Vega → Pallas 0.040; L3 in race 3:8:11 Dec Vesta–Vega → Makemake 0.078 | jockey: M3 in race φ: 2/φ/φ³/φ³+1 RA Arcturus–Fomalhaut → Mercury 0.140; M3 in race 1:2:3 Dec Alphecca–Spica → Jupiter 0.115; M3 in race φ: 2/φ/φ³/φ³+1 RA Arcturus–Fomalhaut → Saturn 0.038; M3 in race φ: 2/φ/φ³/φ³+1 RA Arcturus–Fomalhaut → Pluto 0.045; M3 in race 1:2:3 Dec Alphecca–Spica → Orcus 0.048; M3 in race 1:3:4 Dec Aldebaran–Procyon → Ketu 0.147; L2 in race 1:5:6 Dec Pluto–Bellatrix → Neptune 0.087; L2 in race 5:8:13 RA Transpluto–Sirius → Juno 0.148; L2 in race 5:6:11 Dec Haumea–Altair → Ceres 0.010; L2 in race 5:6:11 Dec Haumea–Altair → Mercury 0.058; L2 in race φ: 2−1/φ/φ²/φ√5 Dec Haumea–Procyon → Gonggong 0.016; L2 in race φ: φ/φ² Dec Haumea–Ketu → Jupiter 0.110; L3 in race 3:8:11 Dec Jupiter–Capella → Mercury 0.012*; L3 in race 3:8:11 Dec Jupiter–Capella → Pluto 0.111; L3 in race 1:2:3 Dec Pallas–Bellatrix → Mars 0.107; L3 in race φ: φ/φ² Dec Vesta–Pleiades → Quaoar 0.102
 - **Orcus** — horse: M3 S −3.0h 5:6:11 Dec Antares–Bellatrix → Quaoar 0.089; M3 S −3.0h 5:6:11 Dec Antares–Bellatrix → Gonggong 0.138 | jockey: L3 S −2.6h 4:5:9 RA Pallas–Rahu → Sun 0.020; L4 A +16.6m φ: φ/φ² Dec Mercury–Venus → Saturn 0.106
 - **Pluto** ★ Dec Uranus–Rigel, RA Betelgeuse–Deneb Algedi · SAME-BODY CROSSING: James Best's own Pluto — horse: M3 S −6.5h 1:4:5 RA Betelgeuse–Deneb Algedi → Sun 0.056; M3 S −6.5h 1:4:5 RA Betelgeuse–Deneb Algedi → Jupiter 0.148; L2 S −3.1h 5:8:13 Dec Uranus–Rigel → Makemake 0.040 | jockey: M3 S −6.5h 1:4:5 RA Betelgeuse–Deneb Algedi → Sedna 0.021; M3 S −6.5h 1:4:5 RA Betelgeuse–Deneb Algedi → Quaoar 0.099; L2 S −3.1h 5:8:13 Dec Uranus–Rigel → Pluto 0.054
 - **Quaoar** ★ Dec Mars–Antares, Dec Rahu–Alkaid — horse: M3 S −11.6h φ: φ/φ² Dec Betelgeuse–Fomalhaut → Juno 0.136; Nodes A +2.0h 4:5:9 Dec Rahu–Alkaid → Mercury 0.066; L3 S −2.3m 2:3:5 Dec Mars–Antares → Transpluto 0.115 | jockey: Nodes A +2.0h 4:5:9 Dec Rahu–Alkaid → Vesta 0.112; L2 A +4.5h φ: φ/φ² RA Chiron–Haumea → Neptune 0.014*; L3 S −2.3m 2:3:5 Dec Mars–Antares → Pallas 0.002
@@ -1121,7 +1308,7 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - **Jupiter** — horse: M3 S −20.9h 2:5:7 RA Rigel–Vega → Mars 0.138; M3 S −20.9h 2:5:7 RA Rigel–Vega → Neptune 0.150; L2 S −9.5h 3:8:11 RA Uranus–Pluto → Sedna 0.127; L4 S −5.9m 5:6:11 Dec Mercury–Venus → Mars 0.145 | jockey: L3 A +4.9m 3:5:8 RA Mars–Antares → Mercury 0.130; L3 in race 1:3:4 Dec Ceres–Alphecca → Sedna 0.024
 - **Makemake** · SAME-BODY CROSSING: Jarlath's own Makemake — horse: L2 S −4.3h 5:8:13 Dec Eris–Deneb Algedi → Makemake 0.148 | jockey: L2 A +6.7d 2:5:7 Dec Neptune–Polaris → Sun 0.146
 - **Mercury** — horse: L2 A +50.4m 5:8:13 RA Quaoar–Deneb Algedi → Sedna 0.114 | jockey: M3 in race 5:8:13 Dec Algol–Pleiades → Jupiter 0.009; M3 in race 5:8:13 Dec Algol–Pleiades → Saturn 0.101; M3 in race 5:8:13 Dec Algol–Pleiades → Uranus 0.017; M3 in race 5:8:13 Dec Algol–Pleiades → Pallas 0.113; L3 S −0.1m 5:6:11 Dec Vesta–Procyon → Makemake 0.145
-- **Moon** ★ Dec Arcturus–Bellatrix — horse: M3 in race 3:5:8 RA Altair–Deneb Algedi → Mercury 0.057; M3 in race 3:5:8 RA Altair–Deneb Algedi → Mars 0.055; M3 in race 2:3:5 RA Capella–Vega → Jupiter 0.024; M3 in race φ: 2−1/φ/φ²/φ√5 Dec Arcturus–Bellatrix → Orcus 0.019 | jockey: M3 in race 1:3:4 Dec Aldebaran–Procyon → Sun 0.079; M3 in race 1:2:3 Dec Alphecca–Spica → Mercury 0.006*; M3 in race 1:2:3 Dec Alphecca–Spica → Neptune 0.042; M3 in race 5:6:11 Dec Regulus–Spica → Pallas 0.103; M3 in race φ: 2−1/φ/φ²/φ√5 Dec Arcturus–Bellatrix → Haumea 0.008
+- **Moon** ★ Dec Arcturus–Bellatrix, Dec Pallas–Bellatrix, Dec Pluto–Bellatrix — horse: M3 in race 3:5:8 RA Altair–Deneb Algedi → Mercury 0.057; M3 in race 3:5:8 RA Altair–Deneb Algedi → Mars 0.055; M3 in race 2:3:5 RA Capella–Vega → Jupiter 0.024; M3 in race φ: 2−1/φ/φ²/φ√5 Dec Arcturus–Bellatrix → Orcus 0.019; L2 in race 3:5:8 Dec Neptune–Procyon → Pluto 0.043; L2 in race 1:5:6 Dec Pluto–Bellatrix → Neptune 0.026; L2 in race 1:5:6 Dec Pluto–Bellatrix → Uranus 0.026; L2 in race 1:4:5 Dec Chiron–Pleiades → Sedna 0.062; L2 in race 1:2:3 Dec Chiron–Haumea → Juno 0.046; L2 in race 5:6:11 Dec Haumea–Altair → Jupiter 0.031; L2 in race φ: 2−1/φ/φ²/φ√5 Dec Haumea–Procyon → Ceres 0.110; L2 in race φ: 2−1/φ/φ²/φ√5 Dec Haumea–Procyon → Quaoar 0.014*; L3 in race 3:8:11 Dec Jupiter–Capella → Venus 0.145; L3 in race 3:8:11 Dec Jupiter–Capella → Vesta 0.062; L3 in race 1:√2:1+√2 Dec Saturn–Ceres → Rahu 0.010*; L3 in race 1:√2:1+√2 Dec Saturn–Ceres → Uranus 0.045; L3 in race 1:√2:1+√2 Dec Saturn–Ceres → Gonggong 0.092; L3 in race φ: 2−1/φ/φ²/φ√5 Dec Mars–Alphecca → Neptune 0.009*; L3 in race 1:2:3 Dec Pallas–Bellatrix → Sun 0.143; L3 in race 3:8:11 Dec Vesta–Vega → Mars 0.011; L3 in race 3:8:11 Dec Vesta–Vega → Neptune 0.073 | jockey: M3 in race 1:3:4 Dec Aldebaran–Procyon → Sun 0.079; M3 in race 1:2:3 Dec Alphecca–Spica → Mercury 0.006*; M3 in race 1:2:3 Dec Alphecca–Spica → Neptune 0.042; M3 in race 5:6:11 Dec Regulus–Spica → Pallas 0.103; M3 in race φ: 2−1/φ/φ²/φ√5 Dec Arcturus–Bellatrix → Haumea 0.008; L2 in race φ: φ/φ² Dec Pluto–Algol → Venus 0.057; L2 in race 1:5:6 Dec Pluto–Bellatrix → Orcus 0.036; L2 in race 5:8:13 RA Transpluto–Sirius → Vesta 0.148; L3 in race φ: φ/φ² Dec Mars–Betelgeuse → Sedna 0.044; L3 in race 1:2:3 Dec Pallas–Bellatrix → Venus 0.101
 - **Neptune** ★ Dec Gonggong–Alkaid — horse: L2 S −4.0h 1:8:9 Dec Gonggong–Alkaid → Mars 0.086 | jockey: L2 S −4.0h 1:8:9 Dec Gonggong–Alkaid → Sun 0.077
 - **Orcus** ★ Dec Antares–Bellatrix · SAME-BODY CROSSING: Jarlath's own Orcus — horse: M3 A +6.6h 1:2:3 RA Aldebaran–Spica → Sedna 0.028; M3 S −3.0h 5:6:11 Dec Antares–Bellatrix → Makemake 0.124; M3 S −3.0h 5:6:11 Dec Antares–Bellatrix → Gonggong 0.028; M3 A +6.6h 1:2:3 RA Aldebaran–Spica → Transpluto 0.140; L3 A +1.4m 1:3:4 RA Vesta–Alkaid → Mars 0.030; L3 A +1.4m 1:3:4 RA Vesta–Alkaid → Orcus 0.136; L4 A +16.6m φ: φ/φ² Dec Mercury–Venus → Mars 0.145 | jockey: M3 S −11.0h 5:8:13 RA Algol–Procyon → Ceres 0.004*; M3 S −3.0h 5:6:11 Dec Antares–Bellatrix → Ceres 0.115; L2 A +2.4h 3:4:7 Dec Uranus–Equator → Eris 0.008*; L2 A +2.4h 3:4:7 Dec Uranus–Equator → Sedna 0.026; L3 in race 1:8:9 Dec Mars–Spica → Ceres 0.072; L3 in race 1:8:9 Dec Mars–Spica → Pluto 0.090
 - **Quaoar** — horse: M3 S −11.6h φ: φ/φ² Dec Betelgeuse–Fomalhaut → Orcus 0.053; L3 S −2.3m 2:3:5 Dec Mars–Antares → Chiron 0.141; L4 A +50.4m 5:8:13 RA Mercury–Deneb Algedi → Rahu 0.132 | jockey: Nodes A +2.0h 4:5:9 Dec Rahu–Alkaid → Vesta 0.078
@@ -1146,7 +1333,7 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - **Jupiter** ★ Dec Ceres–Alphecca, RA Uranus–Pluto — horse: L2 S −9.5h 3:8:11 RA Uranus–Pluto → Mercury 0.077; L3 A +4.9m 3:5:8 RA Mars–Antares → Transpluto 0.030; L3 in race 1:3:4 Dec Ceres–Alphecca → Mars 0.067 | jockey: M3 S −20.9h 2:5:7 RA Rigel–Vega → Vesta 0.065; L2 S −9.5h 3:8:11 RA Uranus–Pluto → Ketu 0.054; L2 S −9.5h 3:8:11 RA Uranus–Pluto → Makemake 0.019*; L3 in race 1:3:4 Dec Ceres–Alphecca → Pluto 0.080; L4 S −5.9m 5:6:11 Dec Mercury–Venus → Neptune 0.038
 - **Makemake** — horse: M3 A +9.3h 1:3:4 RA Aldebaran–Sirius → Ketu 0.100 | jockey: L2 A +6.7d 2:5:7 Dec Neptune–Polaris → Sun 0.086
 - **Mars** ★ Dec Rahu–Pleiades — horse: M3 A +7.1m 3:8:11 Dec Algol–Procyon → Pallas 0.004*; Nodes S −22.2m 1:8:9 Dec Rahu–Pleiades → Pallas 0.065; L2 S −2.3m 2:3:5 Dec Quaoar–Antares → Ceres 0.078 | jockey: Nodes S −22.2m 1:8:9 Dec Rahu–Pleiades → Mercury 0.088; L2 in race 1:8:9 Dec Orcus–Spica → Juno 0.086
-- **Moon** ★ Dec Aldebaran–Procyon, RA Capella–Vega — horse: M3 in race φ: 2−1/φ/φ²/φ√5 Dec Arcturus–Bellatrix → Saturn 0.022; M3 in race 5:6:11 Dec Regulus–Spica → Saturn 0.110; M3 in race 5:6:11 Dec Regulus–Spica → Vesta 0.128; M3 in race 1:3:4 Dec Aldebaran–Procyon → Gonggong 0.064; M3 in race 2:3:5 RA Capella–Vega → Ketu 0.001* | jockey: M3 in race 2:3:5 RA Capella–Vega → Sun 0.111; M3 in race 3:5:8 RA Altair–Deneb Algedi → Mars 0.122; M3 in race 1:3:4 Dec Aldebaran–Procyon → Quaoar 0.063
+- **Moon** ★ Dec Aldebaran–Procyon, Dec Gonggong–Bellatrix, Dec Haumea–Altair, Dec Mars–Betelgeuse, RA Capella–Vega, RA Transpluto–Sirius — horse: M3 in race φ: 2−1/φ/φ²/φ√5 Dec Arcturus–Bellatrix → Saturn 0.022; M3 in race 5:6:11 Dec Regulus–Spica → Saturn 0.110; M3 in race 5:6:11 Dec Regulus–Spica → Vesta 0.128; M3 in race 1:3:4 Dec Aldebaran–Procyon → Gonggong 0.064; M3 in race 2:3:5 RA Capella–Vega → Ketu 0.001*; L2 in race 3:5:8 Dec Neptune–Procyon → Orcus 0.019*; L2 in race 1:2:3 Dec Chiron–Haumea → Venus 0.141; L2 in race 5:8:13 RA Transpluto–Sirius → Eris 0.121; L2 in race 5:6:11 Dec Haumea–Altair → Uranus 0.011; L2 in race 3:8:11 Dec Gonggong–Bellatrix → Haumea 0.015*; L3 in race φ: 2−1/φ/φ²/φ√5 Dec Mars–Alphecca → Ceres 0.067; L3 in race φ: φ/φ² Dec Mars–Betelgeuse → Uranus 0.067; L3 in race 1:2:3 Dec Pallas–Bellatrix → Makemake 0.098; L3 in race φ: φ/φ² Dec Vesta–Pleiades → Transpluto 0.038 | jockey: M3 in race 2:3:5 RA Capella–Vega → Sun 0.111; M3 in race 3:5:8 RA Altair–Deneb Algedi → Mars 0.122; M3 in race 1:3:4 Dec Aldebaran–Procyon → Quaoar 0.063; L2 in race 5:8:13 RA Transpluto–Sirius → Chiron 0.018*; L2 in race 5:6:11 Dec Haumea–Altair → Rahu 0.006*; L2 in race 3:8:11 Dec Gonggong–Bellatrix → Ceres 0.021; L3 in race 1:√2:1+√2 Dec Saturn–Ceres → Pluto 0.100; L3 in race φ: φ/φ² Dec Mars–Betelgeuse → Saturn 0.029; L3 in race 3:4:7 Dec Vesta–Regulus → Ketu 0.043; L3 in race 3:4:7 Dec Vesta–Regulus → Rahu 0.007*
 - **Neptune** ★ Dec Makemake–Polaris — horse: L2 A +6.7d 2:5:7 Dec Makemake–Polaris → Ceres 0.058; L2 A +6.7d 2:5:7 Dec Makemake–Polaris → Pluto 0.134; L2 A +6.7d 2:5:7 Dec Makemake–Polaris → Rahu 0.054; L2 S −4.0h 1:8:9 Dec Gonggong–Alkaid → Sun 0.125 | jockey: L2 A +6.7d 2:5:7 Dec Makemake–Polaris → Venus 0.039
 - **Orcus** ★ Dec Uranus–Equator, RA Aldebaran–Spica, RA Algol–Procyon — horse: M3 S −11.0h 5:8:13 RA Algol–Procyon → Neptune 0.067; M3 S −11.0h 5:8:13 RA Algol–Procyon → Sedna 0.031; M3 A +6.6h 1:2:3 RA Aldebaran–Spica → Transpluto 0.101; L2 A +2.4h 3:4:7 Dec Uranus–Equator → Vesta 0.096 | jockey: M3 S −11.0h 5:8:13 RA Algol–Procyon → Saturn 0.105; M3 A +6.6h 1:2:3 RA Aldebaran–Spica → Rahu 0.061; L2 A +2.4h 3:4:7 Dec Uranus–Equator → Juno 0.069; L3 S −2.6h 4:5:9 RA Pallas–Rahu → Neptune 0.020; L3 A +1.4m 1:3:4 RA Vesta–Alkaid → Juno 0.047; L4 A +16.6m φ: φ/φ² Dec Mercury–Venus → Neptune 0.038
 - **Quaoar** ★ Dec Rahu–Alkaid, RA Chiron–Haumea — horse: Nodes A +2.0h 4:5:9 Dec Rahu–Alkaid → Pallas 0.014*; L2 A +4.5h φ: φ/φ² RA Chiron–Haumea → Pluto 0.149 | jockey: Nodes A +2.0h 4:5:9 Dec Rahu–Alkaid → Ceres 0.065; Nodes A +2.0h 4:5:9 Dec Rahu–Alkaid → Saturn 0.095; Nodes A +2.0h 4:5:9 Dec Rahu–Alkaid → Venus 0.081; L2 A +4.5h φ: φ/φ² RA Chiron–Haumea → Jupiter 0.071; L3 S −2.3m 2:3:5 Dec Mars–Antares → Pallas 0.131; L3 S −2.3m 2:3:5 Dec Mars–Antares → Makemake 0.086
@@ -1173,7 +1360,7 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - **Makemake** ★ RA Aldebaran–Sirius — horse: M3 A +9.3h 1:3:4 RA Aldebaran–Sirius → Orcus 0.003* | jockey: M3 A +9.3h 1:3:4 RA Aldebaran–Sirius → Vesta 0.055; L2 A +6.7d 2:5:7 Dec Neptune–Polaris → Rahu 0.028
 - **Mars** — horse: Nodes S −22.2m 1:8:9 Dec Rahu–Pleiades → Juno 0.119 | jockey: L2 S −2.3m 2:3:5 Dec Quaoar–Antares → Eris 0.101; L2 S −2.3m 2:3:5 Dec Quaoar–Antares → Saturn 0.051; L3 A +4.9m 3:5:8 RA Jupiter–Antares → Orcus 0.138
 - **Mercury** ★ Dec Algol–Pleiades, Dec Vesta–Procyon — horse: M3 in race 5:8:13 Dec Algol–Pleiades → Sun 0.081; L3 S −0.1m 5:6:11 Dec Vesta–Procyon → Uranus 0.056 | jockey: M3 in race 5:8:13 Dec Algol–Pleiades → Juno 0.072; L2 A +50.4m 5:8:13 RA Quaoar–Deneb Algedi → Uranus 0.104; L3 S −0.1m 5:6:11 Dec Vesta–Procyon → Rahu 0.132
-- **Moon** ★ Dec Aldebaran–Procyon, RA Capella–Vega — horse: M3 in race 3:5:8 RA Altair–Deneb Algedi → Pluto 0.112; M3 in race 1:3:4 Dec Aldebaran–Procyon → Eris 0.099; M3 in race 2:3:5 RA Capella–Vega → Eris 0.116; M3 in race 1:3:4 Dec Aldebaran–Procyon → Ketu 0.145 | jockey: M3 in race 1:3:4 Dec Aldebaran–Procyon → Mercury 0.071; M3 in race 2:3:5 RA Capella–Vega → Uranus 0.121
+- **Moon** ★ Dec Aldebaran–Procyon, Dec Chiron–Haumea, Dec Chiron–Pleiades, Dec Gonggong–Bellatrix, Dec Haumea–Procyon, Dec Neptune–Procyon, Dec Pallas–Bellatrix, RA Capella–Vega — horse: M3 in race 3:5:8 RA Altair–Deneb Algedi → Pluto 0.112; M3 in race 1:3:4 Dec Aldebaran–Procyon → Eris 0.099; M3 in race 2:3:5 RA Capella–Vega → Eris 0.116; M3 in race 1:3:4 Dec Aldebaran–Procyon → Ketu 0.145; L2 in race 3:5:8 Dec Neptune–Procyon → Eris 0.105; L2 in race 1:5:6 Dec Pluto–Bellatrix → Venus 0.127; L2 in race 1:4:5 Dec Chiron–Pleiades → Saturn 0.094; L2 in race 1:2:3 Dec Chiron–Haumea → Ceres 0.090; L2 in race 1:2:3 Dec Chiron–Haumea → Pluto 0.115; L2 in race 5:6:11 Dec Haumea–Altair → Ketu 0.124; L2 in race 5:6:11 Dec Haumea–Altair → Transpluto 0.068; L2 in race 2:3:5 Dec Haumea–Pleiades → Juno 0.029; L2 in race φ: 2−1/φ/φ²/φ√5 Dec Haumea–Procyon → Rahu 0.052; L2 in race 3:8:11 Dec Gonggong–Bellatrix → Ceres 0.075; L3 in race 3:8:11 Dec Jupiter–Capella → Vesta 0.054; L3 in race 1:√2:1+√2 Dec Saturn–Ceres → Eris 0.065; L3 in race 5:6:11 Sky Saturn–Ceres → Vesta 0.125; L3 in race φ: 2−1/φ/φ²/φ√5 Dec Mars–Alphecca → Juno 0.075; L3 in race φ: 2−1/φ/φ²/φ√5 Dec Mars–Alphecca → Gonggong 0.092; L3 in race φ: 2−1/φ/φ²/φ√5 Dec Mars–Alphecca → Haumea 0.099; L3 in race φ: φ/φ² Dec Mars–Betelgeuse → Eris 0.026; L3 in race 1:2:3 Dec Pallas–Bellatrix → Makemake 0.004*; L3 in race 3:8:11 Dec Vesta–Vega → Ceres 0.105; L3 in race 3:8:11 Dec Vesta–Vega → Makemake 0.132 | jockey: M3 in race 1:3:4 Dec Aldebaran–Procyon → Mercury 0.071; M3 in race 2:3:5 RA Capella–Vega → Uranus 0.121; L2 in race 5:6:11 RA Uranus–Fomalhaut → Venus 0.022; L2 in race 5:6:11 RA Uranus–Fomalhaut → Vesta 0.012; L2 in race 5:6:11 RA Uranus–Fomalhaut → Makemake 0.042; L2 in race 3:5:8 Dec Neptune–Procyon → Venus 0.091; L2 in race 1:4:5 Dec Chiron–Pleiades → Ceres 0.019*; L2 in race 1:4:5 Dec Chiron–Pleiades → Transpluto 0.066; L2 in race 1:2:3 Dec Chiron–Haumea → Sedna 0.059; L2 in race φ: 2−1/φ/φ²/φ√5 Dec Haumea–Procyon → Quaoar 0.145; L2 in race 3:8:11 Dec Gonggong–Bellatrix → Haumea 0.023; L2 in race 3:8:11 Dec Gonggong–Bellatrix → Orcus 0.097; L3 in race 1:2:3 Dec Pallas–Bellatrix → Mars 0.054; L3 in race φ: φ/φ² Dec Vesta–Pleiades → Ketu 0.142; L3 in race φ: φ/φ² Dec Vesta–Pleiades → Orcus 0.140
 - **Neptune** ★ Dec Makemake–Polaris — horse: L2 A +6.7d 2:5:7 Dec Makemake–Polaris → Transpluto 0.142; L2 S −4.0h 1:8:9 Dec Gonggong–Alkaid → Pluto 0.015* | jockey: L2 A +6.7d 2:5:7 Dec Makemake–Polaris → Mars 0.116; L2 A +6.7d 2:5:7 Dec Makemake–Polaris → Pallas 0.140; L2 A +6.7d 2:5:7 Dec Makemake–Polaris → Sedna 0.014*
 - **Orcus** ★ Dec Mars–Spica, Dec Mercury–Venus — horse: L3 in race 1:8:9 Dec Mars–Spica → Juno 0.042; L4 A +16.6m φ: φ/φ² Dec Mercury–Venus → Sedna 0.034 | jockey: M3 S −11.0h 5:8:13 RA Algol–Procyon → Uranus 0.010; L3 in race 1:8:9 Dec Mars–Spica → Sun 0.123; L3 in race 1:8:9 Dec Mars–Spica → Uranus 0.032; L3 S −2.6h 4:5:9 RA Pallas–Rahu → Venus 0.016*; L3 A +1.4m 1:3:4 RA Vesta–Alkaid → Pallas 0.113; L4 A +16.6m φ: φ/φ² Dec Mercury–Venus → Pluto 0.121
 - **Pluto** ★ Dec Haumea–Vega, Dec Uranus–Rigel, RA Saturn–Pallas · SAME-BODY CROSSING: Jonjo O'Neill Jr's own Pluto, Pens Man's own Pluto — horse: M3 S −6.5h 1:4:5 RA Betelgeuse–Deneb Algedi → Pluto 0.009*; M3 S −6.5h 1:4:5 RA Betelgeuse–Deneb Algedi → Juno 0.093; M3 S −6.5h 1:4:5 RA Betelgeuse–Deneb Algedi → Sedna 0.042; L2 S −3.1h 5:8:13 Dec Uranus–Rigel → Venus 0.072; L2 S −3.8h 5:8:13 Dec Haumea–Vega → Quaoar 0.039; L3 A +32.0m 2:5:7 RA Saturn–Pallas → Chiron 0.126; L3 A +32.0m 2:5:7 RA Saturn–Pallas → Uranus 0.031 | jockey: L2 S −3.1h 5:8:13 Dec Uranus–Rigel → Vesta 0.086; L2 S −3.8h 5:8:13 Dec Haumea–Vega → Orcus 0.063; L3 A +32.0m 2:5:7 RA Saturn–Pallas → Pluto 0.059
@@ -1194,6 +1381,7 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - **Haumea** ★ Dec Procyon–Spica — horse: M3 in race 3:5:8 Dec Procyon–Spica → Rahu 0.121; L2 S −3.8h 5:8:13 Dec Pluto–Vega → Makemake 0.044 | jockey: M3 in race 3:5:8 Dec Procyon–Spica → Pluto 0.145
 - **Juno** ★ Dec Uranus–Fomalhaut, RA Algol–Altair — horse: M3 in race 1:3:4 RA Algol–Altair → Uranus 0.050; L2 S −24.5m 5:8:13 Dec Uranus–Fomalhaut → Venus 0.120 | jockey: M3 in race 1:3:4 RA Algol–Altair → Ceres 0.092; L2 S −24.5m 5:8:13 Dec Uranus–Fomalhaut → Mercury 0.143
 - **Mars** ★ Dec Algol–Procyon, Dec Orcus–Spica, Dec Rahu–Pleiades · SAME-BODY CROSSING: Pointed And Sharp's own Mars — horse: M3 A +7.1m 3:8:11 Dec Algol–Procyon → Chiron 0.069; Nodes S −22.2m 1:8:9 Dec Rahu–Pleiades → Uranus 0.126; L2 S −2.3m 2:3:5 Dec Quaoar–Antares → Mars 0.104; L2 in race 1:8:9 Dec Orcus–Spica → Chiron 0.138 | jockey: M3 A +7.1m 3:8:11 Dec Algol–Procyon → Pluto 0.025; Nodes S −22.2m 1:8:9 Dec Rahu–Pleiades → Ceres 0.072; Nodes S −22.2m 1:8:9 Dec Rahu–Pleiades → Juno 0.137; L2 in race 1:8:9 Dec Orcus–Spica → Ketu 0.128; L2 in race 1:8:9 Dec Orcus–Spica → Sun 0.070; L2 in race 1:8:9 Dec Orcus–Spica → Gonggong 0.066
+- **Moon** ★ Dec Gonggong–Bellatrix, Dec Haumea–Altair, Dec Neptune–Procyon, Dec Vesta–Pleiades, Dec Vesta–Regulus — horse: L2 in race 3:5:8 Dec Neptune–Procyon → Jupiter 0.093; L2 in race 3:5:8 Dec Neptune–Procyon → Transpluto 0.033; L2 in race 1:2:3 Dec Chiron–Haumea → Ceres 0.054; L2 in race 1:2:3 Dec Chiron–Haumea → Makemake 0.021; L2 in race 5:6:11 Dec Haumea–Altair → Venus 0.011; L2 in race 3:8:11 Dec Gonggong–Bellatrix → Haumea 0.043; L3 in race 3:8:11 Dec Jupiter–Capella → Chiron 0.147; L3 in race 1:√2:1+√2 Dec Saturn–Ceres → Makemake 0.073; L3 in race φ: 2−1/φ/φ²/φ√5 Dec Mars–Alphecca → Saturn 0.082; L3 in race φ: φ/φ² Dec Mars–Betelgeuse → Eris 0.072; L3 in race φ: φ/φ² Dec Mars–Betelgeuse → Makemake 0.093; L3 in race φ: φ/φ² Dec Vesta–Pleiades → Sedna 0.125; L3 in race 3:4:7 Dec Vesta–Regulus → Jupiter 0.085 | jockey: M3 in race 1:3:4 Dec Aldebaran–Procyon → Quaoar 0.132; M3 in race φ: 2/φ/φ³/φ³+1 RA Arcturus–Fomalhaut → Quaoar 0.114; L2 in race 3:5:8 Dec Neptune–Procyon → Transpluto 0.115; L2 in race φ: φ/φ² Dec Pluto–Algol → Mercury 0.120; L2 in race φ: φ/φ² Dec Pluto–Algol → Vesta 0.055; L2 in race 5:8:13 RA Transpluto–Sirius → Mars 0.070; L2 in race 5:6:11 Dec Haumea–Altair → Chiron 0.102; L2 in race 5:6:11 Dec Haumea–Altair → Transpluto 0.074; L2 in race φ: 2−1/φ/φ²/φ√5 Dec Haumea–Procyon → Ketu 0.104; L2 in race φ: 2−1/φ/φ²/φ√5 Dec Haumea–Procyon → Pallas 0.046; L2 in race φ: φ/φ² Dec Haumea–Ketu → Quaoar 0.031; L2 in race 3:8:11 Dec Gonggong–Bellatrix → Juno 0.023; L3 in race φ: φ/φ² Dec Vesta–Pleiades → Makemake 0.079; L3 in race 3:4:7 Dec Vesta–Regulus → Ceres 0.086; L3 in race 3:4:7 Dec Vesta–Regulus → Juno 0.133
 - **Neptune** — horse: L2 A +6.7d 2:5:7 Dec Makemake–Polaris → Jupiter 0.061 | jockey: L2 S −4.0h 1:8:9 Dec Gonggong–Alkaid → Orcus 0.130
 - **Orcus** — horse: M3 S −3.0h 5:6:11 Dec Antares–Bellatrix → Saturn 0.129; M3 S −3.0h 5:6:11 Dec Antares–Bellatrix → Transpluto 0.068; L3 S −2.6h 4:5:9 RA Pallas–Rahu → Saturn 0.098; L4 A +16.6m φ: φ/φ² Dec Mercury–Venus → Rahu 0.004* | jockey: M3 S −11.0h 5:8:13 RA Algol–Procyon → Mercury 0.050; L2 A +2.4h 3:4:7 Dec Uranus–Equator → Mercury 0.138; L2 A +2.4h 3:4:7 Dec Uranus–Equator → Transpluto 0.092
 - **Pluto** — horse: L3 A +32.0m 2:5:7 RA Saturn–Pallas → Rahu 0.098; L3 A +32.0m 2:5:7 RA Saturn–Pallas → Quaoar 0.069 | jockey: L2 S −3.1h 5:8:13 Dec Uranus–Rigel → Transpluto 0.126; L2 S −3.8h 5:8:13 Dec Haumea–Vega → Makemake 0.104
@@ -1213,7 +1401,7 @@ Off 15:16:04, finish 15:20:55 (291 s). Live at the race = struck in the race (X)
 - **Gonggong** ★ Dec Saturn–Vesta — horse: M3 S −17.3h 1:2:3 Dec Procyon–Vega → Saturn 0.059; M3 S −17.3h 1:2:3 Dec Procyon–Vega → Orcus 0.073; L3 in race 1:7:8 Dec Saturn–Vesta → Pallas 0.094; L3 in race 1:7:8 Dec Saturn–Vesta → Rahu 0.003*; L3 in race 1:7:8 Dec Saturn–Vesta → Orcus 0.005 | jockey: L2 S −4.0h 1:8:9 Dec Neptune–Alkaid → Venus 0.038; L3 in race 1:7:8 Dec Saturn–Vesta → Uranus 0.008
 - **Haumea** ★ Dec Pluto–Vega · SAME-BODY CROSSING: Blaze A Trail's own Haumea — horse: M3 in race 3:5:8 Dec Procyon–Spica → Haumea 0.030; L2 S −3.8h 5:8:13 Dec Pluto–Vega → Ceres 0.073; L2 A +4.5h φ: φ/φ² RA Chiron–Quaoar → Rahu 0.127 | jockey: Nodes A +36.0m 5:6:11 RA Ketu–Algorab → Gonggong 0.135; L2 S −3.8h 5:8:13 Dec Pluto–Vega → Vesta 0.064
 - **Juno** ★ RA Ketu–Betelgeuse — horse: Nodes A +8.3m 1:7:8 RA Ketu–Betelgeuse → Pluto 0.059; L2 S −24.5m 5:8:13 Dec Uranus–Fomalhaut → Rahu 0.067 | jockey: Nodes A +8.3m 1:7:8 RA Ketu–Betelgeuse → Eris 0.082; Nodes A +8.3m 1:7:8 RA Ketu–Betelgeuse → Saturn 0.112
-- **Moon** ★ Dec Aldebaran–Procyon, Dec Regulus–Spica — horse: M3 in race 3:5:8 RA Altair–Deneb Algedi → Jupiter 0.064; M3 in race 5:6:11 Dec Regulus–Spica → Vesta 0.100; M3 in race 1:3:4 Dec Aldebaran–Procyon → Gonggong 0.067 | jockey: M3 in race φ: 2−1/φ/φ²/φ√5 Dec Arcturus–Bellatrix → Mercury 0.007*; M3 in race 1:2:3 Dec Alphecca–Spica → Saturn 0.070; M3 in race 5:6:11 Dec Regulus–Spica → Chiron 0.086; M3 in race 1:2:3 Dec Alphecca–Spica → Sedna 0.080; M3 in race 1:3:4 Dec Aldebaran–Procyon → Rahu 0.142
+- **Moon** ★ Dec Aldebaran–Procyon, Dec Gonggong–Bellatrix, Dec Haumea–Pleiades, Dec Haumea–Procyon, Dec Regulus–Spica, Dec Vesta–Vega, RA Uranus–Fomalhaut — horse: M3 in race 3:5:8 RA Altair–Deneb Algedi → Jupiter 0.064; M3 in race 5:6:11 Dec Regulus–Spica → Vesta 0.100; M3 in race 1:3:4 Dec Aldebaran–Procyon → Gonggong 0.067; L2 in race 5:6:11 RA Uranus–Fomalhaut → Eris 0.043; L2 in race 2:3:5 Dec Haumea–Pleiades → Rahu 0.106; L2 in race φ: 2−1/φ/φ²/φ√5 Dec Haumea–Procyon → Rahu 0.069; L2 in race 3:8:11 Dec Gonggong–Bellatrix → Juno 0.139; L2 in race 3:8:11 Dec Gonggong–Bellatrix → Haumea 0.086; L3 in race 3:8:11 Dec Jupiter–Capella → Neptune 0.067; L3 in race 3:8:11 Dec Jupiter–Capella → Uranus 0.092; L3 in race 1:√2:1+√2 Dec Saturn–Ceres → Makemake 0.098; L3 in race φ: φ/φ² Dec Mars–Betelgeuse → Sun 0.049; L3 in race 1:2:3 Dec Pallas–Bellatrix → Juno 0.099; L3 in race φ: φ/φ² Dec Vesta–Pleiades → Rahu 0.083; L3 in race φ: φ/φ² Dec Vesta–Pleiades → Venus 0.097; L3 in race 3:8:11 Dec Vesta–Vega → Mercury 0.075 | jockey: M3 in race φ: 2−1/φ/φ²/φ√5 Dec Arcturus–Bellatrix → Mercury 0.007*; M3 in race 1:2:3 Dec Alphecca–Spica → Saturn 0.070; M3 in race 5:6:11 Dec Regulus–Spica → Chiron 0.086; M3 in race 1:2:3 Dec Alphecca–Spica → Sedna 0.080; M3 in race 1:3:4 Dec Aldebaran–Procyon → Rahu 0.142; L2 in race 5:6:11 RA Uranus–Fomalhaut → Venus 0.070; L2 in race φ: φ/φ² Dec Pluto–Algol → Sun 0.017*; L2 in race 1:2:3 Dec Chiron–Haumea → Vesta 0.058; L2 in race 5:6:11 Dec Haumea–Altair → Juno 0.094; L2 in race 2:3:5 Dec Haumea–Pleiades → Pallas 0.148; L2 in race 2:3:5 Dec Haumea–Pleiades → Makemake 0.068; L2 in race 2:3:5 Dec Haumea–Pleiades → Transpluto 0.117; L2 in race φ: 2−1/φ/φ²/φ√5 Dec Haumea–Procyon → Makemake 0.124; L2 in race 3:8:11 Dec Gonggong–Bellatrix → Sun 0.081; L3 in race 5:8:13 Flat Pallas–Aldebaran → Haumea 0.125; L3 in race 3:8:11 Dec Vesta–Vega → Chiron 0.114; L3 in race 3:8:11 Dec Vesta–Vega → Neptune 0.146; L3 in race 3:8:11 Dec Vesta–Vega → Pluto 0.064; L3 in race 3:8:11 Dec Vesta–Vega → Venus 0.142
 - **Orcus** ★ Dec Antares–Bellatrix, Dec Uranus–Equator, RA Vesta–Alkaid — horse: M3 S −11.0h 5:8:13 RA Algol–Procyon → Neptune 0.130; M3 S −3.0h 5:6:11 Dec Antares–Bellatrix → Vesta 0.101; M3 A +6.6h 1:2:3 RA Aldebaran–Spica → Transpluto 0.149; M3 S −11.0h 5:8:13 RA Algol–Procyon → Rahu 0.132; L2 A +2.4h 3:4:7 Dec Uranus–Equator → Pallas 0.147; L2 A +2.4h 3:4:7 Dec Uranus–Equator → Vesta 0.042; L3 in race 1:8:9 Dec Mars–Spica → Transpluto 0.045; L3 A +1.4m 1:3:4 RA Vesta–Alkaid → Ceres 0.039 | jockey: M3 S −3.0h 5:6:11 Dec Antares–Bellatrix → Pluto 0.058; L2 A +2.4h 3:4:7 Dec Uranus–Equator → Juno 0.126; L3 A +1.4m 1:3:4 RA Vesta–Alkaid → Rahu 0.127; L4 A +16.6m φ: φ/φ² Dec Mercury–Venus → Juno 0.034
 - **Pallas** ★ RA Orcus–Rahu, RA Sedna–Regulus — horse: L2 A +1.4h 5:6:11 RA Sedna–Regulus → Ceres 0.019*; L2 S −2.6h 4:5:9 RA Orcus–Rahu → Sun 0.129 | jockey: L2 A +1.4h 5:6:11 RA Sedna–Regulus → Juno 0.125; L2 S −2.6h 4:5:9 RA Orcus–Rahu → Vesta 0.081
 - **Pluto** — horse: L2 S −3.8h 5:8:13 Dec Haumea–Vega → Jupiter 0.009* | jockey: L3 A +32.0m 2:5:7 RA Saturn–Pallas → Jupiter 0.010*
@@ -1455,11 +1643,15 @@ Each line: one triangle (three points, one measure) with something exact in or w
 **1 Forget You Not**
 - SB Rahu + Vega Dec 3:4:7 · sky 0.005→0.004 · 15:50:55 still applying at off+30
 - SB Chiron + Venus Dec φ: 2/φ/φ³/φ³+1 · sky 0.003→0.006 · 15:12:04 exact 4.0 min before the off, separating through the race
+- SB Chiron + Sun Dec 3:5:8 · sky 0.008→0.021 · 15:13:04 exact 3.0 min before the off, separating through the race
+- SB Pluto + Moon RA 1:8:9 · sky 0.096→0.038 · 15:24:04 applying through the race, exact 3.1 min after the finish
+- SB Uranus + Moon Dec 1:2:3 · sky 0.663→0.265 · 15:24:04 applying through the race, exact 3.1 min after the finish
+- SB Chiron + Moon RA 3:8:11 · sky 0.424→0.781 · 15:12:49 exact 3.2 min before the off, separating through the race
 - SB Chiron + Moon Dec 1:3:4 · sky 1.525→0.140 · 15:20:34 exact IN THE RACE
 - N2T natal Ketu → sky Ketu RA 1163/9 at 15:09:54 (before the off; held through the race, within ±0.002 14:46:04–15:37:39)
 - N2T natal Rahu → sky Rahu RA 1163/9 at 15:09:54 (before the off; held through the race, within ±0.002 14:46:04–15:37:39)
 - N2T natal Venus → sky Venus Flat whole 184 at 15:22:59 (after the finish; held in part of the race, within ±0.002 15:20:14–15:25:44)
-- N2T natal Vesta → sky Vesta Dec 15/9 at 15:19:14 (IN THE RACE)
+- N2T natal Vesta → sky Vesta Dec 15/9 at 15:19:14 (IN THE RACE; within ±0.002 15:02:44–15:35:44)
 - N2T: 2 more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)
 - PAR Eris ∥ Mercury Dec closest 0.002 (window edge) at 14:46:04
 
@@ -1467,9 +1659,14 @@ Each line: one triangle (three points, one measure) with something exact in or w
 - SB Neptune + Sirius RA φ: φ/φ² · sky 0.002→0.003 · 14:46:04 separating since before off-30
 - SB Mercury + Bellatrix Dec 2:5:7 · sky 0.011→0.004 · 15:23:49 applying through the race, exact 2.9 min after the finish
 - SB Sun + Neptune RA 2:5:7 · sky 0.010→0.018 · 15:09:19 exact 6.8 min before the off, separating through the race
+- SB Gonggong + Pallas Dec φ: 2−1/φ/φ²/φ√5 · sky 0.008→0.025 · 15:13:49 exact 2.2 min before the off, separating through the race
+- SB Sun + Orcus Dec 1:7:8 · sky 0.037→0.118 · 15:13:49 exact 2.2 min before the off, separating through the race
 - SB Chiron + Moon Dec 3:5:8 · sky 0.320→0.092 · 15:19:49 exact IN THE RACE
+- SB Eris + Moon RA 5:8:13 · sky 0.391→0.057 · 15:21:19 applying through the race, exact 0.4 min after the finish
 - SB Ceres + Moon Dec 1:6:7 · sky 0.037→0.852 · 15:16:19 exact IN THE RACE
-- N2T natal Vesta → sky Vesta Flat 124√2 at 15:20:09 (IN THE RACE)
+- SB Juno + Vesta Dec 1:3:4 · sky 1.841→0.935 · 15:25:49 applying through the race, exact 4.9 min after the finish
+- SB Eris + Moon RA φ: φ/φ² · sky nan→nan · 15:13:19 exact 2.8 min before the off (another strike on the same string)
+- N2T natal Vesta → sky Vesta Flat 124√2 at 15:20:09 (IN THE RACE; within ±0.002 15:14:44–15:25:34)
 - N2T: 4 more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)
 
 **2 Jarlath**
@@ -1482,7 +1679,7 @@ Each line: one triangle (three points, one measure) with something exact in or w
 - N2T natal Ceres → sky Ceres RA whole 87 at 14:51:14 (before the off; held through the race, within ±0.002 14:46:04–15:33:19)
 - N2T natal Juno → sky Juno Flat 870/9 at 15:23:29 (after the finish; held through the race, within ±0.002 15:13:49–15:33:04)
 - N2T natal Mars → sky Mars Flat 105φ at 15:23:34 (after the finish; held in part of the race, within ±0.002 15:18:49–15:28:19)
-- N2T natal Sun → sky Sun RA 1619/9 at 15:20:54 (IN THE RACE)
+- N2T natal Sun → sky Sun RA 1619/9 at 15:20:54 (IN THE RACE; within ±0.002 15:17:49–15:23:54)
 - N2T natal Makemake → sky Makemake Flat 98/9 at 15:50:55 (after the finish; held through the race, within ±0.002 15:01:04–15:50:55)
 - N2T: 2 more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)
 
@@ -1490,8 +1687,13 @@ Each line: one triangle (three points, one measure) with something exact in or w
 - SB Vesta + Altair Dec 3:5:8 · sky 0.001→0.001 · 15:18:19 exact IN THE RACE
 - SB Ketu + Capella Dec 1:1:2 · sky 0.010→0.010 · 15:50:55 still applying at off+30
 - SB Orcus + Castor RA 5:6:11 · sky 0.014→0.014 · 14:46:04 separating since before off-30
+- SB Jupiter + Moon Dec 1:3:4 · sky 0.186→0.075 · 15:24:19 applying through the race, exact 3.4 min after the finish
+- SB Gonggong + Moon RA 1:8:9 · sky 0.197→0.078 · 15:24:04 applying through the race, exact 3.1 min after the finish
+- SB Juno + Moon Dec 5:6:11 · sky 0.287→0.579 · 15:11:19 exact 4.8 min before the off, separating through the race
+- SB Eris + Moon RA 1:3:4 · sky 0.275→0.825 · 15:13:34 exact 2.5 min before the off, separating through the race
+- SB Pallas + Moon Dec 1:6:7 · sky 0.735→2.110 · 15:13:19 exact 2.8 min before the off, separating through the race
 - SB Uranus + Moon Dec 5:8:13 · sky nan→nan · 15:17:04 exact IN THE RACE (another strike on the same string)
-- N2T natal Vesta → sky Vesta RA 853/9 at 15:21:04 (after the finish)
+- N2T natal Vesta → sky Vesta RA 853/9 at 15:21:04 (after the finish; within ±0.002 15:15:29–15:26:44)
 - N2T natal Makemake → sky Makemake Sky 223/9 at 15:50:55 (after the finish; held through the race, within ±0.002 15:09:29–15:50:55)
 - N2T: 3 more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)
 
@@ -1502,8 +1704,9 @@ Each line: one triangle (three points, one measure) with something exact in or w
 - SB Uranus + Rigel RA 1:√2:1+√2 · sky 0.012→0.011 · 15:50:55 still applying at off+30
 - SB Orcus + Sirius Dec 3:4:7 · sky 0.016→0.018 · 14:46:04 separating since before off-30
 - SB Sedna + Chiron Dec 3:5:8 · sky 0.012→0.018 · 15:06:04 exact 10.0 min before the off, separating through the race
+- SB Uranus + Moon Dec φ: 2−1/φ/φ²/φ√5 · sky nan→nan · 15:21:04 exact 0.1 min after the finish (another strike on the same string)
 - N2T natal Sun → sky Sun Flat 1310/9 at 15:22:59 (after the finish; held in part of the race, within ±0.002 15:20:04–15:25:49)
-- N2T natal Sun → sky Sun Sky 1279/9 at 15:19:04 (IN THE RACE)
+- N2T natal Sun → sky Sun Sky 1279/9 at 15:19:04 (IN THE RACE; within ±0.002 15:16:09–15:21:54)
 - N2T: 2 more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)
 
 **3 Tom Scudamore**
@@ -1512,6 +1715,9 @@ Each line: one triangle (three points, one measure) with something exact in or w
 - SB Chiron + Ketu Dec φ: 2−1/φ/φ²/φ√5 · sky 0.008→0.006 · 15:49:19 applying through the race, exact 28.4 min after the finish
 - SB Pluto + Orcus Dec 5:8:13 · sky 0.011→0.011 · 15:50:55 still applying at off+30
 - SB Sedna + Ceres Dec 3:5:8 · sky 0.012→0.011 · 15:50:55 still applying at off+30
+- SB Eris + Moon RA 1:√2:1+√2 · sky 0.394→0.643 · 15:13:19 exact 2.8 min before the off, separating through the race
+- SB Mercury + Moon Dec 1:5:6 · sky 1.008→0.498 · 15:25:49 applying through the race, exact 4.9 min after the finish
+- SB Chiron + Moon RA 1:5:6 · sky 1.068→0.300 · 15:22:49 applying through the race, exact 1.9 min after the finish
 - SB Sedna + Moon Dec 3:8:11 · sky nan→nan · 15:18:04 exact IN THE RACE (another strike on the same string)
 - N2T natal Ketu → sky Ketu Flat 413/9 at 15:25:34 (after the finish; held through the race, within ±0.002 14:58:04–15:50:55)
 - N2T natal Rahu → sky Rahu Flat 413/9 at 15:25:34 (after the finish; held through the race, within ±0.002 14:58:04–15:50:55)
@@ -1526,8 +1732,12 @@ Each line: one triangle (three points, one measure) with something exact in or w
 - SB Jupiter + Sedna RA 5:6:11 · sky 0.016→0.016 · 15:50:55 still applying at off+30
 - SB Vesta + Saturn Dec 5:6:11 · sky 0.002→0.017 · 15:16:34 exact IN THE RACE
 - SB Sun + Deneb Algedi Dec 1:5:6 · sky 0.024→0.000 · 15:20:55 exact IN THE RACE
+- SB Sun + Mercury Sky 1:8:9 · sky 0.025→0.022 · 15:23:04 applying through the race, exact 2.1 min after the finish
+- SB Gonggong + Jupiter Dec 1:2:3 · sky 0.095→0.095 · 15:13:04 exact 3.0 min before the off, separating through the race
 - SB Sun + Moon Dec φ: φ/φ² · sky 0.046→0.225 · 15:16:49 exact IN THE RACE
 - SB Chiron + Moon RA 2:5:7 · sky 0.003→0.632 · 15:16:04 exact IN THE RACE
+- SB Chiron + Moon Dec 1:5:6 · sky nan→nan · 15:11:04 exact 5.0 min before the off (another strike on the same string)
+- SB Neptune + Moon Dec 5:8:13 · sky nan→nan · 15:22:34 exact 1.6 min after the finish (another strike on the same string)
 - N2T: 2 more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)
 - PAR Orcus ∥ Sedna Dec closest 0.002 (window edge) at 15:50:55
 
@@ -1535,7 +1745,10 @@ Each line: one triangle (three points, one measure) with something exact in or w
 - SB Saturn + Algorab Dec 1:7:8 · sky 0.002→0.002 · 15:47:19 applying through the race, exact 26.4 min after the finish
 - SB Sun + Jupiter Dec 2:3:5 · sky 0.009→0.015 · 15:17:49 exact IN THE RACE
 - SB Gonggong + Fomalhaut RA φ: φ/φ² · sky 0.018→0.019 · 14:46:04 separating since before off-30
+- SB Pallas + Ketu Dec φ: φ/φ² · sky 0.009→0.021 · 15:12:34 exact 3.5 min before the off, separating through the race
+- SB Sun + Spica Dec 1:7:8 · sky 0.025→0.138 · 15:15:04 exact 1.0 min before the off, separating through the race
 - SB Uranus + Moon RA 2:5:7 · sky 0.182→0.071 · 15:19:34 exact IN THE RACE
+- SB Juno + Moon Dec 1:2:3 · sky 0.162→0.562 · 15:14:04 exact 2.0 min before the off, separating through the race
 
 **PU Pointed And Sharp**
 - SB Saturn + Antares Dec 3:5:8 · sky 0.001→0.001 · 15:35:49 applying through the race, exact 14.9 min after the finish
@@ -1545,17 +1758,20 @@ Each line: one triangle (three points, one measure) with something exact in or w
 - SB Makemake + Haumea Dec 4:5:9 · sky 0.017→0.017 · 14:46:04 separating since before off-30
 - SB Venus + Haumea Dec φ: 2/φ/φ³/φ³+1 · sky 0.017→0.016 · 15:50:55 still applying at off+30
 - SB Pallas + Vesta Dec 2:5:7 · sky 0.016→0.020 · 14:58:34 exact 17.5 min before the off, separating through the race
+- SB Neptune + Vesta Dec 1:5:6 · sky 0.066→0.020 · 15:23:04 applying through the race, exact 2.1 min after the finish
 - SB Sedna + Moon Sky 1:6:7 · sky 0.117→0.060 · 15:20:19 exact IN THE RACE
 - SB Jupiter + Moon Dec 5:6:11 · sky 0.170→0.075 · 15:19:19 exact IN THE RACE
 - SB Neptune + Moon RA 3:4:7 · sky 0.027→0.172 · 15:16:49 exact IN THE RACE
 - SB Uranus + Moon RA 2:5:7 · sky 0.431→0.202 · 15:19:19 exact IN THE RACE
+- SB Ceres + Moon Flat 1:3:4 · sky 0.297→0.644 · 15:12:04 exact 4.0 min before the off, separating through the race
+- SB Chiron + Moon RA φ: 2/φ/φ³/φ³+1 · sky 0.452→1.084 · 15:12:34 exact 3.5 min before the off, separating through the race
 - N2T natal Ceres → sky Ceres Sky 10φ^3 at 14:58:39 (before the off; held through the race, within ±0.002 14:46:04–15:44:24)
 - N2T natal Juno → sky Juno RA 10√2 at 15:27:49 (after the finish; held in part of the race, within ±0.002 15:17:59–15:37:44)
 - N2T natal Ketu → sky Ketu Flat 1626/9 at 14:56:29 (before the off; held through the race, within ±0.002 14:46:04–15:23:44)
 - N2T natal Rahu → sky Rahu Flat 1626/9 at 14:56:29 (before the off; held through the race, within ±0.002 14:46:04–15:23:44)
 - N2T natal Sun → sky Sun Flat 107φ at 15:23:19 (after the finish; held in part of the race, within ±0.002 15:20:09–15:26:29)
-- N2T natal Sun → sky Sun Sky 1546/9 at 15:20:34 (IN THE RACE)
-- N2T natal Vesta → sky Vesta Flat 97φ at 15:22:49 (after the finish)
+- N2T natal Sun → sky Sun Sky 1546/9 at 15:20:34 (IN THE RACE; within ±0.002 15:17:39–15:23:24)
+- N2T natal Vesta → sky Vesta Flat 97φ at 15:22:49 (after the finish; within ±0.002 15:16:59–15:28:44)
 - PAR Uranus ∥ Moon Dec closest 0.000 at 15:02:09
 
 **PU Tom O'Brien**
@@ -1564,8 +1780,12 @@ Each line: one triangle (three points, one measure) with something exact in or w
 - SB Mercury + Fomalhaut Dec 3:4:7 · sky 0.013→0.009 · 15:32:04 applying through the race, exact 11.1 min after the finish
 - SB Sedna + Ceres RA φ: φ/φ² · sky 0.011→0.013 · 14:46:04 separating since before off-30
 - SB Orcus + Rigel Dec 1:4:5 · sky 0.019→0.018 · 15:50:55 still applying at off+30
+- SB Sun + Algorab Dec 3:4:7 · sky 0.008→0.027 · 15:13:49 exact 2.2 min before the off, separating through the race
 - SB Gonggong + Moon Dec 3:4:7 · sky 0.070→0.073 · 15:18:19 exact IN THE RACE
+- SB Sedna + Moon RA 3:4:7 · sky 0.209→0.025 · 15:21:34 applying through the race, exact 0.6 min after the finish
 - SB Eris + Moon RA 3:4:7 · sky 0.409→0.316 · 15:18:49 exact IN THE RACE
+- SB Mercury + Moon Dec 3:8:11 · sky 0.143→0.558 · 15:14:19 exact 1.8 min before the off, separating through the race
+- SB Chiron + Moon Dec 2:5:7 · sky 0.432→0.848 · 15:11:04 exact 5.0 min before the off, separating through the race
 - N2T natal Mercury → sky Mercury RA 314/9 at 15:13:04 (before the off; held through the race, within ±0.002 15:00:59–15:24:59)
 - N2T natal Haumea → sky Haumea RA 276/9 at 15:50:55 (after the finish; held through the race, within ±0.002 15:09:24–15:50:55)
 - N2T: 4 more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)
@@ -1576,9 +1796,14 @@ Each line: one triangle (three points, one measure) with something exact in or w
 - SB Ketu + Rahu RA φ: 2/φ/φ³/φ³+1 · sky 0.012→0.011 · 15:50:55 still applying at off+30
 - SB Rahu + Ketu RA φ: 2/φ/φ³/φ³+1 · sky 0.012→0.011 · 15:50:55 still applying at off+30
 - SB Juno + Antares Dec 3:5:8 · sky 0.016→0.014 · 15:48:34 applying through the race, exact 27.6 min after the finish
+- SB Mercury + Pallas Dec 1:5:6 · sky 0.016→0.036 · 15:12:19 exact 3.8 min before the off, separating through the race
+- SB Sun + Algorab Dec 1:5:6 · sky 0.039→0.017 · 15:24:34 applying through the race, exact 3.6 min after the finish
+- SB Neptune + Pallas Dec 1:3:4 · sky 0.033→0.096 · 15:13:34 exact 2.5 min before the off, separating through the race
 - SB Juno + Moon Dec 1:√2:1+√2 · sky 0.182→0.146 · 15:18:49 exact IN THE RACE
+- SB Pallas + Moon Dec 3:4:7 · sky 0.102→0.441 · 15:14:34 exact 1.5 min before the off, separating through the race
+- SB Uranus + Moon Dec 2:5:7 · sky 0.387→0.859 · 15:12:04 exact 4.0 min before the off, separating through the race
 - N2T natal Ketu → sky Ketu Flat 1340/9 at 15:45:09 (after the finish; held through the race, within ±0.002 15:15:34–15:50:55)
-- N2T natal Pallas → sky Pallas Sky 1554/9 at 15:22:29 (after the finish)
+- N2T natal Pallas → sky Pallas Sky 1554/9 at 15:22:29 (after the finish; within ±0.002 15:05:59–15:39:04)
 - N2T natal Rahu → sky Rahu Flat 1340/9 at 15:45:09 (after the finish; held through the race, within ±0.002 15:15:34–15:50:55)
 - N2T: 4 more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)
 
@@ -1594,6 +1819,9 @@ Each line: one triangle (three points, one measure) with something exact in or w
 - SB Saturn + Moon Flat 5:6:11 · sky 0.095→0.063 · 15:19:04 exact IN THE RACE
 - SB Sedna + Moon RA 1:3:4 · sky 0.045→0.095 · 15:17:34 exact IN THE RACE
 - SB Mercury + Moon Flat 15:16:30 · sky 0.119→0.097 · 15:20:04 exact IN THE RACE
+- SB Ceres + Moon RA φ: φ/φ² · sky 0.073→0.208 · 15:13:34 exact 2.5 min before the off, separating through the race
+- SB Pluto + Moon Dec 5:6:11 · sky 0.128→0.268 · 15:11:34 exact 4.5 min before the off, separating through the race
+- SB Sun + Moon Dec 3:5:8 · sky 0.527→0.258 · 15:25:34 applying through the race, exact 4.6 min after the finish
 - N2T: 2 more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)
 - PAR Orcus ∥ Moon Dec closest 0.000 at 15:07:24
 

@@ -12,6 +12,8 @@ rr/<RACE>/compare/reading-pack.md with:
   4. triangle corners: the same three points read in different layers (which body moves, who sits on each reading)
   5. same body, pair same body, natal->sky numbers (near the race, or held within ±0.002 over any of the race - added 10 Oct), parallels near the race
   PRE-RACE (no result): layers also keep items exact within 1 min of the ESTIMATED window, marked [near the estimated window] (added 10 Oct)
+  Moon on the Method 2 layers ('Moon held at' inside the window = in the race), number hold windows always printed, same-body chords held
+  or exact within 5 min of the window listed (added 10 Oct, Eddie's go-ahead)
   6. the race timeline per pair (non-Moon, every natal tightness, loose ones marked), off-2 min to finish+2 min, with BEATS = both charts of a pair within 10 s
 It does not judge: it lays out what is there. The reading is done on it."""
 import sys, os, re, collections
@@ -42,9 +44,22 @@ st_ = v.apply(state, axis=1); v['st'] = [a for a, b in st_]; v['dist'] = [b for 
 # held-at-both-ends cut by 0.001%). Marked [near the estimated window]. Results-known races are unchanged.
 PRE = not pd.to_numeric(t.finish, errors='coerce').notna().any()
 PRE_M = 1.0
+# Moon on the Method 2 layers (10 Oct, Eddie's go-ahead): their exact_zone reads "Moon held at HH:MM:SS (...)", which state() does not place in
+# the race, so these rows never showed (Hexham 15:05: Imperial Merlin's Sun 0.005% tightest by the Moon at 15:09:00 was table-only).
+# A Moon-held time inside the window = in the race (X); for a pre-race read, within PRE_M min of the estimated window = near.
+_mh = v.exact_zone.astype(str).str.extract(r'^Moon held at (\d+:\d+:\d+)')[0].map(lambda x: clock(x) if isinstance(x, str) else None)
+for i, c in _mh.items():
+    if c is None or pd.isna(c): continue
+    if OFF <= c <= FIN: v.at[i, 'st'] = 'X'; v.at[i, 'dist'] = None
+    elif c > FIN: v.at[i, 'st'] = 'A'; v.at[i, 'dist'] = c - FIN
+    else: v.at[i, 'st'] = 'S'; v.at[i, 'dist'] = c - OFF
 v['pre_near'] = PRE & (v.rd > 0.02) & (v.st != 'X') & v.dist.map(lambda d: d is not None and not pd.isna(d) and abs(d) <= PRE_M)
 v = v[(v.rd <= 0.02) | (v.st == 'X') | v.pre_near]
-v = v.drop_duplicates(['kind', 'tab', 'natal_body', 'sky_body', 'layer', 'mm', 'base', 'sky_chord'])
+_K = ['kind', 'tab', 'natal_body', 'sky_body', 'layer', 'mm', 'base', 'sky_chord']
+_ismh = v.exact_zone.astype(str).str.startswith('Moon held at')
+_kx = set(map(tuple, v[_ismh & (v.st == 'X')][_K].astype(str).values))   # a Moon-held item with a pass in the window: keep that pass
+v = v[~(_ismh & (v.st != 'X') & pd.Series([tuple(k) in _kx for k in v[_K].astype(str).values], index=v.index))]
+v = v.drop_duplicates(_K)
 _m3 = set(zip(v[v.kind == 'M3'].tab, v[v.kind == 'M3'].sky_body, v[v.kind == 'M3'].mm, v[v.kind == 'M3'].base, v[v.kind == 'M3'].natal_body))
 v = v[~((v.kind == 'M2') & (v.layer == 'L1') & pd.Series([k in _m3 for k in zip(v.tab, v.sky_body, v.mm, v.base, v.natal_body)], index=v.index))]
 v['lay'] = v.apply(lambda r: 'M3' if r.kind == 'M3' else r.layer, axis=1)
@@ -115,11 +130,17 @@ def n2held(z):
     if a <= OFF and b >= FIN: return 'held through the race'
     if a <= FIN and b >= OFF: return 'held in part of the race'
     return ''
+def n2win(z):
+    a, b = n2span(z); return f"within ±0.002 {hms(a)}–{hms(b)}" if a is not None else ''
 def n2tag(r):
     tm = clock(r.time) if isinstance(r.time, str) else None
-    if tm is not None and OFF <= tm <= FIN: return 'IN THE RACE'
+    if tm is not None and OFF <= tm <= FIN: return 'IN THE RACE; ' + n2win(r.exact_zone)
     h_ = n2held(r.exact_zone)
     return f"{r.zone}; {h_}, {r.exact_zone}" if h_ else r.zone
+# same-body chords (10 Oct): also keep one held at both ends (≤0.02%) or exact within SB_M min of the window (Hexham 17:30: Pether's Daisy
+# Sun + Transpluto, 0.025→0.014%, exact +5.0 min, was table-only)
+SB_M = 5.0
+sbkeep = lambda r: (r.rd <= 0.02) or ('IN THE RACE' in str(r.exact_zone)) or (r.tm_clock is not None and not pd.isna(r.tm_clock) and OFF - SB_M <= r.tm_clock <= FIN + SB_M)
 n2keep = lambda r: near(clock(r.time) if isinstance(r.time, str) else None) or bool(n2held(r.exact_zone))
 for body in ['Sun', 'Mars', 'Neptune', 'Uranus']:
     P(f"\n## natal {body}\n")
@@ -127,12 +148,13 @@ for body in ['Sun', 'Mars', 'Neptune', 'Uranus']:
         x = v[(v.tab == o.tab) & (v.natal_body == body)].sort_values(['k', 'rd', 'lay'] + ['natal_body', 'sky_body', 'mm', 'base', 'sky_chord'], kind='mergesort')
         extra = t[(t.tab == o.tab) & (t.natal_body == body) & t.kind.isin(['SB', 'N2T'])]
         extra = extra[extra.tm_clock.map(near) | extra.exact_zone.astype(str).str.contains('IN THE RACE')
-                  | ((extra.kind == 'N2T') & extra.apply(n2keep, axis=1))] if len(extra) else extra
+                  | ((extra.kind == 'N2T') & extra.apply(n2keep, axis=1))
+                  | ((extra.kind == 'SB') & extra.apply(sbkeep, axis=1))] if len(extra) else extra
         if not len(x) and not len(extra): continue
         P(f"**{o.finish} {o.runner}**")
         for _, r in x.iterrows(): P(f"- {item(r, True)}")
         for _, r in extra.iterrows():
-            P(f"- [{r.kind}] {r.time if isinstance(r.time, str) else r.exact_time} · " + ((f"natal {body} → sky {r.sky_body} {r.mm} {r.sky_chord}" + ('' if (near(r.tm_clock) or 'IN THE RACE' in str(r.exact_zone)) else f" ({n2tag(r)})")) if r.kind == 'N2T'
+            P(f"- [{r.kind}] {r.time if isinstance(r.time, str) else r.exact_time} · " + ((f"natal {body} → sky {r.sky_body} {r.mm} {r.sky_chord}" + (f" ({n2win(r.exact_zone)})" if (near(r.tm_clock) or 'IN THE RACE' in str(r.exact_zone)) else f" ({n2tag(r)})")) if r.kind == 'N2T'
               else f"{body} + {str(r.note).replace('third point ', '')} {r.mm} {r.sky_chord} ({r.exact_zone})"))
         P("")
 
@@ -212,14 +234,14 @@ for key, g in sorted(v.groupby('tri'), key=lambda kv: kv[0]):
 # 5. same body, pair, numbers, parallels
 P("\n# 5. Same body, pair same body, natal→sky numbers, parallels near the race\n")
 for _, o in order.iterrows():
-    sb = t[(t.tab == o.tab) & (t.kind == 'SB') & ((t.rd <= 0.02) | t.exact_zone.astype(str).str.contains('IN THE RACE'))].sort_values(['rd', 'natal_body', 'note'], kind='mergesort')
+    sb = t[(t.tab == o.tab) & (t.kind == 'SB')]; sb = sb[sb.apply(sbkeep, axis=1)] if len(sb) else sb; sb = sb.sort_values(['rd', 'natal_body', 'note'], kind='mergesort')
     n2 = t[(t.tab == o.tab) & (t.kind == 'N2T')]; n2 = n2[n2.apply(n2keep, axis=1)] if len(n2) else n2
     pa = t[(t.tab == o.tab) & (t.kind == 'PAR') & t.note.astype(str).str.contains(r'closest 0\.00\d')]
     pa = pa[pa.time.map(lambda s: OFF - 30 <= (clock(s) or -1e9) <= FIN + 30 if isinstance(s, str) else False)]
     if not (len(sb) or len(n2) or len(pa)): continue
     P(f"**{o.finish} {o.runner}**")
     for _, r in sb.iterrows(): P(f"- SB {r.natal_body} + {str(r.note).replace('third point ', '')} {r.mm} {r.sky_chord} · sky {r['dev_off_%']:.3f}→{r['dev_finish_%']:.3f} · {r.exact_time} {r.exact_zone}")
-    for _, r in n2.iterrows(): P(f"- N2T natal {r.natal_body} → sky {r.sky_body} {r.mm} {r.sky_chord} at {r.time} ({('IN THE RACE' if OFF <= clock(r.time) <= FIN else r.zone) if near(clock(r.time)) else n2tag(r)})")
+    for _, r in n2.iterrows(): P(f"- N2T natal {r.natal_body} → sky {r.sky_body} {r.mm} {r.sky_chord} at {r.time} ({(('IN THE RACE' if OFF <= clock(r.time) <= FIN else r.zone) + '; ' + n2win(r.exact_zone)) if near(clock(r.time)) else n2tag(r)})")
     nw = t[(t.tab == o.tab) & (t.kind == 'N2T')]; nw = int(nw.exact_zone.map(n2whole).sum()) if len(nw) else 0
     if nw: P(f"- N2T: {nw} more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)")
     for _, r in pa.iterrows(): P(f"- PAR {r.natal_body} ∥ {r.sky_body} {r.mm} {r.note} at {r.time}")
