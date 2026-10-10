@@ -860,6 +860,7 @@ Off 14:40:09, finish 14:41:37 (88 s). Live at the race = struck in the race (X) 
 **1 Wotever Next**
 - [L4] S −2.8m · Neptune 1:2:3 on Dec Venus–Equator → Mars φ: 2−1/φ/φ²/φ√5 0.023% · sky 0.007→0.011 · –/7
 - [L3] S −16.7m · Ketu 5:6:11 on Dec Pallas–Regulus → Mars 1:1:2 0.033% · sky 0.013→0.015 · –/8
+- [N2T] 14:43:44 · natal Mars → sky Mars Flat 72√2 (after the finish; held through the race, within ±0.002 14:40:04–14:47:24)
 
 **1 Joanna Mason**
 - [L2] A +10.4h · Neptune 1:5:6 on Dec Transpluto–Sedna → Mars 3:8:11 0.112% · sky 0.010→0.010 · –/6
@@ -869,6 +870,7 @@ Off 14:40:09, finish 14:41:37 (88 s). Live at the race = struck in the race (X) 
 **2 Beluga Gold**
 - [M3] S −4.7h · Sedna 3:5:8 on RA Castor–Deneb Algedi → Mars φ: φ/φ² 0.113% · sky 0.006→0.006 · #3/6
 - [L4] S −1.2m · Vesta 3:4:7 on Dec Mercury–Algol → Mars 3:4:7 0.035% · sky 0.005→0.011 · –/5 UNISON
+- [N2T] 14:52:54 · natal Mars → sky Mars Dec whole 36 (after the finish; held in part of the race, within ±0.002 14:40:54–15:04:54)
 
 **2 Jason Hart**
 - [L4] A +4.4m · Uranus 2:3:5 on RA Sun–Rigel → Mars 3:5:8 0.116% · sky 0.013→0.010 · #1/2
@@ -892,6 +894,7 @@ Off 14:40:09, finish 14:41:37 (88 s). Live at the race = struck in the race (X) 
 - [L2] A +14.0m · Venus φ: 2/φ/φ³/φ³+1 on Dec Sedna–Polaris → Mars 3:8:11 0.093% · sky 0.017→0.015 · –/7
 - [M3] S −11.7h · Rahu 3:8:11 on Dec Algorab–Fomalhaut → Mars 1:1:2 0.088% · sky 0.010→0.010 · #9/11
 - [L2] S −1.3d · Quaoar 2:5:7 on RA Eris–Alphecca → Mars φ: 2/φ/φ³/φ³+1 0.062% · sky 0.012→0.012 · #1/3
+- [N2T] 14:30:19 · natal Mars → sky Mars Dec 5φ (before the off; held through the race, within ±0.002 14:18:24–14:42:19)
 
 **4 Connor Beasley**
 - [L4] in race · Gonggong 3:4:7 on RA Mercury–Rahu → Mars φ: φ/φ² 0.117% · sky 0.005→0.006 · –/5
@@ -938,6 +941,7 @@ Off 14:40:09, finish 14:41:37 (88 s). Live at the race = struck in the race (X) 
 - [M3] A +7.1m · Pallas 1:3:4 on Dec Alkaid–Altair → Neptune φ: 2−1/φ/φ²/φ√5 0.043% · sky 0.004→0.003 · #4/8
 - [Nodes] A +6.1h · Orcus 3:4:7 on RA Ketu–Pleiades → Neptune 1:√2:1+√2 0.148% · sky 0.017→0.017 · –/3
 - [M3] S −14.9m · Jupiter 4:5:9 on Dec Aldebaran–Fomalhaut → Neptune 1:1:2 0.120% · sky 0.008→0.009 · #8/11
+- [N2T] 15:11:37 · natal Neptune → sky Neptune Sky 71/9 (after the finish; held in part of the race, within ±0.002 14:41:24–15:11:37)
 
 **4 Tea Garden**
 - [L3] in race · Mars 1:√2:1+√2 on RA Saturn–Deneb Algedi → Neptune φ: 2−1/φ/φ²/φ√5 0.135% · sky 0.063→0.097 · –/5
@@ -968,6 +972,7 @@ Off 14:40:09, finish 14:41:37 (88 s). Live at the race = struck in the race (X) 
 - [M3] A +7.1m · Pallas 1:3:4 on Dec Alkaid–Altair → Uranus 4:5:9 0.018% STRONG · sky 0.004→0.003 · #2/8
 - [L3] A +1.0m · Mercury 1:1:2 on Dec Pallas–Sirius → Uranus 2:5:7 0.043% · sky 0.011→0.005 · –/7
 - [M3] S −1.1h · Rahu 2:5:7 on Dec Betelgeuse–Capella → Uranus 4:5:9 0.041% · sky 0.004→0.005 · #2/9
+- [N2T] 14:10:09 · natal Uranus → sky Uranus Dec 24φ (before the off; held through the race, within ±0.002 14:10:09–15:06:59)
 
 **2 Beluga Gold**
 - [M3] A +24.3m · Transpluto 2:5:7 on Dec Alphecca–Fomalhaut → Uranus 3:8:11 0.100% · sky 0.000→0.000 · #2/3
@@ -1369,7 +1374,12 @@ Each line: one triangle (three points, one measure) with something exact in or w
 - SB Mercury + Alphecca RA 1:4:5 · sky 0.002→0.008 · 14:39:39 exact 0.5 min before the off, separating through the race
 - SB Ceres + Jupiter RA 4:5:9 · sky 0.012→0.012 · 14:10:09 separating since before off-30
 - SB Mercury + Uranus Dec 3:5:8 · sky 0.012→0.007 · 14:41:09 exact IN THE RACE
+- N2T natal Ceres → sky Ceres Sky 1547/9 at 15:11:37 (after the finish; held through the race, within ±0.002 14:37:24–15:11:37)
+- N2T natal Jupiter → sky Jupiter RA 808/9 at 14:37:09 (before the off; held through the race, within ±0.002 14:23:39–14:50:44)
+- N2T natal Mars → sky Mars Flat 72√2 at 14:43:44 (after the finish; held through the race, within ±0.002 14:40:04–14:47:24)
 - N2T natal Pallas → sky Pallas RA 1560/9 at 14:38:24 (before the off)
+- N2T natal Saturn → sky Saturn Flat 308/9 at 14:53:49 (after the finish; held through the race, within ±0.002 14:20:59–15:11:37)
+- N2T: 2 more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)
 - PAR Makemake ∥ Moon Dec closest 0.000 at 14:24:49
 
 **1 Joanna Mason**
@@ -1380,7 +1390,10 @@ Each line: one triangle (three points, one measure) with something exact in or w
 - SB Juno + Altair Dec 1:5:6 · sky 0.020→0.015 · 14:46:24 applying through the race, exact 4.8 min after the finish
 - N2T natal Sun → sky Sun Dec 201/9 at 14:41:04 (IN THE RACE)
 - N2T natal Sun → sky Sun Sky 37φ at 14:38:09 (before the off)
+- N2T natal Uranus → sky Uranus Dec 24φ at 14:10:09 (before the off; held through the race, within ±0.002 14:10:09–15:06:59)
 - N2T natal Venus → sky Venus Flat 29√2 at 14:43:34 (after the finish)
+- N2T natal Vesta → sky Vesta RA 212/9 at 14:35:04 (before the off; held in part of the race, within ±0.002 14:28:39–14:41:24)
+- N2T: 1 more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)
 - PAR Orcus ∥ Neptune Dec closest 0.003 (window edge) at 15:11:37
 
 **2 Beluga Gold**
@@ -1391,6 +1404,8 @@ Each line: one triangle (three points, one measure) with something exact in or w
 - SB Juno + Mercury Dec 1:3:4 · sky 0.024→0.003 · 14:41:24 exact IN THE RACE
 - SB Venus + Orcus Dec 3:5:8 · sky 0.074→0.018 · 14:41:24 exact IN THE RACE
 - SB Gonggong + Venus Dec 1:4:5 · sky 0.032→0.120 · 14:40:24 exact IN THE RACE
+- N2T natal Mars → sky Mars Dec whole 36 at 14:52:54 (after the finish; held in part of the race, within ±0.002 14:40:54–15:04:54)
+- N2T: 2 more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)
 - PAR Makemake ∥ Moon Dec closest 0.000 at 14:11:04
 
 **2 Jason Hart**
@@ -1399,8 +1414,11 @@ Each line: one triangle (three points, one measure) with something exact in or w
 - SB Ketu + Orcus Dec φ: 2/φ/φ³/φ³+1 · sky 0.017→0.017 · 15:11:37 still applying at off+30
 - SB Transpluto + Betelgeuse RA 1:7:8 · sky 0.019→0.019 · 14:10:09 separating since before off-30
 - SB Neptune + Moon Flat 3:4:7 · sky 0.042→0.039 · 14:41:09 exact IN THE RACE
+- N2T natal Juno → sky Juno Flat whole 105 at 14:48:49 (after the finish; held in part of the race, within ±0.002 14:40:44–14:56:59)
 - N2T natal Mercury → sky Mercury RA 1547/9 at 14:39:39 (before the off)
+- N2T natal Pallas → sky Pallas Flat 349/9 at 14:46:19 (after the finish; held through the race, within ±0.002 14:38:29–14:54:09)
 - N2T natal Pallas → sky Pallas Sky 27√2 at 14:43:29 (after the finish)
+- N2T: 1 more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)
 - PAR Jupiter ∥ Uranus Dec closest 0.003 (window edge) at 14:10:09
 - PAR Sedna ∥ Pallas Dec closest 0.008 (window edge) at 14:10:09
 
@@ -1409,9 +1427,11 @@ Each line: one triangle (three points, one measure) with something exact in or w
 - SB Saturn + Pallas Flat 5:8:13 · sky 0.011→0.011 · 15:11:37 still applying at off+30
 - SB Mercury + Juno Dec 1:√2:1+√2 · sky 0.002→0.012 · 14:40:24 exact IN THE RACE
 - N2T natal Mars → sky Mars RA 49√2 at 14:41:29 (IN THE RACE)
+- N2T natal Neptune → sky Neptune Sky 71/9 at 15:11:37 (after the finish; held in part of the race, within ±0.002 14:41:24–15:11:37)
 - N2T natal Saturn → sky Saturn Dec 62/9 at 14:42:44 (after the finish)
 - N2T natal Sun → sky Sun RA 325/9 at 14:41:09 (IN THE RACE)
 - N2T natal Vesta → sky Vesta Sky 273/9 at 14:40:29 (IN THE RACE)
+- N2T: 2 more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)
 
 **3 Dougie Costello**
 - SB Uranus + Gonggong RA 1:√2:1+√2 · sky 0.004→0.004 · 15:11:37 still applying at off+30
@@ -1419,11 +1439,15 @@ Each line: one triangle (three points, one measure) with something exact in or w
 - SB Neptune + Polaris Dec 1:5:6 · sky 0.009→0.009 · 14:10:09 separating since before off-30
 - SB Sedna + Betelgeuse RA 2:3:5 · sky 0.009→0.009 · 14:10:09 separating since before off-30
 - SB Saturn + Algorab Dec 1:3:4 · sky 0.017→0.014 · 14:50:39 applying through the race, exact 9.0 min after the finish
+- N2T: 3 more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)
 - PAR Sun ∥ Sun Dec closest 0.000 at 14:46:19
 
 **4 Tea Garden**
 - SB Vesta + Mercury RA 5:6:11 · sky 0.005→0.006 · 14:35:24 exact 4.8 min before the off, separating through the race
 - SB Chiron + Neptune Dec 4:5:9 · sky 0.016→0.015 · 15:11:37 still applying at off+30
+- N2T natal Mars → sky Mars Dec 5φ at 14:30:19 (before the off; held through the race, within ±0.002 14:18:24–14:42:19)
+- N2T natal Pallas → sky Pallas Dec 6√2 at 14:53:04 (after the finish; held through the race, within ±0.002 14:18:39–15:11:37)
+- N2T: 1 more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)
 
 **4 Connor Beasley**
 - SB Eris + Polaris RA 1:4:5 · sky 0.001→0.000 · 14:42:39 applying through the race, exact 1.0 min after the finish
@@ -1434,20 +1458,25 @@ Each line: one triangle (three points, one measure) with something exact in or w
 - SB Ketu + Altair RA φ: φ/φ² · sky 0.014→0.014 · 15:11:37 still applying at off+30
 - SB Orcus + Procyon RA 5:6:11 · sky 0.017→0.017 · 15:11:37 still applying at off+30
 - SB Ceres + Moon Dec φ: φ/φ² · sky nan→nan · 14:41:24 exact IN THE RACE (another strike on the same string)
+- N2T: 3 more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)
 
 **5 Thakuri**
 - SB Jupiter + Polaris Dec 1:5:6 · sky 0.003→0.002 · 14:47:24 applying through the race, exact 5.8 min after the finish
 - SB Ceres + Orcus Dec 1:8:9 · sky 0.005→0.005 · 14:10:09 separating since before off-30
 - SB Mercury + Pleiades Dec 3:5:8 · sky 0.006→0.009 · 14:40:39 exact IN THE RACE
 - SB Mercury + Pluto Dec 1:2:3 · sky 0.017→0.008 · 14:42:54 applying through the race, exact 1.3 min after the finish
+- N2T natal Chiron → sky Chiron Flat 98/9 at 15:11:37 (after the finish; held through the race, within ±0.002 14:35:39–15:11:37)
 - N2T natal Sun → sky Sun Dec 57/9 at 14:39:39 (before the off)
+- N2T: 3 more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)
 
 **5 David Allan**
 - SB Sedna + Makemake Dec 1:3:4 · sky 0.007→0.007 · 15:11:37 still applying at off+30
 - SB Sun + Sedna RA 5:6:11 · sky 0.006→0.008 · 14:35:54 exact 4.2 min before the off, separating through the race
+- N2T natal Juno → sky Juno Dec whole 1 at 14:35:59 (before the off; held through the race, within ±0.002 14:10:49–15:01:04)
 - N2T natal Juno → sky Juno Sky 497/9 at 14:40:39 (IN THE RACE)
 - N2T natal Jupiter → sky Jupiter Flat 1298/9 at 14:38:29 (before the off)
 - N2T natal Mercury → sky Mercury Sky 662/9 at 14:40:19 (IN THE RACE)
+- N2T: 2 more number(s) held within ±0.002 over the whole off−30 / finish+30 scan (slow bodies; in the table, not listed)
 - PAR Mars ∥ Mercury Dec closest 0.000 at 14:20:14
 
 Pair same-body chords (sky X + horse X + jockey X): Beluga Gold pair Mercury Dec 2:3:5 0.064% (separating since before off-30); Beluga Gold pair Orcus Sky 1:8:9 0.117% (still applying at off+30); Beluga Gold pair Transpluto Flat 1:8:9 0.023% (separating since before off-30); Capuchinero pair Ketu Sky 5:8:13 0.041% (separating since before off-30); Capuchinero pair Pallas RA 2:3:5 0.118% (still applying at off+30); Capuchinero pair Rahu Sky 5:8:13 0.041% (separating since before off-30); Thakuri pair Juno RA 1:2:3 0.086% (still applying at off+30); Wotever Next pair Ketu Sky 5:8:13 0.066% (separating since before off-30); Wotever Next pair Rahu Sky 5:8:13 0.066% (separating since before off-30)

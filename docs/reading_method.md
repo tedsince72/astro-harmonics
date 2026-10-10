@@ -93,6 +93,13 @@ before it is called different.
 - L1 rows repeat Method 3 rows (left out of the views).
 - Counts (beats, crossings, strings struck) do not follow the result across the seven races — background only.
 - The reads so far were done with the result known; the test is a blind read (results withheld, then compared).
+- **Pre-race reads (10 Oct)**: the off and finish are ESTIMATES (scheduled off + expected duration), and real offs are usually late. The pack
+  then also keeps layer items exact within 1 min of the estimated window that are not held at both ends, marked [near the estimated window]
+  (Newmarket 13:50: Mercury on Gonggong–Quaoar, Bowdens' Sedna 0.006% tightest, exact 5 s after the estimated finish, missed the held cut by
+  0.001%). Read "after the finish" items as possibly in the race.
+- **Natal→sky numbers (10 Oct)**: listed when exact near the race OR when their ±0.002 window covers any of the race, whatever the exact time
+  (Newmarket 13:50: Buick's Mars number, exact 13:54:30, held 13:49:20–13:59:35, was only in the table). Numbers held over the whole
+  off−30 / finish+30 scan (slow bodies) are counted, not listed. Sky-Moon items are in the layers: read them (the first 13:50 M3 report missed them).
 
 ## 7. Writing it down
 After each race: its section in `docs/cross_race_bodies_chords.md` (section I), layer by layer, then the timeline, then a short "in short";
