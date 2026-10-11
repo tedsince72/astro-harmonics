@@ -7,7 +7,9 @@ R = sys.argv[1]; OFF = sys.argv[2]; DUR = float(sys.argv[3]); TOL = float(sys.ar
 sched = int(R[-4:-2]) * 60 + int(R[-2:])
 h, m, s = map(int, OFF.split(':')); t0 = h * 60 + m + s / 60; t1 = t0 + DUR / 60
 M = collections.defaultdict(dict)
-for r in csv.DictReader(open(f'' + __import__('os').path.dirname(__import__('os').path.dirname(__import__('os').path.abspath(__file__))) + '/data/sky/{R}__SKYM.csv')):
+import os
+SKYDIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'sky')
+for r in csv.DictReader(open(f'{SKYDIR}/{R}__SKYM.csv')):
     if r['body'] == 'body': continue
     M[r['body']][sched + int(r['minute'])] = (float(r['ra']), float(r['dec']))
 FAST = {'Ascendant', 'Midheaven', 'Vertex', 'Part_of_Fortune', 'Part_of_Spirit'}
