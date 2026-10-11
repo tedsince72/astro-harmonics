@@ -26,3 +26,8 @@ D3. Juno in both charts (0.01%): H Saturn–Juno Flat 19/6 (0.0014%), H Juno–E
     J Juno–Ketu RA 13/4 (0.0056%), J Pallas–Juno Dec 9/7 (0.0099%). Horse Juno–Mercury same Dec 0.0945. (Mondammej Neptune also 5 hits — not unique.)
 D4. Venus–Chiron Flat: sky 76.9917; horse 24.0588 -> 16/5 (0.0047%); Beasley 23.4336 -> 23/7 (0.0057%).
 D5. Movement: horse Pluto RA +16.0019 (16); horse Ceres RA -30.0058; horse Ceres on Beasley Mars RA 0.1439 (Mars of the shared Mars–Rahu pair).
+
+## Checker (independent, recomputed): D1–D5 confirmed
+- D1: three Equator hits in the field; only Venturous Sun (sky/horse 12, 0.0017%) involves the sky.
+- D2: Orcus 13/2 is 0.0169% (outside a 0.01% cut). D3: Juno 5 hits ties Mondammej Neptune; Juno in both charts also for Mondammej and Regional (1+1).
+- D5: shared Mars–Rahu pair is the great-circle one (claim 2 above: 142.6340 / 142.6922).
