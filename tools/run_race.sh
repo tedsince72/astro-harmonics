@@ -1,7 +1,7 @@
 #!/bin/bash
 # run_race.sh RACE OFF(HH:MM:SS) NAME  - per-runner workbooks + every tool + a field overview (Eddie's winner-first reads, 11 Oct 2026)
 R=$1; OFF=$2; N=$3; D=reference/classic/$N; O=docs/classic/$N; mkdir -p $O
-python3.12 tools/race_to_workbooks.py $R $OFF $D > /dev/null
+[ "$4" = "batch" ] || python3.12 tools/race_to_workbooks.py $R $OFF $D > /dev/null
 for f in $D/*.xlsx; do b=$(basename $f .xlsx | sed 's/.*__//')
   python3.12 tools/workbook_numbers.py $f > $O/${b}_numbers.txt; python3.12 tools/three_way_wb.py $f 0.02 > $O/${b}_three_way.txt
   python3.12 tools/three_same_body.py $f 0.15 > $O/${b}_same_body.txt; python3.12 tools/winner_detail.py $f Neptune > $O/${b}_detail.txt
