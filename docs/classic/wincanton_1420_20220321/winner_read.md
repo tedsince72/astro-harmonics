@@ -13,3 +13,6 @@ Claims to check (winner file __P07):
 5. Jupiter–Vesta: Johns RA natal 170.8015 / sky 42.7006 = 4 (0.0004%) (Jupiter–Vesta also the winner's link at Ffos Las).
 6. Ceres: Johns Ceres moved Dec 1.1114 (10/9); Johns Ceres–Haumea same Dec 0.174 struck both ends by sky Ceres (Dec 10/9 | RA 120).
 7. Equator: sky Pallas |Dec| 6.00223 (6); Pallas sky/horse 6.0022/1.4298 = 21/5 (0.048%); Haumea horse/jockey 5/6 (0.023%). Horse Jupiter–Sun same Dec 0.0064.
+
+## Checker (independent, recomputed): 2–7 confirmed; 1 confirmed for the winner (Mercury Dec 30.00004, link RA 0.0255)
+- 1 field count: Ballyblack 3, not 4 (its horse Ceres 358/9 is off 0.00111, just outside ±0.0011). Field: Reserve Tank 3, Ballyblack 3, Birds Of Prey 2, River Bray 1, others 0.
