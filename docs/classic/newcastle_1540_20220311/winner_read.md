@@ -16,3 +16,8 @@ Claims to check (winner file __P05):
 5. Other ratios: J Sun–Vesta Dec natal 42.6963 / sky 16.0111 = 8/3 (0.0002%); J Neptune–Orcus Dec 10/3 (0.0008%); H Jupiter–Orcus Dec 16/3 (0.0011%);
    H Sun–Mars great circle 25/2 (0.0019%). Horse Pluto on O'Farrell Neptune RA 0.623.
 6. Equator: Sedna sky/jockey 8.1459/4.1615 = 12/7 (0.015%); Uranus sky/horse 14.9676/3.4553 = 13/3 (0.036%).
+
+## Checker (independent, recomputed): header, 1, 2a–c, 3–5 confirmed; corrections
+- 2c: Ceres Dec same-body worst 0.0807% (5/3, 3/2, 5/2).
+- 2d: Ceres 'soak' is only 3 non-star partners near 42.44 (sky Ceres–sky Vesta Dec 42.4353, sky Ceres–horse Pluto Dec 42.4410, J Ceres–J Uranus Dec 42.4424); dropped.
+- 6: the 12/7 is Sedna horse/jockey 7.1350/4.1615 (0.0145%), not sky/jockey.
