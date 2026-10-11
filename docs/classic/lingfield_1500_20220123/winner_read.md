@@ -16,3 +16,8 @@ Claims to check (winner file __P11):
 6. Same-body: Mercury great circle 5/4, 9/4, 9/5 (0.031%) and Mercury RA 5/4, 9/4, 9/5 (0.055%); Sedna great circle 5/2, 7/2, 7/5 (0.029%); Mars Dec 15/7, 15/8, 8/7 (0.039%).
 7. Other ratios: H Venus–Sedna RA 17/3 (0.0003%), J Mercury–Ceres RA 3/2 (0.0006%), H Chiron–Orcus RA 10/9 (0.0007%).
 8. Bass Neptune–Rahu RA 67.9376 (Huntingdon three-way); here sky 64.6638 — not simple (Neptune–node not repeated).
+
+## Checker (independent, recomputed): 1–8 confirmed
+- 1: winners 3/20, others 5/87; Dec only 3 vs 1. Dec was picked after seeing these winners — needs testing on new races.
+- 2: Haumea–Ketu ratios have p > 30 (77/9, 77/8, 45/7, 59/7) and S:J 9/8 is 0.011% — a looser repeat, not a p<=30 three-way set.
+- 8: at Huntingdon Bass's Neptune–Rahu linked by near-identity with the sky (offset ~0.003), not a ratio.
