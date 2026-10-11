@@ -16,3 +16,7 @@ Claims to check (winner file __P05):
 7. Horse Mercury–Gonggong conj RA 0.0028. Juno soak ~8.8894 ≈ 80/9 (4 partners, spread 0.0127). Juno |Dec| sky/jockey 13.7214/5.6128 = 22/9 (0.009%).
 8. Movement (window ±0.01): Scudamore Sun RA 133.0075; Haumea RA 345/9 (38.3335); Makemake great circle 38.0080.
 9. Both-ends counts: Gustavian 0, Emir Sacree 8, New Age Dawning 4.
+
+## Checker (independent, recomputed): 1–9 confirmed
+- 2: sky Gonggong -> horse Mars RA 132.0050 is at the edge of ±0.005. Only New Age Dawning has a whole-number natal Mars pair struck on both ends (one in each chart).
+- 7: Juno soak = sky Juno to Neptune/Pluto/Sun + Scudamore Juno–Sedna.
