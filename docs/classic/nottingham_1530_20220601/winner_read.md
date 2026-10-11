@@ -14,3 +14,7 @@ Claims to check (winner file __P01):
 5. Neptune–node: horse Neptune–Rahu great circle natal 125.9056 / sky 57.2277 = 11/5 (0.0037%); horse Ketu–Pluto conj RA 0.0305.
 6. Other: horse Mars – Dawson Venus Dec 0.0091; Dawson Pluto–Rahu Flat sky/natal 5 (0.0021%); Dawson Vesta–Orcus RA 11/9 (0.0002%);
    horse Eris–Transpluto Dec 10/9 (0.0009%); Equator Pluto sky/jockey 22.5494/4.5119 = 5 (0.044%), sky Haumea 16.00038 (16).
+
+## Checker (independent, recomputed): 1–6 confirmed
+- 1: winner the only runner with a cross link struck by 2+ sky bodies (Venus RA 24.00462 just inside ±0.005).
+- 6: Vesta–Orcus 11/9 and Eris–Transpluto 10/9 are sky/natal ratios, not raw separations.
