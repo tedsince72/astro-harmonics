@@ -51,3 +51,9 @@ Reading aids already saved: tools/fit_read.py, tools/both_ends.py, tools/three_w
 One reader per kind of link — sky/natal ratios per chart; movement since birth (with cross-link check, both planes); shared node and shared pairs;
 Equator; three-way sets; natal pairs struck on both ends; same-body sets — then a final script that joins their output into each runner's web
 and reads it body by body.
+
+## Build gradually (Eddie, 12 Oct 2026)
+'The script layers need to build up into this level of detail gradually, rather than trying to do it all in one go, which is where we have gone wrong
+in previous builds.' One layer at a time, each checked on the winners (and the field) before the next is added on top.
+Observation to test as a layer: a horse–jockey cross link struck on both ends by 2+ different sky bodies — only the winner had one at Perth (Ceres->Uranus)
+and Nottingham (horse Sedna – Dawson Chiron, 3 bodies).
