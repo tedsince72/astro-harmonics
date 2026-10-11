@@ -11,3 +11,6 @@ Winner claims to check (file __P05):
 3. Cross horse Pluto – Bass Neptune RA 0.231 struck by sky Haumea: RA 63 | Dec 37. Cross horse Pallas – Bass Rahu RA 0.1394.
 4. Both-ends strikes per runner (both_ends.py): Allmankind 8, Eldorado Allen 6, First Flow 8, Master Tommytucker 6, Funambule Sivola 4, Keeper Hill 2.
 5. Sky Orcus |Dec| 12.00268 (12).
+
+## Checker (independent, recomputed): header and 1–5 confirmed
+- Uranus great-circle set worst 0.00018%, Transpluto 0.0019%. First Flow 7 ratios / 2 bodies in both charts vs Master Tommytucker 17 / 9.
