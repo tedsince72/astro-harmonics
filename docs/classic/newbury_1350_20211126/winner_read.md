@@ -25,3 +25,7 @@ R4. Sheppard Haumea–Pallas Dec: sky 26.9616, natal 10.5499 -> 23/9 (0.0033%); 
 R5. Sky Pallas -> Sheppard Mars Dec 5.99666 (6).
 R6. Horse Sun |Dec| 14.9965 (15); sky Sun |Dec| 20.9878; ratio 7/5 (0.035%).
 R7. Control (simple sky/natal ratios, p<=30, q<=9, <=0.005%, no stars, per chart): Solo 4, Cobden 5, Mister Coffey 4, Bowen 4, Fifty Ball 4, Moore 3, Cascova 2, Jacob 5, Not Available 2, Sheppard 3.
+
+## Checker (independent, recomputed): R1–R7 confirmed
+- 21/8 (0.0114%), 16/7 (0.0077%) and 7/5 (0.035%) are outside the 0.005% control cut.
+- Mister Coffey / Fifty Ball identical horse sheets: both born 30-Apr-15 in the race CSV — correct, not a data error.
