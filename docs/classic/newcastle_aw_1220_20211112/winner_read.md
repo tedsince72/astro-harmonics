@@ -18,3 +18,9 @@ Winner items (claims to check):
 
 Jason Hart Alkaid*–Sun (RA 23, Dec 51) present again (Greengage, 6th): nothing in the sky struck it.
 Record: Newcastle 2 Aug won (both nodes on both ends); Musselburgh 5th (Saturn on both ends); Catterick 2nd (nothing); here 6th (nothing).
+
+## Checker corrections (independent agent, recomputed from workbooks)
+- 1–4, 6–8, 10 confirmed.
+- 5: ratios 5.99491, 6.99491, 1.16681 — 6 and 7 are 0.0051 off (just outside ±0.005); 7/6 within ninths tolerance.
+- 9 corrected: Sedna ~14.345 is jockey Sedna (Mulrennan Eris 14.33731 + Spica* in three charts) — not 129/9; the ~8.439 soak is sky Sedna (sky Ceres 8.43336 + Aldebaran* in three charts), not Mars; 76/9 off 0.005. Both soaks are mostly one fixed star — not counted.
+- Hart: sky Pleiades* hits both natal Alkaid* (RA 150.00073) and natal Sun (RA 126.99655). Fixed star, so "nothing struck it" holds with stars excluded.
