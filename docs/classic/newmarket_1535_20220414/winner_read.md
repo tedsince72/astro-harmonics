@@ -15,3 +15,9 @@ Claims to check (winner file __P07):
 3. Egan Venus on the node: natal Rahu–Venus RA 0.5502 (also in his Newcastle 12:20 ride on Buxted Too, 4th). Egan Rahu–Orcus RA 0.1954.
 4. Other: horse Orcus–Transpluto RA 0.0006; horse Pallas – Egan Saturn Dec 0.0156; J Sun–Chiron RA 13 (0.0038%); J Mars–Transpluto RA 25/8; same-body Mercury RA 8/3, 5/3, 8/5 (0.024%).
 5. Equator: Uranus sky/horse 15.4847/11.2629 = 11/8 (0.011%); Vesta sky/horse 16.9063/5.9661 = 17/6 (0.015%); sky Mars 12.99704 (13), sky Makemake 22.99889 (23).
+
+## Checker (independent, recomputed): 1, 3, 5 confirmed; corrections
+- 2: the RA 22.99991 (23) is sky Neptune -> horse Venus, not Egan natal Neptune–Venus (170.249). Egan Uranus–Neptune RA 13.00499 is at the edge of ±0.005.
+- 3: Egan Rahu–Venus is his natal fact (same in every ride), not an independent repeat.
+- 4: Sun–Chiron 13 and Mars–Transpluto 25/8 are sky/natal ratios (natal 149.9457 / sky 11.5338; sky 177.5717 / natal 56.8246).
+- Field: two-plane movement onto a cross link — Eydon (Egan Haumea 22 / 53/9, near horse Makemake RA 1.36) and Dawn Of Liberation (jockey Sedna 18 / 41/9, near horse Juno Dec 0.036); others none.

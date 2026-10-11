@@ -46,3 +46,8 @@ Reading aids already saved: tools/fit_read.py, tools/both_ends.py, tools/three_w
 - Neptune–node: Newcastle 12:20 (9/4), Huntingdon (4:3:3, Bass natal = sky); not at Lingfield (Bass) or Haydock.
 - Recurring hub bodies per winner: Gonggong, Orcus, Makemake (striking), Pallas/Juno, Mercury, Juno, Neptune, Sun (Equator x12, 15), Jupiter–Vesta, Haumea, Pluto.
 - Jockeys seen more than once: Bass (2 wins), Mulrennan (2 wins), Cobden (2nd, 2nd, 4th, F), Twiston-Davies (3rd, W), Beasley, Marquand, Scudamore, Hart.
+
+## Several scripts (Eddie, 12 Oct 2026: 'maybe we need several scripts to be able to read like this')
+One reader per kind of link — sky/natal ratios per chart; movement since birth (with cross-link check, both planes); shared node and shared pairs;
+Equator; three-way sets; natal pairs struck on both ends; same-body sets — then a final script that joins their output into each runner's web
+and reads it body by body.
