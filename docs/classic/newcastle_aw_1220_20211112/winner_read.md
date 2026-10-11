@@ -24,3 +24,12 @@ Record: Newcastle 2 Aug won (both nodes on both ends); Musselburgh 5th (Saturn o
 - 5: ratios 5.99491, 6.99491, 1.16681 — 6 and 7 are 0.0051 off (just outside ±0.005); 7/6 within ninths tolerance.
 - 9 corrected: Sedna ~14.345 is jockey Sedna (Mulrennan Eris 14.33731 + Spica* in three charts) — not 129/9; the ~8.439 soak is sky Sedna (sky Ceres 8.43336 + Aldebaran* in three charts), not Mars; 76/9 off 0.005. Both soaks are mostly one fixed star — not counted.
 - Hart: sky Pleiades* hits both natal Alkaid* (RA 150.00073) and natal Sun (RA 126.99655). Fixed star, so "nothing struck it" holds with stars excluded.
+
+## Ratios (Eddie: transit/natal and equator ratios) — checked
+- Mulrennan Gonggong–Uranus Dec: sky 26.67003 / natal 1.48170 = 17.99967 (18, 0.0018%). Same pair as the TN together.
+- Mulrennan Neptune–Rahu great circle: natal 160.40968 / sky 71.29324 = 9/4 (0.00007%).
+- Horse 47/9 twice: RA Neptune–Sun (0.0053%), great circle Chiron–Mercury (0.0040%).
+- Mulrennan Gonggong–Orcus RA 7/6 (0.0137%) — same 7/6 as Gonggong same-body.
+- Equator: Ceres sky/jockey 7/4 (0.008%); no whole/ninth Equator values in any of the three charts.
+- Control: tight ratio hits (<=0.005%) occur for every runner; Joe Fanning (2nd) has Gonggong–Neptune Dec natal/sky 5/4;
+  sky Neptune–Rahu (71.29324) also gives horse ratios 19/8 (Further Measure) and 19/9 (Dreams Unwind).
