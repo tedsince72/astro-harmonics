@@ -13,3 +13,6 @@ Claims to check (winner file __P07):
 5. Equator: Gonggong sky 11.0007 (11) / Crowley 23.7468 = 1/2 (0.003%); Saturn sky 14.4024 / horse 21.6050 = 2/3 (0.007%).
 6. Other: Crowley Ketu–Transpluto Dec sky/natal 11/6 (0.0003%); same-body Vesta great circle 13/4, 9/4, 13/9 (0.023%); Sun RA 3, 2, 3/2 (0.045%);
    Crowley Eris moved great circle 12.2231 (110/9), natal Eris near horse Gonggong Dec 0.239.
+
+## Checker (independent, recomputed): 1–4, 6 confirmed; 5 corrected
+- 5: sky Gonggong |Dec| 11.0007 (11); the 1/2 is horse Gonggong 11.8737 / Crowley 23.7468 (0.0028%), not sky/jockey. Saturn sky/horse 2/3 (0.0067%) confirmed.
