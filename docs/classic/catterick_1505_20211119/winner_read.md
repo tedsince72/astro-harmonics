@@ -15,3 +15,8 @@ Claims to check (winner file __P07):
 6. Sky Mars–Quaoar same Dec 0.0014; sky Mars and sky Quaoar both Dec ≈0.11 from horse Quaoar.
 7. Soak Chiron ~18.3438 (165/9 off 0.0105 — not a ninth) spread 0.0014: J Chiron->sky Mars Dec, sky Chiron->H Eris RA, sky Chiron->H Ceres Dec, J Chiron->sky Quaoar Dec.
 Cross-race: Newcastle AW 15:40 winner had sky Makemake -> Lee Orcus Dec 11.00107, and horse Orcus/Transpluto/Regulus conjunct.
+
+## Checker (independent, recomputed): 1–7 confirmed
+- 3 full scan confirmed; no other sky moving body on both ends of H Transpluto – J Sun; winner's H Sun – J Vesta Dec 0.00010 is the only horse–jockey cross link < 0.001 in the race.
+- 7: spread 0.00145, offset from 165/9 0.0098–0.0112 — not a ninth.
+- Cross-race: Heart Throb's Orcus/Transpluto/Regulus are RA conjunctions only (Orcus ~21° away in Dec).
