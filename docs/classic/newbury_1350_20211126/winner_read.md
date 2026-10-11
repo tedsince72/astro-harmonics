@@ -12,3 +12,7 @@ Claims to check (winner file __P09):
 6. Sky strikes (whole/ninth, moving bodies, node RA folded) on natal Mars per chart: Not Available H 1 (Makemake Dec 31/9), Sheppard J 2 (Pallas Dec 6, Rahu RA 125/9); others 0–2.
 7. Same body Haumea RA 6.5422/16.3350/22.8771 -> 5/2, 7/2, 7/5; Catterick 15:05 Reve/Sean Bowen had 6.5234/16.3257/22.8490 (same set).
 8. Sky Mars–Neptune Dec 11.99950 (12) in the race sky.
+
+## Checker (independent, recomputed): 1–8 confirmed
+- Returns (natal body with the same sky body within RA 0.3 and Dec 1.2, moving bodies): only Sheppard's Mars in the whole field.
+- 7: Haumea sets are loose (~0.1%): Newbury worst 0.125%, Catterick Reve worst 0.106%.
