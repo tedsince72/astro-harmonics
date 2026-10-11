@@ -13,3 +13,9 @@ Claims to check (winner file __P05):
 7. Other same-body sets: Jupiter RA 3/2, 2, 3; Mercury Equator sky 13.9013 / horse 0.7318 = 19.
 8. TN together Sedna–Algol* RA 107/9 Dec 296/9 — body/star echo-type, not counted.
 9. Tom Marquand (3rd in 12:20 and 15:40): natal Ketu–Jupiter RA 2.7736 Dec 0.1212 — no moving sky body on both ends, no same number from a moving-body sky pair in 15:40 (12:20 only sky Pallas–Fomalhaut* RA 2.7709, off 0.0027).
+
+## Checker corrections (independent agent, recomputed from workbooks)
+- 1–7, 9 confirmed. Orcus same-body errors 0.0105% (7), 0.0092% (8), 0.0013% (8/7); no other runner has an Orcus RA set closer than 0.18%.
+- 3: sky Makemake -> Lee Pluto RA 1.23108 is a raw value, not whole/ninth.
+- 4: also horse Orcus -> Lee Regulus* RA 0.2776.
+- 8 corrected: the hit is sky Sedna -> Lee natal Algol* (RA 11.88856, Dec 32.88917); sky Sedna–sky Algol misses ninths (11.88718, 32.88814). Still star-type (natal star ≈ sky star), not counted.
