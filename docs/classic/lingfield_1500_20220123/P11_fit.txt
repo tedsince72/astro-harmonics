@@ -1,0 +1,21 @@
+== 7 Two For Gold / 7 David Bass
+-- simple sky/natal ratios (p<=30, q<=9, <= 0.005%, ratio != 1)
+   J Mercury–Ceres RA   sky  111.4965 natal   74.3314  sky/natal 3/2 (0.0006%)
+   H Venus–Chiron RA   sky   85.2994 natal   47.9802  sky/natal 16/9 (0.0014%)
+   H Venus–Sedna RA   sky  136.4888 natal   24.0863  sky/natal 17/3 (0.0003%)
+   H Mars–Saturn Sky  sky   45.1464 natal  167.6918  natal/sky 26/7 (0.0030%)
+   H Mars–Uranus Dec  sky   38.4262 natal    6.8617  sky/natal 28/5 (0.0016%)
+   H Jupiter–Haumea Dec  sky   25.6554 natal    3.6651  sky/natal 7 (0.0002%)
+   J Neptune–Sedna Sky  sky   67.3026 natal  121.1404  natal/sky 9/5 (0.0034%)
+   H Pluto–Eris Sky  sky   86.7365 natal  101.1885  natal/sky 7/6 (0.0041%)
+   J Pluto–Gonggong RA   sky   37.7037 natal  106.8238  natal/sky 17/6 (0.0032%)
+   H Chiron–Orcus RA   sky  149.9901 natal  166.6544  natal/sky 10/9 (0.0007%)
+   H Chiron–Transpluto Dec  sky    5.0196 natal   14.0548  natal/sky 14/5 (0.0001%)
+-- shared pairs: horse and jockey natal values within 0.5% (>=1), with sky ratio
+   Mercury–Ceres Dec  H   29.9573 J   29.8303 (0.426%)  sky   35.2915  H~sky 7/6 (0.9765%)  J~sky 7/6 (1.4065%)
+   Mars–Quaoar Sky  H  121.3151 J  121.7584 (0.365%)  sky   10.8057  H~sky 11 (2.0634%)  J~sky 23/2 (2.0174%)
+   Ceres–Pallas Flat H   62.1121 J   62.0162 (0.155%)  sky   66.3501  H~sky 10/9 (3.8593%)  J~sky 10/9 (3.7105%)
+   Gonggong–Transpluto Flat H  177.7826 J  177.2045 (0.326%)  sky  179.8656  H~sky 1 (1.1717%)  J~sky 1 (1.5017%)
+   Quaoar–Transpluto Dec  H   27.2412 J   27.3266 (0.314%)  sky   25.8759  H~sky 1 (5.2761%)  J~sky 10/9 (4.9543%)
+-- Equator |Dec| whole/ninth
+   S Ceres 19.00491 = 19
