@@ -33,3 +33,16 @@ not the number of items. Huntingdon showed volume misleads (Master Tommytucker h
 Newcastle AW 12:20 and 15:40 (12 Nov 21), Catterick 15:05 (19 Nov 21), Newbury 13:50 (26 Nov 21), Sandown 14:25 (4 Dec 21),
 Huntingdon 13:52 (5 Dec 21), Newcastle AW 13:30 (2 Jan 22), plus Exeter 15:15 and the earlier ten.
 Reading aids already saved: tools/fit_read.py, tools/both_ends.py, tools/three_way_all.py, tools/equator_ratios.py.
+
+## Patterns to track going backwards (added 12 Oct 2026, after Ffos Las, Lingfield, Newcastle 16:40, Haydock 14:05)
+- Shared node: horse Rahu within 3° of jockey Rahu (horse born ~one 18.6-yr node cycle after the jockey) — 3 of 119 runner pairs:
+  Venturous (W 25/1), Wholestone (W 16/1), Bristol De Mai (3rd; same jockey Twiston-Davies). Carries shared node pairs.
+- Chiron–Transpluto sky/natal simple ratio in Dec: Not Available (x5), New Age Dawning (21/8), Two For Gold (14/5); others 1/87; NOT at Haydock.
+  Dec chosen after seeing the winners — test only on new races.
+- Movement landing on a cross link: horse Ceres 30 -> on Beasley Mars; Mulrennan Juno 33/9 -> on horse Pluto; Twiston-Davies Quaoar 39 -> on horse Gonggong;
+  horse Orcus 9 -> on Bass Vesta. 33/9 moved twice (Mulrennan Juno, Wholestone Haumea).
+- Same pair winning twice (Sir Chauvelin / Mulrennan, Nov and Feb): no natal pair in simple sky ratio in both races; the same natal bodies lit
+  (Chiron, Neptune, Gonggong, Venus–Uranus, Ceres on the Equator, Pluto–Juno cross link) by different means — read body by body, all planes.
+- Neptune–node: Newcastle 12:20 (9/4), Huntingdon (4:3:3, Bass natal = sky); not at Lingfield (Bass) or Haydock.
+- Recurring hub bodies per winner: Gonggong, Orcus, Makemake (striking), Pallas/Juno, Mercury, Juno, Neptune, Sun (Equator x12, 15), Jupiter–Vesta, Haumea, Pluto.
+- Jockeys seen more than once: Bass (2 wins), Mulrennan (2 wins), Cobden (2nd, 2nd, 4th, F), Twiston-Davies (3rd, W), Beasley, Marquand, Scudamore, Hart.
