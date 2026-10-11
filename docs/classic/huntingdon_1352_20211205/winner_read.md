@@ -14,3 +14,9 @@ Winner claims to check (file __P05):
 
 ## Checker (independent, recomputed): header and 1–5 confirmed
 - Uranus great-circle set worst 0.00018%, Transpluto 0.0019%. First Flow 7 ratios / 2 bodies in both charts vs Master Tommytucker 17 / 9.
+
+## Recurring ratios (Eddie: 'were any of the ratios present here') — checked
+- Neptune–Rahu RA three-way: horse 90.56957, Bass 67.93759, sky 67.94087 -> sky = Bass (1, 0.0048%), horse 4/3 of both (0.0153%, 0.0201%).
+  Only runner with all three Neptune–Rahu ratios simple (q<=9) within 0.05% in any plane.
+  Same pair as Newcastle AW 12:20 winner (Mulrennan Neptune–Rahu great circle 9/4, 0.00007%).
+- Horse Mars–Neptune Dec 7/4 (0.00069%); Neptune |Dec| horse/sky 9/4 (0.041%); sky Haumea on both ends of horse Pluto – Bass Neptune (RA 63 | Dec 37).
