@@ -1,4 +1,4 @@
-# Sandown 14:25, 4 Dec 2021 (Tingle Creek) — Greaneteen (12/1) / Bryony Frost (CSV name 'Bryony Le Clerc', DOB 12-Apr-95 = Frost)
+# Sandown 14:25, 4 Dec 2021 (Tingle Creek) — Greaneteen (12/1) / Bryony Le Clerc (née Frost; rode as Bryony Frost in 2021)
 
 Counts do not pick it: scoreboard TN 0 NN 1 SKYV 3 SOAK5 0; Neptune score 2 (2nd); strings.py 2 ways (4th).
 
