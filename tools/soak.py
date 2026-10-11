@@ -45,7 +45,7 @@ for X in BOD:
         if key in seen: continue
         seen.add(key); out.append((n, -sp, X_, g))
 print(f"== {F.split('/')[-1]}: values one body takes from {MIN}+ different partners (±{W})")
-for n, sp, X, g in sorted(out, key=lambda x: (-x[0], x[1]))[:25]:
+for n, sp, X, g in sorted(out, key=lambda x: (-x[0], x[1]))[:int(sys.argv[4]) if len(sys.argv) > 4 else 25]:
     m = sum(x[0] for x in g) / len(g)
     print(f"\n   {X}: {n} partners at ~{m:.4f} ≈ {lab(m)}, spread {sp:.4f}")
     for v, pid, lbl in g: print(f"      {v:.4f}  {lbl}")
