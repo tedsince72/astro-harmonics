@@ -1,0 +1,102 @@
+pair                                 together NN together TN body/echo  3-way same-body sets <=0.15%       Nep# nodes on body  Venus–Neptune / Jupiter–Neptune (horse | jockey)
+1 Third Wind / 1 Tom O'Brien                   0            0/0             2                                11             2  V RA 19.75 Dec 7.62; J RA 127.18 Dec 32.51 | V RA 61.97 Dec 9.47; J RA 70.60 Dec 14.76
+2 Thomas Darby / 2 Aidan Coleman               0            1/0             0 Sedna/Sky, Mercury/Flat, Nep   13             1  V RA 11.60 Dec 3.77; J RA 91.49 Dec 32.16 | V RA 178.63 Dec 41.88; J RA 143.71 Dec 42.24
+3 Emitom / 3 Brian Hughes                      0            0/0             2 Chiron/Sky, Chiron/Equator     13             1  V RA 36.56≈329/9 Dec 14.20; J RA 129.76 Dec 32.12≈289/9 | V RA 126.41 Dec 34.66≈312/9; J RA 46.76 Dec 5.82
+4 Top Ville Ben / 4 Thomas Dowson              1            0/0             0 Pluto/RA, Transpluto/Dec, Tr   14             0  V RA 107.68 Dec 37.83; J RA 77.18 Dec 29.08 | V RA 54.30 Dec 16.03; J RA 20.83 Dec 2.59
+5 Wholestone / 5 Sam Twiston-Davies            1            0/2             0 Orcus/RA, Haumea/Dec, Mercur   12             0  V RA 15.10 Dec 5.21; J RA 43.83 Dec 17.63 | V RA 55.27 Dec 1.96; J RA 106.18 Dec 22.28
+6 Molly Ollys Wishes / 6 Harry Skelt           0            1/1             0 Transpluto/Sky                 10             2  V RA 24.80 Dec 5.08; J RA 123.68≈1113/9 Dec 33.33≈300/9 | V RA 63.91 Dec 6.44≈58/9; J RA 178.90≈1610/9 Dec 45.06
+== P01  horse 1 Third Wind, jockey 1 Tom O'Brien
+   node   1 Third Wind       Rahu–Ceres: RA 1.4278 Dec 14.6343
+   node   1 Third Wind       Ketu–Eris: RA 0.6569 Dec 13.8945
+   cross   horse Chiron     – jockey Jupiter    RA 0.0528 Dec 6.6601
+   cross   horse Gonggong   – jockey Quaoar     RA 105.5036 Dec 0.0792
+   3way   LINK Dec Jupiter–Makemake      H    3.9200  J   43.6806  S   30.8007   J:H 78/7 (0.0026%)  S:H 55/7 (0.0034%)  S:J 10/7 (0.728%)
+   3way   LINK Dec Castor*–Ketu          H   21.0649  J   39.7848  S   51.1592   J:H 17/9 (0.0112%)  S:H 17/7 (0.0031%)  S:J 9/7 (0.014%)
+   samebodywithin 0.15% (all three ratios):
+   soak   Ceres: 5 partners at ~5.5883 ≈ 50/9 (0.0327), spread 0.0273
+   soak   Eris: 5 partners at ~12.3393 ≈ 111/9 (0.0060), spread 0.0381
+   soak   Gonggong: 4 partners at ~2.4047 ≈ 22/9 (0.0398), spread 0.0141
+== P03  horse 2 Thomas Darby, jockey 2 Aidan Coleman
+   together    Vesta–Sun: RA 59 (±0.00419)  Dec 152/9 (±0.00014)
+   together    0.00037 Dec Sedna–Equator       =       4  (4.00037)
+   node   2 Aidan Coleman    Ketu–Makemake: RA 1.4192 Dec 29.4898
+   cross   horse Uranus     – jockey Ceres      RA 0.4016 Dec 15.8275
+   cross   horse Gonggong   – jockey Ceres      RA 31.4284 Dec 0.0522
+   samebodywithin 0.15% (all three ratios):
+   samebody   0.054%  Sedna      Sky     sky–horse 5.1656  horse–jockey 11.6288  sky–jockey 16.7940   ratios 9/4 (0.054%), 13/4 (0.036%), 13/9 (0.019%)
+   samebody   0.058%  Mercury    Flat    sky–horse 34.7227  horse–jockey 178.6119  sky–jockey 148.7575   ratios 36/7 (0.021%), 30/7 (0.036%), 6/5 (0.058%)
+   samebody   0.070%  Neptune    Sky     sky–horse 18.4721  horse–jockey 55.4551  sky–jockey 73.9272   ratios 3 (0.070%), 4 (0.053%), 4/3 (0.018%)
+   samebody   0.089%  Saturn     RA      sky–horse 100.7128  horse–jockey 46.5052  sky–jockey 54.2076   ratios 13/6 (0.048%), 13/7 (0.041%), 7/6 (0.089%)
+   soak   Venus: 4 partners at ~3.9173 ≈ 35/9 (0.0284), spread 0.0198
+   soak   Ketu: 4 partners at ~13.4476 ≈ 121/9 (0.0031), spread 0.0269
+   soak   Eris: 4 partners at ~9.9407 ≈ 89/9 (0.0519), spread 0.0276
+== P05  horse 3 Emitom, jockey 3 Brian Hughes
+   node   3 Emitom           Ketu–Eris: RA 0.2896 Dec 13.7605
+   node   3 Brian Hughes     Ketu–Quaoar: RA 1.8370 Dec 4.9832
+   cross   horse Mercury    – jockey Mercury    RA 23.4673 Dec 0.0979
+   cross   horse Saturn     – jockey Quaoar     RA 0.1745 Dec 2.9541
+   cross   horse Chiron     – jockey Pallas     RA 62.7886 Dec 0.0454
+   cross   horse Vesta      – jockey Pluto      RA 16.2990 Dec 0.0153
+   cross   horse Vesta      – jockey Sedna      RA 159.3150 Dec 0.0538
+   3way   LINK Dec Juno–Transpluto    H    2.1761  J    8.7050  S   21.4880   J:H 4 (0.0050%)  S:H 79/8 (0.0067%)  S:J 22/9 (0.982%)
+   3way   LINK RA  Castor*–Mercury       H   38.1308  J   14.6631  S  166.8133   J:H 13/5 (0.0175%)  S:H 35/8 (0.0054%)  S:J 91/8 (0.012%)
+   samebodywithin 0.15% (all three ratios):
+   samebody   0.023%  Chiron     Sky     sky–horse 22.8548  horse–jockey 83.8055  sky–jockey 60.9602   ratios 11/3 (0.005%), 8/3 (0.023%), 11/8 (0.018%)
+   samebody   0.114%  Chiron     Equator sky 5.7275  horse 0.6489  jockey 17.8780   ratios 53/6 (0.081%), 25/8 (0.114%), 248/9 (0.018%)
+   soak   Transpluto: 4 partners at ~6.7290 ≈ 61/9 (0.0488), spread 0.0153
+   soak   Chiron: 4 partners at ~22.1744 ≈ 200/9 (0.0478), spread 0.0218
+   soak   Saturn: 4 partners at ~4.9707 ≈ 5 (0.0293), spread 0.0230
+== P07  horse 4 Top Ville Ben, jockey 4 Thomas Dowson
+   together    Ketu–Rigel*: RA 542/9 (±0.00016)  Dec 16 (±0.00299)
+   together    0.00001 Dec Sun–Haumea        =      33  (32.99999)
+   node   4 Thomas Dowson    Rahu–Pluto: RA 44.9027 Dec 0.1517
+   cross   horse Rahu       – jockey Pluto      RA 0.3862 Dec 13.1574
+   cross   horse Rahu       – jockey Ceres      RA 0.4773 Dec 6.2458
+   cross   horse Rahu       – jockey Quaoar     RA 0.2231 Dec 6.5193
+   samebodywithin 0.15% (all three ratios):
+   samebody   0.055%  Pluto      RA      sky–horse 20.1103  horse–jockey 36.2184  sky–jockey 56.3287   ratios 9/5 (0.055%), 14/5 (0.035%), 14/9 (0.020%)
+   samebody   0.063%  Transpluto Dec     sky–horse 1.3755  horse–jockey 1.6516  sky–jockey 3.0271   ratios 6/5 (0.063%), 11/5 (0.035%), 11/6 (0.029%)
+   samebody   0.080%  Transpluto Sky     sky–horse 3.8804  horse–jockey 4.8544  sky–jockey 8.7347   ratios 5/4 (0.080%), 9/4 (0.044%), 9/5 (0.035%)
+   samebody   0.091%  Mercury    Sky     sky–horse 104.8410  horse–jockey 119.8884  sky–jockey 15.2447   ratios 8/7 (0.059%), 55/8 (0.032%), 55/7 (0.091%)
+   samebody   0.110%  Chiron     RA      sky–horse 29.3525  horse–jockey 146.6014  sky–jockey 175.9538   ratios 5 (0.110%), 6 (0.091%), 6/5 (0.018%)
+   samebody   0.116%  Saturn     RA      sky–horse 117.2120  horse–jockey 150.7399  sky–jockey 33.5279   ratios 9/7 (0.026%), 7/2 (0.116%), 9/2 (0.090%)
+   samebody   0.125%  Venus      Dec     sky–horse 43.8181  horse–jockey 31.3098  sky–jockey 12.5083   ratios 7/5 (0.036%), 7/2 (0.089%), 5/2 (0.125%)
+   soak   Juno: 5 partners at ~3.5898 ≈ 32/9 (0.0342), spread 0.0331
+   soak   Mercury: 5 partners at ~3.1573 ≈ 28/9 (0.0462), spread 0.0343
+   soak   Chiron: 5 partners at ~8.0426 ≈ 8 (0.0426), spread 0.0390
+== P09  horse 5 Wholestone, jockey 5 Sam Twiston-Davies
+   together    Fomalhaut*–Mars: RA 21 (±0.00295)  Dec 31 (±0.00019)
+   together    0.00009 RA  Transpluto–Deneb Algedi* =     172  (171.99991)
+   together    Fomalhaut*–Mars: RA 21 (±0.00285)  Dec 31 (±0.00282)
+   together    0.00002 Dec Neptune–Polaris*      =     111  (110.99998)
+   together    Procyon*–Venus: RA 1058/9 (±0.00026)  Dec 25 (±0.00292)
+   node   5 Sam Twiston-Davies Rahu–Uranus: RA 22.9532 Dec 0.1855
+   node   5 Sam Twiston-Davies Ketu–Mars: RA 25.7534 Dec 0.1574
+   cross   horse Pallas     – jockey Ceres      RA 0.1044 Dec 41.5432
+   cross   horse Rahu       – jockey Rahu       RA 2.3791 Dec 0.0904
+   cross   horse Ketu       – jockey Ketu       RA 2.3791 Dec 0.0904
+   cross   horse Sedna      – jockey Pallas     RA 142.5942 Dec 0.0388
+   cross   horse Quaoar     – jockey Rahu       RA 0.2054 Dec 7.7298
+   samebodywithin 0.15% (all three ratios):
+   samebody   0.067%  Orcus      RA      sky–horse 10.1923  horse–jockey 13.5989  sky–jockey 23.7912   ratios 4/3 (0.067%), 7/3 (0.038%), 7/4 (0.029%)
+   samebody   0.128%  Haumea     Dec     sky–horse 3.6674  horse–jockey 2.8561  sky–jockey 6.5235   ratios 9/7 (0.128%), 16/9 (0.056%), 16/7 (0.072%)
+   samebody   0.137%  Mercury    RA      sky–horse 70.3891  horse–jockey 158.2547  sky–jockey 87.8656   ratios 9/4 (0.076%), 5/4 (0.137%), 9/5 (0.061%)
+   soak   Pallas: 4 partners at ~32.0443 ≈ 32 (0.0443), spread 0.0143
+   soak   Quaoar: 4 partners at ~3.1947 ≈ 29/9 (0.0276), spread 0.0163
+   soak   Neptune: 4 partners at ~12.6702 ≈ 114/9 (0.0035), spread 0.0170
+== P11  horse 6 Molly Ollys Wishes, jockey 6 Harry Skelton
+   together    Sun–Eris: RA 472/9 (±0.00008)  Dec 8 (±0.00354)
+   together    0.00020 RA  Makemake–Sun           =       9  (8.99980)
+   together    Polaris*–Sun: RA 140 (±0.00037)  Dec 795/9 (±0.00025)
+   node   6 Molly Ollys Wishes Rahu–Mars: RA 1.6118 Dec 3.6544
+   node   6 Molly Ollys Wishes Ketu–Eris: RA 1.2321 Dec 14.1518
+   node   6 Harry Skelton    Rahu–Gonggong: RA 1.1516 Dec 7.4552
+   node   6 Harry Skelton    Rahu–Quaoar: RA 95.4344 Dec 0.1129
+   cross   horse Pallas     – jockey Transpluto RA 0.4471 Dec 15.5844
+   cross   horse Juno       – jockey Juno       RA 178.4856 Dec 0.0953
+   cross   horse Gonggong   – jockey Quaoar     RA 103.0403 Dec 0.0912
+   samebodywithin 0.15% (all three ratios):
+   samebody   0.031%  Transpluto Sky     sky–horse 2.9340  horse–jockey 7.8216  sky–jockey 10.7556   ratios 8/3 (0.031%), 11/3 (0.023%), 11/8 (0.009%)
+   soak   Sedna: 5 partners at ~15.3055 ≈ 138/9 (0.0278), spread 0.0319
+   soak   Sun: 5 partners at ~18.3421 ≈ 165/9 (0.0087), spread 0.0382
+   soak   Orcus: 4 partners at ~8.3581 ≈ 75/9 (0.0247), spread 0.0180
