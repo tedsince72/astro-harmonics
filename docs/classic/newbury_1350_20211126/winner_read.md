@@ -16,3 +16,12 @@ Claims to check (winner file __P09):
 ## Checker (independent, recomputed): 1–8 confirmed
 - Returns (natal body with the same sky body within RA 0.3 and Dec 1.2, moving bodies): only Sheppard's Mars in the whole field.
 - 7: Haumea sets are loose (~0.1%): Newbury worst 0.125%, Catterick Reve worst 0.106%.
+
+## Deeper read (Eddie 11 Oct: 175.6 is not an opposition — dropped; look at the ratios) — claims to check
+R1. Horse Juno–Pallas RA: sky 69.1423, horse 138.2873 -> 2 (0.0019%); jockey 138.8180 (horse/jockey 0.38% apart).
+R2. Sheppard Chiron–Transpluto Dec: sky 4.8903, natal 24.4518 -> 5 (0.0021%); RA jockey/horse 62.0528 vs 162.9071 -> 21/8 (0.0114%).
+R3. Horse Saturn–Transpluto great circle: sky 155.0269, natal 93.0117 -> 5/3 (0.0047%).
+R4. Sheppard Haumea–Pallas Dec: sky 26.9616, natal 10.5499 -> 23/9 (0.0033%); horse Haumea–Pallas great circle sky 127.7867 / horse 55.9110 -> 16/7 (0.0077%).
+R5. Sky Pallas -> Sheppard Mars Dec 5.99666 (6).
+R6. Horse Sun |Dec| 14.9965 (15); sky Sun |Dec| 20.9878; ratio 7/5 (0.035%).
+R7. Control (simple sky/natal ratios, p<=30, q<=9, <=0.005%, no stars, per chart): Solo 4, Cobden 5, Mister Coffey 4, Bowen 4, Fifty Ball 4, Moore 3, Cascova 2, Jacob 5, Not Available 2, Sheppard 3.
