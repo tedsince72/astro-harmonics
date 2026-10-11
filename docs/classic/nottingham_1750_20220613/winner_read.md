@@ -12,3 +12,9 @@ Claims to check (winner file __P03):
 4. Ratios: J Neptune–Orcus Dec 24/7 (0.0007%); J Saturn–Eris RA 19/8 (0.0023%) and H Uranus–Ceres RA 19/8 (0.0049%) — same ratio both charts; J Pluto–Sedna great circle 13/9; H Juno–Quaoar RA 20/9.
 5. Equator: Uranus horse/jockey 10.7068 / 23.0560... (claimed S/J 5/7 0.005%: sky 16.4678 / jockey 23.0560).
 6. Jason Hart (Baileys Liberty, 5th): Alkaid*–Sun RA 23.0042 Dec 50.9962 — no moving sky body on both ends; no same number.
+
+## Checker (independent, recomputed): 1–4, 6 confirmed; 5 corrected
+- 1: Vesta RA worst 0.0039%; Baileys Liberty Rahu/Ketu RA 0.0036% slightly tighter.
+- 2: Fentiman Pallas–Orcus RA 34.00488 just inside ±0.005; sky Rahu -> Fentiman Orcus 76.99522 (off 0.0048).
+- 5: Uranus Equator jockey/sky 23.0560 / 16.4678 = 7/5 (0.0051%).
+- 6: Hart's Alkaid–Sun unstruck again (5th).
