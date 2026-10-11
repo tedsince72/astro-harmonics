@@ -13,3 +13,7 @@ Claims to check (winner file __P09):
 6. 3-way Dec Mercury–Orcus: H 1.4536 J 15.5031 S 9.5937; S:H 33/5 (0.0001%), J:H 32/3 (0.0120%), S:J not simple.
 7. Simple ratios: J Jupiter–Uranus Flat 8/7 (0.0008%), H Chiron–Makemake Dec 16/9 (0.0003%), J Uranus–Transpluto great circle 4/3, H Pluto–Ceres great circle 4/3.
 8. No moving sky body at whole/ninth to horse Rahu or Beasley Rahu (RA folded or Dec).
+
+## Checker (independent, recomputed): header and 1–8 confirmed
+- 6: 33/5 and 32/3 have p > 30, so not 'simple' under the p<=30 rule; S:J not simple — not a qualifying three-way set.
+- 5: Quaoar hits are just inside ±0.005 (54.9956, 130.0049).
