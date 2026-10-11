@@ -15,3 +15,7 @@ Claims to check (winner file __P07):
 6. Shared horse/jockey: Ceres–Transpluto Flat 102.1169 / 102.1618 (0.044%), Pallas–Vesta great circle 154.6004 / 154.4540 (sky 82.5184, horse 15/8 0.079%).
 7. Other: Norton Neptune–Gonggong RA 14/3 (0.0008%); horse Mars–Chiron Dec 28/3 (0.0017%); Gonggong Equator horse/jockey 11.7791/26.5045 = 4/9 (0.005%);
    Norton Neptune moved great circle 116.5556 (1049/9, off 0.0000); horse Sun – Norton Juno RA 0.3082.
+
+## Checker (independent, recomputed): 1–7 confirmed
+- Extra: Ketu–Sedna Dec horse 29.87894 / Norton 8.24247 = 29/8 (0.00002%); Norton/sky 16/5 (0.0026%) — Ketu–Sedna linked in both charts.
+- 5: Ketu–Transpluto 15/8 uses raw RA (fold gives 16/9 at 0.5%).
