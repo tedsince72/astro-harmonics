@@ -14,3 +14,7 @@ Claims to check (winner file __P09):
    jockey Quaoar great circle 38.9927 (39, wider window) — jockey Quaoar sits on horse Gonggong Dec 0.156.
 5. Ratios: H Sun–Sedna Dec 27 (0.0037%), J Jupiter–Sedna Dec 13/3 (0.0020%), J Uranus–Sedna RA 6 (0.0047%), J Chiron–Rahu great circle 21/8 (0.0018%).
 6. Both ends: horse Eris–Gonggong Dec 10.002 by sky Ceres (Dec 25 | 35); jockey Sedna–Orcus Dec 2.003 by sky Pallas (Dec 13 | 11).
+
+## Checker (independent, recomputed): header and 1–6 confirmed
+- 1: shared node across 22 races / 119 runners: Bristol De Mai 0.105 (Lingfield 3rd, same jockey Twiston-Davies), Venturous 1.858 (W), Wholestone 2.187 (W).
+- 3: Sedna Equator S/J 15/8 at 0.0008%, H/J 11/7 at 0.0021%.
