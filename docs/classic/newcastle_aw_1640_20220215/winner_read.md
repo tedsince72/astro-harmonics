@@ -12,3 +12,8 @@ Claims to check (this race __P01; November __P03 of newcastle_aw_1220_20211112):
 5. Movement: Mulrennan Juno Dec 3.6672 (33/9, off 0.0005); Mulrennan natal Juno on horse Pluto RA 0.046.
 6. Equator Ceres sky/jockey: here 20.7522 / 9.4293 = 11/5 (0.037%); Nov 16.5027 / 9.4293 = 7/4 (0.008%).
 7. Other: H Mars–Chiron RA 13/6 (0.0008%), J Saturn–Vesta Flat 23/6 (0.0013%), J Chiron–Rahu great circle 7/6 (0.0033%).
+
+## Checker (independent, recomputed): 1–7 confirmed
+- 1: Venus RA worst 0.0022%; next tightest in the race P03 Venus Equator 0.0074%.
+- 2: convention = larger/smaller ratio, pair planes RA/Dec/Flat/GC (no Equator for pairs); no common (chart, pair) under any reading.
+- 3: sky Neptune -> horse Chiron Dec was 0.754 in November (new here).
