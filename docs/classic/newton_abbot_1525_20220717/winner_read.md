@@ -14,3 +14,7 @@ Claims to check (winner file __P07):
 5. Shared horse/jockey: Uranus–Juno great circle 153.3141 / 153.2812 (0.021%); Ceres–Makemake great circle 156.8354 / 156.8043 (0.020%).
 6. Other: J Mercury–Uranus great circle sky/natal 6 (0.0036%); J Uranus–Gonggong Flat 15/8 (0.0006%); J Pallas–Juno Dec 11/3 (0.0021%);
    Ring Orcus |Dec| 2.00143 (2); Pallas Equator sky/jockey 2.2610/1.8095 = 5/4 (0.039%).
+
+## Checker (independent, recomputed): 1–6 confirmed
+- Only horse–jockey cross link with Dec < 0.02 (non-star) in the field: winner's horse Sedna – Ring Chiron (0.014694).
+- 2: sky Eris strikes at RA 9.0033 / 28.0039 (inside ±0.005, near edge).
