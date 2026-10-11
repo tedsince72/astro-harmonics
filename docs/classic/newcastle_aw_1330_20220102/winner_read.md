@@ -17,3 +17,12 @@ Claims to check (winner file __P09):
 ## Checker (independent, recomputed): header and 1–8 confirmed
 - 6: 33/5 and 32/3 have p > 30, so not 'simple' under the p<=30 rule; S:J not simple — not a qualifying three-way set.
 - 5: Quaoar hits are just inside ±0.005 (54.9956, 130.0049).
+
+## Deeper (Eddie: 'look a bit deeper') — claims to check
+D1. Equator: sky Sun |Dec| 22.9135 / horse Sun |Dec| 1.9095 = 12 (0.0017%). Only sky-involving Equator ratio p/q (q<=9, p<=30, !=1) within 0.01% in the field
+    (others: Good Effort Uranus H/J 29/9, Regional Orcus H/J 9/5).
+D2. Horse Sun on Beasley Orcus Dec 0.0383; horse Sun–Venus conj RA 0.2027; Beasley Mercury–Sun conj RA 1.1038; Orcus |Dec| sky/jockey 12.1606/1.8712 = 13/2 (0.017%).
+D3. Juno in both charts (0.01%): H Saturn–Juno Flat 19/6 (0.0014%), H Juno–Eris RA 6/5 (0.0087%); J Pallas–Juno great circle 23/9 (0.0022%),
+    J Juno–Ketu RA 13/4 (0.0056%), J Pallas–Juno Dec 9/7 (0.0099%). Horse Juno–Mercury same Dec 0.0945. (Mondammej Neptune also 5 hits — not unique.)
+D4. Venus–Chiron Flat: sky 76.9917; horse 24.0588 -> 16/5 (0.0047%); Beasley 23.4336 -> 23/7 (0.0057%).
+D5. Movement: horse Pluto RA +16.0019 (16); horse Ceres RA -30.0058; horse Ceres on Beasley Mars RA 0.1439 (Mars of the shared Mars–Rahu pair).
