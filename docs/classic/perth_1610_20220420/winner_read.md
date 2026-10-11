@@ -13,3 +13,7 @@ Claims to check (winner file __P09):
 4. Other: shared Mars–Jupiter great circle 89.6644 / 89.6713 (0.008%); horse Neptune – Bowen Venus Dec 0.0063; horse Saturn – Bowen Quaoar RA 0.0429;
    horse Transpluto–Regulus* RA 0.0042; Bowen Sun–Chiron Dec 27/7 (0.0013%); Bowen Pallas–Quaoar RA 13/5 (0.0004%); horse Juno–Gonggong Flat 15 (0.0012%);
    Bowen Neptune moved great circle 56.4454 (508/9), natal Neptune near horse Pluto Dec 0.242.
+
+## Checker (independent, recomputed): 1–4 confirmed
+- 1: the node values 77 | 78 are folded (sky Ketu); raw sky Rahu is 102.9989 | 101.9998. Ceres -> Uranus is the only horse–jockey cross link in the field struck on both ends by 2+ sky bodies.
+- 2: horse Makemake Dec 30/9 is off 0.00104 (just inside ±0.0011).
