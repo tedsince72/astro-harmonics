@@ -14,3 +14,7 @@ Claims to check (winner file __P05):
 5. Horse Venus–Jupiter Dec natal 34.6667 / sky 10.1961 = 17/5 (0.0002%).
 6. Horse Makemake – Frost Haumea RA 0.0159; Frost Juno–Makemake great circle 11/9 (0.0010%).
 7. TN sky Regulus* -> horse Uranus RA 1264/9 Dec 69/9 — star-type, not counted.
+
+## Checker (independent, recomputed): 1–7 confirmed
+- 1: Uranus worst 0.0052%, Quaoar 0.0074% — tightest two same-body sets of all five runners (next 0.0287%).
+- 2: ratios are larger/smaller (not strictly sky/natal). With natal Moon excluded (standing rule), other runners have at most 1 hit per chart for any body in both charts; Greaneteen Mercury 3 + 3, Jupiter 1 + 1.
