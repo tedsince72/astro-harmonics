@@ -1,6 +1,6 @@
 # Whole numbers (±0.005), ninths (±0.0005) and RA+Dec together from one of Eddie's race_batch workbooks (TRANS + Pxx tabs, single moment).
 import sys,openpyxl,itertools
-F=sys.argv[1]; wb=openpyxl.load_workbook(F,data_only=True)
+F=sys.argv[1]; TW=float(sys.argv[2]) if len(sys.argv)>2 else 0.005; T9=float(sys.argv[3]) if len(sys.argv)>3 else 0.0005; wb=openpyxl.load_workbook(F,data_only=True)
 BOD=['Sun','Mercury','Venus','Mars','Jupiter','Saturn','Uranus','Neptune','Pluto','Chiron','Ceres','Pallas','Juno','Vesta','Rahu','Ketu','Eris','Sedna','Haumea','Makemake','Gonggong','Quaoar','Orcus','Transpluto','Moon']
 def load(ws,natal):
     P={}; 
@@ -11,8 +11,8 @@ def load(ws,natal):
     return P
 star=lambda b:b.endswith('*')
 def on(v,fam):
-    if fam=='whole': k=round(v); return (abs(v-k)<=0.005 and k>0), str(k), abs(v-k)
-    q=round(v*9); return (abs(v-q/9)<=0.0005 and q%9!=0), f'{q}/9', abs(v-q/9)
+    if fam=='whole': k=round(v); return (abs(v-k)<=TW and k>0), str(k), abs(v-k)
+    q=round(v*9); return (abs(v-q/9)<=T9 and q%9!=0), f'{q}/9', abs(v-q/9)
 def scan(P,Q,same):
     hits=[]; tog=[]
     it=itertools.combinations(sorted(P),2) if same else itertools.product(sorted(P),sorted(Q))
@@ -40,7 +40,7 @@ def show(t,res):
     print(f"-- {t} — RA and Dec together: {len(tog)}")
     for a,b,r,d in tog: print(f"   {a}–{b}: RA {r[0]} (±{r[1]:.5f})  Dec {d[0]} (±{d[1]:.5f}){'  MOON' if 'Moon' in (a,b) else ''}")
 SKY=load(wb['TRANS'],False)
-print(F.split('/')[-1],"  stars marked * ; star–star and Rahu–Ketu out; natal Moon out; whole ±0.005, ninths ±0.0005; sky at the workbook time")
+print(f"{F.split('/')[-1]}  stars marked * ; star–star and Rahu–Ketu out; natal Moon out; whole ±{TW}, ninths ±{T9}; sky at the workbook time")
 show('TT sky',scan(SKY,None,True))
 for t in wb.sheetnames[1:]:
     ws=wb[t]; nm=ws.cell(2,1).value; N=load(ws,True)
