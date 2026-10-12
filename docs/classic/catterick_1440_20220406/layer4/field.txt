@@ -1,0 +1,79 @@
+== catterick_1440_20220406  field of 5   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+-- runners: P01 1 Tea Garden / 1 Connor Beasley; P03 2 Beluga Gold / 2 Jason Hart; P05 3 Capuchinero / 3 Dougie Costello; P07 4 Thakuri / 4 David Allan; P09 5 Wotever Next / 5 Joanna Mason
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              1/5: P05:1  |   5: P01:9 P03:16 P05:29 P07:17 P09:14
+   [  2] partner strike                              3/5: P03:1 P05:1 P07:2  |   5: P01:4 P03:8 P05:4 P07:9 P09:4
+   [  3] pair together in the sky                    0/5: -  |   2: P05:1 P07:2
+   [  4] both ends moved                             1/5: P09:2  |   1: P09:2
+   [  5] movement onto a cross link                  5/5: P01:1 P03:5 P05:8 P07:1 P09:9  |   5: P01:2 P03:7 P05:13 P07:1 P09:11
+   [  6] swap                                        0/5: -  |   3: P03:2 P05:1 P07:1
+   [  7] triangle struck at every corner             2/5: P03:2 P05:1  |   5: P01:2 P03:11 P05:14 P07:8 P09:2
+   [  8] same number / ratio in both charts          2/5: P05:1 P09:3  |   4: P03:1 P05:2 P07:2 P09:4
+   [  9] shared node                                 0/5: -  |   0: -
+   [ 10] sky body divides a natal pair               4/5: P03:18 P05:65 P07:18 P09:12  |   4: P03:18 P05:65 P07:18 P09:12
+   [ 11] joined same-body set                        4/5: P03:3 P05:4 P07:1 P09:2  |   4: P03:3 P05:4 P07:1 P09:2
+   [ 12] pair in one chart struck on both ends by 2+  0/5: -  |   5: P01:2 P03:1 P05:5 P07:3 P09:4
+   [ 1m] cross link, 2+ sky bodies on both ends      0/5: -  |   3: P03:4 P05:4 P07:4
+   [12m] pair in one chart, 2+ sky bodies on both ends  0/5: -  |   5: P01:2 P03:1 P05:5 P07:3 P09:4
+-- tightest instance of each shape
+   [ 1] P03 2 Beluga Gold / 2 Jason Hart: horse Ceres – jockey Node (RA 29.9579 Dec 0.0057)
+   [ 2] P07 4 Thakuri / 4 David Allan: horse Makemake – jockey Mars (RA 0.1289 Dec 31.7914)
+   [ 3] P05 3 Capuchinero / 3 Dougie Costello: horse Jupiter – jockey Neptune (RA 8.6147 Dec 0.3194)
+   [ 4] P09 5 Wotever Next / 5 Joanna Mason: horse Saturn – jockey Mercury (RA 2.2172 Dec 0.0827)
+   [ 5] P03 2 Beluga Gold / 2 Jason Hart: moved J Node (RA 29.9579 Dec 0.0057)
+   [ 6] P03 2 Beluga Gold / 2 Jason Hart: swap Neptune/Pluto (RA 111.2866 Dec 0.0371)
+   [ 7] P01 1 Tea Garden / 1 Connor Beasley: triangle Jupiter/Node/Quaoar ()
+   [ 8] P03 2 Beluga Gold / 2 Jason Hart: ratio 9/8 ()
+   [10] P05 3 Capuchinero / 3 Dougie Costello: H Sun -> J Transpluto (split error 0.0066%)
+   [11] P03 2 Beluga Gold / 2 Jason Hart: same body Transpluto (worst 0.0370%)
+   [12] P01 1 Tea Garden / 1 Connor Beasley: H Juno–Gonggong (GC 5.44417 = 49/9)
+-- field-only findings (shape numbers)
+   P03 2 Beluga Gold / 2 Jason Hart: only (strict) -; only (broad) -; strict, shared with one other 7
+   P05 3 Capuchinero / 3 Dougie Costello: only (strict) 1; only (broad) -; strict, shared with one other 7,8
+   P09 5 Wotever Next / 5 Joanna Mason: only (strict) 4; only (broad) 4; strict, shared with one other 8
+-- strong hubs across the field
+   J Node         2: P03 P05
+   H Orcus        1: P03
+   J Juno         1: P03
+   J Gonggong     1: P03
+   H Vesta        1: P05
+   H Sedna        1: P05
+   H Saturn       1: P05
+   J Pluto        1: P05
+   H Node         1: P05
+   J Mercury      1: P09
+   H Chiron       1: P09
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Pluto – jockey Neptune: P03 (RA 2.3619 Dec 0.4924, broad); P05 (RA 24.7184 Dec 0.4001, broad); P07 (RA 29.5320 Dec 0.2806, broad); P09 (RA 10.1445 Dec 0.1597, broad)
+   [ 1] horse Jupiter – jockey Node: P01 (RA 4.0613 Dec 0.1914, broad); P07 (RA 21.8333 Dec 0.1040, broad)
+   [ 1] horse Saturn – jockey Uranus: P01 (RA 17.3578 Dec 0.4308, broad); P05 (RA 41.0076 Dec 0.1531, broad)
+   [ 1] horse Pluto – jockey Uranus: P03 (RA 0.2447 Dec 0.3172, broad); P05 (RA 46.2817 Dec 0.0685, broad)
+   [ 1] horse Orcus – jockey Saturn: P03 (RA 173.7608 Dec 0.2753, broad); P05 (RA 59.0084 Dec 0.2108, broad)
+   [ 1] horse Jupiter – jockey Neptune: P05 (RA 8.6147 Dec 0.3194, broad); P07 (RA 2.0096 Dec 0.5978, broad)
+   [ 1] horse Jupiter – jockey Gonggong: P05 (RA 67.1018 Dec 0.4261, broad); P07 (RA 64.8258 Dec 0.2064, broad)
+   [ 1] horse Saturn – jockey Neptune: P05 (RA 19.4443 Dec 0.3155, broad); P09 (RA 6.8118 Dec 0.3415, broad)
+   [ 1] horse Sedna – jockey Orcus: P05 (RA 65.7403 Dec 0.2368, broad); P07 (RA 65.6132 Dec 0.3570, broad)
+   [ 1] horse Gonggong – jockey Quaoar: P05 (RA 109.7133 Dec 0.3104, broad); P07 (RA 113.0624 Dec 0.3879, broad)
+   [ 1] horse Quaoar – jockey Node: P05 (RA 1.3841 Dec 7.8735, broad); P09 (RA 45.8573 Dec 0.4194, broad)
+   [ 1] horse Orcus – jockey Eris: P05 (RA 132.8519 Dec 0.4626, broad); P07 (RA 131.6313 Dec 0.5959, broad)
+   [ 3] horse Jupiter – jockey Neptune: P05 (RA 8.6147 Dec 0.3194, broad); P07 (RA 2.0096 Dec 0.5978, broad)
+   [ 7] triangle Gonggong/Jupiter/Neptune: P05 (, broad); P07 (, broad)
+   [11] same body Node: P05 (worst 0.0422%); P09 (worst 0.0681%)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P05 P07
+   recurring cross link horse Pluto – jockey Neptune: P01 P03 P05 P07 P09
+   recurring cross link horse Sedna – jockey Chiron: P07
+   recurring cross link horse Uranus – jockey Venus: P03 P07
+   recurring pair Chiron–Transpluto: P01 P05
+   recurring pair Haumea–Node: P03 P09
+   recurring pair Jupiter–Vesta: P01 P03 P07 P09
+   recurring pair Neptune–Ketu: P09
+   recurring pair Neptune–Node: P03 P09
+   recurring pair Neptune–Vesta: P01 P03 P07
+   recurring pair Node–Haumea: P01 P03 P07 P09
+   recurring pair Node–Neptune: P03 P09
+   recurring pair Pallas–Juno: P05 P07
+   recurring pair Rahu–Haumea: P09
+   recurring pair Saturn–Neptune: P03 P05 P07 P09
+   recurring pair Uranus–Venus: P03 P07
+   recurring pair Vesta–Jupiter: P03

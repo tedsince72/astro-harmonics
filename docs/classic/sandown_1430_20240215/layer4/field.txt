@@ -1,0 +1,86 @@
+== sandown_1430_20240215  field of 7   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+-- runners: P01 1 Aston Martini / 1 James Bowen; P03 2 Cherie d'Am / 2 Harry Skelton; P05 3 Either Or / 3 Nico de Boinville; P07 4 Jeune Belle / 4 Bryony Le Clerc; P09 5 Little Miss Dante / 5 Sean Bowen; P11 6 Smiling Getaway / 6 Sam Twiston-Davies; P13 7 Springtime Promise / 7 Connor Brace
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              3/7: P03:2 P07:1 P11:1  |   7: P01:11 P03:11 P05:10 P07:14 P09:10 P11:11 P13:12
+   [  2] partner strike                              0/7: -  |   7: P01:4 P03:4 P05:3 P07:3 P09:3 P11:1 P13:3
+   [  3] pair together in the sky                    2/7: P01:1 P05:1  |   2: P01:1 P05:1
+   [  4] both ends moved                             0/7: -  |   2: P03:1 P11:2
+   [  5] movement onto a cross link                  5/7: P01:2 P03:1 P07:2 P11:3 P13:2  |   7: P01:2 P03:3 P05:1 P07:4 P09:2 P11:8 P13:2
+   [  6] swap                                        1/7: P13:1  |   1: P13:1
+   [  7] triangle struck at every corner             5/7: P01:2 P03:1 P05:1 P11:2 P13:1  |   6: P01:5 P03:5 P05:4 P09:5 P11:3 P13:5
+   [  8] same number / ratio in both charts          4/7: P01:2 P03:1 P07:2 P09:2  |   6: P01:3 P03:1 P07:5 P09:2 P11:4 P13:2
+   [  9] shared node                                 0/7: -  |   0: -
+   [ 10] sky body divides a natal pair               5/7: P01:20 P03:15 P05:9 P09:7 P11:10  |   5: P01:20 P03:15 P05:9 P09:7 P11:10
+   [ 11] joined same-body set                        6/7: P01:3 P03:2 P05:1 P07:1 P09:1 P13:6  |   6: P01:3 P03:2 P05:1 P07:1 P09:1 P13:6
+   [ 12] pair in one chart struck on both ends by 2+  0/7: -  |   7: P01:5 P03:4 P05:1 P07:4 P09:1 P11:4 P13:3
+   [ 1m] cross link, 2+ sky bodies on both ends      0/7: -  |   6: P01:1 P03:5 P05:3 P09:2 P11:1 P13:1
+   [12m] pair in one chart, 2+ sky bodies on both ends  1/7: P13:1  |   7: P01:5 P03:4 P05:1 P07:4 P09:1 P11:4 P13:3
+-- tightest instance of each shape
+   [ 1] P05 3 Either Or / 3 Nico de Boinville: horse Venus – jockey Node (RA 0.0475 Dec 1.5313)
+   [ 2] P03 2 Cherie d'Am / 2 Harry Skelton: horse Quaoar – jockey Uranus (RA 0.1336 Dec 8.2722)
+   [ 3] P01 1 Aston Martini / 1 James Bowen: horse Pluto – jockey Mars (RA 42.6925 Dec 0.1945)
+   [ 4] P11 6 Smiling Getaway / 6 Sam Twiston-Davies: horse Orcus – jockey Eris (RA 128.7625 Dec 0.3366)
+   [ 5] P07 4 Jeune Belle / 4 Bryony Le Clerc: moved J Ceres (RA 0.1044 Dec 12.7975)
+   [ 6] P13 7 Springtime Promise / 7 Connor Brace: swap Ceres/Juno (RA 40.9225 Dec 0.1177)
+   [ 7] P01 1 Aston Martini / 1 James Bowen: triangle Makemake/Neptune/Sun ()
+   [ 8] P01 1 Aston Martini / 1 James Bowen: number 9 ()
+   [10] P11 6 Smiling Getaway / 6 Sam Twiston-Davies: J Mercury -> H Chiron (split error 0.0094%)
+   [11] P13 7 Springtime Promise / 7 Connor Brace: same body Mercury (worst 0.0040%)
+   [12] P03 2 Cherie d'Am / 2 Harry Skelton: J Uranus–Neptune (Flat 9.00007 = 9)
+-- field-only findings (shape numbers)
+   P01 1 Aston Martini / 1 James Bowen: only (strict) -; only (broad) -; strict, shared with one other 3
+   P05 3 Either Or / 3 Nico de Boinville: only (strict) -; only (broad) -; strict, shared with one other 3
+   P13 7 Springtime Promise / 7 Connor Brace: only (strict) 6,12m; only (broad) 6; strict, shared with one other -
+-- strong hubs across the field
+   J Orcus        2: P01 P09
+   H Node         2: P01 P05
+   H Orcus        2: P09 P13
+   H Juno         1: P03
+   J Node         1: P05
+   J Eris         1: P05
+   H Venus        1: P05
+   J Pluto        1: P07
+   J Ceres        1: P07
+   J Vesta        1: P13
+   J Transpluto   1: P13
+   H Eris         1: P13
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Node – jockey Jupiter: P01 (RA 55.0129 Dec 0.4744, broad); P09 (RA 3.1528 Dec 0.1613, broad)
+   [ 1] horse Makemake – jockey Haumea: P01 (RA 1.3939 Dec 2.9561, broad); P09 (RA 1.2096 Dec 3.6364, broad)
+   [ 1] horse Gonggong – jockey Pluto: P01 (RA 81.0344 Dec 0.1216, broad); P13 (RA 83.3710 Dec 0.5329, broad)
+   [ 1] horse Saturn – jockey Saturn: P03 (RA 1.4588 Dec 0.5080, broad); P05 (RA 3.0743 Dec 0.1958, broad)
+   [ 1] horse Saturn – jockey Neptune: P03 (RA 0.9283 Dec 0.0683, broad); P05 (RA 5.2735 Dec 0.3203, broad)
+   [ 1] horse Quaoar – jockey Uranus: P03 (RA 0.1336 Dec 8.2722, broad); P05 (RA 0.6185 Dec 8.0484, broad)
+   [ 1] horse Orcus – jockey Eris: P03 (RA 129.8008 Dec 0.1698, broad); P11 (RA 128.7625 Dec 0.3366, broad)
+   [ 1] horse Pluto – jockey Neptune: P05 (RA 10.4037 Dec 0.5487, broad); P11 (RA 2.9471 Dec 0.5295, broad)
+   [ 1] horse Node – jockey Gonggong: P09 (RA 17.7568 Dec 0.5673, broad); P13 (RA 1.8952 Dec 6.1775, broad)
+   [ 1] horse Mercury – jockey Eris: P11 (RA 1.8728 Dec 19.3549, broad); P13 (RA 1.2034 Dec 19.3462, broad)
+   [11] same body Orcus: P01 (worst 0.0747%); P09 (worst 0.0759%); P13 (worst 0.1001%)
+   [11] same body Uranus: P01 (worst 0.0064%); P13 (worst 0.1088%)
+   [11] same body Mercury: P03 (worst 0.0419%); P13 (worst 0.0040%)
+   [12] J Uranus–Neptune: P03 (Flat 9.00007 = 9, broad); P07 (RA 5.2234 Dec 0.1068, broad)
+   [12] J Node–Quaoar: P03 (RA 95.4344 Dec 0.1129, broad); P05 (RA 96.2027 Dec 0.1114, broad)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P01 P05 P09
+   recurring cross link horse Pluto – jockey Neptune: P01 P05 P07 P11
+   recurring cross link horse Uranus – jockey Venus: P05
+   recurring cross link horse Venus – jockey Uranus: P05
+   recurring pair Chiron–Transpluto: P03 P07 P11 P13
+   recurring pair Haumea–Node: P07
+   recurring pair Juno–Pallas: P11
+   recurring pair Jupiter–Vesta: P09
+   recurring pair Ketu–Haumea: P03
+   recurring pair Neptune–Ketu: P09 P11
+   recurring pair Neptune–Node: P01 P05
+   recurring pair Neptune–Rahu: P03
+   recurring pair Neptune–Saturn: P01 P07
+   recurring pair Neptune–Vesta: P01
+   recurring pair Node–Haumea: P01 P03 P05 P07 P09 P13
+   recurring pair Node–Neptune: P01
+   recurring pair Pallas–Juno: P01 P11
+   recurring pair Saturn–Neptune: P03 P05 P07 P11
+   recurring pair Transpluto–Chiron: P03 P05
+   recurring pair Uranus–Venus: P05
+   recurring pair Venus–Uranus: P05 P07 P09
+   recurring pair Vesta–Jupiter: P09
+   recurring pair Vesta–Neptune: P05 P07 P13

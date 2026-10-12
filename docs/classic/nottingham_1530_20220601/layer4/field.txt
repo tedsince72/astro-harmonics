@@ -1,0 +1,74 @@
+== nottingham_1530_20220601  field of 5   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+-- runners: P01 2 Dynamic Force / 2 Ray Dawson; P03 3 Princess Shabnam / 3 Harry Burns; P05 4 Ballet Steps / 4 Kieran Shoemark; P07 5 Swayze / 5 Lewis Edmunds; P09 6 Silky Wilkie / 6 Clifford Lee
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              3/5: P01:1 P03:4 P07:2  |   5: P01:19 P03:16 P05:11 P07:20 P09:13
+   [  2] partner strike                              3/5: P01:1 P03:1 P07:2  |   5: P01:7 P03:4 P05:3 P07:6 P09:6
+   [  3] pair together in the sky                    0/5: -  |   0: -
+   [  4] both ends moved                             1/5: P07:1  |   2: P05:1 P07:1
+   [  5] movement onto a cross link                  4/5: P01:3 P03:5 P05:2 P07:5  |   5: P01:8 P03:10 P05:6 P07:7 P09:2
+   [  6] swap                                        1/5: P07:1  |   2: P07:1 P09:1
+   [  7] triangle struck at every corner             3/5: P03:1 P05:2 P07:3  |   5: P01:6 P03:6 P05:3 P07:18 P09:2
+   [  8] same number / ratio in both charts          4/5: P03:2 P05:2 P07:3 P09:4  |   5: P01:1 P03:2 P05:6 P07:3 P09:5
+   [  9] shared node                                 0/5: -  |   0: -
+   [ 10] sky body divides a natal pair               5/5: P01:17 P03:26 P05:27 P07:34 P09:9  |   5: P01:17 P03:26 P05:27 P07:34 P09:9
+   [ 11] joined same-body set                        4/5: P03:1 P05:2 P07:1 P09:1  |   4: P03:1 P05:2 P07:1 P09:1
+   [ 12] pair in one chart struck on both ends by 2+  1/5: P07:1  |   5: P01:1 P03:5 P05:3 P07:9 P09:5
+   [ 1m] cross link, 2+ sky bodies on both ends      1/5: P01:1  |   4: P01:3 P03:2 P07:3 P09:1
+   [12m] pair in one chart, 2+ sky bodies on both ends  2/5: P07:1 P09:1  |   5: P01:1 P03:5 P05:3 P07:9 P09:5
+-- tightest instance of each shape
+   [ 1] P01 2 Dynamic Force / 2 Ray Dawson: horse Saturn – jockey Uranus (RA 0.0077 Dec 0.9040)
+   [ 2] P01 2 Dynamic Force / 2 Ray Dawson: horse Sedna – jockey Chiron (RA 88.9928 Dec 0.0055)
+   [ 4] P07 5 Swayze / 5 Lewis Edmunds: horse Neptune – jockey Pallas (RA 1.1036 Dec 3.9293)
+   [ 5] P05 4 Ballet Steps / 4 Kieran Shoemark: moved J Jupiter (RA 0.0444 Dec 7.7555)
+   [ 6] P07 5 Swayze / 5 Lewis Edmunds: swap Gonggong/Sun (RA 127.3442 Dec 0.2708)
+   [ 7] P01 2 Dynamic Force / 2 Ray Dawson: triangle Mars/Node/Venus ()
+   [ 8] P01 2 Dynamic Force / 2 Ray Dawson: ratio 11/8 ()
+   [10] P07 5 Swayze / 5 Lewis Edmunds: J Makemake -> H Jupiter (split error 0.0010%)
+   [11] P05 4 Ballet Steps / 4 Kieran Shoemark: same body Neptune (worst 0.0388%)
+   [12] P07 5 Swayze / 5 Lewis Edmunds: H Orcus–Transpluto (Flat 21.55553 = 194/9)
+-- field-only findings (shape numbers)
+   P01 2 Dynamic Force / 2 Ray Dawson: only (strict) 1m; only (broad) -; strict, shared with one other -
+   P07 5 Swayze / 5 Lewis Edmunds: only (strict) 4,6,12; only (broad) -; strict, shared with one other 12m
+   P09 6 Silky Wilkie / 6 Clifford Lee: only (strict) -; only (broad) -; strict, shared with one other 12m
+-- strong hubs across the field
+   H Node         2: P01 P03
+   H Mars         2: P03 P05
+   J Jupiter      2: P03 P05
+   J Pallas       1: P07
+   H Neptune      1: P07
+   J Haumea       1: P07
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Jupiter – jockey Jupiter: P03 (RA 3.0497 Dec 0.4805, broad); P05 (RA 9.6806 Dec 0.5102, broad); P09 (RA 15.5881 Dec 0.3103, broad)
+   [ 1] horse Node – jockey Haumea: P05 (RA 80.1353 Dec 0.0649, broad); P07 (RA 77.4312 Dec 0.1600, broad); P09 (RA 79.8193 Dec 0.2336, broad)
+   [ 1] horse Node – jockey Neptune: P01 (RA 3.8209 Dec 0.1319, broad); P03 (RA 1.1790 Dec 0.3476, broad)
+   [ 1] horse Orcus – jockey Juno: P01 (RA 1.8943 Dec 19.9332, broad); P09 (RA 159.7036 Dec 0.5871, broad)
+   [ 1] horse Neptune – jockey Pallas: P03 (RA 88.2143 Dec 0.2663); P07 (RA 1.1036 Dec 3.9293, broad)
+   [ 1] horse Ceres – jockey Pluto: P03 (RA 1.3011 Dec 7.9869, broad); P07 (RA 0.5487 Dec 5.2351, broad)
+   [ 1] horse Ceres – jockey Quaoar: P03 (RA 0.9692 Dec 0.3494, broad); P07 (RA 1.9157 Dec 0.6544, broad)
+   [ 1] horse Mars – jockey Haumea: P05 (RA 130.8550 Dec 0.5380, broad); P09 (RA 131.4218 Dec 0.1414, broad)
+   [ 1] horse Sedna – jockey Node: P05 (RA 36.9028 Dec 0.5665, broad); P09 (RA 39.4995 Dec 0.4804, broad)
+   [ 1] horse Sun – jockey Node: P07 (RA 0.0327 Dec 0.0110, broad); P09 (RA 1.5438 Dec 0.6352, broad)
+   [ 7] triangle Haumea/Mars/Node: P05 (, broad); P09 (, broad)
+   [11] same body Saturn: P03 (worst 0.1279%); P07 (worst 0.0838%)
+   [12] H Uranus–Transpluto: P03 (RA 127.0669 Dec 0.2471, broad); P05 (RA 123.9636 Dec 0.5373, broad); P07 (RA 126.5813 Dec 0.1466, broad)
+   [12] H Orcus–Transpluto: P03 (RA 0.4000 Dec 21.5650, broad); P07 (RA 0.2910 Dec 21.5536, broad)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P07
+   recurring cross link horse Pluto – jockey Neptune: P01
+   recurring cross link horse Sedna – jockey Chiron: P01
+   recurring cross link horse Venus – jockey Uranus: P03 P09
+   recurring pair Chiron–Transpluto: P01 P05 P07
+   recurring pair Haumea–Node: P03
+   recurring pair Juno–Pallas: P07
+   recurring pair Jupiter–Vesta: P05
+   recurring pair Ketu–Haumea: P01
+   recurring pair Neptune–Node: P05
+   recurring pair Neptune–Rahu: P01 P07
+   recurring pair Neptune–Saturn: P05
+   recurring pair Neptune–Vesta: P05
+   recurring pair Node–Haumea: P01 P05 P07 P09
+   recurring pair Node–Neptune: P01 P03
+   recurring pair Pallas–Juno: P01 P07 P09
+   recurring pair Rahu–Haumea: P05
+   recurring pair Saturn–Neptune: P01 P09
+   recurring pair Venus–Uranus: P03 P09

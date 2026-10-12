@@ -1,0 +1,69 @@
+== newcastle_aw_1540_20211112  field of 6   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+-- runners: P01 1 Poco Contante / 1 Jamie Gormley; P03 2 Gold Terms / 2 Oliver Stammers; P05 3 Heart Throb / 3 Graham Lee; P07 4 Larllunna / 4 Harry Russell; P09 5 Rabat / 5 Connor Beasley; P11 6 Silver Bubble / 6 Tom Marquand
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              3/6: P01:2 P05:1 P09:3  |   6: P01:14 P03:18 P05:17 P07:12 P09:10 P11:17
+   [  2] partner strike                              4/6: P01:1 P05:1 P09:1 P11:3  |   6: P01:4 P03:6 P05:4 P07:3 P09:3 P11:10
+   [  3] pair together in the sky                    0/6: -  |   0: -
+   [  4] both ends moved                             0/6: -  |   1: P09:1
+   [  5] movement onto a cross link                  6/6: P01:3 P03:2 P05:1 P07:2 P09:6 P11:6  |   6: P01:4 P03:4 P05:1 P07:3 P09:10 P11:9
+   [  6] swap                                        0/6: -  |   1: P03:1
+   [  7] triangle struck at every corner             2/6: P03:1 P09:4  |   6: P01:2 P03:3 P05:4 P07:4 P09:5 P11:7
+   [  8] same number / ratio in both charts          5/6: P01:3 P03:1 P07:3 P09:1 P11:2  |   6: P01:3 P03:1 P05:1 P07:3 P09:1 P11:2
+   [  9] shared node                                 0/6: -  |   0: -
+   [ 10] sky body divides a natal pair               6/6: P01:25 P03:22 P05:14 P07:28 P09:10 P11:7  |   6: P01:25 P03:22 P05:14 P07:28 P09:10 P11:7
+   [ 11] joined same-body set                        5/6: P01:1 P03:1 P05:4 P07:3 P09:2  |   5: P01:1 P03:1 P05:4 P07:3 P09:2
+   [ 12] pair in one chart struck on both ends by 2+  2/6: P01:2 P11:1  |   5: P01:4 P03:2 P05:2 P07:2 P11:3
+   [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   4: P03:3 P05:2 P09:1 P11:4
+   [12m] pair in one chart, 2+ sky bodies on both ends  2/6: P01:2 P11:1  |   5: P01:4 P03:2 P05:2 P07:2 P11:3
+-- tightest instance of each shape
+   [ 1] P07 4 Larllunna / 4 Harry Russell: horse Eris – jockey Vesta (RA 7.2051 Dec 0.0121)
+   [ 2] P07 4 Larllunna / 4 Harry Russell: horse Eris – jockey Vesta (RA 7.2051 Dec 0.0121)
+   [ 4] P09 5 Rabat / 5 Connor Beasley: horse Saturn – jockey Uranus (RA 15.8426 Dec 0.3351)
+   [ 5] P09 5 Rabat / 5 Connor Beasley: moved J Node (RA 47.3547 Dec 0.0129)
+   [ 6] P03 2 Gold Terms / 2 Oliver Stammers: swap Juno/Sedna (RA 33.5951 Dec 0.3888)
+   [ 7] P01 1 Poco Contante / 1 Jamie Gormley: triangle Juno/Mercury/Orcus ()
+   [ 8] P01 1 Poco Contante / 1 Jamie Gormley: number 115 ()
+   [10] P03 2 Gold Terms / 2 Oliver Stammers: H Pluto -> J Neptune (split error 0.0009%)
+   [11] P05 3 Heart Throb / 3 Graham Lee: same body Orcus (worst 0.0105%)
+   [12] P07 4 Larllunna / 4 Harry Russell: H Jupiter–Vesta (Dec 1.33333 = 12/9)
+-- field-only findings (shape numbers)
+   P01 1 Poco Contante / 1 Jamie Gormley: only (strict) -; only (broad) -; strict, shared with one other 12,12m
+   P03 2 Gold Terms / 2 Oliver Stammers: only (strict) -; only (broad) 6; strict, shared with one other 7
+   P09 5 Rabat / 5 Connor Beasley: only (strict) -; only (broad) 4; strict, shared with one other 7
+   P11 6 Silver Bubble / 6 Tom Marquand: only (strict) -; only (broad) -; strict, shared with one other 12,12m
+-- strong hubs across the field
+   J Sun          2: P05 P07
+   J Juno         1: P01
+   H Gonggong     1: P03
+   H Venus        1: P05
+   H Chiron       1: P05
+   J Quaoar       1: P05
+   J Orcus        1: P05
+   J Haumea       1: P07
+   H Makemake     1: P07
+   J Uranus       1: P09
+   J Gonggong     1: P11
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Saturn – jockey Node: P01 (RA 0.2296 Dec 1.3580, broad); P03 (RA 0.9155 Dec 0.9280, broad)
+   [ 1] horse Uranus – jockey Eris: P01 (RA 0.4984 Dec 17.6113); P11 (RA 0.5952 Dec 16.6050, broad)
+   [ 1] horse Node – jockey Mercury: P01 (RA 4.6042 Dec 0.1285, broad); P09 (RA 6.5950 Dec 0.1094)
+   [ 1] horse Eris – jockey Venus: P01 (RA 161.3330 Dec 0.3748, broad); P09 (RA 157.6097 Dec 0.1356, broad)
+   [ 1] horse Transpluto – jockey Mercury: P01 (RA 5.8214 Dec 0.3271, broad); P11 (RA 135.2498 Dec 0.3789, broad)
+   [ 1] horse Jupiter – jockey Node: P05 (RA 1.1000 Dec 1.6092, broad); P09 (RA 0.8831 Dec 1.0910, broad)
+   [ 1] horse Vesta – jockey Gonggong: P07 (RA 56.0824 Dec 0.4687, broad); P11 (RA 74.8769 Dec 0.4301, broad)
+   [11] same body Venus: P03 (worst 0.1296%); P05 (worst 0.1233%)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P07 P11
+   recurring cross link horse Pluto – jockey Neptune: P01 P09
+   recurring pair Chiron–Transpluto: P11
+   recurring pair Haumea–Node: P09
+   recurring pair Juno–Pallas: P05
+   recurring pair Jupiter–Vesta: P01 P05 P07 P11
+   recurring pair Neptune–Node: P07 P11
+   recurring pair Neptune–Vesta: P03 P09 P11
+   recurring pair Node–Haumea: P05 P07 P09 P11
+   recurring pair Node–Neptune: P03
+   recurring pair Saturn–Neptune: P01 P03 P09
+   recurring pair Venus–Uranus: P03 P05 P07 P09
+   recurring pair Vesta–Jupiter: P01
+   recurring pair Vesta–Neptune: P03

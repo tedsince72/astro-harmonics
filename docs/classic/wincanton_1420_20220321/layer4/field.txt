@@ -1,0 +1,84 @@
+== wincanton_1420_20220321  field of 6   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+-- runners: P01 1 Reserve Tank / 1 Brendan Powell; P03 2 Guernesey / 2 Tom O'Brien; P05 3 Ballyblack / 3 Rex Dingle; P07 4 River Bray / 4 Alan Johns; P09 5 Birds Of Prey / 5 Harry Cobden; P11 6 Electric Annie / 6 Nick Scholfield
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              3/6: P01:1 P05:1 P11:1  |   6: P01:7 P03:16 P05:18 P07:23 P09:18 P11:11
+   [  2] partner strike                              5/6: P01:1 P03:1 P05:2 P07:1 P09:1  |   5: P01:4 P03:4 P05:7 P07:6 P09:11
+   [  3] pair together in the sky                    2/6: P05:1 P07:1  |   3: P03:1 P05:1 P07:1
+   [  4] both ends moved                             0/6: -  |   0: -
+   [  5] movement onto a cross link                  5/6: P01:3 P03:1 P05:3 P07:2 P09:3  |   6: P01:4 P03:3 P05:4 P07:4 P09:5 P11:2
+   [  6] swap                                        1/6: P01:1  |   3: P01:1 P03:1 P09:1
+   [  7] triangle struck at every corner             2/6: P05:1 P09:1  |   6: P01:5 P03:2 P05:2 P07:7 P09:19 P11:8
+   [  8] same number / ratio in both charts          4/6: P01:1 P03:2 P05:3 P09:3  |   6: P01:1 P03:2 P05:3 P07:1 P09:6 P11:2
+   [  9] shared node                                 0/6: -  |   0: -
+   [ 10] sky body divides a natal pair               6/6: P01:29 P03:9 P05:22 P07:10 P09:41 P11:17  |   6: P01:29 P03:9 P05:22 P07:10 P09:41 P11:17
+   [ 11] joined same-body set                        5/6: P01:1 P03:3 P05:2 P09:3 P11:2  |   5: P01:1 P03:3 P05:2 P09:3 P11:2
+   [ 12] pair in one chart struck on both ends by 2+  2/6: P03:1 P09:1  |   6: P01:4 P03:3 P05:8 P07:5 P09:7 P11:3
+   [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   5: P01:1 P03:2 P05:1 P09:4 P11:3
+   [12m] pair in one chart, 2+ sky bodies on both ends  2/6: P03:1 P09:1  |   6: P01:4 P03:3 P05:8 P07:5 P09:7 P11:3
+-- tightest instance of each shape
+   [ 1] P05 3 Ballyblack / 3 Rex Dingle: horse Juno – jockey Eris (RA 158.2914 Dec 0.0015)
+   [ 2] P05 3 Ballyblack / 3 Rex Dingle: horse Juno – jockey Eris (RA 158.2914 Dec 0.0015)
+   [ 3] P07 4 River Bray / 4 Alan Johns: horse Neptune – jockey Mercury (RA 128.8910 Dec 0.1043)
+   [ 5] P07 4 River Bray / 4 Alan Johns: moved H Mercury (RA 0.0255 Dec 8.0916)
+   [ 6] P01 1 Reserve Tank / 1 Brendan Powell: swap Pluto/Venus (RA 25.1431 Dec 0.1643)
+   [ 7] P01 1 Reserve Tank / 1 Brendan Powell: triangle Chiron/Node/Sun ()
+   [ 8] P01 1 Reserve Tank / 1 Brendan Powell: number 7 ()
+   [10] P11 6 Electric Annie / 6 Nick Scholfield: H Pluto -> H Eris (split error 0.0002%)
+   [11] P09 5 Birds Of Prey / 5 Harry Cobden: same body Node (worst 0.0125%)
+   [12] P01 1 Reserve Tank / 1 Brendan Powell: H Sun–Node (RA 0.0076 Dec 0.0044)
+-- field-only findings (shape numbers)
+   P01 1 Reserve Tank / 1 Brendan Powell: only (strict) 6; only (broad) -; strict, shared with one other -
+   P03 2 Guernesey / 2 Tom O'Brien: only (strict) -; only (broad) -; strict, shared with one other 12,12m
+   P05 3 Ballyblack / 3 Rex Dingle: only (strict) -; only (broad) -; strict, shared with one other 3,7
+   P07 4 River Bray / 4 Alan Johns: only (strict) -; only (broad) -; strict, shared with one other 3
+   P09 5 Birds Of Prey / 5 Harry Cobden: only (strict) -; only (broad) -; strict, shared with one other 7,12,12m
+-- strong hubs across the field
+   J Node         2: P03 P09
+   H Jupiter      1: P03
+   J Ceres        1: P05
+   H Venus        1: P05
+   J Chiron       1: P05
+   H Node         1: P09
+   J Transpluto   1: P09
+   H Transpluto   1: P09
+   H Orcus        1: P09
+   H Pallas       1: P11
+   J Sun          1: P11
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Saturn – jockey Sun: P03 (RA 9.2183 Dec 0.5911, broad); P07 (RA 1.0906 Dec 3.1107, broad); P09 (RA 9.8950 Dec 0.2041, broad)
+   [ 1] horse Gonggong – jockey Quaoar: P03 (RA 105.9575 Dec 0.4592, broad); P07 (RA 102.4142 Dec 0.0377, broad); P11 (RA 103.6865 Dec 0.1715, broad)
+   [ 1] horse Quaoar – jockey Venus: P05 (RA 33.7606 Dec 0.5775, broad); P07 (RA 0.9184 Dec 11.2462, broad); P09 (RA 44.2538 Dec 0.0613, broad)
+   [ 1] horse Uranus – jockey Sedna: P01 (RA 31.4187 Dec 0.1570); P07 (RA 30.8211 Dec 0.1546, broad)
+   [ 1] horse Orcus – jockey Eris: P01 (RA 126.5296 Dec 0.4405, broad); P09 (RA 125.7823 Dec 0.5494, broad)
+   [ 1] horse Pluto – jockey Sun: P03 (RA 44.1213 Dec 0.4337, broad); P05 (RA 0.9204 Dec 1.4350, broad)
+   [ 1] horse Chiron – jockey Orcus: P05 (RA 148.1859 Dec 0.2110, broad); P09 (RA 153.5223 Dec 0.5503, broad)
+   [ 1] horse Quaoar – jockey Chiron: P05 (RA 44.7351 Dec 0.2448, broad); P09 (RA 36.1275 Dec 0.2843, broad)
+   [ 1] horse Mars – jockey Ceres: P07 (RA 29.2046 Dec 0.5531, broad); P11 (RA 0.8407 Dec 4.5161, broad)
+   [ 1] horse Pluto – jockey Neptune: P07 (RA 0.2450 Dec 2.4110, broad); P09 (RA 17.4365 Dec 0.1761, broad)
+   [ 1] horse Node – jockey Sedna: P07 (RA 1.6782 Dec 12.7675, broad); P11 (RA 33.8702 Dec 0.5869, broad)
+   [ 1] horse Gonggong – jockey Node: P07 (RA 10.4349 Dec 0.5862, broad); P11 (RA 6.5168 Dec 0.3840, broad)
+   [ 7] triangle Eris/Juno/Sun: P01 (, broad); P09 (, broad)
+   [11] same body Sun: P01 (worst 0.1166%); P11 (worst 0.0391%)
+   [11] same body Node: P03 (worst 0.1440%); P09 (worst 0.0125%)
+   [12] H Pallas–Node: P01 (GC 116.88863 = 1052/9, broad); P09 (Flat 118.33287 = 1065/9, broad)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P01 P05 P11
+   recurring cross link horse Pluto – jockey Neptune: P07 P09
+   recurring cross link horse Sedna – jockey Chiron: P01 P03 P11
+   recurring cross link horse Uranus – jockey Venus: P03
+   recurring pair Chiron–Transpluto: P03 P05 P11
+   recurring pair Haumea–Node: P07 P09
+   recurring pair Jupiter–Vesta: P01 P03 P05 P07
+   recurring pair Ketu–Haumea: P03
+   recurring pair Neptune–Ketu: P09
+   recurring pair Neptune–Node: P03 P07
+   recurring pair Neptune–Rahu: P05
+   recurring pair Neptune–Saturn: P01
+   recurring pair Neptune–Vesta: P01 P07
+   recurring pair Node–Neptune: P01 P07
+   recurring pair Pallas–Juno: P01 P09 P11
+   recurring pair Saturn–Neptune: P05 P07 P11
+   recurring pair Transpluto–Chiron: P07
+   recurring pair Uranus–Venus: P03
+   recurring pair Venus–Uranus: P01 P03
+   recurring pair Vesta–Jupiter: P09

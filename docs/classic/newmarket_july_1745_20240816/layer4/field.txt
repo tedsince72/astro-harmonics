@@ -1,0 +1,104 @@
+== newmarket_july_1745_20240816  field of 9   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+-- runners: P01 1 Anniversary / 1 Rob Hornby; P03 2 Arabian Poet / 2 William Buick; P05 3 Double Meaning / 3 Pat Dobbs; P07 4 King Of Cities / 4 Sean Levey; P09 5 Knights Gold / 5 Marco Ghiani; P11 6 Scandinavia / 6 Tom Marquand; P13 7 Sedate / 7 Joshua Bryan; P15 8 Vecu / 8 Robert Havlin; P17 9 Big Gypsy King / 9 Neil Callan
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              5/9: P01:1 P03:1 P07:2 P13:1 P15:2  |   9: P01:11 P03:19 P05:13 P07:16 P09:21 P11:12 P13:15 P15:13 P17:22
+   [  2] partner strike                              4/9: P01:2 P03:2 P15:1 P17:1  |   9: P01:6 P03:4 P05:6 P07:6 P09:11 P11:9 P13:5 P15:6 P17:12
+   [  3] pair together in the sky                    2/9: P09:1 P11:1  |   3: P03:1 P09:1 P11:1
+   [  4] both ends moved                             1/9: P17:2  |   1: P17:2
+   [  5] movement onto a cross link                  8/9: P03:4 P05:6 P07:5 P09:3 P11:1 P13:1 P15:5 P17:10  |   9: P01:1 P03:5 P05:6 P07:7 P09:6 P11:2 P13:3 P15:6 P17:16
+   [  6] swap                                        1/9: P15:1  |   1: P15:1
+   [  7] triangle struck at every corner             4/9: P01:1 P05:2 P13:4 P15:1  |   9: P01:4 P03:2 P05:12 P07:3 P09:19 P11:4 P13:11 P15:1 P17:6
+   [  8] same number / ratio in both charts          7/9: P01:1 P03:2 P05:1 P09:2 P11:1 P13:3 P15:4  |   7: P01:2 P03:2 P05:1 P09:2 P11:2 P13:3 P15:4
+   [  9] shared node                                 0/9: -  |   0: -
+   [ 10] sky body divides a natal pair               8/9: P03:13 P05:18 P07:39 P09:7 P11:1 P13:24 P15:11 P17:42  |   8: P03:13 P05:18 P07:39 P09:7 P11:1 P13:24 P15:11 P17:42
+   [ 11] joined same-body set                        5/9: P01:2 P03:2 P11:3 P13:2 P15:2  |   5: P01:2 P03:2 P11:3 P13:2 P15:2
+   [ 12] pair in one chart struck on both ends by 2+  3/9: P05:1 P13:2 P15:1  |   9: P01:2 P03:5 P05:3 P07:2 P09:7 P11:4 P13:5 P15:2 P17:4
+   [ 1m] cross link, 2+ sky bodies on both ends      0/9: -  |   8: P01:3 P03:1 P05:2 P09:4 P11:2 P13:1 P15:3 P17:6
+   [12m] pair in one chart, 2+ sky bodies on both ends  3/9: P05:1 P13:2 P15:1  |   9: P01:2 P03:5 P05:3 P07:2 P09:7 P11:4 P13:5 P15:2 P17:4
+-- tightest instance of each shape
+   [ 1] P11 6 Scandinavia / 6 Tom Marquand: horse Chiron – jockey Mars (RA 6.2052 Dec 0.0010)
+   [ 2] P09 5 Knights Gold / 5 Marco Ghiani: horse Gonggong – jockey Mars (RA 124.2839 Dec 0.0066)
+   [ 3] P11 6 Scandinavia / 6 Tom Marquand: horse Sun – jockey Vesta (RA 0.7321 Dec 3.6614)
+   [ 4] P17 9 Big Gypsy King / 9 Neil Callan: horse Neptune – jockey Juno (RA 50.2044 Dec 0.0974)
+   [ 5] P09 5 Knights Gold / 5 Marco Ghiani: moved J Ceres (RA 0.0125 Dec 12.3556)
+   [ 6] P15 8 Vecu / 8 Robert Havlin: swap Juno/Quaoar (RA 96.8735 Dec 0.2857)
+   [ 7] P01 1 Anniversary / 1 Rob Hornby: triangle Neptune/Pluto/Venus ()
+   [ 8] P01 1 Anniversary / 1 Rob Hornby: number 21 ()
+   [10] P17 9 Big Gypsy King / 9 Neil Callan: H Haumea -> H Transpluto (split error 0.0003%)
+   [11] P15 8 Vecu / 8 Robert Havlin: same body Jupiter (worst 0.0228%)
+   [12] P13 7 Sedate / 7 Joshua Bryan: J Saturn–Ceres (Flat 89.22199 = 803/9)
+-- field-only findings (shape numbers)
+   P09 5 Knights Gold / 5 Marco Ghiani: only (strict) -; only (broad) -; strict, shared with one other 3
+   P11 6 Scandinavia / 6 Tom Marquand: only (strict) -; only (broad) -; strict, shared with one other 3
+   P15 8 Vecu / 8 Robert Havlin: only (strict) 6; only (broad) 6; strict, shared with one other -
+   P17 9 Big Gypsy King / 9 Neil Callan: only (strict) 4; only (broad) 4; strict, shared with one other -
+-- strong hubs across the field
+   H Mercury      3: P03 P07 P15
+   H Sun          2: P01 P11
+   H Pallas       2: P03 P09
+   J Jupiter      2: P03 P15
+   J Juno         2: P07 P17
+   H Ceres        2: P11 P15
+   H Uranus       1: P01
+   H Node         1: P03
+   J Mercury      1: P03
+   J Pallas       1: P03
+   J Mars         1: P09
+   J Ceres        1: P09
+   H Quaoar       1: P11
+   H Vesta        1: P15
+   J Sun          1: P15
+   H Neptune      1: P17
+   J Transpluto   1: P17
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Makemake – jockey Haumea: P01 (RA 7.8263 Dec 0.0357, broad); P03 (RA 13.2317 Dec 0.1867, broad); P07 (RA 12.4672 Dec 0.4393, broad); P09 (RA 1.7107 Dec 1.7939, broad)
+   [ 1] horse Haumea – jockey Transpluto: P05 (RA 77.4457 Dec 0.0174, broad); P15 (RA 78.5699 Dec 0.4562, broad); P17 (RA 77.2900 Dec 0.1520, broad)
+   [ 1] horse Sun – jockey Gonggong: P01 (RA 0.8290 Dec 6.3406, broad); P13 (RA 1.5866 Dec 6.4447, broad)
+   [ 1] horse Uranus – jockey Venus: P01 (RA 3.4321 Dec 0.0600, broad); P17 (RA 106.0352 Dec 0.2731, broad)
+   [ 1] horse Vesta – jockey Neptune: P01 (RA 6.6472 Dec 0.4720, broad); P15 (RA 51.7517 Dec 0.1516)
+   [ 1] horse Makemake – jockey Mercury: P01 (RA 122.3989 Dec 0.0820, broad); P03 (RA 89.5340 Dec 0.3363, broad)
+   [ 1] horse Transpluto – jockey Mars: P01 (RA 0.8836 Dec 1.8462, broad); P15 (RA 130.3589 Dec 0.1041, broad)
+   [ 1] horse Pluto – jockey Neptune: P03 (RA 21.7565 Dec 0.2390, broad); P07 (RA 19.9355 Dec 0.2996)
+   [ 1] horse Venus – jockey Venus: P05 (RA 13.3029 Dec 0.0735, broad); P09 (RA 0.0527 Dec 1.0273, broad)
+   [ 1] horse Uranus – jockey Transpluto: P05 (RA 100.3655 Dec 0.5769, broad); P17 (RA 98.9528 Dec 0.2522, broad)
+   [ 1] horse Quaoar – jockey Sun: P05 (RA 42.9196 Dec 0.2231, broad); P09 (RA 43.4159 Dec 0.1508, broad)
+   [ 1] horse Orcus – jockey Eris: P05 (RA 135.9258 Dec 0.5871, broad); P17 (RA 134.4579 Dec 0.3718, broad)
+   [ 1] horse Orcus – jockey Makemake: P05 (RA 0.7737 Dec 51.0018, broad); P17 (RA 1.3430 Dec 50.1935, broad)
+   [ 1] horse Transpluto – jockey Makemake: P05 (RA 0.9477 Dec 28.5047, broad); P17 (RA 0.2010 Dec 27.8483, broad)
+   [ 1] horse Transpluto – jockey Orcus: P05 (RA 36.6956 Dec 0.5453, broad); P17 (RA 35.9282 Dec 0.4058, broad)
+   [ 1] horse Eris – jockey Jupiter: P07 (RA 1.8453 Dec 11.5689, broad); P09 (RA 27.0118 Dec 0.4481, broad)
+   [ 1] horse Saturn – jockey Node: P09 (RA 1.2404 Dec 0.6253, broad); P13 (RA 4.7984 Dec 0.5080, broad)
+   [ 1] horse Gonggong – jockey Pallas: P09 (RA 28.6480 Dec 0.3890, broad); P11 (RA 0.3003 Dec 14.0494, broad)
+   [ 1] horse Quaoar – jockey Quaoar: P09 (RA 30.6405 Dec 0.2803, broad); P11 (RA 31.6676 Dec 0.4720, broad)
+   [ 1] horse Quaoar – jockey Chiron: P11 (RA 50.8725 Dec 0.1875, broad); P13 (RA 40.3888 Dec 0.3464, broad)
+   [ 1] horse Ceres – jockey Haumea: P13 (RA 135.6407 Dec 0.0568, broad); P17 (RA 100.4273 Dec 0.5480, broad)
+   [ 7] triangle Saturn/Sun/Venus: P05 (, broad); P13 (, broad)
+   [ 7] triangle Juno/Mars/Pluto: P09 (, broad); P17 (, broad)
+   [ 7] triangle Quaoar/Saturn/Uranus: P13 (, broad); P17 (, broad)
+   [11] same body Chiron: P01 (worst 0.0340%); P15 (worst 0.1492%)
+   [11] same body Jupiter: P13 (worst 0.0854%); P15 (worst 0.0228%)
+   [12] H Vesta–Quaoar: P03 (RA 47.8429 Dec 0.3379, broad); P11 (RA 50.9322 Dec 0.2425, broad); P13 (Dec 5.44401 = 49/9)
+   [12] H Saturn–Quaoar: P07 (RA 48.2876 Dec 0.4126, broad); P09 (RA 48.5207 Dec 0.4704, broad)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P01 P03 P07 P09
+   recurring cross link horse Pluto – jockey Neptune: P03 P07
+   recurring cross link horse Sedna – jockey Chiron: P15
+   recurring cross link horse Uranus – jockey Venus: P01 P03 P13 P15 P17
+   recurring cross link horse Venus – jockey Uranus: P13
+   recurring pair Chiron–Transpluto: P05
+   recurring pair Juno–Pallas: P03 P11
+   recurring pair Jupiter–Vesta: P11
+   recurring pair Ketu–Haumea: P09
+   recurring pair Neptune–Node: P01 P03 P05 P07 P09 P15 P17
+   recurring pair Neptune–Rahu: P05 P09
+   recurring pair Neptune–Saturn: P01
+   recurring pair Neptune–Vesta: P03 P05 P09 P11
+   recurring pair Node–Haumea: P09
+   recurring pair Node–Neptune: P13
+   recurring pair Pallas–Juno: P01 P09 P11 P13 P15
+   recurring pair Rahu–Haumea: P17
+   recurring pair Saturn–Neptune: P01 P03 P07 P17
+   recurring pair Uranus–Venus: P01 P03 P13 P15 P17
+   recurring pair Venus–Uranus: P01 P03 P13 P17
+   recurring pair Vesta–Jupiter: P01
+   recurring pair Vesta–Neptune: P01 P15

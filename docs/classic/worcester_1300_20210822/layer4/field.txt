@@ -1,0 +1,74 @@
+== worcester_1300_20210822  field of 5   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+-- runners: P01 1 Streets Of Doyen / 1 Sean Bowen; P03 2 Adjali / 2 Daryl Jacob; P05 3 Rhythm Is A Dancer / 3 Harry Cobden; P07 4 Thistle Do Nicely / 4 Gavin Sheehan; P09 5 Oscar Montel / 5 Brian Hughes
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              3/5: P01:2 P07:1 P09:1  |   5: P01:20 P03:17 P05:15 P07:13 P09:19
+   [  2] partner strike                              2/5: P05:1 P09:1  |   5: P01:3 P03:4 P05:9 P07:2 P09:3
+   [  3] pair together in the sky                    1/5: P09:1  |   2: P03:2 P09:1
+   [  4] both ends moved                             2/5: P03:1 P09:1  |   2: P03:1 P09:1
+   [  5] movement onto a cross link                  5/5: P01:3 P03:7 P05:4 P07:2 P09:4  |   5: P01:5 P03:10 P05:4 P07:3 P09:6
+   [  6] swap                                        0/5: -  |   1: P05:1
+   [  7] triangle struck at every corner             1/5: P07:1  |   5: P01:4 P03:2 P05:9 P07:2 P09:14
+   [  8] same number / ratio in both charts          2/5: P01:3 P05:2  |   3: P01:8 P05:2 P09:2
+   [  9] shared node                                 0/5: -  |   0: -
+   [ 10] sky body divides a natal pair               5/5: P01:16 P03:16 P05:25 P07:13 P09:21  |   5: P01:16 P03:16 P05:25 P07:13 P09:21
+   [ 11] joined same-body set                        5/5: P01:3 P03:1 P05:1 P07:6 P09:3  |   5: P01:3 P03:1 P05:1 P07:6 P09:3
+   [ 12] pair in one chart struck on both ends by 2+  2/5: P01:1 P05:1  |   5: P01:4 P03:1 P05:6 P07:2 P09:3
+   [ 1m] cross link, 2+ sky bodies on both ends      0/5: -  |   4: P01:3 P03:2 P07:1 P09:3
+   [12m] pair in one chart, 2+ sky bodies on both ends  2/5: P01:1 P05:1  |   5: P01:4 P03:1 P05:6 P07:2 P09:3
+-- tightest instance of each shape
+   [ 1] P07 4 Thistle Do Nicely / 4 Gavin Sheehan: horse Ceres – jockey Orcus (RA 70.7158 Dec 0.0000)
+   [ 2] P05 3 Rhythm Is A Dancer / 3 Harry Cobden: horse Quaoar – jockey Venus (RA 42.9107 Dec 0.0599)
+   [ 3] P09 5 Oscar Montel / 5 Brian Hughes: horse Mercury – jockey Mars (RA 25.6469 Dec 0.2808)
+   [ 4] P09 5 Oscar Montel / 5 Brian Hughes: horse Ceres – jockey Pluto (RA 13.4279 Dec 0.2149)
+   [ 5] P05 3 Rhythm Is A Dancer / 3 Harry Cobden: moved J Venus (RA 42.9107 Dec 0.0599)
+   [ 6] P05 3 Rhythm Is A Dancer / 3 Harry Cobden: swap Neptune/Pluto (RA 89.2755 Dec 0.3409)
+   [ 7] P01 1 Streets Of Doyen / 1 Sean Bowen: triangle Juno/Mercury/Sedna ()
+   [ 8] P01 1 Streets Of Doyen / 1 Sean Bowen: number 42 ()
+   [10] P03 2 Adjali / 2 Daryl Jacob: H Haumea -> J Pluto (split error 0.0028%)
+   [11] P05 3 Rhythm Is A Dancer / 3 Harry Cobden: same body Transpluto (worst 0.0110%)
+   [12] P05 3 Rhythm Is A Dancer / 3 Harry Cobden: H Sun–Venus (RA 2.9964 Dec 0.0042)
+-- field-only findings (shape numbers)
+   P01 1 Streets Of Doyen / 1 Sean Bowen: only (strict) -; only (broad) -; strict, shared with one other 8,12,12m
+   P03 2 Adjali / 2 Daryl Jacob: only (strict) -; only (broad) -; strict, shared with one other 4
+   P05 3 Rhythm Is A Dancer / 3 Harry Cobden: only (strict) -; only (broad) 6; strict, shared with one other 2,8,12,12m
+   P07 4 Thistle Do Nicely / 4 Gavin Sheehan: only (strict) 7; only (broad) -; strict, shared with one other -
+   P09 5 Oscar Montel / 5 Brian Hughes: only (strict) 3; only (broad) -; strict, shared with one other 2,4
+-- strong hubs across the field
+   J Pluto        2: P03 P09
+   J Transpluto   2: P05 P07
+   H Ceres        1: P01
+   H Transpluto   1: P05
+   J Sun          1: P05
+   J Pallas       1: P05
+   J Orcus        1: P07
+   H Node         1: P07
+   J Quaoar       1: P09
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Mercury – jockey Haumea: P01 (RA 138.8137 Dec 0.3458, broad); P09 (RA 111.3876 Dec 0.5725, broad)
+   [ 1] horse Pluto – jockey Neptune: P01 (RA 15.3681 Dec 0.1360); P05 (RA 19.5800 Dec 0.2501, broad)
+   [ 1] horse Ceres – jockey Node: P01 (RA 33.2087 Dec 0.2939, broad); P03 (RA 46.3557 Dec 0.3220, broad)
+   [ 1] horse Eris – jockey Eris: P01 (RA 1.8803 Dec 4.4444, broad); P05 (RA 1.8838 Dec 4.0172, broad)
+   [ 1] horse Haumea – jockey Chiron: P01 (RA 0.7721 Dec 29.2884, broad); P09 (RA 139.6102 Dec 0.4637, broad)
+   [ 1] horse Orcus – jockey Eris: P01 (RA 125.2043 Dec 0.2577, broad); P05 (RA 124.9172 Dec 0.0602, broad)
+   [ 1] horse Mercury – jockey Mars: P03 (RA 84.5549 Dec 0.3405, broad); P09 (RA 25.6469 Dec 0.2808, broad)
+   [ 1] horse Juno – jockey Sedna: P07 (RA 0.6169 Dec 5.5302, broad); P09 (RA 0.6760 Dec 5.3613, broad)
+   [ 3] horse Mercury – jockey Mars: P03 (RA 84.5549 Dec 0.3405, broad); P09 (RA 25.6469 Dec 0.2808)
+   [11] same body Transpluto: P03 (worst 0.0794%); P05 (worst 0.0110%); P07 (worst 0.0139%)
+   [11] same body Chiron: P07 (worst 0.1480%); P09 (worst 0.0238%)
+   [12] H Venus–Sedna: P05 (RA 33.2816 Dec 0.2609, broad); P07 (RA 33.3248 Dec 0.5221, broad)
+-- recurring pairs (annotations)
+   recurring cross link horse Pluto – jockey Neptune: P01 P05
+   recurring cross link horse Sedna – jockey Chiron: P03
+   recurring pair Juno–Pallas: P05
+   recurring pair Jupiter–Vesta: P01 P03 P07 P09
+   recurring pair Neptune–Ketu: P01
+   recurring pair Neptune–Rahu: P09
+   recurring pair Neptune–Saturn: P03
+   recurring pair Neptune–Vesta: P01 P07
+   recurring pair Node–Haumea: P01 P03 P07
+   recurring pair Node–Neptune: P09
+   recurring pair Pallas–Juno: P05
+   recurring pair Rahu–Haumea: P05
+   recurring pair Saturn–Neptune: P03 P07 P09
+   recurring pair Transpluto–Chiron: P07
+   recurring pair Venus–Uranus: P03 P09

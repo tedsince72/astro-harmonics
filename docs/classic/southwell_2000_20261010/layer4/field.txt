@@ -1,0 +1,94 @@
+== southwell_2000_20261010  field of 7   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+-- runners: P01 1 So Alex / 1 Jack Doughty; P03 2 Dust Cover / 2 Jack Mitchell; P05 3 L'Eagle Aid / 3 Callum Shepherd; P07 5 Knightsail / 5 Jack Callan; P09 6 Roker Roar / 6 Callum Hutchinson; P11 7 Neswick / 7 Dougie Costello; P13 8 Cosmo Brown / 8 Marco Ghiani
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              3/7: P01:1 P03:1 P05:1  |   7: P01:22 P03:24 P05:11 P07:10 P09:16 P11:27 P13:20
+   [  2] partner strike                              4/7: P03:5 P07:2 P09:2 P11:3  |   7: P01:9 P03:9 P05:2 P07:6 P09:6 P11:10 P13:7
+   [  3] pair together in the sky                    0/7: -  |   0: -
+   [  4] both ends moved                             0/7: -  |   1: P01:1
+   [  5] movement onto a cross link                  7/7: P01:4 P03:5 P05:2 P07:1 P09:3 P11:4 P13:1  |   7: P01:8 P03:8 P05:4 P07:2 P09:5 P11:6 P13:2
+   [  6] swap                                        0/7: -  |   5: P01:1 P03:1 P05:1 P09:1 P11:1
+   [  7] triangle struck at every corner             4/7: P01:2 P03:4 P05:1 P09:1  |   7: P01:27 P03:10 P05:3 P07:21 P09:7 P11:8 P13:6
+   [  8] same number / ratio in both charts          5/7: P03:1 P05:2 P09:1 P11:1 P13:1  |   5: P03:2 P05:6 P09:1 P11:2 P13:1
+   [  9] shared node                                 0/7: -  |   0: -
+   [ 10] sky body divides a natal pair               7/7: P01:6 P03:29 P05:19 P07:13 P09:26 P11:8 P13:4  |   7: P01:6 P03:29 P05:19 P07:13 P09:26 P11:8 P13:4
+   [ 11] joined same-body set                        6/7: P01:1 P03:5 P05:1 P07:2 P09:2 P11:3  |   6: P01:1 P03:5 P05:1 P07:2 P09:2 P11:3
+   [ 12] pair in one chart struck on both ends by 2+  1/7: P01:1  |   7: P01:10 P03:4 P05:6 P07:8 P09:4 P11:1 P13:4
+   [ 1m] cross link, 2+ sky bodies on both ends      0/7: -  |   6: P01:6 P05:1 P07:5 P09:3 P11:2 P13:4
+   [12m] pair in one chart, 2+ sky bodies on both ends  2/7: P01:1 P13:1  |   7: P01:10 P03:4 P05:6 P07:8 P09:4 P11:1 P13:4
+-- tightest instance of each shape
+   [ 1] P11 7 Neswick / 7 Dougie Costello: horse Orcus – jockey Quaoar (RA 69.4929 Dec 0.0038)
+   [ 2] P01 1 So Alex / 1 Jack Doughty: horse Quaoar – jockey Quaoar (RA 22.0930 Dec 0.0058)
+   [ 4] P01 1 So Alex / 1 Jack Doughty: horse Eris – jockey Juno (RA 178.1320 Dec 0.3529)
+   [ 5] P01 1 So Alex / 1 Jack Doughty: moved H Quaoar (RA 22.0930 Dec 0.0058)
+   [ 6] P09 6 Roker Roar / 6 Callum Hutchinson: swap Ketu/Pluto (RA 45.3208 Dec 0.0481)
+   [ 7] P01 1 So Alex / 1 Jack Doughty: triangle Chiron/Haumea/Sun ()
+   [ 8] P03 2 Dust Cover / 2 Jack Mitchell: ratio 13/3 ()
+   [10] P03 2 Dust Cover / 2 Jack Mitchell: J Saturn -> J Sedna (split error 0.0058%)
+   [11] P11 7 Neswick / 7 Dougie Costello: same body Chiron (worst 0.0179%)
+   [12] P01 1 So Alex / 1 Jack Doughty: H Sun–Haumea (Dec 6.11107 = 55/9)
+-- field-only findings (shape numbers)
+   P01 1 So Alex / 1 Jack Doughty: only (strict) 12; only (broad) 4; strict, shared with one other 12m
+   P13 8 Cosmo Brown / 8 Marco Ghiani: only (strict) -; only (broad) -; strict, shared with one other 12m
+-- strong hubs across the field
+   J Venus        2: P03 P05
+   J Node         1: P01
+   H Node         1: P01
+   J Saturn       1: P03
+   H Venus        1: P03
+   J Jupiter      1: P03
+   H Jupiter      1: P03
+   H Orcus        1: P03
+   J Gonggong     1: P05
+   J Mars         1: P05
+   J Ceres        1: P07
+   J Haumea       1: P09
+   J Uranus       1: P09
+   J Juno         1: P09
+   J Pallas       1: P11
+   J Sun          1: P13
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Quaoar – jockey Quaoar: P01 (RA 22.0930 Dec 0.0058, broad); P07 (RA 21.4971 Dec 0.5080, broad); P09 (RA 28.6046 Dec 0.2455, broad); P13 (RA 31.4795 Dec 0.4157, broad)
+   [ 1] horse Saturn – jockey Gonggong: P01 (RA 8.1830 Dec 0.3362, broad); P05 (RA 18.9219 Dec 0.2697, broad); P13 (RA 1.6478 Dec 3.8824, broad)
+   [ 1] horse Pluto – jockey Neptune: P03 (RA 18.1456 Dec 0.4192, broad); P05 (RA 1.7932 Dec 2.1062, broad); P11 (RA 33.2289 Dec 0.3486, broad)
+   [ 1] horse Node – jockey Transpluto: P07 (RA 118.7915 Dec 0.5033, broad); P09 (RA 116.3380 Dec 0.2730, broad); P13 (RA 113.1210 Dec 0.5393, broad)
+   [ 1] horse Saturn – jockey Quaoar: P01 (RA 70.4591 Dec 0.4264, broad); P11 (RA 107.7194 Dec 0.2357, broad)
+   [ 1] horse Chiron – jockey Sedna: P01 (RA 40.3695 Dec 0.4266, broad); P05 (RA 39.8093 Dec 0.1805, broad)
+   [ 1] horse Pallas – jockey Orcus: P01 (RA 117.6962 Dec 0.5736, broad); P09 (RA 30.4309 Dec 0.1808, broad)
+   [ 1] horse Eris – jockey Juno: P01 (RA 178.1320 Dec 0.3529, broad); P03 (RA 132.7398 Dec 0.4551, broad)
+   [ 1] horse Quaoar – jockey Neptune: P01 (RA 45.7129 Dec 0.2959, broad); P07 (RA 43.2768 Dec 0.2565, broad)
+   [ 1] horse Quaoar – jockey Gonggong: P01 (RA 56.5492 Dec 0.0961, broad); P07 (RA 55.0578 Dec 0.2389, broad)
+   [ 1] horse Uranus – jockey Transpluto: P03 (RA 105.9814 Dec 0.3888, broad); P05 (RA 110.7909 Dec 0.4048, broad)
+   [ 1] horse Vesta – jockey Venus: P03 (RA 27.3894 Dec 0.2708, broad); P05 (RA 1.0160 Dec 10.9848)
+   [ 1] horse Makemake – jockey Haumea: P03 (RA 11.9379 Dec 0.2669); P09 (RA 1.2447 Dec 1.2058, broad)
+   [ 1] horse Quaoar – jockey Sun: P03 (RA 0.3323 Dec 7.8180, broad); P13 (RA 42.5769 Dec 0.0154, broad)
+   [ 1] horse Vesta – jockey Eris: P09 (RA 1.7218 Dec 11.5013, broad); P11 (RA 0.7133 Dec 14.2905, broad)
+   [ 1] horse Vesta – jockey Sedna: P09 (RA 22.1751 Dec 0.2950, broad); P11 (RA 18.0088 Dec 0.0386, broad)
+   [ 1] horse Node – jockey Pluto: P09 (RA 45.3208 Dec 0.0481, broad); P11 (RA 1.7991 Dec 17.8420, broad)
+   [ 7] triangle Gonggong/Neptune/Quaoar: P01 (, broad); P07 (, broad)
+   [ 7] triangle Neptune/Quaoar/Quaoar: P01 (, broad); P07 (, broad)
+   [ 7] triangle Gonggong/Quaoar/Quaoar: P01 (, broad); P07 (, broad)
+   [11] same body Venus: P03 (worst 0.0786%); P05 (worst 0.0683%)
+   [11] same body Saturn: P03 (worst 0.1290%); P09 (worst 0.1305%)
+   [11] same body Chiron: P03 (worst 0.1487%); P11 (worst 0.0179%)
+   [11] same body Pallas: P03 (worst 0.0327%); P11 (worst 0.0697%)
+   [11] same body Haumea: P07 (worst 0.1046%); P09 (worst 0.0523%)
+   [12] J Neptune–Gonggong: P01 (RA 10.8362 Dec 0.1998, broad); P07 (RA 11.7810 Dec 0.0176, broad)
+   [12] J Neptune–Quaoar: P01 (RA 67.8059 Dec 0.2901, broad); P07 (RA 64.7739 Dec 0.2516, broad)
+   [12] J Gonggong–Quaoar: P01 (RA 78.6422 Dec 0.0903, broad); P07 (RA 76.5549 Dec 0.2692, broad)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P03 P09
+   recurring cross link horse Pluto – jockey Neptune: P03 P05 P11
+   recurring pair Chiron–Transpluto: P01 P03 P05 P11
+   recurring pair Haumea–Node: P03
+   recurring pair Jupiter–Vesta: P09
+   recurring pair Neptune–Node: P05 P09 P13
+   recurring pair Neptune–Rahu: P13
+   recurring pair Neptune–Saturn: P03 P13
+   recurring pair Neptune–Vesta: P01 P07 P11 P13
+   recurring pair Node–Haumea: P01 P07 P13
+   recurring pair Node–Neptune: P01
+   recurring pair Pallas–Juno: P03 P05 P09 P13
+   recurring pair Rahu–Haumea: P11
+   recurring pair Saturn–Neptune: P01 P03 P11
+   recurring pair Venus–Uranus: P05 P11 P13
+   recurring pair Vesta–Jupiter: P07

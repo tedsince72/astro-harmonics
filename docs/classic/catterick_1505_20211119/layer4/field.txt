@@ -1,0 +1,84 @@
+== catterick_1505_20211119  field of 6   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+-- runners: P01 1 Reve / 1 Sean Bowen; P03 2 Mance Rayder / 2 Jamie Hamilton; P05 3 Red Giant / 3 Sean Quinlan; P07 4 Brian Boranha / 4 Callum Bewley; P09 5 Cracking Find / 5 Ryan Mania; P11 6 Blazer / 6 Alain Cawley
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              3/6: P01:2 P05:1 P11:1  |   6: P01:14 P03:14 P05:17 P07:17 P09:15 P11:18
+   [  2] partner strike                              6/6: P01:1 P03:1 P05:2 P07:1 P09:2 P11:1  |   6: P01:2 P03:3 P05:4 P07:7 P09:4 P11:4
+   [  3] pair together in the sky                    1/6: P01:1  |   2: P01:1 P05:1
+   [  4] both ends moved                             2/6: P07:1 P09:1  |   2: P07:1 P09:1
+   [  5] movement onto a cross link                  6/6: P01:5 P03:2 P05:1 P07:9 P09:5 P11:1  |   6: P01:8 P03:3 P05:1 P07:10 P09:6 P11:1
+   [  6] swap                                        1/6: P11:1  |   2: P03:1 P11:1
+   [  7] triangle struck at every corner             2/6: P03:1 P07:1  |   6: P01:2 P03:4 P05:8 P07:3 P09:4 P11:2
+   [  8] same number / ratio in both charts          5/6: P01:2 P03:1 P05:2 P07:1 P09:1  |   6: P01:3 P03:2 P05:3 P07:1 P09:1 P11:1
+   [  9] shared node                                 0/6: -  |   0: -
+   [ 10] sky body divides a natal pair               6/6: P01:32 P03:10 P05:27 P07:12 P09:8 P11:56  |   6: P01:32 P03:10 P05:27 P07:12 P09:8 P11:56
+   [ 11] joined same-body set                        6/6: P01:4 P03:3 P05:2 P07:1 P09:4 P11:3  |   6: P01:4 P03:3 P05:2 P07:1 P09:4 P11:3
+   [ 12] pair in one chart struck on both ends by 2+  2/6: P05:2 P11:1  |   5: P01:1 P03:4 P05:4 P09:2 P11:5
+   [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   5: P01:1 P03:1 P05:3 P09:4 P11:1
+   [12m] pair in one chart, 2+ sky bodies on both ends  2/6: P05:2 P11:2  |   5: P01:1 P03:4 P05:4 P09:2 P11:5
+-- tightest instance of each shape
+   [ 1] P07 4 Brian Boranha / 4 Callum Bewley: horse Sun – jockey Vesta (RA 31.1210 Dec 0.0001)
+   [ 2] P11 6 Blazer / 6 Alain Cawley: horse Makemake – jockey Mars (RA 0.0220 Dec 31.1175)
+   [ 3] P01 1 Reve / 1 Sean Bowen: horse Sun – jockey Node (RA 0.1051 Dec 0.0468)
+   [ 4] P07 4 Brian Boranha / 4 Callum Bewley: horse Saturn – jockey Juno (RA 18.4313 Dec 0.2079)
+   [ 5] P07 4 Brian Boranha / 4 Callum Bewley: moved J Vesta (RA 31.1210 Dec 0.0001)
+   [ 6] P03 2 Mance Rayder / 2 Jamie Hamilton: swap Ketu/Sedna (RA 0.3705 Dec 12.1913)
+   [ 7] P01 1 Reve / 1 Sean Bowen: triangle Eris/Node/Transpluto ()
+   [ 8] P01 1 Reve / 1 Sean Bowen: number 164 ()
+   [10] P11 6 Blazer / 6 Alain Cawley: J Haumea -> J Juno (split error 0.0003%)
+   [11] P09 5 Cracking Find / 5 Ryan Mania: same body Venus (worst 0.0021%)
+   [12] P05 3 Red Giant / 3 Sean Quinlan: H Juno–Makemake (RA 21.88916 = 197/9)
+-- field-only findings (shape numbers)
+   P01 1 Reve / 1 Sean Bowen: only (strict) 3; only (broad) -; strict, shared with one other -
+   P03 2 Mance Rayder / 2 Jamie Hamilton: only (strict) -; only (broad) -; strict, shared with one other 7
+   P05 3 Red Giant / 3 Sean Quinlan: only (strict) -; only (broad) -; strict, shared with one other 12,12m
+   P07 4 Brian Boranha / 4 Callum Bewley: only (strict) -; only (broad) -; strict, shared with one other 4,7
+   P09 5 Cracking Find / 5 Ryan Mania: only (strict) -; only (broad) -; strict, shared with one other 4
+   P11 6 Blazer / 6 Alain Cawley: only (strict) 6; only (broad) -; strict, shared with one other 12,12m
+-- strong hubs across the field
+   J Haumea       3: P01 P05 P07
+   H Mercury      1: P01
+   H Pluto        1: P01
+   J Quaoar       1: P01
+   J Sun          1: P05
+   H Sun          1: P05
+   H Eris         1: P05
+   H Transpluto   1: P07
+   J Vesta        1: P07
+   H Node         1: P09
+   H Gonggong     1: P11
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Sun – jockey Vesta: P03 (RA 13.3602 Dec 0.1942, broad); P05 (RA 31.3050 Dec 0.2278, broad); P07 (RA 31.1210 Dec 0.0001, broad)
+   [ 1] horse Haumea – jockey Vesta: P05 (RA 125.2149 Dec 0.5869, broad); P07 (RA 121.3904 Dec 0.1313, broad); P11 (RA 81.4550 Dec 0.0727)
+   [ 1] horse Pluto – jockey Uranus: P01 (RA 23.9834 Dec 0.5754, broad); P09 (RA 1.8572 Dec 4.8671, broad)
+   [ 1] horse Pluto – jockey Neptune: P01 (RA 15.5874 Dec 0.1332, broad); P11 (RA 1.5022 Dec 3.6032, broad)
+   [ 1] horse Pluto – jockey Pallas: P01 (RA 1.2157 Dec 32.0462, broad); P09 (RA 90.4179 Dec 0.3448, broad)
+   [ 1] horse Makemake – jockey Haumea: P01 (RA 1.3839 Dec 5.2705); P09 (RA 1.0613 Dec 5.7277, broad)
+   [ 1] horse Sun – jockey Eris: P03 (RA 1.5324 Dec 18.3399, broad); P11 (RA 0.2117 Dec 19.5197, broad)
+   [ 1] horse Gonggong – jockey Jupiter: P03 (RA 117.5526 Dec 0.0642, broad); P07 (RA 118.8369 Dec 0.4867, broad)
+   [ 1] horse Node – jockey Sun: P05 (RA 4.9483 Dec 0.2894, broad); P09 (RA 6.5533 Dec 0.0614, broad)
+   [ 1] horse Node – jockey Jupiter: P05 (RA 2.3268 Dec 0.4676, broad); P09 (RA 11.6936 Dec 0.2281, broad)
+   [ 1] horse Sedna – jockey Pallas: P07 (RA 1.4258 Dec 12.1410, broad); P11 (RA 159.3721 Dec 0.1198, broad)
+   [ 1] horse Gonggong – jockey Quaoar: P07 (RA 96.8477 Dec 0.0247, broad); P09 (RA 100.4227 Dec 0.3016, broad)
+   [ 1] horse Orcus – jockey Transpluto: P07 (RA 0.5559 Dec 19.9543, broad); P09 (RA 1.9307 Dec 20.6605, broad)
+   [ 1] horse Node – jockey Uranus: P09 (RA 10.4903 Dec 0.2299, broad); P11 (RA 1.4715 Dec 0.1084, broad)
+   [11] same body Mercury: P01 (worst 0.0760%); P09 (worst 0.0307%)
+   [11] same body Haumea: P01 (worst 0.1059%); P07 (worst 0.1483%)
+   [11] same body Quaoar: P01 (worst 0.1425%); P09 (worst 0.1051%)
+   [11] same body Eris: P03 (worst 0.0896%); P05 (worst 0.0196%)
+   [12] J Sun–Mercury: P03 (RA 0.1565 Dec 0.1978, broad); P09 (RA 21.8047 Dec 0.2530, broad)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P01 P03 P09
+   recurring cross link horse Pluto – jockey Neptune: P01 P11
+   recurring cross link horse Sedna – jockey Chiron: P05
+   recurring pair Haumea–Node: P03
+   recurring pair Jupiter–Vesta: P01 P05
+   recurring pair Neptune–Ketu: P09
+   recurring pair Neptune–Node: P01 P05 P07
+   recurring pair Neptune–Vesta: P01
+   recurring pair Node–Haumea: P05
+   recurring pair Pallas–Juno: P01 P03 P07
+   recurring pair Saturn–Neptune: P09
+   recurring pair Transpluto–Chiron: P03
+   recurring pair Venus–Uranus: P03 P11
+   recurring pair Vesta–Jupiter: P01
+   recurring pair Vesta–Neptune: P11

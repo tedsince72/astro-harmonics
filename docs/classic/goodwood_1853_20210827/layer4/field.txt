@@ -1,0 +1,75 @@
+== goodwood_1853_20210827  field of 5   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+-- runners: P01 1 Stunning Beauty / 1 Stefano Cherchi; P03 2 Pretty In Grey / 2 Marco Ghiani; P05 3 Lola Showgirl / 3 Laura Pearson; P07 4 Dalanijujo / 4 Tom Marquand; P09 5 Madame Tantzy / 5 Georgia Dobie
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              2/5: P01:1 P09:1  |   5: P01:17 P03:16 P05:12 P07:16 P09:12
+   [  2] partner strike                              2/5: P05:1 P07:3  |   5: P01:4 P03:6 P05:3 P07:11 P09:3
+   [  3] pair together in the sky                    1/5: P01:1  |   1: P01:1
+   [  4] both ends moved                             1/5: P07:1  |   1: P07:1
+   [  5] movement onto a cross link                  3/5: P01:3 P03:3 P07:8  |   4: P01:7 P03:3 P05:1 P07:8
+   [  6] swap                                        0/5: -  |   1: P07:1
+   [  7] triangle struck at every corner             1/5: P03:1  |   5: P01:2 P03:8 P05:2 P07:1 P09:1
+   [  8] same number / ratio in both charts          2/5: P05:2 P07:5  |   4: P03:1 P05:2 P07:6 P09:1
+   [  9] shared node                                 0/5: -  |   0: -
+   [ 10] sky body divides a natal pair               5/5: P01:46 P03:11 P05:7 P07:23 P09:11  |   5: P01:46 P03:11 P05:7 P07:23 P09:11
+   [ 11] joined same-body set                        3/5: P01:2 P05:2 P09:1  |   3: P01:2 P05:2 P09:1
+   [ 12] pair in one chart struck on both ends by 2+  0/5: -  |   4: P03:1 P05:3 P07:2 P09:3
+   [ 1m] cross link, 2+ sky bodies on both ends      0/5: -  |   3: P01:4 P03:2 P07:2
+   [12m] pair in one chart, 2+ sky bodies on both ends  0/5: -  |   4: P03:1 P05:3 P07:2 P09:3
+-- tightest instance of each shape
+   [ 1] P01 1 Stunning Beauty / 1 Stefano Cherchi: horse Jupiter – jockey Sun (RA 153.7101 Dec 0.0122)
+   [ 2] P05 3 Lola Showgirl / 3 Laura Pearson: horse Neptune – jockey Sun (RA 0.1782 Dec 0.9863)
+   [ 3] P01 1 Stunning Beauty / 1 Stefano Cherchi: horse Sun – jockey Transpluto (RA 114.8190 Dec 0.2386)
+   [ 4] P07 4 Dalanijujo / 4 Tom Marquand: horse Uranus – jockey Eris (RA 0.2435 Dec 16.2597)
+   [ 5] P01 1 Stunning Beauty / 1 Stefano Cherchi: moved J Sun (RA 153.7101 Dec 0.0122)
+   [ 6] P07 4 Dalanijujo / 4 Tom Marquand: swap Mercury/Transpluto (RA 119.2987 Dec 0.5145)
+   [ 7] P01 1 Stunning Beauty / 1 Stefano Cherchi: triangle Mercury/Node/Transpluto ()
+   [ 8] P03 2 Pretty In Grey / 2 Marco Ghiani: ratio 10/9 ()
+   [10] P07 4 Dalanijujo / 4 Tom Marquand: J Eris -> H Haumea (split error 0.0016%)
+   [11] P05 3 Lola Showgirl / 3 Laura Pearson: same body Orcus (worst 0.0656%)
+   [12] P09 5 Madame Tantzy / 5 Georgia Dobie: J Jupiter–Pallas (Flat 9.11117 = 82/9)
+-- field-only findings (shape numbers)
+   P01 1 Stunning Beauty / 1 Stefano Cherchi: only (strict) 3; only (broad) 3; strict, shared with one other 1
+   P03 2 Pretty In Grey / 2 Marco Ghiani: only (strict) 7; only (broad) -; strict, shared with one other -
+   P05 3 Lola Showgirl / 3 Laura Pearson: only (strict) -; only (broad) -; strict, shared with one other 2,8
+   P07 4 Dalanijujo / 4 Tom Marquand: only (strict) 4; only (broad) 4,6; strict, shared with one other 2,8
+   P09 5 Madame Tantzy / 5 Georgia Dobie: only (strict) -; only (broad) -; strict, shared with one other 1
+-- strong hubs across the field
+   H Node         2: P01 P09
+   J Sun          1: P01
+   J Node         1: P01
+   H Neptune      1: P03
+   H Haumea       1: P03
+   H Uranus       1: P07
+   H Sun          1: P07
+   H Jupiter      1: P07
+   J Eris         1: P07
+   J Gonggong     1: P07
+   J Jupiter      1: P09
+   J Saturn       1: P09
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Uranus – jockey Eris: P01 (RA 0.1638 Dec 15.7201, broad); P03 (RA 0.5303 Dec 16.4785, broad); P07 (RA 0.2435 Dec 16.2597, broad)
+   [ 1] horse Quaoar – jockey Quaoar: P01 (RA 21.0347 Dec 0.3738, broad); P03 (RA 23.7468 Dec 0.5017, broad); P05 (RA 20.5229 Dec 0.5996, broad)
+   [ 1] horse Mercury – jockey Eris: P01 (RA 1.1802 Dec 17.0476, broad); P03 (RA 0.0762 Dec 15.6598, broad)
+   [ 1] horse Jupiter – jockey Sun: P01 (RA 153.7101 Dec 0.0122, broad); P05 (RA 140.7463 Dec 0.1239, broad)
+   [ 1] horse Pluto – jockey Mars: P01 (RA 41.3226 Dec 0.0944, broad); P05 (RA 43.3393 Dec 0.5938, broad)
+   [ 1] horse Node – jockey Gonggong: P01 (RA 0.7108 Dec 5.6844, broad); P07 (RA 1.3855 Dec 6.5200, broad)
+   [ 1] horse Gonggong – jockey Pluto: P01 (RA 81.1790 Dec 0.1577, broad); P05 (RA 80.4167 Dec 0.4725, broad)
+   [ 1] horse Jupiter – jockey Haumea: P03 (RA 1.9352 Dec 25.8004, broad); P07 (RA 0.7353 Dec 26.9247, broad)
+   [ 1] horse Juno – jockey Eris: P03 (RA 95.6323 Dec 0.1585, broad); P09 (RA 157.7948 Dec 0.2262, broad)
+   [ 1] horse Eris – jockey Saturn: P03 (RA 1.1798 Dec 10.9269, broad); P09 (RA 0.6022 Dec 10.8116, broad)
+   [ 1] horse Pallas – jockey Sun: P05 (RA 1.4475 Dec 1.9601, broad); P07 (RA 0.7674 Dec 4.1505, broad)
+   [ 1] horse Gonggong – jockey Pallas: P07 (RA 0.8132 Dec 15.3745, broad); P09 (RA 18.9676 Dec 0.5839, broad)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P07
+   recurring cross link horse Sedna – jockey Chiron: P01 P05
+   recurring cross link horse Venus – jockey Uranus: P03 P09
+   recurring pair Chiron–Transpluto: P09
+   recurring pair Haumea–Node: P01 P03
+   recurring pair Neptune–Node: P03 P07
+   recurring pair Neptune–Rahu: P05 P07
+   recurring pair Neptune–Vesta: P07 P09
+   recurring pair Node–Haumea: P05
+   recurring pair Node–Neptune: P09
+   recurring pair Pallas–Juno: P01 P03 P05
+   recurring pair Saturn–Neptune: P07
+   recurring pair Venus–Uranus: P03 P09

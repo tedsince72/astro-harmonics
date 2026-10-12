@@ -1,0 +1,1494 @@
+{
+ "version": "L4 v1 (12 Oct 2026)",
+ "race": "dettori_ascot_19960928",
+ "runners": [
+  {
+   "P": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori"
+  }
+ ],
+ "table": {
+  "strict": {
+   "1": {},
+   "2": {},
+   "3": {
+    "P01": 1
+   },
+   "4": {},
+   "5": {
+    "P01": 4
+   },
+   "6": {},
+   "7": {
+    "P01": 1
+   },
+   "8": {},
+   "9": {},
+   "10": {
+    "P01": 25
+   },
+   "11": {
+    "P01": 4
+   },
+   "12": {},
+   "1m": {},
+   "12m": {}
+  },
+  "broad": {
+   "1": {
+    "P01": 13
+   },
+   "2": {
+    "P01": 5
+   },
+   "3": {
+    "P01": 1
+   },
+   "4": {
+    "P01": 1
+   },
+   "5": {
+    "P01": 8
+   },
+   "6": {
+    "P01": 1
+   },
+   "7": {
+    "P01": 4
+   },
+   "8": {
+    "P01": 1
+   },
+   "9": {},
+   "10": {
+    "P01": 25
+   },
+   "11": {
+    "P01": 4
+   },
+   "12": {
+    "P01": 3
+   },
+   "1m": {
+    "P01": 1
+   },
+   "12m": {
+    "P01": 3
+   }
+  }
+ },
+ "tightest": {
+  "1": {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "tightness": "RA 70.2320 Dec 0.0306",
+   "key": "horse Saturn \u2013 jockey Neptune"
+  },
+  "2": {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "tightness": "RA 33.4838 Dec 0.2369",
+   "key": "horse Transpluto \u2013 jockey Orcus"
+  },
+  "3": {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "tightness": "RA 17.9012 Dec 0.2138",
+   "key": "horse Node \u2013 jockey Sun"
+  },
+  "4": {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "tightness": "RA 17.3129 Dec 0.4371",
+   "key": "horse Mercury \u2013 jockey Sun"
+  },
+  "5": {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "tightness": "RA 176.3415 Dec 0.1837",
+   "key": "moved H Pluto"
+  },
+  "6": {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "tightness": "RA 170.5419 Dec 0.3785",
+   "key": "swap Eris/Quaoar"
+  },
+  "7": {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "tightness": "",
+   "key": "triangle Mercury/Node/Sun"
+  },
+  "8": {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "tightness": "",
+   "key": "ratio 19/6"
+  },
+  "10": {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "tightness": "split error 0.0007%",
+   "key": "J Haumea -> J Pluto"
+  },
+  "11": {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "tightness": "worst 0.0052%",
+   "key": "same body Mars"
+  },
+  "12": {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "tightness": "RA 0.5883 Dec 0.6510",
+   "key": "H Mercury\u2013Node"
+  }
+ },
+ "only": {
+  "P01": {
+   "strict": [
+    "3",
+    "5",
+    "7",
+    "10",
+    "11"
+   ],
+   "broad": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "10",
+    "11",
+    "12",
+    "1m",
+    "12m"
+   ],
+   "with_one_other_strict": []
+  }
+ },
+ "strong_hubs": {
+  "H Saturn": [
+   "P01"
+  ],
+  "H Pallas": [
+   "P01"
+  ],
+  "H Node": [
+   "P01"
+  ],
+  "J Sun": [
+   "P01"
+  ],
+  "J Neptune": [
+   "P01"
+  ],
+  "J Node": [
+   "P01"
+  ]
+ },
+ "same_across_field": [],
+ "annotations": {
+  "recurring pair Neptune\u2013Vesta": [
+   "P01"
+  ],
+  "recurring pair Jupiter\u2013Vesta": [
+   "P01"
+  ],
+  "recurring pair Neptune\u2013Node": [
+   "P01"
+  ],
+  "recurring pair Saturn\u2013Neptune": [
+   "P01"
+  ],
+  "recurring pair Vesta\u2013Jupiter": [
+   "P01"
+  ]
+ },
+ "instances": [
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.4571,
+   "tightness": "RA 17.3129 Dec 0.4371",
+   "roots_behind": 10,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Mercury \u2013 jockey Sun",
+   "sky_bodies": [
+    "Jupiter"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Mercury",
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 4,
+   "strict": false,
+   "tight_value": 1.4571,
+   "tightness": "RA 17.3129 Dec 0.4371",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Mercury \u2013 jockey Sun",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Mercury",
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 5,
+   "strict": false,
+   "tight_value": 1.4571,
+   "tightness": "RA 17.3129 Dec 0.4371",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Mercury"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 5,
+   "strict": false,
+   "tight_value": 1.4571,
+   "tightness": "RA 17.3129 Dec 0.4371",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": true,
+   "key": "moved J Sun",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.2821,
+   "tightness": "RA 4.4186 Dec 0.3846",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Mercury \u2013 jockey Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Mercury",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 5,
+   "strict": false,
+   "tight_value": 1.2821,
+   "tightness": "RA 4.4186 Dec 0.3846",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Mercury"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.102,
+   "tightness": "RA 70.2320 Dec 0.0306",
+   "roots_behind": 9,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Saturn \u2013 jockey Neptune",
+   "sky_bodies": [
+    "Gonggong"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Saturn",
+    "J Neptune"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.9615,
+   "tightness": "RA 23.1264 Dec 0.2884",
+   "roots_behind": 8,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Uranus \u2013 jockey Sun",
+   "sky_bodies": [
+    "Jupiter"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Uranus",
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 5,
+   "strict": true,
+   "tight_value": 0.9615,
+   "tightness": "RA 23.1264 Dec 0.2884",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": true,
+   "key": "moved J Sun",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.8964,
+   "tightness": "RA 1.3446 Dec 13.8782",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Pluto \u2013 jockey Jupiter",
+   "sky_bodies": [
+    "Pallas"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Pluto",
+    "J Jupiter"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 5,
+   "strict": true,
+   "tight_value": 0.8964,
+   "tightness": "RA 1.3446 Dec 13.8782",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Pluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Pluto"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.5299,
+   "tightness": "RA 41.2772 Dec 0.4590",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Pluto \u2013 jockey Uranus",
+   "sky_bodies": [
+    "Pallas"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Pluto",
+    "J Uranus"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 5,
+   "strict": false,
+   "tight_value": 1.5299,
+   "tightness": "RA 41.2772 Dec 0.4590",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Pluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Pluto"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.6124,
+   "tightness": "RA 176.3415 Dec 0.1837",
+   "roots_behind": 4,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Pluto \u2013 jockey Juno",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Pluto",
+    "J Juno"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 5,
+   "strict": true,
+   "tight_value": 0.6124,
+   "tightness": "RA 176.3415 Dec 0.1837",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Pluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Pluto"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.0865,
+   "tightness": "RA 1.6297 Dec 15.2533",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Juno \u2013 jockey Gonggong",
+   "sky_bodies": [
+    "Ceres"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Juno",
+    "J Gonggong"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.0865,
+   "tightness": "RA 1.6297 Dec 15.2533",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Juno \u2013 jockey Gonggong",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Juno",
+    "J Gonggong"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.7127,
+   "tightness": "RA 17.9012 Dec 0.2138",
+   "roots_behind": 10,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Node \u2013 jockey Sun",
+   "sky_bodies": [
+    "Jupiter"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Rahu",
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 3,
+   "strict": true,
+   "tight_value": 0.7127,
+   "tightness": "RA 17.9012 Dec 0.2138",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Node \u2013 jockey Sun",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 5,
+   "strict": true,
+   "tight_value": 0.7127,
+   "tightness": "RA 17.9012 Dec 0.2138",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": true,
+   "key": "moved J Sun",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.2615,
+   "tightness": "RA 170.5419 Dec 0.3785",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Eris \u2013 jockey Quaoar",
+   "sky_bodies": [
+    "Eris"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Eris",
+    "J Quaoar"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.2615,
+   "tightness": "RA 170.5419 Dec 0.3785",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Eris \u2013 jockey Quaoar",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Eris",
+    "J Quaoar"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.9672,
+   "tightness": "RA 1.4509 Dec 6.7108",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Gonggong \u2013 jockey Node",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Gonggong",
+    "J Rahu"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.9055,
+   "tightness": "RA 1.3583 Dec 2.0760",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Quaoar \u2013 jockey Vesta",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Quaoar",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.6369,
+   "tightness": "RA 141.9822 Dec 0.4911",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Quaoar \u2013 jockey Eris",
+   "sky_bodies": [
+    "Quaoar"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Quaoar",
+    "J Eris"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.6369,
+   "tightness": "RA 141.9822 Dec 0.4911",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Quaoar \u2013 jockey Eris",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Quaoar",
+    "J Eris"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.7897,
+   "tightness": "RA 33.4838 Dec 0.2369",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Transpluto \u2013 jockey Orcus",
+   "sky_bodies": [
+    "Transpluto",
+    "Venus"
+   ],
+   "strict_multi": false,
+   "multi": true,
+   "bodies": [
+    "H Transpluto",
+    "J Orcus"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 0.7897,
+   "tightness": "RA 33.4838 Dec 0.2369",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Transpluto \u2013 jockey Orcus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Transpluto",
+    "J Orcus"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 6,
+   "strict": false,
+   "tight_value": 1.2615,
+   "tightness": "RA 170.5419 Dec 0.3785",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "swap Eris/Quaoar",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Eris",
+    "J Quaoar",
+    "H Quaoar",
+    "J Eris"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 7,
+   "strict": false,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": true,
+   "key": "triangle Mercury/Node/Sun",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Mercury",
+    "H Rahu",
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 7,
+   "strict": false,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "triangle Chiron/Mars/Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Mars",
+    "J Chiron",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 7,
+   "strict": false,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": true,
+   "key": "triangle Node/Sun/Uranus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "H Uranus",
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 7,
+   "strict": true,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": false,
+   "key": "triangle Sedna/Sedna/Venus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Sedna",
+    "J Sedna",
+    "J Venus"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 8,
+   "strict": false,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 2,
+   "hub": false,
+   "strong_hub": false,
+   "key": "ratio 19/6",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": []
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9688,
+   "tightness": "split error 0.2422%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Venus -> H Makemake",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Venus",
+    "H Makemake"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.8228,
+   "tightness": "split error 0.2057%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Venus -> J Transpluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Venus",
+    "J Transpluto"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.708,
+   "tightness": "split error 0.1770%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Haumea -> H Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Haumea",
+    "H Vesta"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.05,
+   "tightness": "split error 0.0125%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Haumea -> H Transpluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Haumea",
+    "H Transpluto"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.8224,
+   "tightness": "split error 0.2056%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Haumea -> J Saturn",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Haumea",
+    "J Saturn"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.3632,
+   "tightness": "split error 0.0908%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Haumea -> J Ceres",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Haumea",
+    "J Ceres"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.332,
+   "tightness": "split error 0.0830%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "H Haumea -> J Ketu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Haumea",
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.0224,
+   "tightness": "split error 0.0056%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Haumea -> J Transpluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Haumea",
+    "J Transpluto"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.6116,
+   "tightness": "split error 0.1529%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "J Sun -> H Chiron",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Chiron"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9996,
+   "tightness": "split error 0.2499%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "J Sun -> H Pallas",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Pallas"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.5228,
+   "tightness": "split error 0.1307%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "J Sun -> H Haumea",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Haumea"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.284,
+   "tightness": "split error 0.0710%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "J Sun -> H Makemake",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Makemake"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.3308,
+   "tightness": "split error 0.0827%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "J Sun -> J Pluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "J Pluto"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.6088,
+   "tightness": "split error 0.1522%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "J Sun -> J Chiron",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "J Chiron"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.398,
+   "tightness": "split error 0.0995%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "J Sun -> J Sedna",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "J Sedna"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.4516,
+   "tightness": "split error 0.1129%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "J Sun -> J Makemake",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "J Makemake"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.768,
+   "tightness": "split error 0.1920%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> H Jupiter",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "H Jupiter"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.5528,
+   "tightness": "split error 0.1382%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> H Pluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "H Pluto"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.3416,
+   "tightness": "split error 0.0854%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> H Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "H Vesta"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.13,
+   "tightness": "split error 0.0325%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> H Sedna",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "H Sedna"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.0792,
+   "tightness": "split error 0.0198%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> J Uranus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "J Uranus"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.0028,
+   "tightness": "split error 0.0007%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> J Pluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "J Pluto"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.78,
+   "tightness": "split error 0.1950%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> J Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.7164,
+   "tightness": "split error 0.1791%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "J Haumea -> J Ketu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.7496,
+   "tightness": "split error 0.1874%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> J Transpluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "J Transpluto"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 11,
+   "strict": true,
+   "tight_value": 0.0347,
+   "tightness": "worst 0.0052%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "same body Mars",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Mars",
+    "J Mars"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 11,
+   "strict": true,
+   "tight_value": 0.476,
+   "tightness": "worst 0.0714%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "same body Saturn",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Saturn",
+    "J Saturn"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 11,
+   "strict": true,
+   "tight_value": 0.188,
+   "tightness": "worst 0.0282%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "same body Saturn",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Saturn",
+    "J Saturn"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 11,
+   "strict": true,
+   "tight_value": 0.1633,
+   "tightness": "worst 0.0245%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "same body Node",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "J Rahu"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 12,
+   "strict": false,
+   "tight_value": 1.4285,
+   "tightness": "RA 39.1579 Dec 0.4285",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Sun\u2013Venus",
+   "sky_bodies": [
+    "Pluto",
+    "Vesta"
+   ],
+   "strict_multi": false,
+   "multi": null,
+   "bodies": [
+    "H Sun",
+    "H Venus"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 12,
+   "strict": false,
+   "tight_value": 0.3922,
+   "tightness": "RA 0.5883 Dec 0.6510",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": true,
+   "key": "H Mercury\u2013Node",
+   "sky_bodies": [
+    "Jupiter",
+    "Mercury"
+   ],
+   "strict_multi": false,
+   "multi": null,
+   "bodies": [
+    "H Mercury",
+    "H Rahu"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "4 Diffident / 4 Frankie Dettori",
+   "shape": 12,
+   "strict": false,
+   "tight_value": 0.832,
+   "tightness": "Flat 44.00416 = 44",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Makemake\u2013Orcus",
+   "sky_bodies": [
+    "Transpluto",
+    "Venus"
+   ],
+   "strict_multi": false,
+   "multi": null,
+   "bodies": [
+    "J Makemake",
+    "J Orcus"
+   ]
+  }
+ ]
+}

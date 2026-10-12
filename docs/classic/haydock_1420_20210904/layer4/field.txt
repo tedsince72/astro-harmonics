@@ -1,0 +1,76 @@
+== haydock_1420_20210904  field of 6   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+-- runners: P01 1 Roseabad / 1 Richard Kingscote; P03 2 Golden Flame / 2 Joe Fanning; P05 3 Valley Forge / 3 David Probert; P07 5 Praiano / 5 Andrea Atzeni; P09 7 Contact / 7 Ray Dawson; P11 8 Tynwald / 8 Daniel Tudhope
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              1/6: P09:1  |   6: P01:12 P03:20 P05:19 P07:12 P09:17 P11:20
+   [  2] partner strike                              4/6: P03:1 P05:1 P07:1 P11:1  |   6: P01:1 P03:9 P05:7 P07:5 P09:4 P11:8
+   [  3] pair together in the sky                    0/6: -  |   0: -
+   [  4] both ends moved                             1/6: P11:1  |   2: P03:1 P11:1
+   [  5] movement onto a cross link                  5/6: P01:1 P03:6 P05:1 P09:3 P11:6  |   6: P01:1 P03:10 P05:2 P07:3 P09:3 P11:8
+   [  6] swap                                        1/6: P11:1  |   2: P07:1 P11:1
+   [  7] triangle struck at every corner             2/6: P03:1 P09:2  |   4: P03:3 P05:6 P09:3 P11:7
+   [  8] same number / ratio in both charts          5/6: P03:2 P05:3 P07:1 P09:1 P11:1  |   5: P03:3 P05:3 P07:2 P09:1 P11:3
+   [  9] shared node                                 0/6: -  |   0: -
+   [ 10] sky body divides a natal pair               6/6: P01:24 P03:73 P05:10 P07:17 P09:12 P11:29  |   6: P01:24 P03:73 P05:10 P07:17 P09:12 P11:29
+   [ 11] joined same-body set                        6/6: P01:1 P03:1 P05:3 P07:2 P09:2 P11:1  |   6: P01:1 P03:1 P05:3 P07:2 P09:2 P11:1
+   [ 12] pair in one chart struck on both ends by 2+  2/6: P03:2 P09:4  |   6: P01:4 P03:3 P05:3 P07:4 P09:6 P11:5
+   [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   4: P01:2 P05:3 P07:1 P11:2
+   [12m] pair in one chart, 2+ sky bodies on both ends  3/6: P03:2 P05:1 P09:4  |   6: P01:4 P03:3 P05:3 P07:4 P09:6 P11:5
+-- tightest instance of each shape
+   [ 1] P07 5 Praiano / 5 Andrea Atzeni: horse Pluto – jockey Juno (RA 0.0255 Dec 11.8707)
+   [ 2] P07 5 Praiano / 5 Andrea Atzeni: horse Sun – jockey Sedna (RA 32.5944 Dec 0.0269)
+   [ 4] P11 8 Tynwald / 8 Daniel Tudhope: horse Mars – jockey Neptune (RA 18.5274 Dec 0.0855)
+   [ 5] P11 8 Tynwald / 8 Daniel Tudhope: moved J Neptune (RA 4.1464 Dec 0.0582)
+   [ 6] P11 8 Tynwald / 8 Daniel Tudhope: swap Mars/Neptune (RA 18.5274 Dec 0.0855)
+   [ 7] P03 2 Golden Flame / 2 Joe Fanning: triangle Juno/Uranus/Venus ()
+   [ 8] P03 2 Golden Flame / 2 Joe Fanning: number 13 ()
+   [10] P03 2 Golden Flame / 2 Joe Fanning: J Venus -> J Mars (split error 0.0006%)
+   [11] P05 3 Valley Forge / 3 David Probert: same body Node (worst 0.0183%)
+   [12] P11 8 Tynwald / 8 Daniel Tudhope: J Uranus–Eris (Flat 125.22221 = 1127/9)
+-- field-only findings (shape numbers)
+   P03 2 Golden Flame / 2 Joe Fanning: only (strict) -; only (broad) -; strict, shared with one other 7,12
+   P09 7 Contact / 7 Ray Dawson: only (strict) 1; only (broad) -; strict, shared with one other 7,12
+   P11 8 Tynwald / 8 Daniel Tudhope: only (strict) 4,6; only (broad) -; strict, shared with one other -
+-- strong hubs across the field
+   H Venus        2: P05 P09
+   J Node         1: P01
+   H Mercury      1: P05
+   J Sedna        1: P07
+   J Jupiter      1: P09
+   H Mars         1: P11
+   J Mars         1: P11
+   J Neptune      1: P11
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Mars – jockey Uranus: P01 (RA 25.9035 Dec 0.3168, broad); P07 (RA 6.7488 Dec 0.4790, broad); P09 (RA 29.8924 Dec 0.4881, broad)
+   [ 1] horse Saturn – jockey Neptune: P01 (RA 5.2272 Dec 0.0189, broad); P05 (RA 0.3715 Dec 0.0422, broad); P11 (RA 4.1464 Dec 0.0582, broad)
+   [ 1] horse Orcus – jockey Eris: P01 (RA 129.9962 Dec 0.2568, broad); P05 (RA 130.5115 Dec 0.3126, broad); P11 (RA 131.7635 Dec 0.5180, broad)
+   [ 1] horse Orcus – jockey Juno: P07 (RA 139.9540 Dec 0.3283, broad); P09 (RA 1.5012 Dec 19.7156, broad); P11 (RA 76.1721 Dec 0.5371, broad)
+   [ 1] horse Sun – jockey Vesta: P01 (RA 1.8531 Dec 9.3542, broad); P09 (RA 0.8029 Dec 8.4467, broad)
+   [ 1] horse Pluto – jockey Gonggong: P01 (RA 36.1492 Dec 0.2903, broad); P11 (RA 35.7828 Dec 0.0838, broad)
+   [ 1] horse Gonggong – jockey Quaoar: P01 (RA 108.1203 Dec 0.2753, broad); P11 (RA 106.8320 Dec 0.5321, broad)
+   [ 1] horse Orcus – jockey Node: P01 (RA 51.2771 Dec 0.0404, broad); P03 (RA 178.6182 Dec 0.0906, broad)
+   [ 1] horse Chiron – jockey Ceres: P03 (RA 44.1938 Dec 0.4157, broad); P09 (RA 38.8707 Dec 0.5143, broad)
+   [ 1] horse Chiron – jockey Sedna: P03 (RA 39.4877 Dec 0.3491, broad); P05 (RA 42.1242 Dec 0.3583, broad)
+   [ 1] horse Mars – jockey Sun: P05 (RA 43.1572 Dec 0.2657, broad); P11 (RA 6.5755 Dec 0.3900, broad)
+   [ 1] horse Mars – jockey Neptune: P05 (RA 15.6818 Dec 0.4971, broad); P11 (RA 18.5274 Dec 0.0855, broad)
+   [ 1] horse Saturn – jockey Sun: P05 (RA 27.1040 Dec 0.1892, broad); P11 (RA 29.2493 Dec 0.5337, broad)
+   [ 1] horse Pluto – jockey Neptune: P07 (RA 4.5242 Dec 0.1101, broad); P09 (RA 1.2061 Dec 0.1556, broad)
+   [ 1] horse Pluto – jockey Node: P07 (RA 5.1416 Dec 0.4905, broad); P09 (RA 42.7065 Dec 0.5599, broad)
+   [ 1] horse Haumea – jockey Ceres: P07 (RA 1.0246 Dec 15.8887, broad); P11 (RA 49.0042 Dec 0.2227, broad)
+   [ 1] horse Saturn – jockey Uranus: P09 (RA 13.3641 Dec 0.1271, broad); P11 (RA 20.2138 Dec 0.5356, broad)
+   [11] same body Node: P01 (worst 0.0922%); P05 (worst 0.0183%)
+   [11] same body Sedna: P07 (worst 0.0970%); P09 (worst 0.1222%)
+   [12] H Sun–Mercury: P07 (RA 0.9350 Dec 3.7121, broad); P09 (RA 12.00214 = 12)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P03
+   recurring cross link horse Pluto – jockey Neptune: P01 P03 P07 P09
+   recurring cross link horse Sedna – jockey Chiron: P09 P11
+   recurring cross link horse Venus – jockey Uranus: P03 P07
+   recurring pair Chiron–Transpluto: P07 P09 P11
+   recurring pair Juno–Pallas: P05 P07
+   recurring pair Jupiter–Vesta: P03 P05 P07 P09 P11
+   recurring pair Neptune–Saturn: P03
+   recurring pair Neptune–Vesta: P05 P09 P11
+   recurring pair Node–Haumea: P01 P03 P05 P07 P09 P11
+   recurring pair Node–Neptune: P11
+   recurring pair Saturn–Neptune: P01 P05 P07 P09 P11
+   recurring pair Venus–Uranus: P03 P05 P07

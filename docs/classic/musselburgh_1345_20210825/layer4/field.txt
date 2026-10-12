@@ -1,0 +1,75 @@
+== musselburgh_1345_20210825  field of 5   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+-- runners: P01 1 Major Snugfit / 1 Paul Mulrennan; P03 2 Inside Intel / 2 Jason Hart; P05 3 Yukon / 3 Daniel Tudhope; P07 4 Graces Quest / 4 Andrew Mullen; P09 5 Natural Value / 5 Joe Fanning
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              3/5: P01:1 P03:1 P09:1  |   5: P01:20 P03:15 P05:13 P07:21 P09:24
+   [  2] partner strike                              4/5: P01:3 P05:1 P07:2 P09:3  |   5: P01:8 P03:3 P05:3 P07:5 P09:13
+   [  3] pair together in the sky                    0/5: -  |   0: -
+   [  4] both ends moved                             2/5: P01:1 P07:1  |   2: P01:1 P07:1
+   [  5] movement onto a cross link                  4/5: P01:9 P03:4 P05:1 P07:4  |   4: P01:14 P03:6 P05:1 P07:5
+   [  6] swap                                        0/5: -  |   2: P01:1 P07:1
+   [  7] triangle struck at every corner             2/5: P03:1 P07:1  |   5: P01:3 P03:5 P05:3 P07:23 P09:9
+   [  8] same number / ratio in both charts          4/5: P01:3 P03:2 P05:1 P09:1  |   4: P01:4 P03:5 P05:3 P09:1
+   [  9] shared node                                 0/5: -  |   0: -
+   [ 10] sky body divides a natal pair               4/5: P01:27 P03:9 P05:7 P07:14  |   4: P01:27 P03:9 P05:7 P07:14
+   [ 11] joined same-body set                        4/5: P01:2 P03:3 P05:3 P07:2  |   4: P01:2 P03:3 P05:3 P07:2
+   [ 12] pair in one chart struck on both ends by 2+  1/5: P03:1  |   5: P01:3 P03:7 P05:6 P07:1 P09:3
+   [ 1m] cross link, 2+ sky bodies on both ends      0/5: -  |   4: P01:5 P03:1 P07:4 P09:5
+   [12m] pair in one chart, 2+ sky bodies on both ends  1/5: P03:1  |   5: P01:3 P03:7 P05:6 P07:1 P09:3
+-- tightest instance of each shape
+   [ 1] P03 2 Inside Intel / 2 Jason Hart: horse Saturn – jockey Uranus (RA 27.0197 Dec 0.0019)
+   [ 2] P01 1 Major Snugfit / 1 Paul Mulrennan: horse Pluto – jockey Node (RA 0.1657 Dec 1.5288)
+   [ 4] P07 4 Graces Quest / 4 Andrew Mullen: horse Gonggong – jockey Quaoar (RA 109.1882 Dec 0.0127)
+   [ 5] P03 2 Inside Intel / 2 Jason Hart: moved J Uranus (RA 27.0197 Dec 0.0019)
+   [ 6] P01 1 Major Snugfit / 1 Paul Mulrennan: swap Pluto/Uranus (RA 46.1251 Dec 0.0636)
+   [ 7] P01 1 Major Snugfit / 1 Paul Mulrennan: triangle Jupiter/Pluto/Uranus ()
+   [ 8] P01 1 Major Snugfit / 1 Paul Mulrennan: number 26 ()
+   [10] P01 1 Major Snugfit / 1 Paul Mulrennan: H Pallas -> H Neptune (split error 0.0009%)
+   [11] P05 3 Yukon / 3 Daniel Tudhope: same body Sun (worst 0.0044%)
+   [12] P01 1 Major Snugfit / 1 Paul Mulrennan: J Saturn–Uranus (GC 45.99978 = 46)
+-- field-only findings (shape numbers)
+   P01 1 Major Snugfit / 1 Paul Mulrennan: only (strict) -; only (broad) -; strict, shared with one other 4
+   P03 2 Inside Intel / 2 Jason Hart: only (strict) 12,12m; only (broad) -; strict, shared with one other 7
+   P07 4 Graces Quest / 4 Andrew Mullen: only (strict) -; only (broad) -; strict, shared with one other 4,7
+-- strong hubs across the field
+   J Uranus       2: P01 P03
+   H Node         1: P01
+   H Jupiter      1: P01
+   H Saturn       1: P01
+   H Pallas       1: P01
+   J Eris         1: P01
+   H Mars         1: P03
+   H Gonggong     1: P07
+   J Quaoar       1: P07
+   H Sedna        1: P09
+   J Gonggong     1: P09
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Uranus – jockey Eris: P03 (RA 1.2289 Dec 16.9302, broad); P05 (RA 1.4669 Dec 18.5527, broad); P07 (RA 1.7984 Dec 20.2928, broad)
+   [ 1] horse Jupiter – jockey Pluto: P01 (RA 41.8178 Dec 0.0744, broad); P03 (RA 38.8557 Dec 0.1749, broad)
+   [ 1] horse Saturn – jockey Uranus: P01 (RA 13.0114 Dec 0.1784, broad); P03 (RA 27.0197 Dec 0.0019)
+   [ 1] horse Pluto – jockey Uranus: P01 (RA 46.1251 Dec 0.0636, broad); P07 (RA 43.5990 Dec 0.1435, broad)
+   [ 1] horse Juno – jockey Quaoar: P01 (RA 0.4394 Dec 6.7272, broad); P09 (RA 116.2482 Dec 0.5486, broad)
+   [ 1] horse Haumea – jockey Pluto: P01 (RA 1.6785 Dec 10.8882, broad); P07 (RA 0.5439 Dec 12.6894, broad)
+   [ 1] horse Node – jockey Saturn: P03 (RA 5.2005 Dec 0.1176, broad); P09 (RA 86.2807 Dec 0.3382, broad)
+   [ 1] horse Saturn – jockey Neptune: P05 (RA 7.4677 Dec 0.2720, broad); P07 (RA 6.6405 Dec 0.2281, broad)
+   [ 1] horse Saturn – jockey Gonggong: P05 (RA 62.1521 Dec 0.4406, broad); P07 (RA 52.2647 Dec 0.2065, broad)
+   [ 1] horse Gonggong – jockey Quaoar: P05 (RA 106.5845 Dec 0.2569, broad); P07 (RA 109.1882 Dec 0.0127, broad)
+   [ 1] horse Mercury – jockey Gonggong: P07 (RA 28.1304 Dec 0.0809, broad); P09 (RA 1.4280 Dec 10.2856)
+   [ 1] horse Chiron – jockey Pallas: P07 (RA 63.8150 Dec 0.0484, broad); P09 (RA 28.1114 Dec 0.5571, broad)
+   [ 7] triangle Node/Orcus/Transpluto: P05 (, broad); P09 (, broad)
+   [11] same body Vesta: P05 (worst 0.1317%); P07 (worst 0.0522%)
+   [12] H Orcus–Transpluto: P03 (RA 1.1185 Dec 20.6706, broad); P05 (RA 0.7940 Dec 20.8527, broad); P07 (RA 0.0916 Dec 21.2137, broad); P09 (RA 0.2142 Dec 21.2115, broad)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P09
+   recurring cross link horse Pluto – jockey Neptune: P03 P07
+   recurring cross link horse Sedna – jockey Chiron: P07
+   recurring cross link horse Venus – jockey Uranus: P07
+   recurring pair Chiron–Transpluto: P01 P03
+   recurring pair Juno–Pallas: P09
+   recurring pair Jupiter–Vesta: P01 P03 P07 P09
+   recurring pair Neptune–Node: P01 P07 P09
+   recurring pair Neptune–Vesta: P03 P05
+   recurring pair Node–Haumea: P01 P03 P05 P07 P09
+   recurring pair Node–Neptune: P05 P09
+   recurring pair Pallas–Juno: P01 P03
+   recurring pair Saturn–Neptune: P01 P05 P07
+   recurring pair Venus–Uranus: P05 P07

@@ -1,0 +1,95 @@
+== newmarket_1535_20220414  field of 6   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+-- runners: P01 1 Austrian Theory / 1 Joe Fanning; P03 2 Cresta / 2 Tom Marquand; P05 3 Dawn Of Liberation / 3 Sean Levey; P07 4 Eydon / 4 David Egan; P09 5 Masekela / 5 William Buick; P11 6 Sonny Liston / 6 Marco Ghiani
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              2/6: P01:1 P07:1  |   6: P01:23 P03:15 P05:25 P07:16 P09:14 P11:22
+   [  2] partner strike                              2/6: P01:2 P05:2  |   6: P01:9 P03:5 P05:12 P07:5 P09:5 P11:7
+   [  3] pair together in the sky                    2/6: P05:1 P07:1  |   4: P03:1 P05:2 P07:1 P09:1
+   [  4] both ends moved                             0/6: -  |   0: -
+   [  5] movement onto a cross link                  5/6: P01:4 P05:2 P07:3 P09:1 P11:3  |   5: P01:4 P05:6 P07:6 P09:6 P11:4
+   [  6] swap                                        1/6: P03:1  |   3: P03:1 P05:1 P07:1
+   [  7] triangle struck at every corner             0/6: -  |   6: P01:6 P03:1 P05:18 P07:3 P09:2 P11:15
+   [  8] same number / ratio in both charts          3/6: P03:1 P05:3 P07:2  |   4: P03:2 P05:4 P07:5 P09:1
+   [  9] shared node                                 0/6: -  |   0: -
+   [ 10] sky body divides a natal pair               6/6: P01:10 P03:20 P05:13 P07:62 P09:48 P11:7  |   6: P01:10 P03:20 P05:13 P07:62 P09:48 P11:7
+   [ 11] joined same-body set                        5/6: P01:2 P03:2 P05:2 P07:3 P09:3  |   5: P01:2 P03:2 P05:2 P07:3 P09:3
+   [ 12] pair in one chart struck on both ends by 2+  1/6: P03:2  |   6: P01:2 P03:3 P05:5 P07:1 P09:1 P11:9
+   [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   6: P01:2 P03:1 P05:6 P07:1 P09:2 P11:2
+   [12m] pair in one chart, 2+ sky bodies on both ends  2/6: P03:2 P11:1  |   6: P01:2 P03:3 P05:5 P07:1 P09:1 P11:9
+-- tightest instance of each shape
+   [ 1] P05 3 Dawn Of Liberation / 3 Sean Levey: horse Jupiter – jockey Saturn (RA 14.3997 Dec 0.0108)
+   [ 2] P03 2 Cresta / 2 Tom Marquand: horse Sedna – jockey Node (RA 105.2421 Dec 0.0222)
+   [ 3] P07 4 Eydon / 4 David Egan: horse Venus – jockey Gonggong (RA 0.7002 Dec 4.8984)
+   [ 5] P07 4 Eydon / 4 David Egan: moved J Node (RA 78.0149 Dec 0.0180)
+   [ 6] P07 4 Eydon / 4 David Egan: swap Haumea/Rahu (RA 78.0149 Dec 0.0180)
+   [ 7] P01 1 Austrian Theory / 1 Joe Fanning: triangle Jupiter/Sun/Vesta ()
+   [ 8] P03 2 Cresta / 2 Tom Marquand: number 21 ()
+   [10] P07 4 Eydon / 4 David Egan: J Haumea -> H Transpluto (split error 0.0023%)
+   [11] P09 5 Masekela / 5 William Buick: same body Node (worst 0.0128%)
+   [12] P07 4 Eydon / 4 David Egan: H Orcus–Transpluto (RA 0.0006 Dec 21.4081)
+-- field-only findings (shape numbers)
+   P01 1 Austrian Theory / 1 Joe Fanning: only (strict) -; only (broad) -; strict, shared with one other 1,2
+   P03 2 Cresta / 2 Tom Marquand: only (strict) 6,12; only (broad) -; strict, shared with one other 12m
+   P05 3 Dawn Of Liberation / 3 Sean Levey: only (strict) -; only (broad) -; strict, shared with one other 2,3
+   P07 4 Eydon / 4 David Egan: only (strict) -; only (broad) -; strict, shared with one other 1,3
+   P11 6 Sonny Liston / 6 Marco Ghiani: only (strict) -; only (broad) -; strict, shared with one other 12m
+-- strong hubs across the field
+   H Venus        2: P01 P05
+   J Node         2: P07 P09
+   H Vesta        1: P01
+   H Makemake     1: P01
+   H Gonggong     1: P01
+   J Venus        1: P01
+   J Jupiter      1: P01
+   J Saturn       1: P01
+   H Transpluto   1: P07
+   J Neptune      1: P07
+   H Mercury      1: P09
+   H Neptune      1: P09
+   J Mercury      1: P09
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Makemake – jockey Haumea: P01 (RA 27.8014 Dec 0.2049, broad); P03 (RA 1.7054 Dec 2.1697, broad); P05 (RA 10.9964 Dec 0.4545, broad); P11 (RA 0.3314 Dec 2.6035, broad)
+   [ 1] horse Ceres – jockey Chiron: P03 (RA 21.7018 Dec 0.2463, broad); P07 (RA 15.2366 Dec 0.5569, broad); P11 (RA 0.7732 Dec 3.3604, broad)
+   [ 1] horse Pallas – jockey Pallas: P01 (RA 115.0861 Dec 0.2891, broad); P09 (RA 96.6775 Dec 0.0172, broad)
+   [ 1] horse Vesta – jockey Jupiter: P01 (RA 125.3985 Dec 0.1691, broad); P03 (RA 0.1759 Dec 3.6446, broad)
+   [ 1] horse Sedna – jockey Mars: P01 (RA 109.0823 Dec 0.2686, broad); P03 (RA 38.0857 Dec 0.3266, broad)
+   [ 1] horse Quaoar – jockey Chiron: P03 (RA 46.7560 Dec 0.2118, broad); P07 (RA 35.6706 Dec 0.4039, broad)
+   [ 1] horse Venus – jockey Gonggong: P05 (RA 56.2682 Dec 0.5879, broad); P07 (RA 0.7002 Dec 4.8984, broad)
+   [ 1] horse Jupiter – jockey Saturn: P05 (RA 14.3997 Dec 0.0108, broad); P09 (RA 3.4473 Dec 0.3379, broad)
+   [ 1] horse Jupiter – jockey Neptune: P05 (RA 23.3401 Dec 0.2170, broad); P09 (RA 15.4973 Dec 0.4827, broad)
+   [ 1] horse Uranus – jockey Jupiter: P05 (RA 1.2914 Dec 0.0614, broad); P07 (RA 1.8514 Dec 1.4231, broad)
+   [ 1] horse Pluto – jockey Saturn: P05 (RA 21.4240 Dec 0.4339, broad); P09 (RA 27.6578 Dec 0.5729, broad)
+   [ 1] horse Pluto – jockey Neptune: P05 (RA 12.4836 Dec 0.2277, broad); P09 (RA 15.6077 Dec 0.4281, broad)
+   [ 1] horse Ceres – jockey Node: P07 (RA 63.6773 Dec 0.2022, broad); P11 (RA 84.0307 Dec 0.1349, broad)
+   [ 1] horse Node – jockey Haumea: P07 (RA 79.5519 Dec 0.3510, broad); P11 (RA 78.0979 Dec 0.3618, broad)
+   [ 1] horse Orcus – jockey Mars: P07 (RA 50.2129 Dec 0.3020, broad); P11 (RA 58.5707 Dec 0.2456, broad)
+   [ 1] horse Orcus – jockey Pluto: P07 (RA 95.2457 Dec 0.4134, broad); P11 (RA 95.8002 Dec 0.2156, broad)
+   [ 3] horse Venus – jockey Gonggong: P05 (RA 56.2682 Dec 0.5879, broad); P07 (RA 0.7002 Dec 4.8984)
+   [ 3] horse Jupiter – jockey Neptune: P05 (RA 23.3401 Dec 0.2170); P09 (RA 15.4973 Dec 0.4827, broad)
+   [ 7] triangle Jupiter/Pluto/Saturn: P01 (, broad); P05 (, broad); P11 (, broad)
+   [ 7] triangle Jupiter/Neptune/Saturn: P05 (, broad); P09 (, broad)
+   [11] same body Venus: P01 (worst 0.1199%); P05 (worst 0.0352%)
+   [11] same body Saturn: P01 (worst 0.0661%); P09 (worst 0.0252%)
+   [11] same body Mercury: P07 (worst 0.0235%); P09 (worst 0.0944%)
+   [12] H Orcus–Transpluto: P05 (RA 0.3918 Dec 21.5650, broad); P07 (RA 0.0006 Dec 21.4081, broad); P11 (RA 0.4475 Dec 21.5619, broad)
+   [12] H Uranus–Eris: P05 (RA 1.4304 Dec 12.7201, broad); P11 (RA 1.2981 Dec 12.6863, broad)
+   [12] H Uranus–Transpluto: P05 (RA 127.0340 Dec 0.2409, broad); P11 (RA 127.2468 Dec 0.2791, broad)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P01 P03 P05 P07 P11
+   recurring cross link horse Pluto – jockey Neptune: P05 P09
+   recurring cross link horse Sedna – jockey Chiron: P09 P11
+   recurring cross link horse Uranus – jockey Venus: P05
+   recurring cross link horse Venus – jockey Uranus: P05
+   recurring pair Chiron–Transpluto: P09
+   recurring pair Haumea–Node: P07
+   recurring pair Jupiter–Vesta: P01 P03 P07
+   recurring pair Ketu–Haumea: P09
+   recurring pair Neptune–Ketu: P05
+   recurring pair Neptune–Node: P09 P11
+   recurring pair Neptune–Vesta: P03 P05 P07
+   recurring pair Node–Haumea: P07 P11
+   recurring pair Node–Neptune: P01 P09 P11
+   recurring pair Pallas–Juno: P03 P09 P11
+   recurring pair Saturn–Neptune: P05 P09
+   recurring pair Uranus–Venus: P05
+   recurring pair Venus–Uranus: P05 P09
+   recurring pair Vesta–Jupiter: P01 P03 P09

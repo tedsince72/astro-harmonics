@@ -1,0 +1,77 @@
+== huntingdon_1352_20211205  field of 6   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+-- runners: P01 1 Allmankind / 1 Harry Skelton; P03 2 Eldorado Allen / 2 Brendan Powell; P05 3 First Flow / 3 David Bass; P07 4 Master Tommytucker / 4 Harry Cobden; P09 5 Funambule Sivola / 5 Charlie Deutsch; P11 6 Keeper Hill / 6 A P Heskin
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              3/6: P03:3 P05:3 P07:2  |   6: P01:16 P03:14 P05:7 P07:23 P09:15 P11:13
+   [  2] partner strike                              3/6: P03:1 P05:1 P07:1  |   5: P01:2 P03:4 P05:1 P07:10 P09:6
+   [  3] pair together in the sky                    3/6: P01:1 P03:1 P11:1  |   3: P01:2 P03:1 P11:1
+   [  4] both ends moved                             1/6: P07:2  |   1: P07:2
+   [  5] movement onto a cross link                  5/6: P03:2 P05:3 P07:6 P09:2 P11:2  |   5: P03:7 P05:3 P07:8 P09:6 P11:4
+   [  6] swap                                        1/6: P07:1  |   2: P05:1 P07:1
+   [  7] triangle struck at every corner             4/6: P01:2 P05:1 P07:1 P09:1  |   5: P01:9 P05:4 P07:11 P09:3 P11:1
+   [  8] same number / ratio in both charts          4/6: P01:1 P03:1 P05:2 P07:1  |   5: P01:2 P03:2 P05:2 P07:1 P11:1
+   [  9] shared node                                 1/6: P09:1  |   1: P09:1
+   [ 10] sky body divides a natal pair               6/6: P01:14 P03:38 P05:6 P07:6 P09:4 P11:15  |   6: P01:14 P03:38 P05:6 P07:6 P09:4 P11:15
+   [ 11] joined same-body set                        4/6: P03:1 P07:5 P09:2 P11:4  |   4: P03:1 P07:5 P09:2 P11:4
+   [ 12] pair in one chart struck on both ends by 2+  2/6: P01:1 P07:1  |   6: P01:2 P03:5 P05:4 P07:6 P09:4 P11:2
+   [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   6: P01:1 P03:2 P05:1 P07:5 P09:2 P11:2
+   [12m] pair in one chart, 2+ sky bodies on both ends  4/6: P01:1 P03:2 P07:1 P09:1  |   6: P01:2 P03:5 P05:4 P07:6 P09:4 P11:2
+-- tightest instance of each shape
+   [ 1] P09 5 Funambule Sivola / 5 Charlie Deutsch: horse Saturn – jockey Quaoar (RA 0.0232 Dec 4.7122)
+   [ 2] P07 4 Master Tommytucker / 4 Harry Cobden: horse Neptune – jockey Pallas (RA 15.8037 Dec 0.0059)
+   [ 3] P11 6 Keeper Hill / 6 A P Heskin: horse Node – jockey Ceres (RA 46.6131 Dec 0.1144)
+   [ 4] P07 4 Master Tommytucker / 4 Harry Cobden: horse Neptune – jockey Pallas (RA 15.8037 Dec 0.0059)
+   [ 5] P07 4 Master Tommytucker / 4 Harry Cobden: moved H Neptune (RA 15.8037 Dec 0.0059)
+   [ 6] P07 4 Master Tommytucker / 4 Harry Cobden: swap Quaoar/Venus (RA 40.2841 Dec 0.1072)
+   [ 7] P01 1 Allmankind / 1 Harry Skelton: triangle Ceres/Mercury/Node ()
+   [ 8] P01 1 Allmankind / 1 Harry Skelton: number 126 ()
+   [ 9] P09 5 Funambule Sivola / 5 Charlie Deutsch: shared node (node RA 2.9711)
+   [10] P11 6 Keeper Hill / 6 A P Heskin: J Gonggong -> H Juno (split error 0.0087%)
+   [11] P07 4 Master Tommytucker / 4 Harry Cobden: same body Uranus (worst 0.0002%)
+   [12] P07 4 Master Tommytucker / 4 Harry Cobden: J Haumea–Makemake (GC 18.88882 = 170/9)
+-- field-only findings (shape numbers)
+   P01 1 Allmankind / 1 Harry Skelton: only (strict) -; only (broad) -; strict, shared with one other 12
+   P07 4 Master Tommytucker / 4 Harry Cobden: only (strict) 4,6; only (broad) 4; strict, shared with one other 12
+   P09 5 Funambule Sivola / 5 Charlie Deutsch: only (strict) 9; only (broad) 9; strict, shared with one other -
+-- strong hubs across the field
+   H Pallas       2: P03 P09
+   J Pallas       2: P09 P11
+   H Sun          1: P03
+   J Mercury      1: P03
+   J Haumea       1: P03
+   H Orcus        1: P07
+   H Transpluto   1: P07
+   J Uranus       1: P07
+   J Gonggong     1: P07
+   J Orcus        1: P07
+   J Transpluto   1: P07
+   H Eris         1: P09
+   J Mars         1: P09
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Mercury – jockey Quaoar: P01 (RA 100.4058 Dec 0.3982, broad); P09 (RA 68.8888 Dec 0.4295, broad)
+   [ 1] horse Pluto – jockey Gonggong: P01 (RA 40.9411 Dec 0.4187, broad); P11 (RA 53.5251 Dec 0.4803, broad)
+   [ 1] horse Gonggong – jockey Quaoar: P01 (RA 103.3193 Dec 0.3732, broad); P11 (RA 97.8780 Dec 0.1007, broad)
+   [ 1] horse Quaoar – jockey Venus: P01 (RA 52.4443 Dec 0.1114, broad); P07 (RA 40.2841 Dec 0.1072, broad)
+   [ 1] horse Orcus – jockey Eris: P01 (RA 128.6880 Dec 0.3854, broad); P03 (RA 126.6970 Dec 0.2958)
+   [ 1] horse Uranus – jockey Sedna: P03 (RA 32.3104 Dec 0.2189); P09 (RA 33.0945 Dec 0.4579, broad)
+   [ 1] horse Pallas – jockey Ceres: P03 (RA 1.5661 Dec 24.8705, broad); P11 (RA 1.5531 Dec 41.0712, broad)
+   [ 1] horse Pallas – jockey Sedna: P03 (RA 100.2226 Dec 0.4572, broad); P09 (RA 150.1381 Dec 0.1354, broad)
+   [ 1] horse Makemake – jockey Haumea: P03 (RA 0.9543 Dec 4.8891, broad); P11 (RA 0.3671 Dec 4.9747, broad)
+   [ 1] horse Pluto – jockey Neptune: P05 (RA 0.2313 Dec 2.9255, broad); P09 (RA 14.3832 Dec 0.3882, broad)
+   [ 1] horse Juno – jockey Mars: P05 (RA 108.7653 Dec 0.2712); P07 (RA 1.7883 Dec 1.3404, broad)
+   [ 1] horse Saturn – jockey Haumea: P07 (RA 1.1213 Dec 24.0663, broad); P11 (RA 1.6658 Dec 24.8302, broad)
+   [ 1] horse Eris – jockey Eris: P07 (RA 1.4448 Dec 3.4077, broad); P09 (RA 1.3599 Dec 4.3220, broad)
+   [ 1] horse Node – jockey Haumea: P09 (RA 1.2289 Dec 27.0646, broad); P11 (RA 106.2508 Dec 0.1604, broad)
+   [11] same body Sun: P03 (worst 0.1493%); P07 (worst 0.0044%)
+   [11] same body Uranus: P07 (worst 0.0002%); P09 (worst 0.0968%)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P03 P09 P11
+   recurring cross link horse Pluto – jockey Neptune: P05 P09
+   recurring pair Chiron–Transpluto: P03
+   recurring pair Jupiter–Vesta: P01 P03 P05 P07
+   recurring pair Neptune–Node: P07 P09
+   recurring pair Neptune–Vesta: P07
+   recurring pair Node–Haumea: P09 P11
+   recurring pair Pallas–Juno: P01 P07
+   recurring pair Saturn–Neptune: P01 P05
+   recurring pair Venus–Uranus: P03 P05 P07
+   recurring pair Vesta–Neptune: P07 P11

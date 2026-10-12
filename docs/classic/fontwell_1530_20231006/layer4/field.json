@@ -1,0 +1,8987 @@
+{
+ "version": "L4 v1 (12 Oct 2026)",
+ "race": "fontwell_1530_20231006",
+ "runners": [
+  {
+   "P": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney"
+  },
+  {
+   "P": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore"
+  },
+  {
+   "P": "P05",
+   "name": "3 Kilcummin / 3 David Noonan"
+  },
+  {
+   "P": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard"
+  },
+  {
+   "P": "P09",
+   "name": "5 Makanao / 5 Jack Tudor"
+  },
+  {
+   "P": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan"
+  },
+  {
+   "P": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan"
+  }
+ ],
+ "table": {
+  "strict": {
+   "1": {
+    "P09": 3,
+    "P11": 1,
+    "P13": 2
+   },
+   "2": {
+    "P01": 1,
+    "P03": 1,
+    "P09": 3,
+    "P11": 2
+   },
+   "3": {},
+   "4": {
+    "P05": 1
+   },
+   "5": {
+    "P01": 3,
+    "P05": 6,
+    "P07": 2,
+    "P11": 1,
+    "P13": 3
+   },
+   "6": {
+    "P05": 2,
+    "P13": 1
+   },
+   "7": {
+    "P01": 1,
+    "P03": 1,
+    "P07": 1
+   },
+   "8": {
+    "P01": 1,
+    "P03": 1,
+    "P09": 2,
+    "P13": 2
+   },
+   "9": {},
+   "10": {
+    "P01": 65,
+    "P03": 22,
+    "P05": 17,
+    "P07": 42,
+    "P09": 2,
+    "P11": 21,
+    "P13": 19
+   },
+   "11": {
+    "P01": 1,
+    "P03": 5,
+    "P05": 3,
+    "P07": 1,
+    "P11": 2,
+    "P13": 2
+   },
+   "12": {
+    "P03": 1,
+    "P07": 1
+   },
+   "1m": {},
+   "12m": {
+    "P03": 1,
+    "P07": 3
+   }
+  },
+  "broad": {
+   "1": {
+    "P01": 13,
+    "P03": 19,
+    "P05": 12,
+    "P07": 17,
+    "P09": 19,
+    "P11": 14,
+    "P13": 17
+   },
+   "2": {
+    "P01": 5,
+    "P03": 4,
+    "P05": 4,
+    "P07": 6,
+    "P09": 9,
+    "P11": 5,
+    "P13": 5
+   },
+   "3": {
+    "P01": 1,
+    "P09": 1,
+    "P11": 1
+   },
+   "4": {
+    "P01": 1,
+    "P05": 1,
+    "P07": 1
+   },
+   "5": {
+    "P01": 5,
+    "P05": 7,
+    "P07": 6,
+    "P11": 2,
+    "P13": 6
+   },
+   "6": {
+    "P05": 2,
+    "P11": 1,
+    "P13": 1
+   },
+   "7": {
+    "P01": 3,
+    "P03": 4,
+    "P07": 2,
+    "P09": 1,
+    "P11": 2,
+    "P13": 2
+   },
+   "8": {
+    "P01": 1,
+    "P03": 1,
+    "P05": 1,
+    "P09": 2,
+    "P11": 1,
+    "P13": 2
+   },
+   "9": {},
+   "10": {
+    "P01": 65,
+    "P03": 22,
+    "P05": 17,
+    "P07": 42,
+    "P09": 2,
+    "P11": 21,
+    "P13": 19
+   },
+   "11": {
+    "P01": 1,
+    "P03": 5,
+    "P05": 3,
+    "P07": 1,
+    "P11": 2,
+    "P13": 2
+   },
+   "12": {
+    "P01": 1,
+    "P03": 3,
+    "P05": 1,
+    "P07": 4,
+    "P09": 4,
+    "P11": 2,
+    "P13": 1
+   },
+   "1m": {
+    "P03": 3,
+    "P05": 1,
+    "P07": 2,
+    "P11": 1,
+    "P13": 4
+   },
+   "12m": {
+    "P01": 1,
+    "P03": 3,
+    "P05": 1,
+    "P07": 4,
+    "P09": 4,
+    "P11": 2,
+    "P13": 1
+   }
+  }
+ },
+ "tightest": {
+  "1": {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "tightness": "RA 121.1690 Dec 0.0071",
+   "key": "horse Makemake \u2013 jockey Mars"
+  },
+  "2": {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "tightness": "RA 130.9608 Dec 0.0153",
+   "key": "horse Transpluto \u2013 jockey Pallas"
+  },
+  "3": {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "tightness": "RA 28.4259 Dec 0.3032",
+   "key": "horse Mars \u2013 jockey Node"
+  },
+  "4": {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "tightness": "RA 2.9199 Dec 0.0402",
+   "key": "horse Saturn \u2013 jockey Neptune"
+  },
+  "5": {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "tightness": "RA 49.4372 Dec 0.0290",
+   "key": "moved H Orcus"
+  },
+  "6": {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "tightness": "RA 3.9285 Dec 0.0615",
+   "key": "swap Rahu/Sun"
+  },
+  "7": {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "tightness": "",
+   "key": "triangle Jupiter/Mars/Node"
+  },
+  "8": {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "tightness": "",
+   "key": "number 75"
+  },
+  "10": {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "tightness": "split error 0.0004%",
+   "key": "J Gonggong -> J Ceres"
+  },
+  "11": {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "tightness": "worst 0.0054%",
+   "key": "same body Mercury"
+  },
+  "12": {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "tightness": "Dec 33.88897 = 305/9",
+   "key": "H Node\u2013Transpluto"
+  }
+ },
+ "only": {
+  "P01": {
+   "strict": [],
+   "broad": [],
+   "with_one_other_strict": []
+  },
+  "P03": {
+   "strict": [],
+   "broad": [],
+   "with_one_other_strict": [
+    "12",
+    "12m"
+   ]
+  },
+  "P05": {
+   "strict": [
+    "4"
+   ],
+   "broad": [],
+   "with_one_other_strict": [
+    "6"
+   ]
+  },
+  "P07": {
+   "strict": [],
+   "broad": [],
+   "with_one_other_strict": [
+    "12",
+    "12m"
+   ]
+  },
+  "P09": {
+   "strict": [],
+   "broad": [],
+   "with_one_other_strict": []
+  },
+  "P11": {
+   "strict": [],
+   "broad": [],
+   "with_one_other_strict": []
+  },
+  "P13": {
+   "strict": [],
+   "broad": [],
+   "with_one_other_strict": [
+    "6"
+   ]
+  }
+ },
+ "strong_hubs": {
+  "J Pallas": [
+   "P03"
+  ],
+  "H Transpluto": [
+   "P03",
+   "P07"
+  ],
+  "J Mercury": [
+   "P03",
+   "P09"
+  ],
+  "J Vesta": [
+   "P03",
+   "P09"
+  ],
+  "H Gonggong": [
+   "P03"
+  ],
+  "H Juno": [
+   "P05"
+  ],
+  "J Venus": [
+   "P07",
+   "P09"
+  ],
+  "J Transpluto": [
+   "P07"
+  ],
+  "J Uranus": [
+   "P11"
+  ],
+  "J Chiron": [
+   "P11"
+  ],
+  "H Eris": [
+   "P13"
+  ]
+ },
+ "same_across_field": [
+  {
+   "shape": 1,
+   "key": "horse Sun \u2013 jockey Sedna",
+   "runners": [
+    {
+     "runner": "P01",
+     "tightness": "RA 1.6400 Dec 11.8991",
+     "strict": false
+    },
+    {
+     "runner": "P11",
+     "tightness": "RA 1.6006 Dec 11.6733",
+     "strict": false
+    }
+   ]
+  },
+  {
+   "shape": 1,
+   "key": "horse Chiron \u2013 jockey Sedna",
+   "runners": [
+    {
+     "runner": "P01",
+     "tightness": "RA 42.3659 Dec 0.1068",
+     "strict": false
+    },
+    {
+     "runner": "P03",
+     "tightness": "RA 37.4711 Dec 0.5130",
+     "strict": false
+    }
+   ]
+  },
+  {
+   "shape": 1,
+   "key": "horse Juno \u2013 jockey Sedna",
+   "runners": [
+    {
+     "runner": "P01",
+     "tightness": "RA 141.1184 Dec 0.1215",
+     "strict": false
+    },
+    {
+     "runner": "P13",
+     "tightness": "RA 142.6323 Dec 0.0490",
+     "strict": false
+    }
+   ]
+  },
+  {
+   "shape": 1,
+   "key": "horse Node \u2013 jockey Node",
+   "runners": [
+    {
+     "runner": "P01",
+     "tightness": "RA 4.0353 Dec 0.0320",
+     "strict": false
+    },
+    {
+     "runner": "P09",
+     "tightness": "RA 18.6384 Dec 0.4248",
+     "strict": false
+    }
+   ]
+  },
+  {
+   "shape": 1,
+   "key": "horse Node \u2013 jockey Mars",
+   "runners": [
+    {
+     "runner": "P01",
+     "tightness": "RA 1.6710 Dec 3.3956",
+     "strict": false
+    },
+    {
+     "runner": "P09",
+     "tightness": "RA 19.5308 Dec 0.3785",
+     "strict": false
+    }
+   ]
+  },
+  {
+   "shape": 1,
+   "key": "horse Makemake \u2013 jockey Haumea",
+   "runners": [
+    {
+     "runner": "P01",
+     "tightness": "RA 1.0793 Dec 3.5154",
+     "strict": false
+    },
+    {
+     "runner": "P03",
+     "tightness": "RA 14.1086 Dec 0.0448",
+     "strict": false
+    },
+    {
+     "runner": "P09",
+     "tightness": "RA 0.7241 Dec 2.4538",
+     "strict": false
+    },
+    {
+     "runner": "P13",
+     "tightness": "RA 1.4575 Dec 2.2577",
+     "strict": false
+    }
+   ]
+  },
+  {
+   "shape": 1,
+   "key": "horse Quaoar \u2013 jockey Quaoar",
+   "runners": [
+    {
+     "runner": "P01",
+     "tightness": "RA 26.9735 Dec 0.4997",
+     "strict": false
+    },
+    {
+     "runner": "P09",
+     "tightness": "RA 24.3417 Dec 0.5334",
+     "strict": false
+    }
+   ]
+  },
+  {
+   "shape": 1,
+   "key": "horse Mercury \u2013 jockey Vesta",
+   "runners": [
+    {
+     "runner": "P03",
+     "tightness": "RA 130.9873 Dec 0.5958",
+     "strict": false
+    },
+    {
+     "runner": "P13",
+     "tightness": "RA 104.2065 Dec 0.3932",
+     "strict": false
+    }
+   ]
+  },
+  {
+   "shape": 1,
+   "key": "horse Pluto \u2013 jockey Neptune",
+   "runners": [
+    {
+     "runner": "P03",
+     "tightness": "RA 22.6891 Dec 0.2163",
+     "strict": false
+    },
+    {
+     "runner": "P05",
+     "tightness": "RA 0.7663 Dec 1.1283",
+     "strict": false
+    },
+    {
+     "runner": "P11",
+     "tightness": "RA 15.8186 Dec 0.0953",
+     "strict": true
+    }
+   ]
+  },
+  {
+   "shape": 1,
+   "key": "horse Node \u2013 jockey Haumea",
+   "runners": [
+    {
+     "runner": "P03",
+     "tightness": "RA 85.8926 Dec 0.2327",
+     "strict": false
+    },
+    {
+     "runner": "P11",
+     "tightness": "RA 96.1645 Dec 0.5642",
+     "strict": false
+    }
+   ]
+  },
+  {
+   "shape": 1,
+   "key": "horse Node \u2013 jockey Uranus",
+   "runners": [
+    {
+     "runner": "P03",
+     "tightness": "RA 21.6034 Dec 0.4304",
+     "strict": false
+    },
+    {
+     "runner": "P11",
+     "tightness": "RA 2.0985 Dec 0.2646",
+     "strict": false
+    }
+   ]
+  },
+  {
+   "shape": 11,
+   "key": "same body Transpluto",
+   "runners": [
+    {
+     "runner": "P03",
+     "tightness": "worst 0.0281%",
+     "strict": true
+    },
+    {
+     "runner": "P07",
+     "tightness": "worst 0.0630%",
+     "strict": true
+    }
+   ]
+  },
+  {
+   "shape": 1,
+   "key": "horse Saturn \u2013 jockey Neptune",
+   "runners": [
+    {
+     "runner": "P05",
+     "tightness": "RA 2.9199 Dec 0.0402",
+     "strict": false
+    },
+    {
+     "runner": "P07",
+     "tightness": "RA 1.1050 Dec 0.6123",
+     "strict": false
+    }
+   ]
+  },
+  {
+   "shape": 1,
+   "key": "horse Vesta \u2013 jockey Sedna",
+   "runners": [
+    {
+     "runner": "P05",
+     "tightness": "RA 0.5453 Dec 7.9597",
+     "strict": false
+    },
+    {
+     "runner": "P07",
+     "tightness": "RA 1.0268 Dec 8.4248",
+     "strict": false
+    }
+   ]
+  },
+  {
+   "shape": 1,
+   "key": "horse Eris \u2013 jockey Pallas",
+   "runners": [
+    {
+     "runner": "P05",
+     "tightness": "RA 144.0581 Dec 0.4787",
+     "strict": false
+    },
+    {
+     "runner": "P13",
+     "tightness": "RA 33.9505 Dec 0.2009",
+     "strict": false
+    }
+   ]
+  },
+  {
+   "shape": 11,
+   "key": "same body Juno",
+   "runners": [
+    {
+     "runner": "P05",
+     "tightness": "worst 0.0382%",
+     "strict": true
+    },
+    {
+     "runner": "P13",
+     "tightness": "worst 0.1095%",
+     "strict": true
+    }
+   ]
+  },
+  {
+   "shape": 1,
+   "key": "horse Eris \u2013 jockey Eris",
+   "runners": [
+    {
+     "runner": "P07",
+     "tightness": "RA 1.9835 Dec 5.6382",
+     "strict": false
+    },
+    {
+     "runner": "P09",
+     "tightness": "RA 1.6627 Dec 4.3131",
+     "strict": false
+    }
+   ]
+  },
+  {
+   "shape": 1,
+   "key": "horse Node \u2013 jockey Jupiter",
+   "runners": [
+    {
+     "runner": "P09",
+     "tightness": "RA 7.6837 Dec 0.2436",
+     "strict": false
+    },
+    {
+     "runner": "P11",
+     "tightness": "RA 2.9552 Dec 0.3479",
+     "strict": false
+    }
+   ]
+  },
+  {
+   "shape": 1,
+   "key": "horse Node \u2013 jockey Vesta",
+   "runners": [
+    {
+     "runner": "P09",
+     "tightness": "RA 7.8604 Dec 0.0372",
+     "strict": false
+    },
+    {
+     "runner": "P11",
+     "tightness": "RA 1.6147 Dec 1.1068",
+     "strict": false
+    }
+   ]
+  },
+  {
+   "shape": 1,
+   "key": "horse Makemake \u2013 jockey Mercury",
+   "runners": [
+    {
+     "runner": "P09",
+     "tightness": "RA 131.2023 Dec 0.2900",
+     "strict": true
+    },
+    {
+     "runner": "P13",
+     "tightness": "RA 86.4678 Dec 0.0175",
+     "strict": false
+    }
+   ]
+  }
+ ],
+ "annotations": {
+  "recurring pair Neptune\u2013Node": [
+   "P01",
+   "P03",
+   "P05",
+   "P07",
+   "P09"
+  ],
+  "recurring pair Haumea\u2013Node": [
+   "P01",
+   "P13"
+  ],
+  "recurring cross link horse Makemake \u2013 jockey Haumea": [
+   "P01",
+   "P03",
+   "P05",
+   "P09",
+   "P13"
+  ],
+  "recurring pair Ketu\u2013Haumea": [
+   "P01",
+   "P13"
+  ],
+  "recurring pair Neptune\u2013Vesta": [
+   "P03",
+   "P07"
+  ],
+  "recurring cross link horse Pluto \u2013 jockey Neptune": [
+   "P03",
+   "P05",
+   "P11"
+  ],
+  "recurring pair Vesta\u2013Neptune": [
+   "P03"
+  ],
+  "recurring pair Node\u2013Haumea": [
+   "P03",
+   "P07",
+   "P09",
+   "P11"
+  ],
+  "recurring pair Rahu\u2013Haumea": [
+   "P03"
+  ],
+  "recurring pair Saturn\u2013Neptune": [
+   "P05",
+   "P07",
+   "P11"
+  ],
+  "recurring pair Neptune\u2013Saturn": [
+   "P05"
+  ],
+  "recurring pair Chiron\u2013Transpluto": [
+   "P07"
+  ],
+  "recurring pair Venus\u2013Uranus": [
+   "P09"
+  ],
+  "recurring pair Jupiter\u2013Vesta": [
+   "P09"
+  ],
+  "recurring pair Pallas\u2013Juno": [
+   "P09"
+  ],
+  "recurring pair Juno\u2013Pallas": [
+   "P09"
+  ],
+  "recurring pair Neptune\u2013Ketu": [
+   "P13"
+  ]
+ },
+ "instances": [
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.0933,
+   "tightness": "RA 1.6400 Dec 11.8991",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Sun \u2013 jockey Sedna",
+   "sky_bodies": [
+    "Uranus"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Sun",
+    "J Sedna"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.3559,
+   "tightness": "RA 42.3659 Dec 0.1068",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Chiron \u2013 jockey Sedna",
+   "sky_bodies": [
+    "Makemake"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Chiron",
+    "J Sedna"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.8768,
+   "tightness": "RA 76.4339 Dec 0.5630",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Ceres \u2013 jockey Chiron",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Ceres",
+    "J Chiron"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.3284,
+   "tightness": "RA 1.9926 Dec 12.0300",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Juno \u2013 jockey Mercury",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Juno",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.405,
+   "tightness": "RA 141.1184 Dec 0.1215",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Juno \u2013 jockey Sedna",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Juno",
+    "J Sedna"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.1066,
+   "tightness": "RA 4.0353 Dec 0.0320",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Node \u2013 jockey Node",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Rahu",
+    "J Rahu"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 2,
+   "strict": true,
+   "tight_value": 0.1066,
+   "tightness": "RA 4.0353 Dec 0.0320",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Node \u2013 jockey Node",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "J Rahu"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 5,
+   "strict": true,
+   "tight_value": 0.1066,
+   "tightness": "RA 4.0353 Dec 0.0320",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Node",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.114,
+   "tightness": "RA 1.6710 Dec 3.3956",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Node \u2013 jockey Mars",
+   "sky_bodies": [
+    "Haumea"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Ketu",
+    "J Mars"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 3,
+   "strict": false,
+   "tight_value": 1.114,
+   "tightness": "RA 1.6710 Dec 3.3956",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Node \u2013 jockey Mars",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "J Mars"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 4,
+   "strict": false,
+   "tight_value": 1.114,
+   "tightness": "RA 1.6710 Dec 3.3956",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Node \u2013 jockey Mars",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "J Mars"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 5,
+   "strict": false,
+   "tight_value": 1.114,
+   "tightness": "RA 1.6710 Dec 3.3956",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Node",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 5,
+   "strict": false,
+   "tight_value": 1.114,
+   "tightness": "RA 1.6710 Dec 3.3956",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved J Mars",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Mars"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.536,
+   "tightness": "RA 74.9304 Dec 0.4608",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Haumea \u2013 jockey Venus",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Haumea",
+    "J Venus"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.7195,
+   "tightness": "RA 1.0793 Dec 3.5154",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Makemake \u2013 jockey Haumea",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Makemake",
+    "J Haumea"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 0.7195,
+   "tightness": "RA 1.0793 Dec 3.5154",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Makemake \u2013 jockey Haumea",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Makemake",
+    "J Haumea"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 5,
+   "strict": true,
+   "tight_value": 0.7195,
+   "tightness": "RA 1.0793 Dec 3.5154",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved J Haumea",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.1745,
+   "tightness": "RA 50.1488 Dec 0.3523",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Quaoar \u2013 jockey Uranus",
+   "sky_bodies": [
+    "Quaoar"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Quaoar",
+    "J Uranus"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.1745,
+   "tightness": "RA 50.1488 Dec 0.3523",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Quaoar \u2013 jockey Uranus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Quaoar",
+    "J Uranus"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.6479,
+   "tightness": "RA 0.9718 Dec 8.1124",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Quaoar \u2013 jockey Node",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Quaoar",
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.6656,
+   "tightness": "RA 26.9735 Dec 0.4997",
+   "roots_behind": 10,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Quaoar \u2013 jockey Quaoar",
+   "sky_bodies": [
+    "Quaoar"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Quaoar",
+    "J Quaoar"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.6656,
+   "tightness": "RA 26.9735 Dec 0.4997",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Quaoar \u2013 jockey Quaoar",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Quaoar",
+    "J Quaoar"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.4996,
+   "tightness": "RA 37.4272 Dec 0.1499",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Transpluto \u2013 jockey Juno",
+   "sky_bodies": [
+    "Transpluto"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Transpluto",
+    "J Juno"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 0.4996,
+   "tightness": "RA 37.4272 Dec 0.1499",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Transpluto \u2013 jockey Juno",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Transpluto",
+    "J Juno"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 5,
+   "strict": true,
+   "tight_value": 0.4996,
+   "tightness": "RA 37.4272 Dec 0.1499",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Transpluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Transpluto"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 7,
+   "strict": false,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "triangle Jupiter/Mars/Node",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Jupiter",
+    "H Ketu",
+    "J Mars"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 7,
+   "strict": true,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": false,
+   "key": "triangle Makemake/Neptune/Node",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Makemake",
+    "H Neptune",
+    "J Rahu"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 7,
+   "strict": false,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "triangle Quaoar/Quaoar/Uranus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Quaoar",
+    "J Quaoar",
+    "J Uranus"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 8,
+   "strict": true,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 2,
+   "hub": false,
+   "strong_hub": false,
+   "key": "number 75",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": []
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.22,
+   "tightness": "split error 0.0550%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Mercury -> H Haumea",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Mercury",
+    "H Haumea"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.0024,
+   "tightness": "split error 0.0006%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> H Eris",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "H Eris"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.2608,
+   "tightness": "split error 0.0652%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> J Juno",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "J Juno"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9452,
+   "tightness": "split error 0.2363%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> H Uranus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "H Uranus"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.5468,
+   "tightness": "split error 0.1367%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> H Chiron",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "H Chiron"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.6748,
+   "tightness": "split error 0.1687%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> H Juno",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "H Juno"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.7992,
+   "tightness": "split error 0.1998%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> H Rahu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "H Rahu"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.4056,
+   "tightness": "split error 0.1014%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> H Eris",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "H Eris"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.372,
+   "tightness": "split error 0.0930%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> H Transpluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "H Transpluto"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.6936,
+   "tightness": "split error 0.1734%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> J Pallas",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "J Pallas"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.5984,
+   "tightness": "split error 0.1496%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> J Juno",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "J Juno"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.472,
+   "tightness": "split error 0.1180%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> J Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.3684,
+   "tightness": "split error 0.0921%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> J Sedna",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "J Sedna"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.0024,
+   "tightness": "split error 0.0006%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> J Makemake",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "J Makemake"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9364,
+   "tightness": "split error 0.2341%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Rahu -> H Saturn",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "H Saturn"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.8044,
+   "tightness": "split error 0.2011%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Rahu -> H Chiron",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "H Chiron"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.3108,
+   "tightness": "split error 0.0777%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Rahu -> H Juno",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "H Juno"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9424,
+   "tightness": "split error 0.2356%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Rahu -> H Quaoar",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "H Quaoar"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.5764,
+   "tightness": "split error 0.1441%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Rahu -> H Orcus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "H Orcus"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.972,
+   "tightness": "split error 0.2430%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Rahu -> J Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9048,
+   "tightness": "split error 0.2262%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Rahu -> J Mars",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "J Mars"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.458,
+   "tightness": "split error 0.1145%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Rahu -> J Ketu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.0516,
+   "tightness": "split error 0.0129%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Rahu -> J Sedna",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "J Sedna"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.1848,
+   "tightness": "split error 0.0462%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Rahu -> J Quaoar",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "J Quaoar"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.0232,
+   "tightness": "split error 0.0058%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Rahu -> J Orcus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "J Orcus"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.4856,
+   "tightness": "split error 0.1214%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Ketu -> H Venus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "H Venus"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.5876,
+   "tightness": "split error 0.1469%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Ketu -> H Pallas",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "H Pallas"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.0768,
+   "tightness": "split error 0.0192%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Ketu -> H Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "H Vesta"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.3972,
+   "tightness": "split error 0.0993%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Ketu -> J Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.4272,
+   "tightness": "split error 0.1068%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Ketu -> J Jupiter",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "J Jupiter"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.8928,
+   "tightness": "split error 0.2232%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Ketu -> J Pallas",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "J Pallas"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.458,
+   "tightness": "split error 0.1145%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Ketu -> J Rahu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "J Rahu"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.694,
+   "tightness": "split error 0.1735%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Ketu -> J Haumea",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "J Haumea"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.4312,
+   "tightness": "split error 0.1078%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Ketu -> J Orcus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "J Orcus"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.904,
+   "tightness": "split error 0.2260%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Ketu -> J Transpluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "J Transpluto"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.8896,
+   "tightness": "split error 0.2224%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Pallas -> H Mars",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Pallas",
+    "H Mars"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.5116,
+   "tightness": "split error 0.1279%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Pallas -> H Jupiter",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Pallas",
+    "H Jupiter"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9456,
+   "tightness": "split error 0.2364%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Pallas -> H Pluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Pallas",
+    "H Pluto"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.1584,
+   "tightness": "split error 0.0396%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Pallas -> H Ceres",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Pallas",
+    "H Ceres"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.1592,
+   "tightness": "split error 0.0398%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Pallas -> H Ketu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Pallas",
+    "H Ketu"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9316,
+   "tightness": "split error 0.2329%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Pallas -> J Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Pallas",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.3,
+   "tightness": "split error 0.0750%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Pallas -> J Neptune",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Pallas",
+    "J Neptune"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.6712,
+   "tightness": "split error 0.1678%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Pallas -> J Chiron",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Pallas",
+    "J Chiron"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.7512,
+   "tightness": "split error 0.1878%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Pallas -> J Ceres",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Pallas",
+    "J Ceres"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.6404,
+   "tightness": "split error 0.1601%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Pallas -> J Ketu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Pallas",
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.7676,
+   "tightness": "split error 0.1919%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Pallas -> J Eris",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Pallas",
+    "J Eris"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.5156,
+   "tightness": "split error 0.1289%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Pallas -> J Quaoar",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Pallas",
+    "J Quaoar"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.6396,
+   "tightness": "split error 0.1599%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> H Saturn",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "H Saturn"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.6672,
+   "tightness": "split error 0.1668%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> H Pluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "H Pluto"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.8148,
+   "tightness": "split error 0.2037%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> H Ceres",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "H Ceres"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.3364,
+   "tightness": "split error 0.0841%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> H Pallas",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "H Pallas"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.814,
+   "tightness": "split error 0.2035%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> H Ketu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "H Ketu"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.1916,
+   "tightness": "split error 0.0479%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> H Gonggong",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "H Gonggong"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.2252,
+   "tightness": "split error 0.0563%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> J Pluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "J Pluto"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.7836,
+   "tightness": "split error 0.1959%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> J Chiron",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "J Chiron"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.2976,
+   "tightness": "split error 0.0744%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> J Ceres",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "J Ceres"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.214,
+   "tightness": "split error 0.0535%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> J Pallas",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "J Pallas"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.4984,
+   "tightness": "split error 0.1246%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> J Ketu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.4076,
+   "tightness": "split error 0.1019%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Haumea -> J Quaoar",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Haumea",
+    "J Quaoar"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.5316,
+   "tightness": "split error 0.1329%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Transpluto -> H Juno",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Transpluto",
+    "H Juno"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9688,
+   "tightness": "split error 0.2422%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Transpluto -> H Haumea",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Transpluto",
+    "H Haumea"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.69,
+   "tightness": "split error 0.1725%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Transpluto -> J Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Transpluto",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.548,
+   "tightness": "split error 0.1370%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Transpluto -> J Mars",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Transpluto",
+    "J Mars"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.0372,
+   "tightness": "split error 0.0093%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Transpluto -> J Pallas",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Transpluto",
+    "J Pallas"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.422,
+   "tightness": "split error 0.1055%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Transpluto -> J Haumea",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Transpluto",
+    "J Haumea"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 11,
+   "strict": true,
+   "tight_value": 0.278,
+   "tightness": "worst 0.0417%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "same body Sun",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Sun",
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P01",
+   "name": "1 Biscoff Joe / 1 Gearoid Harney",
+   "shape": 12,
+   "strict": false,
+   "tight_value": 0.062,
+   "tightness": "Flat 29.77747 = 268/9",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Jupiter\u2013Node",
+   "sky_bodies": [
+    "Haumea",
+    "Pluto"
+   ],
+   "strict_multi": false,
+   "multi": null,
+   "bodies": [
+    "H Jupiter",
+    "H Ketu"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.2623,
+   "tightness": "RA 149.7750 Dec 0.3787",
+   "roots_behind": 13,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Mercury \u2013 jockey Juno",
+   "sky_bodies": [
+    "Quaoar",
+    "Sun"
+   ],
+   "strict_multi": false,
+   "multi": true,
+   "bodies": [
+    "H Mercury",
+    "J Juno"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.2623,
+   "tightness": "RA 149.7750 Dec 0.3787",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Mercury \u2013 jockey Juno",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Mercury",
+    "J Juno"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.986,
+   "tightness": "RA 130.9873 Dec 0.5958",
+   "roots_behind": 10,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Mercury \u2013 jockey Vesta",
+   "sky_bodies": [
+    "Sun"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Mercury",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.1816,
+   "tightness": "RA 1.7725 Dec 1.3690",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Mars \u2013 jockey Neptune",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Mars",
+    "J Neptune"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.3119,
+   "tightness": "RA 12.9162 Dec 0.3936",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Jupiter \u2013 jockey Mercury",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Jupiter",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.6203,
+   "tightness": "RA 32.4987 Dec 0.4861",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Jupiter \u2013 jockey Uranus",
+   "sky_bodies": [
+    "Orcus"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Jupiter",
+    "J Uranus"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.134,
+   "tightness": "RA 15.5007 Dec 0.0402",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Jupiter \u2013 jockey Neptune",
+   "sky_bodies": [
+    "Ceres"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Jupiter",
+    "J Neptune"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.4025,
+   "tightness": "RA 2.2431 Dec 0.1208",
+   "roots_behind": 8,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Saturn \u2013 jockey Jupiter",
+   "sky_bodies": [
+    "Pluto"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Saturn",
+    "J Jupiter"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.4568,
+   "tightness": "RA 5.7278 Dec 0.1371",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Pluto \u2013 jockey Mercury",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Pluto",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 0.4568,
+   "tightness": "RA 5.7278 Dec 0.1371",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Pluto \u2013 jockey Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Pluto",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.7211,
+   "tightness": "RA 22.6891 Dec 0.2163",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Pluto \u2013 jockey Neptune",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Pluto",
+    "J Neptune"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 2,
+   "strict": true,
+   "tight_value": 0.7211,
+   "tightness": "RA 22.6891 Dec 0.2163",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Pluto \u2013 jockey Neptune",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Pluto",
+    "J Neptune"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.4661,
+   "tightness": "RA 32.1617 Dec 0.4398",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Pluto \u2013 jockey Gonggong",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Pluto",
+    "J Gonggong"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.71,
+   "tightness": "RA 37.4711 Dec 0.5130",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Chiron \u2013 jockey Sedna",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Chiron",
+    "J Sedna"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.6748,
+   "tightness": "RA 155.3740 Dec 0.5024",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Pallas \u2013 jockey Orcus",
+   "sky_bodies": [
+    "Chiron",
+    "Juno"
+   ],
+   "strict_multi": false,
+   "multi": true,
+   "bodies": [
+    "H Pallas",
+    "J Orcus"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.6748,
+   "tightness": "RA 155.3740 Dec 0.5024",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Pallas \u2013 jockey Orcus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Pallas",
+    "J Orcus"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.4777,
+   "tightness": "RA 8.3077 Dec 0.1433",
+   "roots_behind": 10,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Juno \u2013 jockey Juno",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Juno",
+    "J Juno"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.2459,
+   "tightness": "RA 10.4800 Dec 0.0738",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Juno \u2013 jockey Vesta",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Juno",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.7756,
+   "tightness": "RA 85.8926 Dec 0.2327",
+   "roots_behind": 11,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Node \u2013 jockey Haumea",
+   "sky_bodies": [
+    "Juno"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Rahu",
+    "J Haumea"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.4348,
+   "tightness": "RA 21.6034 Dec 0.4304",
+   "roots_behind": 14,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Node \u2013 jockey Uranus",
+   "sky_bodies": [
+    "Orcus",
+    "Pluto"
+   ],
+   "strict_multi": false,
+   "multi": true,
+   "bodies": [
+    "H Ketu",
+    "J Uranus"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.1494,
+   "tightness": "RA 14.1086 Dec 0.0448",
+   "roots_behind": 8,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Makemake \u2013 jockey Haumea",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Makemake",
+    "J Haumea"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.7823,
+   "tightness": "RA 1.1734 Dec 6.7594",
+   "roots_behind": 4,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Quaoar \u2013 jockey Neptune",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Quaoar",
+    "J Neptune"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.2611,
+   "tightness": "RA 133.7887 Dec 0.3783",
+   "roots_behind": 9,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Orcus \u2013 jockey Eris",
+   "sky_bodies": [
+    "Gonggong"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Orcus",
+    "J Eris"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 7,
+   "strict": true,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": false,
+   "key": "triangle Chiron/Neptune/Node",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Chiron",
+    "H Neptune",
+    "H Rahu"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 7,
+   "strict": false,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 4,
+   "hub": true,
+   "strong_hub": true,
+   "key": "triangle Gonggong/Makemake/Saturn",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Gonggong",
+    "H Makemake",
+    "J Saturn"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 7,
+   "strict": false,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": true,
+   "key": "triangle Juno/Mercury/Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Mercury",
+    "J Juno",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 7,
+   "strict": false,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "triangle Ceres/Mars/Node",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ceres",
+    "H Ketu",
+    "H Mars"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 8,
+   "strict": true,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 2,
+   "hub": false,
+   "strong_hub": false,
+   "key": "number 9",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": []
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.4076,
+   "tightness": "split error 0.1019%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Eris -> H Chiron",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Eris",
+    "H Chiron"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.6592,
+   "tightness": "split error 0.1648%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Eris -> H Rahu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Eris",
+    "H Rahu"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9864,
+   "tightness": "split error 0.2466%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Eris -> J Pluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Eris",
+    "J Pluto"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.5644,
+   "tightness": "split error 0.1411%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Eris -> J Orcus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Eris",
+    "J Orcus"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.0372,
+   "tightness": "split error 0.0093%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "H Gonggong -> H Chiron",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Gonggong",
+    "H Chiron"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9972,
+   "tightness": "split error 0.2493%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "H Gonggong -> H Transpluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Gonggong",
+    "H Transpluto"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.4584,
+   "tightness": "split error 0.1146%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "H Gonggong -> J Juno",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Gonggong",
+    "J Juno"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9,
+   "tightness": "split error 0.2250%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> H Venus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Venus"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.0368,
+   "tightness": "split error 0.0092%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> H Uranus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Uranus"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.724,
+   "tightness": "split error 0.1810%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> H Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Vesta"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9704,
+   "tightness": "split error 0.2426%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> H Rahu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Rahu"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.312,
+   "tightness": "split error 0.0780%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> H Eris",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Eris"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.3404,
+   "tightness": "split error 0.0851%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> H Haumea",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Haumea"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.2048,
+   "tightness": "split error 0.0512%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> H Makemake",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Makemake"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.3224,
+   "tightness": "split error 0.0806%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "J Sun -> H Transpluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Transpluto"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.906,
+   "tightness": "split error 0.2265%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> J Venus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "J Venus"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9328,
+   "tightness": "split error 0.2332%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> J Pluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "J Pluto"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.2304,
+   "tightness": "split error 0.0576%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> J Ceres",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "J Ceres"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9188,
+   "tightness": "split error 0.2297%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "J Sun -> J Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.0164,
+   "tightness": "split error 0.0041%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> J Haumea",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "J Haumea"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.8088,
+   "tightness": "split error 0.2022%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> J Makemake",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "J Makemake"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.892,
+   "tightness": "split error 0.2230%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> J Transpluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "J Transpluto"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 11,
+   "strict": true,
+   "tight_value": 0.036,
+   "tightness": "worst 0.0054%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "same body Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Mercury",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 11,
+   "strict": true,
+   "tight_value": 0.2847,
+   "tightness": "worst 0.0427%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "same body Pallas",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Pallas",
+    "J Pallas"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 11,
+   "strict": true,
+   "tight_value": 0.2507,
+   "tightness": "worst 0.0376%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "same body Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Vesta",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 11,
+   "strict": true,
+   "tight_value": 0.3827,
+   "tightness": "worst 0.0574%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "same body Makemake",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Makemake",
+    "J Makemake"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 11,
+   "strict": true,
+   "tight_value": 0.1873,
+   "tightness": "worst 0.0281%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "same body Transpluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Transpluto",
+    "J Transpluto"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 12,
+   "strict": false,
+   "tight_value": 0.232,
+   "tightness": "Flat 148.00116 = 148",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": true,
+   "key": "H Saturn\u2013Transpluto",
+   "sky_bodies": [
+    "Pluto",
+    "Venus"
+   ],
+   "strict_multi": false,
+   "multi": null,
+   "bodies": [
+    "H Saturn",
+    "H Transpluto"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 12,
+   "strict": true,
+   "tight_value": 0.05,
+   "tightness": "RA 95.88864 = 863/9",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Chiron\u2013Node",
+   "sky_bodies": [
+    "Juno",
+    "Mars"
+   ],
+   "strict_multi": true,
+   "multi": null,
+   "bodies": [
+    "H Chiron",
+    "H Rahu"
+   ]
+  },
+  {
+   "runner": "P03",
+   "name": "2 Cosmic View / 2 Jamie Moore",
+   "shape": 12,
+   "strict": false,
+   "tight_value": 0.408,
+   "tightness": "RA 45.00204 = 45",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Jupiter\u2013Uranus",
+   "sky_bodies": [
+    "Chiron",
+    "Pluto"
+   ],
+   "strict_multi": false,
+   "multi": null,
+   "bodies": [
+    "J Jupiter",
+    "J Uranus"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.8321,
+   "tightness": "RA 1.2482 Dec 0.3553",
+   "roots_behind": 10,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Saturn \u2013 jockey Uranus",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Saturn",
+    "J Uranus"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 5,
+   "strict": true,
+   "tight_value": 0.8321,
+   "tightness": "RA 1.2482 Dec 0.3553",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Saturn",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Saturn"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.134,
+   "tightness": "RA 2.9199 Dec 0.0402",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Saturn \u2013 jockey Neptune",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Saturn",
+    "J Neptune"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 4,
+   "strict": true,
+   "tight_value": 0.134,
+   "tightness": "RA 2.9199 Dec 0.0402",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Saturn \u2013 jockey Neptune",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Saturn",
+    "J Neptune"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 5,
+   "strict": true,
+   "tight_value": 0.134,
+   "tightness": "RA 2.9199 Dec 0.0402",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Saturn",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Saturn"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 5,
+   "strict": true,
+   "tight_value": 0.134,
+   "tightness": "RA 2.9199 Dec 0.0402",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved J Neptune",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Neptune"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.4158,
+   "tightness": "RA 45.7612 Dec 0.4248",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Pluto \u2013 jockey Jupiter",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Pluto",
+    "J Jupiter"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 5,
+   "strict": false,
+   "tight_value": 1.4158,
+   "tightness": "RA 45.7612 Dec 0.4248",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved J Jupiter",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Jupiter"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.5109,
+   "tightness": "RA 0.7663 Dec 1.1283",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Pluto \u2013 jockey Neptune",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Pluto",
+    "J Neptune"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 5,
+   "strict": true,
+   "tight_value": 0.5109,
+   "tightness": "RA 0.7663 Dec 1.1283",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved J Neptune",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Neptune"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.16,
+   "tightness": "RA 11.2713 Dec 0.3480",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Juno \u2013 jockey Sun",
+   "sky_bodies": [
+    "Sun"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Juno",
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.16,
+   "tightness": "RA 11.2713 Dec 0.3480",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Juno \u2013 jockey Sun",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Juno",
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.1253,
+   "tightness": "RA 0.1879 Dec 3.4023",
+   "roots_behind": 10,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Juno \u2013 jockey Venus",
+   "sky_bodies": [
+    "Node"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Juno",
+    "J Venus"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.3636,
+   "tightness": "RA 0.5453 Dec 7.9597",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Vesta \u2013 jockey Sedna",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Vesta",
+    "J Sedna"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 0.3636,
+   "tightness": "RA 0.5453 Dec 7.9597",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Vesta \u2013 jockey Sedna",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Vesta",
+    "J Sedna"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 5,
+   "strict": true,
+   "tight_value": 0.3636,
+   "tightness": "RA 0.5453 Dec 7.9597",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Vesta"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.5956,
+   "tightness": "RA 144.0581 Dec 0.4787",
+   "roots_behind": 8,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Eris \u2013 jockey Pallas",
+   "sky_bodies": [
+    "Eris"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Eris",
+    "J Pallas"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.5956,
+   "tightness": "RA 144.0581 Dec 0.4787",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Eris \u2013 jockey Pallas",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Eris",
+    "J Pallas"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.5916,
+   "tightness": "RA 0.8874 Dec 12.1833",
+   "roots_behind": 9,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Eris \u2013 jockey Node",
+   "sky_bodies": [
+    "Transpluto"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Eris",
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.9395,
+   "tightness": "RA 116.6426 Dec 0.2819",
+   "roots_behind": 4,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Sedna \u2013 jockey Vesta",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Sedna",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.1678,
+   "tightness": "RA 70.6796 Dec 0.0503",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Gonggong \u2013 jockey Juno",
+   "sky_bodies": [
+    "Orcus"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Gonggong",
+    "J Juno"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 5,
+   "strict": true,
+   "tight_value": 0.1678,
+   "tightness": "RA 70.6796 Dec 0.0503",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Gonggong",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Gonggong"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.3278,
+   "tightness": "RA 129.5349 Dec 0.3983",
+   "roots_behind": 11,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Transpluto \u2013 jockey Node",
+   "sky_bodies": [
+    "Transpluto",
+    "Venus"
+   ],
+   "strict_multi": false,
+   "multi": true,
+   "bodies": [
+    "H Transpluto",
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.3278,
+   "tightness": "RA 129.5349 Dec 0.3983",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Transpluto \u2013 jockey Node",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Transpluto",
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 6,
+   "strict": true,
+   "tight_value": 0.2986,
+   "tightness": "RA 3.2056 Dec 0.0896",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "swap Neptune/Saturn",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "J Saturn",
+    "H Saturn",
+    "J Neptune"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 6,
+   "strict": true,
+   "tight_value": 0.9395,
+   "tightness": "RA 116.6426 Dec 0.2819",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "swap Sedna/Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Sedna",
+    "J Vesta",
+    "H Vesta",
+    "J Sedna"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 8,
+   "strict": false,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 2,
+   "hub": false,
+   "strong_hub": false,
+   "key": "ratio 15/8",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": []
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.5608,
+   "tightness": "split error 0.1402%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Vesta -> H Makemake",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Vesta",
+    "H Makemake"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.4424,
+   "tightness": "split error 0.1106%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Vesta -> J Makemake",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Vesta",
+    "J Makemake"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.0552,
+   "tightness": "split error 0.0138%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Gonggong -> H Uranus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Gonggong",
+    "H Uranus"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.2676,
+   "tightness": "split error 0.0669%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "J Gonggong -> H Juno",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Gonggong",
+    "H Juno"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.5416,
+   "tightness": "split error 0.1354%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Gonggong -> H Rahu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Gonggong",
+    "H Rahu"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.0436,
+   "tightness": "split error 0.0109%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Gonggong -> H Haumea",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Gonggong",
+    "H Haumea"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.1216,
+   "tightness": "split error 0.0304%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Gonggong -> H Makemake",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Gonggong",
+    "H Makemake"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.5032,
+   "tightness": "split error 0.1258%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Gonggong -> H Transpluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Gonggong",
+    "H Transpluto"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.6568,
+   "tightness": "split error 0.1642%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Gonggong -> J Sun",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Gonggong",
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.2764,
+   "tightness": "split error 0.0691%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Gonggong -> J Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Gonggong",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.2728,
+   "tightness": "split error 0.0682%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Gonggong -> J Venus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Gonggong",
+    "J Venus"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.2864,
+   "tightness": "split error 0.0716%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Gonggong -> J Saturn",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Gonggong",
+    "J Saturn"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.0016,
+   "tightness": "split error 0.0004%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Gonggong -> J Ceres",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Gonggong",
+    "J Ceres"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.1548,
+   "tightness": "split error 0.0387%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Gonggong -> J Pallas",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Gonggong",
+    "J Pallas"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.0048,
+   "tightness": "split error 0.0012%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Gonggong -> J Ketu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Gonggong",
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.22,
+   "tightness": "split error 0.0550%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Gonggong -> J Makemake",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Gonggong",
+    "J Makemake"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.0564,
+   "tightness": "split error 0.0141%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Gonggong -> J Orcus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Gonggong",
+    "J Orcus"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 11,
+   "strict": true,
+   "tight_value": 0.3993,
+   "tightness": "worst 0.0599%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "same body Venus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Venus",
+    "J Venus"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 11,
+   "strict": true,
+   "tight_value": 0.2547,
+   "tightness": "worst 0.0382%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "same body Juno",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Juno",
+    "J Juno"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 11,
+   "strict": true,
+   "tight_value": 0.752,
+   "tightness": "worst 0.1128%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "same body Juno",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Juno",
+    "J Juno"
+   ]
+  },
+  {
+   "runner": "P05",
+   "name": "3 Kilcummin / 3 David Noonan",
+   "shape": 12,
+   "strict": false,
+   "tight_value": 0.016,
+   "tightness": "Dec 33.88897 = 305/9",
+   "roots_behind": 4,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Node\u2013Transpluto",
+   "sky_bodies": [
+    "Makemake",
+    "Pluto"
+   ],
+   "strict_multi": false,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "H Transpluto"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.4387,
+   "tightness": "RA 0.6581 Dec 18.8717",
+   "roots_behind": 4,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Mercury \u2013 jockey Ceres",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Mercury",
+    "J Ceres"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.7367,
+   "tightness": "RA 1.1050 Dec 0.6123",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Saturn \u2013 jockey Neptune",
+   "sky_bodies": [
+    "Pluto"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Saturn",
+    "J Neptune"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.2729,
+   "tightness": "RA 1.9094 Dec 10.3137",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Uranus \u2013 jockey Vesta",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Uranus",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 5,
+   "strict": false,
+   "tight_value": 1.2729,
+   "tightness": "RA 1.9094 Dec 10.3137",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Uranus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Uranus"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.2828,
+   "tightness": "RA 1.9242 Dec 1.9180",
+   "roots_behind": 4,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Neptune \u2013 jockey Node",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Neptune",
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 4,
+   "strict": false,
+   "tight_value": 1.2828,
+   "tightness": "RA 1.9242 Dec 1.9180",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Neptune \u2013 jockey Node",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 5,
+   "strict": false,
+   "tight_value": 1.2828,
+   "tightness": "RA 1.9242 Dec 1.9180",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Neptune",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 5,
+   "strict": false,
+   "tight_value": 1.2828,
+   "tightness": "RA 1.9242 Dec 1.9180",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved J Node",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.2058,
+   "tightness": "RA 169.0890 Dec 0.3618",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Chiron \u2013 jockey Node",
+   "sky_bodies": [
+    "Haumea"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Chiron",
+    "J Rahu"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.2058,
+   "tightness": "RA 169.0890 Dec 0.3618",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Chiron \u2013 jockey Node",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Chiron",
+    "J Rahu"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 5,
+   "strict": false,
+   "tight_value": 1.2058,
+   "tightness": "RA 169.0890 Dec 0.3618",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved J Node",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Rahu"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.8394,
+   "tightness": "RA 1.2591 Dec 4.2641",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Ceres \u2013 jockey Uranus",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Ceres",
+    "J Uranus"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.39,
+   "tightness": "RA 33.1332 Dec 0.4170",
+   "roots_behind": 4,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Ceres \u2013 jockey Ceres",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Ceres",
+    "J Ceres"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.3146,
+   "tightness": "RA 149.2670 Dec 0.0944",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Juno \u2013 jockey Node",
+   "sky_bodies": [
+    "Node"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Juno",
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 0.3146,
+   "tightness": "RA 149.2670 Dec 0.0944",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Juno \u2013 jockey Node",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Juno",
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 5,
+   "strict": true,
+   "tight_value": 0.3146,
+   "tightness": "RA 149.2670 Dec 0.0944",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved J Node",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.6846,
+   "tightness": "RA 1.0268 Dec 8.4248",
+   "roots_behind": 4,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Vesta \u2013 jockey Sedna",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Vesta",
+    "J Sedna"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.7048,
+   "tightness": "RA 99.8382 Dec 0.2114",
+   "roots_behind": 8,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Vesta \u2013 jockey Transpluto",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Vesta",
+    "J Transpluto"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.3223,
+   "tightness": "RA 1.9835 Dec 5.6382",
+   "roots_behind": 4,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Eris \u2013 jockey Eris",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Eris",
+    "J Eris"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.3223,
+   "tightness": "RA 1.9835 Dec 5.6382",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Eris \u2013 jockey Eris",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Eris",
+    "J Eris"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.2994,
+   "tightness": "RA 89.2028 Dec 0.0898",
+   "roots_behind": 10,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Sedna \u2013 jockey Juno",
+   "sky_bodies": [
+    "Chiron"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Sedna",
+    "J Juno"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 0.2994,
+   "tightness": "RA 89.2028 Dec 0.0898",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Sedna \u2013 jockey Juno",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Sedna",
+    "J Juno"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.1144,
+   "tightness": "RA 129.2203 Dec 0.0343",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Gonggong \u2013 jockey Venus",
+   "sky_bodies": [
+    "Orcus"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Gonggong",
+    "J Venus"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 5,
+   "strict": true,
+   "tight_value": 0.1144,
+   "tightness": "RA 129.2203 Dec 0.0343",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": true,
+   "key": "moved J Venus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Venus"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.3474,
+   "tightness": "RA 0.5211 Dec 20.8729",
+   "roots_behind": 9,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Orcus \u2013 jockey Mercury",
+   "sky_bodies": [
+    "Transpluto"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Orcus",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.1043,
+   "tightness": "RA 54.0505 Dec 0.0313",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Orcus \u2013 jockey Chiron",
+   "sky_bodies": [
+    "Gonggong"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Orcus",
+    "J Chiron"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.2362,
+   "tightness": "RA 0.3542 Dec 1.0334",
+   "roots_behind": 10,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Transpluto \u2013 jockey Mercury",
+   "sky_bodies": [
+    "Transpluto",
+    "Venus"
+   ],
+   "strict_multi": false,
+   "multi": true,
+   "bodies": [
+    "H Transpluto",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 0.2362,
+   "tightness": "RA 0.3542 Dec 1.0334",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Transpluto \u2013 jockey Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Transpluto",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.0509,
+   "tightness": "RA 130.9608 Dec 0.0153",
+   "roots_behind": 9,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Transpluto \u2013 jockey Pallas",
+   "sky_bodies": [
+    "Eris",
+    "Transpluto",
+    "Venus"
+   ],
+   "strict_multi": false,
+   "multi": true,
+   "bodies": [
+    "H Transpluto",
+    "J Pallas"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 0.0509,
+   "tightness": "RA 130.9608 Dec 0.0153",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Transpluto \u2013 jockey Pallas",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Transpluto",
+    "J Pallas"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 7,
+   "strict": false,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": true,
+   "key": "triangle Mercury/Orcus/Transpluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Orcus",
+    "H Transpluto",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 7,
+   "strict": true,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "triangle Node/Saturn/Sun",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Rahu",
+    "J Saturn",
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.8656,
+   "tightness": "split error 0.2164%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Jupiter -> H Rahu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Jupiter",
+    "H Rahu"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.068,
+   "tightness": "split error 0.0170%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Jupiter -> H Haumea",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Jupiter",
+    "H Haumea"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.5652,
+   "tightness": "split error 0.1413%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Jupiter -> H Makemake",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Jupiter",
+    "H Makemake"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.1248,
+   "tightness": "split error 0.0312%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Uranus -> H Juno",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Uranus",
+    "H Juno"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.6568,
+   "tightness": "split error 0.1642%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Uranus -> H Rahu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Uranus",
+    "H Rahu"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.6128,
+   "tightness": "split error 0.1532%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Uranus -> H Sedna",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Uranus",
+    "H Sedna"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.4024,
+   "tightness": "split error 0.1006%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "H Uranus -> H Transpluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Uranus",
+    "H Transpluto"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9544,
+   "tightness": "split error 0.2386%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Uranus -> J Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Uranus",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.3044,
+   "tightness": "split error 0.0761%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> H Chiron",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "H Chiron"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.5896,
+   "tightness": "split error 0.1474%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> H Pallas",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "H Pallas"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.8596,
+   "tightness": "split error 0.2149%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> H Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "H Vesta"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.7836,
+   "tightness": "split error 0.1959%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> H Makemake",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "H Makemake"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9248,
+   "tightness": "split error 0.2312%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "H Neptune -> H Transpluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "H Transpluto"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.4732,
+   "tightness": "split error 0.1183%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> J Juno",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "J Juno"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.404,
+   "tightness": "split error 0.1010%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> J Rahu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "J Rahu"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.442,
+   "tightness": "split error 0.1105%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> J Sedna",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "J Sedna"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.4548,
+   "tightness": "split error 0.1137%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Neptune -> J Haumea",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Neptune",
+    "J Haumea"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9876,
+   "tightness": "split error 0.2469%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> H Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Mercury"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.6168,
+   "tightness": "split error 0.1542%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> H Mars",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Mars"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.7976,
+   "tightness": "split error 0.1994%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> H Saturn",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Saturn"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9308,
+   "tightness": "split error 0.2327%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> H Neptune",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Neptune"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.3416,
+   "tightness": "split error 0.0854%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> H Ceres",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Ceres"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.8188,
+   "tightness": "split error 0.2047%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> H Pallas",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Pallas"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.4548,
+   "tightness": "split error 0.1137%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> H Juno",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Juno"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.7608,
+   "tightness": "split error 0.1902%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> H Quaoar",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "H Quaoar"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.828,
+   "tightness": "split error 0.2070%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> J Pluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "J Pluto"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.4556,
+   "tightness": "split error 0.1139%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> J Pallas",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "J Pallas"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.1064,
+   "tightness": "split error 0.0266%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun -> J Gonggong",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "J Gonggong"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.4688,
+   "tightness": "split error 0.1172%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "J Venus -> H Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Venus",
+    "H Vesta"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.3948,
+   "tightness": "split error 0.0987%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "J Venus -> H Rahu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Venus",
+    "H Rahu"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.3372,
+   "tightness": "split error 0.0843%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "J Venus -> J Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Venus",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9936,
+   "tightness": "split error 0.2484%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "J Venus -> J Sedna",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Venus",
+    "J Sedna"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.1724,
+   "tightness": "split error 0.0431%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Ketu -> J Makemake",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Ketu",
+    "J Makemake"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.8108,
+   "tightness": "split error 0.2027%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Quaoar -> H Mars",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Quaoar",
+    "H Mars"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.976,
+   "tightness": "split error 0.2440%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Quaoar -> H Jupiter",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Quaoar",
+    "H Jupiter"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.2548,
+   "tightness": "split error 0.0637%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Quaoar -> H Saturn",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Quaoar",
+    "H Saturn"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.1848,
+   "tightness": "split error 0.0462%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Quaoar -> H Ketu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Quaoar",
+    "H Ketu"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.964,
+   "tightness": "split error 0.2410%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Quaoar -> J Jupiter",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Quaoar",
+    "J Jupiter"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.1104,
+   "tightness": "split error 0.0276%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Quaoar -> J Uranus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Quaoar",
+    "J Uranus"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.25,
+   "tightness": "split error 0.0625%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Quaoar -> J Neptune",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Quaoar",
+    "J Neptune"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.0452,
+   "tightness": "split error 0.0113%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Quaoar -> J Ceres",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Quaoar",
+    "J Ceres"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.378,
+   "tightness": "split error 0.0945%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Quaoar -> J Gonggong",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Quaoar",
+    "J Gonggong"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 11,
+   "strict": true,
+   "tight_value": 0.42,
+   "tightness": "worst 0.0630%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "same body Transpluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Transpluto",
+    "J Transpluto"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 12,
+   "strict": true,
+   "tight_value": 0.066,
+   "tightness": "GC 149.22189 = 1343/9",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": true,
+   "key": "H Chiron\u2013Transpluto",
+   "sky_bodies": [
+    "Eris",
+    "Haumea"
+   ],
+   "strict_multi": true,
+   "multi": null,
+   "bodies": [
+    "H Chiron",
+    "H Transpluto"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 12,
+   "strict": false,
+   "tight_value": 0.8467,
+   "tightness": "RA 1.2700 Dec 29.5961",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Pallas\u2013Node",
+   "sky_bodies": [
+    "Ketu",
+    "Quaoar"
+   ],
+   "strict_multi": false,
+   "multi": null,
+   "bodies": [
+    "H Pallas",
+    "H Ketu"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 12,
+   "strict": false,
+   "tight_value": 0.142,
+   "tightness": "RA 151.99929 = 152",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Saturn\u2013Node",
+   "sky_bodies": [
+    "Chiron",
+    "Haumea",
+    "Rahu"
+   ],
+   "strict_multi": true,
+   "multi": null,
+   "bodies": [
+    "J Saturn",
+    "J Rahu"
+   ]
+  },
+  {
+   "runner": "P07",
+   "name": "4 Logistical / 4 Stan Sheppard",
+   "shape": 12,
+   "strict": false,
+   "tight_value": 0.38,
+   "tightness": "Flat 152.00190 = 152",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Saturn\u2013Node",
+   "sky_bodies": [
+    "Chiron",
+    "Haumea",
+    "Rahu"
+   ],
+   "strict_multi": true,
+   "multi": null,
+   "bodies": [
+    "J Saturn",
+    "J Rahu"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.9223,
+   "tightness": "RA 1.3834 Dec 2.2816",
+   "roots_behind": 8,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Mercury \u2013 jockey Uranus",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Mercury",
+    "J Uranus"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.0106,
+   "tightness": "RA 28.4259 Dec 0.3032",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Mars \u2013 jockey Node",
+   "sky_bodies": [
+    "Pluto"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Mars",
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 3,
+   "strict": false,
+   "tight_value": 1.0106,
+   "tightness": "RA 28.4259 Dec 0.3032",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Mars \u2013 jockey Node",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Mars",
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.9328,
+   "tightness": "RA 110.6510 Dec 0.5798",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Uranus \u2013 jockey Juno",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Uranus",
+    "J Juno"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.9328,
+   "tightness": "RA 110.6510 Dec 0.5798",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Uranus \u2013 jockey Juno",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Uranus",
+    "J Juno"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.5197,
+   "tightness": "RA 34.6292 Dec 0.4559",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Neptune \u2013 jockey Eris",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Neptune",
+    "J Eris"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.0577,
+   "tightness": "RA 1.5866 Dec 22.9021",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Juno \u2013 jockey Haumea",
+   "sky_bodies": [
+    "Makemake"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Juno",
+    "J Haumea"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.9408,
+   "tightness": "RA 60.8815 Dec 0.2822",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Juno \u2013 jockey Orcus",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Juno",
+    "J Orcus"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 2,
+   "strict": true,
+   "tight_value": 0.9408,
+   "tightness": "RA 60.8815 Dec 0.2822",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Juno \u2013 jockey Orcus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Juno",
+    "J Orcus"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.8547,
+   "tightness": "RA 20.3384 Dec 0.5564",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Node \u2013 jockey Venus",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Rahu",
+    "J Venus"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.8547,
+   "tightness": "RA 20.3384 Dec 0.5564",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Node \u2013 jockey Venus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "J Venus"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.2616,
+   "tightness": "RA 19.5308 Dec 0.3785",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Node \u2013 jockey Mars",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Rahu",
+    "J Mars"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.812,
+   "tightness": "RA 7.6837 Dec 0.2436",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Node \u2013 jockey Jupiter",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Rahu",
+    "J Jupiter"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.1239,
+   "tightness": "RA 7.8604 Dec 0.0372",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Node \u2013 jockey Vesta",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Rahu",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 0.1239,
+   "tightness": "RA 7.8604 Dec 0.0372",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Node \u2013 jockey Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.416,
+   "tightness": "RA 18.6384 Dec 0.4248",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Node \u2013 jockey Node",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Rahu",
+    "J Rahu"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.1085,
+   "tightness": "RA 1.6627 Dec 4.3131",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Eris \u2013 jockey Eris",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Eris",
+    "J Eris"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.1085,
+   "tightness": "RA 1.6627 Dec 4.3131",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Eris \u2013 jockey Eris",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Eris",
+    "J Eris"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.4804,
+   "tightness": "RA 113.0246 Dec 0.1441",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Eris \u2013 jockey Orcus",
+   "sky_bodies": [
+    "Eris"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Eris",
+    "J Orcus"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 2,
+   "strict": true,
+   "tight_value": 0.4804,
+   "tightness": "RA 113.0246 Dec 0.1441",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Eris \u2013 jockey Orcus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Eris",
+    "J Orcus"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 1,
+   "strict": true,
+   "tight_value": 0.9668,
+   "tightness": "RA 131.2023 Dec 0.2900",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Makemake \u2013 jockey Mercury",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Makemake",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 2,
+   "strict": true,
+   "tight_value": 0.9668,
+   "tightness": "RA 131.2023 Dec 0.2900",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Makemake \u2013 jockey Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Makemake",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 1,
+   "strict": true,
+   "tight_value": 0.5695,
+   "tightness": "RA 121.9766 Dec 0.1709",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Makemake \u2013 jockey Venus",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Makemake",
+    "J Venus"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 1,
+   "strict": true,
+   "tight_value": 0.0236,
+   "tightness": "RA 121.1690 Dec 0.0071",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Makemake \u2013 jockey Mars",
+   "sky_bodies": [
+    "Mercury"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Makemake",
+    "J Mars"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.409,
+   "tightness": "RA 109.4986 Dec 0.4227",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Makemake \u2013 jockey Vesta",
+   "sky_bodies": [
+    "Transpluto"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Makemake",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.4827,
+   "tightness": "RA 0.7241 Dec 2.4538",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Makemake \u2013 jockey Haumea",
+   "sky_bodies": [
+    "Transpluto"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Makemake",
+    "J Haumea"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 0.4827,
+   "tightness": "RA 0.7241 Dec 2.4538",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Makemake \u2013 jockey Haumea",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Makemake",
+    "J Haumea"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.7779,
+   "tightness": "RA 24.3417 Dec 0.5334",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Quaoar \u2013 jockey Quaoar",
+   "sky_bodies": [
+    "Quaoar"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Quaoar",
+    "J Quaoar"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.7779,
+   "tightness": "RA 24.3417 Dec 0.5334",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Quaoar \u2013 jockey Quaoar",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Quaoar",
+    "J Quaoar"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 7,
+   "strict": false,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": true,
+   "key": "triangle Haumea/Makemake/Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Makemake",
+    "J Haumea",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 8,
+   "strict": true,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 2,
+   "hub": false,
+   "strong_hub": false,
+   "key": "number 46",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": []
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 8,
+   "strict": true,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 2,
+   "hub": false,
+   "strong_hub": false,
+   "key": "number 48",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": []
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.128,
+   "tightness": "split error 0.0320%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Orcus -> H Makemake",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Orcus",
+    "H Makemake"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9192,
+   "tightness": "split error 0.2298%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Orcus -> J Chiron",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Orcus",
+    "J Chiron"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 12,
+   "strict": false,
+   "tight_value": 0.336,
+   "tightness": "RA 113.99832 = 114",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Mercury\u2013Haumea",
+   "sky_bodies": [
+    "Ceres",
+    "Mars"
+   ],
+   "strict_multi": false,
+   "multi": null,
+   "bodies": [
+    "H Mercury",
+    "H Haumea"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 12,
+   "strict": false,
+   "tight_value": 0.064,
+   "tightness": "Dec 20.66699 = 186/9",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Pallas\u2013Gonggong",
+   "sky_bodies": [
+    "Haumea",
+    "Sedna"
+   ],
+   "strict_multi": false,
+   "multi": null,
+   "bodies": [
+    "H Pallas",
+    "H Gonggong"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 12,
+   "strict": false,
+   "tight_value": 0.1963,
+   "tightness": "RA 124.7489 Dec 0.0589",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Saturn\u2013Haumea",
+   "sky_bodies": [
+    "Makemake",
+    "Transpluto"
+   ],
+   "strict_multi": false,
+   "multi": null,
+   "bodies": [
+    "J Saturn",
+    "J Haumea"
+   ]
+  },
+  {
+   "runner": "P09",
+   "name": "5 Makanao / 5 Jack Tudor",
+   "shape": 12,
+   "strict": false,
+   "tight_value": 0.1662,
+   "tightness": "RA 74.1162 Dec 0.0499",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Uranus\u2013Pluto",
+   "sky_bodies": [
+    "Orcus",
+    "Saturn"
+   ],
+   "strict_multi": false,
+   "multi": null,
+   "bodies": [
+    "J Uranus",
+    "J Pluto"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.0671,
+   "tightness": "RA 1.6006 Dec 11.6733",
+   "roots_behind": 9,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Sun \u2013 jockey Sedna",
+   "sky_bodies": [
+    "Jupiter"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Sun",
+    "J Sedna"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.4022,
+   "tightness": "RA 103.0551 Dec 0.1207",
+   "roots_behind": 9,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Mercury \u2013 jockey Sun",
+   "sky_bodies": [
+    "Haumea",
+    "Jupiter"
+   ],
+   "strict_multi": false,
+   "multi": true,
+   "bodies": [
+    "H Mercury",
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 2,
+   "strict": true,
+   "tight_value": 0.4022,
+   "tightness": "RA 103.0551 Dec 0.1207",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Mercury \u2013 jockey Sun",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Mercury",
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.239,
+   "tightness": "RA 0.3585 Dec 8.1751",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Venus \u2013 jockey Ceres",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Venus",
+    "J Ceres"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 2,
+   "strict": true,
+   "tight_value": 0.239,
+   "tightness": "RA 0.3585 Dec 8.1751",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Venus \u2013 jockey Ceres",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Venus",
+    "J Ceres"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.9164,
+   "tightness": "RA 30.5390 Dec 0.5749",
+   "roots_behind": 8,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Jupiter \u2013 jockey Gonggong",
+   "sky_bodies": [
+    "Node"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Jupiter",
+    "J Gonggong"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.5342,
+   "tightness": "RA 25.4684 Dec 0.4603",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Saturn \u2013 jockey Gonggong",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Saturn",
+    "J Gonggong"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 3,
+   "strict": false,
+   "tight_value": 1.5342,
+   "tightness": "RA 25.4684 Dec 0.4603",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Saturn \u2013 jockey Gonggong",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Saturn",
+    "J Gonggong"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.588,
+   "tightness": "RA 113.6890 Dec 0.4764",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Uranus \u2013 jockey Node",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Uranus",
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 1,
+   "strict": true,
+   "tight_value": 0.3175,
+   "tightness": "RA 15.8186 Dec 0.0953",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Pluto \u2013 jockey Neptune",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Pluto",
+    "J Neptune"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.7657,
+   "tightness": "RA 169.1838 Dec 0.5297",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Pallas \u2013 jockey Chiron",
+   "sky_bodies": [
+    "Quaoar"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Pallas",
+    "J Chiron"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 5,
+   "strict": false,
+   "tight_value": 1.7657,
+   "tightness": "RA 169.1838 Dec 0.5297",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": true,
+   "key": "moved J Chiron",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Chiron"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.1597,
+   "tightness": "RA 2.9552 Dec 0.3479",
+   "roots_behind": 4,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Node \u2013 jockey Jupiter",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Rahu",
+    "J Jupiter"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.8808,
+   "tightness": "RA 96.1645 Dec 0.5642",
+   "roots_behind": 8,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Node \u2013 jockey Haumea",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Rahu",
+    "J Haumea"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.8808,
+   "tightness": "RA 96.1645 Dec 0.5642",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Node \u2013 jockey Haumea",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "J Haumea"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.8819,
+   "tightness": "RA 2.0985 Dec 0.2646",
+   "roots_behind": 10,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Node \u2013 jockey Uranus",
+   "sky_bodies": [
+    "Pluto"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Ketu",
+    "J Uranus"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.0765,
+   "tightness": "RA 1.6147 Dec 1.1068",
+   "roots_behind": 8,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Node \u2013 jockey Vesta",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Ketu",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.0765,
+   "tightness": "RA 1.6147 Dec 1.1068",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Node \u2013 jockey Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.4436,
+   "tightness": "RA 111.2275 Dec 0.1331",
+   "roots_behind": 9,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Haumea \u2013 jockey Chiron",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Haumea",
+    "J Chiron"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 5,
+   "strict": true,
+   "tight_value": 0.4436,
+   "tightness": "RA 111.2275 Dec 0.1331",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": true,
+   "key": "moved J Chiron",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Chiron"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.7416,
+   "tightness": "RA 4.3411 Dec 0.5225",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Transpluto \u2013 jockey Mars",
+   "sky_bodies": [
+    "Transpluto"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Transpluto",
+    "J Mars"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.7416,
+   "tightness": "RA 4.3411 Dec 0.5225",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Transpluto \u2013 jockey Mars",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Transpluto",
+    "J Mars"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 6,
+   "strict": false,
+   "tight_value": 0.8819,
+   "tightness": "RA 2.0985 Dec 0.2646",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": true,
+   "key": "swap Ketu/Uranus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "J Uranus",
+    "H Uranus",
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 7,
+   "strict": false,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": false,
+   "key": "triangle Mercury/Node/Sun",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Mercury",
+    "H Rahu",
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 7,
+   "strict": false,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "triangle Node/Pluto/Sun",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "J Pluto",
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 8,
+   "strict": false,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 2,
+   "hub": false,
+   "strong_hub": false,
+   "key": "ratio 5/4",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": []
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.7144,
+   "tightness": "split error 0.1786%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Chiron -> H Sun",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Chiron",
+    "H Sun"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.7092,
+   "tightness": "split error 0.1773%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Chiron -> H Uranus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Chiron",
+    "H Uranus"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.14,
+   "tightness": "split error 0.0350%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Chiron -> H Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Chiron",
+    "H Vesta"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.6212,
+   "tightness": "split error 0.1553%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Chiron -> H Sedna",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Chiron",
+    "H Sedna"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9764,
+   "tightness": "split error 0.2441%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "H Chiron -> J Chiron",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Chiron",
+    "J Chiron"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.126,
+   "tightness": "split error 0.0315%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Chiron -> J Ceres",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Chiron",
+    "J Ceres"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.366,
+   "tightness": "split error 0.0915%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Chiron -> J Sedna",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Chiron",
+    "J Sedna"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.754,
+   "tightness": "split error 0.1885%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Ceres -> J Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ceres",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9716,
+   "tightness": "split error 0.2429%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Ceres -> J Makemake",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ceres",
+    "J Makemake"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.5936,
+   "tightness": "split error 0.1484%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Vesta -> H Transpluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Vesta",
+    "H Transpluto"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.8208,
+   "tightness": "split error 0.2052%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Vesta -> J Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Vesta",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9296,
+   "tightness": "split error 0.2324%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Vesta -> J Pluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Vesta",
+    "J Pluto"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.2408,
+   "tightness": "split error 0.0602%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Vesta -> J Makemake",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Vesta",
+    "J Makemake"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.344,
+   "tightness": "split error 0.0860%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Vesta -> J Quaoar",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Vesta",
+    "J Quaoar"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.8784,
+   "tightness": "split error 0.2196%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Orcus -> H Mars",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Orcus",
+    "H Mars"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.7352,
+   "tightness": "split error 0.1838%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Orcus -> H Jupiter",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Orcus",
+    "H Jupiter"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.0048,
+   "tightness": "split error 0.0012%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Orcus -> H Ceres",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Orcus",
+    "H Ceres"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9612,
+   "tightness": "split error 0.2403%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Orcus -> J Saturn",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Orcus",
+    "J Saturn"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.948,
+   "tightness": "split error 0.2370%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "H Orcus -> J Uranus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Orcus",
+    "J Uranus"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.6892,
+   "tightness": "split error 0.1723%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Orcus -> J Neptune",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Orcus",
+    "J Neptune"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.3224,
+   "tightness": "split error 0.0806%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Orcus -> J Quaoar",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Orcus",
+    "J Quaoar"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 11,
+   "strict": true,
+   "tight_value": 0.8927,
+   "tightness": "worst 0.1339%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "same body Mars",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Mars",
+    "J Mars"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 11,
+   "strict": true,
+   "tight_value": 0.9027,
+   "tightness": "worst 0.1354%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": true,
+   "key": "same body Uranus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Uranus",
+    "J Uranus"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 12,
+   "strict": false,
+   "tight_value": 1.13,
+   "tightness": "RA 1.6951 Dec 0.5506",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Sun\u2013Transpluto",
+   "sky_bodies": [
+    "Haumea",
+    "Jupiter"
+   ],
+   "strict_multi": false,
+   "multi": null,
+   "bodies": [
+    "J Sun",
+    "J Transpluto"
+   ]
+  },
+  {
+   "runner": "P11",
+   "name": "6 Pigeonton / 6 Micheal Nolan",
+   "shape": 12,
+   "strict": false,
+   "tight_value": 0.3774,
+   "tightness": "RA 96.2264 Dec 0.1132",
+   "roots_behind": 8,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Node\u2013Quaoar",
+   "sky_bodies": [
+    "Pluto",
+    "Saturn"
+   ],
+   "strict_multi": false,
+   "multi": null,
+   "bodies": [
+    "J Rahu",
+    "J Quaoar"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.3108,
+   "tightness": "RA 104.2065 Dec 0.3932",
+   "roots_behind": 8,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Mercury \u2013 jockey Vesta",
+   "sky_bodies": [
+    "Uranus"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Mercury",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 5,
+   "strict": false,
+   "tight_value": 1.3108,
+   "tightness": "RA 104.2065 Dec 0.3932",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Mercury"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.5191,
+   "tightness": "RA 0.7786 Dec 12.7224",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Mercury \u2013 jockey Sedna",
+   "sky_bodies": [
+    "Jupiter"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Mercury",
+    "J Sedna"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 5,
+   "strict": true,
+   "tight_value": 0.5191,
+   "tightness": "RA 0.7786 Dec 12.7224",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Mercury"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.5844,
+   "tightness": "RA 6.3825 Dec 0.1753",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Uranus \u2013 jockey Saturn",
+   "sky_bodies": [
+    "Juno"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Uranus",
+    "J Saturn"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 1,
+   "strict": true,
+   "tight_value": 0.2834,
+   "tightness": "RA 112.1259 Dec 0.0850",
+   "roots_behind": 3,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Uranus \u2013 jockey Transpluto",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Uranus",
+    "J Transpluto"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.2811,
+   "tightness": "RA 142.5831 Dec 0.0843",
+   "roots_behind": 9,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Pallas \u2013 jockey Vesta",
+   "sky_bodies": [
+    "Uranus"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Pallas",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.1632,
+   "tightness": "RA 142.6323 Dec 0.0490",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Juno \u2013 jockey Sedna",
+   "sky_bodies": [
+    "Quaoar"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Juno",
+    "J Sedna"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.4911,
+   "tightness": "RA 117.6662 Dec 0.1473",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Vesta \u2013 jockey Haumea",
+   "sky_bodies": [
+    "Makemake",
+    "Venus"
+   ],
+   "strict_multi": false,
+   "multi": true,
+   "bodies": [
+    "H Vesta",
+    "J Haumea"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.205,
+   "tightness": "RA 3.9285 Dec 0.0615",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Node \u2013 jockey Sun",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Rahu",
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 5,
+   "strict": true,
+   "tight_value": 0.205,
+   "tightness": "RA 3.9285 Dec 0.0615",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Node",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.9792,
+   "tightness": "RA 20.4804 Dec 0.5938",
+   "roots_behind": 8,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Node \u2013 jockey Mercury",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Rahu",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.9792,
+   "tightness": "RA 20.4804 Dec 0.5938",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Node \u2013 jockey Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 5,
+   "strict": false,
+   "tight_value": 1.9792,
+   "tightness": "RA 20.4804 Dec 0.5938",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Node",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.1826,
+   "tightness": "RA 0.2739 Dec 11.2273",
+   "roots_behind": 14,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Eris \u2013 jockey Jupiter",
+   "sky_bodies": [
+    "Eris",
+    "Mars"
+   ],
+   "strict_multi": false,
+   "multi": true,
+   "bodies": [
+    "H Eris",
+    "J Jupiter"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 0.1826,
+   "tightness": "RA 0.2739 Dec 11.2273",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Eris \u2013 jockey Jupiter",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Eris",
+    "J Jupiter"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.6696,
+   "tightness": "RA 33.9505 Dec 0.2009",
+   "roots_behind": 11,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Eris \u2013 jockey Pallas",
+   "sky_bodies": [
+    "Eris"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Eris",
+    "J Pallas"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 0.6696,
+   "tightness": "RA 33.9505 Dec 0.2009",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": true,
+   "key": "horse Eris \u2013 jockey Pallas",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Eris",
+    "J Pallas"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 1,
+   "strict": true,
+   "tight_value": 0.1668,
+   "tightness": "RA 78.2742 Dec 0.0500",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Haumea \u2013 jockey Node",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Haumea",
+    "J Rahu"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.0584,
+   "tightness": "RA 86.4678 Dec 0.0175",
+   "roots_behind": 5,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Makemake \u2013 jockey Mercury",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Makemake",
+    "J Mercury"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.9717,
+   "tightness": "RA 1.4575 Dec 2.2577",
+   "roots_behind": 4,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Makemake \u2013 jockey Haumea",
+   "sky_bodies": [],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Makemake",
+    "J Haumea"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 0.9717,
+   "tightness": "RA 1.4575 Dec 2.2577",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Makemake \u2013 jockey Haumea",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Makemake",
+    "J Haumea"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 0.0965,
+   "tightness": "RA 49.4372 Dec 0.0290",
+   "roots_behind": 10,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Orcus \u2013 jockey Mars",
+   "sky_bodies": [
+    "Ceres",
+    "Gonggong"
+   ],
+   "strict_multi": false,
+   "multi": true,
+   "bodies": [
+    "H Orcus",
+    "J Mars"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 5,
+   "strict": true,
+   "tight_value": 0.0965,
+   "tightness": "RA 49.4372 Dec 0.0290",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Orcus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Orcus"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.696,
+   "tightness": "RA 94.8304 Dec 0.5088",
+   "roots_behind": 9,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Orcus \u2013 jockey Pluto",
+   "sky_bodies": [
+    "Ceres",
+    "Uranus"
+   ],
+   "strict_multi": false,
+   "multi": true,
+   "bodies": [
+    "H Orcus",
+    "J Pluto"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 5,
+   "strict": false,
+   "tight_value": 1.696,
+   "tightness": "RA 94.8304 Dec 0.5088",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "moved H Orcus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Orcus"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 1,
+   "strict": false,
+   "tight_value": 1.1582,
+   "tightness": "RA 1.7373 Dec 6.8391",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Transpluto \u2013 jockey Vesta",
+   "sky_bodies": [
+    "Transpluto"
+   ],
+   "strict_multi": false,
+   "multi": false,
+   "bodies": [
+    "H Transpluto",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 2,
+   "strict": false,
+   "tight_value": 1.1582,
+   "tightness": "RA 1.7373 Dec 6.8391",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "horse Transpluto \u2013 jockey Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Transpluto",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 6,
+   "strict": true,
+   "tight_value": 0.205,
+   "tightness": "RA 3.9285 Dec 0.0615",
+   "roots_behind": 2,
+   "hub": true,
+   "strong_hub": false,
+   "key": "swap Rahu/Sun",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "J Sun",
+    "H Sun",
+    "J Rahu"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 7,
+   "strict": false,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "triangle Mercury/Pallas/Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Mercury",
+    "H Pallas",
+    "J Vesta"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 7,
+   "strict": false,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 6,
+   "hub": true,
+   "strong_hub": false,
+   "key": "triangle Mars/Orcus/Pluto",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Orcus",
+    "J Mars",
+    "J Pluto"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 8,
+   "strict": true,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 2,
+   "hub": false,
+   "strong_hub": false,
+   "key": "number 10",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": []
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 8,
+   "strict": true,
+   "tight_value": 1.0,
+   "tightness": "",
+   "roots_behind": 2,
+   "hub": false,
+   "strong_hub": false,
+   "key": "number 28",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": []
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.2528,
+   "tightness": "split error 0.0632%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Rahu -> H Chiron",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "H Chiron"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.1864,
+   "tightness": "split error 0.0466%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Rahu -> H Sedna",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "H Sedna"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.9236,
+   "tightness": "split error 0.2309%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Rahu -> H Quaoar",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "H Quaoar"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.8688,
+   "tightness": "split error 0.2172%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Rahu -> H Orcus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "H Orcus"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.7372,
+   "tightness": "split error 0.1843%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Rahu -> J Uranus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "J Uranus"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.3248,
+   "tightness": "split error 0.0812%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Rahu -> J Chiron",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "J Chiron"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.7596,
+   "tightness": "split error 0.1899%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Rahu -> J Ketu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "J Ketu"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.4456,
+   "tightness": "split error 0.1114%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Rahu -> J Orcus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Rahu",
+    "J Orcus"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.482,
+   "tightness": "split error 0.1205%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Ketu -> H Mercury",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "H Mercury"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.72,
+   "tightness": "split error 0.1800%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Ketu -> H Venus",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "H Venus"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.3912,
+   "tightness": "split error 0.0978%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Ketu -> H Vesta",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "H Vesta"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.8236,
+   "tightness": "split error 0.2059%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Ketu -> J Sun",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "J Sun"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.1136,
+   "tightness": "split error 0.0284%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Ketu -> J Saturn",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "J Saturn"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.7596,
+   "tightness": "split error 0.1899%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Ketu -> J Rahu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "J Rahu"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.19,
+   "tightness": "split error 0.0475%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "H Ketu -> J Haumea",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Ketu",
+    "J Haumea"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.8004,
+   "tightness": "split error 0.2001%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Gonggong -> H Ceres",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Gonggong",
+    "H Ceres"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.116,
+   "tightness": "split error 0.0290%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Gonggong -> H Rahu",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Gonggong",
+    "H Rahu"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.1276,
+   "tightness": "split error 0.0319%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Gonggong -> J Jupiter",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Gonggong",
+    "J Jupiter"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 10,
+   "strict": true,
+   "tight_value": 0.8672,
+   "tightness": "split error 0.2168%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Gonggong -> J Ceres",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "J Gonggong",
+    "J Ceres"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 11,
+   "strict": true,
+   "tight_value": 0.73,
+   "tightness": "worst 0.1095%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "same body Juno",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Juno",
+    "J Juno"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 11,
+   "strict": true,
+   "tight_value": 0.088,
+   "tightness": "worst 0.0132%",
+   "roots_behind": 1,
+   "hub": true,
+   "strong_hub": false,
+   "key": "same body Sedna",
+   "sky_bodies": null,
+   "strict_multi": null,
+   "multi": null,
+   "bodies": [
+    "H Sedna",
+    "J Sedna"
+   ]
+  },
+  {
+   "runner": "P13",
+   "name": "7 Vale Dolobo Dancer / 7 Jack Hogan",
+   "shape": 12,
+   "strict": false,
+   "tight_value": 1.7925,
+   "tightness": "RA 45.3933 Dec 0.5377",
+   "roots_behind": 7,
+   "hub": true,
+   "strong_hub": false,
+   "key": "J Mars\u2013Pluto",
+   "sky_bodies": [
+    "Ceres",
+    "Ketu",
+    "Mars"
+   ],
+   "strict_multi": false,
+   "multi": null,
+   "bodies": [
+    "J Mars",
+    "J Pluto"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+== newton_abbot_1525_20220717  field of 4   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+-- runners: P01 1 Grageelagh Girl / 1 Tom Broughton; P03 2 My Lady Grey / 2 Brendan Powell; P05 3 Cresswell Queen / 3 Harry Reed; P07 4 On Time / 4 Conor Ring
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              2/4: P01:1 P07:2  |   4: P01:10 P03:9 P05:12 P07:12
+   [  2] partner strike                              1/4: P05:1  |   4: P01:2 P03:6 P05:4 P07:2
+   [  3] pair together in the sky                    0/4: -  |   1: P03:1
+   [  4] both ends moved                             0/4: -  |   0: -
+   [  5] movement onto a cross link                  4/4: P01:2 P03:2 P05:2 P07:2  |   4: P01:2 P03:5 P05:3 P07:6
+   [  6] swap                                        0/4: -  |   2: P03:1 P05:1
+   [  7] triangle struck at every corner             2/4: P01:3 P07:2  |   4: P01:3 P03:2 P05:2 P07:4
+   [  8] same number / ratio in both charts          3/4: P03:1 P05:3 P07:1  |   4: P01:1 P03:2 P05:4 P07:1
+   [  9] shared node                                 1/4: P05:1  |   1: P05:1
+   [ 10] sky body divides a natal pair               4/4: P01:26 P03:23 P05:16 P07:8  |   4: P01:26 P03:23 P05:16 P07:8
+   [ 11] joined same-body set                        1/4: P01:3  |   1: P01:3
+   [ 12] pair in one chart struck on both ends by 2+  2/4: P05:1 P07:1  |   4: P01:1 P03:5 P05:2 P07:2
+   [ 1m] cross link, 2+ sky bodies on both ends      0/4: -  |   3: P01:1 P03:3 P07:1
+   [12m] pair in one chart, 2+ sky bodies on both ends  2/4: P05:1 P07:1  |   4: P01:1 P03:5 P05:2 P07:2
+-- tightest instance of each shape
+   [ 1] P07 4 On Time / 4 Conor Ring: horse Sedna – jockey Chiron (RA 86.9604 Dec 0.0147)
+   [ 2] P05 3 Cresswell Queen / 3 Harry Reed: horse Node – jockey Node (RA 0.0858 Dec 0.0362)
+   [ 3] P03 2 My Lady Grey / 2 Brendan Powell: horse Sun – jockey Mercury (RA 1.6703 Dec 1.1526)
+   [ 5] P05 3 Cresswell Queen / 3 Harry Reed: moved H Node (RA 0.0858 Dec 0.0362)
+   [ 6] P05 3 Cresswell Queen / 3 Harry Reed: swap Neptune/Pluto (RA 99.2444 Dec 0.4094)
+   [ 7] P01 1 Grageelagh Girl / 1 Tom Broughton: triangle Ceres/Haumea/Saturn ()
+   [ 8] P01 1 Grageelagh Girl / 1 Tom Broughton: ratio 22/5 ()
+   [ 9] P05 3 Cresswell Queen / 3 Harry Reed: shared node (node RA 0.0858)
+   [10] P03 2 My Lady Grey / 2 Brendan Powell: H Juno -> J Saturn (split error 0.0028%)
+   [11] P01 1 Grageelagh Girl / 1 Tom Broughton: same body Quaoar (worst 0.0212%)
+   [12] P05 3 Cresswell Queen / 3 Harry Reed: H Mars–Juno (RA 69.00026 = 69)
+-- field-only findings (shape numbers)
+   P01 1 Grageelagh Girl / 1 Tom Broughton: only (strict) 11; only (broad) 11; strict, shared with one other 1,7
+   P03 2 My Lady Grey / 2 Brendan Powell: only (strict) -; only (broad) 3; strict, shared with one other -
+   P05 3 Cresswell Queen / 3 Harry Reed: only (strict) 2,9; only (broad) 9; strict, shared with one other 12,12m
+   P07 4 On Time / 4 Conor Ring: only (strict) -; only (broad) -; strict, shared with one other 1,7,12,12m
+-- strong hubs across the field
+   H Jupiter      1: P01
+   H Pallas       1: P01
+   J Eris         1: P01
+   J Chiron       1: P03
+   H Node         1: P05
+   J Jupiter      1: P07
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Eris – jockey Node: P01 (RA 34.9198 Dec 0.3646, broad); P05 (RA 161.4198 Dec 0.4275, broad)
+   [ 1] horse Makemake – jockey Haumea: P03 (RA 0.2329 Dec 4.4608, broad); P05 (RA 1.8267 Dec 5.1541, broad)
+   [ 1] horse Pluto – jockey Neptune: P05 (RA 11.0449 Dec 0.0843, broad); P07 (RA 2.3819 Dec 0.5327, broad)
+   [ 1] horse Orcus – jockey Eris: P05 (RA 126.6290 Dec 0.1634, broad); P07 (RA 128.7805 Dec 0.2090, broad)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P03 P05
+   recurring cross link horse Pluto – jockey Neptune: P05 P07
+   recurring cross link horse Sedna – jockey Chiron: P07
+   recurring cross link horse Uranus – jockey Venus: P05
+   recurring pair Juno–Pallas: P07
+   recurring pair Jupiter–Vesta: P03 P05 P07
+   recurring pair Neptune–Node: P01
+   recurring pair Neptune–Rahu: P03
+   recurring pair Neptune–Vesta: P01 P07
+   recurring pair Node–Haumea: P03
+   recurring pair Pallas–Juno: P05 P07
+   recurring pair Saturn–Neptune: P07
+   recurring pair Transpluto–Chiron: P01
+   recurring pair Uranus–Venus: P05
+   recurring pair Venus–Uranus: P03 P05

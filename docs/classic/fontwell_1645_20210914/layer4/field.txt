@@ -1,0 +1,67 @@
+== fontwell_1645_20210914  field of 4   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+-- runners: P01 1 Eye To The Sky / 1 Gavin Sheehan; P03 2 Spike Jones / 2 Alain Cawley; P05 3 Pixie Loc / 3 Ben Jones; P07 4 Santesa / 4 Ciaran Gethings
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              2/4: P01:1 P07:1  |   4: P01:11 P03:13 P05:10 P07:16
+   [  2] partner strike                              1/4: P03:2  |   4: P01:1 P03:7 P05:4 P07:3
+   [  3] pair together in the sky                    0/4: -  |   0: -
+   [  4] both ends moved                             1/4: P05:1  |   1: P05:1
+   [  5] movement onto a cross link                  4/4: P01:3 P03:4 P05:3 P07:3  |   4: P01:6 P03:5 P05:4 P07:4
+   [  6] swap                                        0/4: -  |   1: P07:1
+   [  7] triangle struck at every corner             2/4: P01:1 P07:1  |   4: P01:2 P03:1 P05:1 P07:1
+   [  8] same number / ratio in both charts          2/4: P05:2 P07:1  |   3: P01:1 P05:3 P07:1
+   [  9] shared node                                 0/4: -  |   0: -
+   [ 10] sky body divides a natal pair               4/4: P01:3 P03:13 P05:20 P07:32  |   4: P01:3 P03:13 P05:20 P07:32
+   [ 11] joined same-body set                        3/4: P03:2 P05:2 P07:2  |   3: P03:2 P05:2 P07:2
+   [ 12] pair in one chart struck on both ends by 2+  2/4: P03:1 P05:1  |   4: P01:2 P03:2 P05:2 P07:1
+   [ 1m] cross link, 2+ sky bodies on both ends      0/4: -  |   3: P01:1 P03:2 P05:1
+   [12m] pair in one chart, 2+ sky bodies on both ends  1/4: P03:1  |   4: P01:2 P03:2 P05:2 P07:1
+-- tightest instance of each shape
+   [ 1] P07 4 Santesa / 4 Ciaran Gethings: horse Gonggong – jockey Venus (RA 117.1776 Dec 0.0156)
+   [ 2] P05 3 Pixie Loc / 3 Ben Jones: horse Eris – jockey Jupiter (RA 0.1096 Dec 11.9006)
+   [ 4] P05 3 Pixie Loc / 3 Ben Jones: horse Eris – jockey Jupiter (RA 0.1096 Dec 11.9006)
+   [ 5] P05 3 Pixie Loc / 3 Ben Jones: moved H Eris (RA 0.1096 Dec 11.9006)
+   [ 6] P07 4 Santesa / 4 Ciaran Gethings: swap Neptune/Pluto (RA 105.2770 Dec 0.4012)
+   [ 7] P01 1 Eye To The Sky / 1 Gavin Sheehan: triangle Juno/Node/Transpluto ()
+   [ 8] P01 1 Eye To The Sky / 1 Gavin Sheehan: ratio 9/7 ()
+   [10] P03 2 Spike Jones / 2 Alain Cawley: H Orcus -> J Makemake (split error 0.0016%)
+   [11] P03 2 Spike Jones / 2 Alain Cawley: same body Haumea (worst 0.0315%)
+   [12] P03 2 Spike Jones / 2 Alain Cawley: H Neptune–Node (RA 169.00017 = 169)
+-- field-only findings (shape numbers)
+   P01 1 Eye To The Sky / 1 Gavin Sheehan: only (strict) -; only (broad) -; strict, shared with one other 1,7
+   P03 2 Spike Jones / 2 Alain Cawley: only (strict) 2,12m; only (broad) -; strict, shared with one other 12
+   P05 3 Pixie Loc / 3 Ben Jones: only (strict) 4; only (broad) 4; strict, shared with one other 8,12
+   P07 4 Santesa / 4 Ciaran Gethings: only (strict) -; only (broad) 6; strict, shared with one other 1,7,8
+-- strong hubs across the field
+   H Transpluto   2: P05 P07
+   H Eris         2: P05 P07
+   H Saturn       1: P03
+   H Uranus       1: P03
+   J Juno         1: P03
+   J Jupiter      1: P05
+   J Transpluto   1: P07
+   H Mars         1: P07
+   J Mars         1: P07
+   J Neptune      1: P07
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Uranus – jockey Eris: P01 (RA 1.9815 Dec 16.8539, broad); P03 (RA 0.6434 Dec 19.0873, broad); P07 (RA 0.7488 Dec 17.5714)
+   [ 1] horse Gonggong – jockey Juno: P03 (RA 11.1752 Dec 0.2923, broad); P05 (RA 74.5106 Dec 0.1796, broad); P07 (RA 91.2354 Dec 0.5401, broad)
+   [ 1] horse Pluto – jockey Neptune: P01 (RA 0.7979 Dec 0.2696, broad); P07 (RA 3.1143 Dec 0.1204, broad)
+   [ 1] horse Ceres – jockey Mars: P01 (RA 6.9070 Dec 0.0588, broad); P05 (RA 10.4235 Dec 0.4614, broad)
+   [ 1] horse Mars – jockey Vesta: P03 (RA 72.9077 Dec 0.5429, broad); P07 (RA 35.5927 Dec 0.5574, broad)
+   [11] same body Transpluto: P05 (worst 0.0705%); P07 (worst 0.0418%)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P07
+   recurring cross link horse Pluto – jockey Neptune: P01 P07
+   recurring cross link horse Uranus – jockey Venus: P03
+   recurring pair Chiron–Transpluto: P01 P05
+   recurring pair Haumea–Node: P07
+   recurring pair Juno–Pallas: P01
+   recurring pair Jupiter–Vesta: P01 P03
+   recurring pair Neptune–Node: P03 P05
+   recurring pair Neptune–Saturn: P03
+   recurring pair Neptune–Vesta: P01 P05
+   recurring pair Node–Haumea: P01 P05
+   recurring pair Pallas–Juno: P05 P07
+   recurring pair Saturn–Neptune: P01 P03 P05
+   recurring pair Uranus–Venus: P03
+   recurring pair Venus–Uranus: P01 P07
