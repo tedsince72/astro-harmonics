@@ -1,0 +1,153 @@
+##### scan
+1 Anniversary / 1 Rob Hornby
+  XL Makemake-Haumea RA 7.826 Dec 0.036
+  XL Uranus-Venus RA 3.432 Dec 0.060
+2 Arabian Poet / 2 William Buick
+  XL Makemake-Haumea RA 13.232 Dec 0.187
+3 Double Meaning / 3 Pat Dobbs
+
+4 King Of Cities / 4 Sean Levey
+
+5 Knights Gold / 5 Marco Ghiani
+
+6 Scandinavia / 6 Tom Marquand
+
+7 Sedate / 7 Joshua Bryan
+  XL Venus-Uranus RA 27.455 Dec 0.149
+8 Vecu / 8 Robert Havlin
+  SWAP Juno<->Quaoar
+9 Big Gypsy King / 9 Neil Callan
+  BOTHMOVED H Haumea['Dec1'] - J Transpluto['Dec49/9'] (RA 77.290 Dec 0.152)
+  XL Uranus-Venus RA 106.035 Dec 0.273
+##### scan2
+1 Anniversary/1 Rob Hornby               ratioBodies H8 J5 inBoth=['Chiron', 'Vesta']  XL-with-ratio-ends=[]
+2 Arabian Poet/2 William Buick           ratioBodies H3 J5 inBoth=['Mars', 'Mercury']  XL-with-ratio-ends=[('Mercury', 'Mercury', 50.259, 0.296)]
+3 Double Meaning/3 Pat Dobbs             ratioBodies H6 J8 inBoth=['Sedna', 'Sun']  XL-with-ratio-ends=[('Saturn', 'Sun', 2.807, 0.068), ('Quaoar', 'Sun', 42.92, 0.223)]
+4 King Of Cities/4 Sean Levey            ratioBodies H8 J0 inBoth=[]  XL-with-ratio-ends=[]
+5 Knights Gold/5 Marco Ghiani            ratioBodies H4 J2 inBoth=[]  XL-with-ratio-ends=[('Pallas', 'Saturn', 0.452, 12.357)]
+6 Scandinavia/6 Tom Marquand             ratioBodies H7 J5 inBoth=['Rahu', 'Venus']  XL-with-ratio-ends=[]
+7 Sedate/7 Joshua Bryan                  ratioBodies H8 J5 inBoth=['Haumea', 'Juno', 'Transpluto']  XL-with-ratio-ends=[]
+8 Vecu/8 Robert Havlin                   ratioBodies H7 J3 inBoth=[]  XL-with-ratio-ends=[('Juno', 'Jupiter', 0.524, 8.618)]
+9 Big Gypsy King/9 Neil Callan           ratioBodies H5 J8 inBoth=['Sedna', 'Venus', 'Vesta']  XL-with-ratio-ends=[('Uranus', 'Venus', 106.035, 0.273)]
+##### scan3
+1 Anniversary/1 Rob Hornby
+   skyAlso: []
+   bothCharts: []
+2 Arabian Poet/2 William Buick
+   skyAlso: []
+   bothCharts: []
+3 Double Meaning/3 Pat Dobbs
+   skyAlso: []
+   bothCharts: []
+4 King Of Cities/4 Sean Levey
+   skyAlso: []
+   bothCharts: []
+5 Knights Gold/5 Marco Ghiani
+   skyAlso: ['HVesta-JSun xl 1.28/1.29 sky GC 3.88']
+   bothCharts: []
+6 Scandinavia/6 Tom Marquand
+   skyAlso: ['HSun-JVesta xl 0.73/3.66 sky GC 3.88']
+   bothCharts: ['Jupiter-Eris H 26.66/0.24 J 38.65/0.33']
+7 Sedate/7 Joshua Bryan
+   skyAlso: []
+   bothCharts: []
+8 Vecu/8 Robert Havlin
+   skyAlso: []
+   bothCharts: []
+9 Big Gypsy King/9 Neil Callan
+   skyAlso: []
+   bothCharts: []
+##### web
+1 Anniversary/1 Rob Hornby               nodes 13 biggest  3 crosses-charts n: JGonggong JSedna JVesta
+2 Arabian Poet/2 William Buick           nodes  8 biggest  6 crosses-charts Y: HChiron HMars HMercury JMars JMercury JTranspluto
+3 Double Meaning/3 Pat Dobbs             nodes 14 biggest  7 crosses-charts Y: HMakemake HQuaoar HSaturn HSun JCeres JJuno JSun
+4 King Of Cities/4 Sean Levey            nodes  8 biggest  2 crosses-charts n: HChiron HMakemake
+5 Knights Gold/5 Marco Ghiani            nodes  6 biggest  4 crosses-charts Y: HMercury HPallas JMars JSaturn
+6 Scandinavia/6 Tom Marquand             nodes 12 biggest  3 crosses-charts n: HKetu HMercury HPallas
+7 Sedate/7 Joshua Bryan                  nodes 13 biggest  4 crosses-charts n: HGonggong HHaumea HOrcus HVesta
+8 Vecu/8 Robert Havlin                   nodes 10 biggest  6 crosses-charts Y: HJuno HMakemake HVesta JHaumea JJupiter JSedna
+9 Big Gypsy King/9 Neil Callan           nodes 13 biggest  5 crosses-charts Y: HGonggong HUranus HVenus JVenus JVesta
+##### eqw
+1 Anniversary/1 Rob Hornby               H Sun -12.0010; H Vesta -20.9906
+2 Arabian Poet/2 William Buick           H Mercury +23.0043
+3 Double Meaning/3 Pat Dobbs             
+4 King Of Cities/4 Sean Levey            H Makemake +22.9984
+5 Knights Gold/5 Marco Ghiani            
+6 Scandinavia/6 Tom Marquand             H Gonggong -10.9972
+7 Sedate/7 Joshua Bryan                  
+8 Vecu/8 Robert Havlin                   H Rahu +19.0029
+9 Big Gypsy King/9 Neil Callan           H Ceres +24.9960
+1 Anniversary/1 Rob Hornby               sameBody ['Chiron', 'Uranus', 'three']  joined-in-one-component 1 ['Chiron'] comp size 2
+2 Arabian Poet/2 William Buick           sameBody ['Jupiter', 'Mercury', 'Pallas', 'three']  joined-in-one-component 2 ['Jupiter', 'Mercury'] comp size 10
+3 Double Meaning/3 Pat Dobbs             sameBody ['Jupiter', 'three']  joined-in-one-component 1 ['Jupiter'] comp size 2
+4 King Of Cities/4 Sean Levey            sameBody ['three']  joined-in-one-component 0 [] comp size 0
+5 Knights Gold/5 Marco Ghiani            sameBody ['Venus', 'three']  joined-in-one-component 1 ['Venus'] comp size 3
+6 Scandinavia/6 Tom Marquand             sameBody ['Ceres', 'Saturn', 'Sun', 'three']  joined-in-one-component 1 ['Sun'] comp size 3
+7 Sedate/7 Joshua Bryan                  sameBody ['Gonggong', 'Juno', 'Jupiter', 'three']  joined-in-one-component 1 ['Juno'] comp size 2
+8 Vecu/8 Robert Havlin                   sameBody ['Chiron', 'Jupiter', 'three']  joined-in-one-component 1 ['Jupiter'] comp size 9
+9 Big Gypsy King/9 Neil Callan           sameBody ['Venus', 'three']  joined-in-one-component 1 ['Venus'] comp size 7
+1 Anniversary/1 Rob Hornby
+  BOTHSTRUCK PARTNER H Neptune-J Saturn (2.091/0.023) Hend 2 Jend 1 partner ['Neptune Dec 25/9']
+  BOTHSTRUCK PARTNER H Uranus-J Venus (3.432/0.060) Hend 1 Jend 1 partner ['Venus GC 123']
+  BOTHSTRUCK H Transpluto-J Mars (0.884/1.846) Hend 1 Jend 2 partner []
+  EQ H/J <=0.01%: Uranus 7/5 0.0058%; Ceres 7/6 0.0071%
+2 Arabian Poet/2 William Buick
+  BOTHSTRUCK H Ketu-J Quaoar (1.043/5.548) Hend 3 Jend 2 partner []
+  BOTHSTRUCK H Mercury-J Jupiter (0.019/3.708) Hend 2 Jend 2 partner []
+  BOTHSTRUCK H Mercury-J Mercury (50.259/0.296) Hend 2 Jend 3 partner []
+  BOTHSTRUCK PARTNER H Mercury-J Haumea (126.561/0.227) Hend 2 Jend 2 partner ['Haumea GC 1234/9']
+  BOTHSTRUCK H Pluto-J Neptune (21.757/0.239) Hend 2 Jend 2 partner []
+  BOTHSTRUCK PARTNER H Pluto-J Saturn (33.807/0.094) Hend 2 Jend 4 partner ['Pluto Dec 1', 'Pluto GC 33']
+  BOTHSTRUCK H Rahu-J Venus (29.168/0.154) Hend 3 Jend 2 partner []
+  BOTHSTRUCK H Makemake-J Haumea (13.232/0.187) Hend 1 Jend 2 partner []
+  BOTHSTRUCK H Orcus-J Ceres (148.742/0.068) Hend 1 Jend 2 partner []
+  BOTHSTRUCK H Sedna-J Jupiter (0.571/10.965) Hend 1 Jend 2 partner []
+  EQ H/J <=0.01%: Rahu 22/7 0.0069%
+3 Double Meaning/3 Pat Dobbs
+  BOTHSTRUCK H Saturn-J Sun (2.807/0.068) Hend 1 Jend 1 partner []
+  BOTHSTRUCK H Saturn-J Venus (1.243/0.067) Hend 1 Jend 1 partner []
+  BOTHSTRUCK H Haumea-J Transpluto (77.446/0.017) Hend 1 Jend 3 partner []
+  EQ H/J <=0.01%: 
+4 King Of Cities/4 Sean Levey
+  BOTHSTRUCK H Chiron-J Pallas (71.910/0.223) Hend 1 Jend 1 partner []
+  BOTHSTRUCK H Mars-J Quaoar (99.100/0.263) Hend 1 Jend 2 partner []
+  BOTHSTRUCK H Neptune-J Rahu (0.909/0.838) Hend 2 Jend 1 partner []
+  BOTHSTRUCK H Pluto-J Neptune (19.935/0.300) Hend 3 Jend 1 partner []
+  BOTHSTRUCK H Transpluto-J Jupiter (126.149/0.148) Hend 2 Jend 2 partner []
+  EQ H/J <=0.01%: Venus 11/7 0.0047%
+5 Knights Gold/5 Marco Ghiani
+  BOTHSTRUCK H Pallas-J Saturn (0.452/12.357) Hend 1 Jend 2 partner []
+  BOTHSTRUCK H Saturn-J Quaoar (79.161/0.190) Hend 4 Jend 1 partner []
+  BOTHSTRUCK H Venus-J Venus (0.053/1.027) Hend 1 Jend 1 partner []
+  EQ H/J <=0.01%: 
+6 Scandinavia/6 Tom Marquand
+  BOTHSTRUCK H Chiron-J Mars (6.205/0.001) Hend 1 Jend 2 partner []
+  BOTHSTRUCK H Sun-J Sedna (0.741/12.357) Hend 1 Jend 2 partner []
+  BOTHSTRUCK H Vesta-J Quaoar (82.600/0.229) Hend 3 Jend 1 partner []
+  BOTHSTRUCK H Gonggong-J Pallas (0.300/14.049) Hend 1 Jend 1 partner []
+  BOTHSTRUCK H Quaoar-J Chiron (50.872/0.187) Hend 1 Jend 3 partner []
+  EQ H/J <=0.01%: 
+7 Sedate/7 Joshua Bryan
+  BOTHSTRUCK H Ceres-J Haumea (135.641/0.057) Hend 2 Jend 1 partner []
+  BOTHSTRUCK H Ketu-J Neptune (71.060/0.085) Hend 1 Jend 2 partner []
+  BOTHSTRUCK H Mercury-J Neptune (3.229/0.146) Hend 1 Jend 2 partner []
+  BOTHSTRUCK H Uranus-J Saturn (6.511/0.167) Hend 1 Jend 2 partner []
+  BOTHSTRUCK H Uranus-J Sun (104.043/0.043) Hend 1 Jend 1 partner []
+  BOTHSTRUCK H Venus-J Ketu (25.605/0.062) Hend 2 Jend 5 partner []
+  EQ H/J <=0.01%: 
+8 Vecu/8 Robert Havlin
+  BOTHSTRUCK H Juno-J Jupiter (0.524/8.618) Hend 3 Jend 4 partner []
+  BOTHSTRUCK H Mercury-J Gonggong (1.108/9.029) Hend 2 Jend 3 partner []
+  BOTHSTRUCK PARTNER H Vesta-J Neptune (51.752/0.152) Hend 3 Jend 2 partner ['Vesta GC 917/9']
+  BOTHSTRUCK PARTNER H Transpluto-J Mars (130.359/0.104) Hend 2 Jend 1 partner ['Mars Dec 12']
+  EQ H/J <=0.01%: 
+9 Big Gypsy King/9 Neil Callan
+  BOTHSTRUCK H Juno-J Gonggong (0.836/17.862) Hend 1 Jend 2 partner []
+  BOTHSTRUCK H Saturn-J Gonggong (1.348/8.808) Hend 2 Jend 2 partner []
+  BOTHSTRUCK H Uranus-J Venus (106.035/0.273) Hend 1 Jend 3 partner []
+  BOTHSTRUCK PARTNER H Uranus-J Transpluto (98.953/0.252) Hend 1 Jend 4 partner ['Uranus GC 724/9']
+  BOTHSTRUCK H Makemake-J Pluto (1.327/12.820) Hend 2 Jend 2 partner []
+  BOTHSTRUCK H Orcus-J Makemake (1.343/50.193) Hend 2 Jend 3 partner []
+  BOTHSTRUCK H Quaoar-J Uranus (56.885/0.052) Hend 1 Jend 2 partner []
+  BOTHSTRUCK PARTNER H Transpluto-J Makemake (0.201/27.848) Hend 2 Jend 3 partner ['Makemake Dec 96/9']
+  EQ H/J <=0.01%: 
