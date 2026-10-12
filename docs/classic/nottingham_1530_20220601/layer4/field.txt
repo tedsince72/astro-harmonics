@@ -1,4 +1,4 @@
-== nottingham_1530_20220601  field of 5   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== nottingham_1530_20220601  field of 5   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 2 Dynamic Force / 2 Ray Dawson; P03 3 Princess Shabnam / 3 Harry Burns; P05 4 Ballet Steps / 4 Kieran Shoemark; P07 5 Swayze / 5 Lewis Edmunds; P09 6 Silky Wilkie / 6 Clifford Lee
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              3/5: P01:1 P03:4 P07:2  |   5: P01:19 P03:16 P05:11 P07:20 P09:13
@@ -16,16 +16,20 @@
    [ 1m] cross link, 2+ sky bodies on both ends      1/5: P01:1  |   4: P01:3 P03:2 P07:3 P09:1
    [12m] pair in one chart, 2+ sky bodies on both ends  2/5: P07:1 P09:1  |   5: P01:1 P03:5 P05:3 P07:9 P09:5
 -- tightest instance of each shape
-   [ 1] P01 2 Dynamic Force / 2 Ray Dawson: horse Saturn – jockey Uranus (RA 0.0077 Dec 0.9040)
-   [ 2] P01 2 Dynamic Force / 2 Ray Dawson: horse Sedna – jockey Chiron (RA 88.9928 Dec 0.0055)
-   [ 4] P07 5 Swayze / 5 Lewis Edmunds: horse Neptune – jockey Pallas (RA 1.1036 Dec 3.9293)
-   [ 5] P05 4 Ballet Steps / 4 Kieran Shoemark: moved J Jupiter (RA 0.0444 Dec 7.7555)
-   [ 6] P07 5 Swayze / 5 Lewis Edmunds: swap Gonggong/Sun (RA 127.3442 Dec 0.2708)
-   [ 7] P01 2 Dynamic Force / 2 Ray Dawson: triangle Mars/Node/Venus ()
-   [ 8] P01 2 Dynamic Force / 2 Ray Dawson: ratio 11/8 ()
-   [10] P07 5 Swayze / 5 Lewis Edmunds: J Makemake -> H Jupiter (split error 0.0010%)
-   [11] P05 4 Ballet Steps / 4 Kieran Shoemark: same body Neptune (worst 0.0388%)
-   [12] P07 5 Swayze / 5 Lewis Edmunds: H Orcus–Transpluto (Flat 21.55553 = 194/9)
+   [ strict:1] P01 2 Dynamic Force / 2 Ray Dawson: horse Chiron – jockey Mars (RA 172.2662 Dec 0.0152)
+   [ strict:2] P01 2 Dynamic Force / 2 Ray Dawson: horse Jupiter – jockey Uranus (RA 27.7501 Dec 0.1823)
+   [ strict:4] P07 5 Swayze / 5 Lewis Edmunds: horse Neptune – jockey Pallas (RA 1.1036 Dec 3.9293)
+   [ strict:5] P05 4 Ballet Steps / 4 Kieran Shoemark: moved J Jupiter (RA 0.0444 Dec 7.7555)
+   [ strict:6] P07 5 Swayze / 5 Lewis Edmunds: swap Gonggong/Sun (RA 127.3442 Dec 0.2708)
+   [strict:10] P07 5 Swayze / 5 Lewis Edmunds: J Makemake -> H Jupiter (split error 0.0010%)
+   [strict:11] P05 4 Ballet Steps / 4 Kieran Shoemark: same body Neptune (worst 0.0388%)
+   [  broad:1] P01 2 Dynamic Force / 2 Ray Dawson: horse Saturn – jockey Uranus (RA 0.0077 Dec 0.9040) broad/near
+   [  broad:2] P01 2 Dynamic Force / 2 Ray Dawson: horse Sedna – jockey Chiron (RA 88.9928 Dec 0.0055) broad/near
+   [  broad:4] P07 5 Swayze / 5 Lewis Edmunds: horse Neptune – jockey Pallas (RA 1.1036 Dec 3.9293)
+   [  broad:5] P05 4 Ballet Steps / 4 Kieran Shoemark: moved J Jupiter (RA 0.0444 Dec 7.7555)
+   [  broad:6] P07 5 Swayze / 5 Lewis Edmunds: swap Gonggong/Sun (RA 127.3442 Dec 0.2708)
+   [ broad:10] P07 5 Swayze / 5 Lewis Edmunds: J Makemake -> H Jupiter (split error 0.0010%)
+   [ broad:11] P05 4 Ballet Steps / 4 Kieran Shoemark: same body Neptune (worst 0.0388%)
 -- field-only findings (shape numbers)
    P01 2 Dynamic Force / 2 Ray Dawson: only (strict) 1m; only (broad) -; strict, shared with one other -
    P07 5 Swayze / 5 Lewis Edmunds: only (strict) 4,6,12; only (broad) -; strict, shared with one other 12m

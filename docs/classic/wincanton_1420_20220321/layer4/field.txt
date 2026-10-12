@@ -1,4 +1,4 @@
-== wincanton_1420_20220321  field of 6   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== wincanton_1420_20220321  field of 6   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Reserve Tank / 1 Brendan Powell; P03 2 Guernesey / 2 Tom O'Brien; P05 3 Ballyblack / 3 Rex Dingle; P07 4 River Bray / 4 Alan Johns; P09 5 Birds Of Prey / 5 Harry Cobden; P11 6 Electric Annie / 6 Nick Scholfield
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              3/6: P01:1 P05:1 P11:1  |   6: P01:7 P03:16 P05:18 P07:23 P09:18 P11:11
@@ -16,16 +16,20 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   5: P01:1 P03:2 P05:1 P09:4 P11:3
    [12m] pair in one chart, 2+ sky bodies on both ends  2/6: P03:1 P09:1  |   6: P01:4 P03:3 P05:8 P07:5 P09:7 P11:3
 -- tightest instance of each shape
-   [ 1] P05 3 Ballyblack / 3 Rex Dingle: horse Juno – jockey Eris (RA 158.2914 Dec 0.0015)
-   [ 2] P05 3 Ballyblack / 3 Rex Dingle: horse Juno – jockey Eris (RA 158.2914 Dec 0.0015)
-   [ 3] P07 4 River Bray / 4 Alan Johns: horse Neptune – jockey Mercury (RA 128.8910 Dec 0.1043)
-   [ 5] P07 4 River Bray / 4 Alan Johns: moved H Mercury (RA 0.0255 Dec 8.0916)
-   [ 6] P01 1 Reserve Tank / 1 Brendan Powell: swap Pluto/Venus (RA 25.1431 Dec 0.1643)
-   [ 7] P01 1 Reserve Tank / 1 Brendan Powell: triangle Chiron/Node/Sun ()
-   [ 8] P01 1 Reserve Tank / 1 Brendan Powell: number 7 ()
-   [10] P11 6 Electric Annie / 6 Nick Scholfield: H Pluto -> H Eris (split error 0.0002%)
-   [11] P09 5 Birds Of Prey / 5 Harry Cobden: same body Node (worst 0.0125%)
-   [12] P01 1 Reserve Tank / 1 Brendan Powell: H Sun–Node (RA 0.0076 Dec 0.0044)
+   [ strict:1] P05 3 Ballyblack / 3 Rex Dingle: horse Ceres – jockey Venus (RA 39.2232 Dec 0.0396)
+   [ strict:2] P01 1 Reserve Tank / 1 Brendan Powell: horse Pallas – jockey Transpluto (RA 0.1370 Dec 4.5829)
+   [ strict:3] P07 4 River Bray / 4 Alan Johns: horse Neptune – jockey Mercury (RA 128.8910 Dec 0.1043)
+   [ strict:5] P07 4 River Bray / 4 Alan Johns: moved H Mercury (RA 0.0255 Dec 8.0916)
+   [ strict:6] P01 1 Reserve Tank / 1 Brendan Powell: swap Pluto/Venus (RA 25.1431 Dec 0.1643)
+   [strict:10] P11 6 Electric Annie / 6 Nick Scholfield: H Pluto -> H Eris (split error 0.0002%)
+   [strict:11] P09 5 Birds Of Prey / 5 Harry Cobden: same body Node (worst 0.0125%)
+   [  broad:1] P05 3 Ballyblack / 3 Rex Dingle: horse Juno – jockey Eris (RA 158.2914 Dec 0.0015) broad/near
+   [  broad:2] P05 3 Ballyblack / 3 Rex Dingle: horse Juno – jockey Eris (RA 158.2914 Dec 0.0015) broad/near
+   [  broad:3] P07 4 River Bray / 4 Alan Johns: horse Neptune – jockey Mercury (RA 128.8910 Dec 0.1043)
+   [  broad:5] P07 4 River Bray / 4 Alan Johns: moved H Mercury (RA 0.0255 Dec 8.0916)
+   [  broad:6] P01 1 Reserve Tank / 1 Brendan Powell: swap Pluto/Venus (RA 25.1431 Dec 0.1643)
+   [ broad:10] P11 6 Electric Annie / 6 Nick Scholfield: H Pluto -> H Eris (split error 0.0002%)
+   [ broad:11] P09 5 Birds Of Prey / 5 Harry Cobden: same body Node (worst 0.0125%)
 -- field-only findings (shape numbers)
    P01 1 Reserve Tank / 1 Brendan Powell: only (strict) 6; only (broad) -; strict, shared with one other -
    P03 2 Guernesey / 2 Tom O'Brien: only (strict) -; only (broad) -; strict, shared with one other 12,12m

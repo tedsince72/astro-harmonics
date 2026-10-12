@@ -1,4 +1,4 @@
-== sandown_1430_20240215  field of 7   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== sandown_1430_20240215  field of 7   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Aston Martini / 1 James Bowen; P03 2 Cherie d'Am / 2 Harry Skelton; P05 3 Either Or / 3 Nico de Boinville; P07 4 Jeune Belle / 4 Bryony Le Clerc; P09 5 Little Miss Dante / 5 Sean Bowen; P11 6 Smiling Getaway / 6 Sam Twiston-Davies; P13 7 Springtime Promise / 7 Connor Brace
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              3/7: P03:2 P07:1 P11:1  |   7: P01:11 P03:11 P05:10 P07:14 P09:10 P11:11 P13:12
@@ -16,17 +16,20 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/7: -  |   6: P01:1 P03:5 P05:3 P09:2 P11:1 P13:1
    [12m] pair in one chart, 2+ sky bodies on both ends  1/7: P13:1  |   7: P01:5 P03:4 P05:1 P07:4 P09:1 P11:4 P13:3
 -- tightest instance of each shape
-   [ 1] P05 3 Either Or / 3 Nico de Boinville: horse Venus – jockey Node (RA 0.0475 Dec 1.5313)
-   [ 2] P03 2 Cherie d'Am / 2 Harry Skelton: horse Quaoar – jockey Uranus (RA 0.1336 Dec 8.2722)
-   [ 3] P01 1 Aston Martini / 1 James Bowen: horse Pluto – jockey Mars (RA 42.6925 Dec 0.1945)
-   [ 4] P11 6 Smiling Getaway / 6 Sam Twiston-Davies: horse Orcus – jockey Eris (RA 128.7625 Dec 0.3366)
-   [ 5] P07 4 Jeune Belle / 4 Bryony Le Clerc: moved J Ceres (RA 0.1044 Dec 12.7975)
-   [ 6] P13 7 Springtime Promise / 7 Connor Brace: swap Ceres/Juno (RA 40.9225 Dec 0.1177)
-   [ 7] P01 1 Aston Martini / 1 James Bowen: triangle Makemake/Neptune/Sun ()
-   [ 8] P01 1 Aston Martini / 1 James Bowen: number 9 ()
-   [10] P11 6 Smiling Getaway / 6 Sam Twiston-Davies: J Mercury -> H Chiron (split error 0.0094%)
-   [11] P13 7 Springtime Promise / 7 Connor Brace: same body Mercury (worst 0.0040%)
-   [12] P03 2 Cherie d'Am / 2 Harry Skelton: J Uranus–Neptune (Flat 9.00007 = 9)
+   [ strict:1] P11 6 Smiling Getaway / 6 Sam Twiston-Davies: horse Juno – jockey Neptune (RA 0.5786 Dec 14.2494)
+   [ strict:3] P01 1 Aston Martini / 1 James Bowen: horse Pluto – jockey Mars (RA 42.6925 Dec 0.1945)
+   [ strict:5] P07 4 Jeune Belle / 4 Bryony Le Clerc: moved J Ceres (RA 0.1044 Dec 12.7975)
+   [ strict:6] P13 7 Springtime Promise / 7 Connor Brace: swap Ceres/Juno (RA 40.9225 Dec 0.1177)
+   [strict:10] P11 6 Smiling Getaway / 6 Sam Twiston-Davies: J Mercury -> H Chiron (split error 0.0094%)
+   [strict:11] P13 7 Springtime Promise / 7 Connor Brace: same body Mercury (worst 0.0040%)
+   [  broad:1] P05 3 Either Or / 3 Nico de Boinville: horse Venus – jockey Node (RA 0.0475 Dec 1.5313) broad/near
+   [  broad:2] P03 2 Cherie d'Am / 2 Harry Skelton: horse Quaoar – jockey Uranus (RA 0.1336 Dec 8.2722) broad/near
+   [  broad:3] P01 1 Aston Martini / 1 James Bowen: horse Pluto – jockey Mars (RA 42.6925 Dec 0.1945)
+   [  broad:4] P11 6 Smiling Getaway / 6 Sam Twiston-Davies: horse Orcus – jockey Eris (RA 128.7625 Dec 0.3366) broad/near
+   [  broad:5] P07 4 Jeune Belle / 4 Bryony Le Clerc: moved J Ceres (RA 0.1044 Dec 12.7975)
+   [  broad:6] P13 7 Springtime Promise / 7 Connor Brace: swap Ceres/Juno (RA 40.9225 Dec 0.1177)
+   [ broad:10] P11 6 Smiling Getaway / 6 Sam Twiston-Davies: J Mercury -> H Chiron (split error 0.0094%)
+   [ broad:11] P13 7 Springtime Promise / 7 Connor Brace: same body Mercury (worst 0.0040%)
 -- field-only findings (shape numbers)
    P01 1 Aston Martini / 1 James Bowen: only (strict) -; only (broad) -; strict, shared with one other 3
    P05 3 Either Or / 3 Nico de Boinville: only (strict) -; only (broad) -; strict, shared with one other 3

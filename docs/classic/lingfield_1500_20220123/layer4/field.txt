@@ -1,4 +1,4 @@
-== lingfield_1500_20220123  field of 6   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== lingfield_1500_20220123  field of 6   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Bristol De Mai / 1 Sam Twiston-Davies; P03 2 Dashel Drasher / 2 Rex Dingle; P05 3 Master Tommytucker / 3 Harry Cobden; P07 5 Itchy Feet / 5 Gavin Sheehan; P09 6 Lieutenant Rocco / 6 Tom Scudamore; P11 7 Two For Gold / 7 David Bass
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              4/6: P03:2 P05:2 P07:2 P09:1  |   6: P01:13 P03:13 P05:22 P07:13 P09:17 P11:16
@@ -16,18 +16,23 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   4: P01:1 P03:1 P05:2 P11:3
    [12m] pair in one chart, 2+ sky bodies on both ends  1/6: P11:2  |   5: P01:3 P03:3 P05:2 P09:5 P11:6
 -- tightest instance of each shape
-   [ 1] P09 6 Lieutenant Rocco / 6 Tom Scudamore: horse Chiron – jockey Mars (RA 167.8123 Dec 0.0020)
-   [ 2] P09 6 Lieutenant Rocco / 6 Tom Scudamore: horse Chiron – jockey Mars (RA 167.8123 Dec 0.0020)
-   [ 3] P07 5 Itchy Feet / 5 Gavin Sheehan: horse Mercury – jockey Sun (RA 25.8267 Dec 0.4353)
-   [ 4] P07 5 Itchy Feet / 5 Gavin Sheehan: horse Jupiter – jockey Haumea (RA 80.3892 Dec 0.2048)
-   [ 5] P05 3 Master Tommytucker / 3 Harry Cobden: moved H Neptune (RA 15.8037 Dec 0.0059)
-   [ 6] P09 6 Lieutenant Rocco / 6 Tom Scudamore: swap Pluto/Uranus (RA 45.3441 Dec 0.0618)
-   [ 7] P01 1 Bristol De Mai / 1 Sam Twiston-Davies: triangle Eris/Haumea/Sun ()
-   [ 8] P05 3 Master Tommytucker / 3 Harry Cobden: ratio 6/5 ()
-   [ 9] P01 1 Bristol De Mai / 1 Sam Twiston-Davies: shared node (node RA 0.1142)
-   [10] P05 3 Master Tommytucker / 3 Harry Cobden: J Eris -> H Transpluto (split error 0.0008%)
-   [11] P03 2 Dashel Drasher / 2 Rex Dingle: same body Orcus (worst 0.0152%)
-   [12] P09 6 Lieutenant Rocco / 6 Tom Scudamore: H Mars–Sedna (RA 0.0332 Dec 12.3935)
+   [ strict:1] P07 5 Itchy Feet / 5 Gavin Sheehan: horse Mercury – jockey Venus (RA 28.7787 Dec 0.0209)
+   [ strict:2] P09 6 Lieutenant Rocco / 6 Tom Scudamore: horse Saturn – jockey Uranus (RA 0.0524 Dec 2.0812)
+   [ strict:4] P07 5 Itchy Feet / 5 Gavin Sheehan: horse Jupiter – jockey Haumea (RA 80.3892 Dec 0.2048)
+   [ strict:5] P05 3 Master Tommytucker / 3 Harry Cobden: moved H Neptune (RA 15.8037 Dec 0.0059)
+   [ strict:6] P09 6 Lieutenant Rocco / 6 Tom Scudamore: swap Pluto/Uranus (RA 45.3441 Dec 0.0618)
+   [ strict:9] P01 1 Bristol De Mai / 1 Sam Twiston-Davies: shared node (node RA 0.1142)
+   [strict:10] P05 3 Master Tommytucker / 3 Harry Cobden: J Eris -> H Transpluto (split error 0.0008%)
+   [strict:11] P03 2 Dashel Drasher / 2 Rex Dingle: same body Orcus (worst 0.0152%)
+   [  broad:1] P09 6 Lieutenant Rocco / 6 Tom Scudamore: horse Chiron – jockey Mars (RA 167.8123 Dec 0.0020) broad/near
+   [  broad:2] P09 6 Lieutenant Rocco / 6 Tom Scudamore: horse Chiron – jockey Mars (RA 167.8123 Dec 0.0020) broad/near
+   [  broad:3] P07 5 Itchy Feet / 5 Gavin Sheehan: horse Mercury – jockey Sun (RA 25.8267 Dec 0.4353) broad/near
+   [  broad:4] P07 5 Itchy Feet / 5 Gavin Sheehan: horse Jupiter – jockey Haumea (RA 80.3892 Dec 0.2048)
+   [  broad:5] P05 3 Master Tommytucker / 3 Harry Cobden: moved H Neptune (RA 15.8037 Dec 0.0059)
+   [  broad:6] P09 6 Lieutenant Rocco / 6 Tom Scudamore: swap Pluto/Uranus (RA 45.3441 Dec 0.0618)
+   [  broad:9] P01 1 Bristol De Mai / 1 Sam Twiston-Davies: shared node (node RA 0.1142)
+   [ broad:10] P05 3 Master Tommytucker / 3 Harry Cobden: J Eris -> H Transpluto (split error 0.0008%)
+   [ broad:11] P03 2 Dashel Drasher / 2 Rex Dingle: same body Orcus (worst 0.0152%)
 -- field-only findings (shape numbers)
    P01 1 Bristol De Mai / 1 Sam Twiston-Davies: only (strict) 9; only (broad) 9; strict, shared with one other -
    P03 2 Dashel Drasher / 2 Rex Dingle: only (strict) 7; only (broad) -; strict, shared with one other -

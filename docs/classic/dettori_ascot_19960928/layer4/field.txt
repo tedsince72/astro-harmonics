@@ -1,4 +1,4 @@
-== dettori_ascot_19960928  field of 1   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== dettori_ascot_19960928  field of 1   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 4 Diffident / 4 Frankie Dettori
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              0/1: -  |   1: P01:13
@@ -16,17 +16,18 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/1: -  |   1: P01:1
    [12m] pair in one chart, 2+ sky bodies on both ends  0/1: -  |   1: P01:3
 -- tightest instance of each shape
-   [ 1] P01 4 Diffident / 4 Frankie Dettori: horse Saturn – jockey Neptune (RA 70.2320 Dec 0.0306)
-   [ 2] P01 4 Diffident / 4 Frankie Dettori: horse Transpluto – jockey Orcus (RA 33.4838 Dec 0.2369)
-   [ 3] P01 4 Diffident / 4 Frankie Dettori: horse Node – jockey Sun (RA 17.9012 Dec 0.2138)
-   [ 4] P01 4 Diffident / 4 Frankie Dettori: horse Mercury – jockey Sun (RA 17.3129 Dec 0.4371)
-   [ 5] P01 4 Diffident / 4 Frankie Dettori: moved H Pluto (RA 176.3415 Dec 0.1837)
-   [ 6] P01 4 Diffident / 4 Frankie Dettori: swap Eris/Quaoar (RA 170.5419 Dec 0.3785)
-   [ 7] P01 4 Diffident / 4 Frankie Dettori: triangle Mercury/Node/Sun ()
-   [ 8] P01 4 Diffident / 4 Frankie Dettori: ratio 19/6 ()
-   [10] P01 4 Diffident / 4 Frankie Dettori: J Haumea -> J Pluto (split error 0.0007%)
-   [11] P01 4 Diffident / 4 Frankie Dettori: same body Mars (worst 0.0052%)
-   [12] P01 4 Diffident / 4 Frankie Dettori: H Mercury–Node (RA 0.5883 Dec 0.6510)
+   [ strict:3] P01 4 Diffident / 4 Frankie Dettori: horse Node – jockey Sun (RA 17.9012 Dec 0.2138)
+   [ strict:5] P01 4 Diffident / 4 Frankie Dettori: moved H Pluto (RA 176.3415 Dec 0.1837)
+   [strict:10] P01 4 Diffident / 4 Frankie Dettori: J Haumea -> J Pluto (split error 0.0007%)
+   [strict:11] P01 4 Diffident / 4 Frankie Dettori: same body Mars (worst 0.0052%)
+   [  broad:1] P01 4 Diffident / 4 Frankie Dettori: horse Saturn – jockey Neptune (RA 70.2320 Dec 0.0306) broad/near
+   [  broad:2] P01 4 Diffident / 4 Frankie Dettori: horse Transpluto – jockey Orcus (RA 33.4838 Dec 0.2369) broad/near
+   [  broad:3] P01 4 Diffident / 4 Frankie Dettori: horse Node – jockey Sun (RA 17.9012 Dec 0.2138)
+   [  broad:4] P01 4 Diffident / 4 Frankie Dettori: horse Mercury – jockey Sun (RA 17.3129 Dec 0.4371) broad/near
+   [  broad:5] P01 4 Diffident / 4 Frankie Dettori: moved H Pluto (RA 176.3415 Dec 0.1837)
+   [  broad:6] P01 4 Diffident / 4 Frankie Dettori: swap Eris/Quaoar (RA 170.5419 Dec 0.3785) broad/near
+   [ broad:10] P01 4 Diffident / 4 Frankie Dettori: J Haumea -> J Pluto (split error 0.0007%)
+   [ broad:11] P01 4 Diffident / 4 Frankie Dettori: same body Mars (worst 0.0052%)
 -- field-only findings (shape numbers)
    P01 4 Diffident / 4 Frankie Dettori: only (strict) 3,5,7,10,11; only (broad) 1,2,3,4,5,6,7,8,10,11,12,1m,12m; strict, shared with one other -
 -- strong hubs across the field

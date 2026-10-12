@@ -1,4 +1,4 @@
-== fontwell_1530_20231006  field of 7   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== fontwell_1530_20231006  field of 7   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Biscoff Joe / 1 Gearoid Harney; P03 2 Cosmic View / 2 Jamie Moore; P05 3 Kilcummin / 3 David Noonan; P07 4 Logistical / 4 Stan Sheppard; P09 5 Makanao / 5 Jack Tudor; P11 6 Pigeonton / 6 Micheal Nolan; P13 7 Vale Dolobo Dancer / 7 Jack Hogan
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              3/7: P09:3 P11:1 P13:2  |   7: P01:13 P03:19 P05:12 P07:17 P09:19 P11:14 P13:17
@@ -16,17 +16,21 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/7: -  |   5: P03:3 P05:1 P07:2 P11:1 P13:4
    [12m] pair in one chart, 2+ sky bodies on both ends  2/7: P03:1 P07:3  |   7: P01:1 P03:3 P05:1 P07:4 P09:4 P11:2 P13:1
 -- tightest instance of each shape
-   [ 1] P09 5 Makanao / 5 Jack Tudor: horse Makemake – jockey Mars (RA 121.1690 Dec 0.0071)
-   [ 2] P07 4 Logistical / 4 Stan Sheppard: horse Transpluto – jockey Pallas (RA 130.9608 Dec 0.0153)
-   [ 3] P09 5 Makanao / 5 Jack Tudor: horse Mars – jockey Node (RA 28.4259 Dec 0.3032)
-   [ 4] P05 3 Kilcummin / 3 David Noonan: horse Saturn – jockey Neptune (RA 2.9199 Dec 0.0402)
-   [ 5] P13 7 Vale Dolobo Dancer / 7 Jack Hogan: moved H Orcus (RA 49.4372 Dec 0.0290)
-   [ 6] P13 7 Vale Dolobo Dancer / 7 Jack Hogan: swap Rahu/Sun (RA 3.9285 Dec 0.0615)
-   [ 7] P01 1 Biscoff Joe / 1 Gearoid Harney: triangle Jupiter/Mars/Node ()
-   [ 8] P01 1 Biscoff Joe / 1 Gearoid Harney: number 75 ()
-   [10] P05 3 Kilcummin / 3 David Noonan: J Gonggong -> J Ceres (split error 0.0004%)
-   [11] P03 2 Cosmic View / 2 Jamie Moore: same body Mercury (worst 0.0054%)
-   [12] P05 3 Kilcummin / 3 David Noonan: H Node–Transpluto (Dec 33.88897 = 305/9)
+   [ strict:1] P09 5 Makanao / 5 Jack Tudor: horse Makemake – jockey Mars (RA 121.1690 Dec 0.0071)
+   [ strict:2] P01 1 Biscoff Joe / 1 Gearoid Harney: horse Node – jockey Node (RA 4.0353 Dec 0.0320)
+   [ strict:4] P05 3 Kilcummin / 3 David Noonan: horse Saturn – jockey Neptune (RA 2.9199 Dec 0.0402)
+   [ strict:5] P13 7 Vale Dolobo Dancer / 7 Jack Hogan: moved H Orcus (RA 49.4372 Dec 0.0290)
+   [ strict:6] P13 7 Vale Dolobo Dancer / 7 Jack Hogan: swap Rahu/Sun (RA 3.9285 Dec 0.0615)
+   [strict:10] P05 3 Kilcummin / 3 David Noonan: J Gonggong -> J Ceres (split error 0.0004%)
+   [strict:11] P03 2 Cosmic View / 2 Jamie Moore: same body Mercury (worst 0.0054%)
+   [  broad:1] P09 5 Makanao / 5 Jack Tudor: horse Makemake – jockey Mars (RA 121.1690 Dec 0.0071)
+   [  broad:2] P07 4 Logistical / 4 Stan Sheppard: horse Transpluto – jockey Pallas (RA 130.9608 Dec 0.0153) broad/near
+   [  broad:3] P09 5 Makanao / 5 Jack Tudor: horse Mars – jockey Node (RA 28.4259 Dec 0.3032) broad/near
+   [  broad:4] P05 3 Kilcummin / 3 David Noonan: horse Saturn – jockey Neptune (RA 2.9199 Dec 0.0402)
+   [  broad:5] P13 7 Vale Dolobo Dancer / 7 Jack Hogan: moved H Orcus (RA 49.4372 Dec 0.0290)
+   [  broad:6] P13 7 Vale Dolobo Dancer / 7 Jack Hogan: swap Rahu/Sun (RA 3.9285 Dec 0.0615)
+   [ broad:10] P05 3 Kilcummin / 3 David Noonan: J Gonggong -> J Ceres (split error 0.0004%)
+   [ broad:11] P03 2 Cosmic View / 2 Jamie Moore: same body Mercury (worst 0.0054%)
 -- field-only findings (shape numbers)
    P03 2 Cosmic View / 2 Jamie Moore: only (strict) -; only (broad) -; strict, shared with one other 12,12m
    P05 3 Kilcummin / 3 David Noonan: only (strict) 4; only (broad) -; strict, shared with one other 6

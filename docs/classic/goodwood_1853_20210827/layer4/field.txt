@@ -1,4 +1,4 @@
-== goodwood_1853_20210827  field of 5   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== goodwood_1853_20210827  field of 5   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Stunning Beauty / 1 Stefano Cherchi; P03 2 Pretty In Grey / 2 Marco Ghiani; P05 3 Lola Showgirl / 3 Laura Pearson; P07 4 Dalanijujo / 4 Tom Marquand; P09 5 Madame Tantzy / 5 Georgia Dobie
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              2/5: P01:1 P09:1  |   5: P01:17 P03:16 P05:12 P07:16 P09:12
@@ -16,17 +16,21 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/5: -  |   3: P01:4 P03:2 P07:2
    [12m] pair in one chart, 2+ sky bodies on both ends  0/5: -  |   4: P03:1 P05:3 P07:2 P09:3
 -- tightest instance of each shape
-   [ 1] P01 1 Stunning Beauty / 1 Stefano Cherchi: horse Jupiter – jockey Sun (RA 153.7101 Dec 0.0122)
-   [ 2] P05 3 Lola Showgirl / 3 Laura Pearson: horse Neptune – jockey Sun (RA 0.1782 Dec 0.9863)
-   [ 3] P01 1 Stunning Beauty / 1 Stefano Cherchi: horse Sun – jockey Transpluto (RA 114.8190 Dec 0.2386)
-   [ 4] P07 4 Dalanijujo / 4 Tom Marquand: horse Uranus – jockey Eris (RA 0.2435 Dec 16.2597)
-   [ 5] P01 1 Stunning Beauty / 1 Stefano Cherchi: moved J Sun (RA 153.7101 Dec 0.0122)
-   [ 6] P07 4 Dalanijujo / 4 Tom Marquand: swap Mercury/Transpluto (RA 119.2987 Dec 0.5145)
-   [ 7] P01 1 Stunning Beauty / 1 Stefano Cherchi: triangle Mercury/Node/Transpluto ()
-   [ 8] P03 2 Pretty In Grey / 2 Marco Ghiani: ratio 10/9 ()
-   [10] P07 4 Dalanijujo / 4 Tom Marquand: J Eris -> H Haumea (split error 0.0016%)
-   [11] P05 3 Lola Showgirl / 3 Laura Pearson: same body Orcus (worst 0.0656%)
-   [12] P09 5 Madame Tantzy / 5 Georgia Dobie: J Jupiter–Pallas (Flat 9.11117 = 82/9)
+   [ strict:1] P01 1 Stunning Beauty / 1 Stefano Cherchi: horse Haumea – jockey Saturn (RA 158.3221 Dec 0.0949)
+   [ strict:2] P05 3 Lola Showgirl / 3 Laura Pearson: horse Neptune – jockey Sun (RA 0.1782 Dec 0.9863)
+   [ strict:3] P01 1 Stunning Beauty / 1 Stefano Cherchi: horse Sun – jockey Transpluto (RA 114.8190 Dec 0.2386)
+   [ strict:4] P07 4 Dalanijujo / 4 Tom Marquand: horse Uranus – jockey Eris (RA 0.2435 Dec 16.2597)
+   [ strict:5] P01 1 Stunning Beauty / 1 Stefano Cherchi: moved J Sun (RA 153.7101 Dec 0.0122)
+   [strict:10] P07 4 Dalanijujo / 4 Tom Marquand: J Eris -> H Haumea (split error 0.0016%)
+   [strict:11] P05 3 Lola Showgirl / 3 Laura Pearson: same body Orcus (worst 0.0656%)
+   [  broad:1] P01 1 Stunning Beauty / 1 Stefano Cherchi: horse Jupiter – jockey Sun (RA 153.7101 Dec 0.0122) broad/near
+   [  broad:2] P05 3 Lola Showgirl / 3 Laura Pearson: horse Neptune – jockey Sun (RA 0.1782 Dec 0.9863)
+   [  broad:3] P01 1 Stunning Beauty / 1 Stefano Cherchi: horse Sun – jockey Transpluto (RA 114.8190 Dec 0.2386)
+   [  broad:4] P07 4 Dalanijujo / 4 Tom Marquand: horse Uranus – jockey Eris (RA 0.2435 Dec 16.2597)
+   [  broad:5] P01 1 Stunning Beauty / 1 Stefano Cherchi: moved J Sun (RA 153.7101 Dec 0.0122)
+   [  broad:6] P07 4 Dalanijujo / 4 Tom Marquand: swap Mercury/Transpluto (RA 119.2987 Dec 0.5145) broad/near
+   [ broad:10] P07 4 Dalanijujo / 4 Tom Marquand: J Eris -> H Haumea (split error 0.0016%)
+   [ broad:11] P05 3 Lola Showgirl / 3 Laura Pearson: same body Orcus (worst 0.0656%)
 -- field-only findings (shape numbers)
    P01 1 Stunning Beauty / 1 Stefano Cherchi: only (strict) 3; only (broad) 3; strict, shared with one other 1
    P03 2 Pretty In Grey / 2 Marco Ghiani: only (strict) 7; only (broad) -; strict, shared with one other -

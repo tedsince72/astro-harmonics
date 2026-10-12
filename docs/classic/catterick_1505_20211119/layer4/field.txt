@@ -1,4 +1,4 @@
-== catterick_1505_20211119  field of 6   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== catterick_1505_20211119  field of 6   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Reve / 1 Sean Bowen; P03 2 Mance Rayder / 2 Jamie Hamilton; P05 3 Red Giant / 3 Sean Quinlan; P07 4 Brian Boranha / 4 Callum Bewley; P09 5 Cracking Find / 5 Ryan Mania; P11 6 Blazer / 6 Alain Cawley
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              3/6: P01:2 P05:1 P11:1  |   6: P01:14 P03:14 P05:17 P07:17 P09:15 P11:18
@@ -16,17 +16,22 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   5: P01:1 P03:1 P05:3 P09:4 P11:1
    [12m] pair in one chart, 2+ sky bodies on both ends  2/6: P05:2 P11:2  |   5: P01:1 P03:4 P05:4 P09:2 P11:5
 -- tightest instance of each shape
-   [ 1] P07 4 Brian Boranha / 4 Callum Bewley: horse Sun – jockey Vesta (RA 31.1210 Dec 0.0001)
-   [ 2] P11 6 Blazer / 6 Alain Cawley: horse Makemake – jockey Mars (RA 0.0220 Dec 31.1175)
-   [ 3] P01 1 Reve / 1 Sean Bowen: horse Sun – jockey Node (RA 0.1051 Dec 0.0468)
-   [ 4] P07 4 Brian Boranha / 4 Callum Bewley: horse Saturn – jockey Juno (RA 18.4313 Dec 0.2079)
-   [ 5] P07 4 Brian Boranha / 4 Callum Bewley: moved J Vesta (RA 31.1210 Dec 0.0001)
-   [ 6] P03 2 Mance Rayder / 2 Jamie Hamilton: swap Ketu/Sedna (RA 0.3705 Dec 12.1913)
-   [ 7] P01 1 Reve / 1 Sean Bowen: triangle Eris/Node/Transpluto ()
-   [ 8] P01 1 Reve / 1 Sean Bowen: number 164 ()
-   [10] P11 6 Blazer / 6 Alain Cawley: J Haumea -> J Juno (split error 0.0003%)
-   [11] P09 5 Cracking Find / 5 Ryan Mania: same body Venus (worst 0.0021%)
-   [12] P05 3 Red Giant / 3 Sean Quinlan: H Juno–Makemake (RA 21.88916 = 197/9)
+   [ strict:1] P05 3 Red Giant / 3 Sean Quinlan: horse Mars – jockey Juno (RA 0.1876 Dec 18.2606)
+   [ strict:2] P05 3 Red Giant / 3 Sean Quinlan: horse Eris – jockey Mars (RA 167.8603 Dec 0.1010)
+   [ strict:3] P01 1 Reve / 1 Sean Bowen: horse Sun – jockey Node (RA 0.1051 Dec 0.0468)
+   [ strict:4] P07 4 Brian Boranha / 4 Callum Bewley: horse Saturn – jockey Juno (RA 18.4313 Dec 0.2079)
+   [ strict:5] P07 4 Brian Boranha / 4 Callum Bewley: moved J Vesta (RA 31.1210 Dec 0.0001)
+   [ strict:6] P11 6 Blazer / 6 Alain Cawley: swap Rahu/Uranus (RA 1.4715 Dec 0.1084)
+   [strict:10] P11 6 Blazer / 6 Alain Cawley: J Haumea -> J Juno (split error 0.0003%)
+   [strict:11] P09 5 Cracking Find / 5 Ryan Mania: same body Venus (worst 0.0021%)
+   [  broad:1] P07 4 Brian Boranha / 4 Callum Bewley: horse Sun – jockey Vesta (RA 31.1210 Dec 0.0001) broad/near
+   [  broad:2] P11 6 Blazer / 6 Alain Cawley: horse Makemake – jockey Mars (RA 0.0220 Dec 31.1175) broad/near
+   [  broad:3] P01 1 Reve / 1 Sean Bowen: horse Sun – jockey Node (RA 0.1051 Dec 0.0468)
+   [  broad:4] P07 4 Brian Boranha / 4 Callum Bewley: horse Saturn – jockey Juno (RA 18.4313 Dec 0.2079)
+   [  broad:5] P07 4 Brian Boranha / 4 Callum Bewley: moved J Vesta (RA 31.1210 Dec 0.0001)
+   [  broad:6] P03 2 Mance Rayder / 2 Jamie Hamilton: swap Ketu/Sedna (RA 0.3705 Dec 12.1913) broad/near
+   [ broad:10] P11 6 Blazer / 6 Alain Cawley: J Haumea -> J Juno (split error 0.0003%)
+   [ broad:11] P09 5 Cracking Find / 5 Ryan Mania: same body Venus (worst 0.0021%)
 -- field-only findings (shape numbers)
    P01 1 Reve / 1 Sean Bowen: only (strict) 3; only (broad) -; strict, shared with one other -
    P03 2 Mance Rayder / 2 Jamie Hamilton: only (strict) -; only (broad) -; strict, shared with one other 7

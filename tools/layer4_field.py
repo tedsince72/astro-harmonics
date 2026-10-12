@@ -12,7 +12,7 @@ written to a separate file.
   6 recurring annotations by runner
 Output: docs/classic/<RACE>/layer4/field.json, field.txt (blind); field_results.txt with --results."""
 import sys, os, glob, json, csv, re
-VERSION = 'L4 v1 (12 Oct 2026)'
+VERSION = 'L4 v1.1 (12 Oct 2026)'
 NAMES = {1: 'cross link struck on both ends', 2: 'partner strike', 3: 'pair together in the sky', 4: 'both ends moved',
          5: 'movement onto a cross link', 6: 'swap', 7: 'triangle struck at every corner', 8: 'same number / ratio in both charts',
          9: 'shared node', 10: 'sky body divides a natal pair', 11: 'joined same-body set', 12: 'pair in one chart struck on both ends by 2+'}
@@ -37,8 +37,8 @@ def tightness(s, I):
 def key(s):
     """same pair / same body key across runners"""
     n = s['shape']; b = s.get('bodies', [])
-    if n in (1, 2, 3, 4, 5) and len(b) >= 2: return f"horse {fold(b[0].split(' ',1)[1])} – jockey {fold(b[1].split(' ',1)[1])}"
     if n == 5 and b: return f"moved {b[0].split(' ',1)[0]} {fold(b[0].split(' ',1)[1])}"
+    if n in (1, 2, 3, 4) and len(b) >= 2: return f"horse {fold(b[0].split(' ',1)[1])} – jockey {fold(b[1].split(' ',1)[1])}"
     if n == 6: return f"swap {s['pair']}"
     if n == 8: return f"number {s.get('number')}" if 'number' in s else f"ratio {s.get('ratio')}"
     if n == 11: return f"same body {fold(b[0].split(' ',1)[1])}" if b else ''
@@ -62,6 +62,8 @@ def run(race):
             rec = {'runner': t, 'name': R['runner'], 'shape': s['shape'], 'strict': s['strict'], 'tight_value': round(tv, 4), 'tightness': tt,
                    'roots_behind': s['roots_behind'], 'hub': s['hub'], 'strong_hub': s['strong_hub'], 'key': key(s),
                    'sky_bodies': s.get('same_sky_both_ends', s.get('sky')) if s['shape'] in (1, 12) else None,
+                   'n_sky_bodies': len({fold(x) for x in (s.get('same_sky_both_ends') or s.get('sky') or [])}) if s['shape'] in (1, 12) else None,
+                   'rests_on_near_or_broad': not s['strict'],
                    'strict_multi': s.get('strict_multi'), 'multi': s.get('multi'), 'bodies': s.get('bodies', [])}
             inst.append(rec)
             for lvl in ('strict', 'broad'):
@@ -74,10 +76,14 @@ def run(race):
         for r in inst:
             if r['shape'] in (1, 12) and (r[fld] or (r['shape'] == 12 and lvl == 'broad')):   # shape 12 is 2+ bodies by definition (broad)
                 k = '1m' if r['shape'] == 1 else '12m'; table[lvl][k][r['runner']] = table[lvl][k].get(r['runner'], 0) + 1
-    tightest = {}
-    for k in NAMES:
-        c = [r for r in inst if r['shape'] == k]
-        if c: b = min(c, key=lambda r: r['tight_value']); tightest[k] = {'runner': b['runner'], 'name': b['name'], 'tightness': b['tightness'], 'key': b['key']}
+    tightest = {}   # per level; shapes 7, 8, 12 have no single tightness measure (checker) and are left out
+    for lvl in ('strict', 'broad'):
+        for k in NAMES:
+            if k in (7, 8, 12): continue
+            c = [r for r in inst if r['shape'] == k and (lvl == 'broad' or r['strict'])]
+            if c:
+                b = min(c, key=lambda r: r['tight_value'])
+                tightest[f'{lvl}:{k}'] = {'runner': b['runner'], 'name': b['name'], 'tightness': b['tightness'], 'key': b['key'], 'strict': b['strict']}
     only = {t: {'strict': [], 'broad': [], 'with_one_other_strict': []} for t, _, _ in runners}
     for lvl in ('strict', 'broad'):
         for k, who in table[lvl].items():
@@ -110,7 +116,7 @@ def text(F):
         S, B = F['table']['strict'].get(k, {}), F['table']['broad'].get(k, {})
         L.append(f"   [{k:>3s}] {nm:42s} {len(S):2d}/{len(F['runners'])}: {' '.join(f'{p}:{c}' for p, c in S.items()) or '-'}  |  {len(B):2d}: {' '.join(f'{p}:{c}' for p, c in B.items()) or '-'}")
     L.append('-- tightest instance of each shape')
-    for k, v in F['tightest'].items(): L.append(f"   [{k:>2s}] {v['runner']} {v['name']}: {v['key']} ({v['tightness']})")
+    for k, v in F['tightest'].items(): L.append(f"   [{k:>9s}] {v['runner']} {v['name']}: {v['key']} ({v['tightness']}){'' if v['strict'] else ' broad/near'}")
     L.append('-- field-only findings (shape numbers)')
     for r in F['runners']:
         o = F['only'][r['P']]

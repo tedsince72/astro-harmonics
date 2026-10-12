@@ -1,4 +1,4 @@
-== exeter_1515_20211019  field of 6   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== exeter_1515_20211019  field of 6   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Caspers Court / 1 Tom Scudamore; P03 2 Jarlath / 2 Sean Houlihan; P05 3 Pens Man / 3 Jonjo O'Neill Jr; P07 4 Pointed And Sharp / 4 Tom O'Brien; P09 5 Blaze A Trail / 5 Connor Brace; P11 7 Forget You Not / 7 James Best
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              2/6: P05:2 P11:1  |   6: P01:14 P03:20 P05:17 P07:12 P09:15 P11:14
@@ -16,16 +16,20 @@
    [ 1m] cross link, 2+ sky bodies on both ends      1/6: P03:1  |   6: P01:1 P03:1 P05:2 P07:2 P09:1 P11:2
    [12m] pair in one chart, 2+ sky bodies on both ends  2/6: P01:1 P05:1  |   4: P01:6 P03:2 P05:2 P09:4
 -- tightest instance of each shape
-   [ 1] P01 1 Caspers Court / 1 Tom Scudamore: horse Saturn – jockey Ceres (RA 0.0056 Dec 5.7464)
-   [ 2] P01 1 Caspers Court / 1 Tom Scudamore: horse Saturn – jockey Ceres (RA 0.0056 Dec 5.7464)
-   [ 4] P01 1 Caspers Court / 1 Tom Scudamore: horse Vesta – jockey Sedna (RA 160.2349 Dec 0.0054)
-   [ 5] P01 1 Caspers Court / 1 Tom Scudamore: moved H Vesta (RA 160.2349 Dec 0.0054)
-   [ 6] P09 5 Blaze A Trail / 5 Connor Brace: swap Jupiter/Mercury (RA 12.0179 Dec 0.1563)
-   [ 7] P01 1 Caspers Court / 1 Tom Scudamore: triangle Ceres/Mercury/Pallas ()
-   [ 8] P01 1 Caspers Court / 1 Tom Scudamore: ratio 20/9 ()
-   [10] P03 2 Jarlath / 2 Sean Houlihan: J Ceres -> J Jupiter (split error 0.0000%)
-   [11] P01 1 Caspers Court / 1 Tom Scudamore: same body Jupiter (worst 0.0035%)
-   [12] P09 5 Blaze A Trail / 5 Connor Brace: H Vesta–Eris (Flat 173.11115 = 1558/9)
+   [ strict:1] P11 7 Forget You Not / 7 James Best: horse Juno – jockey Chiron (RA 10.9798 Dec 0.0555)
+   [ strict:2] P09 5 Blaze A Trail / 5 Connor Brace: horse Sedna – jockey Vesta (RA 0.2496 Dec 6.1232)
+   [ strict:4] P01 1 Caspers Court / 1 Tom Scudamore: horse Vesta – jockey Sedna (RA 160.2349 Dec 0.0054)
+   [ strict:5] P01 1 Caspers Court / 1 Tom Scudamore: moved H Vesta (RA 160.2349 Dec 0.0054)
+   [ strict:6] P09 5 Blaze A Trail / 5 Connor Brace: swap Jupiter/Mercury (RA 12.0179 Dec 0.1563)
+   [strict:10] P03 2 Jarlath / 2 Sean Houlihan: J Ceres -> J Jupiter (split error 0.0000%)
+   [strict:11] P01 1 Caspers Court / 1 Tom Scudamore: same body Jupiter (worst 0.0035%)
+   [  broad:1] P01 1 Caspers Court / 1 Tom Scudamore: horse Saturn – jockey Ceres (RA 0.0056 Dec 5.7464) broad/near
+   [  broad:2] P01 1 Caspers Court / 1 Tom Scudamore: horse Saturn – jockey Ceres (RA 0.0056 Dec 5.7464) broad/near
+   [  broad:4] P01 1 Caspers Court / 1 Tom Scudamore: horse Vesta – jockey Sedna (RA 160.2349 Dec 0.0054)
+   [  broad:5] P01 1 Caspers Court / 1 Tom Scudamore: moved H Vesta (RA 160.2349 Dec 0.0054)
+   [  broad:6] P09 5 Blaze A Trail / 5 Connor Brace: swap Jupiter/Mercury (RA 12.0179 Dec 0.1563)
+   [ broad:10] P03 2 Jarlath / 2 Sean Houlihan: J Ceres -> J Jupiter (split error 0.0000%)
+   [ broad:11] P01 1 Caspers Court / 1 Tom Scudamore: same body Jupiter (worst 0.0035%)
 -- field-only findings (shape numbers)
    P01 1 Caspers Court / 1 Tom Scudamore: only (strict) -; only (broad) -; strict, shared with one other 12,12m
    P03 2 Jarlath / 2 Sean Houlihan: only (strict) 1m; only (broad) -; strict, shared with one other -

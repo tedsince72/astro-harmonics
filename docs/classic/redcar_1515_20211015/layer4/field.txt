@@ -1,4 +1,4 @@
-== redcar_1515_20211015  field of 5   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== redcar_1515_20211015  field of 5   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 3 Divine Jewel / 3 David Egan; P03 4 Oheka / 4 Kieran Shoemark; P05 5 Present Moment / 5 Dylan Hogan; P07 6 Sea Time / 6 David Nolan; P09 8 World Without Love / 8 Joe Fanning
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              1/5: P07:2  |   5: P01:19 P03:12 P05:13 P07:15 P09:17
@@ -16,16 +16,19 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/5: -  |   5: P01:2 P03:4 P05:1 P07:1 P09:1
    [12m] pair in one chart, 2+ sky bodies on both ends  2/5: P01:1 P09:1  |   5: P01:1 P03:7 P05:7 P07:2 P09:5
 -- tightest instance of each shape
-   [ 1] P01 3 Divine Jewel / 3 David Egan: horse Orcus – jockey Mars (RA 49.4544 Dec 0.0004)
-   [ 2] P05 5 Present Moment / 5 Dylan Hogan: horse Pluto – jockey Uranus (RA 0.0260 Dec 0.1971)
-   [ 4] P09 8 World Without Love / 8 Joe Fanning: horse Sedna – jockey Juno (RA 0.1314 Dec 1.9043)
-   [ 5] P01 3 Divine Jewel / 3 David Egan: moved H Uranus (RA 0.0431 Dec 0.7365)
-   [ 6] P03 4 Oheka / 4 Kieran Shoemark: swap Gonggong/Venus (RA 2.0566 Dec 0.3827)
-   [ 7] P01 3 Divine Jewel / 3 David Egan: triangle Mars/Transpluto/Uranus ()
-   [ 8] P03 4 Oheka / 4 Kieran Shoemark: number 66 ()
-   [10] P03 4 Oheka / 4 Kieran Shoemark: H Sun -> H Quaoar (split error 0.0007%)
-   [11] P05 5 Present Moment / 5 Dylan Hogan: same body Pallas (worst 0.0090%)
-   [12] P05 5 Present Moment / 5 Dylan Hogan: J Neptune–Node (Dec 37.55566 = 338/9)
+   [ strict:1] P07 6 Sea Time / 6 David Nolan: horse Pluto – jockey Gonggong (RA 34.5704 Dec 0.1557)
+   [ strict:2] P05 5 Present Moment / 5 Dylan Hogan: horse Ceres – jockey Jupiter (RA 20.9764 Dec 0.1131)
+   [ strict:4] P09 8 World Without Love / 8 Joe Fanning: horse Sedna – jockey Juno (RA 0.1314 Dec 1.9043)
+   [ strict:5] P01 3 Divine Jewel / 3 David Egan: moved H Uranus (RA 0.0431 Dec 0.7365)
+   [strict:10] P03 4 Oheka / 4 Kieran Shoemark: H Sun -> H Quaoar (split error 0.0007%)
+   [strict:11] P05 5 Present Moment / 5 Dylan Hogan: same body Pallas (worst 0.0090%)
+   [  broad:1] P01 3 Divine Jewel / 3 David Egan: horse Orcus – jockey Mars (RA 49.4544 Dec 0.0004) broad/near
+   [  broad:2] P05 5 Present Moment / 5 Dylan Hogan: horse Pluto – jockey Uranus (RA 0.0260 Dec 0.1971) broad/near
+   [  broad:4] P09 8 World Without Love / 8 Joe Fanning: horse Sedna – jockey Juno (RA 0.1314 Dec 1.9043)
+   [  broad:5] P01 3 Divine Jewel / 3 David Egan: moved H Uranus (RA 0.0431 Dec 0.7365)
+   [  broad:6] P03 4 Oheka / 4 Kieran Shoemark: swap Gonggong/Venus (RA 2.0566 Dec 0.3827) broad/near
+   [ broad:10] P03 4 Oheka / 4 Kieran Shoemark: H Sun -> H Quaoar (split error 0.0007%)
+   [ broad:11] P05 5 Present Moment / 5 Dylan Hogan: same body Pallas (worst 0.0090%)
 -- field-only findings (shape numbers)
    P01 3 Divine Jewel / 3 David Egan: only (strict) -; only (broad) -; strict, shared with one other 12m
    P03 4 Oheka / 4 Kieran Shoemark: only (strict) -; only (broad) 6; strict, shared with one other 8

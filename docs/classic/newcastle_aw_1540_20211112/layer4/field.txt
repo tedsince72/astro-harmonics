@@ -1,4 +1,4 @@
-== newcastle_aw_1540_20211112  field of 6   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== newcastle_aw_1540_20211112  field of 6   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Poco Contante / 1 Jamie Gormley; P03 2 Gold Terms / 2 Oliver Stammers; P05 3 Heart Throb / 3 Graham Lee; P07 4 Larllunna / 4 Harry Russell; P09 5 Rabat / 5 Connor Beasley; P11 6 Silver Bubble / 6 Tom Marquand
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              3/6: P01:2 P05:1 P09:3  |   6: P01:14 P03:18 P05:17 P07:12 P09:10 P11:17
@@ -16,16 +16,18 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   4: P03:3 P05:2 P09:1 P11:4
    [12m] pair in one chart, 2+ sky bodies on both ends  2/6: P01:2 P11:1  |   5: P01:4 P03:2 P05:2 P07:2 P11:3
 -- tightest instance of each shape
-   [ 1] P07 4 Larllunna / 4 Harry Russell: horse Eris – jockey Vesta (RA 7.2051 Dec 0.0121)
-   [ 2] P07 4 Larllunna / 4 Harry Russell: horse Eris – jockey Vesta (RA 7.2051 Dec 0.0121)
-   [ 4] P09 5 Rabat / 5 Connor Beasley: horse Saturn – jockey Uranus (RA 15.8426 Dec 0.3351)
-   [ 5] P09 5 Rabat / 5 Connor Beasley: moved J Node (RA 47.3547 Dec 0.0129)
-   [ 6] P03 2 Gold Terms / 2 Oliver Stammers: swap Juno/Sedna (RA 33.5951 Dec 0.3888)
-   [ 7] P01 1 Poco Contante / 1 Jamie Gormley: triangle Juno/Mercury/Orcus ()
-   [ 8] P01 1 Poco Contante / 1 Jamie Gormley: number 115 ()
-   [10] P03 2 Gold Terms / 2 Oliver Stammers: H Pluto -> J Neptune (split error 0.0009%)
-   [11] P05 3 Heart Throb / 3 Graham Lee: same body Orcus (worst 0.0105%)
-   [12] P07 4 Larllunna / 4 Harry Russell: H Jupiter–Vesta (Dec 1.33333 = 12/9)
+   [ strict:1] P09 5 Rabat / 5 Connor Beasley: horse Chiron – jockey Chiron (RA 161.9720 Dec 0.0602)
+   [ strict:2] P11 6 Silver Bubble / 6 Tom Marquand: horse Neptune – jockey Jupiter (RA 0.4593 Dec 0.2214)
+   [ strict:5] P09 5 Rabat / 5 Connor Beasley: moved J Node (RA 47.3547 Dec 0.0129)
+   [strict:10] P03 2 Gold Terms / 2 Oliver Stammers: H Pluto -> J Neptune (split error 0.0009%)
+   [strict:11] P05 3 Heart Throb / 3 Graham Lee: same body Orcus (worst 0.0105%)
+   [  broad:1] P07 4 Larllunna / 4 Harry Russell: horse Eris – jockey Vesta (RA 7.2051 Dec 0.0121) broad/near
+   [  broad:2] P07 4 Larllunna / 4 Harry Russell: horse Eris – jockey Vesta (RA 7.2051 Dec 0.0121) broad/near
+   [  broad:4] P09 5 Rabat / 5 Connor Beasley: horse Saturn – jockey Uranus (RA 15.8426 Dec 0.3351) broad/near
+   [  broad:5] P09 5 Rabat / 5 Connor Beasley: moved J Node (RA 47.3547 Dec 0.0129)
+   [  broad:6] P03 2 Gold Terms / 2 Oliver Stammers: swap Juno/Sedna (RA 33.5951 Dec 0.3888) broad/near
+   [ broad:10] P03 2 Gold Terms / 2 Oliver Stammers: H Pluto -> J Neptune (split error 0.0009%)
+   [ broad:11] P05 3 Heart Throb / 3 Graham Lee: same body Orcus (worst 0.0105%)
 -- field-only findings (shape numbers)
    P01 1 Poco Contante / 1 Jamie Gormley: only (strict) -; only (broad) -; strict, shared with one other 12,12m
    P03 2 Gold Terms / 2 Oliver Stammers: only (strict) -; only (broad) 6; strict, shared with one other 7

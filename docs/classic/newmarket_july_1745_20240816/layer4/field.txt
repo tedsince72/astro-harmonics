@@ -1,4 +1,4 @@
-== newmarket_july_1745_20240816  field of 9   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== newmarket_july_1745_20240816  field of 9   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Anniversary / 1 Rob Hornby; P03 2 Arabian Poet / 2 William Buick; P05 3 Double Meaning / 3 Pat Dobbs; P07 4 King Of Cities / 4 Sean Levey; P09 5 Knights Gold / 5 Marco Ghiani; P11 6 Scandinavia / 6 Tom Marquand; P13 7 Sedate / 7 Joshua Bryan; P15 8 Vecu / 8 Robert Havlin; P17 9 Big Gypsy King / 9 Neil Callan
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              5/9: P01:1 P03:1 P07:2 P13:1 P15:2  |   9: P01:11 P03:19 P05:13 P07:16 P09:21 P11:12 P13:15 P15:13 P17:22
@@ -16,17 +16,22 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/9: -  |   8: P01:3 P03:1 P05:2 P09:4 P11:2 P13:1 P15:3 P17:6
    [12m] pair in one chart, 2+ sky bodies on both ends  3/9: P05:1 P13:2 P15:1  |   9: P01:2 P03:5 P05:3 P07:2 P09:7 P11:4 P13:5 P15:2 P17:4
 -- tightest instance of each shape
-   [ 1] P11 6 Scandinavia / 6 Tom Marquand: horse Chiron – jockey Mars (RA 6.2052 Dec 0.0010)
-   [ 2] P09 5 Knights Gold / 5 Marco Ghiani: horse Gonggong – jockey Mars (RA 124.2839 Dec 0.0066)
-   [ 3] P11 6 Scandinavia / 6 Tom Marquand: horse Sun – jockey Vesta (RA 0.7321 Dec 3.6614)
-   [ 4] P17 9 Big Gypsy King / 9 Neil Callan: horse Neptune – jockey Juno (RA 50.2044 Dec 0.0974)
-   [ 5] P09 5 Knights Gold / 5 Marco Ghiani: moved J Ceres (RA 0.0125 Dec 12.3556)
-   [ 6] P15 8 Vecu / 8 Robert Havlin: swap Juno/Quaoar (RA 96.8735 Dec 0.2857)
-   [ 7] P01 1 Anniversary / 1 Rob Hornby: triangle Neptune/Pluto/Venus ()
-   [ 8] P01 1 Anniversary / 1 Rob Hornby: number 21 ()
-   [10] P17 9 Big Gypsy King / 9 Neil Callan: H Haumea -> H Transpluto (split error 0.0003%)
-   [11] P15 8 Vecu / 8 Robert Havlin: same body Jupiter (worst 0.0228%)
-   [12] P13 7 Sedate / 7 Joshua Bryan: J Saturn–Ceres (Flat 89.22199 = 803/9)
+   [ strict:1] P01 1 Anniversary / 1 Rob Hornby: horse Neptune – jockey Saturn (RA 2.0911 Dec 0.0229)
+   [ strict:2] P01 1 Anniversary / 1 Rob Hornby: horse Neptune – jockey Saturn (RA 2.0911 Dec 0.0229)
+   [ strict:3] P11 6 Scandinavia / 6 Tom Marquand: horse Sun – jockey Vesta (RA 0.7321 Dec 3.6614)
+   [ strict:4] P17 9 Big Gypsy King / 9 Neil Callan: horse Neptune – jockey Juno (RA 50.2044 Dec 0.0974)
+   [ strict:5] P09 5 Knights Gold / 5 Marco Ghiani: moved J Ceres (RA 0.0125 Dec 12.3556)
+   [ strict:6] P15 8 Vecu / 8 Robert Havlin: swap Juno/Quaoar (RA 96.8735 Dec 0.2857)
+   [strict:10] P17 9 Big Gypsy King / 9 Neil Callan: H Haumea -> H Transpluto (split error 0.0003%)
+   [strict:11] P15 8 Vecu / 8 Robert Havlin: same body Jupiter (worst 0.0228%)
+   [  broad:1] P11 6 Scandinavia / 6 Tom Marquand: horse Chiron – jockey Mars (RA 6.2052 Dec 0.0010) broad/near
+   [  broad:2] P09 5 Knights Gold / 5 Marco Ghiani: horse Gonggong – jockey Mars (RA 124.2839 Dec 0.0066) broad/near
+   [  broad:3] P11 6 Scandinavia / 6 Tom Marquand: horse Sun – jockey Vesta (RA 0.7321 Dec 3.6614)
+   [  broad:4] P17 9 Big Gypsy King / 9 Neil Callan: horse Neptune – jockey Juno (RA 50.2044 Dec 0.0974)
+   [  broad:5] P09 5 Knights Gold / 5 Marco Ghiani: moved J Ceres (RA 0.0125 Dec 12.3556)
+   [  broad:6] P15 8 Vecu / 8 Robert Havlin: swap Juno/Quaoar (RA 96.8735 Dec 0.2857)
+   [ broad:10] P17 9 Big Gypsy King / 9 Neil Callan: H Haumea -> H Transpluto (split error 0.0003%)
+   [ broad:11] P15 8 Vecu / 8 Robert Havlin: same body Jupiter (worst 0.0228%)
 -- field-only findings (shape numbers)
    P09 5 Knights Gold / 5 Marco Ghiani: only (strict) -; only (broad) -; strict, shared with one other 3
    P11 6 Scandinavia / 6 Tom Marquand: only (strict) -; only (broad) -; strict, shared with one other 3

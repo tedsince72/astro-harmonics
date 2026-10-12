@@ -1,4 +1,4 @@
-== haydock_1405_20220219  field of 6   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== haydock_1405_20220219  field of 6   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Third Wind / 1 Tom O'Brien; P03 2 Thomas Darby / 2 Aidan Coleman; P05 3 Emitom / 3 Brian Hughes; P07 4 Top Ville Ben / 4 Thomas Dowson; P09 5 Wholestone / 5 Sam Twiston-Davies; P11 6 Molly Ollys Wishes / 6 Harry Skelton
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              2/6: P09:1 P11:1  |   6: P01:17 P03:10 P05:8 P07:8 P09:12 P11:19
@@ -16,18 +16,23 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   4: P01:1 P03:1 P07:1 P09:1
    [12m] pair in one chart, 2+ sky bodies on both ends  5/6: P01:1 P03:1 P07:3 P09:1 P11:1  |   6: P01:1 P03:5 P05:2 P07:6 P09:4 P11:3
 -- tightest instance of each shape
-   [ 1] P01 1 Third Wind / 1 Tom O'Brien: horse Chiron – jockey Jupiter (RA 0.0528 Dec 6.6601)
-   [ 2] P05 3 Emitom / 3 Brian Hughes: horse Saturn – jockey Quaoar (RA 0.1745 Dec 2.9541)
-   [ 3] P11 6 Molly Ollys Wishes / 6 Harry Skelton: horse Vesta – jockey Mars (RA 29.9083 Dec 0.2784)
-   [ 4] P09 5 Wholestone / 5 Sam Twiston-Davies: horse Chiron – jockey Pluto (RA 100.4895 Dec 0.3992)
-   [ 5] P05 3 Emitom / 3 Brian Hughes: moved J Pluto (RA 16.2991 Dec 0.0153)
-   [ 6] P03 2 Thomas Darby / 2 Aidan Coleman: swap Quaoar/Saturn (RA 0.7754 Dec 6.7248)
-   [ 7] P01 1 Third Wind / 1 Tom O'Brien: triangle Haumea/Makemake/Pallas ()
-   [ 8] P01 1 Third Wind / 1 Tom O'Brien: number 239/9 ()
-   [ 9] P09 5 Wholestone / 5 Sam Twiston-Davies: shared node (node RA 2.3791)
-   [10] P09 5 Wholestone / 5 Sam Twiston-Davies: H Haumea -> H Sedna (split error 0.0019%)
-   [11] P05 3 Emitom / 3 Brian Hughes: same body Chiron (worst 0.0230%)
-   [12] P01 1 Third Wind / 1 Tom O'Brien: J Sun–Gonggong (RA 83.5638 Dec 0.0004)
+   [ strict:1] P11 6 Molly Ollys Wishes / 6 Harry Skelton: horse Uranus – jockey Orcus (RA 119.2327 Dec 0.1241)
+   [ strict:2] P07 4 Top Ville Ben / 4 Thomas Dowson: horse Node – jockey Pluto (RA 0.3862 Dec 13.1574)
+   [ strict:3] P11 6 Molly Ollys Wishes / 6 Harry Skelton: horse Vesta – jockey Mars (RA 29.9083 Dec 0.2784)
+   [ strict:5] P05 3 Emitom / 3 Brian Hughes: moved J Pluto (RA 16.2991 Dec 0.0153)
+   [ strict:6] P03 2 Thomas Darby / 2 Aidan Coleman: swap Quaoar/Saturn (RA 0.7754 Dec 6.7248)
+   [ strict:9] P09 5 Wholestone / 5 Sam Twiston-Davies: shared node (node RA 2.3791)
+   [strict:10] P09 5 Wholestone / 5 Sam Twiston-Davies: H Haumea -> H Sedna (split error 0.0019%)
+   [strict:11] P05 3 Emitom / 3 Brian Hughes: same body Chiron (worst 0.0230%)
+   [  broad:1] P01 1 Third Wind / 1 Tom O'Brien: horse Chiron – jockey Jupiter (RA 0.0528 Dec 6.6601) broad/near
+   [  broad:2] P05 3 Emitom / 3 Brian Hughes: horse Saturn – jockey Quaoar (RA 0.1745 Dec 2.9541) broad/near
+   [  broad:3] P11 6 Molly Ollys Wishes / 6 Harry Skelton: horse Vesta – jockey Mars (RA 29.9083 Dec 0.2784)
+   [  broad:4] P09 5 Wholestone / 5 Sam Twiston-Davies: horse Chiron – jockey Pluto (RA 100.4895 Dec 0.3992) broad/near
+   [  broad:5] P05 3 Emitom / 3 Brian Hughes: moved J Pluto (RA 16.2991 Dec 0.0153)
+   [  broad:6] P03 2 Thomas Darby / 2 Aidan Coleman: swap Quaoar/Saturn (RA 0.7754 Dec 6.7248)
+   [  broad:9] P09 5 Wholestone / 5 Sam Twiston-Davies: shared node (node RA 2.3791)
+   [ broad:10] P09 5 Wholestone / 5 Sam Twiston-Davies: H Haumea -> H Sedna (split error 0.0019%)
+   [ broad:11] P05 3 Emitom / 3 Brian Hughes: same body Chiron (worst 0.0230%)
 -- field-only findings (shape numbers)
    P03 2 Thomas Darby / 2 Aidan Coleman: only (strict) 6; only (broad) 6; strict, shared with one other -
    P09 5 Wholestone / 5 Sam Twiston-Davies: only (strict) 9; only (broad) 4,9; strict, shared with one other 1

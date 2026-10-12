@@ -1,5 +1,5 @@
 {
- "version": "L4 v1 (12 Oct 2026)",
+ "version": "L4 v1.1 (12 Oct 2026)",
  "race": "worcester_1300_20210822",
  "runners": [
   {
@@ -164,71 +164,110 @@
   }
  },
  "tightest": {
-  "1": {
+  "strict:1": {
    "runner": "P07",
    "name": "4 Thistle Do Nicely / 4 Gavin Sheehan",
    "tightness": "RA 70.7158 Dec 0.0000",
-   "key": "horse Ceres \u2013 jockey Orcus"
+   "key": "horse Ceres \u2013 jockey Orcus",
+   "strict": true
   },
-  "2": {
+  "strict:2": {
    "runner": "P05",
    "name": "3 Rhythm Is A Dancer / 3 Harry Cobden",
-   "tightness": "RA 42.9107 Dec 0.0599",
-   "key": "horse Quaoar \u2013 jockey Venus"
+   "tightness": "RA 26.2105 Dec 0.1314",
+   "key": "horse Node \u2013 jockey Ceres",
+   "strict": true
   },
-  "3": {
+  "strict:3": {
    "runner": "P09",
    "name": "5 Oscar Montel / 5 Brian Hughes",
    "tightness": "RA 25.6469 Dec 0.2808",
-   "key": "horse Mercury \u2013 jockey Mars"
+   "key": "horse Mercury \u2013 jockey Mars",
+   "strict": true
   },
-  "4": {
+  "strict:4": {
    "runner": "P09",
    "name": "5 Oscar Montel / 5 Brian Hughes",
    "tightness": "RA 13.4279 Dec 0.2149",
-   "key": "horse Ceres \u2013 jockey Pluto"
+   "key": "horse Ceres \u2013 jockey Pluto",
+   "strict": true
   },
-  "5": {
+  "strict:5": {
    "runner": "P05",
    "name": "3 Rhythm Is A Dancer / 3 Harry Cobden",
    "tightness": "RA 42.9107 Dec 0.0599",
-   "key": "moved J Venus"
+   "key": "moved J Venus",
+   "strict": true
   },
-  "6": {
-   "runner": "P05",
-   "name": "3 Rhythm Is A Dancer / 3 Harry Cobden",
-   "tightness": "RA 89.2755 Dec 0.3409",
-   "key": "swap Neptune/Pluto"
-  },
-  "7": {
-   "runner": "P01",
-   "name": "1 Streets Of Doyen / 1 Sean Bowen",
-   "tightness": "",
-   "key": "triangle Juno/Mercury/Sedna"
-  },
-  "8": {
-   "runner": "P01",
-   "name": "1 Streets Of Doyen / 1 Sean Bowen",
-   "tightness": "",
-   "key": "number 42"
-  },
-  "10": {
+  "strict:10": {
    "runner": "P03",
    "name": "2 Adjali / 2 Daryl Jacob",
    "tightness": "split error 0.0028%",
-   "key": "H Haumea -> J Pluto"
+   "key": "H Haumea -> J Pluto",
+   "strict": true
   },
-  "11": {
+  "strict:11": {
    "runner": "P05",
    "name": "3 Rhythm Is A Dancer / 3 Harry Cobden",
    "tightness": "worst 0.0110%",
-   "key": "same body Transpluto"
+   "key": "same body Transpluto",
+   "strict": true
   },
-  "12": {
+  "broad:1": {
+   "runner": "P07",
+   "name": "4 Thistle Do Nicely / 4 Gavin Sheehan",
+   "tightness": "RA 70.7158 Dec 0.0000",
+   "key": "horse Ceres \u2013 jockey Orcus",
+   "strict": true
+  },
+  "broad:2": {
    "runner": "P05",
    "name": "3 Rhythm Is A Dancer / 3 Harry Cobden",
-   "tightness": "RA 2.9964 Dec 0.0042",
-   "key": "H Sun\u2013Venus"
+   "tightness": "RA 42.9107 Dec 0.0599",
+   "key": "horse Quaoar \u2013 jockey Venus",
+   "strict": false
+  },
+  "broad:3": {
+   "runner": "P09",
+   "name": "5 Oscar Montel / 5 Brian Hughes",
+   "tightness": "RA 25.6469 Dec 0.2808",
+   "key": "horse Mercury \u2013 jockey Mars",
+   "strict": true
+  },
+  "broad:4": {
+   "runner": "P09",
+   "name": "5 Oscar Montel / 5 Brian Hughes",
+   "tightness": "RA 13.4279 Dec 0.2149",
+   "key": "horse Ceres \u2013 jockey Pluto",
+   "strict": true
+  },
+  "broad:5": {
+   "runner": "P05",
+   "name": "3 Rhythm Is A Dancer / 3 Harry Cobden",
+   "tightness": "RA 42.9107 Dec 0.0599",
+   "key": "moved J Venus",
+   "strict": true
+  },
+  "broad:6": {
+   "runner": "P05",
+   "name": "3 Rhythm Is A Dancer / 3 Harry Cobden",
+   "tightness": "RA 89.2755 Dec 0.3409",
+   "key": "swap Neptune/Pluto",
+   "strict": false
+  },
+  "broad:10": {
+   "runner": "P03",
+   "name": "2 Adjali / 2 Daryl Jacob",
+   "tightness": "split error 0.0028%",
+   "key": "H Haumea -> J Pluto",
+   "strict": true
+  },
+  "broad:11": {
+   "runner": "P05",
+   "name": "3 Rhythm Is A Dancer / 3 Harry Cobden",
+   "tightness": "worst 0.0110%",
+   "key": "same body Transpluto",
+   "strict": true
   }
  },
  "only": {
@@ -580,6 +619,8 @@
    "sky_bodies": [
     "Node"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -599,6 +640,8 @@
    "strong_hub": false,
    "key": "horse Venus \u2013 jockey Orcus",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": false,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -620,6 +663,8 @@
    "sky_bodies": [
     "Mercury"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -641,6 +686,8 @@
    "sky_bodies": [
     "Mercury"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -660,6 +707,8 @@
    "strong_hub": false,
    "key": "moved J Sedna",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -680,6 +729,8 @@
    "sky_bodies": [
     "Eris"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -699,6 +750,8 @@
    "strong_hub": false,
    "key": "moved H Pluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -717,6 +770,8 @@
    "strong_hub": false,
    "key": "horse Pluto \u2013 jockey Neptune",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": false,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -736,6 +791,8 @@
    "strong_hub": false,
    "key": "moved H Pluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -756,6 +813,8 @@
    "sky_bodies": [
     "Chiron"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -775,6 +834,8 @@
    "strong_hub": false,
    "key": "moved H Pluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -795,6 +856,8 @@
    "sky_bodies": [
     "Pallas"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -816,6 +879,8 @@
    "sky_bodies": [
     "Sun"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -835,6 +900,8 @@
    "strong_hub": false,
    "key": "moved H Pallas",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -856,6 +923,8 @@
     "Chiron",
     "Orcus"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": true,
    "bodies": [
@@ -875,6 +944,8 @@
    "strong_hub": false,
    "key": "horse Vesta \u2013 jockey Venus",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -896,6 +967,8 @@
    "sky_bodies": [
     "Pallas"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -915,6 +988,8 @@
    "strong_hub": false,
    "key": "horse Vesta \u2013 jockey Node",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -936,6 +1011,8 @@
    "sky_bodies": [
     "Orcus"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -955,6 +1032,8 @@
    "strong_hub": false,
    "key": "horse Eris \u2013 jockey Eris",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -974,6 +1053,8 @@
    "strong_hub": false,
    "key": "horse Eris \u2013 jockey Eris",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -996,6 +1077,8 @@
     "Chiron",
     "Mars"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": true,
    "bodies": [
@@ -1018,6 +1101,8 @@
     "Chiron",
     "Mars"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": true,
    "bodies": [
@@ -1037,6 +1122,8 @@
    "strong_hub": false,
    "key": "horse Haumea \u2013 jockey Chiron",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -1058,6 +1145,8 @@
    "sky_bodies": [
     "Juno"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -1077,6 +1166,8 @@
    "strong_hub": false,
    "key": "horse Orcus \u2013 jockey Transpluto",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -1098,6 +1189,8 @@
    "sky_bodies": [
     "Sun"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -1117,6 +1210,8 @@
    "strong_hub": false,
    "key": "horse Transpluto \u2013 jockey Pallas",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1136,6 +1231,8 @@
    "strong_hub": false,
    "key": "triangle Juno/Mercury/Sedna",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1156,6 +1253,8 @@
    "strong_hub": true,
    "key": "triangle Ceres/Node/Vesta",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1176,6 +1275,8 @@
    "strong_hub": true,
    "key": "triangle Ceres/Node/Vesta",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1196,6 +1297,8 @@
    "strong_hub": false,
    "key": "triangle Saturn/Sedna/Uranus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1216,6 +1319,8 @@
    "strong_hub": false,
    "key": "number 42",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": []
@@ -1232,6 +1337,8 @@
    "strong_hub": false,
    "key": "ratio 11/9",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": []
@@ -1248,6 +1355,8 @@
    "strong_hub": false,
    "key": "ratio 11/9",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": []
@@ -1264,6 +1373,8 @@
    "strong_hub": false,
    "key": "ratio 13/9",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": []
@@ -1280,6 +1391,8 @@
    "strong_hub": false,
    "key": "ratio 13/9",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": []
@@ -1296,6 +1409,8 @@
    "strong_hub": false,
    "key": "ratio 13/9",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": []
@@ -1312,6 +1427,8 @@
    "strong_hub": false,
    "key": "ratio 15/7",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": []
@@ -1328,6 +1445,8 @@
    "strong_hub": false,
    "key": "ratio 15/7",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": []
@@ -1344,6 +1463,8 @@
    "strong_hub": false,
    "key": "H Pallas -> H Neptune",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1363,6 +1484,8 @@
    "strong_hub": false,
    "key": "H Makemake -> H Neptune",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1382,6 +1505,8 @@
    "strong_hub": false,
    "key": "H Makemake -> H Vesta",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1401,6 +1526,8 @@
    "strong_hub": false,
    "key": "H Makemake -> J Mars",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1420,6 +1547,8 @@
    "strong_hub": false,
    "key": "H Makemake -> J Pluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1439,6 +1568,8 @@
    "strong_hub": false,
    "key": "H Makemake -> J Chiron",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1458,6 +1589,8 @@
    "strong_hub": false,
    "key": "J Sedna -> H Sun",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1477,6 +1610,8 @@
    "strong_hub": false,
    "key": "J Sedna -> H Jupiter",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1496,6 +1631,8 @@
    "strong_hub": false,
    "key": "J Sedna -> H Haumea",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1515,6 +1652,8 @@
    "strong_hub": false,
    "key": "J Sedna -> H Makemake",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1534,6 +1673,8 @@
    "strong_hub": false,
    "key": "J Sedna -> J Pallas",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1553,6 +1694,8 @@
    "strong_hub": false,
    "key": "J Sedna -> J Haumea",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1572,6 +1715,8 @@
    "strong_hub": false,
    "key": "J Quaoar -> H Pluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1591,6 +1736,8 @@
    "strong_hub": false,
    "key": "J Quaoar -> J Jupiter",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1610,6 +1757,8 @@
    "strong_hub": false,
    "key": "J Quaoar -> J Uranus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1629,6 +1778,8 @@
    "strong_hub": false,
    "key": "J Quaoar -> J Neptune",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1648,6 +1799,8 @@
    "strong_hub": false,
    "key": "same body Neptune",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1667,6 +1820,8 @@
    "strong_hub": false,
    "key": "same body Haumea",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1686,6 +1841,8 @@
    "strong_hub": false,
    "key": "same body Haumea",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1708,6 +1865,8 @@
     "Eris",
     "Venus"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": null,
    "bodies": [
@@ -1730,6 +1889,8 @@
     "Juno",
     "Transpluto"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": false,
    "strict_multi": true,
    "multi": null,
    "bodies": [
@@ -1752,6 +1913,8 @@
     "Ceres",
     "Neptune"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": null,
    "bodies": [
@@ -1774,6 +1937,8 @@
     "Jupiter",
     "Quaoar"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": null,
    "bodies": [
@@ -1793,6 +1958,8 @@
    "strong_hub": false,
    "key": "horse Mercury \u2013 jockey Mars",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -1812,6 +1979,8 @@
    "strong_hub": false,
    "key": "horse Mercury \u2013 jockey Mars",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1831,6 +2000,8 @@
    "strong_hub": false,
    "key": "horse Mars \u2013 jockey Chiron",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -1850,6 +2021,8 @@
    "strong_hub": false,
    "key": "horse Mars \u2013 jockey Chiron",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1869,6 +2042,8 @@
    "strong_hub": false,
    "key": "moved J Chiron",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1887,6 +2062,8 @@
    "strong_hub": false,
    "key": "horse Jupiter \u2013 jockey Chiron",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -1906,6 +2083,8 @@
    "strong_hub": false,
    "key": "moved J Chiron",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1924,6 +2103,8 @@
    "strong_hub": false,
    "key": "horse Saturn \u2013 jockey Jupiter",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -1943,6 +2124,8 @@
    "strong_hub": false,
    "key": "moved J Jupiter",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1961,6 +2144,8 @@
    "strong_hub": false,
    "key": "horse Saturn \u2013 jockey Uranus",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -1980,6 +2165,8 @@
    "strong_hub": false,
    "key": "horse Saturn \u2013 jockey Uranus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -1999,6 +2186,8 @@
    "strong_hub": false,
    "key": "moved J Jupiter",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2017,6 +2206,8 @@
    "strong_hub": false,
    "key": "horse Ceres \u2013 jockey Node",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -2036,6 +2227,8 @@
    "strong_hub": false,
    "key": "horse Pallas \u2013 jockey Mars",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -2055,6 +2248,8 @@
    "strong_hub": false,
    "key": "horse Pallas \u2013 jockey Mars",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2076,6 +2271,8 @@
    "sky_bodies": [
     "Neptune"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -2097,6 +2294,8 @@
    "sky_bodies": [
     "Pallas"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -2116,6 +2315,8 @@
    "strong_hub": false,
    "key": "moved H Node",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2137,6 +2338,8 @@
     "Chiron",
     "Mars"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": true,
    "bodies": [
@@ -2159,6 +2362,8 @@
     "Chiron",
     "Mars"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": true,
    "bodies": [
@@ -2178,6 +2383,8 @@
    "strong_hub": false,
    "key": "horse Haumea \u2013 jockey Saturn",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -2197,6 +2404,8 @@
    "strong_hub": false,
    "key": "moved H Haumea",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2215,6 +2424,8 @@
    "strong_hub": true,
    "key": "horse Haumea \u2013 jockey Pluto",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -2234,6 +2445,8 @@
    "strong_hub": true,
    "key": "horse Haumea \u2013 jockey Pluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2253,6 +2466,8 @@
    "strong_hub": false,
    "key": "moved H Haumea",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2271,6 +2486,8 @@
    "strong_hub": true,
    "key": "moved J Pluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2289,6 +2506,8 @@
    "strong_hub": false,
    "key": "moved H Haumea",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2307,6 +2526,8 @@
    "strong_hub": false,
    "key": "horse Quaoar \u2013 jockey Neptune",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -2326,6 +2547,8 @@
    "strong_hub": false,
    "key": "moved J Neptune",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2346,6 +2569,8 @@
    "sky_bodies": [
     "Sun"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -2365,6 +2590,8 @@
    "strong_hub": false,
    "key": "horse Transpluto \u2013 jockey Sun",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -2384,6 +2611,8 @@
    "strong_hub": false,
    "key": "horse Transpluto \u2013 jockey Sun",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2403,6 +2632,8 @@
    "strong_hub": false,
    "key": "horse Transpluto \u2013 jockey Sun",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2424,6 +2655,8 @@
    "sky_bodies": [
     "Sun"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -2443,6 +2676,8 @@
    "strong_hub": false,
    "key": "triangle Juno/Orcus/Sedna",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2463,6 +2698,8 @@
    "strong_hub": false,
    "key": "triangle Juno/Orcus/Sedna",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2483,6 +2720,8 @@
    "strong_hub": false,
    "key": "H Rahu -> H Sun",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2502,6 +2741,8 @@
    "strong_hub": false,
    "key": "H Rahu -> H Eris",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2521,6 +2762,8 @@
    "strong_hub": false,
    "key": "H Rahu -> J Eris",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2540,6 +2783,8 @@
    "strong_hub": true,
    "key": "H Ketu -> J Pluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2559,6 +2804,8 @@
    "strong_hub": false,
    "key": "H Haumea -> H Sun",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2578,6 +2825,8 @@
    "strong_hub": false,
    "key": "H Haumea -> H Rahu",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2597,6 +2846,8 @@
    "strong_hub": false,
    "key": "H Haumea -> H Eris",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2616,6 +2867,8 @@
    "strong_hub": false,
    "key": "H Haumea -> H Transpluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2635,6 +2888,8 @@
    "strong_hub": true,
    "key": "H Haumea -> J Pluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2654,6 +2909,8 @@
    "strong_hub": false,
    "key": "H Haumea -> J Ceres",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2673,6 +2930,8 @@
    "strong_hub": false,
    "key": "H Haumea -> J Orcus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2692,6 +2951,8 @@
    "strong_hub": false,
    "key": "H Haumea -> J Transpluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2711,6 +2972,8 @@
    "strong_hub": false,
    "key": "J Mercury -> H Sun",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2730,6 +2993,8 @@
    "strong_hub": false,
    "key": "J Mercury -> H Jupiter",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2749,6 +3014,8 @@
    "strong_hub": false,
    "key": "J Mercury -> H Transpluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2768,6 +3035,8 @@
    "strong_hub": false,
    "key": "J Mercury -> J Sun",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2787,6 +3056,8 @@
    "strong_hub": false,
    "key": "same body Transpluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2809,6 +3080,8 @@
     "Chiron",
     "Mars"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": null,
    "bodies": [
@@ -2830,6 +3103,8 @@
    "sky_bodies": [
     "Node"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -2849,6 +3124,8 @@
    "strong_hub": true,
    "key": "horse Saturn \u2013 jockey Pallas",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -2868,6 +3145,8 @@
    "strong_hub": true,
    "key": "moved J Pallas",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2886,6 +3165,8 @@
    "strong_hub": false,
    "key": "horse Saturn \u2013 jockey Juno",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -2905,6 +3186,8 @@
    "strong_hub": false,
    "key": "horse Saturn \u2013 jockey Node",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -2926,6 +3209,8 @@
    "sky_bodies": [
     "Gonggong"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -2947,6 +3232,8 @@
    "sky_bodies": [
     "Saturn"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -2966,6 +3253,8 @@
    "strong_hub": false,
    "key": "horse Pluto \u2013 jockey Neptune",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -2985,6 +3274,8 @@
    "strong_hub": false,
    "key": "horse Pallas \u2013 jockey Jupiter",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -3004,6 +3295,8 @@
    "strong_hub": false,
    "key": "horse Pallas \u2013 jockey Jupiter",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3025,6 +3318,8 @@
    "sky_bodies": [
     "Juno"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -3044,6 +3339,8 @@
    "strong_hub": false,
    "key": "horse Juno \u2013 jockey Eris",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3063,6 +3360,8 @@
    "strong_hub": false,
    "key": "horse Node \u2013 jockey Ceres",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3082,6 +3381,8 @@
    "strong_hub": false,
    "key": "horse Eris \u2013 jockey Eris",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -3101,6 +3402,8 @@
    "strong_hub": false,
    "key": "horse Eris \u2013 jockey Eris",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3122,6 +3425,8 @@
    "sky_bodies": [
     "Quaoar"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -3141,6 +3446,8 @@
    "strong_hub": true,
    "key": "horse Quaoar \u2013 jockey Sun",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3160,6 +3467,8 @@
    "strong_hub": true,
    "key": "moved J Sun",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3180,6 +3489,8 @@
    "sky_bodies": [
     "Quaoar"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -3199,6 +3510,8 @@
    "strong_hub": false,
    "key": "horse Quaoar \u2013 jockey Venus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3218,6 +3531,8 @@
    "strong_hub": false,
    "key": "moved J Venus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3238,6 +3553,8 @@
    "sky_bodies": [
     "Quaoar"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -3257,6 +3574,8 @@
    "strong_hub": false,
    "key": "horse Quaoar \u2013 jockey Chiron",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3278,6 +3597,8 @@
    "sky_bodies": [
     "Juno"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -3297,6 +3618,8 @@
    "strong_hub": false,
    "key": "horse Orcus \u2013 jockey Juno",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3318,6 +3641,8 @@
    "sky_bodies": [
     "Juno"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -3337,6 +3662,8 @@
    "strong_hub": true,
    "key": "moved J Transpluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3357,6 +3684,8 @@
    "sky_bodies": [
     "Sun"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -3376,6 +3705,8 @@
    "strong_hub": false,
    "key": "swap Neptune/Pluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3397,6 +3728,8 @@
    "strong_hub": false,
    "key": "triangle Sedna/Sun/Venus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3417,6 +3750,8 @@
    "strong_hub": false,
    "key": "triangle Sedna/Sun/Venus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3437,6 +3772,8 @@
    "strong_hub": false,
    "key": "triangle Juno/Sedna/Sun",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3457,6 +3794,8 @@
    "strong_hub": false,
    "key": "triangle Eris/Juno/Orcus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3477,6 +3816,8 @@
    "strong_hub": false,
    "key": "triangle Eris/Juno/Orcus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3497,6 +3838,8 @@
    "strong_hub": true,
    "key": "triangle Quaoar/Sun/Venus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3517,6 +3860,8 @@
    "strong_hub": true,
    "key": "triangle Chiron/Quaoar/Sun",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3537,6 +3882,8 @@
    "strong_hub": false,
    "key": "triangle Chiron/Quaoar/Venus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3557,6 +3904,8 @@
    "strong_hub": true,
    "key": "triangle Chiron/Sun/Venus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3577,6 +3926,8 @@
    "strong_hub": false,
    "key": "number 12",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": []
@@ -3593,6 +3944,8 @@
    "strong_hub": false,
    "key": "number 17",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": []
@@ -3609,6 +3962,8 @@
    "strong_hub": false,
    "key": "H Gonggong -> H Neptune",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3628,6 +3983,8 @@
    "strong_hub": false,
    "key": "H Gonggong -> H Chiron",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3647,6 +4004,8 @@
    "strong_hub": false,
    "key": "H Gonggong -> H Pallas",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3666,6 +4025,8 @@
    "strong_hub": false,
    "key": "H Gonggong -> H Juno",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3685,6 +4046,8 @@
    "strong_hub": false,
    "key": "H Gonggong -> H Eris",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3704,6 +4067,8 @@
    "strong_hub": false,
    "key": "H Gonggong -> H Haumea",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3723,6 +4088,8 @@
    "strong_hub": false,
    "key": "H Gonggong -> J Mars",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3742,6 +4109,8 @@
    "strong_hub": false,
    "key": "H Gonggong -> J Juno",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3761,6 +4130,8 @@
    "strong_hub": false,
    "key": "H Gonggong -> J Eris",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3780,6 +4151,8 @@
    "strong_hub": true,
    "key": "J Sun -> H Ceres",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3799,6 +4172,8 @@
    "strong_hub": true,
    "key": "J Sun -> J Ceres",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3818,6 +4193,8 @@
    "strong_hub": true,
    "key": "J Pallas -> H Sun",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3837,6 +4214,8 @@
    "strong_hub": true,
    "key": "J Pallas -> H Venus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3856,6 +4235,8 @@
    "strong_hub": true,
    "key": "J Pallas -> H Mars",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3875,6 +4256,8 @@
    "strong_hub": true,
    "key": "J Pallas -> H Ketu",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3894,6 +4277,8 @@
    "strong_hub": true,
    "key": "J Pallas -> J Mars",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3913,6 +4298,8 @@
    "strong_hub": true,
    "key": "J Pallas -> J Vesta",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3932,6 +4319,8 @@
    "strong_hub": true,
    "key": "J Pallas -> J Sedna",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3951,6 +4340,8 @@
    "strong_hub": true,
    "key": "J Pallas -> J Makemake",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3970,6 +4361,8 @@
    "strong_hub": true,
    "key": "J Transpluto -> H Saturn",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -3989,6 +4382,8 @@
    "strong_hub": true,
    "key": "J Transpluto -> H Haumea",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4008,6 +4403,8 @@
    "strong_hub": true,
    "key": "J Transpluto -> J Mercury",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4027,6 +4424,8 @@
    "strong_hub": true,
    "key": "J Transpluto -> J Venus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4046,6 +4445,8 @@
    "strong_hub": true,
    "key": "J Transpluto -> J Haumea",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4065,6 +4466,8 @@
    "strong_hub": true,
    "key": "J Transpluto -> J Makemake",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4084,6 +4487,8 @@
    "strong_hub": true,
    "key": "same body Transpluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4107,6 +4512,8 @@
     "Mars",
     "Sedna"
    ],
+   "n_sky_bodies": 3,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": null,
    "bodies": [
@@ -4130,6 +4537,8 @@
     "Mars",
     "Sedna"
    ],
+   "n_sky_bodies": 3,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": null,
    "bodies": [
@@ -4153,6 +4562,8 @@
     "Mars",
     "Sedna"
    ],
+   "n_sky_bodies": 3,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": null,
    "bodies": [
@@ -4175,6 +4586,8 @@
     "Chiron",
     "Mars"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": null,
    "bodies": [
@@ -4197,6 +4610,8 @@
     "Chiron",
     "Mars"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": null,
    "bodies": [
@@ -4219,6 +4634,8 @@
     "Quaoar",
     "Sedna"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": false,
    "strict_multi": true,
    "multi": null,
    "bodies": [
@@ -4238,6 +4655,8 @@
    "strong_hub": false,
    "key": "horse Venus \u2013 jockey Eris",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -4259,6 +4678,8 @@
    "sky_bodies": [
     "Venus"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -4280,6 +4701,8 @@
    "sky_bodies": [
     "Makemake"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -4301,6 +4724,8 @@
    "sky_bodies": [
     "Makemake"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -4320,6 +4745,8 @@
    "strong_hub": true,
    "key": "horse Ceres \u2013 jockey Orcus",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": false,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -4342,6 +4769,8 @@
     "Saturn",
     "Transpluto"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": true,
    "bodies": [
@@ -4361,6 +4790,8 @@
    "strong_hub": true,
    "key": "horse Pallas \u2013 jockey Transpluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4380,6 +4811,8 @@
    "strong_hub": true,
    "key": "moved J Transpluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4400,6 +4833,8 @@
    "sky_bodies": [
     "Transpluto"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -4419,6 +4854,8 @@
    "strong_hub": false,
    "key": "horse Juno \u2013 jockey Sedna",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -4438,6 +4875,8 @@
    "strong_hub": true,
    "key": "horse Vesta \u2013 jockey Orcus",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -4459,6 +4898,8 @@
    "sky_bodies": [
     "Transpluto"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -4478,6 +4919,8 @@
    "strong_hub": true,
    "key": "moved H Node",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4496,6 +4939,8 @@
    "strong_hub": false,
    "key": "horse Gonggong \u2013 jockey Quaoar",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -4515,6 +4960,8 @@
    "strong_hub": false,
    "key": "moved J Quaoar",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4535,6 +4982,8 @@
    "sky_bodies": [
     "Quaoar"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -4554,6 +5003,8 @@
    "strong_hub": false,
    "key": "horse Quaoar \u2013 jockey Pallas",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4575,6 +5026,8 @@
    "sky_bodies": [
     "Sun"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -4594,6 +5047,8 @@
    "strong_hub": false,
    "key": "triangle Haumea/Jupiter/Mercury",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4614,6 +5069,8 @@
    "strong_hub": true,
    "key": "triangle Jupiter/Orcus/Saturn",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4634,6 +5091,8 @@
    "strong_hub": true,
    "key": "H Rahu -> H Jupiter",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4653,6 +5112,8 @@
    "strong_hub": true,
    "key": "H Rahu -> H Makemake",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4672,6 +5133,8 @@
    "strong_hub": true,
    "key": "H Rahu -> J Pallas",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4691,6 +5154,8 @@
    "strong_hub": true,
    "key": "H Rahu -> J Ketu",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4710,6 +5175,8 @@
    "strong_hub": true,
    "key": "H Ketu -> J Uranus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4729,6 +5196,8 @@
    "strong_hub": true,
    "key": "H Ketu -> J Rahu",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4748,6 +5217,8 @@
    "strong_hub": true,
    "key": "J Transpluto -> H Saturn",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4767,6 +5238,8 @@
    "strong_hub": true,
    "key": "J Transpluto -> H Vesta",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4786,6 +5259,8 @@
    "strong_hub": true,
    "key": "J Transpluto -> H Makemake",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4805,6 +5280,8 @@
    "strong_hub": true,
    "key": "J Transpluto -> J Jupiter",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4824,6 +5301,8 @@
    "strong_hub": true,
    "key": "J Transpluto -> J Neptune",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4843,6 +5322,8 @@
    "strong_hub": true,
    "key": "J Transpluto -> J Ceres",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4862,6 +5343,8 @@
    "strong_hub": true,
    "key": "J Transpluto -> J Quaoar",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4881,6 +5364,8 @@
    "strong_hub": false,
    "key": "same body Uranus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4900,6 +5385,8 @@
    "strong_hub": false,
    "key": "same body Uranus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4919,6 +5406,8 @@
    "strong_hub": false,
    "key": "same body Uranus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4938,6 +5427,8 @@
    "strong_hub": false,
    "key": "same body Chiron",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4957,6 +5448,8 @@
    "strong_hub": true,
    "key": "same body Orcus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4976,6 +5469,8 @@
    "strong_hub": true,
    "key": "same body Transpluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -4998,6 +5493,8 @@
     "Chiron",
     "Mars"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": null,
    "bodies": [
@@ -5020,6 +5517,8 @@
     "Ketu",
     "Rahu"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": null,
    "bodies": [
@@ -5039,6 +5538,8 @@
    "strong_hub": false,
    "key": "horse Mercury \u2013 jockey Mercury",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -5058,6 +5559,8 @@
    "strong_hub": false,
    "key": "horse Mercury \u2013 jockey Mars",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -5077,6 +5580,8 @@
    "strong_hub": false,
    "key": "horse Mercury \u2013 jockey Mars",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5096,6 +5601,8 @@
    "strong_hub": false,
    "key": "horse Mercury \u2013 jockey Chiron",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": false,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -5115,6 +5622,8 @@
    "strong_hub": false,
    "key": "horse Mercury \u2013 jockey Haumea",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -5136,6 +5645,8 @@
    "sky_bodies": [
     "Pallas"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -5155,6 +5666,8 @@
    "strong_hub": true,
    "key": "moved J Pluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5175,6 +5688,8 @@
    "sky_bodies": [
     "Pallas"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -5194,6 +5709,8 @@
    "strong_hub": true,
    "key": "horse Saturn \u2013 jockey Quaoar",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -5213,6 +5730,8 @@
    "strong_hub": true,
    "key": "horse Saturn \u2013 jockey Quaoar",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5234,6 +5753,8 @@
    "sky_bodies": [
     "Vesta"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -5256,6 +5777,8 @@
     "Eris",
     "Vesta"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": true,
    "bodies": [
@@ -5275,6 +5798,8 @@
    "strong_hub": false,
    "key": "horse Chiron \u2013 jockey Vesta",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5297,6 +5822,8 @@
     "Eris",
     "Pallas"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": true,
    "bodies": [
@@ -5316,6 +5843,8 @@
    "strong_hub": true,
    "key": "horse Ceres \u2013 jockey Pluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5335,6 +5864,8 @@
    "strong_hub": false,
    "key": "moved H Ceres",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5353,6 +5884,8 @@
    "strong_hub": true,
    "key": "moved J Pluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5373,6 +5906,8 @@
    "sky_bodies": [
     "Eris"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -5392,6 +5927,8 @@
    "strong_hub": false,
    "key": "moved H Ceres",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5412,6 +5949,8 @@
    "sky_bodies": [
     "Pallas"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -5431,6 +5970,8 @@
    "strong_hub": false,
    "key": "moved H Ceres",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5449,6 +5990,8 @@
    "strong_hub": false,
    "key": "horse Juno \u2013 jockey Venus",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -5468,6 +6011,8 @@
    "strong_hub": false,
    "key": "horse Juno \u2013 jockey Sedna",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -5489,6 +6034,8 @@
    "sky_bodies": [
     "Pallas"
    ],
+   "n_sky_bodies": 1,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -5508,6 +6055,8 @@
    "strong_hub": true,
    "key": "moved J Pluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5529,6 +6078,8 @@
     "Orcus",
     "Pallas"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": true,
    "bodies": [
@@ -5548,6 +6099,8 @@
    "strong_hub": false,
    "key": "horse Vesta \u2013 jockey Sedna",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5567,6 +6120,8 @@
    "strong_hub": false,
    "key": "horse Node \u2013 jockey Vesta",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -5586,6 +6141,8 @@
    "strong_hub": false,
    "key": "horse Node \u2013 jockey Eris",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -5605,6 +6162,8 @@
    "strong_hub": false,
    "key": "horse Haumea \u2013 jockey Chiron",
    "sky_bodies": [],
+   "n_sky_bodies": 0,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": false,
    "bodies": [
@@ -5624,6 +6183,8 @@
    "strong_hub": false,
    "key": "triangle Ceres/Venus/Vesta",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5644,6 +6205,8 @@
    "strong_hub": true,
    "key": "triangle Ceres/Pluto/Venus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5664,6 +6227,8 @@
    "strong_hub": false,
    "key": "triangle Ceres/Sedna/Venus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5684,6 +6249,8 @@
    "strong_hub": true,
    "key": "triangle Pluto/Venus/Vesta",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5704,6 +6271,8 @@
    "strong_hub": false,
    "key": "triangle Sedna/Venus/Vesta",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5724,6 +6293,8 @@
    "strong_hub": true,
    "key": "triangle Pluto/Sedna/Venus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5744,6 +6315,8 @@
    "strong_hub": true,
    "key": "triangle Ceres/Pluto/Vesta",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5764,6 +6337,8 @@
    "strong_hub": false,
    "key": "triangle Ceres/Sedna/Vesta",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5784,6 +6359,8 @@
    "strong_hub": true,
    "key": "triangle Ceres/Pluto/Vesta",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5804,6 +6381,8 @@
    "strong_hub": true,
    "key": "triangle Ceres/Pluto/Sedna",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5824,6 +6403,8 @@
    "strong_hub": true,
    "key": "triangle Pluto/Sedna/Vesta",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5844,6 +6425,8 @@
    "strong_hub": true,
    "key": "triangle Eris/Pluto/Vesta",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5864,6 +6447,8 @@
    "strong_hub": true,
    "key": "triangle Chiron/Pluto/Vesta",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5884,6 +6469,8 @@
    "strong_hub": false,
    "key": "triangle Chiron/Pallas/Vesta",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5904,6 +6491,8 @@
    "strong_hub": false,
    "key": "ratio 7/4",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": []
@@ -5920,6 +6509,8 @@
    "strong_hub": false,
    "key": "ratio 7/4",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": true,
    "strict_multi": null,
    "multi": null,
    "bodies": []
@@ -5936,6 +6527,8 @@
    "strong_hub": false,
    "key": "H Sedna -> H Pallas",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5955,6 +6548,8 @@
    "strong_hub": false,
    "key": "H Sedna -> H Juno",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5974,6 +6569,8 @@
    "strong_hub": false,
    "key": "H Sedna -> H Ketu",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -5993,6 +6590,8 @@
    "strong_hub": false,
    "key": "H Sedna -> H Transpluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6012,6 +6611,8 @@
    "strong_hub": false,
    "key": "H Sedna -> J Mars",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6031,6 +6632,8 @@
    "strong_hub": false,
    "key": "H Sedna -> J Rahu",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6050,6 +6653,8 @@
    "strong_hub": false,
    "key": "H Sedna -> J Makemake",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6069,6 +6674,8 @@
    "strong_hub": false,
    "key": "H Sedna -> J Transpluto",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6088,6 +6695,8 @@
    "strong_hub": false,
    "key": "J Gonggong -> H Sun",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6107,6 +6716,8 @@
    "strong_hub": false,
    "key": "J Gonggong -> H Mars",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6126,6 +6737,8 @@
    "strong_hub": false,
    "key": "J Gonggong -> H Jupiter",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6145,6 +6758,8 @@
    "strong_hub": false,
    "key": "J Gonggong -> H Ceres",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6164,6 +6779,8 @@
    "strong_hub": false,
    "key": "J Gonggong -> H Ketu",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6183,6 +6800,8 @@
    "strong_hub": false,
    "key": "J Gonggong -> H Haumea",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6202,6 +6821,8 @@
    "strong_hub": false,
    "key": "J Gonggong -> J Sun",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6221,6 +6842,8 @@
    "strong_hub": false,
    "key": "J Gonggong -> J Venus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6240,6 +6863,8 @@
    "strong_hub": false,
    "key": "J Gonggong -> J Juno",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6259,6 +6884,8 @@
    "strong_hub": false,
    "key": "J Gonggong -> J Rahu",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6278,6 +6905,8 @@
    "strong_hub": false,
    "key": "J Gonggong -> J Sedna",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6297,6 +6926,8 @@
    "strong_hub": false,
    "key": "J Gonggong -> J Haumea",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6316,6 +6947,8 @@
    "strong_hub": false,
    "key": "J Gonggong -> J Orcus",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6335,6 +6968,8 @@
    "strong_hub": false,
    "key": "same body Mars",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6354,6 +6989,8 @@
    "strong_hub": false,
    "key": "same body Chiron",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6373,6 +7010,8 @@
    "strong_hub": true,
    "key": "same body Quaoar",
    "sky_bodies": null,
+   "n_sky_bodies": null,
+   "rests_on_near_or_broad": false,
    "strict_multi": null,
    "multi": null,
    "bodies": [
@@ -6395,6 +7034,8 @@
     "Juno",
     "Sedna"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": null,
    "bodies": [
@@ -6418,6 +7059,8 @@
     "Pluto",
     "Quaoar"
    ],
+   "n_sky_bodies": 3,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": null,
    "bodies": [
@@ -6440,6 +7083,8 @@
     "Haumea",
     "Pallas"
    ],
+   "n_sky_bodies": 2,
+   "rests_on_near_or_broad": true,
    "strict_multi": false,
    "multi": null,
    "bodies": [

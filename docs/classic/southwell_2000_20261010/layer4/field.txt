@@ -1,4 +1,4 @@
-== southwell_2000_20261010  field of 7   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== southwell_2000_20261010  field of 7   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 So Alex / 1 Jack Doughty; P03 2 Dust Cover / 2 Jack Mitchell; P05 3 L'Eagle Aid / 3 Callum Shepherd; P07 5 Knightsail / 5 Jack Callan; P09 6 Roker Roar / 6 Callum Hutchinson; P11 7 Neswick / 7 Dougie Costello; P13 8 Cosmo Brown / 8 Marco Ghiani
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              3/7: P01:1 P03:1 P05:1  |   7: P01:22 P03:24 P05:11 P07:10 P09:16 P11:27 P13:20
@@ -16,16 +16,18 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/7: -  |   6: P01:6 P05:1 P07:5 P09:3 P11:2 P13:4
    [12m] pair in one chart, 2+ sky bodies on both ends  2/7: P01:1 P13:1  |   7: P01:10 P03:4 P05:6 P07:8 P09:4 P11:1 P13:4
 -- tightest instance of each shape
-   [ 1] P11 7 Neswick / 7 Dougie Costello: horse Orcus – jockey Quaoar (RA 69.4929 Dec 0.0038)
-   [ 2] P01 1 So Alex / 1 Jack Doughty: horse Quaoar – jockey Quaoar (RA 22.0930 Dec 0.0058)
-   [ 4] P01 1 So Alex / 1 Jack Doughty: horse Eris – jockey Juno (RA 178.1320 Dec 0.3529)
-   [ 5] P01 1 So Alex / 1 Jack Doughty: moved H Quaoar (RA 22.0930 Dec 0.0058)
-   [ 6] P09 6 Roker Roar / 6 Callum Hutchinson: swap Ketu/Pluto (RA 45.3208 Dec 0.0481)
-   [ 7] P01 1 So Alex / 1 Jack Doughty: triangle Chiron/Haumea/Sun ()
-   [ 8] P03 2 Dust Cover / 2 Jack Mitchell: ratio 13/3 ()
-   [10] P03 2 Dust Cover / 2 Jack Mitchell: J Saturn -> J Sedna (split error 0.0058%)
-   [11] P11 7 Neswick / 7 Dougie Costello: same body Chiron (worst 0.0179%)
-   [12] P01 1 So Alex / 1 Jack Doughty: H Sun–Haumea (Dec 6.11107 = 55/9)
+   [ strict:1] P05 3 L'Eagle Aid / 3 Callum Shepherd: horse Vesta – jockey Venus (RA 1.0160 Dec 10.9848)
+   [ strict:2] P07 5 Knightsail / 5 Jack Callan: horse Node – jockey Vesta (RA 23.8309 Dec 0.0107)
+   [ strict:5] P01 1 So Alex / 1 Jack Doughty: moved H Quaoar (RA 22.0930 Dec 0.0058)
+   [strict:10] P03 2 Dust Cover / 2 Jack Mitchell: J Saturn -> J Sedna (split error 0.0058%)
+   [strict:11] P11 7 Neswick / 7 Dougie Costello: same body Chiron (worst 0.0179%)
+   [  broad:1] P11 7 Neswick / 7 Dougie Costello: horse Orcus – jockey Quaoar (RA 69.4929 Dec 0.0038) broad/near
+   [  broad:2] P01 1 So Alex / 1 Jack Doughty: horse Quaoar – jockey Quaoar (RA 22.0930 Dec 0.0058) broad/near
+   [  broad:4] P01 1 So Alex / 1 Jack Doughty: horse Eris – jockey Juno (RA 178.1320 Dec 0.3529) broad/near
+   [  broad:5] P01 1 So Alex / 1 Jack Doughty: moved H Quaoar (RA 22.0930 Dec 0.0058)
+   [  broad:6] P09 6 Roker Roar / 6 Callum Hutchinson: swap Ketu/Pluto (RA 45.3208 Dec 0.0481) broad/near
+   [ broad:10] P03 2 Dust Cover / 2 Jack Mitchell: J Saturn -> J Sedna (split error 0.0058%)
+   [ broad:11] P11 7 Neswick / 7 Dougie Costello: same body Chiron (worst 0.0179%)
 -- field-only findings (shape numbers)
    P01 1 So Alex / 1 Jack Doughty: only (strict) 12; only (broad) 4; strict, shared with one other 12m
    P13 8 Cosmo Brown / 8 Marco Ghiani: only (strict) -; only (broad) -; strict, shared with one other 12m

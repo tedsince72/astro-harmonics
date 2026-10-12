@@ -1,4 +1,4 @@
-== wolverhampton_aw_1725_20231021  field of 11   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== wolverhampton_aw_1725_20231021  field of 11   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Gladly Ever After / 1 Taylor Fisher; P03 2 Shuangxi / 2 Saffie Osborne; P05 3 Ziggy's Dream / 3 Kieran O'Neill; P07 4 Come On You Spurs / 4 Harry Davies; P09 5 Diligencia / 5 Charles Bishop; P11 6 Land Of Hope / 6 Jack Mitchell; P13 7 Miss Anya / 7 Finley Marsh; P15 8 Princess Alice / 8 Daniel Muscutt; P17 9 Sea Of Angels / 9 Marco Ghiani; P19 10 Showmethewayhome / 10 David Probert; P21 11 Via Blanca / 11 Frederick Larson
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              5/11: P07:1 P11:1 P15:1 P19:4 P21:4  |  11: P01:19 P03:14 P05:18 P07:34 P09:20 P11:20 P13:12 P15:13 P17:26 P19:18 P21:28
@@ -16,17 +16,22 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/11: -  |   9: P01:2 P03:1 P05:4 P07:2 P09:1 P13:3 P15:1 P19:3 P21:3
    [12m] pair in one chart, 2+ sky bodies on both ends  4/11: P03:1 P11:1 P15:2 P17:1  |  11: P01:4 P03:4 P05:1 P07:2 P09:3 P11:3 P13:3 P15:7 P17:9 P19:3 P21:1
 -- tightest instance of each shape
-   [ 1] P07 4 Come On You Spurs / 4 Harry Davies: horse Mars – jockey Haumea (RA 153.3245 Dec 0.0029)
-   [ 2] P09 5 Diligencia / 5 Charles Bishop: horse Jupiter – jockey Quaoar (RA 90.2261 Dec 0.0108)
-   [ 3] P07 4 Come On You Spurs / 4 Harry Davies: horse Sun – jockey Node (RA 121.8242 Dec 0.0129)
-   [ 4] P05 3 Ziggy's Dream / 3 Kieran O'Neill: horse Eris – jockey Jupiter (RA 1.1336 Dec 11.0770)
-   [ 5] P07 4 Come On You Spurs / 4 Harry Davies: moved J Haumea (RA 153.3245 Dec 0.0029)
-   [ 6] P07 4 Come On You Spurs / 4 Harry Davies: swap Ketu/Sun (RA 0.1806 Dec 0.0212)
-   [ 7] P01 1 Gladly Ever After / 1 Taylor Fisher: triangle Gonggong/Orcus/Uranus ()
-   [ 8] P01 1 Gladly Ever After / 1 Taylor Fisher: number 12 ()
-   [10] P01 1 Gladly Ever After / 1 Taylor Fisher: J Neptune -> H Uranus (split error 0.0035%)
-   [11] P19 10 Showmethewayhome / 10 David Probert: same body Sun (worst 0.0051%)
-   [12] P09 5 Diligencia / 5 Charles Bishop: H Chiron–Makemake (RA 170.11110 = 1531/9)
+   [ strict:1] P19 10 Showmethewayhome / 10 David Probert: horse Pluto – jockey Neptune (RA 18.2895 Dec 0.0275)
+   [ strict:2] P09 5 Diligencia / 5 Charles Bishop: horse Jupiter – jockey Quaoar (RA 90.2261 Dec 0.0108)
+   [ strict:3] P07 4 Come On You Spurs / 4 Harry Davies: horse Sun – jockey Node (RA 121.8242 Dec 0.0129)
+   [ strict:4] P05 3 Ziggy's Dream / 3 Kieran O'Neill: horse Eris – jockey Jupiter (RA 1.1336 Dec 11.0770)
+   [ strict:5] P07 4 Come On You Spurs / 4 Harry Davies: moved J Haumea (RA 153.3245 Dec 0.0029)
+   [ strict:6] P07 4 Come On You Spurs / 4 Harry Davies: swap Ketu/Sun (RA 0.1806 Dec 0.0212)
+   [strict:10] P01 1 Gladly Ever After / 1 Taylor Fisher: J Neptune -> H Uranus (split error 0.0035%)
+   [strict:11] P19 10 Showmethewayhome / 10 David Probert: same body Sun (worst 0.0051%)
+   [  broad:1] P07 4 Come On You Spurs / 4 Harry Davies: horse Mars – jockey Haumea (RA 153.3245 Dec 0.0029) broad/near
+   [  broad:2] P09 5 Diligencia / 5 Charles Bishop: horse Jupiter – jockey Quaoar (RA 90.2261 Dec 0.0108)
+   [  broad:3] P07 4 Come On You Spurs / 4 Harry Davies: horse Sun – jockey Node (RA 121.8242 Dec 0.0129)
+   [  broad:4] P05 3 Ziggy's Dream / 3 Kieran O'Neill: horse Eris – jockey Jupiter (RA 1.1336 Dec 11.0770)
+   [  broad:5] P07 4 Come On You Spurs / 4 Harry Davies: moved J Haumea (RA 153.3245 Dec 0.0029)
+   [  broad:6] P07 4 Come On You Spurs / 4 Harry Davies: swap Ketu/Sun (RA 0.1806 Dec 0.0212)
+   [ broad:10] P01 1 Gladly Ever After / 1 Taylor Fisher: J Neptune -> H Uranus (split error 0.0035%)
+   [ broad:11] P19 10 Showmethewayhome / 10 David Probert: same body Sun (worst 0.0051%)
 -- field-only findings (shape numbers)
    P05 3 Ziggy's Dream / 3 Kieran O'Neill: only (strict) 4; only (broad) -; strict, shared with one other -
    P15 8 Princess Alice / 8 Daniel Muscutt: only (strict) 12; only (broad) -; strict, shared with one other -

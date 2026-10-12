@@ -1,4 +1,4 @@
-== haydock_1420_20210904  field of 6   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== haydock_1420_20210904  field of 6   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Roseabad / 1 Richard Kingscote; P03 2 Golden Flame / 2 Joe Fanning; P05 3 Valley Forge / 3 David Probert; P07 5 Praiano / 5 Andrea Atzeni; P09 7 Contact / 7 Ray Dawson; P11 8 Tynwald / 8 Daniel Tudhope
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              1/6: P09:1  |   6: P01:12 P03:20 P05:19 P07:12 P09:17 P11:20
@@ -16,16 +16,20 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   4: P01:2 P05:3 P07:1 P11:2
    [12m] pair in one chart, 2+ sky bodies on both ends  3/6: P03:2 P05:1 P09:4  |   6: P01:4 P03:3 P05:3 P07:4 P09:6 P11:5
 -- tightest instance of each shape
-   [ 1] P07 5 Praiano / 5 Andrea Atzeni: horse Pluto – jockey Juno (RA 0.0255 Dec 11.8707)
-   [ 2] P07 5 Praiano / 5 Andrea Atzeni: horse Sun – jockey Sedna (RA 32.5944 Dec 0.0269)
-   [ 4] P11 8 Tynwald / 8 Daniel Tudhope: horse Mars – jockey Neptune (RA 18.5274 Dec 0.0855)
-   [ 5] P11 8 Tynwald / 8 Daniel Tudhope: moved J Neptune (RA 4.1464 Dec 0.0582)
-   [ 6] P11 8 Tynwald / 8 Daniel Tudhope: swap Mars/Neptune (RA 18.5274 Dec 0.0855)
-   [ 7] P03 2 Golden Flame / 2 Joe Fanning: triangle Juno/Uranus/Venus ()
-   [ 8] P03 2 Golden Flame / 2 Joe Fanning: number 13 ()
-   [10] P03 2 Golden Flame / 2 Joe Fanning: J Venus -> J Mars (split error 0.0006%)
-   [11] P05 3 Valley Forge / 3 David Probert: same body Node (worst 0.0183%)
-   [12] P11 8 Tynwald / 8 Daniel Tudhope: J Uranus–Eris (Flat 125.22221 = 1127/9)
+   [ strict:1] P09 7 Contact / 7 Ray Dawson: horse Uranus – jockey Juno (RA 127.3561 Dec 0.0704)
+   [ strict:2] P07 5 Praiano / 5 Andrea Atzeni: horse Sun – jockey Sedna (RA 32.5944 Dec 0.0269)
+   [ strict:4] P11 8 Tynwald / 8 Daniel Tudhope: horse Mars – jockey Neptune (RA 18.5274 Dec 0.0855)
+   [ strict:5] P11 8 Tynwald / 8 Daniel Tudhope: moved J Neptune (RA 4.1464 Dec 0.0582)
+   [ strict:6] P11 8 Tynwald / 8 Daniel Tudhope: swap Mars/Neptune (RA 18.5274 Dec 0.0855)
+   [strict:10] P03 2 Golden Flame / 2 Joe Fanning: J Venus -> J Mars (split error 0.0006%)
+   [strict:11] P05 3 Valley Forge / 3 David Probert: same body Node (worst 0.0183%)
+   [  broad:1] P07 5 Praiano / 5 Andrea Atzeni: horse Pluto – jockey Juno (RA 0.0255 Dec 11.8707) broad/near
+   [  broad:2] P07 5 Praiano / 5 Andrea Atzeni: horse Sun – jockey Sedna (RA 32.5944 Dec 0.0269)
+   [  broad:4] P11 8 Tynwald / 8 Daniel Tudhope: horse Mars – jockey Neptune (RA 18.5274 Dec 0.0855)
+   [  broad:5] P11 8 Tynwald / 8 Daniel Tudhope: moved J Neptune (RA 4.1464 Dec 0.0582)
+   [  broad:6] P11 8 Tynwald / 8 Daniel Tudhope: swap Mars/Neptune (RA 18.5274 Dec 0.0855)
+   [ broad:10] P03 2 Golden Flame / 2 Joe Fanning: J Venus -> J Mars (split error 0.0006%)
+   [ broad:11] P05 3 Valley Forge / 3 David Probert: same body Node (worst 0.0183%)
 -- field-only findings (shape numbers)
    P03 2 Golden Flame / 2 Joe Fanning: only (strict) -; only (broad) -; strict, shared with one other 7,12
    P09 7 Contact / 7 Ray Dawson: only (strict) 1; only (broad) -; strict, shared with one other 7,12

@@ -1,4 +1,4 @@
-== haydock_1718_20220507  field of 5   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== haydock_1718_20220507  field of 5   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Oh Herberts Reign / 1 Hollie Doyle; P03 2 Mystery Fox / 2 David Egan; P05 5 Out From Under / 5 Kieran Shoemark; P07 6 Aldhaja / 6 Jim Crowley; P09 7 Stevenson / 7 David Probert
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              2/5: P01:1 P09:1  |   5: P01:18 P03:13 P05:9 P07:18 P09:19
@@ -16,15 +16,18 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/5: -  |   5: P01:3 P03:2 P05:1 P07:1 P09:2
    [12m] pair in one chart, 2+ sky bodies on both ends  1/5: P01:1  |   4: P01:15 P03:3 P05:2 P07:4
 -- tightest instance of each shape
-   [ 1] P07 6 Aldhaja / 6 Jim Crowley: horse Makemake – jockey Haumea (RA 20.8710 Dec 0.0058)
-   [ 2] P01 1 Oh Herberts Reign / 1 Hollie Doyle: horse Makemake – jockey Sun (RA 0.1737 Dec 31.1528)
-   [ 3] P01 1 Oh Herberts Reign / 1 Hollie Doyle: horse Saturn – jockey Vesta (RA 31.7304 Dec 0.0712)
-   [ 5] P05 5 Out From Under / 5 Kieran Shoemark: moved J Jupiter (RA 0.0782 Dec 7.6936)
-   [ 7] P01 1 Oh Herberts Reign / 1 Hollie Doyle: triangle Mercury/Quaoar/Sun ()
-   [ 8] P03 2 Mystery Fox / 2 David Egan: number 6 ()
-   [10] P01 1 Oh Herberts Reign / 1 Hollie Doyle: H Neptune -> H Juno (split error 0.0026%)
-   [11] P07 6 Aldhaja / 6 Jim Crowley: same body Vesta (worst 0.0226%)
-   [12] P05 5 Out From Under / 5 Kieran Shoemark: H Mercury–Eris (RA 36.8295 Dec 0.0111)
+   [ strict:1] P01 1 Oh Herberts Reign / 1 Hollie Doyle: horse Mars – jockey Eris (RA 0.2027 Dec 17.9373)
+   [ strict:2] P09 7 Stevenson / 7 David Probert: horse Juno – jockey Chiron (RA 0.3067 Dec 1.8543)
+   [ strict:3] P01 1 Oh Herberts Reign / 1 Hollie Doyle: horse Saturn – jockey Vesta (RA 31.7304 Dec 0.0712)
+   [ strict:5] P05 5 Out From Under / 5 Kieran Shoemark: moved J Jupiter (RA 0.0782 Dec 7.6936)
+   [strict:10] P01 1 Oh Herberts Reign / 1 Hollie Doyle: H Neptune -> H Juno (split error 0.0026%)
+   [strict:11] P07 6 Aldhaja / 6 Jim Crowley: same body Vesta (worst 0.0226%)
+   [  broad:1] P07 6 Aldhaja / 6 Jim Crowley: horse Makemake – jockey Haumea (RA 20.8710 Dec 0.0058) broad/near
+   [  broad:2] P01 1 Oh Herberts Reign / 1 Hollie Doyle: horse Makemake – jockey Sun (RA 0.1737 Dec 31.1528) broad/near
+   [  broad:3] P01 1 Oh Herberts Reign / 1 Hollie Doyle: horse Saturn – jockey Vesta (RA 31.7304 Dec 0.0712)
+   [  broad:5] P05 5 Out From Under / 5 Kieran Shoemark: moved J Jupiter (RA 0.0782 Dec 7.6936)
+   [ broad:10] P01 1 Oh Herberts Reign / 1 Hollie Doyle: H Neptune -> H Juno (split error 0.0026%)
+   [ broad:11] P07 6 Aldhaja / 6 Jim Crowley: same body Vesta (worst 0.0226%)
 -- field-only findings (shape numbers)
    P01 1 Oh Herberts Reign / 1 Hollie Doyle: only (strict) 3,12,12m; only (broad) -; strict, shared with one other 1,7
    P09 7 Stevenson / 7 David Probert: only (strict) 2; only (broad) -; strict, shared with one other 1,7

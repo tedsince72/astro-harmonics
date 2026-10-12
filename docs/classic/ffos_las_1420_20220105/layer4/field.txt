@@ -1,4 +1,4 @@
-== ffos_las_1420_20220105  field of 3   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== ffos_las_1420_20220105  field of 3   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Gustavian / 1 Aidan Coleman; P03 3 Emir Sacree / 3 James Bowen; P05 6 New Age Dawning / 6 Tom Scudamore
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              1/3: P03:1  |   3: P01:13 P03:18 P05:18
@@ -16,15 +16,18 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/3: -  |   3: P01:1 P03:4 P05:2
    [12m] pair in one chart, 2+ sky bodies on both ends  2/3: P03:2 P05:1  |   3: P01:4 P03:9 P05:8
 -- tightest instance of each shape
-   [ 1] P01 1 Gustavian / 1 Aidan Coleman: horse Haumea – jockey Chiron (RA 115.8304 Dec 0.0059)
-   [ 2] P03 3 Emir Sacree / 3 James Bowen: horse Pluto – jockey Node (RA 0.3988 Dec 2.6689)
-   [ 5] P03 3 Emir Sacree / 3 James Bowen: moved H Vesta (RA 72.4312 Dec 0.0156)
-   [ 6] P03 3 Emir Sacree / 3 James Bowen: swap Pallas/Transpluto (RA 0.1964 Dec 26.5013)
-   [ 7] P01 1 Gustavian / 1 Aidan Coleman: triangle Chiron/Haumea/Jupiter ()
-   [ 8] P01 1 Gustavian / 1 Aidan Coleman: ratio 22/9 ()
-   [10] P05 6 New Age Dawning / 6 Tom Scudamore: J Haumea -> J Ketu (split error 0.0018%)
-   [11] P01 1 Gustavian / 1 Aidan Coleman: same body Venus (worst 0.0186%)
-   [12] P05 6 New Age Dawning / 6 Tom Scudamore: H Mercury–Gonggong (RA 0.0028 Dec 1.2316)
+   [ strict:1] P03 3 Emir Sacree / 3 James Bowen: horse Mercury – jockey Uranus (RA 0.1359 Dec 4.5581)
+   [ strict:2] P05 6 New Age Dawning / 6 Tom Scudamore: horse Vesta – jockey Mars (RA 29.0988 Dec 0.0979)
+   [ strict:5] P03 3 Emir Sacree / 3 James Bowen: moved H Vesta (RA 72.4312 Dec 0.0156)
+   [ strict:6] P03 3 Emir Sacree / 3 James Bowen: swap Pallas/Transpluto (RA 0.1964 Dec 26.5013)
+   [strict:10] P05 6 New Age Dawning / 6 Tom Scudamore: J Haumea -> J Ketu (split error 0.0018%)
+   [strict:11] P01 1 Gustavian / 1 Aidan Coleman: same body Venus (worst 0.0186%)
+   [  broad:1] P01 1 Gustavian / 1 Aidan Coleman: horse Haumea – jockey Chiron (RA 115.8304 Dec 0.0059) broad/near
+   [  broad:2] P03 3 Emir Sacree / 3 James Bowen: horse Pluto – jockey Node (RA 0.3988 Dec 2.6689) broad/near
+   [  broad:5] P03 3 Emir Sacree / 3 James Bowen: moved H Vesta (RA 72.4312 Dec 0.0156)
+   [  broad:6] P03 3 Emir Sacree / 3 James Bowen: swap Pallas/Transpluto (RA 0.1964 Dec 26.5013)
+   [ broad:10] P05 6 New Age Dawning / 6 Tom Scudamore: J Haumea -> J Ketu (split error 0.0018%)
+   [ broad:11] P01 1 Gustavian / 1 Aidan Coleman: same body Venus (worst 0.0186%)
 -- field-only findings (shape numbers)
    P01 1 Gustavian / 1 Aidan Coleman: only (strict) -; only (broad) -; strict, shared with one other 5,11
    P03 3 Emir Sacree / 3 James Bowen: only (strict) 1,6; only (broad) 6; strict, shared with one other 5,7,8,11,12m

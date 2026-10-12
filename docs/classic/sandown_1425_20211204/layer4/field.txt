@@ -1,4 +1,4 @@
-== sandown_1425_20211204  field of 5   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== sandown_1425_20211204  field of 5   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Captain Guinness / 1 Rachael Blackmore; P03 2 Chacun Pour Soi / 2 Mr P W Mullins; P05 3 Greaneteen / 3 Bryony Le Clerc; P07 4 Hitman / 4 Harry Cobden; P09 5 Nube Negra / 5 Harry Skelton
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              3/5: P01:2 P07:1 P09:1  |   5: P01:17 P03:5 P05:16 P07:13 P09:21
@@ -16,16 +16,19 @@
    [ 1m] cross link, 2+ sky bodies on both ends      1/5: P05:1  |   4: P03:4 P05:1 P07:2 P09:2
    [12m] pair in one chart, 2+ sky bodies on both ends  3/5: P03:1 P05:5 P09:1  |   5: P01:5 P03:13 P05:6 P07:4 P09:2
 -- tightest instance of each shape
-   [ 1] P07 4 Hitman / 4 Harry Cobden: horse Quaoar – jockey Venus (RA 46.8792 Dec 0.0005)
-   [ 2] P07 4 Hitman / 4 Harry Cobden: horse Quaoar – jockey Venus (RA 46.8792 Dec 0.0005)
-   [ 4] P05 3 Greaneteen / 3 Bryony Le Clerc: horse Juno – jockey Mercury (RA 1.2307 Dec 4.0262)
-   [ 5] P05 3 Greaneteen / 3 Bryony Le Clerc: moved H Makemake (RA 0.0159 Dec 4.2099)
-   [ 6] P01 1 Captain Guinness / 1 Rachael Blackmore: swap Haumea/Venus (RA 72.4875 Dec 0.0593)
-   [ 7] P01 1 Captain Guinness / 1 Rachael Blackmore: triangle Neptune/Pallas/Saturn ()
-   [ 8] P01 1 Captain Guinness / 1 Rachael Blackmore: number 131 ()
-   [10] P03 2 Chacun Pour Soi / 2 Mr P W Mullins: J Eris -> H Mercury (split error 0.0009%)
-   [11] P05 3 Greaneteen / 3 Bryony Le Clerc: same body Uranus (worst 0.0052%)
-   [12] P05 3 Greaneteen / 3 Bryony Le Clerc: J Mercury–Gonggong (Dec 25.22216 = 227/9)
+   [ strict:1] P07 4 Hitman / 4 Harry Cobden: horse Vesta – jockey Transpluto (RA 102.1000 Dec 0.0598)
+   [ strict:2] P03 2 Chacun Pour Soi / 2 Mr P W Mullins: horse Gonggong – jockey Quaoar (RA 101.3020 Dec 0.0205)
+   [ strict:4] P05 3 Greaneteen / 3 Bryony Le Clerc: horse Juno – jockey Mercury (RA 1.2307 Dec 4.0262)
+   [ strict:5] P05 3 Greaneteen / 3 Bryony Le Clerc: moved H Makemake (RA 0.0159 Dec 4.2099)
+   [strict:10] P03 2 Chacun Pour Soi / 2 Mr P W Mullins: J Eris -> H Mercury (split error 0.0009%)
+   [strict:11] P05 3 Greaneteen / 3 Bryony Le Clerc: same body Uranus (worst 0.0052%)
+   [  broad:1] P07 4 Hitman / 4 Harry Cobden: horse Quaoar – jockey Venus (RA 46.8792 Dec 0.0005) broad/near
+   [  broad:2] P07 4 Hitman / 4 Harry Cobden: horse Quaoar – jockey Venus (RA 46.8792 Dec 0.0005) broad/near
+   [  broad:4] P05 3 Greaneteen / 3 Bryony Le Clerc: horse Juno – jockey Mercury (RA 1.2307 Dec 4.0262)
+   [  broad:5] P05 3 Greaneteen / 3 Bryony Le Clerc: moved H Makemake (RA 0.0159 Dec 4.2099)
+   [  broad:6] P01 1 Captain Guinness / 1 Rachael Blackmore: swap Haumea/Venus (RA 72.4875 Dec 0.0593) broad/near
+   [ broad:10] P03 2 Chacun Pour Soi / 2 Mr P W Mullins: J Eris -> H Mercury (split error 0.0009%)
+   [ broad:11] P05 3 Greaneteen / 3 Bryony Le Clerc: same body Uranus (worst 0.0052%)
 -- field-only findings (shape numbers)
    P01 1 Captain Guinness / 1 Rachael Blackmore: only (strict) -; only (broad) 6; strict, shared with one other -
    P03 2 Chacun Pour Soi / 2 Mr P W Mullins: only (strict) -; only (broad) -; strict, shared with one other 12

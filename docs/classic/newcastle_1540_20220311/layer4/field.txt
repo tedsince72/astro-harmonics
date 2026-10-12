@@ -1,4 +1,4 @@
-== newcastle_1540_20220311  field of 6   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== newcastle_1540_20220311  field of 6   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Vocaliser / 1 Fergus Gregory; P03 2 Edmond Dantes / 2 Brian Hughes; P05 3 Peak Time / 3 Conor O'Farrell; P07 5 Sir Apollo / 5 Jonathan England; P09 6 Thundersockssundae / 6 Kielan Woods; P11 7 Black Opium / 7 Stephen Mulqueen
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              5/6: P01:4 P03:3 P07:1 P09:1 P11:1  |   6: P01:24 P03:13 P05:18 P07:17 P09:19 P11:19
@@ -16,17 +16,21 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   5: P01:4 P03:1 P05:2 P09:3 P11:6
    [12m] pair in one chart, 2+ sky bodies on both ends  5/6: P01:1 P03:1 P05:1 P09:1 P11:3  |   6: P01:8 P03:4 P05:6 P07:1 P09:4 P11:10
 -- tightest instance of each shape
-   [ 1] P01 1 Vocaliser / 1 Fergus Gregory: horse Transpluto – jockey Chiron (RA 26.0528 Dec 0.0104)
-   [ 2] P01 1 Vocaliser / 1 Fergus Gregory: horse Transpluto – jockey Chiron (RA 26.0528 Dec 0.0104)
-   [ 3] P01 1 Vocaliser / 1 Fergus Gregory: horse Gonggong – jockey Mercury (RA 0.3811 Dec 1.6132)
-   [ 4] P11 7 Black Opium / 7 Stephen Mulqueen: horse Saturn – jockey Ceres (RA 112.2354 Dec 0.0547)
-   [ 5] P11 7 Black Opium / 7 Stephen Mulqueen: moved H Saturn (RA 112.2354 Dec 0.0547)
-   [ 6] P01 1 Vocaliser / 1 Fergus Gregory: swap Gonggong/Mercury (RA 0.3811 Dec 1.6132)
-   [ 7] P01 1 Vocaliser / 1 Fergus Gregory: triangle Chiron/Gonggong/Mercury ()
-   [ 8] P03 2 Edmond Dantes / 2 Brian Hughes: number 3 ()
-   [10] P05 3 Peak Time / 3 Conor O'Farrell: H Ceres -> H Orcus (split error 0.0010%)
-   [11] P11 7 Black Opium / 7 Stephen Mulqueen: same body Quaoar (worst 0.0019%)
-   [12] P01 1 Vocaliser / 1 Fergus Gregory: H Ceres–Eris (RA 14.8051 Dec 0.0051)
+   [ strict:1] P01 1 Vocaliser / 1 Fergus Gregory: horse Transpluto – jockey Chiron (RA 26.0528 Dec 0.0104)
+   [ strict:2] P01 1 Vocaliser / 1 Fergus Gregory: horse Transpluto – jockey Chiron (RA 26.0528 Dec 0.0104)
+   [ strict:3] P01 1 Vocaliser / 1 Fergus Gregory: horse Gonggong – jockey Mercury (RA 0.3811 Dec 1.6132)
+   [ strict:4] P11 7 Black Opium / 7 Stephen Mulqueen: horse Saturn – jockey Ceres (RA 112.2354 Dec 0.0547)
+   [ strict:5] P11 7 Black Opium / 7 Stephen Mulqueen: moved H Saturn (RA 112.2354 Dec 0.0547)
+   [strict:10] P05 3 Peak Time / 3 Conor O'Farrell: H Ceres -> H Orcus (split error 0.0010%)
+   [strict:11] P11 7 Black Opium / 7 Stephen Mulqueen: same body Quaoar (worst 0.0019%)
+   [  broad:1] P01 1 Vocaliser / 1 Fergus Gregory: horse Transpluto – jockey Chiron (RA 26.0528 Dec 0.0104)
+   [  broad:2] P01 1 Vocaliser / 1 Fergus Gregory: horse Transpluto – jockey Chiron (RA 26.0528 Dec 0.0104)
+   [  broad:3] P01 1 Vocaliser / 1 Fergus Gregory: horse Gonggong – jockey Mercury (RA 0.3811 Dec 1.6132)
+   [  broad:4] P11 7 Black Opium / 7 Stephen Mulqueen: horse Saturn – jockey Ceres (RA 112.2354 Dec 0.0547)
+   [  broad:5] P11 7 Black Opium / 7 Stephen Mulqueen: moved H Saturn (RA 112.2354 Dec 0.0547)
+   [  broad:6] P01 1 Vocaliser / 1 Fergus Gregory: swap Gonggong/Mercury (RA 0.3811 Dec 1.6132) broad/near
+   [ broad:10] P05 3 Peak Time / 3 Conor O'Farrell: H Ceres -> H Orcus (split error 0.0010%)
+   [ broad:11] P11 7 Black Opium / 7 Stephen Mulqueen: same body Quaoar (worst 0.0019%)
 -- field-only findings (shape numbers)
    P01 1 Vocaliser / 1 Fergus Gregory: only (strict) -; only (broad) 6; strict, shared with one other 3
    P03 2 Edmond Dantes / 2 Brian Hughes: only (strict) -; only (broad) -; strict, shared with one other 3

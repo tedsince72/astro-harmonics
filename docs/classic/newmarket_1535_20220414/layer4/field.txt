@@ -1,4 +1,4 @@
-== newmarket_1535_20220414  field of 6   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== newmarket_1535_20220414  field of 6   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Austrian Theory / 1 Joe Fanning; P03 2 Cresta / 2 Tom Marquand; P05 3 Dawn Of Liberation / 3 Sean Levey; P07 4 Eydon / 4 David Egan; P09 5 Masekela / 5 William Buick; P11 6 Sonny Liston / 6 Marco Ghiani
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              2/6: P01:1 P07:1  |   6: P01:23 P03:15 P05:25 P07:16 P09:14 P11:22
@@ -16,16 +16,20 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   6: P01:2 P03:1 P05:6 P07:1 P09:2 P11:2
    [12m] pair in one chart, 2+ sky bodies on both ends  2/6: P03:2 P11:1  |   6: P01:2 P03:3 P05:5 P07:1 P09:1 P11:9
 -- tightest instance of each shape
-   [ 1] P05 3 Dawn Of Liberation / 3 Sean Levey: horse Jupiter – jockey Saturn (RA 14.3997 Dec 0.0108)
-   [ 2] P03 2 Cresta / 2 Tom Marquand: horse Sedna – jockey Node (RA 105.2421 Dec 0.0222)
-   [ 3] P07 4 Eydon / 4 David Egan: horse Venus – jockey Gonggong (RA 0.7002 Dec 4.8984)
-   [ 5] P07 4 Eydon / 4 David Egan: moved J Node (RA 78.0149 Dec 0.0180)
-   [ 6] P07 4 Eydon / 4 David Egan: swap Haumea/Rahu (RA 78.0149 Dec 0.0180)
-   [ 7] P01 1 Austrian Theory / 1 Joe Fanning: triangle Jupiter/Sun/Vesta ()
-   [ 8] P03 2 Cresta / 2 Tom Marquand: number 21 ()
-   [10] P07 4 Eydon / 4 David Egan: J Haumea -> H Transpluto (split error 0.0023%)
-   [11] P09 5 Masekela / 5 William Buick: same body Node (worst 0.0128%)
-   [12] P07 4 Eydon / 4 David Egan: H Orcus–Transpluto (RA 0.0006 Dec 21.4081)
+   [ strict:1] P07 4 Eydon / 4 David Egan: horse Haumea – jockey Node (RA 78.0149 Dec 0.0180)
+   [ strict:2] P01 1 Austrian Theory / 1 Joe Fanning: horse Node – jockey Venus (RA 77.3781 Dec 0.0345)
+   [ strict:3] P07 4 Eydon / 4 David Egan: horse Venus – jockey Gonggong (RA 0.7002 Dec 4.8984)
+   [ strict:5] P07 4 Eydon / 4 David Egan: moved J Node (RA 78.0149 Dec 0.0180)
+   [ strict:6] P03 2 Cresta / 2 Tom Marquand: swap Pallas/Sun (RA 156.1929 Dec 0.1254)
+   [strict:10] P07 4 Eydon / 4 David Egan: J Haumea -> H Transpluto (split error 0.0023%)
+   [strict:11] P09 5 Masekela / 5 William Buick: same body Node (worst 0.0128%)
+   [  broad:1] P05 3 Dawn Of Liberation / 3 Sean Levey: horse Jupiter – jockey Saturn (RA 14.3997 Dec 0.0108) broad/near
+   [  broad:2] P03 2 Cresta / 2 Tom Marquand: horse Sedna – jockey Node (RA 105.2421 Dec 0.0222) broad/near
+   [  broad:3] P07 4 Eydon / 4 David Egan: horse Venus – jockey Gonggong (RA 0.7002 Dec 4.8984)
+   [  broad:5] P07 4 Eydon / 4 David Egan: moved J Node (RA 78.0149 Dec 0.0180)
+   [  broad:6] P07 4 Eydon / 4 David Egan: swap Haumea/Rahu (RA 78.0149 Dec 0.0180) broad/near
+   [ broad:10] P07 4 Eydon / 4 David Egan: J Haumea -> H Transpluto (split error 0.0023%)
+   [ broad:11] P09 5 Masekela / 5 William Buick: same body Node (worst 0.0128%)
 -- field-only findings (shape numbers)
    P01 1 Austrian Theory / 1 Joe Fanning: only (strict) -; only (broad) -; strict, shared with one other 1,2
    P03 2 Cresta / 2 Tom Marquand: only (strict) 6,12; only (broad) -; strict, shared with one other 12m

@@ -1,4 +1,4 @@
-== newcastle_aw_1640_20220215  field of 6   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== newcastle_aw_1640_20220215  field of 6   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Sir Chauvelin / 1 Paul Mulrennan; P03 2 Alba Rose / 2 Joe Fanning; P05 3 Wise Eagle / 3 Graham Lee; P07 4 Onesmoothoperator / 4 Harry Russell; P09 5 Aced It / 5 Jack Mitchell; P11 6 Resumption / 6 Tom Marquand
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              2/6: P03:1 P05:2  |   6: P01:13 P03:9 P05:24 P07:13 P09:14 P11:15
@@ -16,17 +16,21 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   6: P01:3 P03:1 P05:1 P07:2 P09:2 P11:2
    [12m] pair in one chart, 2+ sky bodies on both ends  3/6: P03:1 P09:2 P11:1  |   5: P01:4 P03:4 P07:2 P09:7 P11:5
 -- tightest instance of each shape
-   [ 1] P11 6 Resumption / 6 Tom Marquand: horse Jupiter – jockey Chiron (RA 0.0147 Dec 0.7038)
-   [ 2] P01 1 Sir Chauvelin / 1 Paul Mulrennan: horse Pluto – jockey Juno (RA 0.0462 Dec 11.5683)
-   [ 3] P05 3 Wise Eagle / 3 Graham Lee: horse Vesta – jockey Mars (RA 34.8930 Dec 0.3359)
-   [ 4] P09 5 Aced It / 5 Jack Mitchell: horse Pallas – jockey Pallas (RA 1.0728 Dec 10.0464)
-   [ 5] P01 1 Sir Chauvelin / 1 Paul Mulrennan: moved J Juno (RA 0.0462 Dec 11.5683)
-   [ 6] P05 3 Wise Eagle / 3 Graham Lee: swap Orcus/Vesta (RA 153.5052 Dec 0.0435)
-   [ 7] P01 1 Sir Chauvelin / 1 Paul Mulrennan: triangle Mercury/Node/Uranus ()
-   [ 8] P01 1 Sir Chauvelin / 1 Paul Mulrennan: ratio 7/6 ()
-   [10] P11 6 Resumption / 6 Tom Marquand: J Jupiter -> J Uranus (split error 0.0055%)
-   [11] P01 1 Sir Chauvelin / 1 Paul Mulrennan: same body Venus (worst 0.0022%)
-   [12] P07 4 Onesmoothoperator / 4 Harry Russell: H Jupiter–Neptune (RA 114.44412 = 1030/9)
+   [ strict:1] P05 3 Wise Eagle / 3 Graham Lee: horse Uranus – jockey Chiron (RA 0.3690 Dec 0.8195)
+   [ strict:2] P09 5 Aced It / 5 Jack Mitchell: horse Sedna – jockey Jupiter (RA 0.0992 Dec 11.2372)
+   [ strict:4] P09 5 Aced It / 5 Jack Mitchell: horse Pallas – jockey Pallas (RA 1.0728 Dec 10.0464)
+   [ strict:5] P01 1 Sir Chauvelin / 1 Paul Mulrennan: moved J Juno (RA 0.0462 Dec 11.5683)
+   [ strict:6] P05 3 Wise Eagle / 3 Graham Lee: swap Orcus/Vesta (RA 153.5052 Dec 0.0435)
+   [strict:10] P11 6 Resumption / 6 Tom Marquand: J Jupiter -> J Uranus (split error 0.0055%)
+   [strict:11] P01 1 Sir Chauvelin / 1 Paul Mulrennan: same body Venus (worst 0.0022%)
+   [  broad:1] P11 6 Resumption / 6 Tom Marquand: horse Jupiter – jockey Chiron (RA 0.0147 Dec 0.7038) broad/near
+   [  broad:2] P01 1 Sir Chauvelin / 1 Paul Mulrennan: horse Pluto – jockey Juno (RA 0.0462 Dec 11.5683) broad/near
+   [  broad:3] P05 3 Wise Eagle / 3 Graham Lee: horse Vesta – jockey Mars (RA 34.8930 Dec 0.3359) broad/near
+   [  broad:4] P09 5 Aced It / 5 Jack Mitchell: horse Pallas – jockey Pallas (RA 1.0728 Dec 10.0464)
+   [  broad:5] P01 1 Sir Chauvelin / 1 Paul Mulrennan: moved J Juno (RA 0.0462 Dec 11.5683)
+   [  broad:6] P05 3 Wise Eagle / 3 Graham Lee: swap Orcus/Vesta (RA 153.5052 Dec 0.0435)
+   [ broad:10] P11 6 Resumption / 6 Tom Marquand: J Jupiter -> J Uranus (split error 0.0055%)
+   [ broad:11] P01 1 Sir Chauvelin / 1 Paul Mulrennan: same body Venus (worst 0.0022%)
 -- field-only findings (shape numbers)
    P01 1 Sir Chauvelin / 1 Paul Mulrennan: only (strict) -; only (broad) -; strict, shared with one other 7
    P03 2 Alba Rose / 2 Joe Fanning: only (strict) -; only (broad) -; strict, shared with one other 1

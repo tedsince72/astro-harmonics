@@ -1,4 +1,4 @@
-== chelmsford_aw_1320_20240118  field of 7   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== chelmsford_aw_1320_20240118  field of 7   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P03 2 Sullivan Bay / 2 Shane Kelly; P05 3 Good Time Ahead / 3 Morgan Cole; P07 4 New York Bay / 4 Finley Marsh; P09 5 Reset Button / 5 Jack Gilligan; P11 6 Foinix / 6 Dylan Hogan; P13 7 Buford / 7 Alex Jary; P15 8 Duveen / 8 David Probert
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              2/7: P07:1 P15:1  |   7: P03:29 P05:18 P07:13 P09:14 P11:13 P13:18 P15:26
@@ -16,17 +16,21 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/7: -  |   7: P03:17 P05:2 P07:1 P09:3 P11:7 P13:6 P15:14
    [12m] pair in one chart, 2+ sky bodies on both ends  3/7: P03:3 P09:1 P15:1  |   7: P03:15 P05:1 P07:5 P09:6 P11:4 P13:8 P15:10
 -- tightest instance of each shape
-   [ 1] P03 2 Sullivan Bay / 2 Shane Kelly: horse Node – jockey Mercury (RA 5.1540 Dec 0.0005)
-   [ 2] P03 2 Sullivan Bay / 2 Shane Kelly: horse Node – jockey Mercury (RA 5.1540 Dec 0.0005)
-   [ 3] P15 8 Duveen / 8 David Probert: horse Node – jockey Chiron (RA 1.0448 Dec 6.8164)
-   [ 4] P05 3 Good Time Ahead / 3 Morgan Cole: horse Node – jockey Pluto (RA 42.8250 Dec 0.1262)
-   [ 5] P05 3 Good Time Ahead / 3 Morgan Cole: moved H Juno (RA 0.0316 Dec 3.8761)
-   [ 6] P11 6 Foinix / 6 Dylan Hogan: swap Pallas/Sedna (RA 133.8706 Dec 0.0881)
-   [ 7] P03 2 Sullivan Bay / 2 Shane Kelly: triangle Juno/Mercury/Orcus ()
-   [ 8] P03 2 Sullivan Bay / 2 Shane Kelly: ratio 28/9 ()
-   [10] P03 2 Sullivan Bay / 2 Shane Kelly: J Chiron -> J Quaoar (split error 0.0035%)
-   [11] P09 5 Reset Button / 5 Jack Gilligan: same body Uranus (worst 0.0108%)
-   [12] P13 7 Buford / 7 Alex Jary: H Saturn–Haumea (RA 65.77775 = 592/9)
+   [ strict:1] P07 4 New York Bay / 4 Finley Marsh: horse Chiron – jockey Jupiter (RA 0.0949 Dec 4.1932)
+   [ strict:2] P13 7 Buford / 7 Alex Jary: horse Node – jockey Orcus (RA 0.4377 Dec 16.9028)
+   [ strict:3] P15 8 Duveen / 8 David Probert: horse Node – jockey Chiron (RA 1.0448 Dec 6.8164)
+   [ strict:4] P05 3 Good Time Ahead / 3 Morgan Cole: horse Node – jockey Pluto (RA 42.8250 Dec 0.1262)
+   [ strict:5] P05 3 Good Time Ahead / 3 Morgan Cole: moved H Juno (RA 0.0316 Dec 3.8761)
+   [strict:10] P03 2 Sullivan Bay / 2 Shane Kelly: J Chiron -> J Quaoar (split error 0.0035%)
+   [strict:11] P09 5 Reset Button / 5 Jack Gilligan: same body Uranus (worst 0.0108%)
+   [  broad:1] P03 2 Sullivan Bay / 2 Shane Kelly: horse Node – jockey Mercury (RA 5.1540 Dec 0.0005) broad/near
+   [  broad:2] P03 2 Sullivan Bay / 2 Shane Kelly: horse Node – jockey Mercury (RA 5.1540 Dec 0.0005) broad/near
+   [  broad:3] P15 8 Duveen / 8 David Probert: horse Node – jockey Chiron (RA 1.0448 Dec 6.8164)
+   [  broad:4] P05 3 Good Time Ahead / 3 Morgan Cole: horse Node – jockey Pluto (RA 42.8250 Dec 0.1262)
+   [  broad:5] P05 3 Good Time Ahead / 3 Morgan Cole: moved H Juno (RA 0.0316 Dec 3.8761)
+   [  broad:6] P11 6 Foinix / 6 Dylan Hogan: swap Pallas/Sedna (RA 133.8706 Dec 0.0881) broad/near
+   [ broad:10] P03 2 Sullivan Bay / 2 Shane Kelly: J Chiron -> J Quaoar (split error 0.0035%)
+   [ broad:11] P09 5 Reset Button / 5 Jack Gilligan: same body Uranus (worst 0.0108%)
 -- field-only findings (shape numbers)
    P03 2 Sullivan Bay / 2 Shane Kelly: only (strict) 12; only (broad) -; strict, shared with one other 3,7
    P05 3 Good Time Ahead / 3 Morgan Cole: only (strict) 4; only (broad) -; strict, shared with one other -

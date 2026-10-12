@@ -10,3 +10,6 @@ recurring annotations.
 ## First look across all races with results (12 Oct 2026) — descriptive only, NOT a test
 Runners with at least one STRICT shape that no other runner in the field has: winners 16 of 36, other runners 51 of 192.
 Caution: the 12 shapes were named from these same winners, so this is not evidence; the test is races Layer 1–4 have never seen.
+
+## v1.1 (checker, 12 Oct 2026)
+Independent checker rebuilt the shape table, field-only lists and tightest picks for York 16:15, Fontwell, Perth: identical. Fixes: tightest is now chosen separately at strict and broad level and flagged; shapes 7, 8, 12 left out of 'tightest' (no single tightness measure); each instance carries n_sky_bodies (Rahu/Ketu folded) and rests_on_near_or_broad; shape 5 key fixed.

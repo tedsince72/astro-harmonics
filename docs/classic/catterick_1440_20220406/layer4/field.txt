@@ -1,4 +1,4 @@
-== catterick_1440_20220406  field of 5   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== catterick_1440_20220406  field of 5   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Tea Garden / 1 Connor Beasley; P03 2 Beluga Gold / 2 Jason Hart; P05 3 Capuchinero / 3 Dougie Costello; P07 4 Thakuri / 4 David Allan; P09 5 Wotever Next / 5 Joanna Mason
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              1/5: P05:1  |   5: P01:9 P03:16 P05:29 P07:17 P09:14
@@ -16,17 +16,20 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/5: -  |   3: P03:4 P05:4 P07:4
    [12m] pair in one chart, 2+ sky bodies on both ends  0/5: -  |   5: P01:2 P03:1 P05:5 P07:3 P09:4
 -- tightest instance of each shape
-   [ 1] P03 2 Beluga Gold / 2 Jason Hart: horse Ceres – jockey Node (RA 29.9579 Dec 0.0057)
-   [ 2] P07 4 Thakuri / 4 David Allan: horse Makemake – jockey Mars (RA 0.1289 Dec 31.7914)
-   [ 3] P05 3 Capuchinero / 3 Dougie Costello: horse Jupiter – jockey Neptune (RA 8.6147 Dec 0.3194)
-   [ 4] P09 5 Wotever Next / 5 Joanna Mason: horse Saturn – jockey Mercury (RA 2.2172 Dec 0.0827)
-   [ 5] P03 2 Beluga Gold / 2 Jason Hart: moved J Node (RA 29.9579 Dec 0.0057)
-   [ 6] P03 2 Beluga Gold / 2 Jason Hart: swap Neptune/Pluto (RA 111.2866 Dec 0.0371)
-   [ 7] P01 1 Tea Garden / 1 Connor Beasley: triangle Jupiter/Node/Quaoar ()
-   [ 8] P03 2 Beluga Gold / 2 Jason Hart: ratio 9/8 ()
-   [10] P05 3 Capuchinero / 3 Dougie Costello: H Sun -> J Transpluto (split error 0.0066%)
-   [11] P03 2 Beluga Gold / 2 Jason Hart: same body Transpluto (worst 0.0370%)
-   [12] P01 1 Tea Garden / 1 Connor Beasley: H Juno–Gonggong (GC 5.44417 = 49/9)
+   [ strict:1] P05 3 Capuchinero / 3 Dougie Costello: horse Pallas – jockey Pluto (RA 0.8135 Dec 0.7609)
+   [ strict:2] P07 4 Thakuri / 4 David Allan: horse Makemake – jockey Mars (RA 0.1289 Dec 31.7914)
+   [ strict:4] P09 5 Wotever Next / 5 Joanna Mason: horse Saturn – jockey Mercury (RA 2.2172 Dec 0.0827)
+   [ strict:5] P03 2 Beluga Gold / 2 Jason Hart: moved J Node (RA 29.9579 Dec 0.0057)
+   [strict:10] P05 3 Capuchinero / 3 Dougie Costello: H Sun -> J Transpluto (split error 0.0066%)
+   [strict:11] P03 2 Beluga Gold / 2 Jason Hart: same body Transpluto (worst 0.0370%)
+   [  broad:1] P03 2 Beluga Gold / 2 Jason Hart: horse Ceres – jockey Node (RA 29.9579 Dec 0.0057) broad/near
+   [  broad:2] P07 4 Thakuri / 4 David Allan: horse Makemake – jockey Mars (RA 0.1289 Dec 31.7914)
+   [  broad:3] P05 3 Capuchinero / 3 Dougie Costello: horse Jupiter – jockey Neptune (RA 8.6147 Dec 0.3194) broad/near
+   [  broad:4] P09 5 Wotever Next / 5 Joanna Mason: horse Saturn – jockey Mercury (RA 2.2172 Dec 0.0827)
+   [  broad:5] P03 2 Beluga Gold / 2 Jason Hart: moved J Node (RA 29.9579 Dec 0.0057)
+   [  broad:6] P03 2 Beluga Gold / 2 Jason Hart: swap Neptune/Pluto (RA 111.2866 Dec 0.0371) broad/near
+   [ broad:10] P05 3 Capuchinero / 3 Dougie Costello: H Sun -> J Transpluto (split error 0.0066%)
+   [ broad:11] P03 2 Beluga Gold / 2 Jason Hart: same body Transpluto (worst 0.0370%)
 -- field-only findings (shape numbers)
    P03 2 Beluga Gold / 2 Jason Hart: only (strict) -; only (broad) -; strict, shared with one other 7
    P05 3 Capuchinero / 3 Dougie Costello: only (strict) 1; only (broad) -; strict, shared with one other 7,8

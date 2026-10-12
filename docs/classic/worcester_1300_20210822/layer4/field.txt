@@ -1,4 +1,4 @@
-== worcester_1300_20210822  field of 5   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== worcester_1300_20210822  field of 5   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Streets Of Doyen / 1 Sean Bowen; P03 2 Adjali / 2 Daryl Jacob; P05 3 Rhythm Is A Dancer / 3 Harry Cobden; P07 4 Thistle Do Nicely / 4 Gavin Sheehan; P09 5 Oscar Montel / 5 Brian Hughes
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              3/5: P01:2 P07:1 P09:1  |   5: P01:20 P03:17 P05:15 P07:13 P09:19
@@ -16,17 +16,21 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/5: -  |   4: P01:3 P03:2 P07:1 P09:3
    [12m] pair in one chart, 2+ sky bodies on both ends  2/5: P01:1 P05:1  |   5: P01:4 P03:1 P05:6 P07:2 P09:3
 -- tightest instance of each shape
-   [ 1] P07 4 Thistle Do Nicely / 4 Gavin Sheehan: horse Ceres – jockey Orcus (RA 70.7158 Dec 0.0000)
-   [ 2] P05 3 Rhythm Is A Dancer / 3 Harry Cobden: horse Quaoar – jockey Venus (RA 42.9107 Dec 0.0599)
-   [ 3] P09 5 Oscar Montel / 5 Brian Hughes: horse Mercury – jockey Mars (RA 25.6469 Dec 0.2808)
-   [ 4] P09 5 Oscar Montel / 5 Brian Hughes: horse Ceres – jockey Pluto (RA 13.4279 Dec 0.2149)
-   [ 5] P05 3 Rhythm Is A Dancer / 3 Harry Cobden: moved J Venus (RA 42.9107 Dec 0.0599)
-   [ 6] P05 3 Rhythm Is A Dancer / 3 Harry Cobden: swap Neptune/Pluto (RA 89.2755 Dec 0.3409)
-   [ 7] P01 1 Streets Of Doyen / 1 Sean Bowen: triangle Juno/Mercury/Sedna ()
-   [ 8] P01 1 Streets Of Doyen / 1 Sean Bowen: number 42 ()
-   [10] P03 2 Adjali / 2 Daryl Jacob: H Haumea -> J Pluto (split error 0.0028%)
-   [11] P05 3 Rhythm Is A Dancer / 3 Harry Cobden: same body Transpluto (worst 0.0110%)
-   [12] P05 3 Rhythm Is A Dancer / 3 Harry Cobden: H Sun–Venus (RA 2.9964 Dec 0.0042)
+   [ strict:1] P07 4 Thistle Do Nicely / 4 Gavin Sheehan: horse Ceres – jockey Orcus (RA 70.7158 Dec 0.0000)
+   [ strict:2] P05 3 Rhythm Is A Dancer / 3 Harry Cobden: horse Node – jockey Ceres (RA 26.2105 Dec 0.1314)
+   [ strict:3] P09 5 Oscar Montel / 5 Brian Hughes: horse Mercury – jockey Mars (RA 25.6469 Dec 0.2808)
+   [ strict:4] P09 5 Oscar Montel / 5 Brian Hughes: horse Ceres – jockey Pluto (RA 13.4279 Dec 0.2149)
+   [ strict:5] P05 3 Rhythm Is A Dancer / 3 Harry Cobden: moved J Venus (RA 42.9107 Dec 0.0599)
+   [strict:10] P03 2 Adjali / 2 Daryl Jacob: H Haumea -> J Pluto (split error 0.0028%)
+   [strict:11] P05 3 Rhythm Is A Dancer / 3 Harry Cobden: same body Transpluto (worst 0.0110%)
+   [  broad:1] P07 4 Thistle Do Nicely / 4 Gavin Sheehan: horse Ceres – jockey Orcus (RA 70.7158 Dec 0.0000)
+   [  broad:2] P05 3 Rhythm Is A Dancer / 3 Harry Cobden: horse Quaoar – jockey Venus (RA 42.9107 Dec 0.0599) broad/near
+   [  broad:3] P09 5 Oscar Montel / 5 Brian Hughes: horse Mercury – jockey Mars (RA 25.6469 Dec 0.2808)
+   [  broad:4] P09 5 Oscar Montel / 5 Brian Hughes: horse Ceres – jockey Pluto (RA 13.4279 Dec 0.2149)
+   [  broad:5] P05 3 Rhythm Is A Dancer / 3 Harry Cobden: moved J Venus (RA 42.9107 Dec 0.0599)
+   [  broad:6] P05 3 Rhythm Is A Dancer / 3 Harry Cobden: swap Neptune/Pluto (RA 89.2755 Dec 0.3409) broad/near
+   [ broad:10] P03 2 Adjali / 2 Daryl Jacob: H Haumea -> J Pluto (split error 0.0028%)
+   [ broad:11] P05 3 Rhythm Is A Dancer / 3 Harry Cobden: same body Transpluto (worst 0.0110%)
 -- field-only findings (shape numbers)
    P01 1 Streets Of Doyen / 1 Sean Bowen: only (strict) -; only (broad) -; strict, shared with one other 8,12,12m
    P03 2 Adjali / 2 Daryl Jacob: only (strict) -; only (broad) -; strict, shared with one other 4

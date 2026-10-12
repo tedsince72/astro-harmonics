@@ -1,4 +1,4 @@
-== newbury_1350_20211126  field of 5   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== newbury_1350_20211126  field of 5   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Solo / 1 Harry Cobden; P03 2 Mister Coffey / 2 James Bowen; P05 4 Fifty Ball / 4 Jamie Moore; P07 5 Cascova / 5 Daryl Jacob; P09 7 Not Available / 7 Stan Sheppard
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              4/5: P03:1 P05:1 P07:2 P09:1  |   5: P01:16 P03:14 P05:10 P07:17 P09:18
@@ -16,16 +16,20 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/5: -  |   5: P01:1 P03:1 P05:4 P07:3 P09:1
    [12m] pair in one chart, 2+ sky bodies on both ends  1/5: P05:1  |   5: P01:9 P03:3 P05:2 P07:2 P09:1
 -- tightest instance of each shape
-   [ 1] P01 1 Solo / 1 Harry Cobden: horse Quaoar – jockey Sun (RA 48.3639 Dec 0.0161)
-   [ 2] P01 1 Solo / 1 Harry Cobden: horse Quaoar – jockey Sun (RA 48.3639 Dec 0.0161)
-   [ 4] P05 4 Fifty Ball / 4 Jamie Moore: horse Neptune – jockey Pallas (RA 14.2548 Dec 0.1407)
-   [ 5] P01 1 Solo / 1 Harry Cobden: moved J Sun (RA 48.3639 Dec 0.0161)
-   [ 6] P09 7 Not Available / 7 Stan Sheppard: swap Neptune/Pluto (RA 97.5836 Dec 0.1194)
-   [ 7] P01 1 Solo / 1 Harry Cobden: triangle Mercury/Venus/Vesta ()
-   [ 8] P01 1 Solo / 1 Harry Cobden: number 18 ()
-   [10] P05 4 Fifty Ball / 4 Jamie Moore: J Sun -> H Makemake (split error 0.0064%)
-   [11] P09 7 Not Available / 7 Stan Sheppard: same body Vesta (worst 0.0245%)
-   [12] P01 1 Solo / 1 Harry Cobden: J Mercury–Uranus (RA 69.11129 = 622/9)
+   [ strict:1] P03 2 Mister Coffey / 2 James Bowen: horse Sedna – jockey Saturn (RA 0.6823 Dec 10.0389)
+   [ strict:2] P05 4 Fifty Ball / 4 Jamie Moore: horse Gonggong – jockey Quaoar (RA 107.0066 Dec 0.0182)
+   [ strict:4] P05 4 Fifty Ball / 4 Jamie Moore: horse Neptune – jockey Pallas (RA 14.2548 Dec 0.1407)
+   [ strict:5] P01 1 Solo / 1 Harry Cobden: moved J Sun (RA 48.3639 Dec 0.0161)
+   [ strict:6] P09 7 Not Available / 7 Stan Sheppard: swap Neptune/Pluto (RA 97.5836 Dec 0.1194)
+   [strict:10] P05 4 Fifty Ball / 4 Jamie Moore: J Sun -> H Makemake (split error 0.0064%)
+   [strict:11] P09 7 Not Available / 7 Stan Sheppard: same body Vesta (worst 0.0245%)
+   [  broad:1] P01 1 Solo / 1 Harry Cobden: horse Quaoar – jockey Sun (RA 48.3639 Dec 0.0161) broad/near
+   [  broad:2] P01 1 Solo / 1 Harry Cobden: horse Quaoar – jockey Sun (RA 48.3639 Dec 0.0161) broad/near
+   [  broad:4] P05 4 Fifty Ball / 4 Jamie Moore: horse Neptune – jockey Pallas (RA 14.2548 Dec 0.1407)
+   [  broad:5] P01 1 Solo / 1 Harry Cobden: moved J Sun (RA 48.3639 Dec 0.0161)
+   [  broad:6] P09 7 Not Available / 7 Stan Sheppard: swap Neptune/Pluto (RA 97.5836 Dec 0.1194)
+   [ broad:10] P05 4 Fifty Ball / 4 Jamie Moore: J Sun -> H Makemake (split error 0.0064%)
+   [ broad:11] P09 7 Not Available / 7 Stan Sheppard: same body Vesta (worst 0.0245%)
 -- field-only findings (shape numbers)
    P01 1 Solo / 1 Harry Cobden: only (strict) -; only (broad) -; strict, shared with one other 7
    P05 4 Fifty Ball / 4 Jamie Moore: only (strict) 4,12,12m; only (broad) 4; strict, shared with one other 7

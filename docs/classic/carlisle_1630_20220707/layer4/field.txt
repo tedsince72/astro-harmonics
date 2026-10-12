@@ -1,4 +1,4 @@
-== carlisle_1630_20220707  field of 6   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== carlisle_1630_20220707  field of 6   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Aswan / 1 David Allan; P03 2 Million Thanks / 2 Kevin Stott; P05 4 Persist / 4 Stevie Donohoe; P07 6 Whitefeathersfall / 6 Franny Norton; P09 7 Noble Mark / 7 Luke Morris; P11 8 Lucia Joy / 8 Ben Curtis
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              1/6: P03:3  |   6: P01:19 P03:13 P05:23 P07:12 P09:14 P11:16
@@ -16,17 +16,22 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   4: P01:2 P05:8 P09:1 P11:1
    [12m] pair in one chart, 2+ sky bodies on both ends  2/6: P05:1 P09:1  |   6: P01:7 P03:2 P05:6 P07:3 P09:8 P11:3
 -- tightest instance of each shape
-   [ 1] P11 8 Lucia Joy / 8 Ben Curtis: horse Uranus – jockey Mercury (RA 121.9705 Dec 0.0015)
-   [ 2] P11 8 Lucia Joy / 8 Ben Curtis: horse Transpluto – jockey Mercury (RA 0.0900 Dec 1.1931)
-   [ 3] P05 4 Persist / 4 Stevie Donohoe: horse Vesta – jockey Gonggong (RA 1.3941 Dec 4.1548)
-   [ 4] P05 4 Persist / 4 Stevie Donohoe: horse Haumea – jockey Pluto (RA 1.0762 Dec 11.9754)
-   [ 5] P05 4 Persist / 4 Stevie Donohoe: moved J Ceres (RA 0.0571 Dec 12.2215)
-   [ 6] P07 6 Whitefeathersfall / 6 Franny Norton: swap Orcus/Rahu (RA 177.6801 Dec 0.0644)
-   [ 7] P01 1 Aswan / 1 David Allan: triangle Chiron/Haumea/Pallas ()
-   [ 8] P01 1 Aswan / 1 David Allan: ratio 11/8 ()
-   [10] P11 8 Lucia Joy / 8 Ben Curtis: J Ketu -> J Quaoar (split error 0.0010%)
-   [11] P07 6 Whitefeathersfall / 6 Franny Norton: same body Mercury (worst 0.0401%)
-   [12] P09 7 Noble Mark / 7 Luke Morris: J Venus–Pallas (RA 130.22216 = 1172/9)
+   [ strict:1] P03 2 Million Thanks / 2 Kevin Stott: horse Pluto – jockey Neptune (RA 0.2452 Dec 0.7740)
+   [ strict:2] P11 8 Lucia Joy / 8 Ben Curtis: horse Node – jockey Neptune (RA 9.4469 Dec 0.0289)
+   [ strict:3] P05 4 Persist / 4 Stevie Donohoe: horse Vesta – jockey Gonggong (RA 1.3941 Dec 4.1548)
+   [ strict:4] P05 4 Persist / 4 Stevie Donohoe: horse Haumea – jockey Pluto (RA 1.0762 Dec 11.9754)
+   [ strict:5] P05 4 Persist / 4 Stevie Donohoe: moved J Ceres (RA 0.0571 Dec 12.2215)
+   [ strict:6] P07 6 Whitefeathersfall / 6 Franny Norton: swap Orcus/Rahu (RA 177.6801 Dec 0.0644)
+   [strict:10] P11 8 Lucia Joy / 8 Ben Curtis: J Ketu -> J Quaoar (split error 0.0010%)
+   [strict:11] P07 6 Whitefeathersfall / 6 Franny Norton: same body Mercury (worst 0.0401%)
+   [  broad:1] P11 8 Lucia Joy / 8 Ben Curtis: horse Uranus – jockey Mercury (RA 121.9705 Dec 0.0015) broad/near
+   [  broad:2] P11 8 Lucia Joy / 8 Ben Curtis: horse Transpluto – jockey Mercury (RA 0.0900 Dec 1.1931) broad/near
+   [  broad:3] P05 4 Persist / 4 Stevie Donohoe: horse Vesta – jockey Gonggong (RA 1.3941 Dec 4.1548)
+   [  broad:4] P05 4 Persist / 4 Stevie Donohoe: horse Haumea – jockey Pluto (RA 1.0762 Dec 11.9754)
+   [  broad:5] P05 4 Persist / 4 Stevie Donohoe: moved J Ceres (RA 0.0571 Dec 12.2215)
+   [  broad:6] P07 6 Whitefeathersfall / 6 Franny Norton: swap Orcus/Rahu (RA 177.6801 Dec 0.0644)
+   [ broad:10] P11 8 Lucia Joy / 8 Ben Curtis: J Ketu -> J Quaoar (split error 0.0010%)
+   [ broad:11] P07 6 Whitefeathersfall / 6 Franny Norton: same body Mercury (worst 0.0401%)
 -- field-only findings (shape numbers)
    P03 2 Million Thanks / 2 Kevin Stott: only (strict) 1; only (broad) -; strict, shared with one other -
    P05 4 Persist / 4 Stevie Donohoe: only (strict) 3,4; only (broad) 3,4; strict, shared with one other 12m

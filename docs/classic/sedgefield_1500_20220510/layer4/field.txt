@@ -1,4 +1,4 @@
-== sedgefield_1500_20220510  field of 5   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== sedgefield_1500_20220510  field of 5   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Blue Collar Glory / 1 Craig Nichol; P03 2 Bright Sunbird / 2 Tabitha Worsley; P05 3 Emorelle / 3 Miss Eleanor Williams; P07 4 Wheres Maud Gone / 4 Adam Wedge; P09 5 Mrs Paisley / 5 Danny McMenamin
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              3/5: P03:1 P05:4 P07:1  |   5: P01:15 P03:19 P05:16 P07:7 P09:12
@@ -16,15 +16,18 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/5: -  |   4: P01:3 P03:2 P05:4 P09:2
    [12m] pair in one chart, 2+ sky bodies on both ends  2/5: P03:1 P09:1  |   4: P03:4 P05:2 P07:1 P09:2
 -- tightest instance of each shape
-   [ 1] P05 3 Emorelle / 3 Miss Eleanor Williams: horse Vesta – jockey Sun (RA 25.1383 Dec 0.0023)
-   [ 2] P03 2 Bright Sunbird / 2 Tabitha Worsley: horse Makemake – jockey Haumea (RA 0.0129 Dec 4.5253)
-   [ 5] P03 2 Bright Sunbird / 2 Tabitha Worsley: moved J Transpluto (RA 122.1248 Dec 0.0519)
-   [ 6] P05 3 Emorelle / 3 Miss Eleanor Williams: swap Sun/Vesta (RA 24.9495 Dec 0.1180)
-   [ 7] P05 3 Emorelle / 3 Miss Eleanor Williams: triangle Juno/Pallas/Sedna ()
-   [ 8] P01 1 Blue Collar Glory / 1 Craig Nichol: number 172 ()
-   [10] P03 2 Bright Sunbird / 2 Tabitha Worsley: H Neptune -> J Ceres (split error 0.0059%)
-   [11] P05 3 Emorelle / 3 Miss Eleanor Williams: same body Venus (worst 0.0215%)
-   [12] P09 5 Mrs Paisley / 5 Danny McMenamin: H Pallas–Makemake (Dec 31.00016 = 31)
+   [ strict:1] P05 3 Emorelle / 3 Miss Eleanor Williams: horse Makemake – jockey Haumea (RA 0.3232 Dec 3.5942)
+   [ strict:2] P03 2 Bright Sunbird / 2 Tabitha Worsley: horse Makemake – jockey Haumea (RA 0.0129 Dec 4.5253)
+   [ strict:5] P03 2 Bright Sunbird / 2 Tabitha Worsley: moved J Transpluto (RA 122.1248 Dec 0.0519)
+   [ strict:6] P05 3 Emorelle / 3 Miss Eleanor Williams: swap Sun/Vesta (RA 24.9495 Dec 0.1180)
+   [strict:10] P03 2 Bright Sunbird / 2 Tabitha Worsley: H Neptune -> J Ceres (split error 0.0059%)
+   [strict:11] P05 3 Emorelle / 3 Miss Eleanor Williams: same body Venus (worst 0.0215%)
+   [  broad:1] P05 3 Emorelle / 3 Miss Eleanor Williams: horse Vesta – jockey Sun (RA 25.1383 Dec 0.0023) broad/near
+   [  broad:2] P03 2 Bright Sunbird / 2 Tabitha Worsley: horse Makemake – jockey Haumea (RA 0.0129 Dec 4.5253)
+   [  broad:5] P03 2 Bright Sunbird / 2 Tabitha Worsley: moved J Transpluto (RA 122.1248 Dec 0.0519)
+   [  broad:6] P05 3 Emorelle / 3 Miss Eleanor Williams: swap Sun/Vesta (RA 24.9495 Dec 0.1180)
+   [ broad:10] P03 2 Bright Sunbird / 2 Tabitha Worsley: H Neptune -> J Ceres (split error 0.0059%)
+   [ broad:11] P05 3 Emorelle / 3 Miss Eleanor Williams: same body Venus (worst 0.0215%)
 -- field-only findings (shape numbers)
    P03 2 Bright Sunbird / 2 Tabitha Worsley: only (strict) -; only (broad) -; strict, shared with one other 12m
    P05 3 Emorelle / 3 Miss Eleanor Williams: only (strict) 6; only (broad) -; strict, shared with one other -

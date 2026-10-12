@@ -1,4 +1,4 @@
-== musselburgh_1345_20210825  field of 5   [L4 v1 (12 Oct 2026)]  (blind: no finishing positions)
+== musselburgh_1345_20210825  field of 5   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
 -- runners: P01 1 Major Snugfit / 1 Paul Mulrennan; P03 2 Inside Intel / 2 Jason Hart; P05 3 Yukon / 3 Daniel Tudhope; P07 4 Graces Quest / 4 Andrew Mullen; P09 5 Natural Value / 5 Joe Fanning
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              3/5: P01:1 P03:1 P09:1  |   5: P01:20 P03:15 P05:13 P07:21 P09:24
@@ -16,16 +16,19 @@
    [ 1m] cross link, 2+ sky bodies on both ends      0/5: -  |   4: P01:5 P03:1 P07:4 P09:5
    [12m] pair in one chart, 2+ sky bodies on both ends  1/5: P03:1  |   5: P01:3 P03:7 P05:6 P07:1 P09:3
 -- tightest instance of each shape
-   [ 1] P03 2 Inside Intel / 2 Jason Hart: horse Saturn – jockey Uranus (RA 27.0197 Dec 0.0019)
-   [ 2] P01 1 Major Snugfit / 1 Paul Mulrennan: horse Pluto – jockey Node (RA 0.1657 Dec 1.5288)
-   [ 4] P07 4 Graces Quest / 4 Andrew Mullen: horse Gonggong – jockey Quaoar (RA 109.1882 Dec 0.0127)
-   [ 5] P03 2 Inside Intel / 2 Jason Hart: moved J Uranus (RA 27.0197 Dec 0.0019)
-   [ 6] P01 1 Major Snugfit / 1 Paul Mulrennan: swap Pluto/Uranus (RA 46.1251 Dec 0.0636)
-   [ 7] P01 1 Major Snugfit / 1 Paul Mulrennan: triangle Jupiter/Pluto/Uranus ()
-   [ 8] P01 1 Major Snugfit / 1 Paul Mulrennan: number 26 ()
-   [10] P01 1 Major Snugfit / 1 Paul Mulrennan: H Pallas -> H Neptune (split error 0.0009%)
-   [11] P05 3 Yukon / 3 Daniel Tudhope: same body Sun (worst 0.0044%)
-   [12] P01 1 Major Snugfit / 1 Paul Mulrennan: J Saturn–Uranus (GC 45.99978 = 46)
+   [ strict:1] P03 2 Inside Intel / 2 Jason Hart: horse Saturn – jockey Uranus (RA 27.0197 Dec 0.0019)
+   [ strict:2] P01 1 Major Snugfit / 1 Paul Mulrennan: horse Jupiter – jockey Pluto (RA 41.8178 Dec 0.0744)
+   [ strict:4] P07 4 Graces Quest / 4 Andrew Mullen: horse Gonggong – jockey Quaoar (RA 109.1882 Dec 0.0127)
+   [ strict:5] P03 2 Inside Intel / 2 Jason Hart: moved J Uranus (RA 27.0197 Dec 0.0019)
+   [strict:10] P01 1 Major Snugfit / 1 Paul Mulrennan: H Pallas -> H Neptune (split error 0.0009%)
+   [strict:11] P05 3 Yukon / 3 Daniel Tudhope: same body Sun (worst 0.0044%)
+   [  broad:1] P03 2 Inside Intel / 2 Jason Hart: horse Saturn – jockey Uranus (RA 27.0197 Dec 0.0019)
+   [  broad:2] P01 1 Major Snugfit / 1 Paul Mulrennan: horse Pluto – jockey Node (RA 0.1657 Dec 1.5288) broad/near
+   [  broad:4] P07 4 Graces Quest / 4 Andrew Mullen: horse Gonggong – jockey Quaoar (RA 109.1882 Dec 0.0127)
+   [  broad:5] P03 2 Inside Intel / 2 Jason Hart: moved J Uranus (RA 27.0197 Dec 0.0019)
+   [  broad:6] P01 1 Major Snugfit / 1 Paul Mulrennan: swap Pluto/Uranus (RA 46.1251 Dec 0.0636) broad/near
+   [ broad:10] P01 1 Major Snugfit / 1 Paul Mulrennan: H Pallas -> H Neptune (split error 0.0009%)
+   [ broad:11] P05 3 Yukon / 3 Daniel Tudhope: same body Sun (worst 0.0044%)
 -- field-only findings (shape numbers)
    P01 1 Major Snugfit / 1 Paul Mulrennan: only (strict) -; only (broad) -; strict, shared with one other 4
    P03 2 Inside Intel / 2 Jason Hart: only (strict) 12,12m; only (broad) -; strict, shared with one other 7
