@@ -1,0 +1,670 @@
+== 6 Sea Time / 6 David Nolan   [20211015_redcar_1515__P07.xlsx, L3 v1.1 (12 Oct 2026)]
+-- strong hubs (5+ tight kinds): J Uranus, J Vesta, J Mercury
+-- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
+   J Uranus       BPRSX  tight 5
+        B: same-body Uranus Flat 9 : 10 : 10/9 (worst 0.0354%)
+        P: sky Rahu -> J Uranus GC 165.99583 = 166
+        P: sky Ketu -> J Uranus GC 14.00417 = 14
+        P: sky Pluto on J Uranus RA 41.2146 Dec 0.2067
+        R: J Saturn–Uranus RA sky 91.7797 natal 20.8582 22/5 (0.0040%)
+        R: J Venus–Uranus Flat sky Venus – J Uranus 9.0197 vs NN 87.1892 29/3 (0.0011%)
+        R: J Mars–Uranus GC sky Mars – J Uranus 56.5100 vs NN 87.9184 14/9 (0.0158%) near
+        R: J Uranus–Chiron GC sky Uranus – J Chiron 20.9939 vs TT 33.5907 8/5 (0.0015%)
+        S: shared Uranus–Ceres RA H 146.5536 J 145.8366
+        S: shared Uranus–Orcus GC H 128.6925 J 129.0716
+        S: horse:jockey Uranus–Pallas Flat H 178.4256 J 95.1509 15/8 near
+        S: horse:jockey Uranus–Sedna RA H 29.8271 J 144.1637 29/6
+        X: cross H Jupiter–J Uranus RA 0.9952 Dec 0.5393
+        X: cross H Saturn–J Uranus RA 30.5809 Dec 0.5247 near
+   J Vesta        EPRSX  tight 5
+        E: J Vesta Equator 2.88943 = 26/9
+        P: sky Mars -> J Vesta GC 8.99610 = 9
+        R: J Mars–Vesta Flat sky Mars – J Vesta 9.0247 vs TT 23.4635 13/5 (0.0030%)
+        R: J Mars–Vesta GC J Mars – sky Vesta 121.4839 vs TT 23.1440 21/4 (0.0180%) near
+        R: J Saturn–Vesta Dec J Saturn – sky Vesta 5.3711 vs NN 14.3207 8/3 (0.0146%) near
+        R: J Uranus–Vesta Flat sky Uranus – J Vesta 166.3949 vs NN 52.5456 19/6 (0.0003%)
+        S: horse:jockey Pluto–Vesta RA H 38.8674 J 11.6598 10/3
+        X: cross H Pallas–J Vesta RA 2.4151 Dec 0.2811
+   J Mercury      MPRSX  tight 5
+        M: J Mercury moved Flat 83.55486 = 752/9
+        P: sky Pluto on J Mercury RA 24.9619 Dec 0.0269
+        R: J Sun–Mercury Flat J Sun – sky Mercury 105.8351 vs NN 23.0080 23/5 (0.0014%)
+        R: J Mercury–Mars Dec sky Mercury – J Mars 2.8138 vs NN 15.9422 17/3 (0.0152%) near
+        R: J Mercury–Mars Dec J Mercury – sky Mars 15.7547 vs TT 3.0012 21/4 (0.0095%) near
+        R: J Mercury–Pluto GC J Mercury – sky Pluto 22.9625 vs TT 103.3478 9/2 (0.0161%) near
+        S: shared Mercury–Makemake Flat H 122.7793 J 122.5930
+        S: horse:jockey Mercury–Ketu Dec H 0.7347 J 3.6733 5 near
+        X: cross H Quaoar–J Mercury RA 1.1610 Dec 7.2731
+   H Jupiter      MPRSX  tight 4  (near joined: S)
+        M: H Jupiter moved RA 68.77695 = 619/9
+        M: H Jupiter moved GC 64.99249 = 65
+        P: sky Orcus -> H Jupiter RA 98.88894 = 890/9
+        R: H Jupiter–Saturn Flat sky 16.1377 natal 29.5858 11/6 (0.0000%)
+        R: H Jupiter–Pluto GC sky 28.0033 natal 34.2243 11/9 (0.0059%) near
+        R: H Mars–Jupiter Dec sky Mars – H Jupiter 15.0356 vs TT 8.0961 13/7 (0.0003%)
+        R: H Jupiter–Saturn Dec H Jupiter – sky Saturn 2.7760 vs TT 4.1635 3/2 (0.0130%) near
+        S: horse:jockey Mars–Jupiter Flat H 124.9781 J 51.4680 17/7 near
+        X: cross H Jupiter–J Uranus RA 0.9952 Dec 0.5393
+        X: cross H Jupiter–J Neptune RA 16.2771 Dec 0.1202
+        X: cross H Jupiter–J Gonggong RA 71.5868 Dec 0.4484 near
+   J Eris         EPRSX  tight 4  (near joined: E)
+        E: Equator Eris S/J 23/3 (0.0263%) near
+        P: sky Gonggong -> J Eris GC 43.99744 = 44
+        P: sky Orcus on J Eris RA 135.9656 Dec 0.5835 near
+        R: J Sun–Eris RA J Sun – sky Eris 92.1478 vs TT 174.0840 17/9 (0.0155%) near
+        R: J Venus–Eris GC sky Venus – J Eris 123.4043 vs NN 39.4929 25/8 (0.0089%) near
+        R: J Neptune–Eris Dec sky Neptune – J Eris 6.1344 vs TT 3.3464 11/6 (0.0101%) near
+        R: J Chiron–Eris RA sky Chiron – J Eris 13.0736 vs TT 18.3027 7/5 (0.0019%)
+        S: horse:jockey Mars–Eris RA H 8.0640 J 35.4802 22/5
+        S: horse:jockey Neptune–Eris Dec H 4.7534 J 11.4080 12/5
+        X: cross H Orcus–J Eris RA 133.2929 Dec 0.1036
+   J Sedna        EMPRS  tight 4  (near joined: E)
+        E: Equator Sedna H/J 19/8 (0.0482%) near
+        M: J Sedna moved RA 20.00364 = 20
+        P: sky Mercury -> J Sedna RA 150.66646 = 1356/9
+        P: sky Uranus on J Sedna RA 1.7967 Dec 12.2166 near
+        R: J Neptune–Sedna Flat sky 68.5196 natal 129.4321 17/9 (0.0047%)
+        R: J Sun–Sedna Flat sky Sun – J Sedna 161.7234 vs NN 107.8283 3/2 (0.0118%) near
+        R: J Jupiter–Sedna Dec J Jupiter – sky Sedna 29.6608 vs NN 24.7208 6/5 (0.0141%) near
+        R: J Saturn–Sedna RA sky Saturn – J Sedna 89.9830 vs TT 109.9866 11/9 (0.0067%) near
+        S: shared Sun–Sedna RA H 105.1046 J 104.9419
+        S: shared Sun–Sedna Flat H 108.1834 J 107.8283
+        S: horse:jockey Saturn–Sedna GC H 130.6601 J 159.6991 11/9
+        S: horse:jockey Uranus–Sedna RA H 29.8271 J 144.1637 29/6
+   H Uranus       BPRS  tight 4
+        B: same-body Uranus Flat 9 : 10 : 10/9 (worst 0.0354%)
+        P: sky Transpluto -> H Uranus GC 124.55526 = 1121/9
+        P: sky Eris on H Uranus RA 0.3348 Dec 11.9002
+        P: sky Transpluto on H Uranus RA 128.3299 Dec 0.1173
+        R: H Jupiter–Uranus GC H Jupiter – sky Uranus 146.2328 vs TT 81.2536 9/5 (0.0161%) near
+        R: H Uranus–Pallas Flat sky Uranus – H Pallas 168.7653 vs TT 63.2939 8/3 (0.0109%) near
+        R: H Uranus–Juno GC H Uranus – sky Juno 127.7148 vs TT 141.9055 10/9 (0.0001%)
+        R: H Uranus–Vesta RA sky Uranus – H Vesta 69.0814 vs TT 179.5775 13/5 (0.0191%) near
+        S: shared Uranus–Ceres RA H 146.5536 J 145.8366
+        S: shared Uranus–Orcus GC H 128.6925 J 129.0716
+        S: horse:jockey Uranus–Pallas Flat H 178.4256 J 95.1509 15/8 near
+        S: horse:jockey Uranus–Sedna RA H 29.8271 J 144.1637 29/6
+   H Neptune      PRSX  tight 4
+        P: sky Sun -> H Neptune Dec 1.66638 = 15/9
+        P: sky Mars on H Neptune RA 147.7624 Dec 0.1973
+        R: H Neptune–Chiron RA sky Neptune – H Chiron 5.7226 vs NN 11.4449 2 (0.0032%)
+        R: H Neptune–Juno Flat H Neptune – sky Juno 86.2297 vs NN 71.8487 6/5 (0.0131%) near
+        S: horse:jockey Venus–Neptune Flat H 84.1405 J 70.1090 6/5 near
+        S: horse:jockey Neptune–Chiron Flat H 14.8067 J 155.4502 21/2 near
+        S: horse:jockey Neptune–Eris Dec H 4.7534 J 11.4080 12/5
+        S: horse:jockey Neptune–Sedna Dec H 14.5808 J 25.5193 7/4 near
+        X: cross H Neptune–J Mars RA 0.4936 Dec 0.0099
+   H Pluto        PRSX  tight 4
+        P: sky Ceres -> H Pluto GC 140.00428 = 140
+        P: sky Pallas -> H Pluto RA 48.99806 = 49
+        P: sky Makemake -> H Pluto Dec 44.00003 = 44
+        R: H Sun–Pluto RA sky 95.7610 natal 18.4155 26/5 (0.0005%)
+        R: H Jupiter–Pluto GC sky 28.0033 natal 34.2243 11/9 (0.0059%) near
+        R: H Mars–Pluto Flat H Mars – sky Pluto 86.7171 vs TT 99.0878 8/7 (0.0176%) near
+        R: H Mars–Pluto GC H Mars – sky Pluto 84.9143 vs TT 94.3489 10/9 (0.0003%)
+        S: horse:jockey Pluto–Vesta RA H 38.8674 J 11.6598 10/3
+        S: horse:jockey Pluto–Gonggong GC H 41.9787 J 109.1317 13/5 near
+        X: cross H Pluto–J Sun RA 1.2103 Dec 0.3244
+        X: cross H Pluto–J Jupiter RA 3.2787 Dec 0.3856 near
+        X: cross H Pluto–J Neptune RA 20.7393 Dec 0.4129 near
+        X: cross H Pluto–J Gonggong RA 34.5704 Dec 0.1557
+   J Sun          PRSX  tight 4
+        P: sky Uranus -> J Sun Dec 36.99864 = 37
+        P: sky Pluto on J Sun RA 1.9928 Dec 1.3631 near
+        R: J Sun–Mercury Flat J Sun – sky Mercury 105.8351 vs NN 23.0080 23/5 (0.0014%)
+        R: J Sun–Saturn Flat sky Sun – J Saturn 34.7650 vs TT 109.2613 22/7 (0.0002%)
+        R: J Sun–Pluto Dec J Sun – sky Pluto 1.3631 vs TT 14.3126 21/2 (0.0008%)
+        R: J Sun–Ketu GC J Sun – sky Ketu 50.2434 vs NN 56.5308 9/8 (0.0123%) near
+        S: shared Sun–Venus Flat H 48.3726 J 48.5511
+        S: shared Sun–Sedna RA H 105.1046 J 104.9419
+        S: shared Sun–Sedna Flat H 108.1834 J 107.8283
+        X: cross H Pluto–J Sun RA 1.2103 Dec 0.3244
+   J Venus        MPRS  tight 4
+        M: J Venus moved GC 90.66680 = 816/9
+        P: sky Rahu -> J Venus GC 82.99524 = 83
+        P: sky Ketu -> J Venus GC 97.00476 = 97
+        P: sky Makemake -> J Venus RA 143.00191 = 143
+        P: sky Sun on J Venus RA 140.6253 Dec 0.2364
+        R: J Venus–Mars Flat J Venus – sky Mars 142.6975 vs TT 50.9556 14/5 (0.0152%) near
+        R: J Venus–Saturn GC J Venus – sky Saturn 32.6101 vs NN 103.2606 19/6 (0.0044%)
+        R: J Venus–Uranus Flat sky Venus – J Uranus 9.0197 vs NN 87.1892 29/3 (0.0011%)
+        R: J Venus–Neptune Dec sky Venus – J Neptune 2.4453 vs NN 13.4504 11/2 (0.0093%) near
+        S: shared Sun–Venus Flat H 48.3726 J 48.5511
+        S: horse:jockey Venus–Neptune Flat H 84.1405 J 70.1090 6/5 near
+        S: horse:jockey Venus–Ceres Dec H 6.3871 J 20.2288 19/6 near
+        S: horse:jockey Venus–Haumea GC H 59.9062 J 154.0693 18/7 near
+   J Neptune      PRSX  tight 4
+        P: sky Sun -> J Neptune Flat 73.11120 = 658/9
+        P: sky Vesta -> J Neptune RA 50.88935 = 458/9
+        P: sky Eris -> J Neptune Dec 20.88882 = 188/9
+        P: sky Transpluto -> J Neptune GC 118.99879 = 119
+        R: J Neptune–Sedna Flat sky 68.5196 natal 129.4321 17/9 (0.0047%)
+        R: J Venus–Neptune Dec sky Venus – J Neptune 2.4453 vs NN 13.4504 11/2 (0.0093%) near
+        R: J Neptune–Pluto Flat J Neptune – sky Pluto 23.9505 vs TT 58.5517 22/9 (0.0103%) near
+        R: J Neptune–Chiron RA J Neptune – sky Chiron 95.7947 vs NN 150.5058 11/7 (0.0191%) near
+        S: horse:jockey Venus–Neptune Flat H 84.1405 J 70.1090 6/5 near
+        S: horse:jockey Neptune–Chiron Flat H 14.8067 J 155.4502 21/2 near
+        S: horse:jockey Neptune–Eris Dec H 4.7534 J 11.4080 12/5
+        S: horse:jockey Neptune–Sedna Dec H 14.5808 J 25.5193 7/4 near
+        X: cross H Jupiter–J Neptune RA 16.2771 Dec 0.1202
+        X: cross H Saturn–J Neptune RA 13.3086 Dec 0.1056
+        X: cross H Pluto–J Neptune RA 20.7393 Dec 0.4129 near
+        X: cross H Quaoar–J Neptune RA 0.1414 Dec 6.6742
+   J Pluto        PRSX  tight 4
+        P: sky Ceres -> J Pluto RA 146.99713 = 147
+        P: sky Rahu -> J Pluto Dec 17.99805 = 18
+        R: J Sun–Pluto Dec J Sun – sky Pluto 1.3631 vs TT 14.3126 21/2 (0.0008%)
+        R: J Mercury–Pluto GC J Mercury – sky Pluto 22.9625 vs TT 103.3478 9/2 (0.0161%) near
+        R: J Saturn–Pluto Dec sky Saturn – J Pluto 22.0167 vs NN 19.8118 10/9 (0.0164%) near
+        R: J Saturn–Pluto Dec sky Saturn – J Pluto 22.0167 vs TT 3.5221 25/4 (0.0177%) near
+        S: horse:jockey Pluto–Vesta RA H 38.8674 J 11.6598 10/3
+        S: horse:jockey Pluto–Gonggong GC H 41.9787 J 109.1317 13/5 near
+        X: cross H Chiron–J Pluto RA 139.5947 Dec 0.1654
+        X: cross H Juno–J Pluto RA 160.5970 Dec 0.3281 near
+   J Ceres        MPRS  tight 4
+        M: J Ceres moved GC 29.66580 = 267/9
+        P: sky Mars -> J Ceres RA 157.55509 = 1418/9
+        P: sky Uranus on J Ceres RA 0.1239 Dec 4.0568
+        R: J Jupiter–Ceres Flat sky Jupiter – J Ceres 80.5878 vs TT 110.7871 11/8 (0.0191%) near
+        R: J Neptune–Ceres Dec J Neptune – sky Ceres 38.4909 vs NN 33.6792 8/7 (0.0011%)
+        R: J Chiron–Ceres RA J Chiron – sky Ceres 8.2289 vs NN 21.9415 8/3 (0.0105%) near
+        R: J Ceres–Vesta RA sky Ceres – J Vesta 135.3373 vs TT 150.3759 10/9 (0.0007%)
+        S: shared Uranus–Ceres RA H 146.5536 J 145.8366
+        S: shared Ceres–Orcus GC H 83.2781 J 83.1452
+        S: horse:jockey Venus–Ceres Dec H 6.3871 J 20.2288 19/6 near
+        S: horse:jockey Saturn–Ceres Flat H 46.1316 J 169.1267 11/3 near
+   J Gonggong     PRSX  tight 4
+        P: sky Quaoar -> J Gonggong GC 50.99671 = 51
+        R: J Mercury–Gonggong Dec sky Mercury – J Gonggong 17.5884 vs TT 7.4049 19/8 (0.0106%) near
+        R: J Mercury–Gonggong Flat J Mercury – sky Gonggong 65.9736 vs TT 146.5995 20/9 (0.0059%) near
+        R: J Saturn–Gonggong Dec sky Saturn – J Gonggong 2.3277 vs TT 7.8559 27/8 (0.0009%)
+        R: J Neptune–Gonggong Dec sky Neptune – J Gonggong 16.9738 vs TT 6.7903 5/2 (0.0108%) near
+        S: shared Gonggong–Transpluto Flat H 179.5742 J 178.8460
+        S: horse:jockey Pluto–Gonggong GC H 41.9787 J 109.1317 13/5 near
+        X: cross H Jupiter–J Gonggong RA 71.5868 Dec 0.4484 near
+        X: cross H Saturn–J Gonggong RA 42.0011 Dec 0.4630 near
+        X: cross H Pluto–J Gonggong RA 34.5704 Dec 0.1557
+   J Mars         PRSX  tight 4
+        P: sky Mars on J Mars RA 147.2688 Dec 0.1874 RETURN
+        R: J Mars–Chiron RA sky 169.6753 natal 77.1177 11/5 (0.0097%) near
+        R: J Mars–Juno RA sky 61.6834 natal 154.2050 5/2 (0.0023%)
+        R: J Mercury–Mars Dec sky Mercury – J Mars 2.8138 vs NN 15.9422 17/3 (0.0152%) near
+        R: J Mercury–Mars Dec J Mercury – sky Mars 15.7547 vs TT 3.0012 21/4 (0.0095%) near
+        S: shared Mars–Haumea RA H 162.5362 J 162.0740
+        S: shared Mars–Makemake RA H 179.5576 J 178.7172
+        S: horse:jockey Mars–Jupiter Flat H 124.9781 J 51.4680 17/7 near
+        S: horse:jockey Mars–Eris RA H 8.0640 J 35.4802 22/5
+        X: cross H Neptune–J Mars RA 0.4936 Dec 0.0099
+   H Quaoar       EPRSX  tight 3  (near joined: ES)
+        E: Equator Quaoar H/J 11/9 (0.0208%) near
+        P: sky Saturn -> H Quaoar Dec 3.77796 = 34/9
+        P: sky Jupiter on H Quaoar RA 52.3584 Dec 0.3856 near
+        P: sky Quaoar on H Quaoar RA 1.5148 Dec 0.1678 RETURN
+        R: H Mercury–Quaoar GC sky 83.2142 natal 37.4472 20/9 (0.0023%)
+        R: H Venus–Quaoar Flat sky 29.2323 natal 10.5226 25/9 (0.0097%) near
+        R: H Chiron–Quaoar GC sky 95.5864 natal 86.0263 10/9 (0.0018%)
+        R: H Sun–Quaoar GC H Sun – sky Quaoar 35.9405 vs TT 71.8788 2 (0.0031%)
+        S: horse:jockey Chiron–Quaoar Dec H 18.0734 J 29.3742 13/8 near
+        X: cross H Quaoar–J Mercury RA 1.1610 Dec 7.2731
+        X: cross H Quaoar–J Neptune RA 0.1414 Dec 6.6742
+   H Chiron       PRSX  tight 3  (near joined: S)
+        P: sky Gonggong -> H Chiron Dec 13.99542 = 14
+        R: H Chiron–Quaoar GC sky 95.5864 natal 86.0263 10/9 (0.0018%)
+        R: H Neptune–Chiron RA sky Neptune – H Chiron 5.7226 vs NN 11.4449 2 (0.0032%)
+        R: H Pluto–Chiron Dec sky Pluto – H Chiron 25.3734 vs TT 29.0028 8/7 (0.0161%) near
+        R: H Pluto–Chiron Flat sky Pluto – H Chiron 66.4216 vs TT 77.4850 7/6 (0.0089%) near
+        S: horse:jockey Neptune–Chiron Flat H 14.8067 J 155.4502 21/2 near
+        S: horse:jockey Chiron–Quaoar Dec H 18.0734 J 29.3742 13/8 near
+        X: cross H Chiron–J Pluto RA 139.5947 Dec 0.1654
+   H Makemake     PRSX  tight 3  (near joined: X)
+        P: sky Mars -> H Makemake Flat 31.00056 = 31
+        P: sky Mars -> H Makemake GC 30.99893 = 31
+        P: sky Mars on H Makemake RA 1.4753 Dec 30.9654
+        P: sky Makemake on H Makemake RA 1.1607 Dec 1.7083 RETURN
+        R: H Pallas–Makemake Dec sky 29.7188 natal 26.4183 9/8 (0.0058%) near
+        R: H Juno–Makemake RA sky 61.9980 natal 139.5092 9/4 (0.0099%) near
+        R: H Mercury–Makemake Flat H Mercury – sky Makemake 121.0899 vs TT 27.5206 22/5 (0.0006%)
+        S: shared Mercury–Makemake Flat H 122.7793 J 122.5930
+        S: shared Mars–Makemake RA H 179.5576 J 178.7172
+        S: horse:jockey Ceres–Makemake RA H 43.2345 J 123.5410 20/7 near
+        X: cross H Makemake–J Haumea RA 13.3299 Dec 0.5186 near
+   H Orcus        PRSX  tight 3  (near joined: R)
+        P: sky Rahu -> H Orcus RA 94.33373 = 849/9
+        P: sky Transpluto on H Orcus RA 0.6009 Dec 21.1601
+        R: H Ceres–Orcus GC H Ceres – sky Orcus 80.5685 vs TT 89.5109 10/9 (0.0108%) near
+        S: shared Uranus–Orcus GC H 128.6925 J 129.0716
+        S: shared Ceres–Orcus GC H 83.2781 J 83.1452
+        S: horse:jockey Juno–Orcus Dec H 13.0733 J 10.6962 11/9
+        X: cross H Orcus–J Eris RA 133.2929 Dec 0.1036
+   J Juno         EPRS  tight 3  (near joined: E)
+        E: Equator Juno S/J 8/3 (0.0145%) near
+        P: sky Sun -> J Juno RA 8.99819 = 9
+        P: sky Mercury on J Juno RA 1.6253 Dec 0.3659 near
+        P: sky Neptune on J Juno RA 160.4208 Dec 0.2488
+        R: J Mars–Juno RA sky 61.6834 natal 154.2050 5/2 (0.0023%)
+        R: J Jupiter–Juno GC J Jupiter – sky Juno 35.8421 vs TT 62.7291 7/4 (0.0087%) near
+        R: J Juno–Rahu GC J Juno – sky Rahu 130.1125 vs TT 159.0400 11/9 (0.0086%) near
+        R: J Juno–Makemake GC J Juno – sky Makemake 27.3991 vs NN 48.7053 16/9 (0.0085%) near
+        S: horse:jockey Juno–Orcus Dec H 13.0733 J 10.6962 11/9
+   J Haumea       PRSX  tight 3  (near joined: X)
+        P: sky Ketu -> J Haumea Flat 71.55539 = 644/9
+        P: sky Orcus -> J Haumea Dec 34.77816 = 313/9
+        R: J Mercury–Haumea RA sky Mercury – J Haumea 6.2437 vs TT 26.0154 25/6 (0.0008%)
+        R: J Jupiter–Haumea GC J Jupiter – sky Haumea 86.9216 vs TT 111.7525 9/7 (0.0034%)
+        R: J Saturn–Haumea Flat sky Saturn – J Haumea 132.6566 vs TT 99.5061 4/3 (0.0137%) near
+        R: J Neptune–Haumea RA J Neptune – sky Haumea 56.4267 vs NN 88.6858 11/7 (0.0172%) near
+        S: shared Mars–Haumea RA H 162.5362 J 162.0740
+        S: horse:jockey Venus–Haumea GC H 59.9062 J 154.0693 18/7 near
+        S: horse:jockey Haumea–Transpluto GC H 59.2312 J 39.4846 3/2 near
+        X: cross H Makemake–J Haumea RA 13.3299 Dec 0.5186 near
+   H Pallas       MRSX  tight 3  (near joined: S)
+        M: H Pallas moved Dec 5.00890 = 5
+        R: H Pallas–Makemake Dec sky 29.7188 natal 26.4183 9/8 (0.0058%) near
+        R: H Mars–Pallas GC H Mars – sky Pallas 38.4077 vs TT 140.8277 11/3 (0.0004%)
+        R: H Uranus–Pallas Flat sky Uranus – H Pallas 168.7653 vs TT 63.2939 8/3 (0.0109%) near
+        S: horse:jockey Uranus–Pallas Flat H 178.4256 J 95.1509 15/8 near
+        S: horse:jockey Pallas–Rahu Dec H 23.4666 J 29.3348 5/4 near
+        S: horse:jockey Pallas–Transpluto RA H 54.7812 J 153.3623 14/5 near
+        X: cross H Pallas–J Vesta RA 2.4151 Dec 0.2811
+   H Ceres        PRS  tight 3
+        P: sky Quaoar -> H Ceres RA 33.77764 = 304/9
+        P: sky Ketu on H Ceres RA 0.0512 Dec 6.4091
+        R: H Mars–Ceres RA sky Mars – H Ceres 41.7593 vs NN 137.2079 23/7 (0.0008%)
+        R: H Saturn–Ceres Flat sky Saturn – H Ceres 69.2273 vs TT 126.9197 11/6 (0.0024%)
+        R: H Chiron–Ceres RA H Chiron – sky Ceres 73.4082 vs NN 117.4480 8/5 (0.0044%)
+        R: H Ceres–Ketu Flat H Ceres – sky Ketu 6.4093 vs TT 173.0464 27 (0.0033%)
+        S: shared Uranus–Ceres RA H 146.5536 J 145.8366
+        S: shared Ceres–Orcus GC H 83.2781 J 83.1452
+        S: horse:jockey Venus–Ceres Dec H 6.3871 J 20.2288 19/6 near
+        S: horse:jockey Saturn–Ceres Flat H 46.1316 J 169.1267 11/3 near
+   H Gonggong     PRS  tight 3
+        P: sky Mercury -> H Gonggong Dec 7.99713 = 8
+        P: sky Neptune -> H Gonggong RA 16.00434 = 16
+        P: sky Juno on H Gonggong RA 75.7969 Dec 0.0959
+        P: sky Vesta on H Gonggong RA 114.4890 Dec 0.3124 near
+        R: H Mars–Gonggong Flat sky 137.9212 natal 45.9695 3 (0.0092%) near
+        R: H Saturn–Gonggong GC sky Saturn – H Gonggong 26.6546 vs NN 48.8673 11/6 (0.0010%)
+        S: shared Gonggong–Transpluto Flat H 179.5742 J 178.8460
+        S: horse:jockey Pluto–Gonggong GC H 41.9787 J 109.1317 13/5 near
+   H Transpluto   PRS  tight 3
+        P: sky Pluto -> H Transpluto GC 141.99906 = 142
+        P: sky Transpluto on H Transpluto RA 1.0561 Dec 0.4008 RETURN
+        R: H Juno–Transpluto GC sky 106.6906 natal 96.0231 10/9 (0.0016%)
+        R: H Saturn–Transpluto Flat H Saturn – sky Transpluto 134.5472 vs TT 156.9958 7/6 (0.0153%) near
+        R: H Uranus–Transpluto RA H Uranus – sky Transpluto 128.3299 vs TT 114.0740 9/8 (0.0026%)
+        R: H Uranus–Transpluto Flat sky Uranus – H Transpluto 113.1141 vs NN 127.2741 9/8 (0.0163%) near
+        S: shared Gonggong–Transpluto Flat H 179.5742 J 178.8460
+        S: horse:jockey Pallas–Transpluto RA H 54.7812 J 153.3623 14/5 near
+        S: horse:jockey Haumea–Transpluto GC H 59.2312 J 39.4846 3/2 near
+   J Makemake     PRS  tight 3
+        P: sky Uranus -> J Makemake GC 105.22265 = 947/9
+        P: sky Sedna -> J Makemake Dec 28.99800 = 29
+        P: sky Haumea -> J Makemake Flat 55.99823 = 56
+        P: sky Orcus -> J Makemake GC 49.11064 = 442/9
+        R: J Mercury–Makemake Dec J Mercury – sky Makemake 45.0118 vs TT 26.2559 12/7 (0.0038%)
+        R: J Juno–Makemake GC J Juno – sky Makemake 27.3991 vs NN 48.7053 16/9 (0.0085%) near
+        R: J Haumea–Makemake Dec sky Haumea – J Makemake 22.0647 vs TT 7.0203 22/7 (0.0039%)
+        R: J Makemake–Quaoar RA J Makemake – sky Quaoar 109.5510 vs TT 75.8515 13/9 (0.0112%) near
+        S: shared Mercury–Makemake Flat H 122.7793 J 122.5930
+        S: shared Mars–Makemake RA H 179.5576 J 178.7172
+        S: horse:jockey Ceres–Makemake RA H 43.2345 J 123.5410 20/7 near
+   J Orcus        PRS  tight 3
+        P: sky Ceres -> J Orcus Dec 10.00351 = 10
+        P: sky Vesta -> J Orcus Flat 97.99586 = 98
+        P: sky Chiron on J Orcus RA 116.9903 Dec 0.1103
+        R: J Sun–Orcus Dec sky Sun – J Orcus 14.8006 vs NN 27.7501 15/8 (0.0035%)
+        R: J Saturn–Orcus Flat J Saturn – sky Orcus 77.2479 vs NN 111.5633 13/9 (0.0153%) near
+        R: J Uranus–Orcus Dec sky Uranus – J Orcus 9.2486 vs NN 28.9065 25/8 (0.0161%) near
+        R: J Uranus–Orcus Dec J Uranus – sky Orcus 11.2436 vs NN 28.9065 18/7 (0.0198%) near
+        S: shared Uranus–Orcus GC H 128.6925 J 129.0716
+        S: shared Ceres–Orcus GC H 83.2781 J 83.1452
+        S: horse:jockey Juno–Orcus Dec H 13.0733 J 10.6962 11/9
+   H Eris         PRS  tight 3
+        P: sky Eris on H Eris RA 0.9469 Dec 0.7822 RETURN
+        R: H Jupiter–Eris Flat sky Jupiter – H Eris 62.0381 vs NN 130.9617 19/9 (0.0058%) near
+        R: H Juno–Eris Dec sky Juno – H Eris 9.8508 vs NN 4.4783 11/5 (0.0154%) near
+        R: H Juno–Eris GC H Juno – sky Eris 31.2505 vs TT 124.9960 4 (0.0048%)
+        S: horse:jockey Mars–Eris RA H 8.0640 J 35.4802 22/5
+        S: horse:jockey Neptune–Eris Dec H 4.7534 J 11.4080 12/5
+   H Sun          ERS  tight 3
+        E: H Sun Equator 18.00310 = 18
+        R: H Sun–Pluto RA sky 95.7610 natal 18.4155 26/5 (0.0005%)
+        R: H Sun–Mars RA H Sun – sky Mars 113.0354 vs NN 65.9317 12/7 (0.0085%) near
+        R: H Sun–Quaoar GC H Sun – sky Quaoar 35.9405 vs TT 71.8788 2 (0.0031%)
+        S: shared Sun–Venus Flat H 48.3726 J 48.5511
+        S: shared Sun–Sedna RA H 105.1046 J 104.9419
+        S: shared Sun–Sedna Flat H 108.1834 J 107.8283
+   H Saturn       RSX  tight 3
+        R: H Jupiter–Saturn Flat sky 16.1377 natal 29.5858 11/6 (0.0000%)
+        R: H Mars–Saturn RA H Mars – sky Saturn 68.1780 vs TT 110.7891 13/8 (0.0001%)
+        R: H Jupiter–Saturn Dec H Jupiter – sky Saturn 2.7760 vs TT 4.1635 3/2 (0.0130%) near
+        R: H Jupiter–Saturn Flat H Jupiter – sky Saturn 53.2580 vs NN 29.5858 9/5 (0.0069%) near
+        S: horse:jockey Saturn–Ceres Flat H 46.1316 J 169.1267 11/3 near
+        S: horse:jockey Saturn–Sedna GC H 130.6601 J 159.6991 11/9
+        X: cross H Saturn–J Uranus RA 30.5809 Dec 0.5247 near
+        X: cross H Saturn–J Neptune RA 13.3086 Dec 0.1056
+        X: cross H Saturn–J Gonggong RA 42.0011 Dec 0.4630 near
+   H Haumea       PRSX  tight 2  (near joined: RX)
+        P: sky Venus -> H Haumea GC 51.00069 = 51
+        P: sky Ceres on H Haumea RA 143.8156 Dec 0.1392
+        P: sky Haumea on H Haumea RA 1.0230 Dec 0.9590 RETURN
+        R: H Saturn–Haumea RA sky Saturn – H Haumea 94.3581 vs NN 70.7583 4/3 (0.0146%) near
+        R: H Haumea–Transpluto Dec sky Haumea – H Transpluto 4.3202 vs NN 5.2792 11/9 (0.0197%) near
+        S: shared Mars–Haumea RA H 162.5362 J 162.0740
+        S: horse:jockey Venus–Haumea GC H 59.9062 J 154.0693 18/7 near
+        S: horse:jockey Haumea–Transpluto GC H 59.2312 J 39.4846 3/2 near
+        X: cross H Haumea–J Chiron RA 152.0445 Dec 0.5426 near
+   J Jupiter      PRSX  tight 2  (near joined: SX)
+        P: sky Uranus -> J Jupiter Flat 110.99644 = 111
+        P: sky Haumea -> J Jupiter RA 80.44473 = 724/9
+        P: sky Pluto on J Jupiter RA 0.0757 Dec 1.4243
+        R: J Jupiter–Chiron GC sky Jupiter – J Chiron 101.7628 vs TT 47.8965 17/8 (0.0170%) near
+        R: J Jupiter–Chiron GC J Jupiter – sky Chiron 75.4895 vs NN 129.4108 12/7 (0.0001%)
+        R: J Jupiter–Ceres Flat sky Jupiter – J Ceres 80.5878 vs TT 110.7871 11/8 (0.0191%) near
+        R: J Jupiter–Juno GC J Jupiter – sky Juno 35.8421 vs TT 62.7291 7/4 (0.0087%) near
+        S: horse:jockey Mars–Jupiter Flat H 124.9781 J 51.4680 17/7 near
+        X: cross H Pluto–J Jupiter RA 3.2787 Dec 0.3856 near
+   J Chiron       PRSX  tight 2  (near joined: SX)
+        P: sky Saturn -> J Chiron Dec 35.99794 = 36
+        P: sky Gonggong -> J Chiron Flat 90.99661 = 91
+        P: sky Transpluto -> J Chiron Dec 6.22253 = 56/9
+        P: sky Ceres on J Chiron RA 8.2289 Dec 0.4033 near
+        R: J Mars–Chiron RA sky 169.6753 natal 77.1177 11/5 (0.0097%) near
+        R: J Chiron–Transpluto GC sky 143.2326 natal 76.3963 15/8 (0.0073%) near
+        R: J Venus–Chiron Dec sky Venus – J Chiron 41.3395 vs NN 25.4438 13/8 (0.0162%) near
+        R: J Mars–Chiron Flat J Mars – sky Chiron 25.9217 vs NN 80.6337 28/9 (0.0143%) near
+        S: horse:jockey Neptune–Chiron Flat H 14.8067 J 155.4502 21/2 near
+        S: horse:jockey Chiron–Quaoar Dec H 18.0734 J 29.3742 13/8 near
+        X: cross H Haumea–J Chiron RA 152.0445 Dec 0.5426 near
+   J Quaoar       EPRS  tight 2  (near joined: ES)
+        E: Equator Quaoar H/J 11/9 (0.0208%) near
+        P: sky Rahu -> J Quaoar Flat 171.88871 = 1547/9
+        R: J Sun–Quaoar RA sky Sun – J Quaoar 28.2604 vs TT 73.4749 13/5 (0.0028%)
+        R: J Mars–Quaoar RA sky Mars – J Quaoar 30.3224 vs NN 116.9464 27/7 (0.0097%) near
+        R: J Neptune–Quaoar Flat J Neptune – sky Quaoar 7.0397 vs NN 44.5865 19/3 (0.0044%)
+        R: J Pluto–Quaoar Flat J Pluto – sky Quaoar 58.7715 vs TT 23.5040 5/2 (0.0197%) near
+        S: horse:jockey Chiron–Quaoar Dec H 18.0734 J 29.3742 13/8 near
+   H Juno         PRSX  tight 2  (near joined: PX)
+        P: sky Sedna on H Juno RA 1.7602 Dec 5.8744 near
+        R: H Juno–Makemake RA sky 61.9980 natal 139.5092 9/4 (0.0099%) near
+        R: H Juno–Transpluto GC sky 106.6906 natal 96.0231 10/9 (0.0016%)
+        R: H Venus–Juno Flat sky Venus – H Juno 173.3170 vs NN 155.9672 10/9 (0.0117%) near
+        R: H Mars–Juno RA sky Mars – H Juno 140.9845 vs TT 61.6834 16/7 (0.0043%)
+        S: horse:jockey Juno–Orcus Dec H 13.0733 J 10.6962 11/9
+        X: cross H Juno–J Pluto RA 160.5970 Dec 0.3281 near
+   J Transpluto   MPRS  tight 2  (near joined: PR)
+        M: J Transpluto moved Flat 13.11081 = 118/9
+        P: sky Haumea on J Transpluto RA 73.1747 Dec 0.3578 near
+        R: J Chiron–Transpluto GC sky 143.2326 natal 76.3963 15/8 (0.0073%) near
+        R: J Mercury–Transpluto GC J Mercury – sky Transpluto 118.0548 vs TT 37.5659 22/7 (0.0081%) near
+        R: J Jupiter–Transpluto Flat sky Jupiter – J Transpluto 180.4064 vs NN 157.8353 8/7 (0.0129%) near
+        R: J Pallas–Transpluto Dec sky Pallas – J Transpluto 22.3407 vs NN 24.8214 10/9 (0.0065%) near
+        S: shared Gonggong–Transpluto Flat H 179.5742 J 178.8460
+        S: horse:jockey Pallas–Transpluto RA H 54.7812 J 153.3623 14/5 near
+        S: horse:jockey Haumea–Transpluto GC H 59.2312 J 39.4846 3/2 near
+   H Venus        PRS  tight 2  (near joined: R)
+        P: sky Sedna -> H Venus Flat 158.66627 = 1428/9
+        P: sky Ketu on H Venus RA 23.0233 Dec 0.0221
+        R: H Venus–Quaoar Flat sky 29.2323 natal 10.5226 25/9 (0.0097%) near
+        R: H Venus–Juno Flat sky Venus – H Juno 173.3170 vs NN 155.9672 10/9 (0.0117%) near
+        S: shared Sun–Venus Flat H 48.3726 J 48.5511
+        S: horse:jockey Venus–Neptune Flat H 84.1405 J 70.1090 6/5 near
+        S: horse:jockey Venus–Ceres Dec H 6.3871 J 20.2288 19/6 near
+        S: horse:jockey Venus–Haumea GC H 59.9062 J 154.0693 18/7 near
+   H Vesta        PRS  tight 2  (near joined: R)
+        P: sky Neptune -> H Vesta RA 19.99726 = 20
+        P: sky Quaoar on H Vesta RA 57.9504 Dec 0.4337 near
+        R: H Uranus–Vesta RA sky Uranus – H Vesta 69.0814 vs TT 179.5775 13/5 (0.0191%) near
+        R: H Vesta–Transpluto Flat H Vesta – sky Transpluto 178.7841 vs TT 69.9639 23/9 (0.0069%) near
+        S: horse:jockey Pluto–Vesta RA H 38.8674 J 11.6598 10/3
+   H Sedna        EPS  tight 2  (near joined: E)
+        E: Equator Sedna H/J 19/8 (0.0482%) near
+        P: sky Vesta -> H Sedna Flat 165.99610 = 166
+        P: sky Ketu -> H Sedna Dec 28.22229 = 254/9
+        P: sky Sedna on H Sedna RA 2.6357 Dec 0.5253 RETURN near
+        S: shared Sun–Sedna RA H 105.1046 J 104.9419
+        S: shared Sun–Sedna Flat H 108.1834 J 107.8283
+        S: horse:jockey Saturn–Sedna GC H 130.6601 J 159.6991 11/9
+        S: horse:jockey Uranus–Sedna RA H 29.8271 J 144.1637 29/6
+   J Node         PRS  tight 2  (near joined: S)
+        P: sky Orcus -> J Rahu Flat 107.99792 = 108
+        P: sky Saturn on J Ketu RA 75.6101 Dec 0.1782
+        R: J Sun–Ketu GC J Sun – sky Ketu 50.2434 vs NN 56.5308 9/8 (0.0123%) near
+        R: J Mercury–Ketu Flat sky Mercury – J Ketu 46.2679 vs NN 37.8606 11/9 (0.0135%) near
+        R: J Mars–Ketu Dec J Mars – sky Ketu 13.6316 vs NN 12.2688 10/9 (0.0032%)
+        R: J Mars–Ketu Flat J Mars – sky Ketu 106.4372 vs TT 43.8214 17/7 (0.0130%) near
+        S: horse:jockey Mercury–Ketu Dec H 0.7347 J 3.6733 5 near
+        S: horse:jockey Pallas–Rahu Dec H 23.4666 J 29.3348 5/4 near
+   H Mercury      PRS  tight 2  (near joined: P)
+        P: sky Ketu on H Mercury RA 71.4665 Dec 0.4761 near
+        R: H Mercury–Quaoar GC sky 83.2142 natal 37.4472 20/9 (0.0023%)
+        R: H Mercury–Makemake Flat H Mercury – sky Makemake 121.0899 vs TT 27.5206 22/5 (0.0006%)
+        S: shared Mercury–Makemake Flat H 122.7793 J 122.5930
+        S: horse:jockey Mercury–Ketu Dec H 0.7347 J 3.6733 5 near
+   H Mars         PRS  tight 2  (near joined: P)
+        P: sky Sedna on H Mars RA 41.8086 Dec 0.4995 near
+        R: H Mars–Gonggong Flat sky 137.9212 natal 45.9695 3 (0.0092%) near
+        R: H Sun–Mars RA H Sun – sky Mars 113.0354 vs NN 65.9317 12/7 (0.0085%) near
+        R: H Mars–Jupiter Dec sky Mars – H Jupiter 15.0356 vs TT 8.0961 13/7 (0.0003%)
+        R: H Mars–Saturn RA H Mars – sky Saturn 68.1780 vs TT 110.7891 13/8 (0.0001%)
+        S: shared Mars–Haumea RA H 162.5362 J 162.0740
+        S: shared Mars–Makemake RA H 179.5576 J 178.7172
+        S: horse:jockey Mars–Jupiter Flat H 124.9781 J 51.4680 17/7 near
+        S: horse:jockey Mars–Eris RA H 8.0640 J 35.4802 22/5
+   H Node         PRS  tight 2  (near joined: S)
+        P: sky Rahu on H Rahu RA 58.3636 Dec 0.2586 RETURN
+        P: sky Ketu on H Ketu RA 58.3636 Dec 0.2586 RETURN
+        R: H Mars–Rahu Dec H Mars – sky Rahu 12.9513 vs TT 27.7552 15/7 (0.0090%) near
+        R: H Pluto–Ketu Dec H Pluto – sky Ketu 1.2988 vs TT 2.3375 9/5 (0.0139%) near
+        R: H Ceres–Ketu Flat H Ceres – sky Ketu 6.4093 vs TT 173.0464 27 (0.0033%)
+        R: H Juno–Rahu GC sky Juno – H Rahu 142.2476 vs NN 62.2248 16/7 (0.0138%) near
+        S: horse:jockey Mercury–Ketu Dec H 0.7347 J 3.6733 5 near
+        S: horse:jockey Pallas–Rahu Dec H 23.4666 J 29.3348 5/4 near
+-- webs
+   size 46 both charts True hubs J Uranus, J Vesta, J Mercury, H Jupiter, J Eris, J Sedna, H Uranus, H Neptune, H Pluto, J Sun, J Venus, J Neptune, J Pluto, J Ceres, J Gonggong, J Mars, H Quaoar, H Chiron, H Makemake, H Orcus, J Juno, J Haumea, H Pallas, H Ceres, H Gonggong, H Transpluto, J Makemake, J Orcus, H Eris, H Sun, H Saturn, H Haumea, J Jupiter, J Chiron, J Quaoar, H Juno, J Transpluto, H Venus, H Vesta, H Sedna, J Node, H Mercury, H Mars, H Node
+      J Uranus .. J Vesta: J J Uranus–J Pluto RA 36.99580 = 37 | horse:jockey Pluto–Vesta RA H 38.8674 J 11.6598 10/3
+      J Uranus .. J Mercury: J J Mercury–J Uranus RA 16.2527 Dec 0.1798
+      J Uranus .. H Jupiter: cross H Jupiter–J Uranus RA 0.9952 Dec 0.5393
+      J Uranus .. J Eris: J J Uranus–J Neptune RA 17.2723 Dec 0.4191 | horse:jockey Neptune–Eris Dec H 4.7534 J 11.4080 12/5
+      J Uranus .. J Sedna: horse:jockey Uranus–Sedna RA H 29.8271 J 144.1637 29/6
+      J Uranus .. H Uranus: shared Uranus–Ceres RA H 146.5536 J 145.8366
+-- shapes
+   [ 1] cross link struck on both ends (STRONG HUB)  roots 5  bodies=['H Jupiter', 'J Uranus']; link=cross H Jupiter–J Uranus RA 0.9952 Dec 0.5393; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Orcus']; strikers_jockey_end=['Ketu', 'Pluto', 'Rahu']; same_sky_both_ends=[]; multi=False; strict=False
+        cross H Jupiter–J Uranus RA 0.9952 Dec 0.5393
+        sky Orcus -> H Jupiter RA 98.88894 = 890/9
+        sky Rahu -> J Uranus GC 165.99583 = 166
+        sky Ketu -> J Uranus GC 14.00417 = 14
+        sky Pluto on J Uranus RA 41.2146 Dec 0.2067
+   [ 1] cross link struck on both ends (HUB)  roots 7  bodies=['H Jupiter', 'J Neptune']; link=cross H Jupiter–J Neptune RA 16.2771 Dec 0.1202; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Orcus']; strikers_jockey_end=['Eris', 'Quaoar', 'Sun', 'Transpluto', 'Vesta']; same_sky_both_ends=[]; multi=False; strict=False
+        cross H Jupiter–J Neptune RA 16.2771 Dec 0.1202
+        sky Orcus -> H Jupiter RA 98.88894 = 890/9
+        sky Sun -> J Neptune Flat 73.11120 = 658/9
+        sky Vesta -> J Neptune RA 50.88935 = 458/9
+        sky Eris -> J Neptune Dec 20.88882 = 188/9
+        sky Transpluto -> J Neptune GC 118.99879 = 119
+   [ 1] cross link struck on both ends (HUB)  roots 3  bodies=['H Jupiter', 'J Gonggong']; link=cross H Jupiter–J Gonggong RA 71.5868 Dec 0.4484 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Orcus']; strikers_jockey_end=['Quaoar']; same_sky_both_ends=[]; multi=False; strict=False
+        cross H Jupiter–J Gonggong RA 71.5868 Dec 0.4484 near
+        sky Orcus -> H Jupiter RA 98.88894 = 890/9
+        sky Quaoar -> J Gonggong GC 50.99671 = 51
+   [ 1] cross link struck on both ends (HUB)  roots 4  bodies=['H Neptune', 'J Mars']; link=cross H Neptune–J Mars RA 0.4936 Dec 0.0099; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Mars', 'Sun']; strikers_jockey_end=['Mars']; same_sky_both_ends=['Mars']; multi=False; strict=False
+        cross H Neptune–J Mars RA 0.4936 Dec 0.0099
+        sky Sun -> H Neptune Dec 1.66638 = 15/9
+        sky Mars on H Neptune RA 147.7624 Dec 0.1973
+        sky Mars on J Mars RA 147.2688 Dec 0.1874 RETURN
+   [ 1] cross link struck on both ends (HUB)  roots 6  bodies=['H Pluto', 'J Sun']; link=cross H Pluto–J Sun RA 1.2103 Dec 0.3244; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ceres', 'Makemake', 'Pallas']; strikers_jockey_end=['Pluto', 'Uranus']; same_sky_both_ends=[]; multi=False; strict=False
+        cross H Pluto–J Sun RA 1.2103 Dec 0.3244
+        sky Ceres -> H Pluto RA 137.99546 = 138
+        sky Ceres -> H Pluto GC 140.00428 = 140
+        sky Pallas -> H Pluto RA 48.99806 = 49
+        sky Makemake -> H Pluto Dec 44.00003 = 44
+        sky Uranus -> J Sun Dec 36.99864 = 37
+   [ 1] cross link struck on both ends (HUB)  roots 7  bodies=['H Pluto', 'J Jupiter']; link=cross H Pluto–J Jupiter RA 3.2787 Dec 0.3856 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ceres', 'Makemake', 'Pallas']; strikers_jockey_end=['Haumea', 'Pluto', 'Uranus']; same_sky_both_ends=[]; multi=False; strict=False
+        cross H Pluto–J Jupiter RA 3.2787 Dec 0.3856 near
+        sky Ceres -> H Pluto RA 137.99546 = 138
+        sky Ceres -> H Pluto GC 140.00428 = 140
+        sky Pallas -> H Pluto RA 48.99806 = 49
+        sky Makemake -> H Pluto Dec 44.00003 = 44
+        sky Uranus -> J Jupiter Flat 110.99644 = 111
+   [ 1] cross link struck on both ends (HUB)  roots 9  bodies=['H Pluto', 'J Neptune']; link=cross H Pluto–J Neptune RA 20.7393 Dec 0.4129 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ceres', 'Makemake', 'Pallas']; strikers_jockey_end=['Eris', 'Quaoar', 'Sun', 'Transpluto', 'Vesta']; same_sky_both_ends=[]; multi=False; strict=False
+        cross H Pluto–J Neptune RA 20.7393 Dec 0.4129 near
+        sky Ceres -> H Pluto RA 137.99546 = 138
+        sky Ceres -> H Pluto GC 140.00428 = 140
+        sky Pallas -> H Pluto RA 48.99806 = 49
+        sky Makemake -> H Pluto Dec 44.00003 = 44
+        sky Sun -> J Neptune Flat 73.11120 = 658/9
+   [ 1] cross link struck on both ends (HUB)  roots 5  bodies=['H Pluto', 'J Gonggong']; link=cross H Pluto–J Gonggong RA 34.5704 Dec 0.1557; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ceres', 'Makemake', 'Pallas']; strikers_jockey_end=['Quaoar']; same_sky_both_ends=[]; multi=False; strict=True
+        cross H Pluto–J Gonggong RA 34.5704 Dec 0.1557
+        sky Ceres -> H Pluto RA 137.99546 = 138
+        sky Ceres -> H Pluto GC 140.00428 = 140
+        sky Pallas -> H Pluto RA 48.99806 = 49
+        sky Makemake -> H Pluto Dec 44.00003 = 44
+        sky Quaoar -> J Gonggong GC 50.99671 = 51
+   [ 1] cross link struck on both ends (HUB)  roots 4  bodies=['H Chiron', 'J Pluto']; link=cross H Chiron–J Pluto RA 139.5947 Dec 0.1654; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Gonggong']; strikers_jockey_end=['Ceres', 'Rahu']; same_sky_both_ends=[]; multi=False; strict=True
+        cross H Chiron–J Pluto RA 139.5947 Dec 0.1654
+        sky Gonggong -> H Chiron Dec 13.99542 = 14
+        sky Ceres -> J Pluto RA 146.99713 = 147
+        sky Rahu -> J Pluto Dec 17.99805 = 18
+   [ 1] cross link struck on both ends (HUB)  roots 4  bodies=['H Juno', 'J Pluto']; link=cross H Juno–J Pluto RA 160.5970 Dec 0.3281 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Sedna']; strikers_jockey_end=['Ceres', 'Rahu']; same_sky_both_ends=[]; multi=False; strict=False
+        cross H Juno–J Pluto RA 160.5970 Dec 0.3281 near
+        sky Sedna on H Juno RA 1.7602 Dec 5.8744 near
+        sky Ceres -> J Pluto RA 146.99713 = 147
+        sky Rahu -> J Pluto Dec 17.99805 = 18
+   [ 1] cross link struck on both ends (HUB)  roots 8  bodies=['H Haumea', 'J Chiron']; link=cross H Haumea–J Chiron RA 152.0445 Dec 0.5426 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ceres', 'Haumea', 'Venus']; strikers_jockey_end=['Ceres', 'Gonggong', 'Saturn', 'Transpluto']; same_sky_both_ends=['Ceres']; multi=False; strict=False
+        cross H Haumea–J Chiron RA 152.0445 Dec 0.5426 near
+        sky Venus -> H Haumea GC 51.00069 = 51
+        sky Ceres on H Haumea RA 143.8156 Dec 0.1392
+        sky Haumea on H Haumea RA 1.0230 Dec 0.9590 RETURN
+        sky Saturn -> J Chiron Dec 35.99794 = 36
+        sky Gonggong -> J Chiron Flat 90.99661 = 91
+   [ 1] cross link struck on both ends (HUB)  roots 7  bodies=['H Makemake', 'J Haumea']; link=cross H Makemake–J Haumea RA 13.3299 Dec 0.5186 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Makemake', 'Mars']; strikers_jockey_end=['Ketu', 'Orcus']; same_sky_both_ends=[]; multi=False; strict=False
+        cross H Makemake–J Haumea RA 13.3299 Dec 0.5186 near
+        sky Mars -> H Makemake Flat 31.00056 = 31
+        sky Mars -> H Makemake GC 30.99893 = 31
+        sky Mars on H Makemake RA 1.4753 Dec 30.9654
+        sky Makemake on H Makemake RA 1.1607 Dec 1.7083 RETURN
+        sky Ketu -> J Haumea Flat 71.55539 = 644/9
+   [ 1] cross link struck on both ends (STRONG HUB)  roots 7  bodies=['H Quaoar', 'J Mercury']; link=cross H Quaoar–J Mercury RA 1.1610 Dec 7.2731; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Jupiter', 'Quaoar', 'Saturn', 'Transpluto']; strikers_jockey_end=['Pluto']; same_sky_both_ends=[]; multi=False; strict=False
+        cross H Quaoar–J Mercury RA 1.1610 Dec 7.2731
+        sky Saturn -> H Quaoar Dec 3.77796 = 34/9
+        sky Transpluto -> H Quaoar Dec 25.99746 = 26
+        sky Jupiter on H Quaoar RA 52.3584 Dec 0.3856 near
+        sky Quaoar on H Quaoar RA 1.5148 Dec 0.1678 RETURN
+        sky Pluto on J Mercury RA 24.9619 Dec 0.0269
+   [ 1] cross link struck on both ends (HUB)  roots 11  bodies=['H Quaoar', 'J Neptune']; link=cross H Quaoar–J Neptune RA 0.1414 Dec 6.6742; strict_same_sky_both_ends=['Transpluto']; strict_multi=False; strikers_horse_end=['Jupiter', 'Quaoar', 'Saturn', 'Transpluto']; strikers_jockey_end=['Eris', 'Quaoar', 'Sun', 'Transpluto', 'Vesta']; same_sky_both_ends=['Quaoar', 'Transpluto']; multi=True; strict=False
+        cross H Quaoar–J Neptune RA 0.1414 Dec 6.6742
+        sky Saturn -> H Quaoar Dec 3.77796 = 34/9
+        sky Transpluto -> H Quaoar Dec 25.99746 = 26
+        sky Jupiter on H Quaoar RA 52.3584 Dec 0.3856 near
+        sky Quaoar on H Quaoar RA 1.5148 Dec 0.1678 RETURN
+        sky Sun -> J Neptune Flat 73.11120 = 658/9
+   [ 1] cross link struck on both ends (HUB)  roots 9  bodies=['H Orcus', 'J Eris']; link=cross H Orcus–J Eris RA 133.2929 Dec 0.1036; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Rahu', 'Transpluto', 'Venus']; strikers_jockey_end=['Gonggong', 'Makemake', 'Orcus']; same_sky_both_ends=[]; multi=False; strict=False
+        cross H Orcus–J Eris RA 133.2929 Dec 0.1036
+        sky Venus -> H Orcus RA 91.77737 = 826/9
+        sky Rahu -> H Orcus RA 94.33373 = 849/9
+        sky Transpluto on H Orcus RA 0.6009 Dec 21.1601
+        sky Makemake -> J Eris Dec 33.00491 = 33
+        sky Gonggong -> J Eris GC 43.99744 = 44
+   [ 2] partner strike (HUB)  roots 2  bodies=['H Neptune', 'J Mars']; link=cross H Neptune–J Mars RA 0.4936 Dec 0.0099; strict=False
+        cross H Neptune–J Mars RA 0.4936 Dec 0.0099
+        sky Mars on H Neptune RA 147.7624 Dec 0.1973
+   [ 2] partner strike (HUB)  roots 2  bodies=['H Pluto', 'J Sun']; link=cross H Pluto–J Sun RA 1.2103 Dec 0.3244; strict=False
+        cross H Pluto–J Sun RA 1.2103 Dec 0.3244
+        sky Pluto on J Sun RA 1.9928 Dec 1.3631 near
+   [ 2] partner strike (HUB)  roots 2  bodies=['H Pluto', 'J Jupiter']; link=cross H Pluto–J Jupiter RA 3.2787 Dec 0.3856 near; strict=False
+        cross H Pluto–J Jupiter RA 3.2787 Dec 0.3856 near
+        sky Pluto on J Jupiter RA 0.0757 Dec 1.4243
+   [ 2] partner strike (HUB)  roots 2  bodies=['H Quaoar', 'J Neptune']; link=cross H Quaoar–J Neptune RA 0.1414 Dec 6.6742; strict=False
+        cross H Quaoar–J Neptune RA 0.1414 Dec 6.6742
+        sky Quaoar on J Neptune RA 1.6563 Dec 6.8420 near
+   [ 2] partner strike (HUB)  roots 2  bodies=['H Orcus', 'J Eris']; link=cross H Orcus–J Eris RA 133.2929 Dec 0.1036; strict=False
+        cross H Orcus–J Eris RA 133.2929 Dec 0.1036
+        sky Orcus on J Eris RA 135.9656 Dec 0.5835 near
+   [ 5] movement onto a cross link (HUB)  roots 3  bodies=['H Jupiter']; link=cross H Jupiter–J Uranus RA 0.9952 Dec 0.5393; moved=H Jupiter; strict=True
+        cross H Jupiter–J Uranus RA 0.9952 Dec 0.5393
+        H Jupiter moved RA 68.77695 = 619/9
+        H Jupiter moved GC 64.99249 = 65
+   [ 5] movement onto a cross link (HUB)  roots 3  bodies=['H Jupiter']; link=cross H Jupiter–J Neptune RA 16.2771 Dec 0.1202; moved=H Jupiter; strict=True
+        cross H Jupiter–J Neptune RA 16.2771 Dec 0.1202
+        H Jupiter moved RA 68.77695 = 619/9
+        H Jupiter moved GC 64.99249 = 65
+   [ 5] movement onto a cross link (HUB)  roots 3  bodies=['H Jupiter']; link=cross H Jupiter–J Gonggong RA 71.5868 Dec 0.4484 near; moved=H Jupiter; strict=False
+        cross H Jupiter–J Gonggong RA 71.5868 Dec 0.4484 near
+        H Jupiter moved RA 68.77695 = 619/9
+        H Jupiter moved GC 64.99249 = 65
+   [ 5] movement onto a cross link (HUB)  roots 2  bodies=['H Pallas']; link=cross H Pallas–J Vesta RA 2.4151 Dec 0.2811; moved=H Pallas; strict=True
+        cross H Pallas–J Vesta RA 2.4151 Dec 0.2811
+        H Pallas moved Dec 5.00890 = 5
+   [ 5] movement onto a cross link (STRONG HUB)  roots 2  bodies=['J Mercury']; link=cross H Quaoar–J Mercury RA 1.1610 Dec 7.2731; moved=J Mercury; strict=True
+        cross H Quaoar–J Mercury RA 1.1610 Dec 7.2731
+        J Mercury moved Flat 83.55486 = 752/9
+   [ 7] triangle struck at every corner by one sky body (HUB)  roots 4  bodies=['H Pluto', 'H Vesta', 'J Eris']; corners=['H Pluto', 'H Vesta', 'J Eris']; sky=Makemake; strict=True
+        H H Pluto–H Vesta Dec 5.99541 = 6
+        cross H Pluto–J Eris Dec 10.99512 = 11
+        cross H Vesta–J Eris Dec 4.99971 = 5
+        sky Makemake -> H Pluto Dec 44.00003 = 44
+        sky Makemake -> H Vesta Dec 38.00462 = 38
+        sky Makemake -> J Eris Dec 33.00491 = 33
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['H Jupiter', 'H Uranus']; split=H Jupiter -> H Uranus RA span 130.70935 = moved 68.77695 (619/9) + 61.93240  parts ['10/9', 0.0535] span/other ['19/9', 0.0282]; strict=True
+        H Jupiter -> H Uranus RA span 130.70935 = moved 68.77695 (619/9) + 61.93240  parts ['10/9', 0.0535] span/other ['19/9', 0.0282]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['H Jupiter', 'H Neptune']; split=H Jupiter -> H Neptune RA span 90.15884 = moved 68.77695 (619/9) + 21.38189  parts ['29/9', 0.1745] span/other ['21/5', 0.3952]; strict=True
+        H Jupiter -> H Neptune RA span 90.15884 = moved 68.77695 (619/9) + 21.38189  parts ['29/9', 0.1745] span/other ['21/5', 0.3952]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['H Jupiter', 'H Vesta']; split=H Jupiter -> H Vesta RA span 75.88382 = moved 68.77695 (619/9) + 7.10687  parts ['29/3', 0.1123] span/other ['21/2', 1.6907]; strict=True
+        H Jupiter -> H Vesta RA span 75.88382 = moved 68.77695 (619/9) + 7.10687  parts ['29/3', 0.1123] span/other ['21/2', 1.6907]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['H Jupiter', 'H Sedna']; split=H Jupiter -> H Sedna RA span 160.53649 = moved 68.77695 (619/9) + 91.75954  parts ['4/3', 0.0621] span/other ['7/4', 0.0266]; strict=True
+        H Jupiter -> H Sedna RA span 160.53649 = moved 68.77695 (619/9) + 91.75954  parts ['4/3', 0.0621] span/other ['7/4', 0.0266]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['H Jupiter', 'J Mars']; split=H Jupiter -> J Mars RA span 89.66525 = moved 68.77695 (619/9) + 20.88830  parts ['23/7', 0.2097] span/other ['30/7', 0.1608]; strict=True
+        H Jupiter -> J Mars RA span 89.66525 = moved 68.77695 (619/9) + 20.88830  parts ['23/7', 0.2097] span/other ['30/7', 0.1608]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['H Jupiter', 'J Pallas']; split=H Jupiter -> J Pallas RA span 93.31343 = moved 68.77695 (619/9) + 24.53648  parts ['14/5', 0.1089] span/other ['19/5', 0.0802]; strict=True
+        H Jupiter -> J Pallas RA span 93.31343 = moved 68.77695 (619/9) + 24.53648  parts ['14/5', 0.1089] span/other ['19/5', 0.0802]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['H Jupiter', 'J Rahu']; split=H Jupiter -> J Rahu RA span 157.57554 = moved 68.77695 (619/9) + 88.79860  parts ['9/7', 0.4197] span/other ['16/9', 0.1828]; strict=True
+        H Jupiter -> J Rahu RA span 157.57554 = moved 68.77695 (619/9) + 88.79860  parts ['9/7', 0.4197] span/other ['16/9', 0.1828]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['H Jupiter', 'J Eris']; split=H Jupiter -> J Eris RA span 125.14543 = moved 68.77695 (619/9) + 56.36848  parts ['11/9', 0.1711] span/other ['20/9', 0.0941]; strict=True
+        H Jupiter -> J Eris RA span 125.14543 = moved 68.77695 (619/9) + 56.36848  parts ['11/9', 0.1711] span/other ['20/9', 0.0941]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['H Pallas', 'H Mercury']; split=H Pallas -> H Mercury Dec span 17.51523 = moved 5.00890 (5) + 12.50633  parts ['5/2', 0.1272] span/other ['7/5', 0.0364]; strict=True
+        H Pallas -> H Mercury Dec span 17.51523 = moved 5.00890 (5) + 12.50633  parts ['5/2', 0.1272] span/other ['7/5', 0.0364]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['H Pallas', 'H Pluto']; split=H Pallas -> H Pluto Dec span 19.29012 = moved 5.00890 (5) + 14.28122  parts ['20/7', 0.2091] span/other ['4/3', 1.305]; strict=True
+        H Pallas -> H Pluto Dec span 19.29012 = moved 5.00890 (5) + 14.28122  parts ['20/7', 0.2091] span/other ['4/3', 1.305]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['H Pallas', 'H Ketu']; split=H Pallas -> H Ketu Dec span 18.24994 = moved 5.00890 (5) + 13.24104  parts ['21/8', 0.7048] span/other ['11/8', 0.239]; strict=True
+        H Pallas -> H Ketu Dec span 18.24994 = moved 5.00890 (5) + 13.24104  parts ['21/8', 0.7048] span/other ['11/8', 0.239]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['H Pallas', 'H Quaoar']; split=H Pallas -> H Quaoar Dec span 13.02880 = moved 5.00890 (5) + 8.01990  parts ['8/5', 0.0706] span/other ['13/8', 0.0271]; strict=True
+        H Pallas -> H Quaoar Dec span 13.02880 = moved 5.00890 (5) + 8.01990  parts ['8/5', 0.0706] span/other ['13/8', 0.0271]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['H Pallas', 'H Orcus']; split=H Pallas -> H Orcus Dec span 8.19144 = moved 5.00890 (5) + 3.18254  parts ['11/7', 0.1554] span/other ['18/7', 0.095]; strict=True
+        H Pallas -> H Orcus Dec span 8.19144 = moved 5.00890 (5) + 3.18254  parts ['11/7', 0.1554] span/other ['18/7', 0.095]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['H Pallas', 'J Jupiter']; split=H Pallas -> J Jupiter Dec span 18.90452 = moved 5.00890 (5) + 13.89562  parts ['25/9', 0.1293] span/other ['11/8', 1.057]; strict=True
+        H Pallas -> J Jupiter Dec span 18.90452 = moved 5.00890 (5) + 13.89562  parts ['25/9', 0.1293] span/other ['11/8', 1.057]
+   [10] sky body divides a natal pair (STRONG HUB)  roots 1  bodies=['H Pallas', 'J Uranus']; split=H Pallas -> J Uranus Dec span 20.12214 = moved 5.00890 (5) + 15.11324  parts ['3', 0.5759] span/other ['4/3', 0.1431]; strict=True
+        H Pallas -> J Uranus Dec span 20.12214 = moved 5.00890 (5) + 15.11324  parts ['3', 0.5759] span/other ['4/3', 0.1431]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['H Pallas', 'J Ketu']; split=H Pallas -> J Ketu Dec span 16.62858 = moved 5.00890 (5) + 11.61968  parts ['7/3', 0.5797] span/other ['10/7', 0.1749]; strict=True
+        H Pallas -> J Ketu Dec span 16.62858 = moved 5.00890 (5) + 11.61968  parts ['7/3', 0.5797] span/other ['10/7', 0.1749]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['J Sedna', 'H Makemake']; split=J Sedna -> H Makemake RA span 157.75263 = moved 20.00364 (20) + 137.74899  parts ['7', 1.6258] span/other ['8/7', 0.2066]; strict=True
+        J Sedna -> H Makemake RA span 157.75263 = moved 20.00364 (20) + 137.74899  parts ['7', 1.6258] span/other ['8/7', 0.2066]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['J Sedna', 'H Transpluto']; split=J Sedna -> H Transpluto RA span 114.81458 = moved 20.00364 (20) + 94.81094  parts ['19/4', 0.2172] span/other ['6/5', 0.9154]; strict=True
+        J Sedna -> H Transpluto RA span 114.81458 = moved 20.00364 (20) + 94.81094  parts ['19/4', 0.2172] span/other ['6/5', 0.9154]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['J Sedna', 'J Pluto']; split=J Sedna -> J Pluto RA span 178.84045 = moved 20.00364 (20) + 158.83682  parts ['8', 0.745] span/other ['9/8', 0.0834]; strict=True
+        J Sedna -> J Pluto RA span 178.84045 = moved 20.00364 (20) + 158.83682  parts ['8', 0.745] span/other ['9/8', 0.0834]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['J Sedna', 'J Makemake']; split=J Sedna -> J Makemake RA span 125.21386 = moved 20.00364 (20) + 105.21023  parts ['21/4', 0.182] span/other ['6/5', 0.8225]; strict=True
+        J Sedna -> J Makemake RA span 125.21386 = moved 20.00364 (20) + 105.21023  parts ['21/4', 0.182] span/other ['6/5', 0.8225]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['J Sedna', 'J Orcus']; split=J Sedna -> J Orcus RA span 85.89349 = moved 20.00364 (20) + 65.88985  parts ['23/7', 0.2489] span/other ['9/7', 1.3905]; strict=True
+        J Sedna -> J Orcus RA span 85.89349 = moved 20.00364 (20) + 65.88985  parts ['23/7', 0.2489] span/other ['9/7', 1.3905]
+   [10] sky body divides a natal pair (HUB)  roots 1  bodies=['J Sedna', 'J Transpluto']; split=J Sedna -> J Transpluto RA span 103.50717 = moved 20.00364 (20) + 83.50353  parts ['25/6', 0.186] span/other ['5/4', 0.8356]; strict=True
+        J Sedna -> J Transpluto RA span 103.50717 = moved 20.00364 (20) + 83.50353  parts ['25/6', 0.186] span/other ['5/4', 0.8356]
+   [11] joined same-body set (STRONG HUB)  roots 1  bodies=['H Uranus', 'J Uranus']; joined_by=['R', 'X']; strict=True
+        same-body Uranus Flat 9 : 10 : 10/9 (worst 0.0354%)
+   [12] pair in one chart struck on both ends by 2+ sky bodies (HUB)  roots 5  bodies=['J Sun', 'J Jupiter']; link=J J Sun–J Jupiter RA 2.0684 Dec 0.0612; sky=['Pluto', 'Uranus']; strict_sky=[]; strict_multi=False; strict=False
+        J J Sun–J Jupiter RA 2.0684 Dec 0.0612
+        sky Uranus -> J Sun Dec 36.99864 = 37
+        sky Pluto on J Sun RA 1.9928 Dec 1.3631 near
+        sky Uranus -> J Jupiter Flat 110.99644 = 111
+        sky Pluto on J Jupiter RA 0.0757 Dec 1.4243
+   [12] pair in one chart struck on both ends by 2+ sky bodies (STRONG HUB)  roots 5  bodies=['J Venus', 'J Uranus']; link=J J Venus–J Uranus GC 83.00185 = 83; sky=['Ketu', 'Rahu']; strict_sky=['Node']; strict_multi=False; strict=True
+        J J Venus–J Uranus GC 83.00185 = 83
+        sky Rahu -> J Venus GC 82.99524 = 83
+        sky Ketu -> J Venus GC 97.00476 = 97
+        sky Rahu -> J Uranus GC 165.99583 = 166
+        sky Ketu -> J Uranus GC 14.00417 = 14
+-- annotations (recurring from earlier winners; not weighted)
+   recurring pair Venus–Uranus: J J Venus–J Uranus GC 83.00185 = 83
+   recurring pair Saturn–Neptune: cross H Saturn–J Neptune RA 13.3086 Dec 0.1056
+   recurring cross link horse Pluto – jockey Neptune: cross H Pluto–J Neptune RA 20.7393 Dec 0.4129 near
+   recurring cross link horse Makemake – jockey Haumea: cross H Makemake–J Haumea RA 13.3299 Dec 0.5186 near
+   recurring pair Chiron–Transpluto: J Chiron–Transpluto GC sky 143.2326 natal 76.3963 15/8 (0.0073%) near
