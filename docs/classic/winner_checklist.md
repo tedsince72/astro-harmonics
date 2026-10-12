@@ -48,6 +48,7 @@ Def: the two bodies of a cross link are also close in the sky (GC < 5, or a clos
 ### 5. Both ends of one cross link moved
 Def: both ends of one cross link have a whole/ninth movement since birth (±0.01 / ±0.0011). (Shape 4.)
 - Wolverhampton AW 17:25 2023 — Ziggy's Dream / Kieran O'Neill: horse Eris – O'Neill Jupiter RA 1.1336; horse Eris moved RA 0.8894 (8/9); O'Neill Jupiter moved GC 13.5560 (122/9). Field: ONLY runner.
+- Fontwell 16:45 2021 (blind 5) — Pixie Loc / Ben Jones: horse Eris – Jones Jupiter RA 0.1096; horse Eris moved Flat 1.99345 / GC 1.99293 (2); Jones Jupiter moved RA 58.99549 (59). Field: ONLY runner (reader). The same H Eris – J Jupiter link as Wolverhampton.
 - York 16:15 2024 — Diligent Resdev / Mason: horse Venus moved Dec 40.0052 (40; off 0.0052, passes only the wider movement window); Mason Uranus moved GC 135.0012 (135). Field: NOT unique — four runners (Fire Demon, Expensive Queen, Diligent Resdev, Misemerald x3; Misemerald's third needs Ketu); winner's is the only one whose sky pair is also together (others 56–151° apart).
 - Exeter 15:15 2021 (blind) — Forget You Not / Best: horse Ketu – Best Ceres (Dec 0.280), horse node moved RA 129.2226 (1163/9; node-axis mirror 50.7774 = 457/9), Best Ceres moved RA 124.0050.
 - Losers: Redcar blind World Without Love both ends moved x2 (4th); Haydock 14:20 blind Tynwald field-only (finished last).
@@ -427,6 +428,15 @@ Def: for pair {A, B} (node folded; A = B allowed), number of different KINDS lan
 - Winner had: the only node loop (built last, low priority); H Eris and J Sedna (loop bodies) also carry number 18 in both charts
   (H Pluto–Eris Dec 17.99541 | J Sun–Sedna Dec 17.99895; Outbox also has an item 11); Equator Jupiter S/H 16/5 (0.0019%, tightest);
   tightest shared pair Ceres–Orcus GC (0.0337%). Sedgefield's winner also had a node loop, but so did Wheres Maud Gone there — one race, not a rule.
+
+### Fontwell 16:45, 14 Sep 2021 — blind 5 (checklist reader CR v1.1; read 7ca2575)
+- Said (field-only, strict): Eye To The Sky 15 (pair set Venus–Makemake GC 11/5, 11/3, 5/3, 0.0211%) and 26 (Equator Ceres S/H 5/4, 0.0076%);
+  Spike Jones 3 (partner sky Eris -> H Uranus RA 4), 10 (H Neptune–Ketu RA 11 by Pluto and Pallas), 28 (sky Ketu -> J Mercury RA 229/9 + Dec 4);
+  Pixie Loc 5 (H Eris – J Jupiter both ends moved); Santesa 14 (shared Neptune–Pluto GC on H Pluto – J Neptune). Watch: 14 Santesa, 15 Eye To The Sky.
+- Result: 1 Pixie Loc / Ben Jones (14/1); 2 Spike Jones (5/1); 3 Eye To The Sky (4/5 fav); 4 Santesa (5/2).
+- Winner had: H Eris – J Jupiter RA 0.1096 (Dec 11.9006) with both ends moved — H Eris moved Flat 1.99345 and GC 1.99293 (2), J Jupiter moved
+  RA 58.99549 (59) — and the same link struck on both ends by sky Venus (RA 174.00167 | RA 1567/9 174.11130); J Jupiter |Dec| 9.00211 (9).
+  Same cross link, same shape as Wolverhampton 2023 (Ziggy's Dream: horse Eris – O'Neill Jupiter, both ends moved, ONLY runner) — two races, not a rule.
 
 ## 5. Open candidates for the next version (from the blind tests; not yet rules)
 1. Shared pair that is also cross-linked (Exeter Chiron–Juno; Caspers Court 3rd also had one) — item 14.

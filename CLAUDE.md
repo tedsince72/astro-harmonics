@@ -52,7 +52,7 @@ what did NOT separate winners, the blind tests so far, and the open candidates. 
   (field.txt = race page with the watch line; P##.txt = runner page with joins). Tests `python3 tests/checklist_check.py` (421/421, 13
   DIFFERENCE/EXPLAINED). Design, as-built notes and Eddie's decisions: docs/classic/checklist_reader_design.md (sections 9–11).
   Item rates: docs/classic/checklist_rates.txt. Blind batch with the frozen reader: Kempton 14:40 done (winner Hamish — its only field-only
-  item the node loop); Fontwell 16:45 next. Sky-anchored soak candidate scanned (no separation; checklist section 5 item 9).
+  item the node loop); Fontwell 16:45 done (winner Pixie Loc — its only field-only item: H Eris – J Jupiter both ends moved, as Ziggy's Dream at Wolverhampton); Goodwood 18:53 next. Sky-anchored soak candidate scanned (no separation; checklist section 5 item 9).
 - Open candidates (built into the reader as items 14, 17, 20, 21; still not frozen rules): shared pair that is also cross-linked; the Dec 9/4 : 5/4 : 9/5 same-body split; natal body at
   the midpoint of a body and its own sky body; soak (one value from 4+ non-star partners across horse, jockey, sky). Details in the checklist.
 
