@@ -388,6 +388,50 @@ chk(2, 30, 'Newton Abbot: H Sedna – J Chiron Dec 0.0147 — tightest in the ra
 chk(2, 30, 'Newmarket July: H Uranus – J Venus Dec 0.060 — tightest Venus–Uranus link in field', lambda: min((min(x['RA'] / 1.5, x['Dec'] / 0.3), P) for P in F('nmj')['per_runner']
     for x in json.load(open(f"docs/classic/{A['nmj']}/layer1/{P}.json"))['links'] if x['kind'] == 'cross' and {x['a'][2:], x['b'][2:]} == {'Venus', 'Uranus'})[1] == 'P01')
 
+
+# ============================================================== step 3 items
+# 4 cross-link pair together in the sky
+chk(3, 4, 'York 16:15: H Venus – J Uranus, sky Venus–Uranus GC 3.39', lambda: any(xl(x, 'Venus', 'Uranus') and 'sky Venus–Uranus GC 3.3865' in x['what'] for x in find('y15', 4)))
+chk(3, 4, 'York 16:15 field: NOT unique — True Promise (same link), Respectful (H Sun – J Jupiter, GC 2.40), Expensive Queen (H Mars – J Rahu, GC 3.60)',
+    lambda: any(xl(x, 'Venus', 'Uranus') for x in find('y15', 4, P=P_of('y15', 'True Promise'), level=None)) and has('y15', 4, 'H Sun – J Jupiter', 'GC 2.4048', P=P_of('y15', 'Respectful'), level=None)
+            and has('y15', 4, 'H Mars – J Rahu', 'GC 3.5989', P=P_of('y15', 'Expensive Queen'), level=None))
+chk(3, 4, 'York 16:15: winner the only runner with both ends moved AND the sky pair together on the same cross link',
+    lambda: sorted(P for P, x in F('y15')['per_runner'].items() if any(i['item'] == 4 and i['level'] == 'strict' and any(j['item'] == 5 and j['level'] == 'strict' and j['what'].split(' — ')[0] == i['what'].split(' — ')[0]
+                                                                                                                         for j in x['instances']) for i in x['instances'])) == ['P25'])
+# 8 triangle
+chk(3, 8, 'Ascot: H Ceres / Sedna / Haumea RA 4, 152, 156 struck by sky Vesta (RA 37, 41, 115), one plane (RA)',
+    lambda: any(all(b in x['what'] for b in ('H Ceres', 'H Sedna', 'H Haumea')) and 'one plane (RA)' in x['what'] and '— sky Vesta:' in x['what'] for x in find('asc', 8)))
+chk(3, 8, 'Ascot field: NOT unique — Rohaan: J Eris / Ketu / Sun Dec 12, 13, 25 struck by sky Neptune (Dec 8, 20, 5)',
+    lambda: any(all(b in x['what'] for b in ('J Eris', 'J Ketu', 'J Sun')) and '— sky Neptune:' in x['what'] for x in find('asc', 8, P=P_of('asc', 'Rohaan'))))
+chk(3, 8, 'Haydock 14:20: triangle H Venus – H Juno – J Uranus; Contact has a triangle too', lambda: any(all(b in x['what'] for b in ('H Venus', 'H Juno', 'J Uranus')) for x in find('hy20', 8))
+    and P_of('hy20', 'Contact') in who('hy20', 8))
+chk(3, 8, 'York 15:45 loser La Pasionaria: H Pluto / Pallas / Sedna struck by Ceres and by Orcus', lambda: all(any(all(b in x['what'] for b in ('H Pluto', 'H Pallas', 'H Sedna')) and f'— sky {k}:' in x['what']
+                                                                                                                 for x in find('y45', 8, P=P_of('y45', 'La Pasionaria'))) for k in ('Ceres', 'Orcus')))
+# 12 shared node
+chk(3, 12, 'Venturous: H Rahu – J Rahu GC 1.8584 (RA 1.8697, Dec 0.52)', lambda: has('aw30', 12, 'GC 1.8584', 'RA 1.8697'))
+chk(3, 12, 'Wholestone: H Rahu – J Rahu GC 2.19 (RA 2.3791, Dec 0.0904)', lambda: has('hy05', 12, 'GC 2.18', 'RA 2.3791', 'Dec 0.0904'))
+chk(3, 12, 'Lingfield: Bristol De Mai / Twiston-Davies 0.105', lambda: has('lin', 12, 'GC 0.1050', P=P_of('lin', 'Bristol De Mai')))
+chk(3, 12, 'Venturous and Wholestone the only runners in their fields; not at Newcastle 15:40', lambda: only('aw30', 12) and only('hy05', 12) and not who('nc40', 12))
+chk(3, 12, 'DIFFERENCE: "across 22 races only Bristol De Mai, Venturous, Wholestone" — across the 33 races here the reader also finds Cresswell Queen (Newton Abbot, GC 0.0930), Gidwa (Nottingham 17:50, H Rahu – J Ketu GC 2.1419), Misemerald (York 16:15, GC 2.6940)',
+    lambda: sorted((r, P) for r in sorted(set(A.values())) for P in who(r, 12)) == sorted([(A['lin'], P_of('lin', 'Bristol De Mai')), (A['aw30'], 'P09'), (A['hy05'], 'P09'),
+            (A['nab'], P_of('nab', 'Cresswell Queen')), (A['not50'], P_of('not50', 'Gidwa')), (A['y15'], P_of('y15', 'Misemerald'))]))
+# 20 midpoint
+chk(3, 20, 'Haydock 14:20: J Ketu at the RA midpoint of H Orcus and sky Orcus (span 2.816, off 0.026)', lambda: has('hy20', 20, 'J Ketu at the RA midpoint of H Orcus and sky Orcus', 'span 2.8164', 'off 0.0264'))
+chk(3, 20, 'Haydock 14:20 field: ONLY runner with an RA midpoint (span < 20)', lambda: sorted(P for P in F('hy20')['per_runner'] if any('RA midpoint' in x['what'] for x in find('hy20', 20, P=P))) == ['P03'])
+chk(3, 20, 'Haydock 14:20: Tynwald in the wide list — J Saturn at the midpoint of J Juno and sky Juno, span 21.7, off 0.025',
+    lambda: has('hy20', 20, 'J Saturn at the RA midpoint of J Juno and sky Juno', 'span 21.71', 'off 0.0248', P=P_of('hy20', 'Tynwald'), level='wide'))
+chk(3, 20, 'Carlisle (related): J Sun at the Dec midpoint of H Sun and sky Sun', lambda: has('car', 20, 'J Sun at the Dec midpoint of H Sun and sky Sun'))
+# 21 soak
+chk(3, 21, 'Haydock 14:20: Orcus ~9.79 soak (sky Orcus–Eris, H Orcus – sky Sun, H Orcus–Pallas, ...)', lambda: any('S Orcus – S Eris Dec 9.7751' in x['what'] and 'H Orcus – H Pallas Dec 9.7890' in x['what'] for x in find('hy20', 21, 'soak Orcus ~9.7')))
+chk(3, 21, 'Haydock 14:20: Eris ~20.32 soak (H Mercury, H Pluto, J Juno, J Chiron)', lambda: any(all(t in x['what'] for t in ('H Mercury', 'H Pluto', 'J Juno', 'J Chiron')) for x in find('hy20', 21, 'soak Eris ~20.3')))
+chk(3, 21, 'Catterick: Chiron ~18.3438 spread 0.0014 (EXPLAINED: near — partners S Mars, H Eris, H Ceres, S Quaoar, no jockey partner; the jockey only as Chiron)',
+    lambda: has('cat', 21, 'soak Chiron ~18.3438', 'spread 0.0014', level='near'))
+chk(3, 21, 'DIFFERENCE: Ffos Las Juno ~8.8894 (confirmed by hand) does not pass Eddie\'s soak rule — partners S Sun, S Pluto, S Neptune, J Sedna: no horse chart in it',
+    lambda: not any(abs(x['centre'] - 8.889) < 0.02 for x in find('ffo', 21, 'soak Juno ', level=None)))
+chk(3, 21, 'WITHDRAWN: Newcastle 15:40 Ceres ~42.44 not a soak', lambda: not any(abs(x['centre'] - 42.44) < 0.03 for x in find('nc40', 21, 'soak Ceres ', level=None)))
+chk(3, 21, 'WITHDRAWN: York 15:45 Mercury ~2.0027 not a soak', lambda: not any(abs(x['centre'] - 2.0027) < 0.02 for x in find('y45', 21, 'soak Mercury ', level=None)))
+chk(3, 21, 'WITHDRAWN: Newcastle AW 12:20 Sedna ~14.345 and ~8.439 not soaks', lambda: not any(abs(x['centre'] - c) < 0.02 for c in (14.345, 8.439) for x in find('aw20', 21, 'soak Sedna ', level=None)))
+
 # ============================================================== run
 if __name__ == '__main__':
     ok = bad = nd = 0

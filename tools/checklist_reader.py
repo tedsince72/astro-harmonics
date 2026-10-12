@@ -375,16 +375,24 @@ def it30(R):
 
 # ---------------------------------------------------------------- step 3: new measures from positions
 def it4(R):
+    """strict: the cross link's two bodies within GC 5 in the sky; near: only RA < 1.5 or Dec < 0.3 apart in the sky (far apart on the sphere)"""
     out = []
     S = R.pos
     for li, l in R.cross:
         x, y = bare(l['a']), bare(l['b'])
         if fold(x) == fold(y): continue
         xs = ['Rahu', 'Ketu'] if fold(x) == 'Node' else [x]; ys = ['Rahu', 'Ketu'] if fold(y) == 'Node' else [y]
-        best = min(((min(gc(S[f'S {p}'], S[f'S {q}']) / SKY_GC, rd(S[f'S {p}'], S[f'S {q}']) / 1.5, dd(S[f'S {p}'], S[f'S {q}']) / 0.3), p, q) for p in xs for q in ys))
-        if best[0] < 1:
-            p, q = best[1], best[2]; A, B = S[f'S {p}'], S[f'S {q}']
-            out.append(inst(4, 'strict' if l['close'] else 'near', max(t_cross(l), best[0]), f"{x_str(l)} — sky {p}–{q} GC {gc(A, B):.4f} RA {rd(A, B):.4f} Dec {dd(A, B):.4f}",
+        pairs = [(S[f'S {p}'], S[f'S {q}'], p, q) for p in xs for q in ys]
+        g = min((gc(A, B), p, q, A, B) for A, B, p, q in pairs)
+        if g[0] < SKY_GC:
+            A, B = g[3], g[4]
+            out.append(inst(4, 'strict' if l['close'] else 'near', max(t_cross(l), g[0] / SKY_GC), f"{x_str(l)} — sky {g[1]}–{g[2]} GC {g[0]:.4f} RA {rd(A, B):.4f} Dec {dd(A, B):.4f}",
+                            [l['a'], l['b']], pk(x, y)))
+            continue
+        c = min((min(rd(A, B) / 1.5, dd(A, B) / 0.3), p, q, A, B) for A, B, p, q in pairs)
+        if c[0] < 1:
+            A, B = c[3], c[4]
+            out.append(inst(4, 'near', max(t_cross(l), c[0]), f"{x_str(l)} — sky {c[1]}–{c[2]} close in {'RA' if rd(A, B) < 1.5 else 'Dec'} only: GC {gc(A, B):.4f} RA {rd(A, B):.4f} Dec {dd(A, B):.4f}",
                             [l['a'], l['b']], pk(x, y)))
     return out
 
@@ -468,17 +476,20 @@ def it21(R):
             W = vals[i:j]
             parts = {w[3] for w in W}
             if len(parts) < SOAK_MIN: continue
-            pch = {p[0] for p in parts}
-            if not ('H' in pch and 'J' in pch and any(w[2][0] == 'S' or w[3][0] == 'S' for w in W)): continue
-            wins.append((-len(parts), W[-1][0] - W[0][0], i, j))
+            pch = {p[0] for p in parts}; vch = pch | {w[2][0] for w in W}
+            if not any(w[2][0] == 'S' or w[3][0] == 'S' for w in W): continue
+            if 'H' in pch and 'J' in pch: lv = 'strict'
+            elif 'H' in vch and 'J' in vch: lv = 'near'      # partners not from both natal charts, but the values touch both (Catterick Chiron)
+            else: continue
+            wins.append((-len(parts), W[-1][0] - W[0][0], i, j, lv))
         taken = []
-        for np_, sp, i, j in sorted(wins):
+        for np_, sp, i, j, lv in sorted(wins, key=lambda w: (w[4] != 'strict', w[0], w[1], w[2])):
             lo, hi = vals[i][0], vals[j - 1][0]
             if any(not (hi < a or lo > b) for a, b in taken): continue
             taken.append((lo, hi)); W = vals[i:j]
             centre = (lo + hi) / 2
             txt = '; '.join(f"{w[2]} – {w[3]} {w[1]} {w[0]:.4f}" for w in W)
-            out.append(inst(21, 'strict', sp / SOAK_SPREAD, f"soak {X} ~{centre:.4f}: {-np_} partners, spread {sp:.4f}, {near_num(centre)} — {txt}",
+            out.append(inst(21, lv, sp / SOAK_SPREAD, f"soak {X} ~{centre:.4f}: {-np_} partners, spread {sp:.4f}, {near_num(centre)}" + ('' if lv == 'strict' else ' (partners not from both natal charts)') + f" — {txt}",
                             [w[2] for w in W] + [w[3] for w in W], pk(X, X), centre=r4(centre), partners=-np_))
     return out
 
