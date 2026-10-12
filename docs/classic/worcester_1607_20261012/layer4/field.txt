@@ -1,0 +1,90 @@
+== worcester_1607_20261012  field of 6   [L4 v1.3 (12 Oct 2026, pair focus A+B+C)]  (blind: no finishing positions)
+-- runners: P01 1 Kykorock / 1 Harry Skelton; P03 2 Park Annonciade / 2 Tom Cannon; P05 3 Authoceltic / 3 Ciaran Gethings; P07 4 Siam Park / 4 Brendan Powell; P09 5 Tour Ovalie / 5 Adam Wedge; P11 6 Jasmin De Cotte / 6 Ben Poste
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              3/6: P03:1 P07:1 P09:1  |   6: P01:20 P03:11 P05:16 P07:22 P09:23 P11:10
+   [  2] partner strike                              2/6: P01:2 P09:2  |   6: P01:4 P03:1 P05:3 P07:4 P09:4 P11:4
+   [  3] pair together in the sky                    0/6: -  |   0: -
+   [  4] both ends moved                             1/6: P01:1  |   1: P01:1
+   [  5] movement onto a cross link                  5/6: P01:5 P03:3 P07:4 P09:1 P11:2  |   6: P01:10 P03:3 P05:1 P07:9 P09:4 P11:3
+   [  6] swap                                        1/6: P07:1  |   2: P01:1 P07:2
+   [  7] triangle struck at every corner             3/6: P01:3 P05:3 P07:4  |   6: P01:6 P03:3 P05:10 P07:24 P09:1 P11:1
+   [  8] same number / ratio in both charts          3/6: P01:3 P03:3 P05:1  |   4: P01:4 P03:5 P05:2 P07:5
+   [  9] shared node                                 0/6: -  |   0: -
+   [ 10] sky body divides a natal pair               5/6: P01:38 P03:18 P07:18 P09:7 P11:23  |   5: P01:38 P03:18 P07:18 P09:7 P11:23
+   [ 11] joined same-body set                        6/6: P01:1 P03:1 P05:1 P07:2 P09:4 P11:1  |   6: P01:1 P03:1 P05:1 P07:2 P09:4 P11:1
+   [ 12] pair in one chart struck on both ends by 2+  0/6: -  |   6: P01:4 P03:5 P05:2 P07:3 P09:1 P11:1
+   [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   4: P01:4 P05:2 P07:6 P11:1
+   [12m] pair in one chart, 2+ sky bodies on both ends  1/6: P01:1  |   6: P01:4 P03:5 P05:2 P07:3 P09:1 P11:1
+-- tightest instance of each shape
+   [ strict:1] P07 4 Siam Park / 4 Brendan Powell: horse Jupiter – jockey Venus (RA 0.1951 Dec 2.5054)
+   [ strict:2] P09 5 Tour Ovalie / 5 Adam Wedge: horse Node – jockey Neptune (RA 10.2196 Dec 0.1261)
+   [ strict:4] P01 1 Kykorock / 1 Harry Skelton: horse Venus – jockey Sedna (RA 0.4070 Dec 15.1777)
+   [ strict:5] P09 5 Tour Ovalie / 5 Adam Wedge: moved J Orcus (RA 126.8209 Dec 0.0059)
+   [ strict:6] P07 4 Siam Park / 4 Brendan Powell: swap Jupiter/Venus (RA 0.1951 Dec 2.5054)
+   [strict:10] P07 4 Siam Park / 4 Brendan Powell: H Rahu -> J Gonggong (split error 0.0049%)
+   [strict:11] P09 5 Tour Ovalie / 5 Adam Wedge: same body Uranus (worst 0.0326%)
+   [  broad:1] P07 4 Siam Park / 4 Brendan Powell: horse Sun – jockey Gonggong (RA 0.0037 Dec 6.6111) broad/near
+   [  broad:2] P09 5 Tour Ovalie / 5 Adam Wedge: horse Sedna – jockey Mercury (RA 105.1439 Dec 0.0663) broad/near
+   [  broad:4] P01 1 Kykorock / 1 Harry Skelton: horse Venus – jockey Sedna (RA 0.4070 Dec 15.1777)
+   [  broad:5] P09 5 Tour Ovalie / 5 Adam Wedge: moved J Orcus (RA 126.8209 Dec 0.0059)
+   [  broad:6] P07 4 Siam Park / 4 Brendan Powell: swap Jupiter/Venus (RA 0.1951 Dec 2.5054)
+   [ broad:10] P07 4 Siam Park / 4 Brendan Powell: H Rahu -> J Gonggong (split error 0.0049%)
+   [ broad:11] P09 5 Tour Ovalie / 5 Adam Wedge: same body Uranus (worst 0.0326%)
+-- field-only findings (shape numbers)
+   P01 1 Kykorock / 1 Harry Skelton: only (strict) 4,12m; only (broad) 4; strict, shared with one other 2
+   P07 4 Siam Park / 4 Brendan Powell: only (strict) 6; only (broad) -; strict, shared with one other -
+   P09 5 Tour Ovalie / 5 Adam Wedge: only (strict) -; only (broad) -; strict, shared with one other 2
+-- pair focus: each runner's most-lit pair (kinds of root item); field max 3 — P01, P03, P07, P09, P11
+   P01 1 Kykorock / 1 Harry Skelton             Mars–Neptune           3  cross, moved, same body  (cross 0.3634)  (tie)
+   P03 2 Park Annonciade / 2 Tom Cannon         Jupiter–Venus          3  cross, struck, moved  (cross 0.6332)  (tie)
+   P05 3 Authoceltic / 3 Ciaran Gethings        Node–Sun               2  cross, family  (cross 0.5253)
+   P07 4 Siam Park / 4 Brendan Powell           Jupiter–Node           3  cross, moved, family  (cross 0.7221)  (tie)
+   P09 5 Tour Ovalie / 5 Adam Wedge             Jupiter–Saturn         3  cross, ratio J, same body  (cross 0.0155)  (tie, tightest of the tied)
+   P11 6 Jasmin De Cotte / 6 Ben Poste          Jupiter–Sun            3  cross, moved, h:j  (cross 0.3396)  (tie)
+-- strong hubs across the field
+   H Venus        1: P01
+   H Transpluto   1: P07
+   J Mars         1: P09
+   J Chiron       1: P09
+   H Chiron       1: P09
+   J Sun          1: P11
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Pluto – jockey Neptune: P01 (RA 15.9153 Dec 0.1782, broad); P03 (RA 5.1414 Dec 0.1430, broad); P07 (RA 1.7006 Dec 0.9962, broad); P09 (RA 13.7438 Dec 0.3341, broad); P11 (RA 12.3029 Dec 0.3466, broad)
+   [ 1] horse Jupiter – jockey Neptune: P01 (RA 13.8037 Dec 0.5917, broad); P05 (RA 5.2460 Dec 0.1286, broad); P09 (RA 18.3402 Dec 0.5030, broad); P11 (RA 19.2913 Dec 0.5277, broad)
+   [ 1] horse Chiron – jockey Orcus: P01 (RA 126.6833 Dec 0.3449, broad); P09 (RA 126.8209 Dec 0.0059, broad); P11 (RA 130.1078 Dec 0.1524, broad)
+   [ 1] horse Transpluto – jockey Mars: P05 (RA 0.2117 Dec 2.9759, broad); P07 (RA 1.0621 Dec 5.0334, broad); P09 (RA 4.0613 Dec 0.4039, broad)
+   [ 1] horse Sun – jockey Juno: P01 (RA 169.8403 Dec 0.1872, broad); P07 (RA 71.7681 Dec 0.2159, broad)
+   [ 1] horse Mars – jockey Saturn: P01 (RA 16.3014 Dec 0.4673, broad); P05 (RA 1.3275 Dec 0.8272, broad)
+   [ 1] horse Mars – jockey Neptune: P01 (RA 13.9143 Dec 0.1090, broad); P03 (RA 0.5155 Dec 1.5856, broad)
+   [ 1] horse Chiron – jockey Sedna: P01 (RA 38.9651 Dec 0.3667, broad); P09 (RA 39.9749 Dec 0.2457, broad)
+   [ 1] horse Node – jockey Jupiter: P01 (RA 4.8589 Dec 0.5008, broad); P07 (RA 50.2726 Dec 0.2166, broad)
+   [ 1] horse Node – jockey Uranus: P01 (RA 2.9113 Dec 0.3321, broad); P07 (RA 0.9504 Dec 0.3370, broad)
+   [ 1] horse Eris – jockey Pluto: P01 (RA 160.2986 Dec 0.4759, broad); P03 (RA 155.7162 Dec 0.2004, broad)
+   [ 1] horse Venus – jockey Jupiter: P03 (RA 84.4025 Dec 0.1900); P07 (RA 38.5466 Dec 0.1447, broad)
+   [ 1] horse Pluto – jockey Uranus: P05 (RA 0.0039 Dec 0.4105, broad); P07 (RA 5.5280 Dec 0.5957, broad)
+   [ 1] horse Gonggong – jockey Juno: P05 (RA 91.9466 Dec 0.2752, broad); P07 (RA 77.4386 Dec 0.2327, broad)
+   [ 1] horse Orcus – jockey Mars: P05 (RA 0.1405 Dec 24.3413, broad); P07 (RA 1.3616 Dec 26.5887, broad)
+   [ 1] horse Jupiter – jockey Venus: P07 (RA 0.1951 Dec 2.5054); P11 (RA 37.5277 Dec 0.4392, broad)
+   [ 1] horse Node – jockey Neptune: P07 (RA 2.8770 Dec 0.0635, broad); P09 (RA 10.2196 Dec 0.1261, broad)
+   [ 1] horse Quaoar – jockey Node: P07 (RA 54.3969 Dec 0.5076, broad); P11 (RA 48.1379 Dec 0.3266, broad)
+   [ 1] horse Quaoar – jockey Uranus: P09 (RA 1.0300 Dec 8.3466, broad); P11 (RA 1.5970 Dec 8.1474, broad)
+   [11] same body Mars: P01 (worst 0.0745%); P09 (worst 0.1337%)
+   [11] same body Chiron: P05 (worst 0.0591%); P09 (worst 0.0497%)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P11
+   recurring cross link horse Pluto – jockey Neptune: P01 P03 P07 P09 P11
+   recurring cross link horse Sedna – jockey Chiron: P05
+   recurring cross link horse Uranus – jockey Venus: P09
+   recurring cross link horse Venus – jockey Uranus: P03 P07
+   recurring pair Chiron–Transpluto: P03
+   recurring pair Haumea–Node: P05
+   recurring pair Jupiter–Vesta: P05 P11
+   recurring pair Neptune–Node: P03 P09 P11
+   recurring pair Neptune–Vesta: P07 P11
+   recurring pair Node–Haumea: P03
+   recurring pair Node–Neptune: P07 P09
+   recurring pair Pallas–Juno: P01 P05 P07 P11
+   recurring pair Saturn–Neptune: P01 P09 P11
+   recurring pair Uranus–Venus: P09
+   recurring pair Venus–Uranus: P01 P03 P05 P07 P11
+   recurring pair Vesta–Jupiter: P05
