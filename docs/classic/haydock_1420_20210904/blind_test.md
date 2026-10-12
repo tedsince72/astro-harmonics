@@ -16,3 +16,4 @@ Contact field-only cross link struck on both ends — 4th. Winner Golden Flame: 
 3. Node: horse Rahu – sky Orcus vs sky pair 26/9 (0.0033%); Fanning's node moved RA 88.666 (798/9).
 Not caught by the frozen layers: 'a natal body at the midpoint of another body and its own sky body' is not one of the shapes (candidate,
 to look at after the batch, with the Exeter shared-pair + cross-link and the 4:5:9 Dec set).
+Checker (independent, 12 Oct 2026): all numbers confirmed. Measures: sky Transpluto -> horse Ceres is Flat 26 (26.0062); Fanning Ceres–Orcus 8/5 and horse Rahu–Orcus 26/9 are GC. The midpoint field claim holds only with the span limit (under 20): without it Tynwald has Tudhope Saturn at the midpoint of Tudhope Juno and sky Juno (span 21.7, off 0.025).
