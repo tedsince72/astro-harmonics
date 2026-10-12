@@ -1,0 +1,96 @@
+== worcester_1637_20261012  field of 6   [L4 v1.3 (12 Oct 2026, pair focus A+B+C)]  (blind: no finishing positions)
+-- runners: P01 2 Sunshine Diamond / 2 Jack Tudor; P03 3 Top Guy / 3 Tristan Durrell; P05 5 Big Cadillac / 5 Harry Skelton; P07 6 Muskoka / 6 Charlie Todd; P09 7 Axel Bleue / 7 James Bowen; P11 8 Jiair Madrik / 8 Theo Gillard
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              1/6: P07:1  |   6: P01:12 P03:14 P05:16 P07:16 P09:15 P11:16
+   [  2] partner strike                              4/6: P01:1 P05:1 P07:1 P11:1  |   6: P01:4 P03:3 P05:3 P07:3 P09:2 P11:3
+   [  3] pair together in the sky                    0/6: -  |   0: -
+   [  4] both ends moved                             4/6: P01:1 P03:1 P07:1 P11:1  |   4: P01:1 P03:1 P07:1 P11:2
+   [  5] movement onto a cross link                  6/6: P01:3 P03:7 P05:3 P07:5 P09:4 P11:3  |   6: P01:8 P03:7 P05:5 P07:8 P09:6 P11:8
+   [  6] swap                                        4/6: P01:1 P05:1 P09:1 P11:1  |   4: P01:1 P05:1 P09:1 P11:1
+   [  7] triangle struck at every corner             2/6: P01:1 P09:2  |   6: P01:9 P03:4 P05:1 P07:10 P09:6 P11:4
+   [  8] same number / ratio in both charts          5/6: P01:1 P03:2 P05:2 P09:2 P11:1  |   5: P01:1 P03:2 P05:2 P09:2 P11:1
+   [  9] shared node                                 1/6: P03:1  |   1: P03:1
+   [ 10] sky body divides a natal pair               6/6: P01:35 P03:30 P05:45 P07:24 P09:9 P11:23  |   6: P01:35 P03:30 P05:45 P07:24 P09:9 P11:23
+   [ 11] joined same-body set                        6/6: P01:2 P03:1 P05:3 P07:2 P09:4 P11:3  |   6: P01:2 P03:1 P05:3 P07:2 P09:4 P11:3
+   [ 12] pair in one chart struck on both ends by 2+  2/6: P05:1 P09:3  |   5: P01:2 P05:2 P07:2 P09:4 P11:5
+   [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   5: P01:1 P03:1 P07:2 P09:2 P11:4
+   [12m] pair in one chart, 2+ sky bodies on both ends  2/6: P01:1 P09:3  |   5: P01:2 P05:2 P07:2 P09:4 P11:5
+-- tightest instance of each shape
+   [ strict:1] P07 6 Muskoka / 6 Charlie Todd: horse Saturn – jockey Sun (RA 25.2593 Dec 0.0596)
+   [ strict:2] P07 6 Muskoka / 6 Charlie Todd: horse Eris – jockey Orcus (RA 113.4406 Dec 0.0982)
+   [ strict:4] P03 3 Top Guy / 3 Tristan Durrell: horse Mercury – jockey Gonggong (RA 0.4430 Dec 8.6955)
+   [ strict:5] P07 6 Muskoka / 6 Charlie Todd: moved H Neptune (RA 149.4955 Dec 0.0197)
+   [ strict:6] P09 7 Axel Bleue / 7 James Bowen: swap Ceres/Ketu (RA 31.2841 Dec 0.0945)
+   [ strict:9] P03 3 Top Guy / 3 Tristan Durrell: shared node (node RA 0.4201)
+   [strict:10] P05 5 Big Cadillac / 5 Harry Skelton: J Mercury -> H Quaoar (split error 0.0003%)
+   [strict:11] P09 7 Axel Bleue / 7 James Bowen: same body Saturn (worst 0.0085%)
+   [  broad:1] P09 7 Axel Bleue / 7 James Bowen: horse Eris – jockey Orcus (RA 112.5920 Dec 0.0057) broad/near
+   [  broad:2] P05 5 Big Cadillac / 5 Harry Skelton: horse Sun – jockey Pallas (RA 0.1051 Dec 14.1201) broad/near
+   [  broad:4] P03 3 Top Guy / 3 Tristan Durrell: horse Mercury – jockey Gonggong (RA 0.4430 Dec 8.6955)
+   [  broad:5] P07 6 Muskoka / 6 Charlie Todd: moved H Neptune (RA 149.4955 Dec 0.0197)
+   [  broad:6] P09 7 Axel Bleue / 7 James Bowen: swap Ceres/Ketu (RA 31.2841 Dec 0.0945)
+   [  broad:9] P03 3 Top Guy / 3 Tristan Durrell: shared node (node RA 0.4201)
+   [ broad:10] P05 5 Big Cadillac / 5 Harry Skelton: J Mercury -> H Quaoar (split error 0.0003%)
+   [ broad:11] P09 7 Axel Bleue / 7 James Bowen: same body Saturn (worst 0.0085%)
+-- field-only findings (shape numbers)
+   P01 2 Sunshine Diamond / 2 Jack Tudor: only (strict) -; only (broad) -; strict, shared with one other 7,12m
+   P03 3 Top Guy / 3 Tristan Durrell: only (strict) 9,pair focus; only (broad) 9; strict, shared with one other -
+   P05 5 Big Cadillac / 5 Harry Skelton: only (strict) -; only (broad) -; strict, shared with one other 12
+   P07 6 Muskoka / 6 Charlie Todd: only (strict) 1; only (broad) -; strict, shared with one other -
+   P09 7 Axel Bleue / 7 James Bowen: only (strict) -; only (broad) -; strict, shared with one other 7,12,12m
+-- pair focus: each runner's most-lit pair (kinds of root item); field max 4 — P03
+   P01 2 Sunshine Diamond / 2 Jack Tudor        Eris–Neptune           2  cross, moved  (cross 0.4372)
+   P03 3 Top Guy / 3 Tristan Durrell            Eris–Orcus             4  cross, moved, h:j, family  (cross 0.9574)  <- most-lit pair in the field
+   P05 5 Big Cadillac / 5 Harry Skelton         Gonggong–Mars          3  cross, moved, same body  (cross 0.3509)
+   P07 6 Muskoka / 6 Charlie Todd               Eris–Orcus             3  cross, partner, moved  (cross 0.3273)
+   P09 7 Axel Bleue / 7 James Bowen             Node–Pallas            3  cross, moved, ratio J  (cross 0.3608)
+   P11 8 Jiair Madrik / 8 Theo Gillard          Ceres–Chiron           3  cross, ratio J, family  (cross 0.4169)
+-- strong hubs across the field
+   H Mars         3: P03 P05 P09
+   H Mercury      2: P03 P09
+   H Node         2: P05 P07
+   J Eris         1: P01
+   J Node         1: P01
+   J Pluto        1: P03
+   J Juno         1: P03
+   J Transpluto   1: P07
+   H Neptune      1: P07
+   H Gonggong     1: P07
+   J Saturn       1: P09
+   J Sedna        1: P11
+   H Sun          1: P11
+   J Mars         1: P11
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Venus – jockey Eris: P01 (RA 34.0356 Dec 0.4020, broad); P03 (RA 0.1014 Dec 17.8477, broad); P09 (RA 1.0519 Dec 17.1171, broad)
+   [ 1] horse Eris – jockey Orcus: P01 (RA 112.8538 Dec 0.0462, broad); P07 (RA 113.4406 Dec 0.0982, broad); P09 (RA 112.5920 Dec 0.0057, broad)
+   [ 1] horse Quaoar – jockey Quaoar: P01 (RA 23.1210 Dec 0.4749, broad); P07 (RA 23.2910 Dec 0.2861, broad); P09 (RA 24.9585 Dec 0.4352, broad)
+   [ 1] horse Makemake – jockey Haumea: P03 (RA 0.5310 Dec 2.7658, broad); P09 (RA 0.6110 Dec 2.4895, broad); P11 (RA 0.9827 Dec 2.7309, broad)
+   [ 1] horse Gonggong – jockey Pluto: P03 (RA 83.9362 Dec 0.1946, broad); P07 (RA 83.9834 Dec 0.0795, broad); P09 (RA 81.2575 Dec 0.3853, broad)
+   [ 1] horse Node – jockey Haumea: P01 (RA 84.5529 Dec 0.4115, broad); P11 (RA 78.0073 Dec 0.3784, broad)
+   [ 1] horse Eris – jockey Eris: P01 (RA 1.8335 Dec 4.2153, broad); P03 (RA 1.3863 Dec 4.5569, broad)
+   [ 1] horse Mercury – jockey Gonggong: P03 (RA 0.4430 Dec 8.6955, broad); P09 (RA 1.2437 Dec 9.6083, broad)
+   [ 1] horse Mars – jockey Ceres: P03 (RA 0.8562 Dec 7.4118, broad); P09 (RA 3.5433 Dec 0.2808, broad)
+   [ 1] horse Pallas – jockey Ceres: P03 (RA 1.9945 Dec 39.1047, broad); P09 (RA 0.2608 Dec 31.2374, broad)
+   [ 1] horse Node – jockey Jupiter: P03 (RA 0.5567 Dec 0.2240, broad); P05 (RA 7.0201 Dec 0.5489, broad)
+   [ 1] horse Node – jockey Node: P03 (RA 0.4201 Dec 0.0142, broad); P09 (RA 7.7577 Dec 0.4895, broad)
+   [ 1] horse Quaoar – jockey Venus: P05 (RA 57.9444 Dec 0.3656, broad); P11 (RA 16.1553 Dec 0.5685, broad)
+   [ 1] horse Node – jockey Ceres: P07 (RA 65.3457 Dec 0.2442, broad); P09 (RA 6.9557 Dec 0.0452, broad)
+   [ 6] swap Ceres/Chiron: P01 (RA 25.7365 Dec 0.2856); P11 (RA 22.2570 Dec 0.1251)
+   [11] same body Saturn: P01 (worst 0.0388%); P09 (worst 0.0085%)
+   [11] same body Sedna: P01 (worst 0.0381%); P11 (worst 0.0741%)
+   [11] same body Pluto: P03 (worst 0.1277%); P07 (worst 0.0855%)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P03 P09 P11
+   recurring cross link horse Pluto – jockey Neptune: P05 P11
+   recurring pair Chiron–Transpluto: P09
+   recurring pair Juno–Pallas: P01
+   recurring pair Jupiter–Vesta: P01 P03 P05 P07
+   recurring pair Neptune–Node: P03 P07 P09
+   recurring pair Neptune–Rahu: P01
+   recurring pair Neptune–Vesta: P09 P11
+   recurring pair Node–Haumea: P01 P09 P11
+   recurring pair Node–Neptune: P07
+   recurring pair Pallas–Juno: P01 P09
+   recurring pair Saturn–Neptune: P05 P09
+   recurring pair Venus–Uranus: P05
+   recurring pair Vesta–Neptune: P07
