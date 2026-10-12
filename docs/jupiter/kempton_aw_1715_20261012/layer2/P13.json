@@ -1,0 +1,169 @@
+{
+ "runner": "7 Ravishing / Jack Mitchell",
+ "items": [
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Sun",
+   "x": "Sun",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "19/5",
+   "err": 0.01712257493218239,
+   "text": "family S Jupiter\u2013H Sun Flat 181.21469 vs H pair 47.69624 = 19/5 (0.0171%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Sun",
+   "x": "Sun",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "19/8",
+   "err": 0.0018334269232367362,
+   "text": "family S Jupiter\u2013J Sun Flat 138.28372 vs sky pair 58.22366 = 19/8 (0.0018%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Venus",
+   "x": "Venus",
+   "plane": "RA",
+   "band": "tight",
+   "ratio": "17/2",
+   "err": 0.004539737052700055,
+   "text": "h:j Jupiter\u2013Venus RA: H 19.31173 / J 164.15712 = 17/2 (J/H, 0.0045%) [tight]"
+  },
+  {
+   "m": 15,
+   "kind": "pairset",
+   "pair": "Jupiter\u2013Venus",
+   "x": "Venus",
+   "plane": "RA",
+   "worst": 0.015326458753017747,
+   "ratios": [
+    "17/2",
+    "7/2",
+    "17/7"
+   ],
+   "text": "pair set Jupiter\u2013Venus RA: H 19.31173, J 164.15712, S 67.60140; H:J 17/2, H:S 7/2, J:S 17/7 (worst 0.0153%)"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Saturn",
+   "x": "Saturn",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "21/8",
+   "err": 0.01375777431662506,
+   "text": "h:j Jupiter\u2013Saturn Dec: H 15.71464 / J 41.25661 = 21/8 (J/H, 0.0138%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Saturn",
+   "x": "Saturn",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "25/2",
+   "err": 0.01368874977378809,
+   "text": "family H Jupiter\u2013S Saturn Flat 3.29115 vs H pair 41.14504 = 25/2 (0.0137%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Uranus",
+   "x": "Uranus",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "11/8",
+   "err": 0.0101124076888226,
+   "text": "family H Jupiter\u2013S Uranus Flat 58.92242 vs sky pair 81.02653 = 11/8 (0.0101%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Pallas",
+   "x": "Pallas",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "8/7",
+   "err": 0.005981050735470728,
+   "text": "h:j Jupiter\u2013Pallas Dec: H 24.81735 / J 21.71648 = 8/7 (H/J, 0.0060%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Vesta",
+   "x": "Vesta",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "7/6",
+   "err": 0.013816457433479812,
+   "text": "family S Jupiter\u2013H Vesta RA 141.32844 vs sky pair 121.12193 = 7/6 (0.0138%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Rahu",
+   "x": "Rahu",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "11/4",
+   "err": 0.00015914393349802936,
+   "text": "h:j Jupiter\u2013Rahu Flat: H 29.63422 / J 81.49424 = 11/4 (J/H, 0.0002%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Haumea",
+   "x": "Haumea",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "9/8",
+   "err": 0.009763557212782992,
+   "text": "h:j Jupiter\u2013Haumea RA: H 148.77855 / J 132.23469 = 9/8 (H/J, 0.0098%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Haumea",
+   "x": "Haumea",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "2",
+   "err": 0.008604810878343194,
+   "text": "family S Jupiter\u2013H Haumea Flat 74.66788 vs H pair 149.34861 = 2 (0.0086%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Gonggong",
+   "x": "Gonggong",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "23/8",
+   "err": 0.0021486952577198792,
+   "text": "h:j Jupiter\u2013Gonggong Flat: H 33.06460 / J 95.06276 = 23/8 (J/H, 0.0021%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Gonggong",
+   "x": "Gonggong",
+   "plane": "Dec",
+   "band": "tight",
+   "ratio": "8/7",
+   "err": 0.001817048305863267,
+   "text": "family J Jupiter\u2013S Gonggong Dec 28.91751 vs sky pair 25.30328 = 8/7 (0.0018%) [tight]"
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "runner": "5 Ice Sovereigns / Shane Gray",
+ "jockey": "Shane Gray",
+ "items": [
+  {
+   "key": "radec-natal H Jupiter\u2013Haumea",
+   "pair": [
+    "Haumea",
+    "Jupiter"
+   ],
+   "m": 29,
+   "text": "H Jupiter\u2013Haumea RA AND Dec together: RA 156.99997 (157), Dec 9.99625 (10)"
+  },
+  {
+   "key": "natal-struck H Jupiter\u2013Haumea",
+   "n": 1,
+   "pair": [
+    "Haumea",
+    "Jupiter"
+   ],
+   "m": 9,
+   "text": "H Jupiter\u2013Haumea (RA 156.99997 (157), Dec 9.99625 (10)) struck on both ends by S Haumea (RA 154.99816 (155) | RA 2.00181 (2))"
+  },
+  {
+   "key": "split H Haumea/J Jupiter RA",
+   "m": 19,
+   "text": "split RA: S Haumea moved 2.00181 (2) from H Haumea, lies between H Haumea and J Jupiter; other part 10.40575; parts 26/5 (0.0351%)"
+  },
+  {
+   "key": "split J Juno/H Jupiter RA",
+   "m": 19,
+   "text": "split RA: S Juno moved 65.99650 (66) from J Juno, lies between J Juno and H Jupiter; other part 77.23131; span/other 13/7 (0.1407%)"
+  },
+  {
+   "key": "contact S Jupiter->H Haumea",
+   "m": 27,
+   "text": "contact: S Jupiter close to H Haumea RA 74.4203 Dec 0.2830"
+  },
+  {
+   "key": "starnum S Jupiter\u2013Antares",
+   "star": "Antares",
+   "nums": [
+    "977/9"
+   ],
+   "m": "ST",
+   "text": "S Jupiter \u2013 Antares (own chart): GC 108.55599 (977/9)"
+  },
+  {
+   "key": "starnum H Jupiter\u2013Castor",
+   "star": "Castor",
+   "nums": [
+    "886/9"
+   ],
+   "m": "ST",
+   "text": "H Jupiter \u2013 Castor (own chart): RA 98.44479 (886/9)"
+  },
+  {
+   "key": "focus Jupiter\u2013Haumea",
+   "nk": 1,
+   "kinds": [
+    "struck"
+   ],
+   "m": 32,
+   "text": "pair Jupiter\u2013Haumea: 1 kind(s) \u2014 struck"
+  },
+  {
+   "key": "focus Jupiter\u2013Pallas",
+   "nk": 1,
+   "kinds": [
+    "family"
+   ],
+   "m": 32,
+   "text": "pair Jupiter\u2013Pallas: 1 kind(s) \u2014 family"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Venus",
+   "x": "Venus",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "13/6",
+   "err": 0.015751029573518593,
+   "text": "family H Jupiter\u2013S Venus Flat 165.85311 vs sky pair 76.53553 = 13/6 (0.0158%) [near]",
+   "key": "family H Jupiter\u2013Venus Flat 13/6"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Saturn",
+   "x": "Saturn",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "15/2",
+   "err": 0.005530866551151092,
+   "text": "family H Jupiter\u2013S Saturn GC 5.98341 vs H pair 44.87807 = 15/2 (0.0055%) [near]",
+   "key": "family H Jupiter\u2013Saturn GC 15/2"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Ceres",
+   "x": "Ceres",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "9/5",
+   "err": 0.014691148562362422,
+   "text": "family H Jupiter\u2013S Ceres Dec 18.09845 vs H pair 10.05322 = 9/5 (0.0147%) [near]",
+   "key": "family H Jupiter\u2013Ceres Dec 9/5"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Pallas",
+   "x": "Pallas",
+   "plane": "GC",
+   "band": "tight",
+   "ratio": "29/7",
+   "err": 0.0005657839270201137,
+   "text": "family H Jupiter\u2013S Pallas GC 21.31711 vs H pair 88.31424 = 29/7 (0.0006%) [tight]",
+   "key": "family H Jupiter\u2013Pallas GC 29/7"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Pallas",
+   "x": "Pallas",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "13/9",
+   "err": 0.00525427298538883,
+   "text": "family S Jupiter\u2013J Pallas GC 93.36837 vs J pair 134.85833 = 13/9 (0.0053%) [near]",
+   "key": "family J Jupiter\u2013Pallas GC 13/9"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "H",
+   "pair": "Jupiter\u2013Haumea",
+   "x": "Haumea",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "27/4",
+   "err": 0.005991539484995201,
+   "text": "H Jupiter\u2013Haumea Dec: sky 1.48084 / H 9.99625 = 27/4 (natal/sky, 0.0060%) [near]",
+   "key": "skynat H Jupiter\u2013Haumea Dec 27/4"
+  }
+ ]
+}

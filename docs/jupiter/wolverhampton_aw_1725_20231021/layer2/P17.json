@@ -1,0 +1,147 @@
+{
+ "runner": "9 Sea Of Angels / Marco Ghiani",
+ "items": [
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "J",
+   "pair": "Jupiter\u2013Sun",
+   "x": "Sun",
+   "plane": "RA",
+   "band": "tight",
+   "ratio": "30/7",
+   "err": 0.0003639938266131182,
+   "text": "J Jupiter\u2013Sun RA: sky 165.84052 / J 38.69598 = 30/7 (sky/natal, 0.0004%) [tight]"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "H",
+   "pair": "Jupiter\u2013Sun",
+   "x": "Sun",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "12",
+   "err": 0.0034070432475163948,
+   "text": "H Jupiter\u2013Sun Flat: sky 167.66752 / H 13.97277 = 12 (sky/natal, 0.0034%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Sun",
+   "x": "Sun",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "27/5",
+   "err": 0.00831531554574827,
+   "text": "family S Jupiter\u2013H Sun RA 70.90588 vs H pair 13.12963 = 27/5 (0.0083%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Mercury",
+   "x": "Mercury",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "8/7",
+   "err": 0.018640167780969996,
+   "text": "family S Jupiter\u2013H Mercury Dec 27.93058 vs sky pair 24.44381 = 8/7 (0.0186%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Mercury",
+   "x": "Mercury",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "11/4",
+   "err": 0.01614822856886855,
+   "text": "family J Jupiter\u2013S Mercury Dec 8.89009 vs sky pair 24.44381 = 11/4 (0.0161%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Mercury",
+   "x": "Mercury",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "10/9",
+   "err": 0.011362258729208374,
+   "text": "family J Jupiter\u2013S Mercury GC 150.13726 vs sky pair 166.80023 = 10/9 (0.0114%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Venus",
+   "x": "Venus",
+   "plane": "RA",
+   "band": "tight",
+   "ratio": "26/7",
+   "err": 0.0018774046653957654,
+   "text": "h:j Jupiter\u2013Venus RA: H 4.10251 / J 15.23818 = 26/7 (J/H, 0.0019%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Venus",
+   "x": "Venus",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "5/4",
+   "err": 0.014834417264641964,
+   "text": "family J Jupiter\u2013S Venus Dec 8.49460 vs J pair 6.79467 = 5/4 (0.0148%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Venus",
+   "x": "Venus",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "18/5",
+   "err": 0.01696141602626211,
+   "text": "family S Jupiter\u2013J Venus Flat 60.05371 vs J pair 16.68442 = 18/5 (0.0170%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Mars",
+   "x": "Mars",
+   "plane": "Dec",
+   "band": "tight",
+   "ratio": "23/6",
+   "err": 0.002321104739966273,
+   "text": "h:j Jupiter\u2013Mars Dec: H 36.51016 / J 9.52417 = 23/6 (H/J, 0.0023%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Neptune",
+   "x": "Neptune",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "7/6",
+   "err": 0.006148923197990541,
+   "text": "family H Jupiter\u2013S Neptune Dec 14.27201 vs H pair 12.23240 = 7/6 (0.0061%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Orcus",
+   "x": "Orcus",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "7/5",
+   "err": 0.017902393108792936,
+   "text": "family S Jupiter\u2013J Orcus Flat 98.42790 vs J pair 137.77439 = 7/5 (0.0179%) [near]"
+  }
+ ]
+}

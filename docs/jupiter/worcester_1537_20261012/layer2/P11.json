@@ -1,0 +1,162 @@
+{
+ "runner": "7 Annie Express / Charlie Price",
+ "items": [
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "H",
+   "pair": "Jupiter\u2013Saturn",
+   "x": "Saturn",
+   "plane": "Dec",
+   "band": "tight",
+   "ratio": "2",
+   "err": 0.0020797234685621113,
+   "text": "H Jupiter\u2013Saturn Dec: sky 13.45057 / H 6.72543 = 2 (sky/natal, 0.0021%) [tight]"
+  },
+  {
+   "m": 15,
+   "kind": "pairset",
+   "pair": "Jupiter\u2013Saturn",
+   "x": "Saturn",
+   "plane": "Dec",
+   "worst": 0.04051131664071228,
+   "ratios": [
+    "28/9",
+    "2",
+    "14/9"
+   ],
+   "text": "pair set Jupiter\u2013Saturn Dec: H 6.72543, J 20.93159, S 13.45057; H:J 28/9, H:S 2, J:S 14/9 (worst 0.0405%)"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Saturn",
+   "x": "Saturn",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "11/5",
+   "err": 0.005029696969216513,
+   "text": "family S Jupiter\u2013J Saturn Dec 9.51484 vs J pair 20.93159 = 11/5 (0.0050%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Uranus",
+   "x": "Uranus",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "11/8",
+   "err": 0.01737793588604264,
+   "text": "family H Jupiter\u2013S Uranus Dec 36.54677 vs H pair 26.58409 = 11/8 (0.0174%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Neptune",
+   "x": "Neptune",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "11/6",
+   "err": 0.0029416754065536566,
+   "text": "family J Jupiter\u2013S Neptune Flat 41.92232 vs J pair 22.86605 = 11/6 (0.0029%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Pluto",
+   "x": "Pluto",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "13/8",
+   "err": 0.014425724775546378,
+   "text": "family S Jupiter\u2013J Pluto RA 99.83674 vs sky pair 162.25811 = 13/8 (0.0144%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Chiron",
+   "x": "Chiron",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "7/5",
+   "err": 0.003858438116466356,
+   "text": "family H Jupiter\u2013S Chiron Flat 164.25966 vs sky pair 117.33286 = 7/5 (0.0039%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Chiron",
+   "x": "Chiron",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "17/9",
+   "err": 0.007951405000961032,
+   "text": "family J Jupiter\u2013S Chiron RA 63.11538 vs J pair 119.22742 = 17/9 (0.0080%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Pallas",
+   "x": "Pallas",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "23/8",
+   "err": 0.014863243678098215,
+   "text": "h:j Jupiter\u2013Pallas Flat: H 135.53780 / J 47.13658 = 23/8 (H/J, 0.0149%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Rahu",
+   "x": "Rahu",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "17/3",
+   "err": 0.019991298688115666,
+   "text": "family S Jupiter\u2013J Rahu Flat 30.97737 vs sky pair 175.50333 = 17/3 (0.0200%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Eris",
+   "x": "Eris",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "11/6",
+   "err": 0.009950667089386744,
+   "text": "family J Jupiter\u2013S Eris RA 63.66877 vs sky pair 116.71446 = 11/6 (0.0100%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Orcus",
+   "x": "Orcus",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "7/6",
+   "err": 0.01883033015496194,
+   "text": "family S Jupiter\u2013H Orcus Dec 24.56755 vs sky pair 28.65674 = 7/6 (0.0188%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Gonggong",
+   "x": "Gonggong",
+   "plane": "GC",
+   "band": "tight",
+   "ratio": "14/9",
+   "err": 0.003687989656608881,
+   "text": "family S Jupiter\u2013H Gonggong GC 167.14737 vs H pair 107.45584 = 14/9 (0.0037%) [tight]"
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "runner": "7 Axel Bleue / James Bowen",
+ "items": [
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Mars",
+   "x": "Mars",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "28",
+   "err": 0.015805927340428738,
+   "text": "family H Jupiter\u2013S Mars Dec 41.52644 vs H pair 1.48285 = 28 (0.0158%) [near]"
+  },
+  {
+   "m": 13,
+   "kind": "shared",
+   "pair": "Jupiter\u2013Saturn",
+   "x": "Saturn",
+   "plane": "GC",
+   "err": 0.031687710179895134,
+   "text": "shared Jupiter\u2013Saturn GC: H 8.66327 / J 8.66053 (0.0317% apart)"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Neptune",
+   "x": "Neptune",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "18/7",
+   "err": 0.010201739921589237,
+   "text": "family S Jupiter\u2013H Neptune Flat 155.98976 vs H pair 60.66887 = 18/7 (0.0102%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Chiron",
+   "x": "Chiron",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "17/6",
+   "err": 0.009774908769888402,
+   "text": "family S Jupiter\u2013H Chiron Dec 11.06053 vs sky pair 3.90410 = 17/6 (0.0098%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Ceres",
+   "x": "Ceres",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "19/3",
+   "err": 0.017346677499219254,
+   "text": "h:j Jupiter\u2013Ceres GC: H 22.50806 / J 142.57580 = 19/3 (J/H, 0.0173%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Juno",
+   "x": "Juno",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "21/8",
+   "err": 0.015538865486552922,
+   "text": "family S Jupiter\u2013J Juno RA 131.00867 vs J pair 49.90031 = 21/8 (0.0155%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Juno",
+   "x": "Juno",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "12/5",
+   "err": 0.010102567320879885,
+   "text": "family J Jupiter\u2013S Juno Flat 129.19959 vs J pair 53.82772 = 12/5 (0.0101%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Rahu",
+   "x": "Rahu",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "29/8",
+   "err": 0.01740012686294312,
+   "text": "family S Jupiter\u2013H Rahu Flat 48.42670 vs sky pair 175.51624 = 29/8 (0.0174%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Rahu",
+   "x": "Rahu",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "19/8",
+   "err": 0.0016836730445168868,
+   "text": "family J Jupiter\u2013S Rahu Flat 97.89343 vs J pair 41.21898 = 19/8 (0.0017%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Quaoar",
+   "x": "Quaoar",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "10",
+   "err": 0.001301726106439638,
+   "text": "h:j Jupiter\u2013Quaoar Flat: H 17.69240 / J 176.92634 = 10 (J/H, 0.0013%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Gonggong",
+   "x": "Gonggong",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "8/7",
+   "err": 0.008467150847302207,
+   "text": "family H Jupiter\u2013S Gonggong Dec 11.79447 vs H pair 10.32103 = 8/7 (0.0085%) [near]"
+  }
+ ]
+}

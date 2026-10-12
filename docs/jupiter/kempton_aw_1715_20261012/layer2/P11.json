@@ -1,0 +1,156 @@
+{
+ "runner": "6 Katie Louise / Oisin Murphy",
+ "items": [
+  {
+   "m": 26,
+   "kind": "eq",
+   "band": "near",
+   "pair": "H/J",
+   "values": [
+    6.143865316252407,
+    21.05628735090583
+   ],
+   "ratio": "24/7",
+   "dir": "b/a",
+   "err": 0.03984742685895215,
+   "text": "Jupiter Equator H/J: 6.14387 / 21.05629 = 24/7 (b/a, 0.0398%) [near]"
+  },
+  {
+   "m": 16,
+   "kind": "set",
+   "plane": "Equator",
+   "values": {
+    "S": 15.02597862669172,
+    "H": 6.143865316252407,
+    "J": 21.05628735090583
+   },
+   "ratios": [
+    "22/9",
+    "24/7",
+    "7/5"
+   ],
+   "worst": 0.09468018229461528,
+   "text": "Jupiter same-body set Equator: S 15.02598, H 6.14387, J 21.05629; S:H 22/9, H:J 24/7, S:J 7/5 (worst 0.0947%)"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Mercury",
+   "x": "Mercury",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "17/9",
+   "err": 0.01743604777506569,
+   "text": "family H Jupiter\u2013S Mercury Flat 158.56983 vs sky pair 83.93410 = 17/9 (0.0174%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Venus",
+   "x": "Venus",
+   "plane": "RA",
+   "band": "tight",
+   "ratio": "20/9",
+   "err": 0.001131377524754562,
+   "text": "family J Jupiter\u2013S Venus RA 34.26389 vs J pair 76.14283 = 20/9 (0.0011%) [tight]"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "J",
+   "pair": "Jupiter\u2013Neptune",
+   "x": "Neptune",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "23/8",
+   "err": 0.006566370666605259,
+   "text": "J Jupiter\u2013Neptune RA: sky 141.24010 / J 49.12377 = 23/8 (sky/natal, 0.0066%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Pluto",
+   "x": "Pluto",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "17/8",
+   "err": 0.012904213966202782,
+   "text": "family S Jupiter\u2013H Pluto RA 158.70583 vs H pair 74.69474 = 17/8 (0.0129%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Ceres",
+   "x": "Ceres",
+   "plane": "GC",
+   "band": "tight",
+   "ratio": "11/9",
+   "err": 0.000921079620064269,
+   "text": "family S Jupiter\u2013H Ceres GC 39.86079 vs sky pair 32.61367 = 11/9 (0.0009%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Sedna",
+   "x": "Sedna",
+   "plane": "RA",
+   "band": "tight",
+   "ratio": "13/6",
+   "err": 0.0006451363330217674,
+   "text": "family J Jupiter\u2013S Sedna RA 176.61885 vs sky pair 81.51587 = 13/6 (0.0006%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Sedna",
+   "x": "Sedna",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "29/6",
+   "err": 0.0085946591527164,
+   "text": "family J Jupiter\u2013S Sedna Dec 29.89629 vs sky pair 6.18597 = 29/6 (0.0086%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Haumea",
+   "x": "Haumea",
+   "plane": "Dec",
+   "band": "tight",
+   "ratio": "5/4",
+   "err": 0.0008139115498684291,
+   "text": "family H Jupiter\u2013S Haumea Dec 7.40370 vs H pair 9.25471 = 5/4 (0.0008%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Makemake",
+   "x": "Makemake",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "13/5",
+   "err": 0.007652281402359407,
+   "text": "family S Jupiter\u2013J Makemake GC 33.35447 vs J pair 86.72826 = 13/5 (0.0077%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Orcus",
+   "x": "Orcus",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "27/7",
+   "err": 0.010114304462049972,
+   "text": "family J Jupiter\u2013S Orcus Dec 7.42811 vs sky pair 28.65416 = 27/7 (0.0101%) [near]"
+  }
+ ]
+}

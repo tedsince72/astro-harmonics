@@ -1,0 +1,172 @@
+{
+ "runner": "6 Muskoka / Charlie Todd",
+ "items": [
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Sun",
+   "x": "Sun",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "13/6",
+   "err": 0.010159135414178344,
+   "text": "family S Jupiter\u2013H Sun RA 67.48427 vs H pair 146.20106 = 13/6 (0.0102%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Mercury",
+   "x": "Mercury",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "7/4",
+   "err": 0.01519821812139277,
+   "text": "family S Jupiter\u2013J Mercury GC 101.33299 vs J pair 177.35968 = 7/4 (0.0152%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Saturn",
+   "x": "Saturn",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "14/9",
+   "err": 0.008556341560805869,
+   "text": "family S Jupiter\u2013J Saturn Dec 2.05229 vs J pair 3.19272 = 14/9 (0.0086%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Pluto",
+   "x": "Pluto",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "6/5",
+   "err": 0.006822668027051115,
+   "text": "family H Jupiter\u2013S Pluto Flat 83.98085 vs H pair 69.97927 = 6/5 (0.0068%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Chiron",
+   "x": "Chiron",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "12/7",
+   "err": 0.007834462879929838,
+   "text": "family S Jupiter\u2013H Chiron Dec 11.09236 vs H pair 19.01399 = 12/7 (0.0078%) [near]"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "H",
+   "pair": "Jupiter\u2013Ceres",
+   "x": "Ceres",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "17/7",
+   "err": 0.0027486156513489846,
+   "text": "H Jupiter\u2013Ceres Flat: sky 34.50844 / H 83.80392 = 17/7 (natal/sky, 0.0027%) [tight]"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "H",
+   "pair": "Jupiter\u2013Vesta",
+   "x": "Vesta",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "5/2",
+   "err": 0.006234436680463418,
+   "text": "H Jupiter\u2013Vesta RA: sky 121.11156 / H 48.44160 = 5/2 (sky/natal, 0.0062%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Vesta",
+   "x": "Vesta",
+   "plane": "Dec",
+   "band": "tight",
+   "ratio": "21/2",
+   "err": 0.003240739460086406,
+   "text": "h:j Jupiter\u2013Vesta Dec: H 3.95293 / J 41.50445 = 21/2 (J/H, 0.0032%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Vesta",
+   "x": "Vesta",
+   "plane": "RA",
+   "band": "tight",
+   "ratio": "21/8",
+   "err": 0.0006387777110039572,
+   "text": "family S Jupiter\u2013H Vesta RA 127.15839 vs H pair 48.44160 = 21/8 (0.0006%) [tight]"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "H",
+   "pair": "Jupiter\u2013Orcus",
+   "x": "Orcus",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "4",
+   "err": 0.00562936644052936,
+   "text": "H Jupiter\u2013Orcus RA: sky 17.53579 / H 70.14712 = 4 (natal/sky, 0.0056%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Gonggong",
+   "x": "Gonggong",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "15/8",
+   "err": 0.013539202377654824,
+   "text": "family S Jupiter\u2013J Gonggong RA 172.28960 vs J pair 91.87535 = 15/8 (0.0135%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Transpluto",
+   "x": "Transpluto",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "7/3",
+   "err": 0.010959112717023878,
+   "text": "family S Jupiter\u2013J Transpluto Dec 2.24708 vs sky pair 5.24375 = 7/3 (0.0110%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Transpluto",
+   "x": "Transpluto",
+   "plane": "Dec",
+   "band": "tight",
+   "ratio": "7/5",
+   "err": 0.0015109574731275721,
+   "text": "family J Jupiter\u2013S Transpluto Dec 10.48876 vs J pair 7.49208 = 7/5 (0.0015%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Transpluto",
+   "x": "Transpluto",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "2",
+   "err": 0.011996337784614397,
+   "text": "family J Jupiter\u2013S Transpluto Dec 10.48876 vs sky pair 5.24375 = 2 (0.0120%) [near]"
+  }
+ ]
+}

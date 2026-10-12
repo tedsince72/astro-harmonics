@@ -1,0 +1,134 @@
+{
+ "runner": "3 Alpine Sierra / Paul Mulrennan",
+ "items": [
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Sun",
+   "x": "Sun",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "23/9",
+   "err": 0.019543931865051434,
+   "text": "family S Jupiter\u2013H Sun Flat 148.78662 vs sky pair 58.20948 = 23/9 (0.0195%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Uranus",
+   "x": "Uranus",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "25/6",
+   "err": 0.019812868491608793,
+   "text": "family S Jupiter\u2013J Uranus Dec 35.83317 vs J pair 8.60167 = 25/6 (0.0198%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Neptune",
+   "x": "Neptune",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "15/4",
+   "err": 0.00895135370928557,
+   "text": "family S Jupiter\u2013J Neptune Dec 37.13266 vs J pair 9.90116 = 15/4 (0.0090%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Chiron",
+   "x": "Chiron",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "7/4",
+   "err": 0.011193394804309698,
+   "text": "family S Jupiter\u2013J Chiron RA 94.02887 vs J pair 164.56895 = 7/4 (0.0112%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Ceres",
+   "x": "Ceres",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "18/5",
+   "err": 0.007811838818994055,
+   "text": "family H Jupiter\u2013S Ceres RA 120.49239 vs sky pair 33.47272 = 18/5 (0.0078%) [near]"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "H",
+   "pair": "Jupiter\u2013Juno",
+   "x": "Juno",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "10/7",
+   "err": 0.005162160360017154,
+   "text": "H Jupiter\u2013Juno Flat: sky 156.76465 / H 109.74092 = 10/7 (sky/natal, 0.0052%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Juno",
+   "x": "Juno",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "7",
+   "err": 0.01692985418704218,
+   "text": "family H Jupiter\u2013S Juno Dec 4.04161 vs sky pair 28.29605 = 7 (0.0169%) [near]"
+  },
+  {
+   "m": 13,
+   "kind": "shared",
+   "pair": "Jupiter\u2013Sedna",
+   "x": "Sedna",
+   "plane": "Flat",
+   "err": 0.042597738066163515,
+   "text": "shared Jupiter\u2013Sedna Flat: H 176.50930 / J 176.58452 (0.0426% apart)"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Haumea",
+   "x": "Haumea",
+   "plane": "GC",
+   "band": "tight",
+   "ratio": "13/9",
+   "err": 0.001826171654162323,
+   "text": "family S Jupiter\u2013J Haumea GC 34.66795 vs J pair 50.07684 = 13/9 (0.0018%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Haumea",
+   "x": "Haumea",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "17/8",
+   "err": 0.006722945037751504,
+   "text": "family S Jupiter\u2013J Haumea GC 34.66795 vs sky pair 73.66444 = 17/8 (0.0067%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Orcus",
+   "x": "Orcus",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "9/5",
+   "err": 0.012727944628032617,
+   "text": "family J Jupiter\u2013S Orcus Flat 53.02469 vs J pair 95.45658 = 9/5 (0.0127%) [near]"
+  }
+ ]
+}

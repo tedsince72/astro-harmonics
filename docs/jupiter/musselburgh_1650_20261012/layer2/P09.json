@@ -1,0 +1,252 @@
+{
+ "runner": "5 Storm On Jura / Lauren Young",
+ "items": [
+  {
+   "m": 26,
+   "kind": "eq",
+   "band": "near",
+   "pair": "H/J",
+   "values": [
+    6.111662902609632,
+    22.40062015047839
+   ],
+   "ratio": "11/3",
+   "dir": "b/a",
+   "err": 0.039316002998879274,
+   "text": "Jupiter Equator H/J: 6.11166 / 22.40062 = 11/3 (b/a, 0.0393%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Sun",
+   "x": "Sun",
+   "plane": "GC",
+   "band": "tight",
+   "ratio": "23/9",
+   "err": 0.0009145541586819128,
+   "text": "family S Jupiter\u2013H Sun GC 147.61951 vs sky pair 57.76468 = 23/9 (0.0009%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Sun",
+   "x": "Sun",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "7/6",
+   "err": 0.00807210712245876,
+   "text": "family S Jupiter\u2013J Sun Dec 26.19478 vs sky pair 22.45448 = 7/6 (0.0081%) [near]"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "H",
+   "pair": "Jupiter\u2013Mercury",
+   "x": "Mercury",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "26/3",
+   "err": 0.007931174879027836,
+   "text": "H Jupiter\u2013Mercury RA: sky 76.79442 / H 8.86160 = 26/3 (sky/natal, 0.0079%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Mercury",
+   "x": "Mercury",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "11/8",
+   "err": 0.013490686384287631,
+   "text": "family S Jupiter\u2013J Mercury Dec 19.67320 vs J pair 27.04700 = 11/8 (0.0135%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Venus",
+   "x": "Venus",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "5/2",
+   "err": 0.013891380950403764,
+   "text": "h:j Jupiter\u2013Venus Dec: H 9.76955 / J 24.42049 = 5/2 (J/H, 0.0139%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Mars",
+   "x": "Mars",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "10/3",
+   "err": 0.013396439786794723,
+   "text": "h:j Jupiter\u2013Mars Dec: H 13.66733 / J 45.56388 = 10/3 (J/H, 0.0134%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Uranus",
+   "x": "Uranus",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "9/4",
+   "err": 0.00742750298551309,
+   "text": "family S Jupiter\u2013J Uranus Flat 182.28887 vs sky pair 81.02329 = 9/4 (0.0074%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Pluto",
+   "x": "Pluto",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "11/5",
+   "err": 0.006875753821411479,
+   "text": "family H Jupiter\u2013S Pluto Dec 17.61318 vs sky pair 38.75166 = 11/5 (0.0069%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Chiron",
+   "x": "Chiron",
+   "plane": "Dec",
+   "band": "tight",
+   "ratio": "26/9",
+   "err": 0.0004201634601797011,
+   "text": "family J Jupiter\u2013S Chiron Dec 11.27760 vs sky pair 3.90380 = 26/9 (0.0004%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Ceres",
+   "x": "Ceres",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "9/4",
+   "err": 0.012455468033012451,
+   "text": "h:j Jupiter\u2013Ceres Flat: H 82.37093 / J 185.31150 = 9/4 (J/H, 0.0125%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Ceres",
+   "x": "Ceres",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "16/7",
+   "err": 0.0024105004523544693,
+   "text": "family S Jupiter\u2013H Ceres Flat 78.87298 vs sky pair 34.50776 = 16/7 (0.0024%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Ceres",
+   "x": "Ceres",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "28/3",
+   "err": 0.01196910887844016,
+   "text": "family J Jupiter\u2013S Ceres Flat 3.69682 vs sky pair 34.50776 = 28/3 (0.0120%) [near]"
+  },
+  {
+   "m": 13,
+   "kind": "shared",
+   "pair": "Jupiter\u2013Juno",
+   "x": "Juno",
+   "plane": "Flat",
+   "err": 0.3670431274370278,
+   "text": "shared Jupiter\u2013Juno Flat: H 32.43900 / J 32.55850 (0.3670% apart)"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Juno",
+   "x": "Juno",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "14/9",
+   "err": 0.007032669342710296,
+   "text": "family H Jupiter\u2013S Juno RA 50.27877 vs H pair 32.32434 = 14/9 (0.0070%) [near]"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "H",
+   "pair": "Jupiter\u2013Vesta",
+   "x": "Vesta",
+   "plane": "RA",
+   "band": "tight",
+   "ratio": "19/7",
+   "err": 0.001937713347055503,
+   "text": "H Jupiter\u2013Vesta RA: sky 121.11521 / H 44.62226 = 19/7 (sky/natal, 0.0019%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Makemake",
+   "x": "Makemake",
+   "plane": "RA",
+   "band": "tight",
+   "ratio": "2",
+   "err": 0.004052807921284263,
+   "text": "h:j Jupiter\u2013Makemake RA: H 149.39252 / J 74.69323 = 2 (H/J, 0.0041%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Orcus",
+   "x": "Orcus",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "9/7",
+   "err": 0.015553278649549362,
+   "text": "family H Jupiter\u2013S Orcus Dec 7.51632 vs H pair 5.84512 = 9/7 (0.0156%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Orcus",
+   "x": "Orcus",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "16/3",
+   "err": 0.019438706862962007,
+   "text": "family S Jupiter\u2013H Orcus GC 29.68731 vs H pair 158.36310 = 16/3 (0.0194%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Orcus",
+   "x": "Orcus",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "19/4",
+   "err": 0.010945045723642632,
+   "text": "family H Jupiter\u2013S Orcus GC 159.09432 vs sky pair 33.49721 = 19/4 (0.0109%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Orcus",
+   "x": "Orcus",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "28/9",
+   "err": 0.019017790020758873,
+   "text": "family J Jupiter\u2013S Orcus RA 54.56213 vs sky pair 17.53449 = 28/9 (0.0190%) [near]"
+  }
+ ]
+}

@@ -1,0 +1,208 @@
+{
+ "runner": "3 Dodgem / Ryan Sexton",
+ "jockey": "Ryan Sexton",
+ "items": [
+  {
+   "key": "link H Haumea\u2013J Jupiter",
+   "sub": "link",
+   "band": "near",
+   "RA": 73.5297620322782,
+   "Dec": 0.4256629623653101,
+   "pair": [
+    "Haumea",
+    "Jupiter"
+   ],
+   "m": 1,
+   "text": "cross link H Haumea \u2013 J Jupiter RA 73.5298 Dec 0.4257 [near]"
+  },
+  {
+   "key": "split-strike H Haumea\u2013J Jupiter",
+   "sub": "split_ends",
+   "band": "near",
+   "pair": [
+    "Haumea",
+    "Jupiter"
+   ],
+   "m": 2,
+   "text": "H Haumea \u2013 J Jupiter RA 73.5298 Dec 0.4257 [near] struck one body per end: H Haumea by S Mercury (GC 33.88904 (305/9)), S Uranus (RA 156.00236 (156)), S Makemake (RA 17.22250 (155/9)), S Orcus (RA 57.66670 (519/9)) | J Jupiter by S Chiron (Flat 118.99562 (119)), S Pallas (RA 126.00183 (126), GC 128.00486 (128)), S Gonggong (Flat 170.00217 (170))"
+  },
+  {
+   "key": "split J Chiron/H Jupiter RA",
+   "m": 19,
+   "text": "split RA: S Chiron moved 102.00056 (102) from J Chiron, lies between J Chiron and H Jupiter; other part 17.74499; parts 23/4 (0.0325%)"
+  },
+  {
+   "key": "split J Chiron/H Jupiter RA",
+   "m": 19,
+   "text": "split RA: S Chiron moved 102.00056 (102) from J Chiron, lies between J Chiron and H Jupiter; other part 17.74499; span/other 27/4 (0.0276%)"
+  },
+  {
+   "key": "contact S Jupiter->H Haumea",
+   "m": 27,
+   "text": "contact: S Jupiter close to H Haumea RA 75.2162 Dec 0.0508"
+  },
+  {
+   "key": "contact S Jupiter->J Mercury",
+   "m": 27,
+   "text": "contact: S Jupiter close to J Mercury RA 0.9383 Dec 0.3236"
+  },
+  {
+   "key": "starnum H Jupiter\u2013Pleiades",
+   "star": "Pleiades",
+   "nums": [
+    "15"
+   ],
+   "m": "ST",
+   "text": "H Jupiter \u2013 Pleiades (own chart): Flat 15.00030 (15)"
+  },
+  {
+   "key": "starnum H Jupiter\u2013Regulus",
+   "star": "Regulus",
+   "nums": [
+    "4"
+   ],
+   "m": "ST",
+   "text": "H Jupiter \u2013 Regulus (own chart): Dec 4.00484 (4)"
+  },
+  {
+   "key": "starnum J Jupiter\u2013Algorab",
+   "star": "Algorab",
+   "nums": [
+    "42"
+   ],
+   "m": "ST",
+   "text": "J Jupiter \u2013 Algorab (own chart): RA 42.00152 (42)"
+  },
+  {
+   "key": "starnum J Jupiter\u2013Fomalhaut",
+   "star": "Fomalhaut",
+   "nums": [
+    "157"
+   ],
+   "m": "ST",
+   "text": "J Jupiter \u2013 Fomalhaut (own chart): GC 156.99749 (157)"
+  },
+  {
+   "key": "focus Jupiter\u2013Haumea",
+   "nk": 3,
+   "kinds": [
+    "cross",
+    "ratio H",
+    "struck"
+   ],
+   "m": 32,
+   "text": "pair Jupiter\u2013Haumea: 3 kind(s) \u2014 cross, ratio H, struck"
+  },
+  {
+   "key": "focus Jupiter\u2013Neptune",
+   "nk": 1,
+   "kinds": [
+    "h:j"
+   ],
+   "m": 32,
+   "text": "pair Jupiter\u2013Neptune: 1 kind(s) \u2014 h:j"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Mercury",
+   "x": "Mercury",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "15/7",
+   "err": 0.011003146663457475,
+   "text": "family H Jupiter\u2013S Mercury Flat 179.61494 vs sky pair 83.82953 = 15/7 (0.0110%) [near]",
+   "key": "family H Jupiter\u2013Mercury Flat 15/7"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Neptune",
+   "x": "Neptune",
+   "plane": "RA",
+   "band": "tight",
+   "ratio": "11/3",
+   "err": 0.001368127083711812,
+   "text": "h:j Jupiter\u2013Neptune RA: H 46.09497 / J 169.01258 = 11/3 (J/H, 0.0014%) [tight]",
+   "key": "hj Jupiter\u2013Neptune RA 11/3"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "H",
+   "pair": "Jupiter\u2013Ceres",
+   "x": "Ceres",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "26/7",
+   "err": 0.006613307685698899,
+   "text": "H Jupiter\u2013Ceres GC: sky 32.62177 / H 121.15857 = 26/7 (natal/sky, 0.0066%) [near]",
+   "key": "skynat H Jupiter\u2013Ceres GC 26/7"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Pallas",
+   "x": "Pallas",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "19/6",
+   "err": 0.007986407166460374,
+   "text": "family H Jupiter\u2013S Pallas GC 39.92767 vs sky pair 126.44771 = 19/6 (0.0080%) [near]",
+   "key": "family H Jupiter\u2013Pallas GC 19/6"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Juno",
+   "x": "Juno",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "17/8",
+   "err": 0.015646461882656837,
+   "text": "h:j Jupiter\u2013Juno Dec: H 7.70820 / J 16.37736 = 17/8 (J/H, 0.0156%) [near]",
+   "key": "hj Jupiter\u2013Juno Dec 17/8"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Sedna",
+   "x": "Sedna",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "7/6",
+   "err": 0.006378127680728429,
+   "text": "family S Jupiter\u2013J Sedna GC 92.82880 vs sky pair 79.57262 = 7/6 (0.0064%) [near]",
+   "key": "family J Jupiter\u2013Sedna GC 7/6"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "H",
+   "pair": "Jupiter\u2013Haumea",
+   "x": "Haumea",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "16/7",
+   "err": 0.0009084597840658404,
+   "text": "H Jupiter\u2013Haumea Flat: sky 76.44516 / H 174.73021 = 16/7 (natal/sky, 0.0009%) [tight]",
+   "key": "skynat H Jupiter\u2013Haumea Flat 16/7"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Makemake",
+   "x": "Makemake",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "5/4",
+   "err": 0.006544102328875923,
+   "text": "family H Jupiter\u2013S Makemake Dec 3.75272 vs sky pair 4.69121 = 5/4 (0.0065%) [near]",
+   "key": "family H Jupiter\u2013Makemake Dec 5/4"
+  }
+ ]
+}

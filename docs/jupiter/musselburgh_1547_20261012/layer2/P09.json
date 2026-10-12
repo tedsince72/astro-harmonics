@@ -1,0 +1,77 @@
+{
+ "runner": "5 Ice Sovereigns / Shane Gray",
+ "items": [
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Venus",
+   "x": "Venus",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "13/6",
+   "err": 0.015751029573518593,
+   "text": "family H Jupiter\u2013S Venus Flat 165.85311 vs sky pair 76.53553 = 13/6 (0.0158%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Saturn",
+   "x": "Saturn",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "15/2",
+   "err": 0.005530866551151092,
+   "text": "family H Jupiter\u2013S Saturn GC 5.98341 vs H pair 44.87807 = 15/2 (0.0055%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Ceres",
+   "x": "Ceres",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "9/5",
+   "err": 0.014691148562362422,
+   "text": "family H Jupiter\u2013S Ceres Dec 18.09845 vs H pair 10.05322 = 9/5 (0.0147%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Pallas",
+   "x": "Pallas",
+   "plane": "GC",
+   "band": "tight",
+   "ratio": "29/7",
+   "err": 0.0005657839270201137,
+   "text": "family H Jupiter\u2013S Pallas GC 21.31711 vs H pair 88.31424 = 29/7 (0.0006%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Pallas",
+   "x": "Pallas",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "13/9",
+   "err": 0.00525427298538883,
+   "text": "family S Jupiter\u2013J Pallas GC 93.36837 vs J pair 134.85833 = 13/9 (0.0053%) [near]"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "H",
+   "pair": "Jupiter\u2013Haumea",
+   "x": "Haumea",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "27/4",
+   "err": 0.005991539484995201,
+   "text": "H Jupiter\u2013Haumea Dec: sky 1.48084 / H 9.99625 = 27/4 (natal/sky, 0.0060%) [near]"
+  }
+ ]
+}

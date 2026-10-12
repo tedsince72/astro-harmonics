@@ -1,0 +1,346 @@
+{
+ "runner": "4 Mr Withington / Shane Gray",
+ "jockey": "Shane Gray",
+ "items": [
+  {
+   "key": "link H Jupiter\u2013J Sun",
+   "sub": "link",
+   "band": "near",
+   "RA": 97.60276637643332,
+   "Dec": 0.4464419325357092,
+   "pair": [
+    "Jupiter",
+    "Sun"
+   ],
+   "m": 1,
+   "text": "cross link H Jupiter \u2013 J Sun RA 97.6028 Dec 0.4464 [near]"
+  },
+  {
+   "key": "moved-onto H Jupiter [H Jupiter\u2013J Sun]",
+   "pair": [
+    "Jupiter",
+    "Sun"
+   ],
+   "m": 6,
+   "text": "H Jupiter \u2013 J Sun RA 97.6028 Dec 0.4464 [near]: H Jupiter moved GC 175.22327 (1577/9) (end of the link)"
+  },
+  {
+   "key": "link H Jupiter\u2013J Rahu",
+   "sub": "link",
+   "band": "close",
+   "RA": 96.65219135801362,
+   "Dec": 0.16566011370142064,
+   "pair": [
+    "Jupiter",
+    "Rahu"
+   ],
+   "m": 1,
+   "text": "cross link H Jupiter \u2013 J Rahu RA 96.6522 Dec 0.1657 [close]"
+  },
+  {
+   "key": "moved-onto H Jupiter [H Jupiter\u2013J Rahu]",
+   "pair": [
+    "Jupiter",
+    "Rahu"
+   ],
+   "m": 6,
+   "text": "H Jupiter \u2013 J Rahu RA 96.6522 Dec 0.1657 [close]: H Jupiter moved GC 175.22327 (1577/9) (end of the link)"
+  },
+  {
+   "key": "node-link H Jupiter\u2013J Rahu",
+   "m": 33,
+   "text": "node on a Jupiter cross link: H Jupiter \u2013 J Rahu RA 96.6522 Dec 0.1657 [close]"
+  },
+  {
+   "key": "tightest",
+   "minRA": 96.65219135801362,
+   "minDec": 0.16566011370142064,
+   "linkRA": "H Jupiter\u2013J Rahu",
+   "linkDec": "H Jupiter\u2013J Rahu",
+   "m": 30,
+   "text": "tightest Jupiter cross link: RA H Jupiter \u2013 J Rahu 96.6522; Dec H Jupiter \u2013 J Rahu 0.1657"
+  },
+  {
+   "key": "split J Juno/H Jupiter RA",
+   "m": 19,
+   "text": "split RA: S Juno moved 66.00426 (66) from J Juno, lies between J Juno and H Jupiter; other part 21.07709; parts 25/8 (0.2101%)"
+  },
+  {
+   "key": "jupiter-moved H",
+   "sub": "jupiter_moved",
+   "m": 6,
+   "text": "H Jupiter moved GC 175.22327 (1577/9)"
+  },
+  {
+   "key": "starnum S Jupiter\u2013Algorab",
+   "star": "Algorab",
+   "nums": [
+    "393/9"
+   ],
+   "m": "ST",
+   "text": "S Jupiter \u2013 Algorab (own chart): RA 43.66661 (393/9)"
+  },
+  {
+   "key": "starnum S Jupiter\u2013Antares",
+   "star": "Antares",
+   "nums": [
+    "932/9"
+   ],
+   "m": "ST",
+   "text": "S Jupiter \u2013 Antares (own chart): RA 103.55527 (932/9)"
+  },
+  {
+   "key": "starnum S Jupiter\u2013Betelgeuse",
+   "star": "Betelgeuse",
+   "nums": [
+    "55"
+   ],
+   "m": "ST",
+   "text": "S Jupiter \u2013 Betelgeuse (own chart): RA 54.99732 (55)"
+  },
+  {
+   "key": "starnum H Jupiter\u2013Algol",
+   "star": "Algol",
+   "nums": [
+    "893/9"
+   ],
+   "m": "ST",
+   "text": "H Jupiter \u2013 Algol (own chart): GC 99.22175 (893/9)"
+  },
+  {
+   "key": "hub H Jupiter",
+   "kinds": [
+    "cross",
+    "movement",
+    "ratio"
+   ],
+   "m": 31,
+   "text": "hub H Jupiter: 3 kinds \u2014 cross, movement, ratio"
+  },
+  {
+   "key": "focus Jupiter\u2013Rahu",
+   "nk": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "ratio H"
+   ],
+   "m": 32,
+   "text": "pair Jupiter\u2013Rahu: 3 kind(s) \u2014 cross, moved, ratio H"
+  },
+  {
+   "key": "focus Jupiter\u2013Sun",
+   "nk": 2,
+   "kinds": [
+    "cross",
+    "moved"
+   ],
+   "m": 32,
+   "text": "pair Jupiter\u2013Sun: 2 kind(s) \u2014 cross, moved"
+  },
+  {
+   "key": "focus Jupiter\u2013Mars",
+   "nk": 1,
+   "kinds": [
+    "ratio H"
+   ],
+   "m": 32,
+   "text": "pair Jupiter\u2013Mars: 1 kind(s) \u2014 ratio H"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "H",
+   "pair": "Jupiter\u2013Mars",
+   "x": "Mars",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "15/2",
+   "err": 0.0011355080142050333,
+   "text": "H Jupiter\u2013Mars Flat: sky 13.80975 / H 103.57196 = 15/2 (natal/sky, 0.0011%) [tight]",
+   "key": "skynat H Jupiter\u2013Mars Flat 15/2"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Mars",
+   "x": "Mars",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "22/7",
+   "err": 0.01992670213424308,
+   "text": "family S Jupiter\u2013J Mars Flat 4.39314 vs sky pair 13.80975 = 22/7 (0.0199%) [near]",
+   "key": "family J Jupiter\u2013Mars Flat 22/7"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Uranus",
+   "x": "Uranus",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "10/7",
+   "err": 0.017011735889349566,
+   "text": "family S Jupiter\u2013H Uranus RA 108.67416 vs H pair 76.05897 = 10/7 (0.0170%) [near]",
+   "key": "family H Jupiter\u2013Uranus RA 10/7"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Uranus",
+   "x": "Uranus",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "11/5",
+   "err": 0.015039194952226609,
+   "text": "family J Jupiter\u2013S Uranus GC 167.88320 vs sky pair 76.29907 = 11/5 (0.0150%) [near]",
+   "key": "family J Jupiter\u2013Uranus GC 11/5"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "H",
+   "pair": "Jupiter\u2013Neptune",
+   "x": "Neptune",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "29/7",
+   "err": 0.006336584224087005,
+   "text": "H Jupiter\u2013Neptune GC: sky 139.02955 / H 33.55673 = 29/7 (sky/natal, 0.0063%) [near]",
+   "key": "skynat H Jupiter\u2013Neptune GC 29/7"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Chiron",
+   "x": "Chiron",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "19/7",
+   "err": 0.009010014140264921,
+   "text": "family S Jupiter\u2013H Chiron Flat 138.69943 vs H pair 51.10440 = 19/7 (0.0090%) [near]",
+   "key": "family H Jupiter\u2013Chiron Flat 19/7"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Pallas",
+   "x": "Pallas",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "13/9",
+   "err": 0.016178826709423166,
+   "text": "family S Jupiter\u2013J Pallas RA 86.10423 vs sky pair 124.35266 = 13/9 (0.0162%) [near]",
+   "key": "family J Jupiter\u2013Pallas RA 13/9"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Pallas",
+   "x": "Pallas",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "13/9",
+   "err": 0.010604543344738815,
+   "text": "family S Jupiter\u2013J Pallas GC 93.37336 vs J pair 134.85833 = 13/9 (0.0106%) [near]",
+   "key": "family J Jupiter\u2013Pallas GC 13/9"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "H",
+   "pair": "Jupiter\u2013Rahu",
+   "x": "Rahu",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "13/9",
+   "err": 0.0028353183625706713,
+   "text": "H Jupiter\u2013Rahu Flat: sky 175.51906 / H 121.51664 = 13/9 (sky/natal, 0.0028%) [tight]",
+   "key": "skynat H Jupiter\u2013Rahu Flat 13/9"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Rahu",
+   "x": "Rahu",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "29/6",
+   "err": 0.010795165829435849,
+   "text": "family J Jupiter\u2013S Rahu Dec 5.61149 vs sky pair 27.11926 = 29/6 (0.0108%) [near]",
+   "key": "family J Jupiter\u2013Rahu Dec 29/6"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Rahu",
+   "x": "Rahu",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "12",
+   "err": 0.017107778714242627,
+   "text": "family J Jupiter\u2013S Rahu Flat 99.92543 vs J pair 8.32569 = 12 (0.0171%) [near]",
+   "key": "family J Jupiter\u2013Rahu Flat 12"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Sedna",
+   "x": "Sedna",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "7/4",
+   "err": 0.014598262307896626,
+   "text": "family S Jupiter\u2013J Sedna Flat 100.04445 vs J pair 175.10335 = 7/4 (0.0146%) [near]",
+   "key": "family J Jupiter\u2013Sedna Flat 7/4"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Quaoar",
+   "x": "Quaoar",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "26/9",
+   "err": 0.015264800879344342,
+   "text": "family J Jupiter\u2013S Quaoar GC 47.88739 vs sky pair 138.36247 = 26/9 (0.0153%) [near]",
+   "key": "family J Jupiter\u2013Quaoar GC 26/9"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Gonggong",
+   "x": "Gonggong",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "16/3",
+   "err": 0.018100805905940653,
+   "text": "family S Jupiter\u2013H Gonggong Dec 26.51965 vs H pair 4.97153 = 16/3 (0.0181%) [near]",
+   "key": "family H Jupiter\u2013Gonggong Dec 16/3"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Transpluto",
+   "x": "Transpluto",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "29/5",
+   "err": 0.019514601538928034,
+   "text": "family J Jupiter\u2013S Transpluto RA 74.05527 vs sky pair 12.76566 = 29/5 (0.0195%) [near]",
+   "key": "family J Jupiter\u2013Transpluto RA 29/5"
+  }
+ ]
+}

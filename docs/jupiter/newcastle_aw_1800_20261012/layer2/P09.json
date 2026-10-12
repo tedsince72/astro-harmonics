@@ -1,0 +1,131 @@
+{
+ "runner": "6 Blazing Inferno / Daniel Tudhope",
+ "items": [
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Venus",
+   "x": "Venus",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "9/7",
+   "err": 0.009156984672398227,
+   "text": "family S Jupiter\u2013J Venus GC 96.41579 vs J pair 74.99693 = 9/7 (0.0092%) [near]"
+  },
+  {
+   "m": 13,
+   "kind": "shared",
+   "pair": "Jupiter\u2013Pluto",
+   "x": "Pluto",
+   "plane": "Flat",
+   "err": 0.4643667077600222,
+   "text": "shared Jupiter\u2013Pluto Flat: H 98.56702 / J 98.11142 (0.4644% apart)"
+  },
+  {
+   "m": 13,
+   "kind": "shared",
+   "pair": "Jupiter\u2013Pluto",
+   "x": "Pluto",
+   "plane": "GC",
+   "err": 0.2680780018453399,
+   "text": "shared Jupiter\u2013Pluto GC: H 96.63549 / J 96.37713 (0.2681% apart)"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "H",
+   "pair": "Jupiter\u2013Juno",
+   "x": "Juno",
+   "plane": "RA",
+   "band": "tight",
+   "ratio": "8/7",
+   "err": 0.0036242403814168433,
+   "text": "H Jupiter\u2013Juno RA: sky 154.19064 / H 134.92170 = 8/7 (sky/natal, 0.0036%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Juno",
+   "x": "Juno",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "26/5",
+   "err": 0.0007900103756619536,
+   "text": "family S Jupiter\u2013H Juno Flat 30.14747 vs sky pair 156.76562 = 26/5 (0.0008%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Vesta",
+   "x": "Vesta",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "19/8",
+   "err": 0.005885116838366677,
+   "text": "family H Jupiter\u2013S Vesta Flat 20.00731 vs H pair 47.52015 = 19/8 (0.0059%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Haumea",
+   "x": "Haumea",
+   "plane": "GC",
+   "band": "tight",
+   "ratio": "24/7",
+   "err": 0.003132326392041307,
+   "text": "family S Jupiter\u2013J Haumea GC 39.05672 vs J pair 133.91296 = 24/7 (0.0031%) [tight]"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "J",
+   "pair": "Jupiter\u2013Makemake",
+   "x": "Makemake",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "8/3",
+   "err": 0.00964749208958171,
+   "text": "J Jupiter\u2013Makemake GC: sky 55.27523 / J 147.41482 = 8/3 (natal/sky, 0.0096%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Makemake",
+   "x": "Makemake",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "26/5",
+   "err": 0.0010830845680764867,
+   "text": "family S Jupiter\u2013J Makemake Flat 30.60640 vs J pair 159.15498 = 26/5 (0.0011%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Makemake",
+   "x": "Makemake",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "17/8",
+   "err": 0.008093738858105937,
+   "text": "family J Jupiter\u2013S Makemake GC 117.46936 vs sky pair 55.27523 = 17/8 (0.0081%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Gonggong",
+   "x": "Gonggong",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "29/4",
+   "err": 0.0007467862099486133,
+   "text": "family J Jupiter\u2013S Gonggong Flat 23.22973 vs sky pair 168.41426 = 29/4 (0.0007%) [tight]"
+  }
+ ]
+}

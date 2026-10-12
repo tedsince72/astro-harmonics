@@ -1,0 +1,221 @@
+{
+ "runner": "4 La Pasionaria / Hector Crouch",
+ "jockey": "Hector Crouch",
+ "items": [
+  {
+   "key": "link H Jupiter\u2013J Vesta",
+   "sub": "link",
+   "band": "near",
+   "RA": 99.8696650474823,
+   "Dec": 0.36238981841644957,
+   "pair": [
+    "Jupiter",
+    "Vesta"
+   ],
+   "m": 1,
+   "text": "cross link H Jupiter \u2013 J Vesta RA 99.8697 Dec 0.3624 [near]"
+  },
+  {
+   "key": "link H Jupiter\u2013J Quaoar",
+   "sub": "link",
+   "band": "close",
+   "RA": 86.3605475100942,
+   "Dec": 0.17061382307621997,
+   "pair": [
+    "Jupiter",
+    "Quaoar"
+   ],
+   "m": 1,
+   "text": "cross link H Jupiter \u2013 J Quaoar RA 86.3605 Dec 0.1706 [close]"
+  },
+  {
+   "key": "partner S Jupiter->J Quaoar",
+   "pair": [
+    "Jupiter",
+    "Quaoar"
+   ],
+   "m": 3,
+   "text": "partner strike on H Jupiter \u2013 J Quaoar RA 86.3605 Dec 0.1706 [close]: S Jupiter -> J Quaoar RA 174.22177 (1568/9)"
+  },
+  {
+   "key": "tightest",
+   "minRA": 86.3605475100942,
+   "minDec": 0.17061382307621997,
+   "linkRA": "H Jupiter\u2013J Quaoar",
+   "linkDec": "H Jupiter\u2013J Quaoar",
+   "m": 30,
+   "text": "tightest Jupiter cross link: RA H Jupiter \u2013 J Quaoar 86.3605; Dec H Jupiter \u2013 J Quaoar 0.1706"
+  },
+  {
+   "key": "split J Makemake/H Jupiter Dec",
+   "m": 19,
+   "text": "split Dec: S Makemake moved 11.22222 (101/9) from J Makemake, lies between J Makemake and H Jupiter; other part 35.98214; parts 16/5 (0.1978%)"
+  },
+  {
+   "key": "split J Makemake/J Jupiter Dec",
+   "m": 19,
+   "text": "split Dec: S Makemake moved 11.22222 (101/9) from J Makemake, lies between J Makemake and J Jupiter; other part 45.30648; span/other 5/4 (0.1843%)"
+  },
+  {
+   "key": "contact S Jupiter->H Vesta",
+   "m": 27,
+   "text": "contact: S Jupiter close to H Vesta RA 107.4998 Dec 0.0802"
+  },
+  {
+   "key": "contact S Quaoar->J Jupiter",
+   "m": 27,
+   "text": "contact: S Quaoar close to J Jupiter RA 0.4639 Dec 8.2503"
+  },
+  {
+   "key": "starnum S Jupiter\u2013Betelgeuse",
+   "star": "Betelgeuse",
+   "nums": [
+    "320/9"
+   ],
+   "m": "ST",
+   "text": "S Jupiter \u2013 Betelgeuse (own chart): Flat 35.55600 (320/9)"
+  },
+  {
+   "key": "focus Jupiter\u2013Quaoar",
+   "nk": 2,
+   "kinds": [
+    "cross",
+    "partner"
+   ],
+   "m": 32,
+   "text": "pair Jupiter\u2013Quaoar: 2 kind(s) \u2014 cross, partner"
+  },
+  {
+   "key": "focus Jupiter\u2013Vesta",
+   "nk": 1,
+   "kinds": [
+    "cross"
+   ],
+   "m": 32,
+   "text": "pair Jupiter\u2013Vesta: 1 kind(s) \u2014 cross"
+  },
+  {
+   "key": "focus Jupiter\u2013Sun",
+   "nk": 1,
+   "kinds": [
+    "family"
+   ],
+   "m": 32,
+   "text": "pair Jupiter\u2013Sun: 1 kind(s) \u2014 family"
+  },
+  {
+   "key": "focus Jupiter\u2013Haumea",
+   "nk": 1,
+   "kinds": [
+    "h:j"
+   ],
+   "m": 32,
+   "text": "pair Jupiter\u2013Haumea: 1 kind(s) \u2014 h:j"
+  },
+  {
+   "key": "recurring Jupiter\u2013Vesta",
+   "m": 34,
+   "text": "recurring pair Jupiter\u2013Vesta (Ffos Las, Wincanton, Nottingham 15:30, Exeter): lit here by cross"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Sun",
+   "x": "Sun",
+   "plane": "Dec",
+   "band": "tight",
+   "ratio": "3/2",
+   "err": 0.003304751058585964,
+   "text": "family H Jupiter\u2013S Sun Dec 32.91049 vs H pair 21.93960 = 3/2 (0.0033%) [tight]",
+   "key": "family H Jupiter\u2013Sun Dec 3/2"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Mercury",
+   "x": "Mercury",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "11/4",
+   "err": 0.011722660793234141,
+   "text": "h:j Jupiter\u2013Mercury Flat: H 47.14136 / J 129.65394 = 11/4 (J/H, 0.0117%) [near]",
+   "key": "hj Jupiter\u2013Mercury Flat 11/4"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Pluto",
+   "x": "Pluto",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "11/8",
+   "err": 0.017980766467506903,
+   "text": "h:j Jupiter\u2013Pluto RA: H 28.51105 / J 39.20974 = 11/8 (J/H, 0.0180%) [near]",
+   "key": "hj Jupiter\u2013Pluto RA 11/8"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Pluto",
+   "x": "Pluto",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "9/2",
+   "err": 0.0153249704371472,
+   "text": "family J Jupiter\u2013S Pluto RA 24.53730 vs sky pair 110.40095 = 9/2 (0.0153%) [near]",
+   "key": "family J Jupiter\u2013Pluto RA 9/2"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Pluto",
+   "x": "Pluto",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "25/6",
+   "err": 0.015379743298060689,
+   "text": "family S Jupiter\u2013J Pluto Flat 176.11661 vs J pair 42.27449 = 25/6 (0.0154%) [near]",
+   "key": "family J Jupiter\u2013Pluto Flat 25/6"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Rahu",
+   "x": "Rahu",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "7/6",
+   "err": 0.007307551551294367,
+   "text": "family H Jupiter\u2013S Rahu GC 49.80919 vs sky pair 42.69047 = 7/6 (0.0073%) [near]",
+   "key": "family H Jupiter\u2013Rahu GC 7/6"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Haumea",
+   "x": "Haumea",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "7/6",
+   "err": 0.001085821460966585,
+   "text": "h:j Jupiter\u2013Haumea Flat: H 115.17371 / J 98.71925 = 7/6 (H/J, 0.0011%) [tight]",
+   "key": "hj Jupiter\u2013Haumea Flat 7/6"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Gonggong",
+   "x": "Gonggong",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "29/6",
+   "err": 0.017625729594872297,
+   "text": "h:j Jupiter\u2013Gonggong GC: H 9.89501 / J 47.83433 = 29/6 (J/H, 0.0176%) [near]",
+   "key": "hj Jupiter\u2013Gonggong GC 29/6"
+  }
+ ]
+}

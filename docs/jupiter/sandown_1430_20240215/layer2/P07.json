@@ -1,0 +1,163 @@
+{
+ "runner": "4 Jeune Belle / Bryony Le Clerc",
+ "items": [
+  {
+   "m": 26,
+   "kind": "eq",
+   "band": "tight",
+   "pair": "S/H",
+   "values": [
+    13.48971184895016,
+    16.86058222256478
+   ],
+   "ratio": "5/4",
+   "dir": "b/a",
+   "err": 0.00923719433215675,
+   "text": "Jupiter Equator S/H: 13.48971 / 16.86058 = 5/4 (b/a, 0.0092%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Venus",
+   "x": "Venus",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "11/5",
+   "err": 0.012946751653686306,
+   "text": "family J Jupiter\u2013S Venus Flat 46.39136 vs sky pair 102.04778 = 11/5 (0.0129%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Mars",
+   "x": "Mars",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "19/9",
+   "err": 0.0018612747456625556,
+   "text": "family S Jupiter\u2013H Mars Flat 117.89720 vs H pair 55.84500 = 19/9 (0.0019%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Saturn",
+   "x": "Saturn",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "7/4",
+   "err": 0.009317920464302354,
+   "text": "family H Jupiter\u2013S Saturn GC 106.54780 vs sky pair 60.89013 = 7/4 (0.0093%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Chiron",
+   "x": "Chiron",
+   "plane": "GC",
+   "band": "tight",
+   "ratio": "11/7",
+   "err": 0.003758262764308462,
+   "text": "family S Jupiter\u2013J Chiron GC 132.21347 vs J pair 84.13268 = 11/7 (0.0038%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Juno",
+   "x": "Juno",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "23/9",
+   "err": 0.017786623384807854,
+   "text": "family S Jupiter\u2013H Juno GC 47.08360 vs H pair 120.34616 = 23/9 (0.0178%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Juno",
+   "x": "Juno",
+   "plane": "GC",
+   "band": "tight",
+   "ratio": "15/4",
+   "err": 0.004017967743363826,
+   "text": "family J Jupiter\u2013S Juno GC 87.79927 vs J pair 23.41408 = 15/4 (0.0040%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Rahu",
+   "x": "Rahu",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "17/3",
+   "err": 0.008804068210699345,
+   "text": "family J Jupiter\u2013S Rahu RA 121.18485 vs sky pair 21.38744 = 17/3 (0.0088%) [near]"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "H",
+   "pair": "Jupiter\u2013Sedna",
+   "x": "Sedna",
+   "plane": "GC",
+   "band": "tight",
+   "ratio": "22/3",
+   "err": 0.0028724817928038604,
+   "text": "H Jupiter\u2013Sedna GC: sky 22.98430 / H 168.54671 = 22/3 (natal/sky, 0.0029%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Sedna",
+   "x": "Sedna",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "22/3",
+   "err": 0.008011244935213213,
+   "text": "family H Jupiter\u2013S Sedna Flat 171.59037 vs sky pair 23.40056 = 22/3 (0.0080%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Haumea",
+   "x": "Haumea",
+   "plane": "RA",
+   "band": "tight",
+   "ratio": "5/2",
+   "err": 0.004848069445118064,
+   "text": "family S Jupiter\u2013J Haumea RA 155.30335 vs J pair 62.12435 = 5/2 (0.0048%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Haumea",
+   "x": "Haumea",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "10/9",
+   "err": 0.015370273617709707,
+   "text": "family S Jupiter\u2013J Haumea GC 136.58633 vs sky pair 151.73926 = 10/9 (0.0154%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Makemake",
+   "x": "Makemake",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "21/8",
+   "err": 0.008048687020867362,
+   "text": "family S Jupiter\u2013J Makemake Dec 21.12302 vs sky pair 8.04622 = 21/8 (0.0080%) [near]"
+  }
+ ]
+}

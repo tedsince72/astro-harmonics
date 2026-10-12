@@ -1,0 +1,160 @@
+{
+ "runner": "4 La Marquise / Gavin Sheehan",
+ "items": [
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Sun",
+   "x": "Sun",
+   "plane": "Dec",
+   "band": "tight",
+   "ratio": "13/5",
+   "err": 0.004421267913823357,
+   "text": "family H Jupiter\u2013S Sun Dec 13.55584 vs H pair 35.24673 = 13/5 (0.0044%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Mercury",
+   "x": "Mercury",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "7/6",
+   "err": 0.011048338456975948,
+   "text": "family S Jupiter\u2013H Mercury GC 110.19785 vs H pair 94.44486 = 7/6 (0.0110%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Pluto",
+   "x": "Pluto",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "13/5",
+   "err": 0.015373097559567839,
+   "text": "family H Jupiter\u2013S Pluto Dec 2.76042 vs H pair 1.06154 = 13/5 (0.0154%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Chiron",
+   "x": "Chiron",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "15/7",
+   "err": 0.01889437568849406,
+   "text": "family S Jupiter\u2013J Chiron GC 14.59724 vs J pair 31.28571 = 15/7 (0.0189%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Vesta",
+   "x": "Vesta",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "11/3",
+   "err": 0.0038191890125549577,
+   "text": "family S Jupiter\u2013J Vesta Flat 33.40095 vs sky pair 122.47483 = 11/3 (0.0038%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Rahu",
+   "x": "Rahu",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "11/8",
+   "err": 0.019883979173695998,
+   "text": "h:j Jupiter\u2013Rahu RA: H 151.35246 / J 110.05263 = 11/8 (H/J, 0.0199%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Rahu",
+   "x": "Rahu",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "27/8",
+   "err": 0.009867660460471939,
+   "text": "family S Jupiter\u2013H Rahu GC 51.23627 vs sky pair 172.93947 = 27/8 (0.0099%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Orcus",
+   "x": "Orcus",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "12/7",
+   "err": 0.01680368818273159,
+   "text": "family S Jupiter\u2013H Orcus RA 10.23438 vs sky pair 17.54170 = 12/7 (0.0168%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Orcus",
+   "x": "Orcus",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "15/4",
+   "err": 0.012479275703647374,
+   "text": "family H Jupiter\u2013S Orcus GC 125.61885 vs sky pair 33.50254 = 15/4 (0.0125%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Orcus",
+   "x": "Orcus",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "4/3",
+   "err": 0.019710806865880226,
+   "text": "family J Jupiter\u2013S Orcus Flat 22.98402 vs J pair 30.63932 = 4/3 (0.0197%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Quaoar",
+   "x": "Quaoar",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "8/7",
+   "err": 0.014773800142653393,
+   "text": "family J Jupiter\u2013S Quaoar GC 121.05594 vs sky pair 138.37008 = 8/7 (0.0148%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Transpluto",
+   "x": "Transpluto",
+   "plane": "Dec",
+   "band": "tight",
+   "ratio": "23/4",
+   "err": 0.0011507019171963506,
+   "text": "family S Jupiter\u2013J Transpluto Dec 0.91230 vs sky pair 5.24568 = 23/4 (0.0012%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Transpluto",
+   "x": "Transpluto",
+   "plane": "GC",
+   "band": "tight",
+   "ratio": "29/9",
+   "err": 0.003811536289588524,
+   "text": "family J Jupiter\u2013S Transpluto GC 4.19799 vs sky pair 13.52737 = 29/9 (0.0038%) [tight]"
+  }
+ ]
+}

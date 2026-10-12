@@ -1,0 +1,148 @@
+{
+ "runner": "1 Floating Market / Oisin Murphy",
+ "items": [
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Sun",
+   "x": "Sun",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "7/6",
+   "err": 0.019254783067168546,
+   "text": "family J Jupiter\u2013S Sun Flat 49.95558 vs sky pair 58.29273 = 7/6 (0.0193%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Mercury",
+   "x": "Mercury",
+   "plane": "RA",
+   "band": "tight",
+   "ratio": "16/7",
+   "err": 0.004197758548452057,
+   "text": "family J Jupiter\u2013S Mercury RA 24.97858 vs J pair 57.09629 = 16/7 (0.0042%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Mars",
+   "x": "Mars",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "6",
+   "err": 0.016617861597167938,
+   "text": "family S Jupiter\u2013J Mars Dec 26.51716 vs sky pair 4.41879 = 6 (0.0166%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Uranus",
+   "x": "Uranus",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "27/8",
+   "err": 0.0027833384776521086,
+   "text": "family S Jupiter\u2013H Uranus Flat 100.06712 vs H pair 29.64869 = 27/8 (0.0028%) [tight]"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "H",
+   "pair": "Jupiter\u2013Neptune",
+   "x": "Neptune",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "16/9",
+   "err": 0.008756702178047693,
+   "text": "H Jupiter\u2013Neptune Dec: sky 15.46305 / H 8.69873 = 16/9 (sky/natal, 0.0088%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Neptune",
+   "x": "Neptune",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "7/6",
+   "err": 0.019061573976864032,
+   "text": "family S Jupiter\u2013H Neptune Dec 18.03679 vs sky pair 15.46305 = 7/6 (0.0191%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Neptune",
+   "x": "Neptune",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "4/3",
+   "err": 0.011066731232478588,
+   "text": "family J Jupiter\u2013S Neptune Dec 20.61512 vs sky pair 15.46305 = 4/3 (0.0111%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Ceres",
+   "x": "Ceres",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "16/9",
+   "err": 0.0010723480688978881,
+   "text": "family H Jupiter\u2013S Ceres Flat 95.91279 vs H pair 170.50979 = 16/9 (0.0011%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Vesta",
+   "x": "Vesta",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "11",
+   "err": 0.0103286629206778,
+   "text": "family H Jupiter\u2013S Vesta Flat 11.14068 vs sky pair 122.53486 = 11 (0.0103%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Sedna",
+   "x": "Sedna",
+   "plane": "RA",
+   "band": "tight",
+   "ratio": "26/7",
+   "err": 0.003734434492586036,
+   "text": "h:j Jupiter\u2013Sedna RA: H 42.95886 / J 159.55553 = 26/7 (J/H, 0.0037%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Sedna",
+   "x": "Sedna",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "13/6",
+   "err": 0.016615991867363622,
+   "text": "family J Jupiter\u2013S Sedna RA 176.61831 vs sky pair 81.52969 = 13/6 (0.0166%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Orcus",
+   "x": "Orcus",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "27/7",
+   "err": 0.01179857172417531,
+   "text": "family J Jupiter\u2013S Orcus Dec 7.42716 vs sky pair 28.65101 = 27/7 (0.0118%) [near]"
+  }
+ ]
+}

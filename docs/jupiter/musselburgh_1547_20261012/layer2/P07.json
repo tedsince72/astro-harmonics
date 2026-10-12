@@ -1,0 +1,174 @@
+{
+ "runner": "4 Aspiral / Pierre-Louis Jamin",
+ "items": [
+  {
+   "m": 26,
+   "kind": "eq",
+   "band": "near",
+   "pair": "S/J",
+   "values": [
+    15.02897265684498,
+    2.072131432301193
+   ],
+   "ratio": "29/4",
+   "dir": "a/b",
+   "err": 0.04007050216918717,
+   "text": "Jupiter Equator S/J: 15.02897 / 2.07213 = 29/4 (a/b, 0.0401%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Mercury",
+   "x": "Mercury",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "7/4",
+   "err": 0.018817123666448055,
+   "text": "family S Jupiter\u2013H Mercury GC 144.87533 vs sky pair 82.77033 = 7/4 (0.0188%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Mercury",
+   "x": "Mercury",
+   "plane": "RA",
+   "band": "tight",
+   "ratio": "9/5",
+   "err": 0.0030356858989111224,
+   "text": "family J Jupiter\u2013S Mercury RA 138.16376 vs sky pair 76.75998 = 9/5 (0.0030%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Mercury",
+   "x": "Mercury",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "10/9",
+   "err": 0.010000140200627783,
+   "text": "family J Jupiter\u2013S Mercury GC 133.88445 vs J pair 148.77537 = 10/9 (0.0100%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Venus",
+   "x": "Venus",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "9/5",
+   "err": 0.008904859226133155,
+   "text": "family H Jupiter\u2013S Venus Dec 21.95035 vs H pair 12.19355 = 9/5 (0.0089%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Mars",
+   "x": "Mars",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "3",
+   "err": 0.01206445038089976,
+   "text": "family S Jupiter\u2013J Mars Dec 8.55210 vs J pair 25.65320 = 3 (0.0121%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Uranus",
+   "x": "Uranus",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "10/7",
+   "err": 0.01650423450937355,
+   "text": "family J Jupiter\u2013S Uranus GC 66.91620 vs J pair 46.84907 = 10/7 (0.0165%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Pluto",
+   "x": "Pluto",
+   "plane": "RA",
+   "band": "tight",
+   "ratio": "17/7",
+   "err": 0.0026763845960786625,
+   "text": "family S Jupiter\u2013H Pluto RA 157.15198 vs H pair 64.70791 = 17/7 (0.0027%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Ceres",
+   "x": "Ceres",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "10/3",
+   "err": 0.008883736136988674,
+   "text": "family J Jupiter\u2013S Ceres RA 111.59941 vs sky pair 33.47685 = 10/3 (0.0089%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Pallas",
+   "x": "Pallas",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "18/5",
+   "err": 0.016838345478253913,
+   "text": "family S Jupiter\u2013J Pallas Dec 8.50197 vs sky pair 30.61224 = 18/5 (0.0168%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Pallas",
+   "x": "Pallas",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "11/7",
+   "err": 0.013233964098013917,
+   "text": "family J Jupiter\u2013S Pallas Dec 13.51114 vs J pair 8.59914 = 11/7 (0.0132%) [near]"
+  },
+  {
+   "m": 22,
+   "kind": "skynat",
+   "chart": "J",
+   "pair": "Jupiter\u2013Juno",
+   "x": "Juno",
+   "plane": "Dec",
+   "band": "near",
+   "ratio": "14/3",
+   "err": 0.007974786313780236,
+   "text": "J Jupiter\u2013Juno Dec: sky 28.29539 / J 6.06281 = 14/3 (sky/natal, 0.0080%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Haumea",
+   "x": "Haumea",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "9/8",
+   "err": 0.005606768125465678,
+   "text": "h:j Jupiter\u2013Haumea Flat: H 147.82550 / J 166.31301 = 9/8 (J/H, 0.0056%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Makemake",
+   "x": "Makemake",
+   "plane": "GC",
+   "band": "tight",
+   "ratio": "20/7",
+   "err": 0.004686289115818365,
+   "text": "family S Jupiter\u2013H Makemake GC 53.55132 vs H pair 152.99661 = 20/7 (0.0047%) [tight]"
+  }
+ ]
+}

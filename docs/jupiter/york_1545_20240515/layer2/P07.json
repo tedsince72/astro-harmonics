@@ -1,0 +1,97 @@
+{
+ "runner": "4 La Pasionaria / Hector Crouch",
+ "items": [
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Sun",
+   "x": "Sun",
+   "plane": "Dec",
+   "band": "tight",
+   "ratio": "3/2",
+   "err": 0.003304751058585964,
+   "text": "family H Jupiter\u2013S Sun Dec 32.91049 vs H pair 21.93960 = 3/2 (0.0033%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Mercury",
+   "x": "Mercury",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "11/4",
+   "err": 0.011722660793234141,
+   "text": "h:j Jupiter\u2013Mercury Flat: H 47.14136 / J 129.65394 = 11/4 (J/H, 0.0117%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Pluto",
+   "x": "Pluto",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "11/8",
+   "err": 0.017980766467506903,
+   "text": "h:j Jupiter\u2013Pluto RA: H 28.51105 / J 39.20974 = 11/8 (J/H, 0.0180%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Pluto",
+   "x": "Pluto",
+   "plane": "RA",
+   "band": "near",
+   "ratio": "9/2",
+   "err": 0.0153249704371472,
+   "text": "family J Jupiter\u2013S Pluto RA 24.53730 vs sky pair 110.40095 = 9/2 (0.0153%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "J",
+   "pair": "Jupiter\u2013Pluto",
+   "x": "Pluto",
+   "plane": "Flat",
+   "band": "near",
+   "ratio": "25/6",
+   "err": 0.015379743298060689,
+   "text": "family S Jupiter\u2013J Pluto Flat 176.11661 vs J pair 42.27449 = 25/6 (0.0154%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "family",
+   "chart": "H",
+   "pair": "Jupiter\u2013Rahu",
+   "x": "Rahu",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "7/6",
+   "err": 0.007307551551294367,
+   "text": "family H Jupiter\u2013S Rahu GC 49.80919 vs sky pair 42.69047 = 7/6 (0.0073%) [near]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Haumea",
+   "x": "Haumea",
+   "plane": "Flat",
+   "band": "tight",
+   "ratio": "7/6",
+   "err": 0.001085821460966585,
+   "text": "h:j Jupiter\u2013Haumea Flat: H 115.17371 / J 98.71925 = 7/6 (H/J, 0.0011%) [tight]"
+  },
+  {
+   "m": 24,
+   "kind": "hj",
+   "pair": "Jupiter\u2013Gonggong",
+   "x": "Gonggong",
+   "plane": "GC",
+   "band": "near",
+   "ratio": "29/6",
+   "err": 0.017625729594872297,
+   "text": "h:j Jupiter\u2013Gonggong GC: H 9.89501 / J 47.83433 = 29/6 (J/H, 0.0176%) [near]"
+  }
+ ]
+}
