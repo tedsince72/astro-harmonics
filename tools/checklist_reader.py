@@ -84,10 +84,11 @@ def inst(item, level, t, what, bodies=(), pair=None, derived=False, **kw):
     return {'item': item, 'level': level, 't': r4(t), 'what': what, 'bodies': sorted({fq(b) for b in bodies if b[0] in 'HJ'}),
             'pair': pair, 'derived': bool(derived), **kw}
 
-def best_by_sky(R, target):
-    """sky body (node folded) -> (t, strike index, strike), tightest strike on this natal target"""
+def best_by_sky(R, target, flat=True):
+    """sky body (node folded) -> (t, strike index, strike), tightest strike on this natal target (flat=False: Flat strikes left out)"""
     out = {}
     for i, s in R.st_by.get(target, []):
+        if not flat and s['plane'] == 'Flat': continue
         k = fold(s['sky']); t = t_strike(s)
         if k not in out or (t, i) < (out[k][0], out[k][1]): out[k] = (t, i, s)
     return out
@@ -167,10 +168,12 @@ def it27(R):
     return out
 
 # ---------------------------------------------------------------- step 2: Layer 1 parts combined
-def both_ends(R, a, b):
-    A, B = best_by_sky(R, a), best_by_sky(R, b)
+def both_ends(R, a, b, flat=True):
+    A, B = best_by_sky(R, a, flat), best_by_sky(R, b, flat)
     both = sorted((max(A[k][0], B[k][0]), k) for k in A if k in B)
     return A, B, both
+
+def ends(R, l): return [[s_str(s) for _, s in R.st_by.get(l['a'], [])], [s_str(s) for _, s in R.st_by.get(l['b'], [])]]   # every strike on each end (json)
 
 def it1_2(R):
     out = []
@@ -178,17 +181,20 @@ def it1_2(R):
         A, B, both = both_ends(R, l['a'], l['b'])
         lt, lv = t_cross(l), 'strict' if l['close'] else 'near'
         ids = link_ids(R, li)
+        nA, nB, _ = both_ends(R, l['a'], l['b'], flat=False)
+        nf = r4(max(lt, min(v[0] for v in nA.values()), min(v[0] for v in nB.values()))) if nA and nB else None   # struck both ends without Flat strikes
         if len(both) >= 2:
             parts = '; '.join(f"{k}: {s_str(A[k][2])} | {s_str(B[k][2])}" for _, k in both)
             out.append(inst(1, lv, max(lt, both[1][0]), f"{x_str(l)} struck by {len(both)} sky bodies — {parts}", [l['a'], l['b']], pk(bare(l['a']), bare(l['b'])),
-                            R.der(*ids, *[f'strikes:{A[k][1]}' for _, k in both], *[f'strikes:{B[k][1]}' for _, k in both]), sky=[k for _, k in both]))
+                            R.der(*ids, *[f'strikes:{A[k][1]}' for _, k in both], *[f'strikes:{B[k][1]}' for _, k in both]), sky=[k for _, k in both], link_t=r4(lt), nf_t=nf, ends=ends(R, l)))
         elif A and B:
             ka, kb = min(A, key=lambda k: (A[k][0], k)), min(B, key=lambda k: (B[k][0], k))
             opts = [(max(lt, A[ka][0], B[kb][0]), 'one per end' if ka != kb else 'one body', ka, kb)]
             if both: opts.append((max(lt, both[0][0]), 'one body', both[0][1], both[0][1]))
             t, how, ka, kb = min(opts)
-            out.append(inst(2, lv, t, f"{x_str(l)} ({how}) — {s_str(A[ka][2])} | {s_str(B[kb][2])}", [l['a'], l['b']], pk(bare(l['a']), bare(l['b'])),
-                            R.der(*ids, f'strikes:{A[ka][1]}', f'strikes:{B[kb][1]}'), sky=sorted({ka, kb})))
+            bb = f"  [both ends by {both[0][1]}: {s_str(A[both[0][1]][2])} | {s_str(B[both[0][1]][2])}]" if both and how != 'one body' else ''
+            out.append(inst(2, lv, t, f"{x_str(l)} ({how}) — {s_str(A[ka][2])} | {s_str(B[kb][2])}{bb}", [l['a'], l['b']], pk(bare(l['a']), bare(l['b'])),
+                            R.der(*ids, f'strikes:{A[ka][1]}', f'strikes:{B[kb][1]}'), sky=sorted({ka, kb}), link_t=r4(lt), nf_t=nf, ends=ends(R, l)))
     return out
 
 def it3(R):
@@ -212,21 +218,27 @@ def it5_6(R):
         if ma and mb:
             (ia, a), (ib, b) = min(ma, key=lambda z: (t_move(z[1]), z[0])), min(mb, key=lambda z: (t_move(z[1]), z[0]))
             out.append(inst(5, lv, max(lt, t_move(a), t_move(b)), f"{x_str(l)} — {m_str(a)} | {m_str(b)}" + (f"  (+{len(ma) + len(mb) - 2} more)" if len(ma) + len(mb) > 2 else ''),
-                            [l['a'], l['b']], key, R.der(f'movement:{ia}', f'movement:{ib}')))
+                            [l['a'], l['b']], key, R.der(f'movement:{ia}', f'movement:{ib}'), moves=[m_str(m) for _, m in ma + mb]))
         for mi, m in ma + mb:
             out.append(inst(6, lv, max(lt, t_move(m)), f"{m_str(m)} — on {x_str(l)}", [l['a'], l['b']], key, R.der(f'movement:{mi}')))
     return out
 
 def it7(R):
+    """swap on exact bodies; a swap that needs Rahu one way and Ketu the other is listed as 'other' (node: mixed)"""
     best = {}
     for li, l in R.cross:
-        k = (fold(bare(l['a'])), fold(bare(l['b'])))
-        if k[0] != k[1] and (k not in best or t_cross(l) < t_cross(best[k])): best[k] = l
-    out = []
+        k = (bare(l['a']), bare(l['b']))
+        if fold(k[0]) != fold(k[1]) and (k not in best or t_cross(l) < t_cross(best[k])): best[k] = l
+    out, done = [], set()
     for (x, y), l1 in sorted(best.items()):
-        if x < y and (y, x) in best:
-            l2 = best[(y, x)]
-            out.append(inst(7, 'strict' if l1['close'] and l2['close'] else 'near', max(t_cross(l1), t_cross(l2)), f"swap {x}/{y}: {x_str(l1)}; {x_str(l2)}",
+        for (x2, y2) in sorted(best):
+            if not (fold(x2) == fold(y) and fold(y2) == fold(x)): continue
+            exact = (x2, y2) == (y, x)
+            key = frozenset([(x, y), (x2, y2)])
+            if key in done or (x, y) == (x2, y2): continue
+            done.add(key); l2 = best[(x2, y2)]
+            lv = ('strict' if l1['close'] and l2['close'] else 'near') if exact else 'other'
+            out.append(inst(7, lv, max(t_cross(l1), t_cross(l2)), f"swap {fold(x)}/{fold(y)}: {x_str(l1)}; {x_str(l2)}" + ('' if exact else '  (node: Rahu one way, Ketu the other)'),
                             [l1['a'], l1['b'], l2['a'], l2['b']], pk(x, y)))
     return out
 
@@ -322,11 +334,22 @@ def it25(R):
                 if c['id'].startswith('points:'): chains.setdefault(c['id'], []).append((iid, v['chain']))
     for i, p in enumerate(R.I['points']):
         if p['chart'] not in 'HJ' or not p['eq_num'] or R.mirror(f'points:{i}'): continue
-        ch = chains.get(f'points:{i}', [])
-        cs = '; '.join(f"{iid} = " + ' + '.join(f"{c['a']}–{c['b']} {c['num']}" for c in chain) for iid, chain in ch[:4])
+        ch = list(chains.get(f'points:{i}', []))
+        if fold(p['body']) == 'Node':   # the other node's Equator point is its mirror: its chains belong here too
+            other = 'Ketu' if p['body'] == 'Rahu' else 'Rahu'
+            j = next(k for k, q in enumerate(R.I['points']) if q['chart'] == p['chart'] and q['body'] == other)
+            ch += chains.get(f'points:{j}', [])
+        cs = '; '.join(f"{desc(R, iid)} from " + ' & '.join(f"{c['a']}–{c['b']} {c['num']}" for c in chain) for iid, chain in ch[:6])
         out.append(inst(25, 'strict', t_num(p['eq_off'], p['eq_num'], EQ_WHOLE, EQ_NINTH), f"{p['chart']} {p['body']} |Dec| {p['eq']:.5f} = {p['eq_num']} ({p['eq_off']:+.5f})"
                         + (f"; chains: {cs}" if cs else ''), [f"{p['chart']} {p['body']}"], pk(p['body'], p['body']), R.der(f'points:{i}')))
     return out
+
+def desc(R, iid):
+    k = iid.split(':')
+    if k[0] == 'strikes': s = R.I['strikes'][int(k[1])]; return f"S {s['sky']}–{s['target']} {s['plane']} {s['num']}"
+    if k[0] == 'links': l = R.links[int(k[1])]; return f"{l['a']}–{l['b']} {k[2]} {l['nums'][k[2]]['num']}"
+    if k[0] == 'movement': m = R.I['movement'][int(k[1])]; return f"{m['chart']} {m['body']} moved {m['plane']} {m['num']}"
+    return iid
 
 def it28(R):
     out = []

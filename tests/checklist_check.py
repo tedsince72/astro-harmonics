@@ -228,6 +228,166 @@ chk(1, 27, 'Newcastle AW 16:40: sky Gonggong -> H Chiron RA 0.4812; sky Neptune 
     lambda: has('aw16', 27, 'sky Gonggong on H Chiron RA 0.4812') and has('aw16', 27, 'sky Neptune on H Chiron', 'Dec 0.1621') and has('aw16', 27, 'sky Uranus on J Sedna RA 0.1349'))
 chk(1, 27, 'Haydock 14:20: sky Orcus on J Ketu RA 1.435; sky Transpluto on H Orcus RA 1.147', lambda: has('hy20', 27, 'sky Orcus on J Ketu RA 1.43') and has('hy20', 27, 'sky Transpluto on H Orcus RA 1.14'))
 
+
+# ============================================================== step 2 items
+def xl(x, h, j): return x['what'].startswith(f'H {h} – J {j} ') or f' on H {h} – J {j} ' in x['what']
+def xb(r, h, j, sky, P=None, level=None):
+    """cross link H h – J j struck on both ends by sky body `sky` (node folded), from the full end lists (items 1/2)"""
+    sk = ('Rahu', 'Ketu') if sky == 'Node' else (sky,)
+    for x in find(r, 1, P=P, level=level) + find(r, 2, P=P, level=level):
+        if xl(x, h, j) and any(e.startswith(f'sky {k} -> H {h} ') for e in x['ends'][0] for k in sk) and any(e.startswith(f'sky {k} -> J {j} ') for e in x['ends'][1] for k in sk): return True
+    return False
+def xe(r, h, j, sa, sb_, P=None, level=None):
+    """cross link struck on its H end by strike text sa and J end by sb_ (substrings of the strike lines)"""
+    for x in find(r, 1, P=P, level=level) + find(r, 2, P=P, level=level):
+        if xl(x, h, j) and any(sa in e for e in x['ends'][0]) and any(sb_ in e for e in x['ends'][1]): return True
+    return False
+def p9(r, chart, a, b, sky, P=None):
+    """pair in one chart struck on both ends by `sky` (items 9 or 10)"""
+    return any((x['what'].startswith(f'{chart} {a}–{b} ') or x['what'].startswith(f'{chart} {b}–{a} ')) and f' {sky}: ' in ' ' + x['what'].split(' — ', 1)[1].replace('; ', ' ')
+               for x in find(r, 9) + find(r, 10) if True for _ in [0] if (P is None or True)) if P is None else any(
+               (x['what'].startswith(f'{chart} {a}–{b} ') or x['what'].startswith(f'{chart} {b}–{a} ')) and f' {sky}: ' in ' ' + x['what'].split(' — ', 1)[1].replace('; ', ' ')
+               for x in find(r, 9, P=P) + find(r, 10, P=P))
+def mv6(r, chart, body, plane, n, h, j, P=None, level=None):
+    return any(x['what'].startswith(f'{chart} {body} moved {plane} ') and f'({n}) — on H {h} – J {j} ' in x['what'] for x in find(r, 6, P=P, level=level))
+def anyl(r, item, h, j, P=None, level=None): return [x for x in find(r, item, P=P, level=level) if xl(x, h, j)]
+
+# 1 cross link struck on both ends by 2+ sky bodies
+chk(2, 1, 'Perth: H Ceres – J Uranus RA 0.9991 struck by sky Ceres and sky node', lambda: any(xl(x, 'Ceres', 'Uranus') and 'Ceres:' in x['what'] and 'Node:' in x['what'] for x in find('per', 1)))
+chk(2, 1, 'Perth field: ONLY runner', lambda: only('per', 1))
+chk(2, 1, 'Nottingham 15:30: H Sedna – J Chiron Dec 0.0055 struck by THREE (Venus, Ceres, Juno)', lambda: any(xl(x, 'Sedna', 'Chiron') and 'struck by 3' in x['what'] and all(k + ':' in x['what'] for k in ('Venus', 'Ceres', 'Juno')) for x in find('not30', 1)))
+chk(2, 1, 'Nottingham 15:30 field: ONLY runner', lambda: only('not30', 1))
+chk(2, 1, 'Chelmsford: H Chiron – J Rahu Dec 0.337 (near band) by sky Chiron and sky Ceres', lambda: any(xl(x, 'Chiron', 'Rahu') and 'Chiron:' in x['what'] and 'Ceres:' in x['what'] for x in find('che', 1, level='near')))
+chk(2, 1, 'DIFFERENCE: Chelmsford field "ONLY runner" — reader also finds P11 H Mercury – J Neptune Dec 0.4792 (near band) struck by node and Makemake, all Flat strikes; ONLY runner when Flat strikes are left out',
+    lambda: sorted(set(who('che', 1, 'strict')) | set(who('che', 1, 'near'))) == ['P03', 'P11'] and all(e['what'].count('Flat') >= 4 for e in find('che', 1, P='P11', level='near')))
+chk(2, 1, 'Absent in winner: Newmarket July', lambda: not has('nmj', 1))
+chk(2, 1, 'York 16:15: none in field (strict)', lambda: who('y15', 1) == [])
+chk(2, 1, 'Sandown 2024: none in field (strict)', lambda: who('s24', 1) == [])
+chk(2, 1, 'Exeter loser Jarlath: field-only', lambda: who('exe', 1) == [P_of('exe', 'Jarlath')])
+# 2 cross link struck on both ends
+chk(2, 2, 'Huntingdon: sky Juno on H Orcus – J Vesta (Dec 64/9 | Dec 32)', lambda: xe('hun', 'Orcus', 'Vesta', 'sky Juno -> H Orcus Dec 7.11139 (64/9)', 'sky Juno -> J Vesta Dec 32.00451 (32)'))
+chk(2, 2, 'Huntingdon: sky Haumea on H Pluto – J Neptune (RA 63 | Dec 37)', lambda: xe('hun', 'Pluto', 'Neptune', 'sky Haumea -> H Pluto RA', 'sky Haumea -> J Neptune Dec'))
+chk(2, 2, 'Catterick: sky Makemake on H Transpluto – J Sun (Dec 10 | RA 435/9)', lambda: xe('cat', 'Transpluto', 'Sun', 'sky Makemake -> H Transpluto Dec 10.00323 (10)', 'sky Makemake -> J Sun RA 48.33347 (435/9)'))
+chk(2, 2, 'Lingfield: sky Orcus on H Jupiter – J Venus; sky Saturn on H Haumea – J Pallas', lambda: xb('lin', 'Jupiter', 'Venus', 'Orcus') and xb('lin', 'Haumea', 'Pallas', 'Saturn'))
+chk(2, 2, 'Haydock 17:18: sky Venus on H Juno – J Venus (near band); sky Ceres on H Makemake – J Haumea (Dec 2 | Dec 2)', lambda: xb('hy18', 'Juno', 'Venus', 'Venus', level='near') and xe('hy18', 'Makemake', 'Haumea', 'sky Ceres -> H Makemake Dec', 'sky Ceres -> J Haumea Dec'))
+chk(2, 2, 'Newmarket July: H Uranus – J Venus by sky Venus GC 123 | sky Pluto Dec 38', lambda: xe('nmj', 'Uranus', 'Venus', 'sky Venus -> H Uranus GC 122.99504 (123)', 'sky Pluto -> J Venus Dec 38.00131 (38)'))
+chk(2, 2, 'Exeter: H Juno – J Chiron Dec 0.0555 by sky Gonggong GC 153 | sky Uranus GC 74', lambda: xe('exe', 'Juno', 'Chiron', 'sky Gonggong -> H Juno GC', 'sky Uranus -> J Chiron GC'))
+chk(2, 2, 'DIFFERENCE: Exeter "winner tightest strict both-ends cross link" is Layer 4\'s strict shape; by the reader (all strikes, by the link) Pens Man H Sedna – J Rahu Dec 0.0034 (sky Vesta Dec 20 | Dec 20) is tighter; winner\'s Dec 0.0555 is tighter than Pens Man\'s other one',
+    lambda: min((x['link_t'], P) for P, r in F('exe')['per_runner'].items() for x in r['instances'] if x['item'] in (1, 2) and x['level'] == 'strict' and x['nf_t'] is not None)[1] == P_of('exe', 'Pens Man')
+            and has('exe', 2, 'H Sedna – J Rahu RA 107.3741 Dec 0.0034', P=P_of('exe', 'Pens Man')))
+chk(2, 2, 'Exeter field: Pens Man shares the shape', lambda: P_of('exe', 'Pens Man') in who('exe', 2) or P_of('exe', 'Pens Man') in who('exe', 1))
+chk(2, 2, 'York 16:15: H Quaoar – J Sun Dec 0.305 (near) by sky Pluto (RA 29.9984 | Dec 62/9)', lambda: xe('y15', 'Quaoar', 'Sun', 'sky Pluto -> H Quaoar RA 29.99837 (30)', 'sky Pluto -> J Sun Dec 6.88901 (62/9)', level='near'))
+# 3 partner strike
+chk(2, 3, 'Newmarket July: sky Venus -> H Uranus GC 123 on H Uranus – J Venus', lambda: any(xl(x, 'Uranus', 'Venus') and 'partner sky Venus -> H Uranus GC' in x['what'] for x in find('nmj', 3)))
+chk(2, 3, 'Newmarket July: sky Neptune -> J Saturn Dec 25/9 on H Neptune – J Saturn', lambda: any(xl(x, 'Neptune', 'Saturn') and 'partner sky Neptune -> J Saturn Dec' in x['what'] and '(25/9)' in x['what'] for x in find('nmj', 3, level=None)))
+chk(2, 3, 'Newmarket July field: NOT unique (winner 2, Arabian Poet 2, Vecu 2, Big Gypsy King 2)', lambda: {P_of('nmj', h) for h in ('Arabian Poet', 'Vecu', 'Big Gypsy King')} | {'P01'} <= set(who('nmj', 3)))
+chk(2, 3, 'Redcar: H Ceres – J Jupiter Dec 0.1131, sky Jupiter -> H Ceres GC 71.11139 (640/9)', lambda: any(xl(x, 'Ceres', 'Jupiter') and 'sky Jupiter -> H Ceres GC 71.11139 (640/9)' in x['what'] for x in find('red', 3)))
+chk(2, 3, 'Redcar field: ONLY partner strike in the field (strict)', lambda: only('red', 3))
+chk(2, 3, 'EXPLAINED: Haydock 14:20 H Ceres – J Transpluto RA 0.189 partner strike — sky Transpluto -> H Ceres Flat 26.0062 is outside +-0.005; the reader finds the other direction, sky Ceres -> J Transpluto GC 602/9',
+    lambda: any(xl(x, 'Ceres', 'Transpluto') and 'partner sky Ceres -> J Transpluto GC 66.88864 (602/9)' in x['what'] for x in find('hy20', 3)) and not any('sky Transpluto -> H Ceres' in x['what'] for x in find('hy20', 3, level=None)))
+chk(2, 3, 'Haydock 17:18: sky Venus -> H Juno RA 671/9 on H Juno – J Venus (near band)', lambda: any(xl(x, 'Juno', 'Venus') and 'sky Venus -> H Juno RA' in x['what'] and '(671/9)' in x['what'] for x in find('hy18', 3, level='near')))
+# 5 both ends moved
+chk(2, 5, 'Wolverhampton: H Eris – J Jupiter RA 1.1336; H Eris moved RA 8/9; J Jupiter moved GC 122/9', lambda: any(xl(x, 'Eris', 'Jupiter') and 'H Eris moved RA 0.88' in ' '.join(x['moves']) and 'J Jupiter moved GC 13.55' in ' '.join(x['moves']) for x in find('wol', 5)))
+chk(2, 5, 'Wolverhampton field: ONLY runner (strict)', lambda: only('wol', 5))
+chk(2, 5, 'York 16:15: H Venus moved Dec 40 | J Uranus moved GC 135 on H Venus – J Uranus', lambda: any(xl(x, 'Venus', 'Uranus') and '(40)' in ' '.join(x['moves']) and '(135)' in ' '.join(x['moves']) for x in find('y15', 5)))
+chk(2, 5, 'York 16:15 field: NOT unique — Fire Demon, Expensive Queen, Misemerald too', lambda: {P_of('y15', h) for h in ('Fire Demon', 'Expensive Queen', 'Misemerald')} <= set(who('y15', 5)))
+chk(2, 5, 'Exeter: H Ketu – J Ceres (Dec 0.280), node moved RA 1163/9, J Ceres moved RA 124', lambda: any(xl(x, 'Ketu', 'Ceres') and '(1163/9)' in ' '.join(x['moves']) and 'J Ceres moved RA 124.00' in ' '.join(x['moves']) for x in find('exe', 5)))
+# 6 movement onto a cross link
+M6 = [('aw30', 'H', 'Ceres', 'RA', '30', 'Ceres', 'Mars'), ('aw30', 'H', 'Pluto', 'RA', '16', None, None), ('aw16', 'J', 'Juno', 'Dec', '33/9', 'Pluto', 'Juno'),
+      ('hy05', 'J', 'Quaoar', 'GC', '39', 'Gonggong', 'Quaoar'), ('lin', 'H', 'Orcus', 'RA', '9', 'Orcus', 'Vesta'), ('win', 'H', 'Mercury', 'Dec', '30', 'Mercury', 'Chiron'),
+      ('nab', 'J', 'Jupiter', 'RA', '174', 'Makemake', 'Jupiter'), ('nab', 'J', 'Jupiter', 'RA', '174', 'Juno', 'Jupiter'), ('sed', 'H', 'Neptune', 'GC', '11', 'Neptune', 'Mercury'),
+      ('nm35', 'J', 'Haumea', 'RA', '22', 'Makemake', 'Haumea'), ('nm35', 'J', 'Haumea', 'Dec', '53/9', 'Makemake', 'Haumea'), ('not30', 'H', 'Jupiter', 'Dec', '23', 'Jupiter', 'Uranus'),
+      ('che', 'J', 'Neptune', 'Dec', '167/9', 'Ceres', 'Neptune'), ('che', 'J', 'Neptune', 'Dec', '167/9', 'Jupiter', 'Neptune'), ('che', 'J', 'Chiron', 'Dec', '5', 'Uranus', 'Chiron'),
+      ('che', 'H', 'Pluto', 'GC', '51/9', 'Pluto', 'Sun'), ('asc', 'J', 'Chiron', 'RA', '40', 'Sedna', 'Chiron'), ('fon', 'H', 'Vesta', 'Dec', '57/9', 'Vesta', 'Sedna'),
+      ('fon', 'J', 'Gonggong', 'Dec', '69/9', 'Gonggong', 'Juno'), ('fon', 'J', 'Neptune', 'GC', '564/9', 'Saturn', 'Neptune'), ('nc40', 'J', 'Ceres', 'Dec', '4', 'Haumea', 'Ceres'),
+      ('nc40', 'H', 'Ceres', 'Dec', '6', 'Ceres', 'Chiron'), ('hy18', 'J', 'Eris', 'GC', '110/9', 'Gonggong', 'Eris'), ('per', 'H', 'Ceres', 'RA', '132', 'Ceres', 'Uranus'),
+      ('per', 'H', 'Makemake', 'Dec', '30/9', 'Makemake', 'Haumea'), ('per', 'J', 'Neptune', 'GC', '508/9', 'Pluto', 'Neptune'), ('y45', 'H', 'Pluto', 'RA', '6', 'Pluto', 'Uranus'),
+      ('y45', 'J', 'Pallas', 'RA', '92', 'Orcus', 'Pallas'), ('not50', 'H', 'Eris', 'RA', '12/9', 'Eris', 'Vesta'), ('y15', 'H', 'Quaoar', 'RA', '5', 'Quaoar', 'Mars'), ('y15', 'H', 'Quaoar', 'RA', '5', 'Quaoar', 'Rahu')]
+for r, c, b, pl, n, h, j in M6:
+    if h is None or (r, b) == ('fon', 'Gonggong'): continue
+    chk(2, 6, f'{A[r]}: {c} {b} moved {pl} {n} onto H {h} – J {j}', (lambda r, c, b, pl, n, h, j: lambda: mv6(r, c, b, pl, n, h, j))(r, c, b, pl, n, h, j))
+chk(2, 6, 'DIFFERENCE: Fontwell J Gonggong moved Dec 69/9 — the cross link is H Gonggong – J Juno, so J Gonggong is not an end (same body, other chart); not item 6 by its definition',
+    lambda: not mv6('fon', 'J', 'Gonggong', 'Dec', '69/9', 'Gonggong', 'Juno') and any(m['chart'] == 'J' and m['body'] == 'Gonggong' and m['num'] == '69/9' for m in json.load(open(f"docs/classic/{A['fon']}/layer1/P05.json"))['movement']))
+chk(2, 6, 'Haydock 17:18: J Venus moved Dec 11 onto H Juno – J Venus (near band)', lambda: mv6('hy18', 'J', 'Venus', 'Dec', '11', 'Juno', 'Venus', level='near'))
+chk(2, 6, 'Wincanton field: winner\'s movement onto a cross link is the tightest', lambda: tightest('win', 6) == 'P07')
+chk(2, 6, 'DIFFERENCE: Newmarket 15:35 field "two-plane movement onto a cross link only Eydon and Dawn Of Liberation" — reader also finds Austrian Theory H Gonggong (Flat + Dec)',
+    lambda: sorted(P for P, x in F('nm35')['per_runner'].items() if any(len({i['what'].split(' moved ')[1].split(' ')[0] for i in x['instances'] if i['item'] == 6 and i['level'] == 'strict' and i['what'].startswith(b + ' moved ')}) >= 2
+                                                                       for b in {i['what'].split(' moved ')[0] for i in x['instances'] if i['item'] == 6 and i['level'] == 'strict'})) == sorted(['P07', P_of('nm35', 'Dawn Of Liberation'), P_of('nm35', 'Austrian Theory')]))
+# 7 swap
+chk(2, 7, 'Fontwell: TWO swaps — Saturn/Neptune and Sedna/Vesta', lambda: has('fon', 7, ('swap Saturn/Neptune', 'swap Neptune/Saturn')) and has('fon', 7, ('swap Sedna/Vesta', 'swap Vesta/Sedna'), level=None))
+chk(2, 7, 'Fontwell field: Vale Dolobo Dancer one (Rahu/Sun), others none', lambda: who('fon', 7) == sorted(['P05', P_of('fon', 'Vale Dolobo Dancer')]))
+chk(2, 7, 'Sandown 2024: Ceres/Juno swap', lambda: has('s24', 7, ('swap Ceres/Juno', 'swap Juno/Ceres')))
+chk(2, 7, 'Sandown 2024 field: ONLY swap', lambda: who('s24', 7) == ['P13'])
+chk(2, 7, 'Newmarket July: no swap in winner; only Vecu (Juno–Quaoar)', lambda: who('nmj', 7) == [P_of('nmj', 'Vecu')])
+chk(2, 7, 'York 15:45 and York 16:15: none in field', lambda: not who('y45', 7) and not who('y15', 7))
+chk(2, 7, 'Exeter blind: Blaze A Trail field-only swap', lambda: who('exe', 7) == [P_of('exe', 'Blaze A Trail')])
+# 9 / 10 pair in one chart struck on both ends
+P9 = [('ffo', 'H', 'Mars', 'Orcus', 'Gonggong'), ('ffo', 'J', 'Mars', 'Transpluto', 'Pluto'), ('asc', 'H', 'Saturn', 'Transpluto', 'Quaoar'), ('car', 'H', 'Sun', 'Uranus', 'Vesta'),
+      ('car', 'J', 'Pallas', 'Eris', 'Node'), ('fon', 'J', 'Jupiter', 'Gonggong', 'Chiron'), ('hy05', 'H', 'Saturn', 'Pluto', 'Node'), ('hy05', 'J', 'Venus', 'Pluto', 'Saturn'),
+      ('hy05', 'H', 'Eris', 'Gonggong', 'Ceres'), ('hy05', 'J', 'Sedna', 'Orcus', 'Pallas'), ('hun', 'J', 'Pluto', 'Rahu', 'Juno'), ('lin', 'J', 'Juno', 'Transpluto', 'Mercury'),
+      ('lin', 'J', 'Saturn', 'Pallas', 'Saturn'), ('nc40', 'J', 'Jupiter', 'Ceres', 'Sedna'), ('nm35', 'J', 'Sedna', 'Haumea', 'Haumea'), ('nm35', 'J', 'Uranus', 'Neptune', 'Vesta'),
+      ('nab', 'J', 'Uranus', 'Vesta', 'Gonggong'), ('nab', 'H', 'Uranus', 'Sedna', 'Eris'), ('not30', 'J', 'Mars', 'Chiron', 'Juno'), ('not30', 'J', 'Chiron', 'Pallas', 'Makemake'),
+      ('not50', 'H', 'Jupiter', 'Pluto', 'Vesta'), ('not50', 'J', 'Pallas', 'Orcus', 'Node'), ('not50', 'H', 'Saturn', 'Uranus', 'Node'), ('not50', 'H', 'Saturn', 'Haumea', 'Node'),
+      ('not50', 'H', 'Uranus', 'Pallas', 'Node'), ('s21', 'J', 'Mars', 'Sun', 'Ceres'), ('s24', 'H', 'Juno', 'Orcus', 'Node'), ('win', 'J', 'Ceres', 'Haumea', 'Ceres'),
+      ('wol', 'H', 'Neptune', 'Gonggong', 'Sedna'), ('wol', 'H', 'Eris', 'Sedna', 'Transpluto'), ('y45', 'H', 'Pluto', 'Juno', 'Pluto'), ('y45', 'J', 'Mercury', 'Eris', 'Sun'),
+      ('aw20', 'J', 'Neptune', 'Rahu', 'Neptune')]
+for r, c, a, b, k in P9[:-1]:
+    chk(2, 9, f'{A[r]}: {c} {a}–{b} struck on both ends by sky {k}', (lambda r, c, a, b, k: lambda: p9(r, c, a, b, k))(r, c, a, b, k))
+chk(2, 10, 'Sandown 2024: J Mars–Jupiter Dec 50 by THREE (Sun, Uranus, Eris)', lambda: any(x['what'].startswith('J Mars–Jupiter ') and all(f' {k}: ' in x['what'].replace('— ', ' ').replace('; ', ' ') for k in ('Sun', 'Uranus', 'Eris')) for x in find('s24', 10)))
+chk(2, 10, 'Ffos Las: J Jupiter–Vesta Dec 5 by Ceres and Haumea', lambda: any(x['what'].startswith('J Jupiter–Vesta ') and 'Ceres:' in x['what'] and 'Haumea:' in x['what'] for x in find('ffo', 10)))
+chk(2, 10, 'Newcastle AW 13:30: J Gonggong–Transpluto RA 175 by Chiron and Quaoar', lambda: any(x['what'].startswith('J Gonggong–Transpluto ') and 'Chiron:' in x['what'] and 'Quaoar:' in x['what'] for x in find('aw30', 10)))
+chk(2, 10, 'York 15:45: H Jupiter–Pluto RA 28 by Pluto and Quaoar', lambda: any(x['what'].startswith('H Jupiter–Pluto ') and 'Pluto:' in x['what'] and 'Quaoar:' in x['what'] for x in find('y45', 10)))
+chk(2, 10, 'Haydock 14:20: H Saturn–Pallas by Venus and Pallas; Contact has the shape too', lambda: any(x['what'].startswith('H Saturn–Pallas ') and 'Venus:' in x['what'] and 'Pallas:' in x['what'] for x in find('hy20', 10))
+    and P_of('hy20', 'Contact') in who('hy20', 10))
+# 11 same number / ratio in both charts
+chk(2, 11, 'Nottingham 17:50: 34 — H Jupiter–Pluto RA 34 and J Pallas–Orcus RA 34', lambda: has('not50', 11, 'number 34: ', 'H Jupiter–Pluto RA', 'J Pallas–Orcus RA'))
+chk(2, 11, 'Nottingham 17:50: 19/8 — J Saturn–Eris RA and H Uranus–Ceres RA', lambda: has('not50', 11, 'ratio 19/8: ', 'H Uranus–Ceres RA', 'J Saturn–Eris RA'))
+chk(2, 11, 'Newmarket July: 21 — H Vesta Equator and J Venus–Pluto Dec (one number family)', lambda: has('nmj', 11, 'number 21: ', 'H Vesta Equator', 'J Venus–Pluto Dec'))
+chk(2, 11, 'Redcar: 19 — J Gonggong Equator = H Venus–Gonggong Dec', lambda: has('red', 11, 'number 19: ', 'H Venus–Gonggong Dec', 'J Gonggong Equator'))
+chk(2, 11, 'EXPLAINED: Redcar "shared with Oheka" — Oheka\'s same number is 66 in different planes (H GC / J Flat), so it is listed as other plane (answer C)', lambda: has('red', 11, 'number 66: ', P=P_of('red', 'Oheka'), level='other') and not has('red', 11, P=P_of('red', 'Oheka')))
+chk(2, 11, 'York 16:15 loser Blue Prince: 19 — H Saturn Equator and J Saturn Equator', lambda: has('y15', 11, 'number 19: ', 'H Saturn Equator', 'J Saturn Equator', P=P_of('y15', 'Blue Prince')))
+# 14 shared pair also cross-linked
+chk(2, 14, 'Exeter: Chiron–Juno shared GC + cross H Juno – J Chiron', lambda: has('exe', 14, pr('Chiron–Juno'), 'cross H Juno – J Chiron'))
+chk(2, 14, 'Exeter field: winner and Caspers Court (Saturn–Ceres)', lambda: who('exe', 14) == sorted(['P11', P_of('exe', 'Caspers Court')]) and has('exe', 14, pr('Saturn–Ceres'), P=P_of('exe', 'Caspers Court')))
+chk(2, 14, 'Ffos Las: Jupiter–Vesta shared GC + H Vesta – J Jupiter RA 0.1901', lambda: has('ffo', 14, pr('Jupiter–Vesta'), 'cross H Vesta – J Jupiter RA 0.1901'))
+# 18 same-body set joined
+chk(2, 18, 'York 16:15: Chiron GC set and node Dec set joined', lambda: has('y15', 18, 'same-body Chiron GC') and has('y15', 18, ('same-body Rahu Dec', 'same-body Ketu Dec')))
+chk(2, 18, 'Newmarket July: Uranus set joined (Uranus a cross-link end)', lambda: has('nmj', 18, 'same-body Uranus', 'cross H Uranus – J Venus'))
+chk(2, 18, 'Exeter: Chiron set joined; Fontwell Juno and Venus sets; Perth Uranus; Nottingham 17:50 Vesta', lambda: has('exe', 18, 'same-body Chiron Dec') and has('fon', 18, 'same-body Juno Dec')
+    and has('fon', 18, 'same-body Venus Dec') and has('per', 18, 'same-body Uranus') and has('not50', 18, 'same-body Vesta'))
+# 23 one body in ratios in both charts
+chk(2, 23, 'Sandown 2021: Mercury 3 + 3', lambda: has('s21', 23, 'Mercury: H 3 (', '| J 3 ('))
+chk(2, 23, 'Huntingdon: Juno and Gonggong in both charts', lambda: has('hun', 23, 'Juno: ') and has('hun', 23, 'Gonggong: '))
+chk(2, 23, 'Newcastle AW 13:30: Juno 5 hits in both charts (0.01%)', lambda: has('aw30', 23, 'Juno: H ', level=None) and sum(int(x['what'].split('H ')[1].split(' ')[0]) + int(x['what'].split('| J ')[1].split(' ')[0]) for x in find('aw30', 23, 'Juno: ', level=None)) >= 5)
+chk(2, 23, 'Newbury: Transpluto; Newmarket July: Chiron and Vesta; York 16:15: Transpluto and Chiron; Exeter: Juno', lambda: has('nby', 23, 'Transpluto: ') and has('nmj', 23, 'Chiron: ')
+    and has('nmj', 23, 'Vesta: ') and has('y15', 23, 'Transpluto: ') and has('y15', 23, 'Chiron: '))
+chk(2, 23, 'EXPLAINED: Exeter Juno is in Best\'s ratios only (the horse end is the cross link, not a horse ratio) — not item 23 by its definition', lambda: not has('exe', 23, 'Juno: ', level=None))
+# 25 Equator whole/ninth + chains
+chk(2, 25, 'York 16:15: H Rahu 23 with chains sky Sun – H Ketu Dec 42 and H Ketu – J Pallas Dec 9', lambda: has('y15', 25, 'H Rahu |Dec| 23.00196 = 23', 'S Sun–H Ketu Dec 42', 'H Ketu–J Pallas Dec 9'))
+chk(2, 25, 'York 16:15: J Pallas 14 (off 0.0069) with chain sky Sun – J Pallas Dec 33 = 19 + 14', lambda: has('y15', 25, 'J Pallas |Dec| 14.00695 = 14', 'S Sun–J Pallas Dec 33 from S Sun–EQ 19 & J Pallas–EQ 14'))
+chk(2, 25, 'York 16:15 field count does NOT separate: winner 2, Blue Prince 2, Ribble Radiant 3', lambda: [len(find('y15', 25, P=P_of('y15', h))) for h in ('Diligent Resdev', 'Blue Prince', 'Ribble Radiant')] == [2, 2, 3])
+chk(2, 25, 'Newmarket July: H Sun 12, H Vesta 21', lambda: has('nmj', 25, 'H Sun |Dec|', '= 12 ') and has('nmj', 25, 'H Vesta |Dec|', '= 21 '))
+E25 = [('nby', 'H Sun', '15'), ('hy05', 'H Haumea', '19'), ('hy05', 'H Chiron', '44/9'), ('nc40', 'H Chiron', '2'), ('nm35', 'J Neptune', '19'), ('nab', 'J Orcus', '2'),
+       ('s24', 'J Transpluto', '13'), ('sed', 'J Jupiter', '15'), ('sed', 'H Pluto', '191/9'), ('sed', 'J Rahu', '178/9'), ('exe', 'J Neptune', '22'), ('red', 'J Uranus', '22'), ('red', 'J Gonggong', '19')]
+for r, b, n in E25: chk(2, 25, f'{A[r]}: {b} Equator {n}', (lambda r, b, n: lambda: has(r, 25, f'{b} |Dec|', f'= {n} '))(r, b, n))
+chk(2, 25, 'Newcastle AW 12:20: no whole/ninth Equator values in the natal charts', lambda: not has('aw20', 25))
+# 28 one sky body on one natal body in RA and Dec
+chk(2, 28, 'Newcastle AW 12:20: sky Gonggong -> J Uranus RA 94, Dec 83/9', lambda: has('aw20', 28, 'sky Gonggong -> J Uranus RA', '(94) and Dec', '(83/9)'))
+chk(2, 28, 'Nottingham 15:30: sky Jupiter -> J Vesta RA 18, Dec 137/9', lambda: has('not30', 28, 'sky Jupiter -> J Vesta RA', '(18) and Dec', '(137/9)'))
+chk(2, 28, 'Perth: sky Juno -> J Haumea RA 1219/9, Dec 26', lambda: has('per', 28, 'sky Juno -> J Haumea RA', '(1219/9) and Dec', '(26)'))
+chk(2, 28, 'York 15:45: sky Sun -> J Mercury RA 136, Dec 25', lambda: has('y45', 28, 'sky Sun -> J Mercury RA', '(136) and Dec', '(25)'))
+chk(2, 28, 'Haydock 14:20: winner none, three beaten runners one each', lambda: not has('hy20', 28) and len(who('hy20', 28)) == 3 and all(len(find('hy20', 28, P=P)) == 1 for P in who('hy20', 28)))
+# 29 pair in one chart whole/ninth in RA and Dec
+chk(2, 29, 'Sandown 2021: J Mars–Sun RA 118, Dec 92/9', lambda: has('s21', 29, ('J Mars–Sun', 'J Sun–Mars'), '= 118, Dec', '= 92/9'))
+chk(2, 29, 'Fontwell: J Pluto–Quaoar RA 6/9, Dec 7', lambda: has('fon', 29, ('J Pluto–Quaoar', 'J Quaoar–Pluto'), '= 6/9, Dec', '= 7'))
+chk(2, 29, 'Wincanton: J Pallas–Rahu RA 380/9, Dec 3', lambda: has('win', 29, ('J Pallas–Rahu', 'J Rahu–Pallas'), '= 380/9, Dec', '= 3'))
+chk(2, 29, 'Perth: H Pallas–Uranus RA 951/9, Dec 112/9', lambda: has('per', 29, ('H Pallas–Uranus', 'H Uranus–Pallas'), '= 951/9, Dec', '= 112/9'))
+# 30 tightest cross link
+chk(2, 30, 'Catterick: H Sun – J Vesta Dec 0.00010 — tightest cross link in the race', lambda: has('cat', 30, 'H Sun – J Vesta') and tightest('cat', 30) == 'P07')
+chk(2, 30, 'Newton Abbot: H Sedna – J Chiron Dec 0.0147 — tightest in the race', lambda: has('nab', 30, 'H Sedna – J Chiron') and tightest('nab', 30) == 'P07')
+chk(2, 30, 'Newmarket July: H Uranus – J Venus Dec 0.060 — tightest Venus–Uranus link in field', lambda: min((min(x['RA'] / 1.5, x['Dec'] / 0.3), P) for P in F('nmj')['per_runner']
+    for x in json.load(open(f"docs/classic/{A['nmj']}/layer1/{P}.json"))['links'] if x['kind'] == 'cross' and {x['a'][2:], x['b'][2:]} == {'Venus', 'Uranus'})[1] == 'P01')
+
 # ============================================================== run
 if __name__ == '__main__':
     ok = bad = nd = 0
@@ -235,7 +395,7 @@ if __name__ == '__main__':
         if st > STEP or (ONLY and item != ONLY): continue
         try: res = fn()
         except Exception as e: res = False; label += f'  [{type(e).__name__}: {e}]'
-        print(f"  {('diff' if label.startswith('DIFFERENCE') else 'ok  ') if res else 'FAIL'} [{item:2d}] {label}")
-        ok += bool(res); bad += not res; nd += bool(res) and label.startswith('DIFFERENCE')
-    print(f'{ok}/{ok + bad}  (of which {nd} DIFFERENCE checks: the reader follows the definition, the hand read differed — for Eddie)')
+        print(f"  {('diff' if label.startswith(('DIFFERENCE', 'EXPLAINED')) else 'ok  ') if res else 'FAIL'} [{item:2d}] {label}")
+        ok += bool(res); bad += not res; nd += bool(res) and label.startswith(('DIFFERENCE', 'EXPLAINED'))
+    print(f'{ok}/{ok + bad}  (of which {nd} DIFFERENCE / EXPLAINED checks: the reader follows the definition, the hand read differed — for Eddie)')
     sys.exit(1 if bad else 0)
