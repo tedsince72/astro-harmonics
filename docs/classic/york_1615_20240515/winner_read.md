@@ -70,3 +70,18 @@ Mercury–Saturn and Mars–Uranus are close in both natal charts. Chiron–Tran
 - 15: Lady Pink Rose also has a web of 6.
 - 16: Mason's natal Mercury–Saturn is in every race she rides; weaker link between her wins.
 - Confirmed: 4, 6, 7, 9, 10, 13, 14, and no 2+-sky-body cross links or swaps in the field (also with Ketu / GC).
+
+## Deeper (12 Oct 2026, Eddie: 'anything else deeper')
+17. The Chiron–Quaoar–Rahu strand: each of its three bodies also has its own same-body set (sky : horse : jockey):
+    Rahu/Ketu Dec 9/4 : 5/4 : 9/5 (worst 0.041%; sky–horse 17.2736, horse–jockey 38.8568, sky–jockey 21.5831);
+    Chiron GC 6 : 5 : 6/5 (worst 0.067%); Quaoar Flat 63/8 : 62/7 : 9/8 (worst 0.107%).
+    They are joined: horse Chiron–Quaoar GC 9/8, horse Quaoar on Mason Rahu (Dec 0.284), horse Chiron–Transpluto Dec 11/2.
+    Field (same-body sets <= 0.15%, joined through sky/natal ratios and cross links): the winner is the only runner with three
+    same-body bodies in one web; Blue Prince, Respectful, Lady Pink Rose and Ribble Radiant have two; the rest one.
+    Tight same-body sets on their own are common (Fire Demon Vesta 0.000%, Ribble Radiant Pallas 0.007%).
+18. Quaoar movement and Quaoar same-body agree: horse Quaoar moved RA 4.9970; sky–horse Quaoar Flat 5.0303.
+19. Bridge between the two strands, in the horse natal chart: Mercury–Transpluto Dec 29.99703 = 30.
+    Mercury is in the Saturn web (Mercury–Saturn 19/3); Transpluto is in the Chiron strand (Chiron–Transpluto 11/2).
+20. Sky numbers on the web's pairs: sky Pluto–Uranus Dec 41.00342 = 41 (Mason's Uranus–Pluto is 15/7);
+    sky Chiron–Sedna RA 41.11080 = 370/9 (Chiron strand; Sedna in Mason Rahu–Sedna 27/4); sky Rahu–Venus Dec 100/9 (11.11069).
+21. Equator: sky Mercury 8.3641 / horse Mercury 19.5174 = 3/7 (0.006%, just outside 0.005%). Mercury again.
