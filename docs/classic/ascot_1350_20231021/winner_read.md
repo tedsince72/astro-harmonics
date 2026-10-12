@@ -11,3 +11,8 @@ Claims to check (winner file __P01):
 4. Pallas: horse Ceres – Allan Pallas Dec 0.0499; Allan Mars–Pallas Flat natal 26.5893 / sky 21.2708 = 5/4 (0.0029%); horse Sun–Pallas Flat 16/7; horse Pluto–Pallas Flat 11/9.
 5. Node: horse Rahu–Transpluto RA 0.3343 Dec 0.1225; horse Ketu – Allan Quaoar Dec 0.1498; Rahu Equator horse 11.3771 / Allan 22.7500 = 1/2 (0.019%); Allan Rahu moved RA 82.0034 (82).
 6. Other: horse Jupiter–Orcus RA sky/natal 25/9 (0.0004%); Allan Uranus–Ceres Flat 19/2 (0.0008%); Haumea Equator horse/jockey 3/5 (0.005%); sky Vesta |Dec| 18.99773 (19).
+
+## Checker (independent, recomputed): 2–5 confirmed; 1 and 6 corrected
+- 1: NOT unique. Rohaan / Ryan Moore (14th) also has a struck triangle: jockey Eris–Ketu Dec 12, Eris–Sun Dec 13, Ketu–Sun Dec 25, sky Neptune Dec 8 / 20 / 5
+  (my both_ends.py leaves Ketu out, so it missed this). Vadream and Believing qualify only through the automatic Rahu–Ketu pair.
+- 6: the 3/5 Haumea Equator is sky 14.4262 / Allan 24.0425 (0.005%), not horse/jockey (that is 11/8, 0.088%).
