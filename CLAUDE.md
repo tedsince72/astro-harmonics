@@ -33,38 +33,55 @@ what did NOT separate winners, the blind tests so far, and the open candidates. 
   Outputs `docs/classic/<race>/layer1..layer5/`. Results only via `python3 tools/layer4_field.py <race> --results` (separate file).
   Designs and test results: `docs/classic/how_it_works.md`, `layer*_design.md`, `layer*_README.md`, `pair_focus_design.md`.
   Tests: `tests/layer1_reproduce.py <race>`, `tests/layer2_check.py`, `tests/layer3_check.py`, `tests/layer4_check.py`, `tests/layer5_check.py`.
+- Checklist reader: `tools/checklist_reader.py <race> [--results]`; tests `tests/checklist_check.py`. Watch line: `tools/scans/watch_jupiter.py`.
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
-  `strings.py`; scans in `tools/scans/`.
+  `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
 - On the Mac: see `docs/MAC_SETUP.md` (venv with Python 3.12+, `pip install openpyxl`). Scripts call `python3.12`; inside the venv
   `python3` is fine (edit `tools/run_layers.sh` if `python3.12` is not on the PATH).
 
-## Where we are (12 Oct 2026)
-- Layers 1–5 built and tested against all 29 hand reads + Dettori; frozen v2 = commit 4baefa1 (see how_it_works.md).
-- Blind batch of 10 older races (results exist, never read with this method), one race at a time:
-  done Exeter 15:15 (winner Forget You Not — layers missed it), Redcar 15:15 (winner Present Moment — the only partner strike, layers had it),
-  Haydock 14:20 (winner Golden Flame — layers missed it; Orcus: Fanning's Ketu at the midpoint of horse Orcus and sky Orcus; soaks).
-  Next: Kempton 14:40 (4 Sep 2021), then Fontwell 16:45, Goodwood 18:53, Musselburgh 13:45, Worcester 13:00, Newcastle AW 16:33,
-  Catterick 14:40 (Mason's Wotever Next — partly seen before).
-- Lesson so far: the layers find general shapes; winners have been found in specific DETAIL (checklist). Eddie's decision (12 Oct):
-  continue on the Mac with Claude Code, short sessions, and build an accurate reader around the winner checklist — each checklist item
-  a small test, run on every runner, reported with tightness and field rarity; grow the checklist one confirmed item at a time.
-- Checklist reader FROZEN (12 Oct): CR v1.1 = commit 3d62207. `python3 tools/checklist_reader.py <race>` -> docs/classic/<race>/checklist/
-  (field.txt = race page with the watch line; P##.txt = runner page with joins). Tests `python3 tests/checklist_check.py` (421/421, 13
-  DIFFERENCE/EXPLAINED). Design, as-built notes and Eddie's decisions: docs/classic/checklist_reader_design.md (sections 9–11).
-  Item rates: docs/classic/checklist_rates.txt. Blind batch with the frozen reader: Kempton 14:40 done (winner Hamish — its only field-only
-  item the node loop); Fontwell 16:45 done (winner Pixie Loc — its only field-only item: H Eris – J Jupiter both ends moved, as Ziggy's Dream at Wolverhampton); Goodwood 18:53 done (winner Madame Tantzy, no field-only item).
-  NOT BLIND (Eddie, 12 Oct): Musselburgh 13:45 (winner Graces Quest seen in another chat before this read; read anyway, result opened:
-  1 Graces Quest 11/1 — no field-only item, holds the Jupiter watch line E); Worcester 13:00 (winner Rhythm Is A Dancer — confirmed from the
-  csv) and Newcastle AW 16:33 (winner Athmad — confirmed; also Dubai Souq 6th seen by mistake) — not read. Catterick 14:40 2022 (Wotever Next)
-  was seen before. So NO genuinely blind race is left in the batch. Southwell 20:00 10 Oct 2026 has layer outputs but no results file in the
-  repo and is not in the batch — blind only if Eddie has not seen its result.
-  Watch line (fixed 12 Oct, not to be changed after results): rare Jupiter–Jupiter across charts — tools/scans/watch_jupiter.py <race>
-  -> checklist/watch_jupiter.txt. It is LOOSE: 7 of 14 runners in the opened blind races (Kempton, Fontwell, Goodwood) incl. all 3 winners.
-  Do not open reference/profiles_test_scored.csv during blind work (it holds results).
-- Open candidates (built into the reader as items 14, 17, 20, 21; still not frozen rules): shared pair that is also cross-linked; the Dec 9/4 : 5/4 : 9/5 same-body split; natal body at
-  the midpoint of a body and its own sky body; soak (one value from 4+ non-star partners across horse, jockey, sky). Details in the checklist.
+## Where we are (12 Oct 2026, end of session)
+- Frozen tools (do not change during a test; a change = new version + new freeze commit):
+  - Layers 1–5 frozen v2 = commit 4baefa1 (how_it_works.md).
+  - Checklist reader CR v1.1 = commit 3d62207: `python3 tools/checklist_reader.py <race>` -> docs/classic/<race>/checklist/
+    (field.txt = race page incl. the 17/14/15 watch line; P##.txt = runner pages with field-relative joins). Tests
+    `python3 tests/checklist_check.py` (421/421; 13 DIFFERENCE/EXPLAINED for Eddie). Design + as-built + Eddie's decisions:
+    docs/classic/checklist_reader_design.md (sections 9–11).
+  - Jupiter watch line, fixed 12 Oct before Musselburgh, NOT to be changed after results: `python3 tools/scans/watch_jupiter.py <race>`
+    -> checklist/watch_jupiter.txt ("a rare item linking Jupiter with itself across charts": Jupiter Equator ratio, same-body set,
+    movement onto a whole/ninth, or close cross link H Jupiter – J Jupiter; rare = held by < half the field). LOOSE: 7 of 14 runners in
+    the opened blind races, incl. all 3 winners.
+- Blind batch — finished; no genuinely blind race left in it:
+  - Blind for the layers: Exeter 15:15 (Forget You Not), Redcar 15:15 (Present Moment), Haydock 14:20 (Golden Flame).
+  - Blind for the checklist reader: Kempton 14:40 (Hamish — only field-only item the node loop), Fontwell 16:45 (Pixie Loc — only
+    field-only item H Eris – J Jupiter both ends moved, as Ziggy's Dream), Goodwood 18:53 (Madame Tantzy — no field-only item).
+  - NOT blind: Musselburgh 13:45 (winner Graces Quest seen in another chat; read anyway, not counted); Worcester 13:00 (Rhythm Is A Dancer)
+    and Newcastle AW 16:33 (Athmad; also Dubai Souq 6th seen by mistake) — winners confirmed, not read; Catterick 14:40 2022 (Wotever Next)
+    seen before. Southwell 20:00 10 Oct 2026 has layer outputs, no results file, not in the batch — blind only if Eddie has not seen it.
+  - Every result and read is in the checklist section 4 (blind tests).
+- Scans done this session (read-only, tools/scans/; outputs docs/classic/*.txt). The read races are NOT evidence:
+  - field_only_rates: winners by number of strict field-only items. Blind for the reader (3 races, 14 runners): 0 items 1/4, 1 item 2/5,
+    2 items 0/3, 3+ 0/2 — far too small to read; worth tracking.
+  - sky_anchored_soak (+ compare): no separation; same-afternoon pairs share anchors no more than other runner pairings (checklist sec. 5 item 9).
+  - star_join_scan (on = RA < 1.5 AND Dec < 0.3): star joins almost never happen; the few are horse Transpluto (age) or Cobden's J Rahu on Regulus.
+  - jupiter_partner_scan: partner body does not separate; rare Jupiter–Jupiter across charts hit all 3 blind winners (23-body control: only
+    Jupiter did) -> the watch line above. Recurring cross link added: H Eris – J Jupiter both ends moved (Wolverhampton, Fontwell 16:45).
+- Open candidates (checklist section 5): items 14, 17, 20, 21 are in the reader but not proven; sky-anchored soak (no separation); Jupiter watch line.
+- Do not open reference/profiles_test_scored.csv or reference/profiles_blind_kit.csv during blind work (they hold results).
+
+## Forward-test routine (every new race from now on — the only genuine tests left)
+1. Eddie supplies the race's xlsx + csv (no scraper). Put them in reference/classic/ as race_batch_<yyyymmdd>_<course>_<hhmm>.xlsx|csv.
+   Claude does NOT open the csv (it holds the result) and opens nothing else that could hold it.
+2. Split: `python3 tools/split_batch.py <batch.xlsx> reference/classic/<course>_<hhmm>_<yyyymmdd> <course>_<hhmm>_<yyyymmdd>`.
+3. Blind read with the frozen tools only: `bash tools/run_layers.sh <race>`, `python3 tools/checklist_reader.py <race>`,
+   `python3 tools/scans/watch_jupiter.py <race>`. No rule, threshold or watch-line change before the result.
+4. Independent checker (subagent, blind: no csv / results / --results) recomputes the race page, field-only claims, joins and watch line
+   from the workbooks. Apply corrections. Commit + push the blind read BEFORE the result ("Blind N: <race> ...").
+5. Show Eddie the race page, joins per runner and the watch line. Open the result only when Eddie says:
+   `python3 tools/checklist_reader.py <race> --results` (writes checklist/field_results.txt). Commit + push.
+6. Record in the checklist section 4 (said / result / winner had) and update the tallies (tools/scans/field_only_rates.py: add the race to
+   BLIND; watch line holders vs finish). Any new idea is written down as a candidate, fixed before the next race, and only tested forward.
 
 ## How to run a session
-1. Start: `cd ~/astro-harmonics && git pull` then `claude`. Say what you want to do (e.g. "read Kempton 14:40 blind").
+1. Start: `cd ~/astro-harmonics && git pull`, `source ~/astro-venv/bin/activate`, then `claude`. Say what you want to do (e.g. "forward test: <race>").
 2. Work one race or one script change. Checker after each read. Commit + push.
 3. End: ask Claude to update "Where we are" here and the checklist, commit and push; then type `exit`.
