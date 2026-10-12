@@ -1,0 +1,167 @@
+== 6 Cuban Hope / 6 Ellie MacKenzie   [newcastle_aw_1220_20211112__P09.xlsx, L2 v1 (12 Oct 2026)]
+-- counts by section: contacts root 39; eq_ratios root 3; hj_ratios root 25; links derived 7, mirror 2, root 120; movement root 8; pair_family root 126; ratios root 19; same_body root 1; shared root 4; sky race_level 10, root 8; sky_close race_level 10; splits from_numbers 4, root 63; strikes derived 9, duplicate 5, mirror 3, root 66
+-- Dec groups (3+ points joined by numbers)
+   H Neptune, H Saturn, J Eris, J Jupiter, J Makemake, J Pluto, S Makemake, S Pallas, S Transpluto, S Uranus
+   H Gonggong, H Mars, H Pallas, J Haumea, J Juno, J Pallas, J Uranus, S Mercury
+   H Venus, J Mars, J Neptune, J Rahu, S Ketu, S Orcus, S Pluto
+   H Rahu, H Sun, H Uranus, J Chiron, J Orcus, J Saturn, S Neptune
+   H Ceres, H Vesta, J Ceres, J Vesta, S Quaoar, S Sun
+   H Makemake, J Ketu, S Haumea, S Juno, S Rahu, S Venus
+-- RA groups (3+ points joined by numbers)
+   H Gonggong, H Makemake, H Sedna, H Venus, J Gonggong, J Haumea, J Jupiter, J Saturn, J Uranus
+   H Saturn, H Uranus, J Ceres, J Venus, S Ceres, S Transpluto, S Uranus
+   H Ketu, H Pluto, H Rahu, S Mars, S Sedna
+   H Jupiter, J Ketu, J Rahu, J Sedna, S Haumea
+   H Chiron, H Mars, H Pallas, J Mercury, J Pluto
+   H Eris, H Mercury, J Quaoar, S Saturn, S Venus
+   J Neptune, S Juno, S Orcus
+-- derived items (with chain)
+   DERIVED  J J Pallas–J Juno Dec 4.99590 = 5
+            <- natal     J J Pallas–J Haumea Dec 18.99725 = 19
+            <- natal     J J Juno–J Haumea Dec 14.00135 = 14
+   DERIVED  cross H Ceres–J Ceres Dec 4.11124 = 37/9
+            <- cross     cross H Ceres–J Vesta Dec 1.66679 = 15/9
+            <- natal     J J Ceres–J Vesta Dec 5.77803 = 52/9
+   DERIVED  cross H Vesta–J Ceres Dec 14.99937 = 15
+            <- cross     cross H Vesta–J Vesta Dec 20.77740 = 187/9
+            <- natal     J J Ceres–J Vesta Dec 5.77803 = 52/9
+   DERIVED  cross H Mars–J Haumea Dec 37.00314 = 37
+            <- cross     cross H Mars–J Juno Dec 23.00178 = 23
+            <- natal     J J Juno–J Haumea Dec 14.00135 = 14
+   DERIVED  cross H Pallas–J Juno Dec 6.00409 = 6
+            <- natal     H H Mars–H Pallas Dec 16.99769 = 17
+            <- cross     cross H Mars–J Juno Dec 23.00178 = 23
+   DERIVED  sky Makemake -> H Neptune Dec 31.22182 = 281/9
+            <- strike    sky Makemake -> H Saturn Dec 42.77762 = 385/9
+            <- natal     H H Saturn–H Neptune Dec 11.55580 = 104/9
+   DERIVED  sky Ketu -> J Mars Dec 46.99718 = 47
+            <- strike    sky Ketu -> H Venus Dec 2.00145 = 2
+            <- cross     cross H Venus–J Mars Dec 48.99863 = 49
+   DERIVED  sky Makemake -> J Jupiter Dec 26.00357 = 26
+            <- movement  J Makemake moved Dec 13.11002 = 118/9
+            <- strike    sky Uranus -> J Makemake Dec 20.00218 = 20
+            <- strike    sky Uranus -> J Jupiter Dec 19.11141 = 172/9
+   DERIVED  sky Sun -> H Vesta Dec 17.99597 = 18
+            <- strike    sky Sun -> J Ceres Dec 2.99660 = 3
+            <- natal     J J Ceres–J Vesta Dec 5.77803 = 52/9
+            <- cross     cross H Vesta–J Vesta Dec 20.77740 = 187/9
+   DERIVED  sky Haumea -> J Ketu Dec 8.00418 = 8
+            <- skynum    sky Venus–Haumea Dec 41.99803 = 42
+            <- strike    sky Venus -> J Ketu Dec 50.00221 = 50
+   DERIVED  sky Makemake -> J Pluto Dec 27.00461 = 27
+            <- movement  J Makemake moved Dec 13.11002 = 118/9
+            <- strike    sky Uranus -> J Makemake Dec 20.00218 = 20
+            <- strike    sky Uranus -> J Jupiter Dec 19.11141 = 172/9
+            <- natal     J J Jupiter–J Pluto Dec 1.00104 = 1
+   MIRROR   J J Ketu–J Sedna RA 34.11123 = 307/9
+            <- axis      node axis (J)
+            <- natal     J J Rahu–J Sedna RA 145.88877 = 1313/9
+   MIRROR   H H Pluto–H Ketu RA 65.99912 = 66
+            <- natal     H H Pluto–H Rahu RA 114.00088 = 114
+            <- axis      node axis (H)
+   DERIVED  cross H Pallas–J Pluto RA 62.77767 = 565/9
+            <- cross     cross H Pallas–J Mercury RA 53.11114 = 478/9
+            <- natal     J J Mercury–J Pluto RA 115.88881 = 1043/9
+   DERIVED  cross H Venus–J Jupiter RA 84.00415 = 84
+            <- natal     H H Venus–H Gonggong RA 57.99618 = 58
+            <- cross     cross H Gonggong–J Jupiter RA 142.00033 = 142
+   DERIVED  sky Uranus -> H Saturn RA 147.33326 = 1326/9
+            <- movement  H Uranus moved RA 24.11136 = 217/9
+            <- natal     H H Saturn–H Uranus RA 123.22189 = 1109/9
+   DERIVED  sky Haumea -> J Rahu RA 40.55585 = 365/9
+            <- strike    sky Haumea -> J Sedna RA 173.55537 = 1562/9
+            <- natal     J J Rahu–J Sedna RA 145.88877 = 1313/9
+   MIRROR   sky Haumea -> J Ketu RA 139.44415 = 1255/9
+            <- strike    sky Haumea -> J Sedna RA 173.55537 = 1562/9
+            <- natal     J J Rahu–J Sedna RA 145.88877 = 1313/9
+            <- axis      node axis (J)
+   MIRROR   sky Mars -> H Ketu RA 136.77746 = 1231/9
+            <- strike    sky Mars -> H Rahu RA 43.22254 = 389/9
+            <- axis      node axis (H)
+   MIRROR   sky Sedna -> H Ketu RA 65.99902 = 66
+            <- strike    sky Sedna -> H Rahu RA 114.00098 = 114
+            <- axis      node axis (H)
+   DERIVED  sky Sedna -> H Pluto RA 131.99814 = 132
+            <- strike    sky Sedna -> H Rahu RA 114.00098 = 114
+            <- natal     H H Pluto–H Rahu RA 114.00088 = 114
+-- roots among number items (Dec/RA)
+   J J Pluto–J Eris Dec 3.66664 = 33/9
+   H H Saturn–H Neptune Dec 11.55580 = 104/9
+   J J Ceres–J Vesta Dec 5.77803 = 52/9
+   J J Mars–J Neptune Dec 47.77739 = 430/9
+   H H Mars–H Gonggong Dec 1.55594 = 14/9
+   H H Sun–H Uranus Dec 24.11063 = 217/9
+   J J Jupiter–J Pluto Dec 1.00104 = 1
+   J J Juno–J Haumea Dec 14.00135 = 14
+   H H Mars–H Pallas Dec 16.99769 = 17
+   J J Pallas–J Haumea Dec 18.99725 = 19
+   J J Chiron–J Orcus Dec 5.99573 = 6
+   cross H Ceres–J Vesta Dec 1.66679 = 15/9
+   cross H Chiron–J Sedna Dec 5.00027 = 5
+   cross H Vesta–J Vesta Dec 20.77740 = 187/9
+   cross H Sun–J Chiron Dec 26.22267 = 236/9
+   cross H Gonggong–J Uranus Dec 9.33284 = 84/9
+   cross H Juno–J Mercury Dec 6.99945 = 7
+   cross H Venus–J Mars Dec 48.99863 = 49
+   cross H Uranus–J Saturn Dec 20.99823 = 21
+   cross H Mars–J Juno Dec 23.00178 = 23
+   cross H Haumea–J Transpluto Dec 2.99756 = 3
+   cross H Jupiter–J Sun Dec 14.00372 = 14
+   cross H Rahu–J Saturn Dec 18.00394 = 18
+   J Makemake moved Dec 13.11002 = 118/9
+   sky Venus–Rahu Dec 47.55595 = 428/9
+   sky Pluto–Ketu Dec 2.44404 = 22/9
+   sky Venus–Haumea Dec 41.99803 = 42
+   sky Juno–Rahu Dec 33.99602 = 34
+   sky Ceres–Eris Dec 17.99597 = 18
+   sky Mercury -> H Pallas Dec 16.33331 = 147/9
+   sky Orcus -> J Rahu Dec 11.11122 = 100/9
+   sky Makemake -> H Saturn Dec 42.77762 = 385/9
+   sky Mars -> H Pluto Dec 6.99983 = 7
+   sky Orcus -> H Venus Dec 10.66641 = 96/9
+   sky Juno -> H Makemake Dec 38.77747 = 349/9
+   sky Uranus -> J Jupiter Dec 19.11141 = 172/9
+   sky Transpluto -> J Eris Dec 18.99941 = 19
+   sky Ketu -> H Venus Dec 2.00145 = 2
+   sky Uranus -> J Makemake Dec 20.00218 = 20
+   sky Venus -> J Ketu Dec 50.00221 = 50
+   sky Neptune -> H Rahu Dec 7.99754 = 8
+   sky Pallas -> H Neptune Dec 2.00247 = 2
+   sky Quaoar -> J Vesta Dec 5.00275 = 5
+   sky Sun -> J Ceres Dec 2.99660 = 3
+   J J Mercury–J Pluto RA 115.88881 = 1043/9
+   J J Rahu–J Sedna RA 145.88877 = 1313/9
+   H H Saturn–H Uranus RA 123.22189 = 1109/9
+   J J Uranus–J Gonggong RA 37.77825 = 340/9
+   H H Pluto–H Rahu RA 114.00088 = 114
+   H H Mars–H Pallas RA 77.99885 = 78
+   H H Venus–H Gonggong RA 57.99618 = 58
+   J J Venus–J Ceres RA 26.99528 = 27
+   cross H Pallas–J Mercury RA 53.11114 = 478/9
+   cross H Orcus–J Eris RA 129.55550 = 1166/9
+   cross H Gonggong–J Haumea RA 144.44423 = 1300/9
+   cross H Gonggong–J Jupiter RA 142.00033 = 142
+   cross H Makemake–J Saturn RA 130.88855 = 1178/9
+   cross H Makemake–J Uranus RA 98.00055 = 98
+   cross H Venus–J Gonggong RA 53.00272 = 53
+   cross H Sedna–J Haumea RA 135.99690 = 136
+   cross H Chiron–J Pluto RA 110.99682 = 111
+   cross H Saturn–J Ceres RA 92.99654 = 93
+   cross H Eris–J Quaoar RA 146.00430 = 146
+   H Uranus moved RA 24.11136 = 217/9
+   J Ceres moved RA 81.66621 = 735/9
+   sky Jupiter–Pluto RA 29.22190 = 263/9
+   sky Pallas–Makemake RA 142.99875 = 143
+   sky Ceres–Transpluto RA 88.00252 = 88
+   sky Orcus -> J Neptune RA 134.44430 = 1210/9
+   sky Haumea -> J Sedna RA 173.55537 = 1562/9
+   sky Saturn -> H Mercury RA 23.55535 = 212/9
+   sky Venus -> J Quaoar RA 37.88917 = 341/9
+   sky Mars -> H Rahu RA 43.22254 = 389/9
+   sky Sedna -> H Rahu RA 114.00098 = 114
+   sky Sun -> J Orcus RA 95.99894 = 96
+   sky Chiron -> J Transpluto RA 138.00171 = 138
+   sky Haumea -> H Jupiter RA 42.99803 = 43
+   sky Eris -> H Haumea RA 174.00271 = 174
+   sky Saturn -> H Eris RA 74.99584 = 75
+   sky Juno -> J Neptune RA 23.00438 = 23

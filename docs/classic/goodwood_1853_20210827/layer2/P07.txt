@@ -1,0 +1,155 @@
+== 4 Dalanijujo / 4 Tom Marquand   [20210827_goodwood_1853__P07.xlsx, L2 v1 (12 Oct 2026)]
+-- counts by section: contacts root 32; eq_ratios mirror 1, root 1; hj_ratios root 13; links derived 1, mirror 1, root 104; movement derived 1, root 9; pair_family root 135; points root 5; ratios root 22; shared root 7; sky race_level 11, root 8; sky_close race_level 7; splits root 55; strikes derived 15, duplicate 4, mirror 1, root 65
+-- Dec groups (3+ points joined by numbers)
+   H Gonggong, H Venus, J Gonggong, J Mercury, J Venus, S Chiron, S Quaoar, S Sun
+   H Haumea, J Eris, J Jupiter, J Pluto, J Vesta, S Eris, S Mercury, S Neptune
+   EQ, H Jupiter, H Uranus, S Jupiter, S Orcus, S Uranus
+   H Vesta, J Orcus, J Uranus, S Ceres, S Pluto, S Venus
+   H Chiron, H Quaoar, S Transpluto
+   H Ceres, H Eris, H Pallas
+   J Ketu, S Rahu, S Sedna
+   J Neptune, J Rahu, S Ketu
+-- RA groups (3+ points joined by numbers)
+   H Gonggong, H Ketu, H Rahu, H Saturn, H Uranus, H Venus, J Chiron, J Mercury, S Chiron, S Mars, S Neptune, S Orcus
+   H Mercury, H Neptune, H Pluto, H Sedna, J Sun, S Transpluto, S Venus
+   H Sun, J Mars, S Sedna, S Sun, S Uranus
+   H Eris, H Haumea, S Vesta
+   J Neptune, J Venus, J Vesta
+   H Ceres, S Jupiter, S Pluto
+-- derived items (with chain)
+   DERIVED  H Jupiter moved Dec 8.99457 = 9
+            <- equator   S Jupiter Equator 14.00093 = 14
+            <- equator   H Jupiter Equator 5.00636 = 5
+   DERIVED  sky Chiron -> J Mercury Dec 4.44409 = 40/9
+            <- skynum    sky Sun–Chiron Dec 2.99988 = 3
+            <- strike    sky Sun -> J Mercury Dec 1.44421 = 13/9
+   DERIVED  sky Mercury -> J Pluto Dec 10.88928 = 98/9
+            <- skynum    sky Mercury–Neptune Dec 5.66705 = 51/9
+            <- strike    sky Neptune -> J Pluto Dec 5.22223 = 47/9
+   DERIVED  sky Quaoar -> H Gonggong Dec 3.00041 = 3
+            <- strike    sky Quaoar -> H Venus Dec 17.22244 = 155/9
+            <- natal     H H Venus–H Gonggong Dec 14.22203 = 128/9
+   DERIVED  sky Venus -> H Vesta Dec 30.55605 = 275/9
+            <- skynum    sky Venus–Pluto Dec 17.66663 = 159/9
+            <- strike    sky Pluto -> H Vesta Dec 48.22268 = 434/9
+   DERIVED  sky Mercury -> J Jupiter Dec 8.99928 = 9
+            <- skynum    sky Mercury–Neptune Dec 5.66705 = 51/9
+            <- skynum    sky Neptune–Eris Dec 3.00091 = 3
+            <- strike    sky Eris -> J Jupiter Dec 6.33314 = 57/9
+   DERIVED  sky Neptune -> J Eris Dec 2.99815 = 3
+            <- skynum    sky Neptune–Eris Dec 3.00091 = 3
+            <- movement  J Eris moved Dec 5.99907 = 6
+   DERIVED  sky Sedna -> J Ketu Dec 15.99748 = 16
+            <- skynum    sky Rahu–Sedna Dec 13.00498 = 13
+            <- strike    sky Rahu -> J Ketu Dec 29.00246 = 29
+   DERIVED  sky Mercury -> H Haumea Dec 15.99733 = 16
+            <- skynum    sky Mercury–Neptune Dec 5.66705 = 51/9
+            <- skynum    sky Neptune–Eris Dec 3.00091 = 3
+            <- strike    sky Eris -> J Jupiter Dec 6.33314 = 57/9
+            <- cross     cross H Haumea–J Jupiter Dec 24.99661 = 25
+   DERIVED  sky Jupiter -> H Uranus Dec 23.00337 = 23
+            <- equator   S Jupiter Equator 14.00093 = 14
+            <- equator   H Uranus Equator 9.00243 = 9
+   DERIVED  sky Chiron -> H Venus Dec 5.00366 = 5
+            <- skynum    sky Sun–Chiron Dec 2.99988 = 3
+            <- strike    sky Sun -> H Venus Dec 8.00354 = 8
+   MIRROR   H H Ketu–H Gonggong RA 2.99758 = 3
+            <- axis      node axis (H)
+            <- natal     H H Rahu–H Gonggong RA 177.00242 = 177
+   DERIVED  cross H Sedna–J Sun RA 46.99663 = 47
+            <- natal     H H Neptune–H Sedna RA 70.99514 = 71
+            <- cross     cross H Neptune–J Sun RA 23.99851 = 24
+   DERIVED  sky Uranus -> H Sun RA 13.88879 = 125/9
+            <- skynum    sky Uranus–Sedna RA 17.22228 = 155/9
+            <- strike    sky Sedna -> H Sun RA 31.11107 = 280/9
+   DERIVED  sky Vesta -> H Eris RA 172.55576 = 1553/9
+            <- strike    sky Vesta -> H Haumea RA 13.88909 = 125/9
+            <- natal     H H Eris–H Haumea RA 173.55514 = 1562/9
+   DERIVED  sky Uranus -> J Mars RA 23.66695 = 213/9
+            <- skynum    sky Uranus–Sedna RA 17.22228 = 155/9
+            <- strike    sky Sedna -> H Sun RA 31.11107 = 280/9
+            <- cross     cross H Sun–J Mars RA 9.77816 = 88/9
+   DERIVED  sky Sedna -> J Mars RA 40.88924 = 368/9
+            <- strike    sky Sedna -> H Sun RA 31.11107 = 280/9
+            <- cross     cross H Sun–J Mars RA 9.77816 = 88/9
+   MIRROR   sky Mars -> H Ketu RA 163.99674 = 164
+            <- strike    sky Mars -> H Rahu RA 16.00326 = 16
+            <- axis      node axis (H)
+   DERIVED  sky Transpluto -> H Pluto RA 136.00456 = 136
+            <- strike    sky Transpluto -> H Mercury RA 127.33352 = 1146/9
+            <- strike    sky Venus -> H Mercury RA 165.00104 = 165
+            <- strike    sky Venus -> H Sedna RA 136.44451 = 1228/9
+            <- natal     H H Neptune–H Sedna RA 70.99514 = 71
+            <- cross     cross H Neptune–J Sun RA 23.99851 = 24
+            <- cross     cross H Pluto–J Sun RA 78.22182 = 704/9
+-- roots among number items (Dec/RA)
+   S Uranus Equator 15.77826 = 142/9
+   S Jupiter Equator 14.00093 = 14
+   H Uranus Equator 9.00243 = 9
+   H Jupiter Equator 5.00636 = 5
+   S Orcus Equator 10.99213 = 11
+   H H Chiron–H Quaoar Dec 17.55570 = 158/9
+   H H Venus–H Gonggong Dec 14.22203 = 128/9
+   H H Ceres–H Eris Dec 19.55516 = 176/9
+   H H Pallas–H Eris Dec 2.00104 = 2
+   H H Sun–H Neptune Dec 19.00241 = 19
+   J J Venus–J Gonggong Dec 5.00268 = 5
+   cross H Mercury–J Haumea Dec 8.99758 = 9
+   cross H Haumea–J Jupiter Dec 24.99661 = 25
+   J Juno moved Dec 13.00058 = 13
+   J Eris moved Dec 5.99907 = 6
+   sky Venus–Pluto Dec 17.66663 = 159/9
+   sky Sun–Chiron Dec 2.99988 = 3
+   sky Mercury–Neptune Dec 5.66705 = 51/9
+   sky Neptune–Eris Dec 3.00091 = 3
+   sky Pluto–Ceres Dec 37.99717 = 38
+   sky Rahu–Sedna Dec 13.00498 = 13
+   sky Neptune -> J Pluto Dec 5.22223 = 47/9
+   sky Gonggong -> H Rahu Dec 22.44437 = 202/9
+   sky Saturn -> H Ketu Dec 8.00018 = 8
+   sky Eris -> J Jupiter Dec 6.33314 = 57/9
+   sky Pallas -> J Sedna Dec 2.22241 = 20/9
+   sky Quaoar -> H Venus Dec 17.22244 = 155/9
+   sky Sun -> J Mercury Dec 1.44421 = 13/9
+   sky Makemake -> J Sun Dec 18.77804 = 169/9
+   sky Chiron -> J Gonggong Dec 24.44404 = 220/9
+   sky Pluto -> H Vesta Dec 48.22268 = 434/9
+   sky Ketu -> J Neptune Dec 1.88843 = 17/9
+   sky Transpluto -> H Quaoar Dec 25.99782 = 26
+   sky Ketu -> J Rahu Dec 29.00246 = 29
+   sky Rahu -> J Ketu Dec 29.00246 = 29
+   sky Sun -> H Venus Dec 8.00354 = 8
+   sky Venus -> J Orcus Dec 5.00391 = 5
+   sky Neptune -> J Vesta Dec 17.99568 = 18
+   sky Pluto -> J Uranus Dec 5.00457 = 5
+   J J Eris–J Sedna RA 22.33353 = 201/9
+   H H Eris–H Haumea RA 173.55514 = 1562/9
+   J J Neptune–J Vesta RA 102.99951 = 103
+   H H Rahu–H Gonggong RA 177.00242 = 177
+   J J Jupiter–J Transpluto RA 161.99733 = 162
+   J J Venus–J Neptune RA 21.00460 = 21
+   H H Neptune–H Sedna RA 70.99514 = 71
+   cross H Venus–J Mercury RA 22.11133 = 199/9
+   cross H Gonggong–J Chiron RA 110.11146 = 991/9
+   cross H Sun–J Mars RA 9.77816 = 88/9
+   cross H Pluto–J Sun RA 78.22182 = 704/9
+   cross H Makemake–J Pluto RA 54.00094 = 54
+   cross H Neptune–J Sun RA 23.99851 = 24
+   cross H Juno–J Juno RA 108.99645 = 109
+   H Sun moved RA 127.99570 = 128
+   sky Uranus–Sedna RA 17.22228 = 155/9
+   sky Jupiter–Pluto RA 31.99551 = 32
+   sky Mars -> H Uranus RA 146.33333 = 1317/9
+   sky Sedna -> H Sun RA 31.11107 = 280/9
+   sky Venus -> H Sedna RA 136.44451 = 1228/9
+   sky Juno -> H Jupiter RA 54.33347 = 489/9
+   sky Transpluto -> H Mercury RA 127.33352 = 1146/9
+   sky Vesta -> H Haumea RA 13.88909 = 125/9
+   sky Pluto -> H Ceres RA 117.66687 = 1059/9
+   sky Chiron -> H Venus RA 13.88859 = 125/9
+   sky Venus -> H Mercury RA 165.00104 = 165
+   sky Chiron -> H Uranus RA 13.00106 = 13
+   sky Orcus -> J Chiron RA 70.00181 = 70
+   sky Mars -> H Rahu RA 16.00326 = 16
+   sky Neptune -> H Venus RA 3.00401 = 3
+   sky Orcus -> H Saturn RA 110.99528 = 111

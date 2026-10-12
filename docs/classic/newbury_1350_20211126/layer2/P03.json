@@ -1,0 +1,2109 @@
+{
+ "version": "L2 v1 (12 Oct 2026)",
+ "runner": "2 Mister Coffey / 2 James Bowen",
+ "workbook": "newbury_1350_20211126__P03.xlsx",
+ "tags": {
+  "links:28:Dec": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "links:35:Dec": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "links:21:Dec": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "links:44:Dec": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "links:40:Dec": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "links:31:Dec": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "links:12:Dec": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "links:34:Dec": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "links:6:Dec": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "links:18:Dec": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "links:13:Dec": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "links:90:Dec": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "links:91:Dec": {
+   "tag": "derived",
+   "plane": "Dec",
+   "chain": [
+    {
+     "id": "links:90:Dec",
+     "kind": "cross",
+     "a": "H Sedna",
+     "b": "J Mercury",
+     "num": "194/9"
+    },
+    {
+     "id": "links:28:Dec",
+     "kind": "natal",
+     "a": "J Mercury",
+     "b": "J Mars",
+     "num": "67/9"
+    }
+   ]
+  },
+  "links:85:Dec": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "links:76:Dec": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "links:106:Dec": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "links:61:Dec": {
+   "tag": "derived",
+   "plane": "Dec",
+   "chain": [
+    {
+     "id": "links:13:Dec",
+     "kind": "natal",
+     "a": "H Saturn",
+     "b": "H Sedna",
+     "num": "26"
+    },
+    {
+     "id": "links:90:Dec",
+     "kind": "cross",
+     "a": "H Sedna",
+     "b": "J Mercury",
+     "num": "194/9"
+    },
+    {
+     "id": "links:28:Dec",
+     "kind": "natal",
+     "a": "J Mercury",
+     "b": "J Mars",
+     "num": "67/9"
+    }
+   ]
+  },
+  "links:71:Dec": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "movement:0": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "sky:14": {
+   "tag": "root",
+   "plane": "Dec",
+   "race_level": true
+  },
+  "sky:15": {
+   "tag": "root",
+   "plane": "Dec",
+   "race_level": true
+  },
+  "sky:2": {
+   "tag": "root",
+   "plane": "Dec",
+   "race_level": true
+  },
+  "sky:12": {
+   "tag": "derived",
+   "plane": "Dec",
+   "chain": [
+    {
+     "id": "sky:14",
+     "kind": "skynum",
+     "a": "S Chiron",
+     "b": "S Orcus",
+     "num": "156/9"
+    },
+    {
+     "id": "sky:15",
+     "kind": "skynum",
+     "a": "S Vesta",
+     "b": "S Orcus",
+     "num": "56/9"
+    }
+   ],
+   "race_level": true
+  },
+  "sky:6": {
+   "tag": "root",
+   "plane": "Dec",
+   "race_level": true
+  },
+  "sky:4": {
+   "tag": "root",
+   "plane": "Dec",
+   "race_level": true
+  },
+  "strikes:85": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "strikes:57": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "strikes:4": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "strikes:91": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "strikes:75": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "strikes:65": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "strikes:80": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "strikes:51": {
+   "tag": "derived",
+   "plane": "Dec",
+   "chain": [
+    {
+     "id": "strikes:91",
+     "kind": "strike",
+     "a": "S Haumea",
+     "b": "J Orcus",
+     "num": "150/9"
+    },
+    {
+     "id": "links:35:Dec",
+     "kind": "natal",
+     "a": "J Jupiter",
+     "b": "J Orcus",
+     "num": "201/9"
+    }
+   ]
+  },
+  "strikes:7": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "strikes:66": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "strikes:76": {
+   "tag": "derived",
+   "plane": "Dec",
+   "chain": [
+    {
+     "id": "sky:6",
+     "kind": "skynum",
+     "a": "S Mars",
+     "b": "S Neptune",
+     "num": "12"
+    },
+    {
+     "id": "strikes:57",
+     "kind": "strike",
+     "a": "S Neptune",
+     "b": "J Uranus",
+     "num": "87/9"
+    },
+    {
+     "id": "links:40:Dec",
+     "kind": "natal",
+     "a": "J Uranus",
+     "b": "J Sedna",
+     "num": "20"
+    }
+   ]
+  },
+  "strikes:56": {
+   "tag": "derived",
+   "plane": "Dec",
+   "chain": [
+    {
+     "id": "sky:6",
+     "kind": "skynum",
+     "a": "S Mars",
+     "b": "S Neptune",
+     "num": "12"
+    },
+    {
+     "id": "strikes:57",
+     "kind": "strike",
+     "a": "S Neptune",
+     "b": "J Uranus",
+     "num": "87/9"
+    }
+   ]
+  },
+  "strikes:43": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "strikes:73": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "strikes:92": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "strikes:60": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "strikes:55": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "strikes:16": {
+   "tag": "derived",
+   "plane": "Dec",
+   "chain": [
+    {
+     "id": "strikes:43",
+     "kind": "strike",
+     "a": "S Eris",
+     "b": "H Transpluto",
+     "num": "13"
+    },
+    {
+     "id": "links:18:Dec",
+     "kind": "natal",
+     "a": "H Pluto",
+     "b": "H Transpluto",
+     "num": "32"
+    }
+   ]
+  },
+  "strikes:94": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "strikes:34": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "strikes:35": {
+   "tag": "derived",
+   "plane": "Dec",
+   "chain": [
+    {
+     "id": "sky:6",
+     "kind": "skynum",
+     "a": "S Mars",
+     "b": "S Neptune",
+     "num": "12"
+    },
+    {
+     "id": "strikes:34",
+     "kind": "strike",
+     "a": "S Mars",
+     "b": "H Haumea",
+     "num": "35"
+    }
+   ]
+  },
+  "strikes:24": {
+   "tag": "root",
+   "plane": "Dec"
+  },
+  "links:43:RA": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "links:1:RA": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "links:48:RA": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "links:36:RA": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "links:95:RA": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "links:69:RA": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "links:68:RA": {
+   "tag": "derived",
+   "plane": "RA",
+   "chain": [
+    {
+     "id": "links:69:RA",
+     "kind": "cross",
+     "a": "H Chiron",
+     "b": "J Pallas",
+     "num": "834/9"
+    },
+    {
+     "id": "links:43:RA",
+     "kind": "natal",
+     "a": "J Neptune",
+     "b": "J Pallas",
+     "num": "484/9"
+    }
+   ]
+  },
+  "links:57:RA": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "links:98:RA": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "links:99:RA": {
+   "tag": "mirror",
+   "plane": "RA",
+   "chain": [
+    {
+     "id": "links:98:RA",
+     "kind": "cross",
+     "a": "H Gonggong",
+     "b": "J Rahu",
+     "num": "1151/9"
+    },
+    {
+     "id": "axis:J",
+     "kind": "axis",
+     "a": "J Rahu",
+     "b": "J Ketu",
+     "num": "180"
+    }
+   ]
+  },
+  "links:102:RA": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "links:80:RA": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "links:89:RA": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "links:65:RA": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "links:64:RA": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "links:97:RA": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "links:55:RA": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "links:104:RA": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "movement:7": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "sky:18": {
+   "tag": "root",
+   "plane": "RA",
+   "race_level": true
+  },
+  "sky:10": {
+   "tag": "root",
+   "plane": "RA",
+   "race_level": true
+  },
+  "sky:5": {
+   "tag": "root",
+   "plane": "RA",
+   "race_level": true
+  },
+  "sky:13": {
+   "tag": "root",
+   "plane": "RA",
+   "race_level": true
+  },
+  "strikes:40": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "strikes:67": {
+   "tag": "derived",
+   "plane": "RA",
+   "chain": [
+    {
+     "id": "sky:5",
+     "kind": "skynum",
+     "a": "S Venus",
+     "b": "S Quaoar",
+     "num": "131/9"
+    },
+    {
+     "id": "strikes:40",
+     "kind": "strike",
+     "a": "S Quaoar",
+     "b": "H Gonggong",
+     "num": "551/9"
+    },
+    {
+     "id": "links:98:RA",
+     "kind": "cross",
+     "a": "H Gonggong",
+     "b": "J Rahu",
+     "num": "1151/9"
+    }
+   ]
+  },
+  "strikes:71": {
+   "tag": "mirror",
+   "plane": "RA",
+   "chain": [
+    {
+     "id": "sky:5",
+     "kind": "skynum",
+     "a": "S Venus",
+     "b": "S Quaoar",
+     "num": "131/9"
+    },
+    {
+     "id": "strikes:40",
+     "kind": "strike",
+     "a": "S Quaoar",
+     "b": "H Gonggong",
+     "num": "551/9"
+    },
+    {
+     "id": "links:98:RA",
+     "kind": "cross",
+     "a": "H Gonggong",
+     "b": "J Rahu",
+     "num": "1151/9"
+    },
+    {
+     "id": "axis:J",
+     "kind": "axis",
+     "a": "J Rahu",
+     "b": "J Ketu",
+     "num": "180"
+    }
+   ]
+  },
+  "strikes:23": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "strikes:53": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "strikes:89": {
+   "tag": "derived",
+   "plane": "RA",
+   "chain": [
+    {
+     "id": "strikes:23",
+     "kind": "strike",
+     "a": "S Mars",
+     "b": "H Pallas",
+     "num": "398/9"
+    },
+    {
+     "id": "links:80:RA",
+     "kind": "cross",
+     "a": "H Pallas",
+     "b": "J Orcus",
+     "num": "1184/9"
+    }
+   ]
+  },
+  "strikes:3": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "strikes:70": {
+   "tag": "derived",
+   "plane": "RA",
+   "chain": [
+    {
+     "id": "strikes:40",
+     "kind": "strike",
+     "a": "S Quaoar",
+     "b": "H Gonggong",
+     "num": "551/9"
+    },
+    {
+     "id": "links:98:RA",
+     "kind": "cross",
+     "a": "H Gonggong",
+     "b": "J Rahu",
+     "num": "1151/9"
+    }
+   ]
+  },
+  "strikes:72": {
+   "tag": "mirror",
+   "plane": "RA",
+   "chain": [
+    {
+     "id": "strikes:40",
+     "kind": "strike",
+     "a": "S Quaoar",
+     "b": "H Gonggong",
+     "num": "551/9"
+    },
+    {
+     "id": "links:98:RA",
+     "kind": "cross",
+     "a": "H Gonggong",
+     "b": "J Rahu",
+     "num": "1151/9"
+    },
+    {
+     "id": "axis:J",
+     "kind": "axis",
+     "a": "J Rahu",
+     "b": "J Ketu",
+     "num": "180"
+    }
+   ]
+  },
+  "strikes:49": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "strikes:52": {
+   "tag": "derived",
+   "plane": "RA",
+   "chain": [
+    {
+     "id": "sky:18",
+     "kind": "skynum",
+     "a": "S Eris",
+     "b": "S Sedna",
+     "num": "295/9"
+    },
+    {
+     "id": "strikes:53",
+     "kind": "strike",
+     "a": "S Sedna",
+     "b": "J Saturn",
+     "num": "42/9"
+    }
+   ]
+  },
+  "strikes:13": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "strikes:39": {
+   "tag": "derived",
+   "plane": "RA",
+   "chain": [
+    {
+     "id": "sky:5",
+     "kind": "skynum",
+     "a": "S Venus",
+     "b": "S Quaoar",
+     "num": "131/9"
+    },
+    {
+     "id": "strikes:40",
+     "kind": "strike",
+     "a": "S Quaoar",
+     "b": "H Gonggong",
+     "num": "551/9"
+    }
+   ]
+  },
+  "strikes:21": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "strikes:2": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "strikes:95": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "strikes:38": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "strikes:42": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "strikes:54": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "strikes:9": {
+   "tag": "root",
+   "plane": "RA"
+  },
+  "strikes:58": {
+   "tag": "derived",
+   "plane": "RA",
+   "chain": [
+    {
+     "id": "strikes:54",
+     "kind": "strike",
+     "a": "S Gonggong",
+     "b": "J Saturn",
+     "num": "78"
+    },
+    {
+     "id": "links:36:RA",
+     "kind": "natal",
+     "a": "J Saturn",
+     "b": "J Uranus",
+     "num": "89"
+    }
+   ]
+  },
+  "strikes:0": {
+   "tag": "duplicate",
+   "of": "movement:0"
+  },
+  "strikes:1": {
+   "tag": "duplicate",
+   "of": "movement:1"
+  },
+  "strikes:6": {
+   "tag": "duplicate",
+   "of": "movement:2"
+  },
+  "strikes:14": {
+   "tag": "duplicate",
+   "of": "movement:3"
+  },
+  "strikes:33": {
+   "tag": "duplicate",
+   "of": "movement:4"
+  },
+  "strikes:78": {
+   "tag": "duplicate",
+   "of": "movement:5"
+  },
+  "links:0:Flat": {
+   "tag": "root",
+   "plane": "Flat"
+  },
+  "links:2": {
+   "tag": "root"
+  },
+  "links:3:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:4:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:5": {
+   "tag": "root"
+  },
+  "links:7": {
+   "tag": "root"
+  },
+  "links:8": {
+   "tag": "root"
+  },
+  "links:9:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:10:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:11:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:14:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:15:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:16:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:17": {
+   "tag": "root"
+  },
+  "links:19:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:20:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:22:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:23:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:24:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:25:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:26:Flat": {
+   "tag": "root",
+   "plane": "Flat"
+  },
+  "links:27:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:29": {
+   "tag": "root"
+  },
+  "links:30:Flat": {
+   "tag": "root",
+   "plane": "Flat"
+  },
+  "links:32:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:33": {
+   "tag": "root"
+  },
+  "links:37:Flat": {
+   "tag": "root",
+   "plane": "Flat"
+  },
+  "links:38:Flat": {
+   "tag": "root",
+   "plane": "Flat"
+  },
+  "links:39:Flat": {
+   "tag": "root",
+   "plane": "Flat"
+  },
+  "links:41": {
+   "tag": "root"
+  },
+  "links:42": {
+   "tag": "root"
+  },
+  "links:45:Flat": {
+   "tag": "root",
+   "plane": "Flat"
+  },
+  "links:46:Flat": {
+   "tag": "root",
+   "plane": "Flat"
+  },
+  "links:47": {
+   "tag": "root"
+  },
+  "links:48:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:49": {
+   "tag": "root"
+  },
+  "links:50:Flat": {
+   "tag": "root",
+   "plane": "Flat"
+  },
+  "links:51:Flat": {
+   "tag": "root",
+   "plane": "Flat"
+  },
+  "links:52:Flat": {
+   "tag": "root",
+   "plane": "Flat"
+  },
+  "links:53:Flat": {
+   "tag": "root",
+   "plane": "Flat"
+  },
+  "links:54:Flat": {
+   "tag": "root",
+   "plane": "Flat"
+  },
+  "links:56": {
+   "tag": "root"
+  },
+  "links:58": {
+   "tag": "root"
+  },
+  "links:59:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:60:Flat": {
+   "tag": "root",
+   "plane": "Flat"
+  },
+  "links:62": {
+   "tag": "root"
+  },
+  "links:63:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:66:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:67:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:70": {
+   "tag": "root"
+  },
+  "links:72:Flat": {
+   "tag": "root",
+   "plane": "Flat"
+  },
+  "links:73": {
+   "tag": "root"
+  },
+  "links:74": {
+   "tag": "root"
+  },
+  "links:75": {
+   "tag": "root"
+  },
+  "links:77:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:78": {
+   "tag": "root"
+  },
+  "links:79": {
+   "tag": "root"
+  },
+  "links:81": {
+   "tag": "root"
+  },
+  "links:82:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:83:Flat": {
+   "tag": "root",
+   "plane": "Flat"
+  },
+  "links:84:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:86:Flat": {
+   "tag": "root",
+   "plane": "Flat"
+  },
+  "links:87": {
+   "tag": "root"
+  },
+  "links:88:Flat": {
+   "tag": "root",
+   "plane": "Flat"
+  },
+  "links:92": {
+   "tag": "root"
+  },
+  "links:93:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:94:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:96:Flat": {
+   "tag": "root",
+   "plane": "Flat"
+  },
+  "links:100:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:101:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:103": {
+   "tag": "root"
+  },
+  "links:105": {
+   "tag": "root"
+  },
+  "links:107:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:108:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:109": {
+   "tag": "root"
+  },
+  "links:110:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "links:111:GC": {
+   "tag": "root",
+   "plane": "GC"
+  },
+  "strikes:5": {
+   "tag": "root"
+  },
+  "strikes:8": {
+   "tag": "root"
+  },
+  "strikes:10": {
+   "tag": "root"
+  },
+  "strikes:11": {
+   "tag": "root"
+  },
+  "strikes:12": {
+   "tag": "root"
+  },
+  "strikes:15": {
+   "tag": "root"
+  },
+  "strikes:17": {
+   "tag": "root"
+  },
+  "strikes:18": {
+   "tag": "root"
+  },
+  "strikes:19": {
+   "tag": "root"
+  },
+  "strikes:20": {
+   "tag": "root"
+  },
+  "strikes:22": {
+   "tag": "root"
+  },
+  "strikes:25": {
+   "tag": "root"
+  },
+  "strikes:26": {
+   "tag": "root"
+  },
+  "strikes:27": {
+   "tag": "root"
+  },
+  "strikes:28": {
+   "tag": "root"
+  },
+  "strikes:29": {
+   "tag": "root"
+  },
+  "strikes:30": {
+   "tag": "root"
+  },
+  "strikes:31": {
+   "tag": "root"
+  },
+  "strikes:32": {
+   "tag": "root"
+  },
+  "strikes:36": {
+   "tag": "root"
+  },
+  "strikes:37": {
+   "tag": "root"
+  },
+  "strikes:41": {
+   "tag": "root"
+  },
+  "strikes:44": {
+   "tag": "root"
+  },
+  "strikes:45": {
+   "tag": "root"
+  },
+  "strikes:46": {
+   "tag": "root"
+  },
+  "strikes:47": {
+   "tag": "root"
+  },
+  "strikes:48": {
+   "tag": "root"
+  },
+  "strikes:50": {
+   "tag": "root"
+  },
+  "strikes:59": {
+   "tag": "root"
+  },
+  "strikes:61": {
+   "tag": "root"
+  },
+  "strikes:62": {
+   "tag": "root"
+  },
+  "strikes:63": {
+   "tag": "root"
+  },
+  "strikes:64": {
+   "tag": "root"
+  },
+  "strikes:68": {
+   "tag": "root"
+  },
+  "strikes:69": {
+   "tag": "root"
+  },
+  "strikes:74": {
+   "tag": "root"
+  },
+  "strikes:77": {
+   "tag": "root"
+  },
+  "strikes:79": {
+   "tag": "root"
+  },
+  "strikes:81": {
+   "tag": "root"
+  },
+  "strikes:82": {
+   "tag": "root"
+  },
+  "strikes:83": {
+   "tag": "root"
+  },
+  "strikes:84": {
+   "tag": "root"
+  },
+  "strikes:86": {
+   "tag": "root"
+  },
+  "strikes:87": {
+   "tag": "root"
+  },
+  "strikes:88": {
+   "tag": "root"
+  },
+  "strikes:90": {
+   "tag": "root"
+  },
+  "strikes:93": {
+   "tag": "root"
+  },
+  "ratios:0": {
+   "tag": "root"
+  },
+  "ratios:1": {
+   "tag": "root"
+  },
+  "ratios:2": {
+   "tag": "root"
+  },
+  "ratios:3": {
+   "tag": "root"
+  },
+  "ratios:4": {
+   "tag": "root"
+  },
+  "ratios:5": {
+   "tag": "root"
+  },
+  "ratios:6": {
+   "tag": "root"
+  },
+  "ratios:7": {
+   "tag": "root"
+  },
+  "ratios:8": {
+   "tag": "root"
+  },
+  "ratios:9": {
+   "tag": "root"
+  },
+  "ratios:10": {
+   "tag": "root"
+  },
+  "ratios:11": {
+   "tag": "root"
+  },
+  "ratios:12": {
+   "tag": "root"
+  },
+  "ratios:13": {
+   "tag": "root"
+  },
+  "ratios:14": {
+   "tag": "root"
+  },
+  "ratios:15": {
+   "tag": "root"
+  },
+  "ratios:16": {
+   "tag": "root"
+  },
+  "movement:1": {
+   "tag": "root"
+  },
+  "movement:2": {
+   "tag": "root"
+  },
+  "movement:3": {
+   "tag": "root"
+  },
+  "movement:4": {
+   "tag": "root"
+  },
+  "movement:5": {
+   "tag": "root"
+  },
+  "movement:6": {
+   "tag": "root"
+  },
+  "shared:0": {
+   "tag": "root"
+  },
+  "shared:1": {
+   "tag": "root"
+  },
+  "shared:2": {
+   "tag": "root"
+  },
+  "shared:3": {
+   "tag": "root"
+  },
+  "shared:4": {
+   "tag": "root"
+  },
+  "shared:5": {
+   "tag": "root"
+  },
+  "shared:6": {
+   "tag": "root"
+  },
+  "eq_ratios:0": {
+   "tag": "root"
+  },
+  "eq_ratios:1": {
+   "tag": "root"
+  },
+  "eq_ratios:2": {
+   "tag": "root"
+  },
+  "pair_sets:0": {
+   "tag": "root"
+  },
+  "pair_sets:1": {
+   "tag": "root"
+  },
+  "pair_family:0": {
+   "tag": "root"
+  },
+  "pair_family:1": {
+   "tag": "root"
+  },
+  "pair_family:2": {
+   "tag": "root"
+  },
+  "pair_family:3": {
+   "tag": "root"
+  },
+  "pair_family:4": {
+   "tag": "root"
+  },
+  "pair_family:5": {
+   "tag": "root"
+  },
+  "pair_family:6": {
+   "tag": "root"
+  },
+  "pair_family:7": {
+   "tag": "root"
+  },
+  "pair_family:8": {
+   "tag": "root"
+  },
+  "pair_family:9": {
+   "tag": "root"
+  },
+  "pair_family:10": {
+   "tag": "root"
+  },
+  "pair_family:11": {
+   "tag": "root"
+  },
+  "pair_family:12": {
+   "tag": "root"
+  },
+  "pair_family:13": {
+   "tag": "root"
+  },
+  "pair_family:14": {
+   "tag": "root"
+  },
+  "pair_family:15": {
+   "tag": "root"
+  },
+  "pair_family:16": {
+   "tag": "root"
+  },
+  "pair_family:17": {
+   "tag": "root"
+  },
+  "pair_family:18": {
+   "tag": "root"
+  },
+  "pair_family:19": {
+   "tag": "root"
+  },
+  "pair_family:20": {
+   "tag": "root"
+  },
+  "pair_family:21": {
+   "tag": "root"
+  },
+  "pair_family:22": {
+   "tag": "root"
+  },
+  "pair_family:23": {
+   "tag": "root"
+  },
+  "pair_family:24": {
+   "tag": "root"
+  },
+  "pair_family:25": {
+   "tag": "root"
+  },
+  "pair_family:26": {
+   "tag": "root"
+  },
+  "pair_family:27": {
+   "tag": "root"
+  },
+  "pair_family:28": {
+   "tag": "root"
+  },
+  "pair_family:29": {
+   "tag": "root"
+  },
+  "pair_family:30": {
+   "tag": "root"
+  },
+  "pair_family:31": {
+   "tag": "root"
+  },
+  "pair_family:32": {
+   "tag": "root"
+  },
+  "pair_family:33": {
+   "tag": "root"
+  },
+  "pair_family:34": {
+   "tag": "root"
+  },
+  "pair_family:35": {
+   "tag": "root"
+  },
+  "pair_family:36": {
+   "tag": "root"
+  },
+  "pair_family:37": {
+   "tag": "root"
+  },
+  "pair_family:38": {
+   "tag": "root"
+  },
+  "pair_family:39": {
+   "tag": "root"
+  },
+  "pair_family:40": {
+   "tag": "root"
+  },
+  "pair_family:41": {
+   "tag": "root"
+  },
+  "pair_family:42": {
+   "tag": "root"
+  },
+  "pair_family:43": {
+   "tag": "root"
+  },
+  "pair_family:44": {
+   "tag": "root"
+  },
+  "pair_family:45": {
+   "tag": "root"
+  },
+  "pair_family:46": {
+   "tag": "root"
+  },
+  "pair_family:47": {
+   "tag": "root"
+  },
+  "pair_family:48": {
+   "tag": "root"
+  },
+  "pair_family:49": {
+   "tag": "root"
+  },
+  "pair_family:50": {
+   "tag": "root"
+  },
+  "pair_family:51": {
+   "tag": "root"
+  },
+  "pair_family:52": {
+   "tag": "root"
+  },
+  "pair_family:53": {
+   "tag": "root"
+  },
+  "pair_family:54": {
+   "tag": "root"
+  },
+  "pair_family:55": {
+   "tag": "root"
+  },
+  "pair_family:56": {
+   "tag": "root"
+  },
+  "pair_family:57": {
+   "tag": "root"
+  },
+  "pair_family:58": {
+   "tag": "root"
+  },
+  "pair_family:59": {
+   "tag": "root"
+  },
+  "pair_family:60": {
+   "tag": "root"
+  },
+  "pair_family:61": {
+   "tag": "root"
+  },
+  "pair_family:62": {
+   "tag": "root"
+  },
+  "pair_family:63": {
+   "tag": "root"
+  },
+  "pair_family:64": {
+   "tag": "root"
+  },
+  "pair_family:65": {
+   "tag": "root"
+  },
+  "pair_family:66": {
+   "tag": "root"
+  },
+  "pair_family:67": {
+   "tag": "root"
+  },
+  "pair_family:68": {
+   "tag": "root"
+  },
+  "pair_family:69": {
+   "tag": "root"
+  },
+  "pair_family:70": {
+   "tag": "root"
+  },
+  "pair_family:71": {
+   "tag": "root"
+  },
+  "pair_family:72": {
+   "tag": "root"
+  },
+  "pair_family:73": {
+   "tag": "root"
+  },
+  "pair_family:74": {
+   "tag": "root"
+  },
+  "pair_family:75": {
+   "tag": "root"
+  },
+  "pair_family:76": {
+   "tag": "root"
+  },
+  "pair_family:77": {
+   "tag": "root"
+  },
+  "pair_family:78": {
+   "tag": "root"
+  },
+  "pair_family:79": {
+   "tag": "root"
+  },
+  "pair_family:80": {
+   "tag": "root"
+  },
+  "pair_family:81": {
+   "tag": "root"
+  },
+  "pair_family:82": {
+   "tag": "root"
+  },
+  "pair_family:83": {
+   "tag": "root"
+  },
+  "pair_family:84": {
+   "tag": "root"
+  },
+  "pair_family:85": {
+   "tag": "root"
+  },
+  "pair_family:86": {
+   "tag": "root"
+  },
+  "pair_family:87": {
+   "tag": "root"
+  },
+  "pair_family:88": {
+   "tag": "root"
+  },
+  "pair_family:89": {
+   "tag": "root"
+  },
+  "pair_family:90": {
+   "tag": "root"
+  },
+  "pair_family:91": {
+   "tag": "root"
+  },
+  "pair_family:92": {
+   "tag": "root"
+  },
+  "pair_family:93": {
+   "tag": "root"
+  },
+  "pair_family:94": {
+   "tag": "root"
+  },
+  "pair_family:95": {
+   "tag": "root"
+  },
+  "pair_family:96": {
+   "tag": "root"
+  },
+  "pair_family:97": {
+   "tag": "root"
+  },
+  "pair_family:98": {
+   "tag": "root"
+  },
+  "pair_family:99": {
+   "tag": "root"
+  },
+  "pair_family:100": {
+   "tag": "root"
+  },
+  "pair_family:101": {
+   "tag": "root"
+  },
+  "pair_family:102": {
+   "tag": "root"
+  },
+  "pair_family:103": {
+   "tag": "root"
+  },
+  "pair_family:104": {
+   "tag": "root"
+  },
+  "pair_family:105": {
+   "tag": "root"
+  },
+  "pair_family:106": {
+   "tag": "root"
+  },
+  "pair_family:107": {
+   "tag": "root"
+  },
+  "pair_family:108": {
+   "tag": "root"
+  },
+  "pair_family:109": {
+   "tag": "root"
+  },
+  "pair_family:110": {
+   "tag": "root"
+  },
+  "pair_family:111": {
+   "tag": "root"
+  },
+  "pair_family:112": {
+   "tag": "root"
+  },
+  "pair_family:113": {
+   "tag": "root"
+  },
+  "pair_family:114": {
+   "tag": "root"
+  },
+  "pair_family:115": {
+   "tag": "root"
+  },
+  "pair_family:116": {
+   "tag": "root"
+  },
+  "pair_family:117": {
+   "tag": "root"
+  },
+  "pair_family:118": {
+   "tag": "root"
+  },
+  "pair_family:119": {
+   "tag": "root"
+  },
+  "pair_family:120": {
+   "tag": "root"
+  },
+  "pair_family:121": {
+   "tag": "root"
+  },
+  "pair_family:122": {
+   "tag": "root"
+  },
+  "pair_family:123": {
+   "tag": "root"
+  },
+  "pair_family:124": {
+   "tag": "root"
+  },
+  "pair_family:125": {
+   "tag": "root"
+  },
+  "pair_family:126": {
+   "tag": "root"
+  },
+  "pair_family:127": {
+   "tag": "root"
+  },
+  "pair_family:128": {
+   "tag": "root"
+  },
+  "pair_family:129": {
+   "tag": "root"
+  },
+  "pair_family:130": {
+   "tag": "root"
+  },
+  "pair_family:131": {
+   "tag": "root"
+  },
+  "splits:0": {
+   "tag": "root"
+  },
+  "splits:1": {
+   "tag": "root"
+  },
+  "splits:2": {
+   "tag": "root"
+  },
+  "splits:3": {
+   "tag": "root"
+  },
+  "splits:4": {
+   "tag": "root"
+  },
+  "splits:5": {
+   "tag": "root"
+  },
+  "splits:6": {
+   "tag": "root"
+  },
+  "splits:7": {
+   "tag": "root"
+  },
+  "splits:8": {
+   "tag": "root"
+  },
+  "splits:9": {
+   "tag": "root"
+  },
+  "splits:10": {
+   "tag": "root"
+  },
+  "splits:11": {
+   "tag": "root"
+  },
+  "splits:12": {
+   "tag": "root"
+  },
+  "splits:13": {
+   "tag": "root"
+  },
+  "splits:14": {
+   "tag": "root"
+  },
+  "splits:15": {
+   "tag": "root"
+  },
+  "splits:16": {
+   "tag": "root"
+  },
+  "splits:17": {
+   "tag": "root"
+  },
+  "splits:18": {
+   "tag": "root"
+  },
+  "splits:19": {
+   "tag": "root"
+  },
+  "splits:20": {
+   "tag": "root"
+  },
+  "splits:21": {
+   "tag": "root"
+  },
+  "contacts:0": {
+   "tag": "root"
+  },
+  "contacts:1": {
+   "tag": "root"
+  },
+  "contacts:2": {
+   "tag": "root"
+  },
+  "contacts:3": {
+   "tag": "root"
+  },
+  "contacts:4": {
+   "tag": "root"
+  },
+  "contacts:5": {
+   "tag": "root"
+  },
+  "contacts:6": {
+   "tag": "root"
+  },
+  "contacts:7": {
+   "tag": "root"
+  },
+  "contacts:8": {
+   "tag": "root"
+  },
+  "contacts:9": {
+   "tag": "root"
+  },
+  "contacts:10": {
+   "tag": "root"
+  },
+  "contacts:11": {
+   "tag": "root"
+  },
+  "contacts:12": {
+   "tag": "root"
+  },
+  "contacts:13": {
+   "tag": "root"
+  },
+  "contacts:14": {
+   "tag": "root"
+  },
+  "contacts:15": {
+   "tag": "root"
+  },
+  "contacts:16": {
+   "tag": "root"
+  },
+  "contacts:17": {
+   "tag": "root"
+  },
+  "contacts:18": {
+   "tag": "root"
+  },
+  "contacts:19": {
+   "tag": "root"
+  },
+  "contacts:20": {
+   "tag": "root"
+  },
+  "contacts:21": {
+   "tag": "root"
+  },
+  "contacts:22": {
+   "tag": "root"
+  },
+  "contacts:23": {
+   "tag": "root"
+  },
+  "contacts:24": {
+   "tag": "root"
+  },
+  "contacts:25": {
+   "tag": "root"
+  },
+  "contacts:26": {
+   "tag": "root"
+  },
+  "contacts:27": {
+   "tag": "root"
+  },
+  "contacts:28": {
+   "tag": "root"
+  },
+  "contacts:29": {
+   "tag": "root"
+  },
+  "contacts:30": {
+   "tag": "root"
+  },
+  "contacts:31": {
+   "tag": "root"
+  },
+  "contacts:32": {
+   "tag": "root"
+  },
+  "contacts:33": {
+   "tag": "root"
+  },
+  "contacts:34": {
+   "tag": "root"
+  },
+  "hj_ratios:0": {
+   "tag": "root"
+  },
+  "hj_ratios:1": {
+   "tag": "root"
+  },
+  "hj_ratios:2": {
+   "tag": "root"
+  },
+  "hj_ratios:3": {
+   "tag": "root"
+  },
+  "hj_ratios:4": {
+   "tag": "root"
+  },
+  "hj_ratios:5": {
+   "tag": "root"
+  },
+  "hj_ratios:6": {
+   "tag": "root"
+  },
+  "hj_ratios:7": {
+   "tag": "root"
+  },
+  "hj_ratios:8": {
+   "tag": "root"
+  },
+  "hj_ratios:9": {
+   "tag": "root"
+  },
+  "hj_ratios:10": {
+   "tag": "root"
+  },
+  "hj_ratios:11": {
+   "tag": "root"
+  },
+  "hj_ratios:12": {
+   "tag": "root"
+  },
+  "hj_ratios:13": {
+   "tag": "root"
+  },
+  "hj_ratios:14": {
+   "tag": "root"
+  },
+  "hj_ratios:15": {
+   "tag": "root"
+  },
+  "hj_ratios:16": {
+   "tag": "root"
+  },
+  "sky:0": {
+   "tag": "race_level",
+   "race_level": true
+  },
+  "sky:1": {
+   "tag": "race_level",
+   "race_level": true
+  },
+  "sky:3": {
+   "tag": "race_level",
+   "race_level": true
+  },
+  "sky:7": {
+   "tag": "race_level",
+   "race_level": true
+  },
+  "sky:8": {
+   "tag": "race_level",
+   "race_level": true
+  },
+  "sky:9": {
+   "tag": "race_level",
+   "race_level": true
+  },
+  "sky:11": {
+   "tag": "race_level",
+   "race_level": true
+  },
+  "sky:16": {
+   "tag": "race_level",
+   "race_level": true
+  },
+  "sky:17": {
+   "tag": "race_level",
+   "race_level": true
+  },
+  "sky:19": {
+   "tag": "race_level",
+   "race_level": true
+  },
+  "sky_close:0": {
+   "tag": "race_level"
+  },
+  "sky_close:1": {
+   "tag": "race_level"
+  },
+  "sky_close:2": {
+   "tag": "race_level"
+  },
+  "sky_close:3": {
+   "tag": "race_level"
+  },
+  "sky_close:4": {
+   "tag": "race_level"
+  },
+  "sky_close:5": {
+   "tag": "race_level"
+  },
+  "sky_close:6": {
+   "tag": "race_level"
+  },
+  "sky_close:7": {
+   "tag": "race_level"
+  },
+  "sky_close:8": {
+   "tag": "race_level"
+  },
+  "sky_close:9": {
+   "tag": "race_level"
+  },
+  "sky_close:10": {
+   "tag": "race_level"
+  }
+ },
+ "groups": {
+  "Dec": [
+   [
+    "H Rahu",
+    "J Jupiter",
+    "J Orcus",
+    "J Pallas",
+    "J Pluto",
+    "S Haumea",
+    "S Mercury",
+    "S Venus"
+   ],
+   [
+    "H Pallas",
+    "J Eris",
+    "J Neptune",
+    "J Vesta",
+    "S Chiron",
+    "S Orcus",
+    "S Transpluto",
+    "S Vesta"
+   ],
+   [
+    "H Ceres",
+    "H Saturn",
+    "H Sedna",
+    "J Mars",
+    "J Mercury",
+    "J Rahu"
+   ],
+   [
+    "H Haumea",
+    "J Sedna",
+    "J Uranus",
+    "S Mars",
+    "S Neptune"
+   ],
+   [
+    "H Mars",
+    "H Uranus",
+    "S Jupiter"
+   ],
+   [
+    "H Pluto",
+    "H Transpluto",
+    "S Eris"
+   ],
+   [
+    "J Juno",
+    "S Ketu",
+    "S Pallas"
+   ],
+   [
+    "J Transpluto",
+    "S Saturn",
+    "S Sedna"
+   ]
+  ],
+  "RA": [
+   [
+    "H Chiron",
+    "H Mercury",
+    "H Quaoar",
+    "J Neptune",
+    "J Pallas",
+    "J Vesta",
+    "S Pluto",
+    "S Uranus"
+   ],
+   [
+    "H Mars",
+    "J Saturn",
+    "J Sedna",
+    "J Uranus",
+    "S Chiron",
+    "S Eris",
+    "S Gonggong",
+    "S Sedna"
+   ],
+   [
+    "H Gonggong",
+    "J Ketu",
+    "J Rahu",
+    "J Transpluto",
+    "S Quaoar",
+    "S Venus"
+   ],
+   [
+    "H Pallas",
+    "J Chiron",
+    "J Orcus",
+    "S Mars",
+    "S Orcus"
+   ],
+   [
+    "H Haumea",
+    "H Uranus",
+    "J Gonggong",
+    "S Transpluto"
+   ],
+   [
+    "H Sun",
+    "J Pluto",
+    "S Jupiter"
+   ]
+  ]
+ },
+ "counts": {
+  "links": {
+   "root": 109,
+   "derived": 3,
+   "mirror": 1
+  },
+  "movement": {
+   "root": 8
+  },
+  "sky": {
+   "root": 9,
+   "derived": 1,
+   "race_level": 10
+  },
+  "strikes": {
+   "root": 77,
+   "derived": 11,
+   "mirror": 2,
+   "duplicate": 6
+  },
+  "ratios": {
+   "root": 17
+  },
+  "shared": {
+   "root": 7
+  },
+  "eq_ratios": {
+   "root": 3
+  },
+  "pair_sets": {
+   "root": 2
+  },
+  "pair_family": {
+   "root": 132
+  },
+  "splits": {
+   "root": 22
+  },
+  "contacts": {
+   "root": 35
+  },
+  "hj_ratios": {
+   "root": 17
+  },
+  "sky_close": {
+   "race_level": 11
+  }
+ }
+}
