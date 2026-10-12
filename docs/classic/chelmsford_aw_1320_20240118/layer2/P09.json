@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "5 Reset Button / 5 Jack Gilligan",
  "workbook": "chelmsford_aw_1320_20240118__P09.xlsx",
  "tags": {
@@ -435,31 +435,8 @@
    ]
   },
   "links:106:RA": {
-   "tag": "derived",
-   "plane": "RA",
-   "chain": [
-    {
-     "id": "axis:H",
-     "kind": "axis",
-     "a": "H Rahu",
-     "b": "H Ketu",
-     "num": "180"
-    },
-    {
-     "id": "links:100:RA",
-     "kind": "cross",
-     "a": "H Rahu",
-     "b": "J Rahu",
-     "num": "51"
-    },
-    {
-     "id": "axis:J",
-     "kind": "axis",
-     "a": "J Rahu",
-     "b": "J Ketu",
-     "num": "180"
-    }
-   ]
+   "tag": "mirror",
+   "of": "links:100"
   },
   "links:99:RA": {
    "tag": "derived",
@@ -2288,8 +2265,8 @@
   },
   "links": {
    "root": 108,
-   "derived": 9,
-   "mirror": 3
+   "derived": 8,
+   "mirror": 4
   },
   "sky": {
    "race_level": 23

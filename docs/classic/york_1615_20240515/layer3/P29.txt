@@ -1,4 +1,4 @@
-== 15 Ribble Radiant / 15 Duran Fentiman   [york_1615_20240515__P29.xlsx, L3 v1.1 (12 Oct 2026)]
+== 15 Ribble Radiant / 15 Duran Fentiman   [york_1615_20240515__P29.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Chiron, H Pluto, H Pallas, H Makemake, J Node
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Chiron       BMPRSX  tight 6
@@ -508,7 +508,7 @@
         sky Pallas -> J Jupiter Flat 109.55592 = 986/9
         sky Quaoar -> J Jupiter Flat 73.99650 = 74
         sky Transpluto -> J Jupiter RA 161.88921 = 1457/9
-   [ 1] cross link struck on both ends (HUB)  roots 6  bodies=['H Mercury', 'J Juno']; link=cross H Mercury–J Juno RA 110.7631 Dec 0.5220 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ketu', 'Pluto']; strikers_jockey_end=['Ketu', 'Quaoar', 'Transpluto']; same_sky_both_ends=['Ketu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 6  bodies=['H Mercury', 'J Juno']; link=cross H Mercury–J Juno RA 110.7631 Dec 0.5220 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ketu', 'Pluto']; strikers_jockey_end=['Ketu', 'Quaoar', 'Transpluto']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Mercury–J Juno RA 110.7631 Dec 0.5220 near
         sky Pluto -> H Mercury RA 48.55522 = 437/9
         sky Ketu on H Mercury RA 159.8875 Dec 0.2558
@@ -529,21 +529,21 @@
         sky Orcus -> H Pluto Dec 9.88899 = 89/9
         sky Pluto on H Pluto RA 6.1043 Dec 0.5530 RETURN near
         sky Mercury -> J Neptune Dec 30.66669 = 276/9
-   [ 1] cross link struck on both ends (STRONG HUB)  roots 8  bodies=['H Chiron', 'J Ceres']; link=cross H Chiron–J Ceres RA 179.3425 Dec 0.1026; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Chiron', 'Neptune', 'Orcus', 'Rahu']; strikers_jockey_end=['Juno', 'Rahu']; same_sky_both_ends=['Rahu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (STRONG HUB)  roots 8  bodies=['H Chiron', 'J Ceres']; link=cross H Chiron–J Ceres RA 179.3425 Dec 0.1026; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Chiron', 'Neptune', 'Orcus', 'Rahu']; strikers_jockey_end=['Juno', 'Rahu']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Chiron–J Ceres RA 179.3425 Dec 0.1026
         sky Neptune -> H Chiron Dec 7.11080 = 64/9
         sky Chiron -> H Chiron Flat 12.66631 = 114/9
         sky Orcus -> H Chiron Flat 151.44485 = 1363/9
         sky Orcus -> H Chiron GC 150.00080 = 150
         sky Rahu on H Chiron RA 6.3748 Dec 0.1590
-   [ 1] cross link struck on both ends (STRONG HUB)  roots 11  bodies=['H Chiron', 'J Pallas']; link=cross H Chiron–J Pallas RA 153.5674 Dec 0.5703 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Chiron', 'Neptune', 'Orcus', 'Rahu']; strikers_jockey_end=['Juno', 'Makemake', 'Pluto', 'Quaoar', 'Rahu']; same_sky_both_ends=['Rahu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (STRONG HUB)  roots 11  bodies=['H Chiron', 'J Pallas']; link=cross H Chiron–J Pallas RA 153.5674 Dec 0.5703 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Chiron', 'Neptune', 'Orcus', 'Rahu']; strikers_jockey_end=['Juno', 'Makemake', 'Pluto', 'Quaoar', 'Rahu']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Chiron–J Pallas RA 153.5674 Dec 0.5703 near
         sky Neptune -> H Chiron Dec 7.11080 = 64/9
         sky Chiron -> H Chiron Flat 12.66631 = 114/9
         sky Orcus -> H Chiron Flat 151.44485 = 1363/9
         sky Orcus -> H Chiron GC 150.00080 = 150
         sky Rahu on H Chiron RA 6.3748 Dec 0.1590
-   [ 1] cross link struck on both ends (STRONG HUB)  roots 10  bodies=['H Chiron', 'J Orcus']; link=cross H Chiron–J Orcus RA 119.5625 Dec 0.3351 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Chiron', 'Neptune', 'Orcus', 'Rahu']; strikers_jockey_end=['Neptune', 'Rahu', 'Saturn', 'Uranus']; same_sky_both_ends=['Neptune', 'Rahu']; multi=True; strict=False
+   [ 1] cross link struck on both ends (STRONG HUB)  roots 10  bodies=['H Chiron', 'J Orcus']; link=cross H Chiron–J Orcus RA 119.5625 Dec 0.3351 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Chiron', 'Neptune', 'Orcus', 'Rahu']; strikers_jockey_end=['Neptune', 'Rahu', 'Saturn', 'Uranus']; same_sky_both_ends=['Neptune', 'Node']; multi=True; strict=False
         cross H Chiron–J Orcus RA 119.5625 Dec 0.3351 near
         sky Neptune -> H Chiron Dec 7.11080 = 64/9
         sky Chiron -> H Chiron Flat 12.66631 = 114/9

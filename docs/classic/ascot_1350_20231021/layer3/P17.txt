@@ -1,4 +1,4 @@
-== 9 Sandrine / 9 Oisin Murphy   [ascot_1350_20231021__P17.xlsx, L3 v1.1 (12 Oct 2026)]
+== 9 Sandrine / 9 Oisin Murphy   [ascot_1350_20231021__P17.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Node, H Jupiter, H Uranus, H Neptune, H Orcus, J Pluto
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Node         EMPRSX  tight 6
@@ -493,7 +493,7 @@
       H Node .. J Pluto: H H Rahu–H Makemake GC 71.99599 = 72 | splits:65
       H Node .. J Saturn: splits:28
 -- shapes
-   [ 1] cross link struck on both ends (HUB)  roots 7  bodies=['H Sun', 'J Juno']; link=cross H Sun–J Juno RA 76.6168 Dec 0.0583; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Gonggong', 'Ketu']; strikers_jockey_end=['Haumea', 'Ketu', 'Mercury']; same_sky_both_ends=['Ketu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 7  bodies=['H Sun', 'J Juno']; link=cross H Sun–J Juno RA 76.6168 Dec 0.0583; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Gonggong', 'Ketu']; strikers_jockey_end=['Haumea', 'Ketu', 'Mercury']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Sun–J Juno RA 76.6168 Dec 0.0583
         sky Ketu on H Sun RA 134.4016 Dec 0.0540
         sky Gonggong on H Sun RA 0.4939 Dec 1.4906
@@ -513,7 +513,7 @@
         cross H Venus–J Neptune RA 0.4708 Dec 0.6774
         sky Sun -> H Venus Dec 9.66708 = 87/9
         sky Sun -> J Neptune RA 89.22184 = 803/9
-   [ 1] cross link struck on both ends (STRONG HUB)  roots 8  bodies=['H Jupiter', 'J Juno']; link=cross H Jupiter–J Juno RA 0.2020 Dec 12.8923; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ketu', 'Sedna']; strikers_jockey_end=['Haumea', 'Ketu', 'Mercury']; same_sky_both_ends=['Ketu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (STRONG HUB)  roots 8  bodies=['H Jupiter', 'J Juno']; link=cross H Jupiter–J Juno RA 0.2020 Dec 12.8923; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ketu', 'Sedna']; strikers_jockey_end=['Haumea', 'Ketu', 'Mercury']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Jupiter–J Juno RA 0.2020 Dec 12.8923
         sky Ketu -> H Jupiter Dec 13.00461 = 13
         sky Sedna -> H Jupiter Flat 163.00301 = 163
@@ -534,7 +534,7 @@
         sky Quaoar -> H Uranus GC 112.66627 = 1014/9
         sky Eris on H Uranus RA 0.8505 Dec 11.6706
         sky Venus -> J Ketu RA 137.00323 = 137
-   [ 1] cross link struck on both ends (STRONG HUB)  roots 9  bodies=['H Neptune', 'J Mercury']; link=cross H Neptune–J Mercury RA 158.4616 Dec 0.5903 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Rahu', 'Sun']; strikers_jockey_end=['Rahu', 'Sun']; same_sky_both_ends=['Rahu', 'Sun']; multi=True; strict=False
+   [ 1] cross link struck on both ends (STRONG HUB)  roots 9  bodies=['H Neptune', 'J Mercury']; link=cross H Neptune–J Mercury RA 158.4616 Dec 0.5903 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Rahu', 'Sun']; strikers_jockey_end=['Rahu', 'Sun']; same_sky_both_ends=['Node', 'Sun']; multi=True; strict=False
         cross H Neptune–J Mercury RA 158.4616 Dec 0.5903 near
         sky Sun -> H Neptune Dec 3.99511 = 4
         sky Rahu -> H Neptune Dec 16.11108 = 145/9

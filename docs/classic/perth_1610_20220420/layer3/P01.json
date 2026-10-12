@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "1 Pink Legend / 1 Charlie Deutsch",
  "workbook": "perth_1610_20220420__P01.xlsx",
  "bodies": {
@@ -560,8 +560,7 @@
      "same_body:3"
     ],
     "X": [
-     "links:99",
-     "links:100"
+     "links:99"
     ]
    },
    "near_unjoined": [],
@@ -1384,7 +1383,6 @@
    "near_unjoined": [
     "contacts:30",
     "hj_ratios:6",
-    "links:100",
     "pair_family:100",
     "pair_family:96",
     "pair_family:97",
@@ -9492,7 +9490,7 @@
     "Vesta"
    ],
    "same_sky_both_ends": [
-    "Ketu"
+    "Node"
    ],
    "multi": false,
    "strict": false

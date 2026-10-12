@@ -1,4 +1,4 @@
-== 4 Elmonjed / 4 Jim Crowley   [york_1615_20240515__P07.xlsx, L3 v1.1 (12 Oct 2026)]
+== 4 Elmonjed / 4 Jim Crowley   [york_1615_20240515__P07.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Juno
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Juno         BMPRS  tight 5
@@ -471,7 +471,7 @@
         sky Pluto -> H Neptune GC 49.66701 = 447/9
         sky Sun -> J Juno GC 110.00383 = 110
         sky Pluto on J Juno RA 1.9022 Dec 18.7112 near
-   [ 1] cross link struck on both ends (HUB)  roots 5  bodies=['H Chiron', 'J Mars']; link=cross H Chiron–J Mars RA 161.4571 Dec 0.1677; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ceres', 'Rahu']; strikers_jockey_end=['Rahu']; same_sky_both_ends=['Rahu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 5  bodies=['H Chiron', 'J Mars']; link=cross H Chiron–J Mars RA 161.4571 Dec 0.1677; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ceres', 'Rahu']; strikers_jockey_end=['Rahu']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Chiron–J Mars RA 161.4571 Dec 0.1677
         sky Ceres -> H Chiron RA 73.99595 = 74
         sky Rahu on H Chiron RA 5.8864 Dec 0.0413
@@ -538,7 +538,7 @@
         sky Transpluto on H Orcus RA 0.1959 Dec 21.7088
         sky Mars -> J Venus Flat 145.00025 = 145
         sky Ceres -> J Venus RA 138.00062 = 138
-   [ 1] cross link struck on both ends (HUB)  roots 11  bodies=['H Orcus', 'J Makemake']; link=cross H Orcus–J Makemake RA 0.3421 Dec 49.6590; strict_same_sky_both_ends=['Node']; strict_multi=False; strikers_horse_end=['Orcus', 'Rahu', 'Transpluto']; strikers_jockey_end=['Ketu', 'Mars', 'Pluto', 'Transpluto']; same_sky_both_ends=['Transpluto']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 11  bodies=['H Orcus', 'J Makemake']; link=cross H Orcus–J Makemake RA 0.3421 Dec 49.6590; strict_same_sky_both_ends=['Node']; strict_multi=False; strikers_horse_end=['Orcus', 'Rahu', 'Transpluto']; strikers_jockey_end=['Ketu', 'Mars', 'Pluto', 'Transpluto']; same_sky_both_ends=['Node', 'Transpluto']; multi=True; strict=False
         cross H Orcus–J Makemake RA 0.3421 Dec 49.6590
         sky Rahu -> H Orcus Dec 17.00444 = 17
         sky Orcus -> H Orcus Flat 2.55562 = 23/9

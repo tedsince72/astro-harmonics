@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "5 Wholestone / 5 Sam Twiston-Davies",
  "workbook": "haydock_1405_20220219__P09.xlsx",
  "bodies": {
@@ -237,8 +237,7 @@
     "X": [
      "links:88",
      "links:91",
-     "links:94",
-     "links:99"
+     "links:94"
     ]
    },
    "near_unjoined": [],
@@ -881,7 +880,6 @@
     ],
     "X": [
      "links:91",
-     "links:99",
      "links:120"
     ]
    },
@@ -8483,38 +8481,6 @@
    "shape": 1,
    "name": "cross link struck on both ends",
    "items": [
-    "links:99",
-    "strikes:18",
-    "strikes:19",
-    "strikes:66",
-    "strikes:67"
-   ],
-   "roots_behind": 6,
-   "bodies": [
-    "H Ketu",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": false,
-   "link": "cross H Ketu\u2013J Ketu RA 2.3791 Dec 0.0904",
-   "strict_same_sky_both_ends": [],
-   "strict_multi": false,
-   "strikers_horse_end": [
-    "Mercury",
-    "Venus"
-   ],
-   "strikers_jockey_end": [
-    "Juno",
-    "Rahu"
-   ],
-   "same_sky_both_ends": [],
-   "multi": false,
-   "strict": false
-  },
-  {
-   "shape": 1,
-   "name": "cross link struck on both ends",
-   "items": [
     "links:101",
     "strikes:20",
     "strikes:21",
@@ -9972,7 +9938,6 @@
   "links:96:GC": "cross H Ketu\u2013J Pluto GC 143.77797 = 1294/9",
   "links:97:Dec": "cross H Ketu\u2013J Chiron Dec 14.99895 = 15",
   "links:98:GC": "cross H Ketu\u2013J Pallas GC 149.55545 = 1346/9",
-  "links:99": "cross H Ketu\u2013J Ketu RA 2.3791 Dec 0.0904",
   "links:100:Flat": "cross H Ketu\u2013J Haumea Flat 104.99610 = 105",
   "links:101": "cross H Eris\u2013J Pluto RA 151.9139 Dec 0.5616 near",
   "links:102:Dec": "cross H Eris\u2013J Makemake Dec 37.99691 = 38",

@@ -1,4 +1,4 @@
-== 7 Not Available / 7 Stan Sheppard   [newbury_1350_20211126__P09.xlsx, L3 v1.1 (12 Oct 2026)]
+== 7 Not Available / 7 Stan Sheppard   [newbury_1350_20211126__P09.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Haumea, J Haumea
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Haumea       BPRSX  tight 5
@@ -250,7 +250,6 @@
         S: horse:jockey Pluto–Ketu Dec H 24.3234 J 4.6769 26/5 near
         S: horse:jockey Pluto–Haumea Dec H 38.5474 J 29.9836 9/7 near
         X: cross H Neptune–J Pluto RA 97.5836 Dec 0.1194
-        X: cross H Orcus–J Pluto RA 93.6802 Dec 0.4575 near
    J Chiron       PRSX  tight 3  (near joined: S)
         P: sky Uranus -> J Chiron Flat 171.77824 = 1546/9
         P: sky Transpluto -> J Chiron Flat 58.00409 = 58
@@ -481,7 +480,7 @@
         sky Pallas -> H Neptune RA 1.99789 = 2
         sky Pallas on H Neptune RA 1.9979 Dec 3.2590 near
         sky Pallas on J Ceres RA 0.8915 Dec 12.1681
-   [ 1] cross link struck on both ends (HUB)  roots 8  bodies=['H Pluto', 'J Neptune']; link=cross H Pluto–J Neptune RA 13.0660 Dec 0.2352; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Eris', 'Ketu', 'Sedna', 'Sun']; strikers_jockey_end=['Ceres', 'Ketu']; same_sky_both_ends=['Ketu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 8  bodies=['H Pluto', 'J Neptune']; link=cross H Pluto–J Neptune RA 13.0660 Dec 0.2352; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Eris', 'Ketu', 'Sedna', 'Sun']; strikers_jockey_end=['Ceres', 'Ketu']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Pluto–J Neptune RA 13.0660 Dec 0.2352
         sky Eris -> H Pluto Dec 19.00440 = 19
         sky Sedna -> H Pluto Dec 28.55568 = 257/9
@@ -575,9 +574,6 @@
    [ 6] swap (HUB)  roots 2  bodies=['H Neptune', 'J Pluto', 'H Pluto', 'J Neptune']; pair=Neptune/Pluto; strict=True
         cross H Neptune–J Pluto RA 97.5836 Dec 0.1194
         cross H Pluto–J Neptune RA 13.0660 Dec 0.2352
-   [ 6] swap (HUB)  roots 2  bodies=['H Ketu', 'J Rahu', 'H Rahu', 'J Ketu']; pair=Ketu/Rahu; strict=True
-        cross H Ketu–J Rahu RA 161.7761 Dec 0.2422
-        cross H Rahu–J Ketu RA 161.7761 Dec 0.2422
    [ 7] triangle struck at every corner by one sky body (HUB)  roots 6  bodies=['H Saturn', 'J Gonggong', 'J Mars']; corners=['H Saturn', 'J Gonggong', 'J Mars']; sky=Vesta; strict=False
         cross H Saturn–J Gonggong RA 89.7595 Dec 0.5459 near
         cross H Saturn–J Mars RA 15.9783 Dec 0.5039 near

@@ -14,7 +14,7 @@ Rule 4  a ratio whose values are themselves whole/ninth number items -> from_num
 Rule 5  sky numbers and close sky pairs are the same for every runner -> race_level (still used as chain links).
 Output: docs/classic/<RACE>/layer2/P*.json, P*.txt"""
 import sys, os, glob, json, re
-VERSION = 'L2 v1.1 (12 Oct 2026)'
+VERSION = 'L2 v1.2 (12 Oct 2026)'
 PRIO = {'axis': 0, 'equator': 1, 'natal': 2, 'cross': 3, 'movement': 4, 'skynum': 5, 'strike': 6}
 FULL = 3240  # 360 degrees in ninths
 
@@ -126,6 +126,18 @@ def run_runner(inv, skynums, skyclose):
     rahu_er = {(e['pair'], e['ratio']) for e in inv['eq_ratios'] if e['body'] == 'Rahu'}
     for i, e in enumerate(inv['eq_ratios']):
         if e['body'] == 'Ketu' and (e['pair'], e['ratio']) in rahu_er: tag(f'eq_ratios:{i}', 'mirror', of='Rahu Equator ratio')
+
+    # node mirror for whole cross links: swapping Rahu<->Ketu on both ends gives the same RA and Dec (checker, v1.2)
+    sw = lambda x: x.replace('Rahu', '#').replace('Ketu', 'Rahu').replace('#', 'Ketu')
+    lk = {(l['a'], l['b']): i for i, l in enumerate(inv['links'])}
+    for i, l in enumerate(inv['links']):
+        if l['kind'] != 'cross' or not any(n in l['a'] + l['b'] for n in ('Rahu', 'Ketu')): continue
+        j = lk.get((sw(l['a']), sw(l['b'])))
+        if j is None or j == i: continue
+        m = inv['links'][j]
+        if abs(m['RA'] - l['RA']) < 1e-6 and abs(m['Dec'] - l['Dec']) < 1e-6 and (l['a'] + l['b']).count('Ketu') > (m['a'] + m['b']).count('Ketu'):
+            for key in ([f'links:{i}'] if (not l['nums'] or l['close'] or l.get('near')) else []) + [f'links:{i}:{pl}' for pl in l['nums']]:
+                tags[key] = {'tag': 'mirror', 'of': f'links:{j}'}
 
     # ---------- Rule 3 duplicates ----------
     mv = {(m['chart'], m['body'], m['plane']): i for i, m in enumerate(inv['movement'])}

@@ -1,4 +1,4 @@
-== 4 Persist / 4 Stevie Donohoe   [carlisle_1630_20220707__P05.xlsx, L3 v1.1 (12 Oct 2026)]
+== 4 Persist / 4 Stevie Donohoe   [carlisle_1630_20220707__P05.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Gonggong, J Uranus, J Pluto, J Gonggong, H Haumea
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Gonggong     MPRSX  tight 5
@@ -533,7 +533,7 @@
         sky Venus -> J Gonggong Flat 116.66666 = 1050/9
         sky Neptune -> J Gonggong Dec 18.77823 = 169/9
         sky Pallas -> J Gonggong Flat 97.44446 = 877/9
-   [ 1] cross link struck on both ends (STRONG HUB)  roots 8  bodies=['H Saturn', 'J Uranus']; link=cross H Saturn–J Uranus RA 32.0027 Dec 0.0675; strict_same_sky_both_ends=['Pallas']; strict_multi=False; strikers_horse_end=['Chiron', 'Pallas', 'Pluto']; strikers_jockey_end=['Pallas', 'Pluto', 'Vesta']; same_sky_both_ends=['Pallas', 'Pluto']; multi=True; strict=False
+   [ 1] cross link struck on both ends (STRONG HUB)  roots 7  bodies=['H Saturn', 'J Uranus']; link=cross H Saturn–J Uranus RA 32.0027 Dec 0.0675; strict_same_sky_both_ends=['Pallas']; strict_multi=False; strikers_horse_end=['Chiron', 'Pallas', 'Pluto']; strikers_jockey_end=['Pallas', 'Pluto', 'Vesta']; same_sky_both_ends=['Pallas', 'Pluto']; multi=True; strict=False
         cross H Saturn–J Uranus RA 32.0027 Dec 0.0675
         sky Chiron -> H Saturn RA 89.77745 = 808/9
         sky Pallas -> H Saturn RA 139.00097 = 139
@@ -587,7 +587,7 @@
         sky Jupiter -> J Chiron Dec 14.33373 = 129/9
         sky Uranus on J Chiron RA 11.5615 Dec 0.5964 near
         sky Haumea on J Chiron RA 158.8906 Dec 0.3301 near
-   [ 1] cross link struck on both ends (HUB)  roots 9  bodies=['H Vesta', 'J Venus']; link=cross H Vesta–J Venus RA 12.2393 Dec 0.0732; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Jupiter', 'Ketu', 'Neptune', 'Saturn', 'Uranus']; strikers_jockey_end=['Ketu', 'Transpluto', 'Uranus']; same_sky_both_ends=['Ketu', 'Uranus']; multi=True; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 9  bodies=['H Vesta', 'J Venus']; link=cross H Vesta–J Venus RA 12.2393 Dec 0.0732; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Jupiter', 'Ketu', 'Neptune', 'Saturn', 'Uranus']; strikers_jockey_end=['Ketu', 'Transpluto', 'Uranus']; same_sky_both_ends=['Node', 'Uranus']; multi=True; strict=False
         cross H Vesta–J Venus RA 12.2393 Dec 0.0732
         sky Jupiter -> H Vesta Flat 45.44417 = 409/9
         sky Uranus -> H Vesta Flat 85.99835 = 86
@@ -621,7 +621,7 @@
         sky Jupiter -> J Chiron Dec 14.33373 = 129/9
         sky Uranus on J Chiron RA 11.5615 Dec 0.5964 near
         sky Haumea on J Chiron RA 158.8906 Dec 0.3301 near
-   [ 1] cross link struck on both ends (HUB)  roots 12  bodies=['H Makemake', 'J Haumea']; link=cross H Makemake–J Haumea RA 14.7901 Dec 0.1879; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Eris', 'Makemake', 'Mercury', 'Rahu', 'Venus']; strikers_jockey_end=['Ketu', 'Mercury', 'Rahu', 'Transpluto']; same_sky_both_ends=['Mercury', 'Rahu']; multi=True; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 12  bodies=['H Makemake', 'J Haumea']; link=cross H Makemake–J Haumea RA 14.7901 Dec 0.1879; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Eris', 'Makemake', 'Mercury', 'Rahu', 'Venus']; strikers_jockey_end=['Ketu', 'Mercury', 'Rahu', 'Transpluto']; same_sky_both_ends=['Mercury', 'Node']; multi=True; strict=False
         cross H Makemake–J Haumea RA 14.7901 Dec 0.1879
         sky Mercury -> H Makemake RA 102.11092 = 919/9
         sky Mercury -> H Makemake Flat 102.11095 = 919/9
@@ -756,7 +756,7 @@
         sky Pluto on H Saturn RA 15.5901 Dec 0.4387 near
         sky Pluto on J Ketu RA 49.3042 Dec 0.5256 near
         sky Pluto on J Uranus RA 47.5928 Dec 0.3712 near
-   [ 7] triangle struck at every corner by one sky body (STRONG HUB)  roots 6  bodies=['H Saturn', 'J Gonggong', 'J Uranus']; corners=['H Saturn', 'J Gonggong', 'J Uranus']; sky=Pallas; strict=False
+   [ 7] triangle struck at every corner by one sky body (STRONG HUB)  roots 5  bodies=['H Saturn', 'J Gonggong', 'J Uranus']; corners=['H Saturn', 'J Gonggong', 'J Uranus']; sky=Pallas; strict=False
         cross H Saturn–J Gonggong RA 43.6582 Dec 0.5111 near
         cross H Saturn–J Uranus RA 32.0027 Dec 0.0675
         J J Uranus–J Gonggong RA 75.6609 Dec 0.5786

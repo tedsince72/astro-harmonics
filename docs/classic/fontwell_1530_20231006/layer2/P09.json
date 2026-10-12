@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "5 Makanao / 5 Jack Tudor",
  "workbook": "fontwell_1530_20231006__P09.xlsx",
  "tags": {
@@ -731,6 +731,10 @@
    "tag": "mirror",
    "of": "Rahu Equator ratio"
   },
+  "links:119": {
+   "tag": "mirror",
+   "of": "links:118"
+  },
   "strikes:0": {
    "tag": "duplicate",
    "of": "movement:1"
@@ -1064,10 +1068,6 @@
    "what": "close/near"
   },
   "links:118": {
-   "tag": "root",
-   "what": "close/near"
-  },
-  "links:119": {
    "tag": "root",
    "what": "close/near"
   },
@@ -2145,9 +2145,9 @@
    "race_level": 1
   },
   "links": {
-   "root": 136,
+   "root": 135,
    "derived": 7,
-   "mirror": 3
+   "mirror": 4
   },
   "sky": {
    "race_level": 21

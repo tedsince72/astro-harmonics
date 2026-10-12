@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "2 Dynamic Force / 2 Ray Dawson",
  "workbook": "nottingham_1530_20220601__P01.xlsx",
  "bodies": {
@@ -9100,7 +9100,9 @@
     "Ketu",
     "Pluto"
    ],
-   "same_sky_both_ends": [],
+   "same_sky_both_ends": [
+    "Node"
+   ],
    "multi": false,
    "strict": false
   },
@@ -9727,25 +9729,6 @@
    "strict": false
   },
   {
-   "shape": 6,
-   "name": "swap",
-   "items": [
-    "links:85",
-    "links:83"
-   ],
-   "roots_behind": 2,
-   "bodies": [
-    "H Ketu",
-    "J Rahu",
-    "H Rahu",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": true,
-   "pair": "Ketu/Rahu",
-   "strict": false
-  },
-  {
    "shape": 7,
    "name": "triangle struck at every corner by one sky body",
    "items": [
@@ -10363,7 +10346,6 @@
   "links:83": "cross H Rahu\u2013J Ketu RA 45.3214 Dec 0.5836 near",
   "links:84": "cross H Ketu\u2013J Neptune RA 3.8209 Dec 0.1319",
   "links:85": "cross H Ketu\u2013J Rahu RA 45.3214 Dec 0.5836 near",
-  "links:86:Flat": "cross H Ketu\u2013J Ketu Flat 141.55531 = 1274/9",
   "links:87:RA": "cross H Eris\u2013J Jupiter RA 163.44467 = 1471/9",
   "links:88:Flat": "cross H Eris\u2013J Ketu Flat 49.66637 = 447/9",
   "links:89": "cross H Sedna\u2013J Chiron RA 88.9928 Dec 0.0055",

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "3 Hamish / 3 Pat Dobbs",
  "workbook": "20210904_kempton_aw_1440__P05.xlsx",
  "bodies": {
@@ -9912,7 +9912,7 @@
     "Uranus"
    ],
    "same_sky_both_ends": [
-    "Ketu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -10160,7 +10160,7 @@
     "Uranus"
    ],
    "same_sky_both_ends": [
-    "Ketu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -10268,7 +10268,7 @@
     "Uranus"
    ],
    "same_sky_both_ends": [
-    "Ketu",
+    "Node",
     "Sedna"
    ],
    "multi": true,
@@ -10313,7 +10313,7 @@
     "Mercury"
    ],
    "same_sky_both_ends": [
-    "Ketu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -10814,25 +10814,6 @@
    "same_sky_both_ends": [],
    "multi": false,
    "strict": false
-  },
-  {
-   "shape": 6,
-   "name": "swap",
-   "items": [
-    "links:100",
-    "links:94"
-   ],
-   "roots_behind": 2,
-   "bodies": [
-    "H Ketu",
-    "J Rahu",
-    "H Rahu",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": false,
-   "pair": "Ketu/Rahu",
-   "strict": true
   },
   {
    "shape": 7,

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "6 New Age Dawning / 6 Tom Scudamore",
  "workbook": "ffos_las_1420_20220105__P05.xlsx",
  "bodies": {
@@ -7154,8 +7154,8 @@
     "Mercury"
    ],
    "same_sky_both_ends": [
-    "Ketu",
-    "Mercury"
+    "Mercury",
+    "Node"
    ],
    "multi": true,
    "strict": false
@@ -7192,7 +7192,9 @@
     "Rahu",
     "Sun"
    ],
-   "same_sky_both_ends": [],
+   "same_sky_both_ends": [
+    "Node"
+   ],
    "multi": false,
    "strict": false
   },

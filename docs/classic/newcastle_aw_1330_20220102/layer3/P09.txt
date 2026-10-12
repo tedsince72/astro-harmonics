@@ -1,4 +1,4 @@
-== 5 Venturous / 5 Connor Beasley   [newcastle_aw_1330_20220102__P09.xlsx, L3 v1.1 (12 Oct 2026)]
+== 5 Venturous / 5 Connor Beasley   [newcastle_aw_1330_20220102__P09.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Ceres, H Eris, J Sedna
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Ceres        MPRSX  tight 5
@@ -202,7 +202,6 @@
         S: shared Mars–Ketu GC H 37.3660 J 37.3078
         S: shared Vesta–Rahu RA H 146.3318 J 145.6199
         X: cross H Rahu–J Rahu RA 1.8697 Dec 0.5164 near
-        X: cross H Ketu–J Ketu RA 1.8697 Dec 0.5164 near
    J Haumea       PRSX  tight 3  (near joined: S)
         P: sky Makemake on J Haumea RA 8.6563 Dec 0.0084
         R: J Sun–Haumea GC sky Sun – J Haumea 100.3484 vs NN 47.2288 17/8 (0.0127%) near
@@ -290,7 +289,6 @@
         S: shared Vesta–Rahu RA H 146.3318 J 145.6199
         X: cross H Rahu–J Rahu RA 1.8697 Dec 0.5164 near
         X: cross H Ketu–J Mercury RA 95.0442 Dec 0.3463 near
-        X: cross H Ketu–J Ketu RA 1.8697 Dec 0.5164 near
         X: cross H Ketu–J Sedna RA 0.1917 Dec 12.2715
    J Quaoar       EPRSX  tight 2  (near joined: ESX)
         E: Equator Quaoar S/J 9/8 (0.0131%) near
@@ -529,7 +527,7 @@
         sky Juno on H Gonggong RA 47.2307 Dec 0.3623 near
         sky Gonggong on H Gonggong RA 1.0197 Dec 1.9583 RETURN
         sky Venus -> J Jupiter GC 74.99676 = 75
-   [ 1] cross link struck on both ends (HUB)  roots 6  bodies=['H Gonggong', 'J Quaoar']; link=cross H Gonggong–J Quaoar RA 96.9453 Dec 0.3567 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Gonggong', 'Juno', 'Rahu']; strikers_jockey_end=['Juno', 'Ketu']; same_sky_both_ends=['Juno']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 6  bodies=['H Gonggong', 'J Quaoar']; link=cross H Gonggong–J Quaoar RA 96.9453 Dec 0.3567 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Gonggong', 'Juno', 'Rahu']; strikers_jockey_end=['Juno', 'Ketu']; same_sky_both_ends=['Juno', 'Node']; multi=True; strict=False
         cross H Gonggong–J Quaoar RA 96.9453 Dec 0.3567 near
         sky Rahu -> H Gonggong Flat 89.99640 = 90
         sky Juno on H Gonggong RA 47.2307 Dec 0.3623 near

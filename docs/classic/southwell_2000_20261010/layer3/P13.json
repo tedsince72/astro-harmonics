@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "8 Cosmo Brown / 8 Marco Ghiani",
  "workbook": "20261010_southwell_aw_2000__P13.xlsx",
  "bodies": {
@@ -316,8 +316,7 @@
     "X": [
      "links:89",
      "links:92",
-     "links:95",
-     "links:96"
+     "links:95"
     ]
    },
    "near_unjoined": [],
@@ -1034,8 +1033,7 @@
     ],
     "X": [
      "links:74",
-     "links:89",
-     "links:96"
+     "links:89"
     ]
    },
    "near_unjoined": [],
@@ -7957,7 +7955,7 @@
     "Sedna"
    ],
    "same_sky_both_ends": [
-    "Rahu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -8176,40 +8174,6 @@
     "Orcus",
     "Sedna",
     "Venus"
-   ],
-   "same_sky_both_ends": [
-    "Orcus"
-   ],
-   "multi": false,
-   "strict": false
-  },
-  {
-   "shape": 1,
-   "name": "cross link struck on both ends",
-   "items": [
-    "links:96",
-    "strikes:18",
-    "contacts:13",
-    "contacts:14",
-    "contacts:42"
-   ],
-   "roots_behind": 5,
-   "bodies": [
-    "H Ketu",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": false,
-   "link": "cross H Ketu\u2013J Ketu RA 110.2956 Dec 0.4177 near",
-   "strict_same_sky_both_ends": [],
-   "strict_multi": false,
-   "strikers_horse_end": [
-    "Ceres",
-    "Juno",
-    "Orcus"
-   ],
-   "strikers_jockey_end": [
-    "Orcus"
    ],
    "same_sky_both_ends": [
     "Orcus"
@@ -8814,33 +8778,6 @@
    "shape": 7,
    "name": "triangle struck at every corner by one sky body",
    "items": [
-    "links:14",
-    "links:96",
-    "links:74",
-    "contacts:14",
-    "contacts:5",
-    "contacts:42"
-   ],
-   "roots_behind": 6,
-   "bodies": [
-    "H Ketu",
-    "H Saturn",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": false,
-   "corners": [
-    "H Ketu",
-    "H Saturn",
-    "J Ketu"
-   ],
-   "sky": "Orcus",
-   "strict": false
-  },
-  {
-   "shape": 7,
-   "name": "triangle struck at every corner by one sky body",
-   "items": [
     "links:118",
     "links:116",
     "links:33",
@@ -9323,7 +9260,6 @@
   "links:94:RA": "cross H Ketu\u2013J Venus RA 129.88898 = 1169/9",
   "links:94:Flat": "cross H Ketu\u2013J Venus Flat 130.00080 = 130",
   "links:95": "cross H Ketu\u2013J Mars RA 1.2238 Dec 2.6612",
-  "links:96": "cross H Ketu\u2013J Ketu RA 110.2956 Dec 0.4177 near",
   "links:97:Dec": "cross H Ketu\u2013J Gonggong Dec 3.77750 = 34/9",
   "links:98:RA": "cross H Eris\u2013J Mars RA 172.99815 = 173",
   "links:98:GC": "cross H Eris\u2013J Mars GC 166.00469 = 166",

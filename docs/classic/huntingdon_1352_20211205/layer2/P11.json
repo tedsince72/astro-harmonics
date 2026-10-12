@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "6 Keeper Hill / 6 A P Heskin",
  "workbook": "huntingdon_1352_20211205__P11.xlsx",
  "tags": {
@@ -581,6 +581,10 @@
     }
    ]
   },
+  "links:78": {
+   "tag": "mirror",
+   "of": "links:76"
+  },
   "strikes:2": {
    "tag": "duplicate",
    "of": "movement:0"
@@ -820,10 +824,6 @@
    "what": "close/near"
   },
   "links:76": {
-   "tag": "root",
-   "what": "close/near"
-  },
-  "links:78": {
    "tag": "root",
    "what": "close/near"
   },
@@ -2023,9 +2023,9 @@
    "race_level": 1
   },
   "links": {
-   "root": 101,
+   "root": 100,
    "derived": 1,
-   "mirror": 1
+   "mirror": 2
   },
   "movement": {
    "root": 6

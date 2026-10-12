@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "1 Bristol De Mai / 1 Sam Twiston-Davies",
  "workbook": "lingfield_1500_20220123__P01.xlsx",
  "tags": {
@@ -813,6 +813,10 @@
    "tag": "mirror",
    "of": "Rahu same-body set"
   },
+  "links:97": {
+   "tag": "mirror",
+   "of": "links:94"
+  },
   "strikes:23": {
    "tag": "duplicate",
    "of": "movement:1"
@@ -1073,10 +1077,6 @@
    "plane": "Flat"
   },
   "links:96": {
-   "tag": "root",
-   "what": "close/near"
-  },
-  "links:97": {
    "tag": "root",
    "what": "close/near"
   },
@@ -2400,9 +2400,9 @@
    "race_level": 3
   },
   "links": {
-   "root": 113,
+   "root": 112,
    "derived": 9,
-   "mirror": 2
+   "mirror": 3
   },
   "movement": {
    "root": 5

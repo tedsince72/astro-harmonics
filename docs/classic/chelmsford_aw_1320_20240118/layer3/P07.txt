@@ -1,4 +1,4 @@
-== 4 New York Bay / 4 Finley Marsh   [chelmsford_aw_1320_20240118__P07.xlsx, L3 v1.1 (12 Oct 2026)]
+== 4 New York Bay / 4 Finley Marsh   [chelmsford_aw_1320_20240118__P07.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Ceres
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Ceres        MPRSX  tight 5
@@ -444,7 +444,7 @@
       H Ceres .. J Vesta: H H Ceres–H Vesta RA 95.00029 = 95 | horse:jockey Sun–Vesta RA H 53.4465 J 152.7271 20/7 near
       H Ceres .. J Node: cross H Ceres–J Ketu RA 1.2513 Dec 6.4024
 -- shapes
-   [ 1] cross link struck on both ends (HUB)  roots 5  bodies=['H Mercury', 'J Sun']; link=cross H Mercury–J Sun RA 1.8352 Dec 1.2237 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Rahu']; strikers_jockey_end=['Chiron', 'Ketu', 'Orcus']; same_sky_both_ends=[]; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 5  bodies=['H Mercury', 'J Sun']; link=cross H Mercury–J Sun RA 1.8352 Dec 1.2237 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Rahu']; strikers_jockey_end=['Chiron', 'Ketu', 'Orcus']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Mercury–J Sun RA 1.8352 Dec 1.2237 near
         sky Rahu -> H Mercury Dec 16.77728 = 151/9
         sky Chiron -> J Sun Flat 35.99881 = 36
@@ -483,7 +483,7 @@
         sky Quaoar -> H Chiron RA 84.99813 = 85
         sky Makemake -> J Jupiter Dec 20.88869 = 188/9
         sky Transpluto -> J Jupiter RA 152.00112 = 152
-   [ 1] cross link struck on both ends (HUB)  roots 5  bodies=['H Chiron', 'J Sedna']; link=cross H Chiron–J Sedna RA 42.0781 Dec 0.4817 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ketu', 'Quaoar', 'Rahu']; strikers_jockey_end=['Ketu', 'Sun', 'Uranus']; same_sky_both_ends=['Ketu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 5  bodies=['H Chiron', 'J Sedna']; link=cross H Chiron–J Sedna RA 42.0781 Dec 0.4817 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ketu', 'Quaoar', 'Rahu']; strikers_jockey_end=['Ketu', 'Sun', 'Uranus']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Chiron–J Sedna RA 42.0781 Dec 0.4817 near
         sky Rahu -> H Chiron RA 14.00291 = 14
         sky Ketu -> H Chiron RA 165.99709 = 166
@@ -497,7 +497,7 @@
         sky Sedna -> H Ceres RA 93.77825 = 844/9
         sky Orcus -> H Ceres Flat 166.99583 = 167
         sky Sun on H Ceres RA 26.1176 Dec 0.1196
-   [ 1] cross link struck on both ends (HUB)  roots 10  bodies=['H Juno', 'J Haumea']; link=cross H Juno–J Haumea RA 0.1236 Dec 20.2615; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Gonggong', 'Ketu', 'Venus']; strikers_jockey_end=['Ketu', 'Makemake', 'Rahu', 'Vesta']; same_sky_both_ends=['Ketu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 10  bodies=['H Juno', 'J Haumea']; link=cross H Juno–J Haumea RA 0.1236 Dec 20.2615; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Gonggong', 'Ketu', 'Venus']; strikers_jockey_end=['Ketu', 'Makemake', 'Rahu', 'Vesta']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Juno–J Haumea RA 0.1236 Dec 20.2615
         sky Venus -> H Juno Flat 70.88921 = 638/9
         sky Gonggong -> H Juno Dec 12.11150 = 109/9
@@ -511,7 +511,7 @@
         sky Sedna -> H Vesta Dec 10.00317 = 10
         sky Sedna on H Vesta RA 1.2220 Dec 10.0032
         sky Vesta on J Ceres RA 19.7825 Dec 0.5513 near
-   [ 1] cross link struck on both ends (HUB)  roots 11  bodies=['H Makemake', 'J Haumea']; link=cross H Makemake–J Haumea RA 0.6536 Dec 2.4363; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ceres', 'Ketu', 'Mars', 'Mercury']; strikers_jockey_end=['Ketu', 'Makemake', 'Rahu', 'Vesta']; same_sky_both_ends=['Ketu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 11  bodies=['H Makemake', 'J Haumea']; link=cross H Makemake–J Haumea RA 0.6536 Dec 2.4363; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ceres', 'Ketu', 'Mars', 'Mercury']; strikers_jockey_end=['Ketu', 'Makemake', 'Rahu', 'Vesta']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Makemake–J Haumea RA 0.6536 Dec 2.4363
         sky Mercury -> H Makemake Flat 90.99773 = 91
         sky Mars -> H Makemake RA 84.00272 = 84

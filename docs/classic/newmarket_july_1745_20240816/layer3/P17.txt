@@ -1,4 +1,4 @@
-== 9 Big Gypsy King / 9 Neil Callan   [newmarket_july_1745_20240816__P17.xlsx, L3 v1.1 (12 Oct 2026)]
+== 9 Big Gypsy King / 9 Neil Callan   [newmarket_july_1745_20240816__P17.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Neptune, J Transpluto, J Juno
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Neptune      MPRSX  tight 5
@@ -76,19 +76,6 @@
         R: J Saturn–Eris RA J Saturn – sky Eris 123.5543 vs TT 38.0150 13/4 (0.0046%)
         S: horse:jockey Jupiter–Eris RA H 32.1484 J 87.2562 19/7
         X: cross H Orcus–J Eris RA 134.4579 Dec 0.3718 near
-   J Mars         MPRSX  tight 4  (near joined: X)
-        M: J Mars moved RA 88.00292 = 88
-        P: sky Mercury on J Mars RA 15.8428 Dec 0.0839
-        P: sky Venus on J Mars RA 1.0664 Dec 0.0921
-        R: J Mercury–Mars GC sky Mercury – J Mars 15.7043 vs TT 70.6580 9/2 (0.0161%) near
-        R: J Mars–Saturn Dec J Mars – sky Saturn 14.5084 vs NN 5.9738 17/7 (0.0032%)
-        R: J Mars–Neptune Dec J Mars – sky Neptune 9.0976 vs NN 28.8033 19/6 (0.0197%) near
-        R: J Mars–Ketu Dec sky Mars – J Ketu 22.4791 vs NN 7.4929 3 (0.0014%)
-        S: horse:jockey Mars–Juno Flat H 8.7608 J 140.1804 16 near
-        S: horse:jockey Mars–Haumea GC H 114.4782 J 19.7360 29/5 near
-        S: horse:jockey Mars–Makemake Flat H 135.6139 J 32.5479 25/6
-        S: horse:jockey Mars–Transpluto RA H 174.5382 J 24.9342 7
-        X: cross H Sun–J Mars RA 145.8919 Dec 0.4044 near
    H Jupiter      PRSX  tight 4
         P: sky Gonggong -> H Jupiter GC 18.00451 = 18
         R: H Jupiter–Gonggong Flat sky 103.4531 natal 18.4748 28/5 (0.0058%) near
@@ -173,6 +160,18 @@
         S: horse:jockey Chiron–Makemake Flat H 173.0996 J 119.8370 13/9
         X: cross H Orcus–J Makemake RA 1.3430 Dec 50.1935
         X: cross H Transpluto–J Makemake RA 0.2010 Dec 27.8483
+   J Mars         MPRS  tight 4
+        M: J Mars moved RA 88.00292 = 88
+        P: sky Mercury on J Mars RA 15.8428 Dec 0.0839
+        P: sky Venus on J Mars RA 1.0664 Dec 0.0921
+        R: J Mercury–Mars GC sky Mercury – J Mars 15.7043 vs TT 70.6580 9/2 (0.0161%) near
+        R: J Mars–Saturn Dec J Mars – sky Saturn 14.5084 vs NN 5.9738 17/7 (0.0032%)
+        R: J Mars–Neptune Dec J Mars – sky Neptune 9.0976 vs NN 28.8033 19/6 (0.0197%) near
+        R: J Mars–Ketu Dec sky Mars – J Ketu 22.4791 vs NN 7.4929 3 (0.0014%)
+        S: horse:jockey Mars–Juno Flat H 8.7608 J 140.1804 16 near
+        S: horse:jockey Mars–Haumea GC H 114.4782 J 19.7360 29/5 near
+        S: horse:jockey Mars–Makemake Flat H 135.6139 J 32.5479 25/6
+        S: horse:jockey Mars–Transpluto RA H 174.5382 J 24.9342 7
    H Ceres        EPRSX  tight 3  (near joined: SX)
         E: H Ceres Equator 24.99599 = 25
         P: sky Jupiter -> H Ceres GC 3.00154 = 3
@@ -450,13 +449,13 @@
         S: horse:jockey Uranus–Orcus GC H 117.0804 J 104.0863 9/8 near
         X: cross H Transpluto–J Orcus RA 35.9282 Dec 0.4058 near
 -- webs
-   size 46 both charts True hubs H Neptune, J Transpluto, J Juno, J Gonggong, H Transpluto, J Eris, J Mars, H Jupiter, H Saturn, H Sedna, H Makemake, J Venus, J Neptune, J Makemake, H Ceres, J Vesta, H Uranus, H Pallas, H Eris, H Haumea, J Jupiter, J Uranus, J Pallas, J Sun, H Mars, H Quaoar, J Mercury, J Saturn, J Pluto, J Chiron, H Mercury, J Sedna, H Juno, H Gonggong, H Vesta, J Haumea, H Node, H Orcus, J Ceres, J Quaoar, J Node, J Orcus
+   size 46 both charts True hubs H Neptune, J Transpluto, J Juno, J Gonggong, H Transpluto, J Eris, H Jupiter, H Saturn, H Sedna, H Makemake, J Venus, J Neptune, J Makemake, J Mars, H Ceres, J Vesta, H Uranus, H Pallas, H Eris, H Haumea, J Jupiter, J Uranus, J Pallas, J Sun, H Mars, H Quaoar, J Mercury, J Saturn, J Pluto, J Chiron, H Mercury, J Sedna, H Juno, H Gonggong, H Vesta, J Haumea, H Node, H Orcus, J Ceres, J Quaoar, J Node, J Orcus
       H Neptune .. J Transpluto: splits:25
       H Neptune .. J Juno: cross H Neptune–J Juno RA 50.2044 Dec 0.0974
       H Neptune .. J Gonggong: H Saturn–Neptune Flat sky 11.7938 natal 31.4493 8/3 (0.0024%) | cross H Saturn–J Gonggong RA 1.3478 Dec 8.8083
       H Neptune .. H Transpluto: H Neptune -> H Transpluto Dec span 14.20087 = moved 2.00208 (2) + 12.19879  parts ['6', 1.5508] span/other ['7/6', 0.2182]
       H Neptune .. J Eris: horse:jockey Neptune–Haumea RA H 137.5811 J 80.2702 12/7 near | splits:80
-      H Neptune .. J Mars: H Neptune -> J Mars Dec span 11.09967 = moved 2.00208 (2) + 9.09758  parts ['9/2', 0.9791] span/other ['11/9', 0.1763]
+      H Neptune .. H Jupiter: H H Jupiter–H Neptune RA 0.4159 Dec 0.0674
 -- shapes
    [ 1] cross link struck on both ends (HUB)  roots 10  bodies=['H Sun', 'J Mars']; link=cross H Sun–J Mars RA 145.8919 Dec 0.4044 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Mars', 'Mercury', 'Venus']; strikers_jockey_end=['Chiron', 'Mars', 'Mercury', 'Transpluto', 'Venus']; same_sky_both_ends=['Mars', 'Mercury', 'Venus']; multi=True; strict=False
         cross H Sun–J Mars RA 145.8919 Dec 0.4044 near

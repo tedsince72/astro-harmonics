@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "5 Daphne Moon / 5 Sean Bowen",
  "workbook": "perth_1610_20220420__P09.xlsx",
  "bodies": {
@@ -9565,7 +9565,7 @@
     "strikes:59",
     "strikes:60"
    ],
-   "roots_behind": 5,
+   "roots_behind": 4,
    "bodies": [
     "H Ceres",
     "J Uranus"
@@ -9592,8 +9592,7 @@
    ],
    "same_sky_both_ends": [
     "Ceres",
-    "Ketu",
-    "Rahu"
+    "Node"
    ],
    "multi": true,
    "strict": true
@@ -9605,7 +9604,7 @@
     "links:69",
     "strikes:57"
    ],
-   "roots_behind": 3,
+   "roots_behind": 2,
    "bodies": [
     "H Ceres",
     "J Uranus"
@@ -10252,25 +10251,6 @@
    "hub": true,
    "strong_hub": true,
    "pair": "Neptune/Pluto",
-   "strict": true
-  },
-  {
-   "shape": 6,
-   "name": "swap",
-   "items": [
-    "links:85",
-    "links:81"
-   ],
-   "roots_behind": 2,
-   "bodies": [
-    "H Ketu",
-    "J Rahu",
-    "H Rahu",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": true,
-   "pair": "Ketu/Rahu",
    "strict": true
   },
   {

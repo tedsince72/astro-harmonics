@@ -1,4 +1,4 @@
-== 3 Gidwa / 3 Andrea Atzeni   [nottingham_1750_20220613__P05.xlsx, L3 v1.1 (12 Oct 2026)]
+== 3 Gidwa / 3 Andrea Atzeni   [nottingham_1750_20220613__P05.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Sun
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Sun          MPRSX  tight 5
@@ -429,7 +429,7 @@
         sky Mercury -> J Uranus Dec 39.44457 = 355/9
         sky Chiron -> J Uranus Dec 31.00109 = 31
         sky Pluto on J Uranus RA 15.4490 Dec 0.4622 near
-   [ 1] cross link struck on both ends (HUB)  roots 6  bodies=['H Saturn', 'J Juno']; link=cross H Saturn–J Juno RA 1.7701 Dec 12.0259 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Gonggong', 'Rahu', 'Venus']; strikers_jockey_end=['Ketu', 'Rahu', 'Uranus']; same_sky_both_ends=['Rahu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 6  bodies=['H Saturn', 'J Juno']; link=cross H Saturn–J Juno RA 1.7701 Dec 12.0259 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Gonggong', 'Rahu', 'Venus']; strikers_jockey_end=['Ketu', 'Rahu', 'Uranus']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Saturn–J Juno RA 1.7701 Dec 12.0259 near
         sky Venus -> H Saturn Dec 37.22232 = 335/9
         sky Rahu -> H Saturn Flat 125.33354 = 1128/9
@@ -502,10 +502,7 @@
    [ 5] movement onto a cross link (HUB)  roots 2  bodies=['H Saturn']; link=cross H Saturn–J Juno RA 1.7701 Dec 12.0259 near; moved=H Saturn; strict=False
         cross H Saturn–J Juno RA 1.7701 Dec 12.0259 near
         H Saturn moved Dec 7.33226 = 66/9
-   [ 6] swap (HUB)  roots 2  bodies=['H Ketu', 'J Rahu', 'H Rahu', 'J Ketu']; pair=Ketu/Rahu; strict=False
-        cross H Ketu–J Rahu RA 2.2612 Dec 0.3780 near
-        cross H Rahu–J Ketu RA 2.2612 Dec 0.3780 near
-   [ 7] triangle struck at every corner by one sky body (STRONG HUB)  roots 6  bodies=['H Sedna', 'H Sun', 'J Uranus']; corners=['H Sedna', 'H Sun', 'J Uranus']; sky=Mercury; strict=False
+   [ 7] triangle struck at every corner by one sky body (STRONG HUB)  roots 5  bodies=['H Sedna', 'H Sun', 'J Uranus']; corners=['H Sedna', 'H Sun', 'J Uranus']; sky=Mercury; strict=False
         H H Sun–H Sedna RA 52.77822 = 475/9
         cross H Sedna–J Uranus GC 131.33350 = 1182/9
         cross H Sun–J Uranus RA 79.00372 = 79

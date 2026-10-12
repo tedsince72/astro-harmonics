@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "3 Red Giant / 3 Sean Quinlan",
  "workbook": "catterick_1505_20211119__P05.xlsx",
  "tags": {
@@ -193,8 +193,8 @@
    ]
   },
   "links:119:Dec": {
-   "tag": "root",
-   "plane": "Dec"
+   "tag": "mirror",
+   "of": "links:114"
   },
   "movement:0": {
    "tag": "root",
@@ -2555,9 +2555,9 @@
    "root": 2
   },
   "links": {
-   "root": 137,
+   "root": 136,
    "derived": 6,
-   "mirror": 1
+   "mirror": 2
   },
   "movement": {
    "root": 5

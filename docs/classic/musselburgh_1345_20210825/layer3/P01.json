@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "1 Major Snugfit / 1 Paul Mulrennan",
  "workbook": "20210825_musselburgh_1345__P01.xlsx",
  "bodies": {
@@ -9167,7 +9167,7 @@
     "Transpluto"
    ],
    "same_sky_both_ends": [
-    "Ketu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -9305,7 +9305,7 @@
     "Transpluto"
    ],
    "same_sky_both_ends": [
-    "Ketu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -9452,7 +9452,7 @@
     "Transpluto"
    ],
    "same_sky_both_ends": [
-    "Ketu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -9502,7 +9502,9 @@
     "Pluto",
     "Rahu"
    ],
-   "same_sky_both_ends": [],
+   "same_sky_both_ends": [
+    "Node"
+   ],
    "multi": false,
    "strict": false
   },
@@ -9559,9 +9561,10 @@
     "Uranus"
    ],
    "same_sky_both_ends": [
+    "Node",
     "Uranus"
    ],
-   "multi": false,
+   "multi": true,
    "strict": false
   },
   {
@@ -9596,7 +9599,7 @@
     "contacts:41",
     "contacts:42"
    ],
-   "roots_behind": 10,
+   "roots_behind": 9,
    "bodies": [
     "H Ceres",
     "J Eris"
@@ -9636,7 +9639,7 @@
     "links:85",
     "strikes:16"
    ],
-   "roots_behind": 3,
+   "roots_behind": 2,
    "bodies": [
     "H Ceres",
     "J Eris"

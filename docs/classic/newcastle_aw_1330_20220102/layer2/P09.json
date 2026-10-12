@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "5 Venturous / 5 Connor Beasley",
  "workbook": "newcastle_aw_1330_20220102__P09.xlsx",
  "tags": {
@@ -558,6 +558,10 @@
     }
    ]
   },
+  "links:82": {
+   "tag": "mirror",
+   "of": "links:80"
+  },
   "strikes:15": {
    "tag": "duplicate",
    "of": "movement:2"
@@ -804,10 +808,6 @@
    "what": "close/near"
   },
   "links:81": {
-   "tag": "root",
-   "what": "close/near"
-  },
-  "links:82": {
    "tag": "root",
    "what": "close/near"
   },
@@ -2119,8 +2119,8 @@
    "race_level": 1
   },
   "links": {
-   "root": 106,
-   "mirror": 1,
+   "root": 105,
+   "mirror": 2,
    "derived": 2
   },
   "movement": {

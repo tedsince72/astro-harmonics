@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "2 Eldorado Allen / 2 Brendan Powell",
  "workbook": "huntingdon_1352_20211205__P03.xlsx",
  "bodies": {
@@ -8919,7 +8919,7 @@
     "Ketu"
    ],
    "same_sky_both_ends": [
-    "Ketu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -8976,9 +8976,10 @@
     "Sedna"
    ],
    "same_sky_both_ends": [
+    "Node",
     "Pallas"
    ],
-   "multi": false,
+   "multi": true,
    "strict": false
   },
   {
@@ -9062,7 +9063,7 @@
     "strikes:74",
     "strikes:75"
    ],
-   "roots_behind": 9,
+   "roots_behind": 8,
    "bodies": [
     "H Pallas",
     "J Sedna"

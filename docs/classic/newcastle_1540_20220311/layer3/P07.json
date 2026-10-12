@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "5 Sir Apollo / 5 Jonathan England",
  "workbook": "newcastle_1540_20220311__P07.xlsx",
  "bodies": {
@@ -8577,7 +8577,9 @@
     "Neptune",
     "Transpluto"
    ],
-   "same_sky_both_ends": [],
+   "same_sky_both_ends": [
+    "Node"
+   ],
    "multi": false,
    "strict": false
   },
@@ -8623,7 +8625,7 @@
     "Ketu"
    ],
    "same_sky_both_ends": [
-    "Ketu"
+    "Node"
    ],
    "multi": false,
    "strict": false

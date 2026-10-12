@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "5 Pallas Dancer / 5 Ben Robinson",
  "workbook": "20210802_newcastle_aw_1633__P09.xlsx",
  "tags": {
@@ -126,24 +126,8 @@
    ]
   },
   "links:73:Dec": {
-   "tag": "derived",
-   "plane": "Dec",
-   "chain": [
-    {
-     "id": "links:71:Dec",
-     "kind": "cross",
-     "a": "H Ketu",
-     "b": "J Ceres",
-     "num": "30/9"
-    },
-    {
-     "id": "links:39:Dec",
-     "kind": "natal",
-     "a": "J Ceres",
-     "b": "J Ketu",
-     "num": "12/9"
-    }
-   ]
+   "tag": "mirror",
+   "of": "links:68"
   },
   "links:50:Dec": {
    "tag": "root",
@@ -2344,8 +2328,8 @@
   },
   "links": {
    "root": 99,
-   "derived": 4,
-   "mirror": 1
+   "derived": 3,
+   "mirror": 2
   },
   "movement": {
    "root": 13,

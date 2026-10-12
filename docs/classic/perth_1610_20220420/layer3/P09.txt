@@ -1,4 +1,4 @@
-== 5 Daphne Moon / 5 Sean Bowen   [perth_1610_20220420__P09.xlsx, L3 v1.1 (12 Oct 2026)]
+== 5 Daphne Moon / 5 Sean Bowen   [perth_1610_20220420__P09.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): J Node, H Juno, J Neptune, H Pallas
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    J Node         BMPRSX  tight 6
@@ -562,7 +562,7 @@
         sky Quaoar -> H Chiron GC 72.00047 = 72
         sky Venus on H Chiron RA 1.0881 Dec 6.0626
         sky Neptune -> J Orcus GC 141.55528 = 1274/9
-   [ 1] cross link struck on both ends (HUB)  roots 5  bodies=['H Ceres', 'J Uranus']; link=cross H Ceres–J Uranus RA 0.9991 Dec 3.9847; strict_same_sky_both_ends=['Ceres', 'Node']; strict_multi=True; strikers_horse_end=['Ceres', 'Jupiter', 'Ketu', 'Rahu']; strikers_jockey_end=['Ceres', 'Haumea', 'Ketu', 'Rahu']; same_sky_both_ends=['Ceres', 'Ketu', 'Rahu']; multi=True; strict=True
+   [ 1] cross link struck on both ends (HUB)  roots 4  bodies=['H Ceres', 'J Uranus']; link=cross H Ceres–J Uranus RA 0.9991 Dec 3.9847; strict_same_sky_both_ends=['Ceres', 'Node']; strict_multi=True; strikers_horse_end=['Ceres', 'Jupiter', 'Ketu', 'Rahu']; strikers_jockey_end=['Ceres', 'Haumea', 'Ketu', 'Rahu']; same_sky_both_ends=['Ceres', 'Node']; multi=True; strict=True
         cross H Ceres–J Uranus RA 0.9991 Dec 3.9847
         sky Jupiter -> H Ceres GC 51.99570 = 52
         sky Ceres -> H Ceres RA 131.99788 = 132
@@ -662,7 +662,7 @@
    [ 2] partner strike (HUB)  roots 2  bodies=['H Pluto', 'J Pallas']; link=cross H Pluto–J Pallas RA 1.2613 Dec 32.4214; strict=True
         cross H Pluto–J Pallas RA 1.2613 Dec 32.4214
         sky Pallas -> H Pluto Dec 17.00291 = 17
-   [ 2] partner strike (HUB)  roots 3  bodies=['H Ceres', 'J Uranus']; link=cross H Ceres–J Uranus RA 0.9991 Dec 3.9847; strict=True
+   [ 2] partner strike (HUB)  roots 2  bodies=['H Ceres', 'J Uranus']; link=cross H Ceres–J Uranus RA 0.9991 Dec 3.9847; strict=True
         cross H Ceres–J Uranus RA 0.9991 Dec 3.9847
         sky Ceres -> J Uranus RA 130.99880 = 131
    [ 2] partner strike (HUB)  roots 2  bodies=['H Ceres', 'J Ceres']; link=cross H Ceres–J Ceres RA 36.4855 Dec 0.3160 near; strict=False
@@ -707,9 +707,6 @@
    [ 6] swap (STRONG HUB)  roots 2  bodies=['H Neptune', 'J Pluto', 'H Pluto', 'J Neptune']; pair=Neptune/Pluto; strict=True
         cross H Neptune–J Pluto RA 97.3562 Dec 0.2964
         cross H Pluto–J Neptune RA 13.1105 Dec 0.2419
-   [ 6] swap (STRONG HUB)  roots 2  bodies=['H Ketu', 'J Rahu', 'H Rahu', 'J Ketu']; pair=Ketu/Rahu; strict=True
-        cross H Ketu–J Rahu RA 161.6050 Dec 0.1923
-        cross H Rahu–J Ketu RA 161.6050 Dec 0.1923
    [ 7] triangle struck at every corner by one sky body (HUB)  roots 3  bodies=['H Eris', 'H Rahu', 'J Makemake']; corners=['H Eris', 'H Rahu', 'J Makemake']; sky=Makemake; strict=True
         H H Rahu–H Eris Dec 0.99999 = 1
         cross H Eris–J Makemake Dec 35.44415 = 319/9

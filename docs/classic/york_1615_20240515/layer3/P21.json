@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "11 On Point / 11 Sean D Bowen",
  "workbook": "york_1615_20240515__P21.xlsx",
  "bodies": {
@@ -186,12 +186,10 @@
     "B",
     "P",
     "R",
-    "S",
-    "X"
+    "S"
    ],
    "near_joined": [
-    "S",
-    "X"
+    "S"
    ],
    "items": {
     "P": [
@@ -209,9 +207,6 @@
     ],
     "S": [
      "hj_ratios:3"
-    ],
-    "X": [
-     "links:78"
     ]
    },
    "near_unjoined": [],
@@ -1559,7 +1554,6 @@
    "near_joined": [],
    "items": {},
    "near_unjoined": [
-    "links:78",
     "pair_family:109",
     "pair_family:74",
     "pair_family:75",
@@ -1608,9 +1602,9 @@
   "J Jupiter",
   "J Pallas",
   "J Chiron",
-  "H Neptune",
   "H Mercury",
   "H Venus",
+  "H Neptune",
   "H Ceres",
   "H Node",
   "J Mars",
@@ -1710,9 +1704,9 @@
     "J Jupiter",
     "J Pallas",
     "J Chiron",
-    "H Neptune",
     "H Mercury",
     "H Venus",
+    "H Neptune",
     "H Ceres",
     "H Node",
     "J Mars",
@@ -1825,14 +1819,6 @@
     },
     {
      "from": "H Chiron",
-     "to": "H Neptune",
-     "items": [
-      "links:85:Dec",
-      "splits:30"
-     ]
-    },
-    {
-     "from": "H Chiron",
      "to": "H Mercury",
      "items": [
       "links:83",
@@ -1845,6 +1831,14 @@
      "items": [
       "links:85:Dec",
       "splits:26"
+     ]
+    },
+    {
+     "from": "H Chiron",
+     "to": "H Neptune",
+     "items": [
+      "links:85:Dec",
+      "splits:30"
      ]
     },
     {
@@ -2153,13 +2147,6 @@
     },
     {
      "from": "J Quaoar",
-     "to": "H Neptune",
-     "items": [
-      "splits:30"
-     ]
-    },
-    {
-     "from": "J Quaoar",
      "to": "H Mercury",
      "items": [
       "splits:25"
@@ -2170,6 +2157,13 @@
      "to": "H Venus",
      "items": [
       "splits:26"
+     ]
+    },
+    {
+     "from": "J Quaoar",
+     "to": "H Neptune",
+     "items": [
+      "splits:30"
      ]
     },
     {
@@ -2460,14 +2454,6 @@
     },
     {
      "from": "H Vesta",
-     "to": "H Neptune",
-     "items": [
-      "splits:14",
-      "links:76:Flat"
-     ]
-    },
-    {
-     "from": "H Vesta",
      "to": "H Mercury",
      "items": [
       "links:18:GC",
@@ -2480,6 +2466,14 @@
      "items": [
       "links:18:GC",
       "links:6:RA"
+     ]
+    },
+    {
+     "from": "H Vesta",
+     "to": "H Neptune",
+     "items": [
+      "splits:14",
+      "links:76:Flat"
      ]
     },
     {
@@ -2771,13 +2765,6 @@
     },
     {
      "from": "H Pluto",
-     "to": "H Neptune",
-     "items": [
-      "links:11:GC"
-     ]
-    },
-    {
-     "from": "H Pluto",
      "to": "H Mercury",
      "items": [
       "links:11:GC",
@@ -2790,6 +2777,13 @@
      "items": [
       "links:13:Dec",
       "links:6:RA"
+     ]
+    },
+    {
+     "from": "H Pluto",
+     "to": "H Neptune",
+     "items": [
+      "links:11:GC"
      ]
     },
     {
@@ -3070,13 +3064,6 @@
     },
     {
      "from": "H Juno",
-     "to": "H Neptune",
-     "items": [
-      "ratios:5"
-     ]
-    },
-    {
-     "from": "H Juno",
      "to": "H Mercury",
      "items": [
       "links:17:RA",
@@ -3089,6 +3076,13 @@
      "items": [
       "links:17:RA",
       "links:6:RA"
+     ]
+    },
+    {
+     "from": "H Juno",
+     "to": "H Neptune",
+     "items": [
+      "ratios:5"
      ]
     },
     {
@@ -3372,13 +3366,6 @@
     },
     {
      "from": "J Juno",
-     "to": "H Neptune",
-     "items": [
-      "links:76:Flat"
-     ]
-    },
-    {
-     "from": "J Juno",
      "to": "H Mercury",
      "items": [
       "links:61",
@@ -3390,6 +3377,13 @@
      "to": "H Venus",
      "items": [
       "links:61"
+     ]
+    },
+    {
+     "from": "J Juno",
+     "to": "H Neptune",
+     "items": [
+      "links:76:Flat"
      ]
     },
     {
@@ -3653,14 +3647,6 @@
     },
     {
      "from": "J Node",
-     "to": "H Neptune",
-     "items": [
-      "links:54",
-      "links:77:RA"
-     ]
-    },
-    {
-     "from": "J Node",
      "to": "H Mercury",
      "items": [
       "links:58"
@@ -3672,6 +3658,14 @@
      "items": [
       "links:54",
       "links:62"
+     ]
+    },
+    {
+     "from": "J Node",
+     "to": "H Neptune",
+     "items": [
+      "links:54",
+      "links:77:RA"
      ]
     },
     {
@@ -3928,13 +3922,6 @@
     },
     {
      "from": "H Quaoar",
-     "to": "H Neptune",
-     "items": [
-      "links:12:GC"
-     ]
-    },
-    {
-     "from": "H Quaoar",
      "to": "H Mercury",
      "items": [
       "links:12:GC",
@@ -3947,6 +3934,13 @@
      "items": [
       "links:116:Flat",
       "hj_ratios:4"
+     ]
+    },
+    {
+     "from": "H Quaoar",
+     "to": "H Neptune",
+     "items": [
+      "links:12:GC"
      ]
     },
     {
@@ -4202,14 +4196,6 @@
     },
     {
      "from": "J Jupiter",
-     "to": "H Neptune",
-     "items": [
-      "links:41:GC",
-      "splits:30"
-     ]
-    },
-    {
-     "from": "J Jupiter",
      "to": "H Mercury",
      "items": [
       "links:41:GC",
@@ -4222,6 +4208,14 @@
      "items": [
       "links:41:GC",
       "splits:26"
+     ]
+    },
+    {
+     "from": "J Jupiter",
+     "to": "H Neptune",
+     "items": [
+      "links:41:GC",
+      "splits:30"
      ]
     },
     {
@@ -4467,13 +4461,6 @@
     },
     {
      "from": "J Pallas",
-     "to": "H Neptune",
-     "items": [
-      "links:75:GC"
-     ]
-    },
-    {
-     "from": "J Pallas",
      "to": "H Mercury",
      "items": [
       "links:60",
@@ -4485,6 +4472,13 @@
      "to": "H Venus",
      "items": [
       "links:60"
+     ]
+    },
+    {
+     "from": "J Pallas",
+     "to": "H Neptune",
+     "items": [
+      "links:75:GC"
      ]
     },
     {
@@ -4725,13 +4719,6 @@
     },
     {
      "from": "J Chiron",
-     "to": "H Neptune",
-     "items": [
-      "links:74:GC"
-     ]
-    },
-    {
-     "from": "J Chiron",
      "to": "H Mercury",
      "items": [
       "links:50:Dec",
@@ -4744,6 +4731,13 @@
      "items": [
       "links:50:Dec",
       "splits:26"
+     ]
+    },
+    {
+     "from": "J Chiron",
+     "to": "H Neptune",
+     "items": [
+      "links:74:GC"
      ]
     },
     {
@@ -4989,264 +4983,17 @@
      ]
     },
     {
-     "from": "H Neptune",
-     "to": "H Mercury",
-     "items": [
-      "links:4:Dec"
-     ]
-    },
-    {
-     "from": "H Neptune",
+     "from": "H Mercury",
      "to": "H Venus",
      "items": [
-      "links:4:Dec",
-      "hj_ratios:4"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "H Ceres",
-     "items": [
-      "hj_ratios:3",
-      "links:2"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "H Node",
-     "items": [
-      "links:11:GC",
-      "links:14"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "J Mars",
-     "items": [
-      "links:12:GC",
-      "links:117:GC"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "J Saturn",
-     "items": [
-      "links:76:Flat",
-      "splits:19"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "J Ceres",
-     "items": [
-      "links:4:Dec",
-      "links:5:GC",
-      "splits:7"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "J Venus",
-     "items": [
-      "links:12:GC",
-      "links:116:Flat"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "J Pluto",
-     "items": [
-      "links:11:GC",
-      "shared:0"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "H Pallas",
-     "items": [
-      "links:4:Dec",
-      "links:5:GC"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "H Makemake",
-     "items": [
-      "links:76:Flat",
-      "splits:17"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "H Gonggong",
-     "items": [
-      "splits:30",
-      "splits:38"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "J Uranus",
-     "items": [
-      "links:12:GC",
-      "links:118:RA"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "J Makemake",
-     "items": [
-      "links:76:Flat",
-      "splits:22"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "J Transpluto",
-     "items": [
-      "links:76:Flat",
-      "splits:23"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "H Sun",
-     "items": [
-      "hj_ratios:3"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "J Sun",
-     "items": [
-      "links:11:GC",
-      "links:79:RA"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "H Uranus",
-     "items": [
-      "links:76:Flat",
-      "splits:13"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "H Sedna",
-     "items": [
-      "links:4:Dec",
-      "hj_ratios:7"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "J Eris",
-     "items": [
-      "links:77:RA"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "J Sedna",
-     "items": [
-      "links:4:Dec",
-      "links:59:GC"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "H Mars",
-     "items": [
-      "links:4:Dec",
-      "hj_ratios:5"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "H Saturn",
-     "items": [
-      "links:4:Dec",
-      "hj_ratios:6"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "H Transpluto",
-     "items": [
-      "links:11:GC",
-      "links:14",
-      "links:26:RA"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "H Jupiter",
-     "items": [
-      "links:11:GC",
-      "hj_ratios:11"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "H Haumea",
-     "items": [
-      "links:75:GC",
-      "links:111"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "J Neptune",
-     "items": [
-      "hj_ratios:3"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "J Vesta",
-     "items": [
-      "links:74:GC",
-      "hj_ratios:16"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "J Gonggong",
-     "items": [
-      "links:12:GC",
-      "links:120"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "H Eris",
-     "items": [
-      "links:11:GC",
-      "hj_ratios:15"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "J Haumea",
-     "items": [
-      "links:76:Flat",
-      "hj_ratios:19"
-     ]
-    },
-    {
-     "from": "H Neptune",
-     "to": "J Mercury",
-     "items": [
-      "links:4:Dec",
       "hj_ratios:4"
      ]
     },
     {
      "from": "H Mercury",
-     "to": "H Venus",
+     "to": "H Neptune",
      "items": [
-      "hj_ratios:4"
+      "links:4:Dec"
      ]
     },
     {
@@ -5486,6 +5233,14 @@
     },
     {
      "from": "H Venus",
+     "to": "H Neptune",
+     "items": [
+      "links:0",
+      "hj_ratios:3"
+     ]
+    },
+    {
+     "from": "H Venus",
      "to": "H Ceres",
      "items": [
       "links:0",
@@ -5717,6 +5472,245 @@
      "items": [
       "links:6:RA",
       "links:88:Flat"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "H Ceres",
+     "items": [
+      "hj_ratios:3",
+      "links:2"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "H Node",
+     "items": [
+      "links:11:GC",
+      "links:14"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "J Mars",
+     "items": [
+      "links:12:GC",
+      "links:117:GC"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "J Saturn",
+     "items": [
+      "links:76:Flat",
+      "splits:19"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "J Ceres",
+     "items": [
+      "links:4:Dec",
+      "links:5:GC",
+      "splits:7"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "J Venus",
+     "items": [
+      "links:12:GC",
+      "links:116:Flat"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "J Pluto",
+     "items": [
+      "links:11:GC",
+      "shared:0"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "H Pallas",
+     "items": [
+      "links:4:Dec",
+      "links:5:GC"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "H Makemake",
+     "items": [
+      "links:76:Flat",
+      "splits:17"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "H Gonggong",
+     "items": [
+      "splits:30",
+      "splits:38"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "J Uranus",
+     "items": [
+      "links:12:GC",
+      "links:118:RA"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "J Makemake",
+     "items": [
+      "links:76:Flat",
+      "splits:22"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "J Transpluto",
+     "items": [
+      "links:76:Flat",
+      "splits:23"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "H Sun",
+     "items": [
+      "hj_ratios:3"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "J Sun",
+     "items": [
+      "links:11:GC",
+      "links:79:RA"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "H Uranus",
+     "items": [
+      "links:76:Flat",
+      "splits:13"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "H Sedna",
+     "items": [
+      "links:4:Dec",
+      "hj_ratios:7"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "J Eris",
+     "items": [
+      "links:77:RA"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "J Sedna",
+     "items": [
+      "links:4:Dec",
+      "links:59:GC"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "H Mars",
+     "items": [
+      "links:4:Dec",
+      "hj_ratios:5"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "H Saturn",
+     "items": [
+      "links:4:Dec",
+      "hj_ratios:6"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "H Transpluto",
+     "items": [
+      "links:11:GC",
+      "links:14",
+      "links:26:RA"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "H Jupiter",
+     "items": [
+      "links:11:GC",
+      "hj_ratios:11"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "H Haumea",
+     "items": [
+      "links:75:GC",
+      "links:111"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "J Neptune",
+     "items": [
+      "hj_ratios:3"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "J Vesta",
+     "items": [
+      "links:74:GC",
+      "hj_ratios:16"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "J Gonggong",
+     "items": [
+      "links:12:GC",
+      "links:120"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "H Eris",
+     "items": [
+      "links:11:GC",
+      "hj_ratios:15"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "J Haumea",
+     "items": [
+      "links:76:Flat",
+      "hj_ratios:19"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "J Mercury",
+     "items": [
+      "links:4:Dec",
+      "hj_ratios:4"
      ]
     },
     {
@@ -9402,7 +9396,7 @@
     "Venus"
    ],
    "same_sky_both_ends": [
-    "Rahu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -9457,7 +9451,7 @@
     "Uranus"
    ],
    "same_sky_both_ends": [
-    "Rahu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -10569,8 +10563,7 @@
    "hub": true,
    "strong_hub": false,
    "joined_by": [
-    "R",
-    "X"
+    "R"
    ],
    "strict": true
   },

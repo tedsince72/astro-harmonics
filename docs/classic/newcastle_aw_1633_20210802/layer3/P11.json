@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "6 Tricolore / 6 Dylan Hogan",
  "workbook": "20210802_newcastle_aw_1633__P11.xlsx",
  "bodies": {
@@ -8865,7 +8865,7 @@
     "Ketu"
    ],
    "same_sky_both_ends": [
-    "Ketu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -8903,7 +8903,7 @@
     "Quaoar"
    ],
    "same_sky_both_ends": [
-    "Ketu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -9097,7 +9097,7 @@
     "Ketu"
    ],
    "same_sky_both_ends": [
-    "Ketu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -9152,7 +9152,7 @@
     "Quaoar"
    ],
    "same_sky_both_ends": [
-    "Ketu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -9621,25 +9621,6 @@
    "strong_hub": false,
    "link": "cross H Haumea\u2013J Ketu RA 171.4937 Dec 0.2069",
    "strict": false
-  },
-  {
-   "shape": 6,
-   "name": "swap",
-   "items": [
-    "links:94",
-    "links:93"
-   ],
-   "roots_behind": 2,
-   "bodies": [
-    "H Ketu",
-    "J Rahu",
-    "H Rahu",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": false,
-   "pair": "Ketu/Rahu",
-   "strict": true
   },
   {
    "shape": 7,

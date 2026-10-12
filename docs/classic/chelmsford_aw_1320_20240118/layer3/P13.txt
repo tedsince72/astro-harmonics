@@ -1,4 +1,4 @@
-== 7 Buford / 7 Alex Jary   [chelmsford_aw_1320_20240118__P13.xlsx, L3 v1.1 (12 Oct 2026)]
+== 7 Buford / 7 Alex Jary   [chelmsford_aw_1320_20240118__P13.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): -
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Node         EPRSX  tight 4  (near joined: E)
@@ -537,21 +537,21 @@
         sky Pallas -> J Mars GC 146.00211 = 146
         sky Eris on J Mars RA 1.2474 Dec 10.8998
         sky Transpluto on J Mars RA 130.8378 Dec 0.1677
-   [ 1] cross link struck on both ends (HUB)  roots 10  bodies=['H Sedna', 'J Sun']; link=cross H Sedna–J Sun RA 39.1249 Dec 0.4281 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Chiron', 'Rahu', 'Sun']; strikers_jockey_end=['Chiron', 'Mars', 'Mercury', 'Rahu', 'Transpluto']; same_sky_both_ends=['Chiron', 'Rahu']; multi=True; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 10  bodies=['H Sedna', 'J Sun']; link=cross H Sedna–J Sun RA 39.1249 Dec 0.4281 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Chiron', 'Rahu', 'Sun']; strikers_jockey_end=['Chiron', 'Mars', 'Mercury', 'Rahu', 'Transpluto']; same_sky_both_ends=['Chiron', 'Node']; multi=True; strict=False
         cross H Sedna–J Sun RA 39.1249 Dec 0.4281 near
         sky Sun -> H Sedna GC 117.44479 = 1057/9
         sky Chiron on H Sedna RA 42.5482 Dec 0.4133 near
         sky Rahu on H Sedna RA 38.4200 Dec 0.1410
         sky Mercury -> J Sun Flat 106.11085 = 955/9
         sky Mars -> J Sun RA 95.99856 = 96
-   [ 1] cross link struck on both ends (HUB)  roots 7  bodies=['H Sedna', 'J Mercury']; link=cross H Sedna–J Mercury RA 42.9577 Dec 0.3446 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Chiron', 'Rahu', 'Sun']; strikers_jockey_end=['Chiron', 'Rahu', 'Sedna']; same_sky_both_ends=['Chiron', 'Rahu']; multi=True; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 7  bodies=['H Sedna', 'J Mercury']; link=cross H Sedna–J Mercury RA 42.9577 Dec 0.3446 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Chiron', 'Rahu', 'Sun']; strikers_jockey_end=['Chiron', 'Rahu', 'Sedna']; same_sky_both_ends=['Chiron', 'Node']; multi=True; strict=False
         cross H Sedna–J Mercury RA 42.9577 Dec 0.3446 near
         sky Sun -> H Sedna GC 117.44479 = 1057/9
         sky Chiron on H Sedna RA 42.5482 Dec 0.4133 near
         sky Rahu on H Sedna RA 38.4200 Dec 0.1410
         sky Chiron on J Mercury RA 0.4096 Dec 0.7578
         sky Rahu on J Mercury RA 4.5378 Dec 0.4856 near
-   [ 1] cross link struck on both ends (HUB)  roots 9  bodies=['H Sedna', 'J Rahu']; link=cross H Sedna–J Rahu RA 105.5247 Dec 0.0841; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Chiron', 'Rahu', 'Sun']; strikers_jockey_end=['Chiron', 'Mars', 'Pluto', 'Rahu', 'Sedna']; same_sky_both_ends=['Chiron', 'Rahu']; multi=True; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 9  bodies=['H Sedna', 'J Rahu']; link=cross H Sedna–J Rahu RA 105.5247 Dec 0.0841; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Chiron', 'Rahu', 'Sun']; strikers_jockey_end=['Chiron', 'Mars', 'Pluto', 'Rahu', 'Sedna']; same_sky_both_ends=['Chiron', 'Node']; multi=True; strict=False
         cross H Sedna–J Rahu RA 105.5247 Dec 0.0841
         sky Sun -> H Sedna GC 117.44479 = 1057/9
         sky Chiron on H Sedna RA 42.5482 Dec 0.4133 near
@@ -732,7 +732,7 @@
         sky Quaoar on H Saturn RA 0.5296 Dec 6.9190
         sky Vesta -> H Haumea RA 131.00047 = 131
         sky Quaoar -> H Haumea GC 72.00022 = 72
-   [12] pair in one chart struck on both ends by 2+ sky bodies (HUB)  roots 5  bodies=['H Saturn', 'H Haumea']; link=H H Saturn–H Haumea Dec 39.22250 = 353/9; sky=['Quaoar', 'Vesta']; strict_sky=['Vesta']; strict_multi=False; strict=False
+   [12] pair in one chart struck on both ends by 2+ sky bodies (HUB)  roots 4  bodies=['H Saturn', 'H Haumea']; link=H H Saturn–H Haumea Dec 39.22250 = 353/9; sky=['Quaoar', 'Vesta']; strict_sky=['Vesta']; strict_multi=False; strict=False
         H H Saturn–H Haumea Dec 39.22250 = 353/9
         sky Vesta -> H Saturn RA 163.22178 = 1469/9
         sky Quaoar on H Saturn RA 0.5296 Dec 6.9190

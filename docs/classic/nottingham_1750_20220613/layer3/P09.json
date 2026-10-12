@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "5 Glory Hallelujah / 5 Rowan Scott",
  "workbook": "nottingham_1750_20220613__P09.xlsx",
  "bodies": {
@@ -9152,7 +9152,7 @@
     "Ketu"
    ],
    "same_sky_both_ends": [
-    "Ketu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -9202,7 +9202,7 @@
     "Uranus"
    ],
    "same_sky_both_ends": [
-    "Ketu",
+    "Node",
     "Uranus"
    ],
    "multi": true,
@@ -10796,7 +10796,7 @@
     "strikes:15",
     "strikes:16"
    ],
-   "roots_behind": 3,
+   "roots_behind": 2,
    "bodies": [
     "H Saturn",
     "H Neptune"

@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "3 Cresswell Queen / 3 Harry Reed",
  "workbook": "newton_abbot_1525_20220717__P05.xlsx",
  "tags": {
@@ -766,6 +766,10 @@
    "tag": "mirror",
    "of": "Rahu Equator ratio"
   },
+  "links:88": {
+   "tag": "mirror",
+   "of": "links:87"
+  },
   "strikes:6": {
    "tag": "duplicate",
    "of": "movement:0"
@@ -1003,10 +1007,6 @@
    "plane": "Flat"
   },
   "links:87": {
-   "tag": "root",
-   "what": "close/near"
-  },
-  "links:88": {
    "tag": "root",
    "what": "close/near"
   },
@@ -2124,9 +2124,9 @@
    "root": 1
   },
   "links": {
-   "root": 106,
+   "root": 105,
    "derived": 2,
-   "mirror": 1
+   "mirror": 2
   },
   "movement": {
    "root": 8,

@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "3 Pixie Loc / 3 Ben Jones",
  "workbook": "20210914_fontwell_1645__P05.xlsx",
  "tags": {
@@ -910,6 +910,10 @@
    "tag": "mirror",
    "of": "Rahu Equator ratio"
   },
+  "links:92:GC": {
+   "tag": "mirror",
+   "of": "links:88"
+  },
   "strikes:37": {
    "tag": "duplicate",
    "of": "movement:5"
@@ -1169,10 +1173,6 @@
    "plane": "Flat"
   },
   "links:91:GC": {
-   "tag": "root",
-   "plane": "GC"
-  },
-  "links:92:GC": {
    "tag": "root",
    "plane": "GC"
   },
@@ -2456,9 +2456,9 @@
    "root": 4
   },
   "links": {
-   "root": 105,
+   "root": 104,
    "derived": 7,
-   "mirror": 1
+   "mirror": 2
   },
   "movement": {
    "root": 10

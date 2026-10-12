@@ -1,4 +1,4 @@
-== 8 Cosmo Brown / 8 Marco Ghiani   [20261010_southwell_aw_2000__P13.xlsx, L3 v1.1 (12 Oct 2026)]
+== 8 Cosmo Brown / 8 Marco Ghiani   [20261010_southwell_aw_2000__P13.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): J Sun
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    J Sun          EMPRSX  tight 6
@@ -35,7 +35,6 @@
         X: cross H Rahu–J Rahu RA 110.2956 Dec 0.4177 near
         X: cross H Rahu–J Transpluto RA 113.1210 Dec 0.5393 near
         X: cross H Ketu–J Mars RA 1.2238 Dec 2.6612
-        X: cross H Ketu–J Ketu RA 110.2956 Dec 0.4177 near
    J Gonggong     MPRSX  tight 4  (near joined: X)
         M: J Gonggong moved GC 9.11187 = 82/9
         P: sky Sedna -> J Gonggong GC 93.33295 = 840/9
@@ -178,7 +177,6 @@
         S: horse:jockey Rahu–Haumea RA H 175.7780 J 52.0729 27/8 near
         X: cross H Saturn–J Ketu RA 5.3899 Dec 0.5226 near
         X: cross H Rahu–J Rahu RA 110.2956 Dec 0.4177 near
-        X: cross H Ketu–J Ketu RA 110.2956 Dec 0.4177 near
    H Juno         PRSX  tight 3  (near joined: P)
         P: sky Neptune on H Juno RA 15.5134 Dec 0.5238 near
         P: sky Pallas on H Juno RA 1.6916 Dec 14.1827 near
@@ -460,7 +458,7 @@
         sky Rahu on H Saturn RA 0.7318 Dec 1.6041
         sky Orcus on H Saturn RA 168.6234 Dec 0.0072
         sky Orcus on J Ketu RA 163.2335 Dec 0.5154 near
-   [ 1] cross link struck on both ends (HUB)  roots 6  bodies=['H Saturn', 'J Gonggong']; link=cross H Saturn–J Gonggong RA 1.6478 Dec 3.8824 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Juno', 'Orcus', 'Rahu']; strikers_jockey_end=['Rahu', 'Sedna']; same_sky_both_ends=['Rahu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 6  bodies=['H Saturn', 'J Gonggong']; link=cross H Saturn–J Gonggong RA 1.6478 Dec 3.8824 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Juno', 'Orcus', 'Rahu']; strikers_jockey_end=['Rahu', 'Sedna']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Saturn–J Gonggong RA 1.6478 Dec 3.8824 near
         sky Juno on H Saturn RA 32.2619 Dec 0.4523 near
         sky Rahu on H Saturn RA 0.7318 Dec 1.6041
@@ -503,12 +501,6 @@
         sky Orcus on H Ketu RA 52.9380 Dec 0.0977
         sky Venus -> J Mars GC 10.00193 = 10
         sky Chiron -> J Mars Flat 175.00000 = 175
-   [ 1] cross link struck on both ends (HUB)  roots 5  bodies=['H Ketu', 'J Ketu']; link=cross H Ketu–J Ketu RA 110.2956 Dec 0.4177 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ceres', 'Juno', 'Orcus']; strikers_jockey_end=['Orcus']; same_sky_both_ends=['Orcus']; multi=False; strict=False
-        cross H Ketu–J Ketu RA 110.2956 Dec 0.4177 near
-        sky Ceres -> H Ketu Flat 110.77772 = 997/9
-        sky Juno on H Ketu RA 83.4236 Dec 0.5572 near
-        sky Orcus on H Ketu RA 52.9380 Dec 0.0977
-        sky Orcus on J Ketu RA 163.2335 Dec 0.5154 near
    [ 1] cross link struck on both ends (HUB)  roots 5  bodies=['H Eris', 'J Jupiter']; link=cross H Eris–J Jupiter RA 26.6472 Dec 0.4216 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Chiron', 'Eris', 'Mercury', 'Quaoar']; strikers_jockey_end=['Haumea']; same_sky_both_ends=[]; multi=False; strict=False
         cross H Eris–J Jupiter RA 26.6472 Dec 0.4216 near
         sky Mercury -> H Eris Dec 16.99784 = 17
@@ -620,13 +612,6 @@
         cross H Quaoar–J Sun RA 42.5769 Dec 0.0154
         J Sun moved RA 124.88876 = 1124/9
         J Sun moved GC 121.11185 = 1090/9
-   [ 7] triangle struck at every corner by one sky body (HUB)  roots 6  bodies=['H Ketu', 'H Saturn', 'J Ketu']; corners=['H Ketu', 'H Saturn', 'J Ketu']; sky=Orcus; strict=False
-        H H Saturn–H Ketu RA 115.6855 Dec 0.1049
-        cross H Ketu–J Ketu RA 110.2956 Dec 0.4177 near
-        cross H Saturn–J Ketu RA 5.3899 Dec 0.5226 near
-        sky Orcus on H Ketu RA 52.9380 Dec 0.0977
-        sky Orcus on H Saturn RA 168.6234 Dec 0.0072
-        sky Orcus on J Ketu RA 163.2335 Dec 0.5154 near
    [ 7] triangle struck at every corner by one sky body (STRONG HUB)  roots 6  bodies=['H Quaoar', 'J Quaoar', 'J Sun']; corners=['H Quaoar', 'J Quaoar', 'J Sun']; sky=Pallas; strict=False
         cross H Quaoar–J Quaoar RA 31.4795 Dec 0.4157 near
         cross H Quaoar–J Sun RA 42.5769 Dec 0.0154

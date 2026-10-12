@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "6 Spycatcher / 6 Clifford Lee",
  "workbook": "ascot_1350_20231021__P11.xlsx",
  "bodies": {
@@ -8150,7 +8150,7 @@
     "Rahu"
    ],
    "same_sky_both_ends": [
-    "Rahu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -8299,7 +8299,9 @@
     "Jupiter",
     "Rahu"
    ],
-   "same_sky_both_ends": [],
+   "same_sky_both_ends": [
+    "Node"
+   ],
    "multi": false,
    "strict": false
   },
@@ -8556,7 +8558,7 @@
     "Vesta"
    ],
    "same_sky_both_ends": [
-    "Ketu"
+    "Node"
    ],
    "multi": false,
    "strict": false

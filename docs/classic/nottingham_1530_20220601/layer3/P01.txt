@@ -1,4 +1,4 @@
-== 2 Dynamic Force / 2 Ray Dawson   [nottingham_1530_20220601__P01.xlsx, L3 v1.1 (12 Oct 2026)]
+== 2 Dynamic Force / 2 Ray Dawson   [nottingham_1530_20220601__P01.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Node
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Node         MPRSX  tight 5
@@ -502,7 +502,7 @@
         sky Juno -> H Saturn GC 53.55600 = 482/9
         sky Rahu -> H Saturn Flat 125.00245 = 125
         sky Sun -> J Neptune Flat 144.99508 = 145
-   [ 1] cross link struck on both ends (HUB)  roots 5  bodies=['H Saturn', 'J Rahu']; link=cross H Saturn–J Rahu RA 41.9258 Dec 0.5005 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Juno', 'Rahu']; strikers_jockey_end=['Ketu', 'Pluto']; same_sky_both_ends=[]; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 5  bodies=['H Saturn', 'J Rahu']; link=cross H Saturn–J Rahu RA 41.9258 Dec 0.5005 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Juno', 'Rahu']; strikers_jockey_end=['Ketu', 'Pluto']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Saturn–J Rahu RA 41.9258 Dec 0.5005 near
         sky Juno -> H Saturn GC 53.55600 = 482/9
         sky Rahu -> H Saturn Flat 125.00245 = 125
@@ -625,9 +625,6 @@
    [ 5] movement onto a cross link (HUB)  roots 2  bodies=['J Juno']; link=cross H Transpluto–J Juno RA 1.9532 Dec 1.4190 near; moved=J Juno; strict=False
         cross H Transpluto–J Juno RA 1.9532 Dec 1.4190 near
         J Juno moved Flat 170.11134 = 1531/9
-   [ 6] swap (STRONG HUB)  roots 2  bodies=['H Ketu', 'J Rahu', 'H Rahu', 'J Ketu']; pair=Ketu/Rahu; strict=False
-        cross H Ketu–J Rahu RA 45.3214 Dec 0.5836 near
-        cross H Rahu–J Ketu RA 45.3214 Dec 0.5836 near
    [ 7] triangle struck at every corner by one sky body (STRONG HUB)  roots 6  bodies=['H Mars', 'H Rahu', 'J Venus']; corners=['H Mars', 'H Rahu', 'J Venus']; sky=Sun; strict=False
         H H Mars–H Rahu RA 54.4010 Dec 0.0885
         cross H Mars–J Venus RA 26.8165 Dec 0.0091

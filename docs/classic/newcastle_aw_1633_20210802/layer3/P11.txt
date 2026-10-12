@@ -1,4 +1,4 @@
-== 6 Tricolore / 6 Dylan Hogan   [20210802_newcastle_aw_1633__P11.xlsx, L3 v1.1 (12 Oct 2026)]
+== 6 Tricolore / 6 Dylan Hogan   [20210802_newcastle_aw_1633__P11.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Uranus, J Uranus, J Gonggong, J Orcus
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Uranus       MPRSX  tight 5
@@ -467,14 +467,14 @@
         sky Orcus on H Venus RA 177.9395 Dec 0.0725
         sky Gonggong on J Saturn RA 1.3946 Dec 0.1695
         sky Orcus on J Saturn RA 177.3397 Dec 0.3399 near
-   [ 1] cross link struck on both ends (STRONG HUB)  roots 7  bodies=['H Mars', 'J Uranus']; link=cross H Mars–J Uranus RA 44.2738 Dec 0.2661; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Juno', 'Ketu', 'Mercury']; strikers_jockey_end=['Gonggong', 'Haumea', 'Ketu']; same_sky_both_ends=['Ketu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (STRONG HUB)  roots 7  bodies=['H Mars', 'J Uranus']; link=cross H Mars–J Uranus RA 44.2738 Dec 0.2661; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Juno', 'Ketu', 'Mercury']; strikers_jockey_end=['Gonggong', 'Haumea', 'Ketu']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Mars–J Uranus RA 44.2738 Dec 0.2661
         sky Mercury -> H Mars Flat 122.99949 = 123
         sky Juno on H Mars RA 1.6574 Dec 15.7766 near
         sky Ketu on H Mars RA 3.5818 Dec 0.0061
         sky Haumea -> J Uranus GC 86.88894 = 782/9
         sky Gonggong -> J Uranus Dec 10.66648 = 96/9
-   [ 1] cross link struck on both ends (HUB)  roots 7  bodies=['H Mars', 'J Neptune']; link=cross H Mars–J Neptune RA 42.0163 Dec 0.4903 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Juno', 'Ketu', 'Mercury']; strikers_jockey_end=['Ketu', 'Makemake', 'Quaoar']; same_sky_both_ends=['Ketu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 7  bodies=['H Mars', 'J Neptune']; link=cross H Mars–J Neptune RA 42.0163 Dec 0.4903 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Juno', 'Ketu', 'Mercury']; strikers_jockey_end=['Ketu', 'Makemake', 'Quaoar']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Mars–J Neptune RA 42.0163 Dec 0.4903 near
         sky Mercury -> H Mars Flat 122.99949 = 123
         sky Juno on H Mars RA 1.6574 Dec 15.7766 near
@@ -502,14 +502,14 @@
         sky Ceres -> H Pluto RA 128.00403 = 128
         sky Ketu on H Pluto RA 44.7116 Dec 0.1702
         sky Juno -> J Venus Dec 15.00071 = 15
-   [ 1] cross link struck on both ends (STRONG HUB)  roots 7  bodies=['H Pluto', 'J Uranus']; link=cross H Pluto–J Uranus RA 3.1439 Dec 0.4425 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ceres', 'Ketu', 'Pluto']; strikers_jockey_end=['Gonggong', 'Haumea', 'Ketu']; same_sky_both_ends=['Ketu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (STRONG HUB)  roots 7  bodies=['H Pluto', 'J Uranus']; link=cross H Pluto–J Uranus RA 3.1439 Dec 0.4425 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ceres', 'Ketu', 'Pluto']; strikers_jockey_end=['Gonggong', 'Haumea', 'Ketu']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Pluto–J Uranus RA 3.1439 Dec 0.4425 near
         sky Pluto -> H Pluto Flat 5.66649 = 51/9
         sky Ceres -> H Pluto RA 128.00403 = 128
         sky Ketu on H Pluto RA 44.7116 Dec 0.1702
         sky Haumea -> J Uranus GC 86.88894 = 782/9
         sky Gonggong -> J Uranus Dec 10.66648 = 96/9
-   [ 1] cross link struck on both ends (HUB)  roots 7  bodies=['H Pluto', 'J Neptune']; link=cross H Pluto–J Neptune RA 0.8865 Dec 0.3139; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ceres', 'Ketu', 'Pluto']; strikers_jockey_end=['Ketu', 'Makemake', 'Quaoar']; same_sky_both_ends=['Ketu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 7  bodies=['H Pluto', 'J Neptune']; link=cross H Pluto–J Neptune RA 0.8865 Dec 0.3139; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ceres', 'Ketu', 'Pluto']; strikers_jockey_end=['Ketu', 'Makemake', 'Quaoar']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Pluto–J Neptune RA 0.8865 Dec 0.3139
         sky Pluto -> H Pluto Flat 5.66649 = 51/9
         sky Ceres -> H Pluto RA 128.00403 = 128
@@ -605,9 +605,6 @@
    [ 5] movement onto a cross link (STRONG HUB)  roots 2  bodies=['J Orcus']; link=cross H Ceres–J Orcus RA 0.2058 Dec 30.3602; moved=J Orcus; strict=True
         cross H Ceres–J Orcus RA 0.2058 Dec 30.3602
         J Orcus moved Dec 12.00395 = 12
-   [ 6] swap (HUB)  roots 2  bodies=['H Ketu', 'J Rahu', 'H Rahu', 'J Ketu']; pair=Ketu/Rahu; strict=True
-        cross H Ketu–J Rahu RA 94.7859 Dec 0.1042
-        cross H Rahu–J Ketu RA 94.7859 Dec 0.1042
    [ 7] triangle struck at every corner by one sky body (STRONG HUB)  roots 6  bodies=['H Gonggong', 'H Sun', 'J Gonggong']; corners=['H Gonggong', 'H Sun', 'J Gonggong']; sky=Jupiter; strict=False
         H H Sun–H Gonggong RA 7.1840 Dec 0.3714
         cross H Gonggong–J Gonggong Dec 6.66690 = 60/9

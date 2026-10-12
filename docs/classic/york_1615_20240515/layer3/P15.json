@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "8 Ziggy's Condor / 8 Oisin Orr",
  "workbook": "york_1615_20240515__P15.xlsx",
  "bodies": {
@@ -8495,7 +8495,9 @@
     "Haumea",
     "Rahu"
    ],
-   "same_sky_both_ends": [],
+   "same_sky_both_ends": [
+    "Node"
+   ],
    "multi": false,
    "strict": false
   },

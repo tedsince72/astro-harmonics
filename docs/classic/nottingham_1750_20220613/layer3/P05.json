@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "3 Gidwa / 3 Andrea Atzeni",
  "workbook": "nottingham_1750_20220613__P05.xlsx",
  "bodies": {
@@ -7624,7 +7624,7 @@
     "Uranus"
    ],
    "same_sky_both_ends": [
-    "Rahu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -7945,25 +7945,6 @@
    "strict": false
   },
   {
-   "shape": 6,
-   "name": "swap",
-   "items": [
-    "links:109",
-    "links:106"
-   ],
-   "roots_behind": 2,
-   "bodies": [
-    "H Ketu",
-    "J Rahu",
-    "H Rahu",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": false,
-   "pair": "Ketu/Rahu",
-   "strict": false
-  },
-  {
    "shape": 7,
    "name": "triangle struck at every corner by one sky body",
    "items": [
@@ -7974,7 +7955,7 @@
     "strikes:1",
     "strikes:58"
    ],
-   "roots_behind": 6,
+   "roots_behind": 5,
    "bodies": [
     "H Sedna",
     "H Sun",

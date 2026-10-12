@@ -1,4 +1,4 @@
-== 1 Mortlake / 1 Rossa Ryan   [york_1615_20240515__P01.xlsx, L3 v1.1 (12 Oct 2026)]
+== 1 Mortlake / 1 Rossa Ryan   [york_1615_20240515__P01.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Makemake
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Makemake     EMPRSX  tight 5  (near joined: S)
@@ -571,7 +571,7 @@
         sky Juno -> H Pluto Dec 32.99994 = 33
         sky Juno -> H Venus Dec 28.44445 = 256/9
         sky Juno -> J Orcus Dec 11.55561 = 104/9
-   [ 7] triangle struck at every corner by one sky body (HUB)  roots 6  bodies=['H Chiron', 'H Gonggong', 'H Juno']; corners=['H Chiron', 'H Gonggong', 'H Juno']; sky=Sedna; strict=True
+   [ 7] triangle struck at every corner by one sky body (HUB)  roots 5  bodies=['H Chiron', 'H Gonggong', 'H Juno']; corners=['H Chiron', 'H Gonggong', 'H Juno']; sky=Sedna; strict=True
         H H Chiron–H Gonggong Dec 16.22236 = 146/9
         H H Chiron–H Juno RA 108.77750 = 979/9
         H H Juno–H Gonggong RA 80.5745 Dec 0.2224
@@ -606,14 +606,14 @@
         sky Transpluto on H Transpluto RA 0.3577 Dec 0.1365 RETURN
         sky Transpluto -> J Ceres Flat 32.99726 = 33
         sky Transpluto on J Pallas RA 0.5733 Dec 0.1172
-   [ 7] triangle struck at every corner by one sky body (HUB)  roots 7  bodies=['H Chiron', 'H Juno', 'H Mars']; corners=['H Chiron', 'H Juno', 'H Mars']; sky=Pallas; strict=True
+   [ 7] triangle struck at every corner by one sky body (HUB)  roots 6  bodies=['H Chiron', 'H Juno', 'H Mars']; corners=['H Chiron', 'H Juno', 'H Mars']; sky=Pallas; strict=True
         H H Chiron–H Juno RA 108.77750 = 979/9
         H H Mars–H Chiron Dec 14.00241 = 14
         H H Mars–H Juno Dec 30.00237 = 30
         sky Pallas -> H Chiron Dec 20.99889 = 21
         sky Pallas -> H Juno Dec 36.99885 = 37
         sky Pallas -> H Mars RA 158.00223 = 158
-   [ 7] triangle struck at every corner by one sky body (HUB)  roots 6  bodies=['H Chiron', 'H Juno', 'H Mars']; corners=['H Chiron', 'H Juno', 'H Mars']; sky=Sedna; strict=True
+   [ 7] triangle struck at every corner by one sky body (HUB)  roots 5  bodies=['H Chiron', 'H Juno', 'H Mars']; corners=['H Chiron', 'H Juno', 'H Mars']; sky=Sedna; strict=True
         H H Chiron–H Juno RA 108.77750 = 979/9
         H H Mars–H Chiron Dec 14.00241 = 14
         H H Mars–H Juno Dec 30.00237 = 30
@@ -634,7 +634,7 @@
         sky Sedna -> H Juno Dec 19.99987 = 20
         sky Sedna -> H Mars Dec 10.00250 = 10
         sky Sedna -> J Mercury Dec 9.55556 = 86/9
-   [ 7] triangle struck at every corner by one sky body (HUB)  roots 5  bodies=['H Chiron', 'H Juno', 'J Mercury']; corners=['H Chiron', 'H Juno', 'J Mercury']; sky=Sedna; strict=True
+   [ 7] triangle struck at every corner by one sky body (HUB)  roots 4  bodies=['H Chiron', 'H Juno', 'J Mercury']; corners=['H Chiron', 'H Juno', 'J Mercury']; sky=Sedna; strict=True
         H H Chiron–H Juno RA 108.77750 = 979/9
         cross H Chiron–J Mercury Dec 13.55548 = 122/9
         cross H Juno–J Mercury Dec 29.55543 = 266/9
@@ -706,7 +706,7 @@
         sky Sedna -> H Mars Dec 10.00250 = 10
         sky Pallas -> H Juno Dec 36.99885 = 37
         sky Sedna -> H Juno Dec 19.99987 = 20
-   [12] pair in one chart struck on both ends by 2+ sky bodies (HUB)  roots 5  bodies=['H Chiron', 'H Juno']; link=H H Chiron–H Juno RA 108.77750 = 979/9; sky=['Pallas', 'Sedna']; strict_sky=['Pallas', 'Sedna']; strict_multi=True; strict=True
+   [12] pair in one chart struck on both ends by 2+ sky bodies (HUB)  roots 4  bodies=['H Chiron', 'H Juno']; link=H H Chiron–H Juno RA 108.77750 = 979/9; sky=['Pallas', 'Sedna']; strict_sky=['Pallas', 'Sedna']; strict_multi=True; strict=True
         H H Chiron–H Juno RA 108.77750 = 979/9
         sky Pallas -> H Chiron Dec 20.99889 = 21
         sky Sedna -> H Chiron Dec 3.99992 = 4

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "3 Lola Showgirl / 3 Laura Pearson",
  "workbook": "20210827_goodwood_1853__P05.xlsx",
  "bodies": {
@@ -405,12 +405,10 @@
    "kinds": [
     "P",
     "R",
-    "S",
-    "X"
+    "S"
    ],
    "near_joined": [
-    "R",
-    "X"
+    "R"
    ],
    "items": {
     "P": [
@@ -427,9 +425,6 @@
      "shared:4",
      "hj_ratios:7",
      "hj_ratios:8"
-    ],
-    "X": [
-     "links:92"
     ]
    },
    "near_unjoined": [],
@@ -1465,7 +1460,6 @@
    "near_joined": [],
    "items": {},
    "near_unjoined": [
-    "links:92",
     "pair_family:83",
     "pair_family:84",
     "pair_family:85",
@@ -1543,10 +1537,10 @@
   "H Chiron",
   "J Sedna",
   "H Pluto",
-  "H Haumea",
   "H Gonggong",
   "H Uranus",
   "H Vesta",
+  "H Haumea",
   "J Uranus",
   "H Sedna",
   "H Makemake",
@@ -1641,10 +1635,10 @@
     "H Chiron",
     "J Sedna",
     "H Pluto",
-    "H Haumea",
     "H Gonggong",
     "H Uranus",
     "H Vesta",
+    "H Haumea",
     "J Uranus",
     "H Sedna",
     "H Makemake",
@@ -1922,14 +1916,6 @@
     },
     {
      "from": "J Mars",
-     "to": "H Haumea",
-     "items": [
-      "links:73",
-      "hj_ratios:7"
-     ]
-    },
-    {
-     "from": "J Mars",
      "to": "H Gonggong",
      "items": [
       "hj_ratios:0",
@@ -1950,6 +1936,14 @@
      "items": [
       "ratios:12",
       "splits:4"
+     ]
+    },
+    {
+     "from": "J Mars",
+     "to": "H Haumea",
+     "items": [
+      "links:73",
+      "hj_ratios:7"
      ]
     },
     {
@@ -2262,15 +2256,6 @@
     },
     {
      "from": "J Vesta",
-     "to": "H Haumea",
-     "items": [
-      "links:46",
-      "links:87",
-      "shared:4"
-     ]
-    },
-    {
-     "from": "J Vesta",
      "to": "H Gonggong",
      "items": [
       "links:46",
@@ -2290,6 +2275,15 @@
      "to": "H Vesta",
      "items": [
       "hj_ratios:6"
+     ]
+    },
+    {
+     "from": "J Vesta",
+     "to": "H Haumea",
+     "items": [
+      "links:46",
+      "links:87",
+      "shared:4"
      ]
     },
     {
@@ -2583,14 +2577,6 @@
     },
     {
      "from": "H Venus",
-     "to": "H Haumea",
-     "items": [
-      "links:5",
-      "hj_ratios:8"
-     ]
-    },
-    {
-     "from": "H Venus",
      "to": "H Gonggong",
      "items": [
       "links:3",
@@ -2611,6 +2597,14 @@
      "items": [
       "links:5",
       "ratios:5"
+     ]
+    },
+    {
+     "from": "H Venus",
+     "to": "H Haumea",
+     "items": [
+      "links:5",
+      "hj_ratios:8"
      ]
     },
     {
@@ -2900,14 +2894,6 @@
     },
     {
      "from": "H Juno",
-     "to": "H Haumea",
-     "items": [
-      "links:18:RA",
-      "shared:4"
-     ]
-    },
-    {
-     "from": "H Juno",
      "to": "H Gonggong",
      "items": [
       "links:19"
@@ -2928,6 +2914,14 @@
       "links:18:RA",
       "hj_ratios:13",
       "links:21:RA"
+     ]
+    },
+    {
+     "from": "H Juno",
+     "to": "H Haumea",
+     "items": [
+      "links:18:RA",
+      "shared:4"
      ]
     },
     {
@@ -3209,14 +3203,6 @@
     },
     {
      "from": "H Orcus",
-     "to": "H Haumea",
-     "items": [
-      "links:25",
-      "links:23:Dec"
-     ]
-    },
-    {
-     "from": "H Orcus",
      "to": "H Gonggong",
      "items": [
       "shared:5"
@@ -3236,6 +3222,14 @@
      "items": [
       "links:102:GC",
       "splits:4"
+     ]
+    },
+    {
+     "from": "H Orcus",
+     "to": "H Haumea",
+     "items": [
+      "links:25",
+      "links:23:Dec"
      ]
     },
     {
@@ -3509,15 +3503,6 @@
     },
     {
      "from": "J Sun",
-     "to": "H Haumea",
-     "items": [
-      "links:28:Flat",
-      "links:73",
-      "hj_ratios:7"
-     ]
-    },
-    {
-     "from": "J Sun",
      "to": "H Gonggong",
      "items": [
       "links:77",
@@ -3539,6 +3524,15 @@
       "links:28:Flat",
       "ratios:12",
       "splits:4"
+     ]
+    },
+    {
+     "from": "J Sun",
+     "to": "H Haumea",
+     "items": [
+      "links:28:Flat",
+      "links:73",
+      "hj_ratios:7"
      ]
     },
     {
@@ -3802,14 +3796,6 @@
     },
     {
      "from": "J Chiron",
-     "to": "H Haumea",
-     "items": [
-      "hj_ratios:8",
-      "hj_ratios:8"
-     ]
-    },
-    {
-     "from": "J Chiron",
      "to": "H Gonggong",
      "items": [
       "links:41:GC",
@@ -3830,6 +3816,14 @@
      "items": [
       "links:39",
       "splits:4"
+     ]
+    },
+    {
+     "from": "J Chiron",
+     "to": "H Haumea",
+     "items": [
+      "hj_ratios:8",
+      "hj_ratios:8"
      ]
     },
     {
@@ -4091,13 +4085,6 @@
     },
     {
      "from": "J Gonggong",
-     "to": "H Haumea",
-     "items": [
-      "links:94:Flat"
-     ]
-    },
-    {
-     "from": "J Gonggong",
      "to": "H Gonggong",
      "items": [
       "shared:3"
@@ -4117,6 +4104,13 @@
      "items": [
       "links:76:Dec",
       "ratios:5"
+     ]
+    },
+    {
+     "from": "J Gonggong",
+     "to": "H Haumea",
+     "items": [
+      "links:94:Flat"
      ]
     },
     {
@@ -4378,14 +4372,6 @@
     },
     {
      "from": "H Mercury",
-     "to": "H Haumea",
-     "items": [
-      "links:2:RA",
-      "hj_ratios:7"
-     ]
-    },
-    {
-     "from": "H Mercury",
      "to": "H Gonggong",
      "items": [
       "links:56",
@@ -4405,6 +4391,14 @@
      "to": "H Vesta",
      "items": [
       "ratios:0"
+     ]
+    },
+    {
+     "from": "H Mercury",
+     "to": "H Haumea",
+     "items": [
+      "links:2:RA",
+      "hj_ratios:7"
      ]
     },
     {
@@ -4651,13 +4645,6 @@
     },
     {
      "from": "J Pluto",
-     "to": "H Haumea",
-     "items": [
-      "links:93:Flat"
-     ]
-    },
-    {
-     "from": "J Pluto",
      "to": "H Gonggong",
      "items": [
       "links:96"
@@ -4677,6 +4664,13 @@
      "items": [
       "links:89:GC",
       "links:21:RA"
+     ]
+    },
+    {
+     "from": "J Pluto",
+     "to": "H Haumea",
+     "items": [
+      "links:93:Flat"
      ]
     },
     {
@@ -4914,14 +4908,6 @@
     },
     {
      "from": "H Quaoar",
-     "to": "H Haumea",
-     "items": [
-      "ratios:8",
-      "links:23:Dec"
-     ]
-    },
-    {
-     "from": "H Quaoar",
      "to": "H Gonggong",
      "items": [
       "links:20",
@@ -4943,6 +4929,14 @@
       "links:99:RA",
       "hj_ratios:6",
       "hj_ratios:6"
+     ]
+    },
+    {
+     "from": "H Quaoar",
+     "to": "H Haumea",
+     "items": [
+      "ratios:8",
+      "links:23:Dec"
      ]
     },
     {
@@ -5170,14 +5164,6 @@
     },
     {
      "from": "H Sun",
-     "to": "H Haumea",
-     "items": [
-      "links:52:GC",
-      "links:93:Flat"
-     ]
-    },
-    {
-     "from": "H Sun",
      "to": "H Gonggong",
      "items": [
       "links:52:GC",
@@ -5200,6 +5186,14 @@
       "links:0:Dec",
       "links:1",
       "ratios:0"
+     ]
+    },
+    {
+     "from": "H Sun",
+     "to": "H Haumea",
+     "items": [
+      "links:52:GC",
+      "links:93:Flat"
      ]
     },
     {
@@ -5416,14 +5410,6 @@
     },
     {
      "from": "H Mars",
-     "to": "H Haumea",
-     "items": [
-      "links:6",
-      "hj_ratios:8"
-     ]
-    },
-    {
-     "from": "H Mars",
      "to": "H Gonggong",
      "items": [
       "hj_ratios:3"
@@ -5443,6 +5429,14 @@
      "items": [
       "links:6",
       "ratios:5"
+     ]
+    },
+    {
+     "from": "H Mars",
+     "to": "H Haumea",
+     "items": [
+      "links:6",
+      "hj_ratios:8"
      ]
     },
     {
@@ -5654,14 +5648,6 @@
     },
     {
      "from": "H Neptune",
-     "to": "H Haumea",
-     "items": [
-      "links:13:Flat",
-      "hj_ratios:7"
-     ]
-    },
-    {
-     "from": "H Neptune",
      "to": "H Gonggong",
      "items": [
       "links:14",
@@ -5681,6 +5667,14 @@
      "items": [
       "ratios:4",
       "hj_ratios:6"
+     ]
+    },
+    {
+     "from": "H Neptune",
+     "to": "H Haumea",
+     "items": [
+      "links:13:Flat",
+      "hj_ratios:7"
      ]
     },
     {
@@ -5883,13 +5877,6 @@
     },
     {
      "from": "H Eris",
-     "to": "H Haumea",
-     "items": [
-      "shared:4"
-     ]
-    },
-    {
-     "from": "H Eris",
      "to": "H Gonggong",
      "items": [
       "links:18:RA",
@@ -5910,6 +5897,13 @@
      "items": [
       "hj_ratios:13",
       "links:21:RA"
+     ]
+    },
+    {
+     "from": "H Eris",
+     "to": "H Haumea",
+     "items": [
+      "shared:4"
      ]
     },
     {
@@ -6112,15 +6106,6 @@
     },
     {
      "from": "J Mercury",
-     "to": "H Haumea",
-     "items": [
-      "links:31",
-      "ratios:13",
-      "links:95:Dec"
-     ]
-    },
-    {
-     "from": "J Mercury",
      "to": "H Gonggong",
      "items": [
       "links:101:Flat",
@@ -6141,6 +6126,15 @@
      "items": [
       "shared:0",
       "ratios:0"
+     ]
+    },
+    {
+     "from": "J Mercury",
+     "to": "H Haumea",
+     "items": [
+      "links:31",
+      "ratios:13",
+      "links:95:Dec"
      ]
     },
     {
@@ -6322,14 +6316,6 @@
     },
     {
      "from": "J Neptune",
-     "to": "H Haumea",
-     "items": [
-      "splits:5",
-      "shared:4"
-     ]
-    },
-    {
-     "from": "J Neptune",
      "to": "H Gonggong",
      "items": [
       "links:102:GC",
@@ -6348,6 +6334,14 @@
      "to": "H Vesta",
      "items": [
       "splits:4"
+     ]
+    },
+    {
+     "from": "J Neptune",
+     "to": "H Haumea",
+     "items": [
+      "splits:5",
+      "shared:4"
      ]
     },
     {
@@ -6524,14 +6518,6 @@
     },
     {
      "from": "J Node",
-     "to": "H Haumea",
-     "items": [
-      "hj_ratios:12",
-      "links:23:Dec"
-     ]
-    },
-    {
-     "from": "J Node",
      "to": "H Gonggong",
      "items": [
       "links:97:Flat"
@@ -6551,6 +6537,14 @@
      "items": [
       "links:56",
       "ratios:0"
+     ]
+    },
+    {
+     "from": "J Node",
+     "to": "H Haumea",
+     "items": [
+      "hj_ratios:12",
+      "links:23:Dec"
      ]
     },
     {
@@ -6719,14 +6713,6 @@
     },
     {
      "from": "J Eris",
-     "to": "H Haumea",
-     "items": [
-      "links:87",
-      "shared:4"
-     ]
-    },
-    {
-     "from": "J Eris",
      "to": "H Gonggong",
      "items": [
       "links:98:Dec"
@@ -6746,6 +6732,14 @@
      "items": [
       "links:46",
       "hj_ratios:6"
+     ]
+    },
+    {
+     "from": "J Eris",
+     "to": "H Haumea",
+     "items": [
+      "links:87",
+      "shared:4"
      ]
     },
     {
@@ -6913,15 +6907,6 @@
     },
     {
      "from": "J Quaoar",
-     "to": "H Haumea",
-     "items": [
-      "links:38",
-      "ratios:13",
-      "links:95:Dec"
-     ]
-    },
-    {
-     "from": "J Quaoar",
      "to": "H Gonggong",
      "items": [
       "links:48:RA",
@@ -6943,6 +6928,15 @@
       "links:32",
       "shared:0",
       "ratios:0"
+     ]
+    },
+    {
+     "from": "J Quaoar",
+     "to": "H Haumea",
+     "items": [
+      "links:38",
+      "ratios:13",
+      "links:95:Dec"
      ]
     },
     {
@@ -7098,14 +7092,6 @@
     },
     {
      "from": "J Orcus",
-     "to": "H Haumea",
-     "items": [
-      "links:50:Dec",
-      "links:95:Dec"
-     ]
-    },
-    {
-     "from": "J Orcus",
      "to": "H Gonggong",
      "items": [
       "links:78:GC",
@@ -7125,6 +7111,14 @@
      "items": [
       "links:70:GC",
       "hj_ratios:6"
+     ]
+    },
+    {
+     "from": "J Orcus",
+     "to": "H Haumea",
+     "items": [
+      "links:50:Dec",
+      "links:95:Dec"
      ]
     },
     {
@@ -7272,13 +7266,6 @@
     },
     {
      "from": "J Transpluto",
-     "to": "H Haumea",
-     "items": [
-      "links:95:Dec"
-     ]
-    },
-    {
-     "from": "J Transpluto",
      "to": "H Gonggong",
      "items": [
       "hj_ratios:12",
@@ -7300,6 +7287,13 @@
       "links:49:RA",
       "shared:0",
       "links:22"
+     ]
+    },
+    {
+     "from": "J Transpluto",
+     "to": "H Haumea",
+     "items": [
+      "links:95:Dec"
      ]
     },
     {
@@ -7438,14 +7432,6 @@
     },
     {
      "from": "H Jupiter",
-     "to": "H Haumea",
-     "items": [
-      "links:9:Dec",
-      "hj_ratios:8"
-     ]
-    },
-    {
-     "from": "H Jupiter",
      "to": "H Gonggong",
      "items": [
       "links:4:RA",
@@ -7467,6 +7453,14 @@
      "items": [
       "links:9:Dec",
       "ratios:5"
+     ]
+    },
+    {
+     "from": "H Jupiter",
+     "to": "H Haumea",
+     "items": [
+      "links:9:Dec",
+      "hj_ratios:8"
      ]
     },
     {
@@ -7603,15 +7597,6 @@
     },
     {
      "from": "H Pallas",
-     "to": "H Haumea",
-     "items": [
-      "links:10:RA",
-      "links:68:GC",
-      "links:93:Flat"
-     ]
-    },
-    {
-     "from": "H Pallas",
      "to": "H Gonggong",
      "items": [
       "links:17:Flat"
@@ -7632,6 +7617,15 @@
       "links:10:RA",
       "links:1",
       "ratios:0"
+     ]
+    },
+    {
+     "from": "H Pallas",
+     "to": "H Haumea",
+     "items": [
+      "links:10:RA",
+      "links:68:GC",
+      "links:93:Flat"
      ]
     },
     {
@@ -7759,14 +7753,6 @@
     },
     {
      "from": "J Ceres",
-     "to": "H Haumea",
-     "items": [
-      "links:36:RA",
-      "links:92"
-     ]
-    },
-    {
-     "from": "J Ceres",
      "to": "H Gonggong",
      "items": [
       "links:42:GC",
@@ -7787,6 +7773,14 @@
      "items": [
       "ratios:14",
       "splits:4"
+     ]
+    },
+    {
+     "from": "J Ceres",
+     "to": "H Haumea",
+     "items": [
+      "links:36:RA",
+      "links:92"
      ]
     },
     {
@@ -7905,13 +7899,6 @@
     },
     {
      "from": "H Node",
-     "to": "H Haumea",
-     "items": [
-      "links:23:Dec"
-     ]
-    },
-    {
-     "from": "H Node",
      "to": "H Gonggong",
      "items": [
       "links:24"
@@ -7931,6 +7918,13 @@
      "items": [
       "ratios:6",
       "ratios:5"
+     ]
+    },
+    {
+     "from": "H Node",
+     "to": "H Haumea",
+     "items": [
+      "links:23:Dec"
      ]
     },
     {
@@ -8043,14 +8037,6 @@
     },
     {
      "from": "H Transpluto",
-     "to": "H Haumea",
-     "items": [
-      "links:103:Flat",
-      "shared:4"
-     ]
-    },
-    {
-     "from": "H Transpluto",
      "to": "H Gonggong",
      "items": [
       "links:27",
@@ -8073,6 +8059,14 @@
       "links:27",
       "links:102:GC",
       "splits:4"
+     ]
+    },
+    {
+     "from": "H Transpluto",
+     "to": "H Haumea",
+     "items": [
+      "links:103:Flat",
+      "shared:4"
      ]
     },
     {
@@ -8174,14 +8168,6 @@
     },
     {
      "from": "J Venus",
-     "to": "H Haumea",
-     "items": [
-      "links:85:GC",
-      "shared:4"
-     ]
-    },
-    {
-     "from": "J Venus",
      "to": "H Gonggong",
      "items": [
       "links:34:GC",
@@ -8202,6 +8188,14 @@
      "items": [
       "splits:7",
       "splits:4"
+     ]
+    },
+    {
+     "from": "J Venus",
+     "to": "H Haumea",
+     "items": [
+      "links:85:GC",
+      "shared:4"
      ]
     },
     {
@@ -8297,14 +8291,6 @@
     },
     {
      "from": "J Jupiter",
-     "to": "H Haumea",
-     "items": [
-      "hj_ratios:5",
-      "links:95:Dec"
-     ]
-    },
-    {
-     "from": "J Jupiter",
      "to": "H Gonggong",
      "items": [
       "links:62:Flat",
@@ -8325,6 +8311,14 @@
      "items": [
       "splits:8",
       "splits:4"
+     ]
+    },
+    {
+     "from": "J Jupiter",
+     "to": "H Haumea",
+     "items": [
+      "hj_ratios:5",
+      "links:95:Dec"
      ]
     },
     {
@@ -8412,15 +8406,6 @@
     },
     {
      "from": "J Juno",
-     "to": "H Haumea",
-     "items": [
-      "links:45",
-      "links:50:Dec",
-      "links:95:Dec"
-     ]
-    },
-    {
-     "from": "J Juno",
      "to": "H Gonggong",
      "items": [
       "shared:1",
@@ -8441,6 +8426,15 @@
      "items": [
       "splits:10",
       "splits:4"
+     ]
+    },
+    {
+     "from": "J Juno",
+     "to": "H Haumea",
+     "items": [
+      "links:45",
+      "links:50:Dec",
+      "links:95:Dec"
      ]
     },
     {
@@ -8519,13 +8513,6 @@
     },
     {
      "from": "J Haumea",
-     "to": "H Haumea",
-     "items": [
-      "shared:4"
-     ]
-    },
-    {
-     "from": "J Haumea",
      "to": "H Gonggong",
      "items": [
       "shared:4",
@@ -8546,6 +8533,13 @@
      "items": [
       "links:75:RA",
       "ratios:5"
+     ]
+    },
+    {
+     "from": "J Haumea",
+     "to": "H Haumea",
+     "items": [
+      "shared:4"
      ]
     },
     {
@@ -8618,14 +8612,6 @@
     },
     {
      "from": "J Makemake",
-     "to": "H Haumea",
-     "items": [
-      "links:49:RA",
-      "links:95:Dec"
-     ]
-    },
-    {
-     "from": "J Makemake",
      "to": "H Gonggong",
      "items": [
       "links:37:Dec",
@@ -8647,6 +8633,14 @@
      "items": [
       "shared:0",
       "links:22"
+     ]
+    },
+    {
+     "from": "J Makemake",
+     "to": "H Haumea",
+     "items": [
+      "links:49:RA",
+      "links:95:Dec"
      ]
     },
     {
@@ -8707,13 +8701,6 @@
     },
     {
      "from": "H Chiron",
-     "to": "H Haumea",
-     "items": [
-      "hj_ratios:8"
-     ]
-    },
-    {
-     "from": "H Chiron",
      "to": "H Gonggong",
      "items": [
       "links:6",
@@ -8732,6 +8719,13 @@
      "to": "H Vesta",
      "items": [
       "ratios:5"
+     ]
+    },
+    {
+     "from": "H Chiron",
+     "to": "H Haumea",
+     "items": [
+      "hj_ratios:8"
      ]
     },
     {
@@ -8785,15 +8779,6 @@
     },
     {
      "from": "J Sedna",
-     "to": "H Haumea",
-     "items": [
-      "links:91:RA",
-      "links:89:GC",
-      "links:93:Flat"
-     ]
-    },
-    {
-     "from": "J Sedna",
      "to": "H Gonggong",
      "items": [
       "hj_ratios:13",
@@ -8814,6 +8799,15 @@
      "items": [
       "links:47:RA",
       "hj_ratios:6"
+     ]
+    },
+    {
+     "from": "J Sedna",
+     "to": "H Haumea",
+     "items": [
+      "links:91:RA",
+      "links:89:GC",
+      "links:93:Flat"
      ]
     },
     {
@@ -8859,13 +8853,6 @@
     },
     {
      "from": "H Pluto",
-     "to": "H Haumea",
-     "items": [
-      "hj_ratios:7"
-     ]
-    },
-    {
-     "from": "H Pluto",
      "to": "H Gonggong",
      "items": [
       "ratios:2",
@@ -8886,6 +8873,13 @@
      "items": [
       "links:2:RA",
       "ratios:0"
+     ]
+    },
+    {
+     "from": "H Pluto",
+     "to": "H Haumea",
+     "items": [
+      "hj_ratios:7"
      ]
     },
     {
@@ -8930,70 +8924,6 @@
      ]
     },
     {
-     "from": "H Haumea",
-     "to": "H Gonggong",
-     "items": [
-      "links:23:Dec",
-      "links:24"
-     ]
-    },
-    {
-     "from": "H Haumea",
-     "to": "H Uranus",
-     "items": [
-      "links:92",
-      "links:69:RA"
-     ]
-    },
-    {
-     "from": "H Haumea",
-     "to": "H Vesta",
-     "items": [
-      "hj_ratios:8",
-      "ratios:5"
-     ]
-    },
-    {
-     "from": "H Haumea",
-     "to": "J Uranus",
-     "items": [
-      "links:95:Dec",
-      "ratios:13"
-     ]
-    },
-    {
-     "from": "H Haumea",
-     "to": "H Sedna",
-     "items": [
-      "links:93:Flat",
-      "links:89:GC"
-     ]
-    },
-    {
-     "from": "H Haumea",
-     "to": "H Makemake",
-     "items": [
-      "hj_ratios:8",
-      "ratios:7"
-     ]
-    },
-    {
-     "from": "H Haumea",
-     "to": "H Ceres",
-     "items": [
-      "links:23:Dec",
-      "links:15:Flat"
-     ]
-    },
-    {
-     "from": "H Haumea",
-     "to": "J Pallas",
-     "items": [
-      "links:93:Flat",
-      "links:40"
-     ]
-    },
-    {
      "from": "H Gonggong",
      "to": "H Uranus",
      "items": [
@@ -9009,6 +8939,14 @@
       "links:24",
       "ratios:6",
       "ratios:5"
+     ]
+    },
+    {
+     "from": "H Gonggong",
+     "to": "H Haumea",
+     "items": [
+      "links:24",
+      "links:23:Dec"
      ]
     },
     {
@@ -9059,6 +8997,14 @@
     },
     {
      "from": "H Uranus",
+     "to": "H Haumea",
+     "items": [
+      "links:11:RA",
+      "hj_ratios:8"
+     ]
+    },
+    {
+     "from": "H Uranus",
      "to": "J Uranus",
      "items": [
       "hj_ratios:6"
@@ -9098,6 +9044,14 @@
     },
     {
      "from": "H Vesta",
+     "to": "H Haumea",
+     "items": [
+      "ratios:5",
+      "hj_ratios:8"
+     ]
+    },
+    {
+     "from": "H Vesta",
      "to": "J Uranus",
      "items": [
       "hj_ratios:6",
@@ -9132,6 +9086,46 @@
      "items": [
       "links:21:RA",
       "links:89:GC",
+      "links:40"
+     ]
+    },
+    {
+     "from": "H Haumea",
+     "to": "J Uranus",
+     "items": [
+      "links:95:Dec",
+      "ratios:13"
+     ]
+    },
+    {
+     "from": "H Haumea",
+     "to": "H Sedna",
+     "items": [
+      "links:93:Flat",
+      "links:89:GC"
+     ]
+    },
+    {
+     "from": "H Haumea",
+     "to": "H Makemake",
+     "items": [
+      "hj_ratios:8",
+      "ratios:7"
+     ]
+    },
+    {
+     "from": "H Haumea",
+     "to": "H Ceres",
+     "items": [
+      "links:23:Dec",
+      "links:15:Flat"
+     ]
+    },
+    {
+     "from": "H Haumea",
+     "to": "J Pallas",
+     "items": [
+      "links:93:Flat",
       "links:40"
      ]
     },
@@ -9431,7 +9425,7 @@
     "Neptune"
    ],
    "same_sky_both_ends": [
-    "Ketu"
+    "Node"
    ],
    "multi": false,
    "strict": false

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "5 Makanao / 5 Jack Tudor",
  "workbook": "fontwell_1530_20231006__P09.xlsx",
  "bodies": {
@@ -893,8 +893,7 @@
     ],
     "X": [
      "links:89",
-     "links:118",
-     "links:119"
+     "links:118"
     ]
    },
    "near_unjoined": [],
@@ -1219,8 +1218,7 @@
      "links:115",
      "links:116",
      "links:117",
-     "links:118",
-     "links:119"
+     "links:118"
     ]
    },
    "near_unjoined": [],
@@ -9206,40 +9204,6 @@
    "shape": 1,
    "name": "cross link struck on both ends",
    "items": [
-    "links:119",
-    "contacts:11",
-    "contacts:12",
-    "strikes:56",
-    "contacts:30"
-   ],
-   "roots_behind": 5,
-   "bodies": [
-    "H Ketu",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": false,
-   "link": "cross H Ketu\u2013J Ketu RA 18.6384 Dec 0.4248 near",
-   "strict_same_sky_both_ends": [],
-   "strict_multi": false,
-   "strikers_horse_end": [
-    "Pluto",
-    "Quaoar"
-   ],
-   "strikers_jockey_end": [
-    "Orcus",
-    "Pluto"
-   ],
-   "same_sky_both_ends": [
-    "Pluto"
-   ],
-   "multi": false,
-   "strict": false
-  },
-  {
-   "shape": 1,
-   "name": "cross link struck on both ends",
-   "items": [
     "links:122",
     "strikes:19",
     "strikes:20",
@@ -9598,33 +9562,6 @@
    "hub": true,
    "strong_hub": false,
    "link": "cross H Quaoar\u2013J Quaoar RA 24.3417 Dec 0.5334 near",
-   "strict": false
-  },
-  {
-   "shape": 7,
-   "name": "triangle struck at every corner by one sky body",
-   "items": [
-    "links:8",
-    "links:119",
-    "links:89",
-    "contacts:11",
-    "contacts:4",
-    "contacts:30"
-   ],
-   "roots_behind": 6,
-   "bodies": [
-    "H Ketu",
-    "H Mars",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": false,
-   "corners": [
-    "H Ketu",
-    "H Mars",
-    "J Ketu"
-   ],
-   "sky": "Pluto",
    "strict": false
   },
   {
@@ -10008,7 +9945,6 @@
   "links:116": "cross H Rahu\u2013J Jupiter RA 7.6837 Dec 0.2436",
   "links:117": "cross H Rahu\u2013J Vesta RA 7.8604 Dec 0.0372",
   "links:118": "cross H Rahu\u2013J Rahu RA 18.6384 Dec 0.4248 near",
-  "links:119": "cross H Ketu\u2013J Ketu RA 18.6384 Dec 0.4248 near",
   "links:120:Dec": "cross H Ketu\u2013J Gonggong Dec 7.00339 = 7",
   "links:121:Flat": "cross H Ketu\u2013J Transpluto Flat 133.00199 = 133",
   "links:122": "cross H Eris\u2013J Eris RA 1.6627 Dec 4.3131 near",

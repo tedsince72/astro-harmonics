@@ -1,4 +1,4 @@
-== 1 Biscoff Joe / 1 Gearoid Harney   [fontwell_1530_20231006__P01.xlsx, L3 v1.1 (12 Oct 2026)]
+== 1 Biscoff Joe / 1 Gearoid Harney   [fontwell_1530_20231006__P01.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): -
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Transpluto   MPRSX  tight 4  (near joined: R)
@@ -39,7 +39,6 @@
         S: horse:jockey Uranus–Rahu Flat H 55.3572 J 134.4617 17/7 near
         X: cross H Rahu–J Rahu RA 4.0353 Dec 0.0320
         X: cross H Ketu–J Mars RA 1.6710 Dec 3.3956 near
-        X: cross H Ketu–J Ketu RA 4.0353 Dec 0.0320
    H Neptune      MPRS  tight 4
         M: H Neptune moved RA 4.99650 = 5
         M: H Neptune moved Dec 1.88980 = 17/9
@@ -216,7 +215,6 @@
         S: horse:jockey Saturn–Ketu Dec H 3.5356 J 44.1878 25/2 near
         S: horse:jockey Uranus–Rahu Flat H 55.3572 J 134.4617 17/7 near
         X: cross H Rahu–J Rahu RA 4.0353 Dec 0.0320
-        X: cross H Ketu–J Ketu RA 4.0353 Dec 0.0320
         X: cross H Quaoar–J Ketu RA 0.9718 Dec 8.1124
    H Mars         PRS  tight 3
         P: sky Mercury -> H Mars Flat 147.77799 = 1330/9
@@ -517,13 +515,6 @@
         sky Quaoar -> H Ketu Dec 8.11141 = 73/9
         sky Pluto on H Ketu RA 30.9047 Dec 0.1066
         sky Mars -> J Mars Flat 68.99755 = 69
-   [ 1] cross link struck on both ends (HUB)  roots 6  bodies=['H Ketu', 'J Ketu']; link=cross H Ketu–J Ketu RA 4.0353 Dec 0.0320; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Haumea', 'Ketu', 'Pluto', 'Quaoar']; strikers_jockey_end=['Neptune', 'Pluto']; same_sky_both_ends=['Pluto']; multi=False; strict=False
-        cross H Ketu–J Ketu RA 4.0353 Dec 0.0320
-        sky Ketu -> H Ketu Dec 13.88922 = 125/9
-        sky Haumea -> H Ketu Dec 37.99560 = 38
-        sky Quaoar -> H Ketu Dec 8.11141 = 73/9
-        sky Pluto on H Ketu RA 30.9047 Dec 0.1066
-        sky Neptune -> J Ketu RA 82.99980 = 83
    [ 1] cross link struck on both ends (HUB)  roots 6  bodies=['H Haumea', 'J Venus']; link=cross H Haumea–J Venus RA 74.9304 Dec 0.4608 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Juno', 'Orcus', 'Saturn']; strikers_jockey_end=['Eris', 'Pallas', 'Sun']; same_sky_both_ends=[]; multi=False; strict=False
         cross H Haumea–J Venus RA 74.9304 Dec 0.4608 near
         sky Saturn -> H Haumea GC 121.00023 = 121
@@ -567,9 +558,6 @@
    [ 2] partner strike (HUB)  roots 2  bodies=['H Rahu', 'J Rahu']; link=cross H Rahu–J Rahu RA 4.0353 Dec 0.0320; strict=True
         cross H Rahu–J Rahu RA 4.0353 Dec 0.0320
         sky Rahu -> H Rahu Dec 13.88922 = 125/9
-   [ 2] partner strike (HUB)  roots 2  bodies=['H Ketu', 'J Ketu']; link=cross H Ketu–J Ketu RA 4.0353 Dec 0.0320; strict=True
-        cross H Ketu–J Ketu RA 4.0353 Dec 0.0320
-        sky Ketu -> H Ketu Dec 13.88922 = 125/9
    [ 2] partner strike (HUB)  roots 2  bodies=['H Makemake', 'J Haumea']; link=cross H Makemake–J Haumea RA 1.0793 Dec 3.5154; strict=False
         cross H Makemake–J Haumea RA 1.0793 Dec 3.5154
         sky Makemake on J Haumea RA 1.9750 Dec 0.7301 near
@@ -598,9 +586,6 @@
    [ 5] movement onto a cross link (HUB)  roots 2  bodies=['J Mars']; link=cross H Ketu–J Mars RA 1.6710 Dec 3.3956 near; moved=J Mars; strict=False
         cross H Ketu–J Mars RA 1.6710 Dec 3.3956 near
         J Mars moved Flat 68.99755 = 69
-   [ 5] movement onto a cross link (HUB)  roots 2  bodies=['H Ketu']; link=cross H Ketu–J Ketu RA 4.0353 Dec 0.0320; moved=H Ketu; strict=True
-        cross H Ketu–J Ketu RA 4.0353 Dec 0.0320
-        H Ketu moved Dec 13.88922 = 125/9
    [ 5] movement onto a cross link (HUB)  roots 2  bodies=['J Haumea']; link=cross H Makemake–J Haumea RA 1.0793 Dec 3.5154; moved=J Haumea; strict=True
         cross H Makemake–J Haumea RA 1.0793 Dec 3.5154
         J Haumea moved RA 19.99633 = 20

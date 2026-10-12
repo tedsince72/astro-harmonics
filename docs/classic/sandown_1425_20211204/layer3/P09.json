@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "5 Nube Negra / 5 Harry Skelton",
  "workbook": "sandown_1425_20211204__P09.xlsx",
  "bodies": {
@@ -109,8 +109,7 @@
     ],
     "X": [
      "links:70",
-     "links:73",
-     "links:74"
+     "links:73"
     ]
    },
    "near_unjoined": [],
@@ -1413,7 +1412,6 @@
     "contacts:27",
     "hj_ratios:1",
     "hj_ratios:10",
-    "links:74",
     "pair_family:100",
     "pair_family:111",
     "pair_family:74",
@@ -9146,7 +9144,7 @@
     "Rahu"
    ],
    "same_sky_both_ends": [
-    "Rahu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -9313,7 +9311,7 @@
     "Rahu"
    ],
    "same_sky_both_ends": [
-    "Rahu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -9351,7 +9349,7 @@
     "Vesta"
    ],
    "same_sky_both_ends": [
-    "Ketu"
+    "Node"
    ],
    "multi": false,
    "strict": false

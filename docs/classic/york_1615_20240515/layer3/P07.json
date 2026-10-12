@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "4 Elmonjed / 4 Jim Crowley",
  "workbook": "york_1615_20240515__P07.xlsx",
  "bodies": {
@@ -8947,7 +8947,7 @@
     "Rahu"
    ],
    "same_sky_both_ends": [
-    "Rahu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -9479,9 +9479,10 @@
     "Transpluto"
    ],
    "same_sky_both_ends": [
+    "Node",
     "Transpluto"
    ],
-   "multi": false,
+   "multi": true,
    "strict": false
   },
   {

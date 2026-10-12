@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "8 Cosmo Brown / 8 Marco Ghiani",
  "workbook": "20261010_southwell_aw_2000__P13.xlsx",
  "tags": {
@@ -714,6 +714,10 @@
    "tag": "mirror",
    "of": "Rahu Equator ratio"
   },
+  "links:96": {
+   "tag": "mirror",
+   "of": "links:89"
+  },
   "strikes:11": {
    "tag": "duplicate",
    "of": "movement:0"
@@ -994,10 +998,6 @@
    "plane": "Flat"
   },
   "links:95": {
-   "tag": "root",
-   "what": "close/near"
-  },
-  "links:96": {
    "tag": "root",
    "what": "close/near"
   },
@@ -2167,9 +2167,9 @@
    "root": 1
   },
   "links": {
-   "root": 121,
+   "root": 120,
    "derived": 6,
-   "mirror": 2
+   "mirror": 3
   },
   "movement": {
    "root": 4

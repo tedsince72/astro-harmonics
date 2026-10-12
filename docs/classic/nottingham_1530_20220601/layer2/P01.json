@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "2 Dynamic Force / 2 Ray Dawson",
  "workbook": "nottingham_1530_20220601__P01.xlsx",
  "tags": {
@@ -481,6 +481,10 @@
    "tag": "root",
    "plane": "RA"
   },
+  "links:86:Flat": {
+   "tag": "mirror",
+   "of": "links:82"
+  },
   "strikes:5": {
    "tag": "duplicate",
    "of": "movement:0"
@@ -744,10 +748,6 @@
   "links:85": {
    "tag": "root",
    "what": "close/near"
-  },
-  "links:86:Flat": {
-   "tag": "root",
-   "plane": "Flat"
   },
   "links:88:Flat": {
    "tag": "root",
@@ -1958,9 +1958,9 @@
    "root": 1
   },
   "links": {
-   "root": 107,
+   "root": 106,
    "derived": 1,
-   "mirror": 1
+   "mirror": 2
   },
   "movement": {
    "root": 8

@@ -1,4 +1,4 @@
-== 4 On Time / 4 Conor Ring   [newton_abbot_1525_20220717__P07.xlsx, L3 v1.1 (12 Oct 2026)]
+== 4 On Time / 4 Conor Ring   [newton_abbot_1525_20220717__P07.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): J Jupiter
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    J Jupiter      MPRSX  tight 5
@@ -11,16 +11,6 @@
         S: horse:jockey Jupiter–Chiron RA H 177.2177 J 52.1207 17/5
         X: cross H Juno–J Jupiter RA 30.6429 Dec 0.1890
         X: cross H Makemake–J Jupiter RA 0.2301 Dec 30.2684
-   H Neptune      MPRSX  tight 4  (near joined: X)
-        M: H Neptune moved GC 14.88861 = 134/9
-        P: sky Sedna -> H Neptune RA 77.77808 = 700/9
-        P: sky Vesta on H Neptune RA 1.4521 Dec 6.9055
-        R: H Neptune–Vesta Flat sky 19.7251 natal 56.3582 20/7 (0.0014%)
-        R: H Mercury–Neptune GC sky Mercury – H Neptune 135.4731 vs NN 22.5745 6 (0.0192%) near
-        R: H Jupiter–Neptune GC H Jupiter – sky Neptune 171.1338 vs TT 13.1640 13 (0.0013%)
-        R: H Saturn–Neptune Flat H Saturn – sky Neptune 102.3138 vs NN 87.6870 7/6 (0.0120%) near
-        S: horse:jockey Mercury–Neptune Dec H 8.3581 J 0.6965 12
-        X: cross H Neptune–J Eris RA 40.2067 Dec 0.3551 near
    H Venus        MPRS  tight 4
         M: H Venus moved RA 103.77679 = 934/9
         P: sky Gonggong -> H Venus RA 8.00386 = 8
@@ -31,6 +21,15 @@
         R: H Venus–Juno RA sky Venus – H Juno 135.6597 vs NN 120.5635 9/8 (0.0190%) near
         R: H Venus–Rahu Flat H Venus – sky Rahu 67.1340 vs TT 41.9547 8/5 (0.0096%) near
         S: horse:jockey Venus–Uranus GC H 35.7835 J 59.6392 5/3
+   H Neptune      MPRS  tight 4
+        M: H Neptune moved GC 14.88861 = 134/9
+        P: sky Sedna -> H Neptune RA 77.77808 = 700/9
+        P: sky Vesta on H Neptune RA 1.4521 Dec 6.9055
+        R: H Neptune–Vesta Flat sky 19.7251 natal 56.3582 20/7 (0.0014%)
+        R: H Mercury–Neptune GC sky Mercury – H Neptune 135.4731 vs NN 22.5745 6 (0.0192%) near
+        R: H Jupiter–Neptune GC H Jupiter – sky Neptune 171.1338 vs TT 13.1640 13 (0.0013%)
+        R: H Saturn–Neptune Flat H Saturn – sky Neptune 102.3138 vs NN 87.6870 7/6 (0.0120%) near
+        S: horse:jockey Mercury–Neptune Dec H 8.3581 J 0.6965 12
    H Sedna        PRSX  tight 4
         P: sky Mars -> H Sedna GC 18.99848 = 19
         P: sky Pallas -> H Sedna GC 16.00271 = 16
@@ -406,12 +405,11 @@
         R: J Eris–Gonggong GC J Eris – sky Gonggong 44.2465 vs NN 51.6107 7/6 (0.0199%) near
         S: horse:jockey Sun–Eris Dec H 3.9446 J 10.9587 25/9 near
         S: horse:jockey Ceres–Eris Dec H 8.0782 J 10.7697 4/3 near
-        X: cross H Neptune–J Eris RA 40.2067 Dec 0.3551 near
         X: cross H Orcus–J Eris RA 128.7805 Dec 0.2090
 -- webs
-   size 46 both charts True hubs J Jupiter, H Neptune, H Venus, H Sedna, J Mercury, J Venus, J Saturn, J Chiron, J Orcus, H Ceres, H Haumea, J Pallas, H Uranus, H Chiron, H Juno, H Makemake, H Orcus, J Neptune, J Ceres, J Juno, J Makemake, H Gonggong, H Quaoar, J Mars, J Uranus, J Sedna, J Haumea, J Gonggong, H Node, H Mars, H Pluto, J Sun, H Jupiter, H Vesta, H Eris, H Transpluto, J Vesta, J Quaoar, H Saturn, H Sun, J Eris
-      J Jupiter .. H Neptune: J J Venus–J Jupiter RA 155.4199 Dec 0.0976 | splits:25 | splits:13
+   size 46 both charts True hubs J Jupiter, H Venus, H Neptune, H Sedna, J Mercury, J Venus, J Saturn, J Chiron, J Orcus, H Ceres, H Haumea, J Pallas, H Uranus, H Chiron, H Juno, H Makemake, H Orcus, J Neptune, J Ceres, J Juno, J Makemake, H Gonggong, H Quaoar, J Mars, J Uranus, J Sedna, J Haumea, J Gonggong, H Node, H Mars, H Pluto, J Sun, H Jupiter, H Vesta, H Eris, H Transpluto, J Vesta, J Quaoar, H Saturn, H Sun, J Eris
       J Jupiter .. H Venus: J J Venus–J Jupiter RA 155.4199 Dec 0.0976 | horse:jockey Venus–Uranus GC H 35.7835 J 59.6392 5/3
+      J Jupiter .. H Neptune: J J Venus–J Jupiter RA 155.4199 Dec 0.0976 | splits:25 | splits:13
       J Jupiter .. H Sedna: horse:jockey Jupiter–Chiron RA H 177.2177 J 52.1207 17/5 | H H Jupiter–H Sedna RA 112.8556 Dec 0.5630
       J Jupiter .. J Mercury: J J Jupiter–J Uranus Dec 17.99781 = 18 | J J Mercury–J Uranus RA 12.1747 Dec 0.4116
       J Jupiter .. J Venus: J J Venus–J Jupiter RA 155.4199 Dec 0.0976

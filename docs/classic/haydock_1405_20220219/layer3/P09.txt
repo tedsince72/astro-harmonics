@@ -1,4 +1,4 @@
-== 5 Wholestone / 5 Sam Twiston-Davies   [haydock_1405_20220219__P09.xlsx, L3 v1.1 (12 Oct 2026)]
+== 5 Wholestone / 5 Sam Twiston-Davies   [haydock_1405_20220219__P09.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Haumea, H Chiron, H Sedna, H Orcus, J Quaoar
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Haumea       BEMPRS  tight 5  (near joined: S)
@@ -132,7 +132,6 @@
         X: cross H Rahu–J Uranus RA 20.5741 Dec 0.2759
         X: cross H Rahu–J Rahu RA 2.3791 Dec 0.0904
         X: cross H Ketu–J Mars RA 23.3743 Dec 0.2479
-        X: cross H Ketu–J Ketu RA 2.3791 Dec 0.0904
    H Makemake     PRSX  tight 4
         P: sky Ceres -> H Makemake GC 110.99727 = 111
         R: H Sun–Makemake RA sky 133.4964 natal 171.6225 9/7 (0.0092%) near
@@ -193,7 +192,6 @@
         S: shared Rahu–Eris RA H 119.8608 J 120.0304
         S: shared Rahu–Eris Flat H 121.4258 J 120.8850
         X: cross H Rahu–J Rahu RA 2.3791 Dec 0.0904
-        X: cross H Ketu–J Ketu RA 2.3791 Dec 0.0904
         X: cross H Quaoar–J Rahu RA 0.2054 Dec 7.7298
    J Sedna        EPRS  tight 4
         E: Equator Sedna S/J 15/8 (0.0008%)
@@ -513,12 +511,6 @@
         sky Mercury -> H Ketu GC 141.00313 = 141
         sky Venus -> H Ketu Flat 161.00247 = 161
         sky Makemake on J Mars RA 90.7208 Dec 0.5414 near
-   [ 1] cross link struck on both ends (HUB)  roots 6  bodies=['H Ketu', 'J Ketu']; link=cross H Ketu–J Ketu RA 2.3791 Dec 0.0904; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Mercury', 'Venus']; strikers_jockey_end=['Juno', 'Rahu']; same_sky_both_ends=[]; multi=False; strict=False
-        cross H Ketu–J Ketu RA 2.3791 Dec 0.0904
-        sky Mercury -> H Ketu GC 141.00313 = 141
-        sky Venus -> H Ketu Flat 161.00247 = 161
-        sky Juno -> J Ketu GC 136.00327 = 136
-        sky Rahu -> J Ketu Dec 3.99778 = 4
    [ 1] cross link struck on both ends (HUB)  roots 11  bodies=['H Eris', 'J Pluto']; link=cross H Eris–J Pluto RA 151.9139 Dec 0.5616 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ceres', 'Eris', 'Jupiter', 'Neptune', 'Saturn']; strikers_jockey_end=['Ketu', 'Neptune', 'Pluto', 'Saturn']; same_sky_both_ends=['Neptune', 'Saturn']; multi=True; strict=False
         cross H Eris–J Pluto RA 151.9139 Dec 0.5616 near
         sky Jupiter -> H Eris GC 41.77778 = 376/9

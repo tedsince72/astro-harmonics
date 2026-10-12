@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "5 Knightsail / 5 Jack Callan",
  "workbook": "20261010_southwell_aw_2000__P07.xlsx",
  "tags": {
@@ -95,8 +95,8 @@
    "plane": "Dec"
   },
   "links:75:Dec": {
-   "tag": "root",
-   "plane": "Dec"
+   "tag": "mirror",
+   "of": "links:70"
   },
   "links:84:Dec": {
    "tag": "derived",
@@ -2243,9 +2243,9 @@
    "root": 3
   },
   "links": {
-   "root": 96,
+   "root": 95,
    "derived": 4,
-   "mirror": 2
+   "mirror": 3
   },
   "movement": {
    "root": 8

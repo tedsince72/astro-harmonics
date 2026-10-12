@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "1 Vocaliser / 1 Fergus Gregory",
  "workbook": "newcastle_1540_20220311__P01.xlsx",
  "bodies": {
@@ -10010,7 +10010,9 @@
    "strikers_jockey_end": [
     "Rahu"
    ],
-   "same_sky_both_ends": [],
+   "same_sky_both_ends": [
+    "Node"
+   ],
    "multi": false,
    "strict": false
   },
@@ -10072,7 +10074,7 @@
     "Vesta"
    ],
    "same_sky_both_ends": [
-    "Ketu",
+    "Node",
     "Pallas",
     "Vesta"
    ],
@@ -11288,7 +11290,7 @@
     "strikes:86",
     "strikes:88"
    ],
-   "roots_behind": 7,
+   "roots_behind": 6,
    "bodies": [
     "J Mars",
     "J Transpluto"

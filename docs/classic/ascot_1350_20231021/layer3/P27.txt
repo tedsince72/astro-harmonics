@@ -1,4 +1,4 @@
-== 14 Ocean Quest / 14 Shane Foley   [ascot_1350_20231021__P27.xlsx, L3 v1.1 (12 Oct 2026)]
+== 14 Ocean Quest / 14 Shane Foley   [ascot_1350_20231021__P27.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Transpluto, J Jupiter
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Transpluto   MPRSX  tight 5
@@ -359,15 +359,6 @@
         S: horse:jockey Neptune–Vesta RA H 69.2767 J 164.5037 19/8 near
         S: horse:jockey Vesta–Makemake Dec H 5.9717 J 10.6144 16/9 near
         X: cross H Vesta–J Chiron RA 23.7931 Dec 0.5541 near
-   J Pluto        PRSX  tight 2  (near joined: SX)
-        P: sky Eris -> J Pluto Dec 1.00303 = 1
-        P: sky Ceres on J Pluto RA 1.5476 Dec 12.6734 near
-        R: J Uranus–Pluto GC J Uranus – sky Pluto 26.7440 vs NN 50.5167 17/9 (0.0004%)
-        R: J Pluto–Ceres Flat sky Pluto – J Ceres 31.9163 vs NN 108.5277 17/5 (0.0113%) near
-        R: J Pluto–Ceres Flat sky Pluto – J Ceres 31.9163 vs TT 77.4978 17/7 (0.0171%) near
-        R: J Pluto–Ceres Flat J Pluto – sky Ceres 12.7675 vs NN 108.5277 17/2 (0.0034%)
-        S: horse:jockey Pluto–Juno GC H 99.0194 J 155.6174 11/7 near
-        X: cross H Juno–J Pluto RA 28.0100 Dec 0.5148 near
    J Chiron       PRSX  tight 2  (near joined: SX)
         P: sky Neptune -> J Chiron Flat 89.44454 = 805/9
         P: sky Pallas -> J Chiron GC 114.11133 = 1027/9
@@ -443,6 +434,14 @@
         R: H Mars–Quaoar Flat sky Mars – H Quaoar 60.8087 vs NN 23.7943 23/9 (0.0019%)
         R: H Saturn–Quaoar RA sky Saturn – H Quaoar 58.5057 vs NN 27.5325 17/8 (0.0015%)
         S: horse:jockey Mars–Quaoar GC H 22.6099 J 48.9913 13/6 near
+   J Pluto        PRS  tight 2  (near joined: S)
+        P: sky Eris -> J Pluto Dec 1.00303 = 1
+        P: sky Ceres on J Pluto RA 1.5476 Dec 12.6734 near
+        R: J Uranus–Pluto GC J Uranus – sky Pluto 26.7440 vs NN 50.5167 17/9 (0.0004%)
+        R: J Pluto–Ceres Flat sky Pluto – J Ceres 31.9163 vs NN 108.5277 17/5 (0.0113%) near
+        R: J Pluto–Ceres Flat sky Pluto – J Ceres 31.9163 vs TT 77.4978 17/7 (0.0171%) near
+        R: J Pluto–Ceres Flat J Pluto – sky Ceres 12.7675 vs NN 108.5277 17/2 (0.0034%)
+        S: horse:jockey Pluto–Juno GC H 99.0194 J 155.6174 11/7 near
    J Vesta        PRS  tight 2  (near joined: S)
         P: sky Ceres -> J Vesta Dec 38.77757 = 349/9
         R: J Vesta–Rahu GC sky 72.1355 natal 120.2225 5/3 (0.0028%)
@@ -469,7 +468,7 @@
         R: J Juno–Quaoar Dec J Juno – sky Quaoar 17.2118 vs TT 19.6687 8/7 (0.0096%) near
         S: horse:jockey Mars–Quaoar GC H 22.6099 J 48.9913 13/6 near
 -- webs
-   size 46 both charts True hubs H Transpluto, J Jupiter, H Neptune, J Gonggong, H Sun, H Mars, H Node, J Venus, J Haumea, H Pallas, H Saturn, H Mercury, H Jupiter, H Sedna, H Makemake, J Mars, J Juno, J Orcus, H Haumea, H Venus, H Uranus, H Orcus, J Uranus, J Ceres, J Node, J Transpluto, H Ceres, J Saturn, J Neptune, H Chiron, H Vesta, J Pluto, J Chiron, J Eris, J Sun, J Pallas, H Pluto, H Eris, H Quaoar, J Vesta, J Makemake, J Quaoar
+   size 46 both charts True hubs H Transpluto, J Jupiter, H Neptune, J Gonggong, H Sun, H Mars, H Node, J Venus, J Haumea, H Pallas, H Saturn, H Mercury, H Jupiter, H Sedna, H Makemake, J Mars, J Juno, J Orcus, H Haumea, H Venus, H Uranus, H Orcus, J Uranus, J Ceres, J Node, J Transpluto, H Ceres, J Saturn, J Neptune, H Chiron, H Vesta, J Chiron, J Eris, J Sun, J Pallas, H Pluto, H Eris, H Quaoar, J Pluto, J Vesta, J Makemake, J Quaoar
       H Transpluto .. J Jupiter: cross H Transpluto–J Jupiter RA 124.8420 Dec 0.0275
       H Transpluto .. H Neptune: splits:9
       H Transpluto .. J Gonggong: H H Pallas–H Transpluto RA 135.3389 Dec 0.3292 | cross H Pallas–J Gonggong RA 39.99656 = 40

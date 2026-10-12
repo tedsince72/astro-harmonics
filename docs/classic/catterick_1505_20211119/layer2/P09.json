@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "5 Cracking Find / 5 Ryan Mania",
  "workbook": "catterick_1505_20211119__P09.xlsx",
  "tags": {
@@ -784,6 +784,10 @@
     }
    ]
   },
+  "links:86:GC": {
+   "tag": "mirror",
+   "of": "links:81"
+  },
   "strikes:0": {
    "tag": "duplicate",
    "of": "movement:0"
@@ -1041,10 +1045,6 @@
    "plane": "Flat"
   },
   "links:85:GC": {
-   "tag": "root",
-   "plane": "GC"
-  },
-  "links:86:GC": {
    "tag": "root",
    "plane": "GC"
   },
@@ -2157,8 +2157,8 @@
    "race_level": 2
   },
   "links": {
-   "root": 105,
-   "mirror": 1,
+   "root": 104,
+   "mirror": 2,
    "derived": 1
   },
   "movement": {

@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "1 Tea Garden / 1 Connor Beasley",
  "workbook": "20220406_catterick_1440__P01.xlsx",
  "tags": {
@@ -401,6 +401,10 @@
    "tag": "root",
    "plane": "RA"
   },
+  "links:79:GC": {
+   "tag": "mirror",
+   "of": "links:75"
+  },
   "links:0": {
    "tag": "root",
    "what": "close/near"
@@ -634,10 +638,6 @@
    "plane": "GC"
   },
   "links:78:GC": {
-   "tag": "root",
-   "plane": "GC"
-  },
-  "links:79:GC": {
    "tag": "root",
    "plane": "GC"
   },
@@ -1516,9 +1516,9 @@
    "root": 1
   },
   "links": {
-   "root": 97,
+   "root": 96,
    "derived": 2,
-   "mirror": 1
+   "mirror": 2
   },
   "sky": {
    "race_level": 11

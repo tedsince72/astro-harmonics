@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "7 Neswick / 7 Dougie Costello",
  "workbook": "20261010_southwell_aw_2000__P11.xlsx",
  "bodies": {
@@ -836,12 +836,9 @@
     "E",
     "P",
     "R",
-    "S",
-    "X"
+    "S"
    ],
-   "near_joined": [
-    "X"
-   ],
+   "near_joined": [],
    "items": {
     "P": [
      "strikes:65",
@@ -871,9 +868,6 @@
      "hj_ratios:11",
      "hj_ratios:13",
      "hj_ratios:14"
-    ],
-    "X": [
-     "links:100"
     ]
    },
    "near_unjoined": [],
@@ -1305,7 +1299,6 @@
     "contacts:13",
     "hj_ratios:16",
     "hj_ratios:5",
-    "links:100",
     "pair_family:3",
     "pair_family:50"
    ],
@@ -9291,7 +9284,7 @@
     "Sun"
    ],
    "same_sky_both_ends": [
-    "Rahu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -10209,7 +10202,7 @@
     "Sun"
    ],
    "same_sky_both_ends": [
-    "Rahu"
+    "Node"
    ],
    "multi": false,
    "strict": false

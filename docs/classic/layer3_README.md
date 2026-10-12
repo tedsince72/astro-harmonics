@@ -22,3 +22,12 @@ York 16:15 shapes 3, 4, 11 (Chiron, node), hubs H Venus, J Uranus; Newmarket Jul
 Perth 1 (2+ bodies), hub J Node; Nottingham 15:30 1 (Venus, Ceres, Juno), hub J Chiron; Wolverhampton 4; Fontwell 6 x2; Sandown 2024 6, 12
 (Sun, Uranus, Eris); Ascot 7 (Ceres/Sedna/Haumea by Vesta); Nottingham 17:50 8 (34, 19/8); Venturous and Wholestone 9; Dettori 10;
 Venturous 5 (Ceres); plus the four field-uniqueness results above at strict level.
+
+## v1.2 (checker, 12 Oct 2026)
+Independent checker recomputed 327 shapes (Sandown 2024, Perth) and all 230 Perth bodies' kinds: identical. Fixes applied:
+- false node 'swap' (H Rahu–J Ketu with H Ketu–J Rahu, the same measurement) removed: swaps need two different bodies; Layer 2 v1.2 now
+  tags such Ketu copies of cross links as mirror (0 node swaps left, was 8);
+- near cross links count as X only when both ends already have a tight kind (as designed);
+- shape 1 'multi' now folds Rahu/Ketu like strict_multi;
+- roots_behind counts a link's close fact and its numbers as one root.
+Tests: layer2_check all pass (5,078 chains exact, one tag per item); layer3_check 32/32.

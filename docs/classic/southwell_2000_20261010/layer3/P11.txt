@@ -1,7 +1,7 @@
-== 7 Neswick / 7 Dougie Costello   [20261010_southwell_aw_2000__P11.xlsx, L3 v1.1 (12 Oct 2026)]
+== 7 Neswick / 7 Dougie Costello   [20261010_southwell_aw_2000__P11.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): J Pallas
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
-   J Pallas       BEPRSX  tight 5  (near joined: X)
+   J Pallas       BEPRS  tight 5
         B: same-body Pallas Dec 5/3 : 8/3 : 8/5 (worst 0.0697%)
         E: J Pallas Equator 8.66563 = 78/9
         P: sky Neptune -> J Pallas Flat 82.22214 = 740/9
@@ -16,7 +16,6 @@
         S: horse:jockey Pluto–Pallas RA H 161.7167 J 67.3779 12/5 near
         S: horse:jockey Pallas–Eris Dec H 5.2818 J 19.8081 15/4 near
         S: horse:jockey Pallas–Haumea RA H 113.9967 J 99.7436 8/7
-        X: cross H Sedna–J Pallas RA 138.1702 Dec 0.3345 near
    H Neptune      EPRSX  tight 4  (near joined: X)
         E: H Neptune Equator 3.00018 = 3
         P: sky Venus -> H Neptune RA 144.00220 = 144
@@ -516,7 +515,7 @@
         sky Ketu -> H Mars RA 60.99955 = 61
         sky Sun -> J Rahu GC 105.66667 = 951/9
         sky Ceres on J Rahu RA 18.2677 Dec 0.0562
-   [ 1] cross link struck on both ends (HUB)  roots 9  bodies=['H Saturn', 'J Quaoar']; link=cross H Saturn–J Quaoar RA 107.7194 Dec 0.2357; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Mercury', 'Quaoar', 'Rahu', 'Sedna', 'Transpluto']; strikers_jockey_end=['Chiron', 'Rahu', 'Sun']; same_sky_both_ends=['Rahu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 9  bodies=['H Saturn', 'J Quaoar']; link=cross H Saturn–J Quaoar RA 107.7194 Dec 0.2357; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Mercury', 'Quaoar', 'Rahu', 'Sedna', 'Transpluto']; strikers_jockey_end=['Chiron', 'Rahu', 'Sun']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Saturn–J Quaoar RA 107.7194 Dec 0.2357
         sky Mercury -> H Saturn Dec 6.00151 = 6
         sky Rahu -> H Saturn Flat 3.55522 = 32/9
@@ -639,7 +638,7 @@
         sky Mars -> J Mercury GC 161.00396 = 161
         sky Rahu -> J Mercury RA 1.77768 = 16/9
         sky Rahu -> J Mercury Flat 3.33365 = 30/9
-   [ 1] cross link struck on both ends (HUB)  roots 9  bodies=['H Orcus', 'J Quaoar']; link=cross H Orcus–J Quaoar RA 69.4929 Dec 0.0038; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Juno', 'Jupiter', 'Rahu', 'Saturn', 'Transpluto']; strikers_jockey_end=['Chiron', 'Rahu', 'Sun']; same_sky_both_ends=['Rahu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 9  bodies=['H Orcus', 'J Quaoar']; link=cross H Orcus–J Quaoar RA 69.4929 Dec 0.0038; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Juno', 'Jupiter', 'Rahu', 'Saturn', 'Transpluto']; strikers_jockey_end=['Chiron', 'Rahu', 'Sun']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Orcus–J Quaoar RA 69.4929 Dec 0.0038
         sky Jupiter -> H Orcus Dec 27.44458 = 247/9
         sky Saturn -> H Orcus Flat 147.00120 = 147

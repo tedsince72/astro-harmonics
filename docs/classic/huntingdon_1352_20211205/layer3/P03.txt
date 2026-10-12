@@ -1,4 +1,4 @@
-== 2 Eldorado Allen / 2 Brendan Powell   [huntingdon_1352_20211205__P03.xlsx, L3 v1.1 (12 Oct 2026)]
+== 2 Eldorado Allen / 2 Brendan Powell   [huntingdon_1352_20211205__P03.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Sun, H Pallas, J Mercury, J Haumea
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Sun          BEPRSX  tight 5  (near joined: E)
@@ -488,14 +488,14 @@
         sky Mars -> J Sedna RA 171.88888 = 1547/9
         sky Chiron -> J Sedna GC 37.00303 = 37
         sky Quaoar -> J Sedna Dec 20.00043 = 20
-   [ 1] cross link struck on both ends (HUB)  roots 10  bodies=['H Pluto', 'J Venus']; link=cross H Pluto–J Venus RA 25.0965 Dec 0.1642; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Juno', 'Ketu', 'Orcus', 'Pallas', 'Uranus']; strikers_jockey_end=['Ketu']; same_sky_both_ends=['Ketu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 10  bodies=['H Pluto', 'J Venus']; link=cross H Pluto–J Venus RA 25.0965 Dec 0.1642; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Juno', 'Ketu', 'Orcus', 'Pallas', 'Uranus']; strikers_jockey_end=['Ketu']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Pluto–J Venus RA 25.0965 Dec 0.1642
         sky Uranus -> H Pluto Flat 120.00462 = 120
         sky Pallas -> H Pluto GC 57.99535 = 58
         sky Juno -> H Pluto RA 7.00407 = 7
         sky Juno -> H Pluto GC 9.00147 = 9
         sky Orcus -> H Pluto RA 126.66658 = 1140/9
-   [ 1] cross link struck on both ends (HUB)  roots 11  bodies=['H Chiron', 'J Saturn']; link=cross H Chiron–J Saturn RA 1.5932 Dec 7.6999 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Eris', 'Pallas', 'Rahu']; strikers_jockey_end=['Ketu', 'Pallas', 'Saturn', 'Sedna']; same_sky_both_ends=['Pallas']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 11  bodies=['H Chiron', 'J Saturn']; link=cross H Chiron–J Saturn RA 1.5932 Dec 7.6999 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Eris', 'Pallas', 'Rahu']; strikers_jockey_end=['Ketu', 'Pallas', 'Saturn', 'Sedna']; same_sky_both_ends=['Node', 'Pallas']; multi=True; strict=False
         cross H Chiron–J Saturn RA 1.5932 Dec 7.6999 near
         sky Rahu -> H Chiron Dec 21.99675 = 22
         sky Pallas on H Chiron RA 0.0662 Dec 10.8019
@@ -509,7 +509,7 @@
         sky Ketu -> H Pallas GC 96.33301 = 867/9
         sky Orcus -> H Pallas Dec 15.99708 = 16
         sky Sun -> J Ceres GC 116.99709 = 117
-   [ 1] cross link struck on both ends (STRONG HUB)  roots 9  bodies=['H Pallas', 'J Sedna']; link=cross H Pallas–J Sedna RA 100.2226 Dec 0.4572 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ketu', 'Mars', 'Orcus', 'Rahu']; strikers_jockey_end=['Chiron', 'Mars', 'Quaoar']; same_sky_both_ends=['Mars']; multi=False; strict=False
+   [ 1] cross link struck on both ends (STRONG HUB)  roots 8  bodies=['H Pallas', 'J Sedna']; link=cross H Pallas–J Sedna RA 100.2226 Dec 0.4572 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ketu', 'Mars', 'Orcus', 'Rahu']; strikers_jockey_end=['Chiron', 'Mars', 'Quaoar']; same_sky_both_ends=['Mars']; multi=False; strict=False
         cross H Pallas–J Sedna RA 100.2226 Dec 0.4572 near
         sky Mars -> H Pallas RA 87.88853 = 791/9
         sky Rahu -> H Pallas GC 83.66699 = 753/9

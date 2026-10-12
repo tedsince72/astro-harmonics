@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "12 Quiet Resolve / 12 Cam Hardie",
  "workbook": "york_1615_20240515__P23.xlsx",
  "bodies": {
@@ -1130,12 +1130,9 @@
   "J Orcus": {
    "kinds": [
     "P",
-    "R",
-    "X"
+    "R"
    ],
-   "near_joined": [
-    "X"
-   ],
+   "near_joined": [],
    "items": {
     "P": [
      "strikes:75"
@@ -1147,9 +1144,6 @@
      "pair_family:104",
      "pair_family:110",
      "pair_family:113"
-    ],
-    "X": [
-     "links:82"
     ]
    },
    "near_unjoined": [],
@@ -1390,7 +1384,6 @@
     "hj_ratios:16",
     "hj_ratios:17",
     "hj_ratios:3",
-    "links:82",
     "pair_family:37",
     "pair_family:6",
     "ratios:4"
@@ -1519,7 +1512,6 @@
   "J Mars",
   "J Pluto",
   "J Ceres",
-  "J Orcus",
   "H Vesta",
   "H Juno",
   "J Gonggong"
@@ -1612,7 +1604,6 @@
     "J Mars",
     "J Pluto",
     "J Ceres",
-    "J Orcus",
     "H Vesta",
     "H Juno",
     "J Gonggong"
@@ -1880,14 +1871,6 @@
      "items": [
       "links:11",
       "hj_ratios:8"
-     ]
-    },
-    {
-     "from": "H Chiron",
-     "to": "J Orcus",
-     "items": [
-      "links:71:GC",
-      "links:40:Dec"
      ]
     },
     {
@@ -2172,15 +2155,6 @@
     },
     {
      "from": "H Haumea",
-     "to": "J Orcus",
-     "items": [
-      "links:96",
-      "links:37:Flat",
-      "links:40:Dec"
-     ]
-    },
-    {
-     "from": "H Haumea",
      "to": "H Vesta",
      "items": [
       "links:16"
@@ -2456,15 +2430,6 @@
     },
     {
      "from": "J Mercury",
-     "to": "J Orcus",
-     "items": [
-      "links:27:Dec",
-      "splits:31",
-      "links:82"
-     ]
-    },
-    {
-     "from": "J Mercury",
      "to": "H Vesta",
      "items": [
       "hj_ratios:2",
@@ -2729,14 +2694,6 @@
     },
     {
      "from": "J Jupiter",
-     "to": "J Orcus",
-     "items": [
-      "links:29:GC",
-      "links:48:RA"
-     ]
-    },
-    {
-     "from": "J Jupiter",
      "to": "H Vesta",
      "items": [
       "links:89",
@@ -2975,14 +2932,6 @@
      "to": "J Ceres",
      "items": [
       "splits:43"
-     ]
-    },
-    {
-     "from": "J Saturn",
-     "to": "J Orcus",
-     "items": [
-      "splits:31",
-      "links:82"
      ]
     },
     {
@@ -3231,14 +3180,6 @@
      "items": [
       "shared:2",
       "hj_ratios:8"
-     ]
-    },
-    {
-     "from": "J Haumea",
-     "to": "J Orcus",
-     "items": [
-      "links:81:Flat",
-      "links:82"
      ]
     },
     {
@@ -3493,15 +3434,6 @@
     },
     {
      "from": "H Mars",
-     "to": "J Orcus",
-     "items": [
-      "links:4:Flat",
-      "links:71:GC",
-      "links:40:Dec"
-     ]
-    },
-    {
-     "from": "H Mars",
      "to": "H Vesta",
      "items": [
       "links:5:Dec",
@@ -3735,14 +3667,6 @@
     },
     {
      "from": "H Node",
-     "to": "J Orcus",
-     "items": [
-      "links:87:RA",
-      "links:40:Dec"
-     ]
-    },
-    {
-     "from": "H Node",
      "to": "H Vesta",
      "items": [
       "hj_ratios:19"
@@ -3951,14 +3875,6 @@
      "items": [
       "hj_ratios:5",
       "splits:43"
-     ]
-    },
-    {
-     "from": "J Venus",
-     "to": "J Orcus",
-     "items": [
-      "splits:10",
-      "links:82"
      ]
     },
     {
@@ -4180,14 +4096,6 @@
     },
     {
      "from": "J Uranus",
-     "to": "J Orcus",
-     "items": [
-      "hj_ratios:11",
-      "links:40:Dec"
-     ]
-    },
-    {
-     "from": "J Uranus",
      "to": "H Vesta",
      "items": [
       "links:85:GC"
@@ -4391,15 +4299,6 @@
      "to": "J Ceres",
      "items": [
       "links:42:Flat"
-     ]
-    },
-    {
-     "from": "J Node",
-     "to": "J Orcus",
-     "items": [
-      "links:76",
-      "links:74:Dec",
-      "links:40:Dec"
      ]
     },
     {
@@ -4608,14 +4507,6 @@
     },
     {
      "from": "H Neptune",
-     "to": "J Orcus",
-     "items": [
-      "links:9:GC",
-      "links:82"
-     ]
-    },
-    {
-     "from": "H Neptune",
      "to": "H Vesta",
      "items": [
       "links:6:Dec",
@@ -4819,15 +4710,6 @@
     },
     {
      "from": "J Chiron",
-     "to": "J Orcus",
-     "items": [
-      "links:33:GC",
-      "hj_ratios:11",
-      "links:40:Dec"
-     ]
-    },
-    {
-     "from": "J Chiron",
      "to": "H Vesta",
      "items": [
       "links:33:GC",
@@ -5020,14 +4902,6 @@
     },
     {
      "from": "J Sedna",
-     "to": "J Orcus",
-     "items": [
-      "links:80:GC",
-      "links:82"
-     ]
-    },
-    {
-     "from": "J Sedna",
      "to": "H Vesta",
      "items": [
       "links:97:Dec",
@@ -5210,15 +5084,6 @@
     },
     {
      "from": "H Sun",
-     "to": "J Orcus",
-     "items": [
-      "links:49:RA",
-      "links:81:Flat",
-      "links:82"
-     ]
-    },
-    {
-     "from": "H Sun",
      "to": "H Vesta",
      "items": [
       "ratios:0",
@@ -5392,15 +5257,6 @@
     },
     {
      "from": "H Venus",
-     "to": "J Orcus",
-     "items": [
-      "ratios:1",
-      "links:93:GC",
-      "links:40:Dec"
-     ]
-    },
-    {
-     "from": "H Venus",
      "to": "H Vesta",
      "items": [
       "links:3:Dec",
@@ -5566,15 +5422,6 @@
     },
     {
      "from": "H Jupiter",
-     "to": "J Orcus",
-     "items": [
-      "links:0",
-      "hj_ratios:3",
-      "links:82"
-     ]
-    },
-    {
-     "from": "H Jupiter",
      "to": "H Vesta",
      "items": [
       "links:7:Flat"
@@ -5723,14 +5570,6 @@
      "to": "J Ceres",
      "items": [
       "hj_ratios:8"
-     ]
-    },
-    {
-     "from": "H Ceres",
-     "to": "J Orcus",
-     "items": [
-      "links:74:Dec",
-      "links:40:Dec"
      ]
     },
     {
@@ -5884,15 +5723,6 @@
     },
     {
      "from": "J Transpluto",
-     "to": "J Orcus",
-     "items": [
-      "links:102:Dec",
-      "hj_ratios:17",
-      "links:82"
-     ]
-    },
-    {
-     "from": "J Transpluto",
      "to": "H Vesta",
      "items": [
       "links:98:Dec",
@@ -6034,14 +5864,6 @@
     },
     {
      "from": "J Pallas",
-     "to": "J Orcus",
-     "items": [
-      "links:37:Flat",
-      "links:40:Dec"
-     ]
-    },
-    {
-     "from": "J Pallas",
      "to": "H Vesta",
      "items": [
       "links:44:GC",
@@ -6174,14 +5996,6 @@
     },
     {
      "from": "J Sun",
-     "to": "J Orcus",
-     "items": [
-      "links:25:RA",
-      "links:40:Dec"
-     ]
-    },
-    {
-     "from": "J Sun",
      "to": "H Vesta",
      "items": [
       "links:24:Flat",
@@ -6310,15 +6124,6 @@
     },
     {
      "from": "J Makemake",
-     "to": "J Orcus",
-     "items": [
-      "links:45:RA",
-      "ratios:8",
-      "links:40:Dec"
-     ]
-    },
-    {
-     "from": "J Makemake",
      "to": "H Vesta",
      "items": [
       "links:77:GC",
@@ -6442,15 +6247,6 @@
     },
     {
      "from": "H Makemake",
-     "to": "J Orcus",
-     "items": [
-      "links:18",
-      "links:87:RA",
-      "links:40:Dec"
-     ]
-    },
-    {
-     "from": "H Makemake",
      "to": "H Vesta",
      "items": [
       "links:18",
@@ -6562,14 +6358,6 @@
     },
     {
      "from": "J Juno",
-     "to": "J Orcus",
-     "items": [
-      "ratios:8",
-      "links:40:Dec"
-     ]
-    },
-    {
-     "from": "J Juno",
      "to": "H Vesta",
      "items": [
       "links:31",
@@ -6666,15 +6454,6 @@
      "items": [
       "ratios:3",
       "hj_ratios:8"
-     ]
-    },
-    {
-     "from": "H Uranus",
-     "to": "J Orcus",
-     "items": [
-      "links:58:Dec",
-      "links:25:RA",
-      "links:40:Dec"
      ]
     },
     {
@@ -6776,15 +6555,6 @@
     },
     {
      "from": "H Saturn",
-     "to": "J Orcus",
-     "items": [
-      "links:55:GC",
-      "links:37:Flat",
-      "links:40:Dec"
-     ]
-    },
-    {
-     "from": "H Saturn",
      "to": "H Vesta",
      "items": [
       "links:1:GC",
@@ -6873,15 +6643,6 @@
     },
     {
      "from": "J Neptune",
-     "to": "J Orcus",
-     "items": [
-      "links:30:Flat",
-      "splits:31",
-      "links:82"
-     ]
-    },
-    {
-     "from": "J Neptune",
      "to": "H Vesta",
      "items": [
       "links:32",
@@ -6962,15 +6723,6 @@
     },
     {
      "from": "J Vesta",
-     "to": "J Orcus",
-     "items": [
-      "links:44:GC",
-      "links:37:Flat",
-      "links:40:Dec"
-     ]
-    },
-    {
-     "from": "J Vesta",
      "to": "H Vesta",
      "items": [
       "links:86:Flat"
@@ -7041,14 +6793,6 @@
     },
     {
      "from": "H Pluto",
-     "to": "J Orcus",
-     "items": [
-      "hj_ratios:11",
-      "links:40:Dec"
-     ]
-    },
-    {
-     "from": "H Pluto",
      "to": "H Vesta",
      "items": [
       "links:10",
@@ -7114,14 +6858,6 @@
     },
     {
      "from": "H Eris",
-     "to": "J Orcus",
-     "items": [
-      "links:13:RA",
-      "links:82"
-     ]
-    },
-    {
-     "from": "H Eris",
      "to": "H Vesta",
      "items": [
       "shared:3",
@@ -7179,14 +6915,6 @@
     },
     {
      "from": "H Gonggong",
-     "to": "J Orcus",
-     "items": [
-      "hj_ratios:17",
-      "links:82"
-     ]
-    },
-    {
-     "from": "H Gonggong",
      "to": "H Vesta",
      "items": [
       "links:21",
@@ -7235,15 +6963,6 @@
     },
     {
      "from": "H Transpluto",
-     "to": "J Orcus",
-     "items": [
-      "links:20:GC",
-      "links:93:GC",
-      "links:40:Dec"
-     ]
-    },
-    {
-     "from": "H Transpluto",
      "to": "H Vesta",
      "items": [
       "hj_ratios:21"
@@ -7284,15 +7003,6 @@
     },
     {
      "from": "J Mars",
-     "to": "J Orcus",
-     "items": [
-      "shared:0",
-      "links:81:Flat",
-      "links:82"
-     ]
-    },
-    {
-     "from": "J Mars",
      "to": "H Vesta",
      "items": [
       "links:28:RA",
@@ -7326,13 +7036,6 @@
     },
     {
      "from": "J Pluto",
-     "to": "J Orcus",
-     "items": [
-      "links:40:Dec"
-     ]
-    },
-    {
-     "from": "J Pluto",
      "to": "H Vesta",
      "items": [
       "links:87:RA",
@@ -7353,15 +7056,6 @@
      "items": [
       "links:37:Flat",
       "hj_ratios:17"
-     ]
-    },
-    {
-     "from": "J Ceres",
-     "to": "J Orcus",
-     "items": [
-      "links:95:GC",
-      "links:93:GC",
-      "links:40:Dec"
      ]
     },
     {
@@ -7386,33 +7080,6 @@
      "to": "J Gonggong",
      "items": [
       "links:43"
-     ]
-    },
-    {
-     "from": "J Orcus",
-     "to": "H Vesta",
-     "items": [
-      "links:40:Dec",
-      "links:87:RA",
-      "hj_ratios:19"
-     ]
-    },
-    {
-     "from": "J Orcus",
-     "to": "H Juno",
-     "items": [
-      "links:40:Dec",
-      "links:87:RA",
-      "links:14:GC"
-     ]
-    },
-    {
-     "from": "J Orcus",
-     "to": "J Gonggong",
-     "items": [
-      "links:40:Dec",
-      "links:37:Flat",
-      "hj_ratios:17"
      ]
     },
     {
@@ -7909,7 +7576,7 @@
     "H Pallas",
     "J Orcus"
    ],
-   "hub": true,
+   "hub": false,
    "strong_hub": false,
    "link": "cross H Pallas\u2013J Orcus RA 169.8719 Dec 0.3104 near",
    "strict": false
@@ -7947,7 +7614,7 @@
     "Pluto"
    ],
    "same_sky_both_ends": [
-    "Ketu"
+    "Node"
    ],
    "multi": false,
    "strict": false

@@ -1,4 +1,4 @@
-== 1 Oh Herberts Reign / 1 Hollie Doyle   [haydock_1718_20220507__P01.xlsx, L3 v1.1 (12 Oct 2026)]
+== 1 Oh Herberts Reign / 1 Hollie Doyle   [haydock_1718_20220507__P01.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Vesta, J Mars, J Eris, J Quaoar
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Vesta        MPRSX  tight 5
@@ -656,14 +656,14 @@
         sky Vesta on H Mercury RA 0.0600 Dec 0.0463
         sky Vesta on H Quaoar RA 54.6458 Dec 0.5528 near
         sky Vesta on H Sun RA 6.6882 Dec 0.3287 near
-   [ 7] triangle struck at every corner by one sky body (HUB)  roots 4  bodies=['H Transpluto', 'H Uranus', 'J Vesta']; corners=['H Transpluto', 'H Uranus', 'J Vesta']; sky=Sedna; strict=True
+   [ 7] triangle struck at every corner by one sky body (HUB)  roots 3  bodies=['H Transpluto', 'H Uranus', 'J Vesta']; corners=['H Transpluto', 'H Uranus', 'J Vesta']; sky=Sedna; strict=True
         H H Uranus–H Transpluto RA 127.0004 Dec 0.2344
         cross H Transpluto–J Vesta RA 100.99854 = 101
         cross H Uranus–J Vesta RA 132.00102 = 132
         sky Sedna -> H Transpluto RA 95.00182 = 95
         sky Sedna -> H Uranus RA 31.99862 = 32
         sky Sedna -> J Vesta RA 163.99964 = 164
-   [ 7] triangle struck at every corner by one sky body (STRONG HUB)  roots 6  bodies=['H Transpluto', 'H Uranus', 'J Eris']; corners=['H Transpluto', 'H Uranus', 'J Eris']; sky=Transpluto; strict=False
+   [ 7] triangle struck at every corner by one sky body (STRONG HUB)  roots 5  bodies=['H Transpluto', 'H Uranus', 'J Eris']; corners=['H Transpluto', 'H Uranus', 'J Eris']; sky=Transpluto; strict=False
         H H Uranus–H Transpluto RA 127.0004 Dec 0.2344
         cross H Transpluto–J Eris RA 130.66690 = 1176/9
         cross H Uranus–J Eris RA 3.66646 = 33/9
@@ -771,7 +771,7 @@
         sky Quaoar -> H Venus RA 3.00021 = 3
         sky Quaoar -> H Eris Dec 12.99796 = 13
         sky Juno on H Eris RA 50.7906 Dec 0.5655 near
-   [12] pair in one chart struck on both ends by 2+ sky bodies (HUB)  roots 6  bodies=['H Uranus', 'H Transpluto']; link=H H Uranus–H Transpluto RA 127.0004 Dec 0.2344; sky=['Sedna', 'Transpluto']; strict_sky=['Sedna']; strict_multi=False; strict=False
+   [12] pair in one chart struck on both ends by 2+ sky bodies (HUB)  roots 5  bodies=['H Uranus', 'H Transpluto']; link=H H Uranus–H Transpluto RA 127.0004 Dec 0.2344; sky=['Sedna', 'Transpluto']; strict_sky=['Sedna']; strict_multi=False; strict=False
         H H Uranus–H Transpluto RA 127.0004 Dec 0.2344
         sky Sedna -> H Uranus RA 31.99862 = 32
         sky Transpluto on H Uranus RA 127.3309 Dec 0.1085
@@ -783,7 +783,7 @@
         sky Transpluto on H Uranus RA 127.3309 Dec 0.1085
         sky Sedna -> H Transpluto RA 95.00182 = 95
         sky Transpluto on H Transpluto RA 0.3305 Dec 0.1258 RETURN
-   [12] pair in one chart struck on both ends by 2+ sky bodies (HUB)  roots 6  bodies=['H Uranus', 'H Transpluto']; link=H H Uranus–H Transpluto Flat 127.00066 = 127; sky=['Sedna', 'Transpluto']; strict_sky=['Sedna']; strict_multi=False; strict=False
+   [12] pair in one chart struck on both ends by 2+ sky bodies (HUB)  roots 5  bodies=['H Uranus', 'H Transpluto']; link=H H Uranus–H Transpluto Flat 127.00066 = 127; sky=['Sedna', 'Transpluto']; strict_sky=['Sedna']; strict_multi=False; strict=False
         H H Uranus–H Transpluto Flat 127.00066 = 127
         sky Sedna -> H Uranus RA 31.99862 = 32
         sky Transpluto on H Uranus RA 127.3309 Dec 0.1085

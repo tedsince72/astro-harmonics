@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "5 Oscar Montel / 5 Brian Hughes",
  "workbook": "20210822_worcester_1300__P09.xlsx",
  "tags": {
@@ -196,8 +196,8 @@
    "plane": "Dec"
   },
   "links:108:Dec": {
-   "tag": "root",
-   "plane": "Dec"
+   "tag": "mirror",
+   "of": "links:104"
   },
   "links:75:Dec": {
    "tag": "root",
@@ -2384,9 +2384,9 @@
    "root": 1
   },
   "links": {
-   "root": 112,
+   "root": 111,
    "derived": 10,
-   "mirror": 4
+   "mirror": 5
   },
   "movement": {
    "root": 6

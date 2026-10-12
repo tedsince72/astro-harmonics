@@ -1,4 +1,4 @@
-== 14 Misemerald / 14 Andrew Mullen   [york_1615_20240515__P27.xlsx, L3 v1.1 (12 Oct 2026)]
+== 14 Misemerald / 14 Andrew Mullen   [york_1615_20240515__P27.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): J Uranus, H Venus, H Uranus, H Ceres, J Node
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    J Uranus       BMPRSX  tight 5  (near joined: X)
@@ -66,7 +66,7 @@
         X: cross H Venus–J Ketu RA 28.1319 Dec 0.2530
         X: cross H Pluto–J Ketu RA 41.6450 Dec 0.3000 near
         X: cross H Rahu–J Rahu RA 2.9112 Dec 0.2466
-        X: cross H Ketu–J Ketu RA 2.9112 Dec 0.2466
+        X: cross H Makemake–J Rahu RA 123.5672 Dec 0.0192
    H Makemake     MPRSX  tight 4  (near joined: S)
         M: H Makemake moved RA 0.88844 = 8/9
         P: sky Juno -> H Makemake GC 38.66628 = 348/9
@@ -157,7 +157,6 @@
         X: cross H Rahu–J Rahu RA 2.9112 Dec 0.2466
         X: cross H Rahu–J Haumea RA 104.5421 Dec 0.1112
         X: cross H Ketu–J Jupiter RA 1.2521 Dec 0.4765
-        X: cross H Ketu–J Ketu RA 2.9112 Dec 0.2466
    J Sun          PRSX  tight 4
         P: sky Venus -> J Sun GC 167.66645 = 1509/9
         P: sky Neptune -> J Sun Dec 18.99617 = 19
@@ -569,20 +568,13 @@
         sky Haumea -> H Ketu RA 39.66689 = 357/9
         sky Pluto on H Ketu RA 46.8230 Dec 0.2047
         sky Jupiter -> J Jupiter Flat 163.77749 = 1474/9
-   [ 1] cross link struck on both ends (STRONG HUB)  roots 8  bodies=['H Ketu', 'J Ketu']; link=cross H Ketu–J Ketu RA 2.9112 Dec 0.2466; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Haumea', 'Mercury', 'Pluto', 'Rahu']; strikers_jockey_end=['Mars', 'Pluto']; same_sky_both_ends=['Pluto']; multi=False; strict=False
-        cross H Ketu–J Ketu RA 2.9112 Dec 0.2466
-        sky Mercury -> H Ketu Dec 31.33367 = 282/9
-        sky Rahu -> H Ketu Flat 119.00286 = 119
-        sky Haumea -> H Ketu RA 39.66689 = 357/9
-        sky Pluto on H Ketu RA 46.8230 Dec 0.2047
-        sky Mars -> J Ketu Dec 25.99511 = 26
    [ 1] cross link struck on both ends (HUB)  roots 5  bodies=['H Sedna', 'J Chiron']; link=cross H Sedna–J Chiron RA 1.4200 Dec 8.6103; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Mars', 'Mercury']; strikers_jockey_end=['Sedna', 'Venus']; same_sky_both_ends=[]; multi=False; strict=False
         cross H Sedna–J Chiron RA 1.4200 Dec 8.6103
         sky Mars -> H Sedna GC 46.99805 = 47
         sky Mercury on H Sedna RA 29.1436 Dec 0.4845 near
         sky Venus on J Chiron RA 11.8500 Dec 0.3491 near
         sky Sedna on J Chiron RA 1.0359 Dec 7.8410
-   [ 1] cross link struck on both ends (HUB)  roots 10  bodies=['H Haumea', 'J Transpluto']; link=cross H Haumea–J Transpluto RA 73.9998 Dec 0.5888 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ceres', 'Haumea', 'Pluto', 'Quaoar']; strikers_jockey_end=['Chiron', 'Quaoar', 'Transpluto']; same_sky_both_ends=['Quaoar']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 9  bodies=['H Haumea', 'J Transpluto']; link=cross H Haumea–J Transpluto RA 73.9998 Dec 0.5888 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ceres', 'Haumea', 'Pluto', 'Quaoar']; strikers_jockey_end=['Chiron', 'Quaoar', 'Transpluto']; same_sky_both_ends=['Quaoar']; multi=False; strict=False
         cross H Haumea–J Transpluto RA 73.9998 Dec 0.5888 near
         sky Pluto -> H Haumea Flat 95.99955 = 96
         sky Ceres -> H Haumea Dec 40.44494 = 364/9
@@ -696,9 +688,6 @@
    [ 5] movement onto a cross link (HUB)  roots 2  bodies=['J Jupiter']; link=cross H Ketu–J Jupiter RA 1.2521 Dec 0.4765; moved=J Jupiter; strict=True
         cross H Ketu–J Jupiter RA 1.2521 Dec 0.4765
         J Jupiter moved Flat 163.77749 = 1474/9
-   [ 5] movement onto a cross link (STRONG HUB)  roots 2  bodies=['J Ketu']; link=cross H Ketu–J Ketu RA 2.9112 Dec 0.2466; moved=J Ketu; strict=True
-        cross H Ketu–J Ketu RA 2.9112 Dec 0.2466
-        J Ketu moved Dec 16.99471 = 17
    [ 5] movement onto a cross link (HUB)  roots 2  bodies=['J Transpluto']; link=cross H Haumea–J Transpluto RA 73.9998 Dec 0.5888 near; moved=J Transpluto; strict=False
         cross H Haumea–J Transpluto RA 73.9998 Dec 0.5888 near
         J Transpluto moved Flat 13.00092 = 13
@@ -742,13 +731,6 @@
         sky Pluto on H Ketu RA 46.8230 Dec 0.2047
         sky Pluto on H Venus RA 21.6022 Dec 0.2112
         sky Pluto on J Jupiter RA 48.0750 Dec 0.2717
-   [ 7] triangle struck at every corner by one sky body (STRONG HUB)  roots 6  bodies=['H Ketu', 'H Venus', 'J Ketu']; corners=['H Ketu', 'H Venus', 'J Ketu']; sky=Pluto; strict=False
-        H H Venus–H Ketu RA 25.2207 Dec 0.0064
-        cross H Ketu–J Ketu RA 2.9112 Dec 0.2466
-        cross H Venus–J Ketu RA 28.1319 Dec 0.2530
-        sky Pluto on H Ketu RA 46.8230 Dec 0.2047
-        sky Pluto on H Venus RA 21.6022 Dec 0.2112
-        sky Pluto on J Ketu RA 49.7341 Dec 0.0418
    [ 7] triangle struck at every corner by one sky body (STRONG HUB)  roots 6  bodies=['H Venus', 'J Jupiter', 'J Ketu']; corners=['H Venus', 'J Jupiter', 'J Ketu']; sky=Pluto; strict=False
         cross H Venus–J Jupiter RA 26.4728 Dec 0.4829 near
         cross H Venus–J Ketu RA 28.1319 Dec 0.2530
@@ -763,13 +745,6 @@
         sky Pluto on H Ketu RA 46.8230 Dec 0.2047
         sky Pluto on H Pluto RA 8.0891 Dec 0.3419 RETURN near
         sky Pluto on J Jupiter RA 48.0750 Dec 0.2717
-   [ 7] triangle struck at every corner by one sky body (STRONG HUB)  roots 6  bodies=['H Ketu', 'H Pluto', 'J Ketu']; corners=['H Ketu', 'H Pluto', 'J Ketu']; sky=Pluto; strict=False
-        H H Pluto–H Ketu RA 38.7338 Dec 0.5466
-        cross H Ketu–J Ketu RA 2.9112 Dec 0.2466
-        cross H Pluto–J Ketu RA 41.6450 Dec 0.3000 near
-        sky Pluto on H Ketu RA 46.8230 Dec 0.2047
-        sky Pluto on H Pluto RA 8.0891 Dec 0.3419 RETURN near
-        sky Pluto on J Ketu RA 49.7341 Dec 0.0418
    [ 7] triangle struck at every corner by one sky body (HUB)  roots 6  bodies=['H Pluto', 'J Jupiter', 'J Neptune']; corners=['H Pluto', 'J Jupiter', 'J Neptune']; sky=Pluto; strict=False
         cross H Pluto–J Jupiter RA 39.9859 Dec 0.0702
         cross H Pluto–J Neptune RA 28.5816 Dec 0.1637
@@ -811,20 +786,6 @@
         J J Ketu–J Gonggong RA 71.9686 Dec 0.4422
         sky Pluto on H Pluto RA 8.0891 Dec 0.3419 RETURN near
         sky Pluto on J Gonggong RA 22.2345 Dec 0.4840 near
-        sky Pluto on J Ketu RA 49.7341 Dec 0.0418
-   [ 7] triangle struck at every corner by one sky body (STRONG HUB)  roots 6  bodies=['H Ketu', 'H Saturn', 'J Ketu']; corners=['H Ketu', 'H Saturn', 'J Ketu']; sky=Pluto; strict=False
-        H H Saturn–H Ketu Flat 47.99858 = 48
-        cross H Ketu–J Ketu RA 2.9112 Dec 0.2466
-        cross H Saturn–J Ketu Flat 50.88893 = 458/9
-        sky Pluto on H Ketu RA 46.8230 Dec 0.2047
-        sky Pluto on H Saturn RA 1.0704 Dec 2.9713
-        sky Pluto on J Ketu RA 49.7341 Dec 0.0418
-   [ 7] triangle struck at every corner by one sky body (STRONG HUB)  roots 6  bodies=['H Ketu', 'J Jupiter', 'J Ketu']; corners=['H Ketu', 'J Jupiter', 'J Ketu']; sky=Pluto; strict=False
-        cross H Ketu–J Jupiter RA 1.2521 Dec 0.4765
-        cross H Ketu–J Ketu RA 2.9112 Dec 0.2466
-        J J Jupiter–J Ketu RA 1.6591 Dec 0.2299
-        sky Pluto on H Ketu RA 46.8230 Dec 0.2047
-        sky Pluto on J Jupiter RA 48.0750 Dec 0.2717
         sky Pluto on J Ketu RA 49.7341 Dec 0.0418
    [ 7] triangle struck at every corner by one sky body (STRONG HUB)  roots 6  bodies=['H Sun', 'J Sun', 'J Uranus']; corners=['H Sun', 'J Sun', 'J Uranus']; sky=Makemake; strict=True
         cross H Sun–J Sun RA 60.6744 Dec 0.0407

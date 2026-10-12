@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "2 Chacun Pour Soi / 2 Mr P W Mullins",
  "workbook": "sandown_1425_20211204__P03.xlsx",
  "tags": {
@@ -855,6 +855,10 @@
    "tag": "mirror",
    "of": "Rahu same-body set"
   },
+  "links:88:GC": {
+   "tag": "mirror",
+   "of": "links:85"
+  },
   "strikes:58": {
    "tag": "duplicate",
    "of": "movement:7"
@@ -1121,10 +1125,6 @@
    "plane": "GC"
   },
   "links:87:GC": {
-   "tag": "root",
-   "plane": "GC"
-  },
-  "links:88:GC": {
    "tag": "root",
    "plane": "GC"
   },
@@ -2536,9 +2536,9 @@
    "race_level": 3
   },
   "links": {
-   "root": 105,
+   "root": 104,
    "derived": 4,
-   "mirror": 1
+   "mirror": 2
   },
   "movement": {
    "derived": 3,

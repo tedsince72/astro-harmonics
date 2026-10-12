@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "3 Cresswell Queen / 3 Harry Reed",
  "workbook": "newton_abbot_1525_20220717__P05.xlsx",
  "bodies": {
@@ -367,8 +367,7 @@
      "hj_ratios:13"
     ],
     "X": [
-     "links:87",
-     "links:88"
+     "links:87"
     ]
    },
    "near_unjoined": [],
@@ -821,7 +820,6 @@
     ],
     "X": [
      "links:87",
-     "links:88",
      "links:91"
     ]
    },
@@ -7372,76 +7370,6 @@
    "shape": 1,
    "name": "cross link struck on both ends",
    "items": [
-    "links:88",
-    "strikes:27",
-    "strikes:28",
-    "contacts:14",
-    "strikes:66",
-    "contacts:28"
-   ],
-   "roots_behind": 7,
-   "bodies": [
-    "H Ketu",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": true,
-   "link": "cross H Ketu\u2013J Ketu RA 0.0858 Dec 0.0362",
-   "strict_same_sky_both_ends": [],
-   "strict_multi": false,
-   "strikers_horse_end": [
-    "Eris",
-    "Jupiter",
-    "Ketu"
-   ],
-   "strikers_jockey_end": [
-    "Jupiter",
-    "Makemake"
-   ],
-   "same_sky_both_ends": [
-    "Jupiter"
-   ],
-   "multi": false,
-   "strict": false
-  },
-  {
-   "shape": 2,
-   "name": "partner strike",
-   "items": [
-    "links:88",
-    "strikes:27"
-   ],
-   "roots_behind": 2,
-   "bodies": [
-    "H Ketu",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": true,
-   "link": "cross H Ketu\u2013J Ketu RA 0.0858 Dec 0.0362",
-   "strict": true
-  },
-  {
-   "shape": 5,
-   "name": "movement onto a cross link",
-   "items": [
-    "links:88",
-    "movement:2"
-   ],
-   "roots_behind": 2,
-   "bodies": [
-    "H Ketu"
-   ],
-   "hub": true,
-   "strong_hub": true,
-   "link": "cross H Ketu\u2013J Ketu RA 0.0858 Dec 0.0362",
-   "moved": "H Ketu",
-   "strict": true
-  },
-  {
-   "shape": 1,
-   "name": "cross link struck on both ends",
-   "items": [
     "links:91",
     "contacts:15",
     "contacts:16",
@@ -8280,7 +8208,6 @@
   "links:85:Dec": "cross H Rahu\u2013J Jupiter Dec 20.00049 = 20",
   "links:86:Flat": "cross H Rahu\u2013J Uranus Flat 116.99628 = 117",
   "links:87": "cross H Rahu\u2013J Rahu RA 0.0858 Dec 0.0362",
-  "links:88": "cross H Ketu\u2013J Ketu RA 0.0858 Dec 0.0362",
   "links:89:Flat": "cross H Ketu\u2013J Orcus Flat 129.00374 = 129",
   "links:90:Flat": "cross H Ketu\u2013J Transpluto Flat 140.00406 = 140",
   "links:91": "cross H Eris\u2013J Rahu RA 161.4198 Dec 0.4275 near",

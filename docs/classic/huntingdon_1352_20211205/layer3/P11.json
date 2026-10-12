@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "6 Keeper Hill / 6 A P Heskin",
  "workbook": "huntingdon_1352_20211205__P11.xlsx",
  "bodies": {
@@ -387,7 +387,6 @@
     "X": [
      "links:75",
      "links:76",
-     "links:78",
      "links:80"
     ]
    },
@@ -884,8 +883,7 @@
      "hj_ratios:16"
     ],
     "X": [
-     "links:76",
-     "links:78"
+     "links:76"
     ]
    },
    "near_unjoined": [],
@@ -9201,37 +9199,6 @@
    "shape": 1,
    "name": "cross link struck on both ends",
    "items": [
-    "links:78",
-    "strikes:25",
-    "strikes:26",
-    "strikes:27",
-    "strikes:56"
-   ],
-   "roots_behind": 5,
-   "bodies": [
-    "H Ketu",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": false,
-   "link": "cross H Ketu\u2013J Ketu RA 10.0389 Dec 0.1481",
-   "strict_same_sky_both_ends": [],
-   "strict_multi": false,
-   "strikers_horse_end": [
-    "Mars",
-    "Uranus"
-   ],
-   "strikers_jockey_end": [
-    "Saturn"
-   ],
-   "same_sky_both_ends": [],
-   "multi": false,
-   "strict": false
-  },
-  {
-   "shape": 1,
-   "name": "cross link struck on both ends",
-   "items": [
     "links:80",
     "strikes:25",
     "strikes:26",
@@ -9902,7 +9869,6 @@
   "links:75": "cross H Rahu\u2013J Ceres RA 46.6131 Dec 0.1144",
   "links:76": "cross H Rahu\u2013J Rahu RA 10.0389 Dec 0.1481",
   "links:77:RA": "cross H Rahu\u2013J Eris RA 119.99956 = 120",
-  "links:78": "cross H Ketu\u2013J Ketu RA 10.0389 Dec 0.1481",
   "links:80": "cross H Ketu\u2013J Haumea RA 106.2508 Dec 0.1604",
   "links:81": "cross H Eris\u2013J Pluto RA 151.7111 Dec 0.2102",
   "links:82:Flat": "cross H Eris\u2013J Sedna Flat 19.33365 = 174/9",

@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "5 Funambule Sivola / 5 Charlie Deutsch",
  "workbook": "huntingdon_1352_20211205__P09.xlsx",
  "tags": {
@@ -905,6 +905,10 @@
    "tag": "mirror",
    "of": "Rahu Equator ratio"
   },
+  "links:85:Flat": {
+   "tag": "mirror",
+   "of": "links:81"
+  },
   "strikes:3": {
    "tag": "duplicate",
    "of": "movement:0"
@@ -1112,10 +1116,6 @@
   "links:83:GC": {
    "tag": "root",
    "plane": "GC"
-  },
-  "links:85:Flat": {
-   "tag": "root",
-   "plane": "Flat"
   },
   "links:86": {
    "tag": "root",
@@ -2274,8 +2274,9 @@
    "race_level": 1
   },
   "links": {
-   "root": 106,
-   "derived": 7
+   "root": 105,
+   "derived": 7,
+   "mirror": 1
   },
   "movement": {
    "root": 4

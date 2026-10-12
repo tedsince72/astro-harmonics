@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "5 Cascova / 5 Daryl Jacob",
  "workbook": "newbury_1350_20211126__P07.xlsx",
  "bodies": {
@@ -8977,8 +8977,8 @@
     "Sun"
    ],
    "same_sky_both_ends": [
-    "Ketu",
-    "Mercury"
+    "Mercury",
+    "Node"
    ],
    "multi": true,
    "strict": false
@@ -9046,8 +9046,8 @@
     "Sun"
    ],
    "same_sky_both_ends": [
-    "Ketu",
     "Mercury",
+    "Node",
     "Sun"
    ],
    "multi": true,

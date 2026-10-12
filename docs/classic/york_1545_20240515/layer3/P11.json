@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "6 Secret Satire / 6 Oisin Murphy",
  "workbook": "york_1545_20240515__P11.xlsx",
  "bodies": {
@@ -8352,7 +8352,7 @@
     "Rahu"
    ],
    "same_sky_both_ends": [
-    "Rahu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -8595,9 +8595,10 @@
     "Ketu"
    ],
    "same_sky_both_ends": [
-    "Jupiter"
+    "Jupiter",
+    "Node"
    ],
-   "multi": false,
+   "multi": true,
    "strict": false
   },
   {
@@ -9668,7 +9669,7 @@
     "strikes:28",
     "strikes:29"
    ],
-   "roots_behind": 5,
+   "roots_behind": 4,
    "bodies": [
     "H Pallas",
     "H Juno"

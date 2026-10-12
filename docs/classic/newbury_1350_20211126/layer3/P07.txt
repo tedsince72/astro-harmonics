@@ -1,4 +1,4 @@
-== 5 Cascova / 5 Daryl Jacob   [newbury_1350_20211126__P07.xlsx, L3 v1.1 (12 Oct 2026)]
+== 5 Cascova / 5 Daryl Jacob   [newbury_1350_20211126__P07.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): J Saturn, H Node
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    J Saturn       MPRSX  tight 5
@@ -477,7 +477,7 @@
         sky Ceres on H Jupiter RA 73.6041 Dec 0.5722 near
         sky Uranus -> J Vesta Dec 2.88876 = 26/9
         sky Transpluto -> J Vesta GC 75.00414 = 75
-   [ 1] cross link struck on both ends (HUB)  roots 10  bodies=['H Saturn', 'J Jupiter']; link=cross H Saturn–J Jupiter RA 0.3401 Dec 1.6793; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ketu', 'Mars', 'Mercury', 'Pluto', 'Saturn', 'Vesta']; strikers_jockey_end=['Ketu', 'Mercury', 'Sun']; same_sky_both_ends=['Ketu', 'Mercury']; multi=True; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 10  bodies=['H Saturn', 'J Jupiter']; link=cross H Saturn–J Jupiter RA 0.3401 Dec 1.6793; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ketu', 'Mars', 'Mercury', 'Pluto', 'Saturn', 'Vesta']; strikers_jockey_end=['Ketu', 'Mercury', 'Sun']; same_sky_both_ends=['Mercury', 'Node']; multi=True; strict=False
         cross H Saturn–J Jupiter RA 0.3401 Dec 1.6793
         sky Mars -> H Saturn Flat 14.55575 = 131/9
         sky Pluto -> H Saturn GC 52.99827 = 53
@@ -489,7 +489,7 @@
         sky Haumea -> H Uranus RA 160.55566 = 1445/9
         sky Neptune -> J Juno GC 44.00284 = 44
         sky Orcus -> J Juno Dec 19.00315 = 19
-   [ 1] cross link struck on both ends (HUB)  roots 7  bodies=['H Pluto', 'J Jupiter']; link=cross H Pluto–J Jupiter RA 45.6768 Dec 0.5027 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ketu', 'Mercury', 'Sun']; strikers_jockey_end=['Ketu', 'Mercury', 'Sun']; same_sky_both_ends=['Ketu', 'Mercury', 'Sun']; multi=True; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 7  bodies=['H Pluto', 'J Jupiter']; link=cross H Pluto–J Jupiter RA 45.6768 Dec 0.5027 near; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ketu', 'Mercury', 'Sun']; strikers_jockey_end=['Ketu', 'Mercury', 'Sun']; same_sky_both_ends=['Mercury', 'Node', 'Sun']; multi=True; strict=False
         cross H Pluto–J Jupiter RA 45.6768 Dec 0.5027 near
         sky Sun on H Pluto RA 43.9053 Dec 0.4374 near
         sky Mercury on H Pluto RA 45.5452 Dec 0.5879 near

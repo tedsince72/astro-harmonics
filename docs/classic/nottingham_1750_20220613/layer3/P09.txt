@@ -1,4 +1,4 @@
-== 5 Glory Hallelujah / 5 Rowan Scott   [nottingham_1750_20220613__P09.xlsx, L3 v1.1 (12 Oct 2026)]
+== 5 Glory Hallelujah / 5 Rowan Scott   [nottingham_1750_20220613__P09.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Pallas, H Node, H Gonggong, J Neptune, J Gonggong
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Pallas       MPRSX  tight 5
@@ -475,14 +475,14 @@
         sky Sun -> H Sun GC 96.99915 = 97
         sky Ceres -> J Saturn GC 112.00166 = 112
         sky Orcus -> J Saturn RA 163.99892 = 164
-   [ 1] cross link struck on both ends (HUB)  roots 9  bodies=['H Venus', 'J Mercury']; link=cross H Venus–J Mercury RA 0.3362 Dec 0.2804; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Chiron', 'Ketu', 'Pluto', 'Quaoar', 'Sedna', 'Sun', 'Uranus']; strikers_jockey_end=['Ketu']; same_sky_both_ends=['Ketu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 9  bodies=['H Venus', 'J Mercury']; link=cross H Venus–J Mercury RA 0.3362 Dec 0.2804; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Chiron', 'Ketu', 'Pluto', 'Quaoar', 'Sedna', 'Sun', 'Uranus']; strikers_jockey_end=['Ketu']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Venus–J Mercury RA 0.3362 Dec 0.2804
         sky Sun -> H Venus Flat 140.33319 = 1263/9
         sky Uranus -> H Venus GC 101.22202 = 911/9
         sky Pluto -> H Venus GC 8.00009 = 8
         sky Chiron -> H Venus Flat 71.00015 = 71
         sky Sedna -> H Venus Dec 26.88849 = 242/9
-   [ 1] cross link struck on both ends (STRONG HUB)  roots 12  bodies=['H Venus', 'J Gonggong']; link=cross H Venus–J Gonggong RA 22.8375 Dec 0.0396; strict_same_sky_both_ends=['Uranus']; strict_multi=False; strikers_horse_end=['Chiron', 'Ketu', 'Pluto', 'Quaoar', 'Sedna', 'Sun', 'Uranus']; strikers_jockey_end=['Ceres', 'Ketu', 'Makemake', 'Uranus']; same_sky_both_ends=['Ketu', 'Uranus']; multi=True; strict=False
+   [ 1] cross link struck on both ends (STRONG HUB)  roots 12  bodies=['H Venus', 'J Gonggong']; link=cross H Venus–J Gonggong RA 22.8375 Dec 0.0396; strict_same_sky_both_ends=['Uranus']; strict_multi=False; strikers_horse_end=['Chiron', 'Ketu', 'Pluto', 'Quaoar', 'Sedna', 'Sun', 'Uranus']; strikers_jockey_end=['Ceres', 'Ketu', 'Makemake', 'Uranus']; same_sky_both_ends=['Node', 'Uranus']; multi=True; strict=False
         cross H Venus–J Gonggong RA 22.8375 Dec 0.0396
         sky Sun -> H Venus Flat 140.33319 = 1263/9
         sky Uranus -> H Venus GC 101.22202 = 911/9
@@ -745,7 +745,7 @@
         sky Pallas -> H Saturn RA 123.00086 = 123
         sky Pluto -> H Neptune RA 46.99990 = 47
         sky Pallas -> H Neptune RA 64.99604 = 65
-   [12] pair in one chart struck on both ends by 2+ sky bodies (HUB)  roots 3  bodies=['H Saturn', 'H Neptune']; link=H H Saturn–H Neptune Flat 60.00321 = 60; sky=['Pallas', 'Pluto']; strict_sky=['Pallas', 'Pluto']; strict_multi=True; strict=True
+   [12] pair in one chart struck on both ends by 2+ sky bodies (HUB)  roots 2  bodies=['H Saturn', 'H Neptune']; link=H H Saturn–H Neptune Flat 60.00321 = 60; sky=['Pallas', 'Pluto']; strict_sky=['Pallas', 'Pluto']; strict_multi=True; strict=True
         H H Saturn–H Neptune Flat 60.00321 = 60
         sky Pluto -> H Saturn RA 11.00493 = 11
         sky Pallas -> H Saturn RA 123.00086 = 123

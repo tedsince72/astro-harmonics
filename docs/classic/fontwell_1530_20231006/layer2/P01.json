@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "1 Biscoff Joe / 1 Gearoid Harney",
  "workbook": "fontwell_1530_20231006__P01.xlsx",
  "tags": {
@@ -1021,6 +1021,10 @@
    "tag": "root",
    "plane": "RA"
   },
+  "links:71": {
+   "tag": "mirror",
+   "of": "links:68"
+  },
   "strikes:12": {
    "tag": "duplicate",
    "of": "movement:1"
@@ -1230,10 +1234,6 @@
    "plane": "Flat"
   },
   "links:70": {
-   "tag": "root",
-   "what": "close/near"
-  },
-  "links:71": {
    "tag": "root",
    "what": "close/near"
   },
@@ -2708,9 +2708,9 @@
    "race_level": 1
   },
   "links": {
-   "root": 88,
+   "root": 87,
    "derived": 6,
-   "mirror": 2
+   "mirror": 3
   },
   "movement": {
    "root": 11

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "14 Misemerald / 14 Andrew Mullen",
  "workbook": "york_1615_20240515__P27.xlsx",
  "bodies": {
@@ -476,8 +476,7 @@
     "X": [
      "links:88",
      "links:91",
-     "links:94",
-     "links:96"
+     "links:94"
     ]
    },
    "near_unjoined": [],
@@ -1075,7 +1074,6 @@
      "links:63",
      "links:75",
      "links:88",
-     "links:96",
      "links:110"
     ]
    },
@@ -9964,61 +9962,6 @@
    "shape": 1,
    "name": "cross link struck on both ends",
    "items": [
-    "links:96",
-    "strikes:21",
-    "strikes:22",
-    "strikes:23",
-    "contacts:9",
-    "strikes:64",
-    "contacts:33"
-   ],
-   "roots_behind": 8,
-   "bodies": [
-    "H Ketu",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": true,
-   "link": "cross H Ketu\u2013J Ketu RA 2.9112 Dec 0.2466",
-   "strict_same_sky_both_ends": [],
-   "strict_multi": false,
-   "strikers_horse_end": [
-    "Haumea",
-    "Mercury",
-    "Pluto",
-    "Rahu"
-   ],
-   "strikers_jockey_end": [
-    "Mars",
-    "Pluto"
-   ],
-   "same_sky_both_ends": [
-    "Pluto"
-   ],
-   "multi": false,
-   "strict": false
-  },
-  {
-   "shape": 5,
-   "name": "movement onto a cross link",
-   "items": [
-    "links:96",
-    "movement:14"
-   ],
-   "roots_behind": 2,
-   "bodies": [
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": true,
-   "link": "cross H Ketu\u2013J Ketu RA 2.9112 Dec 0.2466",
-   "moved": "J Ketu",
-   "strict": true
-  },
-  {
-   "shape": 1,
-   "name": "cross link struck on both ends",
-   "items": [
     "links:105",
     "strikes:24",
     "contacts:12",
@@ -10077,7 +10020,7 @@
     "strikes:79",
     "strikes:80"
    ],
-   "roots_behind": 10,
+   "roots_behind": 9,
    "bodies": [
     "H Haumea",
     "J Transpluto"
@@ -10464,33 +10407,6 @@
    "shape": 7,
    "name": "triangle struck at every corner by one sky body",
    "items": [
-    "links:2",
-    "links:96",
-    "links:63",
-    "contacts:9",
-    "contacts:0",
-    "contacts:33"
-   ],
-   "roots_behind": 6,
-   "bodies": [
-    "H Ketu",
-    "H Venus",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": true,
-   "corners": [
-    "H Ketu",
-    "H Venus",
-    "J Ketu"
-   ],
-   "sky": "Pluto",
-   "strict": false
-  },
-  {
-   "shape": 7,
-   "name": "triangle struck at every corner by one sky body",
-   "items": [
     "links:62",
     "links:63",
     "links:31",
@@ -10537,33 +10453,6 @@
     "H Ketu",
     "H Pluto",
     "J Jupiter"
-   ],
-   "sky": "Pluto",
-   "strict": false
-  },
-  {
-   "shape": 7,
-   "name": "triangle struck at every corner by one sky body",
-   "items": [
-    "links:11",
-    "links:96",
-    "links:75",
-    "contacts:9",
-    "contacts:4",
-    "contacts:33"
-   ],
-   "roots_behind": 6,
-   "bodies": [
-    "H Ketu",
-    "H Pluto",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": true,
-   "corners": [
-    "H Ketu",
-    "H Pluto",
-    "J Ketu"
    ],
    "sky": "Pluto",
    "strict": false
@@ -10725,60 +10614,6 @@
    "corners": [
     "H Pluto",
     "J Gonggong",
-    "J Ketu"
-   ],
-   "sky": "Pluto",
-   "strict": false
-  },
-  {
-   "shape": 7,
-   "name": "triangle struck at every corner by one sky body",
-   "items": [
-    "links:6:Flat",
-    "links:96",
-    "links:69:Flat",
-    "contacts:9",
-    "contacts:1",
-    "contacts:33"
-   ],
-   "roots_behind": 6,
-   "bodies": [
-    "H Ketu",
-    "H Saturn",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": true,
-   "corners": [
-    "H Ketu",
-    "H Saturn",
-    "J Ketu"
-   ],
-   "sky": "Pluto",
-   "strict": false
-  },
-  {
-   "shape": 7,
-   "name": "triangle struck at every corner by one sky body",
-   "items": [
-    "links:94",
-    "links:96",
-    "links:31",
-    "contacts:9",
-    "contacts:23",
-    "contacts:33"
-   ],
-   "roots_behind": 6,
-   "bodies": [
-    "H Ketu",
-    "J Jupiter",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": true,
-   "corners": [
-    "H Ketu",
-    "J Jupiter",
     "J Ketu"
    ],
    "sky": "Pluto",
@@ -11832,7 +11667,6 @@
   "links:93:GC": "cross H Ketu\u2013J Sun GC 17.00326 = 17",
   "links:94": "cross H Ketu\u2013J Jupiter RA 1.2521 Dec 0.4765",
   "links:95:Flat": "cross H Ketu\u2013J Rahu Flat 182.88869 = 1646/9",
-  "links:96": "cross H Ketu\u2013J Ketu RA 2.9112 Dec 0.2466",
   "links:98:GC": "cross H Ketu\u2013J Makemake GC 106.99692 = 107",
   "links:99:GC": "cross H Eris\u2013J Pluto GC 170.99806 = 171",
   "links:100:Dec": "cross H Eris\u2013J Ketu Dec 21.00333 = 21",

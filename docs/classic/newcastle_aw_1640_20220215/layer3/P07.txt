@@ -1,4 +1,4 @@
-== 4 Onesmoothoperator / 4 Harry Russell   [newcastle_aw_1640_20220215__P07.xlsx, L3 v1.1 (12 Oct 2026)]
+== 4 Onesmoothoperator / 4 Harry Russell   [newcastle_aw_1640_20220215__P07.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Neptune
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Neptune      MPRSX  tight 5
@@ -614,7 +614,7 @@
    [ 6] swap (HUB)  roots 2  bodies=['H Eris', 'J Juno', 'H Juno', 'J Eris']; pair=Eris/Juno; strict=False
         cross H Eris–J Juno RA 151.6076 Dec 0.4019 near
         cross H Juno–J Eris RA 48.8126 Dec 0.5077 near
-   [ 7] triangle struck at every corner by one sky body (STRONG HUB)  roots 6  bodies=['H Neptune', 'J Eris', 'J Quaoar']; corners=['H Neptune', 'J Eris', 'J Quaoar']; sky=Haumea; strict=False
+   [ 7] triangle struck at every corner by one sky body (STRONG HUB)  roots 5  bodies=['H Neptune', 'J Eris', 'J Quaoar']; corners=['H Neptune', 'J Eris', 'J Quaoar']; sky=Haumea; strict=False
         cross H Neptune–J Eris RA 37.6582 Dec 0.4478 near
         cross H Neptune–J Quaoar GC 99.00362 = 99
         J J Eris–J Quaoar RA 138.99619 = 139
@@ -635,7 +635,7 @@
         sky Eris on H Eris RA 0.4049 Dec 0.9610 RETURN
         sky Eris on J Juno RA 151.2027 Dec 0.5591 near
         sky Eris -> J Vesta GC 7.11080 = 64/9
-   [ 7] triangle struck at every corner by one sky body (HUB)  roots 5  bodies=['H Vesta', 'J Eris', 'J Quaoar']; corners=['H Vesta', 'J Eris', 'J Quaoar']; sky=Haumea; strict=True
+   [ 7] triangle struck at every corner by one sky body (HUB)  roots 4  bodies=['H Vesta', 'J Eris', 'J Quaoar']; corners=['H Vesta', 'J Eris', 'J Quaoar']; sky=Haumea; strict=True
         cross H Vesta–J Eris RA 123.00018 = 123
         cross H Vesta–J Quaoar RA 15.99601 = 16
         J J Eris–J Quaoar RA 138.99619 = 139

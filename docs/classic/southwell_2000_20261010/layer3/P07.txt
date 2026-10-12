@@ -1,4 +1,4 @@
-== 5 Knightsail / 5 Jack Callan   [20261010_southwell_aw_2000__P07.xlsx, L3 v1.1 (12 Oct 2026)]
+== 5 Knightsail / 5 Jack Callan   [20261010_southwell_aw_2000__P07.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): J Ceres
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    J Ceres        EPRSX  tight 5
@@ -454,7 +454,7 @@
       J Ceres .. H Transpluto: J J Neptune–J Ceres RA 24.5819 Dec 0.3292 | cross H Transpluto–J Neptune RA 166.99747 = 167
       J Ceres .. J Sedna: horse:jockey Ceres–Sedna GC H 116.4663 J 66.5541 7/4
 -- shapes
-   [ 1] cross link struck on both ends (HUB)  roots 6  bodies=['H Vesta', 'J Transpluto']; link=cross H Vesta–J Transpluto RA 105.4660 Dec 0.0797; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ketu', 'Quaoar', 'Venus']; strikers_jockey_end=['Ketu', 'Quaoar']; same_sky_both_ends=['Ketu', 'Quaoar']; multi=True; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 6  bodies=['H Vesta', 'J Transpluto']; link=cross H Vesta–J Transpluto RA 105.4660 Dec 0.0797; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ketu', 'Quaoar', 'Venus']; strikers_jockey_end=['Ketu', 'Quaoar']; same_sky_both_ends=['Node', 'Quaoar']; multi=True; strict=False
         cross H Vesta–J Transpluto RA 105.4660 Dec 0.0797
         sky Venus -> H Vesta GC 165.00214 = 165
         sky Quaoar -> H Vesta Flat 127.00000 = 127
@@ -507,14 +507,14 @@
         sky Quaoar on H Quaoar RA 2.3135 Dec 0.0280 RETURN
         sky Sun -> J Quaoar RA 61.00091 = 61
         sky Pallas on J Quaoar RA 123.0302 Dec 0.4503 near
-   [ 1] cross link struck on both ends (HUB)  roots 9  bodies=['H Orcus', 'J Venus']; link=cross H Orcus–J Venus RA 178.8234 Dec 0.0657; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Chiron', 'Rahu', 'Sun', 'Transpluto']; strikers_jockey_end=['Gonggong', 'Rahu', 'Venus']; same_sky_both_ends=['Rahu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 9  bodies=['H Orcus', 'J Venus']; link=cross H Orcus–J Venus RA 178.8234 Dec 0.0657; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Chiron', 'Rahu', 'Sun', 'Transpluto']; strikers_jockey_end=['Gonggong', 'Rahu', 'Venus']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Orcus–J Venus RA 178.8234 Dec 0.0657
         sky Sun -> H Orcus Dec 5.11085 = 46/9
         sky Chiron -> H Orcus GC 130.99731 = 131
         sky Rahu on H Orcus RA 174.1242 Dec 0.1614
         sky Transpluto on H Orcus RA 0.0182 Dec 21.6232
         sky Venus -> J Venus RA 123.33361 = 1110/9
-   [ 1] cross link struck on both ends (HUB)  roots 7  bodies=['H Orcus', 'J Chiron']; link=cross H Orcus–J Chiron RA 154.1553 Dec 0.2435; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Chiron', 'Rahu', 'Sun', 'Transpluto']; strikers_jockey_end=['Rahu']; same_sky_both_ends=['Rahu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 7  bodies=['H Orcus', 'J Chiron']; link=cross H Orcus–J Chiron RA 154.1553 Dec 0.2435; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Chiron', 'Rahu', 'Sun', 'Transpluto']; strikers_jockey_end=['Rahu']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Orcus–J Chiron RA 154.1553 Dec 0.2435
         sky Sun -> H Orcus Dec 5.11085 = 46/9
         sky Chiron -> H Orcus GC 130.99731 = 131

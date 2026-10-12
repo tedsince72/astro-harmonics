@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "7 Not Available / 7 Stan Sheppard",
  "workbook": "newbury_1350_20211126__P09.xlsx",
  "bodies": {
@@ -925,8 +925,7 @@
      "hj_ratios:11"
     ],
     "X": [
-     "links:75",
-     "links:108"
+     "links:75"
     ]
    },
    "near_unjoined": [],
@@ -1511,7 +1510,6 @@
     "hj_ratios:1",
     "hj_ratios:16",
     "hj_ratios:5",
-    "links:108",
     "pair_family:44",
     "pair_family:48",
     "pair_family:56",
@@ -8080,7 +8078,7 @@
     "Ketu"
    ],
    "same_sky_both_ends": [
-    "Ketu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -8538,25 +8536,6 @@
    "hub": true,
    "strong_hub": false,
    "pair": "Neptune/Pluto",
-   "strict": true
-  },
-  {
-   "shape": 6,
-   "name": "swap",
-   "items": [
-    "links:95",
-    "links:94"
-   ],
-   "roots_behind": 2,
-   "bodies": [
-    "H Ketu",
-    "J Rahu",
-    "H Rahu",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": false,
-   "pair": "Ketu/Rahu",
    "strict": true
   },
   {

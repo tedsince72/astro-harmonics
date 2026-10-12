@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "5 Venturous / 5 Connor Beasley",
  "workbook": "newcastle_aw_1330_20220102__P09.xlsx",
  "bodies": {
@@ -1300,8 +1300,7 @@
      "hj_ratios:18"
     ],
     "X": [
-     "links:80",
-     "links:82"
+     "links:80"
     ]
    },
    "near_unjoined": [],
@@ -1471,7 +1470,6 @@
     "X": [
      "links:80",
      "links:81",
-     "links:82",
      "links:83"
     ]
    },
@@ -9334,9 +9332,10 @@
     "Ketu"
    ],
    "same_sky_both_ends": [
-    "Juno"
+    "Juno",
+    "Node"
    ],
-   "multi": false,
+   "multi": true,
    "strict": false
   },
   {
@@ -10274,7 +10273,6 @@
   "links:79:Flat": "cross H Vesta\u2013J Saturn Flat 100.99632 = 101",
   "links:80": "cross H Rahu\u2013J Rahu RA 1.8697 Dec 0.5164 near",
   "links:81": "cross H Ketu\u2013J Mercury RA 95.0442 Dec 0.3463 near",
-  "links:82": "cross H Ketu\u2013J Ketu RA 1.8697 Dec 0.5164 near",
   "links:83": "cross H Ketu\u2013J Sedna RA 0.1917 Dec 12.2715",
   "links:84": "cross H Eris\u2013J Pallas RA 26.5383 Dec 0.0682",
   "links:85": "cross H Eris\u2013J Eris RA 1.6049 Dec 4.6797 near",

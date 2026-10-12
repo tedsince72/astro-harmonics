@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "6 Scandinavia / 6 Tom Marquand",
  "workbook": "newmarket_july_1745_20240816__P11.xlsx",
  "bodies": {
@@ -9379,7 +9379,9 @@
     "Rahu",
     "Sedna"
    ],
-   "same_sky_both_ends": [],
+   "same_sky_both_ends": [
+    "Node"
+   ],
    "multi": false,
    "strict": false
   },

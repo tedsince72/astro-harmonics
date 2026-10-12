@@ -11,7 +11,7 @@ Reads docs/classic/<RACE>/layer1/P*.json and layer2/P*.json. Describes, does not
 Rahu and Ketu are folded into one 'Node' per chart for hubs and webs (items keep their own names).
 Output: docs/classic/<RACE>/layer3/P*.json, P*.txt"""
 import sys, os, glob, json, math, itertools
-VERSION = 'L3 v1.1 (12 Oct 2026)'
+VERSION = 'L3 v1.2 (12 Oct 2026)'
 SPLIT_TOL = 0.25      # % for shape 10
 SKY_PAIR_GC = 5.0     # shape 3
 NODE_SHARED = 3.0     # shape 9
@@ -106,8 +106,10 @@ def run(I, T):
                 a, b = s['pair'].split('–')
                 for c in 'HJ':
                     for x in (a, b): add(f'{c} {x}', 'S', iid, near)
+    tight_bodies = {b for b, K in kinds.items() if any(not n for its in K.values() for _, n in its)}
     for iid, a, b, kind, cn, lab in links:
         if kind == 'cross' and cn in ('close', 'near') and is_root(iid):
+            if cn == 'near' and not (nb(a) in tight_bodies and nb(b) in tight_bodies): continue   # near link joins only if both ends are already in
             add(a, 'X', iid, cn == 'near'); add(b, 'X', iid, cn == 'near')
     # near admitted only when the body already has a tight kind
     body_kinds = {}
@@ -178,7 +180,7 @@ def run(I, T):
             t = tags.get(iid, {})
             if t.get('tag') == 'duplicate' and t.get('of'): out |= roots_of([t['of']]); continue
             if t.get('tag') == 'derived' and 'chain' in t: out |= roots_of([c['id'] for c in t['chain'] if not c['id'].startswith(('axis', 'sky:'))])
-            elif t.get('tag') == 'root': out.add(iid)
+            elif t.get('tag') == 'root': out.add(':'.join(iid.split(':')[:2]) if iid.startswith('links:') else iid)   # a link's close fact and its numbers = one root
         return out
     shapes = []
     def strict_item(iid):
@@ -205,7 +207,7 @@ def run(I, T):
         xa, xb = a.split(' ', 1)[1], b.split(' ', 1)[1]
         A, B = by_target.get(a, []), by_target.get(b, [])
         if A and B:
-            both = sorted({s for s, _ in A} & {s for s, _ in B})
+            both = sorted({fold(x) for x, _ in A} & {fold(x) for x, _ in B})
             SA = {fold(s_) for s_, i in A if strict_item(i)}; SB = {fold(s_) for s_, i in B if strict_item(i)}
             sboth = sorted(SA & SB) if strict_item(iid) else []
             shape(1, 'cross link struck on both ends', [iid] + [i for _, i in A + B], bodies=[a, b], link=desc[iid],
@@ -223,7 +225,7 @@ def run(I, T):
     cset = {(a, b): iid for iid, a, b, cn in cross}
     for (a, b), iid in cset.items():
         xa, xb = a.split(' ', 1)[1], b.split(' ', 1)[1]
-        if xa < xb and (f'H {xb}', f'J {xa}') in cset:
+        if xa < xb and fold(xa) != fold(xb) and (f'H {xb}', f'J {xa}') in cset:
             shape(6, 'swap', [iid, cset[(f'H {xb}', f'J {xa}')]], bodies=[a, b, f'H {xb}', f'J {xa}'], pair=f'{xa}/{xb}')
     # 7 triangle: three natal bodies pairwise linked (close/near or number), one sky body on all three corners
     nbr = {}

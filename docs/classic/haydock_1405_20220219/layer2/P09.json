@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "5 Wholestone / 5 Sam Twiston-Davies",
  "workbook": "haydock_1405_20220219__P09.xlsx",
  "tags": {
@@ -833,6 +833,10 @@
     }
    ]
   },
+  "links:99": {
+   "tag": "mirror",
+   "of": "links:91"
+  },
   "strikes:14": {
    "tag": "duplicate",
    "of": "movement:4"
@@ -1117,10 +1121,6 @@
   "links:98:GC": {
    "tag": "root",
    "plane": "GC"
-  },
-  "links:99": {
-   "tag": "root",
-   "what": "close/near"
   },
   "links:100:Flat": {
    "tag": "root",
@@ -2573,9 +2573,9 @@
    "root": 2
   },
   "links": {
-   "root": 120,
+   "root": 119,
    "derived": 5,
-   "mirror": 2
+   "mirror": 3
   },
   "movement": {
    "root": 14

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "1 Biscoff Joe / 1 Gearoid Harney",
  "workbook": "fontwell_1530_20231006__P01.xlsx",
  "bodies": {
@@ -1301,8 +1301,7 @@
     ],
     "X": [
      "links:68",
-     "links:70",
-     "links:71"
+     "links:70"
     ]
    },
    "near_unjoined": [],
@@ -1386,7 +1385,6 @@
     ],
     "X": [
      "links:68",
-     "links:71",
      "links:89"
     ]
    },
@@ -9708,78 +9706,6 @@
    "shape": 1,
    "name": "cross link struck on both ends",
    "items": [
-    "links:71",
-    "strikes:24",
-    "strikes:25",
-    "strikes:26",
-    "contacts:6",
-    "strikes:67",
-    "contacts:24"
-   ],
-   "roots_behind": 6,
-   "bodies": [
-    "H Ketu",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": false,
-   "link": "cross H Ketu\u2013J Ketu RA 4.0353 Dec 0.0320",
-   "strict_same_sky_both_ends": [],
-   "strict_multi": false,
-   "strikers_horse_end": [
-    "Haumea",
-    "Ketu",
-    "Pluto",
-    "Quaoar"
-   ],
-   "strikers_jockey_end": [
-    "Neptune",
-    "Pluto"
-   ],
-   "same_sky_both_ends": [
-    "Pluto"
-   ],
-   "multi": false,
-   "strict": false
-  },
-  {
-   "shape": 2,
-   "name": "partner strike",
-   "items": [
-    "links:71",
-    "strikes:24"
-   ],
-   "roots_behind": 2,
-   "bodies": [
-    "H Ketu",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": false,
-   "link": "cross H Ketu\u2013J Ketu RA 4.0353 Dec 0.0320",
-   "strict": true
-  },
-  {
-   "shape": 5,
-   "name": "movement onto a cross link",
-   "items": [
-    "links:71",
-    "movement:4"
-   ],
-   "roots_behind": 2,
-   "bodies": [
-    "H Ketu"
-   ],
-   "hub": true,
-   "strong_hub": false,
-   "link": "cross H Ketu\u2013J Ketu RA 4.0353 Dec 0.0320",
-   "moved": "H Ketu",
-   "strict": true
-  },
-  {
-   "shape": 1,
-   "name": "cross link struck on both ends",
-   "items": [
     "links:77",
     "strikes:29",
     "strikes:30",
@@ -11368,7 +11294,6 @@
   "links:68": "cross H Rahu\u2013J Rahu RA 4.0353 Dec 0.0320",
   "links:69:Flat": "cross H Rahu\u2013J Transpluto Flat 60.00105 = 60",
   "links:70": "cross H Ketu\u2013J Mars RA 1.6710 Dec 3.3956 near",
-  "links:71": "cross H Ketu\u2013J Ketu RA 4.0353 Dec 0.0320",
   "links:72:RA": "cross H Eris\u2013J Mercury RA 165.00020 = 165",
   "links:73:Flat": "cross H Eris\u2013J Eris Flat 5.44459 = 49/9",
   "links:74:RA": "cross H Eris\u2013J Sedna RA 21.88924 = 197/9",

@@ -1,4 +1,4 @@
-== 3 Kilcummin / 3 David Noonan   [fontwell_1530_20231006__P05.xlsx, L3 v1.1 (12 Oct 2026)]
+== 3 Kilcummin / 3 David Noonan   [fontwell_1530_20231006__P05.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Juno
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Juno         BPRSX  tight 5
@@ -15,7 +15,6 @@
         S: horse:jockey Jupiter–Juno Dec H 17.9427 J 9.7880 11/6 near
         S: horse:jockey Pluto–Juno RA H 94.0780 J 26.1334 18/5
         S: horse:jockey Juno–Gonggong GC H 132.2566 J 62.6527 19/9 near
-        X: cross H Juno–J Sun RA 11.2713 Dec 0.3480 near
         X: cross H Juno–J Venus RA 0.1879 Dec 3.4023
    H Vesta        EMPRSX  tight 4  (near joined: ES)
         E: Equator Vesta S/H 3/2 (0.0479%) near
@@ -450,7 +449,7 @@
         sky Ketu on H Juno RA 1.5827 Dec 4.9020 near
         sky Makemake on H Juno RA 1.8293 Dec 25.8693 near
         sky Sun on J Sun RA 1.7532 Dec 0.7405 RETURN near
-   [ 1] cross link struck on both ends (STRONG HUB)  roots 10  bodies=['H Juno', 'J Venus']; link=cross H Juno–J Venus RA 0.1879 Dec 3.4023; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ketu', 'Makemake', 'Mercury', 'Sun']; strikers_jockey_end=['Ceres', 'Haumea', 'Ketu', 'Orcus']; same_sky_both_ends=['Ketu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (STRONG HUB)  roots 10  bodies=['H Juno', 'J Venus']; link=cross H Juno–J Venus RA 0.1879 Dec 3.4023; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ketu', 'Makemake', 'Mercury', 'Sun']; strikers_jockey_end=['Ceres', 'Haumea', 'Ketu', 'Orcus']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Juno–J Venus RA 0.1879 Dec 3.4023
         sky Mercury -> H Juno Flat 18.99594 = 19
         sky Sun on H Juno RA 9.5182 Dec 0.3925 near

@@ -1,4 +1,4 @@
-== 4 Regional / 4 Daniel Tudhope   [newcastle_aw_1330_20220102__P07.xlsx, L3 v1.1 (12 Oct 2026)]
+== 4 Regional / 4 Daniel Tudhope   [newcastle_aw_1330_20220102__P07.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): J Ceres, H Orcus, J Orcus
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    J Ceres        BMPRSX  tight 6
@@ -638,14 +638,14 @@
    [ 5] movement onto a cross link (STRONG HUB)  roots 2  bodies=['H Orcus']; link=cross H Orcus–J Eris RA 131.5705 Dec 0.5888 near; moved=H Orcus; strict=False
         cross H Orcus–J Eris RA 131.5705 Dec 0.5888 near
         H Orcus moved Dec 1.99276 = 2
-   [ 7] triangle struck at every corner by one sky body (HUB)  roots 5  bodies=['H Rahu', 'J Mars', 'J Rahu']; corners=['H Rahu', 'J Mars', 'J Rahu']; sky=Eris; strict=True
+   [ 7] triangle struck at every corner by one sky body (HUB)  roots 4  bodies=['H Rahu', 'J Mars', 'J Rahu']; corners=['H Rahu', 'J Mars', 'J Rahu']; sky=Eris; strict=True
         cross H Rahu–J Mars Dec 23.99852 = 24
         cross H Rahu–J Rahu Dec 1.99893 = 2
         J J Mars–J Rahu RA 164.11067 = 1477/9
         sky Eris -> H Rahu Dec 17.99974 = 18
         sky Eris -> J Mars Dec 5.99878 = 6
         sky Eris -> J Rahu Dec 16.00081 = 16
-   [ 7] triangle struck at every corner by one sky body (HUB)  roots 5  bodies=['H Rahu', 'J Mars', 'J Rahu']; corners=['H Rahu', 'J Mars', 'J Rahu']; sky=Gonggong; strict=True
+   [ 7] triangle struck at every corner by one sky body (HUB)  roots 4  bodies=['H Rahu', 'J Mars', 'J Rahu']; corners=['H Rahu', 'J Mars', 'J Rahu']; sky=Gonggong; strict=True
         cross H Rahu–J Mars Dec 23.99852 = 24
         cross H Rahu–J Rahu Dec 1.99893 = 2
         J J Mars–J Rahu RA 164.11067 = 1477/9
@@ -792,7 +792,7 @@
         sky Mercury on J Sun RA 54.8552 Dec 0.1157
         sky Mercury on J Gonggong RA 24.9321 Dec 0.1214
         sky Vesta on J Gonggong RA 62.8405 Dec 0.5096 near
-   [12] pair in one chart struck on both ends by 2+ sky bodies (HUB)  roots 5  bodies=['J Mars', 'J Rahu']; link=J J Mars–J Rahu RA 164.11067 = 1477/9; sky=['Eris', 'Gonggong']; strict_sky=['Eris', 'Gonggong']; strict_multi=True; strict=True
+   [12] pair in one chart struck on both ends by 2+ sky bodies (HUB)  roots 4  bodies=['J Mars', 'J Rahu']; link=J J Mars–J Rahu RA 164.11067 = 1477/9; sky=['Eris', 'Gonggong']; strict_sky=['Eris', 'Gonggong']; strict_multi=True; strict=True
         J J Mars–J Rahu RA 164.11067 = 1477/9
         sky Eris -> J Mars Dec 5.99878 = 6
         sky Gonggong -> J Mars Dec 3.99770 = 4

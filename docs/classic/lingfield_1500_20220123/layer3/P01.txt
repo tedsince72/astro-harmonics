@@ -1,4 +1,4 @@
-== 1 Bristol De Mai / 1 Sam Twiston-Davies   [lingfield_1500_20220123__P01.xlsx, L3 v1.1 (12 Oct 2026)]
+== 1 Bristol De Mai / 1 Sam Twiston-Davies   [lingfield_1500_20220123__P01.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Haumea, H Makemake, H Gonggong, J Mercury, J Pallas
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Haumea       BMPRS  tight 5
@@ -77,7 +77,6 @@
         X: cross H Rahu–J Uranus RA 22.8389 Dec 0.1883
         X: cross H Rahu–J Rahu RA 0.1142 Dec 0.0029
         X: cross H Ketu–J Mars RA 25.6392 Dec 0.1603
-        X: cross H Ketu–J Ketu RA 0.1142 Dec 0.0029
    J Node         BPRSX  tight 4  (near joined: S)
         B: same-body Rahu EqValue 7/6 : 1 : 7/6 (worst 0.1281%)
         P: sky Pluto -> J Rahu Dec 0.66711 = 6/9
@@ -88,7 +87,6 @@
         R: J Sun–Ketu RA J Sun – sky Ketu 35.9406 vs NN 118.1061 23/7 (0.0132%) near
         S: horse:jockey Jupiter–Rahu GC H 123.2051 J 82.1484 3/2 near
         X: cross H Rahu–J Rahu RA 0.1142 Dec 0.0029
-        X: cross H Ketu–J Ketu RA 0.1142 Dec 0.0029
         X: cross H Quaoar–J Rahu RA 0.7346 Dec 7.8509
    J Haumea       BPRSX  tight 4  (near joined: R)
         B: same-body Haumea Dec 3/2 : 5/3 : 5/2 (worst 0.1080%)
@@ -503,7 +501,7 @@
         sky Pallas -> J Haumea GC 162.99519 = 163
         sky Vesta -> J Haumea GC 94.99574 = 95
         sky Makemake on J Haumea RA 9.2719 Dec 0.4471 near
-   [ 1] cross link struck on both ends (STRONG HUB)  roots 11  bodies=['H Gonggong', 'J Quaoar']; link=cross H Gonggong–J Quaoar RA 98.6433 Dec 0.0818; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Gonggong', 'Ketu', 'Rahu', 'Transpluto']; strikers_jockey_end=['Ceres', 'Haumea', 'Ketu', 'Orcus']; same_sky_both_ends=['Ketu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (STRONG HUB)  roots 11  bodies=['H Gonggong', 'J Quaoar']; link=cross H Gonggong–J Quaoar RA 98.6433 Dec 0.0818; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Gonggong', 'Ketu', 'Rahu', 'Transpluto']; strikers_jockey_end=['Ceres', 'Haumea', 'Ketu', 'Orcus']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Gonggong–J Quaoar RA 98.6433 Dec 0.0818
         sky Rahu -> H Gonggong Dec 33.77741 = 304/9
         sky Rahu -> H Gonggong GC 86.99567 = 87

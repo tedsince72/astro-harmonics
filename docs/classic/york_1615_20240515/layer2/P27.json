@@ -1,5 +1,5 @@
 {
- "version": "L2 v1.1 (12 Oct 2026)",
+ "version": "L2 v1.2 (12 Oct 2026)",
  "runner": "14 Misemerald / 14 Andrew Mullen",
  "workbook": "york_1615_20240515__P27.xlsx",
  "tags": {
@@ -806,6 +806,10 @@
    "tag": "root",
    "plane": "RA"
   },
+  "links:96": {
+   "tag": "mirror",
+   "of": "links:88"
+  },
   "strikes:1": {
    "tag": "duplicate",
    "of": "movement:0"
@@ -1162,10 +1166,6 @@
   "links:95:Flat": {
    "tag": "root",
    "plane": "Flat"
-  },
-  "links:96": {
-   "tag": "root",
-   "what": "close/near"
   },
   "links:98:GC": {
    "tag": "root",
@@ -2521,9 +2521,9 @@
    "race_level": 2
   },
   "links": {
-   "root": 123,
+   "root": 122,
    "derived": 4,
-   "mirror": 2
+   "mirror": 3
   },
   "movement": {
    "root": 17

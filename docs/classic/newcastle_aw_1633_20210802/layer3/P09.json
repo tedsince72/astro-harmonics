@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "5 Pallas Dancer / 5 Ben Robinson",
  "workbook": "20210802_newcastle_aw_1633__P09.xlsx",
  "bodies": {
@@ -8485,7 +8485,7 @@
     "Rahu"
    ],
    "same_sky_both_ends": [
-    "Rahu"
+    "Node"
    ],
    "multi": false,
    "strict": false
@@ -9551,33 +9551,6 @@
    "shape": 7,
    "name": "triangle struck at every corner by one sky body",
    "items": [
-    "links:71:Dec",
-    "links:73:Dec",
-    "links:39:Dec",
-    "strikes:23",
-    "strikes:60",
-    "strikes:70"
-   ],
-   "roots_behind": 4,
-   "bodies": [
-    "H Ketu",
-    "J Ceres",
-    "J Ketu"
-   ],
-   "hub": true,
-   "strong_hub": true,
-   "corners": [
-    "H Ketu",
-    "J Ceres",
-    "J Ketu"
-   ],
-   "sky": "Quaoar",
-   "strict": true
-  },
-  {
-   "shape": 7,
-   "name": "triangle struck at every corner by one sky body",
-   "items": [
     "links:19:Dec",
     "links:97:Dec",
     "links:81:Dec",
@@ -10281,7 +10254,6 @@
   "links:70": "cross H Ketu\u2013J Jupiter RA 3.6454 Dec 0.4012 near",
   "links:71:Dec": "cross H Ketu\u2013J Ceres Dec 3.33292 = 30/9",
   "links:72:Flat": "cross H Ketu\u2013J Rahu Flat 168.99579 = 169",
-  "links:73:Dec": "cross H Ketu\u2013J Ketu Dec 4.66618 = 42/9",
   "links:74": "cross H Ketu\u2013J Gonggong RA 1.4169 Dec 5.5003",
   "links:75:Flat": "cross H Eris\u2013J Mercury Flat 73.99634 = 74",
   "links:76": "cross H Eris\u2013J Juno RA 159.5917 Dec 0.1706",

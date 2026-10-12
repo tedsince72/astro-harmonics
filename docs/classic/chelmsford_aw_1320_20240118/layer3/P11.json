@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.1 (12 Oct 2026)",
+ "version": "L3 v1.2 (12 Oct 2026)",
  "runner": "6 Foinix / 6 Dylan Hogan",
  "workbook": "chelmsford_aw_1320_20240118__P11.xlsx",
  "bodies": {
@@ -9286,9 +9286,10 @@
     "Rahu"
    ],
    "same_sky_both_ends": [
-    "Makemake"
+    "Makemake",
+    "Node"
    ],
-   "multi": false,
+   "multi": true,
    "strict": false
   },
   {

@@ -1,4 +1,4 @@
-== 2 Zambella / 2 Daryl Jacob   [perth_1610_20220420__P03.xlsx, L3 v1.1 (12 Oct 2026)]
+== 2 Zambella / 2 Daryl Jacob   [perth_1610_20220420__P03.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): H Jupiter, H Mercury
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Jupiter      BEPRSX  tight 6
@@ -498,14 +498,14 @@
         cross H Mars–J Juno RA 0.8863 Dec 6.7511
         sky Chiron -> H Mars Flat 24.33378 = 219/9
         sky Chiron on J Juno RA 22.4611 Dec 0.1068
-   [ 1] cross link struck on both ends (STRONG HUB)  roots 8  bodies=['H Jupiter', 'J Vesta']; link=cross H Jupiter–J Vesta RA 57.3192 Dec 0.1920; strict_same_sky_both_ends=['Gonggong']; strict_multi=False; strikers_horse_end=['Gonggong', 'Makemake', 'Rahu']; strikers_jockey_end=['Ceres', 'Gonggong', 'Pallas', 'Rahu']; same_sky_both_ends=['Gonggong', 'Rahu']; multi=True; strict=False
+   [ 1] cross link struck on both ends (STRONG HUB)  roots 8  bodies=['H Jupiter', 'J Vesta']; link=cross H Jupiter–J Vesta RA 57.3192 Dec 0.1920; strict_same_sky_both_ends=['Gonggong']; strict_multi=False; strikers_horse_end=['Gonggong', 'Makemake', 'Rahu']; strikers_jockey_end=['Ceres', 'Gonggong', 'Pallas', 'Rahu']; same_sky_both_ends=['Gonggong', 'Node']; multi=True; strict=False
         cross H Jupiter–J Vesta RA 57.3192 Dec 0.1920
         sky Makemake -> H Jupiter Flat 63.33284 = 570/9
         sky Gonggong -> H Jupiter GC 157.44413 = 1417/9
         sky Rahu on H Jupiter RA 85.2341 Dec 0.3425 near
         sky Pallas -> J Vesta RA 48.99922 = 49
         sky Gonggong -> J Vesta GC 103.22269 = 929/9
-   [ 1] cross link struck on both ends (HUB)  roots 4  bodies=['H Saturn', 'J Uranus']; link=cross H Saturn–J Uranus RA 0.8859 Dec 2.2712; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ketu']; strikers_jockey_end=['Ketu']; same_sky_both_ends=['Ketu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 4  bodies=['H Saturn', 'J Uranus']; link=cross H Saturn–J Uranus RA 0.8859 Dec 2.2712; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Ketu']; strikers_jockey_end=['Ketu']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Saturn–J Uranus RA 0.8859 Dec 2.2712
         sky Ketu on H Saturn RA 12.6716 Dec 0.5062 near
         sky Ketu -> J Uranus Dec 2.77735 = 25/9
@@ -569,7 +569,7 @@
         sky Rahu on H Haumea RA 160.6682 Dec 0.4303 near
         sky Neptune -> J Chiron Flat 70.00020 = 70
         sky Sedna -> J Chiron RA 3.00344 = 3
-   [ 1] cross link struck on both ends (HUB)  roots 7  bodies=['H Haumea', 'J Vesta']; link=cross H Haumea–J Vesta RA 132.7533 Dec 0.1042; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Rahu', 'Sun']; strikers_jockey_end=['Ceres', 'Gonggong', 'Pallas', 'Rahu']; same_sky_both_ends=['Rahu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (HUB)  roots 7  bodies=['H Haumea', 'J Vesta']; link=cross H Haumea–J Vesta RA 132.7533 Dec 0.1042; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Rahu', 'Sun']; strikers_jockey_end=['Ceres', 'Gonggong', 'Pallas', 'Rahu']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Haumea–J Vesta RA 132.7533 Dec 0.1042
         sky Sun -> H Haumea Flat 177.66684 = 1599/9
         sky Rahu on H Haumea RA 160.6682 Dec 0.4303 near

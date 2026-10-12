@@ -1,4 +1,4 @@
-== 5 Pallas Dancer / 5 Ben Robinson   [20210802_newcastle_aw_1633__P09.xlsx, L3 v1.1 (12 Oct 2026)]
+== 5 Pallas Dancer / 5 Ben Robinson   [20210802_newcastle_aw_1633__P09.xlsx, L3 v1.2 (12 Oct 2026)]
 -- strong hubs (5+ tight kinds): J Juno, J Node, J Haumea
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    J Juno         BMPRSX  tight 6
@@ -452,7 +452,7 @@
       J Juno .. J Vesta: shared Juno–Vesta RA H 155.1290 J 155.8993
       J Juno .. J Eris: splits:53
 -- shapes
-   [ 1] cross link struck on both ends (STRONG HUB)  roots 6  bodies=['H Sun', 'J Haumea']; link=cross H Sun–J Haumea RA 132.4025 Dec 0.2804; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Rahu']; strikers_jockey_end=['Eris', 'Jupiter', 'Makemake', 'Rahu']; same_sky_both_ends=['Rahu']; multi=False; strict=False
+   [ 1] cross link struck on both ends (STRONG HUB)  roots 6  bodies=['H Sun', 'J Haumea']; link=cross H Sun–J Haumea RA 132.4025 Dec 0.2804; strict_same_sky_both_ends=[]; strict_multi=False; strikers_horse_end=['Rahu']; strikers_jockey_end=['Eris', 'Jupiter', 'Makemake', 'Rahu']; same_sky_both_ends=['Node']; multi=False; strict=False
         cross H Sun–J Haumea RA 132.4025 Dec 0.2804
         sky Rahu on H Sun RA 3.6202 Dec 0.5741 near
         sky Jupiter -> J Haumea RA 136.00325 = 136
@@ -669,13 +669,6 @@
         sky Jupiter on H Gonggong RA 4.7757 Dec 0.5779 near
         sky Jupiter on H Ketu RA 1.7301 Dec 0.5921 near
         sky Jupiter on J Jupiter RA 1.9154 Dec 0.9932 RETURN near
-   [ 7] triangle struck at every corner by one sky body (STRONG HUB)  roots 4  bodies=['H Ketu', 'J Ceres', 'J Ketu']; corners=['H Ketu', 'J Ceres', 'J Ketu']; sky=Quaoar; strict=True
-        cross H Ketu–J Ceres Dec 3.33292 = 30/9
-        cross H Ketu–J Ketu Dec 4.66618 = 42/9
-        J J Ceres–J Ketu Dec 1.33326 = 12/9
-        sky Quaoar -> H Ketu Dec 3.00053 = 3
-        sky Quaoar -> J Ceres Dec 6.33344 = 57/9
-        sky Quaoar -> J Ketu Dec 7.66671 = 69/9
    [ 7] triangle struck at every corner by one sky body (HUB)  roots 4  bodies=['H Orcus', 'H Sedna', 'J Transpluto']; corners=['H Orcus', 'H Sedna', 'J Transpluto']; sky=Rahu; strict=False
         H H Sedna–H Orcus Dec 16.77751 = 151/9
         cross H Orcus–J Transpluto Dec 22.33327 = 201/9
