@@ -1,0 +1,144 @@
+== newcastle_aw_1628_20261012  field of 7   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
+-- runners: P01 1 Mac's Max / 1 Andrew Mullen; P03 2 Ella Beach / 2 Daniel Tudhope; P05 3 Indhaar / 3 Harry Davies; P07 4 Medran / 4 Oliver Stammers; P09 5 Petworth / 5 P J McDonald; P11 6 Tropbien / 6 Saffie Osborne; P13 7 Brittunculi / 7 William Pyle
+-- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: P09 (t 0.170), P13 (t 0.998)
+   [15] pair set H:J:S: P13 (t 0.290), P11 (t 0.800), P07 (t 0.872)
+[ 1] cross link struck on both ends by 2+ sky bodies
+     none in the field
+[ 2] cross link struck on both ends (one body, or one per end)
+     strict 7 of 7: P07(t 0.140, x8)  P13(t 0.159, x12)  P11(t 0.250, x6)  P03(t 0.280, x8)  P05(t 0.360, x7)  P09(t 0.374, x9)  P01(t 0.800, x7)
+            tightest P07: H Mars – J Jupiter RA 38.1424 Dec 0.0193 (one per end) — sky Saturn -> H Mars Flat 108.88896 (980/9) | sky Gonggong -> J Jupiter Dec 33.00041 (33)
+     near   7 of 7: P13(t 1.006, x5)  P01(t 1.021, x3)  P07(t 1.036, x8)  P05(t 1.092, x7)  P03(t 1.316, x2)  P09(t 1.445, x3)  P11(t 1.457, x4)
+            tightest P13: H Makemake – J Rahu RA 122.1857 Dec 0.3019 (near band) (one per end) — sky Neptune -> H Makemake Dec 22.99871 (23) | sky Saturn -> J Rahu RA 66.00136 (66)
+[ 3] partner strike
+     strict 7 of 7: P09(t 0.160, x1)  P11(t 0.160, x6)  P07(t 0.548, x2)  P01(t 0.560, x3)  P05(t 0.768, x2)  P03(t 0.875, x1)  P13(t 0.965, x1)
+            tightest P09: H Pluto – J Ketu RA 15.9109 Dec 0.0275 — partner sky Ketu -> H Pluto Flat 154.33341 (1389/9)
+     near   6 of 7: P01(t 1.073, x1)  P03(t 1.396, x1)  P05(t 1.456, x2)  P11(t 1.457, x2)  P09(t 1.713, x1)  P13(t 1.808, x1)
+            tightest P01: H Makemake – J Rahu RA 123.1044 Dec 0.3218 (near band) — partner sky Makemake -> J Rahu Dec 3.00047 (3)
+[ 4] cross-link pair together in the sky
+     near   4 of 7: P01(t 0.255, x1)  P07(t 0.883, x1)  P03(t 0.890, x1)  P13(t 0.890, x1)
+            tightest P01: H Mercury – J Haumea RA 124.1413 Dec 0.0765 — sky Mercury–Haumea close in RA only: GC 32.3571 RA 0.3642 Dec 32.3551
+[ 5] both ends of a cross link moved
+     strict 2 of 7: P05(t 0.893, x1)  P11(t 0.907, x1)
+            tightest P05: H Ceres – J Rahu RA 162.9534 Dec 0.2678 — H Ceres moved Flat 82.55550 (743/9) | J Rahu moved GC 62.99533 (63)
+     near   ONLY P13: P13(t 1.938, x1)
+            tightest P13: H Transpluto – J Juno RA 3.4269 Dec 0.5816 (near band) — H Transpluto moved RA 2.00182 (2) | J Juno moved RA 139.99644 (140)
+[ 6] movement onto a cross link
+     strict 5 of 7: P01(t 0.182, x8)  P13(t 0.356, x4)  P03(t 0.492, x9)  P05(t 0.664, x5)  P11(t 0.907, x2)
+            tightest P01: H Makemake moved GC 4.77758 (43/9) — on H Makemake – J Haumea RA 15.6512 Dec 0.0360
+     near   6 of 7: P01(t 1.021, x4)  P05(t 1.092, x5)  P03(t 1.201, x3)  P13(t 1.232, x3)  P11(t 1.512, x1)  P09(t 1.713, x2)
+            tightest P01: H Sun moved RA 159.11031 (1432/9) — on H Sun – J Transpluto RA 104.2286 Dec 0.3063 (near band)
+[ 7] swap
+     strict ONLY P13: P13(t 0.809, x1)
+            tightest P13: swap Node/Pluto: H Ketu – J Pluto RA 44.1185 Dec 0.0662; H Pluto – J Ketu RA 46.2528 Dec 0.2426
+     near   2 of 7: P01(t 1.326, x1)  P13(t 1.938, x1)
+            tightest P01: swap Ceres/Vesta: H Ceres – J Vesta RA 1.9889 Dec 7.9302 (near band); H Vesta – J Ceres RA 1.8459 Dec 8.8062 (near band)
+[ 8] triangle struck at every corner by one sky body
+     strict ONLY P13: P13(t 0.300, x4)
+            tightest P13: triangle H Quaoar / J Ketu / J Mars [one plane (Dec)]: H Quaoar–J Ketu Dec 7.77767 (70/9, ninth), H Quaoar–J Mars Dec 37.77793 (340/9, ninth), J Ketu–J Mars Dec 45.55560 (410/9, ninth) [3 ninth sides] — sky Vesta: sky Vesta -> H Quaoar Dec 11.77775 (106/9); sky Vesta -> J Ketu Dec 19.55542 (176/9); sky Vesta -> J Mars Dec 26.00017 (26)
+[ 9] pair in one chart struck on both ends by one sky body
+     strict 7 of 7: P03(t 0.120, x7)  P13(t 0.260, x8)  P09(t 0.296, x9)  P07(t 0.360, x5)  P11(t 0.374, x8)  P01(t 0.460, x10)  P05(t 0.500, x8)
+            tightest P03: J Pluto–Haumea RA 34.77776 = 313/9 struck by 1 sky body — Sedna: sky Sedna -> J Pluto RA 156.88893 (1412/9) | sky Sedna -> J Haumea RA 122.11117 (1099/9)
+[10] pair in one chart struck on both ends by 2+ sky bodies
+     strict 3 of 7: P01(t 0.614, x4)  P13(t 0.900, x2)  P07(t 0.960, x2)
+            tightest P01: J Rahu–Orcus Dec 15.99741 = 16 struck by 2 sky bodies — Gonggong: sky Gonggong -> J Rahu Dec 33.00025 (33) | sky Gonggong -> J Orcus Flat 148.55527 (1337/9); Makemake: sky Makemake -> J Rahu Dec 3.00047 (3) | sky Makemake -> J Orcus Dec 12.99693 (13)
+[11] same number / same ratio in both charts
+     near   ONLY P09: P09(t 1.724, x1)
+            tightest P09: ratio 21/2: H Ceres–Makemake RA (0.0059%) | J Saturn–Eris RA (0.0086%)
+     other  3 of 7: P09(t 0.402, x1)  P07(t 0.956, x1)  P01(t 1.626, x2)
+            tightest P09: ratio 8/7: H Uranus–Quaoar Flat (0.0011%) | J Ceres–Ketu Dec (0.0020%)
+[12] shared node
+     strict ONLY P03: P03(t 0.133, x1)
+            tightest P03: shared node: H Rahu – J Rahu GC 0.3998 RA 0.3900 Dec 0.1311
+[13] shared natal pair
+     strict 7 of 7: P07(t 0.079, x4)  P09(t 0.146, x8)  P01(t 0.185, x4)  P03(t 0.213, x7)  P13(t 0.261, x12)  P11(t 0.269, x7)  P05(t 0.278, x12)
+            tightest P07: shared Rahu–Orcus Dec H 24.6153 J 24.6251 (0.0397%) sky 1.5362 S~H ['16', 0.1451] S~J ['16', 0.1849]
+     other  5 of 7: P05(t 0.011, x2)  P13(t 0.036, x2)  P07(t 0.121, x2)  P11(t 0.352, x2)  P03(t 0.530, x1)
+            tightest P05: shared Gonggong–Transpluto Flat (slow pair: age) H 179.5638 J 179.5735 (0.0054%) sky 180.3792 S~H None S~J None
+[14] shared pair also cross-linked
+     strict 2 of 7: P09(t 0.170, x2)  P13(t 0.998, x2)
+            tightest P09: shared Pluto–Rahu GC (0.0849%) + cross H Pluto – J Ketu RA 15.9109 Dec 0.0275
+     near   ONLY P01: P01(t 1.231, x4)
+            tightest P01: shared Ceres–Vesta Flat (0.3405%) + cross H Vesta – J Ceres RA 1.8459 Dec 8.8062 (near band)
+[15] pair set H:J:S
+     strict 3 of 7: P13(t 0.290, x1)  P11(t 0.800, x1)  P07(t 0.872, x1)
+            tightest P13: pair set Saturn–Rahu Dec H 23.4365 J 0.9764 S 13.6693 -> H:J 24, H:S 12/7, J:S 14 (worst 0.0145%)
+[16] same-body set
+     strict 6 of 7: P13(t 0.119, x3)  P01(t 0.302, x2)  P03(t 0.326, x2)  P05(t 0.543, x3)  P07(t 0.591, x2)  P11(t 0.657, x3)
+            tightest P13: same-body Ceres Dec S–H 8.7223 H–J 19.6287 S–J 28.3510 -> 9/4 : 13/4 : 13/9 (worst 0.0178%)
+[17] same-body Dec 9/4 : 5/4 : 9/5
+     none in the field
+[18] same-body set joined to the web
+     strict 6 of 7: P13(t 0.119, x2)  P01(t 0.302, x2)  P03(t 0.326, x2)  P07(t 0.591, x1)  P05(t 0.621, x2)  P11(t 0.657, x3)
+            tightest P13: same-body Ceres Dec S–H 8.7223 H–J 19.6287 S–J 28.3510 -> 9/4 : 13/4 : 13/9 (worst 0.0178%) — joined by 3: cross H Chiron – J Ceres RA 0.7658 Dec 13.2689; cross H Ceres – J Makemake RA 0.8600 Dec 16.8075; ratio H Sun–Ceres RA 3/2
+     near   3 of 7: P05(t 0.543, x1)  P07(t 0.795, x1)  P13(t 0.929, x1)
+            tightest P05: same-body Orcus RA S–H 3.6340 H–J 14.5478 S–J 18.1817 -> 4 : 5 : 5/4 (worst 0.0814%) — joined by 2: cross H Neptune – J Orcus RA 148.5149 Dec 0.4369 (near band); cross H Vesta – J Orcus RA 139.4870 Dec 0.4418 (near band)
+[19] sky body divides a natal pair (split)
+     strict 7 of 7: P11(t 0.006, x19)  P13(t 0.023, x23)  P09(t 0.032, x6)  P01(t 0.038, x23)  P07(t 0.073, x3)  P03(t 0.088, x8)  P05(t 0.119, x3)
+            tightest P11: H Chiron moved Dec (4) toward H Mars: span 18.45819 = 3.99091 + 14.46728; parts 29/8 (0.0015%)
+[20] natal body at the midpoint of X and sky X
+     strict 7 of 7: P01(t 0.082, x2)  P07(t 0.315, x2)  P03(t 0.432, x3)  P05(t 0.481, x2)  P11(t 0.559, x1)  P09(t 0.859, x1)  P13(t 0.997, x1)
+            tightest P01: J Transpluto at the Dec midpoint of H Haumea and sky Haumea: span 2.4029, midpoint 14.7493, J Transpluto 14.7534, off 0.0041 (other chart)
+     other  5 of 7: P01(t 0.098, x3)  P05(t 0.525, x1)  P11(t 0.541, x2)  P13(t 0.618, x2)  P07(t 0.993, x1)
+            tightest P01: H Venus at the Dec midpoint of H Neptune and sky Neptune: span 2.8821, midpoint -1.8810, H Venus -1.8761, off 0.0049 (same chart)
+     wide   5 of 7: P07(t 0.007, x3)  P01(t 0.044, x3)  P03(t 0.582, x2)  P09(t 0.730, x1)  P13(t 0.913, x1)
+            tightest P07: J Orcus at the Dec midpoint of J Ceres and sky Ceres: span 49.5353, midpoint -1.3529, J Orcus -1.3526, off 0.0004 (same chart)
+[21] soak
+     strict 7 of 7: P13(t 0.149, x25)  P05(t 0.165, x38)  P03(t 0.218, x23)  P11(t 0.234, x31)  P01(t 0.242, x24)  P07(t 0.431, x24)  P09(t 0.512, x20)
+            tightest P13: soak Node ~5.0087: 4 partners, spread 0.0060, nearest whole 5 (+0.0087), nearest ninth 45/9 = 5.0000 (+0.0087) — H Rahu – S Chiron GC 5.0057; H Rahu – H Jupiter GC 5.0094; S Rahu – J Gonggong GC 5.0103; S Ketu – H Uranus Dec 5.0117
+     near   7 of 7: P13(t 0.131, x17)  P03(t 0.231, x25)  P01(t 0.270, x15)  P05(t 0.281, x8)  P11(t 0.352, x11)  P07(t 0.377, x9)  P09(t 0.747, x8)
+            tightest P13: soak Pallas ~7.9731: 4 partners, spread 0.0052, nearest whole 8 (-0.0269), nearest ninth 72/9 = 8.0000 (-0.0269) (partners not from both natal charts) — H Pallas – H Neptune Dec 7.9705; J Pallas – H Chiron Dec 7.9709; H Pallas – S Mars RA 7.9711; H Pallas – S Haumea Dec 7.9757
+[22] sky/natal ratio of a natal pair
+     strict 7 of 7: P09(t 0.046, x5)  P01(t 0.050, x11)  P13(t 0.052, x7)  P03(t 0.084, x9)  P11(t 0.096, x7)  P05(t 0.138, x9)  P07(t 0.298, x6)
+            tightest P09: J Ceres–Sedna Flat sky 50.1987 / natal 175.6958 natal/sky 7/2 (0.0002%)
+     near   7 of 7: P05(t 1.030, x6)  P01(t 1.032, x10)  P09(t 1.044, x13)  P11(t 1.048, x14)  P03(t 1.108, x7)  P07(t 1.152, x11)  P13(t 1.156, x8)
+            tightest P05: J Mars–Neptune RA sky 128.1467 / natal 89.7073 sky/natal 10/7 (0.0052%)
+[23] one body in sky/natal ratios in both charts
+     strict 6 of 7: P01(t 0.306, x2)  P07(t 0.524, x2)  P05(t 0.622, x4)  P11(t 0.656, x1)  P13(t 0.692, x2)  P03(t 0.938, x2)
+            tightest P01: Pallas: H 1 (Pallas–Juno Dec 27/8 0.0009%) | J 2 (Sun–Pallas GC 26/9 0.0015%)
+     near   7 of 7: P09(t 1.044, x8)  P11(t 1.048, x4)  P03(t 1.120, x5)  P07(t 1.152, x5)  P01(t 1.184, x8)  P05(t 1.222, x3)  P13(t 1.476, x3)
+            tightest P09: Sedna: H 1 (Venus–Sedna Flat 5/3 0.0052%) | J 2 (Ceres–Sedna Flat 7/2 0.0002%)
+[24] pair family / horse:jockey ratio
+     strict 7 of 7: P03(t 0.000, x45)  P09(t 0.000, x36)  P05(t 0.020, x37)  P07(t 0.020, x28)  P13(t 0.022, x25)  P01(t 0.060, x34)  P11(t 0.080, x26)
+            tightest P03: family J Neptune–Juno RA J Neptune – sky Juno 25.11302 vs TT 64.57632 TT/TN 18/7 (0.0000%)
+     near   7 of 7: P11(t 1.000, x123)  P13(t 1.000, x122)  P03(t 1.036, x123)  P05(t 1.040, x114)  P09(t 1.058, x121)  P01(t 1.060, x110)  P07(t 1.100, x127)
+            tightest P11: family J Juno–Rahu Dec sky Juno – J Rahu 36.51978 vs NN 14.20143 TN/NN 18/7 (0.0050%)
+[25] Equator whole/ninth (natal) + chains
+     strict 5 of 7: P07(t 0.091, x2)  P11(t 0.164, x1)  P05(t 0.332, x2)  P01(t 0.432, x1)  P13(t 0.609, x1)
+            tightest P07: J Haumea |Dec| 21.44435 = 193/9 (-0.00010)
+[26] Equator ratio
+     strict ONLY P07: P07(t 0.280, x1)
+            tightest P07: Equator Ceres H/J 14.6924 / 26.1206 J/H 16/9 (0.0028%)
+     near   6 of 7: P03(t 1.390, x3)  P13(t 1.390, x4)  P11(t 1.470, x2)  P05(t 1.510, x4)  P01(t 3.100, x1)  P07(t 3.630, x1)
+            tightest P03: Equator Mercury H/J 21.2143 / 19.0902 H/J 10/9 (0.0139%)
+[27] return / contact
+     strict 7 of 7: P11(t 0.004, x21)  P01(t 0.005, x14)  P07(t 0.005, x21)  P13(t 0.005, x16)  P03(t 0.006, x19)  P09(t 0.006, x13)  P05(t 0.047, x25)
+            tightest P11: contact sky Eris on H Venus RA 0.0054 Dec 11.3428 GC 11.3428
+     near   7 of 7: P01(t 1.009, x17)  P07(t 1.015, x12)  P11(t 1.028, x17)  P13(t 1.044, x14)  P05(t 1.053, x15)  P09(t 1.130, x15)  P03(t 1.323, x14)
+            tightest P01: contact sky Rahu on J Quaoar RA 103.8824 Dec 0.3027 GC 100.6131
+     other  2 of 7: P11(t 0.536, x1)  P01(t 0.613, x1)
+            tightest P11: RETURN sky Gonggong on H Gonggong RA 0.0969 Dec 0.6431 (slow body)
+[28] one sky body on one natal body in RA and Dec
+     strict 5 of 7: P07(t 0.340, x1)  P09(t 0.380, x1)  P03(t 0.400, x1)  P13(t 0.440, x2)  P11(t 0.556, x1)
+            tightest P07: sky Haumea -> H Mercury RA 173.99835 (174) and Dec 2.11128 (19/9)
+[29] pair in one chart whole/ninth in RA and Dec
+     strict 2 of 7: P01(t 0.860, x1)  P03(t 0.880, x1)
+            tightest P01: H Jupiter–Ceres RA 85.11154 = 766/9, Dec 27.99979 = 28
+[30] tightest cross link in the field
+     strict 7 of 7: P13(t 0.001, x1)  P05(t 0.002, x1)  P11(t 0.028, x1)  P03(t 0.046, x1)  P09(t 0.061, x1)  P07(t 0.065, x1)  P01(t 0.120, x1)
+            tightest P13: tightest cross link H Ketu – J Uranus RA 119.5467 Dec 0.0002
+[33] node loop
+     strict 2 of 7: P09(t 0.679, x1)  P03(t 0.811, x2)
+            tightest P09: loop of 5: H Node -> H Saturn -> J Vesta -> J Gonggong -> J Node -> H Node  (closed through the same body in both charts: Node) — H Saturn–H Ketu RA 111.2431 Dec 0.0661; H Saturn–J Vesta RA 0.5507 Dec 1.6083; J Vesta–J Gonggong RA 1.0187 Dec 6.2891; J Ketu–J Gonggong RA 43.1324 Dec 0.4061; J Node = H Node (same body)
+     near   4 of 7: P03(t 0.260, x9)  P09(t 0.677, x1)  P13(t 0.693, x4)  P11(t 0.910, x1)
+            tightest P03: loop of 3: H Node -> H Saturn -> J Node -> H Node  (2 distinct bodies) — H Saturn–H Ketu RA 111.2431 Dec 0.0660; H Saturn–J Ketu RA 110.8531 Dec 0.0651; H Rahu–J Rahu RA 0.3900 Dec 0.1311
+-- field-only (strict) per runner
+   P01 1 Mac's Max / 1 Andrew Mullen: -
+   P03 2 Ella Beach / 2 Daniel Tudhope: 12
+   P05 3 Indhaar / 3 Harry Davies: -
+   P07 4 Medran / 4 Oliver Stammers: 26
+   P09 5 Petworth / 5 P J McDonald: -
+   P11 6 Tropbien / 6 Saffie Osborne: -
+   P13 7 Brittunculi / 7 William Pyle: 7, 8
