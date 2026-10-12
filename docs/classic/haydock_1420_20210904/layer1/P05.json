@@ -1,0 +1,5912 @@
+{
+ "version": "L1 v1.3 (12 Oct 2026)",
+ "workbook": "20210904_haydock_1420__P05.xlsx",
+ "runner": "3 Valley Forge / 3 David Probert",
+ "points": [
+  {
+   "chart": "S",
+   "body": "Sun",
+   "ra": 163.3347,
+   "dec": 7.08501,
+   "eq": 7.08501,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Mercury",
+   "ra": 185.889,
+   "dec": -3.91926,
+   "eq": 3.91926,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Venus",
+   "ra": 200.57117,
+   "dec": -9.09265,
+   "eq": 9.09265,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Mars",
+   "ra": 173.89665,
+   "dec": 3.60358,
+   "eq": 3.60358,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Jupiter",
+   "ra": 327.64733,
+   "dec": -14.33429,
+   "eq": 14.33429,
+   "eq_num": "129/9",
+   "eq_off": 0.00096
+  },
+  {
+   "chart": "S",
+   "body": "Saturn",
+   "ra": 310.26378,
+   "dec": -19.14383,
+   "eq": 19.14383,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Uranus",
+   "ra": 42.06393,
+   "dec": 15.75481,
+   "eq": 15.75481,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Neptune",
+   "ra": 352.89065,
+   "dec": -4.34322,
+   "eq": 4.34322,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Pluto",
+   "ra": 296.4653,
+   "dec": -22.86764,
+   "eq": 22.86764,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Chiron",
+   "ra": 9.71571,
+   "dec": 6.79505,
+   "eq": 6.79505,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Ceres",
+   "ra": 67.69507,
+   "dec": 15.4141,
+   "eq": 15.4141,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Pallas",
+   "ra": 348.57173,
+   "dec": 1.19054,
+   "eq": 1.19054,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Juno",
+   "ra": 251.07647,
+   "dec": -8.76257,
+   "eq": 8.76257,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Vesta",
+   "ra": 201.80149,
+   "dec": -3.82565,
+   "eq": 3.82565,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Rahu",
+   "ra": 63.58597,
+   "dec": 21.21804,
+   "eq": 21.21804,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Ketu",
+   "ra": 243.58597,
+   "dec": -21.21804,
+   "eq": 21.21804,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Eris",
+   "ra": 26.72447,
+   "dec": -1.2834,
+   "eq": 1.2834,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Sedna",
+   "ra": 59.36157,
+   "dec": 8.26673,
+   "eq": 8.26673,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Haumea",
+   "ra": 215.14577,
+   "dec": 15.5131,
+   "eq": 15.5131,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Makemake",
+   "ra": 197.30311,
+   "dec": 22.49198,
+   "eq": 22.49198,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Gonggong",
+   "ra": 336.61716,
+   "dec": -11.44967,
+   "eq": 11.44967,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Quaoar",
+   "ra": 273.81261,
+   "dec": -15.34643,
+   "eq": 15.34643,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Orcus",
+   "ra": 156.35414,
+   "dec": -11.05846,
+   "eq": 11.05846,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "S",
+   "body": "Transpluto",
+   "ra": 154.68476,
+   "dec": 10.50091,
+   "eq": 10.50091,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Sun",
+   "ra": 38.39035,
+   "dec": 15.0659,
+   "eq": 15.0659,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Mercury",
+   "ra": 14.01717,
+   "dec": 2.85216,
+   "eq": 2.85216,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Venus",
+   "ra": 66.09346,
+   "dec": 22.5057,
+   "eq": 22.5057,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Mars",
+   "ra": 295.51391,
+   "dec": -22.71799,
+   "eq": 22.71799,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Jupiter",
+   "ra": 226.9657,
+   "dec": -16.25765,
+   "eq": 16.25765,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Saturn",
+   "ra": 279.46066,
+   "dec": -22.26314,
+   "eq": 22.26314,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Uranus",
+   "ra": 27.11732,
+   "dec": 10.6166,
+   "eq": 10.6166,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Neptune",
+   "ra": 347.12202,
+   "dec": -6.52567,
+   "eq": 6.52567,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Pluto",
+   "ra": 292.67435,
+   "dec": -21.51956,
+   "eq": 21.51956,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Chiron",
+   "ra": 359.07344,
+   "dec": 3.33124,
+   "eq": 3.33124,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Ceres",
+   "ra": 136.19394,
+   "dec": 28.24017,
+   "eq": 28.24017,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Pallas",
+   "ra": 79.22275,
+   "dec": -2.93909,
+   "eq": 2.93909,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Juno",
+   "ra": 0.8308,
+   "dec": 1.26161,
+   "eq": 1.26161,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Vesta",
+   "ra": 274.66768,
+   "dec": -17.59097,
+   "eq": 17.59097,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Rahu",
+   "ra": 132.38374,
+   "dec": 17.75551,
+   "eq": 17.75551,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Ketu",
+   "ra": 312.38374,
+   "dec": -17.75551,
+   "eq": 17.75551,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Eris",
+   "ra": 26.00763,
+   "dec": -2.04695,
+   "eq": 2.04695,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Sedna",
+   "ra": 56.52229,
+   "dec": 7.79247,
+   "eq": 7.79247,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Haumea",
+   "ra": 212.96387,
+   "dec": 17.16485,
+   "eq": 17.16485,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Makemake",
+   "ra": 194.85849,
+   "dec": 24.96404,
+   "eq": 24.96404,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Gonggong",
+   "ra": 336.56969,
+   "dec": -12.03847,
+   "eq": 12.03847,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Quaoar",
+   "ra": 271.70407,
+   "dec": -15.40324,
+   "eq": 15.40324,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Orcus",
+   "ra": 152.29836,
+   "dec": -9.68079,
+   "eq": 9.68079,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "H",
+   "body": "Transpluto",
+   "ra": 153.00497,
+   "dec": 11.13307,
+   "eq": 11.13307,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Sun",
+   "ra": 252.35672,
+   "dec": -22.45231,
+   "eq": 22.45231,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Mercury",
+   "ra": 254.67368,
+   "dec": -23.91676,
+   "eq": 23.91676,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Venus",
+   "ra": 222.95867,
+   "dec": -14.7212,
+   "eq": 14.7212,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Mars",
+   "ra": 7.72461,
+   "dec": 3.08638,
+   "eq": 3.08638,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Jupiter",
+   "ra": 57.57469,
+   "dec": 19.07898,
+   "eq": 19.07898,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Saturn",
+   "ra": 272.86246,
+   "dec": -22.66379,
+   "eq": 22.66379,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Uranus",
+   "ra": 270.34837,
+   "dec": -23.65614,
+   "eq": 23.65614,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Neptune",
+   "ra": 279.83214,
+   "dec": -22.22093,
+   "eq": 22.22093,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Pluto",
+   "ra": 225.97157,
+   "dec": -1.21254,
+   "eq": 1.21254,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Chiron",
+   "ra": 95.90908,
+   "dec": 16.54493,
+   "eq": 16.54493,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Ceres",
+   "ra": 355.22976,
+   "dec": -14.15096,
+   "eq": 14.15096,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Pallas",
+   "ra": 310.19275,
+   "dec": -2.50808,
+   "eq": 2.50808,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Juno",
+   "ra": 155.83916,
+   "dec": -0.02638,
+   "eq": 0.02638,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Vesta",
+   "ra": 221.81694,
+   "dec": -10.80364,
+   "eq": 10.80364,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Rahu",
+   "ra": 341.04375,
+   "dec": -8.01711,
+   "eq": 8.01711,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Ketu",
+   "ra": 161.04375,
+   "dec": 8.01711,
+   "eq": 8.01711,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Eris",
+   "ra": 21.78689,
+   "dec": -9.99344,
+   "eq": 9.99344,
+   "eq_num": "10",
+   "eq_off": -0.00656
+  },
+  {
+   "chart": "J",
+   "body": "Sedna",
+   "ra": 41.1976,
+   "dec": 3.68956,
+   "eq": 3.68956,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Haumea",
+   "ra": 187.22366,
+   "dec": 22.45852,
+   "eq": 22.45852,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Makemake",
+   "ra": 169.02452,
+   "dec": 35.56522,
+   "eq": 35.56522,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Gonggong",
+   "ra": 328.41078,
+   "dec": -20.70114,
+   "eq": 20.70114,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Quaoar",
+   "ra": 232.86478,
+   "dec": -13.39786,
+   "eq": 13.39786,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Orcus",
+   "ra": 129.32153,
+   "dec": 4.06912,
+   "eq": 4.06912,
+   "eq_num": null,
+   "eq_off": null
+  },
+  {
+   "chart": "J",
+   "body": "Transpluto",
+   "ra": 144.33945,
+   "dec": 14.18396,
+   "eq": 14.18396,
+   "eq_num": null,
+   "eq_off": null
+  }
+ ],
+ "links": [
+  {
+   "kind": "H",
+   "a": "H Sun",
+   "b": "H Pallas",
+   "close": false,
+   "RA": 40.8324,
+   "Dec": 18.00499,
+   "Flat": 44.62583,
+   "GC": 44.24773,
+   "nums": {
+    "Dec": {
+     "num": "18",
+     "off": 0.00499
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Sun",
+   "b": "H Juno",
+   "close": false,
+   "RA": 37.55955,
+   "Dec": 13.8043,
+   "Flat": 40.01598,
+   "GC": 39.55534,
+   "nums": {
+    "GC": {
+     "num": "356/9",
+     "off": -0.00021
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Mercury",
+   "b": "H Chiron",
+   "close": true,
+   "RA": 14.94372,
+   "Dec": 0.47908,
+   "Flat": 14.9514,
+   "GC": 14.92949,
+   "nums": {}
+  },
+  {
+   "kind": "H",
+   "a": "H Venus",
+   "b": "H Uranus",
+   "close": false,
+   "RA": 38.97614,
+   "Dec": 11.8891,
+   "Flat": 40.74911,
+   "GC": 39.06526,
+   "nums": {
+    "Dec": {
+     "num": "107/9",
+     "off": 0.00021
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Venus",
+   "b": "H Pallas",
+   "close": false,
+   "RA": 13.12929,
+   "Dec": 25.44479,
+   "Flat": 28.63242,
+   "GC": 28.49218,
+   "nums": {
+    "Dec": {
+     "num": "229/9",
+     "off": 0.00034
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Mars",
+   "b": "H Saturn",
+   "close": true,
+   "RA": 16.05325,
+   "Dec": 0.45485,
+   "Flat": 16.05969,
+   "GC": 14.83205,
+   "nums": {}
+  },
+  {
+   "kind": "H",
+   "a": "H Jupiter",
+   "b": "H Vesta",
+   "close": false,
+   "RA": 47.70198,
+   "Dec": 1.33333,
+   "Flat": 47.72061,
+   "GC": 45.53505,
+   "nums": {
+    "Dec": {
+     "num": "12/9",
+     "off": -1e-05
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Jupiter",
+   "b": "H Haumea",
+   "close": false,
+   "RA": 14.00183,
+   "Dec": 33.4225,
+   "Flat": 36.23693,
+   "GC": 36.15944,
+   "nums": {
+    "RA": {
+     "num": "14",
+     "off": 0.00183
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Uranus",
+   "b": "H Neptune",
+   "close": false,
+   "RA": 39.9953,
+   "Dec": 17.14227,
+   "Flat": 43.51415,
+   "GC": 43.35063,
+   "nums": {
+    "RA": {
+     "num": "40",
+     "off": -0.0047
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Uranus",
+   "b": "H Pallas",
+   "close": false,
+   "RA": 52.10543,
+   "Dec": 13.55569,
+   "Flat": 53.83988,
+   "GC": 53.59738,
+   "nums": {
+    "Dec": {
+     "num": "122/9",
+     "off": 0.00014
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Uranus",
+   "b": "H Eris",
+   "close": true,
+   "RA": 1.10969,
+   "Dec": 12.66355,
+   "Flat": 12.71208,
+   "GC": 12.71161,
+   "nums": {}
+  },
+  {
+   "kind": "H",
+   "a": "H Uranus",
+   "b": "H Transpluto",
+   "close": true,
+   "RA": 125.88765,
+   "Dec": 0.51647,
+   "Flat": 125.88871,
+   "GC": 121.98834,
+   "nums": {
+    "Flat": {
+     "num": "1133/9",
+     "off": -0.00018
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Pluto",
+   "b": "H Eris",
+   "close": false,
+   "RA": 93.33328,
+   "Dec": 19.47261,
+   "Flat": 95.34298,
+   "GC": 92.34715,
+   "nums": {
+    "RA": {
+     "num": "840/9",
+     "off": -6e-05
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Chiron",
+   "b": "H Orcus",
+   "close": false,
+   "RA": 153.22492,
+   "Dec": 13.01203,
+   "Flat": 153.77643,
+   "GC": 152.667,
+   "nums": {
+    "GC": {
+     "num": "1374/9",
+     "off": 0.00033
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Ceres",
+   "b": "H Ketu",
+   "close": false,
+   "RA": 176.1898,
+   "Dec": 45.99568,
+   "Flat": 182.09462,
+   "GC": 168.94668,
+   "nums": {
+    "Dec": {
+     "num": "46",
+     "off": -0.00432
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Pallas",
+   "b": "H Vesta",
+   "close": false,
+   "RA": 164.55507,
+   "Dec": 14.65188,
+   "Flat": 165.20608,
+   "GC": 154.43671,
+   "nums": {
+    "RA": {
+     "num": "1481/9",
+     "off": -0.00049
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Pallas",
+   "b": "H Eris",
+   "close": false,
+   "RA": 53.21512,
+   "Dec": 0.89214,
+   "Flat": 53.2226,
+   "GC": 53.16774,
+   "nums": {
+    "Flat": {
+     "num": "479/9",
+     "off": 0.00038
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Pallas",
+   "b": "H Haumea",
+   "close": false,
+   "RA": 133.74112,
+   "Dec": 20.10394,
+   "Flat": 135.24369,
+   "GC": 132.44398,
+   "nums": {
+    "GC": {
+     "num": "1192/9",
+     "off": -0.00047
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Vesta",
+   "b": "H Ketu",
+   "close": true,
+   "RA": 37.71606,
+   "Dec": 0.16454,
+   "Flat": 37.71642,
+   "GC": 35.87414,
+   "nums": {}
+  },
+  {
+   "kind": "H",
+   "a": "H Rahu",
+   "b": "H Haumea",
+   "close": true,
+   "RA": 80.58012,
+   "Dec": 0.59066,
+   "Flat": 80.58229,
+   "GC": 76.17668,
+   "nums": {}
+  },
+  {
+   "kind": "H",
+   "a": "H Rahu",
+   "b": "H Makemake",
+   "close": false,
+   "RA": 62.47474,
+   "Dec": 7.20853,
+   "Flat": 62.88924,
+   "GC": 58.14894,
+   "nums": {
+    "Flat": {
+     "num": "566/9",
+     "off": 0.00035
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Ketu",
+   "b": "H Transpluto",
+   "close": false,
+   "RA": 159.37877,
+   "Dec": 28.88859,
+   "Flat": 161.97575,
+   "GC": 158.98028,
+   "nums": {
+    "Dec": {
+     "num": "260/9",
+     "off": -0.0003
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Eris",
+   "b": "H Makemake",
+   "close": false,
+   "RA": 168.85086,
+   "Dec": 27.01099,
+   "Flat": 170.99768,
+   "GC": 154.685,
+   "nums": {
+    "Flat": {
+     "num": "171",
+     "off": -0.00232
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Eris",
+   "b": "H Transpluto",
+   "close": false,
+   "RA": 126.99734,
+   "Dec": 13.18002,
+   "Flat": 127.67943,
+   "GC": 126.65344,
+   "nums": {
+    "RA": {
+     "num": "127",
+     "off": -0.00266
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Makemake",
+   "b": "H Gonggong",
+   "close": false,
+   "RA": 141.7112,
+   "Dec": 37.00252,
+   "Flat": 146.46246,
+   "GC": 141.62312,
+   "nums": {
+    "Dec": {
+     "num": "37",
+     "off": 0.00252
+    }
+   }
+  },
+  {
+   "kind": "H",
+   "a": "H Orcus",
+   "b": "H Transpluto",
+   "close": true,
+   "RA": 0.70661,
+   "Dec": 20.81386,
+   "Flat": 20.82586,
+   "GC": 20.82572,
+   "nums": {}
+  },
+  {
+   "kind": "J",
+   "a": "J Sun",
+   "b": "J Saturn",
+   "close": true,
+   "RA": 20.50575,
+   "Dec": 0.21147,
+   "Flat": 20.50684,
+   "GC": 18.92301,
+   "nums": {}
+  },
+  {
+   "kind": "J",
+   "a": "J Sun",
+   "b": "J Neptune",
+   "close": true,
+   "RA": 27.47542,
+   "Dec": 0.23139,
+   "Flat": 27.4764,
+   "GC": 25.37903,
+   "nums": {}
+  },
+  {
+   "kind": "J",
+   "a": "J Sun",
+   "b": "J Chiron",
+   "close": false,
+   "RA": 156.44764,
+   "Dec": 38.99724,
+   "Flat": 161.23476,
+   "GC": 157.05613,
+   "nums": {
+    "Dec": {
+     "num": "39",
+     "off": -0.00276
+    }
+   }
+  },
+  {
+   "kind": "J",
+   "a": "J Mercury",
+   "b": "J Mars",
+   "close": false,
+   "RA": 113.05094,
+   "Dec": 27.00313,
+   "Flat": 116.23116,
+   "GC": 112.28647,
+   "nums": {
+    "Dec": {
+     "num": "27",
+     "off": 0.00313
+    }
+   }
+  },
+  {
+   "kind": "J",
+   "a": "J Mercury",
+   "b": "J Jupiter",
+   "close": false,
+   "RA": 162.90102,
+   "Dec": 42.99573,
+   "Flat": 168.4796,
+   "GC": 163.38558,
+   "nums": {
+    "Dec": {
+     "num": "43",
+     "off": -0.00427
+    }
+   }
+  },
+  {
+   "kind": "J",
+   "a": "J Mercury",
+   "b": "J Uranus",
+   "close": true,
+   "RA": 15.6747,
+   "Dec": 0.26061,
+   "Flat": 15.67686,
+   "GC": 14.33824,
+   "nums": {}
+  },
+  {
+   "kind": "J",
+   "a": "J Venus",
+   "b": "J Ceres",
+   "close": true,
+   "RA": 132.27108,
+   "Dec": 0.57024,
+   "Flat": 132.27231,
+   "GC": 124.65907,
+   "nums": {}
+  },
+  {
+   "kind": "J",
+   "a": "J Venus",
+   "b": "J Vesta",
+   "close": true,
+   "RA": 1.14174,
+   "Dec": 3.91756,
+   "Flat": 4.08054,
+   "GC": 4.07267,
+   "nums": {}
+  },
+  {
+   "kind": "J",
+   "a": "J Jupiter",
+   "b": "J Makemake",
+   "close": false,
+   "RA": 111.44983,
+   "Dec": 16.48624,
+   "Flat": 112.66259,
+   "GC": 95.22177,
+   "nums": {
+    "GC": {
+     "num": "857/9",
+     "off": -0.00046
+    }
+   }
+  },
+  {
+   "kind": "J",
+   "a": "J Saturn",
+   "b": "J Neptune",
+   "close": true,
+   "RA": 6.96968,
+   "Dec": 0.44286,
+   "Flat": 6.98373,
+   "GC": 6.45643,
+   "nums": {}
+  },
+  {
+   "kind": "J",
+   "a": "J Saturn",
+   "b": "J Quaoar",
+   "close": false,
+   "RA": 39.99769,
+   "Dec": 9.26593,
+   "Flat": 41.05694,
+   "GC": 39.01688,
+   "nums": {
+    "RA": {
+     "num": "40",
+     "off": -0.00231
+    }
+   }
+  },
+  {
+   "kind": "J",
+   "a": "J Pluto",
+   "b": "J Makemake",
+   "close": false,
+   "RA": 56.94705,
+   "Dec": 36.77775,
+   "Flat": 67.79063,
+   "GC": 64.45234,
+   "nums": {
+    "Dec": {
+     "num": "331/9",
+     "off": -2e-05
+    }
+   }
+  },
+  {
+   "kind": "J",
+   "a": "J Pluto",
+   "b": "J Quaoar",
+   "close": false,
+   "RA": 6.8932,
+   "Dec": 12.18532,
+   "Flat": 13.99994,
+   "GC": 13.96582,
+   "nums": {
+    "Flat": {
+     "num": "14",
+     "off": -6e-05
+    }
+   }
+  },
+  {
+   "kind": "J",
+   "a": "J Chiron",
+   "b": "J Ceres",
+   "close": false,
+   "RA": 100.67932,
+   "Dec": 30.69589,
+   "Flat": 105.25475,
+   "GC": 103.99683,
+   "nums": {
+    "GC": {
+     "num": "104",
+     "off": -0.00317
+    }
+   }
+  },
+  {
+   "kind": "J",
+   "a": "J Ceres",
+   "b": "J Transpluto",
+   "close": false,
+   "RA": 149.10969,
+   "Dec": 28.33492,
+   "Flat": 151.77802,
+   "GC": 150.07155,
+   "nums": {
+    "Flat": {
+     "num": "1366/9",
+     "off": 0.00024
+    }
+   }
+  },
+  {
+   "kind": "J",
+   "a": "J Pallas",
+   "b": "J Sedna",
+   "close": false,
+   "RA": 91.00485,
+   "Dec": 6.19765,
+   "Flat": 91.21564,
+   "GC": 91.16318,
+   "nums": {
+    "RA": {
+     "num": "91",
+     "off": 0.00485
+    }
+   }
+  },
+  {
+   "kind": "J",
+   "a": "J Sedna",
+   "b": "J Orcus",
+   "close": true,
+   "RA": 88.12393,
+   "Dec": 0.37956,
+   "Flat": 88.12475,
+   "GC": 87.87076,
+   "nums": {}
+  },
+  {
+   "kind": "cross",
+   "a": "H Sun",
+   "b": "J Orcus",
+   "close": false,
+   "RA": 90.93118,
+   "Dec": 10.99678,
+   "Flat": 91.59371,
+   "GC": 89.84007,
+   "nums": {
+    "Dec": {
+     "num": "11",
+     "off": -0.00322
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Mercury",
+   "b": "J Mars",
+   "close": true,
+   "RA": 6.29255,
+   "Dec": 0.23422,
+   "Flat": 6.29691,
+   "GC": 6.28846,
+   "nums": {}
+  },
+  {
+   "kind": "cross",
+   "a": "H Mercury",
+   "b": "J Uranus",
+   "close": false,
+   "RA": 103.66879,
+   "Dec": 26.5083,
+   "Flat": 107.00425,
+   "GC": 103.65939,
+   "nums": {
+    "Flat": {
+     "num": "107",
+     "off": 0.00425
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Mercury",
+   "b": "J Ceres",
+   "close": false,
+   "RA": 18.78741,
+   "Dec": 17.00312,
+   "Flat": 25.33916,
+   "GC": 25.21848,
+   "nums": {
+    "Dec": {
+     "num": "17",
+     "off": 0.00312
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Mercury",
+   "b": "J Eris",
+   "close": false,
+   "RA": 7.76972,
+   "Dec": 12.8456,
+   "Flat": 15.0126,
+   "GC": 14.99628,
+   "nums": {
+    "GC": {
+     "num": "15",
+     "off": -0.00372
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Venus",
+   "b": "J Venus",
+   "close": false,
+   "RA": 156.86521,
+   "Dec": 37.22689,
+   "Flat": 161.22201,
+   "GC": 156.77027,
+   "nums": {
+    "Flat": {
+     "num": "1451/9",
+     "off": -0.00021
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Venus",
+   "b": "J Haumea",
+   "close": true,
+   "RA": 121.1302,
+   "Dec": 0.04717,
+   "Flat": 121.13021,
+   "GC": 107.16727,
+   "nums": {}
+  },
+  {
+   "kind": "cross",
+   "a": "H Mars",
+   "b": "J Sun",
+   "close": true,
+   "RA": 43.15719,
+   "Dec": 0.26568,
+   "Flat": 43.15801,
+   "GC": 39.70247,
+   "nums": {}
+  },
+  {
+   "kind": "cross",
+   "a": "H Mars",
+   "b": "J Venus",
+   "close": false,
+   "RA": 72.55524,
+   "Dec": 7.99679,
+   "Flat": 72.9946,
+   "GC": 68.55617,
+   "nums": {
+    "RA": {
+     "num": "653/9",
+     "off": -0.00032
+    },
+    "Dec": {
+     "num": "8",
+     "off": -0.00321
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Mars",
+   "b": "J Saturn",
+   "close": true,
+   "RA": 22.65145,
+   "Dec": 0.0542,
+   "Flat": 22.65151,
+   "GC": 20.87776,
+   "nums": {}
+  },
+  {
+   "kind": "cross",
+   "a": "H Jupiter",
+   "b": "J Pluto",
+   "close": true,
+   "RA": 0.99413,
+   "Dec": 15.04511,
+   "Flat": 15.07792,
+   "GC": 15.07697,
+   "nums": {}
+  },
+  {
+   "kind": "cross",
+   "a": "H Jupiter",
+   "b": "J Quaoar",
+   "close": false,
+   "RA": 5.89908,
+   "Dec": 2.85979,
+   "Flat": 6.55572,
+   "GC": 6.37874,
+   "nums": {
+    "Flat": {
+     "num": "59/9",
+     "off": 0.00017
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Saturn",
+   "b": "J Sun",
+   "close": true,
+   "RA": 27.10395,
+   "Dec": 0.18918,
+   "Flat": 27.10461,
+   "GC": 25.03269,
+   "nums": {}
+  },
+  {
+   "kind": "cross",
+   "a": "H Saturn",
+   "b": "J Venus",
+   "close": false,
+   "RA": 56.50199,
+   "Dec": 7.54194,
+   "Flat": 57.00312,
+   "GC": 53.82359,
+   "nums": {
+    "Flat": {
+     "num": "57",
+     "off": 0.00312
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Saturn",
+   "b": "J Neptune",
+   "close": true,
+   "RA": 0.37148,
+   "Dec": 0.04221,
+   "Flat": 0.37387,
+   "GC": 0.34642,
+   "nums": {}
+  },
+  {
+   "kind": "cross",
+   "a": "H Uranus",
+   "b": "J Saturn",
+   "close": false,
+   "RA": 114.25486,
+   "Dec": 33.28039,
+   "Flat": 119.00318,
+   "GC": 116.33231,
+   "nums": {
+    "Flat": {
+     "num": "119",
+     "off": 0.00318
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Uranus",
+   "b": "J Quaoar",
+   "close": false,
+   "RA": 154.25254,
+   "Dec": 24.01446,
+   "Flat": 156.11067,
+   "GC": 154.67485,
+   "nums": {
+    "Flat": {
+     "num": "1405/9",
+     "off": -0.00044
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Uranus",
+   "b": "J Transpluto",
+   "close": false,
+   "RA": 117.22212,
+   "Dec": 3.56736,
+   "Flat": 117.27639,
+   "GC": 113.00177,
+   "nums": {
+    "RA": {
+     "num": "1055/9",
+     "off": -0.0001
+    },
+    "GC": {
+     "num": "113",
+     "off": 0.00177
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Neptune",
+   "b": "J Makemake",
+   "close": false,
+   "RA": 178.0975,
+   "Dec": 42.09088,
+   "Flat": 183.00372,
+   "GC": 150.90791,
+   "nums": {
+    "Flat": {
+     "num": "183",
+     "off": 0.00372
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Pluto",
+   "b": "J Mercury",
+   "close": false,
+   "RA": 38.00068,
+   "Dec": 2.3972,
+   "Flat": 38.07621,
+   "GC": 35.03113,
+   "nums": {
+    "RA": {
+     "num": "38",
+     "off": 0.00068
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Pluto",
+   "b": "J Jupiter",
+   "close": false,
+   "RA": 124.90034,
+   "Dec": 40.59853,
+   "Flat": 131.33292,
+   "GC": 128.53056,
+   "nums": {
+    "Flat": {
+     "num": "1182/9",
+     "off": -0.00041
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Pluto",
+   "b": "J Ceres",
+   "close": false,
+   "RA": 62.5554,
+   "Dec": 7.3686,
+   "Flat": 62.98789,
+   "GC": 59.64002,
+   "nums": {
+    "RA": {
+     "num": "563/9",
+     "off": -0.00015
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Chiron",
+   "b": "J Mars",
+   "close": true,
+   "RA": 8.65117,
+   "Dec": 0.24486,
+   "Flat": 8.65463,
+   "GC": 8.64104,
+   "nums": {}
+  },
+  {
+   "kind": "cross",
+   "a": "H Chiron",
+   "b": "J Saturn",
+   "close": false,
+   "RA": 86.21098,
+   "Dec": 25.99503,
+   "Flat": 90.04485,
+   "GC": 87.79435,
+   "nums": {
+    "Dec": {
+     "num": "26",
+     "off": -0.00497
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Chiron",
+   "b": "J Eris",
+   "close": false,
+   "RA": 22.71345,
+   "Dec": 13.32468,
+   "Flat": 26.3334,
+   "GC": 26.25516,
+   "nums": {
+    "Flat": {
+     "num": "237/9",
+     "off": 6e-05
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Ceres",
+   "b": "J Pluto",
+   "close": false,
+   "RA": 89.77764,
+   "Dec": 29.4527,
+   "Flat": 94.48537,
+   "GC": 90.37784,
+   "nums": {
+    "RA": {
+     "num": "808/9",
+     "off": -0.00014
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Ceres",
+   "b": "J Pallas",
+   "close": false,
+   "RA": 173.99881,
+   "Dec": 30.74825,
+   "Flat": 176.69477,
+   "GC": 153.63855,
+   "nums": {
+    "RA": {
+     "num": "174",
+     "off": -0.00119
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Ceres",
+   "b": "J Sedna",
+   "close": false,
+   "RA": 94.99634,
+   "Dec": 24.5506,
+   "Flat": 98.11747,
+   "GC": 92.64331,
+   "nums": {
+    "RA": {
+     "num": "95",
+     "off": -0.00366
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Pallas",
+   "b": "J Haumea",
+   "close": false,
+   "RA": 108.00091,
+   "Dec": 25.39761,
+   "Flat": 110.94699,
+   "GC": 107.74648,
+   "nums": {
+    "RA": {
+     "num": "108",
+     "off": 0.00091
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Pallas",
+   "b": "J Quaoar",
+   "close": false,
+   "RA": 153.64203,
+   "Dec": 10.45877,
+   "Flat": 153.99759,
+   "GC": 149.16245,
+   "nums": {
+    "Flat": {
+     "num": "154",
+     "off": -0.00241
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Juno",
+   "b": "J Neptune",
+   "close": false,
+   "RA": 80.99866,
+   "Dec": 23.48253,
+   "Flat": 84.33393,
+   "GC": 82.15601,
+   "nums": {
+    "RA": {
+     "num": "81",
+     "off": -0.00134
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Juno",
+   "b": "J Pallas",
+   "close": false,
+   "RA": 50.63805,
+   "Dec": 3.76969,
+   "Flat": 50.77817,
+   "GC": 50.76574,
+   "nums": {
+    "Flat": {
+     "num": "457/9",
+     "off": 0.0004
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Vesta",
+   "b": "J Haumea",
+   "close": false,
+   "RA": 87.44402,
+   "Dec": 40.0495,
+   "Flat": 96.1791,
+   "GC": 94.36824,
+   "nums": {
+    "RA": {
+     "num": "787/9",
+     "off": -0.00042
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Rahu",
+   "b": "J Sedna",
+   "close": false,
+   "RA": 91.18615,
+   "Dec": 14.06595,
+   "Flat": 92.26464,
+   "GC": 90.00285,
+   "nums": {
+    "GC": {
+     "num": "90",
+     "off": 0.00285
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Ketu",
+   "b": "J Ceres",
+   "close": false,
+   "RA": 42.84601,
+   "Dec": 3.60455,
+   "Flat": 42.99737,
+   "GC": 41.26858,
+   "nums": {
+    "Flat": {
+     "num": "43",
+     "off": -0.00263
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Ketu",
+   "b": "J Sedna",
+   "close": false,
+   "RA": 88.81385,
+   "Dec": 21.44507,
+   "Flat": 91.36625,
+   "GC": 89.99715,
+   "nums": {
+    "GC": {
+     "num": "90",
+     "off": -0.00285
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Eris",
+   "b": "J Ceres",
+   "close": false,
+   "RA": 30.77787,
+   "Dec": 12.10401,
+   "Flat": 33.07241,
+   "GC": 32.72371,
+   "nums": {
+    "RA": {
+     "num": "277/9",
+     "off": 0.0001
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Eris",
+   "b": "J Eris",
+   "close": false,
+   "RA": 4.22074,
+   "Dec": 7.94649,
+   "Flat": 8.99785,
+   "GC": 8.98533,
+   "nums": {
+    "Flat": {
+     "num": "9",
+     "off": -0.00215
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Sedna",
+   "b": "J Jupiter",
+   "close": true,
+   "RA": 1.05241,
+   "Dec": 11.2865,
+   "Flat": 11.33546,
+   "GC": 11.33265,
+   "nums": {}
+  },
+  {
+   "kind": "cross",
+   "a": "H Sedna",
+   "b": "J Ketu",
+   "close": true,
+   "RA": 104.52146,
+   "Dec": 0.22463,
+   "Flat": 104.5217,
+   "GC": 103.12577,
+   "nums": {}
+  },
+  {
+   "kind": "cross",
+   "a": "H Sedna",
+   "b": "J Gonggong",
+   "close": false,
+   "RA": 88.11151,
+   "Dec": 28.49362,
+   "Flat": 92.60413,
+   "GC": 90.99622,
+   "nums": {
+    "RA": {
+     "num": "793/9",
+     "off": 0.0004
+    },
+    "GC": {
+     "num": "91",
+     "off": -0.00378
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Sedna",
+   "b": "J Transpluto",
+   "close": false,
+   "RA": 87.81716,
+   "Dec": 6.39149,
+   "Flat": 88.04944,
+   "GC": 85.99694,
+   "nums": {
+    "GC": {
+     "num": "86",
+     "off": -0.00306
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Haumea",
+   "b": "J Makemake",
+   "close": false,
+   "RA": 43.93935,
+   "Dec": 18.40037,
+   "Flat": 47.63654,
+   "GC": 43.00369,
+   "nums": {
+    "GC": {
+     "num": "43",
+     "off": 0.00369
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Makemake",
+   "b": "J Saturn",
+   "close": false,
+   "RA": 78.00398,
+   "Dec": 47.62783,
+   "Flat": 91.39491,
+   "GC": 89.35539,
+   "nums": {
+    "RA": {
+     "num": "78",
+     "off": 0.00398
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Makemake",
+   "b": "J Quaoar",
+   "close": false,
+   "RA": 38.00629,
+   "Dec": 38.3619,
+   "Flat": 54.00105,
+   "GC": 53.33799,
+   "nums": {
+    "Flat": {
+     "num": "54",
+     "off": 0.00105
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Gonggong",
+   "b": "J Haumea",
+   "close": false,
+   "RA": 149.34603,
+   "Dec": 34.49699,
+   "Flat": 153.27843,
+   "GC": 149.0046,
+   "nums": {
+    "GC": {
+     "num": "149",
+     "off": 0.0046
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Gonggong",
+   "b": "J Transpluto",
+   "close": false,
+   "RA": 167.76976,
+   "Dec": 26.22244,
+   "Flat": 169.80668,
+   "GC": 167.89885,
+   "nums": {
+    "Dec": {
+     "num": "236/9",
+     "off": 0.00021
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Quaoar",
+   "b": "J Saturn",
+   "close": true,
+   "RA": 1.15839,
+   "Dec": 7.26054,
+   "Flat": 7.35237,
+   "GC": 7.34251,
+   "nums": {}
+  },
+  {
+   "kind": "cross",
+   "a": "H Quaoar",
+   "b": "J Uranus",
+   "close": true,
+   "RA": 1.3557,
+   "Dec": 8.2529,
+   "Flat": 8.36351,
+   "GC": 8.35099,
+   "nums": {}
+  },
+  {
+   "kind": "cross",
+   "a": "H Quaoar",
+   "b": "J Ketu",
+   "close": false,
+   "RA": 110.66032,
+   "Dec": 23.42035,
+   "Flat": 113.11154,
+   "GC": 111.9547,
+   "nums": {
+    "Flat": {
+     "num": "1018/9",
+     "off": 0.00043
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Quaoar",
+   "b": "J Transpluto",
+   "close": false,
+   "RA": 127.36463,
+   "Dec": 29.58721,
+   "Flat": 130.75608,
+   "GC": 129.22249,
+   "nums": {
+    "GC": {
+     "num": "1163/9",
+     "off": 0.00027
+    }
+   }
+  },
+  {
+   "kind": "cross",
+   "a": "H Transpluto",
+   "b": "J Pluto",
+   "close": false,
+   "RA": 72.9666,
+   "Dec": 12.34561,
+   "Flat": 74.00364,
+   "GC": 73.54476,
+   "nums": {
+    "Flat": {
+     "num": "74",
+     "off": 0.00364
+    }
+   }
+  }
+ ],
+ "strikes": [
+  {
+   "sky": "Ketu",
+   "target": "H Sun",
+   "plane": "Flat",
+   "value": 158.99975,
+   "num": "159",
+   "off": -0.00025,
+   "same_body": false
+  },
+  {
+   "sky": "Saturn",
+   "target": "H Mercury",
+   "plane": "Dec",
+   "value": 21.99599,
+   "num": "22",
+   "off": -0.00401,
+   "same_body": false
+  },
+  {
+   "sky": "Sedna",
+   "target": "H Mercury",
+   "plane": "Flat",
+   "value": 45.66654,
+   "num": "411/9",
+   "off": -0.00013,
+   "same_body": false
+  },
+  {
+   "sky": "Eris",
+   "target": "H Venus",
+   "plane": "Flat",
+   "value": 45.99825,
+   "num": "46",
+   "off": -0.00175,
+   "same_body": false
+  },
+  {
+   "sky": "Transpluto",
+   "target": "H Venus",
+   "plane": "Dec",
+   "value": 12.00478,
+   "num": "12",
+   "off": 0.00478,
+   "same_body": false
+  },
+  {
+   "sky": "Venus",
+   "target": "H Mars",
+   "plane": "GC",
+   "value": 90.99963,
+   "num": "91",
+   "off": -0.00037,
+   "same_body": false
+  },
+  {
+   "sky": "Haumea",
+   "target": "H Mars",
+   "plane": "Flat",
+   "value": 88.99806,
+   "num": "89",
+   "off": -0.00194,
+   "same_body": false
+  },
+  {
+   "sky": "Sun",
+   "target": "H Jupiter",
+   "plane": "Flat",
+   "value": 67.77746,
+   "num": "610/9",
+   "off": -0.00032,
+   "same_body": false
+  },
+  {
+   "sky": "Uranus",
+   "target": "H Jupiter",
+   "plane": "Flat",
+   "value": 178.00052,
+   "num": "178",
+   "off": 0.00052,
+   "same_body": false
+  },
+  {
+   "sky": "Juno",
+   "target": "H Jupiter",
+   "plane": "RA",
+   "value": 24.11077,
+   "num": "217/9",
+   "off": -0.00034,
+   "same_body": false
+  },
+  {
+   "sky": "Pluto",
+   "target": "H Saturn",
+   "plane": "RA",
+   "value": 17.00464,
+   "num": "17",
+   "off": 0.00464,
+   "same_body": false
+  },
+  {
+   "sky": "Pallas",
+   "target": "H Saturn",
+   "plane": "RA",
+   "value": 69.11107,
+   "num": "622/9",
+   "off": -4e-05,
+   "same_body": false
+  },
+  {
+   "sky": "Mars",
+   "target": "H Uranus",
+   "plane": "GC",
+   "value": 144.00232,
+   "num": "144",
+   "off": 0.00232,
+   "same_body": false
+  },
+  {
+   "sky": "Gonggong",
+   "target": "H Uranus",
+   "plane": "Flat",
+   "value": 55.11067,
+   "num": "496/9",
+   "off": -0.00044,
+   "same_body": false
+  },
+  {
+   "sky": "Mars",
+   "target": "H Pluto",
+   "plane": "RA",
+   "value": 118.7777,
+   "num": "1069/9",
+   "off": -7e-05,
+   "same_body": false
+  },
+  {
+   "sky": "Juno",
+   "target": "H Chiron",
+   "plane": "RA",
+   "value": 107.99697,
+   "num": "108",
+   "off": -0.00303,
+   "same_body": false
+  },
+  {
+   "sky": "Juno",
+   "target": "H Ceres",
+   "plane": "Dec",
+   "value": 37.00273,
+   "num": "37",
+   "off": 0.00273,
+   "same_body": false
+  },
+  {
+   "sky": "Juno",
+   "target": "H Ceres",
+   "plane": "GC",
+   "value": 116.00396,
+   "num": "116",
+   "off": 0.00396,
+   "same_body": false
+  },
+  {
+   "sky": "Mercury",
+   "target": "H Pallas",
+   "plane": "RA",
+   "value": 106.66625,
+   "num": "960/9",
+   "off": -0.00042,
+   "same_body": false
+  },
+  {
+   "sky": "Makemake",
+   "target": "H Pallas",
+   "plane": "GC",
+   "value": 116.99722,
+   "num": "117",
+   "off": -0.00278,
+   "same_body": false
+  },
+  {
+   "sky": "Vesta",
+   "target": "H Juno",
+   "plane": "Flat",
+   "value": 159.11066,
+   "num": "1432/9",
+   "off": -0.00045,
+   "same_body": false
+  },
+  {
+   "sky": "Sun",
+   "target": "H Vesta",
+   "plane": "RA",
+   "value": 111.33298,
+   "num": "1002/9",
+   "off": -0.00035,
+   "same_body": false
+  },
+  {
+   "sky": "Saturn",
+   "target": "H Rahu",
+   "plane": "Flat",
+   "value": 181.66691,
+   "num": "1635/9",
+   "off": 0.00025,
+   "same_body": false
+  },
+  {
+   "sky": "Uranus",
+   "target": "H Rahu",
+   "plane": "Dec",
+   "value": 2.00071,
+   "num": "2",
+   "off": 0.00071,
+   "same_body": false
+  },
+  {
+   "sky": "Mars",
+   "target": "H Eris",
+   "plane": "RA",
+   "value": 147.88902,
+   "num": "1331/9",
+   "off": 0.00013,
+   "same_body": false
+  },
+  {
+   "sky": "Mars",
+   "target": "H Eris",
+   "plane": "Flat",
+   "value": 147.99693,
+   "num": "148",
+   "off": -0.00307,
+   "same_body": false
+  },
+  {
+   "sky": "Vesta",
+   "target": "H Eris",
+   "plane": "GC",
+   "value": 172.77786,
+   "num": "1555/9",
+   "off": 8e-05,
+   "same_body": false
+  },
+  {
+   "sky": "Chiron",
+   "target": "H Sedna",
+   "plane": "Dec",
+   "value": 0.99743,
+   "num": "1",
+   "off": -0.00257,
+   "same_body": false
+  },
+  {
+   "sky": "Pallas",
+   "target": "H Sedna",
+   "plane": "GC",
+   "value": 67.99566,
+   "num": "68",
+   "off": -0.00434,
+   "same_body": false
+  },
+  {
+   "sky": "Haumea",
+   "target": "H Haumea",
+   "plane": "GC",
+   "value": 2.6668,
+   "num": "24/9",
+   "off": 0.00013,
+   "same_body": true
+  },
+  {
+   "sky": "Makemake",
+   "target": "H Makemake",
+   "plane": "RA",
+   "value": 2.44463,
+   "num": "22/9",
+   "off": 0.00018,
+   "same_body": true
+  },
+  {
+   "sky": "Venus",
+   "target": "H Gonggong",
+   "plane": "RA",
+   "value": 135.99852,
+   "num": "136",
+   "off": -0.00148,
+   "same_body": false
+  },
+  {
+   "sky": "Pallas",
+   "target": "H Gonggong",
+   "plane": "RA",
+   "value": 12.00204,
+   "num": "12",
+   "off": 0.00204,
+   "same_body": false
+  },
+  {
+   "sky": "Juno",
+   "target": "H Gonggong",
+   "plane": "Flat",
+   "value": 85.55596,
+   "num": "770/9",
+   "off": 0.0004,
+   "same_body": false
+  },
+  {
+   "sky": "Juno",
+   "target": "H Orcus",
+   "plane": "RA",
+   "value": 98.77811,
+   "num": "889/9",
+   "off": 0.00033,
+   "same_body": false
+  },
+  {
+   "sky": "Makemake",
+   "target": "H Orcus",
+   "plane": "RA",
+   "value": 45.00475,
+   "num": "45",
+   "off": 0.00475,
+   "same_body": false
+  },
+  {
+   "sky": "Pluto",
+   "target": "H Transpluto",
+   "plane": "Dec",
+   "value": 34.00072,
+   "num": "34",
+   "off": 0.00072,
+   "same_body": false
+  },
+  {
+   "sky": "Mercury",
+   "target": "J Sun",
+   "plane": "Flat",
+   "value": 69.00312,
+   "num": "69",
+   "off": 0.00312,
+   "same_body": false
+  },
+  {
+   "sky": "Saturn",
+   "target": "J Sun",
+   "plane": "Flat",
+   "value": 58.0015,
+   "num": "58",
+   "off": 0.0015,
+   "same_body": false
+  },
+  {
+   "sky": "Vesta",
+   "target": "J Sun",
+   "plane": "RA",
+   "value": 50.55523,
+   "num": "455/9",
+   "off": -0.00033,
+   "same_body": false
+  },
+  {
+   "sky": "Sedna",
+   "target": "J Sun",
+   "plane": "RA",
+   "value": 167.00485,
+   "num": "167",
+   "off": 0.00485,
+   "same_body": false
+  },
+  {
+   "sky": "Gonggong",
+   "target": "J Sun",
+   "plane": "Dec",
+   "value": 11.00264,
+   "num": "11",
+   "off": 0.00264,
+   "same_body": false
+  },
+  {
+   "sky": "Orcus",
+   "target": "J Sun",
+   "plane": "RA",
+   "value": 96.00258,
+   "num": "96",
+   "off": 0.00258,
+   "same_body": false
+  },
+  {
+   "sky": "Sun",
+   "target": "J Mercury",
+   "plane": "Dec",
+   "value": 31.00177,
+   "num": "31",
+   "off": 0.00177,
+   "same_body": false
+  },
+  {
+   "sky": "Mercury",
+   "target": "J Mercury",
+   "plane": "Dec",
+   "value": 19.99749,
+   "num": "20",
+   "off": -0.00251,
+   "same_body": true
+  },
+  {
+   "sky": "Sun",
+   "target": "J Venus",
+   "plane": "GC",
+   "value": 62.99965,
+   "num": "63",
+   "off": -0.00035,
+   "same_body": false
+  },
+  {
+   "sky": "Quaoar",
+   "target": "J Venus",
+   "plane": "GC",
+   "value": 49.00007,
+   "num": "49",
+   "off": 7e-05,
+   "same_body": false
+  },
+  {
+   "sky": "Transpluto",
+   "target": "J Venus",
+   "plane": "Dec",
+   "value": 25.22211,
+   "num": "227/9",
+   "off": -0.00011,
+   "same_body": false
+  },
+  {
+   "sky": "Sun",
+   "target": "J Mars",
+   "plane": "Dec",
+   "value": 3.99863,
+   "num": "4",
+   "off": -0.00137,
+   "same_body": false
+  },
+  {
+   "sky": "Eris",
+   "target": "J Mars",
+   "plane": "RA",
+   "value": 18.99985,
+   "num": "19",
+   "off": -0.00015,
+   "same_body": false
+  },
+  {
+   "sky": "Mercury",
+   "target": "J Jupiter",
+   "plane": "Dec",
+   "value": 22.99824,
+   "num": "23",
+   "off": -0.00176,
+   "same_body": false
+  },
+  {
+   "sky": "Venus",
+   "target": "J Jupiter",
+   "plane": "RA",
+   "value": 142.99647,
+   "num": "143",
+   "off": -0.00353,
+   "same_body": false
+  },
+  {
+   "sky": "Neptune",
+   "target": "J Jupiter",
+   "plane": "GC",
+   "value": 67.77741,
+   "num": "610/9",
+   "off": -0.00037,
+   "same_body": false
+  },
+  {
+   "sky": "Ceres",
+   "target": "J Jupiter",
+   "plane": "GC",
+   "value": 10.33381,
+   "num": "93/9",
+   "off": 0.00048,
+   "same_body": false
+  },
+  {
+   "sky": "Pallas",
+   "target": "J Jupiter",
+   "plane": "RA",
+   "value": 69.00296,
+   "num": "69",
+   "off": 0.00296,
+   "same_body": false
+  },
+  {
+   "sky": "Pallas",
+   "target": "J Jupiter",
+   "plane": "Dec",
+   "value": 17.88843,
+   "num": "161/9",
+   "off": -0.00046,
+   "same_body": false
+  },
+  {
+   "sky": "Quaoar",
+   "target": "J Uranus",
+   "plane": "Flat",
+   "value": 9.0029,
+   "num": "9",
+   "off": 0.0029,
+   "same_body": false
+  },
+  {
+   "sky": "Uranus",
+   "target": "J Neptune",
+   "plane": "Flat",
+   "value": 127.99518,
+   "num": "128",
+   "off": -0.00482,
+   "same_body": false
+  },
+  {
+   "sky": "Ketu",
+   "target": "J Neptune",
+   "plane": "Dec",
+   "value": 1.00289,
+   "num": "1",
+   "off": 0.00289,
+   "same_body": false
+  },
+  {
+   "sky": "Jupiter",
+   "target": "J Pluto",
+   "plane": "GC",
+   "value": 100.99887,
+   "num": "101",
+   "off": -0.00113,
+   "same_body": false
+  },
+  {
+   "sky": "Eris",
+   "target": "J Chiron",
+   "plane": "Flat",
+   "value": 71.4448,
+   "num": "643/9",
+   "off": 0.00036,
+   "same_body": false
+  },
+  {
+   "sky": "Mars",
+   "target": "J Ceres",
+   "plane": "RA",
+   "value": 178.66689,
+   "num": "1608/9",
+   "off": 0.00022,
+   "same_body": false
+  },
+  {
+   "sky": "Haumea",
+   "target": "J Ceres",
+   "plane": "GC",
+   "value": 141.44455,
+   "num": "1273/9",
+   "off": 0.00011,
+   "same_body": false
+  },
+  {
+   "sky": "Pluto",
+   "target": "J Pallas",
+   "plane": "Flat",
+   "value": 24.55513,
+   "num": "221/9",
+   "off": -0.00042,
+   "same_body": false
+  },
+  {
+   "sky": "Makemake",
+   "target": "J Pallas",
+   "plane": "Dec",
+   "value": 25.00007,
+   "num": "25",
+   "off": 7e-05,
+   "same_body": false
+  },
+  {
+   "sky": "Sun",
+   "target": "J Juno",
+   "plane": "Dec",
+   "value": 7.1114,
+   "num": "64/9",
+   "off": 0.00029,
+   "same_body": false
+  },
+  {
+   "sky": "Gonggong",
+   "target": "J Juno",
+   "plane": "RA",
+   "value": 179.222,
+   "num": "1613/9",
+   "off": -0.00022,
+   "same_body": false
+  },
+  {
+   "sky": "Sun",
+   "target": "J Vesta",
+   "plane": "Dec",
+   "value": 17.88865,
+   "num": "161/9",
+   "off": -0.00024,
+   "same_body": false
+  },
+  {
+   "sky": "Jupiter",
+   "target": "J Vesta",
+   "plane": "Flat",
+   "value": 105.88927,
+   "num": "953/9",
+   "off": 0.00038,
+   "same_body": false
+  },
+  {
+   "sky": "Neptune",
+   "target": "J Vesta",
+   "plane": "GC",
+   "value": 129.00109,
+   "num": "129",
+   "off": 0.00109,
+   "same_body": false
+  },
+  {
+   "sky": "Quaoar",
+   "target": "J Vesta",
+   "plane": "RA",
+   "value": 51.99567,
+   "num": "52",
+   "off": -0.00433,
+   "same_body": false
+  },
+  {
+   "sky": "Chiron",
+   "target": "J Ketu",
+   "plane": "Dec",
+   "value": 1.22206,
+   "num": "11/9",
+   "off": -0.00016,
+   "same_body": false
+  },
+  {
+   "sky": "Chiron",
+   "target": "J Ketu",
+   "plane": "Flat",
+   "value": 151.33297,
+   "num": "1362/9",
+   "off": -0.00036,
+   "same_body": false
+  },
+  {
+   "sky": "Eris",
+   "target": "J Eris",
+   "plane": "GC",
+   "value": 9.99805,
+   "num": "10",
+   "off": -0.00195,
+   "same_body": true
+  },
+  {
+   "sky": "Pluto",
+   "target": "J Sedna",
+   "plane": "GC",
+   "value": 105.00108,
+   "num": "105",
+   "off": 0.00108,
+   "same_body": false
+  },
+  {
+   "sky": "Sun",
+   "target": "J Haumea",
+   "plane": "RA",
+   "value": 23.88896,
+   "num": "215/9",
+   "off": 7e-05,
+   "same_body": false
+  },
+  {
+   "sky": "Neptune",
+   "target": "J Haumea",
+   "plane": "RA",
+   "value": 165.66698,
+   "num": "1491/9",
+   "off": 0.00032,
+   "same_body": false
+  },
+  {
+   "sky": "Transpluto",
+   "target": "J Haumea",
+   "plane": "Flat",
+   "value": 34.66647,
+   "num": "312/9",
+   "off": -0.00019,
+   "same_body": false
+  },
+  {
+   "sky": "Rahu",
+   "target": "J Gonggong",
+   "plane": "Flat",
+   "value": 103.99776,
+   "num": "104",
+   "off": -0.00224,
+   "same_body": false
+  },
+  {
+   "sky": "Sun",
+   "target": "J Quaoar",
+   "plane": "GC",
+   "value": 71.99978,
+   "num": "72",
+   "off": -0.00022,
+   "same_body": false
+  },
+  {
+   "sky": "Mars",
+   "target": "J Quaoar",
+   "plane": "Dec",
+   "value": 17.00144,
+   "num": "17",
+   "off": 0.00144,
+   "same_body": false
+  },
+  {
+   "sky": "Haumea",
+   "target": "J Orcus",
+   "plane": "Dec",
+   "value": 11.44397,
+   "num": "103/9",
+   "off": -0.00047,
+   "same_body": false
+  },
+  {
+   "sky": "Sun",
+   "target": "J Transpluto",
+   "plane": "RA",
+   "value": 18.99526,
+   "num": "19",
+   "off": -0.00474,
+   "same_body": false
+  },
+  {
+   "sky": "Mercury",
+   "target": "J Transpluto",
+   "plane": "GC",
+   "value": 44.99878,
+   "num": "45",
+   "off": -0.00122,
+   "same_body": false
+  }
+ ],
+ "ratios": [
+  {
+   "chart": "H",
+   "pair": "Venus\u2013Rahu",
+   "plane": "Flat",
+   "sky": 140.29855,
+   "natal": 66.46026,
+   "ratio": "19/9",
+   "dir": "sky/natal",
+   "err_pct": 0.00459
+  },
+  {
+   "chart": "H",
+   "pair": "Jupiter\u2013Orcus",
+   "plane": "Flat",
+   "sky": 171.32452,
+   "natal": 74.95643,
+   "ratio": "16/7",
+   "dir": "sky/natal",
+   "err_pct": 0.00261
+  },
+  {
+   "chart": "H",
+   "pair": "Pallas\u2013Vesta",
+   "plane": "Flat",
+   "sky": 146.85594,
+   "natal": 165.20608,
+   "ratio": "9/8",
+   "dir": "natal/sky",
+   "err_pct": 0.00415
+  },
+  {
+   "chart": "H",
+   "pair": "Pallas\u2013Sedna",
+   "plane": "Flat",
+   "sky": 71.14263,
+   "natal": 25.10931,
+   "ratio": "17/6",
+   "dir": "sky/natal",
+   "err_pct": 0.00059
+  },
+  {
+   "chart": "H",
+   "pair": "Vesta\u2013Ketu",
+   "plane": "Flat",
+   "sky": 45.25967,
+   "natal": 37.71642,
+   "ratio": "6/5",
+   "dir": "sky/natal",
+   "err_pct": 7e-05
+  },
+  {
+   "chart": "J",
+   "pair": "Mercury\u2013Juno",
+   "plane": "Flat",
+   "sky": 65.36714,
+   "natal": 101.68093,
+   "ratio": "14/9",
+   "dir": "natal/sky",
+   "err_pct": 0.00128
+  },
+  {
+   "chart": "J",
+   "pair": "Mars\u2013Ceres",
+   "plane": "RA",
+   "sky": 106.20158,
+   "natal": 12.49486,
+   "ratio": "17/2",
+   "dir": "sky/natal",
+   "err_pct": 0.00443
+  },
+  {
+   "chart": "J",
+   "pair": "Mars\u2013Ketu",
+   "plane": "RA",
+   "sky": 69.68932,
+   "natal": 153.31914,
+   "ratio": "11/5",
+   "dir": "natal/sky",
+   "err_pct": 0.00172
+  },
+  {
+   "chart": "J",
+   "pair": "Jupiter\u2013Sedna",
+   "plane": "RA",
+   "sky": 91.71424,
+   "natal": 16.3771,
+   "ratio": "28/5",
+   "dir": "sky/natal",
+   "err_pct": 0.00271
+  },
+  {
+   "chart": "J",
+   "pair": "Uranus\u2013Chiron",
+   "plane": "Flat",
+   "sky": 33.56612,
+   "natal": 179.01171,
+   "ratio": "16/3",
+   "dir": "natal/sky",
+   "err_pct": 0.00423
+  },
+  {
+   "chart": "J",
+   "pair": "Neptune\u2013Juno",
+   "plane": "GC",
+   "sky": 100.96624,
+   "natal": 121.15766,
+   "ratio": "6/5",
+   "dir": "natal/sky",
+   "err_pct": 0.00151
+  },
+  {
+   "chart": "J",
+   "pair": "Ketu\u2013Sedna",
+   "plane": "GC",
+   "sky": 166.42282,
+   "natal": 118.86925,
+   "ratio": "7/5",
+   "dir": "sky/natal",
+   "err_pct": 0.00352
+  },
+  {
+   "chart": "J",
+   "pair": "Ketu\u2013Orcus",
+   "plane": "RA",
+   "sky": 87.23183,
+   "natal": 31.72222,
+   "ratio": "11/4",
+   "dir": "sky/natal",
+   "err_pct": 0.0049
+  }
+ ],
+ "movement": [
+  {
+   "chart": "H",
+   "body": "Mercury",
+   "plane": "Flat",
+   "value": 172.00517,
+   "num": "172",
+   "off": 0.00517
+  },
+  {
+   "chart": "H",
+   "body": "Haumea",
+   "plane": "GC",
+   "value": 2.6668,
+   "num": "24/9",
+   "off": 0.00013
+  },
+  {
+   "chart": "H",
+   "body": "Makemake",
+   "plane": "RA",
+   "value": 2.44463,
+   "num": "22/9",
+   "off": 0.00018
+  },
+  {
+   "chart": "H",
+   "body": "Makemake",
+   "plane": "GC",
+   "value": 3.3344,
+   "num": "30/9",
+   "off": 0.00107
+  },
+  {
+   "chart": "J",
+   "body": "Mercury",
+   "plane": "Dec",
+   "value": 19.99749,
+   "num": "20",
+   "off": -0.00251
+  },
+  {
+   "chart": "J",
+   "body": "Eris",
+   "plane": "GC",
+   "value": 9.99805,
+   "num": "10",
+   "off": -0.00195
+  },
+  {
+   "chart": "J",
+   "body": "Quaoar",
+   "plane": "Flat",
+   "value": 40.99416,
+   "num": "41",
+   "off": -0.00584
+  }
+ ],
+ "same_body": [
+  {
+   "body": "Venus",
+   "plane": "RA",
+   "sky_horse": 134.47771,
+   "horse_jockey": 156.86521,
+   "sky_jockey": 22.38751,
+   "ratios": [
+    "7/6",
+    "6",
+    "7"
+   ],
+   "errs_pct": [
+    0.0162,
+    0.1137,
+    0.0974
+   ],
+   "worst_pct": 0.1137
+  },
+  {
+   "body": "Rahu",
+   "plane": "RA",
+   "sky_horse": 68.79778,
+   "horse_jockey": 151.33999,
+   "sky_jockey": 82.54222,
+   "ratios": [
+    "11/5",
+    "6/5",
+    "11/6"
+   ],
+   "errs_pct": [
+    0.01,
+    0.0183,
+    0.0083
+   ],
+   "worst_pct": 0.0183
+  },
+  {
+   "body": "Rahu",
+   "plane": "GC",
+   "sky_horse": 64.44016,
+   "horse_jockey": 150.4642,
+   "sky_jockey": 86.02404,
+   "ratios": [
+    "7/3",
+    "4/3",
+    "7/4"
+   ],
+   "errs_pct": [
+    0.069,
+    0.1208,
+    0.0517
+   ],
+   "worst_pct": 0.1208
+  },
+  {
+   "body": "Ketu",
+   "plane": "RA",
+   "sky_horse": 68.79778,
+   "horse_jockey": 151.33999,
+   "sky_jockey": 82.54222,
+   "ratios": [
+    "11/5",
+    "6/5",
+    "11/6"
+   ],
+   "errs_pct": [
+    0.01,
+    0.0183,
+    0.0083
+   ],
+   "worst_pct": 0.0183
+  },
+  {
+   "body": "Ketu",
+   "plane": "GC",
+   "sky_horse": 64.44016,
+   "horse_jockey": 150.4642,
+   "sky_jockey": 86.02404,
+   "ratios": [
+    "7/3",
+    "4/3",
+    "7/4"
+   ],
+   "errs_pct": [
+    0.069,
+    0.1208,
+    0.0517
+   ],
+   "worst_pct": 0.1208
+  }
+ ],
+ "shared": [
+  {
+   "pair": "Venus\u2013Juno",
+   "plane": "Flat",
+   "horse": 68.63327,
+   "jockey": 68.70929,
+   "diff_pct": 0.1108,
+   "sky": 50.50638,
+   "sky_vs_horse": [
+    "11/8",
+    1.1707
+   ],
+   "sky_vs_jockey": [
+    "11/8",
+    1.0612
+   ],
+   "sky_equal_pct": 26.4112
+  },
+  {
+   "pair": "Venus\u2013Transpluto",
+   "plane": "GC",
+   "horse": 82.94929,
+   "jockey": 82.94829,
+   "diff_pct": 0.0012,
+   "sky": 49.68245,
+   "sky_vs_horse": [
+    "5/3",
+    0.1754
+   ],
+   "sky_vs_jockey": [
+    "5/3",
+    0.1742
+   ],
+   "sky_equal_pct": 40.1043
+  },
+  {
+   "pair": "Uranus\u2013Transpluto",
+   "plane": "RA",
+   "horse": 125.88765,
+   "jockey": 126.00893,
+   "diff_pct": 0.0963,
+   "sky": 112.62084,
+   "sky_vs_horse": [
+    "10/9",
+    0.6021
+   ],
+   "sky_vs_jockey": [
+    "9/8",
+    0.5442
+   ],
+   "sky_equal_pct": 10.5386
+  },
+  {
+   "pair": "Pluto\u2013Juno",
+   "plane": "GC",
+   "horse": 70.24634,
+   "jockey": 70.13646,
+   "diff_pct": 0.1567,
+   "sky": 45.67381,
+   "sky_vs_horse": [
+    "14/9",
+    1.1285
+   ],
+   "sky_vs_jockey": [
+    "14/9",
+    1.2832
+   ],
+   "sky_equal_pct": 34.8786
+  },
+  {
+   "pair": "Gonggong\u2013Transpluto",
+   "plane": "RA",
+   "horse": 176.43528,
+   "jockey": 175.92867,
+   "diff_pct": 0.288,
+   "sky": 178.0676,
+   "sky_vs_horse": null,
+   "sky_vs_jockey": null,
+   "sky_equal_pct": 0.9252
+  }
+ ],
+ "eq_ratios": [],
+ "pair_family": [
+  {
+   "chart": "H",
+   "pair": "Sun\u2013Mercury",
+   "plane": "Dec",
+   "tn": "sky Sun \u2013 H Mercury",
+   "tn_value": 4.23285,
+   "base": "TT",
+   "base_value": 11.00428,
+   "ratio": "13/5",
+   "dir": "TT/TN",
+   "err_pct": 0.0103,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Sun\u2013Jupiter",
+   "plane": "Flat",
+   "tn": "sky Sun \u2013 H Jupiter",
+   "tn_value": 67.77746,
+   "base": "NN",
+   "base_value": 174.26295,
+   "ratio": "18/7",
+   "dir": "NN/TN",
+   "err_pct": 0.0126,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Sun\u2013Jupiter",
+   "plane": "Flat",
+   "tn": "sky Sun \u2013 H Jupiter",
+   "tn_value": 67.77746,
+   "base": "TT",
+   "base_value": 165.70283,
+   "ratio": "22/9",
+   "dir": "TT/TN",
+   "err_pct": 0.0148,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Sun\u2013Uranus",
+   "plane": "GC",
+   "tn": "H Sun \u2013 sky Uranus",
+   "tn_value": 3.60781,
+   "base": "NN",
+   "base_value": 11.85372,
+   "ratio": "23/7",
+   "dir": "NN/TN",
+   "err_pct": 0.0044,
+   "band": "tight"
+  },
+  {
+   "chart": "H",
+   "pair": "Sun\u2013Neptune",
+   "plane": "GC",
+   "tn": "H Sun \u2013 sky Neptune",
+   "tn_value": 49.06576,
+   "base": "NN",
+   "base_value": 55.20004,
+   "ratio": "9/8",
+   "dir": "NN/TN",
+   "err_pct": 0.0019,
+   "band": "tight"
+  },
+  {
+   "chart": "H",
+   "pair": "Sun\u2013Chiron",
+   "plane": "Flat",
+   "tn": "H Sun \u2013 sky Chiron",
+   "tn_value": 29.84363,
+   "base": "NN",
+   "base_value": 41.03074,
+   "ratio": "11/8",
+   "dir": "NN/TN",
+   "err_pct": 0.0103,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Sun\u2013Vesta",
+   "plane": "RA",
+   "tn": "sky Sun \u2013 H Vesta",
+   "tn_value": 111.33298,
+   "base": "NN",
+   "base_value": 123.72267,
+   "ratio": "10/9",
+   "dir": "NN/TN",
+   "err_pct": 0.0156,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Sun\u2013Vesta",
+   "plane": "Flat",
+   "tn": "H Sun \u2013 sky Vesta",
+   "tn_value": 164.49951,
+   "base": "NN",
+   "base_value": 127.96003,
+   "ratio": "9/7",
+   "dir": "TN/NN",
+   "err_pct": 0.0125,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Sun\u2013Rahu",
+   "plane": "RA",
+   "tn": "sky Sun \u2013 H Rahu",
+   "tn_value": 30.95096,
+   "base": "TT",
+   "base_value": 99.74874,
+   "ratio": "29/9",
+   "dir": "TT/TN",
+   "err_pct": 0.0179,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Sun\u2013Rahu",
+   "plane": "Flat",
+   "tn": "H Sun \u2013 sky Rahu",
+   "tn_value": 25.93584,
+   "base": "NN",
+   "base_value": 94.03186,
+   "ratio": "29/8",
+   "dir": "NN/TN",
+   "err_pct": 0.0154,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Sun\u2013Ketu",
+   "plane": "RA",
+   "tn": "sky Sun \u2013 H Ketu",
+   "tn_value": 149.04904,
+   "base": "TT",
+   "base_value": 80.25126,
+   "ratio": "13/7",
+   "dir": "TN/TT",
+   "err_pct": 0.0074,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Sun\u2013Ketu",
+   "plane": "RA",
+   "tn": "H Sun \u2013 sky Ketu",
+   "tn_value": 154.80438,
+   "base": "NN",
+   "base_value": 86.00661,
+   "ratio": "9/5",
+   "dir": "TN/NN",
+   "err_pct": 0.0049,
+   "band": "tight"
+  },
+  {
+   "chart": "H",
+   "pair": "Sun\u2013Sedna",
+   "plane": "GC",
+   "tn": "sky Sun \u2013 H Sedna",
+   "tn_value": 105.52488,
+   "base": "NN",
+   "base_value": 19.18798,
+   "ratio": "11/2",
+   "dir": "TN/NN",
+   "err_pct": 0.0085,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Sun\u2013Sedna",
+   "plane": "GC",
+   "tn": "H Sun \u2013 sky Sedna",
+   "tn_value": 21.61673,
+   "base": "TT",
+   "base_value": 102.67373,
+   "ratio": "19/4",
+   "dir": "TT/TN",
+   "err_pct": 0.0056,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Mercury\u2013Juno",
+   "plane": "Flat",
+   "tn": "H Mercury \u2013 sky Juno",
+   "tn_value": 123.48812,
+   "base": "TT",
+   "base_value": 65.36714,
+   "ratio": "17/9",
+   "dir": "TN/TT",
+   "err_pct": 0.0136,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Mercury\u2013Rahu",
+   "plane": "RA",
+   "tn": "sky Mercury \u2013 H Rahu",
+   "tn_value": 53.50526,
+   "base": "TT",
+   "base_value": 122.30304,
+   "ratio": "16/7",
+   "dir": "TT/TN",
+   "err_pct": 0.0043,
+   "band": "tight"
+  },
+  {
+   "chart": "H",
+   "pair": "Mercury\u2013Transpluto",
+   "plane": "GC",
+   "tn": "sky Mercury \u2013 H Transpluto",
+   "tn_value": 36.01694,
+   "base": "NN",
+   "base_value": 136.87339,
+   "ratio": "19/5",
+   "dir": "NN/TN",
+   "err_pct": 0.0066,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Venus\u2013Chiron",
+   "plane": "RA",
+   "tn": "H Venus \u2013 sky Chiron",
+   "tn_value": 56.37775,
+   "base": "TT",
+   "base_value": 169.14454,
+   "ratio": "3",
+   "dir": "TT/TN",
+   "err_pct": 0.0067,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Venus\u2013Vesta",
+   "plane": "Dec",
+   "tn": "H Venus \u2013 sky Vesta",
+   "tn_value": 26.33135,
+   "base": "TT",
+   "base_value": 5.267,
+   "ratio": "5",
+   "dir": "TN/TT",
+   "err_pct": 0.0138,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Venus\u2013Rahu",
+   "plane": "GC",
+   "tn": "sky Venus \u2013 H Rahu",
+   "tn_value": 72.46832,
+   "base": "TT",
+   "base_value": 136.90654,
+   "ratio": "17/9",
+   "dir": "TT/TN",
+   "err_pct": 0.016,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Venus\u2013Gonggong",
+   "plane": "Dec",
+   "tn": "sky Venus \u2013 H Gonggong",
+   "tn_value": 2.94582,
+   "base": "TT",
+   "base_value": 2.35702,
+   "ratio": "5/4",
+   "dir": "TN/TT",
+   "err_pct": 0.0154,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Mars\u2013Uranus",
+   "plane": "Dec",
+   "tn": "H Mars \u2013 sky Uranus",
+   "tn_value": 38.4728,
+   "base": "TT",
+   "base_value": 12.15122,
+   "ratio": "19/6",
+   "dir": "TN/TT",
+   "err_pct": 0.0158,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Mars\u2013Pluto",
+   "plane": "Flat",
+   "tn": "H Mars \u2013 sky Pluto",
+   "tn_value": 0.96309,
+   "base": "NN",
+   "base_value": 3.0821,
+   "ratio": "16/5",
+   "dir": "NN/TN",
+   "err_pct": 0.0069,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Mars\u2013Chiron",
+   "plane": "RA",
+   "tn": "sky Mars \u2013 H Chiron",
+   "tn_value": 174.8232,
+   "base": "NN",
+   "base_value": 63.55953,
+   "ratio": "11/4",
+   "dir": "TN/NN",
+   "err_pct": 0.0197,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Mars\u2013Ceres",
+   "plane": "Flat",
+   "tn": "sky Mars \u2013 H Ceres",
+   "tn_value": 45.03838,
+   "base": "NN",
+   "base_value": 167.271,
+   "ratio": "26/7",
+   "dir": "NN/TN",
+   "err_pct": 0.0086,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Mars\u2013Vesta",
+   "plane": "RA",
+   "tn": "sky Mars \u2013 H Vesta",
+   "tn_value": 100.77104,
+   "base": "NN",
+   "base_value": 20.84623,
+   "ratio": "29/6",
+   "dir": "TN/NN",
+   "err_pct": 0.0142,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Mars\u2013Eris",
+   "plane": "Flat",
+   "tn": "H Mars \u2013 sky Eris",
+   "tn_value": 93.69529,
+   "base": "TT",
+   "base_value": 147.2533,
+   "ratio": "11/7",
+   "dir": "TT/TN",
+   "err_pct": 0.0121,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Mars\u2013Quaoar",
+   "plane": "Flat",
+   "tn": "sky Mars \u2013 H Quaoar",
+   "tn_value": 99.6371,
+   "base": "NN",
+   "base_value": 24.90811,
+   "ratio": "4",
+   "dir": "TN/NN",
+   "err_pct": 0.0047,
+   "band": "tight"
+  },
+  {
+   "chart": "H",
+   "pair": "Mars\u2013Orcus",
+   "plane": "GC",
+   "tn": "H Mars \u2013 sky Orcus",
+   "tn_value": 127.64793,
+   "base": "TT",
+   "base_value": 22.79706,
+   "ratio": "28/5",
+   "dir": "TN/TT",
+   "err_pct": 0.0122,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Jupiter\u2013Saturn",
+   "plane": "Dec",
+   "tn": "H Jupiter \u2013 sky Saturn",
+   "tn_value": 2.88618,
+   "base": "TT",
+   "base_value": 4.80954,
+   "ratio": "5/3",
+   "dir": "TT/TN",
+   "err_pct": 0.0158,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Jupiter\u2013Ceres",
+   "plane": "RA",
+   "tn": "sky Jupiter \u2013 H Ceres",
+   "tn_value": 168.54661,
+   "base": "NN",
+   "base_value": 90.77176,
+   "ratio": "13/7",
+   "dir": "TN/NN",
+   "err_pct": 0.0175,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Jupiter\u2013Ceres",
+   "plane": "Flat",
+   "tn": "H Jupiter \u2013 sky Ceres",
+   "tn_value": 162.38914,
+   "base": "TT",
+   "base_value": 104.3768,
+   "ratio": "14/9",
+   "dir": "TN/TT",
+   "err_pct": 0.0155,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Jupiter\u2013Pallas",
+   "plane": "RA",
+   "tn": "sky Jupiter \u2013 H Pallas",
+   "tn_value": 111.57542,
+   "base": "TT",
+   "base_value": 20.9244,
+   "ratio": "16/3",
+   "dir": "TN/TT",
+   "err_pct": 0.0192,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Jupiter\u2013Vesta",
+   "plane": "RA",
+   "tn": "sky Jupiter \u2013 H Vesta",
+   "tn_value": 52.97965,
+   "base": "TT",
+   "base_value": 125.84584,
+   "ratio": "19/8",
+   "dir": "TT/TN",
+   "err_pct": 0.0152,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Jupiter\u2013Vesta",
+   "plane": "RA",
+   "tn": "H Jupiter \u2013 sky Vesta",
+   "tn_value": 25.16421,
+   "base": "TT",
+   "base_value": 125.84584,
+   "ratio": "5",
+   "dir": "TT/TN",
+   "err_pct": 0.0197,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Jupiter\u2013Vesta",
+   "plane": "Flat",
+   "tn": "H Jupiter \u2013 sky Vesta",
+   "tn_value": 28.06763,
+   "base": "TT",
+   "base_value": 126.28384,
+   "ratio": "9/2",
+   "dir": "TT/TN",
+   "err_pct": 0.0162,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Jupiter\u2013Haumea",
+   "plane": "GC",
+   "tn": "H Jupiter \u2013 sky Haumea",
+   "tn_value": 33.845,
+   "base": "TT",
+   "base_value": 115.05594,
+   "ratio": "17/5",
+   "dir": "TT/TN",
+   "err_pct": 0.0148,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Jupiter\u2013Gonggong",
+   "plane": "Dec",
+   "tn": "H Jupiter \u2013 sky Gonggong",
+   "tn_value": 4.80798,
+   "base": "TT",
+   "base_value": 2.88462,
+   "ratio": "5/3",
+   "dir": "TN/TT",
+   "err_pct": 0.0058,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Saturn\u2013Pluto",
+   "plane": "Flat",
+   "tn": "H Saturn \u2013 sky Pluto",
+   "tn_value": 17.01538,
+   "base": "NN",
+   "base_value": 13.23459,
+   "ratio": "9/7",
+   "dir": "TN/NN",
+   "err_pct": 0.0031,
+   "band": "tight"
+  },
+  {
+   "chart": "H",
+   "pair": "Saturn\u2013Vesta",
+   "plane": "GC",
+   "tn": "H Saturn \u2013 sky Vesta",
+   "tn_value": 77.13638,
+   "base": "TT",
+   "base_value": 106.0586,
+   "ratio": "11/8",
+   "dir": "TT/TN",
+   "err_pct": 0.0037,
+   "band": "tight"
+  },
+  {
+   "chart": "H",
+   "pair": "Saturn\u2013Makemake",
+   "plane": "RA",
+   "tn": "H Saturn \u2013 sky Makemake",
+   "tn_value": 82.15755,
+   "base": "TT",
+   "base_value": 112.96066,
+   "ratio": "11/8",
+   "dir": "TT/TN",
+   "err_pct": 0.0053,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Saturn\u2013Quaoar",
+   "plane": "GC",
+   "tn": "H Saturn \u2013 sky Quaoar",
+   "tn_value": 8.73942,
+   "base": "TT",
+   "base_value": 34.95753,
+   "ratio": "4",
+   "dir": "TT/TN",
+   "err_pct": 0.0005,
+   "band": "tight"
+  },
+  {
+   "chart": "H",
+   "pair": "Saturn\u2013Orcus",
+   "plane": "RA",
+   "tn": "H Saturn \u2013 sky Orcus",
+   "tn_value": 123.10653,
+   "base": "TT",
+   "base_value": 153.90964,
+   "ratio": "5/4",
+   "dir": "TT/TN",
+   "err_pct": 0.0172,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Uranus\u2013Chiron",
+   "plane": "Flat",
+   "tn": "sky Uranus \u2013 H Chiron",
+   "tn_value": 44.7496,
+   "base": "TT",
+   "base_value": 33.56612,
+   "ratio": "4/3",
+   "dir": "TN/TT",
+   "err_pct": 0.0117,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Uranus\u2013Juno",
+   "plane": "Flat",
+   "tn": "sky Uranus \u2013 H Juno",
+   "tn_value": 43.7061,
+   "base": "TT",
+   "base_value": 152.96507,
+   "ratio": "7/2",
+   "dir": "TT/TN",
+   "err_pct": 0.0041,
+   "band": "tight"
+  },
+  {
+   "chart": "H",
+   "pair": "Uranus\u2013Juno",
+   "plane": "GC",
+   "tn": "sky Uranus \u2013 H Juno",
+   "tn_value": 43.14842,
+   "base": "NN",
+   "base_value": 27.73794,
+   "ratio": "14/9",
+   "dir": "TN/NN",
+   "err_pct": 0.0012,
+   "band": "tight"
+  },
+  {
+   "chart": "H",
+   "pair": "Uranus\u2013Vesta",
+   "plane": "Flat",
+   "tn": "sky Uranus \u2013 H Vesta",
+   "tn_value": 131.68805,
+   "base": "TT",
+   "base_value": 160.93316,
+   "ratio": "11/9",
+   "dir": "TT/TN",
+   "err_pct": 0.0117,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Uranus\u2013Rahu",
+   "plane": "Flat",
+   "tn": "H Uranus \u2013 sky Rahu",
+   "tn_value": 37.97832,
+   "base": "NN",
+   "base_value": 105.50821,
+   "ratio": "25/9",
+   "dir": "NN/TN",
+   "err_pct": 0.0122,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Uranus\u2013Ketu",
+   "plane": "RA",
+   "tn": "sky Uranus \u2013 H Ketu",
+   "tn_value": 89.68018,
+   "base": "NN",
+   "base_value": 74.73358,
+   "ratio": "6/5",
+   "dir": "TN/NN",
+   "err_pct": 0.0001,
+   "band": "tight"
+  },
+  {
+   "chart": "H",
+   "pair": "Neptune\u2013Ceres",
+   "plane": "Flat",
+   "tn": "H Neptune \u2013 sky Ceres",
+   "tn_value": 83.5067,
+   "base": "NN",
+   "base_value": 153.0722,
+   "ratio": "11/6",
+   "dir": "NN/TN",
+   "err_pct": 0.0153,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Pluto\u2013Pallas",
+   "plane": "Dec",
+   "tn": "H Pluto \u2013 sky Pallas",
+   "tn_value": 22.7101,
+   "base": "NN",
+   "base_value": 18.58047,
+   "ratio": "11/9",
+   "dir": "TN/NN",
+   "err_pct": 0.0028,
+   "band": "tight"
+  },
+  {
+   "chart": "H",
+   "pair": "Pluto\u2013Ketu",
+   "plane": "Flat",
+   "tn": "sky Pluto \u2013 H Ketu",
+   "tn_value": 16.71917,
+   "base": "NN",
+   "base_value": 20.0656,
+   "ratio": "6/5",
+   "dir": "NN/TN",
+   "err_pct": 0.0129,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Chiron\u2013Ceres",
+   "plane": "Flat",
+   "tn": "H Chiron \u2013 sky Ceres",
+   "tn_value": 69.67728,
+   "base": "NN",
+   "base_value": 139.36457,
+   "ratio": "2",
+   "dir": "NN/TN",
+   "err_pct": 0.0072,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Chiron\u2013Pallas",
+   "plane": "Flat",
+   "tn": "H Chiron \u2013 sky Pallas",
+   "tn_value": 10.71767,
+   "base": "NN",
+   "base_value": 80.39421,
+   "ratio": "15/2",
+   "dir": "NN/TN",
+   "err_pct": 0.0145,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Chiron\u2013Vesta",
+   "plane": "Flat",
+   "tn": "sky Chiron \u2013 H Vesta",
+   "tn_value": 98.12648,
+   "base": "TT",
+   "base_value": 168.24977,
+   "ratio": "12/7",
+   "dir": "TT/TN",
+   "err_pct": 0.0196,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Chiron\u2013Ketu",
+   "plane": "RA",
+   "tn": "sky Chiron \u2013 H Ketu",
+   "tn_value": 57.33197,
+   "base": "TT",
+   "base_value": 126.12975,
+   "ratio": "11/5",
+   "dir": "TT/TN",
+   "err_pct": 0.0005,
+   "band": "tight"
+  },
+  {
+   "chart": "H",
+   "pair": "Chiron\u2013Quaoar",
+   "plane": "RA",
+   "tn": "H Chiron \u2013 sky Quaoar",
+   "tn_value": 85.26084,
+   "base": "TT",
+   "base_value": 95.90311,
+   "ratio": "9/8",
+   "dir": "TT/TN",
+   "err_pct": 0.016,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Ceres\u2013Vesta",
+   "plane": "Dec",
+   "tn": "H Ceres \u2013 sky Vesta",
+   "tn_value": 32.06582,
+   "base": "TT",
+   "base_value": 19.23975,
+   "ratio": "5/3",
+   "dir": "TN/TT",
+   "err_pct": 0.0014,
+   "band": "tight"
+  },
+  {
+   "chart": "H",
+   "pair": "Ceres\u2013Ketu",
+   "plane": "GC",
+   "tn": "sky Ceres \u2013 H Ketu",
+   "tn_value": 118.26699,
+   "base": "NN",
+   "base_value": 168.94668,
+   "ratio": "10/7",
+   "dir": "NN/TN",
+   "err_pct": 0.0036,
+   "band": "tight"
+  },
+  {
+   "chart": "H",
+   "pair": "Ceres\u2013Eris",
+   "plane": "GC",
+   "tn": "sky Ceres \u2013 H Eris",
+   "tn_value": 44.7676,
+   "base": "NN",
+   "base_value": 108.7057,
+   "ratio": "17/7",
+   "dir": "NN/TN",
+   "err_pct": 0.0144,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Ceres\u2013Transpluto",
+   "plane": "Flat",
+   "tn": "H Ceres \u2013 sky Transpluto",
+   "tn_value": 25.62405,
+   "base": "TT",
+   "base_value": 87.12833,
+   "ratio": "17/5",
+   "dir": "TT/TN",
+   "err_pct": 0.0075,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Pallas\u2013Vesta",
+   "plane": "Flat",
+   "tn": "sky Pallas \u2013 H Vesta",
+   "tn_value": 76.25322,
+   "base": "NN",
+   "base_value": 165.20608,
+   "ratio": "13/6",
+   "dir": "NN/TN",
+   "err_pct": 0.0056,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Pallas\u2013Rahu",
+   "plane": "RA",
+   "tn": "H Pallas \u2013 sky Rahu",
+   "tn_value": 15.63678,
+   "base": "NN",
+   "base_value": 53.16099,
+   "ratio": "17/5",
+   "dir": "NN/TN",
+   "err_pct": 0.0077,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Pallas\u2013Sedna",
+   "plane": "RA",
+   "tn": "H Pallas \u2013 sky Sedna",
+   "tn_value": 19.86118,
+   "base": "NN",
+   "base_value": 22.70046,
+   "ratio": "8/7",
+   "dir": "NN/TN",
+   "err_pct": 0.0087,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Pallas\u2013Quaoar",
+   "plane": "Flat",
+   "tn": "H Pallas \u2013 sky Quaoar",
+   "tn_value": 165.87483,
+   "base": "TT",
+   "base_value": 76.5663,
+   "ratio": "13/6",
+   "dir": "TN/TT",
+   "err_pct": 0.0113,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Juno\u2013Sedna",
+   "plane": "RA",
+   "tn": "H Juno \u2013 sky Sedna",
+   "tn_value": 58.53077,
+   "base": "TT",
+   "base_value": 168.2851,
+   "ratio": "23/8",
+   "dir": "TT/TN",
+   "err_pct": 0.0054,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Juno\u2013Orcus",
+   "plane": "Dec",
+   "tn": "sky Juno \u2013 H Orcus",
+   "tn_value": 0.91822,
+   "base": "TT",
+   "base_value": 2.29589,
+   "ratio": "5/2",
+   "dir": "TT/TN",
+   "err_pct": 0.0143,
+   "band": "near"
+  },
+  {
+   "chart": "H",
+   "pair": "Ketu\u2013Orcus",
+   "plane": "Dec",
+   "tn": "sky Ketu \u2013 H Orcus",
+   "tn_value": 11.53724,
+   "base": "NN",
+   "base_value": 8.07472,
+   "ratio": "10/7",
+   "dir": "TN/NN",
+   "err_pct": 0.0167,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Sun\u2013Mercury",
+   "plane": "Flat",
+   "tn": "J Sun \u2013 sky Mercury",
+   "tn_value": 69.00312,
+   "base": "TT",
+   "base_value": 25.09563,
+   "ratio": "11/4",
+   "dir": "TN/TT",
+   "err_pct": 0.0143,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Sun\u2013Jupiter",
+   "plane": "Flat",
+   "tn": "J Sun \u2013 sky Jupiter",
+   "tn_value": 75.727,
+   "base": "NN",
+   "base_value": 170.35794,
+   "ratio": "9/4",
+   "dir": "NN/TN",
+   "err_pct": 0.0163,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Sun\u2013Chiron",
+   "plane": "RA",
+   "tn": "J Sun \u2013 sky Chiron",
+   "tn_value": 117.35899,
+   "base": "NN",
+   "base_value": 156.44764,
+   "ratio": "4/3",
+   "dir": "NN/TN",
+   "err_pct": 0.0198,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Sun\u2013Chiron",
+   "plane": "Dec",
+   "tn": "J Sun \u2013 sky Chiron",
+   "tn_value": 29.24736,
+   "base": "NN",
+   "base_value": 38.99724,
+   "ratio": "4/3",
+   "dir": "NN/TN",
+   "err_pct": 0.002,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Sun\u2013Chiron",
+   "plane": "Flat",
+   "tn": "J Sun \u2013 sky Chiron",
+   "tn_value": 120.94851,
+   "base": "NN",
+   "base_value": 161.23476,
+   "ratio": "4/3",
+   "dir": "NN/TN",
+   "err_pct": 0.0185,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Sun\u2013Ceres",
+   "plane": "RA",
+   "tn": "J Sun \u2013 sky Ceres",
+   "tn_value": 175.33835,
+   "base": "TT",
+   "base_value": 95.63963,
+   "ratio": "11/6",
+   "dir": "TN/TT",
+   "err_pct": 0.0006,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Sun\u2013Sedna",
+   "plane": "Dec",
+   "tn": "J Sun \u2013 sky Sedna",
+   "tn_value": 30.71904,
+   "base": "TT",
+   "base_value": 1.18172,
+   "ratio": "26",
+   "dir": "TN/TT",
+   "err_pct": 0.0182,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Sun\u2013Haumea",
+   "plane": "GC",
+   "tn": "sky Sun \u2013 J Haumea",
+   "tn_value": 27.66814,
+   "base": "TT",
+   "base_value": 51.37848,
+   "ratio": "13/7",
+   "dir": "TT/TN",
+   "err_pct": 0.0101,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Sun\u2013Makemake",
+   "plane": "Flat",
+   "tn": "J Sun \u2013 sky Makemake",
+   "tn_value": 71.06961,
+   "base": "NN",
+   "base_value": 101.53959,
+   "ratio": "10/7",
+   "dir": "NN/TN",
+   "err_pct": 0.0114,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Sun\u2013Quaoar",
+   "plane": "Flat",
+   "tn": "sky Sun \u2013 J Quaoar",
+   "tn_value": 72.48434,
+   "base": "TT",
+   "base_value": 112.73214,
+   "ratio": "14/9",
+   "dir": "TT/TN",
+   "err_pct": 0.0189,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Sun\u2013Transpluto",
+   "plane": "GC",
+   "tn": "sky Sun \u2013 J Transpluto",
+   "tn_value": 19.95802,
+   "base": "NN",
+   "base_value": 111.76039,
+   "ratio": "28/5",
+   "dir": "NN/TN",
+   "err_pct": 0.0041,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Mercury\u2013Neptune",
+   "plane": "RA",
+   "tn": "sky Mercury \u2013 J Neptune",
+   "tn_value": 93.94314,
+   "base": "TT",
+   "base_value": 167.00164,
+   "ratio": "16/9",
+   "dir": "TT/TN",
+   "err_pct": 0.005,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Mercury\u2013Pluto",
+   "plane": "Dec",
+   "tn": "sky Mercury \u2013 J Pluto",
+   "tn_value": 2.70673,
+   "base": "TT",
+   "base_value": 18.94838,
+   "ratio": "7",
+   "dir": "TT/TN",
+   "err_pct": 0.0068,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Mercury\u2013Sedna",
+   "plane": "GC",
+   "tn": "sky Mercury \u2013 J Sedna",
+   "tn_value": 144.77104,
+   "base": "TT",
+   "base_value": 126.68914,
+   "ratio": "8/7",
+   "dir": "TN/TT",
+   "err_pct": 0.0114,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Mercury\u2013Makemake",
+   "plane": "Flat",
+   "tn": "sky Mercury \u2013 J Makemake",
+   "tn_value": 42.93524,
+   "base": "NN",
+   "base_value": 104.27791,
+   "ratio": "17/7",
+   "dir": "NN/TN",
+   "err_pct": 0.0063,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Mercury\u2013Gonggong",
+   "plane": "RA",
+   "tn": "J Mercury \u2013 sky Gonggong",
+   "tn_value": 81.94349,
+   "base": "NN",
+   "base_value": 73.7371,
+   "ratio": "10/9",
+   "dir": "TN/NN",
+   "err_pct": 0.0163,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Mercury\u2013Quaoar",
+   "plane": "Dec",
+   "tn": "J Mercury \u2013 sky Quaoar",
+   "tn_value": 8.57033,
+   "base": "TT",
+   "base_value": 11.42716,
+   "ratio": "4/3",
+   "dir": "TT/TN",
+   "err_pct": 0.0005,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Venus\u2013Jupiter",
+   "plane": "Dec",
+   "tn": "sky Venus \u2013 J Jupiter",
+   "tn_value": 28.17162,
+   "base": "NN",
+   "base_value": 33.80017,
+   "ratio": "6/5",
+   "dir": "NN/TN",
+   "err_pct": 0.0171,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Venus\u2013Pluto",
+   "plane": "Dec",
+   "tn": "sky Venus \u2013 J Pluto",
+   "tn_value": 7.88011,
+   "base": "NN",
+   "base_value": 13.50866,
+   "ratio": "12/7",
+   "dir": "NN/TN",
+   "err_pct": 0.0008,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Venus\u2013Vesta",
+   "plane": "Flat",
+   "tn": "J Venus \u2013 sky Vesta",
+   "tn_value": 23.79788,
+   "base": "TT",
+   "base_value": 5.40878,
+   "ratio": "22/5",
+   "dir": "TN/TT",
+   "err_pct": 0.0032,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Venus\u2013Ketu",
+   "plane": "Dec",
+   "tn": "J Venus \u2013 sky Ketu",
+   "tn_value": 6.49684,
+   "base": "NN",
+   "base_value": 22.7383,
+   "ratio": "7/2",
+   "dir": "NN/TN",
+   "err_pct": 0.0028,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Venus\u2013Eris",
+   "plane": "Flat",
+   "tn": "sky Venus \u2013 J Eris",
+   "tn_value": 178.78655,
+   "base": "NN",
+   "base_value": 158.89856,
+   "ratio": "9/8",
+   "dir": "TN/NN",
+   "err_pct": 0.0144,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Mars\u2013Jupiter",
+   "plane": "RA",
+   "tn": "sky Mars \u2013 J Jupiter",
+   "tn_value": 116.32195,
+   "base": "NN",
+   "base_value": 49.85008,
+   "ratio": "7/3",
+   "dir": "TN/NN",
+   "err_pct": 0.0044,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Mars\u2013Uranus",
+   "plane": "Dec",
+   "tn": "J Mars \u2013 sky Uranus",
+   "tn_value": 12.66843,
+   "base": "NN",
+   "base_value": 26.74252,
+   "ratio": "19/9",
+   "dir": "NN/TN",
+   "err_pct": 0.0072,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Mars\u2013Neptune",
+   "plane": "Dec",
+   "tn": "sky Mars \u2013 J Neptune",
+   "tn_value": 25.82451,
+   "base": "TT",
+   "base_value": 7.9468,
+   "ratio": "13/4",
+   "dir": "TN/TT",
+   "err_pct": 0.01,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Mars\u2013Ceres",
+   "plane": "RA",
+   "tn": "J Mars \u2013 sky Ceres",
+   "tn_value": 59.97046,
+   "base": "NN",
+   "base_value": 12.49486,
+   "ratio": "24/5",
+   "dir": "TN/NN",
+   "err_pct": 0.0081,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Mars\u2013Juno",
+   "plane": "Flat",
+   "tn": "J Mars \u2013 sky Juno",
+   "tn_value": 117.2484,
+   "base": "TT",
+   "base_value": 78.16423,
+   "ratio": "3/2",
+   "dir": "TN/TT",
+   "err_pct": 0.0018,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Mars\u2013Vesta",
+   "plane": "Flat",
+   "tn": "J Mars \u2013 sky Vesta",
+   "tn_value": 166.06703,
+   "base": "TT",
+   "base_value": 28.87687,
+   "ratio": "23/4",
+   "dir": "TN/TT",
+   "err_pct": 0.0151,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Mars\u2013Vesta",
+   "plane": "GC",
+   "tn": "J Mars \u2013 sky Vesta",
+   "tn_value": 165.92952,
+   "base": "TT",
+   "base_value": 28.85784,
+   "ratio": "23/4",
+   "dir": "TN/TT",
+   "err_pct": 0.0019,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Mars\u2013Rahu",
+   "plane": "Flat",
+   "tn": "sky Mars \u2013 J Rahu",
+   "tn_value": 167.55057,
+   "base": "TT",
+   "base_value": 111.70817,
+   "ratio": "3/2",
+   "dir": "TN/TT",
+   "err_pct": 0.007,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Mars\u2013Sedna",
+   "plane": "Dec",
+   "tn": "J Mars \u2013 sky Sedna",
+   "tn_value": 5.18035,
+   "base": "TT",
+   "base_value": 4.66315,
+   "ratio": "10/9",
+   "dir": "TN/TT",
+   "err_pct": 0.0178,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Mars\u2013Orcus",
+   "plane": "RA",
+   "tn": "J Mars \u2013 sky Orcus",
+   "tn_value": 148.62952,
+   "base": "NN",
+   "base_value": 121.59692,
+   "ratio": "11/9",
+   "dir": "TN/NN",
+   "err_pct": 0.0074,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Saturn\u2013Uranus",
+   "plane": "Flat",
+   "tn": "sky Saturn \u2013 J Uranus",
+   "tn_value": 40.16965,
+   "base": "TT",
+   "base_value": 98.20989,
+   "ratio": "22/9",
+   "dir": "TT/TN",
+   "err_pct": 0.0177,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Saturn\u2013Pallas",
+   "plane": "Dec",
+   "tn": "sky Saturn \u2013 J Pallas",
+   "tn_value": 16.63574,
+   "base": "TT",
+   "base_value": 20.33437,
+   "ratio": "11/9",
+   "dir": "TT/TN",
+   "err_pct": 0.0088,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Saturn\u2013Sedna",
+   "plane": "Flat",
+   "tn": "sky Saturn \u2013 J Sedna",
+   "tn_value": 93.75672,
+   "base": "TT",
+   "base_value": 112.48852,
+   "ratio": "6/5",
+   "dir": "TT/TN",
+   "err_pct": 0.0174,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Saturn\u2013Sedna",
+   "plane": "Flat",
+   "tn": "J Saturn \u2013 sky Sedna",
+   "tn_value": 149.72871,
+   "base": "NN",
+   "base_value": 131.013,
+   "ratio": "8/7",
+   "dir": "TN/NN",
+   "err_pct": 0.0003,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Saturn\u2013Transpluto",
+   "plane": "Dec",
+   "tn": "J Saturn \u2013 sky Transpluto",
+   "tn_value": 33.1647,
+   "base": "NN",
+   "base_value": 36.84775,
+   "ratio": "10/9",
+   "dir": "NN/TN",
+   "err_pct": 0.0052,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Uranus\u2013Juno",
+   "plane": "Flat",
+   "tn": "J Uranus \u2013 sky Juno",
+   "tn_value": 24.35621,
+   "base": "NN",
+   "base_value": 116.92187,
+   "ratio": "24/5",
+   "dir": "NN/TN",
+   "err_pct": 0.0103,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Uranus\u2013Makemake",
+   "plane": "RA",
+   "tn": "J Uranus \u2013 sky Makemake",
+   "tn_value": 73.04526,
+   "base": "TT",
+   "base_value": 155.23919,
+   "ratio": "17/8",
+   "dir": "TT/TN",
+   "err_pct": 0.0116,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Uranus\u2013Orcus",
+   "plane": "Flat",
+   "tn": "sky Uranus \u2013 J Orcus",
+   "tn_value": 88.03661,
+   "base": "TT",
+   "base_value": 117.39337,
+   "ratio": "4/3",
+   "dir": "TT/TN",
+   "err_pct": 0.0096,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Uranus\u2013Transpluto",
+   "plane": "Dec",
+   "tn": "J Uranus \u2013 sky Transpluto",
+   "tn_value": 34.15705,
+   "base": "TT",
+   "base_value": 5.25389,
+   "ratio": "13/2",
+   "dir": "TN/TT",
+   "err_pct": 0.0198,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Neptune\u2013Chiron",
+   "plane": "Dec",
+   "tn": "sky Neptune \u2013 J Chiron",
+   "tn_value": 20.88815,
+   "base": "TT",
+   "base_value": 11.13826,
+   "ratio": "15/8",
+   "dir": "TN/TT",
+   "err_pct": 0.0187,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Neptune\u2013Sedna",
+   "plane": "Flat",
+   "tn": "J Neptune \u2013 sky Sedna",
+   "tn_value": 142.82142,
+   "base": "TT",
+   "base_value": 67.65645,
+   "ratio": "19/9",
+   "dir": "TN/TT",
+   "err_pct": 0.0062,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Neptune\u2013Quaoar",
+   "plane": "RA",
+   "tn": "sky Neptune \u2013 J Quaoar",
+   "tn_value": 120.02587,
+   "base": "NN",
+   "base_value": 46.96736,
+   "ratio": "23/9",
+   "dir": "TN/NN",
+   "err_pct": 0.0015,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Neptune\u2013Orcus",
+   "plane": "Dec",
+   "tn": "sky Neptune \u2013 J Orcus",
+   "tn_value": 8.41234,
+   "base": "NN",
+   "base_value": 26.29005,
+   "ratio": "25/8",
+   "dir": "NN/TN",
+   "err_pct": 0.0056,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Pluto\u2013Ceres",
+   "plane": "RA",
+   "tn": "sky Pluto \u2013 J Ceres",
+   "tn_value": 58.76446,
+   "base": "NN",
+   "base_value": 129.25818,
+   "ratio": "11/5",
+   "dir": "NN/TN",
+   "err_pct": 0.0183,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Pluto\u2013Ketu",
+   "plane": "Flat",
+   "tn": "sky Pluto \u2013 J Ketu",
+   "tn_value": 138.89876,
+   "base": "TT",
+   "base_value": 52.90506,
+   "ratio": "21/8",
+   "dir": "TN/TT",
+   "err_pct": 0.0165,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Pluto\u2013Makemake",
+   "plane": "Flat",
+   "tn": "sky Pluto \u2013 J Makemake",
+   "tn_value": 140.19826,
+   "base": "TT",
+   "base_value": 109.04419,
+   "ratio": "9/7",
+   "dir": "TN/TT",
+   "err_pct": 0.001,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Pluto\u2013Orcus",
+   "plane": "Flat",
+   "tn": "J Pluto \u2013 sky Orcus",
+   "tn_value": 70.31024,
+   "base": "TT",
+   "base_value": 140.60795,
+   "ratio": "2",
+   "dir": "TT/TN",
+   "err_pct": 0.0089,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Chiron\u2013Ceres",
+   "plane": "GC",
+   "tn": "J Chiron \u2013 sky Ceres",
+   "tn_value": 27.12561,
+   "base": "NN",
+   "base_value": 103.99683,
+   "ratio": "23/6",
+   "dir": "NN/TN",
+   "err_pct": 0.0147,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Chiron\u2013Rahu",
+   "plane": "RA",
+   "tn": "J Chiron \u2013 sky Rahu",
+   "tn_value": 32.32311,
+   "base": "TT",
+   "base_value": 53.87025,
+   "ratio": "5/3",
+   "dir": "TT/TN",
+   "err_pct": 0.003,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Chiron\u2013Ketu",
+   "plane": "RA",
+   "tn": "sky Chiron \u2013 J Ketu",
+   "tn_value": 151.32804,
+   "base": "TT",
+   "base_value": 126.12975,
+   "ratio": "6/5",
+   "dir": "TN/TT",
+   "err_pct": 0.0183,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Chiron\u2013Sedna",
+   "plane": "Flat",
+   "tn": "J Chiron \u2013 sky Sedna",
+   "tn_value": 37.47331,
+   "base": "NN",
+   "base_value": 56.20148,
+   "ratio": "3/2",
+   "dir": "NN/TN",
+   "err_pct": 0.0151,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Chiron\u2013Makemake",
+   "plane": "Flat",
+   "tn": "sky Chiron \u2013 J Makemake",
+   "tn_value": 161.88582,
+   "base": "NN",
+   "base_value": 75.54892,
+   "ratio": "15/7",
+   "dir": "TN/NN",
+   "err_pct": 0.0029,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Ceres\u2013Pallas",
+   "plane": "Flat",
+   "tn": "sky Ceres \u2013 J Pallas",
+   "tn_value": 118.86127,
+   "base": "NN",
+   "base_value": 46.51762,
+   "ratio": "23/9",
+   "dir": "TN/NN",
+   "err_pct": 0.0144,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Ceres\u2013Makemake",
+   "plane": "Flat",
+   "tn": "sky Ceres \u2013 J Makemake",
+   "tn_value": 103.31372,
+   "base": "NN",
+   "base_value": 180.76592,
+   "ratio": "7/4",
+   "dir": "NN/TN",
+   "err_pct": 0.0183,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Ceres\u2013Orcus",
+   "plane": "Dec",
+   "tn": "sky Ceres \u2013 J Orcus",
+   "tn_value": 11.34497,
+   "base": "TT",
+   "base_value": 26.47256,
+   "ratio": "7/3",
+   "dir": "TT/TN",
+   "err_pct": 0.0036,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Ceres\u2013Transpluto",
+   "plane": "RA",
+   "tn": "J Ceres \u2013 sky Transpluto",
+   "tn_value": 159.45501,
+   "base": "TT",
+   "base_value": 86.98969,
+   "ratio": "11/6",
+   "dir": "TN/TT",
+   "err_pct": 0.0164,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Pallas\u2013Ketu",
+   "plane": "Dec",
+   "tn": "J Pallas \u2013 sky Ketu",
+   "tn_value": 18.70995,
+   "base": "NN",
+   "base_value": 10.52519,
+   "ratio": "16/9",
+   "dir": "TN/NN",
+   "err_pct": 0.008,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Vesta\u2013Ketu",
+   "plane": "GC",
+   "tn": "J Vesta \u2013 sky Ketu",
+   "tn_value": 23.33202,
+   "base": "NN",
+   "base_value": 63.33433,
+   "ratio": "19/7",
+   "dir": "NN/TN",
+   "err_pct": 0.0072,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Vesta\u2013Eris",
+   "plane": "RA",
+   "tn": "sky Vesta \u2013 J Eris",
+   "tn_value": 179.9854,
+   "base": "NN",
+   "base_value": 159.96995,
+   "ratio": "9/8",
+   "dir": "TN/NN",
+   "err_pct": 0.0107,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Vesta\u2013Haumea",
+   "plane": "RA",
+   "tn": "J Vesta \u2013 sky Haumea",
+   "tn_value": 6.67117,
+   "base": "TT",
+   "base_value": 13.34428,
+   "ratio": "2",
+   "dir": "TT/TN",
+   "err_pct": 0.0145,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Vesta\u2013Quaoar",
+   "plane": "Flat",
+   "tn": "J Vesta \u2013 sky Quaoar",
+   "tn_value": 52.19374,
+   "base": "NN",
+   "base_value": 11.34834,
+   "ratio": "23/5",
+   "dir": "TN/NN",
+   "err_pct": 0.0165,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Vesta\u2013Transpluto",
+   "plane": "GC",
+   "tn": "J Vesta \u2013 sky Transpluto",
+   "tn_value": 70.0522,
+   "base": "TT",
+   "base_value": 49.04554,
+   "ratio": "10/7",
+   "dir": "TN/TT",
+   "err_pct": 0.0183,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Rahu\u2013Haumea",
+   "plane": "GC",
+   "tn": "sky Rahu \u2013 J Haumea",
+   "tn_value": 109.81384,
+   "base": "NN",
+   "base_value": 150.98862,
+   "ratio": "11/8",
+   "dir": "NN/TN",
+   "err_pct": 0.0036,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Rahu\u2013Makemake",
+   "plane": "Dec",
+   "tn": "J Rahu \u2013 sky Makemake",
+   "tn_value": 30.50909,
+   "base": "NN",
+   "base_value": 43.58233,
+   "ratio": "10/7",
+   "dir": "NN/TN",
+   "err_pct": 0.0048,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Rahu\u2013Transpluto",
+   "plane": "GC",
+   "tn": "sky Rahu \u2013 J Transpluto",
+   "tn_value": 76.47283,
+   "base": "NN",
+   "base_value": 162.49687,
+   "ratio": "17/8",
+   "dir": "NN/TN",
+   "err_pct": 0.0049,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Ketu\u2013Orcus",
+   "plane": "GC",
+   "tn": "J Ketu \u2013 sky Orcus",
+   "tn_value": 19.63798,
+   "base": "TT",
+   "base_value": 83.47685,
+   "ratio": "17/4",
+   "dir": "TT/TN",
+   "err_pct": 0.0185,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Eris\u2013Sedna",
+   "plane": "Flat",
+   "tn": "sky Eris \u2013 J Sedna",
+   "tn_value": 15.30365,
+   "base": "TT",
+   "base_value": 34.00567,
+   "ratio": "20/9",
+   "dir": "TT/TN",
+   "err_pct": 0.0072,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Haumea\u2013Makemake",
+   "plane": "Flat",
+   "tn": "sky Haumea \u2013 J Makemake",
+   "tn_value": 50.29172,
+   "base": "TT",
+   "base_value": 19.15895,
+   "ratio": "21/8",
+   "dir": "TN/TT",
+   "err_pct": 0.001,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Haumea\u2013Orcus",
+   "plane": "Flat",
+   "tn": "J Haumea \u2013 sky Orcus",
+   "tn_value": 45.56661,
+   "base": "NN",
+   "base_value": 60.75218,
+   "ratio": "4/3",
+   "dir": "NN/TN",
+   "err_pct": 0.0054,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Haumea\u2013Transpluto",
+   "plane": "Flat",
+   "tn": "J Haumea \u2013 sky Transpluto",
+   "tn_value": 34.66647,
+   "base": "TT",
+   "base_value": 60.6684,
+   "ratio": "7/4",
+   "dir": "TT/TN",
+   "err_pct": 0.0034,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Gonggong\u2013Quaoar",
+   "plane": "RA",
+   "tn": "J Gonggong \u2013 sky Quaoar",
+   "tn_value": 54.59817,
+   "base": "NN",
+   "base_value": 95.546,
+   "ratio": "7/4",
+   "dir": "NN/TN",
+   "err_pct": 0.0008,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Gonggong\u2013Quaoar",
+   "plane": "Dec",
+   "tn": "sky Gonggong \u2013 J Quaoar",
+   "tn_value": 1.94819,
+   "base": "TT",
+   "base_value": 3.89676,
+   "ratio": "2",
+   "dir": "TT/TN",
+   "err_pct": 0.0097,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Quaoar\u2013Transpluto",
+   "plane": "GC",
+   "tn": "sky Quaoar \u2013 J Transpluto",
+   "tn_value": 131.23962,
+   "base": "NN",
+   "base_value": 91.8628,
+   "ratio": "10/7",
+   "dir": "TN/NN",
+   "err_pct": 0.0054,
+   "band": "near"
+  },
+  {
+   "chart": "J",
+   "pair": "Orcus\u2013Transpluto",
+   "plane": "RA",
+   "tn": "sky Orcus \u2013 J Transpluto",
+   "tn_value": 12.01469,
+   "base": "NN",
+   "base_value": 15.01792,
+   "ratio": "5/4",
+   "dir": "NN/TN",
+   "err_pct": 0.003,
+   "band": "tight"
+  },
+  {
+   "chart": "J",
+   "pair": "Orcus\u2013Transpluto",
+   "plane": "GC",
+   "tn": "J Orcus \u2013 sky Transpluto",
+   "tn_value": 25.95088,
+   "base": "TT",
+   "base_value": 21.62314,
+   "ratio": "6/5",
+   "dir": "TN/TT",
+   "err_pct": 0.012,
+   "band": "near"
+  }
+ ],
+ "splits": [
+  {
+   "moved": "H Makemake",
+   "to": "H Mercury",
+   "plane": "RA",
+   "span": 179.15868,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 176.71405,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "H Mars",
+   "plane": "RA",
+   "span": 100.65542,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 98.2108,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "H Jupiter",
+   "plane": "RA",
+   "span": 32.10721,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 29.66259,
+   "other_num": null,
+   "parts_ratio": [
+    "12",
+    1.115
+   ],
+   "span_ratio": [
+    "10/9",
+    2.5827
+   ]
+  },
+  {
+   "moved": "H Makemake",
+   "to": "H Saturn",
+   "plane": "RA",
+   "span": 84.60218,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 82.15755,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "H Neptune",
+   "plane": "RA",
+   "span": 152.26353,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 149.81891,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "H Pluto",
+   "plane": "RA",
+   "span": 97.81587,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 95.37124,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "H Chiron",
+   "plane": "RA",
+   "span": 164.21496,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 161.77033,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "H Juno",
+   "plane": "RA",
+   "span": 165.97231,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 163.52769,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "H Vesta",
+   "plane": "RA",
+   "span": 79.8092,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 77.36457,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "H Ketu",
+   "plane": "RA",
+   "span": 117.52526,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 115.08063,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "H Haumea",
+   "plane": "RA",
+   "span": 18.10538,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 15.66075,
+   "other_num": null,
+   "parts_ratio": [
+    "19/3",
+    1.1505
+   ],
+   "span_ratio": [
+    "7/6",
+    0.9058
+   ]
+  },
+  {
+   "moved": "H Makemake",
+   "to": "H Gonggong",
+   "plane": "RA",
+   "span": 141.7112,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 139.26658,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "H Quaoar",
+   "plane": "RA",
+   "span": 76.84559,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 74.40096,
+   "other_num": null,
+   "parts_ratio": [
+    "30",
+    1.4483
+   ],
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "J Sun",
+   "plane": "RA",
+   "span": 57.49823,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 55.05361,
+   "other_num": null,
+   "parts_ratio": [
+    "23",
+    2.0858
+   ],
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "J Mercury",
+   "plane": "RA",
+   "span": 59.81519,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 57.37056,
+   "other_num": null,
+   "parts_ratio": [
+    "23",
+    2.0349
+   ],
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "J Venus",
+   "plane": "RA",
+   "span": 28.10019,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 25.65556,
+   "other_num": null,
+   "parts_ratio": [
+    "21/2",
+    0.0507
+   ],
+   "span_ratio": [
+    "10/9",
+    1.4242
+   ]
+  },
+  {
+   "moved": "H Makemake",
+   "to": "J Mars",
+   "plane": "RA",
+   "span": 172.86613,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 170.4215,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "J Saturn",
+   "plane": "RA",
+   "span": 78.00398,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 75.55935,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "J Uranus",
+   "plane": "RA",
+   "span": 75.48989,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 73.04526,
+   "other_num": null,
+   "parts_ratio": [
+    "30",
+    0.4002
+   ],
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "J Neptune",
+   "plane": "RA",
+   "span": 84.97365,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 82.52903,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "J Pluto",
+   "plane": "RA",
+   "span": 31.11309,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 28.66846,
+   "other_num": null,
+   "parts_ratio": [
+    "23/2",
+    1.9751
+   ],
+   "span_ratio": [
+    "10/9",
+    2.3255
+   ]
+  },
+  {
+   "moved": "H Makemake",
+   "to": "J Ceres",
+   "plane": "RA",
+   "span": 160.37127,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 157.92664,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "J Pallas",
+   "plane": "RA",
+   "span": 115.33426,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 112.88964,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "J Vesta",
+   "plane": "RA",
+   "span": 26.95845,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 24.51383,
+   "other_num": null,
+   "parts_ratio": [
+    "10",
+    0.2764
+   ],
+   "span_ratio": [
+    "10/9",
+    1.0248
+   ]
+  },
+  {
+   "moved": "H Makemake",
+   "to": "J Rahu",
+   "plane": "RA",
+   "span": 146.18526,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 143.74064,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "J Gonggong",
+   "plane": "RA",
+   "span": 133.55229,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 131.10766,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": null
+  },
+  {
+   "moved": "H Makemake",
+   "to": "J Quaoar",
+   "plane": "RA",
+   "span": 38.00629,
+   "moved_part": 2.44463,
+   "move_num": "22/9",
+   "other_part": 35.56167,
+   "other_num": null,
+   "parts_ratio": [
+    "29/2",
+    0.3233
+   ],
+   "span_ratio": [
+    "10/9",
+    3.8131
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "H Sun",
+   "plane": "Dec",
+   "span": 38.98266,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 18.98517,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": [
+    "2",
+    2.6661
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "H Mercury",
+   "plane": "Dec",
+   "span": 26.76892,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 6.77143,
+   "other_num": null,
+   "parts_ratio": [
+    "3",
+    1.5594
+   ],
+   "span_ratio": [
+    "4",
+    1.1696
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "H Venus",
+   "plane": "Dec",
+   "span": 46.42245,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 26.42496,
+   "other_num": null,
+   "parts_ratio": [
+    "4/3",
+    0.894
+   ],
+   "span_ratio": [
+    "7/4",
+    0.3866
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "H Uranus",
+   "plane": "Dec",
+   "span": 34.53336,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 14.53587,
+   "other_num": null,
+   "parts_ratio": [
+    "11/8",
+    0.0534
+   ],
+   "span_ratio": [
+    "19/8",
+    0.0309
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "H Chiron",
+   "plane": "Dec",
+   "span": 27.248,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 7.25051,
+   "other_num": null,
+   "parts_ratio": [
+    "11/4",
+    0.2939
+   ],
+   "span_ratio": [
+    "15/4",
+    0.2155
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "H Ceres",
+   "plane": "Dec",
+   "span": 52.15692,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 32.15943,
+   "other_num": null,
+   "parts_ratio": [
+    "8/5",
+    0.5108
+   ],
+   "span_ratio": [
+    "13/8",
+    0.1955
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "H Pallas",
+   "plane": "Dec",
+   "span": 20.97766,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 0.98017,
+   "other_num": null,
+   "parts_ratio": [
+    "20",
+    2.01
+   ],
+   "span_ratio": [
+    "21",
+    1.9142
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "H Juno",
+   "plane": "Dec",
+   "span": 25.17836,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 5.18087,
+   "other_num": null,
+   "parts_ratio": [
+    "27/7",
+    0.0707
+   ],
+   "span_ratio": [
+    "29/6",
+    0.549
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "H Rahu",
+   "plane": "Dec",
+   "span": 41.67227,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 21.67478,
+   "other_num": null,
+   "parts_ratio": [
+    "10/9",
+    2.4513
+   ],
+   "span_ratio": [
+    "17/9",
+    1.7855
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "H Eris",
+   "plane": "Dec",
+   "span": 21.8698,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 1.87231,
+   "other_num": null,
+   "parts_ratio": [
+    "21/2",
+    1.7203
+   ],
+   "span_ratio": [
+    "23/2",
+    1.5707
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "H Sedna",
+   "plane": "Dec",
+   "span": 31.70923,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 11.71174,
+   "other_num": null,
+   "parts_ratio": [
+    "12/7",
+    0.3973
+   ],
+   "span_ratio": [
+    "19/7",
+    0.2509
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "H Haumea",
+   "plane": "Dec",
+   "span": 41.08161,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 21.08412,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": [
+    "2",
+    2.5769
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "H Makemake",
+   "plane": "Dec",
+   "span": 48.8808,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 28.88331,
+   "other_num": null,
+   "parts_ratio": [
+    "13/9",
+    0.0068
+   ],
+   "span_ratio": [
+    "12/7",
+    1.2793
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "H Transpluto",
+   "plane": "Dec",
+   "span": 35.04983,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 15.05234,
+   "other_num": null,
+   "parts_ratio": [
+    "4/3",
+    0.3602
+   ],
+   "span_ratio": [
+    "7/3",
+    0.2058
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "J Mars",
+   "plane": "Dec",
+   "span": 27.00313,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 7.00564,
+   "other_num": null,
+   "parts_ratio": [
+    "20/7",
+    0.0931
+   ],
+   "span_ratio": [
+    "27/7",
+    0.0689
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "J Jupiter",
+   "plane": "Dec",
+   "span": 42.99573,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 22.99824,
+   "other_num": "23",
+   "parts_ratio": [
+    "8/7",
+    0.6299
+   ],
+   "span_ratio": [
+    "15/8",
+    0.2921
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "J Pluto",
+   "plane": "Dec",
+   "span": 22.70422,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 2.70673,
+   "other_num": null,
+   "parts_ratio": [
+    "22/3",
+    0.7464
+   ],
+   "span_ratio": [
+    "25/3",
+    0.6568
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "J Chiron",
+   "plane": "Dec",
+   "span": 40.46169,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 20.4642,
+   "other_num": null,
+   "parts_ratio": null,
+   "span_ratio": [
+    "2",
+    1.1403
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "J Pallas",
+   "plane": "Dec",
+   "span": 21.40867,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 1.41118,
+   "other_num": null,
+   "parts_ratio": [
+    "14",
+    1.2197
+   ],
+   "span_ratio": [
+    "15",
+    1.1384
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "J Juno",
+   "plane": "Dec",
+   "span": 23.89037,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 3.89288,
+   "other_num": null,
+   "parts_ratio": [
+    "26/5",
+    1.2127
+   ],
+   "span_ratio": [
+    "25/4",
+    1.809
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "J Ketu",
+   "plane": "Dec",
+   "span": 31.93386,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 11.93637,
+   "other_num": null,
+   "parts_ratio": [
+    "5/3",
+    0.5205
+   ],
+   "span_ratio": [
+    "8/3",
+    0.3253
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "J Sedna",
+   "plane": "Dec",
+   "span": 27.60632,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 7.60883,
+   "other_num": null,
+   "parts_ratio": [
+    "21/8",
+    0.1218
+   ],
+   "span_ratio": [
+    "29/8",
+    0.0882
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "J Haumea",
+   "plane": "Dec",
+   "span": 46.37528,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 26.37779,
+   "other_num": null,
+   "parts_ratio": [
+    "4/3",
+    1.0709
+   ],
+   "span_ratio": [
+    "7/4",
+    0.4639
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "J Makemake",
+   "plane": "Dec",
+   "span": 59.48197,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 39.48448,
+   "other_num": null,
+   "parts_ratio": [
+    "2",
+    1.2764
+   ],
+   "span_ratio": [
+    "3/2",
+    0.431
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "J Orcus",
+   "plane": "Dec",
+   "span": 27.98588,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 7.98839,
+   "other_num": null,
+   "parts_ratio": [
+    "5/2",
+    0.1328
+   ],
+   "span_ratio": [
+    "7/2",
+    0.0948
+   ]
+  },
+  {
+   "moved": "J Mercury",
+   "to": "J Transpluto",
+   "plane": "Dec",
+   "span": 38.10072,
+   "moved_part": 19.99749,
+   "move_num": "20",
+   "other_part": 18.10323,
+   "other_num": null,
+   "parts_ratio": [
+    "10/9",
+    0.5827
+   ],
+   "span_ratio": [
+    "19/9",
+    0.3067
+   ]
+  }
+ ],
+ "pair_sets": [],
+ "node": {
+  "rahu_rahu_ra": 151.34,
+  "rahu_ketu_ra": 28.66,
+  "rahu_rahu_dec": 25.7726
+ }
+}

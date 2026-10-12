@@ -1,24 +1,10 @@
 #!/usr/bin/env python3
 """layer1_reproduce.py RACE — check Layer 1 output contains every item found by hand in that race's winner read.
 Expected items per race are listed below (from docs/classic/<race>/winner_read.md, after checker corrections)."""
-import sys, json
+import sys, json, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-def link(I,kind,a,b,pl=None,num=None,close=None):
-    for l in I['links']:
-        if l['kind']==kind and {l['a'],l['b']}=={a,b} or (l['kind']==kind and l['a']==a and l['b']==b):
-            if num and l['nums'].get(pl,{}).get('num')!=num: continue
-            if close and not l['close']: continue
-            return True
-    return False
-def strike(I,sky,tgt,pl,num): return any(s['sky']==sky and s['target']==tgt and s['plane']==pl and s['num']==num for s in I['strikes'])
-def move(I,c,b,pl,num): return any(m['chart']==c and m['body']==b and m['plane']==pl and m['num']==num for m in I['movement'])
-def ratio(I,c,pair,pl,r): return any(x['chart']==c and x['pair']==pair and x['plane']==pl and x['ratio']==r for x in I['ratios'])
-def same(I,b,pl,rs): return any(s['body']==b and s['plane']==pl and sorted(s['ratios'])==sorted(rs) for s in I['same_body'])
-def eqpt(I,c,b,n): return any(p['chart']==c and p['body']==b and p['eq_num']==n for p in I['points'])
-def eqr(I,b,pair,r,band): return any(e['body']==b and e['pair']==pair and e['ratio']==r and e['band']==band for e in I['eq_ratios'])
-def shared(I,pair,pl): return any(s['pair']==pair and s['plane']==pl for s in I['shared'])
-def pset(I,pair,pl): return any(s['pair']==pair and s['plane']==pl for s in I['pair_sets'])
-def sky(race,pair,pl,num): return any(s['pair']==pair and s['plane']==pl and s['num']==num for s in json.load(open(f'docs/classic/{race}/layer1/sky.json')))
+from l1helpers import *
 Y='york_1615_20240515'
 EXP = {
  'dettori_ascot_19960928': ('P01', [
@@ -103,6 +89,10 @@ EXP = {
   ('23 cross H Ketu–J Pallas Dec 9', lambda I: link(I,'cross','H Ketu','J Pallas','Dec','9')),
  ]),
 }
+import os, importlib.util, glob as _g
+for _f in _g.glob(os.path.join(os.path.dirname(__file__), 'layer1_expect', '*.py')):
+    _sp = importlib.util.spec_from_file_location('exp', _f); _m = importlib.util.module_from_spec(_sp); _sp.loader.exec_module(_m)
+    EXP[_m.RACE] = (_m.P, _m.CHECKS)
 race = sys.argv[1]; P, checks = EXP[race]
 I = json.load(open(f'docs/classic/{race}/layer1/{P}.json'))
 miss = 0
