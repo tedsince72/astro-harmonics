@@ -16,6 +16,8 @@ Lists everything, judges nothing. For each runner workbook (sheets TRANS = race 
   eq_ratios   Equator S/H, S/J, H/J simple (p <= 30, q <= 9, not 1) within EQ_NEAR_TOL; band 'tight' (<= EQ_RATIO_TOL) or 'near'
   pair_sets   one pair, horse : jockey : sky values all in simple ratio (p <= 30, q <= 9; 1 allowed, not all three 1), worst <= PAIRSET_TOL
               (as three_way_all.py; Neptune–node sets recur)
+  pair_family on one pair, sky-to-natal values vs the natal pair (NN) and sky pair (TT), simple, tight <= FAM_TOL / near <= FAM_NEAR
+  splits      a moved body lying between its natal place and another natal body (RA/Dec): span = movement + other part, with ratios
   node        horse node vs jockey node (Rahu–Rahu and Rahu–Ketu) RA offsets
 And once per race: sky pair whole/ninth values (sky numbers), the same for every runner.
 Every item carries the exact value and its offset. Stars and Moon are not read. Output: OUTDIR/<P>.json, <P>.txt, sky.json, sky.txt."""
@@ -35,8 +37,9 @@ EQ_NEAR_TOL = 0.0003                  # 0.03 %  near band (Eddie 12 Oct: list, m
 CLOSE_RA, CLOSE_DEC_IN, CLOSE_DEC_X = 1.5, 0.6, 0.3
 MIN_V = 0.5
 PAIRSET_TOL = 0.0005                  # 0.05 %
+FAM_TOL, FAM_NEAR = 0.00005, 0.0002   # pair-family ratios: tight 0.005 %, near 0.02 % (Eddie 12 Oct, Dettori Sun–Chiron)
 PMAX, QMAX = 30, 9
-VERSION = 'L1 v1.2 (12 Oct 2026)'
+VERSION = 'L1 v1.3 (12 Oct 2026)'
 
 def rd(a, b): return abs((a[0] - b[0] + 180) % 360 - 180)
 def dd(a, b): return abs(a[1] - b[1])
@@ -211,6 +214,48 @@ def inventory(path):
                            'band': 'tight' if r[1] <= EQ_RATIO_TOL else 'near'})
     inv['eq_ratios'] = er
 
+    # pair family: on one pair A–B, sky-to-natal distances (sky A – natal B, natal A – sky B) against the natal pair (NN) and the sky pair (TT)
+    pf = []
+    for c in 'HJ':
+        N = C[c]
+        for a, b in itertools.combinations(BOD, 2):
+            if node_pair(a, b): continue
+            for pl, f in PLANES:
+                nn, tt = f(N[a], N[b]), f(S[a], S[b])
+                for lab, tn in ((f'sky {a} – {c} {b}', f(S[a], N[b])), (f'{c} {a} – sky {b}', f(N[a], S[b]))):
+                    for base, bv in (('NN', nn), ('TT', tt)):
+                        if min(tn, bv) < MIN_V: continue
+                        r = frac(max(tn, bv) / min(tn, bv))
+                        if r and r[1] <= FAM_NEAR:
+                            pf.append({'chart': c, 'pair': f'{a}–{b}', 'plane': pl, 'tn': lab, 'tn_value': round(tn, 5), 'base': base,
+                                       'base_value': round(bv, 5), 'ratio': r[0], 'dir': 'TN/' + base if tn >= bv else base + '/TN',
+                                       'err_pct': round(r[1] * 100, 4), 'band': 'tight' if r[1] <= FAM_TOL else 'near'})
+    inv['pair_family'] = pf
+
+    # splits: a moved body (sky X at a whole/ninth from natal X, movement window) lying BETWEEN natal X and natal Y
+    # (same chart or the other natal chart), in Dec or RA. Parts: natal X–sky X (the movement) and sky X–natal Y; span natal X–natal Y.
+    # No ratio filter: the gate is the movement. Best simple ratio of the parts and of span/part are reported with errors.
+    sp = []
+    def best(x, y):
+        if min(x, y) < 1e-9: return None
+        q = max(x, y) / min(x, y)
+        if q - 1 <= 1e-9: return ('1', 0.0)
+        r = frac(q); return (r[0], round(r[1] * 100, 4)) if r else None
+    for m in inv['movement']:
+        if m['plane'] not in ('RA', 'Dec'): continue
+        x, c = m['body'], m['chart']; f = rd if m['plane'] == 'RA' else dd
+        for c2 in 'HJ':
+            for y in BOD:
+                if c2 == c and (y == x or node_pair(x, y)): continue
+                X0, X1, Y = C[c][x], S[x], C[c2][y]
+                span, p1, p2 = f(X0, Y), f(X0, X1), f(X1, Y)
+                if span < MIN_V or p2 < MIN_V or abs(p1 + p2 - span) > 1e-6: continue
+                n2 = num(p2)
+                sp.append({'moved': f'{c} {x}', 'to': f'{c2} {y}', 'plane': m['plane'], 'span': round(span, 5), 'moved_part': round(p1, 5),
+                           'move_num': m['num'], 'other_part': round(p2, 5), 'other_num': n2[0] if n2 else None,
+                           'parts_ratio': best(p1, p2), 'span_ratio': best(span, p2)})
+    inv['splits'] = sp
+
     # pair sets: horse : jockey : sky on one pair
     ps = []
     def frac1(x):
@@ -275,6 +320,13 @@ def text(inv):
     L.append('-- Equator ratios')
     for e in inv['eq_ratios']:
         L.append(f"   {e['body']:10s} {e['pair']} {e['values']} {e['dir']} {e['ratio']} ({e['err_pct']:.4f}%) {e['band']}")
+    L.append('-- pair family (sky-to-natal vs natal pair NN / sky pair TT, same pair)')
+    for s in sorted(inv['pair_family'], key=lambda s: s['err_pct']):
+        L.append(f"   {s['chart']} {s['pair']:22s} {s['plane']:4s} {s['tn']:28s} {s['tn_value']:10.5f} vs {s['base']} {s['base_value']:10.5f}  {s['dir']} {s['ratio']} ({s['err_pct']:.4f}%) {s['band']}")
+    L.append('-- splits (moved body lying between its natal place and another natal body)')
+    for s in inv['splits']:
+        L.append(f"   {s['moved']:12s} -> {s['to']:12s} {s['plane']:3s} span {s['span']:9.5f} = moved {s['moved_part']:.5f} ({s['move_num']}) + {s['other_part']:.5f}"
+                 + (f" ({s['other_num']})" if s['other_num'] else '') + f"  parts {s['parts_ratio']}  span/other {s['span_ratio']}")
     L.append('-- pair sets (horse : jockey : sky on one pair)')
     for s in sorted(inv['pair_sets'], key=lambda s: s['worst_pct']):
         L.append(f"   {s['pair']:22s} {s['plane']:4s} H {s['horse']:.4f} J {s['jockey']:.4f} S {s['sky']:.4f}  H:J {s['H:J']} H:S {s['H:S']} J:S {s['J:S']}  worst {s['worst_pct']:.4f}%")
@@ -300,4 +352,4 @@ if __name__ == '__main__':
             json.dump(sky, open(f'{O}/sky.json', 'w'), indent=1)
             open(f'{O}/sky.txt', 'w').write('\n'.join(f"{s['pair']:22s} {s['plane']:4s} {s['value']:10.5f} = {s['num']} ({s['off']:+.5f})" for s in sky) + '\n')
         print(f"{t} {inv['runner']}: links {len(inv['links'])} strikes {len(inv['strikes'])} ratios {len(inv['ratios'])} moves {len(inv['movement'])} "
-              f"same_body {len(inv['same_body'])} shared {len(inv['shared'])} eq_ratios {len(inv['eq_ratios'])} pair_sets {len(inv['pair_sets'])}")
+              f"same_body {len(inv['same_body'])} shared {len(inv['shared'])} eq_ratios {len(inv['eq_ratios'])} pair_sets {len(inv['pair_sets'])} family {len(inv['pair_family'])} splits {len(inv['splits'])}")

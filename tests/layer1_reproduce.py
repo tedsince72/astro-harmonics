@@ -21,6 +21,11 @@ def pset(I,pair,pl): return any(s['pair']==pair and s['plane']==pl for s in I['p
 def sky(race,pair,pl,num): return any(s['pair']==pair and s['plane']==pl and s['num']==num for s in json.load(open(f'docs/classic/{race}/layer1/sky.json')))
 Y='york_1615_20240515'
 EXP = {
+ 'dettori_ascot_19960928': ('P01', [
+  ('Dettori: sky Sun moved Dec 21 from J Sun', lambda I: move(I,'J','Sun','Dec','21')),
+  ('Dettori: sky Sun splits J Sun–Chiron Dec 28.014 = 21 + 7.014 (span/other 4)', lambda I: any(x['moved']=='J Sun' and x['to']=='J Chiron' and x['plane']=='Dec' and x['move_num']=='21' and x['span_ratio'][0]=='4' for x in I['splits'])),
+  ('Diffident: H Sun–Chiron Dec sky/natal 11/2', lambda I: ratio(I,'H','Sun–Chiron','Dec','11/2')),
+ ]),
  'newmarket_july_1745_20240816': ('P01', [
   ('cross link H Uranus–J Venus Dec 0.060', lambda I: any(l['kind']=='cross' and l['a']=='H Uranus' and l['b']=='J Venus' and abs(l['Dec']-0.060)<0.001 for l in I['links'])),
   ('sky Venus -> H Uranus GC 123', lambda I: any(s['sky']=='Venus' and s['target']=='H Uranus' and s['plane']=='GC' and s['num']=='123' for s in I['strikes'])),

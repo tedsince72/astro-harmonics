@@ -23,3 +23,14 @@ Planes: RA, Dec, Flat, GC (+ Equator). Rahu and Ketu both listed (duplicates by 
   window and is not listed as a strike; its two roots (sky Sun Equator 19, horse Rahu Equator 23) are listed, and Layer 2 derives it.
   The withdrawn Quaoar Flat same-body set (63/8, p > 30) is correctly absent.
 - Newmarket July 17:45: 30/30.
+
+## v1.3 (12 Oct 2026, Eddie: Dettori Sun–Chiron, 'I always come back to this in Dettori's chart')
+- pair_family: on one pair A–B, sky A – natal B and natal A – sky B against the natal pair (NN) and the sky pair (TT); simple, tight <= 0.005%,
+  near <= 0.02%. About 115–150 per runner (near included).
+- splits: a moved body (sky X at a whole/ninth from natal X) lying between natal X and another natal body Y (same or other chart), RA or Dec:
+  span = movement + other part, with the best simple ratio of the parts and of span/other, and their errors. No ratio filter (the movement is the
+  gate); 0–136 per runner. Layer 3 will judge them.
+- Dettori 14:35 (Diffident): sky Sun moved Dec 20.99966 (21) from Dettori's Sun and lies between his Sun and Chiron: span 28.01379 = 21 + 7.01412,
+  span/other 4 (0.152%), parts 3 (0.203%). Diffident's Sun–Chiron Dec sky 5.8285 / natal 32.0577 = 11/2 (0.0030%). Sky Sun–Chiron RA 11.11006
+  (100/9 off 0.00105; the active file has 11.11058, off 0.00053 — the two files' sky positions differ slightly).
+- Tests: Dettori 3/3, Newmarket July 30/30, York 16:15 41/41.
