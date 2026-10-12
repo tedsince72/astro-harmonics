@@ -57,3 +57,7 @@ and reads it body by body.
 in previous builds.' One layer at a time, each checked on the winners (and the field) before the next is added on top.
 Observation to test as a layer: a horse–jockey cross link struck on both ends by 2+ different sky bodies — only the winner had one at Perth (Ceres->Uranus)
 and Nottingham (horse Sedna – Dawson Chiron, 3 bodies).
+
+## No control layer (Eddie, 12 Oct 2026)
+'We don't need the control because often it hits at chance but it's in the detail where it is significant.' Layers report exact offsets,
+how the links fit and how rare they are within the field; no wrong-pairing control.
