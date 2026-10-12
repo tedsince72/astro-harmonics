@@ -14,3 +14,6 @@ Claims to check (winner file __P13):
 4. Brace node: Jupiter–Rahu same Dec 0.1255; Brace Saturn–Venus same Dec 0.0396; Brace Pluto–Rahu RA natal/sky 13/6 (0.0038%); Rahu–Gonggong Flat 28/9 (0.0006%).
 5. Other: horse Sun–Chiron Flat 17/5 (0.0006%); horse Venus–Ceres great circle 11/6 (0.0004%); horse Chiron–Transpluto RA 9/8 (0.0006%);
    Equator Makemake horse/jockey 25.3300 / 31.6614 = 4/5 (0.003%); Orcus sky/horse 13.0416 / 9.4826 = 11/8 (0.023%); Brace Transpluto |Dec| 13.00316 (13).
+
+## Checker (independent, recomputed): header and 1–5 confirmed
+- Only swap in the field (Ceres/Juno); Mercury RA worst 0.00396% tightest in race (next P01 Uranus Dec 0.0064%); Brace Mars–Jupiter Dec 50.0008 struck by Sun, Uranus, Eris.
