@@ -1,5 +1,5 @@
-== 1 Reserve Tank / 1 Brendan Powell   [wincanton_1420_20220321__P01.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 42; eq_ratios root 2; hj_ratios root 23; links mirror 1, root 105; movement root 7; pair_family root 151; points root 2; ratios root 24; same_body root 1; shared root 8; sky race_level 9, root 7; sky_close race_level 10; splits from_numbers 1, root 82; strikes derived 5, duplicate 3, mirror 4, root 62
+== 1 Reserve Tank / 1 Brendan Powell   [wincanton_1420_20220321__P01.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 42; eq_ratios root 2; hj_ratios root 23; links mirror 1, root 110; movement root 7; node root 1; pair_family root 151; points race_level 2; ratios root 24; same_body root 1; shared root 8; sky race_level 16; sky_close race_level 10; splits from_numbers 1, root 82; strikes derived 6, duplicate 3, mirror 3, root 62
 -- Dec groups (3+ points joined by numbers)
    H Eris, H Sedna, J Chiron, J Jupiter, J Pallas, J Quaoar, S Jupiter, S Saturn
    J Ceres, J Haumea, J Ketu, J Mars, J Saturn, J Vesta, S Haumea
@@ -43,7 +43,7 @@
    DERIVED  sky Saturn -> J Rahu RA 105.00240 = 105
             <- strike    sky Saturn -> H Quaoar RA 56.99973 = 57
             <- cross     cross H Quaoar–J Rahu RA 48.00266 = 48
-   MIRROR   sky Saturn -> J Ketu RA 74.99760 = 75
+   DERIVED  sky Saturn -> J Ketu RA 74.99760 = 75
             <- strike    sky Saturn -> H Quaoar RA 56.99973 = 57
             <- cross     cross H Quaoar–J Rahu RA 48.00266 = 48
             <- axis      node axis (J)
@@ -54,8 +54,6 @@
             <- strike    sky Pluto -> J Rahu RA 81.99572 = 82
             <- axis      node axis (J)
 -- roots among number items (Dec/RA)
-   S Ceres Equator 23.55462 = 212/9
-   S Pallas Equator 6.00223 = 6
    J J Mars–J Ketu Dec 0.77758 = 7/9
    H H Venus–H Transpluto Dec 18.55581 = 167/9
    H H Saturn–H Uranus Dec 20.33306 = 183/9
@@ -78,11 +76,6 @@
    J Jupiter moved Dec 15.66635 = 141/9
    H Orcus moved Dec 4.00450 = 4
    J Sun moved Dec 18.99467 = 19
-   sky Vesta–Sedna Dec 27.11116 = 244/9
-   sky Juno–Eris Dec 6.88854 = 62/9
-   sky Makemake–Gonggong Dec 33.99950 = 34
-   sky Uranus–Orcus Dec 27.00289 = 27
-   sky Jupiter–Saturn Dec 10.00329 = 10
    sky Mars -> J Makemake Dec 52.55552 = 473/9
    sky Juno -> H Haumea Dec 26.33339 = 237/9
    sky Saturn -> H Sedna Dec 22.66660 = 204/9
@@ -115,8 +108,6 @@
    cross H Pallas–J Pallas RA 94.99675 = 95
    cross H Quaoar–J Gonggong RA 64.00494 = 64
    H Venus moved RA 29.00969 = 29
-   sky Mercury–Neptune RA 3.11117 = 28/9
-   sky Sun–Juno RA 41.99713 = 42
    sky Transpluto -> J Mercury RA 168.66668 = 1518/9
    sky Haumea -> H Eris RA 168.11099 = 1513/9
    sky Quaoar -> J Eris RA 105.22209 = 947/9

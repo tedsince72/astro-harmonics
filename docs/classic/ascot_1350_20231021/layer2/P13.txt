@@ -1,5 +1,5 @@
-== 7 Mill Stream / 7 William Buick   [ascot_1350_20231021__P13.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 39; eq_ratios root 4; hj_ratios root 11; links derived 3, root 110; movement root 13; pair_family root 129; pair_sets root 2; points root 7; ratios root 24; same_body root 1; shared root 2; sky derived 1, race_level 13, root 5; sky_close race_level 9; splits from_numbers 1, root 70; strikes derived 13, duplicate 2, mirror 2, root 73
+== 7 Mill Stream / 7 William Buick   [ascot_1350_20231021__P13.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 39; eq_ratios root 4; hj_ratios root 11; links derived 3, root 113; movement root 13; node root 1; pair_family root 129; pair_sets root 2; points race_level 4, root 3; ratios root 24; same_body root 1; shared root 2; sky race_level 19; sky_close race_level 9; splits from_numbers 1, root 70; strikes derived 13, duplicate 2, mirror 2, root 73
 -- Dec groups (3+ points joined by numbers)
    EQ, H Mercury, H Pallas, H Pluto, J Saturn, S Makemake, S Neptune, S Saturn, S Transpluto, S Vesta
    H Makemake, H Orcus, J Orcus, J Pallas, S Venus
@@ -23,9 +23,6 @@
    DERIVED  cross H Transpluto–J Rahu Dec 16.66701 = 150/9
             <- natal     H H Sedna–H Transpluto Dec 2.88913 = 26/9
             <- cross     cross H Sedna–J Rahu Dec 13.77787 = 124/9
-   DERIVED  sky Neptune–Transpluto Dec 13.22247 = 119/9
-            <- equator   S Neptune Equator 3.11107 = 28/9
-            <- equator   S Transpluto Equator 10.11139 = 91/9
    DERIVED  sky Transpluto -> H Pluto Dec 32.11112 = 289/9
             <- equator   S Transpluto Equator 10.11139 = 91/9
             <- equator   H Pluto Equator 21.99973 = 22
@@ -53,12 +50,12 @@
    DERIVED  sky Neptune -> J Pallas RA 50.00004 = 50
             <- strike    sky Neptune -> H Sedna RA 61.33337 = 552/9
             <- cross     cross H Sedna–J Pallas RA 111.33341 = 1002/9
-   MIRROR   sky Orcus -> H Ketu RA 113.77793 = 1024/9
-            <- strike    sky Orcus -> H Rahu RA 66.22207 = 596/9
-            <- axis      node axis (H)
    DERIVED  sky Sedna -> J Uranus RA 152.55541 = 1373/9
             <- strike    sky Sedna -> J Venus RA 18.55549 = 167/9
             <- natal     J J Venus–J Uranus RA 171.11090 = 1540/9
+   MIRROR   sky Orcus -> H Ketu RA 113.77793 = 1024/9
+            <- strike    sky Orcus -> H Rahu RA 66.22207 = 596/9
+            <- axis      node axis (H)
    DERIVED  sky Gonggong -> H Pluto RA 39.99871 = 40
             <- skynum    sky Mercury–Gonggong RA 129.99946 = 130
             <- strike    sky Mercury -> H Pluto RA 90.00075 = 90
@@ -80,13 +77,9 @@
             <- axis      node axis (S)
             <- strike    sky Rahu -> H Pallas RA 92.00321 = 92
 -- roots among number items (Dec/RA)
-   S Neptune Equator 3.11107 = 28/9
    J Saturn Equator 22.33318 = 201/9
    H Pluto Equator 21.99973 = 22
-   S Transpluto Equator 10.11139 = 91/9
    H Pallas Equator 12.33276 = 111/9
-   S Vesta Equator 18.99773 = 19
-   S Saturn Equator 12.99441 = 13
    J J Juno–J Eris Dec 23.88889 = 215/9
    J J Makemake–J Gonggong Dec 56.55535 = 509/9
    H H Jupiter–H Chiron Dec 26.00024 = 26
@@ -100,9 +93,6 @@
    cross H Neptune–J Mercury Dec 27.99798 = 28
    cross H Venus–J Rahu Dec 28.99780 = 29
    cross H Uranus–J Chiron Dec 4.99516 = 5
-   sky Pallas–Eris Dec 2.99900 = 3
-   sky Sun–Sedna Dec 19.00217 = 19
-   sky Makemake–Transpluto Dec 11.00365 = 11
    sky Venus -> H Makemake Dec 16.88899 = 152/9
    sky Eris -> J Ceres Dec 10.55573 = 95/9
    sky Jupiter -> J Venus Dec 4.11135 = 37/9
@@ -139,8 +129,6 @@
    H Quaoar moved RA 2.11217 = 19/9
    H Sedna moved RA 3.00600 = 3
    H Mercury moved RA 141.00871 = 141
-   sky Jupiter–Uranus RA 9.44446 = 85/9
-   sky Mercury–Gonggong RA 129.99946 = 130
    sky Neptune -> H Sedna RA 61.33337 = 552/9
    sky Sedna -> J Venus RA 18.55549 = 167/9
    sky Orcus -> H Rahu RA 66.22207 = 596/9

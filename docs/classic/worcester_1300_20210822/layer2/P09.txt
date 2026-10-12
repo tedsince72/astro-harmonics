@@ -1,5 +1,5 @@
-== 5 Oscar Montel / 5 Brian Hughes   [20210822_worcester_1300__P09.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 36; eq_ratios root 5; hj_ratios root 20; links derived 9, mirror 5, root 112; movement root 6; pair_family root 137; points root 2; ratios root 15; same_body root 3; shared root 4; sky race_level 13, root 8; sky_close race_level 7; splits from_numbers 1, root 55; strikes derived 12, duplicate 5, mirror 1, root 71
+== 5 Oscar Montel / 5 Brian Hughes   [20210822_worcester_1300__P09.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 36; eq_ratios root 5; hj_ratios root 20; links derived 10, mirror 4, root 112; movement root 6; node root 1; pair_family root 137; points race_level 1, root 1; ratios root 15; same_body root 3; shared root 4; sky race_level 21; sky_close race_level 7; splits from_numbers 1, root 55; strikes derived 13, duplicate 5, root 71
 -- Dec groups (3+ points joined by numbers)
    H Chiron, H Eris, H Pluto, H Rahu, J Neptune, J Pluto, J Rahu, J Saturn, J Vesta, S Chiron
    EQ, J Juno, J Mars, S Haumea, S Mercury
@@ -74,7 +74,7 @@
    DERIVED  cross H Rahu–J Mars RA 110.00401 = 110
             <- natal     H H Chiron–H Rahu RA 139.99677 = 140
             <- cross     cross H Chiron–J Mars RA 109.99922 = 110
-   MIRROR   cross H Ketu–J Mars RA 69.99599 = 70
+   DERIVED  cross H Ketu–J Mars RA 69.99599 = 70
             <- axis      node axis (H)
             <- natal     H H Chiron–H Rahu RA 139.99677 = 140
             <- cross     cross H Chiron–J Mars RA 109.99922 = 110
@@ -100,7 +100,7 @@
    DERIVED  sky Transpluto -> J Rahu RA 109.00347 = 109
             <- strike    sky Transpluto -> H Venus RA 141.99855 = 142
             <- cross     cross H Venus–J Rahu RA 32.99508 = 33
-   MIRROR   sky Transpluto -> J Ketu RA 70.99653 = 71
+   DERIVED  sky Transpluto -> J Ketu RA 70.99653 = 71
             <- strike    sky Transpluto -> H Venus RA 141.99855 = 142
             <- cross     cross H Venus–J Rahu RA 32.99508 = 33
             <- axis      node axis (J)
@@ -108,7 +108,6 @@
             <- skynum    sky Saturn–Orcus RA 154.99717 = 155
             <- strike    sky Saturn -> H Haumea RA 102.00117 = 102
 -- roots among number items (Dec/RA)
-   S Haumea Equator 15.66618 = 141/9
    J Juno Equator 6.22113 = 56/9
    J J Pluto–J Vesta Dec 4.77781 = 43/9
    H H Pluto–H Eris Dec 17.11122 = 154/9
@@ -133,9 +132,6 @@
    cross H Jupiter–J Orcus Dec 15.99646 = 16
    J Gonggong moved Dec 10.00373 = 10
    H Sedna moved Dec 0.99579 = 1
-   sky Eris–Makemake Dec 23.88896 = 215/9
-   sky Venus–Pluto Dec 20.33365 = 183/9
-   sky Neptune–Ketu Dec 17.22188 = 155/9
    sky Gonggong -> H Neptune Dec 1.88897 = 17/9
    sky Ketu -> H Uranus Dec 26.55566 = 239/9
    sky Transpluto -> H Saturn Dec 25.77764 = 232/9
@@ -168,11 +164,6 @@
    cross H Quaoar–J Mars RA 169.99573 = 170
    cross H Pallas–J Mercury RA 53.00458 = 53
    cross H Venus–J Rahu RA 32.99508 = 33
-   sky Chiron–Eris RA 16.66666 = 150/9
-   sky Sedna–Quaoar RA 145.44443 = 1309/9
-   sky Mercury–Orcus RA 13.11137 = 118/9
-   sky Saturn–Orcus RA 154.99717 = 155
-   sky Juno–Transpluto RA 95.00296 = 95
    sky Mercury -> H Vesta RA 30.77783 = 277/9
    sky Jupiter -> H Pluto RA 45.22238 = 407/9
    sky Mars -> H Saturn RA 61.55591 = 554/9

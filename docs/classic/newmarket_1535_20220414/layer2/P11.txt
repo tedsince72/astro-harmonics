@@ -1,5 +1,5 @@
-== 6 Sonny Liston / 6 Marco Ghiani   [newmarket_1535_20220414__P11.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 49; eq_ratios root 1; hj_ratios root 16; links derived 2, root 136; movement root 7; pair_family root 149; points root 3; ratios root 11; shared root 9; sky derived 1, race_level 13, root 4; sky_close race_level 7; splits from_numbers 1, root 33; strikes derived 13, duplicate 2, mirror 1, root 78
+== 6 Sonny Liston / 6 Marco Ghiani   [newmarket_1535_20220414__P11.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 49; eq_ratios root 1; hj_ratios root 16; links derived 2, root 137; movement root 7; node root 1; pair_family root 149; points race_level 2, root 1; ratios root 11; shared root 9; sky race_level 18; sky_close race_level 7; splits from_numbers 1, root 33; strikes derived 13, duplicate 2, mirror 1, root 78
 -- Dec groups (3+ points joined by numbers)
    H Sedna, J Eris, J Makemake, J Mars, J Saturn, J Uranus, S Chiron, S Juno, S Ketu
    H Ceres, H Gonggong, H Rahu, J Ceres, J Gonggong, J Sun, S Haumea, S Saturn, S Transpluto
@@ -19,9 +19,6 @@
    DERIVED  cross H Venus–J Orcus Dec 19.66674 = 177/9
             <- cross     cross H Venus–J Ketu Dec 6.55552 = 59/9
             <- natal     J J Ketu–J Orcus Dec 13.11123 = 118/9
-   DERIVED  sky Mars–Makemake Dec 35.99593 = 36
-            <- equator   S Mars Equator 12.99704 = 13
-            <- equator   S Makemake Equator 22.99889 = 23
    DERIVED  sky Juno -> J Uranus Dec 12.11088 = 109/9
             <- strike    sky Juno -> J Eris Dec 1.88879 = 17/9
             <- natal     J J Uranus–J Eris Dec 10.22209 = 92/9
@@ -72,8 +69,6 @@
             <- natal     H H Mercury–H Venus RA 49.00196 = 49
 -- roots among number items (Dec/RA)
    H Mercury Equator 19.66573 = 177/9
-   S Makemake Equator 22.99889 = 23
-   S Mars Equator 12.99704 = 13
    J J Ketu–J Orcus Dec 13.11123 = 118/9
    J J Uranus–J Eris Dec 10.22209 = 92/9
    J J Neptune–J Rahu Dec 33.44459 = 301/9
@@ -94,11 +89,9 @@
    cross H Uranus–J Jupiter Dec 12.00430 = 12
    cross H Mercury–J Pallas Dec 9.00477 = 9
    H Uranus moved Dec 4.99953 = 5
-   sky Saturn–Transpluto Dec 25.44429 = 229/9
-   sky Juno–Ketu Dec 12.99596 = 13
    sky Eris -> H Saturn Dec 21.11104 = 190/9
-   sky Ketu -> J Mars Dec 7.33324 = 66/9
    sky Juno -> J Eris Dec 1.88879 = 17/9
+   sky Ketu -> J Mars Dec 7.33324 = 66/9
    sky Transpluto -> H Rahu Dec 10.22206 = 92/9
    sky Chiron -> J Makemake Dec 25.88868 = 233/9
    sky Sedna -> J Chiron Dec 25.88868 = 233/9
@@ -130,8 +123,6 @@
    cross H Chiron–J Sun RA 36.99611 = 37
    cross H Juno–J Sun RA 97.00452 = 97
    J Venus moved RA 3.00955 = 3
-   sky Mercury–Pallas RA 7.77787 = 70/9
-   sky Neptune–Haumea RA 137.77729 = 1240/9
    sky Venus -> H Pallas RA 132.11110 = 1189/9
    sky Jupiter -> J Neptune RA 50.33338 = 453/9
    sky Chiron -> J Makemake RA 168.11106 = 1513/9

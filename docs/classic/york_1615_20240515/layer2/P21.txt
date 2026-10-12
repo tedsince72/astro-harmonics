@@ -1,5 +1,5 @@
-== 11 On Point / 11 Sean D Bowen   [york_1615_20240515__P21.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 47; eq_ratios mirror 1, root 3; hj_ratios root 25; links derived 8, mirror 2, root 120; movement root 8; pair_family root 138; points root 2; ratios root 21; same_body root 2; shared root 8; sky race_level 9, root 13; sky_close race_level 5; splits root 47; strikes derived 17, duplicate 6, mirror 1, root 51
+== 11 On Point / 11 Sean D Bowen   [york_1615_20240515__P21.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 47; eq_ratios mirror 1, root 3; hj_ratios root 25; links derived 8, mirror 2, root 125; movement root 8; node root 1; pair_family root 138; points race_level 2; ratios root 21; same_body root 2; shared root 8; sky race_level 22; sky_close race_level 5; splits root 47; strikes derived 17, duplicate 6, mirror 1, root 51
 -- Dec groups (3+ points joined by numbers)
    EQ, H Gonggong, H Mars, H Pallas, H Pluto, H Sedna, J Ceres, J Juno, J Saturn, J Uranus, J Venus, S Ceres, S Juno, S Orcus, S Quaoar, S Sun
    H Orcus, H Rahu, H Transpluto, H Uranus, H Vesta, J Sedna
@@ -111,8 +111,6 @@
             <- strike    sky Sun -> J Eris RA 28.00091 = 28
             <- cross     cross H Neptune–J Eris RA 32.00274 = 32
 -- roots among number items (Dec/RA)
-   S Sun Equator 18.99694 = 19
-   S Quaoar Equator 14.99235 = 15
    H H Mercury–H Neptune Dec 7.33335 = 66/9
    H H Pluto–H Pallas Dec 26.77780 = 241/9
    H H Pluto–H Sedna Dec 30.33330 = 273/9
@@ -137,13 +135,6 @@
    cross H Mars–J Uranus Dec 33.99635 = 34
    J Juno moved Dec 2.00037 = 2
    J Ceres moved Dec 5.77833 = 52/9
-   sky Mercury–Haumea Dec 7.00035 = 7
-   sky Mars–Ketu Dec 9.00040 = 9
-   sky Venus–Rahu Dec 11.11069 = 100/9
-   sky Vesta–Eris Dec 25.00094 = 25
-   sky Pallas–Sedna Dec 16.99898 = 17
-   sky Uranus–Pluto Dec 41.00342 = 41
-   sky Juno–Orcus Dec 23.00446 = 23
    sky Chiron -> J Transpluto Dec 3.00002 = 3
    sky Quaoar -> H Gonggong Dec 3.66659 = 33/9
    sky Venus -> H Ceres Dec 16.00025 = 16
@@ -177,12 +168,6 @@
    cross H Uranus–J Gonggong RA 64.00463 = 64
    H Pallas moved RA 89.11148 = 802/9
    J Quaoar moved RA 27.11155 = 244/9
-   sky Uranus–Neptune RA 50.99989 = 51
-   sky Chiron–Sedna RA 41.11080 = 370/9
-   sky Gonggong–Orcus RA 179.55595 = 1616/9
-   sky Uranus–Eris RA 23.66710 = 213/9
-   sky Pluto–Quaoar RA 25.00140 = 25
-   sky Sedna–Haumea RA 158.00470 = 158
    sky Venus -> J Transpluto RA 102.44445 = 922/9
    sky Mars -> H Pluto RA 72.00017 = 72
    sky Jupiter -> H Pallas RA 78.33353 = 705/9

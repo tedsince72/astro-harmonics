@@ -1,10 +1,11 @@
 {
- "version": "L2 v1 (12 Oct 2026)",
+ "version": "L2 v1.1 (12 Oct 2026)",
  "runner": "13 Magical Sunset / 13 Rossa Ryan",
  "workbook": "ascot_1350_20231021__P25.xlsx",
  "tags": {
   "points:7": {
-   "tag": "root",
+   "tag": "race_level",
+   "graph": "root",
    "plane": "Dec"
   },
   "points:33": {
@@ -12,11 +13,13 @@
    "plane": "Dec"
   },
   "points:23": {
-   "tag": "root",
+   "tag": "race_level",
+   "graph": "root",
    "plane": "Dec"
   },
   "points:13": {
-   "tag": "root",
+   "tag": "race_level",
+   "graph": "root",
    "plane": "Dec"
   },
   "points:35": {
@@ -24,7 +27,8 @@
    "plane": "Dec"
   },
   "points:5": {
-   "tag": "root",
+   "tag": "race_level",
+   "graph": "root",
    "plane": "Dec"
   },
   "links:46:Dec": {
@@ -144,7 +148,8 @@
    "plane": "Dec"
   },
   "sky:14": {
-   "tag": "derived",
+   "tag": "race_level",
+   "graph": "derived",
    "plane": "Dec",
    "chain": [
     {
@@ -161,23 +166,22 @@
      "b": "EQ",
      "num": "91/9"
     }
-   ],
-   "race_level": true
+   ]
   },
   "sky:16": {
-   "tag": "root",
-   "plane": "Dec",
-   "race_level": true
+   "tag": "race_level",
+   "graph": "root",
+   "plane": "Dec"
   },
   "sky:1": {
-   "tag": "root",
-   "plane": "Dec",
-   "race_level": true
+   "tag": "race_level",
+   "graph": "root",
+   "plane": "Dec"
   },
   "sky:18": {
-   "tag": "root",
-   "plane": "Dec",
-   "race_level": true
+   "tag": "race_level",
+   "graph": "root",
+   "plane": "Dec"
   },
   "strikes:90": {
    "tag": "root",
@@ -540,6 +544,10 @@
    "tag": "root",
    "plane": "RA"
   },
+  "links:108:RA": {
+   "tag": "root",
+   "plane": "RA"
+  },
   "links:61:RA": {
    "tag": "mirror",
    "plane": "RA",
@@ -559,10 +567,6 @@
      "num": "180"
     }
    ]
-  },
-  "links:108:RA": {
-   "tag": "root",
-   "plane": "RA"
   },
   "links:105:RA": {
    "tag": "root",
@@ -609,14 +613,14 @@
    "plane": "RA"
   },
   "sky:7": {
-   "tag": "root",
-   "plane": "RA",
-   "race_level": true
+   "tag": "race_level",
+   "graph": "root",
+   "plane": "RA"
   },
   "sky:2": {
-   "tag": "root",
-   "plane": "RA",
-   "race_level": true
+   "tag": "race_level",
+   "graph": "root",
+   "plane": "RA"
   },
   "strikes:2": {
    "tag": "root",
@@ -847,7 +851,7 @@
    ]
   },
   "strikes:41": {
-   "tag": "mirror",
+   "tag": "derived",
    "plane": "RA",
    "chain": [
     {
@@ -995,25 +999,32 @@
    "plane": "GC"
   },
   "links:4": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:5": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:6": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:7": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:9": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:10": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:12": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:14:GC": {
    "tag": "root",
@@ -1032,24 +1043,32 @@
    "plane": "GC"
   },
   "links:18": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:19:Flat": {
    "tag": "root",
    "plane": "Flat"
   },
   "links:20": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:22:GC": {
    "tag": "root",
    "plane": "GC"
   },
+  "links:26": {
+   "tag": "root",
+   "what": "close/near"
+  },
   "links:27": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:28": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:33:GC": {
    "tag": "root",
@@ -1084,7 +1103,8 @@
    "plane": "GC"
   },
   "links:47": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:48:GC": {
    "tag": "root",
@@ -1099,7 +1119,8 @@
    "plane": "Flat"
   },
   "links:51": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:52:Flat": {
    "tag": "root",
@@ -1114,16 +1135,20 @@
    "plane": "Flat"
   },
   "links:55": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:56": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:57": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:58": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:59:GC": {
    "tag": "root",
@@ -1146,7 +1171,8 @@
    "plane": "Flat"
   },
   "links:70": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:73:Flat": {
    "tag": "root",
@@ -1161,17 +1187,20 @@
    "plane": "Flat"
   },
   "links:76": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:77:Flat": {
    "tag": "root",
    "plane": "Flat"
   },
   "links:78": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:79": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:80:GC": {
    "tag": "root",
@@ -1182,13 +1211,16 @@
    "plane": "Flat"
   },
   "links:85": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:87": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:88": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:89:GC": {
    "tag": "root",
@@ -1215,13 +1247,16 @@
    "plane": "GC"
   },
   "links:95": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:96": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:97": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:99:GC": {
    "tag": "root",
@@ -1232,40 +1267,48 @@
    "plane": "GC"
   },
   "links:101": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:102": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:103": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:104": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:106:GC": {
    "tag": "root",
    "plane": "GC"
   },
   "links:107": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:109:GC": {
    "tag": "root",
    "plane": "GC"
   },
   "links:112": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:113": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:114:Flat": {
    "tag": "root",
    "plane": "Flat"
   },
   "links:115": {
-   "tag": "root"
+   "tag": "root",
+   "what": "close/near"
   },
   "links:116:GC": {
    "tag": "root",
@@ -2294,57 +2337,47 @@
   "hj_ratios:11": {
    "tag": "root"
   },
+  "node": {
+   "tag": "root"
+  },
   "sky:0": {
-   "tag": "race_level",
-   "race_level": true
+   "tag": "race_level"
   },
   "sky:3": {
-   "tag": "race_level",
-   "race_level": true
+   "tag": "race_level"
   },
   "sky:4": {
-   "tag": "race_level",
-   "race_level": true
+   "tag": "race_level"
   },
   "sky:5": {
-   "tag": "race_level",
-   "race_level": true
+   "tag": "race_level"
   },
   "sky:6": {
-   "tag": "race_level",
-   "race_level": true
+   "tag": "race_level"
   },
   "sky:8": {
-   "tag": "race_level",
-   "race_level": true
+   "tag": "race_level"
   },
   "sky:9": {
-   "tag": "race_level",
-   "race_level": true
+   "tag": "race_level"
   },
   "sky:10": {
-   "tag": "race_level",
-   "race_level": true
+   "tag": "race_level"
   },
   "sky:11": {
-   "tag": "race_level",
-   "race_level": true
+   "tag": "race_level"
   },
   "sky:12": {
-   "tag": "race_level",
-   "race_level": true
+   "tag": "race_level"
   },
   "sky:13": {
-   "tag": "race_level",
-   "race_level": true
+   "tag": "race_level"
   },
   "sky:15": {
-   "tag": "race_level",
-   "race_level": true
+   "tag": "race_level"
   },
   "sky:17": {
-   "tag": "race_level",
-   "race_level": true
+   "tag": "race_level"
   },
   "sky_close:0": {
    "tag": "race_level"
@@ -2485,10 +2518,11 @@
  },
  "counts": {
   "points": {
-   "root": 6
+   "race_level": 4,
+   "root": 2
   },
   "links": {
-   "root": 113,
+   "root": 114,
    "derived": 5,
    "mirror": 2
   },
@@ -2496,14 +2530,12 @@
    "root": 9
   },
   "sky": {
-   "derived": 1,
-   "root": 5,
-   "race_level": 13
+   "race_level": 19
   },
   "strikes": {
    "root": 64,
-   "derived": 17,
-   "mirror": 4,
+   "derived": 18,
+   "mirror": 3,
    "duplicate": 6
   },
   "ratios": {
@@ -2529,6 +2561,9 @@
   },
   "hj_ratios": {
    "root": 12
+  },
+  "node": {
+   "root": 1
   },
   "sky_close": {
    "race_level": 9

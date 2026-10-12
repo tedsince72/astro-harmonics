@@ -1,5 +1,5 @@
-== 1 Allmankind / 1 Harry Skelton   [huntingdon_1352_20211205__P01.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 40; eq_ratios mirror 1, root 4; hj_ratios root 18; links derived 5, mirror 3, root 109; movement root 2; pair_family from_numbers 2, root 126; points root 2; ratios root 18; shared root 3; sky derived 2, race_level 13, root 12; sky_close race_level 10; splits root 26; strikes derived 15, duplicate 1, mirror 2, root 64
+== 1 Allmankind / 1 Harry Skelton   [huntingdon_1352_20211205__P01.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 40; eq_ratios mirror 1, root 4; hj_ratios root 18; links derived 5, mirror 3, root 112; movement root 2; node root 1; pair_family from_numbers 2, root 126; points race_level 1, root 1; ratios root 18; shared root 3; sky race_level 27; sky_close race_level 10; splits root 26; strikes derived 15, duplicate 1, mirror 2, root 64
 -- Dec groups (3+ points joined by numbers)
    H Gonggong, H Jupiter, H Saturn, H Sun, H Transpluto, J Ceres, J Ketu, J Saturn, J Sedna, J Vesta, S Juno, S Neptune, S Sedna, S Venus
    H Sedna, H Venus, J Jupiter, J Pluto, J Quaoar, S Ceres, S Gonggong, S Mercury, S Vesta
@@ -27,9 +27,6 @@
             <- cross     cross H Saturn–J Vesta Dec 4.99857 = 5
             <- natal     J J Ceres–J Vesta Dec 46.99556 = 47
             <- natal     J J Ceres–J Ketu Dec 8.00127 = 8
-   DERIVED  sky Mercury–Vesta Dec 4.99657 = 5
-            <- skynum    sky Mercury–Ceres Dec 40.99925 = 41
-            <- skynum    sky Ceres–Vesta Dec 36.00268 = 36
    DERIVED  sky Neptune -> J Sedna Dec 8.99937 = 9
             <- skynum    sky Neptune–Sedna Dec 12.99856 = 13
             <- movement  J Sedna moved Dec 3.99919 = 4
@@ -82,9 +79,6 @@
    MIRROR   cross H Ketu–J Sedna RA 50.00391 = 50
             <- axis      node axis (H)
             <- cross     cross H Rahu–J Sedna RA 129.99609 = 130
-   DERIVED  sky Jupiter–Chiron RA 38.33359 = 345/9
-            <- skynum    sky Venus–Jupiter RA 33.44437 = 301/9
-            <- skynum    sky Venus–Chiron RA 71.77796 = 646/9
    MIRROR   sky Uranus -> J Ketu RA 108.77776 = 979/9
             <- strike    sky Uranus -> J Rahu RA 71.22224 = 641/9
             <- axis      node axis (J)
@@ -108,7 +102,6 @@
             <- cross     cross H Gonggong–J Uranus RA 64.00450 = 64
 -- roots among number items (Dec/RA)
    H Pluto Equator 20.88873 = 188/9
-   S Orcus Equator 12.00268 = 12
    J J Saturn–J Ketu Dec 35.77784 = 322/9
    H H Mercury–H Neptune Dec 4.77768 = 43/9
    J J Jupiter–J Pluto Dec 24.11080 = 217/9
@@ -130,13 +123,6 @@
    cross H Pallas–J Juno Dec 4.99621 = 5
    cross H Vesta–J Eris Dec 15.99620 = 16
    J Sedna moved Dec 3.99919 = 4
-   sky Jupiter–Transpluto Dec 24.22199 = 218/9
-   sky Mercury–Gonggong Dec 12.55587 = 113/9
-   sky Neptune–Juno Dec 9.11068 = 82/9
-   sky Mercury–Ceres Dec 40.99925 = 41
-   sky Neptune–Sedna Dec 12.99856 = 13
-   sky Ceres–Vesta Dec 36.00268 = 36
-   sky Venus–Sedna Dec 32.00364 = 32
    sky Sun -> J Haumea Dec 44.88883 = 404/9
    sky Rahu -> J Makemake Dec 14.66657 = 132/9
    sky Makemake -> J Rahu Dec 35.00011 = 35
@@ -168,11 +154,6 @@
    cross H Rahu–J Sedna RA 129.99609 = 130
    cross H Gonggong–J Uranus RA 64.00450 = 64
    H Neptune moved RA 10.00971 = 10
-   sky Venus–Jupiter RA 33.44437 = 301/9
-   sky Venus–Chiron RA 71.77796 = 646/9
-   sky Haumea–Gonggong RA 119.22200 = 1073/9
-   sky Neptune–Pallas RA 7.00082 = 7
-   sky Eris–Quaoar RA 111.00298 = 111
    sky Juno -> H Jupiter RA 107.22223 = 965/9
    sky Uranus -> J Rahu RA 71.22224 = 641/9
    sky Vesta -> H Uranus RA 128.33324 = 1155/9

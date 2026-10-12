@@ -1,5 +1,5 @@
-== 1 Stunning Beauty / 1 Stefano Cherchi   [20210827_goodwood_1853__P01.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 42; eq_ratios root 1; hj_ratios root 18; links derived 4, mirror 3, root 104; movement root 14; pair_family root 133; pair_sets root 2; points root 4; ratios root 10; same_body mirror 1, root 2; shared root 4; sky race_level 11, root 8; sky_close race_level 7; splits from_numbers 4, root 135; strikes derived 19, duplicate 6, mirror 2, root 62
+== 1 Stunning Beauty / 1 Stefano Cherchi   [20210827_goodwood_1853__P01.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 42; eq_ratios root 1; hj_ratios root 18; links derived 5, mirror 2, root 105; movement root 14; node root 1; pair_family root 133; pair_sets root 2; points race_level 3, root 1; ratios root 10; same_body mirror 1, root 2; shared root 4; sky race_level 19; sky_close race_level 7; splits from_numbers 4, root 135; strikes derived 19, duplicate 6, mirror 2, root 62
 -- Dec groups (3+ points joined by numbers)
    EQ, H Eris, J Gonggong, J Makemake, J Pallas, J Saturn, J Sedna, J Sun, S Jupiter, S Orcus, S Quaoar, S Uranus
    H Juno, H Saturn, H Venus, J Juno, J Uranus, S Rahu, S Sedna
@@ -69,7 +69,7 @@
    DERIVED  cross H Rahu–J Mercury RA 170.00267 = 170
             <- cross     cross H Rahu–J Chiron RA 114.99969 = 115
             <- natal     J J Mercury–J Chiron RA 55.00297 = 55
-   MIRROR   cross H Ketu–J Mercury RA 9.99733 = 10
+   DERIVED  cross H Ketu–J Mercury RA 9.99733 = 10
             <- axis      node axis (H)
             <- cross     cross H Rahu–J Chiron RA 114.99969 = 115
             <- natal     J J Mercury–J Chiron RA 55.00297 = 55
@@ -110,10 +110,7 @@
             <- strike    sky Jupiter -> J Makemake RA 148.00308 = 148
             <- cross     cross H Mercury–J Makemake RA 156.00118 = 156
 -- roots among number items (Dec/RA)
-   S Uranus Equator 15.77826 = 142/9
    J Gonggong Equator 16.77729 = 151/9
-   S Jupiter Equator 14.00093 = 14
-   S Orcus Equator 10.99213 = 11
    J J Saturn–J Pallas Dec 6.66652 = 60/9
    H H Haumea–H Makemake Dec 7.99886 = 8
    H H Mercury–H Haumea Dec 6.99828 = 7
@@ -133,12 +130,6 @@
    H Vesta moved Dec 27.33305 = 246/9
    J Mercury moved Dec 16.22275 = 146/9
    H Ceres moved Dec 2.66581 = 24/9
-   sky Venus–Pluto Dec 17.66663 = 159/9
-   sky Sun–Chiron Dec 2.99988 = 3
-   sky Mercury–Neptune Dec 5.66705 = 51/9
-   sky Neptune–Eris Dec 3.00091 = 3
-   sky Pluto–Ceres Dec 37.99717 = 38
-   sky Rahu–Sedna Dec 13.00498 = 13
    sky Orcus -> H Eris Dec 8.66666 = 78/9
    sky Juno -> H Sun Dec 21.33327 = 192/9
    sky Rahu -> H Juno Dec 28.77761 = 259/9
@@ -173,8 +164,6 @@
    J Neptune moved RA 42.99698 = 43
    H Juno moved RA 37.00445 = 37
    H Pluto moved RA 5.99227 = 6
-   sky Uranus–Sedna RA 17.22228 = 155/9
-   sky Jupiter–Pluto RA 31.99551 = 32
    sky Vesta -> J Mercury RA 124.77778 = 1123/9
    sky Transpluto -> J Venus RA 140.99993 = 141
    sky Quaoar -> J Neptune RA 36.22208 = 326/9

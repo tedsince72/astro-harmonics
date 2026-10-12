@@ -1,5 +1,5 @@
-== 7 Stevenson / 7 David Probert   [haydock_1718_20220507__P09.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 42; eq_ratios mirror 1, root 2; hj_ratios root 19; links derived 3, root 95; movement derived 1, root 13; pair_family root 118; points root 4; ratios root 28; same_body root 3; shared root 8; sky derived 2, mirror 1, race_level 7, root 6; sky_close race_level 9; splits from_numbers 1, root 162; strikes derived 4, duplicate 8, root 66
+== 7 Stevenson / 7 David Probert   [haydock_1718_20220507__P09.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 42; eq_ratios mirror 1, root 2; hj_ratios root 19; links derived 3, root 97; movement derived 1, root 13; node root 1; pair_family root 118; points race_level 3, root 1; ratios root 28; same_body root 3; shared root 8; sky race_level 16; sky_close race_level 9; splits from_numbers 1, root 162; strikes derived 4, duplicate 8, root 66
 -- Dec groups (3+ points joined by numbers)
    EQ, H Ceres, H Gonggong, J Eris, S Eris, S Gonggong, S Pluto
    H Uranus, J Chiron, J Rahu, J Sun, S Chiron, S Rahu
@@ -29,21 +29,12 @@
    DERIVED  J Eris moved Dec 9.00184 = 9
             <- equator   S Eris Equator 0.99160 = 1
             <- equator   J Eris Equator 9.99344 = 10
-   DERIVED  sky Pluto–Gonggong Dec 11.44428 = 103/9
-            <- equator   S Pluto Equator 22.44500 = 202/9
-            <- equator   S Gonggong Equator 11.00071 = 11
-   DERIVED  sky Ceres–Juno Dec 29.11069 = 262/9
-            <- skynum    sky Saturn–Ceres Dec 40.77754 = 367/9
-            <- skynum    sky Saturn–Juno Dec 11.66685 = 105/9
    DERIVED  sky Venus -> H Juno Dec 14.00268 = 14
             <- strike    sky Venus -> J Sedna Dec 3.00159 = 3
             <- cross     cross H Juno–J Sedna Dec 11.00109 = 11
    DERIVED  cross H Chiron–J Orcus RA 127.00269 = 127
             <- natal     H H Chiron–H Transpluto RA 151.00164 = 151
             <- cross     cross H Transpluto–J Orcus RA 23.99895 = 24
-   MIRROR   sky Ketu–Transpluto RA 75.55562 = 680/9
-            <- axis      node axis (S)
-            <- skynum    sky Rahu–Transpluto RA 104.44438 = 940/9
    DERIVED  sky Mars -> J Gonggong RA 19.99820 = 20
             <- skynum    sky Mars–Gonggong RA 11.00123 = 11
             <- movement  J Gonggong moved RA 8.99697 = 9
@@ -55,10 +46,7 @@
             <- natal     H H Chiron–H Transpluto RA 151.00164 = 151
             <- cross     cross H Transpluto–J Orcus RA 23.99895 = 24
 -- roots among number items (Dec/RA)
-   S Pluto Equator 22.44500 = 202/9
-   S Gonggong Equator 11.00071 = 11
    J Eris Equator 9.99344 = 10
-   S Eris Equator 0.99160 = 1
    J J Pluto–J Makemake Dec 36.77775 = 331/9
    H H Ceres–H Gonggong Dec 5.33346 = 48/9
    H H Venus–H Transpluto Dec 7.00017 = 7
@@ -77,9 +65,6 @@
    cross H Uranus–J Rahu Dec 20.00490 = 20
    J Chiron moved Dec 9.22206 = 83/9
    H Gonggong moved Dec 0.77843 = 7/9
-   sky Saturn–Juno Dec 11.66685 = 105/9
-   sky Saturn–Ceres Dec 40.77754 = 367/9
-   sky Chiron–Rahu Dec 10.99852 = 11
    sky Uranus -> H Eris Dec 17.66667 = 159/9
    sky Mars -> J Transpluto Dec 20.88892 = 188/9
    sky Haumea -> J Mars Dec 12.88868 = 116/9
@@ -107,9 +92,6 @@
    J Gonggong moved RA 8.99697 = 9
    H Venus moved RA 7.99459 = 8
    J Ceres moved RA 90.99336 = 91
-   sky Rahu–Transpluto RA 104.44438 = 940/9
-   sky Mars–Gonggong RA 11.00123 = 11
-   sky Uranus–Vesta RA 74.99686 = 75
    sky Mercury -> J Transpluto RA 82.55545 = 743/9
    sky Orcus -> J Sun RA 96.66686 = 870/9
    sky Chiron -> J Mars RA 4.44466 = 40/9

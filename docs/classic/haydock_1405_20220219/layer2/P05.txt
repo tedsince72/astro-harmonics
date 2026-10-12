@@ -1,5 +1,5 @@
-== 3 Emitom / 3 Brian Hughes   [haydock_1405_20220219__P05.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 33; eq_ratios root 2; hj_ratios root 26; links derived 4, mirror 1, root 110; movement root 7; pair_family root 121; pair_sets root 1; points root 1; ratios root 19; same_body root 1; shared root 5; sky derived 1, mirror 1, race_level 5, root 10; sky_close race_level 13; splits root 27; strikes derived 5, duplicate 5, mirror 1, root 70
+== 3 Emitom / 3 Brian Hughes   [haydock_1405_20220219__P05.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 33; eq_ratios root 2; hj_ratios root 26; links derived 4, mirror 1, root 110; movement root 7; node root 1; pair_family root 121; pair_sets root 1; points root 1; ratios root 19; same_body root 1; shared root 5; sky race_level 17; sky_close race_level 13; splits root 27; strikes derived 5, duplicate 5, mirror 1, root 70
 -- Dec groups (3+ points joined by numbers)
    H Mars, J Neptune, J Pluto, J Rahu, J Saturn, J Vesta, S Sedna, S Uranus
    H Ceres, H Jupiter, H Transpluto, J Pallas, J Sun, S Mars
@@ -28,9 +28,6 @@
    DERIVED  cross H Rahu–J Transpluto Dec 25.66710 = 231/9
             <- cross     cross H Rahu–J Haumea Dec 34.66673 = 312/9
             <- natal     J J Haumea–J Transpluto Dec 8.99962 = 9
-   DERIVED  sky Mercury–Neptune Dec 14.99907 = 15
-            <- skynum    sky Mercury–Quaoar Dec 3.88841 = 35/9
-            <- skynum    sky Neptune–Quaoar Dec 11.11067 = 100/9
    DERIVED  sky Mercury -> H Venus Dec 23.99822 = 24
             <- skynum    sky Mercury–Quaoar Dec 3.88841 = 35/9
             <- skynum    sky Neptune–Quaoar Dec 11.11067 = 100/9
@@ -44,9 +41,6 @@
    DERIVED  cross H Transpluto–J Eris RA 129.44465 = 1165/9
             <- cross     cross H Transpluto–J Juno RA 31.00014 = 31
             <- natal     J J Juno–J Eris RA 160.44479 = 1444/9
-   MIRROR   sky Uranus–Ketu RA 164.88845 = 1484/9
-            <- skynum    sky Uranus–Rahu RA 15.11155 = 136/9
-            <- axis      node axis (S)
    DERIVED  sky Vesta -> J Juno RA 108.99887 = 109
             <- strike    sky Vesta -> H Transpluto RA 139.99901 = 140
             <- cross     cross H Transpluto–J Juno RA 31.00014 = 31
@@ -78,9 +72,6 @@
    cross H Uranus–J Makemake Dec 32.00193 = 32
    cross H Ceres–J Pallas Dec 4.00273 = 4
    H Venus moved Dec 21.66647 = 195/9
-   sky Neptune–Quaoar Dec 11.11067 = 100/9
-   sky Mercury–Quaoar Dec 3.88841 = 35/9
-   sky Chiron–Ketu Dec 24.99942 = 25
    sky Vesta -> H Juno Dec 30.33326 = 273/9
    sky Rahu -> J Mercury Dec 5.77770 = 52/9
    sky Ceres -> J Makemake Dec 16.11142 = 145/9
@@ -111,13 +102,6 @@
    cross H Pluto–J Mercury RA 175.00217 = 175
    cross H Uranus–J Gonggong RA 44.99682 = 45
    J Sedna moved RA 18.00539 = 18
-   sky Haumea–Transpluto RA 62.77737 = 565/9
-   sky Uranus–Rahu RA 15.11155 = 136/9
-   sky Sun–Uranus RA 65.99831 = 66
-   sky Mercury–Quaoar RA 29.99780 = 30
-   sky Saturn–Juno RA 13.00391 = 13
-   sky Pallas–Haumea RA 148.00441 = 148
-   sky Uranus–Pluto RA 99.00448 = 99
    sky Chiron -> H Vesta RA 168.55553 = 1517/9
    sky Gonggong -> J Haumea RA 154.88908 = 1394/9
    sky Mars -> H Venus RA 85.33365 = 768/9

@@ -1,5 +1,5 @@
-== 2 Mance Rayder / 2 Jamie Hamilton   [catterick_1505_20211119__P03.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 50; eq_ratios root 3; hj_ratios root 17; links derived 3, mirror 3, root 100; movement root 5; pair_family root 140; pair_sets root 1; points root 2; ratios root 15; same_body root 3; shared root 8; sky derived 1, race_level 5, root 10; sky_close race_level 9; splits root 41; strikes derived 7, duplicate 4, mirror 2, root 67
+== 2 Mance Rayder / 2 Jamie Hamilton   [catterick_1505_20211119__P03.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 50; eq_ratios root 3; hj_ratios root 17; links derived 4, mirror 2, root 101; movement root 5; node root 1; pair_family root 140; pair_sets root 1; points race_level 2; ratios root 15; same_body root 3; shared root 8; sky race_level 16; sky_close race_level 9; splits root 41; strikes derived 8, duplicate 4, mirror 1, root 67
 -- Dec groups (3+ points joined by numbers)
    H Quaoar, J Rahu, S Mars, S Pallas, S Sun
    H Transpluto, S Ceres, S Chiron, S Venus, S Vesta
@@ -22,9 +22,6 @@
    DERIVED  cross H Uranus–J Quaoar Dec 17.11070 = 154/9
             <- cross     cross H Uranus–J Uranus Dec 24.44407 = 220/9
             <- natal     J J Uranus–J Quaoar Dec 7.33337 = 66/9
-   DERIVED  sky Uranus–Juno Dec 28.77792 = 259/9
-            <- equator   S Uranus Equator 14.99958 = 15
-            <- equator   S Juno Equator 13.77833 = 124/9
    DERIVED  sky Juno -> J Pallas Dec 13.44459 = 121/9
             <- equator   S Juno Equator 13.77833 = 124/9
             <- equator   S Uranus Equator 14.99958 = 15
@@ -42,7 +39,7 @@
    DERIVED  cross H Rahu–J Quaoar RA 15.44465 = 139/9
             <- cross     cross H Rahu–J Mars RA 147.33330 = 1326/9
             <- natal     J J Mars–J Quaoar RA 131.88865 = 1187/9
-   MIRROR   cross H Ketu–J Quaoar RA 164.55535 = 1481/9
+   DERIVED  cross H Ketu–J Quaoar RA 164.55535 = 1481/9
             <- axis      node axis (H)
             <- cross     cross H Rahu–J Mars RA 147.33330 = 1326/9
             <- natal     J J Mars–J Quaoar RA 131.88865 = 1187/9
@@ -70,13 +67,11 @@
    DERIVED  sky Quaoar -> J Rahu RA 43.00331 = 43
             <- skynum    sky Ceres–Quaoar RA 150.99925 = 151
             <- strike    sky Ceres -> J Rahu RA 165.99744 = 166
-   MIRROR   sky Quaoar -> J Ketu RA 136.99669 = 137
+   DERIVED  sky Quaoar -> J Ketu RA 136.99669 = 137
             <- skynum    sky Ceres–Quaoar RA 150.99925 = 151
             <- strike    sky Ceres -> J Rahu RA 165.99744 = 166
             <- axis      node axis (J)
 -- roots among number items (Dec/RA)
-   S Uranus Equator 14.99958 = 15
-   S Juno Equator 13.77833 = 124/9
    J J Uranus–J Quaoar Dec 7.33337 = 66/9
    H H Mercury–H Sedna Dec 8.11128 = 73/9
    H H Jupiter–H Gonggong Dec 35.55523 = 320/9
@@ -95,11 +90,6 @@
    cross H Haumea–J Pluto Dec 24.00190 = 24
    cross H Mars–J Transpluto Dec 3.99795 = 4
    cross H Eris–J Mercury Dec 17.99606 = 18
-   sky Sun–Pallas Dec 7.77771 = 70/9
-   sky Chiron–Ceres Dec 11.11098 = 100/9
-   sky Mercury–Orcus Dec 6.00061 = 6
-   sky Sun–Mars Dec 3.99642 = 4
-   sky Venus–Chiron Dec 32.00367 = 32
    sky Uranus -> J Pallas Dec 15.33333 = 138/9
    sky Haumea -> H Chiron Dec 17.22214 = 155/9
    sky Neptune -> J Sun Dec 19.77751 = 178/9
@@ -136,11 +126,6 @@
    J Juno moved RA 67.33297 = 606/9
    J Sun moved RA 162.66714 = 1464/9
    H Haumea moved RA 7.99502 = 8
-   sky Pallas–Transpluto RA 173.00002 = 173
-   sky Chiron–Orcus RA 150.55588 = 1355/9
-   sky Mercury–Orcus RA 71.88930 = 647/9
-   sky Ceres–Quaoar RA 150.99925 = 151
-   sky Saturn–Orcus RA 153.00269 = 153
    sky Jupiter -> H Ceres RA 127.55553 = 1148/9
    sky Gonggong -> J Eris RA 46.88915 = 422/9
    sky Mercury -> J Gonggong RA 101.77819 = 916/9

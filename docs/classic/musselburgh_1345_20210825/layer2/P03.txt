@@ -1,5 +1,5 @@
-== 2 Inside Intel / 2 Jason Hart   [20210825_musselburgh_1345__P03.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 42; eq_ratios root 4; hj_ratios root 19; links derived 2, mirror 2, root 103; movement root 5; pair_family root 131; pair_sets root 1; points root 1; ratios root 15; same_body root 3; shared root 6; sky mirror 1, race_level 12, root 9; sky_close race_level 11; splits root 32; strikes derived 13, duplicate 1, mirror 1, root 70
+== 2 Inside Intel / 2 Jason Hart   [20210825_musselburgh_1345__P03.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 42; eq_ratios root 4; hj_ratios root 19; links derived 2, mirror 2, root 105; movement root 5; node root 1; pair_family root 131; pair_sets root 1; points race_level 1; ratios root 15; same_body root 3; shared root 6; sky race_level 22; sky_close race_level 11; splits root 32; strikes derived 13, duplicate 1, mirror 1, root 70
 -- Dec groups (3+ points joined by numbers)
    H Juno, H Mercury, H Neptune, H Pluto, H Quaoar, H Rahu, H Uranus, J Gonggong, J Mars, J Quaoar, J Rahu, J Vesta, S Gonggong, S Orcus, S Pallas, S Quaoar, S Saturn, S Vesta
    H Eris, H Venus, J Transpluto, S Ketu, S Sun, S Uranus
@@ -65,9 +65,6 @@
    MIRROR   cross H Ketu–J Haumea RA 143.00325 = 143
             <- axis      node axis (H)
             <- cross     cross H Rahu–J Haumea RA 36.99675 = 37
-   MIRROR   sky Ketu–Makemake RA 47.11101 = 424/9
-            <- axis      node axis (S)
-            <- skynum    sky Rahu–Makemake RA 132.88899 = 1196/9
    MIRROR   sky Vesta -> H Ketu RA 137.11106 = 1234/9
             <- strike    sky Vesta -> H Rahu RA 42.88894 = 386/9
             <- axis      node axis (H)
@@ -87,7 +84,6 @@
             <- strike    sky Neptune -> J Eris RA 29.99914 = 30
             <- natal     J J Mars–J Eris RA 94.99667 = 95
 -- roots among number items (Dec/RA)
-   S Mercury Equator 3.00259 = 3
    H H Venus–H Eris Dec 9.77786 = 88/9
    H H Chiron–H Transpluto Dec 9.55545 = 86/9
    J J Vesta–J Quaoar Dec 33.33354 = 300/9
@@ -116,11 +112,6 @@
    cross H Neptune–J Vesta Dec 26.99591 = 27
    J Sedna moved Dec 3.66621 = 33/9
    J Chiron moved Dec 6.00681 = 6
-   sky Uranus–Ketu Dec 37.11104 = 334/9
-   sky Saturn–Quaoar Dec 3.66654 = 33/9
-   sky Vesta–Gonggong Dec 9.66680 = 87/9
-   sky Pallas–Vesta Dec 5.00201 = 5
-   sky Sun–Ketu Dec 32.00352 = 32
    sky Rahu -> H Ceres Dec 6.77780 = 61/9
    sky Sun -> H Eris Dec 13.11102 = 118/9
    sky Transpluto -> H Vesta Dec 15.55569 = 140/9
@@ -155,10 +146,6 @@
    cross H Venus–J Pluto RA 121.00217 = 121
    cross H Rahu–J Haumea RA 36.99675 = 37
    cross H Sedna–J Sedna RA 10.99630 = 11
-   sky Rahu–Makemake RA 132.88899 = 1196/9
-   sky Mercury–Jupiter RA 155.44434 = 1399/9
-   sky Sun–Pallas RA 163.88910 = 1475/9
-   sky Makemake–Orcus RA 41.00157 = 41
    sky Vesta -> H Rahu RA 42.88894 = 386/9
    sky Jupiter -> H Mars RA 73.66633 = 663/9
    sky Ceres -> H Vesta RA 48.88848 = 440/9

@@ -1,5 +1,5 @@
-== 1 Gustavian / 1 Aidan Coleman   [ffos_las_1420_20220105__P01.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 39; eq_ratios mirror 1, root 1; hj_ratios root 16; links derived 4, mirror 1, root 93; movement derived 1, root 8; pair_family from_numbers 1, root 127; points root 4; ratios root 21; same_body root 5; shared root 2; sky derived 9, race_level 14, root 12; sky_close race_level 13; splits from_numbers 2, root 137; strikes derived 6, duplicate 4, root 65
+== 1 Gustavian / 1 Aidan Coleman   [ffos_las_1420_20220105__P01.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 39; eq_ratios mirror 1, root 1; hj_ratios root 16; links derived 4, mirror 1, root 93; movement derived 1, root 8; node root 1; pair_family from_numbers 1, root 127; points race_level 1, root 3; ratios root 21; same_body root 5; shared root 2; sky race_level 35; sky_close race_level 13; splits from_numbers 2, root 137; strikes derived 6, duplicate 4, root 65
 -- Dec groups (3+ points joined by numbers)
    EQ, H Orcus, H Pallas, H Transpluto, J Jupiter, J Makemake, J Mars, J Pluto, J Sedna, S Jupiter, S Sedna, S Transpluto
    J Orcus, J Transpluto, S Juno, S Orcus, S Pallas
@@ -33,10 +33,6 @@
    DERIVED  J Sedna moved Dec 4.00599 = 4
             <- equator   S Sedna Equator 8.00636 = 8
             <- equator   J Sedna Equator 4.00037 = 4
-   DERIVED  sky Jupiter–Sedna Dec 19.99553 = 20
-            <- movement  J Jupiter moved Dec 31.99425 = 32
-            <- equator   J Jupiter Equator 20.00508 = 20
-            <- equator   S Sedna Equator 8.00636 = 8
    DERIVED  sky Juno -> J Transpluto Dec 28.11100 = 253/9
             <- skynum    sky Pallas–Juno Dec 1.88881 = 17/9
             <- strike    sky Pallas -> J Transpluto Dec 26.22219 = 236/9
@@ -52,37 +48,6 @@
    MIRROR   H H Ketu–H Gonggong RA 33.99926 = 34
             <- axis      node axis (H)
             <- natal     H H Rahu–H Gonggong RA 146.00074 = 146
-   DERIVED  sky Chiron–Pallas RA 15.44417 = 139/9
-            <- skynum    sky Sun–Chiron RA 80.55538 = 725/9
-            <- skynum    sky Sun–Pallas RA 65.11121 = 586/9
-   DERIVED  sky Mars–Chiron RA 111.88921 = 1007/9
-            <- skynum    sky Mars–Gonggong RA 81.44454 = 733/9
-            <- skynum    sky Chiron–Gonggong RA 30.44467 = 274/9
-   DERIVED  sky Sun–Gonggong RA 50.11071 = 451/9
-            <- skynum    sky Sun–Chiron RA 80.55538 = 725/9
-            <- skynum    sky Chiron–Gonggong RA 30.44467 = 274/9
-   DERIVED  sky Sun–Mars RA 31.33382 = 282/9
-            <- skynum    sky Sun–Chiron RA 80.55538 = 725/9
-            <- skynum    sky Chiron–Gonggong RA 30.44467 = 274/9
-            <- skynum    sky Mars–Gonggong RA 81.44454 = 733/9
-   DERIVED  sky Pallas–Gonggong RA 15.00050 = 15
-            <- skynum    sky Sun–Pallas RA 65.11121 = 586/9
-            <- skynum    sky Sun–Chiron RA 80.55538 = 725/9
-            <- skynum    sky Chiron–Gonggong RA 30.44467 = 274/9
-   DERIVED  sky Makemake–Gonggong RA 136.99878 = 137
-            <- skynum    sky Pallas–Makemake RA 151.99928 = 152
-            <- skynum    sky Sun–Pallas RA 65.11121 = 586/9
-            <- skynum    sky Sun–Chiron RA 80.55538 = 725/9
-            <- skynum    sky Chiron–Gonggong RA 30.44467 = 274/9
-   DERIVED  sky Uranus–Pallas RA 47.00373 = 47
-            <- skynum    sky Uranus–Makemake RA 160.99699 = 161
-            <- skynum    sky Pallas–Makemake RA 151.99928 = 152
-   DERIVED  sky Uranus–Gonggong RA 62.00423 = 62
-            <- skynum    sky Uranus–Makemake RA 160.99699 = 161
-            <- skynum    sky Pallas–Makemake RA 151.99928 = 152
-            <- skynum    sky Sun–Pallas RA 65.11121 = 586/9
-            <- skynum    sky Sun–Chiron RA 80.55538 = 725/9
-            <- skynum    sky Chiron–Gonggong RA 30.44467 = 274/9
    DERIVED  sky Mars -> J Venus RA 154.99557 = 155
             <- skynum    sky Mars–Gonggong RA 81.44454 = 733/9
             <- skynum    sky Chiron–Gonggong RA 30.44467 = 274/9
@@ -102,7 +67,6 @@
    J Sedna Equator 4.00037 = 4
    H Pallas Equator 9.00070 = 9
    J Jupiter Equator 20.00508 = 20
-   S Sedna Equator 8.00636 = 8
    J J Neptune–J Pallas Dec 36.11112 = 325/9
    J J Neptune–J Ceres Dec 8.66656 = 78/9
    H H Sun–H Ketu Dec 12.11130 = 109/9
@@ -120,10 +84,6 @@
    H Transpluto moved Dec 1.00250 = 1
    J Orcus moved Dec 17.00440 = 17
    J Jupiter moved Dec 31.99425 = 32
-   sky Pallas–Juno Dec 1.88881 = 17/9
-   sky Rahu–Quaoar Dec 35.77741 = 322/9
-   sky Chiron–Rahu Dec 15.00062 = 15
-   sky Ceres–Haumea Dec 2.99918 = 3
    sky Pallas -> J Transpluto Dec 26.22219 = 236/9
    sky Uranus -> J Juno Dec 2.00025 = 2
    sky Transpluto -> J Jupiter Dec 9.66696 = 87/9
@@ -152,14 +112,6 @@
    J Vesta moved RA 96.77715 = 871/9
    J Venus moved RA 168.33267 = 1515/9
    H Mercury moved RA 8.99083 = 9
-   sky Mars–Gonggong RA 81.44454 = 733/9
-   sky Sun–Pallas RA 65.11121 = 586/9
-   sky Sun–Chiron RA 80.55538 = 725/9
-   sky Chiron–Gonggong RA 30.44467 = 274/9
-   sky Saturn–Orcus RA 157.44482 = 1417/9
-   sky Pallas–Makemake RA 151.99928 = 152
-   sky Pluto–Transpluto RA 142.99743 = 143
-   sky Uranus–Makemake RA 160.99699 = 161
    sky Mercury -> H Quaoar RA 38.88898 = 350/9
    sky Uranus -> J Venus RA 61.55567 = 554/9
    sky Jupiter -> J Pluto RA 110.88861 = 998/9

@@ -15,3 +15,12 @@ so all Layer 1 reproduction checks (738/738) still hold.
 - Hand-read items that turn out to be arithmetic (still listed, now tagged): e.g. York 16:15 'sky Pluto -> horse Quaoar RA 30' = sky
   Pluto–Quaoar RA 25 + horse Quaoar's movement 5; 'sky Mars -> horse Orcus Dec 15' = sky Mars–Ketu 9 + sky Ketu -> horse Eris 4 + horse
   Eris–Orcus 10.
+
+## v1.1 (checker, 12 Oct 2026)
+Independent checker rebuilt the Dec/RA graphs for all 24 runners of York 16:15 and Newmarket July: tags and chains identical item for item;
+tie order only swaps labels within exact ties, never counts. Rules 2–4 correct. Fixes applied:
+- explicit tiebreak so Rahu is always root and Ketu the mirror on exact ties;
+- 'mirror' only when the chain is the node axis plus one Rahu item; longer chains through the axis are 'derived';
+- Rule 5: sky numbers AND sky Equator values tagged race_level (graph role kept as 'graph'), not counted as the runner's own roots;
+- close/near links that also carry numbers get their own 'close/near' root tag; Layer 1 'node' section tagged;
+- tests/layer2_check.py now also checks every Layer 1 item has exactly one tag (all runners pass).

@@ -1,5 +1,5 @@
-== 1 Good Effort / 1 Jim Crowley   [newcastle_aw_1330_20220102__P01.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 40; eq_ratios root 4; hj_ratios root 25; links derived 2, mirror 1, root 107; movement root 2; pair_family root 149; pair_sets root 1; points root 2; ratios root 20; same_body mirror 1, root 5; shared root 2; sky race_level 17, root 9; sky_close race_level 11; splits root 38; strikes derived 5, mirror 3, root 70
+== 1 Good Effort / 1 Jim Crowley   [newcastle_aw_1330_20220102__P01.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 40; eq_ratios root 4; hj_ratios root 25; links derived 2, mirror 1, root 109; movement root 2; node root 1; pair_family root 149; pair_sets root 1; points race_level 1, root 1; ratios root 20; same_body mirror 1, root 5; shared root 2; sky race_level 26; sky_close race_level 11; splits root 38; strikes derived 6, mirror 2, root 70
 -- Dec groups (3+ points joined by numbers)
    H Juno, J Chiron, J Jupiter, J Vesta, S Ceres, S Chiron, S Jupiter, S Ketu, S Mercury, S Quaoar
    H Quaoar, H Transpluto, J Neptune, J Uranus, S Eris, S Gonggong, S Orcus
@@ -43,19 +43,18 @@
    DERIVED  sky Sedna -> H Quaoar RA 151.00453 = 151
             <- strike    sky Sedna -> J Eris RA 37.00200 = 37
             <- cross     cross H Quaoar–J Eris RA 114.00252 = 114
-   MIRROR   sky Juno -> H Ketu RA 81.99506 = 82
-            <- strike    sky Juno -> H Rahu RA 98.00494 = 98
-            <- axis      node axis (H)
    DERIVED  sky Mercury -> J Rahu RA 123.00494 = 123
             <- strike    sky Mercury -> J Orcus RA 175.99874 = 176
             <- natal     J J Rahu–J Orcus RA 60.99632 = 61
-   MIRROR   sky Mercury -> J Ketu RA 56.99506 = 57
+   MIRROR   sky Juno -> H Ketu RA 81.99506 = 82
+            <- strike    sky Juno -> H Rahu RA 98.00494 = 98
+            <- axis      node axis (H)
+   DERIVED  sky Mercury -> J Ketu RA 56.99506 = 57
             <- strike    sky Mercury -> J Orcus RA 175.99874 = 176
             <- natal     J J Rahu–J Orcus RA 60.99632 = 61
             <- axis      node axis (J)
 -- roots among number items (Dec/RA)
    H Sun Equator 13.77723 = 124/9
-   S Sedna Equator 8.00549 = 8
    J J Jupiter–J Vesta Dec 40.44454 = 364/9
    J J Chiron–J Vesta Dec 32.11100 = 289/9
    H H Venus–H Mars Dec 2.33309 = 21/9
@@ -72,12 +71,6 @@
    cross H Juno–J Chiron Dec 8.00345 = 8
    cross H Gonggong–J Eris Dec 1.00442 = 1
    J Haumea moved Dec 9.44529 = 85/9
-   sky Mercury–Quaoar Dec 6.22212 = 56/9
-   sky Pallas–Haumea Dec 26.88912 = 242/9
-   sky Venus–Juno Dec 4.55518 = 41/9
-   sky Jupiter–Ketu Dec 8.11155 = 73/9
-   sky Eris–Gonggong Dec 9.99648 = 10
-   sky Mercury–Chiron Dec 26.99510 = 27
    sky Vesta -> H Pluto Dec 0.55554 = 5/9
    sky Ketu -> H Juno Dec 26.22224 = 236/9
    sky Neptune -> H Saturn Dec 14.11115 = 127/9
@@ -108,9 +101,6 @@
    cross H Jupiter–J Sedna RA 101.99821 = 102
    cross H Quaoar–J Eris RA 114.00252 = 114
    cross H Gonggong–J Mercury RA 165.00474 = 165
-   sky Pallas–Vesta RA 85.77760 = 772/9
-   sky Uranus–Pluto RA 100.33288 = 903/9
-   sky Mercury–Neptune RA 49.00135 = 49
    sky Orcus -> J Gonggong RA 169.11116 = 1522/9
    sky Uranus -> H Makemake RA 155.22208 = 1397/9
    sky Transpluto -> H Rahu RA 34.88863 = 314/9

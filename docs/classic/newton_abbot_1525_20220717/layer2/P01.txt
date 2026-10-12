@@ -1,5 +1,5 @@
-== 1 Grageelagh Girl / 1 Tom Broughton   [newton_abbot_1525_20220717__P01.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 28; eq_ratios root 3; hj_ratios root 26; links derived 7, mirror 3, root 110; movement root 9; pair_family root 147; points root 3; ratios root 12; same_body root 3; shared root 10; sky mirror 1, race_level 8, root 9; sky_close race_level 12; splits root 80; strikes derived 18, duplicate 4, root 69
+== 1 Grageelagh Girl / 1 Tom Broughton   [newton_abbot_1525_20220717__P01.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 28; eq_ratios root 3; hj_ratios root 26; links derived 7, mirror 3, root 111; movement root 9; node root 1; pair_family root 147; points root 3; ratios root 12; same_body root 3; shared root 10; sky race_level 18; sky_close race_level 12; splits root 80; strikes derived 18, duplicate 4, root 69
 -- Dec groups (3+ points joined by numbers)
    H Ceres, H Gonggong, H Haumea, H Makemake, H Mars, H Mercury, H Saturn, J Eris, J Jupiter, J Rahu, J Saturn, S Chiron, S Rahu, S Saturn
    H Orcus, H Pallas, H Transpluto, J Ketu, S Gonggong, S Pallas, S Sun, S Uranus, S Venus
@@ -85,9 +85,6 @@
    MIRROR   cross H Orcus–J Ketu RA 156.00414 = 156
             <- cross     cross H Orcus–J Rahu RA 23.99586 = 24
             <- axis      node axis (J)
-   MIRROR   sky Jupiter–Ketu RA 140.66675 = 1266/9
-            <- skynum    sky Jupiter–Rahu RA 39.33325 = 354/9
-            <- axis      node axis (S)
    DERIVED  sky Uranus -> H Chiron RA 70.88850 = 638/9
             <- strike    sky Uranus -> H Vesta RA 87.99969 = 88
             <- natal     H H Chiron–H Vesta RA 17.11119 = 154/9
@@ -135,12 +132,6 @@
    cross H Mercury–J Eris Dec 16.99775 = 17
    H Saturn moved Dec 12.99800 = 13
    H Jupiter moved Dec 7.00786 = 7
-   sky Venus–Gonggong Dec 33.77802 = 304/9
-   sky Sun–Pallas Dec 23.44415 = 211/9
-   sky Uranus–Pallas Dec 19.11151 = 172/9
-   sky Venus–Pallas Dec 25.00235 = 25
-   sky Saturn–Chiron Dec 22.99736 = 23
-   sky Mercury–Transpluto Dec 12.00464 = 12
    sky Juno -> J Uranus Dec 21.66669 = 195/9
    sky Rahu -> J Jupiter Dec 35.77769 = 322/9
    sky Uranus -> H Orcus Dec 23.11127 = 208/9
@@ -173,9 +164,6 @@
    J Ceres moved RA 142.55587 = 1283/9
    H Mars moved RA 3.99804 = 4
    J Vesta moved RA 46.99150 = 47
-   sky Jupiter–Rahu RA 39.33325 = 354/9
-   sky Eris–Orcus RA 129.22233 = 1163/9
-   sky Sedna–Haumea RA 155.99762 = 156
    sky Haumea -> H Juno RA 48.55552 = 437/9
    sky Pallas -> J Jupiter RA 112.88915 = 1016/9
    sky Venus -> H Gonggong RA 113.88919 = 1025/9

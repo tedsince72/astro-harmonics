@@ -1,5 +1,5 @@
-== 8 Lucia Joy / 8 Ben Curtis   [carlisle_1630_20220707__P11.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 36; eq_ratios root 2; hj_ratios root 23; links derived 4, mirror 1, root 109; movement mirror 1, root 8; pair_family root 151; points root 2; ratios root 15; same_body root 1; shared root 2; sky derived 1, mirror 1, race_level 11, root 9; sky_close race_level 8; splits from_numbers 1, root 58; strikes derived 12, duplicate 3, mirror 4, root 61
+== 8 Lucia Joy / 8 Ben Curtis   [carlisle_1630_20220707__P11.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 36; eq_ratios root 2; hj_ratios root 23; links derived 4, mirror 1, root 113; movement derived 1, root 8; node root 1; pair_family root 151; points root 2; ratios root 15; same_body root 1; shared root 2; sky race_level 22; sky_close race_level 8; splits from_numbers 1, root 58; strikes derived 13, duplicate 3, mirror 3, root 61
 -- Dec groups (3+ points joined by numbers)
    H Chiron, H Gonggong, H Haumea, H Ketu, J Rahu, S Pluto, S Rahu, S Sun
    H Juno, H Rahu, J Ketu, J Transpluto, S Ketu, S Pallas
@@ -49,16 +49,10 @@
    DERIVED  cross H Pluto–J Ceres RA 140.99501 = 141
             <- natal     H H Mercury–H Pluto RA 107.99633 = 108
             <- cross     cross H Mercury–J Ceres RA 32.99867 = 33
-   MIRROR   J Ketu moved RA 79.99359 = 80
+   DERIVED  J Ketu moved RA 79.99359 = 80
             <- axis      node axis (S)
             <- movement  J Rahu moved RA 79.99359 = 80
             <- axis      node axis (J)
-   MIRROR   sky Ketu–Eris RA 158.77795 = 1429/9
-            <- axis      node axis (S)
-            <- skynum    sky Rahu–Eris RA 21.22205 = 191/9
-   DERIVED  sky Gonggong–Quaoar RA 61.33360 = 552/9
-            <- skynum    sky Haumea–Gonggong RA 121.55570 = 1094/9
-            <- skynum    sky Haumea–Quaoar RA 60.22210 = 542/9
    MIRROR   sky Ketu -> H Transpluto RA 74.88900 = 674/9
             <- axis      node axis (S)
             <- strike    sky Rahu -> H Transpluto RA 105.11100 = 946/9
@@ -78,7 +72,7 @@
    DERIVED  sky Rahu -> J Vesta RA 139.99891 = 140
             <- strike    sky Rahu -> H Venus RA 20.99916 = 21
             <- cross     cross H Venus–J Vesta RA 118.99975 = 119
-   MIRROR   sky Ketu -> J Vesta RA 40.00109 = 40
+   DERIVED  sky Ketu -> J Vesta RA 40.00109 = 40
             <- axis      node axis (S)
             <- strike    sky Rahu -> H Venus RA 20.99916 = 21
             <- cross     cross H Venus–J Vesta RA 118.99975 = 119
@@ -113,11 +107,6 @@
    cross H Orcus–J Haumea Dec 32.99874 = 33
    J Rahu moved Dec 30.77691 = 277/9
    J Ketu moved Dec 30.77691 = 277/9
-   sky Neptune–Quaoar Dec 12.11150 = 109/9
-   sky Pallas–Ketu Dec 16.22266 = 146/9
-   sky Neptune–Juno Dec 5.00345 = 5
-   sky Jupiter–Haumea Dec 14.00366 = 14
-   sky Venus–Makemake Dec 1.00438 = 1
    sky Rahu -> H Haumea Dec 1.00001 = 1
    sky Sedna -> J Chiron Dec 8.33339 = 75/9
    sky Neptune -> J Vesta Dec 21.11090 = 190/9
@@ -152,10 +141,6 @@
    cross H Chiron–J Eris RA 19.99850 = 20
    J Rahu moved RA 79.99359 = 80
    J Quaoar moved RA 44.00809 = 44
-   sky Haumea–Quaoar RA 60.22210 = 542/9
-   sky Haumea–Gonggong RA 121.55570 = 1094/9
-   sky Rahu–Eris RA 21.22205 = 191/9
-   sky Mars–Pluto RA 90.00143 = 90
    sky Sedna -> H Mercury RA 17.00000 = 17
    sky Rahu -> H Transpluto RA 105.11100 = 946/9
    sky Juno -> H Sedna RA 68.77735 = 619/9

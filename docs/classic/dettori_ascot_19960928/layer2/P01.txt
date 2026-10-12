@@ -1,5 +1,5 @@
-== 4 Diffident / 4 Frankie Dettori   [19960928_ascot_1435__P01.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 45; eq_ratios root 5; hj_ratios root 21; links derived 4, mirror 1, root 115; movement root 8; pair_family root 124; points root 2; ratios root 24; same_body mirror 1, root 4; shared root 7; sky mirror 1, race_level 19, root 8; sky_close race_level 11; splits from_numbers 2, root 112; strikes derived 8, duplicate 6, mirror 3, root 66
+== 4 Diffident / 4 Frankie Dettori   [19960928_ascot_1435__P01.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 45; eq_ratios root 5; hj_ratios root 21; links derived 4, mirror 1, root 116; movement root 8; node root 1; pair_family root 124; points root 2; ratios root 24; same_body mirror 1, root 4; shared root 7; sky race_level 28; sky_close race_level 11; splits from_numbers 2, root 112; strikes derived 9, duplicate 6, mirror 2, root 66
 -- Dec groups (3+ points joined by numbers)
    H Chiron, H Haumea, H Mars, H Mercury, H Rahu, H Vesta, J Eris, J Gonggong, J Haumea, J Juno, J Quaoar, J Saturn, J Sedna, J Transpluto, S Ceres, S Eris, S Gonggong, S Haumea, S Mercury, S Pallas, S Vesta
    H Neptune, J Jupiter, J Ketu, J Mars, J Vesta
@@ -48,9 +48,6 @@
    DERIVED  cross H Pallas–J Neptune RA 14.55590 = 131/9
             <- cross     cross H Pallas–J Eris RA 124.77774 = 1123/9
             <- natal     J J Neptune–J Eris RA 139.33365 = 1254/9
-   MIRROR   sky Chiron–Ketu RA 170.99783 = 171
-            <- skynum    sky Chiron–Rahu RA 9.00217 = 9
-            <- axis      node axis (S)
    DERIVED  sky Mars -> H Sedna RA 91.99974 = 92
             <- strike    sky Mars -> J Sedna RA 100.99996 = 101
             <- natal     J J Venus–J Sedna RA 170.99974 = 171
@@ -64,7 +61,7 @@
    DERIVED  sky Neptune -> H Rahu RA 16.11067 = 145/9
             <- strike    sky Neptune -> H Vesta RA 117.88894 = 1061/9
             <- natal     H H Vesta–H Rahu RA 101.77827 = 916/9
-   MIRROR   sky Neptune -> H Ketu RA 163.88933 = 1475/9
+   DERIVED  sky Neptune -> H Ketu RA 163.88933 = 1475/9
             <- strike    sky Neptune -> H Vesta RA 117.88894 = 1061/9
             <- natal     H H Vesta–H Rahu RA 101.77827 = 916/9
             <- axis      node axis (H)
@@ -100,9 +97,6 @@
    H Haumea moved Dec 1.00392 = 1
    J Haumea moved Dec 2.99569 = 3
    H Venus moved Dec 35.00492 = 35
-   sky Uranus–Makemake Dec 53.33337 = 480/9
-   sky Neptune–Transpluto Dec 34.00030 = 34
-   sky Venus–Orcus Dec 13.11072 = 118/9
    sky Mercury -> H Rahu Dec 27.55552 = 248/9
    sky Quaoar -> H Sedna Dec 18.33326 = 165/9
    sky Vesta -> J Sedna Dec 22.55565 = 203/9
@@ -134,11 +128,6 @@
    cross H Transpluto–J Juno RA 94.88856 = 854/9
    cross H Neptune–J Makemake RA 140.99925 = 141
    cross H Quaoar–J Ceres RA 148.00266 = 148
-   sky Sun–Pluto RA 56.22196 = 506/9
-   sky Eris–Gonggong RA 52.66698 = 474/9
-   sky Saturn–Eris RA 18.77746 = 169/9
-   sky Haumea–Transpluto RA 46.44409 = 418/9
-   sky Chiron–Rahu RA 9.00217 = 9
    sky Mars -> J Sedna RA 100.99996 = 101
    sky Neptune -> H Vesta RA 117.88894 = 1061/9
    sky Quaoar -> J Ceres RA 144.22228 = 1298/9

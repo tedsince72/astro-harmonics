@@ -1,5 +1,5 @@
-== 5 Out From Under / 5 Kieran Shoemark   [haydock_1718_20220507__P05.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 45; eq_ratios root 2; hj_ratios root 21; links derived 2, mirror 1, root 119; movement root 7; pair_family root 126; points root 5; ratios root 30; shared root 12; sky derived 2, mirror 1, race_level 7, root 6; sky_close race_level 9; splits from_numbers 1, root 52; strikes derived 6, duplicate 1, mirror 1, root 56
+== 5 Out From Under / 5 Kieran Shoemark   [haydock_1718_20220507__P05.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 45; eq_ratios root 2; hj_ratios root 21; links derived 2, mirror 1, root 121; movement root 7; node root 1; pair_family root 126; points race_level 3, root 2; ratios root 30; shared root 12; sky race_level 16; sky_close race_level 9; splits from_numbers 1, root 52; strikes derived 7, duplicate 1, root 56
 -- Dec groups (3+ points joined by numbers)
    EQ, H Haumea, H Sedna, H Venus, J Eris, J Gonggong, J Orcus, J Pallas, J Sedna, J Sun, S Eris, S Gonggong, S Pluto, S Uranus
    H Ketu, H Neptune, J Ketu, J Neptune, J Vesta, S Neptune, S Sun
@@ -25,12 +25,6 @@
    DERIVED  cross H Sedna–J Gonggong Dec 26.22253 = 236/9
             <- cross     cross H Sedna–J Orcus Dec 7.33333 = 66/9
             <- natal     J J Gonggong–J Orcus Dec 18.88920 = 170/9
-   DERIVED  sky Pluto–Gonggong Dec 11.44428 = 103/9
-            <- equator   S Pluto Equator 22.44500 = 202/9
-            <- equator   S Gonggong Equator 11.00071 = 11
-   DERIVED  sky Ceres–Juno Dec 29.11069 = 262/9
-            <- skynum    sky Saturn–Ceres Dec 40.77754 = 367/9
-            <- skynum    sky Saturn–Juno Dec 11.66685 = 105/9
    DERIVED  sky Pluto -> H Haumea Dec 39.00001 = 39
             <- equator   S Pluto Equator 22.44500 = 202/9
             <- equator   H Haumea Equator 16.55501 = 149/9
@@ -47,16 +41,13 @@
    MIRROR   J J Ketu–J Orcus RA 114.99793 = 115
             <- axis      node axis (J)
             <- natal     J J Rahu–J Orcus RA 65.00207 = 65
-   MIRROR   sky Ketu–Transpluto RA 75.55562 = 680/9
-            <- axis      node axis (S)
-            <- skynum    sky Rahu–Transpluto RA 104.44438 = 940/9
    DERIVED  sky Juno -> H Mercury RA 14.22232 = 128/9
             <- strike    sky Juno -> J Gonggong RA 4.11103 = 37/9
             <- cross     cross H Mercury–J Gonggong RA 18.33335 = 165/9
    DERIVED  sky Rahu -> J Haumea RA 144.11095 = 1297/9
             <- skynum    sky Rahu–Transpluto RA 104.44438 = 940/9
             <- strike    sky Transpluto -> J Haumea RA 39.66658 = 357/9
-   MIRROR   sky Ketu -> J Haumea RA 35.88905 = 323/9
+   DERIVED  sky Ketu -> J Haumea RA 35.88905 = 323/9
             <- axis      node axis (S)
             <- skynum    sky Rahu–Transpluto RA 104.44438 = 940/9
             <- strike    sky Transpluto -> J Haumea RA 39.66658 = 357/9
@@ -65,9 +56,6 @@
             <- cross     cross H Juno–J Chiron RA 116.99615 = 117
 -- roots among number items (Dec/RA)
    H Haumea Equator 16.55501 = 149/9
-   S Pluto Equator 22.44500 = 202/9
-   S Gonggong Equator 11.00071 = 11
-   S Eris Equator 0.99160 = 1
    J Sun Equator 21.00874 = 21
    H H Sun–H Chiron Dec 3.66658 = 33/9
    H H Jupiter–H Pallas Dec 34.22250 = 308/9
@@ -89,9 +77,6 @@
    cross H Haumea–J Sedna Dec 11.99504 = 12
    H Neptune moved Dec 2.99425 = 3
    H Vesta moved Dec 8.00820 = 8
-   sky Saturn–Juno Dec 11.66685 = 105/9
-   sky Saturn–Ceres Dec 40.77754 = 367/9
-   sky Chiron–Rahu Dec 10.99852 = 11
    sky Sun -> J Neptune Dec 37.44440 = 337/9
    sky Venus -> H Eris Dec 2.66677 = 24/9
    sky Quaoar -> H Juno Dec 25.88868 = 233/9
@@ -121,9 +106,6 @@
    cross H Juno–J Chiron RA 116.99615 = 117
    H Mars moved RA 61.55490 = 554/9
    H Pallas moved RA 176.00932 = 176
-   sky Rahu–Transpluto RA 104.44438 = 940/9
-   sky Mars–Gonggong RA 11.00123 = 11
-   sky Uranus–Vesta RA 74.99686 = 75
    sky Juno -> J Gonggong RA 4.11103 = 37/9
    sky Transpluto -> J Haumea RA 39.66658 = 357/9
    sky Sedna -> H Pallas RA 153.11101 = 1378/9

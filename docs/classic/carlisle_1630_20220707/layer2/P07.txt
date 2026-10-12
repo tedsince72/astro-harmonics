@@ -1,5 +1,5 @@
-== 6 Whitefeathersfall / 6 Franny Norton   [carlisle_1630_20220707__P07.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 42; eq_ratios root 2; hj_ratios root 17; links derived 3, mirror 1, root 107; movement root 8; pair_family root 146; pair_sets root 1; ratios root 20; same_body root 1; shared root 7; sky derived 1, mirror 1, race_level 11, root 9; sky_close race_level 8; splits from_numbers 4, root 142; strikes derived 10, duplicate 3, mirror 2, root 60
+== 6 Whitefeathersfall / 6 Franny Norton   [carlisle_1630_20220707__P07.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 42; eq_ratios root 2; hj_ratios root 17; links derived 3, mirror 1, root 107; movement root 8; node root 1; pair_family root 146; pair_sets root 1; ratios root 20; same_body root 1; shared root 7; sky race_level 22; sky_close race_level 8; splits from_numbers 4, root 142; strikes derived 12, duplicate 3, root 60
 -- Dec groups (3+ points joined by numbers)
    H Pallas, H Sedna, J Neptune, J Orcus, J Sun, J Transpluto, J Uranus
    H Ceres, H Eris, H Gonggong, J Jupiter, J Pluto, J Venus
@@ -40,19 +40,13 @@
    MIRROR   cross H Ketu–J Pluto RA 109.11076 = 982/9
             <- axis      node axis (H)
             <- cross     cross H Rahu–J Pluto RA 70.88924 = 638/9
-   MIRROR   sky Ketu–Eris RA 158.77795 = 1429/9
-            <- axis      node axis (S)
-            <- skynum    sky Rahu–Eris RA 21.22205 = 191/9
-   DERIVED  sky Gonggong–Quaoar RA 61.33360 = 552/9
-            <- skynum    sky Haumea–Gonggong RA 121.55570 = 1094/9
-            <- skynum    sky Haumea–Quaoar RA 60.22210 = 542/9
    DERIVED  sky Transpluto -> J Jupiter RA 52.22221 = 470/9
             <- movement  H Transpluto moved RA 1.11071 = 10/9
             <- cross     cross H Transpluto–J Jupiter RA 53.33291 = 480/9
    DERIVED  sky Rahu -> J Eris RA 27.77808 = 250/9
             <- skynum    sky Rahu–Eris RA 21.22205 = 191/9
             <- movement  J Eris moved RA 6.55603 = 59/9
-   MIRROR   sky Ketu -> J Eris RA 152.22192 = 1370/9
+   DERIVED  sky Ketu -> J Eris RA 152.22192 = 1370/9
             <- axis      node axis (S)
             <- skynum    sky Rahu–Eris RA 21.22205 = 191/9
             <- movement  J Eris moved RA 6.55603 = 59/9
@@ -63,7 +57,7 @@
             <- skynum    sky Rahu–Eris RA 21.22205 = 191/9
             <- movement  J Eris moved RA 6.55603 = 59/9
             <- natal     J J Pallas–J Eris RA 43.77789 = 394/9
-   MIRROR   sky Ketu -> J Pallas RA 108.44403 = 976/9
+   DERIVED  sky Ketu -> J Pallas RA 108.44403 = 976/9
             <- axis      node axis (S)
             <- skynum    sky Rahu–Eris RA 21.22205 = 191/9
             <- movement  J Eris moved RA 6.55603 = 59/9
@@ -111,11 +105,6 @@
    cross H Rahu–J Juno Dec 11.99634 = 12
    cross H Mars–J Pallas Dec 13.00395 = 13
    H Makemake moved Dec 1.77876 = 16/9
-   sky Neptune–Quaoar Dec 12.11150 = 109/9
-   sky Pallas–Ketu Dec 16.22266 = 146/9
-   sky Neptune–Juno Dec 5.00345 = 5
-   sky Jupiter–Haumea Dec 14.00366 = 14
-   sky Venus–Makemake Dec 1.00438 = 1
    sky Juno -> H Orcus Dec 12.11123 = 109/9
    sky Vesta -> H Rahu Dec 36.44431 = 328/9
    sky Ceres -> H Saturn Dec 47.44428 = 427/9
@@ -149,10 +138,6 @@
    H Sedna moved RA 2.55618 = 23/9
    H Jupiter moved RA 104.77846 = 943/9
    H Saturn moved RA 34.99144 = 35
-   sky Haumea–Quaoar RA 60.22210 = 542/9
-   sky Haumea–Gonggong RA 121.55570 = 1094/9
-   sky Rahu–Eris RA 21.22205 = 191/9
-   sky Mars–Pluto RA 90.00143 = 90
    sky Saturn -> J Sun RA 160.88879 = 1448/9
    sky Vesta -> H Uranus RA 50.22208 = 452/9
    sky Venus -> H Neptune RA 86.99973 = 87

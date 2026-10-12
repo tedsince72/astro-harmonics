@@ -1,5 +1,5 @@
-== 4 Brian Boranha / 4 Callum Bewley   [catterick_1505_20211119__P07.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 32; eq_ratios root 4; hj_ratios root 18; links derived 2, mirror 2, root 108; movement root 10; pair_family root 144; pair_sets root 1; points root 4; ratios root 17; same_body root 1; shared root 5; sky derived 1, race_level 5, root 10; sky_close race_level 9; splits root 38; strikes derived 10, duplicate 7, root 68
+== 4 Brian Boranha / 4 Callum Bewley   [catterick_1505_20211119__P07.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 32; eq_ratios root 4; hj_ratios root 18; links derived 2, mirror 2, root 110; movement root 10; node root 1; pair_family root 144; pair_sets root 1; points race_level 2, root 2; ratios root 17; same_body root 1; shared root 5; sky race_level 16; sky_close race_level 9; splits root 38; strikes derived 10, duplicate 7, root 68
 -- Dec groups (3+ points joined by numbers)
    H Sedna, J Ceres, J Mercury, J Uranus, S Mars, S Mercury, S Orcus, S Pallas, S Saturn, S Sun
    H Ceres, H Gonggong, H Haumea, H Makemake, H Mars, H Saturn, S Neptune
@@ -22,9 +22,6 @@
    DERIVED  H H Ceres–H Haumea Dec 31.99814 = 32
             <- natal     H H Ceres–H Gonggong Dec 1.00101 = 1
             <- natal     H H Haumea–H Gonggong Dec 32.99915 = 33
-   DERIVED  sky Uranus–Juno Dec 28.77792 = 259/9
-            <- equator   S Uranus Equator 14.99958 = 15
-            <- equator   S Juno Equator 13.77833 = 124/9
    DERIVED  sky Ceres -> H Pluto Dec 35.33293 = 318/9
             <- skynum    sky Chiron–Ceres Dec 11.11098 = 100/9
             <- strike    sky Chiron -> H Pluto Dec 24.22195 = 218/9
@@ -67,8 +64,6 @@
             <- strike    sky Pluto -> H Makemake RA 108.00162 = 108
             <- cross     cross H Makemake–J Neptune RA 103.99668 = 104
 -- roots among number items (Dec/RA)
-   S Uranus Equator 14.99958 = 15
-   S Juno Equator 13.77833 = 124/9
    H Jupiter Equator 8.99643 = 9
    J Haumea Equator 22.00513 = 22
    H H Sun–H Ketu Dec 4.00000 = 4
@@ -89,11 +84,6 @@
    cross H Orcus–J Sedna Dec 10.99545 = 11
    H Transpluto moved Dec 1.66653 = 15/9
    J Mercury moved Dec 28.33274 = 255/9
-   sky Sun–Pallas Dec 7.77771 = 70/9
-   sky Chiron–Ceres Dec 11.11098 = 100/9
-   sky Mercury–Orcus Dec 6.00061 = 6
-   sky Sun–Mars Dec 3.99642 = 4
-   sky Venus–Chiron Dec 32.00367 = 32
    sky Mars -> H Sedna Dec 22.44438 = 202/9
    sky Chiron -> H Pluto Dec 24.22195 = 218/9
    sky Makemake -> J Ketu Dec 4.66637 = 42/9
@@ -124,11 +114,6 @@
    cross H Sedna–J Transpluto RA 93.00336 = 93
    cross H Pluto–J Pluto RA 40.99575 = 41
    J Vesta moved RA 155.00283 = 155
-   sky Pallas–Transpluto RA 173.00002 = 173
-   sky Chiron–Orcus RA 150.55588 = 1355/9
-   sky Mercury–Orcus RA 71.88930 = 647/9
-   sky Ceres–Quaoar RA 150.99925 = 151
-   sky Saturn–Orcus RA 153.00269 = 153
    sky Jupiter -> J Makemake RA 153.11112 = 1378/9
    sky Makemake -> J Sun RA 48.33347 = 435/9
    sky Neptune -> H Ceres RA 2.11077 = 19/9

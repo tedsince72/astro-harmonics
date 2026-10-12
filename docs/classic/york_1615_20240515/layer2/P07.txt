@@ -1,5 +1,5 @@
-== 4 Elmonjed / 4 Jim Crowley   [york_1615_20240515__P07.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 43; eq_ratios root 3; hj_ratios root 19; links derived 4, mirror 4, root 109; movement mirror 1, root 7; pair_family root 130; points root 3; ratios root 13; same_body root 2; shared root 3; sky race_level 9, root 13; sky_close race_level 5; splits from_numbers 3, root 126; strikes derived 17, duplicate 3, mirror 3, root 63
+== 4 Elmonjed / 4 Jim Crowley   [york_1615_20240515__P07.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 43; eq_ratios root 3; hj_ratios root 19; links derived 4, mirror 4, root 112; movement derived 1, root 7; node root 1; pair_family root 130; points race_level 2, root 1; ratios root 13; same_body root 2; shared root 3; sky race_level 22; sky_close race_level 5; splits from_numbers 3, root 126; strikes derived 18, duplicate 3, mirror 2, root 63
 -- Dec groups (3+ points joined by numbers)
    H Mercury, H Orcus, H Sun, J Juno, J Neptune, J Rahu, J Uranus, S Rahu, S Saturn, S Venus
    EQ, H Gonggong, H Haumea, H Ketu, H Sedna, S Eris, S Quaoar, S Sun, S Vesta
@@ -70,22 +70,22 @@
             <- natal     H H Mars–H Rahu RA 9.22179 = 83/9
             <- natal     H H Chiron–H Rahu RA 62.99722 = 63
             <- cross     cross H Chiron–J Makemake RA 147.22238 = 1325/9
-   MIRROR   H Ketu moved RA 57.11083 = 514/9
+   DERIVED  H Ketu moved RA 57.11083 = 514/9
             <- axis      node axis (S)
             <- movement  H Rahu moved RA 57.11083 = 514/9
             <- axis      node axis (H)
    DERIVED  sky Makemake -> H Haumea RA 16.66640 = 150/9
             <- strike    sky Makemake -> J Haumea RA 24.11126 = 217/9
             <- cross     cross H Haumea–J Haumea RA 40.77766 = 367/9
+   DERIVED  sky Venus -> H Makemake RA 150.33305 = 1353/9
+            <- strike    sky Venus -> J Mercury RA 92.88876 = 836/9
+            <- cross     cross H Makemake–J Mercury RA 57.44430 = 517/9
    MIRROR   sky Ketu -> H Rahu RA 122.88917 = 1106/9
             <- axis      node axis (S)
             <- movement  H Rahu moved RA 57.11083 = 514/9
    MIRROR   sky Rahu -> H Ketu RA 122.88917 = 1106/9
             <- movement  H Rahu moved RA 57.11083 = 514/9
             <- axis      node axis (H)
-   DERIVED  sky Venus -> H Makemake RA 150.33305 = 1353/9
-            <- strike    sky Venus -> J Mercury RA 92.88876 = 836/9
-            <- cross     cross H Makemake–J Mercury RA 57.44430 = 517/9
    DERIVED  sky Quaoar -> H Mars RA 160.00179 = 160
             <- skynum    sky Pluto–Quaoar RA 25.00140 = 25
             <- strike    sky Pluto -> H Mars RA 135.00040 = 135
@@ -107,14 +107,12 @@
    DERIVED  sky Mercury -> J Rahu RA 150.99510 = 151
             <- strike    sky Mercury -> J Orcus RA 89.99878 = 90
             <- natal     J J Rahu–J Orcus RA 60.99632 = 61
-   MIRROR   sky Mercury -> J Ketu RA 29.00490 = 29
+   DERIVED  sky Mercury -> J Ketu RA 29.00490 = 29
             <- strike    sky Mercury -> J Orcus RA 89.99878 = 90
             <- natal     J J Rahu–J Orcus RA 60.99632 = 61
             <- axis      node axis (J)
 -- roots among number items (Dec/RA)
    H Gonggong Equator 11.33261 = 102/9
-   S Sun Equator 18.99694 = 19
-   S Quaoar Equator 14.99235 = 15
    J J Jupiter–J Vesta Dec 40.44454 = 364/9
    J J Chiron–J Vesta Dec 32.11100 = 289/9
    H H Vesta–H Transpluto Dec 7.99979 = 8
@@ -134,13 +132,6 @@
    cross H Orcus–J Uranus Dec 3.99532 = 4
    cross H Neptune–J Mars Dec 10.00483 = 10
    J Haumea moved Dec 9.00791 = 9
-   sky Mercury–Haumea Dec 7.00035 = 7
-   sky Mars–Ketu Dec 9.00040 = 9
-   sky Venus–Rahu Dec 11.11069 = 100/9
-   sky Vesta–Eris Dec 25.00094 = 25
-   sky Pallas–Sedna Dec 16.99898 = 17
-   sky Uranus–Pluto Dec 41.00342 = 41
-   sky Juno–Orcus Dec 23.00446 = 23
    sky Gonggong -> H Pallas Dec 14.88889 = 134/9
    sky Eris -> H Gonggong Dec 10.88889 = 98/9
    sky Sun -> H Ketu Dec 41.22225 = 371/9
@@ -176,12 +167,6 @@
    H Sun moved RA 35.44388 = 319/9
    J Eris moved RA 5.44542 = 49/9
    H Pluto moved RA 5.99088 = 6
-   sky Uranus–Neptune RA 50.99989 = 51
-   sky Chiron–Sedna RA 41.11080 = 370/9
-   sky Gonggong–Orcus RA 179.55595 = 1616/9
-   sky Uranus–Eris RA 23.66710 = 213/9
-   sky Pluto–Quaoar RA 25.00140 = 25
-   sky Sedna–Haumea RA 158.00470 = 158
    sky Transpluto -> J Uranus RA 65.44454 = 589/9
    sky Venus -> J Mercury RA 92.88876 = 836/9
    sky Makemake -> J Haumea RA 24.11126 = 217/9

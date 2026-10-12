@@ -1,5 +1,5 @@
-== 2 Athmad / 2 Jason Hart   [20210802_newcastle_aw_1633__P03.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 41; eq_ratios root 5; hj_ratios root 23; links derived 5, root 118; movement root 4; pair_family root 135; pair_sets root 2; points root 3; ratios from_numbers 1, root 18; same_body root 3; shared root 5; sky race_level 14, root 9; sky_close race_level 11; splits from_numbers 1, root 81; strikes derived 7, mirror 1, root 66
+== 2 Athmad / 2 Jason Hart   [20210802_newcastle_aw_1633__P03.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 41; eq_ratios root 5; hj_ratios root 23; links derived 5, root 119; movement root 4; node root 1; pair_family root 135; pair_sets root 2; points race_level 2, root 1; ratios from_numbers 1, root 18; same_body root 3; shared root 5; sky race_level 23; sky_close race_level 11; splits from_numbers 1, root 81; strikes derived 7, mirror 1, root 66
 -- Dec groups (3+ points joined by numbers)
    H Jupiter, H Orcus, H Sun, J Neptune, J Sedna, S Rahu, S Transpluto
    EQ, H Ceres, S Haumea, S Makemake, S Mercury, S Sun
@@ -61,9 +61,7 @@
             <- strike    sky Sedna -> H Venus RA 134.00340 = 134
             <- cross     cross H Venus–J Vesta RA 170.99999 = 171
 -- roots among number items (Dec/RA)
-   S Makemake Equator 22.88831 = 206/9
    H Ceres Equator 17.99623 = 18
-   S Mercury Equator 19.00861 = 19
    H H Jupiter–H Orcus Dec 13.88901 = 125/9
    J J Vesta–J Quaoar Dec 33.33354 = 300/9
    H H Uranus–H Juno Dec 14.22266 = 128/9
@@ -82,11 +80,6 @@
    cross H Sun–J Sedna Dec 20.99869 = 21
    cross H Makemake–J Saturn Dec 35.99794 = 36
    H Gonggong moved Dec 1.55627 = 14/9
-   sky Neptune–Ceres Dec 18.00015 = 18
-   sky Sun–Haumea Dec 1.77803 = 16/9
-   sky Jupiter–Ketu Dec 8.88921 = 80/9
-   sky Haumea–Makemake Dec 6.99831 = 7
-   sky Mars–Quaoar Dec 26.99554 = 27
    sky Uranus -> J Haumea Dec 5.88898 = 53/9
    sky Pallas -> H Uranus Dec 0.66680 = 6/9
    sky Vesta -> J Sun Dec 4.66690 = 42/9
@@ -120,10 +113,6 @@
    H Uranus moved RA 26.11171 = 235/9
    H Chiron moved RA 22.55615 = 203/9
    H Pluto moved RA 9.99309 = 10
-   sky Mars–Pluto RA 142.66675 = 1284/9
-   sky Gonggong–Quaoar RA 62.77744 = 565/9
-   sky Uranus–Ceres RA 17.55602 = 158/9
-   sky Haumea–Makemake RA 17.99702 = 18
    sky Uranus -> J Juno RA 177.33350 = 1596/9
    sky Transpluto -> J Saturn RA 174.66694 = 1572/9
    sky Haumea -> H Eris RA 170.22184 = 1532/9

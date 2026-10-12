@@ -1,5 +1,5 @@
-== 6 Scandinavia / 6 Tom Marquand   [newmarket_july_1745_20240816__P11.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 44; eq_ratios mirror 1, root 2; hj_ratios root 15; links derived 2, mirror 1, root 105; movement root 5; pair_family root 150; points root 4; ratios root 24; same_body root 3; shared root 8; sky mirror 1, race_level 5, root 7; sky_close race_level 6; splits from_numbers 1, root 42; strikes derived 9, duplicate 1, mirror 2, root 71
+== 6 Scandinavia / 6 Tom Marquand   [newmarket_july_1745_20240816__P11.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 44; eq_ratios mirror 1, root 2; hj_ratios root 15; links derived 2, mirror 1, root 106; movement root 5; node root 1; pair_family root 150; points root 4; ratios root 24; same_body root 3; shared root 8; sky race_level 13; sky_close race_level 6; splits from_numbers 1, root 42; strikes derived 9, duplicate 1, mirror 2, root 71
 -- Dec groups (3+ points joined by numbers)
    EQ, H Ceres, H Gonggong, H Jupiter, H Mercury, H Transpluto, J Ceres, J Saturn, S Pluto, S Transpluto
    H Eris, J Gonggong, J Mercury, J Venus, S Quaoar, S Saturn
@@ -51,9 +51,6 @@
    MIRROR   H H Pluto–H Ketu RA 70.99514 = 71
             <- natal     H H Pluto–H Rahu RA 109.00486 = 109
             <- axis      node axis (H)
-   MIRROR   sky Juno–Ketu RA 2.99584 = 3
-            <- skynum    sky Juno–Rahu RA 177.00416 = 177
-            <- axis      node axis (S)
    DERIVED  sky Ceres -> J Mars RA 99.88866 = 899/9
             <- strike    sky Ceres -> H Transpluto RA 124.33350 = 1119/9
             <- cross     cross H Transpluto–J Mars RA 135.77784 = 1222/9
@@ -89,10 +86,6 @@
    cross H Pallas–J Eris Dec 5.00478 = 5
    cross H Sedna–J Mars Dec 0.99504 = 1
    J Jupiter moved Dec 29.66567 = 267/9
-   sky Pluto–Transpluto Dec 33.55554 = 302/9
-   sky Mercury–Gonggong Dec 18.22209 = 164/9
-   sky Juno–Ketu Dec 5.99802 = 6
-   sky Jupiter–Ceres Dec 52.99678 = 53
    sky Mars -> H Sun Dec 5.11117 = 46/9
    sky Jupiter -> J Pluto Dec 31.55567 = 284/9
    sky Pluto -> J Saturn Dec 29.66685 = 267/9
@@ -128,9 +121,6 @@
    cross H Neptune–J Quaoar RA 109.99621 = 110
    H Quaoar moved RA 0.99460 = 1
    J Jupiter moved RA 90.99406 = 91
-   sky Chiron–Transpluto RA 134.55535 = 1211/9
-   sky Gonggong–Transpluto RA 177.99774 = 178
-   sky Juno–Rahu RA 177.00416 = 177
    sky Neptune -> J Pallas RA 22.55553 = 203/9
    sky Ceres -> H Transpluto RA 124.33350 = 1119/9
    sky Gonggong -> J Chiron RA 111.22243 = 1001/9

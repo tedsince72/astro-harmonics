@@ -1,5 +1,5 @@
-== 4 Calle Malva / 4 Derek Fox   [perth_1610_20220420__P07.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 42; eq_ratios root 2; hj_ratios root 22; links derived 9, root 91; movement root 4; pair_family root 146; pair_sets root 1; points root 5; ratios root 17; same_body root 3; shared root 7; sky mirror 1, race_level 11, root 9; sky_close race_level 10; splits from_numbers 1, root 54; strikes derived 16, duplicate 3, mirror 7, root 57
+== 4 Calle Malva / 4 Derek Fox   [perth_1610_20220420__P07.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 42; eq_ratios root 2; hj_ratios root 22; links derived 9, root 91; movement root 4; node root 1; pair_family root 146; pair_sets root 1; points race_level 1, root 4; ratios root 17; same_body root 3; shared root 7; sky race_level 21; sky_close race_level 10; splits from_numbers 1, root 54; strikes derived 20, duplicate 3, mirror 3, root 57
 -- Dec groups (3+ points joined by numbers)
    EQ, H Ceres, H Gonggong, H Juno, H Makemake, H Rahu, H Uranus, J Ceres, J Haumea, J Juno, J Orcus, S Mercury, S Neptune
    H Neptune, H Sun, J Rahu, J Uranus, S Jupiter, S Mars, S Quaoar, S Rahu
@@ -73,30 +73,27 @@
             <- natal     H H Jupiter–H Vesta RA 172.55579 = 1553/9
             <- cross     cross H Vesta–J Ceres RA 10.44481 = 94/9
             <- natal     J J Uranus–J Ceres RA 23.99638 = 24
-   MIRROR   sky Ceres–Ketu RA 151.00098 = 151
-            <- skynum    sky Ceres–Rahu RA 28.99902 = 29
-            <- axis      node axis (S)
    MIRROR   sky Ketu -> H Haumea RA 18.88905 = 170/9
             <- axis      node axis (S)
             <- strike    sky Rahu -> H Haumea RA 161.11095 = 1450/9
    DERIVED  sky Rahu -> H Makemake RA 143.33353 = 1290/9
             <- strike    sky Rahu -> H Haumea RA 161.11095 = 1450/9
             <- natal     H H Haumea–H Makemake RA 17.77742 = 160/9
-   MIRROR   sky Ketu -> H Makemake RA 36.66647 = 330/9
+   DERIVED  sky Ketu -> H Makemake RA 36.66647 = 330/9
             <- axis      node axis (S)
             <- strike    sky Rahu -> H Haumea RA 161.11095 = 1450/9
             <- natal     H H Haumea–H Makemake RA 17.77742 = 160/9
    DERIVED  sky Ceres -> H Sedna RA 24.55577 = 221/9
             <- skynum    sky Sun–Ceres RA 50.77820 = 457/9
             <- strike    sky Sun -> H Sedna RA 26.22243 = 236/9
-   MIRROR   sky Pallas -> H Ketu RA 19.77802 = 178/9
-            <- strike    sky Pallas -> H Rahu RA 160.22198 = 1442/9
-            <- axis      node axis (H)
    DERIVED  sky Rahu -> H Quaoar RA 142.11086 = 1279/9
             <- strike    sky Rahu -> H Haumea RA 161.11095 = 1450/9
             <- natal     H H Haumea–H Makemake RA 17.77742 = 160/9
             <- natal     H H Makemake–H Quaoar RA 74.55561 = 671/9
-   MIRROR   sky Ketu -> H Quaoar RA 37.88914 = 341/9
+   MIRROR   sky Pallas -> H Ketu RA 19.77802 = 178/9
+            <- strike    sky Pallas -> H Rahu RA 160.22198 = 1442/9
+            <- axis      node axis (H)
+   DERIVED  sky Ketu -> H Quaoar RA 37.88914 = 341/9
             <- axis      node axis (S)
             <- strike    sky Rahu -> H Haumea RA 161.11095 = 1450/9
             <- natal     H H Haumea–H Makemake RA 17.77742 = 160/9
@@ -106,7 +103,7 @@
             <- natal     H H Haumea–H Makemake RA 17.77742 = 160/9
             <- natal     H H Makemake–H Quaoar RA 74.55561 = 671/9
             <- cross     cross H Quaoar–J Pluto RA 34.66653 = 312/9
-   MIRROR   sky Ketu -> J Pluto RA 3.22261 = 29/9
+   DERIVED  sky Ketu -> J Pluto RA 3.22261 = 29/9
             <- axis      node axis (S)
             <- strike    sky Rahu -> H Haumea RA 161.11095 = 1450/9
             <- natal     H H Haumea–H Makemake RA 17.77742 = 160/9
@@ -125,7 +122,7 @@
    DERIVED  sky Rahu -> J Pallas RA 135.00245 = 135
             <- skynum    sky Ceres–Rahu RA 28.99902 = 29
             <- strike    sky Ceres -> J Pallas RA 164.00147 = 164
-   MIRROR   sky Ketu -> J Pallas RA 44.99755 = 45
+   DERIVED  sky Ketu -> J Pallas RA 44.99755 = 45
             <- axis      node axis (S)
             <- skynum    sky Ceres–Rahu RA 28.99902 = 29
             <- strike    sky Ceres -> J Pallas RA 164.00147 = 164
@@ -140,7 +137,6 @@
    J Juno Equator 6.22118 = 56/9
    H Ceres Equator 23.99493 = 24
    H Gonggong Equator 12.99448 = 13
-   S Mercury Equator 19.00634 = 19
    J J Ceres–J Haumea Dec 46.88895 = 422/9
    H H Pluto–H Vesta Dec 3.88898 = 35/9
    H H Uranus–H Ceres Dec 29.22199 = 263/9
@@ -160,8 +156,6 @@
    cross H Quaoar–J Quaoar Dec 1.99578 = 2
    H Eris moved Dec 1.99608 = 2
    J Pluto moved Dec 19.00813 = 19
-   sky Ceres–Vesta Dec 41.99994 = 42
-   sky Saturn–Juno Dec 9.99815 = 10
    sky Quaoar -> H Neptune Dec 5.77780 = 52/9
    sky Neptune -> H Juno Dec 13.55562 = 122/9
    sky Jupiter -> H Sun Dec 1.44455 = 13/9
@@ -197,13 +191,6 @@
    cross H Mercury–J Juno RA 54.00455 = 54
    cross H Orcus–J Makemake RA 20.00455 = 20
    J Quaoar moved RA 40.33378 = 363/9
-   sky Pluto–Vesta RA 19.88930 = 179/9
-   sky Sun–Ceres RA 50.77820 = 457/9
-   sky Pluto–Orcus RA 145.00060 = 145
-   sky Ceres–Rahu RA 28.99902 = 29
-   sky Chiron–Transpluto RA 142.99643 = 143
-   sky Uranus–Transpluto RA 113.00390 = 113
-   sky Chiron–Gonggong RA 33.99521 = 34
    sky Gonggong -> H Orcus RA 172.99992 = 173
    sky Rahu -> H Haumea RA 161.11095 = 1450/9
    sky Sun -> H Sedna RA 26.22243 = 236/9

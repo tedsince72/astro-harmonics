@@ -1,5 +1,5 @@
-== 3 Wise Eagle / 3 Graham Lee   [newcastle_aw_1640_20220215__P05.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 37; eq_ratios root 1; hj_ratios root 29; links derived 2, root 112; movement root 4; pair_family root 128; ratios root 16; same_body root 1; shared root 5; sky derived 1, race_level 8, root 13; sky_close race_level 9; splits root 52; strikes derived 7, duplicate 2, root 61
+== 3 Wise Eagle / 3 Graham Lee   [newcastle_aw_1640_20220215__P05.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 37; eq_ratios root 1; hj_ratios root 29; links derived 2, root 112; movement root 4; node root 1; pair_family root 128; ratios root 16; same_body root 1; shared root 5; sky race_level 22; sky_close race_level 9; splits root 52; strikes derived 7, duplicate 2, root 61
 -- Dec groups (3+ points joined by numbers)
    H Juno, H Neptune, H Quaoar, H Vesta, J Ceres, J Pluto, J Venus, S Pluto
    H Chiron, J Jupiter, J Ketu, J Quaoar, J Uranus, S Gonggong
@@ -15,9 +15,6 @@
    H Jupiter, H Makemake, S Mars
    H Neptune, J Saturn, J Sun
 -- derived items (with chain)
-   DERIVED  sky Mercury–Saturn Dec 3.00231 = 3
-            <- skynum    sky Mercury–Jupiter Dec 11.00150 = 11
-            <- skynum    sky Jupiter–Saturn Dec 7.99919 = 8
    DERIVED  sky Haumea -> J Mars Dec 10.77807 = 97/9
             <- skynum    sky Mars–Haumea Dec 38.44433 = 346/9
             <- movement  J Mars moved Dec 49.22239 = 443/9
@@ -67,13 +64,6 @@
    cross H Vesta–J Pluto Dec 15.00298 = 15
    J Mars moved Dec 49.22239 = 443/9
    J Chiron moved Dec 3.99005 = 4
-   sky Mars–Haumea Dec 38.44433 = 346/9
-   sky Ketu–Orcus Dec 7.33296 = 66/9
-   sky Jupiter–Saturn Dec 7.99919 = 8
-   sky Neptune–Eris Dec 2.99894 = 3
-   sky Mercury–Jupiter Dec 11.00150 = 11
-   sky Rahu–Transpluto Dec 9.00162 = 9
-   sky Chiron–Juno Dec 17.00237 = 17
    sky Orcus -> J Mercury Dec 13.33347 = 120/9
    sky Ceres -> J Rahu Dec 38.99983 = 39
    sky Pallas -> J Orcus Dec 19.99980 = 20
@@ -101,12 +91,6 @@
    cross H Pluto–J Transpluto RA 150.99555 = 151
    cross H Orcus–J Juno RA 13.99525 = 14
    H Saturn moved RA 52.33224 = 471/9
-   sky Sun–Uranus RA 69.66670 = 627/9
-   sky Chiron–Haumea RA 150.44460 = 1354/9
-   sky Eris–Quaoar RA 109.11139 = 982/9
-   sky Saturn–Chiron RA 48.33295 = 435/9
-   sky Ceres–Juno RA 113.00347 = 113
-   sky Ceres–Vesta RA 128.99598 = 129
    sky Pluto -> H Venus RA 55.55534 = 500/9
    sky Ceres -> H Pluto RA 127.99962 = 128
    sky Mercury -> J Gonggong RA 22.11159 = 199/9

@@ -1,5 +1,5 @@
-== 4 Onesmoothoperator / 4 Harry Russell   [newcastle_aw_1640_20220215__P07.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 38; eq_ratios mirror 1, root 3; hj_ratios root 20; links derived 8, mirror 2, root 108; movement root 9; pair_family root 145; points root 2; ratios root 23; same_body mirror 1, root 3; shared root 9; sky derived 1, race_level 8, root 13; sky_close race_level 9; splits root 38; strikes derived 17, duplicate 4, mirror 1, root 68
+== 4 Onesmoothoperator / 4 Harry Russell   [newcastle_aw_1640_20220215__P07.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 38; eq_ratios mirror 1, root 3; hj_ratios root 20; links derived 8, mirror 2, root 109; movement root 9; node root 1; pair_family root 145; points root 2; ratios root 23; same_body mirror 1, root 3; shared root 9; sky race_level 22; sky_close race_level 9; splits root 38; strikes derived 18, duplicate 4, root 68
 -- Dec groups (3+ points joined by numbers)
    H Sedna, H Uranus, J Orcus, J Transpluto, J Uranus, S Quaoar, S Rahu, S Transpluto
    H Jupiter, J Pallas, S Eris, S Ketu, S Neptune, S Orcus, S Pallas
@@ -34,9 +34,6 @@
    DERIVED  cross H Transpluto–J Sun Dec 32.99960 = 33
             <- equator   H Transpluto Equator 10.99296 = 11
             <- equator   J Sun Equator 22.00663 = 22
-   DERIVED  sky Mercury–Saturn Dec 3.00231 = 3
-            <- skynum    sky Mercury–Jupiter Dec 11.00150 = 11
-            <- skynum    sky Jupiter–Saturn Dec 7.99919 = 8
    DERIVED  sky Haumea -> H Neptune Dec 22.55542 = 203/9
             <- skynum    sky Mars–Haumea Dec 38.44433 = 346/9
             <- strike    sky Mars -> H Neptune Dec 15.88890 = 143/9
@@ -94,7 +91,7 @@
    DERIVED  sky Neptune -> J Rahu RA 173.88869 = 1565/9
             <- strike    sky Neptune -> H Saturn RA 74.88882 = 674/9
             <- cross     cross H Saturn–J Rahu RA 111.22249 = 1001/9
-   MIRROR   sky Neptune -> J Ketu RA 6.11131 = 55/9
+   DERIVED  sky Neptune -> J Ketu RA 6.11131 = 55/9
             <- strike    sky Neptune -> H Saturn RA 74.88882 = 674/9
             <- cross     cross H Saturn–J Rahu RA 111.22249 = 1001/9
             <- axis      node axis (J)
@@ -136,13 +133,6 @@
    J Chiron moved Dec 20.11069 = 181/9
    J Pallas moved Dec 8.66753 = 78/9
    J Vesta moved Dec 19.00832 = 19
-   sky Mars–Haumea Dec 38.44433 = 346/9
-   sky Ketu–Orcus Dec 7.33296 = 66/9
-   sky Jupiter–Saturn Dec 7.99919 = 8
-   sky Neptune–Eris Dec 2.99894 = 3
-   sky Mercury–Jupiter Dec 11.00150 = 11
-   sky Rahu–Transpluto Dec 9.00162 = 9
-   sky Chiron–Juno Dec 17.00237 = 17
    sky Quaoar -> J Orcus Dec 14.88890 = 134/9
    sky Mars -> H Neptune Dec 15.88890 = 143/9
    sky Gonggong -> H Chiron Dec 13.33338 = 120/9
@@ -177,12 +167,6 @@
    cross H Venus–J Sedna RA 49.00088 = 49
    cross H Rahu–J Quaoar RA 106.99879 = 107
    cross H Neptune–J Uranus RA 36.99615 = 37
-   sky Sun–Uranus RA 69.66670 = 627/9
-   sky Chiron–Haumea RA 150.44460 = 1354/9
-   sky Eris–Quaoar RA 109.11139 = 982/9
-   sky Saturn–Chiron RA 48.33295 = 435/9
-   sky Ceres–Juno RA 113.00347 = 113
-   sky Ceres–Vesta RA 128.99598 = 129
    sky Neptune -> H Saturn RA 74.88882 = 674/9
    sky Ceres -> H Makemake RA 137.22214 = 1235/9
    sky Haumea -> J Sedna RA 172.00014 = 172

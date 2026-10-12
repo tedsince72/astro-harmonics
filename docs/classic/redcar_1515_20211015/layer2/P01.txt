@@ -1,5 +1,5 @@
-== 3 Divine Jewel / 3 David Egan   [20211015_redcar_1515__P01.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 37; eq_ratios root 5; hj_ratios root 22; links derived 10, root 108; movement mirror 1, root 4; pair_family root 139; points root 1; ratios root 18; same_body root 1; shared root 7; sky mirror 1, race_level 8, root 11; sky_close race_level 11; splits from_numbers 3, root 66; strikes derived 10, duplicate 1, mirror 2, root 58
+== 3 Divine Jewel / 3 David Egan   [20211015_redcar_1515__P01.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 37; eq_ratios root 5; hj_ratios root 22; links derived 10, root 109; movement derived 1, root 4; node root 1; pair_family root 139; points root 1; ratios root 18; same_body root 1; shared root 7; sky race_level 20; sky_close race_level 11; splits from_numbers 3, root 66; strikes derived 11, duplicate 1, mirror 1, root 58
 -- Dec groups (3+ points joined by numbers)
    H Jupiter, H Sedna, J Ceres, J Orcus, J Saturn, J Sun, S Quaoar, S Uranus
    H Eris, H Vesta, J Jupiter, J Pluto, S Juno, S Ketu, S Mars, S Mercury
@@ -64,13 +64,10 @@
    DERIVED  cross H Transpluto–J Transpluto RA 7.00313 = 7
             <- natal     H H Pallas–H Transpluto RA 56.99656 = 57
             <- cross     cross H Pallas–J Transpluto RA 63.99969 = 64
-   MIRROR   J Ketu moved RA 76.33235 = 687/9
+   DERIVED  J Ketu moved RA 76.33235 = 687/9
             <- axis      node axis (S)
             <- movement  J Rahu moved RA 76.33235 = 687/9
             <- axis      node axis (J)
-   MIRROR   sky Venus–Ketu RA 6.11110 = 55/9
-            <- skynum    sky Venus–Rahu RA 173.88890 = 1565/9
-            <- axis      node axis (S)
    DERIVED  sky Uranus -> H Sedna RA 15.55534 = 140/9
             <- strike    sky Uranus -> H Chiron RA 42.88892 = 386/9
             <- natal     H H Chiron–H Sedna RA 58.44426 = 526/9
@@ -86,7 +83,7 @@
    DERIVED  sky Rahu -> H Gonggong RA 84.11159 = 757/9
             <- skynum    sky Venus–Rahu RA 173.88890 = 1565/9
             <- strike    sky Venus -> H Gonggong RA 89.77731 = 808/9
-   MIRROR   sky Ketu -> H Gonggong RA 95.88841 = 863/9
+   DERIVED  sky Ketu -> H Gonggong RA 95.88841 = 863/9
             <- axis      node axis (S)
             <- skynum    sky Venus–Rahu RA 173.88890 = 1565/9
             <- strike    sky Venus -> H Gonggong RA 89.77731 = 808/9
@@ -118,12 +115,6 @@
    cross H Pallas–J Venus Dec 18.99780 = 19
    cross H Venus–J Gonggong Dec 3.99765 = 4
    cross H Vesta–J Pluto Dec 3.99765 = 4
-   sky Mars–Ketu Dec 13.44417 = 121/9
-   sky Ceres–Orcus Dec 27.66636 = 249/9
-   sky Pallas–Vesta Dec 4.22188 = 38/9
-   sky Jupiter–Haumea Dec 30.33286 = 273/9
-   sky Mercury–Mars Dec 3.00119 = 3
-   sky Pluto–Chiron Dec 29.00281 = 29
    sky Vesta -> H Chiron Dec 14.44457 = 130/9
    sky Gonggong -> J Uranus Dec 4.99978 = 5
    sky Makemake -> J Mercury Dec 1.33356 = 12/9
@@ -159,11 +150,6 @@
    J Rahu moved RA 76.33235 = 687/9
    H Chiron moved RA 9.99548 = 10
    H Uranus moved RA 14.00836 = 14
-   sky Venus–Rahu RA 173.88890 = 1565/9
-   sky Sun–Pallas RA 141.55602 = 1274/9
-   sky Juno–Makemake RA 61.99799 = 62
-   sky Ceres–Pallas RA 88.99739 = 89
-   sky Venus–Pluto RA 50.00376 = 50
    sky Uranus -> H Chiron RA 42.88892 = 386/9
    sky Makemake -> H Saturn RA 88.77774 = 799/9
    sky Gonggong -> J Jupiter RA 50.66647 = 456/9

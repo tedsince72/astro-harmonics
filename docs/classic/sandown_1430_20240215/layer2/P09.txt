@@ -1,5 +1,5 @@
-== 5 Little Miss Dante / 5 Sean Bowen   [sandown_1430_20240215__P09.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 38; eq_ratios root 1; hj_ratios root 24; links derived 4, mirror 2, root 98; movement root 4; pair_family root 143; pair_sets root 1; points root 1; ratios root 18; same_body root 1; shared root 8; sky derived 1, race_level 5, root 7; sky_close race_level 6; splits from_numbers 1, root 43; strikes derived 7, duplicate 2, root 70
+== 5 Little Miss Dante / 5 Sean Bowen   [sandown_1430_20240215__P09.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 38; eq_ratios root 1; hj_ratios root 24; links derived 4, mirror 2, root 98; movement root 4; node root 1; pair_family root 143; pair_sets root 1; points root 1; ratios root 18; same_body root 1; shared root 8; sky race_level 13; sky_close race_level 6; splits from_numbers 1, root 43; strikes derived 7, duplicate 2, root 70
 -- Dec groups (3+ points joined by numbers)
    EQ, H Ceres, H Juno, H Mars, H Mercury, H Transpluto, J Sun, S Juno, S Mars
    H Rahu, H Uranus, H Vesta, J Jupiter, J Quaoar, S Ceres, S Neptune
@@ -27,9 +27,6 @@
    DERIVED  cross H Transpluto–J Sun Dec 4.44484 = 40/9
             <- natal     H H Juno–H Transpluto Dec 10.88913 = 98/9
             <- cross     cross H Juno–J Sun Dec 6.44429 = 58/9
-   DERIVED  sky Uranus–Eris Dec 18.00422 = 18
-            <- skynum    sky Sun–Uranus Dec 30.00005 = 30
-            <- skynum    sky Sun–Eris Dec 11.99583 = 12
    DERIVED  sky Vesta -> H Haumea Dec 5.77746 = 52/9
             <- strike    sky Vesta -> J Makemake Dec 9.66694 = 87/9
             <- cross     cross H Haumea–J Makemake Dec 15.44440 = 139/9
@@ -83,10 +80,6 @@
    cross H Quaoar–J Makemake Dec 47.99786 = 48
    cross H Makemake–J Gonggong Dec 42.99774 = 43
    H Mars moved Dec 2.22183 = 20/9
-   sky Sun–Uranus Dec 30.00005 = 30
-   sky Mercury–Venus Dec 2.66696 = 24/9
-   sky Neptune–Ceres Dec 19.99713 = 20
-   sky Sun–Eris Dec 11.99583 = 12
    sky Haumea -> J Saturn Dec 9.55558 = 86/9
    sky Neptune -> J Quaoar Dec 11.55553 = 104/9
    sky Pluto -> J Mercury Dec 30.22231 = 272/9
@@ -119,9 +112,6 @@
    cross H Vesta–J Vesta RA 118.99580 = 119
    cross H Saturn–J Rahu RA 109.00442 = 109
    cross H Haumea–J Mercury RA 57.99508 = 58
-   sky Sun–Makemake RA 127.55566 = 1148/9
-   sky Jupiter–Ceres RA 123.88841 = 1115/9
-   sky Venus–Chiron RA 74.00193 = 74
    sky Venus -> H Pluto RA 7.77766 = 70/9
    sky Uranus -> J Quaoar RA 164.33313 = 1479/9
    sky Juno -> J Haumea RA 26.66636 = 240/9

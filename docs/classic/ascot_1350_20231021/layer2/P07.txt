@@ -1,5 +1,5 @@
-== 4 Run To Freedom / 4 Trevor Whelan   [ascot_1350_20231021__P07.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 42; eq_ratios root 3; hj_ratios root 13; links derived 5, root 119; movement root 7; pair_family root 129; points root 4; ratios root 23; same_body root 2; shared root 2; sky derived 1, race_level 13, root 5; sky_close race_level 9; splits from_numbers 1, root 36; strikes derived 10, duplicate 3, root 76
+== 4 Run To Freedom / 4 Trevor Whelan   [ascot_1350_20231021__P07.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 42; eq_ratios root 3; hj_ratios root 13; links derived 5, root 119; movement root 7; node root 1; pair_family root 129; points race_level 4; ratios root 23; same_body root 2; shared root 2; sky race_level 19; sky_close race_level 9; splits from_numbers 1, root 36; strikes derived 10, duplicate 3, root 76
 -- Dec groups (3+ points joined by numbers)
    H Makemake, H Mercury, H Venus, J Haumea, J Ketu, J Neptune, J Saturn, J Sedna, S Rahu, S Sedna, S Sun
    EQ, H Pallas, J Venus, J Vesta, S Makemake, S Neptune, S Saturn, S Transpluto, S Vesta
@@ -31,9 +31,6 @@
             <- cross     cross H Transpluto–J Pluto Dec 11.77772 = 106/9
             <- natal     J J Pluto–J Chiron Dec 17.77827 = 160/9
             <- natal     J J Mars–J Chiron Dec 6.99842 = 7
-   DERIVED  sky Neptune–Transpluto Dec 13.22247 = 119/9
-            <- equator   S Neptune Equator 3.11107 = 28/9
-            <- equator   S Transpluto Equator 10.11139 = 91/9
    DERIVED  sky Venus -> H Pluto Dec 28.55526 = 257/9
             <- strike    sky Venus -> H Rahu Dec 10.88874 = 98/9
             <- natal     H H Pluto–H Rahu Dec 39.44400 = 355/9
@@ -70,10 +67,6 @@
             <- strike    sky Vesta -> J Jupiter RA 34.00262 = 34
             <- cross     cross H Transpluto–J Jupiter RA 89.99911 = 90
 -- roots among number items (Dec/RA)
-   S Neptune Equator 3.11107 = 28/9
-   S Transpluto Equator 10.11139 = 91/9
-   S Vesta Equator 18.99773 = 19
-   S Saturn Equator 12.99441 = 13
    H H Sun–H Jupiter Dec 33.33340 = 300/9
    J J Sun–J Uranus Dec 30.55543 = 275/9
    H H Mercury–H Makemake Dec 18.44458 = 166/9
@@ -99,9 +92,6 @@
    J Vesta moved Dec 37.11148 = 334/9
    J Sedna moved Dec 4.44530 = 40/9
    J Mercury moved Dec 18.00972 = 18
-   sky Pallas–Eris Dec 2.99900 = 3
-   sky Sun–Sedna Dec 19.00217 = 19
-   sky Makemake–Transpluto Dec 11.00365 = 11
    sky Venus -> H Rahu Dec 10.88874 = 98/9
    sky Ceres -> H Gonggong Dec 0.55539 = 5/9
    sky Mercury -> H Transpluto Dec 21.44468 = 193/9
@@ -134,8 +124,6 @@
    cross H Chiron–J Sun RA 16.99913 = 17
    cross H Transpluto–J Jupiter RA 89.99911 = 90
    cross H Mars–J Transpluto RA 155.99801 = 156
-   sky Jupiter–Uranus RA 9.44446 = 85/9
-   sky Mercury–Gonggong RA 129.99946 = 130
    sky Saturn -> J Pluto RA 106.11119 = 955/9
    sky Pallas -> H Sedna RA 142.55589 = 1283/9
    sky Quaoar -> J Makemake RA 109.22181 = 983/9

@@ -1,5 +1,5 @@
-== 2 Guernesey / 2 Tom O'Brien   [wincanton_1420_20220321__P03.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 31; eq_ratios mirror 1, root 5; hj_ratios root 21; links derived 3, mirror 2, root 110; movement root 3; pair_family from_numbers 1, root 121; pair_sets root 1; points root 5; ratios root 21; same_body mirror 1, root 3; shared root 5; sky race_level 9, root 7; sky_close race_level 10; splits from_numbers 1, root 20; strikes derived 13, mirror 1, root 59
+== 2 Guernesey / 2 Tom O'Brien   [wincanton_1420_20220321__P03.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 31; eq_ratios mirror 1, root 5; hj_ratios root 21; links derived 3, mirror 2, root 113; movement root 3; node root 1; pair_family from_numbers 1, root 121; pair_sets root 1; points race_level 2, root 3; ratios root 21; same_body mirror 1, root 3; shared root 5; sky race_level 16; sky_close race_level 10; splits from_numbers 1, root 20; strikes derived 13, mirror 1, root 59
 -- Dec groups (3+ points joined by numbers)
    EQ, H Haumea, H Orcus, H Quaoar, H Sedna, H Venus, H Vesta, J Gonggong, J Neptune, J Quaoar, J Sun, S Ceres, S Pallas
    H Pluto, J Ketu, J Makemake, J Pluto, S Jupiter, S Orcus, S Saturn, S Uranus
@@ -83,9 +83,7 @@
 -- roots among number items (Dec/RA)
    J Quaoar Equator 13.00065 = 13
    H Sedna Equator 7.55627 = 68/9
-   S Ceres Equator 23.55462 = 212/9
    H Vesta Equator 16.00176 = 16
-   S Pallas Equator 6.00223 = 6
    H H Venus–H Vesta Dec 1.33331 = 12/9
    H H Uranus–H Neptune Dec 16.00020 = 16
    J J Ketu–J Makemake Dec 44.00148 = 44
@@ -104,11 +102,6 @@
    cross H Gonggong–J Sedna Dec 15.99817 = 16
    cross H Jupiter–J Mars Dec 20.00213 = 20
    cross H Venus–J Sun Dec 36.00474 = 36
-   sky Vesta–Sedna Dec 27.11116 = 244/9
-   sky Juno–Eris Dec 6.88854 = 62/9
-   sky Makemake–Gonggong Dec 33.99950 = 34
-   sky Uranus–Orcus Dec 27.00289 = 27
-   sky Jupiter–Saturn Dec 10.00329 = 10
    sky Sun -> H Eris Dec 2.77795 = 25/9
    sky Uranus -> J Makemake Dec 20.99981 = 21
    sky Sedna -> J Pallas Dec 8.77756 = 79/9
@@ -140,8 +133,6 @@
    cross H Pluto–J Juno RA 18.99605 = 19
    cross H Orcus–J Eris RA 128.99537 = 129
    J Haumea moved RA 31.99172 = 32
-   sky Mercury–Neptune RA 3.11117 = 28/9
-   sky Sun–Juno RA 41.99713 = 42
    sky Sedna -> H Sun RA 10.88886 = 98/9
    sky Ceres -> J Sun RA 176.66644 = 1590/9
    sky Jupiter -> J Pallas RA 138.00022 = 138

@@ -1,5 +1,5 @@
-== 9 Big Gypsy King / 9 Neil Callan   [newmarket_july_1745_20240816__P17.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 51; eq_ratios root 2; hj_ratios root 21; links derived 3, mirror 1, root 115; movement root 13; pair_family root 126; pair_sets root 1; points root 2; ratios root 23; shared root 3; sky mirror 1, race_level 5, root 7; sky_close race_level 6; splits from_numbers 3, root 133; strikes derived 12, duplicate 10, mirror 1, root 64
+== 9 Big Gypsy King / 9 Neil Callan   [newmarket_july_1745_20240816__P17.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 51; eq_ratios root 2; hj_ratios root 21; links derived 3, mirror 1, root 116; movement root 13; node root 1; pair_family root 126; pair_sets root 1; points root 2; ratios root 23; shared root 3; sky race_level 13; sky_close race_level 6; splits from_numbers 3, root 133; strikes derived 12, duplicate 10, mirror 1, root 64
 -- Dec groups (3+ points joined by numbers)
    EQ, H Ceres, H Venus, J Juno, J Orcus, J Sun, J Transpluto, S Pluto, S Transpluto
    H Haumea, H Pallas, J Mercury, J Pluto, J Uranus, S Haumea, S Sedna, S Vesta
@@ -48,9 +48,6 @@
    DERIVED  cross H Mercury–J Sedna RA 11.00439 = 11
             <- cross     cross H Mercury–J Uranus RA 165.99745 = 166
             <- natal     J J Uranus–J Sedna RA 177.00184 = 177
-   MIRROR   sky Juno–Ketu RA 2.99584 = 3
-            <- skynum    sky Juno–Rahu RA 177.00416 = 177
-            <- axis      node axis (S)
    MIRROR   sky Haumea -> H Ketu RA 12.66658 = 114/9
             <- strike    sky Haumea -> H Rahu RA 167.33342 = 1506/9
             <- axis      node axis (H)
@@ -108,10 +105,6 @@
    H Eris moved Dec 0.66715 = 6/9
    H Neptune moved Dec 2.00208 = 2
    H Haumea moved Dec 1.00570 = 1
-   sky Pluto–Transpluto Dec 33.55554 = 302/9
-   sky Mercury–Gonggong Dec 18.22209 = 164/9
-   sky Juno–Ketu Dec 5.99802 = 6
-   sky Jupiter–Ceres Dec 52.99678 = 53
    sky Neptune -> J Pallas Dec 25.88880 = 233/9
    sky Ketu -> H Orcus Dec 8.88876 = 80/9
    sky Pallas -> J Venus Dec 2.11097 = 19/9
@@ -144,9 +137,6 @@
    cross H Vesta–J Juno RA 12.00412 = 12
    J Vesta moved RA 98.11062 = 883/9
    J Mars moved RA 88.00292 = 88
-   sky Chiron–Transpluto RA 134.55535 = 1211/9
-   sky Gonggong–Transpluto RA 177.99774 = 178
-   sky Juno–Rahu RA 177.00416 = 177
    sky Gonggong -> H Uranus RA 63.33331 = 570/9
    sky Quaoar -> J Chiron RA 119.22221 = 1073/9
    sky Haumea -> H Rahu RA 167.33342 = 1506/9

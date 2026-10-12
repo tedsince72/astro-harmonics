@@ -1,5 +1,5 @@
-== 5 Saint Lawrence / 5 Hollie Doyle   [ascot_1350_20231021__P09.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 32; eq_ratios root 2; hj_ratios root 14; links derived 2, mirror 1, root 99; movement root 5; pair_family root 153; points root 7; ratios root 21; same_body root 1; shared root 9; sky derived 1, race_level 13, root 5; sky_close race_level 9; splits from_numbers 2, root 80; strikes derived 12, duplicate 3, mirror 4, root 65
+== 5 Saint Lawrence / 5 Hollie Doyle   [ascot_1350_20231021__P09.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 32; eq_ratios root 2; hj_ratios root 14; links derived 2, mirror 1, root 100; movement root 5; node root 1; pair_family root 153; points race_level 4, root 3; ratios root 21; same_body root 1; shared root 9; sky race_level 19; sky_close race_level 9; splits from_numbers 2, root 80; strikes derived 13, duplicate 3, mirror 3, root 65
 -- Dec groups (3+ points joined by numbers)
    EQ, H Chiron, H Uranus, H Venus, J Ceres, J Eris, J Orcus, S Makemake, S Neptune, S Saturn, S Transpluto, S Vesta
    H Gonggong, H Juno, H Quaoar, H Saturn, J Haumea, J Saturn, J Sun, J Uranus, S Ceres, S Quaoar
@@ -22,9 +22,6 @@
    DERIVED  cross H Transpluto–J Ketu Dec 7.77755 = 70/9
             <- cross     cross H Transpluto–J Neptune Dec 31.66666 = 285/9
             <- natal     J J Neptune–J Ketu Dec 23.88911 = 215/9
-   DERIVED  sky Neptune–Transpluto Dec 13.22247 = 119/9
-            <- equator   S Neptune Equator 3.11107 = 28/9
-            <- equator   S Transpluto Equator 10.11139 = 91/9
    DERIVED  sky Vesta -> H Venus Dec 22.55564 = 203/9
             <- equator   S Vesta Equator 18.99773 = 19
             <- equator   H Uranus Equator 9.44381 = 85/9
@@ -64,7 +61,7 @@
    DERIVED  sky Uranus -> J Rahu RA 138.11070 = 1243/9
             <- skynum    sky Jupiter–Uranus RA 9.44446 = 85/9
             <- strike    sky Jupiter -> J Rahu RA 147.55517 = 1328/9
-   MIRROR   sky Uranus -> J Ketu RA 41.88930 = 377/9
+   DERIVED  sky Uranus -> J Ketu RA 41.88930 = 377/9
             <- skynum    sky Jupiter–Uranus RA 9.44446 = 85/9
             <- strike    sky Jupiter -> J Rahu RA 147.55517 = 1328/9
             <- axis      node axis (J)
@@ -85,13 +82,9 @@
             <- axis      node axis (S)
             <- strike    sky Rahu -> H Ceres RA 109.00470 = 109
 -- roots among number items (Dec/RA)
-   S Neptune Equator 3.11107 = 28/9
-   S Transpluto Equator 10.11139 = 91/9
    J Eris Equator 7.88830 = 71/9
    H Uranus Equator 9.44381 = 85/9
    H Chiron Equator 2.00168 = 2
-   S Vesta Equator 18.99773 = 19
-   S Saturn Equator 12.99441 = 13
    J J Eris–J Orcus Dec 8.22238 = 74/9
    J J Neptune–J Ketu Dec 23.88911 = 215/9
    J J Sun–J Uranus Dec 13.33360 = 120/9
@@ -107,9 +100,6 @@
    cross H Gonggong–J Saturn Dec 11.00387 = 11
    cross H Quaoar–J Uranus Dec 4.99601 = 5
    J Venus moved Dec 1.99779 = 2
-   sky Pallas–Eris Dec 2.99900 = 3
-   sky Sun–Sedna Dec 19.00217 = 19
-   sky Makemake–Transpluto Dec 11.00365 = 11
    sky Jupiter -> H Orcus Dec 24.22220 = 218/9
    sky Venus -> H Sedna Dec 0.55544 = 5/9
    sky Rahu -> J Pallas Dec 1.77793 = 16/9
@@ -143,8 +133,6 @@
    H Neptune moved RA 10.77764 = 97/9
    H Quaoar moved RA 4.99357 = 5
    H Mercury moved RA 147.00674 = 147
-   sky Jupiter–Uranus RA 9.44446 = 85/9
-   sky Mercury–Gonggong RA 129.99946 = 130
    sky Ceres -> H Uranus RA 160.55548 = 1445/9
    sky Uranus -> J Mercury RA 134.88911 = 1214/9
    sky Sedna -> H Sun RA 77.33359 = 696/9

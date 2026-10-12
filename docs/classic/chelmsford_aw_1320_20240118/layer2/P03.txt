@@ -1,5 +1,5 @@
-== 2 Sullivan Bay / 2 Shane Kelly   [chelmsford_aw_1320_20240118__P03.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 61; eq_ratios root 4; hj_ratios root 20; links derived 3, mirror 2, root 115; movement derived 1, root 8; pair_family root 112; pair_sets root 1; points root 1; ratios root 16; same_body root 3; shared root 4; sky derived 1, mirror 1, race_level 11, root 10; sky_close race_level 6; splits from_numbers 6, root 91; strikes derived 14, duplicate 2, mirror 3, root 75
+== 2 Sullivan Bay / 2 Shane Kelly   [chelmsford_aw_1320_20240118__P03.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 61; eq_ratios root 4; hj_ratios root 20; links derived 3, mirror 2, root 119; movement derived 1, root 8; node root 1; pair_family root 112; pair_sets root 1; points race_level 1; ratios root 16; same_body root 3; shared root 4; sky race_level 23; sky_close race_level 6; splits from_numbers 6, root 91; strikes derived 14, duplicate 2, mirror 3, root 75
 -- Dec groups (3+ points joined by numbers)
    H Chiron, H Eris, H Jupiter, H Rahu, J Chiron, J Gonggong, J Haumea, J Jupiter, J Neptune, J Rahu, J Venus, S Ceres, S Chiron, S Ketu, S Makemake, S Neptune, S Sun
    J Juno, J Sedna, S Eris, S Vesta
@@ -89,12 +89,6 @@
    DERIVED  cross H Juno–J Gonggong RA 126.99869 = 127
             <- natal     H H Juno–H Rahu RA 104.00146 = 104
             <- cross     cross H Rahu–J Gonggong RA 128.99985 = 129
-   DERIVED  sky Neptune–Makemake RA 155.11158 = 1396/9
-            <- skynum    sky Saturn–Neptune RA 18.88914 = 170/9
-            <- skynum    sky Saturn–Makemake RA 136.22244 = 1226/9
-   MIRROR   sky Ketu–Quaoar RA 80.99897 = 81
-            <- axis      node axis (S)
-            <- skynum    sky Rahu–Quaoar RA 99.00103 = 99
    MIRROR   sky Ketu -> J Jupiter RA 68.77765 = 619/9
             <- axis      node axis (S)
             <- strike    sky Rahu -> J Jupiter RA 111.22235 = 1001/9
@@ -108,7 +102,6 @@
             <- strike    sky Jupiter -> J Rahu RA 137.00368 = 137
             <- axis      node axis (J)
 -- roots among number items (Dec/RA)
-   S Mercury Equator 22.66629 = 204/9
    J J Jupiter–J Rahu Dec 15.33338 = 138/9
    J J Vesta–J Transpluto Dec 35.66659 = 321/9
    J J Juno–J Sedna Dec 13.77729 = 124/9
@@ -125,9 +118,6 @@
    cross H Pallas–J Vesta Dec 30.00477 = 30
    J Neptune moved Dec 18.55646 = 167/9
    H Chiron moved Dec 2.99627 = 3
-   sky Vesta–Eris Dec 22.66672 = 204/9
-   sky Chiron–Ceres Dec 29.00010 = 29
-   sky Mars–Uranus Dec 40.88926 = 368/9
    sky Pallas -> J Uranus Dec 20.00002 = 20
    sky Ketu -> J Neptune Dec 14.11114 = 127/9
    sky Saturn -> H Transpluto Dec 22.11119 = 199/9
@@ -161,13 +151,6 @@
    cross H Ceres–J Sedna RA 75.99677 = 76
    cross H Saturn–J Juno RA 25.99589 = 26
    J Transpluto moved RA 15.11164 = 136/9
-   sky Mars–Pluto RA 21.33325 = 192/9
-   sky Chiron–Orcus RA 145.33343 = 1308/9
-   sky Uranus–Quaoar RA 127.66684 = 1149/9
-   sky Saturn–Makemake RA 136.22244 = 1226/9
-   sky Saturn–Neptune RA 18.88914 = 170/9
-   sky Rahu–Quaoar RA 99.00103 = 99
-   sky Saturn–Juno RA 167.00444 = 167
    sky Mercury -> H Neptune RA 74.44442 = 670/9
    sky Mars -> H Makemake RA 83.77770 = 754/9
    sky Rahu -> J Jupiter RA 111.22235 = 1001/9

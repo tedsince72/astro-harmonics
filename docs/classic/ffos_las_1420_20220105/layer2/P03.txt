@@ -1,5 +1,5 @@
-== 3 Emir Sacree / 3 James Bowen   [ffos_las_1420_20220105__P03.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 50; eq_ratios root 3; hj_ratios root 21; links derived 4, mirror 4, root 112; movement root 7; pair_family root 137; points root 2; ratios root 15; same_body root 4; shared root 4; sky derived 8, race_level 14, root 13; sky_close race_level 13; splits from_numbers 1, root 39; strikes derived 23, duplicate 5, mirror 2, root 72
+== 3 Emir Sacree / 3 James Bowen   [ffos_las_1420_20220105__P03.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 50; eq_ratios root 3; hj_ratios root 21; links derived 4, mirror 4, root 115; movement root 7; node root 1; pair_family root 137; points race_level 1, root 1; ratios root 15; same_body root 4; shared root 4; sky race_level 35; sky_close race_level 13; splits from_numbers 1, root 39; strikes derived 24, duplicate 5, mirror 1, root 72
 -- Dec groups (3+ points joined by numbers)
    EQ, H Jupiter, H Sedna, H Uranus, J Juno, S Jupiter, S Sedna, S Transpluto
    H Makemake, H Mars, H Pluto, J Neptune, J Vesta, S Sun
@@ -68,37 +68,6 @@
    MIRROR   cross H Ketu–J Transpluto RA 119.99637 = 120
             <- axis      node axis (H)
             <- cross     cross H Rahu–J Transpluto RA 60.00363 = 60
-   DERIVED  sky Chiron–Pallas RA 15.44417 = 139/9
-            <- skynum    sky Sun–Chiron RA 80.55538 = 725/9
-            <- skynum    sky Sun–Pallas RA 65.11121 = 586/9
-   DERIVED  sky Mars–Chiron RA 111.88921 = 1007/9
-            <- skynum    sky Mars–Gonggong RA 81.44454 = 733/9
-            <- skynum    sky Chiron–Gonggong RA 30.44467 = 274/9
-   DERIVED  sky Sun–Gonggong RA 50.11071 = 451/9
-            <- skynum    sky Sun–Chiron RA 80.55538 = 725/9
-            <- skynum    sky Chiron–Gonggong RA 30.44467 = 274/9
-   DERIVED  sky Sun–Mars RA 31.33382 = 282/9
-            <- skynum    sky Sun–Chiron RA 80.55538 = 725/9
-            <- skynum    sky Chiron–Gonggong RA 30.44467 = 274/9
-            <- skynum    sky Mars–Gonggong RA 81.44454 = 733/9
-   DERIVED  sky Pallas–Gonggong RA 15.00050 = 15
-            <- skynum    sky Sun–Pallas RA 65.11121 = 586/9
-            <- skynum    sky Sun–Chiron RA 80.55538 = 725/9
-            <- skynum    sky Chiron–Gonggong RA 30.44467 = 274/9
-   DERIVED  sky Makemake–Gonggong RA 136.99878 = 137
-            <- skynum    sky Pallas–Makemake RA 151.99928 = 152
-            <- skynum    sky Sun–Pallas RA 65.11121 = 586/9
-            <- skynum    sky Sun–Chiron RA 80.55538 = 725/9
-            <- skynum    sky Chiron–Gonggong RA 30.44467 = 274/9
-   DERIVED  sky Uranus–Pallas RA 47.00373 = 47
-            <- skynum    sky Uranus–Makemake RA 160.99699 = 161
-            <- skynum    sky Pallas–Makemake RA 151.99928 = 152
-   DERIVED  sky Uranus–Gonggong RA 62.00423 = 62
-            <- skynum    sky Uranus–Makemake RA 160.99699 = 161
-            <- skynum    sky Pallas–Makemake RA 151.99928 = 152
-            <- skynum    sky Sun–Pallas RA 65.11121 = 586/9
-            <- skynum    sky Sun–Chiron RA 80.55538 = 725/9
-            <- skynum    sky Chiron–Gonggong RA 30.44467 = 274/9
    MIRROR   sky Ketu -> H Transpluto RA 86.11125 = 775/9
             <- axis      node axis (S)
             <- strike    sky Rahu -> H Transpluto RA 93.88875 = 845/9
@@ -125,7 +94,7 @@
    DERIVED  sky Rahu -> J Vesta RA 56.66715 = 510/9
             <- strike    sky Rahu -> H Transpluto RA 93.88875 = 845/9
             <- cross     cross H Transpluto–J Vesta RA 150.55590 = 1355/9
-   MIRROR   sky Ketu -> J Vesta RA 123.33285 = 1110/9
+   DERIVED  sky Ketu -> J Vesta RA 123.33285 = 1110/9
             <- axis      node axis (S)
             <- strike    sky Rahu -> H Transpluto RA 93.88875 = 845/9
             <- cross     cross H Transpluto–J Vesta RA 150.55590 = 1355/9
@@ -175,7 +144,6 @@
             <- natal     J J Neptune–J Pallas RA 53.77808 = 484/9
 -- roots among number items (Dec/RA)
    H Sedna Equator 6.99524 = 7
-   S Sedna Equator 8.00636 = 8
    H H Pluto–H Makemake Dec 46.55551 = 419/9
    J J Mercury–J Mars Dec 7.44456 = 67/9
    H H Pallas–H Orcus Dec 5.11125 = 46/9
@@ -199,11 +167,6 @@
    cross H Pluto–J Neptune Dec 2.00454 = 2
    cross H Saturn–J Ceres Dec 6.99501 = 7
    H Chiron moved Dec 7.77738 = 70/9
-   sky Pallas–Juno Dec 1.88881 = 17/9
-   sky Rahu–Quaoar Dec 35.77741 = 322/9
-   sky Chiron–Rahu Dec 15.00062 = 15
-   sky Ceres–Haumea Dec 2.99918 = 3
-   sky Jupiter–Sedna Dec 19.99553 = 20
    sky Jupiter -> H Uranus Dec 15.33333 = 138/9
    sky Sun -> H Makemake Dec 48.99998 = 49
    sky Gonggong -> H Quaoar Dec 4.22226 = 38/9
@@ -240,14 +203,6 @@
    cross H Transpluto–J Neptune RA 157.99500 = 158
    J Chiron moved RA 98.44447 = 886/9
    J Juno moved RA 83.55537 = 752/9
-   sky Mars–Gonggong RA 81.44454 = 733/9
-   sky Sun–Pallas RA 65.11121 = 586/9
-   sky Sun–Chiron RA 80.55538 = 725/9
-   sky Chiron–Gonggong RA 30.44467 = 274/9
-   sky Saturn–Orcus RA 157.44482 = 1417/9
-   sky Pallas–Makemake RA 151.99928 = 152
-   sky Pluto–Transpluto RA 142.99743 = 143
-   sky Uranus–Makemake RA 160.99699 = 161
    sky Sedna -> J Vesta RA 56.77774 = 511/9
    sky Transpluto -> J Gonggong RA 177.33326 = 1596/9
    sky Rahu -> H Transpluto RA 93.88875 = 845/9

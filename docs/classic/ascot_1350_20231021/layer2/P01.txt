@@ -1,5 +1,5 @@
-== 1 Art Power / 1 David Allan   [ascot_1350_20231021__P01.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 43; eq_ratios mirror 1, root 7; hj_ratios root 24; links derived 8, mirror 2, root 116; movement mirror 1, root 5; pair_family root 127; points root 5; ratios root 22; shared root 3; sky derived 1, race_level 13, root 5; sky_close race_level 9; splits from_numbers 2, root 39; strikes derived 9, duplicate 4, mirror 6, root 75
+== 1 Art Power / 1 David Allan   [ascot_1350_20231021__P01.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 43; eq_ratios mirror 1, root 7; hj_ratios root 24; links derived 9, mirror 1, root 118; movement derived 1, root 5; node root 1; pair_family root 127; points race_level 4, root 1; ratios root 22; shared root 3; sky race_level 19; sky_close race_level 9; splits from_numbers 2, root 39; strikes derived 10, duplicate 4, mirror 5, root 75
 -- Dec groups (3+ points joined by numbers)
    EQ, H Pluto, H Sedna, J Eris, J Vesta, S Makemake, S Neptune, S Pluto, S Saturn, S Transpluto, S Vesta
    H Chiron, H Eris, H Gonggong, H Rahu, J Chiron, J Haumea, J Pluto, S Jupiter, S Ketu
@@ -22,9 +22,6 @@
    DERIVED  cross H Eris–J Chiron Dec 19.00467 = 19
             <- natal     H H Eris–H Gonggong Dec 9.99929 = 10
             <- cross     cross H Gonggong–J Chiron Dec 29.00396 = 29
-   DERIVED  sky Neptune–Transpluto Dec 13.22247 = 119/9
-            <- equator   S Neptune Equator 3.11107 = 28/9
-            <- equator   S Transpluto Equator 10.11139 = 91/9
    DERIVED  sky Neptune -> J Vesta Dec 15.22218 = 137/9
             <- equator   S Neptune Equator 3.11107 = 28/9
             <- equator   J Vesta Equator 18.33325 = 165/9
@@ -47,7 +44,7 @@
    DERIVED  cross H Sun–J Rahu RA 63.22202 = 569/9
             <- cross     cross H Sun–J Orcus RA 80.77792 = 727/9
             <- natal     J J Rahu–J Orcus RA 17.55590 = 158/9
-   MIRROR   cross H Sun–J Ketu RA 116.77798 = 1051/9
+   DERIVED  cross H Sun–J Ketu RA 116.77798 = 1051/9
             <- cross     cross H Sun–J Orcus RA 80.77792 = 727/9
             <- natal     J J Rahu–J Orcus RA 17.55590 = 158/9
             <- axis      node axis (J)
@@ -64,7 +61,7 @@
    DERIVED  cross H Transpluto–J Sun RA 41.99515 = 42
             <- natal     H H Saturn–H Transpluto RA 114.00001 = 114
             <- cross     cross H Saturn–J Sun RA 155.99515 = 156
-   MIRROR   J Ketu moved RA 82.00342 = 82
+   DERIVED  J Ketu moved RA 82.00342 = 82
             <- axis      node axis (S)
             <- movement  J Rahu moved RA 82.00342 = 82
             <- axis      node axis (J)
@@ -77,7 +74,7 @@
    DERIVED  sky Rahu -> J Eris RA 0.77820 = 7/9
             <- strike    sky Rahu -> J Juno RA 113.88897 = 1025/9
             <- natal     J J Juno–J Eris RA 113.11077 = 1018/9
-   MIRROR   sky Ketu -> J Eris RA 179.22180 = 1613/9
+   DERIVED  sky Ketu -> J Eris RA 179.22180 = 1613/9
             <- axis      node axis (S)
             <- strike    sky Rahu -> J Juno RA 113.88897 = 1025/9
             <- natal     J J Juno–J Eris RA 113.11077 = 1018/9
@@ -108,11 +105,7 @@
             <- axis      node axis (S)
             <- strike    sky Rahu -> J Gonggong RA 55.00407 = 55
 -- roots among number items (Dec/RA)
-   S Neptune Equator 3.11107 = 28/9
    J Vesta Equator 18.33325 = 165/9
-   S Transpluto Equator 10.11139 = 91/9
-   S Vesta Equator 18.99773 = 19
-   S Saturn Equator 12.99441 = 13
    H H Uranus–H Ketu Dec 20.66688 = 186/9
    H H Vesta–H Quaoar Dec 40.00032 = 40
    J J Juno–J Quaoar Dec 6.22189 = 56/9
@@ -131,9 +124,6 @@
    cross H Saturn–J Ceres Dec 10.00432 = 10
    cross H Transpluto–J Ketu Dec 34.00472 = 34
    cross H Jupiter–J Gonggong Dec 18.00481 = 18
-   sky Pallas–Eris Dec 2.99900 = 3
-   sky Sun–Sedna Dec 19.00217 = 19
-   sky Makemake–Transpluto Dec 11.00365 = 11
    sky Gonggong -> J Venus Dec 32.88892 = 296/9
    sky Mars -> J Neptune Dec 8.66663 = 78/9
    sky Mercury -> J Ketu Dec 12.44441 = 112/9
@@ -176,8 +166,6 @@
    cross H Saturn–J Sun RA 155.99515 = 156
    J Rahu moved RA 82.00342 = 82
    J Chiron moved RA 39.99279 = 40
-   sky Jupiter–Uranus RA 9.44446 = 85/9
-   sky Mercury–Gonggong RA 129.99946 = 130
    sky Rahu -> J Juno RA 113.88897 = 1025/9
    sky Juno -> J Sun RA 40.11121 = 361/9
    sky Sedna -> H Mercury RA 37.33323 = 336/9

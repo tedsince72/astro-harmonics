@@ -1,5 +1,5 @@
-== 4 Pointed And Sharp / 4 Tom O'Brien   [20211019_exeter_1515__P07.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 40; eq_ratios root 2; hj_ratios root 26; links derived 9, mirror 4, root 98; movement root 4; pair_family root 154; points root 3; ratios root 22; shared root 2; sky race_level 13, root 5; sky_close race_level 6; splits root 53; strikes derived 9, duplicate 2, mirror 1, root 72
+== 4 Pointed And Sharp / 4 Tom O'Brien   [20211019_exeter_1515__P07.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 40; eq_ratios root 2; hj_ratios root 26; links derived 10, mirror 3, root 101; movement root 4; node root 1; pair_family root 154; points race_level 1, root 2; ratios root 22; shared root 2; sky race_level 18; sky_close race_level 6; splits root 53; strikes derived 10, duplicate 2, root 72
 -- Dec groups (3+ points joined by numbers)
    H Eris, H Orcus, H Pallas, H Saturn, J Juno, S Jupiter
    H Uranus, J Pallas, J Transpluto, S Makemake, S Quaoar, S Rahu
@@ -36,7 +36,7 @@
    DERIVED  H H Pallas–H Rahu RA 102.00065 = 102
             <- natal     H H Pallas–H Quaoar RA 82.11142 = 739/9
             <- natal     H H Rahu–H Quaoar RA 19.88923 = 179/9
-   MIRROR   H H Pallas–H Ketu RA 77.99935 = 78
+   DERIVED  H H Pallas–H Ketu RA 77.99935 = 78
             <- natal     H H Pallas–H Quaoar RA 82.11142 = 739/9
             <- natal     H H Rahu–H Quaoar RA 19.88923 = 179/9
             <- axis      node axis (H)
@@ -77,7 +77,7 @@
    DERIVED  sky Chiron -> H Rahu RA 123.99908 = 124
             <- strike    sky Chiron -> H Ceres RA 20.99979 = 21
             <- natal     H H Ceres–H Rahu RA 144.99886 = 145
-   MIRROR   sky Chiron -> H Ketu RA 56.00092 = 56
+   DERIVED  sky Chiron -> H Ketu RA 56.00092 = 56
             <- strike    sky Chiron -> H Ceres RA 20.99979 = 21
             <- natal     H H Ceres–H Rahu RA 144.99886 = 145
             <- axis      node axis (H)
@@ -99,9 +99,8 @@
 -- roots among number items (Dec/RA)
    H Pluto Equator 19.22180 = 173/9
    J Quaoar Equator 13.00065 = 13
-   S Chiron Equator 5.99097 = 6
-   H H Mars–H Ketu Dec 8.33290 = 75/9
    H H Gonggong–H Quaoar Dec 1.88932 = 17/9
+   H H Mars–H Ketu Dec 8.33290 = 75/9
    H H Saturn–H Orcus Dec 0.66623 = 6/9
    H H Rahu–H Haumea Dec 40.00052 = 40
    J J Ketu–J Makemake Dec 44.00148 = 44
@@ -119,8 +118,6 @@
    cross H Sedna–J Rahu Dec 0.99527 = 1
    cross H Saturn–J Juno Dec 5.99510 = 6
    J Orcus moved Dec 16.66655 = 150/9
-   sky Makemake–Quaoar Dec 37.55516 = 338/9
-   sky Rahu–Quaoar Dec 35.99832 = 36
    sky Sedna -> H Juno Dec 14.77772 = 133/9
    sky Makemake -> J Transpluto Dec 7.66674 = 69/9
    sky Saturn -> J Uranus Dec 3.88874 = 35/9
@@ -154,9 +151,6 @@
    cross H Eris–J Ceres RA 154.99555 = 155
    J Mercury moved RA 34.88856 = 314/9
    H Makemake moved RA 8.00548 = 8
-   sky Sun–Vesta RA 19.22238 = 173/9
-   sky Venus–Uranus RA 150.00038 = 150
-   sky Saturn–Juno RA 47.99754 = 48
    sky Ceres -> H Sedna RA 17.88885 = 161/9
    sky Uranus -> H Saturn RA 164.88897 = 1484/9
    sky Gonggong -> J Neptune RA 61.22208 = 551/9

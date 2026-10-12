@@ -1,5 +1,5 @@
-== 5 Sir Apollo / 5 Jonathan England   [newcastle_1540_20220311__P07.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 27; eq_ratios root 3; hj_ratios root 16; links derived 4, mirror 1, root 103; movement root 7; pair_family root 124; points root 2; ratios root 15; same_body root 3; shared root 8; sky derived 1, race_level 5, root 8; sky_close race_level 10; splits from_numbers 2, root 41; strikes derived 8, duplicate 3, mirror 4, root 68
+== 5 Sir Apollo / 5 Jonathan England   [newcastle_1540_20220311__P07.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 27; eq_ratios root 3; hj_ratios root 16; links derived 4, mirror 1, root 103; movement root 7; node root 1; pair_family root 124; points race_level 1, root 1; ratios root 15; same_body root 3; shared root 8; sky race_level 14; sky_close race_level 10; splits from_numbers 2, root 41; strikes derived 9, duplicate 3, mirror 3, root 68
 -- Dec groups (3+ points joined by numbers)
    EQ, H Mercury, H Venus, J Jupiter, J Mercury, S Chiron, S Haumea, S Ketu, S Neptune, S Pallas, S Transpluto
    H Ceres, J Haumea, J Juno, J Rahu, J Venus, S Orcus, S Pluto
@@ -23,9 +23,6 @@
    DERIVED  cross H Saturn–J Pallas Dec 29.99513 = 30
             <- natal     H H Saturn–H Pluto Dec 2.00376 = 2
             <- cross     cross H Pluto–J Pallas Dec 31.99889 = 32
-   DERIVED  sky Chiron–Ketu Dec 25.00389 = 25
-            <- skynum    sky Chiron–Pallas Dec 13.00311 = 13
-            <- skynum    sky Pallas–Ketu Dec 12.00078 = 12
    DERIVED  sky Orcus -> H Ceres Dec 11.77809 = 106/9
             <- strike    sky Orcus -> J Haumea Dec 35.22199 = 317/9
             <- cross     cross H Ceres–J Haumea Dec 47.00009 = 47
@@ -59,7 +56,7 @@
    DERIVED  sky Vesta -> J Rahu RA 7.00406 = 7
             <- strike    sky Vesta -> H Venus RA 147.00036 = 147
             <- cross     cross H Venus–J Rahu RA 154.00443 = 154
-   MIRROR   sky Vesta -> J Ketu RA 172.99594 = 173
+   DERIVED  sky Vesta -> J Ketu RA 172.99594 = 173
             <- strike    sky Vesta -> H Venus RA 147.00036 = 147
             <- cross     cross H Venus–J Rahu RA 154.00443 = 154
             <- axis      node axis (J)
@@ -80,7 +77,6 @@
             <- strike    sky Saturn -> H Pluto RA 36.11124 = 325/9
 -- roots among number items (Dec/RA)
    H Venus Equator 25.99616 = 26
-   S Neptune Equator 4.00560 = 4
    J J Sun–J Orcus Dec 6.22215 = 56/9
    J J Neptune–J Chiron Dec 36.44453 = 328/9
    J J Pluto–J Eris Dec 6.33350 = 57/9
@@ -95,12 +91,6 @@
    cross H Transpluto–J Vesta Dec 9.00064 = 9
    cross H Pluto–J Pallas Dec 31.99889 = 32
    cross H Makemake–J Quaoar Dec 39.99668 = 40
-   sky Juno–Vesta Dec 10.55549 = 95/9
-   sky Sun–Quaoar Dec 11.66697 = 105/9
-   sky Pallas–Ketu Dec 12.00078 = 12
-   sky Haumea–Transpluto Dec 5.00093 = 5
-   sky Chiron–Pallas Dec 13.00311 = 13
-   sky Ceres–Eris Dec 23.99569 = 24
    sky Ketu -> J Jupiter Dec 38.88884 = 350/9
    sky Mars -> H Sun Dec 36.99978 = 37
    sky Orcus -> J Haumea Dec 35.22199 = 317/9
@@ -137,8 +127,6 @@
    cross H Venus–J Rahu RA 154.00443 = 154
    J Sedna moved RA 15.99590 = 16
    J Quaoar moved RA 40.99121 = 41
-   sky Mercury–Pluto RA 34.77762 = 313/9
-   sky Saturn–Haumea RA 105.00074 = 105
    sky Haumea -> J Uranus RA 67.77782 = 610/9
    sky Ceres -> H Uranus RA 47.66657 = 429/9
    sky Saturn -> H Pluto RA 36.11124 = 325/9

@@ -1,5 +1,5 @@
-== 14 Misemerald / 14 Andrew Mullen   [york_1615_20240515__P27.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 37; eq_ratios root 2; hj_ratios root 22; links derived 3, mirror 3, root 120; movement root 17; pair_family root 122; points root 3; ratios root 24; same_body root 1; shared root 7; sky race_level 9, root 13; sky_close race_level 5; splits from_numbers 3, root 118; strikes derived 14, duplicate 10, mirror 1, root 56
+== 14 Misemerald / 14 Andrew Mullen   [york_1615_20240515__P27.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 37; eq_ratios root 2; hj_ratios root 22; links derived 4, mirror 2, root 123; movement root 17; node root 1; pair_family root 122; points race_level 2, root 1; ratios root 24; same_body root 1; shared root 7; sky race_level 22; sky_close race_level 5; splits from_numbers 3, root 118; strikes derived 15, duplicate 10, root 56
 -- Dec groups (3+ points joined by numbers)
    EQ, H Chiron, H Haumea, J Ceres, J Makemake, S Ceres, S Juno, S Orcus, S Quaoar, S Sun
    H Sun, J Gonggong, J Jupiter, J Orcus, J Rahu, J Saturn, S Rahu, S Saturn, S Venus
@@ -49,13 +49,13 @@
    MIRROR   cross H Ketu–J Eris RA 123.33324 = 1110/9
             <- axis      node axis (H)
             <- cross     cross H Rahu–J Eris RA 56.66676 = 510/9
-   MIRROR   cross H Jupiter–J Ketu RA 54.11096 = 487/9
-            <- cross     cross H Jupiter–J Rahu RA 125.88904 = 1133/9
-            <- axis      node axis (J)
    DERIVED  cross H Gonggong–J Rahu RA 98.77793 = 889/9
             <- natal     H H Jupiter–H Gonggong RA 27.11111 = 244/9
             <- cross     cross H Jupiter–J Rahu RA 125.88904 = 1133/9
-   MIRROR   cross H Gonggong–J Ketu RA 81.22207 = 731/9
+   MIRROR   cross H Jupiter–J Ketu RA 54.11096 = 487/9
+            <- cross     cross H Jupiter–J Rahu RA 125.88904 = 1133/9
+            <- axis      node axis (J)
+   DERIVED  cross H Gonggong–J Ketu RA 81.22207 = 731/9
             <- natal     H H Jupiter–H Gonggong RA 27.11111 = 244/9
             <- cross     cross H Jupiter–J Rahu RA 125.88904 = 1133/9
             <- axis      node axis (J)
@@ -65,7 +65,7 @@
    DERIVED  sky Haumea -> H Rahu RA 140.33311 = 1263/9
             <- strike    sky Haumea -> J Eris RA 163.00013 = 163
             <- cross     cross H Rahu–J Eris RA 56.66676 = 510/9
-   MIRROR   sky Haumea -> H Ketu RA 39.66689 = 357/9
+   DERIVED  sky Haumea -> H Ketu RA 39.66689 = 357/9
             <- strike    sky Haumea -> J Eris RA 163.00013 = 163
             <- cross     cross H Rahu–J Eris RA 56.66676 = 510/9
             <- axis      node axis (H)
@@ -90,8 +90,6 @@
             <- strike    sky Haumea -> J Eris RA 163.00013 = 163
 -- roots among number items (Dec/RA)
    H Chiron Equator 4.33280 = 39/9
-   S Sun Equator 18.99694 = 19
-   S Quaoar Equator 14.99235 = 15
    J J Sun–J Uranus Dec 1.22216 = 11/9
    H H Mercury–H Venus Dec 5.66653 = 51/9
    J J Ceres–J Makemake Dec 61.22268 = 551/9
@@ -117,13 +115,6 @@
    J Ketu moved Dec 16.99471 = 17
    H Vesta moved Dec 14.00799 = 14
    H Uranus moved Dec 4.99121 = 5
-   sky Mercury–Haumea Dec 7.00035 = 7
-   sky Mars–Ketu Dec 9.00040 = 9
-   sky Venus–Rahu Dec 11.11069 = 100/9
-   sky Vesta–Eris Dec 25.00094 = 25
-   sky Pallas–Sedna Dec 16.99898 = 17
-   sky Uranus–Pluto Dec 41.00342 = 41
-   sky Juno–Orcus Dec 23.00446 = 23
    sky Saturn -> J Rahu Dec 29.33342 = 264/9
    sky Chiron -> J Transpluto Dec 5.44428 = 49/9
    sky Transpluto -> H Ceres Dec 23.44425 = 211/9
@@ -154,12 +145,6 @@
    cross H Sedna–J Sun RA 178.00374 = 178
    H Venus moved RA 124.22182 = 1118/9
    H Makemake moved RA 0.88844 = 8/9
-   sky Uranus–Neptune RA 50.99989 = 51
-   sky Chiron–Sedna RA 41.11080 = 370/9
-   sky Gonggong–Orcus RA 179.55595 = 1616/9
-   sky Uranus–Eris RA 23.66710 = 213/9
-   sky Pluto–Quaoar RA 25.00140 = 25
-   sky Sedna–Haumea RA 158.00470 = 158
    sky Mars -> J Mercury RA 116.55556 = 1049/9
    sky Transpluto -> J Saturn RA 63.77780 = 574/9
    sky Orcus -> J Quaoar RA 69.11101 = 622/9

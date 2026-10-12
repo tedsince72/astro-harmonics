@@ -1,5 +1,5 @@
-== 5 Daphne Moon / 5 Sean Bowen   [perth_1610_20220420__P09.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 39; eq_ratios root 1; hj_ratios root 19; links derived 3, mirror 1, root 107; movement root 11; pair_family root 128; points root 1; ratios root 18; same_body mirror 1, root 6; shared root 12; sky mirror 1, race_level 11, root 9; sky_close race_level 10; splits from_numbers 4, root 120; strikes derived 13, duplicate 5, mirror 3, root 72
+== 5 Daphne Moon / 5 Sean Bowen   [perth_1610_20220420__P09.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 39; eq_ratios root 1; hj_ratios root 19; links derived 3, mirror 1, root 112; movement root 11; node root 1; pair_family root 128; points race_level 1; ratios root 18; same_body mirror 1, root 6; shared root 12; sky race_level 21; sky_close race_level 10; splits from_numbers 4, root 120; strikes derived 15, duplicate 5, mirror 1, root 72
 -- Dec groups (3+ points joined by numbers)
    H Eris, H Makemake, H Rahu, J Makemake, S Makemake, S Mars
    H Mercury, H Neptune, H Quaoar, J Chiron, S Orcus
@@ -49,9 +49,6 @@
    MIRROR   cross H Chiron–J Ketu RA 1.99887 = 2
             <- cross     cross H Chiron–J Rahu RA 178.00113 = 178
             <- axis      node axis (J)
-   MIRROR   sky Ceres–Ketu RA 151.00098 = 151
-            <- skynum    sky Ceres–Rahu RA 28.99902 = 29
-            <- axis      node axis (S)
    DERIVED  sky Chiron -> J Mercury RA 143.77758 = 1294/9
             <- strike    sky Chiron -> H Mercury RA 23.33319 = 210/9
             <- cross     cross H Mercury–J Mercury RA 120.44439 = 1084/9
@@ -59,7 +56,7 @@
             <- skynum    sky Ceres–Rahu RA 28.99902 = 29
             <- movement  H Ceres moved RA 131.99788 = 132
             <- cross     cross H Ceres–J Uranus RA 0.99908 = 1
-   MIRROR   sky Ketu -> J Uranus RA 78.00022 = 78
+   DERIVED  sky Ketu -> J Uranus RA 78.00022 = 78
             <- axis      node axis (S)
             <- skynum    sky Ceres–Rahu RA 28.99902 = 29
             <- movement  H Ceres moved RA 131.99788 = 132
@@ -82,7 +79,7 @@
    DERIVED  sky Rahu -> H Ceres RA 102.99886 = 103
             <- skynum    sky Ceres–Rahu RA 28.99902 = 29
             <- movement  H Ceres moved RA 131.99788 = 132
-   MIRROR   sky Ketu -> H Ceres RA 77.00114 = 77
+   DERIVED  sky Ketu -> H Ceres RA 77.00114 = 77
             <- axis      node axis (S)
             <- skynum    sky Ceres–Rahu RA 28.99902 = 29
             <- movement  H Ceres moved RA 131.99788 = 132
@@ -95,7 +92,6 @@
             <- cross     cross H Haumea–J Chiron RA 1.99680 = 2
             <- natal     J J Chiron–J Sedna RA 162.22245 = 1460/9
 -- roots among number items (Dec/RA)
-   S Mercury Equator 19.00634 = 19
    H H Rahu–H Eris Dec 0.99999 = 1
    H H Pallas–H Juno Dec 5.00010 = 5
    H H Uranus–H Pallas Dec 12.44414 = 112/9
@@ -119,8 +115,6 @@
    J Makemake moved Dec 9.55511 = 86/9
    H Makemake moved Dec 3.33230 = 30/9
    J Gonggong moved Dec 7.00111 = 7
-   sky Ceres–Vesta Dec 41.99994 = 42
-   sky Saturn–Juno Dec 9.99815 = 10
    sky Quaoar -> H Saturn Dec 3.55556 = 32/9
    sky Orcus -> J Chiron Dec 0.66659 = 6/9
    sky Haumea -> J Uranus Dec 35.44461 = 319/9
@@ -156,13 +150,6 @@
    cross H Transpluto–J Mercury RA 2.99666 = 3
    cross H Vesta–J Chiron RA 134.00490 = 134
    H Ceres moved RA 131.99788 = 132
-   sky Pluto–Vesta RA 19.88930 = 179/9
-   sky Sun–Ceres RA 50.77820 = 457/9
-   sky Pluto–Orcus RA 145.00060 = 145
-   sky Ceres–Rahu RA 28.99902 = 29
-   sky Chiron–Transpluto RA 142.99643 = 143
-   sky Uranus–Transpluto RA 113.00390 = 113
-   sky Chiron–Gonggong RA 33.99521 = 34
    sky Mars -> J Vesta RA 56.77780 = 511/9
    sky Saturn -> J Quaoar RA 83.77776 = 754/9
    sky Chiron -> H Mercury RA 23.33319 = 210/9

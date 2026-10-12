@@ -1,5 +1,5 @@
-== 1 Solo / 1 Harry Cobden   [newbury_1350_20211126__P01.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 49; eq_ratios root 3; hj_ratios root 28; links derived 8, mirror 1, root 110; movement root 4; pair_family root 133; points root 3; ratios root 12; same_body root 1; shared root 15; sky derived 1, race_level 10, root 9; sky_close race_level 11; splits root 17; strikes derived 13, duplicate 2, root 66
+== 1 Solo / 1 Harry Cobden   [newbury_1350_20211126__P01.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 49; eq_ratios root 3; hj_ratios root 28; links derived 8, mirror 1, root 113; movement root 4; node root 1; pair_family root 133; points root 3; ratios root 12; same_body root 1; shared root 15; sky race_level 20; sky_close race_level 11; splits root 17; strikes derived 13, duplicate 2, root 66
 -- Dec groups (3+ points joined by numbers)
    H Makemake, H Pluto, J Neptune, J Quaoar, J Sun, S Chiron, S Orcus, S Transpluto, S Vesta
    H Eris, H Haumea, H Quaoar, H Saturn, S Haumea, S Mercury, S Venus
@@ -25,9 +25,6 @@
    DERIVED  cross H Gonggong–J Chiron Dec 2.99588 = 3
             <- natal     H H Venus–H Gonggong Dec 7.99900 = 8
             <- cross     cross H Venus–J Chiron Dec 5.00312 = 5
-   DERIVED  sky Chiron–Vesta Dec 23.55597 = 212/9
-            <- skynum    sky Chiron–Orcus Dec 17.33352 = 156/9
-            <- skynum    sky Vesta–Orcus Dec 6.22245 = 56/9
    DERIVED  sky Saturn -> J Pluto Dec 8.77732 = 79/9
             <- strike    sky Saturn -> H Jupiter Dec 23.88871 = 215/9
             <- cross     cross H Jupiter–J Pluto Dec 15.11139 = 136/9
@@ -128,11 +125,6 @@
    cross H Mercury–J Venus Dec 5.00303 = 5
    cross H Venus–J Chiron Dec 5.00312 = 5
    cross H Transpluto–J Gonggong Dec 28.99578 = 29
-   sky Chiron–Orcus Dec 17.33352 = 156/9
-   sky Vesta–Orcus Dec 6.22245 = 56/9
-   sky Mercury–Venus Dec 4.44409 = 40/9
-   sky Mars–Neptune Dec 11.99950 = 12
-   sky Mercury–Haumea Dec 35.99615 = 36
    sky Saturn -> H Jupiter Dec 23.88871 = 215/9
    sky Eris -> J Chiron Dec 14.33308 = 129/9
    sky Mercury -> H Haumea Dec 38.22194 = 344/9
@@ -167,10 +159,6 @@
    cross H Transpluto–J Makemake RA 25.99573 = 26
    cross H Haumea–J Saturn RA 176.00437 = 176
    H Sun moved RA 85.00700 = 85
-   sky Eris–Sedna RA 32.77757 = 295/9
-   sky Uranus–Pluto RA 102.44410 = 922/9
-   sky Venus–Quaoar RA 14.55597 = 131/9
-   sky Chiron–Sedna RA 51.99877 = 52
    sky Chiron -> H Quaoar RA 97.99991 = 98
    sky Orcus -> J Vesta RA 18.55568 = 167/9
    sky Mercury -> H Uranus RA 135.66680 = 1221/9

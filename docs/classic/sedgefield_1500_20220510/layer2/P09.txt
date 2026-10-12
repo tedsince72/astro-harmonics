@@ -1,5 +1,5 @@
-== 5 Mrs Paisley / 5 Danny McMenamin   [sedgefield_1500_20220510__P09.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 45; eq_ratios root 3; hj_ratios root 19; links derived 10, mirror 3, root 117; movement root 9; pair_family root 118; points root 2; ratios root 19; shared root 11; sky race_level 10, root 9; sky_close race_level 9; splits from_numbers 2, root 149; strikes derived 14, duplicate 4, root 60
+== 5 Mrs Paisley / 5 Danny McMenamin   [sedgefield_1500_20220510__P09.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 45; eq_ratios root 3; hj_ratios root 19; links derived 12, mirror 1, root 117; movement root 9; node root 1; pair_family root 118; points race_level 2; ratios root 19; shared root 11; sky race_level 19; sky_close race_level 9; splits from_numbers 2, root 149; strikes derived 14, duplicate 4, root 60
 -- Dec groups (3+ points joined by numbers)
    H Chiron, H Gonggong, H Jupiter, H Makemake, H Pallas, H Venus, J Chiron, J Eris, J Ketu, J Mars, S Ceres, S Ketu, S Sedna, S Venus, S Vesta
    H Quaoar, H Transpluto, J Gonggong, J Rahu, J Saturn, S Orcus, S Pluto, S Rahu
@@ -64,7 +64,7 @@
    DERIVED  J J Venus–J Rahu RA 45.00062 = 45
             <- natal     J J Venus–J Gonggong RA 99.44404 = 895/9
             <- natal     J J Rahu–J Gonggong RA 144.44467 = 1300/9
-   MIRROR   J J Venus–J Ketu RA 134.99938 = 135
+   DERIVED  J J Venus–J Ketu RA 134.99938 = 135
             <- natal     J J Venus–J Gonggong RA 99.44404 = 895/9
             <- natal     J J Rahu–J Gonggong RA 144.44467 = 1300/9
             <- axis      node axis (J)
@@ -79,7 +79,7 @@
             <- cross     cross H Ceres–J Venus RA 59.99818 = 60
             <- natal     J J Venus–J Gonggong RA 99.44404 = 895/9
             <- natal     J J Rahu–J Gonggong RA 144.44467 = 1300/9
-   MIRROR   cross H Ceres–J Ketu RA 165.00245 = 165
+   DERIVED  cross H Ceres–J Ketu RA 165.00245 = 165
             <- cross     cross H Ceres–J Venus RA 59.99818 = 60
             <- natal     J J Venus–J Gonggong RA 99.44404 = 895/9
             <- natal     J J Rahu–J Gonggong RA 144.44467 = 1300/9
@@ -121,8 +121,6 @@
             <- natal     H H Venus–H Makemake RA 154.00131 = 154
             <- cross     cross H Makemake–J Makemake RA 16.77809 = 151/9
 -- roots among number items (Dec/RA)
-   S Transpluto Equator 10.66615 = 96/9
-   S Gonggong Equator 10.99577 = 11
    J J Pluto–J Ceres Dec 21.77773 = 196/9
    H H Pallas–H Makemake Dec 31.00016 = 31
    J J Sun–J Pluto Dec 33.55581 = 302/9
@@ -148,10 +146,6 @@
    J Rahu moved Dec 2.77777 = 25/9
    J Ketu moved Dec 2.77777 = 25/9
    H Saturn moved Dec 7.88967 = 71/9
-   sky Ceres–Vesta Dec 41.33351 = 372/9
-   sky Jupiter–Quaoar Dec 14.00292 = 14
-   sky Sun–Saturn Dec 31.99682 = 32
-   sky Pluto–Orcus Dec 10.99570 = 11
    sky Ceres -> H Makemake Dec 1.55554 = 14/9
    sky Uranus -> H Neptune Dec 22.66673 = 204/9
    sky Sedna -> H Jupiter Dec 25.22206 = 227/9
@@ -183,11 +177,6 @@
    cross H Mars–J Gonggong RA 47.99799 = 48
    J Sedna moved RA 11.66748 = 105/9
    J Vesta moved RA 25.00316 = 25
-   sky Jupiter–Chiron RA 12.22263 = 110/9
-   sky Jupiter–Saturn RA 33.00101 = 33
-   sky Mars–Uranus RA 51.99749 = 52
-   sky Mercury–Transpluto RA 92.00408 = 92
-   sky Chiron–Vesta RA 44.00410 = 44
    sky Transpluto -> H Saturn RA 125.33346 = 1128/9
    sky Sedna -> J Uranus RA 95.55543 = 860/9
    sky Venus -> H Eris RA 17.11088 = 154/9

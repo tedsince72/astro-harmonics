@@ -1,5 +1,5 @@
-== 4 Top Ville Ben / 4 Thomas Dowson   [haydock_1405_20220219__P07.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 48; eq_ratios root 2; hj_ratios root 13; links derived 1, root 95; movement root 5; pair_family root 160; ratios root 16; same_body root 6; shared root 6; sky derived 1, mirror 1, race_level 5, root 10; sky_close race_level 13; splits from_numbers 1, root 42; strikes derived 13, duplicate 2, mirror 2, root 79
+== 4 Top Ville Ben / 4 Thomas Dowson   [haydock_1405_20220219__P07.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 48; eq_ratios root 2; hj_ratios root 13; links derived 1, root 96; movement root 5; node root 1; pair_family root 160; ratios root 16; same_body root 6; shared root 6; sky race_level 17; sky_close race_level 13; splits from_numbers 1, root 42; strikes derived 15, duplicate 2, root 79
 -- Dec groups (3+ points joined by numbers)
    H Eris, H Juno, H Makemake, H Mercury, J Orcus, J Sedna, J Uranus, S Gonggong, S Mercury, S Neptune, S Quaoar, S Transpluto
    H Ceres, H Haumea, H Jupiter, H Ketu, H Uranus, S Eris, S Jupiter, S Saturn, S Vesta
@@ -20,9 +20,6 @@
    H Ceres, H Chiron, J Neptune, S Vesta
    H Mercury, J Venus, S Jupiter
 -- derived items (with chain)
-   DERIVED  sky Mercury–Neptune Dec 14.99907 = 15
-            <- skynum    sky Mercury–Quaoar Dec 3.88841 = 35/9
-            <- skynum    sky Neptune–Quaoar Dec 11.11067 = 100/9
    DERIVED  sky Jupiter -> H Uranus Dec 10.44430 = 94/9
             <- movement  H Jupiter moved Dec 26.33290 = 237/9
             <- natal     H H Jupiter–H Uranus Dec 15.88860 = 143/9
@@ -46,13 +43,10 @@
    DERIVED  cross H Chiron–J Neptune RA 41.00327 = 41
             <- natal     H H Chiron–H Ceres RA 65.99942 = 66
             <- cross     cross H Ceres–J Neptune RA 107.00269 = 107
-   MIRROR   sky Uranus–Ketu RA 164.88845 = 1484/9
-            <- skynum    sky Uranus–Rahu RA 15.11155 = 136/9
-            <- axis      node axis (S)
    DERIVED  sky Rahu -> J Pluto RA 170.44473 = 1534/9
             <- skynum    sky Uranus–Rahu RA 15.11155 = 136/9
             <- strike    sky Uranus -> J Pluto RA 155.33318 = 1398/9
-   MIRROR   sky Ketu -> J Pluto RA 9.55527 = 86/9
+   DERIVED  sky Ketu -> J Pluto RA 9.55527 = 86/9
             <- axis      node axis (S)
             <- skynum    sky Uranus–Rahu RA 15.11155 = 136/9
             <- strike    sky Uranus -> J Pluto RA 155.33318 = 1398/9
@@ -64,7 +58,7 @@
             <- skynum    sky Sun–Uranus RA 65.99831 = 66
             <- strike    sky Sun -> H Eris RA 52.77748 = 475/9
             <- cross     cross H Eris–J Mars RA 63.66701 = 573/9
-   MIRROR   sky Ketu -> J Mars RA 88.00061 = 88
+   DERIVED  sky Ketu -> J Mars RA 88.00061 = 88
             <- axis      node axis (S)
             <- skynum    sky Uranus–Rahu RA 15.11155 = 136/9
             <- skynum    sky Sun–Uranus RA 65.99831 = 66
@@ -101,9 +95,6 @@
    H Jupiter moved Dec 26.33290 = 237/9
    H Mercury moved Dec 36.00733 = 36
    H Mars moved Dec 32.00882 = 32
-   sky Neptune–Quaoar Dec 11.11067 = 100/9
-   sky Mercury–Quaoar Dec 3.88841 = 35/9
-   sky Chiron–Ketu Dec 24.99942 = 25
    sky Sun -> J Haumea Dec 32.99999 = 33
    sky Ceres -> H Venus Dec 5.77766 = 52/9
    sky Juno -> J Venus Dec 6.55572 = 59/9
@@ -139,13 +130,6 @@
    cross H Orcus–J Chiron RA 45.00099 = 45
    cross H Ceres–J Neptune RA 107.00269 = 107
    H Pluto moved RA 20.11032 = 181/9
-   sky Haumea–Transpluto RA 62.77737 = 565/9
-   sky Uranus–Rahu RA 15.11155 = 136/9
-   sky Sun–Uranus RA 65.99831 = 66
-   sky Mercury–Quaoar RA 29.99780 = 30
-   sky Saturn–Juno RA 13.00391 = 13
-   sky Pallas–Haumea RA 148.00441 = 148
-   sky Uranus–Pluto RA 99.00448 = 99
    sky Neptune -> J Jupiter RA 75.88896 = 683/9
    sky Quaoar -> H Mars RA 114.77768 = 1033/9
    sky Uranus -> J Pluto RA 155.33318 = 1398/9

@@ -1,5 +1,5 @@
-== 1 Anniversary / 1 Rob Hornby   [newmarket_july_1745_20240816__P01.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 37; eq_ratios root 6; hj_ratios root 19; links derived 8, mirror 1, root 120; movement root 3; pair_family root 116; points root 2; ratios root 17; same_body root 2; shared root 7; sky mirror 1, race_level 5, root 7; sky_close race_level 6; strikes derived 10, duplicate 1, mirror 2, root 60
+== 1 Anniversary / 1 Rob Hornby   [newmarket_july_1745_20240816__P01.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 37; eq_ratios root 6; hj_ratios root 19; links derived 8, mirror 1, root 121; movement root 3; node root 1; pair_family root 116; points root 2; ratios root 17; same_body root 2; shared root 7; sky race_level 13; sky_close race_level 6; strikes derived 10, duplicate 1, mirror 2, root 60
 -- Dec groups (3+ points joined by numbers)
    J Ceres, J Transpluto, J Uranus, S Gonggong, S Mercury, S Vesta
    H Neptune, J Pluto, J Venus, S Pluto, S Transpluto
@@ -69,9 +69,6 @@
    DERIVED  cross H Jupiter–J Uranus RA 40.00372 = 40
             <- natal     H H Sun–H Jupiter RA 12.00221 = 12
             <- cross     cross H Sun–J Uranus RA 28.00152 = 28
-   MIRROR   sky Juno–Ketu RA 2.99584 = 3
-            <- skynum    sky Juno–Rahu RA 177.00416 = 177
-            <- axis      node axis (S)
    DERIVED  sky Neptune -> J Mars RA 154.22211 = 1388/9
             <- strike    sky Neptune -> H Mars RA 70.88877 = 638/9
             <- cross     cross H Mars–J Mars RA 134.88912 = 1214/9
@@ -117,10 +114,6 @@
    cross H Eris–J Saturn Dec 3.00433 = 3
    cross H Chiron–J Jupiter Dec 26.99510 = 27
    J Pluto moved Dec 17.00361 = 17
-   sky Pluto–Transpluto Dec 33.55554 = 302/9
-   sky Mercury–Gonggong Dec 18.22209 = 164/9
-   sky Juno–Ketu Dec 5.99802 = 6
-   sky Jupiter–Ceres Dec 52.99678 = 53
    sky Eris -> H Vesta Dec 20.55556 = 185/9
    sky Pallas -> H Juno Dec 28.44447 = 256/9
    sky Vesta -> J Uranus Dec 36.77781 = 331/9
@@ -153,9 +146,6 @@
    cross H Saturn–J Pluto RA 79.99631 = 80
    cross H Mars–J Mercury RA 147.99614 = 148
    cross H Haumea–J Quaoar RA 22.99564 = 23
-   sky Chiron–Transpluto RA 134.55535 = 1211/9
-   sky Gonggong–Transpluto RA 177.99774 = 178
-   sky Juno–Rahu RA 177.00416 = 177
    sky Ceres -> J Gonggong RA 52.88879 = 476/9
    sky Neptune -> H Mars RA 70.88877 = 638/9
    sky Uranus -> J Haumea RA 136.77760 = 1231/9

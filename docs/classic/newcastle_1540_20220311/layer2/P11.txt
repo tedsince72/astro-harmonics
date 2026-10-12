@@ -1,5 +1,5 @@
-== 7 Black Opium / 7 Stephen Mulqueen   [newcastle_1540_20220311__P11.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 45; eq_ratios root 3; hj_ratios root 23; links derived 7, mirror 1, root 115; movement mirror 1, root 9; pair_family root 131; points mirror 1, root 4; ratios root 9; same_body root 6; shared root 6; sky derived 1, race_level 5, root 8; sky_close race_level 10; splits from_numbers 1, root 72; strikes derived 17, duplicate 7, mirror 3, root 72
+== 7 Black Opium / 7 Stephen Mulqueen   [newcastle_1540_20220311__P11.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 45; eq_ratios root 3; hj_ratios root 23; links derived 7, mirror 1, root 115; movement derived 1, root 9; node root 1; pair_family root 131; points mirror 1, race_level 1, root 3; ratios root 9; same_body root 6; shared root 6; sky race_level 14; sky_close race_level 10; splits from_numbers 1, root 72; strikes derived 18, duplicate 7, mirror 2, root 72
 -- Dec groups (3+ points joined by numbers)
    EQ, H Makemake, H Mars, H Orcus, H Sun, H Venus, J Ketu, J Makemake, J Mercury, J Orcus, J Rahu, J Sun, S Chiron, S Haumea, S Ketu, S Makemake, S Neptune, S Pallas, S Quaoar, S Sun, S Transpluto
    H Haumea, H Mercury, J Haumea, S Ceres, S Eris, S Juno, S Vesta
@@ -28,9 +28,6 @@
    DERIVED  cross H Sedna–J Pallas Dec 3.99838 = 4
             <- natal     H H Chiron–H Sedna Dec 9.99776 = 10
             <- cross     cross H Chiron–J Pallas Dec 5.99939 = 6
-   DERIVED  sky Chiron–Ketu Dec 25.00389 = 25
-            <- skynum    sky Chiron–Pallas Dec 13.00311 = 13
-            <- skynum    sky Pallas–Ketu Dec 12.00078 = 12
    DERIVED  sky Makemake -> H Sun Dec 42.66641 = 384/9
             <- movement  H Makemake moved Dec 3.33315 = 30/9
             <- natal     H H Sun–H Makemake Dec 45.99956 = 46
@@ -77,7 +74,7 @@
    DERIVED  cross H Neptune–J Venus RA 32.00304 = 32
             <- cross     cross H Neptune–J Jupiter RA 141.99912 = 142
             <- natal     J J Venus–J Jupiter RA 174.00216 = 174
-   MIRROR   H Ketu moved RA 158.33277 = 1425/9
+   DERIVED  H Ketu moved RA 158.33277 = 1425/9
             <- axis      node axis (S)
             <- movement  H Rahu moved RA 158.33277 = 1425/9
             <- axis      node axis (H)
@@ -96,7 +93,7 @@
    DERIVED  sky Rahu -> H Sedna RA 1.55511 = 14/9
             <- movement  H Rahu moved RA 158.33277 = 1425/9
             <- natal     H H Rahu–H Sedna RA 156.77766 = 1411/9
-   MIRROR   sky Ketu -> H Sedna RA 178.44489 = 1606/9
+   DERIVED  sky Ketu -> H Sedna RA 178.44489 = 1606/9
             <- axis      node axis (S)
             <- movement  H Rahu moved RA 158.33277 = 1425/9
             <- natal     H H Rahu–H Sedna RA 156.77766 = 1411/9
@@ -117,7 +114,6 @@
    J Sun Equator 12.88809 = 116/9
    J Rahu Equator 23.00431 = 23
    J Makemake Equator 35.00450 = 35
-   S Neptune Equator 4.00560 = 4
    J J Mercury–J Orcus Dec 9.55576 = 86/9
    H H Ketu–H Gonggong Dec 25.88846 = 233/9
    H H Sun–H Makemake Dec 45.99956 = 46
@@ -140,12 +136,6 @@
    cross H Haumea–J Haumea Dec 5.00449 = 5
    cross H Mars–J Mercury Dec 1.99550 = 2
    H Makemake moved Dec 3.33315 = 30/9
-   sky Juno–Vesta Dec 10.55549 = 95/9
-   sky Sun–Quaoar Dec 11.66697 = 105/9
-   sky Pallas–Ketu Dec 12.00078 = 12
-   sky Haumea–Transpluto Dec 5.00093 = 5
-   sky Chiron–Pallas Dec 13.00311 = 13
-   sky Ceres–Eris Dec 23.99569 = 24
    sky Eris -> H Haumea Dec 18.66666 = 168/9
    sky Sun -> H Mars Dec 1.77782 = 16/9
    sky Pallas -> H Venus Dec 9.00020 = 9
@@ -178,8 +168,6 @@
    H Saturn moved RA 92.44421 = 832/9
    H Rahu moved RA 158.33277 = 1425/9
    J Sun moved RA 23.33262 = 210/9
-   sky Mercury–Pluto RA 34.77762 = 313/9
-   sky Saturn–Haumea RA 105.00074 = 105
    sky Sun -> H Mars RA 152.44451 = 1372/9
    sky Vesta -> J Transpluto RA 156.99982 = 157
    sky Chiron -> H Jupiter RA 95.22203 = 857/9

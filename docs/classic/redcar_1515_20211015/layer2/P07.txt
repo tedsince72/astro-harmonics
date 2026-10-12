@@ -1,5 +1,5 @@
-== 6 Sea Time / 6 David Nolan   [20211015_redcar_1515__P07.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 41; eq_ratios root 4; hj_ratios root 21; links derived 7, mirror 1, root 118; movement root 8; pair_family root 126; points root 2; ratios root 15; same_body root 1; shared root 10; sky mirror 1, race_level 8, root 11; sky_close race_level 11; splits root 56; strikes derived 9, duplicate 3, mirror 1, root 53
+== 6 Sea Time / 6 David Nolan   [20211015_redcar_1515__P07.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 41; eq_ratios root 4; hj_ratios root 21; links derived 7, mirror 1, root 121; movement root 8; node root 1; pair_family root 126; points root 2; ratios root 15; same_body root 1; shared root 10; sky race_level 20; sky_close race_level 11; splits root 56; strikes derived 9, duplicate 3, mirror 1, root 53
 -- Dec groups (3+ points joined by numbers)
    H Ceres, H Jupiter, H Ketu, H Makemake, H Quaoar, H Uranus, J Ceres, J Chiron, J Gonggong, J Juno, J Makemake, J Mars, J Venus, S Saturn, S Sedna, S Transpluto
    H Pluto, H Transpluto, H Vesta, J Eris, J Ketu, J Quaoar, J Sedna, S Makemake
@@ -65,9 +65,6 @@
    MIRROR   cross H Mercury–J Ketu RA 77.99558 = 78
             <- cross     cross H Mercury–J Rahu RA 102.00442 = 102
             <- axis      node axis (J)
-   MIRROR   sky Venus–Ketu RA 6.11110 = 55/9
-            <- skynum    sky Venus–Rahu RA 173.88890 = 1565/9
-            <- axis      node axis (S)
    MIRROR   sky Ketu -> H Orcus RA 85.66627 = 771/9
             <- axis      node axis (S)
             <- strike    sky Rahu -> H Orcus RA 94.33373 = 849/9
@@ -108,15 +105,9 @@
    cross H Saturn–J Saturn Dec 4.99560 = 5
    cross H Quaoar–J Ceres Dec 27.00494 = 27
    H Pallas moved Dec 5.00890 = 5
-   sky Mars–Ketu Dec 13.44417 = 121/9
-   sky Ceres–Orcus Dec 27.66636 = 249/9
-   sky Pallas–Vesta Dec 4.22188 = 38/9
-   sky Jupiter–Haumea Dec 30.33286 = 273/9
-   sky Mercury–Mars Dec 3.00119 = 3
-   sky Pluto–Chiron Dec 29.00281 = 29
    sky Makemake -> H Pluto Dec 44.00003 = 44
-   sky Ketu -> H Sedna Dec 28.22229 = 254/9
    sky Eris -> J Neptune Dec 20.88882 = 188/9
+   sky Ketu -> H Sedna Dec 28.22229 = 254/9
    sky Saturn -> H Quaoar Dec 3.77796 = 34/9
    sky Sun -> H Neptune Dec 1.66638 = 15/9
    sky Transpluto -> J Chiron Dec 6.22253 = 56/9
@@ -150,11 +141,6 @@
    cross H Jupiter–J Uranus RA 0.99517 = 1
    H Jupiter moved RA 68.77695 = 619/9
    J Sedna moved RA 20.00364 = 20
-   sky Venus–Rahu RA 173.88890 = 1565/9
-   sky Sun–Pallas RA 141.55602 = 1274/9
-   sky Juno–Makemake RA 61.99799 = 62
-   sky Ceres–Pallas RA 88.99739 = 89
-   sky Venus–Pluto RA 50.00376 = 50
    sky Orcus -> H Jupiter RA 98.88894 = 890/9
    sky Quaoar -> H Ceres RA 33.77764 = 304/9
    sky Mercury -> J Sedna RA 150.66646 = 1356/9

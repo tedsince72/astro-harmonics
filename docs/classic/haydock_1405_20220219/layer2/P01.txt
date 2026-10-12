@@ -1,5 +1,5 @@
-== 1 Third Wind / 1 Tom O'Brien   [haydock_1405_20220219__P01.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 34; eq_ratios root 2; hj_ratios root 23; links derived 3, mirror 1, root 104; movement root 6; pair_family root 139; pair_sets root 1; points root 1; ratios root 21; shared root 2; sky derived 1, mirror 1, race_level 5, root 10; sky_close race_level 13; splits from_numbers 1, root 25; strikes derived 14, duplicate 4, mirror 2, root 59
+== 1 Third Wind / 1 Tom O'Brien   [haydock_1405_20220219__P01.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 34; eq_ratios root 2; hj_ratios root 23; links derived 3, mirror 1, root 107; movement root 6; node root 1; pair_family root 139; pair_sets root 1; points root 1; ratios root 21; shared root 2; sky race_level 17; sky_close race_level 13; splits from_numbers 1, root 25; strikes derived 15, duplicate 4, mirror 1, root 59
 -- Dec groups (3+ points joined by numbers)
    H Pluto, H Uranus, J Gonggong, J Ketu, J Makemake, J Neptune, J Sun, S Eris, S Haumea, S Jupiter, S Vesta
    H Ceres, H Gonggong, H Venus, J Mars, J Orcus, S Mercury, S Neptune, S Quaoar, S Venus
@@ -20,9 +20,6 @@
    DERIVED  cross H Neptune–J Transpluto Dec 24.00368 = 24
             <- cross     cross H Neptune–J Pallas Dec 8.99887 = 9
             <- natal     J J Pallas–J Transpluto Dec 15.00481 = 15
-   DERIVED  sky Mercury–Neptune Dec 14.99907 = 15
-            <- skynum    sky Mercury–Quaoar Dec 3.88841 = 35/9
-            <- skynum    sky Neptune–Quaoar Dec 11.11067 = 100/9
    DERIVED  sky Jupiter -> H Pluto Dec 11.88896 = 107/9
             <- strike    sky Jupiter -> J Neptune Dec 14.11107 = 127/9
             <- cross     cross H Pluto–J Neptune Dec 2.22211 = 20/9
@@ -57,9 +54,6 @@
    DERIVED  cross H Quaoar–J Haumea RA 81.00224 = 81
             <- natal     H H Haumea–H Quaoar RA 57.00328 = 57
             <- cross     cross H Haumea–J Haumea RA 23.99895 = 24
-   MIRROR   sky Uranus–Ketu RA 164.88845 = 1484/9
-            <- skynum    sky Uranus–Rahu RA 15.11155 = 136/9
-            <- axis      node axis (S)
    DERIVED  sky Quaoar -> J Jupiter RA 68.77782 = 619/9
             <- movement  H Quaoar moved RA 10.55520 = 95/9
             <- cross     cross H Quaoar–J Jupiter RA 79.33302 = 714/9
@@ -88,7 +82,7 @@
    DERIVED  sky Sun -> J Rahu RA 46.00422 = 46
             <- strike    sky Sun -> J Transpluto RA 171.00353 = 171
             <- natal     J J Rahu–J Transpluto RA 124.99931 = 125
-   MIRROR   sky Sun -> J Ketu RA 133.99578 = 134
+   DERIVED  sky Sun -> J Ketu RA 133.99578 = 134
             <- strike    sky Sun -> J Transpluto RA 171.00353 = 171
             <- natal     J J Rahu–J Transpluto RA 124.99931 = 125
             <- axis      node axis (J)
@@ -118,9 +112,6 @@
    cross H Mercury–J Eris Dec 27.99676 = 28
    cross H Haumea–J Juno Dec 31.99593 = 32
    H Venus moved Dec 14.99145 = 15
-   sky Neptune–Quaoar Dec 11.11067 = 100/9
-   sky Mercury–Quaoar Dec 3.88841 = 35/9
-   sky Chiron–Ketu Dec 24.99942 = 25
    sky Venus -> H Ceres Dec 20.77782 = 187/9
    sky Jupiter -> J Neptune Dec 14.11107 = 127/9
    sky Haumea -> J Gonggong Dec 36.66675 = 330/9
@@ -151,13 +142,6 @@
    cross H Haumea–J Haumea RA 23.99895 = 24
    cross H Pallas–J Eris RA 127.00109 = 127
    H Quaoar moved RA 10.55520 = 95/9
-   sky Haumea–Transpluto RA 62.77737 = 565/9
-   sky Uranus–Rahu RA 15.11155 = 136/9
-   sky Sun–Uranus RA 65.99831 = 66
-   sky Mercury–Quaoar RA 29.99780 = 30
-   sky Saturn–Juno RA 13.00391 = 13
-   sky Pallas–Haumea RA 148.00441 = 148
-   sky Uranus–Pluto RA 99.00448 = 99
    sky Chiron -> H Transpluto RA 143.55559 = 1292/9
    sky Makemake -> H Sedna RA 144.88910 = 1304/9
    sky Neptune -> H Saturn RA 124.11139 = 1117/9

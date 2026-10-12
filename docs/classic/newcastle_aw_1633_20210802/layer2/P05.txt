@@ -1,5 +1,5 @@
-== 3 Raise The Roof / 3 Luke Morris   [20210802_newcastle_aw_1633__P05.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 35; eq_ratios mirror 1, root 5; hj_ratios root 20; links derived 3, mirror 1, root 85; movement root 9; pair_family root 132; points root 4; ratios root 16; shared root 8; sky derived 1, race_level 14, root 8; sky_close race_level 11; splits from_numbers 1, root 62; strikes derived 9, duplicate 6, mirror 1, root 73
+== 3 Raise The Roof / 3 Luke Morris   [20210802_newcastle_aw_1633__P05.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 35; eq_ratios mirror 1, root 5; hj_ratios root 20; links derived 3, mirror 1, root 87; movement root 9; node root 1; pair_family root 132; points race_level 2, root 2; ratios root 16; shared root 8; sky race_level 23; sky_close race_level 11; splits from_numbers 1, root 62; strikes derived 9, duplicate 6, mirror 1, root 73
 -- Dec groups (3+ points joined by numbers)
    H Mercury, H Orcus, H Pluto, H Sun, J Juno, J Mars, J Rahu, J Uranus, J Venus, S Chiron, S Eris, S Juno, S Saturn
    EQ, H Eris, H Rahu, J Haumea, J Pallas, S Haumea, S Makemake, S Mercury, S Sun
@@ -23,10 +23,6 @@
    DERIVED  cross H Eris–J Haumea Dec 24.77778 = 223/9
             <- equator   H Eris Equator 2.33263 = 21/9
             <- equator   J Haumea Equator 22.44514 = 202/9
-   DERIVED  sky Haumea–Makemake Dec 6.99831 = 7
-            <- movement  J Haumea moved Dec 6.55515 = 59/9
-            <- equator   J Haumea Equator 22.44514 = 202/9
-            <- equator   S Makemake Equator 22.88831 = 206/9
    DERIVED  sky Ketu -> H Juno Dec 14.11141 = 127/9
             <- skynum    sky Jupiter–Ketu Dec 8.88921 = 80/9
             <- strike    sky Jupiter -> H Juno Dec 5.22220 = 47/9
@@ -70,10 +66,8 @@
             <- strike    sky Ceres -> J Chiron RA 38.00154 = 38
             <- natal     J J Chiron–J Sedna RA 56.00482 = 56
 -- roots among number items (Dec/RA)
-   S Makemake Equator 22.88831 = 206/9
    H Eris Equator 2.33263 = 21/9
    J Haumea Equator 22.44514 = 202/9
-   S Mercury Equator 19.00861 = 19
    H H Saturn–H Gonggong Dec 10.11106 = 91/9
    J J Sun–J Gonggong Dec 10.22202 = 92/9
    J J Ceres–J Makemake Dec 53.22250 = 479/9
@@ -90,10 +84,6 @@
    J Haumea moved Dec 6.55515 = 59/9
    J Juno moved Dec 10.99874 = 11
    J Pluto moved Dec 21.99450 = 22
-   sky Neptune–Ceres Dec 18.00015 = 18
-   sky Sun–Haumea Dec 1.77803 = 16/9
-   sky Jupiter–Ketu Dec 8.88921 = 80/9
-   sky Mars–Quaoar Dec 26.99554 = 27
    sky Jupiter -> H Juno Dec 5.22220 = 47/9
    sky Chiron -> H Pluto Dec 28.66672 = 258/9
    sky Gonggong -> H Jupiter Dec 6.00007 = 6
@@ -129,10 +119,6 @@
    cross H Quaoar–J Makemake RA 103.22173 = 929/9
    cross H Uranus–J Saturn RA 116.00257 = 116
    cross H Mercury–J Vesta RA 150.99576 = 151
-   sky Mars–Pluto RA 142.66675 = 1284/9
-   sky Gonggong–Quaoar RA 62.77744 = 565/9
-   sky Uranus–Ceres RA 17.55602 = 158/9
-   sky Haumea–Makemake RA 17.99702 = 18
    sky Venus -> H Neptune RA 179.77778 = 1618/9
    sky Makemake -> H Mercury RA 153.44438 = 1381/9
    sky Chiron -> H Venus RA 17.66674 = 159/9

@@ -1,5 +1,5 @@
-== 3 Red Giant / 3 Sean Quinlan   [catterick_1505_20211119__P05.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 34; eq_ratios mirror 1, root 3; hj_ratios root 21; links derived 6, mirror 1, root 136; movement root 5; pair_family root 166; pair_sets root 1; points root 4; ratios root 19; same_body root 2; shared root 4; sky derived 1, race_level 5, root 10; sky_close race_level 9; splits from_numbers 2, root 72; strikes derived 14, duplicate 3, mirror 2, root 63
+== 3 Red Giant / 3 Sean Quinlan   [catterick_1505_20211119__P05.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 34; eq_ratios mirror 1, root 3; hj_ratios root 21; links derived 6, mirror 1, root 137; movement root 5; node root 1; pair_family root 166; pair_sets root 1; points race_level 2, root 2; ratios root 19; same_body root 2; shared root 4; sky race_level 16; sky_close race_level 9; splits from_numbers 2, root 72; strikes derived 14, duplicate 3, mirror 2, root 63
 -- Dec groups (3+ points joined by numbers)
    H Chiron, H Makemake, H Neptune, H Orcus, H Pluto, H Rahu, J Haumea, J Juno, J Makemake, J Rahu, S Ceres, S Chiron, S Jupiter, S Sedna, S Venus
    EQ, H Juno, J Pluto, J Sun, J Vesta, S Juno, S Uranus
@@ -32,9 +32,6 @@
             <- natal     H H Rahu–H Orcus Dec 17.00247 = 17
             <- natal     H H Chiron–H Orcus Dec 2.00465 = 2
             <- cross     cross H Chiron–J Rahu Dec 26.99776 = 27
-   DERIVED  sky Uranus–Juno Dec 28.77792 = 259/9
-            <- equator   S Uranus Equator 14.99958 = 15
-            <- equator   S Juno Equator 13.77833 = 124/9
    DERIVED  sky Pluto -> H Sedna Dec 29.77810 = 268/9
             <- strike    sky Pluto -> J Pallas Dec 23.33346 = 210/9
             <- cross     cross H Sedna–J Pallas Dec 6.44464 = 58/9
@@ -99,8 +96,6 @@
             <- skynum    sky Ceres–Quaoar RA 150.99925 = 151
             <- strike    sky Ceres -> H Mars RA 36.00355 = 36
 -- roots among number items (Dec/RA)
-   S Uranus Equator 14.99958 = 15
-   S Juno Equator 13.77833 = 124/9
    H Juno Equator 9.55660 = 86/9
    J Sun Equator 22.99655 = 23
    J J Uranus–J Sedna Dec 24.99978 = 25
@@ -126,11 +121,6 @@
    cross H Ketu–J Chiron Dec 6.99580 = 7
    cross H Ketu–J Ketu Dec 46.00488 = 46
    H Transpluto moved Dec 1.66651 = 15/9
-   sky Sun–Pallas Dec 7.77771 = 70/9
-   sky Chiron–Ceres Dec 11.11098 = 100/9
-   sky Mercury–Orcus Dec 6.00061 = 6
-   sky Sun–Mars Dec 3.99642 = 4
-   sky Venus–Chiron Dec 32.00367 = 32
    sky Ketu -> J Gonggong Dec 1.77775 = 16/9
    sky Pluto -> J Pallas Dec 23.33346 = 210/9
    sky Sedna -> H Neptune Dec 19.77758 = 178/9
@@ -165,11 +155,6 @@
    cross H Venus–J Transpluto RA 116.99718 = 117
    J Gonggong moved RA 9.11055 = 82/9
    J Haumea moved RA 34.00982 = 34
-   sky Pallas–Transpluto RA 173.00002 = 173
-   sky Chiron–Orcus RA 150.55588 = 1355/9
-   sky Mercury–Orcus RA 71.88930 = 647/9
-   sky Ceres–Quaoar RA 150.99925 = 151
-   sky Saturn–Orcus RA 153.00269 = 153
    sky Pluto -> J Rahu RA 138.22223 = 1244/9
    sky Ceres -> J Eris RA 44.44431 = 400/9
    sky Sun -> J Pluto RA 19.88875 = 179/9

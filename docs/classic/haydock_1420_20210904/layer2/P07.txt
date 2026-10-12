@@ -1,5 +1,5 @@
-== 5 Praiano / 5 Andrea Atzeni   [20210904_haydock_1420__P07.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 39; eq_ratios root 4; hj_ratios root 19; links derived 2, mirror 1, root 95; movement root 3; pair_family root 136; pair_sets root 1; points mirror 1, root 2; ratios root 21; same_body root 2; shared root 1; sky race_level 11, root 10; sky_close race_level 11; splits from_numbers 1, root 36; strikes derived 11, duplicate 1, mirror 2, root 73
+== 5 Praiano / 5 Andrea Atzeni   [20210904_haydock_1420__P07.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 39; eq_ratios root 4; hj_ratios root 19; links derived 2, mirror 1, root 96; movement root 3; node root 1; pair_family root 136; pair_sets root 1; points mirror 1, race_level 1, root 1; ratios root 21; same_body root 2; shared root 1; sky race_level 21; sky_close race_level 11; splits from_numbers 1, root 36; strikes derived 11, duplicate 1, mirror 2, root 73
 -- Dec groups (3+ points joined by numbers)
    H Ceres, H Juno, H Neptune, H Sedna, H Sun, J Haumea, J Transpluto, S Chiron, S Juno, S Pluto
    H Makemake, H Rahu, H Transpluto, J Gonggong, J Mercury, S Ceres, S Mercury, S Pallas, S Saturn, S Sun
@@ -72,7 +72,6 @@
             <- strike    sky Neptune -> J Pallas RA 167.00134 = 167
 -- roots among number items (Dec/RA)
    J Rahu Equator 21.00095 = 21
-   S Jupiter Equator 14.33429 = 129/9
    J J Chiron–J Vesta Dec 4.00013 = 4
    J J Juno–J Makemake Dec 45.55570 = 410/9
    H H Sun–H Juno Dec 7.44468 = 67/9
@@ -94,10 +93,6 @@
    cross H Ceres–J Haumea Dec 7.99671 = 8
    H Juno moved Dec 5.44384 = 49/9
    J Mercury moved Dec 15.33248 = 138/9
-   sky Mercury–Ceres Dec 19.33336 = 174/9
-   sky Mars–Makemake Dec 18.88840 = 170/9
-   sky Neptune–Quaoar Dec 11.00321 = 11
-   sky Sun–Mercury Dec 11.00428 = 11
    sky Uranus -> J Venus Dec 0.77764 = 7/9
    sky Orcus -> H Vesta Dec 6.44479 = 58/9
    sky Chiron -> H Ceres Dec 24.33289 = 219/9
@@ -120,12 +115,6 @@
    cross H Chiron–J Juno RA 64.99765 = 65
    cross H Jupiter–J Gonggong RA 99.99558 = 100
    J Jupiter moved RA 158.55593 = 1427/9
-   sky Pluto–Orcus RA 140.11117 = 1261/9
-   sky Ceres–Sedna RA 8.33350 = 75/9
-   sky Haumea–Quaoar RA 58.66684 = 528/9
-   sky Sun–Neptune RA 170.44406 = 1534/9
-   sky Venus–Pallas RA 148.00057 = 148
-   sky Mercury–Neptune RA 167.00164 = 167
    sky Haumea -> J Neptune RA 72.88893 = 656/9
    sky Vesta -> H Orcus RA 49.22212 = 443/9
    sky Transpluto -> H Jupiter RA 75.44473 = 679/9

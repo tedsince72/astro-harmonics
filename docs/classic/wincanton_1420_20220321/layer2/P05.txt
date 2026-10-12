@@ -1,5 +1,5 @@
-== 3 Ballyblack / 3 Rex Dingle   [wincanton_1420_20220321__P05.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 34; eq_ratios root 2; hj_ratios root 14; links derived 3, mirror 3, root 115; movement root 4; pair_family root 143; points root 4; ratios root 23; same_body root 2; shared root 13; sky race_level 9, root 7; sky_close race_level 10; splits root 71; strikes derived 15, duplicate 2, mirror 1, root 75
+== 3 Ballyblack / 3 Rex Dingle   [wincanton_1420_20220321__P05.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 34; eq_ratios root 2; hj_ratios root 14; links derived 4, mirror 2, root 117; movement root 4; node root 1; pair_family root 143; points race_level 2, root 2; ratios root 23; same_body root 2; shared root 13; sky race_level 16; sky_close race_level 10; splits root 71; strikes derived 15, duplicate 2, mirror 1, root 75
 -- Dec groups (3+ points joined by numbers)
    H Mars, H Transpluto, H Uranus, J Mars, J Pallas, J Quaoar, S Gonggong, S Makemake, S Sedna, S Vesta
    EQ, H Ceres, H Neptune, H Venus, J Ceres, J Chiron, J Haumea, S Ceres, S Pallas
@@ -73,7 +73,7 @@
    DERIVED  cross H Chiron–J Rahu RA 175.00100 = 175
             <- cross     cross H Chiron–J Juno RA 164.00049 = 164
             <- natal     J J Juno–J Rahu RA 20.99851 = 21
-   MIRROR   cross H Chiron–J Ketu RA 4.99900 = 5
+   DERIVED  cross H Chiron–J Ketu RA 4.99900 = 5
             <- cross     cross H Chiron–J Juno RA 164.00049 = 164
             <- natal     J J Juno–J Rahu RA 20.99851 = 21
             <- axis      node axis (J)
@@ -93,10 +93,8 @@
             <- strike    sky Haumea -> J Transpluto RA 69.99964 = 70
             <- natal     J J Neptune–J Transpluto RA 154.00319 = 154
 -- roots among number items (Dec/RA)
-   S Ceres Equator 23.55462 = 212/9
    J Haumea Equator 21.11210 = 190/9
    H Neptune Equator 9.00205 = 9
-   S Pallas Equator 6.00223 = 6
    H H Neptune–H Ceres Dec 7.22222 = 65/9
    J J Venus–J Orcus Dec 15.66655 = 141/9
    H H Ketu–H Quaoar Dec 12.44466 = 112/9
@@ -116,11 +114,6 @@
    cross H Orcus–J Vesta Dec 11.00443 = 11
    J Jupiter moved Dec 9.00127 = 9
    J Ceres moved Dec 37.99220 = 38
-   sky Vesta–Sedna Dec 27.11116 = 244/9
-   sky Juno–Eris Dec 6.88854 = 62/9
-   sky Makemake–Gonggong Dec 33.99950 = 34
-   sky Uranus–Orcus Dec 27.00289 = 27
-   sky Jupiter–Saturn Dec 10.00329 = 10
    sky Neptune -> J Ketu Dec 3.11107 = 28/9
    sky Chiron -> J Mercury Dec 28.00016 = 28
    sky Saturn -> J Makemake Dec 48.22258 = 434/9
@@ -153,8 +146,6 @@
    cross H Haumea–J Chiron RA 11.99839 = 12
    H Venus moved RA 14.88873 = 134/9
    J Mars moved RA 4.77724 = 43/9
-   sky Mercury–Neptune RA 3.11117 = 28/9
-   sky Sun–Juno RA 41.99713 = 42
    sky Transpluto -> J Jupiter RA 171.77783 = 1546/9
    sky Uranus -> J Haumea RA 155.99979 = 156
    sky Haumea -> J Transpluto RA 69.99964 = 70

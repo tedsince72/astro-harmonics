@@ -1,5 +1,5 @@
-== 13 Magical Sunset / 13 Rossa Ryan   [ascot_1350_20231021__P25.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 37; eq_ratios root 2; hj_ratios root 12; links derived 5, mirror 2, root 113; movement root 9; pair_family root 132; points root 6; ratios root 24; same_body root 3; shared root 3; sky derived 1, race_level 13, root 5; sky_close race_level 9; splits root 85; strikes derived 17, duplicate 6, mirror 4, root 64
+== 13 Magical Sunset / 13 Rossa Ryan   [ascot_1350_20231021__P25.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 37; eq_ratios root 2; hj_ratios root 12; links derived 5, mirror 2, root 114; movement root 9; node root 1; pair_family root 132; points race_level 4, root 2; ratios root 24; same_body root 3; shared root 3; sky race_level 19; sky_close race_level 9; splits root 85; strikes derived 18, duplicate 6, mirror 3, root 64
 -- Dec groups (3+ points joined by numbers)
    EQ, H Chiron, H Jupiter, H Mercury, H Pallas, J Makemake, J Pallas, J Sedna, S Makemake, S Neptune, S Saturn, S Transpluto, S Vesta
    H Ceres, H Mars, J Haumea, J Mercury, J Rahu, S Eris, S Haumea, S Pallas, S Uranus
@@ -22,9 +22,6 @@
    DERIVED  cross H Mars–J Mercury Dec 41.00494 = 41
             <- cross     cross H Mars–J Rahu Dec 44.00200 = 44
             <- natal     J J Mercury–J Rahu Dec 2.99706 = 3
-   DERIVED  sky Neptune–Transpluto Dec 13.22247 = 119/9
-            <- equator   S Neptune Equator 3.11107 = 28/9
-            <- equator   S Transpluto Equator 10.11139 = 91/9
    DERIVED  sky Transpluto -> H Chiron Dec 6.66677 = 60/9
             <- equator   S Transpluto Equator 10.11139 = 91/9
             <- equator   H Chiron Equator 3.44462 = 31/9
@@ -98,7 +95,7 @@
    DERIVED  sky Rahu -> H Makemake RA 175.00200 = 175
             <- strike    sky Rahu -> J Orcus RA 115.00121 = 115
             <- cross     cross H Makemake–J Orcus RA 60.00078 = 60
-   MIRROR   sky Ketu -> H Makemake RA 4.99800 = 5
+   DERIVED  sky Ketu -> H Makemake RA 4.99800 = 5
             <- axis      node axis (S)
             <- strike    sky Rahu -> J Orcus RA 115.00121 = 115
             <- cross     cross H Makemake–J Orcus RA 60.00078 = 60
@@ -115,12 +112,8 @@
             <- strike    sky Sedna -> H Rahu RA 38.00462 = 38
             <- axis      node axis (H)
 -- roots among number items (Dec/RA)
-   S Neptune Equator 3.11107 = 28/9
    H Chiron Equator 3.44462 = 31/9
-   S Transpluto Equator 10.11139 = 91/9
-   S Vesta Equator 18.99773 = 19
    H Pallas Equator 4.99443 = 5
-   S Saturn Equator 12.99441 = 13
    J J Neptune–J Transpluto Dec 31.77770 = 286/9
    H H Haumea–H Orcus Dec 26.99989 = 27
    J J Jupiter–J Ketu Dec 40.66653 = 366/9
@@ -140,9 +133,6 @@
    cross H Juno–J Sun Dec 28.00351 = 28
    cross H Mercury–J Makemake Dec 48.00497 = 48
    J Haumea moved Dec 7.00388 = 7
-   sky Pallas–Eris Dec 2.99900 = 3
-   sky Sun–Sedna Dec 19.00217 = 19
-   sky Makemake–Transpluto Dec 11.00365 = 11
    sky Gonggong -> J Transpluto Dec 24.22225 = 218/9
    sky Uranus -> H Mars Dec 40.66684 = 366/9
    sky Sun -> H Pluto Dec 11.55578 = 104/9
@@ -175,8 +165,6 @@
    H Saturn moved RA 36.66713 = 330/9
    J Vesta moved RA 156.99662 = 157
    H Haumea moved RA 1.99430 = 2
-   sky Jupiter–Uranus RA 9.44446 = 85/9
-   sky Mercury–Gonggong RA 129.99946 = 130
    sky Ceres -> H Mercury RA 100.88886 = 908/9
    sky Makemake -> H Juno RA 0.99994 = 1
    sky Transpluto -> J Mercury RA 48.33340 = 435/9

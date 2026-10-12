@@ -1,5 +1,5 @@
-== 7 Two For Gold / 7 David Bass   [lingfield_1500_20220123__P11.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 46; eq_ratios root 5; hj_ratios root 24; links derived 4, mirror 2, root 129; movement root 7; pair_family root 131; points root 4; ratios root 19; same_body root 6; shared root 5; sky derived 2, race_level 16, root 7; sky_close race_level 9; splits from_numbers 2, root 71; strikes derived 12, duplicate 2, mirror 1, root 64
+== 7 Two For Gold / 7 David Bass   [lingfield_1500_20220123__P11.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 46; eq_ratios root 5; hj_ratios root 24; links derived 4, mirror 2, root 132; movement root 7; node root 1; pair_family root 131; points race_level 3, root 1; ratios root 19; same_body root 6; shared root 5; sky race_level 25; sky_close race_level 9; splits from_numbers 2, root 71; strikes derived 12, duplicate 2, mirror 1, root 64
 -- Dec groups (3+ points joined by numbers)
    H Gonggong, H Haumea, H Juno, H Jupiter, H Ketu, H Mercury, H Saturn, H Sedna, H Uranus, H Venus, J Ceres, J Jupiter, J Ketu, J Mars, J Neptune, S Haumea, S Juno, S Ketu, S Mars, S Pluto, S Quaoar, S Saturn
    H Ceres, J Gonggong, J Venus, J Vesta, S Gonggong, S Orcus, S Rahu
@@ -18,12 +18,6 @@
    DERIVED  J J Saturn–J Pluto Dec 23.00261 = 23
             <- natal     J J Saturn–J Rahu Dec 17.00249 = 17
             <- natal     J J Pluto–J Rahu Dec 6.00012 = 6
-   DERIVED  sky Venus–Eris Dec 14.77751 = 133/9
-            <- equator   S Venus Equator 16.22121 = 146/9
-            <- equator   S Eris Equator 1.44371 = 13/9
-   DERIVED  sky Rahu–Orcus Dec 32.11161 = 289/9
-            <- skynum    sky Rahu–Gonggong Dec 31.33376 = 282/9
-            <- skynum    sky Gonggong–Orcus Dec 0.77785 = 7/9
    DERIVED  sky Eris -> J Haumea Dec 24.88876 = 224/9
             <- equator   S Eris Equator 1.44371 = 13/9
             <- equator   J Haumea Equator 23.44505 = 211/9
@@ -94,9 +88,6 @@
             <- axis      node axis (H)
 -- roots among number items (Dec/RA)
    J Haumea Equator 23.44505 = 211/9
-   S Eris Equator 1.44371 = 13/9
-   S Venus Equator 16.22121 = 146/9
-   S Ceres Equator 19.00491 = 19
    J J Quaoar–J Orcus Dec 17.88883 = 161/9
    J J Pluto–J Rahu Dec 6.00012 = 6
    H H Mercury–H Sedna Dec 8.11128 = 73/9
@@ -117,12 +108,6 @@
    cross H Ceres–J Vesta Dec 10.99681 = 11
    J Sun moved Dec 42.55492 = 383/9
    J Mars moved Dec 18.00811 = 18
-   sky Gonggong–Orcus Dec 0.77785 = 7/9
-   sky Mercury–Uranus Dec 30.88878 = 278/9
-   sky Mars–Quaoar Dec 8.33301 = 75/9
-   sky Rahu–Gonggong Dec 31.33376 = 282/9
-   sky Juno–Haumea Dec 27.99805 = 28
-   sky Juno–Ketu Dec 6.99594 = 7
    sky Rahu -> J Venus Dec 1.44447 = 13/9
    sky Mercury -> J Juno Dec 30.88892 = 278/9
    sky Sedna -> J Saturn Dec 30.33327 = 273/9
@@ -161,7 +146,6 @@
    J Saturn moved RA 48.33369 = 435/9
    H Gonggong moved RA 1.00388 = 1
    H Orcus moved RA 9.00559 = 9
-   sky Pluto–Vesta RA 22.00150 = 22
    sky Mercury -> J Transpluto RA 161.11141 = 1450/9
    sky Jupiter -> J Mars RA 18.22189 = 164/9
    sky Saturn -> H Venus RA 72.55594 = 653/9

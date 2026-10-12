@@ -1,5 +1,5 @@
-== 7 Springtime Promise / 7 Connor Brace   [sandown_1430_20240215__P13.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 40; eq_ratios root 5; hj_ratios root 22; links derived 2, mirror 2, root 105; movement root 4; pair_family root 152; points root 1; ratios root 25; same_body root 6; shared root 15; sky derived 1, race_level 5, root 7; sky_close race_level 6; splits root 22; strikes derived 13, duplicate 1, mirror 1, root 73
+== 7 Springtime Promise / 7 Connor Brace   [sandown_1430_20240215__P13.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 40; eq_ratios root 5; hj_ratios root 22; links derived 2, mirror 2, root 105; movement root 4; node root 1; pair_family root 152; points root 1; ratios root 25; same_body root 6; shared root 15; sky race_level 13; sky_close race_level 6; splits root 22; strikes derived 13, duplicate 1, mirror 1, root 73
 -- Dec groups (3+ points joined by numbers)
    EQ, H Eris, H Ketu, H Uranus, J Pallas, J Transpluto, S Juno
    H Juno, H Mars, H Orcus, J Juno, J Rahu, S Rahu
@@ -21,9 +21,6 @@
    H Chiron, J Chiron, S Neptune
    H Eris, H Gonggong, S Eris
 -- derived items (with chain)
-   DERIVED  sky Uranus–Eris Dec 18.00422 = 18
-            <- skynum    sky Sun–Uranus Dec 30.00005 = 30
-            <- skynum    sky Sun–Eris Dec 11.99583 = 12
    DERIVED  sky Neptune -> H Haumea Dec 20.00014 = 20
             <- strike    sky Neptune -> J Vesta Dec 16.22226 = 146/9
             <- cross     cross H Haumea–J Vesta Dec 3.77788 = 34/9
@@ -101,10 +98,6 @@
    cross H Ceres–J Saturn Dec 5.99738 = 6
    cross H Quaoar–J Vesta Dec 29.00279 = 29
    cross H Venus–J Ketu Dec 30.99640 = 31
-   sky Sun–Uranus Dec 30.00005 = 30
-   sky Mercury–Venus Dec 2.66696 = 24/9
-   sky Neptune–Ceres Dec 19.99713 = 20
-   sky Sun–Eris Dec 11.99583 = 12
    sky Neptune -> J Vesta Dec 16.22226 = 146/9
    sky Venus -> H Jupiter Dec 14.55550 = 131/9
    sky Juno -> H Ketu Dec 12.11100 = 109/9
@@ -139,9 +132,6 @@
    cross H Makemake–J Gonggong RA 138.11133 = 1243/9
    cross H Chiron–J Chiron RA 90.66704 = 816/9
    H Eris moved RA 0.55607 = 5/9
-   sky Sun–Makemake RA 127.55566 = 1148/9
-   sky Jupiter–Ceres RA 123.88841 = 1115/9
-   sky Venus–Chiron RA 74.00193 = 74
    sky Pluto -> H Mercury RA 82.22224 = 740/9
    sky Saturn -> J Venus RA 94.11109 = 847/9
    sky Neptune -> H Chiron RA 2.44432 = 22/9

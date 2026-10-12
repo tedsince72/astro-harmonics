@@ -1,5 +1,5 @@
-== 6 Resumption / 6 Tom Marquand   [newcastle_aw_1640_20220215__P11.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 29; hj_ratios from_numbers 1, root 22; links mirror 2, root 115; movement root 5; pair_family root 138; pair_sets root 1; ratios root 21; same_body root 1; shared root 10; sky derived 1, race_level 8, root 13; sky_close race_level 9; splits from_numbers 3, root 52; strikes derived 13, duplicate 1, root 70
+== 6 Resumption / 6 Tom Marquand   [newcastle_aw_1640_20220215__P11.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 29; hj_ratios from_numbers 1, root 22; links mirror 2, root 117; movement root 5; node root 1; pair_family root 138; pair_sets root 1; ratios root 21; same_body root 1; shared root 10; sky race_level 22; sky_close race_level 9; splits from_numbers 3, root 52; strikes derived 13, duplicate 1, root 70
 -- Dec groups (3+ points joined by numbers)
    H Eris, H Gonggong, H Haumea, H Makemake, H Mars, H Neptune, H Pallas, H Vesta, J Chiron, J Jupiter, J Pluto, J Quaoar, S Ceres, S Eris, S Jupiter, S Mercury, S Neptune, S Pallas, S Saturn
    H Juno, H Pluto, J Gonggong, J Venus, S Rahu, S Transpluto
@@ -17,9 +17,6 @@
    H Ketu, H Rahu, J Sun
    J Neptune, J Venus, J Vesta
 -- derived items (with chain)
-   DERIVED  sky Mercury–Saturn Dec 3.00231 = 3
-            <- skynum    sky Mercury–Jupiter Dec 11.00150 = 11
-            <- skynum    sky Jupiter–Saturn Dec 7.99919 = 8
    DERIVED  sky Ceres -> J Quaoar Dec 35.44419 = 319/9
             <- strike    sky Ceres -> H Eris Dec 22.77785 = 205/9
             <- cross     cross H Eris–J Quaoar Dec 12.66633 = 114/9
@@ -96,13 +93,6 @@
    cross H Pluto–J Venus Dec 8.99557 = 9
    H Pallas moved Dec 6.88992 = 62/9
    J Jupiter moved Dec 0.99127 = 1
-   sky Mars–Haumea Dec 38.44433 = 346/9
-   sky Ketu–Orcus Dec 7.33296 = 66/9
-   sky Jupiter–Saturn Dec 7.99919 = 8
-   sky Neptune–Eris Dec 2.99894 = 3
-   sky Mercury–Jupiter Dec 11.00150 = 11
-   sky Rahu–Transpluto Dec 9.00162 = 9
-   sky Chiron–Juno Dec 17.00237 = 17
    sky Rahu -> H Juno Dec 17.33332 = 156/9
    sky Ceres -> H Eris Dec 22.77785 = 205/9
    sky Pluto -> J Uranus Dec 4.66657 = 42/9
@@ -138,12 +128,6 @@
    cross H Rahu–J Sun RA 122.99879 = 123
    cross H Juno–J Jupiter RA 19.00383 = 19
    H Chiron moved RA 8.66602 = 78/9
-   sky Sun–Uranus RA 69.66670 = 627/9
-   sky Chiron–Haumea RA 150.44460 = 1354/9
-   sky Eris–Quaoar RA 109.11139 = 982/9
-   sky Saturn–Chiron RA 48.33295 = 435/9
-   sky Ceres–Juno RA 113.00347 = 113
-   sky Ceres–Vesta RA 128.99598 = 129
    sky Orcus -> J Pluto RA 91.44418 = 823/9
    sky Juno -> H Neptune RA 41.66696 = 375/9
    sky Quaoar -> H Uranus RA 110.66618 = 996/9

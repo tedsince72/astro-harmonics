@@ -1,5 +1,5 @@
-== 6 Foinix / 6 Dylan Hogan   [chelmsford_aw_1320_20240118__P11.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 48; eq_ratios mirror 1, root 7; hj_ratios root 28; links derived 6, root 112; movement root 7; pair_family root 134; points root 4; ratios root 22; same_body root 2; shared root 6; sky derived 1, mirror 1, race_level 11, root 10; sky_close race_level 6; splits root 40; strikes derived 11, duplicate 1, root 63
+== 6 Foinix / 6 Dylan Hogan   [chelmsford_aw_1320_20240118__P11.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 48; eq_ratios mirror 1, root 7; hj_ratios root 28; links derived 6, root 116; movement root 7; node root 1; pair_family root 134; points race_level 1, root 3; ratios root 22; same_body root 2; shared root 6; sky race_level 23; sky_close race_level 6; splits root 40; strikes derived 11, duplicate 1, root 63
 -- Dec groups (3+ points joined by numbers)
    EQ, H Juno, H Mercury, H Vesta, J Ceres, J Gonggong, J Uranus, S Mars, S Mercury, S Uranus
    H Sedna, H Uranus, H Venus, J Juno, J Ketu, J Neptune, J Sun
@@ -48,12 +48,6 @@
    DERIVED  cross H Gonggong–J Pluto RA 98.00494 = 98
             <- cross     cross H Gonggong–J Juno RA 106.00401 = 106
             <- natal     J J Pluto–J Juno RA 7.99907 = 8
-   DERIVED  sky Neptune–Makemake RA 155.11158 = 1396/9
-            <- skynum    sky Saturn–Neptune RA 18.88914 = 170/9
-            <- skynum    sky Saturn–Makemake RA 136.22244 = 1226/9
-   MIRROR   sky Ketu–Quaoar RA 80.99897 = 81
-            <- axis      node axis (S)
-            <- skynum    sky Rahu–Quaoar RA 99.00103 = 99
    DERIVED  sky Pluto -> J Orcus RA 167.66651 = 1509/9
             <- skynum    sky Mars–Pluto RA 21.33325 = 192/9
             <- strike    sky Mars -> J Orcus RA 146.33327 = 1317/9
@@ -79,7 +73,6 @@
             <- strike    sky Ceres -> H Chiron RA 98.99598 = 99
             <- natal     H H Chiron–H Quaoar RA 87.00018 = 87
 -- roots among number items (Dec/RA)
-   S Mercury Equator 22.66629 = 204/9
    H Vesta Equator 10.77677 = 97/9
    J Gonggong Equator 18.99397 = 19
    J Uranus Equator 22.00777 = 22
@@ -101,9 +94,6 @@
    cross H Sedna–J Neptune Dec 28.99582 = 29
    J Sedna moved Dec 3.77864 = 34/9
    H Gonggong moved Dec 1.00649 = 1
-   sky Vesta–Eris Dec 22.66672 = 204/9
-   sky Chiron–Ceres Dec 29.00010 = 29
-   sky Mars–Uranus Dec 40.88926 = 368/9
    sky Chiron -> J Venus Dec 28.22224 = 254/9
    sky Haumea -> J Orcus Dec 13.22214 = 119/9
    sky Neptune -> H Ceres Dec 22.33351 = 201/9
@@ -133,13 +123,6 @@
    cross H Juno–J Sun RA 15.77728 = 142/9
    cross H Ceres–J Jupiter RA 68.99833 = 69
    cross H Gonggong–J Juno RA 106.00401 = 106
-   sky Mars–Pluto RA 21.33325 = 192/9
-   sky Chiron–Orcus RA 145.33343 = 1308/9
-   sky Uranus–Quaoar RA 127.66684 = 1149/9
-   sky Saturn–Makemake RA 136.22244 = 1226/9
-   sky Saturn–Neptune RA 18.88914 = 170/9
-   sky Rahu–Quaoar RA 99.00103 = 99
-   sky Saturn–Juno RA 167.00444 = 167
    sky Sedna -> J Ceres RA 77.66670 = 699/9
    sky Mars -> J Orcus RA 146.33327 = 1317/9
    sky Ceres -> H Mars RA 11.77734 = 106/9

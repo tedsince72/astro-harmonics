@@ -1,5 +1,5 @@
-== 4 New York Bay / 4 Finley Marsh   [chelmsford_aw_1320_20240118__P07.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 47; eq_ratios mirror 2, root 8; hj_ratios root 19; links derived 4, mirror 5, root 101; movement root 7; pair_family root 122; points root 4; ratios root 12; same_body root 3; shared root 9; sky derived 1, mirror 1, race_level 11, root 10; sky_close race_level 6; splits root 2; strikes derived 8, duplicate 4, mirror 3, root 68
+== 4 New York Bay / 4 Finley Marsh   [chelmsford_aw_1320_20240118__P07.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 47; eq_ratios mirror 2, root 8; hj_ratios root 19; links derived 6, mirror 3, root 104; movement root 7; node root 1; pair_family root 122; points race_level 1, root 3; ratios root 12; same_body root 3; shared root 9; sky race_level 23; sky_close race_level 6; splits root 2; strikes derived 10, duplicate 4, mirror 1, root 68
 -- Dec groups (3+ points joined by numbers)
    H Pallas, H Saturn, H Transpluto, H Vesta, J Chiron, J Eris, J Neptune, J Uranus, S Juno, S Sedna
    H Ceres, H Ketu, H Quaoar, J Mars, J Pluto, S Ceres, S Chiron
@@ -47,30 +47,24 @@
    DERIVED  cross H Rahu–J Venus RA 85.00172 = 85
             <- cross     cross H Rahu–J Gonggong RA 121.00108 = 121
             <- natal     J J Venus–J Gonggong RA 35.99936 = 36
-   MIRROR   cross H Ketu–J Venus RA 94.99828 = 95
+   DERIVED  cross H Ketu–J Venus RA 94.99828 = 95
             <- axis      node axis (H)
             <- cross     cross H Rahu–J Gonggong RA 121.00108 = 121
             <- natal     J J Venus–J Gonggong RA 35.99936 = 36
    DERIVED  cross H Rahu–J Sedna RA 46.99741 = 47
             <- cross     cross H Rahu–J Gonggong RA 121.00108 = 121
             <- natal     J J Sedna–J Gonggong RA 74.00367 = 74
-   MIRROR   cross H Ketu–J Sedna RA 133.00259 = 133
+   DERIVED  cross H Ketu–J Sedna RA 133.00259 = 133
             <- axis      node axis (H)
             <- cross     cross H Rahu–J Gonggong RA 121.00108 = 121
             <- natal     J J Sedna–J Gonggong RA 74.00367 = 74
-   DERIVED  sky Neptune–Makemake RA 155.11158 = 1396/9
-            <- skynum    sky Saturn–Neptune RA 18.88914 = 170/9
-            <- skynum    sky Saturn–Makemake RA 136.22244 = 1226/9
-   MIRROR   sky Ketu–Quaoar RA 80.99897 = 81
-            <- axis      node axis (S)
-            <- skynum    sky Rahu–Quaoar RA 99.00103 = 99
    DERIVED  sky Sedna -> H Ceres RA 93.77825 = 844/9
             <- strike    sky Sedna -> H Vesta RA 1.22204 = 11/9
             <- natal     H H Ceres–H Vesta RA 95.00029 = 95
    DERIVED  sky Ceres -> J Rahu RA 116.99910 = 117
             <- strike    sky Ceres -> J Pluto RA 10.99959 = 11
             <- natal     J J Pluto–J Rahu RA 105.99951 = 106
-   MIRROR   sky Ceres -> J Ketu RA 63.00090 = 63
+   DERIVED  sky Ceres -> J Ketu RA 63.00090 = 63
             <- strike    sky Ceres -> J Pluto RA 10.99959 = 11
             <- natal     J J Pluto–J Rahu RA 105.99951 = 106
             <- axis      node axis (J)
@@ -80,7 +74,7 @@
    DERIVED  sky Rahu -> H Chiron RA 14.00291 = 14
             <- skynum    sky Rahu–Quaoar RA 99.00103 = 99
             <- strike    sky Quaoar -> H Chiron RA 84.99813 = 85
-   MIRROR   sky Ketu -> H Chiron RA 165.99709 = 166
+   DERIVED  sky Ketu -> H Chiron RA 165.99709 = 166
             <- axis      node axis (S)
             <- skynum    sky Rahu–Quaoar RA 99.00103 = 99
             <- strike    sky Quaoar -> H Chiron RA 84.99813 = 85
@@ -91,7 +85,6 @@
             <- axis      node axis (S)
             <- strike    sky Rahu -> J Vesta RA 116.00453 = 116
 -- roots among number items (Dec/RA)
-   S Mercury Equator 22.66629 = 204/9
    H Haumea Equator 16.33417 = 147/9
    H Pluto Equator 22.00129 = 22
    J Juno Equator 9.99771 = 10
@@ -115,9 +108,6 @@
    cross H Saturn–J Eris Dec 13.00479 = 13
    H Ceres moved Dec 1.22177 = 11/9
    H Venus moved Dec 43.99027 = 44
-   sky Vesta–Eris Dec 22.66672 = 204/9
-   sky Chiron–Ceres Dec 29.00010 = 29
-   sky Mars–Uranus Dec 40.88926 = 368/9
    sky Vesta -> J Venus Dec 19.22213 = 173/9
    sky Venus -> H Eris Dec 20.33345 = 183/9
    sky Chiron -> J Mars Dec 20.11096 = 181/9
@@ -147,13 +137,6 @@
    cross H Saturn–J Pallas RA 71.00055 = 71
    cross H Rahu–J Gonggong RA 121.00108 = 121
    cross H Sedna–J Chiron RA 174.99532 = 175
-   sky Mars–Pluto RA 21.33325 = 192/9
-   sky Chiron–Orcus RA 145.33343 = 1308/9
-   sky Uranus–Quaoar RA 127.66684 = 1149/9
-   sky Saturn–Makemake RA 136.22244 = 1226/9
-   sky Saturn–Neptune RA 18.88914 = 170/9
-   sky Rahu–Quaoar RA 99.00103 = 99
-   sky Saturn–Juno RA 167.00444 = 167
    sky Sedna -> H Vesta RA 1.22204 = 11/9
    sky Ceres -> J Pluto RA 10.99959 = 11
    sky Sun -> H Venus RA 110.99933 = 111

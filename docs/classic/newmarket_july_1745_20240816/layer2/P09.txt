@@ -1,5 +1,5 @@
-== 5 Knights Gold / 5 Marco Ghiani   [newmarket_july_1745_20240816__P09.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 44; eq_ratios root 2; hj_ratios root 12; links derived 7, mirror 1, root 114; movement root 8; pair_family root 122; pair_sets root 1; ratios root 17; shared root 9; sky mirror 1, race_level 5, root 7; sky_close race_level 6; splits root 67; strikes derived 6, duplicate 3, root 73
+== 5 Knights Gold / 5 Marco Ghiani   [newmarket_july_1745_20240816__P09.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 44; eq_ratios root 2; hj_ratios root 12; links derived 7, mirror 1, root 114; movement root 8; node root 1; pair_family root 122; pair_sets root 1; ratios root 17; shared root 9; sky race_level 13; sky_close race_level 6; splits root 67; strikes derived 6, duplicate 3, root 73
 -- Dec groups (3+ points joined by numbers)
    H Gonggong, H Juno, J Eris, J Makemake, J Mars, J Saturn, J Uranus, S Mars
    H Makemake, H Sun, J Neptune, J Rahu, S Saturn
@@ -57,9 +57,6 @@
    DERIVED  cross H Jupiter–J Quaoar RA 109.00358 = 109
             <- natal     H H Jupiter–H Ceres RA 81.99574 = 82
             <- cross     cross H Ceres–J Quaoar RA 169.00068 = 169
-   MIRROR   sky Juno–Ketu RA 2.99584 = 3
-            <- skynum    sky Juno–Rahu RA 177.00416 = 177
-            <- axis      node axis (S)
    DERIVED  sky Jupiter -> J Gonggong RA 104.00020 = 104
             <- strike    sky Jupiter -> J Venus RA 91.44451 = 823/9
             <- natal     J J Venus–J Gonggong RA 12.55568 = 113/9
@@ -92,10 +89,6 @@
    cross H Juno–J Mars Dec 5.99710 = 6
    cross H Neptune–J Gonggong Dec 13.99624 = 14
    H Pallas moved Dec 20.99059 = 21
-   sky Pluto–Transpluto Dec 33.55554 = 302/9
-   sky Mercury–Gonggong Dec 18.22209 = 164/9
-   sky Juno–Ketu Dec 5.99802 = 6
-   sky Jupiter–Ceres Dec 52.99678 = 53
    sky Sedna -> H Mercury Dec 8.22228 = 74/9
    sky Chiron -> H Uranus Dec 5.55565 = 50/9
    sky Venus -> H Sedna Dec 0.66684 = 6/9
@@ -129,9 +122,6 @@
    H Uranus moved RA 13.44540 = 121/9
    H Makemake moved RA 1.00170 = 1
    J Neptune moved RA 54.99076 = 55
-   sky Chiron–Transpluto RA 134.55535 = 1211/9
-   sky Gonggong–Transpluto RA 177.99774 = 178
-   sky Juno–Rahu RA 177.00416 = 177
    sky Ceres -> J Jupiter RA 80.77784 = 727/9
    sky Jupiter -> J Venus RA 91.44451 = 823/9
    sky Eris -> J Sedna RA 18.55548 = 167/9

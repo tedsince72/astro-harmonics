@@ -1,5 +1,5 @@
-== 2 Fox Tal / 2 Oisin Murphy   [20210904_kempton_aw_1440__P03.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 50; eq_ratios root 1; hj_ratios root 19; links derived 9, mirror 1, root 117; movement root 11; pair_family root 114; ratios root 16; same_body root 1; shared root 4; sky mirror 2, race_level 8, root 10; sky_close race_level 11; splits from_numbers 3, root 87; strikes derived 11, duplicate 2, mirror 2, root 58
+== 2 Fox Tal / 2 Oisin Murphy   [20210904_kempton_aw_1440__P03.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 50; eq_ratios root 1; hj_ratios root 19; links derived 9, mirror 1, root 118; movement root 11; node root 1; pair_family root 114; ratios root 16; same_body root 1; shared root 4; sky race_level 20; sky_close race_level 11; splits from_numbers 3, root 87; strikes derived 13, duplicate 2, root 58
 -- Dec groups (3+ points joined by numbers)
    J Juno, J Makemake, J Sun, J Vesta, S Makemake, S Mars, S Sedna
    H Makemake, H Mercury, J Pluto, J Transpluto, S Mercury, S Pallas, S Sun
@@ -70,19 +70,13 @@
             <- natal     H H Pluto–H Chiron RA 62.22241 = 560/9
             <- cross     cross H Pluto–J Juno RA 27.77784 = 250/9
             <- natal     J J Venus–J Juno RA 91.00041 = 91
-   MIRROR   sky Ketu–Sedna RA 175.77810 = 1582/9
-            <- axis      node axis (S)
-            <- skynum    sky Rahu–Sedna RA 4.22190 = 38/9
-   MIRROR   sky Venus–Ketu RA 42.99762 = 43
-            <- skynum    sky Venus–Rahu RA 137.00238 = 137
-            <- axis      node axis (S)
    DERIVED  sky Sedna -> H Transpluto RA 93.22242 = 839/9
             <- strike    sky Sedna -> J Ceres RA 124.66681 = 1122/9
             <- cross     cross H Transpluto–J Ceres RA 31.44439 = 283/9
    DERIVED  sky Rahu -> J Ceres RA 120.44491 = 1084/9
             <- skynum    sky Rahu–Sedna RA 4.22190 = 38/9
             <- strike    sky Sedna -> J Ceres RA 124.66681 = 1122/9
-   MIRROR   sky Ketu -> J Ceres RA 59.55509 = 536/9
+   DERIVED  sky Ketu -> J Ceres RA 59.55509 = 536/9
             <- axis      node axis (S)
             <- skynum    sky Rahu–Sedna RA 4.22190 = 38/9
             <- strike    sky Sedna -> J Ceres RA 124.66681 = 1122/9
@@ -90,7 +84,7 @@
             <- skynum    sky Rahu–Sedna RA 4.22190 = 38/9
             <- strike    sky Sedna -> J Ceres RA 124.66681 = 1122/9
             <- cross     cross H Transpluto–J Ceres RA 31.44439 = 283/9
-   MIRROR   sky Ketu -> H Transpluto RA 90.99948 = 91
+   DERIVED  sky Ketu -> H Transpluto RA 90.99948 = 91
             <- axis      node axis (S)
             <- skynum    sky Rahu–Sedna RA 4.22190 = 38/9
             <- strike    sky Sedna -> J Ceres RA 124.66681 = 1122/9
@@ -125,8 +119,6 @@
    H Ketu moved Dec 17.88959 = 161/9
    J Makemake moved Dec 10.77882 = 97/9
    H Mercury moved Dec 2.00570 = 2
-   sky Mars–Sedna Dec 4.66670 = 42/9
-   sky Neptune–Quaoar Dec 11.00310 = 11
    sky Eris -> J Orcus Dec 2.44448 = 22/9
    sky Gonggong -> H Rahu Dec 14.77774 = 133/9
    sky Ketu -> H Ceres Dec 10.11121 = 91/9
@@ -167,14 +159,6 @@
    cross H Ceres–J Mars RA 147.00372 = 147
    cross H Venus–J Haumea RA 150.99531 = 151
    J Saturn moved RA 43.33414 = 390/9
-   sky Sun–Pallas RA 174.77779 = 1573/9
-   sky Haumea–Quaoar RA 58.66659 = 528/9
-   sky Mercury–Mars RA 11.99978 = 12
-   sky Rahu–Sedna RA 4.22190 = 38/9
-   sky Venus–Vesta RA 1.22184 = 11/9
-   sky Pluto–Orcus RA 140.11068 = 1261/9
-   sky Venus–Rahu RA 137.00238 = 137
-   sky Vesta–Quaoar RA 72.00487 = 72
    sky Sedna -> J Ceres RA 124.66681 = 1122/9
    sky Saturn -> J Chiron RA 131.77755 = 1186/9
    sky Transpluto -> H Neptune RA 172.77742 = 1555/9

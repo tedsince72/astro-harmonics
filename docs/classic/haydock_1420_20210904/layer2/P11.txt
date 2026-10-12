@@ -1,5 +1,5 @@
-== 8 Tynwald / 8 Daniel Tudhope   [20210904_haydock_1420__P11.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 38; eq_ratios root 3; hj_ratios root 17; links mirror 1, root 126; movement root 6; pair_family root 141; points root 1; ratios root 16; same_body root 1; shared root 8; sky race_level 11, root 10; sky_close race_level 11; splits root 83; strikes derived 13, duplicate 2, root 56
+== 8 Tynwald / 8 Daniel Tudhope   [20210904_haydock_1420__P11.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 38; eq_ratios root 3; hj_ratios root 17; links mirror 1, root 129; movement root 6; node root 1; pair_family root 141; points race_level 1; ratios root 16; same_body root 1; shared root 8; sky race_level 21; sky_close race_level 11; splits root 83; strikes derived 13, duplicate 2, root 56
 -- Dec groups (3+ points joined by numbers)
    H Ceres, H Eris, H Uranus, J Haumea, J Juno, J Makemake, S Ceres, S Mercury, S Saturn, S Sun
    H Ketu, H Orcus, H Sedna, H Vesta, J Neptune, J Orcus, S Neptune, S Quaoar
@@ -70,7 +70,6 @@
             <- skynum    sky Venus–Pallas RA 148.00057 = 148
             <- movement  J Venus moved RA 34.99630 = 35
 -- roots among number items (Dec/RA)
-   S Jupiter Equator 14.33429 = 129/9
    H H Jupiter–H Saturn Dec 5.11120 = 46/9
    J J Mercury–J Eris Dec 8.33351 = 75/9
    H H Ketu–H Orcus Dec 6.22244 = 56/9
@@ -92,10 +91,6 @@
    cross H Makemake–J Transpluto Dec 10.00485 = 10
    H Ceres moved Dec 16.44507 = 148/9
    J Neptune moved Dec 18.00230 = 18
-   sky Mercury–Ceres Dec 19.33336 = 174/9
-   sky Mars–Makemake Dec 18.88840 = 170/9
-   sky Neptune–Quaoar Dec 11.00321 = 11
-   sky Sun–Mercury Dec 11.00428 = 11
    sky Pluto -> J Eris Dec 12.11097 = 109/9
    sky Venus -> J Sun Dec 12.77740 = 115/9
    sky Saturn -> H Eris Dec 16.77821 = 151/9
@@ -130,12 +125,6 @@
    cross H Pluto–J Sun RA 44.00451 = 44
    J Venus moved RA 34.99630 = 35
    H Vesta moved RA 53.99008 = 54
-   sky Pluto–Orcus RA 140.11117 = 1261/9
-   sky Ceres–Sedna RA 8.33350 = 75/9
-   sky Haumea–Quaoar RA 58.66684 = 528/9
-   sky Sun–Neptune RA 170.44406 = 1534/9
-   sky Venus–Pallas RA 148.00057 = 148
-   sky Mercury–Neptune RA 167.00164 = 167
    sky Mars -> H Quaoar RA 97.66676 = 879/9
    sky Jupiter -> J Orcus RA 159.00019 = 159
    sky Eris -> J Haumea RA 157.66628 = 1419/9

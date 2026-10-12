@@ -1,5 +1,5 @@
-== 6 Molly Ollys Wishes / 6 Harry Skelton   [haydock_1405_20220219__P11.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 36; eq_ratios root 3; hj_ratios root 23; links derived 4, mirror 4, root 105; movement root 4; pair_family root 135; pair_sets root 2; points root 1; ratios root 18; same_body root 1; shared root 3; sky derived 1, mirror 1, race_level 5, root 10; sky_close race_level 13; splits root 52; strikes derived 8, duplicate 2, mirror 1, root 72
+== 6 Molly Ollys Wishes / 6 Harry Skelton   [haydock_1405_20220219__P11.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 36; eq_ratios root 3; hj_ratios root 23; links derived 4, mirror 4, root 105; movement root 4; node root 1; pair_family root 135; pair_sets root 2; points root 1; ratios root 18; same_body root 1; shared root 3; sky race_level 17; sky_close race_level 13; splits root 52; strikes derived 8, duplicate 2, mirror 1, root 72
 -- Dec groups (3+ points joined by numbers)
    H Pallas, J Ceres, J Ketu, J Saturn, J Sedna, J Vesta, S Makemake
    EQ, H Haumea, J Makemake, S Haumea, S Saturn, S Vesta
@@ -21,9 +21,6 @@
    DERIVED  cross H Venus–J Quaoar Dec 2.00451 = 2
             <- cross     cross H Venus–J Jupiter Dec 38.00145 = 38
             <- natal     J J Jupiter–J Quaoar Dec 35.99694 = 36
-   DERIVED  sky Mercury–Neptune Dec 14.99907 = 15
-            <- skynum    sky Mercury–Quaoar Dec 3.88841 = 35/9
-            <- skynum    sky Neptune–Quaoar Dec 11.11067 = 100/9
    DERIVED  sky Gonggong -> J Orcus Dec 15.33354 = 138/9
             <- strike    sky Gonggong -> H Sun Dec 10.33328 = 93/9
             <- cross     cross H Sun–J Orcus Dec 5.00026 = 5
@@ -61,9 +58,6 @@
             <- cross     cross H Jupiter–J Pallas RA 86.88933 = 782/9
             <- cross     cross H Chiron–J Pallas RA 31.00445 = 31
             <- cross     cross H Chiron–J Transpluto RA 160.88915 = 1448/9
-   MIRROR   sky Uranus–Ketu RA 164.88845 = 1484/9
-            <- skynum    sky Uranus–Rahu RA 15.11155 = 136/9
-            <- axis      node axis (S)
    MIRROR   sky Ketu -> H Uranus RA 136.99753 = 137
             <- axis      node axis (S)
             <- strike    sky Rahu -> H Uranus RA 43.00247 = 43
@@ -100,9 +94,6 @@
    cross H Venus–J Jupiter Dec 38.00145 = 38
    H Haumea moved Dec 2.66716 = 24/9
    H Sedna moved Dec 0.99124 = 1
-   sky Neptune–Quaoar Dec 11.11067 = 100/9
-   sky Mercury–Quaoar Dec 3.88841 = 35/9
-   sky Chiron–Ketu Dec 24.99942 = 25
    sky Gonggong -> H Sun Dec 10.33328 = 93/9
    sky Juno -> J Rahu Dec 1.99990 = 2
    sky Neptune -> H Uranus Dec 8.22236 = 74/9
@@ -135,13 +126,6 @@
    cross H Juno–J Uranus RA 96.99861 = 97
    cross H Venus–J Gonggong RA 15.99573 = 16
    cross H Chiron–J Pallas RA 31.00445 = 31
-   sky Haumea–Transpluto RA 62.77737 = 565/9
-   sky Uranus–Rahu RA 15.11155 = 136/9
-   sky Sun–Uranus RA 65.99831 = 66
-   sky Mercury–Quaoar RA 29.99780 = 30
-   sky Saturn–Juno RA 13.00391 = 13
-   sky Pallas–Haumea RA 148.00441 = 148
-   sky Uranus–Pluto RA 99.00448 = 99
    sky Sun -> H Eris RA 52.44436 = 472/9
    sky Uranus -> H Haumea RA 171.33325 = 1542/9
    sky Ceres -> H Sun RA 61.55569 = 554/9

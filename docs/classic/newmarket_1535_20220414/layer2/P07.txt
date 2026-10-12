@@ -1,5 +1,5 @@
-== 4 Eydon / 4 David Egan   [newmarket_1535_20220414__P07.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 32; eq_ratios mirror 1, root 3; hj_ratios root 24; links derived 3, mirror 1, root 100; movement root 11; pair_family root 136; points root 3; ratios root 22; same_body root 3; shared root 8; sky derived 1, race_level 13, root 4; sky_close race_level 7; splits from_numbers 3, root 155; strikes derived 7, duplicate 5, root 56
+== 4 Eydon / 4 David Egan   [newmarket_1535_20220414__P07.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 32; eq_ratios mirror 1, root 3; hj_ratios root 24; links derived 3, mirror 1, root 100; movement root 11; node root 1; pair_family root 136; points race_level 2, root 1; ratios root 22; same_body root 3; shared root 8; sky race_level 18; sky_close race_level 7; splits from_numbers 3, root 155; strikes derived 7, duplicate 5, root 56
 -- Dec groups (3+ points joined by numbers)
    H Chiron, H Orcus, H Quaoar, H Sun, J Ceres, J Orcus, J Saturn, J Sun, S Sun, S Vesta
    H Haumea, H Juno, H Ketu, H Mercury, H Neptune, H Transpluto, J Quaoar, S Gonggong
@@ -25,9 +25,6 @@
    DERIVED  cross H Chiron–J Orcus Dec 3.88878 = 35/9
             <- cross     cross H Chiron–J Sun Dec 19.88887 = 179/9
             <- natal     J J Sun–J Orcus Dec 23.77765 = 214/9
-   DERIVED  sky Mars–Makemake Dec 35.99593 = 36
-            <- equator   S Mars Equator 12.99704 = 13
-            <- equator   S Makemake Equator 22.99889 = 23
    DERIVED  sky Makemake -> J Neptune Dec 41.99916 = 42
             <- equator   S Makemake Equator 22.99889 = 23
             <- equator   J Neptune Equator 19.00027 = 19
@@ -58,8 +55,6 @@
             <- natal     J J Uranus–J Neptune RA 13.00499 = 13
 -- roots among number items (Dec/RA)
    J Neptune Equator 19.00027 = 19
-   S Makemake Equator 22.99889 = 23
-   S Mars Equator 12.99704 = 13
    J J Sun–J Orcus Dec 23.77765 = 214/9
    H H Pluto–H Sedna Dec 29.55523 = 266/9
    J J Venus–J Transpluto Dec 5.33300 = 48/9
@@ -88,8 +83,6 @@
    H Uranus moved Dec 4.22187 = 38/9
    J Haumea moved Dec 5.88961 = 53/9
    J Sun moved Dec 13.99348 = 14
-   sky Saturn–Transpluto Dec 25.44429 = 229/9
-   sky Juno–Ketu Dec 12.99596 = 13
    sky Gonggong -> H Mercury Dec 6.55556 = 59/9
    sky Mars -> J Juno Dec 10.11113 = 91/9
    sky Eris -> H Saturn Dec 20.55565 = 185/9
@@ -117,8 +110,6 @@
    H Chiron moved RA 10.55549 = 95/9
    J Pluto moved RA 52.00033 = 52
    J Haumea moved RA 21.99886 = 22
-   sky Mercury–Pallas RA 7.77787 = 70/9
-   sky Neptune–Haumea RA 137.77729 = 1240/9
    sky Jupiter -> J Venus RA 140.88884 = 1268/9
    sky Neptune -> H Venus RA 22.99991 = 23
    sky Saturn -> J Pallas RA 95.66678 = 861/9

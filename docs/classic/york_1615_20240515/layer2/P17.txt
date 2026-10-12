@@ -1,5 +1,5 @@
-== 9 Expensive Queen / 9 Ryan Moore   [york_1615_20240515__P17.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 37; eq_ratios root 2; hj_ratios root 17; links derived 4, root 107; movement root 6; pair_family root 132; points root 2; ratios root 18; same_body root 1; shared root 6; sky race_level 9, root 13; sky_close race_level 5; splits root 43; strikes derived 13, duplicate 3, mirror 4, root 76
+== 9 Expensive Queen / 9 Ryan Moore   [york_1615_20240515__P17.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 37; eq_ratios root 2; hj_ratios root 17; links derived 4, root 108; movement root 6; node root 1; pair_family root 132; points race_level 2; ratios root 18; same_body root 1; shared root 6; sky race_level 22; sky_close race_level 5; splits root 43; strikes derived 13, duplicate 3, mirror 4, root 76
 -- Dec groups (3+ points joined by numbers)
    H Ceres, H Chiron, H Haumea, H Ketu, H Pluto, H Venus, J Uranus, S Juno, S Neptune, S Orcus
    J Ceres, J Haumea, J Juno, J Jupiter, J Quaoar, J Venus, S Ketu, S Mars
@@ -63,12 +63,12 @@
    MIRROR   sky Sedna -> H Ketu RA 169.88918 = 1529/9
             <- strike    sky Sedna -> H Rahu RA 10.11082 = 91/9
             <- axis      node axis (H)
-   MIRROR   sky Ketu -> H Orcus RA 38.33366 = 345/9
-            <- axis      node axis (S)
-            <- strike    sky Rahu -> H Orcus RA 141.66634 = 1275/9
    DERIVED  sky Sun -> J Saturn RA 158.55523 = 1427/9
             <- strike    sky Sun -> H Quaoar RA 136.66670 = 1230/9
             <- cross     cross H Quaoar–J Saturn RA 64.77807 = 583/9
+   MIRROR   sky Ketu -> H Orcus RA 38.33366 = 345/9
+            <- axis      node axis (S)
+            <- strike    sky Rahu -> H Orcus RA 141.66634 = 1275/9
    DERIVED  sky Mars -> J Transpluto RA 131.55514 = 1184/9
             <- strike    sky Mars -> H Jupiter RA 43.66698 = 393/9
             <- cross     cross H Jupiter–J Transpluto RA 175.22212 = 1577/9
@@ -85,8 +85,6 @@
             <- strike    sky Venus -> H Rahu RA 22.99667 = 23
             <- axis      node axis (H)
 -- roots among number items (Dec/RA)
-   S Sun Equator 18.99694 = 19
-   S Quaoar Equator 14.99235 = 15
    J J Ceres–J Quaoar Dec 17.33333 = 156/9
    H H Jupiter–H Quaoar Dec 1.33329 = 12/9
    J J Pallas–J Makemake Dec 26.44430 = 238/9
@@ -102,13 +100,6 @@
    H H Mercury–H Sedna Dec 6.00434 = 6
    cross H Chiron–J Uranus Dec 27.00046 = 27
    J Eris moved Dec 10.66613 = 96/9
-   sky Mercury–Haumea Dec 7.00035 = 7
-   sky Mars–Ketu Dec 9.00040 = 9
-   sky Venus–Rahu Dec 11.11069 = 100/9
-   sky Vesta–Eris Dec 25.00094 = 25
-   sky Pallas–Sedna Dec 16.99898 = 17
-   sky Uranus–Pluto Dec 41.00342 = 41
-   sky Juno–Orcus Dec 23.00446 = 23
    sky Neptune -> H Chiron Dec 7.33330 = 66/9
    sky Jupiter -> H Pallas Dec 14.33338 = 129/9
    sky Mars -> J Jupiter Dec 23.88896 = 215/9
@@ -141,12 +132,6 @@
    cross H Quaoar–J Saturn RA 64.77807 = 583/9
    cross H Ceres–J Pallas RA 103.00035 = 103
    J Pluto moved RA 92.55603 = 833/9
-   sky Uranus–Neptune RA 50.99989 = 51
-   sky Chiron–Sedna RA 41.11080 = 370/9
-   sky Gonggong–Orcus RA 179.55595 = 1616/9
-   sky Uranus–Eris RA 23.66710 = 213/9
-   sky Pluto–Quaoar RA 25.00140 = 25
-   sky Sedna–Haumea RA 158.00470 = 158
    sky Sun -> H Quaoar RA 136.66670 = 1230/9
    sky Transpluto -> H Haumea RA 61.22215 = 551/9
    sky Eris -> H Sedna RA 31.11087 = 280/9

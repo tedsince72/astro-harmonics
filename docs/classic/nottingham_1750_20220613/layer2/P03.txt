@@ -1,5 +1,5 @@
-== 2 The Dunkirk Lads / 2 Duran Fentiman   [nottingham_1750_20220613__P03.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 34; eq_ratios root 3; hj_ratios root 16; links derived 2, mirror 1, root 102; movement root 5; pair_family root 146; points mirror 1, root 2; ratios root 22; same_body root 4; shared root 3; sky race_level 13, root 9; sky_close race_level 13; splits from_numbers 1, root 54; strikes derived 11, duplicate 4, mirror 3, root 68
+== 2 The Dunkirk Lads / 2 Duran Fentiman   [nottingham_1750_20220613__P03.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 34; eq_ratios root 3; hj_ratios root 16; links derived 2, mirror 1, root 105; movement root 5; node root 1; pair_family root 146; points mirror 1, root 2; ratios root 22; same_body root 4; shared root 3; sky race_level 22; sky_close race_level 13; splits from_numbers 1, root 54; strikes derived 12, duplicate 4, mirror 2, root 68
 -- Dec groups (3+ points joined by numbers)
    H Ceres, H Transpluto, H Venus, J Gonggong, J Quaoar, S Juno, S Pallas, S Pluto
    H Haumea, H Makemake, H Pallas, H Saturn, H Uranus, S Rahu
@@ -70,7 +70,7 @@
    DERIVED  sky Rahu -> J Orcus RA 76.99522 = 77
             <- strike    sky Rahu -> J Pallas RA 111.00010 = 111
             <- natal     J J Pallas–J Orcus RA 34.00488 = 34
-   MIRROR   sky Ketu -> J Orcus RA 103.00478 = 103
+   DERIVED  sky Ketu -> J Orcus RA 103.00478 = 103
             <- axis      node axis (S)
             <- strike    sky Rahu -> J Pallas RA 111.00010 = 111
             <- natal     J J Pallas–J Orcus RA 34.00488 = 34
@@ -91,11 +91,6 @@
    cross H Juno–J Haumea Dec 16.99826 = 17
    cross H Ceres–J Quaoar Dec 2.99611 = 3
    J Transpluto moved Dec 3.99509 = 4
-   sky Pluto–Juno Dec 23.44478 = 211/9
-   sky Venus–Gonggong Dec 26.55592 = 239/9
-   sky Neptune–Haumea Dec 18.99960 = 19
-   sky Pallas–Juno Dec 2.00221 = 2
-   sky Ceres–Ketu Dec 44.99592 = 45
    sky Pluto -> J Gonggong Dec 1.33328 = 12/9
    sky Rahu -> H Uranus Dec 7.55543 = 68/9
    sky Jupiter -> H Quaoar Dec 16.55568 = 149/9
@@ -127,10 +122,6 @@
    cross H Vesta–J Eris RA 40.00299 = 40
    cross H Ceres–J Chiron RA 167.00321 = 167
    H Eris moved RA 1.33319 = 12/9
-   sky Gonggong–Orcus RA 178.33299 = 1605/9
-   sky Pluto–Quaoar RA 23.88852 = 215/9
-   sky Uranus–Transpluto RA 110.00173 = 110
-   sky Pluto–Pallas RA 111.99593 = 112
    sky Sedna -> J Neptune RA 145.55549 = 1310/9
    sky Rahu -> J Pallas RA 111.00010 = 111
    sky Pallas -> J Saturn RA 170.77794 = 1537/9

@@ -1,5 +1,5 @@
-== 5 Masekela / 5 William Buick   [newmarket_1535_20220414__P09.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 32; eq_ratios root 2; hj_ratios root 16; links derived 3, mirror 1, root 91; movement root 7; pair_family from_numbers 1, root 138; pair_sets root 1; points root 4; ratios root 19; same_body mirror 1, root 3; shared root 9; sky derived 1, race_level 13, root 4; sky_close race_level 7; splits from_numbers 1, root 107; strikes derived 8, duplicate 4, mirror 4, root 64
+== 5 Masekela / 5 William Buick   [newmarket_1535_20220414__P09.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 32; eq_ratios root 2; hj_ratios root 16; links derived 3, mirror 1, root 92; movement root 7; node root 1; pair_family from_numbers 1, root 138; pair_sets root 1; points race_level 2, root 2; ratios root 19; same_body mirror 1, root 3; shared root 9; sky race_level 18; sky_close race_level 7; splits from_numbers 1, root 107; strikes derived 10, duplicate 4, mirror 2, root 64
 -- Dec groups (3+ points joined by numbers)
    H Gonggong, H Uranus, J Eris, J Juno, J Mercury, J Sun, J Transpluto, J Venus, S Mercury, S Pallas, S Rahu, S Sedna, S Uranus
    H Juno, H Vesta, J Gonggong, J Jupiter, J Makemake, S Haumea, S Saturn, S Transpluto
@@ -19,9 +19,6 @@
    DERIVED  cross H Gonggong–J Sun Dec 31.99757 = 32
             <- cross     cross H Gonggong–J Venus Dec 30.00067 = 30
             <- natal     J J Sun–J Venus Dec 1.99690 = 2
-   DERIVED  sky Mars–Makemake Dec 35.99593 = 36
-            <- equator   S Mars Equator 12.99704 = 13
-            <- equator   S Makemake Equator 22.99889 = 23
    DERIVED  sky Haumea -> J Makemake Dec 20.11095 = 181/9
             <- strike    sky Haumea -> J Gonggong Dec 36.44440 = 328/9
             <- natal     J J Makemake–J Gonggong Dec 56.55535 = 509/9
@@ -49,7 +46,7 @@
    DERIVED  sky Rahu -> J Venus RA 28.88864 = 260/9
             <- strike    sky Rahu -> J Uranus RA 142.22226 = 1280/9
             <- natal     J J Venus–J Uranus RA 171.11090 = 1540/9
-   MIRROR   sky Ketu -> J Venus RA 151.11136 = 1360/9
+   DERIVED  sky Ketu -> J Venus RA 151.11136 = 1360/9
             <- axis      node axis (S)
             <- strike    sky Rahu -> J Uranus RA 142.22226 = 1280/9
             <- natal     J J Venus–J Uranus RA 171.11090 = 1540/9
@@ -64,7 +61,7 @@
             <- strike    sky Uranus -> H Chiron RA 39.88844 = 359/9
             <- natal     H H Chiron–H Makemake RA 165.00211 = 165
             <- natal     H H Rahu–H Makemake RA 82.11076 = 739/9
-   MIRROR   sky Uranus -> H Ketu RA 107.00131 = 107
+   DERIVED  sky Uranus -> H Ketu RA 107.00131 = 107
             <- strike    sky Uranus -> H Chiron RA 39.88844 = 359/9
             <- natal     H H Chiron–H Makemake RA 165.00211 = 165
             <- natal     H H Rahu–H Makemake RA 82.11076 = 739/9
@@ -74,8 +71,6 @@
             <- natal     J J Mars–J Jupiter RA 53.00252 = 53
 -- roots among number items (Dec/RA)
    J Saturn Equator 22.33318 = 201/9
-   S Makemake Equator 22.99889 = 23
-   S Mars Equator 12.99704 = 13
    H Neptune Equator 6.00842 = 6
    J J Juno–J Eris Dec 23.88889 = 215/9
    J J Makemake–J Gonggong Dec 56.55535 = 509/9
@@ -95,8 +90,6 @@
    J Neptune moved Dec 18.66567 = 168/9
    J Mercury moved Dec 8.00453 = 8
    H Uranus moved Dec 3.99096 = 4
-   sky Saturn–Transpluto Dec 25.44429 = 229/9
-   sky Juno–Ketu Dec 12.99596 = 13
    sky Haumea -> J Gonggong Dec 36.44440 = 328/9
    sky Pallas -> J Transpluto Dec 18.44463 = 166/9
    sky Sun -> J Vesta Dec 5.00025 = 5
@@ -129,8 +122,6 @@
    cross H Uranus–J Makemake RA 137.00192 = 137
    cross H Transpluto–J Transpluto RA 10.00257 = 10
    cross H Mercury–J Gonggong RA 21.99666 = 22
-   sky Mercury–Pallas RA 7.77787 = 70/9
-   sky Neptune–Haumea RA 137.77729 = 1240/9
    sky Rahu -> J Uranus RA 142.22226 = 1280/9
    sky Gonggong -> J Jupiter RA 81.00015 = 81
    sky Chiron -> J Gonggong RA 41.66649 = 375/9

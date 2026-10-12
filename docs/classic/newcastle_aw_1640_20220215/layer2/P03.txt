@@ -1,5 +1,5 @@
-== 2 Alba Rose / 2 Joe Fanning   [newcastle_aw_1640_20220215__P03.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 35; hj_ratios root 10; links derived 5, root 96; movement root 7; pair_family root 119; points root 3; ratios root 19; same_body root 1; shared root 6; sky derived 1, race_level 8, root 13; sky_close race_level 9; splits from_numbers 1, root 67; strikes derived 13, duplicate 3, mirror 2, root 68
+== 2 Alba Rose / 2 Joe Fanning   [newcastle_aw_1640_20220215__P03.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 35; hj_ratios root 10; links derived 5, root 98; movement root 7; node root 1; pair_family root 119; points root 3; ratios root 19; same_body root 1; shared root 6; sky race_level 22; sky_close race_level 9; splits from_numbers 1, root 67; strikes derived 13, duplicate 3, mirror 2, root 68
 -- Dec groups (3+ points joined by numbers)
    H Haumea, H Makemake, H Sun, J Ketu, J Vesta, S Jupiter, S Makemake, S Mercury, S Pallas, S Saturn
    EQ, H Mars, H Pallas, H Uranus, J Jupiter, J Sun
@@ -28,9 +28,6 @@
    DERIVED  cross H Uranus–J Jupiter Dec 23.00353 = 23
             <- equator   H Uranus Equator 10.00490 = 10
             <- equator   J Jupiter Equator 12.99862 = 13
-   DERIVED  sky Mercury–Saturn Dec 3.00231 = 3
-            <- skynum    sky Mercury–Jupiter Dec 11.00150 = 11
-            <- skynum    sky Jupiter–Saturn Dec 7.99919 = 8
    DERIVED  sky Orcus -> J Ceres Dec 14.00025 = 14
             <- skynum    sky Ketu–Orcus Dec 7.33296 = 66/9
             <- strike    sky Ketu -> J Ceres Dec 21.33320 = 192/9
@@ -121,13 +118,6 @@
    cross H Jupiter–J Chiron Dec 23.00464 = 23
    H Makemake moved Dec 2.33291 = 21/9
    H Pluto moved Dec 1.00938 = 1
-   sky Mars–Haumea Dec 38.44433 = 346/9
-   sky Ketu–Orcus Dec 7.33296 = 66/9
-   sky Jupiter–Saturn Dec 7.99919 = 8
-   sky Neptune–Eris Dec 2.99894 = 3
-   sky Mercury–Jupiter Dec 11.00150 = 11
-   sky Rahu–Transpluto Dec 9.00162 = 9
-   sky Chiron–Juno Dec 17.00237 = 17
    sky Quaoar -> H Mercury Dec 22.77776 = 205/9
    sky Gonggong -> J Sedna Dec 13.11105 = 118/9
    sky Jupiter -> H Sun Dec 13.11104 = 118/9
@@ -163,12 +153,6 @@
    cross H Neptune–J Sun RA 165.00311 = 165
    cross H Chiron–J Uranus RA 168.99633 = 169
    H Vesta moved RA 20.00891 = 20
-   sky Sun–Uranus RA 69.66670 = 627/9
-   sky Chiron–Haumea RA 150.44460 = 1354/9
-   sky Eris–Quaoar RA 109.11139 = 982/9
-   sky Saturn–Chiron RA 48.33295 = 435/9
-   sky Ceres–Juno RA 113.00347 = 113
-   sky Ceres–Vesta RA 128.99598 = 129
    sky Uranus -> J Makemake RA 108.00001 = 108
    sky Quaoar -> J Sedna RA 117.22227 = 1055/9
    sky Mars -> J Neptune RA 50.11119 = 451/9

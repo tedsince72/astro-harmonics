@@ -1,5 +1,5 @@
-== 2 Million Thanks / 2 Kevin Stott   [carlisle_1630_20220707__P03.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 39; eq_ratios root 3; hj_ratios root 21; links derived 6, mirror 4, root 119; movement root 8; pair_family root 127; ratios root 19; same_body root 1; shared root 3; sky derived 1, mirror 1, race_level 11, root 9; sky_close race_level 8; splits root 92; strikes derived 7, duplicate 2, mirror 1, root 67
+== 2 Million Thanks / 2 Kevin Stott   [carlisle_1630_20220707__P03.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 39; eq_ratios root 3; hj_ratios root 21; links derived 6, mirror 4, root 122; movement root 8; node root 1; pair_family root 127; ratios root 19; same_body root 1; shared root 3; sky race_level 22; sky_close race_level 8; splits root 92; strikes derived 8, duplicate 2, root 67
 -- Dec groups (3+ points joined by numbers)
    H Mars, H Vesta, J Gonggong, J Ketu, J Sedna, J Uranus, S Orcus, S Pluto
    H Haumea, H Jupiter, H Makemake, H Pallas, H Saturn, S Vesta
@@ -67,12 +67,6 @@
    DERIVED  cross H Uranus–J Haumea RA 163.00318 = 163
             <- cross     cross H Uranus–J Jupiter RA 174.00162 = 174
             <- natal     J J Jupiter–J Haumea RA 22.99520 = 23
-   MIRROR   sky Ketu–Eris RA 158.77795 = 1429/9
-            <- axis      node axis (S)
-            <- skynum    sky Rahu–Eris RA 21.22205 = 191/9
-   DERIVED  sky Gonggong–Quaoar RA 61.33360 = 552/9
-            <- skynum    sky Haumea–Gonggong RA 121.55570 = 1094/9
-            <- skynum    sky Haumea–Quaoar RA 60.22210 = 542/9
    DERIVED  sky Haumea -> H Transpluto RA 61.99981 = 62
             <- skynum    sky Haumea–Gonggong RA 121.55570 = 1094/9
             <- strike    sky Gonggong -> H Transpluto RA 176.44449 = 1588/9
@@ -83,7 +77,7 @@
    DERIVED  sky Uranus -> J Rahu RA 175.88925 = 1583/9
             <- strike    sky Uranus -> H Pallas RA 167.11135 = 1504/9
             <- cross     cross H Pallas–J Rahu RA 16.99940 = 17
-   MIRROR   sky Uranus -> J Ketu RA 4.11075 = 37/9
+   DERIVED  sky Uranus -> J Ketu RA 4.11075 = 37/9
             <- strike    sky Uranus -> H Pallas RA 167.11135 = 1504/9
             <- cross     cross H Pallas–J Rahu RA 16.99940 = 17
             <- axis      node axis (J)
@@ -105,11 +99,6 @@
    cross H Pluto–J Saturn Dec 13.00074 = 13
    H Venus moved Dec 42.22145 = 380/9
    J Makemake moved Dec 11.44335 = 103/9
-   sky Neptune–Quaoar Dec 12.11150 = 109/9
-   sky Pallas–Ketu Dec 16.22266 = 146/9
-   sky Neptune–Juno Dec 5.00345 = 5
-   sky Jupiter–Haumea Dec 14.00366 = 14
-   sky Venus–Makemake Dec 1.00438 = 1
    sky Jupiter -> J Sun Dec 19.00006 = 19
    sky Ketu -> H Quaoar Dec 2.33349 = 21/9
    sky Vesta -> H Haumea Dec 30.77754 = 277/9
@@ -143,10 +132,6 @@
    cross H Pluto–J Mercury RA 162.99737 = 163
    H Sedna moved RA 3.11200 = 28/9
    H Orcus moved RA 2.00998 = 2
-   sky Haumea–Quaoar RA 60.22210 = 542/9
-   sky Haumea–Gonggong RA 121.55570 = 1094/9
-   sky Rahu–Eris RA 21.22205 = 191/9
-   sky Mars–Pluto RA 90.00143 = 90
    sky Mercury -> H Makemake RA 101.88889 = 917/9
    sky Makemake -> H Mercury RA 153.44440 = 1381/9
    sky Gonggong -> H Transpluto RA 176.44449 = 1588/9

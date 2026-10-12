@@ -1,5 +1,5 @@
-== 7 Sedate / 7 Joshua Bryan   [newmarket_july_1745_20240816__P13.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 40; eq_ratios root 4; hj_ratios root 19; links derived 6, mirror 1, root 116; movement root 7; pair_family root 119; ratios root 25; same_body root 2; shared root 9; sky mirror 1, race_level 5, root 7; sky_close race_level 6; splits from_numbers 3, root 71; strikes derived 20, duplicate 3, mirror 4, root 69
+== 7 Sedate / 7 Joshua Bryan   [newmarket_july_1745_20240816__P13.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 40; eq_ratios root 4; hj_ratios root 19; links derived 6, mirror 1, root 118; movement root 7; node root 1; pair_family root 119; ratios root 25; same_body root 2; shared root 9; sky race_level 13; sky_close race_level 6; splits from_numbers 3, root 71; strikes derived 21, duplicate 3, mirror 3, root 69
 -- Dec groups (3+ points joined by numbers)
    H Ceres, H Makemake, H Mars, H Mercury, H Quaoar, H Rahu, H Saturn, H Transpluto, H Vesta, J Chiron, J Jupiter, J Saturn, J Transpluto, S Haumea, S Pallas, S Vesta
    H Pallas, J Mercury, J Sedna, S Gonggong, S Juno, S Ketu, S Mercury
@@ -75,9 +75,6 @@
    DERIVED  cross H Sun–J Mercury RA 149.99791 = 150
             <- natal     H H Sun–H Haumea RA 116.00018 = 116
             <- cross     cross H Haumea–J Mercury RA 94.00192 = 94
-   MIRROR   sky Juno–Ketu RA 2.99584 = 3
-            <- skynum    sky Juno–Rahu RA 177.00416 = 177
-            <- axis      node axis (S)
    DERIVED  sky Saturn -> J Jupiter RA 43.77774 = 394/9
             <- movement  J Saturn moved RA 55.99593 = 56
             <- natal     J J Saturn–J Haumea RA 150.00425 = 150
@@ -110,7 +107,7 @@
    DERIVED  sky Rahu -> H Ceres RA 52.99724 = 53
             <- strike    sky Rahu -> J Pallas RA 81.00130 = 81
             <- cross     cross H Ceres–J Pallas RA 28.00406 = 28
-   MIRROR   sky Ketu -> H Ceres RA 127.00276 = 127
+   DERIVED  sky Ketu -> H Ceres RA 127.00276 = 127
             <- axis      node axis (S)
             <- strike    sky Rahu -> J Pallas RA 81.00130 = 81
             <- cross     cross H Ceres–J Pallas RA 28.00406 = 28
@@ -150,10 +147,6 @@
    cross H Mercury–J Jupiter Dec 31.00377 = 31
    cross H Saturn–J Saturn Dec 31.00413 = 31
    H Vesta moved Dec 37.00683 = 37
-   sky Pluto–Transpluto Dec 33.55554 = 302/9
-   sky Mercury–Gonggong Dec 18.22209 = 164/9
-   sky Juno–Ketu Dec 5.99802 = 6
-   sky Jupiter–Ceres Dec 52.99678 = 53
    sky Chiron -> H Uranus Dec 4.77776 = 43/9
    sky Pallas -> H Transpluto Dec 6.77779 = 61/9
    sky Sedna -> J Sun Dec 6.00001 = 6
@@ -188,9 +181,6 @@
    H Pluto moved RA 3.22152 = 29/9
    J Saturn moved RA 55.99593 = 56
    J Transpluto moved RA 8.00513 = 8
-   sky Chiron–Transpluto RA 134.55535 = 1211/9
-   sky Gonggong–Transpluto RA 177.99774 = 178
-   sky Juno–Rahu RA 177.00416 = 177
    sky Gonggong -> H Sedna RA 80.88887 = 728/9
    sky Eris -> J Rahu RA 108.22212 = 974/9
    sky Uranus -> H Eris RA 28.66687 = 258/9

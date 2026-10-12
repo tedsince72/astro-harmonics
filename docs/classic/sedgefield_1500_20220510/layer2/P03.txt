@@ -1,5 +1,5 @@
-== 2 Bright Sunbird / 2 Tabitha Worsley   [sedgefield_1500_20220510__P03.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 37; eq_ratios root 4; hj_ratios root 18; links derived 4, mirror 3, root 110; movement derived 1, root 8; pair_family root 147; points root 3; ratios root 25; same_body root 2; shared root 4; sky race_level 10, root 9; sky_close race_level 9; splits from_numbers 1, root 126; strikes derived 11, duplicate 6, mirror 2, root 75
+== 2 Bright Sunbird / 2 Tabitha Worsley   [sedgefield_1500_20220510__P03.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 37; eq_ratios root 4; hj_ratios root 18; links derived 4, mirror 3, root 111; movement derived 1, root 8; node root 1; pair_family root 147; points race_level 2, root 1; ratios root 25; same_body root 2; shared root 4; sky race_level 19; sky_close race_level 9; splits from_numbers 1, root 126; strikes derived 12, duplicate 6, mirror 1, root 75
 -- Dec groups (3+ points joined by numbers)
    EQ, H Haumea, H Juno, H Mars, J Ceres, J Quaoar, J Transpluto, S Gonggong, S Transpluto
    H Neptune, H Uranus, H Vesta, S Neptune, S Orcus, S Pluto
@@ -62,7 +62,7 @@
    DERIVED  sky Rahu -> H Haumea RA 161.00027 = 161
             <- strike    sky Rahu -> H Venus RA 12.88894 = 116/9
             <- natal     H H Venus–H Haumea RA 173.88921 = 1565/9
-   MIRROR   sky Ketu -> H Haumea RA 18.99973 = 19
+   DERIVED  sky Ketu -> H Haumea RA 18.99973 = 19
             <- axis      node axis (S)
             <- strike    sky Rahu -> H Venus RA 12.88894 = 116/9
             <- natal     H H Venus–H Haumea RA 173.88921 = 1565/9
@@ -90,8 +90,6 @@
             <- natal     H H Mercury–H Sedna RA 63.00240 = 63
 -- roots among number items (Dec/RA)
    J Transpluto Equator 13.55598 = 122/9
-   S Transpluto Equator 10.66615 = 96/9
-   S Gonggong Equator 10.99577 = 11
    H H Neptune–H Vesta Dec 5.33314 = 48/9
    H H Mars–H Haumea Dec 8.22201 = 74/9
    J J Saturn–J Ketu Dec 25.44422 = 229/9
@@ -118,10 +116,6 @@
    H Neptune moved Dec 6.00078 = 6
    H Chiron moved Dec 8.00227 = 8
    H Eris moved Dec 1.99736 = 2
-   sky Ceres–Vesta Dec 41.33351 = 372/9
-   sky Jupiter–Quaoar Dec 14.00292 = 14
-   sky Sun–Saturn Dec 31.99682 = 32
-   sky Pluto–Orcus Dec 10.99570 = 11
    sky Mars -> H Makemake Dec 32.11108 = 289/9
    sky Pluto -> H Neptune Dec 13.22215 = 119/9
    sky Vesta -> J Venus Dec 2.55570 = 23/9
@@ -153,11 +147,6 @@
    cross H Pallas–J Makemake RA 92.99601 = 93
    cross H Orcus–J Ceres RA 4.99574 = 5
    H Pluto moved RA 14.55509 = 131/9
-   sky Jupiter–Chiron RA 12.22263 = 110/9
-   sky Jupiter–Saturn RA 33.00101 = 33
-   sky Mars–Uranus RA 51.99749 = 52
-   sky Mercury–Transpluto RA 92.00408 = 92
-   sky Chiron–Vesta RA 44.00410 = 44
    sky Uranus -> H Sedna RA 12.00004 = 12
    sky Rahu -> H Venus RA 12.88894 = 116/9
    sky Jupiter -> J Pallas RA 49.11128 = 442/9

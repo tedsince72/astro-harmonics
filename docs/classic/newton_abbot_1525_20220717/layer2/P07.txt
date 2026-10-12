@@ -1,5 +1,5 @@
-== 4 On Time / 4 Conor Ring   [newton_abbot_1525_20220717__P07.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 30; eq_ratios root 2; hj_ratios root 15; links derived 8, mirror 1, root 116; movement root 11; pair_family root 129; points root 1; ratios root 18; shared root 7; sky mirror 1, race_level 8, root 9; sky_close race_level 12; splits from_numbers 1, root 45; strikes derived 7, duplicate 6, mirror 2, root 67
+== 4 On Time / 4 Conor Ring   [newton_abbot_1525_20220717__P07.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 30; eq_ratios root 2; hj_ratios root 15; links derived 8, mirror 1, root 118; movement root 11; node root 1; pair_family root 129; points root 1; ratios root 18; shared root 7; sky race_level 18; sky_close race_level 12; splits from_numbers 1, root 45; strikes derived 7, duplicate 6, mirror 2, root 67
 -- Dec groups (3+ points joined by numbers)
    H Ceres, H Juno, H Mars, H Mercury, H Transpluto, J Juno, J Makemake, J Rahu, J Sedna, J Sun, S Gonggong, S Haumea, S Ketu, S Pallas, S Sun, S Uranus, S Venus
    J Chiron, J Eris, J Gonggong, J Ketu, J Pallas, J Venus, S Rahu, S Vesta
@@ -60,9 +60,6 @@
    DERIVED  cross H Quaoar–J Orcus RA 136.99628 = 137
             <- cross     cross H Quaoar–J Eris RA 112.99916 = 113
             <- natal     J J Eris–J Orcus RA 110.00456 = 110
-   MIRROR   sky Jupiter–Ketu RA 140.66675 = 1266/9
-            <- skynum    sky Jupiter–Rahu RA 39.33325 = 354/9
-            <- axis      node axis (S)
    MIRROR   sky Pallas -> J Ketu RA 12.55559 = 113/9
             <- strike    sky Pallas -> J Rahu RA 167.44441 = 1507/9
             <- axis      node axis (J)
@@ -101,12 +98,6 @@
    cross H Sun–J Vesta Dec 22.99642 = 23
    J Mercury moved Dec 44.66747 = 402/9
    J Sun moved Dec 40.99864 = 41
-   sky Venus–Gonggong Dec 33.77802 = 304/9
-   sky Sun–Pallas Dec 23.44415 = 211/9
-   sky Uranus–Pallas Dec 19.11151 = 172/9
-   sky Venus–Pallas Dec 25.00235 = 25
-   sky Saturn–Chiron Dec 22.99736 = 23
-   sky Mercury–Transpluto Dec 12.00464 = 12
    sky Rahu -> J Chiron Dec 10.33328 = 93/9
    sky Ketu -> H Juno Dec 13.00006 = 13
    sky Makemake -> J Quaoar Dec 36.77785 = 331/9
@@ -144,9 +135,6 @@
    J Jupiter moved RA 173.99941 = 174
    H Venus moved RA 103.77679 = 934/9
    H Haumea moved RA 4.00663 = 4
-   sky Jupiter–Rahu RA 39.33325 = 354/9
-   sky Eris–Orcus RA 129.22233 = 1163/9
-   sky Sedna–Haumea RA 155.99762 = 156
    sky Gonggong -> J Uranus RA 46.66666 = 420/9
    sky Pallas -> J Rahu RA 167.44441 = 1507/9
    sky Haumea -> H Gonggong RA 120.11104 = 1081/9

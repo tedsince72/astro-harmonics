@@ -1,5 +1,5 @@
-== 2 Arabian Poet / 2 William Buick   [newmarket_july_1745_20240816__P03.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 42; eq_ratios mirror 1, root 1; hj_ratios root 16; links derived 1, mirror 2, root 104; movement root 7; pair_family root 130; points root 2; ratios root 14; same_body root 2; shared root 3; sky mirror 1, race_level 5, root 7; sky_close race_level 6; splits root 29; strikes derived 10, duplicate 5, mirror 4, root 69
+== 2 Arabian Poet / 2 William Buick   [newmarket_july_1745_20240816__P03.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 42; eq_ratios mirror 1, root 1; hj_ratios root 16; links derived 1, mirror 2, root 106; movement root 7; node root 1; pair_family root 130; points root 2; ratios root 14; same_body root 2; shared root 3; sky race_level 13; sky_close race_level 6; splits root 29; strikes derived 10, duplicate 5, mirror 4, root 69
 -- Dec groups (3+ points joined by numbers)
    H Quaoar, H Vesta, J Mars, J Neptune, J Sun, J Transpluto, J Venus, S Haumea, S Vesta
    H Juno, H Neptune, J Haumea, J Orcus, J Pallas, S Eris, S Saturn
@@ -34,9 +34,6 @@
    MIRROR   cross H Jupiter–J Ketu RA 167.99790 = 168
             <- cross     cross H Jupiter–J Rahu RA 12.00210 = 12
             <- axis      node axis (J)
-   MIRROR   sky Juno–Ketu RA 2.99584 = 3
-            <- skynum    sky Juno–Rahu RA 177.00416 = 177
-            <- axis      node axis (S)
    MIRROR   sky Gonggong -> H Ketu RA 107.66655 = 969/9
             <- strike    sky Gonggong -> H Rahu RA 72.33345 = 651/9
             <- axis      node axis (H)
@@ -103,10 +100,6 @@
    cross H Vesta–J Transpluto Dec 30.00268 = 30
    J Jupiter moved Dec 2.77786 = 25/9
    H Pallas moved Dec 19.99885 = 20
-   sky Pluto–Transpluto Dec 33.55554 = 302/9
-   sky Mercury–Gonggong Dec 18.22209 = 164/9
-   sky Juno–Ketu Dec 5.99802 = 6
-   sky Jupiter–Ceres Dec 52.99678 = 53
    sky Eris -> J Haumea Dec 23.66656 = 213/9
    sky Venus -> H Sun Dec 7.44460 = 67/9
    sky Haumea -> J Mars Dec 17.22245 = 155/9
@@ -148,9 +141,6 @@
    cross H Transpluto–J Mars RA 148.99751 = 149
    cross H Uranus–J Venus RA 36.99684 = 37
    J Pallas moved RA 65.55564 = 590/9
-   sky Chiron–Transpluto RA 134.55535 = 1211/9
-   sky Gonggong–Transpluto RA 177.99774 = 178
-   sky Juno–Rahu RA 177.00416 = 177
    sky Vesta -> J Chiron RA 56.11107 = 505/9
    sky Ceres -> J Venus RA 160.33341 = 1443/9
    sky Gonggong -> H Rahu RA 72.33345 = 651/9

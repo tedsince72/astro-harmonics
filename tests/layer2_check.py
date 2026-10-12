@@ -54,4 +54,21 @@ for d in sorted(glob.glob('docs/classic/*/layer2')):
             got = abs(tot) if pl == 'Dec' else abs(wrap(tot))
             if cur != b or abs(got - real) > 1e-6: nbad += 1; print('  FAIL chain', race, os.path.basename(f), iid, cur, b, got, real)
 ok(nbad == 0, f'all {nchk} derived/mirror chains re-add exactly from coordinates (bad {nbad})')
+# (3) exactly one tag per Layer 1 item (all races)
+bad3 = 0
+for d in sorted(glob.glob('docs/classic/*/layer2')):
+    race = d.split('/')[-2]; sky = json.load(open(f'docs/classic/{race}/layer1/sky.json'))
+    scl = json.load(open(f'docs/classic/{race}/layer1/sky_close.json'))
+    for f in sorted(glob.glob(f'{d}/P*.json')):
+        L2 = json.load(open(f)); L1 = json.load(open(f.replace('layer2', 'layer1'))); T = L2['tags']
+        need = set(['node'] + [f'sky:{i}' for i in range(len(sky))] + [f'sky_close:{i}' for i in range(len(scl))])
+        need |= {f'points:{i}' for i, p in enumerate(L1['points']) if p['eq_num']}
+        for i, l in enumerate(L1['links']):
+            need |= {f'links:{i}:{pl}' for pl in l['nums']}
+            if not l['nums'] or l['close'] or l.get('near'): need.add(f'links:{i}')
+        for sec in ('strikes','ratios','movement','same_body','shared','eq_ratios','pair_sets','pair_family','splits','contacts','hj_ratios'):
+            need |= {f'{sec}:{i}' for i in range(len(L1[sec]))}
+        have = set(T)
+        if need != have: bad3 += 1; print('  FAIL tags', race, os.path.basename(f), 'missing', list(need - have)[:5], 'extra', list(have - need)[:5])
+ok(bad3 == 0, f'every Layer 1 item has exactly one tag on every runner (bad runners {bad3})')
 print('FAILS', fails); sys.exit(1 if fails else 0)

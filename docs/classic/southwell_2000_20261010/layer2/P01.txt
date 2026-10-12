@@ -1,5 +1,5 @@
-== 1 So Alex / 1 Jack Doughty   [20261010_southwell_aw_2000__P01.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 52; eq_ratios root 4; hj_ratios root 18; links derived 4, mirror 1, root 107; movement derived 1, root 6; pair_family from_numbers 1, root 135; points mirror 1, root 4; ratios root 16; same_body mirror 1, root 1; shared root 3; sky derived 2, mirror 1, race_level 8, root 8; sky_close race_level 7; splits root 24; strikes derived 14, duplicate 4, root 75
+== 1 So Alex / 1 Jack Doughty   [20261010_southwell_aw_2000__P01.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 52; eq_ratios root 4; hj_ratios root 18; links derived 4, mirror 1, root 110; movement derived 1, root 6; node root 1; pair_family from_numbers 1, root 135; points race_level 3, root 2; ratios root 16; same_body mirror 1, root 1; shared root 3; sky race_level 19; sky_close race_level 7; splits root 24; strikes derived 14, duplicate 4, root 75
 -- Dec groups (3+ points joined by numbers)
    EQ, H Makemake, H Venus, J Quaoar, S Ketu, S Rahu, S Venus
    H Chiron, H Haumea, H Sun, J Chiron, S Juno, S Uranus, S Vesta
@@ -34,12 +34,6 @@
    DERIVED  H Venus moved Dec 13.00591 = 13
             <- equator   S Venus Equator 20.99968 = 21
             <- equator   H Venus Equator 7.99378 = 8
-   DERIVED  sky Venus–Rahu Dec 9.00418 = 9
-            <- equator   S Venus Equator 20.99968 = 21
-            <- equator   S Rahu Equator 11.99550 = 12
-   DERIVED  sky Venus–Ketu Dec 32.99518 = 33
-            <- equator   S Venus Equator 20.99968 = 21
-            <- equator   S Ketu Equator 11.99550 = 12
    DERIVED  sky Uranus -> H Sun Dec 11.22220 = 101/9
             <- strike    sky Uranus -> H Haumea Dec 5.11113 = 46/9
             <- natal     H H Sun–H Haumea Dec 6.11107 = 55/9
@@ -87,16 +81,11 @@
    MIRROR   cross H Ketu–J Neptune RA 93.00442 = 93
             <- axis      node axis (H)
             <- cross     cross H Rahu–J Neptune RA 86.99558 = 87
-   MIRROR   sky Saturn–Ketu RA 139.99537 = 140
-            <- skynum    sky Saturn–Rahu RA 40.00463 = 40
-            <- axis      node axis (S)
    DERIVED  sky Saturn -> H Sedna RA 48.00368 = 48
             <- skynum    sky Saturn–Juno RA 72.99830 = 73
             <- strike    sky Juno -> H Sedna RA 121.00198 = 121
 -- roots among number items (Dec/RA)
-   S Venus Equator 20.99968 = 21
    H Makemake Equator 23.00263 = 23
-   S Rahu Equator 11.99550 = 12
    H Venus Equator 7.99378 = 8
    H H Sun–H Haumea Dec 6.11107 = 55/9
    J J Sun–J Pluto Dec 30.66654 = 276/9
@@ -121,10 +110,6 @@
    cross H Pallas–J Sun Dec 18.00391 = 18
    cross H Saturn–J Transpluto Dec 27.00478 = 27
    H Eris moved Dec 0.99942 = 1
-   sky Gonggong–Orcus Dec 3.33355 = 30/9
-   sky Chiron–Ceres Dec 12.22173 = 110/9
-   sky Sun–Pluto Dec 17.00183 = 17
-   sky Mercury–Quaoar Dec 2.99777 = 3
    sky Uranus -> H Haumea Dec 5.11113 = 46/9
    sky Chiron -> H Neptune Dec 14.66682 = 132/9
    sky Rahu -> J Quaoar Dec 3.22238 = 29/9
@@ -148,10 +133,6 @@
    cross H Venus–J Eris RA 42.99773 = 43
    cross H Rahu–J Neptune RA 86.99558 = 87
    H Mercury moved RA 176.99314 = 177
-   sky Saturn–Transpluto RA 145.88934 = 1313/9
-   sky Saturn–Juno RA 72.99830 = 73
-   sky Sedna–Orcus RA 99.00261 = 99
-   sky Saturn–Rahu RA 40.00463 = 40
    sky Chiron -> J Juno RA 177.88890 = 1601/9
    sky Quaoar -> J Jupiter RA 32.22214 = 290/9
    sky Mercury -> J Sedna RA 167.33341 = 1506/9

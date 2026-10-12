@@ -1,5 +1,5 @@
-== 3 Valley Forge / 3 David Probert   [20210904_haydock_1420__P05.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 40; eq_ratios root 3; hj_ratios root 24; links derived 4, root 101; movement root 7; pair_family root 145; points root 2; ratios root 19; same_body mirror 2, root 3; shared root 5; sky race_level 11, root 10; sky_close race_level 11; splits from_numbers 1, root 52; strikes derived 10, duplicate 4, root 70
+== 3 Valley Forge / 3 David Probert   [20210904_haydock_1420__P05.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 40; eq_ratios root 3; hj_ratios root 24; links derived 4, root 102; movement root 7; node root 1; pair_family root 145; points race_level 1, root 1; ratios root 19; same_body mirror 2, root 3; shared root 5; sky race_level 21; sky_close race_level 11; splits from_numbers 1, root 52; strikes derived 10, duplicate 4, root 70
 -- Dec groups (3+ points joined by numbers)
    H Mars, H Pallas, H Sun, H Uranus, H Venus, J Orcus, J Venus, S Haumea, S Transpluto
    J Juno, J Jupiter, J Mars, J Mercury, J Vesta, S Ceres, S Mercury, S Pallas, S Sun
@@ -66,7 +66,6 @@
             <- skynum    sky Venus–Pallas RA 148.00057 = 148
             <- strike    sky Pallas -> J Jupiter RA 69.00296 = 69
 -- roots among number items (Dec/RA)
-   S Jupiter Equator 14.33429 = 129/9
    J Eris Equator 9.99344 = 10
    H H Jupiter–H Vesta Dec 1.33333 = 12/9
    J J Pluto–J Makemake Dec 36.77775 = 331/9
@@ -85,10 +84,6 @@
    cross H Sun–J Orcus Dec 10.99678 = 11
    cross H Chiron–J Saturn Dec 25.99503 = 26
    J Mercury moved Dec 19.99749 = 20
-   sky Mercury–Ceres Dec 19.33336 = 174/9
-   sky Mars–Makemake Dec 18.88840 = 170/9
-   sky Neptune–Quaoar Dec 11.00321 = 11
-   sky Sun–Mercury Dec 11.00428 = 11
    sky Makemake -> J Pallas Dec 25.00007 = 25
    sky Transpluto -> J Venus Dec 25.22211 = 227/9
    sky Chiron -> J Ketu Dec 1.22206 = 11/9
@@ -123,12 +118,6 @@
    cross H Juno–J Neptune RA 80.99866 = 81
    cross H Makemake–J Saturn RA 78.00398 = 78
    H Makemake moved RA 2.44463 = 22/9
-   sky Pluto–Orcus RA 140.11117 = 1261/9
-   sky Ceres–Sedna RA 8.33350 = 75/9
-   sky Haumea–Quaoar RA 58.66684 = 528/9
-   sky Sun–Neptune RA 170.44406 = 1534/9
-   sky Venus–Pallas RA 148.00057 = 148
-   sky Mercury–Neptune RA 167.00164 = 167
    sky Pallas -> H Saturn RA 69.11107 = 622/9
    sky Mars -> H Pluto RA 118.77770 = 1069/9
    sky Sun -> J Haumea RA 23.88896 = 215/9

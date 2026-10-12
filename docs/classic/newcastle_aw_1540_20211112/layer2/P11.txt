@@ -1,5 +1,5 @@
-== 6 Silver Bubble / 6 Tom Marquand   [newcastle_aw_1540_20211112__P11.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 31; eq_ratios root 5; hj_ratios root 22; links derived 3, mirror 2, root 111; movement root 10; pair_family root 137; points root 2; ratios root 13; shared root 6; sky derived 1, race_level 5, root 10; sky_close race_level 10; splits root 31; strikes derived 11, duplicate 3, mirror 4, root 66
+== 6 Silver Bubble / 6 Tom Marquand   [newcastle_aw_1540_20211112__P11.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 31; eq_ratios root 5; hj_ratios root 22; links derived 4, mirror 1, root 112; movement root 10; node root 1; pair_family root 137; points race_level 1, root 1; ratios root 13; shared root 6; sky race_level 16; sky_close race_level 10; splits root 31; strikes derived 11, duplicate 3, mirror 4, root 66
 -- Dec groups (3+ points joined by numbers)
    H Chiron, H Ketu, H Sun, J Quaoar, S Ketu, S Mercury, S Pluto, S Transpluto, S Uranus
    H Pluto, H Rahu, H Uranus, J Gonggong, J Mercury, J Venus, S Juno, S Rahu
@@ -25,9 +25,6 @@
    DERIVED  cross H Pluto–J Venus Dec 9.00379 = 9
             <- cross     cross H Pluto–J Gonggong Dec 4.00110 = 4
             <- natal     J J Venus–J Gonggong Dec 5.00268 = 5
-   DERIVED  sky Pluto–Ketu Dec 2.44402 = 22/9
-            <- skynum    sky Mercury–Pluto Dec 8.99959 = 9
-            <- skynum    sky Mercury–Ketu Dec 6.55557 = 59/9
    DERIVED  sky Mars -> H Vesta Dec 3.11105 = 28/9
             <- equator   S Mars Equator 13.99942 = 14
             <- equator   H Vesta Equator 17.11048 = 154/9
@@ -69,7 +66,7 @@
    DERIVED  cross H Rahu–J Jupiter RA 152.44405 = 1372/9
             <- natal     H H Rahu–H Makemake RA 58.88934 = 530/9
             <- cross     cross H Makemake–J Jupiter RA 148.66661 = 1338/9
-   MIRROR   cross H Ketu–J Jupiter RA 27.55595 = 248/9
+   DERIVED  cross H Ketu–J Jupiter RA 27.55595 = 248/9
             <- axis      node axis (H)
             <- natal     H H Rahu–H Makemake RA 58.88934 = 530/9
             <- cross     cross H Makemake–J Jupiter RA 148.66661 = 1338/9
@@ -92,7 +89,6 @@
             <- strike    sky Jupiter -> J Rahu RA 164.00287 = 164
             <- axis      node axis (J)
 -- roots among number items (Dec/RA)
-   S Mars Equator 13.99942 = 14
    H Vesta Equator 17.11048 = 154/9
    H H Saturn–H Haumea Dec 38.99909 = 39
    H H Ceres–H Transpluto Dec 21.00115 = 21
@@ -112,12 +108,6 @@
    cross H Rahu–J Venus Dec 29.00370 = 29
    H Rahu moved Dec 3.99108 = 4
    H Ketu moved Dec 3.99108 = 4
-   sky Mercury–Ketu Dec 6.55557 = 59/9
-   sky Saturn–Chiron Dec 24.77804 = 223/9
-   sky Uranus–Transpluto Dec 4.77813 = 43/9
-   sky Mercury–Pluto Dec 8.99959 = 9
-   sky Juno–Rahu Dec 34.00101 = 34
-   sky Ceres–Eris Dec 17.99803 = 18
    sky Makemake -> H Juno Dec 30.11112 = 271/9
    sky Sun -> J Transpluto Dec 31.22229 = 281/9
    sky Pallas -> J Jupiter Dec 3.66676 = 33/9
@@ -147,10 +137,6 @@
    cross H Mercury–J Uranus RA 29.00139 = 29
    cross H Neptune–J Venus RA 20.00149 = 20
    J Gonggong moved RA 4.22136 = 38/9
-   sky Juno–Sedna RA 149.99976 = 150
-   sky Saturn–Uranus RA 89.77809 = 808/9
-   sky Neptune–Orcus RA 165.99709 = 166
-   sky Pallas–Makemake RA 143.00488 = 143
    sky Jupiter -> J Juno RA 148.11107 = 1333/9
    sky Rahu -> H Mars RA 163.11107 = 1468/9
    sky Eris -> J Rahu RA 135.66659 = 1221/9

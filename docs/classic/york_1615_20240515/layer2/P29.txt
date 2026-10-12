@@ -1,5 +1,5 @@
-== 15 Ribble Radiant / 15 Duran Fentiman   [york_1615_20240515__P29.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 48; hj_ratios root 30; links derived 6, mirror 1, root 90; movement root 4; pair_family root 121; pair_sets root 1; points mirror 1, root 5; ratios root 29; same_body root 5; shared root 2; sky race_level 9, root 13; sky_close race_level 5; strikes derived 12, duplicate 3, mirror 1, root 62
+== 15 Ribble Radiant / 15 Duran Fentiman   [york_1615_20240515__P29.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 48; hj_ratios root 30; links derived 6, mirror 1, root 92; movement root 4; node root 1; pair_family root 121; pair_sets root 1; points mirror 1, race_level 2, root 3; ratios root 29; same_body root 5; shared root 2; sky race_level 22; sky_close race_level 5; strikes derived 12, duplicate 3, mirror 1, root 62
 -- Dec groups (3+ points joined by numbers)
    H Jupiter, H Mars, H Orcus, J Transpluto, J Venus, S Chiron, S Pallas, S Sedna
    EQ, H Uranus, J Juno, J Ketu, J Rahu, S Quaoar, S Sun
@@ -86,10 +86,8 @@
             <- skynum    sky Sedna–Haumea RA 158.00470 = 158
             <- strike    sky Sedna -> H Neptune RA 67.99773 = 68
 -- roots among number items (Dec/RA)
-   S Sun Equator 18.99694 = 19
    J Juno Equator 5.99447 = 6
    J Rahu Equator 8.99286 = 9
-   S Quaoar Equator 14.99235 = 15
    H Uranus Equator 13.99062 = 14
    H H Venus–H Sedna Dec 4.99999 = 5
    H H Mercury–H Vesta Dec 24.00283 = 24
@@ -102,13 +100,6 @@
    cross H Orcus–J Transpluto Dec 26.00101 = 26
    cross H Makemake–J Jupiter Dec 27.99855 = 28
    cross H Pallas–J Neptune Dec 26.00343 = 26
-   sky Mercury–Haumea Dec 7.00035 = 7
-   sky Mars–Ketu Dec 9.00040 = 9
-   sky Venus–Rahu Dec 11.11069 = 100/9
-   sky Vesta–Eris Dec 25.00094 = 25
-   sky Pallas–Sedna Dec 16.99898 = 17
-   sky Uranus–Pluto Dec 41.00342 = 41
-   sky Juno–Orcus Dec 23.00446 = 23
    sky Mercury -> J Neptune Dec 30.66669 = 276/9
    sky Venus -> J Pluto Dec 14.55553 = 131/9
    sky Orcus -> H Pluto Dec 9.88899 = 89/9
@@ -136,12 +127,6 @@
    cross H Saturn–J Orcus RA 173.00361 = 173
    cross H Saturn–J Venus RA 131.00409 = 131
    cross H Vesta–J Pluto RA 54.00464 = 54
-   sky Uranus–Neptune RA 50.99989 = 51
-   sky Chiron–Sedna RA 41.11080 = 370/9
-   sky Gonggong–Orcus RA 179.55595 = 1616/9
-   sky Uranus–Eris RA 23.66710 = 213/9
-   sky Pluto–Quaoar RA 25.00140 = 25
-   sky Sedna–Haumea RA 158.00470 = 158
    sky Mercury -> H Uranus RA 7.77765 = 70/9
    sky Pallas -> J Uranus RA 10.00022 = 10
    sky Rahu -> J Transpluto RA 129.55527 = 1166/9

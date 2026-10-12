@@ -1,5 +1,5 @@
-== 3 Master Tommytucker / 3 Harry Cobden   [lingfield_1500_20220123__P05.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 34; eq_ratios root 1; hj_ratios root 16; links derived 4, root 99; movement derived 1, root 12; pair_family from_numbers 1, root 145; points root 6; ratios root 21; same_body root 5; shared root 4; sky derived 2, race_level 16, root 7; sky_close race_level 9; splits from_numbers 2, root 135; strikes derived 15, duplicate 5, mirror 4, root 64
+== 3 Master Tommytucker / 3 Harry Cobden   [lingfield_1500_20220123__P05.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 34; eq_ratios root 1; hj_ratios root 16; links derived 4, root 101; movement derived 1, root 12; node root 1; pair_family from_numbers 1, root 145; points race_level 3, root 3; ratios root 21; same_body root 5; shared root 4; sky race_level 25; sky_close race_level 9; splits from_numbers 2, root 135; strikes derived 17, duplicate 5, mirror 2, root 64
 -- Dec groups (3+ points joined by numbers)
    H Pluto, H Rahu, H Sedna, H Sun, J Jupiter, J Orcus, J Transpluto, J Uranus, J Vesta, S Neptune, S Sedna, S Sun
    EQ, H Gonggong, H Venus, J Ceres, J Eris, J Sedna, S Ceres, S Eris, S Venus
@@ -26,12 +26,6 @@
    DERIVED  J Ceres moved Dec 2.00084 = 2
             <- equator   S Ceres Equator 19.00491 = 19
             <- equator   J Ceres Equator 17.00407 = 17
-   DERIVED  sky Venus–Eris Dec 14.77751 = 133/9
-            <- equator   S Venus Equator 16.22121 = 146/9
-            <- equator   S Eris Equator 1.44371 = 13/9
-   DERIVED  sky Rahu–Orcus Dec 32.11161 = 289/9
-            <- skynum    sky Rahu–Gonggong Dec 31.33376 = 282/9
-            <- skynum    sky Gonggong–Orcus Dec 0.77785 = 7/9
    DERIVED  sky Uranus -> H Jupiter Dec 10.88881 = 98/9
             <- skynum    sky Mercury–Uranus Dec 30.88878 = 278/9
             <- strike    sky Mercury -> H Jupiter Dec 19.99996 = 20
@@ -85,7 +79,7 @@
             <- strike    sky Rahu -> H Eris RA 32.00027 = 32
             <- natal     H H Jupiter–H Eris RA 13.33353 = 120/9
             <- natal     H H Jupiter–H Vesta RA 75.99915 = 76
-   MIRROR   sky Ketu -> H Vesta RA 58.66706 = 528/9
+   DERIVED  sky Ketu -> H Vesta RA 58.66706 = 528/9
             <- axis      node axis (S)
             <- strike    sky Rahu -> H Eris RA 32.00027 = 32
             <- natal     H H Jupiter–H Eris RA 13.33353 = 120/9
@@ -93,7 +87,7 @@
    DERIVED  sky Rahu -> H Jupiter RA 45.33379 = 408/9
             <- strike    sky Rahu -> H Eris RA 32.00027 = 32
             <- natal     H H Jupiter–H Eris RA 13.33353 = 120/9
-   MIRROR   sky Ketu -> H Jupiter RA 134.66621 = 1212/9
+   DERIVED  sky Ketu -> H Jupiter RA 134.66621 = 1212/9
             <- axis      node axis (S)
             <- strike    sky Rahu -> H Eris RA 32.00027 = 32
             <- natal     H H Jupiter–H Eris RA 13.33353 = 120/9
@@ -107,10 +101,7 @@
             <- strike    sky Eris -> H Juno RA 144.99883 = 145
             <- cross     cross H Juno–J Jupiter RA 178.99714 = 179
 -- roots among number items (Dec/RA)
-   S Eris Equator 1.44371 = 13/9
-   S Venus Equator 16.22121 = 146/9
    J Ceres Equator 17.00407 = 17
-   S Ceres Equator 19.00491 = 19
    H Gonggong Equator 14.00700 = 14
    J Sedna Equator 5.00902 = 5
    J J Sun–J Neptune Dec 4.22244 = 38/9
@@ -134,12 +125,6 @@
    cross H Pallas–J Pluto Dec 19.00403 = 19
    H Sun moved Dec 18.77675 = 169/9
    J Eris moved Dec 5.99374 = 6
-   sky Gonggong–Orcus Dec 0.77785 = 7/9
-   sky Mercury–Uranus Dec 30.88878 = 278/9
-   sky Mars–Quaoar Dec 8.33301 = 75/9
-   sky Rahu–Gonggong Dec 31.33376 = 282/9
-   sky Juno–Haumea Dec 27.99805 = 28
-   sky Juno–Ketu Dec 6.99594 = 7
    sky Mercury -> H Jupiter Dec 19.99996 = 20
    sky Makemake -> H Chiron Dec 27.66671 = 249/9
    sky Sedna -> J Orcus Dec 8.88900 = 80/9
@@ -173,7 +158,6 @@
    H Pallas moved RA 57.99519 = 58
    H Transpluto moved RA 4.00753 = 4
    J Orcus moved RA 19.00839 = 19
-   sky Pluto–Vesta RA 22.00150 = 22
    sky Uranus -> H Rahu RA 130.55553 = 1175/9
    sky Haumea -> H Quaoar RA 45.00011 = 45
    sky Vesta -> H Uranus RA 83.77792 = 754/9

@@ -1,5 +1,5 @@
-== 1 Captain Guinness / 1 Rachael Blackmore   [sandown_1425_20211204__P01.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 33; eq_ratios root 3; hj_ratios root 21; links derived 5, mirror 3, root 113; movement root 6; pair_family root 142; points mirror 1, root 3; ratios root 20; same_body root 1; shared root 4; sky derived 1, mirror 1, race_level 11, root 10; sky_close race_level 11; splits root 40; strikes derived 4, duplicate 1, mirror 3, root 63
+== 1 Captain Guinness / 1 Rachael Blackmore   [sandown_1425_20211204__P01.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 33; eq_ratios root 3; hj_ratios root 21; links derived 5, mirror 3, root 117; movement root 6; node root 1; pair_family root 142; points race_level 3, root 1; ratios root 20; same_body root 1; shared root 4; sky race_level 23; sky_close race_level 11; splits root 40; strikes derived 4, duplicate 1, mirror 3, root 63
 -- Dec groups (3+ points joined by numbers)
    EQ, H Juno, H Mars, H Vesta, J Eris, J Haumea, J Saturn, S Ketu, S Makemake, S Orcus, S Pallas, S Rahu
    H Eris, H Rahu, H Saturn, J Jupiter, J Venus, S Jupiter, S Neptune, S Sedna
@@ -31,9 +31,6 @@
             <- cross     cross H Chiron–J Quaoar Dec 12.88887 = 116/9
             <- natal     J J Sun–J Quaoar Dec 34.99597 = 35
             <- natal     J J Sun–J Neptune Dec 44.11140 = 397/9
-   DERIVED  sky Jupiter–Neptune Dec 8.99764 = 9
-            <- skynum    sky Jupiter–Sedna Dec 21.99887 = 22
-            <- skynum    sky Neptune–Sedna Dec 13.00124 = 13
    DERIVED  sky Eris -> H Quaoar Dec 13.99715 = 14
             <- skynum    sky Mars–Eris Dec 16.99682 = 17
             <- strike    sky Mars -> H Quaoar Dec 2.99966 = 3
@@ -49,9 +46,6 @@
    MIRROR   cross H Ketu–J Eris RA 13.88840 = 125/9
             <- axis      node axis (H)
             <- cross     cross H Rahu–J Eris RA 166.11160 = 1495/9
-   MIRROR   sky Sun–Ketu RA 11.55546 = 104/9
-            <- skynum    sky Sun–Rahu RA 168.44454 = 1516/9
-            <- axis      node axis (S)
    MIRROR   sky Mercury -> H Ketu RA 115.00023 = 115
             <- strike    sky Mercury -> H Rahu RA 64.99977 = 65
             <- axis      node axis (H)
@@ -71,8 +65,6 @@
             <- axis      node axis (S)
             <- strike    sky Rahu -> J Makemake RA 107.99602 = 108
 -- roots among number items (Dec/RA)
-   S Rahu Equator 20.44548 = 184/9
-   S Orcus Equator 11.99500 = 12
    H Mars Equator 15.99088 = 16
    H H Sun–H Venus Dec 12.55556 = 113/9
    J J Sun–J Neptune Dec 44.11140 = 397/9
@@ -94,10 +86,6 @@
    J Transpluto moved Dec 4.11058 = 37/9
    J Mercury moved Dec 47.55472 = 428/9
    J Jupiter moved Dec 36.99206 = 37
-   sky Jupiter–Sedna Dec 21.99887 = 22
-   sky Neptune–Sedna Dec 13.00124 = 13
-   sky Mars–Eris Dec 16.99682 = 17
-   sky Venus–Uranus Dec 39.00392 = 39
    sky Neptune -> J Venus Dec 22.88901 = 206/9
    sky Ceres -> H Orcus Dec 25.22189 = 227/9
    sky Mars -> H Quaoar Dec 2.99966 = 3
@@ -129,12 +117,6 @@
    cross H Transpluto–J Uranus RA 120.99826 = 121
    cross H Sedna–J Haumea RA 131.00232 = 131
    H Sun moved RA 135.99251 = 136
-   sky Sun–Rahu RA 168.44454 = 1516/9
-   sky Mars–Transpluto RA 75.99956 = 76
-   sky Venus–Saturn RA 17.22269 = 155/9
-   sky Pluto–Orcus RA 139.55507 = 1256/9
-   sky Ceres–Juno RA 145.00179 = 145
-   sky Jupiter–Pallas RA 15.99621 = 16
    sky Mercury -> H Rahu RA 64.99977 = 65
    sky Juno -> H Pluto RA 9.55589 = 86/9
    sky Mars -> H Venus RA 164.33371 = 1479/9

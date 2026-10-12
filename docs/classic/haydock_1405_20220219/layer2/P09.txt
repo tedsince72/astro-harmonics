@@ -1,5 +1,5 @@
-== 5 Wholestone / 5 Sam Twiston-Davies   [haydock_1405_20220219__P09.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 41; eq_ratios root 6; hj_ratios root 28; links derived 5, mirror 2, root 120; movement root 14; pair_family root 135; points root 2; ratios root 21; same_body root 3; shared root 11; sky derived 1, mirror 1, race_level 5, root 10; sky_close race_level 13; splits from_numbers 3, root 102; strikes derived 14, duplicate 6, mirror 1, root 61
+== 5 Wholestone / 5 Sam Twiston-Davies   [haydock_1405_20220219__P09.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 41; eq_ratios root 6; hj_ratios root 28; links derived 5, mirror 2, root 120; movement root 14; node root 1; pair_family root 135; points root 2; ratios root 21; same_body root 3; shared root 11; sky race_level 17; sky_close race_level 13; splits from_numbers 3, root 102; strikes derived 14, duplicate 6, mirror 1, root 61
 -- Dec groups (3+ points joined by numbers)
    H Eris, H Gonggong, J Makemake, J Pallas, J Pluto, J Rahu, S Ceres, S Chiron, S Ketu, S Pluto, S Sun
    EQ, H Chiron, H Haumea, J Mars, J Venus, S Haumea, S Saturn
@@ -36,9 +36,6 @@
    DERIVED  cross H Saturn–J Ketu Dec 25.99584 = 26
             <- natal     H H Saturn–H Pluto Dec 16.00362 = 16
             <- cross     cross H Pluto–J Ketu Dec 41.99947 = 42
-   DERIVED  sky Mercury–Neptune Dec 14.99907 = 15
-            <- skynum    sky Mercury–Quaoar Dec 3.88841 = 35/9
-            <- skynum    sky Neptune–Quaoar Dec 11.11067 = 100/9
    DERIVED  sky Saturn -> H Haumea Dec 35.44424 = 319/9
             <- strike    sky Saturn -> J Venus Dec 3.33338 = 30/9
             <- cross     cross H Haumea–J Venus Dec 38.77761 = 349/9
@@ -70,9 +67,6 @@
    DERIVED  J J Saturn–J Juno RA 142.88934 = 1286/9
             <- natal     J J Saturn–J Rahu RA 51.99960 = 52
             <- natal     J J Juno–J Rahu RA 165.11106 = 1486/9
-   MIRROR   sky Uranus–Ketu RA 164.88845 = 1484/9
-            <- skynum    sky Uranus–Rahu RA 15.11155 = 136/9
-            <- axis      node axis (S)
    DERIVED  sky Chiron -> H Orcus RA 138.33342 = 1245/9
             <- movement  H Chiron moved RA 34.66760 = 312/9
             <- natal     H H Chiron–H Orcus RA 173.00102 = 173
@@ -123,9 +117,6 @@
    cross H Ceres–J Transpluto Dec 29.99620 = 30
    H Haumea moved Dec 3.66740 = 33/9
    J Pluto moved Dec 17.99602 = 18
-   sky Neptune–Quaoar Dec 11.11067 = 100/9
-   sky Mercury–Quaoar Dec 3.88841 = 35/9
-   sky Chiron–Ketu Dec 24.99942 = 25
    sky Saturn -> J Venus Dec 3.33338 = 30/9
    sky Sun -> J Makemake Dec 45.33328 = 408/9
    sky Pallas -> J Sedna Dec 13.00006 = 13
@@ -164,13 +155,6 @@
    H Vesta moved RA 12.99770 = 13
    H Sun moved RA 45.00519 = 45
    J Mars moved RA 177.99112 = 178
-   sky Haumea–Transpluto RA 62.77737 = 565/9
-   sky Uranus–Rahu RA 15.11155 = 136/9
-   sky Sun–Uranus RA 65.99831 = 66
-   sky Mercury–Quaoar RA 29.99780 = 30
-   sky Saturn–Juno RA 13.00391 = 13
-   sky Pallas–Haumea RA 148.00441 = 148
-   sky Uranus–Pluto RA 99.00448 = 99
    sky Sedna -> H Mars RA 52.88887 = 476/9
    sky Saturn -> J Pluto RA 87.11108 = 784/9
    sky Orcus -> H Neptune RA 175.55561 = 1580/9

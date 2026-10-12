@@ -1,5 +1,5 @@
-== 3 Peak Time / 3 Conor O'Farrell   [newcastle_1540_20220311__P05.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 41; eq_ratios root 6; hj_ratios root 22; links derived 6, root 100; movement root 5; pair_family root 145; pair_sets root 1; points root 3; ratios root 23; same_body root 4; shared root 8; sky derived 1, race_level 5, root 8; sky_close race_level 10; splits from_numbers 2, root 79; strikes derived 10, duplicate 2, mirror 2, root 62
+== 3 Peak Time / 3 Conor O'Farrell   [newcastle_1540_20220311__P05.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 41; eq_ratios root 6; hj_ratios root 22; links derived 6, root 101; movement root 5; node root 1; pair_family root 145; pair_sets root 1; points race_level 1, root 2; ratios root 23; same_body root 4; shared root 8; sky race_level 14; sky_close race_level 10; splits from_numbers 2, root 79; strikes derived 10, duplicate 2, mirror 2, root 62
 -- Dec groups (3+ points joined by numbers)
    H Gonggong, J Jupiter, J Venus, S Chiron, S Haumea, S Ketu, S Pallas, S Quaoar, S Sun, S Transpluto
    H Ceres, H Pluto, J Ceres, J Uranus, S Ceres, S Eris, S Juno, S Mercury, S Vesta
@@ -26,9 +26,6 @@
    DERIVED  cross H Sedna–J Pallas Dec 3.99502 = 4
             <- natal     H H Vesta–H Sedna Dec 17.00207 = 17
             <- cross     cross H Vesta–J Pallas Dec 20.99709 = 21
-   DERIVED  sky Chiron–Ketu Dec 25.00389 = 25
-            <- skynum    sky Chiron–Pallas Dec 13.00311 = 13
-            <- skynum    sky Pallas–Ketu Dec 12.00078 = 12
    DERIVED  sky Vesta -> H Ceres Dec 48.44425 = 436/9
             <- skynum    sky Juno–Vesta Dec 10.55549 = 95/9
             <- strike    sky Juno -> H Ceres Dec 37.88876 = 341/9
@@ -79,7 +76,6 @@
 -- roots among number items (Dec/RA)
    H Chiron Equator 2.00053 = 2
    J Saturn Equator 22.55635 = 203/9
-   S Neptune Equator 4.00560 = 4
    J J Ketu–J Orcus Dec 8.33346 = 75/9
    H H Neptune–H Eris Dec 7.00042 = 7
    J J Eris–J Makemake Dec 44.99949 = 45
@@ -93,12 +89,6 @@
    J Gonggong moved Dec 9.11002 = 82/9
    J Ceres moved Dec 4.00271 = 4
    H Ceres moved Dec 6.00891 = 6
-   sky Juno–Vesta Dec 10.55549 = 95/9
-   sky Sun–Quaoar Dec 11.66697 = 105/9
-   sky Pallas–Ketu Dec 12.00078 = 12
-   sky Haumea–Transpluto Dec 5.00093 = 5
-   sky Chiron–Pallas Dec 13.00311 = 13
-   sky Ceres–Eris Dec 23.99569 = 24
    sky Ketu -> J Venus Dec 30.22221 = 272/9
    sky Mars -> H Quaoar Dec 4.77774 = 43/9
    sky Pluto -> J Transpluto Dec 36.77773 = 331/9
@@ -134,8 +124,6 @@
    cross H Mars–J Orcus RA 90.99879 = 91
    cross H Jupiter–J Quaoar RA 155.00436 = 155
    cross H Juno–J Pallas RA 62.99547 = 63
-   sky Mercury–Pluto RA 34.77762 = 313/9
-   sky Saturn–Haumea RA 105.00074 = 105
    sky Orcus -> H Mars RA 118.44448 = 1066/9
    sky Makemake -> J Quaoar RA 33.11107 = 298/9
    sky Sun -> H Mercury RA 42.11127 = 379/9

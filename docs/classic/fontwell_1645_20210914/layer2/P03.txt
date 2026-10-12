@@ -1,5 +1,5 @@
-== 2 Spike Jones / 2 Alain Cawley   [20210914_fontwell_1645__P03.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 40; eq_ratios root 3; hj_ratios root 15; links derived 7, mirror 2, root 106; movement derived 1, root 6; pair_family root 134; ratios root 17; same_body root 2; shared root 11; sky race_level 9, root 7; sky_close race_level 8; splits from_numbers 1, root 58; strikes derived 12, duplicate 4, mirror 3, root 79
+== 2 Spike Jones / 2 Alain Cawley   [20210914_fontwell_1645__P03.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 40; eq_ratios root 3; hj_ratios root 15; links derived 7, mirror 2, root 107; movement derived 1, root 6; node root 1; pair_family root 134; ratios root 17; same_body root 2; shared root 11; sky race_level 16; sky_close race_level 8; splits from_numbers 1, root 58; strikes derived 14, duplicate 4, mirror 1, root 79
 -- Dec groups (3+ points joined by numbers)
    H Chiron, H Eris, H Makemake, J Rahu, J Sun, J Vesta, S Jupiter, S Mars, S Orcus, S Quaoar
    H Sedna, H Venus, J Ketu, J Quaoar, S Pallas
@@ -66,16 +66,16 @@
    DERIVED  H Orcus moved RA 5.00338 = 5
             <- movement  J Orcus moved RA 28.00227 = 28
             <- cross     cross H Orcus–J Orcus RA 22.99890 = 23
-   MIRROR   sky Ketu -> J Mercury RA 25.44429 = 229/9
-            <- axis      node axis (S)
-            <- strike    sky Rahu -> J Mercury RA 154.55571 = 1391/9
    DERIVED  sky Quaoar -> J Chiron RA 175.00015 = 175
             <- strike    sky Quaoar -> J Orcus RA 145.22224 = 1307/9
             <- natal     J J Chiron–J Orcus RA 39.77760 = 358/9
+   MIRROR   sky Ketu -> J Mercury RA 25.44429 = 229/9
+            <- axis      node axis (S)
+            <- strike    sky Rahu -> J Mercury RA 154.55571 = 1391/9
    DERIVED  sky Pluto -> H Rahu RA 142.66632 = 1284/9
             <- strike    sky Pluto -> H Neptune RA 48.33350 = 435/9
             <- natal     H H Neptune–H Rahu RA 169.00017 = 169
-   MIRROR   sky Pluto -> H Ketu RA 37.33368 = 336/9
+   DERIVED  sky Pluto -> H Ketu RA 37.33368 = 336/9
             <- strike    sky Pluto -> H Neptune RA 48.33350 = 435/9
             <- natal     H H Neptune–H Rahu RA 169.00017 = 169
             <- axis      node axis (H)
@@ -97,7 +97,7 @@
             <- strike    sky Pluto -> J Quaoar RA 65.77813 = 592/9
             <- strike    sky Pluto -> H Neptune RA 48.33350 = 435/9
             <- natal     H H Neptune–H Rahu RA 169.00017 = 169
-   MIRROR   sky Pallas -> H Ketu RA 13.00325 = 13
+   DERIVED  sky Pallas -> H Ketu RA 13.00325 = 13
             <- strike    sky Pallas -> H Orcus RA 164.88918 = 1484/9
             <- cross     cross H Orcus–J Orcus RA 22.99890 = 23
             <- natal     J J Ceres–J Orcus RA 146.99725 = 147
@@ -133,9 +133,6 @@
    cross H Haumea–J Juno Dec 29.99901 = 30
    cross H Pluto–J Orcus Dec 26.00264 = 26
    cross H Eris–J Sun Dec 9.00269 = 9
-   sky Sedna–Transpluto Dec 2.22203 = 20/9
-   sky Ceres–Eris Dec 16.99623 = 17
-   sky Venus–Vesta Dec 7.99585 = 8
    sky Jupiter -> J Sun Dec 3.33341 = 30/9
    sky Pallas -> H Sedna Dec 8.66659 = 78/9
    sky Mercury -> J Pluto Dec 9.88867 = 89/9
@@ -166,10 +163,6 @@
    cross H Mars–J Uranus RA 148.99866 = 149
    J Juno moved RA 72.33234 = 651/9
    J Orcus moved RA 28.00227 = 28
-   sky Saturn–Eris RA 76.88891 = 692/9
-   sky Uranus–Chiron RA 32.55524 = 293/9
-   sky Quaoar–Transpluto RA 118.99678 = 119
-   sky Chiron–Sedna RA 50.00323 = 50
    sky Quaoar -> J Orcus RA 145.22224 = 1307/9
    sky Neptune -> H Saturn RA 85.33325 = 768/9
    sky Mars -> H Juno RA 106.22211 = 956/9

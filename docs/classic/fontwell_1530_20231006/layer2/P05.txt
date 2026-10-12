@@ -1,5 +1,5 @@
-== 3 Kilcummin / 3 David Noonan   [fontwell_1530_20231006__P05.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 46; eq_ratios root 3; hj_ratios root 18; links mirror 2, root 103; movement root 9; pair_family root 153; points root 2; ratios from_numbers 1, root 14; same_body root 3; shared root 5; sky derived 1, mirror 1, race_level 12, root 7; sky_close race_level 8; splits root 38; strikes derived 10, duplicate 2, root 64
+== 3 Kilcummin / 3 David Noonan   [fontwell_1530_20231006__P05.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 46; eq_ratios root 3; hj_ratios root 18; links mirror 2, root 105; movement root 9; node root 1; pair_family root 153; points race_level 1, root 1; ratios from_numbers 1, root 14; same_body root 3; shared root 5; sky race_level 21; sky_close race_level 8; splits root 38; strikes derived 10, duplicate 2, root 64
 -- Dec groups (3+ points joined by numbers)
    EQ, H Ketu, H Sedna, H Transpluto, J Neptune, S Haumea, S Ketu, S Makemake, S Pluto, S Quaoar, S Sedna, S Uranus, S Venus
    H Jupiter, H Makemake, H Mercury, H Sun, J Gonggong, J Haumea, J Jupiter, J Makemake, S Chiron, S Gonggong
@@ -17,9 +17,6 @@
    H Ketu, H Rahu, J Chiron
    J Gonggong, J Sedna, S Eris
 -- derived items (with chain)
-   DERIVED  sky Venus–Quaoar Dec 25.55587 = 230/9
-            <- skynum    sky Venus–Ketu Dec 19.77807 = 178/9
-            <- skynum    sky Ketu–Quaoar Dec 5.77780 = 52/9
    DERIVED  sky Makemake -> H Ketu Dec 44.44466 = 400/9
             <- strike    sky Makemake -> H Transpluto Dec 10.55569 = 95/9
             <- natal     H H Ketu–H Transpluto Dec 33.88897 = 305/9
@@ -45,9 +42,6 @@
    MIRROR   cross H Ketu–J Chiron RA 96.00194 = 96
             <- axis      node axis (H)
             <- cross     cross H Rahu–J Chiron RA 83.99806 = 84
-   MIRROR   sky Uranus–Ketu RA 152.99778 = 153
-            <- skynum    sky Uranus–Rahu RA 27.00222 = 27
-            <- axis      node axis (S)
    DERIVED  sky Orcus -> J Venus RA 42.77732 = 385/9
             <- strike    sky Orcus -> J Makemake RA 16.66640 = 150/9
             <- natal     J J Venus–J Makemake RA 26.11092 = 235/9
@@ -67,7 +61,6 @@
             <- cross     cross H Quaoar–J Ceres RA 78.55595 = 707/9
 -- roots among number items (Dec/RA)
    H Sedna Equator 7.77672 = 70/9
-   S Uranus Equator 17.99454 = 18
    H H Ketu–H Transpluto Dec 33.88897 = 305/9
    H H Mercury–H Jupiter Dec 13.11136 = 118/9
    J J Rahu–J Sedna Dec 14.99837 = 15
@@ -88,12 +81,6 @@
    cross H Venus–J Ketu Dec 11.00356 = 11
    J Gonggong moved Dec 7.66653 = 69/9
    H Vesta moved Dec 6.33431 = 57/9
-   sky Ketu–Quaoar Dec 5.77780 = 52/9
-   sky Pluto–Haumea Dec 37.88896 = 341/9
-   sky Venus–Ketu Dec 19.77807 = 178/9
-   sky Pallas–Eris Dec 4.00140 = 4
-   sky Ketu–Sedna Dec 17.99629 = 18
-   sky Pluto–Quaoar Dec 8.00477 = 8
    sky Mercury -> J Ketu Dec 9.55552 = 86/9
    sky Makemake -> H Transpluto Dec 10.55569 = 95/9
    sky Chiron -> J Makemake Dec 24.77793 = 223/9
@@ -125,7 +112,6 @@
    cross H Uranus–J Saturn RA 39.00320 = 39
    cross H Ceres–J Quaoar RA 65.99660 = 66
    J Jupiter moved RA 152.00833 = 152
-   sky Uranus–Rahu RA 27.00222 = 27
    sky Makemake -> J Haumea RA 6.88902 = 62/9
    sky Orcus -> J Makemake RA 16.66640 = 150/9
    sky Vesta -> H Pallas RA 178.33363 = 1605/9

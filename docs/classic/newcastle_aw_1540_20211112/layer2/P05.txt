@@ -1,5 +1,5 @@
-== 3 Heart Throb / 3 Graham Lee   [newcastle_aw_1540_20211112__P05.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 36; eq_ratios root 4; hj_ratios root 19; links derived 4, mirror 2, root 106; movement root 5; pair_family root 122; pair_sets root 1; points root 1; ratios root 18; same_body root 4; shared root 3; sky derived 1, race_level 5, root 10; sky_close race_level 10; splits from_numbers 4, root 63; strikes derived 9, duplicate 2, mirror 1, root 78
+== 3 Heart Throb / 3 Graham Lee   [newcastle_aw_1540_20211112__P05.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 36; eq_ratios root 4; hj_ratios root 19; links derived 4, mirror 2, root 107; movement root 5; node root 1; pair_family root 122; pair_sets root 1; points race_level 1; ratios root 18; same_body root 4; shared root 3; sky race_level 16; sky_close race_level 10; splits from_numbers 4, root 63; strikes derived 9, duplicate 2, mirror 1, root 78
 -- Dec groups (3+ points joined by numbers)
    H Juno, H Makemake, H Mercury, H Pluto, H Venus, H Vesta, J Ceres, J Pluto, J Venus, S Ceres, S Eris, S Neptune
    H Saturn, H Sedna, J Eris, J Rahu, S Gonggong, S Pallas
@@ -27,9 +27,6 @@
    DERIVED  cross H Sedna–J Rahu Dec 25.99701 = 26
             <- cross     cross H Sedna–J Eris Dec 20.99761 = 21
             <- natal     J J Rahu–J Eris Dec 4.99940 = 5
-   DERIVED  sky Pluto–Ketu Dec 2.44402 = 22/9
-            <- skynum    sky Mercury–Pluto Dec 8.99959 = 9
-            <- skynum    sky Mercury–Ketu Dec 6.55557 = 59/9
    DERIVED  sky Eris -> J Venus Dec 11.44416 = 103/9
             <- strike    sky Eris -> J Pluto Dec 12.22236 = 110/9
             <- natal     J J Venus–J Pluto Dec 23.66652 = 213/9
@@ -73,7 +70,6 @@
             <- movement  J Sun moved RA 35.99455 = 36
             <- natal     J J Sun–J Saturn RA 138.99652 = 139
 -- roots among number items (Dec/RA)
-   S Mars Equator 13.99942 = 14
    J J Venus–J Pluto Dec 23.66652 = 213/9
    H H Pluto–H Makemake Dec 46.44414 = 418/9
    J J Jupiter–J Uranus Dec 17.77827 = 160/9
@@ -92,12 +88,6 @@
    cross H Mercury–J Pluto Dec 9.99695 = 10
    cross H Pallas–J Quaoar Dec 6.00491 = 6
    J Quaoar moved Dec 4.77784 = 43/9
-   sky Mercury–Ketu Dec 6.55557 = 59/9
-   sky Saturn–Chiron Dec 24.77804 = 223/9
-   sky Uranus–Transpluto Dec 4.77813 = 43/9
-   sky Mercury–Pluto Dec 8.99959 = 9
-   sky Juno–Rahu Dec 34.00101 = 34
-   sky Ceres–Eris Dec 17.99803 = 18
    sky Saturn -> H Jupiter Dec 2.55550 = 23/9
    sky Eris -> J Pluto Dec 12.22236 = 110/9
    sky Orcus -> H Rahu Dec 29.22251 = 263/9
@@ -135,10 +125,6 @@
    H Sedna moved RA 2.55487 = 23/9
    J Sun moved RA 35.99455 = 36
    J Quaoar moved RA 56.99331 = 57
-   sky Juno–Sedna RA 149.99976 = 150
-   sky Saturn–Uranus RA 89.77809 = 808/9
-   sky Neptune–Orcus RA 165.99709 = 166
-   sky Pallas–Makemake RA 143.00488 = 143
    sky Rahu -> H Orcus RA 92.99991 = 93
    sky Jupiter -> H Pluto RA 33.11123 = 298/9
    sky Eris -> H Juno RA 30.77757 = 277/9

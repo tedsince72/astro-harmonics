@@ -1,5 +1,5 @@
-== 6 Secret Satire / 6 Oisin Murphy   [york_1545_20240515__P11.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 36; eq_ratios root 4; hj_ratios root 11; links derived 5, mirror 1, root 107; movement root 8; pair_family root 131; points root 3; ratios root 24; shared root 9; sky derived 1, race_level 8, root 12; sky_close race_level 6; splits from_numbers 1, root 81; strikes derived 13, duplicate 4, mirror 1, root 72
+== 6 Secret Satire / 6 Oisin Murphy   [york_1545_20240515__P11.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 36; eq_ratios root 4; hj_ratios root 11; links derived 5, mirror 1, root 109; movement root 8; node root 1; pair_family root 131; points race_level 2, root 1; ratios root 24; shared root 9; sky race_level 21; sky_close race_level 6; splits from_numbers 1, root 81; strikes derived 13, duplicate 4, mirror 1, root 72
 -- Dec groups (3+ points joined by numbers)
    H Jupiter, H Makemake, H Quaoar, H Sun, H Uranus, J Saturn, J Uranus, S Ceres, S Juno, S Neptune, S Orcus
    EQ, H Haumea, H Sedna, J Eris, J Mercury, S Quaoar, S Sun, S Transpluto
@@ -50,9 +50,6 @@
    MIRROR   cross H Chiron–J Ketu RA 18.00404 = 18
             <- cross     cross H Chiron–J Rahu RA 161.99596 = 162
             <- axis      node axis (J)
-   DERIVED  sky Sun–Neptune RA 52.99705 = 53
-            <- skynum    sky Sun–Uranus RA 1.99792 = 2
-            <- skynum    sky Uranus–Neptune RA 50.99913 = 51
    DERIVED  sky Sedna -> H Chiron RA 52.77773 = 475/9
             <- skynum    sky Chiron–Sedna RA 41.11153 = 370/9
             <- movement  H Chiron moved RA 11.66619 = 105/9
@@ -91,8 +88,6 @@
             <- natal     J J Gonggong–J Quaoar RA 90.99843 = 91
 -- roots among number items (Dec/RA)
    H Haumea Equator 16.11039 = 145/9
-   S Quaoar Equator 14.99238 = 15
-   S Sun Equator 18.99213 = 19
    H H Jupiter–H Quaoar Dec 1.22225 = 11/9
    J J Sun–J Juno Dec 16.11117 = 145/9
    H H Saturn–H Vesta Dec 36.55574 = 329/9
@@ -110,10 +105,6 @@
    cross H Ceres–J Ceres Dec 5.99958 = 6
    cross H Quaoar–J Saturn Dec 10.00139 = 10
    cross H Gonggong–J Haumea Dec 33.00436 = 33
-   sky Vesta–Eris Dec 25.00158 = 25
-   sky Uranus–Pluto Dec 41.00303 = 41
-   sky Pallas–Sedna Dec 16.99663 = 17
-   sky Juno–Orcus Dec 23.00489 = 23
    sky Sedna -> H Mars Dec 15.88874 = 143/9
    sky Jupiter -> J Pallas Dec 18.11094 = 163/9
    sky Pluto -> H Juno Dec 14.55516 = 131/9
@@ -158,14 +149,6 @@
    H Pluto moved RA 6.00160 = 6
    J Sedna moved RA 15.00205 = 15
    J Pallas moved RA 92.00715 = 92
-   sky Venus–Transpluto RA 107.55582 = 968/9
-   sky Neptune–Eris RA 27.33307 = 246/9
-   sky Chiron–Sedna RA 41.11153 = 370/9
-   sky Vesta–Transpluto RA 48.22179 = 434/9
-   sky Gonggong–Orcus RA 179.55603 = 1616/9
-   sky Uranus–Neptune RA 50.99913 = 51
-   sky Pluto–Quaoar RA 25.00124 = 25
-   sky Sun–Uranus RA 1.99792 = 2
    sky Mars -> H Transpluto RA 143.33315 = 1290/9
    sky Ceres -> H Juno RA 29.66648 = 267/9
    sky Mercury -> H Eris RA 2.44463 = 22/9

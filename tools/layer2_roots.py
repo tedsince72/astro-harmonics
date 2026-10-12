@@ -14,7 +14,7 @@ Rule 4  a ratio whose values are themselves whole/ninth number items -> from_num
 Rule 5  sky numbers and close sky pairs are the same for every runner -> race_level (still used as chain links).
 Output: docs/classic/<RACE>/layer2/P*.json, P*.txt"""
 import sys, os, glob, json, re
-VERSION = 'L2 v1 (12 Oct 2026)'
+VERSION = 'L2 v1.1 (12 Oct 2026)'
 PRIO = {'axis': 0, 'equator': 1, 'natal': 2, 'cross': 3, 'movement': 4, 'skynum': 5, 'strike': 6}
 FULL = 3240  # 360 degrees in ninths
 
@@ -74,7 +74,7 @@ def run_runner(inv, skynums, skyclose):
 
     groups = {}
     for plane, E in edges.items():
-        E.sort(key=lambda e: (PRIO[e['kind']], e['off']))
+        E.sort(key=lambda e: (PRIO[e['kind']], e['off'], 'Ketu' in e['a'] or 'Ketu' in e['b']))   # Ketu after Rahu on ties (checker)
         dsu = DSU(); tree = {}   # adjacency of accepted root edges: node -> [(nbr, signed ninths, edge)]
         def signed(e, frm):
             to = e['b'] if frm == e['a'] else e['a']
@@ -108,7 +108,7 @@ def run_runner(inv, skynums, skyclose):
                 implied = abs(tot) if plane == 'Dec' else min(tot % FULL, FULL - tot % FULL)
                 if implied == e['n']:
                     chain = [{'id': c['id'], 'kind': c['kind'], 'a': c['a'], 'b': c['b'], 'num': c['num']} for c, _ in ch]
-                    t = 'mirror' if any(c['kind'] == 'axis' for c, _ in ch) else 'derived'
+                    t = 'mirror' if (len(ch) == 2 and any(c['kind'] == 'axis' for c, _ in ch)) else 'derived'   # mirror = axis + one Rahu item
                     tag(e['id'], t, plane=plane, chain=chain)
                 else:
                     tag(e['id'], 'root', plane=plane, flag='loop_mismatch', implied_ninths=implied, own_ninths=e['n'])
@@ -183,12 +183,16 @@ def run_runner(inv, skynums, skyclose):
                 ids = [f'links:{i}:{pl}' for pl in it['nums'] if pl in ('Dec', 'RA')]
                 for pl in it['nums']:
                     if pl not in ('Dec', 'RA'): tags.setdefault(f'links:{i}:{pl}', {'tag': 'root', 'plane': pl})
-                if not it['nums']: tags.setdefault(f'links:{i}', {'tag': 'root'})
+                if not it['nums'] or it['close'] or it.get('near'): tags.setdefault(f'links:{i}', {'tag': 'root', 'what': 'close/near'})
                 continue
             tags.setdefault(f'{sec}:{i}', {'tag': 'root'})
-    for i in range(len(skynums)): tags.setdefault(f'sky:{i}', {'tag': 'race_level'})
-    for i, t in list(tags.items()):
-        if i.startswith('sky:'): t['race_level'] = True
+    tags['node'] = {'tag': 'root'}
+    # Rule 5: sky numbers and sky Equator values are the same for every runner -> race_level (graph role kept for reference)
+    for i in range(len(skynums)):
+        g = tags.get(f'sky:{i}'); tags[f'sky:{i}'] = {'tag': 'race_level', **({'graph': g['tag'], **{k: v for k, v in g.items() if k != 'tag'}} if g else {})}
+    for i, p in enumerate(inv['points']):
+        if p['chart'] == 'S' and p['eq_num']:
+            g = tags.get(f'points:{i}'); tags[f'points:{i}'] = {'tag': 'race_level', **({'graph': g['tag'], **{k: v for k, v in g.items() if k != 'tag'}} if g else {})}
     for i in range(len(skyclose)): tags[f'sky_close:{i}'] = {'tag': 'race_level'}
     counts = {}
     for i, t in tags.items():

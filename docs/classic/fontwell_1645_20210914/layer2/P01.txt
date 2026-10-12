@@ -1,5 +1,5 @@
-== 1 Eye To The Sky / 1 Gavin Sheehan   [20210914_fontwell_1645__P01.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 28; eq_ratios root 3; hj_ratios root 16; links derived 4, mirror 2, root 98; movement root 8; pair_family root 142; pair_sets root 1; points root 1; ratios root 15; shared root 1; sky race_level 9, root 7; sky_close race_level 8; splits root 7; strikes derived 8, duplicate 4, mirror 3, root 84
+== 1 Eye To The Sky / 1 Gavin Sheehan   [20210914_fontwell_1645__P01.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 28; eq_ratios root 3; hj_ratios root 16; links derived 4, mirror 2, root 99; movement root 8; node root 1; pair_family root 142; pair_sets root 1; points root 1; ratios root 15; shared root 1; sky race_level 16; sky_close race_level 8; splits root 7; strikes derived 8, duplicate 4, mirror 3, root 84
 -- Dec groups (3+ points joined by numbers)
    EQ, H Gonggong, H Ketu, J Makemake, J Orcus, J Transpluto, S Venus, S Vesta
    H Eris, H Mercury, H Sedna, H Transpluto, J Gonggong
@@ -80,8 +80,8 @@
    H H Ketu–H Gonggong Dec 2.00064 = 2
    J J Orcus–J Transpluto Dec 11.00144 = 11
    J J Vesta–J Eris Dec 18.00228 = 18
-   J J Ketu–J Eris Dec 31.99719 = 32
    J J Makemake–J Orcus Dec 31.99719 = 32
+   J J Ketu–J Eris Dec 31.99719 = 32
    H H Mercury–H Sedna Dec 5.00339 = 5
    H H Mars–H Rahu Dec 3.00372 = 3
    H H Eris–H Sedna Dec 9.99558 = 10
@@ -91,16 +91,13 @@
    cross H Ketu–J Makemake Dec 45.55578 = 410/9
    cross H Eris–J Gonggong Dec 16.77803 = 151/9
    cross H Ceres–J Sedna Dec 8.00426 = 8
-   sky Sedna–Transpluto Dec 2.22203 = 20/9
-   sky Ceres–Eris Dec 16.99623 = 17
-   sky Venus–Vesta Dec 7.99585 = 8
    sky Rahu -> J Ceres Dec 47.66669 = 429/9
    sky Mars -> H Uranus Dec 7.33341 = 66/9
    sky Ceres -> H Venus Dec 4.22212 = 38/9
    sky Ketu -> J Sun Dec 44.44457 = 400/9
    sky Saturn -> J Mercury Dec 42.11096 = 379/9
-   sky Venus -> H Ketu Dec 3.44463 = 31/9
    sky Gonggong -> H Orcus Dec 1.88871 = 17/9
+   sky Venus -> H Ketu Dec 3.44463 = 31/9
    sky Eris -> H Haumea Dec 18.44484 = 166/9
    sky Uranus -> J Juno Dec 4.77735 = 43/9
    sky Quaoar -> J Uranus Dec 7.44398 = 67/9
@@ -134,10 +131,6 @@
    cross H Mercury–J Haumea RA 177.99896 = 178
    cross H Vesta–J Mars RA 77.99804 = 78
    J Ceres moved RA 115.00875 = 115
-   sky Saturn–Eris RA 76.88891 = 692/9
-   sky Uranus–Chiron RA 32.55524 = 293/9
-   sky Quaoar–Transpluto RA 118.99678 = 119
-   sky Chiron–Sedna RA 50.00323 = 50
    sky Sedna -> J Sun RA 33.22210 = 299/9
    sky Vesta -> H Jupiter RA 6.77757 = 61/9
    sky Pluto -> H Mars RA 96.44471 = 868/9

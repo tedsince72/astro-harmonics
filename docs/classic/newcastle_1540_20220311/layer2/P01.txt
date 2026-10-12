@@ -1,5 +1,5 @@
-== 1 Vocaliser / 1 Fergus Gregory   [newcastle_1540_20220311__P01.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 44; eq_ratios root 1; hj_ratios root 20; links derived 2, mirror 1, root 111; movement mirror 1, root 4; pair_family root 152; points root 3; ratios root 20; same_body root 4; shared root 6; sky derived 1, race_level 5, root 8; sky_close race_level 10; splits from_numbers 1, root 43; strikes derived 13, duplicate 2, mirror 2, root 73
+== 1 Vocaliser / 1 Fergus Gregory   [newcastle_1540_20220311__P01.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 44; eq_ratios root 1; hj_ratios root 20; links derived 2, mirror 1, root 112; movement derived 1, root 4; node root 1; pair_family root 152; points race_level 1, root 2; ratios root 20; same_body root 4; shared root 6; sky race_level 14; sky_close race_level 10; splits from_numbers 1, root 43; strikes derived 13, duplicate 2, mirror 2, root 73
 -- Dec groups (3+ points joined by numbers)
    EQ, H Chiron, H Rahu, J Gonggong, J Quaoar, S Chiron, S Haumea, S Ketu, S Neptune, S Pallas, S Transpluto
    H Mars, H Transpluto, H Vesta, J Juno, J Orcus, S Ceres, S Eris, S Uranus
@@ -23,9 +23,6 @@
    DERIVED  cross H Chiron–J Quaoar Dec 9.00028 = 9
             <- equator   H Chiron Equator 5.00535 = 5
             <- equator   J Quaoar Equator 14.00563 = 14
-   DERIVED  sky Chiron–Ketu Dec 25.00389 = 25
-            <- skynum    sky Chiron–Pallas Dec 13.00311 = 13
-            <- skynum    sky Pallas–Ketu Dec 12.00078 = 12
    DERIVED  sky Neptune -> J Quaoar Dec 10.00003 = 10
             <- equator   S Neptune Equator 4.00560 = 4
             <- equator   J Quaoar Equator 14.00563 = 14
@@ -48,7 +45,7 @@
    DERIVED  cross H Sun–J Vesta RA 146.00031 = 146
             <- cross     cross H Sun–J Sun RA 6.00012 = 6
             <- natal     J J Sun–J Vesta RA 152.00044 = 152
-   MIRROR   J Ketu moved RA 132.44413 = 1192/9
+   DERIVED  J Ketu moved RA 132.44413 = 1192/9
             <- axis      node axis (S)
             <- movement  J Rahu moved RA 132.44413 = 1192/9
             <- axis      node axis (J)
@@ -86,7 +83,6 @@
             <- strike    sky Saturn -> H Neptune RA 10.00408 = 10
 -- roots among number items (Dec/RA)
    H Chiron Equator 5.00535 = 5
-   S Neptune Equator 4.00560 = 4
    J Quaoar Equator 14.00563 = 14
    J J Venus–J Pluto Dec 16.33335 = 147/9
    J J Eris–J Transpluto Dec 22.99971 = 23
@@ -106,12 +102,6 @@
    cross H Orcus–J Venus Dec 12.99579 = 13
    H Chiron moved Dec 11.11022 = 100/9
    J Sedna moved Dec 4.00909 = 4
-   sky Juno–Vesta Dec 10.55549 = 95/9
-   sky Sun–Quaoar Dec 11.66697 = 105/9
-   sky Pallas–Ketu Dec 12.00078 = 12
-   sky Haumea–Transpluto Dec 5.00093 = 5
-   sky Chiron–Pallas Dec 13.00311 = 13
-   sky Ceres–Eris Dec 23.99569 = 24
    sky Pluto -> J Transpluto Dec 36.44446 = 328/9
    sky Venus -> H Ketu Dec 38.33338 = 345/9
    sky Saturn -> J Pallas Dec 23.00007 = 23
@@ -144,8 +134,6 @@
    cross H Vesta–J Uranus RA 68.00482 = 68
    J Rahu moved RA 132.44413 = 1192/9
    H Pallas moved RA 45.00744 = 45
-   sky Mercury–Pluto RA 34.77762 = 313/9
-   sky Saturn–Haumea RA 105.00074 = 105
    sky Saturn -> J Mars RA 20.44446 = 184/9
    sky Mercury -> J Neptune RA 45.55554 = 410/9
    sky Ceres -> J Vesta RA 113.88897 = 1025/9

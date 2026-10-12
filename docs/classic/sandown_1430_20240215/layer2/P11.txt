@@ -1,5 +1,5 @@
-== 6 Smiling Getaway / 6 Sam Twiston-Davies   [sandown_1430_20240215__P11.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 40; eq_ratios mirror 1, root 3; hj_ratios root 16; links derived 6, mirror 2, root 111; movement root 8; pair_family root 141; pair_sets root 1; ratios root 26; shared root 8; sky derived 1, race_level 5, root 7; sky_close race_level 6; splits root 43; strikes derived 13, duplicate 7, mirror 4, root 71
+== 6 Smiling Getaway / 6 Sam Twiston-Davies   [sandown_1430_20240215__P11.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 40; eq_ratios mirror 1, root 3; hj_ratios root 16; links derived 6, mirror 2, root 113; movement root 8; node root 1; pair_family root 141; pair_sets root 1; ratios root 26; shared root 8; sky race_level 13; sky_close race_level 6; splits root 43; strikes derived 14, duplicate 7, mirror 3, root 71
 -- Dec groups (3+ points joined by numbers)
    H Juno, H Pallas, H Venus, J Pallas, J Pluto, J Rahu, S Orcus, S Pallas, S Quaoar, S Rahu
    H Transpluto, J Chiron, J Mercury, J Sun, J Uranus, J Vesta, S Ceres, S Neptune
@@ -32,9 +32,6 @@
    DERIVED  cross H Sun–J Juno Dec 6.99782 = 7
             <- cross     cross H Sun–J Neptune Dec 34.99876 = 35
             <- natal     J J Neptune–J Juno Dec 28.00094 = 28
-   DERIVED  sky Uranus–Eris Dec 18.00422 = 18
-            <- skynum    sky Sun–Uranus Dec 30.00005 = 30
-            <- skynum    sky Sun–Eris Dec 11.99583 = 12
    DERIVED  sky Gonggong -> H Chiron Dec 12.99979 = 13
             <- strike    sky Gonggong -> J Transpluto Dec 24.55546 = 221/9
             <- cross     cross H Chiron–J Transpluto Dec 11.55567 = 104/9
@@ -90,7 +87,7 @@
    DERIVED  sky Rahu -> J Ceres RA 72.00128 = 72
             <- strike    sky Rahu -> H Ceres RA 40.99917 = 41
             <- cross     cross H Ceres–J Ceres RA 113.00045 = 113
-   MIRROR   sky Ketu -> J Ceres RA 107.99872 = 108
+   DERIVED  sky Ketu -> J Ceres RA 107.99872 = 108
             <- axis      node axis (S)
             <- strike    sky Rahu -> H Ceres RA 40.99917 = 41
             <- cross     cross H Ceres–J Ceres RA 113.00045 = 113
@@ -126,10 +123,6 @@
    cross H Mars–J Ketu Dec 1.99738 = 2
    cross H Transpluto–J Sun Dec 19.99589 = 20
    H Mercury moved Dec 28.33347 = 255/9
-   sky Sun–Uranus Dec 30.00005 = 30
-   sky Mercury–Venus Dec 2.66696 = 24/9
-   sky Neptune–Ceres Dec 19.99713 = 20
-   sky Sun–Eris Dec 11.99583 = 12
    sky Pluto -> J Gonggong Dec 3.22214 = 29/9
    sky Rahu -> H Pallas Dec 6.55564 = 59/9
    sky Gonggong -> J Transpluto Dec 24.55546 = 221/9
@@ -162,9 +155,6 @@
    cross H Orcus–J Jupiter RA 29.99696 = 30
    J Mercury moved RA 100.44381 = 904/9
    H Quaoar moved RA 9.00089 = 9
-   sky Sun–Makemake RA 127.55566 = 1148/9
-   sky Jupiter–Ceres RA 123.88841 = 1115/9
-   sky Venus–Chiron RA 74.00193 = 74
    sky Jupiter -> H Gonggong RA 60.33349 = 543/9
    sky Pluto -> H Rahu RA 150.22199 = 1352/9
    sky Sedna -> H Sun RA 26.55529 = 239/9

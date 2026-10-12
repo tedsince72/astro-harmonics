@@ -1,5 +1,5 @@
-== 7 Vale Dolobo Dancer / 7 Jack Hogan   [fontwell_1530_20231006__P13.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 38; eq_ratios root 5; hj_ratios from_numbers 1, root 23; links derived 4, mirror 2, root 117; movement root 6; pair_family root 146; pair_sets root 1; points root 3; ratios root 14; same_body root 2; shared root 4; sky derived 1, mirror 1, race_level 12, root 7; sky_close race_level 8; splits from_numbers 1, root 79; strikes derived 8, duplicate 2, mirror 3, root 73
+== 7 Vale Dolobo Dancer / 7 Jack Hogan   [fontwell_1530_20231006__P13.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 38; eq_ratios root 5; hj_ratios from_numbers 1, root 23; links derived 4, mirror 2, root 120; movement root 6; node root 1; pair_family root 146; pair_sets root 1; points race_level 1, root 2; ratios root 14; same_body root 2; shared root 4; sky race_level 21; sky_close race_level 8; splits from_numbers 1, root 79; strikes derived 9, duplicate 2, mirror 2, root 73
 -- Dec groups (3+ points joined by numbers)
    EQ, H Ceres, H Chiron, H Ketu, H Makemake, H Orcus, H Rahu, H Saturn, H Transpluto, J Chiron, J Eris, J Gonggong, J Juno, J Makemake, J Neptune, J Uranus, S Ceres, S Haumea, S Ketu, S Pluto, S Quaoar, S Rahu, S Sedna, S Uranus, S Venus
    H Eris, H Gonggong, H Pallas, J Jupiter, J Quaoar, S Mars, S Mercury
@@ -25,9 +25,6 @@
    DERIVED  cross H Gonggong–J Quaoar Dec 2.99519 = 3
             <- natal     H H Eris–H Gonggong Dec 10.00280 = 10
             <- cross     cross H Eris–J Quaoar Dec 12.99799 = 13
-   DERIVED  sky Venus–Quaoar Dec 25.55587 = 230/9
-            <- skynum    sky Venus–Ketu Dec 19.77807 = 178/9
-            <- skynum    sky Ketu–Quaoar Dec 5.77780 = 52/9
    DERIVED  sky Rahu -> H Saturn Dec 29.44437 = 265/9
             <- movement  H Rahu moved Dec 13.88969 = 125/9
             <- cross     cross H Rahu–J Chiron Dec 39.33345 = 354/9
@@ -65,16 +62,13 @@
    MIRROR   cross H Sedna–J Ketu RA 101.33351 = 912/9
             <- cross     cross H Sedna–J Rahu RA 78.66649 = 708/9
             <- axis      node axis (J)
-   MIRROR   sky Uranus–Ketu RA 152.99778 = 153
-            <- skynum    sky Uranus–Rahu RA 27.00222 = 27
-            <- axis      node axis (S)
    MIRROR   sky Ketu -> H Ceres RA 135.77808 = 1222/9
             <- axis      node axis (S)
             <- strike    sky Rahu -> H Ceres RA 44.22192 = 398/9
    DERIVED  sky Makemake -> J Rahu RA 62.99532 = 63
             <- strike    sky Makemake -> J Mars RA 4.00080 = 4
             <- natal     J J Mars–J Rahu RA 66.99612 = 67
-   MIRROR   sky Makemake -> J Ketu RA 117.00468 = 117
+   DERIVED  sky Makemake -> J Ketu RA 117.00468 = 117
             <- strike    sky Makemake -> J Mars RA 4.00080 = 4
             <- natal     J J Mars–J Rahu RA 66.99612 = 67
             <- axis      node axis (J)
@@ -83,7 +77,6 @@
             <- axis      node axis (H)
 -- roots among number items (Dec/RA)
    H Ceres Equator 17.88992 = 161/9
-   S Uranus Equator 17.99454 = 18
    J Neptune Equator 18.99065 = 19
    H H Pallas–H Eris Dec 19.33314 = 174/9
    H H Makemake–H Transpluto Dec 13.11079 = 118/9
@@ -108,12 +101,6 @@
    cross H Haumea–J Saturn Dec 3.00424 = 3
    H Rahu moved Dec 13.88969 = 125/9
    H Ketu moved Dec 13.88969 = 125/9
-   sky Ketu–Quaoar Dec 5.77780 = 52/9
-   sky Pluto–Haumea Dec 37.88896 = 341/9
-   sky Venus–Ketu Dec 19.77807 = 178/9
-   sky Pallas–Eris Dec 4.00140 = 4
-   sky Ketu–Sedna Dec 17.99629 = 18
-   sky Pluto–Quaoar Dec 8.00477 = 8
    sky Mercury -> J Quaoar Dec 15.22233 = 137/9
    sky Juno -> J Saturn Dec 7.33355 = 66/9
    sky Quaoar -> J Neptune Dec 3.66690 = 33/9
@@ -146,7 +133,6 @@
    cross H Vesta–J Pallas RA 16.99758 = 17
    cross H Gonggong–J Eris RA 47.00313 = 47
    J Gonggong moved RA 4.33331 = 39/9
-   sky Uranus–Rahu RA 27.00222 = 27
    sky Pallas -> J Mercury RA 82.44442 = 742/9
    sky Mercury -> H Quaoar RA 91.33324 = 822/9
    sky Venus -> H Vesta RA 71.77767 = 646/9

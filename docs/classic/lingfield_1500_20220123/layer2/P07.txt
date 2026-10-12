@@ -1,5 +1,5 @@
-== 5 Itchy Feet / 5 Gavin Sheehan   [lingfield_1500_20220123__P07.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 29; eq_ratios root 3; hj_ratios root 19; links derived 5, mirror 2, root 107; movement root 12; pair_family from_numbers 1, root 111; points root 3; ratios root 20; shared root 7; sky derived 2, race_level 16, root 7; sky_close race_level 9; splits root 64; strikes derived 14, duplicate 6, mirror 1, root 61
+== 5 Itchy Feet / 5 Gavin Sheehan   [lingfield_1500_20220123__P07.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 29; eq_ratios root 3; hj_ratios root 19; links derived 5, mirror 2, root 107; movement root 12; node root 1; pair_family from_numbers 1, root 111; points race_level 3; ratios root 20; shared root 7; sky race_level 25; sky_close race_level 9; splits root 64; strikes derived 14, duplicate 6, mirror 1, root 61
 -- Dec groups (3+ points joined by numbers)
    EQ, H Haumea, H Pallas, H Sun, J Eris, J Ketu, J Makemake, J Orcus, J Transpluto, J Vesta, S Ceres, S Eris, S Venus, S Vesta
    H Ceres, H Transpluto, J Quaoar, J Uranus, S Mars, S Quaoar
@@ -20,12 +20,6 @@
    DERIVED  J J Makemake–J Transpluto Dec 20.99575 = 21
             <- natal     J J Makemake–J Orcus Dec 31.99719 = 32
             <- natal     J J Orcus–J Transpluto Dec 11.00144 = 11
-   DERIVED  sky Venus–Eris Dec 14.77751 = 133/9
-            <- equator   S Venus Equator 16.22121 = 146/9
-            <- equator   S Eris Equator 1.44371 = 13/9
-   DERIVED  sky Rahu–Orcus Dec 32.11161 = 289/9
-            <- skynum    sky Rahu–Gonggong Dec 31.33376 = 282/9
-            <- skynum    sky Gonggong–Orcus Dec 0.77785 = 7/9
    DERIVED  sky Gonggong -> J Haumea Dec 34.33317 = 309/9
             <- skynum    sky Gonggong–Orcus Dec 0.77785 = 7/9
             <- strike    sky Orcus -> J Haumea Dec 35.11102 = 316/9
@@ -97,14 +91,11 @@
             <- skynum    sky Pluto–Vesta RA 22.00150 = 22
             <- strike    sky Vesta -> H Mercury RA 149.99705 = 150
 -- roots among number items (Dec/RA)
-   S Eris Equator 1.44371 = 13/9
-   S Venus Equator 16.22121 = 146/9
-   S Ceres Equator 19.00491 = 19
    H H Ceres–H Transpluto Dec 8.00091 = 8
    J J Orcus–J Transpluto Dec 11.00144 = 11
    J J Vesta–J Eris Dec 18.00228 = 18
-   J J Ketu–J Eris Dec 31.99719 = 32
    J J Makemake–J Orcus Dec 31.99719 = 32
+   J J Ketu–J Eris Dec 31.99719 = 32
    J J Juno–J Haumea Dec 11.99558 = 12
    cross H Transpluto–J Quaoar Dec 25.11105 = 226/9
    cross H Jupiter–J Gonggong Dec 41.99972 = 42
@@ -117,12 +108,6 @@
    H Saturn moved Dec 2.11099 = 19/9
    J Vesta moved Dec 31.00647 = 31
    J Quaoar moved Dec 1.99346 = 2
-   sky Gonggong–Orcus Dec 0.77785 = 7/9
-   sky Mercury–Uranus Dec 30.88878 = 278/9
-   sky Mars–Quaoar Dec 8.33301 = 75/9
-   sky Rahu–Gonggong Dec 31.33376 = 282/9
-   sky Juno–Haumea Dec 27.99805 = 28
-   sky Juno–Ketu Dec 6.99594 = 7
    sky Transpluto -> H Chiron Dec 11.11110 = 100/9
    sky Haumea -> H Sedna Dec 7.77776 = 70/9
    sky Chiron -> H Mars Dec 8.00008 = 8
@@ -156,7 +141,6 @@
    J Transpluto moved RA 10.44491 = 94/9
    J Sun moved RA 146.99937 = 147
    J Saturn moved RA 3.88959 = 35/9
-   sky Pluto–Vesta RA 22.00150 = 22
    sky Venus -> H Sedna RA 132.55540 = 1193/9
    sky Uranus -> J Saturn RA 77.44463 = 697/9
    sky Makemake -> J Mercury RA 82.33311 = 741/9

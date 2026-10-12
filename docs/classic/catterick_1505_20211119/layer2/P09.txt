@@ -1,5 +1,5 @@
-== 5 Cracking Find / 5 Ryan Mania   [catterick_1505_20211119__P09.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 39; eq_ratios root 2; hj_ratios root 20; links derived 1, mirror 1, root 105; movement root 8; pair_family root 140; points root 2; ratios root 16; same_body root 4; shared root 1; sky derived 1, race_level 5, root 10; sky_close race_level 9; splits root 22; strikes derived 15, duplicate 6, mirror 3, root 75
+== 5 Cracking Find / 5 Ryan Mania   [catterick_1505_20211119__P09.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 39; eq_ratios root 2; hj_ratios root 20; links derived 1, mirror 1, root 105; movement root 8; node root 1; pair_family root 140; points race_level 2; ratios root 16; same_body root 4; shared root 1; sky race_level 16; sky_close race_level 9; splits root 22; strikes derived 16, duplicate 6, mirror 2, root 75
 -- Dec groups (3+ points joined by numbers)
    H Makemake, H Transpluto, J Jupiter, J Mars, J Quaoar, S Mercury, S Orcus
    J Mercury, J Neptune, J Rahu, S Ceres, S Chiron, S Eris, S Venus
@@ -21,9 +21,6 @@
    J Neptune, S Ceres, S Quaoar
    J Jupiter, S Eris, S Venus
 -- derived items (with chain)
-   DERIVED  sky Uranus–Juno Dec 28.77792 = 259/9
-            <- equator   S Uranus Equator 14.99958 = 15
-            <- equator   S Juno Equator 13.77833 = 124/9
    DERIVED  sky Ceres -> J Mercury Dec 39.77757 = 358/9
             <- skynum    sky Chiron–Ceres Dec 11.11098 = 100/9
             <- strike    sky Chiron -> J Mercury Dec 28.66659 = 258/9
@@ -62,16 +59,16 @@
    DERIVED  cross H Quaoar–J Quaoar RA 27.99633 = 28
             <- cross     cross H Quaoar–J Ceres RA 174.99858 = 175
             <- natal     J J Ceres–J Quaoar RA 147.00225 = 147
-   MIRROR   sky Mercury -> H Ketu RA 144.00007 = 144
-            <- strike    sky Mercury -> H Rahu RA 35.99993 = 36
-            <- axis      node axis (H)
    DERIVED  sky Pallas -> H Sedna RA 70.11118 = 631/9
             <- skynum    sky Pallas–Transpluto RA 173.00002 = 173
             <- strike    sky Transpluto -> H Sedna RA 102.88884 = 926/9
+   MIRROR   sky Mercury -> H Ketu RA 144.00007 = 144
+            <- strike    sky Mercury -> H Rahu RA 35.99993 = 36
+            <- axis      node axis (H)
    DERIVED  sky Orcus -> H Rahu RA 107.88923 = 971/9
             <- skynum    sky Mercury–Orcus RA 71.88930 = 647/9
             <- strike    sky Mercury -> H Rahu RA 35.99993 = 36
-   MIRROR   sky Orcus -> H Ketu RA 72.11077 = 649/9
+   DERIVED  sky Orcus -> H Ketu RA 72.11077 = 649/9
             <- skynum    sky Mercury–Orcus RA 71.88930 = 647/9
             <- strike    sky Mercury -> H Rahu RA 35.99993 = 36
             <- axis      node axis (H)
@@ -89,8 +86,6 @@
             <- strike    sky Saturn -> H Quaoar RA 47.99679 = 48
             <- cross     cross H Quaoar–J Ceres RA 174.99858 = 175
 -- roots among number items (Dec/RA)
-   S Uranus Equator 14.99958 = 15
-   S Juno Equator 13.77833 = 124/9
    H H Venus–H Orcus Dec 1.88867 = 17/9
    J J Uranus–J Eris Dec 13.88921 = 125/9
    J J Venus–J Transpluto Dec 32.99703 = 33
@@ -108,11 +103,6 @@
    cross H Sun–J Vesta Dec 26.66622 = 240/9
    cross H Makemake–J Jupiter Dec 4.99542 = 5
    H Pallas moved Dec 22.66703 = 204/9
-   sky Sun–Pallas Dec 7.77771 = 70/9
-   sky Chiron–Ceres Dec 11.11098 = 100/9
-   sky Mercury–Orcus Dec 6.00061 = 6
-   sky Sun–Mars Dec 3.99642 = 4
-   sky Venus–Chiron Dec 32.00367 = 32
    sky Chiron -> J Mercury Dec 28.66659 = 258/9
    sky Transpluto -> J Orcus Dec 6.77786 = 61/9
    sky Orcus -> H Makemake Dec 40.00017 = 40
@@ -146,11 +136,6 @@
    cross H Quaoar–J Ceres RA 174.99858 = 175
    cross H Neptune–J Makemake RA 162.00399 = 162
    H Mars moved RA 141.66763 = 1275/9
-   sky Pallas–Transpluto RA 173.00002 = 173
-   sky Chiron–Orcus RA 150.55588 = 1355/9
-   sky Mercury–Orcus RA 71.88930 = 647/9
-   sky Ceres–Quaoar RA 150.99925 = 151
-   sky Saturn–Orcus RA 153.00269 = 153
    sky Uranus -> H Neptune RA 67.44439 = 607/9
    sky Transpluto -> H Sedna RA 102.88884 = 926/9
    sky Mercury -> H Rahu RA 35.99993 = 36

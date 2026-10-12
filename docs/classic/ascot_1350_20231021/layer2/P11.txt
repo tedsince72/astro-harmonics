@@ -1,5 +1,5 @@
-== 6 Spycatcher / 6 Clifford Lee   [ascot_1350_20231021__P11.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 36; eq_ratios root 3; hj_ratios root 23; links derived 4, root 113; movement root 9; pair_family root 133; points root 5; ratios root 23; shared root 4; sky derived 1, race_level 13, root 5; sky_close race_level 9; splits root 15; strikes derived 5, duplicate 6, mirror 3, root 78
+== 6 Spycatcher / 6 Clifford Lee   [ascot_1350_20231021__P11.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 36; eq_ratios root 3; hj_ratios root 23; links derived 4, root 116; movement root 9; node root 1; pair_family root 133; points race_level 4, root 1; ratios root 23; shared root 4; sky race_level 19; sky_close race_level 9; splits root 15; strikes derived 5, duplicate 6, mirror 3, root 78
 -- Dec groups (3+ points joined by numbers)
    EQ, H Venus, J Eris, S Makemake, S Neptune, S Saturn, S Transpluto, S Vesta
    H Haumea, H Mercury, H Pallas, J Chiron, J Haumea, J Pallas, J Sun, S Rahu
@@ -20,9 +20,6 @@
    H Orcus, H Sedna, J Sedna
    J Saturn, S Gonggong, S Mercury
 -- derived items (with chain)
-   DERIVED  sky Neptune–Transpluto Dec 13.22247 = 119/9
-            <- equator   S Neptune Equator 3.11107 = 28/9
-            <- equator   S Transpluto Equator 10.11139 = 91/9
    DERIVED  sky Transpluto -> H Venus Dec 20.99672 = 21
             <- skynum    sky Makemake–Transpluto Dec 11.00365 = 11
             <- strike    sky Makemake -> H Venus Dec 32.00037 = 32
@@ -61,10 +58,6 @@
             <- axis      node axis (S)
             <- strike    sky Rahu -> H Sun RA 54.00439 = 54
 -- roots among number items (Dec/RA)
-   S Neptune Equator 3.11107 = 28/9
-   S Transpluto Equator 10.11139 = 91/9
-   S Vesta Equator 18.99773 = 19
-   S Saturn Equator 12.99441 = 13
    J Eris Equator 8.00791 = 8
    H H Mars–H Chiron Dec 23.44440 = 211/9
    J J Saturn–J Neptune Dec 15.88894 = 143/9
@@ -80,9 +73,6 @@
    cross H Makemake–J Saturn Dec 29.00262 = 29
    cross H Ceres–J Orcus Dec 30.99667 = 31
    cross H Pallas–J Haumea Dec 38.99658 = 39
-   sky Pallas–Eris Dec 2.99900 = 3
-   sky Sun–Sedna Dec 19.00217 = 19
-   sky Makemake–Transpluto Dec 11.00365 = 11
    sky Eris -> H Ceres Dec 32.44430 = 292/9
    sky Ceres -> J Rahu Dec 5.22236 = 47/9
    sky Mars -> H Orcus Dec 3.11084 = 28/9
@@ -123,8 +113,6 @@
    cross H Orcus–J Sedna RA 109.00258 = 109
    H Venus moved RA 175.33336 = 1578/9
    H Ceres moved RA 89.00045 = 89
-   sky Jupiter–Uranus RA 9.44446 = 85/9
-   sky Mercury–Gonggong RA 129.99946 = 130
    sky Saturn -> J Chiron RA 141.00002 = 141
    sky Sedna -> J Makemake RA 115.66682 = 1041/9
    sky Makemake -> H Neptune RA 145.00018 = 145

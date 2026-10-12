@@ -1,5 +1,5 @@
-== 5 Present Moment / 5 Dylan Hogan   [20211015_redcar_1515__P05.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 35; eq_ratios root 1; hj_ratios root 21; links derived 2, mirror 1, root 101; movement root 7; pair_family root 124; pair_sets root 1; points root 3; ratios root 17; same_body root 1; shared root 6; sky mirror 1, race_level 8, root 11; sky_close race_level 11; splits root 71; strikes derived 15, duplicate 3, mirror 2, root 66
+== 5 Present Moment / 5 Dylan Hogan   [20211015_redcar_1515__P05.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 35; eq_ratios root 1; hj_ratios root 21; links derived 2, mirror 1, root 105; movement root 7; node root 1; pair_family root 124; pair_sets root 1; points root 3; ratios root 17; same_body root 1; shared root 6; sky race_level 20; sky_close race_level 11; splits root 71; strikes derived 16, duplicate 3, mirror 1, root 66
 -- Dec groups (3+ points joined by numbers)
    H Eris, H Gonggong, H Mars, H Saturn, H Uranus, H Venus, H Vesta, J Ceres, J Haumea, J Pallas, S Neptune, S Venus
    H Ceres, H Rahu, J Juno, J Ketu, J Neptune, S Haumea, S Jupiter
@@ -52,13 +52,10 @@
    MIRROR   cross H Ketu–J Mercury RA 90.55524 = 815/9
             <- axis      node axis (H)
             <- cross     cross H Rahu–J Mercury RA 89.44476 = 805/9
-   MIRROR   sky Venus–Ketu RA 6.11110 = 55/9
-            <- skynum    sky Venus–Rahu RA 173.88890 = 1565/9
-            <- axis      node axis (S)
    DERIVED  sky Juno -> H Rahu RA 149.44472 = 1345/9
             <- strike    sky Juno -> J Mercury RA 59.99996 = 60
             <- cross     cross H Rahu–J Mercury RA 89.44476 = 805/9
-   MIRROR   sky Juno -> H Ketu RA 30.55528 = 275/9
+   DERIVED  sky Juno -> H Ketu RA 30.55528 = 275/9
             <- strike    sky Juno -> J Mercury RA 59.99996 = 60
             <- cross     cross H Rahu–J Mercury RA 89.44476 = 805/9
             <- axis      node axis (H)
@@ -102,12 +99,6 @@
    cross H Jupiter–J Makemake Dec 56.00458 = 56
    cross H Ceres–J Neptune Dec 4.00483 = 4
    H Venus moved Dec 31.99357 = 32
-   sky Mars–Ketu Dec 13.44417 = 121/9
-   sky Ceres–Orcus Dec 27.66636 = 249/9
-   sky Pallas–Vesta Dec 4.22188 = 38/9
-   sky Jupiter–Haumea Dec 30.33286 = 273/9
-   sky Mercury–Mars Dec 3.00119 = 3
-   sky Pluto–Chiron Dec 29.00281 = 29
    sky Neptune -> H Vesta Dec 6.33326 = 57/9
    sky Vesta -> H Jupiter Dec 10.77770 = 97/9
    sky Jupiter -> J Neptune Dec 5.99981 = 6
@@ -135,11 +126,6 @@
    H Haumea moved RA 2.11199 = 19/9
    H Sedna moved RA 1.99676 = 2
    H Orcus moved RA 4.00332 = 4
-   sky Venus–Rahu RA 173.88890 = 1565/9
-   sky Sun–Pallas RA 141.55602 = 1274/9
-   sky Juno–Makemake RA 61.99799 = 62
-   sky Ceres–Pallas RA 88.99739 = 89
-   sky Venus–Pluto RA 50.00376 = 50
    sky Sun -> H Gonggong RA 136.33335 = 1227/9
    sky Juno -> J Mercury RA 59.99996 = 60
    sky Chiron -> H Haumea RA 154.33340 = 1389/9

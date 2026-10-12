@@ -1,5 +1,5 @@
-== 4 Jeune Belle / 4 Bryony Le Clerc   [sandown_1430_20240215__P07.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 39; eq_ratios mirror 1, root 5; hj_ratios root 18; links derived 4, root 114; movement root 5; pair_family root 147; points root 1; ratios root 25; same_body root 1; shared root 4; sky derived 1, race_level 5, root 7; sky_close race_level 6; strikes derived 8, duplicate 4, mirror 2, root 64
+== 4 Jeune Belle / 4 Bryony Le Clerc   [sandown_1430_20240215__P07.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 39; eq_ratios mirror 1, root 5; hj_ratios root 18; links derived 4, root 114; movement root 5; node root 1; pair_family root 147; points root 1; ratios root 25; same_body root 1; shared root 4; sky race_level 13; sky_close race_level 6; strikes derived 8, duplicate 4, mirror 2, root 64
 -- Dec groups (3+ points joined by numbers)
    H Mercury, H Rahu, H Transpluto, H Uranus, J Chiron, J Orcus, S Mercury, S Venus
    H Chiron, H Gonggong, H Venus, J Ceres, S Vesta
@@ -23,9 +23,6 @@
    DERIVED  cross H Vesta–J Neptune Dec 2.99624 = 3
             <- natal     H H Pluto–H Vesta Dec 3.99804 = 4
             <- cross     cross H Pluto–J Neptune Dec 1.00181 = 1
-   DERIVED  sky Uranus–Eris Dec 18.00422 = 18
-            <- skynum    sky Sun–Uranus Dec 30.00005 = 30
-            <- skynum    sky Sun–Eris Dec 11.99583 = 12
    DERIVED  sky Uranus -> H Mars Dec 40.55581 = 365/9
             <- skynum    sky Sun–Uranus Dec 30.00005 = 30
             <- strike    sky Sun -> H Mars Dec 10.55576 = 95/9
@@ -41,12 +38,12 @@
    DERIVED  cross H Venus–J Chiron RA 129.00193 = 129
             <- natal     H H Venus–H Makemake RA 154.00131 = 154
             <- cross     cross H Makemake–J Chiron RA 24.99938 = 25
-   MIRROR   sky Juno -> H Ketu RA 147.66632 = 1329/9
-            <- strike    sky Juno -> H Rahu RA 32.33368 = 291/9
-            <- axis      node axis (H)
    DERIVED  sky Orcus -> J Chiron RA 11.66700 = 105/9
             <- strike    sky Orcus -> H Makemake RA 36.66638 = 330/9
             <- cross     cross H Makemake–J Chiron RA 24.99938 = 25
+   MIRROR   sky Juno -> H Ketu RA 147.66632 = 1329/9
+            <- strike    sky Juno -> H Rahu RA 32.33368 = 291/9
+            <- axis      node axis (H)
    DERIVED  sky Quaoar -> H Venus RA 121.77817 = 1096/9
             <- strike    sky Quaoar -> H Vesta RA 7.44407 = 67/9
             <- natal     H H Venus–H Vesta RA 129.22224 = 1163/9
@@ -88,10 +85,6 @@
    cross H Pluto–J Neptune Dec 1.00181 = 1
    cross H Saturn–J Quaoar Dec 8.00358 = 8
    cross H Mercury–J Orcus Dec 1.00410 = 1
-   sky Sun–Uranus Dec 30.00005 = 30
-   sky Mercury–Venus Dec 2.66696 = 24/9
-   sky Neptune–Ceres Dec 19.99713 = 20
-   sky Sun–Eris Dec 11.99583 = 12
    sky Saturn -> H Eris Dec 7.99993 = 8
    sky Sun -> H Mars Dec 10.55576 = 95/9
    sky Neptune -> J Venus Dec 2.99962 = 3
@@ -121,9 +114,6 @@
    cross H Pluto–J Ceres RA 158.00303 = 158
    cross H Eris–J Mercury RA 7.00332 = 7
    cross H Vesta–J Eris RA 111.00420 = 111
-   sky Sun–Makemake RA 127.55566 = 1148/9
-   sky Jupiter–Ceres RA 123.88841 = 1115/9
-   sky Venus–Chiron RA 74.00193 = 74
    sky Mars -> J Juno RA 29.88897 = 269/9
    sky Uranus -> J Ceres RA 88.11130 = 793/9
    sky Haumea -> H Saturn RA 60.22199 = 542/9

@@ -1,5 +1,5 @@
-== 1 Pink Legend / 1 Charlie Deutsch   [perth_1610_20220420__P01.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 39; eq_ratios root 2; hj_ratios root 18; links derived 4, mirror 2, root 113; movement root 13; pair_family root 145; points root 2; ratios root 22; same_body mirror 1, root 4; shared root 10; sky mirror 1, race_level 11, root 9; sky_close race_level 10; splits from_numbers 1, root 107; strikes derived 14, duplicate 8, mirror 2, root 76
+== 1 Pink Legend / 1 Charlie Deutsch   [perth_1610_20220420__P01.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 39; eq_ratios root 2; hj_ratios root 18; links derived 4, mirror 2, root 115; movement root 13; node root 1; pair_family root 145; points race_level 1, root 1; ratios root 22; same_body mirror 1, root 4; shared root 10; sky race_level 21; sky_close race_level 10; splits from_numbers 1, root 107; strikes derived 15, duplicate 8, mirror 1, root 76
 -- Dec groups (3+ points joined by numbers)
    H Eris, J Haumea, J Neptune, J Orcus, J Sedna, J Transpluto, S Makemake, S Mars, S Quaoar
    H Ceres, H Gonggong, H Venus, J Makemake, J Mercury, S Ceres, S Eris, S Pallas, S Vesta
@@ -62,9 +62,6 @@
    DERIVED  cross H Mars–J Haumea RA 8.99662 = 9
             <- natal     H H Mars–H Pluto RA 83.00108 = 83
             <- cross     cross H Pluto–J Haumea RA 91.99770 = 92
-   MIRROR   sky Ceres–Ketu RA 151.00098 = 151
-            <- skynum    sky Ceres–Rahu RA 28.99902 = 29
-            <- axis      node axis (S)
    DERIVED  sky Sun -> J Mercury RA 26.00022 = 26
             <- skynum    sky Sun–Ceres RA 50.77820 = 457/9
             <- strike    sky Ceres -> J Mercury RA 24.77798 = 223/9
@@ -85,7 +82,7 @@
             <- skynum    sky Ceres–Rahu RA 28.99902 = 29
             <- skynum    sky Sun–Ceres RA 50.77820 = 457/9
             <- movement  J Sun moved RA 49.88986 = 449/9
-   MIRROR   sky Ketu -> J Sun RA 151.88932 = 1367/9
+   DERIVED  sky Ketu -> J Sun RA 151.88932 = 1367/9
             <- axis      node axis (S)
             <- skynum    sky Ceres–Rahu RA 28.99902 = 29
             <- skynum    sky Sun–Ceres RA 50.77820 = 457/9
@@ -98,7 +95,6 @@
             <- strike    sky Orcus -> H Haumea RA 53.99847 = 54
 -- roots among number items (Dec/RA)
    J Chiron Equator 4.88833 = 44/9
-   S Mercury Equator 19.00634 = 19
    H H Jupiter–H Vesta Dec 21.66676 = 195/9
    J J Pallas–J Gonggong Dec 42.77791 = 385/9
    J J Sedna–J Haumea Dec 17.33308 = 156/9
@@ -122,8 +118,6 @@
    H Saturn moved Dec 1.33374 = 12/9
    H Jupiter moved Dec 25.99732 = 26
    H Ceres moved Dec 22.99515 = 23
-   sky Ceres–Vesta Dec 41.99994 = 42
-   sky Saturn–Juno Dec 9.99815 = 10
    sky Transpluto -> H Mars Dec 16.66657 = 150/9
    sky Pallas -> H Gonggong Dec 9.66677 = 87/9
    sky Haumea -> H Pluto Dec 36.00017 = 36
@@ -153,13 +147,6 @@
    J Sun moved RA 49.88986 = 449/9
    J Vesta moved RA 98.00551 = 98
    H Jupiter moved RA 105.99347 = 106
-   sky Pluto–Vesta RA 19.88930 = 179/9
-   sky Sun–Ceres RA 50.77820 = 457/9
-   sky Pluto–Orcus RA 145.00060 = 145
-   sky Ceres–Rahu RA 28.99902 = 29
-   sky Chiron–Transpluto RA 142.99643 = 143
-   sky Uranus–Transpluto RA 113.00390 = 113
-   sky Chiron–Gonggong RA 33.99521 = 34
    sky Orcus -> H Jupiter RA 53.55540 = 482/9
    sky Haumea -> H Sedna RA 162.88904 = 1466/9
    sky Jupiter -> H Venus RA 30.11090 = 271/9

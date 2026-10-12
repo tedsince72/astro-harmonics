@@ -1,5 +1,5 @@
-== 3 Dawn Of Liberation / 3 Sean Levey   [newmarket_1535_20220414__P05.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 49; eq_ratios root 3; hj_ratios root 22; links derived 5, mirror 1, root 114; movement root 5; pair_family root 142; points root 6; ratios root 25; same_body root 2; shared root 3; sky derived 1, race_level 13, root 4; sky_close race_level 7; splits root 43; strikes derived 6, duplicate 1, mirror 2, root 59
+== 3 Dawn Of Liberation / 3 Sean Levey   [newmarket_1535_20220414__P05.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 49; eq_ratios root 3; hj_ratios root 22; links derived 5, mirror 1, root 118; movement root 5; node root 1; pair_family root 142; points race_level 2, root 4; ratios root 25; same_body root 2; shared root 3; sky race_level 18; sky_close race_level 7; splits root 43; strikes derived 6, duplicate 1, mirror 2, root 59
 -- Dec groups (3+ points joined by numbers)
    EQ, H Chiron, H Makemake, H Orcus, J Gonggong, J Juno, J Venus, S Makemake, S Mars
    H Quaoar, J Pluto, J Quaoar, J Sedna, J Uranus, S Jupiter, S Pluto, S Rahu, S Sedna
@@ -20,9 +20,6 @@
    DERIVED  cross H Transpluto–J Makemake Dec 26.00344 = 26
             <- natal     H H Mars–H Transpluto Dec 0.99964 = 1
             <- cross     cross H Mars–J Makemake Dec 27.00308 = 27
-   DERIVED  sky Mars–Makemake Dec 35.99593 = 36
-            <- equator   S Mars Equator 12.99704 = 13
-            <- equator   S Makemake Equator 22.99889 = 23
    DERIVED  sky Sedna -> H Quaoar Dec 23.88901 = 215/9
             <- movement  J Sedna moved Dec 4.55482 = 41/9
             <- natal     J J Sedna–J Quaoar Dec 17.00389 = 17
@@ -68,8 +65,6 @@
    H Orcus Equator 10.77812 = 97/9
    H Chiron Equator 2.55620 = 23/9
    J Juno Equator 1.11012 = 10/9
-   S Makemake Equator 22.99889 = 23
-   S Mars Equator 12.99704 = 13
    J J Neptune–J Makemake Dec 58.88883 = 530/9
    J J Uranus–J Quaoar Dec 10.33346 = 93/9
    H H Mars–H Transpluto Dec 0.99964 = 1
@@ -86,8 +81,6 @@
    cross H Pluto–J Eris Dec 11.99584 = 12
    cross H Uranus–J Transpluto Dec 3.99526 = 4
    J Sedna moved Dec 4.55482 = 41/9
-   sky Saturn–Transpluto Dec 25.44429 = 229/9
-   sky Juno–Ketu Dec 12.99596 = 13
    sky Uranus -> J Jupiter Dec 5.00003 = 5
    sky Saturn -> H Sun Dec 0.88881 = 8/9
    sky Haumea -> J Chiron Dec 1.44468 = 13/9
@@ -114,8 +107,6 @@
    cross H Neptune–J Mercury RA 23.99878 = 24
    H Sedna moved RA 2.11023 = 19/9
    J Sedna moved RA 17.99043 = 18
-   sky Mercury–Pallas RA 7.77787 = 70/9
-   sky Neptune–Haumea RA 137.77729 = 1240/9
    sky Orcus -> H Venus RA 116.99999 = 117
    sky Eris -> J Rahu RA 32.55558 = 293/9
    sky Jupiter -> J Gonggong RA 25.88875 = 233/9

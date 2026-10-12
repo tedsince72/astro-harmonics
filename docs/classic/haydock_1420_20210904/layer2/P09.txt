@@ -1,5 +1,5 @@
-== 7 Contact / 7 Ray Dawson   [20210904_haydock_1420__P09.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 27; eq_ratios mirror 1, root 8; hj_ratios root 15; links derived 4, mirror 2, root 115; movement root 5; pair_family root 135; pair_sets root 1; points root 3; ratios root 15; same_body root 2; shared root 5; sky race_level 11, root 10; sky_close race_level 11; splits root 38; strikes derived 23, duplicate 2, mirror 4, root 71
+== 7 Contact / 7 Ray Dawson   [20210904_haydock_1420__P09.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 27; eq_ratios mirror 1, root 8; hj_ratios root 15; links derived 4, mirror 2, root 118; movement root 5; node root 1; pair_family root 135; pair_sets root 1; points race_level 1, root 2; ratios root 15; same_body root 2; shared root 5; sky race_level 21; sky_close race_level 11; splits root 38; strikes derived 25, duplicate 2, mirror 2, root 71
 -- Dec groups (3+ points joined by numbers)
    EQ, H Ceres, H Sun, H Transpluto, J Juno, J Transpluto, J Vesta, S Gonggong, S Jupiter, S Rahu
    H Makemake, H Quaoar, H Saturn, J Ketu, J Mercury, J Sun, S Ceres, S Mercury, S Sun
@@ -100,7 +100,7 @@
             <- movement  H Mercury moved RA 171.00491 = 171
             <- natal     H H Sun–H Mercury RA 12.00214 = 12
             <- natal     H H Sun–H Rahu RA 151.99631 = 152
-   MIRROR   sky Mercury -> H Ketu RA 130.99908 = 131
+   DERIVED  sky Mercury -> H Ketu RA 130.99908 = 131
             <- movement  H Mercury moved RA 171.00491 = 171
             <- natal     H H Sun–H Mercury RA 12.00214 = 12
             <- natal     H H Sun–H Rahu RA 151.99631 = 152
@@ -131,15 +131,15 @@
             <- movement  H Mercury moved RA 171.00491 = 171
             <- natal     H H Sun–H Mercury RA 12.00214 = 12
             <- natal     H H Sun–H Rahu RA 151.99631 = 152
-   MIRROR   sky Neptune -> H Ketu RA 36.00256 = 36
+   DERIVED  sky Pallas -> J Gonggong RA 18.00256 = 18
+            <- skynum    sky Venus–Pallas RA 148.00057 = 148
+            <- strike    sky Venus -> J Gonggong RA 129.99800 = 130
+   DERIVED  sky Neptune -> H Ketu RA 36.00256 = 36
             <- skynum    sky Mercury–Neptune RA 167.00164 = 167
             <- movement  H Mercury moved RA 171.00491 = 171
             <- natal     H H Sun–H Mercury RA 12.00214 = 12
             <- natal     H H Sun–H Rahu RA 151.99631 = 152
             <- axis      node axis (H)
-   DERIVED  sky Pallas -> J Gonggong RA 18.00256 = 18
-            <- skynum    sky Venus–Pallas RA 148.00057 = 148
-            <- strike    sky Venus -> J Gonggong RA 129.99800 = 130
    DERIVED  sky Mercury -> H Sun RA 159.00277 = 159
             <- movement  H Mercury moved RA 171.00491 = 171
             <- natal     H H Sun–H Mercury RA 12.00214 = 12
@@ -151,7 +151,6 @@
             <- natal     H H Sun–H Mercury RA 12.00214 = 12
 -- roots among number items (Dec/RA)
    J Transpluto Equator 13.88834 = 125/9
-   S Jupiter Equator 14.33429 = 129/9
    H Transpluto Equator 10.99560 = 11
    H H Sun–H Transpluto Dec 17.44442 = 157/9
    H H Mercury–H Chiron Dec 3.66658 = 33/9
@@ -176,10 +175,6 @@
    cross H Jupiter–J Sedna Dec 22.00336 = 22
    cross H Sun–J Juno Dec 15.99658 = 16
    H Venus moved Dec 6.55469 = 59/9
-   sky Mercury–Ceres Dec 19.33336 = 174/9
-   sky Mars–Makemake Dec 18.88840 = 170/9
-   sky Neptune–Quaoar Dec 11.00321 = 11
-   sky Sun–Mercury Dec 11.00428 = 11
    sky Sedna -> H Chiron Dec 6.22213 = 56/9
    sky Orcus -> H Ketu Dec 5.44455 = 49/9
    sky Sun -> J Mercury Dec 12.11100 = 109/9
@@ -215,12 +210,6 @@
    cross H Neptune–J Jupiter RA 156.00170 = 156
    J Makemake moved RA 25.44458 = 229/9
    H Mercury moved RA 171.00491 = 171
-   sky Pluto–Orcus RA 140.11117 = 1261/9
-   sky Ceres–Sedna RA 8.33350 = 75/9
-   sky Haumea–Quaoar RA 58.66684 = 528/9
-   sky Sun–Neptune RA 170.44406 = 1534/9
-   sky Venus–Pallas RA 148.00057 = 148
-   sky Mercury–Neptune RA 167.00164 = 167
    sky Rahu -> H Vesta RA 163.33334 = 1470/9
    sky Gonggong -> H Pluto RA 44.55538 = 401/9
    sky Vesta -> H Makemake RA 6.00022 = 6

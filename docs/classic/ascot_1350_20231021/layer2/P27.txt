@@ -1,5 +1,5 @@
-== 14 Ocean Quest / 14 Shane Foley   [ascot_1350_20231021__P27.xlsx, L2 v1 (12 Oct 2026)]
--- counts by section: contacts root 44; eq_ratios root 3; hj_ratios root 25; links derived 2, mirror 1, root 103; movement root 6; pair_family root 135; pair_sets root 2; points root 5; ratios root 19; shared root 8; sky derived 1, race_level 13, root 5; sky_close race_level 9; splits root 30; strikes derived 4, duplicate 4, mirror 1, root 72
+== 14 Ocean Quest / 14 Shane Foley   [ascot_1350_20231021__P27.xlsx, L2 v1.1 (12 Oct 2026)]
+-- counts by section: contacts root 44; eq_ratios root 3; hj_ratios root 25; links derived 2, mirror 1, root 103; movement root 6; node root 1; pair_family root 135; pair_sets root 2; points race_level 4, root 1; ratios root 19; shared root 8; sky race_level 19; sky_close race_level 9; splits root 30; strikes derived 4, duplicate 4, mirror 1, root 72
 -- Dec groups (3+ points joined by numbers)
    EQ, H Mars, H Mercury, H Pluto, J Ketu, S Makemake, S Neptune, S Pluto, S Saturn, S Transpluto, S Vesta
    J Orcus, J Pluto, S Eris, S Pallas, S Uranus
@@ -20,9 +20,6 @@
    H Eris, J Neptune, S Orcus
    H Chiron, S Gonggong, S Mercury
 -- derived items (with chain)
-   DERIVED  sky Neptune–Transpluto Dec 13.22247 = 119/9
-            <- equator   S Neptune Equator 3.11107 = 28/9
-            <- equator   S Transpluto Equator 10.11139 = 91/9
    DERIVED  sky Vesta -> H Pluto Dec 41.00195 = 41
             <- equator   S Vesta Equator 18.99773 = 19
             <- equator   H Pluto Equator 22.00422 = 22
@@ -48,11 +45,7 @@
             <- strike    sky Orcus -> H Eris RA 133.00009 = 133
             <- cross     cross H Eris–J Neptune RA 104.99602 = 105
 -- roots among number items (Dec/RA)
-   S Neptune Equator 3.11107 = 28/9
-   S Transpluto Equator 10.11139 = 91/9
-   S Vesta Equator 18.99773 = 19
    H Pluto Equator 22.00422 = 22
-   S Saturn Equator 12.99441 = 13
    H H Venus–H Vesta Dec 2.77793 = 25/9
    H H Mercury–H Mars Dec 11.44478 = 103/9
    H H Jupiter–H Ketu Dec 1.88848 = 17/9
@@ -69,9 +62,6 @@
    cross H Chiron–J Pallas Dec 2.99843 = 3
    cross H Pallas–J Eris Dec 21.00217 = 21
    cross H Makemake–J Juno Dec 22.00250 = 22
-   sky Pallas–Eris Dec 2.99900 = 3
-   sky Sun–Sedna Dec 19.00217 = 19
-   sky Makemake–Transpluto Dec 11.00365 = 11
    sky Pallas -> J Orcus Dec 2.77781 = 25/9
    sky Venus -> J Gonggong Dec 27.55545 = 248/9
    sky Ceres -> J Vesta Dec 38.77757 = 349/9
@@ -105,8 +95,6 @@
    cross H Jupiter–J Venus RA 97.99575 = 98
    H Pallas moved RA 90.00142 = 90
    H Neptune moved RA 5.99128 = 6
-   sky Jupiter–Uranus RA 9.44446 = 85/9
-   sky Mercury–Gonggong RA 129.99946 = 130
    sky Orcus -> H Eris RA 133.00009 = 133
    sky Neptune -> H Gonggong RA 19.33345 = 174/9
    sky Mercury -> H Chiron RA 156.88918 = 1412/9
