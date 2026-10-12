@@ -57,6 +57,6 @@ Layer 1 v1.3 run on every race; each winner read turned into checks (tests/layer
 - contacts: sky body close to a natal body (close RA < 1.5 or Dec < 0.3; near RA < 2 or Dec < 0.6), any value incl. < 0.5; returns flagged. ~30–50 per runner.
 - hj_ratios: horse:jockey ratio on one pair without a sky leg, tight 0.005%, near 0.02%. ~15–30 per runner.
 - sky_close.json: close sky pairs (same bands), once per race.
-- Tests: tests/layer1_expect_v14.py replaces 33 former 'not listed' checks with positive checks; all 30 races pass (738/738).
+- Tests: tests/layer1_expect_v14.py replaces 37 former 'not listed' checks with positive checks; all 30 races pass (738/738).
 - Still outside by rule: stars; p > 30 ratios; sky/natal 0.01–0.014% (Perth S/H 17/7, Newcastle 12:20 Gonggong–Orcus 7/6); inside-chart pairs at
   RA 1.5–2 (Nottingham 17:50 Fentiman Rahu–Vesta RA 1.58); soaks; Wolverhampton Jupiter–Sedna 65/9, 46/9 (0.0105%).
