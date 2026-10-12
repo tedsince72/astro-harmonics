@@ -52,7 +52,9 @@ what did NOT separate winners, the blind tests so far, and the open candidates. 
   (field.txt = race page with the watch line; P##.txt = runner page with joins). Tests `python3 tests/checklist_check.py` (421/421, 13
   DIFFERENCE/EXPLAINED). Design, as-built notes and Eddie's decisions: docs/classic/checklist_reader_design.md (sections 9–11).
   Item rates: docs/classic/checklist_rates.txt. Blind batch with the frozen reader: Kempton 14:40 done (winner Hamish — its only field-only
-  item the node loop); Fontwell 16:45 done (winner Pixie Loc — its only field-only item: H Eris – J Jupiter both ends moved, as Ziggy's Dream at Wolverhampton); Goodwood 18:53 read blind (result not yet opened).
+  item the node loop); Fontwell 16:45 done (winner Pixie Loc — its only field-only item: H Eris – J Jupiter both ends moved, as Ziggy's Dream at Wolverhampton); Goodwood 18:53 done (winner Madame Tantzy, no field-only item). Musselburgh 13:45 read blind (result not yet opened).
+  Watch line fixed 12 Oct before Musselburgh: rare Jupiter–Jupiter across charts — tools/scans/watch_jupiter.py <race> -> checklist/watch_jupiter.txt;
+  print it with every race page before the result (retro on Kempton/Fontwell/Goodwood: 7 of 14 runners incl. all 3 winners).
   NB 12 Oct: one row of reference/profiles_test_scored.csv was seen by mistake — Newcastle AW 16:33 Dubai Souq / Sean Kirrane finished 6 of 6
   (7/1); that race is no longer fully blind for that runner. Do not open profiles_test_scored.csv during the blind batch (it holds blind results). Sky-anchored soak candidate scanned (no separation; checklist section 5 item 9).
 - Open candidates (built into the reader as items 14, 17, 20, 21; still not frozen rules): shared pair that is also cross-linked; the Dec 9/4 : 5/4 : 9/5 same-body split; natal body at
