@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Diffident / 4 Frankie Dettori",
  "workbook": "19960928_ascot_1435__P01.xlsx",
  "bodies": {
@@ -10966,5 +10966,90 @@
   "splits:105": "J Haumea -> J Vesta Dec span 40.36878 = moved 2.99569 (3) + 37.37309  parts ['25/2', 0.195] span/other ['10/9', 2.7859]",
   "splits:107": "J Haumea -> J Ketu Dec span 11.36860 = moved 2.99569 (3) + 8.37291  parts ['14/5', 0.1791] span/other ['11/8', 1.2521]",
   "splits:113": "J Haumea -> J Transpluto Dec span 8.01358 = moved 2.99569 (3) + 5.01789  parts ['5/3', 0.5022] span/other ['8/5', 0.1874]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Node\u2013Sun",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:96"
+    ],
+    "moved": [
+     "links:96#shape5"
+    ],
+    "same body": [
+     "same_body:3"
+    ],
+    "sky": [
+     "sky-gc 2.2913"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:96#shape1"
+    ],
+    "family": [
+     "pair_family:8",
+     "pair_family:58"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Orcus",
+   "n": 4,
+   "kinds": {
+    "shared": [
+     "shared:4"
+    ],
+    "ratio J": [
+     "ratios:21"
+    ],
+    "family": [
+     "pair_family:117"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Mars\u2013Mercury",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:66"
+    ],
+    "family": [
+     "pair_family:60"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "ratio J": [
+     "ratios:15"
+    ]
+   }
+  },
+  {
+   "pair": "Mars\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:1"
+    ],
+    "family": [
+     "pair_family:73",
+     "pair_family:74"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

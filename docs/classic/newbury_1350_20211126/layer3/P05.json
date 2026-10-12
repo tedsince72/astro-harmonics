@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Fifty Ball / 4 Jamie Moore",
  "workbook": "newbury_1350_20211126__P05.xlsx",
  "bodies": {
@@ -10410,5 +10410,94 @@
   "splits:46": "J Pallas -> H Gonggong Dec span 3.82658 = moved 3.11013 (28/9) + 0.71646  parts ['13/3', 0.1768] span/other ['16/3', 0.1437]",
   "splits:48": "J Pallas -> J Sun Dec span 8.26510 = moved 3.11013 (28/9) + 5.15497  parts ['5/3', 0.5514] span/other ['8/5', 0.2079]",
   "splits:49": "J Pallas -> J Mercury Dec span 12.94945 = moved 3.11013 (28/9) + 9.83933  parts ['19/6', 0.0956] span/other ['4/3', 1.2931]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Node\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:2",
+     "shared:3"
+    ],
+    "cross": [
+     "links:89"
+    ],
+    "sky": [
+     "sky-gc 4.7860"
+    ]
+   },
+   "near": {
+    "ratio H": [
+     "ratios:6"
+    ],
+    "family": [
+     "pair_family:59",
+     "pair_family:60",
+     "pair_family:61"
+    ]
+   }
+  },
+  {
+   "pair": "Sun\u2013Transpluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:54"
+    ],
+    "moved": [
+     "links:54#shape5"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:54#shape1"
+    ],
+    "h:j": [
+     "hj_ratios:3"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:77"
+    ],
+    "partner": [
+     "links:77#shape2"
+    ],
+    "moved": [
+     "links:77#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:77#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Neptune\u2013Pallas",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:72"
+    ],
+    "struck": [
+     "links:72#shape1"
+    ],
+    "moved": [
+     "links:72#shape4",
+     "links:72#shape5",
+     "links:72#shape5"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

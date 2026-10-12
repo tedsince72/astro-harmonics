@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "7 Sedate / 7 Joshua Bryan",
  "workbook": "newmarket_july_1745_20240816__P13.xlsx",
  "bodies": {
@@ -11203,5 +11203,43 @@
   "splits:70": "J Transpluto -> J Ketu RA span 168.02285 = moved 8.00513 (8) + 160.01772  parts ['20', 0.053] span/other None",
   "splits:71": "J Transpluto -> J Haumea RA span 47.78592 = moved 8.00513 (8) + 39.78080  parts ['5', 0.6117] span/other ['6/5', 0.1026]",
   "splits:72": "J Transpluto -> J Makemake RA span 30.65412 = moved 8.00513 (8) + 22.64899  parts ['17/6', 0.142] span/other ['4/3', 1.5082]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Saturn\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:79"
+    ],
+    "moved": [
+     "links:79#shape5"
+    ],
+    "family": [
+     "pair_family:20"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:79#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Eris\u2013Juno",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:8"
+    ],
+    "family": [
+     "pair_family:41"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

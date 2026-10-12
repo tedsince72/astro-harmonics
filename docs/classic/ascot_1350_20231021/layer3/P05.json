@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "3 Rohaan / 3 Ryan Moore",
  "workbook": "ascot_1350_20231021__P05.xlsx",
  "bodies": {
@@ -9745,5 +9745,60 @@
   "splits:64": "J Ketu -> H Orcus RA span 106.70659 = moved 57.00583 (57) + 49.70076  parts ['8/7', 0.3608] span/other ['15/7', 0.1924]",
   "splits:67": "J Ketu -> J Mercury RA span 90.17427 = moved 57.00583 (57) + 33.16844  parts ['12/7', 0.2561] span/other ['19/7', 0.1618]",
   "splits:69": "J Ketu -> J Mars RA span 113.94453 = moved 57.00583 (57) + 56.93870  parts None span/other ['2', 0.0589]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Sedna\u2013Venus",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:93"
+    ],
+    "h:j": [
+     "hj_ratios:7"
+    ],
+    "family": [
+     "pair_family:21"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:93#shape1"
+    ],
+    "partner": [
+     "links:93#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Gonggong\u2013Saturn",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:69"
+    ],
+    "family": [
+     "pair_family:42"
+    ],
+    "sky": [
+     "sky-gc 4.0084"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:69#shape1"
+    ],
+    "partner": [
+     "links:69#shape2"
+    ],
+    "family": [
+     "pair_family:41",
+     "pair_family:115"
+    ]
+   }
+  }
+ ]
 }

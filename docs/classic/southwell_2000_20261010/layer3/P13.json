@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "8 Cosmo Brown / 8 Marco Ghiani",
  "workbook": "20261010_southwell_aw_2000__P13.xlsx",
  "bodies": {
@@ -9626,5 +9626,70 @@
   "splits:7": "J Sun -> J Rahu RA span 176.13561 = moved 124.88876 (1124/9) + 51.24684  parts ['22/9', 0.3044] span/other ['24/7', 0.246]",
   "splits:8": "J Sun -> J Makemake RA span 141.56385 = moved 124.88876 (1124/9) + 16.67509  parts ['15/2', 0.1394] span/other ['17/2', 0.123]",
   "splits:9": "J Sun -> J Transpluto RA span 173.31020 = moved 124.88876 (1124/9) + 48.42144  parts ['18/7', 0.3024] span/other ['25/7', 0.2177]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Gonggong\u2013Juno",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:115"
+    ],
+    "ratio J": [
+     "ratios:24"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:115#shape1"
+    ],
+    "partner": [
+     "links:115#shape2"
+    ],
+    "family": [
+     "pair_family:55"
+    ]
+   }
+  },
+  {
+   "pair": "Mars\u2013Node",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:95"
+    ],
+    "family": [
+     "pair_family:24"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:95#shape1"
+    ],
+    "family": [
+     "pair_family:23"
+    ]
+   }
+  },
+  {
+   "pair": "Neptune\u2013Sun",
+   "n": 2,
+   "kinds": {
+    "h:j": [
+     "hj_ratios:1"
+    ],
+    "family": [
+     "pair_family:68"
+    ]
+   },
+   "near": {
+    "h:j": [
+     "hj_ratios:0"
+    ],
+    "family": [
+     "pair_family:67"
+    ]
+   }
+  }
+ ]
 }

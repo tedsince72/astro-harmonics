@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "1 Blue Collar Glory / 1 Craig Nichol",
  "workbook": "sedgefield_1500_20220510__P01.xlsx",
  "bodies": {
@@ -10368,5 +10368,27 @@
   "splits:38": "H Saturn -> J Ketu Dec span 41.81313 = moved 7.66684 (69/9) + 34.14629  parts ['9/2', 1.0275] span/other ['11/9', 0.1888]",
   "splits:40": "H Saturn -> J Sedna Dec span 26.42739 = moved 7.66684 (69/9) + 18.76055  parts ['22/9', 0.1034] span/other ['7/5', 0.6192]",
   "splits:44": "H Saturn -> J Transpluto Dec span 35.83076 = moved 7.66684 (69/9) + 28.16392  parts ['11/3', 0.1856] span/other ['9/7', 1.0494]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Mercury\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:86"
+    ],
+    "partner": [
+     "links:86#shape2"
+    ],
+    "h:j": [
+     "hj_ratios:2"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:11"
+    ]
+   }
+  }
+ ]
 }

@@ -1,6 +1,110 @@
 {
- "version": "L4 v1.1 (12 Oct 2026)",
+ "version": "L4 v1.2 (12 Oct 2026, pair focus)",
  "race": "newcastle_aw_1640_20220215",
+ "pair_focus": {
+  "P01": {
+   "top": "Pluto\u2013Sedna",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "partner",
+    "moved"
+   ],
+   "tied_pairs": [
+    "Pluto\u2013Sedna",
+    "Uranus\u2013Venus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P03": {
+   "top": "Juno\u2013Uranus",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "struck",
+    "partner",
+    "moved"
+   ],
+   "tied_pairs": [
+    "Juno\u2013Uranus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P05": {
+   "top": "Chiron\u2013Sun",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Chiron\u2013Sun",
+    "Chiron\u2013Uranus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P07": {
+   "top": "Neptune\u2013Node",
+   "n": 5,
+   "kinds": [
+    "cross",
+    "partner",
+    "moved",
+    "family",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Neptune\u2013Node"
+   ],
+   "field_max": true,
+   "most_lit_alone": true,
+   "same_pair_elsewhere": {}
+  },
+  "P09": {
+   "top": "Jupiter\u2013Sedna",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "partner",
+    "moved"
+   ],
+   "tied_pairs": [
+    "Jupiter\u2013Sedna"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {
+    "P03": 3
+   }
+  },
+  "P11": {
+   "top": "Gonggong\u2013Pallas",
+   "n": 2,
+   "kinds": [
+    "cross",
+    "h:j"
+   ],
+   "tied_pairs": [
+    "Gonggong\u2013Pallas",
+    "Chiron\u2013Quaoar",
+    "Uranus\u2013Vesta"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  }
+ },
+ "pair_focus_max": 5,
+ "pair_focus_leaders": [
+  "P07"
+ ],
  "runners": [
   {
    "P": "P01",
@@ -318,7 +422,9 @@
    ]
   },
   "P07": {
-   "strict": [],
+   "strict": [
+    "pair focus"
+   ],
    "broad": [],
    "with_one_other_strict": [
     "7"

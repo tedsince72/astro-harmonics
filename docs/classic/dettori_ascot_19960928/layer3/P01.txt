@@ -1,4 +1,4 @@
-== 4 Diffident / 4 Frankie Dettori   [19960928_ascot_1435__P01.xlsx, L3 v1.2 (12 Oct 2026)]
+== 4 Diffident / 4 Frankie Dettori   [19960928_ascot_1435__P01.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): H Saturn, H Pallas, H Node, J Sun, J Neptune, J Node
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Saturn       BPRSX  tight 5
@@ -719,6 +719,25 @@
         sky Transpluto -> J Orcus GC 34.22181 = 308/9
         sky Venus on J Orcus RA 34.2899 Dec 0.1185
         sky Transpluto on J Orcus RA 35.2248 Dec 0.3529 near
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Node–Sun               4 kinds: cross, moved, same body, sky   near: struck, family
+        cross: cross H Rahu–J Sun RA 17.9012 Dec 0.2138
+        moved: cross H Rahu–J Sun RA 17.9012 Dec 0.2138
+        same body: same-body Rahu GC 2 : 3/2 : 3 (worst 0.0245%)
+        sky: sky-gc 2.2913
+   Node–Orcus             4 kinds: shared, ratio J, family, same body
+        shared: shared Rahu–Orcus GC H 143.9150 J 144.5589
+        ratio J: J Rahu–Orcus RA sky 51.2693 natal 143.5574 14/5 (0.0024%)
+        family: J Ketu–Orcus Flat sky Ketu – J Orcus 104.7972 vs NN 36.4508 23/8 (0.0010%)
+        same body: same-body Rahu GC 2 : 3/2 : 3 (worst 0.0245%)
+   Mars–Mercury           3 kinds: cross, family, same body   near: ratio J
+        cross: cross H Mars–J Mercury RA 8.7572 Dec 0.1541
+        family: J Mercury–Mars Dec J Mercury – sky Mars 42.5442 vs NN 11.4543 26/7 (0.0007%)
+        same body: same-body Mars RA 16/7 : 16/9 : 9/7 (worst 0.0052%)
+   Mars–Orcus             3 kinds: shared, family, same body
+        shared: shared Mars–Orcus Dec H 26.4565 J 26.3344
+        family: J Mars–Orcus RA sky Mars – J Orcus 22.7375 vs NN 102.3152 9/2 (0.0035%); J Mars–Orcus Flat sky Mars – J Orcus 23.2295 vs TT 18.0672 9/7 (0.0012%)
+        same body: same-body Mars RA 16/7 : 16/9 : 9/7 (worst 0.0052%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Neptune–Vesta: H H Neptune–H Vesta GC 111.00274 = 111
    recurring pair Jupiter–Vesta: J J Jupiter–J Vesta Dec 2.00363 = 2

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "6 Scandinavia / 6 Tom Marquand",
  "workbook": "newmarket_july_1745_20240816__P11.xlsx",
  "bodies": {
@@ -10631,5 +10631,79 @@
   "hj_ratios:13": "horse:jockey Eris\u2013Quaoar Flat H 110.4366 J 138.0228 5/4 near",
   "hj_ratios:14": "horse:jockey Sedna\u2013Gonggong Dec H 19.3559 J 22.5820 7/6",
   "splits:42": "J Jupiter -> J Makemake Dec span 41.09742 = moved 29.66567 (267/9) + 11.43175  parts ['13/5', 0.1913] span/other ['18/5', 0.1382]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Sun\u2013Vesta",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:56"
+    ],
+    "family": [
+     "pair_family:5",
+     "pair_family:61"
+    ],
+    "same body": [
+     "same_body:0"
+    ],
+    "sky": [
+     "sky-gc 3.8849"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:56#shape1"
+    ],
+    "partner": [
+     "links:56#shape2"
+    ],
+    "family": [
+     "pair_family:4"
+    ]
+   }
+  },
+  {
+   "pair": "Quaoar\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:82"
+    ],
+    "h:j": [
+     "hj_ratios:11"
+    ],
+    "family": [
+     "pair_family:131"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:82#shape1"
+    ],
+    "partner": [
+     "links:82#shape2"
+    ],
+    "family": [
+     "pair_family:132"
+    ]
+   }
+  },
+  {
+   "pair": "Pallas\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "h:j": [
+     "hj_ratios:0"
+    ],
+    "family": [
+     "pair_family:60"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

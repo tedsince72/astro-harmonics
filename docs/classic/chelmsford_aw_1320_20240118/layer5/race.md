@@ -1,4 +1,4 @@
-# chelmsford_aw_1320_20240118 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# chelmsford_aw_1320_20240118 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P03 2 Sullivan Bay / 2 Shane Kelly**
@@ -11,6 +11,7 @@
 - **Only runner in the field (strict): both ends of the cross link have moved** — horse Rahu–Cole Pluto RA 42.8250 Dec 0.1262; horse Rahu moved Flat 172.55658 = 1553/9; Cole Pluto moved Dec 12.00836 = 12  _(rests on 3 independent facts)_
 
 **P07 4 New York Bay / 4 Finley Marsh**
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Ceres–Node, 5 kinds: cross, partner, moved, ratio H, family; not lit in any other runner
 - Shared with one other runner (P15), strict: cross link struck on both ends — horse Chiron–Marsh Jupiter RA 0.0949 Dec 4.1932; sky Rahu -> horse Chiron RA 14.00291 = 14; sky Ketu -> horse Chiron RA 165.99709 = 166
 
 **P09 5 Reset Button / 5 Jack Gilligan**

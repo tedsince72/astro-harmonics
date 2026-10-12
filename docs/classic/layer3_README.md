@@ -31,3 +31,10 @@ Independent checker recomputed 327 shapes (Sandown 2024, Perth) and all 230 Pert
 - shape 1 'multi' now folds Rahu/Ketu like strict_multi;
 - roots_behind counts a link's close fact and its numbers as one root.
 Tests: layer2_check all pass (5,078 chains exact, one tag per item); layer3_check 32/32.
+
+## v1.3 pair focus (12 Oct 2026, design pair_focus_design.md, approved)
+Built into Layers 3 (pair_focus list), 4 (each runner's top pair, field max, most-lit alone) and 5 (section 1 and the start of the web).
+Tests: Exeter Chiron–Juno most-lit alone; York 16:15 and Newmarket July Venus–Uranus among the winner's 3+-kind pairs; all earlier tests pass.
+Descriptive table, all race folders with results (NOT evidence): winner's top pair the field's most-lit ALONE in 2 of 36 (Exeter, Perth)
+plus 9 ties; other runners alone 15 of 192 — about what chance gives. Ties and leaders are often slow-body pairs shared by age
+(Orcus–Transpluto, Haumea–Node), and the count ignores how tight each kind is. As built, the count alone does not separate winners.

@@ -1,4 +1,4 @@
-# wolverhampton_aw_1725_20231021 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# wolverhampton_aw_1725_20231021 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Gladly Ever After / 1 Taylor Fisher**
@@ -11,7 +11,7 @@
 - **Only runner in the field (strict): both ends of the cross link have moved** — horse Eris–O'Neill Jupiter RA 1.1336 Dec 11.0770; horse Eris moved RA 0.88940 = 8/9; O'Neill Jupiter moved GC 13.55604 = 122/9  _(rests on 3 independent facts)_
 
 **P07 4 Come On You Spurs / 4 Harry Davies**
-- Nothing that no other runner has.
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Node–Sun, 6 kinds: shared, cross, moved, ratio J, set, sky; the same pair in other runners: P19 4
 
 **P09 5 Diligencia / 5 Charles Bishop**
 - Nothing that no other runner has.

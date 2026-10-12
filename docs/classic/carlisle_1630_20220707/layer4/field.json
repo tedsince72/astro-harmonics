@@ -1,6 +1,107 @@
 {
- "version": "L4 v1.1 (12 Oct 2026)",
+ "version": "L4 v1.2 (12 Oct 2026, pair focus)",
  "race": "carlisle_1630_20220707",
+ "pair_focus": {
+  "P01": {
+   "top": "Jupiter\u2013Pallas",
+   "n": 2,
+   "kinds": [
+    "cross",
+    "partner"
+   ],
+   "tied_pairs": [
+    "Jupiter\u2013Pallas",
+    "Juno\u2013Node",
+    "Jupiter\u2013Neptune"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P03": {
+   "top": "Node\u2013Sun",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "struck",
+    "partner",
+    "family"
+   ],
+   "tied_pairs": [
+    "Node\u2013Sun"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P05": {
+   "top": "Gonggong\u2013Vesta",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "sky"
+   ],
+   "tied_pairs": [
+    "Gonggong\u2013Vesta"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P07": {
+   "top": "Node\u2013Sedna",
+   "n": 3,
+   "kinds": [
+    "ratio J",
+    "h:j",
+    "family"
+   ],
+   "tied_pairs": [
+    "Node\u2013Sedna",
+    "Eris\u2013Mercury"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P09": {
+   "top": "Gonggong\u2013Node",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "moved",
+    "ratio J",
+    "family"
+   ],
+   "tied_pairs": [
+    "Gonggong\u2013Node"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P11": {
+   "top": "Neptune\u2013Node",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "partner",
+    "family"
+   ],
+   "tied_pairs": [
+    "Neptune\u2013Node"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  }
+ },
+ "pair_focus_max": 4,
+ "pair_focus_leaders": [
+  "P03",
+  "P09"
+ ],
  "runners": [
   {
    "P": "P01",

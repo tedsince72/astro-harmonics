@@ -1,6 +1,279 @@
 {
- "version": "L4 v1.1 (12 Oct 2026)",
+ "version": "L4 v1.2 (12 Oct 2026, pair focus)",
  "race": "york_1615_20240515",
+ "pair_focus": {
+  "P01": {
+   "top": "Jupiter\u2013Sedna",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "family",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Jupiter\u2013Sedna",
+    "Quaoar\u2013Uranus",
+    "Makemake\u2013Sun",
+    "Transpluto\u2013Uranus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P03": {
+   "top": "Chiron\u2013Sedna",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "struck",
+    "moved"
+   ],
+   "tied_pairs": [
+    "Chiron\u2013Sedna",
+    "Jupiter\u2013Vesta",
+    "Mars\u2013Orcus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {
+    "P11": 2,
+    "P23": 3
+   }
+  },
+  "P05": {
+   "top": "Sun\u2013Uranus",
+   "n": 3,
+   "kinds": [
+    "family",
+    "same body",
+    "sky"
+   ],
+   "tied_pairs": [
+    "Sun\u2013Uranus",
+    "Gonggong\u2013Sun",
+    "Saturn\u2013Saturn"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P07": {
+   "top": "Haumea\u2013Mars",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Haumea\u2013Mars",
+    "Makemake\u2013Orcus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P09": {
+   "top": "Neptune\u2013Node",
+   "n": 5,
+   "kinds": [
+    "cross",
+    "moved",
+    "ratio H",
+    "ratio J",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Neptune\u2013Node"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {
+    "P21": 3
+   }
+  },
+  "P11": {
+   "top": "Ceres\u2013Saturn",
+   "n": 2,
+   "kinds": [
+    "cross",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Ceres\u2013Saturn",
+    "Chiron\u2013Sedna",
+    "Mars\u2013Node"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {
+    "P27": 4
+   }
+  },
+  "P13": {
+   "top": "Eris\u2013Pallas",
+   "n": 4,
+   "kinds": [
+    "shared",
+    "cross",
+    "partner",
+    "moved"
+   ],
+   "tied_pairs": [
+    "Eris\u2013Pallas"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P15": {
+   "top": "Ceres\u2013Neptune",
+   "n": 4,
+   "kinds": [
+    "ratio H",
+    "ratio J",
+    "set",
+    "h:j"
+   ],
+   "tied_pairs": [
+    "Ceres\u2013Neptune"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P17": {
+   "top": "Mars\u2013Node",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "partner",
+    "family",
+    "sky"
+   ],
+   "tied_pairs": [
+    "Mars\u2013Node"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {
+    "P11": 2
+   }
+  },
+  "P19": {
+   "top": "Jupiter\u2013Mars",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "struck",
+    "moved",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Jupiter\u2013Mars"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P21": {
+   "top": "Juno\u2013Jupiter",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "partner",
+    "moved"
+   ],
+   "tied_pairs": [
+    "Juno\u2013Jupiter",
+    "Saturn\u2013Vesta",
+    "Chiron\u2013Pluto",
+    "Haumea\u2013Pallas",
+    "Neptune\u2013Node"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P23": {
+   "top": "Chiron\u2013Saturn",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Chiron\u2013Saturn",
+    "Chiron\u2013Sedna"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P25": {
+   "top": "Haumea\u2013Node",
+   "n": 5,
+   "kinds": [
+    "cross",
+    "struck",
+    "partner",
+    "family",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Haumea\u2013Node"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P27": {
+   "top": "Ceres\u2013Saturn",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "moved",
+    "h:j",
+    "family"
+   ],
+   "tied_pairs": [
+    "Ceres\u2013Saturn"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {
+    "P11": 2
+   }
+  },
+  "P29": {
+   "top": "Neptune\u2013Pluto",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "ratio H"
+   ],
+   "tied_pairs": [
+    "Neptune\u2013Pluto",
+    "Ceres\u2013Chiron",
+    "Makemake\u2013Pallas",
+    "Haumea\u2013Makemake",
+    "Jupiter\u2013Uranus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {
+    "P09": 3,
+    "P17": 3
+   }
+  }
+ },
+ "pair_focus_max": 5,
+ "pair_focus_leaders": [
+  "P09",
+  "P25"
+ ],
  "runners": [
   {
    "P": "P01",
@@ -2031,6 +2304,10 @@
   ],
   "recurring pair Ketu\u2013Haumea": [
    "P17"
+  ],
+  "same-body Dec 9/4 : 5/4 : 9/5 on Node": [
+   "P19",
+   "P25"
   ],
   "recurring cross link horse Sedna \u2013 jockey Chiron": [
    "P23",

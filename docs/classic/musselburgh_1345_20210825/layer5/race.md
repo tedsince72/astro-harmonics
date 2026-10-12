@@ -1,7 +1,8 @@
-# musselburgh_1345_20210825 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# musselburgh_1345_20210825 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Major Snugfit / 1 Paul Mulrennan**
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Ceres–Eris, 5 kinds: cross, partner, moved, family, same body; not lit in any other runner
 - Shared with one other runner (P07), strict: both ends of the cross link have moved — horse Saturn–Mulrennan Uranus RA 13.0114 Dec 0.1784; horse Saturn moved Dec 2.00217 = 2; Mulrennan Uranus moved RA 160.00914 = 160
 
 **P03 2 Inside Intel / 2 Jason Hart**

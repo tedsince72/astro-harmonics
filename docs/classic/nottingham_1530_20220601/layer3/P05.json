@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Ballet Steps / 4 Kieran Shoemark",
  "workbook": "nottingham_1530_20220601__P05.xlsx",
  "bodies": {
@@ -10891,5 +10891,59 @@
   "splits:65": "J Gonggong -> H Eris RA span 55.33774 = moved 6.88960 (62/9) + 48.44815  parts ['7', 0.4582] span/other ['8/7', 0.057]",
   "splits:66": "J Gonggong -> H Sedna RA span 86.26793 = moved 6.88960 (62/9) + 79.37834  parts ['23/2', 0.1868] span/other ['10/9', 2.1885]",
   "splits:67": "J Gonggong -> J Saturn RA span 21.66886 = moved 6.88960 (62/9) + 14.77926  parts ['15/7', 0.1073] span/other ['13/9', 1.5038]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Haumea\u2013Pallas",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:112"
+    ],
+    "moved": [
+     "links:112#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:112#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Quaoar",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:118"
+    ],
+    "moved": [
+     "links:118#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:118#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Neptune",
+   "n": 2,
+   "kinds": {
+    "family": [
+     "pair_family:64"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:7",
+     "pair_family:65"
+    ]
+   }
+  }
+ ]
 }

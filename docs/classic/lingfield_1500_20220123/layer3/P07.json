@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "5 Itchy Feet / 5 Gavin Sheehan",
  "workbook": "lingfield_1500_20220123__P07.xlsx",
  "bodies": {
@@ -10451,5 +10451,63 @@
   "splits:50": "J Transpluto -> H Makemake RA span 46.80771 = moved 10.44491 (94/9) + 36.36280  parts ['7/2', 0.5317] span/other ['9/7', 0.1188]",
   "splits:52": "J Transpluto -> J Jupiter RA span 16.24711 = moved 10.44491 (94/9) + 5.80220  parts ['9/5', 0.0091] span/other ['14/5', 0.0058]",
   "splits:61": "J Transpluto -> J Haumea RA span 43.87980 = moved 10.44491 (94/9) + 33.43489  parts ['16/5', 0.0334] span/other ['4/3', 1.5703]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Jupiter\u2013Mercury",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:71"
+    ],
+    "partner": [
+     "links:71#shape2"
+    ],
+    "moved": [
+     "links:71#shape5"
+    ],
+    "family": [
+     "pair_family:6"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:71#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Haumea\u2013Mars",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:70"
+    ],
+    "struck": [
+     "links:70#shape1"
+    ],
+    "moved": [
+     "links:70#shape5"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Mercury\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:63"
+    ],
+    "struck": [
+     "links:63#shape1"
+    ],
+    "family": [
+     "pair_family:58",
+     "pair_family:59"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

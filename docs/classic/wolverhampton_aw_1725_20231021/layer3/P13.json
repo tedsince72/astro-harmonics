@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "7 Miss Anya / 7 Finley Marsh",
  "workbook": "wolverhampton_aw_1725_20231021__P13.xlsx",
  "bodies": {
@@ -11253,5 +11253,27 @@
   "hj_ratios:16": "horse:jockey Pallas\u2013Orcus Flat H 169.9779 J 123.6375 11/8 near",
   "hj_ratios:17": "horse:jockey Rahu\u2013Haumea RA H 142.6030 J 51.8558 11/4",
   "hj_ratios:18": "horse:jockey Haumea\u2013Transpluto Dec H 5.1301 J 8.2095 8/5 near"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Juno\u2013Pluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:81"
+    ],
+    "moved": [
+     "links:81#shape5"
+    ],
+    "family": [
+     "pair_family:100"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:81#shape1"
+    ]
+   }
+  }
+ ]
 }

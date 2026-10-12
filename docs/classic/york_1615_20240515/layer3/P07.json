@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Elmonjed / 4 Jim Crowley",
  "workbook": "york_1615_20240515__P07.xlsx",
  "bodies": {
@@ -11069,5 +11069,47 @@
   "splits:115": "J Haumea -> J Uranus Dec span 39.64381 = moved 9.00791 (9) + 30.63590  parts ['17/5', 0.0294] span/other ['9/7', 0.6469]",
   "splits:119": "J Haumea -> J Ceres Dec span 54.31988 = moved 9.00791 (9) + 45.31197  parts ['5', 0.6048] span/other ['6/5', 0.1002]",
   "splits:127": "J Haumea -> J Quaoar Dec span 34.97413 = moved 9.00791 (9) + 25.96622  parts ['26/9', 0.2177] span/other ['4/3', 1.0182]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Haumea\u2013Mars",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:61"
+    ],
+    "moved": [
+     "links:61#shape5"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:61#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Makemake\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:107"
+    ],
+    "moved": [
+     "links:107#shape5"
+    ],
+    "h:j": [
+     "hj_ratios:17"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:107#shape1"
+    ]
+   }
+  }
+ ]
 }

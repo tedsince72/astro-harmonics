@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "5 Saint Lawrence / 5 Hollie Doyle",
  "workbook": "ascot_1350_20231021__P09.xlsx",
  "bodies": {
@@ -9636,5 +9636,47 @@
   "splits:64": "J Venus -> J Sun Dec span 16.26453 = moved 1.99779 (2) + 14.26673  parts ['29/4', 1.5] span/other ['8/7', 0.2472]",
   "splits:67": "J Venus -> J Saturn Dec span 10.26583 = moved 1.99779 (2) + 8.26804  parts ['29/7', 0.1031] span/other ['5/4', 0.6697]",
   "splits:71": "J Venus -> J Chiron Dec span 17.77609 = moved 1.99779 (2) + 15.77830  parts ['8', 1.2766] span/other ['9/8', 0.1437]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Mercury\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:57"
+    ],
+    "moved": [
+     "links:57#shape5"
+    ],
+    "sky": [
+     "sky-gc 3.9313"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:57#shape1"
+    ],
+    "family": [
+     "pair_family:10",
+     "pair_family:89"
+    ]
+   }
+  },
+  {
+   "pair": "Neptune\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:71"
+    ],
+    "struck": [
+     "links:71#shape1"
+    ],
+    "moved": [
+     "links:71#shape5"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

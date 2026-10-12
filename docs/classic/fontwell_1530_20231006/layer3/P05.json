@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "3 Kilcummin / 3 David Noonan",
  "workbook": "fontwell_1530_20231006__P05.xlsx",
  "bodies": {
@@ -8746,5 +8746,62 @@
   "splits:31": "J Gonggong -> J Ketu Dec span 28.96270 = moved 7.66653 (69/9) + 21.29617  parts ['25/9', 0.0012] span/other ['11/8', 1.0912]",
   "splits:35": "J Gonggong -> J Makemake Dec span 51.77330 = moved 7.66653 (69/9) + 44.10677  parts ['23/4', 0.055] span/other ['7/6', 0.6129]",
   "splits:36": "J Gonggong -> J Orcus Dec span 19.59392 = moved 7.66653 (69/9) + 11.92739  parts ['14/9', 0.0141] span/other ['13/8', 1.0933]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Gonggong\u2013Juno",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:93"
+    ],
+    "moved": [
+     "links:93#shape5"
+    ],
+    "same body": [
+     "same_body:1",
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:93#shape1"
+    ],
+    "h:j": [
+     "hj_ratios:16"
+    ],
+    "family": [
+     "pair_family:139"
+    ]
+   }
+  },
+  {
+   "pair": "Sedna\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:82",
+     "links:89"
+    ],
+    "moved": [
+     "links:82#shape5"
+    ],
+    "family": [
+     "pair_family:58"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:82#shape1",
+     "links:89#shape1"
+    ],
+    "partner": [
+     "links:82#shape2"
+    ],
+    "family": [
+     "pair_family:141"
+    ]
+   }
+  }
+ ]
 }

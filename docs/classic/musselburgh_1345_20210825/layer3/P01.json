@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "1 Major Snugfit / 1 Paul Mulrennan",
  "workbook": "20210825_musselburgh_1345__P01.xlsx",
  "bodies": {
@@ -11480,5 +11480,174 @@
   "splits:71": "H Rahu -> J Haumea Dec span 21.09739 = moved 17.99142 (18) + 3.10597  parts ['29/5', 0.129] span/other ['27/4', 0.6299]",
   "splits:76": "J Uranus -> H Sedna RA span 172.82071 = moved 160.00914 (160) + 12.81156  parts ['25/2', 0.0845] span/other ['27/2', 0.0783]",
   "splits:77": "J Uranus -> J Chiron RA span 167.62357 = moved 160.00914 (160) + 7.61443  parts ['21', 0.0664] span/other ['22', 0.0634]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Ceres\u2013Eris",
+   "n": 5,
+   "kinds": {
+    "cross": [
+     "links:85"
+    ],
+    "partner": [
+     "links:85#shape2"
+    ],
+    "moved": [
+     "links:85#shape5"
+    ],
+    "family": [
+     "pair_family:110"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:85#shape1"
+    ],
+    "h:j": [
+     "hj_ratios:17"
+    ],
+    "family": [
+     "pair_family:109"
+    ]
+   }
+  },
+  {
+   "pair": "Ceres\u2013Venus",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:59"
+    ],
+    "struck": [
+     "links:59#shape1"
+    ],
+    "moved": [
+     "links:59#shape5"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:70"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Pluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:79"
+    ],
+    "family": [
+     "pair_family:39"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:79#shape1"
+    ],
+    "partner": [
+     "links:79#shape2"
+    ],
+    "family": [
+     "pair_family:102"
+    ]
+   }
+  },
+  {
+   "pair": "Mars\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:61"
+    ],
+    "moved": [
+     "links:61#shape5"
+    ],
+    "family": [
+     "pair_family:16",
+     "pair_family:72"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:61#shape1"
+    ],
+    "family": [
+     "pair_family:71"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Pluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:67"
+    ],
+    "partner": [
+     "links:67#shape2"
+    ],
+    "moved": [
+     "links:67#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:67#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:98"
+    ],
+    "moved": [
+     "links:98#shape5"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:98#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Saturn\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:69"
+    ],
+    "partner": [
+     "links:69#shape2"
+    ],
+    "moved": [
+     "links:69#shape4",
+     "links:69#shape5",
+     "links:69#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:69#shape1"
+    ]
+   }
+  }
+ ]
 }

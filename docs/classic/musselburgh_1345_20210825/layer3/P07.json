@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Graces Quest / 4 Andrew Mullen",
  "workbook": "20210825_musselburgh_1345__P07.xlsx",
  "bodies": {
@@ -11544,5 +11544,46 @@
   "splits:36": "H Gonggong -> H Eris Dec span 9.94471 = moved 0.99072 (1) + 8.95399  parts ['9', 0.4208] span/other ['10/9', 0.0419]",
   "splits:38": "H Gonggong -> H Haumea Dec span 28.74864 = moved 0.99072 (1) + 27.75793  parts ['28', 0.0641] span/other None",
   "splits:81": "H Orcus -> J Makemake RA span 9.78320 = moved 2.55550 (23/9) + 7.22770  parts ['17/6', 0.1779] span/other ['4/3', 1.5178]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Chiron\u2013Pallas",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:90"
+    ],
+    "moved": [
+     "links:90#shape5"
+    ],
+    "family": [
+     "pair_family:113"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:90#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Mars\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:73"
+    ],
+    "moved": [
+     "links:73#shape5"
+    ],
+    "family": [
+     "pair_family:53"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

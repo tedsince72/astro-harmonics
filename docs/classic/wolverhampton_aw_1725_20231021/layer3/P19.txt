@@ -1,4 +1,4 @@
-== 10 Showmethewayhome / 10 David Probert   [wolverhampton_aw_1725_20231021__P19.xlsx, L3 v1.2 (12 Oct 2026)]
+== 10 Showmethewayhome / 10 David Probert   [wolverhampton_aw_1725_20231021__P19.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): H Mars, H Ceres, H Sedna
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Mars         EMPRSX  tight 5  (near joined: E)
@@ -672,6 +672,36 @@
         sky Ceres on J Venus RA 0.6023 Dec 2.1188
         sky Ceres on J Vesta RA 1.7440 Dec 1.7988 near
         sky Gonggong on J Vesta RA 114.8232 Dec 0.2507
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Node–Sun               4 kinds: cross, struck, same body, sky
+        cross: cross H Ketu–J Sun RA 1.4350 Dec 0.1479
+        struck: cross H Ketu–J Sun RA 1.4350 Dec 0.1479
+        same body: same-body Sun Dec 10/3 : 7/3 : 10/7 (worst 0.1101%); same-body Sun GC 3/2 : 3 : 2 (worst 0.0051%)
+        sky: sky-gc 3.1380
+   Mercury–Node           3 kinds: cross, family, sky   near: struck, family
+        cross: cross H Ketu–J Mercury RA 0.8819 Dec 1.3165
+        family: H Mercury–Ketu Flat H Mercury – sky Ketu 118.5904 vs TT 4.2353 28 (0.0012%)
+        sky: sky-gc 4.1743
+   Jupiter–Mars           3 kinds: cross, moved, same body   near: struck
+        cross: cross H Mars–J Jupiter RA 1.0458 Dec 2.7165
+        moved: cross H Mars–J Jupiter RA 1.0458 Dec 2.7165
+        same body: same-body Jupiter RA 11/9 : 9/2 : 11/2 (worst 0.0458%)
+   Node–Saturn            3 kinds: cross, struck, family   near: family
+        cross: cross H Ketu–J Saturn RA 19.0707 Dec 0.0636
+        struck: cross H Ketu–J Saturn RA 19.0707 Dec 0.0636
+        family: J Saturn–Ketu Flat J Saturn – sky Ketu 71.3525 vs NN 115.9515 13/8 (0.0032%)
+   Node–Vesta             3 kinds: ratio H, family, same body   near: family
+        ratio H: H Vesta–Ketu RA sky 105.7267 natal 84.5785 5/4 (0.0034%)
+        family: J Vesta–Ketu GC sky Vesta – J Ketu 62.9161 vs TT 107.8511 12/7 (0.0047%)
+        same body: same-body Vesta Flat 11/9 : 16/9 : 13/6 (worst 0.1443%)
+   Mercury–Sun            3 kinds: family, same body, sky
+        family: H Sun–Mercury Dec sky Sun – H Mercury 5.0636 vs NN 10.1274 2 (0.0018%)
+        same body: same-body Sun Dec 10/3 : 7/3 : 10/7 (worst 0.1101%); same-body Sun GC 3/2 : 3 : 2 (worst 0.0051%)
+        sky: sky-gc 1.1745
+   Pluto–Sun              3 kinds: cross, struck, same body
+        cross: cross H Pluto–J Sun RA 45.7650 Dec 0.2039
+        struck: cross H Pluto–J Sun RA 45.7650 Dec 0.2039
+        same body: same-body Sun Dec 10/3 : 7/3 : 10/7 (worst 0.1101%); same-body Sun GC 3/2 : 3 : 2 (worst 0.0051%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Saturn–Neptune: J J Saturn–J Neptune RA 6.9697 Dec 0.4429
    recurring cross link horse Pluto – jockey Neptune: cross H Pluto–J Neptune RA 18.2895 Dec 0.0275

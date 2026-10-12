@@ -1,4 +1,4 @@
-== 7 Buxted Too / 7 David Egan   [newcastle_aw_1220_20211112__P11.xlsx, L3 v1.2 (12 Oct 2026)]
+== 7 Buxted Too / 7 David Egan   [newcastle_aw_1220_20211112__P11.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): H Jupiter, H Ceres, H Eris
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Jupiter      MPRSX  tight 5
@@ -617,6 +617,12 @@
         sky Quaoar on H Jupiter RA 48.9679 Dec 0.3229 near
         sky Jupiter on H Quaoar RA 54.2415 Dec 0.5261 near
         sky Quaoar on H Quaoar RA 2.8588 Dec 0.1522 RETURN
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Sun–Venus              4 kinds: cross, struck, h:j, family
+        cross: cross H Sun–J Venus RA 85.8832 Dec 0.2809
+        struck: cross H Sun–J Venus RA 85.8832 Dec 0.2809
+        h:j: horse:jockey Sun–Venus GC H 30.0938 J 45.1394 3/2
+        family: J Sun–Venus RA sky Sun – J Venus 91.6846 vs TT 49.3685 13/7 (0.0003%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Venus–Uranus: H H Venus–H Uranus GC 52.88937 = 476/9
    recurring pair Jupiter–Vesta: H H Jupiter–H Vesta GC 47.11106 = 424/9

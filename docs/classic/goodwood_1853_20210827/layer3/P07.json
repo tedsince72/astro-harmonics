@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Dalanijujo / 4 Tom Marquand",
  "workbook": "20210827_goodwood_1853__P07.xlsx",
  "bodies": {
@@ -10365,5 +10365,43 @@
   "splits:52": "J Eris -> J Makemake Dec span 40.76334 = moved 5.99907 (6) + 34.76428  parts ['29/5', 0.0871] span/other ['7/6', 0.5055]",
   "splits:53": "J Eris -> J Orcus Dec span 7.08926 = moved 5.99907 (6) + 1.09019  parts ['11/2', 0.0502] span/other ['13/2', 0.0425]",
   "splits:54": "J Eris -> J Transpluto Dec span 20.69254 = moved 5.99907 (6) + 14.69347  parts ['22/9', 0.1984] span/other ['7/5', 0.5915]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Mercury\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:55"
+    ],
+    "partner": [
+     "links:55#shape2"
+    ],
+    "moved": [
+     "links:55#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:55#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Eris\u2013Neptune",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:69"
+    ],
+    "partner": [
+     "links:69#shape2"
+    ],
+    "moved": [
+     "links:69#shape5"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "5 Mayfair / 5 Ryan Moore",
  "workbook": "york_1545_20240515__P09.xlsx",
  "bodies": {
@@ -10672,5 +10672,27 @@
   "splits:46": "J Eris -> J Juno Dec span 14.93651 = moved 10.66607 (96/9) + 4.27044  parts ['5/2', 0.094] span/other ['7/2', 0.0671]",
   "splits:50": "J Eris -> J Haumea Dec span 34.37899 = moved 10.66607 (96/9) + 23.71293  parts ['20/9', 0.0445] span/other ['13/9', 0.3708]",
   "splits:51": "J Eris -> J Makemake Dec span 47.87708 = moved 10.66607 (96/9) + 37.21101  parts ['7/2', 0.3221] span/other ['9/7', 0.0718]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Jupiter\u2013Neptune",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:0"
+    ],
+    "h:j": [
+     "hj_ratios:5"
+    ],
+    "family": [
+     "pair_family:22"
+    ]
+   },
+   "near": {
+    "h:j": [
+     "hj_ratios:6"
+    ]
+   }
+  }
+ ]
 }

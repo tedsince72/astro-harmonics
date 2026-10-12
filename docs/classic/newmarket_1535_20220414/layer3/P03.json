@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Cresta / 2 Tom Marquand",
  "workbook": "newmarket_1535_20220414__P03.xlsx",
  "bodies": {
@@ -8779,5 +8779,90 @@
   "splits:52": "H Orcus -> H Ketu Dec span 10.31170 = moved 0.99702 (1) + 9.31467  parts ['28/3', 0.0979] span/other ['10/9', 0.3666]",
   "splits:54": "H Orcus -> J Venus Dec span 1.85154 = moved 0.99702 (1) + 0.85452  parts ['7/6', 0.0087] span/other ['13/6', 0.0047]",
   "splits:59": "H Orcus -> J Quaoar Dec span 4.00558 = moved 0.99702 (1) + 3.00856  parts ['3', 0.5845] span/other ['4/3', 0.1453]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Gonggong\u2013Pallas",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:100"
+    ],
+    "ratio J": [
+     "ratios:17"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:100#shape1"
+    ],
+    "partner": [
+     "links:100#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:0"
+    ],
+    "family": [
+     "pair_family:5"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:4"
+    ]
+   }
+  },
+  {
+   "pair": "Pallas\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:50",
+     "links:78"
+    ],
+    "family": [
+     "pair_family:65"
+    ],
+    "same body": [
+     "same_body:1",
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:50#shape1",
+     "links:78#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Pallas",
+   "n": 3,
+   "kinds": {
+    "ratio J": [
+     "ratios:10"
+    ],
+    "family": [
+     "pair_family:72",
+     "pair_family:73"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

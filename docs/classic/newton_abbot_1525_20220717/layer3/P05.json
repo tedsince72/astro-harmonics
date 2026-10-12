@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "3 Cresswell Queen / 3 Harry Reed",
  "workbook": "newton_abbot_1525_20220717__P05.xlsx",
  "bodies": {
@@ -8520,5 +8520,27 @@
   "splits:40": "H Haumea -> H Vesta RA span 150.00437 = moved 5.99811 (6) + 144.00626  parts ['24', 0.0359] span/other None",
   "splits:49": "H Haumea -> J Pluto RA span 32.42273 = moved 5.99811 (6) + 26.42462  parts ['22/5', 0.1248] span/other ['11/9', 0.39]",
   "splits:52": "H Haumea -> J Juno RA span 162.20196 = moved 5.99811 (6) + 156.20385  parts ['26', 0.1623] span/other None"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Node\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:87"
+    ],
+    "partner": [
+     "links:87#shape2"
+    ],
+    "moved": [
+     "links:87#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:87#shape1"
+    ]
+   }
+  }
+ ]
 }

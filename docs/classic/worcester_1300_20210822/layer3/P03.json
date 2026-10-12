@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Adjali / 2 Daryl Jacob",
  "workbook": "20210822_worcester_1300__P03.xlsx",
  "bodies": {
@@ -11135,5 +11135,50 @@
   "splits:57": "J Mercury -> H Jupiter RA span 41.79969 = moved 8.11205 (73/9) + 33.68764  parts ['29/7', 0.2398] span/other ['5/4', 0.7358]",
   "splits:64": "J Mercury -> H Transpluto RA span 25.23540 = moved 8.11205 (73/9) + 17.12335  parts ['19/9', 0.0121] span/other ['3/2', 1.7506]",
   "splits:65": "J Mercury -> J Sun RA span 23.34898 = moved 8.11205 (73/9) + 15.23694  parts ['15/8', 0.1765] span/other ['14/9', 1.489]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Chiron\u2013Mars",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:49"
+    ],
+    "moved": [
+     "links:49#shape5"
+    ],
+    "family": [
+     "pair_family:19"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:49#shape1"
+    ],
+    "partner": [
+     "links:49#shape2"
+    ],
+    "family": [
+     "pair_family:73",
+     "pair_family:74"
+    ]
+   }
+  },
+  {
+   "pair": "Haumea\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:87"
+    ],
+    "moved": [
+     "links:87#shape5"
+    ],
+    "family": [
+     "pair_family:122"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

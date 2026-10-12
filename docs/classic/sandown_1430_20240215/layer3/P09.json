@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "5 Little Miss Dante / 5 Sean Bowen",
  "workbook": "sandown_1430_20240215__P09.xlsx",
  "bodies": {
@@ -9637,5 +9637,27 @@
   "splits:28": "H Mars -> J Neptune Dec span 2.72590 = moved 2.22183 (20/9) + 0.50407  parts ['22/5', 0.1773] span/other ['27/5', 0.1444]",
   "splits:36": "H Mars -> J Eris Dec span 15.49000 = moved 2.22183 (20/9) + 13.26816  parts ['6', 0.4713] span/other ['7/6', 0.0676]",
   "splits:39": "H Mars -> J Makemake Dec span 55.56380 = moved 2.22183 (20/9) + 53.34197  parts ['24', 0.0338] span/other None"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Juno\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:80"
+    ],
+    "family": [
+     "pair_family:131"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:80#shape1"
+    ]
+   }
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 King Of Cities / 4 Sean Levey",
  "workbook": "newmarket_july_1745_20240816__P07.xlsx",
  "bodies": {
@@ -10362,5 +10362,71 @@
   "splits:86": "J Sedna -> J Chiron Dec span 13.57936 = moved 4.99666 (5) + 8.58269  parts ['12/7', 0.1982] span/other ['11/7', 0.6841]",
   "splits:87": "J Sedna -> J Vesta Dec span 22.43984 = moved 4.99666 (5) + 17.44317  parts ['7/2', 0.2582] span/other ['9/7', 0.0575]",
   "splits:90": "J Sedna -> J Transpluto Dec span 10.82490 = moved 4.99666 (5) + 5.82824  parts ['7/6', 0.0207] span/other ['13/7', 0.0095]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Neptune\u2013Pluto",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:67"
+    ],
+    "struck": [
+     "links:67#shape1"
+    ],
+    "moved": [
+     "links:67#shape5"
+    ],
+    "family": [
+     "pair_family:82"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:81"
+    ]
+   }
+  },
+  {
+   "pair": "Eris\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:50"
+    ],
+    "moved": [
+     "links:50#shape5"
+    ],
+    "family": [
+     "pair_family:44"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:50#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Mars\u2013Quaoar",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:57"
+    ],
+    "struck": [
+     "links:57#shape1"
+    ],
+    "set": [
+     "pair_sets:0"
+    ]
+   },
+   "near": {
+    "h:j": [
+     "hj_ratios:8",
+     "hj_ratios:9"
+    ]
+   }
+  }
+ ]
 }

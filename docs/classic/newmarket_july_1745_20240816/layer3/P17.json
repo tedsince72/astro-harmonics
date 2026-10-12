@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "9 Big Gypsy King / 9 Neil Callan",
  "workbook": "newmarket_july_1745_20240816__P17.xlsx",
  "bodies": {
@@ -11180,5 +11180,70 @@
   "splits:128": "J Transpluto -> J Juno Dec span 19.34245 = moved 5.44438 (49/9) + 13.89806  parts ['23/9', 0.1104] span/other ['7/5', 0.5902]",
   "splits:131": "J Transpluto -> J Ketu Dec span 15.63827 = moved 5.44438 (49/9) + 10.19389  parts ['15/8', 0.1404] span/other ['14/9', 1.3804]",
   "splits:135": "J Transpluto -> J Quaoar Dec span 26.27341 = moved 5.44438 (49/9) + 20.82903  parts ['23/6', 0.197] span/other ['5/4', 0.9108]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Makemake\u2013Transpluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:115"
+    ],
+    "moved": [
+     "links:115#shape5"
+    ],
+    "family": [
+     "pair_family:125"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:115#shape1"
+    ],
+    "partner": [
+     "links:115#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Transpluto\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:73"
+    ],
+    "partner": [
+     "links:73#shape2"
+    ],
+    "moved": [
+     "links:73#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:73#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Uranus\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:71"
+    ],
+    "moved": [
+     "links:71#shape5"
+    ],
+    "ratio H": [
+     "ratios:3"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:71#shape1"
+    ]
+   }
+  }
+ ]
 }

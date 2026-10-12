@@ -1,4 +1,4 @@
-== sandown_1425_20211204  field of 5   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
+== sandown_1425_20211204  field of 5   [L4 v1.2 (12 Oct 2026, pair focus)]  (blind: no finishing positions)
 -- runners: P01 1 Captain Guinness / 1 Rachael Blackmore; P03 2 Chacun Pour Soi / 2 Mr P W Mullins; P05 3 Greaneteen / 3 Bryony Le Clerc; P07 4 Hitman / 4 Harry Cobden; P09 5 Nube Negra / 5 Harry Skelton
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              3/5: P01:2 P07:1 P09:1  |   5: P01:17 P03:5 P05:16 P07:13 P09:21
@@ -33,7 +33,13 @@
    P01 1 Captain Guinness / 1 Rachael Blackmore: only (strict) -; only (broad) 6; strict, shared with one other -
    P03 2 Chacun Pour Soi / 2 Mr P W Mullins: only (strict) -; only (broad) -; strict, shared with one other 12
    P05 3 Greaneteen / 3 Bryony Le Clerc: only (strict) 1m; only (broad) -; strict, shared with one other 4,12
-   P09 5 Nube Negra / 5 Harry Skelton: only (strict) -; only (broad) -; strict, shared with one other 4
+   P09 5 Nube Negra / 5 Harry Skelton: only (strict) pair focus; only (broad) -; strict, shared with one other 4
+-- pair focus: each runner's most-lit pair (kinds of root item); field max 4 — P09
+   P01 1 Captain Guinness / 1 Rachael Blackmore Node–Orcus             3  cross, struck, family
+   P03 2 Chacun Pour Soi / 2 Mr P W Mullins     Node–Quaoar            3  cross, moved, same body
+   P05 3 Greaneteen / 3 Bryony Le Clerc         Juno–Mercury           3  cross, moved, family
+   P07 4 Hitman / 4 Harry Cobden                Node–Orcus             3  cross, h:j, family
+   P09 5 Nube Negra / 5 Harry Skelton           Orcus–Pallas           4  cross, partner, moved, same body  <- most-lit pair in the field
 -- strong hubs across the field
    J Mercury      2: P01 P05
    H Mars         1: P01

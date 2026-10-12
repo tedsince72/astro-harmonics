@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "3 Emitom / 3 Brian Hughes",
  "workbook": "haydock_1405_20220219__P05.xlsx",
  "bodies": {
@@ -9960,5 +9960,23 @@
   "splits:21": "J Sedna -> J Juno RA span 142.40835 = moved 18.00539 (18) + 124.40296  parts ['7', 1.2971] span/other ['8/7', 0.1643]",
   "splits:22": "J Sedna -> J Vesta RA span 164.09947 = moved 18.00539 (18) + 146.09408  parts ['8', 1.4238] span/other ['9/8', 0.156]",
   "splits:24": "J Sedna -> J Makemake RA span 122.28472 = moved 18.00539 (18) + 104.27932  parts ['29/5', 0.1455] span/other ['7/6', 0.5141]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Chiron\u2013Pallas",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:73"
+    ],
+    "moved": [
+     "links:73#shape5"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

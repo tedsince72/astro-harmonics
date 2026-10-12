@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "5 Oscar Montel / 5 Brian Hughes",
  "workbook": "20210822_worcester_1300__P09.xlsx",
  "bodies": {
@@ -10375,5 +10375,99 @@
   "splits:51": "J Gonggong -> J Sedna Dec span 25.09086 = moved 10.00373 (10) + 15.08713  parts ['3/2', 0.5433] span/other ['5/3', 0.2161]",
   "splits:52": "J Gonggong -> J Haumea Dec span 45.33565 = moved 10.00373 (10) + 35.33192  parts ['7/2', 0.9106] span/other ['9/7', 0.2005]",
   "splits:54": "J Gonggong -> J Orcus Dec span 28.08895 = moved 10.00373 (10) + 18.08522  parts ['9/5', 0.4359] span/other ['14/9', 0.155]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Ceres\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:92"
+    ],
+    "moved": [
+     "links:92#shape5"
+    ],
+    "family": [
+     "pair_family:38"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:92#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "ratio J": [
+     "ratios:11"
+    ],
+    "family": [
+     "pair_family:104"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:103"
+    ]
+   }
+  },
+  {
+   "pair": "Mars\u2013Mercury",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:68"
+    ],
+    "same body": [
+     "same_body:0"
+    ],
+    "sky": [
+     "sky-gc 3.4109"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:68#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Mercury",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:69"
+    ],
+    "struck": [
+     "links:69#shape1"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Neptune\u2013Node",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:1"
+    ],
+    "ratio H": [
+     "ratios:3"
+    ],
+    "family": [
+     "pair_family:32"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

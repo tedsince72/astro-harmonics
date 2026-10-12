@@ -1,6 +1,114 @@
 {
- "version": "L4 v1.1 (12 Oct 2026)",
+ "version": "L4 v1.2 (12 Oct 2026, pair focus)",
  "race": "newcastle_1540_20220311",
+ "pair_focus": {
+  "P01": {
+   "top": "Node\u2013Pluto",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "moved",
+    "h:j",
+    "family"
+   ],
+   "tied_pairs": [
+    "Node\u2013Pluto",
+    "Jupiter\u2013Vesta"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P03": {
+   "top": "Mars\u2013Venus",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "struck",
+    "partner",
+    "sky"
+   ],
+   "tied_pairs": [
+    "Mars\u2013Venus",
+    "Gonggong\u2013Pallas"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P05": {
+   "top": "Ceres\u2013Haumea",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Ceres\u2013Haumea",
+    "Sedna\u2013Sun",
+    "Ceres\u2013Chiron",
+    "Chiron\u2013Node",
+    "Haumea\u2013Saturn"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P07": {
+   "top": "Juno\u2013Orcus",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "struck",
+    "partner"
+   ],
+   "tied_pairs": [
+    "Juno\u2013Orcus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P09": {
+   "top": "Pallas\u2013Pallas",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "struck",
+    "partner",
+    "moved"
+   ],
+   "tied_pairs": [
+    "Pallas\u2013Pallas"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P11": {
+   "top": "Jupiter\u2013Node",
+   "n": 2,
+   "kinds": [
+    "cross",
+    "family"
+   ],
+   "tied_pairs": [
+    "Jupiter\u2013Node",
+    "Ceres\u2013Saturn",
+    "Ceres\u2013Venus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  }
+ },
+ "pair_focus_max": 4,
+ "pair_focus_leaders": [
+  "P01",
+  "P03",
+  "P09"
+ ],
  "runners": [
   {
    "P": "P01",

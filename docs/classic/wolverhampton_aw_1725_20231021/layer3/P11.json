@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "6 Land Of Hope / 6 Jack Mitchell",
  "workbook": "wolverhampton_aw_1725_20231021__P11.xlsx",
  "bodies": {
@@ -9893,5 +9893,27 @@
   "hj_ratios:14": "horse:jockey Rahu\u2013Quaoar Flat H 165.3331 J 105.2190 11/7 near",
   "hj_ratios:15": "horse:jockey Ketu\u2013Sedna RA H 161.4873 J 117.4306 11/8 near",
   "hj_ratios:16": "horse:jockey Haumea\u2013Makemake Dec H 7.4188 J 13.1915 16/9 near"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Pluto\u2013Saturn",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:77"
+    ],
+    "moved": [
+     "links:77#shape5"
+    ],
+    "family": [
+     "pair_family:92"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:77#shape1"
+    ]
+   }
+  }
+ ]
 }

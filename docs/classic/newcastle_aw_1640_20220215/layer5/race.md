@@ -1,4 +1,4 @@
-# newcastle_aw_1640_20220215 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# newcastle_aw_1640_20220215 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Sir Chauvelin / 1 Paul Mulrennan**
@@ -13,6 +13,7 @@
 - Shared with one other runner (P03), strict: cross link struck on both ends — horse Uranus–Lee Chiron RA 0.3690 Dec 0.8195; sky Rahu -> horse Uranus GC 32.77777 = 295/9; sky Ketu -> horse Uranus GC 147.22223 = 1325/9
 
 **P07 4 Onesmoothoperator / 4 Harry Russell**
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Neptune–Node, 5 kinds: cross, partner, moved, family, same body; not lit in any other runner
 - Shared with one other runner (P01), strict: triangle struck at every corner by one sky body — horse Venus–Russell Jupiter RA 36.99770 = 37; horse Venus–Russell Sedna RA 49.00088 = 49; Russell Jupiter–Russell Sedna RA 85.99858 = 86
 
 **P09 5 Aced It / 5 Jack Mitchell**

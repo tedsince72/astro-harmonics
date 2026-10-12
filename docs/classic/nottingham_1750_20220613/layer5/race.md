@@ -1,4 +1,4 @@
-# nottingham_1750_20220613 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# nottingham_1750_20220613 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Applaud Now / 1 John Fahy**

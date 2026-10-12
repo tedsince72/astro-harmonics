@@ -1,6 +1,124 @@
 {
- "version": "L4 v1.1 (12 Oct 2026)",
+ "version": "L4 v1.2 (12 Oct 2026, pair focus)",
  "race": "catterick_1505_20211119",
+ "pair_focus": {
+  "P01": {
+   "top": "Node\u2013Sun",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "h:j",
+    "family",
+    "sky"
+   ],
+   "tied_pairs": [
+    "Node\u2013Sun",
+    "Eris\u2013Mars"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {
+    "P05": 3,
+    "P09": 4
+   }
+  },
+  "P03": {
+   "top": "Node\u2013Sedna",
+   "n": 2,
+   "kinds": [
+    "cross",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Node\u2013Sedna",
+    "Chiron\u2013Saturn",
+    "Haumea\u2013Node"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P05": {
+   "top": "Node\u2013Sun",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "same body",
+    "sky"
+   ],
+   "tied_pairs": [
+    "Node\u2013Sun",
+    "Sun\u2013Vesta",
+    "Eris\u2013Haumea",
+    "Eris\u2013Mars",
+    "Juno\u2013Node"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {
+    "P01": 4,
+    "P09": 4
+   }
+  },
+  "P07": {
+   "top": "Haumea\u2013Saturn",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Haumea\u2013Saturn",
+    "Orcus\u2013Transpluto",
+    "Gonggong\u2013Node",
+    "Haumea\u2013Vesta",
+    "Mercury\u2013Venus",
+    "Saturn\u2013Venus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P09": {
+   "top": "Mercury\u2013Node",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "partner",
+    "moved",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Mercury\u2013Node",
+    "Node\u2013Sun"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P11": {
+   "top": "Juno\u2013Makemake",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "family"
+   ],
+   "tied_pairs": [
+    "Juno\u2013Makemake",
+    "Haumea\u2013Quaoar"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  }
+ },
+ "pair_focus_max": 4,
+ "pair_focus_leaders": [
+  "P01",
+  "P09"
+ ],
  "runners": [
   {
    "P": "P01",
@@ -760,6 +878,9 @@
    "P09"
   ],
   "recurring pair Vesta\u2013Neptune": [
+   "P11"
+  ],
+  "same-body Dec 9/4 : 5/4 : 9/5 on Node": [
    "P11"
   ]
  },

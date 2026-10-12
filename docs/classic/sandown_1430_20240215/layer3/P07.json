@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Jeune Belle / 4 Bryony Le Clerc",
  "workbook": "sandown_1430_20240215__P07.xlsx",
  "bodies": {
@@ -9559,5 +9559,47 @@
   "hj_ratios:15": "horse:jockey Eris\u2013Sedna Dec H 9.8491 J 12.6651 9/7 near",
   "hj_ratios:16": "horse:jockey Eris\u2013Orcus GC H 125.5326 J 109.8583 8/7 near",
   "hj_ratios:17": "horse:jockey Gonggong\u2013Quaoar Dec H 3.3675 J 4.1153 11/9 near"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Juno\u2013Saturn",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:91"
+    ],
+    "struck": [
+     "links:91#shape1"
+    ],
+    "family": [
+     "pair_family:106"
+    ]
+   },
+   "near": {
+    "ratio J": [
+     "ratios:17"
+    ]
+   }
+  },
+  {
+   "pair": "Neptune\u2013Pluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:76"
+    ],
+    "moved": [
+     "links:76#shape5"
+    ],
+    "family": [
+     "pair_family:47"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:76#shape1"
+    ]
+   }
+  }
+ ]
 }

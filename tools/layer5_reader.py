@@ -7,8 +7,8 @@ Sections: 1 only this runner (strict, broad; shared with one other)  2 the web, 
           4 what is arithmetic (Layer 2 chains)  5 same pair elsewhere  6 recurring pairs  7 near items that joined
 Output: docs/classic/<RACE>/layer5/P*.md and race.md"""
 import sys, os, re, glob, json
-VERSION = 'L5 v1 (12 Oct 2026)'
-NAMES = {1: 'cross link struck on both ends', 2: 'partner strike (the sky partner lands on the other end)', 3: 'the pair is together in the sky',
+VERSION = 'L5 v1.1 (12 Oct 2026, pair focus)'
+NAMES = {'pair focus': 'the most-lit pair in the field (most different kinds of item on one pair)', 1: 'cross link struck on both ends', 2: 'partner strike (the sky partner lands on the other end)', 3: 'the pair is together in the sky',
          4: 'both ends of the cross link have moved', 5: 'a movement lands on a cross link', 6: 'swap', 7: 'triangle struck at every corner by one sky body',
          8: 'same number / ratio in both charts', 9: 'shared node', 10: 'a sky body divides a natal pair', 11: 'same-body set joined to the web',
          12: 'pair in one chart struck on both ends by 2+ sky bodies', '1m': 'cross link struck on both ends by 2+ different sky bodies',
@@ -68,6 +68,11 @@ def read_runner(P, inv, T, R, F, sky, field_n):
         for k in o[lvl]:
             if lvl == 'broad' and k in o['strict']: continue
             kk = int(k) if k.isdigit() else k
+            if k == 'pair focus':
+                top = R['pair_focus'][0]; any1 = True
+                L.append(f"- **Only runner in the field: {NAMES[k]}** — {W(top['pair'])}, {top['n']} kinds: {', '.join(top['kinds'])}" +
+                         (f"; the same pair in other runners: {', '.join(f'{p} {n}' for p, n in F['pair_focus'][P]['same_pair_elsewhere'].items())}" if F['pair_focus'][P]['same_pair_elsewhere'] else '; not lit in any other runner'))
+                continue
             base = 1 if k == '1m' else 12 if k == '12m' else kk
             if k in ('1m', '12m'):   # 2+ sky bodies: strict level is judged by strict_multi, not by every item being tight
                 insts = [(s, x) for s, x in zip(R['shapes'], mine) if s['shape'] == base and (s.get('strict_multi') if lvl == 'strict' else (s.get('multi', True)))]
@@ -86,7 +91,12 @@ def read_runner(P, inv, T, R, F, sky, field_n):
     if not any1: L.append('- Nothing that no other runner has.')
     L.append('')
     # 2 the web
-    L.append('## 2. The web, hub by hub')
+    L.append('## 2. The web — the most-lit pair first, then hub by hub')
+    for x in R.get('pair_focus', [])[:2]:
+        L.append(f"- **pair {W(x['pair'])}** — {x['n']} kinds: {', '.join(x['kinds'])}" + (f" (near, not counted: {', '.join(x['near'])})" if x['near'] else ''))
+        for k, ids in x['kinds'].items():
+            its = [i.split('#')[0] for i in ids[:2]]; cited += its
+            L.append(f"    - {k}: " + ('; '.join(D(i) if not i.startswith('sky-gc') else 'together in the sky, great circle ' + i.split()[1] for i in its)))
     hubs = list(R['strong_hubs'])
     for w in R['webs']:
         if any(h in w['bodies'] for h in hubs): hubs += [h for h in w['hubs'] if h not in hubs]

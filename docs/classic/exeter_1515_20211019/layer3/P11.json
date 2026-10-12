@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "7 Forget You Not / 7 James Best",
  "workbook": "20211019_exeter_1515__P11.xlsx",
  "bodies": {
@@ -9875,6 +9875,11 @@
    "item": "ratios:13",
    "note": "recurring pair Pallas\u2013Juno",
    "what": "J Pallas\u2013Juno Flat sky 80.5691 natal 96.6865 6/5 (0.0037%)"
+  },
+  {
+   "item": "same_body:0",
+   "note": "same-body Dec 9/4 : 5/4 : 9/5 on Chiron",
+   "what": "same-body Chiron Dec 9/4 : 5/4 : 9/5 (worst 0.0552%)"
   }
  ],
  "desc": {
@@ -10322,5 +10327,54 @@
   "splits:78": "J Ceres -> H Mercury RA span 156.35017 = moved 124.00501 (124) + 32.34516  parts ['23/6', 0.0123] span/other ['29/6', 0.0097]",
   "splits:80": "J Ceres -> H Mars RA span 152.99920 = moved 124.00501 (124) + 28.99419  parts ['30/7', 0.2059] span/other ['21/4', 0.5122]",
   "splits:87": "J Ceres -> J Sedna RA span 152.61682 = moved 124.00501 (124) + 28.61181  parts ['13/3', 0.0165] span/other ['16/3', 0.0134]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Chiron\u2013Juno",
+   "n": 5,
+   "kinds": {
+    "shared": [
+     "shared:1"
+    ],
+    "cross": [
+     "links:82"
+    ],
+    "struck": [
+     "links:82#shape1"
+    ],
+    "ratio J": [
+     "ratios:11"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Ceres\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:92"
+    ],
+    "moved": [
+     "links:92#shape4",
+     "links:92#shape5",
+     "links:92#shape5"
+    ],
+    "ratio J": [
+     "ratios:12"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:92#shape1"
+    ],
+    "family": [
+     "pair_family:114"
+    ]
+   }
+  }
+ ]
 }

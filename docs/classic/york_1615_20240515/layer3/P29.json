@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "15 Ribble Radiant / 15 Duran Fentiman",
  "workbook": "york_1615_20240515__P29.xlsx",
  "bodies": {
@@ -10905,5 +10905,106 @@
   "hj_ratios:27": "horse:jockey Rahu\u2013Orcus GC H 89.0968 J 103.9385 7/6 near",
   "hj_ratios:28": "horse:jockey Ketu\u2013Makemake Flat H 70.0268 J 58.3641 6/5 near",
   "hj_ratios:29": "horse:jockey Eris\u2013Makemake GC H 156.5939 J 136.9926 8/7 near"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Neptune\u2013Pluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:61"
+    ],
+    "moved": [
+     "links:61#shape5"
+    ],
+    "ratio H": [
+     "ratios:4"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:61#shape1"
+    ],
+    "partner": [
+     "links:61#shape2"
+    ],
+    "family": [
+     "pair_family:25"
+    ]
+   }
+  },
+  {
+   "pair": "Ceres\u2013Chiron",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:62"
+    ],
+    "moved": [
+     "links:62#shape5"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:62#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Makemake\u2013Pallas",
+   "n": 3,
+   "kinds": {
+    "h:j": [
+     "hj_ratios:20"
+    ],
+    "family": [
+     "pair_family:35"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:36"
+    ]
+   }
+  },
+  {
+   "pair": "Haumea\u2013Makemake",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:90"
+    ],
+    "moved": [
+     "links:90#shape5"
+    ],
+    "family": [
+     "pair_family:116"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Jupiter\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "family": [
+     "pair_family:73"
+    ],
+    "same body": [
+     "same_body:0",
+     "same_body:1"
+    ],
+    "sky": [
+     "sky-gc 4.3552"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

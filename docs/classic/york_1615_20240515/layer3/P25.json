@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "13 Diligent Resdev / 13 Joanna Mason",
  "workbook": "york_1615_20240515__P25.xlsx",
  "bodies": {
@@ -10089,6 +10089,11 @@
    "item": "ratios:10",
    "note": "recurring pair Saturn\u2013Neptune",
    "what": "J Saturn\u2013Neptune RA sky 10.4044 natal 6.9356 3/2 (0.0099%) near"
+  },
+  {
+   "item": "same_body:1",
+   "note": "same-body Dec 9/4 : 5/4 : 9/5 on Node",
+   "what": "same-body Rahu Dec 9/4 : 5/4 : 9/5 (worst 0.0414%)"
   }
  ],
  "desc": {
@@ -10534,5 +10539,112 @@
   "splits:117": "H Quaoar -> J Sun RA span 44.30162 = moved 4.99697 (5) + 39.30464  parts ['8', 1.6789] span/other ['9/8', 0.1897]",
   "splits:121": "H Quaoar -> J Saturn RA span 16.73320 = moved 4.99697 (5) + 11.73623  parts ['7/3', 0.6572] span/other ['10/7', 0.1959]",
   "splits:126": "H Quaoar -> J Rahu RA span 44.36371 = moved 4.99697 (5) + 39.36674  parts ['8', 1.5235] span/other ['9/8', 0.1719]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Haumea\u2013Node",
+   "n": 5,
+   "kinds": {
+    "cross": [
+     "links:96"
+    ],
+    "struck": [
+     "links:96#shape1"
+    ],
+    "partner": [
+     "links:96#shape2"
+    ],
+    "family": [
+     "pair_family:44",
+     "pair_family:113"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "cross": [
+     "links:105"
+    ],
+    "struck": [
+     "links:105#shape1"
+    ],
+    "partner": [
+     "links:105#shape2"
+    ],
+    "h:j": [
+     "hj_ratios:15"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Quaoar",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:113"
+    ],
+    "moved": [
+     "links:113#shape5"
+    ],
+    "family": [
+     "pair_family:110"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:113#shape1"
+    ],
+    "family": [
+     "pair_family:43",
+     "pair_family:111",
+     "pair_family:114"
+    ]
+   }
+  },
+  {
+   "pair": "Uranus\u2013Venus",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:68"
+    ],
+    "moved": [
+     "links:68#shape4",
+     "links:68#shape5",
+     "links:68#shape5"
+    ],
+    "h:j": [
+     "hj_ratios:6"
+    ],
+    "sky": [
+     "sky-gc 3.3865"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:68#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "ratio J": [
+     "ratios:15"
+    ],
+    "family": [
+     "pair_family:112"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

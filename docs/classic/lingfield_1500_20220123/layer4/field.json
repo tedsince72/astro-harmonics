@@ -1,6 +1,117 @@
 {
- "version": "L4 v1.1 (12 Oct 2026)",
+ "version": "L4 v1.2 (12 Oct 2026, pair focus)",
  "race": "lingfield_1500_20220123",
+ "pair_focus": {
+  "P01": {
+   "top": "Haumea\u2013Makemake",
+   "n": 3,
+   "kinds": [
+    "shared",
+    "cross",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Haumea\u2013Makemake",
+    "Mars\u2013Node",
+    "Node\u2013Quaoar",
+    "Node\u2013Uranus",
+    "Mercury\u2013Pallas",
+    "Pallas\u2013Transpluto"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P03": {
+   "top": "Chiron\u2013Node",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "moved",
+    "h:j",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Chiron\u2013Node"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P05": {
+   "top": "Pluto\u2013Uranus",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "ratio H",
+    "h:j",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Pluto\u2013Uranus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {
+    "P09": 3
+   }
+  },
+  "P07": {
+   "top": "Jupiter\u2013Mercury",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "partner",
+    "moved",
+    "family"
+   ],
+   "tied_pairs": [
+    "Jupiter\u2013Mercury"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P09": {
+   "top": "Uranus\u2013Venus",
+   "n": 5,
+   "kinds": [
+    "cross",
+    "partner",
+    "h:j",
+    "family",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Uranus\u2013Venus"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P11": {
+   "top": "Ceres\u2013Mercury",
+   "n": 5,
+   "kinds": [
+    "shared",
+    "cross",
+    "ratio J",
+    "h:j",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Ceres\u2013Mercury"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  }
+ },
+ "pair_focus_max": 5,
+ "pair_focus_leaders": [
+  "P09",
+  "P11"
+ ],
  "runners": [
   {
    "P": "P01",

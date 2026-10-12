@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "3 Princess Shabnam / 3 Harry Burns",
  "workbook": "nottingham_1530_20220601__P03.xlsx",
  "bodies": {
@@ -10450,5 +10450,92 @@
   "splits:58": "H Ketu -> J Transpluto RA span 153.03285 = moved 68.77864 (619/9) + 84.25421  parts ['11/9', 0.2277] span/other ['9/5', 0.9068]",
   "splits:64": "J Jupiter -> J Sun RA span 120.75283 = moved 109.44383 (985/9) + 11.30900  parts ['29/3', 0.113] span/other ['21/2', 1.6913]",
   "splits:66": "J Jupiter -> J Ketu RA span 139.21159 = moved 109.44383 (985/9) + 29.76777  parts ['11/3', 0.2706] span/other ['14/3', 0.2126]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Eris\u2013Mars",
+   "n": 5,
+   "kinds": {
+    "cross": [
+     "links:70"
+    ],
+    "struck": [
+     "links:70#shape1"
+    ],
+    "partner": [
+     "links:70#shape2"
+    ],
+    "moved": [
+     "links:70#shape5"
+    ],
+    "ratio J": [
+     "ratios:5"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:17"
+    ]
+   }
+  },
+  {
+   "pair": "Neptune\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:105"
+    ],
+    "moved": [
+     "links:105#shape5"
+    ],
+    "family": [
+     "pair_family:93"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:105#shape1"
+    ],
+    "family": [
+     "pair_family:29"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:104"
+    ],
+    "moved": [
+     "links:104#shape5"
+    ],
+    "family": [
+     "pair_family:86"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:104#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Pluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:84"
+    ],
+    "struck": [
+     "links:84#shape1"
+    ],
+    "moved": [
+     "links:84#shape5"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

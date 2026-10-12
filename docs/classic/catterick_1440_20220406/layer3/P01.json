@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "1 Tea Garden / 1 Connor Beasley",
  "workbook": "20220406_catterick_1440__P01.xlsx",
  "bodies": {
@@ -7601,5 +7601,61 @@
   "hj_ratios:6": "horse:jockey Rahu\u2013Orcus Dec H 26.7011 J 19.4157 11/8 near",
   "hj_ratios:7": "horse:jockey Ketu\u2013Orcus RA H 163.7712 J 86.6962 17/9 near",
   "hj_ratios:8": "horse:jockey Haumea\u2013Quaoar Flat H 66.3352 J 59.7002 10/9"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Eris\u2013Uranus",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:61"
+    ],
+    "family": [
+     "pair_family:83"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:61#shape1"
+    ],
+    "family": [
+     "pair_family:26"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Node",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:58"
+    ],
+    "family": [
+     "pair_family:74"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:58#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Sun\u2013Venus",
+   "n": 2,
+   "kinds": {
+    "ratio H": [
+     "ratios:0"
+    ],
+    "family": [
+     "pair_family:50"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:51"
+    ]
+   }
+  }
+ ]
 }

@@ -1,4 +1,4 @@
-# dettori_ascot_19960928 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# dettori_ascot_19960928 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 4 Diffident / 4 Frankie Dettori**
@@ -13,6 +13,7 @@
 - **Only runner in the field (strict): same-body set joined to the web** — same-body Mars RA 16/7 : 16/9 : 9/7 (worst 0.0052%)  _(rests on 1 independent facts)_
 - **Only runner in the field (strict): same-body set joined to the web** — same-body Rahu GC 2 : 3/2 : 3 (worst 0.0245%)  _(rests on 1 independent facts)_
 - **Only runner in the field (strict): same-body set joined to the web** — same-body Saturn Dec 13/7 : 7/6 : 13/6 (worst 0.0282%)  _(rests on 1 independent facts)_
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Node–Sun, 4 kinds: cross, moved, same body, sky; not lit in any other runner
 - **Only runner in the field (broad): cross link struck on both ends** — horse Saturn–Dettori Neptune RA 70.2320 Dec 0.0306; sky Jupiter -> horse Saturn Flat 31.00013 = 31; sky Uranus -> horse Saturn GC 6.99949 = 7; sky Gonggong on horse Saturn RA 20.3890 Dec 0.5220 near  _(rests on 9 independent facts)_
 - **Only runner in the field (broad): cross link struck on both ends** — horse Pluto–Dettori Juno RA 176.3415 Dec 0.1837; sky Pallas on horse Pluto RA 0.6119 Dec 13.5037; sky Venus -> Dettori Juno GC 96.55600 = 869/9; sky Orcus -> Dettori Juno Flat 86.00234 = 86  _(rests on 4 independent facts)_
 - **Only runner in the field (broad): cross link struck on both ends** — horse Rahu–Dettori Sun RA 17.9012 Dec 0.2138; sky Mercury -> horse Rahu Dec 27.55552 = 248/9; sky Neptune -> horse Rahu RA 16.11067 = 145/9; sky Jupiter on horse Rahu RA 1.1471 Dec 0.2969  _(rests on 10 independent facts)_

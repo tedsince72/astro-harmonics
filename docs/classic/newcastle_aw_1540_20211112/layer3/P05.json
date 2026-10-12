@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "3 Heart Throb / 3 Graham Lee",
  "workbook": "newcastle_aw_1540_20211112__P05.xlsx",
  "bodies": {
@@ -9409,5 +9409,134 @@
   "splits:58": "J Quaoar -> H Saturn Dec span 11.50397 = moved 4.77784 (43/9) + 6.72613  parts ['7/5', 0.5554] span/other ['12/7', 0.2301]",
   "splits:59": "J Quaoar -> H Pluto Dec span 10.74900 = moved 4.77784 (43/9) + 5.97116  parts ['5/4', 0.0191] span/other ['9/5', 0.0085]",
   "splits:60": "J Quaoar -> H Vesta Dec span 6.75174 = moved 4.77784 (43/9) + 1.97390  parts ['17/7', 0.3319] span/other ['24/7', 0.2351]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Orcus\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:57"
+    ],
+    "partner": [
+     "links:57#shape2"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:57#shape1"
+    ],
+    "family": [
+     "pair_family:42"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Node",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:5"
+    ],
+    "set": [
+     "pair_sets:0"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:87"
+    ]
+   }
+  },
+  {
+   "pair": "Orcus\u2013Transpluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:106"
+    ],
+    "family": [
+     "pair_family:121"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:106#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Ceres\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:62"
+    ],
+    "struck": [
+     "links:62#shape1"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Gonggong\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "ratio J": [
+     "ratios:17"
+    ],
+    "h:j": [
+     "hj_ratios:18"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Juno\u2013Jupiter",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:2"
+    ],
+    "family": [
+     "pair_family:15"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Mars\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "ratio J": [
+     "ratios:12"
+    ],
+    "family": [
+     "pair_family:64"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

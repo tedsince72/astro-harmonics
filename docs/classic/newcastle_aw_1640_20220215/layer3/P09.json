@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "5 Aced It / 5 Jack Mitchell",
  "workbook": "newcastle_aw_1640_20220215__P09.xlsx",
  "bodies": {
@@ -11044,5 +11044,27 @@
   "splits:39": "J Jupiter -> J Uranus Dec span 42.28931 = moved 27.22280 (245/9) + 15.06650  parts ['9/5', 0.3801] span/other ['14/5', 0.2444]",
   "splits:40": "J Jupiter -> J Neptune Dec span 40.80999 = moved 27.22280 (245/9) + 13.58718  parts ['2', 0.1782] span/other ['3', 0.1188]",
   "splits:42": "J Jupiter -> J Vesta Dec span 32.40121 = moved 27.22280 (245/9) + 5.17841  parts ['21/4', 0.1329] span/other ['25/4', 0.1117]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Jupiter\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:97"
+    ],
+    "partner": [
+     "links:97#shape2"
+    ],
+    "moved": [
+     "links:97#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:97#shape1"
+    ]
+   }
+  }
+ ]
 }

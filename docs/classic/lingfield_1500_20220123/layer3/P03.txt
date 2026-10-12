@@ -1,4 +1,4 @@
-== 2 Dashel Drasher / 2 Rex Dingle   [lingfield_1500_20220123__P03.xlsx, L3 v1.2 (12 Oct 2026)]
+== 2 Dashel Drasher / 2 Rex Dingle   [lingfield_1500_20220123__P03.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): H Eris, J Juno, H Pluto, H Node, J Chiron, J Eris, J Sedna, J Transpluto
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Eris         EMPRSX  tight 5  (near joined: E)
@@ -664,6 +664,40 @@
         sky Quaoar -> H Eris GC 107.33353 = 966/9
         sky Rahu -> H Quaoar Dec 35.44491 = 319/9
         sky Quaoar on H Quaoar RA 11.1960 Dec 0.0315 RETURN
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Chiron–Node            4 kinds: cross, moved, h:j, same body   near: cross, struck, family
+        cross: cross H Rahu–J Chiron RA 0.2215 Dec 1.4083
+        moved: cross H Rahu–J Chiron RA 0.2215 Dec 1.4083
+        h:j: horse:jockey Chiron–Rahu Flat H 118.2374 J 64.4916 11/6
+        same body: same-body Rahu GC 13/5 : 13/8 : 8/5 (worst 0.0182%)
+   Node–Sedna             3 kinds: cross, moved, same body   near: struck, ratio J, family
+        cross: cross H Ketu–J Sedna RA 0.9947 Dec 12.0445; cross H Sedna–J Rahu RA 110.0361 Dec 0.1155
+        moved: cross H Ketu–J Sedna RA 0.9947 Dec 12.0445
+        same body: same-body Rahu GC 13/5 : 13/8 : 8/5 (worst 0.0182%)
+   Eris–Juno              3 kinds: cross, moved, same body   near: struck
+        cross: cross H Eris–J Juno RA 159.3372 Dec 0.2451
+        moved: cross H Eris–J Juno RA 159.3372 Dec 0.2451
+        same body: same-body Juno RA 9 : 8 : 9/8 (worst 0.1257%)
+   Eris–Orcus             3 kinds: cross, moved, same body   near: struck
+        cross: cross H Orcus–J Eris RA 125.2987 Dec 0.2498
+        moved: cross H Orcus–J Eris RA 125.2987 Dec 0.2498
+        same body: same-body Orcus RA 5/4 : 9/4 : 9/5 (worst 0.0152%)
+   Juno–Uranus            3 kinds: cross, family, same body   near: family
+        cross: cross H Juno–J Uranus RA 0.2983 Dec 12.2008
+        family: H Uranus–Juno Flat H Uranus – sky Juno 74.3963 vs NN 59.5143 5/4 (0.0047%)
+        same body: same-body Juno RA 9 : 8 : 9/8 (worst 0.1257%)
+   Mercury–Vesta          3 kinds: cross, struck, partner   near: ratio J
+        cross: cross H Mercury–J Vesta RA 11.8369 Dec 0.1395
+        struck: cross H Mercury–J Vesta RA 11.8369 Dec 0.1395
+        partner: cross H Mercury–J Vesta RA 11.8369 Dec 0.1395
+   Neptune–Pluto          3 kinds: shared, cross, moved   near: struck
+        shared: shared Neptune–Pluto GC H 53.3136 J 53.0613
+        cross: cross H Pluto–J Neptune RA 19.2015 Dec 0.2812
+        moved: cross H Pluto–J Neptune RA 19.2015 Dec 0.2812
+   Node–Vesta             3 kinds: shared, family, same body   near: family
+        shared: shared Vesta–Rahu Flat H 142.2827 J 141.9501
+        family: J Vesta–Rahu Flat J Vesta – sky Rahu 39.4301 vs NN 141.9501 18/5 (0.0012%); J Vesta–Ketu Flat sky Vesta – J Ketu 68.4526 vs NN 39.1172 7/4 (0.0035%)
+        same body: same-body Rahu GC 13/5 : 13/8 : 8/5 (worst 0.0182%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring cross link horse Pluto – jockey Neptune: cross H Pluto–J Neptune RA 19.2015 Dec 0.2812
    recurring pair Pallas–Juno: cross H Pallas–J Juno GC 140.00087 = 140

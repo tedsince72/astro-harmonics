@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "6 Foinix / 6 Dylan Hogan",
  "workbook": "chelmsford_aw_1320_20240118__P11.xlsx",
  "bodies": {
@@ -11022,5 +11022,83 @@
   "splits:36": "J Sedna -> J Ketu Dec span 11.79236 = moved 3.77864 (34/9) + 8.01371  parts ['17/8', 0.198] span/other ['13/9', 1.8746]",
   "splits:37": "J Sedna -> J Haumea Dec span 16.94094 = moved 3.77864 (34/9) + 13.16230  parts ['7/2', 0.4759] span/other ['9/7', 0.1063]",
   "splits:39": "J Sedna -> J Transpluto Dec span 8.98135 = moved 3.77864 (34/9) + 5.20271  parts ['11/8', 0.1362] span/other ['12/7', 0.6999]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Saturn\u2013Uranus",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:71"
+    ],
+    "moved": [
+     "links:71#shape5"
+    ],
+    "family": [
+     "pair_family:27"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:71#shape1"
+    ],
+    "ratio J": [
+     "ratios:13"
+    ]
+   }
+  },
+  {
+   "pair": "Pallas\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:92"
+    ],
+    "moved": [
+     "links:92#shape5"
+    ],
+    "family": [
+     "pair_family:113"
+    ]
+   },
+   "near": {
+    "cross": [
+     "links:103"
+    ],
+    "struck": [
+     "links:92#shape1",
+     "links:103#shape1"
+    ],
+    "partner": [
+     "links:103#shape2"
+    ],
+    "family": [
+     "pair_family:112"
+    ]
+   }
+  },
+  {
+   "pair": "Orcus\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:1"
+    ],
+    "family": [
+     "pair_family:96"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "h:j": [
+     "hj_ratios:13"
+    ]
+   }
+  }
+ ]
 }

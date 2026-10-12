@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Cosmic View / 2 Jamie Moore",
  "workbook": "fontwell_1530_20231006__P03.xlsx",
  "bodies": {
@@ -10766,5 +10766,55 @@
   "splits:70": "J Sun -> J Haumea Dec span 40.74462 = moved 12.22221 (110/9) + 28.52241  parts ['7/3', 0.0137] span/other ['10/7', 0.0041]",
   "splits:71": "J Sun -> J Makemake Dec span 54.61419 = moved 12.22221 (110/9) + 42.39198  parts ['7/2', 0.9018] span/other ['9/7', 0.2022]",
   "splits:73": "J Sun -> J Transpluto Dec span 32.03902 = moved 12.22221 (110/9) + 19.81680  parts ['13/8', 0.223] span/other ['13/8', 0.5071]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Juno\u2013Mercury",
+   "n": 3,
+   "kinds": {
+    "h:j": [
+     "hj_ratios:1"
+    ],
+    "family": [
+     "pair_family:11",
+     "pair_family:12",
+     "pair_family:74"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "cross": [
+     "links:60"
+    ],
+    "struck": [
+     "links:60#shape1"
+    ],
+    "partner": [
+     "links:60#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Node",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:1"
+    ],
+    "family": [
+     "pair_family:14"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:13"
+    ]
+   }
+  }
+ ]
 }

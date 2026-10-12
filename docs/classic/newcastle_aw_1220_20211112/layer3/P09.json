@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "6 Cuban Hope / 6 Ellie MacKenzie",
  "workbook": "newcastle_aw_1220_20211112__P09.xlsx",
  "bodies": {
@@ -11524,5 +11524,74 @@
   "splits:63": "J Makemake -> J Gonggong Dec span 54.21537 = moved 13.11002 (118/9) + 41.10534  parts ['22/7', 0.2368] span/other ['4/3', 1.0797]",
   "splits:64": "J Makemake -> J Quaoar Dec span 49.23120 = moved 13.11002 (118/9) + 36.12118  parts ['11/4', 0.1903] span/other ['11/8', 0.8767]",
   "splits:66": "J Makemake -> J Transpluto Dec span 21.16241 = moved 13.11002 (118/9) + 8.05238  parts ['13/8', 0.1903] span/other ['21/8', 0.1178]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Jupiter\u2013Makemake",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:73",
+     "links:111"
+    ],
+    "moved": [
+     "links:73#shape5",
+     "links:111#shape5"
+    ],
+    "struck": [
+     "links:111#shape1"
+    ],
+    "partner": [
+     "links:111#shape2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:73#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Ceres\u2013Mars",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:66"
+    ],
+    "moved": [
+     "links:66#shape5"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:66#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Makemake\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:105"
+    ],
+    "moved": [
+     "links:105#shape4",
+     "links:105#shape5",
+     "links:105#shape5"
+    ],
+    "ratio H": [
+     "ratios:8"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:105#shape1"
+    ]
+   }
+  }
+ ]
 }

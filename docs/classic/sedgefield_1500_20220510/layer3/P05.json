@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "3 Emorelle / 3 Miss Eleanor Williams",
  "workbook": "sedgefield_1500_20220510__P05.xlsx",
  "bodies": {
@@ -11029,5 +11029,80 @@
   "splits:61": "J Gonggong -> J Sedna Dec span 22.84965 = moved 6.55655 (59/9) + 16.29310  parts ['5/2', 0.5995] span/other ['7/5', 0.1723]",
   "splits:62": "J Gonggong -> J Haumea Dec span 39.32422 = moved 6.55655 (59/9) + 32.76767  parts ['5', 0.046] span/other ['6/5', 0.0077]",
   "splits:65": "J Gonggong -> J Transpluto Dec span 30.93932 = moved 6.55655 (59/9) + 24.38277  parts ['26/7', 0.1227] span/other ['9/7', 1.3077]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Sun\u2013Venus",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:58"
+    ],
+    "struck": [
+     "links:58#shape1"
+    ],
+    "family": [
+     "pair_family:0",
+     "pair_family:54"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Eris\u2013Neptune",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:77"
+    ],
+    "family": [
+     "pair_family:94"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:77#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Ceres\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:84"
+    ],
+    "struck": [
+     "links:84#shape1"
+    ],
+    "same body": [
+     "same_body:0",
+     "same_body:2"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Haumea\u2013Makemake",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:104"
+    ],
+    "struck": [
+     "links:104#shape1"
+    ],
+    "same body": [
+     "same_body:4"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "1 Grageelagh Girl / 1 Tom Broughton",
  "workbook": "newton_abbot_1525_20220717__P01.xlsx",
  "bodies": {
@@ -10140,6 +10140,11 @@
    "item": "links:116:GC",
    "note": "recurring pair Transpluto\u2013Chiron",
    "what": "cross H Transpluto\u2013J Chiron GC 66.44405 = 598/9"
+  },
+  {
+   "item": "same_body:1",
+   "note": "same-body Dec 9/4 : 5/4 : 9/5 on Sedna",
+   "what": "same-body Sedna Dec 5/4 : 9/4 : 9/5 (worst 0.0428%)"
   }
  ],
  "desc": {
@@ -10619,5 +10624,30 @@
   "splits:71": "J Vesta -> J Jupiter RA span 72.61162 = moved 46.99150 (47) + 25.62012  parts ['11/6', 0.0453] span/other ['17/6', 0.0293]",
   "splits:75": "J Vesta -> J Chiron RA span 174.49307 = moved 46.99150 (47) + 127.50157  parts ['19/7', 0.0367] span/other ['11/8', 0.4686]",
   "splits:77": "J Vesta -> J Pallas RA span 99.58302 = moved 46.99150 (47) + 52.59152  parts ['9/8', 0.5181] span/other ['17/9', 0.2451]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Eris\u2013Jupiter",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:67"
+    ],
+    "moved": [
+     "links:67#shape5"
+    ],
+    "family": [
+     "pair_family:95"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:67#shape1"
+    ]
+   }
+  }
+ ]
 }

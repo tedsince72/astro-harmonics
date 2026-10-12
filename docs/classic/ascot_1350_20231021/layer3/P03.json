@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Kinross / 2 Frankie Dettori",
  "workbook": "ascot_1350_20231021__P03.xlsx",
  "bodies": {
@@ -10077,5 +10077,39 @@
   "splits:9": "J Transpluto -> J Venus RA span 84.67430 = moved 17.99094 (18) + 66.68336  parts ['26/7', 0.2097] span/other ['9/7', 1.238]",
   "splits:14": "J Transpluto -> J Pluto RA span 48.76797 = moved 17.99094 (18) + 30.77703  parts ['12/7', 0.2094] span/other ['11/7', 0.8355]",
   "splits:16": "J Transpluto -> J Haumea RA span 32.37330 = moved 17.99094 (18) + 14.38236  parts ['5/4', 0.0722] span/other ['9/4', 0.0401]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Jupiter\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:72"
+    ],
+    "partner": [
+     "links:72#shape2"
+    ],
+    "moved": [
+     "links:72#shape5"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Makemake\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:107"
+    ],
+    "moved": [
+     "links:107#shape5"
+    ],
+    "family": [
+     "pair_family:78"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

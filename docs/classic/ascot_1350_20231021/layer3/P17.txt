@@ -1,4 +1,4 @@
-== 9 Sandrine / 9 Oisin Murphy   [ascot_1350_20231021__P17.xlsx, L3 v1.2 (12 Oct 2026)]
+== 9 Sandrine / 9 Oisin Murphy   [ascot_1350_20231021__P17.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): H Node, H Jupiter, H Uranus, H Neptune, H Orcus, J Pluto
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Node         EMPRSX  tight 6
@@ -869,6 +869,36 @@
         sky Sun on H Orcus RA 51.5556 Dec 0.0955
         sky Transpluto on H Orcus RA 1.6989 Dec 20.8037 near
         sky Sun -> H Transpluto Dec 21.44460 = 193/9
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Neptune–Node           4 kinds: cross, struck, moved, family   near: family
+        cross: cross H Ketu–J Neptune RA 2.9563 Dec 0.0495
+        struck: cross H Ketu–J Neptune RA 2.9563 Dec 0.0495
+        moved: cross H Ketu–J Neptune RA 2.9563 Dec 0.0495
+        family: H Neptune–Rahu Flat sky Neptune – H Rahu 124.0835 vs TT 29.5442 21/5 (0.0017%)
+   Neptune–Pluto          3 kinds: cross, struck, moved   near: struck, family
+        cross: cross H Neptune–J Pluto RA 108.2211 Dec 0.2157; cross H Pluto–J Neptune RA 0.9212 Dec 0.8747
+        struck: cross H Neptune–J Pluto RA 108.2211 Dec 0.2157
+        moved: cross H Neptune–J Pluto RA 108.2211 Dec 0.2157; cross H Neptune–J Pluto RA 108.2211 Dec 0.2157
+   Node–Uranus            3 kinds: shared, cross, moved   near: struck, family
+        shared: shared Uranus–Ketu Dec H 31.7520 J 31.8765
+        cross: cross H Uranus–J Ketu RA 2.0050 Dec 0.2094; cross H Ketu–J Uranus RA 1.3672 Dec 0.3339
+        moved: cross H Uranus–J Ketu RA 2.0050 Dec 0.2094; cross H Ketu–J Uranus RA 1.3672 Dec 0.3339
+   Jupiter–Node           3 kinds: cross, struck, moved   near: family
+        cross: cross H Ketu–J Jupiter RA 52.0801 Dec 0.0656
+        struck: cross H Ketu–J Jupiter RA 52.0801 Dec 0.0656
+        moved: cross H Ketu–J Jupiter RA 52.0801 Dec 0.0656
+   Mercury–Saturn         3 kinds: cross, struck, same body   near: family
+        cross: cross H Mercury–J Saturn RA 0.3110 Dec 3.3565
+        struck: cross H Mercury–J Saturn RA 0.3110 Dec 3.3565
+        same body: same-body Saturn GC 3/2 : 2 : 3 (worst 0.0408%)
+   Node–Sedna             3 kinds: ratio J, set, same body   near: family
+        ratio J: J Ketu–Sedna GC sky 142.8336 natal 20.4058 7 (0.0047%)
+        set: pair set Ketu–Sedna Dec H 28.6780 J 5.7337
+        same body: same-body Sedna Dec 4 : 5 : 5/4 (worst 0.1199%)
+   Pallas–Pluto           3 kinds: shared, family, same body
+        shared: shared Pluto–Pallas GC H 83.2909 J 83.2677
+        family: J Pluto–Pallas GC sky Pluto – J Pallas 138.8633 vs TT 100.9922 11/8 (0.0007%)
+        same body: same-body Pallas Dec 17/9 : 9/8 : 17/8 (worst 0.0005%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring cross link horse Venus – jockey Uranus: cross H Venus–J Uranus Flat 3.99610 = 4
    recurring pair Venus–Uranus: cross H Venus–J Uranus Flat 3.99610 = 4

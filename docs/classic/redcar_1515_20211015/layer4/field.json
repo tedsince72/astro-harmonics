@@ -1,6 +1,101 @@
 {
- "version": "L4 v1.1 (12 Oct 2026)",
+ "version": "L4 v1.2 (12 Oct 2026, pair focus)",
  "race": "redcar_1515_20211015",
+ "pair_focus": {
+  "P01": {
+   "top": "Jupiter\u2013Uranus",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Jupiter\u2013Uranus"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {
+    "P07": 3
+   }
+  },
+  "P03": {
+   "top": "Ceres\u2013Sedna",
+   "n": 2,
+   "kinds": [
+    "shared",
+    "family"
+   ],
+   "tied_pairs": [
+    "Ceres\u2013Sedna",
+    "Saturn\u2013Sun",
+    "Gonggong\u2013Neptune"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P05": {
+   "top": "Chiron\u2013Sedna",
+   "n": 2,
+   "kinds": [
+    "cross",
+    "family"
+   ],
+   "tied_pairs": [
+    "Chiron\u2013Sedna",
+    "Eris\u2013Venus",
+    "Ceres\u2013Jupiter"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P07": {
+   "top": "Jupiter\u2013Uranus",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Jupiter\u2013Uranus",
+    "Pluto\u2013Sun",
+    "Mercury\u2013Quaoar"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {
+    "P01": 3
+   }
+  },
+  "P09": {
+   "top": "Node\u2013Venus",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Node\u2013Venus",
+    "Makemake\u2013Vesta",
+    "Ceres\u2013Node",
+    "Mars\u2013Venus",
+    "Mercury\u2013Venus"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  }
+ },
+ "pair_focus_max": 3,
+ "pair_focus_leaders": [
+  "P01",
+  "P07",
+  "P09"
+ ],
  "runners": [
   {
    "P": "P01",

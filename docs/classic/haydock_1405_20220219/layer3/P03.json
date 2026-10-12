@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Thomas Darby / 2 Aidan Coleman",
  "workbook": "haydock_1405_20220219__P03.xlsx",
  "bodies": {
@@ -9647,5 +9647,70 @@
   "splits:59": "H Eris -> J Sedna Dec span 7.56246 = moved 2.22297 (20/9) + 5.33948  parts ['12/5', 0.0815] span/other ['10/7', 0.8571]",
   "splits:62": "H Eris -> J Orcus Dec span 8.39671 = moved 2.22297 (20/9) + 6.17373  parts ['25/9', 0.0193] span/other ['11/8', 1.0859]",
   "splits:63": "H Eris -> J Transpluto Dec span 17.95172 = moved 2.22297 (20/9) + 15.72875  parts ['7', 1.0793] span/other ['8/7', 0.1335]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Quaoar\u2013Saturn",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:69",
+     "links:94"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:69#shape1",
+     "links:94#shape1"
+    ],
+    "ratio H": [
+     "ratios:8"
+    ],
+    "family": [
+     "pair_family:21"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Node",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:85"
+    ],
+    "moved": [
+     "links:85#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:85#shape1"
+    ],
+    "family": [
+     "pair_family:37",
+     "pair_family:109"
+    ]
+   }
+  },
+  {
+   "pair": "Ceres\u2013Uranus",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:73"
+    ],
+    "family": [
+     "pair_family:93"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:73#shape1"
+    ]
+   }
+  }
+ ]
 }

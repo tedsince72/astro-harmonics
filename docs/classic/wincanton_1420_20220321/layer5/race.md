@@ -1,4 +1,4 @@
-# wincanton_1420_20220321 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# wincanton_1420_20220321 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Reserve Tank / 1 Brendan Powell**

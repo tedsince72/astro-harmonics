@@ -1,4 +1,4 @@
-== 7 Forget You Not / 7 James Best   [20211019_exeter_1515__P11.xlsx, L3 v1.2 (12 Oct 2026)]
+== 7 Forget You Not / 7 James Best   [20211019_exeter_1515__P11.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): J Jupiter, J Chiron, H Node
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    J Jupiter      MPRSX  tight 5
@@ -645,9 +645,21 @@
         J Ceres -> J Sedna RA span 152.61682 = moved 124.00501 (124) + 28.61181  parts ['13/3', 0.0165] span/other ['16/3', 0.0134]
    [11] joined same-body set (STRONG HUB)  roots 1  bodies=['H Chiron', 'J Chiron']; joined_by=['R', 'X']; strict=True
         same-body Chiron Dec 9/4 : 5/4 : 9/5 (worst 0.0552%)
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Chiron–Juno            5 kinds: shared, cross, struck, ratio J, same body
+        shared: shared Chiron–Juno GC H 138.1093 J 138.1044
+        cross: cross H Juno–J Chiron RA 10.9798 Dec 0.0555
+        struck: cross H Juno–J Chiron RA 10.9798 Dec 0.0555
+        ratio J: J Chiron–Juno Dec sky 18.3068 natal 26.1530 10/7 (0.0015%)
+        same body: same-body Chiron Dec 9/4 : 5/4 : 9/5 (worst 0.0552%)
+   Ceres–Node             3 kinds: cross, moved, ratio J   near: struck, family
+        cross: cross H Ketu–J Ceres RA 174.1240 Dec 0.2804
+        moved: cross H Ketu–J Ceres RA 174.1240 Dec 0.2804; cross H Ketu–J Ceres RA 174.1240 Dec 0.2804
+        ratio J: J Ceres–Ketu Dec sky 36.7449 natal 16.7018 11/5 (0.0022%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Saturn–Neptune: J J Saturn–J Neptune RA 10.0470 Dec 0.3126
    recurring pair Chiron–Transpluto: J J Chiron–J Transpluto RA 27.3922 Dec 0.4180
    recurring cross link horse Pluto – jockey Neptune: cross H Pluto–J Neptune RA 2.22176 = 20/9
    recurring pair Node–Haumea: cross H Rahu–J Haumea RA 0.0926 Dec 25.9736
    recurring pair Pallas–Juno: J Pallas–Juno Flat sky 80.5691 natal 96.6865 6/5 (0.0037%)
+   same-body Dec 9/4 : 5/4 : 9/5 on Chiron: same-body Chiron Dec 9/4 : 5/4 : 9/5 (worst 0.0552%)

@@ -1,6 +1,96 @@
 {
- "version": "L4 v1.1 (12 Oct 2026)",
+ "version": "L4 v1.2 (12 Oct 2026, pair focus)",
  "race": "kempton_aw_1440_20210904",
+ "pair_focus": {
+  "P01": {
+   "top": "Saturn\u2013Transpluto",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Saturn\u2013Transpluto",
+    "Node\u2013Venus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P03": {
+   "top": "Node\u2013Saturn",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "moved",
+    "ratio J",
+    "family"
+   ],
+   "tied_pairs": [
+    "Node\u2013Saturn",
+    "Pallas\u2013Sun"
+   ],
+   "field_max": true,
+   "most_lit_alone": true,
+   "same_pair_elsewhere": {}
+  },
+  "P05": {
+   "top": "Chiron\u2013Neptune",
+   "n": 3,
+   "kinds": [
+    "h:j",
+    "family",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Chiron\u2013Neptune",
+    "Juno\u2013Uranus",
+    "Mars\u2013Uranus",
+    "Juno\u2013Venus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P07": {
+   "top": "Quaoar\u2013Uranus",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "partner",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Quaoar\u2013Uranus",
+    "Juno\u2013Uranus",
+    "Quaoar\u2013Saturn"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P09": {
+   "top": "Venus\u2013Vesta",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "partner",
+    "ratio H"
+   ],
+   "tied_pairs": [
+    "Venus\u2013Vesta",
+    "Chiron\u2013Node"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  }
+ },
+ "pair_focus_max": 4,
+ "pair_focus_leaders": [
+  "P03"
+ ],
  "runners": [
   {
    "P": "P01",
@@ -275,7 +365,8 @@
   "P03": {
    "strict": [
     "4",
-    "6"
+    "6",
+    "pair focus"
    ],
    "broad": [
     "6"

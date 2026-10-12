@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "3 Peak Time / 3 Conor O'Farrell",
  "workbook": "newcastle_1540_20220311__P05.xlsx",
  "bodies": {
@@ -10757,5 +10757,112 @@
   "splits:71": "J Gonggong -> J Ceres Dec span 39.05123 = moved 9.11002 (82/9) + 29.94121  parts ['23/7', 0.0276] span/other ['9/7', 1.4427]",
   "splits:77": "J Gonggong -> J Haumea Dec span 43.34776 = moved 9.11002 (82/9) + 34.23773  parts ['15/4', 0.22] span/other ['5/4', 1.2865]",
   "splits:80": "J Gonggong -> J Transpluto Dec span 34.65695 = moved 9.11002 (82/9) + 25.54693  parts ['14/5', 0.1523] span/other ['11/8', 1.3382]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Ceres\u2013Haumea",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:89"
+    ],
+    "moved": [
+     "links:89#shape5"
+    ],
+    "same body": [
+     "same_body:3",
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:89#shape1"
+    ],
+    "family": [
+     "pair_family:46"
+    ]
+   }
+  },
+  {
+   "pair": "Sedna\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:46"
+    ],
+    "partner": [
+     "links:46#shape2"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:46#shape1"
+    ],
+    "family": [
+     "pair_family:6"
+    ]
+   }
+  },
+  {
+   "pair": "Ceres\u2013Chiron",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:68"
+    ],
+    "moved": [
+     "links:68#shape5"
+    ],
+    "same body": [
+     "same_body:0",
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:119"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:82"
+    ],
+    "family": [
+     "pair_family:42"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:122"
+    ]
+   }
+  },
+  {
+   "pair": "Haumea\u2013Saturn",
+   "n": 3,
+   "kinds": {
+    "h:j": [
+     "hj_ratios:4"
+    ],
+    "family": [
+     "pair_family:29",
+     "pair_family:102"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Guernesey / 2 Tom O'Brien",
  "workbook": "wincanton_1420_20220321__P03.xlsx",
  "bodies": {
@@ -10425,5 +10425,50 @@
   "splits:15": "J Haumea -> J Neptune RA span 89.73117 = moved 31.99172 (32) + 57.73945  parts ['9/5', 0.2681] span/other ['14/9', 0.0955]",
   "splits:17": "J Haumea -> J Ceres RA span 44.75564 = moved 31.99172 (32) + 12.76393  parts ['5/2', 0.2567] span/other ['7/2', 0.1833]",
   "splits:18": "J Haumea -> J Juno RA span 84.10105 = moved 31.99172 (32) + 52.10933  parts ['13/8', 0.2362] span/other ['13/8', 0.681]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Jupiter\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:60"
+    ],
+    "moved": [
+     "links:60#shape5"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:60#shape1"
+    ],
+    "family": [
+     "pair_family:19"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Pluto",
+   "n": 3,
+   "kinds": {
+    "ratio J": [
+     "ratios:13"
+    ],
+    "family": [
+     "pair_family:92"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:91"
+    ]
+   }
+  }
+ ]
 }

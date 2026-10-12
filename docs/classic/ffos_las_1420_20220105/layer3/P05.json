@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "6 New Age Dawning / 6 Tom Scudamore",
  "workbook": "ffos_las_1420_20220105__P05.xlsx",
  "bodies": {
@@ -8867,5 +8867,32 @@
   "splits:19": "J Haumea -> J Ketu RA span 106.48323 = moved 38.33352 (345/9) + 68.14971  parts ['16/9', 0.0018] span/other ['14/9', 0.4458]",
   "splits:20": "J Haumea -> J Gonggong RA span 148.93804 = moved 38.33352 (345/9) + 110.60452  parts ['26/9', 0.1235] span/other ['4/3', 0.9936]",
   "splits:21": "J Haumea -> J Quaoar RA span 44.99331 = moved 38.33352 (345/9) + 6.65979  parts ['23/4', 0.1037] span/other ['27/4', 0.0883]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Jupiter\u2013Node",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:1",
+     "shared:2",
+     "shared:3"
+    ],
+    "cross": [
+     "links:85"
+    ],
+    "ratio H": [
+     "ratios:4"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:85#shape1"
+    ],
+    "family": [
+     "pair_family:24"
+    ]
+   }
+  }
+ ]
 }

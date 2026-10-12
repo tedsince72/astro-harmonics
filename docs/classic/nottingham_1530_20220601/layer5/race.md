@@ -1,11 +1,11 @@
-# nottingham_1530_20220601 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# nottingham_1530_20220601 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 2 Dynamic Force / 2 Ray Dawson**
 - **Only runner in the field (strict): cross link struck on both ends by 2+ different sky bodies** — horse Sedna–Dawson Chiron RA 88.9928 Dec 0.0055; sky Venus -> horse Sedna RA 24.00462 = 24; sky Ceres -> horse Sedna Dec 19.00361 = 19; sky Juno -> horse Sedna Dec 7.99517 = 8  _(rests on 12 independent facts)_
 
 **P03 3 Princess Shabnam / 3 Harry Burns**
-- Nothing that no other runner has.
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Eris–Mars, 5 kinds: cross, struck, partner, moved, ratio J; not lit in any other runner
 
 **P05 4 Ballet Steps / 4 Kieran Shoemark**
 - Nothing that no other runner has.

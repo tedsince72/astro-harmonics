@@ -1,4 +1,4 @@
-== 5 Madame Tantzy / 5 Georgia Dobie   [20210827_goodwood_1853__P09.xlsx, L3 v1.2 (12 Oct 2026)]
+== 5 Madame Tantzy / 5 Georgia Dobie   [20210827_goodwood_1853__P09.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): H Node, J Jupiter, J Saturn
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Node         EPRSX  tight 5
@@ -591,6 +591,16 @@
         sky Neptune on J Jupiter RA 0.1753 Dec 0.1603
         sky Mars -> J Pallas Dec 18.99964 = 19
         sky Neptune on J Pallas RA 1.4434 Dec 9.1265
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Eris–Saturn            2 kinds: cross, same body   near: struck, partner, family
+        cross: cross H Eris–J Saturn RA 0.6022 Dec 10.8116
+        same body: same-body Saturn RA 7/3 : 4/3 : 7/4 (worst 0.0932%)
+   Ceres–Quaoar           2 kinds: cross, family   near: struck, partner
+        cross: cross H Ceres–J Quaoar RA 98.8989 Dec 0.1102
+        family: H Ceres–Quaoar Flat sky Ceres – H Quaoar 160.1367 vs NN 75.8511 19/9 (0.0042%)
+   Saturn–Vesta           2 kinds: cross, same body   near: struck, family
+        cross: cross H Vesta–J Saturn RA 0.9982 Dec 3.2372
+        same body: same-body Saturn RA 7/3 : 4/3 : 7/4 (worst 0.0932%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring cross link horse Venus – jockey Uranus: cross H Venus–J Uranus RA 2.1555 Dec 0.3725 near
    recurring pair Venus–Uranus: cross H Venus–J Uranus RA 2.1555 Dec 0.3725 near

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "1 Classical Song / 1 Rossa Ryan",
  "workbook": "york_1545_20240515__P01.xlsx",
  "bodies": {
@@ -11914,5 +11914,69 @@
   "splits:84": "J Sedna -> J Rahu RA span 68.97610 = moved 12.66600 (114/9) + 56.31010  parts ['22/5', 1.0402] span/other ['11/9', 0.2218]",
   "splits:86": "J Sedna -> J Makemake RA span 130.92747 = moved 12.66600 (114/9) + 118.26148  parts ['28/3', 0.0385] span/other ['10/9', 0.3609]",
   "splits:88": "J Sedna -> J Transpluto RA span 99.79101 = moved 12.66600 (114/9) + 87.12501  parts ['7', 1.7335] span/other ['8/7', 0.2205]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Jupiter\u2013Sun",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:50"
+    ],
+    "sky": [
+     "sky-gc 2.4192"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:50#shape1"
+    ],
+    "partner": [
+     "links:50#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Orcus\u2013Pallas",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:110"
+    ],
+    "moved": [
+     "links:110#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:110#shape1"
+    ],
+    "partner": [
+     "links:110#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Pallas\u2013Transpluto",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:114"
+    ],
+    "moved": [
+     "links:114#shape4",
+     "links:114#shape5",
+     "links:114#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:114#shape1"
+    ],
+    "partner": [
+     "links:114#shape2"
+    ]
+   }
+  }
+ ]
 }

@@ -1,4 +1,4 @@
-== 1 Gustavian / 1 Aidan Coleman   [ffos_las_1420_20220105__P01.xlsx, L3 v1.2 (12 Oct 2026)]
+== 1 Gustavian / 1 Aidan Coleman   [ffos_las_1420_20220105__P01.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): J Orcus, J Sedna, H Neptune, H Chiron, J Venus, J Chiron
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    J Orcus        BMPRSX  tight 6
@@ -656,6 +656,28 @@
         sky Vesta on J Uranus RA 0.6557 Dec 2.3874
         sky Pluto -> J Gonggong Dec 2.00359 = 2
         sky Vesta on J Gonggong RA 62.5823 Dec 0.5566 near
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Orcus–Uranus           4 kinds: cross, moved, ratio J, same body   near: struck
+        cross: cross H Uranus–J Orcus RA 115.1552 Dec 0.1917
+        moved: cross H Uranus–J Orcus RA 115.1552 Dec 0.1917
+        ratio J: J Uranus–Orcus GC sky 120.8417 natal 135.9504 9/8 (0.0026%)
+        same body: same-body Orcus Dec 4 : 5 : 5/4 (worst 0.1299%)
+   Chiron–Haumea          3 kinds: cross, family, same body   near: struck
+        cross: cross H Haumea–J Chiron RA 115.8304 Dec 0.0059
+        family: J Chiron–Haumea Dec J Chiron – sky Haumea 2.5748 vs NN 5.4356 19/9 (0.0002%)
+        same body: same-body Chiron GC 5 : 4 : 5/4 (worst 0.0476%)
+   Chiron–Transpluto      3 kinds: ratio J, family, same body
+        ratio J: J Chiron–Transpluto GC sky 144.8574 natal 46.5618 28/9 (0.0010%)
+        family: H Chiron–Transpluto RA sky Chiron – H Transpluto 145.7058 vs NN 166.5187 8/7 (0.0014%); J Chiron–Transpluto GC sky Chiron – J Transpluto 133.0318 vs NN 46.5618 20/7 (0.0014%)
+        same body: same-body Chiron GC 5 : 4 : 5/4 (worst 0.0476%)
+   Juno–Neptune           3 kinds: h:j, family, same body
+        h:j: horse:jockey Neptune–Juno Flat H 145.4247 J 169.6627 7/6
+        family: H Neptune–Juno Dec H Neptune – sky Juno 4.1517 vs TT 8.8964 15/7 (0.0020%); J Neptune–Juno RA sky Neptune – J Juno 120.7653 vs NN 166.0454 11/8 (0.0041%)
+        same body: same-body Neptune Dec 8/3 : 11/3 : 11/8 (worst 0.0923%)
+   Sun–Venus              3 kinds: h:j, family, same body
+        h:j: horse:jockey Sun–Venus Dec H 11.0356 J 6.4372 12/7
+        family: H Sun–Venus Dec H Sun – sky Venus 9.8092 vs NN 11.0356 9/8 (0.0022%); H Sun–Venus Flat sky Sun – H Venus 86.4262 vs NN 29.9158 26/9 (0.0031%)
+        same body: same-body Venus Dec 5/4 : 9/5 : 9/4 (worst 0.0368%); same-body Venus GC 8/7 : 15/7 : 15/8 (worst 0.0186%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Neptune–Vesta: H H Neptune–H Vesta Flat 22.00043 = 22
    recurring pair Pallas–Juno: H H Pallas–H Juno RA 140.0208 Dec 0.3848
@@ -666,3 +688,4 @@
    recurring pair Rahu–Haumea: H Rahu–Haumea Flat sky 159.1477 natal 30.6032 26/5 (0.0069%) near
    recurring pair Chiron–Transpluto: J Chiron–Transpluto GC sky 144.8574 natal 46.5618 28/9 (0.0010%)
    recurring pair Rahu–Haumea: J Rahu–Haumea GC sky 139.2302 natal 154.6916 10/9 (0.0056%) near
+   same-body Dec 9/4 : 5/4 : 9/5 on Venus: same-body Venus Dec 5/4 : 9/5 : 9/4 (worst 0.0368%)

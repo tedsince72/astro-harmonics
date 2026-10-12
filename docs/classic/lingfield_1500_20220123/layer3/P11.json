@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "7 Two For Gold / 7 David Bass",
  "workbook": "lingfield_1500_20220123__P11.xlsx",
  "bodies": {
@@ -11149,5 +11149,113 @@
   "splits:69": "J Saturn -> J Rahu RA span 79.06017 = moved 48.33369 (435/9) + 30.72648  parts ['11/7', 0.1019] span/other ['18/7', 0.0623]",
   "splits:71": "J Saturn -> J Sedna RA span 133.18846 = moved 48.33369 (435/9) + 84.85477  parts ['7/4', 0.3202] span/other ['11/7', 0.1161]",
   "splits:72": "J Saturn -> J Gonggong RA span 60.94980 = moved 48.33369 (435/9) + 12.61611  parts ['23/6', 0.058] span/other ['29/6', 0.046]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Ceres\u2013Mercury",
+   "n": 5,
+   "kinds": {
+    "shared": [
+     "shared:0"
+    ],
+    "cross": [
+     "links:77"
+    ],
+    "ratio J": [
+     "ratios:12"
+    ],
+    "h:j": [
+     "hj_ratios:2"
+    ],
+    "same body": [
+     "same_body:0",
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:77#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Juno\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:110"
+    ],
+    "partner": [
+     "links:110#shape2"
+    ],
+    "family": [
+     "pair_family:118"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:110#shape1"
+    ],
+    "family": [
+     "pair_family:119"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:119"
+    ],
+    "family": [
+     "pair_family:18"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:119#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Pallas\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:102"
+    ],
+    "family": [
+     "pair_family:47"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:102#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Juno\u2013Pallas",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:105"
+    ],
+    "partner": [
+     "links:105#shape2"
+    ],
+    "family": [
+     "pair_family:44"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

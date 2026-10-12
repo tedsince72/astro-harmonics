@@ -1,4 +1,4 @@
-# sandown_1425_20211204 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# sandown_1425_20211204 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Captain Guinness / 1 Rachael Blackmore**
@@ -16,6 +16,7 @@
 - Nothing that no other runner has.
 
 **P09 5 Nube Negra / 5 Harry Skelton**
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Orcus–Pallas, 4 kinds: cross, partner, moved, same body; not lit in any other runner
 - Shared with one other runner (P05), strict: both ends of the cross link have moved — horse Ceres–Skelton Sedna RA 161.3387 Dec 0.2754; horse Ceres moved GC 136.99935 = 137; Skelton Sedna moved Dec 4.00062 = 4
 
 ## Tightest instance of each shape in the field

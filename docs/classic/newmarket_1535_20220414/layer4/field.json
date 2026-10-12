@@ -1,6 +1,116 @@
 {
- "version": "L4 v1.1 (12 Oct 2026)",
+ "version": "L4 v1.2 (12 Oct 2026, pair focus)",
  "race": "newmarket_1535_20220414",
+ "pair_focus": {
+  "P01": {
+   "top": "Gonggong\u2013Node",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "partner",
+    "moved"
+   ],
+   "tied_pairs": [
+    "Gonggong\u2013Node",
+    "Jupiter\u2013Vesta",
+    "Node\u2013Venus",
+    "Venus\u2013Venus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P03": {
+   "top": "Gonggong\u2013Pallas",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "ratio J",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Gonggong\u2013Pallas",
+    "Node\u2013Sun",
+    "Pallas\u2013Sun",
+    "Mercury\u2013Pallas"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P05": {
+   "top": "Ceres\u2013Venus",
+   "n": 3,
+   "kinds": [
+    "ratio H",
+    "h:j",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Ceres\u2013Venus",
+    "Pluto\u2013Venus",
+    "Saturn\u2013Venus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P07": {
+   "top": "Haumea\u2013Node",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "struck",
+    "moved",
+    "family"
+   ],
+   "tied_pairs": [
+    "Haumea\u2013Node"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {
+    "P09": 3
+   }
+  },
+  "P09": {
+   "top": "Mercury\u2013Node",
+   "n": 4,
+   "kinds": [
+    "shared",
+    "ratio J",
+    "family",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Mercury\u2013Node"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P11": {
+   "top": "Saturn\u2013Uranus",
+   "n": 2,
+   "kinds": [
+    "cross",
+    "moved"
+   ],
+   "tied_pairs": [
+    "Saturn\u2013Uranus",
+    "Ceres\u2013Chiron",
+    "Ceres\u2013Juno"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  }
+ },
+ "pair_focus_max": 4,
+ "pair_focus_leaders": [
+  "P07",
+  "P09"
+ ],
  "runners": [
   {
    "P": "P01",

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "1 Gladly Ever After / 1 Taylor Fisher",
  "workbook": "wolverhampton_aw_1725_20231021__P01.xlsx",
  "bodies": {
@@ -9852,5 +9852,39 @@
   "splits:59": "J Haumea -> J Uranus RA span 134.68151 = moved 16.99514 (17) + 117.68637  parts ['7', 1.0756] span/other ['8/7', 0.1359]",
   "splits:65": "J Haumea -> J Gonggong RA span 131.81108 = moved 16.99514 (17) + 114.81595  parts ['27/4', 0.0861] span/other ['8/7', 0.4518]",
   "splits:66": "J Haumea -> J Quaoar RA span 50.84326 = moved 16.99514 (17) + 33.84813  parts ['2', 0.4182] span/other ['3/2', 0.14]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Juno\u2013Pallas",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:71"
+    ],
+    "moved": [
+     "links:71#shape5"
+    ],
+    "ratio H": [
+     "ratios:7"
+    ],
+    "ratio J": [
+     "ratios:13"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:71#shape1"
+    ],
+    "partner": [
+     "links:71#shape2"
+    ],
+    "ratio J": [
+     "ratios:14"
+    ],
+    "family": [
+     "pair_family:54"
+    ]
+   }
+  }
+ ]
 }

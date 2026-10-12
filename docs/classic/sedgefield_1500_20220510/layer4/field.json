@@ -1,6 +1,93 @@
 {
- "version": "L4 v1.1 (12 Oct 2026)",
+ "version": "L4 v1.2 (12 Oct 2026, pair focus)",
  "race": "sedgefield_1500_20220510",
+ "pair_focus": {
+  "P01": {
+   "top": "Mercury\u2013Node",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "partner",
+    "h:j"
+   ],
+   "tied_pairs": [
+    "Mercury\u2013Node"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P03": {
+   "top": "Eris\u2013Mars",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "partner",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Eris\u2013Mars",
+    "Gonggong\u2013Mars",
+    "Jupiter\u2013Pluto"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P05": {
+   "top": "Sun\u2013Venus",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "struck",
+    "family",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Sun\u2013Venus"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P07": {
+   "top": "Node\u2013Venus",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "struck",
+    "moved",
+    "family"
+   ],
+   "tied_pairs": [
+    "Node\u2013Venus"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P09": {
+   "top": "Gonggong\u2013Jupiter",
+   "n": 2,
+   "kinds": [
+    "cross",
+    "family"
+   ],
+   "tied_pairs": [
+    "Gonggong\u2013Jupiter",
+    "Haumea\u2013Saturn",
+    "Quaoar\u2013Uranus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  }
+ },
+ "pair_focus_max": 4,
+ "pair_focus_leaders": [
+  "P05",
+  "P07"
+ ],
  "runners": [
   {
    "P": "P01",

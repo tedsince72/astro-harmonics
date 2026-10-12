@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "8 Lucia Joy / 8 Ben Curtis",
  "workbook": "carlisle_1630_20220707__P11.xlsx",
  "bodies": {
@@ -9958,5 +9958,27 @@
   "splits:50": "J Quaoar -> H Eris RA span 154.25074 = moved 44.00809 (44) + 110.24265  parts ['5/2', 0.2022] span/other ['7/5', 0.0576]",
   "splits:56": "J Quaoar -> J Eris RA span 150.82301 = moved 44.00809 (44) + 106.81492  parts ['17/7', 0.0579] span/other ['7/5', 0.8574]",
   "splits:57": "J Quaoar -> J Sedna RA span 170.37515 = moved 44.00809 (44) + 126.36705  parts ['23/8', 0.1235] span/other ['4/3', 1.1192]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Neptune\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:89"
+    ],
+    "partner": [
+     "links:89#shape2"
+    ],
+    "family": [
+     "pair_family:105"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:39"
+    ]
+   }
+  }
+ ]
 }

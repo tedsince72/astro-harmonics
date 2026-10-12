@@ -1,4 +1,4 @@
-== 5 Daphne Moon / 5 Sean Bowen   [perth_1610_20220420__P09.xlsx, L3 v1.2 (12 Oct 2026)]
+== 5 Daphne Moon / 5 Sean Bowen   [perth_1610_20220420__P09.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): J Node, H Juno, J Neptune, H Pallas
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    J Node         BMPRSX  tight 6
@@ -873,6 +873,43 @@
         sky Neptune on H Rahu RA 165.9111 Dec 0.4208 near
         sky Makemake -> H Eris Dec 25.88904 = 233/9
         sky Neptune on H Eris RA 30.6255 Dec 0.5792 near
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Ceres–Uranus           6 kinds: cross, struck, partner, moved, family, same body
+        cross: cross H Ceres–J Uranus RA 0.9991 Dec 3.9847
+        struck: cross H Ceres–J Uranus RA 0.9991 Dec 3.9847
+        partner: cross H Ceres–J Uranus RA 0.9991 Dec 3.9847
+        moved: cross H Ceres–J Uranus RA 0.9991 Dec 3.9847
+        family: J Uranus–Ceres Dec J Uranus – sky Ceres 45.1566 vs NN 4.3007 21/2 (0.0006%)
+        same body: same-body Uranus RA 8/3 : 11/3 : 11/8 (worst 0.0328%)
+   Haumea–Makemake        4 kinds: cross, struck, moved, family
+        cross: cross H Makemake–J Haumea RA 1.1920 Dec 5.0341
+        struck: cross H Makemake–J Haumea RA 1.1920 Dec 5.0341
+        moved: cross H Makemake–J Haumea RA 1.1920 Dec 5.0341
+        family: J Haumea–Makemake GC sky Haumea – J Makemake 39.9608 vs NN 18.9291 19/9 (0.0018%)
+   Neptune–Pluto          3 kinds: shared, cross, moved   near: struck, partner, family
+        shared: shared Neptune–Pluto Dec H 11.5444 J 11.5988
+        cross: cross H Neptune–J Pluto RA 97.3562 Dec 0.2964; cross H Pluto–J Neptune RA 13.1105 Dec 0.2419
+        moved: cross H Pluto–J Neptune RA 13.1105 Dec 0.2419
+   Juno–Transpluto        3 kinds: cross, struck, moved   near: h:j, family
+        cross: cross H Juno–J Transpluto RA 18.8140 Dec 0.2263
+        struck: cross H Juno–J Transpluto RA 18.8140 Dec 0.2263
+        moved: cross H Juno–J Transpluto RA 18.8140 Dec 0.2263
+   Pallas–Pluto           3 kinds: cross, partner, same body   near: struck, family
+        cross: cross H Pluto–J Pallas RA 1.2613 Dec 32.4214
+        partner: cross H Pluto–J Pallas RA 1.2613 Dec 32.4214
+        same body: same-body Pallas Dec 10/3 : 10/7 : 7/3 (worst 0.1276%)
+   Chiron–Sun             3 kinds: ratio J, family, same body   near: ratio J
+        ratio J: J Sun–Chiron Dec sky 4.5739 natal 17.6421 27/7 (0.0013%)
+        family: J Sun–Chiron GC J Sun – sky Chiron 149.8162 vs NN 47.3083 19/6 (0.0043%)
+        same body: same-body Sun Dec 5 : 6 : 6/5 (worst 0.1355%)
+   Haumea–Node            3 kinds: shared, ratio J, same body   near: h:j
+        shared: shared Ketu–Haumea Flat H 159.1720 J 158.8583
+        ratio J: J Ketu–Haumea RA sky 13.0687 natal 156.8179 12 (0.0041%)
+        same body: same-body Rahu Dec 14/5 : 14/9 : 9/5 (worst 0.0897%)
+   Node–Node              3 kinds: cross, moved, same body   near: struck
+        cross: cross H Rahu–J Ketu RA 161.6050 Dec 0.1923; cross H Ketu–J Rahu RA 161.6050 Dec 0.1923
+        moved: cross H Rahu–J Ketu RA 161.6050 Dec 0.1923; cross H Ketu–J Rahu RA 161.6050 Dec 0.1923
+        same body: same-body Rahu Dec 14/5 : 14/9 : 9/5 (worst 0.0897%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Pallas–Juno: H H Pallas–H Juno Dec 5.00010 = 5
    recurring pair Jupiter–Vesta: J J Jupiter–J Vesta Flat 78.99888 = 79

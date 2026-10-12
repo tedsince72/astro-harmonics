@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Outbox / 4 Luke Morris",
  "workbook": "20210904_kempton_aw_1440__P07.xlsx",
  "bodies": {
@@ -10690,5 +10690,70 @@
   "splits:109": "J Eris -> J Juno Dec span 14.98474 = moved 8.66766 (78/9) + 6.31709  parts ['11/8', 0.2111] span/other ['19/8', 0.1222]",
   "splits:110": "J Eris -> J Ketu Dec span 16.47470 = moved 8.66766 (78/9) + 7.80704  parts ['10/9', 0.0788] span/other ['19/9', 0.0415]",
   "splits:114": "J Eris -> J Orcus Dec span 14.26033 = moved 8.66766 (78/9) + 5.59267  parts ['14/9', 0.3684] span/other ['23/9', 0.2243]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Quaoar\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:111"
+    ],
+    "partner": [
+     "links:111#shape2"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:111#shape1"
+    ],
+    "family": [
+     "pair_family:107"
+    ]
+   }
+  },
+  {
+   "pair": "Juno\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:68"
+    ],
+    "moved": [
+     "links:68#shape5"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:68#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Quaoar\u2013Saturn",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:110"
+    ],
+    "moved": [
+     "links:110#shape5"
+    ],
+    "family": [
+     "pair_family:99"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:110#shape1"
+    ]
+   }
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "8 Ziggy's Condor / 8 Oisin Orr",
  "workbook": "york_1615_20240515__P15.xlsx",
  "bodies": {
@@ -9766,5 +9766,88 @@
   "splits:51": "J Haumea -> H Ketu RA span 58.05384 = moved 24.44509 (220/9) + 33.60875  parts ['11/8', 0.0097] span/other ['12/7', 0.7617]",
   "splits:55": "J Haumea -> J Jupiter RA span 122.70957 = moved 24.44509 (220/9) + 98.26448  parts ['4', 0.4951] span/other ['5/4', 0.0985]",
   "splits:56": "J Haumea -> J Uranus RA span 114.08458 = moved 24.44509 (220/9) + 89.63949  parts ['11/3', 0.0084] span/other ['9/7', 1.0119]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Ceres\u2013Neptune",
+   "n": 4,
+   "kinds": {
+    "ratio H": [
+     "ratios:6"
+    ],
+    "ratio J": [
+     "ratios:14"
+    ],
+    "set": [
+     "pair_sets:0"
+    ],
+    "h:j": [
+     "hj_ratios:11"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Eris\u2013Jupiter",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:5"
+    ],
+    "family": [
+     "pair_family:20"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:19",
+     "pair_family:75",
+     "pair_family:76"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:107"
+    ],
+    "partner": [
+     "links:107#shape2"
+    ],
+    "family": [
+     "pair_family:63"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:107#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:49"
+    ],
+    "partner": [
+     "links:49#shape2"
+    ],
+    "moved": [
+     "links:49#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:49#shape1"
+    ]
+   }
+  }
+ ]
 }

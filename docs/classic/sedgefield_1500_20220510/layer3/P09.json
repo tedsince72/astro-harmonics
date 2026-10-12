@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "5 Mrs Paisley / 5 Danny McMenamin",
  "workbook": "sedgefield_1500_20220510__P09.xlsx",
  "bodies": {
@@ -10405,5 +10405,67 @@
   "splits:141": "J Sedna -> J Mercury RA span 52.23036 = moved 11.66748 (105/9) + 40.56288  parts ['7/2', 0.6693] span/other ['9/7', 0.1497]",
   "splits:142": "J Sedna -> J Venus RA span 24.83989 = moved 11.66748 (105/9) + 13.17241  parts ['9/8', 0.3542] span/other ['17/9', 0.1661]",
   "splits:146": "J Sedna -> J Rahu RA span 69.84051 = moved 11.66748 (105/9) + 58.17303  parts ['5', 0.2818] span/other ['6/5', 0.0471]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Gonggong\u2013Jupiter",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:75"
+    ],
+    "family": [
+     "pair_family:77"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:75#shape1"
+    ],
+    "family": [
+     "pair_family:76"
+    ]
+   }
+  },
+  {
+   "pair": "Haumea\u2013Saturn",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:110"
+    ],
+    "family": [
+     "pair_family:84"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:110#shape1"
+    ],
+    "family": [
+     "pair_family:83"
+    ]
+   }
+  },
+  {
+   "pair": "Quaoar\u2013Uranus",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:121"
+    ],
+    "family": [
+     "pair_family:89"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:121#shape1"
+    ],
+    "partner": [
+     "links:121#shape2"
+    ]
+   }
+  }
+ ]
 }

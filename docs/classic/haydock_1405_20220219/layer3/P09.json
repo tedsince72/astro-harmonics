@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "5 Wholestone / 5 Sam Twiston-Davies",
  "workbook": "haydock_1405_20220219__P09.xlsx",
  "bodies": {
@@ -10349,5 +10349,78 @@
   "splits:98": "H Haumea -> J Quaoar Dec span 32.77066 = moved 3.66740 (33/9) + 29.10325  parts ['8', 0.8043] span/other ['9/8', 0.0901]",
   "splits:102": "J Pluto -> J Uranus Dec span 18.59467 = moved 17.99602 (18) + 0.59865  parts ['30', 0.2036] span/other None",
   "splits:104": "J Pluto -> J Rahu Dec span 18.78015 = moved 17.99602 (18) + 0.78413  parts ['23', 0.2159] span/other ['24', 0.207]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Orcus\u2013Transpluto",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:122"
+    ],
+    "struck": [
+     "links:122#shape1"
+    ],
+    "partner": [
+     "links:122#shape2"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:72"
+    ]
+   }
+  },
+  {
+   "pair": "Mars\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:94"
+    ],
+    "moved": [
+     "links:94#shape5"
+    ],
+    "h:j": [
+     "hj_ratios:10"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:94#shape1"
+    ],
+    "family": [
+     "pair_family:28",
+     "pair_family:91"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Quaoar",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:120"
+    ],
+    "ratio J": [
+     "ratios:19"
+    ],
+    "family": [
+     "pair_family:65",
+     "pair_family:126"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:120#shape1"
+    ],
+    "family": [
+     "pair_family:67"
+    ]
+   }
+  }
+ ]
 }

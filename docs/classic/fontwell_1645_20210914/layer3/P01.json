@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "1 Eye To The Sky / 1 Gavin Sheehan",
  "workbook": "20210914_fontwell_1645__P01.xlsx",
  "bodies": {
@@ -8457,5 +8457,50 @@
   "splits:0": "J Ceres -> H Vesta RA span 158.27612 = moved 115.00875 (115) + 43.26736  parts ['8/3', 0.3214] span/other ['11/3', 0.2338]",
   "splits:3": "J Ceres -> J Venus RA span 141.15268 = moved 115.00875 (115) + 26.14393  parts ['22/5', 0.0213] span/other ['27/5', 0.0174]",
   "splits:6": "J Ceres -> J Orcus RA span 176.42610 = moved 115.00875 (115) + 61.41735  parts ['15/8', 0.1292] span/other ['23/8', 0.0843]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Node\u2013Quaoar",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:100"
+    ],
+    "moved": [
+     "links:100#shape5"
+    ],
+    "family": [
+     "pair_family:53"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:100#shape1"
+    ],
+    "ratio H": [
+     "ratios:5"
+    ]
+   }
+  },
+  {
+   "pair": "Pallas\u2013Saturn",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:71"
+    ],
+    "struck": [
+     "links:71#shape1"
+    ],
+    "moved": [
+     "links:71#shape5"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:98"
+    ]
+   }
+  }
+ ]
 }

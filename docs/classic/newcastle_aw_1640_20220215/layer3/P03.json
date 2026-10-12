@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Alba Rose / 2 Joe Fanning",
  "workbook": "newcastle_aw_1640_20220215__P03.xlsx",
  "bodies": {
@@ -8012,5 +8012,73 @@
   "splits:63": "H Makemake -> J Sedna Dec span 23.05879 = moved 2.33291 (21/9) + 20.72588  parts ['9', 1.2874] span/other ['10/9', 0.1304]",
   "splits:65": "H Makemake -> J Quaoar Dec span 33.77484 = moved 2.33291 (21/9) + 31.44193  parts ['27/2', 0.1663] span/other ['10/9', 3.3222]",
   "splits:67": "H Makemake -> J Transpluto Dec span 8.56677 = moved 2.33291 (21/9) + 6.23386  parts ['8/3', 0.2052] span/other ['11/8', 0.0559]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Juno\u2013Uranus",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:75"
+    ],
+    "struck": [
+     "links:75#shape1"
+    ],
+    "partner": [
+     "links:75#shape2"
+    ],
+    "moved": [
+     "links:75#shape5"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:89"
+    ]
+   }
+  },
+  {
+   "pair": "Mars\u2013Mercury",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:56"
+    ],
+    "partner": [
+     "links:56#shape2"
+    ],
+    "moved": [
+     "links:56#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:56#shape1"
+    ],
+    "ratio H": [
+     "ratios:3"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:2"
+    ],
+    "ratio J": [
+     "ratios:14"
+    ],
+    "family": [
+     "pair_family:81"
+    ]
+   },
+   "near": {
+    "ratio H": [
+     "ratios:8"
+    ]
+   }
+  }
+ ]
 }

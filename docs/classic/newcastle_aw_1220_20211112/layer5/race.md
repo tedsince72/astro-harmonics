@@ -1,4 +1,4 @@
-# newcastle_aw_1220_20211112 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# newcastle_aw_1220_20211112 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Further Measure / 1 Tom Marquand**

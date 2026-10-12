@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Pointed And Sharp / 4 Tom O'Brien",
  "workbook": "20211019_exeter_1515__P07.xlsx",
  "bodies": {
@@ -9888,5 +9888,64 @@
   "splits:38": "J Orcus -> H Pluto Dec span 24.35650 = moved 16.66655 (150/9) + 7.68995  parts ['13/6', 0.0299] span/other ['19/6', 0.0205]",
   "splits:39": "J Orcus -> H Rahu Dec span 26.41137 = moved 16.66655 (150/9) + 9.74482  parts ['12/7', 0.2326] span/other ['19/7', 0.1469]",
   "splits:41": "J Orcus -> H Quaoar Dec span 20.69190 = moved 16.66655 (150/9) + 4.02535  parts ['29/7', 0.0594] span/other ['26/5', 1.1463]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Jupiter\u2013Pallas",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:85"
+    ],
+    "ratio H": [
+     "ratios:2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:85#shape1"
+    ],
+    "family": [
+     "pair_family:95"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Saturn",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:69"
+    ],
+    "partner": [
+     "links:69#shape2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:69#shape1"
+    ],
+    "h:j": [
+     "hj_ratios:8"
+    ]
+   }
+  },
+  {
+   "pair": "Juno\u2013Node",
+   "n": 2,
+   "kinds": {
+    "h:j": [
+     "hj_ratios:20"
+    ],
+    "family": [
+     "pair_family:142"
+    ]
+   },
+   "near": {
+    "h:j": [
+     "hj_ratios:21"
+    ]
+   }
+  }
+ ]
 }

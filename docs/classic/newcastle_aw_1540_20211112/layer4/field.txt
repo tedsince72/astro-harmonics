@@ -1,4 +1,4 @@
-== newcastle_aw_1540_20211112  field of 6   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
+== newcastle_aw_1540_20211112  field of 6   [L4 v1.2 (12 Oct 2026, pair focus)]  (blind: no finishing positions)
 -- runners: P01 1 Poco Contante / 1 Jamie Gormley; P03 2 Gold Terms / 2 Oliver Stammers; P05 3 Heart Throb / 3 Graham Lee; P07 4 Larllunna / 4 Harry Russell; P09 5 Rabat / 5 Connor Beasley; P11 6 Silver Bubble / 6 Tom Marquand
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              3/6: P01:2 P05:1 P09:3  |   6: P01:14 P03:18 P05:17 P07:12 P09:10 P11:17
@@ -29,10 +29,17 @@
    [ broad:10] P03 2 Gold Terms / 2 Oliver Stammers: H Pluto -> J Neptune (split error 0.0009%)
    [ broad:11] P05 3 Heart Throb / 3 Graham Lee: same body Orcus (worst 0.0105%)
 -- field-only findings (shape numbers)
-   P01 1 Poco Contante / 1 Jamie Gormley: only (strict) -; only (broad) -; strict, shared with one other 12,12m
+   P01 1 Poco Contante / 1 Jamie Gormley: only (strict) pair focus; only (broad) -; strict, shared with one other 12,12m
    P03 2 Gold Terms / 2 Oliver Stammers: only (strict) -; only (broad) 6; strict, shared with one other 7
    P09 5 Rabat / 5 Connor Beasley: only (strict) -; only (broad) 4; strict, shared with one other 7
    P11 6 Silver Bubble / 6 Tom Marquand: only (strict) -; only (broad) -; strict, shared with one other 12,12m
+-- pair focus: each runner's most-lit pair (kinds of root item); field max 5 — P01
+   P01 1 Poco Contante / 1 Jamie Gormley        Eris–Juno              5  cross, struck, partner, ratio H, same body  <- most-lit pair in the field
+   P03 2 Gold Terms / 2 Oliver Stammers         Sedna–Venus            2  ratio J, same body
+   P05 3 Heart Throb / 3 Graham Lee             Orcus–Sun              3  cross, partner, same body
+   P07 4 Larllunna / 4 Harry Russell            Haumea–Makemake        3  cross, moved, same body
+   P09 5 Rabat / 5 Connor Beasley               Saturn–Uranus          3  ratio H, family, same body
+   P11 6 Silver Bubble / 6 Tom Marquand         Gonggong–Juno          3  cross, partner, moved
 -- strong hubs across the field
    J Sun          2: P05 P07
    J Juno         1: P01

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Dynamic Force / 2 Ray Dawson",
  "workbook": "nottingham_1530_20220601__P01.xlsx",
  "bodies": {
@@ -10699,5 +10699,54 @@
   "splits:41": "J Gonggong -> J Ceres RA span 64.35731 = moved 6.88802 (62/9) + 57.46929  parts ['25/3', 0.1205] span/other ['9/8', 0.4573]",
   "splits:42": "J Gonggong -> J Vesta RA span 15.12549 = moved 6.88802 (62/9) + 8.23747  parts ['6/5', 0.3406] span/other ['11/6', 0.1553]",
   "splits:44": "J Gonggong -> J Eris RA span 52.76798 = moved 6.88802 (62/9) + 45.87996  parts ['20/3', 0.0874] span/other ['8/7', 0.6365]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Neptune\u2013Node",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:84"
+    ],
+    "moved": [
+     "links:84#shape5"
+    ],
+    "ratio H": [
+     "ratios:5"
+    ],
+    "family": [
+     "pair_family:35",
+     "pair_family:106"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:84#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:56"
+    ],
+    "partner": [
+     "links:56#shape2"
+    ],
+    "moved": [
+     "links:56#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:56#shape1"
+    ],
+    "family": [
+     "pair_family:87"
+    ]
+   }
+  }
+ ]
 }

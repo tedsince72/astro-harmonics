@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "1 Biscoff Joe / 1 Gearoid Harney",
  "workbook": "fontwell_1530_20231006__P01.xlsx",
  "bodies": {
@@ -11688,5 +11688,27 @@
   "splits:165": "J Transpluto -> J Mars RA span 122.61851 = moved 7.22217 (65/9) + 115.39634  parts ['16', 0.137] span/other ['10/9', 4.3673]",
   "splits:171": "J Transpluto -> J Pallas RA span 101.10159 = moved 7.22217 (65/9) + 93.87942  parts ['13', 0.0093] span/other ['10/9', 3.0763]",
   "splits:173": "J Transpluto -> J Haumea RA span 49.06654 = moved 7.22217 (65/9) + 41.84437  parts ['29/5', 0.1055] span/other ['7/6', 0.5082]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Node\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:68"
+    ],
+    "partner": [
+     "links:68#shape2"
+    ],
+    "moved": [
+     "links:68#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:68#shape1"
+    ]
+   }
+  }
+ ]
 }

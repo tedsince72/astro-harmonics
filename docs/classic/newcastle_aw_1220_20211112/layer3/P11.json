@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "7 Buxted Too / 7 David Egan",
  "workbook": "newcastle_aw_1220_20211112__P11.xlsx",
  "bodies": {
@@ -10741,5 +10741,26 @@
   "splits:76": "H Chiron -> J Eris RA span 24.45612 = moved 7.55566 (68/9) + 16.90047  parts ['9/4', 0.5868] span/other ['13/9', 0.1816]",
   "splits:88": "H Rahu -> J Makemake Dec span 14.75984 = moved 2.44372 (22/9) + 12.31611  parts ['5', 0.7979] span/other ['6/5', 0.1319]",
   "splits:90": "H Ketu -> H Saturn Dec span 4.27416 = moved 2.44372 (22/9) + 1.83044  parts ['4/3', 0.1284] span/other ['7/3', 0.0734]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Sun\u2013Venus",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:48"
+    ],
+    "struck": [
+     "links:48#shape1"
+    ],
+    "h:j": [
+     "hj_ratios:0"
+    ],
+    "family": [
+     "pair_family:47"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "7 Thursday's Child / 7 Billy Garritty",
  "workbook": "york_1615_20240515__P13.xlsx",
  "bodies": {
@@ -10789,5 +10789,30 @@
   "splits:68": "J Transpluto -> H Haumea RA span 69.30354 = moved 8.00327 (8) + 61.30027  parts ['23/3', 0.0947] span/other ['9/8', 0.4941]",
   "splits:71": "J Transpluto -> J Mars RA span 55.97739 = moved 8.00327 (8) + 47.97412  parts ['6', 0.0947] span/other ['7/6', 0.0135]",
   "splits:78": "J Transpluto -> J Haumea RA span 48.09708 = moved 8.00327 (8) + 40.09381  parts ['5', 0.1936] span/other ['6/5', 0.0322]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Eris\u2013Pallas",
+   "n": 4,
+   "kinds": {
+    "shared": [
+     "shared:4"
+    ],
+    "cross": [
+     "links:83"
+    ],
+    "partner": [
+     "links:83#shape2"
+    ],
+    "moved": [
+     "links:83#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:83#shape1"
+    ]
+   }
+  }
+ ]
 }

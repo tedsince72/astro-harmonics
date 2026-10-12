@@ -1,4 +1,4 @@
-== nottingham_1530_20220601  field of 5   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
+== nottingham_1530_20220601  field of 5   [L4 v1.2 (12 Oct 2026, pair focus)]  (blind: no finishing positions)
 -- runners: P01 2 Dynamic Force / 2 Ray Dawson; P03 3 Princess Shabnam / 3 Harry Burns; P05 4 Ballet Steps / 4 Kieran Shoemark; P07 5 Swayze / 5 Lewis Edmunds; P09 6 Silky Wilkie / 6 Clifford Lee
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              3/5: P01:1 P03:4 P07:2  |   5: P01:19 P03:16 P05:11 P07:20 P09:13
@@ -32,8 +32,15 @@
    [ broad:11] P05 4 Ballet Steps / 4 Kieran Shoemark: same body Neptune (worst 0.0388%)
 -- field-only findings (shape numbers)
    P01 2 Dynamic Force / 2 Ray Dawson: only (strict) 1m; only (broad) -; strict, shared with one other -
+   P03 3 Princess Shabnam / 3 Harry Burns: only (strict) pair focus; only (broad) -; strict, shared with one other -
    P07 5 Swayze / 5 Lewis Edmunds: only (strict) 4,6,12; only (broad) -; strict, shared with one other 12m
    P09 6 Silky Wilkie / 6 Clifford Lee: only (strict) -; only (broad) -; strict, shared with one other 12m
+-- pair focus: each runner's most-lit pair (kinds of root item); field max 5 — P03
+   P01 2 Dynamic Force / 2 Ray Dawson           Neptune–Node           4  cross, moved, ratio H, family
+   P03 3 Princess Shabnam / 3 Harry Burns       Eris–Mars              5  cross, struck, partner, moved, ratio J  <- most-lit pair in the field
+   P05 4 Ballet Steps / 4 Kieran Shoemark       Haumea–Pallas          2  cross, moved
+   P07 5 Swayze / 5 Lewis Edmunds               Mars–Saturn            3  cross, family, same body
+   P09 6 Silky Wilkie / 6 Clifford Lee          Chiron–Node            2  ratio J, family
 -- strong hubs across the field
    H Node         2: P01 P03
    H Mars         2: P03 P05

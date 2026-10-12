@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "7 Not Available / 7 Stan Sheppard",
  "workbook": "newbury_1350_20211126__P09.xlsx",
  "bodies": {
@@ -9493,5 +9493,94 @@
   "splits:44": "J Gonggong -> J Ketu RA span 19.47904 = moved 5.00520 (5) + 14.47384  parts ['26/9', 0.0994] span/other ['4/3', 0.9358]",
   "splits:45": "J Gonggong -> J Eris RA span 52.51267 = moved 5.00520 (5) + 47.50747  parts ['19/2', 0.0882] span/other ['10/9', 0.518]",
   "splits:46": "J Gonggong -> J Sedna RA span 75.06080 = moved 5.00520 (5) + 70.05560  parts ['14', 0.0245] span/other ['10/9', 3.5699]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Haumea\u2013Pallas",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:89"
+    ],
+    "ratio J": [
+     "ratios:14"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:89#shape1"
+    ],
+    "ratio H": [
+     "ratios:8"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "family": [
+     "pair_family:70"
+    ],
+    "same body": [
+     "same_body:0"
+    ],
+    "sky": [
+     "sky-gc 4.2028"
+    ]
+   },
+   "near": {
+    "h:j": [
+     "hj_ratios:4"
+    ],
+    "family": [
+     "pair_family:5"
+    ]
+   }
+  },
+  {
+   "pair": "Haumea\u2013Node",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:5"
+    ],
+    "family": [
+     "pair_family:120"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:54"
+    ]
+   }
+  },
+  {
+   "pair": "Sun\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "family": [
+     "pair_family:64"
+    ],
+    "same body": [
+     "same_body:0"
+    ],
+    "sky": [
+     "sky-gc 3.1697"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:1",
+     "pair_family:63"
+    ]
+   }
+  }
+ ]
 }

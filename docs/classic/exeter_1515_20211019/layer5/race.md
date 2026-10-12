@@ -1,4 +1,4 @@
-# exeter_1515_20211019 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# exeter_1515_20211019 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Caspers Court / 1 Tom Scudamore**
@@ -20,6 +20,7 @@
 - **Only runner in the field (strict): swap** — horse Jupiter–Brace Mercury RA 12.0179 Dec 0.1563; horse Mercury–Brace Jupiter RA 0.2045 Dec 1.1968  _(rests on 2 independent facts)_
 
 **P11 7 Forget You Not / 7 James Best**
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Chiron–Juno, 5 kinds: shared, cross, struck, ratio J, same body; the same pair in other runners: P03 3
 - Shared with one other runner (P05), strict: cross link struck on both ends — horse Juno–Best Chiron RA 10.9798 Dec 0.0555; sky Gonggong -> horse Juno GC 152.99989 = 153; sky Uranus -> Best Chiron GC 73.99859 = 74
 
 ## Tightest instance of each shape in the field

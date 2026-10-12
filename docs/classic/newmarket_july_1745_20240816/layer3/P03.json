@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Arabian Poet / 2 William Buick",
  "workbook": "newmarket_july_1745_20240816__P03.xlsx",
  "bodies": {
@@ -10711,5 +10711,82 @@
   "splits:23": "J Pallas -> J Ketu RA span 139.62942 = moved 65.55564 (590/9) + 74.07378  parts ['9/8', 0.4389] span/other ['17/9', 0.2056]",
   "splits:25": "J Pallas -> J Makemake RA span 139.61077 = moved 65.55564 (590/9) + 74.05513  parts ['9/8', 0.4136] span/other ['17/9', 0.1938]",
   "splits:27": "J Pallas -> J Orcus RA span 178.10694 = moved 65.55564 (590/9) + 112.55131  parts ['12/7', 0.1515] span/other ['11/7', 0.7014]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Pluto\u2013Saturn",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:75"
+    ],
+    "struck": [
+     "links:75#shape1"
+    ],
+    "partner": [
+     "links:75#shape2"
+    ],
+    "moved": [
+     "links:75#shape5"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Haumea\u2013Mercury",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:55"
+    ],
+    "partner": [
+     "links:55#shape2"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:55#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Mercury",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:52"
+    ],
+    "moved": [
+     "links:52#shape5"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:52#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Mars\u2013Mercury",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:2"
+    ],
+    "family": [
+     "pair_family:6"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

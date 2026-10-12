@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Dust Cover / 2 Jack Mitchell",
  "workbook": "20261010_southwell_aw_2000__P03.xlsx",
  "bodies": {
@@ -11785,5 +11785,218 @@
   "splits:70": "J Quaoar -> J Ceres RA span 125.45367 = moved 47.22244 (425/9) + 78.23123  parts ['5/3', 0.6008] span/other ['8/5', 0.2267]",
   "splits:73": "J Quaoar -> J Eris RA span 148.32815 = moved 47.22244 (425/9) + 101.10571  parts ['15/7', 0.0842] span/other ['13/9', 1.5657]",
   "splits:74": "J Quaoar -> J Sedna RA span 167.69410 = moved 47.22244 (425/9) + 120.47166  parts ['23/9', 0.1723] span/other ['7/5', 0.5729]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Jupiter\u2013Node",
+   "n": 4,
+   "kinds": {
+    "shared": [
+     "shared:6"
+    ],
+    "cross": [
+     "links:55"
+    ],
+    "partner": [
+     "links:55#shape2"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "cross": [
+     "links:83"
+    ],
+    "struck": [
+     "links:55#shape1",
+     "links:83#shape1"
+    ],
+    "partner": [
+     "links:83#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Pluto\u2013Saturn",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:65"
+    ],
+    "partner": [
+     "links:65#shape2"
+    ],
+    "moved": [
+     "links:65#shape5"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:65#shape1"
+    ],
+    "ratio H": [
+     "ratios:6"
+    ],
+    "family": [
+     "pair_family:83"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Orcus",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:101"
+    ],
+    "partner": [
+     "links:101#shape2"
+    ],
+    "moved": [
+     "links:101#shape5"
+    ],
+    "ratio J": [
+     "ratios:16"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:101#shape1"
+    ],
+    "family": [
+     "pair_family:121"
+    ]
+   }
+  },
+  {
+   "pair": "Ceres\u2013Jupiter",
+   "n": 4,
+   "kinds": {
+    "shared": [
+     "shared:5"
+    ],
+    "cross": [
+     "links:73"
+    ],
+    "partner": [
+     "links:73#shape2"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:73#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Quaoar\u2013Saturn",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:97"
+    ],
+    "moved": [
+     "links:97#shape5"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:97#shape1"
+    ],
+    "partner": [
+     "links:97#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Quaoar\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:95"
+    ],
+    "partner": [
+     "links:95#shape2"
+    ],
+    "moved": [
+     "links:95#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:95#shape1"
+    ],
+    "family": [
+     "pair_family:4"
+    ]
+   }
+  },
+  {
+   "pair": "Ceres\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:3"
+    ],
+    "ratio J": [
+     "ratios:10"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "h:j": [
+     "hj_ratios:3"
+    ]
+   }
+  },
+  {
+   "pair": "Juno\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:100"
+    ],
+    "moved": [
+     "links:100#shape5"
+    ],
+    "family": [
+     "pair_family:114"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:100#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Orcus\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:4"
+    ],
+    "family": [
+     "pair_family:14",
+     "pair_family:71"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

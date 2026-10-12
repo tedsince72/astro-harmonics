@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "14 Ocean Quest / 14 Shane Foley",
  "workbook": "ascot_1350_20231021__P27.xlsx",
  "bodies": {
@@ -10115,5 +10115,23 @@
   "splits:12": "H Neptune -> J Chiron RA span 93.06979 = moved 5.99128 (6) + 87.07852  parts ['29/2', 0.236] span/other ['10/9', 3.8077]",
   "splits:26": "H Pallas -> J Haumea RA span 103.34869 = moved 90.00142 (90) + 13.34727  parts ['27/4', 0.1028] span/other ['23/3', 0.9964]",
   "splits:27": "H Pallas -> J Makemake RA span 122.35220 = moved 90.00142 (90) + 32.35078  parts ['25/9', 0.1537] span/other ['19/5', 0.4724]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Mars\u2013Neptune",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:51"
+    ],
+    "struck": [
+     "links:51#shape1"
+    ],
+    "family": [
+     "pair_family:16"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

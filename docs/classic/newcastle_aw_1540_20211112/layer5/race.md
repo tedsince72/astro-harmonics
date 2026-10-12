@@ -1,7 +1,8 @@
-# newcastle_aw_1540_20211112 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# newcastle_aw_1540_20211112 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Poco Contante / 1 Jamie Gormley**
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Eris–Juno, 5 kinds: cross, struck, partner, ratio H, same body; not lit in any other runner
 - Shared with one other runner (P11), strict: pair in one chart struck on both ends by 2+ sky bodies — horse Mars–horse Pluto Dec 40.33313 = 363/9; sky Saturn -> horse Mars Dec 38.33313 = 345/9; sky Chiron -> horse Mars Dec 13.55509 = 122/9
 - Shared with one other runner (P11), strict: pair in one chart struck on both ends by 2+ sky bodies — horse Mars–horse Pluto Dec 40.33313 = 363/9; sky Saturn -> horse Mars Dec 38.33313 = 345/9; sky Chiron -> horse Mars Dec 13.55509 = 122/9
 

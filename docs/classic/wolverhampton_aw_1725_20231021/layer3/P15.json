@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "8 Princess Alice / 8 Daniel Muscutt",
  "workbook": "wolverhampton_aw_1725_20231021__P15.xlsx",
  "bodies": {
@@ -9526,5 +9526,43 @@
   "splits:33": "J Venus -> J Makemake RA span 70.07642 = moved 59.00390 (59) + 11.07253  parts ['16/3', 0.0839] span/other ['19/3', 0.0707]",
   "splits:37": "J Eris -> H Venus RA span 20.74813 = moved 3.00565 (3) + 17.74248  parts ['6', 1.616] span/other ['7/6', 0.2346]",
   "splits:42": "J Eris -> H Sedna RA span 34.63004 = moved 3.00565 (3) + 31.62439  parts ['21/2', 0.2061] span/other ['10/9', 1.4462]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Gonggong\u2013Jupiter",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:68"
+    ],
+    "moved": [
+     "links:68#shape5"
+    ],
+    "family": [
+     "pair_family:76"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:68#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Sedna\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:66"
+    ],
+    "struck": [
+     "links:66#shape1"
+    ],
+    "partner": [
+     "links:66#shape2"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

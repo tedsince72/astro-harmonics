@@ -1,4 +1,4 @@
-== 4 Calle Malva / 4 Derek Fox   [perth_1610_20220420__P07.xlsx, L3 v1.2 (12 Oct 2026)]
+== 4 Calle Malva / 4 Derek Fox   [perth_1610_20220420__P07.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): H Gonggong
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Gonggong     BEPRS  tight 5
@@ -686,6 +686,19 @@
         sky Pallas -> J Jupiter Dec 14.33305 = 129/9
         sky Mercury -> J Makemake Flat 126.77820 = 1141/9
         sky Pallas -> J Makemake Dec 39.00143 = 39
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Gonggong–Jupiter       3 kinds: ratio H, family, same body
+        ratio H: H Jupiter–Gonggong RA sky 18.9348 natal 160.9508 17/2 (0.0033%)
+        family: J Jupiter–Gonggong GC sky Jupiter – J Gonggong 29.9060 vs NN 169.4604 17/3 (0.0042%)
+        same body: same-body Gonggong RA 8/3 : 11/3 : 11/8 (worst 0.1494%)
+   Gonggong–Mars          3 kinds: shared, same body, sky
+        shared: shared Mars–Gonggong Flat H 41.5968 J 41.4625
+        same body: same-body Mars GC 11/2 : 11/9 : 9/2 (worst 0.1213%); same-body Gonggong RA 8/3 : 11/3 : 11/8 (worst 0.1494%)
+        sky: sky-gc 1.0847
+   Mercury–Uranus         3 kinds: family, same body, sky
+        family: J Mercury–Uranus Dec sky Mercury – J Uranus 41.6602 vs NN 34.0866 11/9 (0.0028%)
+        same body: same-body Uranus GC 3 : 4 : 4/3 (worst 0.0874%)
+        sky: sky-gc 4.6598
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Jupiter–Vesta: H H Jupiter–H Vesta RA 172.55579 = 1553/9
    recurring pair Neptune–Node: H H Neptune–H Rahu Flat 150.55593 = 1355/9

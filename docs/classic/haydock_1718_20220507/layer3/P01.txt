@@ -1,4 +1,4 @@
-== 1 Oh Herberts Reign / 1 Hollie Doyle   [haydock_1718_20220507__P01.xlsx, L3 v1.2 (12 Oct 2026)]
+== 1 Oh Herberts Reign / 1 Hollie Doyle   [haydock_1718_20220507__P01.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): H Vesta, J Mars, J Eris, J Quaoar
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Vesta        MPRSX  tight 5
@@ -833,6 +833,19 @@
         sky Jupiter on J Saturn RA 4.1323 Dec 0.1282
         sky Jupiter -> J Pallas Dec 9.11132 = 82/9
         sky Orcus -> J Pallas RA 81.99584 = 82
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Quaoar–Vesta           3 kinds: cross, moved, same body   near: struck
+        cross: cross H Vesta–J Quaoar RA 94.7998 Dec 0.0561
+        moved: cross H Vesta–J Quaoar RA 94.7998 Dec 0.0561
+        same body: same-body Quaoar RA 7 : 8 : 8/7 (worst 0.0577%)
+   Eris–Mars              3 kinds: cross, struck, same body
+        cross: cross H Mars–J Eris RA 0.2027 Dec 17.9373
+        struck: cross H Mars–J Eris RA 0.2027 Dec 17.9373
+        same body: same-body Mars EqValue 3/2 : 13/8 : 17/7 (worst 0.1467%)
+   Mars–Pluto             3 kinds: h:j, family, same body
+        h:j: horse:jockey Mars–Pluto RA H 89.7130 J 99.6824 10/9
+        family: J Mars–Pluto RA J Mars – sky Pluto 158.6600 vs TT 47.5958 10/3 (0.0046%)
+        same body: same-body Mars EqValue 3/2 : 13/8 : 17/7 (worst 0.1467%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Node–Haumea: H H Ketu–H Haumea Dec 36.99762 = 37
    recurring pair Neptune–Node: J J Neptune–J Ketu Dec 23.88911 = 215/9

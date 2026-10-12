@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 La Pasionaria / 4 Hector Crouch",
  "workbook": "york_1545_20240515__P07.xlsx",
  "bodies": {
@@ -11698,5 +11698,23 @@
   "splits:50": "J Makemake -> J Ketu Dec span 29.43032 = moved 11.22222 (101/9) + 18.20810  parts ['13/8', 0.1536] span/other ['13/8', 0.5335]",
   "splits:51": "J Makemake -> J Eris Dec span 40.91909 = moved 11.22222 (101/9) + 29.69687  parts ['8/3', 0.7654] span/other ['11/8', 0.2104]",
   "splits:54": "J Makemake -> J Quaoar Dec span 47.37497 = moved 11.22222 (101/9) + 36.15275  parts ['29/9', 0.0214] span/other ['4/3', 1.7192]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Uranus\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:0"
+    ],
+    "same body": [
+     "same_body:0"
+    ],
+    "sky": [
+     "sky-gc 3.4106"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

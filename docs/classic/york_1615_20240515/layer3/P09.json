@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "5 Respectful / 5 Shane Foley",
  "workbook": "york_1615_20240515__P09.xlsx",
  "bodies": {
@@ -11008,5 +11008,169 @@
   "splits:116": "J Quaoar -> J Jupiter RA span 156.29102 = moved 47.00511 (47) + 109.28590  parts ['7/3', 0.358] span/other ['10/7', 0.1078]",
   "splits:118": "J Quaoar -> J Ceres RA span 99.16973 = moved 47.00511 (47) + 52.16461  parts ['10/9', 0.1212] span/other ['17/9', 0.646]",
   "splits:123": "J Quaoar -> J Sedna RA span 167.97973 = moved 47.00511 (47) + 120.97461  parts ['18/7', 0.0863] span/other ['7/5', 0.8176]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Neptune\u2013Node",
+   "n": 5,
+   "kinds": {
+    "cross": [
+     "links:61",
+     "links:79"
+    ],
+    "moved": [
+     "links:79#shape5"
+    ],
+    "ratio H": [
+     "ratios:7"
+    ],
+    "ratio J": [
+     "ratios:12"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:79#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Saturn",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:78"
+    ],
+    "ratio H": [
+     "ratios:6"
+    ],
+    "h:j": [
+     "hj_ratios:5"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:78#shape1"
+    ],
+    "family": [
+     "pair_family:91"
+    ]
+   }
+  },
+  {
+   "pair": "Ceres\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:70"
+    ],
+    "moved": [
+     "links:70#shape5"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:70#shape1"
+    ],
+    "family": [
+     "pair_family:41",
+     "pair_family:114",
+     "pair_family:115"
+    ]
+   }
+  },
+  {
+   "pair": "Gonggong\u2013Jupiter",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:53"
+    ],
+    "moved": [
+     "links:53#shape5"
+    ],
+    "family": [
+     "pair_family:21"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:53#shape1"
+    ],
+    "family": [
+     "pair_family:20",
+     "pair_family:88"
+    ]
+   }
+  },
+  {
+   "pair": "Haumea\u2013Makemake",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:86"
+    ],
+    "moved": [
+     "links:86#shape5"
+    ],
+    "family": [
+     "pair_family:130"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:86#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:47"
+    ],
+    "family": [
+     "pair_family:0"
+    ],
+    "sky": [
+     "sky-gc 2.4048"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:47#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Neptune\u2013Pluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:63"
+    ],
+    "partner": [
+     "links:63#shape2"
+    ],
+    "moved": [
+     "links:63#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:63#shape1"
+    ]
+   }
+  }
+ ]
 }

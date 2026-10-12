@@ -1,4 +1,4 @@
-== 3 Princess Shabnam / 3 Harry Burns   [nottingham_1530_20220601__P03.xlsx, L3 v1.2 (12 Oct 2026)]
+== 3 Princess Shabnam / 3 Harry Burns   [nottingham_1530_20220601__P03.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): H Mars, H Node, J Jupiter
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Mars         MPRSX  tight 5
@@ -736,6 +736,25 @@
         sky Transpluto -> H Orcus GC 21.44452 = 193/9
         sky Orcus on H Orcus RA 1.3598 Dec 0.5302 RETURN
         sky Transpluto on H Orcus RA 0.0832 Dec 21.4444
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Eris–Mars              5 kinds: cross, struck, partner, moved, ratio J   near: family
+        cross: cross H Mars–J Eris RA 1.1249 Dec 17.5023
+        struck: cross H Mars–J Eris RA 1.1249 Dec 17.5023
+        partner: cross H Mars–J Eris RA 1.1249 Dec 17.5023
+        moved: cross H Mars–J Eris RA 1.1249 Dec 17.5023
+        ratio J: J Mars–Eris Dec sky 1.4394 natal 27.3473 19 (0.0047%)
+   Neptune–Node           3 kinds: cross, moved, family   near: struck, family
+        cross: cross H Ketu–J Neptune RA 1.1790 Dec 0.3476
+        moved: cross H Ketu–J Neptune RA 1.1790 Dec 0.3476
+        family: J Neptune–Rahu Dec J Neptune – sky Rahu 38.8094 vs NN 7.0565 11/2 (0.0034%)
+   Node–Uranus            3 kinds: cross, moved, family   near: struck
+        cross: cross H Ketu–J Uranus RA 3.9735 Dec 0.2285
+        moved: cross H Ketu–J Uranus RA 3.9735 Dec 0.2285
+        family: J Uranus–Ketu GC J Uranus – sky Ketu 68.0320 vs TT 173.8553 23/9 (0.0025%)
+   Jupiter–Pluto          3 kinds: cross, struck, moved
+        cross: cross H Pluto–J Jupiter RA 39.0170 Dec 0.0535
+        struck: cross H Pluto–J Jupiter RA 39.0170 Dec 0.0535
+        moved: cross H Pluto–J Jupiter RA 39.0170 Dec 0.0535
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Venus–Uranus: J J Venus–J Uranus GC 41.00156 = 41
    recurring cross link horse Venus – jockey Uranus: cross H Venus–J Uranus RA 30.8708 Dec 0.4810 near

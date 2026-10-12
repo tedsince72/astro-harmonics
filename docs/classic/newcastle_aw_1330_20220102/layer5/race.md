@@ -1,4 +1,4 @@
-# newcastle_aw_1330_20220102 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# newcastle_aw_1330_20220102 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Good Effort / 1 Jim Crowley**
@@ -14,6 +14,7 @@
 
 **P07 4 Regional / 4 Daniel Tudhope**
 - **Only runner in the field (strict): the pair is together in the sky** — horse Rahu–Tudhope Ceres RA 27.9975 Dec 0.2949  _(rests on 1 independent facts)_
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Ceres–Node, 5 kinds: cross, struck, moved, same body, sky; not lit in any other runner
 - Shared with one other runner (P05), strict: cross link struck on both ends — horse Rahu–Tudhope Ceres RA 27.9975 Dec 0.2949; sky Eris -> horse Rahu Dec 17.99974 = 18; sky Gonggong -> horse Rahu Dec 27.99622 = 28
 - Shared with one other runner (P09), strict: pair in one chart struck on both ends by 2+ sky bodies — Tudhope Mars–Tudhope Rahu RA 164.11067 = 1477/9; sky Eris -> Tudhope Mars Dec 5.99878 = 6; sky Gonggong -> Tudhope Mars Dec 3.99770 = 4
 

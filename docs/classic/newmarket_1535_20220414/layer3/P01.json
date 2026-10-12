@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "1 Austrian Theory / 1 Joe Fanning",
  "workbook": "newmarket_1535_20220414__P01.xlsx",
  "bodies": {
@@ -10003,5 +10003,86 @@
   "splits:62": "H Gonggong -> J Uranus Dec span 9.08187 = moved 1.00792 (1) + 8.07395  parts ['8', 0.1313] span/other ['9/8', 0.0146]",
   "splits:68": "H Gonggong -> J Vesta Dec span 10.03938 = moved 1.00792 (1) + 9.03146  parts ['9', 0.4391] span/other ['10/9', 0.0441]",
   "splits:69": "H Gonggong -> J Rahu Dec span 1.65179 = moved 1.00792 (1) + 0.64387  parts ['11/7', 0.3835] span/other ['18/7', 0.2344]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Gonggong\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:88"
+    ],
+    "partner": [
+     "links:88#shape2"
+    ],
+    "moved": [
+     "links:88#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:88#shape1"
+    ],
+    "h:j": [
+     "hj_ratios:12"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:70"
+    ],
+    "moved": [
+     "links:70#shape5"
+    ],
+    "ratio H": [
+     "ratios:3"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:70#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:73"
+    ],
+    "partner": [
+     "links:73#shape2"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:73#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Venus\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:45"
+    ],
+    "struck": [
+     "links:45#shape1"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

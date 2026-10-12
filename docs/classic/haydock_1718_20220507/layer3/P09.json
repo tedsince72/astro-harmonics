@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "7 Stevenson / 7 David Probert",
  "workbook": "haydock_1718_20220507__P09.xlsx",
  "bodies": {
@@ -11578,5 +11578,132 @@
   "splits:159": "J Quaoar -> J Rahu RA span 108.17897 = moved 44.22250 (398/9) + 63.95648  parts ['13/9', 0.1245] span/other ['12/7', 1.3323]",
   "splits:161": "J Quaoar -> J Sedna RA span 168.33282 = moved 44.22250 (398/9) + 124.11032  parts ['14/5', 0.2321] span/other ['11/8', 1.3588]",
   "splits:162": "J Quaoar -> J Gonggong RA span 95.54600 = moved 44.22250 (398/9) + 51.32350  parts ['7/6', 0.5222] span/other ['13/7', 0.2423]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Chiron\u2013Juno",
+   "n": 5,
+   "kinds": {
+    "cross": [
+     "links:63"
+    ],
+    "partner": [
+     "links:63#shape2"
+    ],
+    "moved": [
+     "links:63#shape5"
+    ],
+    "family": [
+     "pair_family:33",
+     "pair_family:34",
+     "pair_family:92"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:63#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Sedna",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:78"
+    ],
+    "ratio J": [
+     "ratios:13"
+    ],
+    "h:j": [
+     "hj_ratios:7"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:78#shape1"
+    ],
+    "partner": [
+     "links:78#shape2"
+    ],
+    "family": [
+     "pair_family:69"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:58"
+    ],
+    "struck": [
+     "links:58#shape1"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:95"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Mercury",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:2"
+    ],
+    "ratio J": [
+     "ratios:12"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Eris\u2013Mercury",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:41"
+    ],
+    "partner": [
+     "links:41#shape2"
+    ],
+    "moved": [
+     "links:41#shape5"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Saturn\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "family": [
+     "pair_family:25"
+    ],
+    "same body": [
+     "same_body:2"
+    ],
+    "sky": [
+     "sky-gc 0.7279"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

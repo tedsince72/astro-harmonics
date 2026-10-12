@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "3 Hamish / 3 Pat Dobbs",
  "workbook": "20210904_kempton_aw_1440__P05.xlsx",
  "bodies": {
@@ -12066,5 +12066,85 @@
   "splits:47": "J Vesta -> J Haumea RA span 64.73935 = moved 39.55557 (356/9) + 25.18378  parts ['11/7', 0.0478] span/other ['18/7', 0.0292]",
   "splits:48": "J Vesta -> J Makemake RA span 85.87797 = moved 39.55557 (356/9) + 46.32240  parts ['7/6', 0.3776] span/other ['13/7', 0.1736]",
   "splits:49": "J Vesta -> J Orcus RA span 123.52123 = moved 39.55557 (356/9) + 83.96566  parts ['17/8', 0.107] span/other ['13/9', 1.8448]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Chiron\u2013Neptune",
+   "n": 3,
+   "kinds": {
+    "h:j": [
+     "hj_ratios:17"
+    ],
+    "family": [
+     "pair_family:35"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:36",
+     "pair_family:37"
+    ]
+   }
+  },
+  {
+   "pair": "Juno\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:83"
+    ],
+    "family": [
+     "pair_family:32"
+    ],
+    "same body": [
+     "same_body:1",
+     "same_body:3"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:83#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Mars\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:54"
+    ],
+    "partner": [
+     "links:54#shape2"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:54#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Juno\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:51"
+    ],
+    "struck": [
+     "links:51#shape1"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

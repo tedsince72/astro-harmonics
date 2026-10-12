@@ -1,4 +1,4 @@
-# perth_1610_20220420 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# perth_1610_20220420 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Pink Legend / 1 Charlie Deutsch**
@@ -20,6 +20,7 @@
 **P09 5 Daphne Moon / 5 Sean Bowen**
 - **Only runner in the field (strict): swap** — horse Neptune–Bowen Pluto RA 97.3562 Dec 0.2964; horse Pluto–Bowen Neptune RA 13.1105 Dec 0.2419  _(rests on 2 independent facts)_
 - **Only runner in the field (strict): cross link struck on both ends by 2+ different sky bodies** — horse Ceres–Bowen Uranus RA 0.9991 Dec 3.9847; sky Jupiter -> horse Ceres GC 51.99570 = 52; sky Ceres -> horse Ceres RA 131.99788 = 132; sky Rahu -> horse Ceres RA 102.99886 = 103  _(rests on 4 independent facts)_
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Ceres–Uranus, 6 kinds: cross, struck, partner, moved, family, same body; not lit in any other runner
 - Shared with one other runner (P05), strict: cross link struck on both ends — horse Ceres–Bowen Uranus RA 0.9991 Dec 3.9847; sky Jupiter -> horse Ceres GC 51.99570 = 52; sky Ceres -> horse Ceres RA 131.99788 = 132
 
 ## Tightest instance of each shape in the field

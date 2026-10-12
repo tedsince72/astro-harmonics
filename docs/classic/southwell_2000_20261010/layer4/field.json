@@ -1,6 +1,132 @@
 {
- "version": "L4 v1.1 (12 Oct 2026)",
+ "version": "L4 v1.2 (12 Oct 2026, pair focus)",
  "race": "southwell_2000_20261010",
+ "pair_focus": {
+  "P01": {
+   "top": "Gonggong\u2013Node",
+   "n": 2,
+   "kinds": [
+    "cross",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Gonggong\u2013Node",
+    "Neptune\u2013Quaoar",
+    "Eris\u2013Eris"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P03": {
+   "top": "Jupiter\u2013Node",
+   "n": 4,
+   "kinds": [
+    "shared",
+    "cross",
+    "partner",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Jupiter\u2013Node",
+    "Pluto\u2013Saturn",
+    "Node\u2013Orcus",
+    "Ceres\u2013Jupiter"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P05": {
+   "top": "Venus\u2013Vesta",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "struck",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Venus\u2013Vesta"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P07": {
+   "top": "Gonggong\u2013Quaoar",
+   "n": 2,
+   "kinds": [
+    "cross",
+    "family"
+   ],
+   "tied_pairs": [
+    "Gonggong\u2013Quaoar",
+    "Chiron\u2013Orcus",
+    "Eris\u2013Pallas"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P09": {
+   "top": "Juno\u2013Node",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "partner",
+    "moved",
+    "family"
+   ],
+   "tied_pairs": [
+    "Juno\u2013Node",
+    "Haumea\u2013Makemake"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P11": {
+   "top": "Pallas\u2013Sun",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "ratio J",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Pallas\u2013Sun",
+    "Transpluto\u2013Venus",
+    "Mars\u2013Sun",
+    "Pallas\u2013Uranus",
+    "Chiron\u2013Orcus",
+    "Haumea\u2013Pallas"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P13": {
+   "top": "Gonggong\u2013Juno",
+   "n": 2,
+   "kinds": [
+    "cross",
+    "ratio J"
+   ],
+   "tied_pairs": [
+    "Gonggong\u2013Juno",
+    "Mars\u2013Node",
+    "Neptune\u2013Sun"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  }
+ },
+ "pair_focus_max": 4,
+ "pair_focus_leaders": [
+  "P03",
+  "P09"
+ ],
  "runners": [
   {
    "P": "P01",

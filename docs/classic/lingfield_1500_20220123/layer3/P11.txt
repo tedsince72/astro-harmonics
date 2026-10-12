@@ -1,4 +1,4 @@
-== 7 Two For Gold / 7 David Bass   [lingfield_1500_20220123__P11.xlsx, L3 v1.2 (12 Oct 2026)]
+== 7 Two For Gold / 7 David Bass   [lingfield_1500_20220123__P11.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): H Mercury, H Orcus, J Sedna
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Mercury      BPRSX  tight 5
@@ -768,6 +768,29 @@
         sky Haumea on J Juno RA 132.4651 Dec 0.4692 near
         sky Mercury -> J Transpluto RA 161.11141 = 1450/9
         sky Uranus on J Transpluto RA 104.9815 Dec 0.0496
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Ceres–Mercury          5 kinds: shared, cross, ratio J, h:j, same body   near: struck
+        shared: shared Mercury–Ceres Dec H 29.9573 J 29.8303
+        cross: cross H Mercury–J Ceres RA 0.4792 Dec 9.7735
+        ratio J: J Mercury–Ceres RA sky 111.4965 natal 74.3315 3/2 (0.0006%)
+        h:j: horse:jockey Mercury–Ceres GC H 90.3622 J 79.0669 8/7
+        same body: same-body Mercury RA 5/4 : 9/4 : 9/5 (worst 0.0554%); same-body Mercury GC 5/4 : 9/4 : 9/5 (worst 0.0311%)
+   Juno–Vesta             3 kinds: cross, partner, family   near: struck, family
+        cross: cross H Vesta–J Juno RA 1.3582 Dec 9.1251
+        partner: cross H Vesta–J Juno RA 1.3582 Dec 9.1251
+        family: J Juno–Vesta Dec sky Juno – J Vesta 30.8453 vs TT 8.6369 25/7 (0.0031%)
+   Jupiter–Sedna          3 kinds: cross, family, same body   near: struck
+        cross: cross H Sedna–J Jupiter RA 0.4727 Dec 11.3301
+        family: H Jupiter–Sedna Flat sky Jupiter – H Sedna 78.3524 vs NN 24.7435 19/6 (0.0028%)
+        same body: same-body Sedna GC 5/2 : 7/2 : 7/5 (worst 0.0288%)
+   Pallas–Sedna           3 kinds: cross, family, same body   near: struck
+        cross: cross H Pallas–J Sedna RA 0.2227 Dec 9.1005
+        family: H Pallas–Sedna Flat H Pallas – sky Sedna 20.9390 vs NN 16.7510 5/4 (0.0011%)
+        same body: same-body Sedna GC 5/2 : 7/2 : 7/5 (worst 0.0288%)
+   Juno–Pallas            3 kinds: cross, partner, family
+        cross: cross H Juno–J Pallas RA 0.4684 Dec 25.5126
+        partner: cross H Juno–J Pallas RA 0.4684 Dec 25.5126
+        family: H Pallas–Juno Dec H Pallas – sky Juno 7.8779 vs TT 2.1209 26/7 (0.0009%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Venus–Uranus: H H Venus–H Uranus Dec 7.99586 = 8
    recurring pair Pallas–Juno: H H Pallas–H Juno GC 91.88873 = 827/9

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Come On You Spurs / 4 Harry Davies",
  "workbook": "wolverhampton_aw_1725_20231021__P07.xlsx",
  "bodies": {
@@ -11720,5 +11720,105 @@
   "splits:72": "J Haumea -> J Gonggong Dec span 35.50218 = moved 5.00721 (5) + 30.49497  parts ['6', 1.5036] span/other ['7/6', 0.2116]",
   "splits:73": "J Haumea -> J Quaoar Dec span 34.83792 = moved 5.00721 (5) + 29.83071  parts ['6', 0.7074] span/other ['7/6', 0.1018]",
   "splits:75": "J Haumea -> J Transpluto Dec span 7.12122 = moved 5.00721 (5) + 2.11402  parts ['19/8', 0.2704] span/other ['27/8', 0.1903]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Node\u2013Sun",
+   "n": 6,
+   "kinds": {
+    "shared": [
+     "shared:0",
+     "shared:1"
+    ],
+    "cross": [
+     "links:72",
+     "links:112"
+    ],
+    "moved": [
+     "links:112#shape5"
+    ],
+    "ratio J": [
+     "ratios:7"
+    ],
+    "set": [
+     "pair_sets:0"
+    ],
+    "sky": [
+     "sky-gc 3.1380"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:72#shape1",
+     "links:112#shape1"
+    ],
+    "h:j": [
+     "hj_ratios:2"
+    ]
+   }
+  },
+  {
+   "pair": "Juno\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:105"
+    ],
+    "moved": [
+     "links:105#shape5"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:105#shape1"
+    ],
+    "family": [
+     "pair_family:70"
+    ]
+   }
+  },
+  {
+   "pair": "Juno\u2013Quaoar",
+   "n": 3,
+   "kinds": {
+    "h:j": [
+     "hj_ratios:14"
+    ],
+    "family": [
+     "pair_family:93"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:38"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Neptune",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:86"
+    ],
+    "struck": [
+     "links:86#shape1"
+    ],
+    "partner": [
+     "links:86#shape2"
+    ]
+   },
+   "near": {
+    "cross": [
+     "links:92"
+    ]
+   }
+  }
+ ]
 }

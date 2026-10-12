@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "3 Friendly Soul / 3 Kieran Shoemark",
  "workbook": "york_1545_20240515__P05.xlsx",
  "bodies": {
@@ -10862,5 +10862,65 @@
   "splits:102": "J Saturn -> J Juno Dec span 7.33447 = moved 0.99909 (1) + 6.33538  parts ['19/3', 0.1234] span/other ['7/6', 0.7686]",
   "splits:104": "J Saturn -> J Rahu Dec span 2.79620 = moved 0.99909 (1) + 1.79711  parts ['9/5', 0.0696] span/other ['14/9', 0.0249]",
   "splits:107": "J Saturn -> J Quaoar Dec span 8.97215 = moved 0.99909 (1) + 7.97306  parts ['8', 0.2461] span/other ['9/8', 0.0274]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Mars\u2013Node",
+   "n": 2,
+   "kinds": {
+    "ratio J": [
+     "ratios:9"
+    ],
+    "sky": [
+     "sky-gc 3.6138"
+    ]
+   },
+   "near": {
+    "ratio H": [
+     "ratios:3"
+    ],
+    "h:j": [
+     "hj_ratios:4"
+    ],
+    "family": [
+     "pair_family:21",
+     "pair_family:22"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Mercury",
+   "n": 2,
+   "kinds": {
+    "h:j": [
+     "hj_ratios:2"
+    ],
+    "family": [
+     "pair_family:7"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:57"
+    ]
+   }
+  },
+  {
+   "pair": "Juno\u2013Saturn",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:102"
+    ],
+    "moved": [
+     "links:102#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:102#shape1"
+    ]
+   }
+  }
+ ]
 }

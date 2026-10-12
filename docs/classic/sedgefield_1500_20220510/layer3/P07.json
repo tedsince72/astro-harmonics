@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Wheres Maud Gone / 4 Adam Wedge",
  "workbook": "sedgefield_1500_20220510__P07.xlsx",
  "bodies": {
@@ -9650,5 +9650,41 @@
   "splits:20": "J Venus -> J Vesta Dec span 28.51268 = moved 2.11149 (19/9) + 26.40118  parts ['25/2', 0.0286] span/other ['10/9', 2.8021]",
   "splits:21": "J Venus -> J Rahu Dec span 16.87971 = moved 2.11149 (19/9) + 14.76822  parts ['7', 0.0826] span/other ['8/7', 0.0103]",
   "splits:24": "J Venus -> J Quaoar Dec span 16.99411 = moved 2.11149 (19/9) + 14.88262  parts ['7', 0.6914] span/other ['8/7', 0.0858]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Node\u2013Venus",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:95"
+    ],
+    "struck": [
+     "links:95#shape1"
+    ],
+    "moved": [
+     "links:95#shape5"
+    ],
+    "family": [
+     "pair_family:15",
+     "pair_family:74"
+    ]
+   },
+   "near": {
+    "cross": [
+     "links:64"
+    ],
+    "struck": [
+     "links:64#shape1"
+    ],
+    "h:j": [
+     "hj_ratios:4"
+    ],
+    "family": [
+     "pair_family:73",
+     "pair_family:75"
+    ]
+   }
+  }
+ ]
 }

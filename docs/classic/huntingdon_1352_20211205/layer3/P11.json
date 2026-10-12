@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "6 Keeper Hill / 6 A P Heskin",
  "workbook": "huntingdon_1352_20211205__P11.xlsx",
  "bodies": {
@@ -10218,5 +10218,87 @@
   "splits:31": "J Gonggong -> J Mercury Dec span 19.15425 = moved 7.66577 (69/9) + 11.48848  parts ['3/2', 0.0884] span/other ['5/3', 0.0354]",
   "splits:38": "J Gonggong -> J Juno Dec span 22.11937 = moved 7.66577 (69/9) + 14.45361  parts ['17/9', 0.1808] span/other ['14/9', 1.619]",
   "splits:43": "J Gonggong -> J Haumea Dec span 42.33851 = moved 7.66577 (69/9) + 34.67274  parts ['9/2', 0.5125] span/other ['11/9', 0.0927]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Pallas\u2013Pluto",
+   "n": 4,
+   "kinds": {
+    "shared": [
+     "shared:6",
+     "shared:7"
+    ],
+    "cross": [
+     "links:61"
+    ],
+    "moved": [
+     "links:61#shape5"
+    ],
+    "family": [
+     "pair_family:107"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:61#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Ceres\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:75"
+    ],
+    "ratio J": [
+     "ratios:14"
+    ],
+    "sky": [
+     "sky-gc 4.1719"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:75#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:1"
+    ],
+    "family": [
+     "pair_family:27"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:91"
+    ]
+   }
+  },
+  {
+   "pair": "Pluto\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "family": [
+     "pair_family:12"
+    ],
+    "same body": [
+     "same_body:0"
+    ],
+    "sky": [
+     "sky-gc 2.3444"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

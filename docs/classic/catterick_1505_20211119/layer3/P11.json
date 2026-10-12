@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "6 Blazer / 6 Alain Cawley",
  "workbook": "catterick_1505_20211119__P11.xlsx",
  "bodies": {
@@ -11262,6 +11262,11 @@
    "item": "ratios:1",
    "note": "recurring pair Venus\u2013Uranus",
    "what": "H Venus\u2013Uranus RA sky 115.9514 natal 8.9199 13 (0.0067%) near"
+  },
+  {
+   "item": "same_body:1",
+   "note": "same-body Dec 9/4 : 5/4 : 9/5 on Node",
+   "what": "same-body Rahu Dec 9/5 : 9/4 : 5/4 (worst 0.1301%)"
   }
  ],
  "desc": {
@@ -11730,5 +11735,50 @@
   "splits:136": "J Quaoar -> J Rahu RA span 131.65732 = moved 44.00660 (44) + 87.65073  parts ['2', 0.4118] span/other ['3/2', 0.1378]",
   "splits:137": "J Quaoar -> J Eris RA span 151.45241 = moved 44.00660 (44) + 107.44582  parts ['22/9', 0.117] span/other ['7/5', 0.6836]",
   "splits:138": "J Quaoar -> J Sedna RA span 170.54947 = moved 44.00660 (44) + 126.54287  parts ['23/8', 0.0189] span/other ['4/3', 1.082]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Juno\u2013Makemake",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:72"
+    ],
+    "moved": [
+     "links:72#shape5"
+    ],
+    "family": [
+     "pair_family:56"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:72#shape1"
+    ],
+    "partner": [
+     "links:72#shape2"
+    ],
+    "family": [
+     "pair_family:54",
+     "pair_family:55"
+    ]
+   }
+  },
+  {
+   "pair": "Haumea\u2013Quaoar",
+   "n": 3,
+   "kinds": {
+    "set": [
+     "pair_sets:0"
+    ],
+    "h:j": [
+     "hj_ratios:18"
+    ],
+    "family": [
+     "pair_family:136"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

@@ -1,4 +1,4 @@
-# fontwell_1645_20210914 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# fontwell_1645_20210914 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Eye To The Sky / 1 Gavin Sheehan**
@@ -9,6 +9,7 @@
 - **Only runner in the field (strict): partner strike (the sky partner lands on the other end)** — horse Uranus–Cawley Eris RA 0.6434 Dec 19.0873; sky Eris -> horse Uranus RA 4.00361 = 4  _(rests on 2 independent facts)_
 - **Only runner in the field (strict): partner strike (the sky partner lands on the other end)** — horse Saturn–Cawley Neptune RA 8.9222 Dec 0.2691; sky Neptune -> horse Saturn RA 85.33325 = 768/9  _(rests on 2 independent facts)_
 - **Only runner in the field (strict): pair in one chart struck on both ends by 2+ sky bodies** — horse Neptune–horse Rahu RA 169.00017 = 169; sky Pluto -> horse Neptune RA 48.33350 = 435/9; sky Pallas -> horse Neptune RA 2.00343 = 2; sky Pluto -> horse Rahu RA 142.66632 = 1284/9  _(rests on 8 independent facts)_
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Neptune–Saturn, 4 kinds: cross, partner, moved, family; not lit in any other runner
 - Shared with one other runner (P05), strict: pair in one chart struck on both ends by 2+ sky bodies — horse Neptune–horse Rahu RA 169.00017 = 169; sky Pluto -> horse Neptune RA 48.33350 = 435/9; sky Pallas -> horse Neptune RA 2.00343 = 2
 
 **P05 3 Pixie Loc / 3 Ben Jones**

@@ -1,4 +1,4 @@
-# redcar_1515_20211015 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# redcar_1515_20211015 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 3 Divine Jewel / 3 David Egan**

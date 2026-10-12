@@ -1,6 +1,126 @@
 {
- "version": "L4 v1.1 (12 Oct 2026)",
+ "version": "L4 v1.2 (12 Oct 2026, pair focus)",
  "race": "fontwell_1530_20231006",
+ "pair_focus": {
+  "P01": {
+   "top": "Node\u2013Node",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "partner",
+    "moved"
+   ],
+   "tied_pairs": [
+    "Node\u2013Node"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P03": {
+   "top": "Juno\u2013Mercury",
+   "n": 3,
+   "kinds": [
+    "h:j",
+    "family",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Juno\u2013Mercury",
+    "Mercury\u2013Node"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P05": {
+   "top": "Gonggong\u2013Juno",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Gonggong\u2013Juno",
+    "Sedna\u2013Vesta"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P07": {
+   "top": "Mercury\u2013Transpluto",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "ratio H",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Mercury\u2013Transpluto"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P09": {
+   "top": "Makemake\u2013Mercury",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "struck",
+    "partner"
+   ],
+   "tied_pairs": [
+    "Makemake\u2013Mercury"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P11": {
+   "top": "Node\u2013Uranus",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "family",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Node\u2013Uranus",
+    "Mars\u2013Vesta"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P13": {
+   "top": "Mercury\u2013Sedna",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Mercury\u2013Sedna"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  }
+ },
+ "pair_focus_max": 3,
+ "pair_focus_leaders": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09",
+  "P11",
+  "P13"
+ ],
  "runners": [
   {
    "P": "P01",

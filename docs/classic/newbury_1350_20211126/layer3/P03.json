@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Mister Coffey / 2 James Bowen",
  "workbook": "newbury_1350_20211126__P03.xlsx",
  "bodies": {
@@ -8791,5 +8791,52 @@
   "splits:15": "J Orcus -> J Chiron RA span 129.99784 = moved 19.22289 (173/9) + 110.77495  parts ['23/4', 0.2201] span/other ['7/6', 0.5884]",
   "splits:19": "J Orcus -> J Haumea RA span 59.77945 = moved 19.22289 (173/9) + 40.55656  parts ['19/9', 0.0618] span/other ['3/2', 1.7348]",
   "splits:20": "J Orcus -> J Makemake RA span 42.21583 = moved 19.22289 (173/9) + 22.99294  parts ['6/5', 0.3231] span/other ['11/6', 0.1473]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Saturn\u2013Sedna",
+   "n": 5,
+   "kinds": {
+    "cross": [
+     "links:92"
+    ],
+    "struck": [
+     "links:92#shape1"
+    ],
+    "partner": [
+     "links:92#shape2"
+    ],
+    "moved": [
+     "links:92#shape5"
+    ],
+    "family": [
+     "pair_family:99"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Pluto\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "ratio J": [
+     "ratios:12"
+    ],
+    "set": [
+     "pair_sets:0"
+    ],
+    "family": [
+     "pair_family:113"
+    ]
+   },
+   "near": {
+    "h:j": [
+     "hj_ratios:10"
+    ],
+    "family": [
+     "pair_family:44"
+    ]
+   }
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "11 Via Blanca / 11 Frederick Larson",
  "workbook": "wolverhampton_aw_1725_20231021__P21.xlsx",
  "bodies": {
@@ -11486,5 +11486,70 @@
   "splits:8": "H Juno -> H Transpluto Dec span 21.94638 = moved 15.66719 (141/9) + 6.27919  parts ['5/2', 0.1961] span/other ['7/2', 0.1401]",
   "splits:12": "H Juno -> J Rahu Dec span 29.60064 = moved 15.66719 (141/9) + 13.93345  parts ['9/8', 0.0506] span/other ['17/8', 0.0268]",
   "splits:15": "H Juno -> J Makemake Dec span 42.94834 = moved 15.66719 (141/9) + 27.28115  parts ['7/4', 0.4976] span/other ['11/7', 0.1819]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Transpluto\u2013Vesta",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:100"
+    ],
+    "struck": [
+     "links:100#shape1"
+    ],
+    "partner": [
+     "links:100#shape2"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:61"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:68"
+    ],
+    "struck": [
+     "links:68#shape1"
+    ],
+    "partner": [
+     "links:68#shape2"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:22"
+    ]
+   }
+  },
+  {
+   "pair": "Uranus\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:59"
+    ],
+    "struck": [
+     "links:59#shape1"
+    ],
+    "ratio H": [
+     "ratios:0"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:16"
+    ]
+   }
+  }
+ ]
 }

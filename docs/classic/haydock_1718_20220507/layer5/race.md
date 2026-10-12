@@ -1,4 +1,4 @@
-# haydock_1718_20220507 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# haydock_1718_20220507 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Oh Herberts Reign / 1 Hollie Doyle**
@@ -20,6 +20,7 @@
 **P09 7 Stevenson / 7 David Probert**
 - **Only runner in the field (strict): partner strike (the sky partner lands on the other end)** — horse Juno–Probert Chiron RA 0.3067 Dec 1.8543; sky Juno -> Probert Chiron GC 120.66643 = 1086/9  _(rests on 2 independent facts)_
 - **Only runner in the field (strict): partner strike (the sky partner lands on the other end)** — horse Mercury–Probert Eris RA 0.3975 Dec 16.4081; sky Mercury -> Probert Eris RA 39.99711 = 40  _(rests on 2 independent facts)_
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Chiron–Juno, 5 kinds: cross, partner, moved, family, same body; not lit in any other runner
 - Shared with one other runner (P01), strict: cross link struck on both ends — horse Chiron–Probert Orcus RA 127.0027 Dec 0.2741; sky Sun -> horse Chiron RA 41.99957 = 42; sky Sun -> Probert Orcus RA 85.00312 = 85
 - Shared with one other runner (P01), strict: triangle struck at every corner by one sky body — horse Chiron–horse Transpluto RA 151.00164 = 151; horse Chiron–Probert Orcus RA 127.0027 Dec 0.2741; horse Transpluto–Probert Orcus RA 23.99895 = 24
 

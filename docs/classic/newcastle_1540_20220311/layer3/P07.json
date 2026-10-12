@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "5 Sir Apollo / 5 Jonathan England",
  "workbook": "newcastle_1540_20220311__P07.xlsx",
  "bodies": {
@@ -9954,5 +9954,28 @@
   "splits:30": "J Quaoar -> H Eris RA span 149.55269 = moved 40.99121 (41) + 108.56147  parts ['8/3', 0.6847] span/other ['11/8', 0.188]",
   "splits:37": "J Quaoar -> J Neptune RA span 52.05357 = moved 40.99121 (41) + 11.06235  parts ['26/7', 0.2374] span/other ['14/3', 0.8315]",
   "splits:40": "J Quaoar -> J Eris RA span 146.36460 = moved 40.99121 (41) + 105.37338  parts ['18/7', 0.0309] span/other ['7/5', 0.7851]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Juno\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:101"
+    ],
+    "struck": [
+     "links:101#shape1"
+    ],
+    "partner": [
+     "links:101#shape2"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:39",
+     "pair_family:40"
+    ]
+   }
+  }
+ ]
 }

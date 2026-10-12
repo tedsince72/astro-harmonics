@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "1 Hukum / 1 Jim Crowley",
  "workbook": "20210904_kempton_aw_1440__P01.xlsx",
  "bodies": {
@@ -11141,5 +11141,50 @@
   "splits:44": "J Chiron -> J Eris Dec span 26.01933 = moved 7.11128 (64/9) + 18.90804  parts ['8/3', 0.292] span/other ['11/8', 0.0799]",
   "splits:46": "J Chiron -> J Gonggong Dec span 37.65292 = moved 7.11128 (64/9) + 30.54164  parts ['30/7', 0.2123] span/other ['11/9', 0.8686]",
   "splits:47": "J Chiron -> J Quaoar Dec span 24.50789 = moved 7.11128 (64/9) + 17.39661  parts ['22/9', 0.0775] span/other ['7/5', 0.6267]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Saturn\u2013Transpluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:107"
+    ],
+    "moved": [
+     "links:107#shape5"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:107#shape1"
+    ],
+    "family": [
+     "pair_family:82"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:82"
+    ],
+    "partner": [
+     "links:82#shape2"
+    ],
+    "ratio J": [
+     "ratios:16"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:82#shape1"
+    ]
+   }
+  }
+ ]
 }

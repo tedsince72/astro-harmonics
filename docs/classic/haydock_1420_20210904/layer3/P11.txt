@@ -1,4 +1,4 @@
-== 8 Tynwald / 8 Daniel Tudhope   [20210904_haydock_1420__P11.xlsx, L3 v1.2 (12 Oct 2026)]
+== 8 Tynwald / 8 Daniel Tudhope   [20210904_haydock_1420__P11.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): H Mars, J Mars, J Neptune
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Mars         MPRSX  tight 5
@@ -788,6 +788,16 @@
         sky Quaoar on J Neptune RA 0.9460 Dec 6.9991
         sky Pluto on J Vesta RA 24.4596 Dec 0.3582 near
         sky Quaoar on J Vesta RA 1.8069 Dec 7.8794 near
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Uranus–Vesta           4 kinds: cross, partner, moved, same body   near: family
+        cross: cross H Vesta–J Uranus RA 1.0076 Dec 5.9218
+        partner: cross H Vesta–J Uranus RA 1.0076 Dec 5.9218
+        moved: cross H Vesta–J Uranus RA 1.0076 Dec 5.9218
+        same body: same-body Uranus Dec 5 : 6 : 6/5 (worst 0.0627%)
+   Mars–Neptune           3 kinds: shared, cross, moved   near: struck
+        shared: shared Mars–Neptune Dec H 14.8470 J 14.8500
+        cross: cross H Mars–J Neptune RA 18.5274 Dec 0.0855; cross H Neptune–J Mars RA 144.1871 Dec 0.0825
+        moved: cross H Mars–J Neptune RA 18.5274 Dec 0.0855; cross H Mars–J Neptune RA 18.5274 Dec 0.0855
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Jupiter–Vesta: H H Jupiter–H Vesta RA 25.2964 Dec 0.2750
    recurring pair Chiron–Transpluto: H H Chiron–H Transpluto RA 158.00190 = 158

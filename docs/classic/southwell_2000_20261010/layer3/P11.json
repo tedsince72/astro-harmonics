@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "7 Neswick / 7 Dougie Costello",
  "workbook": "20261010_southwell_aw_2000__P11.xlsx",
  "bodies": {
@@ -11193,5 +11193,125 @@
   "splits:37": "J Orcus -> J Pluto RA span 91.20504 = moved 38.99498 (39) + 52.21005  parts ['4/3', 0.4169] span/other ['7/4', 0.1779]",
   "splits:39": "J Orcus -> J Ketu RA span 149.27830 = moved 38.99498 (39) + 110.28331  parts ['17/6', 0.1833] span/other ['4/3', 1.5192]",
   "splits:41": "J Orcus -> J Quaoar RA span 104.18467 = moved 38.99498 (39) + 65.18969  parts ['5/3', 0.3047] span/other ['8/5', 0.1139]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Pallas\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:87"
+    ],
+    "ratio J": [
+     "ratios:11"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:87#shape1"
+    ],
+    "partner": [
+     "links:87#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Transpluto\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:68"
+    ],
+    "h:j": [
+     "hj_ratios:3"
+    ],
+    "family": [
+     "pair_family:73"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:68#shape1"
+    ],
+    "family": [
+     "pair_family:16"
+    ]
+   }
+  },
+  {
+   "pair": "Mars\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:57"
+    ],
+    "partner": [
+     "links:57#shape2"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:57#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Pallas\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "ratio J": [
+     "ratios:14"
+    ],
+    "family": [
+     "pair_family:31"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:95"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:85"
+    ],
+    "moved": [
+     "links:85#shape5"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Haumea\u2013Pallas",
+   "n": 3,
+   "kinds": {
+    "set": [
+     "pair_sets:0"
+    ],
+    "h:j": [
+     "hj_ratios:14"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

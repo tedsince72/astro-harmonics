@@ -1,4 +1,4 @@
-# southwell_2000_20261010 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# southwell_2000_20261010 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 So Alex / 1 Jack Doughty**

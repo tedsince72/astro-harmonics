@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "1 Captain Guinness / 1 Rachael Blackmore",
  "workbook": "sandown_1425_20211204__P01.xlsx",
  "bodies": {
@@ -10379,5 +10379,46 @@
   "splits:33": "J Transpluto -> J Vesta Dec span 36.82078 = moved 4.11058 (37/9) + 32.71020  parts ['8', 0.5304] span/other ['9/8', 0.0593]",
   "splits:38": "J Transpluto -> J Quaoar Dec span 27.35344 = moved 4.11058 (37/9) + 23.24286  parts ['17/3', 0.2165] span/other ['7/6', 0.8732]",
   "splits:39": "J Transpluto -> J Orcus Dec span 9.84202 = moved 4.11058 (37/9) + 5.73144  parts ['7/5', 0.4062] span/other ['12/7', 0.1699]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Node\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:114"
+    ],
+    "struck": [
+     "links:114#shape1"
+    ],
+    "family": [
+     "pair_family:53"
+    ]
+   },
+   "near": {
+    "ratio H": [
+     "ratios:7"
+    ],
+    "family": [
+     "pair_family:137"
+    ]
+   }
+  },
+  {
+   "pair": "Mars\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:61"
+    ],
+    "struck": [
+     "links:61#shape1"
+    ],
+    "family": [
+     "pair_family:83"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

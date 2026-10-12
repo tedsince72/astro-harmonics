@@ -1,4 +1,4 @@
-== 4 Outbox / 4 Luke Morris   [20210904_kempton_aw_1440__P07.xlsx, L3 v1.2 (12 Oct 2026)]
+== 4 Outbox / 4 Luke Morris   [20210904_kempton_aw_1440__P07.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): H Uranus, J Uranus, H Gonggong
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Uranus       BEMPRSX  tight 7
@@ -693,6 +693,19 @@
         sky Sedna on H Pallas RA 156.1791 Dec 0.5701 near
         sky Haumea -> H Juno GC 89.33292 = 804/9
         sky Sedna on H Juno RA 64.1199 Dec 0.1888
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Quaoar–Uranus          3 kinds: cross, partner, same body   near: struck, family
+        cross: cross H Quaoar–J Uranus RA 0.1983 Dec 7.9678
+        partner: cross H Quaoar–J Uranus RA 0.1983 Dec 7.9678
+        same body: same-body Uranus Dec 8/3 : 11/3 : 11/8 (worst 0.0450%)
+   Juno–Uranus            3 kinds: cross, moved, same body   near: struck
+        cross: cross H Uranus–J Juno RA 128.9914 Dec 0.0266
+        moved: cross H Uranus–J Juno RA 128.9914 Dec 0.0266
+        same body: same-body Uranus Dec 8/3 : 11/3 : 11/8 (worst 0.0450%)
+   Quaoar–Saturn          3 kinds: cross, moved, family   near: struck
+        cross: cross H Quaoar–J Saturn RA 0.2975 Dec 6.9158
+        moved: cross H Quaoar–J Saturn RA 0.2975 Dec 6.9158
+        family: J Saturn–Quaoar RA sky Saturn – J Quaoar 78.5415 vs NN 36.2487 13/6 (0.0034%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Venus–Uranus: H H Venus–H Uranus Dec 2.55534 = 23/9
    recurring pair Pallas–Juno: H H Pallas–H Juno RA 139.7010 Dec 0.3813

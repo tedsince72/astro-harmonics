@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "5 Makanao / 5 Jack Tudor",
  "workbook": "fontwell_1530_20231006__P09.xlsx",
  "bodies": {
@@ -10255,5 +10255,23 @@
   "hj_ratios:18": "horse:jockey Vesta\u2013Quaoar Flat H 142.8903 J 166.6724 7/6 near",
   "splits:11": "H Orcus -> H Makemake RA span 42.70920 = moved 4.00515 (4) + 38.70405  parts ['29/3', 0.032] span/other ['10/9', 0.6867]",
   "splits:16": "H Orcus -> J Chiron RA span 124.43567 = moved 4.00515 (4) + 120.43052  parts ['30', 0.2298] span/other None"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Makemake\u2013Mercury",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:125"
+    ],
+    "struck": [
+     "links:125#shape1"
+    ],
+    "partner": [
+     "links:125#shape2"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

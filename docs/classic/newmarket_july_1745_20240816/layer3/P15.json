@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "8 Vecu / 8 Robert Havlin",
  "workbook": "newmarket_july_1745_20240816__P15.xlsx",
  "bodies": {
@@ -10316,5 +10316,88 @@
   "splits:59": "J Ceres -> H Ketu RA span 48.53504 = moved 2.55642 (23/9) + 45.97861  parts ['18', 0.0804] span/other ['10/9', 4.996]",
   "splits:80": "J Vesta -> H Rahu Dec span 14.62588 = moved 11.77797 (106/9) + 2.84791  parts ['29/7', 0.1741] span/other ['26/5', 1.2376]",
   "splits:81": "J Vesta -> H Makemake Dec span 18.31240 = moved 11.77797 (106/9) + 6.53444  parts ['9/5', 0.1359] span/other ['14/5', 0.0873]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Neptune\u2013Vesta",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:95"
+    ],
+    "struck": [
+     "links:95#shape1"
+    ],
+    "partner": [
+     "links:95#shape2"
+    ],
+    "moved": [
+     "links:95#shape5"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:84"
+    ]
+   }
+  },
+  {
+   "pair": "Juno\u2013Jupiter",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:88"
+    ],
+    "moved": [
+     "links:88#shape5"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:88#shape1"
+    ],
+    "partner": [
+     "links:88#shape2"
+    ],
+    "family": [
+     "pair_family:19"
+    ]
+   }
+  },
+  {
+   "pair": "Gonggong\u2013Mercury",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:62"
+    ],
+    "struck": [
+     "links:62#shape1"
+    ],
+    "moved": [
+     "links:62#shape5"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Pluto\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:76"
+    ],
+    "moved": [
+     "links:76#shape5"
+    ],
+    "h:j": [
+     "hj_ratios:1"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

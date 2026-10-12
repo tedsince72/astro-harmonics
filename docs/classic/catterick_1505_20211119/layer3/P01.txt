@@ -1,4 +1,4 @@
-== 1 Reve / 1 Sean Bowen   [catterick_1505_20211119__P01.xlsx, L3 v1.2 (12 Oct 2026)]
+== 1 Reve / 1 Sean Bowen   [catterick_1505_20211119__P01.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): H Mercury, H Pluto, J Haumea, J Quaoar
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Mercury      BMPRX  tight 5
@@ -648,6 +648,29 @@
         sky Mars -> H Quaoar RA 45.55566 = 410/9
         sky Mars -> H Quaoar Flat 45.55580 = 410/9
         sky Mars on H Quaoar RA 45.5557 Dec 0.1133
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Node–Sun               4 kinds: cross, h:j, family, sky   near: struck, family
+        cross: cross H Sun–J Ketu RA 0.1051 Dec 0.0468
+        h:j: horse:jockey Sun–Ketu GC H 39.3742 J 173.2456 22/5
+        family: H Sun–Ketu RA sky Sun – H Ketu 152.0512 vs NN 36.4908 25/6 (0.0040%)
+        sky: sky-gc 4.1972
+   Eris–Mars              4 kinds: cross, struck, partner, moved
+        cross: cross H Mars–J Eris RA 177.7344 Dec 0.1849
+        struck: cross H Mars–J Eris RA 177.7344 Dec 0.1849
+        partner: cross H Mars–J Eris RA 177.7344 Dec 0.1849
+        moved: cross H Mars–J Eris RA 177.7344 Dec 0.1849
+   Haumea–Makemake        3 kinds: cross, struck, same body   near: family
+        cross: cross H Makemake–J Haumea RA 1.3839 Dec 5.2705
+        struck: cross H Makemake–J Haumea RA 1.3839 Dec 5.2705
+        same body: same-body Haumea RA 5/2 : 7/2 : 7/5 (worst 0.1059%)
+   Mercury–Quaoar         3 kinds: cross, moved, same body   near: struck
+        cross: cross H Mercury–J Quaoar RA 82.6240 Dec 0.1084
+        moved: cross H Mercury–J Quaoar RA 82.6240 Dec 0.1084
+        same body: same-body Mercury RA 16/9 : 9/7 : 16/7 (worst 0.0760%); same-body Quaoar Flat 3 : 4 : 4/3 (worst 0.1425%)
+   Juno–Quaoar            3 kinds: family, same body, sky
+        family: H Juno–Quaoar Dec H Juno – sky Quaoar 14.0760 vs TT 1.7595 8 (0.0006%); J Juno–Quaoar Flat sky Juno – J Quaoar 29.1639 vs TT 3.6454 8 (0.0010%)
+        same body: same-body Quaoar Flat 3 : 4 : 4/3 (worst 0.1425%); same-body Quaoar GC 3 : 4 : 4/3 (worst 0.1266%)
+        sky: sky-gc 3.5547
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Neptune–Vesta: H H Neptune–H Vesta RA 126.00134 = 126
    recurring pair Jupiter–Vesta: J J Jupiter–J Vesta Flat 78.99888 = 79

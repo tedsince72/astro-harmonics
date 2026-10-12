@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "1 Further Measure / 1 Tom Marquand",
  "workbook": "newcastle_aw_1220_20211112__P01.xlsx",
  "bodies": {
@@ -10032,5 +10032,89 @@
   "splits:20": "J Gonggong -> J Jupiter RA span 12.65269 = moved 4.22160 (38/9) + 8.43109  parts ['2', 0.1433] span/other ['3/2', 0.0478]",
   "splits:23": "J Gonggong -> J Pallas RA span 5.19628 = moved 4.22160 (38/9) + 0.97468  parts ['13/3', 0.048] span/other ['16/3', 0.039]",
   "splits:25": "J Gonggong -> J Ketu RA span 9.87905 = moved 4.22160 (38/9) + 5.65745  parts ['4/3', 0.5092] span/other ['7/4', 0.2171]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Gonggong\u2013Pallas",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:106"
+    ],
+    "moved": [
+     "links:106#shape5"
+    ],
+    "family": [
+     "pair_family:54"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:106#shape1"
+    ],
+    "partner": [
+     "links:106#shape2"
+    ],
+    "family": [
+     "pair_family:123"
+    ]
+   }
+  },
+  {
+   "pair": "Gonggong\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:104"
+    ],
+    "partner": [
+     "links:104#shape2"
+    ],
+    "h:j": [
+     "hj_ratios:5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:104#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Neptune\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:77"
+    ],
+    "ratio H": [
+     "ratios:8"
+    ],
+    "family": [
+     "pair_family:105"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:77#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Transpluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:114"
+    ],
+    "partner": [
+     "links:114#shape2"
+    ],
+    "family": [
+     "pair_family:17"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

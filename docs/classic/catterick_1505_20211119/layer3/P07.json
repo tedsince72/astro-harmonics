@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Brian Boranha / 4 Callum Bewley",
  "workbook": "catterick_1505_20211119__P07.xlsx",
  "bodies": {
@@ -9502,5 +9502,134 @@
   "splits:32": "J Mercury -> H Rahu Dec span 33.74313 = moved 28.33274 (255/9) + 5.41039  parts ['21/4', 0.2528] span/other ['25/4', 0.2124]",
   "splits:36": "J Vesta -> H Rahu RA span 177.93205 = moved 155.00283 (155) + 22.92922  parts ['27/4', 0.149] span/other ['23/3', 1.2182]",
   "splits:37": "J Vesta -> H Quaoar RA span 177.10654 = moved 155.00283 (155) + 22.10371  parts ['7', 0.1789] span/other ['8', 0.1566]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Haumea\u2013Saturn",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:70"
+    ],
+    "moved": [
+     "links:70#shape5"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:70#shape1"
+    ],
+    "family": [
+     "pair_family:93"
+    ]
+   }
+  },
+  {
+   "pair": "Orcus\u2013Transpluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:104"
+    ],
+    "moved": [
+     "links:104#shape5"
+    ],
+    "h:j": [
+     "hj_ratios:17"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:104#shape1"
+    ],
+    "family": [
+     "pair_family:57"
+    ]
+   }
+  },
+  {
+   "pair": "Gonggong\u2013Node",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:9"
+    ],
+    "set": [
+     "pair_sets:0"
+    ],
+    "family": [
+     "pair_family:130"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:51",
+     "pair_family:131"
+    ]
+   }
+  },
+  {
+   "pair": "Haumea\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:94"
+    ],
+    "moved": [
+     "links:94#shape5"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:94#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:60"
+    ],
+    "partner": [
+     "links:60#shape2"
+    ],
+    "moved": [
+     "links:60#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:60#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Saturn\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:68"
+    ],
+    "moved": [
+     "links:68#shape5"
+    ],
+    "family": [
+     "pair_family:69"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:68#shape1"
+    ]
+   }
+  }
+ ]
 }

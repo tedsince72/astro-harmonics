@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Oheka / 4 Kieran Shoemark",
  "workbook": "20211015_redcar_1515__P03.xlsx",
  "bodies": {
@@ -10698,5 +10698,57 @@
   "splits:27": "J Venus -> J Pallas RA span 120.38647 = moved 88.00896 (88) + 32.37751  parts ['19/7', 0.1447] span/other ['26/7', 0.1057]",
   "splits:28": "J Venus -> J Vesta RA span 115.75508 = moved 88.00896 (88) + 27.74613  parts ['19/6', 0.1664] span/other ['25/6', 0.1265]",
   "splits:35": "J Rahu -> J Makemake Dec span 42.01624 = moved 29.00769 (29) + 13.00856  parts ['20/9', 0.3452] span/other ['29/9', 0.2381]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Ceres\u2013Sedna",
+   "n": 2,
+   "kinds": {
+    "shared": [
+     "shared:3",
+     "shared:4",
+     "shared:5"
+    ],
+    "family": [
+     "pair_family:98"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:38",
+     "pair_family:39"
+    ]
+   }
+  },
+  {
+   "pair": "Saturn\u2013Sun",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:67"
+    ],
+    "moved": [
+     "links:67#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:67#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Gonggong\u2013Neptune",
+   "n": 2,
+   "kinds": {
+    "ratio H": [
+     "ratios:3"
+    ],
+    "family": [
+     "pair_family:81"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

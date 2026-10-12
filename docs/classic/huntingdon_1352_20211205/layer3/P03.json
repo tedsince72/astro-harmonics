@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Eldorado Allen / 2 Brendan Powell",
  "workbook": "huntingdon_1352_20211205__P03.xlsx",
  "bodies": {
@@ -10702,5 +10702,73 @@
   "splits:99": "J Haumea -> J Pluto Dec span 28.90322 = moved 7.00964 (7) + 21.89358  parts ['25/8', 0.0527] span/other ['4/3', 0.9873]",
   "splits:100": "J Haumea -> J Chiron Dec span 24.64907 = moved 7.00964 (7) + 17.63943  parts ['5/2', 0.6581] span/other ['7/5', 0.1868]",
   "splits:109": "J Haumea -> J Transpluto Dec span 8.26081 = moved 7.00964 (7) + 1.25117  parts ['28/5', 0.0441] span/other ['20/3', 0.963]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Sedna\u2013Sun",
+   "n": 5,
+   "kinds": {
+    "cross": [
+     "links:54"
+    ],
+    "struck": [
+     "links:54#shape1"
+    ],
+    "partner": [
+     "links:54#shape2"
+    ],
+    "ratio J": [
+     "ratios:7"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Haumea\u2013Makemake",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:5"
+    ],
+    "cross": [
+     "links:90"
+    ],
+    "moved": [
+     "links:90#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:90#shape1"
+    ],
+    "partner": [
+     "links:90#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "family": [
+     "pair_family:0"
+    ],
+    "same body": [
+     "same_body:0"
+    ],
+    "sky": [
+     "sky-gc 3.7872"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:1",
+     "pair_family:59"
+    ]
+   }
+  }
+ ]
 }

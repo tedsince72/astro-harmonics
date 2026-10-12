@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "10 Showmethewayhome / 10 David Probert",
  "workbook": "wolverhampton_aw_1725_20231021__P19.xlsx",
  "bodies": {
@@ -11284,5 +11284,147 @@
   "hj_ratios:16": "horse:jockey Haumea\u2013Orcus GC H 66.2397 J 58.8730 9/8 near",
   "hj_ratios:17": "horse:jockey Makemake\u2013Orcus GC H 54.3017 J 48.2763 9/8 near",
   "hj_ratios:18": "horse:jockey Makemake\u2013Transpluto RA H 43.8820 J 24.6851 16/9 near"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Node\u2013Sun",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:81"
+    ],
+    "struck": [
+     "links:81#shape1"
+    ],
+    "same body": [
+     "same_body:0",
+     "same_body:1"
+    ],
+    "sky": [
+     "sky-gc 3.1380"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Mercury\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:82"
+    ],
+    "family": [
+     "pair_family:8"
+    ],
+    "sky": [
+     "sky-gc 4.1743"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:82#shape1"
+    ],
+    "family": [
+     "pair_family:61"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Mars",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:54"
+    ],
+    "moved": [
+     "links:54#shape5"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:54#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Saturn",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:84"
+    ],
+    "struck": [
+     "links:84#shape1"
+    ],
+    "family": [
+     "pair_family:90"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:27",
+     "pair_family:28"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:10"
+    ],
+    "family": [
+     "pair_family:134"
+    ],
+    "same body": [
+     "same_body:4"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:44",
+     "pair_family:132",
+     "pair_family:133"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "family": [
+     "pair_family:0"
+    ],
+    "same body": [
+     "same_body:0",
+     "same_body:1"
+    ],
+    "sky": [
+     "sky-gc 1.1745"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Pluto\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:59"
+    ],
+    "struck": [
+     "links:59#shape1"
+    ],
+    "same body": [
+     "same_body:0",
+     "same_body:1"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

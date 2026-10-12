@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Eydon / 4 David Egan",
  "workbook": "newmarket_1535_20220414__P07.xlsx",
  "bodies": {
@@ -10865,5 +10865,85 @@
   "splits:154": "J Haumea -> J Gonggong Dec span 38.95334 = moved 5.88961 (53/9) + 33.06373  parts ['28/5', 0.2483] span/other ['7/6', 0.9825]",
   "splits:156": "J Haumea -> J Orcus Dec span 22.09849 = moved 5.88961 (53/9) + 16.20888  parts ['11/4', 0.0768] span/other ['11/8', 0.8467]",
   "splits:157": "J Haumea -> J Transpluto Dec span 8.41931 = moved 5.88961 (53/9) + 2.52969  parts ['7/3', 0.2203] span/other ['10/3', 0.1542]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Haumea\u2013Node",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:89"
+    ],
+    "struck": [
+     "links:89#shape1"
+    ],
+    "moved": [
+     "links:89#shape5"
+    ],
+    "family": [
+     "pair_family:54"
+    ]
+   },
+   "near": {
+    "cross": [
+     "links:81"
+    ],
+    "struck": [
+     "links:81#shape1"
+    ],
+    "moved": [
+     "links:81#shape5"
+    ],
+    "family": [
+     "pair_family:130"
+    ]
+   }
+  },
+  {
+   "pair": "Ceres\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:72"
+    ],
+    "moved": [
+     "links:72#shape5"
+    ],
+    "family": [
+     "pair_family:115"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:72#shape1"
+    ],
+    "ratio J": [
+     "ratios:20"
+    ],
+    "family": [
+     "pair_family:116"
+    ]
+   }
+  },
+  {
+   "pair": "Juno\u2013Transpluto",
+   "n": 3,
+   "kinds": {
+    "h:j": [
+     "hj_ratios:20"
+    ],
+    "family": [
+     "pair_family:47"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:48"
+    ]
+   }
+  }
+ ]
 }

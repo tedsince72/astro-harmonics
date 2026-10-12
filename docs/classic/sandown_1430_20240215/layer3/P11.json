@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "6 Smiling Getaway / 6 Sam Twiston-Davies",
  "workbook": "sandown_1430_20240215__P11.xlsx",
  "bodies": {
@@ -10648,5 +10648,51 @@
   "splits:34": "J Mercury -> H Uranus RA span 164.26794 = moved 100.44381 (904/9) + 63.82413  parts ['11/7', 0.1483] span/other ['18/7', 0.0906]",
   "splits:36": "J Mercury -> H Chiron RA span 136.60018 = moved 100.44381 (904/9) + 36.15637  parts ['25/9', 0.0094] span/other ['19/5', 0.5779]",
   "splits:38": "J Mercury -> H Ketu RA span 114.13649 = moved 100.44381 (904/9) + 13.69268  parts ['22/3', 0.0307] span/other ['25/3', 0.027]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Juno\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:92"
+    ],
+    "moved": [
+     "links:92#shape5"
+    ],
+    "family": [
+     "pair_family:38"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:92#shape1"
+    ],
+    "family": [
+     "pair_family:37",
+     "pair_family:105"
+    ]
+   }
+  },
+  {
+   "pair": "Juno\u2013Neptune",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:93"
+    ],
+    "struck": [
+     "links:93#shape1"
+    ],
+    "family": [
+     "pair_family:109"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:110"
+    ]
+   }
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "12 Quiet Resolve / 12 Cam Hardie",
  "workbook": "york_1615_20240515__P23.xlsx",
  "bodies": {
@@ -8737,5 +8737,47 @@
   "splits:68": "J Saturn -> J Gonggong Dec span 17.54341 = moved 6.11096 (55/9) + 11.43245  parts ['15/8', 0.2235] span/other ['14/9', 1.3518]",
   "splits:69": "J Saturn -> J Quaoar Dec span 13.76479 = moved 6.11096 (55/9) + 7.65382  parts ['5/4', 0.1979] span/other ['9/5', 0.0878]",
   "splits:71": "J Uranus -> H Rahu RA span 127.61557 = moved 103.44522 (931/9) + 24.17035  parts ['30/7', 0.1371] span/other ['21/4', 0.5684]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Chiron\u2013Saturn",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:69"
+    ],
+    "moved": [
+     "links:69#shape5"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:69#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:72"
+    ],
+    "struck": [
+     "links:72#shape1"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:33"
+    ]
+   }
+  }
+ ]
 }

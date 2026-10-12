@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Larllunna / 4 Harry Russell",
  "workbook": "newcastle_aw_1540_20211112__P07.xlsx",
  "bodies": {
@@ -10468,5 +10468,54 @@
   "splits:71": "J Haumea -> J Quaoar Dec span 35.61613 = moved 6.00274 (6) + 29.61338  parts ['5', 1.3339] span/other ['6/5', 0.2253]",
   "splits:72": "J Haumea -> J Orcus Dec span 21.43627 = moved 6.00274 (6) + 15.43352  parts ['18/7', 0.0136] span/other ['7/5', 0.7899]",
   "splits:73": "J Haumea -> J Transpluto Dec span 7.76922 = moved 6.00274 (6) + 1.76647  parts ['17/5', 0.0545] span/other ['22/5', 0.0421]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Haumea\u2013Makemake",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:96"
+    ],
+    "moved": [
+     "links:96#shape5"
+    ],
+    "same body": [
+     "same_body:2",
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:96#shape1"
+    ],
+    "family": [
+     "pair_family:137"
+    ]
+   }
+  },
+  {
+   "pair": "Juno\u2013Node",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:1"
+    ],
+    "ratio J": [
+     "ratios:7"
+    ],
+    "family": [
+     "pair_family:50"
+    ]
+   },
+   "near": {
+    "h:j": [
+     "hj_ratios:15"
+    ],
+    "family": [
+     "pair_family:124"
+    ]
+   }
+  }
+ ]
 }

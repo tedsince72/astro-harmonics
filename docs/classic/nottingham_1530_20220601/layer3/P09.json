@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "6 Silky Wilkie / 6 Clifford Lee",
  "workbook": "nottingham_1530_20220601__P09.xlsx",
  "bodies": {
@@ -9999,5 +9999,71 @@
   "splits:30": "J Juno -> J Ketu Dec span 18.30305 = moved 10.77687 (97/9) + 7.52618  parts ['10/7', 0.2342] span/other ['17/7', 0.1378]",
   "splits:31": "J Juno -> J Sedna Dec span 15.56146 = moved 10.77687 (97/9) + 4.78459  parts ['9/4', 0.1072] span/other ['13/4', 0.0742]",
   "splits:33": "J Juno -> J Makemake Dec span 44.84420 = moved 10.77687 (97/9) + 34.06733  parts ['19/6', 0.1741] span/other ['4/3', 1.2745]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Chiron\u2013Node",
+   "n": 2,
+   "kinds": {
+    "ratio J": [
+     "ratios:13"
+    ],
+    "family": [
+     "pair_family:36",
+     "pair_family:111"
+    ]
+   },
+   "near": {
+    "h:j": [
+     "hj_ratios:17"
+    ],
+    "family": [
+     "pair_family:37",
+     "pair_family:38",
+     "pair_family:109",
+     "pair_family:110"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Pallas",
+   "n": 2,
+   "kinds": {
+    "ratio J": [
+     "ratios:8"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "h:j": [
+     "hj_ratios:4"
+    ],
+    "family": [
+     "pair_family:59"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Sun",
+   "n": 2,
+   "kinds": {
+    "family": [
+     "pair_family:52"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "ratio H": [
+     "ratios:0"
+    ],
+    "family": [
+     "pair_family:0"
+    ]
+   }
+  }
+ ]
 }

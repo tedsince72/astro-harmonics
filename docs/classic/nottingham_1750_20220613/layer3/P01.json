@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "1 Applaud Now / 1 John Fahy",
  "workbook": "nottingham_1750_20220613__P01.xlsx",
  "bodies": {
@@ -10663,5 +10663,47 @@
   "splits:17": "J Haumea -> J Saturn RA span 105.02145 = moved 27.00192 (27) + 78.01953  parts ['26/9', 0.0179] span/other ['4/3', 0.9569]",
   "splits:18": "J Haumea -> J Uranus RA span 89.65902 = moved 27.00192 (27) + 62.65710  parts ['7/3', 0.5514] span/other ['10/7', 0.1663]",
   "splits:21": "J Haumea -> J Juno RA span 64.91606 = moved 27.00192 (27) + 37.91414  parts ['7/5', 0.2948] span/other ['12/7', 0.1225]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Jupiter\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:64"
+    ],
+    "partner": [
+     "links:64#shape2"
+    ],
+    "family": [
+     "pair_family:65"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:64#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:59"
+    ],
+    "family": [
+     "pair_family:13"
+    ],
+    "sky": [
+     "sky-gc 3.8429"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:59#shape1"
+    ]
+   }
+  }
+ ]
 }

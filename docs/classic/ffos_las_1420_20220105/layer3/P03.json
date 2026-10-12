@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "3 Emir Sacree / 3 James Bowen",
  "workbook": "ffos_las_1420_20220105__P03.xlsx",
  "bodies": {
@@ -10134,6 +10134,11 @@
    "item": "links:106:Flat",
    "note": "recurring pair Haumea\u2013Node",
    "what": "cross H Haumea\u2013J Ketu Flat 83.99747 = 84"
+  },
+  {
+   "item": "same_body:3",
+   "note": "same-body Dec 9/4 : 5/4 : 9/5 on Haumea",
+   "what": "same-body Haumea Dec 5/4 : 9/4 : 9/5 (worst 0.0867%)"
   }
  ],
  "desc": {
@@ -10609,5 +10614,79 @@
   "splits:32": "J Juno -> J Mars RA span 121.52865 = moved 83.55537 (752/9) + 37.97328  parts ['11/5', 0.017] span/other ['16/5', 0.0117]",
   "splits:34": "J Juno -> J Chiron RA span 104.48593 = moved 83.55537 (752/9) + 20.93056  parts ['4', 0.1993] span/other ['5', 0.1594]",
   "splits:35": "J Juno -> J Ceres RA span 89.74717 = moved 83.55537 (752/9) + 6.19180  parts ['27/2', 0.0405] span/other ['29/2', 0.0377]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Node\u2013Pluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:79"
+    ],
+    "moved": [
+     "links:79#shape5"
+    ],
+    "ratio J": [
+     "ratios:11"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:79#shape1"
+    ],
+    "partner": [
+     "links:79#shape2"
+    ],
+    "family": [
+     "pair_family:111",
+     "pair_family:112"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Pallas",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:94"
+    ],
+    "partner": [
+     "links:94#shape2"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:94#shape1"
+    ],
+    "family": [
+     "pair_family:46",
+     "pair_family:47",
+     "pair_family:119"
+    ]
+   }
+  },
+  {
+   "pair": "Orcus\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:91"
+    ],
+    "moved": [
+     "links:91#shape5"
+    ],
+    "h:j": [
+     "hj_ratios:20"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:91#shape1"
+    ]
+   }
+  }
+ ]
 }

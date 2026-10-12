@@ -1,6 +1,112 @@
 {
- "version": "L4 v1.1 (12 Oct 2026)",
+ "version": "L4 v1.2 (12 Oct 2026, pair focus)",
  "race": "newcastle_aw_1220_20211112",
+ "pair_focus": {
+  "P01": {
+   "top": "Gonggong\u2013Pallas",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "family"
+   ],
+   "tied_pairs": [
+    "Gonggong\u2013Pallas",
+    "Gonggong\u2013Venus",
+    "Neptune\u2013Node",
+    "Mercury\u2013Transpluto"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P03": {
+   "top": "Ceres\u2013Eris",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "moved",
+    "family",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Ceres\u2013Eris"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P05": {
+   "top": "Jupiter\u2013Pallas",
+   "n": 2,
+   "kinds": [
+    "cross",
+    "partner"
+   ],
+   "tied_pairs": [
+    "Jupiter\u2013Pallas",
+    "Node\u2013Transpluto",
+    "Ceres\u2013Chiron"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P07": {
+   "top": "Jupiter\u2013Quaoar",
+   "n": 2,
+   "kinds": [
+    "cross",
+    "moved"
+   ],
+   "tied_pairs": [
+    "Jupiter\u2013Quaoar",
+    "Mars\u2013Sedna",
+    "Neptune\u2013Saturn"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P09": {
+   "top": "Jupiter\u2013Makemake",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "moved",
+    "struck",
+    "partner"
+   ],
+   "tied_pairs": [
+    "Jupiter\u2013Makemake"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P11": {
+   "top": "Sun\u2013Venus",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "struck",
+    "h:j",
+    "family"
+   ],
+   "tied_pairs": [
+    "Sun\u2013Venus"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  }
+ },
+ "pair_focus_max": 4,
+ "pair_focus_leaders": [
+  "P03",
+  "P09",
+  "P11"
+ ],
  "runners": [
   {
    "P": "P01",
@@ -526,6 +632,9 @@
    "P03"
   ],
   "recurring pair Node\u2013Neptune": [
+   "P03"
+  ],
+  "same-body Dec 9/4 : 5/4 : 9/5 on Ceres": [
    "P03"
   ],
   "recurring pair Node\u2013Haumea": [

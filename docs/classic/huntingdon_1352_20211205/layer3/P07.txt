@@ -1,4 +1,4 @@
-== 4 Master Tommytucker / 4 Harry Cobden   [huntingdon_1352_20211205__P07.xlsx, L3 v1.2 (12 Oct 2026)]
+== 4 Master Tommytucker / 4 Harry Cobden   [huntingdon_1352_20211205__P07.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): H Orcus, H Transpluto, J Uranus, J Gonggong, J Orcus, J Transpluto
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Orcus        BPRSX  tight 5
@@ -848,6 +848,32 @@
         sky Rahu on J Haumea RA 136.5893 Dec 0.2611
         sky Chiron -> J Makemake GC 142.00271 = 142
         sky Rahu -> J Makemake GC 101.99720 = 102
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Orcus–Sun              4 kinds: cross, struck, partner, same body
+        cross: cross H Sun–J Orcus RA 139.6185 Dec 0.2174
+        struck: cross H Sun–J Orcus RA 139.6185 Dec 0.2174
+        partner: cross H Sun–J Orcus RA 139.6185 Dec 0.2174
+        same body: same-body Orcus RA 5/4 : 9/5 : 9/4 (worst 0.0171%); same-body Sun Dec 13/9 : 13/4 : 9/4 (worst 0.0044%)
+   Ceres–Uranus           3 kinds: cross, family, same body   near: struck, h:j, family
+        cross: cross H Ceres–J Uranus RA 22.1919 Dec 0.1590
+        family: H Uranus–Ceres RA sky Uranus – H Ceres 65.2406 vs TT 22.5833 26/9 (0.0000%)
+        same body: same-body Uranus GC 5/4 : 9/4 : 9/5 (worst 0.0002%)
+   Orcus–Transpluto       3 kinds: cross, ratio H, same body   near: struck, partner
+        cross: cross H Orcus–J Transpluto RA 1.0195 Dec 19.7263
+        ratio H: H Orcus–Transpluto Dec sky 22.2997 natal 18.5823 6/5 (0.0042%)
+        same body: same-body Transpluto GC 4/3 : 7/4 : 7/3 (worst 0.0019%); same-body Orcus RA 5/4 : 9/5 : 9/4 (worst 0.0171%)
+   Node–Transpluto        3 kinds: cross, struck, same body   near: family
+        cross: cross H Transpluto–J Rahu RA 0.5144 Dec 0.1870
+        struck: cross H Transpluto–J Rahu RA 0.5144 Dec 0.1870
+        same body: same-body Transpluto GC 4/3 : 7/4 : 7/3 (worst 0.0019%)
+   Pluto–Uranus           3 kinds: cross, h:j, same body   near: struck
+        cross: cross H Pluto–J Uranus RA 33.9584 Dec 0.1045
+        h:j: horse:jockey Uranus–Pluto RA H 82.9068 J 64.4855 9/7
+        same body: same-body Uranus GC 5/4 : 9/4 : 9/5 (worst 0.0002%)
+   Uranus–Venus           3 kinds: ratio J, h:j, same body
+        ratio J: J Venus–Uranus GC sky 108.6275 natal 84.4866 9/7 (0.0018%)
+        h:j: horse:jockey Venus–Uranus GC H 39.7573 J 84.4866 17/8
+        same body: same-body Uranus GC 5/4 : 9/4 : 9/5 (worst 0.0002%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Jupiter–Vesta: H H Jupiter–H Vesta RA 75.99915 = 76
    recurring pair Neptune–Vesta: H H Neptune–H Vesta Flat 37.00343 = 37

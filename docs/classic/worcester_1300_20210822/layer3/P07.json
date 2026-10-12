@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Thistle Do Nicely / 4 Gavin Sheehan",
  "workbook": "20210822_worcester_1300__P07.xlsx",
  "bodies": {
@@ -9691,5 +9691,116 @@
   "splits:25": "J Transpluto -> J Neptune RA span 144.95511 = moved 10.00432 (10) + 134.95079  parts ['27/2', 0.0796] span/other ['10/9', 3.328]",
   "splits:27": "J Transpluto -> J Ceres RA span 169.82276 = moved 10.00432 (10) + 159.81845  parts ['16', 0.1566] span/other ['10/9', 4.3662]",
   "splits:33": "J Transpluto -> J Quaoar RA span 91.62789 = moved 10.00432 (10) + 81.62357  parts ['8', 1.9855] span/other ['9/8', 0.2163]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Juno\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:99"
+    ],
+    "moved": [
+     "links:99#shape5"
+    ],
+    "family": [
+     "pair_family:78"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:99#shape1"
+    ],
+    "family": [
+     "pair_family:77"
+    ]
+   }
+  },
+  {
+   "pair": "Pallas\u2013Transpluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:88"
+    ],
+    "moved": [
+     "links:88#shape5"
+    ],
+    "same body": [
+     "same_body:5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:88#shape1"
+    ],
+    "partner": [
+     "links:88#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Ceres\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:83"
+    ],
+    "struck": [
+     "links:83#shape1"
+    ],
+    "same body": [
+     "same_body:4"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:152"
+    ]
+   }
+  },
+  {
+   "pair": "Saturn\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "h:j": [
+     "hj_ratios:6"
+    ],
+    "family": [
+     "pair_family:39"
+    ],
+    "same body": [
+     "same_body:0",
+     "same_body:1",
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:37",
+     "pair_family:38"
+    ]
+   }
+  },
+  {
+   "pair": "Sun\u2013Transpluto",
+   "n": 3,
+   "kinds": {
+    "family": [
+     "pair_family:10"
+    ],
+    "same body": [
+     "same_body:5"
+    ],
+    "sky": [
+     "sky-gc 3.2662"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:11"
+    ]
+   }
+  }
+ ]
 }

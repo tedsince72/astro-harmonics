@@ -1,4 +1,4 @@
-# kempton_aw_1440_20210904 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# kempton_aw_1440_20210904 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Hukum / 1 Jim Crowley**
@@ -8,6 +8,7 @@
 **P03 2 Fox Tal / 2 Oisin Murphy**
 - **Only runner in the field (strict): both ends of the cross link have moved** — horse Ketu–Murphy Saturn RA 1.3055 Dec 1.9865; horse Ketu moved Dec 17.88959 = 161/9; horse Ketu moved GC 106.11056 = 955/9; Murphy Saturn moved RA 43.33414 = 390/9  _(rests on 4 independent facts)_
 - **Only runner in the field (strict): swap** — horse Pallas–Murphy Sun RA 150.7043 Dec 0.2747; horse Sun–Murphy Pallas RA 154.6825 Dec 0.2821  _(rests on 2 independent facts)_
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Node–Saturn, 4 kinds: cross, moved, ratio J, family; not lit in any other runner
 
 **P05 3 Hamish / 3 Pat Dobbs**
 - **Only runner in the field (strict): cross link struck on both ends** — horse Venus–Dobbs Juno RA 1.1356 Dec 9.6702; sky Saturn -> horse Venus Dec 3.11095 = 28/9; sky Ceres -> horse Venus GC 145.11103 = 1306/9; sky Ceres -> Dobbs Juno Dec 27.99929 = 28  _(rests on 6 independent facts)_

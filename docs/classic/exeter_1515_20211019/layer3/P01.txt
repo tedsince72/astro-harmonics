@@ -1,4 +1,4 @@
-== 1 Caspers Court / 1 Tom Scudamore   [20211019_exeter_1515__P01.xlsx, L3 v1.2 (12 Oct 2026)]
+== 1 Caspers Court / 1 Tom Scudamore   [20211019_exeter_1515__P01.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): H Vesta, H Jupiter, J Sedna, H Saturn
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Vesta        BMPRSX  tight 6
@@ -694,6 +694,25 @@
         sky Makemake on J Rahu RA 92.6467 Dec 0.5978 near
         sky Pluto -> J Sedna Flat 105.77751 = 952/9
         sky Makemake -> J Sedna RA 159.44406 = 1435/9
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Jupiter–Node           4 kinds: cross, moved, ratio H, same body   near: cross, struck, family
+        cross: cross H Jupiter–J Rahu RA 5.0055 Dec 0.2501
+        moved: cross H Jupiter–J Rahu RA 5.0055 Dec 0.2501
+        ratio H: H Jupiter–Ketu Dec sky 5.2726 natal 11.7169 20/9 (0.0007%)
+        same body: same-body Jupiter Dec 9/8 : 9 : 8 (worst 0.0035%)
+   Ceres–Saturn           4 kinds: shared, cross, ratio J, same body   near: struck, partner
+        shared: shared Saturn–Ceres Flat H 31.3664 J 31.3463; shared Saturn–Ceres GC H 31.1577 J 31.1276
+        cross: cross H Saturn–J Ceres RA 0.0056 Dec 5.7464
+        ratio J: J Saturn–Ceres GC sky 124.5137 natal 31.1276 4 (0.0025%)
+        same body: same-body Saturn RA 8/3 : 11/8 : 11/3 (worst 0.1010%)
+   Sedna–Vesta            3 kinds: cross, moved, same body   near: struck, family
+        cross: cross H Vesta–J Sedna RA 160.2349 Dec 0.0054
+        moved: cross H Vesta–J Sedna RA 160.2349 Dec 0.0054; cross H Vesta–J Sedna RA 160.2349 Dec 0.0054
+        same body: same-body Vesta Dec 11/9 : 9/2 : 11/2 (worst 0.0915%); same-body Sedna Flat 7/2 : 9/2 : 9/7 (worst 0.1369%)
+   Mars–Pluto             3 kinds: set, family, same body
+        set: pair set Mars–Pluto RA H 95.3346 J 27.8132
+        family: H Mars–Pluto Dec sky Mars – H Pluto 11.9850 vs NN 17.1219 10/7 (0.0027%)
+        same body: same-body Pluto RA 6 : 7 : 7/6 (worst 0.0987%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Jupiter–Vesta: J J Jupiter–J Vesta Dec 4.99941 = 5
    recurring pair Neptune–Node: J J Neptune–J Ketu RA 19.2183 Dec 0.5914

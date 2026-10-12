@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "5 Birds Of Prey / 5 Harry Cobden",
  "workbook": "wincanton_1420_20220321__P09.xlsx",
  "bodies": {
@@ -11954,5 +11954,107 @@
   "splits:113": "H Transpluto -> H Juno Dec span 8.23009 = moved 0.99806 (1) + 7.23204  parts ['29/4', 0.0534] span/other ['8/7', 0.4246]",
   "splits:124": "H Transpluto -> J Mars Dec span 5.19060 = moved 0.99806 (1) + 4.19255  parts ['21/5', 0.017] span/other ['5/4', 0.9556]",
   "splits:134": "H Transpluto -> J Eris Dec span 19.00744 = moved 0.99806 (1) + 18.00938  parts ['18', 0.2471] span/other None"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Node\u2013Orcus",
+   "n": 5,
+   "kinds": {
+    "cross": [
+     "links:103"
+    ],
+    "moved": [
+     "links:103#shape5"
+    ],
+    "h:j": [
+     "hj_ratios:13"
+    ],
+    "family": [
+     "pair_family:115"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:103#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Transpluto",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:107"
+    ],
+    "partner": [
+     "links:107#shape2"
+    ],
+    "moved": [
+     "links:107#shape5"
+    ],
+    "same body": [
+     "same_body:1",
+     "same_body:3"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:107#shape1"
+    ],
+    "family": [
+     "pair_family:51"
+    ]
+   }
+  },
+  {
+   "pair": "Orcus\u2013Transpluto",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:106"
+    ],
+    "moved": [
+     "links:106#shape5"
+    ],
+    "family": [
+     "pair_family:56",
+     "pair_family:123"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:106#shape1"
+    ],
+    "family": [
+     "pair_family:122"
+    ]
+   }
+  },
+  {
+   "pair": "Neptune\u2013Node",
+   "n": 3,
+   "kinds": {
+    "ratio J": [
+     "ratios:17"
+    ],
+    "family": [
+     "pair_family:29"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:96"
+    ]
+   }
+  }
+ ]
 }

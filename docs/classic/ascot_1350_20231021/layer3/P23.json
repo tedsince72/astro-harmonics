@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "12 Believing / 12 Daniel Tudhope",
  "workbook": "ascot_1350_20231021__P23.xlsx",
  "bodies": {
@@ -10284,5 +10284,27 @@
   "splits:66": "J Ketu -> J Pluto Dec span 16.20330 = moved 4.99458 (5) + 11.20872  parts ['9/4', 0.2587] span/other ['13/9', 0.0798]",
   "splits:69": "J Ketu -> J Sedna Dec span 17.83509 = moved 4.99458 (5) + 12.84051  parts ['18/7', 0.0209] span/other ['7/5', 0.7878]",
   "splits:71": "J Ketu -> J Makemake Dec span 50.92164 = moved 4.99458 (5) + 45.92706  parts ['28/3', 1.478] span/other ['10/9', 0.2125]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Juno\u2013Mars",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:92"
+    ],
+    "moved": [
+     "links:92#shape5"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:92#shape1"
+    ]
+   }
+  }
+ ]
 }

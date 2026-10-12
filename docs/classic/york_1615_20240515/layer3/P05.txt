@@ -1,4 +1,4 @@
-== 3 Blue Prince / 3 Richard Kingscote   [york_1615_20240515__P05.xlsx, L3 v1.2 (12 Oct 2026)]
+== 3 Blue Prince / 3 Richard Kingscote   [york_1615_20240515__P05.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): J Saturn, H Saturn
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    J Saturn       BEPRSX  tight 5  (near joined: R)
@@ -552,6 +552,19 @@
         same-body Rahu RA 6/5 : 6 : 5 (worst 0.1405%)
    [11] joined same-body set (HUB)  roots 1  bodies=['H Gonggong', 'J Gonggong']; joined_by=['R', 'X']; strict=True
         same-body Gonggong Dec 9 : 10 : 10/9 (worst 0.1498%)
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Sun–Uranus             3 kinds: family, same body, sky   near: family
+        family: J Sun–Uranus Flat J Sun – sky Uranus 68.2282 vs NN 146.2088 15/7 (0.0037%)
+        same body: same-body Sun RA 9/5 : 5/4 : 9/4 (worst 0.0570%)
+        sky: sky-gc 2.0565
+   Gonggong–Sun           3 kinds: cross, partner, same body
+        cross: cross H Sun–J Gonggong RA 1.1268 Dec 8.9440
+        partner: cross H Sun–J Gonggong RA 1.1268 Dec 8.9440
+        same body: same-body Gonggong Dec 9 : 10 : 10/9 (worst 0.1498%); same-body Sun RA 9/5 : 5/4 : 9/4 (worst 0.0570%)
+   Saturn–Saturn          3 kinds: cross, struck, same body
+        cross: cross H Saturn–J Saturn RA 67.4105 Dec 0.0034
+        struck: cross H Saturn–J Saturn RA 67.4105 Dec 0.0034
+        same body: same-body Saturn EqValue 23/8 : 1 : 23/8 (worst 0.0318%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Venus–Uranus: H H Venus–H Uranus Flat 79.33290 = 714/9
    recurring pair Pallas–Juno: H H Pallas–H Juno Dec 12.00068 = 12

@@ -1,4 +1,4 @@
-== fontwell_1645_20210914  field of 4   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
+== fontwell_1645_20210914  field of 4   [L4 v1.2 (12 Oct 2026, pair focus)]  (blind: no finishing positions)
 -- runners: P01 1 Eye To The Sky / 1 Gavin Sheehan; P03 2 Spike Jones / 2 Alain Cawley; P05 3 Pixie Loc / 3 Ben Jones; P07 4 Santesa / 4 Ciaran Gethings
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              2/4: P01:1 P07:1  |   4: P01:11 P03:13 P05:10 P07:16
@@ -31,9 +31,14 @@
    [ broad:11] P03 2 Spike Jones / 2 Alain Cawley: same body Haumea (worst 0.0315%)
 -- field-only findings (shape numbers)
    P01 1 Eye To The Sky / 1 Gavin Sheehan: only (strict) -; only (broad) -; strict, shared with one other 1,7
-   P03 2 Spike Jones / 2 Alain Cawley: only (strict) 2,12m; only (broad) -; strict, shared with one other 12
+   P03 2 Spike Jones / 2 Alain Cawley: only (strict) 2,12m,pair focus; only (broad) -; strict, shared with one other 12
    P05 3 Pixie Loc / 3 Ben Jones: only (strict) 4; only (broad) 4; strict, shared with one other 8,12
    P07 4 Santesa / 4 Ciaran Gethings: only (strict) -; only (broad) 6; strict, shared with one other 1,7,8
+-- pair focus: each runner's most-lit pair (kinds of root item); field max 4 — P03
+   P01 1 Eye To The Sky / 1 Gavin Sheehan       Node–Quaoar            3  cross, moved, family
+   P03 2 Spike Jones / 2 Alain Cawley           Neptune–Saturn         4  cross, partner, moved, family  <- most-lit pair in the field
+   P05 3 Pixie Loc / 3 Ben Jones                Node–Venus             3  cross, moved, family
+   P07 4 Santesa / 4 Ciaran Gethings            Mars–Node              3  cross, family, same body
 -- strong hubs across the field
    H Transpluto   2: P05 P07
    H Eris         2: P05 P07

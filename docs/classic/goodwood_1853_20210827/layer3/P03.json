@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Pretty In Grey / 2 Marco Ghiani",
  "workbook": "20210827_goodwood_1853__P03.xlsx",
  "bodies": {
@@ -11056,5 +11056,27 @@
   "splits:17": "H Neptune -> J Pallas RA span 20.86348 = moved 8.00390 (8) + 12.85958  parts ['8/5', 0.4165] span/other ['13/8', 0.1595]",
   "splits:22": "H Neptune -> J Orcus RA span 152.05595 = moved 8.00390 (8) + 144.05205  parts ['18', 0.0126] span/other ['10/9', 4.9994]",
   "splits:43": "H Haumea -> J Neptune RA span 92.62447 = moved 2.99469 (3) + 89.62978  parts ['30', 0.2348] span/other None"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Haumea\u2013Mars",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:105"
+    ],
+    "moved": [
+     "links:105#shape5"
+    ],
+    "ratio H": [
+     "ratios:6"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:105#shape1"
+    ]
+   }
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Inside Intel / 2 Jason Hart",
  "workbook": "20210825_musselburgh_1345__P03.xlsx",
  "bodies": {
@@ -9616,5 +9616,46 @@
   "splits:27": "J Sedna -> J Vesta Dec span 14.72987 = moved 3.66621 (33/9) + 11.06366  parts ['3', 0.5913] span/other ['4/3', 0.1469]",
   "splits:28": "J Sedna -> J Ketu Dec span 11.90089 = moved 3.66621 (33/9) + 8.23468  parts ['9/4', 0.1732] span/other ['13/9', 0.0534]",
   "splits:30": "J Sedna -> J Makemake Dec span 28.83549 = moved 3.66621 (33/9) + 25.16928  parts ['27/4', 1.7067] span/other ['8/7', 0.2454]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Mars\u2013Node",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:2"
+    ],
+    "cross": [
+     "links:57"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:57#shape1"
+    ],
+    "family": [
+     "pair_family:14"
+    ]
+   }
+  },
+  {
+   "pair": "Saturn\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:60"
+    ],
+    "struck": [
+     "links:60#shape1"
+    ],
+    "moved": [
+     "links:60#shape5"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

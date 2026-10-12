@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "6 Secret Satire / 6 Oisin Murphy",
  "workbook": "york_1545_20240515__P11.xlsx",
  "bodies": {
@@ -10230,5 +10230,24 @@
   "splits:78": "J Sedna -> J Haumea RA span 146.74453 = moved 15.00205 (15) + 131.74248  parts ['26/3', 1.3265] span/other ['10/9', 0.2487]",
   "splits:80": "J Sedna -> J Orcus RA span 89.67207 = moved 15.00205 (15) + 74.67002  parts ['5', 0.4536] span/other ['6/5', 0.0759]",
   "splits:81": "J Sedna -> J Transpluto RA span 101.10343 = moved 15.00205 (15) + 86.10137  parts ['23/4', 0.186] span/other ['7/6', 0.6489]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Eris\u2013Juno",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:3",
+     "shared:4"
+    ],
+    "cross": [
+     "links:87"
+    ],
+    "struck": [
+     "links:87#shape1"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

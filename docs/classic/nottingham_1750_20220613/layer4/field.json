@@ -1,6 +1,115 @@
 {
- "version": "L4 v1.1 (12 Oct 2026)",
+ "version": "L4 v1.2 (12 Oct 2026, pair focus)",
  "race": "nottingham_1750_20220613",
+ "pair_focus": {
+  "P01": {
+   "top": "Jupiter\u2013Venus",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "partner",
+    "family"
+   ],
+   "tied_pairs": [
+    "Jupiter\u2013Venus",
+    "Node\u2013Venus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P03": {
+   "top": "Eris\u2013Vesta",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Eris\u2013Vesta",
+    "Makemake\u2013Vesta"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P05": {
+   "top": "Jupiter\u2013Mars",
+   "n": 2,
+   "kinds": [
+    "cross",
+    "family"
+   ],
+   "tied_pairs": [
+    "Jupiter\u2013Mars",
+    "Mercury\u2013Uranus",
+    "Sun\u2013Sun"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P07": {
+   "top": "Node\u2013Uranus",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "partner",
+    "moved",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Node\u2013Uranus"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {
+    "P11": 3
+   }
+  },
+  "P09": {
+   "top": "Mars\u2013Node",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "partner",
+    "moved",
+    "family"
+   ],
+   "tied_pairs": [
+    "Mars\u2013Node",
+    "Neptune\u2013Node"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P11": {
+   "top": "Neptune\u2013Node",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "moved",
+    "family",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Neptune\u2013Node"
+   ],
+   "field_max": true,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {
+    "P09": 4
+   }
+  }
+ },
+ "pair_focus_max": 4,
+ "pair_focus_leaders": [
+  "P07",
+  "P09",
+  "P11"
+ ],
  "runners": [
   {
    "P": "P01",
@@ -797,6 +906,9 @@
    "P03",
    "P07",
    "P11"
+  ],
+  "same-body Dec 9/4 : 5/4 : 9/5 on Juno": [
+   "P03"
   ],
   "recurring pair Jupiter\u2013Vesta": [
    "P05",

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "1 Good Effort / 1 Jim Crowley",
  "workbook": "newcastle_aw_1330_20220102__P01.xlsx",
  "bodies": {
@@ -10489,5 +10489,67 @@
   "splits:30": "J Haumea -> J Vesta Dec span 42.57723 = moved 9.44529 (85/9) + 33.13194  parts ['7/2', 0.2221] span/other ['9/7', 0.0493]",
   "splits:32": "J Haumea -> J Ketu Dec span 24.53948 = moved 9.44529 (85/9) + 15.09419  parts ['8/5', 0.1209] span/other ['13/8', 0.0466]",
   "splits:33": "J Haumea -> J Eris Dec span 36.48556 = moved 9.44529 (85/9) + 27.04027  parts ['20/7', 0.1991] span/other ['4/3', 1.1978]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Juno\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:81"
+    ],
+    "partner": [
+     "links:81#shape2"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:81#shape1"
+    ],
+    "h:j": [
+     "hj_ratios:20"
+    ],
+    "family": [
+     "pair_family:47",
+     "pair_family:48",
+     "pair_family:128"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Transpluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:64"
+    ],
+    "ratio H": [
+     "ratios:4"
+    ],
+    "same body": [
+     "same_body:5"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Orcus\u2013Saturn",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:100"
+    ],
+    "partner": [
+     "links:100#shape2"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

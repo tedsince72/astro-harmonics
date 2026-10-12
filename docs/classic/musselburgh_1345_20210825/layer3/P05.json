@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "3 Yukon / 3 Daniel Tudhope",
  "workbook": "20210825_musselburgh_1345__P05.xlsx",
  "bodies": {
@@ -10940,5 +10940,82 @@
   "splits:10": "H Neptune -> H Makemake Dec span 33.19898 = moved 3.99176 (4) + 29.20722  parts ['22/3', 0.2244] span/other ['8/7', 0.5413]",
   "splits:11": "H Neptune -> H Transpluto Dec span 19.29312 = moved 3.99176 (4) + 15.30136  parts ['23/6', 0.0025] span/other ['5/4', 0.8701]",
   "splits:21": "H Pallas -> H Venus RA span 20.07961 = moved 3.99126 (4) + 16.08835  parts ['4', 0.7724] span/other ['5/4', 0.1533]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Saturn\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:82"
+    ],
+    "family": [
+     "pair_family:0"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:82#shape1"
+    ],
+    "family": [
+     "pair_family:1"
+    ]
+   }
+  },
+  {
+   "pair": "Juno\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:115"
+    ],
+    "partner": [
+     "links:115#shape2"
+    ],
+    "moved": [
+     "links:115#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:115#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Makemake\u2013Mercury",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:0"
+    ],
+    "family": [
+     "pair_family:11"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Pallas\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:4"
+    ],
+    "family": [
+     "pair_family:45"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

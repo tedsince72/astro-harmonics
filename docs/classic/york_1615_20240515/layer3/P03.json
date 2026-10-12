@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Fire Demon / 2 Oisin Murphy",
  "workbook": "york_1615_20240515__P03.xlsx",
  "bodies": {
@@ -9350,5 +9350,68 @@
   "splits:48": "J Sedna -> J Haumea RA span 146.74453 = moved 15.00232 (15) + 131.74221  parts ['26/3', 1.3245] span/other ['10/9', 0.2489]",
   "splits:50": "J Sedna -> J Orcus RA span 89.67207 = moved 15.00232 (15) + 74.66976  parts ['5', 0.4557] span/other ['6/5', 0.0763]",
   "splits:51": "J Sedna -> J Transpluto RA span 101.10343 = moved 15.00232 (15) + 86.10111  parts ['23/4', 0.188] span/other ['7/6', 0.6492]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Chiron\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:75"
+    ],
+    "struck": [
+     "links:75#shape1"
+    ],
+    "moved": [
+     "links:75#shape5"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:83"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:2"
+    ],
+    "h:j": [
+     "hj_ratios:14"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:15",
+     "pair_family:61"
+    ]
+   }
+  },
+  {
+   "pair": "Mars\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:91"
+    ],
+    "moved": [
+     "links:91#shape5"
+    ],
+    "family": [
+     "pair_family:11"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:91#shape1"
+    ]
+   }
+  }
+ ]
 }

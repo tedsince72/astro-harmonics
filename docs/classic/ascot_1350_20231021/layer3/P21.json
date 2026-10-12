@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "11 Vadream / 11 Kieran Shoemark",
  "workbook": "ascot_1350_20231021__P21.xlsx",
  "bodies": {
@@ -10777,5 +10777,102 @@
   "splits:103": "J Jupiter -> H Venus Dec span 44.36924 = moved 37.22191 (335/9) + 7.14733  parts ['26/5', 0.1501] span/other ['25/4', 0.6752]",
   "splits:106": "J Jupiter -> H Haumea Dec span 40.32376 = moved 37.22191 (335/9) + 3.10185  parts ['12', 0.0009] span/other ['13', 0.0009]",
   "splits:107": "J Jupiter -> H Makemake Dec span 48.14073 = moved 37.22191 (335/9) + 10.91882  parts ['17/5', 0.2638] span/other ['22/5', 0.2038]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Jupiter\u2013Mars",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:73"
+    ],
+    "moved": [
+     "links:73#shape5"
+    ],
+    "ratio H": [
+     "ratios:1"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:73#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Node",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:91"
+    ],
+    "struck": [
+     "links:91#shape1"
+    ],
+    "moved": [
+     "links:91#shape4",
+     "links:91#shape5",
+     "links:91#shape5"
+    ],
+    "sky": [
+     "sky-gc 3.9313"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:84"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:89"
+    ],
+    "moved": [
+     "links:89#shape4",
+     "links:89#shape5",
+     "links:89#shape5"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:89#shape1"
+    ],
+    "family": [
+     "pair_family:98"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:88"
+    ],
+    "struck": [
+     "links:88#shape1"
+    ],
+    "moved": [
+     "links:88#shape4",
+     "links:88#shape5",
+     "links:88#shape5"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:83"
+    ]
+   }
+  }
+ ]
 }

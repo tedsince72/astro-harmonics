@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Beating All / 4 Ben Curtis",
  "workbook": "20210802_newcastle_aw_1633__P07.xlsx",
  "bodies": {
@@ -9482,5 +9482,102 @@
   "splits:46": "J Gonggong -> J Makemake Dec span 55.84813 = moved 8.99466 (9) + 46.85347  parts ['26/5', 0.1736] span/other ['6/5', 0.6688]",
   "splits:47": "J Gonggong -> J Orcus Dec span 24.75531 = moved 8.99466 (9) + 15.76064  parts ['7/4', 0.1269] span/other ['11/7', 0.0461]",
   "splits:48": "J Gonggong -> J Transpluto Dec span 34.65724 = moved 8.99466 (9) + 25.66258  parts ['20/7', 0.1419] span/other ['4/3', 1.2873]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Chiron\u2013Node",
+   "n": 5,
+   "kinds": {
+    "shared": [
+     "shared:3"
+    ],
+    "cross": [
+     "links:91"
+    ],
+    "struck": [
+     "links:91#shape1"
+    ],
+    "ratio H": [
+     "ratios:7"
+    ],
+    "family": [
+     "pair_family:59"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:58"
+    ]
+   }
+  },
+  {
+   "pair": "Ceres\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:86"
+    ],
+    "struck": [
+     "links:86#shape1"
+    ],
+    "moved": [
+     "links:86#shape5"
+    ]
+   },
+   "near": {
+    "h:j": [
+     "hj_ratios:6"
+    ],
+    "family": [
+     "pair_family:65"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:89"
+    ],
+    "partner": [
+     "links:89#shape2"
+    ],
+    "family": [
+     "pair_family:7",
+     "pair_family:8"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:89#shape1"
+    ],
+    "family": [
+     "pair_family:6"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:0"
+    ],
+    "same body": [
+     "same_body:0"
+    ],
+    "sky": [
+     "sky-gc 2.0987"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:0",
+     "pair_family:73",
+     "pair_family:74"
+    ]
+   }
+  }
+ ]
 }

@@ -1,4 +1,4 @@
-# lingfield_1500_20220123 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# lingfield_1500_20220123 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Bristol De Mai / 1 Sam Twiston-Davies**

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "6 Molly Ollys Wishes / 6 Harry Skelton",
  "workbook": "haydock_1405_20220219__P11.xlsx",
  "bodies": {
@@ -10389,5 +10389,46 @@
   "splits:34": "H Haumea -> J Mercury Dec span 24.04129 = moved 2.66716 (24/9) + 21.37412  parts ['8', 0.1725] span/other ['9/8', 0.0191]",
   "splits:46": "H Haumea -> J Eris Dec span 27.59159 = moved 2.66716 (24/9) + 24.92443  parts ['28/3', 0.1241] span/other ['10/9', 0.3691]",
   "splits:51": "H Haumea -> J Transpluto Dec span 3.83763 = moved 2.66716 (24/9) + 1.17047  parts ['16/7', 0.3063] span/other ['23/7', 0.2131]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Haumea\u2013Transpluto",
+   "n": 4,
+   "kinds": {
+    "set": [
+     "pair_sets:1"
+    ],
+    "h:j": [
+     "hj_ratios:20"
+    ],
+    "family": [
+     "pair_family:58"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "h:j": [
+     "hj_ratios:19"
+    ]
+   }
+  },
+  {
+   "pair": "Orcus\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:1"
+    ],
+    "cross": [
+     "links:78"
+    ],
+    "struck": [
+     "links:78#shape1"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

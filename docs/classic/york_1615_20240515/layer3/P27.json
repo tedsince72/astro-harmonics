@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "14 Misemerald / 14 Andrew Mullen",
  "workbook": "york_1615_20240515__P27.xlsx",
  "bodies": {
@@ -12039,5 +12039,57 @@
   "splits:115": "J Ketu -> J Vesta Dec span 40.92789 = moved 16.99471 (17) + 23.93318  parts ['7/5', 0.5909] span/other ['12/7', 0.2448]",
   "splits:118": "J Ketu -> J Makemake Dec span 59.62033 = moved 16.99471 (17) + 42.62563  parts ['5/2', 0.3268] span/other ['7/5', 0.0931]",
   "splits:120": "J Ketu -> J Transpluto Dec span 37.47642 = moved 16.99471 (17) + 20.48171  parts ['6/5', 0.4318] span/other ['11/6', 0.1954]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Ceres\u2013Saturn",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:78"
+    ],
+    "moved": [
+     "links:78#shape4",
+     "links:78#shape5",
+     "links:78#shape5"
+    ],
+    "h:j": [
+     "hj_ratios:11"
+    ],
+    "family": [
+     "pair_family:28"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:78#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:63"
+    ],
+    "moved": [
+     "links:63#shape4",
+     "links:63#shape5",
+     "links:63#shape5"
+    ],
+    "family": [
+     "pair_family:16"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:63#shape1"
+    ],
+    "family": [
+     "pair_family:17"
+    ]
+   }
+  }
+ ]
 }

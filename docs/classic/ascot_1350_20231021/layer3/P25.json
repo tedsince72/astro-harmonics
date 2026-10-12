@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "13 Magical Sunset / 13 Rossa Ryan",
  "workbook": "ascot_1350_20231021__P25.xlsx",
  "bodies": {
@@ -10183,5 +10183,67 @@
   "splits:79": "J Haumea -> J Eris Dec span 27.97543 = moved 7.00388 (7) + 20.97155  parts ['3', 0.1908] span/other ['4/3', 0.0478]",
   "splits:81": "J Haumea -> J Gonggong Dec span 38.39178 = moved 7.00388 (7) + 31.38790  parts ['9/2', 0.4111] span/other ['11/9', 0.075]",
   "splits:82": "J Haumea -> J Quaoar Dec span 36.02047 = moved 7.00388 (7) + 29.01659  parts ['29/7', 0.0018] span/other ['5/4', 0.69]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Juno\u2013Mercury",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:58"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:58#shape1"
+    ],
+    "family": [
+     "pair_family:73"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Venus",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:88"
+    ],
+    "family": [
+     "pair_family:84"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:88#shape1"
+    ],
+    "ratio J": [
+     "ratios:12"
+    ]
+   }
+  },
+  {
+   "pair": "Pallas\u2013Transpluto",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:115"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:115#shape1"
+    ],
+    "partner": [
+     "links:115#shape2"
+    ]
+   }
+  }
+ ]
 }

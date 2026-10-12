@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "6 Baileys Liberty / 6 Jason Hart",
  "workbook": "nottingham_1750_20220613__P11.xlsx",
  "bodies": {
@@ -11993,5 +11993,145 @@
   "splits:94": "J Gonggong -> J Sun Dec span 17.29753 = moved 7.99740 (8) + 9.30014  parts ['7/6', 0.3233] span/other ['13/7', 0.1497]",
   "splits:99": "J Gonggong -> J Juno Dec span 13.08376 = moved 7.99740 (8) + 5.08636  parts ['11/7', 0.0568] span/other ['18/7', 0.0347]",
   "splits:106": "J Gonggong -> J Orcus Dec span 20.44127 = moved 7.99740 (8) + 12.44387  parts ['14/9', 0.0279] span/other ['13/8', 1.0879]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Neptune\u2013Node",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:90"
+    ],
+    "moved": [
+     "links:90#shape5"
+    ],
+    "family": [
+     "pair_family:36",
+     "pair_family:96"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:90#shape1"
+    ],
+    "family": [
+     "pair_family:35"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:88"
+    ],
+    "same body": [
+     "same_body:1"
+    ],
+    "sky": [
+     "sky-gc 3.8429"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:88#shape1"
+    ],
+    "partner": [
+     "links:88#shape2"
+    ],
+    "family": [
+     "pair_family:12"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Pallas",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:78"
+    ],
+    "family": [
+     "pair_family:110"
+    ],
+    "same body": [
+     "same_body:0",
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:78#shape1"
+    ],
+    "family": [
+     "pair_family:44",
+     "pair_family:45",
+     "pair_family:111"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:89"
+    ],
+    "family": [
+     "pair_family:29"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:89#shape1"
+    ],
+    "partner": [
+     "links:89#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:0"
+    ],
+    "family": [
+     "pair_family:62"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:2"
+    ]
+   }
+  },
+  {
+   "pair": "Pallas\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "ratio J": [
+     "ratios:17"
+    ],
+    "family": [
+     "pair_family:113"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

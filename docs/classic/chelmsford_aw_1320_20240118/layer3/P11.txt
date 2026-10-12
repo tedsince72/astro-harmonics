@@ -1,4 +1,4 @@
-== 6 Foinix / 6 Dylan Hogan   [chelmsford_aw_1320_20240118__P11.xlsx, L3 v1.2 (12 Oct 2026)]
+== 6 Foinix / 6 Dylan Hogan   [chelmsford_aw_1320_20240118__P11.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): J Uranus, J Pluto, H Juno
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    J Uranus       BEPRSX  tight 6
@@ -741,6 +741,20 @@
         sky Ceres -> J Juno Flat 33.99840 = 34
         sky Sun -> J Eris GC 80.66652 = 726/9
         sky Ceres -> J Eris GC 115.00426 = 115
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Saturn–Uranus          4 kinds: cross, moved, family, same body   near: struck, ratio J
+        cross: cross H Saturn–J Uranus RA 0.5376 Dec 0.6303
+        moved: cross H Saturn–J Uranus RA 0.5376 Dec 0.6303
+        family: H Saturn–Uranus GC H Saturn – sky Uranus 115.3640 vs TT 74.1636 14/9 (0.0014%)
+        same body: same-body Uranus EqValue 13/9 : 13/7 : 9/7 (worst 0.0413%)
+   Pallas–Sedna           3 kinds: cross, moved, family   near: cross, struck, partner, family
+        cross: cross H Pallas–J Sedna RA 133.8706 Dec 0.0881
+        moved: cross H Pallas–J Sedna RA 133.8706 Dec 0.0881
+        family: J Pallas–Sedna Flat J Pallas – sky Sedna 33.7344 vs TT 177.1117 21/4 (0.0033%)
+   Orcus–Uranus           3 kinds: shared, family, same body   near: h:j
+        shared: shared Uranus–Orcus Dec H 23.1292 J 23.1798
+        family: J Uranus–Orcus Dec J Uranus – sky Orcus 8.9153 vs NN 23.1798 13/5 (0.0002%)
+        same body: same-body Uranus EqValue 13/9 : 13/7 : 9/7 (worst 0.0413%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Jupiter–Vesta: J J Jupiter–J Vesta Flat 133.00048 = 133
    recurring pair Neptune–Node: J J Neptune–J Ketu Dec 37.55566 = 338/9

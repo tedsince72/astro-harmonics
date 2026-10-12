@@ -1,4 +1,4 @@
-== 1 Aston Martini / 1 James Bowen   [sandown_1430_20240215__P01.xlsx, L3 v1.2 (12 Oct 2026)]
+== 1 Aston Martini / 1 James Bowen   [sandown_1430_20240215__P01.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): J Orcus, H Node
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    J Orcus        BMPRSX  tight 6
@@ -677,6 +677,24 @@
         sky Ceres on J Ceres RA 10.2561 Dec 0.5263 RETURN near
         sky Quaoar -> J Ketu Dec 7.55568 = 68/9
         sky Pluto on J Ketu RA 19.4958 Dec 0.0161
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Eris–Orcus             4 kinds: cross, moved, ratio J, same body   near: struck, family
+        cross: cross H Eris–J Orcus RA 112.7280 Dec 0.2722
+        moved: cross H Eris–J Orcus RA 112.7280 Dec 0.2722
+        ratio J: J Eris–Orcus GC sky 130.7965 natal 114.4435 8/7 (0.0030%)
+        same body: same-body Orcus Flat 7/2 : 9/2 : 9/7 (worst 0.0747%)
+   Mars–Pluto             3 kinds: cross, moved, sky   near: struck
+        cross: cross H Pluto–J Mars RA 42.6925 Dec 0.1945
+        moved: cross H Pluto–J Mars RA 42.6925 Dec 0.1945
+        sky: sky-gc 2.1227
+   Node–Uranus            3 kinds: set, h:j, same body   near: family
+        set: pair set Uranus–Rahu GC H 86.2710 J 140.1860
+        h:j: horse:jockey Uranus–Rahu GC H 86.2710 J 140.1860 13/8
+        same body: same-body Uranus Dec 4 : 5 : 5/4 (worst 0.0064%)
+   Neptune–Orcus          3 kinds: shared, family, same body
+        shared: shared Neptune–Orcus GC H 158.3433 J 158.5048
+        family: J Neptune–Orcus RA sky Neptune – J Orcus 141.5822 vs TT 161.8041 8/7 (0.0026%)
+        same body: same-body Orcus Flat 7/2 : 9/2 : 9/7 (worst 0.0747%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Neptune–Vesta: H H Neptune–H Vesta RA 1.4300 Dec 4.3107
    recurring pair Neptune–Vesta: J J Neptune–J Vesta Dec 13.44485 = 121/9

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "3 Dreams Unwind / 3 Joe Fanning",
  "workbook": "newcastle_aw_1220_20211112__P05.xlsx",
  "bodies": {
@@ -9817,5 +9817,75 @@
   "splits:106": "J Transpluto -> J Uranus Dec span 19.28226 = moved 5.99133 (6) + 13.29092  parts ['20/9', 0.1739] span/other ['13/9', 0.4389]",
   "splits:109": "J Transpluto -> J Ceres Dec span 14.42538 = moved 5.99133 (6) + 8.43405  parts ['7/5', 0.5505] span/other ['12/7', 0.2281]",
   "splits:117": "J Transpluto -> J Quaoar Dec span 25.20806 = moved 5.99133 (6) + 19.21673  parts ['16/5', 0.2319] span/other ['4/3', 1.6167]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Jupiter\u2013Pallas",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:73"
+    ],
+    "partner": [
+     "links:73#shape2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:73#shape1"
+    ],
+    "h:j": [
+     "hj_ratios:5"
+    ],
+    "family": [
+     "pair_family:14"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Transpluto",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:83"
+    ],
+    "moved": [
+     "links:83#shape5"
+    ]
+   },
+   "near": {
+    "cross": [
+     "links:110"
+    ],
+    "struck": [
+     "links:83#shape1",
+     "links:110#shape1"
+    ],
+    "partner": [
+     "links:83#shape2",
+     "links:110#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Ceres\u2013Chiron",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:66"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:66#shape1"
+    ],
+    "family": [
+     "pair_family:26"
+    ]
+   }
+  }
+ ]
 }

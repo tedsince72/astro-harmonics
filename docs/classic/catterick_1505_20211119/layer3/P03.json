@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Mance Rayder / 2 Jamie Hamilton",
  "workbook": "catterick_1505_20211119__P03.xlsx",
  "bodies": {
@@ -9728,5 +9728,71 @@
   "splits:37": "J Juno -> J Neptune RA span 91.12204 = moved 67.33297 (606/9) + 23.78908  parts ['17/6', 0.103] span/other ['23/6', 0.0761]",
   "splits:39": "J Juno -> J Eris RA span 178.98339 = moved 67.33297 (606/9) + 111.65042  parts ['5/3', 0.509] span/other ['8/5', 0.1918]",
   "splits:40": "J Juno -> J Gonggong RA span 127.12481 = moved 67.33297 (606/9) + 59.79184  parts ['9/8', 0.0998] span/other ['17/8', 0.0528]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Node\u2013Sedna",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:87"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "cross": [
+     "links:92"
+    ],
+    "struck": [
+     "links:87#shape1",
+     "links:92#shape1"
+    ],
+    "partner": [
+     "links:87#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Saturn",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:74"
+    ],
+    "h:j": [
+     "hj_ratios:8"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:74#shape1"
+    ],
+    "family": [
+     "pair_family:100"
+    ]
+   }
+  },
+  {
+   "pair": "Haumea\u2013Node",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:95"
+    ],
+    "moved": [
+     "links:95#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:95#shape1"
+    ],
+    "family": [
+     "pair_family:63"
+    ]
+   }
+  }
+ ]
 }

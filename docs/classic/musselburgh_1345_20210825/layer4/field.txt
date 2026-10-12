@@ -1,4 +1,4 @@
-== musselburgh_1345_20210825  field of 5   [L4 v1.1 (12 Oct 2026)]  (blind: no finishing positions)
+== musselburgh_1345_20210825  field of 5   [L4 v1.2 (12 Oct 2026, pair focus)]  (blind: no finishing positions)
 -- runners: P01 1 Major Snugfit / 1 Paul Mulrennan; P03 2 Inside Intel / 2 Jason Hart; P05 3 Yukon / 3 Daniel Tudhope; P07 4 Graces Quest / 4 Andrew Mullen; P09 5 Natural Value / 5 Joe Fanning
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              3/5: P01:1 P03:1 P09:1  |   5: P01:20 P03:15 P05:13 P07:21 P09:24
@@ -30,9 +30,15 @@
    [ broad:10] P01 1 Major Snugfit / 1 Paul Mulrennan: H Pallas -> H Neptune (split error 0.0009%)
    [ broad:11] P05 3 Yukon / 3 Daniel Tudhope: same body Sun (worst 0.0044%)
 -- field-only findings (shape numbers)
-   P01 1 Major Snugfit / 1 Paul Mulrennan: only (strict) -; only (broad) -; strict, shared with one other 4
+   P01 1 Major Snugfit / 1 Paul Mulrennan: only (strict) pair focus; only (broad) -; strict, shared with one other 4
    P03 2 Inside Intel / 2 Jason Hart: only (strict) 12,12m; only (broad) -; strict, shared with one other 7
    P07 4 Graces Quest / 4 Andrew Mullen: only (strict) -; only (broad) -; strict, shared with one other 4,7
+-- pair focus: each runner's most-lit pair (kinds of root item); field max 5 — P01
+   P01 1 Major Snugfit / 1 Paul Mulrennan       Ceres–Eris             5  cross, partner, moved, family, same body  <- most-lit pair in the field
+   P03 2 Inside Intel / 2 Jason Hart            Mars–Node              3  shared, cross, same body
+   P05 3 Yukon / 3 Daniel Tudhope               Saturn–Sun             3  cross, family, same body
+   P07 4 Graces Quest / 4 Andrew Mullen         Chiron–Pallas          4  cross, moved, family, same body
+   P09 5 Natural Value / 5 Joe Fanning          Node–Transpluto        3  cross, partner, ratio J
 -- strong hubs across the field
    J Uranus       2: P01 P03
    H Node         1: P01

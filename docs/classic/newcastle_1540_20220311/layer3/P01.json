@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "1 Vocaliser / 1 Fergus Gregory",
  "workbook": "newcastle_1540_20220311__P01.xlsx",
  "bodies": {
@@ -11915,5 +11915,174 @@
   "splits:35": "J Sedna -> H Haumea Dec span 14.03423 = moved 4.00909 (4) + 10.02514  parts ['5/2', 0.0241] span/other ['7/5', 0.0069]",
   "splits:37": "J Sedna -> H Transpluto Dec span 7.50285 = moved 4.00909 (4) + 3.49376  parts ['8/7', 0.4062] span/other ['15/7', 0.2166]",
   "splits:38": "J Sedna -> J Chiron Dec span 7.51330 = moved 4.00909 (4) + 3.50420  parts ['8/7', 0.107] span/other ['15/7', 0.0571]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Node\u2013Pluto",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:74"
+    ],
+    "moved": [
+     "links:74#shape5"
+    ],
+    "h:j": [
+     "hj_ratios:15"
+    ],
+    "family": [
+     "pair_family:122"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:74#shape1"
+    ],
+    "family": [
+     "pair_family:44",
+     "pair_family:123"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Vesta",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:61"
+    ],
+    "struck": [
+     "links:61#shape1"
+    ],
+    "partner": [
+     "links:61#shape2"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Gonggong\u2013Mercury",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:98"
+    ],
+    "same body": [
+     "same_body:3"
+    ],
+    "sky": [
+     "sky-gc 2.4477"
+    ]
+   },
+   "near": {
+    "cross": [
+     "links:53"
+    ],
+    "struck": [
+     "links:53#shape1",
+     "links:98#shape1"
+    ],
+    "partner": [
+     "links:98#shape2"
+    ],
+    "family": [
+     "pair_family:13"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Mercury",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:77"
+    ],
+    "moved": [
+     "links:77#shape5"
+    ],
+    "family": [
+     "pair_family:12"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:77#shape1"
+    ],
+    "partner": [
+     "links:77#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Gonggong\u2013Pallas",
+   "n": 3,
+   "kinds": {
+    "ratio J": [
+     "ratios:17"
+    ],
+    "h:j": [
+     "hj_ratios:18"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:138"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Transpluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:107"
+    ],
+    "struck": [
+     "links:107#shape1"
+    ],
+    "partner": [
+     "links:107#shape2"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Gonggong\u2013Transpluto",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:5"
+    ],
+    "family": [
+     "pair_family:74"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Transpluto\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:108"
+    ],
+    "struck": [
+     "links:108#shape1"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

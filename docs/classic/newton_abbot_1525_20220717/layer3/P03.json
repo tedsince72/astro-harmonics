@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 My Lady Grey / 2 Brendan Powell",
  "workbook": "newton_abbot_1525_20220717__P03.xlsx",
  "bodies": {
@@ -10330,5 +10330,68 @@
   "splits:86": "J Haumea -> J Rahu Dec span 36.94037 = moved 6.11066 (55/9) + 30.82970  parts ['5', 0.9046] span/other ['6/5', 0.1494]",
   "splits:91": "J Haumea -> J Quaoar Dec span 36.31840 = moved 6.11066 (55/9) + 30.20774  parts ['5', 1.1311] span/other ['6/5', 0.1907]",
   "splits:93": "J Haumea -> J Transpluto Dec span 8.26081 = moved 6.11066 (55/9) + 2.15015  parts ['17/6', 0.305] span/other ['23/6', 0.2255]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Haumea\u2013Makemake",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:93"
+    ],
+    "moved": [
+     "links:93#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:93#shape1"
+    ],
+    "partner": [
+     "links:93#shape2"
+    ],
+    "family": [
+     "pair_family:132"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Chiron",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:74"
+    ],
+    "moved": [
+     "links:74#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:74#shape1"
+    ],
+    "partner": [
+     "links:74#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Sun\u2013Transpluto",
+   "n": 2,
+   "kinds": {
+    "ratio J": [
+     "ratios:7"
+    ],
+    "family": [
+     "pair_family:59"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:4",
+     "pair_family:60"
+    ]
+   }
+  }
+ ]
 }

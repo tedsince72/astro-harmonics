@@ -14,6 +14,10 @@ C = [
  ('York 16:15: Venus–Uranus pair together in the sky in winner (P25) and True Promise (P11)', lambda: {'P25','P11'} <= {x['runner'] for s in F('york_1615_20240515')['same_across_field'] if s['shape']==3 and 'Venus' in s['key'] and 'Uranus' in s['key'] for x in s['runners']}),
  ('York 16:15: winner the only runner with both ends moved AND the sky pair together on the same cross link', lambda: sorted({i['runner'] for i in F('york_1615_20240515')['instances'] if i['shape']==3 and any(j['runner']==i['runner'] and j['shape']==4 and j['bodies'][:2]==i['bodies'][:2] for j in F('york_1615_20240515')['instances'])}) == ['P25']),
  ('York 16:15: winner\'s Venus–Uranus tighter than True Promise\'s', lambda: (lambda I: min(i['tight_value'] for i in I if i['runner']=='P25' and i['shape']==3) < min(i['tight_value'] for i in I if i['runner']=='P11' and i['shape']==3 and 'Venus' in i['key']))(F('york_1615_20240515')['instances'])),
+
+ ('Exeter: Forget You Not (P11) top pair Chiron–Juno, the most-lit pair in the field', lambda: F('exeter_1515_20211019')['pair_focus']['P11']['top']=='Chiron–Juno' and F('exeter_1515_20211019')['pair_focus']['P11']['most_lit_alone']),
+ ('York 16:15: Venus–Uranus among the winner\'s pairs with 3+ kinds', lambda: any(x['pair']=='Uranus–Venus' for x in json.load(open('docs/classic/york_1615_20240515/layer3/P25.json'))['pair_focus'])),
+ ('Newmarket July: Venus–Uranus among the winner\'s pairs with 3+ kinds', lambda: any(x['pair']=='Uranus–Venus' for x in json.load(open('docs/classic/newmarket_july_1745_20240816/layer3/P01.json'))['pair_focus'])),
 ]
 fails = 0
 for name, f in C:

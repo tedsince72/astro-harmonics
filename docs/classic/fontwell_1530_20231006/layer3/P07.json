@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Logistical / 4 Stan Sheppard",
  "workbook": "fontwell_1530_20231006__P07.xlsx",
  "bodies": {
@@ -10273,5 +10273,30 @@
   "splits:96": "J Quaoar -> J Neptune Dec span 5.95350 = moved 0.99535 (1) + 4.95815  parts ['5', 0.3739] span/other ['6/5', 0.0625]",
   "splits:97": "J Quaoar -> J Ceres Dec span 9.94344 = moved 0.99535 (1) + 8.94809  parts ['9', 0.1125] span/other ['10/9', 0.0113]",
   "splits:98": "J Quaoar -> J Gonggong Dec span 3.72998 = moved 0.99535 (1) + 2.73463  parts ['11/4', 0.0945] span/other ['11/8', 0.8014]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Mercury\u2013Transpluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:106"
+    ],
+    "ratio H": [
+     "ratios:1"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:106#shape1"
+    ],
+    "partner": [
+     "links:106#shape2"
+    ]
+   }
+  }
+ ]
 }

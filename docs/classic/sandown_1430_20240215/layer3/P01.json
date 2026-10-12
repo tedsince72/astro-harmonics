@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "1 Aston Martini / 1 James Bowen",
  "workbook": "sandown_1430_20240215__P01.xlsx",
  "bodies": {
@@ -10887,5 +10887,89 @@
   "splits:47": "J Orcus -> J Neptune RA span 171.90911 = moved 20.22186 (182/9) + 151.68725  parts ['15/2', 0.0154] span/other ['9/8', 0.7389]",
   "splits:51": "J Orcus -> J Pallas RA span 118.13103 = moved 20.22186 (182/9) + 97.90917  parts ['29/6', 0.1741] span/other ['6/5', 0.5447]",
   "splits:55": "J Orcus -> J Quaoar RA span 111.07448 = moved 20.22186 (182/9) + 90.85263  parts ['9/2', 0.1601] span/other ['11/9', 0.0292]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Eris\u2013Orcus",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:106"
+    ],
+    "moved": [
+     "links:106#shape5"
+    ],
+    "ratio J": [
+     "ratios:18"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:106#shape1"
+    ],
+    "family": [
+     "pair_family:136"
+    ]
+   }
+  },
+  {
+   "pair": "Mars\u2013Pluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:87"
+    ],
+    "moved": [
+     "links:87#shape5"
+    ],
+    "sky": [
+     "sky-gc 2.1227"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:87#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "set": [
+     "pair_sets:0"
+    ],
+    "h:j": [
+     "hj_ratios:6"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:36"
+    ]
+   }
+  },
+  {
+   "pair": "Neptune\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:4"
+    ],
+    "family": [
+     "pair_family:106"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

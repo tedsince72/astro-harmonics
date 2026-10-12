@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "1 Reve / 1 Sean Bowen",
  "workbook": "catterick_1505_20211119__P01.xlsx",
  "bodies": {
@@ -9992,5 +9992,113 @@
   "splits:71": "J Transpluto -> J Eris Dec span 20.78845 = moved 2.99159 (3) + 17.79686  parts ['6', 0.8507] span/other ['7/6', 0.1226]",
   "splits:72": "J Transpluto -> J Sedna Dec span 8.21645 = moved 2.99159 (3) + 5.22486  parts ['7/4', 0.1991] span/other ['11/7', 0.0726]",
   "splits:75": "J Transpluto -> J Orcus Dec span 13.11226 = moved 2.99159 (3) + 10.12067  parts ['27/8', 0.2382] span/other ['9/7', 0.7683]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Node\u2013Sun",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:48"
+    ],
+    "h:j": [
+     "hj_ratios:3"
+    ],
+    "family": [
+     "pair_family:4"
+    ],
+    "sky": [
+     "sky-gc 4.1972"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:48#shape1"
+    ],
+    "family": [
+     "pair_family:3",
+     "pair_family:83"
+    ]
+   }
+  },
+  {
+   "pair": "Eris\u2013Mars",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:55"
+    ],
+    "struck": [
+     "links:55#shape1"
+    ],
+    "partner": [
+     "links:55#shape2"
+    ],
+    "moved": [
+     "links:55#shape5"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Haumea\u2013Makemake",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:101"
+    ],
+    "struck": [
+     "links:101#shape1"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:153"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Quaoar",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:51"
+    ],
+    "moved": [
+     "links:51#shape5"
+    ],
+    "same body": [
+     "same_body:0",
+     "same_body:2",
+     "same_body:3"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:51#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Juno\u2013Quaoar",
+   "n": 3,
+   "kinds": {
+    "family": [
+     "pair_family:72",
+     "pair_family:146"
+    ],
+    "same body": [
+     "same_body:2",
+     "same_body:3"
+    ],
+    "sky": [
+     "sky-gc 3.5547"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "5 Wotever Next / 5 Joanna Mason",
  "workbook": "20220406_catterick_1440__P09.xlsx",
  "bodies": {
@@ -9487,5 +9487,117 @@
   "splits:37": "J Mercury -> H Transpluto Dec span 32.46459 = moved 28.99369 (29) + 3.47090  parts ['25/3', 0.2403] span/other ['28/3', 0.2146]",
   "splits:40": "J Mercury -> J Ceres Dec span 49.30664 = moved 28.99369 (29) + 20.31295  parts ['10/7', 0.0855] span/other ['17/7', 0.0503]",
   "splits:42": "J Mercury -> J Haumea Dec span 44.32039 = moved 28.99369 (29) + 15.32670  parts ['17/9', 0.1494] span/other ['26/9', 0.0977]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Mercury\u2013Node",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:96"
+    ],
+    "moved": [
+     "links:96#shape5"
+    ],
+    "family": [
+     "pair_family:70"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:96#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Eris",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:5"
+    ],
+    "family": [
+     "pair_family:111"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "h:j": [
+     "hj_ratios:9"
+    ],
+    "family": [
+     "pair_family:42"
+    ]
+   }
+  },
+  {
+   "pair": "Ceres\u2013Chiron",
+   "n": 3,
+   "kinds": {
+    "h:j": [
+     "hj_ratios:8"
+    ],
+    "family": [
+     "pair_family:108"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Chiron\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:85"
+    ],
+    "moved": [
+     "links:85#shape5"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Chiron\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:84"
+    ],
+    "moved": [
+     "links:84#shape5"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Node\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:7"
+    ],
+    "family": [
+     "pair_family:48"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

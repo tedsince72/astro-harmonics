@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Greengage / 4 Jason Hart",
  "workbook": "newcastle_aw_1220_20211112__P07.xlsx",
  "bodies": {
@@ -8036,5 +8036,62 @@
   "splits:7": "J Mars -> J Uranus Dec span 43.88750 = moved 35.77781 (322/9) + 8.10969  parts ['22/5', 0.2668] span/other ['27/5', 0.2174]",
   "splits:10": "J Mars -> J Rahu Dec span 38.33420 = moved 35.77781 (322/9) + 2.55639  parts ['14', 0.0324] span/other ['15', 0.0303]",
   "splits:26": "J Eris -> J Ketu RA span 20.04596 = moved 3.00059 (3) + 17.04538  parts ['17/3', 0.2474] span/other ['7/6', 0.803]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Jupiter\u2013Quaoar",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:87"
+    ],
+    "moved": [
+     "links:87#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:87#shape1"
+    ],
+    "partner": [
+     "links:87#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Mars\u2013Sedna",
+   "n": 2,
+   "kinds": {
+    "ratio H": [
+     "ratios:3"
+    ],
+    "family": [
+     "pair_family:73"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:18",
+     "pair_family:72"
+    ]
+   }
+  },
+  {
+   "pair": "Neptune\u2013Saturn",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:62"
+    ],
+    "partner": [
+     "links:62#shape2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:62#shape1"
+    ]
+   }
+  }
+ ]
 }

@@ -1,4 +1,4 @@
-== 7 Mill Stream / 7 William Buick   [ascot_1350_20231021__P13.xlsx, L3 v1.2 (12 Oct 2026)]
+== 7 Mill Stream / 7 William Buick   [ascot_1350_20231021__P13.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): H Mercury
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Mercury      MPRSX  tight 5
@@ -689,6 +689,31 @@
         sky Haumea on J Vesta RA 59.6627 Dec 0.0004
         sky Jupiter on J Transpluto RA 103.5480 Dec 0.4430 near
         sky Haumea on J Transpluto RA 74.3115 Dec 0.0573
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Haumea–Node            3 kinds: cross, struck, moved   near: ratio J, h:j
+        cross: cross H Rahu–J Haumea RA 92.1769 Dec 0.1823
+        struck: cross H Rahu–J Haumea RA 92.1769 Dec 0.1823
+        moved: cross H Rahu–J Haumea RA 92.1769 Dec 0.1823
+   Haumea–Venus           3 kinds: cross, moved, family   near: struck, family
+        cross: cross H Venus–J Haumea RA 130.3070 Dec 0.0588
+        moved: cross H Venus–J Haumea RA 130.3070 Dec 0.0588
+        family: H Venus–Haumea Dec H Venus – sky Haumea 8.7465 vs NN 6.8029 9/7 (0.0001%)
+   Node–Uranus            3 kinds: cross, partner, moved   near: struck, family
+        cross: cross H Ketu–J Uranus RA 4.8703 Dec 0.2271
+        partner: cross H Ketu–J Uranus RA 4.8703 Dec 0.2271
+        moved: cross H Ketu–J Uranus RA 4.8703 Dec 0.2271
+   Chiron–Mars            3 kinds: cross, partner, family   near: struck
+        cross: cross H Chiron–J Mars RA 1.3029 Dec 7.0688
+        partner: cross H Chiron–J Mars RA 1.3029 Dec 7.0688
+        family: H Mars–Chiron RA H Mars – sky Chiron 71.6465 vs TT 161.2040 9/4 (0.0004%)
+   Chiron–Node            3 kinds: cross, moved, family   near: struck
+        cross: cross H Rahu–J Chiron RA 0.4491 Dec 5.6873
+        moved: cross H Rahu–J Chiron RA 0.4491 Dec 5.6873
+        family: J Chiron–Ketu RA J Chiron – sky Ketu 109.6096 vs TT 172.2452 11/7 (0.0009%)
+   Mercury–Node           3 kinds: cross, moved, sky   near: struck
+        cross: cross H Mercury–J Rahu RA 1.2593 Dec 1.8454
+        moved: cross H Mercury–J Rahu RA 1.2593 Dec 1.8454; cross H Mercury–J Rahu RA 1.2593 Dec 1.8454
+        sky: sky-gc 3.9313
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Venus–Uranus: J J Venus–J Uranus RA 171.11090 = 1540/9
    recurring pair Saturn–Neptune: J J Saturn–J Neptune RA 12.0500 Dec 0.1448

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "9 Sandrine / 9 Oisin Murphy",
  "workbook": "ascot_1350_20231021__P17.xlsx",
  "bodies": {
@@ -11854,5 +11854,163 @@
   "splits:150": "J Orcus -> J Pluto RA span 103.91665 = moved 24.00853 (24) + 79.90812  parts ['10/3', 0.1503] span/other ['9/7', 1.1462]",
   "splits:151": "J Orcus -> J Chiron RA span 43.59736 = moved 24.00853 (24) + 19.58883  parts ['11/9', 0.2783] span/other ['20/9', 0.153]",
   "splits:156": "J Orcus -> J Haumea RA span 57.07245 = moved 24.00853 (24) + 33.06392  parts ['11/8', 0.1581] span/other ['12/7', 0.6906]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Neptune\u2013Node",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:111"
+    ],
+    "struck": [
+     "links:111#shape1"
+    ],
+    "moved": [
+     "links:111#shape5"
+    ],
+    "family": [
+     "pair_family:40"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:41",
+     "pair_family:42"
+    ]
+   }
+  },
+  {
+   "pair": "Neptune\u2013Pluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:85",
+     "links:89"
+    ],
+    "struck": [
+     "links:85#shape1"
+    ],
+    "moved": [
+     "links:85#shape4",
+     "links:85#shape5",
+     "links:85#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:89#shape1"
+    ],
+    "family": [
+     "pair_family:38"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:3"
+    ],
+    "cross": [
+     "links:82",
+     "links:110"
+    ],
+    "moved": [
+     "links:82#shape5",
+     "links:110#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:82#shape1",
+     "links:110#shape1"
+    ],
+    "family": [
+     "pair_family:35",
+     "pair_family:98",
+     "pair_family:99"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:109"
+    ],
+    "struck": [
+     "links:109#shape1"
+    ],
+    "moved": [
+     "links:109#shape5"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:27",
+     "pair_family:88"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Saturn",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:69"
+    ],
+    "struck": [
+     "links:69#shape1"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:6",
+     "pair_family:69"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "ratio J": [
+     "ratios:20"
+    ],
+    "set": [
+     "pair_sets:0"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:129"
+    ]
+   }
+  },
+  {
+   "pair": "Pallas\u2013Pluto",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:4"
+    ],
+    "family": [
+     "pair_family:108"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

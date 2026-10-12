@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 River Bray / 4 Alan Johns",
  "workbook": "wincanton_1420_20220321__P07.xlsx",
  "bodies": {
@@ -9933,5 +9933,71 @@
   "splits:18": "H Mercury -> J Gonggong Dec span 44.17617 = moved 30.00004 (30) + 14.17613  parts ['19/9', 0.2428] span/other ['28/9', 0.1647]",
   "splits:19": "H Mercury -> J Quaoar Dec span 37.05425 = moved 30.00004 (30) + 7.05421  parts ['17/4', 0.0655] span/other ['21/4', 0.053]",
   "splits:21": "J Ceres -> H Ceres Dec span 4.57150 = moved 1.11142 (10/9) + 3.46008  parts ['28/9', 0.0678] span/other ['4/3', 0.9092]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Neptune\u2013Pluto",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:89"
+    ],
+    "family": [
+     "pair_family:113"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:89#shape1"
+    ],
+    "partner": [
+     "links:89#shape2"
+    ],
+    "family": [
+     "pair_family:30",
+     "pair_family:112"
+    ]
+   }
+  },
+  {
+   "pair": "Haumea\u2013Mercury",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:106"
+    ],
+    "partner": [
+     "links:106#shape2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:106#shape1"
+    ],
+    "family": [
+     "pair_family:77"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Neptune",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:84"
+    ],
+    "sky": [
+     "sky-gc 3.9522"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:84#shape1"
+    ],
+    "family": [
+     "pair_family:13"
+    ]
+   }
+  }
+ ]
 }

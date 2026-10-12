@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "3 Red Giant / 3 Sean Quinlan",
  "workbook": "catterick_1505_20211119__P05.xlsx",
  "bodies": {
@@ -10210,5 +10210,101 @@
   "splits:66": "J Gonggong -> J Chiron RA span 91.24243 = moved 9.11055 (82/9) + 82.13188  parts ['9', 0.167] span/other ['10/9', 0.0167]",
   "splits:70": "J Gonggong -> J Eris RA span 54.09694 = moved 9.11055 (82/9) + 44.98639  parts ['5', 1.2433] span/other ['6/5', 0.2098]",
   "splits:71": "J Gonggong -> J Sedna RA span 71.86941 = moved 9.11055 (82/9) + 62.75886  parts ['7', 1.5915] span/other ['8/7', 0.2022]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Node\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:112"
+    ],
+    "same body": [
+     "same_body:0"
+    ],
+    "sky": [
+     "sky-gc 4.1972"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:112#shape1"
+    ],
+    "family": [
+     "pair_family:5"
+    ]
+   }
+  },
+  {
+   "pair": "Sun\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:75"
+    ],
+    "partner": [
+     "links:75#shape2"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:75#shape1"
+    ],
+    "family": [
+     "pair_family:77"
+    ]
+   }
+  },
+  {
+   "pair": "Eris\u2013Haumea",
+   "n": 3,
+   "kinds": {
+    "h:j": [
+     "hj_ratios:19"
+    ],
+    "family": [
+     "pair_family:66"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Eris\u2013Mars",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:121"
+    ],
+    "partner": [
+     "links:121#shape2"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Juno\u2013Node",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:6"
+    ],
+    "ratio J": [
+     "ratios:15"
+    ],
+    "h:j": [
+     "hj_ratios:15"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

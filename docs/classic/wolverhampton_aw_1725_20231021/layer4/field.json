@@ -1,6 +1,195 @@
 {
- "version": "L4 v1.1 (12 Oct 2026)",
+ "version": "L4 v1.2 (12 Oct 2026, pair focus)",
  "race": "wolverhampton_aw_1725_20231021",
+ "pair_focus": {
+  "P01": {
+   "top": "Juno\u2013Pallas",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "moved",
+    "ratio H",
+    "ratio J"
+   ],
+   "tied_pairs": [
+    "Juno\u2013Pallas"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P03": {
+   "top": "Jupiter\u2013Makemake",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "partner",
+    "h:j"
+   ],
+   "tied_pairs": [
+    "Jupiter\u2013Makemake"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P05": {
+   "top": "Neptune\u2013Pluto",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "partner",
+    "moved"
+   ],
+   "tied_pairs": [
+    "Neptune\u2013Pluto",
+    "Neptune\u2013Quaoar",
+    "Ceres\u2013Eris",
+    "Juno\u2013Mercury"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P07": {
+   "top": "Node\u2013Sun",
+   "n": 6,
+   "kinds": [
+    "shared",
+    "cross",
+    "moved",
+    "ratio J",
+    "set",
+    "sky"
+   ],
+   "tied_pairs": [
+    "Node\u2013Sun"
+   ],
+   "field_max": true,
+   "most_lit_alone": true,
+   "same_pair_elsewhere": {
+    "P19": 4
+   }
+  },
+  "P09": {
+   "top": "Jupiter\u2013Quaoar",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "partner",
+    "family"
+   ],
+   "tied_pairs": [
+    "Jupiter\u2013Quaoar"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P11": {
+   "top": "Pluto\u2013Saturn",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "family"
+   ],
+   "tied_pairs": [
+    "Pluto\u2013Saturn"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P13": {
+   "top": "Juno\u2013Pluto",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "family"
+   ],
+   "tied_pairs": [
+    "Juno\u2013Pluto"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P15": {
+   "top": "Gonggong\u2013Jupiter",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "family"
+   ],
+   "tied_pairs": [
+    "Gonggong\u2013Jupiter",
+    "Sedna\u2013Venus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  },
+  "P17": {
+   "top": "Node\u2013Vesta",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "partner",
+    "moved",
+    "family"
+   ],
+   "tied_pairs": [
+    "Node\u2013Vesta",
+    "Mercury\u2013Venus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {
+    "P19": 3
+   }
+  },
+  "P19": {
+   "top": "Node\u2013Sun",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "struck",
+    "same body",
+    "sky"
+   ],
+   "tied_pairs": [
+    "Node\u2013Sun"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {
+    "P07": 6
+   }
+  },
+  "P21": {
+   "top": "Transpluto\u2013Vesta",
+   "n": 4,
+   "kinds": [
+    "cross",
+    "struck",
+    "partner",
+    "same body"
+   ],
+   "tied_pairs": [
+    "Transpluto\u2013Vesta"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "same_pair_elsewhere": {}
+  }
+ },
+ "pair_focus_max": 6,
+ "pair_focus_leaders": [
+  "P07"
+ ],
  "runners": [
   {
    "P": "P01",
@@ -417,7 +606,9 @@
    "with_one_other_strict": []
   },
   "P07": {
-   "strict": [],
+   "strict": [
+    "pair focus"
+   ],
    "broad": [],
    "with_one_other_strict": []
   },

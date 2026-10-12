@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "3 Greaneteen / 3 Bryony Le Clerc",
  "workbook": "sandown_1425_20211204__P05.xlsx",
  "bodies": {
@@ -10868,5 +10868,29 @@
   "splits:35": "H Eris -> J Transpluto Dec span 16.99572 = moved 1.66728 (15/9) + 15.32844  parts ['28/3', 1.4966] span/other ['10/9', 0.2106]",
   "splits:48": "J Eris -> J Ketu RA span 10.42792 = moved 2.99319 (3) + 7.43473  parts ['5/2', 0.6447] span/other ['7/5', 0.1854]",
   "splits:49": "J Eris -> J Sedna RA span 21.25680 = moved 2.99319 (3) + 18.26361  parts ['6', 1.6953] span/other ['7/6', 0.2382]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Juno\u2013Mercury",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:72"
+    ],
+    "moved": [
+     "links:72#shape4",
+     "links:72#shape5",
+     "links:72#shape5"
+    ],
+    "family": [
+     "pair_family:9"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:72#shape1"
+    ]
+   }
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "3 Blue Prince / 3 Richard Kingscote",
  "workbook": "york_1615_20240515__P05.xlsx",
  "bodies": {
@@ -9294,5 +9294,60 @@
   "splits:24": "H Mars -> J Eris Dec span 29.39809 = moved 16.00908 (16) + 13.38902  parts ['6/5', 0.3594] span/other ['11/5', 0.196]",
   "splits:27": "H Ceres -> J Mars Dec span 20.25073 = moved 17.00490 (17) + 3.24583  parts ['21/4', 0.2095] span/other ['25/4', 0.176]",
   "splits:33": "J Uranus -> J Makemake Dec span 59.64394 = moved 41.33331 (372/9) + 18.31063  parts ['9/4', 0.3262] span/other ['13/4', 0.2258]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Sun\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "family": [
+     "pair_family:49"
+    ],
+    "same body": [
+     "same_body:0"
+    ],
+    "sky": [
+     "sky-gc 2.0565"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:1"
+    ]
+   }
+  },
+  {
+   "pair": "Gonggong\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:48"
+    ],
+    "partner": [
+     "links:48#shape2"
+    ],
+    "same body": [
+     "same_body:5",
+     "same_body:0"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Saturn\u2013Saturn",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:54"
+    ],
+    "struck": [
+     "links:54#shape1"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

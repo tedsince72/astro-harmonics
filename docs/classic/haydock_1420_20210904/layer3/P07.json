@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "5 Praiano / 5 Andrea Atzeni",
  "workbook": "20210904_haydock_1420__P07.xlsx",
  "bodies": {
@@ -9306,6 +9306,11 @@
    "item": "ratios:14",
    "note": "recurring pair Saturn\u2013Neptune",
    "what": "J Saturn\u2013Neptune GC sky 44.1163 natal 18.1656 17/7 (0.0007%)"
+  },
+  {
+   "item": "same_body:0",
+   "note": "same-body Dec 9/4 : 5/4 : 9/5 on Mars",
+   "what": "same-body Mars Dec 9/5 : 5/4 : 9/4 (worst 0.1281%)"
   }
  ],
  "desc": {
@@ -9736,5 +9741,27 @@
   "splits:27": "J Mercury -> J Saturn Dec span 30.71151 = moved 15.33248 (138/9) + 15.37903  parts None span/other ['2', 0.1514]",
   "splits:28": "J Mercury -> J Uranus Dec span 34.49086 = moved 15.33248 (138/9) + 19.15838  parts ['5/4', 0.0377] span/other ['9/5', 0.0168]",
   "splits:32": "J Mercury -> J Eris Dec span 20.44305 = moved 15.33248 (138/9) + 5.11057  parts ['3', 0.0049] span/other ['4', 0.0037]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Sedna\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:53"
+    ],
+    "partner": [
+     "links:53#shape2"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:53#shape1"
+    ]
+   }
+  }
+ ]
 }

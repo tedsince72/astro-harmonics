@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Top Ville Ben / 4 Thomas Dowson",
  "workbook": "haydock_1405_20220219__P07.xlsx",
  "bodies": {
@@ -10481,5 +10481,51 @@
   "splits:31": "H Pluto -> H Sedna RA span 133.85159 = moved 20.11032 (181/9) + 113.74126  parts ['17/3', 0.1906] span/other ['7/6', 0.8692]",
   "splits:32": "H Pluto -> H Gonggong RA span 55.84951 = moved 20.11032 (181/9) + 35.73918  parts ['16/9', 0.035] span/other ['14/9', 0.4591]",
   "splits:41": "H Pluto -> J Sedna RA span 124.74560 = moved 20.11032 (181/9) + 104.63527  parts ['26/5', 0.0589] span/other ['6/5', 0.6505]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Node\u2013Pluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:80"
+    ],
+    "partner": [
+     "links:80#shape2"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:80#shape1"
+    ],
+    "family": [
+     "pair_family:52",
+     "pair_family:132"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Node",
+   "n": 3,
+   "kinds": {
+    "ratio J": [
+     "ratios:12"
+    ],
+    "family": [
+     "pair_family:135"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:55"
+    ]
+   }
+  }
+ ]
 }

@@ -1,4 +1,4 @@
-# catterick_1440_20220406 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# catterick_1440_20220406 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Tea Garden / 1 Connor Beasley**

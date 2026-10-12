@@ -1,11 +1,11 @@
-# newbury_1350_20211126 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# newbury_1350_20211126 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Solo / 1 Harry Cobden**
 - Shared with one other runner (P05), strict: triangle struck at every corner by one sky body — horse Mercury–horse Vesta GC 80.33343 = 723/9; horse Mercury–Cobden Venus Dec 5.00303 = 5; horse Vesta–Cobden Venus RA 158.99919 = 159
 
 **P03 2 Mister Coffey / 2 James Bowen**
-- Nothing that no other runner has.
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Saturn–Sedna, 5 kinds: cross, struck, partner, moved, family; not lit in any other runner
 
 **P05 4 Fifty Ball / 4 Jamie Moore**
 - **Only runner in the field (strict): both ends of the cross link have moved** — horse Neptune–Moore Pallas RA 14.2548 Dec 0.1407; horse Neptune moved GC 11.00285 = 11; Moore Pallas moved Dec 3.11013 = 28/9  _(rests on 3 independent facts)_

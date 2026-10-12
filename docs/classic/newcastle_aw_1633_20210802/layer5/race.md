@@ -1,4 +1,4 @@
-# newcastle_aw_1633_20210802 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# newcastle_aw_1633_20210802 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Dubai Souq / 1 Sean Kirrane**
@@ -13,6 +13,7 @@
 
 **P07 4 Beating All / 4 Ben Curtis**
 - **Only runner in the field (strict): the pair is together in the sky** — horse Transpluto–Curtis Mars RA 0.5010 Dec 0.9833  _(rests on 1 independent facts)_
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Chiron–Node, 5 kinds: shared, cross, struck, ratio H, family; not lit in any other runner
 - Shared with one other runner (P11), strict: cross link struck on both ends — horse Ceres–Curtis Orcus RA 1.4896 Dec 27.5445; sky Juno -> horse Ceres GC 116.99848 = 117; sky Sedna -> horse Ceres GC 69.77808 = 628/9
 - Shared with one other runner (P03), strict: triangle struck at every corner by one sky body — horse Mercury–horse Uranus Dec 3.11136 = 28/9; horse Mercury–Curtis Neptune Dec 28.66628 = 258/9; horse Uranus–Curtis Neptune Dec 31.77764 = 286/9
 

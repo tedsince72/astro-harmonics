@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "5 Glory Hallelujah / 5 Rowan Scott",
  "workbook": "nottingham_1750_20220613__P09.xlsx",
  "bodies": {
@@ -11498,5 +11498,83 @@
   "splits:117": "J Neptune -> J Ketu RA span 83.17160 = moved 59.00305 (59) + 24.16855  parts ['22/9', 0.128] span/other ['24/7', 0.3717]",
   "splits:118": "J Neptune -> J Eris RA span 85.60965 = moved 59.00305 (59) + 26.60660  parts ['20/9', 0.2076] span/other ['29/9', 0.1431]",
   "splits:119": "J Neptune -> J Sedna RA span 107.37926 = moved 59.00305 (59) + 48.37622  parts ['11/9', 0.2088] span/other ['20/9', 0.1148]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Mars\u2013Node",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:92"
+    ],
+    "partner": [
+     "links:92#shape2"
+    ],
+    "moved": [
+     "links:92#shape5"
+    ],
+    "family": [
+     "pair_family:22"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:92#shape1"
+    ],
+    "family": [
+     "pair_family:21"
+    ]
+   }
+  },
+  {
+   "pair": "Neptune\u2013Node",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:94"
+    ],
+    "struck": [
+     "links:94#shape1"
+    ],
+    "moved": [
+     "links:94#shape4",
+     "links:94#shape5",
+     "links:94#shape5"
+    ],
+    "ratio J": [
+     "ratios:17"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:112"
+    ]
+   }
+  },
+  {
+   "pair": "Saturn\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:59",
+     "links:69"
+    ],
+    "struck": [
+     "links:59#shape1"
+    ],
+    "moved": [
+     "links:59#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:69#shape1"
+    ],
+    "family": [
+     "pair_family:2",
+     "pair_family:3"
+    ]
+   }
+  }
+ ]
 }

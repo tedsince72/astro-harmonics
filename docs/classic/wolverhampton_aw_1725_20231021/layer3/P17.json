@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "9 Sea Of Angels / 9 Marco Ghiani",
  "workbook": "wolverhampton_aw_1725_20231021__P17.xlsx",
  "bodies": {
@@ -12688,5 +12688,165 @@
   "splits:54": "J Saturn -> J Mars RA span 174.04820 = moved 54.00569 (54) + 120.04251  parts ['20/9', 0.0249] span/other ['13/9', 0.3769]",
   "splits:55": "J Saturn -> J Uranus RA span 71.31366 = moved 54.00569 (54) + 17.30797  parts ['25/8', 0.1511] span/other ['29/7', 0.545]",
   "splits:60": "J Saturn -> J Ketu RA span 62.52886 = moved 54.00569 (54) + 8.52317  parts ['19/3', 0.0474] span/other ['22/3', 0.041]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Node\u2013Vesta",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:112"
+    ],
+    "partner": [
+     "links:112#shape2"
+    ],
+    "moved": [
+     "links:112#shape5"
+    ],
+    "family": [
+     "pair_family:43"
+    ]
+   },
+   "near": {
+    "cross": [
+     "links:109"
+    ],
+    "struck": [
+     "links:109#shape1",
+     "links:112#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Venus",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:69"
+    ],
+    "moved": [
+     "links:69#shape5"
+    ],
+    "family": [
+     "pair_family:4"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:69#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Ceres\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:95"
+    ],
+    "moved": [
+     "links:95#shape5"
+    ],
+    "same body": [
+     "same_body:1",
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:95#shape1"
+    ],
+    "family": [
+     "pair_family:68"
+    ]
+   }
+  },
+  {
+   "pair": "Eris\u2013Saturn",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:116"
+    ],
+    "moved": [
+     "links:116#shape5"
+    ],
+    "same body": [
+     "same_body:3",
+     "same_body:4"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:116#shape1"
+    ],
+    "partner": [
+     "links:116#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:93"
+    ],
+    "moved": [
+     "links:93#shape5"
+    ],
+    "same body": [
+     "same_body:5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:93#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:67"
+    ],
+    "same body": [
+     "same_body:0"
+    ],
+    "sky": [
+     "sky-gc 4.1743"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:67#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "ratio H": [
+     "ratios:6"
+    ],
+    "ratio J": [
+     "ratios:14"
+    ],
+    "same body": [
+     "same_body:5"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:116"
+    ]
+   }
+  }
+ ]
 }

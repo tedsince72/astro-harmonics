@@ -1,4 +1,4 @@
-# sandown_1430_20240215 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# sandown_1430_20240215 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Aston Martini / 1 James Bowen**

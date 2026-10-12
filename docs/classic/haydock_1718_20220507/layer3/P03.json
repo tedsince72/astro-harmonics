@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Mystery Fox / 2 David Egan",
  "workbook": "haydock_1718_20220507__P03.xlsx",
  "bodies": {
@@ -10898,5 +10898,31 @@
   "splits:102": "J Quaoar -> H Ketu Dec span 6.62864 = moved 0.66595 (6/9) + 5.96269  parts ['9', 0.5144] span/other ['10/9', 0.0517]",
   "splits:104": "J Quaoar -> J Neptune Dec span 4.49827 = moved 0.66595 (6/9) + 3.83232  parts ['23/4', 0.0817] span/other ['7/6', 0.6089]",
   "splits:106": "J Quaoar -> J Ketu Dec span 2.12881 = moved 0.66595 (6/9) + 1.46286  parts ['11/5', 0.1515] span/other ['13/9', 0.747]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Mars\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:0",
+     "shared:1"
+    ],
+    "ratio J": [
+     "ratios:13"
+    ],
+    "family": [
+     "pair_family:60"
+    ]
+   },
+   "near": {
+    "cross": [
+     "links:57"
+    ],
+    "struck": [
+     "links:57#shape1"
+    ]
+   }
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "6 Roker Roar / 6 Callum Hutchinson",
  "workbook": "20261010_southwell_aw_2000__P09.xlsx",
  "bodies": {
@@ -10024,5 +10024,80 @@
   "splits:92": "J Eris -> J Pallas Dec span 19.17654 = moved 5.99770 (6) + 13.17883  parts ['11/5', 0.1221] span/other ['13/9', 0.7378]",
   "splits:95": "J Eris -> J Rahu Dec span 28.96372 = moved 5.99770 (6) + 22.96601  parts ['23/6', 0.1096] span/other ['5/4', 0.8925]",
   "splits:98": "J Eris -> J Makemake Dec span 38.00799 = moved 5.99770 (6) + 32.01029  parts ['16/3', 0.0704] span/other ['6/5', 1.0527]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Juno\u2013Node",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:91"
+    ],
+    "partner": [
+     "links:91#shape2"
+    ],
+    "moved": [
+     "links:91#shape5"
+    ],
+    "family": [
+     "pair_family:46"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:91#shape1"
+    ],
+    "family": [
+     "pair_family:102"
+    ]
+   }
+  },
+  {
+   "pair": "Haumea\u2013Makemake",
+   "n": 4,
+   "kinds": {
+    "shared": [
+     "shared:3"
+    ],
+    "cross": [
+     "links:103"
+    ],
+    "moved": [
+     "links:103#shape5"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:103#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:93"
+    ],
+    "moved": [
+     "links:93#shape5"
+    ],
+    "h:j": [
+     "hj_ratios:5",
+     "hj_ratios:6"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:93#shape1"
+    ],
+    "family": [
+     "pair_family:85"
+    ]
+   }
+  }
+ ]
 }

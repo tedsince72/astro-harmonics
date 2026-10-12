@@ -1,4 +1,4 @@
-== 7 Not Available / 7 Stan Sheppard   [newbury_1350_20211126__P09.xlsx, L3 v1.2 (12 Oct 2026)]
+== 7 Not Available / 7 Stan Sheppard   [newbury_1350_20211126__P09.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): H Haumea, J Haumea
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Haumea       BPRSX  tight 5
@@ -644,6 +644,23 @@
         sky Vesta on J Pluto RA 0.3040 Dec 9.4244
         sky Sun on J Quaoar RA 0.0281 Dec 6.6594
         sky Vesta on J Quaoar RA 1.4702 Dec 3.8214
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Haumea–Pallas          3 kinds: cross, ratio J, same body   near: struck, ratio H
+        cross: cross H Pallas–J Haumea RA 75.9155 Dec 0.2215
+        ratio J: J Pallas–Haumea Dec sky 26.9616 natal 10.5498 23/9 (0.0033%)
+        same body: same-body Haumea RA 5/2 : 7/2 : 7/5 (worst 0.1249%)
+   Mercury–Vesta          3 kinds: family, same body, sky   near: h:j, family
+        family: J Mercury–Vesta Dec J Mercury – sky Vesta 27.8095 vs NN 7.9457 7/2 (0.0019%)
+        same body: same-body Vesta RA 7/3 : 10/7 : 10/3 (worst 0.0245%)
+        sky: sky-gc 4.2028
+   Haumea–Node            3 kinds: shared, family, same body   near: family
+        shared: shared Ketu–Haumea Flat H 159.2579 J 158.7624
+        family: J Ketu–Haumea GC J Ketu – sky Haumea 133.3228 vs TT 41.6626 16/5 (0.0018%)
+        same body: same-body Haumea RA 5/2 : 7/2 : 7/5 (worst 0.1249%)
+   Sun–Vesta              3 kinds: family, same body, sky   near: family
+        family: J Sun–Vesta Flat sky Sun – J Vesta 152.2169 vs NN 137.0014 10/9 (0.0045%)
+        same body: same-body Vesta RA 7/3 : 10/7 : 10/3 (worst 0.0245%)
+        sky: sky-gc 3.1697
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Neptune–Vesta: H H Neptune–H Vesta RA 7.0393 Dec 0.5143
    recurring pair Saturn–Neptune: J J Saturn–J Neptune Dec 25.22212 = 227/9

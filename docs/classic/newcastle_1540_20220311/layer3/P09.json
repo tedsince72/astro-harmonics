@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "6 Thundersockssundae / 6 Kielan Woods",
  "workbook": "newcastle_1540_20220311__P09.xlsx",
  "bodies": {
@@ -10671,5 +10671,71 @@
   "splits:85": "J Eris -> J Haumea Dec span 30.78149 = moved 7.66666 (69/9) + 23.11483  parts ['3', 0.4994] span/other ['4/3', 0.1242]",
   "splits:86": "J Eris -> J Makemake Dec span 42.98563 = moved 7.66666 (69/9) + 35.31897  parts ['23/5', 0.1484] span/other ['11/9', 0.4216]",
   "splits:87": "J Eris -> J Orcus Dec span 11.24416 = moved 7.66666 (69/9) + 3.57750  parts ['15/7', 0.0078] span/other ['22/7', 0.0053]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Pallas\u2013Pallas",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:64"
+    ],
+    "struck": [
+     "links:64#shape1"
+    ],
+    "partner": [
+     "links:64#shape2"
+    ],
+    "moved": [
+     "links:64#shape5"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Haumea\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:74"
+    ],
+    "partner": [
+     "links:74#shape2"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:74#shape1"
+    ],
+    "ratio H": [
+     "ratios:7"
+    ]
+   }
+  },
+  {
+   "pair": "Pluto\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:56"
+    ],
+    "partner": [
+     "links:56#shape2"
+    ],
+    "moved": [
+     "links:56#shape4",
+     "links:56#shape5",
+     "links:56#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:56#shape1"
+    ]
+   }
+  }
+ ]
 }

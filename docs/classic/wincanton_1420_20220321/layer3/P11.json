@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "6 Electric Annie / 6 Nick Scholfield",
  "workbook": "wincanton_1420_20220321__P11.xlsx",
  "bodies": {
@@ -8991,5 +8991,86 @@
   "splits:30": "H Pluto -> J Mercury RA span 145.38496 = moved 14.22268 (128/9) + 131.16228  parts ['28/3', 1.1923] span/other ['10/9', 0.2408]",
   "splits:34": "H Pluto -> J Pallas RA span 84.87348 = moved 14.22268 (128/9) + 70.65080  parts ['5', 0.6505] span/other ['6/5', 0.1091]",
   "splits:36": "H Pluto -> J Eris RA span 96.60365 = moved 14.22268 (128/9) + 82.38097  parts ['29/5', 0.1341] span/other ['7/6', 0.5124]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Pallas\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:67"
+    ],
+    "family": [
+     "pair_family:5"
+    ],
+    "same body": [
+     "same_body:1",
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:67#shape1"
+    ],
+    "family": [
+     "pair_family:4"
+    ]
+   }
+  },
+  {
+   "pair": "Pallas\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "h:j": [
+     "hj_ratios:2"
+    ],
+    "family": [
+     "pair_family:70"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "ratio H": [
+     "ratios:2"
+    ],
+    "family": [
+     "pair_family:69"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "h:j": [
+     "hj_ratios:0"
+    ],
+    "family": [
+     "pair_family:2"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {}
+  },
+  {
+   "pair": "Pallas\u2013Pluto",
+   "n": 3,
+   "kinds": {
+    "set": [
+     "pair_sets:0"
+    ],
+    "h:j": [
+     "hj_ratios:8"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Gold Terms / 2 Oliver Stammers",
  "workbook": "newcastle_aw_1540_20211112__P03.xlsx",
  "bodies": {
@@ -10977,5 +10977,73 @@
   "splits:74": "J Neptune -> J Rahu Dec span 41.22303 = moved 13.00304 (13) + 28.21998  parts ['13/6', 0.1658] span/other ['13/9', 1.1305]",
   "splits:77": "J Neptune -> J Makemake Dec span 50.15755 = moved 13.00304 (13) + 37.15451  parts ['20/7', 0.0079] span/other ['4/3', 1.2479]",
   "splits:78": "J Neptune -> J Orcus Dec span 16.59797 = moved 13.00304 (13) + 3.59493  parts ['29/8', 0.2192] span/other ['23/5', 0.3707]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Sedna\u2013Venus",
+   "n": 2,
+   "kinds": {
+    "ratio J": [
+     "ratios:12"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "cross": [
+     "links:82"
+    ],
+    "struck": [
+     "links:82#shape1"
+    ],
+    "partner": [
+     "links:82#shape2"
+    ],
+    "family": [
+     "pair_family:74"
+    ]
+   }
+  },
+  {
+   "pair": "Gonggong\u2013Pluto",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:91"
+    ],
+    "moved": [
+     "links:91#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:91#shape1"
+    ],
+    "partner": [
+     "links:91#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Neptune\u2013Node",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:79"
+    ],
+    "moved": [
+     "links:79#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:79#shape1"
+    ],
+    "h:j": [
+     "hj_ratios:7"
+    ]
+   }
+  }
+ ]
 }

@@ -12,7 +12,7 @@ written to a separate file.
   6 recurring annotations by runner
 Output: docs/classic/<RACE>/layer4/field.json, field.txt (blind); field_results.txt with --results."""
 import sys, os, glob, json, csv, re
-VERSION = 'L4 v1.1 (12 Oct 2026)'
+VERSION = 'L4 v1.2 (12 Oct 2026, pair focus)'
 NAMES = {1: 'cross link struck on both ends', 2: 'partner strike', 3: 'pair together in the sky', 4: 'both ends moved',
          5: 'movement onto a cross link', 6: 'swap', 7: 'triangle struck at every corner', 8: 'same number / ratio in both charts',
          9: 'shared node', 10: 'sky body divides a natal pair', 11: 'joined same-body set', 12: 'pair in one chart struck on both ends by 2+'}
@@ -102,7 +102,26 @@ def run(race):
     ann = {}
     for t, R, I in runners:
         for a in R['annotations']: ann.setdefault(a['note'], set()).add(t)
-    return {'version': VERSION, 'race': race, 'runners': [{'P': t, 'name': R['runner']} for t, R, I in runners],
+    # pair focus across the field
+    pf = {}
+    for t, R, I in runners:
+        top = R.get('pair_focus', [])
+        best = top[0] if top else None
+        pf[t] = {'top': best['pair'] if best else None, 'n': best['n'] if best else 0, 'kinds': list(best['kinds']) if best else [],
+                 'tied_pairs': [x['pair'] for x in top if best and x['n'] == best['n']]}
+    mx = max((v['n'] for v in pf.values()), default=0)
+    leaders = [t for t, v in pf.items() if v['n'] == mx and mx > 0]
+    for t, v in pf.items():
+        v['field_max'] = (t in leaders); v['most_lit_alone'] = (leaders == [t])
+        # how lit is this runner's top pair in the other runners
+        v['same_pair_elsewhere'] = {}
+        for t2, R2, I2 in runners:
+            if t2 == t or not v['top']: continue
+            m = [x for x in R2.get('pair_focus', []) if x['pair'] == v['top']]
+            if m: v['same_pair_elsewhere'][t2] = m[0]['n']
+    if len(leaders) == 1:
+        only[leaders[0]]['strict'].append('pair focus')
+    return {'version': VERSION, 'race': race, 'pair_focus': pf, 'pair_focus_max': mx, 'pair_focus_leaders': leaders, 'runners': [{'P': t, 'name': R['runner']} for t, R, I in runners],
             'table': {lvl: {str(k): v for k, v in d.items()} for lvl, d in table.items()}, 'tightest': {str(k): v for k, v in tightest.items()},
             'only': only, 'strong_hubs': hubs, 'same_across_field': same_out, 'annotations': {k: sorted(v) for k, v in ann.items()},
             'instances': inst}
@@ -122,6 +141,10 @@ def text(F):
         o = F['only'][r['P']]
         if o['strict'] or o['broad'] or o['with_one_other_strict']:
             L.append(f"   {r['P']} {r['name']}: only (strict) {','.join(o['strict']) or '-'}; only (broad) {','.join(o['broad']) or '-'}; strict, shared with one other {','.join(o['with_one_other_strict']) or '-'}")
+    L.append(f"-- pair focus: each runner's most-lit pair (kinds of root item); field max {F['pair_focus_max']} — {', '.join(F['pair_focus_leaders'])}")
+    for r in F['runners']:
+        v = F['pair_focus'][r['P']]
+        L.append(f"   {r['P']} {r['name'][:40]:40s} {v['top'] or '-':22s} {v['n']}  {', '.join(v['kinds'])}" + ('  <- most-lit pair in the field' if v['most_lit_alone'] else '  (tie)' if v['field_max'] else ''))
     L.append('-- strong hubs across the field')
     for h, ws in sorted(F['strong_hubs'].items(), key=lambda x: -len(x[1])): L.append(f"   {h:14s} {len(ws)}: {' '.join(ws)}")
     L.append('-- same pair / body across the field (2+ runners)')

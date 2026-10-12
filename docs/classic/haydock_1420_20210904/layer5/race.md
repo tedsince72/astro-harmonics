@@ -1,4 +1,4 @@
-# haydock_1420_20210904 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# haydock_1420_20210904 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Roseabad / 1 Richard Kingscote**
@@ -22,6 +22,7 @@
 **P11 8 Tynwald / 8 Daniel Tudhope**
 - **Only runner in the field (strict): both ends of the cross link have moved** — horse Mars–Tudhope Neptune RA 18.5274 Dec 0.0855; horse Mars moved GC 82.55642 = 743/9; Tudhope Neptune moved Dec 18.00230 = 18  _(rests on 3 independent facts)_
 - **Only runner in the field (strict): swap** — horse Mars–Tudhope Neptune RA 18.5274 Dec 0.0855; horse Neptune–Tudhope Mars RA 144.1871 Dec 0.0825  _(rests on 2 independent facts)_
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Uranus–Vesta, 4 kinds: cross, partner, moved, same body; not lit in any other runner
 
 ## Tightest instance of each shape in the field
 - cross link struck on both ends (strict): P09 7 Contact / 7 Ray Dawson — horse Uranus – jockey Juno (RA 127.3561 Dec 0.0704)

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 New York Bay / 4 Finley Marsh",
  "workbook": "chelmsford_aw_1320_20240118__P07.xlsx",
  "bodies": {
@@ -9326,5 +9326,52 @@
   "hj_ratios:16": "horse:jockey Rahu\u2013Sedna GC H 37.3680 J 97.1686 13/5 near",
   "hj_ratios:17": "horse:jockey Ketu\u2013Sedna RA H 144.4944 J 81.2908 16/9 near",
   "hj_ratios:18": "horse:jockey Haumea\u2013Transpluto RA H 61.5363 J 49.2372 5/4 near"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Ceres\u2013Node",
+   "n": 5,
+   "kinds": {
+    "cross": [
+     "links:80"
+    ],
+    "partner": [
+     "links:80#shape2"
+    ],
+    "moved": [
+     "links:80#shape5"
+    ],
+    "ratio H": [
+     "ratios:1"
+    ],
+    "family": [
+     "pair_family:38"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:80#shape1"
+    ],
+    "family": [
+     "pair_family:37"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Jupiter",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:76"
+    ],
+    "struck": [
+     "links:76#shape1"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

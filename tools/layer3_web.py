@@ -11,7 +11,7 @@ Reads docs/classic/<RACE>/layer1/P*.json and layer2/P*.json. Describes, does not
 Rahu and Ketu are folded into one 'Node' per chart for hubs and webs (items keep their own names).
 Output: docs/classic/<RACE>/layer3/P*.json, P*.txt"""
 import sys, os, glob, json, math, itertools
-VERSION = 'L3 v1.2 (12 Oct 2026)'
+VERSION = 'L3 v1.3 (12 Oct 2026, pair focus)'
 SPLIT_TOL = 0.25      # % for shape 10
 SKY_PAIR_GC = 5.0     # shape 3
 NODE_SHARED = 3.0     # shape 9
@@ -293,8 +293,57 @@ def run(I, T):
     for i, r in enumerate(I['ratios']):
         if usable(f'ratios:{i}') and {fold(x) for x in r['pair'].split('–')} in RECUR_PAIRS:
             ann.append({'item': f'ratios:{i}', 'note': f"recurring pair {r['pair']}", 'what': desc.get(f'ratios:{i}', r['pair'])})
+    for i, sb in enumerate(I['same_body']):   # annotation: the Dec 9/4 : 5/4 : 9/5 same-body split (York node, Newmarket July / Exeter Chiron)
+        if is_root(f'same_body:{i}') and sb['plane'] == 'Dec' and sorted(sb['ratios']) == ['5/4', '9/4', '9/5']:
+            ann.append({'item': f'same_body:{i}', 'note': f"same-body Dec 9/4 : 5/4 : 9/5 on {fold(sb['body'])}", 'what': desc.get(f'same_body:{i}', '')})
+
+    # ---------- pair focus (pair_focus_design.md): kinds of root item landing on one pair {A, B} ----------
+    PF = {}
+    def pk(a, b): return tuple(sorted((fold(a), fold(b))))
+    def put(key, kind, iid, near=False):
+        e = PF.setdefault(key, {'kinds': {}, 'near': {}})
+        (e['near'] if near else e['kinds']).setdefault(kind, []).append(iid)
+    for i, x in enumerate(I['shared']):
+        if is_root(f'shared:{i}'): put(pk(*x['pair'].split('–')), 'shared', f'shared:{i}')
+    for iid, a, b, kind, cn, lab in links:
+        if kind == 'cross' and cn in ('close', 'near') and is_root(iid):
+            put(pk(a.split(' ', 1)[1], b.split(' ', 1)[1]), 'cross', iid, cn == 'near')
+    for s_ in shapes:
+        if s_['shape'] in (1, 2, 4, 5) and len(s_['bodies']) >= 1:
+            lk = s_['items'][0]
+            l = I['links'][int(lk.split(':')[1])]
+            key = pk(l['a'].split(' ', 1)[1], l['b'].split(' ', 1)[1])
+            kname = {1: 'struck', 2: 'partner', 4: 'moved', 5: 'moved'}[s_['shape']]
+            put(key, kname, lk + f"#shape{s_['shape']}", not s_['strict'])
+    for i, r in enumerate(I['ratios']):
+        if is_root(f'ratios:{i}'): put(pk(*r['pair'].split('–')), f"ratio {r['chart']}", f'ratios:{i}', r['band'] == 'near')
+    for i, x in enumerate(I['pair_sets']):
+        if is_root(f'pair_sets:{i}'): put(pk(*x['pair'].split('–')), 'set', f'pair_sets:{i}')
+    for i, x in enumerate(I['hj_ratios']):
+        if is_root(f'hj_ratios:{i}'): put(pk(*x['pair'].split('–')), 'h:j', f'hj_ratios:{i}', x['band'] == 'near')
+    for i, x in enumerate(I['pair_family']):
+        if is_root(f'pair_family:{i}'): put(pk(*x['pair'].split('–')), 'family', f'pair_family:{i}', x['band'] == 'near')
+    sbody = {}
+    for i, x in enumerate(I['same_body']):
+        if is_root(f'same_body:{i}'): sbody.setdefault(fold(x['body']), []).append(f'same_body:{i}')
+    for key in list(PF):
+        for b in set(key):
+            for iid in sbody.get(b, []): put(key, 'same body', iid)
+        a, b = key
+        if a != b and f'S {a if a != "Node" else "Rahu"}' in P and f'S {b if b != "Node" else "Rahu"}' in P:
+            ga = [P[f'S {x}'] for x in (['Rahu', 'Ketu'] if a == 'Node' else [a])]; gb = [P[f'S {x}'] for x in (['Rahu', 'Ketu'] if b == 'Node' else [b])]
+            g = min(gc(x, y) for x in ga for y in gb)
+            if g < SKY_PAIR_GC: PF[key]['kinds'].setdefault('sky', []).append(f'sky-gc {g:.4f}')
+    focus = sorted([{'pair': '–'.join(k), 'n': len(v['kinds']), 'kinds': v['kinds'], 'near': v['near']} for k, v in PF.items()],
+                   key=lambda x: (-x['n'], -len(x['near']), x['pair']))
+    for x in focus:
+        for k, ids in list(x['kinds'].items()) + list(x['near'].items()):
+            for iid in ids:
+                base = iid.split('#')[0]
+                if base not in desc and base.startswith('same_body:'):
+                    sb = I['same_body'][int(base.split(':')[1])]; desc[base] = f"same-body {sb['body']} {sb['plane']} {' : '.join(sb['ratios'])} (worst {sb['worst_pct']:.4f}%)"
     return {'version': VERSION, 'runner': I['runner'], 'workbook': I['workbook'], 'bodies': body_kinds, 'hubs': hubs, 'strong_hubs': strong, 'webs': web_out,
-            'shapes': shapes, 'annotations': ann, 'desc': desc}
+            'shapes': shapes, 'annotations': ann, 'desc': desc, 'pair_focus': [x for x in focus if x['n'] >= 3] or focus[:3]}
 
 def text(R):
     d = R['desc']; D = lambda i: d.get(i, i)
@@ -313,6 +362,10 @@ def text(R):
         extra = {k: v for k, v in s.items() if k not in ('shape', 'name', 'items', 'roots_behind', 'hub', 'strong_hub')}
         L.append(f"   [{s['shape']:2d}] {s['name']}{' (STRONG HUB)' if s['strong_hub'] else ' (HUB)' if s['hub'] else ''}  roots {s['roots_behind']}  " + '; '.join(f'{k}={v}' for k, v in extra.items()))
         for i in s['items'][:6]: L.append(f"        {D(i)}")
+    L.append('-- pair focus (kinds of root item on one pair; near beside, not counted)')
+    for x in R['pair_focus'][:8]:
+        L.append(f"   {x['pair']:22s} {x['n']} kinds: {', '.join(x['kinds'])}" + (f"   near: {', '.join(x['near'])}" if x['near'] else ''))
+        for k, ids in x['kinds'].items(): L.append(f"        {k}: " + '; '.join(D(i.split('#')[0]) for i in ids[:2]))
     if R['annotations']:
         L.append('-- annotations (recurring from earlier winners; not weighted)')
         for a in R['annotations']: L.append(f"   {a['note']}: {a['what']}")

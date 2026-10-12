@@ -1,7 +1,8 @@
-# ffos_las_1420_20220105 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# ffos_las_1420_20220105 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Gustavian / 1 Aidan Coleman**
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Orcus–Uranus, 4 kinds: cross, moved, ratio J, same body; not lit in any other runner
 - Shared with one other runner (P03), strict: a movement lands on a cross link — horse Uranus–Coleman Orcus RA 115.1552 Dec 0.1917; Coleman Orcus moved Dec 17.00440 = 17
 - Shared with one other runner (P03), strict: same-body set joined to the web — same-body Venus Dec 5/4 : 9/5 : 9/4 (worst 0.0368%)
 

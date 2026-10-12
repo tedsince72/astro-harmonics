@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Miss Britain / 4 Tony Hamilton",
  "workbook": "nottingham_1750_20220613__P07.xlsx",
  "bodies": {
@@ -9696,5 +9696,94 @@
   "splits:54": "J Sedna -> J Chiron Dec span 13.87190 = moved 4.99976 (5) + 8.87214  parts ['16/9', 0.1836] span/other ['11/7', 0.5023]",
   "splits:56": "J Sedna -> J Vesta Dec span 13.01044 = moved 4.99976 (5) + 8.01068  parts ['8/5', 0.1383] span/other ['13/8', 0.0531]",
   "splits:57": "J Sedna -> J Rahu Dec span 19.90414 = moved 4.99976 (5) + 14.90438  parts ['3', 0.6327] span/other ['4/3', 0.1592]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Node\u2013Uranus",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:95"
+    ],
+    "partner": [
+     "links:95#shape2"
+    ],
+    "moved": [
+     "links:95#shape5"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:95#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Pallas",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:93"
+    ],
+    "family": [
+     "pair_family:46"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:93#shape1"
+    ],
+    "family": [
+     "pair_family:47"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "h:j": [
+     "hj_ratios:9"
+    ],
+    "same body": [
+     "same_body:1"
+    ],
+    "sky": [
+     "sky-gc 3.8429"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:15",
+     "pair_family:16"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "ratio J": [
+     "ratios:17"
+    ],
+    "h:j": [
+     "hj_ratios:18"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:54"
+    ]
+   }
+  }
+ ]
 }

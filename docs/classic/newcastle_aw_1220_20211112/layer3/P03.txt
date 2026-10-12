@@ -1,4 +1,4 @@
-== 2 Sir Chauvelin / 2 Paul Mulrennan   [newcastle_aw_1220_20211112__P03.xlsx, L3 v1.2 (12 Oct 2026)]
+== 2 Sir Chauvelin / 2 Paul Mulrennan   [newcastle_aw_1220_20211112__P03.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): H Ceres, J Ceres, H Uranus
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Ceres        BMPRSX  tight 5  (near joined: S)
@@ -622,6 +622,24 @@
         sky Gonggong on H Neptune RA 2.5004 Dec 0.0950
         sky Mars on H Gonggong RA 118.8008 Dec 0.2211
         sky Gonggong on H Gonggong RA 1.1784 Dec 2.1625 RETURN
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Ceres–Eris             4 kinds: cross, moved, family, same body   near: struck, ratio J
+        cross: cross H Ceres–J Eris RA 0.0492 Dec 13.2536
+        moved: cross H Ceres–J Eris RA 0.0492 Dec 13.2536
+        family: J Ceres–Eris RA J Ceres – sky Eris 152.5189 vs TT 41.0626 26/7 (0.0003%)
+        same body: same-body Ceres Dec 5/4 : 9/5 : 9/4 (worst 0.1110%)
+   Jupiter–Sedna          3 kinds: cross, partner, same body   near: struck
+        cross: cross H Jupiter–J Sedna RA 0.4857 Dec 10.7767
+        partner: cross H Jupiter–J Sedna RA 0.4857 Dec 10.7767
+        same body: same-body Sedna GC 7/3 : 10/3 : 10/7 (worst 0.0892%)
+   Sedna–Venus            3 kinds: cross, ratio H, same body   near: struck
+        cross: cross H Venus–J Sedna RA 1.2087 Dec 14.7395
+        ratio H: H Venus–Sedna Dec sky 35.1681 natal 11.1058 19/6 (0.0005%)
+        same body: same-body Sedna GC 7/3 : 10/3 : 10/7 (worst 0.0892%)
+   Ceres–Makemake         3 kinds: ratio H, family, same body
+        ratio H: H Ceres–Makemake GC sky 118.8351 natal 148.5365 5/4 (0.0050%)
+        family: J Ceres–Makemake GC J Ceres – sky Makemake 46.5000 vs TT 118.8351 23/9 (0.0015%)
+        same body: same-body Ceres Dec 5/4 : 9/5 : 9/4 (worst 0.1110%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Venus–Uranus: H H Venus–H Uranus Dec 17.00074 = 17
    recurring pair Jupiter–Vesta: J J Jupiter–J Vesta GC 94.99954 = 95
@@ -631,3 +649,4 @@
    recurring pair Node–Neptune: cross H Rahu–J Neptune RA 20.7823 Dec 0.4798 near
    recurring pair Jupiter–Vesta: H Jupiter–Vesta GC sky 85.6490 natal 30.8320 25/9 (0.0051%) near
    recurring pair Neptune–Rahu: J Neptune–Rahu GC sky 71.2932 natal 160.4097 9/4 (0.0001%)
+   same-body Dec 9/4 : 5/4 : 9/5 on Ceres: same-body Ceres Dec 5/4 : 9/5 : 9/4 (worst 0.1110%)

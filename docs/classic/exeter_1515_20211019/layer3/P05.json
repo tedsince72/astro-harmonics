@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "3 Pens Man / 3 Jonjo O'Neill Jr",
  "workbook": "20211019_exeter_1515__P05.xlsx",
  "bodies": {
@@ -11087,5 +11087,43 @@
   "hj_ratios:22": "horse:jockey Pallas\u2013Eris RA H 118.4238 J 65.7967 9/5 near",
   "hj_ratios:23": "horse:jockey Juno\u2013Transpluto Flat H 14.6171 J 42.2330 26/9 near",
   "hj_ratios:24": "horse:jockey Rahu\u2013Sedna GC H 132.7229 J 116.1308 8/7"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Node\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:121"
+    ],
+    "h:j": [
+     "hj_ratios:24"
+    ],
+    "family": [
+     "pair_family:134"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:121#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:71"
+    ],
+    "struck": [
+     "links:71#shape1"
+    ],
+    "moved": [
+     "links:71#shape5"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

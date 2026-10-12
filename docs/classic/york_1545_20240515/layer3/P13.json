@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "7 Sinology / 7 Luke Morris",
  "workbook": "york_1545_20240515__P13.xlsx",
  "bodies": {
@@ -11234,5 +11234,46 @@
   "splits:34": "J Quaoar -> H Mercury RA span 156.21710 = moved 47.99030 (48) + 108.22680  parts ['9/4', 0.2303] span/other ['13/9', 0.0707]",
   "splits:35": "J Quaoar -> H Venus RA span 161.80473 = moved 47.99030 (48) + 113.81443  parts ['19/8', 0.1426] span/other ['10/7', 0.4842]",
   "splits:45": "J Quaoar -> H Gonggong RA span 105.38608 = moved 47.99030 (48) + 57.39578  parts ['6/5', 0.3344] span/other ['11/6', 0.1525]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Neptune\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:85"
+    ],
+    "ratio J": [
+     "ratios:8"
+    ],
+    "family": [
+     "pair_family:75"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:85#shape1"
+    ],
+    "family": [
+     "pair_family:76"
+    ]
+   }
+  },
+  {
+   "pair": "Ceres\u2013Node",
+   "n": 3,
+   "kinds": {
+    "shared": [
+     "shared:3"
+    ],
+    "ratio H": [
+     "ratios:6"
+    ],
+    "h:j": [
+     "hj_ratios:17"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

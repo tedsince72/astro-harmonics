@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "6 Lieutenant Rocco / 6 Tom Scudamore",
  "workbook": "lingfield_1500_20220123__P09.xlsx",
  "bodies": {
@@ -10904,5 +10904,77 @@
   "splits:31": "J Gonggong -> J Haumea Dec span 46.69912 = moved 10.88822 (98/9) + 35.81091  parts ['23/7', 0.0988] span/other ['9/7', 1.4259]",
   "splits:32": "J Gonggong -> J Makemake Dec span 60.46719 = moved 10.88822 (98/9) + 49.57898  parts ['23/5', 1.0119] span/other ['11/9', 0.2134]",
   "splits:33": "J Gonggong -> J Orcus Dec span 30.55024 = moved 10.88822 (98/9) + 19.66202  parts ['9/5', 0.3227] span/other ['14/9', 0.1149]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Uranus\u2013Venus",
+   "n": 5,
+   "kinds": {
+    "cross": [
+     "links:59"
+    ],
+    "partner": [
+     "links:59#shape2"
+    ],
+    "h:j": [
+     "hj_ratios:3"
+    ],
+    "family": [
+     "pair_family:9"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:59#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Saturn\u2013Uranus",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:57"
+    ],
+    "partner": [
+     "links:57#shape2"
+    ],
+    "family": [
+     "pair_family:25"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:57#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Pluto\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:60",
+     "links:67"
+    ],
+    "struck": [
+     "links:60#shape1"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:67#shape1"
+    ]
+   }
+  }
+ ]
 }

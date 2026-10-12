@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "6 Resumption / 6 Tom Marquand",
  "workbook": "newcastle_aw_1640_20220215__P11.xlsx",
  "bodies": {
@@ -10747,5 +10747,71 @@
   "splits:48": "J Jupiter -> J Venus Dec span 4.94662 = moved 0.99127 (1) + 3.95535  parts ['4', 0.2458] span/other ['5/4', 0.0493]",
   "splits:49": "J Jupiter -> J Uranus Dec span 10.24264 = moved 0.99127 (1) + 9.25137  parts ['28/3', 0.0055] span/other ['10/9', 0.3566]",
   "splits:53": "J Jupiter -> J Gonggong Dec span 9.94930 = moved 0.99127 (1) + 8.95803  parts ['9', 0.41] span/other ['10/9', 0.0408]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Gonggong\u2013Pallas",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:102"
+    ],
+    "h:j": [
+     "hj_ratios:16"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:102#shape1"
+    ],
+    "partner": [
+     "links:102#shape2"
+    ],
+    "family": [
+     "pair_family:48",
+     "pair_family:120"
+    ]
+   }
+  },
+  {
+   "pair": "Chiron\u2013Quaoar",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:104"
+    ],
+    "ratio J": [
+     "ratios:18"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:104#shape1"
+    ],
+    "partner": [
+     "links:104#shape2"
+    ]
+   }
+  },
+  {
+   "pair": "Uranus\u2013Vesta",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:81"
+    ],
+    "ratio J": [
+     "ratios:14"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:81#shape1"
+    ],
+    "family": [
+     "pair_family:36"
+    ]
+   }
+  }
+ ]
 }

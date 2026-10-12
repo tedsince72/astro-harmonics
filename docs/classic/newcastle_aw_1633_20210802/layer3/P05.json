@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "3 Raise The Roof / 3 Luke Morris",
  "workbook": "20210802_newcastle_aw_1633__P05.xlsx",
  "bodies": {
@@ -9743,5 +9743,27 @@
   "splits:54": "J Haumea -> J Vesta Dec span 25.24814 = moved 6.55515 (59/9) + 18.69300  parts ['20/7', 0.1922] span/other ['4/3', 1.3006]",
   "splits:56": "J Haumea -> J Ketu Dec span 15.92155 = moved 6.55515 (59/9) + 9.36640  parts ['10/7', 0.0203] span/other ['12/7', 0.8416]",
   "splits:59": "J Haumea -> J Gonggong Dec span 43.24382 = moved 6.55515 (59/9) + 36.68867  parts ['28/5', 0.0549] span/other ['7/6', 1.0288]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Ceres\u2013Chiron",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:67"
+    ],
+    "ratio H": [
+     "ratios:5"
+    ],
+    "family": [
+     "pair_family:103"
+    ]
+   },
+   "near": {
+    "ratio H": [
+     "ratios:4"
+    ]
+   }
+  }
+ ]
 }

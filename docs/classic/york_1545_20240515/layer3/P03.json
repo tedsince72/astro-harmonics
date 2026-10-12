@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Francophone / 2 Joe Fanning",
  "workbook": "york_1545_20240515__P03.xlsx",
  "bodies": {
@@ -9719,5 +9719,23 @@
   "hj_ratios:18": "horse:jockey Eris\u2013Haumea Flat H 170.9815 J 153.8566 10/9 near",
   "hj_ratios:19": "horse:jockey Sedna\u2013Quaoar Flat H 144.0116 J 176.0292 11/9 near",
   "splits:0": "J Uranus -> H Mars Dec span 27.60661 = moved 21.22328 (191/9) + 6.38333  parts ['10/3', 0.256] span/other ['13/3', 0.1969]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Orcus\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:64"
+    ],
+    "moved": [
+     "links:64#shape5"
+    ],
+    "family": [
+     "pair_family:99"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

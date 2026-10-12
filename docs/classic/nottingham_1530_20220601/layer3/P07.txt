@@ -1,4 +1,4 @@
-== 5 Swayze / 5 Lewis Edmunds   [nottingham_1530_20220601__P07.xlsx, L3 v1.2 (12 Oct 2026)]
+== 5 Swayze / 5 Lewis Edmunds   [nottingham_1530_20220601__P07.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): J Pallas, H Neptune, J Haumea
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    J Pallas       EMPRSX  tight 5  (near joined: S)
@@ -896,6 +896,15 @@
         sky Transpluto on H Orcus RA 0.1426 Dec 21.3891
         sky Orcus on H Transpluto RA 1.8765 Dec 22.1390 near
         sky Transpluto on H Transpluto RA 0.4336 Dec 0.1645 RETURN
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Mars–Saturn            3 kinds: cross, family, same body   near: struck, family
+        cross: cross H Mars–J Saturn RA 1.0821 Dec 3.9058
+        family: H Mars–Saturn Dec H Mars – sky Saturn 27.0905 vs TT 14.7772 11/6 (0.0035%)
+        same body: same-body Saturn Dec 4 : 3 : 4/3 (worst 0.0838%)
+   Juno–Pallas            3 kinds: cross, struck, partner   near: family
+        cross: cross H Pallas–J Juno RA 1.2538 Dec 7.9781
+        struck: cross H Pallas–J Juno RA 1.2538 Dec 7.9781
+        partner: cross H Pallas–J Juno RA 1.2538 Dec 7.9781
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Pallas–Juno: cross H Pallas–J Juno RA 1.2538 Dec 7.9781
    recurring pair Juno–Pallas: cross H Juno–J Pallas Dec 16.55517 = 149/9

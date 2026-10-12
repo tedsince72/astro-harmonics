@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Thakuri / 4 David Allan",
  "workbook": "20220406_catterick_1440__P07.xlsx",
  "bodies": {
@@ -11585,5 +11585,54 @@
   "splits:47": "J Juno -> H Orcus Dec span 5.20249 = moved 0.99967 (1) + 4.20282  parts ['21/5', 0.1005] span/other ['5/4', 0.9715]",
   "splits:49": "J Juno -> J Jupiter Dec span 5.39531 = moved 0.99967 (1) + 4.39565  parts ['22/5', 0.0657] span/other ['11/9', 0.4254]",
   "splits:55": "J Juno -> J Eris Dec span 5.79842 = moved 0.99967 (1) + 4.79876  parts ['24/5', 0.0074] span/other ['6/5', 0.6932]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Pallas\u2013Transpluto",
+   "n": 4,
+   "kinds": {
+    "shared": [
+     "shared:3",
+     "shared:4"
+    ],
+    "ratio H": [
+     "ratios:7"
+    ],
+    "set": [
+     "pair_sets:0"
+    ],
+    "family": [
+     "pair_family:112"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:37"
+    ]
+   }
+  },
+  {
+   "pair": "Makemake\u2013Mars",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:103"
+    ],
+    "partner": [
+     "links:103#shape2"
+    ],
+    "h:j": [
+     "hj_ratios:4"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:103#shape1"
+    ],
+    "ratio H": [
+     "ratios:3"
+    ]
+   }
+  }
+ ]
 }

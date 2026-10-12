@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "5 Blaze A Trail / 5 Connor Brace",
  "workbook": "20211019_exeter_1515__P09.xlsx",
  "bodies": {
@@ -9552,5 +9552,27 @@
   "splits:54": "J Orcus -> J Chiron Dec span 15.51911 = moved 10.11197 (91/9) + 5.40714  parts ['15/8', 0.2605] span/other ['23/8', 0.1699]",
   "splits:56": "J Orcus -> J Ketu Dec span 21.86892 = moved 10.11197 (91/9) + 11.75695  parts ['7/6', 0.342] span/other ['13/7', 0.1584]",
   "splits:58": "J Orcus -> J Quaoar Dec span 13.26936 = moved 10.11197 (91/9) + 3.15739  parts ['16/5', 0.0826] span/other ['21/5', 0.0629]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Ceres\u2013Pluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:94"
+    ],
+    "partner": [
+     "links:94#shape2"
+    ],
+    "moved": [
+     "links:94#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:94#shape1"
+    ]
+   }
+  }
+ ]
 }

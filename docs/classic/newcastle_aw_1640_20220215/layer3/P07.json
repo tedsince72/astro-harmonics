@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 Onesmoothoperator / 4 Harry Russell",
  "workbook": "newcastle_aw_1640_20220215__P07.xlsx",
  "bodies": {
@@ -10684,5 +10684,155 @@
   "splits:25": "J Pallas -> J Uranus Dec span 19.06595 = moved 8.66753 (78/9) + 10.39842  parts ['6/5', 0.0252] span/other ['11/6', 0.0114]",
   "splits:26": "J Pallas -> J Neptune Dec span 19.84004 = moved 8.66753 (78/9) + 11.17250  parts ['9/7', 0.2561] span/other ['16/9', 0.1117]",
   "splits:28": "J Pallas -> J Chiron Dec span 14.09144 = moved 8.66753 (78/9) + 5.42391  parts ['8/5', 0.1236] span/other ['13/5', 0.076]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Neptune\u2013Node",
+   "n": 5,
+   "kinds": {
+    "cross": [
+     "links:78"
+    ],
+    "partner": [
+     "links:78#shape2"
+    ],
+    "moved": [
+     "links:78#shape5"
+    ],
+    "family": [
+     "pair_family:101"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:78#shape1"
+    ],
+    "family": [
+     "pair_family:31"
+    ]
+   }
+  },
+  {
+   "pair": "Jupiter\u2013Node",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:97"
+    ],
+    "ratio H": [
+     "ratios:4"
+    ],
+    "family": [
+     "pair_family:21"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:97#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Eris\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:101"
+    ],
+    "partner": [
+     "links:101#shape2"
+    ],
+    "moved": [
+     "links:101#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:101#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Mercury\u2013Quaoar",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:112"
+    ],
+    "partner": [
+     "links:112#shape2"
+    ],
+    "family": [
+     "pair_family:70"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:112#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Orcus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:96"
+    ],
+    "partner": [
+     "links:96#shape2"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:96#shape1"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Quaoar",
+   "n": 3,
+   "kinds": {
+    "ratio J": [
+     "ratios:21"
+    ],
+    "family": [
+     "pair_family:53"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:126"
+    ]
+   }
+  },
+  {
+   "pair": "Neptune\u2013Pallas",
+   "n": 3,
+   "kinds": {
+    "ratio J": [
+     "ratios:15"
+    ],
+    "family": [
+     "pair_family:29"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {}
+  }
+ ]
 }

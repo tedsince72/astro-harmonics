@@ -1,4 +1,4 @@
-== 6 Blazer / 6 Alain Cawley   [catterick_1505_20211119__P11.xlsx, L3 v1.2 (12 Oct 2026)]
+== 6 Blazer / 6 Alain Cawley   [catterick_1505_20211119__P11.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
 -- strong hubs (5+ tight kinds): H Gonggong
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Gonggong     BMPRS  tight 5
@@ -764,7 +764,17 @@
         sky Quaoar on J Ceres RA 0.9960 Dec 13.0299
         sky Ceres -> J Orcus RA 62.99950 = 63
         sky Quaoar -> J Orcus RA 146.00125 = 146
+-- pair focus (kinds of root item on one pair; near beside, not counted)
+   Juno–Makemake          3 kinds: cross, moved, family   near: struck, partner, family
+        cross: cross H Juno–J Makemake RA 0.3976 Dec 27.3349
+        moved: cross H Juno–J Makemake RA 0.3976 Dec 27.3349
+        family: H Juno–Makemake GC sky Juno – H Makemake 89.7623 vs NN 28.8513 28/9 (0.0031%)
+   Haumea–Quaoar          3 kinds: set, h:j, family
+        set: pair set Haumea–Quaoar Flat H 65.4804 J 57.2941
+        h:j: horse:jockey Haumea–Quaoar Flat H 65.4804 J 57.2941 8/7
+        family: J Haumea–Quaoar RA sky Haumea – J Quaoar 13.9474 vs NN 44.9400 29/9 (0.0034%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring cross link horse Pluto – jockey Neptune: cross H Pluto–J Neptune RA 1.5022 Dec 3.6032 near
    recurring pair Vesta–Neptune: cross H Vesta–J Neptune Dec 4.00400 = 4
    recurring pair Venus–Uranus: H Venus–Uranus RA sky 115.9514 natal 8.9199 13 (0.0067%) near
+   same-body Dec 9/4 : 5/4 : 9/5 on Node: same-body Rahu Dec 9/5 : 9/4 : 5/4 (worst 0.1301%)

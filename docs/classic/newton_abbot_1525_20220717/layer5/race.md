@@ -1,10 +1,11 @@
-# newton_abbot_1525_20220717 — field reading (blind)  [L5 v1 (12 Oct 2026)]
+# newton_abbot_1525_20220717 — field reading (blind)  [L5 v1.1 (12 Oct 2026, pair focus)]
 
 ## What only each runner has (racecard order)
 **P01 1 Grageelagh Girl / 1 Tom Broughton**
 - **Only runner in the field (strict): same-body set joined to the web** — same-body Quaoar GC 7/5 : 12/5 : 12/7 (worst 0.0212%)  _(rests on 1 independent facts)_
 - **Only runner in the field (strict): same-body set joined to the web** — same-body Sedna Dec 5/4 : 9/4 : 9/5 (worst 0.0428%)  _(rests on 1 independent facts)_
 - **Only runner in the field (strict): same-body set joined to the web** — same-body Eris Dec 4/3 : 7/3 : 7/4 (worst 0.0507%)  _(rests on 1 independent facts)_
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Eris–Jupiter, 4 kinds: cross, moved, family, same body; not lit in any other runner
 - Shared with one other runner (P07), strict: cross link struck on both ends — horse Orcus–Broughton Transpluto RA 0.9517 Dec 19.4385; sky Venus -> horse Orcus Dec 29.00211 = 29; sky Uranus -> horse Orcus Dec 23.11127 = 208/9
 - Shared with one other runner (P07), strict: triangle struck at every corner by one sky body — horse Ceres–Broughton Haumea RA 158.99989 = 159; horse Ceres–Broughton Saturn RA 22.99655 = 23; Broughton Saturn–Broughton Haumea RA 178.00356 = 178
 

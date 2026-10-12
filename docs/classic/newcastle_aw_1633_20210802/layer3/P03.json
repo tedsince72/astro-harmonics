@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "2 Athmad / 2 Jason Hart",
  "workbook": "20210802_newcastle_aw_1633__P03.xlsx",
  "bodies": {
@@ -10589,5 +10589,72 @@
   "splits:71": "H Gonggong -> J Chiron Dec span 13.82204 = moved 1.55627 (14/9) + 12.26577  parts ['8', 1.4809] span/other ['9/8', 0.167]",
   "splits:73": "H Gonggong -> J Juno Dec span 7.00379 = moved 1.55627 (14/9) + 5.44753  parts ['7/2', 0.0108] span/other ['9/7', 0.0024]",
   "splits:81": "H Gonggong -> J Transpluto Dec span 26.46401 = moved 1.55627 (14/9) + 24.90774  parts ['16', 0.0299] span/other ['10/9', 4.3767]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Ceres\u2013Venus",
+   "n": 2,
+   "kinds": {
+    "family": [
+     "pair_family:20"
+    ],
+    "same body": [
+     "same_body:0",
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "ratio J": [
+     "ratios:7"
+    ],
+    "family": [
+     "pair_family:80"
+    ]
+   }
+  },
+  {
+   "pair": "Mars\u2013Node",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:75"
+    ],
+    "family": [
+     "pair_family:25"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:75#shape1"
+    ],
+    "ratio J": [
+     "ratios:9"
+    ]
+   }
+  },
+  {
+   "pair": "Node\u2013Sun",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:60"
+    ],
+    "partner": [
+     "links:60#shape2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:60#shape1"
+    ],
+    "family": [
+     "pair_family:6",
+     "pair_family:7",
+     "pair_family:8",
+     "pair_family:70",
+     "pair_family:71"
+    ]
+   }
+  }
+ ]
 }

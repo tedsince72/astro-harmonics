@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "6 Tricolore / 6 Dylan Hogan",
  "workbook": "20210802_newcastle_aw_1633__P11.xlsx",
  "bodies": {
@@ -10694,5 +10694,30 @@
   "splits:50": "J Orcus -> J Jupiter Dec span 18.53173 = moved 12.00395 (12) + 6.52778  parts ['11/6', 0.3037] span/other ['17/6', 0.1965]",
   "splits:54": "J Orcus -> J Rahu Dec span 17.47634 = moved 12.00395 (12) + 5.47240  parts ['11/5', 0.2934] span/other ['16/5', 0.2017]",
   "splits:56": "J Orcus -> J Quaoar Dec span 15.33499 = moved 12.00395 (12) + 3.33105  parts ['18/5', 0.1016] span/other ['23/5', 0.0795]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Eris\u2013Uranus",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:68"
+    ],
+    "struck": [
+     "links:68#shape1"
+    ],
+    "moved": [
+     "links:68#shape5"
+    ],
+    "ratio J": [
+     "ratios:18"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:78"
+    ]
+   }
+  }
+ ]
 }

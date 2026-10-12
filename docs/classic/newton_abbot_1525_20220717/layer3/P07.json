@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.2 (12 Oct 2026)",
+ "version": "L3 v1.3 (12 Oct 2026, pair focus)",
  "runner": "4 On Time / 4 Conor Ring",
  "workbook": "newton_abbot_1525_20220717__P07.xlsx",
  "bodies": {
@@ -9373,5 +9373,47 @@
   "splits:36": "H Haumea -> J Quaoar RA span 27.03340 = moved 4.00663 (4) + 23.02677  parts ['23/4', 0.0493] span/other ['7/6', 0.6285]",
   "splits:42": "J Mercury -> H Makemake Dec span 47.85460 = moved 44.66747 (402/9) + 3.18714  parts ['14', 0.1066] span/other ['15', 0.0995]",
   "splits:45": "J Mercury -> J Makemake Dec span 56.84086 = moved 44.66747 (402/9) + 12.17339  parts ['11/3', 0.071] span/other ['14/3', 0.0558]"
- }
+ },
+ "pair_focus": [
+  {
+   "pair": "Chiron\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:108"
+    ],
+    "struck": [
+     "links:108#shape1"
+    ],
+    "family": [
+     "pair_family:106"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:107"
+    ]
+   }
+  },
+  {
+   "pair": "Juno\u2013Jupiter",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:96"
+    ],
+    "struck": [
+     "links:96#shape1"
+    ],
+    "moved": [
+     "links:96#shape5"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:21"
+    ]
+   }
+  }
+ ]
 }
