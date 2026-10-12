@@ -1,0 +1,93 @@
+== newcastle_aw_1800_20261012  field of 6   [L4 v1.3 (12 Oct 2026, pair focus A+B+C)]  (blind: no finishing positions)
+-- runners: P01 1 Siouxperb / 1 Connor Beasley; P03 3 Innichen / 3 Edward Greatrex; P05 4 Starburster / 4 Saffie Osborne; P07 5 Minzelle / 5 Jason Hart; P09 6 Blazing Inferno / 6 Daniel Tudhope; P11 7 Gladys Pugh / 7 Kevin Stott
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              2/6: P03:2 P11:2  |   6: P01:12 P03:20 P05:19 P07:14 P09:24 P11:13
+   [  2] partner strike                              2/6: P03:3 P05:2  |   6: P01:2 P03:8 P05:8 P07:6 P09:4 P11:3
+   [  3] pair together in the sky                    0/6: -  |   0: -
+   [  4] both ends moved                             2/6: P03:1 P07:1  |   3: P01:1 P03:1 P07:1
+   [  5] movement onto a cross link                  6/6: P01:2 P03:6 P05:1 P07:3 P09:1 P11:2  |   6: P01:8 P03:8 P05:2 P07:4 P09:3 P11:4
+   [  6] swap                                        0/6: -  |   0: -
+   [  7] triangle struck at every corner             3/6: P01:1 P03:2 P11:1  |   6: P01:3 P03:3 P05:5 P07:3 P09:4 P11:8
+   [  8] same number / ratio in both charts          5/6: P01:2 P05:3 P07:1 P09:2 P11:4  |   5: P01:3 P05:4 P07:1 P09:2 P11:4
+   [  9] shared node                                 0/6: -  |   0: -
+   [ 10] sky body divides a natal pair               6/6: P01:24 P03:25 P05:16 P07:29 P09:8 P11:15  |   6: P01:24 P03:25 P05:16 P07:29 P09:8 P11:15
+   [ 11] joined same-body set                        6/6: P01:1 P03:2 P05:4 P07:1 P09:1 P11:1  |   6: P01:1 P03:2 P05:4 P07:1 P09:1 P11:1
+   [ 12] pair in one chart struck on both ends by 2+  3/6: P03:3 P05:2 P09:2  |   6: P01:1 P03:3 P05:9 P07:2 P09:5 P11:6
+   [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   6: P01:1 P03:3 P05:5 P07:4 P09:2 P11:3
+   [12m] pair in one chart, 2+ sky bodies on both ends  2/6: P05:2 P09:2  |   6: P01:1 P03:3 P05:9 P07:2 P09:5 P11:6
+-- tightest instance of each shape
+   [ strict:1] P03 3 Innichen / 3 Edward Greatrex: horse Uranus – jockey Venus (RA 5.7825 Dec 0.1048)
+   [ strict:2] P03 3 Innichen / 3 Edward Greatrex: horse Sun – jockey Uranus (RA 0.2042 Dec 0.7530)
+   [ strict:4] P03 3 Innichen / 3 Edward Greatrex: horse Sun – jockey Uranus (RA 0.2042 Dec 0.7530)
+   [ strict:5] P09 6 Blazing Inferno / 6 Daniel Tudhope: moved J Mars (RA 0.1089 Dec 28.8524)
+   [strict:10] P07 5 Minzelle / 5 Jason Hart: H Chiron -> J Ceres (split error 0.0052%)
+   [strict:11] P05 4 Starburster / 4 Saffie Osborne: same body Chiron (worst 0.0016%)
+   [  broad:1] P09 6 Blazing Inferno / 6 Daniel Tudhope: horse Makemake – jockey Mars (RA 0.1089 Dec 28.8524) broad/near
+   [  broad:2] P09 6 Blazing Inferno / 6 Daniel Tudhope: horse Makemake – jockey Mars (RA 0.1089 Dec 28.8524) broad/near
+   [  broad:4] P03 3 Innichen / 3 Edward Greatrex: horse Sun – jockey Uranus (RA 0.2042 Dec 0.7530)
+   [  broad:5] P09 6 Blazing Inferno / 6 Daniel Tudhope: moved J Mars (RA 0.1089 Dec 28.8524)
+   [ broad:10] P07 5 Minzelle / 5 Jason Hart: H Chiron -> J Ceres (split error 0.0052%)
+   [ broad:11] P05 4 Starburster / 4 Saffie Osborne: same body Chiron (worst 0.0016%)
+-- field-only findings (shape numbers)
+   P03 3 Innichen / 3 Edward Greatrex: only (strict) -; only (broad) -; strict, shared with one other 1,2,4
+   P05 4 Starburster / 4 Saffie Osborne: only (strict) -; only (broad) -; strict, shared with one other 2,12m
+   P07 5 Minzelle / 5 Jason Hart: only (strict) -; only (broad) -; strict, shared with one other 4
+   P09 6 Blazing Inferno / 6 Daniel Tudhope: only (strict) -; only (broad) -; strict, shared with one other 12m
+   P11 7 Gladys Pugh / 7 Kevin Stott: only (strict) -; only (broad) -; strict, shared with one other 1
+-- pair focus: each runner's most-lit pair (kinds of root item); field max 4 — P03, P05
+   P01 1 Siouxperb / 1 Connor Beasley           Jupiter–Node           3  cross, moved, family  (cross 0.6577)
+   P03 3 Innichen / 3 Edward Greatrex           Sun–Uranus             4  cross, partner, moved, h:j  (cross 0.1362)  (tie, tightest of the tied)
+   P05 4 Starburster / 4 Saffie Osborne         Node–Pallas            4  shared, cross, partner, same body  (cross 0.4623)  (tie)
+   P07 5 Minzelle / 5 Jason Hart                Gonggong–Saturn        2  cross, same body  (cross 0.1451)
+   P09 6 Blazing Inferno / 6 Daniel Tudhope     Mars–Uranus            3  cross, h:j, same body  (cross 0.4581)
+   P11 7 Gladys Pugh / 7 Kevin Stott            Node–Uranus            3  cross, struck, family  (cross 0.4076)
+-- strong hubs across the field
+   J Uranus       2: P03 P09
+   H Pallas       2: P05 P07
+   J Pallas       2: P05 P07
+   H Juno         1: P03
+   H Sun          1: P03
+   H Neptune      1: P03
+   J Neptune      1: P03
+   H Chiron       1: P05
+   J Chiron       1: P05
+   H Uranus       1: P09
+   J Mars         1: P09
+   H Venus        1: P11
+   H Jupiter      1: P11
+   J Eris         1: P11
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Makemake – jockey Haumea: P01 (RA 9.1942 Dec 0.0771, broad); P03 (RA 6.8276 Dec 0.5235, broad); P05 (RA 1.7167 Dec 0.6225, broad); P07 (RA 8.8696 Dec 0.2040, broad); P11 (RA 9.5241 Dec 0.3451, broad)
+   [ 1] horse Jupiter – jockey Node: P01 (RA 2.3225 Dec 0.1973, broad); P07 (RA 0.9543 Dec 1.1775, broad); P11 (RA 1.4498 Dec 1.1948)
+   [ 1] horse Saturn – jockey Eris: P07 (RA 39.2724 Dec 0.3020, broad); P09 (RA 43.3194 Dec 0.1603, broad); P11 (RA 36.7817 Dec 0.5517, broad)
+   [ 1] horse Uranus – jockey Node: P01 (RA 2.2896 Dec 0.3214, broad); P11 (RA 0.6115 Dec 0.4387)
+   [ 1] horse Orcus – jockey Jupiter: P01 (RA 57.6325 Dec 0.4054, broad); P11 (RA 55.7967 Dec 0.3484, broad)
+   [ 1] horse Sun – jockey Uranus: P03 (RA 0.2042 Dec 0.7530, broad); P05 (RA 0.4422 Dec 0.8994, broad)
+   [ 1] horse Uranus – jockey Ceres: P03 (RA 0.3363 Dec 6.3757, broad); P09 (RA 118.5028 Dec 0.3178, broad)
+   [ 1] horse Node – jockey Eris: P03 (RA 172.2689 Dec 0.1628, broad); P05 (RA 171.7361 Dec 0.1736, broad)
+   [ 1] horse Orcus – jockey Chiron: P03 (RA 62.4185 Dec 0.3706, broad); P11 (RA 0.4220 Dec 16.7808, broad)
+   [11] same body Mercury: P01 (worst 0.0686%); P05 (worst 0.1110%)
+   [11] same body Saturn: P07 (worst 0.0083%); P11 (worst 0.1173%)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P01 P03 P05 P07 P11
+   recurring cross link horse Pluto – jockey Neptune: P03 P07 P09
+   recurring cross link horse Sedna – jockey Chiron: P01 P09
+   recurring cross link horse Uranus – jockey Venus: P03
+   recurring cross link horse Venus – jockey Uranus: P09 P11
+   recurring pair Chiron–Transpluto: P01 P05
+   recurring pair Haumea–Node: P03 P09
+   recurring pair Juno–Pallas: P03
+   recurring pair Jupiter–Vesta: P07
+   recurring pair Neptune–Node: P03 P09 P11
+   recurring pair Neptune–Rahu: P03 P11
+   recurring pair Neptune–Saturn: P07 P09
+   recurring pair Neptune–Vesta: P09 P11
+   recurring pair Node–Haumea: P03 P09 P11
+   recurring pair Node–Neptune: P01
+   recurring pair Pallas–Juno: P03
+   recurring pair Saturn–Neptune: P01 P03
+   recurring pair Transpluto–Chiron: P07
+   recurring pair Uranus–Venus: P03
+   recurring pair Venus–Uranus: P05 P07 P09 P11
+   recurring pair Vesta–Jupiter: P05
+   recurring pair Vesta–Neptune: P07
