@@ -85,3 +85,12 @@ Mercury–Saturn and Mars–Uranus are close in both natal charts. Chiron–Tran
 20. Sky numbers on the web's pairs: sky Pluto–Uranus Dec 41.00342 = 41 (Mason's Uranus–Pluto is 15/7);
     sky Chiron–Sedna RA 41.11080 = 370/9 (Chiron strand; Sedna in Mason Rahu–Sedna 27/4); sky Rahu–Venus Dec 100/9 (11.11069).
 21. Equator: sky Mercury 8.3641 / horse Mercury 19.5174 = 3/7 (0.006%, just outside 0.005%). Mercury again.
+
+## Checker on 17–21 (independent agent, 12 Oct 2026)
+- All numbers in 17–21 confirmed.
+- 17 field claim TRUE at same-body <= 0.15% and cross link Dec < 0.3, but NOT robust: ties at 0.10% (Blue Prince, Ribble Radiant),
+  at cross-link Dec < 0.6 (Blue Prince), and with Rahu/Ketu merged in the web (Ribble Radiant; Ribble goes ahead with merged + Dec < 0.6).
+  Holds at 0.20% (winner 4, next 3). Read it as a joined strand, not a field-unique count.
+- 18: Flat 5.0303 is not a whole number; both are only 'about 5'.
+- 19: Mercury–Saturn 19/3 is GC. 20: Mason Uranus–Pluto 15/7 is GC; Rahu–Venus 100/9 works with Rahu only (Ketu–Venus 22.567).
+- 21: 3/7 at 0.0060% confirmed, just outside 0.005%.
