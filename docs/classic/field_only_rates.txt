@@ -30,17 +30,23 @@
    P03 2 Spike Jones / 2 Alain Cawley               field-only 3 (3,10,28)  finish   2  SP 5/1
    P05 3 Pixie Loc / 3 Ben Jones                    field-only 1 (5)  finish   1  SP 14/1
    P07 4 Santesa / 4 Ciaran Gethings                field-only 1 (14)  finish   4  SP 5/2
--- the 5 blind races (only Kempton and Fontwell blind for the reader): win rate by number of strict field-only items
+-- goodwood_1853_20210827 (blind for the reader)
+   P01 1 Stunning Beauty / 1 Stefano Cherchi        field-only 1 (4)  finish   3  SP 5/2
+   P03 2 Pretty In Grey / 2 Marco Ghiani            field-only 1 (8)  finish  UR  SP 100/30
+   P05 3 Lola Showgirl / 3 Laura Pearson            field-only 0 (-)  finish   4  SP 3/1
+   P07 4 Dalanijujo / 4 Tom Marquand                field-only 2 (5,11)  finish   2  SP 11/4
+   P09 5 Madame Tantzy / 5 Georgia Dobie            field-only 0 (-)  finish   1  SP 12/1
+-- the 6 blind races (only Kempton, Fontwell, Goodwood blind for the reader): win rate by number of strict field-only items
     items  runners  won  win %  chance wins
-        0        9    0     0%         1.63
-        1       10    3    30%         1.93
-        2        4    2    50%         0.82
+        0       11    1     9%         2.03
+        1       12    3    25%         2.33
+        2        5    2    40%         1.02
        3+        3    0     0%         0.62
--- Kempton + Fontwell only (blind for the reader): win rate by number of strict field-only items
+-- Kempton + Fontwell + Goodwood only (blind for the reader): win rate by number of strict field-only items
     items  runners  won  win %  chance wins
-        0        2    0     0%         0.40
-        1        3    2    67%         0.70
-        2        2    0     0%         0.45
+        0        4    1    25%         0.80
+        1        5    2    40%         1.10
+        2        3    0     0%         0.65
        3+        2    0     0%         0.45
 -- the 32 read races — NOT evidence (the checklist and the reader were built from them): win rate by number of strict field-only items
     items  runners  won  win %  chance wins

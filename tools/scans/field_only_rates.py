@@ -10,7 +10,8 @@ import checklist_reader as CR
 BLIND = [('exeter_1515_20211019', 'blind for the layers only (reader built after its result)'),
          ('redcar_1515_20211015', 'blind for the layers only (reader built after its result)'),
          ('haydock_1420_20210904', 'blind for the layers only (reader built after its result)'),
-         ('kempton_aw_1440_20210904', 'blind for the reader'), ('fontwell_1645_20210914', 'blind for the reader')]
+         ('kempton_aw_1440_20210904', 'blind for the reader'), ('fontwell_1645_20210914', 'blind for the reader'),
+         ('goodwood_1853_20210827', 'blind for the reader')]
 READ = ['ascot_1350_20231021', 'carlisle_1630_20220707', 'catterick_1505_20211119', 'chelmsford_aw_1320_20240118', 'ffos_las_1420_20220105',
         'fontwell_1530_20231006', 'haydock_1405_20220219', 'haydock_1718_20220507', 'huntingdon_1352_20211205', 'lingfield_1500_20220123',
         'newbury_1350_20211126', 'newcastle_1540_20220311', 'newcastle_aw_1220_20211112', 'newcastle_aw_1330_20220102', 'newcastle_aw_1540_20211112',
@@ -54,6 +55,6 @@ if __name__ == '__main__':
         print(f"-- {r} ({note})")
         for P, n, fo, p, sp, nf in rows(r):
             print(f"   {P} {n:44s} field-only {len(fo)} ({','.join(map(str, fo)) or '-'})  finish {p:>3s}  SP {sp}")
-    rates([r for r, _ in BLIND], 'the 5 blind races (only Kempton and Fontwell blind for the reader)')
-    rates([r for r, note in BLIND if note == 'blind for the reader'], 'Kempton + Fontwell only (blind for the reader)')
+    rates([r for r, _ in BLIND], 'the 6 blind races (only Kempton, Fontwell, Goodwood blind for the reader)')
+    rates([r for r, note in BLIND if note == 'blind for the reader'], 'Kempton + Fontwell + Goodwood only (blind for the reader)')
     rates(READ, f'the {len(READ)} read races — NOT evidence (the checklist and the reader were built from them)')

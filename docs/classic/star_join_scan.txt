@@ -1,0 +1,78 @@
+Star joins (read-only scan; ON = RA < 1.5 AND Dec < 0.3, NEAR = RA < 2 AND Dec < 0.6). RARE = held by fewer than half the field.
+Chance = expected winners if every runner had 1/field-size; a runner counts once per row however many joins it has.
+-- BLIND for the reader: Kempton 14:40, Fontwell 16:45, Goodwood 18:53
+   kind   band   joins   winners with    beaten with   wins (chance)
+   a sky+natal  close  any      0/3      0%     0/11     0%   0 (0.00)
+   a sky+natal  close  rare     0/3      0%     0/11     0%   0 (0.00)
+   a sky+natal  near   any      0/3      0%     0/11     0%   0 (0.00)
+   a sky+natal  near   rare     0/3      0%     0/11     0%   0 (0.00)
+   b H+J        close  any      0/3      0%     0/11     0%   0 (0.00)
+   b H+J        close  rare     0/3      0%     0/11     0%   0 (0.00)
+   b H+J        near   any      0/3      0%     0/11     0%   0 (0.00)
+   b H+J        near   rare     0/3      0%     0/11     0%   0 (0.00)
+   c on link    close  any      0/3      0%     0/11     0%   0 (0.00)
+   c on link    close  rare     0/3      0%     0/11     0%   0 (0.00)
+   c on link    near   any      0/3      0%     0/11     0%   0 (0.00)
+   c on link    near   rare     0/3      0%     0/11     0%   0 (0.00)
+-- 32 read races — NOT evidence
+   kind   band   joins   winners with    beaten with   wins (chance)
+   a sky+natal  close  any      0/32     0%     0/177    0%   0 (0.00)
+   a sky+natal  close  rare     0/32     0%     0/177    0%   0 (0.00)
+   a sky+natal  near   any      0/32     0%     0/177    0%   0 (0.00)
+   a sky+natal  near   rare     0/32     0%     0/177    0%   0 (0.00)
+   b H+J        close  any      0/32     0%     0/177    0%   0 (0.00)
+   b H+J        close  rare     0/32     0%     0/177    0%   0 (0.00)
+   b H+J        near   any      1/32     3%     3/177    2%   1 (0.67)
+   b H+J        near   rare     1/32     3%     3/177    2%   1 (0.67)
+   c on link    close  any      1/32     3%     4/177    2%   1 (0.83)
+   c on link    close  rare     1/32     3%     4/177    2%   1 (0.83)
+   c on link    near   any      2/32     6%    11/177    6%   2 (2.43)
+   c on link    near   rare     2/32     6%    11/177    6%   2 (2.43)
+
+== kempton_aw_1440_20210904  (field 5; winner P05 3 Hamish / 3 Pat Dobbs)
+   P01 1 Hukum / 1 Jim Crowley
+   P03 2 Fox Tal / 2 Oisin Murphy
+   P05 3 Hamish / 3 Pat Dobbs   <- WINNER
+   P07 4 Outbox / 4 Luke Morris
+   P09 5 Prince Of Arran / 5 Rossa Ryan
+== fontwell_1645_20210914  (field 4; winner P05 3 Pixie Loc / 3 Ben Jones)
+   P01 1 Eye To The Sky / 1 Gavin Sheehan
+   P03 2 Spike Jones / 2 Alain Cawley
+   P05 3 Pixie Loc / 3 Ben Jones   <- WINNER
+   P07 4 Santesa / 4 Ciaran Gethings
+== goodwood_1853_20210827  (field 5; winner P09 5 Madame Tantzy / 5 Georgia Dobie)
+   P01 1 Stunning Beauty / 1 Stefano Cherchi
+   P03 2 Pretty In Grey / 2 Marco Ghiani
+   P05 3 Lola Showgirl / 3 Laura Pearson
+   P07 4 Dalanijujo / 4 Tom Marquand
+   P09 5 Madame Tantzy / 5 Georgia Dobie   <- WINNER
+
+-- every join in the read races (NOT evidence)
+   carlisle_1630_20220707         P11 8 Lucia Joy / 8 Ben Curtis             (c) near  Regulus: J Mars on link H Orcus – J Mars     held 1/6 RARE   J Mars RA 1.6977 Dec 0.0429 (item 2)
+   carlisle_1630_20220707         P11 8 Lucia Joy / 8 Ben Curtis             (c) near  Regulus: J Mars on link H Transpluto – J Mars held 1/6 RARE   J Mars RA 1.6977 Dec 0.0429 (item 2)
+   carlisle_1630_20220707         P11 8 Lucia Joy / 8 Ben Curtis             (c) close Regulus: J Mercury on link H Orcus – J Mercury held 1/6 RARE   J Mercury RA 1.3026 Dec 0.2463 (item 6)
+   catterick_1505_20211119        P03 2 Mance Rayder / 2 Jamie Hamilton      (c) close Regulus: H Transpluto on link H Transpluto – J Chiron held 1/6 RARE   H Transpluto RA 0.6448 Dec 0.2598 (item 2)
+   catterick_1505_20211119        P07 4 Brian Boranha / 4 Callum Bewley  WIN (b) near  Regulus: H Transpluto + J Sun                held 1/6 RARE   H Transpluto RA 1.3583 Dec 0.0011 | J Sun RA 1.6487 Dec 0.1028
+   catterick_1505_20211119        P07 4 Brian Boranha / 4 Callum Bewley  WIN (c) close Regulus: H Transpluto on link H Transpluto – J Sun held 1/6 RARE   H Transpluto RA 1.3583 Dec 0.0011 (item 2)
+   catterick_1505_20211119        P07 4 Brian Boranha / 4 Callum Bewley  WIN (c) near  Regulus: J Sun on link H Transpluto – J Sun  held 1/6 RARE   J Sun RA 1.6487 Dec 0.1028 (item 2)
+   ffos_las_1420_20220105         P03 3 Emir Sacree / 3 James Bowen          (c) near  Regulus: H Transpluto on link H Transpluto – J Pallas held 1/3 RARE   H Transpluto RA 0.1153 Dec 0.5383 (item 2)
+   huntingdon_1352_20211205       P03 2 Eldorado Allen / 2 Brendan Powel     (c) near  Regulus: H Transpluto on link H Transpluto – J Mars held 1/6 RARE   H Transpluto RA 0.2345 Dec 0.4098 (item 2)
+   huntingdon_1352_20211205       P07 4 Master Tommytucker / 4 Harry Cob     (b) near  Regulus: H Transpluto + J Rahu               held 1/6 RARE   H Transpluto RA 1.1144 Dec 0.0896 | J Rahu RA 1.6234 Dec 0.0951
+   huntingdon_1352_20211205       P07 4 Master Tommytucker / 4 Harry Cob     (c) close Altair: H Pallas on link H Pallas – J Saturn held 1/6 RARE   H Pallas RA 0.8581 Dec 0.0519 (item 2)
+   huntingdon_1352_20211205       P07 4 Master Tommytucker / 4 Harry Cob     (c) close Regulus: H Transpluto on link H Transpluto – J Rahu held 1/6 RARE   H Transpluto RA 1.1144 Dec 0.0896 (item 2)
+   huntingdon_1352_20211205       P07 4 Master Tommytucker / 4 Harry Cob     (c) near  Regulus: J Rahu on link H Transpluto – J Rahu held 1/6 RARE   J Rahu RA 1.6234 Dec 0.0951 (item 2)
+   lingfield_1500_20220123        P05 3 Master Tommytucker / 3 Harry Cob     (b) near  Regulus: H Transpluto + J Rahu               held 1/6 RARE   H Transpluto RA 1.1144 Dec 0.0896 | J Rahu RA 1.6234 Dec 0.0951
+   lingfield_1500_20220123        P05 3 Master Tommytucker / 3 Harry Cob     (c) close Altair: H Pallas on link H Pallas – J Saturn held 1/6 RARE   H Pallas RA 0.8581 Dec 0.0519 (item 2)
+   lingfield_1500_20220123        P05 3 Master Tommytucker / 3 Harry Cob     (c) close Regulus: H Transpluto on link H Transpluto – J Rahu held 1/6 RARE   H Transpluto RA 1.1144 Dec 0.0896 (item 2)
+   lingfield_1500_20220123        P05 3 Master Tommytucker / 3 Harry Cob     (c) near  Regulus: J Rahu on link H Transpluto – J Rahu held 1/6 RARE   J Rahu RA 1.6234 Dec 0.0951 (item 2)
+   newbury_1350_20211126          P01 1 Solo / 1 Harry Cobden                (c) near  Regulus: J Rahu on link H Orcus – J Rahu     held 1/5 RARE   J Rahu RA 1.6234 Dec 0.0951 (item 3)
+   newbury_1350_20211126          P03 2 Mister Coffey / 2 James Bowen        (c) near  Regulus: H Transpluto on link H Transpluto – J Pallas held 1/5 RARE   H Transpluto RA 0.0464 Dec 0.4787 (item 2)
+   newcastle_1540_20220311        P01 1 Vocaliser / 1 Fergus Gregory         (c) near  Regulus: H Transpluto on link H Transpluto – J Chiron held 1/6 RARE   H Transpluto RA 0.466 Dec 0.3255 (item 2)
+   newcastle_1540_20220311        P01 1 Vocaliser / 1 Fergus Gregory         (c) near  Regulus: H Transpluto on link H Transpluto – J Vesta held 1/6 RARE   H Transpluto RA 0.466 Dec 0.3255 (item 2)
+   newcastle_1540_20220311        P07 5 Sir Apollo / 5 Jonathan England      (c) near  Regulus: H Transpluto on link H Transpluto – J Pallas held 1/6 RARE   H Transpluto RA 0.0606 Dec 0.4734 (item 2)
+   newton_abbot_1525_20220717     P03 2 My Lady Grey / 2 Brendan Powell      (c) near  Regulus: H Transpluto on link H Transpluto – J Mars held 1/4 RARE   H Transpluto RA 0.1792 Dec 0.5618 (item 2)
+   wincanton_1420_20220321        P09 5 Birds Of Prey / 5 Harry Cobden       (b) near  Regulus: H Transpluto + J Rahu               held 1/6 RARE   H Transpluto RA 0.2722 Dec 0.3959 | J Rahu RA 1.6234 Dec 0.0951
+   wincanton_1420_20220321        P09 5 Birds Of Prey / 5 Harry Cobden       (c) near  Regulus: H Transpluto on link H Transpluto – J Rahu held 1/6 RARE   H Transpluto RA 0.2722 Dec 0.3959 (item 2)
+   wincanton_1420_20220321        P09 5 Birds Of Prey / 5 Harry Cobden       (c) near  Regulus: J Rahu on link H Orcus – J Rahu     held 1/6 RARE   J Rahu RA 1.6234 Dec 0.0951 (item 6)
+   wincanton_1420_20220321        P09 5 Birds Of Prey / 5 Harry Cobden       (c) near  Regulus: J Rahu on link H Transpluto – J Rahu held 1/6 RARE   J Rahu RA 1.6234 Dec 0.0951 (item 2)
+   newmarket_july_1745_20240816   P01 1 Anniversary / 1 Rob Hornby       WIN (c) near  Regulus: J Mars on link H Transpluto – J Mars held 1/9 RARE   J Mars RA 1.8004 Dec 0.3446 (item 2)
