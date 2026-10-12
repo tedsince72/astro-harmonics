@@ -61,3 +61,13 @@ and Nottingham (horse Sedna – Dawson Chiron, 3 bodies).
 ## No control layer (Eddie, 12 Oct 2026)
 'We don't need the control because often it hits at chance but it's in the detail where it is significant.' Layers report exact offsets,
 how the links fit and how rare they are within the field; no wrong-pairing control.
+
+## Link shapes seen so far (to become layers, one at a time)
+- Cross link struck on both ends by several sky bodies (Perth, Nottingham 15:30).
+- Movement landing on a cross link (many winners; tightness matters); BOTH ends of one cross link moved (Wolverhampton 17:25 2023, only runner).
+- Swap: horse X near jockey Y and horse Y near jockey X (Fontwell 2023: two swaps).
+- Triangle of linked bodies struck at every corner by one sky body (Ascot 2023; also a loser there) — include Ketu.
+- Same number or same ratio in both charts (Nottingham 17:50: 34 and 19/8).
+- Shared node (Venturous, Wholestone) and shared natal pairs, incl. Neptune–Rahu (Wolverhampton 2023, 0.002%).
+- Recurring cross links: horse Sedna – jockey Chiron (Nottingham 15:30, Newton Abbot, Ascot 2023); horse Pluto – jockey Neptune (Huntingdon, Wincanton,
+  Fontwell 2023, Wolverhampton 2023); horse Makemake – jockey Haumea (Newmarket, Perth, Haydock 17:18, Wolverhampton 2023).

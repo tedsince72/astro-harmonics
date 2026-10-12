@@ -14,3 +14,7 @@ Claims to check (winner file __P05):
 5. Jupiter–Sedna: RA H 104.7495 J 14.5038 S 20.4966, J:H 65/9 (0.0001%), S:H 46/9 (0.0105%); O'Neill Uranus–Sedna Dec natal/sky 23/8 (0.0001%);
    horse Eris–Sedna RA 32.003 struck both ends by sky Transpluto (RA 130 | 98).
 6. Equator: sky Saturn 12.99545 (13), sky Vesta 18.99783 (19); Chiron sky/horse 8.0238/4.5146 = 16/9 (0.026%).
+
+## Checker (independent, recomputed): 1–6 confirmed
+- 1: winner the only runner with both ends of a cross link moved. 2: shared Neptune–Rahu RA 0.0016%; Gladly Ever After 0.178% (great circle).
+- Edge hits (0.0045–0.0046 off ±0.005): sky Sedna -> horse Neptune 70, sky Transpluto -> horse Sedna 98, sky Saturn Equator 13.
