@@ -1,5 +1,5 @@
 {
- "version": "L1 v1 (12 Oct 2026)",
+ "version": "L1 v1.2 (12 Oct 2026)",
  "workbook": "newmarket_july_1745_20240816__P09.xlsx",
  "runner": "5 Knights Gold / 5 Marco Ghiani",
  "points": [
@@ -3300,7 +3300,8 @@
    ],
    "ratio": "19/9",
    "dir": "H/S",
-   "err_pct": 0.004
+   "err_pct": 0.004,
+   "band": "tight"
   },
   {
    "body": "Juno",
@@ -3311,7 +3312,21 @@
    ],
    "ratio": "17/5",
    "dir": "J/S",
-   "err_pct": 0.0016
+   "err_pct": 0.0016,
+   "band": "tight"
+  }
+ ],
+ "pair_sets": [
+  {
+   "pair": "Eris\u2013Quaoar",
+   "plane": "RA",
+   "horse": 109.12376,
+   "jockey": 136.36975,
+   "sky": 109.1487,
+   "H:J": "5/4",
+   "H:S": "1",
+   "J:S": "5/4",
+   "worst_pct": 0.0485
   }
  ],
  "node": {

@@ -1,5 +1,5 @@
 {
- "version": "L1 v1 (12 Oct 2026)",
+ "version": "L1 v1.2 (12 Oct 2026)",
  "workbook": "newmarket_july_1745_20240816__P07.xlsx",
  "runner": "4 King Of Cities / 4 Sean Levey",
  "points": [
@@ -2719,7 +2719,57 @@
    ],
    "ratio": "11/7",
    "dir": "J/H",
-   "err_pct": 0.0047
+   "err_pct": 0.0047,
+   "band": "tight"
+  },
+  {
+   "body": "Pallas",
+   "pair": "S/J",
+   "values": [
+    17.25392,
+    7.05926
+   ],
+   "ratio": "22/9",
+   "dir": "S/J",
+   "err_pct": 0.0119,
+   "band": "near"
+  },
+  {
+   "body": "Pallas",
+   "pair": "H/J",
+   "values": [
+    3.96965,
+    7.05926
+   ],
+   "ratio": "16/9",
+   "dir": "J/H",
+   "err_pct": 0.0299,
+   "band": "near"
+  },
+  {
+   "body": "Makemake",
+   "pair": "H/J",
+   "values": [
+    22.99844,
+    36.79035
+   ],
+   "ratio": "8/5",
+   "dir": "J/H",
+   "err_pct": 0.0194,
+   "band": "near"
+  }
+ ],
+ "pair_sets": [
+  {
+   "pair": "Mars\u2013Quaoar",
+   "plane": "GC",
+   "horse": 52.83199,
+   "jockey": 46.22474,
+   "sky": 158.43281,
+   "H:J": "8/7",
+   "H:S": "3",
+   "J:S": "24/7",
+   "worst_pct": 0.0399
   }
  ],
  "node": {

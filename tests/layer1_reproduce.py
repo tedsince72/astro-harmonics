@@ -2,6 +2,24 @@
 """layer1_reproduce.py RACE — check Layer 1 output contains every item found by hand in that race's winner read.
 Expected items per race are listed below (from docs/classic/<race>/winner_read.md, after checker corrections)."""
 import sys, json
+
+def link(I,kind,a,b,pl=None,num=None,close=None):
+    for l in I['links']:
+        if l['kind']==kind and {l['a'],l['b']}=={a,b} or (l['kind']==kind and l['a']==a and l['b']==b):
+            if num and l['nums'].get(pl,{}).get('num')!=num: continue
+            if close and not l['close']: continue
+            return True
+    return False
+def strike(I,sky,tgt,pl,num): return any(s['sky']==sky and s['target']==tgt and s['plane']==pl and s['num']==num for s in I['strikes'])
+def move(I,c,b,pl,num): return any(m['chart']==c and m['body']==b and m['plane']==pl and m['num']==num for m in I['movement'])
+def ratio(I,c,pair,pl,r): return any(x['chart']==c and x['pair']==pair and x['plane']==pl and x['ratio']==r for x in I['ratios'])
+def same(I,b,pl,rs): return any(s['body']==b and s['plane']==pl and sorted(s['ratios'])==sorted(rs) for s in I['same_body'])
+def eqpt(I,c,b,n): return any(p['chart']==c and p['body']==b and p['eq_num']==n for p in I['points'])
+def eqr(I,b,pair,r,band): return any(e['body']==b and e['pair']==pair and e['ratio']==r and e['band']==band for e in I['eq_ratios'])
+def shared(I,pair,pl): return any(s['pair']==pair and s['plane']==pl for s in I['shared'])
+def pset(I,pair,pl): return any(s['pair']==pair and s['plane']==pl for s in I['pair_sets'])
+def sky(race,pair,pl,num): return any(s['pair']==pair and s['plane']==pl and s['num']==num for s in json.load(open(f'docs/classic/{race}/layer1/sky.json')))
+Y='york_1615_20240515'
 EXP = {
  'newmarket_july_1745_20240816': ('P01', [
   ('cross link H Uranus–J Venus Dec 0.060', lambda I: any(l['kind']=='cross' and l['a']=='H Uranus' and l['b']=='J Venus' and abs(l['Dec']-0.060)<0.001 for l in I['links'])),
@@ -31,6 +49,53 @@ EXP = {
   ('J Sedna–Gonggong RA 8/7', lambda I: any(r['chart']=='J' and r['pair']=='Sedna–Gonggong' and r['plane']=='RA' and r['ratio']=='8/7' for r in I['ratios'])),
   ('cross link H Makemake–J Haumea', lambda I: any(l['kind']=='cross' and l['a']=='H Makemake' and l['b']=='J Haumea' and l['close'] for l in I['links'])),
   ('H Mercury–Pluto Dec 3', lambda I: any(l['kind']=='H' and l['a']=='H Mercury' and l['b']=='H Pluto' and l['nums'].get('Dec',{}).get('num')=='3' for l in I['links'])),
+  ('Equator S/J Pallas 27/2 near', lambda I: eqr(I,'Pallas','S/J','27/2','near')),
+  ('Equator H/J Juno 17/8 near', lambda I: eqr(I,'Juno','H/J','17/8','near')),
+  ('Equator H/J Uranus 7/5 tight', lambda I: eqr(I,'Uranus','H/J','7/5','tight')),
+ ]),
+ Y: ('P25', [
+  ('1 cross H Venus–J Uranus (close)', lambda I: link(I,'cross','H Venus','J Uranus',close=True)),
+  ('3 H Venus moved Dec 40', lambda I: move(I,'H','Venus','Dec','40')),
+  ('3 J Uranus moved GC 135', lambda I: move(I,'J','Uranus','GC','135')),
+  ('4 H Venus–Saturn GC 12/5', lambda I: ratio(I,'H','Venus–Saturn','GC','12/5')),
+  ('4 J Uranus–Pluto GC 15/7', lambda I: ratio(I,'J','Uranus–Pluto','GC','15/7')),
+  ('5 H Mercury–Saturn GC 19/3', lambda I: ratio(I,'H','Mercury–Saturn','GC','19/3')),
+  ('5 J Venus–Saturn close', lambda I: link(I,'J','J Venus','J Saturn',close=True)),
+  ('6 H Mercury–Saturn close', lambda I: link(I,'H','H Mercury','H Saturn',close=True)),
+  ('6 J Mercury–Saturn close', lambda I: link(I,'J','J Mercury','J Saturn',close=True)),
+  ('6 H Mars–Uranus close', lambda I: link(I,'H','H Mars','H Uranus',close=True)),
+  ('6 J Mars–Uranus close', lambda I: link(I,'J','J Mars','J Uranus',close=True)),
+  ('7 sky Neptune–Uranus RA 51', lambda I: sky(Y,'Uranus–Neptune','RA','51')),
+  ('8 H Chiron–Transpluto Dec 11/2', lambda I: ratio(I,'H','Chiron–Transpluto','Dec','11/2')),
+  ('9 J Makemake–Transpluto RA 7/4', lambda I: ratio(I,'J','Makemake–Transpluto','RA','7/4')),
+  ('10 H Chiron–Quaoar GC 9/8', lambda I: ratio(I,'H','Chiron–Quaoar','GC','9/8')),
+  ('10 J Chiron–Vesta GC 3/2', lambda I: ratio(I,'J','Chiron–Vesta','GC','3/2')),
+  ('11 H Quaoar moved RA 5', lambda I: move(I,'H','Quaoar','RA','5')),
+  ('11 cross H Quaoar–J Mars', lambda I: link(I,'cross','H Quaoar','J Mars',close=True)),
+  ('11 cross H Quaoar–J Rahu', lambda I: link(I,'cross','H Quaoar','J Rahu',close=True)),
+  ('11 J Rahu–Sedna Dec 27/4', lambda I: ratio(I,'J','Rahu–Sedna','Dec','27/4')),
+  ('11 sky Pluto -> H Quaoar RA 30', lambda I: strike(I,'Pluto','H Quaoar','RA','30')),
+  ('11 sky Pluto -> J Sun Dec 62/9', lambda I: strike(I,'Pluto','J Sun','Dec','62/9')),
+  ('12 shared Eris–Haumea Flat', lambda I: shared(I,'Eris–Haumea','Flat')),
+  ('12 pair set Eris–Orcus GC', lambda I: pset(I,'Eris–Orcus','GC')),
+  ('13 cross H Makemake–J Haumea', lambda I: link(I,'cross','H Makemake','J Haumea',close=True)),
+  ('14 H Rahu Equator 23', lambda I: eqpt(I,'H','Rahu','23')),
+  ('14 sky Sun Equator 19', lambda I: eqpt(I,'S','Sun','19')),
+  ('17 node same-body Dec 9/4:5/4:9/5', lambda I: same(I,'Rahu','Dec',['9/4','5/4','9/5'])),
+  ('17 Chiron same-body GC 6:5:6/5', lambda I: same(I,'Chiron','GC',['6','5','6/5'])),
+  ('17 Quaoar Flat set NOT listed (p > 30)', lambda I: not any(s['body']=='Quaoar' and s['plane']=='Flat' for s in I['same_body'])),
+  ('19 H Mercury–Transpluto Dec 30', lambda I: link(I,'H','H Mercury','H Transpluto','Dec','30')),
+  ('20 sky Uranus–Pluto Dec 41', lambda I: sky(Y,'Uranus–Pluto','Dec','41')),
+  ('20 sky Chiron–Sedna RA 370/9', lambda I: sky(Y,'Chiron–Sedna','RA','370/9')),
+  ('20 sky Venus–Rahu Dec 100/9', lambda I: sky(Y,'Venus–Rahu','Dec','100/9')),
+  ('21 Equator S/H Mercury 7/3 tight', lambda I: eqr(I,'Mercury','S/H','7/3','tight')),
+  ('22 J Pallas Equator 14', lambda I: eqpt(I,'J','Pallas','14')),
+  ('22 sky Quaoar Equator 15', lambda I: eqpt(I,'S','Quaoar','15')),
+  ('23 sky Sun -> H Ketu Dec 42', lambda I: strike(I,'Sun','H Ketu','Dec','42')),
+  ('23 sky Sun -> J Pallas Dec 33', lambda I: strike(I,'Sun','J Pallas','Dec','33')),
+  ('23 sky Sun – H Rahu Dec 4.00502: outside strike ±0.005 (not listed); both Equator roots 19 and 23 are listed for Layer 2',
+   lambda I: not strike(I,'Sun','H Rahu','Dec','4') and eqpt(I,'S','Sun','19') and eqpt(I,'H','Rahu','23')),
+  ('23 cross H Ketu–J Pallas Dec 9', lambda I: link(I,'cross','H Ketu','J Pallas','Dec','9')),
  ]),
 }
 race = sys.argv[1]; P, checks = EXP[race]

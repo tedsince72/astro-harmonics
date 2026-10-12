@@ -13,3 +13,13 @@ Planes: RA, Dec, Flat, GC (+ Equator). Rahu and Ketu both listed (duplicates by 
   section; frac() correct; RA wrap and GC fine. Older-tool items not in Layer 1 are rule differences only: values < 0.5 (sky Juno–Rahu Dec 3/9);
   Equator ratios between 0.01% and 0.03% (Juno H/J 17/8 0.027%, Pallas S/J 27/2 0.012%). Old equator_ratios.py missed S/H 11/4 (wrote 4/11, q > 9).
   Hardening added: load() asserts all 24 bodies present and no duplicates.
+
+## v1.1 / v1.2 (12 Oct 2026, with Eddie)
+- Equator ratios: listed up to 0.03%, each marked 'tight' (<= 0.01%) or 'near' (0.01–0.03%). Near items are kept but Layer 3 uses them
+  only when they join the web; Layer 4 reports tight and near separately.
+- Pair sets added (horse : jockey : sky on one pair, all simple, 1 allowed, worst <= 0.05%), as three_way_all.py. Difference: a set where all
+  three are 1 is not listed here (it is a shared pair with the sky equal — see 'shared', field sky_equal_pct).
+- York 16:15 (15 May 2024): 41/41 hand items accounted for. One read item, sky Sun – horse Rahu Dec 4.00502, is just outside the ±0.005 strike
+  window and is not listed as a strike; its two roots (sky Sun Equator 19, horse Rahu Equator 23) are listed, and Layer 2 derives it.
+  The withdrawn Quaoar Flat same-body set (63/8, p > 30) is correctly absent.
+- Newmarket July 17:45: 30/30.

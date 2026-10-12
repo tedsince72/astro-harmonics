@@ -1,5 +1,5 @@
 {
- "version": "L1 v1 (12 Oct 2026)",
+ "version": "L1 v1.2 (12 Oct 2026)",
  "workbook": "newmarket_july_1745_20240816__P15.xlsx",
  "runner": "8 Vecu / 8 Robert Havlin",
  "points": [
@@ -3510,9 +3510,23 @@
    ],
    "ratio": "5/3",
    "dir": "J/S",
-   "err_pct": 0.0078
+   "err_pct": 0.0078,
+   "band": "tight"
+  },
+  {
+   "body": "Jupiter",
+   "pair": "H/J",
+   "values": [
+    7.13396,
+    18.55381
+   ],
+   "ratio": "13/5",
+   "dir": "J/H",
+   "err_pct": 0.0298,
+   "band": "near"
   }
  ],
+ "pair_sets": [],
  "node": {
   "rahu_rahu_ra": 143.6755,
   "rahu_ketu_ra": 36.3245,

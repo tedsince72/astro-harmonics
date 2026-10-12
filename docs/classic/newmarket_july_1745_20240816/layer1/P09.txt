@@ -1,4 +1,4 @@
-== 5 Knights Gold / 5 Marco Ghiani   [newmarket_july_1745_20240816__P09.xlsx, L1 v1 (12 Oct 2026)]
+== 5 Knights Gold / 5 Marco Ghiani   [newmarket_july_1745_20240816__P09.xlsx, L1 v1.2 (12 Oct 2026)]
 -- Equator whole/ninth (natal): none
 -- cross links (close: RA < 1.5 or Dec < 0.3)
    H Venus        – J Venus        RA    0.0527 Dec   1.0273 GC    1.0286
@@ -147,8 +147,10 @@
    Pallas–Haumea          Flat H 171.7561 J 172.3139 (0.325%) sky 22.9738 S~H ('15/2', 0.3177) S~J ('15/2', 0.006)
    Gonggong–Orcus         GC   H 157.2464 J 156.6739 (0.365%) sky 157.1284 S~H None S~J None
 -- Equator ratios
-   Saturn     S/H [6.98537, 14.74749] H/S 19/9 (0.0040%)
-   Juno       S/J [3.16579, 10.76385] J/S 17/5 (0.0016%)
+   Saturn     S/H [6.98537, 14.74749] H/S 19/9 (0.0040%) tight
+   Juno       S/J [3.16579, 10.76385] J/S 17/5 (0.0016%) tight
+-- pair sets (horse : jockey : sky on one pair)
+   Eris–Quaoar            RA   H 109.1238 J 136.3698 S 109.1487  H:J 5/4 H:S 1 J:S 5/4  worst 0.0485%
 -- node: H Rahu–J Rahu RA 94.6538, H Rahu–J Ketu RA 85.3462
 -- sky strikes on natal bodies: 82 (in json; by target below)
    H Ceres         2: Neptune Dec 27; Haumea GC 124

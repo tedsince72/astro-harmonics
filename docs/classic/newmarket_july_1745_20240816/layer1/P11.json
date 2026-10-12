@@ -1,5 +1,5 @@
 {
- "version": "L1 v1 (12 Oct 2026)",
+ "version": "L1 v1.2 (12 Oct 2026)",
  "workbook": "newmarket_july_1745_20240816__P11.xlsx",
  "runner": "6 Scandinavia / 6 Tom Marquand",
  "points": [
@@ -3187,9 +3187,35 @@
    ],
    "ratio": "9/7",
    "dir": "H/S",
-   "err_pct": 0.0016
+   "err_pct": 0.0016,
+   "band": "tight"
+  },
+  {
+   "body": "Rahu",
+   "pair": "H/J",
+   "values": [
+    18.32206,
+    7.71249
+   ],
+   "ratio": "19/8",
+   "dir": "H/J",
+   "err_pct": 0.0267,
+   "band": "near"
+  },
+  {
+   "body": "Ketu",
+   "pair": "H/J",
+   "values": [
+    18.32206,
+    7.71249
+   ],
+   "ratio": "19/8",
+   "dir": "H/J",
+   "err_pct": 0.0267,
+   "band": "near"
   }
  ],
+ "pair_sets": [],
  "node": {
   "rahu_rahu_ra": 111.9883,
   "rahu_ketu_ra": 68.0117,

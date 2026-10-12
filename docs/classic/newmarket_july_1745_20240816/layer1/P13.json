@@ -1,5 +1,5 @@
 {
- "version": "L1 v1 (12 Oct 2026)",
+ "version": "L1 v1.2 (12 Oct 2026)",
  "workbook": "newmarket_july_1745_20240816__P13.xlsx",
  "runner": "7 Sedate / 7 Joshua Bryan",
  "points": [
@@ -3505,7 +3505,45 @@
    "sky_equal_pct": 0.0521
   }
  ],
- "eq_ratios": [],
+ "eq_ratios": [
+  {
+   "body": "Saturn",
+   "pair": "H/J",
+   "values": [
+    16.41522,
+    14.58891
+   ],
+   "ratio": "9/8",
+   "dir": "H/J",
+   "err_pct": 0.0164,
+   "band": "near"
+  },
+  {
+   "body": "Sedna",
+   "pair": "H/J",
+   "values": [
+    8.0846,
+    5.39065
+   ],
+   "ratio": "3/2",
+   "dir": "H/J",
+   "err_pct": 0.017,
+   "band": "near"
+  },
+  {
+   "body": "Transpluto",
+   "pair": "S/J",
+   "values": [
+    10.22394,
+    13.14671
+   ],
+   "ratio": "9/7",
+   "dir": "J/S",
+   "err_pct": 0.0125,
+   "band": "near"
+  }
+ ],
+ "pair_sets": [],
  "node": {
   "rahu_rahu_ra": 81.7772,
   "rahu_ketu_ra": 98.2228,

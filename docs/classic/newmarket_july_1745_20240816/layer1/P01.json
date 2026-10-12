@@ -1,5 +1,5 @@
 {
- "version": "L1 v1 (12 Oct 2026)",
+ "version": "L1 v1.2 (12 Oct 2026)",
  "workbook": "newmarket_july_1745_20240816__P01.xlsx",
  "runner": "1 Anniversary / 1 Rob Hornby",
  "points": [
@@ -3413,7 +3413,8 @@
    ],
    "ratio": "7/5",
    "dir": "J/H",
-   "err_pct": 0.0058
+   "err_pct": 0.0058,
+   "band": "tight"
   },
   {
    "body": "Neptune",
@@ -3424,7 +3425,8 @@
    ],
    "ratio": "11/4",
    "dir": "H/S",
-   "err_pct": 0.0093
+   "err_pct": 0.0093,
+   "band": "tight"
   },
   {
    "body": "Ceres",
@@ -3435,9 +3437,35 @@
    ],
    "ratio": "7/6",
    "dir": "J/H",
-   "err_pct": 0.0071
+   "err_pct": 0.0071,
+   "band": "tight"
+  },
+  {
+   "body": "Pallas",
+   "pair": "S/J",
+   "values": [
+    17.25392,
+    1.27791
+   ],
+   "ratio": "27/2",
+   "dir": "S/J",
+   "err_pct": 0.0121,
+   "band": "near"
+  },
+  {
+   "body": "Juno",
+   "pair": "H/J",
+   "values": [
+    11.19055,
+    5.26755
+   ],
+   "ratio": "17/8",
+   "dir": "H/J",
+   "err_pct": 0.0267,
+   "band": "near"
   }
  ],
+ "pair_sets": [],
  "node": {
   "rahu_rahu_ra": 159.0252,
   "rahu_ketu_ra": 20.9748,

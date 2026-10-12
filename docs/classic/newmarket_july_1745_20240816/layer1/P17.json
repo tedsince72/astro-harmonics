@@ -1,5 +1,5 @@
 {
- "version": "L1 v1 (12 Oct 2026)",
+ "version": "L1 v1.2 (12 Oct 2026)",
  "workbook": "newmarket_july_1745_20240816__P17.xlsx",
  "runner": "9 Big Gypsy King / 9 Neil Callan",
  "points": [
@@ -3289,7 +3289,33 @@
    "sky_equal_pct": 29.5945
   }
  ],
- "eq_ratios": [],
+ "eq_ratios": [
+  {
+   "body": "Pallas",
+   "pair": "H/J",
+   "values": [
+    4.28976,
+    24.31419
+   ],
+   "ratio": "17/3",
+   "dir": "J/H",
+   "err_pct": 0.0228,
+   "band": "near"
+  }
+ ],
+ "pair_sets": [
+  {
+   "pair": "Saturn\u2013Neptune",
+   "plane": "RA",
+   "horse": 29.33696,
+   "jockey": 104.75206,
+   "sky": 10.47935,
+   "H:J": "25/7",
+   "H:S": "14/5",
+   "J:S": "10",
+   "worst_pct": 0.0396
+  }
+ ],
  "node": {
   "rahu_rahu_ra": 129.7814,
   "rahu_ketu_ra": 50.2186,

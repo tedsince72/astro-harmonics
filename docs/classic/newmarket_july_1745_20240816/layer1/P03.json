@@ -1,5 +1,5 @@
 {
- "version": "L1 v1 (12 Oct 2026)",
+ "version": "L1 v1.2 (12 Oct 2026)",
  "workbook": "newmarket_july_1745_20240816__P03.xlsx",
  "runner": "2 Arabian Poet / 2 William Buick",
  "points": [
@@ -3107,7 +3107,8 @@
    ],
    "ratio": "22/7",
    "dir": "H/J",
-   "err_pct": 0.0069
+   "err_pct": 0.0069,
+   "band": "tight"
   },
   {
    "body": "Ketu",
@@ -3118,9 +3119,11 @@
    ],
    "ratio": "22/7",
    "dir": "H/J",
-   "err_pct": 0.0069
+   "err_pct": 0.0069,
+   "band": "tight"
   }
  ],
+ "pair_sets": [],
  "node": {
   "rahu_rahu_ra": 63.3559,
   "rahu_ketu_ra": 116.6441,

@@ -13,7 +13,9 @@ Lists everything, judges nothing. For each runner workbook (sheets TRANS = race 
               (here equal counts, as 1, but not all three equal — fixed stars are therefore never sets)
   Rahu and Ketu are both listed everywhere (duplicates by symmetry); Layer 2 folds them.
   shared      same pair, horse value vs jockey value within SHARED_TOL (values >= 1), with the sky value and its ratio to each
-  eq_ratios   Equator S/H, S/J, H/J simple (p <= 30, q <= 9, not 1) within EQ_RATIO_TOL
+  eq_ratios   Equator S/H, S/J, H/J simple (p <= 30, q <= 9, not 1) within EQ_NEAR_TOL; band 'tight' (<= EQ_RATIO_TOL) or 'near'
+  pair_sets   one pair, horse : jockey : sky values all in simple ratio (p <= 30, q <= 9; 1 allowed, not all three 1), worst <= PAIRSET_TOL
+              (as three_way_all.py; Neptune–node sets recur)
   node        horse node vs jockey node (Rahu–Rahu and Rahu–Ketu) RA offsets
 And once per race: sky pair whole/ninth values (sky numbers), the same for every runner.
 Every item carries the exact value and its offset. Stars and Moon are not read. Output: OUTDIR/<P>.json, <P>.txt, sky.json, sky.txt."""
@@ -28,11 +30,13 @@ EQ_WHOLE, EQ_NINTH = 0.01, 0.0011     # Equator values
 RATIO_TOL = 0.00005                   # 0.005 %
 SAME_TOL = 0.0015                     # 0.15 %
 SHARED_TOL = 0.005                    # 0.5 %
-EQ_RATIO_TOL = 0.0001                 # 0.01 %
+EQ_RATIO_TOL = 0.0001                 # 0.01 %  tight
+EQ_NEAR_TOL = 0.0003                  # 0.03 %  near band (Eddie 12 Oct: list, mark, use only when joined)
 CLOSE_RA, CLOSE_DEC_IN, CLOSE_DEC_X = 1.5, 0.6, 0.3
 MIN_V = 0.5
+PAIRSET_TOL = 0.0005                  # 0.05 %
 PMAX, QMAX = 30, 9
-VERSION = 'L1 v1 (12 Oct 2026)'
+VERSION = 'L1 v1.2 (12 Oct 2026)'
 
 def rd(a, b): return abs((a[0] - b[0] + 180) % 360 - 180)
 def dd(a, b): return abs(a[1] - b[1])
@@ -201,10 +205,27 @@ def inventory(path):
         for x, y in (('S', 'H'), ('S', 'J'), ('H', 'J')):
             if min(e[x], e[y]) < MIN_V: continue
             r = frac(max(e[x], e[y]) / min(e[x], e[y]))
-            if r and r[1] <= EQ_RATIO_TOL:
+            if r and r[1] <= EQ_NEAR_TOL:
                 er.append({'body': b, 'pair': f'{x}/{y}', 'values': [round(e[x], 5), round(e[y], 5)],
-                           'ratio': r[0], 'dir': f'{x}/{y}' if e[x] >= e[y] else f'{y}/{x}', 'err_pct': round(r[1] * 100, 4)})
+                           'ratio': r[0], 'dir': f'{x}/{y}' if e[x] >= e[y] else f'{y}/{x}', 'err_pct': round(r[1] * 100, 4),
+                           'band': 'tight' if r[1] <= EQ_RATIO_TOL else 'near'})
     inv['eq_ratios'] = er
+
+    # pair sets: horse : jockey : sky on one pair
+    ps = []
+    def frac1(x):
+        if x - 1 <= PAIRSET_TOL: return ('1', x - 1)
+        return frac(x)
+    for a, b in itertools.combinations(BOD, 2):
+        if node_pair(a, b): continue
+        for pl, f in PLANES:
+            hv, jv, sv = f(H[a], H[b]), f(J[a], J[b]), f(S[a], S[b])
+            if min(hv, jv, sv) < MIN_V: continue
+            rs = [frac1(max(x, y) / min(x, y)) for x, y in ((hv, jv), (hv, sv), (jv, sv))]
+            if all(rs) and max(r[1] for r in rs) <= PAIRSET_TOL and any(r[0] != '1' for r in rs):
+                ps.append({'pair': f'{a}–{b}', 'plane': pl, 'horse': round(hv, 5), 'jockey': round(jv, 5), 'sky': round(sv, 5),
+                           'H:J': rs[0][0], 'H:S': rs[1][0], 'J:S': rs[2][0], 'worst_pct': round(max(r[1] for r in rs) * 100, 4)})
+    inv['pair_sets'] = ps
 
     # node
     inv['node'] = {'rahu_rahu_ra': round(rd(H['Rahu'], J['Rahu']), 4), 'rahu_ketu_ra': round(rd(H['Rahu'], J['Ketu']), 4),
@@ -253,7 +274,10 @@ def text(inv):
         L.append(f"   {s['pair']:22s} {s['plane']:4s} H {s['horse']:.4f} J {s['jockey']:.4f} ({s['diff_pct']:.3f}%) sky {s['sky']:.4f} S~H {s['sky_vs_horse']} S~J {s['sky_vs_jockey']}")
     L.append('-- Equator ratios')
     for e in inv['eq_ratios']:
-        L.append(f"   {e['body']:10s} {e['pair']} {e['values']} {e['dir']} {e['ratio']} ({e['err_pct']:.4f}%)")
+        L.append(f"   {e['body']:10s} {e['pair']} {e['values']} {e['dir']} {e['ratio']} ({e['err_pct']:.4f}%) {e['band']}")
+    L.append('-- pair sets (horse : jockey : sky on one pair)')
+    for s in sorted(inv['pair_sets'], key=lambda s: s['worst_pct']):
+        L.append(f"   {s['pair']:22s} {s['plane']:4s} H {s['horse']:.4f} J {s['jockey']:.4f} S {s['sky']:.4f}  H:J {s['H:J']} H:S {s['H:S']} J:S {s['J:S']}  worst {s['worst_pct']:.4f}%")
     L.append(f"-- node: H Rahu–J Rahu RA {inv['node']['rahu_rahu_ra']}, H Rahu–J Ketu RA {inv['node']['rahu_ketu_ra']}")
     L.append(f"-- sky strikes on natal bodies: {len(inv['strikes'])} (in json; by target below)")
     by = {}
@@ -276,4 +300,4 @@ if __name__ == '__main__':
             json.dump(sky, open(f'{O}/sky.json', 'w'), indent=1)
             open(f'{O}/sky.txt', 'w').write('\n'.join(f"{s['pair']:22s} {s['plane']:4s} {s['value']:10.5f} = {s['num']} ({s['off']:+.5f})" for s in sky) + '\n')
         print(f"{t} {inv['runner']}: links {len(inv['links'])} strikes {len(inv['strikes'])} ratios {len(inv['ratios'])} moves {len(inv['movement'])} "
-              f"same_body {len(inv['same_body'])} shared {len(inv['shared'])} eq_ratios {len(inv['eq_ratios'])}")
+              f"same_body {len(inv['same_body'])} shared {len(inv['shared'])} eq_ratios {len(inv['eq_ratios'])} pair_sets {len(inv['pair_sets'])}")
