@@ -1,6 +1,10 @@
-== catterick_1505_20211119  field of 6   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== catterick_1505_20211119  field of 6   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Reve / 1 Sean Bowen; P03 2 Mance Rayder / 2 Jamie Hamilton; P05 3 Red Giant / 3 Sean Quinlan; P07 4 Brian Boranha / 4 Callum Bewley; P09 5 Cracking Find / 5 Ryan Mania; P11 6 Blazer / 6 Alain Cawley
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: P11 (t 0.867)
+   [14] shared pair also cross-linked: none
+   [15] pair set H:J:S: P03 (t 0.686), P07 (t 0.758), P05 (t 0.820), P11 (t 0.972)
 [ 1] cross link struck on both ends by 2+ sky bodies
      strict ONLY P09: P09(t 0.950, x1)
             tightest P09: H Ketu – J Jupiter RA 11.6936 Dec 0.2281 struck by 2 sky bodies — Node: sky Ketu -> H Ketu Flat 160.00379 (160) | sky Rahu -> J Jupiter GC 35.11102 (316/9); Orcus: sky Orcus -> H Ketu RA 72.11077 (649/9) | sky Orcus -> J Jupiter Dec 35.00475 (35)
@@ -36,7 +40,7 @@
             tightest P03: swap Node/Sedna: H Ketu – J Sedna RA 0.3705 Dec 12.1913; H Sedna – J Ketu RA 1.9837 Dec 11.6875 (near band)
 [ 8] triangle struck at every corner by one sky body
      strict 5 of 6: P03(t 0.720, x1)  P01(t 0.740, x1)  P11(t 0.800, x1)  P05(t 0.860, x1)  P07(t 0.940, x1)
-            tightest P03: triangle H Ceres / J Ceres / J Uranus [one plane (RA)]: H Ceres–J Ceres RA 34.66685 (312/9), H Ceres–J Uranus RA 155.44427 (1399/9), J Ceres–J Uranus RA 120.77742 (1087/9) — sky Jupiter: sky Jupiter -> H Ceres RA 127.55553 (1148/9); sky Jupiter -> J Ceres RA 92.88869 (836/9); sky Jupiter -> J Uranus RA 27.88874 (251/9)
+            tightest P03: triangle H Ceres / J Ceres / J Uranus [one plane (RA)]: H Ceres–J Ceres RA 34.66685 (312/9, ninth), H Ceres–J Uranus RA 155.44427 (1399/9, ninth), J Ceres–J Uranus RA 120.77742 (1087/9, ninth) [3 ninth sides] — sky Jupiter: sky Jupiter -> H Ceres RA 127.55553 (1148/9); sky Jupiter -> J Ceres RA 92.88869 (836/9); sky Jupiter -> J Uranus RA 27.88874 (251/9)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 6 of 6: P05(t 0.280, x4)  P07(t 0.360, x9)  P09(t 0.422, x6)  P11(t 0.480, x7)  P03(t 0.540, x5)  P01(t 0.720, x4)
             tightest P05: J Pallas–Ketu Flat 46.88903 = 422/9 struck by 1 sky body — Pluto: sky Pluto -> J Pallas Dec 23.33346 (210/9) | sky Pluto -> J Ketu RA 41.77777 (376/9)
@@ -123,10 +127,10 @@
      strict 6 of 6: P07(t 0.000, x1)  P11(t 0.015, x1)  P01(t 0.070, x1)  P03(t 0.099, x1)  P05(t 0.125, x1)  P09(t 0.147, x1)
             tightest P07: tightest cross link H Sun – J Vesta RA 31.1210 Dec 0.0001
 [33] node loop
-     strict ONLY P05: P05(t 0.867, x8)
+     strict ONLY P05: P05(t 0.867, x14)
             tightest P05: loop of 5: H Node -> H Quaoar -> J Jupiter -> J Node -> J Haumea -> H Node — H Rahu–H Quaoar RA 1.0263 Dec 7.8496; H Quaoar–J Jupiter RA 1.3005 Dec 7.3820; J Jupiter–J Ketu RA 5.8332 Dec 0.0995; J Rahu–J Haumea RA 107.6630 Dec 0.4364; H Ketu–J Haumea RA 99.5031 Dec 0.1307
-     near   2 of 6: P11(t 0.361, x1)  P05(t 0.727, x11)
-            tightest P11: loop of 4: H Node -> J Node -> H Uranus -> J Uranus -> H Node  (closed through the same body in both charts: Node, Uranus) — H Node = J Node (same body); H Uranus–J Rahu RA 0.3535 Dec 0.9242; H Uranus = J Uranus (same body); H Rahu–J Uranus RA 1.4715 Dec 0.1084
+     near   2 of 6: P11(t 0.361, x1)  P05(t 0.727, x5)
+            tightest P11: loop of 4: H Node -> J Node -> H Uranus -> J Uranus -> H Node  (closed through the same body in both charts: Node, Uranus)  (2 distinct bodies) — H Node = J Node (same body); H Uranus–J Rahu RA 0.3535 Dec 0.9242; H Uranus = J Uranus (same body); H Rahu–J Uranus RA 1.4715 Dec 0.1084
 -- field-only (strict) per runner
    P01 1 Reve / 1 Sean Bowen: -
    P03 2 Mance Rayder / 2 Jamie Hamilton: -

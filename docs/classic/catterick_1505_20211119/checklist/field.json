@@ -1,5 +1,5 @@
 {
- "version": "CR v1 (12 Oct 2026)",
+ "version": "CR v1.1 (12 Oct 2026, joins field-relative)",
  "race": "catterick_1505_20211119",
  "step": 4,
  "n": 6,
@@ -363,31 +363,31 @@
      "P01": {
       "n": 1,
       "best": 0.74,
-      "what": "triangle H Quaoar / J Eris / J Pallas [one plane (RA)]: H Quaoar\u2013J Eris RA 117.22226 (1055/9), H Quaoar\u2013J Pallas RA 18.66633 (168/9), J Eris\u2013J Pallas RA 98.55593 (887/9) \u2014 sky Mars: sky Mars -> H Quaoar RA 45.55566 (410/9); sky Mars -> J Eris RA 162.77792 (1465/9); sky Mars -> J Pallas RA 64.22199 (578/9)",
+      "what": "triangle H Quaoar / J Eris / J Pallas [one plane (RA)]: H Quaoar\u2013J Eris RA 117.22226 (1055/9, ninth), H Quaoar\u2013J Pallas RA 18.66633 (168/9, ninth), J Eris\u2013J Pallas RA 98.55593 (887/9, ninth) [3 ninth sides] \u2014 sky Mars: sky Mars -> H Quaoar RA 45.55566 (410/9); sky Mars -> J Eris RA 162.77792 (1465/9); sky Mars -> J Pallas RA 64.22199 (578/9)",
       "rank": 2
      },
      "P03": {
       "n": 1,
       "best": 0.72,
-      "what": "triangle H Ceres / J Ceres / J Uranus [one plane (RA)]: H Ceres\u2013J Ceres RA 34.66685 (312/9), H Ceres\u2013J Uranus RA 155.44427 (1399/9), J Ceres\u2013J Uranus RA 120.77742 (1087/9) \u2014 sky Jupiter: sky Jupiter -> H Ceres RA 127.55553 (1148/9); sky Jupiter -> J Ceres RA 92.88869 (836/9); sky Jupiter -> J Uranus RA 27.88874 (251/9)",
+      "what": "triangle H Ceres / J Ceres / J Uranus [one plane (RA)]: H Ceres\u2013J Ceres RA 34.66685 (312/9, ninth), H Ceres\u2013J Uranus RA 155.44427 (1399/9, ninth), J Ceres\u2013J Uranus RA 120.77742 (1087/9, ninth) [3 ninth sides] \u2014 sky Jupiter: sky Jupiter -> H Ceres RA 127.55553 (1148/9); sky Jupiter -> J Ceres RA 92.88869 (836/9); sky Jupiter -> J Uranus RA 27.88874 (251/9)",
       "rank": 1
      },
      "P05": {
       "n": 1,
       "best": 0.86,
-      "what": "triangle H Juno / J Pluto / J Vesta [one plane (Dec)]: H Juno\u2013J Pluto Dec 5.99970 (6), H Juno\u2013J Vesta Dec 8.99645 (9), J Pluto\u2013J Vesta Dec 14.99615 (15) \u2014 sky Sun: sky Sun -> H Juno Flat 73.99937 (74); sky Sun -> J Pluto RA 19.88875 (179/9); sky Sun -> J Vesta GC 155.22179 (1397/9)",
+      "what": "triangle H Juno / J Pluto / J Vesta [one plane (Dec)]: H Juno\u2013J Pluto Dec 5.99970 (6), H Juno\u2013J Vesta Dec 8.99645 (9), J Pluto\u2013J Vesta Dec 14.99615 (15) [all whole] \u2014 sky Sun: sky Sun -> H Juno Flat 73.99937 (74); sky Sun -> J Pluto RA 19.88875 (179/9); sky Sun -> J Vesta GC 155.22179 (1397/9)",
       "rank": 4
      },
      "P07": {
       "n": 1,
       "best": 0.94,
-      "what": "triangle H Ceres / H Gonggong / H Haumea [one plane (Dec)]: H Ceres\u2013H Gonggong Dec 1.00101 (1), H Ceres\u2013H Haumea Dec 31.99814 (32), H Gonggong\u2013H Haumea Dec 32.99915 (33) \u2014 sky Neptune: sky Neptune -> H Ceres RA 2.11077 (19/9); sky Neptune -> H Gonggong Dec 8.88842 (80/9); sky Neptune -> H Haumea Dec 24.11073 (217/9)",
+      "what": "triangle H Ceres / H Gonggong / H Haumea [one plane (Dec)]: H Ceres\u2013H Gonggong Dec 1.00101 (1), H Ceres\u2013H Haumea Dec 31.99814 (32), H Gonggong\u2013H Haumea Dec 32.99915 (33) [all whole] \u2014 sky Neptune: sky Neptune -> H Ceres RA 2.11077 (19/9); sky Neptune -> H Gonggong Dec 8.88842 (80/9); sky Neptune -> H Haumea Dec 24.11073 (217/9)",
       "rank": 5
      },
      "P11": {
       "n": 1,
       "best": 0.8,
-      "what": "triangle H Vesta / J Gonggong / J Neptune [mixed planes]: H Vesta\u2013J Gonggong Dec 2.77815 (25/9), H Vesta\u2013J Neptune Dec 4.00400 (4), J Gonggong\u2013J Neptune GC 47.99962 (48) \u2014 sky Node: sky Ketu -> H Vesta Dec 2.11124 (19/9); sky Ketu -> J Gonggong Dec 0.66691 (6/9); sky Ketu -> J Neptune Flat 36.99982 (37)",
+      "what": "triangle H Vesta / J Gonggong / J Neptune [mixed planes]: H Vesta\u2013J Gonggong Dec 2.77815 (25/9, ninth), H Vesta\u2013J Neptune Dec 4.00400 (4), J Gonggong\u2013J Neptune GC 47.99962 (48) [1 ninth side] \u2014 sky Node: sky Ketu -> H Vesta Dec 2.11124 (19/9); sky Ketu -> J Gonggong Dec 0.66691 (6/9); sky Ketu -> J Neptune Flat 36.99982 (37)",
       "rank": 3
      }
     },
@@ -1490,7 +1490,7 @@
     "k": 1,
     "runners": {
      "P05": {
-      "n": 8,
+      "n": 14,
       "best": 0.867,
       "what": "loop of 5: H Node -> H Quaoar -> J Jupiter -> J Node -> J Haumea -> H Node \u2014 H Rahu\u2013H Quaoar RA 1.0263 Dec 7.8496; H Quaoar\u2013J Jupiter RA 1.3005 Dec 7.3820; J Jupiter\u2013J Ketu RA 5.8332 Dec 0.0995; J Rahu\u2013J Haumea RA 107.6630 Dec 0.4364; H Ketu\u2013J Haumea RA 99.5031 Dec 0.1307",
       "rank": 1
@@ -1502,15 +1502,15 @@
     "k": 2,
     "runners": {
      "P05": {
-      "n": 11,
+      "n": 5,
       "best": 0.7273,
-      "what": "loop of 3: H Node -> J Haumea -> J Node -> H Node  (closed through the same body in both charts: Node) \u2014 H Ketu\u2013J Haumea RA 99.5031 Dec 0.1307; J Rahu\u2013J Haumea RA 107.6630 Dec 0.4364; J Node = H Node (same body)",
+      "what": "loop of 3: H Node -> J Haumea -> J Node -> H Node  (closed through the same body in both charts: Node)  (2 distinct bodies) \u2014 H Ketu\u2013J Haumea RA 99.5031 Dec 0.1307; J Rahu\u2013J Haumea RA 107.6630 Dec 0.4364; J Node = H Node (same body)",
       "rank": 2
      },
      "P11": {
       "n": 1,
       "best": 0.3613,
-      "what": "loop of 4: H Node -> J Node -> H Uranus -> J Uranus -> H Node  (closed through the same body in both charts: Node, Uranus) \u2014 H Node = J Node (same body); H Uranus\u2013J Rahu RA 0.3535 Dec 0.9242; H Uranus = J Uranus (same body); H Rahu\u2013J Uranus RA 1.4715 Dec 0.1084",
+      "what": "loop of 4: H Node -> J Node -> H Uranus -> J Uranus -> H Node  (closed through the same body in both charts: Node, Uranus)  (2 distinct bodies) \u2014 H Node = J Node (same body); H Uranus\u2013J Rahu RA 0.3535 Dec 0.9242; H Uranus = J Uranus (same body); H Rahu\u2013J Uranus RA 1.4715 Dec 0.1084",
       "rank": 1
      }
     },
@@ -1550,5 +1550,27 @@
   29,
   30,
   33
+ ],
+ "common": [
+  2,
+  3,
+  4,
+  6,
+  8,
+  9,
+  10,
+  11,
+  13,
+  15,
+  16,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  27,
+  30
  ]
 }

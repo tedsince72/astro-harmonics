@@ -1,6 +1,10 @@
-== wincanton_1420_20220321  field of 6   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== wincanton_1420_20220321  field of 6   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Reserve Tank / 1 Brendan Powell; P03 2 Guernesey / 2 Tom O'Brien; P05 3 Ballyblack / 3 Rex Dingle; P07 4 River Bray / 4 Alan Johns; P09 5 Birds Of Prey / 5 Harry Cobden; P11 6 Electric Annie / 6 Nick Scholfield
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: P05 (t 0.854)
+   [15] pair set H:J:S: P11 (t 0.688), P03 (t 0.766)
 [ 1] cross link struck on both ends by 2+ sky bodies
      none in the field
 [ 2] cross link struck on both ends (one body, or one per end)
@@ -32,7 +36,7 @@
             tightest P09: swap Neptune/Pluto: H Neptune – J Pluto RA 91.2863 Dec 0.3755 (near band); H Pluto – J Neptune RA 17.4365 Dec 0.1761
 [ 8] triangle struck at every corner by one sky body
      strict 2 of 6: P09(t 0.600, x3)  P05(t 0.700, x1)
-            tightest P09: triangle H Ketu / H Vesta / J Jupiter [one plane (RA)]: H Ketu–H Vesta RA 178.66696 (1608/9), H Ketu–J Jupiter RA 36.44449 (328/9), H Vesta–J Jupiter RA 142.22248 (1280/9) — sky Juno: sky Juno -> H Ketu RA 67.66660 (609/9); sky Juno -> H Vesta RA 111.00036 (111); sky Juno -> J Jupiter RA 31.22211 (281/9)
+            tightest P09: triangle H Ketu / H Vesta / J Jupiter [one plane (RA)]: H Ketu–H Vesta RA 178.66696 (1608/9, ninth), H Ketu–J Jupiter RA 36.44449 (328/9, ninth), H Vesta–J Jupiter RA 142.22248 (1280/9, ninth) [3 ninth sides] — sky Juno: sky Juno -> H Ketu RA 67.66660 (609/9); sky Juno -> H Vesta RA 111.00036 (111); sky Juno -> J Jupiter RA 31.22211 (281/9)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 6 of 6: P11(t 0.240, x5)  P05(t 0.380, x16)  P01(t 0.436, x7)  P07(t 0.460, x6)  P09(t 0.520, x8)  P03(t 0.580, x5)
             tightest P11: J Sun–Haumea close struck by 1 sky body — Mars: sky Mars -> J Sun Flat 146.55568 (1319/9) | sky Mars -> J Haumea RA 128.33324 (1155/9)
@@ -123,7 +127,7 @@
             tightest P05: tightest cross link H Juno – J Eris RA 158.2914 Dec 0.0015
 [33] node loop
      near   ONLY P05: P05(t 0.962, x1)
-            tightest P05: loop of 5: H Node -> H Jupiter -> J Sedna -> H Sedna -> J Node -> H Node  (closed through the same body in both charts: Node, Sedna) — H Jupiter–H Rahu RA 0.4989 Dec 1.7731; H Jupiter–J Sedna RA 126.6820 Dec 0.2095; J Sedna = H Sedna (same body); H Sedna–J Rahu RA 108.8027 Dec 0.2885; J Node = H Node (same body)
+            tightest P05: loop of 5: H Node -> H Jupiter -> J Sedna -> H Sedna -> J Node -> H Node  (closed through the same body in both charts: Node, Sedna)  (3 distinct bodies) — H Jupiter–H Rahu RA 0.4989 Dec 1.7731; H Jupiter–J Sedna RA 126.6820 Dec 0.2095; J Sedna = H Sedna (same body); H Sedna–J Rahu RA 108.8027 Dec 0.2885; J Node = H Node (same body)
 -- field-only (strict) per runner
    P01 1 Reserve Tank / 1 Brendan Powell: 7
    P03 2 Guernesey / 2 Tom O'Brien: -

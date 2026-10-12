@@ -1,6 +1,10 @@
-== ascot_1350_20231021  field of 15   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== ascot_1350_20231021  field of 15   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Art Power / 1 David Allan; P03 2 Kinross / 2 Frankie Dettori; P05 3 Rohaan / 3 Ryan Moore; P07 4 Run To Freedom / 4 Trevor Whelan; P09 5 Saint Lawrence / 5 Hollie Doyle; P11 6 Spycatcher / 6 Clifford Lee; P13 7 Mill Stream / 7 William Buick; P15 8 Makarova / 8 Paul Mulrennan; P17 9 Sandrine / 9 Oisin Murphy; P19 10 Sense Of Duty / 10 Tom Marquand; P21 11 Vadream / 11 Kieran Shoemark; P23 12 Believing / 12 Daniel Tudhope; P25 13 Magical Sunset / 13 Rossa Ryan; P27 14 Ocean Quest / 14 Shane Foley; P29 15 Swingalong / 15 Sam James
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: P01 (t 0.646), P17 (t 0.784)
+   [15] pair set H:J:S: P13 (t 0.452), P27 (t 0.488), P21 (t 0.568), P17 (t 0.984)
 [ 1] cross link struck on both ends by 2+ sky bodies
      strict ONLY P27: P27(t 0.912, x1)
             tightest P27: H Transpluto – J Jupiter RA 124.8420 Dec 0.0275 struck by 2 sky bodies — Haumea: sky Haumea -> H Transpluto Flat 64.00213 (64) | sky Haumea -> J Jupiter GC 153.33332 (1380/9); Jupiter: sky Jupiter -> H Transpluto Flat 114.00456 (114) | sky Jupiter -> J Jupiter GC 11.11120 (100/9)
@@ -40,7 +44,7 @@
             tightest P23: swap Node/Vesta: H Ketu – J Vesta RA 5.3418 Dec 0.0389; H Vesta – J Rahu RA 12.6554 Dec 0.1003  (node: Rahu one way, Ketu the other)
 [ 8] triangle struck at every corner by one sky body
      strict 8 of 15: P25(t 0.460, x3)  P15(t 0.680, x1)  P23(t 0.780, x2)  P09(t 0.786, x1)  P01(t 0.840, x2)  P21(t 0.942, x1)  P03(t 0.958, x1)  P05(t 0.988, x1)
-            tightest P25: triangle H Mars / J Pallas / J Sun [one plane (RA)]: H Mars–J Pallas RA 100.88896 (908/9), H Mars–J Sun RA 153.44452 (1381/9), J Pallas–J Sun RA 52.55556 (473/9) — sky Uranus: sky Uranus -> H Mars RA 152.99970 (153); sky Uranus -> J Pallas RA 106.11134 (955/9); sky Uranus -> J Sun RA 53.55578 (482/9)
+            tightest P25: triangle H Mars / J Pallas / J Sun [one plane (RA)]: H Mars–J Pallas RA 100.88896 (908/9, ninth), H Mars–J Sun RA 153.44452 (1381/9, ninth), J Pallas–J Sun RA 52.55556 (473/9, ninth) [3 ninth sides] — sky Uranus: sky Uranus -> H Mars RA 152.99970 (153); sky Uranus -> J Pallas RA 106.11134 (955/9); sky Uranus -> J Sun RA 53.55578 (482/9)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 15 of 15: P25(t 0.047, x12)  P21(t 0.201, x13)  P13(t 0.258, x12)  P17(t 0.320, x9)  P05(t 0.372, x5)  P23(t 0.400, x8)  P27(t 0.402, x3)  P03(t 0.420, x9)  P19(t 0.420, x6)  P07(t 0.440, x11)  P01(t 0.510, x8)  P15(t 0.552, x8)  P29(t 0.684, x8)  P11(t 0.712, x4)  P09(t 0.780, x5)
             tightest P25: H Mars–Jupiter close struck by 1 sky body — Pallas: sky Pallas -> H Mars Flat 62.33332 (561/9) | sky Pallas -> H Jupiter GC 85.99991 (86)
@@ -132,8 +136,10 @@
      strict 15 of 15: P25(t 0.012, x1)  P19(t 0.013, x1)  P11(t 0.029, x1)  P21(t 0.043, x1)  P01(t 0.047, x1)  P17(t 0.072, x1)  P27(t 0.092, x1)  P15(t 0.103, x1)  P05(t 0.105, x1)  P09(t 0.110, x1)  P03(t 0.119, x1)  P29(t 0.124, x1)  P23(t 0.130, x1)  P07(t 0.173, x1)  P13(t 0.196, x1)
             tightest P25: tightest cross link H Saturn – J Ketu RA 0.1407 Dec 0.0037
 [33] node loop
-     near   8 of 15: P23(t 0.334, x6)  P05(t 0.347, x1)  P29(t 0.463, x2)  P21(t 0.611, x12)  P09(t 0.673, x1)  P17(t 0.698, x9)  P01(t 0.714, x3)  P13(t 0.819, x3)
-            tightest P23: loop of 4: H Node -> J Node -> H Vesta -> J Vesta -> H Node  (closed through the same body in both charts: Node, Vesta) — H Node = J Node (same body); H Vesta–J Rahu RA 12.6554 Dec 0.1003; H Vesta = J Vesta (same body); H Ketu–J Vesta RA 5.3418 Dec 0.0389
+     strict 6 of 15: P23(t 0.410, x3)  P17(t 0.698, x5)  P01(t 0.714, x2)  P21(t 0.739, x3)  P29(t 0.868, x1)  P13(t 0.872, x1)
+            tightest P23: loop of 6: H Node -> H Ceres -> J Vesta -> H Vesta -> J Transpluto -> J Node -> H Node  (closed through the same body in both charts: Node, Vesta) — H Ceres–H Ketu RA 34.9413 Dec 0.0047; H Ceres–J Vesta RA 40.2830 Dec 0.0437; J Vesta = H Vesta (same body); H Vesta–J Transpluto RA 94.0131 Dec 0.1230; J Rahu–J Transpluto RA 106.6685 Dec 0.0227; J Node = H Node (same body)
+     near   8 of 15: P23(t 0.334, x3)  P05(t 0.347, x1)  P29(t 0.463, x1)  P21(t 0.611, x9)  P09(t 0.673, x1)  P17(t 0.698, x4)  P13(t 0.819, x2)  P01(t 0.912, x1)
+            tightest P23: loop of 4: H Node -> J Node -> H Vesta -> J Vesta -> H Node  (closed through the same body in both charts: Node, Vesta)  (2 distinct bodies) — H Node = J Node (same body); H Vesta–J Rahu RA 12.6554 Dec 0.1003; H Vesta = J Vesta (same body); H Ketu–J Vesta RA 5.3418 Dec 0.0389
 -- field-only (strict) per runner
    P01 1 Art Power / 1 David Allan: -
    P03 2 Kinross / 2 Frankie Dettori: -

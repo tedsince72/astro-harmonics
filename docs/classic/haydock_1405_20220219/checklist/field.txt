@@ -1,6 +1,10 @@
-== haydock_1405_20220219  field of 6   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== haydock_1405_20220219  field of 6   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Third Wind / 1 Tom O'Brien; P03 2 Thomas Darby / 2 Aidan Coleman; P05 3 Emitom / 3 Brian Hughes; P07 4 Top Ville Ben / 4 Thomas Dowson; P09 5 Wholestone / 5 Sam Twiston-Davies; P11 6 Molly Ollys Wishes / 6 Harry Skelton
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: P11 (t 0.651), P01 (t 0.848)
+   [15] pair set H:J:S: P01 (t 0.426), P05 (t 0.776), P11 (t 0.802)
 [ 1] cross link struck on both ends by 2+ sky bodies
      none in the field
 [ 2] cross link struck on both ends (one body, or one per end)
@@ -31,7 +35,7 @@
             tightest P03: swap Quaoar/Saturn: H Quaoar – J Saturn RA 0.7754 Dec 6.7248; H Saturn – J Quaoar RA 11.3682 Dec 0.1443
 [ 8] triangle struck at every corner by one sky body
      strict 4 of 6: P01(t 0.720, x1)  P09(t 0.804, x2)  P03(t 0.840, x1)  P05(t 0.880, x1)
-            tightest P01: triangle H Makemake / J Haumea / J Pallas [one plane (RA)]: H Makemake–J Haumea RA 6.22198 (56/9), H Makemake–J Pallas RA 20.33370 (183/9), J Haumea–J Pallas RA 26.55567 (239/9) — sky Mercury: sky Mercury -> H Makemake RA 115.33326 (1038/9); sky Mercury -> J Haumea RA 121.55524 (1094/9); sky Mercury -> J Pallas RA 94.99957 (95)
+            tightest P01: triangle H Makemake / J Haumea / J Pallas [one plane (RA)]: H Makemake–J Haumea RA 6.22198 (56/9, ninth), H Makemake–J Pallas RA 20.33370 (183/9, ninth), J Haumea–J Pallas RA 26.55567 (239/9, ninth) [3 ninth sides] — sky Mercury: sky Mercury -> H Makemake RA 115.33326 (1038/9); sky Mercury -> J Haumea RA 121.55524 (1094/9); sky Mercury -> J Pallas RA 94.99957 (95)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 6 of 6: P01(t 0.388, x8)  P09(t 0.419, x7)  P03(t 0.432, x13)  P05(t 0.500, x5)  P07(t 0.560, x7)  P11(t 0.620, x7)
             tightest P01: J Ketu–Makemake Dec 44.00148 = 44 struck by 1 sky body — Vesta: sky Vesta -> J Ketu Dec 12.99806 (13) | sky Vesta -> J Makemake Dec 56.99954 (57)
@@ -119,14 +123,14 @@
      strict 6 of 6: P01(t 0.035, x1)  P05(t 0.051, x1)  P09(t 0.070, x1)  P07(t 0.149, x1)  P03(t 0.174, x1)  P11(t 0.298, x1)
             tightest P01: tightest cross link H Chiron – J Jupiter RA 0.0528 Dec 6.6601
 [33] node loop
-     strict ONLY P09: P09(t 0.826, x3)
-            tightest P09: loop of 3: H Node -> J Mars -> J Node -> H Node — H Ketu–J Mars RA 23.3743 Dec 0.2479; J Mars–J Ketu RA 25.7534 Dec 0.1575; H Rahu–J Rahu RA 2.3791 Dec 0.0904
-     near   2 of 6: P07(t 0.258, x21)  P01(t 0.952, x1)
-            tightest P07: loop of 3: H Node -> J Node -> J Pluto -> H Node  (closed through the same body in both charts: Node) — H Node = J Node (same body); J Pluto–J Rahu RA 44.9027 Dec 0.1517; H Rahu–J Pluto RA 0.3862 Dec 13.1574
+     strict ONLY P07: P07(t 0.406, x16)
+            tightest P07: loop of 5: H Node -> J Ceres -> J Quaoar -> J Pluto -> J Node -> H Node  (closed through the same body in both charts: Node) — H Rahu–J Ceres RA 0.4773 Dec 6.2458; J Ceres–J Quaoar RA 0.2542 Dec 0.2735; J Pluto–J Quaoar RA 0.6093 Dec 6.6381; J Pluto–J Rahu RA 44.9027 Dec 0.1517; J Node = H Node (same body)
+     near   3 of 6: P07(t 0.258, x5)  P09(t 0.826, x3)  P01(t 0.952, x1)
+            tightest P07: loop of 3: H Node -> J Node -> J Pluto -> H Node  (closed through the same body in both charts: Node)  (2 distinct bodies) — H Node = J Node (same body); J Pluto–J Rahu RA 44.9027 Dec 0.1517; H Rahu–J Pluto RA 0.3862 Dec 13.1574
 -- field-only (strict) per runner
    P01 1 Third Wind / 1 Tom O'Brien: -
    P03 2 Thomas Darby / 2 Aidan Coleman: 7, 11
    P05 3 Emitom / 3 Brian Hughes: -
-   P07 4 Top Ville Ben / 4 Thomas Dowson: -
-   P09 5 Wholestone / 5 Sam Twiston-Davies: 12, 33
+   P07 4 Top Ville Ben / 4 Thomas Dowson: 33
+   P09 5 Wholestone / 5 Sam Twiston-Davies: 12
    P11 6 Molly Ollys Wishes / 6 Harry Skelton: 4

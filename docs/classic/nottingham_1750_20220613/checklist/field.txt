@@ -1,6 +1,10 @@
-== nottingham_1750_20220613  field of 6   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== nottingham_1750_20220613  field of 6   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Applaud Now / 1 John Fahy; P03 2 The Dunkirk Lads / 2 Duran Fentiman; P05 3 Gidwa / 3 Andrea Atzeni; P07 4 Miss Britain / 4 Tony Hamilton; P09 5 Glory Hallelujah / 5 Rowan Scott; P11 6 Baileys Liberty / 6 Jason Hart
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: P03 (t 0.515)
+   [14] shared pair also cross-linked: none
+   [15] pair set H:J:S: P07 (t 0.418), P11 (t 0.548)
 [ 1] cross link struck on both ends by 2+ sky bodies
      none in the field
 [ 2] cross link struck on both ends (one body, or one per end)
@@ -37,7 +41,7 @@
             tightest P11: swap Haumea/Node: H Haumea – J Ketu RA 171.1566 Dec 0.1684; H Rahu – J Haumea RA 76.8015 Dec 0.1429  (node: Rahu one way, Ketu the other)
 [ 8] triangle struck at every corner by one sky body
      strict 6 of 6: P07(t 0.350, x1)  P03(t 0.502, x2)  P11(t 0.716, x1)  P01(t 0.740, x1)  P09(t 0.760, x3)  P05(t 0.840, x1)
-            tightest P07: triangle H Haumea / H Transpluto / J Quaoar [one plane (RA)]: H Haumea–H Transpluto RA 60.99828 (61), H Haumea–J Quaoar RA 10.00004 (10), H Transpluto–J Quaoar RA 70.99831 (71) — sky Node: sky Rahu -> H Haumea RA 165.00003 (165); sky Rahu -> H Transpluto RA 104.00175 (104); sky Rahu -> J Quaoar RA 175.00007 (175)
+            tightest P07: triangle H Haumea / H Transpluto / J Quaoar [one plane (RA)]: H Haumea–H Transpluto RA 60.99828 (61), H Haumea–J Quaoar RA 10.00004 (10), H Transpluto–J Quaoar RA 70.99831 (71) [all whole] — sky Node: sky Rahu -> H Haumea RA 165.00003 (165); sky Rahu -> H Transpluto RA 104.00175 (104); sky Rahu -> J Quaoar RA 175.00007 (175)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 6 of 6: P09(t 0.200, x11)  P03(t 0.224, x17)  P01(t 0.240, x9)  P05(t 0.290, x8)  P07(t 0.298, x14)  P11(t 0.420, x6)
             tightest P09: J Chiron–Haumea RA 1.99982 = 2 struck by 1 sky body — Juno: sky Juno -> J Chiron RA 152.55548 (1373/9) | sky Juno -> J Haumea RA 150.55566 (1355/9)
@@ -128,12 +132,14 @@
      strict 6 of 6: P01(t 0.008, x1)  P05(t 0.011, x1)  P11(t 0.050, x1)  P09(t 0.132, x1)  P07(t 0.224, x1)  P03(t 0.510, x1)
             tightest P01: tightest cross link H Venus – J Gonggong RA 32.4220 Dec 0.0023
 [33] node loop
-     near   2 of 6: P11(t 0.147, x10)  P01(t 0.796, x2)
-            tightest P11: loop of 5: H Node -> H Mars -> J Pallas -> H Pallas -> J Node -> H Node  (closed through the same body in both charts: Node, Pallas) — H Mars–H Rahu RA 54.4011 Dec 0.0885; H Mars–J Pallas RA 0.1435 Dec 36.5291; J Pallas = H Pallas (same body); H Pallas–J Ketu RA 166.7050 Dec 0.0150; J Node = H Node (same body)
+     strict ONLY P11: P11(t 0.256, x5)
+            tightest P11: loop of 6: H Node -> H Mars -> J Haumea -> H Haumea -> H Pallas -> J Node -> H Node  (closed through the same body in both charts: Haumea, Node) — H Mars–H Rahu RA 54.4011 Dec 0.0885; H Mars–J Haumea RA 131.2026 Dec 0.0545; J Haumea = H Haumea (same body); H Pallas–H Haumea RA 4.4515 Dec 0.1535; H Pallas–J Ketu RA 166.7050 Dec 0.0150; J Node = H Node (same body)
+     near   2 of 6: P11(t 0.147, x5)  P01(t 0.796, x2)
+            tightest P11: loop of 5: H Node -> H Mars -> J Pallas -> H Pallas -> J Node -> H Node  (closed through the same body in both charts: Node, Pallas)  (3 distinct bodies) — H Mars–H Rahu RA 54.4011 Dec 0.0885; H Mars–J Pallas RA 0.1435 Dec 36.5291; J Pallas = H Pallas (same body); H Pallas–J Ketu RA 166.7050 Dec 0.0150; J Node = H Node (same body)
 -- field-only (strict) per runner
    P01 1 Applaud Now / 1 John Fahy: -
    P03 2 The Dunkirk Lads / 2 Duran Fentiman: 17
    P05 3 Gidwa / 3 Andrea Atzeni: 12
    P07 4 Miss Britain / 4 Tony Hamilton: -
    P09 5 Glory Hallelujah / 5 Rowan Scott: 7
-   P11 6 Baileys Liberty / 6 Jason Hart: 28
+   P11 6 Baileys Liberty / 6 Jason Hart: 28, 33

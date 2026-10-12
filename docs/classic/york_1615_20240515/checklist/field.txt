@@ -1,6 +1,10 @@
-== york_1615_20240515  field of 15   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== york_1615_20240515  field of 15   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Mortlake / 1 Rossa Ryan; P03 2 Fire Demon / 2 Oisin Murphy; P05 3 Blue Prince / 3 Richard Kingscote; P07 4 Elmonjed / 4 Jim Crowley; P09 5 Respectful / 5 Shane Foley; P11 6 True Promise / 6 Shane Gray; P13 7 Thursday's Child / 7 Billy Garritty; P15 8 Ziggy's Condor / 8 Oisin Orr; P17 9 Expensive Queen / 9 Ryan Moore; P19 10 Lady Pink Rose / 10 Clifford Lee; P21 11 On Point / 11 Sean D Bowen; P23 12 Quiet Resolve / 12 Cam Hardie; P25 13 Diligent Resdev / 13 Joanna Mason; P27 14 Misemerald / 14 Andrew Mullen; P29 15 Ribble Radiant / 15 Duran Fentiman
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: P25 (t 0.276), P19 (t 0.631)
+   [14] shared pair also cross-linked: P09 (t 0.606), P13 (t 0.821), P27 (t 0.967)
+   [15] pair set H:J:S: P15 (t 0.036), P29 (t 0.374), P13 (t 0.734), P25 (t 0.742)
 [ 1] cross link struck on both ends by 2+ sky bodies
      none in the field
 [ 2] cross link struck on both ends (one body, or one per end)
@@ -35,7 +39,7 @@
             tightest P09: swap Node/Neptune: H Ketu – J Neptune RA 31.2458 Dec 0.0277; H Neptune – J Rahu RA 0.9251 Dec 1.5746  (node: Rahu one way, Ketu the other)
 [ 8] triangle struck at every corner by one sky body
      strict 9 of 15: P01(t 0.240, x5)  P03(t 0.476, x4)  P27(t 0.554, x1)  P19(t 0.596, x1)  P21(t 0.680, x2)  P11(t 0.780, x1)  P09(t 0.820, x1)  P13(t 0.900, x1)  P05(t 0.980, x1)
-            tightest P01: triangle H Chiron / H Juno / J Mercury [one plane (Dec)]: H Chiron–H Juno Dec 15.99995 (16), H Chiron–J Mercury Dec 13.55548 (122/9), H Juno–J Mercury Dec 29.55543 (266/9) — sky Sedna: sky Sedna -> H Chiron Dec 3.99992 (4); sky Sedna -> H Juno Dec 19.99987 (20); sky Sedna -> J Mercury Dec 9.55556 (86/9)
+            tightest P01: triangle H Chiron / H Juno / J Mercury [one plane (Dec)]: H Chiron–H Juno Dec 15.99995 (16), H Chiron–J Mercury Dec 13.55548 (122/9, ninth), H Juno–J Mercury Dec 29.55543 (266/9, ninth) [2 ninth sides] — sky Sedna: sky Sedna -> H Chiron Dec 3.99992 (4); sky Sedna -> H Juno Dec 19.99987 (20); sky Sedna -> J Mercury Dec 9.55556 (86/9)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 15 of 15: P01(t 0.140, x9)  P21(t 0.251, x12)  P25(t 0.260, x3)  P03(t 0.300, x9)  P23(t 0.300, x4)  P15(t 0.302, x5)  P13(t 0.370, x8)  P29(t 0.444, x4)  P11(t 0.460, x9)  P19(t 0.520, x3)  P27(t 0.520, x8)  P17(t 0.590, x9)  P09(t 0.640, x5)  P07(t 0.660, x11)  P05(t 0.739, x8)
             tightest P01: H Venus–Pluto Dec 4.55549 = 41/9 struck by 1 sky body — Juno: sky Juno -> H Venus Dec 28.44445 (256/9) | sky Juno -> H Pluto Dec 32.99994 (33)
@@ -133,10 +137,10 @@
      strict 15 of 15: P05(t 0.011, x1)  P11(t 0.024, x1)  P17(t 0.029, x1)  P13(t 0.045, x1)  P07(t 0.048, x1)  P15(t 0.048, x1)  P19(t 0.053, x1)  P21(t 0.056, x1)  P27(t 0.064, x1)  P01(t 0.064, x1)  P09(t 0.092, x1)  P29(t 0.093, x1)  P25(t 0.102, x1)  P03(t 0.112, x1)  P23(t 0.148, x1)
             tightest P05: tightest cross link H Saturn – J Saturn RA 67.4105 Dec 0.0034
 [33] node loop
-     strict ONLY P27: P27(t 0.596, x120)
-            tightest P27: loop of 4: H Node -> H Makemake -> J Node -> J Haumea -> H Node — H Rahu–H Makemake RA 120.6560 Dec 0.2274; H Makemake–J Rahu RA 123.5672 Dec 0.0192; J Rahu–J Haumea RA 107.4532 Dec 0.3578; H Rahu–J Haumea RA 104.5421 Dec 0.1112
-     near   6 of 15: P09(t 0.617, x5)  P03(t 0.816, x1)  P01(t 0.856, x1)  P25(t 0.935, x2)  P19(t 0.943, x1)  P15(t 0.952, x1)
-            tightest P09: loop of 4: H Node -> J Neptune -> H Neptune -> J Node -> H Node  (closed through the same body in both charts: Neptune, Node) — H Ketu–J Neptune RA 31.2458 Dec 0.0277; J Neptune = H Neptune (same body); H Neptune–J Rahu RA 0.9251 Dec 1.5746; J Node = H Node (same body)
+     strict 4 of 15: P09(t 0.617, x2)  P03(t 0.816, x1)  P27(t 0.835, x104)  P25(t 0.948, x1)
+            tightest P09: loop of 6: H Node -> H Pluto -> J Saturn -> J Neptune -> H Neptune -> J Node -> H Node  (closed through the same body in both charts: Neptune, Node) — H Pluto–H Ketu RA 49.1545 Dec 0.1029; H Pluto–J Saturn RA 26.6975 Dec 0.0771; J Saturn–J Neptune RA 8.7888 Dec 0.2077; J Neptune = H Neptune (same body); H Neptune–J Rahu RA 0.9251 Dec 1.5746; J Node = H Node (same body)
+     near   6 of 15: P27(t 0.596, x16)  P09(t 0.617, x3)  P01(t 0.856, x1)  P25(t 0.935, x1)  P19(t 0.943, x1)  P15(t 0.952, x1)
+            tightest P27: loop of 4: H Node -> H Makemake -> J Node -> J Haumea -> H Node  (3 distinct bodies) — H Rahu–H Makemake RA 120.6560 Dec 0.2274; H Makemake–J Rahu RA 123.5672 Dec 0.0192; J Rahu–J Haumea RA 107.4532 Dec 0.3578; H Rahu–J Haumea RA 104.5421 Dec 0.1112
 -- field-only (strict) per runner
    P01 1 Mortlake / 1 Rossa Ryan: -
    P03 2 Fire Demon / 2 Oisin Murphy: -
@@ -151,5 +155,5 @@
    P21 11 On Point / 11 Sean D Bowen: -
    P23 12 Quiet Resolve / 12 Cam Hardie: -
    P25 13 Diligent Resdev / 13 Joanna Mason: -
-   P27 14 Misemerald / 14 Andrew Mullen: 12, 33
+   P27 14 Misemerald / 14 Andrew Mullen: 12
    P29 15 Ribble Radiant / 15 Duran Fentiman: -

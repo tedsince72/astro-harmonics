@@ -1,6 +1,10 @@
-== york_1545_20240515  field of 7   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== york_1545_20240515  field of 7   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Classical Song / 1 Rossa Ryan; P03 2 Francophone / 2 Joe Fanning; P05 3 Friendly Soul / 3 Kieran Shoemark; P07 4 La Pasionaria / 4 Hector Crouch; P09 5 Mayfair / 5 Ryan Moore; P11 6 Secret Satire / 6 Oisin Murphy; P13 7 Sinology / 7 Luke Morris
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: P13 (t 0.531), P11 (t 0.664)
+   [15] pair set H:J:S: P01 (t 0.846)
 [ 1] cross link struck on both ends by 2+ sky bodies
      strict ONLY P03: P03(t 0.633, x1)
             tightest P03: H Haumea – J Jupiter RA 0.9495 Dec 29.1249 struck by 2 sky bodies — Eris: sky Eris -> H Haumea GC 161.88897 (1457/9) | sky Eris -> J Jupiter Flat 172.22224 (1550/9); Transpluto: sky Transpluto -> H Haumea RA 61.22214 (551/9) | sky Transpluto -> J Jupiter Flat 64.66693 (582/9)
@@ -35,7 +39,7 @@
      none in the field
 [ 8] triangle struck at every corner by one sky body
      strict 3 of 7: P07(t 0.380, x7)  P05(t 0.502, x8)  P03(t 0.600, x2)
-            tightest P07: triangle H Pallas / H Pluto / H Sedna [one plane (Dec)]: H Pallas–H Pluto Dec 26.77779 (241/9), H Pallas–H Sedna Dec 3.55551 (32/9), H Pluto–H Sedna Dec 30.33330 (273/9) — sky Orcus: sky Orcus -> H Pallas Dec 16.88875 (152/9); sky Orcus -> H Pluto Dec 9.88904 (89/9); sky Orcus -> H Sedna Dec 20.44426 (184/9)
+            tightest P07: triangle H Pallas / H Pluto / H Sedna [one plane (Dec)]: H Pallas–H Pluto Dec 26.77779 (241/9, ninth), H Pallas–H Sedna Dec 3.55551 (32/9, ninth), H Pluto–H Sedna Dec 30.33330 (273/9, ninth) [3 ninth sides] — sky Orcus: sky Orcus -> H Pallas Dec 16.88875 (152/9); sky Orcus -> H Pluto Dec 9.88904 (89/9); sky Orcus -> H Sedna Dec 20.44426 (184/9)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 7 of 7: P05(t 0.360, x18)  P11(t 0.404, x10)  P03(t 0.420, x7)  P07(t 0.546, x8)  P13(t 0.600, x8)  P01(t 0.676, x4)  P09(t 0.680, x3)
             tightest P05: H Rahu–Orcus Flat 92.11093 = 829/9 struck by 1 sky body — Quaoar: sky Quaoar -> H Rahu Dec 37.00044 (37) | sky Quaoar -> H Orcus GC 119.55562 (1076/9)
@@ -125,7 +129,7 @@
             tightest P01: tightest cross link H Orcus – J Pluto RA 95.9332 Dec 0.0036
 [33] node loop
      near   ONLY P05: P05(t 0.472, x7)
-            tightest P05: loop of 5: H Node -> H Pluto -> J Pluto -> J Eris -> J Node -> H Node  (closed through the same body in both charts: Node, Pluto) — H Pluto–H Ketu RA 49.9509 Dec 0.2762; H Pluto = J Pluto (same body); J Pluto–J Eris RA 139.6051 Dec 0.1600; J Rahu–J Eris RA 177.3833 Dec 0.2832; J Node = H Node (same body)
+            tightest P05: loop of 5: H Node -> H Pluto -> J Pluto -> J Eris -> J Node -> H Node  (closed through the same body in both charts: Node, Pluto)  (3 distinct bodies, no cross link between different bodies) — H Pluto–H Ketu RA 49.9509 Dec 0.2762; H Pluto = J Pluto (same body); J Pluto–J Eris RA 139.6051 Dec 0.1600; J Rahu–J Eris RA 177.3833 Dec 0.2832; J Node = H Node (same body)
 -- field-only (strict) per runner
    P01 1 Classical Song / 1 Rossa Ryan: 4, 5, 15
    P03 2 Francophone / 2 Joe Fanning: 1

@@ -1,6 +1,10 @@
-== haydock_1420_20210904  field of 6   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== haydock_1420_20210904  field of 6   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Roseabad / 1 Richard Kingscote; P03 2 Golden Flame / 2 Joe Fanning; P05 3 Valley Forge / 3 David Probert; P07 5 Praiano / 5 Andrea Atzeni; P09 7 Contact / 7 Ray Dawson; P11 8 Tynwald / 8 Daniel Tudhope
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: P07 (t 0.854)
+   [14] shared pair also cross-linked: P11 (t 0.275), P03 (t 0.805)
+   [15] pair set H:J:S: P09 (t 0.318), P07 (t 0.842)
 [ 1] cross link struck on both ends by 2+ sky bodies
      none in the field
 [ 2] cross link struck on both ends (one body, or one per end)
@@ -35,7 +39,7 @@
             tightest P03: swap Node/Transpluto: H Rahu – J Transpluto RA 0.4489 Dec 0.1294; H Transpluto – J Ketu RA 1.2667 Dec 0.4763  (node: Rahu one way, Ketu the other)
 [ 8] triangle struck at every corner by one sky body
      strict 3 of 6: P05(t 0.440, x1)  P09(t 0.800, x2)  P03(t 0.900, x1)
-            tightest P05: triangle H Eris / H Pluto / J Ceres [one plane (RA)]: H Eris–H Pluto RA 93.33328 (840/9), H Eris–J Ceres RA 30.77787 (277/9), H Pluto–J Ceres RA 62.55540 (563/9) — sky Mars: sky Mars -> H Eris RA 147.88902 (1331/9); sky Mars -> H Pluto RA 118.77770 (1069/9); sky Mars -> J Ceres RA 178.66689 (1608/9)
+            tightest P05: triangle H Eris / H Pluto / J Ceres [one plane (RA)]: H Eris–H Pluto RA 93.33328 (840/9, ninth), H Eris–J Ceres RA 30.77787 (277/9, ninth), H Pluto–J Ceres RA 62.55540 (563/9, ninth) [3 ninth sides] — sky Mars: sky Mars -> H Eris RA 147.88902 (1331/9); sky Mars -> H Pluto RA 118.77770 (1069/9); sky Mars -> J Ceres RA 178.66689 (1608/9)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 6 of 6: P05(t 0.260, x7)  P07(t 0.272, x5)  P09(t 0.280, x9)  P03(t 0.292, x7)  P11(t 0.388, x7)  P01(t 0.638, x6)
             tightest P05: H Pluto–Eris RA 93.33328 = 840/9 struck by 1 sky body — Mars: sky Mars -> H Pluto RA 118.77770 (1069/9) | sky Mars -> H Eris RA 147.88902 (1331/9)
@@ -126,11 +130,13 @@
      strict 6 of 6: P07(t 0.017, x1)  P01(t 0.063, x1)  P03(t 0.126, x1)  P05(t 0.141, x1)  P11(t 0.194, x1)  P09(t 0.235, x1)
             tightest P07: tightest cross link H Pluto – J Juno RA 0.0255 Dec 11.8707
 [33] node loop
-     near   2 of 6: P03(t 0.302, x10)  P09(t 0.540, x1)
-            tightest P03: loop of 5: H Node -> J Node -> H Orcus -> H Transpluto -> J Transpluto -> H Node  (closed through the same body in both charts: Node, Transpluto) — H Node = J Node (same body); H Orcus–J Rahu RA 178.6182 Dec 0.0906; H Orcus–H Transpluto RA 0.1151 Dec 21.2158; H Transpluto = J Transpluto (same body); H Rahu–J Transpluto RA 0.4489 Dec 0.1294
+     strict ONLY P03: P03(t 0.302, x6)
+            tightest P03: loop of 6: H Node -> H Haumea -> J Transpluto -> H Transpluto -> H Orcus -> J Node -> H Node  (closed through the same body in both charts: Node, Transpluto) — H Rahu–H Haumea RA 76.7934 Dec 0.0567; H Haumea–J Transpluto RA 76.3445 Dec 0.0728; J Transpluto = H Transpluto (same body); H Orcus–H Transpluto RA 0.1151 Dec 21.2158; H Orcus–J Rahu RA 178.6182 Dec 0.0906; J Node = H Node (same body)
+     near   2 of 6: P03(t 0.302, x4)  P09(t 0.540, x1)
+            tightest P03: loop of 5: H Node -> J Node -> H Orcus -> H Transpluto -> J Transpluto -> H Node  (closed through the same body in both charts: Node, Transpluto)  (3 distinct bodies) — H Node = J Node (same body); H Orcus–J Rahu RA 178.6182 Dec 0.0906; H Orcus–H Transpluto RA 0.1151 Dec 21.2158; H Transpluto = J Transpluto (same body); H Rahu–J Transpluto RA 0.4489 Dec 0.1294
 -- field-only (strict) per runner
    P01 1 Roseabad / 1 Richard Kingscote: -
-   P03 2 Golden Flame / 2 Joe Fanning: -
+   P03 2 Golden Flame / 2 Joe Fanning: 33
    P05 3 Valley Forge / 3 David Probert: -
    P07 5 Praiano / 5 Andrea Atzeni: 17
    P09 7 Contact / 7 Ray Dawson: -

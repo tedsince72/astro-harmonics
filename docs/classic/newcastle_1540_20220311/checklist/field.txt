@@ -1,6 +1,10 @@
-== newcastle_1540_20220311  field of 6   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== newcastle_1540_20220311  field of 6   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Vocaliser / 1 Fergus Gregory; P03 2 Edmond Dantes / 2 Brian Hughes; P05 3 Peak Time / 3 Conor O'Farrell; P07 5 Sir Apollo / 5 Jonathan England; P09 6 Thundersockssundae / 6 Kielan Woods; P11 7 Black Opium / 7 Stephen Mulqueen
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: none
+   [15] pair set H:J:S: P05 (t 0.610)
 [ 1] cross link struck on both ends by 2+ sky bodies
      none in the field
 [ 2] cross link struck on both ends (one body, or one per end)
@@ -33,7 +37,7 @@
             tightest P01: swap Gonggong/Mercury: H Gonggong – J Mercury RA 0.3811 Dec 1.6132; H Mercury – J Gonggong RA 1.8332 Dec 4.5031 (near band)
 [ 8] triangle struck at every corner by one sky body
      strict 4 of 6: P05(t 0.400, x2)  P11(t 0.558, x2)  P03(t 0.880, x1)  P01(t 1.000, x1)
-            tightest P05: triangle H Mars / H Quaoar / J Orcus [one plane (RA)]: H Mars–H Quaoar RA 132.99976 (133), H Mars–J Orcus RA 90.99879 (91), H Quaoar–J Orcus RA 136.00144 (136) — sky Orcus: sky Orcus -> H Mars RA 118.44448 (1066/9); sky Orcus -> H Quaoar RA 108.55576 (977/9); sky Orcus -> J Orcus Flat 32.00175 (32)
+            tightest P05: triangle H Mars / H Quaoar / J Orcus [one plane (RA)]: H Mars–H Quaoar RA 132.99976 (133), H Mars–J Orcus RA 90.99879 (91), H Quaoar–J Orcus RA 136.00144 (136) [all whole] — sky Orcus: sky Orcus -> H Mars RA 118.44448 (1066/9); sky Orcus -> H Quaoar RA 108.55576 (977/9); sky Orcus -> J Orcus Flat 32.00175 (32)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 6 of 6: P09(t 0.220, x5)  P05(t 0.412, x5)  P03(t 0.448, x6)  P07(t 0.624, x4)  P11(t 0.640, x5)  P01(t 0.920, x1)
             tightest P09: J Uranus–Pluto RA 52.66669 = 474/9 struck by 1 sky body — Transpluto: sky Transpluto -> J Uranus RA 130.99992 (131) | sky Transpluto -> J Pluto RA 78.33323 (705/9)
@@ -124,7 +128,7 @@
             tightest P03: tightest cross link H Venus – J Haumea RA 88.5454 Dec 0.0022
 [33] node loop
      near   ONLY P11: P11(t 0.964, x2)
-            tightest P11: loop of 4: H Node -> H Haumea -> J Haumea -> J Node -> H Node  (closed through the same body in both charts: Haumea, Node) — H Rahu–H Haumea RA 0.1876 Dec 29.8291; H Haumea = J Haumea (same body); J Ketu–J Haumea RA 112.6329 Dec 0.5782; J Node = H Node (same body)
+            tightest P11: loop of 4: H Node -> H Haumea -> J Haumea -> J Node -> H Node  (closed through the same body in both charts: Haumea, Node)  (2 distinct bodies, no cross link between different bodies) — H Rahu–H Haumea RA 0.1876 Dec 29.8291; H Haumea = J Haumea (same body); J Ketu–J Haumea RA 112.6329 Dec 0.5782; J Node = H Node (same body)
 -- field-only (strict) per runner
    P01 1 Vocaliser / 1 Fergus Gregory: -
    P03 2 Edmond Dantes / 2 Brian Hughes: -

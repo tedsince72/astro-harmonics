@@ -1,6 +1,10 @@
-== sandown_1425_20211204  field of 5   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== sandown_1425_20211204  field of 5   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Captain Guinness / 1 Rachael Blackmore; P03 2 Chacun Pour Soi / 2 Mr P W Mullins; P05 3 Greaneteen / 3 Bryony Le Clerc; P07 4 Hitman / 4 Harry Cobden; P09 5 Nube Negra / 5 Harry Skelton
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: none
+   [15] pair set H:J:S: P07 (t 0.528), P05 (t 0.880)
 [ 1] cross link struck on both ends by 2+ sky bodies
      strict 2 of 5: P09(t 0.918, x1)  P05(t 0.999, x1)
             tightest P09: H Ceres – J Sedna RA 161.3387 Dec 0.2754 struck by 2 sky bodies — Neptune: sky Neptune -> H Ceres Flat 148.00190 (148) | sky Neptune -> J Sedna Dec 9.00062 (9); Ceres: sky Ceres -> H Ceres GC 136.99935 (137) | sky Ceres -> J Sedna RA 19.55513 (176/9)
@@ -32,7 +36,7 @@
             tightest P01: swap Haumea/Venus: H Haumea – J Venus RA 72.4875 Dec 0.0593; H Venus – J Haumea RA 118.7977 Dec 0.4288 (near band)
 [ 8] triangle struck at every corner by one sky body
      strict 3 of 5: P09(t 0.380, x2)  P03(t 0.460, x1)  P05(t 0.654, x8)
-            tightest P09: triangle H Ceres / J Makemake / J Sun [one plane (RA)]: H Ceres–J Makemake RA 34.77777 (313/9), H Ceres–J Sun RA 25.77797 (232/9), J Makemake–J Sun RA 8.99980 (9) — sky Saturn: sky Saturn -> H Ceres RA 107.99995 (108); sky Saturn -> J Makemake RA 142.77772 (1285/9); sky Saturn -> J Sun RA 133.77792 (1204/9)
+            tightest P09: triangle H Ceres / J Makemake / J Sun [one plane (RA)]: H Ceres–J Makemake RA 34.77777 (313/9, ninth), H Ceres–J Sun RA 25.77797 (232/9, ninth), J Makemake–J Sun RA 8.99980 (9) [2 ninth sides] — sky Saturn: sky Saturn -> H Ceres RA 107.99995 (108); sky Saturn -> J Makemake RA 142.77772 (1285/9); sky Saturn -> J Sun RA 133.77792 (1204/9)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 5 of 5: P03(t 0.220, x8)  P09(t 0.280, x12)  P01(t 0.388, x12)  P05(t 0.566, x4)  P07(t 0.668, x5)
             tightest P03: J Sun–Mars Dec 4.55544 = 41/9 struck by 1 sky body — Neptune: sky Neptune -> J Sun Dec 17.44440 (157/9) | sky Neptune -> J Mars Dec 12.88896 (116/9)

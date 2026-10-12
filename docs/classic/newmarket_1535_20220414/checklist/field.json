@@ -1,5 +1,5 @@
 {
- "version": "CR v1 (12 Oct 2026)",
+ "version": "CR v1.1 (12 Oct 2026, joins field-relative)",
  "race": "newmarket_1535_20220414",
  "step": 4,
  "n": 6,
@@ -1425,7 +1425,7 @@
      "P11": {
       "n": 1,
       "best": 0.7245,
-      "what": "loop of 4: H Node -> J Ceres -> H Ceres -> J Node -> H Node  (closed through the same body in both charts: Ceres, Node) \u2014 H Rahu\u2013J Ceres RA 59.8108 Dec 0.2173; J Ceres = H Ceres (same body); H Ceres\u2013J Ketu RA 84.0307 Dec 0.1349; J Node = H Node (same body)",
+      "what": "loop of 4: H Node -> J Ceres -> H Ceres -> J Node -> H Node  (closed through the same body in both charts: Ceres, Node)  (2 distinct bodies) \u2014 H Rahu\u2013J Ceres RA 59.8108 Dec 0.2173; J Ceres = H Ceres (same body); H Ceres\u2013J Ketu RA 84.0307 Dec 0.1349; J Node = H Node (same body)",
       "rank": 1
      }
     },
@@ -1465,5 +1465,23 @@
   29,
   30,
   33
+ ],
+ "common": [
+  2,
+  3,
+  6,
+  9,
+  13,
+  16,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  27,
+  30
  ]
 }

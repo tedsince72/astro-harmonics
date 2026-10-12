@@ -1,6 +1,10 @@
-== newmarket_july_1745_20240816  field of 9   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== newmarket_july_1745_20240816  field of 9   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Anniversary / 1 Rob Hornby; P03 2 Arabian Poet / 2 William Buick; P05 3 Double Meaning / 3 Pat Dobbs; P07 4 King Of Cities / 4 Sean Levey; P09 5 Knights Gold / 5 Marco Ghiani; P11 6 Scandinavia / 6 Tom Marquand; P13 7 Sedate / 7 Joshua Bryan; P15 8 Vecu / 8 Robert Havlin; P17 9 Big Gypsy King / 9 Neil Callan
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: P01 (t 0.227)
+   [14] shared pair also cross-linked: none
+   [15] pair set H:J:S: P05 (t 0.428), P17 (t 0.792), P07 (t 0.798), P09 (t 0.970)
 [ 1] cross link struck on both ends by 2+ sky bodies
      none in the field
 [ 2] cross link struck on both ends (one body, or one per end)
@@ -31,7 +35,7 @@
             tightest P15: swap Juno/Quaoar: H Juno – J Quaoar RA 96.8735 Dec 0.2857; H Quaoar – J Juno RA 0.1831 Dec 1.3557
 [ 8] triangle struck at every corner by one sky body
      strict 5 of 9: P13(t 0.440, x4)  P15(t 0.636, x1)  P01(t 0.722, x1)  P07(t 0.996, x1)  P05(t 0.998, x2)
-            tightest P13: triangle H Quaoar / J Haumea / J Jupiter [one plane (RA)]: H Quaoar–J Haumea RA 81.66663 (735/9), H Quaoar–J Jupiter RA 116.11093 (1045/9), J Haumea–J Jupiter RA 162.22244 (1460/9) — sky Saturn: sky Saturn -> H Quaoar RA 72.33319 (651/9); sky Saturn -> J Haumea RA 153.99982 (154); sky Saturn -> J Jupiter RA 43.77774 (394/9)
+            tightest P13: triangle H Quaoar / J Haumea / J Jupiter [one plane (RA)]: H Quaoar–J Haumea RA 81.66663 (735/9, ninth), H Quaoar–J Jupiter RA 116.11093 (1045/9, ninth), J Haumea–J Jupiter RA 162.22244 (1460/9, ninth) [3 ninth sides] — sky Saturn: sky Saturn -> H Quaoar RA 72.33319 (651/9); sky Saturn -> J Haumea RA 153.99982 (154); sky Saturn -> J Jupiter RA 43.77774 (394/9)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 9 of 9: P17(t 0.198, x7)  P09(t 0.260, x14)  P01(t 0.368, x8)  P05(t 0.370, x4)  P07(t 0.408, x8)  P13(t 0.440, x11)  P03(t 0.468, x10)  P15(t 0.510, x8)  P11(t 0.520, x4)
             tightest P17: J Jupiter–Transpluto RA 30.99901 = 31 struck by 1 sky body — Venus: sky Venus -> J Jupiter RA 56.99966 (57) | sky Venus -> J Transpluto RA 26.00064 (26)
@@ -122,8 +126,10 @@
      strict 9 of 9: P11(t 0.003, x1)  P09(t 0.008, x1)  P03(t 0.013, x1)  P05(t 0.058, x1)  P01(t 0.076, x1)  P17(t 0.100, x1)  P07(t 0.121, x1)  P15(t 0.122, x1)  P13(t 0.142, x1)
             tightest P11: tightest cross link H Chiron – J Mars RA 6.2052 Dec 0.0010
 [33] node loop
-     near   ONLY P13: P13(t 0.766, x2)
-            tightest P13: loop of 6: H Node -> H Mercury -> H Juno -> H Gonggong -> J Gonggong -> J Node -> H Node  (closed through the same body in both charts: Gonggong, Node) — H Mercury–H Ketu RA 74.2886 Dec 0.0602; H Mercury–H Juno RA 0.4661 Dec 8.2493; H Juno–H Gonggong RA 29.2683 Dec 0.3462; H Gonggong = J Gonggong (same body); J Ketu–J Gonggong RA 16.5161 Dec 0.4594; J Node = H Node (same body)
+     strict ONLY P13: P13(t 0.899, x1)
+            tightest P13: loop of 6: H Node -> J Neptune -> J Mars -> H Mars -> H Venus -> J Node -> H Node  (closed through the same body in both charts: Mars, Node) — H Ketu–J Neptune RA 71.0601 Dec 0.0854; J Mars–J Neptune RA 79.6880 Dec 0.5246; J Mars = H Mars (same body); H Venus–H Mars RA 1.3491 Dec 5.7633; H Venus–J Ketu RA 25.6050 Dec 0.0617; J Node = H Node (same body)
+     near   ONLY P13: P13(t 0.766, x1)
+            tightest P13: loop of 6: H Node -> H Mercury -> H Juno -> H Gonggong -> J Gonggong -> J Node -> H Node  (closed through the same body in both charts: Gonggong, Node)  (4 distinct bodies, no cross link between different bodies) — H Mercury–H Ketu RA 74.2886 Dec 0.0602; H Mercury–H Juno RA 0.4661 Dec 8.2493; H Juno–H Gonggong RA 29.2683 Dec 0.3462; H Gonggong = J Gonggong (same body); J Ketu–J Gonggong RA 16.5161 Dec 0.4594; J Node = H Node (same body)
 -- field-only (strict) per runner
    P01 1 Anniversary / 1 Rob Hornby: 17
    P03 2 Arabian Poet / 2 William Buick: -
@@ -131,6 +137,6 @@
    P07 4 King Of Cities / 4 Sean Levey: -
    P09 5 Knights Gold / 5 Marco Ghiani: -
    P11 6 Scandinavia / 6 Tom Marquand: -
-   P13 7 Sedate / 7 Joshua Bryan: -
+   P13 7 Sedate / 7 Joshua Bryan: 33
    P15 8 Vecu / 8 Robert Havlin: 7
    P17 9 Big Gypsy King / 9 Neil Callan: 5

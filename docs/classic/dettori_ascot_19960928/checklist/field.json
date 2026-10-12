@@ -1,5 +1,5 @@
 {
- "version": "CR v1 (12 Oct 2026)",
+ "version": "CR v1.1 (12 Oct 2026, joins field-relative)",
  "race": "dettori_ascot_19960928",
  "step": 4,
  "n": 1,
@@ -135,7 +135,7 @@
      "P01": {
       "n": 1,
       "best": 0.06,
-      "what": "triangle H Sedna / J Sedna / J Venus [one plane (RA)]: H Sedna\u2013J Sedna RA 9.00021 (9), H Sedna\u2013J Venus RA 179.99996 (180), J Sedna\u2013J Venus RA 170.99974 (171) \u2014 sky Mars: sky Mars -> H Sedna RA 91.99974 (92); sky Mars -> J Sedna RA 100.99996 (101); sky Mars -> J Venus RA 88.00030 (88)",
+      "what": "triangle H Sedna / J Sedna / J Venus [one plane (RA)]: H Sedna\u2013J Sedna RA 9.00021 (9), H Sedna\u2013J Venus RA 179.99996 (180), J Sedna\u2013J Venus RA 170.99974 (171) [all whole] \u2014 sky Mars: sky Mars -> H Sedna RA 91.99974 (92); sky Mars -> J Sedna RA 100.99996 (101); sky Mars -> J Venus RA 88.00030 (88)",
       "rank": 1
      }
     },
@@ -468,13 +468,25 @@
    }
   },
   "33": {
+   "strict": {
+    "k": 1,
+    "runners": {
+     "P01": {
+      "n": 1,
+      "best": 0.9299,
+      "what": "loop of 6: H Node -> H Uranus -> J Mercury -> H Mars -> J Mars -> J Node -> H Node  (closed through the same body in both charts: Mars, Node) \u2014 H Uranus\u2013H Rahu RA 5.2252 Dec 0.0746; H Uranus\u2013J Mercury RA 1.3949 Dec 1.1102; H Mars\u2013J Mercury RA 8.7572 Dec 0.1541; H Mars = J Mars (same body); J Mars\u2013J Rahu RA 114.1274 Dec 0.2570; J Node = H Node (same body)",
+      "rank": 1
+     }
+    },
+    "tightest": "P01"
+   },
    "near": {
     "k": 1,
     "runners": {
      "P01": {
-      "n": 3,
+      "n": 2,
       "best": 0.4283,
-      "what": "loop of 5: H Node -> H Mercury -> H Mars -> J Mars -> J Node -> H Node  (closed through the same body in both charts: Mars, Node) \u2014 H Mercury\u2013H Rahu RA 0.5883 Dec 0.6510; H Mercury\u2013H Mars RA 4.3385 Dec 0.2305; H Mars = J Mars (same body); J Mars\u2013J Rahu RA 114.1274 Dec 0.2570; J Node = H Node (same body)",
+      "what": "loop of 5: H Node -> H Mercury -> H Mars -> J Mars -> J Node -> H Node  (closed through the same body in both charts: Mars, Node)  (3 distinct bodies, no cross link between different bodies) \u2014 H Mercury\u2013H Rahu RA 0.5883 Dec 0.6510; H Mercury\u2013H Mars RA 4.3385 Dec 0.2305; H Mars = J Mars (same body); J Mars\u2013J Rahu RA 114.1274 Dec 0.2570; J Node = H Node (same body)",
       "rank": 1
      }
     },
@@ -512,6 +524,28 @@
   27,
   28,
   29,
+  30,
+  33
+ ],
+ "common": [
+  2,
+  3,
+  4,
+  6,
+  8,
+  9,
+  13,
+  16,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
   30,
   33
  ]

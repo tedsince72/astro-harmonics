@@ -133,3 +133,12 @@ Checker corrections (12 Oct): item 11 lost node-mirror RA numbers (Sandown 2021 
 item 16 Equator-value '1' sets and their display; item 3 one strike per plane (now one per direction). t is computed from Layer 1 offsets rounded to
 5 decimals, so for ninths it moves in steps of about 0.02.
 Rates across the 32 read races (winners vs other runners, strict) — docs/classic/checklist_rates.txt.
+
+## 11. Eddie's decisions on the as-built reader (12 Oct 2026) — CR v1.1, frozen for the blind batch
+1. The builder's choices in section 10 (items 4, 7, 13, 21, join view): kept.
+2. Join view is field-relative: an item counts only when fewer than half the field has it at strict level; the others are shown beside it as
+   "also (common in this field)". Every item is still listed with its numbers. (Built: a pair or body is listed when it has a counted item and
+   at least one other item, counted first.)
+3. Watch line at the top of each race page: runners with items 17, 14, 15 — "from the read races — not evidence yet". Not weighted.
+4. Triangles: ninth sides accepted and labelled ("ninth", "[n ninth sides]" / "[all whole]").
+5. Node loops: counted only with 4+ distinct bodies (node folded, by name) and at least one cross link between different bodies; the rest near.

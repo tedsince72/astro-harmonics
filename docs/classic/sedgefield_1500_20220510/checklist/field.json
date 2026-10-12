@@ -1,5 +1,5 @@
 {
- "version": "CR v1 (12 Oct 2026)",
+ "version": "CR v1.1 (12 Oct 2026, joins field-relative)",
  "race": "sedgefield_1500_20220510",
  "step": 4,
  "n": 5,
@@ -276,7 +276,7 @@
      "P09": {
       "n": 2,
       "best": 0.88,
-      "what": "triangle H Quaoar / J Gonggong / J Saturn [one plane (Dec)]: H Quaoar\u2013J Gonggong Dec 1.44401 (13/9), H Quaoar\u2013J Saturn Dec 32.22232 (290/9), J Gonggong\u2013J Saturn Dec 33.66633 (303/9) \u2014 sky Orcus: sky Orcus -> H Quaoar Dec 4.00025 (4); sky Orcus -> J Gonggong Dec 5.44426 (49/9); sky Orcus -> J Saturn Dec 28.22207 (254/9)",
+      "what": "triangle H Quaoar / J Gonggong / J Saturn [one plane (Dec)]: H Quaoar\u2013J Gonggong Dec 1.44401 (13/9, ninth), H Quaoar\u2013J Saturn Dec 32.22232 (290/9, ninth), J Gonggong\u2013J Saturn Dec 33.66633 (303/9, ninth) [3 ninth sides] \u2014 sky Orcus: sky Orcus -> H Quaoar Dec 4.00025 (4); sky Orcus -> J Gonggong Dec 5.44426 (49/9); sky Orcus -> J Saturn Dec 28.22207 (254/9)",
       "rank": 1
      }
     },
@@ -1232,25 +1232,43 @@
    }
   },
   "33": {
-   "near": {
-    "k": 3,
+   "strict": {
+    "k": 2,
     "runners": {
      "P01": {
-      "n": 2,
+      "n": 1,
       "best": 0.2732,
       "what": "loop of 6: H Node -> J Node -> H Sedna -> H Mercury -> J Mercury -> J Sun -> H Node  (closed through the same body in both charts: Mercury, Node) \u2014 H Node = J Node (same body); H Sedna\u2013J Ketu RA 0.0503 Dec 12.1112; H Mercury\u2013H Sedna RA 33.0523 Dec 0.0653; H Mercury = J Mercury (same body); J Sun\u2013J Mercury RA 0.3394 Dec 4.0775; H Ketu\u2013J Sun RA 0.4098 Dec 0.1479",
       "rank": 1
      },
      "P07": {
-      "n": 14,
+      "n": 10,
+      "best": 0.8832,
+      "what": "loop of 5: H Node -> H Sun -> H Ceres -> H Gonggong -> J Node -> H Node  (closed through the same body in both charts: Node) \u2014 H Sun\u2013H Ketu RA 1.3248 Dec 0.5682; H Sun\u2013H Ceres RA 0.5600 Dec 8.8454; H Ceres\u2013H Gonggong RA 14.6391 Dec 0.0284; H Gonggong\u2013J Rahu RA 7.4851 Dec 0.1242; J Node = H Node (same body)",
+      "rank": 2
+     }
+    },
+    "tightest": "P01"
+   },
+   "near": {
+    "k": 3,
+    "runners": {
+     "P01": {
+      "n": 1,
+      "best": 0.4995,
+      "what": "loop of 5: H Node -> J Mercury -> H Mercury -> H Sedna -> J Node -> H Node  (closed through the same body in both charts: Mercury, Node)  (3 distinct bodies) \u2014 H Ketu\u2013J Mercury RA 0.7492 Dec 4.2254; J Mercury = H Mercury (same body); H Mercury\u2013H Sedna RA 33.0523 Dec 0.0653; H Sedna\u2013J Ketu RA 0.0503 Dec 12.1112; J Node = H Node (same body)",
+      "rank": 1
+     },
+     "P07": {
+      "n": 4,
       "best": 0.7599,
-      "what": "loop of 5: H Node -> J Node -> J Gonggong -> H Venus -> J Venus -> H Node  (closed through the same body in both charts: Node, Venus) \u2014 H Node = J Node (same body); J Rahu\u2013J Gonggong RA 1.1398 Dec 7.5014; H Venus\u2013J Gonggong RA 0.5580 Dec 7.0246; H Venus = J Venus (same body); H Rahu\u2013J Venus RA 1.0877 Dec 0.6773",
+      "what": "loop of 5: H Node -> J Node -> J Gonggong -> H Venus -> J Venus -> H Node  (closed through the same body in both charts: Node, Venus)  (3 distinct bodies) \u2014 H Node = J Node (same body); J Rahu\u2013J Gonggong RA 1.1398 Dec 7.5014; H Venus\u2013J Gonggong RA 0.5580 Dec 7.0246; H Venus = J Venus (same body); H Rahu\u2013J Venus RA 1.0877 Dec 0.6773",
       "rank": 2
      },
      "P09": {
       "n": 1,
       "best": 0.8709,
-      "what": "loop of 4: H Node -> H Haumea -> J Haumea -> J Node -> H Node  (closed through the same body in both charts: Haumea, Node) \u2014 H Rahu\u2013H Haumea RA 78.5401 Dec 0.0600; H Haumea = J Haumea (same body); J Rahu\u2013J Haumea RA 78.7912 Dec 0.5225; J Node = H Node (same body)",
+      "what": "loop of 4: H Node -> H Haumea -> J Haumea -> J Node -> H Node  (closed through the same body in both charts: Haumea, Node)  (2 distinct bodies, no cross link between different bodies) \u2014 H Rahu\u2013H Haumea RA 78.5401 Dec 0.0600; H Haumea = J Haumea (same body); J Rahu\u2013J Haumea RA 78.7912 Dec 0.5225; J Node = H Node (same body)",
       "rank": 3
      }
     },
@@ -1290,5 +1308,24 @@
   29,
   30,
   33
+ ],
+ "common": [
+  2,
+  3,
+  6,
+  9,
+  13,
+  16,
+  18,
+  19,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  29,
+  30
  ]
 }

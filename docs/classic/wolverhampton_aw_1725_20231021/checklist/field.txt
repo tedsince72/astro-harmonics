@@ -1,6 +1,10 @@
-== wolverhampton_aw_1725_20231021  field of 11   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== wolverhampton_aw_1725_20231021  field of 11   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Gladly Ever After / 1 Taylor Fisher; P03 2 Shuangxi / 2 Saffie Osborne; P05 3 Ziggy's Dream / 3 Kieran O'Neill; P07 4 Come On You Spurs / 4 Harry Davies; P09 5 Diligencia / 5 Charles Bishop; P11 6 Land Of Hope / 6 Jack Mitchell; P13 7 Miss Anya / 7 Finley Marsh; P15 8 Princess Alice / 8 Daniel Muscutt; P17 9 Sea Of Angels / 9 Marco Ghiani; P19 10 Showmethewayhome / 10 David Probert; P21 11 Via Blanca / 11 Frederick Larson
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: P07 (t 0.048), P21 (t 0.371)
+   [15] pair set H:J:S: P07 (t 0.402), P05 (t 0.680), P19 (t 0.926)
 [ 1] cross link struck on both ends by 2+ sky bodies
      none in the field
 [ 2] cross link struck on both ends (one body, or one per end)
@@ -35,7 +39,7 @@
             tightest P17: swap Node/Vesta: H Rahu – J Vesta RA 63.0847 Dec 0.1698; H Vesta – J Rahu RA 28.5943 Dec 0.4509 (near band)
 [ 8] triangle struck at every corner by one sky body
      strict 4 of 11: P09(t 0.400, x1)  P11(t 0.600, x1)  P19(t 0.620, x1)  P17(t 0.844, x1)
-            tightest P09: triangle H Chiron / H Makemake / J Transpluto [one plane (RA)]: H Chiron–H Makemake RA 170.11110 (1531/9), H Chiron–J Transpluto RA 138.11131 (1243/9), H Makemake–J Transpluto RA 51.77759 (466/9) — sky Eris: sky Eris -> H Chiron RA 18.88888 (170/9); sky Eris -> H Makemake RA 171.00001 (171); sky Eris -> J Transpluto RA 119.22243 (1073/9)
+            tightest P09: triangle H Chiron / H Makemake / J Transpluto [one plane (RA)]: H Chiron–H Makemake RA 170.11110 (1531/9, ninth), H Chiron–J Transpluto RA 138.11131 (1243/9, ninth), H Makemake–J Transpluto RA 51.77759 (466/9, ninth) [3 ninth sides] — sky Eris: sky Eris -> H Chiron RA 18.88888 (170/9); sky Eris -> H Makemake RA 171.00001 (171); sky Eris -> J Transpluto RA 119.22243 (1073/9)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 11 of 11: P09(t 0.020, x7)  P03(t 0.118, x5)  P17(t 0.220, x14)  P07(t 0.260, x10)  P15(t 0.280, x7)  P13(t 0.344, x10)  P11(t 0.422, x8)  P19(t 0.480, x5)  P21(t 0.598, x5)  P01(t 0.690, x8)  P05(t 0.710, x4)
             tightest P09: H Chiron–Makemake RA 170.11110 = 1531/9 struck by 1 sky body — Eris: sky Eris -> H Chiron RA 18.88888 (170/9) | sky Eris -> H Makemake RA 171.00001 (171)
@@ -127,8 +131,10 @@
      strict 11 of 11: P07(t 0.010, x1)  P03(t 0.014, x1)  P01(t 0.030, x1)  P09(t 0.032, x1)  P11(t 0.037, x1)  P17(t 0.055, x1)  P19(t 0.081, x1)  P05(t 0.108, x1)  P13(t 0.120, x1)  P21(t 0.199, x1)  P15(t 0.226, x1)
             tightest P07: tightest cross link H Mars – J Haumea RA 153.3245 Dec 0.0029
 [33] node loop
-     near   3 of 11: P07(t 0.071, x7)  P11(t 0.224, x3)  P05(t 0.419, x5)
-            tightest P07: loop of 4: H Node -> J Node -> H Sun -> J Sun -> H Node  (closed through the same body in both charts: Node, Sun) — H Node = J Node (same body); H Sun–J Ketu RA 121.8242 Dec 0.0129; H Sun = J Sun (same body); H Ketu–J Sun RA 0.1806 Dec 0.0212
+     strict 3 of 11: P05(t 0.428, x2)  P07(t 0.653, x5)  P11(t 0.994, x1)
+            tightest P05: loop of 5: H Node -> H Makemake -> J Haumea -> J Venus -> J Node -> H Node  (closed through the same body in both charts: Node) — H Rahu–H Makemake RA 121.6387 Dec 0.0113; H Makemake–J Haumea RA 13.5681 Dec 0.1285; J Venus–J Haumea RA 0.0009 Dec 23.5321; J Venus–J Ketu RA 2.5884 Dec 0.2515; J Node = H Node (same body)
+     near   3 of 11: P07(t 0.071, x2)  P11(t 0.224, x2)  P05(t 0.419, x3)
+            tightest P07: loop of 4: H Node -> J Node -> H Sun -> J Sun -> H Node  (closed through the same body in both charts: Node, Sun)  (2 distinct bodies) — H Node = J Node (same body); H Sun–J Ketu RA 121.8242 Dec 0.0129; H Sun = J Sun (same body); H Ketu–J Sun RA 0.1806 Dec 0.0212
 -- field-only (strict) per runner
    P01 1 Gladly Ever After / 1 Taylor Fisher: -
    P03 2 Shuangxi / 2 Saffie Osborne: -

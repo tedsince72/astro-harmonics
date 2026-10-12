@@ -1,6 +1,10 @@
-== exeter_1515_20211019  field of 6   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== exeter_1515_20211019  field of 6   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Caspers Court / 1 Tom Scudamore; P03 2 Jarlath / 2 Sean Houlihan; P05 3 Pens Man / 3 Jonjo O'Neill Jr; P07 4 Pointed And Sharp / 4 Tom O'Brien; P09 5 Blaze A Trail / 5 Connor Brace; P11 7 Forget You Not / 7 James Best
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: P11 (t 0.368)
+   [14] shared pair also cross-linked: P01 (t 0.128), P11 (t 0.185)
+   [15] pair set H:J:S: P11 (t 0.318), P03 (t 0.320), P01 (t 0.878)
 [ 1] cross link struck on both ends by 2+ sky bodies
      strict ONLY P03: P03(t 0.734, x1)
             tightest P03: H Haumea – J Mercury RA 132.9966 Dec 0.0981 struck by 2 sky bodies — Ceres: sky Ceres -> H Haumea RA 135.99725 (136) | sky Ceres -> J Mercury RA 3.00069 (3); Mercury: sky Mercury -> H Haumea RA 17.22212 (155/9) | sky Mercury -> J Mercury Dec 21.99633 (22)
@@ -36,7 +40,7 @@
             tightest P07: swap Node/Saturn: H Rahu – J Saturn RA 6.4193 Dec 0.5795 (near band); H Saturn – J Ketu RA 7.0606 Dec 0.2070  (node: Rahu one way, Ketu the other)
 [ 8] triangle struck at every corner by one sky body
      strict 6 of 6: P07(t 0.356, x3)  P01(t 0.462, x2)  P11(t 0.720, x1)  P03(t 0.776, x2)  P09(t 0.826, x2)  P05(t 0.878, x1)
-            tightest P07: triangle H Ceres / H Ketu / H Pallas [one plane (RA)]: H Ceres–H Ketu RA 35.00114 (35), H Ceres–H Pallas RA 42.99822 (43), H Ketu–H Pallas RA 77.99935 (78) — sky Chiron: sky Chiron -> H Ceres RA 20.99979 (21); sky Chiron -> H Ketu RA 56.00092 (56); sky Chiron -> H Pallas RA 21.99843 (22)
+            tightest P07: triangle H Ceres / H Ketu / H Pallas [one plane (RA)]: H Ceres–H Ketu RA 35.00114 (35), H Ceres–H Pallas RA 42.99822 (43), H Ketu–H Pallas RA 77.99935 (78) [all whole] — sky Chiron: sky Chiron -> H Ceres RA 20.99979 (21); sky Chiron -> H Ketu RA 56.00092 (56); sky Chiron -> H Pallas RA 21.99843 (22)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 6 of 6: P11(t 0.200, x9)  P07(t 0.228, x15)  P09(t 0.292, x8)  P05(t 0.340, x12)  P01(t 0.584, x5)  P03(t 0.776, x4)
             tightest P11: J Juno–Ketu Dec 32.88888 = 296/9 struck by 1 sky body — Mars: sky Mars -> J Juno Dec 4.44454 (40/9) | sky Mars -> J Ketu Dec 28.44435 (256/9)
@@ -127,12 +131,14 @@
      strict 6 of 6: P01(t 0.004, x1)  P07(t 0.006, x1)  P05(t 0.011, x1)  P11(t 0.062, x1)  P03(t 0.088, x1)  P09(t 0.136, x1)
             tightest P01: tightest cross link H Saturn – J Ceres RA 0.0056 Dec 5.7464
 [33] node loop
-     near   ONLY P05: P05(t 0.979, x2)
-            tightest P05: loop of 4: H Node -> H Eris -> J Eris -> J Node -> H Node  (closed through the same body in both charts: Eris, Node) — H Rahu–H Eris RA 161.9242 Dec 0.5874; H Eris = J Eris (same body); J Ketu–J Eris RA 40.3693 Dec 0.1258; J Node = H Node (same body)
+     strict ONLY P05: P05(t 0.979, x1)
+            tightest P05: loop of 6: H Node -> H Eris -> J Vesta -> J Sedna -> H Sedna -> J Node -> H Node  (closed through the same body in both charts: Node, Sedna) — H Rahu–H Eris RA 161.9242 Dec 0.5874; H Eris–J Vesta RA 0.1121 Dec 7.1268; J Vesta–J Sedna RA 19.3357 Dec 0.4591; J Sedna = H Sedna (same body); H Sedna–J Rahu RA 107.3741 Dec 0.0034; J Node = H Node (same body)
+     near   ONLY P05: P05(t 0.979, x1)
+            tightest P05: loop of 4: H Node -> H Eris -> J Eris -> J Node -> H Node  (closed through the same body in both charts: Eris, Node)  (2 distinct bodies, no cross link between different bodies) — H Rahu–H Eris RA 161.9242 Dec 0.5874; H Eris = J Eris (same body); J Ketu–J Eris RA 40.3693 Dec 0.1258; J Node = H Node (same body)
 -- field-only (strict) per runner
    P01 1 Caspers Court / 1 Tom Scudamore: -
    P03 2 Jarlath / 2 Sean Houlihan: 1
-   P05 3 Pens Man / 3 Jonjo O'Neill Jr: -
+   P05 3 Pens Man / 3 Jonjo O'Neill Jr: 33
    P07 4 Pointed And Sharp / 4 Tom O'Brien: -
    P09 5 Blaze A Trail / 5 Connor Brace: 7
    P11 7 Forget You Not / 7 James Best: 17, 28

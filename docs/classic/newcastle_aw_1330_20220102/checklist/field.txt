@@ -1,6 +1,10 @@
-== newcastle_aw_1330_20220102  field of 5   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== newcastle_aw_1330_20220102  field of 5   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Good Effort / 1 Jim Crowley; P03 2 King Of Stars / 2 Jason Watson; P05 3 Mondammej / 3 Cam Hardie; P07 4 Regional / 4 Daniel Tudhope; P09 5 Venturous / 5 Connor Beasley
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: P09 (t 0.128), P05 (t 0.968)
+   [15] pair set H:J:S: P07 (t 0.612), P01 (t 0.742)
 [ 1] cross link struck on both ends by 2+ sky bodies
      strict ONLY P05: P05(t 0.504, x1)
             tightest P05: H Sedna – J Mercury RA 0.5736 Dec 12.9995 struck by 2 sky bodies — Gonggong: sky Gonggong -> H Sedna Dec 18.99900 (19) | sky Gonggong -> J Mercury Dec 31.99855 (32); Eris: sky Eris -> H Sedna Dec 9.00252 (9) | sky Eris -> J Mercury Dec 22.00207 (22)
@@ -34,7 +38,7 @@
             tightest P03: swap Node/Pluto: H Ketu – J Pluto RA 82.3166 Dec 0.4088 (near band); H Pluto – J Ketu RA 8.5797 Dec 0.4420 (near band)
 [ 8] triangle struck at every corner by one sky body
      strict 3 of 5: P07(t 0.296, x2)  P03(t 0.692, x2)  P09(t 0.708, x3)
-            tightest P07: triangle H Rahu / J Mars / J Rahu [one plane (Dec)]: H Rahu–J Mars Dec 23.99852 (24), H Rahu–J Rahu Dec 1.99893 (2), J Mars–J Rahu Dec 21.99959 (22) — sky Eris: sky Eris -> H Rahu Dec 17.99974 (18); sky Eris -> J Mars Dec 5.99878 (6); sky Eris -> J Rahu Dec 16.00081 (16)
+            tightest P07: triangle H Rahu / J Mars / J Rahu [one plane (Dec)]: H Rahu–J Mars Dec 23.99852 (24), H Rahu–J Rahu Dec 1.99893 (2), J Mars–J Rahu Dec 21.99959 (22) [all whole] — sky Eris: sky Eris -> H Rahu Dec 17.99974 (18); sky Eris -> J Mars Dec 5.99878 (6); sky Eris -> J Rahu Dec 16.00081 (16)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 5 of 5: P05(t 0.340, x12)  P01(t 0.520, x5)  P07(t 0.540, x5)  P03(t 0.550, x8)  P09(t 0.598, x3)
             tightest P05: H Jupiter–Ceres Dec 19.55545 = 176/9 struck by 1 sky body — Jupiter: sky Jupiter -> H Jupiter Dec 5.77794 (52/9) | sky Jupiter -> H Ceres Dec 25.33339 (228/9)

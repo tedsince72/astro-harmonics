@@ -1,5 +1,5 @@
 {
- "version": "CR v1 (12 Oct 2026)",
+ "version": "CR v1.1 (12 Oct 2026, joins field-relative)",
  "race": "sandown_1425_20211204",
  "step": 4,
  "n": 5,
@@ -284,19 +284,19 @@
      "P03": {
       "n": 1,
       "best": 0.46,
-      "what": "triangle J Mars / J Sun / J Venus [one plane (Dec)]: J Mars\u2013J Sun Dec 4.55544 (41/9), J Mars\u2013J Venus Dec 5.44456 (49/9), J Sun\u2013J Venus Dec 0.88912 (8/9) \u2014 sky Neptune: sky Neptune -> J Mars Dec 12.88896 (116/9); sky Neptune -> J Sun Dec 17.44440 (157/9); sky Neptune -> J Venus Dec 18.33352 (165/9)",
+      "what": "triangle J Mars / J Sun / J Venus [one plane (Dec)]: J Mars\u2013J Sun Dec 4.55544 (41/9, ninth), J Mars\u2013J Venus Dec 5.44456 (49/9, ninth), J Sun\u2013J Venus Dec 0.88912 (8/9, ninth) [3 ninth sides] \u2014 sky Neptune: sky Neptune -> J Mars Dec 12.88896 (116/9); sky Neptune -> J Sun Dec 17.44440 (157/9); sky Neptune -> J Venus Dec 18.33352 (165/9)",
       "rank": 2
      },
      "P05": {
       "n": 8,
       "best": 0.654,
-      "what": "triangle H Ketu / H Pallas / H Pluto [one plane (RA)]: H Ketu\u2013H Pallas RA 118.00051 (118), H Ketu\u2013H Pluto RA 102.00155 (102), H Pallas\u2013H Pluto RA 139.99794 (140) \u2014 sky Mars: sky Mars -> H Ketu RA 154.99828 (155); sky Mars -> H Pallas RA 87.00121 (87); sky Mars -> H Pluto RA 52.99673 (53)",
+      "what": "triangle H Ketu / H Pallas / H Pluto [one plane (RA)]: H Ketu\u2013H Pallas RA 118.00051 (118), H Ketu\u2013H Pluto RA 102.00155 (102), H Pallas\u2013H Pluto RA 139.99794 (140) [all whole] \u2014 sky Mars: sky Mars -> H Ketu RA 154.99828 (155); sky Mars -> H Pallas RA 87.00121 (87); sky Mars -> H Pluto RA 52.99673 (53)",
       "rank": 3
      },
      "P09": {
       "n": 2,
       "best": 0.38,
-      "what": "triangle H Ceres / J Makemake / J Sun [one plane (RA)]: H Ceres\u2013J Makemake RA 34.77777 (313/9), H Ceres\u2013J Sun RA 25.77797 (232/9), J Makemake\u2013J Sun RA 8.99980 (9) \u2014 sky Saturn: sky Saturn -> H Ceres RA 107.99995 (108); sky Saturn -> J Makemake RA 142.77772 (1285/9); sky Saturn -> J Sun RA 133.77792 (1204/9)",
+      "what": "triangle H Ceres / J Makemake / J Sun [one plane (RA)]: H Ceres\u2013J Makemake RA 34.77777 (313/9, ninth), H Ceres\u2013J Sun RA 25.77797 (232/9, ninth), J Makemake\u2013J Sun RA 8.99980 (9) [2 ninth sides] \u2014 sky Saturn: sky Saturn -> H Ceres RA 107.99995 (108); sky Saturn -> J Makemake RA 142.77772 (1285/9); sky Saturn -> J Sun RA 133.77792 (1204/9)",
       "rank": 1
      }
     },
@@ -1327,5 +1327,27 @@
   29,
   30,
   33
+ ],
+ "common": [
+  2,
+  3,
+  6,
+  8,
+  9,
+  10,
+  11,
+  13,
+  16,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  30
  ]
 }

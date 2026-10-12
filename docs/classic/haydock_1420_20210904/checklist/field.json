@@ -1,5 +1,5 @@
 {
- "version": "CR v1 (12 Oct 2026)",
+ "version": "CR v1.1 (12 Oct 2026, joins field-relative)",
  "race": "haydock_1420_20210904",
  "step": 4,
  "n": 6,
@@ -332,19 +332,19 @@
      "P03": {
       "n": 1,
       "best": 0.9,
-      "what": "triangle H Juno / H Venus / J Uranus [mixed planes]: H Juno\u2013H Venus Dec 6.00212 (6), H Juno\u2013J Uranus RA 132.00046 (132), H Venus\u2013J Uranus Dec 13.77823 (124/9) \u2014 sky Juno: sky Juno -> H Juno Dec 1.99854 (2); sky Juno -> H Venus Dec 8.00065 (8); sky Juno -> J Uranus Dec 5.77757 (52/9)",
+      "what": "triangle H Juno / H Venus / J Uranus [mixed planes]: H Juno\u2013H Venus Dec 6.00212 (6), H Juno\u2013J Uranus RA 132.00046 (132), H Venus\u2013J Uranus Dec 13.77823 (124/9, ninth) [1 ninth side] \u2014 sky Juno: sky Juno -> H Juno Dec 1.99854 (2); sky Juno -> H Venus Dec 8.00065 (8); sky Juno -> J Uranus Dec 5.77757 (52/9)",
       "rank": 3
      },
      "P05": {
       "n": 1,
       "best": 0.44,
-      "what": "triangle H Eris / H Pluto / J Ceres [one plane (RA)]: H Eris\u2013H Pluto RA 93.33328 (840/9), H Eris\u2013J Ceres RA 30.77787 (277/9), H Pluto\u2013J Ceres RA 62.55540 (563/9) \u2014 sky Mars: sky Mars -> H Eris RA 147.88902 (1331/9); sky Mars -> H Pluto RA 118.77770 (1069/9); sky Mars -> J Ceres RA 178.66689 (1608/9)",
+      "what": "triangle H Eris / H Pluto / J Ceres [one plane (RA)]: H Eris\u2013H Pluto RA 93.33328 (840/9, ninth), H Eris\u2013J Ceres RA 30.77787 (277/9, ninth), H Pluto\u2013J Ceres RA 62.55540 (563/9, ninth) [3 ninth sides] \u2014 sky Mars: sky Mars -> H Eris RA 147.88902 (1331/9); sky Mars -> H Pluto RA 118.77770 (1069/9); sky Mars -> J Ceres RA 178.66689 (1608/9)",
       "rank": 1
      },
      "P09": {
       "n": 2,
       "best": 0.8,
-      "what": "triangle H Makemake / H Quaoar / J Mercury [one plane (Dec)]: H Makemake\u2013H Quaoar Dec 40.22238 (362/9), H Makemake\u2013J Mercury Dec 5.44484 (49/9), H Quaoar\u2013J Mercury Dec 34.77753 (313/9) \u2014 sky Sun: sky Sun -> H Makemake Dec 17.55584 (158/9); sky Sun -> H Quaoar Dec 22.66653 (204/9); sky Sun -> J Mercury Dec 12.11100 (109/9)",
+      "what": "triangle H Makemake / H Quaoar / J Mercury [one plane (Dec)]: H Makemake\u2013H Quaoar Dec 40.22238 (362/9, ninth), H Makemake\u2013J Mercury Dec 5.44484 (49/9, ninth), H Quaoar\u2013J Mercury Dec 34.77753 (313/9, ninth) [3 ninth sides] \u2014 sky Sun: sky Sun -> H Makemake Dec 17.55584 (158/9); sky Sun -> H Quaoar Dec 22.66653 (204/9); sky Sun -> J Mercury Dec 12.11100 (109/9)",
       "rank": 2
      }
     },
@@ -1511,19 +1511,31 @@
    }
   },
   "33": {
+   "strict": {
+    "k": 1,
+    "runners": {
+     "P03": {
+      "n": 6,
+      "best": 0.302,
+      "what": "loop of 6: H Node -> H Haumea -> J Transpluto -> H Transpluto -> H Orcus -> J Node -> H Node  (closed through the same body in both charts: Node, Transpluto) \u2014 H Rahu\u2013H Haumea RA 76.7934 Dec 0.0567; H Haumea\u2013J Transpluto RA 76.3445 Dec 0.0728; J Transpluto = H Transpluto (same body); H Orcus\u2013H Transpluto RA 0.1151 Dec 21.2158; H Orcus\u2013J Rahu RA 178.6182 Dec 0.0906; J Node = H Node (same body)",
+      "rank": 1
+     }
+    },
+    "tightest": "P03"
+   },
    "near": {
     "k": 2,
     "runners": {
      "P03": {
-      "n": 10,
+      "n": 4,
       "best": 0.302,
-      "what": "loop of 5: H Node -> J Node -> H Orcus -> H Transpluto -> J Transpluto -> H Node  (closed through the same body in both charts: Node, Transpluto) \u2014 H Node = J Node (same body); H Orcus\u2013J Rahu RA 178.6182 Dec 0.0906; H Orcus\u2013H Transpluto RA 0.1151 Dec 21.2158; H Transpluto = J Transpluto (same body); H Rahu\u2013J Transpluto RA 0.4489 Dec 0.1294",
+      "what": "loop of 5: H Node -> J Node -> H Orcus -> H Transpluto -> J Transpluto -> H Node  (closed through the same body in both charts: Node, Transpluto)  (3 distinct bodies) \u2014 H Node = J Node (same body); H Orcus\u2013J Rahu RA 178.6182 Dec 0.0906; H Orcus\u2013H Transpluto RA 0.1151 Dec 21.2158; H Transpluto = J Transpluto (same body); H Rahu\u2013J Transpluto RA 0.4489 Dec 0.1294",
       "rank": 1
      },
      "P09": {
       "n": 1,
       "best": 0.5402,
-      "what": "loop of 4: H Node -> H Haumea -> J Haumea -> J Node -> H Node  (closed through the same body in both charts: Haumea, Node) \u2014 H Rahu\u2013H Haumea RA 76.9185 Dec 0.1899; H Haumea = J Haumea (same body); J Ketu\u2013J Haumea RA 120.2076 Dec 0.3241; J Node = H Node (same body)",
+      "what": "loop of 4: H Node -> H Haumea -> J Haumea -> J Node -> H Node  (closed through the same body in both charts: Haumea, Node)  (2 distinct bodies, no cross link between different bodies) \u2014 H Rahu\u2013H Haumea RA 76.9185 Dec 0.1899; H Haumea = J Haumea (same body); J Ketu\u2013J Haumea RA 120.2076 Dec 0.3241; J Node = H Node (same body)",
       "rank": 2
      }
     },
@@ -1563,5 +1575,27 @@
   29,
   30,
   33
+ ],
+ "common": [
+  2,
+  3,
+  6,
+  8,
+  9,
+  10,
+  13,
+  16,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  30
  ]
 }

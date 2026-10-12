@@ -1,362 +1,284 @@
-== P03 2 Jarlath / 2 Sean Houlihan   [exeter_1515_20211019, CR v1 (12 Oct 2026), step 4]
+== P03 2 Jarlath / 2 Sean Houlihan   [exeter_1515_20211019, CR v1.1 (12 Oct 2026, joins field-relative), step 4]
 [ 1] cross link struck on both ends by 2+ sky bodies: strict 1 (ONLY runner)
-     s t 0.734 D H Haumea – J Mercury RA 132.9966 Dec 0.0981 struck by 2 sky bodies — Ceres: sky Ceres -> H Haumea RA 135.99725 (136) | sky Ceres -> J Mercury RA 3.00069 (3); Mercury: sky Mercury -> H Haumea RA 17.22212 (155/9) | sky Mercury -> J Mercury Dec 21.99633 (22)   joined: 3,5,6,8,9,19,21,24
+     s t 0.734 D H Haumea – J Mercury RA 132.9966 Dec 0.0981 struck by 2 sky bodies — Ceres: sky Ceres -> H Haumea RA 135.99725 (136) | sky Ceres -> J Mercury RA 3.00069 (3); Mercury: sky Mercury -> H Haumea RA 17.22212 (155/9) | sky Mercury -> J Mercury Dec 21.99633 (22) (+common 3,5,6,8,9,19,21,24)
 [ 2] cross link struck on both ends (one body, or one per end): strict 8 (6 of 6, rank 3), near 7 (6 of 6, rank 1 (tightest))
-     s t 0.292   H Chiron – J Juno RA 68.8299 Dec 0.0727 (one per end) — sky Neptune -> H Chiron RA 18.00114 (18) | sky Sun -> J Juno Flat 60.99854 (61)   joined: 19,20,21,22,23,24,27
-     s t 0.292   H Rahu – J Juno RA 0.3399 Dec 18.5311 (one per end) — sky Makemake -> H Rahu GC 79.00063 (79) | sky Sun -> J Juno Flat 60.99854 (61)   joined: 9,15,19,21,22,24,27
-     s t 0.452   H Eris – J Saturn RA 28.9669 Dec 0.1093 (one per end) — sky Sun -> H Eris GC 165.99774 (166) | sky Saturn -> J Saturn RA 46.77800 (421/9)   joined: 6,19,20,21,22,23,24,25
-     s t 0.624   H Vesta – J Gonggong RA 23.8523 Dec 0.1873 (one per end) — sky Ceres -> H Vesta Flat 128.00147 (128) | sky Saturn -> J Gonggong Dec 1.00171 (1)   joined: 13,15,19,20,21,24
-     s t 0.648   H Sun – J Eris RA 0.5520 Dec 17.8466 (one per end) — sky Juno -> H Sun GC 123.99676 (124) | sky Ceres -> J Eris Flat 52.99701 (53)   joined: 19,20,21,24
-     s t 0.660 D H Venus – J Saturn RA 0.7929 Dec 0.3944 (one per end) — sky Mercury -> H Venus RA 165.66700 (1491/9) | sky Saturn -> J Saturn RA 46.77800 (421/9)   joined: 6,9,13,19,21,22,23,24,25
-     s t 0.846 D H Orcus – J Transpluto RA 0.8339 Dec 20.2380 (one per end) — sky Quaoar -> H Orcus Dec 9.00423 (9) | sky Uranus -> J Transpluto RA 104.77768 (943/9)   joined: 8,9,16,19,21,22,23,24
-     s t 0.957   H Eris – J Eris RA 1.4360 Dec 3.9107 (one per end) — sky Sun -> H Eris GC 165.99774 (166) | sky Ceres -> J Eris Flat 52.99701 (53)   joined: 6,19,20,21,22,24
-     n t 1.054   H Saturn – J Haumea RA 1.5808 Dec 24.9190 (near band) (one per end) — sky Ceres -> H Saturn Flat 123.44427 (1111/9) | sky Quaoar -> J Haumea RA 82.77791 (745/9)   joined: 19,21,22,23,24
-     n t 1.079   H Pluto – J Gonggong RA 53.6401 Dec 0.3237 (near band) (one per end) — sky Eris -> H Pluto Flat 110.00023 (110) | sky Saturn -> J Gonggong Dec 1.00171 (1)   joined: 15,19,20,21,24
-     n t 1.349   H Haumea – J Ceres RA 50.0740 Dec 0.4046 (near band) (one per end) — sky Mercury -> H Haumea RA 17.22212 (155/9) | sky Vesta -> J Ceres Flat 73.99783 (74)   joined: 1,3,5,6,8,9,19,21,22,24,27
-     n t 1.576   H Jupiter – J Mars RA 150.7595 Dec 0.4729 (near band) (one per end) — sky Chiron -> H Jupiter GC 9.66660 (87/9) | sky Pluto -> J Mars GC 127.00451 (127)   joined: 19,21,24,27
-     n t 1.624 D H Mars – J Pallas RA 107.8594 Dec 0.4873 (near band) (one per end) — sky Sedna -> H Mars Flat 48.99807 (49) | sky Pluto -> J Pallas Dec 26.00240 (26)   joined: 19,21,22,23,24
-     n t 1.877   H Ketu – J Venus RA 3.5673 Dec 0.5632 (near band) (one body) — sky Transpluto -> H Ketu Dec 12.99658 (13) | sky Transpluto -> J Venus RA 74.00487 (74)   joined: 9,13,15,19,21,22,23,24
-     n t 1.917   H Mercury – J Mars RA 155.1246 Dec 0.5752 (near band) (one per end) — sky Venus -> H Mercury Dec 31.99633 (32) | sky Pluto -> J Mars GC 127.00451 (127)   joined: 19,21,22,24,26,27
+     s t 0.292   H Chiron – J Juno RA 68.8299 Dec 0.0727 (one per end) — sky Neptune -> H Chiron RA 18.00114 (18) | sky Sun -> J Juno Flat 60.99854 (61) (+common 19,20,21,22,23,24,27)
+     s t 0.292   H Rahu – J Juno RA 0.3399 Dec 18.5311 (one per end) — sky Makemake -> H Rahu GC 79.00063 (79) | sky Sun -> J Juno Flat 60.99854 (61) (+common 9,15,19,21,22,24,27)
+     s t 0.452   H Eris – J Saturn RA 28.9669 Dec 0.1093 (one per end) — sky Sun -> H Eris GC 165.99774 (166) | sky Saturn -> J Saturn RA 46.77800 (421/9) (+common 6,19,20,21,22,23,24,25)
+     s t 0.624   H Vesta – J Gonggong RA 23.8523 Dec 0.1873 (one per end) — sky Ceres -> H Vesta Flat 128.00147 (128) | sky Saturn -> J Gonggong Dec 1.00171 (1) (+common 13,15,19,20,21,24)
+     s t 0.648   H Sun – J Eris RA 0.5520 Dec 17.8466 (one per end) — sky Juno -> H Sun GC 123.99676 (124) | sky Ceres -> J Eris Flat 52.99701 (53) (+common 19,20,21,24)
+     s t 0.660 D H Venus – J Saturn RA 0.7929 Dec 0.3944 (one per end) — sky Mercury -> H Venus RA 165.66700 (1491/9) | sky Saturn -> J Saturn RA 46.77800 (421/9) (+common 6,9,13,19,21,22,23,24,25)
+     s t 0.846 D H Orcus – J Transpluto RA 0.8339 Dec 20.2380 (one per end) — sky Quaoar -> H Orcus Dec 9.00423 (9) | sky Uranus -> J Transpluto RA 104.77768 (943/9) (+common 8,9,16,19,21,22,23,24)
+     s t 0.957   H Eris – J Eris RA 1.4360 Dec 3.9107 (one per end) — sky Sun -> H Eris GC 165.99774 (166) | sky Ceres -> J Eris Flat 52.99701 (53) (+common 6,19,20,21,22,24)
+     n t 1.054   H Saturn – J Haumea RA 1.5808 Dec 24.9190 (near band) (one per end) — sky Ceres -> H Saturn Flat 123.44427 (1111/9) | sky Quaoar -> J Haumea RA 82.77791 (745/9) (+common 19,21,22,23,24)
+     n t 1.079   H Pluto – J Gonggong RA 53.6401 Dec 0.3237 (near band) (one per end) — sky Eris -> H Pluto Flat 110.00023 (110) | sky Saturn -> J Gonggong Dec 1.00171 (1) (+common 15,19,20,21,24)
+     n t 1.349   H Haumea – J Ceres RA 50.0740 Dec 0.4046 (near band) (one per end) — sky Mercury -> H Haumea RA 17.22212 (155/9) | sky Vesta -> J Ceres Flat 73.99783 (74)   joined: 1 (+common 3,5,6,8,9,19,21,22,24,27)
+     n t 1.576   H Jupiter – J Mars RA 150.7595 Dec 0.4729 (near band) (one per end) — sky Chiron -> H Jupiter GC 9.66660 (87/9) | sky Pluto -> J Mars GC 127.00451 (127) (+common 19,21,24,27)
+     n t 1.624 D H Mars – J Pallas RA 107.8594 Dec 0.4873 (near band) (one per end) — sky Sedna -> H Mars Flat 48.99807 (49) | sky Pluto -> J Pallas Dec 26.00240 (26) (+common 19,21,22,23,24)
+     n t 1.877   H Ketu – J Venus RA 3.5673 Dec 0.5632 (near band) (one body) — sky Transpluto -> H Ketu Dec 12.99658 (13) | sky Transpluto -> J Venus RA 74.00487 (74) (+common 9,13,15,19,21,22,23,24)
+     n t 1.917   H Mercury – J Mars RA 155.1246 Dec 0.5752 (near band) (one per end) — sky Venus -> H Mercury Dec 31.99633 (32) | sky Pluto -> J Mars GC 127.00451 (127) (+common 19,21,22,24,26,27)
 [ 3] partner strike: strict 1 (5 of 6, rank 2), near 1 (4 of 6, rank 3)
-     s t 0.327 D H Haumea – J Mercury RA 132.9966 Dec 0.0981 — partner sky Mercury -> H Haumea RA 17.22212 (155/9)   joined: 1,5,6,8,9,19,21,24
-     n t 1.349 D H Haumea – J Ceres RA 50.0740 Dec 0.4046 (near band) — partner sky Ceres -> H Haumea RA 135.99725 (136)   joined: 1,5,6,8,9,19,21,22,24,27
+     s t 0.327 D H Haumea – J Mercury RA 132.9966 Dec 0.0981 — partner sky Mercury -> H Haumea RA 17.22212 (155/9)   joined: 1 (+common 5,6,8,9,19,21,24)
+     n t 1.349 D H Haumea – J Ceres RA 50.0740 Dec 0.4046 (near band) — partner sky Ceres -> H Haumea RA 135.99725 (136)   joined: 1 (+common 5,6,8,9,19,21,22,24,27)
 [ 4] cross-link pair together in the sky: near 1 (3 of 6, rank 3)
-     n t 1.624   H Mars – J Pallas RA 107.8594 Dec 0.4873 (near band) — sky Mars–Pallas close in Dec only: GC 137.6361 RA 140.8352 Dec 0.1203   joined: 19,21,22,23,24
+     n t 1.624   H Mars – J Pallas RA 107.8594 Dec 0.4873 (near band) — sky Mars–Pallas close in Dec only: GC 137.6361 RA 140.8352 Dec 0.1203 (+common 19,21,22,23,24)
 [ 5] both ends of a cross link moved: strict 1 (3 of 6, rank 1 (tightest)), near 1 (ONLY runner)
-     s t 0.367   H Haumea – J Mercury RA 132.9966 Dec 0.0981 — H Haumea moved Flat 9.99648 (10) | J Mercury moved Dec 21.99633 (22)  (+1 more)   joined: 1,3,6,8,9,19,21,24
-     n t 1.349   H Haumea – J Ceres RA 50.0740 Dec 0.4046 (near band) — H Haumea moved Flat 9.99648 (10) | J Ceres moved Dec 3.22165 (29/9)  (+1 more)   joined: 1,3,6,8,9,19,21,22,24,27
+     s t 0.367   H Haumea – J Mercury RA 132.9966 Dec 0.0981 — H Haumea moved Flat 9.99648 (10) | J Mercury moved Dec 21.99633 (22)  (+1 more)   joined: 1 (+common 3,6,8,9,19,21,24)
+     n t 1.349   H Haumea – J Ceres RA 50.0740 Dec 0.4046 (near band) — H Haumea moved Flat 9.99648 (10) | J Ceres moved Dec 3.22165 (29/9)  (+1 more)   joined: 1 (+common 3,6,8,9,19,21,22,24,27)
 [ 6] movement onto a cross link: strict 6 (5 of 6, rank 1 (tightest)), near 4 (4 of 6, rank 1 (tightest))
-     s t 0.160   H Gonggong moved RA 1.22232 (11/9) — on H Gonggong – J Quaoar RA 95.0320 Dec 0.0480   joined: 9,15,19,20,21,24,27
-     s t 0.352   H Haumea moved Flat 9.99648 (10) — on H Haumea – J Mercury RA 132.9966 Dec 0.0981   joined: 1,3,5,8,9,19,21,24
-     s t 0.364   J Saturn moved RA 46.77800 (421/9) — on H Eris – J Saturn RA 28.9669 Dec 0.1093   joined: 2,19,20,21,22,23,24,25
-     s t 0.367   J Mercury moved Dec 21.99633 (22) — on H Haumea – J Mercury RA 132.9966 Dec 0.0981   joined: 1,3,5,8,9,19,21,24
-     s t 0.478   H Haumea moved Dec 3.99522 (4) — on H Haumea – J Mercury RA 132.9966 Dec 0.0981   joined: 1,3,5,8,9,19,21,24
-     s t 0.529   J Saturn moved RA 46.77800 (421/9) — on H Venus – J Saturn RA 0.7929 Dec 0.3944   joined: 2,9,13,19,21,22,23,24,25
-     n t 1.054   H Saturn moved RA 116.44490 (1048/9) — on H Saturn – J Haumea RA 1.5808 Dec 24.9190 (near band)   joined: 19,21,22,23,24
-     n t 1.349   H Haumea moved Dec 3.99522 (4) — on H Haumea – J Ceres RA 50.0740 Dec 0.4046 (near band)   joined: 1,3,5,8,9,19,21,22,24,27
-     n t 1.349   H Haumea moved Flat 9.99648 (10) — on H Haumea – J Ceres RA 50.0740 Dec 0.4046 (near band)   joined: 1,3,5,8,9,19,21,22,24,27
-     n t 1.349   J Ceres moved Dec 3.22165 (29/9) — on H Haumea – J Ceres RA 50.0740 Dec 0.4046 (near band)   joined: 1,3,5,8,9,19,21,22,24,27
+     s t 0.160   H Gonggong moved RA 1.22232 (11/9) — on H Gonggong – J Quaoar RA 95.0320 Dec 0.0480 (+common 9,15,19,20,21,24,27)
+     s t 0.352   H Haumea moved Flat 9.99648 (10) — on H Haumea – J Mercury RA 132.9966 Dec 0.0981   joined: 1 (+common 3,5,8,9,19,21,24)
+     s t 0.364   J Saturn moved RA 46.77800 (421/9) — on H Eris – J Saturn RA 28.9669 Dec 0.1093 (+common 2,19,20,21,22,23,24,25)
+     s t 0.367   J Mercury moved Dec 21.99633 (22) — on H Haumea – J Mercury RA 132.9966 Dec 0.0981   joined: 1 (+common 3,5,8,9,19,21,24)
+     s t 0.478   H Haumea moved Dec 3.99522 (4) — on H Haumea – J Mercury RA 132.9966 Dec 0.0981   joined: 1 (+common 3,5,8,9,19,21,24)
+     s t 0.529   J Saturn moved RA 46.77800 (421/9) — on H Venus – J Saturn RA 0.7929 Dec 0.3944 (+common 2,9,13,19,21,22,23,24,25)
+     n t 1.054   H Saturn moved RA 116.44490 (1048/9) — on H Saturn – J Haumea RA 1.5808 Dec 24.9190 (near band) (+common 19,21,22,23,24)
+     n t 1.349   H Haumea moved Dec 3.99522 (4) — on H Haumea – J Ceres RA 50.0740 Dec 0.4046 (near band)   joined: 1 (+common 3,5,8,9,19,21,22,24,27)
+     n t 1.349   H Haumea moved Flat 9.99648 (10) — on H Haumea – J Ceres RA 50.0740 Dec 0.4046 (near band)   joined: 1 (+common 3,5,8,9,19,21,22,24,27)
+     n t 1.349   J Ceres moved Dec 3.22165 (29/9) — on H Haumea – J Ceres RA 50.0740 Dec 0.4046 (near band)   joined: 1 (+common 3,5,8,9,19,21,22,24,27)
 [ 7] swap: none
 [ 8] triangle struck at every corner by one sky body: strict 2 (6 of 6, rank 4)
-     s t 0.776 D triangle H Ceres / H Haumea / J Mercury [one plane (RA)]: H Ceres–H Haumea RA 137.00388 (137), H Ceres–J Mercury RA 89.99956 (90), H Haumea–J Mercury RA 132.99656 (133) — sky Ceres: sky Ceres -> H Ceres RA 86.99887 (87); sky Ceres -> H Haumea RA 135.99725 (136); sky Ceres -> J Mercury RA 3.00069 (3)   joined: 1,3,5,6,9,19,21,24,27
-     s t 0.882 D triangle H Orcus / H Sedna / J Orcus [one plane (RA)]: H Orcus–H Sedna RA 94.00088 (94), H Orcus–J Orcus RA 13.00401 (13), H Sedna–J Orcus RA 80.99686 (81) — sky Vesta: sky Vesta -> H Orcus RA 76.99559 (77); sky Vesta -> H Sedna RA 170.99646 (171); sky Vesta -> J Orcus RA 89.99960 (90)   joined: 2,9,16,19,21,22,24
+     s t 0.776 D triangle H Ceres / H Haumea / J Mercury [one plane (RA)]: H Ceres–H Haumea RA 137.00388 (137), H Ceres–J Mercury RA 89.99956 (90), H Haumea–J Mercury RA 132.99656 (133) [all whole] — sky Ceres: sky Ceres -> H Ceres RA 86.99887 (87); sky Ceres -> H Haumea RA 135.99725 (136); sky Ceres -> J Mercury RA 3.00069 (3)   joined: 1 (+common 3,5,6,9,19,21,24,27)
+     s t 0.882 D triangle H Orcus / H Sedna / J Orcus [one plane (RA)]: H Orcus–H Sedna RA 94.00088 (94), H Orcus–J Orcus RA 13.00401 (13), H Sedna–J Orcus RA 80.99686 (81) [all whole] — sky Vesta: sky Vesta -> H Orcus RA 76.99559 (77); sky Vesta -> H Sedna RA 170.99646 (171); sky Vesta -> J Orcus RA 89.99960 (90) (+common 2,9,16,19,21,22,24)
 [ 9] pair in one chart struck on both ends by one sky body: strict 4 (6 of 6, rank 6)
-     s t 0.776 D H Ceres–Haumea RA 137.00388 = 137 struck by 1 sky body — Ceres: sky Ceres -> H Ceres RA 86.99887 (87) | sky Ceres -> H Haumea RA 135.99725 (136)   joined: 1,3,5,6,8,19,21,24,27
-     s t 0.860 D H Venus–Haumea RA 148.44487 = 1336/9 struck by 1 sky body — Mercury: sky Mercury -> H Venus RA 165.66700 (1491/9) | sky Mercury -> H Haumea RA 17.22212 (155/9)   joined: 1,2,3,5,6,8,13,19,21,22,23,24
-     s t 0.882 D H Sedna–Orcus RA 94.00088 = 94 struck by 1 sky body — Vesta: sky Vesta -> H Sedna RA 170.99646 (171) | sky Vesta -> H Orcus RA 76.99559 (77)   joined: 2,8,16,19,21,24
-     s t 0.940   H Rahu–Gonggong Flat 71.00091 = 71 struck by 1 sky body — Gonggong: sky Gonggong -> H Rahu Flat 72.55603 (653/9) | sky Gonggong -> H Gonggong RA 1.22232 (11/9)   joined: 2,6,15,19,20,21,24
+     s t 0.776 D H Ceres–Haumea RA 137.00388 = 137 struck by 1 sky body — Ceres: sky Ceres -> H Ceres RA 86.99887 (87) | sky Ceres -> H Haumea RA 135.99725 (136)   joined: 1 (+common 3,5,6,8,19,21,24,27)
+     s t 0.860 D H Venus–Haumea RA 148.44487 = 1336/9 struck by 1 sky body — Mercury: sky Mercury -> H Venus RA 165.66700 (1491/9) | sky Mercury -> H Haumea RA 17.22212 (155/9)   joined: 1 (+common 2,3,5,6,8,13,19,21,22,23,24)
+     s t 0.882 D H Sedna–Orcus RA 94.00088 = 94 struck by 1 sky body — Vesta: sky Vesta -> H Sedna RA 170.99646 (171) | sky Vesta -> H Orcus RA 76.99559 (77) (+common 2,8,16,19,21,24)
+     s t 0.940   H Rahu–Gonggong Flat 71.00091 = 71 struck by 1 sky body — Gonggong: sky Gonggong -> H Rahu Flat 72.55603 (653/9) | sky Gonggong -> H Gonggong RA 1.22232 (11/9) (+common 2,6,15,19,20,21,24)
 [10] pair in one chart struck on both ends by 2+ sky bodies: none
 [11] same number / same ratio in both charts: none
 [12] shared node: none
 [13] shared natal pair: strict 1 (5 of 6, rank 5), other 1 (6 of 6, rank 6)
-     s t 0.587   shared Venus–Vesta RA H 47.7231 J 47.5834 (0.2936%) sky 27.3925 S~H ['7/4', 0.4458] S~J ['7/4', 0.7373]   joined: 2,6,9,19,21,22,23,24
-     o t 0.549   shared Gonggong–Transpluto Flat (slow pair: age) H 177.6773 J 177.1907 (0.2747%) sky 180.1821 S~H None S~J None   joined: 2,6,9,15,16,19,20,21,22,23,24
+     s t 0.587   shared Venus–Vesta RA H 47.7231 J 47.5834 (0.2936%) sky 27.3925 S~H ['7/4', 0.4458] S~J ['7/4', 0.7373] (+common 2,6,9,19,21,22,23,24)
+     o t 0.549   shared Gonggong–Transpluto Flat (slow pair: age) H 177.6773 J 177.1907 (0.2747%) sky 180.1821 S~H None S~J None (+common 2,6,9,15,16,19,20,21,22,23,24)
 [14] shared pair also cross-linked: none
 [15] pair set H:J:S: strict 1 (3 of 6, rank 2)
-     s t 0.320   pair set Rahu–Gonggong Dec H 9.4373 J 5.6629 S 32.0845 -> H:J 5/3, H:S 17/5, J:S 17/3 (worst 0.0160%)   joined: 2,6,9,19,20,21,22,24,27
+     s t 0.320   pair set Rahu–Gonggong Dec H 9.4373 J 5.6629 S 32.0845 -> H:J 5/3, H:S 17/5, J:S 17/3 (worst 0.0160%) (+common 2,6,9,19,20,21,22,24,27)
 [16] same-body set: strict 2 (5 of 6, rank 5)
-     s t 0.723   same-body Transpluto GC S–H 4.4904 H–J 5.3826 S–J 9.8729 -> 6/5 : 11/5 : 11/6 (worst 0.1084%)   joined: 2,19,21,22,23,24
-     s t 0.965   same-body Orcus Dec S–H 5.0564 H–J 8.0786 S–J 13.1351 -> 8/5 : 13/5 : 13/8 (worst 0.1448%)   joined: 2,8,9,19,21,22,24
+     s t 0.723   same-body Transpluto GC S–H 4.4904 H–J 5.3826 S–J 9.8729 -> 6/5 : 11/5 : 11/6 (worst 0.1084%) (+common 2,19,21,22,23,24)
+     s t 0.965   same-body Orcus Dec S–H 5.0564 H–J 8.0786 S–J 13.1351 -> 8/5 : 13/5 : 13/8 (worst 0.1448%) (+common 2,8,9,19,21,22,24)
 [17] same-body Dec 9/4 : 5/4 : 9/5: none
 [18] same-body set joined to the web: strict 2 (5 of 6, rank 5)
-     s t 0.723   same-body Transpluto GC S–H 4.4904 H–J 5.3826 S–J 9.8729 -> 6/5 : 11/5 : 11/6 (worst 0.1084%) — joined by 3: cross H Orcus – J Transpluto RA 0.8339 Dec 20.2380; ratio H Pallas–Transpluto GC 6/5; ratio J Pallas–Transpluto RA 19/3   joined: 2,16,19,21,22,23,24
-     s t 0.965   same-body Orcus Dec S–H 5.0564 H–J 8.0786 S–J 13.1351 -> 8/5 : 13/5 : 13/8 (worst 0.1448%) — joined by 4: cross H Orcus – J Pluto RA 92.6835 Dec 0.1705; cross H Orcus – J Transpluto RA 0.8339 Dec 20.2380; ratio J Ceres–Orcus Dec 14/9; ratio J Rahu–Orcus RA 5/4   joined: 2,8,9,16,19,21,22,24
+     s t 0.723   same-body Transpluto GC S–H 4.4904 H–J 5.3826 S–J 9.8729 -> 6/5 : 11/5 : 11/6 (worst 0.1084%) — joined by 3: cross H Orcus – J Transpluto RA 0.8339 Dec 20.2380; ratio H Pallas–Transpluto GC 6/5; ratio J Pallas–Transpluto RA 19/3 (+common 2,16,19,21,22,23,24)
+     s t 0.965   same-body Orcus Dec S–H 5.0564 H–J 8.0786 S–J 13.1351 -> 8/5 : 13/5 : 13/8 (worst 0.1448%) — joined by 4: cross H Orcus – J Pluto RA 92.6835 Dec 0.1705; cross H Orcus – J Transpluto RA 0.8339 Dec 20.2380; ratio J Ceres–Orcus Dec 14/9; ratio J Rahu–Orcus RA 5/4 (+common 2,8,9,16,19,21,22,24)
 [19] sky body divides a natal pair (split): strict 83 (4 of 6, rank 1 (tightest))
-     s t 0.000   J Ceres moved Dec (29/9) toward J Jupiter: span 40.27061 = 3.22165 + 37.04896; parts 23/2 (0.0000%)   joined: 20,21,22,24,27
-     s t 0.002   J Sedna moved Dec (29/9) toward J Ketu: span 7.82574 = 3.22237 + 4.60337; parts 10/7 (0.0005%)   joined: 15,20,21,22,24,27
-     s t 0.020   J Makemake moved Dec (12) toward J Ketu: span 21.34123 = 12.00491 + 9.33632; span/other 16/7 (0.0050%)   joined: 15,20,21,22,24,27
-     s t 0.034   H Haumea moved Dec (4) toward J Pallas: span 15.97683 = 3.99522 + 11.98161; span/other 4/3 (0.0085%)   joined: 1,3,5,6,8,9,21,22,23,24
-     s t 0.038   H Haumea moved Dec (4) toward H Transpluto: span 7.10209 = 3.99522 + 3.10687; span/other 16/7 (0.0095%)   joined: 1,3,5,6,8,9,16,21,22,23,24
-     s t 0.040   J Ceres moved Dec (29/9) toward J Uranus: span 40.26692 = 3.22165 + 37.04527; parts 23/2 (0.0100%)   joined: 20,21,22,24,27
-     s t 0.041   J Ceres moved Dec (29/9) toward J Rahu: span 32.18703 = 3.22165 + 28.96538; span/other 10/9 (0.0102%)   joined: 15,20,21,22,24,27
-     s t 0.045   J Ceres moved Dec (29/9) toward J Pluto: span 25.75274 = 3.22165 + 22.53109; span/other 8/7 (0.0113%)   joined: 21,22,24,27
-     s t 0.050   J Makemake moved Dec (12) toward J Quaoar: span 48.03764 = 12.00491 + 36.03273; span/other 4/3 (0.0125%)   joined: 6,21,24,27
-     s t 0.052   J Makemake moved Dec (12) toward J Transpluto: span 20.31782 = 12.00491 + 8.31291; span/other 22/9 (0.0129%)   joined: 2,16,21,22,23,24
-     s t 0.054 D H Ceres moved RA (87) toward J Pallas: span 134.44286 = 86.99887 + 47.44399 (427/9); span/other 17/6 (0.0135%)   joined: 8,9,21,22,23,24,27
-     s t 0.054   J Ceres moved Dec (29/9) toward J Chiron: span 19.34298 = 3.22165 + 16.12133; span/other 6/5 (0.0135%)   joined: 21,22,23,24,27
-     s t 0.083   J Makemake moved Dec (12) toward H Gonggong: span 47.98967 = 12.00491 + 35.98476; span/other 4/3 (0.0208%)   joined: 6,9,15,20,21,24
-     s t 0.094 D H Ceres moved RA (87) toward J Mercury: span 89.99956 = 86.99887 + 3.00069 (3); span/other 30 (0.0234%)   joined: 1,3,5,6,8,9,21,24,27
-     s t 0.096   H Haumea moved Dec (4) toward J Jupiter: span 39.86604 = 3.99522 + 35.87082; span/other 10/9 (0.0240%)   joined: 1,3,5,6,8,9,20,21,22,24
-     s t 0.100   H Haumea moved Dec (4) toward J Uranus: span 39.86235 = 3.99522 + 35.86713; span/other 10/9 (0.0251%)   joined: 1,3,5,6,8,9,20,21,24
-     s t 0.104   J Saturn moved RA (421/9) toward J Pluto: span 116.89949 = 46.77800 + 70.12149; span/other 5/3 (0.0260%)   joined: 2,6,21,22,23,24,25,27
-     s t 0.112   H Haumea moved Dec (4) toward H Gonggong: span 32.95246 = 3.99522 + 28.95724; parts 29/4 (0.0280%)   joined: 1,3,5,6,8,9,15,20,21,24
-     s t 0.138   J Ceres moved Dec (29/9) toward J Mars: span 13.59893 = 3.22165 + 10.37728; parts 29/9 (0.0346%)   joined: 21,22,24,27
-     s t 0.150   J Makemake moved Dec (12) toward H Pluto: span 52.80627 = 12.00491 + 40.80136; parts 17/5 (0.0376%)   joined: 20,21,24
-     s t 0.163   J Ceres moved Dec (29/9) toward H Uranus: span 19.36942 = 3.22165 + 16.14778; span/other 6/5 (0.0408%)   joined: 21,22,24,27
-     s t 0.175   H Haumea moved Dec (4) toward H Saturn: span 21.56649 = 3.99522 + 17.57127; parts 22/5 (0.0438%)   joined: 1,3,5,6,8,9,21,22,23,24
-     s t 0.186   J Makemake moved Dec (12) toward J Uranus: span 54.89956 = 12.00491 + 42.89465; parts 25/7 (0.0466%)   joined: 20,21,24
-     s t 0.188   J Saturn moved RA (421/9) toward H Quaoar: span 93.60012 = 46.77800 + 46.82212; span/other 2 (0.0471%)   joined: 2,6,21,22,23,24,25,27
-     s t 0.215 D J Makemake moved Dec (12) toward H Uranus: span 34.00206 = 12.00491 + 21.99715 (22); parts 11/6 (0.0538%)   joined: 21,24
-     s t 0.221   J Makemake moved Dec (12) toward J Jupiter: span 54.90325 = 12.00491 + 42.89834; parts 25/7 (0.0552%)   joined: 20,21,22,24
-     s t 0.244   J Ceres moved Dec (29/9) toward H Eris: span 23.34465 = 3.22165 + 20.12300; parts 25/4 (0.0611%)   joined: 2,6,20,21,22,24,27
-     s t 0.264   J Sedna moved Dec (29/9) toward J Ceres: span 14.53434 = 3.22237 + 11.31197; span/other 9/7 (0.0661%)   joined: 21,22,24,27
-     s t 0.279   H Haumea moved Dec (4) toward H Mars: span 15.48950 = 3.99522 + 11.49428; parts 23/8 (0.0698%)   joined: 1,3,5,6,8,9,21,24
-     s t 0.284   J Sedna moved Dec (29/9) toward J Makemake: span 29.16698 = 3.22237 + 25.94460; span/other 9/8 (0.0709%)   joined: 21,22,24
-     s t 0.284   J Makemake moved Dec (12) toward J Sedna: span 29.16698 = 12.00491 + 17.16207; parts 10/7 (0.0711%)   joined: 21,22,24
-     s t 0.290   J Ceres moved Dec (29/9) toward J Sedna: span 14.53434 = 3.22165 + 11.31269; span/other 9/7 (0.0725%)   joined: 21,22,24,27
-     s t 0.306   H Haumea moved Dec (4) toward J Neptune: span 39.67902 = 3.99522 + 35.68380; span/other 10/9 (0.0766%)   joined: 1,3,5,6,8,9,21,24,27
-     s t 0.320   J Sedna moved Dec (29/9) toward J Transpluto: span 8.84916 = 3.22237 + 5.62678; span/other 11/7 (0.0800%)   joined: 2,16,21,22,23,24
-     s t 0.323   H Haumea moved Dec (4) toward J Rahu: span 31.78246 = 3.99522 + 27.78724; span/other 8/7 (0.0807%)   joined: 1,3,5,6,8,9,15,20,21,22,24,27
-     s t 0.330   J Ceres moved Dec (29/9) toward H Orcus: span 25.92321 = 3.22165 + 22.70156; span/other 8/7 (0.0826%)   joined: 2,8,9,16,21,22,24,27
-     s t 0.331   H Haumea moved Dec (4) toward H Venus: span 22.65500 = 3.99522 + 18.65978; parts 14/3 (0.0827%)   joined: 1,2,3,5,6,8,9,13,21,22,23,24
-     s t 0.332   H Haumea moved Dec (4) toward H Uranus: span 18.96485 = 3.99522 + 14.96963; parts 15/4 (0.0831%)   joined: 1,3,5,6,8,9,21,24
-     s t 0.358   J Mercury moved Dec (22) toward J Jupiter: span 39.96412 = 21.99633 + 17.96779; span/other 20/9 (0.0894%)   joined: 1,3,5,6,8,20,21,22,24
-     s t 0.369   H Haumea moved Dec (4) toward H Vesta: span 37.25804 = 3.99522 + 33.26282; parts 25/3 (0.0922%)   joined: 1,2,3,5,6,8,9,13,21,24
+     s t 0.000   J Ceres moved Dec (29/9) toward J Jupiter: span 40.27061 = 3.22165 + 37.04896; parts 23/2 (0.0000%) (+common 20,21,22,24,27)
+     s t 0.002   J Sedna moved Dec (29/9) toward J Ketu: span 7.82574 = 3.22237 + 4.60337; parts 10/7 (0.0005%) (+common 15,20,21,22,24,27)
+     s t 0.020   J Makemake moved Dec (12) toward J Ketu: span 21.34123 = 12.00491 + 9.33632; span/other 16/7 (0.0050%) (+common 15,20,21,22,24,27)
+     s t 0.034   H Haumea moved Dec (4) toward J Pallas: span 15.97683 = 3.99522 + 11.98161; span/other 4/3 (0.0085%)   joined: 1 (+common 3,5,6,8,9,21,22,23,24)
+     s t 0.038   H Haumea moved Dec (4) toward H Transpluto: span 7.10209 = 3.99522 + 3.10687; span/other 16/7 (0.0095%)   joined: 1 (+common 3,5,6,8,9,16,21,22,23,24)
+     s t 0.040   J Ceres moved Dec (29/9) toward J Uranus: span 40.26692 = 3.22165 + 37.04527; parts 23/2 (0.0100%) (+common 20,21,22,24,27)
+     s t 0.041   J Ceres moved Dec (29/9) toward J Rahu: span 32.18703 = 3.22165 + 28.96538; span/other 10/9 (0.0102%) (+common 15,20,21,22,24,27)
+     s t 0.045   J Ceres moved Dec (29/9) toward J Pluto: span 25.75274 = 3.22165 + 22.53109; span/other 8/7 (0.0113%) (+common 21,22,24,27)
+     s t 0.050   J Makemake moved Dec (12) toward J Quaoar: span 48.03764 = 12.00491 + 36.03273; span/other 4/3 (0.0125%) (+common 6,21,24,27)
+     s t 0.052   J Makemake moved Dec (12) toward J Transpluto: span 20.31782 = 12.00491 + 8.31291; span/other 22/9 (0.0129%) (+common 2,16,21,22,23,24)
+     s t 0.054 D H Ceres moved RA (87) toward J Pallas: span 134.44286 = 86.99887 + 47.44399 (427/9); span/other 17/6 (0.0135%) (+common 8,9,21,22,23,24,27)
+     s t 0.054   J Ceres moved Dec (29/9) toward J Chiron: span 19.34298 = 3.22165 + 16.12133; span/other 6/5 (0.0135%) (+common 21,22,23,24,27)
+     s t 0.083   J Makemake moved Dec (12) toward H Gonggong: span 47.98967 = 12.00491 + 35.98476; span/other 4/3 (0.0208%) (+common 6,9,15,20,21,24)
+     s t 0.094 D H Ceres moved RA (87) toward J Mercury: span 89.99956 = 86.99887 + 3.00069 (3); span/other 30 (0.0234%)   joined: 1 (+common 3,5,6,8,9,21,24,27)
+     s t 0.096   H Haumea moved Dec (4) toward J Jupiter: span 39.86604 = 3.99522 + 35.87082; span/other 10/9 (0.0240%)   joined: 1 (+common 3,5,6,8,9,20,21,22,24)
+     s t 0.100   H Haumea moved Dec (4) toward J Uranus: span 39.86235 = 3.99522 + 35.86713; span/other 10/9 (0.0251%)   joined: 1 (+common 3,5,6,8,9,20,21,24)
+     s t 0.104   J Saturn moved RA (421/9) toward J Pluto: span 116.89949 = 46.77800 + 70.12149; span/other 5/3 (0.0260%) (+common 2,6,21,22,23,24,25,27)
+     s t 0.112   H Haumea moved Dec (4) toward H Gonggong: span 32.95246 = 3.99522 + 28.95724; parts 29/4 (0.0280%)   joined: 1 (+common 3,5,6,8,9,15,20,21,24)
+     s t 0.138   J Ceres moved Dec (29/9) toward J Mars: span 13.59893 = 3.22165 + 10.37728; parts 29/9 (0.0346%) (+common 21,22,24,27)
+     s t 0.150   J Makemake moved Dec (12) toward H Pluto: span 52.80627 = 12.00491 + 40.80136; parts 17/5 (0.0376%) (+common 20,21,24)
+     s t 0.163   J Ceres moved Dec (29/9) toward H Uranus: span 19.36942 = 3.22165 + 16.14778; span/other 6/5 (0.0408%) (+common 21,22,24,27)
+     s t 0.175   H Haumea moved Dec (4) toward H Saturn: span 21.56649 = 3.99522 + 17.57127; parts 22/5 (0.0438%)   joined: 1 (+common 3,5,6,8,9,21,22,23,24)
+     s t 0.186   J Makemake moved Dec (12) toward J Uranus: span 54.89956 = 12.00491 + 42.89465; parts 25/7 (0.0466%) (+common 20,21,24)
+     s t 0.188   J Saturn moved RA (421/9) toward H Quaoar: span 93.60012 = 46.77800 + 46.82212; span/other 2 (0.0471%) (+common 2,6,21,22,23,24,25,27)
+     s t 0.215 D J Makemake moved Dec (12) toward H Uranus: span 34.00206 = 12.00491 + 21.99715 (22); parts 11/6 (0.0538%) (+common 21,24)
+     s t 0.221   J Makemake moved Dec (12) toward J Jupiter: span 54.90325 = 12.00491 + 42.89834; parts 25/7 (0.0552%) (+common 20,21,22,24)
+     s t 0.244   J Ceres moved Dec (29/9) toward H Eris: span 23.34465 = 3.22165 + 20.12300; parts 25/4 (0.0611%) (+common 2,6,20,21,22,24,27)
+     s t 0.264   J Sedna moved Dec (29/9) toward J Ceres: span 14.53434 = 3.22237 + 11.31197; span/other 9/7 (0.0661%) (+common 21,22,24,27)
+     s t 0.279   H Haumea moved Dec (4) toward H Mars: span 15.48950 = 3.99522 + 11.49428; parts 23/8 (0.0698%)   joined: 1 (+common 3,5,6,8,9,21,24)
+     s t 0.284   J Sedna moved Dec (29/9) toward J Makemake: span 29.16698 = 3.22237 + 25.94460; span/other 9/8 (0.0709%) (+common 21,22,24)
+     s t 0.284   J Makemake moved Dec (12) toward J Sedna: span 29.16698 = 12.00491 + 17.16207; parts 10/7 (0.0711%) (+common 21,22,24)
+     s t 0.290   J Ceres moved Dec (29/9) toward J Sedna: span 14.53434 = 3.22165 + 11.31269; span/other 9/7 (0.0725%) (+common 21,22,24,27)
+     s t 0.306   H Haumea moved Dec (4) toward J Neptune: span 39.67902 = 3.99522 + 35.68380; span/other 10/9 (0.0766%)   joined: 1 (+common 3,5,6,8,9,21,24,27)
+     s t 0.320   J Sedna moved Dec (29/9) toward J Transpluto: span 8.84916 = 3.22237 + 5.62678; span/other 11/7 (0.0800%) (+common 2,16,21,22,23,24)
+     s t 0.323   H Haumea moved Dec (4) toward J Rahu: span 31.78246 = 3.99522 + 27.78724; span/other 8/7 (0.0807%)   joined: 1 (+common 3,5,6,8,9,15,20,21,22,24,27)
+     s t 0.330   J Ceres moved Dec (29/9) toward H Orcus: span 25.92321 = 3.22165 + 22.70156; span/other 8/7 (0.0826%) (+common 2,8,9,16,21,22,24,27)
+     s t 0.331   H Haumea moved Dec (4) toward H Venus: span 22.65500 = 3.99522 + 18.65978; parts 14/3 (0.0827%)   joined: 1 (+common 2,3,5,6,8,9,13,21,22,23,24)
+     s t 0.332   H Haumea moved Dec (4) toward H Uranus: span 18.96485 = 3.99522 + 14.96963; parts 15/4 (0.0831%)   joined: 1 (+common 3,5,6,8,9,21,24)
+     s t 0.358   J Mercury moved Dec (22) toward J Jupiter: span 39.96412 = 21.99633 + 17.96779; span/other 20/9 (0.0894%)   joined: 1 (+common 3,5,6,8,20,21,22,24)
+     s t 0.369   H Haumea moved Dec (4) toward H Vesta: span 37.25804 = 3.99522 + 33.26282; parts 25/3 (0.0922%)   joined: 1 (+common 2,3,5,6,8,9,13,21,24)
      (+43 more in P03.json)
 [20] natal body at the midpoint of X and sky X: strict 5 (5 of 6, rank 2), other 2 (4 of 6, rank 3), wide 1 (4 of 6, rank 1 (tightest))
-     s t 0.034   J Rahu at the Dec midpoint of H Gonggong and sky Gonggong: span 2.3434, midpoint -12.7375, J Rahu -12.7392, off 0.0017 (other chart)   joined: 6,9,15,19,21,22,24,27
-     s t 0.162   J Jupiter at the Dec midpoint of H Pluto and sky Pluto: span 4.2102, midpoint -20.8309, J Jupiter -20.8228, off 0.0081 (other chart)   joined: 19,21,22,24
-     s t 0.236   J Uranus at the Dec midpoint of H Pluto and sky Pluto: span 4.2102, midpoint -20.8309, J Uranus -20.8191, off 0.0118 (other chart)   joined: 19,21,24
-     s t 0.311   H Chiron at the RA midpoint of J Gonggong and sky Gonggong: span 4.8778, midpoint 333.7991, H Chiron 333.8147, off 0.0155 (other chart)   joined: 2,15,19,21,22,23,24,27
-     s t 0.740   H Eris at the RA midpoint of J Eris and sky Eris: span 2.7980, midpoint 24.9538, H Eris 24.9908, off 0.0370 (other chart)   joined: 2,6,19,21,22,24
-     w t 0.142   H Eris at the Dec midpoint of J Ketu and sky Ketu: span 33.2579, midpoint -3.8897, H Eris -3.8968, off 0.0071 (other chart)   joined: 2,6,15,19,21,22,24,27
-     o t 0.370   J Pallas at the Dec midpoint of J Chiron and sky Chiron: span 5.8861, midpoint 3.0479, J Pallas 3.0664, off 0.0185 (same chart)   joined: 19,21,22,23,24
-     o t 0.402   J Rahu at the Dec midpoint of J Neptune and sky Neptune: span 15.8333, midpoint -12.7191, J Rahu -12.7392, off 0.0201 (same chart)   joined: 15,19,21,22,24,27
+     s t 0.034   J Rahu at the Dec midpoint of H Gonggong and sky Gonggong: span 2.3434, midpoint -12.7375, J Rahu -12.7392, off 0.0017 (other chart) (+common 6,9,15,19,21,22,24,27)
+     s t 0.162   J Jupiter at the Dec midpoint of H Pluto and sky Pluto: span 4.2102, midpoint -20.8309, J Jupiter -20.8228, off 0.0081 (other chart) (+common 19,21,22,24)
+     s t 0.236   J Uranus at the Dec midpoint of H Pluto and sky Pluto: span 4.2102, midpoint -20.8309, J Uranus -20.8191, off 0.0118 (other chart) (+common 19,21,24)
+     s t 0.311   H Chiron at the RA midpoint of J Gonggong and sky Gonggong: span 4.8778, midpoint 333.7991, H Chiron 333.8147, off 0.0155 (other chart) (+common 2,15,19,21,22,23,24,27)
+     s t 0.740   H Eris at the RA midpoint of J Eris and sky Eris: span 2.7980, midpoint 24.9538, H Eris 24.9908, off 0.0370 (other chart) (+common 2,6,19,21,22,24)
+     w t 0.142   H Eris at the Dec midpoint of J Ketu and sky Ketu: span 33.2579, midpoint -3.8897, H Eris -3.8968, off 0.0071 (other chart) (+common 2,6,15,19,21,22,24,27)
+     o t 0.370   J Pallas at the Dec midpoint of J Chiron and sky Chiron: span 5.8861, midpoint 3.0479, J Pallas 3.0664, off 0.0185 (same chart) (+common 19,21,22,23,24)
+     o t 0.402   J Rahu at the Dec midpoint of J Neptune and sky Neptune: span 15.8333, midpoint -12.7191, J Rahu -12.7392, off 0.0201 (same chart) (+common 15,19,21,22,24,27)
 [21] soak: strict 23 (6 of 6, rank 6), near 17 (6 of 6, rank 3)
-     s t 0.492   soak Chiron ~28.0796: 4 partners, spread 0.0197, nearest whole 28 (+0.0796), nearest ninth 253/9 = 28.1111 (-0.0315) — J Chiron – H Makemake Dec 28.0698; H Chiron – S Saturn GC 28.0744; H Chiron – H Ketu Dec 28.0891; S Chiron – J Makemake Dec 28.0895   joined: 2,9,15,19,20,22,23,24,27
-     s t 0.502   soak Venus ~10.0450: 4 partners, spread 0.0201, nearest whole 10 (+0.0450), nearest ninth 90/9 = 10.0000 (+0.0450) — S Venus – H Ceres Dec 10.0349; H Venus – H Mercury Dec 10.0359; J Venus – J Ketu Dec 10.0441; S Venus – H Quaoar Dec 10.0550   joined: 2,6,8,9,13,15,19,20,22,23,24,26,27
-     s t 0.591   soak Jupiter ~18.3114: 4 partners, spread 0.0237, nearest whole 18 (+0.3114), nearest ninth 165/9 = 18.3333 (-0.0220) — J Jupiter – H Saturn Dec 18.2995; S Jupiter – S Pallas Flat 18.3054; S Jupiter – J Pallas Dec 18.3125; S Jupiter – H Ceres GC 18.3232   joined: 8,9,19,20,22,23,24,27
-     s t 0.603   soak Node ~8.0920: 4 partners, spread 0.0241, nearest whole 8 (+0.0920), nearest ninth 73/9 = 8.1111 (-0.0192) — J Rahu – J Uranus Dec 8.0799; J Rahu – J Jupiter Dec 8.0836; H Rahu – S Jupiter Dec 8.1004; H Rahu – H Quaoar GC 8.1040   joined: 2,9,15,19,20,22,24,27
-     s t 0.693   soak Neptune ~7.8827: 4 partners, spread 0.0277, nearest whole 8 (-0.1173), nearest ninth 71/9 = 7.8889 (-0.0062) — S Neptune – J Pallas Dec 7.8689; J Neptune – H Pallas RA 7.8751; H Neptune – J Saturn Dec 7.8801; J Neptune – J Rahu Dec 7.8966   joined: 2,6,15,19,20,22,23,24,25,27
-     s t 0.780   soak Mars ~8.3718: 4 partners, spread 0.0312, nearest whole 8 (+0.3718), nearest ninth 75/9 = 8.3333 (+0.0385) — H Mars – S Neptune Dec 8.3562; H Mars – J Juno Dec 8.3691; J Mars – H Saturn Dec 8.3721; H Mars – H Transpluto Dec 8.3874   joined: 2,16,19,22,23,24,27
-     s t 0.793   soak Mars ~24.3887: 4 partners, spread 0.0317, nearest whole 24 (+0.3887), nearest ninth 219/9 = 24.3333 (+0.0554) — H Mars – J Uranus Dec 24.3728; H Mars – J Jupiter Dec 24.3765; J Mars – H Saturn RA 24.3942; S Mars – S Ceres Dec 24.4046   joined: 19,20,22,23,24,27
-     s t 0.796   soak Chiron ~10.7905: 4 partners, spread 0.0319, nearest whole 11 (-0.2095), nearest ninth 97/9 = 10.7778 (+0.0127) — H Chiron – H Quaoar Dec 10.7745; S Chiron – S Neptune Dec 10.7934; H Chiron – H Ceres Dec 10.7946; S Chiron – J Juno Dec 10.8064   joined: 2,8,9,19,20,22,23,24,27
-     s t 0.800   soak Gonggong ~2.4074: 4 partners, spread 0.0320, nearest whole 2 (+0.4074), nearest ninth 22/9 = 2.4444 (-0.0371) — S Gonggong – J Quaoar Dec 2.3914; J Gonggong – J Uranus Dec 2.4170; J Gonggong – J Jupiter Dec 2.4207; S Gonggong – H Chiron RA 2.4234   joined: 2,6,15,19,20,22,23,24,27
-     s t 0.819   soak Saturn ~28.0908: 4 partners, spread 0.0328, nearest whole 28 (+0.0908), nearest ninth 253/9 = 28.1111 (-0.0204) — S Saturn – H Chiron GC 28.0744; J Saturn – H Sun RA 28.0829; J Saturn – J Gonggong GC 28.0850; S Saturn – S Gonggong Flat 28.1071   joined: 2,6,15,19,20,22,23,24,25,27
-     s t 0.831   soak Gonggong ~28.0905: 4 partners, spread 0.0332, nearest whole 28 (+0.0905), nearest ninth 253/9 = 28.1111 (-0.0206) — S Gonggong – H Uranus GC 28.0739; J Gonggong – H Venus Flat 28.0815; J Gonggong – J Saturn GC 28.0850; S Gonggong – S Saturn Flat 28.1071   joined: 2,6,9,13,15,19,20,22,23,24,25
-     s t 0.842   soak Pallas ~7.8857: 4 partners, spread 0.0337, nearest whole 8 (-0.1143), nearest ninth 71/9 = 7.8889 (-0.0032) — J Pallas – S Neptune Dec 7.8689; H Pallas – J Neptune RA 7.8751; J Pallas – J Juno Dec 7.8818; S Pallas – H Chiron RA 7.9025   joined: 2,19,20,22,23,24,27
-     s t 0.934   soak Node ~1.1887: 4 partners, spread 0.0374, nearest whole 1 (+0.1887), nearest ninth 11/9 = 1.2222 (-0.0335) — J Rahu – H Gonggong Dec 1.1700; J Rahu – S Gonggong Dec 1.1734; S Rahu – J Vesta Dec 1.2061; J Rahu – S Orcus Dec 1.2074   joined: 6,9,13,15,19,20,22,24,27
-     s t 0.940   soak Juno ~10.6830: 4 partners, spread 0.0376, nearest whole 11 (-0.3170), nearest ninth 96/9 = 10.6667 (+0.0163) — J Juno – S Quaoar Dec 10.6642; J Juno – J Mars Dec 10.6643; H Juno – J Mercury Dec 10.6669; J Juno – H Quaoar Dec 10.7018   joined: 1,2,3,5,6,8,19,22,24,27
-     s t 0.969   soak Venus ~22.6978: 4 partners, spread 0.0387, nearest whole 23 (-0.3022), nearest ninth 204/9 = 22.6667 (+0.0312) — J Venus – J Chiron Dec 22.6785; H Venus – H Gonggong Flat 22.6869; J Venus – H Uranus Dec 22.7049; S Venus – S Mercury Dec 22.7172   joined: 2,6,9,13,15,19,20,22,23,24
-     s t 0.969   soak Venus ~25.6577: 4 partners, spread 0.0387, nearest whole 26 (-0.3423), nearest ninth 231/9 = 25.6667 (-0.0090) — J Venus – S Mercury Dec 25.6383; J Venus – S Sedna GC 25.6422; S Venus – H Uranus Dec 25.6506; S Venus – J Chiron Dec 25.6771   joined: 13,19,22,23,24
-     s t 0.972   soak Neptune ~24.2442: 4 partners, spread 0.0389, nearest whole 24 (+0.2442), nearest ninth 218/9 = 24.2222 (+0.0220) — S Neptune – H Mercury Flat 24.2248; H Neptune – H Pallas Dec 24.2288; S Neptune – J Ceres Dec 24.2503; H Neptune – H Venus Flat 24.2636   joined: 2,6,9,13,19,22,23,24,26,27
-     s t 0.976   soak Sedna ~27.2996: 4 partners, spread 0.0390, nearest whole 27 (+0.2996), nearest ninth 246/9 = 27.3333 (-0.0338) — H Sedna – J Makemake Dec 27.2800; J Sedna – H Jupiter GC 27.2867; H Sedna – S Eris GC 27.3068; H Sedna – S Ketu Dec 27.3191   joined: 8,9,19,22,24
-     s t 0.984   soak Haumea ~27.2179: 4 partners, spread 0.0393, nearest whole 27 (+0.2179), nearest ninth 245/9 = 27.2222 (-0.0044) — J Haumea – S Neptune Dec 27.1982; J Haumea – J Juno Dec 27.2111; H Haumea – S Mars Dec 27.2217; J Haumea – H Juno GC 27.2375   joined: 1,2,3,5,6,8,9,19,22,24,27
-     s t 0.987   soak Sedna ~14.6277: 4 partners, spread 0.0395, nearest whole 15 (-0.3723), nearest ninth 132/9 = 14.6667 (-0.0390) — H Sedna – J Eris Dec 14.6080; S Sedna – H Orcus Dec 14.6112; S Sedna – J Mercury RA 14.6327; S Sedna – J Venus Dec 14.6474   joined: 1,2,3,5,6,8,9,13,16,19,20,22,23,24
-     s t 0.990   soak Haumea ~40.6004: 4 partners, spread 0.0396, nearest whole 41 (-0.3996), nearest ninth 365/9 = 40.5556 (+0.0449) — H Haumea – J Chiron Flat 40.5807; H Haumea – J Mars Flat 40.5841; J Haumea – H Vesta Dec 40.6105; S Haumea – S Venus Dec 40.6202   joined: 1,2,3,5,6,8,9,13,19,22,23,24,27
-     s t 0.990   soak Mars ~3.4555: 4 partners, spread 0.0396, nearest whole 3 (+0.4555), nearest ninth 31/9 = 3.4444 (+0.0111) — S Mars – H Chiron Dec 3.4357; H Mars – S Chiron GC 3.4450; H Mars – J Chiron Dec 3.4489; H Mars – S Chiron Flat 3.4512; H Mars – H Uranus Dec 3.4753   joined: 2,19,20,22,23,24,27
-     s t 0.996   soak Node ~19.0641: 4 partners, spread 0.0398, nearest whole 19 (+0.0641), nearest ninth 172/9 = 19.1111 (-0.0470) — J Ketu – J Pluto Dec 19.0441; J Rahu – H Jupiter Dec 19.0610; H Rahu – J Jupiter Flat 19.0809; S Ketu – S Eris Dec 19.0840   joined: 2,9,15,19,20,22,24,27
-     n t 0.239   soak Chiron ~16.0798: 4 partners, spread 0.0096, nearest whole 16 (+0.0798), nearest ninth 145/9 = 16.1111 (-0.0313) (partners not from both natal charts) — S Chiron – S Sun Dec 16.0750; H Chiron – J Uranus Dec 16.0764; H Chiron – J Jupiter Dec 16.0801; S Chiron – S Makemake Dec 16.0846; widened to 5 partners, spread 0.0393: + S Chiron – S Neptune RA 16.1143   joined: 2,19,20,22,23,24,27
-     n t 0.295   soak Mercury ~17.9619: 4 partners, spread 0.0118, nearest whole 18 (-0.0381), nearest ninth 162/9 = 18.0000 (-0.0381) (partners not from both natal charts) — H Mercury – S Orcus Dec 17.9560; J Mercury – S Sedna GC 17.9593; S Mercury – J Uranus Dec 17.9641; S Mercury – J Jupiter Dec 17.9678; widened to 5 partners, spread 0.0339: + H Mercury – S Gonggong Dec 17.9899   joined: 1,3,5,6,8,19,20,22,24,26
-     n t 0.502   soak Haumea ~30.5753: 4 partners, spread 0.0201, nearest whole 31 (-0.4247), nearest ninth 275/9 = 30.5556 (+0.0197) (partners not from both natal charts) — S Haumea – H Quaoar Dec 30.5652; J Haumea – S Mars Dec 30.5741; H Haumea – S Orcus Dec 30.5751; S Haumea – H Ceres Dec 30.5853   joined: 1,3,5,6,8,9,19,24,27
-     n t 0.589   soak Vesta ~2.6893: 4 partners, spread 0.0236, nearest whole 3 (-0.3107), nearest ninth 24/9 = 2.6667 (+0.0226) (partners not from both natal charts) — H Vesta – H Ceres Dec 2.6775; J Vesta – H Haumea Dec 2.6815; H Vesta – H Quaoar Dec 2.6976; S Vesta – S Jupiter Dec 2.7011   joined: 1,2,3,5,6,8,9,13,19,24,27
-     n t 0.618   soak Node ~40.5208: 4 partners, spread 0.0247, nearest whole 41 (-0.4792), nearest ninth 365/9 = 40.5556 (-0.0347) (partners not from both natal charts) — H Rahu – S Vesta GC 40.5085; H Ketu – J Vesta GC 40.5310; J Rahu – J Haumea Flat 40.5322; J Rahu – J Chiron RA 40.5332   joined: 2,9,13,15,19,20,22,23,24,27
-     n t 0.640   soak Mercury ~2.9214: 4 partners, spread 0.0256, nearest whole 3 (-0.0786), nearest ninth 26/9 = 2.8889 (+0.0325) (partners not from both natal charts) — H Mercury – H Mars RA 2.9086; J Mercury – S Ceres Dec 2.9152; S Mercury – H Uranus Dec 2.9334; J Mercury – S Makemake Dec 2.9342   joined: 1,3,5,6,8,19,22,24,26
-     n t 0.670   soak Node ~35.6757: 4 partners, spread 0.0268, nearest whole 36 (-0.3243), nearest ninth 321/9 = 35.6667 (+0.0090) (partners not from both natal charts) — H Ketu – S Juno Dec 35.6623; J Ketu – S Pluto Dec 35.6752; S Ketu – S Sun GC 35.6851; H Rahu – H Pallas Dec 35.6891   joined: 2,9,15,19,20,22,23,24,27
-     n t 0.729   soak Sedna ~11.6174: 4 partners, spread 0.0292, nearest whole 12 (-0.3826), nearest ninth 105/9 = 11.6667 (-0.0492) (partners not from both natal charts) — H Sedna – S Neptune Dec 11.6029; H Sedna – S Uranus RA 11.6107; H Sedna – J Juno Dec 11.6158; S Sedna – S Ceres RA 11.6320   joined: 2,8,9,19,22,24,27
-     n t 0.849   soak Pallas ~23.8915: 4 partners, spread 0.0339, nearest whole 24 (-0.1085), nearest ninth 215/9 = 23.8889 (+0.0026) (partners not from both natal charts) — H Pallas – S Orcus Dec 23.8745; J Pallas – J Uranus Dec 23.8855; J Pallas – J Jupiter Dec 23.8892; H Pallas – S Gonggong Dec 23.9084   joined: 19,20,22,23,24
-     n t 0.849   soak Mars ~17.3977: 4 partners, spread 0.0340, nearest whole 17 (+0.3977), nearest ninth 157/9 = 17.4444 (-0.0467) (partners not from both natal charts) — J Mars – S Orcus Dec 17.3807; S Mars – S Venus Dec 17.3938; H Mars – J Eris Flat 17.4019; J Mars – S Gonggong Dec 17.4147   joined: 2,19,20,24,27
-     n t 0.862   soak Sun ~16.5006: 4 partners, spread 0.0345, nearest whole 17 (-0.4994), nearest ninth 149/9 = 16.5556 (-0.0549) (partners not from both natal charts) — J Sun – H Sedna Dec 16.4834; S Sun – H Mercury Dec 16.5081; H Sun – H Orcus Dec 16.5145; H Sun – S Chiron GC 16.5179   joined: 2,8,9,16,19,22,24,26
-     n t 0.876   soak Saturn ~7.5433: 4 partners, spread 0.0351, nearest whole 8 (-0.4567), nearest ninth 68/9 = 7.5556 (-0.0123) (partners not from both natal charts) — J Saturn – S Orcus Dec 7.5257; J Saturn – S Gonggong Dec 7.5597; J Saturn – H Mars Dec 7.5599; H Saturn – S Sun Dec 7.5608   joined: 2,6,19,22,23,24,25
-     n t 0.888   soak Juno ~3.3808: 4 partners, spread 0.0355, nearest whole 3 (+0.3808), nearest ninth 30/9 = 3.3333 (+0.0474) (partners not from both natal charts) — J Juno – S Mars Dec 3.3630; J Juno – S Eris Dec 3.3807; S Juno – H Rahu RA 3.3965; S Juno – H Quaoar GC 3.3985   joined: 2,9,15,19,22,24,27
-     n t 0.914   soak Pluto ~34.8920: 4 partners, spread 0.0366, nearest whole 35 (-0.1080), nearest ninth 314/9 = 34.8889 (+0.0031) (partners not from both natal charts) — J Pluto – S Quaoar RA 34.8737; S Pluto – H Transpluto Dec 34.8771; S Pluto – S Juno GC 34.9089; J Pluto – S Sun RA 34.9103   joined: 16,19,22,23,24,27
-     n t 0.952   soak Sedna ~18.3513: 4 partners, spread 0.0381, nearest whole 18 (+0.3513), nearest ninth 165/9 = 18.3333 (+0.0180) (partners not from both natal charts) — H Sedna – S Orcus Dec 18.3323; H Sedna – S Ceres RA 18.3489; H Sedna – S Gonggong Dec 18.3662; J Sedna – J Sun Dec 18.3703   joined: 8,9,19,22,24
-     n t 0.957   soak Haumea ~145.1731: 4 partners, spread 0.0383, nearest whole 145 (+0.1731), nearest ninth 1307/9 = 145.2222 (-0.0491) (partners not from both natal charts) — J Haumea – H Chiron Flat 145.1540; S Haumea – S Ceres RA 145.1606; S Haumea – S Chiron GC 145.1611; S Haumea – S Ceres Flat 145.1654; J Haumea – H Sun GC 145.1922   joined: 2,19,20,22,23,24,27
-     n t 0.977   soak Pallas ~14.6178: 4 partners, spread 0.0391, nearest whole 15 (-0.3822), nearest ninth 132/9 = 14.6667 (-0.0489) (partners not from both natal charts) — J Pallas – S Orcus Dec 14.5983; S Pallas – H Jupiter Dec 14.6204; J Pallas – S Gonggong Dec 14.6322; S Pallas – S Pluto Dec 14.6373   joined: 19,22,23,24
+     s t 0.492   soak Chiron ~28.0796: 4 partners, spread 0.0197, nearest whole 28 (+0.0796), nearest ninth 253/9 = 28.1111 (-0.0315) — J Chiron – H Makemake Dec 28.0698; H Chiron – S Saturn GC 28.0744; H Chiron – H Ketu Dec 28.0891; S Chiron – J Makemake Dec 28.0895 (+common 2,9,15,19,20,22,23,24,27)
+     s t 0.502   soak Venus ~10.0450: 4 partners, spread 0.0201, nearest whole 10 (+0.0450), nearest ninth 90/9 = 10.0000 (+0.0450) — S Venus – H Ceres Dec 10.0349; H Venus – H Mercury Dec 10.0359; J Venus – J Ketu Dec 10.0441; S Venus – H Quaoar Dec 10.0550 (+common 2,6,8,9,13,15,19,20,22,23,24,26,27)
+     s t 0.591   soak Jupiter ~18.3114: 4 partners, spread 0.0237, nearest whole 18 (+0.3114), nearest ninth 165/9 = 18.3333 (-0.0220) — J Jupiter – H Saturn Dec 18.2995; S Jupiter – S Pallas Flat 18.3054; S Jupiter – J Pallas Dec 18.3125; S Jupiter – H Ceres GC 18.3232 (+common 8,9,19,20,22,23,24,27)
+     s t 0.603   soak Node ~8.0920: 4 partners, spread 0.0241, nearest whole 8 (+0.0920), nearest ninth 73/9 = 8.1111 (-0.0192) — J Rahu – J Uranus Dec 8.0799; J Rahu – J Jupiter Dec 8.0836; H Rahu – S Jupiter Dec 8.1004; H Rahu – H Quaoar GC 8.1040 (+common 2,9,15,19,20,22,24,27)
+     s t 0.693   soak Neptune ~7.8827: 4 partners, spread 0.0277, nearest whole 8 (-0.1173), nearest ninth 71/9 = 7.8889 (-0.0062) — S Neptune – J Pallas Dec 7.8689; J Neptune – H Pallas RA 7.8751; H Neptune – J Saturn Dec 7.8801; J Neptune – J Rahu Dec 7.8966 (+common 2,6,15,19,20,22,23,24,25,27)
+     s t 0.780   soak Mars ~8.3718: 4 partners, spread 0.0312, nearest whole 8 (+0.3718), nearest ninth 75/9 = 8.3333 (+0.0385) — H Mars – S Neptune Dec 8.3562; H Mars – J Juno Dec 8.3691; J Mars – H Saturn Dec 8.3721; H Mars – H Transpluto Dec 8.3874 (+common 2,16,19,22,23,24,27)
+     s t 0.793   soak Mars ~24.3887: 4 partners, spread 0.0317, nearest whole 24 (+0.3887), nearest ninth 219/9 = 24.3333 (+0.0554) — H Mars – J Uranus Dec 24.3728; H Mars – J Jupiter Dec 24.3765; J Mars – H Saturn RA 24.3942; S Mars – S Ceres Dec 24.4046 (+common 19,20,22,23,24,27)
+     s t 0.796   soak Chiron ~10.7905: 4 partners, spread 0.0319, nearest whole 11 (-0.2095), nearest ninth 97/9 = 10.7778 (+0.0127) — H Chiron – H Quaoar Dec 10.7745; S Chiron – S Neptune Dec 10.7934; H Chiron – H Ceres Dec 10.7946; S Chiron – J Juno Dec 10.8064 (+common 2,8,9,19,20,22,23,24,27)
+     s t 0.800   soak Gonggong ~2.4074: 4 partners, spread 0.0320, nearest whole 2 (+0.4074), nearest ninth 22/9 = 2.4444 (-0.0371) — S Gonggong – J Quaoar Dec 2.3914; J Gonggong – J Uranus Dec 2.4170; J Gonggong – J Jupiter Dec 2.4207; S Gonggong – H Chiron RA 2.4234 (+common 2,6,15,19,20,22,23,24,27)
+     s t 0.819   soak Saturn ~28.0908: 4 partners, spread 0.0328, nearest whole 28 (+0.0908), nearest ninth 253/9 = 28.1111 (-0.0204) — S Saturn – H Chiron GC 28.0744; J Saturn – H Sun RA 28.0829; J Saturn – J Gonggong GC 28.0850; S Saturn – S Gonggong Flat 28.1071 (+common 2,6,15,19,20,22,23,24,25,27)
+     s t 0.831   soak Gonggong ~28.0905: 4 partners, spread 0.0332, nearest whole 28 (+0.0905), nearest ninth 253/9 = 28.1111 (-0.0206) — S Gonggong – H Uranus GC 28.0739; J Gonggong – H Venus Flat 28.0815; J Gonggong – J Saturn GC 28.0850; S Gonggong – S Saturn Flat 28.1071 (+common 2,6,9,13,15,19,20,22,23,24,25)
+     s t 0.842   soak Pallas ~7.8857: 4 partners, spread 0.0337, nearest whole 8 (-0.1143), nearest ninth 71/9 = 7.8889 (-0.0032) — J Pallas – S Neptune Dec 7.8689; H Pallas – J Neptune RA 7.8751; J Pallas – J Juno Dec 7.8818; S Pallas – H Chiron RA 7.9025 (+common 2,19,20,22,23,24,27)
+     s t 0.934   soak Node ~1.1887: 4 partners, spread 0.0374, nearest whole 1 (+0.1887), nearest ninth 11/9 = 1.2222 (-0.0335) — J Rahu – H Gonggong Dec 1.1700; J Rahu – S Gonggong Dec 1.1734; S Rahu – J Vesta Dec 1.2061; J Rahu – S Orcus Dec 1.2074 (+common 6,9,13,15,19,20,22,24,27)
+     s t 0.940   soak Juno ~10.6830: 4 partners, spread 0.0376, nearest whole 11 (-0.3170), nearest ninth 96/9 = 10.6667 (+0.0163) — J Juno – S Quaoar Dec 10.6642; J Juno – J Mars Dec 10.6643; H Juno – J Mercury Dec 10.6669; J Juno – H Quaoar Dec 10.7018   joined: 1 (+common 2,3,5,6,8,19,22,24,27)
+     s t 0.969   soak Venus ~22.6978: 4 partners, spread 0.0387, nearest whole 23 (-0.3022), nearest ninth 204/9 = 22.6667 (+0.0312) — J Venus – J Chiron Dec 22.6785; H Venus – H Gonggong Flat 22.6869; J Venus – H Uranus Dec 22.7049; S Venus – S Mercury Dec 22.7172 (+common 2,6,9,13,15,19,20,22,23,24)
+     s t 0.969   soak Venus ~25.6577: 4 partners, spread 0.0387, nearest whole 26 (-0.3423), nearest ninth 231/9 = 25.6667 (-0.0090) — J Venus – S Mercury Dec 25.6383; J Venus – S Sedna GC 25.6422; S Venus – H Uranus Dec 25.6506; S Venus – J Chiron Dec 25.6771 (+common 13,19,22,23,24)
+     s t 0.972   soak Neptune ~24.2442: 4 partners, spread 0.0389, nearest whole 24 (+0.2442), nearest ninth 218/9 = 24.2222 (+0.0220) — S Neptune – H Mercury Flat 24.2248; H Neptune – H Pallas Dec 24.2288; S Neptune – J Ceres Dec 24.2503; H Neptune – H Venus Flat 24.2636 (+common 2,6,9,13,19,22,23,24,26,27)
+     s t 0.976   soak Sedna ~27.2996: 4 partners, spread 0.0390, nearest whole 27 (+0.2996), nearest ninth 246/9 = 27.3333 (-0.0338) — H Sedna – J Makemake Dec 27.2800; J Sedna – H Jupiter GC 27.2867; H Sedna – S Eris GC 27.3068; H Sedna – S Ketu Dec 27.3191 (+common 8,9,19,22,24)
+     s t 0.984   soak Haumea ~27.2179: 4 partners, spread 0.0393, nearest whole 27 (+0.2179), nearest ninth 245/9 = 27.2222 (-0.0044) — J Haumea – S Neptune Dec 27.1982; J Haumea – J Juno Dec 27.2111; H Haumea – S Mars Dec 27.2217; J Haumea – H Juno GC 27.2375   joined: 1 (+common 2,3,5,6,8,9,19,22,24,27)
+     s t 0.987   soak Sedna ~14.6277: 4 partners, spread 0.0395, nearest whole 15 (-0.3723), nearest ninth 132/9 = 14.6667 (-0.0390) — H Sedna – J Eris Dec 14.6080; S Sedna – H Orcus Dec 14.6112; S Sedna – J Mercury RA 14.6327; S Sedna – J Venus Dec 14.6474   joined: 1 (+common 2,3,5,6,8,9,13,16,19,20,22,23,24)
+     s t 0.990   soak Haumea ~40.6004: 4 partners, spread 0.0396, nearest whole 41 (-0.3996), nearest ninth 365/9 = 40.5556 (+0.0449) — H Haumea – J Chiron Flat 40.5807; H Haumea – J Mars Flat 40.5841; J Haumea – H Vesta Dec 40.6105; S Haumea – S Venus Dec 40.6202   joined: 1 (+common 2,3,5,6,8,9,13,19,22,23,24,27)
+     s t 0.990   soak Mars ~3.4555: 4 partners, spread 0.0396, nearest whole 3 (+0.4555), nearest ninth 31/9 = 3.4444 (+0.0111) — S Mars – H Chiron Dec 3.4357; H Mars – S Chiron GC 3.4450; H Mars – J Chiron Dec 3.4489; H Mars – S Chiron Flat 3.4512; H Mars – H Uranus Dec 3.4753 (+common 2,19,20,22,23,24,27)
+     s t 0.996   soak Node ~19.0641: 4 partners, spread 0.0398, nearest whole 19 (+0.0641), nearest ninth 172/9 = 19.1111 (-0.0470) — J Ketu – J Pluto Dec 19.0441; J Rahu – H Jupiter Dec 19.0610; H Rahu – J Jupiter Flat 19.0809; S Ketu – S Eris Dec 19.0840 (+common 2,9,15,19,20,22,24,27)
+     n t 0.239   soak Chiron ~16.0798: 4 partners, spread 0.0096, nearest whole 16 (+0.0798), nearest ninth 145/9 = 16.1111 (-0.0313) (partners not from both natal charts) — S Chiron – S Sun Dec 16.0750; H Chiron – J Uranus Dec 16.0764; H Chiron – J Jupiter Dec 16.0801; S Chiron – S Makemake Dec 16.0846; widened to 5 partners, spread 0.0393: + S Chiron – S Neptune RA 16.1143 (+common 2,19,20,22,23,24,27)
+     n t 0.295   soak Mercury ~17.9619: 4 partners, spread 0.0118, nearest whole 18 (-0.0381), nearest ninth 162/9 = 18.0000 (-0.0381) (partners not from both natal charts) — H Mercury – S Orcus Dec 17.9560; J Mercury – S Sedna GC 17.9593; S Mercury – J Uranus Dec 17.9641; S Mercury – J Jupiter Dec 17.9678; widened to 5 partners, spread 0.0339: + H Mercury – S Gonggong Dec 17.9899   joined: 1 (+common 3,5,6,8,19,20,22,24,26)
+     n t 0.502   soak Haumea ~30.5753: 4 partners, spread 0.0201, nearest whole 31 (-0.4247), nearest ninth 275/9 = 30.5556 (+0.0197) (partners not from both natal charts) — S Haumea – H Quaoar Dec 30.5652; J Haumea – S Mars Dec 30.5741; H Haumea – S Orcus Dec 30.5751; S Haumea – H Ceres Dec 30.5853   joined: 1 (+common 3,5,6,8,9,19,24,27)
+     n t 0.589   soak Vesta ~2.6893: 4 partners, spread 0.0236, nearest whole 3 (-0.3107), nearest ninth 24/9 = 2.6667 (+0.0226) (partners not from both natal charts) — H Vesta – H Ceres Dec 2.6775; J Vesta – H Haumea Dec 2.6815; H Vesta – H Quaoar Dec 2.6976; S Vesta – S Jupiter Dec 2.7011   joined: 1 (+common 2,3,5,6,8,9,13,19,24,27)
+     n t 0.618   soak Node ~40.5208: 4 partners, spread 0.0247, nearest whole 41 (-0.4792), nearest ninth 365/9 = 40.5556 (-0.0347) (partners not from both natal charts) — H Rahu – S Vesta GC 40.5085; H Ketu – J Vesta GC 40.5310; J Rahu – J Haumea Flat 40.5322; J Rahu – J Chiron RA 40.5332 (+common 2,9,13,15,19,20,22,23,24,27)
+     n t 0.640   soak Mercury ~2.9214: 4 partners, spread 0.0256, nearest whole 3 (-0.0786), nearest ninth 26/9 = 2.8889 (+0.0325) (partners not from both natal charts) — H Mercury – H Mars RA 2.9086; J Mercury – S Ceres Dec 2.9152; S Mercury – H Uranus Dec 2.9334; J Mercury – S Makemake Dec 2.9342   joined: 1 (+common 3,5,6,8,19,22,24,26)
+     n t 0.670   soak Node ~35.6757: 4 partners, spread 0.0268, nearest whole 36 (-0.3243), nearest ninth 321/9 = 35.6667 (+0.0090) (partners not from both natal charts) — H Ketu – S Juno Dec 35.6623; J Ketu – S Pluto Dec 35.6752; S Ketu – S Sun GC 35.6851; H Rahu – H Pallas Dec 35.6891 (+common 2,9,15,19,20,22,23,24,27)
+     n t 0.729   soak Sedna ~11.6174: 4 partners, spread 0.0292, nearest whole 12 (-0.3826), nearest ninth 105/9 = 11.6667 (-0.0492) (partners not from both natal charts) — H Sedna – S Neptune Dec 11.6029; H Sedna – S Uranus RA 11.6107; H Sedna – J Juno Dec 11.6158; S Sedna – S Ceres RA 11.6320 (+common 2,8,9,19,22,24,27)
+     n t 0.849   soak Pallas ~23.8915: 4 partners, spread 0.0339, nearest whole 24 (-0.1085), nearest ninth 215/9 = 23.8889 (+0.0026) (partners not from both natal charts) — H Pallas – S Orcus Dec 23.8745; J Pallas – J Uranus Dec 23.8855; J Pallas – J Jupiter Dec 23.8892; H Pallas – S Gonggong Dec 23.9084 (+common 19,20,22,23,24)
+     n t 0.849   soak Mars ~17.3977: 4 partners, spread 0.0340, nearest whole 17 (+0.3977), nearest ninth 157/9 = 17.4444 (-0.0467) (partners not from both natal charts) — J Mars – S Orcus Dec 17.3807; S Mars – S Venus Dec 17.3938; H Mars – J Eris Flat 17.4019; J Mars – S Gonggong Dec 17.4147 (+common 2,19,20,24,27)
+     n t 0.862   soak Sun ~16.5006: 4 partners, spread 0.0345, nearest whole 17 (-0.4994), nearest ninth 149/9 = 16.5556 (-0.0549) (partners not from both natal charts) — J Sun – H Sedna Dec 16.4834; S Sun – H Mercury Dec 16.5081; H Sun – H Orcus Dec 16.5145; H Sun – S Chiron GC 16.5179 (+common 2,8,9,16,19,22,24,26)
+     n t 0.876   soak Saturn ~7.5433: 4 partners, spread 0.0351, nearest whole 8 (-0.4567), nearest ninth 68/9 = 7.5556 (-0.0123) (partners not from both natal charts) — J Saturn – S Orcus Dec 7.5257; J Saturn – S Gonggong Dec 7.5597; J Saturn – H Mars Dec 7.5599; H Saturn – S Sun Dec 7.5608 (+common 2,6,19,22,23,24,25)
+     n t 0.888   soak Juno ~3.3808: 4 partners, spread 0.0355, nearest whole 3 (+0.3808), nearest ninth 30/9 = 3.3333 (+0.0474) (partners not from both natal charts) — J Juno – S Mars Dec 3.3630; J Juno – S Eris Dec 3.3807; S Juno – H Rahu RA 3.3965; S Juno – H Quaoar GC 3.3985 (+common 2,9,15,19,22,24,27)
+     n t 0.914   soak Pluto ~34.8920: 4 partners, spread 0.0366, nearest whole 35 (-0.1080), nearest ninth 314/9 = 34.8889 (+0.0031) (partners not from both natal charts) — J Pluto – S Quaoar RA 34.8737; S Pluto – H Transpluto Dec 34.8771; S Pluto – S Juno GC 34.9089; J Pluto – S Sun RA 34.9103 (+common 16,19,22,23,24,27)
+     n t 0.952   soak Sedna ~18.3513: 4 partners, spread 0.0381, nearest whole 18 (+0.3513), nearest ninth 165/9 = 18.3333 (+0.0180) (partners not from both natal charts) — H Sedna – S Orcus Dec 18.3323; H Sedna – S Ceres RA 18.3489; H Sedna – S Gonggong Dec 18.3662; J Sedna – J Sun Dec 18.3703 (+common 8,9,19,22,24)
+     n t 0.957   soak Haumea ~145.1731: 4 partners, spread 0.0383, nearest whole 145 (+0.1731), nearest ninth 1307/9 = 145.2222 (-0.0491) (partners not from both natal charts) — J Haumea – H Chiron Flat 145.1540; S Haumea – S Ceres RA 145.1606; S Haumea – S Chiron GC 145.1611; S Haumea – S Ceres Flat 145.1654; J Haumea – H Sun GC 145.1922 (+common 2,19,20,22,23,24,27)
+     n t 0.977   soak Pallas ~14.6178: 4 partners, spread 0.0391, nearest whole 15 (-0.3822), nearest ninth 132/9 = 14.6667 (-0.0489) (partners not from both natal charts) — J Pallas – S Orcus Dec 14.5983; S Pallas – H Jupiter Dec 14.6204; J Pallas – S Gonggong Dec 14.6322; S Pallas – S Pluto Dec 14.6373 (+common 19,22,23,24)
 [22] sky/natal ratio of a natal pair: strict 12 (6 of 6, rank 4), near 10 (6 of 6, rank 6)
-     s t 0.108   J Venus–Ketu Flat sky 12.2269 / natal 50.6544 natal/sky 29/7 (0.0005%)   joined: 13,15,19,20,21,23,24,27
-     s t 0.148   J Rahu–Orcus RA sky 97.4907 / natal 77.9920 sky/natal 5/4 (0.0007%)   joined: 8,15,16,19,20,21,24,27
-     s t 0.180   J Ceres–Orcus Dec sky 27.7580 / natal 17.8446 sky/natal 14/9 (0.0009%)   joined: 8,16,19,21,24,27
-     s t 0.210   J Saturn–Ceres GC sky 124.5137 / natal 155.6404 natal/sky 5/4 (0.0010%)   joined: 2,6,19,21,23,24,25,27
-     s t 0.220   H Pallas–Transpluto GC sky 173.1395 / natal 144.2845 sky/natal 6/5 (0.0011%)   joined: 16,19,21,23,24
-     s t 0.440   H Mercury–Saturn RA sky 119.6819 / natal 179.5188 natal/sky 3/2 (0.0022%)   joined: 19,21,23,24,26
-     s t 0.460   J Rahu–Sedna Flat sky 12.3946 / natal 167.3303 natal/sky 27/2 (0.0023%)   joined: 15,19,20,21,24,27
-     s t 0.494   J Pallas–Transpluto RA sky 173.3652 / natal 27.3741 sky/natal 19/3 (0.0025%)   joined: 2,16,19,21,23,24
-     s t 0.716   H Venus–Saturn Dec sky 6.1684 / natal 1.0885 sky/natal 17/3 (0.0036%)   joined: 2,6,9,13,19,21,23,24
-     s t 0.750   H Chiron–Eris RA sky 18.4227 / natal 51.1761 natal/sky 25/9 (0.0037%)   joined: 2,6,19,20,21,23,24,27
-     s t 0.854   J Chiron–Juno GC sky 107.5285 / natal 94.0834 sky/natal 8/7 (0.0043%)   joined: 2,19,21,23,24,27
-     s t 0.862   J Sun–Jupiter Flat sky 120.6777 / natal 155.1637 natal/sky 9/7 (0.0043%)   joined: 19,20,21,24
-     n t 1.320   H Jupiter–Pluto GC sky 27.9738 / natal 101.3983 natal/sky 29/8 (0.0066%)   joined: 19,20,21,24
-     n t 1.344   H Rahu–Gonggong Dec sky 32.0845 / natal 9.4373 sky/natal 17/5 (0.0067%)   joined: 2,6,9,15,19,20,21,24
-     n t 1.426   J Uranus–Chiron GC sky 33.6104 / natal 127.7286 natal/sky 19/5 (0.0071%)   joined: 19,20,21,23,24
-     n t 1.454   H Saturn–Uranus GC sky 96.5018 / natal 168.8905 natal/sky 7/4 (0.0073%)   joined: 19,21,23,24
-     n t 1.484   J Rahu–Haumea Flat sky 156.3500 / natal 40.5322 sky/natal 27/7 (0.0074%)   joined: 15,19,20,21,24,27
-     n t 1.496   H Chiron–Ceres Flat sky 63.6867 / natal 14.6980 sky/natal 13/3 (0.0075%)   joined: 2,8,9,19,20,21,23,24,27
-     n t 1.660   H Pluto–Juno RA sky 35.0101 / natal 110.8744 natal/sky 19/6 (0.0083%)   joined: 19,20,21,24
-     n t 1.706   J Mars–Juno RA sky 60.3664 / natal 96.5780 natal/sky 8/5 (0.0085%)   joined: 2,19,21,24,27
-     n t 1.896   H Mercury–Gonggong RA sky 146.6740 / natal 38.2664 sky/natal 23/6 (0.0095%)   joined: 6,9,15,19,20,21,26
-     n t 1.952   H Pluto–Vesta RA sky 72.8219 / natal 29.7879 sky/natal 22/9 (0.0098%)   joined: 2,13,19,20,21,24
+     s t 0.108   J Venus–Ketu Flat sky 12.2269 / natal 50.6544 natal/sky 29/7 (0.0005%) (+common 13,15,19,20,21,23,24,27)
+     s t 0.148   J Rahu–Orcus RA sky 97.4907 / natal 77.9920 sky/natal 5/4 (0.0007%) (+common 8,15,16,19,20,21,24,27)
+     s t 0.180   J Ceres–Orcus Dec sky 27.7580 / natal 17.8446 sky/natal 14/9 (0.0009%) (+common 8,16,19,21,24,27)
+     s t 0.210   J Saturn–Ceres GC sky 124.5137 / natal 155.6404 natal/sky 5/4 (0.0010%) (+common 2,6,19,21,23,24,25,27)
+     s t 0.220   H Pallas–Transpluto GC sky 173.1395 / natal 144.2845 sky/natal 6/5 (0.0011%) (+common 16,19,21,23,24)
+     s t 0.440   H Mercury–Saturn RA sky 119.6819 / natal 179.5188 natal/sky 3/2 (0.0022%) (+common 19,21,23,24,26)
+     s t 0.460   J Rahu–Sedna Flat sky 12.3946 / natal 167.3303 natal/sky 27/2 (0.0023%) (+common 15,19,20,21,24,27)
+     s t 0.494   J Pallas–Transpluto RA sky 173.3652 / natal 27.3741 sky/natal 19/3 (0.0025%) (+common 2,16,19,21,23,24)
+     s t 0.716   H Venus–Saturn Dec sky 6.1684 / natal 1.0885 sky/natal 17/3 (0.0036%) (+common 2,6,9,13,19,21,23,24)
+     s t 0.750   H Chiron–Eris RA sky 18.4227 / natal 51.1761 natal/sky 25/9 (0.0037%) (+common 2,6,19,20,21,23,24,27)
+     s t 0.854   J Chiron–Juno GC sky 107.5285 / natal 94.0834 sky/natal 8/7 (0.0043%) (+common 2,19,21,23,24,27)
+     s t 0.862   J Sun–Jupiter Flat sky 120.6777 / natal 155.1637 natal/sky 9/7 (0.0043%) (+common 19,20,21,24)
+     n t 1.320   H Jupiter–Pluto GC sky 27.9738 / natal 101.3983 natal/sky 29/8 (0.0066%) (+common 19,20,21,24)
+     n t 1.344   H Rahu–Gonggong Dec sky 32.0845 / natal 9.4373 sky/natal 17/5 (0.0067%) (+common 2,6,9,15,19,20,21,24)
+     n t 1.426   J Uranus–Chiron GC sky 33.6104 / natal 127.7286 natal/sky 19/5 (0.0071%) (+common 19,20,21,23,24)
+     n t 1.454   H Saturn–Uranus GC sky 96.5018 / natal 168.8905 natal/sky 7/4 (0.0073%) (+common 19,21,23,24)
+     n t 1.484   J Rahu–Haumea Flat sky 156.3500 / natal 40.5322 sky/natal 27/7 (0.0074%) (+common 15,19,20,21,24,27)
+     n t 1.496   H Chiron–Ceres Flat sky 63.6867 / natal 14.6980 sky/natal 13/3 (0.0075%) (+common 2,8,9,19,20,21,23,24,27)
+     n t 1.660   H Pluto–Juno RA sky 35.0101 / natal 110.8744 natal/sky 19/6 (0.0083%) (+common 19,20,21,24)
+     n t 1.706   J Mars–Juno RA sky 60.3664 / natal 96.5780 natal/sky 8/5 (0.0085%) (+common 2,19,21,24,27)
+     n t 1.896   H Mercury–Gonggong RA sky 146.6740 / natal 38.2664 sky/natal 23/6 (0.0095%) (+common 6,9,15,19,20,21,26)
+     n t 1.952   H Pluto–Vesta RA sky 72.8219 / natal 29.7879 sky/natal 22/9 (0.0098%) (+common 2,13,19,20,21,24)
 [23] one body in sky/natal ratios in both charts: strict 5 (6 of 6, rank 3), near 5 (6 of 6, rank 3)
-     s t 0.440   Saturn: H 3 (Mercury–Saturn RA 3/2 0.0022%) | J 1 (Saturn–Ceres GC 5/4 0.0010%)   joined: 2,6,19,21,22,24,25
-     s t 0.494   Pallas: H 1 (Pallas–Transpluto GC 6/5 0.0011%) | J 1 (Pallas–Transpluto RA 19/3 0.0025%)   joined: 19,21,22,24
-     s t 0.494   Transpluto: H 1 (Pallas–Transpluto GC 6/5 0.0011%) | J 1 (Pallas–Transpluto RA 19/3 0.0025%)   joined: 2,16,19,21,22,24
-     s t 0.716   Venus: H 1 (Venus–Saturn Dec 17/3 0.0036%) | J 1 (Venus–Ketu Flat 29/7 0.0005%)   joined: 2,6,9,13,19,21,22,24
-     s t 0.854   Chiron: H 2 (Chiron–Eris RA 25/9 0.0037%) | J 2 (Chiron–Juno GC 8/7 0.0043%)   joined: 2,19,20,21,22,24,27
-     n t 1.320   Jupiter: H 1 (Jupiter–Pluto GC 29/8 0.0066%) | J 1 (Sun–Jupiter Flat 9/7 0.0043%)   joined: 19,20,21,22,24
-     n t 1.344   Node: H 1 (Rahu–Gonggong Dec 17/5 0.0067%) | J 4 (Venus–Ketu Flat 29/7 0.0005%)   joined: 2,9,15,19,20,21,22,24,27
-     n t 1.454   Uranus: H 1 (Saturn–Uranus GC 7/4 0.0073%) | J 1 (Uranus–Chiron GC 19/5 0.0071%)   joined: 19,20,21,24
-     n t 1.496   Ceres: H 1 (Chiron–Ceres Flat 13/3 0.0075%) | J 2 (Ceres–Orcus Dec 14/9 0.0009%)   joined: 8,9,19,21,22,24,27
-     n t 1.660   Juno: H 1 (Pluto–Juno RA 19/6 0.0083%) | J 2 (Chiron–Juno GC 8/7 0.0043%)   joined: 2,19,21,22,24,27
+     s t 0.440   Saturn: H 3 (Mercury–Saturn RA 3/2 0.0022%) | J 1 (Saturn–Ceres GC 5/4 0.0010%) (+common 2,6,19,21,22,24,25)
+     s t 0.494   Pallas: H 1 (Pallas–Transpluto GC 6/5 0.0011%) | J 1 (Pallas–Transpluto RA 19/3 0.0025%) (+common 19,21,22,24)
+     s t 0.494   Transpluto: H 1 (Pallas–Transpluto GC 6/5 0.0011%) | J 1 (Pallas–Transpluto RA 19/3 0.0025%) (+common 2,16,19,21,22,24)
+     s t 0.716   Venus: H 1 (Venus–Saturn Dec 17/3 0.0036%) | J 1 (Venus–Ketu Flat 29/7 0.0005%) (+common 2,6,9,13,19,21,22,24)
+     s t 0.854   Chiron: H 2 (Chiron–Eris RA 25/9 0.0037%) | J 2 (Chiron–Juno GC 8/7 0.0043%) (+common 2,19,20,21,22,24,27)
+     n t 1.320   Jupiter: H 1 (Jupiter–Pluto GC 29/8 0.0066%) | J 1 (Sun–Jupiter Flat 9/7 0.0043%) (+common 19,20,21,22,24)
+     n t 1.344   Node: H 1 (Rahu–Gonggong Dec 17/5 0.0067%) | J 4 (Venus–Ketu Flat 29/7 0.0005%) (+common 2,9,15,19,20,21,22,24,27)
+     n t 1.454   Uranus: H 1 (Saturn–Uranus GC 7/4 0.0073%) | J 1 (Uranus–Chiron GC 19/5 0.0071%) (+common 19,20,21,24)
+     n t 1.496   Ceres: H 1 (Chiron–Ceres Flat 13/3 0.0075%) | J 2 (Ceres–Orcus Dec 14/9 0.0009%) (+common 8,9,19,21,22,24,27)
+     n t 1.660   Juno: H 1 (Pluto–Juno RA 19/6 0.0083%) | J 2 (Chiron–Juno GC 8/7 0.0043%) (+common 2,19,21,22,24,27)
 [24] pair family / horse:jockey ratio: strict 47 (6 of 6, rank 4), near 125 (6 of 6, rank 5)
-     s t 0.012   h:j Venus–Rahu Dec H 19.73471 J 35.52251 J/H 9/5 (0.0001%)   joined: 2,6,9,13,15,19,20,21,22,23,27
-     s t 0.020   family J Ketu–Quaoar Dec J Ketu – sky Quaoar 28.21884 vs TT 5.03907 TN/TT 28/5 (0.0001%)   joined: 6,15,19,20,21,22,27
-     s t 0.020   family J Pluto–Gonggong GC sky Pluto – J Gonggong 33.07618 vs TT 39.69137 TT/TN 6/5 (0.0001%)   joined: 2,15,19,20,21,27
-     s t 0.030   h:j Ceres–Transpluto Dec H 27.47843 J 5.68518 H/J 29/6 (0.0001%)   joined: 2,8,9,16,19,21,22,23,27
-     s t 0.036   h:j Chiron–Haumea RA H 127.02850 J 20.32452 H/J 25/4 (0.0002%)   joined: 1,2,3,5,6,8,9,19,20,21,22,23,27
-     s t 0.040   family H Neptune–Rahu RA H Neptune – sky Rahu 87.27348 vs TT 67.87954 TN/TT 9/7 (0.0002%)   joined: 2,9,15,19,21
-     s t 0.040   family J Pallas–Orcus GC J Pallas – sky Orcus 41.39423 vs TT 159.66386 TT/TN 27/7 (0.0002%)   joined: 8,16,19,21,22,23
-     s t 0.040   family J Vesta–Orcus Flat sky Vesta – J Orcus 91.10488 vs TT 66.25825 TN/TT 11/8 (0.0002%)   joined: 8,13,16,19,21,22
-     s t 0.060   h:j Rahu–Haumea GC H 70.58441 J 40.33407 H/J 7/4 (0.0003%)   joined: 1,2,3,5,6,8,9,15,19,20,21,22,27
-     s t 0.080   family J Sun–Juno Dec sky Sun – J Juno 5.26862 vs NN 28.09921 NN/TN 16/3 (0.0004%)   joined: 2,19,21,22,27
-     s t 0.160   family H Ketu–Haumea Flat sky Ketu – H Haumea 51.46028 vs NN 122.21713 NN/TN 19/8 (0.0008%)   joined: 1,2,3,5,6,8,9,15,19,21
-     s t 0.180   family J Neptune–Eris GC sky Neptune – J Eris 31.68107 vs NN 84.48360 NN/TN 8/3 (0.0009%)   joined: 2,19,20,21,27
-     s t 0.200   family J Saturn–Ketu Flat J Saturn – sky Ketu 117.49467 vs NN 39.16529 TN/NN 3 (0.0010%)   joined: 2,6,15,19,20,21,22,23,25,27
-     s t 0.220   family J Juno–Gonggong Dec J Juno – sky Gonggong 6.75039 vs TT 0.75005 TN/TT 9 (0.0011%)   joined: 2,15,19,20,21,22,27
-     s t 0.220   family J Rahu–Eris Flat sky Rahu – J Eris 45.91859 vs NN 172.19653 NN/TN 15/4 (0.0011%)   joined: 2,15,19,20,21,22,27
-     s t 0.220   h:j Juno–Quaoar GC H 97.58878 J 26.27419 H/J 26/7 (0.0011%)   joined: 2,6,19,21,22,27
-     s t 0.240   family H Juno–Ketu Flat H Juno – sky Ketu 78.40713 vs TT 23.06121 TN/TT 17/5 (0.0012%)   joined: 2,9,15,21
-     s t 0.240   family H Venus–Jupiter Flat sky Venus – H Jupiter 130.76731 vs NN 24.51857 TN/NN 16/3 (0.0012%)   joined: 2,6,9,13,19,21,22,23
-     s t 0.280   family H Rahu–Orcus Dec sky Rahu – H Orcus 26.99409 vs NN 16.87108 TN/NN 8/5 (0.0014%)   joined: 2,8,9,15,16,19,21,22
-     s t 0.280   family J Pluto–Vesta Flat J Pluto – sky Vesta 16.88336 vs NN 113.96426 NN/TN 27/4 (0.0014%)   joined: 13,19,21,27
-     s t 0.280   family J Uranus–Vesta Dec sky Uranus – J Vesta 6.34618 vs TT 27.92357 TT/TN 22/5 (0.0014%)   joined: 13,19,20,21
-     s t 0.300   family J Rahu–Quaoar Dec J Rahu – sky Quaoar 2.74041 vs NN 1.21798 TN/NN 9/4 (0.0015%)   joined: 6,15,19,20,21,22,27
-     s t 0.340   family J Mars–Saturn RA sky Mars – J Saturn 155.14191 vs NN 172.38287 NN/TN 10/9 (0.0017%)   joined: 2,6,19,21,22,23,25,27
-     s t 0.380   family J Saturn–Ketu RA J Saturn – sky Ketu 116.32855 vs NN 35.40500 TN/NN 23/7 (0.0019%)   joined: 2,6,15,19,20,21,22,23,25,27
-     s t 0.382   h:j Saturn–Quaoar RA H 69.62278 J 116.04018 J/H 5/3 (0.0019%)   joined: 2,6,19,21,22,23,25,27
-     s t 0.420   family H Sun–Haumea GC H Sun – sky Haumea 152.30370 vs TT 27.69216 TN/TT 11/2 (0.0021%)   joined: 1,2,3,5,6,8,9,19,21
-     s t 0.440   family J Juno–Ketu RA J Juno – sky Ketu 25.28938 vs NN 126.44417 NN/TN 5 (0.0022%)   joined: 2,15,19,20,21,22,27
-     s t 0.440   family J Jupiter–Pallas GC sky Jupiter – J Pallas 151.15215 vs NN 125.95734 TN/NN 6/5 (0.0022%)   joined: 19,20,21,22,23
-     s t 0.440   family J Mars–Eris Dec J Mars – sky Eris 7.28359 vs NN 13.65644 NN/TN 15/8 (0.0022%)   joined: 2,19,20,21,27
-     s t 0.520   family H Pallas–Eris GC H Pallas – sky Eris 82.43903 vs TT 44.96555 TN/TT 11/6 (0.0026%)   joined: 2,6,19,20,21,22,23
-     s t 0.560   family H Saturn–Chiron GC sky Saturn – H Chiron 28.07438 vs NN 140.37577 NN/TN 5 (0.0028%)   joined: 2,19,20,21,22,23,27
-     s t 0.620   family J Neptune–Quaoar Flat sky Neptune – J Quaoar 112.20617 vs TT 78.54677 TN/TT 10/7 (0.0031%)   joined: 6,19,21,27
-     s t 0.620   family J Sun–Juno GC J Sun – sky Juno 161.47167 vs TT 55.89228 TN/TT 26/9 (0.0031%)   joined: 2,19,21,22,27
-     s t 0.680   family J Vesta–Transpluto Dec J Vesta – sky Transpluto 11.37488 vs NN 7.96214 TN/NN 10/7 (0.0034%)   joined: 2,13,16,19,21,22,23
-     s t 0.720   family H Ketu–Makemake GC H Ketu – sky Makemake 100.99937 vs NN 90.90270 TN/NN 10/9 (0.0036%)   joined: 2,9,15,19,21,27
-     s t 0.760   family H Chiron–Ceres Flat H Chiron – sky Ceres 99.21541 vs NN 14.69802 TN/NN 27/4 (0.0038%)   joined: 2,8,9,19,20,21,22,23,27
-     s t 0.792   h:j Chiron–Juno Flat H 167.49132 J 94.21760 H/J 16/9 (0.0040%)   joined: 2,19,20,21,22,23,27
-     s t 0.800   family J Juno–Rahu RA J Juno – sky Rahu 154.71062 vs NN 53.55583 TN/NN 26/9 (0.0040%)   joined: 2,15,19,20,21,22,27
-     s t 0.840   family J Jupiter–Ceres GC sky Jupiter – J Ceres 167.86629 vs NN 95.92761 TN/NN 7/4 (0.0042%)   joined: 19,20,21,22,27
-     s t 0.860   family H Jupiter–Transpluto GC sky Jupiter – H Transpluto 173.27980 vs NN 129.96545 TN/NN 4/3 (0.0043%)   joined: 16,19,21,22,23
+     s t 0.012   h:j Venus–Rahu Dec H 19.73471 J 35.52251 J/H 9/5 (0.0001%) (+common 2,6,9,13,15,19,20,21,22,23,27)
+     s t 0.020   family J Ketu–Quaoar Dec J Ketu – sky Quaoar 28.21884 vs TT 5.03907 TN/TT 28/5 (0.0001%) (+common 6,15,19,20,21,22,27)
+     s t 0.020   family J Pluto–Gonggong GC sky Pluto – J Gonggong 33.07618 vs TT 39.69137 TT/TN 6/5 (0.0001%) (+common 2,15,19,20,21,27)
+     s t 0.030   h:j Ceres–Transpluto Dec H 27.47843 J 5.68518 H/J 29/6 (0.0001%) (+common 2,8,9,16,19,21,22,23,27)
+     s t 0.036   h:j Chiron–Haumea RA H 127.02850 J 20.32452 H/J 25/4 (0.0002%)   joined: 1 (+common 2,3,5,6,8,9,19,20,21,22,23,27)
+     s t 0.040   family H Neptune–Rahu RA H Neptune – sky Rahu 87.27348 vs TT 67.87954 TN/TT 9/7 (0.0002%) (+common 2,9,15,19,21)
+     s t 0.040   family J Pallas–Orcus GC J Pallas – sky Orcus 41.39423 vs TT 159.66386 TT/TN 27/7 (0.0002%) (+common 8,16,19,21,22,23)
+     s t 0.040   family J Vesta–Orcus Flat sky Vesta – J Orcus 91.10488 vs TT 66.25825 TN/TT 11/8 (0.0002%) (+common 8,13,16,19,21,22)
+     s t 0.060   h:j Rahu–Haumea GC H 70.58441 J 40.33407 H/J 7/4 (0.0003%)   joined: 1 (+common 2,3,5,6,8,9,15,19,20,21,22,27)
+     s t 0.080   family J Sun–Juno Dec sky Sun – J Juno 5.26862 vs NN 28.09921 NN/TN 16/3 (0.0004%) (+common 2,19,21,22,27)
+     s t 0.160   family H Ketu–Haumea Flat sky Ketu – H Haumea 51.46028 vs NN 122.21713 NN/TN 19/8 (0.0008%)   joined: 1 (+common 2,3,5,6,8,9,15,19,21)
+     s t 0.180   family J Neptune–Eris GC sky Neptune – J Eris 31.68107 vs NN 84.48360 NN/TN 8/3 (0.0009%) (+common 2,19,20,21,27)
+     s t 0.200   family J Saturn–Ketu Flat J Saturn – sky Ketu 117.49467 vs NN 39.16529 TN/NN 3 (0.0010%) (+common 2,6,15,19,20,21,22,23,25,27)
+     s t 0.220   family J Juno–Gonggong Dec J Juno – sky Gonggong 6.75039 vs TT 0.75005 TN/TT 9 (0.0011%) (+common 2,15,19,20,21,22,27)
+     s t 0.220   family J Rahu–Eris Flat sky Rahu – J Eris 45.91859 vs NN 172.19653 NN/TN 15/4 (0.0011%) (+common 2,15,19,20,21,22,27)
+     s t 0.220   h:j Juno–Quaoar GC H 97.58878 J 26.27419 H/J 26/7 (0.0011%) (+common 2,6,19,21,22,27)
+     s t 0.240   family H Juno–Ketu Flat H Juno – sky Ketu 78.40713 vs TT 23.06121 TN/TT 17/5 (0.0012%) (+common 2,9,15,21)
+     s t 0.240   family H Venus–Jupiter Flat sky Venus – H Jupiter 130.76731 vs NN 24.51857 TN/NN 16/3 (0.0012%) (+common 2,6,9,13,19,21,22,23)
+     s t 0.280   family H Rahu–Orcus Dec sky Rahu – H Orcus 26.99409 vs NN 16.87108 TN/NN 8/5 (0.0014%) (+common 2,8,9,15,16,19,21,22)
+     s t 0.280   family J Pluto–Vesta Flat J Pluto – sky Vesta 16.88336 vs NN 113.96426 NN/TN 27/4 (0.0014%) (+common 13,19,21,27)
+     s t 0.280   family J Uranus–Vesta Dec sky Uranus – J Vesta 6.34618 vs TT 27.92357 TT/TN 22/5 (0.0014%) (+common 13,19,20,21)
+     s t 0.300   family J Rahu–Quaoar Dec J Rahu – sky Quaoar 2.74041 vs NN 1.21798 TN/NN 9/4 (0.0015%) (+common 6,15,19,20,21,22,27)
+     s t 0.340   family J Mars–Saturn RA sky Mars – J Saturn 155.14191 vs NN 172.38287 NN/TN 10/9 (0.0017%) (+common 2,6,19,21,22,23,25,27)
+     s t 0.380   family J Saturn–Ketu RA J Saturn – sky Ketu 116.32855 vs NN 35.40500 TN/NN 23/7 (0.0019%) (+common 2,6,15,19,20,21,22,23,25,27)
+     s t 0.382   h:j Saturn–Quaoar RA H 69.62278 J 116.04018 J/H 5/3 (0.0019%) (+common 2,6,19,21,22,23,25,27)
+     s t 0.420   family H Sun–Haumea GC H Sun – sky Haumea 152.30370 vs TT 27.69216 TN/TT 11/2 (0.0021%)   joined: 1 (+common 2,3,5,6,8,9,19,21)
+     s t 0.440   family J Juno–Ketu RA J Juno – sky Ketu 25.28938 vs NN 126.44417 NN/TN 5 (0.0022%) (+common 2,15,19,20,21,22,27)
+     s t 0.440   family J Jupiter–Pallas GC sky Jupiter – J Pallas 151.15215 vs NN 125.95734 TN/NN 6/5 (0.0022%) (+common 19,20,21,22,23)
+     s t 0.440   family J Mars–Eris Dec J Mars – sky Eris 7.28359 vs NN 13.65644 NN/TN 15/8 (0.0022%) (+common 2,19,20,21,27)
+     s t 0.520   family H Pallas–Eris GC H Pallas – sky Eris 82.43903 vs TT 44.96555 TN/TT 11/6 (0.0026%) (+common 2,6,19,20,21,22,23)
+     s t 0.560   family H Saturn–Chiron GC sky Saturn – H Chiron 28.07438 vs NN 140.37577 NN/TN 5 (0.0028%) (+common 2,19,20,21,22,23,27)
+     s t 0.620   family J Neptune–Quaoar Flat sky Neptune – J Quaoar 112.20617 vs TT 78.54677 TN/TT 10/7 (0.0031%) (+common 6,19,21,27)
+     s t 0.620   family J Sun–Juno GC J Sun – sky Juno 161.47167 vs TT 55.89228 TN/TT 26/9 (0.0031%) (+common 2,19,21,22,27)
+     s t 0.680   family J Vesta–Transpluto Dec J Vesta – sky Transpluto 11.37488 vs NN 7.96214 TN/NN 10/7 (0.0034%) (+common 2,13,16,19,21,22,23)
+     s t 0.720   family H Ketu–Makemake GC H Ketu – sky Makemake 100.99937 vs NN 90.90270 TN/NN 10/9 (0.0036%) (+common 2,9,15,19,21,27)
+     s t 0.760   family H Chiron–Ceres Flat H Chiron – sky Ceres 99.21541 vs NN 14.69802 TN/NN 27/4 (0.0038%) (+common 2,8,9,19,20,21,22,23,27)
+     s t 0.792   h:j Chiron–Juno Flat H 167.49132 J 94.21760 H/J 16/9 (0.0040%) (+common 2,19,20,21,22,23,27)
+     s t 0.800   family J Juno–Rahu RA J Juno – sky Rahu 154.71062 vs NN 53.55583 TN/NN 26/9 (0.0040%) (+common 2,15,19,20,21,22,27)
+     s t 0.840   family J Jupiter–Ceres GC sky Jupiter – J Ceres 167.86629 vs NN 95.92761 TN/NN 7/4 (0.0042%) (+common 19,20,21,22,27)
+     s t 0.860   family H Jupiter–Transpluto GC sky Jupiter – H Transpluto 173.27980 vs NN 129.96545 TN/NN 4/3 (0.0043%) (+common 16,19,21,22,23)
      (+132 more in P03.json)
 [25] Equator whole/ninth (natal) + chains: strict 1 (6 of 6, rank 5)
-     s t 0.612   J Saturn |Dec| 4.00612 = 4 (+0.00612); chains: S Chiron–J Saturn Dec 10 from S Chiron–EQ 6 & J Saturn–EQ 4   joined: 2,6,19,21,22,23,24
+     s t 0.612   J Saturn |Dec| 4.00612 = 4 (+0.00612); chains: S Chiron–J Saturn Dec 10 from S Chiron–EQ 6 & J Saturn–EQ 4 (+common 2,6,19,21,22,23,24)
 [26] Equator ratio: strict 1 (3 of 6, rank 1 (tightest)), near 1 (4 of 6, rank 4)
-     s t 0.510   Equator Mercury S/H 2.8550 / 6.4241 H/S 9/4 (0.0051%)   joined: 21,22
-     n t 3.750   Equator Rahu H/J 23.3465 / 12.7392 H/J 11/6 (0.0375%)   joined: 2,9,15,19,20,21,22,24,27
+     s t 0.510   Equator Mercury S/H 2.8550 / 6.4241 H/S 9/4 (0.0051%) (+common 21,22)
+     n t 3.750   Equator Rahu H/J 23.3465 / 12.7392 H/J 11/6 (0.0375%) (+common 2,9,15,19,20,21,22,24,27)
 [27] return / contact: strict 14 (6 of 6, rank 4), near 19 (6 of 6, rank 1 (tightest))
-     s t 0.043   contact sky Neptune on J Juno RA 86.8311 Dec 0.0130 GC 86.4500   joined: 2,19,21,22,24
-     s t 0.186   contact sky Pluto on J Neptune RA 0.2797 Dec 2.3002 GC 2.3148   joined: 19,21,24
-     s t 0.192   contact sky Quaoar on H Ceres RA 69.7919 Dec 0.0577 GC 66.9069   joined: 8,9,19,21,24
-     s t 0.192   contact sky Ketu on J Quaoar RA 0.2884 Dec 6.5615 GC 6.5673   joined: 6,19,21,24
-     s t 0.199   contact sky Neptune on H Chiron RA 18.0011 Dec 0.0598 GC 17.9383   joined: 2,19,20,21,22,23,24
-     s t 0.269   contact sky Mercury on H Makemake RA 0.4028 Dec 31.0296 GC 31.0321   joined: 19,21,24
-     s t 0.316   contact sky Orcus on J Ceres RA 0.4739 Dec 30.9797 GC 30.9832   joined: 19,21,22,24
-     s t 0.381   contact sky Ketu on J Pluto RA 0.5709 Dec 14.2138 GC 14.2245   joined: 19,21,24
-     s t 0.390   contact sky Ketu on J Neptune RA 56.8428 Dec 0.1171 GC 52.9219   joined: 19,21,24
-     s t 0.474   contact sky Chiron on J Mars RA 160.4767 Dec 0.1421 GC 157.1969   joined: 19,21,24
-     s t 0.647   contact sky Vesta on J Rahu RA 12.0076 Dec 0.1942 GC 11.7171   joined: 15,19,20,21,22,24
-     s t 0.784   contact sky Juno on H Quaoar RA 1.1754 Dec 3.2014 GC 3.3985   joined: 19,21,24
-     s t 0.904   contact sky Jupiter on H Quaoar RA 62.3576 Dec 0.2711 GC 59.8903   joined: 19,21,24
-     s t 0.971   contact sky Jupiter on H Ceres RA 19.0086 Dec 0.2912 GC 18.3232   joined: 8,9,19,21,24
-     n t 1.001   contact sky Ketu on J Uranus RA 62.0421 Dec 0.3004 GC 57.6568   joined: 19,20,21,24
-     n t 1.014   contact sky Ketu on J Jupiter RA 6.0362 Dec 0.3041 GC 5.6554   joined: 19,20,21,22,24
-     n t 1.036   contact sky Transpluto on H Sun RA 130.9756 Dec 0.3108 GC 127.1478   joined: 2,19,21,24
-     n t 1.067   contact sky Makemake on J Haumea RA 6.9593 Dec 0.3202 GC 6.4492   joined: 21,24
-     n t 1.068   contact sky Gonggong on H Neptune RA 3.8162 Dec 0.3204 GC 3.7502   joined: 19,21,24
-     n t 1.087   contact sky Transpluto on J Ceres RA 1.6298 Dec 9.0979 GC 9.2329   joined: 19,21,22,24
-     n t 1.103   contact sky Chiron on H Jupiter RA 9.7171 Dec 0.3308 GC 9.6666   joined: 21,24
-     n t 1.104   contact sky Mercury on J Haumea RA 1.6562 Dec 25.2508 GC 25.3025   joined: 21,24
-     n t 1.106   contact sky Mercury on H Saturn RA 3.2370 Dec 0.3318 GC 3.2504   joined: 19,21,22,23,24
-     n t 1.129   contact sky Sedna on H Juno RA 107.6887 Dec 0.3386 GC 106.0603   joined: 21,24
-     n t 1.159   contact sky Saturn on H Vesta RA 1.7380 Dec 1.1890 GC 2.0298   joined: 2,13,19,21
-     n t 1.169   contact sky Makemake on J Vesta RA 69.5187 Dec 0.3508 GC 63.8749   joined: 13,19,21,24
-     n t 1.181   contact sky Orcus on H Neptune RA 175.2358 Dec 0.3543 GC 156.1089   joined: 19,21,24
-     n t 1.236   contact sky Mars on J Eris RA 177.3272 Dec 0.3708 GC 163.7936   joined: 2,19,20,21,24
-     n t 1.368   contact sky Pluto on H Rahu RA 31.6136 Dec 0.4105 GC 29.0143   joined: 2,9,15,21,24
-     n t 1.411   contact sky Juno on J Rahu RA 49.8195 Dec 0.4234 GC 48.5574   joined: 15,19,20,21,22,24
-     n t 1.432   contact sky Juno on H Neptune RA 71.1735 Dec 0.4297 GC 69.3628   joined: 19,21,24
-     n t 1.444   contact sky Chiron on H Mercury RA 5.3521 Dec 0.4331 GC 5.3383   joined: 21,22,26
-     n t 1.637   contact sky Pallas on J Eris RA 41.8376 Dec 0.4911 GC 41.4087   joined: 2,19,20,21,24
+     s t 0.043   contact sky Neptune on J Juno RA 86.8311 Dec 0.0130 GC 86.4500 (+common 2,19,21,22,24)
+     s t 0.186   contact sky Pluto on J Neptune RA 0.2797 Dec 2.3002 GC 2.3148 (+common 19,21,24)
+     s t 0.192   contact sky Quaoar on H Ceres RA 69.7919 Dec 0.0577 GC 66.9069 (+common 8,9,19,21,24)
+     s t 0.192   contact sky Ketu on J Quaoar RA 0.2884 Dec 6.5615 GC 6.5673 (+common 6,19,21,24)
+     s t 0.199   contact sky Neptune on H Chiron RA 18.0011 Dec 0.0598 GC 17.9383 (+common 2,19,20,21,22,23,24)
+     s t 0.269   contact sky Mercury on H Makemake RA 0.4028 Dec 31.0296 GC 31.0321 (+common 19,21,24)
+     s t 0.316   contact sky Orcus on J Ceres RA 0.4739 Dec 30.9797 GC 30.9832 (+common 19,21,22,24)
+     s t 0.381   contact sky Ketu on J Pluto RA 0.5709 Dec 14.2138 GC 14.2245 (+common 19,21,24)
+     s t 0.390   contact sky Ketu on J Neptune RA 56.8428 Dec 0.1171 GC 52.9219 (+common 19,21,24)
+     s t 0.474   contact sky Chiron on J Mars RA 160.4767 Dec 0.1421 GC 157.1969 (+common 19,21,24)
+     s t 0.647   contact sky Vesta on J Rahu RA 12.0076 Dec 0.1942 GC 11.7171 (+common 15,19,20,21,22,24)
+     s t 0.784   contact sky Juno on H Quaoar RA 1.1754 Dec 3.2014 GC 3.3985 (+common 19,21,24)
+     s t 0.904   contact sky Jupiter on H Quaoar RA 62.3576 Dec 0.2711 GC 59.8903 (+common 19,21,24)
+     s t 0.971   contact sky Jupiter on H Ceres RA 19.0086 Dec 0.2912 GC 18.3232 (+common 8,9,19,21,24)
+     n t 1.001   contact sky Ketu on J Uranus RA 62.0421 Dec 0.3004 GC 57.6568 (+common 19,20,21,24)
+     n t 1.014   contact sky Ketu on J Jupiter RA 6.0362 Dec 0.3041 GC 5.6554 (+common 19,20,21,22,24)
+     n t 1.036   contact sky Transpluto on H Sun RA 130.9756 Dec 0.3108 GC 127.1478 (+common 2,19,21,24)
+     n t 1.067   contact sky Makemake on J Haumea RA 6.9593 Dec 0.3202 GC 6.4492 (+common 21,24)
+     n t 1.068   contact sky Gonggong on H Neptune RA 3.8162 Dec 0.3204 GC 3.7502 (+common 19,21,24)
+     n t 1.087   contact sky Transpluto on J Ceres RA 1.6298 Dec 9.0979 GC 9.2329 (+common 19,21,22,24)
+     n t 1.103   contact sky Chiron on H Jupiter RA 9.7171 Dec 0.3308 GC 9.6666 (+common 21,24)
+     n t 1.104   contact sky Mercury on J Haumea RA 1.6562 Dec 25.2508 GC 25.3025 (+common 21,24)
+     n t 1.106   contact sky Mercury on H Saturn RA 3.2370 Dec 0.3318 GC 3.2504 (+common 19,21,22,23,24)
+     n t 1.129   contact sky Sedna on H Juno RA 107.6887 Dec 0.3386 GC 106.0603 (+common 21,24)
+     n t 1.159   contact sky Saturn on H Vesta RA 1.7380 Dec 1.1890 GC 2.0298 (+common 2,13,19,21)
+     n t 1.169   contact sky Makemake on J Vesta RA 69.5187 Dec 0.3508 GC 63.8749 (+common 13,19,21,24)
+     n t 1.181   contact sky Orcus on H Neptune RA 175.2358 Dec 0.3543 GC 156.1089 (+common 19,21,24)
+     n t 1.236   contact sky Mars on J Eris RA 177.3272 Dec 0.3708 GC 163.7936 (+common 2,19,20,21,24)
+     n t 1.368   contact sky Pluto on H Rahu RA 31.6136 Dec 0.4105 GC 29.0143 (+common 2,9,15,21,24)
+     n t 1.411   contact sky Juno on J Rahu RA 49.8195 Dec 0.4234 GC 48.5574 (+common 15,19,20,21,22,24)
+     n t 1.432   contact sky Juno on H Neptune RA 71.1735 Dec 0.4297 GC 69.3628 (+common 19,21,24)
+     n t 1.444   contact sky Chiron on H Mercury RA 5.3521 Dec 0.4331 GC 5.3383 (+common 21,22,26)
+     n t 1.637   contact sky Pallas on J Eris RA 41.8376 Dec 0.4911 GC 41.4087 (+common 2,19,20,21,24)
 [28] one sky body on one natal body in RA and Dec: none
 [29] pair in one chart whole/ninth in RA and Dec: none
 [30] tightest cross link in the field: strict 1 (6 of 6, rank 5)
-     s t 0.088   tightest cross link H Uranus – J Chiron RA 168.9355 Dec 0.0265   joined: 19,21,22,23,24
+     s t 0.088   tightest cross link H Uranus – J Chiron RA 168.9355 Dec 0.0265 (+common 19,21,22,23,24)
 [33] node loop: none
--- joins: pairs touched by 2+ different items (strict; item:t of its tightest; a body's same-body items count on its pairs)
-   Haumea–Mercury           4 items: 1:0.734 3:0.327 5:0.367 6:0.352
-   Ceres–Transpluto         3 items: 16:0.723 19:0.421 24:0.030
-   Gonggong–Node            3 items: 9:0.940 15:0.320 20:0.034
-   Node–Orcus               3 items: 16:0.965 22:0.148 24:0.280
-   Ceres–Orcus              3 items: 16:0.965 19:0.330 22:0.180
-   Chiron–Juno              3 items: 2:0.292 22:0.854 24:0.792
-   Saturn–Venus             3 items: 2:0.660 6:0.529 22:0.716
-   Ceres–Jupiter            2 items: 19:0.000 24:0.840
-   Node–Sedna               2 items: 19:0.002 22:0.460
-   Node–Venus               2 items: 22:0.108 24:0.012
-   Makemake–Node            2 items: 19:0.020 24:0.720
-   Chiron–Haumea            2 items: 19:0.624 24:0.036
-   Haumea–Transpluto        2 items: 16:0.723 19:0.038
-   Orcus–Pallas             2 items: 16:0.965 24:0.040
-   Orcus–Vesta              2 items: 16:0.965 24:0.040
-   Makemake–Transpluto      2 items: 16:0.723 19:0.052
-   Ceres–Chiron             2 items: 19:0.054 24:0.760
-   Haumea–Node              2 items: 19:0.323 24:0.060
-   Ceres–Mercury            2 items: 19:0.094 24:0.920
-   Quaoar–Saturn            2 items: 19:0.188 24:0.382
-   Ceres–Saturn             2 items: 19:0.486 22:0.210
-   Pallas–Transpluto        2 items: 16:0.723 22:0.220
-   Juno–Node                2 items: 2:0.292 24:0.240
-   Sedna–Transpluto         2 items: 16:0.723 19:0.320
-   Haumea–Venus             2 items: 9:0.860 19:0.331
-   Eris–Saturn              2 items: 2:0.452 6:0.364
-   Haumea–Sun               2 items: 19:0.530 24:0.420
-   Makemake–Orcus           2 items: 16:0.965 19:0.551
-   Chiron–Saturn            2 items: 19:0.727 24:0.560
-   Ceres–Haumea             2 items: 9:0.776 19:0.584
-   Transpluto–Vesta         2 items: 16:0.723 24:0.680
-   Jupiter–Transpluto       2 items: 16:0.723 24:0.860
-   Orcus–Transpluto         2 items: 2:0.846 16:0.723
-   Orcus–Sedna              2 items: 9:0.882 16:0.965
-   Ceres–Sun                2 items: 19:0.941 24:0.920
-   Haumea–Orcus             2 items: 16:0.965 19:0.942
--- joins: natal bodies touched by 2+ different items (strict)
-   H Venus        9 items: 2:0.660 6:0.529 9:0.860 13:0.587 19:0.331 21:0.502 22:0.716 23:0.716 24:0.012
-   H Haumea       9 items: 1:0.734 3:0.327 5:0.367 6:0.352 8:0.776 9:0.776 19:0.034 21:0.984 24:0.036
-   H Chiron       8 items: 2:0.292 19:0.537 20:0.311 21:0.492 22:0.750 23:0.854 24:0.036 27:0.199
-   J Mercury      8 items: 1:0.734 3:0.327 5:0.367 6:0.352 8:0.776 19:0.094 21:0.940 24:0.920
-   J Saturn       8 items: 2:0.452 6:0.364 19:0.104 21:0.693 22:0.210 23:0.440 24:0.200 25:0.612
-   J Node         7 items: 15:0.320 19:0.002 20:0.034 21:0.502 22:0.108 24:0.012 27:0.647
-   H Orcus        7 items: 2:0.846 8:0.882 9:0.882 16:0.965 19:0.330 21:0.987 24:0.280
-   J Venus        6 items: 13:0.587 19:0.729 21:0.502 22:0.108 23:0.716 24:0.012
-   J Gonggong     6 items: 2:0.624 15:0.320 19:0.384 20:0.311 21:0.800 24:0.020
-   H Ceres        6 items: 8:0.776 9:0.776 19:0.054 21:0.502 24:0.030 27:0.192
-   H Transpluto   6 items: 16:0.723 19:0.038 21:0.780 22:0.220 23:0.494 24:0.030
-   J Transpluto   6 items: 2:0.846 16:0.723 19:0.052 22:0.494 23:0.494 24:0.030
-   H Gonggong     6 items: 6:0.160 9:0.940 15:0.320 19:0.083 20:0.034 21:0.934
-   J Juno         6 items: 2:0.292 19:0.378 21:0.780 22:0.854 24:0.080 27:0.043
-   H Eris         6 items: 2:0.452 6:0.364 19:0.244 20:0.740 22:0.750 24:0.520
-   J Ceres        5 items: 19:0.000 21:0.972 22:0.180 24:0.030 27:0.316
-   J Jupiter      5 items: 19:0.000 20:0.162 21:0.591 22:0.862 24:0.440
-   H Node         5 items: 2:0.292 9:0.940 15:0.320 21:0.492 24:0.012
-   J Quaoar       5 items: 6:0.160 19:0.050 21:0.800 24:0.020 27:0.192
-   J Pallas       5 items: 19:0.034 21:0.591 22:0.494 23:0.494 24:0.040
-   J Chiron       5 items: 19:0.054 21:0.492 22:0.854 23:0.854 24:0.036
-   J Orcus        5 items: 8:0.882 16:0.965 19:0.624 22:0.148 24:0.040
-   H Saturn       5 items: 19:0.175 21:0.591 22:0.440 23:0.440 24:0.382
-   J Eris         5 items: 2:0.648 19:0.494 20:0.740 21:0.987 24:0.180
-   H Pallas       5 items: 19:0.531 21:0.693 22:0.220 23:0.494 24:0.520
-   J Pluto        4 items: 19:0.045 21:0.996 24:0.020 27:0.381
-   J Uranus       4 items: 19:0.040 20:0.236 21:0.603 24:0.280
-   J Vesta        4 items: 13:0.587 19:0.528 21:0.934 24:0.040
-   J Mars         4 items: 19:0.138 21:0.780 24:0.340 27:0.474
-   J Neptune      4 items: 19:0.306 21:0.693 24:0.180 27:0.186
-   H Quaoar       4 items: 19:0.188 21:0.502 24:0.220 27:0.784
-   H Makemake     4 items: 19:0.670 21:0.492 24:0.720 27:0.269
-   H Vesta        4 items: 2:0.624 13:0.587 19:0.369 21:0.990
-   H Sun          4 items: 2:0.648 19:0.524 21:0.819 24:0.420
-   J Sedna        3 items: 19:0.002 21:0.976 22:0.460
-   J Makemake     3 items: 19:0.020 21:0.492 24:1.000
-   H Neptune      3 items: 19:0.497 21:0.693 24:0.040
-   J Sun          3 items: 19:0.941 22:0.862 24:0.080
-   H Mercury      3 items: 21:0.502 22:0.440 26:0.510
-   H Sedna        3 items: 8:0.882 9:0.882 21:0.976
-   J Haumea       2 items: 21:0.984 24:0.036
-   H Pluto        2 items: 19:0.150 20:0.162
-   H Uranus       2 items: 19:0.163 21:0.831
-   H Juno         2 items: 21:0.940 24:0.220
-   H Jupiter      2 items: 21:0.976 24:0.240
-   H Mars         2 items: 19:0.279 21:0.780
+-- joins (strict). Items counted only when fewer than half the field has them; common in this field: 2, 3, 5, 6, 8, 9, 10, 13, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30
+   pairs with a counted item joined by any other (counted first, item:t of its tightest; a body's same-body sets count on its pairs)
+   Haumea–Mercury           1 counted: 1:0.734   also (common in this field): 3:0.327 5:0.367 6:0.352
+   natal bodies with a counted item joined by any other
+   H Haumea       1 counted: 1:0.734   also (common in this field): 3:0.327 5:0.367 6:0.352 8:0.776 9:0.776 19:0.034 21:0.984 24:0.036
+   J Mercury      1 counted: 1:0.734   also (common in this field): 3:0.327 5:0.367 6:0.352 8:0.776 19:0.094 21:0.940 24:0.920
 -- recurring pairs / cross links (annotation only, not weighed)
    pair Neptune–Node: items 24
    pair Haumea–Node: items 19,24

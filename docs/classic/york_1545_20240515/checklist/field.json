@@ -1,5 +1,5 @@
 {
- "version": "CR v1 (12 Oct 2026)",
+ "version": "CR v1.1 (12 Oct 2026, joins field-relative)",
  "race": "york_1545_20240515",
  "step": 4,
  "n": 7,
@@ -363,19 +363,19 @@
      "P03": {
       "n": 2,
       "best": 0.6,
-      "what": "triangle H Haumea / H Venus / J Uranus [one plane (Dec)]: H Haumea\u2013H Venus Dec 8.11081 (73/9), H Haumea\u2013J Uranus Dec 19.11128 (172/9), H Venus\u2013J Uranus Dec 11.00047 (11) \u2014 sky Juno: sky Juno -> H Haumea Dec 5.44443 (49/9); sky Juno -> H Venus Dec 2.66638 (24/9); sky Juno -> J Uranus Dec 13.66685 (123/9)",
+      "what": "triangle H Haumea / H Venus / J Uranus [one plane (Dec)]: H Haumea\u2013H Venus Dec 8.11081 (73/9, ninth), H Haumea\u2013J Uranus Dec 19.11128 (172/9, ninth), H Venus\u2013J Uranus Dec 11.00047 (11) [2 ninth sides] \u2014 sky Juno: sky Juno -> H Haumea Dec 5.44443 (49/9); sky Juno -> H Venus Dec 2.66638 (24/9); sky Juno -> J Uranus Dec 13.66685 (123/9)",
       "rank": 3
      },
      "P05": {
       "n": 8,
       "best": 0.502,
-      "what": "triangle H Ketu / H Neptune / J Sun [one plane (Dec)]: H Ketu\u2013H Neptune Dec 17.99767 (18), H Ketu\u2013J Sun Dec 0.99932 (1), H Neptune\u2013J Sun Dec 16.99836 (17) \u2014 sky Sun: sky Sun -> H Ketu Dec 41.00018 (41); sky Sun -> H Neptune Dec 23.00251 (23); sky Sun -> J Sun Dec 40.00086 (40)",
+      "what": "triangle H Ketu / H Neptune / J Sun [one plane (Dec)]: H Ketu\u2013H Neptune Dec 17.99767 (18), H Ketu\u2013J Sun Dec 0.99932 (1), H Neptune\u2013J Sun Dec 16.99836 (17) [all whole] \u2014 sky Sun: sky Sun -> H Ketu Dec 41.00018 (41); sky Sun -> H Neptune Dec 23.00251 (23); sky Sun -> J Sun Dec 40.00086 (40)",
       "rank": 2
      },
      "P07": {
       "n": 7,
       "best": 0.38,
-      "what": "triangle H Pallas / H Pluto / H Sedna [one plane (Dec)]: H Pallas\u2013H Pluto Dec 26.77779 (241/9), H Pallas\u2013H Sedna Dec 3.55551 (32/9), H Pluto\u2013H Sedna Dec 30.33330 (273/9) \u2014 sky Orcus: sky Orcus -> H Pallas Dec 16.88875 (152/9); sky Orcus -> H Pluto Dec 9.88904 (89/9); sky Orcus -> H Sedna Dec 20.44426 (184/9)",
+      "what": "triangle H Pallas / H Pluto / H Sedna [one plane (Dec)]: H Pallas\u2013H Pluto Dec 26.77779 (241/9, ninth), H Pallas\u2013H Sedna Dec 3.55551 (32/9, ninth), H Pluto\u2013H Sedna Dec 30.33330 (273/9, ninth) [3 ninth sides] \u2014 sky Orcus: sky Orcus -> H Pallas Dec 16.88875 (152/9); sky Orcus -> H Pluto Dec 9.88904 (89/9); sky Orcus -> H Sedna Dec 20.44426 (184/9)",
       "rank": 1
      }
     },
@@ -1582,7 +1582,7 @@
      "P05": {
       "n": 7,
       "best": 0.4719,
-      "what": "loop of 5: H Node -> H Pluto -> J Pluto -> J Eris -> J Node -> H Node  (closed through the same body in both charts: Node, Pluto) \u2014 H Pluto\u2013H Ketu RA 49.9509 Dec 0.2762; H Pluto = J Pluto (same body); J Pluto\u2013J Eris RA 139.6051 Dec 0.1600; J Rahu\u2013J Eris RA 177.3833 Dec 0.2832; J Node = H Node (same body)",
+      "what": "loop of 5: H Node -> H Pluto -> J Pluto -> J Eris -> J Node -> H Node  (closed through the same body in both charts: Node, Pluto)  (3 distinct bodies, no cross link between different bodies) \u2014 H Pluto\u2013H Ketu RA 49.9509 Dec 0.2762; H Pluto = J Pluto (same body); J Pluto\u2013J Eris RA 139.6051 Dec 0.1600; J Rahu\u2013J Eris RA 177.3833 Dec 0.2832; J Node = H Node (same body)",
       "rank": 1
      }
     },
@@ -1622,5 +1622,24 @@
   29,
   30,
   33
+ ],
+ "common": [
+  2,
+  3,
+  6,
+  9,
+  10,
+  13,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  30
  ]
 }

@@ -1,6 +1,10 @@
-== huntingdon_1352_20211205  field of 6   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== huntingdon_1352_20211205  field of 6   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Allmankind / 1 Harry Skelton; P03 2 Eldorado Allen / 2 Brendan Powell; P05 3 First Flow / 3 David Bass; P07 4 Master Tommytucker / 4 Harry Cobden; P09 5 Funambule Sivola / 5 Charlie Deutsch; P11 6 Keeper Hill / 6 A P Heskin
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: P11 (t 0.697), P05 (t 0.904)
+   [15] pair set H:J:S: P05 (t 0.402)
 [ 1] cross link struck on both ends by 2+ sky bodies
      strict ONLY P07: P07(t 0.732, x1)
             tightest P07: H Mars – J Jupiter RA 0.5797 Dec 0.7472 struck by 2 sky bodies — Neptune: sky Neptune -> H Mars GC 1.00114 (1) | sky Neptune -> J Jupiter Dec 1.00020 (1); Saturn: sky Saturn -> H Mars Flat 40.99634 (41) | sky Saturn -> J Jupiter RA 38.11114 (343/9)
@@ -34,7 +38,7 @@
             tightest P05: swap Jupiter/Sedna: H Jupiter – J Sedna RA 1.9811 Dec 11.7488 (near band); H Sedna – J Jupiter RA 1.0534 Dec 11.4744
 [ 8] triangle struck at every corner by one sky body
      strict 4 of 6: P01(t 0.220, x3)  P05(t 0.720, x1)  P07(t 0.820, x1)  P09(t 0.888, x2)
-            tightest P01: triangle J Chiron / J Ketu / J Pluto [one plane (RA)]: J Chiron–J Ketu RA 41.44439 (373/9), J Chiron–J Pluto RA 119.22212 (1073/9), J Ketu–J Pluto RA 77.77773 (700/9) — sky Uranus: sky Uranus -> J Chiron RA 67.33337 (606/9); sky Uranus -> J Ketu RA 108.77776 (979/9); sky Uranus -> J Pluto RA 173.44451 (1561/9)
+            tightest P01: triangle J Chiron / J Ketu / J Pluto [one plane (RA)]: J Chiron–J Ketu RA 41.44439 (373/9, ninth), J Chiron–J Pluto RA 119.22212 (1073/9, ninth), J Ketu–J Pluto RA 77.77773 (700/9, ninth) [3 ninth sides] — sky Uranus: sky Uranus -> J Chiron RA 67.33337 (606/9); sky Uranus -> J Ketu RA 108.77776 (979/9); sky Uranus -> J Pluto RA 173.44451 (1561/9)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 5 of 6: P01(t 0.100, x11)  P03(t 0.420, x8)  P07(t 0.440, x8)  P11(t 0.540, x6)  P05(t 0.696, x11)
             tightest P01: J Chiron–Ketu RA 41.44439 = 373/9 struck by 1 sky body — Uranus: sky Uranus -> J Chiron RA 67.33337 (606/9) | sky Uranus -> J Ketu RA 108.77776 (979/9)
@@ -121,14 +125,12 @@
      strict 6 of 6: P09(t 0.015, x1)  P07(t 0.020, x1)  P01(t 0.052, x1)  P05(t 0.093, x1)  P03(t 0.118, x1)  P11(t 0.200, x1)
             tightest P09: tightest cross link H Saturn – J Quaoar RA 0.0232 Dec 4.7122
 [33] node loop
-     strict ONLY P11: P11(t 0.494, x3)
-            tightest P11: loop of 3: H Node -> J Ceres -> J Node -> H Node — H Rahu–J Ceres RA 46.6131 Dec 0.1144; J Ceres–J Rahu RA 36.5742 Dec 0.0337; H Rahu–J Rahu RA 10.0389 Dec 0.1481
-     near   ONLY P09: P09(t 0.976, x1)
-            tightest P09: loop of 4: H Node -> J Haumea -> H Makemake -> J Node -> H Node  (closed through the same body in both charts: Node) — H Rahu–J Haumea RA 1.2289 Dec 27.0646; H Makemake–J Haumea RA 1.4633 Dec 3.3819; H Makemake–J Rahu RA 0.2789 Dec 31.6941; J Node = H Node (same body)
+     near   2 of 6: P11(t 0.494, x3)  P09(t 0.976, x1)
+            tightest P11: loop of 3: H Node -> J Ceres -> J Node -> H Node  (2 distinct bodies) — H Rahu–J Ceres RA 46.6131 Dec 0.1144; J Ceres–J Rahu RA 36.5742 Dec 0.0337; H Rahu–J Rahu RA 10.0389 Dec 0.1481
 -- field-only (strict) per runner
    P01 1 Allmankind / 1 Harry Skelton: -
    P03 2 Eldorado Allen / 2 Brendan Powell: 11
    P05 3 First Flow / 3 David Bass: 15
    P07 4 Master Tommytucker / 4 Harry Cobden: 1, 5, 7
    P09 5 Funambule Sivola / 5 Charlie Deutsch: -
-   P11 6 Keeper Hill / 6 A P Heskin: 33
+   P11 6 Keeper Hill / 6 A P Heskin: -

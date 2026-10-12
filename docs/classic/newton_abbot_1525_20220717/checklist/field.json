@@ -1,5 +1,5 @@
 {
- "version": "CR v1 (12 Oct 2026)",
+ "version": "CR v1.1 (12 Oct 2026, joins field-relative)",
  "race": "newton_abbot_1525_20220717",
  "step": 4,
  "n": 4,
@@ -246,13 +246,13 @@
      "P01": {
       "n": 3,
       "best": 0.612,
-      "what": "triangle H Makemake / H Saturn / J Rahu [one plane (Dec)]: H Makemake\u2013H Saturn Dec 29.99694 (30), H Makemake\u2013J Rahu Dec 23.99771 (24), H Saturn\u2013J Rahu Dec 5.99923 (6) \u2014 sky Chiron: sky Chiron -> H Makemake Dec 19.99758 (20); sky Chiron -> H Saturn GC 172.99955 (173); sky Chiron -> J Rahu Dec 4.00013 (4)",
+      "what": "triangle H Makemake / H Saturn / J Rahu [one plane (Dec)]: H Makemake\u2013H Saturn Dec 29.99694 (30), H Makemake\u2013J Rahu Dec 23.99771 (24), H Saturn\u2013J Rahu Dec 5.99923 (6) [all whole] \u2014 sky Chiron: sky Chiron -> H Makemake Dec 19.99758 (20); sky Chiron -> H Saturn GC 172.99955 (173); sky Chiron -> J Rahu Dec 4.00013 (4)",
       "rank": 1
      },
      "P07": {
       "n": 3,
       "best": 0.76,
-      "what": "triangle J Chiron / J Eris / J Pallas [one plane (Dec)]: J Chiron\u2013J Eris Dec 16.22207 (146/9), J Chiron\u2013J Pallas Dec 5.55578 (50/9), J Eris\u2013J Pallas Dec 10.66629 (96/9) \u2014 sky Node: sky Rahu -> J Chiron Dec 10.33328 (93/9); sky Rahu -> J Eris Dec 26.55535 (239/9); sky Rahu -> J Pallas Dec 15.88907 (143/9)",
+      "what": "triangle J Chiron / J Eris / J Pallas [one plane (Dec)]: J Chiron\u2013J Eris Dec 16.22207 (146/9, ninth), J Chiron\u2013J Pallas Dec 5.55578 (50/9, ninth), J Eris\u2013J Pallas Dec 10.66629 (96/9, ninth) [3 ninth sides] \u2014 sky Node: sky Rahu -> J Chiron Dec 10.33328 (93/9); sky Rahu -> J Eris Dec 26.55535 (239/9); sky Rahu -> J Pallas Dec 15.88907 (143/9)",
       "rank": 2
      }
     },
@@ -1054,5 +1054,23 @@
   29,
   30,
   33
+ ],
+ "common": [
+  2,
+  3,
+  6,
+  8,
+  9,
+  10,
+  11,
+  13,
+  19,
+  21,
+  22,
+  23,
+  24,
+  25,
+  27,
+  30
  ]
 }

@@ -1,6 +1,10 @@
-== newcastle_aw_1640_20220215  field of 6   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== newcastle_aw_1640_20220215  field of 6   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Sir Chauvelin / 1 Paul Mulrennan; P03 2 Alba Rose / 2 Joe Fanning; P05 3 Wise Eagle / 3 Graham Lee; P07 4 Onesmoothoperator / 4 Harry Russell; P09 5 Aced It / 5 Jack Mitchell; P11 6 Resumption / 6 Tom Marquand
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: none
+   [15] pair set H:J:S: P11 (t 0.404)
 [ 1] cross link struck on both ends by 2+ sky bodies
      none in the field
 [ 2] cross link struck on both ends (one body, or one per end)
@@ -33,7 +37,7 @@
             tightest P07: swap Eris/Juno: H Eris – J Juno RA 151.6076 Dec 0.4019 (near band); H Juno – J Eris RA 48.8126 Dec 0.5077 (near band)
 [ 8] triangle struck at every corner by one sky body
      strict ONLY P07: P07(t 0.460, x2)
-            tightest P07: triangle H Venus / J Jupiter / J Sedna [one plane (RA)]: H Venus–J Jupiter RA 36.99770 (37), H Venus–J Sedna RA 49.00088 (49), J Jupiter–J Sedna RA 85.99858 (86) — sky Haumea: sky Haumea -> H Venus RA 138.99898 (139); sky Haumea -> J Jupiter RA 102.00128 (102); sky Haumea -> J Sedna RA 172.00014 (172)
+            tightest P07: triangle H Venus / J Jupiter / J Sedna [one plane (RA)]: H Venus–J Jupiter RA 36.99770 (37), H Venus–J Sedna RA 49.00088 (49), J Jupiter–J Sedna RA 85.99858 (86) [all whole] — sky Haumea: sky Haumea -> H Venus RA 138.99898 (139); sky Haumea -> J Jupiter RA 102.00128 (102); sky Haumea -> J Sedna RA 172.00014 (172)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 6 of 6: P05(t 0.120, x3)  P07(t 0.284, x6)  P09(t 0.470, x6)  P01(t 0.568, x8)  P11(t 0.584, x6)  P03(t 0.688, x5)
             tightest P05: J Rahu–Eris Dec 4.99940 = 5 struck by 1 sky body — Ceres: sky Ceres -> J Rahu Dec 38.99983 (39) | sky Ceres -> J Eris Dec 34.00044 (34)
@@ -123,8 +127,10 @@
      strict 6 of 6: P11(t 0.010, x1)  P01(t 0.031, x1)  P05(t 0.059, x1)  P09(t 0.064, x1)  P07(t 0.116, x1)  P03(t 0.138, x1)
             tightest P11: tightest cross link H Jupiter – J Chiron RA 0.0147 Dec 0.7038
 [33] node loop
-     near   2 of 6: P09(t 0.611, x2)  P07(t 0.895, x1)
+     strict 2 of 6: P09(t 0.611, x1)  P07(t 0.895, x1)
             tightest P09: loop of 6: H Node -> H Sun -> J Sedna -> J Orcus -> H Orcus -> J Node -> H Node  (closed through the same body in both charts: Node, Orcus) — H Sun–H Rahu RA 163.8486 Dec 0.1619; H Sun–J Sedna RA 32.7903 Dec 0.1130; J Sedna–J Orcus RA 87.9707 Dec 0.3664; J Orcus = H Orcus (same body); H Orcus–J Rahu RA 172.3910 Dec 0.0193; J Node = H Node (same body)
+     near   ONLY P09: P09(t 0.916, x1)
+            tightest P09: loop of 5: H Node -> J Node -> H Orcus -> J Orcus -> J Sedna -> H Node  (closed through the same body in both charts: Node, Orcus)  (3 distinct bodies) — H Node = J Node (same body); H Orcus–J Rahu RA 172.3910 Dec 0.0193; H Orcus = J Orcus (same body); J Sedna–J Orcus RA 87.9707 Dec 0.3664; H Rahu–J Sedna RA 131.0583 Dec 0.2749
 -- field-only (strict) per runner
    P01 1 Sir Chauvelin / 1 Paul Mulrennan: 26
    P03 2 Alba Rose / 2 Joe Fanning: -

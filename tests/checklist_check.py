@@ -437,9 +437,11 @@ chk(3, 21, 'WITHDRAWN: Newcastle AW 12:20 Sedna ~14.345 and ~8.439 not soaks', l
 # ============================================================== step 4: node loop, joins, stability
 chk(4, 33, 'Sedgefield: node loop H Ketu – J Mercury, H Mercury–Sedna, H Sedna – J Ketu (closes through Mercury and the node in both charts; near)',
     lambda: any(all(t in x['what'] for t in ('H Ketu–J Mercury', 'H Mercury–H Sedna', 'H Sedna–J Ketu')) for x in find('sed', 33, level='near')))
-chk(4, 33, 'DIFFERENCE: Sedgefield winner has no node loop of close links alone (J node joins only H Sedna; its group does not reach the H node) — strict none',
-    lambda: not has('sed', 33))
-chk(4, 33, 'Sedgefield field: NOT unique — Wheres Maud Gone has one', lambda: P_of('sed', 'Wheres Maud Gone') in who('sed', 33, 'near') + who('sed', 33, 'strict'))
+chk(4, 33, 'Eddie 12 Oct rule: Sedgefield winner\'s loop of 6 (Node, Sedna, Mercury, Sun; cross H Sedna – J Ketu) counts; the loop of 5 (3 distinct bodies) is near',
+    lambda: any(x['what'].startswith('loop of 6') for x in find('sed', 33)) and any(x['what'].startswith('loop of 5') and '(3 distinct bodies)' in x['what'] for x in find('sed', 33, level='near')))
+chk(4, 33, 'Node loop: no counted loop has fewer than 4 distinct bodies or lacks a cross link between different bodies', lambda: all(len({CR.fold(q.split(' ', 1)[1]) for q in x['bodies']}) >= 4
+    for r in ('sed', 'y15', 's24', 'exe') for P in F(r)['per_runner'] for x in find(r, 33, P=P)))
+chk(4, 33, 'Sedgefield field: NOT unique — Wheres Maud Gone has one', lambda: P_of('sed', 'Wheres Maud Gone') in who('sed', 33))
 def pairline(r, P, pair):
     from checklist_reader import pair_map
     S = [x for x in F(r)['per_runner'][P]['instances'] if x['level'] == 'strict']
@@ -465,6 +467,15 @@ chk(1, 16, 'Checker: Equator-value sets with a ratio of 1 are other, not strict 
                                                                                                                        and not any(' : 1 ' in x['what'] or x['what'].split(' -> ')[1].startswith('1 ') for r in A for x in find(r, 16, P=None if False else W[A[r]])))
 chk(3, 21, 'Checker: the tightest soak is reported — Haydock 14:20 P01 node ~28.56 spread 0.0086 (t 0.215)', lambda: any(abs(x['t'] - 0.215) < 0.001 and 'spread 0.0086' in x['what'] for x in find('hy20', 21, 'soak Node ~28.5', P='P01')))
 chk(2, 3, 'Checker: one partner strike per direction — Haydock 14:20 P07 H Transpluto – J Mercury listed once (Dec 15, also Flat 36)', lambda: len([x for x in find('hy20', 3, P='P07', level=None) if xl(x, 'Transpluto', 'Mercury')]) == 1)
+
+
+# ============================================================== Eddie's decisions 12 Oct (CR v1.1)
+chk(4, 0, 'Joins field-relative: an item counts only when fewer than half the field has it (strict); Exeter common list', lambda: all((F('exe')['field'][str(it)].get('strict', {}).get('k', 0) * 2 >= 6) == (it in F('exe')['common']) for it in F('exe')['items']))
+chk(4, 0, 'Joins: Exeter Chiron–Juno shows 17 counted, 2 13 16 22 as also (common in this field)', lambda: any(l.strip().startswith('Chiron–Juno') and '17:0.368' in l.split('also')[0] and all(f' {i}:' in l.split('also')[1] for i in (2, 13, 16, 22))
+                                                                                                   for l in CR.runner_text(F('exe'), 'P11').split('\n')))
+chk(4, 0, 'Watch line at the top of the race page (items 17, 14, 15; not evidence yet)', lambda: 'watch (from the read races — not evidence yet' in CR.field_text(F('exe')).split('\n')[3] and '[17] same-body Dec 9/4 : 5/4 : 9/5: P11' in CR.field_text(F('exe')))
+chk(3, 8, 'Triangle sides that are ninths are labelled (Haydock 14:20 H Venus–J Uranus Dec 124/9)', lambda: any('(124/9, ninth)' in x['what'] and '[1 ninth side]' in x['what'] for x in find('hy20', 8)))
+chk(3, 8, 'Ascot triangle all whole', lambda: any(all(b in x['what'] for b in ('H Ceres', 'H Sedna', 'H Haumea')) and '[all whole]' in x['what'] for x in find('asc', 8)))
 
 # ============================================================== run
 if __name__ == '__main__':

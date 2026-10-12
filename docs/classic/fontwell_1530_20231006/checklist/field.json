@@ -1,5 +1,5 @@
 {
- "version": "CR v1 (12 Oct 2026)",
+ "version": "CR v1.1 (12 Oct 2026, joins field-relative)",
  "race": "fontwell_1530_20231006",
  "step": 4,
  "n": 7,
@@ -375,13 +375,13 @@
      "P01": {
       "n": 2,
       "best": 0.918,
-      "what": "triangle H Makemake / H Neptune / J Ketu [one plane (RA)]: H Makemake\u2013H Neptune RA 154.99892 (155), H Makemake\u2013J Ketu RA 76.99561 (77), H Neptune\u2013J Ketu RA 78.00331 (78) \u2014 sky Neptune: sky Neptune -> H Makemake RA 159.99541 (160); sky Neptune -> H Neptune RA 4.99650 (5); sky Neptune -> J Ketu RA 82.99980 (83)",
+      "what": "triangle H Makemake / H Neptune / J Ketu [one plane (RA)]: H Makemake\u2013H Neptune RA 154.99892 (155), H Makemake\u2013J Ketu RA 76.99561 (77), H Neptune\u2013J Ketu RA 78.00331 (78) [all whole] \u2014 sky Neptune: sky Neptune -> H Makemake RA 159.99541 (160); sky Neptune -> H Neptune RA 4.99650 (5); sky Neptune -> J Ketu RA 82.99980 (83)",
       "rank": 2
      },
      "P03": {
       "n": 3,
       "best": 0.5,
-      "what": "triangle H Chiron / H Ketu / H Neptune [one plane (RA)]: H Chiron\u2013H Ketu RA 84.11136 (757/9), H Chiron\u2013H Neptune RA 12.88906 (116/9), H Ketu\u2013H Neptune RA 71.22229 (641/9) \u2014 sky Mars: sky Mars -> H Chiron RA 157.55557 (1418/9); sky Mars -> H Ketu RA 73.44421 (661/9); sky Mars -> H Neptune RA 144.66651 (1302/9)",
+      "what": "triangle H Chiron / H Ketu / H Neptune [one plane (RA)]: H Chiron\u2013H Ketu RA 84.11136 (757/9, ninth), H Chiron\u2013H Neptune RA 12.88906 (116/9, ninth), H Ketu\u2013H Neptune RA 71.22229 (641/9, ninth) [3 ninth sides] \u2014 sky Mars: sky Mars -> H Chiron RA 157.55557 (1418/9); sky Mars -> H Ketu RA 73.44421 (661/9); sky Mars -> H Neptune RA 144.66651 (1302/9)",
       "rank": 1
      }
     },
@@ -1638,13 +1638,19 @@
   },
   "33": {
    "strict": {
-    "k": 1,
+    "k": 2,
     "runners": {
      "P09": {
-      "n": 13,
-      "best": 0.6426,
-      "what": "loop of 6: H Node -> H Makemake -> J Mars -> J Node -> J Jupiter -> J Vesta -> H Node \u2014 H Rahu\u2013H Makemake RA 101.6382 Dec 0.3855; H Makemake\u2013J Mars RA 121.1690 Dec 0.0071; J Mars\u2013J Rahu RA 0.8923 Dec 0.8033; J Jupiter\u2013J Rahu RA 26.3222 Dec 0.1812; J Jupiter\u2013J Vesta RA 15.5441 Dec 0.2064; H Rahu\u2013J Vesta RA 7.8604 Dec 0.0372",
+      "n": 33,
+      "best": 0.5949,
+      "what": "loop of 6: H Node -> H Mars -> J Mars -> J Node -> J Jupiter -> J Vesta -> H Node  (closed through the same body in both charts: Mars) \u2014 H Mars\u2013H Ketu RA 9.7874 Dec 0.1216; H Mars = J Mars (same body); J Mars\u2013J Rahu RA 0.8923 Dec 0.8033; J Jupiter\u2013J Rahu RA 26.3222 Dec 0.1812; J Jupiter\u2013J Vesta RA 15.5441 Dec 0.2064; H Rahu\u2013J Vesta RA 7.8604 Dec 0.0372",
       "rank": 1
+     },
+     "P13": {
+      "n": 1,
+      "best": 0.9973,
+      "what": "loop of 6: H Node -> H Makemake -> J Haumea -> H Haumea -> H Sun -> J Node -> H Node  (closed through the same body in both charts: Haumea, Node) \u2014 H Rahu\u2013H Makemake RA 106.9482 Dec 0.5763; H Makemake\u2013J Haumea RA 1.4575 Dec 2.2577; J Haumea = H Haumea (same body); H Sun\u2013H Haumea RA 170.0525 Dec 0.3492; H Sun\u2013J Rahu RA 91.7783 Dec 0.2992; J Node = H Node (same body)",
+      "rank": 2
      }
     },
     "tightest": "P09"
@@ -1653,15 +1659,15 @@
     "k": 2,
     "runners": {
      "P09": {
-      "n": 33,
+      "n": 13,
       "best": 0.344,
-      "what": "loop of 4: H Node -> J Node -> J Jupiter -> J Vesta -> H Node  (closed through the same body in both charts: Node) \u2014 H Node = J Node (same body); J Jupiter\u2013J Rahu RA 26.3222 Dec 0.1812; J Jupiter\u2013J Vesta RA 15.5441 Dec 0.2064; H Rahu\u2013J Vesta RA 7.8604 Dec 0.0372",
+      "what": "loop of 4: H Node -> J Node -> J Jupiter -> J Vesta -> H Node  (closed through the same body in both charts: Node)  (3 distinct bodies) \u2014 H Node = J Node (same body); J Jupiter\u2013J Rahu RA 26.3222 Dec 0.1812; J Jupiter\u2013J Vesta RA 15.5441 Dec 0.2064; H Rahu\u2013J Vesta RA 7.8604 Dec 0.0372",
       "rank": 1
      },
      "P13": {
-      "n": 4,
+      "n": 3,
       "best": 0.582,
-      "what": "loop of 5: H Node -> J Node -> H Haumea -> H Sun -> J Sun -> H Node  (closed through the same body in both charts: Node, Sun) \u2014 H Node = J Node (same body); H Haumea\u2013J Rahu RA 78.2742 Dec 0.0500; H Sun\u2013H Haumea RA 170.0525 Dec 0.3492; H Sun = J Sun (same body); H Rahu\u2013J Sun RA 3.9285 Dec 0.0615",
+      "what": "loop of 5: H Node -> J Node -> H Haumea -> H Sun -> J Sun -> H Node  (closed through the same body in both charts: Node, Sun)  (3 distinct bodies) \u2014 H Node = J Node (same body); H Haumea\u2013J Rahu RA 78.2742 Dec 0.0500; H Sun\u2013H Haumea RA 170.0525 Dec 0.3492; H Sun = J Sun (same body); H Rahu\u2013J Sun RA 3.9285 Dec 0.0615",
       "rank": 2
      }
     },
@@ -1701,5 +1707,23 @@
   29,
   30,
   33
+ ],
+ "common": [
+  2,
+  3,
+  6,
+  9,
+  13,
+  16,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  27,
+  30
  ]
 }

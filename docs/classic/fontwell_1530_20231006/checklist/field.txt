@@ -1,6 +1,10 @@
-== fontwell_1530_20231006  field of 7   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== fontwell_1530_20231006  field of 7   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Biscoff Joe / 1 Gearoid Harney; P03 2 Cosmic View / 2 Jamie Moore; P05 3 Kilcummin / 3 David Noonan; P07 4 Logistical / 4 Stan Sheppard; P09 5 Makanao / 5 Jack Tudor; P11 6 Pigeonton / 6 Micheal Nolan; P13 7 Vale Dolobo Dancer / 7 Jack Hogan
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: none
+   [15] pair set H:J:S: P13 (t 0.712), P07 (t 0.920)
 [ 1] cross link struck on both ends by 2+ sky bodies
      none in the field
 [ 2] cross link struck on both ends (one body, or one per end)
@@ -35,7 +39,7 @@
             tightest P09: swap Mars/Node: H Mars – J Ketu RA 28.4259 Dec 0.3032 (near band); H Rahu – J Mars RA 19.5308 Dec 0.3785 (near band)  (node: Rahu one way, Ketu the other)
 [ 8] triangle struck at every corner by one sky body
      strict 2 of 7: P03(t 0.500, x3)  P01(t 0.918, x2)
-            tightest P03: triangle H Chiron / H Ketu / H Neptune [one plane (RA)]: H Chiron–H Ketu RA 84.11136 (757/9), H Chiron–H Neptune RA 12.88906 (116/9), H Ketu–H Neptune RA 71.22229 (641/9) — sky Mars: sky Mars -> H Chiron RA 157.55557 (1418/9); sky Mars -> H Ketu RA 73.44421 (661/9); sky Mars -> H Neptune RA 144.66651 (1302/9)
+            tightest P03: triangle H Chiron / H Ketu / H Neptune [one plane (RA)]: H Chiron–H Ketu RA 84.11136 (757/9, ninth), H Chiron–H Neptune RA 12.88906 (116/9, ninth), H Ketu–H Neptune RA 71.22229 (641/9, ninth) [3 ninth sides] — sky Mars: sky Mars -> H Chiron RA 157.55557 (1418/9); sky Mars -> H Ketu RA 73.44421 (661/9); sky Mars -> H Neptune RA 144.66651 (1302/9)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 7 of 7: P03(t 0.180, x14)  P01(t 0.340, x11)  P09(t 0.360, x12)  P11(t 0.360, x9)  P05(t 0.440, x8)  P07(t 0.560, x10)  P13(t 0.578, x7)
             tightest P03: H Pluto–Rahu Dec 45.33333 = 408/9 struck by 1 sky body — Neptune: sky Neptune -> H Pluto Dec 19.11102 (172/9) | sky Neptune -> H Rahu Dec 26.22231 (236/9)
@@ -125,15 +129,15 @@
      strict 7 of 7: P09(t 0.024, x1)  P07(t 0.051, x1)  P13(t 0.058, x1)  P01(t 0.107, x1)  P05(t 0.125, x1)  P03(t 0.134, x1)  P11(t 0.239, x1)
             tightest P09: tightest cross link H Makemake – J Mars RA 121.1690 Dec 0.0071
 [33] node loop
-     strict ONLY P09: P09(t 0.643, x13)
-            tightest P09: loop of 6: H Node -> H Makemake -> J Mars -> J Node -> J Jupiter -> J Vesta -> H Node — H Rahu–H Makemake RA 101.6382 Dec 0.3855; H Makemake–J Mars RA 121.1690 Dec 0.0071; J Mars–J Rahu RA 0.8923 Dec 0.8033; J Jupiter–J Rahu RA 26.3222 Dec 0.1812; J Jupiter–J Vesta RA 15.5441 Dec 0.2064; H Rahu–J Vesta RA 7.8604 Dec 0.0372
-     near   2 of 7: P09(t 0.344, x33)  P13(t 0.582, x4)
-            tightest P09: loop of 4: H Node -> J Node -> J Jupiter -> J Vesta -> H Node  (closed through the same body in both charts: Node) — H Node = J Node (same body); J Jupiter–J Rahu RA 26.3222 Dec 0.1812; J Jupiter–J Vesta RA 15.5441 Dec 0.2064; H Rahu–J Vesta RA 7.8604 Dec 0.0372
+     strict 2 of 7: P09(t 0.595, x33)  P13(t 0.997, x1)
+            tightest P09: loop of 6: H Node -> H Mars -> J Mars -> J Node -> J Jupiter -> J Vesta -> H Node  (closed through the same body in both charts: Mars) — H Mars–H Ketu RA 9.7874 Dec 0.1216; H Mars = J Mars (same body); J Mars–J Rahu RA 0.8923 Dec 0.8033; J Jupiter–J Rahu RA 26.3222 Dec 0.1812; J Jupiter–J Vesta RA 15.5441 Dec 0.2064; H Rahu–J Vesta RA 7.8604 Dec 0.0372
+     near   2 of 7: P09(t 0.344, x13)  P13(t 0.582, x3)
+            tightest P09: loop of 4: H Node -> J Node -> J Jupiter -> J Vesta -> H Node  (closed through the same body in both charts: Node)  (3 distinct bodies) — H Node = J Node (same body); J Jupiter–J Rahu RA 26.3222 Dec 0.1812; J Jupiter–J Vesta RA 15.5441 Dec 0.2064; H Rahu–J Vesta RA 7.8604 Dec 0.0372
 -- field-only (strict) per runner
    P01 1 Biscoff Joe / 1 Gearoid Harney: -
    P03 2 Cosmic View / 2 Jamie Moore: -
    P05 3 Kilcummin / 3 David Noonan: 5
    P07 4 Logistical / 4 Stan Sheppard: -
-   P09 5 Makanao / 5 Jack Tudor: 33
+   P09 5 Makanao / 5 Jack Tudor: -
    P11 6 Pigeonton / 6 Micheal Nolan: -
    P13 7 Vale Dolobo Dancer / 7 Jack Hogan: -

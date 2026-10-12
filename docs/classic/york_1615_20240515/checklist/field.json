@@ -1,5 +1,5 @@
 {
- "version": "CR v1 (12 Oct 2026)",
+ "version": "CR v1.1 (12 Oct 2026, joins field-relative)",
  "race": "york_1615_20240515",
  "step": 4,
  "n": 15,
@@ -695,55 +695,55 @@
      "P01": {
       "n": 5,
       "best": 0.24,
-      "what": "triangle H Chiron / H Juno / J Mercury [one plane (Dec)]: H Chiron\u2013H Juno Dec 15.99995 (16), H Chiron\u2013J Mercury Dec 13.55548 (122/9), H Juno\u2013J Mercury Dec 29.55543 (266/9) \u2014 sky Sedna: sky Sedna -> H Chiron Dec 3.99992 (4); sky Sedna -> H Juno Dec 19.99987 (20); sky Sedna -> J Mercury Dec 9.55556 (86/9)",
+      "what": "triangle H Chiron / H Juno / J Mercury [one plane (Dec)]: H Chiron\u2013H Juno Dec 15.99995 (16), H Chiron\u2013J Mercury Dec 13.55548 (122/9, ninth), H Juno\u2013J Mercury Dec 29.55543 (266/9, ninth) [2 ninth sides] \u2014 sky Sedna: sky Sedna -> H Chiron Dec 3.99992 (4); sky Sedna -> H Juno Dec 19.99987 (20); sky Sedna -> J Mercury Dec 9.55556 (86/9)",
       "rank": 1
      },
      "P03": {
       "n": 4,
       "best": 0.476,
-      "what": "triangle J Gonggong / J Makemake / J Quaoar [one plane (RA)]: J Gonggong\u2013J Makemake RA 156.00081 (156), J Gonggong\u2013J Quaoar RA 90.99843 (91), J Makemake\u2013J Quaoar RA 65.00238 (65) \u2014 sky Pallas: sky Pallas -> J Gonggong RA 82.99859 (83); sky Pallas -> J Makemake RA 73.00222 (73); sky Pallas -> J Quaoar RA 7.99984 (8)",
+      "what": "triangle J Gonggong / J Makemake / J Quaoar [one plane (RA)]: J Gonggong\u2013J Makemake RA 156.00081 (156), J Gonggong\u2013J Quaoar RA 90.99843 (91), J Makemake\u2013J Quaoar RA 65.00238 (65) [all whole] \u2014 sky Pallas: sky Pallas -> J Gonggong RA 82.99859 (83); sky Pallas -> J Makemake RA 73.00222 (73); sky Pallas -> J Quaoar RA 7.99984 (8)",
       "rank": 2
      },
      "P05": {
       "n": 1,
       "best": 0.98,
-      "what": "triangle H Gonggong / J Pallas / J Saturn [one plane (Dec)]: H Gonggong\u2013J Pallas Dec 18.66669 (168/9), H Gonggong\u2013J Saturn Dec 7.44449 (67/9), J Pallas\u2013J Saturn Dec 26.11118 (235/9) \u2014 sky Eris: sky Eris -> H Gonggong Dec 11.11064 (100/9); sky Eris -> J Pallas Dec 7.55604 (68/9); sky Eris -> J Saturn Dec 18.55513 (167/9)",
+      "what": "triangle H Gonggong / J Pallas / J Saturn [one plane (Dec)]: H Gonggong\u2013J Pallas Dec 18.66669 (168/9, ninth), H Gonggong\u2013J Saturn Dec 7.44449 (67/9, ninth), J Pallas\u2013J Saturn Dec 26.11118 (235/9, ninth) [3 ninth sides] \u2014 sky Eris: sky Eris -> H Gonggong Dec 11.11064 (100/9); sky Eris -> J Pallas Dec 7.55604 (68/9); sky Eris -> J Saturn Dec 18.55513 (167/9)",
       "rank": 9
      },
      "P09": {
       "n": 1,
       "best": 0.82,
-      "what": "triangle H Pallas / J Gonggong / J Vesta [one plane (RA)]: H Pallas\u2013J Gonggong RA 10.33317 (93/9), H Pallas\u2013J Vesta RA 136.88881 (1232/9), J Gonggong\u2013J Vesta RA 147.22198 (1325/9) \u2014 sky Mercury: sky Mercury -> H Pallas RA 49.11086 (442/9); sky Mercury -> J Gonggong RA 59.44403 (535/9); sky Mercury -> J Vesta RA 87.77795 (790/9)",
+      "what": "triangle H Pallas / J Gonggong / J Vesta [one plane (RA)]: H Pallas\u2013J Gonggong RA 10.33317 (93/9, ninth), H Pallas\u2013J Vesta RA 136.88881 (1232/9, ninth), J Gonggong\u2013J Vesta RA 147.22198 (1325/9, ninth) [3 ninth sides] \u2014 sky Mercury: sky Mercury -> H Pallas RA 49.11086 (442/9); sky Mercury -> J Gonggong RA 59.44403 (535/9); sky Mercury -> J Vesta RA 87.77795 (790/9)",
       "rank": 7
      },
      "P11": {
       "n": 1,
       "best": 0.78,
-      "what": "triangle H Haumea / J Eris / J Sun [one plane (Dec)]: H Haumea\u2013J Eris Dec 23.88850 (215/9), H Haumea\u2013J Sun Dec 31.44440 (283/9), J Eris\u2013J Sun Dec 7.55590 (68/9) \u2014 sky Sedna: sky Sedna -> H Haumea Dec 6.77757 (61/9); sky Sedna -> J Eris Dec 17.11093 (154/9); sky Sedna -> J Sun Dec 24.66683 (222/9)",
+      "what": "triangle H Haumea / J Eris / J Sun [one plane (Dec)]: H Haumea\u2013J Eris Dec 23.88850 (215/9, ninth), H Haumea\u2013J Sun Dec 31.44440 (283/9, ninth), J Eris\u2013J Sun Dec 7.55590 (68/9, ninth) [3 ninth sides] \u2014 sky Sedna: sky Sedna -> H Haumea Dec 6.77757 (61/9); sky Sedna -> J Eris Dec 17.11093 (154/9); sky Sedna -> J Sun Dec 24.66683 (222/9)",
       "rank": 6
      },
      "P13": {
       "n": 1,
       "best": 0.9,
-      "what": "triangle H Juno / H Neptune / J Jupiter [one plane (RA)]: H Juno\u2013H Neptune RA 88.66663 (798/9), H Juno\u2013J Jupiter RA 121.99992 (122), H Neptune\u2013J Jupiter RA 33.33329 (300/9) \u2014 sky Ceres: sky Ceres -> H Juno RA 29.77815 (268/9); sky Ceres -> H Neptune RA 58.88848 (530/9); sky Ceres -> J Jupiter RA 92.22178 (830/9)",
+      "what": "triangle H Juno / H Neptune / J Jupiter [one plane (RA)]: H Juno\u2013H Neptune RA 88.66663 (798/9, ninth), H Juno\u2013J Jupiter RA 121.99992 (122), H Neptune\u2013J Jupiter RA 33.33329 (300/9, ninth) [2 ninth sides] \u2014 sky Ceres: sky Ceres -> H Juno RA 29.77815 (268/9); sky Ceres -> H Neptune RA 58.88848 (530/9); sky Ceres -> J Jupiter RA 92.22178 (830/9)",
       "rank": 8
      },
      "P19": {
       "n": 1,
       "best": 0.596,
-      "what": "triangle H Ketu / H Mars / J Makemake [one plane (Dec)]: H Ketu\u2013H Mars Dec 46.99702 (47), H Ketu\u2013J Makemake Dec 55.99934 (56), H Mars\u2013J Makemake Dec 9.00232 (9) \u2014 sky Ceres: sky Ceres -> H Ketu Dec 3.00190 (3); sky Ceres -> H Mars Dec 49.99892 (50); sky Ceres -> J Makemake Dec 59.00124 (59)",
+      "what": "triangle H Ketu / H Mars / J Makemake [one plane (Dec)]: H Ketu\u2013H Mars Dec 46.99702 (47), H Ketu\u2013J Makemake Dec 55.99934 (56), H Mars\u2013J Makemake Dec 9.00232 (9) [all whole] \u2014 sky Ceres: sky Ceres -> H Ketu Dec 3.00190 (3); sky Ceres -> H Mars Dec 49.99892 (50); sky Ceres -> J Makemake Dec 59.00124 (59)",
       "rank": 4
      },
      "P21": {
       "n": 2,
       "best": 0.68,
-      "what": "triangle H Pallas / H Pluto / H Sedna [one plane (Dec)]: H Pallas\u2013H Pluto Dec 26.77780 (241/9), H Pallas\u2013H Sedna Dec 3.55550 (32/9), H Pluto\u2013H Sedna Dec 30.33330 (273/9) \u2014 sky Orcus: sky Orcus -> H Pallas Dec 16.88860 (152/9); sky Orcus -> H Pluto Dec 9.88920 (89/9); sky Orcus -> H Sedna Dec 20.44410 (184/9)",
+      "what": "triangle H Pallas / H Pluto / H Sedna [one plane (Dec)]: H Pallas\u2013H Pluto Dec 26.77780 (241/9, ninth), H Pallas\u2013H Sedna Dec 3.55550 (32/9, ninth), H Pluto\u2013H Sedna Dec 30.33330 (273/9, ninth) [3 ninth sides] \u2014 sky Orcus: sky Orcus -> H Pallas Dec 16.88860 (152/9); sky Orcus -> H Pluto Dec 9.88920 (89/9); sky Orcus -> H Sedna Dec 20.44410 (184/9)",
       "rank": 5
      },
      "P27": {
       "n": 1,
       "best": 0.554,
-      "what": "triangle H Sun / J Haumea / J Uranus [one plane (RA)]: H Sun\u2013J Haumea RA 118.00106 (118), H Sun\u2013J Uranus RA 53.00141 (53), J Haumea\u2013J Uranus RA 64.99966 (65) \u2014 sky Makemake: sky Makemake -> H Sun RA 100.99863 (101); sky Makemake -> J Haumea RA 17.00243 (17); sky Makemake -> J Uranus RA 47.99723 (48)",
+      "what": "triangle H Sun / J Haumea / J Uranus [one plane (RA)]: H Sun\u2013J Haumea RA 118.00106 (118), H Sun\u2013J Uranus RA 53.00141 (53), J Haumea\u2013J Uranus RA 64.99966 (65) [all whole] \u2014 sky Makemake: sky Makemake -> H Sun RA 100.99863 (101); sky Makemake -> J Haumea RA 17.00243 (17); sky Makemake -> J Uranus RA 47.99723 (48)",
       "rank": 3
      }
     },
@@ -3292,26 +3292,8 @@
   },
   "33": {
    "strict": {
-    "k": 1,
+    "k": 4,
     "runners": {
-     "P27": {
-      "n": 120,
-      "best": 0.5963,
-      "what": "loop of 4: H Node -> H Makemake -> J Node -> J Haumea -> H Node \u2014 H Rahu\u2013H Makemake RA 120.6560 Dec 0.2274; H Makemake\u2013J Rahu RA 123.5672 Dec 0.0192; J Rahu\u2013J Haumea RA 107.4532 Dec 0.3578; H Rahu\u2013J Haumea RA 104.5421 Dec 0.1112",
-      "rank": 1
-     }
-    },
-    "tightest": "P27"
-   },
-   "near": {
-    "k": 6,
-    "runners": {
-     "P01": {
-      "n": 1,
-      "best": 0.8555,
-      "what": "loop of 3: H Node -> H Pluto -> J Node -> H Node  (closed through the same body in both charts: Node) \u2014 H Pluto\u2013H Ketu RA 41.2657 Dec 0.5133; H Pluto\u2013J Ketu RA 0.9543 Dec 1.1168; J Node = H Node (same body)",
-      "rank": 3
-     },
      "P03": {
       "n": 1,
       "best": 0.8155,
@@ -3319,31 +3301,67 @@
       "rank": 2
      },
      "P09": {
-      "n": 5,
+      "n": 2,
       "best": 0.6167,
-      "what": "loop of 4: H Node -> J Neptune -> H Neptune -> J Node -> H Node  (closed through the same body in both charts: Neptune, Node) \u2014 H Ketu\u2013J Neptune RA 31.2458 Dec 0.0277; J Neptune = H Neptune (same body); H Neptune\u2013J Rahu RA 0.9251 Dec 1.5746; J Node = H Node (same body)",
+      "what": "loop of 6: H Node -> H Pluto -> J Saturn -> J Neptune -> H Neptune -> J Node -> H Node  (closed through the same body in both charts: Neptune, Node) \u2014 H Pluto\u2013H Ketu RA 49.1545 Dec 0.1029; H Pluto\u2013J Saturn RA 26.6975 Dec 0.0771; J Saturn\u2013J Neptune RA 8.7888 Dec 0.2077; J Neptune = H Neptune (same body); H Neptune\u2013J Rahu RA 0.9251 Dec 1.5746; J Node = H Node (same body)",
       "rank": 1
+     },
+     "P25": {
+      "n": 1,
+      "best": 0.9479,
+      "what": "loop of 6: H Node -> H Venus -> J Uranus -> J Mars -> H Quaoar -> J Node -> H Node  (closed through the same body in both charts: Node) \u2014 H Venus\u2013H Ketu RA 19.3430 Dec 0.1642; H Venus\u2013J Uranus RA 0.9479 Dec 0.3169; J Mars\u2013J Uranus RA 3.0100 Dec 0.3080; H Quaoar\u2013J Mars RA 0.8839 Dec 8.2206; H Quaoar\u2013J Rahu RA 44.3637 Dec 0.2844; J Node = H Node (same body)",
+      "rank": 4
+     },
+     "P27": {
+      "n": 104,
+      "best": 0.8347,
+      "what": "loop of 5: H Node -> H Makemake -> J Node -> J Gonggong -> J Jupiter -> H Node \u2014 H Rahu\u2013H Makemake RA 120.6560 Dec 0.2274; H Makemake\u2013J Rahu RA 123.5672 Dec 0.0192; J Ketu\u2013J Gonggong RA 71.9686 Dec 0.4422; J Jupiter\u2013J Gonggong RA 70.3095 Dec 0.2123; H Ketu\u2013J Jupiter RA 1.2521 Dec 0.4765",
+      "rank": 3
+     }
+    },
+    "tightest": "P09"
+   },
+   "near": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 1,
+      "best": 0.8555,
+      "what": "loop of 3: H Node -> H Pluto -> J Node -> H Node  (closed through the same body in both charts: Node)  (2 distinct bodies) \u2014 H Pluto\u2013H Ketu RA 41.2657 Dec 0.5133; H Pluto\u2013J Ketu RA 0.9543 Dec 1.1168; J Node = H Node (same body)",
+      "rank": 3
+     },
+     "P09": {
+      "n": 3,
+      "best": 0.6167,
+      "what": "loop of 4: H Node -> J Neptune -> H Neptune -> J Node -> H Node  (closed through the same body in both charts: Neptune, Node)  (2 distinct bodies) \u2014 H Ketu\u2013J Neptune RA 31.2458 Dec 0.0277; J Neptune = H Neptune (same body); H Neptune\u2013J Rahu RA 0.9251 Dec 1.5746; J Node = H Node (same body)",
+      "rank": 2
      },
      "P15": {
       "n": 1,
       "best": 0.9524,
-      "what": "loop of 5: H Node -> H Pluto -> J Neptune -> H Neptune -> J Node -> H Node  (closed through the same body in both charts: Neptune, Node) \u2014 H Pluto\u2013H Ketu RA 46.6794 Dec 0.1695; H Pluto\u2013J Neptune RA 0.9674 Dec 1.9513; J Neptune = H Neptune (same body); H Neptune\u2013J Ketu RA 1.4285 Dec 0.5558; J Node = H Node (same body)",
+      "what": "loop of 5: H Node -> H Pluto -> J Neptune -> H Neptune -> J Node -> H Node  (closed through the same body in both charts: Neptune, Node)  (3 distinct bodies) \u2014 H Pluto\u2013H Ketu RA 46.6794 Dec 0.1695; H Pluto\u2013J Neptune RA 0.9674 Dec 1.9513; J Neptune = H Neptune (same body); H Neptune\u2013J Ketu RA 1.4285 Dec 0.5558; J Node = H Node (same body)",
       "rank": 6
      },
      "P19": {
       "n": 1,
       "best": 0.9425,
-      "what": "loop of 4: H Node -> H Pluto -> J Pluto -> J Node -> H Node  (closed through the same body in both charts: Node, Pluto) \u2014 H Pluto\u2013H Ketu RA 49.3067 Dec 0.1262; H Pluto = J Pluto (same body); J Pluto\u2013J Rahu RA 46.1621 Dec 0.5655; J Node = H Node (same body)",
+      "what": "loop of 4: H Node -> H Pluto -> J Pluto -> J Node -> H Node  (closed through the same body in both charts: Node, Pluto)  (2 distinct bodies, no cross link between different bodies) \u2014 H Pluto\u2013H Ketu RA 49.3067 Dec 0.1262; H Pluto = J Pluto (same body); J Pluto\u2013J Rahu RA 46.1621 Dec 0.5655; J Node = H Node (same body)",
       "rank": 5
      },
      "P25": {
-      "n": 2,
+      "n": 1,
       "best": 0.9352,
-      "what": "loop of 5: H Node -> H Pluto -> H Sun -> J Sun -> J Node -> H Node  (closed through the same body in both charts: Node, Sun) \u2014 H Pluto\u2013H Ketu RA 38.1636 Dec 0.5611; H Sun\u2013H Pluto RA 0.3313 Dec 1.1759; H Sun = J Sun (same body); J Sun\u2013J Rahu RA 0.0621 Dec 0.0210; J Node = H Node (same body)",
+      "what": "loop of 5: H Node -> H Pluto -> H Sun -> J Sun -> J Node -> H Node  (closed through the same body in both charts: Node, Sun)  (3 distinct bodies, no cross link between different bodies) \u2014 H Pluto\u2013H Ketu RA 38.1636 Dec 0.5611; H Sun\u2013H Pluto RA 0.3313 Dec 1.1759; H Sun = J Sun (same body); J Sun\u2013J Rahu RA 0.0621 Dec 0.0210; J Node = H Node (same body)",
       "rank": 4
+     },
+     "P27": {
+      "n": 16,
+      "best": 0.5963,
+      "what": "loop of 4: H Node -> H Makemake -> J Node -> J Haumea -> H Node  (3 distinct bodies) \u2014 H Rahu\u2013H Makemake RA 120.6560 Dec 0.2274; H Makemake\u2013J Rahu RA 123.5672 Dec 0.0192; J Rahu\u2013J Haumea RA 107.4532 Dec 0.3578; H Rahu\u2013J Haumea RA 104.5421 Dec 0.1112",
+      "rank": 1
      }
     },
-    "tightest": "P09"
+    "tightest": "P27"
    }
   }
  },
@@ -3379,5 +3397,27 @@
   29,
   30,
   33
+ ],
+ "common": [
+  2,
+  3,
+  6,
+  8,
+  9,
+  10,
+  11,
+  13,
+  16,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  30
  ]
 }

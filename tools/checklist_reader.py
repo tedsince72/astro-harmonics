@@ -14,7 +14,7 @@ import sys, os, glob, json, csv, re, math, itertools
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from layer1_inventory import rd, dd, fl, gc, BOD, WHOLE, NINTH, MOVE_WHOLE, MOVE_NINTH, EQ_WHOLE, EQ_NINTH
 
-VERSION = 'CR v1 (12 Oct 2026)'
+VERSION = 'CR v1.1 (12 Oct 2026, joins field-relative)'
 SLOW = {'Eris', 'Sedna', 'Haumea', 'Makemake', 'Gonggong', 'Quaoar', 'Orcus', 'Transpluto'}
 MOVING = {'Sun', 'Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn', 'Chiron', 'Ceres', 'Pallas', 'Juno', 'Vesta', 'Rahu', 'Ketu'}  # for returns
 PLANES = (('RA', rd), ('Dec', dd), ('Flat', fl), ('GC', gc))
@@ -428,7 +428,8 @@ def it8(R):
             else:
                 sd = [(u, v, e['best'][1], e['planes'][e['best'][1]]) for u, v, e in sides]; plane_lab = 'mixed planes'
             t = max([s[3][0] for s in sd] + [S1[k][0], S2[k][0], S3[k][0]])
-            txt = ', '.join(f"{u}–{v} {pl} {val[2]:.5f} ({val[1]})" for u, v, pl, val in sd)
+            nin = sum('/' in val[1] for _, _, _, val in sd)
+            txt = ', '.join(f"{u}–{v} {pl} {val[2]:.5f} ({val[1]}{', ninth' if '/' in val[1] else ''})" for u, v, pl, val in sd) + (f" [{nin} ninth side{'s' if nin > 1 else ''}]" if nin else ' [all whole]')
             out.append(inst(8, 'strict', t, f"triangle {a} / {b} / {c} [{plane_lab}]: {txt} — sky {k}: {s_str(S1[k][2])}; {s_str(S2[k][2])}; {s_str(S3[k][2])}",
                             [a, b, c], None, R.der(*[i for _, _, e in sides for i in e['ids']], f'strikes:{S1[k][1]}', f'strikes:{S2[k][1]}', f'strikes:{S3[k][1]}'),
                             planes=plane_lab, sky=[k]))
@@ -548,8 +549,12 @@ def it33(R):
                         n_same = sum(1 for p, q in steps if E[p][q] is None)
                         sames = sorted({bare(p) for p, q in steps if E[p][q] is None})
                         t = max(t_close(l) for l in ls) if ls else 0
-                        out.append(inst(33, 'strict' if n_same == 0 else 'near', t, f"loop of {len(steps)}: " + ' -> '.join(path + ['H Node'])
-                                        + (f"  (closed through the same body in both charts: {', '.join(sames)})" if n_same else '') + ' — ' + '; '.join(step_txt(p, q) for p, q in steps),
+                        names = {fold(bare(q)) for q in path}
+                        xlink = any(l['kind'] == 'cross' and fold(bare(l['a'])) != fold(bare(l['b'])) for l in ls)
+                        counted = len(names) >= 4 and xlink   # Eddie 12 Oct: 4+ distinct bodies and a cross link between different bodies
+                        out.append(inst(33, 'strict' if counted else 'near', t, f"loop of {len(steps)}: " + ' -> '.join(path + ['H Node'])
+                                        + (f"  (closed through the same body in both charts: {', '.join(sames)})" if n_same else '')
+                                        + ('' if counted else f"  ({len(names)} distinct bodies{'' if xlink else ', no cross link between different bodies'})") + ' — ' + '; '.join(step_txt(p, q) for p, q in steps),
                                         path, None, length=len(steps), same_steps=n_same))
             elif v not in path and len(path) < LOOP_MAX:
                 dfs(path + [v], ids + same)
@@ -575,7 +580,6 @@ def run(race, step=4):
         for k, fn in ITEMS.items():
             if STEP[k] <= step: L += fn(R)
         L.sort(key=lambda x: (x['item'], x['level'] != 'strict', x['t'], x['what']))
-        joins(L)
         res[R.P] = {'name': R.name, 'instances': L}
     items = sorted({k for k in STEP if STEP[k] <= step} | ({2, 6, 10} if step >= 2 else set()))
     field = {}
@@ -591,8 +595,11 @@ def run(race, step=4):
             for rank, p in enumerate(order, 1): have[p]['rank'] = rank
             f[lv] = {'k': len(have), 'runners': have, 'tightest': order[0]}
         field[str(it)] = f
+    # Eddie 12 Oct: in the join view an item counts only when fewer than half the field has it (strict); the rest show as 'also (common in this field)'
+    common = sorted(it for it in items if field[str(it)].get('strict', {}).get('k', 0) * 2 >= len(runners))
+    for r in res.values(): joins(r['instances'], set(common))
     return {'version': VERSION, 'race': race, 'step': step, 'n': len(runners), 'runners': {P: r['name'] for P, r in res.items()},
-            'field': field, 'per_runner': res, 'items': items}
+            'field': field, 'per_runner': res, 'items': items, 'common': common}
 
 def pair_map(S):
     """pair -> {item: tightest t}; a body's same-body items (pair 'X–X') also count on every pair that contains X"""
@@ -609,16 +616,22 @@ def pair_map(S):
     for b, d in selfp.items(): byp.setdefault(f'{b}–{b}', {}).update(d)
     return byp
 
-def joins(L):
-    S = [x for x in L if x['level'] == 'strict']
-    byp, byb = {k: set(v) for k, v in pair_map(S).items()}, {}
+def body_map(S):
+    byb = {}
     for x in S:
         if x['item'] in JOIN_SKIP: continue
-        for b in x['bodies']: byb.setdefault(b, set()).add(x['item'])
+        for b in x['bodies']:
+            d = byb.setdefault(b, {}); d[x['item']] = min(d.get(x['item'], 9e9), x['t'])
+    return byb
+
+def joins(L, common=frozenset()):
+    S = [x for x in L if x['level'] == 'strict']
+    byp, byb = pair_map(S), body_map(S)
     for x in L:
-        j = set(byp.get(x['pair'], set())) if x['pair'] else set()
-        for b in x['bodies']: j |= byb.get(b, set())
-        j.discard(x['item']); x['joined'] = sorted(j)
+        j = set(byp.get(x['pair'], {})) if x['pair'] else set()
+        for b in x['bodies']: j |= set(byb.get(b, {}))
+        j.discard(x['item'])
+        x['joined'] = sorted(j - common); x['joined_common'] = sorted(j & common)
 
 def rarity(F, it, lv, P):
     f = F['field'][str(it)].get(lv)
@@ -629,7 +642,7 @@ def rarity(F, it, lv, P):
 def field_text(F):
     L = [f"== {F['race']}  field of {F['n']}   [{F['version']}, step {F['step']}]  (blind: no finishing positions)",
          '-- runners: ' + '; '.join(f"{P} {n}" for P, n in F['runners'].items()),
-         '-- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.']
+         '-- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.'] + watch_text(F)
     for it in F['items']:
         f = F['field'][str(it)]
         L.append(f"[{it:2d}] {NAMES[it]}")
@@ -646,6 +659,29 @@ def field_text(F):
         L.append(f"   {P} {F['runners'][P]}: {', '.join(o) or '-'}")
     return '\n'.join(L)
 
+def join_text(byp, byb, common):
+    L = [f"-- joins (strict). Items counted only when fewer than half the field has them; common in this field: {', '.join(map(str, sorted(common))) or '-'}",
+         '   pairs with a counted item joined by any other (counted first, item:t of its tightest; a body\'s same-body sets count on its pairs)']
+    def lines(m, w):
+        out = []
+        for k, d in sorted(m.items(), key=lambda kv: (-len(set(kv[1]) - common), -len(kv[1]), min([t for i, t in kv[1].items() if i not in common] or [9]), kv[0])):
+            c = {i: t for i, t in d.items() if i not in common}; o = {i: t for i, t in d.items() if i in common}
+            if c and len(d) >= 2:
+                out.append(f"   {k:{w}s} {len(c)} counted: " + ' '.join(f"{i}:{t:.3f}" for i, t in sorted(c.items()))
+                           + (f"   also (common in this field): " + ' '.join(f"{i}:{t:.3f}" for i, t in sorted(o.items())) if o else ''))
+        return out
+    L += lines(byp, 24)
+    L.append('   natal bodies with a counted item joined by any other')
+    L += lines(byb, 14)
+    return L
+
+def watch_text(F):
+    L = ['-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15']
+    for it in (17, 14, 15):
+        g = F['field'].get(str(it), {}).get('strict')
+        L.append(f"   [{it}] {NAMES[it]}: " + (', '.join(f"{p} (t {g['runners'][p]['best']:.3f})" for p in sorted(g['runners'], key=lambda p: g['runners'][p]['rank'])) if g else 'none'))
+    return L
+
 def runner_text(F, P):
     r = F['per_runner'][P]; L = [f"== {P} {r['name']}   [{F['race']}, {F['version']}, step {F['step']}]"]
     for it in F['items']:
@@ -653,20 +689,11 @@ def runner_text(F, P):
         L.append(f"[{it:2d}] {NAMES[it]}: " + (', '.join(f"{lv} {sum(1 for x in xs if x['level'] == lv)} ({rarity(F, it, lv, P)})" for lv in ('strict', 'near', 'other', 'wide')
                                                        if any(x['level'] == lv for x in xs)) or 'none'))
         for x in xs[:TEXT_MAX]:
-            L.append(f"     {x['level'][0]} t {x['t']:.3f}{' D' if x['derived'] else '  '} {x['what']}" + (f"   joined: {','.join(map(str, x['joined']))}" if x['joined'] else ''))
+            L.append(f"     {x['level'][0]} t {x['t']:.3f}{' D' if x['derived'] else '  '} {x['what']}" + (f"   joined: {','.join(map(str, x['joined']))}" if x['joined'] else '') + (f" (+common {','.join(map(str, x['joined_common']))})" if x['joined_common'] else ''))
         if len(xs) > TEXT_MAX: L.append(f"     (+{len(xs) - TEXT_MAX} more in {P}.json)")
     S = [x for x in r['instances'] if x['level'] == 'strict']
-    byp, byb = pair_map(S), {}
-    for x in S:
-        if x['item'] in JOIN_SKIP: continue
-        for b in x['bodies']:
-            d = byb.setdefault(b, {}); d[x['item']] = min(d.get(x['item'], 9e9), x['t'])
-    L.append('-- joins: pairs touched by 2+ different items (strict; item:t of its tightest; a body\'s same-body items count on its pairs)')
-    for k, d in sorted(byp.items(), key=lambda kv: (-len(kv[1]), min(kv[1].values()), kv[0])):
-        if len(d) >= 2: L.append(f"   {k:24s} {len(d)} items: " + ' '.join(f"{i}:{t:.3f}" for i, t in sorted(d.items())))
-    L.append('-- joins: natal bodies touched by 2+ different items (strict)')
-    for k, d in sorted(byb.items(), key=lambda kv: (-len(kv[1]), min(kv[1].values()), kv[0])):
-        if len(d) >= 2: L.append(f"   {k:14s} {len(d)} items: " + ' '.join(f"{i}:{t:.3f}" for i, t in sorted(d.items())))
+    byp, byb = pair_map(S), body_map(S)
+    L += join_text(byp, byb, set(F['common']))
     L.append('-- recurring pairs / cross links (annotation only, not weighed)')
     for rp in RECUR_PAIRS:
         k = '–'.join(sorted(rp.split('–')))

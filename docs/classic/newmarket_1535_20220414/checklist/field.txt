@@ -1,6 +1,10 @@
-== newmarket_1535_20220414  field of 6   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== newmarket_1535_20220414  field of 6   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Austrian Theory / 1 Joe Fanning; P03 2 Cresta / 2 Tom Marquand; P05 3 Dawn Of Liberation / 3 Sean Levey; P07 4 Eydon / 4 David Egan; P09 5 Masekela / 5 William Buick; P11 6 Sonny Liston / 6 Marco Ghiani
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: P11 (t 0.683)
+   [15] pair set H:J:S: P09 (t 0.998)
 [ 1] cross link struck on both ends by 2+ sky bodies
      strict ONLY P05: P05(t 0.498, x1)
             tightest P05: H Jupiter – J Saturn RA 14.3997 Dec 0.0108 struck by 2 sky bodies — Quaoar: sky Quaoar -> H Jupiter GC 19.99754 (20) | sky Quaoar -> J Saturn Flat 8.88897 (80/9); Venus: sky Venus -> H Jupiter GC 81.00249 (81) | sky Venus -> J Saturn Dec 14.00194 (14)
@@ -127,7 +131,7 @@
             tightest P05: tightest cross link H Jupiter – J Saturn RA 14.3997 Dec 0.0108
 [33] node loop
      near   ONLY P11: P11(t 0.725, x1)
-            tightest P11: loop of 4: H Node -> J Ceres -> H Ceres -> J Node -> H Node  (closed through the same body in both charts: Ceres, Node) — H Rahu–J Ceres RA 59.8108 Dec 0.2173; J Ceres = H Ceres (same body); H Ceres–J Ketu RA 84.0307 Dec 0.1349; J Node = H Node (same body)
+            tightest P11: loop of 4: H Node -> J Ceres -> H Ceres -> J Node -> H Node  (closed through the same body in both charts: Ceres, Node)  (2 distinct bodies) — H Rahu–J Ceres RA 59.8108 Dec 0.2173; J Ceres = H Ceres (same body); H Ceres–J Ketu RA 84.0307 Dec 0.1349; J Node = H Node (same body)
 -- field-only (strict) per runner
    P01 1 Austrian Theory / 1 Joe Fanning: -
    P03 2 Cresta / 2 Tom Marquand: 7

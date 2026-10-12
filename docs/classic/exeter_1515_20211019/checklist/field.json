@@ -1,5 +1,5 @@
 {
- "version": "CR v1 (12 Oct 2026)",
+ "version": "CR v1.1 (12 Oct 2026, joins field-relative)",
  "race": "exeter_1515_20211019",
  "step": 4,
  "n": 6,
@@ -357,37 +357,37 @@
      "P01": {
       "n": 2,
       "best": 0.462,
-      "what": "triangle H Ceres / H Mercury / J Pallas [one plane (RA)]: H Ceres\u2013H Mercury RA 115.00221 (115), H Ceres\u2013J Pallas RA 7.99990 (8), H Mercury\u2013J Pallas RA 107.00231 (107) \u2014 sky Gonggong: sky Gonggong -> H Ceres RA 134.99824 (135); sky Gonggong -> H Mercury RA 109.99955 (110); sky Gonggong -> J Pallas RA 142.99814 (143)",
+      "what": "triangle H Ceres / H Mercury / J Pallas [one plane (RA)]: H Ceres\u2013H Mercury RA 115.00221 (115), H Ceres\u2013J Pallas RA 7.99990 (8), H Mercury\u2013J Pallas RA 107.00231 (107) [all whole] \u2014 sky Gonggong: sky Gonggong -> H Ceres RA 134.99824 (135); sky Gonggong -> H Mercury RA 109.99955 (110); sky Gonggong -> J Pallas RA 142.99814 (143)",
       "rank": 2
      },
      "P03": {
       "n": 2,
       "best": 0.776,
-      "what": "triangle H Ceres / H Haumea / J Mercury [one plane (RA)]: H Ceres\u2013H Haumea RA 137.00388 (137), H Ceres\u2013J Mercury RA 89.99956 (90), H Haumea\u2013J Mercury RA 132.99656 (133) \u2014 sky Ceres: sky Ceres -> H Ceres RA 86.99887 (87); sky Ceres -> H Haumea RA 135.99725 (136); sky Ceres -> J Mercury RA 3.00069 (3)",
+      "what": "triangle H Ceres / H Haumea / J Mercury [one plane (RA)]: H Ceres\u2013H Haumea RA 137.00388 (137), H Ceres\u2013J Mercury RA 89.99956 (90), H Haumea\u2013J Mercury RA 132.99656 (133) [all whole] \u2014 sky Ceres: sky Ceres -> H Ceres RA 86.99887 (87); sky Ceres -> H Haumea RA 135.99725 (136); sky Ceres -> J Mercury RA 3.00069 (3)",
       "rank": 4
      },
      "P05": {
       "n": 1,
       "best": 0.878,
-      "what": "triangle H Mercury / J Gonggong / J Uranus [one plane (RA)]: H Mercury\u2013J Gonggong RA 100.00113 (100), H Mercury\u2013J Uranus RA 119.99673 (120), J Gonggong\u2013J Uranus RA 19.99561 (20) \u2014 sky Orcus: sky Orcus -> H Mercury RA 86.00220 (86); sky Orcus -> J Gonggong RA 173.99668 (174); sky Orcus -> J Uranus RA 154.00107 (154)",
+      "what": "triangle H Mercury / J Gonggong / J Uranus [one plane (RA)]: H Mercury\u2013J Gonggong RA 100.00113 (100), H Mercury\u2013J Uranus RA 119.99673 (120), J Gonggong\u2013J Uranus RA 19.99561 (20) [all whole] \u2014 sky Orcus: sky Orcus -> H Mercury RA 86.00220 (86); sky Orcus -> J Gonggong RA 173.99668 (174); sky Orcus -> J Uranus RA 154.00107 (154)",
       "rank": 6
      },
      "P07": {
       "n": 3,
       "best": 0.356,
-      "what": "triangle H Ceres / H Ketu / H Pallas [one plane (RA)]: H Ceres\u2013H Ketu RA 35.00114 (35), H Ceres\u2013H Pallas RA 42.99822 (43), H Ketu\u2013H Pallas RA 77.99935 (78) \u2014 sky Chiron: sky Chiron -> H Ceres RA 20.99979 (21); sky Chiron -> H Ketu RA 56.00092 (56); sky Chiron -> H Pallas RA 21.99843 (22)",
+      "what": "triangle H Ceres / H Ketu / H Pallas [one plane (RA)]: H Ceres\u2013H Ketu RA 35.00114 (35), H Ceres\u2013H Pallas RA 42.99822 (43), H Ketu\u2013H Pallas RA 77.99935 (78) [all whole] \u2014 sky Chiron: sky Chiron -> H Ceres RA 20.99979 (21); sky Chiron -> H Ketu RA 56.00092 (56); sky Chiron -> H Pallas RA 21.99843 (22)",
       "rank": 1
      },
      "P09": {
       "n": 2,
       "best": 0.826,
-      "what": "triangle H Juno / H Orcus / J Mercury [mixed planes]: H Juno\u2013H Orcus RA 98.99747 (99), H Juno\u2013J Mercury RA 50.00413 (50), H Orcus\u2013J Mercury Dec 30.00151 (30) \u2014 sky Haumea: sky Haumea -> H Juno RA 165.99745 (166); sky Haumea -> H Orcus RA 66.99998 (67); sky Haumea -> J Mercury GC 107.00259 (107)",
+      "what": "triangle H Juno / H Orcus / J Mercury [mixed planes]: H Juno\u2013H Orcus RA 98.99747 (99), H Juno\u2013J Mercury RA 50.00413 (50), H Orcus\u2013J Mercury Dec 30.00151 (30) [all whole] \u2014 sky Haumea: sky Haumea -> H Juno RA 165.99745 (166); sky Haumea -> H Orcus RA 66.99998 (67); sky Haumea -> J Mercury GC 107.00259 (107)",
       "rank": 5
      },
      "P11": {
       "n": 1,
       "best": 0.72,
-      "what": "triangle H Quaoar / J Juno / J Ketu [one plane (Dec)]: H Quaoar\u2013J Juno Dec 2.88915 (26/9), H Quaoar\u2013J Ketu Dec 35.77804 (322/9), J Juno\u2013J Ketu Dec 32.88888 (296/9) \u2014 sky Mars: sky Mars -> H Quaoar Dec 7.33369 (66/9); sky Mars -> J Juno Dec 4.44454 (40/9); sky Mars -> J Ketu Dec 28.44435 (256/9)",
+      "what": "triangle H Quaoar / J Juno / J Ketu [one plane (Dec)]: H Quaoar\u2013J Juno Dec 2.88915 (26/9, ninth), H Quaoar\u2013J Ketu Dec 35.77804 (322/9, ninth), J Juno\u2013J Ketu Dec 32.88888 (296/9, ninth) [3 ninth sides] \u2014 sky Mars: sky Mars -> H Quaoar Dec 7.33369 (66/9); sky Mars -> J Juno Dec 4.44454 (40/9); sky Mars -> J Ketu Dec 28.44435 (256/9)",
       "rank": 3
      }
     },
@@ -1500,13 +1500,25 @@
    }
   },
   "33": {
+   "strict": {
+    "k": 1,
+    "runners": {
+     "P05": {
+      "n": 1,
+      "best": 0.9789,
+      "what": "loop of 6: H Node -> H Eris -> J Vesta -> J Sedna -> H Sedna -> J Node -> H Node  (closed through the same body in both charts: Node, Sedna) \u2014 H Rahu\u2013H Eris RA 161.9242 Dec 0.5874; H Eris\u2013J Vesta RA 0.1121 Dec 7.1268; J Vesta\u2013J Sedna RA 19.3357 Dec 0.4591; J Sedna = H Sedna (same body); H Sedna\u2013J Rahu RA 107.3741 Dec 0.0034; J Node = H Node (same body)",
+      "rank": 1
+     }
+    },
+    "tightest": "P05"
+   },
    "near": {
     "k": 1,
     "runners": {
      "P05": {
-      "n": 2,
+      "n": 1,
       "best": 0.9789,
-      "what": "loop of 4: H Node -> H Eris -> J Eris -> J Node -> H Node  (closed through the same body in both charts: Eris, Node) \u2014 H Rahu\u2013H Eris RA 161.9242 Dec 0.5874; H Eris = J Eris (same body); J Ketu\u2013J Eris RA 40.3693 Dec 0.1258; J Node = H Node (same body)",
+      "what": "loop of 4: H Node -> H Eris -> J Eris -> J Node -> H Node  (closed through the same body in both charts: Eris, Node)  (2 distinct bodies, no cross link between different bodies) \u2014 H Rahu\u2013H Eris RA 161.9242 Dec 0.5874; H Eris = J Eris (same body); J Ketu\u2013J Eris RA 40.3693 Dec 0.1258; J Node = H Node (same body)",
       "rank": 1
      }
     },
@@ -1546,5 +1558,29 @@
   29,
   30,
   33
+ ],
+ "common": [
+  2,
+  3,
+  5,
+  6,
+  8,
+  9,
+  10,
+  13,
+  15,
+  16,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  29,
+  30
  ]
 }

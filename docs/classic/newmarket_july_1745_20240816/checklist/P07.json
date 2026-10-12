@@ -27,7 +27,8 @@
      "sky Saturn -> J Transpluto Flat 155.55536 (1400/9)"
     ]
    ],
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     8,
     9,
@@ -65,7 +66,8 @@
      "sky Jupiter -> J Rahu Flat 85.44470 (769/9)"
     ]
    ],
-   "joined": [
+   "joined": [],
+   "joined_common": [
     3,
     19,
     21,
@@ -103,7 +105,8 @@
      "sky Haumea -> J Eris Flat 166.00326 (166)"
     ]
    ],
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     9,
     13,
@@ -139,7 +142,8 @@
      "sky Venus -> J Pallas Dec 0.55579 (5/9)"
     ]
    ],
-   "joined": [
+   "joined": [],
+   "joined_common": [
     21,
     22,
     24
@@ -173,7 +177,8 @@
      "sky Saturn -> J Jupiter RA 38.99573 (39)"
     ]
    ],
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     21,
@@ -208,8 +213,10 @@
     ]
    ],
    "joined": [
+    15
+   ],
+   "joined_common": [
     9,
-    15,
     19,
     21,
     24
@@ -242,7 +249,8 @@
      "sky Quaoar -> J Neptune Dec 7.00477 (7)"
     ]
    ],
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     9,
     19,
@@ -277,7 +285,9 @@
     ]
    ],
    "joined": [
-    15,
+    15
+   ],
+   "joined_common": [
     19,
     21,
     24
@@ -310,7 +320,8 @@
      "sky Venus -> J Pallas Dec 0.55579 (5/9)"
     ]
    ],
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     9,
     19,
@@ -345,7 +356,8 @@
      "sky Saturn -> J Jupiter RA 38.99573 (39)"
     ]
    ],
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     21,
     24,
@@ -378,7 +390,8 @@
      "sky Saturn -> J Jupiter RA 38.99573 (39)"
     ]
    ],
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     13,
     19,
@@ -398,7 +411,8 @@
    ],
    "pair": "Jupiter\u2013Node",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     13,
     19,
@@ -420,8 +434,10 @@
    "pair": "Ceres\u2013Mars",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
-    15,
     19,
     21,
     24
@@ -438,7 +454,8 @@
    ],
    "pair": "Gonggong\u2013Juno",
    "derived": true,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     19,
     21,
@@ -457,7 +474,8 @@
    ],
    "pair": "Sedna\u2013Uranus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     19,
     20,
@@ -476,7 +494,8 @@
    ],
    "pair": "Eris\u2013Sun",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     9,
     13,
@@ -498,7 +517,8 @@
    ],
    "pair": "Mercury\u2013Transpluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     8,
     9,
@@ -520,7 +540,8 @@
    ],
    "pair": "Pluto\u2013Saturn",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     9,
     19,
@@ -540,7 +561,8 @@
    ],
    "pair": "Neptune\u2013Pluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     9,
     19,
@@ -560,7 +582,8 @@
    ],
    "pair": "Pallas\u2013Pluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     9,
     19,
@@ -580,7 +603,8 @@
    ],
    "pair": "Haumea\u2013Makemake",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     8,
     9,
     13,
@@ -596,7 +620,7 @@
    "item": 8,
    "level": "strict",
    "t": 0.996,
-   "what": "triangle H Mercury / J Haumea / J Orcus [one plane (RA)]: H Mercury\u2013J Haumea RA 151.99923 (152), H Mercury\u2013J Orcus RA 92.99613 (93), J Haumea\u2013J Orcus RA 59.00311 (59) \u2014 sky Pluto: sky Pluto -> H Mercury RA 90.99889 (91); sky Pluto -> J Haumea RA 117.00187 (117); sky Pluto -> J Orcus RA 176.00498 (176)",
+   "what": "triangle H Mercury / J Haumea / J Orcus [one plane (RA)]: H Mercury\u2013J Haumea RA 151.99923 (152), H Mercury\u2013J Orcus RA 92.99613 (93), J Haumea\u2013J Orcus RA 59.00311 (59) [all whole] \u2014 sky Pluto: sky Pluto -> H Mercury RA 90.99889 (91); sky Pluto -> J Haumea RA 117.00187 (117); sky Pluto -> J Orcus RA 176.00498 (176)",
    "bodies": [
     "H Mercury",
     "J Haumea",
@@ -608,7 +632,8 @@
    "sky": [
     "Pluto"
    ],
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -634,7 +659,8 @@
    "sky": [
     "Sun"
    ],
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     21,
     24,
@@ -657,7 +683,9 @@
     "Pluto"
    ],
    "joined": [
-    15,
+    15
+   ],
+   "joined_common": [
     19,
     21,
     24,
@@ -680,9 +708,11 @@
     "Sedna"
    ],
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     6,
-    15,
     19,
     21,
     24
@@ -703,7 +733,8 @@
    "sky": [
     "Saturn"
    ],
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     19,
@@ -728,11 +759,13 @@
     "Pluto"
    ],
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     6,
     8,
     13,
-    15,
     19,
     21,
     24,
@@ -754,7 +787,8 @@
    "sky": [
     "Mercury"
    ],
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     21,
     24
@@ -775,7 +809,8 @@
    "sky": [
     "Makemake"
    ],
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     13,
@@ -800,7 +835,8 @@
    "sky": [
     "Pluto"
    ],
-   "joined": [
+   "joined": [],
+   "joined_common": [
     8,
     13,
     21,
@@ -821,7 +857,8 @@
    ],
    "pair": "Jupiter\u2013Makemake",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     19,
@@ -845,7 +882,8 @@
    ],
    "pair": "Makemake\u2013Mercury",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -871,7 +909,8 @@
    ],
    "pair": "Haumea\u2013Sun",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -896,7 +935,8 @@
    ],
    "pair": "Gonggong\u2013Transpluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -920,7 +960,8 @@
    ],
    "pair": "Mars\u2013Quaoar",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     9,
     19,
@@ -940,7 +981,8 @@
    ],
    "pair": "Mercury\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -963,7 +1005,8 @@
    ],
    "pair": "Sedna\u2013Transpluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -983,7 +1026,8 @@
    ],
    "pair": "Haumea\u2013Sedna",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     9,
     13,
@@ -1003,7 +1047,8 @@
    ],
    "pair": "Mercury\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -1025,7 +1070,8 @@
    ],
    "pair": "Jupiter\u2013Mercury",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     6,
@@ -1049,7 +1095,8 @@
    ],
    "pair": "Mercury\u2013Saturn",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -1071,7 +1118,8 @@
    ],
    "pair": "Gonggong\u2013Mercury",
    "derived": true,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -1093,7 +1141,8 @@
    ],
    "pair": "Mercury\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     21,
     24,
@@ -1112,8 +1161,10 @@
    "pair": "Makemake\u2013Mars",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     13,
-    15,
     21,
     24,
     27
@@ -1130,7 +1181,8 @@
    ],
    "pair": "Mercury\u2013Sedna",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -1152,7 +1204,8 @@
    ],
    "pair": "Sedna\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     9,
     21,
@@ -1170,7 +1223,8 @@
    ],
    "pair": "Pluto\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -1190,7 +1244,8 @@
    ],
    "pair": "Makemake\u2013Sedna",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     9,
     13,
@@ -1211,7 +1266,8 @@
    ],
    "pair": "Eris\u2013Mercury",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -1233,7 +1289,8 @@
    ],
    "pair": "Sedna\u2013Transpluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -1252,7 +1309,8 @@
    ],
    "pair": "Mercury\u2013Orcus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -1274,7 +1332,8 @@
    ],
    "pair": "Gonggong\u2013Mercury",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -1297,7 +1356,8 @@
    ],
    "pair": "Eris\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     21,
@@ -1316,7 +1376,8 @@
    ],
    "pair": "Gonggong\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     21,
     24,
     25
@@ -1333,7 +1394,8 @@
    ],
    "pair": "Mercury\u2013Pluto",
    "derived": true,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -1356,7 +1418,8 @@
    ],
    "pair": "Mercury\u2013Sun",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -1378,7 +1441,8 @@
    ],
    "pair": "Juno\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     21,
     24,
     25
@@ -1395,7 +1459,8 @@
    ],
    "pair": "Uranus\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     21,
     24,
@@ -1413,7 +1478,8 @@
    ],
    "pair": "Venus\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     21,
     24,
     26,
@@ -1431,7 +1497,8 @@
    ],
    "pair": "Juno\u2013Mercury",
    "derived": true,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -1454,12 +1521,14 @@
    "pair": "Mercury\u2013Quaoar",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     6,
     8,
     9,
     13,
-    15,
     21,
     24,
     27
@@ -1477,8 +1546,10 @@
    "pair": "Quaoar\u2013Vesta",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     9,
-    15,
     21,
     24,
     27
@@ -1495,7 +1566,8 @@
    ],
    "pair": "Mercury\u2013Node",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     6,
@@ -1518,7 +1590,8 @@
    ],
    "pair": "Mercury\u2013Uranus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -1540,7 +1613,8 @@
    ],
    "pair": "Mercury\u2013Node",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -1563,7 +1637,9 @@
    "pair": "Mars\u2013Vesta",
    "derived": false,
    "joined": [
-    15,
+    15
+   ],
+   "joined_common": [
     21,
     24,
     27
@@ -1580,7 +1656,8 @@
    ],
    "pair": "Venus\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     21,
     24,
     26
@@ -1597,7 +1674,8 @@
    ],
    "pair": "Chiron\u2013Sedna",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     9,
     20,
@@ -1617,7 +1695,8 @@
    ],
    "pair": "Pallas\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     21,
     24,
@@ -1635,7 +1714,8 @@
    ],
    "pair": "Ceres\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     21,
     24
    ]
@@ -1651,7 +1731,8 @@
    ],
    "pair": "Orcus\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     21,
     24,
     27
@@ -1668,7 +1749,8 @@
    ],
    "pair": "Neptune\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     21,
@@ -1686,7 +1768,8 @@
    ],
    "pair": "Sedna\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     9,
     21,
@@ -1704,7 +1787,8 @@
    ],
    "pair": "Ceres\u2013Mercury",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -1726,7 +1810,8 @@
    ],
    "pair": "Sun\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     21,
     24,
@@ -1745,12 +1830,14 @@
    "pair": "Mercury\u2013Quaoar",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     6,
     8,
     9,
     13,
-    15,
     21,
     24,
     27
@@ -1767,7 +1854,8 @@
    ],
    "pair": "Pluto\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     21,
     24
    ]
@@ -1785,7 +1873,8 @@
    "derived": false,
    "plane": "Dec",
    "span": 3.701,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     19,
     21,
@@ -1806,7 +1895,8 @@
    "derived": false,
    "plane": "Dec",
    "span": 25.3666,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     6,
@@ -1831,7 +1921,8 @@
    "derived": false,
    "plane": "Dec",
    "span": 5.5185,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     19,
@@ -1853,7 +1944,8 @@
    "derived": false,
    "plane": "Dec",
    "span": 15.5463,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     19,
     21,
@@ -1873,7 +1965,8 @@
    "derived": false,
    "plane": "Dec",
    "span": 8.5588,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     19,
     21,
@@ -1893,7 +1986,8 @@
    "derived": false,
    "plane": "Dec",
    "span": 23.3823,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     21,
     24,
@@ -1917,7 +2011,8 @@
    "derived": false,
    "centre": 29.0167,
    "partners": 5,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -1944,7 +2039,8 @@
    "derived": false,
    "centre": 13.3234,
    "partners": 5,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     13,
@@ -1969,7 +2065,8 @@
    "derived": false,
    "centre": 7.789,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     13,
@@ -1995,11 +2092,13 @@
    "centre": 17.9376,
    "partners": 5,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     3,
     9,
     13,
-    15,
     19,
     24,
     27
@@ -2022,7 +2121,8 @@
    "derived": false,
    "centre": 7.0555,
    "partners": 5,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -2048,7 +2148,8 @@
    "derived": false,
    "centre": 14.094,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     19,
     24,
@@ -2070,7 +2171,8 @@
    "derived": false,
    "centre": 12.1198,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     8,
@@ -2097,10 +2199,12 @@
    "centre": 137.2088,
    "partners": 4,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     6,
     9,
-    15,
     19,
     24,
     27
@@ -2122,7 +2226,8 @@
    "derived": false,
    "centre": 17.0445,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     13,
@@ -2149,7 +2254,8 @@
    "derived": false,
    "centre": 1.1241,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     9,
@@ -2174,9 +2280,11 @@
    "centre": 10.2876,
    "partners": 4,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     3,
-    15,
     19,
     24,
     26,
@@ -2199,7 +2307,8 @@
    "derived": false,
    "centre": 28.2397,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     6,
@@ -2226,7 +2335,8 @@
    "derived": false,
    "centre": 1.1124,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -2253,7 +2363,8 @@
    "derived": false,
    "centre": 162.3312,
    "partners": 5,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     8,
     9,
     13,
@@ -2280,7 +2391,8 @@
    "derived": false,
    "centre": 6.4559,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -2306,7 +2418,8 @@
    "derived": false,
    "centre": 35.3573,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     22,
@@ -2329,9 +2442,11 @@
    "centre": 38.5194,
    "partners": 4,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     9,
-    15,
     19,
     22,
     24,
@@ -2354,11 +2469,13 @@
    "centre": 12.4126,
    "partners": 4,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     3,
     9,
     13,
-    15,
     19,
     24,
     27
@@ -2381,12 +2498,14 @@
    "centre": 12.5586,
    "partners": 4,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     3,
     6,
     9,
     13,
-    15,
     19,
     24,
     27
@@ -2409,9 +2528,11 @@
    "centre": 23.5157,
    "partners": 4,
    "joined": [
+    15
+   ],
+   "joined_common": [
     9,
     13,
-    15,
     19,
     20,
     24,
@@ -2435,7 +2556,8 @@
    "derived": false,
    "centre": 19.4701,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     6,
@@ -2462,9 +2584,11 @@
    "centre": 4.1862,
    "partners": 4,
    "joined": [
+    15
+   ],
+   "joined_common": [
     9,
     13,
-    15,
     19,
     24,
     26,
@@ -2488,7 +2612,8 @@
    "derived": false,
    "centre": 1.0979,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -2514,7 +2639,8 @@
    "derived": false,
    "centre": 5.9975,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     13,
@@ -2540,11 +2666,13 @@
    "centre": 33.6249,
    "partners": 4,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     3,
     9,
     13,
-    15,
     19,
     24,
     27
@@ -2568,11 +2696,13 @@
    "centre": 6.9065,
    "partners": 4,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     6,
     9,
     13,
-    15,
     19,
     24,
     26,
@@ -2594,7 +2724,8 @@
    "derived": false,
    "centre": 32.3814,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     13,
     19,
@@ -2623,11 +2754,13 @@
    "centre": 7.9693,
    "partners": 5,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     6,
     9,
     13,
-    15,
     19,
     20,
     24,
@@ -2649,7 +2782,8 @@
    "derived": false,
    "centre": 22.6577,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     24,
@@ -2670,7 +2804,8 @@
    "derived": false,
    "centre": 19.9448,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     13,
@@ -2695,7 +2830,8 @@
    "derived": false,
    "centre": 30.3668,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     9,
@@ -2722,10 +2858,12 @@
    "centre": 8.2477,
    "partners": 4,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     9,
     13,
-    15,
     19,
     24,
     27
@@ -2745,7 +2883,8 @@
    "derived": false,
    "centre": 13.4581,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     19,
@@ -2770,10 +2909,12 @@
    "centre": 10.4426,
    "partners": 5,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     3,
     9,
-    15,
     19,
     24,
     26,
@@ -2795,7 +2936,8 @@
    "derived": false,
    "centre": 38.9765,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     19,
     22,
@@ -2816,7 +2958,8 @@
    "derived": false,
    "centre": 25.3556,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     19,
@@ -2838,7 +2981,8 @@
    "derived": false,
    "centre": 12.6712,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     6,
@@ -2866,11 +3010,13 @@
    "centre": 15.8152,
    "partners": 4,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     8,
     9,
     13,
-    15,
     19,
     22,
     24,
@@ -2891,7 +3037,8 @@
    "derived": false,
    "centre": 4.9369,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     19,
@@ -2912,7 +3059,8 @@
    "derived": false,
    "centre": 2.8739,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     13,
@@ -2937,11 +3085,13 @@
    "centre": 22.6919,
    "partners": 4,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     6,
     9,
     13,
-    15,
     19,
     22,
     24
@@ -2961,7 +3111,8 @@
    "derived": false,
    "centre": 18.5585,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     24,
@@ -2983,7 +3134,8 @@
    "derived": false,
    "centre": 7.5735,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -3008,10 +3160,12 @@
    "centre": 30.9559,
    "partners": 4,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     6,
     9,
-    15,
     19,
     22,
     24
@@ -3034,11 +3188,13 @@
    "centre": 22.407,
    "partners": 4,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     6,
     9,
     13,
-    15,
     19,
     22,
     24,
@@ -3060,7 +3216,8 @@
    "derived": false,
    "centre": 19.7299,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     6,
@@ -3086,7 +3243,8 @@
    "derived": false,
    "centre": 27.3297,
    "partners": 4,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -3111,7 +3269,8 @@
    "chart": "H",
    "plane": "GC",
    "ratio": "8/5",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     21,
@@ -3132,7 +3291,8 @@
    "chart": "H",
    "plane": "GC",
    "ratio": "22/9",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     6,
@@ -3157,7 +3317,8 @@
    "chart": "H",
    "plane": "Dec",
    "ratio": "10/7",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     13,
     19,
@@ -3179,7 +3340,8 @@
    "chart": "H",
    "plane": "GC",
    "ratio": "19/4",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -3203,10 +3365,12 @@
    "plane": "Dec",
    "ratio": "7/5",
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     6,
     9,
-    15,
     19,
     21,
     24
@@ -3226,7 +3390,8 @@
    "chart": "J",
    "plane": "Flat",
    "ratio": "14/3",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     8,
     9,
     19,
@@ -3250,7 +3415,8 @@
    "chart": "J",
    "plane": "GC",
    "ratio": "9/8",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     21,
     24
@@ -3270,7 +3436,8 @@
    "chart": "J",
    "plane": "GC",
    "ratio": "17/3",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     19,
@@ -3294,7 +3461,8 @@
    "chart": "J",
    "plane": "GC",
    "ratio": "13/8",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     6,
@@ -3318,7 +3486,8 @@
    "chart": "H",
    "plane": "GC",
    "ratio": "15/7",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     21,
     24,
@@ -3339,7 +3508,8 @@
    "chart": "J",
    "plane": "RA",
    "ratio": "11/3",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     19,
@@ -3362,7 +3532,8 @@
    "chart": "H",
    "plane": "Dec",
    "ratio": "20/9",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     19,
     21,
@@ -3383,7 +3554,8 @@
    "chart": "J",
    "plane": "Dec",
    "ratio": "23/7",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     13,
     19,
@@ -3406,7 +3578,8 @@
    "chart": "H",
    "plane": "Dec",
    "ratio": "9",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     3,
     9,
     13,
@@ -3426,7 +3599,8 @@
    ],
    "pair": null,
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     21,
     22,
@@ -3444,7 +3618,8 @@
    ],
    "pair": null,
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     19,
     20,
@@ -3465,7 +3640,8 @@
    ],
    "pair": null,
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     19,
@@ -3485,7 +3661,8 @@
    ],
    "pair": null,
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     21,
     24,
@@ -3504,7 +3681,8 @@
    ],
    "pair": null,
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     19,
@@ -3524,7 +3702,8 @@
    ],
    "pair": null,
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -3547,7 +3726,8 @@
    ],
    "pair": "Uranus\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     19,
     21,
@@ -3568,11 +3748,13 @@
    "pair": "Haumea\u2013Mars",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     8,
     9,
     13,
-    15,
     19,
     21,
     22,
@@ -3590,7 +3772,8 @@
    ],
    "pair": "Jupiter\u2013Orcus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     8,
     9,
@@ -3610,7 +3793,8 @@
    ],
    "pair": "Makemake\u2013Saturn",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     13,
     19,
@@ -3629,7 +3813,8 @@
    ],
    "pair": "Jupiter\u2013Node",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     13,
@@ -3649,7 +3834,8 @@
    ],
    "pair": "Neptune\u2013Pluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     19,
@@ -3669,7 +3855,8 @@
    ],
    "pair": "Node\u2013Uranus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     6,
@@ -3691,7 +3878,8 @@
    ],
    "pair": "Pallas\u2013Uranus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     9,
     19,
@@ -3711,7 +3899,8 @@
    ],
    "pair": "Mercury\u2013Pallas",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -3733,7 +3922,8 @@
    ],
    "pair": "Ceres\u2013Eris",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     19,
@@ -3752,7 +3942,8 @@
    ],
    "pair": "Juno\u2013Sedna",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     9,
     19,
@@ -3772,9 +3963,11 @@
    "pair": "Mars\u2013Saturn",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     9,
-    15,
     19,
     21,
     27
@@ -3792,7 +3985,9 @@
    "pair": "Mars\u2013Vesta",
    "derived": false,
    "joined": [
-    15,
+    15
+   ],
+   "joined_common": [
     19,
     21,
     27
@@ -3809,7 +4004,8 @@
    ],
    "pair": "Ceres\u2013Pluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     21
    ]
@@ -3825,7 +4021,8 @@
    ],
    "pair": "Chiron\u2013Transpluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     19,
     21,
@@ -3843,7 +4040,8 @@
    ],
    "pair": "Makemake\u2013Venus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     21,
@@ -3863,7 +4061,8 @@
    ],
    "pair": "Jupiter\u2013Mercury",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     6,
@@ -3887,7 +4086,8 @@
    ],
    "pair": "Node\u2013Pluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     19,
@@ -3908,7 +4108,8 @@
    ],
    "pair": "Juno\u2013Sun",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -3931,7 +4132,8 @@
    ],
    "pair": "Ceres\u2013Haumea",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     8,
     9,
     13,
@@ -3951,7 +4153,8 @@
    ],
    "pair": "Chiron\u2013Sedna",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     9,
     19,
@@ -3971,7 +4174,8 @@
    ],
    "pair": "Ceres\u2013Sedna",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     9,
     19,
@@ -3989,7 +4193,8 @@
    ],
    "pair": "Node\u2013Pallas",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     19,
     21,
@@ -4007,7 +4212,8 @@
    ],
    "pair": "Juno\u2013Sun",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -4028,7 +4234,8 @@
    ],
    "pair": "Jupiter\u2013Pluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     13,
     19,
@@ -4048,7 +4255,8 @@
    ],
    "pair": "Eris\u2013Sun",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     13,
@@ -4068,7 +4276,8 @@
    ],
    "pair": "Sun\u2013Venus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -4090,7 +4299,8 @@
    ],
    "pair": "Uranus\u2013Venus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     19,
     21,
@@ -4109,7 +4319,8 @@
    ],
    "pair": "Ceres\u2013Venus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     21,
     26,
@@ -4128,10 +4339,12 @@
    "pair": "Mars\u2013Pluto",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     6,
     9,
-    15,
     19,
     21,
     22
@@ -4151,11 +4364,13 @@
    "pair": "Jupiter\u2013Quaoar",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     3,
     9,
     13,
-    15,
     19,
     21,
     22,
@@ -4173,7 +4388,8 @@
    ],
    "pair": "Chiron\u2013Venus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     19,
     21,
@@ -4194,7 +4410,8 @@
    ],
    "pair": "Sun\u2013Uranus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -4217,7 +4434,8 @@
    ],
    "pair": "Chiron\u2013Sedna",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     9,
     19,
@@ -4238,8 +4456,10 @@
    "pair": "Mars\u2013Saturn",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     6,
-    15,
     19,
     21,
     27
@@ -4256,7 +4476,8 @@
    ],
    "pair": "Jupiter\u2013Venus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     3,
     13,
     19,
@@ -4276,7 +4497,8 @@
    ],
    "pair": "Ceres\u2013Saturn",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     19,
     21
@@ -4293,7 +4515,8 @@
    ],
    "pair": "Juno\u2013Sedna",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     9,
     19,
@@ -4312,7 +4535,8 @@
    ],
    "pair": "Eris\u2013Saturn",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     19,
@@ -4331,7 +4555,8 @@
    ],
    "pair": "Node\u2013Orcus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     8,
@@ -4352,7 +4577,8 @@
    ],
    "pair": "Mercury\u2013Sun",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     21,
@@ -4370,7 +4596,8 @@
    ],
    "pair": "Saturn\u2013Transpluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     9,
     19,
@@ -4389,7 +4616,8 @@
    ],
    "pair": "Pluto\u2013Uranus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     19,
     27
@@ -4408,7 +4636,8 @@
    ],
    "pair": "Jupiter\u2013Node",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     13,
@@ -4431,7 +4660,8 @@
    ],
    "pair": "Venus\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     21,
     22,
@@ -4450,7 +4680,8 @@
    ],
    "pair": "Ceres\u2013Sedna",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     9,
     19,
@@ -4469,10 +4700,12 @@
    "pair": "Mars\u2013Transpluto",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     6,
     9,
-    15,
     19,
     21,
     27
@@ -4489,7 +4722,8 @@
    ],
    "pair": "Ceres\u2013Mercury",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     21,
@@ -4507,7 +4741,8 @@
    ],
    "pair": "Neptune\u2013Sedna",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -4526,7 +4761,8 @@
    ],
    "pair": "Juno\u2013Uranus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     9,
     19,
@@ -4546,9 +4782,11 @@
    "pair": "Juno\u2013Quaoar",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     9,
-    15,
     19,
     21,
     25
@@ -4565,7 +4803,8 @@
    ],
    "pair": "Eris\u2013Mercury",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     13,
@@ -4588,9 +4827,11 @@
    "pair": "Mars\u2013Quaoar",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     9,
-    15,
     19,
     21,
     27
@@ -4608,9 +4849,11 @@
    "pair": "Neptune\u2013Quaoar",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     9,
-    15,
     19,
     21,
     22,
@@ -4631,8 +4874,10 @@
    "pair": "Mars\u2013Venus",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
-    15,
     19,
     21,
     26,
@@ -4651,8 +4896,10 @@
    "pair": "Mars\u2013Node",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
-    15,
     19,
     21
    ]
@@ -4670,7 +4917,8 @@
    ],
    "pair": "Chiron\u2013Node",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     19,
@@ -4691,7 +4939,8 @@
    ],
    "pair": "Mercury\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -4714,7 +4963,8 @@
    ],
    "pair": "Haumea\u2013Orcus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     8,
     9,
     13,
@@ -4733,7 +4983,8 @@
    ],
    "pair": "Node\u2013Sedna",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     21
    ]
@@ -4750,7 +5001,9 @@
    "pair": "Mars\u2013Venus",
    "derived": false,
    "joined": [
-    15,
+    15
+   ],
+   "joined_common": [
     19,
     21,
     26,
@@ -4769,8 +5022,10 @@
    "pair": "Mars\u2013Saturn",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     6,
-    15,
     19,
     21,
     27
@@ -4787,7 +5042,8 @@
    ],
    "pair": "Haumea\u2013Mercury",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     8,
     9,
     13,
@@ -4808,11 +5064,13 @@
    "pair": "Haumea\u2013Quaoar",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     8,
     9,
     13,
-    15,
     19,
     21,
     27
@@ -4829,7 +5087,8 @@
    ],
    "pair": "Jupiter\u2013Transpluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -4851,10 +5110,12 @@
    "pair": "Neptune\u2013Quaoar",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     6,
     9,
-    15,
     19,
     21
    ]
@@ -4870,7 +5131,8 @@
    ],
    "pair": "Sun\u2013Venus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -4892,7 +5154,8 @@
    ],
    "pair": "Ceres\u2013Uranus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     20,
     21,
@@ -4910,7 +5173,8 @@
    ],
    "pair": "Ceres\u2013Haumea",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     8,
     9,
     13,
@@ -4932,7 +5196,8 @@
    ],
    "pair": "Makemake\u2013Pallas",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     9,
     13,
@@ -4954,7 +5219,8 @@
    ],
    "pair": "Sedna\u2013Transpluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -4974,7 +5240,8 @@
    ],
    "pair": "Haumea\u2013Jupiter",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     8,
     9,
@@ -4994,7 +5261,8 @@
    ],
    "pair": "Sedna\u2013Transpluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -5014,7 +5282,8 @@
    ],
    "pair": "Orcus\u2013Pallas",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     8,
     9,
@@ -5032,7 +5301,8 @@
    ],
    "pair": "Pallas\u2013Uranus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     9,
     19,
@@ -5051,7 +5321,8 @@
    ],
    "pair": "Neptune\u2013Node",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     19,
     21,
@@ -5069,7 +5340,8 @@
    ],
    "pair": "Jupiter\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     3,
     13,
     19,
@@ -5088,7 +5360,8 @@
    ],
    "pair": "Haumea\u2013Pluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     8,
     9,
     13,
@@ -5109,8 +5382,10 @@
    "pair": "Quaoar\u2013Vesta",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     9,
-    15,
     19,
     21,
     22,
@@ -5128,7 +5403,8 @@
    ],
    "pair": "Eris\u2013Makemake",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     13,
@@ -5148,7 +5424,8 @@
    ],
    "pair": "Pallas\u2013Transpluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -5169,8 +5446,10 @@
    "pair": "Mars\u2013Vesta",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
-    15,
     19,
     21,
     22
@@ -5187,7 +5466,8 @@
    ],
    "pair": "Chiron\u2013Node",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     19,
@@ -5208,7 +5488,9 @@
    "pair": "Chiron\u2013Mars",
    "derived": false,
    "joined": [
-    15,
+    15
+   ],
+   "joined_common": [
     19,
     20,
     21,
@@ -5227,9 +5509,11 @@
    "pair": "Mars\u2013Orcus",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     8,
     9,
-    15,
     19,
     21,
     27
@@ -5249,9 +5533,11 @@
    "pair": "Mars\u2013Quaoar",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     9,
-    15,
     19,
     21,
     27
@@ -5268,7 +5554,8 @@
    ],
    "pair": "Juno\u2013Pallas",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     19,
     21,
@@ -5286,7 +5573,8 @@
    ],
    "pair": "Juno\u2013Saturn",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     19,
     21,
@@ -5304,7 +5592,8 @@
    ],
    "pair": "Jupiter\u2013Sedna",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -5325,7 +5614,8 @@
    ],
    "pair": "Ceres\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     21,
     22,
@@ -5344,8 +5634,10 @@
    "pair": "Quaoar\u2013Venus",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     9,
-    15,
     19,
     21,
     26,
@@ -5363,7 +5655,8 @@
    ],
    "pair": "Makemake\u2013Sun",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -5385,7 +5678,8 @@
    ],
    "pair": "Makemake\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     21,
@@ -5403,7 +5697,8 @@
    ],
    "pair": "Ceres\u2013Mercury",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     21,
@@ -5421,7 +5716,8 @@
    ],
    "pair": "Eris\u2013Mercury",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     13,
@@ -5443,7 +5739,8 @@
    ],
    "pair": "Jupiter\u2013Makemake",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     13,
@@ -5467,7 +5764,8 @@
    ],
    "pair": "Gonggong\u2013Jupiter",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     9,
@@ -5492,7 +5790,8 @@
    ],
    "pair": "Mercury\u2013Venus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -5516,7 +5815,9 @@
    "pair": "Mars\u2013Vesta",
    "derived": false,
    "joined": [
-    15,
+    15
+   ],
+   "joined_common": [
     19,
     21,
     27
@@ -5533,7 +5834,8 @@
    ],
    "pair": "Node\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     19,
@@ -5555,11 +5857,13 @@
    "pair": "Jupiter\u2013Quaoar",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     3,
     9,
     13,
-    15,
     19,
     21,
     22,
@@ -5579,7 +5883,8 @@
    ],
    "pair": "Neptune\u2013Node",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     6,
@@ -5600,7 +5905,8 @@
    ],
    "pair": "Haumea\u2013Sedna",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     8,
     9,
@@ -5623,7 +5929,8 @@
    ],
    "pair": "Juno\u2013Mercury",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -5646,7 +5953,8 @@
    ],
    "pair": "Haumea\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     21,
@@ -5664,7 +5972,8 @@
    ],
    "pair": "Gonggong\u2013Node",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     19,
@@ -5687,9 +5996,11 @@
    "pair": "Juno\u2013Mars",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     9,
-    15,
     19,
     21,
     25,
@@ -5707,7 +6018,8 @@
    ],
    "pair": "Mercury\u2013Pluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     21,
@@ -5725,7 +6037,8 @@
    ],
    "pair": "Makemake\u2013Node",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     13,
@@ -5745,7 +6058,8 @@
    ],
    "pair": "Neptune\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     19,
     21,
@@ -5763,7 +6077,8 @@
    ],
    "pair": "Haumea\u2013Node",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     21,
@@ -5781,7 +6096,8 @@
    ],
    "pair": "Makemake\u2013Venus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     21,
@@ -5802,9 +6118,11 @@
    "pair": "Quaoar\u2013Uranus",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     9,
-    15,
     19,
     21,
     27
@@ -5821,7 +6139,8 @@
    ],
    "pair": "Node\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     21,
     22
@@ -5839,10 +6158,12 @@
    "pair": "Jupiter\u2013Quaoar",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     3,
     9,
     13,
-    15,
     19,
     21,
     22,
@@ -5860,7 +6181,8 @@
    ],
    "pair": "Jupiter\u2013Pluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     13,
     19,
@@ -5880,7 +6202,8 @@
    ],
    "pair": "Juno\u2013Saturn",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     19,
     21,
@@ -5900,7 +6223,8 @@
    ],
    "pair": "Pluto\u2013Uranus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -5924,7 +6248,8 @@
    ],
    "pair": "Juno\u2013Sedna",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     9,
     19,
@@ -5943,7 +6268,8 @@
    ],
    "pair": "Neptune\u2013Pluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     19,
@@ -5961,7 +6287,8 @@
    ],
    "pair": "Gonggong\u2013Saturn",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     19,
     21,
@@ -5979,7 +6306,8 @@
    ],
    "pair": "Gonggong\u2013Neptune",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     9,
     19,
@@ -5998,7 +6326,8 @@
    ],
    "pair": "Makemake\u2013Transpluto",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -6019,7 +6348,8 @@
    ],
    "pair": "Haumea\u2013Venus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     8,
     9,
     13,
@@ -6042,7 +6372,8 @@
    ],
    "pair": "Pallas\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     9,
     19,
@@ -6062,7 +6393,8 @@
    ],
    "pair": "Mercury\u2013Sedna",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -6084,7 +6416,8 @@
    ],
    "pair": "Juno\u2013Saturn",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     19,
     21,
@@ -6102,7 +6435,8 @@
    ],
    "pair": "Eris\u2013Gonggong",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     19,
@@ -6122,7 +6456,8 @@
    ],
    "pair": "Transpluto\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -6142,7 +6477,8 @@
    ],
    "pair": "Neptune\u2013Uranus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -6162,7 +6498,8 @@
    ],
    "pair": "Chiron\u2013Eris",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     21,
     22
@@ -6179,7 +6516,8 @@
    ],
    "pair": "Chiron\u2013Node",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     19,
     21,
@@ -6197,7 +6535,8 @@
    ],
    "pair": "Ceres\u2013Juno",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     19,
     21,
@@ -6215,7 +6554,8 @@
    ],
    "pair": "Jupiter\u2013Vesta",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     13,
     19,
@@ -6234,7 +6574,8 @@
    ],
    "pair": "Gonggong\u2013Uranus",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     19,
     21,
@@ -6253,7 +6594,8 @@
    ],
    "pair": "Node\u2013Sedna",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     6,
@@ -6275,10 +6617,12 @@
    "pair": "Orcus\u2013Quaoar",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     2,
     8,
     9,
-    15,
     19,
     21
    ]
@@ -6294,7 +6638,8 @@
    ],
    "pair": "Node\u2013Saturn",
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     19,
     21,
@@ -6313,9 +6658,11 @@
    "pair": "Mars\u2013Sedna",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     6,
     9,
-    15,
     19,
     21,
     27
@@ -6331,7 +6678,8 @@
    ],
    "pair": null,
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     21
    ]
@@ -6346,7 +6694,8 @@
    ],
    "pair": null,
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     22,
@@ -6363,7 +6712,8 @@
    ],
    "pair": null,
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     21,
     24
@@ -6380,7 +6730,8 @@
    ],
    "pair": null,
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     21,
     24,
@@ -6397,7 +6748,8 @@
    ],
    "pair": null,
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     21
    ]
@@ -6413,7 +6765,8 @@
    ],
    "pair": null,
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     21,
@@ -6434,7 +6787,8 @@
    ],
    "pair": null,
    "derived": false,
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     9,
     19,
@@ -6454,7 +6808,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     20,
     21,
@@ -6472,7 +6827,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     21,
     24
    ]
@@ -6488,7 +6844,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     21
    ]
@@ -6504,7 +6861,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     8,
     9,
     13,
@@ -6523,7 +6881,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     19,
@@ -6542,7 +6901,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     19,
@@ -6562,7 +6922,9 @@
    "derived": false,
    "kind": "contact",
    "joined": [
-    15,
+    15
+   ],
+   "joined_common": [
     19,
     21,
     24
@@ -6579,7 +6941,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     21,
     24
    ]
@@ -6595,7 +6958,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     21
@@ -6612,7 +6976,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     19,
@@ -6631,7 +6996,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     19,
     21,
@@ -6649,7 +7015,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     21,
@@ -6667,7 +7034,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     13,
     21,
@@ -6685,7 +7053,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     8,
@@ -6707,7 +7076,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     21,
@@ -6725,7 +7095,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     13,
     21,
@@ -6744,8 +7115,10 @@
    "derived": false,
    "kind": "contact",
    "joined": [
+    15
+   ],
+   "joined_common": [
     9,
-    15,
     19,
     21,
     24
@@ -6762,7 +7135,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -6781,7 +7155,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     19,
     21,
@@ -6799,7 +7174,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     19,
     24
@@ -6816,7 +7192,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     21,
     24,
@@ -6834,7 +7211,8 @@
    "pair": null,
    "derived": false,
    "kind": "return",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     9,
     19,
     21
@@ -6851,7 +7229,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     21,
@@ -6870,7 +7249,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     6,
     9,
@@ -6892,7 +7272,9 @@
    "derived": false,
    "kind": "contact",
    "joined": [
-    15,
+    15
+   ],
+   "joined_common": [
     19,
     21,
     24
@@ -6909,7 +7291,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     21,
     24,
@@ -6927,7 +7310,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     3,
     13,
     19,
@@ -6947,7 +7331,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     3,
     19,
@@ -6966,7 +7351,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     19,
     24
    ]
@@ -6982,7 +7368,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     13,
     19,
     22,
@@ -7001,7 +7388,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     21
    ]
   },
@@ -7016,7 +7404,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     13,
     21,
@@ -7034,7 +7423,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     21
    ]
@@ -7050,7 +7440,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     6,
     9,
     19,
@@ -7069,7 +7460,8 @@
    "pair": null,
    "derived": false,
    "kind": "contact",
-   "joined": [
+   "joined": [],
+   "joined_common": [
     2,
     21
    ]
@@ -7086,9 +7478,11 @@
    "pair": "Mercury\u2013Quaoar",
    "derived": false,
    "joined": [
+    15
+   ],
+   "joined_common": [
     9,
     13,
-    15,
     19,
     21,
     24,

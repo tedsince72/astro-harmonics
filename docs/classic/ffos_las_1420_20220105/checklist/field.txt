@@ -1,6 +1,10 @@
-== ffos_las_1420_20220105  field of 3   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== ffos_las_1420_20220105  field of 3   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Gustavian / 1 Aidan Coleman; P03 3 Emir Sacree / 3 James Bowen; P05 6 New Age Dawning / 6 Tom Scudamore
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: P01 (t 0.245), P03 (t 0.578)
+   [14] shared pair also cross-linked: P05 (t 0.647)
+   [15] pair set H:J:S: none
 [ 1] cross link struck on both ends by 2+ sky bodies
      none in the field
 [ 2] cross link struck on both ends (one body, or one per end)
@@ -24,7 +28,7 @@
             tightest P03: swap Pallas/Transpluto: H Pallas – J Transpluto RA 0.1964 Dec 26.5013; H Transpluto – J Pallas RA 104.2169 Dec 0.0997
 [ 8] triangle struck at every corner by one sky body
      strict 2 of 3: P03(t 0.780, x1)  P01(t 0.942, x1)
-            tightest P03: triangle H Mercury / H Transpluto / J Vesta [mixed planes]: H Mercury–H Transpluto Flat 174.11148 (1567/9), H Mercury–J Vesta RA 36.66687 (330/9), H Transpluto–J Vesta RA 150.55590 (1355/9) — sky Sedna: sky Sedna -> H Mercury RA 93.44460 (841/9); sky Sedna -> H Transpluto RA 93.77817 (844/9); sky Sedna -> J Vesta RA 56.77774 (511/9)
+            tightest P03: triangle H Mercury / H Transpluto / J Vesta [mixed planes]: H Mercury–H Transpluto Flat 174.11148 (1567/9, ninth), H Mercury–J Vesta RA 36.66687 (330/9, ninth), H Transpluto–J Vesta RA 150.55590 (1355/9, ninth) [3 ninth sides] — sky Sedna: sky Sedna -> H Mercury RA 93.44460 (841/9); sky Sedna -> H Transpluto RA 93.77817 (844/9); sky Sedna -> J Vesta RA 56.77774 (511/9)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 3 of 3: P03(t 0.080, x9)  P01(t 0.320, x9)  P05(t 0.704, x10)
             tightest P03: H Pluto–Makemake Dec 46.55551 = 419/9 struck by 1 sky body — Sun: sky Sun -> H Pluto Dec 2.44447 (22/9) | sky Sun -> H Makemake Dec 48.99998 (49)
@@ -112,8 +116,10 @@
      strict 3 of 3: P01(t 0.020, x1)  P03(t 0.052, x1)  P05(t 0.127, x1)
             tightest P01: tightest cross link H Haumea – J Chiron RA 115.8304 Dec 0.0059
 [33] node loop
-     near   2 of 3: P03(t 0.837, x3)  P05(t 0.894, x6)
-            tightest P03: loop of 5: H Node -> J Node -> H Pluto -> J Pluto -> J Pallas -> H Node  (closed through the same body in both charts: Node, Pluto) — H Node = J Node (same body); H Pluto–J Ketu RA 0.3988 Dec 2.6689; H Pluto = J Pluto (same body); J Pluto–J Pallas RA 1.2554 Dec 23.6626; H Ketu–J Pallas RA 131.2986 Dec 0.1229
+     strict 2 of 3: P03(t 0.837, x2)  P05(t 0.894, x4)
+            tightest P03: loop of 6: H Node -> H Transpluto -> J Pallas -> J Pluto -> H Pluto -> J Node -> H Node  (closed through the same body in both charts: Node, Pluto) — H Ketu–H Transpluto RA 124.4845 Dec 0.0232; H Transpluto–J Pallas RA 104.2169 Dec 0.0997; J Pluto–J Pallas RA 1.2554 Dec 23.6626; J Pluto = H Pluto (same body); H Pluto–J Ketu RA 0.3988 Dec 2.6689; J Node = H Node (same body)
+     near   2 of 3: P03(t 0.837, x1)  P05(t 0.894, x2)
+            tightest P03: loop of 5: H Node -> J Node -> H Pluto -> J Pluto -> J Pallas -> H Node  (closed through the same body in both charts: Node, Pluto)  (3 distinct bodies) — H Node = J Node (same body); H Pluto–J Ketu RA 0.3988 Dec 2.6689; H Pluto = J Pluto (same body); J Pluto–J Pallas RA 1.2554 Dec 23.6626; H Ketu–J Pallas RA 131.2986 Dec 0.1229
 -- field-only (strict) per runner
    P01 1 Gustavian / 1 Aidan Coleman: 28
    P03 3 Emir Sacree / 3 James Bowen: 7, 11

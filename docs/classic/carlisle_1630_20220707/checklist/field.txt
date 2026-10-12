@@ -1,6 +1,10 @@
-== carlisle_1630_20220707  field of 6   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== carlisle_1630_20220707  field of 6   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Aswan / 1 David Allan; P03 2 Million Thanks / 2 Kevin Stott; P05 4 Persist / 4 Stevie Donohoe; P07 6 Whitefeathersfall / 6 Franny Norton; P09 7 Noble Mark / 7 Luke Morris; P11 8 Lucia Joy / 8 Ben Curtis
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: P05 (t 0.602)
+   [15] pair set H:J:S: P07 (t 0.446)
 [ 1] cross link struck on both ends by 2+ sky bodies
      none in the field
 [ 2] cross link struck on both ends (one body, or one per end)
@@ -33,7 +37,7 @@
             tightest P09: swap Eris/Mars: H Eris – J Mars RA 23.9047 Dec 0.3506 (near band); H Mars – J Eris RA 0.2595 Dec 19.7384
 [ 8] triangle struck at every corner by one sky body
      strict 4 of 6: P11(t 0.532, x3)  P01(t 0.660, x3)  P05(t 0.960, x1)  P09(t 0.998, x1)
-            tightest P11: triangle H Juno / H Mercury / J Ceres [one plane (RA)]: H Juno–H Mercury RA 58.99734 (59), H Juno–J Ceres RA 25.99867 (26), H Mercury–J Ceres RA 32.99867 (33) — sky Sedna: sky Sedna -> H Juno RA 41.99735 (42); sky Sedna -> H Mercury RA 17.00000 (17); sky Sedna -> J Ceres RA 15.99868 (16)
+            tightest P11: triangle H Juno / H Mercury / J Ceres [one plane (RA)]: H Juno–H Mercury RA 58.99734 (59), H Juno–J Ceres RA 25.99867 (26), H Mercury–J Ceres RA 32.99867 (33) [all whole] — sky Sedna: sky Sedna -> H Juno RA 41.99735 (42); sky Sedna -> H Mercury RA 17.00000 (17); sky Sedna -> J Ceres RA 15.99868 (16)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 6 of 6: P01(t 0.048, x8)  P09(t 0.160, x12)  P11(t 0.218, x11)  P07(t 0.346, x10)  P03(t 0.620, x3)  P05(t 0.660, x11)
             tightest P01: H Mars–Uranus Flat 32.00024 = 32 struck by 1 sky body — Uranus: sky Uranus -> H Mars Flat 15.00015 (15) | sky Uranus -> H Uranus Flat 17.00010 (17)
@@ -123,8 +127,10 @@
      strict 6 of 6: P11(t 0.005, x1)  P05(t 0.038, x1)  P03(t 0.075, x1)  P01(t 0.095, x1)  P07(t 0.095, x1)  P09(t 0.132, x1)
             tightest P11: tightest cross link H Uranus – J Mercury RA 121.9705 Dec 0.0015
 [33] node loop
-     near   2 of 6: P07(t 0.400, x2)  P01(t 0.961, x6)
-            tightest P07: loop of 4: H Node -> J Node -> H Orcus -> J Orcus -> H Node  (closed through the same body in both charts: Node, Orcus) — H Node = J Node (same body); H Orcus–J Rahu RA 177.6801 Dec 0.0644; H Orcus = J Orcus (same body); H Rahu–J Orcus RA 0.6001 Dec 7.6903
+     strict 2 of 6: P07(t 0.778, x1)  P01(t 0.961, x6)
+            tightest P07: loop of 6: H Node -> J Node -> J Pallas -> H Transpluto -> H Orcus -> J Orcus -> H Node  (closed through the same body in both charts: Node, Orcus) — H Node = J Node (same body); J Pallas–J Rahu RA 1.1668 Dec 21.4027; H Transpluto–J Pallas RA 176.6863 Dec 0.1813; H Orcus–H Transpluto RA 0.1730 Dec 21.1570; H Orcus = J Orcus (same body); H Rahu–J Orcus RA 0.6001 Dec 7.6903
+     near   ONLY P07: P07(t 0.400, x1)
+            tightest P07: loop of 4: H Node -> J Node -> H Orcus -> J Orcus -> H Node  (closed through the same body in both charts: Node, Orcus)  (2 distinct bodies) — H Node = J Node (same body); H Orcus–J Rahu RA 177.6801 Dec 0.0644; H Orcus = J Orcus (same body); H Rahu–J Orcus RA 0.6001 Dec 7.6903
 -- field-only (strict) per runner
    P01 1 Aswan / 1 David Allan: -
    P03 2 Million Thanks / 2 Kevin Stott: 11

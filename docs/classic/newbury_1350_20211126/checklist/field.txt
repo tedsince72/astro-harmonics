@@ -1,6 +1,10 @@
-== newbury_1350_20211126  field of 5   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== newbury_1350_20211126  field of 5   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Solo / 1 Harry Cobden; P03 2 Mister Coffey / 2 James Bowen; P05 4 Fifty Ball / 4 Jamie Moore; P07 5 Cascova / 5 Daryl Jacob; P09 7 Not Available / 7 Stan Sheppard
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: P05 (t 0.263)
+   [15] pair set H:J:S: P03 (t 0.456)
 [ 1] cross link struck on both ends by 2+ sky bodies
      near   ONLY P05: P05(t 1.824, x1)
             tightest P05: H Mars – J Rahu RA 3.0073 Dec 0.5472 (near band) struck by 2 sky bodies — Jupiter: sky Jupiter -> H Mars Dec 32.66632 (294/9) | sky Jupiter -> J Rahu Flat 91.11086 (820/9); Eris: sky Eris -> H Mars RA 22.99563 (23) | sky Eris -> J Rahu RA 26.00293 (26)
@@ -34,7 +38,7 @@
             tightest P09: swap Neptune/Pluto: H Neptune – J Pluto RA 97.5836 Dec 0.1194; H Pluto – J Neptune RA 13.0660 Dec 0.2352
 [ 8] triangle struck at every corner by one sky body
      strict 2 of 5: P01(t 0.680, x6)  P05(t 0.692, x2)
-            tightest P01: triangle H Mercury / H Vesta / J Venus [mixed planes]: H Mercury–H Vesta GC 80.33343 (723/9), H Mercury–J Venus Dec 5.00303 (5), H Vesta–J Venus RA 158.99919 (159) — sky Chiron: sky Chiron -> H Mercury GC 67.99739 (68); sky Chiron -> H Vesta RA 14.44410 (130/9); sky Chiron -> J Venus GC 143.77762 (1294/9)
+            tightest P01: triangle H Mercury / H Vesta / J Venus [mixed planes]: H Mercury–H Vesta GC 80.33343 (723/9, ninth), H Mercury–J Venus Dec 5.00303 (5), H Vesta–J Venus RA 158.99919 (159) [1 ninth side] — sky Chiron: sky Chiron -> H Mercury GC 67.99739 (68); sky Chiron -> H Vesta RA 14.44410 (130/9); sky Chiron -> J Venus GC 143.77762 (1294/9)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 5 of 5: P07(t 0.300, x2)  P05(t 0.380, x8)  P03(t 0.524, x12)  P01(t 0.542, x10)  P09(t 0.740, x7)
             tightest P07: J Vesta–Makemake Dec 19.11126 = 172/9 struck by 1 sky body — Uranus: sky Uranus -> J Vesta Dec 2.88876 (26/9) | sky Uranus -> J Makemake Dec 22.00002 (22)
@@ -123,10 +127,12 @@
      strict 5 of 5: P03(t 0.012, x1)  P01(t 0.054, x1)  P05(t 0.061, x1)  P09(t 0.207, x1)  P07(t 0.227, x1)
             tightest P03: tightest cross link H Juno – J Venus RA 118.0588 Dec 0.0037
 [33] node loop
-     near   ONLY P01: P01(t 0.203, x3)
-            tightest P01: loop of 4: H Node -> H Pallas -> J Pallas -> J Node -> H Node  (closed through the same body in both charts: Node, Pallas) — H Pallas–H Rahu RA 132.2127 Dec 0.1219; H Pallas = J Pallas (same body); J Pallas–J Ketu RA 16.9568 Dec 0.1125; J Node = H Node (same body)
+     strict ONLY P01: P01(t 0.863, x1)
+            tightest P01: loop of 6: H Node -> H Jupiter -> J Jupiter -> H Chiron -> J Pallas -> J Node -> H Node  (closed through the same body in both charts: Jupiter, Node) — H Jupiter–H Rahu RA 0.3040 Dec 1.6831; H Jupiter = J Jupiter (same body); H Chiron–J Jupiter RA 1.2946 Dec 5.5479; H Chiron–J Pallas RA 1.0885 Dec 11.7479; J Pallas–J Ketu RA 16.9568 Dec 0.1125; J Node = H Node (same body)
+     near   ONLY P01: P01(t 0.203, x2)
+            tightest P01: loop of 4: H Node -> H Pallas -> J Pallas -> J Node -> H Node  (closed through the same body in both charts: Node, Pallas)  (2 distinct bodies, no cross link between different bodies) — H Pallas–H Rahu RA 132.2127 Dec 0.1219; H Pallas = J Pallas (same body); J Pallas–J Ketu RA 16.9568 Dec 0.1125; J Node = H Node (same body)
 -- field-only (strict) per runner
-   P01 1 Solo / 1 Harry Cobden: 11
+   P01 1 Solo / 1 Harry Cobden: 11, 33
    P03 2 Mister Coffey / 2 James Bowen: 15
    P05 4 Fifty Ball / 4 Jamie Moore: 4, 5, 10, 14
    P07 5 Cascova / 5 Daryl Jacob: -

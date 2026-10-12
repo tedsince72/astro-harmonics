@@ -1,6 +1,10 @@
-== redcar_1515_20211015  field of 5   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== redcar_1515_20211015  field of 5   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 3 Divine Jewel / 3 David Egan; P03 4 Oheka / 4 Kieran Shoemark; P05 5 Present Moment / 5 Dylan Hogan; P07 6 Sea Time / 6 David Nolan; P09 8 World Without Love / 8 Joe Fanning
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: none
+   [15] pair set H:J:S: P05 (t 0.436), P09 (t 0.636)
 [ 1] cross link struck on both ends by 2+ sky bodies
      near   ONLY P03: P03(t 1.319, x1)
             tightest P03: H Eris – J Pallas RA 171.7718 Dec 0.3957 (near band) struck by 2 sky bodies — Mercury: sky Mercury -> H Eris Dec 2.11152 (19/9) | sky Mercury -> J Pallas RA 24.00315 (24); Orcus: sky Orcus -> H Eris Dec 9.44403 (85/9) | sky Orcus -> J Pallas Flat 57.44422 (517/9)
@@ -32,7 +36,7 @@
             tightest P09: swap Node/Venus: H Ketu – J Venus RA 74.4956 Dec 0.5243 (near band); H Venus – J Rahu RA 0.2772 Dec 0.7477  (node: Rahu one way, Ketu the other)
 [ 8] triangle struck at every corner by one sky body
      strict 4 of 5: P05(t 0.754, x1)  P09(t 0.760, x2)  P01(t 0.940, x1)  P07(t 0.982, x1)
-            tightest P05: triangle H Gonggong / H Mercury / H Uranus [mixed planes]: H Gonggong–H Mercury Flat 61.00119 (61), H Gonggong–H Uranus GC 58.99726 (59), H Mercury–H Uranus RA 2.00127 (2) — sky Node: sky Rahu -> H Gonggong GC 87.99623 (88); sky Rahu -> H Mercury Dec 8.99866 (9); sky Rahu -> H Uranus GC 29.00326 (29)
+            tightest P05: triangle H Gonggong / H Mercury / H Uranus [mixed planes]: H Gonggong–H Mercury Flat 61.00119 (61), H Gonggong–H Uranus GC 58.99726 (59), H Mercury–H Uranus RA 2.00127 (2) [all whole] — sky Node: sky Rahu -> H Gonggong GC 87.99623 (88); sky Rahu -> H Mercury Dec 8.99866 (9); sky Rahu -> H Uranus GC 29.00326 (29)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 5 of 5: P03(t 0.374, x9)  P09(t 0.408, x6)  P01(t 0.440, x6)  P05(t 0.646, x11)  P07(t 0.712, x4)
             tightest P03: H Mars–Quaoar Flat 132.11098 = 1189/9 struck by 1 sky body — Eris: sky Eris -> H Mars Dec 18.11108 (163/9) | sky Eris -> H Quaoar GC 111.99813 (112)
@@ -122,7 +126,7 @@
             tightest P01: tightest cross link H Orcus – J Mars RA 49.4544 Dec 0.0004
 [33] node loop
      near   ONLY P01: P01(t 0.525, x2)
-            tightest P01: loop of 4: H Node -> H Venus -> J Venus -> J Node -> H Node  (closed through the same body in both charts: Node, Venus) — H Venus–H Ketu RA 21.7206 Dec 0.3147; H Venus = J Venus (same body); J Venus–J Rahu RA 0.5502 Dec 2.0236; J Node = H Node (same body)
+            tightest P01: loop of 4: H Node -> H Venus -> J Venus -> J Node -> H Node  (closed through the same body in both charts: Node, Venus)  (2 distinct bodies, no cross link between different bodies) — H Venus–H Ketu RA 21.7206 Dec 0.3147; H Venus = J Venus (same body); J Venus–J Rahu RA 0.5502 Dec 2.0236; J Node = H Node (same body)
 -- field-only (strict) per runner
    P01 3 Divine Jewel / 3 David Egan: 29
    P03 4 Oheka / 4 Kieran Shoemark: -

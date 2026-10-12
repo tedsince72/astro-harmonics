@@ -1,5 +1,5 @@
 {
- "version": "CR v1 (12 Oct 2026)",
+ "version": "CR v1.1 (12 Oct 2026, joins field-relative)",
  "race": "newcastle_aw_1640_20220215",
  "step": 4,
  "n": 6,
@@ -338,7 +338,7 @@
      "P07": {
       "n": 2,
       "best": 0.46,
-      "what": "triangle H Venus / J Jupiter / J Sedna [one plane (RA)]: H Venus\u2013J Jupiter RA 36.99770 (37), H Venus\u2013J Sedna RA 49.00088 (49), J Jupiter\u2013J Sedna RA 85.99858 (86) \u2014 sky Haumea: sky Haumea -> H Venus RA 138.99898 (139); sky Haumea -> J Jupiter RA 102.00128 (102); sky Haumea -> J Sedna RA 172.00014 (172)",
+      "what": "triangle H Venus / J Jupiter / J Sedna [one plane (RA)]: H Venus\u2013J Jupiter RA 36.99770 (37), H Venus\u2013J Sedna RA 49.00088 (49), J Jupiter\u2013J Sedna RA 85.99858 (86) [all whole] \u2014 sky Haumea: sky Haumea -> H Venus RA 138.99898 (139); sky Haumea -> J Jupiter RA 102.00128 (102); sky Haumea -> J Sedna RA 172.00014 (172)",
       "rank": 1
      }
     },
@@ -1406,7 +1406,7 @@
    }
   },
   "33": {
-   "near": {
+   "strict": {
     "k": 2,
     "runners": {
      "P07": {
@@ -1416,9 +1416,21 @@
       "rank": 2
      },
      "P09": {
-      "n": 2,
+      "n": 1,
       "best": 0.6107,
       "what": "loop of 6: H Node -> H Sun -> J Sedna -> J Orcus -> H Orcus -> J Node -> H Node  (closed through the same body in both charts: Node, Orcus) \u2014 H Sun\u2013H Rahu RA 163.8486 Dec 0.1619; H Sun\u2013J Sedna RA 32.7903 Dec 0.1130; J Sedna\u2013J Orcus RA 87.9707 Dec 0.3664; J Orcus = H Orcus (same body); H Orcus\u2013J Rahu RA 172.3910 Dec 0.0193; J Node = H Node (same body)",
+      "rank": 1
+     }
+    },
+    "tightest": "P09"
+   },
+   "near": {
+    "k": 1,
+    "runners": {
+     "P09": {
+      "n": 1,
+      "best": 0.9163,
+      "what": "loop of 5: H Node -> J Node -> H Orcus -> J Orcus -> J Sedna -> H Node  (closed through the same body in both charts: Node, Orcus)  (3 distinct bodies) \u2014 H Node = J Node (same body); H Orcus\u2013J Rahu RA 172.3910 Dec 0.0193; H Orcus = J Orcus (same body); J Sedna\u2013J Orcus RA 87.9707 Dec 0.3664; H Rahu\u2013J Sedna RA 131.0583 Dec 0.2749",
       "rank": 1
      }
     },
@@ -1458,5 +1470,25 @@
   29,
   30,
   33
+ ],
+ "common": [
+  2,
+  3,
+  6,
+  9,
+  10,
+  13,
+  16,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  27,
+  29,
+  30
  ]
 }

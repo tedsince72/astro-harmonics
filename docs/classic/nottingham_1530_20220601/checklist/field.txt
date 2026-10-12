@@ -1,6 +1,10 @@
-== nottingham_1530_20220601  field of 5   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== nottingham_1530_20220601  field of 5   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 2 Dynamic Force / 2 Ray Dawson; P03 3 Princess Shabnam / 3 Harry Burns; P05 4 Ballet Steps / 4 Kieran Shoemark; P07 5 Swayze / 5 Lewis Edmunds; P09 6 Silky Wilkie / 6 Clifford Lee
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: none
+   [15] pair set H:J:S: P05 (t 0.852)
 [ 1] cross link struck on both ends by 2+ sky bodies
      strict ONLY P01: P01(t 0.924, x1)
             tightest P01: H Sedna – J Chiron RA 88.9928 Dec 0.0055 struck by 3 sky bodies — Ceres: sky Ceres -> H Sedna Dec 19.00361 (19) | sky Ceres -> J Chiron Dec 18.99813 (19); Venus: sky Venus -> H Sedna RA 24.00462 (24) | sky Venus -> J Chiron RA 112.99743 (113); Juno: sky Juno -> H Sedna Dec 7.99517 (8) | sky Juno -> J Chiron Dec 8.00065 (8)
@@ -33,7 +37,7 @@
             tightest P09: swap Chiron/Venus: H Chiron – J Venus RA 1.7323 Dec 3.0387 (near band); H Venus – J Chiron RA 153.4791 Dec 0.5894 (near band)
 [ 8] triangle struck at every corner by one sky body
      strict 2 of 5: P07(t 0.808, x4)  P05(t 0.960, x2)
-            tightest P07: triangle H Mars / H Transpluto / J Ceres [one plane (Dec)]: H Mars–H Transpluto Dec 2.00241 (2), H Mars–J Ceres Dec 3.99604 (4), H Transpluto–J Ceres Dec 5.99845 (6) — sky Ceres: sky Ceres -> H Mars Dec 14.00009 (14); sky Ceres -> H Transpluto GC 55.00007 (55); sky Ceres -> J Ceres Dec 10.00404 (10)
+            tightest P07: triangle H Mars / H Transpluto / J Ceres [one plane (Dec)]: H Mars–H Transpluto Dec 2.00241 (2), H Mars–J Ceres Dec 3.99604 (4), H Transpluto–J Ceres Dec 5.99845 (6) [all whole] — sky Ceres: sky Ceres -> H Mars Dec 14.00009 (14); sky Ceres -> H Transpluto GC 55.00007 (55); sky Ceres -> J Ceres Dec 10.00404 (10)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 5 of 5: P03(t 0.180, x7)  P09(t 0.316, x6)  P07(t 0.320, x12)  P01(t 0.350, x6)  P05(t 0.498, x11)
             tightest P03: J Pluto–Pallas close struck by 1 sky body — Saturn: sky Saturn -> J Pluto GC 85.00074 (85) | sky Saturn -> J Pallas RA 107.00090 (107)
@@ -122,10 +126,10 @@
      strict 5 of 5: P01(t 0.005, x1)  P07(t 0.022, x1)  P05(t 0.030, x1)  P09(t 0.034, x1)  P03(t 0.178, x1)
             tightest P01: tightest cross link H Saturn – J Uranus RA 0.0077 Dec 0.9040
 [33] node loop
-     strict ONLY P01: P01(t 0.840, x7)
-            tightest P01: loop of 5: H Node -> H Saturn -> J Uranus -> J Node -> J Venus -> H Node — H Saturn–H Ketu RA 3.3955 Dec 0.0831; H Saturn–J Uranus RA 0.0077 Dec 0.9040; J Uranus–J Rahu RA 41.9181 Dec 0.4035; J Venus–J Ketu RA 17.7369 Dec 0.5042; H Rahu–J Venus RA 27.5845 Dec 0.0793
-     near   4 of 5: P05(t 0.472, x10)  P07(t 0.666, x2)  P01(t 0.672, x8)  P09(t 0.943, x2)
-            tightest P05: loop of 5: H Node -> H Pluto -> J Pluto -> J Eris -> J Node -> H Node  (closed through the same body in both charts: Node, Pluto) — H Pluto–H Ketu RA 0.9022 Dec 0.1228; H Pluto = J Pluto (same body); J Pluto–J Eris RA 139.6051 Dec 0.1600; J Rahu–J Eris RA 177.3833 Dec 0.2832; J Node = H Node (same body)
+     strict ONLY P01: P01(t 0.672, x11)
+            tightest P01: loop of 5: H Node -> H Pluto -> H Saturn -> J Uranus -> J Node -> H Node  (closed through the same body in both charts: Node) — H Pluto–H Ketu RA 0.0305 Dec 0.2596; H Saturn–H Pluto RA 3.3650 Dec 0.1765; H Saturn–J Uranus RA 0.0077 Dec 0.9040; J Uranus–J Rahu RA 41.9181 Dec 0.4035; J Node = H Node (same body)
+     near   4 of 5: P05(t 0.472, x10)  P07(t 0.666, x2)  P01(t 0.672, x4)  P09(t 0.943, x2)
+            tightest P05: loop of 5: H Node -> H Pluto -> J Pluto -> J Eris -> J Node -> H Node  (closed through the same body in both charts: Node, Pluto)  (3 distinct bodies, no cross link between different bodies) — H Pluto–H Ketu RA 0.9022 Dec 0.1228; H Pluto = J Pluto (same body); J Pluto–J Eris RA 139.6051 Dec 0.1600; J Rahu–J Eris RA 177.3833 Dec 0.2832; J Node = H Node (same body)
 -- field-only (strict) per runner
    P01 2 Dynamic Force / 2 Ray Dawson: 1, 28, 33
    P03 3 Princess Shabnam / 3 Harry Burns: -

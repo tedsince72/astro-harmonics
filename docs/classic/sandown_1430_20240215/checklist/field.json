@@ -1,5 +1,5 @@
 {
- "version": "CR v1 (12 Oct 2026)",
+ "version": "CR v1.1 (12 Oct 2026, joins field-relative)",
  "race": "sandown_1430_20240215",
  "step": 4,
  "n": 7,
@@ -327,31 +327,31 @@
      "P01": {
       "n": 1,
       "best": 0.96,
-      "what": "triangle H Makemake / H Neptune / H Sun [one plane (Dec)]: H Makemake\u2013H Neptune Dec 30.66647 (276/9), H Makemake\u2013H Sun Dec 32.55539 (293/9), H Neptune\u2013H Sun Dec 1.88892 (17/9) \u2014 sky Transpluto: sky Transpluto -> H Makemake Dec 13.88917 (125/9); sky Transpluto -> H Neptune Dec 16.77730 (151/9); sky Transpluto -> H Sun Dec 18.66622 (168/9)",
+      "what": "triangle H Makemake / H Neptune / H Sun [one plane (Dec)]: H Makemake\u2013H Neptune Dec 30.66647 (276/9, ninth), H Makemake\u2013H Sun Dec 32.55539 (293/9, ninth), H Neptune\u2013H Sun Dec 1.88892 (17/9, ninth) [3 ninth sides] \u2014 sky Transpluto: sky Transpluto -> H Makemake Dec 13.88917 (125/9); sky Transpluto -> H Neptune Dec 16.77730 (151/9); sky Transpluto -> H Sun Dec 18.66622 (168/9)",
       "rank": 4
      },
      "P03": {
       "n": 1,
       "best": 0.88,
-      "what": "triangle H Vesta / J Haumea / J Mars [one plane (Dec)]: H Vesta\u2013J Haumea Dec 39.99767 (40), H Vesta\u2013J Mars Dec 17.99560 (18), J Haumea\u2013J Mars Dec 22.00207 (22) \u2014 sky Jupiter: sky Jupiter -> H Vesta Dec 30.99888 (31); sky Jupiter -> J Haumea Dec 8.99879 (9); sky Jupiter -> J Mars Dec 13.00328 (13)",
+      "what": "triangle H Vesta / J Haumea / J Mars [one plane (Dec)]: H Vesta\u2013J Haumea Dec 39.99767 (40), H Vesta\u2013J Mars Dec 17.99560 (18), J Haumea\u2013J Mars Dec 22.00207 (22) [all whole] \u2014 sky Jupiter: sky Jupiter -> H Vesta Dec 30.99888 (31); sky Jupiter -> J Haumea Dec 8.99879 (9); sky Jupiter -> J Mars Dec 13.00328 (13)",
       "rank": 3
      },
      "P05": {
       "n": 1,
       "best": 0.97,
-      "what": "triangle H Quaoar / J Saturn / J Vesta [one plane (Dec)]: H Quaoar\u2013J Saturn Dec 6.99992 (7), H Quaoar\u2013J Vesta Dec 8.99697 (9), J Saturn\u2013J Vesta Dec 1.99705 (2) \u2014 sky Sedna: sky Sedna -> H Quaoar Dec 23.99685 (24); sky Sedna -> J Saturn Dec 30.99677 (31); sky Sedna -> J Vesta GC 147.99515 (148)",
+      "what": "triangle H Quaoar / J Saturn / J Vesta [one plane (Dec)]: H Quaoar\u2013J Saturn Dec 6.99992 (7), H Quaoar\u2013J Vesta Dec 8.99697 (9), J Saturn\u2013J Vesta Dec 1.99705 (2) [all whole] \u2014 sky Sedna: sky Sedna -> H Quaoar Dec 23.99685 (24); sky Sedna -> J Saturn Dec 30.99677 (31); sky Sedna -> J Vesta GC 147.99515 (148)",
       "rank": 5
      },
      "P11": {
       "n": 2,
       "best": 0.564,
-      "what": "triangle H Haumea / H Makemake / H Mercury [one plane (Dec)]: H Haumea\u2013H Makemake Dec 7.99886 (8), H Haumea\u2013H Mercury Dec 6.99832 (7), H Makemake\u2013H Mercury Dec 14.99718 (15) \u2014 sky Venus: sky Venus -> H Haumea Dec 37.99876 (38); sky Venus -> H Makemake Dec 45.99761 (46); sky Venus -> H Mercury Dec 31.00043 (31)",
+      "what": "triangle H Haumea / H Makemake / H Mercury [one plane (Dec)]: H Haumea\u2013H Makemake Dec 7.99886 (8), H Haumea\u2013H Mercury Dec 6.99832 (7), H Makemake\u2013H Mercury Dec 14.99718 (15) [all whole] \u2014 sky Venus: sky Venus -> H Haumea Dec 37.99876 (38); sky Venus -> H Makemake Dec 45.99761 (46); sky Venus -> H Mercury Dec 31.00043 (31)",
       "rank": 1
      },
      "P13": {
       "n": 1,
       "best": 0.64,
-      "what": "triangle H Mercury / J Haumea / J Uranus [one plane (RA)]: H Mercury\u2013J Haumea RA 171.22190 (1541/9), H Mercury\u2013J Uranus RA 59.11110 (532/9), J Haumea\u2013J Uranus RA 129.66699 (1167/9) \u2014 sky Pluto: sky Pluto -> H Mercury RA 82.22224 (740/9); sky Pluto -> J Haumea RA 106.55586 (959/9); sky Pluto -> J Uranus RA 23.11113 (208/9)",
+      "what": "triangle H Mercury / J Haumea / J Uranus [one plane (RA)]: H Mercury\u2013J Haumea RA 171.22190 (1541/9, ninth), H Mercury\u2013J Uranus RA 59.11110 (532/9, ninth), J Haumea\u2013J Uranus RA 129.66699 (1167/9, ninth) [3 ninth sides] \u2014 sky Pluto: sky Pluto -> H Mercury RA 82.22224 (740/9); sky Pluto -> J Haumea RA 106.55586 (959/9); sky Pluto -> J Uranus RA 23.11113 (208/9)",
       "rank": 2
      }
     },
@@ -1583,7 +1583,7 @@
      "P07": {
       "n": 1,
       "best": 0.1,
-      "what": "loop of 3: H Node -> H Haumea -> J Node -> H Node  (closed through the same body in both charts: Node) \u2014 H Rahu\u2013H Haumea RA 78.5401 Dec 0.0600; H Haumea\u2013J Rahu RA 0.0957 Dec 30.4715; J Node = H Node (same body)",
+      "what": "loop of 3: H Node -> H Haumea -> J Node -> H Node  (closed through the same body in both charts: Node)  (2 distinct bodies) \u2014 H Rahu\u2013H Haumea RA 78.5401 Dec 0.0600; H Haumea\u2013J Rahu RA 0.0957 Dec 30.4715; J Node = H Node (same body)",
       "rank": 1
      }
     },
@@ -1623,5 +1623,24 @@
   29,
   30,
   33
+ ],
+ "common": [
+  2,
+  6,
+  8,
+  9,
+  13,
+  16,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  30
  ]
 }

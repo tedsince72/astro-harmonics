@@ -1,5 +1,5 @@
 {
- "version": "CR v1 (12 Oct 2026)",
+ "version": "CR v1.1 (12 Oct 2026, joins field-relative)",
  "race": "nottingham_1530_20220601",
  "step": 4,
  "n": 5,
@@ -283,13 +283,13 @@
      "P05": {
       "n": 2,
       "best": 0.96,
-      "what": "triangle H Ceres / H Sun / J Eris [one plane (Dec)]: H Ceres\u2013H Sun Dec 23.77826 (214/9), H Ceres\u2013J Eris Dec 8.55561 (77/9), H Sun\u2013J Eris Dec 15.22265 (137/9) \u2014 sky Makemake: sky Makemake -> H Ceres Dec 39.66696 (357/9); sky Makemake -> H Sun Dec 15.88870 (143/9); sky Makemake -> J Eris Dec 31.11136 (280/9)",
+      "what": "triangle H Ceres / H Sun / J Eris [one plane (Dec)]: H Ceres\u2013H Sun Dec 23.77826 (214/9, ninth), H Ceres\u2013J Eris Dec 8.55561 (77/9, ninth), H Sun\u2013J Eris Dec 15.22265 (137/9, ninth) [3 ninth sides] \u2014 sky Makemake: sky Makemake -> H Ceres Dec 39.66696 (357/9); sky Makemake -> H Sun Dec 15.88870 (143/9); sky Makemake -> J Eris Dec 31.11136 (280/9)",
       "rank": 2
      },
      "P07": {
       "n": 4,
       "best": 0.808,
-      "what": "triangle H Mars / H Transpluto / J Ceres [one plane (Dec)]: H Mars\u2013H Transpluto Dec 2.00241 (2), H Mars\u2013J Ceres Dec 3.99604 (4), H Transpluto\u2013J Ceres Dec 5.99845 (6) \u2014 sky Ceres: sky Ceres -> H Mars Dec 14.00009 (14); sky Ceres -> H Transpluto GC 55.00007 (55); sky Ceres -> J Ceres Dec 10.00404 (10)",
+      "what": "triangle H Mars / H Transpluto / J Ceres [one plane (Dec)]: H Mars\u2013H Transpluto Dec 2.00241 (2), H Mars\u2013J Ceres Dec 3.99604 (4), H Transpluto\u2013J Ceres Dec 5.99845 (6) [all whole] \u2014 sky Ceres: sky Ceres -> H Mars Dec 14.00009 (14); sky Ceres -> H Transpluto GC 55.00007 (55); sky Ceres -> J Ceres Dec 10.00404 (10)",
       "rank": 1
      }
     },
@@ -1254,9 +1254,9 @@
     "k": 1,
     "runners": {
      "P01": {
-      "n": 7,
-      "best": 0.8404,
-      "what": "loop of 5: H Node -> H Saturn -> J Uranus -> J Node -> J Venus -> H Node \u2014 H Saturn\u2013H Ketu RA 3.3955 Dec 0.0831; H Saturn\u2013J Uranus RA 0.0077 Dec 0.9040; J Uranus\u2013J Rahu RA 41.9181 Dec 0.4035; J Venus\u2013J Ketu RA 17.7369 Dec 0.5042; H Rahu\u2013J Venus RA 27.5845 Dec 0.0793",
+      "n": 11,
+      "best": 0.6725,
+      "what": "loop of 5: H Node -> H Pluto -> H Saturn -> J Uranus -> J Node -> H Node  (closed through the same body in both charts: Node) \u2014 H Pluto\u2013H Ketu RA 0.0305 Dec 0.2596; H Saturn\u2013H Pluto RA 3.3650 Dec 0.1765; H Saturn\u2013J Uranus RA 0.0077 Dec 0.9040; J Uranus\u2013J Rahu RA 41.9181 Dec 0.4035; J Node = H Node (same body)",
       "rank": 1
      }
     },
@@ -1266,27 +1266,27 @@
     "k": 4,
     "runners": {
      "P01": {
-      "n": 8,
+      "n": 4,
       "best": 0.6725,
-      "what": "loop of 4: H Node -> H Saturn -> J Uranus -> J Node -> H Node  (closed through the same body in both charts: Node) \u2014 H Saturn\u2013H Ketu RA 3.3955 Dec 0.0831; H Saturn\u2013J Uranus RA 0.0077 Dec 0.9040; J Uranus\u2013J Rahu RA 41.9181 Dec 0.4035; J Node = H Node (same body)",
+      "what": "loop of 4: H Node -> H Saturn -> J Uranus -> J Node -> H Node  (closed through the same body in both charts: Node)  (3 distinct bodies) \u2014 H Saturn\u2013H Ketu RA 3.3955 Dec 0.0831; H Saturn\u2013J Uranus RA 0.0077 Dec 0.9040; J Uranus\u2013J Rahu RA 41.9181 Dec 0.4035; J Node = H Node (same body)",
       "rank": 3
      },
      "P05": {
       "n": 10,
       "best": 0.4719,
-      "what": "loop of 5: H Node -> H Pluto -> J Pluto -> J Eris -> J Node -> H Node  (closed through the same body in both charts: Node, Pluto) \u2014 H Pluto\u2013H Ketu RA 0.9022 Dec 0.1228; H Pluto = J Pluto (same body); J Pluto\u2013J Eris RA 139.6051 Dec 0.1600; J Rahu\u2013J Eris RA 177.3833 Dec 0.2832; J Node = H Node (same body)",
+      "what": "loop of 5: H Node -> H Pluto -> J Pluto -> J Eris -> J Node -> H Node  (closed through the same body in both charts: Node, Pluto)  (3 distinct bodies, no cross link between different bodies) \u2014 H Pluto\u2013H Ketu RA 0.9022 Dec 0.1228; H Pluto = J Pluto (same body); J Pluto\u2013J Eris RA 139.6051 Dec 0.1600; J Rahu\u2013J Eris RA 177.3833 Dec 0.2832; J Node = H Node (same body)",
       "rank": 1
      },
      "P07": {
       "n": 2,
       "best": 0.6662,
-      "what": "loop of 5: H Node -> H Venus -> J Venus -> J Sun -> J Node -> H Node  (closed through the same body in both charts: Node, Venus) \u2014 H Venus\u2013H Ketu RA 10.4606 Dec 0.0036; H Venus = J Venus (same body); J Sun\u2013J Venus RA 0.9993 Dec 1.5236; J Sun\u2013J Ketu RA 122.5963 Dec 0.0472; J Node = H Node (same body)",
+      "what": "loop of 5: H Node -> H Venus -> J Venus -> J Sun -> J Node -> H Node  (closed through the same body in both charts: Node, Venus)  (3 distinct bodies, no cross link between different bodies) \u2014 H Venus\u2013H Ketu RA 10.4606 Dec 0.0036; H Venus = J Venus (same body); J Sun\u2013J Venus RA 0.9993 Dec 1.5236; J Sun\u2013J Ketu RA 122.5963 Dec 0.0472; J Node = H Node (same body)",
       "rank": 2
      },
      "P09": {
       "n": 2,
       "best": 0.9425,
-      "what": "loop of 4: H Node -> H Pluto -> J Pluto -> J Node -> H Node  (closed through the same body in both charts: Node, Pluto) \u2014 H Pluto\u2013H Ketu RA 0.7086 Dec 0.1505; H Pluto = J Pluto (same body); J Pluto\u2013J Rahu RA 46.1621 Dec 0.5655; J Node = H Node (same body)",
+      "what": "loop of 4: H Node -> H Pluto -> J Pluto -> J Node -> H Node  (closed through the same body in both charts: Node, Pluto)  (2 distinct bodies, no cross link between different bodies) \u2014 H Pluto\u2013H Ketu RA 0.7086 Dec 0.1505; H Pluto = J Pluto (same body); J Pluto\u2013J Rahu RA 46.1621 Dec 0.5655; J Node = H Node (same body)",
       "rank": 4
      }
     },
@@ -1326,5 +1326,25 @@
   29,
   30,
   33
+ ],
+ "common": [
+  2,
+  3,
+  6,
+  9,
+  10,
+  11,
+  13,
+  16,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  27,
+  30
  ]
 }

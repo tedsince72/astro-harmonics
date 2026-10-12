@@ -1,6 +1,10 @@
-== lingfield_1500_20220123  field of 6   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== lingfield_1500_20220123  field of 6   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Bristol De Mai / 1 Sam Twiston-Davies; P03 2 Dashel Drasher / 2 Rex Dingle; P05 3 Master Tommytucker / 3 Harry Cobden; P07 5 Itchy Feet / 5 Gavin Sheehan; P09 6 Lieutenant Rocco / 6 Tom Scudamore; P11 7 Two For Gold / 7 David Bass
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: P11 (t 0.852), P03 (t 0.951)
+   [15] pair set H:J:S: none
 [ 1] cross link struck on both ends by 2+ sky bodies
      near   3 of 6: P05(t 1.077, x1)  P01(t 1.081, x1)  P11(t 1.980, x1)
             tightest P05: H Uranus – J Orcus RA 137.6053 Dec 0.3230 (near band) struck by 2 sky bodies — Sedna: sky Sedna -> H Uranus Flat 58.44424 (526/9) | sky Sedna -> J Orcus Dec 8.88900 (80/9); Haumea: sky Haumea -> H Uranus RA 142.99720 (143) | sky Haumea -> J Orcus GC 79.99604 (80)
@@ -36,7 +40,7 @@
             tightest P03: swap Node/Sedna: H Ketu – J Sedna RA 0.9947 Dec 12.0445; H Sedna – J Rahu RA 110.0361 Dec 0.1155  (node: Rahu one way, Ketu the other)
 [ 8] triangle struck at every corner by one sky body
      strict 2 of 6: P03(t 0.758, x2)  P09(t 0.990, x1)
-            tightest P03: triangle H Makemake / J Pallas / J Quaoar [one plane (RA)]: H Makemake–J Pallas RA 120.00154 (120), H Makemake–J Quaoar RA 54.00228 (54), J Pallas–J Quaoar RA 65.99926 (66) — sky Ceres: sky Ceres -> H Makemake RA 134.99621 (135); sky Ceres -> J Pallas RA 105.00225 (105); sky Ceres -> J Quaoar RA 171.00151 (171)
+            tightest P03: triangle H Makemake / J Pallas / J Quaoar [one plane (RA)]: H Makemake–J Pallas RA 120.00154 (120), H Makemake–J Quaoar RA 54.00228 (54), J Pallas–J Quaoar RA 65.99926 (66) [all whole] — sky Ceres: sky Ceres -> H Makemake RA 134.99621 (135); sky Ceres -> J Pallas RA 105.00225 (105); sky Ceres -> J Quaoar RA 171.00151 (171)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 6 of 6: P03(t 0.100, x7)  P09(t 0.300, x9)  P11(t 0.308, x13)  P01(t 0.346, x9)  P07(t 0.470, x6)  P05(t 0.580, x9)
             tightest P03: H Sun–Orcus Dec 19.00026 = 19 struck by 1 sky body — Uranus: sky Uranus -> H Sun Dec 3.00025 (3) | sky Uranus -> H Orcus Dec 22.00050 (22)
@@ -124,12 +128,12 @@
      strict 6 of 6: P09(t 0.007, x1)  P01(t 0.009, x1)  P05(t 0.020, x1)  P07(t 0.070, x1)  P11(t 0.117, x1)  P03(t 0.148, x1)
             tightest P09: tightest cross link H Chiron – J Mars RA 167.8123 Dec 0.0020
 [33] node loop
-     strict ONLY P01: P01(t 0.534, x6)
-            tightest P01: loop of 3: H Node -> J Mars -> J Node -> H Node — H Ketu–J Mars RA 25.6392 Dec 0.1603; J Mars–J Ketu RA 25.7534 Dec 0.1575; H Rahu–J Rahu RA 0.1142 Dec 0.0029
-     near   2 of 6: P03(t 0.647, x3)  P07(t 0.827, x3)
-            tightest P03: loop of 5: H Node -> H Pallas -> J Pallas -> H Juno -> J Node -> H Node  (closed through the same body in both charts: Node, Pallas) — H Pallas–H Ketu RA 0.5257 Dec 21.5131; H Pallas = J Pallas (same body); H Juno–J Pallas RA 0.4501 Dec 5.6292; H Juno–J Ketu RA 33.2516 Dec 0.1941; J Node = H Node (same body)
+     strict 2 of 6: P03(t 0.647, x1)  P07(t 0.827, x3)
+            tightest P03: loop of 6: H Node -> H Pallas -> J Pallas -> J Uranus -> H Juno -> J Node -> H Node  (closed through the same body in both charts: Node, Pallas) — H Pallas–H Ketu RA 0.5257 Dec 21.5131; H Pallas = J Pallas (same body); J Uranus–J Pallas RA 0.7484 Dec 17.8300; H Juno–J Uranus RA 0.2983 Dec 12.2008; H Juno–J Ketu RA 33.2516 Dec 0.1941; J Node = H Node (same body)
+     near   2 of 6: P01(t 0.534, x6)  P03(t 0.647, x2)
+            tightest P01: loop of 3: H Node -> J Mars -> J Node -> H Node  (2 distinct bodies) — H Ketu–J Mars RA 25.6392 Dec 0.1603; J Mars–J Ketu RA 25.7534 Dec 0.1575; H Rahu–J Rahu RA 0.1142 Dec 0.0029
 -- field-only (strict) per runner
-   P01 1 Bristol De Mai / 1 Sam Twiston-Davies: 12, 33
+   P01 1 Bristol De Mai / 1 Sam Twiston-Davies: 12
    P03 2 Dashel Drasher / 2 Rex Dingle: -
    P05 3 Master Tommytucker / 3 Harry Cobden: -
    P07 5 Itchy Feet / 5 Gavin Sheehan: -

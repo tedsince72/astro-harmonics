@@ -1,6 +1,10 @@
-== newcastle_aw_1220_20211112  field of 6   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== newcastle_aw_1220_20211112  field of 6   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Further Measure / 1 Tom Marquand; P03 2 Sir Chauvelin / 2 Paul Mulrennan; P05 3 Dreams Unwind / 3 Joe Fanning; P07 4 Greengage / 4 Jason Hart; P09 6 Cuban Hope / 6 Ellie MacKenzie; P11 7 Buxted Too / 7 David Egan
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: P03 (t 0.740)
+   [14] shared pair also cross-linked: none
+   [15] pair set H:J:S: P11 (t 0.392), P05 (t 0.476), P03 (t 0.978)
 [ 1] cross link struck on both ends by 2+ sky bodies
      none in the field
 [ 2] cross link struck on both ends (one body, or one per end)
@@ -31,7 +35,7 @@
             tightest P05: swap Node/Transpluto: H Rahu – J Transpluto RA 0.8639 Dec 0.2503; H Transpluto – J Ketu RA 1.5634 Dec 0.5871 (near band)  (node: Rahu one way, Ketu the other)
 [ 8] triangle struck at every corner by one sky body
      strict 3 of 6: P01(t 0.552, x1)  P05(t 0.720, x1)  P07(t 0.994, x1)
-            tightest P01: triangle H Mars / H Pluto / J Sun [one plane (Dec)]: H Mars–H Pluto Dec 39.99841 (40), H Mars–J Sun Dec 14.99967 (15), H Pluto–J Sun Dec 24.99874 (25) — sky Saturn: sky Saturn -> H Mars Dec 38.00117 (38); sky Saturn -> H Pluto Dec 1.99724 (2); sky Saturn -> J Sun Dec 23.00150 (23)
+            tightest P01: triangle H Mars / H Pluto / J Sun [one plane (Dec)]: H Mars–H Pluto Dec 39.99841 (40), H Mars–J Sun Dec 14.99967 (15), H Pluto–J Sun Dec 24.99874 (25) [all whole] — sky Saturn: sky Saturn -> H Mars Dec 38.00117 (38); sky Saturn -> H Pluto Dec 1.99724 (2); sky Saturn -> J Sun Dec 23.00150 (23)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 6 of 6: P05(t 0.240, x4)  P01(t 0.294, x10)  P03(t 0.299, x5)  P07(t 0.352, x6)  P11(t 0.400, x7)  P09(t 0.540, x9)
             tightest P05: H Eris–Sedna Dec 9.88901 = 89/9 struck by 1 sky body — Chiron: sky Chiron -> H Eris Flat 20.00037 (20) | sky Chiron -> H Sedna Dec 1.99930 (2)
@@ -123,8 +127,10 @@
      strict 6 of 6: P01(t 0.009, x1)  P03(t 0.031, x1)  P11(t 0.068, x1)  P09(t 0.073, x1)  P07(t 0.076, x1)  P05(t 0.314, x1)
             tightest P01: tightest cross link H Neptune – J Jupiter RA 0.0140 Dec 0.0740
 [33] node loop
-     near   3 of 6: P05(t 0.872, x1)  P01(t 0.905, x4)  P11(t 0.936, x2)
-            tightest P05: loop of 5: H Node -> J Node -> H Orcus -> H Transpluto -> J Transpluto -> H Node  (closed through the same body in both charts: Node, Transpluto) — H Node = J Node (same body); H Orcus–J Rahu RA 178.0439 Dec 0.2615; H Orcus–H Transpluto RA 0.3927 Dec 21.1558; H Transpluto = J Transpluto (same body); H Rahu–J Transpluto RA 0.8639 Dec 0.2503
+     strict 2 of 6: P01(t 0.905, x4)  P11(t 0.936, x1)
+            tightest P01: loop of 5: H Node -> H Transpluto -> J Mercury -> J Mars -> J Node -> H Node  (closed through the same body in both charts: Node) — H Rahu–H Transpluto RA 1.4488 Dec 0.5429; H Transpluto–J Mercury RA 134.5744 Dec 0.1272; J Mercury–J Mars RA 0.2741 Dec 3.9838; J Mars–J Rahu RA 143.3278 Dec 0.3488; J Node = H Node (same body)
+     near   2 of 6: P05(t 0.872, x1)  P11(t 0.936, x1)
+            tightest P05: loop of 5: H Node -> J Node -> H Orcus -> H Transpluto -> J Transpluto -> H Node  (closed through the same body in both charts: Node, Transpluto)  (3 distinct bodies) — H Node = J Node (same body); H Orcus–J Rahu RA 178.0439 Dec 0.2615; H Orcus–H Transpluto RA 0.3927 Dec 21.1558; H Transpluto = J Transpluto (same body); H Rahu–J Transpluto RA 0.8639 Dec 0.2503
 -- field-only (strict) per runner
    P01 1 Further Measure / 1 Tom Marquand: -
    P03 2 Sir Chauvelin / 2 Paul Mulrennan: 17

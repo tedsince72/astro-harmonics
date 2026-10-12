@@ -1,6 +1,10 @@
-== newton_abbot_1525_20220717  field of 4   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== newton_abbot_1525_20220717  field of 4   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Grageelagh Girl / 1 Tom Broughton; P03 2 My Lady Grey / 2 Brendan Powell; P05 3 Cresswell Queen / 3 Harry Reed; P07 4 On Time / 4 Conor Ring
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: P01 (t 0.285)
+   [14] shared pair also cross-linked: none
+   [15] pair set H:J:S: none
 [ 1] cross link struck on both ends by 2+ sky bodies
      strict ONLY P01: P01(t 0.780, x1)
             tightest P01: H Chiron – J Ketu RA 15.5837 Dec 0.0754 struck by 2 sky bodies — Orcus: sky Orcus -> H Chiron Dec 6.99756 (7) | sky Orcus -> J Ketu Flat 165.99800 (166); Uranus: sky Uranus -> H Chiron RA 70.88850 (638/9) | sky Uranus -> J Ketu Dec 21.00206 (21)
@@ -31,7 +35,7 @@
             tightest P05: swap Neptune/Pluto: H Neptune – J Pluto RA 99.2444 Dec 0.4094 (near band); H Pluto – J Neptune RA 11.0449 Dec 0.0843
 [ 8] triangle struck at every corner by one sky body
      strict 2 of 4: P01(t 0.612, x3)  P07(t 0.760, x3)
-            tightest P01: triangle H Makemake / H Saturn / J Rahu [one plane (Dec)]: H Makemake–H Saturn Dec 29.99694 (30), H Makemake–J Rahu Dec 23.99771 (24), H Saturn–J Rahu Dec 5.99923 (6) — sky Chiron: sky Chiron -> H Makemake Dec 19.99758 (20); sky Chiron -> H Saturn GC 172.99955 (173); sky Chiron -> J Rahu Dec 4.00013 (4)
+            tightest P01: triangle H Makemake / H Saturn / J Rahu [one plane (Dec)]: H Makemake–H Saturn Dec 29.99694 (30), H Makemake–J Rahu Dec 23.99771 (24), H Saturn–J Rahu Dec 5.99923 (6) [all whole] — sky Chiron: sky Chiron -> H Makemake Dec 19.99758 (20); sky Chiron -> H Saturn GC 172.99955 (173); sky Chiron -> J Rahu Dec 4.00013 (4)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 4 of 4: P05(t 0.206, x14)  P03(t 0.218, x9)  P01(t 0.282, x15)  P07(t 0.400, x10)
             tightest P05: J Mercury–Quaoar Dec 7.00030 = 7 struck by 1 sky body — Makemake: sky Makemake -> J Mercury Flat 30.22223 (272/9) | sky Makemake -> J Quaoar Dec 36.99897 (37)

@@ -1,5 +1,5 @@
 {
- "version": "CR v1 (12 Oct 2026)",
+ "version": "CR v1.1 (12 Oct 2026, joins field-relative)",
  "race": "carlisle_1630_20220707",
  "step": 4,
  "n": 6,
@@ -320,25 +320,25 @@
      "P01": {
       "n": 3,
       "best": 0.66,
-      "what": "triangle H Vesta / J Juno / J Quaoar [one plane (Dec)]: H Vesta\u2013J Juno Dec 0.77809 (7/9), H Vesta\u2013J Quaoar Dec 6.99998 (7), J Juno\u2013J Quaoar Dec 6.22189 (56/9) \u2014 sky Sedna: sky Sedna -> H Vesta Dec 12.99769 (13); sky Sedna -> J Juno Flat 151.44423 (1363/9); sky Sedna -> J Quaoar Dec 19.99767 (20)",
+      "what": "triangle H Vesta / J Juno / J Quaoar [one plane (Dec)]: H Vesta\u2013J Juno Dec 0.77809 (7/9, ninth), H Vesta\u2013J Quaoar Dec 6.99998 (7), J Juno\u2013J Quaoar Dec 6.22189 (56/9, ninth) [2 ninth sides] \u2014 sky Sedna: sky Sedna -> H Vesta Dec 12.99769 (13); sky Sedna -> J Juno Flat 151.44423 (1363/9); sky Sedna -> J Quaoar Dec 19.99767 (20)",
       "rank": 2
      },
      "P05": {
       "n": 1,
       "best": 0.96,
-      "what": "triangle H Ceres / H Eris / J Neptune [one plane (RA)]: H Ceres\u2013H Eris RA 148.99520 (149), H Ceres\u2013J Neptune RA 34.99937 (35), H Eris\u2013J Neptune RA 113.99583 (114) \u2014 sky Transpluto: sky Transpluto -> H Ceres RA 82.00369 (82); sky Transpluto -> H Eris RA 129.00111 (129); sky Transpluto -> J Neptune RA 117.00306 (117)",
+      "what": "triangle H Ceres / H Eris / J Neptune [one plane (RA)]: H Ceres\u2013H Eris RA 148.99520 (149), H Ceres\u2013J Neptune RA 34.99937 (35), H Eris\u2013J Neptune RA 113.99583 (114) [all whole] \u2014 sky Transpluto: sky Transpluto -> H Ceres RA 82.00369 (82); sky Transpluto -> H Eris RA 129.00111 (129); sky Transpluto -> J Neptune RA 117.00306 (117)",
       "rank": 3
      },
      "P09": {
       "n": 1,
       "best": 0.998,
-      "what": "triangle H Gonggong / H Saturn / J Pallas [one plane (Dec)]: H Gonggong\u2013H Saturn Dec 10.00236 (10), H Gonggong\u2013J Pallas Dec 13.99904 (14), H Saturn\u2013J Pallas Dec 24.00140 (24) \u2014 sky Neptune: sky Neptune -> H Gonggong RA 20.00499 (20); sky Neptune -> H Saturn RA 69.44484 (625/9); sky Neptune -> J Pallas GC 55.77824 (502/9)",
+      "what": "triangle H Gonggong / H Saturn / J Pallas [one plane (Dec)]: H Gonggong\u2013H Saturn Dec 10.00236 (10), H Gonggong\u2013J Pallas Dec 13.99904 (14), H Saturn\u2013J Pallas Dec 24.00140 (24) [all whole] \u2014 sky Neptune: sky Neptune -> H Gonggong RA 20.00499 (20); sky Neptune -> H Saturn RA 69.44484 (625/9); sky Neptune -> J Pallas GC 55.77824 (502/9)",
       "rank": 4
      },
      "P11": {
       "n": 3,
       "best": 0.532,
-      "what": "triangle H Juno / H Mercury / J Ceres [one plane (RA)]: H Juno\u2013H Mercury RA 58.99734 (59), H Juno\u2013J Ceres RA 25.99867 (26), H Mercury\u2013J Ceres RA 32.99867 (33) \u2014 sky Sedna: sky Sedna -> H Juno RA 41.99735 (42); sky Sedna -> H Mercury RA 17.00000 (17); sky Sedna -> J Ceres RA 15.99868 (16)",
+      "what": "triangle H Juno / H Mercury / J Ceres [one plane (RA)]: H Juno\u2013H Mercury RA 58.99734 (59), H Juno\u2013J Ceres RA 25.99867 (26), H Mercury\u2013J Ceres RA 32.99867 (33) [all whole] \u2014 sky Sedna: sky Sedna -> H Juno RA 41.99735 (42); sky Sedna -> H Mercury RA 17.00000 (17); sky Sedna -> J Ceres RA 15.99868 (16)",
       "rank": 1
      }
     },
@@ -1456,7 +1456,7 @@
    }
   },
   "33": {
-   "near": {
+   "strict": {
     "k": 2,
     "runners": {
      "P01": {
@@ -1466,9 +1466,21 @@
       "rank": 2
      },
      "P07": {
-      "n": 2,
+      "n": 1,
+      "best": 0.7779,
+      "what": "loop of 6: H Node -> J Node -> J Pallas -> H Transpluto -> H Orcus -> J Orcus -> H Node  (closed through the same body in both charts: Node, Orcus) \u2014 H Node = J Node (same body); J Pallas\u2013J Rahu RA 1.1668 Dec 21.4027; H Transpluto\u2013J Pallas RA 176.6863 Dec 0.1813; H Orcus\u2013H Transpluto RA 0.1730 Dec 21.1570; H Orcus = J Orcus (same body); H Rahu\u2013J Orcus RA 0.6001 Dec 7.6903",
+      "rank": 1
+     }
+    },
+    "tightest": "P07"
+   },
+   "near": {
+    "k": 1,
+    "runners": {
+     "P07": {
+      "n": 1,
       "best": 0.4,
-      "what": "loop of 4: H Node -> J Node -> H Orcus -> J Orcus -> H Node  (closed through the same body in both charts: Node, Orcus) \u2014 H Node = J Node (same body); H Orcus\u2013J Rahu RA 177.6801 Dec 0.0644; H Orcus = J Orcus (same body); H Rahu\u2013J Orcus RA 0.6001 Dec 7.6903",
+      "what": "loop of 4: H Node -> J Node -> H Orcus -> J Orcus -> H Node  (closed through the same body in both charts: Node, Orcus)  (2 distinct bodies) \u2014 H Node = J Node (same body); H Orcus\u2013J Rahu RA 177.6801 Dec 0.0644; H Orcus = J Orcus (same body); H Rahu\u2013J Orcus RA 0.6001 Dec 7.6903",
       "rank": 1
      }
     },
@@ -1508,5 +1520,27 @@
   29,
   30,
   33
+ ],
+ "common": [
+  2,
+  3,
+  6,
+  8,
+  9,
+  10,
+  13,
+  16,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  30
  ]
 }

@@ -1,6 +1,10 @@
-== sedgefield_1500_20220510  field of 5   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== sedgefield_1500_20220510  field of 5   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Blue Collar Glory / 1 Craig Nichol; P03 2 Bright Sunbird / 2 Tabitha Worsley; P05 3 Emorelle / 3 Miss Eleanor Williams; P07 4 Wheres Maud Gone / 4 Adam Wedge; P09 5 Mrs Paisley / 5 Danny McMenamin
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: P09 (t 0.588)
+   [15] pair set H:J:S: P07 (t 0.462)
 [ 1] cross link struck on both ends by 2+ sky bodies
      none in the field
 [ 2] cross link struck on both ends (one body, or one per end)
@@ -32,7 +36,7 @@
             tightest P07: swap Node/Venus: H Rahu – J Venus RA 1.0877 Dec 0.6773; H Venus – J Rahu RA 1.6978 Dec 0.4768 (near band)
 [ 8] triangle struck at every corner by one sky body
      strict ONLY P09: P09(t 0.880, x2)
-            tightest P09: triangle H Quaoar / J Gonggong / J Saturn [one plane (Dec)]: H Quaoar–J Gonggong Dec 1.44401 (13/9), H Quaoar–J Saturn Dec 32.22232 (290/9), J Gonggong–J Saturn Dec 33.66633 (303/9) — sky Orcus: sky Orcus -> H Quaoar Dec 4.00025 (4); sky Orcus -> J Gonggong Dec 5.44426 (49/9); sky Orcus -> J Saturn Dec 28.22207 (254/9)
+            tightest P09: triangle H Quaoar / J Gonggong / J Saturn [one plane (Dec)]: H Quaoar–J Gonggong Dec 1.44401 (13/9, ninth), H Quaoar–J Saturn Dec 32.22232 (290/9, ninth), J Gonggong–J Saturn Dec 33.66633 (303/9, ninth) [3 ninth sides] — sky Orcus: sky Orcus -> H Quaoar Dec 4.00025 (4); sky Orcus -> J Gonggong Dec 5.44426 (49/9); sky Orcus -> J Saturn Dec 28.22207 (254/9)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 5 of 5: P05(t 0.264, x17)  P03(t 0.400, x2)  P07(t 0.500, x6)  P09(t 0.586, x2)  P01(t 0.718, x2)
             tightest P05: H Sun–Sedna RA 9.99868 = 10 struck by 1 sky body — Chiron: sky Chiron -> H Sun RA 53.99970 (54) | sky Chiron -> H Sedna RA 44.00102 (44)
@@ -120,8 +124,10 @@
      strict 5 of 5: P07(t 0.006, x1)  P05(t 0.008, x1)  P03(t 0.009, x1)  P09(t 0.010, x1)  P01(t 0.034, x1)
             tightest P07: tightest cross link H Uranus – J Pallas RA 0.0093 Dec 5.5560
 [33] node loop
-     near   3 of 5: P01(t 0.273, x2)  P07(t 0.760, x14)  P09(t 0.871, x1)
+     strict 2 of 5: P01(t 0.273, x1)  P07(t 0.883, x10)
             tightest P01: loop of 6: H Node -> J Node -> H Sedna -> H Mercury -> J Mercury -> J Sun -> H Node  (closed through the same body in both charts: Mercury, Node) — H Node = J Node (same body); H Sedna–J Ketu RA 0.0503 Dec 12.1112; H Mercury–H Sedna RA 33.0523 Dec 0.0653; H Mercury = J Mercury (same body); J Sun–J Mercury RA 0.3394 Dec 4.0775; H Ketu–J Sun RA 0.4098 Dec 0.1479
+     near   3 of 5: P01(t 0.499, x1)  P07(t 0.760, x4)  P09(t 0.871, x1)
+            tightest P01: loop of 5: H Node -> J Mercury -> H Mercury -> H Sedna -> J Node -> H Node  (closed through the same body in both charts: Mercury, Node)  (3 distinct bodies) — H Ketu–J Mercury RA 0.7492 Dec 4.2254; J Mercury = H Mercury (same body); H Mercury–H Sedna RA 33.0523 Dec 0.0653; H Sedna–J Ketu RA 0.0503 Dec 12.1112; J Node = H Node (same body)
 -- field-only (strict) per runner
    P01 1 Blue Collar Glory / 1 Craig Nichol: 4
    P03 2 Bright Sunbird / 2 Tabitha Worsley: -

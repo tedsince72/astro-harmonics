@@ -1,6 +1,10 @@
-== haydock_1718_20220507  field of 5   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== haydock_1718_20220507  field of 5   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Oh Herberts Reign / 1 Hollie Doyle; P03 2 Mystery Fox / 2 David Egan; P05 5 Out From Under / 5 Kieran Shoemark; P07 6 Aldhaja / 6 Jim Crowley; P09 7 Stevenson / 7 David Probert
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: none
+   [15] pair set H:J:S: P07 (t 0.358)
 [ 1] cross link struck on both ends by 2+ sky bodies
      none in the field
 [ 2] cross link struck on both ends (one body, or one per end)
@@ -29,7 +33,7 @@
      none in the field
 [ 8] triangle struck at every corner by one sky body
      strict 2 of 5: P01(t 0.364, x2)  P09(t 0.624, x1)
-            tightest P01: triangle H Transpluto / H Uranus / J Vesta [one plane (RA)]: H Transpluto–H Uranus RA 127.00044 (127), H Transpluto–J Vesta RA 100.99854 (101), H Uranus–J Vesta RA 132.00102 (132) — sky Sedna: sky Sedna -> H Transpluto RA 95.00182 (95); sky Sedna -> H Uranus RA 31.99862 (32); sky Sedna -> J Vesta RA 163.99964 (164)
+            tightest P01: triangle H Transpluto / H Uranus / J Vesta [one plane (RA)]: H Transpluto–H Uranus RA 127.00044 (127), H Transpluto–J Vesta RA 100.99854 (101), H Uranus–J Vesta RA 132.00102 (132) [all whole] — sky Sedna: sky Sedna -> H Transpluto RA 95.00182 (95); sky Sedna -> H Uranus RA 31.99862 (32); sky Sedna -> J Vesta RA 163.99964 (164)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 5 of 5: P01(t 0.157, x9)  P05(t 0.302, x2)  P09(t 0.414, x3)  P07(t 0.470, x6)  P03(t 0.686, x5)
             tightest P01: J Uranus–Neptune close struck by 1 sky body — Chiron: sky Chiron -> J Uranus Flat 74.55563 (671/9) | sky Chiron -> J Neptune Dec 28.00060 (28)
@@ -119,11 +123,13 @@
      strict 5 of 5: P07(t 0.019, x1)  P05(t 0.052, x1)  P09(t 0.079, x1)  P01(t 0.116, x1)  P03(t 0.449, x1)
             tightest P07: tightest cross link H Makemake – J Haumea RA 20.8710 Dec 0.0058
 [33] node loop
-     near   2 of 5: P05(t 0.726, x10)  P07(t 0.803, x3)
-            tightest P05: loop of 6: H Node -> H Saturn -> H Pluto -> J Pluto -> J Chiron -> J Node -> H Node  (closed through the same body in both charts: Node, Pluto) — H Saturn–H Ketu RA 5.7827 Dec 0.4357; H Saturn–H Pluto RA 3.9803 Dec 0.0837; H Pluto = J Pluto (same body); J Pluto–J Chiron RA 50.8575 Dec 0.0988; J Chiron–J Rahu RA 7.8459 Dec 0.3444; J Node = H Node (same body)
+     strict ONLY P07: P07(t 0.803, x2)
+            tightest P07: loop of 6: H Node -> J Node -> H Vesta -> H Chiron -> H Sun -> J Sun -> H Node  (closed through the same body in both charts: Node, Sun) — H Node = J Node (same body); H Vesta–J Ketu RA 0.7506 Dec 4.8599; H Chiron–H Vesta RA 0.3518 Dec 8.6764; H Sun–H Chiron RA 8.8663 Dec 0.4763; H Sun = J Sun (same body); H Rahu–J Sun RA 1.5235 Dec 0.2409
+     near   2 of 5: P05(t 0.726, x10)  P07(t 0.803, x1)
+            tightest P05: loop of 6: H Node -> H Saturn -> H Pluto -> J Pluto -> J Chiron -> J Node -> H Node  (closed through the same body in both charts: Node, Pluto)  (4 distinct bodies, no cross link between different bodies) — H Saturn–H Ketu RA 5.7827 Dec 0.4357; H Saturn–H Pluto RA 3.9803 Dec 0.0837; H Pluto = J Pluto (same body); J Pluto–J Chiron RA 50.8575 Dec 0.0988; J Chiron–J Rahu RA 7.8459 Dec 0.3444; J Node = H Node (same body)
 -- field-only (strict) per runner
    P01 1 Oh Herberts Reign / 1 Hollie Doyle: 4
    P03 2 Mystery Fox / 2 David Egan: 29
    P05 5 Out From Under / 5 Kieran Shoemark: -
-   P07 6 Aldhaja / 6 Jim Crowley: 15
+   P07 6 Aldhaja / 6 Jim Crowley: 15, 33
    P09 7 Stevenson / 7 David Probert: -

@@ -1,6 +1,10 @@
-== sandown_1430_20240215  field of 7   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+== sandown_1430_20240215  field of 7   [CR v1.1 (12 Oct 2026, joins field-relative), step 4]  (blind: no finishing positions)
 -- runners: P01 1 Aston Martini / 1 James Bowen; P03 2 Cherie d'Am / 2 Harry Skelton; P05 3 Either Or / 3 Nico de Boinville; P07 4 Jeune Belle / 4 Bryony Le Clerc; P09 5 Little Miss Dante / 5 Sean Bowen; P11 6 Smiling Getaway / 6 Sam Twiston-Davies; P13 7 Springtime Promise / 7 Connor Brace
 -- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+-- watch (from the read races — not evidence yet; not weighted): items 17, 14, 15
+   [17] same-body Dec 9/4 : 5/4 : 9/5: none
+   [14] shared pair also cross-linked: none
+   [15] pair set H:J:S: P09 (t 0.224), P11 (t 0.802), P01 (t 0.972)
 [ 1] cross link struck on both ends by 2+ sky bodies
      none in the field
 [ 2] cross link struck on both ends (one body, or one per end)
@@ -33,7 +37,7 @@
             tightest P01: swap Jupiter/Node: H Jupiter – J Ketu RA 23.1204 Dec 0.2918; H Rahu – J Jupiter RA 55.0129 Dec 0.4744 (near band)  (node: Rahu one way, Ketu the other)
 [ 8] triangle struck at every corner by one sky body
      strict 5 of 7: P11(t 0.564, x2)  P13(t 0.640, x1)  P03(t 0.880, x1)  P01(t 0.960, x1)  P05(t 0.970, x1)
-            tightest P11: triangle H Haumea / H Makemake / H Mercury [one plane (Dec)]: H Haumea–H Makemake Dec 7.99886 (8), H Haumea–H Mercury Dec 6.99832 (7), H Makemake–H Mercury Dec 14.99718 (15) — sky Venus: sky Venus -> H Haumea Dec 37.99876 (38); sky Venus -> H Makemake Dec 45.99761 (46); sky Venus -> H Mercury Dec 31.00043 (31)
+            tightest P11: triangle H Haumea / H Makemake / H Mercury [one plane (Dec)]: H Haumea–H Makemake Dec 7.99886 (8), H Haumea–H Mercury Dec 6.99832 (7), H Makemake–H Mercury Dec 14.99718 (15) [all whole] — sky Venus: sky Venus -> H Haumea Dec 37.99876 (38); sky Venus -> H Makemake Dec 45.99761 (46); sky Venus -> H Mercury Dec 31.00043 (31)
 [ 9] pair in one chart struck on both ends by one sky body
      strict 7 of 7: P09(t 0.154, x5)  P03(t 0.220, x9)  P07(t 0.324, x9)  P11(t 0.336, x7)  P13(t 0.480, x11)  P01(t 0.535, x11)  P05(t 0.564, x2)
             tightest P09: H Mercury–Chiron RA 9.33331 = 84/9 struck by 1 sky body — Pluto: sky Pluto -> H Mercury Flat 69.00077 (69) | sky Pluto -> H Chiron Dec 26.00076 (26)
@@ -124,7 +128,7 @@
             tightest P05: tightest cross link H Venus – J Rahu RA 0.0475 Dec 1.5313
 [33] node loop
      near   ONLY P07: P07(t 0.100, x1)
-            tightest P07: loop of 3: H Node -> H Haumea -> J Node -> H Node  (closed through the same body in both charts: Node) — H Rahu–H Haumea RA 78.5401 Dec 0.0600; H Haumea–J Rahu RA 0.0957 Dec 30.4715; J Node = H Node (same body)
+            tightest P07: loop of 3: H Node -> H Haumea -> J Node -> H Node  (closed through the same body in both charts: Node)  (2 distinct bodies) — H Rahu–H Haumea RA 78.5401 Dec 0.0600; H Haumea–J Rahu RA 0.0957 Dec 30.4715; J Node = H Node (same body)
 -- field-only (strict) per runner
    P01 1 Aston Martini / 1 James Bowen: -
    P03 2 Cherie d'Am / 2 Harry Skelton: -
