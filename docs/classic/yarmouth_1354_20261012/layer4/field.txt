@@ -1,0 +1,104 @@
+== yarmouth_1354_20261012  field of 7   [L4 v1.3 (12 Oct 2026, pair focus A+B+C)]  (blind: no finishing positions)
+-- runners: P01 1 Amandari / 1 Robert Havlin; P03 2 Born This Way / 2 Tom Marquand; P05 3 Fort McHenry / 3 Paddy Bradley; P07 4 Olympiacos / 4 Rowan Scott; P09 5 Pigou / 5 Daniel Muscutt; P11 6 Solo Quest / 6 Kieran Shoemark; P13 7 Stellar Max / 7 Jack Gilligan
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              2/7: P01:1 P07:1  |   7: P01:11 P03:23 P05:16 P07:20 P09:12 P11:27 P13:11
+   [  2] partner strike                              4/7: P03:3 P09:1 P11:2 P13:3  |   7: P01:3 P03:9 P05:6 P07:8 P09:3 P11:14 P13:5
+   [  3] pair together in the sky                    0/7: -  |   0: -
+   [  4] both ends moved                             1/7: P03:1  |   1: P03:1
+   [  5] movement onto a cross link                  6/7: P01:1 P03:3 P05:3 P07:3 P11:4 P13:1  |   7: P01:2 P03:4 P05:4 P07:4 P09:1 P11:11 P13:2
+   [  6] swap                                        0/7: -  |   0: -
+   [  7] triangle struck at every corner             3/7: P01:2 P07:1 P11:4  |   7: P01:2 P03:8 P05:1 P07:13 P09:3 P11:8 P13:7
+   [  8] same number / ratio in both charts          5/7: P01:6 P05:2 P09:1 P11:1 P13:2  |   6: P01:7 P05:3 P07:1 P09:1 P11:2 P13:2
+   [  9] shared node                                 0/7: -  |   0: -
+   [ 10] sky body divides a natal pair               7/7: P01:30 P03:5 P05:24 P07:17 P09:13 P11:23 P13:22  |   7: P01:30 P03:5 P05:24 P07:17 P09:13 P11:23 P13:22
+   [ 11] joined same-body set                        5/7: P03:2 P05:3 P09:3 P11:3 P13:3  |   5: P03:2 P05:3 P09:3 P11:3 P13:3
+   [ 12] pair in one chart struck on both ends by 2+  4/7: P01:2 P07:2 P09:1 P11:1  |   7: P01:7 P03:2 P05:3 P07:7 P09:1 P11:3 P13:8
+   [ 1m] cross link, 2+ sky bodies on both ends      0/7: -  |   7: P01:2 P03:3 P05:4 P07:6 P09:1 P11:5 P13:3
+   [12m] pair in one chart, 2+ sky bodies on both ends  4/7: P01:2 P07:2 P09:1 P11:1  |   7: P01:7 P03:2 P05:3 P07:7 P09:1 P11:3 P13:8
+-- tightest instance of each shape
+   [ strict:1] P07 4 Olympiacos / 4 Rowan Scott: horse Node – jockey Saturn (RA 157.7568 Dec 0.1710)
+   [ strict:2] P09 5 Pigou / 5 Daniel Muscutt: horse Jupiter – jockey Sedna (RA 0.1816 Dec 11.3699)
+   [ strict:4] P03 2 Born This Way / 2 Tom Marquand: horse Node – jockey Haumea (RA 0.9125 Dec 27.9428)
+   [ strict:5] P11 6 Solo Quest / 6 Kieran Shoemark: moved H Sun (RA 133.9910 Dec 0.0313)
+   [strict:10] P01 1 Amandari / 1 Robert Havlin: H Jupiter -> H Eris (split error 0.0015%)
+   [strict:11] P11 6 Solo Quest / 6 Kieran Shoemark: same body Sun (worst 0.0001%)
+   [  broad:1] P09 5 Pigou / 5 Daniel Muscutt: horse Mercury – jockey Eris (RA 0.0027 Dec 21.2008) broad/near
+   [  broad:2] P11 6 Solo Quest / 6 Kieran Shoemark: horse Sun – jockey Orcus (RA 133.9910 Dec 0.0313) broad/near
+   [  broad:4] P03 2 Born This Way / 2 Tom Marquand: horse Node – jockey Haumea (RA 0.9125 Dec 27.9428)
+   [  broad:5] P11 6 Solo Quest / 6 Kieran Shoemark: moved H Sun (RA 133.9910 Dec 0.0313)
+   [ broad:10] P01 1 Amandari / 1 Robert Havlin: H Jupiter -> H Eris (split error 0.0015%)
+   [ broad:11] P11 6 Solo Quest / 6 Kieran Shoemark: same body Sun (worst 0.0001%)
+-- field-only findings (shape numbers)
+   P01 1 Amandari / 1 Robert Havlin: only (strict) -; only (broad) -; strict, shared with one other 1
+   P03 2 Born This Way / 2 Tom Marquand: only (strict) 4; only (broad) 4; strict, shared with one other -
+   P07 4 Olympiacos / 4 Rowan Scott: only (strict) -; only (broad) -; strict, shared with one other 1
+-- pair focus: each runner's most-lit pair (kinds of root item); field max 4 — P03, P11
+   P01 1 Amandari / 1 Robert Havlin             Pluto–Venus            2  cross, moved  (cross 0.2085)
+   P03 2 Born This Way / 2 Tom Marquand         Mars–Mercury           4  cross, partner, family, same body  (cross 0.3184)  (tie)
+   P05 3 Fort McHenry / 3 Paddy Bradley         Node–Quaoar            3  cross, moved, same body  (cross 0.5802)
+   P07 4 Olympiacos / 4 Rowan Scott             Haumea–Node            2  cross, ratio H  (cross 0.068)
+   P09 5 Pigou / 5 Daniel Muscutt               Eris–Mercury           3  cross, ratio H, family  (cross 0.0018)
+   P11 6 Solo Quest / 6 Kieran Shoemark         Orcus–Sun              4  shared, cross, moved, same body  (cross 0.1042)  (tie, tightest of the tied)
+   P13 7 Stellar Max / 7 Jack Gilligan          Pluto–Uranus           2  cross, moved  (cross 0.5018)
+-- strong hubs across the field
+   H Node         3: P07 P11 P13
+   J Haumea       2: P03 P09
+   J Sun          2: P05 P11
+   H Venus        1: P03
+   J Node         1: P05
+   J Transpluto   1: P05
+   H Mars         1: P07
+   H Sun          1: P11
+   J Ceres        1: P11
+   H Haumea       1: P11
+   H Ceres        1: P11
+   J Juno         1: P11
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Makemake – jockey Haumea: P03 (RA 5.2973 Dec 0.0471, broad); P05 (RA 7.7534 Dec 0.2748, broad); P07 (RA 5.9879 Dec 0.5018, broad); P09 (RA 8.8324 Dec 0.2840, broad); P13 (RA 7.4447 Dec 0.3697, broad)
+   [ 1] horse Node – jockey Pluto: P01 (RA 0.8736 Dec 18.1852, broad); P05 (RA 45.6476 Dec 0.5453, broad); P09 (RA 44.7545 Dec 0.3434, broad)
+   [ 1] horse Chiron – jockey Node: P03 (RA 145.6036 Dec 0.4735, broad); P07 (RA 2.5934 Dec 0.2148, broad); P11 (RA 3.7920 Dec 0.2425, broad)
+   [ 1] horse Node – jockey Saturn: P03 (RA 6.7272 Dec 0.3108, broad); P07 (RA 157.7568 Dec 0.1710); P11 (RA 158.1115 Dec 0.4266, broad)
+   [ 1] horse Quaoar – jockey Quaoar: P03 (RA 34.5099 Dec 0.4488, broad); P07 (RA 37.6092 Dec 0.4842, broad); P11 (RA 37.4354 Dec 0.5605, broad)
+   [ 1] horse Saturn – jockey Eris: P07 (RA 35.8659 Dec 0.5997, broad); P09 (RA 38.1093 Dec 0.1804, broad); P11 (RA 38.4675 Dec 0.4389, broad)
+   [ 1] horse Ceres – jockey Jupiter: P07 (RA 18.6563 Dec 0.5749, broad); P11 (RA 11.2760 Dec 0.1263, broad); P13 (RA 6.8050 Dec 0.0446, broad)
+   [ 1] horse Juno – jockey Mars: P01 (RA 134.9892 Dec 0.1025, broad); P03 (RA 141.7677 Dec 0.0286, broad)
+   [ 1] horse Mercury – jockey Mercury: P03 (RA 0.2036 Dec 1.6032, broad); P05 (RA 1.1550 Dec 2.9200, broad)
+   [ 1] horse Venus – jockey Node: P03 (RA 2.8321 Dec 0.2915, broad); P11 (RA 143.5357 Dec 0.0512, broad)
+   [ 1] horse Mars – jockey Gonggong: P03 (RA 0.0940 Dec 4.7073, broad); P11 (RA 0.5081 Dec 5.3520, broad)
+   [ 1] horse Node – jockey Haumea: P03 (RA 0.9125 Dec 27.9428, broad); P07 (RA 0.1019 Dec 27.5116, broad)
+   [ 1] horse Orcus – jockey Venus: P03 (RA 167.1281 Dec 0.2633, broad); P11 (RA 176.3229 Dec 0.4499, broad)
+   [ 1] horse Saturn – jockey Pluto: P07 (RA 103.9090 Dec 0.4124, broad); P11 (RA 101.1376 Dec 0.5990, broad)
+   [ 1] horse Saturn – jockey Chiron: P07 (RA 154.7665 Dec 0.4466, broad); P11 (RA 151.9951 Dec 0.5001, broad)
+   [ 1] horse Pluto – jockey Jupiter: P07 (RA 32.8434 Dec 0.5096, broad); P11 (RA 31.0175 Dec 0.4835, broad)
+   [ 1] horse Sedna – jockey Node: P07 (RA 39.7414 Dec 0.0682, broad); P11 (RA 39.6944 Dec 0.0474, broad)
+   [ 1] horse Makemake – jockey Node: P07 (RA 0.2065 Dec 30.4983, broad); P11 (RA 0.3841 Dec 30.2713, broad)
+   [ 1] horse Jupiter – jockey Sedna: P09 (RA 0.1816 Dec 11.3699, broad); P11 (RA 1.6798 Dec 10.9108, broad)
+   [ 1] horse Venus – jockey Chiron: P11 (RA 151.3816 Dec 0.3955, broad); P13 (RA 153.8400 Dec 0.1688, broad)
+   [ 1] horse Pluto – jockey Uranus: P11 (RA 1.6638 Dec 2.0896, broad); P13 (RA 0.7528 Dec 2.2118, broad)
+   [ 7] triangle Jupiter/Neptune/Uranus: P05 (, broad); P09 (, broad)
+   [11] same body Sun: P05 (worst 0.0653%); P09 (worst 0.1137%); P11 (worst 0.0001%)
+   [11] same body Transpluto: P05 (worst 0.1305%); P09 (worst 0.0348%)
+   [11] same body Haumea: P09 (worst 0.1176%); P11 (worst 0.1002%)
+   [12] H Mercury–Chiron: P07 (RA 0.0622 Dec 0.2159, broad); P13 (RA 3.66650 = 33/9, broad)
+   [12] H Chiron–Sedna: P07 (RA 42.3348 Dec 0.1466, broad); P13 (RA 43.3463 Dec 0.2390, broad)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P03 P05 P07 P09 P11 P13
+   recurring cross link horse Pluto – jockey Neptune: P03 P09
+   recurring cross link horse Sedna – jockey Chiron: P01
+   recurring cross link horse Uranus – jockey Venus: P13
+   recurring pair Chiron–Transpluto: P07
+   recurring pair Haumea–Node: P05 P09
+   recurring pair Jupiter–Vesta: P01 P11
+   recurring pair Ketu–Haumea: P07
+   recurring pair Neptune–Ketu: P03 P09
+   recurring pair Neptune–Node: P11 P13
+   recurring pair Neptune–Vesta: P03 P05 P11
+   recurring pair Node–Haumea: P03 P05 P07 P09 P11 P13
+   recurring pair Pallas–Juno: P09 P13
+   recurring pair Rahu–Haumea: P07 P09
+   recurring pair Saturn–Neptune: P01 P05 P13
+   recurring pair Uranus–Venus: P13
+   recurring pair Venus–Uranus: P11
+   recurring pair Vesta–Jupiter: P07 P13
+   recurring pair Vesta–Neptune: P03
+   same-body Dec 9/4 : 5/4 : 9/5 on Sun: P09
