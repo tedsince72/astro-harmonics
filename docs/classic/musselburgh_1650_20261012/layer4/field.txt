@@ -1,0 +1,105 @@
+== musselburgh_1650_20261012  field of 8   [L4 v1.3 (12 Oct 2026, pair focus A+B+C)]  (blind: no finishing positions)
+-- runners: P01 1 Ned Broy / 1 Jack Nicholls; P03 2 Simple Star / 2 Sam James; P05 3 Alpine Sierra / 3 Paul Mulrennan; P07 4 Mr Withington / 4 Shane Gray; P09 5 Storm On Jura / 5 Lauren Young; P11 6 Galahad Threepwood / 6 Greg Fairley; P13 7 Fairydale / 7 David Allan; P15 8 Falaise Blanc / 8 Zak Wheatley
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              3/8: P03:2 P09:1 P15:1  |   8: P01:23 P03:12 P05:12 P07:18 P09:16 P11:18 P13:19 P15:22
+   [  2] partner strike                              4/8: P05:2 P07:2 P11:1 P15:4  |   8: P01:8 P03:3 P05:3 P07:8 P09:7 P11:2 P13:3 P15:7
+   [  3] pair together in the sky                    0/8: -  |   0: -
+   [  4] both ends moved                             1/8: P15:2  |   1: P15:2
+   [  5] movement onto a cross link                  7/8: P01:3 P03:2 P05:2 P07:4 P11:3 P13:5 P15:9  |   8: P01:3 P03:5 P05:4 P07:5 P09:2 P11:4 P13:5 P15:12
+   [  6] swap                                        1/8: P07:2  |   2: P03:1 P07:3
+   [  7] triangle struck at every corner             3/8: P05:4 P09:11 P15:2  |   8: P01:24 P03:2 P05:6 P07:7 P09:18 P11:4 P13:2 P15:8
+   [  8] same number / ratio in both charts          6/8: P01:3 P03:2 P05:2 P11:1 P13:1 P15:2  |   7: P01:3 P03:4 P05:3 P07:2 P11:2 P13:1 P15:3
+   [  9] shared node                                 0/8: -  |   0: -
+   [ 10] sky body divides a natal pair               7/8: P01:4 P05:27 P07:4 P09:5 P11:13 P13:30 P15:4  |   7: P01:4 P05:27 P07:4 P09:5 P11:13 P13:30 P15:4
+   [ 11] joined same-body set                        6/8: P01:3 P05:1 P07:2 P09:3 P11:2 P13:1  |   6: P01:3 P05:1 P07:2 P09:3 P11:2 P13:1
+   [ 12] pair in one chart struck on both ends by 2+  4/8: P01:1 P07:1 P09:1 P13:1  |   8: P01:6 P03:4 P05:2 P07:2 P09:7 P11:3 P13:3 P15:3
+   [ 1m] cross link, 2+ sky bodies on both ends      0/8: -  |   6: P01:7 P05:1 P07:3 P09:3 P11:1 P15:3
+   [12m] pair in one chart, 2+ sky bodies on both ends  5/8: P01:1 P07:1 P11:1 P13:1 P15:2  |   8: P01:6 P03:4 P05:2 P07:2 P09:7 P11:3 P13:3 P15:3
+-- tightest instance of each shape
+   [ strict:1] P09 5 Storm On Jura / 5 Lauren Young: horse Mercury – jockey Sun (RA 132.3167 Dec 0.0960)
+   [ strict:2] P15 8 Falaise Blanc / 8 Zak Wheatley: horse Ceres – jockey Ceres (RA 0.0318 Dec 0.7598)
+   [ strict:4] P15 8 Falaise Blanc / 8 Zak Wheatley: horse Ceres – jockey Ceres (RA 0.0318 Dec 0.7598)
+   [ strict:5] P15 8 Falaise Blanc / 8 Zak Wheatley: moved H Ceres (RA 0.0318 Dec 0.7598)
+   [ strict:6] P07 4 Mr Withington / 4 Shane Gray: swap Saturn/Venus (RA 96.4642 Dec 0.0205)
+   [strict:10] P05 3 Alpine Sierra / 3 Paul Mulrennan: J Neptune -> J Transpluto (split error 0.0033%)
+   [strict:11] P13 7 Fairydale / 7 David Allan: same body Sedna (worst 0.0090%)
+   [  broad:1] P11 6 Galahad Threepwood / 6 Greg Fairley: horse Venus – jockey Jupiter (RA 22.1939 Dec 0.0050) broad/near
+   [  broad:2] P15 8 Falaise Blanc / 8 Zak Wheatley: horse Ceres – jockey Ceres (RA 0.0318 Dec 0.7598)
+   [  broad:4] P15 8 Falaise Blanc / 8 Zak Wheatley: horse Ceres – jockey Ceres (RA 0.0318 Dec 0.7598)
+   [  broad:5] P15 8 Falaise Blanc / 8 Zak Wheatley: moved H Ceres (RA 0.0318 Dec 0.7598)
+   [  broad:6] P07 4 Mr Withington / 4 Shane Gray: swap Saturn/Venus (RA 96.4642 Dec 0.0205)
+   [ broad:10] P05 3 Alpine Sierra / 3 Paul Mulrennan: J Neptune -> J Transpluto (split error 0.0033%)
+   [ broad:11] P13 7 Fairydale / 7 David Allan: same body Sedna (worst 0.0090%)
+-- field-only findings (shape numbers)
+   P07 4 Mr Withington / 4 Shane Gray: only (strict) 6,pair focus; only (broad) -; strict, shared with one other -
+   P15 8 Falaise Blanc / 8 Zak Wheatley: only (strict) 4; only (broad) 4; strict, shared with one other -
+-- pair focus: each runner's most-lit pair (kinds of root item); field max 5 — P07
+   P01 1 Ned Broy / 1 Jack Nicholls             Ceres–Pallas           3  cross, moved, same body  (cross 0.402)
+   P03 2 Simple Star / 2 Sam James              Gonggong–Juno          3  cross, moved, family  (cross 0.1117)
+   P05 3 Alpine Sierra / 3 Paul Mulrennan       Juno–Saturn            3  cross, partner, family  (cross 0.685)
+   P07 4 Mr Withington / 4 Shane Gray           Pluto–Uranus           5  cross, partner, moved, h:j, family  (cross 0.9429)  <- most-lit pair in the field
+   P09 5 Storm On Jura / 5 Lauren Young         Eris–Pallas            3  cross, family, same body  (cross 0.0129)
+   P11 6 Galahad Threepwood / 6 Greg Fairley    Jupiter–Venus          2  cross, same body  (cross 0.0168)
+   P13 7 Fairydale / 7 David Allan              Chiron–Pluto           3  cross, moved, family  (cross 0.5927)
+   P15 8 Falaise Blanc / 8 Zak Wheatley         Venus–Venus            4  cross, struck, partner, moved  (cross 0.6599)
+-- strong hubs across the field
+   J Vesta        3: P03 P09 P13
+   J Venus        2: P03 P15
+   J Ceres        1: P01
+   J Gonggong     1: P03
+   J Neptune      1: P05
+   H Venus        1: P07
+   H Uranus       1: P07
+   H Pluto        1: P07
+   J Haumea       1: P07
+   J Eris         1: P09
+   H Makemake     1: P09
+   H Mercury      1: P11
+   J Jupiter      1: P11
+   H Neptune      1: P13
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Quaoar – jockey Quaoar: P01 (RA 21.7785 Dec 0.2368, broad); P09 (RA 29.1896 Dec 0.3620, broad); P15 (RA 30.2862 Dec 0.5050, broad)
+   [ 1] horse Saturn – jockey Neptune: P03 (RA 3.6130 Dec 0.2197, broad); P05 (RA 11.7738 Dec 0.2108, broad); P11 (RA 11.5171 Dec 0.1572, broad)
+   [ 1] horse Saturn – jockey Gonggong: P05 (RA 49.2067 Dec 0.0286, broad); P07 (RA 19.1989 Dec 0.3333, broad); P13 (RA 0.8031 Dec 7.8114, broad)
+   [ 1] horse Mercury – jockey Uranus: P01 (RA 0.1041 Dec 1.6820, broad); P13 (RA 39.5428 Dec 0.3094, broad)
+   [ 1] horse Venus – jockey Node: P01 (RA 172.8577 Dec 0.4822, broad); P11 (RA 1.5720 Dec 8.7255, broad)
+   [ 1] horse Jupiter – jockey Quaoar: P01 (RA 70.1044 Dec 0.2299, broad); P03 (RA 1.9378 Dec 4.1440, broad)
+   [ 1] horse Node – jockey Venus: P01 (RA 17.3913 Dec 0.3243, broad); P03 (RA 98.2005 Dec 0.1462, broad)
+   [ 1] horse Haumea – jockey Jupiter: P01 (RA 0.7625 Dec 29.5070, broad); P05 (RA 0.6545 Dec 29.0227, broad)
+   [ 1] horse Saturn – jockey Saturn: P03 (RA 1.2619 Dec 0.3576); P11 (RA 1.2574 Dec 0.2023, broad)
+   [ 1] horse Saturn – jockey Vesta: P03 (RA 0.6955 Dec 3.6018); P13 (RA 1.0389 Dec 3.7050, broad)
+   [ 1] horse Uranus – jockey Eris: P03 (RA 1.1213 Dec 18.8899, broad); P11 (RA 0.4100 Dec 18.7728, broad)
+   [ 1] horse Haumea – jockey Chiron: P03 (RA 107.4560 Dec 0.4716, broad); P11 (RA 127.8019 Dec 0.2075, broad)
+   [ 1] horse Quaoar – jockey Uranus: P03 (RA 0.1384 Dec 8.0836, broad); P09 (RA 46.3952 Dec 0.1079, broad)
+   [ 1] horse Sedna – jockey Orcus: P05 (RA 65.0104 Dec 0.5816, broad); P13 (RA 63.3428 Dec 0.0254, broad)
+   [ 1] horse Makemake – jockey Pallas: P05 (RA 0.0693 Dec 4.9212, broad); P13 (RA 0.5097 Dec 2.8556, broad)
+   [ 1] horse Gonggong – jockey Jupiter: P05 (RA 121.8609 Dec 0.0130, broad); P13 (RA 127.3663 Dec 0.4722, broad)
+   [ 1] horse Gonggong – jockey Quaoar: P05 (RA 111.5959 Dec 0.3386, broad); P13 (RA 113.2368 Dec 0.3544, broad)
+   [ 1] horse Mercury – jockey Sun: P07 (RA 95.0270 Dec 0.1662, broad); P09 (RA 132.3167 Dec 0.0960)
+   [ 1] horse Mars – jockey Haumea: P07 (RA 136.7374 Dec 0.2884, broad); P13 (RA 113.1840 Dec 0.3890, broad)
+   [ 1] horse Saturn – jockey Venus: P07 (RA 96.4642 Dec 0.0205, broad); P15 (RA 3.9385 Dec 0.4670, broad)
+   [ 1] horse Saturn – jockey Uranus: P09 (RA 0.8598 Dec 0.4552, broad); P11 (RA 0.7067 Dec 1.5216, broad)
+   [ 1] horse Node – jockey Neptune: P09 (RA 76.4096 Dec 0.1788, broad); P15 (RA 68.6573 Dec 0.1498, broad)
+   [ 1] horse Pluto – jockey Gonggong: P11 (RA 37.8714 Dec 0.3346, broad); P13 (RA 27.1747 Dec 0.3560, broad)
+   [ 7] triangle Gonggong/Jupiter/Quaoar: P01 (, broad); P05 (, broad)
+   [11] same body Sedna: P07 (worst 0.0448%); P13 (worst 0.0090%)
+   [11] same body Makemake: P09 (worst 0.0424%); P11 (worst 0.1484%)
+   [12] H Uranus–Haumea: P09 (RA 177.9182 Dec 0.5661, broad); P15 (RA 179.1543 Dec 0.5519, broad)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P05 P09
+   recurring cross link horse Sedna – jockey Chiron: P15
+   recurring pair Chiron–Transpluto: P05 P07
+   recurring pair Haumea–Node: P07 P13
+   recurring pair Juno–Pallas: P03 P13 P15
+   recurring pair Jupiter–Vesta: P03 P05 P09 P15
+   recurring pair Neptune–Node: P05
+   recurring pair Neptune–Rahu: P11
+   recurring pair Neptune–Saturn: P13
+   recurring pair Neptune–Vesta: P13
+   recurring pair Node–Haumea: P03 P05 P09 P13
+   recurring pair Node–Neptune: P09 P15
+   recurring pair Pallas–Juno: P01 P07 P09 P15
+   recurring pair Saturn–Neptune: P03 P05 P11 P15
+   recurring pair Venus–Uranus: P07
+   recurring pair Vesta–Jupiter: P05
+   recurring pair Vesta–Neptune: P07
