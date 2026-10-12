@@ -48,10 +48,10 @@ what did NOT separate winners, the blind tests so far, and the open candidates. 
 - Lesson so far: the layers find general shapes; winners have been found in specific DETAIL (checklist). Eddie's decision (12 Oct):
   continue on the Mac with Claude Code, short sessions, and build an accurate reader around the winner checklist — each checklist item
   a small test, run on every runner, reported with tightness and field rarity; grow the checklist one confirmed item at a time.
-- Checklist reader built (12 Oct, CR v1): `python3 tools/checklist_reader.py <race>` -> docs/classic/<race>/checklist/ (field.txt, P##.txt);
-  tests `python3 tests/checklist_check.py` (415/415, 14 DIFFERENCE/EXPLAINED for Eddie). Design + as-built notes: docs/classic/checklist_reader_design.md
-  (section 10 lists the builder's choices Eddie has not yet approved). Item rates: docs/classic/checklist_rates.txt. Waiting for Eddie's review
-  before the Kempton 14:40 blind read.
+- Checklist reader FROZEN (12 Oct): CR v1.1 = commit 3d62207. `python3 tools/checklist_reader.py <race>` -> docs/classic/<race>/checklist/
+  (field.txt = race page with the watch line; P##.txt = runner page with joins). Tests `python3 tests/checklist_check.py` (421/421, 13
+  DIFFERENCE/EXPLAINED). Design, as-built notes and Eddie's decisions: docs/classic/checklist_reader_design.md (sections 9–11).
+  Item rates: docs/classic/checklist_rates.txt. Blind batch continues with the frozen reader (plus the frozen layers): Kempton 14:40 next.
 - Open candidates (built into the reader as items 14, 17, 20, 21; still not frozen rules): shared pair that is also cross-linked; the Dec 9/4 : 5/4 : 9/5 same-body split; natal body at
   the midpoint of a body and its own sky body; soak (one value from 4+ non-star partners across horse, jockey, sky). Details in the checklist.
 

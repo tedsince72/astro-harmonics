@@ -28,3 +28,4 @@ race. Rules frozen before testing on new races. Every script backed up to the re
 
 # Frozen for testing on new races: commit 2d70cfb (12 Oct 2026) — L1 v1.4, L2 v1.2, L3 v1.2, L4 v1.1, L5 v1. Run blind with tools/run_layers.sh <race>, read, then layer4_field.py <race> --results.
 # Frozen v2 for the blind batch (after Exeter): commit 4baefa1 — L1 v1.4, L2 v1.2, L3 v1.4 (pair focus A+B+C), L4 v1.3, L5 v1.1.
+# Checklist reader frozen for the blind batch: commit 3d62207 — CR v1.1 (tools/checklist_reader.py; design docs/classic/checklist_reader_design.md). Run blind: python3 tools/checklist_reader.py <race>; results only with --results.
