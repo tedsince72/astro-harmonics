@@ -1,0 +1,79 @@
+== kempton_aw_1915_20261012  field of 6   [L4 v1.3 (12 Oct 2026, pair focus A+B+C)]  (blind: no finishing positions)
+-- runners: P01 1 Floating Market / 1 Oisin Murphy; P03 2 Time To Sparkle / 2 Harry Vigors; P05 3 Pierpoint / 3 Pat Dobbs; P07 4 Mr Bollinger / 4 Hector Crouch; P09 5 That Darn Cantor / 5 Rossa Ryan; P11 6 Takeitorleaveit / 6 Rob Hornby
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              3/6: P07:1 P09:2 P11:2  |   6: P01:10 P03:24 P05:20 P07:9 P09:19 P11:17
+   [  2] partner strike                              3/6: P01:1 P05:1 P11:3  |   6: P01:5 P03:18 P05:10 P07:3 P09:5 P11:3
+   [  3] pair together in the sky                    0/6: -  |   0: -
+   [  4] both ends moved                             1/6: P07:1  |   2: P07:1 P11:1
+   [  5] movement onto a cross link                  5/6: P03:3 P05:2 P07:7 P09:3 P11:4  |   5: P03:5 P05:5 P07:8 P09:3 P11:6
+   [  6] swap                                        0/6: -  |   1: P05:1
+   [  7] triangle struck at every corner             3/6: P03:2 P07:1 P09:1  |   6: P01:1 P03:18 P05:11 P07:5 P09:5 P11:1
+   [  8] same number / ratio in both charts          3/6: P03:3 P07:1 P09:1  |   5: P01:1 P03:7 P07:2 P09:2 P11:1
+   [  9] shared node                                 1/6: P11:1  |   1: P11:1
+   [ 10] sky body divides a natal pair               6/6: P01:12 P03:17 P05:15 P07:15 P09:4 P11:8  |   6: P01:12 P03:17 P05:15 P07:15 P09:4 P11:8
+   [ 11] joined same-body set                        2/6: P01:2 P03:1  |   2: P01:2 P03:1
+   [ 12] pair in one chart struck on both ends by 2+  1/6: P03:2  |   6: P01:2 P03:7 P05:6 P07:7 P09:6 P11:1
+   [ 1m] cross link, 2+ sky bodies on both ends      0/6: -  |   6: P01:2 P03:10 P05:7 P07:3 P09:6 P11:3
+   [12m] pair in one chart, 2+ sky bodies on both ends  2/6: P03:2 P07:1  |   6: P01:2 P03:7 P05:6 P07:7 P09:6 P11:1
+-- tightest instance of each shape
+   [ strict:1] P07 4 Mr Bollinger / 4 Hector Crouch: horse Haumea – jockey Pallas (RA 0.2636 Dec 1.9019)
+   [ strict:2] P11 6 Takeitorleaveit / 6 Rob Hornby: horse Venus – jockey Mars (RA 124.5623 Dec 0.1090)
+   [ strict:4] P07 4 Mr Bollinger / 4 Hector Crouch: horse Uranus – jockey Sedna (RA 0.8110 Dec 12.1165)
+   [ strict:5] P09 5 That Darn Cantor / 5 Rossa Ryan: moved H Transpluto (RA 0.8827 Dec 0.0002)
+   [ strict:9] P11 6 Takeitorleaveit / 6 Rob Hornby: shared node (node RA 1.1738)
+   [strict:10] P01 1 Floating Market / 1 Oisin Murphy: J Saturn -> H Haumea (split error 0.0014%)
+   [strict:11] P01 1 Floating Market / 1 Oisin Murphy: same body Haumea (worst 0.0201%)
+   [  broad:1] P09 5 That Darn Cantor / 5 Rossa Ryan: horse Transpluto – jockey Pallas (RA 0.8827 Dec 0.0002) broad/near
+   [  broad:2] P09 5 That Darn Cantor / 5 Rossa Ryan: horse Transpluto – jockey Pallas (RA 0.8827 Dec 0.0002) broad/near
+   [  broad:4] P07 4 Mr Bollinger / 4 Hector Crouch: horse Uranus – jockey Sedna (RA 0.8110 Dec 12.1165)
+   [  broad:5] P09 5 That Darn Cantor / 5 Rossa Ryan: moved H Transpluto (RA 0.8827 Dec 0.0002)
+   [  broad:6] P05 3 Pierpoint / 3 Pat Dobbs: swap Ketu/Vesta (RA 27.1308 Dec 0.4539) broad/near
+   [  broad:9] P11 6 Takeitorleaveit / 6 Rob Hornby: shared node (node RA 1.1738)
+   [ broad:10] P01 1 Floating Market / 1 Oisin Murphy: J Saturn -> H Haumea (split error 0.0014%)
+   [ broad:11] P01 1 Floating Market / 1 Oisin Murphy: same body Haumea (worst 0.0201%)
+-- field-only findings (shape numbers)
+   P01 1 Floating Market / 1 Oisin Murphy: only (strict) -; only (broad) -; strict, shared with one other 11
+   P03 2 Time To Sparkle / 2 Harry Vigors: only (strict) 12; only (broad) -; strict, shared with one other 11,12m
+   P05 3 Pierpoint / 3 Pat Dobbs: only (strict) -; only (broad) 6; strict, shared with one other -
+   P07 4 Mr Bollinger / 4 Hector Crouch: only (strict) 4; only (broad) -; strict, shared with one other 12m
+   P11 6 Takeitorleaveit / 6 Rob Hornby: only (strict) 9,pair focus; only (broad) 9; strict, shared with one other -
+-- pair focus: each runner's most-lit pair (kinds of root item); field max 4 — P11
+   P01 1 Floating Market / 1 Oisin Murphy       Pallas–Pluto           3  cross, partner, same body  (cross 0.9103)
+   P03 2 Time To Sparkle / 2 Harry Vigors       Neptune–Pallas         3  cross, moved, same body  (cross 0.6307)
+   P05 3 Pierpoint / 3 Pat Dobbs                Eris–Sun               3  shared, cross, ratio J  (cross 0.8525)
+   P07 4 Mr Bollinger / 4 Hector Crouch         Sedna–Uranus           3  cross, moved, family  (cross 0.5407)
+   P09 5 That Darn Cantor / 5 Rossa Ryan        Sedna–Uranus           3  cross, struck, h:j  (cross 0.6511)
+   P11 6 Takeitorleaveit / 6 Rob Hornby         Makemake–Mercury       4  cross, struck, partner, moved  (cross 0.4598)  <- most-lit pair in the field
+-- strong hubs across the field
+   H Transpluto   2: P05 P07
+   J Pallas       1: P01
+   J Jupiter      1: P03
+   H Gonggong     1: P05
+   H Mercury      1: P09
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Uranus – jockey Sedna: P01 (RA 1.4659 Dec 11.5308, broad); P09 (RA 0.9766 Dec 11.5973); P11 (RA 1.2483 Dec 11.4046, broad)
+   [ 1] horse Orcus – jockey Pallas: P01 (RA 1.3356 Dec 13.0427, broad); P09 (RA 1.0928 Dec 22.4275, broad)
+   [ 1] horse Transpluto – jockey Pallas: P01 (RA 0.8822 Dec 9.7526, broad); P09 (RA 0.8827 Dec 0.0002, broad)
+   [ 1] horse Neptune – jockey Saturn: P03 (RA 1.8802 Dec 0.4361, broad); P11 (RA 0.8852 Dec 1.2487, broad)
+   [ 1] horse Quaoar – jockey Quaoar: P03 (RA 2.5312 Dec 0.1234, broad); P09 (RA 31.9453 Dec 0.4876, broad)
+   [ 1] horse Jupiter – jockey Sedna: P05 (RA 27.8040 Dec 0.0821, broad); P11 (RA 29.9663 Dec 0.2656, broad)
+   [ 1] horse Pluto – jockey Uranus: P07 (RA 1.9363 Dec 2.3802, broad); P11 (RA 0.3533 Dec 1.9477, broad)
+   [12] J Jupiter–Uranus: P01 (RA 53.4473 Dec 0.2683, broad); P07 (Dec 2.99656 = 3, broad)
+   [12] H Saturn–Node: P03 (RA 114.5841 Dec 0.0835, broad); P05 (RA 115.6855 Dec 0.1049, broad)
+   [12] H Jupiter–Eris: P07 (RA 0.7891 Dec 10.9028, broad); P09 (RA 0.9550 Dec 10.9638, broad)
+   [12] H Chiron–Sedna: P07 (RA 43.8649 Dec 0.1340, broad); P09 (RA 43.8382 Dec 0.1215, broad)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P11
+   recurring cross link horse Uranus – jockey Venus: P11
+   recurring pair Chiron–Transpluto: P01 P05 P09
+   recurring pair Jupiter–Vesta: P05
+   recurring pair Neptune–Node: P05 P09 P11
+   recurring pair Neptune–Saturn: P03 P11
+   recurring pair Neptune–Vesta: P05
+   recurring pair Node–Haumea: P03 P05 P07 P09
+   recurring pair Node–Neptune: P05
+   recurring pair Pallas–Juno: P07
+   recurring pair Saturn–Neptune: P03 P07 P11
+   recurring pair Transpluto–Chiron: P03
+   recurring pair Uranus–Venus: P11
+   same-body Dec 9/4 : 5/4 : 9/5 on Pallas: P01
