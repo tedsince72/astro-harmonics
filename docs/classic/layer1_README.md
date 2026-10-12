@@ -34,3 +34,4 @@ Planes: RA, Dec, Flat, GC (+ Equator). Rahu and Ketu both listed (duplicates by 
   span/other 4 (0.152%), parts 3 (0.203%). Diffident's Sun–Chiron Dec sky 5.8285 / natal 32.0577 = 11/2 (0.0030%). Sky Sun–Chiron RA 11.11006
   (100/9 off 0.00105; the active file has 11.11058, off 0.00053 — the two files' sky positions differ slightly).
 - Tests: Dettori 3/3, Newmarket July 30/30, York 16:15 41/41.
+- Checker (independent, 12 Oct 2026): pair_family and splits recomputed for Dettori and all 9 Newmarket July runners — exact match; RA 'between' logic tested across the 0/360 wrap and near 180 (2 million cases, 0 disagreements); all Dettori numbers confirmed.
