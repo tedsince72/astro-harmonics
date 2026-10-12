@@ -1,0 +1,87 @@
+== worcester_1537_20261012  field of 7   [L4 v1.3 (12 Oct 2026, pair focus A+B+C)]  (blind: no finishing positions)
+-- runners: P01 1 Broomfield Aderra / 1 Harry Skelton; P03 2 Sweet Caryline / 2 Brendan Powell; P05 3 Mighty Fleur / 3 Sean Bowen; P07 4 La Marquise / 4 Gavin Sheehan; P09 6 Best Women / 6 Kielan Woods; P11 7 Annie Express / 7 Charlie Price; P13 8 Princess Keri / 8 Adam Wedge
+-- shape table (runner: count)          STRICT | BROAD
+   [  1] cross link struck on both ends              1/7: P09:3  |   7: P01:15 P03:14 P05:9 P07:16 P09:12 P11:10 P13:16
+   [  2] partner strike                              4/7: P01:1 P07:2 P09:2 P11:1  |   7: P01:4 P03:3 P05:1 P07:4 P09:6 P11:4 P13:3
+   [  3] pair together in the sky                    0/7: -  |   0: -
+   [  4] both ends moved                             0/7: -  |   0: -
+   [  5] movement onto a cross link                  5/7: P03:1 P05:2 P07:2 P09:1 P13:3  |   6: P01:1 P03:3 P05:4 P07:4 P09:4 P13:7
+   [  6] swap                                        1/7: P01:1  |   1: P01:1
+   [  7] triangle struck at every corner             2/7: P01:1 P07:1  |   6: P01:1 P03:1 P07:22 P09:1 P11:2 P13:3
+   [  8] same number / ratio in both charts          5/7: P01:1 P03:2 P05:1 P09:1 P13:1  |   6: P01:1 P03:3 P05:3 P07:3 P09:2 P13:1
+   [  9] shared node                                 1/7: P07:1  |   1: P07:1
+   [ 10] sky body divides a natal pair               7/7: P01:29 P03:64 P05:15 P07:63 P09:18 P11:13 P13:20  |   7: P01:29 P03:64 P05:15 P07:63 P09:18 P11:13 P13:20
+   [ 11] joined same-body set                        6/7: P01:1 P05:1 P07:3 P09:1 P11:3 P13:2  |   6: P01:1 P05:1 P07:3 P09:1 P11:3 P13:2
+   [ 12] pair in one chart struck on both ends by 2+  1/7: P01:1  |   6: P01:2 P05:3 P07:2 P09:5 P11:2 P13:4
+   [ 1m] cross link, 2+ sky bodies on both ends      0/7: -  |   6: P01:1 P03:1 P07:3 P09:1 P11:2 P13:1
+   [12m] pair in one chart, 2+ sky bodies on both ends  2/7: P01:1 P09:1  |   6: P01:2 P05:3 P07:2 P09:5 P11:2 P13:4
+-- tightest instance of each shape
+   [ strict:1] P09 6 Best Women / 6 Kielan Woods: horse Saturn – jockey Neptune (RA 2.4671 Dec 0.0110)
+   [ strict:2] P09 6 Best Women / 6 Kielan Woods: horse Saturn – jockey Neptune (RA 2.4671 Dec 0.0110)
+   [ strict:5] P07 4 La Marquise / 4 Gavin Sheehan: moved J Sun (RA 2.6140 Dec 0.0184)
+   [ strict:6] P01 1 Broomfield Aderra / 1 Harry Skelton: swap Ketu/Uranus (RA 1.6750 Dec 0.2654)
+   [ strict:9] P07 4 La Marquise / 4 Gavin Sheehan: shared node (node RA 0.8903)
+   [strict:10] P13 8 Princess Keri / 8 Adam Wedge: J Orcus -> H Ketu (split error 0.0023%)
+   [strict:11] P11 7 Annie Express / 7 Charlie Price: same body Sun (worst 0.0055%)
+   [  broad:1] P07 4 La Marquise / 4 Gavin Sheehan: horse Node – jockey Node (RA 0.8903 Dec 0.0014) broad/near
+   [  broad:2] P01 1 Broomfield Aderra / 1 Harry Skelton: horse Node – jockey Ceres (RA 0.0240 Dec 2.4205) broad/near
+   [  broad:5] P07 4 La Marquise / 4 Gavin Sheehan: moved J Sun (RA 2.6140 Dec 0.0184)
+   [  broad:6] P01 1 Broomfield Aderra / 1 Harry Skelton: swap Ketu/Uranus (RA 1.6750 Dec 0.2654)
+   [  broad:9] P07 4 La Marquise / 4 Gavin Sheehan: shared node (node RA 0.8903)
+   [ broad:10] P13 8 Princess Keri / 8 Adam Wedge: J Orcus -> H Ketu (split error 0.0023%)
+   [ broad:11] P11 7 Annie Express / 7 Charlie Price: same body Sun (worst 0.0055%)
+-- field-only findings (shape numbers)
+   P01 1 Broomfield Aderra / 1 Harry Skelton: only (strict) 6,12; only (broad) 6; strict, shared with one other 7,12m
+   P07 4 La Marquise / 4 Gavin Sheehan: only (strict) 9; only (broad) 9; strict, shared with one other 7
+   P09 6 Best Women / 6 Kielan Woods: only (strict) 1; only (broad) -; strict, shared with one other 12m
+-- pair focus: each runner's most-lit pair (kinds of root item); field max 4 — P07, P09
+   P01 1 Broomfield Aderra / 1 Harry Skelton    Quaoar–Vesta           2  cross, partner  (cross 0.7766)
+   P03 2 Sweet Caryline / 2 Brendan Powell      Ceres–Orcus            2  cross, family  (cross 0.0108)
+   P05 3 Mighty Fleur / 3 Sean Bowen            Gonggong–Mercury       2  cross, moved  (cross 0.0865)
+   P07 4 La Marquise / 4 Gavin Sheehan          Mars–Saturn            4  cross, partner, family, same body  (cross 0.4066)  (tie)
+   P09 6 Best Women / 6 Kielan Woods            Neptune–Saturn         4  cross, struck, partner, same body  (cross 0.0368)  (tie, tightest of the tied)
+   P11 7 Annie Express / 7 Charlie Price        Pallas–Pluto           2  cross, partner  (cross 0.5195)
+   P13 8 Princess Keri / 8 Adam Wedge           Mars–Transpluto        3  cross, ratio J, family  (cross 0.4718)
+-- strong hubs across the field
+   H Mercury      1: P03
+   H Transpluto   1: P05
+   H Makemake     1: P07
+   H Haumea       1: P07
+   J Uranus       1: P11
+   H Ceres        1: P13
+   J Mercury      1: P13
+-- same pair / body across the field (2+ runners)
+   [ 1] horse Pluto – jockey Neptune: P01 (RA 16.2626 Dec 0.1561, broad); P07 (RA 7.3021 Dec 0.5540, broad); P09 (RA 6.7032 Dec 0.0369); P13 (RA 15.0790 Dec 0.0912, broad)
+   [ 1] horse Node – jockey Uranus: P01 (RA 1.6750 Dec 0.2654, broad); P11 (RA 0.4280 Dec 0.7761, broad); P13 (RA 3.9926 Dec 0.3787, broad)
+   [ 1] horse Saturn – jockey Gonggong: P01 (RA 25.0838 Dec 0.5641, broad); P13 (RA 29.1474 Dec 0.2002, broad)
+   [ 1] horse Node – jockey Jupiter: P01 (RA 9.4453 Dec 0.5675, broad); P13 (RA 3.3673 Dec 0.2309, broad)
+   [ 1] horse Node – jockey Ceres: P01 (RA 0.0240 Dec 2.4205, broad); P05 (RA 68.6211 Dec 0.4889, broad)
+   [ 1] horse Transpluto – jockey Mars: P03 (RA 0.7319 Dec 4.9092, broad); P13 (RA 3.3621 Dec 0.1416, broad)
+   [ 1] horse Saturn – jockey Neptune: P05 (RA 1.8559 Dec 0.0934, broad); P09 (RA 2.4671 Dec 0.0110)
+   [ 1] horse Sedna – jockey Mercury: P05 (RA 97.8651 Dec 0.4805, broad); P13 (RA 105.1128 Dec 0.1546, broad)
+   [ 1] horse Mercury – jockey Juno: P07 (RA 14.8964 Dec 0.1957, broad); P11 (RA 72.7188 Dec 0.3370, broad)
+   [ 1] horse Node – jockey Venus: P07 (RA 5.5660 Dec 0.4378, broad); P11 (RA 4.2160 Dec 0.5832, broad)
+   [ 1] horse Node – jockey Haumea: P07 (RA 98.4704 Dec 0.5148, broad); P13 (RA 90.0332 Dec 0.4390, broad)
+   [ 1] horse Makemake – jockey Sun: P07 (RA 103.9586 Dec 0.5899, broad); P09 (RA 1.5479 Dec 31.8929, broad)
+   [ 1] horse Vesta – jockey Sun: P09 (RA 155.0649 Dec 0.3284, broad); P13 (RA 89.1619 Dec 0.4118, broad)
+   [11] same body Vesta: P05 (worst 0.0811%); P13 (worst 0.1462%)
+   [11] same body Makemake: P07 (worst 0.0874%); P11 (worst 0.0931%)
+-- recurring pairs (annotations)
+   recurring cross link horse Makemake – jockey Haumea: P11
+   recurring cross link horse Pluto – jockey Neptune: P01 P07 P09 P13
+   recurring cross link horse Uranus – jockey Venus: P13
+   recurring pair Chiron–Transpluto: P11
+   recurring pair Haumea–Node: P07
+   recurring pair Jupiter–Vesta: P01 P03 P05 P07
+   recurring pair Neptune–Node: P05
+   recurring pair Neptune–Rahu: P13
+   recurring pair Neptune–Saturn: P01 P09
+   recurring pair Neptune–Vesta: P03 P07
+   recurring pair Node–Haumea: P01 P03 P05 P07 P09 P13
+   recurring pair Node–Neptune: P09 P13
+   recurring pair Pallas–Juno: P07 P09
+   recurring pair Saturn–Neptune: P01 P05 P07 P09 P13
+   recurring pair Uranus–Venus: P13
+   recurring pair Venus–Uranus: P01 P03 P09 P13
+   recurring pair Vesta–Jupiter: P03
+   recurring pair Vesta–Neptune: P09
