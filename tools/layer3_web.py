@@ -330,8 +330,8 @@ def run(I, T):
     for i, x in enumerate(I['same_body']):
         if is_root(f'same_body:{i}'): sbody.setdefault(fold(x['body']), []).append(f'same_body:{i}')
     for key in list(PF):
-        for b in set(key):
-            for iid in sbody.get(b, []): put(key, 'same body', iid)
+        for iid in sorted({i for b in set(key) for i in sbody.get(b, [])}, key=lambda s: int(s.split(':')[1])):   # item order, not set order (run-to-run stable)
+            put(key, 'same body', iid)
         a, b = key
         if a != b and f'S {a if a != "Node" else "Rahu"}' in P and f'S {b if b != "Node" else "Rahu"}' in P:
             ga = [P[f'S {x}'] for x in (['Rahu', 'Ketu'] if a == 'Node' else [a])]; gb = [P[f'S {x}'] for x in (['Rahu', 'Ketu'] if b == 'Node' else [b])]

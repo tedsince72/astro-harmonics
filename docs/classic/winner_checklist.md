@@ -428,3 +428,5 @@ Def: for pair {A, B} (node folded; A = B allowed), number of different KINDS lan
 6. Partner strike — the one field-only shape that won blind (Redcar).
 7. Recurring links to keep watching: horse Sedna – jockey Chiron (Redcar, reversed), Jupiter–Vesta (Exeter).
 8. Cosmetic display fixes after the batch: Exeter race page repeats 'pair in one chart' for P01 and P05 (shape 12 and 12m); Redcar prints the 'Equator values' header twice.
+   DONE 12 Oct 2026: Layer 3 pair focus listed a pair's two same-body sets in an order that changed from run to run (it looped over a Python set);
+   now sorted by item number (tools/layer3_web.py). Seen on Exeter P01 Sedna–Vesta; numbers were never affected.
