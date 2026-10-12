@@ -12,3 +12,7 @@ Claims to check (winner file __P11):
 4. Murphy Mercury–Eris Dec 1.999 struck both ends by sky Sun (RA 136 and Dec 25 together | Dec 27). Mercury soak ~2.0027 ≈ 2 (4 partners, spread 0.0096).
 5. Ratios: horse Rahu–Makemake Flat sky/natal 11/8 (0.0000%); horse Juno–Gonggong Flat 22/9 (0.0004%); horse Ketu–Sedna Dec 19/9 (0.0003%); horse Saturn–Pallas Flat 24/7 (0.0007%).
 6. Equator: Venus horse/jockey 7.0458 / 6.0388 = 7/6 (0.008%); Vesta sky/jockey 24.5578 / 12.2731 = 2 (0.047%). Horse Jupiter – Murphy Quaoar Dec 0.0614.
+
+## Checker (independent, recomputed): 1–3, 5, 6 and header shape lines confirmed
+- 4: Sun strike confirmed; the 'Mercury soak' has only 3 partners (the 4th in soak.py's output involves a star) — dropped.
+- Both-ends counts differ by counting method (checker 6 winner / 9 La Pasionaria vs both_ends.py 5 / 12, which counts each sky body per link).
