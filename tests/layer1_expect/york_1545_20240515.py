@@ -1,0 +1,33 @@
+from l1helpers import *
+RACE = 'york_1545_20240515'
+P = 'P11'
+CHECKS = [
+ ('1 H Pluto moved RA 6', lambda I: move(I,'H','Pluto','RA','6')),
+ ('1 cross H Pluto–J Uranus RA 0.3964 (close)', lambda I: link(I,'cross','H Pluto','J Uranus',close=True)),
+ ('1 H Jupiter–Pluto RA 28', lambda I: link(I,'H','H Jupiter','H Pluto','RA','28')),
+ ('1 sky Pluto -> H Jupiter RA 22', lambda I: strike(I,'Pluto','H Jupiter','RA','22')),
+ ('1 sky Pluto -> H Pluto RA 6', lambda I: strike(I,'Pluto','H Pluto','RA','6')),
+ ('1 sky Quaoar -> H Jupiter RA 47', lambda I: strike(I,'Quaoar','H Jupiter','RA','47')),
+ ('1 sky Quaoar -> H Pluto RA 19', lambda I: strike(I,'Quaoar','H Pluto','RA','19')),
+ ('1 H Pluto–Juno Dec 14', lambda I: link(I,'H','H Pluto','H Juno','Dec','14')),
+ ('1 sky Pluto -> H Juno Dec 131/9', lambda I: strike(I,'Pluto','H Juno','Dec','131/9')),
+ ('1 H Pluto–Ketu Dec 0.0310 (close)', lambda I: link(I,'H','H Pluto','H Ketu',close=True)),
+ ('2 J Jupiter–Uranus Dec 0.2683 (close)', lambda I: link(I,'J','J Jupiter','J Uranus',close=True)),
+ ('2 J Uranus–Neptune Dec 0.3834 (close)', lambda I: link(I,'J','J Uranus','J Neptune',close=True)),
+ ('2 H Uranus–Vesta GC 9/4', lambda I: ratio(I,'H','Uranus–Vesta','GC','9/4')),
+ ('3 J Pallas moved RA 92', lambda I: move(I,'J','Pallas','RA','92')),
+ ('3 cross H Orcus–J Pallas RA 0.6004 (close)', lambda I: link(I,'cross','H Orcus','J Pallas',close=True)),
+ ('3 H Gonggong–Orcus Dec 0.0509 (close)', lambda I: link(I,'H','H Gonggong','H Orcus',close=True)),
+ ('3 H Juno–Orcus GC 23/5', lambda I: ratio(I,'H','Juno–Orcus','GC','23/5')),
+ ('4 J Mercury–Eris Dec 2', lambda I: link(I,'J','J Mercury','J Eris','Dec','2')),
+ ('4 sky Sun -> J Mercury RA 136', lambda I: strike(I,'Sun','J Mercury','RA','136')),
+ ('4 sky Sun -> J Mercury Dec 25', lambda I: strike(I,'Sun','J Mercury','Dec','25')),
+ ('4 sky Sun -> J Eris Dec 27', lambda I: strike(I,'Sun','J Eris','Dec','27')),
+ ('5 H Rahu–Makemake Flat 11/8', lambda I: ratio(I,'H','Rahu–Makemake','Flat','11/8')),
+ ('5 H Juno–Gonggong Flat 22/9', lambda I: ratio(I,'H','Juno–Gonggong','Flat','22/9')),
+ ('5 H Ketu–Sedna Dec 19/9', lambda I: ratio(I,'H','Ketu–Sedna','Dec','19/9')),
+ ('5 H Saturn–Pallas Flat 24/7', lambda I: ratio(I,'H','Saturn–Pallas','Flat','24/7')),
+ ('6 Equator H/J Venus 7/6 tight', lambda I: eqr(I,'Venus','H/J','7/6','tight')),
+ ('6 Equator S/J Vesta 2 (0.047%): outside Equator near band 0.03% (not listed)', lambda I: not any(e['body']=='Vesta' and e['pair']=='S/J' for e in I['eq_ratios'])),
+ ('6 cross H Jupiter–J Quaoar Dec 0.0614 (close)', lambda I: link(I,'cross','H Jupiter','J Quaoar',close=True)),
+]

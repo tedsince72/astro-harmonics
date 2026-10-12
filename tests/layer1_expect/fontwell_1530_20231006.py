@@ -1,0 +1,33 @@
+from l1helpers import *
+RACE = 'fontwell_1530_20231006'
+P = 'P05'
+CHECKS = [
+ ('1 swap: cross H Saturn–J Neptune (close, Dec 0.0402)', lambda I: link(I,'cross','H Saturn','J Neptune',close=True)),
+ ('1 swap: cross H Neptune–J Saturn (close, Dec 0.0896)', lambda I: link(I,'cross','H Neptune','J Saturn',close=True)),
+ ('1 J Neptune moved GC 564/9', lambda I: move(I,'J','Neptune','GC','564/9')),
+ ('1 cross H Pluto–J Neptune (close, RA 0.7663)', lambda I: link(I,'cross','H Pluto','J Neptune',close=True)),
+ ('1 cross H Saturn–J Uranus (close, Dec 0.3553)', lambda I: link(I,'cross','H Saturn','J Uranus',close=True)),
+ ('1 J Uranus–Neptune close (Dec 0.3956)', lambda I: link(I,'J','J Uranus','J Neptune',close=True)),
+ ('2 cross H Juno–J Venus (close, RA 0.1879)', lambda I: link(I,'cross','H Juno','J Venus',close=True)),
+ ('2 Juno same-body Dec 3/2:5/3:5/2', lambda I: same(I,'Juno','Dec',['3/2','5/3','5/2'])),
+ ('2 Venus same-body Dec 3/2:5/3:5/2', lambda I: same(I,'Venus','Dec',['3/2','5/3','5/2'])),
+ ('3 J Pluto–Quaoar RA 6/9', lambda I: link(I,'J','J Pluto','J Quaoar','RA','6/9')),
+ ('3 J Pluto–Quaoar Dec 7', lambda I: link(I,'J','J Pluto','J Quaoar','Dec','7')),
+ ('3 H Pluto–Quaoar Dec 11/9', lambda I: ratio(I,'H','Pluto–Quaoar','Dec','11/9')),
+ ('3 J Pluto–Quaoar Dec 8/7', lambda I: ratio(I,'J','Pluto–Quaoar','Dec','8/7')),
+ ('4 H Vesta moved Dec 57/9', lambda I: move(I,'H','Vesta','Dec','57/9')),
+ ('4 swap: cross H Vesta–J Sedna (close, RA 0.5453)', lambda I: link(I,'cross','H Vesta','J Sedna',close=True)),
+ ('4 swap: cross H Sedna–J Vesta (close, Dec 0.2819)', lambda I: link(I,'cross','H Sedna','J Vesta',close=True)),
+ ('4 J Vesta–Rahu Dec 15/8', lambda I: ratio(I,'J','Vesta–Rahu','Dec','15/8')),
+ ('5 cross H Gonggong–J Juno (close, Dec 0.0503)', lambda I: link(I,'cross','H Gonggong','J Juno',close=True)),
+ ('5 J Gonggong moved Dec 69/9', lambda I: move(I,'J','Gonggong','Dec','69/9')),
+ ('5 J Jupiter–Gonggong Dec 3', lambda I: link(I,'J','J Jupiter','J Gonggong','Dec','3')),
+ ('5 sky Chiron -> J Jupiter Dec 30', lambda I: strike(I,'Chiron','J Jupiter','Dec','30')),
+ ('5 sky Chiron -> J Gonggong Dec 27', lambda I: strike(I,'Chiron','J Gonggong','Dec','27')),
+ ('5 shared Gonggong–Orcus GC', lambda I: shared(I,'Gonggong–Orcus','GC')),
+ ('6 J Haumea–Makemake Dec 7/4', lambda I: ratio(I,'J','Haumea–Makemake','Dec','7/4')),
+ ('6 J Mars–Transpluto Flat 13/8', lambda I: ratio(I,'J','Mars–Transpluto','Flat','13/8')),
+ ('6 J Mercury–Makemake Flat 13/8', lambda I: ratio(I,'J','Mercury–Makemake','Flat','13/8')),
+ ('6 Equator H/J Sun 18/5 (0.035%): beyond the 0.03% near band (not listed)', lambda I: not any(e['body']=='Sun' and e['pair']=='H/J' for e in I['eq_ratios'])),
+ ('6 Equator S/H Vesta 3/2 (0.048%): beyond the 0.03% near band (not listed)', lambda I: not any(e['body']=='Vesta' and e['pair']=='S/H' for e in I['eq_ratios'])),
+]

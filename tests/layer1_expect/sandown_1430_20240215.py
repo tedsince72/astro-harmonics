@@ -1,0 +1,32 @@
+from l1helpers import *
+RACE = 'sandown_1430_20240215'
+P = 'P13'
+CHECKS = [
+ ('1 swap: cross H Ceres–J Juno Dec 0.1177 (close)', lambda I: link(I,'cross','H Ceres','J Juno',close=True)),
+ ('1 swap: cross H Juno–J Ceres RA 1.3026 (close)', lambda I: link(I,'cross','H Juno','J Ceres',close=True)),
+ ('1 H Juno–Orcus Dec 0.0051 (close)', lambda I: link(I,'H','H Juno','H Orcus',close=True)),
+ ('1 sky Rahu -> H Juno Dec 16', lambda I: strike(I,'Rahu','H Juno','Dec','16')),
+ ('1 sky Rahu -> H Orcus Dec 16', lambda I: strike(I,'Rahu','H Orcus','Dec','16')),
+ ('2 Mercury same-body RA 9/8:17/8:17/9', lambda I: same(I,'Mercury','RA',['9/8','17/8','17/9'])),
+ ('2 H Mercury–Eris RA 0.0227 (close)', lambda I: link(I,'H','H Mercury','H Eris',close=True)),
+ ('2 cross H Mercury–J Transpluto Dec 0.0256 (close)', lambda I: link(I,'cross','H Mercury','J Transpluto',close=True)),
+ ('2 J Mercury–Pluto RA 19/2', lambda I: ratio(I,'J','Mercury–Pluto','RA','19/2')),
+ ('2 shared Mercury–Pluto Dec', lambda I: shared(I,'Mercury–Pluto','Dec')),
+ ('3 J Mars–Jupiter Dec 50', lambda I: link(I,'J','J Mars','J Jupiter','Dec','50')),
+ ('3 sky Sun -> J Mars Dec 14', lambda I: strike(I,'Sun','J Mars','Dec','14')),
+ ('3 sky Sun -> J Jupiter Dec 36', lambda I: strike(I,'Sun','J Jupiter','Dec','36')),
+ ('3 sky Uranus -> J Mars Dec 44', lambda I: strike(I,'Uranus','J Mars','Dec','44')),
+ ('3 sky Uranus -> J Jupiter Dec 6', lambda I: strike(I,'Uranus','J Jupiter','Dec','6')),
+ ('3 sky Eris -> J Mars Dec 26', lambda I: strike(I,'Eris','J Mars','Dec','26')),
+ ('3 sky Eris -> J Jupiter Dec 24', lambda I: strike(I,'Eris','J Jupiter','Dec','24')),
+ ('4 J Jupiter–Rahu Dec 0.1255 (close)', lambda I: link(I,'J','J Jupiter','J Rahu',close=True)),
+ ('4 J Venus–Saturn Dec 0.0396 (close)', lambda I: link(I,'J','J Venus','J Saturn',close=True)),
+ ('4 J Pluto–Rahu RA 13/6', lambda I: ratio(I,'J','Pluto–Rahu','RA','13/6')),
+ ('4 J Rahu–Gonggong Flat 28/9', lambda I: ratio(I,'J','Rahu–Gonggong','Flat','28/9')),
+ ('5 H Sun–Chiron Flat 17/5', lambda I: ratio(I,'H','Sun–Chiron','Flat','17/5')),
+ ('5 H Venus–Ceres GC 11/6', lambda I: ratio(I,'H','Venus–Ceres','GC','11/6')),
+ ('5 H Chiron–Transpluto RA 9/8', lambda I: ratio(I,'H','Chiron–Transpluto','RA','9/8')),
+ ('5 Equator H/J Makemake 5/4 tight', lambda I: eqr(I,'Makemake','H/J','5/4','tight')),
+ ('5 Equator S/H Orcus 11/8 near', lambda I: eqr(I,'Orcus','S/H','11/8','near')),
+ ('5 J Transpluto Equator 13', lambda I: eqpt(I,'J','Transpluto','13')),
+]

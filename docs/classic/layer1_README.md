@@ -35,3 +35,17 @@ Planes: RA, Dec, Flat, GC (+ Equator). Rahu and Ketu both listed (duplicates by 
   (100/9 off 0.00105; the active file has 11.11058, off 0.00053 — the two files' sky positions differ slightly).
 - Tests: Dettori 3/3, Newmarket July 30/30, York 16:15 41/41.
 - Checker (independent, 12 Oct 2026): pair_family and splits recomputed for Dettori and all 9 Newmarket July runners — exact match; RA 'between' logic tested across the 0/360 wrap and near 180 (2 million cases, 0 disagreements); all Dettori numbers confirmed.
+
+## All races (12 Oct 2026)
+Layer 1 v1.3 run on every race; each winner read turned into checks (tests/layer1_expect/<race>.py, built by six parallel agents).
+30 races, 778 checks, all pass. No Layer 1 bugs. Items outside the rules are written as 'not listed' checks with the reason. Recurring gaps
+(for Eddie's decision):
+1. Cross links just past the close limit (Dec 0.30–0.52 or RA 1.5–1.9): Chelmsford Chiron–Rahu Dec 0.337; Ascot Jupiter–Saturn Dec 0.363 / RA 1.59;
+   Haydock 17:18 Juno–Venus Dec 0.437; Venturous Rahu–Rahu RA 1.87 / Dec 0.52.
+2. Equator ratios at 0.03–0.05% (11 items): Fontwell Sun 18/5, Vesta 3/2; Newton Abbot Pallas 5/4; Sedgefield Saturn 13/7; Wincanton Pallas 21/5;
+   Newcastle 15:40 Uranus 13/3; Haydock 14:05 Pluto 6/5; Newcastle AW 16:40 Ceres 11/5; Huntingdon Neptune 9/4; Newbury Sun 7/5; York 15:45 Vesta 2.
+3. Sky body close to a natal body (no whole number, often < 0.5): Newbury Mars return; Newcastle AW 16:40 sky Gonggong/Neptune/Uranus on Chiron, Neptune,
+   Sedna, Venus; Newcastle 12:20 sky Gonggong on Chiron/Neptune, Uranus on Venus. Also close sky pairs (Newmarket Jupiter–Neptune).
+4. Horse:jockey ratio on one pair without a sky leg: Carlisle Ketu–Sedna 29/8; Perth Haumea–Ketu 9/5; Newbury Chiron–Transpluto 21/8.
+5. Sky/natal ratios at 0.005–0.01%: Newcastle AW 13:30 x4 (Juno–Eris 6/5, Juno–Ketu 13/4, Pallas–Juno 9/7, Venus–Chiron 23/7).
+6. Stars (Regulus, Vega, Algol, ...) — out by design.

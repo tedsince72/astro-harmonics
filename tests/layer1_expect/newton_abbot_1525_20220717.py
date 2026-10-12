@@ -1,0 +1,32 @@
+from l1helpers import *
+RACE = 'newton_abbot_1525_20220717'
+P = 'P07'
+CHECKS = [
+ ('1 J Mars–Neptune RA 30/7', lambda I: ratio(I,'J','Mars–Neptune','RA','30/7')),
+ ('1 J Neptune–Vesta RA 4/3', lambda I: ratio(I,'J','Neptune–Vesta','RA','4/3')),
+ ('1 H Neptune–Vesta Flat 20/7', lambda I: ratio(I,'H','Neptune–Vesta','Flat','20/7')),
+ ('1 J Uranus–Neptune close (RA 0.0985)', lambda I: link(I,'J','J Uranus','J Neptune',close=True)),
+ ('1 J Neptune–Vesta close (Dec 0.3824)', lambda I: link(I,'J','J Neptune','J Vesta',close=True)),
+ ('1 sky Gonggong -> J Uranus RA 420/9', lambda I: strike(I,'Gonggong','J Uranus','RA','420/9')),
+ ('1 sky Gonggong -> J Vesta RA 523/9', lambda I: strike(I,'Gonggong','J Vesta','RA','523/9')),
+ ('2 cross H Sedna–J Chiron (close, Dec 0.0147)', lambda I: link(I,'cross','H Sedna','J Chiron',close=True)),
+ ('2 H Uranus–Sedna close (Dec 0.3993)', lambda I: link(I,'H','H Uranus','H Sedna',close=True)),
+ ('2 sky Eris -> H Uranus RA 9', lambda I: strike(I,'Eris','H Uranus','RA','9')),
+ ('2 sky Eris -> H Sedna RA 28', lambda I: strike(I,'Eris','H Sedna','RA','28')),
+ ('2 H Rahu–Sedna RA 19/2', lambda I: ratio(I,'H','Rahu–Sedna','RA','19/2')),
+ ('2 H Jupiter–Sedna Flat 13/6', lambda I: ratio(I,'H','Jupiter–Sedna','Flat','13/6')),
+ ('2 J Sun–Sedna Dec 17/9', lambda I: ratio(I,'J','Sun–Sedna','Dec','17/9')),
+ ('3 J Jupiter moved RA 174', lambda I: move(I,'J','Jupiter','RA','174')),
+ ('3 cross H Makemake–J Jupiter (close, RA 0.2301)', lambda I: link(I,'cross','H Makemake','J Jupiter',close=True)),
+ ('3 cross H Juno–J Jupiter (close, Dec 0.189)', lambda I: link(I,'cross','H Juno','J Jupiter',close=True)),
+ ('4 sky Rahu -> J Chiron Dec 93/9', lambda I: strike(I,'Rahu','J Chiron','Dec','93/9')),
+ ('4 sky Rahu -> J Pallas Dec 143/9', lambda I: strike(I,'Rahu','J Pallas','Dec','143/9')),
+ ('4 sky Rahu -> J Eris Dec 239/9', lambda I: strike(I,'Rahu','J Eris','Dec','239/9')),
+ ('5 shared Uranus–Juno GC', lambda I: shared(I,'Uranus–Juno','GC')),
+ ('5 shared Ceres–Makemake GC', lambda I: shared(I,'Ceres–Makemake','GC')),
+ ('6 J Mercury–Uranus GC 6', lambda I: ratio(I,'J','Mercury–Uranus','GC','6')),
+ ('6 J Uranus–Gonggong Flat 15/8', lambda I: ratio(I,'J','Uranus–Gonggong','Flat','15/8')),
+ ('6 J Pallas–Juno Dec 11/3', lambda I: ratio(I,'J','Pallas–Juno','Dec','11/3')),
+ ('6 J Orcus Equator 2', lambda I: eqpt(I,'J','Orcus','2')),
+ ('6 Equator S/J Pallas 5/4 (0.039%): beyond the 0.03% near band (not listed)', lambda I: not any(e['body']=='Pallas' and e['pair']=='S/J' for e in I['eq_ratios'])),
+]

@@ -1,0 +1,31 @@
+from l1helpers import *
+RACE = 'nottingham_1750_20220613'
+P = 'P03'
+CHECKS = [
+ ('1 Vesta same-body RA 8:9:9/8', lambda I: same(I,'Vesta','RA',['8','9','9/8'])),
+ ('1 Vesta same-body Dec 7:8:8/7', lambda I: same(I,'Vesta','Dec',['7','8','8/7'])),
+ ('1 H Eris moved RA 12/9', lambda I: move(I,'H','Eris','RA','12/9')),
+ ('1 cross H Eris–J Vesta (close, Dec 0.269)', lambda I: link(I,'cross','H Eris','J Vesta',close=True)),
+ ('1 H Vesta–Gonggong close (Dec 0.0742)', lambda I: link(I,'H','H Vesta','H Gonggong',close=True)),
+ ('1 H Vesta–Rahu RA 17/9', lambda I: ratio(I,'H','Vesta–Rahu','RA','17/9')),
+ ('1 J Rahu–Vesta RA 1.5805 (Dec 10.84): outside inside-chart close (RA < 1.5, Dec < 0.6), no whole/ninth — not listed',
+  lambda I: not has_link(I,'J Rahu','J Vesta',close=False)),
+ ('1 J Venus–Vesta close (Dec 0.2643)', lambda I: link(I,'J','J Venus','J Vesta',close=True)),
+ ('2 H Jupiter–Pluto RA 34', lambda I: link(I,'H','H Jupiter','H Pluto','RA','34')),
+ ('2 sky Vesta -> H Jupiter RA 78', lambda I: strike(I,'Vesta','H Jupiter','RA','78')),
+ ('2 sky Vesta -> H Pluto RA 44', lambda I: strike(I,'Vesta','H Pluto','RA','44')),
+ ('2 J Pallas–Orcus RA 34 (close, Dec 0.2352)', lambda I: link(I,'J','J Pallas','J Orcus','RA','34',close=True)),
+ ('2 sky node -> J Pallas RA 69: the read folds the node; Layer 1 lists sky Ketu RA 69 (and sky Rahu RA 111)',
+  lambda I: strike(I,'Ketu','J Pallas','RA','69') and strike(I,'Rahu','J Pallas','RA','111')),
+ ('2 sky Rahu -> J Orcus RA 77', lambda I: strike(I,'Rahu','J Orcus','RA','77')),
+ ('3 sky Rahu -> H Saturn Dec 362/9', lambda I: strike(I,'Rahu','H Saturn','Dec','362/9')),
+ ('3 sky Rahu -> H Uranus Dec 68/9', lambda I: strike(I,'Rahu','H Uranus','Dec','68/9')),
+ ('3 sky Rahu -> H Haumea Dec 2', lambda I: strike(I,'Rahu','H Haumea','Dec','2')),
+ ('3 sky Rahu -> H Pallas Dec 142/9', lambda I: strike(I,'Rahu','H Pallas','Dec','142/9')),
+ ('4 J Neptune–Orcus Dec 24/7', lambda I: ratio(I,'J','Neptune–Orcus','Dec','24/7')),
+ ('4 J Saturn–Eris RA 19/8', lambda I: ratio(I,'J','Saturn–Eris','RA','19/8')),
+ ('4 H Uranus–Ceres RA 19/8', lambda I: ratio(I,'H','Uranus–Ceres','RA','19/8')),
+ ('4 J Pluto–Sedna GC 13/9', lambda I: ratio(I,'J','Pluto–Sedna','GC','13/9')),
+ ('4 H Juno–Quaoar RA 20/9', lambda I: ratio(I,'H','Juno–Quaoar','RA','20/9')),
+ ('5 (corrected) Equator S/J Uranus 7/5 tight', lambda I: eqr(I,'Uranus','S/J','7/5','tight')),
+]

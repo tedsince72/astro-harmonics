@@ -1,0 +1,33 @@
+from l1helpers import *
+RACE = 'nottingham_1530_20220601'
+P = 'P01'
+CHECKS = [
+ ('1 cross H Sedna–J Chiron (close, Dec 0.0055)', lambda I: link(I,'cross','H Sedna','J Chiron',close=True)),
+ ('1 sky Venus -> H Sedna RA 24', lambda I: strike(I,'Venus','H Sedna','RA','24')),
+ ('1 sky Venus -> J Chiron RA 113', lambda I: strike(I,'Venus','J Chiron','RA','113')),
+ ('1 sky Ceres -> H Sedna Dec 19', lambda I: strike(I,'Ceres','H Sedna','Dec','19')),
+ ('1 sky Ceres -> J Chiron Dec 19', lambda I: strike(I,'Ceres','J Chiron','Dec','19')),
+ ('1 sky Juno -> H Sedna Dec 8', lambda I: strike(I,'Juno','H Sedna','Dec','8')),
+ ('1 sky Juno -> J Chiron Dec 8', lambda I: strike(I,'Juno','J Chiron','Dec','8')),
+ ('2 sky Juno -> J Mars Dec 35/9', lambda I: strike(I,'Juno','J Mars','Dec','35/9')),
+ ('2 sky Makemake -> J Chiron RA 467/9', lambda I: strike(I,'Makemake','J Chiron','RA','467/9')),
+ ('2 sky Makemake -> J Pallas RA 1204/9', lambda I: strike(I,'Makemake','J Pallas','RA','1204/9')),
+ ('2 cross H Chiron–J Mars (close, Dec 0.0152)', lambda I: link(I,'cross','H Chiron','J Mars',close=True)),
+ ('2 J Chiron–Transpluto close (RA 0.5581)', lambda I: link(I,'J','J Chiron','J Transpluto',close=True)),
+ ('3 cross H Saturn–J Uranus (close, RA 0.0077)', lambda I: link(I,'cross','H Saturn','J Uranus',close=True)),
+ ('3 cross H Saturn–J Neptune (close, RA 0.4254 Dec 0.2150)', lambda I: link(I,'cross','H Saturn','J Neptune',close=True)),
+ ('3 J Uranus–Neptune close (RA 0.4177)', lambda I: link(I,'J','J Uranus','J Neptune',close=True)),
+ ('3 H Jupiter moved Dec 23', lambda I: move(I,'H','Jupiter','Dec','23')),
+ ('3 cross H Jupiter–J Uranus (close, Dec 0.182)', lambda I: link(I,'cross','H Jupiter','J Uranus',close=True)),
+ ('3 cross H Ketu–J Neptune (close, Dec 0.1319)', lambda I: link(I,'cross','H Ketu','J Neptune',close=True)),
+ ('4 sky Jupiter -> J Vesta RA 18', lambda I: strike(I,'Jupiter','J Vesta','RA','18')),
+ ('4 sky Jupiter -> J Vesta Dec 137/9', lambda I: strike(I,'Jupiter','J Vesta','Dec','137/9')),
+ ('5 H Neptune–Rahu GC 11/5', lambda I: ratio(I,'H','Neptune–Rahu','GC','11/5')),
+ ('5 H Pluto–Ketu close (RA 0.0305)', lambda I: link(I,'H','H Pluto','H Ketu',close=True)),
+ ('6 cross H Mars–J Venus (close, Dec 0.0091)', lambda I: link(I,'cross','H Mars','J Venus',close=True)),
+ ('6 J Pluto–Rahu Flat 5', lambda I: ratio(I,'J','Pluto–Rahu','Flat','5')),
+ ('6 J Vesta–Orcus RA 11/9', lambda I: ratio(I,'J','Vesta–Orcus','RA','11/9')),
+ ('6 H Eris–Transpluto Dec 10/9', lambda I: ratio(I,'H','Eris–Transpluto','Dec','10/9')),
+ ('6 Equator S/J Pluto 5 (0.044%): beyond the 0.03% near band (not listed)', lambda I: not any(e['body']=='Pluto' and e['pair']=='S/J' for e in I['eq_ratios'])),
+ ('6 sky Haumea Equator 16', lambda I: eqpt(I,'S','Haumea','16')),
+]
