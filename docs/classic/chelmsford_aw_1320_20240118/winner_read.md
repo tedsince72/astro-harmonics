@@ -14,3 +14,8 @@ Claims to check (winner file __P03):
 5. Ratios: horse Jupiter–Rahu RA natal 161.4365 / sky 16.1433 = 10 (0.0022%); Kelly Pluto–Chiron RA 12/5 (0.0009%); Kelly Sedna–Orcus Dec 28/9 (0.0005%);
    Kelly Juno–Transpluto Flat 19/2 (0.0013%).
 6. Same-body Transpluto Dec 7, 8, 8/7 (0.027%); Jupiter Dec 6/5, 5, 6 (0.042%). Equator Quaoar horse/jockey 4/3 (0.012%); sky Mercury 22.66629 (204/9).
+
+## Checker (independent, recomputed): 1–5 confirmed; 6 wording corrected
+- 1: winner the only runner with a cross link struck by 2+ sky bodies; single-body cross-link strikes also for Buford and New York Bay.
+- 3: Kelly Neptune 167/9 off 0.0009 (movement window).
+- 6: Quaoar Equator 4/3 is sky/jockey 15.3608 / 11.5191 (0.0124%), not horse/jockey.
