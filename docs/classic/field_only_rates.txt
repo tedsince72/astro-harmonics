@@ -1,0 +1,50 @@
+== Field-only items (strict, checklist reader CR v1.1) against finish
+-- exeter_1515_20211019 (blind for the layers only (reader built after its result))
+   P01 1 Caspers Court / 1 Tom Scudamore            field-only 0 (-)  finish   3  SP 5/2
+   P03 2 Jarlath / 2 Sean Houlihan                  field-only 1 (1)  finish   2  SP 11/1
+   P05 3 Pens Man / 3 Jonjo O'Neill Jr              field-only 1 (33)  finish   4  SP 5/4
+   P07 4 Pointed And Sharp / 4 Tom O'Brien          field-only 0 (-)  finish  PU  SP 11/2
+   P09 5 Blaze A Trail / 5 Connor Brace             field-only 1 (7)  finish  PU  SP 10/1
+   P11 7 Forget You Not / 7 James Best              field-only 2 (17,28)  finish   1  SP 25/1
+-- redcar_1515_20211015 (blind for the layers only (reader built after its result))
+   P01 3 Divine Jewel / 3 David Egan                field-only 1 (29)  finish   3  SP 10/11
+   P03 4 Oheka / 4 Kieran Shoemark                  field-only 0 (-)  finish   2  SP 15/8
+   P05 5 Present Moment / 5 Dylan Hogan             field-only 2 (3,11)  finish   1  SP 14/1
+   P07 6 Sea Time / 6 David Nolan                   field-only 0 (-)  finish   5  SP 33/1
+   P09 8 World Without Love / 8 Joe Fanning         field-only 1 (5)  finish   4  SP 12/1
+-- haydock_1420_20210904 (blind for the layers only (reader built after its result))
+   P01 1 Roseabad / 1 Richard Kingscote             field-only 0 (-)  finish   5  SP 15/2
+   P03 2 Golden Flame / 2 Joe Fanning               field-only 1 (33)  finish   1  SP 9/1
+   P05 3 Valley Forge / 3 David Probert             field-only 0 (-)  finish   3  SP 11/8
+   P07 5 Praiano / 5 Andrea Atzeni                  field-only 1 (17)  finish   2  SP 3/1
+   P09 7 Contact / 7 Ray Dawson                     field-only 0 (-)  finish   4  SP 13/2
+   P11 8 Tynwald / 8 Daniel Tudhope                 field-only 3 (5,7,29)  finish   6  SP 14/1
+-- kempton_aw_1440_20210904 (blind for the reader)
+   P01 1 Hukum / 1 Jim Crowley                      field-only 2 (8,15)  finish   2  SP 30/100
+   P03 2 Fox Tal / 2 Oisin Murphy                   field-only 3 (5,7,14)  finish   3  SP 9/1
+   P05 3 Hamish / 3 Pat Dobbs                       field-only 1 (33)  finish   1  SP 9/1
+   P07 4 Outbox / 4 Luke Morris                     field-only 0 (-)  finish   4  SP 10/1
+   P09 5 Prince Of Arran / 5 Rossa Ryan             field-only 0 (-)  finish   5  SP 22/1
+-- fontwell_1645_20210914 (blind for the reader)
+   P01 1 Eye To The Sky / 1 Gavin Sheehan           field-only 2 (15,26)  finish   3  SP 4/5
+   P03 2 Spike Jones / 2 Alain Cawley               field-only 3 (3,10,28)  finish   2  SP 5/1
+   P05 3 Pixie Loc / 3 Ben Jones                    field-only 1 (5)  finish   1  SP 14/1
+   P07 4 Santesa / 4 Ciaran Gethings                field-only 1 (14)  finish   4  SP 5/2
+-- the 5 blind races (only Kempton and Fontwell blind for the reader): win rate by number of strict field-only items
+    items  runners  won  win %  chance wins
+        0        9    0     0%         1.63
+        1       10    3    30%         1.93
+        2        4    2    50%         0.82
+       3+        3    0     0%         0.62
+-- Kempton + Fontwell only (blind for the reader): win rate by number of strict field-only items
+    items  runners  won  win %  chance wins
+        0        2    0     0%         0.40
+        1        3    2    67%         0.70
+        2        2    0     0%         0.45
+       3+        2    0     0%         0.45
+-- the 32 read races — NOT evidence (the checklist and the reader were built from them): win rate by number of strict field-only items
+    items  runners  won  win %  chance wins
+        0      116    8     7%        15.74
+        1       62   15    24%        10.33
+        2       20    6    30%         3.71
+       3+       11    3    27%         2.23

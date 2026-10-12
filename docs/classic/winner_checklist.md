@@ -383,6 +383,9 @@ Def: for pair {A, B} (node folded; A = B allowed), number of different KINDS lan
 - Horse Makemake – jockey Haumea: Newmarket 15:35 (RA 1.3575), Perth (RA 1.1919), Haydock 17:18 (Dec 0.0058), Wolverhampton (Dec 0.1285), Sandown 2021 (RA 0.0159), York 16:15 (Dec 0.119 — also Respectful, Expensive Queen, Ribble Radiant). Losers: Newmarket July Arabian Poet, King Of Cities.
 - Horse Venus/Uranus – jockey Uranus/Venus: York 16:15, Newmarket July (item 34).
 - Horse Pluto – jockey Juno: Mulrennan both wins (Nov RA 0.0462; Feb RA 0.046).
+- Horse Eris – jockey Jupiter, both ends moved: Wolverhampton AW 17:25 2023 (Ziggy's Dream / O'Neill: RA 1.1336; H Eris moved RA 8/9, J Jupiter moved
+  GC 122/9; ONLY runner) and Fontwell 16:45 2021, blind 5 (Pixie Loc / Ben Jones: RA 0.1096; H Eris moved Flat/GC 2, J Jupiter moved RA 59; ONLY runner,
+  also struck on both ends by sky Venus RA 174 | 1567/9). Not in the frozen reader's annotation list (CR v1.1) — add at the next version.
 
 ### 36. Same rider / same pair winning again
 - Sir Chauvelin / Mulrennan (Newcastle AW 12:20 Nov 2021, 16:40 Feb 2022): no natal pair in simple sky ratio in both; the same bodies lit by different means (Chiron, Neptune, Gonggong, Venus–Uranus, Ceres on the Equator, Pluto–Juno cross link). Read body by body, all planes.
