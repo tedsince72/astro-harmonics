@@ -60,3 +60,4 @@ Layer 1 v1.3 run on every race; each winner read turned into checks (tests/layer
 - Tests: tests/layer1_expect_v14.py replaces 37 former 'not listed' checks with positive checks; all 30 races pass (738/738).
 - Still outside by rule: stars; p > 30 ratios; sky/natal 0.01–0.014% (Perth S/H 17/7, Newcastle 12:20 Gonggong–Orcus 7/6); inside-chart pairs at
   RA 1.5–2 (Nottingham 17:50 Fentiman Rahu–Vesta RA 1.58); soaks; Wolverhampton Jupiter–Sedna 65/9, 46/9 (0.0105%).
+- Checker (independent, 12 Oct 2026): the five v1.4 additions recomputed for 6 runners (Newcastle AW 13:30, Newbury) — exact match; all earlier sections identical item for item to v1.3 across 193 runner files. The 11 untested older race folders were rerun to v1.4.
