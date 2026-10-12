@@ -24,6 +24,8 @@ SPLIT_TOL = 0.25                   # item 19, %
 MID_OFF, MID_SPAN, MID_WIDE = 0.05, 20.0, 60.0   # item 20
 SOAK_SPREAD, SOAK_MIN = 0.04, 4    # item 21 (Eddie: +-0.02 around the centre)
 LOOP_MAX = 6                       # item 33
+JOIN_SKIP = {14, 18, 30}           # joins of other items / field-relative: not counted again in the join view
+TEXT_MAX = 40                      # lines per item in P*.txt (all instances in P*.json)
 
 NAMES = {1: 'cross link struck on both ends by 2+ sky bodies', 2: 'cross link struck on both ends (one body, or one per end)',
          3: 'partner strike', 4: 'cross-link pair together in the sky', 5: 'both ends of a cross link moved', 6: 'movement onto a cross link',
@@ -152,7 +154,7 @@ def it26(R):
         if R.mirror(f'eq_ratios:{i}'): continue
         ch = [c for c in x['pair'].split('/') if c in 'HJ']
         out.append(inst(26, 'strict' if x['band'] == 'tight' else 'near', x['err_pct'] / 0.01, f"Equator {x['body']} {x['pair']} {x['values'][0]:.4f} / {x['values'][1]:.4f} "
-                        f"{x['dir']} {x['ratio']} ({x['err_pct']:.4f}%)", [f"{c} {x['body']}" for c in ch], pk(x['body'], x['body']), R.der(f'eq_ratios:{i}')))
+                        f"{x['dir']} {x['ratio']} ({x['err_pct']:.4f}%)", [f"{c} {x['body']}" for c in ch], None, R.der(f'eq_ratios:{i}')))
     return out
 
 def it27(R):
@@ -322,7 +324,7 @@ def it23(R):
         bh, bj = min(d['H'], key=lambda r: r['err_pct']), min(d['J'], key=lambda r: r['err_pct'])
         lv = 'strict' if any(r['band'] == 'tight' for r in d['H']) and any(r['band'] == 'tight' for r in d['J']) else 'near'
         out.append(inst(23, lv, max(bh['err_pct'], bj['err_pct']) / 0.005, f"{b}: H {len(d['H'])} ({bh['pair']} {bh['plane']} {bh['ratio']} {bh['err_pct']:.4f}%) | "
-                        f"J {len(d['J'])} ({bj['pair']} {bj['plane']} {bj['ratio']} {bj['err_pct']:.4f}%)", [f'H {b}', f'J {b}'] if b != 'Node' else ['H Rahu', 'J Rahu'], pk(b, b)))
+                        f"J {len(d['J'])} ({bj['pair']} {bj['plane']} {bj['ratio']} {bj['err_pct']:.4f}%)", [f'H {b}', f'J {b}'] if b != 'Node' else ['H Rahu', 'J Rahu'], None))
     return out
 
 def it25(R):
@@ -341,7 +343,7 @@ def it25(R):
             ch += chains.get(f'points:{j}', [])
         cs = '; '.join(f"{desc(R, iid)} from " + ' & '.join(f"{c['a']}–{c['b']} {c['num']}" for c in chain) for iid, chain in ch[:6])
         out.append(inst(25, 'strict', t_num(p['eq_off'], p['eq_num'], EQ_WHOLE, EQ_NINTH), f"{p['chart']} {p['body']} |Dec| {p['eq']:.5f} = {p['eq_num']} ({p['eq_off']:+.5f})"
-                        + (f"; chains: {cs}" if cs else ''), [f"{p['chart']} {p['body']}"], pk(p['body'], p['body']), R.der(f'points:{i}')))
+                        + (f"; chains: {cs}" if cs else ''), [f"{p['chart']} {p['body']}"], None, R.der(f'points:{i}')))
     return out
 
 def desc(R, iid):
@@ -428,7 +430,7 @@ def it12(R):
     g = sorted([(gc(P['H Rahu'], P['J Rahu']), 'J Rahu'), (gc(P['H Rahu'], P['J Ketu']), 'J Ketu')])[0]
     if g[0] >= NODE_GC: return []
     A, B = P['H Rahu'], P[g[1]]
-    return [inst(12, 'strict', g[0] / NODE_GC, f"shared node: H Rahu – {g[1]} GC {g[0]:.4f} RA {rd(A, B):.4f} Dec {dd(A, B):.4f}", ['H Rahu', g[1]], 'Node–Node')]
+    return [inst(12, 'strict', g[0] / NODE_GC, f"shared node: H Rahu – {g[1]} GC {g[0]:.4f} RA {rd(A, B):.4f} Dec {dd(A, B):.4f}", ['H Rahu', g[1]], None)]
 
 def it20(R):
     P = R.pos; out = []
@@ -490,35 +492,49 @@ def it21(R):
             centre = (lo + hi) / 2
             txt = '; '.join(f"{w[2]} – {w[3]} {w[1]} {w[0]:.4f}" for w in W)
             out.append(inst(21, lv, sp / SOAK_SPREAD, f"soak {X} ~{centre:.4f}: {-np_} partners, spread {sp:.4f}, {near_num(centre)}" + ('' if lv == 'strict' else ' (partners not from both natal charts)') + f" — {txt}",
-                            [w[2] for w in W] + [w[3] for w in W], pk(X, X), centre=r4(centre), partners=-np_))
+                            [w[2] for w in W] + [w[3] for w in W], None, centre=r4(centre), partners=-np_))
     return out
 
 # ---------------------------------------------------------------- step 4: node loop
 def it33(R):
+    """closed loop of close links (in a chart and across), length <= LOOP_MAX, through the horse node and the jockey node.
+    strict: close links only. near: the loop also closes through the same body standing in both charts (H X = J X, at most 2 such steps)
+    — Eddie's Sedgefield example closes this way (J Mercury = H Mercury, J Ketu = H Ketu)."""
     E = {}
     for l in R.links:
         if not l['close']: continue
         a, b = fq(l['a']), fq(l['b'])
         if a == b: continue
-        E.setdefault(a, {}); E.setdefault(b, {})
-        if b not in E[a] or t_close(l) < t_close(E[a][b]): E[a][b] = E[b][a] = l
-    if 'H Node' not in E or 'J Node' not in E: return []
+        for u, v in ((a, b), (b, a)):
+            if v not in E.setdefault(u, {}) or t_close(l) < t_close(E[u][v]): E[u][v] = l
+    for b in sorted({fold(x) for x in BOD}):      # same body in both charts
+        E.setdefault(f'H {b}', {}); E.setdefault(f'J {b}', {})
+        E[f'H {b}'].setdefault(f'J {b}', None); E[f'J {b}'].setdefault(f'H {b}', None)
     seen, out = set(), []
-    def dfs(path):
+    def step_txt(p, q):
+        l = E[p][q]
+        return f"{p} = {q} (same body)" if l is None else f"{l['a']}–{l['b']} RA {l['RA']:.4f} Dec {l['Dec']:.4f}"
+    def dfs(path, ids):
         u = path[-1]
         for v in sorted(E[u]):
+            same = E[u][v] is None
+            if same and ids >= 2: continue
             if v == 'H Node' and len(path) >= 3:
                 if 'J Node' in path:
-                    key = frozenset(frozenset(p) for p in zip(path, path[1:] + ['H Node']))
+                    steps = list(zip(path, path[1:] + ['H Node']))
+                    key = frozenset(frozenset(p) for p in steps)
                     if key not in seen:
-                        seen.add(key); cyc = list(path)
-                        ls = [E[p][q] for p, q in zip(cyc, cyc[1:] + ['H Node'])]
-                        t = max(t_close(l) for l in ls)
-                        out.append(inst(33, 'strict', t, f"loop of {len(cyc)}: " + ' -> '.join(cyc + ['H Node']) + ' — ' + '; '.join(
-                            f"{l['a']}–{l['b']} RA {l['RA']:.4f} Dec {l['Dec']:.4f}" for l in ls), cyc, None, length=len(cyc)))
+                        seen.add(key)
+                        ls = [E[p][q] for p, q in steps if E[p][q] is not None]
+                        n_same = sum(1 for p, q in steps if E[p][q] is None)
+                        sames = sorted({bare(p) for p, q in steps if E[p][q] is None})
+                        t = max(t_close(l) for l in ls) if ls else 0
+                        out.append(inst(33, 'strict' if n_same == 0 else 'near', t, f"loop of {len(steps)}: " + ' -> '.join(path + ['H Node'])
+                                        + (f"  (closed through the same body in both charts: {', '.join(sames)})" if n_same else '') + ' — ' + '; '.join(step_txt(p, q) for p, q in steps),
+                                        path, None, length=len(steps), same_steps=n_same))
             elif v not in path and len(path) < LOOP_MAX:
-                dfs(path + [v])
-    dfs(['H Node'])
+                dfs(path + [v], ids + same)
+    dfs(['H Node'], 0)
     return out
 
 def t_close(l): return t_cross(l) if l['kind'] == 'cross' else t_in_close(l)
@@ -559,11 +575,26 @@ def run(race, step=4):
     return {'version': VERSION, 'race': race, 'step': step, 'n': len(runners), 'runners': {P: r['name'] for P, r in res.items()},
             'field': field, 'per_runner': res, 'items': items}
 
+def pair_map(S):
+    """pair -> {item: tightest t}; a body's same-body items (pair 'X–X') also count on every pair that contains X"""
+    byp, selfp = {}, {}
+    for x in S:
+        if not x['pair'] or x['item'] in JOIN_SKIP: continue
+        a, b = x['pair'].split('–')
+        if a == b and x['item'] not in (16, 17): continue   # only same-body sets count on a body's pairs
+        d = selfp.setdefault(a, {}) if a == b else byp.setdefault(x['pair'], {})
+        d[x['item']] = min(d.get(x['item'], 9e9), x['t'])
+    for k, d in byp.items():
+        for b in set(k.split('–')):
+            for it, t in selfp.get(b, {}).items(): d[it] = min(d.get(it, 9e9), t)
+    for b, d in selfp.items(): byp.setdefault(f'{b}–{b}', {}).update(d)
+    return byp
+
 def joins(L):
     S = [x for x in L if x['level'] == 'strict']
-    byp, byb = {}, {}
+    byp, byb = {k: set(v) for k, v in pair_map(S).items()}, {}
     for x in S:
-        if x['pair']: byp.setdefault(x['pair'], set()).add(x['item'])
+        if x['item'] in JOIN_SKIP: continue
         for b in x['bodies']: byb.setdefault(b, set()).add(x['item'])
     for x in L:
         j = set(byp.get(x['pair'], set())) if x['pair'] else set()
@@ -602,14 +633,16 @@ def runner_text(F, P):
         xs = [x for x in r['instances'] if x['item'] == it]
         L.append(f"[{it:2d}] {NAMES[it]}: " + (', '.join(f"{lv} {sum(1 for x in xs if x['level'] == lv)} ({rarity(F, it, lv, P)})" for lv in ('strict', 'near', 'other', 'wide')
                                                        if any(x['level'] == lv for x in xs)) or 'none'))
-        for x in xs:
+        for x in xs[:TEXT_MAX]:
             L.append(f"     {x['level'][0]} t {x['t']:.3f}{' D' if x['derived'] else '  '} {x['what']}" + (f"   joined: {','.join(map(str, x['joined']))}" if x['joined'] else ''))
+        if len(xs) > TEXT_MAX: L.append(f"     (+{len(xs) - TEXT_MAX} more in {P}.json)")
     S = [x for x in r['instances'] if x['level'] == 'strict']
-    byp, byb = {}, {}
+    byp, byb = pair_map(S), {}
     for x in S:
-        if x['pair'] and x['item'] != 30: byp.setdefault(x['pair'], {}).setdefault(x['item'], x['t'])
-        for b in x['bodies']: byb.setdefault(b, {}).setdefault(x['item'], x['t'])
-    L.append('-- joins: pairs touched by 2+ different items (strict; item:t of its tightest)')
+        if x['item'] in JOIN_SKIP: continue
+        for b in x['bodies']:
+            d = byb.setdefault(b, {}); d[x['item']] = min(d.get(x['item'], 9e9), x['t'])
+    L.append('-- joins: pairs touched by 2+ different items (strict; item:t of its tightest; a body\'s same-body items count on its pairs)')
     for k, d in sorted(byp.items(), key=lambda kv: (-len(kv[1]), min(kv[1].values()), kv[0])):
         if len(d) >= 2: L.append(f"   {k:24s} {len(d)} items: " + ' '.join(f"{i}:{t:.3f}" for i, t in sorted(d.items())))
     L.append('-- joins: natal bodies touched by 2+ different items (strict)')

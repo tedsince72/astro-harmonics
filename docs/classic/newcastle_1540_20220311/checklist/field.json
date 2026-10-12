@@ -1,0 +1,1464 @@
+{
+ "version": "CR v1 (12 Oct 2026)",
+ "race": "newcastle_1540_20220311",
+ "step": 4,
+ "n": 6,
+ "runners": {
+  "P01": "1 Vocaliser / 1 Fergus Gregory",
+  "P03": "2 Edmond Dantes / 2 Brian Hughes",
+  "P05": "3 Peak Time / 3 Conor O'Farrell",
+  "P07": "5 Sir Apollo / 5 Jonathan England",
+  "P09": "6 Thundersockssundae / 6 Kielan Woods",
+  "P11": "7 Black Opium / 7 Stephen Mulqueen"
+ },
+ "field": {
+  "1": {},
+  "2": {
+   "strict": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 16,
+      "best": 0.398,
+      "what": "H Transpluto \u2013 J Chiron RA 26.0528 Dec 0.0104 (one per end) \u2014 sky Neptune -> H Transpluto GC 156.99801 (157) | sky Transpluto -> J Chiron RA 28.99985 (29)",
+      "rank": 4
+     },
+     "P03": {
+      "n": 8,
+      "best": 0.4,
+      "what": "H Venus \u2013 J Ceres RA 0.5322 Dec 1.5376 (one per end) \u2014 sky Sedna -> H Venus Dec 15.77758 (142/9) | sky Mars -> J Ceres RA 147.55546 (1328/9)",
+      "rank": 5
+     },
+     "P05": {
+      "n": 5,
+      "best": 0.29,
+      "what": "H Orcus \u2013 J Mars RA 0.3065 Dec 21.3146 (one per end) \u2014 sky Venus -> H Orcus GC 147.99971 (148) | sky Orcus -> J Mars Dec 26.00145 (26)",
+      "rank": 1
+     },
+     "P07": {
+      "n": 4,
+      "best": 0.3891,
+      "what": "H Haumea \u2013 J Ceres RA 0.5836 Dec 15.8006 (one per end) \u2014 sky Venus -> H Haumea RA 95.99842 (96) | sky Neptune -> J Ceres Flat 142.99869 (143)",
+      "rank": 3
+     },
+     "P09": {
+      "n": 9,
+      "best": 0.3294,
+      "what": "H Mercury \u2013 J Pallas RA 110.1337 Dec 0.0988 (one per end) \u2014 sky Sun -> H Mercury Flat 29.77784 (268/9) | sky Gonggong -> J Pallas GC 70.00061 (70)",
+      "rank": 2
+     },
+     "P11": {
+      "n": 10,
+      "best": 0.42,
+      "what": "H Sedna \u2013 J Juno RA 37.8524 Dec 0.1116 (one per end) \u2014 sky Quaoar -> H Sedna GC 136.66657 (1230/9) | sky Sun -> J Juno GC 100.44466 (904/9)",
+      "rank": 6
+     }
+    },
+    "tightest": "P05"
+   },
+   "near": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 6,
+      "best": 1.0923,
+      "what": "H Vesta \u2013 J Juno RA 16.4264 Dec 0.3277 (near band) (one per end) \u2014 sky Pallas -> H Vesta RA 16.99622 (17) | sky Uranus -> J Juno Dec 22.22183 (200/9)",
+      "rank": 3
+     },
+     "P03": {
+      "n": 4,
+      "best": 1.1012,
+      "what": "H Gonggong \u2013 J Quaoar RA 108.8085 Dec 0.3303 (near band) (one per end) \u2014 sky Rahu -> H Gonggong Flat 82.22258 (740/9) | sky Venus -> J Quaoar Dec 4.00154 (4)",
+      "rank": 4
+     },
+     "P05": {
+      "n": 11,
+      "best": 1.0665,
+      "what": "H Mars \u2013 J Transpluto RA 105.9299 Dec 0.3200 (near band) (one per end) \u2014 sky Orcus -> H Mars RA 118.44448 (1066/9) | sky Pluto -> J Transpluto Dec 36.77773 (331/9)",
+      "rank": 2
+     },
+     "P07": {
+      "n": 5,
+      "best": 1.043,
+      "what": "H Sun \u2013 J Sedna RA 1.5644 Dec 12.5071 (near band) (one per end) \u2014 sky Mars -> H Sun Dec 36.99978 (37) | sky Saturn -> J Sedna Dec 20.00241 (20)",
+      "rank": 1
+     },
+     "P09": {
+      "n": 5,
+      "best": 1.4035,
+      "what": "H Gonggong \u2013 J Vesta RA 112.8807 Dec 0.4211 (near band) (one per end) \u2014 sky Eris -> H Gonggong RA 50.22234 (452/9) | sky Sun -> J Vesta Dec 8.77775 (79/9)",
+      "rank": 6
+     },
+     "P11": {
+      "n": 7,
+      "best": 1.1864,
+      "what": "H Quaoar \u2013 J Ceres RA 76.4820 Dec 0.3559 (near band) (one per end) \u2014 sky Orcus -> H Quaoar Dec 3.77757 (34/9) | sky Pluto -> J Ceres GC 40.00182 (40)",
+      "rank": 5
+     }
+    },
+    "tightest": "P07"
+   }
+  },
+  "3": {
+   "strict": {
+    "k": 5,
+    "runners": {
+     "P01": {
+      "n": 4,
+      "best": 0.0348,
+      "what": "H Transpluto \u2013 J Chiron RA 26.0528 Dec 0.0104 \u2014 partner sky Transpluto -> J Chiron RA 28.99985 (29)",
+      "rank": 1
+     },
+     "P03": {
+      "n": 2,
+      "best": 0.652,
+      "what": "H Haumea \u2013 J Chiron RA 140.9826 Dec 0.1786 \u2014 partner sky Haumea -> J Chiron GC 134.00326 (134)",
+      "rank": 4
+     },
+     "P05": {
+      "n": 2,
+      "best": 0.29,
+      "what": "H Orcus \u2013 J Mars RA 0.3065 Dec 21.3146 \u2014 partner sky Orcus -> J Mars Dec 26.00145 (26)",
+      "rank": 2
+     },
+     "P07": {
+      "n": 1,
+      "best": 0.8294,
+      "what": "H Orcus \u2013 J Juno RA 147.0059 Dec 0.2488 \u2014 partner sky Orcus -> J Juno Dec 4.00405 (4)",
+      "rank": 5
+     },
+     "P09": {
+      "n": 3,
+      "best": 0.53,
+      "what": "H Pluto \u2013 J Uranus RA 0.7950 Dec 2.5905 \u2014 partner sky Pluto -> J Uranus Dec 0.66654 (6/9)",
+      "rank": 3
+     }
+    },
+    "tightest": "P01"
+   },
+   "near": {
+    "k": 2,
+    "runners": {
+     "P05": {
+      "n": 1,
+      "best": 1.3034,
+      "what": "H Gonggong \u2013 J Quaoar RA 103.5309 Dec 0.3910 (near band) \u2014 partner sky Quaoar -> H Gonggong Dec 2.00282 (2)",
+      "rank": 1
+     },
+     "P09": {
+      "n": 1,
+      "best": 1.9995,
+      "what": "H Rahu \u2013 J Pluto RA 43.9818 Dec 0.5998 (near band) \u2014 partner sky Pluto -> H Rahu GC 107.99707 (108)",
+      "rank": 2
+     }
+    },
+    "tightest": "P05"
+   }
+  },
+  "4": {
+   "strict": {
+    "k": 2,
+    "runners": {
+     "P01": {
+      "n": 2,
+      "best": 0.4895,
+      "what": "H Gonggong \u2013 J Mercury RA 0.3811 Dec 1.6132 \u2014 sky Gonggong\u2013Mercury GC 2.4477 RA 1.9746 Dec 1.5031",
+      "rank": 1
+     },
+     "P03": {
+      "n": 1,
+      "best": 0.98,
+      "what": "H Venus \u2013 J Mars RA 2.8047 Dec 0.2940 \u2014 sky Venus\u2013Mars GC 4.0469 RA 0.1682 Dec 4.0437",
+      "rank": 2
+     }
+    },
+    "tightest": "P01"
+   },
+   "near": {
+    "k": 2,
+    "runners": {
+     "P01": {
+      "n": 1,
+      "best": 1.2221,
+      "what": "H Mercury \u2013 J Gonggong RA 1.8332 Dec 4.5031 (near band) \u2014 sky Mercury\u2013Gonggong GC 2.4477 RA 1.9746 Dec 1.5031",
+      "rank": 2
+     },
+     "P03": {
+      "n": 1,
+      "best": 0.6962,
+      "what": "H Makemake \u2013 J Ceres RA 98.8830 Dec 0.2089 \u2014 sky Makemake\u2013Ceres close in Dec only: GC 116.4768 RA 134.4491 Dec 0.0150",
+      "rank": 1
+     }
+    },
+    "tightest": "P03"
+   }
+  },
+  "5": {
+   "strict": {
+    "k": 2,
+    "runners": {
+     "P09": {
+      "n": 2,
+      "best": 0.435,
+      "what": "H Neptune \u2013 J Eris RA 42.2513 Dec 0.1305 \u2014 H Neptune moved Flat 14.00078 (14) | J Eris moved Dec 7.66666 (69/9)",
+      "rank": 2
+     },
+     "P11": {
+      "n": 1,
+      "best": 0.424,
+      "what": "H Saturn \u2013 J Ceres RA 112.2354 Dec 0.0547 \u2014 H Saturn moved Flat 92.44466 (832/9) | J Ceres moved Flat 90.99576 (91)  (+1 more)",
+      "rank": 1
+     }
+    },
+    "tightest": "P11"
+   },
+   "near": {
+    "k": 1,
+    "runners": {
+     "P11": {
+      "n": 1,
+      "best": 1.6018,
+      "what": "H Rahu \u2013 J Sun RA 117.6573 Dec 0.4805 (near band) \u2014 H Rahu moved RA 158.33277 (1425/9) | J Sun moved RA 23.33262 (210/9)",
+      "rank": 1
+     }
+    },
+    "tightest": "P11"
+   }
+  },
+  "6": {
+   "strict": {
+    "k": 5,
+    "runners": {
+     "P01": {
+      "n": 2,
+      "best": 0.4768,
+      "what": "J Rahu moved RA 132.44413 (1192/9) \u2014 on H Pluto \u2013 J Rahu RA 0.7153 Dec 3.8488",
+      "rank": 3
+     },
+     "P03": {
+      "n": 2,
+      "best": 0.671,
+      "what": "H Haumea moved GC 6.99329 (7) \u2014 on H Haumea \u2013 J Chiron RA 140.9826 Dec 0.1786",
+      "rank": 5
+     },
+     "P05": {
+      "n": 2,
+      "best": 0.5107,
+      "what": "J Ceres moved Dec 4.00271 (4) \u2014 on H Haumea \u2013 J Ceres RA 135.9389 Dec 0.1532",
+      "rank": 4
+     },
+     "P09": {
+      "n": 7,
+      "best": 0.435,
+      "what": "H Neptune moved Flat 14.00078 (14) \u2014 on H Neptune \u2013 J Eris RA 42.2513 Dec 0.1305",
+      "rank": 2
+     },
+     "P11": {
+      "n": 6,
+      "best": 0.2,
+      "what": "H Saturn moved Flat 92.44466 (832/9) \u2014 on H Saturn \u2013 J Ceres RA 112.2354 Dec 0.0547",
+      "rank": 1
+     }
+    },
+    "tightest": "P11"
+   },
+   "near": {
+    "k": 5,
+    "runners": {
+     "P03": {
+      "n": 1,
+      "best": 1.6726,
+      "what": "H Haumea moved GC 6.99329 (7) \u2014 on H Haumea \u2013 J Rahu RA 164.9007 Dec 0.5018 (near band)",
+      "rank": 5
+     },
+     "P05": {
+      "n": 3,
+      "best": 1.1303,
+      "what": "J Ceres moved Dec 4.00271 (4) \u2014 on H Venus \u2013 J Ceres RA 21.1955 Dec 0.3391 (near band)",
+      "rank": 2
+     },
+     "P07": {
+      "n": 5,
+      "best": 1.043,
+      "what": "J Sedna moved RA 15.99590 (16) \u2014 on H Sun \u2013 J Sedna RA 1.5644 Dec 12.5071 (near band)",
+      "rank": 1
+     },
+     "P09": {
+      "n": 3,
+      "best": 1.326,
+      "what": "J Ceres moved RA 121.66640 (1095/9) \u2014 on H Ceres \u2013 J Ceres RA 1.9889 Dec 6.7397 (near band)",
+      "rank": 4
+     },
+     "P11": {
+      "n": 7,
+      "best": 1.1864,
+      "what": "J Ceres moved Flat 90.99576 (91) \u2014 on H Quaoar \u2013 J Ceres RA 76.4820 Dec 0.3559 (near band)",
+      "rank": 3
+     }
+    },
+    "tightest": "P07"
+   }
+  },
+  "7": {
+   "near": {
+    "k": 1,
+    "runners": {
+     "P01": {
+      "n": 1,
+      "best": 1.2221,
+      "what": "swap Gonggong/Mercury: H Gonggong \u2013 J Mercury RA 0.3811 Dec 1.6132; H Mercury \u2013 J Gonggong RA 1.8332 Dec 4.5031 (near band)",
+      "rank": 1
+     }
+    },
+    "tightest": "P01"
+   }
+  },
+  "8": {
+   "strict": {
+    "k": 4,
+    "runners": {
+     "P01": {
+      "n": 1,
+      "best": 1.0,
+      "what": "triangle H Sedna / J Jupiter / J Pallas [mixed planes]: H Sedna\u2013J Jupiter RA 110.66617 (996/9), H Sedna\u2013J Pallas Flat 147.33288 (1326/9), J Jupiter\u2013J Pallas RA 102.00188 (102) \u2014 sky Saturn: sky Saturn -> H Sedna GC 91.99620 (92); sky Saturn -> J Jupiter Flat 161.00117 (161); sky Saturn -> J Pallas Dec 23.00007 (23)",
+      "rank": 4
+     },
+     "P03": {
+      "n": 1,
+      "best": 0.88,
+      "what": "triangle J Neptune / J Pluto / J Saturn [one plane (Dec)]: J Neptune\u2013J Pluto Dec 26.00178 (26), J Neptune\u2013J Saturn Dec 6.00440 (6), J Pluto\u2013J Saturn Dec 19.99738 (20) \u2014 sky Ceres: sky Ceres -> J Neptune Dec 45.00233 (45); sky Ceres -> J Pluto Dec 19.00055 (19); sky Ceres -> J Saturn Dec 38.99793 (39)",
+      "rank": 3
+     },
+     "P05": {
+      "n": 2,
+      "best": 0.4,
+      "what": "triangle H Mars / H Quaoar / J Orcus [one plane (RA)]: H Mars\u2013H Quaoar RA 132.99976 (133), H Mars\u2013J Orcus RA 90.99879 (91), H Quaoar\u2013J Orcus RA 136.00144 (136) \u2014 sky Orcus: sky Orcus -> H Mars RA 118.44448 (1066/9); sky Orcus -> H Quaoar RA 108.55576 (977/9); sky Orcus -> J Orcus Flat 32.00175 (32)",
+      "rank": 1
+     },
+     "P11": {
+      "n": 2,
+      "best": 0.558,
+      "what": "triangle H Makemake / H Sun / H Venus [one plane (Dec)]: H Makemake\u2013H Sun Dec 45.99956 (46), H Makemake\u2013H Venus Dec 41.99721 (42), H Sun\u2013H Venus Dec 4.00235 (4) \u2014 sky Node: sky Rahu -> H Makemake GC 120.99976 (121); sky Ketu -> H Sun Dec 1.00177 (1); sky Ketu -> H Venus Dec 3.00058 (3)",
+      "rank": 2
+     }
+    },
+    "tightest": "P05"
+   }
+  },
+  "9": {
+   "strict": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 1,
+      "best": 0.92,
+      "what": "J Eris\u2013Makemake RA 149.55510 = 1346/9 struck by 1 sky body \u2014 Orcus: sky Orcus -> J Eris Dec 2.99960 (3) | sky Orcus -> J Makemake Flat 49.77784 (448/9)",
+      "rank": 6
+     },
+     "P03": {
+      "n": 6,
+      "best": 0.448,
+      "what": "J Jupiter\u2013Saturn close struck by 1 sky body \u2014 Eris: sky Eris -> J Jupiter RA 66.44466 (598/9) | sky Eris -> J Saturn Dec 15.00224 (15)",
+      "rank": 3
+     },
+     "P05": {
+      "n": 5,
+      "best": 0.412,
+      "what": "J Quaoar\u2013Orcus GC 103.77759 = 934/9 struck by 1 sky body \u2014 Pallas: sky Pallas -> J Quaoar Flat 141.00206 (141) | sky Pallas -> J Orcus RA 116.00084 (116)",
+      "rank": 2
+     },
+     "P07": {
+      "n": 4,
+      "best": 0.624,
+      "what": "H Sun\u2013Makemake RA 148.33338 = 1335/9 struck by 1 sky body \u2014 Mars: sky Mars -> H Sun Dec 36.99978 (37) | sky Mars -> H Makemake RA 114.00312 (114)",
+      "rank": 4
+     },
+     "P09": {
+      "n": 5,
+      "best": 0.22,
+      "what": "J Uranus\u2013Pluto RA 52.66669 = 474/9 struck by 1 sky body \u2014 Transpluto: sky Transpluto -> J Uranus RA 130.99992 (131) | sky Transpluto -> J Pluto RA 78.33323 (705/9)",
+      "rank": 1
+     },
+     "P11": {
+      "n": 5,
+      "best": 0.64,
+      "what": "H Sun\u2013Pluto close struck by 1 sky body \u2014 Node: sky Ketu -> H Sun Dec 1.00177 (1) | sky Rahu -> H Pluto Dec 39.11143 (352/9)",
+      "rank": 5
+     }
+    },
+    "tightest": "P09"
+   }
+  },
+  "10": {
+   "strict": {
+    "k": 5,
+    "runners": {
+     "P01": {
+      "n": 3,
+      "best": 0.6,
+      "what": "J Eris\u2013Transpluto Dec 22.99971 = 23 struck by 2 sky bodies \u2014 Orcus: sky Orcus -> J Eris Dec 2.99960 (3) | sky Orcus -> J Transpluto Dec 25.99932 (26); Pluto: sky Pluto -> J Eris Dec 13.44475 (121/9) | sky Pluto -> J Transpluto Dec 36.44446 (328/9)",
+      "rank": 3
+     },
+     "P03": {
+      "n": 1,
+      "best": 0.972,
+      "what": "J Saturn\u2013Pluto Dec 19.99738 = 20 struck by 2 sky bodies \u2014 Ceres: sky Ceres -> J Saturn Dec 38.99793 (39) | sky Ceres -> J Pluto Dec 19.00055 (19); Eris: sky Eris -> J Saturn Dec 15.00224 (15) | sky Eris -> J Pluto Dec 4.99514 (5)",
+      "rank": 5
+     },
+     "P05": {
+      "n": 2,
+      "best": 0.458,
+      "what": "H Mars\u2013Quaoar RA 132.99976 = 133 struck by 2 sky bodies \u2014 Orcus: sky Orcus -> H Mars RA 118.44448 (1066/9) | sky Orcus -> H Quaoar RA 108.55576 (977/9); Pallas: sky Pallas -> H Mars RA 25.00205 (25) | sky Pallas -> H Quaoar RA 107.99771 (108)",
+      "rank": 1
+     },
+     "P09": {
+      "n": 1,
+      "best": 0.786,
+      "what": "J Chiron\u2013Quaoar RA 95.00393 = 95 struck by 2 sky bodies \u2014 Juno: sky Juno -> J Chiron GC 173.44427 (1561/9) | sky Juno -> J Quaoar GC 76.66630 (690/9); Ceres: sky Ceres -> J Chiron RA 76.99999 (77) | sky Ceres -> J Quaoar RA 172.00392 (172)",
+      "rank": 4
+     },
+     "P11": {
+      "n": 4,
+      "best": 0.51,
+      "what": "H Sun\u2013Venus Dec 4.00235 = 4 struck by 2 sky bodies \u2014 Node: sky Ketu -> H Sun Dec 1.00177 (1) | sky Ketu -> H Venus Dec 3.00058 (3); Pallas: sky Pallas -> H Sun Dec 13.00255 (13) | sky Pallas -> H Venus Dec 9.00020 (9)",
+      "rank": 2
+     }
+    },
+    "tightest": "P05"
+   }
+  },
+  "11": {
+   "strict": {
+    "k": 2,
+    "runners": {
+     "P03": {
+      "n": 2,
+      "best": 0.524,
+      "what": "number 20: H Rahu\u2013Makemake Dec 19.99930 = 20 | J Saturn\u2013Pluto Dec 19.99738 = 20",
+      "rank": 2
+     },
+     "P05": {
+      "n": 1,
+      "best": 0.384,
+      "what": "number 133: H Mars\u2013Quaoar RA 132.99976 = 133 | J Mars\u2013Neptune RA 132.99808 = 133",
+      "rank": 1
+     }
+    },
+    "tightest": "P05"
+   },
+   "near": {
+    "k": 1,
+    "runners": {
+     "P03": {
+      "n": 1,
+      "best": 1.626,
+      "what": "ratio 9/4: H Mercury\u2013Transpluto GC (0.0026%) | J Juno\u2013Eris GC (0.0081%)",
+      "rank": 1
+     }
+    },
+    "tightest": "P03"
+   },
+   "other": {
+    "k": 3,
+    "runners": {
+     "P03": {
+      "n": 1,
+      "best": 0.638,
+      "what": "number 3: H Mercury\u2013Haumea Dec 2.99711 = 3 | J Mercury\u2013Mars Flat 2.99681 = 3  (other plane: Dec / Flat)",
+      "rank": 2
+     },
+     "P05": {
+      "n": 1,
+      "best": 0.422,
+      "what": "number 17: H Vesta\u2013Sedna Dec 17.00207 = 17 | J Jupiter\u2013Ceres RA 16.99789 = 17  (other plane: Dec / RA)",
+      "rank": 1
+     },
+     "P11": {
+      "n": 1,
+      "best": 0.822,
+      "what": "number 131: H Ceres\u2013Juno GC 130.99591 = 131 | J Jupiter\u2013Saturn Flat 130.99589 = 131  (other plane: GC / Flat)",
+      "rank": 3
+     }
+    },
+    "tightest": "P05"
+   }
+  },
+  "12": {},
+  "13": {
+   "strict": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 5,
+      "best": 0.07,
+      "what": "shared Vesta\u2013Rahu Flat H 107.2550 J 107.2174 (0.0350%) sky 116.5311 S~H ['10/9', 2.2162] S~J ['10/9', 2.1819]",
+      "rank": 3
+     },
+     "P03": {
+      "n": 4,
+      "best": 0.0876,
+      "what": "shared Venus\u2013Ketu Dec H 29.5942 J 29.6071 (0.0438%) sky 2.6831 S~H ['11', 0.2708] S~J ['11', 0.3147]",
+      "rank": 4
+     },
+     "P05": {
+      "n": 6,
+      "best": 0.1862,
+      "what": "shared Mercury\u2013Rahu RA H 169.3821 J 169.2245 (0.0931%) sky 77.1864 S~H ['11/5', 0.252] S~J ['11/5', 0.3448]",
+      "rank": 5
+     },
+     "P07": {
+      "n": 7,
+      "best": 0.062,
+      "what": "shared Sun\u2013Makemake Flat H 148.6454 J 148.5994 (0.0310%) sky 154.8505 S~H None S~J None",
+      "rank": 1
+     },
+     "P09": {
+      "n": 2,
+      "best": 0.2616,
+      "what": "shared Mars\u2013Saturn RA H 152.1249 J 152.3239 (0.1308%) sky 16.1160 S~H ['19/2', 0.6383] S~J ['19/2', 0.5084]",
+      "rank": 6
+     },
+     "P11": {
+      "n": 6,
+      "best": 0.0634,
+      "what": "shared Mercury\u2013Jupiter GC H 147.4178 J 147.3711 (0.0317%) sky 13.9740 S~H ['21/2', 0.4707] S~J ['21/2', 0.4389]",
+      "rank": 2
+     }
+    },
+    "tightest": "P07"
+   },
+   "other": {
+    "k": 5,
+    "runners": {
+     "P01": {
+      "n": 1,
+      "best": 0.9266,
+      "what": "shared Gonggong\u2013Transpluto Flat (slow pair: age) H 178.8985 J 178.0736 (0.4633%) sky 178.9509 S~H None S~J None",
+      "rank": 5
+     },
+     "P03": {
+      "n": 1,
+      "best": 0.9086,
+      "what": "shared Gonggong\u2013Transpluto Flat (slow pair: age) H 177.8640 J 177.0596 (0.4543%) sky 178.9509 S~H None S~J None",
+      "rank": 4
+     },
+     "P05": {
+      "n": 2,
+      "best": 0.0858,
+      "what": "shared Gonggong\u2013Transpluto Flat (slow pair: age) H 177.6168 J 177.6929 (0.0429%) sky 178.9509 S~H None S~J None",
+      "rank": 1
+     },
+     "P07": {
+      "n": 1,
+      "best": 0.8016,
+      "what": "shared Gonggong\u2013Transpluto Flat (slow pair: age) H 177.7214 J 177.0119 (0.4008%) sky 178.9509 S~H None S~J None",
+      "rank": 3
+     },
+     "P09": {
+      "n": 1,
+      "best": 0.2878,
+      "what": "shared Gonggong\u2013Transpluto RA (slow pair: age) H 176.3179 J 176.0646 (0.1439%) sky 177.6261 S~H None S~J None",
+      "rank": 2
+     }
+    },
+    "tightest": "P05"
+   }
+  },
+  "14": {
+   "near": {
+    "k": 1,
+    "runners": {
+     "P05": {
+      "n": 3,
+      "best": 1.8094,
+      "what": "shared Mercury\u2013Rahu Flat (0.0983%) + cross H Mercury \u2013 J Ketu RA 114.7671 Dec 0.5428 (near band)",
+      "rank": 1
+     }
+    },
+    "tightest": "P05"
+   }
+  },
+  "15": {
+   "strict": {
+    "k": 1,
+    "runners": {
+     "P05": {
+      "n": 1,
+      "best": 0.61,
+      "what": "pair set Vesta\u2013Sedna Flat H 43.4285 J 136.4735 S 119.4508 -> H:J 22/7, H:S 11/4, J:S 8/7 (worst 0.0305%)",
+      "rank": 1
+     }
+    },
+    "tightest": "P05"
+   }
+  },
+  "16": {
+   "strict": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 4,
+      "best": 0.0633,
+      "what": "same-body Uranus RA S\u2013H 37.1465 H\u2013J 74.2859 S\u2013J 111.4324 -> 2 : 3 : 3/2 (worst 0.0095%)",
+      "rank": 2
+     },
+     "P03": {
+      "n": 2,
+      "best": 0.792,
+      "what": "same-body Juno GC S\u2013H 103.1161 H\u2013J 29.4268 S\u2013J 132.5289 -> 7/2 : 9/7 : 9/2 (worst 0.1188%)",
+      "rank": 6
+     },
+     "P05": {
+      "n": 4,
+      "best": 0.2053,
+      "what": "same-body Haumea GC S\u2013H 9.1970 H\u2013J 21.4549 S\u2013J 30.6472 -> 7/3 : 10/3 : 10/7 (worst 0.0308%)",
+      "rank": 4
+     },
+     "P07": {
+      "n": 3,
+      "best": 0.436,
+      "what": "same-body Uranus Flat S\u2013H 24.0809 H\u2013J 96.2679 S\u2013J 120.3256 -> 4 : 5 : 5/4 (worst 0.0654%)",
+      "rank": 5
+     },
+     "P09": {
+      "n": 2,
+      "best": 0.104,
+      "what": "same-body Gonggong Dec S\u2013H 1.6792 H\u2013J 6.7177 S\u2013J 8.3968 -> 4 : 5 : 5/4 (worst 0.0156%)",
+      "rank": 3
+     },
+     "P11": {
+      "n": 6,
+      "best": 0.0127,
+      "what": "same-body Quaoar RA S\u2013H 11.4305 H\u2013J 26.6706 S\u2013J 38.1011 -> 7/3 : 10/3 : 10/7 (worst 0.0019%)",
+      "rank": 1
+     }
+    },
+    "tightest": "P11"
+   }
+  },
+  "17": {},
+  "18": {
+   "strict": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 3,
+      "best": 0.0693,
+      "what": "same-body Vesta Dec S\u2013H 12.1028 H\u2013J 19.3666 S\u2013J 31.4694 -> 8/5 : 13/5 : 13/8 (worst 0.0104%) \u2014 joined by 3: cross H Jupiter \u2013 J Vesta RA 146.3949 Dec 0.0405; cross H Transpluto \u2013 J Vesta RA 26.7184 Dec 0.1450; ratio J Vesta\u2013Makemake Dec 9/5",
+      "rank": 2
+     },
+     "P03": {
+      "n": 1,
+      "best": 0.8207,
+      "what": "same-body Pallas RA S\u2013H 43.2434 H\u2013J 79.3240 S\u2013J 36.0806 -> 11/6 : 6/5 : 11/5 (worst 0.1231%) \u2014 joined by 1: cross H Pallas \u2013 J Gonggong RA 0.8815 Dec 35.3668",
+      "rank": 5
+     },
+     "P05": {
+      "n": 4,
+      "best": 0.2053,
+      "what": "same-body Haumea GC S\u2013H 9.1970 H\u2013J 21.4549 S\u2013J 30.6472 -> 7/3 : 10/3 : 10/7 (worst 0.0308%) \u2014 joined by 1: cross H Haumea \u2013 J Ceres RA 135.9389 Dec 0.1532",
+      "rank": 3
+     },
+     "P07": {
+      "n": 2,
+      "best": 0.436,
+      "what": "same-body Uranus Flat S\u2013H 24.0809 H\u2013J 96.2679 S\u2013J 120.3256 -> 4 : 5 : 5/4 (worst 0.0654%) \u2014 joined by 1: cross H Pluto \u2013 J Uranus RA 1.1117 Dec 2.5367",
+      "rank": 4
+     },
+     "P09": {
+      "n": 1,
+      "best": 0.9613,
+      "what": "same-body Haumea Dec S\u2013H 2.3708 H\u2013J 3.9571 S\u2013J 6.3279 -> 5/3 : 8/3 : 8/5 (worst 0.1442%) \u2014 joined by 1: cross H Rahu \u2013 J Haumea RA 1.0547 Dec 25.7194",
+      "rank": 6
+     },
+     "P11": {
+      "n": 6,
+      "best": 0.0127,
+      "what": "same-body Quaoar RA S\u2013H 11.4305 H\u2013J 26.6706 S\u2013J 38.1011 -> 7/3 : 10/3 : 10/7 (worst 0.0019%) \u2014 joined by 1: ratio J Pluto\u2013Quaoar GC 22/9",
+      "rank": 1
+     }
+    },
+    "tightest": "P11"
+   },
+   "near": {
+    "k": 3,
+    "runners": {
+     "P03": {
+      "n": 1,
+      "best": 0.792,
+      "what": "same-body Juno GC S\u2013H 103.1161 H\u2013J 29.4268 S\u2013J 132.5289 -> 7/2 : 9/7 : 9/2 (worst 0.1188%) \u2014 joined by 3: cross H Rahu \u2013 J Juno RA 15.9446 Dec 0.5505 (near band); ratio J Mercury\u2013Juno Flat 21/5; ratio J Juno\u2013Eris GC 9/4",
+      "rank": 3
+     },
+     "P07": {
+      "n": 1,
+      "best": 0.44,
+      "what": "same-body Mercury GC S\u2013H 95.3111 H\u2013J 43.3518 S\u2013J 51.9888 -> 11/5 : 11/6 : 6/5 (worst 0.0660%) \u2014 joined by 3: cross H Transpluto \u2013 J Mercury RA 130.4894 Dec 0.3868 (near band); ratio H Mercury\u2013Neptune Flat 22/5; ratio J Mercury\u2013Chiron Dec 5",
+      "rank": 2
+     },
+     "P09": {
+      "n": 1,
+      "best": 0.104,
+      "what": "same-body Gonggong Dec S\u2013H 1.6792 H\u2013J 6.7177 S\u2013J 8.3968 -> 4 : 5 : 5/4 (worst 0.0156%) \u2014 joined by 3: cross H Gonggong \u2013 J Vesta RA 112.8807 Dec 0.4211 (near band); ratio J Mars\u2013Gonggong Flat 9/2; ratio J Gonggong\u2013Quaoar Flat 14/9",
+      "rank": 1
+     }
+    },
+    "tightest": "P09"
+   }
+  },
+  "19": {
+   "strict": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 13,
+      "best": 0.0276,
+      "what": "J Sedna moved Dec (4) toward H Haumea: span 14.03423 = 4.00909 + 10.02514; span/other 7/5 (0.0069%)",
+      "rank": 4
+     },
+     "P03": {
+      "n": 2,
+      "best": 0.5568,
+      "what": "J Mercury moved RA (124) toward J Gonggong: span 130.21289 = 124.00364 + 6.20926; span/other 21 (0.1392%)",
+      "rank": 6
+     },
+     "P05": {
+      "n": 33,
+      "best": 0.004,
+      "what": "H Ceres moved Dec (6) toward H Orcus: span 36.05164 = 6.00891 + 30.04273; span/other 6/5 (0.0010%)",
+      "rank": 1
+     },
+     "P07": {
+      "n": 12,
+      "best": 0.1236,
+      "what": "J Quaoar moved RA (41) toward J Eris: span 146.36460 = 40.99121 + 105.37338; parts 18/7 (0.0309%)",
+      "rank": 5
+     },
+     "P09": {
+      "n": 33,
+      "best": 0.0212,
+      "what": "J Eris moved Dec (69/9) toward J Orcus: span 11.24416 = 7.66666 + 3.57750; span/other 22/7 (0.0053%)",
+      "rank": 3
+     },
+     "P11": {
+      "n": 27,
+      "best": 0.0064,
+      "what": "H Makemake moved Dec (30/9) toward H Sedna: span 19.16585 = 3.33315 + 15.83271; parts 19/4 (0.0016%)",
+      "rank": 2
+     }
+    },
+    "tightest": "P05"
+   }
+  },
+  "20": {
+   "strict": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 4,
+      "best": 0.1295,
+      "what": "H Mars at the Dec midpoint of H Sedna and sky Sedna: span 1.4408, midpoint 7.4255, H Mars 7.4191, off 0.0065 (same chart)",
+      "rank": 3
+     },
+     "P03": {
+      "n": 2,
+      "best": 0.0059,
+      "what": "J Mars at the Dec midpoint of H Makemake and sky Makemake: span 2.9044, midpoint 24.2178, J Mars 24.2175, off 0.0003 (other chart)",
+      "rank": 1
+     },
+     "P05": {
+      "n": 1,
+      "best": 0.475,
+      "what": "H Orcus at the Dec midpoint of H Juno and sky Juno: span 3.6268, midpoint -7.3159, H Orcus -7.2921, off 0.0238 (same chart)",
+      "rank": 5
+     },
+     "P07": {
+      "n": 3,
+      "best": 0.2364,
+      "what": "H Vesta at the Dec midpoint of J Juno and sky Juno: span 1.1543, midpoint -8.5521, H Vesta -8.5639, off 0.0118 (other chart)",
+      "rank": 4
+     },
+     "P09": {
+      "n": 3,
+      "best": 0.0076,
+      "what": "H Gonggong at the Dec midpoint of J Neptune and sky Neptune: span 17.7330, midpoint -12.8721, H Gonggong -12.8725, off 0.0004 (other chart)",
+      "rank": 2
+     },
+     "P11": {
+      "n": 5,
+      "best": 0.6379,
+      "what": "H Neptune at the Dec midpoint of H Vesta and sky Vesta: span 17.8369, midpoint -10.7663, H Neptune -10.7981, off 0.0319 (same chart)",
+      "rank": 6
+     }
+    },
+    "tightest": "P03"
+   },
+   "wide": {
+    "k": 3,
+    "runners": {
+     "P01": {
+      "n": 5,
+      "best": 0.0369,
+      "what": "H Eris at the Dec midpoint of J Vesta and sky Vesta: span 31.4694, midpoint -3.9500, H Eris -3.9519, off 0.0018 (other chart)",
+      "rank": 1
+     },
+     "P03": {
+      "n": 1,
+      "best": 0.8906,
+      "what": "J Juno at the Dec midpoint of J Mercury and sky Mercury: span 37.7461, midpoint 6.1766, J Juno 6.2211, off 0.0445 (same chart)",
+      "rank": 3
+     },
+     "P05": {
+      "n": 1,
+      "best": 0.5495,
+      "what": "H Saturn at the Dec midpoint of J Pluto and sky Pluto: span 21.9111, midpoint -11.4686, H Saturn -11.4960, off 0.0275 (other chart)",
+      "rank": 2
+     }
+    },
+    "tightest": "P01"
+   }
+  },
+  "21": {
+   "strict": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 22,
+      "best": 0.3817,
+      "what": "soak Gonggong ~9.9559: 4 partners, spread 0.0153, nearest whole 10 (-0.0441), nearest ninth 90/9 = 10.0000 (-0.0441) \u2014 S Gonggong \u2013 S Eris Dec 9.9482; S Gonggong \u2013 J Mars Dec 9.9525; H Gonggong \u2013 H Eris Dec 9.9584; H Gonggong \u2013 H Ceres Dec 9.9635",
+      "rank": 6
+     },
+     "P03": {
+      "n": 24,
+      "best": 0.1172,
+      "what": "soak Transpluto ~12.5843: 4 partners, spread 0.0047, nearest whole 13 (-0.4157), nearest ninth 113/9 = 12.5556 (+0.0287) \u2014 H Transpluto \u2013 H Venus Dec 12.5820; S Transpluto \u2013 H Jupiter RA 12.5820; H Transpluto \u2013 J Haumea Dec 12.5842; H Transpluto \u2013 S Eris Dec 12.5866",
+      "rank": 3
+     },
+     "P05": {
+      "n": 21,
+      "best": 0.1601,
+      "what": "soak Venus ~38.0967: 4 partners, spread 0.0064, nearest whole 38 (+0.0967), nearest ninth 343/9 = 38.1111 (-0.0144) \u2014 H Venus \u2013 S Vesta Dec 38.0935; S Venus \u2013 J Vesta Flat 38.0953; H Venus \u2013 H Pluto Dec 38.0992; H Venus \u2013 J Pallas Flat 38.0999",
+      "rank": 4
+     },
+     "P07": {
+      "n": 21,
+      "best": 0.0976,
+      "what": "soak Makemake ~118.6284: 4 partners, spread 0.0039, nearest whole 119 (-0.3716), nearest ninth 1068/9 = 118.6667 (-0.0383) \u2014 H Makemake \u2013 H Ceres RA 118.6264; J Makemake \u2013 J Neptune RA 118.6296; H Makemake \u2013 H Mars GC 118.6301; J Makemake \u2013 S Rahu Flat 118.6303",
+      "rank": 1
+     },
+     "P09": {
+      "n": 22,
+      "best": 0.1147,
+      "what": "soak Node ~67.1363: 4 partners, spread 0.0046, nearest whole 67 (+0.1363), nearest ninth 604/9 = 67.1111 (+0.0252) \u2014 H Ketu \u2013 S Mars Flat 67.1340; S Ketu \u2013 H Ceres GC 67.1361; J Ketu \u2013 H Uranus GC 67.1385; J Ketu \u2013 J Eris GC 67.1386",
+      "rank": 2
+     },
+     "P11": {
+      "n": 24,
+      "best": 0.3205,
+      "what": "soak Haumea ~36.5996: 4 partners, spread 0.0128, nearest whole 37 (-0.4004), nearest ninth 329/9 = 36.5556 (+0.0440) \u2014 S Haumea \u2013 J Vesta Dec 36.5932; H Haumea \u2013 J Gonggong Dec 36.5934; S Haumea \u2013 J Quaoar GC 36.6043; S Haumea \u2013 H Pallas Dec 36.6060",
+      "rank": 5
+     }
+    },
+    "tightest": "P07"
+   },
+   "near": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 17,
+      "best": 0.3174,
+      "what": "soak Sun ~8.1551: 4 partners, spread 0.0127, nearest whole 8 (+0.1551), nearest ninth 73/9 = 8.1111 (+0.0440) (partners not from both natal charts) \u2014 H Sun \u2013 H Neptune GC 8.1487; J Sun \u2013 S Mars Dec 8.1515; J Sun \u2013 H Eris Dec 8.1563; J Sun \u2013 H Ceres Dec 8.1614",
+      "rank": 2
+     },
+     "P03": {
+      "n": 12,
+      "best": 0.407,
+      "what": "soak Eris ~2.3910: 4 partners, spread 0.0163, nearest whole 2 (+0.3910), nearest ninth 22/9 = 2.4444 (-0.0535) (partners not from both natal charts) \u2014 J Eris \u2013 S Mercury Dec 2.3828; S Eris \u2013 H Juno Dec 2.3861; J Eris \u2013 H Neptune Dec 2.3956; J Eris \u2013 H Ceres RA 2.3991",
+      "rank": 6
+     },
+     "P05": {
+      "n": 11,
+      "best": 0.3705,
+      "what": "soak Sedna ~14.4345: 4 partners, spread 0.0148, nearest whole 14 (+0.4345), nearest ninth 130/9 = 14.4444 (-0.0100) (partners not from both natal charts) \u2014 H Sedna \u2013 H Orcus Dec 14.4271; H Sedna \u2013 S Uranus RA 14.4275; J Sedna \u2013 H Haumea Dec 14.4332; S Sedna \u2013 H Jupiter Dec 14.4419",
+      "rank": 4
+     },
+     "P07": {
+      "n": 9,
+      "best": 0.2672,
+      "what": "soak Saturn ~39.0121: 4 partners, spread 0.0107, nearest whole 39 (+0.0121), nearest ninth 351/9 = 39.0000 (+0.0121) (partners not from both natal charts) \u2014 J Saturn \u2013 J Jupiter Dec 39.0068; S Saturn \u2013 J Haumea Dec 39.0124; H Saturn \u2013 J Vesta Dec 39.0171; J Saturn \u2013 S Jupiter RA 39.0174",
+      "rank": 1
+     },
+     "P09": {
+      "n": 8,
+      "best": 0.4028,
+      "what": "soak Orcus ~22.5967: 4 partners, spread 0.0161, nearest whole 23 (-0.4033), nearest ninth 203/9 = 22.5556 (+0.0411) (partners not from both natal charts) \u2014 S Orcus \u2013 S Transpluto Flat 22.5886; H Orcus \u2013 J Makemake RA 22.5919; J Orcus \u2013 S Mars Dec 22.5921; H Orcus \u2013 J Transpluto GC 22.5988; H Orcus \u2013 J Transpluto Flat 22.6047",
+      "rank": 5
+     },
+     "P11": {
+      "n": 12,
+      "best": 0.3602,
+      "what": "soak Sun ~18.6485: 4 partners, spread 0.0144, nearest whole 19 (-0.3515), nearest ninth 168/9 = 18.6667 (-0.0182) (partners not from both natal charts) \u2014 S Sun \u2013 S Uranus Dec 18.6413; S Sun \u2013 J Uranus Dec 18.6480; S Sun \u2013 S Mercury GC 18.6496; H Sun \u2013 S Eris Dec 18.6557",
+      "rank": 3
+     }
+    },
+    "tightest": "P07"
+   }
+  },
+  "22": {
+   "strict": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 12,
+      "best": 0.162,
+      "what": "H Sun\u2013Mercury RA sky 16.5090 / natal 3.7520 sky/natal 22/5 (0.0008%)",
+      "rank": 3
+     },
+     "P03": {
+      "n": 8,
+      "best": 0.428,
+      "what": "J Sun\u2013Vesta RA sky 49.2808 / natal 118.2765 natal/sky 12/5 (0.0021%)",
+      "rank": 5
+     },
+     "P05": {
+      "n": 12,
+      "best": 0.046,
+      "what": "J Sun\u2013Vesta Dec sky 16.0111 / natal 42.6963 natal/sky 8/3 (0.0002%)",
+      "rank": 2
+     },
+     "P07": {
+      "n": 2,
+      "best": 0.576,
+      "what": "J Saturn\u2013Chiron GC sky 51.1989 / natal 163.8319 natal/sky 16/5 (0.0029%)",
+      "rank": 6
+     },
+     "P09": {
+      "n": 8,
+      "best": 0.164,
+      "what": "J Pallas\u2013Juno GC sky 57.4517 / natal 164.1490 natal/sky 20/7 (0.0008%)",
+      "rank": 4
+     },
+     "P11": {
+      "n": 7,
+      "best": 0.036,
+      "what": "H Mercury\u2013Ketu Dec sky 6.2026 / natal 29.9791 natal/sky 29/6 (0.0002%)",
+      "rank": 1
+     }
+    },
+    "tightest": "P11"
+   },
+   "near": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 8,
+      "best": 1.066,
+      "what": "J Pluto\u2013Gonggong RA sky 36.7522 / natal 95.5610 natal/sky 13/5 (0.0053%)",
+      "rank": 3
+     },
+     "P03": {
+      "n": 10,
+      "best": 1.164,
+      "what": "J Saturn\u2013Sedna Dec sky 23.9153 / natal 19.9283 sky/natal 6/5 (0.0058%)",
+      "rank": 6
+     },
+     "P05": {
+      "n": 11,
+      "best": 1.096,
+      "what": "J Venus\u2013Makemake Flat sky 114.0639 / natal 26.6135 sky/natal 30/7 (0.0055%)",
+      "rank": 4
+     },
+     "P07": {
+      "n": 13,
+      "best": 1.056,
+      "what": "J Saturn\u2013Chiron RA sky 46.7611 / natal 163.6552 natal/sky 7/2 (0.0053%)",
+      "rank": 2
+     },
+     "P09": {
+      "n": 12,
+      "best": 1.012,
+      "what": "J Mercury\u2013Mars Flat sky 29.6831 / natal 114.4860 natal/sky 27/7 (0.0051%)",
+      "rank": 1
+     },
+     "P11": {
+      "n": 2,
+      "best": 1.128,
+      "what": "J Sedna\u2013Orcus Flat sky 100.0162 / natal 88.8983 sky/natal 9/8 (0.0056%)",
+      "rank": 5
+     }
+    },
+    "tightest": "P09"
+   }
+  },
+  "23": {
+   "strict": {
+    "k": 5,
+    "runners": {
+     "P01": {
+      "n": 5,
+      "best": 0.208,
+      "what": "Mercury: H 2 (Sun\u2013Mercury RA 22/5 0.0008%) | J 1 (Mercury\u2013Saturn Dec 11/6 0.0010%)",
+      "rank": 1
+     },
+     "P03": {
+      "n": 4,
+      "best": 0.502,
+      "what": "Node: H 3 (Jupiter\u2013Ketu RA 14/9 0.0025%) | J 2 (Mercury\u2013Rahu RA 13/9 0.0024%)",
+      "rank": 4
+     },
+     "P05": {
+      "n": 4,
+      "best": 0.216,
+      "what": "Orcus: H 2 (Jupiter\u2013Orcus Dec 16/3 0.0011%) | J 1 (Neptune\u2013Orcus Dec 10/3 0.0008%)",
+      "rank": 2
+     },
+     "P09": {
+      "n": 3,
+      "best": 0.376,
+      "what": "Chiron: H 1 (Chiron\u2013Vesta Dec 15/7 0.0013%) | J 2 (Chiron\u2013Rahu Flat 14/5 0.0019%)",
+      "rank": 3
+     },
+     "P11": {
+      "n": 1,
+      "best": 0.83,
+      "what": "Node: H 2 (Mercury\u2013Ketu Dec 29/6 0.0002%) | J 1 (Uranus\u2013Ketu RA 8/7 0.0042%)",
+      "rank": 5
+     }
+    },
+    "tightest": "P01"
+   },
+   "near": {
+    "k": 5,
+    "runners": {
+     "P01": {
+      "n": 4,
+      "best": 1.484,
+      "what": "Vesta: H 1 (Ceres\u2013Vesta Flat 9 0.0074%) | J 1 (Vesta\u2013Makemake Dec 9/5 0.0019%)",
+      "rank": 5
+     },
+     "P03": {
+      "n": 4,
+      "best": 1.384,
+      "what": "Ceres: H 2 (Ceres\u2013Makemake RA 5/4 0.0039%) | J 1 (Neptune\u2013Ceres Flat 22/9 0.0069%)",
+      "rank": 4
+     },
+     "P05": {
+      "n": 6,
+      "best": 1.186,
+      "what": "Vesta: H 2 (Pluto\u2013Vesta Dec 16 0.0059%) | J 2 (Sun\u2013Vesta Dec 8/3 0.0002%)",
+      "rank": 3
+     },
+     "P07": {
+      "n": 5,
+      "best": 1.162,
+      "what": "Chiron: H 1 (Chiron\u2013Quaoar RA 9/8 0.0058%) | J 4 (Saturn\u2013Chiron GC 16/5 0.0029%)",
+      "rank": 2
+     },
+     "P09": {
+      "n": 5,
+      "best": 1.034,
+      "what": "Makemake: H 1 (Jupiter\u2013Makemake Dec 7/2 0.0052%) | J 1 (Sun\u2013Makemake Flat 19/6 0.0035%)",
+      "rank": 1
+     }
+    },
+    "tightest": "P09"
+   }
+  },
+  "24": {
+   "strict": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 46,
+      "best": 0.06,
+      "what": "family H Pluto\u2013Orcus Dec H Pluto \u2013 sky Orcus 7.31162 vs TT 10.44514 TT/TN 10/7 (0.0003%)",
+      "rank": 5
+     },
+     "P03": {
+      "n": 40,
+      "best": 0.08,
+      "what": "family J Saturn\u2013Pallas Flat sky Saturn \u2013 J Pallas 87.90172 vs TT 51.27618 TN/TT 12/7 (0.0004%)",
+      "rank": 6
+     },
+     "P05": {
+      "n": 42,
+      "best": 0.02,
+      "what": "family H Mars\u2013Vesta RA H Mars \u2013 sky Vesta 95.68954 vs NN 55.81884 TN/NN 12/7 (0.0001%)",
+      "rank": 2
+     },
+     "P07": {
+      "n": 29,
+      "best": 0.02,
+      "what": "family J Venus\u2013Jupiter Flat sky Venus \u2013 J Jupiter 183.13772 vs NN 65.92965 TN/NN 25/9 (0.0001%)",
+      "rank": 3
+     },
+     "P09": {
+      "n": 48,
+      "best": 0.02,
+      "what": "family H Mars\u2013Chiron RA sky Mars \u2013 H Chiron 41.91806 vs TT 62.87713 TT/TN 3/2 (0.0001%)",
+      "rank": 4
+     },
+     "P11": {
+      "n": 37,
+      "best": 0.0,
+      "what": "family J Quaoar\u2013Transpluto GC J Quaoar \u2013 sky Transpluto 87.28139 vs NN 96.97928 NN/TN 10/9 (0.0000%)",
+      "rank": 1
+     }
+    },
+    "tightest": "P11"
+   },
+   "near": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 126,
+      "best": 1.04,
+      "what": "family H Ceres\u2013Gonggong Dec H Ceres \u2013 sky Gonggong 7.24655 vs NN 9.96349 NN/TN 11/8 (0.0052%)",
+      "rank": 4
+     },
+     "P03": {
+      "n": 108,
+      "best": 1.008,
+      "what": "h:j Saturn\u2013Quaoar Flat H 18.43406 J 5.42206 H/J 17/5 (0.0050%)",
+      "rank": 2
+     },
+     "P05": {
+      "n": 125,
+      "best": 1.02,
+      "what": "family J Mars\u2013Jupiter Flat J Mars \u2013 sky Jupiter 162.01527 vs TT 43.61729 TN/TT 26/7 (0.0051%)",
+      "rank": 3
+     },
+     "P07": {
+      "n": 111,
+      "best": 1.06,
+      "what": "family H Saturn\u2013Orcus GC sky Saturn \u2013 H Orcus 154.92991 vs NN 88.53604 TN/NN 7/4 (0.0053%)",
+      "rank": 6
+     },
+     "P09": {
+      "n": 116,
+      "best": 1.04,
+      "what": "family H Chiron\u2013Quaoar GC H Chiron \u2013 sky Quaoar 71.69079 vs NN 80.65632 NN/TN 9/8 (0.0052%)",
+      "rank": 5
+     },
+     "P11": {
+      "n": 117,
+      "best": 1.0,
+      "what": "family J Mars\u2013Neptune RA sky Mars \u2013 J Neptune 14.67347 vs TT 47.27881 TT/TN 29/9 (0.0050%)",
+      "rank": 1
+     }
+    },
+    "tightest": "P11"
+   }
+  },
+  "25": {
+   "strict": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 2,
+      "best": 0.535,
+      "what": "H Chiron |Dec| 5.00535 = 5 (+0.00535); chains: H Chiron\u2013J Quaoar Dec 9 from H Chiron\u2013EQ 5 & J Quaoar\u2013EQ 14; S Neptune\u2013H Chiron Dec 1 from S Neptune\u2013EQ 4 & H Chiron\u2013EQ 5",
+      "rank": 5
+     },
+     "P03": {
+      "n": 1,
+      "best": 0.9909,
+      "what": "J Juno |Dec| 6.22113 = 56/9 (-0.00109)",
+      "rank": 6
+     },
+     "P05": {
+      "n": 2,
+      "best": 0.053,
+      "what": "H Chiron |Dec| 2.00053 = 2 (+0.00053); chains: H Chiron\u2013J Saturn Dec 185/9 from H Chiron\u2013EQ 2 & J Saturn\u2013EQ 203/9",
+      "rank": 2
+     },
+     "P07": {
+      "n": 1,
+      "best": 0.384,
+      "what": "H Venus |Dec| 25.99616 = 26 (-0.00384); chains: S Neptune\u2013H Venus Dec 30 from S Neptune\u2013EQ 4 & H Venus\u2013EQ 26",
+      "rank": 3
+     },
+     "P09": {
+      "n": 2,
+      "best": 0.005,
+      "what": "H Jupiter |Dec| 18.00005 = 18 (+0.00005)",
+      "rank": 1
+     },
+     "P11": {
+      "n": 3,
+      "best": 0.431,
+      "what": "J Rahu |Dec| 23.00431 = 23 (+0.00431); chains: S Neptune\u2013J Rahu Dec 19 from S Neptune\u2013EQ 4 & J Rahu\u2013EQ 23; J Ketu\u2013J Makemake Dec 12 from J Ketu\u2013EQ 23 & J Makemake\u2013EQ 35",
+      "rank": 4
+     }
+    },
+    "tightest": "P09"
+   }
+  },
+  "26": {
+   "strict": {
+    "k": 1,
+    "runners": {
+     "P09": {
+      "n": 2,
+      "best": 0.95,
+      "what": "Equator Gonggong S/J 11.1933 / 19.5901 J/S 7/4 (0.0095%)",
+      "rank": 1
+     }
+    },
+    "tightest": "P09"
+   },
+   "near": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 1,
+      "best": 1.91,
+      "what": "Equator Neptune H/J 11.9440 / 21.5032 J/H 9/5 (0.0191%)",
+      "rank": 3
+     },
+     "P03": {
+      "n": 2,
+      "best": 1.57,
+      "what": "Equator Juno S/H 9.1293 / 1.1410 S/H 8 (0.0157%)",
+      "rank": 2
+     },
+     "P05": {
+      "n": 6,
+      "best": 1.45,
+      "what": "Equator Sedna H/J 7.1350 / 4.1615 H/J 12/7 (0.0145%)",
+      "rank": 1
+     },
+     "P07": {
+      "n": 3,
+      "best": 2.58,
+      "what": "Equator Mercury S/J 12.6964 / 11.1065 S/J 8/7 (0.0258%)",
+      "rank": 6
+     },
+     "P09": {
+      "n": 1,
+      "best": 2.1,
+      "what": "Equator Ceres H/J 23.5665 / 30.3062 J/H 9/7 (0.0210%)",
+      "rank": 4
+     },
+     "P11": {
+      "n": 3,
+      "best": 2.3,
+      "what": "Equator Jupiter S/H 6.3764 / 22.9498 H/S 18/5 (0.0230%)",
+      "rank": 5
+     }
+    },
+    "tightest": "P05"
+   }
+  },
+  "27": {
+   "strict": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 23,
+      "best": 0.1167,
+      "what": "contact sky Orcus on H Neptune RA 176.0546 Dec 0.0350 GC 155.7586",
+      "rank": 6
+     },
+     "P03": {
+      "n": 17,
+      "best": 0.0615,
+      "what": "contact sky Uranus on J Venus RA 0.0922 Dec 2.5581 GC 2.5597",
+      "rank": 3
+     },
+     "P05": {
+      "n": 23,
+      "best": 0.0025,
+      "what": "contact sky Gonggong on H Neptune RA 0.0037 Dec 0.8786 GC 0.8786",
+      "rank": 1
+     },
+     "P07": {
+      "n": 11,
+      "best": 0.0887,
+      "what": "contact sky Sun on H Rahu RA 163.0315 Dec 0.0266 GC 161.5303",
+      "rank": 4
+     },
+     "P09": {
+      "n": 22,
+      "best": 0.1118,
+      "what": "contact sky Juno on J Saturn RA 0.1677 Dec 9.0849 GC 9.0863",
+      "rank": 5
+     },
+     "P11": {
+      "n": 24,
+      "best": 0.0429,
+      "what": "contact sky Saturn on H Quaoar RA 56.6908 Dec 0.0129 GC 54.3785",
+      "rank": 2
+     }
+    },
+    "tightest": "P05"
+   },
+   "near": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 19,
+      "best": 1.0221,
+      "what": "contact sky Pluto on H Rahu RA 50.5684 Dec 0.3066 GC 46.5638",
+      "rank": 3
+     },
+     "P03": {
+      "n": 7,
+      "best": 1.1542,
+      "what": "contact sky Ketu on H Mars RA 1.7313 Dec 2.0388 GC 2.6088",
+      "rank": 6
+     },
+     "P05": {
+      "n": 14,
+      "best": 1.0091,
+      "what": "contact sky Gonggong on H Saturn RA 120.8611 Dec 0.3027 GC 117.0275",
+      "rank": 1
+     },
+     "P07": {
+      "n": 13,
+      "best": 1.0131,
+      "what": "contact sky Saturn on H Quaoar RA 54.8294 Dec 0.3039 GC 52.6465",
+      "rank": 2
+     },
+     "P09": {
+      "n": 11,
+      "best": 1.0337,
+      "what": "contact sky Orcus on H Vesta RA 177.5078 Dec 0.3101 GC 155.6062",
+      "rank": 4
+     },
+     "P11": {
+      "n": 15,
+      "best": 1.0367,
+      "what": "contact sky Rahu on H Sedna RA 1.5551 Dec 11.9661 GC 12.0613",
+      "rank": 5
+     }
+    },
+    "tightest": "P05"
+   }
+  },
+  "28": {
+   "strict": {
+    "k": 2,
+    "runners": {
+     "P07": {
+      "n": 2,
+      "best": 0.76,
+      "what": "sky Pluto -> J Rahu RA 4.99827 (5) and Dec 1.00380 (1)",
+      "rank": 2
+     },
+     "P11": {
+      "n": 1,
+      "best": 0.14,
+      "what": "sky Sun -> H Mars RA 152.44451 (1372/9) and Dec 1.77782 (16/9)",
+      "rank": 1
+     }
+    },
+    "tightest": "P11"
+   }
+  },
+  "29": {
+   "strict": {
+    "k": 1,
+    "runners": {
+     "P07": {
+      "n": 1,
+      "best": 0.944,
+      "what": "J Sun\u2013Orcus RA 105.99528 = 106, Dec 6.22215 = 56/9",
+      "rank": 1
+     }
+    },
+    "tightest": "P07"
+   }
+  },
+  "30": {
+   "strict": {
+    "k": 6,
+    "runners": {
+     "P01": {
+      "n": 1,
+      "best": 0.0348,
+      "what": "tightest cross link H Transpluto \u2013 J Chiron RA 26.0528 Dec 0.0104",
+      "rank": 2
+     },
+     "P03": {
+      "n": 1,
+      "best": 0.0075,
+      "what": "tightest cross link H Venus \u2013 J Haumea RA 88.5454 Dec 0.0022",
+      "rank": 1
+     },
+     "P05": {
+      "n": 1,
+      "best": 0.2043,
+      "what": "tightest cross link H Orcus \u2013 J Mars RA 0.3065 Dec 21.3146",
+      "rank": 5
+     },
+     "P07": {
+      "n": 1,
+      "best": 0.0712,
+      "what": "tightest cross link H Transpluto \u2013 J Pallas RA 7.2657 Dec 0.0214",
+      "rank": 4
+     },
+     "P09": {
+      "n": 1,
+      "best": 0.2678,
+      "what": "tightest cross link H Mars \u2013 J Transpluto RA 110.9341 Dec 0.0803",
+      "rank": 6
+     },
+     "P11": {
+      "n": 1,
+      "best": 0.0427,
+      "what": "tightest cross link H Pallas \u2013 J Vesta RA 140.8247 Dec 0.0128",
+      "rank": 3
+     }
+    },
+    "tightest": "P03"
+   }
+  },
+  "33": {
+   "near": {
+    "k": 1,
+    "runners": {
+     "P11": {
+      "n": 2,
+      "best": 0.9637,
+      "what": "loop of 4: H Node -> H Haumea -> J Haumea -> J Node -> H Node  (closed through the same body in both charts: Haumea, Node) \u2014 H Rahu\u2013H Haumea RA 0.1876 Dec 29.8291; H Haumea = J Haumea (same body); J Ketu\u2013J Haumea RA 112.6329 Dec 0.5782; J Node = H Node (same body)",
+      "rank": 1
+     }
+    },
+    "tightest": "P11"
+   }
+  }
+ },
+ "items": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  33
+ ]
+}

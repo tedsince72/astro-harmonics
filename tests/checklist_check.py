@@ -432,6 +432,29 @@ chk(3, 21, 'WITHDRAWN: Newcastle 15:40 Ceres ~42.44 not a soak', lambda: not any
 chk(3, 21, 'WITHDRAWN: York 15:45 Mercury ~2.0027 not a soak', lambda: not any(abs(x['centre'] - 2.0027) < 0.02 for x in find('y45', 21, 'soak Mercury ', level=None)))
 chk(3, 21, 'WITHDRAWN: Newcastle AW 12:20 Sedna ~14.345 and ~8.439 not soaks', lambda: not any(abs(x['centre'] - c) < 0.02 for c in (14.345, 8.439) for x in find('aw20', 21, 'soak Sedna ', level=None)))
 
+
+# ============================================================== step 4: node loop, joins, stability
+chk(4, 33, 'Sedgefield: node loop H Ketu – J Mercury, H Mercury–Sedna, H Sedna – J Ketu (closes through Mercury and the node in both charts; near)',
+    lambda: any(all(t in x['what'] for t in ('H Ketu–J Mercury', 'H Mercury–H Sedna', 'H Sedna–J Ketu')) for x in find('sed', 33, level='near')))
+chk(4, 33, 'DIFFERENCE: Sedgefield winner has no node loop of close links alone (J node joins only H Sedna; its group does not reach the H node) — strict none',
+    lambda: not has('sed', 33))
+chk(4, 33, 'Sedgefield field: NOT unique — Wheres Maud Gone has one', lambda: P_of('sed', 'Wheres Maud Gone') in who('sed', 33, 'near') + who('sed', 33, 'strict'))
+def pairline(r, P, pair):
+    from checklist_reader import pair_map
+    S = [x for x in F(r)['per_runner'][P]['instances'] if x['level'] == 'strict']
+    return pair_map(S).get('–'.join(sorted(pair.split('–'))), {})
+chk(4, 0, 'Joins: Exeter Chiron–Juno carries cross struck (2), shared (13), same-body + 4:5:9 (16, 17), Best ratio (22)', lambda: {2, 13, 16, 17, 22} <= set(pairline('exe', 'P11', 'Chiron–Juno')))
+chk(4, 0, 'Joins: York 16:15 Venus–Uranus carries cross struck/moved and pair together in the sky (4, 5)', lambda: {4, 5} <= set(pairline('y15', 'P25', 'Venus–Uranus')))
+chk(4, 0, 'Joins: Newmarket July Venus–Uranus carries struck both ends (2), partner (3), Uranus same-body (16)', lambda: {2, 3, 16} <= set(pairline('nmj', 'P01', 'Venus–Uranus')))
+def stable():
+    import subprocess
+    code = ("import sys; sys.path.insert(0,'tools'); import checklist_reader as CR\n"
+            "for r in ('exeter_1515_20211019','york_1615_20240515','haydock_1420_20210904'):\n"
+            "    F = CR.run(r); print(CR.field_text(F)); [print(CR.runner_text(F, P)) for P in F['per_runner']]")
+    outs = [subprocess.run([sys.executable, '-c', code], capture_output=True, text=True, env={**os.environ, 'PYTHONHASHSEED': seed}).stdout for seed in ('0', '1', '42')]
+    return outs[0] and outs[0] == outs[1] == outs[2]
+chk(4, 0, 'Same output under three different Python hash seeds (no set order)', stable)
+
 # ============================================================== run
 if __name__ == '__main__':
     ok = bad = nd = 0

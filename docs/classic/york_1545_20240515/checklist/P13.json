@@ -1,0 +1,5943 @@
+{
+ "name": "7 Sinology / 7 Luke Morris",
+ "instances": [
+  {
+   "item": 2,
+   "level": "strict",
+   "t": 0.2314,
+   "what": "H Jupiter \u2013 J Gonggong RA 0.3471 Dec 7.3802 (one per end) \u2014 sky Vesta -> H Jupiter Flat 143.00064 (143) | sky Venus -> J Gonggong GC 85.99914 (86)",
+   "bodies": [
+    "H Jupiter",
+    "J Gonggong"
+   ],
+   "pair": "Gonggong\u2013Jupiter",
+   "derived": false,
+   "sky": [
+    "Venus",
+    "Vesta"
+   ],
+   "link_t": 0.2314,
+   "nf_t": 0.274,
+   "ends": [
+    [
+     "sky Neptune -> H Jupiter Flat 33.00232 (33)",
+     "sky Vesta -> H Jupiter Flat 143.00064 (143)",
+     "sky Haumea -> H Jupiter GC 113.00137 (113)"
+    ],
+    [
+     "sky Venus -> J Gonggong GC 85.99914 (86)",
+     "sky Pallas -> J Gonggong Dec 46.44415 (418/9)",
+     "sky Eris -> J Gonggong GC 60.55529 (545/9)",
+     "sky Quaoar -> J Gonggong GC 46.55530 (419/9)"
+    ]
+   ],
+   "joined": [
+    6,
+    9,
+    13,
+    19,
+    21,
+    24,
+    26
+   ]
+  },
+  {
+   "item": 2,
+   "level": "strict",
+   "t": 0.6672,
+   "what": "H Pallas \u2013 J Venus RA 169.0644 Dec 0.2002 (one body) \u2014 sky Eris -> H Pallas Flat 47.99854 (48) | sky Eris -> J Venus GC 142.99798 (143)",
+   "bodies": [
+    "H Pallas",
+    "J Venus"
+   ],
+   "pair": "Pallas\u2013Venus",
+   "derived": false,
+   "sky": [
+    "Eris"
+   ],
+   "link_t": 0.6672,
+   "nf_t": 0.6672,
+   "ends": [
+    [
+     "sky Mars -> H Pallas Dec 2.00424 (2)",
+     "sky Ketu -> H Pallas Dec 10.99836 (11)",
+     "sky Eris -> H Pallas Flat 47.99854 (48)"
+    ],
+    [
+     "sky Eris -> J Venus GC 142.99798 (143)"
+    ]
+   ],
+   "joined": [
+    19,
+    21,
+    22,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 2,
+   "level": "strict",
+   "t": 0.7881,
+   "what": "H Pallas \u2013 J Juno RA 163.0383 Dec 0.2364 (one per end) \u2014 sky Eris -> H Pallas Flat 47.99854 (48) | sky Quaoar -> J Juno GC 136.99988 (137)",
+   "bodies": [
+    "H Pallas",
+    "J Juno"
+   ],
+   "pair": "Juno\u2013Pallas",
+   "derived": false,
+   "sky": [
+    "Eris",
+    "Quaoar"
+   ],
+   "link_t": 0.7881,
+   "nf_t": 0.7881,
+   "ends": [
+    [
+     "sky Mars -> H Pallas Dec 2.00424 (2)",
+     "sky Ketu -> H Pallas Dec 10.99836 (11)",
+     "sky Eris -> H Pallas Flat 47.99854 (48)"
+    ],
+    [
+     "sky Quaoar -> J Juno GC 136.99988 (137)"
+    ]
+   ],
+   "joined": [
+    9,
+    19,
+    21,
+    22,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 2,
+   "level": "strict",
+   "t": 0.8163,
+   "what": "H Saturn \u2013 J Ceres RA 40.4538 Dec 0.2449 (one per end) \u2014 sky Gonggong -> H Saturn Flat 24.00007 (24) | sky Rahu -> J Ceres RA 17.99992 (18)  [both ends by Mercury: sky Mercury -> H Saturn Dec 25.99517 (26) | sky Mercury -> J Ceres GC 42.00173 (42)]",
+   "bodies": [
+    "H Saturn",
+    "J Ceres"
+   ],
+   "pair": "Ceres\u2013Saturn",
+   "derived": false,
+   "sky": [
+    "Gonggong",
+    "Node"
+   ],
+   "link_t": 0.8163,
+   "nf_t": 0.966,
+   "ends": [
+    [
+     "sky Mercury -> H Saturn Dec 25.99517 (26)",
+     "sky Eris -> H Saturn Flat 73.99845 (74)",
+     "sky Gonggong -> H Saturn Flat 24.00007 (24)"
+    ],
+    [
+     "sky Mercury -> J Ceres GC 42.00173 (42)",
+     "sky Juno -> J Ceres Flat 167.11094 (1504/9)",
+     "sky Rahu -> J Ceres RA 17.99992 (18)",
+     "sky Ketu -> J Ceres RA 162.00008 (162)"
+    ]
+   ],
+   "joined": [
+    9,
+    13,
+    21,
+    22,
+    24
+   ]
+  },
+  {
+   "item": 2,
+   "level": "strict",
+   "t": 0.836,
+   "what": "H Ketu \u2013 J Neptune RA 28.8379 Dec 0.1574 (one per end) \u2014 sky Jupiter -> H Ketu GC 165.99608 (166) | sky Rahu -> J Neptune Dec 28.00418 (28)",
+   "bodies": [
+    "H Node",
+    "J Neptune"
+   ],
+   "pair": "Neptune\u2013Node",
+   "derived": false,
+   "sky": [
+    "Jupiter",
+    "Node"
+   ],
+   "link_t": 0.5247,
+   "nf_t": 0.836,
+   "ends": [
+    [
+     "sky Jupiter -> H Ketu GC 165.99608 (166)"
+    ],
+    [
+     "sky Rahu -> J Neptune Dec 28.00418 (28)"
+    ]
+   ],
+   "joined": [
+    3,
+    9,
+    13,
+    19,
+    21,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 2,
+   "level": "strict",
+   "t": 0.836,
+   "what": "H Pluto \u2013 J Neptune RA 20.3183 Dec 0.0551 (one per end) \u2014 sky Gonggong -> H Pluto GC 39.11092 (352/9) | sky Rahu -> J Neptune Dec 28.00418 (28)",
+   "bodies": [
+    "H Pluto",
+    "J Neptune"
+   ],
+   "pair": "Neptune\u2013Pluto",
+   "derived": false,
+   "sky": [
+    "Gonggong",
+    "Node"
+   ],
+   "link_t": 0.1838,
+   "nf_t": 0.836,
+   "ends": [
+    [
+     "sky Venus -> H Pluto GC 112.99756 (113)",
+     "sky Gonggong -> H Pluto GC 39.11092 (352/9)"
+    ],
+    [
+     "sky Rahu -> J Neptune Dec 28.00418 (28)"
+    ]
+   ],
+   "joined": [
+    3,
+    9,
+    13,
+    19,
+    21,
+    22,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 2,
+   "level": "strict",
+   "t": 0.9647,
+   "what": "H Jupiter \u2013 J Quaoar RA 97.0537 Dec 0.2894 (one per end) \u2014 sky Vesta -> H Jupiter Flat 143.00064 (143) | sky Sedna -> J Quaoar Dec 21.77791 (196/9)",
+   "bodies": [
+    "H Jupiter",
+    "J Quaoar"
+   ],
+   "pair": "Jupiter\u2013Quaoar",
+   "derived": false,
+   "sky": [
+    "Sedna",
+    "Vesta"
+   ],
+   "link_t": 0.9647,
+   "nf_t": 0.9647,
+   "ends": [
+    [
+     "sky Neptune -> H Jupiter Flat 33.00232 (33)",
+     "sky Vesta -> H Jupiter Flat 143.00064 (143)",
+     "sky Haumea -> H Jupiter GC 113.00137 (113)"
+    ],
+    [
+     "sky Sedna -> J Quaoar Dec 21.77791 (196/9)"
+    ]
+   ],
+   "joined": [
+    6,
+    19,
+    21,
+    24,
+    26
+   ]
+  },
+  {
+   "item": 2,
+   "level": "near",
+   "t": 1.0889,
+   "what": "H Rahu \u2013 J Haumea RA 116.8409 Dec 0.3267 (near band) (one body) \u2014 sky Quaoar -> H Rahu Dec 37.11086 (334/9) | sky Quaoar -> J Haumea RA 93.22236 (839/9)",
+   "bodies": [
+    "H Node",
+    "J Haumea"
+   ],
+   "pair": "Haumea\u2013Node",
+   "derived": false,
+   "sky": [
+    "Quaoar"
+   ],
+   "link_t": 1.0889,
+   "nf_t": 1.0889,
+   "ends": [
+    [
+     "sky Jupiter -> H Rahu GC 14.00392 (14)",
+     "sky Quaoar -> H Rahu Dec 37.11086 (334/9)"
+    ],
+    [
+     "sky Ceres -> J Haumea GC 114.00341 (114)",
+     "sky Ketu -> J Haumea Flat 29.00398 (29)",
+     "sky Eris -> J Haumea Dec 22.88893 (206/9)",
+     "sky Quaoar -> J Haumea RA 93.22236 (839/9)"
+    ]
+   ],
+   "joined": [
+    3,
+    9,
+    13,
+    19,
+    21,
+    22,
+    23,
+    24,
+    25,
+    27
+   ]
+  },
+  {
+   "item": 2,
+   "level": "near",
+   "t": 1.2245,
+   "what": "H Makemake \u2013 J Vesta RA 1.8367 Dec 26.3080 (near band) (one per end) \u2014 sky Uranus -> H Makemake GC 127.22257 (1145/9) | sky Quaoar -> J Vesta GC 80.00133 (80)",
+   "bodies": [
+    "H Makemake",
+    "J Vesta"
+   ],
+   "pair": "Makemake\u2013Vesta",
+   "derived": false,
+   "sky": [
+    "Quaoar",
+    "Uranus"
+   ],
+   "link_t": 1.2245,
+   "nf_t": 1.2245,
+   "ends": [
+    [
+     "sky Uranus -> H Makemake GC 127.22257 (1145/9)",
+     "sky Neptune -> H Makemake GC 152.00462 (152)"
+    ],
+    [
+     "sky Quaoar -> J Vesta GC 80.00133 (80)"
+    ]
+   ],
+   "joined": [
+    9,
+    21,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 2,
+   "level": "near",
+   "t": 1.2261,
+   "what": "H Pluto \u2013 J Saturn RA 30.8346 Dec 0.3678 (near band) (one per end) \u2014 sky Gonggong -> H Pluto GC 39.11092 (352/9) | sky Chiron -> J Saturn GC 112.99645 (113)",
+   "bodies": [
+    "H Pluto",
+    "J Saturn"
+   ],
+   "pair": "Pluto\u2013Saturn",
+   "derived": false,
+   "sky": [
+    "Chiron",
+    "Gonggong"
+   ],
+   "link_t": 1.2261,
+   "nf_t": 1.2261,
+   "ends": [
+    [
+     "sky Venus -> H Pluto GC 112.99756 (113)",
+     "sky Gonggong -> H Pluto GC 39.11092 (352/9)"
+    ],
+    [
+     "sky Chiron -> J Saturn GC 112.99645 (113)"
+    ]
+   ],
+   "joined": [
+    13,
+    19,
+    21,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 2,
+   "level": "near",
+   "t": 1.567,
+   "what": "H Ketu \u2013 J Saturn RA 18.3217 Dec 0.4701 (near band) (one per end) \u2014 sky Jupiter -> H Ketu GC 165.99608 (166) | sky Chiron -> J Saturn GC 112.99645 (113)",
+   "bodies": [
+    "H Node",
+    "J Saturn"
+   ],
+   "pair": "Node\u2013Saturn",
+   "derived": false,
+   "sky": [
+    "Chiron",
+    "Jupiter"
+   ],
+   "link_t": 1.567,
+   "nf_t": 1.567,
+   "ends": [
+    [
+     "sky Jupiter -> H Ketu GC 165.99608 (166)"
+    ],
+    [
+     "sky Chiron -> J Saturn GC 112.99645 (113)"
+    ]
+   ],
+   "joined": [
+    3,
+    13,
+    19,
+    21,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 2,
+   "level": "near",
+   "t": 1.7064,
+   "what": "H Chiron \u2013 J Ketu RA 156.6307 Dec 0.5119 (near band) (one body) \u2014 sky Quaoar -> H Chiron Dec 21.00405 (21) | sky Quaoar -> J Ketu Flat 116.99956 (117)",
+   "bodies": [
+    "H Chiron",
+    "J Node"
+   ],
+   "pair": "Chiron\u2013Node",
+   "derived": false,
+   "sky": [
+    "Quaoar"
+   ],
+   "link_t": 1.7064,
+   "nf_t": 1.7064,
+   "ends": [
+    [
+     "sky Quaoar -> H Chiron Dec 21.00405 (21)"
+    ],
+    [
+     "sky Gonggong -> J Ketu Dec 17.00441 (17)",
+     "sky Quaoar -> J Ketu RA 115.00417 (115)",
+     "sky Quaoar -> J Ketu Flat 116.99956 (117)"
+    ]
+   ],
+   "joined": [
+    9,
+    13,
+    21,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 2,
+   "level": "near",
+   "t": 1.8048,
+   "what": "H Chiron \u2013 J Venus RA 162.1009 Dec 0.5414 (near band) (one per end) \u2014 sky Quaoar -> H Chiron Dec 21.00405 (21) | sky Eris -> J Venus GC 142.99798 (143)",
+   "bodies": [
+    "H Chiron",
+    "J Venus"
+   ],
+   "pair": "Chiron\u2013Venus",
+   "derived": false,
+   "sky": [
+    "Eris",
+    "Quaoar"
+   ],
+   "link_t": 1.8048,
+   "nf_t": 1.8048,
+   "ends": [
+    [
+     "sky Quaoar -> H Chiron Dec 21.00405 (21)"
+    ],
+    [
+     "sky Eris -> J Venus GC 142.99798 (143)"
+    ]
+   ],
+   "joined": [
+    21,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 2,
+   "level": "near",
+   "t": 1.9904,
+   "what": "H Eris \u2013 J Pluto RA 161.9741 Dec 0.5971 (near band) (one body) \u2014 sky Juno -> H Eris Dec 12.00230 (12) | sky Juno -> J Pluto GC 64.88936 (584/9)",
+   "bodies": [
+    "H Eris",
+    "J Pluto"
+   ],
+   "pair": "Eris\u2013Pluto",
+   "derived": true,
+   "sky": [
+    "Juno"
+   ],
+   "link_t": 1.9904,
+   "nf_t": 1.9904,
+   "ends": [
+    [
+     "sky Pluto -> H Eris Dec 21.44430 (193/9)",
+     "sky Juno -> H Eris Dec 12.00230 (12)",
+     "sky Quaoar -> H Eris RA 106.55540 (959/9)",
+     "sky Orcus -> H Eris Dec 11.00259 (11)"
+    ],
+    [
+     "sky Juno -> J Pluto GC 64.88936 (584/9)",
+     "sky Ketu -> J Pluto Dec 5.00498 (5)"
+    ]
+   ],
+   "joined": [
+    13,
+    19,
+    21,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 2,
+   "level": "near",
+   "t": 1.9998,
+   "what": "H Orcus \u2013 J Sun RA 50.5581 Dec 0.5999 (near band) (one per end) \u2014 sky Uranus -> H Orcus Flat 108.44452 (976/9) | sky Pallas -> J Sun Dec 36.22213 (326/9)",
+   "bodies": [
+    "H Orcus",
+    "J Sun"
+   ],
+   "pair": "Orcus\u2013Sun",
+   "derived": false,
+   "sky": [
+    "Pallas",
+    "Uranus"
+   ],
+   "link_t": 1.9998,
+   "nf_t": 1.9998,
+   "ends": [
+    [
+     "sky Venus -> H Orcus Flat 111.22177 (1001/9)",
+     "sky Jupiter -> H Orcus Dec 29.99576 (30)",
+     "sky Uranus -> H Orcus Flat 108.44452 (976/9)"
+    ],
+    [
+     "sky Ceres -> J Sun RA 87.99543 (88)",
+     "sky Pallas -> J Sun Dec 36.22213 (326/9)"
+    ]
+   ],
+   "joined": [
+    9,
+    21,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 3,
+   "level": "strict",
+   "t": 0.836,
+   "what": "H Ketu \u2013 J Neptune RA 28.8379 Dec 0.1574 \u2014 partner sky Rahu -> J Neptune Dec 28.00418 (28)",
+   "bodies": [
+    "H Node",
+    "J Neptune"
+   ],
+   "pair": "Neptune\u2013Node",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    21,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 3,
+   "level": "near",
+   "t": 1.0889,
+   "what": "H Rahu \u2013 J Haumea RA 116.8409 Dec 0.3267 (near band) \u2014 partner sky Ketu -> J Haumea Flat 29.00398 (29)",
+   "bodies": [
+    "H Node",
+    "J Haumea"
+   ],
+   "pair": "Haumea\u2013Node",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    21,
+    22,
+    23,
+    24,
+    25,
+    27
+   ]
+  },
+  {
+   "item": 3,
+   "level": "near",
+   "t": 1.9904,
+   "what": "H Eris \u2013 J Pluto RA 161.9741 Dec 0.5971 (near band) \u2014 partner sky Pluto -> H Eris Dec 21.44430 (193/9)",
+   "bodies": [
+    "H Eris",
+    "J Pluto"
+   ],
+   "pair": "Eris\u2013Pluto",
+   "derived": true,
+   "joined": [
+    13,
+    19,
+    21,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 6,
+   "level": "strict",
+   "t": 0.765,
+   "what": "J Transpluto moved GC 10.99235 (11) \u2014 on H Uranus \u2013 J Transpluto RA 106.8228 Dec 0.1436",
+   "bodies": [
+    "H Uranus",
+    "J Transpluto"
+   ],
+   "pair": "Transpluto\u2013Uranus",
+   "derived": false,
+   "joined": [
+    13,
+    19,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 6,
+   "level": "strict",
+   "t": 0.97,
+   "what": "J Quaoar moved RA 47.99030 (48) \u2014 on H Jupiter \u2013 J Quaoar RA 97.0537 Dec 0.2894",
+   "bodies": [
+    "H Jupiter",
+    "J Quaoar"
+   ],
+   "pair": "Jupiter\u2013Quaoar",
+   "derived": false,
+   "joined": [
+    2,
+    19,
+    21,
+    24,
+    26
+   ]
+  },
+  {
+   "item": 6,
+   "level": "near",
+   "t": 1.9904,
+   "what": "J Pluto moved GC 80.88977 (728/9) \u2014 on H Eris \u2013 J Pluto RA 161.9741 Dec 0.5971 (near band)",
+   "bodies": [
+    "H Eris",
+    "J Pluto"
+   ],
+   "pair": "Eris\u2013Pluto",
+   "derived": false,
+   "joined": [
+    13,
+    19,
+    21,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 9,
+   "level": "strict",
+   "t": 0.6,
+   "what": "J Sun\u2013Gonggong Dec 10.22202 = 92/9 struck by 1 sky body \u2014 Pallas: sky Pallas -> J Sun Dec 36.22213 (326/9) | sky Pallas -> J Gonggong Dec 46.44415 (418/9)",
+   "bodies": [
+    "J Gonggong",
+    "J Sun"
+   ],
+   "pair": "Gonggong\u2013Sun",
+   "derived": true,
+   "label": "number",
+   "sky": [
+    "Pallas"
+   ],
+   "joined": [
+    2,
+    13,
+    19,
+    21,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 9,
+   "level": "strict",
+   "t": 0.76,
+   "what": "J Ceres\u2013Eris RA 26.77740 = 241/9 struck by 1 sky body \u2014 Node: sky Rahu -> J Ceres RA 17.99992 (18) | sky Rahu -> J Eris RA 8.77748 (79/9)",
+   "bodies": [
+    "J Ceres",
+    "J Eris"
+   ],
+   "pair": "Ceres\u2013Eris",
+   "derived": true,
+   "label": "number",
+   "sky": [
+    "Node"
+   ],
+   "joined": [
+    2,
+    13,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 9,
+   "level": "strict",
+   "t": 0.78,
+   "what": "H Venus\u2013Transpluto Dec 1.88901 = 17/9 struck by 1 sky body \u2014 Sedna: sky Sedna -> H Venus Dec 4.00115 (4) | sky Sedna -> H Transpluto RA 93.77816 (844/9)",
+   "bodies": [
+    "H Transpluto",
+    "H Venus"
+   ],
+   "pair": "Transpluto\u2013Venus",
+   "derived": false,
+   "label": "number",
+   "sky": [
+    "Sedna"
+   ],
+   "joined": [
+    19,
+    21,
+    22,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 9,
+   "level": "strict",
+   "t": 0.834,
+   "what": "J Juno\u2013Rahu Flat 157.99608 = 158 struck by 1 sky body \u2014 Quaoar: sky Quaoar -> J Juno GC 136.99988 (137) | sky Quaoar -> J Rahu RA 64.99583 (65)",
+   "bodies": [
+    "J Juno",
+    "J Node"
+   ],
+   "pair": "Juno\u2013Node",
+   "derived": false,
+   "label": "number",
+   "sky": [
+    "Quaoar"
+   ],
+   "joined": [
+    2,
+    13,
+    21,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 9,
+   "level": "strict",
+   "t": 0.836,
+   "what": "J Neptune\u2013Haumea RA 91.99704 = 92 struck by 1 sky body \u2014 Node: sky Rahu -> J Neptune Dec 28.00418 (28) | sky Ketu -> J Haumea Flat 29.00398 (29)",
+   "bodies": [
+    "J Haumea",
+    "J Neptune"
+   ],
+   "pair": "Haumea\u2013Neptune",
+   "derived": false,
+   "label": "number",
+   "sky": [
+    "Node"
+   ],
+   "joined": [
+    2,
+    3,
+    13,
+    19,
+    22,
+    24,
+    25,
+    27
+   ]
+  },
+  {
+   "item": 9,
+   "level": "strict",
+   "t": 0.864,
+   "what": "J Vesta\u2013Gonggong Dec 17.99568 = 18 struck by 1 sky body \u2014 Quaoar: sky Quaoar -> J Vesta GC 80.00133 (80) | sky Quaoar -> J Gonggong GC 46.55530 (419/9)",
+   "bodies": [
+    "J Gonggong",
+    "J Vesta"
+   ],
+   "pair": "Gonggong\u2013Vesta",
+   "derived": true,
+   "label": "number",
+   "sky": [
+    "Quaoar"
+   ],
+   "joined": [
+    2,
+    13,
+    19,
+    21,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 9,
+   "level": "strict",
+   "t": 0.964,
+   "what": "J Chiron\u2013Sedna RA 56.00482 = 56 struck by 1 sky body \u2014 Mercury: sky Mercury -> J Chiron RA 68.99936 (69) | sky Mercury -> J Sedna Dec 4.55517 (41/9)",
+   "bodies": [
+    "J Chiron",
+    "J Sedna"
+   ],
+   "pair": "Chiron\u2013Sedna",
+   "derived": false,
+   "label": "number",
+   "sky": [
+    "Mercury"
+   ],
+   "joined": [
+    21,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 9,
+   "level": "strict",
+   "t": 0.97,
+   "what": "J Jupiter\u2013Orcus GC 65.99785 = 66 struck by 1 sky body \u2014 Makemake: sky Makemake -> J Jupiter Flat 136.00485 (136) | sky Makemake -> J Orcus RA 69.99770 (70)",
+   "bodies": [
+    "J Jupiter",
+    "J Orcus"
+   ],
+   "pair": "Jupiter\u2013Orcus",
+   "derived": true,
+   "label": "number",
+   "sky": [
+    "Makemake"
+   ],
+   "joined": [
+    21,
+    22,
+    24,
+    26
+   ]
+  },
+  {
+   "item": 11,
+   "level": "other",
+   "t": 0.236,
+   "what": "number 35: H Pluto\u2013Juno RA 35.00017 = 35 | J Gonggong\u2013Transpluto Dec 34.99882 = 35  (other plane: RA / Dec)",
+   "bodies": [
+    "H Juno",
+    "H Pluto",
+    "J Gonggong",
+    "J Transpluto"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "number",
+   "num": "35",
+   "joined": [
+    2,
+    6,
+    9,
+    13,
+    19,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 11,
+   "level": "other",
+   "t": 0.83,
+   "what": "ratio 13/6: H Venus\u2013Vesta RA (0.0034%) | J Neptune\u2013Rahu Dec (0.0042%)",
+   "bodies": [
+    "H Venus",
+    "H Vesta",
+    "J Neptune",
+    "J Node"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "ratio",
+   "num": "13/6",
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    21,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 13,
+   "level": "strict",
+   "t": 0.2494,
+   "what": "shared Ceres\u2013Ketu Dec H 24.3787 J 24.4091 (0.1247%) sky 19.3731 S~H ['5/4', 0.6702] S~J ['5/4', 0.7958]",
+   "bodies": [
+    "H Ceres",
+    "H Node",
+    "J Ceres",
+    "J Node"
+   ],
+   "pair": "Ceres\u2013Node",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    9,
+    19,
+    21,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 13,
+   "level": "strict",
+   "t": 0.5312,
+   "what": "shared Neptune\u2013Pluto RA H 54.0498 J 54.1934 (0.2656%) sky 54.8533 S~H None S~J None",
+   "bodies": [
+    "H Neptune",
+    "H Pluto",
+    "J Neptune",
+    "J Pluto"
+   ],
+   "pair": "Neptune\u2013Pluto",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    9,
+    19,
+    21,
+    22,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 13,
+   "level": "strict",
+   "t": 0.6286,
+   "what": "shared Mars\u2013Ketu RA H 162.6355 J 163.1467 (0.3143%) sky 177.3466 S~H ['10/9', 1.8591] S~J ['10/9', 2.1666]",
+   "bodies": [
+    "H Mars",
+    "H Node",
+    "J Mars",
+    "J Node"
+   ],
+   "pair": "Mars\u2013Node",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    9,
+    19,
+    21,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 13,
+   "level": "strict",
+   "t": 0.6538,
+   "what": "shared Uranus\u2013Gonggong RA H 60.3598 J 60.5571 (0.3269%) sky 72.7313 S~H ['6/5', 0.4137] S~J ['6/5', 0.0865]",
+   "bodies": [
+    "H Gonggong",
+    "H Uranus",
+    "J Gonggong",
+    "J Uranus"
+   ],
+   "pair": "Gonggong\u2013Uranus",
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    9,
+    19,
+    21,
+    22,
+    24
+   ]
+  },
+  {
+   "item": 14,
+   "level": "strict",
+   "t": 0.5312,
+   "what": "shared Neptune\u2013Pluto RA (0.2656%) + cross H Pluto \u2013 J Neptune RA 20.3183 Dec 0.0551",
+   "bodies": [
+    "H Neptune",
+    "H Pluto",
+    "J Neptune",
+    "J Pluto"
+   ],
+   "pair": "Neptune\u2013Pluto",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    21,
+    22,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.1652,
+   "what": "J Mercury moved Dec (12) toward J Makemake: span 38.99072 = 12.00828 + 26.98244; span/other 13/9 (0.0413%)",
+   "bodies": [
+    "J Makemake",
+    "J Mercury"
+   ],
+   "pair": "Makemake\u2013Mercury",
+   "derived": false,
+   "joined": [
+    21,
+    24
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.1756,
+   "what": "J Makemake moved RA (31) toward H Pallas: span 170.80088 = 30.99340 + 139.80749; span/other 11/9 (0.0439%)",
+   "bodies": [
+    "H Pallas",
+    "J Makemake"
+   ],
+   "pair": "Makemake\u2013Pallas",
+   "derived": false,
+   "joined": [
+    2,
+    21,
+    22,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.2076,
+   "what": "J Mercury moved Dec (12) toward H Mars: span 28.52823 = 12.00828 + 16.51995; parts 11/8 (0.0519%)",
+   "bodies": [
+    "H Mars",
+    "J Mercury"
+   ],
+   "pair": "Mars\u2013Mercury",
+   "derived": false,
+   "joined": [
+    13,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.2828,
+   "what": "J Quaoar moved RA (48) toward H Mercury: span 156.21710 = 47.99030 + 108.22680; span/other 13/9 (0.0707%)",
+   "bodies": [
+    "H Mercury",
+    "J Quaoar"
+   ],
+   "pair": "Mercury\u2013Quaoar",
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    21,
+    27,
+    28
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.3364,
+   "what": "J Quaoar moved RA (48) toward H Eris: span 154.54570 = 47.99030 + 106.55540 (959/9); parts 20/9 (0.0841%)",
+   "bodies": [
+    "H Eris",
+    "J Quaoar"
+   ],
+   "pair": "Eris\u2013Quaoar",
+   "derived": true,
+   "joined": [
+    2,
+    6,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.4468,
+   "what": "J Quaoar moved RA (48) toward H Sun: span 155.57787 = 47.99030 + 107.58757; span/other 13/9 (0.1117%)",
+   "bodies": [
+    "H Sun",
+    "J Quaoar"
+   ],
+   "pair": "Quaoar\u2013Sun",
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.4516,
+   "what": "J Makemake moved RA (31) toward J Gonggong: span 159.98676 = 30.99340 + 128.99337; parts 25/6 (0.1129%)",
+   "bodies": [
+    "J Gonggong",
+    "J Makemake"
+   ],
+   "pair": "Gonggong\u2013Makemake",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.4664,
+   "what": "J Mercury moved Dec (12) toward H Venus: span 16.30374 = 12.00828 + 4.29547; span/other 19/5 (0.1166%)",
+   "bodies": [
+    "H Venus",
+    "J Mercury"
+   ],
+   "pair": "Mercury\u2013Venus",
+   "derived": false,
+   "joined": [
+    9,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.5456,
+   "what": "J Mercury moved Dec (12) toward H Rahu: span 25.77224 = 12.00828 + 13.76396; span/other 15/8 (0.1364%)",
+   "bodies": [
+    "H Node",
+    "J Mercury"
+   ],
+   "pair": "Mercury\u2013Node",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    13,
+    21,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.5696,
+   "what": "J Makemake moved RA (31) toward J Pluto: span 55.85182 = 30.99340 + 24.85842; span/other 9/4 (0.1424%)",
+   "bodies": [
+    "J Makemake",
+    "J Pluto"
+   ],
+   "pair": "Makemake\u2013Pluto",
+   "derived": false,
+   "joined": [
+    13,
+    21,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.5704,
+   "what": "J Quaoar moved RA (48) toward H Venus: span 161.80473 = 47.99030 + 113.81443; parts 19/8 (0.1426%)",
+   "bodies": [
+    "H Venus",
+    "J Quaoar"
+   ],
+   "pair": "Quaoar\u2013Venus",
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    9,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.61,
+   "what": "J Quaoar moved RA (48) toward H Gonggong: span 105.38608 = 47.99030 + 57.39578; span/other 11/6 (0.1525%)",
+   "bodies": [
+    "H Gonggong",
+    "J Quaoar"
+   ],
+   "pair": "Gonggong\u2013Quaoar",
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    13,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.6236,
+   "what": "J Makemake moved RA (31) toward H Jupiter: span 160.33389 = 30.99340 + 129.34050; parts 25/6 (0.1559%)",
+   "bodies": [
+    "H Jupiter",
+    "J Makemake"
+   ],
+   "pair": "Jupiter\u2013Makemake",
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    21,
+    24,
+    26
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.662,
+   "what": "J Mercury moved Dec (12) toward H Uranus: span 17.99755 = 12.00828 + 5.98927; span/other 3 (0.1655%)",
+   "bodies": [
+    "H Uranus",
+    "J Mercury"
+   ],
+   "pair": "Mercury\u2013Uranus",
+   "derived": false,
+   "joined": [
+    6,
+    13,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.6652,
+   "what": "J Mercury moved Dec (12) toward H Transpluto: span 14.41473 = 12.00828 + 2.40646; span/other 6 (0.1663%)",
+   "bodies": [
+    "H Transpluto",
+    "J Mercury"
+   ],
+   "pair": "Mercury\u2013Transpluto",
+   "derived": false,
+   "joined": [
+    9,
+    21,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.6908,
+   "what": "J Makemake moved RA (31) toward H Haumea: span 47.47954 = 30.99340 + 16.48615; span/other 23/8 (0.1727%)",
+   "bodies": [
+    "H Haumea",
+    "J Makemake"
+   ],
+   "pair": "Haumea\u2013Makemake",
+   "derived": false,
+   "joined": [
+    21,
+    24
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.7712,
+   "what": "J Makemake moved RA (31) toward H Pluto: span 130.36349 = 30.99340 + 99.37010; parts 16/5 (0.1928%)",
+   "bodies": [
+    "H Pluto",
+    "J Makemake"
+   ],
+   "pair": "Makemake\u2013Pluto",
+   "derived": false,
+   "joined": [
+    2,
+    13,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.7756,
+   "what": "J Makemake moved RA (31) toward J Neptune: span 110.04517 = 30.99340 + 79.05177; parts 23/9 (0.1939%)",
+   "bodies": [
+    "J Makemake",
+    "J Neptune"
+   ],
+   "pair": "Makemake\u2013Neptune",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    22,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.9156,
+   "what": "J Mercury moved Dec (12) toward H Sun: span 14.89688 = 12.00828 + 2.88860 (26/9); parts 25/6 (0.2289%)",
+   "bodies": [
+    "H Sun",
+    "J Mercury"
+   ],
+   "pair": "Mercury\u2013Sun",
+   "derived": true,
+   "joined": [
+    21,
+    27
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.94,
+   "what": "J Makemake moved RA (31) toward J Pallas: span 131.95867 = 30.99340 + 100.96527; parts 13/4 (0.2350%)",
+   "bodies": [
+    "J Makemake",
+    "J Pallas"
+   ],
+   "pair": "Makemake\u2013Pallas",
+   "derived": false,
+   "joined": [
+    21,
+    24
+   ]
+  },
+  {
+   "item": 19,
+   "level": "strict",
+   "t": 0.9496,
+   "what": "J Makemake moved RA (31) toward H Gonggong: span 168.66627 = 30.99340 + 137.67287; span/other 11/9 (0.2374%)",
+   "bodies": [
+    "H Gonggong",
+    "J Makemake"
+   ],
+   "pair": "Gonggong\u2013Makemake",
+   "derived": false,
+   "joined": [
+    13,
+    21,
+    22,
+    24
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.3529,
+   "what": "soak Node ~16.8532: 4 partners, spread 0.0141, nearest whole 17 (-0.1468), nearest ninth 152/9 = 16.8889 (-0.0357) \u2014 H Ketu \u2013 J Uranus GC 16.8462; H Rahu \u2013 H Pallas Dec 16.8484; J Rahu \u2013 J Mars RA 16.8533; S Ketu \u2013 J Saturn Dec 16.8603",
+   "bodies": [
+    "H Node",
+    "H Pallas",
+    "J Mars",
+    "J Node",
+    "J Saturn",
+    "J Uranus"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 16.8532,
+   "partners": 4,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.3577,
+   "what": "soak Node ~23.3622: 4 partners, spread 0.0143, nearest whole 23 (+0.3622), nearest ninth 210/9 = 23.3333 (+0.0289) \u2014 J Rahu \u2013 S Venus Dec 23.3550; J Rahu \u2013 J Chiron Dec 23.3650; S Rahu \u2013 H Saturn Dec 23.3689; J Rahu \u2013 H Chiron RA 23.3693",
+   "bodies": [
+    "H Chiron",
+    "H Saturn",
+    "J Chiron",
+    "J Node"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 23.3622,
+   "partners": 4,
+   "joined": [
+    2,
+    9,
+    13,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.4162,
+   "what": "soak Quaoar ~26.2272: 4 partners, spread 0.0166, nearest whole 26 (+0.2272), nearest ninth 236/9 = 26.2222 (+0.0050) \u2014 J Quaoar \u2013 J Sun RA 26.2189; H Quaoar \u2013 H Mercury Dec 26.2243; H Quaoar \u2013 H Ketu RA 26.2322; S Quaoar \u2013 H Sun Dec 26.2355",
+   "bodies": [
+    "H Mercury",
+    "H Node",
+    "H Quaoar",
+    "H Sun",
+    "J Quaoar",
+    "J Sun"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 26.2272,
+   "partners": 4,
+   "joined": [
+    2,
+    3,
+    6,
+    9,
+    13,
+    19,
+    22,
+    23,
+    24,
+    27,
+    28
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.4406,
+   "what": "soak Venus ~5.5795: 4 partners, spread 0.0176, nearest whole 6 (-0.4205), nearest ninth 50/9 = 5.5556 (+0.0240) \u2014 J Venus \u2013 J Ketu Flat 5.5707; H Venus \u2013 H Mercury RA 5.5876; H Venus \u2013 S Uranus Dec 5.5883; S Venus \u2013 H Sun Dec 5.5883",
+   "bodies": [
+    "H Mercury",
+    "H Sun",
+    "H Venus",
+    "J Node",
+    "J Venus"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 5.5795,
+   "partners": 4,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    22,
+    23,
+    24,
+    27,
+    28
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.448,
+   "what": "soak Sun ~26.2278: 4 partners, spread 0.0179, nearest whole 26 (+0.2278), nearest ninth 236/9 = 26.2222 (+0.0056) \u2014 J Sun \u2013 J Quaoar RA 26.2189; S Sun \u2013 S Mercury Flat 26.2232; H Sun \u2013 S Quaoar Dec 26.2355; S Sun \u2013 H Juno Dec 26.2368",
+   "bodies": [
+    "H Juno",
+    "H Sun",
+    "J Quaoar",
+    "J Sun"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 26.2278,
+   "partners": 4,
+   "joined": [
+    2,
+    6,
+    9,
+    19,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.5499,
+   "what": "soak Node ~10.3188: 4 partners, spread 0.0220, nearest whole 10 (+0.3188), nearest ninth 93/9 = 10.3333 (-0.0145) \u2014 J Ketu \u2013 S Venus Dec 10.3079; J Ketu \u2013 J Chiron Dec 10.3178; J Rahu \u2013 J Sedna Dec 10.3229; S Rahu \u2013 H Ceres GC 10.3298",
+   "bodies": [
+    "H Ceres",
+    "J Chiron",
+    "J Node",
+    "J Sedna"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 10.3188,
+   "partners": 4,
+   "joined": [
+    9,
+    13,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.6248,
+   "what": "soak Mars ~26.0181: 4 partners, spread 0.0250, nearest whole 26 (+0.0181), nearest ninth 234/9 = 26.0000 (+0.0181) \u2014 S Mars \u2013 J Ceres GC 26.0056; S Mars \u2013 J Rahu RA 26.0197; J Mars \u2013 H Makemake Dec 26.0297; S Mars \u2013 S Pluto Dec 26.0306",
+   "bodies": [
+    "H Makemake",
+    "J Ceres",
+    "J Mars",
+    "J Node"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 26.0181,
+   "partners": 4,
+   "joined": [
+    2,
+    9,
+    13,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.6402,
+   "what": "soak Venus ~107.7332: 4 partners, spread 0.0256, nearest whole 108 (-0.2668), nearest ninth 970/9 = 107.7778 (-0.0446) \u2014 J Venus \u2013 H Quaoar Flat 107.7204; S Venus \u2013 S Pluto GC 107.7272; J Venus \u2013 J Jupiter Flat 107.7361; S Venus \u2013 S Transpluto Flat 107.7460",
+   "bodies": [
+    "H Quaoar",
+    "J Jupiter",
+    "J Venus"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 107.7332,
+   "partners": 4,
+   "joined": [
+    2,
+    9,
+    24,
+    26,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.6705,
+   "what": "soak Mercury ~5.9006: 4 partners, spread 0.0268, nearest whole 6 (-0.0994), nearest ninth 53/9 = 5.8889 (+0.0117) \u2014 H Mercury \u2013 S Venus Dec 5.8872; H Mercury \u2013 J Chiron Dec 5.8972; H Mercury \u2013 J Juno Dec 5.9106; J Mercury \u2013 H Ceres Dec 5.9140",
+   "bodies": [
+    "H Ceres",
+    "H Mercury",
+    "J Chiron",
+    "J Juno",
+    "J Mercury"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 5.9006,
+   "partners": 4,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    22,
+    24,
+    27,
+    28
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.715,
+   "what": "soak Quaoar ~32.1071: 4 partners, spread 0.0286, nearest whole 32 (+0.1071), nearest ninth 289/9 = 32.1111 (-0.0040) \u2014 J Quaoar \u2013 H Juno GC 32.0928; H Quaoar \u2013 S Venus Dec 32.1115; J Quaoar \u2013 S Sun Dec 32.1212; H Quaoar \u2013 J Chiron Dec 32.1214",
+   "bodies": [
+    "H Juno",
+    "H Quaoar",
+    "J Chiron",
+    "J Quaoar"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 32.1071,
+   "partners": 4,
+   "joined": [
+    2,
+    6,
+    9,
+    19,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.7228,
+   "what": "soak Node ~52.1545: 4 partners, spread 0.0289, nearest whole 52 (+0.1545), nearest ninth 469/9 = 52.1111 (+0.0434) \u2014 H Rahu \u2013 S Chiron Flat 52.1400; S Ketu \u2013 J Juno GC 52.1456; J Rahu \u2013 H Venus GC 52.1627; H Ketu \u2013 H Makemake RA 52.1689",
+   "bodies": [
+    "H Makemake",
+    "H Node",
+    "H Venus",
+    "J Juno",
+    "J Node"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 52.1545,
+   "partners": 4,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.7372,
+   "what": "soak Node ~22.5550: 4 partners, spread 0.0295, nearest whole 23 (-0.4450), nearest ninth 203/9 = 22.5556 (-0.0006) \u2014 S Ketu \u2013 H Haumea RA 22.5402; S Ketu \u2013 S Venus Dec 22.5597; H Rahu \u2013 S Eris Dec 22.5623; S Ketu \u2013 J Chiron Dec 22.5697",
+   "bodies": [
+    "H Haumea",
+    "H Node",
+    "J Chiron"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 22.555,
+   "partners": 4,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.7555,
+   "what": "soak Chiron ~20.4801: 4 partners, spread 0.0302, nearest whole 20 (+0.4801), nearest ninth 184/9 = 20.4444 (+0.0356) \u2014 H Chiron \u2013 H Mercury Flat 20.4650; S Chiron \u2013 H Orcus Dec 20.4853; H Chiron \u2013 S Mercury GC 20.4880; J Chiron \u2013 J Mercury Dec 20.4952",
+   "bodies": [
+    "H Chiron",
+    "H Mercury",
+    "H Orcus",
+    "J Chiron",
+    "J Mercury"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 20.4801,
+   "partners": 4,
+   "joined": [
+    9,
+    19,
+    24,
+    27,
+    28
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.8264,
+   "what": "soak Saturn ~39.4365: 4 partners, spread 0.0331, nearest whole 39 (+0.4365), nearest ninth 355/9 = 39.4444 (-0.0079) \u2014 J Saturn \u2013 S Venus Dec 39.4200; J Saturn \u2013 J Chiron Dec 39.4300; S Saturn \u2013 S Mercury RA 39.4337; H Saturn \u2013 H Neptune GC 39.4531",
+   "bodies": [
+    "H Neptune",
+    "H Saturn",
+    "J Chiron",
+    "J Saturn"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 39.4365,
+   "partners": 4,
+   "joined": [
+    2,
+    9,
+    13,
+    22,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.8363,
+   "what": "soak Ceres ~26.9694: 4 partners, spread 0.0335, nearest whole 27 (-0.0306), nearest ninth 243/9 = 27.0000 (-0.0306) \u2014 J Ceres \u2013 J Gonggong RA 26.9526; J Ceres \u2013 H Jupiter Flat 26.9779; J Ceres \u2013 H Chiron GC 26.9841; S Ceres \u2013 J Pallas Dec 26.9861",
+   "bodies": [
+    "H Chiron",
+    "H Jupiter",
+    "J Ceres",
+    "J Gonggong",
+    "J Pallas"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 26.9694,
+   "partners": 4,
+   "joined": [
+    2,
+    6,
+    9,
+    13,
+    19,
+    24,
+    26,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.8544,
+   "what": "soak Node ~5.2941: 4 partners, spread 0.0342, nearest whole 5 (+0.2941), nearest ninth 48/9 = 5.3333 (-0.0392) \u2014 H Rahu \u2013 J Chiron Dec 5.2771; S Rahu \u2013 H Chiron GC 5.2834; S Ketu \u2013 S Eris Dec 5.2845; H Rahu \u2013 S Venus Dec 5.2870; S Rahu \u2013 H Chiron RA 5.3037; S Rahu \u2013 H Chiron Flat 5.3112",
+   "bodies": [
+    "H Chiron",
+    "H Node",
+    "J Chiron"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 5.2941,
+   "partners": 4,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.8746,
+   "what": "soak Node ~141.6416: 5 partners, spread 0.0350, nearest whole 142 (-0.3584), nearest ninth 1275/9 = 141.6667 (-0.0250) \u2014 S Rahu \u2013 H Orcus GC 141.6242; J Ketu \u2013 H Ceres Flat 141.6356; H Ketu \u2013 H Sun Flat 141.6360; S Ketu \u2013 S Uranus GC 141.6399; S Rahu \u2013 J Quaoar RA 141.6591",
+   "bodies": [
+    "H Ceres",
+    "H Node",
+    "H Orcus",
+    "H Sun",
+    "J Node",
+    "J Quaoar"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 141.6416,
+   "partners": 5,
+   "joined": [
+    2,
+    3,
+    6,
+    9,
+    13,
+    19,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.9305,
+   "what": "soak Uranus ~10.5493: 4 partners, spread 0.0372, nearest whole 11 (-0.4507), nearest ninth 95/9 = 10.5556 (-0.0063) \u2014 H Uranus \u2013 H Mars Dec 10.5307; H Uranus \u2013 J Sedna Dec 10.5444; H Uranus \u2013 S Mercury GC 10.5576; H Uranus \u2013 S Eris RA 10.5679",
+   "bodies": [
+    "H Mars",
+    "H Uranus",
+    "J Sedna"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 10.5493,
+   "partners": 4,
+   "joined": [
+    6,
+    9,
+    13,
+    19,
+    24
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.9336,
+   "what": "soak Node ~148.7257: 4 partners, spread 0.0373, nearest whole 149 (-0.2743), nearest ninth 1339/9 = 148.7778 (-0.0521) \u2014 S Rahu \u2013 H Vesta RA 148.7070; S Rahu \u2013 H Haumea GC 148.7242; H Rahu \u2013 S Haumea Flat 148.7283; S Rahu \u2013 J Pluto GC 148.7443",
+   "bodies": [
+    "H Haumea",
+    "H Node",
+    "H Vesta",
+    "J Pluto"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 148.7257,
+   "partners": 4,
+   "joined": [
+    2,
+    3,
+    13,
+    19,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.9438,
+   "what": "soak Vesta ~8.0919: 5 partners, spread 0.0378, nearest whole 8 (+0.0919), nearest ninth 73/9 = 8.1111 (-0.0192) \u2014 J Vesta \u2013 H Pallas Dec 8.0731; H Vesta \u2013 J Venus RA 8.0902; H Vesta \u2013 H Transpluto RA 8.0914; H Vesta \u2013 S Juno GC 8.1090; H Vesta \u2013 S Transpluto Dec 8.1108",
+   "bodies": [
+    "H Pallas",
+    "H Transpluto",
+    "H Vesta",
+    "J Venus",
+    "J Vesta"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 8.0919,
+   "partners": 5,
+   "joined": [
+    2,
+    9,
+    19,
+    22,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.9517,
+   "what": "soak Node ~18.3318: 4 partners, spread 0.0381, nearest whole 18 (+0.3318), nearest ninth 165/9 = 18.3333 (-0.0015) \u2014 H Rahu \u2013 S Uranus GC 18.3128; H Rahu \u2013 J Sedna Dec 18.3191; H Ketu \u2013 J Saturn RA 18.3217; H Ketu \u2013 J Saturn Flat 18.3277; J Ketu \u2013 H Mars Dec 18.3509",
+   "bodies": [
+    "H Mars",
+    "H Node",
+    "J Node",
+    "J Saturn",
+    "J Sedna"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 18.3318,
+   "partners": 4,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.9587,
+   "what": "soak Eris ~18.1711: 4 partners, spread 0.0383, nearest whole 18 (+0.1711), nearest ninth 164/9 = 18.2222 (-0.0512) \u2014 H Eris \u2013 S Venus Dec 18.1519; H Eris \u2013 J Chiron Dec 18.1619; S Eris \u2013 H Uranus Flat 18.1756; H Eris \u2013 H Chiron RA 18.1902",
+   "bodies": [
+    "H Chiron",
+    "H Eris",
+    "H Uranus",
+    "J Chiron"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 18.1711,
+   "partners": 4,
+   "joined": [
+    6,
+    9,
+    13,
+    19,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.9818,
+   "what": "soak Juno ~14.9651: 4 partners, spread 0.0393, nearest whole 15 (-0.0349), nearest ninth 135/9 = 15.0000 (-0.0349) \u2014 S Juno \u2013 H Neptune Dec 14.9455; S Juno \u2013 S Pallas Dec 14.9636; H Juno \u2013 H Pluto Dec 14.9761; J Juno \u2013 J Eris Dec 14.9847",
+   "bodies": [
+    "H Juno",
+    "H Neptune",
+    "H Pluto",
+    "J Eris",
+    "J Juno"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 14.9651,
+   "partners": 4,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    22,
+    24
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.9848,
+   "what": "soak Eris ~25.3188: 4 partners, spread 0.0394, nearest whole 25 (+0.3188), nearest ninth 228/9 = 25.3333 (-0.0146) \u2014 J Eris \u2013 H Venus Flat 25.2991; J Eris \u2013 S Haumea Dec 25.3155; S Eris \u2013 H Mars Dec 25.3182; S Eris \u2013 J Mars RA 25.3385",
+   "bodies": [
+    "H Mars",
+    "H Venus",
+    "J Eris",
+    "J Mars"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 25.3188,
+   "partners": 4,
+   "joined": [
+    9,
+    13,
+    19,
+    22,
+    24
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.9875,
+   "what": "soak Gonggong ~138.2203: 4 partners, spread 0.0395, nearest whole 138 (+0.2203), nearest ninth 1244/9 = 138.2222 (-0.0019) \u2014 H Gonggong \u2013 S Makemake GC 138.2006; J Gonggong \u2013 J Mercury Flat 138.2040; J Gonggong \u2013 S Vesta RA 138.2129; J Gonggong \u2013 H Makemake Flat 138.2401",
+   "bodies": [
+    "H Gonggong",
+    "H Makemake",
+    "J Gonggong",
+    "J Mercury"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 138.2203,
+   "partners": 4,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    22,
+    24
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.9922,
+   "what": "soak Gonggong ~10.8340: 4 partners, spread 0.0397, nearest whole 11 (-0.1660), nearest ninth 98/9 = 10.8889 (-0.0549) \u2014 J Gonggong \u2013 H Pallas RA 10.8141; H Gonggong \u2013 H Ketu Dec 10.8209; J Gonggong \u2013 J Eris Dec 10.8476; H Gonggong \u2013 S Eris Dec 10.8538",
+   "bodies": [
+    "H Gonggong",
+    "H Node",
+    "H Pallas",
+    "J Eris",
+    "J Gonggong"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 10.834,
+   "partners": 4,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.9935,
+   "what": "soak Ceres ~14.6010: 4 partners, spread 0.0397, nearest whole 15 (-0.3990), nearest ninth 131/9 = 14.5556 (+0.0455) \u2014 H Ceres \u2013 J Chiron Dec 14.5812; H Ceres \u2013 S Orcus Dec 14.5833; S Ceres \u2013 S Gonggong Dec 14.6206; H Ceres \u2013 H Venus GC 14.6209",
+   "bodies": [
+    "H Ceres",
+    "H Venus",
+    "J Chiron"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 14.601,
+   "partners": 4,
+   "joined": [
+    9,
+    13,
+    19,
+    22,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "near",
+   "t": 0.4845,
+   "what": "soak Node ~14.8684: 4 partners, spread 0.0194, nearest whole 15 (-0.1316), nearest ninth 134/9 = 14.8889 (-0.0205) (partners not from both natal charts) \u2014 J Rahu \u2013 S Neptune RA 14.8587; S Rahu \u2013 S Eris Flat 14.8611; H Ketu \u2013 H Juno Dec 14.8738; J Rahu \u2013 S Mercury Dec 14.8781",
+   "bodies": [
+    "H Juno",
+    "H Node",
+    "J Node"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 14.8684,
+   "partners": 4,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "near",
+   "t": 0.4915,
+   "what": "soak Neptune ~15.0214: 4 partners, spread 0.0197, nearest whole 15 (+0.0214), nearest ninth 135/9 = 15.0000 (+0.0214) (partners not from both natal charts) \u2014 J Neptune \u2013 S Ceres RA 15.0116; H Neptune \u2013 S Gonggong RA 15.0205; H Neptune \u2013 H Transpluto Dec 15.0246; J Neptune \u2013 H Juno Dec 15.0312",
+   "bodies": [
+    "H Juno",
+    "H Neptune",
+    "H Transpluto",
+    "J Neptune"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 15.0214,
+   "partners": 4,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    22,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "near",
+   "t": 0.6023,
+   "what": "soak Haumea ~19.0061: 4 partners, spread 0.0241, nearest whole 19 (+0.0061), nearest ninth 171/9 = 19.0000 (+0.0061) (partners not from both natal charts) \u2014 S Haumea \u2013 S Makemake GC 18.9941; H Haumea \u2013 J Vesta Dec 19.0004; J Haumea \u2013 J Sun RA 19.0132; S Haumea \u2013 J Mercury Dec 19.0182",
+   "bodies": [
+    "H Haumea",
+    "J Haumea",
+    "J Mercury",
+    "J Sun",
+    "J Vesta"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 19.0061,
+   "partners": 4,
+   "joined": [
+    9,
+    19,
+    24,
+    25,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "near",
+   "t": 0.6965,
+   "what": "soak Node ~18.8434: 4 partners, spread 0.0279, nearest whole 19 (-0.1566), nearest ninth 170/9 = 18.8889 (-0.0455) (partners not from both natal charts) \u2014 S Rahu \u2013 S Vesta Dec 18.8295; J Ketu \u2013 S Orcus Dec 18.8466; H Rahu \u2013 S Mars Dec 18.8527; S Rahu \u2013 J Quaoar Dec 18.8574",
+   "bodies": [
+    "H Node",
+    "J Node",
+    "J Quaoar"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 18.8434,
+   "partners": 4,
+   "joined": [
+    2,
+    3,
+    6,
+    9,
+    13,
+    19,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "near",
+   "t": 0.791,
+   "what": "soak Eris ~2.3434: 4 partners, spread 0.0316, nearest whole 2 (+0.3434), nearest ninth 21/9 = 2.3333 (+0.0101) (partners not from both natal charts) \u2014 H Eris \u2013 S Mercury RA 2.3276; S Eris \u2013 J Pallas Dec 2.3284; H Eris \u2013 J Mercury Dec 2.3333; S Eris \u2013 J Vesta Dec 2.3592",
+   "bodies": [
+    "H Eris",
+    "J Mercury",
+    "J Pallas",
+    "J Vesta"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 2.3434,
+   "partners": 4,
+   "joined": [
+    9,
+    19,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "near",
+   "t": 0.8033,
+   "what": "soak Node ~17.1009: 4 partners, spread 0.0321, nearest whole 17 (+0.1009), nearest ninth 154/9 = 17.1111 (-0.0102) (partners not from both natal charts) \u2014 H Rahu \u2013 J Juno Dec 17.0848; H Rahu \u2013 S Sun RA 17.0851; J Ketu \u2013 J Sun Dec 17.1003; J Rahu \u2013 J Uranus Dec 17.1170",
+   "bodies": [
+    "H Node",
+    "J Juno",
+    "J Node",
+    "J Sun",
+    "J Uranus"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 17.1009,
+   "partners": 4,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "near",
+   "t": 0.9121,
+   "what": "soak Sedna ~15.3039: 4 partners, spread 0.0365, nearest whole 15 (+0.3039), nearest ninth 138/9 = 15.3333 (-0.0294) (partners not from both natal charts) \u2014 S Sedna \u2013 S Venus Flat 15.2856; J Sedna \u2013 S Eris Flat 15.2904; J Sedna \u2013 H Mercury GC 15.2990; J Sedna \u2013 H Eris RA 15.3221",
+   "bodies": [
+    "H Eris",
+    "H Mercury",
+    "J Sedna"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 15.3039,
+   "partners": 4,
+   "joined": [
+    9,
+    19,
+    24,
+    27,
+    28
+   ]
+  },
+  {
+   "item": 21,
+   "level": "near",
+   "t": 0.9381,
+   "what": "soak Node ~138.2479: 4 partners, spread 0.0375, nearest whole 138 (+0.2479), nearest ninth 1244/9 = 138.2222 (+0.0257) (partners not from both natal charts) \u2014 J Ketu \u2013 S Pluto GC 138.2291; J Ketu \u2013 H Eris GC 138.2315; H Ketu \u2013 S Mercury GC 138.2358; S Ketu \u2013 S Jupiter RA 138.2667",
+   "bodies": [
+    "H Eris",
+    "H Node",
+    "J Node"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 138.2479,
+   "partners": 4,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "near",
+   "t": 0.9381,
+   "what": "soak Node ~41.7521: 5 partners, spread 0.0375, nearest whole 42 (-0.2479), nearest ninth 376/9 = 41.7778 (-0.0257) (partners not from both natal charts) \u2014 S Rahu \u2013 S Jupiter RA 41.7334; H Rahu \u2013 S Mercury GC 41.7642; J Rahu \u2013 H Eris GC 41.7685; S Ketu \u2013 S Transpluto Flat 41.7708; J Rahu \u2013 S Pluto GC 41.7709",
+   "bodies": [
+    "H Eris",
+    "H Node",
+    "J Node"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 41.7521,
+   "partners": 5,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "near",
+   "t": 0.9952,
+   "what": "soak Saturn ~33.8334: 5 partners, spread 0.0398, nearest whole 34 (-0.1666), nearest ninth 305/9 = 33.8889 (-0.0555) (partners not from both natal charts) \u2014 J Saturn \u2013 S Pluto GC 33.8135; S Saturn \u2013 S Chiron GC 33.8209; J Saturn \u2013 H Sun Dec 33.8317; H Saturn \u2013 H Haumea Dec 33.8380; H Saturn \u2013 S Quaoar GC 33.8533",
+   "bodies": [
+    "H Haumea",
+    "H Saturn",
+    "H Sun",
+    "J Saturn"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 33.8334,
+   "partners": 5,
+   "joined": [
+    2,
+    19,
+    22,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "near",
+   "t": 0.9975,
+   "what": "soak Node ~9.7755: 4 partners, spread 0.0399, nearest whole 10 (-0.2245), nearest ninth 88/9 = 9.7778 (-0.0023) (partners not from both natal charts) \u2014 S Rahu \u2013 H Ceres RA 9.7555; J Ketu \u2013 H Orcus RA 9.7631; J Rahu \u2013 S Mars Dec 9.7894; H Ketu \u2013 S Orcus Dec 9.7955",
+   "bodies": [
+    "H Ceres",
+    "H Node",
+    "H Orcus",
+    "J Node"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 9.7755,
+   "partners": 4,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 22,
+   "level": "strict",
+   "t": 0.238,
+   "what": "H Saturn\u2013Rahu Dec sky 12.3392 / natal 39.7591 natal/sky 29/9 (0.0012%)",
+   "bodies": [
+    "H Node",
+    "H Saturn"
+   ],
+   "pair": "Node\u2013Saturn",
+   "derived": false,
+   "chart": "H",
+   "plane": "Dec",
+   "ratio": "29/9",
+   "joined": [
+    2,
+    3,
+    13,
+    19,
+    21,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 22,
+   "level": "strict",
+   "t": 0.34,
+   "what": "H Ceres\u2013Ketu RA sky 100.1174 / natal 133.4877 natal/sky 4/3 (0.0017%)",
+   "bodies": [
+    "H Ceres",
+    "H Node"
+   ],
+   "pair": "Ceres\u2013Node",
+   "derived": false,
+   "chart": "H",
+   "plane": "RA",
+   "ratio": "4/3",
+   "joined": [
+    2,
+    3,
+    13,
+    19,
+    21,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 22,
+   "level": "strict",
+   "t": 0.492,
+   "what": "H Pallas\u2013Gonggong GC sky 94.6542 / natal 16.7033 sky/natal 17/3 (0.0025%)",
+   "bodies": [
+    "H Gonggong",
+    "H Pallas"
+   ],
+   "pair": "Gonggong\u2013Pallas",
+   "derived": false,
+   "chart": "H",
+   "plane": "GC",
+   "ratio": "17/3",
+   "joined": [
+    2,
+    13,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 22,
+   "level": "strict",
+   "t": 0.676,
+   "what": "H Venus\u2013Vesta RA sky 59.3340 / natal 128.5614 natal/sky 13/6 (0.0034%)",
+   "bodies": [
+    "H Venus",
+    "H Vesta"
+   ],
+   "pair": "Venus\u2013Vesta",
+   "derived": false,
+   "chart": "H",
+   "plane": "RA",
+   "ratio": "13/6",
+   "joined": [
+    9,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 22,
+   "level": "strict",
+   "t": 0.83,
+   "what": "J Neptune\u2013Rahu Dec sky 7.2700 / natal 15.7523 natal/sky 13/6 (0.0042%)",
+   "bodies": [
+    "J Neptune",
+    "J Node"
+   ],
+   "pair": "Neptune\u2013Node",
+   "derived": false,
+   "chart": "J",
+   "plane": "Dec",
+   "ratio": "13/6",
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    21,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 22,
+   "level": "strict",
+   "t": 0.964,
+   "what": "J Juno\u2013Orcus Flat sky 23.1561 / natal 12.8638 sky/natal 9/5 (0.0048%)",
+   "bodies": [
+    "J Juno",
+    "J Orcus"
+   ],
+   "pair": "Juno\u2013Orcus",
+   "derived": false,
+   "chart": "J",
+   "plane": "Flat",
+   "ratio": "9/5",
+   "joined": [
+    2,
+    9,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 22,
+   "level": "near",
+   "t": 1.138,
+   "what": "J Ceres\u2013Pallas RA sky 45.8199 / natal 54.9807 natal/sky 6/5 (0.0057%)",
+   "bodies": [
+    "J Ceres",
+    "J Pallas"
+   ],
+   "pair": "Ceres\u2013Pallas",
+   "derived": false,
+   "chart": "J",
+   "plane": "RA",
+   "ratio": "6/5",
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 22,
+   "level": "near",
+   "t": 1.266,
+   "what": "H Uranus\u2013Juno Dec sky 7.5564 / natal 21.5884 natal/sky 20/7 (0.0063%)",
+   "bodies": [
+    "H Juno",
+    "H Uranus"
+   ],
+   "pair": "Juno\u2013Uranus",
+   "derived": false,
+   "chart": "H",
+   "plane": "Dec",
+   "ratio": "20/7",
+   "joined": [
+    6,
+    13,
+    19,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 22,
+   "level": "near",
+   "t": 1.28,
+   "what": "H Uranus\u2013Vesta RA sky 56.0755 / natal 124.6203 natal/sky 20/9 (0.0064%)",
+   "bodies": [
+    "H Uranus",
+    "H Vesta"
+   ],
+   "pair": "Uranus\u2013Vesta",
+   "derived": false,
+   "chart": "H",
+   "plane": "RA",
+   "ratio": "20/9",
+   "joined": [
+    6,
+    13,
+    19,
+    21,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 22,
+   "level": "near",
+   "t": 1.338,
+   "what": "H Sun\u2013Pallas GC sky 133.0061 / natal 47.8790 sky/natal 25/9 (0.0067%)",
+   "bodies": [
+    "H Pallas",
+    "H Sun"
+   ],
+   "pair": "Pallas\u2013Sun",
+   "derived": false,
+   "chart": "H",
+   "plane": "GC",
+   "ratio": "25/9",
+   "joined": [
+    2,
+    19,
+    21,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 22,
+   "level": "near",
+   "t": 1.582,
+   "what": "J Pallas\u2013Haumea Dec sky 10.2811 / natal 20.5605 natal/sky 2 (0.0079%)",
+   "bodies": [
+    "J Haumea",
+    "J Pallas"
+   ],
+   "pair": "Haumea\u2013Pallas",
+   "derived": false,
+   "chart": "J",
+   "plane": "Dec",
+   "ratio": "2",
+   "joined": [
+    9,
+    19,
+    21,
+    24,
+    25
+   ]
+  },
+  {
+   "item": 22,
+   "level": "near",
+   "t": 1.686,
+   "what": "H Chiron\u2013Eris GC sky 12.4631 / natal 19.5865 natal/sky 11/7 (0.0084%)",
+   "bodies": [
+    "H Chiron",
+    "H Eris"
+   ],
+   "pair": "Chiron\u2013Eris",
+   "derived": false,
+   "chart": "H",
+   "plane": "GC",
+   "ratio": "11/7",
+   "joined": [
+    19,
+    21,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 22,
+   "level": "near",
+   "t": 1.884,
+   "what": "J Juno\u2013Rahu Dec sky 4.9536 / natal 11.5572 natal/sky 7/3 (0.0094%)",
+   "bodies": [
+    "J Juno",
+    "J Node"
+   ],
+   "pair": "Juno\u2013Node",
+   "derived": false,
+   "chart": "J",
+   "plane": "Dec",
+   "ratio": "7/3",
+   "joined": [
+    2,
+    9,
+    13,
+    21,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 23,
+   "level": "strict",
+   "t": 0.83,
+   "what": "Node: H 2 (Saturn\u2013Rahu Dec 29/9 0.0012%) | J 2 (Neptune\u2013Rahu Dec 13/6 0.0042%)",
+   "bodies": [
+    "H Node",
+    "J Node"
+   ],
+   "pair": null,
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    21,
+    22,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 23,
+   "level": "near",
+   "t": 1.138,
+   "what": "Ceres: H 1 (Ceres\u2013Ketu RA 4/3 0.0017%) | J 1 (Ceres\u2013Pallas RA 6/5 0.0057%)",
+   "bodies": [
+    "H Ceres",
+    "J Ceres"
+   ],
+   "pair": null,
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    21,
+    22,
+    24
+   ]
+  },
+  {
+   "item": 23,
+   "level": "near",
+   "t": 1.138,
+   "what": "Pallas: H 2 (Pallas\u2013Gonggong GC 17/3 0.0025%) | J 2 (Ceres\u2013Pallas RA 6/5 0.0057%)",
+   "bodies": [
+    "H Pallas",
+    "J Pallas"
+   ],
+   "pair": null,
+   "derived": false,
+   "joined": [
+    2,
+    19,
+    21,
+    22,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 23,
+   "level": "near",
+   "t": 1.266,
+   "what": "Juno: H 1 (Uranus\u2013Juno Dec 20/7 0.0063%) | J 2 (Juno\u2013Orcus Flat 9/5 0.0048%)",
+   "bodies": [
+    "H Juno",
+    "J Juno"
+   ],
+   "pair": null,
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    21,
+    22,
+    24
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.08,
+   "what": "family J Neptune\u2013Rahu Dec J Neptune \u2013 sky Rahu 28.00418 vs NN 15.75229 TN/NN 16/9 (0.0004%)",
+   "bodies": [
+    "J Neptune",
+    "J Node"
+   ],
+   "pair": "Neptune\u2013Node",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.1,
+   "what": "family H Chiron\u2013Juno RA sky Chiron \u2013 H Juno 115.30192 vs TT 140.92521 TT/TN 11/9 (0.0005%)",
+   "bodies": [
+    "H Chiron",
+    "H Juno"
+   ],
+   "pair": "Chiron\u2013Juno",
+   "derived": false,
+   "joined": [
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.14,
+   "what": "family J Mars\u2013Gonggong GC J Mars \u2013 sky Gonggong 24.85975 vs TT 35.51418 TT/TN 10/7 (0.0007%)",
+   "bodies": [
+    "J Gonggong",
+    "J Mars"
+   ],
+   "pair": "Gonggong\u2013Mars",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    21
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.14,
+   "what": "h:j Ceres\u2013Rahu GC H 49.31458 J 15.41091 H/J 16/5 (0.0007%)",
+   "bodies": [
+    "H Ceres",
+    "H Node",
+    "J Ceres",
+    "J Node"
+   ],
+   "pair": "Ceres\u2013Node",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.18,
+   "what": "family J Rahu\u2013Makemake Dec J Rahu \u2013 sky Makemake 28.58737 vs TT 16.33549 TN/TT 7/4 (0.0009%)",
+   "bodies": [
+    "J Makemake",
+    "J Node"
+   ],
+   "pair": "Makemake\u2013Node",
+   "derived": false,
+   "joined": [
+    9,
+    13,
+    19,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.2,
+   "what": "family J Neptune\u2013Pallas GC J Neptune \u2013 sky Pallas 56.46604 vs NN 32.26598 TN/NN 7/4 (0.0010%)",
+   "bodies": [
+    "J Neptune",
+    "J Pallas"
+   ],
+   "pair": "Neptune\u2013Pallas",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.22,
+   "what": "family H Mars\u2013Uranus Flat sky Mars \u2013 H Uranus 28.94394 vs NN 50.65245 NN/TN 7/4 (0.0011%)",
+   "bodies": [
+    "H Mars",
+    "H Uranus"
+   ],
+   "pair": "Mars\u2013Uranus",
+   "derived": false,
+   "joined": [
+    6,
+    13,
+    19,
+    21
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.32,
+   "what": "family J Pluto\u2013Juno GC J Pluto \u2013 sky Juno 64.88936 vs TT 144.20087 TT/TN 20/9 (0.0016%)",
+   "bodies": [
+    "J Juno",
+    "J Pluto"
+   ],
+   "pair": "Juno\u2013Pluto",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.348,
+   "what": "h:j Jupiter\u2013Rahu Dec H 35.53695 J 26.65225 H/J 4/3 (0.0017%)",
+   "bodies": [
+    "H Jupiter",
+    "H Node",
+    "J Jupiter",
+    "J Node"
+   ],
+   "pair": "Jupiter\u2013Node",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    6,
+    9,
+    13,
+    19,
+    21,
+    22,
+    23,
+    26,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.356,
+   "what": "h:j Makemake\u2013Transpluto GC H 43.26968 J 30.28824 H/J 10/7 (0.0018%)",
+   "bodies": [
+    "H Makemake",
+    "H Transpluto",
+    "J Makemake",
+    "J Transpluto"
+   ],
+   "pair": "Makemake\u2013Transpluto",
+   "derived": false,
+   "joined": [
+    6,
+    9,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.42,
+   "what": "family J Eris\u2013Sedna Dec sky Eris \u2013 J Sedna 4.24314 vs TT 9.09262 TT/TN 15/7 (0.0021%)",
+   "bodies": [
+    "J Eris",
+    "J Sedna"
+   ],
+   "pair": "Eris\u2013Sedna",
+   "derived": false,
+   "joined": [
+    9,
+    21
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.44,
+   "what": "family J Pluto\u2013Rahu Dec sky Pluto \u2013 J Rahu 16.24115 vs NN 5.80028 TN/NN 14/5 (0.0022%)",
+   "bodies": [
+    "J Node",
+    "J Pluto"
+   ],
+   "pair": "Node\u2013Pluto",
+   "derived": false,
+   "joined": [
+    9,
+    13,
+    19,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.5,
+   "what": "family J Sun\u2013Pallas RA J Sun \u2013 sky Pallas 42.17555 vs NN 94.89733 NN/TN 9/4 (0.0025%)",
+   "bodies": [
+    "J Pallas",
+    "J Sun"
+   ],
+   "pair": "Pallas\u2013Sun",
+   "derived": false,
+   "joined": [
+    9,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.54,
+   "what": "family J Venus\u2013Pluto Flat J Venus \u2013 sky Pluto 137.46613 vs TT 109.96990 TN/TT 5/4 (0.0027%)",
+   "bodies": [
+    "J Pluto",
+    "J Venus"
+   ],
+   "pair": "Pluto\u2013Venus",
+   "derived": false,
+   "joined": [
+    2,
+    13,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.58,
+   "what": "family J Rahu\u2013Transpluto Dec J Rahu \u2013 sky Transpluto 16.95628 vs NN 20.72373 NN/TN 11/9 (0.0029%)",
+   "bodies": [
+    "J Node",
+    "J Transpluto"
+   ],
+   "pair": "Node\u2013Transpluto",
+   "derived": false,
+   "joined": [
+    6,
+    9,
+    13,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.64,
+   "what": "family J Uranus\u2013Rahu RA sky Uranus \u2013 J Rahu 65.85786 vs NN 76.83661 NN/TN 7/6 (0.0032%)",
+   "bodies": [
+    "J Node",
+    "J Uranus"
+   ],
+   "pair": "Node\u2013Uranus",
+   "derived": false,
+   "joined": [
+    9,
+    13,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.66,
+   "what": "family H Jupiter\u2013Neptune Dec H Jupiter \u2013 sky Neptune 11.87677 vs TT 20.36086 TT/TN 12/7 (0.0033%)",
+   "bodies": [
+    "H Jupiter",
+    "H Neptune"
+   ],
+   "pair": "Jupiter\u2013Neptune",
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    13,
+    19,
+    21,
+    26
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.68,
+   "what": "family J Vesta\u2013Orcus RA J Vesta \u2013 sky Orcus 41.92617 vs NN 69.87934 NN/TN 5/3 (0.0034%)",
+   "bodies": [
+    "J Orcus",
+    "J Vesta"
+   ],
+   "pair": "Orcus\u2013Vesta",
+   "derived": false,
+   "joined": [
+    9,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.686,
+   "what": "h:j Ceres\u2013Sedna GC H 35.31166 J 50.44696 J/H 10/7 (0.0034%)",
+   "bodies": [
+    "H Ceres",
+    "H Sedna",
+    "J Ceres",
+    "J Sedna"
+   ],
+   "pair": "Ceres\u2013Sedna",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.706,
+   "what": "h:j Pluto\u2013Ceres GC H 85.61528 J 128.42746 J/H 3/2 (0.0035%)",
+   "bodies": [
+    "H Ceres",
+    "H Pluto",
+    "J Ceres",
+    "J Pluto"
+   ],
+   "pair": "Ceres\u2013Pluto",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.72,
+   "what": "family J Pluto\u2013Ketu GC J Pluto \u2013 sky Ketu 31.25566 vs TT 107.16614 TT/TN 24/7 (0.0036%)",
+   "bodies": [
+    "J Node",
+    "J Pluto"
+   ],
+   "pair": "Node\u2013Pluto",
+   "derived": false,
+   "joined": [
+    9,
+    13,
+    19,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.774,
+   "what": "h:j Chiron\u2013Transpluto RA H 145.91929 J 46.69598 H/J 25/8 (0.0039%)",
+   "bodies": [
+    "H Chiron",
+    "H Transpluto",
+    "J Chiron",
+    "J Transpluto"
+   ],
+   "pair": "Chiron\u2013Transpluto",
+   "derived": false,
+   "joined": [
+    6,
+    9,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.78,
+   "what": "family J Sun\u2013Chiron GC sky Sun \u2013 J Chiron 42.78722 vs NN 110.02854 NN/TN 18/7 (0.0039%)",
+   "bodies": [
+    "J Chiron",
+    "J Sun"
+   ],
+   "pair": "Chiron\u2013Sun",
+   "derived": false,
+   "joined": [
+    9,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.824,
+   "what": "h:j Chiron\u2013Juno RA H 104.27233 J 44.68630 H/J 7/3 (0.0041%)",
+   "bodies": [
+    "H Chiron",
+    "H Juno",
+    "J Chiron",
+    "J Juno"
+   ],
+   "pair": "Chiron\u2013Juno",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.86,
+   "what": "family J Chiron\u2013Juno Flat sky Chiron \u2013 J Juno 123.24806 vs NN 46.22001 TN/NN 8/3 (0.0043%)",
+   "bodies": [
+    "J Chiron",
+    "J Juno"
+   ],
+   "pair": "Chiron\u2013Juno",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.86,
+   "what": "family J Eris\u2013Sedna GC J Eris \u2013 sky Sedna 42.20763 vs NN 23.74282 TN/NN 16/9 (0.0043%)",
+   "bodies": [
+    "J Eris",
+    "J Sedna"
+   ],
+   "pair": "Eris\u2013Sedna",
+   "derived": false,
+   "joined": [
+    9,
+    21
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.92,
+   "what": "family H Mars\u2013Saturn Flat H Mars \u2013 sky Saturn 102.79270 vs TT 23.72029 TN/TT 13/3 (0.0046%)",
+   "bodies": [
+    "H Mars",
+    "H Saturn"
+   ],
+   "pair": "Mars\u2013Saturn",
+   "derived": false,
+   "joined": [
+    2,
+    13,
+    19,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.94,
+   "what": "family H Juno\u2013Haumea Dec sky Juno \u2013 H Haumea 5.51550 vs NN 23.44200 NN/TN 17/4 (0.0047%)",
+   "bodies": [
+    "H Haumea",
+    "H Juno"
+   ],
+   "pair": "Haumea\u2013Juno",
+   "derived": false,
+   "joined": [
+    19,
+    21
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.94,
+   "what": "family H Ketu\u2013Transpluto RA sky Ketu \u2013 H Transpluto 39.38438 vs NN 95.65228 NN/TN 17/7 (0.0047%)",
+   "bodies": [
+    "H Node",
+    "H Transpluto"
+   ],
+   "pair": "Node\u2013Transpluto",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "strict",
+   "t": 0.942,
+   "what": "h:j Chiron\u2013Rahu RA H 61.57156 J 112.88651 J/H 11/6 (0.0047%)",
+   "bodies": [
+    "H Chiron",
+    "H Node",
+    "J Chiron",
+    "J Node"
+   ],
+   "pair": "Chiron\u2013Node",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.06,
+   "what": "family J Venus\u2013Makemake RA J Venus \u2013 sky Makemake 29.25688 vs TT 152.12770 TT/TN 26/5 (0.0053%)",
+   "bodies": [
+    "J Makemake",
+    "J Venus"
+   ],
+   "pair": "Makemake\u2013Venus",
+   "derived": false,
+   "joined": [
+    2,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.1,
+   "what": "family J Venus\u2013Makemake Dec J Venus \u2013 sky Makemake 16.59353 vs NN 29.86671 NN/TN 9/5 (0.0055%)",
+   "bodies": [
+    "J Makemake",
+    "J Venus"
+   ],
+   "pair": "Makemake\u2013Venus",
+   "derived": false,
+   "joined": [
+    2,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.12,
+   "what": "family H Venus\u2013Mars GC H Venus \u2013 sky Mars 24.42436 vs TT 38.38328 TT/TN 11/7 (0.0056%)",
+   "bodies": [
+    "H Mars",
+    "H Venus"
+   ],
+   "pair": "Mars\u2013Venus",
+   "derived": false,
+   "joined": [
+    9,
+    13,
+    19,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.174,
+   "what": "h:j Makemake\u2013Gonggong GC H 139.75022 J 157.20977 J/H 9/8 (0.0059%)",
+   "bodies": [
+    "H Gonggong",
+    "H Makemake",
+    "J Gonggong",
+    "J Makemake"
+   ],
+   "pair": "Gonggong\u2013Makemake",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.22,
+   "what": "family H Venus\u2013Ketu RA H Venus \u2013 sky Ketu 159.85441 vs NN 143.87769 TN/NN 10/9 (0.0061%)",
+   "bodies": [
+    "H Node",
+    "H Venus"
+   ],
+   "pair": "Node\u2013Venus",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.28,
+   "what": "family J Jupiter\u2013Pallas RA J Jupiter \u2013 sky Pallas 175.76543 vs NN 123.04364 TN/NN 10/7 (0.0064%)",
+   "bodies": [
+    "J Jupiter",
+    "J Pallas"
+   ],
+   "pair": "Jupiter\u2013Pallas",
+   "derived": false,
+   "joined": [
+    9,
+    19,
+    21,
+    26
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.3,
+   "what": "family J Sun\u2013Pallas Dec sky Sun \u2013 J Pallas 17.10748 vs TT 6.65334 TN/TT 18/7 (0.0065%)",
+   "bodies": [
+    "J Pallas",
+    "J Sun"
+   ],
+   "pair": "Pallas\u2013Sun",
+   "derived": false,
+   "joined": [
+    9,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.3,
+   "what": "h:j Mercury\u2013Orcus Dec H 22.12084 J 7.96299 H/J 25/9 (0.0065%)",
+   "bodies": [
+    "H Mercury",
+    "H Orcus",
+    "J Mercury",
+    "J Orcus"
+   ],
+   "pair": "Mercury\u2013Orcus",
+   "derived": false,
+   "joined": [
+    9,
+    19,
+    21,
+    22,
+    27,
+    28
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.34,
+   "what": "family J Pluto\u2013Rahu GC sky Pluto \u2013 J Rahu 41.77087 vs NN 120.09927 NN/TN 23/8 (0.0067%)",
+   "bodies": [
+    "J Node",
+    "J Pluto"
+   ],
+   "pair": "Node\u2013Pluto",
+   "derived": false,
+   "joined": [
+    9,
+    13,
+    19,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.4,
+   "what": "family J Chiron\u2013Vesta GC J Chiron \u2013 sky Vesta 11.44505 vs TT 83.92452 TT/TN 22/3 (0.0070%)",
+   "bodies": [
+    "J Chiron",
+    "J Vesta"
+   ],
+   "pair": "Chiron\u2013Vesta",
+   "derived": false,
+   "joined": [
+    9,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.4,
+   "what": "family J Uranus\u2013Gonggong Flat sky Uranus \u2013 J Gonggong 90.94196 vs NN 60.62371 TN/NN 3/2 (0.0070%)",
+   "bodies": [
+    "J Gonggong",
+    "J Uranus"
+   ],
+   "pair": "Gonggong\u2013Uranus",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    21
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.436,
+   "what": "h:j Quaoar\u2013Orcus Dec H 4.10342 J 17.43829 J/H 17/4 (0.0072%)",
+   "bodies": [
+    "H Orcus",
+    "H Quaoar",
+    "J Orcus",
+    "J Quaoar"
+   ],
+   "pair": "Orcus\u2013Quaoar",
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    9,
+    19,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.44,
+   "what": "family H Chiron\u2013Gonggong Dec H Chiron \u2013 sky Gonggong 16.49249 vs TT 19.78955 TT/TN 6/5 (0.0072%)",
+   "bodies": [
+    "H Chiron",
+    "H Gonggong"
+   ],
+   "pair": "Chiron\u2013Gonggong",
+   "derived": false,
+   "joined": [
+    13,
+    19,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.54,
+   "what": "family H Jupiter\u2013Saturn GC sky Jupiter \u2013 H Saturn 104.90946 vs NN 13.98900 TN/NN 15/2 (0.0077%)",
+   "bodies": [
+    "H Jupiter",
+    "H Saturn"
+   ],
+   "pair": "Jupiter\u2013Saturn",
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    19,
+    21,
+    22,
+    26
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.56,
+   "what": "family H Pallas\u2013Makemake GC H Pallas \u2013 sky Makemake 132.10130 vs TT 44.03035 TN/TT 3 (0.0078%)",
+   "bodies": [
+    "H Makemake",
+    "H Pallas"
+   ],
+   "pair": "Makemake\u2013Pallas",
+   "derived": false,
+   "joined": [
+    2,
+    19,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.58,
+   "what": "family J Uranus\u2013Vesta RA J Uranus \u2013 sky Vesta 161.22998 vs TT 56.07554 TN/TT 23/8 (0.0079%)",
+   "bodies": [
+    "J Uranus",
+    "J Vesta"
+   ],
+   "pair": "Uranus\u2013Vesta",
+   "derived": false,
+   "joined": [
+    9,
+    13,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.66,
+   "what": "family J Juno\u2013Makemake RA sky Juno \u2013 J Makemake 8.40955 vs NN 26.16087 NN/TN 28/9 (0.0083%)",
+   "bodies": [
+    "J Juno",
+    "J Makemake"
+   ],
+   "pair": "Juno\u2013Makemake",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    19,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.68,
+   "what": "family J Jupiter\u2013Orcus GC sky Jupiter \u2013 J Orcus 73.78252 vs TT 105.39473 TT/TN 10/7 (0.0084%)",
+   "bodies": [
+    "J Jupiter",
+    "J Orcus"
+   ],
+   "pair": "Jupiter\u2013Orcus",
+   "derived": false,
+   "joined": [
+    9,
+    21,
+    22,
+    26
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.7,
+   "what": "family J Pallas\u2013Gonggong Dec sky Pallas \u2013 J Gonggong 46.44415 vs TT 36.12629 TN/TT 9/7 (0.0085%)",
+   "bodies": [
+    "J Gonggong",
+    "J Pallas"
+   ],
+   "pair": "Gonggong\u2013Pallas",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.72,
+   "what": "family H Ketu\u2013Gonggong Flat H Ketu \u2013 sky Gonggong 88.95021 vs TT 144.53168 TT/TN 13/8 (0.0086%)",
+   "bodies": [
+    "H Gonggong",
+    "H Node"
+   ],
+   "pair": "Gonggong\u2013Node",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    13,
+    19,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.72,
+   "what": "family J Sun\u2013Neptune RA J Sun \u2013 sky Neptune 154.06371 vs NN 72.98383 TN/NN 19/9 (0.0086%)",
+   "bodies": [
+    "J Neptune",
+    "J Sun"
+   ],
+   "pair": "Neptune\u2013Sun",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.76,
+   "what": "family H Vesta\u2013Sedna RA sky Vesta \u2013 H Sedna 48.52375 vs NN 103.97034 NN/TN 15/7 (0.0088%)",
+   "bodies": [
+    "H Sedna",
+    "H Vesta"
+   ],
+   "pair": "Sedna\u2013Vesta",
+   "derived": false,
+   "joined": [
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.78,
+   "what": "family H Chiron\u2013Ceres GC H Chiron \u2013 sky Ceres 78.75266 vs TT 90.01105 TT/TN 8/7 (0.0089%)",
+   "bodies": [
+    "H Ceres",
+    "H Chiron"
+   ],
+   "pair": "Ceres\u2013Chiron",
+   "derived": false,
+   "joined": [
+    13,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.8,
+   "what": "family J Mercury\u2013Pluto Flat J Mercury \u2013 sky Pluto 115.02020 vs TT 89.46818 TN/TT 9/7 (0.0090%)",
+   "bodies": [
+    "J Mercury",
+    "J Pluto"
+   ],
+   "pair": "Mercury\u2013Pluto",
+   "derived": false,
+   "joined": [
+    13,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 1.82,
+   "what": "family J Eris\u2013Orcus Dec sky Eris \u2013 J Orcus 4.75301 vs NN 14.26033 NN/TN 3 (0.0091%)",
+   "bodies": [
+    "J Eris",
+    "J Orcus"
+   ],
+   "pair": "Eris\u2013Orcus",
+   "derived": false,
+   "joined": [
+    9,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.04,
+   "what": "family J Mercury\u2013Mars Flat J Mercury \u2013 sky Mars 179.56902 vs TT 18.57800 TN/TT 29/3 (0.0102%)",
+   "bodies": [
+    "J Mars",
+    "J Mercury"
+   ],
+   "pair": "Mars\u2013Mercury",
+   "derived": false,
+   "joined": [
+    13,
+    19,
+    21
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.06,
+   "what": "h:j Sun\u2013Quaoar RA H 111.41863 J 26.21885 H/J 17/4 (0.0103%)",
+   "bodies": [
+    "H Quaoar",
+    "H Sun",
+    "J Quaoar",
+    "J Sun"
+   ],
+   "pair": "Quaoar\u2013Sun",
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    9,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.164,
+   "what": "h:j Venus\u2013Mars GC H 51.76980 J 168.27005 J/H 13/4 (0.0108%)",
+   "bodies": [
+    "H Mars",
+    "H Venus",
+    "J Mars",
+    "J Venus"
+   ],
+   "pair": "Mars\u2013Venus",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.18,
+   "what": "family H Uranus\u2013Quaoar RA H Uranus \u2013 sky Quaoar 117.75554 vs TT 130.85369 TT/TN 10/9 (0.0109%)",
+   "bodies": [
+    "H Quaoar",
+    "H Uranus"
+   ],
+   "pair": "Quaoar\u2013Uranus",
+   "derived": false,
+   "joined": [
+    6,
+    13,
+    19,
+    21
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.2,
+   "what": "family J Saturn\u2013Chiron RA sky Saturn \u2013 J Chiron 108.43309 vs NN 170.37606 NN/TN 11/7 (0.0110%)",
+   "bodies": [
+    "J Chiron",
+    "J Saturn"
+   ],
+   "pair": "Chiron\u2013Saturn",
+   "derived": false,
+   "joined": [
+    9,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.24,
+   "what": "family H Sun\u2013Uranus Flat H Sun \u2013 sky Uranus 24.29496 vs NN 10.63023 TN/NN 16/7 (0.0112%)",
+   "bodies": [
+    "H Sun",
+    "H Uranus"
+   ],
+   "pair": "Sun\u2013Uranus",
+   "derived": false,
+   "joined": [
+    6,
+    13,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.26,
+   "what": "family J Saturn\u2013Sedna RA J Saturn \u2013 sky Sedna 152.24789 vs TT 71.05704 TN/TT 15/7 (0.0113%)",
+   "bodies": [
+    "J Saturn",
+    "J Sedna"
+   ],
+   "pair": "Saturn\u2013Sedna",
+   "derived": false,
+   "joined": [
+    9,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.272,
+   "what": "h:j Sun\u2013Haumea Flat H 171.45011 J 38.10435 H/J 9/2 (0.0114%)",
+   "bodies": [
+    "H Haumea",
+    "H Sun",
+    "J Haumea",
+    "J Sun"
+   ],
+   "pair": "Haumea\u2013Sun",
+   "derived": false,
+   "joined": [
+    9,
+    19,
+    21,
+    25,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.28,
+   "what": "family H Uranus\u2013Pallas GC H Uranus \u2013 sky Pallas 130.35647 vs NN 57.94279 TN/NN 9/4 (0.0114%)",
+   "bodies": [
+    "H Pallas",
+    "H Uranus"
+   ],
+   "pair": "Pallas\u2013Uranus",
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    13,
+    19,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.32,
+   "what": "family H Pluto\u2013Ketu GC H Pluto \u2013 sky Ketu 101.96037 vs NN 45.31045 TN/NN 9/4 (0.0116%)",
+   "bodies": [
+    "H Node",
+    "H Pluto"
+   ],
+   "pair": "Node\u2013Pluto",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    13,
+    19,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.33,
+   "what": "h:j Mars\u2013Juno Dec H 32.11910 J 7.55832 H/J 17/4 (0.0117%)",
+   "bodies": [
+    "H Juno",
+    "H Mars",
+    "J Juno",
+    "J Mars"
+   ],
+   "pair": "Juno\u2013Mars",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.34,
+   "what": "family J Saturn\u2013Quaoar Dec sky Saturn \u2013 J Quaoar 6.51817 vs TT 8.38149 TT/TN 9/7 (0.0117%)",
+   "bodies": [
+    "J Quaoar",
+    "J Saturn"
+   ],
+   "pair": "Quaoar\u2013Saturn",
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.36,
+   "what": "family J Mars\u2013Ketu Dec sky Mars \u2013 J Ketu 3.25776 vs NN 9.04827 NN/TN 25/9 (0.0118%)",
+   "bodies": [
+    "J Mars",
+    "J Node"
+   ],
+   "pair": "Mars\u2013Node",
+   "derived": false,
+   "joined": [
+    9,
+    13,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.4,
+   "what": "family J Mercury\u2013Jupiter Dec sky Mercury \u2013 J Jupiter 11.77414 vs TT 10.46465 TN/TT 9/8 (0.0120%)",
+   "bodies": [
+    "J Jupiter",
+    "J Mercury"
+   ],
+   "pair": "Jupiter\u2013Mercury",
+   "derived": false,
+   "joined": [
+    9,
+    19,
+    21,
+    26
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.42,
+   "what": "family H Sun\u2013Venus Flat sky Sun \u2013 H Venus 20.06582 vs NN 6.38381 TN/NN 22/7 (0.0121%)",
+   "bodies": [
+    "H Sun",
+    "H Venus"
+   ],
+   "pair": "Sun\u2013Venus",
+   "derived": false,
+   "joined": [
+    9,
+    19,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.5,
+   "what": "family J Pallas\u2013Haumea Flat sky Pallas \u2013 J Haumea 61.27239 vs NN 115.75122 NN/TN 17/9 (0.0125%)",
+   "bodies": [
+    "J Haumea",
+    "J Pallas"
+   ],
+   "pair": "Haumea\u2013Pallas",
+   "derived": false,
+   "joined": [
+    9,
+    19,
+    21,
+    25
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.506,
+   "what": "h:j Jupiter\u2013Makemake Flat H 136.38869 J 106.09339 H/J 9/7 (0.0125%)",
+   "bodies": [
+    "H Jupiter",
+    "H Makemake",
+    "J Jupiter",
+    "J Makemake"
+   ],
+   "pair": "Jupiter\u2013Makemake",
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    9,
+    19,
+    21,
+    26
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.52,
+   "what": "family H Haumea\u2013Makemake RA sky Haumea \u2013 H Makemake 20.74379 vs NN 18.44125 TN/NN 9/8 (0.0126%)",
+   "bodies": [
+    "H Haumea",
+    "H Makemake"
+   ],
+   "pair": "Haumea\u2013Makemake",
+   "derived": false,
+   "joined": [
+    19,
+    21
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.64,
+   "what": "family H Chiron\u2013Sedna Dec sky Chiron \u2013 H Sedna 1.15407 vs NN 2.14299 NN/TN 13/7 (0.0132%)",
+   "bodies": [
+    "H Chiron",
+    "H Sedna"
+   ],
+   "pair": "Chiron\u2013Sedna",
+   "derived": false,
+   "joined": [
+    9,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.66,
+   "what": "family H Venus\u2013Juno Dec H Venus \u2013 sky Juno 1.96813 vs TT 6.14959 TT/TN 25/8 (0.0133%)",
+   "bodies": [
+    "H Juno",
+    "H Venus"
+   ],
+   "pair": "Juno\u2013Venus",
+   "derived": false,
+   "joined": [
+    9,
+    19,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.66,
+   "what": "family J Ketu\u2013Transpluto Flat sky Ketu \u2013 J Transpluto 52.98132 vs NN 21.81293 TN/NN 17/7 (0.0133%)",
+   "bodies": [
+    "J Node",
+    "J Transpluto"
+   ],
+   "pair": "Node\u2013Transpluto",
+   "derived": false,
+   "joined": [
+    6,
+    9,
+    13,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.66,
+   "what": "family J Saturn\u2013Pluto Dec sky Saturn \u2013 J Pluto 5.88759 vs NN 21.86527 NN/TN 26/7 (0.0133%)",
+   "bodies": [
+    "J Pluto",
+    "J Saturn"
+   ],
+   "pair": "Pluto\u2013Saturn",
+   "derived": false,
+   "joined": [
+    13,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.68,
+   "what": "family H Vesta\u2013Makemake GC H Vesta \u2013 sky Makemake 35.11811 vs TT 83.39435 TT/TN 19/8 (0.0134%)",
+   "bodies": [
+    "H Makemake",
+    "H Vesta"
+   ],
+   "pair": "Makemake\u2013Vesta",
+   "derived": false,
+   "joined": [
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.72,
+   "what": "family H Jupiter\u2013Uranus GC sky Jupiter \u2013 H Uranus 17.48433 vs NN 73.44414 NN/TN 21/5 (0.0136%)",
+   "bodies": [
+    "H Jupiter",
+    "H Uranus"
+   ],
+   "pair": "Jupiter\u2013Uranus",
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    13,
+    19,
+    21,
+    26
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.72,
+   "what": "family J Saturn\u2013Gonggong Dec sky Saturn \u2013 J Gonggong 14.18778 vs TT 3.86992 TN/TT 11/3 (0.0136%)",
+   "bodies": [
+    "J Gonggong",
+    "J Saturn"
+   ],
+   "pair": "Gonggong\u2013Saturn",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.76,
+   "what": "family J Mars\u2013Pallas Flat sky Mars \u2013 J Pallas 70.34086 vs TT 125.06768 TT/TN 16/9 (0.0138%)",
+   "bodies": [
+    "J Mars",
+    "J Pallas"
+   ],
+   "pair": "Mars\u2013Pallas",
+   "derived": false,
+   "joined": [
+    13,
+    19,
+    21
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.8,
+   "what": "family J Sedna\u2013Orcus Dec sky Sedna \u2013 J Orcus 4.33961 vs TT 20.97187 TT/TN 29/6 (0.0140%)",
+   "bodies": [
+    "J Orcus",
+    "J Sedna"
+   ],
+   "pair": "Orcus\u2013Sedna",
+   "derived": false,
+   "joined": [
+    9,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.86,
+   "what": "family J Mercury\u2013Gonggong GC sky Mercury \u2013 J Gonggong 65.88740 vs TT 53.91558 TN/TT 11/9 (0.0143%)",
+   "bodies": [
+    "J Gonggong",
+    "J Mercury"
+   ],
+   "pair": "Gonggong\u2013Mercury",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    21
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.9,
+   "what": "family J Pallas\u2013Juno RA sky Pallas \u2013 J Juno 105.39775 vs NN 158.11954 NN/TN 3/2 (0.0145%)",
+   "bodies": [
+    "J Juno",
+    "J Pallas"
+   ],
+   "pair": "Juno\u2013Pallas",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    19,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 2.92,
+   "what": "family J Mercury\u2013Chiron GC sky Mercury \u2013 J Chiron 67.57562 vs NN 94.59204 NN/TN 7/5 (0.0146%)",
+   "bodies": [
+    "J Chiron",
+    "J Mercury"
+   ],
+   "pair": "Chiron\u2013Mercury",
+   "derived": false,
+   "joined": [
+    9,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.02,
+   "what": "family J Pluto\u2013Gonggong RA J Pluto \u2013 sky Gonggong 113.54102 vs TT 33.12112 TN/TT 24/7 (0.0151%)",
+   "bodies": [
+    "J Gonggong",
+    "J Pluto"
+   ],
+   "pair": "Gonggong\u2013Pluto",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.04,
+   "what": "family J Mercury\u2013Pluto Dec sky Mercury \u2013 J Pluto 9.07783 vs TT 31.11926 TT/TN 24/7 (0.0152%)",
+   "bodies": [
+    "J Mercury",
+    "J Pluto"
+   ],
+   "pair": "Mercury\u2013Pluto",
+   "derived": false,
+   "joined": [
+    13,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.06,
+   "what": "family J Venus\u2013Juno RA J Venus \u2013 sky Juno 10.14606 vs NN 27.89738 NN/TN 11/4 (0.0153%)",
+   "bodies": [
+    "J Juno",
+    "J Venus"
+   ],
+   "pair": "Juno\u2013Venus",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.1,
+   "what": "family J Chiron\u2013Gonggong Dec sky Chiron \u2013 J Gonggong 30.10741 vs NN 37.64010 NN/TN 5/4 (0.0155%)",
+   "bodies": [
+    "J Chiron",
+    "J Gonggong"
+   ],
+   "pair": "Chiron\u2013Gonggong",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.23,
+   "what": "h:j Venus\u2013Ceres Flat H 14.69351 J 176.35057 J/H 12 (0.0162%)",
+   "bodies": [
+    "H Ceres",
+    "H Venus",
+    "J Ceres",
+    "J Venus"
+   ],
+   "pair": "Ceres\u2013Venus",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.24,
+   "what": "family H Chiron\u2013Quaoar RA H Chiron \u2013 sky Quaoar 88.36517 vs TT 99.39476 TT/TN 9/8 (0.0162%)",
+   "bodies": [
+    "H Chiron",
+    "H Quaoar"
+   ],
+   "pair": "Chiron\u2013Quaoar",
+   "derived": false,
+   "joined": [
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.24,
+   "what": "family J Sun\u2013Saturn Flat sky Sun \u2013 J Saturn 150.45315 vs TT 68.37671 TN/TT 11/5 (0.0162%)",
+   "bodies": [
+    "J Saturn",
+    "J Sun"
+   ],
+   "pair": "Saturn\u2013Sun",
+   "derived": false,
+   "joined": [
+    9,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.28,
+   "what": "family J Chiron\u2013Ketu Flat J Chiron \u2013 sky Ketu 98.40957 vs TT 174.92160 TT/TN 16/9 (0.0164%)",
+   "bodies": [
+    "J Chiron",
+    "J Node"
+   ],
+   "pair": "Chiron\u2013Node",
+   "derived": false,
+   "joined": [
+    9,
+    13,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.3,
+   "what": "family H Venus\u2013Orcus RA H Venus \u2013 sky Orcus 123.86396 vs TT 110.08318 TN/TT 9/8 (0.0165%)",
+   "bodies": [
+    "H Orcus",
+    "H Venus"
+   ],
+   "pair": "Orcus\u2013Venus",
+   "derived": false,
+   "joined": [
+    9,
+    19,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.32,
+   "what": "family H Juno\u2013Orcus Flat H Juno \u2013 sky Orcus 106.53556 vs TT 23.15605 TN/TT 23/5 (0.0166%)",
+   "bodies": [
+    "H Juno",
+    "H Orcus"
+   ],
+   "pair": "Juno\u2013Orcus",
+   "derived": false,
+   "joined": [
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.32,
+   "what": "family H Saturn\u2013Chiron RA H Saturn \u2013 sky Chiron 64.17960 vs TT 29.94551 TN/TT 15/7 (0.0166%)",
+   "bodies": [
+    "H Chiron",
+    "H Saturn"
+   ],
+   "pair": "Chiron\u2013Saturn",
+   "derived": false,
+   "joined": [
+    2,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.32,
+   "what": "family J Pallas\u2013Sedna Flat J Pallas \u2013 sky Sedna 120.00889 vs TT 173.37503 TT/TN 13/9 (0.0166%)",
+   "bodies": [
+    "J Pallas",
+    "J Sedna"
+   ],
+   "pair": "Pallas\u2013Sedna",
+   "derived": false,
+   "joined": [
+    9,
+    19,
+    21
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.38,
+   "what": "family H Mercury\u2013Quaoar Dec H Mercury \u2013 sky Quaoar 25.93663 vs TT 23.34690 TN/TT 10/9 (0.0169%)",
+   "bodies": [
+    "H Mercury",
+    "H Quaoar"
+   ],
+   "pair": "Mercury\u2013Quaoar",
+   "derived": false,
+   "joined": [
+    19,
+    21,
+    27,
+    28
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.38,
+   "what": "family J Mercury\u2013Chiron Flat J Mercury \u2013 sky Chiron 172.67231 vs NN 95.91283 TN/NN 9/5 (0.0169%)",
+   "bodies": [
+    "J Chiron",
+    "J Mercury"
+   ],
+   "pair": "Chiron\u2013Mercury",
+   "derived": false,
+   "joined": [
+    9,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.4,
+   "what": "family J Haumea\u2013Transpluto RA sky Haumea \u2013 J Transpluto 73.93327 vs TT 63.36058 TN/TT 7/6 (0.0170%)",
+   "bodies": [
+    "J Haumea",
+    "J Transpluto"
+   ],
+   "pair": "Haumea\u2013Transpluto",
+   "derived": false,
+   "joined": [
+    6,
+    9,
+    25
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.42,
+   "what": "family H Mercury\u2013Uranus RA H Mercury \u2013 sky Uranus 22.62689 vs NN 9.52874 TN/NN 19/8 (0.0171%)",
+   "bodies": [
+    "H Mercury",
+    "H Uranus"
+   ],
+   "pair": "Mercury\u2013Uranus",
+   "derived": false,
+   "joined": [
+    6,
+    13,
+    19,
+    21,
+    27,
+    28
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.46,
+   "what": "family J Gonggong\u2013Orcus Dec J Gonggong \u2013 sky Orcus 8.47565 vs TT 1.84221 TN/TT 23/5 (0.0173%)",
+   "bodies": [
+    "J Gonggong",
+    "J Orcus"
+   ],
+   "pair": "Gonggong\u2013Orcus",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.48,
+   "what": "family H Mercury\u2013Chiron Dec H Mercury \u2013 sky Chiron 1.63551 vs TT 0.95422 TN/TT 12/7 (0.0174%)",
+   "bodies": [
+    "H Chiron",
+    "H Mercury"
+   ],
+   "pair": "Chiron\u2013Mercury",
+   "derived": false,
+   "joined": [
+    19,
+    21,
+    27,
+    28
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.52,
+   "what": "family J Vesta\u2013Sedna GC sky Vesta \u2013 J Sedna 65.77371 vs TT 46.97294 TN/TT 7/5 (0.0176%)",
+   "bodies": [
+    "J Sedna",
+    "J Vesta"
+   ],
+   "pair": "Sedna\u2013Vesta",
+   "derived": false,
+   "joined": [
+    9,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.54,
+   "what": "family H Sun\u2013Pluto RA sky Sun \u2013 H Pluto 113.75861 vs NN 88.49456 TN/NN 9/7 (0.0177%)",
+   "bodies": [
+    "H Pluto",
+    "H Sun"
+   ],
+   "pair": "Pluto\u2013Sun",
+   "derived": false,
+   "joined": [
+    2,
+    13,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.58,
+   "what": "family H Jupiter\u2013Makemake Dec sky Jupiter \u2013 H Makemake 4.68582 vs TT 3.24461 TN/TT 13/9 (0.0179%)",
+   "bodies": [
+    "H Jupiter",
+    "H Makemake"
+   ],
+   "pair": "Jupiter\u2013Makemake",
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    19,
+    21,
+    26
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.58,
+   "what": "family J Neptune\u2013Ketu Dec sky Neptune \u2013 J Ketu 8.06530 vs NN 28.79948 NN/TN 25/7 (0.0179%)",
+   "bodies": [
+    "J Neptune",
+    "J Node"
+   ],
+   "pair": "Neptune\u2013Node",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.606,
+   "what": "h:j Quaoar\u2013Orcus GC H 115.81222 J 102.92564 H/J 9/8 (0.0180%)",
+   "bodies": [
+    "H Orcus",
+    "H Quaoar",
+    "J Orcus",
+    "J Quaoar"
+   ],
+   "pair": "Orcus\u2013Quaoar",
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    9,
+    19,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.62,
+   "what": "family J Chiron\u2013Ketu Dec sky Chiron \u2013 J Ketu 2.78514 vs TT 15.03702 TT/TN 27/5 (0.0181%)",
+   "bodies": [
+    "J Chiron",
+    "J Node"
+   ],
+   "pair": "Chiron\u2013Node",
+   "derived": false,
+   "joined": [
+    9,
+    13,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.64,
+   "what": "family J Juno\u2013Rahu RA J Juno \u2013 sky Rahu 128.89981 vs NN 157.57282 NN/TN 11/9 (0.0182%)",
+   "bodies": [
+    "J Juno",
+    "J Node"
+   ],
+   "pair": "Juno\u2013Node",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.66,
+   "what": "family H Jupiter\u2013Pallas RA sky Jupiter \u2013 H Pallas 75.87179 vs NN 10.46699 TN/NN 29/4 (0.0183%)",
+   "bodies": [
+    "H Jupiter",
+    "H Pallas"
+   ],
+   "pair": "Jupiter\u2013Pallas",
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    19,
+    21,
+    22,
+    26,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.72,
+   "what": "family J Venus\u2013Rahu GC sky Venus \u2013 J Rahu 66.12485 vs TT 35.00076 TN/TT 17/9 (0.0186%)",
+   "bodies": [
+    "J Node",
+    "J Venus"
+   ],
+   "pair": "Node\u2013Venus",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.724,
+   "what": "h:j Neptune\u2013Pluto Dec H 17.95714 J 21.55258 J/H 6/5 (0.0186%)",
+   "bodies": [
+    "H Neptune",
+    "H Pluto",
+    "J Neptune",
+    "J Pluto"
+   ],
+   "pair": "Neptune\u2013Pluto",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.74,
+   "what": "family H Sun\u2013Neptune Dec sky Sun \u2013 H Neptune 23.25574 vs NN 15.50673 TN/NN 3/2 (0.0187%)",
+   "bodies": [
+    "H Neptune",
+    "H Sun"
+   ],
+   "pair": "Neptune\u2013Sun",
+   "derived": false,
+   "joined": [
+    13,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.74,
+   "what": "family J Eris\u2013Orcus Flat J Eris \u2013 sky Orcus 135.25287 vs NN 108.22254 TN/NN 5/4 (0.0187%)",
+   "bodies": [
+    "J Eris",
+    "J Orcus"
+   ],
+   "pair": "Eris\u2013Orcus",
+   "derived": false,
+   "joined": [
+    9,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.758,
+   "what": "h:j Saturn\u2013Ketu GC H 61.09772 J 104.71927 J/H 12/7 (0.0188%)",
+   "bodies": [
+    "H Node",
+    "H Saturn",
+    "J Node",
+    "J Saturn"
+   ],
+   "pair": "Node\u2013Saturn",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    21,
+    22,
+    23,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.76,
+   "what": "family J Pluto\u2013Orcus Dec J Pluto \u2013 sky Orcus 11.59972 vs TT 10.44171 TN/TT 10/9 (0.0188%)",
+   "bodies": [
+    "J Orcus",
+    "J Pluto"
+   ],
+   "pair": "Orcus\u2013Pluto",
+   "derived": false,
+   "joined": [
+    9,
+    13,
+    19,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.78,
+   "what": "family H Venus\u2013Jupiter RA H Venus \u2013 sky Jupiter 21.58776 vs NN 64.75102 NN/TN 3 (0.0189%)",
+   "bodies": [
+    "H Jupiter",
+    "H Venus"
+   ],
+   "pair": "Jupiter\u2013Venus",
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    9,
+    19,
+    21,
+    22,
+    26
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.8,
+   "what": "family J Mars\u2013Gonggong RA sky Mars \u2013 J Gonggong 42.29920 vs TT 32.89312 TN/TT 9/7 (0.0190%)",
+   "bodies": [
+    "J Gonggong",
+    "J Mars"
+   ],
+   "pair": "Gonggong\u2013Mars",
+   "derived": false,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
+    21
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.808,
+   "what": "h:j Mars\u2013Vesta GC H 69.18771 J 161.46873 J/H 7/3 (0.0190%)",
+   "bodies": [
+    "H Mars",
+    "H Vesta",
+    "J Mars",
+    "J Vesta"
+   ],
+   "pair": "Mars\u2013Vesta",
+   "derived": false,
+   "joined": [
+    9,
+    13,
+    19,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.816,
+   "what": "h:j Uranus\u2013Sedna Flat H 21.55749 J 136.50471 J/H 19/3 (0.0191%)",
+   "bodies": [
+    "H Sedna",
+    "H Uranus",
+    "J Sedna",
+    "J Uranus"
+   ],
+   "pair": "Sedna\u2013Uranus",
+   "derived": false,
+   "joined": [
+    6,
+    9,
+    13,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.82,
+   "what": "family H Mars\u2013Gonggong Dec H Mars \u2013 sky Gonggong 35.35528 vs TT 13.74665 TN/TT 18/7 (0.0191%)",
+   "bodies": [
+    "H Gonggong",
+    "H Mars"
+   ],
+   "pair": "Gonggong\u2013Mars",
+   "derived": false,
+   "joined": [
+    13,
+    19,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.84,
+   "what": "family J Mars\u2013Pallas RA sky Mars \u2013 J Pallas 70.32730 vs TT 123.04908 TT/TN 7/4 (0.0192%)",
+   "bodies": [
+    "J Mars",
+    "J Pallas"
+   ],
+   "pair": "Mars\u2013Pallas",
+   "derived": false,
+   "joined": [
+    13,
+    19,
+    21
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.86,
+   "what": "family H Sun\u2013Pallas GC sky Sun \u2013 H Pallas 72.53479 vs TT 133.00610 TT/TN 11/6 (0.0193%)",
+   "bodies": [
+    "H Pallas",
+    "H Sun"
+   ],
+   "pair": "Pallas\u2013Sun",
+   "derived": false,
+   "joined": [
+    2,
+    19,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.888,
+   "what": "h:j Juno\u2013Quaoar GC H 14.30243 J 90.59968 J/H 19/3 (0.0194%)",
+   "bodies": [
+    "H Juno",
+    "H Quaoar",
+    "J Juno",
+    "J Quaoar"
+   ],
+   "pair": "Juno\u2013Quaoar",
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    9,
+    19,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.9,
+   "what": "family H Pluto\u2013Ceres Dec H Pluto \u2013 sky Ceres 2.88068 vs NN 24.48102 NN/TN 17/2 (0.0195%)",
+   "bodies": [
+    "H Ceres",
+    "H Pluto"
+   ],
+   "pair": "Ceres\u2013Pluto",
+   "derived": false,
+   "joined": [
+    2,
+    13,
+    19,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.9,
+   "what": "family J Mercury\u2013Vesta GC sky Mercury \u2013 J Vesta 169.22853 vs NN 8.05693 TN/NN 21 (0.0195%)",
+   "bodies": [
+    "J Mercury",
+    "J Vesta"
+   ],
+   "pair": "Mercury\u2013Vesta",
+   "derived": false,
+   "joined": [
+    9,
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.926,
+   "what": "h:j Sun\u2013Haumea Dec H 4.95424 J 33.02180 J/H 20/3 (0.0196%)",
+   "bodies": [
+    "H Haumea",
+    "H Sun",
+    "J Haumea",
+    "J Sun"
+   ],
+   "pair": "Haumea\u2013Sun",
+   "derived": false,
+   "joined": [
+    9,
+    19,
+    21,
+    25,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.94,
+   "what": "family H Sun\u2013Ceres Flat sky Sun \u2013 H Ceres 33.85139 vs TT 126.96769 TT/TN 15/4 (0.0197%)",
+   "bodies": [
+    "H Ceres",
+    "H Sun"
+   ],
+   "pair": "Ceres\u2013Sun",
+   "derived": false,
+   "joined": [
+    13,
+    19,
+    21,
+    22,
+    27
+   ]
+  },
+  {
+   "item": 24,
+   "level": "near",
+   "t": 3.98,
+   "what": "family J Sun\u2013Vesta RA sky Sun \u2013 J Vesta 146.75294 vs TT 54.07762 TN/TT 19/7 (0.0199%)",
+   "bodies": [
+    "J Sun",
+    "J Vesta"
+   ],
+   "pair": "Sun\u2013Vesta",
+   "derived": false,
+   "joined": [
+    9,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 25,
+   "level": "strict",
+   "t": 0.6364,
+   "what": "J Haumea |Dec| 22.44514 = 202/9 (+0.00070)",
+   "bodies": [
+    "J Haumea"
+   ],
+   "pair": null,
+   "derived": false,
+   "joined": [
+    9
+   ]
+  },
+  {
+   "item": 26,
+   "level": "strict",
+   "t": 0.47,
+   "what": "Equator Jupiter H/J 13.4185 / 20.1287 J/H 3/2 (0.0047%)",
+   "bodies": [
+    "H Jupiter",
+    "J Jupiter"
+   ],
+   "pair": null,
+   "derived": false,
+   "joined": [
+    2,
+    6,
+    9,
+    19,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 26,
+   "level": "near",
+   "t": 3.67,
+   "what": "Equator Mercury S/J 8.3545 / 3.6538 S/J 16/7 (0.0367%)",
+   "bodies": [
+    "J Mercury"
+   ],
+   "pair": null,
+   "derived": false,
+   "joined": [
+    19,
+    21
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.0333,
+   "what": "contact sky Venus on J Chiron RA 50.2871 Dec 0.0100 GC 47.9923",
+   "bodies": [
+    "J Chiron"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    9,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.0545,
+   "what": "contact sky Transpluto on H Orcus RA 0.0817 Dec 21.6093 GC 21.6094",
+   "bodies": [
+    "H Orcus"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    21
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.0789,
+   "what": "contact sky Makemake on J Vesta RA 0.1184 Dec 24.8668 GC 24.8670",
+   "bodies": [
+    "J Vesta"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    9,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.1824,
+   "what": "contact sky Makemake on H Rahu RA 129.7862 Dec 0.0547 GC 114.0779",
+   "bodies": [
+    "H Node"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    2,
+    3,
+    13,
+    19,
+    21,
+    22,
+    23,
+    24
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.2637,
+   "what": "contact sky Juno on H Transpluto RA 6.0355 Dec 0.0791 GC 5.9306",
+   "bodies": [
+    "H Transpluto"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    9,
+    19,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.2666,
+   "what": "contact sky Eris on H Sun RA 0.3999 Dec 11.6869 GC 11.6937",
+   "bodies": [
+    "H Sun"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    19,
+    21
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.291,
+   "what": "contact sky Saturn on J Rahu RA 4.4534 Dec 0.0873 GC 4.4250",
+   "bodies": [
+    "J Node"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    9,
+    13,
+    21,
+    22,
+    23,
+    24
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.3195,
+   "what": "contact sky Gonggong on J Sun RA 132.3315 Dec 0.0958 GC 128.1370",
+   "bodies": [
+    "J Sun"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    9,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.5872,
+   "what": "contact sky Pluto on J Saturn RA 36.7428 Dec 0.1762 GC 33.8135",
+   "bodies": [
+    "J Saturn"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    21
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.6662,
+   "what": "contact sky Mercury on H Sedna RA 29.5225 Dec 0.1999 GC 29.2105",
+   "bodies": [
+    "H Sedna"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    24
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.6928,
+   "what": "contact sky Eris on H Mercury RA 1.0392 Dec 11.3880 GC 11.4348",
+   "bodies": [
+    "H Mercury"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    19,
+    21,
+    28
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.7375,
+   "what": "contact sky Neptune on H Eris RA 26.7008 Dec 0.2213 GC 26.6933",
+   "bodies": [
+    "H Eris"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    19,
+    21
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.8169,
+   "what": "contact sky Quaoar on J Neptune RA 1.2253 Dec 7.2835 GC 7.3753",
+   "bodies": [
+    "J Neptune"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    22,
+    24
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.8602,
+   "what": "contact sky Rahu on J Venus RA 156.7972 Dec 0.2581 GC 154.2696",
+   "bodies": [
+    "J Venus"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    2,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.8636,
+   "what": "contact sky Mercury on H Sun RA 1.2954 Dec 2.8886 GC 3.1580",
+   "bodies": [
+    "H Sun"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    19,
+    21
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.8746,
+   "what": "contact sky Juno on H Mercury RA 132.0932 Dec 0.2624 GC 127.7018",
+   "bodies": [
+    "H Mercury"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    19,
+    21,
+    28
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.9189,
+   "what": "contact sky Jupiter on H Vesta RA 106.9736 Dec 0.2757 GC 99.1715",
+   "bodies": [
+    "H Vesta"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    21,
+    22
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.9318,
+   "what": "contact sky Eris on J Pluto RA 162.6063 Dec 0.2795 GC 162.5675",
+   "bodies": [
+    "J Pluto"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    13,
+    19,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.9387,
+   "what": "contact sky Gonggong on H Pallas RA 1.4080 Dec 15.7509 GC 15.8132",
+   "bodies": [
+    "H Pallas"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    2,
+    19,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 27,
+   "level": "strict",
+   "t": 0.9446,
+   "what": "contact sky Rahu on H Chiron RA 5.3037 Dec 0.2834 GC 5.2834",
+   "bodies": [
+    "H Chiron"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    21,
+    24
+   ]
+  },
+  {
+   "item": 27,
+   "level": "near",
+   "t": 1.0174,
+   "what": "contact sky Uranus on H Vesta RA 111.5221 Dec 0.3052 GC 103.3447",
+   "bodies": [
+    "H Vesta"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    21,
+    22
+   ]
+  },
+  {
+   "item": 27,
+   "level": "near",
+   "t": 1.0556,
+   "what": "contact sky Vesta on H Mars RA 19.6280 Dec 0.3167 GC 17.8173",
+   "bodies": [
+    "H Mars"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    13,
+    19,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 27,
+   "level": "near",
+   "t": 1.2712,
+   "what": "contact sky Makemake on J Haumea RA 12.9453 Dec 0.3814 GC 11.9833",
+   "bodies": [
+    "J Haumea"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    9,
+    25
+   ]
+  },
+  {
+   "item": 27,
+   "level": "near",
+   "t": 1.3136,
+   "what": "contact sky Pallas on H Ketu RA 1.9703 Dec 47.7640 GC 47.8021",
+   "bodies": [
+    "H Node"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    2,
+    3,
+    13,
+    19,
+    21,
+    22,
+    23,
+    24
+   ]
+  },
+  {
+   "item": 27,
+   "level": "near",
+   "t": 1.3297,
+   "what": "contact sky Neptune on J Mars RA 1.9946 Dec 0.9830 GC 2.2225",
+   "bodies": [
+    "J Mars"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    13,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 27,
+   "level": "near",
+   "t": 1.4954,
+   "what": "contact sky Sun on H Vesta RA 109.5242 Dec 0.4486 GC 101.3095",
+   "bodies": [
+    "H Vesta"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    21,
+    22
+   ]
+  },
+  {
+   "item": 27,
+   "level": "near",
+   "t": 1.5274,
+   "what": "contact sky Rahu on H Pallas RA 34.1384 Dec 0.4582 GC 33.9795",
+   "bodies": [
+    "H Pallas"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    2,
+    19,
+    21,
+    22
+   ]
+  },
+  {
+   "item": 27,
+   "level": "near",
+   "t": 1.6295,
+   "what": "contact sky Pluto on J Neptune RA 26.2266 Dec 0.4889 GC 24.1999",
+   "bodies": [
+    "J Neptune"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    22,
+    24
+   ]
+  },
+  {
+   "item": 27,
+   "level": "near",
+   "t": 1.7052,
+   "what": "contact sky Transpluto on H Mercury RA 126.9242 Dec 0.5116 GC 123.0727",
+   "bodies": [
+    "H Mercury"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    19,
+    21,
+    28
+   ]
+  },
+  {
+   "item": 27,
+   "level": "near",
+   "t": 1.7657,
+   "what": "contact sky Gonggong on J Eris RA 44.3240 Dec 0.5297 GC 43.5880",
+   "bodies": [
+    "J Eris"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    9,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 27,
+   "level": "near",
+   "t": 1.7784,
+   "what": "contact sky Mars on J Sedna RA 30.8620 Dec 0.5335 GC 30.8065",
+   "bodies": [
+    "J Sedna"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    9,
+    21,
+    24
+   ]
+  },
+  {
+   "item": 27,
+   "level": "near",
+   "t": 1.8709,
+   "what": "contact sky Juno on H Sun RA 132.7324 Dec 0.5613 GC 128.1615",
+   "bodies": [
+    "H Sun"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "contact",
+   "joined": [
+    19,
+    21
+   ]
+  },
+  {
+   "item": 28,
+   "level": "strict",
+   "t": 0.82,
+   "what": "sky Saturn -> H Mercury RA 38.77755 (349/9) and Dec 17.55514 (158/9)",
+   "bodies": [
+    "H Mercury"
+   ],
+   "pair": null,
+   "derived": false,
+   "joined": [
+    19,
+    21,
+    27
+   ]
+  },
+  {
+   "item": 30,
+   "level": "strict",
+   "t": 0.1838,
+   "what": "tightest cross link H Pluto \u2013 J Neptune RA 20.3183 Dec 0.0551",
+   "bodies": [
+    "H Pluto",
+    "J Neptune"
+   ],
+   "pair": "Neptune\u2013Pluto",
+   "derived": false,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    21,
+    22,
+    24,
+    27
+   ]
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+== newton_abbot_1525_20220717  field of 4   [CR v1 (12 Oct 2026), step 4]  (blind: no finishing positions)
+-- runners: P01 1 Grageelagh Girl / 1 Tom Broughton; P03 2 My Lady Grey / 2 Brendan Powell; P05 3 Cresswell Queen / 3 Harry Reed; P07 4 On Time / 4 Conor Ring
+-- t = offset / tolerance (0 exact, 1 at the edge; compound = worst part). Counts are background only.
+[ 1] cross link struck on both ends by 2+ sky bodies
+     strict ONLY P01: P01(t 0.780, x1)
+            tightest P01: H Chiron – J Ketu RA 15.5837 Dec 0.0754 struck by 2 sky bodies — Orcus: sky Orcus -> H Chiron Dec 6.99756 (7) | sky Orcus -> J Ketu Flat 165.99800 (166); Uranus: sky Uranus -> H Chiron RA 70.88850 (638/9) | sky Uranus -> J Ketu Dec 21.00206 (21)
+     near   ONLY P03: P03(t 1.453, x1)
+            tightest P03: H Sun – J Quaoar RA 83.4692 Dec 0.4359 (near band) struck by 2 sky bodies — Juno: sky Juno -> H Sun Dec 16.00464 (16) | sky Juno -> J Quaoar RA 108.00311 (108); Pallas: sky Pallas -> H Sun GC 101.99521 (102) | sky Pallas -> J Quaoar Flat 174.00057 (174)
+[ 2] cross link struck on both ends (one body, or one per end)
+     strict 4 of 4: P07(t 0.304, x6)  P03(t 0.424, x5)  P05(t 0.522, x8)  P01(t 0.634, x2)
+            tightest P07: H Sedna – J Chiron RA 86.9604 Dec 0.0147 (one per end) — sky Mars -> H Sedna GC 18.99848 (19) | sky Rahu -> J Chiron Dec 10.33328 (93/9)
+     near   4 of 4: P05(t 1.051, x4)  P03(t 1.114, x3)  P07(t 1.123, x6)  P01(t 1.215, x4)
+            tightest P05: H Uranus – J Pallas RA 136.2725 Dec 0.3154 (near band) (one per end) — sky Transpluto -> H Uranus RA 136.66649 (1230/9) | sky Mercury -> J Pallas Dec 15.99954 (16)
+[ 3] partner strike
+     strict 2 of 4: P03(t 0.760, x1)  P05(t 0.772, x2)
+            tightest P03: H Makemake – J Haumea RA 0.2329 Dec 4.4608 — partner sky Haumea -> H Makemake Flat 25.33295 (228/9)
+     near   3 of 4: P03(t 1.114, x3)  P05(t 1.218, x1)  P07(t 1.753, x1)
+            tightest P03: H Sun – J Mercury RA 1.6703 Dec 1.1526 (near band) — partner sky Sun -> J Mercury GC 153.33365 (1380/9)
+[ 4] cross-link pair together in the sky
+     near   2 of 4: P07(t 0.630, x1)  P03(t 1.114, x1)
+            tightest P07: H Juno – J Jupiter RA 30.6429 Dec 0.1890 — sky Juno–Jupiter close in Dec only: GC 18.6929 RA 18.7042 Dec 0.0059
+[ 5] both ends of a cross link moved
+     none in the field
+[ 6] movement onto a cross link
+     strict 4 of 4: P07(t 0.153, x2)  P03(t 0.375, x2)  P05(t 0.396, x4)  P01(t 0.786, x2)
+            tightest P07: J Jupiter moved RA 173.99941 (174) — on H Makemake – J Jupiter RA 0.2301 Dec 30.2684
+     near   3 of 4: P05(t 1.051, x2)  P03(t 1.114, x3)  P07(t 1.123, x4)
+            tightest P05: J Pallas moved Flat 174.00283 (174) — on H Uranus – J Pallas RA 136.2725 Dec 0.3154 (near band)
+[ 7] swap
+     near   2 of 4: P05(t 1.365, x1)  P03(t 1.709, x1)
+            tightest P05: swap Neptune/Pluto: H Neptune – J Pluto RA 99.2444 Dec 0.4094 (near band); H Pluto – J Neptune RA 11.0449 Dec 0.0843
+[ 8] triangle struck at every corner by one sky body
+     strict 2 of 4: P01(t 0.612, x3)  P07(t 0.760, x3)
+            tightest P01: triangle H Makemake / H Saturn / J Rahu [one plane (Dec)]: H Makemake–H Saturn Dec 29.99694 (30), H Makemake–J Rahu Dec 23.99771 (24), H Saturn–J Rahu Dec 5.99923 (6) — sky Chiron: sky Chiron -> H Makemake Dec 19.99758 (20); sky Chiron -> H Saturn GC 172.99955 (173); sky Chiron -> J Rahu Dec 4.00013 (4)
+[ 9] pair in one chart struck on both ends by one sky body
+     strict 4 of 4: P05(t 0.206, x14)  P03(t 0.218, x9)  P01(t 0.282, x15)  P07(t 0.400, x10)
+            tightest P05: J Mercury–Quaoar Dec 7.00030 = 7 struck by 1 sky body — Makemake: sky Makemake -> J Mercury Flat 30.22223 (272/9) | sky Makemake -> J Quaoar Dec 36.99897 (37)
+[10] pair in one chart struck on both ends by 2+ sky bodies
+     strict 2 of 4: P07(t 0.784, x1)  P05(t 0.800, x1)
+            tightest P07: H Uranus–Sedna close struck by 2 sky bodies — Mars: sky Mars -> H Uranus GC 19.00012 (19) | sky Mars -> H Sedna GC 18.99848 (19); Eris: sky Eris -> H Uranus RA 9.00333 (9) | sky Eris -> H Sedna RA 28.00392 (28)
+[11] same number / same ratio in both charts
+     strict 2 of 4: P03(t 0.218, x1)  P05(t 0.742, x2)
+            tightest P03: number 32: H Pluto–Ketu Dec 31.99905 = 32 | J Saturn–Vesta Dec 31.99891 = 32
+     near   ONLY P05: P05(t 1.812, x1)
+            tightest P05: ratio 16/9: H Vesta–Eris RA (0.0091%) | J Uranus–Ceres RA (0.0013%)
+     other  4 of 4: P05(t 0.652, x1)  P07(t 0.700, x1)  P03(t 1.236, x1)  P01(t 1.996, x1)
+            tightest P05: number 23: H Venus–Jupiter Flat 23.00326 = 23 | J Vesta Equator -23.00017 = 23  (other plane: Flat / Dec)
+[12] shared node
+     strict ONLY P05: P05(t 0.031, x1)
+            tightest P05: shared node: H Rahu – J Rahu GC 0.0930 RA 0.0858 Dec 0.0362
+[13] shared natal pair
+     strict 4 of 4: P01(t 0.033, x9)  P07(t 0.040, x5)  P05(t 0.110, x4)  P03(t 0.302, x6)
+            tightest P01: shared Ceres–Makemake Flat H 169.8205 J 169.7927 (0.0164%) sky 77.5876 S~H ['11/5', 0.511] S~J ['11/5', 0.5273]
+     other  4 of 4: P05(t 0.245, x2)  P07(t 0.376, x2)  P03(t 0.450, x1)  P01(t 0.596, x1)
+            tightest P05: shared Eris–Haumea GC (slow pair: age) H 164.2145 J 164.0137 (0.1225%) sky 162.8196 S~H None S~J None
+[14] shared pair also cross-linked
+     near   ONLY P05: P05(t 1.425, x2)
+            tightest P05: shared Ketu–Eris Flat (0.4813%) + cross H Eris – J Rahu RA 161.4198 Dec 0.4275 (near band)
+[15] pair set H:J:S
+     none in the field
+[16] same-body set
+     strict ONLY P01: P01(t 0.141, x3)
+            tightest P01: same-body Quaoar GC S–H 13.3240 H–J 18.6496 S–J 31.9735 -> 7/5 : 12/5 : 12/7 (worst 0.0212%)
+[17] same-body Dec 9/4 : 5/4 : 9/5
+     strict ONLY P01: P01(t 0.285, x1)
+            tightest P01: same-body Sedna Dec S–H 1.5638 H–J 1.9539 S–J 3.5176 -> 5/4 : 9/4 : 9/5 (worst 0.0428%)
+[18] same-body set joined to the web
+     strict ONLY P01: P01(t 0.338, x1)
+            tightest P01: same-body Eris Dec S–H 2.8841 H–J 3.8474 S–J 6.7314 -> 4/3 : 7/3 : 7/4 (worst 0.0507%) — joined by 1: cross H Jupiter – J Eris RA 1.0786 Dec 16.6308
+     near   ONLY P01: P01(t 0.285, x1)
+            tightest P01: same-body Sedna Dec S–H 1.5638 H–J 1.9539 S–J 3.5176 -> 5/4 : 9/4 : 9/5 (worst 0.0428%) — joined by 1: ratio J Vesta–Sedna RA 30/7
+[19] sky body divides a natal pair (split)
+     strict 4 of 4: P03(t 0.011, x24)  P01(t 0.082, x26)  P05(t 0.144, x16)  P07(t 0.197, x9)
+            tightest P03: H Juno moved RA (15/9) toward J Saturn: span 8.33390 = 1.66659 + 6.66731; span/other 5/4 (0.0028%)
+[20] natal body at the midpoint of X and sky X
+     strict 2 of 4: P01(t 0.202, x3)  P03(t 0.471, x1)
+            tightest P01: H Neptune at the Dec midpoint of J Neptune and sky Neptune: span 17.2616, midpoint -11.7021, H Neptune -11.7122, off 0.0101 (other chart)
+     wide   4 of 4: P03(t 0.042, x1)  P05(t 0.127, x3)  P07(t 0.146, x1)  P01(t 0.646, x1)
+            tightest P03: H Uranus at the Dec midpoint of H Venus and sky Venus: span 39.0482, midpoint 3.2173, H Uranus 3.2194, off 0.0021 (same chart)
+[21] soak
+     strict 4 of 4: P03(t 0.114, x19)  P05(t 0.123, x24)  P01(t 0.245, x31)  P07(t 0.468, x30)
+            tightest P03: soak Uranus ~19.5243: 4 partners, spread 0.0046, nearest whole 20 (-0.4757), nearest ninth 176/9 = 19.5556 (-0.0313) — H Uranus – S Venus Dec 19.5220; H Uranus – J Vesta Dec 19.5254; H Uranus – H Venus Dec 19.5262; S Uranus – H Chiron Dec 19.5265
+     near   4 of 4: P01(t 0.268, x20)  P03(t 0.304, x13)  P05(t 0.512, x10)  P07(t 0.609, x16)
+            tightest P01: soak Mercury ~16.7004: 4 partners, spread 0.0107, nearest whole 17 (-0.2996), nearest ninth 150/9 = 16.6667 (+0.0337) (partners not from both natal charts) — J Mercury – S Pluto Dec 16.6950; J Mercury – S Transpluto Dec 16.6969; H Mercury – S Chiron RA 16.7034; J Mercury – H Venus Dec 16.7057
+[22] sky/natal ratio of a natal pair
+     strict 4 of 4: P03(t 0.002, x12)  P07(t 0.002, x12)  P05(t 0.016, x14)  P01(t 0.050, x6)
+            tightest P03: J Juno–Quaoar Flat sky 75.5251 / natal 17.4289 sky/natal 13/3 (0.0000%)
+     near   4 of 4: P07(t 1.146, x6)  P01(t 1.208, x6)  P03(t 1.236, x8)  P05(t 1.286, x8)
+            tightest P07: H Mercury–Quaoar Dec sky 37.7329 / natal 15.4353 sky/natal 22/9 (0.0057%)
+[23] one body in sky/natal ratios in both charts
+     strict 4 of 4: P01(t 0.220, x2)  P07(t 0.280, x7)  P05(t 0.526, x4)  P03(t 0.570, x2)
+            tightest P01: Sun: H 1 (Sun–Mars Flat 18/5 0.0011%) | J 2 (Sun–Saturn GC 7/6 0.0009%)
+     near   4 of 4: P03(t 1.236, x4)  P07(t 1.256, x2)  P05(t 1.286, x4)  P01(t 1.684, x1)
+            tightest P03: Orcus: H 1 (Ceres–Orcus Dec 13/3 0.0062%) | J 1 (Vesta–Orcus Flat 10/3 0.0033%)
+[24] pair family / horse:jockey ratio
+     strict 4 of 4: P07(t 0.000, x31)  P05(t 0.020, x26)  P03(t 0.036, x33)  P01(t 0.040, x46)
+            tightest P07: family J Chiron–Pallas Flat sky Chiron – J Pallas 73.97959 vs NN 158.52766 NN/TN 15/7 (0.0000%)
+     near   4 of 4: P07(t 1.000, x113)  P05(t 1.020, x101)  P01(t 1.040, x127)  P03(t 1.040, x129)
+            tightest P07: family H Mercury–Venus GC H Mercury – sky Venus 86.39550 vs TT 26.58189 TN/TT 13/4 (0.0050%)
+[25] Equator whole/ninth (natal) + chains
+     strict 3 of 4: P05(t 0.017, x1)  P01(t 0.054, x3)  P07(t 0.143, x1)
+            tightest P05: J Vesta |Dec| 23.00017 = 23 (+0.00017)
+[26] Equator ratio
+     strict ONLY P01: P01(t 0.190, x2)
+            tightest P01: Equator Haumea S/J 15.7499 / 20.9995 J/S 4/3 (0.0019%)
+     near   4 of 4: P07(t 1.430, x2)  P01(t 2.090, x1)  P05(t 2.260, x3)  P03(t 2.910, x2)
+            tightest P07: Equator Jupiter S/H 1.9886 / 6.8170 H/S 24/7 (0.0143%)
+[27] return / contact
+     strict 4 of 4: P03(t 0.012, x14)  P01(t 0.029, x12)  P05(t 0.034, x20)  P07(t 0.043, x14)
+            tightest P03: contact sky Venus on J Vesta RA 3.2062 Dec 0.0035 GC 2.9568
+     near   4 of 4: P03(t 1.004, x15)  P01(t 1.031, x13)  P07(t 1.058, x12)  P05(t 1.066, x10)
+            tightest P03: contact sky Pluto on J Pallas RA 111.3525 Dec 0.3012 GC 98.9906
+[28] one sky body on one natal body in RA and Dec
+     none in the field
+[29] pair in one chart whole/ninth in RA and Dec
+     none in the field
+[30] tightest cross link in the field
+     strict 4 of 4: P07(t 0.049, x1)  P05(t 0.057, x1)  P03(t 0.155, x1)  P01(t 0.251, x1)
+            tightest P07: tightest cross link H Sedna – J Chiron RA 86.9604 Dec 0.0147
+[33] node loop
+     none in the field
+-- field-only (strict) per runner
+   P01 1 Grageelagh Girl / 1 Tom Broughton: 1, 16, 17, 18, 26
+   P03 2 My Lady Grey / 2 Brendan Powell: -
+   P05 3 Cresswell Queen / 3 Harry Reed: 12
+   P07 4 On Time / 4 Conor Ring: -
