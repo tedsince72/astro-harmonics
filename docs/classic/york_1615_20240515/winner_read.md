@@ -111,3 +111,6 @@ Mercury–Saturn and Mars–Uranus are close in both natal charts. Chiron–Tran
 25. Field (natal |Dec| within ±0.01 of a whole number): winner 2 (horse Rahu, Mason Pallas); Blue Prince (3rd) 2 — horse Saturn -19.0023
     and Kingscote Saturn -18.9989, the same 19 as sky Sun (one number in sky, horse and jockey); Ribble Radiant (15th) 3; Mortlake,
     Fire Demon, Ziggy's Condor, Lady Pink Rose, Quiet Resolve 1 each; the rest 0. The count does not separate the winner.
+
+## Checker on 22–25 (independent agent, 12 Oct 2026)
+- All values, differences, neighbour distances and the field count confirmed. Counting Ketu separately: winner 3, Ribble Radiant 4; adding sky bodies adds 2 to every runner. Ranking unchanged.
