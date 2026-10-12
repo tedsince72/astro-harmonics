@@ -114,3 +114,8 @@ Mercury–Saturn and Mars–Uranus are close in both natal charts. Chiron–Tran
 
 ## Checker on 22–25 (independent agent, 12 Oct 2026)
 - All values, differences, neighbour distances and the field count confirmed. Counting Ketu separately: winner 3, Ribble Radiant 4; adding sky bodies adds 2 to every runner. Ranking unchanged.
+
+## Correction (12 Oct 2026, found while checking Newmarket July 17:45)
+- 17: the Quaoar set 63/8 : 62/7 : 9/8 breaks p <= 30, so it is not a simple set. The same_body tool does not apply p <= 30 or exclude 1.
+  Re-filtered (tools/scans/sbweb_strict.py): winner has two joined same-body bodies (Chiron, node), TIED with Blue Prince, Respectful,
+  Lady Pink Rose and Ribble Radiant. The 'only runner with three' claim is withdrawn. Chiron and node sets themselves stand.
