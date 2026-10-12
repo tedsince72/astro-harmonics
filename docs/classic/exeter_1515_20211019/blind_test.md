@@ -19,7 +19,7 @@ Display note: race page repeats the 'pair in one chart' line for P01 and P05 (sh
 ## Detailed look at the winner (after the result, Eddie asked) — relationships first
 1. Chiron–Juno is the web:
    a. Shared pair Chiron–Juno, great circle: horse 138.1093, Best 138.1044 (0.0035%) — the tightest shared pair in the field
-      (next: Caspers Court Saturn–Makemake 0.0227%; slow-body pairs Gonggong–Transpluto in every runner, age effect).
+      (next, leaving out the slow-body Gonggong–Transpluto pair that every runner shares: Caspers Court Saturn–Makemake 0.0227%).
    b. The same two bodies are cross-linked: horse Juno – Best Chiron Dec 0.0555 (RA 10.98), struck on both ends (sky Gonggong -> horse
       Juno GC 153; sky Uranus -> Best Chiron GC 74) — tightest strict both-ends cross link in the field.
    c. Best's Chiron–Juno Dec is in simple sky ratio: sky 18.3068 / natal 26.1530 = 7/10 (0.0015%).
@@ -31,6 +31,9 @@ Display note: race page repeats the 'pair in one chart' line for P01 and P05 (sh
 2. Jupiter: horse Jupiter – Best Jupiter RA 1.024; Best Jupiter moved GC 171.6676 (1545/9) and sits on the horse's Jupiter;
    pair set Jupiter–Vesta RA H 152.0338 : J 86.8808 : S 101.3449 = 7/4, 3/2, 7/6 (worst 0.0159%) — recurring pair Jupiter–Vesta
    (Ffos Las, Wincanton, Nottingham 15:30). Best Jupiter strong hub (5 tight kinds).
-3. Node and movement onto cross links: horse Rahu moved RA 50.7774 (457/9) and sits on Best Haumea (RA 0.093); horse Ketu – Best Ceres
+3. Node and movement onto cross links: horse node moved RA 129.2226 (1163/9; on the node axis 180 − that = 50.7774, 457/9) and sits on Best Haumea (RA 0.093); horse Ketu – Best Ceres
    (Dec 0.280) with both ends moved (horse node 457/9, Best Ceres RA 124.0050).
 4. Other: Best Neptune Equator 21.99811 (22); horse Saturn–Pallas GC 7/5 (0.0024%); horse:jockey Ketu–Eris Flat 29/5 (0.0001%).
+
+Checker (independent, 12 Oct 2026): all numbers and the four field claims confirmed. Corrected: 'next tightest shared pair' holds only leaving
+out Gonggong–Transpluto (Blaze A Trail's is 0.0115%); the horse node movement is RA 129.2226 (1163/9), 50.7774 is its node-axis mirror.
