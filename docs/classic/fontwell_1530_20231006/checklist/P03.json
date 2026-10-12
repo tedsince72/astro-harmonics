@@ -2106,6 +2106,58 @@
   {
    "item": 21,
    "level": "strict",
+   "t": 0.3127,
+   "what": "soak Mars ~27.6867: 4 partners, spread 0.0125, nearest whole 28 (-0.3133), nearest ninth 249/9 = 27.6667 (+0.0200) \u2014 H Mars \u2013 H Saturn Flat 27.6804; H Mars \u2013 J Jupiter GC 27.6827; S Mars \u2013 S Haumea Flat 27.6886; J Mars \u2013 S Saturn GC 27.6929; widened to 5 partners, spread 0.0321: + J Mars \u2013 H Sun RA 27.7125",
+   "bodies": [
+    "H Mars",
+    "H Saturn",
+    "H Sun",
+    "J Jupiter",
+    "J Mars"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 27.6867,
+   "partners": 5,
+   "joined": [
+    2,
+    9,
+    11,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.411,
+   "what": "soak Chiron ~5.5844: 4 partners, spread 0.0164, nearest whole 6 (-0.4156), nearest ninth 50/9 = 5.5556 (+0.0289) \u2014 H Chiron \u2013 J Mars Flat 5.5762; S Chiron \u2013 H Venus GC 5.5843; S Chiron \u2013 J Pluto Dec 5.5922; S Chiron \u2013 J Eris RA 5.5927",
+   "bodies": [
+    "H Chiron",
+    "H Venus",
+    "J Eris",
+    "J Mars",
+    "J Pluto"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 5.5844,
+   "partners": 4,
+   "joined": [
+    8,
+    9,
+    10,
+    19,
+    24,
+    25,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
    "t": 0.464,
    "what": "soak Ceres ~25.1333: 4 partners, spread 0.0186, nearest whole 25 (+0.1333), nearest ninth 226/9 = 25.1111 (+0.0222) \u2014 S Ceres \u2013 S Pallas RA 25.1241; J Ceres \u2013 H Gonggong Dec 25.1263; S Ceres \u2013 J Juno GC 25.1273; J Ceres \u2013 H Sun Dec 25.1426",
    "bodies": [
@@ -2129,6 +2181,38 @@
     24,
     26,
     27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.5137,
+   "what": "soak Pallas ~7.0906: 4 partners, spread 0.0205, nearest whole 7 (+0.0906), nearest ninth 64/9 = 7.1111 (-0.0205) \u2014 S Pallas \u2013 J Juno Dec 7.0803; J Pallas \u2013 H Neptune GC 7.0815; S Pallas \u2013 S Venus Dec 7.0929; H Pallas \u2013 J Neptune RA 7.1009",
+   "bodies": [
+    "H Neptune",
+    "H Pallas",
+    "J Juno",
+    "J Neptune",
+    "J Pallas"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 7.0906,
+   "partners": 4,
+   "joined": [
+    2,
+    3,
+    8,
+    9,
+    11,
+    13,
+    16,
+    19,
+    22,
+    24,
+    25,
+    27,
+    28
    ]
   },
   {
@@ -2307,33 +2391,6 @@
   {
    "item": 21,
    "level": "strict",
-   "t": 0.7537,
-   "what": "soak Chiron ~5.6073: 4 partners, spread 0.0301, nearest whole 6 (-0.3927), nearest ninth 50/9 = 5.5556 (+0.0517) \u2014 S Chiron \u2013 J Pluto Dec 5.5922; S Chiron \u2013 J Eris RA 5.5927; S Chiron \u2013 H Venus Flat 5.6096; H Chiron \u2013 H Eris Dec 5.6224",
-   "bodies": [
-    "H Chiron",
-    "H Eris",
-    "H Venus",
-    "J Eris",
-    "J Pluto"
-   ],
-   "pair": null,
-   "derived": false,
-   "centre": 5.6073,
-   "partners": 4,
-   "joined": [
-    8,
-    9,
-    10,
-    19,
-    22,
-    24,
-    25,
-    27
-   ]
-  },
-  {
-   "item": 21,
-   "level": "strict",
    "t": 0.7542,
    "what": "soak Quaoar ~3.5358: 4 partners, spread 0.0302, nearest whole 4 (-0.4642), nearest ninth 32/9 = 3.5556 (-0.0197) \u2014 S Quaoar \u2013 H Gonggong Dec 3.5207; S Quaoar \u2013 J Ketu Dec 3.5454; S Quaoar \u2013 H Pallas RA 3.5500; S Quaoar \u2013 J Neptune RA 3.5509",
    "bodies": [
@@ -2359,6 +2416,35 @@
     24,
     26,
     27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.7582,
+   "what": "soak Ceres ~1.2323: 4 partners, spread 0.0303, nearest whole 1 (+0.2323), nearest ninth 11/9 = 1.2222 (+0.0101) \u2014 S Ceres \u2013 J Pallas Dec 1.2172; H Ceres \u2013 H Jupiter Dec 1.2295; J Ceres \u2013 S Haumea Dec 1.2372; J Ceres \u2013 S Jupiter Dec 1.2475; widened to 5 partners, spread 0.0353: + J Ceres \u2013 H Uranus Dec 1.2525",
+   "bodies": [
+    "H Ceres",
+    "H Jupiter",
+    "H Uranus",
+    "J Ceres",
+    "J Pallas"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 1.2323,
+   "partners": 5,
+   "joined": [
+    2,
+    11,
+    16,
+    19,
+    22,
+    23,
+    24,
+    25,
+    27,
+    28
    ]
   },
   {
@@ -2416,32 +2502,6 @@
     13,
     16,
     19,
-    22,
-    23,
-    24,
-    27
-   ]
-  },
-  {
-   "item": 21,
-   "level": "strict",
-   "t": 0.8019,
-   "what": "soak Mars ~27.6965: 5 partners, spread 0.0321, nearest whole 28 (-0.3035), nearest ninth 249/9 = 27.6667 (+0.0298) \u2014 H Mars \u2013 H Saturn Flat 27.6804; H Mars \u2013 J Jupiter GC 27.6827; S Mars \u2013 S Haumea Flat 27.6886; J Mars \u2013 S Saturn GC 27.6929; J Mars \u2013 H Sun RA 27.7125",
-   "bodies": [
-    "H Mars",
-    "H Saturn",
-    "H Sun",
-    "J Jupiter",
-    "J Mars"
-   ],
-   "pair": null,
-   "derived": false,
-   "centre": 27.6965,
-   "partners": 5,
-   "joined": [
-    2,
-    9,
-    11,
     22,
     23,
     24,
@@ -2622,6 +2682,35 @@
   {
    "item": 21,
    "level": "strict",
+   "t": 0.8778,
+   "what": "soak Venus ~16.1315: 4 partners, spread 0.0351, nearest whole 16 (+0.1315), nearest ninth 145/9 = 16.1111 (+0.0204) \u2014 H Venus \u2013 H Eris Flat 16.1140; J Venus \u2013 H Mercury GC 16.1376; S Venus \u2013 H Neptune Dec 16.1423; J Venus \u2013 J Chiron Dec 16.1491",
+   "bodies": [
+    "H Eris",
+    "H Mercury",
+    "H Neptune",
+    "H Venus",
+    "J Chiron",
+    "J Venus"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 16.1315,
+   "partners": 4,
+   "joined": [
+    8,
+    9,
+    13,
+    16,
+    19,
+    22,
+    23,
+    24,
+    25
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
    "t": 0.8802,
    "what": "soak Orcus ~31.1330: 4 partners, spread 0.0352, nearest whole 31 (+0.1330), nearest ninth 280/9 = 31.1111 (+0.0219) \u2014 J Orcus \u2013 J Makemake Dec 31.1154; S Orcus \u2013 J Rahu Dec 31.1271; J Orcus \u2013 S Transpluto Flat 31.1299; J Orcus \u2013 H Rahu GC 31.1506",
    "bodies": [
@@ -2646,35 +2735,6 @@
     23,
     24,
     27
-   ]
-  },
-  {
-   "item": 21,
-   "level": "strict",
-   "t": 0.8822,
-   "what": "soak Ceres ~1.2348: 5 partners, spread 0.0353, nearest whole 1 (+0.2348), nearest ninth 11/9 = 1.2222 (+0.0126) \u2014 S Ceres \u2013 J Pallas Dec 1.2172; H Ceres \u2013 H Jupiter Dec 1.2295; J Ceres \u2013 S Haumea Dec 1.2372; J Ceres \u2013 S Jupiter Dec 1.2475; J Ceres \u2013 H Uranus Dec 1.2525",
-   "bodies": [
-    "H Ceres",
-    "H Jupiter",
-    "H Uranus",
-    "J Ceres",
-    "J Pallas"
-   ],
-   "pair": null,
-   "derived": false,
-   "centre": 1.2348,
-   "partners": 5,
-   "joined": [
-    2,
-    11,
-    16,
-    19,
-    22,
-    23,
-    24,
-    25,
-    27,
-    28
    ]
   },
   {
@@ -2741,35 +2801,6 @@
   {
    "item": 21,
    "level": "strict",
-   "t": 0.9107,
-   "what": "soak Venus ~16.1322: 4 partners, spread 0.0364, nearest whole 16 (+0.1322), nearest ninth 145/9 = 16.1111 (+0.0211) \u2014 H Venus \u2013 H Eris Flat 16.1140; J Venus \u2013 H Mercury GC 16.1376; S Venus \u2013 H Neptune Dec 16.1423; J Venus \u2013 J Chiron Dec 16.1491; J Venus \u2013 H Mercury Flat 16.1504",
-   "bodies": [
-    "H Eris",
-    "H Mercury",
-    "H Neptune",
-    "H Venus",
-    "J Chiron",
-    "J Venus"
-   ],
-   "pair": null,
-   "derived": false,
-   "centre": 16.1322,
-   "partners": 4,
-   "joined": [
-    8,
-    9,
-    13,
-    16,
-    19,
-    22,
-    23,
-    24,
-    25
-   ]
-  },
-  {
-   "item": 21,
-   "level": "strict",
    "t": 0.9418,
    "what": "soak Node ~1.6292: 4 partners, spread 0.0377, nearest whole 2 (-0.3708), nearest ninth 15/9 = 1.6667 (-0.0374) \u2014 J Ketu \u2013 J Sun Dec 1.6104; H Ketu \u2013 J Gonggong Dec 1.6129; S Rahu \u2013 J Eris RA 1.6326; S Ketu \u2013 H Orcus Dec 1.6481",
    "bodies": [
@@ -2825,39 +2856,6 @@
     24,
     25,
     26,
-    27,
-    28
-   ]
-  },
-  {
-   "item": 21,
-   "level": "strict",
-   "t": 0.9577,
-   "what": "soak Pallas ~7.1120: 5 partners, spread 0.0383, nearest whole 7 (+0.1120), nearest ninth 64/9 = 7.1111 (+0.0009) \u2014 S Pallas \u2013 S Venus Dec 7.0929; H Pallas \u2013 J Neptune RA 7.1009; S Pallas \u2013 J Juno GC 7.1047; S Pallas \u2013 J Juno Flat 7.1048; J Pallas \u2013 H Eris Dec 7.1283; J Pallas \u2013 H Neptune Flat 7.1312",
-   "bodies": [
-    "H Eris",
-    "H Neptune",
-    "H Pallas",
-    "J Juno",
-    "J Neptune",
-    "J Pallas"
-   ],
-   "pair": null,
-   "derived": false,
-   "centre": 7.112,
-   "partners": 5,
-   "joined": [
-    2,
-    3,
-    8,
-    9,
-    11,
-    13,
-    16,
-    19,
-    22,
-    24,
-    25,
     27,
     28
    ]

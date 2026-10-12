@@ -275,26 +275,7 @@
    "item": 3,
    "level": "near",
    "t": 1.1088,
-   "what": "H Mars \u2013 J Saturn RA 12.1083 Dec 0.3326 (near band) \u2014 partner sky Mars -> J Saturn Dec 1.99744 (2)",
-   "bodies": [
-    "H Mars",
-    "J Saturn"
-   ],
-   "pair": "Mars\u2013Saturn",
-   "derived": true,
-   "joined": [
-    16,
-    19,
-    21,
-    24,
-    27
-   ]
-  },
-  {
-   "item": 3,
-   "level": "near",
-   "t": 1.1088,
-   "what": "H Mars \u2013 J Saturn RA 12.1083 Dec 0.3326 (near band) \u2014 partner sky Mars -> J Saturn GC 24.00011 (24)",
+   "what": "H Mars \u2013 J Saturn RA 12.1083 Dec 0.3326 (near band) \u2014 partner sky Mars -> J Saturn GC 24.00011 (24) (also Dec 2)",
    "bodies": [
     "H Mars",
     "J Saturn"
@@ -1341,6 +1322,36 @@
   {
    "item": 21,
    "level": "strict",
+   "t": 0.4312,
+   "what": "soak Mercury ~9.6943: 4 partners, spread 0.0172, nearest whole 10 (-0.3057), nearest ninth 87/9 = 9.6667 (+0.0277) \u2014 H Mercury \u2013 H Uranus Dec 9.6857; S Mercury \u2013 J Rahu Flat 9.6879; J Mercury \u2013 J Sun GC 9.7006; J Mercury \u2013 J Venus Dec 9.7030",
+   "bodies": [
+    "H Mercury",
+    "H Uranus",
+    "J Mercury",
+    "J Node",
+    "J Sun",
+    "J Venus"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 9.6943,
+   "partners": 4,
+   "joined": [
+    2,
+    9,
+    11,
+    13,
+    16,
+    19,
+    20,
+    22,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
    "t": 0.4584,
    "what": "soak Jupiter ~10.5428: 4 partners, spread 0.0183, nearest whole 11 (-0.4572), nearest ninth 95/9 = 10.5556 (-0.0128) \u2014 S Jupiter \u2013 S Eris RA 10.5336; H Jupiter \u2013 J Mercury Dec 10.5354; S Jupiter \u2013 S Uranus Flat 10.5388; S Jupiter \u2013 H Uranus Flat 10.5519",
    "bodies": [
@@ -1415,28 +1426,24 @@
   {
    "item": 21,
    "level": "strict",
-   "t": 0.5611,
-   "what": "soak Mercury ~9.6969: 4 partners, spread 0.0224, nearest whole 10 (-0.3031), nearest ninth 87/9 = 9.6667 (+0.0303) \u2014 H Mercury \u2013 H Uranus Dec 9.6857; S Mercury \u2013 J Rahu Flat 9.6879; J Mercury \u2013 J Sun GC 9.7006; J Mercury \u2013 J Venus Dec 9.7030; J Mercury \u2013 J Sun Flat 9.7082",
+   "t": 0.5352,
+   "what": "soak Sedna ~13.7900: 4 partners, spread 0.0214, nearest whole 14 (-0.2100), nearest ninth 124/9 = 13.7778 (+0.0122) \u2014 H Sedna \u2013 S Makemake Dec 13.7793; J Sedna \u2013 H Orcus Dec 13.7886; J Sedna \u2013 S Uranus GC 13.7931; H Sedna \u2013 J Mercury Dec 13.8007",
    "bodies": [
-    "H Mercury",
-    "H Uranus",
+    "H Orcus",
+    "H Sedna",
     "J Mercury",
-    "J Node",
-    "J Sun",
-    "J Venus"
+    "J Sedna"
    ],
    "pair": null,
    "derived": false,
-   "centre": 9.6969,
+   "centre": 13.79,
    "partners": 4,
    "joined": [
     2,
     9,
-    11,
     13,
     16,
     19,
-    20,
     22,
     24,
     27
@@ -2096,32 +2103,6 @@
     13,
     16,
     19,
-    24,
-    27
-   ]
-  },
-  {
-   "item": 21,
-   "level": "strict",
-   "t": 0.9808,
-   "what": "soak Sedna ~13.7989: 4 partners, spread 0.0392, nearest whole 14 (-0.2011), nearest ninth 124/9 = 13.7778 (+0.0211) \u2014 H Sedna \u2013 S Makemake Dec 13.7793; J Sedna \u2013 H Orcus Dec 13.7886; J Sedna \u2013 S Uranus GC 13.7931; H Sedna \u2013 J Mercury Dec 13.8007; J Sedna \u2013 S Uranus Flat 13.8185",
-   "bodies": [
-    "H Orcus",
-    "H Sedna",
-    "J Mercury",
-    "J Sedna"
-   ],
-   "pair": null,
-   "derived": false,
-   "centre": 13.7989,
-   "partners": 4,
-   "joined": [
-    2,
-    9,
-    13,
-    16,
-    19,
-    22,
     24,
     27
    ]

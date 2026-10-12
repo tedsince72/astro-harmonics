@@ -1765,6 +1765,59 @@
   {
    "item": 21,
    "level": "strict",
+   "t": 0.5148,
+   "what": "soak Orcus ~10.6428: 4 partners, spread 0.0206, nearest whole 11 (-0.3572), nearest ninth 96/9 = 10.6667 (-0.0238) \u2014 J Orcus \u2013 J Juno Dec 10.6325; S Orcus \u2013 H Eris Dec 10.6356; H Orcus \u2013 J Chiron Dec 10.6521; H Orcus \u2013 H Pluto Dec 10.6531; widened to 5 partners, spread 0.0256: + S Orcus \u2013 H Ketu Dec 10.6275",
+   "bodies": [
+    "H Eris",
+    "H Node",
+    "H Orcus",
+    "H Pluto",
+    "J Chiron",
+    "J Juno",
+    "J Orcus"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 10.6428,
+   "partners": 5,
+   "joined": [
+    9,
+    13,
+    19,
+    20,
+    22,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.5247,
+   "what": "soak Eris ~4.9489: 4 partners, spread 0.0210, nearest whole 5 (-0.0511), nearest ninth 45/9 = 5.0000 (-0.0511) \u2014 S Eris \u2013 J Sedna Dec 4.9384; H Eris \u2013 J Pluto Dec 4.9403; S Eris \u2013 H Neptune Dec 4.9460; H Eris \u2013 S Mars Dec 4.9594; widened to 5 partners, spread 0.0363: + H Eris \u2013 S Saturn Dec 4.9231",
+   "bodies": [
+    "H Eris",
+    "H Neptune",
+    "J Pluto",
+    "J Sedna"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 4.9489,
+   "partners": 5,
+   "joined": [
+    2,
+    9,
+    16,
+    19,
+    20,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
    "t": 0.5627,
    "what": "soak Node ~4.6446: 4 partners, spread 0.0225, nearest whole 5 (-0.3554), nearest ninth 42/9 = 4.6667 (-0.0221) \u2014 J Rahu \u2013 H Juno Dec 4.6333; J Ketu \u2013 H Mars GC 4.6396; S Ketu \u2013 J Chiron Dec 4.6543; J Rahu \u2013 H Gonggong Dec 4.6558",
    "bodies": [
@@ -1928,26 +1981,23 @@
   {
    "item": 21,
    "level": "strict",
-   "t": 0.6403,
-   "what": "soak Orcus ~10.6403: 5 partners, spread 0.0256, nearest whole 11 (-0.3597), nearest ninth 96/9 = 10.6667 (-0.0264) \u2014 S Orcus \u2013 H Ketu Dec 10.6275; J Orcus \u2013 J Juno Dec 10.6325; S Orcus \u2013 H Eris Dec 10.6356; H Orcus \u2013 J Chiron Dec 10.6521; H Orcus \u2013 H Pluto Dec 10.6531",
+   "t": 0.6663,
+   "what": "soak Transpluto ~22.1721: 4 partners, spread 0.0267, nearest whole 22 (+0.1721), nearest ninth 200/9 = 22.2222 (-0.0501) \u2014 S Transpluto \u2013 H Orcus Dec 22.1588; H Transpluto \u2013 H Gonggong Dec 22.1629; S Transpluto \u2013 J Orcus Flat 22.1783; H Transpluto \u2013 H Juno Dec 22.1854",
    "bodies": [
-    "H Eris",
-    "H Node",
+    "H Gonggong",
+    "H Juno",
     "H Orcus",
-    "H Pluto",
-    "J Chiron",
-    "J Juno",
+    "H Transpluto",
     "J Orcus"
    ],
    "pair": null,
    "derived": false,
-   "centre": 10.6403,
-   "partners": 5,
+   "centre": 22.1721,
+   "partners": 4,
    "joined": [
     9,
     13,
     19,
-    20,
     22,
     24,
     27
@@ -2111,56 +2161,6 @@
     19,
     20,
     22,
-    24,
-    27
-   ]
-  },
-  {
-   "item": 21,
-   "level": "strict",
-   "t": 0.8915,
-   "what": "soak Transpluto ~22.1808: 4 partners, spread 0.0357, nearest whole 22 (+0.1808), nearest ninth 200/9 = 22.2222 (-0.0415) \u2014 H Transpluto \u2013 H Gonggong Dec 22.1629; S Transpluto \u2013 J Orcus Flat 22.1783; H Transpluto \u2013 H Juno Dec 22.1854; S Transpluto \u2013 H Orcus GC 22.1981; S Transpluto \u2013 H Orcus Flat 22.1986",
-   "bodies": [
-    "H Gonggong",
-    "H Juno",
-    "H Orcus",
-    "H Transpluto",
-    "J Orcus"
-   ],
-   "pair": null,
-   "derived": false,
-   "centre": 22.1808,
-   "partners": 4,
-   "joined": [
-    9,
-    13,
-    19,
-    22,
-    24,
-    27
-   ]
-  },
-  {
-   "item": 21,
-   "level": "strict",
-   "t": 0.9067,
-   "what": "soak Eris ~4.9412: 5 partners, spread 0.0363, nearest whole 5 (-0.0588), nearest ninth 44/9 = 4.8889 (+0.0524) \u2014 H Eris \u2013 S Saturn Dec 4.9231; S Eris \u2013 J Sedna Dec 4.9384; H Eris \u2013 J Pluto Dec 4.9403; S Eris \u2013 H Neptune Dec 4.9460; H Eris \u2013 S Mars Dec 4.9594",
-   "bodies": [
-    "H Eris",
-    "H Neptune",
-    "J Pluto",
-    "J Sedna"
-   ],
-   "pair": null,
-   "derived": false,
-   "centre": 4.9412,
-   "partners": 5,
-   "joined": [
-    2,
-    9,
-    16,
-    19,
-    20,
     24,
     27
    ]
@@ -6249,6 +6249,23 @@
     4,
     19,
     21
+   ]
+  },
+  {
+   "item": 27,
+   "level": "other",
+   "t": 0.759,
+   "what": "RETURN sky Transpluto on H Transpluto RA 0.2277 Dec 0.0874 (slow body)",
+   "bodies": [
+    "H Transpluto"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "return",
+   "joined": [
+    13,
+    21,
+    24
    ]
   },
   {

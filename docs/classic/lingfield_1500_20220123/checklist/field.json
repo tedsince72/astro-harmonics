@@ -165,9 +165,9 @@
     "k": 2,
     "runners": {
      "P03": {
-      "n": 2,
+      "n": 1,
       "best": 1.0043,
-      "what": "H Rahu \u2013 J Mars RA 94.4108 Dec 0.3013 (near band) \u2014 partner sky Ketu -> J Mars RA 81.99868 (82)",
+      "what": "H Rahu \u2013 J Mars RA 94.4108 Dec 0.3013 (near band) \u2014 partner sky Rahu -> J Mars RA 98.00132 (98) (also RA 82)",
       "rank": 1
      },
      "P07": {
@@ -598,7 +598,7 @@
     "k": 5,
     "runners": {
      "P01": {
-      "n": 4,
+      "n": 3,
       "best": 0.47,
       "what": "same-body Makemake GC S\u2013H 11.2487 H\u2013J 15.0089 S\u2013J 26.2551 -> 4/3 : 7/3 : 7/4 (worst 0.0705%)",
       "rank": 5
@@ -629,6 +629,18 @@
      }
     },
     "tightest": "P03"
+   },
+   "other": {
+    "k": 1,
+    "runners": {
+     "P01": {
+      "n": 1,
+      "best": 0.854,
+      "what": "same-body Rahu EqValue |Dec| S 19.9224 H 23.2726 J 23.2697 -> 7/6 : 1 : 7/6 (worst 0.1281%)  (contains a 1)",
+      "rank": 1
+     }
+    },
+    "tightest": "P01"
    }
   },
   "17": {},
@@ -637,7 +649,7 @@
     "k": 5,
     "runners": {
      "P01": {
-      "n": 4,
+      "n": 3,
       "best": 0.47,
       "what": "same-body Makemake GC S\u2013H 11.2487 H\u2013J 15.0089 S\u2013J 26.2551 -> 4/3 : 7/3 : 7/4 (worst 0.0705%) \u2014 joined by 1: cross H Makemake \u2013 J Haumea RA 1.3679 Dec 6.2833",
       "rank": 5
@@ -728,24 +740,18 @@
   },
   "20": {
    "strict": {
-    "k": 6,
+    "k": 4,
     "runners": {
      "P01": {
-      "n": 4,
-      "best": 0.3915,
-      "what": "H Ceres at the Dec midpoint of H Gonggong and sky Gonggong: span 2.4436, midpoint -12.6332, H Ceres -12.6528, off 0.0196 (same chart)",
-      "rank": 5
-     },
-     "P03": {
-      "n": 5,
-      "best": 0.1424,
-      "what": "H Mercury at the Dec midpoint of H Chiron and sky Chiron: span 7.6310, midpoint 1.5499, H Mercury 1.5428, off 0.0071 (same chart)",
+      "n": 3,
+      "best": 0.7538,
+      "what": "H Neptune at the RA midpoint of J Gonggong and sky Gonggong: span 6.9132, midpoint 332.9934, H Neptune 332.9557, off 0.0377 (other chart)",
       "rank": 3
      },
      "P05": {
-      "n": 3,
-      "best": 0.2983,
-      "what": "J Chiron at the Dec midpoint of J Venus and sky Venus: span 0.7210, midpoint -15.8607, J Chiron -15.8458, off 0.0149 (same chart)",
+      "n": 1,
+      "best": 0.8947,
+      "what": "H Ceres at the RA midpoint of J Gonggong and sky Gonggong: span 5.4571, midpoint 333.7215, H Ceres 333.7662, off 0.0447 (other chart)",
       "rank": 4
      },
      "P07": {
@@ -754,20 +760,50 @@
       "what": "H Gonggong at the Dec midpoint of J Neptune and sky Neptune: span 16.8228, midpoint -13.0606, H Gonggong -13.0635, off 0.0030 (other chart)",
       "rank": 1
      },
+     "P11": {
+      "n": 1,
+      "best": 0.3979,
+      "what": "H Gonggong at the Dec midpoint of J Neptune and sky Neptune: span 17.4960, midpoint -13.3971, H Gonggong -13.3772, off 0.0199 (other chart)",
+      "rank": 2
+     }
+    },
+    "tightest": "P07"
+   },
+   "other": {
+    "k": 5,
+    "runners": {
+     "P01": {
+      "n": 1,
+      "best": 0.3915,
+      "what": "H Ceres at the Dec midpoint of H Gonggong and sky Gonggong: span 2.4436, midpoint -12.6332, H Ceres -12.6528, off 0.0196 (same chart)",
+      "rank": 4
+     },
+     "P03": {
+      "n": 5,
+      "best": 0.1424,
+      "what": "H Mercury at the Dec midpoint of H Chiron and sky Chiron: span 7.6310, midpoint 1.5499, H Mercury 1.5428, off 0.0071 (same chart)",
+      "rank": 2
+     },
+     "P05": {
+      "n": 2,
+      "best": 0.2983,
+      "what": "J Chiron at the Dec midpoint of J Venus and sky Venus: span 0.7210, midpoint -15.8607, J Chiron -15.8458, off 0.0149 (same chart)",
+      "rank": 3
+     },
      "P09": {
       "n": 1,
       "best": 0.1288,
       "what": "J Ceres at the Dec midpoint of J Juno and sky Juno: span 7.3137, midpoint -9.2696, J Ceres -9.2760, off 0.0064 (same chart)",
-      "rank": 2
+      "rank": 1
      },
      "P11": {
-      "n": 2,
-      "best": 0.3979,
-      "what": "H Gonggong at the Dec midpoint of J Neptune and sky Neptune: span 17.4960, midpoint -13.3971, H Gonggong -13.3772, off 0.0199 (other chart)",
-      "rank": 6
+      "n": 1,
+      "best": 0.7176,
+      "what": "H Venus at the Dec midpoint of H Transpluto and sky Transpluto: span 1.3214, midpoint 11.0457, H Venus 11.0815, off 0.0359 (same chart)",
+      "rank": 5
      }
     },
-    "tightest": "P07"
+    "tightest": "P09"
    },
    "wide": {
     "k": 5,
@@ -824,15 +860,15 @@
      },
      "P05": {
       "n": 41,
-      "best": 0.431,
-      "what": "soak Node ~18.0466: 4 partners, spread 0.0172, nearest whole 18 (+0.0466), nearest ninth 162/9 = 18.0000 (+0.0466) \u2014 J Rahu \u2013 J Jupiter Dec 18.0380; S Rahu \u2013 J Sedna GC 18.0410; H Rahu \u2013 H Chiron Dec 18.0546; H Ketu \u2013 S Chiron Dec 18.0553",
-      "rank": 5
+      "best": 0.3537,
+      "what": "soak Vesta ~7.5493: 4 partners, spread 0.0141, nearest whole 8 (-0.4507), nearest ninth 68/9 = 7.5556 (-0.0062) \u2014 S Vesta \u2013 S Mars GC 7.5422; H Vesta \u2013 J Pallas Dec 7.5463; H Vesta \u2013 H Neptune Dec 7.5523; S Vesta \u2013 H Gonggong Dec 7.5564; widened to 5 partners, spread 0.0239: + H Vesta \u2013 S Orcus Dec 7.5325",
+      "rank": 4
      },
      "P07": {
       "n": 24,
       "best": 0.371,
       "what": "soak Uranus ~6.5283: 4 partners, spread 0.0148, nearest whole 7 (-0.4717), nearest ninth 59/9 = 6.5556 (-0.0273) \u2014 J Uranus \u2013 J Saturn Dec 6.5208; H Uranus \u2013 H Transpluto Dec 6.5216; J Uranus \u2013 S Mercury Dec 6.5353; H Uranus \u2013 S Eris Dec 6.5357",
-      "rank": 4
+      "rank": 5
      },
      "P09": {
       "n": 24,
@@ -843,7 +879,7 @@
      "P11": {
       "n": 31,
       "best": 0.4545,
-      "what": "soak Mars ~4.6459: 4 partners, spread 0.0182, nearest whole 5 (-0.3541), nearest ninth 42/9 = 4.6667 (-0.0208) \u2014 J Mars \u2013 H Neptune Dec 4.6368; H Mars \u2013 J Ketu Dec 4.6397; H Mars \u2013 S Uranus Dec 4.6548; H Mars \u2013 J Juno Dec 4.6550",
+      "what": "soak Mars ~20.4091: 4 partners, spread 0.0182, nearest whole 20 (+0.4091), nearest ninth 184/9 = 20.4444 (-0.0353) \u2014 H Mars \u2013 H Neptune Dec 20.4001; H Mars \u2013 J Ceres RA 20.4051; J Mars \u2013 S Uranus Dec 20.4181; J Mars \u2013 J Juno Dec 20.4182; widened to 5 partners, spread 0.0394: + S Mars \u2013 H Eris Dec 20.4394",
       "rank": 6
      }
     },

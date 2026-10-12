@@ -114,3 +114,22 @@ Stars excluded everywhere. No Moon. Natal charts at 12:00.
   from BOTH horse and jockey charts. Centre, spread and nearest whole/ninth printed. Field rarity decides, not the count.
 - **F. Node loop (33):** Sedgefield 15:00 — a closed loop of close links (inside a chart and across) through the horse node AND the
   jockey node. Built as cycles of close links of length <= 6 including a node in each chart; the loop printed. Built last.
+
+## 10. As built — CR v1 (12 Oct 2026; tools/checklist_reader.py, tests/checklist_check.py 415/415)
+Built in the four steps, each tested before the next; independent checker run on the whole; its corrections applied and given their own checks.
+Builder's choices beyond the answers (all labelled in the output; for Eddie to keep or change):
+- Item 4: strict = the two bodies within GC 5 in the sky; pairs close only in RA or Dec (often 100°+ apart) go to near.
+- Item 7: swap on exact bodies; a swap needing Rahu one way and Ketu the other is 'other' (needed for Sandown 2024 'ONLY swap').
+- Item 13: slow–slow shared pairs (age) listed as 'other', not dropped (Fontwell Gonggong–Orcus, Sedgefield Haumea–Makemake, York Eris–Haumea).
+- Item 16: Equator-value sets containing a 1 are 'other' (item 16 says not 1).
+- Item 20: same-chart midpoints are 'other' (checklist: the natal body is in the other chart); span 20–60 'wide' in any chart (Tynwald).
+- Item 21: the tightest core sets t; the cluster is then widened (spread <= 0.04) to show every partner. 'near' when the partners are not from both
+  natal charts but the values touch both (Catterick Chiron ~18.3438 — otherwise lost). Ffos Las Juno ~8.889 (no horse chart) does not pass.
+- Item 27: returns of slow bodies (Uranus outward) listed as 'other'.
+- Item 33: no Sedgefield loop exists in close links alone; 'near' loops may close through the same body in both charts (H X = J X, <= 2 steps),
+  which is how Eddie's example closes (J Mercury = H Mercury, J Ketu = H Ketu).
+- Join view: items 14, 18, 30 left out (they are joins or field-relative); a body's same-body sets (16, 17) count on its pairs.
+Checker corrections (12 Oct): item 11 lost node-mirror RA numbers (Sandown 2021 number 118); item 20 same-chart strict; item 21 hid tighter clusters;
+item 16 Equator-value '1' sets and their display; item 3 one strike per plane (now one per direction). t is computed from Layer 1 offsets rounded to
+5 decimals, so for ninths it moves in steps of about 0.02.
+Rates across the 32 read races (winners vs other runners, strict) — docs/classic/checklist_rates.txt.

@@ -333,7 +333,7 @@ P9 = [('ffo', 'H', 'Mars', 'Orcus', 'Gonggong'), ('ffo', 'J', 'Mars', 'Transplut
       ('aw20', 'J', 'Neptune', 'Rahu', 'Neptune')]
 for r, c, a, b, k in P9[:-1]:
     chk(2, 9, f'{A[r]}: {c} {a}–{b} struck on both ends by sky {k}', (lambda r, c, a, b, k: lambda: p9(r, c, a, b, k))(r, c, a, b, k))
-chk(2, 10, 'Sandown 2024: J Mars–Jupiter Dec 50 by THREE (Sun, Uranus, Eris)', lambda: any(x['what'].startswith('J Mars–Jupiter ') and all(f' {k}: ' in x['what'].replace('— ', ' ').replace('; ', ' ') for k in ('Sun', 'Uranus', 'Eris')) for x in find('s24', 10)))
+chk(2, 10, 'Sandown 2024: J Mars–Jupiter Dec 50 by THREE (Sun, Uranus, Eris) — the reader finds 4 (adds sky Mars, Flat 51 | 154)', lambda: any(x['what'].startswith('J Mars–Jupiter ') and all(f' {k}: ' in x['what'].replace('— ', ' ').replace('; ', ' ') for k in ('Sun', 'Uranus', 'Eris')) for x in find('s24', 10)))
 chk(2, 10, 'Ffos Las: J Jupiter–Vesta Dec 5 by Ceres and Haumea', lambda: any(x['what'].startswith('J Jupiter–Vesta ') and 'Ceres:' in x['what'] and 'Haumea:' in x['what'] for x in find('ffo', 10)))
 chk(2, 10, 'Newcastle AW 13:30: J Gonggong–Transpluto RA 175 by Chiron and Quaoar', lambda: any(x['what'].startswith('J Gonggong–Transpluto ') and 'Chiron:' in x['what'] and 'Quaoar:' in x['what'] for x in find('aw30', 10)))
 chk(2, 10, 'York 15:45: H Jupiter–Pluto RA 28 by Pluto and Quaoar', lambda: any(x['what'].startswith('H Jupiter–Pluto ') and 'Pluto:' in x['what'] and 'Quaoar:' in x['what'] for x in find('y45', 10)))
@@ -417,12 +417,13 @@ chk(3, 12, 'DIFFERENCE: "across 22 races only Bristol De Mai, Venturous, Wholest
             (A['nab'], P_of('nab', 'Cresswell Queen')), (A['not50'], P_of('not50', 'Gidwa')), (A['y15'], P_of('y15', 'Misemerald'))]))
 # 20 midpoint
 chk(3, 20, 'Haydock 14:20: J Ketu at the RA midpoint of H Orcus and sky Orcus (span 2.816, off 0.026)', lambda: has('hy20', 20, 'J Ketu at the RA midpoint of H Orcus and sky Orcus', 'span 2.8164', 'off 0.0264'))
-chk(3, 20, 'Haydock 14:20 field: ONLY runner with an RA midpoint (span < 20)', lambda: sorted(P for P in F('hy20')['per_runner'] if any('RA midpoint' in x['what'] for x in find('hy20', 20, P=P))) == ['P03'])
+chk(3, 20, 'DIFFERENCE: Haydock 14:20 "ONLY runner with a natal body at such a midpoint" holds in RA only; with Dec tested too (answer D) P05, P07, P11 have other-chart Dec midpoints',
+    lambda: sorted(P for P in F('hy20')['per_runner'] if any('RA midpoint' in x['what'] for x in find('hy20', 20, P=P))) == ['P03'] and {'P05', 'P07', 'P11'} <= set(who('hy20', 20)))
 chk(3, 20, 'Haydock 14:20: Tynwald in the wide list — J Saturn at the midpoint of J Juno and sky Juno, span 21.7, off 0.025',
     lambda: has('hy20', 20, 'J Saturn at the RA midpoint of J Juno and sky Juno', 'span 21.71', 'off 0.0248', P=P_of('hy20', 'Tynwald'), level='wide'))
 chk(3, 20, 'Carlisle (related): J Sun at the Dec midpoint of H Sun and sky Sun', lambda: has('car', 20, 'J Sun at the Dec midpoint of H Sun and sky Sun'))
 # 21 soak
-chk(3, 21, 'Haydock 14:20: Orcus ~9.79 soak (sky Orcus–Eris, H Orcus – sky Sun, H Orcus–Pallas, ...)', lambda: any('S Orcus – S Eris Dec 9.7751' in x['what'] and 'H Orcus – H Pallas Dec 9.7890' in x['what'] for x in find('hy20', 21, 'soak Orcus ~9.7')))
+chk(3, 21, 'Haydock 14:20: Orcus ~9.79 soak (sky Orcus–Eris, H Orcus – sky Sun, H Orcus–Pallas, ...)', lambda: any('S Orcus – S Eris Dec 9.7751' in x['what'] and 'H Orcus – H Pallas Dec 9.7890' in x['what'] for x in find('hy20', 21, ('soak Orcus ~9.7', 'soak Orcus ~9.8'))))
 chk(3, 21, 'Haydock 14:20: Eris ~20.32 soak (H Mercury, H Pluto, J Juno, J Chiron)', lambda: any(all(t in x['what'] for t in ('H Mercury', 'H Pluto', 'J Juno', 'J Chiron')) for x in find('hy20', 21, 'soak Eris ~20.3')))
 chk(3, 21, 'Catterick: Chiron ~18.3438 spread 0.0014 (EXPLAINED: near — partners S Mars, H Eris, H Ceres, S Quaoar, no jockey partner; the jockey only as Chiron)',
     lambda: has('cat', 21, 'soak Chiron ~18.3438', 'spread 0.0014', level='near'))
@@ -454,6 +455,16 @@ def stable():
     outs = [subprocess.run([sys.executable, '-c', code], capture_output=True, text=True, env={**os.environ, 'PYTHONHASHSEED': seed}).stdout for seed in ('0', '1', '42')]
     return outs[0] and outs[0] == outs[1] == outs[2]
 chk(4, 0, 'Same output under three different Python hash seeds (no set order)', stable)
+
+
+# ============================================================== from the independent checker (12 Oct 2026)
+chk(2, 11, 'Checker: Sandown 2021 number 118 — H Pallas–Ketu RA 118.00051 | J Sun–Mars RA 118.00372 (a node mirror link keeps its own number)', lambda: has('s21', 11, 'number 118: ', 'H Pallas–Ketu RA 118.00051', 'J Sun–Mars RA 118.00372'))
+chk(3, 20, 'Checker: same-chart midpoints are not strict (checklist: other chart) — Tynwald stays in the wide list', lambda: all(x['level'] != 'strict' for r in ('hy20', 'exe', 'y15') for P in F(r)['per_runner']
+                                                                                                                                  for x in find(r, 20, P=P, level=None) if '(same chart)' in x['what']))
+chk(1, 16, 'Checker: Equator-value sets with a ratio of 1 are other, not strict — Lingfield P01 Rahu 7/6 : 1 : 7/6', lambda: has('lin', 16, 'same-body Rahu EqValue', '7/6 : 1 : 7/6', P='P01', level='other')
+                                                                                                                       and not any(' : 1 ' in x['what'] or x['what'].split(' -> ')[1].startswith('1 ') for r in A for x in find(r, 16, P=None if False else W[A[r]])))
+chk(3, 21, 'Checker: the tightest soak is reported — Haydock 14:20 P01 node ~28.56 spread 0.0086 (t 0.215)', lambda: any(abs(x['t'] - 0.215) < 0.001 and 'spread 0.0086' in x['what'] for x in find('hy20', 21, 'soak Node ~28.5', P='P01')))
+chk(2, 3, 'Checker: one partner strike per direction — Haydock 14:20 P07 H Transpluto – J Mercury listed once (Dec 15, also Flat 36)', lambda: len([x for x in find('hy20', 3, P='P07', level=None) if xl(x, 'Transpluto', 'Mercury')]) == 1)
 
 # ============================================================== run
 if __name__ == '__main__':

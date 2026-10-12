@@ -512,7 +512,7 @@
    "item": 3,
    "level": "strict",
    "t": 0.372,
-   "what": "H Venus \u2013 J Ceres RA 0.3585 Dec 8.1751 \u2014 partner sky Ceres -> H Venus Dec 38.00186 (38)",
+   "what": "H Venus \u2013 J Ceres RA 0.3585 Dec 8.1751 \u2014 partner sky Ceres -> H Venus Dec 38.00186 (38) (also RA 139)",
    "bodies": [
     "H Venus",
     "J Ceres"
@@ -544,25 +544,6 @@
     21,
     24,
     27
-   ]
-  },
-  {
-   "item": 3,
-   "level": "strict",
-   "t": 0.956,
-   "what": "H Venus \u2013 J Ceres RA 0.3585 Dec 8.1751 \u2014 partner sky Ceres -> H Venus RA 138.99522 (139)",
-   "bodies": [
-    "H Venus",
-    "J Ceres"
-   ],
-   "pair": "Ceres\u2013Venus",
-   "derived": false,
-   "joined": [
-    2,
-    19,
-    21,
-    24,
-    28
    ]
   },
   {
@@ -1685,6 +1666,33 @@
   {
    "item": 21,
    "level": "strict",
+   "t": 0.4975,
+   "what": "soak Eris ~11.7503: 4 partners, spread 0.0199, nearest whole 12 (-0.2497), nearest ninth 106/9 = 11.7778 (-0.0275) \u2014 J Eris \u2013 H Uranus RA 11.7404; H Eris \u2013 S Venus Dec 11.7548; J Eris \u2013 J Pallas GC 11.7572; S Eris \u2013 H Transpluto Dec 11.7603",
+   "bodies": [
+    "H Eris",
+    "H Transpluto",
+    "H Uranus",
+    "J Eris",
+    "J Pallas"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 11.7503,
+   "partners": 4,
+   "joined": [
+    9,
+    13,
+    16,
+    19,
+    22,
+    24,
+    25,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
    "t": 0.5024,
    "what": "soak Sedna ~23.7641: 4 partners, spread 0.0201, nearest whole 24 (-0.2359), nearest ninth 214/9 = 23.7778 (-0.0137) \u2014 H Sedna \u2013 H Uranus Flat 23.7540; S Sedna \u2013 H Quaoar Dec 23.7540; J Sedna \u2013 J Eris GC 23.7697; S Sedna \u2013 S Quaoar Dec 23.7741",
    "bodies": [
@@ -1817,28 +1825,28 @@
   {
    "item": 21,
    "level": "strict",
-   "t": 0.6795,
-   "what": "soak Eris ~11.7540: 4 partners, spread 0.0272, nearest whole 12 (-0.2460), nearest ninth 106/9 = 11.7778 (-0.0238) \u2014 J Eris \u2013 H Uranus RA 11.7404; H Eris \u2013 S Venus Dec 11.7548; J Eris \u2013 J Pallas GC 11.7572; S Eris \u2013 H Transpluto Dec 11.7603; J Eris \u2013 J Pallas Flat 11.7676",
+   "t": 0.6553,
+   "what": "soak Venus ~13.2072: 4 partners, spread 0.0262, nearest whole 13 (+0.2072), nearest ninth 119/9 = 13.2222 (-0.0150) \u2014 J Venus \u2013 J Chiron Dec 13.1941; S Venus \u2013 S Neptune Dec 13.2012; S Venus \u2013 H Rahu Dec 13.2045; H Venus \u2013 S Jupiter Dec 13.2203; widened to 5 partners, spread 0.0365: + H Venus \u2013 S Haumea Dec 13.2306",
    "bodies": [
-    "H Eris",
-    "H Transpluto",
-    "H Uranus",
-    "J Eris",
-    "J Pallas"
+    "H Node",
+    "H Venus",
+    "J Chiron",
+    "J Venus"
    ],
    "pair": null,
    "derived": false,
-   "centre": 11.754,
-   "partners": 4,
+   "centre": 13.2072,
+   "partners": 5,
    "joined": [
-    9,
+    2,
+    3,
+    6,
     13,
-    16,
     19,
     22,
     24,
-    25,
-    27
+    27,
+    28
    ]
   },
   {
@@ -2046,33 +2054,6 @@
     22,
     24,
     27
-   ]
-  },
-  {
-   "item": 21,
-   "level": "strict",
-   "t": 0.9135,
-   "what": "soak Venus ~13.2123: 5 partners, spread 0.0365, nearest whole 13 (+0.2123), nearest ninth 119/9 = 13.2222 (-0.0099) \u2014 J Venus \u2013 J Chiron Dec 13.1941; S Venus \u2013 S Neptune Dec 13.2012; S Venus \u2013 H Rahu Dec 13.2045; H Venus \u2013 S Jupiter Dec 13.2203; H Venus \u2013 S Haumea Dec 13.2306",
-   "bodies": [
-    "H Node",
-    "H Venus",
-    "J Chiron",
-    "J Venus"
-   ],
-   "pair": null,
-   "derived": false,
-   "centre": 13.2123,
-   "partners": 5,
-   "joined": [
-    2,
-    3,
-    6,
-    13,
-    19,
-    22,
-    24,
-    27,
-    28
    ]
   },
   {
@@ -5844,6 +5825,23 @@
     21,
     22,
     24
+   ]
+  },
+  {
+   "item": 27,
+   "level": "other",
+   "t": 0.8188,
+   "what": "RETURN sky Gonggong on H Gonggong RA 0.2456 Dec 0.4938 (slow body)",
+   "bodies": [
+    "H Gonggong"
+   ],
+   "pair": null,
+   "derived": false,
+   "kind": "return",
+   "joined": [
+    13,
+    21,
+    22
    ]
   },
   {

@@ -1408,6 +1408,32 @@
   {
    "item": 21,
    "level": "strict",
+   "t": 0.2495,
+   "what": "soak Node ~5.2821: 4 partners, spread 0.0100, nearest whole 5 (+0.2821), nearest ninth 48/9 = 5.3333 (-0.0513) \u2014 H Rahu \u2013 J Chiron Dec 5.2771; S Rahu \u2013 H Chiron GC 5.2834; S Ketu \u2013 S Eris Dec 5.2845; H Rahu \u2013 S Venus Dec 5.2870",
+   "bodies": [
+    "H Chiron",
+    "H Node",
+    "J Chiron"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 5.2821,
+   "partners": 4,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
    "t": 0.3529,
    "what": "soak Node ~16.8532: 4 partners, spread 0.0141, nearest whole 17 (-0.1468), nearest ninth 152/9 = 16.8889 (-0.0357) \u2014 H Ketu \u2013 J Uranus GC 16.8462; H Rahu \u2013 H Pallas Dec 16.8484; J Rahu \u2013 J Mars RA 16.8533; S Ketu \u2013 J Saturn Dec 16.8603",
    "bodies": [
@@ -1545,6 +1571,31 @@
   {
    "item": 21,
    "level": "strict",
+   "t": 0.5155,
+   "what": "soak Vesta ~8.1005: 4 partners, spread 0.0206, nearest whole 8 (+0.1005), nearest ninth 73/9 = 8.1111 (-0.0106) \u2014 H Vesta \u2013 J Venus RA 8.0902; H Vesta \u2013 H Transpluto RA 8.0914; H Vesta \u2013 S Juno GC 8.1090; H Vesta \u2013 S Transpluto Dec 8.1108; widened to 5 partners, spread 0.0378: + J Vesta \u2013 H Pallas Dec 8.0731",
+   "bodies": [
+    "H Pallas",
+    "H Transpluto",
+    "H Vesta",
+    "J Venus",
+    "J Vesta"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 8.1005,
+   "partners": 5,
+   "joined": [
+    2,
+    9,
+    19,
+    22,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
    "t": 0.5499,
    "what": "soak Node ~10.3188: 4 partners, spread 0.0220, nearest whole 10 (+0.3188), nearest ninth 93/9 = 10.3333 (-0.0145) \u2014 J Ketu \u2013 S Venus Dec 10.3079; J Ketu \u2013 J Chiron Dec 10.3178; J Rahu \u2013 J Sedna Dec 10.3229; S Rahu \u2013 H Ceres GC 10.3298",
    "bodies": [
@@ -1560,6 +1611,36 @@
    "joined": [
     9,
     13,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.588,
+   "what": "soak Node ~141.6474: 4 partners, spread 0.0235, nearest whole 142 (-0.3526), nearest ninth 1275/9 = 141.6667 (-0.0193) \u2014 J Ketu \u2013 H Ceres Flat 141.6356; H Ketu \u2013 H Sun Flat 141.6360; S Ketu \u2013 S Uranus GC 141.6399; S Rahu \u2013 J Quaoar RA 141.6591; widened to 5 partners, spread 0.0350: + S Rahu \u2013 H Orcus GC 141.6242",
+   "bodies": [
+    "H Ceres",
+    "H Node",
+    "H Orcus",
+    "H Sun",
+    "J Node",
+    "J Quaoar"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 141.6474,
+   "partners": 5,
+   "joined": [
+    2,
+    3,
+    6,
+    9,
+    13,
+    19,
     22,
     23,
     24,
@@ -1796,62 +1877,6 @@
   {
    "item": 21,
    "level": "strict",
-   "t": 0.8544,
-   "what": "soak Node ~5.2941: 4 partners, spread 0.0342, nearest whole 5 (+0.2941), nearest ninth 48/9 = 5.3333 (-0.0392) \u2014 H Rahu \u2013 J Chiron Dec 5.2771; S Rahu \u2013 H Chiron GC 5.2834; S Ketu \u2013 S Eris Dec 5.2845; H Rahu \u2013 S Venus Dec 5.2870; S Rahu \u2013 H Chiron RA 5.3037; S Rahu \u2013 H Chiron Flat 5.3112",
-   "bodies": [
-    "H Chiron",
-    "H Node",
-    "J Chiron"
-   ],
-   "pair": null,
-   "derived": false,
-   "centre": 5.2941,
-   "partners": 4,
-   "joined": [
-    2,
-    3,
-    9,
-    13,
-    19,
-    22,
-    23,
-    24,
-    27
-   ]
-  },
-  {
-   "item": 21,
-   "level": "strict",
-   "t": 0.8746,
-   "what": "soak Node ~141.6416: 5 partners, spread 0.0350, nearest whole 142 (-0.3584), nearest ninth 1275/9 = 141.6667 (-0.0250) \u2014 S Rahu \u2013 H Orcus GC 141.6242; J Ketu \u2013 H Ceres Flat 141.6356; H Ketu \u2013 H Sun Flat 141.6360; S Ketu \u2013 S Uranus GC 141.6399; S Rahu \u2013 J Quaoar RA 141.6591",
-   "bodies": [
-    "H Ceres",
-    "H Node",
-    "H Orcus",
-    "H Sun",
-    "J Node",
-    "J Quaoar"
-   ],
-   "pair": null,
-   "derived": false,
-   "centre": 141.6416,
-   "partners": 5,
-   "joined": [
-    2,
-    3,
-    6,
-    9,
-    13,
-    19,
-    22,
-    23,
-    24,
-    27
-   ]
-  },
-  {
-   "item": 21,
-   "level": "strict",
    "t": 0.9305,
    "what": "soak Uranus ~10.5493: 4 partners, spread 0.0372, nearest whole 11 (-0.4507), nearest ninth 95/9 = 10.5556 (-0.0063) \u2014 H Uranus \u2013 H Mars Dec 10.5307; H Uranus \u2013 J Sedna Dec 10.5444; H Uranus \u2013 S Mercury GC 10.5576; H Uranus \u2013 S Eris RA 10.5679",
    "bodies": [
@@ -1893,31 +1918,6 @@
     19,
     22,
     23,
-    24,
-    27
-   ]
-  },
-  {
-   "item": 21,
-   "level": "strict",
-   "t": 0.9438,
-   "what": "soak Vesta ~8.0919: 5 partners, spread 0.0378, nearest whole 8 (+0.0919), nearest ninth 73/9 = 8.1111 (-0.0192) \u2014 J Vesta \u2013 H Pallas Dec 8.0731; H Vesta \u2013 J Venus RA 8.0902; H Vesta \u2013 H Transpluto RA 8.0914; H Vesta \u2013 S Juno GC 8.1090; H Vesta \u2013 S Transpluto Dec 8.1108",
-   "bodies": [
-    "H Pallas",
-    "H Transpluto",
-    "H Vesta",
-    "J Venus",
-    "J Vesta"
-   ],
-   "pair": null,
-   "derived": false,
-   "centre": 8.0919,
-   "partners": 5,
-   "joined": [
-    2,
-    9,
-    19,
-    22,
     24,
     27
    ]
@@ -2100,6 +2100,32 @@
   {
    "item": 21,
    "level": "near",
+   "t": 0.1667,
+   "what": "soak Node ~41.7675: 4 partners, spread 0.0067, nearest whole 42 (-0.2325), nearest ninth 376/9 = 41.7778 (-0.0102) (partners not from both natal charts) \u2014 H Rahu \u2013 S Mercury GC 41.7642; J Rahu \u2013 H Eris GC 41.7685; S Ketu \u2013 S Transpluto Flat 41.7708; J Rahu \u2013 S Pluto GC 41.7709; widened to 5 partners, spread 0.0375: + S Rahu \u2013 S Jupiter RA 41.7334",
+   "bodies": [
+    "H Eris",
+    "H Node",
+    "J Node"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 41.7675,
+   "partners": 5,
+   "joined": [
+    2,
+    3,
+    9,
+    13,
+    19,
+    22,
+    23,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "near",
    "t": 0.4845,
    "what": "soak Node ~14.8684: 4 partners, spread 0.0194, nearest whole 15 (-0.1316), nearest ninth 134/9 = 14.8889 (-0.0205) (partners not from both natal charts) \u2014 J Rahu \u2013 S Neptune RA 14.8587; S Rahu \u2013 S Eris Flat 14.8611; H Ketu \u2013 H Juno Dec 14.8738; J Rahu \u2013 S Mercury Dec 14.8781",
    "bodies": [
@@ -2170,6 +2196,29 @@
     19,
     24,
     25,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "near",
+   "t": 0.6132,
+   "what": "soak Saturn ~33.8257: 4 partners, spread 0.0245, nearest whole 34 (-0.1743), nearest ninth 304/9 = 33.7778 (+0.0480) (partners not from both natal charts) \u2014 J Saturn \u2013 S Pluto GC 33.8135; S Saturn \u2013 S Chiron GC 33.8209; J Saturn \u2013 H Sun Dec 33.8317; H Saturn \u2013 H Haumea Dec 33.8380; widened to 5 partners, spread 0.0398: + H Saturn \u2013 S Quaoar GC 33.8533",
+   "bodies": [
+    "H Haumea",
+    "H Saturn",
+    "H Sun",
+    "J Saturn"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 33.8257,
+   "partners": 5,
+   "joined": [
+    2,
+    19,
+    22,
+    24,
     27
    ]
   },
@@ -2294,55 +2343,6 @@
     19,
     22,
     23,
-    24,
-    27
-   ]
-  },
-  {
-   "item": 21,
-   "level": "near",
-   "t": 0.9381,
-   "what": "soak Node ~41.7521: 5 partners, spread 0.0375, nearest whole 42 (-0.2479), nearest ninth 376/9 = 41.7778 (-0.0257) (partners not from both natal charts) \u2014 S Rahu \u2013 S Jupiter RA 41.7334; H Rahu \u2013 S Mercury GC 41.7642; J Rahu \u2013 H Eris GC 41.7685; S Ketu \u2013 S Transpluto Flat 41.7708; J Rahu \u2013 S Pluto GC 41.7709",
-   "bodies": [
-    "H Eris",
-    "H Node",
-    "J Node"
-   ],
-   "pair": null,
-   "derived": false,
-   "centre": 41.7521,
-   "partners": 5,
-   "joined": [
-    2,
-    3,
-    9,
-    13,
-    19,
-    22,
-    23,
-    24,
-    27
-   ]
-  },
-  {
-   "item": 21,
-   "level": "near",
-   "t": 0.9952,
-   "what": "soak Saturn ~33.8334: 5 partners, spread 0.0398, nearest whole 34 (-0.1666), nearest ninth 305/9 = 33.8889 (-0.0555) (partners not from both natal charts) \u2014 J Saturn \u2013 S Pluto GC 33.8135; S Saturn \u2013 S Chiron GC 33.8209; J Saturn \u2013 H Sun Dec 33.8317; H Saturn \u2013 H Haumea Dec 33.8380; H Saturn \u2013 S Quaoar GC 33.8533",
-   "bodies": [
-    "H Haumea",
-    "H Saturn",
-    "H Sun",
-    "J Saturn"
-   ],
-   "pair": null,
-   "derived": false,
-   "centre": 33.8334,
-   "partners": 5,
-   "joined": [
-    2,
-    19,
-    22,
     24,
     27
    ]

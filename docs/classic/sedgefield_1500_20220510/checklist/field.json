@@ -121,9 +121,9 @@
       "rank": 1
      },
      "P03": {
-      "n": 3,
+      "n": 2,
       "best": 1.4535,
-      "what": "H Venus \u2013 J Ketu RA 3.1582 Dec 0.4361 (near band) \u2014 partner sky Ketu -> H Venus RA 167.11106 (1504/9)",
+      "what": "H Venus \u2013 J Ketu RA 3.1582 Dec 0.4361 (near band) \u2014 partner sky Rahu -> H Venus RA 12.88894 (116/9) (also RA 1504/9)",
       "rank": 3
      },
      "P05": {
@@ -617,7 +617,25 @@
   },
   "20": {
    "strict": {
-    "k": 4,
+    "k": 2,
+    "runners": {
+     "P05": {
+      "n": 1,
+      "best": 0.3365,
+      "what": "H Venus at the Dec midpoint of J Sedna and sky Sedna: span 3.0642, midpoint 6.8294, H Venus 6.8462, off 0.0168 (other chart)",
+      "rank": 1
+     },
+     "P09": {
+      "n": 2,
+      "best": 0.3653,
+      "what": "J Quaoar at the Dec midpoint of H Mars and sky Mars: span 17.5161, midpoint -14.6306, J Quaoar -14.6489, off 0.0183 (other chart)",
+      "rank": 2
+     }
+    },
+    "tightest": "P05"
+   },
+   "other": {
+    "k": 3,
     "runners": {
      "P01": {
       "n": 2,
@@ -626,7 +644,7 @@
       "rank": 2
      },
      "P05": {
-      "n": 4,
+      "n": 3,
       "best": 0.1249,
       "what": "H Jupiter at the Dec midpoint of H Juno and sky Juno: span 2.9074, midpoint -3.8672, H Jupiter -3.8610, off 0.0062 (same chart)",
       "rank": 1
@@ -635,12 +653,6 @@
       "n": 1,
       "best": 0.8105,
       "what": "J Pallas at the Dec midpoint of J Juno and sky Juno: span 7.0585, midpoint 1.1157, J Pallas 1.1563, off 0.0405 (same chart)",
-      "rank": 4
-     },
-     "P09": {
-      "n": 2,
-      "best": 0.3653,
-      "what": "J Quaoar at the Dec midpoint of H Mars and sky Mars: span 17.5161, midpoint -14.6306, J Quaoar -14.6489, off 0.0183 (other chart)",
       "rank": 3
      }
     },
@@ -683,36 +695,36 @@
     "runners": {
      "P01": {
       "n": 17,
-      "best": 0.443,
-      "what": "soak Transpluto ~11.6436: 4 partners, spread 0.0177, nearest whole 12 (-0.3564), nearest ninth 105/9 = 11.6667 (-0.0231) \u2014 S Transpluto \u2013 J Haumea Dec 11.6347; J Transpluto \u2013 H Makemake Dec 11.6413; S Transpluto \u2013 S Eris Dec 11.6479; S Transpluto \u2013 H Mars Dec 11.6525",
+      "best": 0.3852,
+      "what": "soak Node ~4.0315: 4 partners, spread 0.0154, nearest whole 4 (+0.0315), nearest ninth 36/9 = 4.0000 (+0.0315) \u2014 S Ketu \u2013 J Quaoar Dec 4.0238; H Ketu \u2013 H Gonggong RA 4.0355; J Ketu \u2013 H Sun Dec 4.0390; H Ketu \u2013 S Vesta RA 4.0392; widened to 5 partners, spread 0.0304: + H Ketu \u2013 H Quaoar Dec 4.0534; H Ketu \u2013 H Gonggong GC 4.0542",
       "rank": 5
      },
      "P03": {
       "n": 36,
       "best": 0.1084,
       "what": "soak Node ~65.0078: 4 partners, spread 0.0043, nearest whole 65 (+0.0078), nearest ninth 585/9 = 65.0000 (+0.0078) \u2014 S Ketu \u2013 J Neptune Flat 65.0056; H Rahu \u2013 J Juno RA 65.0068; J Ketu \u2013 H Neptune Flat 65.0090; H Rahu \u2013 H Juno RA 65.0099",
-      "rank": 1
+      "rank": 2
      },
      "P05": {
       "n": 38,
-      "best": 0.3135,
-      "what": "soak Node ~86.7237: 4 partners, spread 0.0125, nearest whole 87 (-0.2763), nearest ninth 781/9 = 86.7778 (-0.0541) \u2014 H Ketu \u2013 H Sedna RA 86.7174; H Ketu \u2013 J Ceres Flat 86.7185; J Ketu \u2013 S Sedna Flat 86.7242; J Ketu \u2013 J Pluto GC 86.7300",
+      "best": 0.14,
+      "what": "soak Sun ~4.1425: 4 partners, spread 0.0056, nearest whole 4 (+0.1425), nearest ninth 37/9 = 4.1111 (+0.0314) \u2014 S Sun \u2013 J Vesta Dec 4.1397; J Sun \u2013 S Rahu Dec 4.1398; S Sun \u2013 J Haumea Dec 4.1440; H Sun \u2013 H Ceres GC 4.1453; widened to 5 partners, spread 0.0154: + H Sun \u2013 H Haumea Dec 4.1552",
       "rank": 3
      },
      "P07": {
       "n": 25,
-      "best": 0.3389,
-      "what": "soak Node ~4.0289: 4 partners, spread 0.0136, nearest whole 4 (+0.0289), nearest ninth 36/9 = 4.0000 (+0.0289) \u2014 S Rahu \u2013 J Transpluto Dec 4.0222; H Rahu \u2013 J Pluto Dec 4.0261; H Rahu \u2013 H Jupiter GC 4.0284; H Rahu \u2013 S Chiron Dec 4.0331; H Rahu \u2013 H Jupiter Flat 4.0357",
-      "rank": 4
+      "best": 0.0923,
+      "what": "soak Node ~2.6650: 4 partners, spread 0.0037, nearest whole 3 (-0.3350), nearest ninth 24/9 = 2.6667 (-0.0016) \u2014 S Rahu \u2013 S Sun RA 2.6632; S Ketu \u2013 H Saturn Dec 2.6648; H Ketu \u2013 H Juno Dec 2.6650; H Ketu \u2013 J Pluto Dec 2.6669; widened to 5 partners, spread 0.0380: + S Ketu \u2013 H Quaoar Dec 2.7012",
+      "rank": 1
      },
      "P09": {
       "n": 20,
       "best": 0.3082,
       "what": "soak Saturn ~32.4612: 4 partners, spread 0.0123, nearest whole 32 (+0.4612), nearest ninth 292/9 = 32.4444 (+0.0167) \u2014 S Saturn \u2013 J Jupiter Dec 32.4550; J Saturn \u2013 H Sun GC 32.4570; H Saturn \u2013 J Pallas Dec 32.4643; H Saturn \u2013 H Uranus Dec 32.4673",
-      "rank": 2
+      "rank": 4
      }
     },
-    "tightest": "P03"
+    "tightest": "P07"
    },
    "near": {
     "k": 5,
@@ -727,13 +739,13 @@
       "n": 5,
       "best": 0.6146,
       "what": "soak Transpluto ~11.6356: 4 partners, spread 0.0246, nearest whole 12 (-0.3644), nearest ninth 105/9 = 11.6667 (-0.0310) (partners not from both natal charts) \u2014 J Transpluto \u2013 H Jupiter Flat 11.6233; H Transpluto \u2013 S Makemake Dec 11.6287; J Transpluto \u2013 S Venus Dec 11.6437; S Transpluto \u2013 S Eris Dec 11.6479",
-      "rank": 3
+      "rank": 4
      },
      "P05": {
       "n": 15,
-      "best": 0.6187,
-      "what": "soak Transpluto ~125.5015: 4 partners, spread 0.0247, nearest whole 126 (-0.4985), nearest ninth 1130/9 = 125.5556 (-0.0540) (partners not from both natal charts) \u2014 J Transpluto \u2013 H Venus Flat 125.4891; S Transpluto \u2013 S Quaoar Flat 125.4924; J Transpluto \u2013 H Pallas Flat 125.4934; H Transpluto \u2013 S Eris GC 125.5139",
-      "rank": 4
+      "best": 0.4652,
+      "what": "soak Quaoar ~13.1862: 4 partners, spread 0.0186, nearest whole 13 (+0.1862), nearest ninth 119/9 = 13.2222 (-0.0360) (partners not from both natal charts) \u2014 H Quaoar \u2013 S Pallas Dec 13.1769; S Quaoar \u2013 H Pluto RA 13.1871; J Quaoar \u2013 S Jupiter Dec 13.1909; S Quaoar \u2013 H Saturn GC 13.1955; widened to 5 partners, spread 0.0359: + H Quaoar \u2013 H Eris Dec 13.1596",
+      "rank": 3
      },
      "P07": {
       "n": 16,

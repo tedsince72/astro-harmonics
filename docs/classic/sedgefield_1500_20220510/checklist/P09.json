@@ -2226,6 +2226,35 @@
   {
    "item": 21,
    "level": "strict",
+   "t": 0.8281,
+   "what": "soak Sun ~32.4735: 4 partners, spread 0.0331, nearest whole 32 (+0.4735), nearest ninth 292/9 = 32.4444 (+0.0291) \u2014 H Sun \u2013 J Saturn GC 32.4570; J Sun \u2013 H Orcus Dec 32.4586; S Sun \u2013 H Pallas Flat 32.4630; S Sun \u2013 S Vesta Dec 32.4901; widened to 5 partners, spread 0.0349: + H Sun \u2013 S Mars Flat 32.4919",
+   "bodies": [
+    "H Orcus",
+    "H Pallas",
+    "H Sun",
+    "J Saturn",
+    "J Sun"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 32.4735,
+   "partners": 5,
+   "joined": [
+    2,
+    8,
+    9,
+    10,
+    13,
+    19,
+    22,
+    24,
+    26,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
    "t": 0.8615,
    "what": "soak Node ~92.5119: 4 partners, spread 0.0345, nearest whole 93 (-0.4881), nearest ninth 833/9 = 92.5556 (-0.0437) \u2014 H Ketu \u2013 S Uranus GC 92.4946; S Ketu \u2013 J Orcus RA 92.5029; H Ketu \u2013 H Venus Flat 92.5153; H Ketu \u2013 J Sedna RA 92.5291",
    "bodies": [
@@ -2245,35 +2274,6 @@
     20,
     22,
     24,
-    27
-   ]
-  },
-  {
-   "item": 21,
-   "level": "strict",
-   "t": 0.8719,
-   "what": "soak Sun ~32.4744: 5 partners, spread 0.0349, nearest whole 32 (+0.4744), nearest ninth 292/9 = 32.4444 (+0.0300) \u2014 H Sun \u2013 J Saturn GC 32.4570; J Sun \u2013 H Orcus Dec 32.4586; S Sun \u2013 H Pallas Flat 32.4630; S Sun \u2013 S Vesta Dec 32.4901; H Sun \u2013 S Mars Flat 32.4919",
-   "bodies": [
-    "H Orcus",
-    "H Pallas",
-    "H Sun",
-    "J Saturn",
-    "J Sun"
-   ],
-   "pair": null,
-   "derived": false,
-   "centre": 32.4744,
-   "partners": 5,
-   "joined": [
-    2,
-    8,
-    9,
-    10,
-    13,
-    19,
-    22,
-    24,
-    26,
     27
    ]
   },

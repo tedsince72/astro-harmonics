@@ -110,11 +110,17 @@ def it15(R):
                  f"H:J {x['H:J']}, H:S {x['H:S']}, J:S {x['J:S']} (worst {x['worst_pct']:.4f}%)", [f'H {a}', f'H {b}', f'J {a}', f'J {b}'], pk(a, b), R.der(f'pair_sets:{i}'))
             for i, x in enumerate(R.I['pair_sets']) for a, b in [x['pair'].split('–')]]
 
-def sb_str(x): return f"same-body {x['body']} {x['plane']} S–H {x['sky_horse']:.4f} H–J {x['horse_jockey']:.4f} S–J {x['sky_jockey']:.4f} -> {' : '.join(x['ratios'])} (worst {x['worst_pct']:.4f}%)"
-def sbs(R): return [(i, x) for i, x in enumerate(R.I['same_body']) if not R.mirror(f'same_body:{i}')]
+def sb_str(x):
+    if x['plane'] == 'EqValue':
+        return f"same-body {x['body']} EqValue |Dec| S {x['sky_horse']:.4f} H {x['horse_jockey']:.4f} J {x['sky_jockey']:.4f} -> {' : '.join(x['ratios'])} (worst {x['worst_pct']:.4f}%)"
+    return f"same-body {x['body']} {x['plane']} S–H {x['sky_horse']:.4f} H–J {x['horse_jockey']:.4f} S–J {x['sky_jockey']:.4f} -> {' : '.join(x['ratios'])} (worst {x['worst_pct']:.4f}%)"
+def sbs(R, ones=False):
+    """same-body sets less node mirrors; Equator-value sets containing a ratio of 1 only with ones=True (item 16 says not 1)"""
+    return [(i, x) for i, x in enumerate(R.I['same_body']) if not R.mirror(f'same_body:{i}') and (ones or '1' not in x['ratios'])]
 
 def it16(R):
-    return [inst(16, 'strict', x['worst_pct'] / 0.15, sb_str(x), [f"H {x['body']}", f"J {x['body']}"], pk(x['body'], x['body']), R.der(f'same_body:{i}')) for i, x in sbs(R)]
+    return [inst(16, 'other' if '1' in x['ratios'] else 'strict', x['worst_pct'] / 0.15, sb_str(x) + ('  (contains a 1)' if '1' in x['ratios'] else ''), [f"H {x['body']}", f"J {x['body']}"],
+                 pk(x['body'], x['body']), R.der(f'same_body:{i}')) for i, x in sbs(R, ones=True)]
 
 def it17(R):
     return [inst(17, 'strict', x['worst_pct'] / 0.15, sb_str(x), [f"H {x['body']}", f"J {x['body']}"], pk(x['body'], x['body']), R.der(f'same_body:{i}'))
@@ -161,9 +167,10 @@ def it27(R):
     out = []
     for i, x in enumerate(R.I['contacts']):
         if x['return']:
-            if fold(x['sky']) in {fold(b) for b in MOVING} and x['RA'] < 0.3 and x['Dec'] < 1.2:
-                out.append(inst(27, 'strict', max(x['RA'] / 0.3, x['Dec'] / 1.2), f"RETURN sky {x['sky']} on {x['target']} RA {x['RA']:.4f} Dec {x['Dec']:.4f}",
-                                [x['target']], None, kind='return'))
+            if x['RA'] < 0.3 and x['Dec'] < 1.2:
+                mv = fold(x['sky']) in {fold(b) for b in MOVING}   # returns of slow bodies (Uranus outward) are listed as other: they barely move
+                out.append(inst(27, 'strict' if mv else 'other', max(x['RA'] / 0.3, x['Dec'] / 1.2), f"RETURN sky {x['sky']} on {x['target']} RA {x['RA']:.4f} Dec {x['Dec']:.4f}"
+                                + ('' if mv else ' (slow body)'), [x['target']], None, kind='return'))
             continue
         out.append(inst(27, 'strict' if x['band'] == 'close' else 'near', min(x['RA'] / 1.5, x['Dec'] / 0.3),
                         f"contact sky {x['sky']} on {x['target']} RA {x['RA']:.4f} Dec {x['Dec']:.4f} GC {x['GC']:.4f}", [x['target']], None, kind='contact'))
@@ -206,9 +213,12 @@ def it3(R):
         if fold(x) == fold(y): continue
         lt, lv = t_cross(l), 'strict' if l['close'] else 'near'
         for tgt, sky in ((l['a'], y), (l['b'], x)):
-            for si, s in R.st_by.get(tgt, []):
-                if fold(s['sky']) == fold(sky):
-                    out.append(inst(3, lv, max(lt, t_strike(s)), f"{x_str(l)} — partner {s_str(s)}", [l['a'], l['b']], pk(x, y), R.der(*link_ids(R, li), f'strikes:{si}')))
+            hits = [(t_strike(s), si, s) for si, s in R.st_by.get(tgt, []) if fold(s['sky']) == fold(sky)]
+            if hits:   # one instance per direction: the tightest plane; other planes named
+                t, si, s = min(hits, key=lambda h: (h[0], h[1]))
+                more = [f"{h[2]['plane']} {h[2]['num']}" for h in sorted(hits, key=lambda h: (h[0], h[1]))[1:]]
+                out.append(inst(3, lv, max(lt, t), f"{x_str(l)} — partner {s_str(s)}" + (f" (also {', '.join(more)})" if more else ''), [l['a'], l['b']], pk(x, y),
+                                R.der(*link_ids(R, li), f'strikes:{si}')))
     return out
 
 def it5_6(R):
@@ -267,8 +277,7 @@ def it11(R):
     for li, l in enumerate(R.links):
         if l['kind'] not in 'HJ': continue
         for pl, n in l['nums'].items():
-            iid = f'links:{li}:{pl}'
-            if R.mirror(iid): continue
+            iid = f'links:{li}:{pl}'   # node 'mirror' links are kept: an RA mirror carries its own number (180 - n)
             nums[l['kind']].append((pl, n['num'], t_num(n['off'], n['num']), f"{l['a']}–{bare(l['b'])} {pl} {l[pl]:.5f}", [l['a'], l['b']], iid))
     out = []
     byH = {}
@@ -448,7 +457,7 @@ def it20(R):
                     if y == f'{c} {x}': continue
                     off = abs((P[y][0] - mid + 180) % 360 - 180) if pl == 'RA' else abs(P[y][1] - mid)
                     if off < MID_OFF:
-                        lv = 'strict' if span < MID_SPAN else 'wide'
+                        lv = 'wide' if span >= MID_SPAN else 'strict' if y[0] != c else 'other'   # checklist: the natal body is in the other chart
                         out.append(inst(20, lv, off / MID_OFF, f"{y} at the {pl} midpoint of {c} {x} and sky {x}: span {span:.4f}, midpoint {mid:.4f}, {y} {P[y][0 if pl == 'RA' else 1]:.4f}, "
                                         f"off {off:.4f} ({'same chart' if y[0] == c else 'other chart'})", [f'{c} {x}', y], pk(x, bare(y)), plane=pl, span=r4(span)))
     return out
@@ -471,28 +480,38 @@ def it21(R):
                         v = f(P[xi], P[y])
                         if v >= 0.5: vals.append((v, pl, xi, y))
         vals.sort()
-        wins = []
-        j = 0
-        for i in range(len(vals)):
-            while j < len(vals) and vals[j][0] - vals[i][0] <= SOAK_SPREAD: j += 1
-            W = vals[i:j]
+        def ok(W):
             parts = {w[3] for w in W}
-            if len(parts) < SOAK_MIN: continue
+            if len(parts) < SOAK_MIN or not any(w[2][0] == 'S' or w[3][0] == 'S' for w in W): return None
             pch = {p[0] for p in parts}; vch = pch | {w[2][0] for w in W}
-            if not any(w[2][0] == 'S' or w[3][0] == 'S' for w in W): continue
-            if 'H' in pch and 'J' in pch: lv = 'strict'
-            elif 'H' in vch and 'J' in vch: lv = 'near'      # partners not from both natal charts, but the values touch both (Catterick Chiron)
-            else: continue
-            wins.append((-len(parts), W[-1][0] - W[0][0], i, j, lv))
+            return 'strict' if 'H' in pch and 'J' in pch else 'near' if 'H' in vch and 'J' in vch else None   # near: partners not from both natal charts (Catterick Chiron)
+        wins = []
+        for i in range(len(vals)):   # for each start, the shortest window that qualifies (strict if it can, else near): tightest clusters are not hidden
+            for want in ('strict', 'near'):
+                for j in range(i + SOAK_MIN, len(vals) + 1):
+                    if vals[j - 1][0] - vals[i][0] > SOAK_SPREAD: break
+                    lv = ok(vals[i:j])
+                    if lv == want or (want == 'near' and lv == 'strict'):
+                        wins.append((lv != 'strict', vals[j - 1][0] - vals[i][0], -len({w[3] for w in vals[i:j]}), i, j, lv)); break
         taken = []
-        for np_, sp, i, j, lv in sorted(wins, key=lambda w: (w[4] != 'strict', w[0], w[1], w[2])):
-            lo, hi = vals[i][0], vals[j - 1][0]
-            if any(not (hi < a or lo > b) for a, b in taken): continue
-            taken.append((lo, hi)); W = vals[i:j]
-            centre = (lo + hi) / 2
-            txt = '; '.join(f"{w[2]} – {w[3]} {w[1]} {w[0]:.4f}" for w in W)
-            out.append(inst(21, lv, sp / SOAK_SPREAD, f"soak {X} ~{centre:.4f}: {-np_} partners, spread {sp:.4f}, {near_num(centre)}" + ('' if lv == 'strict' else ' (partners not from both natal charts)') + f" — {txt}",
-                            [w[2] for w in W] + [w[3] for w in W], None, centre=r4(centre), partners=-np_))
+        for _, sp, np_, i, j, lv in sorted(set(wins)):
+            # the tightest core sets t; the cluster is then widened to the window (spread <= 0.04) holding the core with the most partners
+            best = (i, j)
+            for a in range(i, -1, -1):
+                if vals[j - 1][0] - vals[a][0] > SOAK_SPREAD: break
+                b = j
+                while b < len(vals) and vals[b][0] - vals[a][0] <= SOAK_SPREAD: b += 1
+                if len({w[3] for w in vals[a:b]}) > len({w[3] for w in vals[best[0]:best[1]]}): best = (a, b)
+            lo, hi = vals[best[0]][0], vals[best[1] - 1][0]
+            if any(not (hi < x or lo > y) for x, y in taken): continue
+            taken.append((lo, hi))
+            core, W = vals[i:j], vals[best[0]:best[1]]
+            centre = (vals[i][0] + vals[j - 1][0]) / 2
+            extra = [w for w in W if w not in core]
+            txt = '; '.join(f"{w[2]} – {w[3]} {w[1]} {w[0]:.4f}" for w in core)
+            ext = (f"; widened to {len({w[3] for w in W})} partners, spread {hi - lo:.4f}: + " + '; '.join(f"{w[2]} – {w[3]} {w[1]} {w[0]:.4f}" for w in extra)) if extra else ''
+            out.append(inst(21, lv, sp / SOAK_SPREAD, f"soak {X} ~{centre:.4f}: {-np_} partners, spread {sp:.4f}, {near_num(centre)}" + ('' if lv == 'strict' else ' (partners not from both natal charts)')
+                            + f" — {txt}{ext}", [w[2] for w in W] + [w[3] for w in W], None, centre=r4(centre), partners=len({w[3] for w in W})))
     return out
 
 # ---------------------------------------------------------------- step 4: node loop

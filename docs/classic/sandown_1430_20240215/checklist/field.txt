@@ -11,8 +11,8 @@
 [ 3] partner strike
      strict 3 of 7: P03(t 0.300, x1)  P01(t 0.652, x2)  P05(t 0.942, x1)
             tightest P03: H Quaoar – J Uranus RA 0.1336 Dec 8.2722 — partner sky Quaoar -> J Uranus Flat 11.44459 (103/9)
-     near   3 of 7: P03(t 1.109, x2)  P09(t 1.196, x3)  P07(t 1.248, x2)
-            tightest P03: H Mars – J Saturn RA 12.1083 Dec 0.3326 (near band) — partner sky Mars -> J Saturn Dec 1.99744 (2)
+     near   3 of 7: P03(t 1.109, x1)  P09(t 1.196, x3)  P07(t 1.248, x2)
+            tightest P03: H Mars – J Saturn RA 12.1083 Dec 0.3326 (near band) — partner sky Mars -> J Saturn GC 24.00011 (24) (also Dec 2)
 [ 4] cross-link pair together in the sky
      strict 2 of 7: P01(t 0.648, x1)  P05(t 0.846, x1)
             tightest P01: H Pluto – J Mars RA 42.6925 Dec 0.1945 — sky Pluto–Mars GC 2.1227 RA 0.6015 Dec 2.0479
@@ -74,12 +74,14 @@
      strict 5 of 7: P11(t 0.038, x10)  P03(t 0.061, x15)  P01(t 0.062, x20)  P09(t 0.135, x7)  P05(t 0.156, x9)
             tightest P11: J Mercury moved RA (904/9) toward H Chiron: span 136.60018 = 100.44381 + 36.15637; parts 25/9 (0.0094%)
 [20] natal body at the midpoint of X and sky X
-     strict 7 of 7: P03(t 0.010, x5)  P01(t 0.147, x5)  P13(t 0.282, x2)  P09(t 0.284, x3)  P05(t 0.454, x2)  P07(t 0.490, x2)  P11(t 0.730, x2)
+     strict 5 of 7: P03(t 0.010, x5)  P01(t 0.147, x2)  P13(t 0.282, x1)  P05(t 0.454, x2)  P11(t 0.819, x1)
             tightest P03: H Sun at the Dec midpoint of J Chiron and sky Chiron: span 8.5803, midpoint 11.8331, H Sun 11.8336, off 0.0005 (other chart)
+     other  5 of 7: P09(t 0.284, x3)  P01(t 0.429, x3)  P07(t 0.490, x2)  P13(t 0.576, x1)  P11(t 0.730, x1)
+            tightest P09: J Saturn at the Dec midpoint of J Juno and sky Juno: span 7.0777, midpoint 5.1039, J Saturn 5.0896, off 0.0142 (same chart)
      wide   6 of 7: P09(t 0.020, x1)  P07(t 0.100, x3)  P13(t 0.114, x1)  P11(t 0.304, x1)  P03(t 0.692, x1)  P05(t 0.824, x1)
             tightest P09: H Eris at the Dec midpoint of J Jupiter and sky Jupiter: span 31.1255, midpoint -2.0731, H Eris -2.0740, off 0.0010 (other chart)
 [21] soak
-     strict 7 of 7: P01(t 0.207, x28)  P07(t 0.219, x24)  P05(t 0.264, x24)  P13(t 0.283, x44)  P09(t 0.320, x28)  P03(t 0.418, x34)  P11(t 0.543, x18)
+     strict 7 of 7: P01(t 0.207, x28)  P07(t 0.219, x24)  P09(t 0.225, x28)  P05(t 0.264, x24)  P13(t 0.283, x44)  P03(t 0.418, x34)  P11(t 0.441, x18)
             tightest P01: soak Chiron ~18.2123: 4 partners, spread 0.0083, nearest whole 18 (+0.2123), nearest ninth 164/9 = 18.2222 (-0.0099) — J Chiron – J Juno Dec 18.2082; H Chiron – J Haumea Dec 18.2106; H Chiron – S Quaoar Dec 18.2156; S Chiron – H Orcus Dec 18.2165
      near   7 of 7: P05(t 0.133, x18)  P09(t 0.236, x18)  P01(t 0.287, x12)  P13(t 0.291, x6)  P11(t 0.360, x8)  P07(t 0.363, x13)  P03(t 0.573, x8)
             tightest P05: soak Sun ~24.3668: 4 partners, spread 0.0053, nearest whole 24 (+0.3668), nearest ninth 219/9 = 24.3333 (+0.0335) (partners not from both natal charts) — J Sun – S Saturn Dec 24.3642; J Sun – H Juno Dec 24.3650; H Sun – H Neptune GC 24.3658; S Sun – S Mars RA 24.3695

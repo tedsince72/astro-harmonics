@@ -248,7 +248,19 @@
     "k": 1,
     "runners": {
      "P01": {
-      "n": 2,
+      "n": 1,
+      "best": 0.5296,
+      "what": "H Juno at the Dec midpoint of J Eris and sky Eris: span 6.6632, midpoint -11.1754, H Juno -11.1489, off 0.0265 (other chart)",
+      "rank": 1
+     }
+    },
+    "tightest": "P01"
+   },
+   "other": {
+    "k": 1,
+    "runners": {
+     "P01": {
+      "n": 1,
       "best": 0.4902,
       "what": "J Mars at the Dec midpoint of J Uranus and sky Uranus: span 15.9007, midpoint -12.6268, J Mars -12.6513, off 0.0245 (same chart)",
       "rank": 1
@@ -287,8 +299,8 @@
     "runners": {
      "P01": {
       "n": 9,
-      "best": 0.6238,
-      "what": "soak Mars ~27.2409: 4 partners, spread 0.0250, nearest whole 27 (+0.2409), nearest ninth 245/9 = 27.2222 (+0.0187) (partners not from both natal charts) \u2014 H Mars \u2013 S Vesta RA 27.2284; H Mars \u2013 S Uranus RA 27.2341; J Mars \u2013 S Quaoar RA 27.2483; J Mars \u2013 J Saturn Dec 27.2534",
+      "best": 0.3947,
+      "what": "soak Chiron ~9.8693: 4 partners, spread 0.0158, nearest whole 10 (-0.1307), nearest ninth 89/9 = 9.8889 (-0.0196) (partners not from both natal charts) \u2014 H Chiron \u2013 J Ceres Dec 9.8614; J Chiron \u2013 J Saturn Dec 9.8721; H Chiron \u2013 J Transpluto RA 9.8762; H Chiron \u2013 S Mars Flat 9.8772; widened to 5 partners, spread 0.0390: + S Chiron \u2013 J Pluto RA 9.9004",
       "rank": 1
      }
     },

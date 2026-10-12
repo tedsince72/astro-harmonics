@@ -12,8 +12,8 @@
 [ 3] partner strike
      strict 5 of 6: P11(t 0.312, x4)  P03(t 0.520, x1)  P09(t 0.558, x3)  P07(t 0.708, x2)  P01(t 0.912, x2)
             tightest P11: H Juno – J Pallas RA 0.4684 Dec 25.5126 — partner sky Juno -> J Pallas GC 34.00083 (34)
-     near   2 of 6: P03(t 1.004, x2)  P07(t 1.657, x1)
-            tightest P03: H Rahu – J Mars RA 94.4108 Dec 0.3013 (near band) — partner sky Ketu -> J Mars RA 81.99868 (82)
+     near   2 of 6: P03(t 1.004, x1)  P07(t 1.657, x1)
+            tightest P03: H Rahu – J Mars RA 94.4108 Dec 0.3013 (near band) — partner sky Rahu -> J Mars RA 98.00132 (98) (also RA 82)
 [ 4] cross-link pair together in the sky
      near   2 of 6: P07(t 0.218, x2)  P09(t 1.990, x1)
             tightest P07: H Mercury – J Venus RA 28.7787 Dec 0.0209 — sky Mercury–Venus close in Dec only: GC 21.5714 RA 22.4809 Dec 0.0653
@@ -60,12 +60,14 @@
 [15] pair set H:J:S
      none in the field
 [16] same-body set
-     strict 5 of 6: P03(t 0.101, x7)  P11(t 0.192, x6)  P05(t 0.246, x5)  P09(t 0.311, x2)  P01(t 0.470, x4)
+     strict 5 of 6: P03(t 0.101, x7)  P11(t 0.192, x6)  P05(t 0.246, x5)  P09(t 0.311, x2)  P01(t 0.470, x3)
             tightest P03: same-body Orcus RA S–H 9.0339 H–J 11.2941 S–J 20.3280 -> 5/4 : 9/4 : 9/5 (worst 0.0152%)
+     other  ONLY P01: P01(t 0.854, x1)
+            tightest P01: same-body Rahu EqValue |Dec| S 19.9224 H 23.2726 J 23.2697 -> 7/6 : 1 : 7/6 (worst 0.1281%)  (contains a 1)
 [17] same-body Dec 9/4 : 5/4 : 9/5
      none in the field
 [18] same-body set joined to the web
-     strict 5 of 6: P03(t 0.101, x7)  P11(t 0.192, x4)  P05(t 0.246, x5)  P09(t 0.311, x2)  P01(t 0.470, x4)
+     strict 5 of 6: P03(t 0.101, x7)  P11(t 0.192, x4)  P05(t 0.246, x5)  P09(t 0.311, x2)  P01(t 0.470, x3)
             tightest P03: same-body Orcus RA S–H 9.0339 H–J 11.2941 S–J 20.3280 -> 5/4 : 9/4 : 9/5 (worst 0.0152%) — joined by 2: cross H Orcus – J Eris RA 125.2987 Dec 0.2498; cross H Orcus – J Transpluto RA 0.8257 Dec 20.5904
      near   ONLY P11: P11(t 0.485, x2)
             tightest P11: same-body Makemake Dec S–H 4.9721 H–J 8.9562 S–J 13.9283 -> 9/5 : 14/5 : 14/9 (worst 0.0727%) — joined by 1: ratio J Uranus–Makemake GC 11/9
@@ -73,12 +75,14 @@
      strict 6 of 6: P05(t 0.003, x46)  P07(t 0.010, x14)  P01(t 0.014, x35)  P03(t 0.035, x18)  P11(t 0.035, x20)  P09(t 0.160, x14)
             tightest P05: J Eris moved Dec (6) toward H Transpluto: span 19.31327 = 5.99374 + 13.31953; parts 20/9 (0.0008%)
 [20] natal body at the midpoint of X and sky X
-     strict 6 of 6: P07(t 0.059, x3)  P09(t 0.129, x1)  P03(t 0.142, x5)  P05(t 0.298, x3)  P01(t 0.392, x4)  P11(t 0.398, x2)
+     strict 4 of 6: P07(t 0.059, x3)  P11(t 0.398, x1)  P01(t 0.754, x3)  P05(t 0.895, x1)
             tightest P07: H Gonggong at the Dec midpoint of J Neptune and sky Neptune: span 16.8228, midpoint -13.0606, H Gonggong -13.0635, off 0.0030 (other chart)
+     other  5 of 6: P09(t 0.129, x1)  P03(t 0.142, x5)  P05(t 0.298, x2)  P01(t 0.392, x1)  P11(t 0.718, x1)
+            tightest P09: J Ceres at the Dec midpoint of J Juno and sky Juno: span 7.3137, midpoint -9.2696, J Ceres -9.2760, off 0.0064 (same chart)
      wide   5 of 6: P03(t 0.131, x1)  P05(t 0.244, x2)  P07(t 0.392, x1)  P11(t 0.860, x1)  P01(t 0.985, x1)
             tightest P03: H Mercury at the Dec midpoint of H Rahu and sky Rahu: span 36.7723, midpoint 1.5363, H Mercury 1.5428, off 0.0065 (same chart)
 [21] soak
-     strict 6 of 6: P01(t 0.178, x23)  P09(t 0.301, x24)  P03(t 0.303, x25)  P07(t 0.371, x24)  P05(t 0.431, x41)  P11(t 0.455, x31)
+     strict 6 of 6: P01(t 0.178, x23)  P09(t 0.301, x24)  P03(t 0.303, x25)  P05(t 0.354, x41)  P07(t 0.371, x24)  P11(t 0.455, x31)
             tightest P01: soak Neptune ~11.5685: 4 partners, spread 0.0071, nearest whole 12 (-0.4315), nearest ninth 104/9 = 11.5556 (+0.0129) — H Neptune – J Rahu Dec 11.5649; S Neptune – H Sedna Dec 11.5658; H Neptune – H Rahu Dec 11.5678; S Neptune – S Venus Dec 11.5721
      near   6 of 6: P07(t 0.258, x14)  P11(t 0.273, x10)  P05(t 0.303, x11)  P03(t 0.352, x12)  P09(t 0.424, x12)  P01(t 0.459, x8)
             tightest P07: soak Node ~32.2090: 4 partners, spread 0.0103, nearest whole 32 (+0.2090), nearest ninth 290/9 = 32.2222 (-0.0132) (partners not from both natal charts) — J Rahu – H Juno Dec 32.2039; H Ketu – S Sedna RA 32.2078; J Rahu – S Mercury GC 32.2129; S Ketu – S Mars RA 32.2142

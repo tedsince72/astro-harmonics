@@ -34,7 +34,6 @@
     9,
     16,
     19,
-    20,
     21,
     22,
     24
@@ -2138,7 +2137,6 @@
     6,
     8,
     10,
-    20,
     21,
     24,
     27
@@ -2258,27 +2256,6 @@
   {
    "item": 20,
    "level": "strict",
-   "t": 0.6379,
-   "what": "H Neptune at the Dec midpoint of H Vesta and sky Vesta: span 17.8369, midpoint -10.7663, H Neptune -10.7981, off 0.0319 (same chart)",
-   "bodies": [
-    "H Neptune",
-    "H Vesta"
-   ],
-   "pair": "Neptune\u2013Vesta",
-   "derived": false,
-   "plane": "Dec",
-   "span": 17.8369,
-   "joined": [
-    9,
-    21,
-    22,
-    24,
-    27
-   ]
-  },
-  {
-   "item": 20,
-   "level": "strict",
    "t": 0.6506,
    "what": "J Sun at the Dec midpoint of H Mars and sky Mars: span 14.8082, midpoint -12.8556, J Sun -12.8881, off 0.0325 (other chart)",
    "bodies": [
@@ -2299,28 +2276,6 @@
     25,
     27,
     28
-   ]
-  },
-  {
-   "item": 20,
-   "level": "strict",
-   "t": 0.6912,
-   "what": "J Juno at the Dec midpoint of J Chiron and sky Chiron: span 1.8101, midpoint 7.0099, J Juno 7.0445, off 0.0346 (same chart)",
-   "bodies": [
-    "J Chiron",
-    "J Juno"
-   ],
-   "pair": "Chiron\u2013Juno",
-   "derived": false,
-   "plane": "Dec",
-   "span": 1.8101,
-   "joined": [
-    2,
-    19,
-    21,
-    22,
-    24,
-    27
    ]
   },
   {
@@ -2362,6 +2317,49 @@
     13,
     19,
     21,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 20,
+   "level": "other",
+   "t": 0.6379,
+   "what": "H Neptune at the Dec midpoint of H Vesta and sky Vesta: span 17.8369, midpoint -10.7663, H Neptune -10.7981, off 0.0319 (same chart)",
+   "bodies": [
+    "H Neptune",
+    "H Vesta"
+   ],
+   "pair": "Neptune\u2013Vesta",
+   "derived": false,
+   "plane": "Dec",
+   "span": 17.8369,
+   "joined": [
+    9,
+    21,
+    22,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 20,
+   "level": "other",
+   "t": 0.6912,
+   "what": "J Juno at the Dec midpoint of J Chiron and sky Chiron: span 1.8101, midpoint 7.0099, J Juno 7.0445, off 0.0346 (same chart)",
+   "bodies": [
+    "J Chiron",
+    "J Juno"
+   ],
+   "pair": "Chiron\u2013Juno",
+   "derived": false,
+   "plane": "Dec",
+   "span": 1.8101,
+   "joined": [
+    2,
+    19,
+    21,
+    22,
     24,
     27
    ]
@@ -2496,7 +2494,33 @@
     8,
     10,
     19,
+    24,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
+   "t": 0.5987,
+   "what": "soak Neptune ~1.0310: 4 partners, spread 0.0239, nearest whole 1 (+0.0310), nearest ninth 9/9 = 1.0000 (+0.0310) \u2014 J Neptune \u2013 S Mars Dec 1.0191; H Neptune \u2013 H Gonggong RA 1.0194; J Neptune \u2013 J Vesta RA 1.0278; J Neptune \u2013 J Uranus Dec 1.0430",
+   "bodies": [
+    "H Gonggong",
+    "H Neptune",
+    "J Neptune",
+    "J Uranus",
+    "J Vesta"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 1.031,
+   "partners": 4,
+   "joined": [
+    2,
+    9,
+    13,
+    19,
     20,
+    22,
     24,
     27
    ]
@@ -2599,32 +2623,6 @@
    "joined": [
     2,
     13,
-    19,
-    20,
-    22,
-    24,
-    27
-   ]
-  },
-  {
-   "item": 21,
-   "level": "strict",
-   "t": 0.8193,
-   "what": "soak Neptune ~1.0594: 4 partners, spread 0.0328, nearest whole 1 (+0.0594), nearest ninth 10/9 = 1.1111 (-0.0517) \u2014 J Neptune \u2013 J Uranus Dec 1.0430; J Neptune \u2013 J Vesta Flat 1.0527; J Neptune \u2013 H Pluto Dec 1.0663; S Neptune \u2013 J Pluto Dec 1.0758",
-   "bodies": [
-    "H Pluto",
-    "J Neptune",
-    "J Pluto",
-    "J Uranus",
-    "J Vesta"
-   ],
-   "pair": null,
-   "derived": false,
-   "centre": 1.0594,
-   "partners": 4,
-   "joined": [
-    2,
-    9,
     19,
     20,
     22,
@@ -3175,6 +3173,31 @@
   {
    "item": 21,
    "level": "near",
+   "t": 0.826,
+   "what": "soak Neptune ~2.0734: 4 partners, spread 0.0330, nearest whole 2 (+0.0734), nearest ninth 19/9 = 2.1111 (-0.0377) (partners not from both natal charts) \u2014 H Neptune \u2013 J Eris Dec 2.0569; H Neptune \u2013 S Mercury GC 2.0598; S Neptune \u2013 S Sun RA 2.0665; H Neptune \u2013 S Mercury Flat 2.0666; S Neptune \u2013 S Sun GC 2.0884; H Neptune \u2013 J Sun Dec 2.0899",
+   "bodies": [
+    "H Neptune",
+    "J Eris",
+    "J Sun"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 2.0734,
+   "partners": 4,
+   "joined": [
+    2,
+    9,
+    16,
+    19,
+    20,
+    24,
+    25,
+    27
+   ]
+  },
+  {
+   "item": 21,
+   "level": "near",
    "t": 0.8741,
    "what": "soak Juno ~104.5410: 4 partners, spread 0.0350, nearest whole 105 (-0.4590), nearest ninth 941/9 = 104.5556 (-0.0145) (partners not from both natal charts) \u2014 S Juno \u2013 S Sedna GC 104.5235; H Juno \u2013 S Ketu GC 104.5444; S Juno \u2013 H Haumea RA 104.5521; J Juno \u2013 S Jupiter GC 104.5585",
    "bodies": [
@@ -3190,7 +3213,6 @@
     2,
     6,
     19,
-    20,
     22,
     24
    ]
@@ -3217,31 +3239,6 @@
     19,
     22,
     23,
-    24,
-    25,
-    27
-   ]
-  },
-  {
-   "item": 21,
-   "level": "near",
-   "t": 0.902,
-   "what": "soak Neptune ~2.0749: 4 partners, spread 0.0361, nearest whole 2 (+0.0749), nearest ninth 19/9 = 2.1111 (-0.0362) (partners not from both natal charts) \u2014 H Neptune \u2013 J Eris Dec 2.0569; H Neptune \u2013 S Mercury GC 2.0598; S Neptune \u2013 S Sun RA 2.0665; H Neptune \u2013 S Mercury Flat 2.0666; S Neptune \u2013 S Sun GC 2.0884; H Neptune \u2013 J Sun Dec 2.0899; S Neptune \u2013 S Sun Flat 2.0930",
-   "bodies": [
-    "H Neptune",
-    "J Eris",
-    "J Sun"
-   ],
-   "pair": null,
-   "derived": false,
-   "centre": 2.0749,
-   "partners": 4,
-   "joined": [
-    2,
-    9,
-    16,
-    19,
-    20,
     24,
     25,
     27
@@ -3396,7 +3393,6 @@
    "joined": [
     2,
     19,
-    20,
     21,
     24,
     27
@@ -3418,7 +3414,6 @@
    "ratio": "9/4",
    "joined": [
     13,
-    20,
     21,
     24
    ]
@@ -3618,7 +3613,6 @@
     5,
     6,
     19,
-    20,
     21,
     22,
     27
@@ -3661,7 +3655,6 @@
     2,
     6,
     19,
-    20,
     21,
     22
    ]
@@ -3765,7 +3758,6 @@
    "pair": "Chiron\u2013Vesta",
    "derived": false,
    "joined": [
-    20,
     21,
     22
    ]
@@ -3862,7 +3854,6 @@
     9,
     13,
     19,
-    20,
     21,
     22,
     27
@@ -4059,7 +4050,6 @@
     9,
     13,
     19,
-    20,
     21,
     22,
     23,
@@ -4174,7 +4164,6 @@
     8,
     10,
     19,
-    20,
     21,
     22
    ]
@@ -4260,7 +4249,6 @@
     10,
     13,
     19,
-    20,
     21,
     27
    ]
@@ -4550,7 +4538,6 @@
    "derived": false,
    "joined": [
     2,
-    20,
     21,
     22
    ]
@@ -4709,7 +4696,6 @@
    "joined": [
     2,
     19,
-    20,
     21,
     22
    ]
@@ -4764,7 +4750,6 @@
    "derived": false,
    "joined": [
     19,
-    20,
     21,
     27
    ]
@@ -4802,7 +4787,6 @@
    "joined": [
     9,
     13,
-    20,
     21,
     22,
     27
@@ -4826,7 +4810,6 @@
     5,
     6,
     19,
-    20,
     21,
     27
    ]
@@ -4868,7 +4851,6 @@
    "joined": [
     2,
     19,
-    20,
     21,
     22
    ]
@@ -4903,7 +4885,6 @@
    "joined": [
     16,
     19,
-    20,
     21,
     22,
     27
@@ -5166,7 +5147,6 @@
     6,
     13,
     19,
-    20,
     21,
     22,
     27
@@ -5395,7 +5375,6 @@
     2,
     13,
     19,
-    20,
     21,
     22,
     23,
@@ -5417,7 +5396,6 @@
    "joined": [
     2,
     19,
-    20,
     21,
     22,
     27
@@ -5708,7 +5686,6 @@
     2,
     6,
     19,
-    20,
     21
    ]
   },
@@ -5808,7 +5785,6 @@
    "joined": [
     2,
     19,
-    20,
     21,
     22
    ]
@@ -6024,7 +6000,6 @@
    "derived": false,
    "joined": [
     19,
-    20,
     21,
     27
    ]
@@ -6103,7 +6078,6 @@
     2,
     16,
     19,
-    20,
     21,
     22
    ]
@@ -6210,7 +6184,6 @@
    "joined": [
     16,
     19,
-    20,
     21,
     27
    ]
@@ -6312,7 +6285,6 @@
     2,
     16,
     19,
-    20,
     21,
     27
    ]
@@ -6353,7 +6325,6 @@
    "derived": false,
    "joined": [
     19,
-    20,
     21,
     25,
     27
@@ -6394,7 +6365,6 @@
     2,
     16,
     19,
-    20,
     21,
     27
    ]
@@ -6434,7 +6404,6 @@
    "derived": false,
    "joined": [
     19,
-    20,
     21,
     27
    ]
@@ -6452,7 +6421,6 @@
    "derived": false,
    "joined": [
     19,
-    20,
     21,
     22,
     27
@@ -6535,7 +6503,6 @@
     9,
     13,
     19,
-    20,
     21,
     27
    ]
@@ -6667,7 +6634,6 @@
     8,
     10,
     13,
-    20,
     21,
     22,
     27
@@ -7183,7 +7149,6 @@
    "kind": "contact",
    "joined": [
     19,
-    20,
     21,
     24
    ]

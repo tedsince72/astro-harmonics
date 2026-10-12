@@ -1389,6 +1389,35 @@
   {
    "item": 21,
    "level": "strict",
+   "t": 0.2176,
+   "what": "soak Mars ~18.1231: 4 partners, spread 0.0087, nearest whole 18 (+0.1231), nearest ninth 163/9 = 18.1111 (+0.0120) \u2014 J Mars \u2013 H Gonggong Flat 18.1187; J Mars \u2013 J Ceres Dec 18.1211; H Mars \u2013 S Rahu Flat 18.1258; J Mars \u2013 H Neptune RA 18.1275; widened to 5 partners, spread 0.0360: + J Mars \u2013 J Rahu Dec 18.1547",
+   "bodies": [
+    "H Gonggong",
+    "H Mars",
+    "H Neptune",
+    "J Ceres",
+    "J Mars",
+    "J Node"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 18.1231,
+   "partners": 5,
+   "joined": [
+    2,
+    4,
+    13,
+    19,
+    22,
+    23,
+    24,
+    27,
+    33
+   ]
+  },
+  {
+   "item": 21,
+   "level": "strict",
    "t": 0.3645,
    "what": "soak Node ~4.6732: 4 partners, spread 0.0146, nearest whole 5 (-0.3268), nearest ninth 42/9 = 4.6667 (+0.0065) \u2014 J Rahu \u2013 H Pluto Dec 4.6659; J Ketu \u2013 H Makemake Dec 4.6662; S Rahu \u2013 H Venus Dec 4.6696; H Ketu \u2013 J Pallas Dec 4.6805",
    "bodies": [
@@ -1676,35 +1705,6 @@
   {
    "item": 21,
    "level": "strict",
-   "t": 0.8998,
-   "what": "soak Mars ~18.1367: 5 partners, spread 0.0360, nearest whole 18 (+0.1367), nearest ninth 163/9 = 18.1111 (+0.0256) \u2014 J Mars \u2013 H Gonggong Flat 18.1187; J Mars \u2013 J Ceres Dec 18.1211; H Mars \u2013 S Rahu Flat 18.1258; J Mars \u2013 H Neptune RA 18.1275; J Mars \u2013 J Rahu Dec 18.1547",
-   "bodies": [
-    "H Gonggong",
-    "H Mars",
-    "H Neptune",
-    "J Ceres",
-    "J Mars",
-    "J Node"
-   ],
-   "pair": null,
-   "derived": false,
-   "centre": 18.1367,
-   "partners": 5,
-   "joined": [
-    2,
-    4,
-    13,
-    19,
-    22,
-    23,
-    24,
-    27,
-    33
-   ]
-  },
-  {
-   "item": 21,
-   "level": "strict",
    "t": 0.9285,
    "what": "soak Eris ~4.5669: 4 partners, spread 0.0371, nearest whole 5 (-0.4331), nearest ninth 41/9 = 4.5556 (+0.0113) \u2014 S Eris \u2013 J Orcus Dec 4.5483; S Eris \u2013 J Sun RA 4.5503; J Eris \u2013 H Chiron Dec 4.5624; H Eris \u2013 H Uranus Dec 4.5854",
    "bodies": [
@@ -1859,6 +1859,39 @@
     24,
     27,
     28,
+    33
+   ]
+  },
+  {
+   "item": 21,
+   "level": "near",
+   "t": 0.6293,
+   "what": "soak Node ~42.6205: 4 partners, spread 0.0252, nearest whole 43 (-0.3795), nearest ninth 384/9 = 42.6667 (-0.0462) (partners not from both natal charts) \u2014 H Rahu \u2013 J Ceres GC 42.6079; S Rahu \u2013 J Venus GC 42.6084; J Ketu \u2013 J Orcus Flat 42.6192; J Rahu \u2013 J Pluto GC 42.6331; widened to 5 partners, spread 0.0392: + J Ketu \u2013 J Gonggong Dec 42.6471",
+   "bodies": [
+    "H Node",
+    "J Ceres",
+    "J Gonggong",
+    "J Node",
+    "J Orcus",
+    "J Pluto",
+    "J Venus"
+   ],
+   "pair": null,
+   "derived": false,
+   "centre": 42.6205,
+   "partners": 5,
+   "joined": [
+    2,
+    4,
+    9,
+    13,
+    16,
+    19,
+    20,
+    22,
+    23,
+    24,
+    27,
     33
    ]
   },
@@ -2150,39 +2183,6 @@
     24,
     25,
     27
-   ]
-  },
-  {
-   "item": 21,
-   "level": "near",
-   "t": 0.9794,
-   "what": "soak Node ~42.6275: 5 partners, spread 0.0392, nearest whole 43 (-0.3725), nearest ninth 384/9 = 42.6667 (-0.0392) (partners not from both natal charts) \u2014 H Rahu \u2013 J Ceres GC 42.6079; S Rahu \u2013 J Venus GC 42.6084; J Ketu \u2013 J Orcus Flat 42.6192; J Rahu \u2013 J Pluto GC 42.6331; J Ketu \u2013 J Gonggong Dec 42.6471",
-   "bodies": [
-    "H Node",
-    "J Ceres",
-    "J Gonggong",
-    "J Node",
-    "J Orcus",
-    "J Pluto",
-    "J Venus"
-   ],
-   "pair": null,
-   "derived": false,
-   "centre": 42.6275,
-   "partners": 5,
-   "joined": [
-    2,
-    4,
-    9,
-    13,
-    16,
-    19,
-    20,
-    22,
-    23,
-    24,
-    27,
-    33
    ]
   },
   {
