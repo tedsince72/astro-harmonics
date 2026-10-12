@@ -32,3 +32,10 @@ def has_link(I,a,b,close=True):
     return any({l['a'],l['b']}=={a,b} and (l['close'] or not close) for l in I['links'])
 def linknum(I,a,b,pl,num): return any({l['a'],l['b']}=={a,b} and l['nums'].get(pl,{}).get('num')==num for l in I['links'])
 # Planes: 'RA','Dec','Flat','GC' (the older tools' 'Sky' plane = 'GC'). Same-body planes also 'EqValue'. Charts 'H','J'; sky points chart 'S'.
+
+# v1.4 helpers
+def crossnear(I,a,b): return any(l['kind']=='cross' and {l['a'],l['b']}=={a,b} and l.get('near') for l in I['links'])
+def contact(I,sky_,tgt,band=None): return any(x['sky']==sky_ and x['target']==tgt and (band is None or x['band']==band) for x in I['contacts'])
+def hjr(I,pair,pl,r,band=None): return any(_pm(pair,x['pair']) and x['plane']==pl and x['ratio']==r and (band is None or x['band']==band) for x in I['hj_ratios'])
+def skyclose(race,pair): return any(_pm(pair,x['pair']) for x in json.load(open(f'docs/classic/{race}/layer1/sky_close.json')))
+def ratioband(I,c,pair,pl,r,band): return any(x['chart']==c and _pm(pair,x['pair']) and x['plane']==pl and x['ratio']==r and x['band']==band for x in I['ratios'])

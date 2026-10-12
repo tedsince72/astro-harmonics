@@ -1,19 +1,21 @@
-== 2 Million Thanks / 2 Kevin Stott   [carlisle_1630_20220707__P03.xlsx, L1 v1.3 (12 Oct 2026)]
+== 2 Million Thanks / 2 Kevin Stott   [carlisle_1630_20220707__P03.xlsx, L1 v1.4 (12 Oct 2026)]
 -- Equator whole/ninth (natal): none
--- cross links (close: RA < 1.5 or Dec < 0.3)
-   H Venus        – J Neptune      RA    0.8036 Dec   0.5321 GC    0.9207
-   H Mars         – J Transpluto   RA  112.7745 Dec   0.0225 GC  107.9483
-   H Saturn       – J Uranus       RA    8.0946 Dec   0.1700 GC    7.5140
-   H Pluto        – J Uranus       RA    2.5426 Dec   0.0529 GC    2.3614
-   H Pluto        – J Neptune      RA    0.2452 Dec   0.7740 GC    0.8069
-   H Pallas       – J Jupiter      RA    0.9310 Dec  15.2912 GC   15.3192
-   H Vesta        – J Saturn       RA    0.6812 Dec   2.9451 GC    3.0204
-   H Rahu         – J Sun          RA    0.7486 Dec   0.1327 GC    0.7119
-   H Rahu         – J Mercury      RA   21.1011 Dec   0.1838 GC   19.6788
-   H Ketu         – J Neptune      RA    4.3436 Dec   0.0855 GC    4.0558
-   H Haumea       – J Jupiter      RA    1.4207 Dec  28.5179 GC   28.5525
-   H Makemake     – J Ceres        RA  101.6831 Dec   0.1004 GC   90.1072
-   H Gonggong     – J Jupiter      RA  122.7770 Dec   0.1969 GC  118.2448
+-- cross links (close: RA < 1.5 or Dec < 0.3; near: RA < 2.0 or Dec < 0.6)
+   H Venus        – J Neptune      RA    0.8036 Dec   0.5321 GC    0.9207 close
+   H Mars         – J Transpluto   RA  112.7745 Dec   0.0225 GC  107.9483 close
+   H Saturn       – J Uranus       RA    8.0946 Dec   0.1700 GC    7.5140 close
+   H Pluto        – J Uranus       RA    2.5426 Dec   0.0529 GC    2.3614 close
+   H Pluto        – J Neptune      RA    0.2452 Dec   0.7740 GC    0.8069 close
+   H Pallas       – J Jupiter      RA    0.9310 Dec  15.2912 GC   15.3192 close
+   H Vesta        – J Jupiter      RA  129.9865 Dec   0.4695 GC  124.8621 near
+   H Vesta        – J Saturn       RA    0.6812 Dec   2.9451 GC    3.0204 close
+   H Rahu         – J Sun          RA    0.7486 Dec   0.1327 GC    0.7119 close
+   H Rahu         – J Mercury      RA   21.1011 Dec   0.1838 GC   19.6788 close
+   H Ketu         – J Uranus       RA    1.5558 Dec   0.8066 GC    1.6583 near
+   H Ketu         – J Neptune      RA    4.3436 Dec   0.0855 GC    4.0558 close
+   H Haumea       – J Jupiter      RA    1.4207 Dec  28.5179 GC   28.5525 close
+   H Makemake     – J Ceres        RA  101.6831 Dec   0.1004 GC   90.1072 close
+   H Gonggong     – J Jupiter      RA  122.7770 Dec   0.1969 GC  118.2448 close
 -- H close pairs (RA < 1.5 or Dec < 0.6)
    Sun–Gonggong     RA    0.9213 Dec   1.7423
    Sun–Orcus        RA  178.8107 Dec   0.4081
@@ -135,15 +137,87 @@
    cross H Orcus–J Saturn RA 169.99877 = 170 (-0.00123)
    cross H Transpluto–J Neptune Dec 31.88843 = 287/9 (-0.00046)
 -- sky/natal ratios
-   H Pluto–Chiron           RA   sky    74.1874 natal    64.9137 sky/natal 8/7 (0.0003%)
-   H Eris–Orcus             Dec  sky    10.3194 natal     8.5996 sky/natal 6/5 (0.0017%)
-   J Pluto–Juno             Flat sky    54.5564 natal    34.0969 sky/natal 8/5 (0.0026%)
-   H Saturn–Neptune         GC   sky    30.9970 natal    58.5483 natal/sky 17/9 (0.0026%)
-   J Pallas–Eris            Flat sky    36.2995 natal    22.3387 sky/natal 13/8 (0.0027%)
-   H Juno–Makemake          RA   sky   150.9635 natal   132.0891 sky/natal 8/7 (0.0030%)
-   J Venus–Ketu             GC   sky   153.4464 natal   107.4091 sky/natal 10/7 (0.0032%)
-   J Eris–Makemake          RA   sky   170.5453 natal   149.2325 sky/natal 8/7 (0.0036%)
-   J Juno–Makemake          Flat sky   152.3817 natal    44.8165 sky/natal 17/5 (0.0037%)
+   H Pluto–Chiron           RA   sky    74.1874 natal    64.9137 sky/natal 8/7 (0.0003%) tight
+   H Eris–Orcus             Dec  sky    10.3194 natal     8.5996 sky/natal 6/5 (0.0017%) tight
+   J Pluto–Juno             Flat sky    54.5564 natal    34.0969 sky/natal 8/5 (0.0026%) tight
+   H Saturn–Neptune         GC   sky    30.9970 natal    58.5483 natal/sky 17/9 (0.0026%) tight
+   J Pallas–Eris            Flat sky    36.2995 natal    22.3387 sky/natal 13/8 (0.0027%) tight
+   H Juno–Makemake          RA   sky   150.9635 natal   132.0891 sky/natal 8/7 (0.0030%) tight
+   J Venus–Ketu             GC   sky   153.4464 natal   107.4091 sky/natal 10/7 (0.0032%) tight
+   J Eris–Makemake          RA   sky   170.5453 natal   149.2325 sky/natal 8/7 (0.0036%) tight
+   J Juno–Makemake          Flat sky   152.3817 natal    44.8165 sky/natal 17/5 (0.0037%) tight
+   J Chiron–Gonggong        Dec  sky    19.1364 natal    22.9626 natal/sky 6/5 (0.0050%) near
+   H Uranus–Orcus           Flat sky   114.1980 natal   128.4662 natal/sky 9/8 (0.0051%) near
+   H Mercury–Ketu           Flat sky   139.6526 natal    55.8645 sky/natal 5/2 (0.0062%) near
+   H Saturn–Gonggong        Flat sky    11.1169 natal    48.9113 natal/sky 22/5 (0.0062%) near
+   H Jupiter–Ketu           Flat sky   140.7763 natal    37.8987 sky/natal 26/7 (0.0068%) near
+   J Juno–Haumea            Flat sky   133.4138 natal    24.7080 sky/natal 27/5 (0.0069%) near
+   J Haumea–Makemake        Dec  sky     6.8779 natal    11.7897 natal/sky 12/7 (0.0078%) near
+   H Uranus–Neptune         GC   sky    52.5835 natal    43.8236 sky/natal 6/5 (0.0091%) near
+   J Saturn–Makemake        GC   sky   131.5374 natal   153.4460 natal/sky 7/6 (0.0093%) near
+   H Mercury–Rahu           Flat sky    47.0136 natal   129.2751 natal/sky 11/4 (0.0095%) near
+-- contacts (sky body close to a natal body; close RA < 1.5 or Dec < 0.3, near RA < 2 or Dec < 0.6)
+   sky Juno       – J Orcus        RA  144.5372 Dec   0.0486 close
+   sky Transpluto – H Uranus       RA  127.0538 Dec   0.1369 close
+   sky Venus      – J Mars         RA    6.7438 Dec   0.1776 close
+   sky Jupiter    – J Orcus        RA  125.4378 Dec   0.1888 close
+   sky Sun        – J Haumea       RA   83.8863 Dec   0.2048 close
+   sky Mercury    – J Ceres        RA    0.2058 Dec   0.5364 close
+   sky Transpluto – H Transpluto   RA    0.6456 Dec   0.2444 close RETURN
+   sky Pluto      – H Jupiter      RA   39.8114 Dec   0.2652 close
+   sky Rahu       – J Vesta        RA   23.8777 Dec   0.2880 close
+   sky Gonggong   – H Orcus        RA  176.7011 Dec   0.3096 near
+   sky Ketu       – J Rahu         RA    1.2539 Dec   0.3266 close
+   sky Rahu       – J Ketu         RA    1.2539 Dec   0.3266 close
+   sky Quaoar     – H Ceres        RA   28.8384 Dec   0.3335 near
+   sky Makemake   – J Haumea       RA    7.1329 Dec   0.3464 near
+   sky Eris       – J Pallas       RA   17.5212 Dec   0.3609 near
+   sky Transpluto – H Orcus        RA    0.3890 Dec  21.3007 close
+   sky Eris       – H Uranus       RA    0.4092 Dec  11.6287 close
+   sky Pallas     – H Eris         RA   37.7190 Dec   0.4212 near
+   sky Quaoar     – H Quaoar       RA    3.1055 Dec   0.4267 near RETURN
+   sky Neptune    – H Mercury      RA    5.0235 Dec   0.4297 near
+   sky Mercury    – H Makemake     RA  101.8889 Dec   0.4360 near
+   sky Chiron     – H Sedna        RA   42.5132 Dec   0.4414 near
+   sky Haumea     – H Haumea       RA    0.9890 Dec   0.4501 close RETURN
+   sky Uranus     – H Haumea       RA  169.4631 Dec   0.4763 near
+   sky Mars       – H Uranus       RA    2.4722 Dec   0.4833 near
+   sky Orcus      – H Orcus        RA    2.0100 Dec   0.5104 near RETURN
+   sky Orcus      – H Vesta        RA  172.6900 Dec   0.5511 near
+   sky Venus      – J Mercury      RA   20.6408 Dec   0.5606 near
+   sky Mars       – H Transpluto   RA  123.9360 Dec   0.5908 near
+   sky Uranus     – J Sedna        RA    0.6455 Dec  11.9718 close
+   sky Makemake   – H Makemake     RA    0.7696 Dec   1.3475 close RETURN
+   sky Uranus     – J Pallas       RA    0.8440 Dec  17.2934 close
+   sky Gonggong   – H Gonggong     RA    1.1884 Dec   1.0245 close RETURN
+   sky Eris       – H Eris         RA    1.4281 Dec   1.2093 close RETURN
+   sky Pallas     – H Juno         RA    1.3957 Dec   8.3265 close
+   sky Juno       – H Neptune      RA    1.5204 Dec   8.5997 near
+   sky Pluto      – H Ketu         RA    1.9438 Dec   1.8004 near
+   sky Mercury    – J Mercury      RA    1.9483 Dec   2.4765 near RETURN
+   sky Orcus      – J Chiron       RA    1.9488 Dec  15.4118 near
+-- horse : jockey ratio on one pair
+   Sun–Pallas             Dec  H 13.3520 J 21.3633 J/H 8/5 (0.0005%) tight
+   Makemake–Gonggong      GC   H 139.7456 J 155.2711 J/H 10/9 (0.0011%) tight
+   Venus–Pallas           Flat H 83.7000 J 117.1768 J/H 7/5 (0.0028%) tight
+   Mars–Gonggong          Flat H 62.1501 J 106.5397 J/H 12/7 (0.0031%) tight
+   Sun–Uranus             Flat H 56.2266 J 182.7300 J/H 13/4 (0.0035%) tight
+   Vesta–Rahu             Flat H 138.4655 J 161.5369 J/H 7/6 (0.0038%) tight
+   Uranus–Neptune         RA   H 40.4208 J 2.7878 H/J 29/2 (0.0044%) tight
+   Haumea–Transpluto      Dec  H 5.4418 J 8.5510 J/H 11/7 (0.0046%) tight
+   Mercury–Ketu           GC   H 54.4171 J 44.5258 H/J 11/9 (0.0060%) near
+   Vesta–Transpluto       GC   H 170.5643 J 70.2274 H/J 17/7 (0.0070%) near
+   Jupiter–Ketu           Flat H 37.8987 J 166.7389 J/H 22/5 (0.0093%) near
+   Rahu–Transpluto        Dec  H 10.1208 J 32.0458 J/H 19/6 (0.0101%) near
+   Jupiter–Rahu           Flat H 148.6280 J 17.1511 H/J 26/3 (0.0102%) near
+   Uranus–Sedna           RA   H 29.1713 J 108.3393 J/H 26/7 (0.0105%) near
+   Neptune–Ceres          GC   H 97.5802 J 162.6540 J/H 5/3 (0.0125%) near
+   Vesta–Gonggong         GC   H 7.0595 J 105.9067 J/H 15 (0.0132%) near
+   Uranus–Gonggong        GC   H 55.7408 J 32.5210 H/J 12/7 (0.0170%) near
+   Sun–Mars               RA   H 57.4500 J 49.2343 H/J 7/6 (0.0173%) near
+   Mercury–Gonggong       RA   H 14.8051 J 125.8649 J/H 17/2 (0.0174%) near
+   Vesta–Orcus            RA   H 170.6800 J 60.9463 H/J 14/5 (0.0178%) near
+   Sun–Pallas             Flat H 123.5106 J 77.1793 H/J 8/5 (0.0192%) near
 -- movement since birth
    H Venus      Dec     42.2214 = 380/9 (-0.00077)
    H Jupiter    GC     106.8880 = 962/9 (-0.00094)
@@ -161,6 +235,8 @@
    Saturn–Gonggong        Dec  H 9.9002 J 9.9447 (0.450%) sky 3.6261 S~H ('19/7', 0.5871) S~J ('11/4', 0.2725)
 -- Equator ratios
    Chiron     S/H [8.12269, 2.84213] S/H 20/7 (0.0286%) near
+   Juno       S/H [1.96927, 6.64321] H/S 27/8 (0.0461%) near
+   Juno       H/J [6.64321, 1.10681] H/J 6 (0.0350%) near
 -- pair family (sky-to-natal vs natal pair NN / sky pair TT, same pair)
    J Jupiter–Vesta          RA   J Jupiter – sky Vesta         127.17672 vs NN  141.30787  NN/TN 10/9 (0.0003%) tight
    J Vesta–Transpluto       RA   J Vesta – sky Transpluto       82.36334 vs TT  173.87875  TT/TN 19/9 (0.0003%) tight

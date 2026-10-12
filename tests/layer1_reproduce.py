@@ -94,6 +94,18 @@ for _f in _g.glob(os.path.join(os.path.dirname(__file__), 'layer1_expect', '*.py
     _sp = importlib.util.spec_from_file_location('exp', _f); _m = importlib.util.module_from_spec(_sp); _sp.loader.exec_module(_m)
     EXP[_m.RACE] = (_m.P, _m.CHECKS)
 race = sys.argv[1]; P, checks = EXP[race]
+try:
+    import layer1_expect_v14 as _v14
+    _rep = _v14.REPLACE.get(race, {}); _used = set()
+    new = []
+    for name, f in checks:
+        k = next((k for k in _rep if name.startswith(k)), None)
+        if k: new.append(_rep[k]); _used.add(k)
+        else: new.append((name, f))
+    for k in set(_rep) - _used: new.append((f'v1.4 replacement prefix not found: {k}', lambda I: False))
+    checks = new
+except ImportError:
+    pass
 I = json.load(open(f'docs/classic/{race}/layer1/{P}.json'))
 miss = 0
 for name, f in checks:

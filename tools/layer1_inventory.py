@@ -18,6 +18,9 @@ Lists everything, judges nothing. For each runner workbook (sheets TRANS = race 
               (as three_way_all.py; Neptune–node sets recur)
   pair_family on one pair, sky-to-natal values vs the natal pair (NN) and sky pair (TT), simple, tight <= FAM_TOL / near <= FAM_NEAR
   splits      a moved body lying between its natal place and another natal body (RA/Dec): span = movement + other part, with ratios
+  v1.4 (12 Oct 2026, Eddie): cross links near band (RA < 2 or Dec < 0.6, flag 'near'); Equator near band to 0.05 %; sky/natal ratios near band
+              to 0.01 % (field 'band'); contacts = sky body close to a natal body (any value, returns flagged); hj_ratios = horse:jockey ratio on one
+              pair without a sky leg (tight 0.005 %, near 0.02 %); sky_close.json = close sky pairs.
   node        horse node vs jockey node (Rahu–Rahu and Rahu–Ketu) RA offsets
 And once per race: sky pair whole/ninth values (sky numbers), the same for every runner.
 Every item carries the exact value and its offset. Stars and Moon are not read. Output: OUTDIR/<P>.json, <P>.txt, sky.json, sky.txt."""
@@ -33,13 +36,16 @@ RATIO_TOL = 0.00005                   # 0.005 %
 SAME_TOL = 0.0015                     # 0.15 %
 SHARED_TOL = 0.005                    # 0.5 %
 EQ_RATIO_TOL = 0.0001                 # 0.01 %  tight
-EQ_NEAR_TOL = 0.0003                  # 0.03 %  near band (Eddie 12 Oct: list, mark, use only when joined)
+EQ_NEAR_TOL = 0.0005                  # 0.05 %  near band (Eddie 12 Oct: list, mark, use only when joined; widened v1.4)
 CLOSE_RA, CLOSE_DEC_IN, CLOSE_DEC_X = 1.5, 0.6, 0.3
+NEAR_RA, NEAR_DEC_X = 2.0, 0.6          # near band for cross links and sky contacts (v1.4)
+RATIO_NEAR = 0.0001                   # sky/natal ratios near band 0.01 % (v1.4)
+HJ_TOL, HJ_NEAR = 0.00005, 0.0002     # horse:jockey ratio on one pair, tight / near (v1.4)
 MIN_V = 0.5
 PAIRSET_TOL = 0.0005                  # 0.05 %
 FAM_TOL, FAM_NEAR = 0.00005, 0.0002   # pair-family ratios: tight 0.005 %, near 0.02 % (Eddie 12 Oct, Dettori Sun–Chiron)
 PMAX, QMAX = 30, 9
-VERSION = 'L1 v1.3 (12 Oct 2026)'
+VERSION = 'L1 v1.4 (12 Oct 2026)'
 
 def rd(a, b): return abs((a[0] - b[0] + 180) % 360 - 180)
 def dd(a, b): return abs(a[1] - b[1])
@@ -106,9 +112,10 @@ def inventory(path):
         vals = {pl: f(A, B) for pl, f in PLANES}
         close_dec = CLOSE_DEC_X if kind == 'cross' else CLOSE_DEC_IN
         close = vals['RA'] < CLOSE_RA or vals['Dec'] < close_dec
+        near = (not close) and kind == 'cross' and (vals['RA'] < NEAR_RA or vals['Dec'] < NEAR_DEC_X)
         nums = {pl: num(v) for pl, v in vals.items() if v >= MIN_V and num(v)}
-        if close or nums:
-            links.append({'kind': kind, 'a': f'{ca} {a}', 'b': f'{cb} {b}', 'close': close,
+        if close or near or nums:
+            links.append({'kind': kind, 'a': f'{ca} {a}', 'b': f'{cb} {b}', 'close': close, 'near': near,
                           **{pl: round(v, 5) for pl, v in vals.items()},
                           'nums': {pl: {'num': n[0], 'off': n[1]} for pl, n in nums.items()}})
     for c in 'HJ':
@@ -142,10 +149,37 @@ def inventory(path):
                 sv, nv = f(S[a], S[b]), f(N[a], N[b])
                 if min(sv, nv) < MIN_V: continue
                 r = frac(max(sv, nv) / min(sv, nv))
-                if r and r[1] <= RATIO_TOL:
+                if r and r[1] <= RATIO_NEAR:
                     rt.append({'chart': c, 'pair': f'{a}–{b}', 'plane': pl, 'sky': round(sv, 5), 'natal': round(nv, 5),
-                               'ratio': r[0], 'dir': 'sky/natal' if sv >= nv else 'natal/sky', 'err_pct': round(r[1] * 100, 5)})
+                               'ratio': r[0], 'dir': 'sky/natal' if sv >= nv else 'natal/sky', 'err_pct': round(r[1] * 100, 5),
+                               'band': 'tight' if r[1] <= RATIO_TOL else 'near'})
     inv['ratios'] = rt
+
+    # contacts: a sky body close to a natal body (any value, incl. < 0.5; same body = return); close / near bands as cross links
+    ct = []
+    for c in 'HJ':
+        for t in BOD:
+            for s_ in BOD:
+                ra, de = rd(S[s_], C[c][t]), dd(S[s_], C[c][t])
+                close = ra < CLOSE_RA or de < CLOSE_DEC_X
+                near = (not close) and (ra < NEAR_RA or de < NEAR_DEC_X)
+                if close or near:
+                    ct.append({'sky': s_, 'target': f'{c} {t}', 'RA': round(ra, 5), 'Dec': round(de, 5), 'GC': round(gc(S[s_], C[c][t]), 5),
+                               'band': 'close' if close else 'near', 'return': s_ == t})
+    inv['contacts'] = ct
+
+    # horse : jockey ratio on one pair (no sky leg), simple, not 1
+    hj = []
+    for a, b in itertools.combinations(BOD, 2):
+        if node_pair(a, b): continue
+        for pl, f in PLANES:
+            hv, jv = f(H[a], H[b]), f(J[a], J[b])
+            if min(hv, jv) < MIN_V: continue
+            r = frac(max(hv, jv) / min(hv, jv))
+            if r and r[1] <= HJ_NEAR:
+                hj.append({'pair': f'{a}–{b}', 'plane': pl, 'horse': round(hv, 5), 'jockey': round(jv, 5), 'ratio': r[0],
+                           'dir': 'H/J' if hv >= jv else 'J/H', 'err_pct': round(r[1] * 100, 5), 'band': 'tight' if r[1] <= HJ_TOL else 'near'})
+    inv['hj_ratios'] = hj
 
     # movement since birth
     mv = []
@@ -288,14 +322,25 @@ def sky_numbers(S):
                 if n: out.append({'pair': f'{a}–{b}', 'plane': pl, 'value': round(v, 5), 'num': n[0], 'off': n[1]})
     return out
 
+def sky_close(S):
+    out = []
+    for a, b in itertools.combinations(BOD, 2):
+        if node_pair(a, b): continue
+        ra, de = rd(S[a], S[b]), dd(S[a], S[b])
+        close = ra < CLOSE_RA or de < CLOSE_DEC_X
+        near = (not close) and (ra < NEAR_RA or de < NEAR_DEC_X)
+        if close or near:
+            out.append({'pair': f'{a}–{b}', 'RA': round(ra, 5), 'Dec': round(de, 5), 'GC': round(gc(S[a], S[b]), 5), 'band': 'close' if close else 'near'})
+    return out
+
 def text(inv):
     L = [f"== {inv['runner']}   [{inv['workbook']}, {inv['version']}]"]
     eq = [p for p in inv['points'] if p['eq_num'] and p['chart'] != 'S']
     L.append('-- Equator whole/ninth (natal): ' + ('; '.join(f"{p['chart']} {p['body']} {p['dec']:+.5f} = {p['eq_num']} ({p['eq_off']:+.5f})" for p in eq) or 'none'))
-    L.append(f"-- cross links (close: RA < {CLOSE_RA} or Dec < {CLOSE_DEC_X})")
+    L.append(f"-- cross links (close: RA < {CLOSE_RA} or Dec < {CLOSE_DEC_X}; near: RA < {NEAR_RA} or Dec < {NEAR_DEC_X})")
     for l in inv['links']:
-        if l['kind'] == 'cross' and l['close']:
-            L.append(f"   {l['a']:14s} – {l['b']:14s} RA {l['RA']:9.4f} Dec {l['Dec']:8.4f} GC {l['GC']:9.4f}")
+        if l['kind'] == 'cross' and (l['close'] or l['near']):
+            L.append(f"   {l['a']:14s} – {l['b']:14s} RA {l['RA']:9.4f} Dec {l['Dec']:8.4f} GC {l['GC']:9.4f} {'close' if l['close'] else 'near'}")
     for c in 'HJ':
         L.append(f"-- {c} close pairs (RA < {CLOSE_RA} or Dec < {CLOSE_DEC_IN})")
         for l in inv['links']:
@@ -307,7 +352,13 @@ def text(inv):
             L.append(f"   {l['kind']:5s} {l['a']}–{l['b']} {pl} {l[pl]:.5f} = {n['num']} ({n['off']:+.5f})")
     L.append('-- sky/natal ratios')
     for r in sorted(inv['ratios'], key=lambda r: r['err_pct']):
-        L.append(f"   {r['chart']} {r['pair']:22s} {r['plane']:4s} sky {r['sky']:10.4f} natal {r['natal']:10.4f} {r['dir']} {r['ratio']} ({r['err_pct']:.4f}%)")
+        L.append(f"   {r['chart']} {r['pair']:22s} {r['plane']:4s} sky {r['sky']:10.4f} natal {r['natal']:10.4f} {r['dir']} {r['ratio']} ({r['err_pct']:.4f}%) {r['band']}")
+    L.append('-- contacts (sky body close to a natal body; close RA < 1.5 or Dec < 0.3, near RA < 2 or Dec < 0.6)')
+    for x in sorted(inv['contacts'], key=lambda x: min(x['RA'], x['Dec'])):
+        L.append(f"   sky {x['sky']:10s} – {x['target']:14s} RA {x['RA']:9.4f} Dec {x['Dec']:8.4f} {x['band']}" + (' RETURN' if x['return'] else ''))
+    L.append('-- horse : jockey ratio on one pair')
+    for x in sorted(inv['hj_ratios'], key=lambda x: x['err_pct']):
+        L.append(f"   {x['pair']:22s} {x['plane']:4s} H {x['horse']:.4f} J {x['jockey']:.4f} {x['dir']} {x['ratio']} ({x['err_pct']:.4f}%) {x['band']}")
     L.append('-- movement since birth')
     for m in inv['movement']:
         L.append(f"   {m['chart']} {m['body']:10s} {m['plane']:4s} {m['value']:10.4f} = {m['num']} ({m['off']:+.5f})")
@@ -350,6 +401,7 @@ if __name__ == '__main__':
         if sky is None:
             sky = sky_numbers(S)
             json.dump(sky, open(f'{O}/sky.json', 'w'), indent=1)
+            sc = sky_close(S); json.dump(sc, open(f'{O}/sky_close.json', 'w'), indent=1)
             open(f'{O}/sky.txt', 'w').write('\n'.join(f"{s['pair']:22s} {s['plane']:4s} {s['value']:10.5f} = {s['num']} ({s['off']:+.5f})" for s in sky) + '\n')
         print(f"{t} {inv['runner']}: links {len(inv['links'])} strikes {len(inv['strikes'])} ratios {len(inv['ratios'])} moves {len(inv['movement'])} "
-              f"same_body {len(inv['same_body'])} shared {len(inv['shared'])} eq_ratios {len(inv['eq_ratios'])} pair_sets {len(inv['pair_sets'])} family {len(inv['pair_family'])} splits {len(inv['splits'])}")
+              f"same_body {len(inv['same_body'])} shared {len(inv['shared'])} eq_ratios {len(inv['eq_ratios'])} pair_sets {len(inv['pair_sets'])} family {len(inv['pair_family'])} splits {len(inv['splits'])} contacts {len(inv['contacts'])} hj {len(inv['hj_ratios'])}")
