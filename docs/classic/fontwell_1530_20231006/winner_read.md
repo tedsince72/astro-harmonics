@@ -15,3 +15,8 @@ Claims to check (winner file __P05):
    shared horse/jockey Gonggong–Orcus great circle 156.8819 / 156.8733 (0.005%).
 6. Other: Noonan Haumea–Makemake Dec 7/4 (0.0005%); Noonan Mars–Transpluto Flat 13/8 and Mercury–Makemake Flat 13/8 (0.0031% each);
    Equator Sun horse/jockey 15.4710 / 4.2960 = 18/5 (0.035%); Vesta sky/horse 19.0212 / 12.6869 = 3/2 (0.048%).
+
+## Checker (independent, recomputed): 1–6 confirmed
+- Swaps (horse X near jockey Y and horse Y near jockey X): winner has TWO — Saturn/Neptune (Dec 0.0402, 0.0896) and Vesta/Sedna (RA 0.5453, Dec 0.2819);
+  Vale Dolobo Dancer has one (Rahu/Sun, Dec 0.0615 and 0.2992, edge); others none.
+- 3: Noonan Pluto–Quaoar Dec 7.00402 is whole (off 0.0040).
