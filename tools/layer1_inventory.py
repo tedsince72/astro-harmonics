@@ -67,7 +67,10 @@ def load(wb, sheet):
     P = {}
     for r in list(wb[sheet].iter_rows(values_only=True))[1:]:
         if r[1] in BOD and isinstance(r[4], (int, float)) and isinstance(r[8], (int, float)):
+            assert r[1] not in P, f'{sheet}: duplicate row for {r[1]}'
             P[r[1]] = (float(r[4]), float(r[8]))
+    miss = [b for b in BOD if b not in P]
+    assert not miss, f'{sheet}: missing bodies {miss}'
     return P
 
 def node_pair(x, y): return {x, y} == {'Rahu', 'Ketu'}
