@@ -38,7 +38,7 @@ Planes: RA, Dec, Flat, GC (+ Equator). Rahu and Ketu both listed (duplicates by 
 
 ## All races (12 Oct 2026)
 Layer 1 v1.3 run on every race; each winner read turned into checks (tests/layer1_expect/<race>.py, built by six parallel agents).
-30 races, 778 checks, all pass. No Layer 1 bugs. Items outside the rules are written as 'not listed' checks with the reason. Recurring gaps
+30 races (29 hand reads + Dettori), 738 checks, all pass. No Layer 1 bugs. Items outside the rules are written as 'not listed' checks with the reason. Recurring gaps
 (for Eddie's decision):
 1. Cross links just past the close limit (Dec 0.30–0.52 or RA 1.5–1.9): Chelmsford Chiron–Rahu Dec 0.337; Ascot Jupiter–Saturn Dec 0.363 / RA 1.59;
    Haydock 17:18 Juno–Venus Dec 0.437; Venturous Rahu–Rahu RA 1.87 / Dec 0.52.
