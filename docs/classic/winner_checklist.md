@@ -441,6 +441,17 @@ Def: for pair {A, B} (node folded; A = B allowed), number of different KINDS lan
   RA 58.99549 (59) — and the same link struck on both ends by sky Venus (RA 174.00167 | RA 1567/9 174.11130); J Jupiter |Dec| 9.00211 (9).
   Same cross link, same shape as Wolverhampton 2023 (Ziggy's Dream: horse Eris – O'Neill Jupiter, both ends moved, ONLY runner) — two races, not a rule.
 
+### Goodwood 18:53, 27 Aug 2021 — blind 6 (checklist reader CR v1.1; read 539b403)
+- Said (field-only, strict): Stunning Beauty 4 (H Sun – J Transpluto, sky Sun–Transpluto GC 1.7321); Pretty In Grey 8 (triangle H Haumea / J Neptune /
+  J Rahu, Dec, 3 ninth sides, sky Quaoar); Dalanijujo 5 (H Uranus – J Eris both ends moved) and 11 (number 5); Lola Showgirl, Madame Tantzy none.
+- Result: 1 Madame Tantzy / Georgia Dobie (12/1); 2 Dalanijujo (11/4); 3 Stunning Beauty (5/2); 4 Lola Showgirl (3/1); Pretty In Grey UR.
+- Winner had no field-only item; held by two: 15 (pair sets Makemake–Sun and Mercury–Eris), 26 (Equator Jupiter H/J 11/9, 0.0038%), 33 (node loop of 6
+  through J Saturn).
+### Musselburgh 13:45, 25 Aug 2021 — NOT BLIND (winner Graces Quest seen in another chat before the read; Eddie 12 Oct)
+- Read with CR v1.1 + Jupiter watch line (d25fd70): no field-only item for any runner; watch line held by Major Snugfit, Inside Intel, Graces Quest.
+- Result: 1 Graces Quest / Andrew Mullen (11/1); 2 Major Snugfit; 3 Natural Value (11/8 fav); 4 Yukon; 5 Inside Intel. Not counted as a blind test.
+### Not blind, not read: Worcester 13:00 2021 (winner Rhythm Is A Dancer), Newcastle AW 16:33 2021 (winner Athmad), Catterick 14:40 2022 (Wotever Next).
+
 ## 5. Open candidates for the next version (from the blind tests; not yet rules)
 1. Shared pair that is also cross-linked (Exeter Chiron–Juno; Caspers Court 3rd also had one) — item 14.
 2. Same-body Dec set 9/4 : 5/4 : 9/5 (winners 5/36, others 6/192) — item 17; annotation in pair_focus_design.

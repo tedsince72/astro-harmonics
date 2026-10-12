@@ -52,11 +52,15 @@ what did NOT separate winners, the blind tests so far, and the open candidates. 
   (field.txt = race page with the watch line; P##.txt = runner page with joins). Tests `python3 tests/checklist_check.py` (421/421, 13
   DIFFERENCE/EXPLAINED). Design, as-built notes and Eddie's decisions: docs/classic/checklist_reader_design.md (sections 9–11).
   Item rates: docs/classic/checklist_rates.txt. Blind batch with the frozen reader: Kempton 14:40 done (winner Hamish — its only field-only
-  item the node loop); Fontwell 16:45 done (winner Pixie Loc — its only field-only item: H Eris – J Jupiter both ends moved, as Ziggy's Dream at Wolverhampton); Goodwood 18:53 done (winner Madame Tantzy, no field-only item). Musselburgh 13:45 read blind (result not yet opened).
-  Watch line fixed 12 Oct before Musselburgh: rare Jupiter–Jupiter across charts — tools/scans/watch_jupiter.py <race> -> checklist/watch_jupiter.txt;
-  print it with every race page before the result (retro on Kempton/Fontwell/Goodwood: 7 of 14 runners incl. all 3 winners).
-  NB 12 Oct: one row of reference/profiles_test_scored.csv was seen by mistake — Newcastle AW 16:33 Dubai Souq / Sean Kirrane finished 6 of 6
-  (7/1); that race is no longer fully blind for that runner. Do not open profiles_test_scored.csv during the blind batch (it holds blind results). Sky-anchored soak candidate scanned (no separation; checklist section 5 item 9).
+  item the node loop); Fontwell 16:45 done (winner Pixie Loc — its only field-only item: H Eris – J Jupiter both ends moved, as Ziggy's Dream at Wolverhampton); Goodwood 18:53 done (winner Madame Tantzy, no field-only item).
+  NOT BLIND (Eddie, 12 Oct): Musselburgh 13:45 (winner Graces Quest seen in another chat before this read; read anyway, result opened:
+  1 Graces Quest 11/1 — no field-only item, holds the Jupiter watch line E); Worcester 13:00 (winner Rhythm Is A Dancer — confirmed from the
+  csv) and Newcastle AW 16:33 (winner Athmad — confirmed; also Dubai Souq 6th seen by mistake) — not read. Catterick 14:40 2022 (Wotever Next)
+  was seen before. So NO genuinely blind race is left in the batch. Southwell 20:00 10 Oct 2026 has layer outputs but no results file in the
+  repo and is not in the batch — blind only if Eddie has not seen its result.
+  Watch line (fixed 12 Oct, not to be changed after results): rare Jupiter–Jupiter across charts — tools/scans/watch_jupiter.py <race>
+  -> checklist/watch_jupiter.txt. It is LOOSE: 7 of 14 runners in the opened blind races (Kempton, Fontwell, Goodwood) incl. all 3 winners.
+  Do not open reference/profiles_test_scored.csv during blind work (it holds results).
 - Open candidates (built into the reader as items 14, 17, 20, 21; still not frozen rules): shared pair that is also cross-linked; the Dec 9/4 : 5/4 : 9/5 same-body split; natal body at
   the midpoint of a body and its own sky body; soak (one value from 4+ non-star partners across horse, jockey, sky). Details in the checklist.
 
