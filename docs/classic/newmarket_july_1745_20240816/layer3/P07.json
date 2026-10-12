@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "4 King Of Cities / 4 Sean Levey",
  "workbook": "newmarket_july_1745_20240816__P07.xlsx",
  "bodies": {
@@ -10385,7 +10385,9 @@
     "family": [
      "pair_family:81"
     ]
-   }
+   },
+   "cross_tight": 0.9986,
+   "shared_pct": null
   },
   {
    "pair": "Eris\u2013Sun",
@@ -10405,7 +10407,9 @@
     "struck": [
      "links:50#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.4311,
+   "shared_pct": null
   },
   {
    "pair": "Mars\u2013Quaoar",
@@ -10426,7 +10430,9 @@
      "hj_ratios:8",
      "hj_ratios:9"
     ]
-   }
+   },
+   "cross_tight": 0.8761,
+   "shared_pct": null
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "8 Cosmo Brown / 8 Marco Ghiani",
  "workbook": "20261010_southwell_aw_2000__P13.xlsx",
  "bodies": {
@@ -9629,27 +9629,48 @@
  },
  "pair_focus": [
   {
-   "pair": "Gonggong\u2013Juno",
+   "pair": "Quaoar\u2013Sun",
    "n": 2,
    "kinds": {
     "cross": [
-     "links:115"
+     "links:116"
     ],
-    "ratio J": [
-     "ratios:24"
+    "moved": [
+     "links:116#shape5"
     ]
    },
    "near": {
     "struck": [
-     "links:115#shape1"
+     "links:116#shape1"
     ],
     "partner": [
-     "links:115#shape2"
+     "links:116#shape2"
+    ]
+   },
+   "cross_tight": 0.0514,
+   "shared_pct": null
+  },
+  {
+   "pair": "Pallas\u2013Vesta",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:87"
     ],
     "family": [
-     "pair_family:55"
+     "pair_family:51"
     ]
-   }
+   },
+   "near": {
+    "struck": [
+     "links:87#shape1"
+    ],
+    "h:j": [
+     "hj_ratios:10"
+    ]
+   },
+   "cross_tight": 0.7238,
+   "shared_pct": null
   },
   {
    "pair": "Mars\u2013Node",
@@ -9669,27 +9690,9 @@
     "family": [
      "pair_family:23"
     ]
-   }
-  },
-  {
-   "pair": "Neptune\u2013Sun",
-   "n": 2,
-   "kinds": {
-    "h:j": [
-     "hj_ratios:1"
-    ],
-    "family": [
-     "pair_family:68"
-    ]
    },
-   "near": {
-    "h:j": [
-     "hj_ratios:0"
-    ],
-    "family": [
-     "pair_family:67"
-    ]
-   }
+   "cross_tight": 0.8158,
+   "shared_pct": null
   }
  ]
 }

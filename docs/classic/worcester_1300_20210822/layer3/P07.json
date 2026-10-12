@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "4 Thistle Do Nicely / 4 Gavin Sheehan",
  "workbook": "20210822_worcester_1300__P07.xlsx",
  "bodies": {
@@ -9694,27 +9694,26 @@
  },
  "pair_focus": [
   {
-   "pair": "Juno\u2013Node",
+   "pair": "Ceres\u2013Orcus",
    "n": 3,
    "kinds": {
     "cross": [
-     "links:99"
+     "links:83"
     ],
-    "moved": [
-     "links:99#shape5"
+    "struck": [
+     "links:83#shape1"
     ],
-    "family": [
-     "pair_family:78"
+    "same body": [
+     "same_body:4"
     ]
    },
    "near": {
-    "struck": [
-     "links:99#shape1"
-    ],
     "family": [
-     "pair_family:77"
+     "pair_family:152"
     ]
-   }
+   },
+   "cross_tight": 0.0001,
+   "shared_pct": null
   },
   {
    "pair": "Pallas\u2013Transpluto",
@@ -9737,70 +9736,34 @@
     "partner": [
      "links:88#shape2"
     ]
-   }
+   },
+   "cross_tight": 0.4743,
+   "shared_pct": null
   },
   {
-   "pair": "Ceres\u2013Orcus",
+   "pair": "Juno\u2013Node",
    "n": 3,
    "kinds": {
     "cross": [
-     "links:83"
+     "links:99"
     ],
+    "moved": [
+     "links:99#shape5"
+    ],
+    "family": [
+     "pair_family:78"
+    ]
+   },
+   "near": {
     "struck": [
-     "links:83#shape1"
+     "links:99#shape1"
     ],
-    "same body": [
-     "same_body:4"
+    "family": [
+     "pair_family:77"
     ]
    },
-   "near": {
-    "family": [
-     "pair_family:152"
-    ]
-   }
-  },
-  {
-   "pair": "Saturn\u2013Uranus",
-   "n": 3,
-   "kinds": {
-    "h:j": [
-     "hj_ratios:6"
-    ],
-    "family": [
-     "pair_family:39"
-    ],
-    "same body": [
-     "same_body:0",
-     "same_body:1",
-     "same_body:2"
-    ]
-   },
-   "near": {
-    "family": [
-     "pair_family:37",
-     "pair_family:38"
-    ]
-   }
-  },
-  {
-   "pair": "Sun\u2013Transpluto",
-   "n": 3,
-   "kinds": {
-    "family": [
-     "pair_family:10"
-    ],
-    "same body": [
-     "same_body:5"
-    ],
-    "sky": [
-     "sky-gc 3.2662"
-    ]
-   },
-   "near": {
-    "family": [
-     "pair_family:11"
-    ]
-   }
+   "cross_tight": 0.8045,
+   "shared_pct": null
   }
  ]
 }

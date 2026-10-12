@@ -1,42 +1,46 @@
 {
- "version": "L4 v1.2 (12 Oct 2026, pair focus)",
+ "version": "L4 v1.3 (12 Oct 2026, pair focus A+B+C)",
  "race": "exeter_1515_20211019",
  "pair_focus": {
   "P01": {
-   "top": "Jupiter\u2013Node",
+   "top": "Ceres\u2013Saturn",
    "n": 4,
    "kinds": [
+    "shared",
     "cross",
-    "moved",
-    "ratio H",
+    "ratio J",
     "same body"
    ],
+   "cross_tight": 0.0038,
    "tied_pairs": [
-    "Jupiter\u2013Node",
-    "Ceres\u2013Saturn"
+    "Ceres\u2013Saturn",
+    "Jupiter\u2013Node"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P03": {
-   "top": "Haumea\u2013Mercury",
+   "top": "Chiron\u2013Juno",
    "n": 3,
    "kinds": [
     "cross",
-    "partner",
-    "moved"
+    "ratio J",
+    "h:j"
    ],
+   "cross_tight": 0.2425,
    "tied_pairs": [
-    "Haumea\u2013Mercury",
     "Chiron\u2013Juno",
-    "Saturn\u2013Venus",
-    "Node\u2013Orcus",
-    "Pallas\u2013Transpluto"
+    "Haumea\u2013Mercury",
+    "Saturn\u2013Venus"
    ],
    "field_max": false,
    "most_lit_alone": false,
-   "same_pair_elsewhere": {}
+   "leads_on_tightness": false,
+   "same_pair_elsewhere": {
+    "P11": 5
+   }
   },
   "P05": {
    "top": "Node\u2013Sedna",
@@ -46,12 +50,14 @@
     "h:j",
     "family"
    ],
+   "cross_tight": 0.0113,
    "tied_pairs": [
     "Node\u2013Sedna",
     "Jupiter\u2013Orcus"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P07": {
@@ -61,13 +67,14 @@
     "cross",
     "ratio H"
    ],
+   "cross_tight": 0.2077,
    "tied_pairs": [
     "Jupiter\u2013Pallas",
-    "Jupiter\u2013Saturn",
-    "Juno\u2013Node"
+    "Jupiter\u2013Saturn"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P09": {
@@ -78,11 +85,13 @@
     "partner",
     "moved"
    ],
+   "cross_tight": 0.9663,
    "tied_pairs": [
     "Ceres\u2013Pluto"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P11": {
@@ -95,11 +104,13 @@
     "ratio J",
     "same body"
    ],
+   "cross_tight": 0.1851,
    "tied_pairs": [
     "Chiron\u2013Juno"
    ],
    "field_max": true,
    "most_lit_alone": true,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {
     "P03": 3
    }

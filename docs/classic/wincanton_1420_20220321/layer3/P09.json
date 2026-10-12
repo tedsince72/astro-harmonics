@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "5 Birds Of Prey / 5 Harry Cobden",
  "workbook": "wincanton_1420_20220321__P09.xlsx",
  "bodies": {
@@ -11980,34 +11980,9 @@
     "struck": [
      "links:103#shape1"
     ]
-   }
-  },
-  {
-   "pair": "Node\u2013Transpluto",
-   "n": 4,
-   "kinds": {
-    "cross": [
-     "links:107"
-    ],
-    "partner": [
-     "links:107#shape2"
-    ],
-    "moved": [
-     "links:107#shape5"
-    ],
-    "same body": [
-     "same_body:1",
-     "same_body:3"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:107#shape1"
-    ],
-    "family": [
-     "pair_family:51"
-    ]
-   }
+   "cross_tight": 0.9342,
+   "shared_pct": null
   },
   {
    "pair": "Orcus\u2013Transpluto",
@@ -12034,27 +12009,38 @@
     "family": [
      "pair_family:122"
     ]
-   }
+   },
+   "cross_tight": 0.8629,
+   "shared_pct": null
   },
   {
-   "pair": "Neptune\u2013Node",
-   "n": 3,
+   "pair": "Node\u2013Transpluto",
+   "n": 4,
    "kinds": {
-    "ratio J": [
-     "ratios:17"
+    "cross": [
+     "links:107"
     ],
-    "family": [
-     "pair_family:29"
+    "partner": [
+     "links:107#shape2"
+    ],
+    "moved": [
+     "links:107#shape5"
     ],
     "same body": [
-     "same_body:1"
+     "same_body:1",
+     "same_body:3"
     ]
    },
    "near": {
+    "struck": [
+     "links:107#shape1"
+    ],
     "family": [
-     "pair_family:96"
+     "pair_family:51"
     ]
-   }
+   },
+   "cross_tight": 0.9035,
+   "shared_pct": null
   }
  ]
 }

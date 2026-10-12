@@ -1,21 +1,23 @@
 {
- "version": "L4 v1.2 (12 Oct 2026, pair focus)",
+ "version": "L4 v1.3 (12 Oct 2026, pair focus A+B+C)",
  "race": "kempton_aw_1440_20210904",
  "pair_focus": {
   "P01": {
-   "top": "Saturn\u2013Transpluto",
+   "top": "Node\u2013Venus",
    "n": 3,
    "kinds": [
     "cross",
-    "moved",
-    "same body"
+    "partner",
+    "ratio J"
    ],
+   "cross_tight": 0.7562,
    "tied_pairs": [
-    "Saturn\u2013Transpluto",
-    "Node\u2013Venus"
+    "Node\u2013Venus",
+    "Saturn\u2013Transpluto"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P03": {
@@ -27,63 +29,72 @@
     "ratio J",
     "family"
    ],
+   "cross_tight": 0.8703,
    "tied_pairs": [
     "Node\u2013Saturn",
     "Pallas\u2013Sun"
    ],
    "field_max": true,
    "most_lit_alone": true,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P05": {
-   "top": "Chiron\u2013Neptune",
-   "n": 3,
-   "kinds": [
-    "h:j",
-    "family",
-    "same body"
-   ],
-   "tied_pairs": [
-    "Chiron\u2013Neptune",
-    "Juno\u2013Uranus",
-    "Mars\u2013Uranus",
-    "Juno\u2013Venus"
-   ],
-   "field_max": false,
-   "most_lit_alone": false,
-   "same_pair_elsewhere": {}
-  },
-  "P07": {
-   "top": "Quaoar\u2013Uranus",
+   "top": "Mars\u2013Uranus",
    "n": 3,
    "kinds": [
     "cross",
     "partner",
     "same body"
    ],
+   "cross_tight": 0.2261,
    "tied_pairs": [
-    "Quaoar\u2013Uranus",
+    "Mars\u2013Uranus",
+    "Juno\u2013Venus",
+    "Juno\u2013Uranus"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "leads_on_tightness": false,
+   "same_pair_elsewhere": {}
+  },
+  "P07": {
+   "top": "Juno\u2013Uranus",
+   "n": 3,
+   "kinds": [
+    "cross",
+    "moved",
+    "same body"
+   ],
+   "cross_tight": 0.0886,
+   "tied_pairs": [
     "Juno\u2013Uranus",
+    "Quaoar\u2013Uranus",
     "Quaoar\u2013Saturn"
    ],
    "field_max": false,
    "most_lit_alone": false,
-   "same_pair_elsewhere": {}
+   "leads_on_tightness": false,
+   "same_pair_elsewhere": {
+    "P05": 3
+   }
   },
   "P09": {
-   "top": "Venus\u2013Vesta",
+   "top": "Chiron\u2013Node",
    "n": 3,
    "kinds": [
     "cross",
-    "partner",
-    "ratio H"
+    "family",
+    "same body"
    ],
+   "cross_tight": 0.3438,
    "tied_pairs": [
-    "Venus\u2013Vesta",
-    "Chiron\u2013Node"
+    "Chiron\u2013Node",
+    "Venus\u2013Vesta"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   }
  },

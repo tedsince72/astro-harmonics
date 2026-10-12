@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "1 Reve / 1 Sean Bowen",
  "workbook": "catterick_1505_20211119__P01.xlsx",
  "bodies": {
@@ -10019,7 +10019,9 @@
      "pair_family:3",
      "pair_family:83"
     ]
-   }
+   },
+   "cross_tight": 0.0701,
+   "shared_pct": null
   },
   {
    "pair": "Eris\u2013Mars",
@@ -10038,7 +10040,33 @@
      "links:55#shape5"
     ]
    },
-   "near": {}
+   "near": {},
+   "cross_tight": 0.6163,
+   "shared_pct": null
+  },
+  {
+   "pair": "Mercury\u2013Quaoar",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:51"
+    ],
+    "moved": [
+     "links:51#shape5"
+    ],
+    "same body": [
+     "same_body:2",
+     "same_body:3",
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:51#shape1"
+    ]
+   },
+   "cross_tight": 0.3613,
+   "shared_pct": null
   },
   {
    "pair": "Haumea\u2013Makemake",
@@ -10058,47 +10086,9 @@
     "family": [
      "pair_family:153"
     ]
-   }
-  },
-  {
-   "pair": "Mercury\u2013Quaoar",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:51"
-    ],
-    "moved": [
-     "links:51#shape5"
-    ],
-    "same body": [
-     "same_body:0",
-     "same_body:2",
-     "same_body:3"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:51#shape1"
-    ]
-   }
-  },
-  {
-   "pair": "Juno\u2013Quaoar",
-   "n": 3,
-   "kinds": {
-    "family": [
-     "pair_family:72",
-     "pair_family:146"
-    ],
-    "same body": [
-     "same_body:2",
-     "same_body:3"
-    ],
-    "sky": [
-     "sky-gc 3.5547"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.9226,
+   "shared_pct": null
   }
  ]
 }

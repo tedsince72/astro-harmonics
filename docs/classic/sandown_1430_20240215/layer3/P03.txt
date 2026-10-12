@@ -1,4 +1,4 @@
-== 2 Cherie d'Am / 2 Harry Skelton   [sandown_1430_20240215__P03.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
+== 2 Cherie d'Am / 2 Harry Skelton   [sandown_1430_20240215__P03.xlsx, L3 v1.4 (12 Oct 2026, pair focus A+B+C)]
 -- strong hubs (5+ tight kinds): H Juno
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Juno         MPRSX  tight 5
@@ -645,23 +645,15 @@
         sky Saturn -> J Quaoar Dec 2.99802 = 3
         sky Sun on J Quaoar RA 95.9537 Dec 0.2948
 -- pair focus (kinds of root item on one pair; near beside, not counted)
-   Mercury–Sun            4 kinds: cross, struck, family, same body
+   Mercury–Sun            4 kinds: cross, struck, family, same body  cross tightness 0.6948
         cross: cross H Mercury–J Sun RA 171.5666 Dec 0.2084
         struck: cross H Mercury–J Sun RA 171.5666 Dec 0.2084
         family: J Sun–Mercury GC sky Sun – J Mercury 139.3099 vs TT 9.9504 14 (0.0029%)
         same body: same-body Mercury Dec 11/4 : 11/7 : 7/4 (worst 0.0419%)
-   Mars–Mercury           3 kinds: cross, struck, same body   near: family
+   Mars–Mercury           3 kinds: cross, struck, same body  cross tightness 0.8037   near: family
         cross: cross H Mercury–J Mars RA 174.7232 Dec 0.2411
         struck: cross H Mercury–J Mars RA 174.7232 Dec 0.2411
         same body: same-body Mars RA 8 : 9 : 9/8 (worst 0.1353%); same-body Mercury Dec 11/4 : 11/7 : 7/4 (worst 0.0419%)
-   Eris–Mercury           3 kinds: ratio J, family, same body
-        ratio J: J Mercury–Eris RA sky 66.7157 natal 162.0251 17/7 (0.0008%)
-        family: J Mercury–Eris RA J Mercury – sky Eris 158.4495 vs TT 66.7157 19/8 (0.0001%)
-        same body: same-body Mercury Dec 11/4 : 11/7 : 7/4 (worst 0.0419%)
-   Mars–Venus             3 kinds: family, same body, sky
-        family: H Venus–Mars RA H Venus – sky Mars 109.4391 vs NN 123.1157 9/8 (0.0026%)
-        same body: same-body Mars RA 8 : 9 : 9/8 (worst 0.1353%)
-        sky: sky-gc 3.2474
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Chiron–Transpluto: H H Chiron–H Transpluto Dec 7.99770 = 8
    recurring pair Node–Haumea: H H Rahu–H Haumea RA 79.6774 Dec 0.3527

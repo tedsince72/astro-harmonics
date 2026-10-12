@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "1 Streets Of Doyen / 1 Sean Bowen",
  "workbook": "20210822_worcester_1300__P01.xlsx",
  "bodies": {
@@ -11990,27 +11990,9 @@
     "family": [
      "pair_family:30"
     ]
-   }
-  },
-  {
-   "pair": "Neptune\u2013Node",
-   "n": 3,
-   "kinds": {
-    "ratio H": [
-     "ratios:8"
-    ],
-    "family": [
-     "pair_family:108"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
    },
-   "near": {
-    "family": [
-     "pair_family:107"
-    ]
-   }
+   "cross_tight": 0.4532,
+   "shared_pct": null
   },
   {
    "pair": "Sedna\u2013Uranus",
@@ -12030,7 +12012,9 @@
     "struck": [
      "links:57#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.3178,
+   "shared_pct": null
   }
  ]
 }

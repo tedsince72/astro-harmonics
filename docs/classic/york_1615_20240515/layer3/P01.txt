@@ -1,4 +1,4 @@
-== 1 Mortlake / 1 Rossa Ryan   [york_1615_20240515__P01.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
+== 1 Mortlake / 1 Rossa Ryan   [york_1615_20240515__P01.xlsx, L3 v1.4 (12 Oct 2026, pair focus A+B+C)]
 -- strong hubs (5+ tight kinds): H Makemake
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Makemake     EMPRSX  tight 5  (near joined: S)
@@ -719,19 +719,19 @@
         sky Pallas -> H Juno Dec 36.99885 = 37
         sky Sedna -> H Juno Dec 19.99987 = 20
 -- pair focus (kinds of root item on one pair; near beside, not counted)
-   Jupiter–Sedna          3 kinds: cross, family, same body   near: struck, partner, h:j, family
-        cross: cross H Sedna–J Jupiter RA 0.9844 Dec 11.5380
-        family: J Jupiter–Sedna RA J Jupiter – sky Sedna 1.5298 vs TT 5.0994 10/3 (0.0015%)
-        same body: same-body Sedna GC 4 : 5 : 5/4 (worst 0.0779%)
-   Quaoar–Uranus          3 kinds: cross, moved, same body   near: struck, partner
+   Quaoar–Uranus          3 kinds: cross, moved, same body  cross tightness 0.227   near: struck, partner
         cross: cross H Quaoar–J Uranus RA 47.4896 Dec 0.0681
         moved: cross H Quaoar–J Uranus RA 47.4896 Dec 0.0681
         same body: same-body Uranus RA 9/2 : 11/2 : 11/9 (worst 0.1178%)
-   Makemake–Sun           3 kinds: cross, moved, family   near: family
+   Makemake–Sun           3 kinds: cross, moved, family  cross tightness 0.2682   near: family
         cross: cross H Makemake–J Sun RA 95.5535 Dec 0.0805
         moved: cross H Makemake–J Sun RA 95.5535 Dec 0.0805
         family: J Sun–Makemake Dec J Sun – sky Makemake 0.8460 vs TT 3.0668 29/8 (0.0008%)
-   Transpluto–Uranus      3 kinds: cross, moved, same body
+   Jupiter–Sedna          3 kinds: cross, family, same body  cross tightness 0.6562   near: struck, partner, h:j, family
+        cross: cross H Sedna–J Jupiter RA 0.9844 Dec 11.5380
+        family: J Jupiter–Sedna RA J Jupiter – sky Sedna 1.5298 vs TT 5.0994 10/3 (0.0015%)
+        same body: same-body Sedna GC 4 : 5 : 5/4 (worst 0.0779%)
+   Transpluto–Uranus      3 kinds: cross, moved, same body  cross tightness 0.6956
         cross: cross H Uranus–J Transpluto RA 112.7352 Dec 0.2087
         moved: cross H Uranus–J Transpluto RA 112.7352 Dec 0.2087
         same body: same-body Uranus RA 9/2 : 11/2 : 11/9 (worst 0.1178%)

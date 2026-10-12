@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "5 Prince Of Arran / 5 Rossa Ryan",
  "workbook": "20210904_kempton_aw_1440__P09.xlsx",
  "bodies": {
@@ -9299,6 +9299,29 @@
  },
  "pair_focus": [
   {
+   "pair": "Chiron\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:86"
+    ],
+    "family": [
+     "pair_family:103",
+     "pair_family:104"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:86#shape1"
+    ]
+   },
+   "cross_tight": 0.3438,
+   "shared_pct": null
+  },
+  {
    "pair": "Venus\u2013Vesta",
    "n": 3,
    "kinds": {
@@ -9319,28 +9342,9 @@
     "family": [
      "pair_family:79"
     ]
-   }
-  },
-  {
-   "pair": "Chiron\u2013Node",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:86"
-    ],
-    "family": [
-     "pair_family:103",
-     "pair_family:104"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:86#shape1"
-    ]
-   }
+   "cross_tight": 0.7283,
+   "shared_pct": null
   }
  ]
 }

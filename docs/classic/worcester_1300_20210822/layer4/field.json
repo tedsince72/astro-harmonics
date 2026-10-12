@@ -1,5 +1,5 @@
 {
- "version": "L4 v1.2 (12 Oct 2026, pair focus)",
+ "version": "L4 v1.3 (12 Oct 2026, pair focus A+B+C)",
  "race": "worcester_1300_20210822",
  "pair_focus": {
   "P01": {
@@ -11,27 +11,31 @@
     "moved",
     "same body"
    ],
+   "cross_tight": 0.4532,
    "tied_pairs": [
     "Neptune\u2013Pluto"
    ],
    "field_max": true,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P03": {
-   "top": "Chiron\u2013Mars",
+   "top": "Haumea\u2013Vesta",
    "n": 3,
    "kinds": [
     "cross",
     "moved",
     "family"
    ],
+   "cross_tight": 0.6367,
    "tied_pairs": [
-    "Chiron\u2013Mars",
-    "Haumea\u2013Vesta"
+    "Haumea\u2013Vesta",
+    "Chiron\u2013Mars"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P05": {
@@ -43,30 +47,32 @@
     "family",
     "same body"
    ],
+   "cross_tight": 0.2861,
    "tied_pairs": [
     "Orcus\u2013Transpluto"
    ],
    "field_max": true,
    "most_lit_alone": false,
+   "leads_on_tightness": true,
    "same_pair_elsewhere": {}
   },
   "P07": {
-   "top": "Juno\u2013Node",
+   "top": "Ceres\u2013Orcus",
    "n": 3,
    "kinds": [
     "cross",
-    "moved",
-    "family"
+    "struck",
+    "same body"
    ],
+   "cross_tight": 0.0001,
    "tied_pairs": [
-    "Juno\u2013Node",
-    "Pallas\u2013Transpluto",
     "Ceres\u2013Orcus",
-    "Saturn\u2013Uranus",
-    "Sun\u2013Transpluto"
+    "Pallas\u2013Transpluto",
+    "Juno\u2013Node"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P09": {
@@ -77,15 +83,15 @@
     "moved",
     "family"
    ],
+   "cross_tight": 0.4861,
    "tied_pairs": [
     "Ceres\u2013Sedna",
-    "Chiron\u2013Orcus",
-    "Mars\u2013Mercury",
     "Chiron\u2013Mercury",
-    "Neptune\u2013Node"
+    "Mars\u2013Mercury"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   }
  },

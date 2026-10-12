@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "2 The Dunkirk Lads / 2 Duran Fentiman",
  "workbook": "nottingham_1750_20220613__P03.xlsx",
  "bodies": {
@@ -9941,24 +9941,9 @@
      "same_body:3"
     ]
    },
-   "near": {}
-  },
-  {
-   "pair": "Makemake\u2013Vesta",
-   "n": 3,
-   "kinds": {
-    "shared": [
-     "shared:2"
-    ],
-    "family": [
-     "pair_family:133"
-    ],
-    "same body": [
-     "same_body:2",
-     "same_body:3"
-    ]
-   },
-   "near": {}
+   "near": {},
+   "cross_tight": 0.8982,
+   "shared_pct": null
   }
  ]
 }

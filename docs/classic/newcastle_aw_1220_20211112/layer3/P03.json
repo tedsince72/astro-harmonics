@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "2 Sir Chauvelin / 2 Paul Mulrennan",
  "workbook": "newcastle_aw_1220_20211112__P03.xlsx",
  "bodies": {
@@ -10072,7 +10072,9 @@
     "ratio J": [
      "ratios:16"
     ]
-   }
+   },
+   "cross_tight": 0.0328,
+   "shared_pct": null
   },
   {
    "pair": "Jupiter\u2013Sedna",
@@ -10092,7 +10094,9 @@
     "struck": [
      "links:66#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.3238,
+   "shared_pct": null
   },
   {
    "pair": "Sedna\u2013Venus",
@@ -10112,23 +10116,9 @@
     "struck": [
      "links:59#shape1"
     ]
-   }
-  },
-  {
-   "pair": "Ceres\u2013Makemake",
-   "n": 3,
-   "kinds": {
-    "ratio H": [
-     "ratios:9"
-    ],
-    "family": [
-     "pair_family:122"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
    },
-   "near": {}
+   "cross_tight": 0.8058,
+   "shared_pct": null
   }
  ]
 }

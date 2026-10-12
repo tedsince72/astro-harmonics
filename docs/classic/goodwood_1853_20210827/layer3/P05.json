@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "3 Lola Showgirl / 3 Laura Pearson",
  "workbook": "20210827_goodwood_1853__P05.xlsx",
  "bodies": {
@@ -10432,40 +10432,6 @@
  },
  "pair_focus": [
   {
-   "pair": "Gonggong\u2013Sun",
-   "n": 2,
-   "kinds": {
-    "cross": [
-     "links:55"
-    ],
-    "family": [
-     "pair_family:61"
-    ]
-   },
-   "near": {
-    "struck": [
-     "links:55#shape1"
-    ]
-   }
-  },
-  {
-   "pair": "Mars\u2013Neptune",
-   "n": 2,
-   "kinds": {
-    "ratio J": [
-     "ratios:12"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
-   },
-   "near": {
-    "h:j": [
-     "hj_ratios:2"
-    ]
-   }
-  },
-  {
    "pair": "Neptune\u2013Sun",
    "n": 2,
    "kinds": {
@@ -10480,7 +10446,44 @@
     "struck": [
      "links:71#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.1188,
+   "shared_pct": null
+  },
+  {
+   "pair": "Gonggong\u2013Sun",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:55"
+    ],
+    "family": [
+     "pair_family:61"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:55#shape1"
+    ]
+   },
+   "cross_tight": 0.7429,
+   "shared_pct": null
+  },
+  {
+   "pair": "Jupiter\u2013Sun",
+   "n": 1,
+   "kinds": {
+    "cross": [
+     "links:65"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:65#shape1"
+    ]
+   },
+   "cross_tight": 0.4129,
+   "shared_pct": null
   }
  ]
 }

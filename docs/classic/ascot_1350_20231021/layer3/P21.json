@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "11 Vadream / 11 Kieran Shoemark",
  "workbook": "ascot_1350_20231021__P21.xlsx",
  "bodies": {
@@ -10780,29 +10780,6 @@
  },
  "pair_focus": [
   {
-   "pair": "Jupiter\u2013Mars",
-   "n": 4,
-   "kinds": {
-    "cross": [
-     "links:73"
-    ],
-    "moved": [
-     "links:73#shape5"
-    ],
-    "ratio H": [
-     "ratios:1"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
-   },
-   "near": {
-    "struck": [
-     "links:73#shape1"
-    ]
-   }
-  },
-  {
    "pair": "Mercury\u2013Node",
    "n": 4,
    "kinds": {
@@ -10825,7 +10802,34 @@
     "family": [
      "pair_family:84"
     ]
-   }
+   },
+   "cross_tight": 0.5825,
+   "shared_pct": null
+  },
+  {
+   "pair": "Jupiter\u2013Mars",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:73"
+    ],
+    "moved": [
+     "links:73#shape5"
+    ],
+    "ratio H": [
+     "ratios:1"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:73#shape1"
+    ]
+   },
+   "cross_tight": 0.8958,
+   "shared_pct": null
   },
   {
    "pair": "Jupiter\u2013Vesta",
@@ -10850,7 +10854,9 @@
     "family": [
      "pair_family:98"
     ]
-   }
+   },
+   "cross_tight": 0.6763,
+   "shared_pct": null
   },
   {
    "pair": "Mercury\u2013Vesta",
@@ -10872,7 +10878,9 @@
     "family": [
      "pair_family:83"
     ]
-   }
+   },
+   "cross_tight": 0.6982,
+   "shared_pct": null
   }
  ]
 }

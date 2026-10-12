@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "1 Anniversary / 1 Rob Hornby",
  "workbook": "newmarket_july_1745_20240816__P01.xlsx",
  "bodies": {
@@ -8146,33 +8146,22 @@
  },
  "pair_focus": [
   {
-   "pair": "Uranus\u2013Vesta",
+   "pair": "Neptune\u2013Saturn",
    "n": 3,
    "kinds": {
-    "h:j": [
-     "hj_ratios:13"
-    ],
-    "family": [
-     "pair_family:22"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
-   },
-   "near": {
     "cross": [
-     "links:101"
+     "links:85"
     ],
     "struck": [
-     "links:101#shape1"
+     "links:85#shape1"
     ],
     "partner": [
-     "links:101#shape2"
-    ],
-    "family": [
-     "pair_family:81"
+     "links:85#shape2"
     ]
-   }
+   },
+   "near": {},
+   "cross_tight": 0.0762,
+   "shared_pct": null
   },
   {
    "pair": "Uranus\u2013Venus",
@@ -8195,23 +8184,9 @@
     "family": [
      "pair_family:56"
     ]
-   }
-  },
-  {
-   "pair": "Neptune\u2013Saturn",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:85"
-    ],
-    "struck": [
-     "links:85#shape1"
-    ],
-    "partner": [
-     "links:85#shape2"
-    ]
    },
-   "near": {}
+   "cross_tight": 0.2,
+   "shared_pct": null
   }
  ]
 }

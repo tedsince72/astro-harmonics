@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "10 Sense Of Duty / 10 Tom Marquand",
  "workbook": "ascot_1350_20231021__P19.xlsx",
  "bodies": {
@@ -9884,47 +9884,64 @@
  },
  "pair_focus": [
   {
-   "pair": "Juno\u2013Orcus",
-   "n": 3,
+   "pair": "Gonggong\u2013Pallas",
+   "n": 2,
    "kinds": {
-    "ratio H": [
-     "ratios:6"
+    "cross": [
+     "links:112"
     ],
-    "ratio J": [
-     "ratios:19",
-     "ratios:20"
-    ],
-    "family": [
-     "pair_family:50"
+    "moved": [
+     "links:112#shape5"
     ]
    },
    "near": {
+    "struck": [
+     "links:112#shape1"
+    ],
+    "partner": [
+     "links:112#shape2"
+    ],
     "family": [
-     "pair_family:119",
-     "pair_family:120"
+     "pair_family:47"
     ]
-   }
+   },
+   "cross_tight": 0.5601,
+   "shared_pct": null
   },
   {
-   "pair": "Mercury\u2013Node",
-   "n": 3,
+   "pair": "Node\u2013Sedna",
+   "n": 1,
    "kinds": {
-    "h:j": [
-     "hj_ratios:1"
-    ],
-    "family": [
-     "pair_family:65",
-     "pair_family:66"
-    ],
-    "sky": [
-     "sky-gc 3.9313"
+    "cross": [
+     "links:106"
     ]
    },
    "near": {
+    "struck": [
+     "links:106#shape1"
+    ],
     "family": [
-     "pair_family:67"
+     "pair_family:126"
     ]
-   }
+   },
+   "cross_tight": 0.0128,
+   "shared_pct": null
+  },
+  {
+   "pair": "Chiron\u2013Pallas",
+   "n": 1,
+   "kinds": {
+    "cross": [
+     "links:79"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:79#shape1"
+    ]
+   },
+   "cross_tight": 0.0471,
+   "shared_pct": null
   }
  ]
 }

@@ -1,4 +1,4 @@
-== haydock_1405_20220219  field of 6   [L4 v1.2 (12 Oct 2026, pair focus)]  (blind: no finishing positions)
+== haydock_1405_20220219  field of 6   [L4 v1.3 (12 Oct 2026, pair focus A+B+C)]  (blind: no finishing positions)
 -- runners: P01 1 Third Wind / 1 Tom O'Brien; P03 2 Thomas Darby / 2 Aidan Coleman; P05 3 Emitom / 3 Brian Hughes; P07 4 Top Ville Ben / 4 Thomas Dowson; P09 5 Wholestone / 5 Sam Twiston-Davies; P11 6 Molly Ollys Wishes / 6 Harry Skelton
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              2/6: P09:1 P11:1  |   6: P01:17 P03:10 P05:8 P07:8 P09:12 P11:19
@@ -35,15 +35,15 @@
    [ broad:11] P05 3 Emitom / 3 Brian Hughes: same body Chiron (worst 0.0230%)
 -- field-only findings (shape numbers)
    P03 2 Thomas Darby / 2 Aidan Coleman: only (strict) 6; only (broad) 6; strict, shared with one other -
-   P09 5 Wholestone / 5 Sam Twiston-Davies: only (strict) 9; only (broad) 4,9; strict, shared with one other 1
+   P09 5 Wholestone / 5 Sam Twiston-Davies: only (strict) 9,pair focus; only (broad) 4,9; strict, shared with one other 1
    P11 6 Molly Ollys Wishes / 6 Harry Skelton: only (strict) 3; only (broad) 3; strict, shared with one other 1
--- pair focus: each runner's most-lit pair (kinds of root item); field max 4 — P09, P11
-   P01 1 Third Wind / 1 Tom O'Brien             Quaoar–Saturn          2  cross, family
-   P03 2 Thomas Darby / 2 Aidan Coleman         Quaoar–Saturn          2  cross, same body
-   P05 3 Emitom / 3 Brian Hughes                Chiron–Pallas          3  cross, moved, same body
-   P07 4 Top Ville Ben / 4 Thomas Dowson        Node–Pluto             3  cross, partner, same body
-   P09 5 Wholestone / 5 Sam Twiston-Davies      Orcus–Transpluto       4  cross, struck, partner, same body  (tie)
-   P11 6 Molly Ollys Wishes / 6 Harry Skelton   Haumea–Transpluto      4  set, h:j, family, same body  (tie)
+-- pair focus: each runner's most-lit pair (kinds of root item); field max 4 — P09
+   P01 1 Third Wind / 1 Tom O'Brien             Chiron–Mercury         2  cross, moved  (cross 0.3555)
+   P03 2 Thomas Darby / 2 Aidan Coleman         Ceres–Uranus           2  cross, family  (cross 0.2677)
+   P05 3 Emitom / 3 Brian Hughes                Chiron–Pallas          3  cross, moved, same body  (cross 0.1512)
+   P07 4 Top Ville Ben / 4 Thomas Dowson        Node–Pluto             3  cross, partner, same body  (cross 0.2575)
+   P09 5 Wholestone / 5 Sam Twiston-Davies      Orcus–Transpluto       4  cross, struck, partner, same body  (cross 0.5732)  <- most-lit pair in the field
+   P11 6 Molly Ollys Wishes / 6 Harry Skelton   Orcus–Uranus           3  shared, cross, struck  (cross 0.4136)
 -- strong hubs across the field
    H Chiron       2: P01 P09
    J Quaoar       2: P01 P09

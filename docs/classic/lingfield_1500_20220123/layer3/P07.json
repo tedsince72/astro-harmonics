@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "5 Itchy Feet / 5 Gavin Sheehan",
  "workbook": "lingfield_1500_20220123__P07.xlsx",
  "bodies": {
@@ -10474,23 +10474,9 @@
     "struck": [
      "links:71#shape1"
     ]
-   }
-  },
-  {
-   "pair": "Haumea\u2013Mars",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:70"
-    ],
-    "struck": [
-     "links:70#shape1"
-    ],
-    "moved": [
-     "links:70#shape5"
-    ]
    },
-   "near": {}
+   "cross_tight": 0.4043,
+   "shared_pct": null
   },
   {
    "pair": "Mercury\u2013Venus",
@@ -10507,7 +10493,27 @@
      "pair_family:59"
     ]
    },
-   "near": {}
+   "near": {},
+   "cross_tight": 0.0696,
+   "shared_pct": null
+  },
+  {
+   "pair": "Haumea\u2013Mars",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:70"
+    ],
+    "struck": [
+     "links:70#shape1"
+    ],
+    "moved": [
+     "links:70#shape5"
+    ]
+   },
+   "near": {},
+   "cross_tight": 0.3075,
+   "shared_pct": null
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "3 Capuchinero / 3 Dougie Costello",
  "workbook": "20220406_catterick_1440__P05.xlsx",
  "bodies": {
@@ -12244,6 +12244,31 @@
  },
  "pair_focus": [
   {
+   "pair": "Orcus\u2013Sedna",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:106"
+    ],
+    "moved": [
+     "links:106#shape5"
+    ],
+    "ratio J": [
+     "ratios:11"
+    ],
+    "same body": [
+     "same_body:4"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:106#shape1"
+    ]
+   },
+   "cross_tight": 0.7893,
+   "shared_pct": null
+  },
+  {
    "pair": "Node\u2013Quaoar",
    "n": 4,
    "kinds": {
@@ -12270,30 +12295,53 @@
     "family": [
      "pair_family:46"
     ]
-   }
+   },
+   "cross_tight": 0.9228,
+   "shared_pct": null
   },
   {
-   "pair": "Orcus\u2013Sedna",
-   "n": 4,
+   "pair": "Pallas\u2013Saturn",
+   "n": 3,
    "kinds": {
     "cross": [
-     "links:106"
+     "links:88"
     ],
-    "moved": [
-     "links:106#shape5"
-    ],
-    "ratio J": [
-     "ratios:11"
+    "family": [
+     "pair_family:21"
     ],
     "same body": [
-     "same_body:4"
+     "same_body:0"
     ]
    },
    "near": {
     "struck": [
-     "links:106#shape1"
+     "links:88#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.1925,
+   "shared_pct": null
+  },
+  {
+   "pair": "Sun\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:95"
+    ],
+    "moved": [
+     "links:95#shape5"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:95#shape1"
+    ]
+   },
+   "cross_tight": 0.2429,
+   "shared_pct": null
   },
   {
    "pair": "Eris\u2013Vesta",
@@ -12317,7 +12365,9 @@
      "links:97#shape1",
      "links:104#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.3124,
+   "shared_pct": null
   },
   {
    "pair": "Pallas\u2013Venus",
@@ -12340,47 +12390,9 @@
     "family": [
      "pair_family:8"
     ]
-   }
-  },
-  {
-   "pair": "Pallas\u2013Saturn",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:88"
-    ],
-    "family": [
-     "pair_family:21"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:88#shape1"
-    ]
-   }
-  },
-  {
-   "pair": "Sun\u2013Vesta",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:95"
-    ],
-    "moved": [
-     "links:95#shape5"
-    ],
-    "same body": [
-     "same_body:1"
-    ]
-   },
-   "near": {
-    "struck": [
-     "links:95#shape1"
-    ]
-   }
+   "cross_tight": 0.4255,
+   "shared_pct": null
   },
   {
    "pair": "Pallas\u2013Pluto",
@@ -12396,7 +12408,9 @@
      "same_body:0"
     ]
    },
-   "near": {}
+   "near": {},
+   "cross_tight": 0.5423,
+   "shared_pct": null
   }
  ]
 }

@@ -1,4 +1,4 @@
-== york_1545_20240515  field of 7   [L4 v1.2 (12 Oct 2026, pair focus)]  (blind: no finishing positions)
+== york_1545_20240515  field of 7   [L4 v1.3 (12 Oct 2026, pair focus A+B+C)]  (blind: no finishing positions)
 -- runners: P01 1 Classical Song / 1 Rossa Ryan; P03 2 Francophone / 2 Joe Fanning; P05 3 Friendly Soul / 3 Kieran Shoemark; P07 4 La Pasionaria / 4 Hector Crouch; P09 5 Mayfair / 5 Ryan Moore; P11 6 Secret Satire / 6 Oisin Murphy; P13 7 Sinology / 7 Luke Morris
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              1/7: P11:1  |   7: P01:23 P03:19 P05:10 P07:15 P09:19 P11:16 P13:15
@@ -35,14 +35,14 @@
    P03 2 Francophone / 2 Joe Fanning: only (strict) -; only (broad) -; strict, shared with one other 11
    P07 4 La Pasionaria / 4 Hector Crouch: only (strict) 12; only (broad) -; strict, shared with one other 11,12m
    P11 6 Secret Satire / 6 Oisin Murphy: only (strict) 1; only (broad) -; strict, shared with one other 12m
--- pair focus: each runner's most-lit pair (kinds of root item); field max 3 — P03, P07, P09, P11, P13
-   P01 1 Classical Song / 1 Rossa Ryan          Jupiter–Sun            2  cross, sky
-   P03 2 Francophone / 2 Joe Fanning            Orcus–Uranus           3  cross, moved, family  (tie)
-   P05 3 Friendly Soul / 3 Kieran Shoemark      Mars–Node              2  ratio J, sky
-   P07 4 La Pasionaria / 4 Hector Crouch        Uranus–Venus           3  ratio H, same body, sky  (tie)
-   P09 5 Mayfair / 5 Ryan Moore                 Jupiter–Neptune        3  ratio H, h:j, family  (tie)
-   P11 6 Secret Satire / 6 Oisin Murphy         Eris–Juno              3  shared, cross, struck  (tie)
-   P13 7 Sinology / 7 Luke Morris               Neptune–Node           3  cross, ratio J, family  (tie)
+-- pair focus: each runner's most-lit pair (kinds of root item); field max 3 — P03, P11, P13
+   P01 1 Classical Song / 1 Rossa Ryan          Node–Vesta             2  cross, family  (cross 0.2096)
+   P03 2 Francophone / 2 Joe Fanning            Orcus–Uranus           3  cross, moved, family  (cross 0.7767)  (tie)
+   P05 3 Friendly Soul / 3 Kieran Shoemark      Mercury–Saturn         2  cross, moved  (cross 0.4079)
+   P07 4 La Pasionaria / 4 Hector Crouch        Chiron–Juno            2  cross, partner  (cross 0.2029)
+   P09 5 Mayfair / 5 Ryan Moore                 Ceres–Jupiter          2  cross, moved  (cross 0.0781)
+   P11 6 Secret Satire / 6 Oisin Murphy         Eris–Juno              3  shared, cross, struck  (cross 0.6626)  (tie)
+   P13 7 Sinology / 7 Luke Morris               Neptune–Node           3  cross, ratio J, family  (cross 0.5247)  (tie, tightest of the tied)
 -- strong hubs across the field
    H Pluto        2: P01 P07
    H Jupiter      2: P09 P13

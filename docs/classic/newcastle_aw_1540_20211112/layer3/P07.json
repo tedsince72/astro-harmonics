@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "4 Larllunna / 4 Harry Russell",
  "workbook": "newcastle_aw_1540_20211112__P07.xlsx",
  "bodies": {
@@ -10481,8 +10481,8 @@
      "links:96#shape5"
     ],
     "same body": [
-     "same_body:2",
-     "same_body:1"
+     "same_body:1",
+     "same_body:2"
     ]
    },
    "near": {
@@ -10492,30 +10492,9 @@
     "family": [
      "pair_family:137"
     ]
-   }
-  },
-  {
-   "pair": "Juno\u2013Node",
-   "n": 3,
-   "kinds": {
-    "ratio H": [
-     "ratios:1"
-    ],
-    "ratio J": [
-     "ratios:7"
-    ],
-    "family": [
-     "pair_family:50"
-    ]
    },
-   "near": {
-    "h:j": [
-     "hj_ratios:15"
-    ],
-    "family": [
-     "pair_family:124"
-    ]
-   }
+   "cross_tight": 0.3933,
+   "shared_pct": null
   }
  ]
 }

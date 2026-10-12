@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "1 Caspers Court / 1 Tom Scudamore",
  "workbook": "20211019_exeter_1515__P01.xlsx",
  "bodies": {
@@ -11002,6 +11002,35 @@
  },
  "pair_focus": [
   {
+   "pair": "Ceres\u2013Saturn",
+   "n": 4,
+   "kinds": {
+    "shared": [
+     "shared:2",
+     "shared:3"
+    ],
+    "cross": [
+     "links:61"
+    ],
+    "ratio J": [
+     "ratios:16"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:61#shape1"
+    ],
+    "partner": [
+     "links:61#shape2"
+    ]
+   },
+   "cross_tight": 0.0038,
+   "shared_pct": 0.064
+  },
+  {
    "pair": "Jupiter\u2013Node",
    "n": 4,
    "kinds": {
@@ -11029,34 +11058,9 @@
     "family": [
      "pair_family:36"
     ]
-   }
-  },
-  {
-   "pair": "Ceres\u2013Saturn",
-   "n": 4,
-   "kinds": {
-    "shared": [
-     "shared:2",
-     "shared:3"
-    ],
-    "cross": [
-     "links:61"
-    ],
-    "ratio J": [
-     "ratios:16"
-    ],
-    "same body": [
-     "same_body:1"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:61#shape1"
-    ],
-    "partner": [
-     "links:61#shape2"
-    ]
-   }
+   "cross_tight": 0.8336,
+   "shared_pct": null
   },
   {
    "pair": "Sedna\u2013Vesta",
@@ -11082,23 +11086,9 @@
     "family": [
      "pair_family:140"
     ]
-   }
-  },
-  {
-   "pair": "Mars\u2013Pluto",
-   "n": 3,
-   "kinds": {
-    "set": [
-     "pair_sets:0"
-    ],
-    "family": [
-     "pair_family:27"
-    ],
-    "same body": [
-     "same_body:2"
-    ]
    },
-   "near": {}
+   "cross_tight": 0.018,
+   "shared_pct": null
   }
  ]
 }

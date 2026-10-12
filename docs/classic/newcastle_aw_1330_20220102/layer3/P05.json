@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "3 Mondammej / 3 Cam Hardie",
  "workbook": "newcastle_aw_1330_20220102__P05.xlsx",
  "bodies": {
@@ -11721,27 +11721,48 @@
  },
  "pair_focus": [
   {
-   "pair": "Jupiter\u2013Pluto",
+   "pair": "Jupiter\u2013Saturn",
    "n": 3,
    "kinds": {
-    "shared": [
-     "shared:3"
-    ],
     "cross": [
-     "links:61"
+     "links:55"
     ],
     "moved": [
-     "links:61#shape5"
+     "links:55#shape5"
+    ],
+    "same body": [
+     "same_body:0"
     ]
    },
    "near": {
     "struck": [
-     "links:61#shape1"
+     "links:55#shape1"
+    ]
+   },
+   "cross_tight": 0.4366,
+   "shared_pct": null
+  },
+  {
+   "pair": "Jupiter\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:53"
     ],
     "partner": [
-     "links:61#shape2"
+     "links:53#shape2"
+    ],
+    "moved": [
+     "links:53#shape5"
     ]
-   }
+   },
+   "near": {
+    "struck": [
+     "links:53#shape1"
+    ]
+   },
+   "cross_tight": 0.5271,
+   "shared_pct": null
   },
   {
    "pair": "Saturn\u2013Venus",
@@ -11764,47 +11785,34 @@
     "ratio J": [
      "ratios:8"
     ]
-   }
+   },
+   "cross_tight": 0.6648,
+   "shared_pct": null
   },
   {
-   "pair": "Jupiter\u2013Node",
+   "pair": "Jupiter\u2013Pluto",
    "n": 3,
    "kinds": {
+    "shared": [
+     "shared:3"
+    ],
     "cross": [
-     "links:53"
+     "links:61"
+    ],
+    "moved": [
+     "links:61#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:61#shape1"
     ],
     "partner": [
-     "links:53#shape2"
-    ],
-    "moved": [
-     "links:53#shape5"
+     "links:61#shape2"
     ]
    },
-   "near": {
-    "struck": [
-     "links:53#shape1"
-    ]
-   }
-  },
-  {
-   "pair": "Jupiter\u2013Saturn",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:55"
-    ],
-    "moved": [
-     "links:55#shape5"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
-   },
-   "near": {
-    "struck": [
-     "links:55#shape1"
-    ]
-   }
+   "cross_tight": 0.819,
+   "shared_pct": 0.4842
   }
  ]
 }

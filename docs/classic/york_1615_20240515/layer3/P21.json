@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "11 On Point / 11 Sean D Bowen",
  "workbook": "york_1615_20240515__P21.xlsx",
  "bodies": {
@@ -11286,24 +11286,40 @@
  },
  "pair_focus": [
   {
-   "pair": "Juno\u2013Jupiter",
+   "pair": "Haumea\u2013Pallas",
    "n": 3,
    "kinds": {
     "cross": [
-     "links:89"
-    ],
-    "partner": [
-     "links:89#shape2"
+     "links:111"
     ],
     "moved": [
-     "links:89#shape5"
+     "links:111#shape5"
+    ],
+    "ratio H": [
+     "ratios:8"
     ]
    },
-   "near": {
-    "struck": [
-     "links:89#shape1"
+   "near": {},
+   "cross_tight": 0.0563,
+   "shared_pct": null
+  },
+  {
+   "pair": "Chiron\u2013Pluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:80"
+    ],
+    "moved": [
+     "links:80#shape5"
+    ],
+    "same body": [
+     "same_body:1"
     ]
-   }
+   },
+   "near": {},
+   "cross_tight": 0.1789,
+   "shared_pct": null
   },
   {
    "pair": "Saturn\u2013Vesta",
@@ -11323,56 +11339,31 @@
     "struck": [
      "links:90#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.2189,
+   "shared_pct": null
   },
   {
-   "pair": "Chiron\u2013Pluto",
+   "pair": "Juno\u2013Jupiter",
    "n": 3,
    "kinds": {
     "cross": [
-     "links:80"
+     "links:89"
+    ],
+    "partner": [
+     "links:89#shape2"
     ],
     "moved": [
-     "links:80#shape5"
-    ],
-    "same body": [
-     "same_body:1"
+     "links:89#shape5"
     ]
    },
-   "near": {}
-  },
-  {
-   "pair": "Haumea\u2013Pallas",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:111"
-    ],
-    "moved": [
-     "links:111#shape5"
-    ],
-    "ratio H": [
-     "ratios:8"
+   "near": {
+    "struck": [
+     "links:89#shape1"
     ]
    },
-   "near": {}
-  },
-  {
-   "pair": "Neptune\u2013Node",
-   "n": 3,
-   "kinds": {
-    "ratio J": [
-     "ratios:17"
-    ],
-    "family": [
-     "pair_family:112",
-     "pair_family:113"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.9693,
+   "shared_pct": null
   }
  ]
 }

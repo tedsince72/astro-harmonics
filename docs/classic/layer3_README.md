@@ -38,3 +38,9 @@ Tests: Exeter Chiron–Juno most-lit alone; York 16:15 and Newmarket July Venus�
 Descriptive table, all race folders with results (NOT evidence): winner's top pair the field's most-lit ALONE in 2 of 36 (Exeter, Perth)
 plus 9 ties; other runners alone 15 of 192 — about what chance gives. Ties and leaders are often slow-body pairs shared by age
 (Orcus–Transpluto, Haumea–Node), and the count ignores how tight each kind is. As built, the count alone does not separate winners.
+
+## v1.4 pair focus with A + B + C (12 Oct 2026, Eddie: 'go with all 3')
+A slow-body pairs (both of Eris, Sedna, Haumea, Makemake, Gonggong, Quaoar, Orcus, Transpluto) not counted as 'shared';
+B a pair counts only if joined by a tight cross link; C order by kinds, then the tightness of the cross link (field tie-break too).
+Tests pass. Descriptive table (NOT evidence): winner's top pair most-lit alone 4 of 36 (Exeter, Perth, Haydock 14:05, Newmarket 15:35),
+other runners 15 of 192; with the tightness tie-break winners 7 of 36, others 29 of 192 — roughly what chance gives (about 1 in 6 per race).

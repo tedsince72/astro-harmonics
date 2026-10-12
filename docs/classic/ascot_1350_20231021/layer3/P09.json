@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "5 Saint Lawrence / 5 Hollie Doyle",
  "workbook": "ascot_1350_20231021__P09.xlsx",
  "bodies": {
@@ -9639,6 +9639,24 @@
  },
  "pair_focus": [
   {
+   "pair": "Neptune\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:71"
+    ],
+    "struck": [
+     "links:71#shape1"
+    ],
+    "moved": [
+     "links:71#shape5"
+    ]
+   },
+   "near": {},
+   "cross_tight": 0.1101,
+   "shared_pct": null
+  },
+  {
    "pair": "Mercury\u2013Node",
    "n": 3,
    "kinds": {
@@ -9660,23 +9678,9 @@
      "pair_family:10",
      "pair_family:89"
     ]
-   }
-  },
-  {
-   "pair": "Neptune\u2013Sun",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:71"
-    ],
-    "struck": [
-     "links:71#shape1"
-    ],
-    "moved": [
-     "links:71#shape5"
-    ]
    },
-   "near": {}
+   "cross_tight": 0.6733,
+   "shared_pct": null
   }
  ]
 }

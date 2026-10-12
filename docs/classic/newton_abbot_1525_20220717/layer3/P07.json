@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "4 On Time / 4 Conor Ring",
  "workbook": "newton_abbot_1525_20220717__P07.xlsx",
  "bodies": {
@@ -9393,7 +9393,9 @@
     "family": [
      "pair_family:107"
     ]
-   }
+   },
+   "cross_tight": 0.049,
+   "shared_pct": null
   },
   {
    "pair": "Juno\u2013Jupiter",
@@ -9413,7 +9415,9 @@
     "family": [
      "pair_family:21"
     ]
-   }
+   },
+   "cross_tight": 0.63,
+   "shared_pct": null
   }
  ]
 }

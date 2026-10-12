@@ -1,4 +1,4 @@
-== ascot_1350_20231021  field of 15   [L4 v1.2 (12 Oct 2026, pair focus)]  (blind: no finishing positions)
+== ascot_1350_20231021  field of 15   [L4 v1.3 (12 Oct 2026, pair focus A+B+C)]  (blind: no finishing positions)
 -- runners: P01 1 Art Power / 1 David Allan; P03 2 Kinross / 2 Frankie Dettori; P05 3 Rohaan / 3 Ryan Moore; P07 4 Run To Freedom / 4 Trevor Whelan; P09 5 Saint Lawrence / 5 Hollie Doyle; P11 6 Spycatcher / 6 Clifford Lee; P13 7 Mill Stream / 7 William Buick; P15 8 Makarova / 8 Paul Mulrennan; P17 9 Sandrine / 9 Oisin Murphy; P19 10 Sense Of Duty / 10 Tom Marquand; P21 11 Vadream / 11 Kieran Shoemark; P23 12 Believing / 12 Daniel Tudhope; P25 13 Magical Sunset / 13 Rossa Ryan; P27 14 Ocean Quest / 14 Shane Foley; P29 15 Swingalong / 15 Sam James
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              7/15: P09:2 P13:1 P15:3 P17:5 P21:2 P23:2 P27:2  |  15: P01:14 P03:11 P05:14 P07:23 P09:15 P11:18 P13:17 P15:22 P17:23 P19:14 P21:14 P23:18 P25:18 P27:18 P29:17
@@ -36,21 +36,21 @@
    P15 8 Makarova / 8 Paul Mulrennan: only (strict) -; only (broad) -; strict, shared with one other 6
    P17 9 Sandrine / 9 Oisin Murphy: only (strict) -; only (broad) -; strict, shared with one other 6
 -- pair focus: each runner's most-lit pair (kinds of root item); field max 4 — P05, P15, P17, P21, P29
-   P01 1 Art Power / 1 David Allan              Eris–Node              3  cross, partner, family
-   P03 2 Kinross / 2 Frankie Dettori            Jupiter–Uranus         3  cross, partner, moved
-   P05 3 Rohaan / 3 Ryan Moore                  Sedna–Venus            4  cross, h:j, family, same body  (tie)
-   P07 4 Run To Freedom / 4 Trevor Whelan       Node–Vesta             3  cross, partner, moved
-   P09 5 Saint Lawrence / 5 Hollie Doyle        Mercury–Node           3  cross, moved, sky
-   P11 6 Spycatcher / 6 Clifford Lee            Makemake–Node          3  cross, moved, family
-   P13 7 Mill Stream / 7 William Buick          Haumea–Node            3  cross, struck, moved
-   P15 8 Makarova / 8 Paul Mulrennan            Gonggong–Jupiter       4  cross, partner, moved, family  (tie)
-   P17 9 Sandrine / 9 Oisin Murphy              Neptune–Node           4  cross, struck, moved, family  (tie)
-   P19 10 Sense Of Duty / 10 Tom Marquand       Juno–Orcus             3  ratio H, ratio J, family
-   P21 11 Vadream / 11 Kieran Shoemark          Jupiter–Mars           4  cross, moved, ratio H, same body  (tie)
-   P23 12 Believing / 12 Daniel Tudhope         Juno–Mars              3  cross, moved, same body
-   P25 13 Magical Sunset / 13 Rossa Ryan        Juno–Mercury           2  cross, same body
-   P27 14 Ocean Quest / 14 Shane Foley          Mars–Neptune           3  cross, struck, family
-   P29 15 Swingalong / 15 Sam James             Gonggong–Saturn        4  cross, moved, family, sky  (tie)
+   P01 1 Art Power / 1 David Allan              Node–Quaoar            3  shared, cross, family  (cross 0.4995)
+   P03 2 Kinross / 2 Frankie Dettori            Makemake–Uranus        3  cross, moved, family  (cross 0.8839)
+   P05 3 Rohaan / 3 Ryan Moore                  Sedna–Venus            4  cross, h:j, family, same body  (cross 0.4878)  (tie)
+   P07 4 Run To Freedom / 4 Trevor Whelan       Node–Vesta             3  cross, partner, moved  (cross 0.695)
+   P09 5 Saint Lawrence / 5 Hollie Doyle        Neptune–Sun            3  cross, struck, moved  (cross 0.1101)
+   P11 6 Spycatcher / 6 Clifford Lee            Makemake–Node          3  cross, moved, family  (cross 0.881)
+   P13 7 Mill Stream / 7 William Buick          Haumea–Venus           3  cross, moved, family  (cross 0.196)
+   P15 8 Makarova / 8 Paul Mulrennan            Node–Uranus            4  cross, moved, ratio H, family  (cross 0.6147)  (tie)
+   P17 9 Sandrine / 9 Oisin Murphy              Neptune–Node           4  cross, struck, moved, family  (cross 0.165)  (tie, tightest of the tied)
+   P19 10 Sense Of Duty / 10 Tom Marquand       Gonggong–Pallas        2  cross, moved  (cross 0.5601)
+   P21 11 Vadream / 11 Kieran Shoemark          Mercury–Node           4  cross, struck, moved, sky  (cross 0.5825)  (tie)
+   P23 12 Believing / 12 Daniel Tudhope         Juno–Mars              3  cross, moved, same body  (cross 0.2367)
+   P25 13 Magical Sunset / 13 Rossa Ryan        Node–Saturn            2  cross, moved  (cross 0.0122)
+   P27 14 Ocean Quest / 14 Shane Foley          Mars–Neptune           3  cross, struck, family  (cross 0.6987)
+   P29 15 Swingalong / 15 Sam James             Gonggong–Saturn        4  cross, moved, family, sky  (cross 0.1794)  (tie)
 -- strong hubs across the field
    H Node         3: P15 P17 P21
    H Chiron       2: P05 P15

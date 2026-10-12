@@ -1,40 +1,44 @@
 {
- "version": "L4 v1.2 (12 Oct 2026, pair focus)",
+ "version": "L4 v1.3 (12 Oct 2026, pair focus A+B+C)",
  "race": "southwell_2000_20261010",
  "pair_focus": {
   "P01": {
-   "top": "Gonggong\u2013Node",
+   "top": "Quaoar\u2013Quaoar",
    "n": 2,
    "kinds": [
     "cross",
-    "same body"
+    "moved"
    ],
+   "cross_tight": 0.0193,
    "tied_pairs": [
-    "Gonggong\u2013Node",
-    "Neptune\u2013Quaoar",
-    "Eris\u2013Eris"
+    "Quaoar\u2013Quaoar",
+    "Ceres\u2013Node",
+    "Gonggong\u2013Quaoar"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P03": {
-   "top": "Jupiter\u2013Node",
+   "top": "Pluto\u2013Saturn",
    "n": 4,
    "kinds": [
-    "shared",
     "cross",
     "partner",
+    "moved",
     "same body"
    ],
+   "cross_tight": 0.0914,
    "tied_pairs": [
-    "Jupiter\u2013Node",
     "Pluto\u2013Saturn",
-    "Node\u2013Orcus",
-    "Ceres\u2013Jupiter"
+    "Jupiter\u2013Node",
+    "Ceres\u2013Jupiter",
+    "Node\u2013Orcus"
    ],
    "field_max": true,
    "most_lit_alone": false,
+   "leads_on_tightness": true,
    "same_pair_elsewhere": {}
   },
   "P05": {
@@ -45,27 +49,31 @@
     "struck",
     "same body"
    ],
+   "cross_tight": 0.6773,
    "tied_pairs": [
     "Venus\u2013Vesta"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P07": {
-   "top": "Gonggong\u2013Quaoar",
+   "top": "Node\u2013Vesta",
    "n": 2,
    "kinds": [
     "cross",
-    "family"
+    "partner"
    ],
+   "cross_tight": 0.0358,
    "tied_pairs": [
-    "Gonggong\u2013Quaoar",
-    "Chiron\u2013Orcus",
-    "Eris\u2013Pallas"
+    "Node\u2013Vesta",
+    "Orcus\u2013Venus",
+    "Gonggong\u2013Quaoar"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P09": {
@@ -77,49 +85,54 @@
     "moved",
     "family"
    ],
+   "cross_tight": 0.3533,
    "tied_pairs": [
-    "Juno\u2013Node",
-    "Haumea\u2013Makemake"
+    "Juno\u2013Node"
    ],
    "field_max": true,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P11": {
-   "top": "Pallas\u2013Sun",
+   "top": "Chiron\u2013Orcus",
    "n": 3,
    "kinds": [
     "cross",
-    "ratio J",
+    "moved",
     "same body"
    ],
+   "cross_tight": 0.4554,
    "tied_pairs": [
-    "Pallas\u2013Sun",
-    "Transpluto\u2013Venus",
-    "Mars\u2013Sun",
-    "Pallas\u2013Uranus",
     "Chiron\u2013Orcus",
-    "Haumea\u2013Pallas"
+    "Mars\u2013Sun",
+    "Transpluto\u2013Venus",
+    "Pallas\u2013Sun"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P13": {
-   "top": "Gonggong\u2013Juno",
+   "top": "Quaoar\u2013Sun",
    "n": 2,
    "kinds": [
     "cross",
-    "ratio J"
+    "moved"
    ],
+   "cross_tight": 0.0514,
    "tied_pairs": [
-    "Gonggong\u2013Juno",
-    "Mars\u2013Node",
-    "Neptune\u2013Sun"
+    "Quaoar\u2013Sun",
+    "Pallas\u2013Vesta",
+    "Mars\u2013Node"
    ],
    "field_max": false,
    "most_lit_alone": false,
-   "same_pair_elsewhere": {}
+   "leads_on_tightness": false,
+   "same_pair_elsewhere": {
+    "P03": 3
+   }
   }
  },
  "pair_focus_max": 4,

@@ -1,5 +1,5 @@
 {
- "version": "L4 v1.2 (12 Oct 2026, pair focus)",
+ "version": "L4 v1.3 (12 Oct 2026, pair focus A+B+C)",
  "race": "nottingham_1750_20220613",
  "pair_focus": {
   "P01": {
@@ -10,12 +10,14 @@
     "partner",
     "family"
    ],
+   "cross_tight": 0.1966,
    "tied_pairs": [
     "Jupiter\u2013Venus",
     "Node\u2013Venus"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P03": {
@@ -26,12 +28,13 @@
     "moved",
     "same body"
    ],
+   "cross_tight": 0.8982,
    "tied_pairs": [
-    "Eris\u2013Vesta",
-    "Makemake\u2013Vesta"
+    "Eris\u2013Vesta"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P05": {
@@ -41,13 +44,15 @@
     "cross",
     "family"
    ],
+   "cross_tight": 0.0334,
    "tied_pairs": [
     "Jupiter\u2013Mars",
-    "Mercury\u2013Uranus",
-    "Sun\u2013Sun"
+    "Neptune\u2013Saturn",
+    "Gonggong\u2013Venus"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P07": {
@@ -59,31 +64,37 @@
     "moved",
     "same body"
    ],
+   "cross_tight": 0.2241,
    "tied_pairs": [
     "Node\u2013Uranus"
    ],
    "field_max": true,
    "most_lit_alone": false,
+   "leads_on_tightness": true,
    "same_pair_elsewhere": {
     "P11": 3
    }
   },
   "P09": {
-   "top": "Mars\u2013Node",
+   "top": "Neptune\u2013Node",
    "n": 4,
    "kinds": [
     "cross",
-    "partner",
+    "struck",
     "moved",
-    "family"
+    "ratio J"
    ],
+   "cross_tight": 0.3451,
    "tied_pairs": [
-    "Mars\u2013Node",
-    "Neptune\u2013Node"
+    "Neptune\u2013Node",
+    "Mars\u2013Node"
    ],
    "field_max": true,
    "most_lit_alone": false,
-   "same_pair_elsewhere": {}
+   "leads_on_tightness": false,
+   "same_pair_elsewhere": {
+    "P11": 4
+   }
   },
   "P11": {
    "top": "Neptune\u2013Node",
@@ -94,11 +105,13 @@
     "family",
     "same body"
    ],
+   "cross_tight": 0.7736,
    "tied_pairs": [
     "Neptune\u2013Node"
    ],
    "field_max": true,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {
     "P09": 4
    }

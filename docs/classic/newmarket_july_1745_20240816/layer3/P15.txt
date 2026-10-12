@@ -1,4 +1,4 @@
-== 8 Vecu / 8 Robert Havlin   [newmarket_july_1745_20240816__P15.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
+== 8 Vecu / 8 Robert Havlin   [newmarket_july_1745_20240816__P15.xlsx, L3 v1.4 (12 Oct 2026, pair focus A+B+C)]
 -- strong hubs (5+ tight kinds): J Jupiter, H Mercury, H Vesta, H Ceres, J Sun
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    J Jupiter      BEMPRSX  tight 5  (near joined: ES)
@@ -648,23 +648,23 @@
         sky Pallas -> H Gonggong GC 99.33286 = 894/9
         sky Orcus -> H Gonggong Dec 1.00103 = 1
 -- pair focus (kinds of root item on one pair; near beside, not counted)
-   Neptune–Vesta          4 kinds: cross, struck, partner, moved   near: family
+   Neptune–Vesta          4 kinds: cross, struck, partner, moved  cross tightness 0.5054   near: family
         cross: cross H Vesta–J Neptune RA 51.7517 Dec 0.1516
         struck: cross H Vesta–J Neptune RA 51.7517 Dec 0.1516
         partner: cross H Vesta–J Neptune RA 51.7517 Dec 0.1516
         moved: cross H Vesta–J Neptune RA 51.7517 Dec 0.1516
-   Juno–Jupiter           3 kinds: cross, moved, same body   near: struck, partner, family
+   Juno–Jupiter           3 kinds: cross, moved, same body  cross tightness 0.3495   near: struck, partner, family
         cross: cross H Juno–J Jupiter RA 0.5243 Dec 8.6183
         moved: cross H Juno–J Jupiter RA 0.5243 Dec 8.6183
         same body: same-body Jupiter Flat 8/3 : 11/8 : 11/3 (worst 0.0228%)
-   Gonggong–Mercury       3 kinds: cross, struck, moved
-        cross: cross H Mercury–J Gonggong RA 1.1079 Dec 9.0288
-        struck: cross H Mercury–J Gonggong RA 1.1079 Dec 9.0288
-        moved: cross H Mercury–J Gonggong RA 1.1079 Dec 9.0288
-   Pluto–Sun              3 kinds: cross, moved, h:j
+   Pluto–Sun              3 kinds: cross, moved, h:j  cross tightness 0.3648
         cross: cross H Pluto–J Sun RA 46.7129 Dec 0.1094
         moved: cross H Pluto–J Sun RA 46.7129 Dec 0.1094
         h:j: horse:jockey Sun–Pluto RA H 43.9432 J 60.4208 11/8
+   Gonggong–Mercury       3 kinds: cross, struck, moved  cross tightness 0.7386
+        cross: cross H Mercury–J Gonggong RA 1.1079 Dec 9.0288
+        struck: cross H Mercury–J Gonggong RA 1.1079 Dec 9.0288
+        moved: cross H Mercury–J Gonggong RA 1.1079 Dec 9.0288
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Neptune–Node: H H Neptune–H Rahu RA 59.33364 = 534/9
    recurring cross link horse Uranus – jockey Venus: cross H Uranus–J Venus GC 102.00224 = 102

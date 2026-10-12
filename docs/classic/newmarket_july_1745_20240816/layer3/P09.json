@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "5 Knights Gold / 5 Marco Ghiani",
  "workbook": "newmarket_july_1745_20240816__P09.xlsx",
  "bodies": {
@@ -11102,6 +11102,25 @@
  },
  "pair_focus": [
   {
+   "pair": "Ceres\u2013Sedna",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:102"
+    ],
+    "moved": [
+     "links:102#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:102#shape1"
+    ]
+   },
+   "cross_tight": 0.0083,
+   "shared_pct": null
+  },
+  {
    "pair": "Gonggong\u2013Mars",
    "n": 2,
    "kinds": {
@@ -11119,42 +11138,28 @@
     "partner": [
      "links:108#shape2"
     ]
-   }
+   },
+   "cross_tight": 0.0221,
+   "shared_pct": null
   },
   {
-   "pair": "Ceres\u2013Sedna",
+   "pair": "Pallas\u2013Saturn",
    "n": 2,
    "kinds": {
     "cross": [
-     "links:102"
+     "links:88"
     ],
     "moved": [
-     "links:102#shape5"
+     "links:88#shape5"
     ]
    },
    "near": {
     "struck": [
-     "links:102#shape1"
-    ]
-   }
-  },
-  {
-   "pair": "Makemake\u2013Node",
-   "n": 2,
-   "kinds": {
-    "ratio J": [
-     "ratios:14"
-    ],
-    "family": [
-     "pair_family:40"
+     "links:88#shape1"
     ]
    },
-   "near": {
-    "family": [
-     "pair_family:39",
-     "pair_family:116"
-    ]
-   }
+   "cross_tight": 0.3011,
+   "shared_pct": null
   }
  ]
 }

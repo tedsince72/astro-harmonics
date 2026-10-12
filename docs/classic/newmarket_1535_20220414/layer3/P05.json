@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "3 Dawn Of Liberation / 3 Sean Levey",
  "workbook": "newmarket_1535_20220414__P05.xlsx",
  "bodies": {
@@ -11296,49 +11296,6 @@
  },
  "pair_focus": [
   {
-   "pair": "Ceres\u2013Venus",
-   "n": 3,
-   "kinds": {
-    "ratio H": [
-     "ratios:4"
-    ],
-    "h:j": [
-     "hj_ratios:4"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
-   },
-   "near": {
-    "family": [
-     "pair_family:13",
-     "pair_family:72",
-     "pair_family:73"
-    ]
-   }
-  },
-  {
-   "pair": "Pluto\u2013Venus",
-   "n": 3,
-   "kinds": {
-    "h:j": [
-     "hj_ratios:3"
-    ],
-    "family": [
-     "pair_family:12",
-     "pair_family:70"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
-   },
-   "near": {
-    "ratio H": [
-     "ratios:3"
-    ]
-   }
-  },
-  {
    "pair": "Saturn\u2013Venus",
    "n": 3,
    "kinds": {
@@ -11356,7 +11313,9 @@
     "struck": [
      "links:62#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.6502,
+   "shared_pct": null
   }
  ]
 }

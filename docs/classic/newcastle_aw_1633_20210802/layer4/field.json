@@ -1,38 +1,44 @@
 {
- "version": "L4 v1.2 (12 Oct 2026, pair focus)",
+ "version": "L4 v1.3 (12 Oct 2026, pair focus A+B+C)",
  "race": "newcastle_aw_1633_20210802",
  "pair_focus": {
   "P01": {
-   "top": "Pluto\u2013Sun",
+   "top": "Gonggong\u2013Mercury",
    "n": 3,
    "kinds": [
     "cross",
     "moved",
-    "family"
+    "ratio J"
    ],
+   "cross_tight": 0.4225,
    "tied_pairs": [
-    "Pluto\u2013Sun",
-    "Gonggong\u2013Mercury"
+    "Gonggong\u2013Mercury",
+    "Pluto\u2013Sun"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P03": {
-   "top": "Ceres\u2013Venus",
+   "top": "Node\u2013Sun",
    "n": 2,
    "kinds": [
-    "family",
-    "same body"
+    "cross",
+    "partner"
    ],
+   "cross_tight": 0.4977,
    "tied_pairs": [
-    "Ceres\u2013Venus",
-    "Mars\u2013Node",
-    "Node\u2013Sun"
+    "Node\u2013Sun",
+    "Orcus\u2013Vesta",
+    "Eris\u2013Juno"
    ],
    "field_max": false,
    "most_lit_alone": false,
-   "same_pair_elsewhere": {}
+   "leads_on_tightness": false,
+   "same_pair_elsewhere": {
+    "P07": 3
+   }
   },
   "P05": {
    "top": "Ceres\u2013Chiron",
@@ -42,11 +48,13 @@
     "ratio H",
     "family"
    ],
+   "cross_tight": 0.3066,
    "tied_pairs": [
     "Ceres\u2013Chiron"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P07": {
@@ -59,11 +67,13 @@
     "ratio H",
     "family"
    ],
+   "cross_tight": 0.8395,
    "tied_pairs": [
     "Chiron\u2013Node"
    ],
    "field_max": true,
    "most_lit_alone": true,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P09": {
@@ -75,11 +85,13 @@
     "moved",
     "family"
    ],
+   "cross_tight": 0.4914,
    "tied_pairs": [
     "Node\u2013Sedna"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P11": {
@@ -91,11 +103,13 @@
     "moved",
     "ratio J"
    ],
+   "cross_tight": 0.4438,
    "tied_pairs": [
     "Eris\u2013Uranus"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   }
  },

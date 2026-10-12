@@ -1,4 +1,4 @@
-== newmarket_july_1745_20240816  field of 9   [L4 v1.2 (12 Oct 2026, pair focus)]  (blind: no finishing positions)
+== newmarket_july_1745_20240816  field of 9   [L4 v1.3 (12 Oct 2026, pair focus A+B+C)]  (blind: no finishing positions)
 -- runners: P01 1 Anniversary / 1 Rob Hornby; P03 2 Arabian Poet / 2 William Buick; P05 3 Double Meaning / 3 Pat Dobbs; P07 4 King Of Cities / 4 Sean Levey; P09 5 Knights Gold / 5 Marco Ghiani; P11 6 Scandinavia / 6 Tom Marquand; P13 7 Sedate / 7 Joshua Bryan; P15 8 Vecu / 8 Robert Havlin; P17 9 Big Gypsy King / 9 Neil Callan
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              5/9: P01:1 P03:1 P07:2 P13:1 P15:2  |   9: P01:11 P03:19 P05:13 P07:16 P09:21 P11:12 P13:15 P15:13 P17:22
@@ -38,15 +38,15 @@
    P15 8 Vecu / 8 Robert Havlin: only (strict) 6; only (broad) 6; strict, shared with one other -
    P17 9 Big Gypsy King / 9 Neil Callan: only (strict) 4; only (broad) 4; strict, shared with one other -
 -- pair focus: each runner's most-lit pair (kinds of root item); field max 4 — P03, P07, P11, P15
-   P01 1 Anniversary / 1 Rob Hornby             Uranus–Vesta           3  h:j, family, same body
-   P03 2 Arabian Poet / 2 William Buick         Pluto–Saturn           4  cross, struck, partner, moved  (tie)
-   P05 3 Double Meaning / 3 Pat Dobbs           Quaoar–Sun             3  cross, ratio H, family
-   P07 4 King Of Cities / 4 Sean Levey          Neptune–Pluto          4  cross, struck, moved, family  (tie)
-   P09 5 Knights Gold / 5 Marco Ghiani          Gonggong–Mars          2  cross, moved
-   P11 6 Scandinavia / 6 Tom Marquand           Sun–Vesta              4  cross, family, same body, sky  (tie)
-   P13 7 Sedate / 7 Joshua Bryan                Saturn–Uranus          3  cross, moved, family
-   P15 8 Vecu / 8 Robert Havlin                 Neptune–Vesta          4  cross, struck, partner, moved  (tie)
-   P17 9 Big Gypsy King / 9 Neil Callan         Makemake–Transpluto    3  cross, moved, family
+   P01 1 Anniversary / 1 Rob Hornby             Neptune–Saturn         3  cross, struck, partner  (cross 0.0762)
+   P03 2 Arabian Poet / 2 William Buick         Pluto–Saturn           4  cross, struck, partner, moved  (cross 0.314)  (tie, tightest of the tied)
+   P05 3 Double Meaning / 3 Pat Dobbs           Saturn–Sun             3  cross, moved, family  (cross 0.2264)
+   P07 4 King Of Cities / 4 Sean Levey          Neptune–Pluto          4  cross, struck, moved, family  (cross 0.9986)  (tie)
+   P09 5 Knights Gold / 5 Marco Ghiani          Ceres–Sedna            2  cross, moved  (cross 0.0083)
+   P11 6 Scandinavia / 6 Tom Marquand           Sun–Vesta              4  cross, family, same body, sky  (cross 0.488)  (tie)
+   P13 7 Sedate / 7 Joshua Bryan                Saturn–Uranus          3  cross, moved, family  (cross 0.5559)
+   P15 8 Vecu / 8 Robert Havlin                 Neptune–Vesta          4  cross, struck, partner, moved  (cross 0.5054)  (tie)
+   P17 9 Big Gypsy King / 9 Neil Callan         Makemake–Transpluto    3  cross, moved, family  (cross 0.134)
 -- strong hubs across the field
    H Mercury      3: P03 P07 P15
    H Sun          2: P01 P11

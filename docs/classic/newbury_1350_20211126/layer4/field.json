@@ -1,5 +1,5 @@
 {
- "version": "L4 v1.2 (12 Oct 2026, pair focus)",
+ "version": "L4 v1.3 (12 Oct 2026, pair focus A+B+C)",
  "race": "newbury_1350_20211126",
  "pair_focus": {
   "P01": {
@@ -10,11 +10,13 @@
     "moved",
     "family"
    ],
+   "cross_tight": 0.0537,
    "tied_pairs": [
     "Quaoar\u2013Sun"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P03": {
@@ -27,11 +29,13 @@
     "moved",
     "family"
    ],
+   "cross_tight": 0.4549,
    "tied_pairs": [
     "Saturn\u2013Sedna"
    ],
    "field_max": true,
    "most_lit_alone": true,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P05": {
@@ -42,36 +46,35 @@
     "cross",
     "sky"
    ],
+   "cross_tight": 0.2628,
    "tied_pairs": [
     "Node\u2013Vesta",
     "Sun\u2013Transpluto",
-    "Chiron\u2013Venus",
-    "Neptune\u2013Pallas"
+    "Neptune\u2013Pallas",
+    "Chiron\u2013Venus"
    ],
    "field_max": false,
    "most_lit_alone": false,
-   "same_pair_elsewhere": {
-    "P07": 3
-   }
+   "leads_on_tightness": false,
+   "same_pair_elsewhere": {}
   },
   "P07": {
-   "top": "Node\u2013Vesta",
+   "top": "Orcus\u2013Venus",
    "n": 3,
    "kinds": [
-    "family",
-    "same body",
-    "sky"
+    "cross",
+    "struck",
+    "partner"
    ],
+   "cross_tight": 0.525,
    "tied_pairs": [
-    "Node\u2013Vesta",
-    "Haumea\u2013Vesta",
-    "Orcus\u2013Venus"
+    "Orcus\u2013Venus",
+    "Haumea\u2013Vesta"
    ],
    "field_max": false,
    "most_lit_alone": false,
-   "same_pair_elsewhere": {
-    "P05": 3
-   }
+   "leads_on_tightness": false,
+   "same_pair_elsewhere": {}
   },
   "P09": {
    "top": "Haumea\u2013Pallas",
@@ -81,14 +84,13 @@
     "ratio J",
     "same body"
    ],
+   "cross_tight": 0.7385,
    "tied_pairs": [
-    "Haumea\u2013Pallas",
-    "Mercury\u2013Vesta",
-    "Haumea\u2013Node",
-    "Sun\u2013Vesta"
+    "Haumea\u2013Pallas"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   }
  },

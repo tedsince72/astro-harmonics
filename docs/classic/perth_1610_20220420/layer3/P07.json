@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "4 Calle Malva / 4 Derek Fox",
  "workbook": "perth_1610_20220420__P07.xlsx",
  "bodies": {
@@ -10610,53 +10610,71 @@
  },
  "pair_focus": [
   {
-   "pair": "Gonggong\u2013Jupiter",
-   "n": 3,
+   "pair": "Haumea\u2013Node",
+   "n": 2,
    "kinds": {
-    "ratio H": [
-     "ratios:5"
+    "cross": [
+     "links:77"
     ],
     "family": [
-     "pair_family:101"
+     "pair_family:67"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:77#shape1"
+    ],
+    "h:j": [
+     "hj_ratios:19"
+    ],
+    "family": [
+     "pair_family:64",
+     "pair_family:136"
+    ]
+   },
+   "cross_tight": 0.2482,
+   "shared_pct": null
+  },
+  {
+   "pair": "Jupiter\u2013Pallas",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:69"
+    ],
+    "partner": [
+     "links:69#shape2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:69#shape1"
+    ],
+    "family": [
+     "pair_family:31"
+    ]
+   },
+   "cross_tight": 0.3285,
+   "shared_pct": null
+  },
+  {
+   "pair": "Gonggong\u2013Saturn",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:57"
     ],
     "same body": [
      "same_body:2"
     ]
    },
-   "near": {}
-  },
-  {
-   "pair": "Gonggong\u2013Mars",
-   "n": 3,
-   "kinds": {
-    "shared": [
-     "shared:1"
-    ],
-    "same body": [
-     "same_body:0",
-     "same_body:2"
-    ],
-    "sky": [
-     "sky-gc 1.0847"
+   "near": {
+    "struck": [
+     "links:57#shape1"
     ]
    },
-   "near": {}
-  },
-  {
-   "pair": "Mercury\u2013Uranus",
-   "n": 3,
-   "kinds": {
-    "family": [
-     "pair_family:84"
-    ],
-    "same body": [
-     "same_body:1"
-    ],
-    "sky": [
-     "sky-gc 4.6598"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.6421,
+   "shared_pct": null
   }
  ]
 }

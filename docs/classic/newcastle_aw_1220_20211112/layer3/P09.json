@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "6 Cuban Hope / 6 Ellie MacKenzie",
  "workbook": "newcastle_aw_1220_20211112__P09.xlsx",
  "bodies": {
@@ -11549,27 +11549,9 @@
     "struck": [
      "links:73#shape1"
     ]
-   }
-  },
-  {
-   "pair": "Ceres\u2013Mars",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:66"
-    ],
-    "moved": [
-     "links:66#shape5"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:66#shape1"
-    ]
-   }
+   "cross_tight": 0.5331,
+   "shared_pct": null
   },
   {
    "pair": "Makemake\u2013Node",
@@ -11591,7 +11573,31 @@
     "struck": [
      "links:105#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.1845,
+   "shared_pct": null
+  },
+  {
+   "pair": "Ceres\u2013Mars",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:66"
+    ],
+    "moved": [
+     "links:66#shape5"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:66#shape1"
+    ]
+   },
+   "cross_tight": 0.9052,
+   "shared_pct": null
   }
  ]
 }

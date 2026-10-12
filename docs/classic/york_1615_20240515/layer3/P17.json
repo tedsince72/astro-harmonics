@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "9 Expensive Queen / 9 Ryan Moore",
  "workbook": "york_1615_20240515__P17.xlsx",
  "bodies": {
@@ -11027,7 +11027,31 @@
     "struck": [
      "links:67#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.4228,
+   "shared_pct": null
+  },
+  {
+   "pair": "Eris\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:66"
+    ],
+    "moved": [
+     "links:66#shape5"
+    ],
+    "ratio H": [
+     "ratios:4"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:66#shape1"
+    ]
+   },
+   "cross_tight": 0.029,
+   "shared_pct": null
   },
   {
    "pair": "Neptune\u2013Pluto",
@@ -11053,27 +11077,9 @@
     "family": [
      "pair_family:97"
     ]
-   }
-  },
-  {
-   "pair": "Eris\u2013Venus",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:66"
-    ],
-    "moved": [
-     "links:66#shape5"
-    ],
-    "ratio H": [
-     "ratios:4"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:66#shape1"
-    ]
-   }
+   "cross_tight": 0.0837,
+   "shared_pct": null
   },
   {
    "pair": "Pallas\u2013Pluto",
@@ -11095,39 +11101,9 @@
     "struck": [
      "links:84#shape1"
     ]
-   }
-  },
-  {
-   "pair": "Haumea\u2013Sun",
-   "n": 3,
-   "kinds": {
-    "ratio H": [
-     "ratios:2"
-    ],
-    "ratio J": [
-     "ratios:11"
-    ],
-    "family": [
-     "pair_family:59"
-    ]
    },
-   "near": {}
-  },
-  {
-   "pair": "Jupiter\u2013Uranus",
-   "n": 3,
-   "kinds": {
-    "ratio J": [
-     "ratios:12"
-    ],
-    "same body": [
-     "same_body:0"
-    ],
-    "sky": [
-     "sky-gc 4.3552"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.1684,
+   "shared_pct": null
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "3 Master Tommytucker / 3 Harry Cobden",
  "workbook": "lingfield_1500_20220123__P05.xlsx",
  "bodies": {
@@ -11140,7 +11140,81 @@
     "struck": [
      "links:68#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.3483,
+   "shared_pct": null
+  },
+  {
+   "pair": "Neptune\u2013Pallas",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:64"
+    ],
+    "moved": [
+     "links:64#shape5"
+    ],
+    "family": [
+     "pair_family:39"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:64#shape1"
+    ],
+    "family": [
+     "pair_family:38"
+    ]
+   },
+   "cross_tight": 0.0198,
+   "shared_pct": null
+  },
+  {
+   "pair": "Juno\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:81"
+    ],
+    "moved": [
+     "links:81#shape5"
+    ],
+    "family": [
+     "pair_family:133"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:81#shape1"
+    ]
+   },
+   "cross_tight": 0.0999,
+   "shared_pct": null
+  },
+  {
+   "pair": "Node\u2013Transpluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:102"
+    ],
+    "moved": [
+     "links:102#shape5"
+    ],
+    "same body": [
+     "same_body:4"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:102#shape1"
+    ],
+    "ratio H": [
+     "ratios:12"
+    ]
+   },
+   "cross_tight": 0.3429,
+   "shared_pct": null
   },
   {
    "pair": "Neptune\u2013Node",
@@ -11167,53 +11241,9 @@
     "family": [
      "pair_family:40"
     ]
-   }
-  },
-  {
-   "pair": "Ceres\u2013Uranus",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:73"
-    ],
-    "struck": [
-     "links:73#shape1"
-    ],
-    "same body": [
-     "same_body:2"
-    ]
    },
-   "near": {
-    "h:j": [
-     "hj_ratios:8"
-    ],
-    "family": [
-     "pair_family:111"
-    ]
-   }
-  },
-  {
-   "pair": "Eris\u2013Eris",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:86"
-    ],
-    "moved": [
-     "links:86#shape5"
-    ],
-    "same body": [
-     "same_body:3"
-    ]
-   },
-   "near": {
-    "struck": [
-     "links:86#shape1"
-    ],
-    "partner": [
-     "links:86#shape2"
-    ]
-   }
+   "cross_tight": 0.3553,
+   "shared_pct": null
   },
   {
    "pair": "Jupiter\u2013Mars",
@@ -11237,91 +11267,34 @@
     "family": [
      "pair_family:94"
     ]
-   }
-  },
-  {
-   "pair": "Neptune\u2013Pallas",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:64"
-    ],
-    "moved": [
-     "links:64#shape5"
-    ],
-    "family": [
-     "pair_family:39"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:64#shape1"
-    ],
-    "family": [
-     "pair_family:38"
-    ]
-   }
+   "cross_tight": 0.3865,
+   "shared_pct": null
   },
   {
-   "pair": "Node\u2013Transpluto",
+   "pair": "Ceres\u2013Uranus",
    "n": 3,
    "kinds": {
     "cross": [
-     "links:102"
+     "links:73"
     ],
-    "moved": [
-     "links:102#shape5"
+    "struck": [
+     "links:73#shape1"
     ],
     "same body": [
-     "same_body:4"
+     "same_body:2"
     ]
    },
    "near": {
-    "struck": [
-     "links:102#shape1"
-    ],
-    "ratio H": [
-     "ratios:12"
-    ]
-   }
-  },
-  {
-   "pair": "Juno\u2013Sedna",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:81"
-    ],
-    "moved": [
-     "links:81#shape5"
+    "h:j": [
+     "hj_ratios:8"
     ],
     "family": [
-     "pair_family:133"
+     "pair_family:111"
     ]
    },
-   "near": {
-    "struck": [
-     "links:81#shape1"
-    ]
-   }
-  },
-  {
-   "pair": "Mars\u2013Transpluto",
-   "n": 3,
-   "kinds": {
-    "ratio H": [
-     "ratios:1"
-    ],
-    "family": [
-     "pair_family:17"
-    ],
-    "same body": [
-     "same_body:0",
-     "same_body:1",
-     "same_body:4"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.5298,
+   "shared_pct": null
   },
   {
    "pair": "Orcus\u2013Transpluto",
@@ -11337,7 +11310,34 @@
      "same_body:4"
     ]
    },
-   "near": {}
+   "near": {},
+   "cross_tight": 0.6796,
+   "shared_pct": null
+  },
+  {
+   "pair": "Eris\u2013Eris",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:86"
+    ],
+    "moved": [
+     "links:86#shape5"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:86#shape1"
+    ],
+    "partner": [
+     "links:86#shape2"
+    ]
+   },
+   "cross_tight": 0.9632,
+   "shared_pct": null
   }
  ]
 }

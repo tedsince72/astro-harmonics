@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "2 Cresta / 2 Tom Marquand",
  "workbook": "newmarket_1535_20220414__P03.xlsx",
  "bodies": {
@@ -8782,49 +8782,6 @@
  },
  "pair_focus": [
   {
-   "pair": "Gonggong\u2013Pallas",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:100"
-    ],
-    "ratio J": [
-     "ratios:17"
-    ],
-    "same body": [
-     "same_body:1"
-    ]
-   },
-   "near": {
-    "struck": [
-     "links:100#shape1"
-    ],
-    "partner": [
-     "links:100#shape2"
-    ]
-   }
-  },
-  {
-   "pair": "Node\u2013Sun",
-   "n": 3,
-   "kinds": {
-    "ratio H": [
-     "ratios:0"
-    ],
-    "family": [
-     "pair_family:5"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
-   },
-   "near": {
-    "family": [
-     "pair_family:4"
-    ]
-   }
-  },
-  {
    "pair": "Pallas\u2013Sun",
    "n": 3,
    "kinds": {
@@ -8845,24 +8802,34 @@
      "links:50#shape1",
      "links:78#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.4181,
+   "shared_pct": null
   },
   {
-   "pair": "Mercury\u2013Pallas",
+   "pair": "Gonggong\u2013Pallas",
    "n": 3,
    "kinds": {
-    "ratio J": [
-     "ratios:10"
+    "cross": [
+     "links:100"
     ],
-    "family": [
-     "pair_family:72",
-     "pair_family:73"
+    "ratio J": [
+     "ratios:17"
     ],
     "same body": [
      "same_body:1"
     ]
    },
-   "near": {}
+   "near": {
+    "struck": [
+     "links:100#shape1"
+    ],
+    "partner": [
+     "links:100#shape2"
+    ]
+   },
+   "cross_tight": 0.6198,
+   "shared_pct": null
   }
  ]
 }

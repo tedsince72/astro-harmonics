@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "3 Kilcummin / 3 David Noonan",
  "workbook": "fontwell_1530_20231006__P05.xlsx",
  "bodies": {
@@ -8773,7 +8773,9 @@
     "family": [
      "pair_family:139"
     ]
-   }
+   },
+   "cross_tight": 0.1678,
+   "shared_pct": null
   },
   {
    "pair": "Sedna\u2013Vesta",
@@ -8801,7 +8803,9 @@
     "family": [
      "pair_family:141"
     ]
-   }
+   },
+   "cross_tight": 0.3636,
+   "shared_pct": null
   }
  ]
 }

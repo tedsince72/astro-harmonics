@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "1 Aston Martini / 1 James Bowen",
  "workbook": "sandown_1430_20240215__P01.xlsx",
  "bodies": {
@@ -10913,7 +10913,9 @@
     "family": [
      "pair_family:136"
     ]
-   }
+   },
+   "cross_tight": 0.9073,
+   "shared_pct": null
   },
   {
    "pair": "Mars\u2013Pluto",
@@ -10933,43 +10935,9 @@
     "struck": [
      "links:87#shape1"
     ]
-   }
-  },
-  {
-   "pair": "Node\u2013Uranus",
-   "n": 3,
-   "kinds": {
-    "set": [
-     "pair_sets:0"
-    ],
-    "h:j": [
-     "hj_ratios:6"
-    ],
-    "same body": [
-     "same_body:1"
-    ]
    },
-   "near": {
-    "family": [
-     "pair_family:36"
-    ]
-   }
-  },
-  {
-   "pair": "Neptune\u2013Orcus",
-   "n": 3,
-   "kinds": {
-    "shared": [
-     "shared:4"
-    ],
-    "family": [
-     "pair_family:106"
-    ],
-    "same body": [
-     "same_body:2"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.6483,
+   "shared_pct": null
   }
  ]
 }

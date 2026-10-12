@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "5 Mayfair / 5 Ryan Moore",
  "workbook": "york_1545_20240515__P09.xlsx",
  "bodies": {
@@ -10675,24 +10675,76 @@
  },
  "pair_focus": [
   {
-   "pair": "Jupiter\u2013Neptune",
-   "n": 3,
+   "pair": "Ceres\u2013Jupiter",
+   "n": 2,
    "kinds": {
-    "ratio H": [
-     "ratios:0"
+    "cross": [
+     "links:58"
     ],
-    "h:j": [
-     "hj_ratios:5"
-    ],
-    "family": [
-     "pair_family:22"
+    "moved": [
+     "links:58#shape5"
     ]
    },
    "near": {
-    "h:j": [
-     "hj_ratios:6"
+    "struck": [
+     "links:58#shape1"
+    ],
+    "family": [
+     "pair_family:24"
     ]
-   }
+   },
+   "cross_tight": 0.0781,
+   "shared_pct": null
+  },
+  {
+   "pair": "Neptune\u2013Pluto",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:68"
+    ],
+    "moved": [
+     "links:68#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:68#shape1"
+    ],
+    "partner": [
+     "links:68#shape2"
+    ],
+    "family": [
+     "pair_family:119"
+    ]
+   },
+   "cross_tight": 0.1547,
+   "shared_pct": null
+  },
+  {
+   "pair": "Gonggong\u2013Pluto",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:71"
+    ],
+    "moved": [
+     "links:71#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:71#shape1"
+    ],
+    "partner": [
+     "links:71#shape2"
+    ],
+    "family": [
+     "pair_family:45"
+    ]
+   },
+   "cross_tight": 0.3454,
+   "shared_pct": null
   }
  ]
 }

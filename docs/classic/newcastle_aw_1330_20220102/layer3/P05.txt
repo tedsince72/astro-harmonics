@@ -1,4 +1,4 @@
-== 3 Mondammej / 3 Cam Hardie   [newcastle_aw_1330_20220102__P05.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
+== 3 Mondammej / 3 Cam Hardie   [newcastle_aw_1330_20220102__P05.xlsx, L3 v1.4 (12 Oct 2026, pair focus A+B+C)]
 -- strong hubs (5+ tight kinds): H Jupiter, J Jupiter
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Jupiter      MPRSX  tight 5
@@ -701,22 +701,22 @@
         sky Venus on J Gonggong RA 38.2817 Dec 0.3261 near
         sky Saturn on J Gonggong RA 17.2277 Dec 0.0053
 -- pair focus (kinds of root item on one pair; near beside, not counted)
-   Jupiter–Pluto          3 kinds: shared, cross, moved   near: struck, partner
-        shared: shared Jupiter–Pluto Dec H 14.7681 J 14.8396
-        cross: cross H Pluto–J Jupiter RA 1.2285 Dec 1.0163
-        moved: cross H Pluto–J Jupiter RA 1.2285 Dec 1.0163
-   Saturn–Venus           3 kinds: cross, family, same body   near: struck, ratio J
-        cross: cross H Venus–J Saturn RA 0.9972 Dec 11.1150
-        family: H Venus–Saturn GC H Venus – sky Saturn 55.9624 vs NN 99.4889 16/9 (0.0002%)
-        same body: same-body Saturn GC 13/6 : 7/6 : 13/7 (worst 0.0503%)
-   Jupiter–Node           3 kinds: cross, partner, moved   near: struck
-        cross: cross H Jupiter–J Rahu RA 3.7714 Dec 0.1581
-        partner: cross H Jupiter–J Rahu RA 3.7714 Dec 0.1581
-        moved: cross H Jupiter–J Rahu RA 3.7714 Dec 0.1581
-   Jupiter–Saturn         3 kinds: cross, moved, same body   near: struck
+   Jupiter–Saturn         3 kinds: cross, moved, same body  cross tightness 0.4366   near: struck
         cross: cross H Saturn–J Jupiter RA 21.9946 Dec 0.1310
         moved: cross H Saturn–J Jupiter RA 21.9946 Dec 0.1310
         same body: same-body Saturn GC 13/6 : 7/6 : 13/7 (worst 0.0503%)
+   Jupiter–Node           3 kinds: cross, partner, moved  cross tightness 0.5271   near: struck
+        cross: cross H Jupiter–J Rahu RA 3.7714 Dec 0.1581
+        partner: cross H Jupiter–J Rahu RA 3.7714 Dec 0.1581
+        moved: cross H Jupiter–J Rahu RA 3.7714 Dec 0.1581
+   Saturn–Venus           3 kinds: cross, family, same body  cross tightness 0.6648   near: struck, ratio J
+        cross: cross H Venus–J Saturn RA 0.9972 Dec 11.1150
+        family: H Venus–Saturn GC H Venus – sky Saturn 55.9624 vs NN 99.4889 16/9 (0.0002%)
+        same body: same-body Saturn GC 13/6 : 7/6 : 13/7 (worst 0.0503%)
+   Jupiter–Pluto          3 kinds: shared, cross, moved  cross tightness 0.819, shared 0.4842%   near: struck, partner
+        shared: shared Jupiter–Pluto Dec H 14.7681 J 14.8396
+        cross: cross H Pluto–J Jupiter RA 1.2285 Dec 1.0163
+        moved: cross H Pluto–J Jupiter RA 1.2285 Dec 1.0163
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Saturn–Neptune: J J Saturn–J Neptune Flat 67.33345 = 606/9
    recurring pair Neptune–Vesta: J J Neptune–J Vesta GC 69.66622 = 627/9

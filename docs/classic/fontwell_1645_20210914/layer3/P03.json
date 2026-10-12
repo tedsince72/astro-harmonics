@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "2 Spike Jones / 2 Alain Cawley",
  "workbook": "20210914_fontwell_1645__P03.xlsx",
  "bodies": {
@@ -9639,47 +9639,9 @@
     "family": [
      "pair_family:90"
     ]
-   }
-  },
-  {
-   "pair": "Mercury\u2013Uranus",
-   "n": 4,
-   "kinds": {
-    "shared": [
-     "shared:3"
-    ],
-    "ratio H": [
-     "ratios:0"
-    ],
-    "h:j": [
-     "hj_ratios:1"
-    ],
-    "family": [
-     "pair_family:8",
-     "pair_family:70"
-    ]
    },
-   "near": {}
-  },
-  {
-   "pair": "Eris\u2013Uranus",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:63"
-    ],
-    "partner": [
-     "links:63#shape2"
-    ],
-    "moved": [
-     "links:63#shape5"
-    ]
-   },
-   "near": {
-    "struck": [
-     "links:63#shape1"
-    ]
-   }
+   "cross_tight": 0.8968,
+   "shared_pct": null
   },
   {
    "pair": "Jupiter\u2013Uranus",
@@ -9699,7 +9661,31 @@
     "struck": [
      "links:62#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.2184,
+   "shared_pct": null
+  },
+  {
+   "pair": "Eris\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:63"
+    ],
+    "partner": [
+     "links:63#shape2"
+    ],
+    "moved": [
+     "links:63#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:63#shape1"
+    ]
+   },
+   "cross_tight": 0.4289,
+   "shared_pct": null
   }
  ]
 }

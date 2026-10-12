@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "5 Cascova / 5 Daryl Jacob",
  "workbook": "newbury_1350_20211126__P07.xlsx",
  "bodies": {
@@ -10272,25 +10272,22 @@
  },
  "pair_focus": [
   {
-   "pair": "Node\u2013Vesta",
+   "pair": "Orcus\u2013Venus",
    "n": 3,
    "kinds": {
-    "family": [
-     "pair_family:60",
-     "pair_family:61"
+    "cross": [
+     "links:103"
     ],
-    "same body": [
-     "same_body:0"
+    "struck": [
+     "links:103#shape1"
     ],
-    "sky": [
-     "sky-gc 4.7860"
+    "partner": [
+     "links:103#shape2"
     ]
    },
-   "near": {
-    "family": [
-     "pair_family:140"
-    ]
-   }
+   "near": {},
+   "cross_tight": 0.525,
+   "shared_pct": null
   },
   {
    "pair": "Haumea\u2013Vesta",
@@ -10306,23 +10303,9 @@
      "ratios:11"
     ]
    },
-   "near": {}
-  },
-  {
-   "pair": "Orcus\u2013Venus",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:103"
-    ],
-    "struck": [
-     "links:103#shape1"
-    ],
-    "partner": [
-     "links:103#shape2"
-    ]
-   },
-   "near": {}
+   "near": {},
+   "cross_tight": 0.8642,
+   "shared_pct": null
   }
  ]
 }

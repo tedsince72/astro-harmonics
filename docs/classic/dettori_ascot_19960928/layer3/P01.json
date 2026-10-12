@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "4 Diffident / 4 Frankie Dettori",
  "workbook": "19960928_ascot_1435__P01.xlsx",
  "bodies": {
@@ -10993,26 +10993,9 @@
      "pair_family:8",
      "pair_family:58"
     ]
-   }
-  },
-  {
-   "pair": "Node\u2013Orcus",
-   "n": 4,
-   "kinds": {
-    "shared": [
-     "shared:4"
-    ],
-    "ratio J": [
-     "ratios:21"
-    ],
-    "family": [
-     "pair_family:117"
-    ],
-    "same body": [
-     "same_body:3"
-    ]
    },
-   "near": {}
+   "cross_tight": 0.7127,
+   "shared_pct": null
   },
   {
    "pair": "Mars\u2013Mercury",
@@ -11032,24 +11015,9 @@
     "ratio J": [
      "ratios:15"
     ]
-   }
-  },
-  {
-   "pair": "Mars\u2013Orcus",
-   "n": 3,
-   "kinds": {
-    "shared": [
-     "shared:1"
-    ],
-    "family": [
-     "pair_family:73",
-     "pair_family:74"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
    },
-   "near": {}
+   "cross_tight": 0.5137,
+   "shared_pct": null
   }
  ]
 }

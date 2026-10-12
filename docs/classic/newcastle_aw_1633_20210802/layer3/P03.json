@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "2 Athmad / 2 Jason Hart",
  "workbook": "20210802_newcastle_aw_1633__P03.xlsx",
  "bodies": {
@@ -10592,47 +10592,6 @@
  },
  "pair_focus": [
   {
-   "pair": "Ceres\u2013Venus",
-   "n": 2,
-   "kinds": {
-    "family": [
-     "pair_family:20"
-    ],
-    "same body": [
-     "same_body:0",
-     "same_body:1"
-    ]
-   },
-   "near": {
-    "ratio J": [
-     "ratios:7"
-    ],
-    "family": [
-     "pair_family:80"
-    ]
-   }
-  },
-  {
-   "pair": "Mars\u2013Node",
-   "n": 2,
-   "kinds": {
-    "cross": [
-     "links:75"
-    ],
-    "family": [
-     "pair_family:25"
-    ]
-   },
-   "near": {
-    "struck": [
-     "links:75#shape1"
-    ],
-    "ratio J": [
-     "ratios:9"
-    ]
-   }
-  },
-  {
    "pair": "Node\u2013Sun",
    "n": 2,
    "kinds": {
@@ -10654,7 +10613,43 @@
      "pair_family:70",
      "pair_family:71"
     ]
-   }
+   },
+   "cross_tight": 0.4977,
+   "shared_pct": null
+  },
+  {
+   "pair": "Orcus\u2013Vesta",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:99"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:60"
+    ]
+   },
+   "cross_tight": 0.6408,
+   "shared_pct": null
+  },
+  {
+   "pair": "Eris\u2013Juno",
+   "n": 2,
+   "kinds": {
+    "shared": [
+     "shared:2"
+    ],
+    "cross": [
+     "links:96"
+    ]
+   },
+   "near": {},
+   "cross_tight": 0.8167,
+   "shared_pct": 0.353
   }
  ]
 }

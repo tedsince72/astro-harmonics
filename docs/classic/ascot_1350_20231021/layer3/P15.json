@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "8 Makarova / 8 Paul Mulrennan",
  "workbook": "ascot_1350_20231021__P15.xlsx",
  "bodies": {
@@ -12810,6 +12810,61 @@
  },
  "pair_focus": [
   {
+   "pair": "Node\u2013Uranus",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:82"
+    ],
+    "moved": [
+     "links:82#shape5"
+    ],
+    "ratio H": [
+     "ratios:5"
+    ],
+    "family": [
+     "pair_family:106"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:82#shape1"
+    ],
+    "family": [
+     "pair_family:34"
+    ]
+   },
+   "cross_tight": 0.6147,
+   "shared_pct": null
+  },
+  {
+   "pair": "Node\u2013Saturn",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:63"
+    ],
+    "struck": [
+     "links:63#shape1"
+    ],
+    "partner": [
+     "links:63#shape2"
+    ],
+    "moved": [
+     "links:63#shape5"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:31",
+     "pair_family:32",
+     "pair_family:102"
+    ]
+   },
+   "cross_tight": 0.6724,
+   "shared_pct": null
+  },
+  {
    "pair": "Gonggong\u2013Jupiter",
    "n": 4,
    "kinds": {
@@ -12835,33 +12890,9 @@
     "family": [
      "pair_family:95"
     ]
-   }
-  },
-  {
-   "pair": "Node\u2013Uranus",
-   "n": 4,
-   "kinds": {
-    "cross": [
-     "links:82"
-    ],
-    "moved": [
-     "links:82#shape5"
-    ],
-    "ratio H": [
-     "ratios:5"
-    ],
-    "family": [
-     "pair_family:106"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:82#shape1"
-    ],
-    "family": [
-     "pair_family:34"
-    ]
-   }
+   "cross_tight": 0.6971,
+   "shared_pct": null
   },
   {
    "pair": "Neptune\u2013Saturn",
@@ -12884,32 +12915,9 @@
     "h:j": [
      "hj_ratios:12"
     ]
-   }
-  },
-  {
-   "pair": "Node\u2013Saturn",
-   "n": 4,
-   "kinds": {
-    "cross": [
-     "links:63"
-    ],
-    "struck": [
-     "links:63#shape1"
-    ],
-    "partner": [
-     "links:63#shape2"
-    ],
-    "moved": [
-     "links:63#shape5"
-    ]
    },
-   "near": {
-    "family": [
-     "pair_family:31",
-     "pair_family:32",
-     "pair_family:102"
-    ]
-   }
+   "cross_tight": 0.8765,
+   "shared_pct": null
   },
   {
    "pair": "Juno\u2013Orcus",
@@ -12932,7 +12940,27 @@
     "family": [
      "pair_family:135"
     ]
-   }
+   },
+   "cross_tight": 0.1241,
+   "shared_pct": null
+  },
+  {
+   "pair": "Jupiter\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:58"
+    ],
+    "struck": [
+     "links:58#shape1"
+    ],
+    "moved": [
+     "links:58#shape5"
+    ]
+   },
+   "near": {},
+   "cross_tight": 0.5561,
+   "shared_pct": null
   },
   {
    "pair": "Jupiter\u2013Pallas",
@@ -12956,23 +12984,9 @@
      "pair_family:93",
      "pair_family:94"
     ]
-   }
-  },
-  {
-   "pair": "Jupiter\u2013Node",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:58"
-    ],
-    "struck": [
-     "links:58#shape1"
-    ],
-    "moved": [
-     "links:58#shape5"
-    ]
    },
-   "near": {}
+   "cross_tight": 0.9954,
+   "shared_pct": null
   }
  ]
 }

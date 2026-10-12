@@ -1,39 +1,41 @@
 {
- "version": "L4 v1.2 (12 Oct 2026, pair focus)",
+ "version": "L4 v1.3 (12 Oct 2026, pair focus A+B+C)",
  "race": "chelmsford_aw_1320_20240118",
  "pair_focus": {
   "P03": {
-   "top": "Pluto\u2013Sun",
+   "top": "Jupiter\u2013Neptune",
    "n": 3,
    "kinds": [
     "cross",
     "moved",
-    "sky"
+    "same body"
    ],
+   "cross_tight": 0.3113,
    "tied_pairs": [
-    "Pluto\u2013Sun",
-    "Gonggong\u2013Jupiter",
     "Jupiter\u2013Neptune",
-    "Jupiter\u2013Node"
+    "Pluto\u2013Sun"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P05": {
-   "top": "Jupiter\u2013Mercury",
+   "top": "Juno\u2013Jupiter",
    "n": 2,
    "kinds": [
     "cross",
     "moved"
    ],
+   "cross_tight": 0.0211,
    "tied_pairs": [
+    "Juno\u2013Jupiter",
     "Jupiter\u2013Mercury",
-    "Node\u2013Pluto",
-    "Chiron\u2013Node"
+    "Node\u2013Pluto"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P07": {
@@ -46,27 +48,30 @@
     "ratio H",
     "family"
    ],
+   "cross_tight": 0.8342,
    "tied_pairs": [
     "Ceres\u2013Node"
    ],
    "field_max": true,
    "most_lit_alone": true,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P09": {
-   "top": "Node\u2013Sedna",
-   "n": 4,
+   "top": "Mercury\u2013Node",
+   "n": 3,
    "kinds": [
-    "ratio J",
-    "h:j",
-    "family",
+    "cross",
+    "moved",
     "same body"
    ],
+   "cross_tight": 0.5101,
    "tied_pairs": [
-    "Node\u2013Sedna"
+    "Mercury\u2013Node"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P11": {
@@ -78,26 +83,31 @@
     "family",
     "same body"
    ],
+   "cross_tight": 0.3584,
    "tied_pairs": [
     "Saturn\u2013Uranus"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P13": {
-   "top": "Gonggong\u2013Saturn",
-   "n": 3,
+   "top": "Gonggong\u2013Vesta",
+   "n": 2,
    "kinds": [
-    "shared",
-    "same body",
-    "sky"
+    "cross",
+    "family"
    ],
+   "cross_tight": 0.0355,
    "tied_pairs": [
-    "Gonggong\u2013Saturn"
+    "Gonggong\u2013Vesta",
+    "Node\u2013Orcus",
+    "Node\u2013Uranus"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P15": {
@@ -109,12 +119,16 @@
     "h:j",
     "family"
    ],
+   "cross_tight": 0.9827,
    "tied_pairs": [
     "Node\u2013Uranus"
    ],
    "field_max": false,
    "most_lit_alone": false,
-   "same_pair_elsewhere": {}
+   "leads_on_tightness": false,
+   "same_pair_elsewhere": {
+    "P13": 2
+   }
   }
  },
  "pair_focus_max": 5,

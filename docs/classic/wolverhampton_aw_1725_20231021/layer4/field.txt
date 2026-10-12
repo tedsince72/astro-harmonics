@@ -1,4 +1,4 @@
-== wolverhampton_aw_1725_20231021  field of 11   [L4 v1.2 (12 Oct 2026, pair focus)]  (blind: no finishing positions)
+== wolverhampton_aw_1725_20231021  field of 11   [L4 v1.3 (12 Oct 2026, pair focus A+B+C)]  (blind: no finishing positions)
 -- runners: P01 1 Gladly Ever After / 1 Taylor Fisher; P03 2 Shuangxi / 2 Saffie Osborne; P05 3 Ziggy's Dream / 3 Kieran O'Neill; P07 4 Come On You Spurs / 4 Harry Davies; P09 5 Diligencia / 5 Charles Bishop; P11 6 Land Of Hope / 6 Jack Mitchell; P13 7 Miss Anya / 7 Finley Marsh; P15 8 Princess Alice / 8 Daniel Muscutt; P17 9 Sea Of Angels / 9 Marco Ghiani; P19 10 Showmethewayhome / 10 David Probert; P21 11 Via Blanca / 11 Frederick Larson
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              5/11: P07:1 P11:1 P15:1 P19:4 P21:4  |  11: P01:19 P03:14 P05:18 P07:34 P09:20 P11:20 P13:12 P15:13 P17:26 P19:18 P21:28
@@ -37,17 +37,17 @@
    P07 4 Come On You Spurs / 4 Harry Davies: only (strict) pair focus; only (broad) -; strict, shared with one other -
    P15 8 Princess Alice / 8 Daniel Muscutt: only (strict) 12; only (broad) -; strict, shared with one other -
 -- pair focus: each runner's most-lit pair (kinds of root item); field max 6 — P07
-   P01 1 Gladly Ever After / 1 Taylor Fisher    Juno–Pallas            4  cross, moved, ratio H, ratio J
-   P03 2 Shuangxi / 2 Saffie Osborne            Jupiter–Makemake       3  cross, partner, h:j
-   P05 3 Ziggy's Dream / 3 Kieran O'Neill       Neptune–Pluto          3  cross, partner, moved
-   P07 4 Come On You Spurs / 4 Harry Davies     Node–Sun               6  shared, cross, moved, ratio J, set, sky  <- most-lit pair in the field
-   P09 5 Diligencia / 5 Charles Bishop          Jupiter–Quaoar         3  cross, partner, family
-   P11 6 Land Of Hope / 6 Jack Mitchell         Pluto–Saturn           3  cross, moved, family
-   P13 7 Miss Anya / 7 Finley Marsh             Juno–Pluto             3  cross, moved, family
-   P15 8 Princess Alice / 8 Daniel Muscutt      Gonggong–Jupiter       3  cross, moved, family
-   P17 9 Sea Of Angels / 9 Marco Ghiani         Node–Vesta             4  cross, partner, moved, family
-   P19 10 Showmethewayhome / 10 David Probert   Node–Sun               4  cross, struck, same body, sky
-   P21 11 Via Blanca / 11 Frederick Larson      Transpluto–Vesta       4  cross, struck, partner, same body
+   P01 1 Gladly Ever After / 1 Taylor Fisher    Juno–Pallas            4  cross, moved, ratio H, ratio J  (cross 0.504)
+   P03 2 Shuangxi / 2 Saffie Osborne            Jupiter–Makemake       3  cross, partner, h:j  (cross 0.6981)
+   P05 3 Ziggy's Dream / 3 Kieran O'Neill       Neptune–Pluto          3  cross, partner, moved  (cross 0.1078)
+   P07 4 Come On You Spurs / 4 Harry Davies     Node–Sun               6  shared, cross, moved, ratio J, set, sky  (cross 0.0429)  <- most-lit pair in the field
+   P09 5 Diligencia / 5 Charles Bishop          Jupiter–Quaoar         3  cross, partner, family  (cross 0.036)
+   P11 6 Land Of Hope / 6 Jack Mitchell         Pluto–Saturn           3  cross, moved, family  (cross 0.9935)
+   P13 7 Miss Anya / 7 Finley Marsh             Juno–Pluto             3  cross, moved, family  (cross 0.3327)
+   P15 8 Princess Alice / 8 Daniel Muscutt      Sedna–Venus            3  cross, struck, partner  (cross 0.5389)
+   P17 9 Sea Of Angels / 9 Marco Ghiani         Node–Vesta             4  cross, partner, moved, family  (cross 0.566)
+   P19 10 Showmethewayhome / 10 David Probert   Node–Sun               4  cross, struck, same body, sky  (cross 0.493)
+   P21 11 Via Blanca / 11 Frederick Larson      Transpluto–Vesta       4  cross, struck, partner, same body  (cross 0.7008)
 -- strong hubs across the field
    H Ceres        3: P05 P17 P19
    H Juno         2: P01 P07

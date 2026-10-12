@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "7 Stevenson / 7 David Probert",
  "workbook": "haydock_1718_20220507__P09.xlsx",
  "bodies": {
@@ -11606,7 +11606,9 @@
     "struck": [
      "links:63#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.2045,
+   "shared_pct": null
   },
   {
    "pair": "Jupiter\u2013Sedna",
@@ -11635,7 +11637,27 @@
     "family": [
      "pair_family:69"
     ]
-   }
+   },
+   "cross_tight": 0.3135,
+   "shared_pct": null
+  },
+  {
+   "pair": "Eris\u2013Mercury",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:41"
+    ],
+    "partner": [
+     "links:41#shape2"
+    ],
+    "moved": [
+     "links:41#shape5"
+    ]
+   },
+   "near": {},
+   "cross_tight": 0.265,
+   "shared_pct": null
   },
   {
    "pair": "Chiron\u2013Orcus",
@@ -11655,55 +11677,9 @@
     "family": [
      "pair_family:95"
     ]
-   }
-  },
-  {
-   "pair": "Chiron\u2013Mercury",
-   "n": 3,
-   "kinds": {
-    "ratio H": [
-     "ratios:2"
-    ],
-    "ratio J": [
-     "ratios:12"
-    ],
-    "same body": [
-     "same_body:1"
-    ]
    },
-   "near": {}
-  },
-  {
-   "pair": "Eris\u2013Mercury",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:41"
-    ],
-    "partner": [
-     "links:41#shape2"
-    ],
-    "moved": [
-     "links:41#shape5"
-    ]
-   },
-   "near": {}
-  },
-  {
-   "pair": "Saturn\u2013Vesta",
-   "n": 3,
-   "kinds": {
-    "family": [
-     "pair_family:25"
-    ],
-    "same body": [
-     "same_body:2"
-    ],
-    "sky": [
-     "sky-gc 0.7279"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.9137,
+   "shared_pct": null
   }
  ]
 }

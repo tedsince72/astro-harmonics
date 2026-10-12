@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "5 Nube Negra / 5 Harry Skelton",
  "workbook": "sandown_1425_20211204__P09.xlsx",
  "bodies": {
@@ -10806,7 +10806,73 @@
     "family": [
      "pair_family:135"
     ]
-   }
+   },
+   "cross_tight": 0.4122,
+   "shared_pct": null
+  },
+  {
+   "pair": "Sedna\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:97"
+    ],
+    "struck": [
+     "links:97#shape1"
+    ],
+    "moved": [
+     "links:97#shape5"
+    ]
+   },
+   "near": {},
+   "cross_tight": 0.2651,
+   "shared_pct": null
+  },
+  {
+   "pair": "Pallas\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:77"
+    ],
+    "moved": [
+     "links:77#shape5"
+    ],
+    "ratio H": [
+     "ratios:5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:77#shape1"
+    ]
+   },
+   "cross_tight": 0.8076,
+   "shared_pct": null
+  },
+  {
+   "pair": "Ceres\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:91"
+    ],
+    "partner": [
+     "links:91#shape2"
+    ],
+    "moved": [
+     "links:91#shape4",
+     "links:91#shape5",
+     "links:91#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:91#shape1"
+    ]
+   },
+   "cross_tight": 0.9181,
+   "shared_pct": null
   },
   {
    "pair": "Ceres\u2013Orcus",
@@ -10829,65 +10895,9 @@
     "family": [
      "pair_family:132"
     ]
-   }
-  },
-  {
-   "pair": "Ceres\u2013Sedna",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:91"
-    ],
-    "partner": [
-     "links:91#shape2"
-    ],
-    "moved": [
-     "links:91#shape4",
-     "links:91#shape5",
-     "links:91#shape5"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:91#shape1"
-    ]
-   }
-  },
-  {
-   "pair": "Pallas\u2013Uranus",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:77"
-    ],
-    "moved": [
-     "links:77#shape5"
-    ],
-    "ratio H": [
-     "ratios:5"
-    ]
-   },
-   "near": {
-    "struck": [
-     "links:77#shape1"
-    ]
-   }
-  },
-  {
-   "pair": "Sedna\u2013Vesta",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:97"
-    ],
-    "struck": [
-     "links:97#shape1"
-    ],
-    "moved": [
-     "links:97#shape5"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.9909,
+   "shared_pct": null
   }
  ]
 }

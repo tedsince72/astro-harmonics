@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "5 Rabat / 5 Connor Beasley",
  "workbook": "newcastle_aw_1540_20211112__P09.xlsx",
  "bodies": {
@@ -9310,60 +9310,28 @@
  },
  "pair_focus": [
   {
-   "pair": "Saturn\u2013Uranus",
+   "pair": "Node\u2013Node",
    "n": 3,
    "kinds": {
-    "ratio H": [
-     "ratios:4"
-    ],
-    "family": [
-     "pair_family:82"
-    ],
-    "same body": [
-     "same_body:0",
-     "same_body:1"
-    ]
-   },
-   "near": {
     "cross": [
-     "links:62"
+     "links:89",
+     "links:91"
     ],
     "struck": [
-     "links:62#shape1"
-    ],
-    "partner": [
-     "links:62#shape2"
+     "links:89#shape1"
     ],
     "moved": [
-     "links:62#shape4",
-     "links:62#shape5",
-     "links:62#shape5"
-    ],
-    "family": [
-     "pair_family:29"
-    ]
-   }
-  },
-  {
-   "pair": "Jupiter\u2013Uranus",
-   "n": 3,
-   "kinds": {
-    "ratio J": [
-     "ratios:11"
-    ],
-    "set": [
-     "pair_sets:0"
-    ],
-    "same body": [
-     "same_body:0",
-     "same_body:1"
+     "links:89#shape5",
+     "links:91#shape5"
     ]
    },
    "near": {
-    "family": [
-     "pair_family:74"
+    "struck": [
+     "links:91#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.2025,
+   "shared_pct": null
   },
   {
    "pair": "Mercury\u2013Node",
@@ -9384,29 +9352,9 @@
      "pair_family:8",
      "pair_family:9"
     ]
-   }
-  },
-  {
-   "pair": "Node\u2013Node",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:89",
-     "links:91"
-    ],
-    "struck": [
-     "links:89#shape1"
-    ],
-    "moved": [
-     "links:89#shape5",
-     "links:91#shape5"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:91#shape1"
-    ]
-   }
+   "cross_tight": 0.3648,
+   "shared_pct": null
   },
   {
    "pair": "Haumea\u2013Mercury",
@@ -9422,7 +9370,9 @@
      "hj_ratios:0"
     ]
    },
-   "near": {}
+   "near": {},
+   "cross_tight": 0.7902,
+   "shared_pct": null
   }
  ]
 }

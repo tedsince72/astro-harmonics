@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "2 Golden Flame / 2 Joe Fanning",
  "workbook": "20210904_haydock_1420__P03.xlsx",
  "bodies": {
@@ -10334,6 +10334,28 @@
  },
  "pair_focus": [
   {
+   "pair": "Ceres\u2013Transpluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:73"
+    ],
+    "partner": [
+     "links:73#shape2"
+    ],
+    "family": [
+     "pair_family:107"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:73#shape1"
+    ]
+   },
+   "cross_tight": 0.1262,
+   "shared_pct": null
+  },
+  {
    "pair": "Node\u2013Orcus",
    "n": 3,
    "kinds": {
@@ -10360,27 +10382,9 @@
     "family": [
      "pair_family:127"
     ]
-   }
-  },
-  {
-   "pair": "Ceres\u2013Transpluto",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:73"
-    ],
-    "partner": [
-     "links:73#shape2"
-    ],
-    "family": [
-     "pair_family:107"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:73#shape1"
-    ]
-   }
+   "cross_tight": 0.302,
+   "shared_pct": null
   }
  ]
 }

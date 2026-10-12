@@ -1,4 +1,4 @@
-== fontwell_1530_20231006  field of 7   [L4 v1.2 (12 Oct 2026, pair focus)]  (blind: no finishing positions)
+== fontwell_1530_20231006  field of 7   [L4 v1.3 (12 Oct 2026, pair focus A+B+C)]  (blind: no finishing positions)
 -- runners: P01 1 Biscoff Joe / 1 Gearoid Harney; P03 2 Cosmic View / 2 Jamie Moore; P05 3 Kilcummin / 3 David Noonan; P07 4 Logistical / 4 Stan Sheppard; P09 5 Makanao / 5 Jack Tudor; P11 6 Pigeonton / 6 Micheal Nolan; P13 7 Vale Dolobo Dancer / 7 Jack Hogan
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              3/7: P09:3 P11:1 P13:2  |   7: P01:13 P03:19 P05:12 P07:17 P09:19 P11:14 P13:17
@@ -36,14 +36,14 @@
    P05 3 Kilcummin / 3 David Noonan: only (strict) 4; only (broad) -; strict, shared with one other 6
    P07 4 Logistical / 4 Stan Sheppard: only (strict) -; only (broad) -; strict, shared with one other 12,12m
    P13 7 Vale Dolobo Dancer / 7 Jack Hogan: only (strict) -; only (broad) -; strict, shared with one other 6
--- pair focus: each runner's most-lit pair (kinds of root item); field max 3 — P01, P03, P05, P07, P09, P11, P13
-   P01 1 Biscoff Joe / 1 Gearoid Harney         Node–Node              3  cross, partner, moved  (tie)
-   P03 2 Cosmic View / 2 Jamie Moore            Juno–Mercury           3  h:j, family, same body  (tie)
-   P05 3 Kilcummin / 3 David Noonan             Gonggong–Juno          3  cross, moved, same body  (tie)
-   P07 4 Logistical / 4 Stan Sheppard           Mercury–Transpluto     3  cross, ratio H, same body  (tie)
-   P09 5 Makanao / 5 Jack Tudor                 Makemake–Mercury       3  cross, struck, partner  (tie)
-   P11 6 Pigeonton / 6 Micheal Nolan            Node–Uranus            3  cross, family, same body  (tie)
-   P13 7 Vale Dolobo Dancer / 7 Jack Hogan      Mercury–Sedna          3  cross, moved, same body  (tie)
+-- pair focus: each runner's most-lit pair (kinds of root item); field max 3 — P01, P05, P07, P09, P11, P13
+   P01 1 Biscoff Joe / 1 Gearoid Harney         Node–Node              3  cross, partner, moved  (cross 0.1066)  (tie, tightest of the tied)
+   P03 2 Cosmic View / 2 Jamie Moore            Jupiter–Neptune        2  cross, family  (cross 0.134)
+   P05 3 Kilcummin / 3 David Noonan             Gonggong–Juno          3  cross, moved, same body  (cross 0.1678)  (tie)
+   P07 4 Logistical / 4 Stan Sheppard           Mercury–Transpluto     3  cross, ratio H, same body  (cross 0.2362)  (tie)
+   P09 5 Makanao / 5 Jack Tudor                 Makemake–Mercury       3  cross, struck, partner  (cross 0.9668)  (tie)
+   P11 6 Pigeonton / 6 Micheal Nolan            Node–Uranus            3  cross, family, same body  (cross 0.8819)  (tie)
+   P13 7 Vale Dolobo Dancer / 7 Jack Hogan      Mercury–Sedna          3  cross, moved, same body  (cross 0.5191)  (tie)
 -- strong hubs across the field
    H Transpluto   2: P03 P07
    J Mercury      2: P03 P09

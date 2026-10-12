@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "15 Swingalong / 15 Sam James",
  "workbook": "ascot_1350_20231021__P29.xlsx",
  "bodies": {
@@ -11383,7 +11383,9 @@
     "struck": [
      "links:77#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.1794,
+   "shared_pct": null
   },
   {
    "pair": "Node\u2013Vesta",
@@ -11414,7 +11416,9 @@
      "pair_family:48",
      "pair_family:130"
     ]
-   }
+   },
+   "cross_tight": 0.7166,
+   "shared_pct": null
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "6 Keeper Hill / 6 A P Heskin",
  "workbook": "huntingdon_1352_20211205__P11.xlsx",
  "bodies": {
@@ -10242,7 +10242,9 @@
     "struck": [
      "links:61#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.6969,
+   "shared_pct": 0.1551
   },
   {
    "pair": "Ceres\u2013Node",
@@ -10262,43 +10264,9 @@
     "struck": [
      "links:75#shape1"
     ]
-   }
-  },
-  {
-   "pair": "Jupiter\u2013Sedna",
-   "n": 3,
-   "kinds": {
-    "ratio H": [
-     "ratios:1"
-    ],
-    "family": [
-     "pair_family:27"
-    ],
-    "same body": [
-     "same_body:3"
-    ]
    },
-   "near": {
-    "family": [
-     "pair_family:91"
-    ]
-   }
-  },
-  {
-   "pair": "Pluto\u2013Venus",
-   "n": 3,
-   "kinds": {
-    "family": [
-     "pair_family:12"
-    ],
-    "same body": [
-     "same_body:0"
-    ],
-    "sky": [
-     "sky-gc 2.3444"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.3814,
+   "shared_pct": null
   }
  ]
 }

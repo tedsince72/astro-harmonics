@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "5 Cracking Find / 5 Ryan Mania",
  "workbook": "catterick_1505_20211119__P09.xlsx",
  "bodies": {
@@ -11264,6 +11264,35 @@
  },
  "pair_focus": [
   {
+   "pair": "Node\u2013Sun",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:78"
+    ],
+    "moved": [
+     "links:78#shape5"
+    ],
+    "h:j": [
+     "hj_ratios:1"
+    ],
+    "sky": [
+     "sky-gc 4.1972"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:78#shape1"
+    ],
+    "family": [
+     "pair_family:70",
+     "pair_family:71"
+    ]
+   },
+   "cross_tight": 0.2045,
+   "shared_pct": null
+  },
+  {
    "pair": "Mercury\u2013Node",
    "n": 4,
    "kinds": {
@@ -11290,54 +11319,9 @@
     "family": [
      "pair_family:4"
     ]
-   }
-  },
-  {
-   "pair": "Node\u2013Sun",
-   "n": 4,
-   "kinds": {
-    "cross": [
-     "links:78"
-    ],
-    "moved": [
-     "links:78#shape5"
-    ],
-    "h:j": [
-     "hj_ratios:1"
-    ],
-    "sky": [
-     "sky-gc 4.1972"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:78#shape1"
-    ],
-    "family": [
-     "pair_family:70",
-     "pair_family:71"
-    ]
-   }
-  },
-  {
-   "pair": "Juno\u2013Quaoar",
-   "n": 3,
-   "kinds": {
-    "ratio J": [
-     "ratios:15"
-    ],
-    "same body": [
-     "same_body:3"
-    ],
-    "sky": [
-     "sky-gc 3.5547"
-    ]
-   },
-   "near": {
-    "family": [
-     "pair_family:56"
-    ]
-   }
+   "cross_tight": 0.6387,
+   "shared_pct": null
   },
   {
    "pair": "Jupiter\u2013Node",
@@ -11359,7 +11343,9 @@
     "struck": [
      "links:83#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.7604,
+   "shared_pct": null
   }
  ]
 }

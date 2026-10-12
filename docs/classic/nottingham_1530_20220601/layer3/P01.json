@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "2 Dynamic Force / 2 Ray Dawson",
  "workbook": "nottingham_1530_20220601__P01.xlsx",
  "bodies": {
@@ -10723,7 +10723,9 @@
     "struck": [
      "links:84#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.4397,
+   "shared_pct": null
   },
   {
    "pair": "Jupiter\u2013Uranus",
@@ -10746,7 +10748,9 @@
     "family": [
      "pair_family:87"
     ]
-   }
+   },
+   "cross_tight": 0.6077,
+   "shared_pct": null
   }
  ]
 }

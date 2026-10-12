@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "1 Further Measure / 1 Tom Marquand",
  "workbook": "newcastle_aw_1220_20211112__P01.xlsx",
  "bodies": {
@@ -10035,6 +10035,24 @@
  },
  "pair_focus": [
   {
+   "pair": "Mercury\u2013Transpluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:114"
+    ],
+    "partner": [
+     "links:114#shape2"
+    ],
+    "family": [
+     "pair_family:17"
+    ]
+   },
+   "near": {},
+   "cross_tight": 0.4238,
+   "shared_pct": null
+  },
+  {
    "pair": "Gonggong\u2013Pallas",
    "n": 3,
    "kinds": {
@@ -10058,7 +10076,9 @@
     "family": [
      "pair_family:123"
     ]
-   }
+   },
+   "cross_tight": 0.5904,
+   "shared_pct": null
   },
   {
    "pair": "Gonggong\u2013Venus",
@@ -10078,7 +10098,9 @@
     "struck": [
      "links:104#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.6224,
+   "shared_pct": null
   },
   {
    "pair": "Neptune\u2013Node",
@@ -10098,23 +10120,9 @@
     "struck": [
      "links:77#shape1"
     ]
-   }
-  },
-  {
-   "pair": "Mercury\u2013Transpluto",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:114"
-    ],
-    "partner": [
-     "links:114#shape2"
-    ],
-    "family": [
-     "pair_family:17"
-    ]
    },
-   "near": {}
+   "cross_tight": 0.6505,
+   "shared_pct": null
   }
  ]
 }

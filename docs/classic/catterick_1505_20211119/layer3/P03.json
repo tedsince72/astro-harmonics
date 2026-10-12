@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "2 Mance Rayder / 2 Jamie Hamilton",
  "workbook": "catterick_1505_20211119__P03.xlsx",
  "bodies": {
@@ -9752,7 +9752,9 @@
     "partner": [
      "links:87#shape2"
     ]
-   }
+   },
+   "cross_tight": 0.247,
+   "shared_pct": null
   },
   {
    "pair": "Chiron\u2013Saturn",
@@ -9772,27 +9774,32 @@
     "family": [
      "pair_family:100"
     ]
-   }
+   },
+   "cross_tight": 0.571,
+   "shared_pct": null
   },
   {
-   "pair": "Haumea\u2013Node",
+   "pair": "Sun\u2013Vesta",
    "n": 2,
    "kinds": {
     "cross": [
-     "links:95"
+     "links:55"
     ],
-    "moved": [
-     "links:95#shape5"
+    "partner": [
+     "links:55#shape2"
     ]
    },
    "near": {
     "struck": [
-     "links:95#shape1"
+     "links:55#shape1"
     ],
     "family": [
-     "pair_family:63"
+     "pair_family:3",
+     "pair_family:4"
     ]
-   }
+   },
+   "cross_tight": 0.6472,
+   "shared_pct": null
   }
  ]
 }

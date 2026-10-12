@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "1 So Alex / 1 Jack Doughty",
  "workbook": "20261010_southwell_aw_2000__P01.xlsx",
  "bodies": {
@@ -11375,72 +11375,68 @@
  },
  "pair_focus": [
   {
-   "pair": "Gonggong\u2013Node",
+   "pair": "Quaoar\u2013Quaoar",
    "n": 2,
    "kinds": {
     "cross": [
-     "links:99"
+     "links:104"
+    ],
+    "moved": [
+     "links:104#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:104#shape1"
+    ],
+    "partner": [
+     "links:104#shape2"
+    ]
+   },
+   "cross_tight": 0.0193,
+   "shared_pct": null
+  },
+  {
+   "pair": "Ceres\u2013Node",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:89"
     ],
     "same body": [
      "same_body:0"
     ]
    },
    "near": {
-    "struck": [
-     "links:99#shape1"
-    ],
-    "partner": [
-     "links:99#shape2"
-    ],
     "family": [
-     "pair_family:60",
-     "pair_family:131"
+     "pair_family:51",
+     "pair_family:119"
     ]
-   }
+   },
+   "cross_tight": 0.1327,
+   "shared_pct": null
   },
   {
-   "pair": "Neptune\u2013Quaoar",
+   "pair": "Gonggong\u2013Quaoar",
    "n": 2,
    "kinds": {
     "cross": [
-     "links:102"
+     "links:103"
     ],
     "moved": [
-     "links:102#shape5"
+     "links:103#shape5"
     ]
    },
    "near": {
     "struck": [
-     "links:102#shape1"
+     "links:103#shape1"
     ],
     "partner": [
-     "links:102#shape2"
-    ],
-    "family": [
-     "pair_family:109",
-     "pair_family:110"
-    ]
-   }
-  },
-  {
-   "pair": "Eris\u2013Eris",
-   "n": 2,
-   "kinds": {
-    "cross": [
-     "links:94"
-    ],
-    "moved": [
-     "links:94#shape5"
+     "links:103#shape2"
     ]
    },
-   "near": {
-    "struck": [
-     "links:94#shape1"
-    ],
-    "partner": [
-     "links:94#shape2"
-    ]
-   }
+   "cross_tight": 0.3203,
+   "shared_pct": null
   }
  ]
 }

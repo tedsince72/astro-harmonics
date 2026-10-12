@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "4 Pointed And Sharp / 4 Tom O'Brien",
  "workbook": "20211019_exeter_1515__P07.xlsx",
  "bodies": {
@@ -9908,7 +9908,9 @@
     "family": [
      "pair_family:95"
     ]
-   }
+   },
+   "cross_tight": 0.2077,
+   "shared_pct": null
   },
   {
    "pair": "Jupiter\u2013Saturn",
@@ -9928,24 +9930,28 @@
     "h:j": [
      "hj_ratios:8"
     ]
-   }
+   },
+   "cross_tight": 0.3796,
+   "shared_pct": null
   },
   {
-   "pair": "Juno\u2013Node",
-   "n": 2,
+   "pair": "Mars\u2013Neptune",
+   "n": 1,
    "kinds": {
-    "h:j": [
-     "hj_ratios:20"
-    ],
-    "family": [
-     "pair_family:142"
+    "cross": [
+     "links:76"
     ]
    },
    "near": {
-    "h:j": [
-     "hj_ratios:21"
+    "struck": [
+     "links:76#shape1"
+    ],
+    "family": [
+     "pair_family:87"
     ]
-   }
+   },
+   "cross_tight": 0.006,
+   "shared_pct": null
   }
  ]
 }

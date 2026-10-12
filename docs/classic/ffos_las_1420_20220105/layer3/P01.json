@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "1 Gustavian / 1 Aidan Coleman",
  "workbook": "ffos_las_1420_20220105__P01.xlsx",
  "bodies": {
@@ -10001,7 +10001,9 @@
     "struck": [
      "links:59#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.6391,
+   "shared_pct": null
   },
   {
    "pair": "Chiron\u2013Haumea",
@@ -10021,59 +10023,9 @@
     "struck": [
      "links:85#shape1"
     ]
-   }
-  },
-  {
-   "pair": "Chiron\u2013Transpluto",
-   "n": 3,
-   "kinds": {
-    "ratio J": [
-     "ratios:14"
-    ],
-    "family": [
-     "pair_family:39",
-     "pair_family:111"
-    ],
-    "same body": [
-     "same_body:3"
-    ]
    },
-   "near": {}
-  },
-  {
-   "pair": "Juno\u2013Neptune",
-   "n": 3,
-   "kinds": {
-    "h:j": [
-     "hj_ratios:6"
-    ],
-    "family": [
-     "pair_family:30",
-     "pair_family:101"
-    ],
-    "same body": [
-     "same_body:2"
-    ]
-   },
-   "near": {}
-  },
-  {
-   "pair": "Sun\u2013Venus",
-   "n": 3,
-   "kinds": {
-    "h:j": [
-     "hj_ratios:0"
-    ],
-    "family": [
-     "pair_family:0",
-     "pair_family:1"
-    ],
-    "same body": [
-     "same_body:0",
-     "same_body:1"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.0197,
+   "shared_pct": null
   }
  ]
 }

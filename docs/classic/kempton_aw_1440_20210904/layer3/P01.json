@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "1 Hukum / 1 Jim Crowley",
  "workbook": "20210904_kempton_aw_1440__P01.xlsx",
  "bodies": {
@@ -11144,6 +11144,28 @@
  },
  "pair_focus": [
   {
+   "pair": "Node\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:82"
+    ],
+    "partner": [
+     "links:82#shape2"
+    ],
+    "ratio J": [
+     "ratios:16"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:82#shape1"
+    ]
+   },
+   "cross_tight": 0.7562,
+   "shared_pct": null
+  },
+  {
    "pair": "Saturn\u2013Transpluto",
    "n": 3,
    "kinds": {
@@ -11164,27 +11186,9 @@
     "family": [
      "pair_family:82"
     ]
-   }
-  },
-  {
-   "pair": "Node\u2013Venus",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:82"
-    ],
-    "partner": [
-     "links:82#shape2"
-    ],
-    "ratio J": [
-     "ratios:16"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:82#shape1"
-    ]
-   }
+   "cross_tight": 0.826,
+   "shared_pct": null
   }
  ]
 }

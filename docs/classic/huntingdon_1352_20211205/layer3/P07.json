@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "4 Master Tommytucker / 4 Harry Cobden",
  "workbook": "huntingdon_1352_20211205__P07.xlsx",
  "bodies": {
@@ -11796,11 +11796,57 @@
      "links:46#shape2"
     ],
     "same body": [
-     "same_body:3",
-     "same_body:0"
+     "same_body:0",
+     "same_body:3"
     ]
    },
-   "near": {}
+   "near": {},
+   "cross_tight": 0.7248,
+   "shared_pct": null
+  },
+  {
+   "pair": "Node\u2013Transpluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:102"
+    ],
+    "struck": [
+     "links:102#shape1"
+    ],
+    "same body": [
+     "same_body:4"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:157"
+    ]
+   },
+   "cross_tight": 0.3429,
+   "shared_pct": null
+  },
+  {
+   "pair": "Pluto\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:68"
+    ],
+    "h:j": [
+     "hj_ratios:7"
+    ],
+    "same body": [
+     "same_body:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:68#shape1"
+    ]
+   },
+   "cross_tight": 0.3483,
+   "shared_pct": null
   },
   {
    "pair": "Ceres\u2013Uranus",
@@ -11826,7 +11872,9 @@
     "family": [
      "pair_family:47"
     ]
-   }
+   },
+   "cross_tight": 0.5298,
+   "shared_pct": null
   },
   {
    "pair": "Orcus\u2013Transpluto",
@@ -11839,8 +11887,8 @@
      "ratios:8"
     ],
     "same body": [
-     "same_body:4",
-     "same_body:3"
+     "same_body:3",
+     "same_body:4"
     ]
    },
    "near": {
@@ -11850,63 +11898,9 @@
     "partner": [
      "links:101#shape2"
     ]
-   }
-  },
-  {
-   "pair": "Node\u2013Transpluto",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:102"
-    ],
-    "struck": [
-     "links:102#shape1"
-    ],
-    "same body": [
-     "same_body:4"
-    ]
    },
-   "near": {
-    "family": [
-     "pair_family:157"
-    ]
-   }
-  },
-  {
-   "pair": "Pluto\u2013Uranus",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:68"
-    ],
-    "h:j": [
-     "hj_ratios:7"
-    ],
-    "same body": [
-     "same_body:1"
-    ]
-   },
-   "near": {
-    "struck": [
-     "links:68#shape1"
-    ]
-   }
-  },
-  {
-   "pair": "Uranus\u2013Venus",
-   "n": 3,
-   "kinds": {
-    "ratio J": [
-     "ratios:9"
-    ],
-    "h:j": [
-     "hj_ratios:3"
-    ],
-    "same body": [
-     "same_body:1"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.6796,
+   "shared_pct": null
   }
  ]
 }

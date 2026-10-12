@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "4 River Bray / 4 Alan Johns",
  "workbook": "wincanton_1420_20220321__P07.xlsx",
  "bodies": {
@@ -9936,6 +9936,25 @@
  },
  "pair_focus": [
   {
+   "pair": "Chiron\u2013Mercury",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:62"
+    ],
+    "moved": [
+     "links:62#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:62#shape1"
+    ]
+   },
+   "cross_tight": 0.017,
+   "shared_pct": null
+  },
+  {
    "pair": "Neptune\u2013Pluto",
    "n": 2,
    "kinds": {
@@ -9957,27 +9976,9 @@
      "pair_family:30",
      "pair_family:112"
     ]
-   }
-  },
-  {
-   "pair": "Haumea\u2013Mercury",
-   "n": 2,
-   "kinds": {
-    "cross": [
-     "links:106"
-    ],
-    "partner": [
-     "links:106#shape2"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:106#shape1"
-    ],
-    "family": [
-     "pair_family:77"
-    ]
-   }
+   "cross_tight": 0.1633,
+   "shared_pct": null
   },
   {
    "pair": "Mercury\u2013Neptune",
@@ -9997,7 +9998,9 @@
     "family": [
      "pair_family:13"
     ]
-   }
+   },
+   "cross_tight": 0.3477,
+   "shared_pct": null
   }
  ]
 }

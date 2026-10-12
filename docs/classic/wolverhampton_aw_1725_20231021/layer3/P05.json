@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "3 Ziggy's Dream / 3 Kieran O'Neill",
  "workbook": "wolverhampton_aw_1725_20231021__P05.xlsx",
  "bodies": {
@@ -10302,7 +10302,9 @@
     "family": [
      "pair_family:95"
     ]
-   }
+   },
+   "cross_tight": 0.1078,
+   "shared_pct": null
   },
   {
    "pair": "Neptune\u2013Quaoar",
@@ -10325,7 +10327,9 @@
     "partner": [
      "links:99#shape2"
     ]
-   }
+   },
+   "cross_tight": 0.4287,
+   "shared_pct": null
   },
   {
    "pair": "Ceres\u2013Eris",
@@ -10345,7 +10349,9 @@
     "struck": [
      "links:75#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.7432,
+   "shared_pct": null
   },
   {
    "pair": "Juno\u2013Mercury",
@@ -10365,7 +10371,9 @@
     "struck": [
      "links:45#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.8727,
+   "shared_pct": null
   }
  ]
 }

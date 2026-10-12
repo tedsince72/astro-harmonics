@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "4 Onesmoothoperator / 4 Harry Russell",
  "workbook": "newcastle_aw_1640_20220215__P07.xlsx",
  "bodies": {
@@ -10713,7 +10713,9 @@
     "family": [
      "pair_family:31"
     ]
-   }
+   },
+   "cross_tight": 0.8949,
+   "shared_pct": null
   },
   {
    "pair": "Jupiter\u2013Node",
@@ -10736,27 +10738,9 @@
     "struck": [
      "links:97#shape1"
     ]
-   }
-  },
-  {
-   "pair": "Eris\u2013Vesta",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:101"
-    ],
-    "partner": [
-     "links:101#shape2"
-    ],
-    "moved": [
-     "links:101#shape5"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:101#shape1"
-    ]
-   }
+   "cross_tight": 0.5452,
+   "shared_pct": null
   },
   {
    "pair": "Mercury\u2013Quaoar",
@@ -10776,7 +10760,9 @@
     "struck": [
      "links:112#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.116,
+   "shared_pct": null
   },
   {
    "pair": "Node\u2013Orcus",
@@ -10796,43 +10782,31 @@
     "struck": [
      "links:96#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.188,
+   "shared_pct": null
   },
   {
-   "pair": "Node\u2013Quaoar",
+   "pair": "Eris\u2013Vesta",
    "n": 3,
    "kinds": {
-    "ratio J": [
-     "ratios:21"
+    "cross": [
+     "links:101"
     ],
-    "family": [
-     "pair_family:53"
+    "partner": [
+     "links:101#shape2"
     ],
-    "same body": [
-     "same_body:2"
+    "moved": [
+     "links:101#shape5"
     ]
    },
    "near": {
-    "family": [
-     "pair_family:126"
-    ]
-   }
-  },
-  {
-   "pair": "Neptune\u2013Pallas",
-   "n": 3,
-   "kinds": {
-    "ratio J": [
-     "ratios:15"
-    ],
-    "family": [
-     "pair_family:29"
-    ],
-    "same body": [
-     "same_body:0"
+    "struck": [
+     "links:101#shape1"
     ]
    },
-   "near": {}
+   "cross_tight": 0.8605,
+   "shared_pct": null
   }
  ]
 }

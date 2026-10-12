@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "5 Swayze / 5 Lewis Edmunds",
  "workbook": "nottingham_1530_20220601__P07.xlsx",
  "bodies": {
@@ -11681,7 +11681,9 @@
     "family": [
      "pair_family:87"
     ]
-   }
+   },
+   "cross_tight": 0.7214,
+   "shared_pct": null
   },
   {
    "pair": "Juno\u2013Pallas",
@@ -11702,7 +11704,9 @@
      "pair_family:60",
      "pair_family:61"
     ]
-   }
+   },
+   "cross_tight": 0.8359,
+   "shared_pct": null
   }
  ]
 }

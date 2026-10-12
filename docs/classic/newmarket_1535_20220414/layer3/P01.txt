@@ -1,4 +1,4 @@
-== 1 Austrian Theory / 1 Joe Fanning   [newmarket_1535_20220414__P01.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
+== 1 Austrian Theory / 1 Joe Fanning   [newmarket_1535_20220414__P01.xlsx, L3 v1.4 (12 Oct 2026, pair focus A+B+C)]
 -- strong hubs (5+ tight kinds): H Venus, H Vesta, H Makemake, H Gonggong, J Venus, J Jupiter, J Saturn
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Venus        BPRSX  tight 5
@@ -726,22 +726,22 @@
         sky Saturn -> H Quaoar GC 50.77827 = 457/9
         sky Quaoar on H Quaoar RA 4.4565 Dec 0.3640 RETURN near
 -- pair focus (kinds of root item on one pair; near beside, not counted)
-   Gonggong–Node          3 kinds: cross, partner, moved   near: struck, h:j
-        cross: cross H Gonggong–J Rahu RA 1.1662 Dec 1.6518
-        partner: cross H Gonggong–J Rahu RA 1.1662 Dec 1.6518
-        moved: cross H Gonggong–J Rahu RA 1.1662 Dec 1.6518
-   Jupiter–Vesta          3 kinds: cross, moved, ratio H   near: struck
-        cross: cross H Vesta–J Jupiter RA 125.3985 Dec 0.1691
-        moved: cross H Vesta–J Jupiter RA 125.3985 Dec 0.1691
-        ratio H: H Jupiter–Vesta GC sky 38.6550 natal 77.3109 2 (0.0013%)
-   Node–Venus             3 kinds: cross, partner, same body   near: struck
+   Node–Venus             3 kinds: cross, partner, same body  cross tightness 0.1152   near: struck
         cross: cross H Ketu–J Venus RA 77.3781 Dec 0.0345
         partner: cross H Ketu–J Venus RA 77.3781 Dec 0.0345
         same body: same-body Venus Flat 9/8 : 19/9 : 15/8 (worst 0.1199%)
-   Venus–Venus            3 kinds: cross, struck, same body
+   Venus–Venus            3 kinds: cross, struck, same body  cross tightness 0.5595
         cross: cross H Venus–J Venus RA 64.4125 Dec 0.1678
         struck: cross H Venus–J Venus RA 64.4125 Dec 0.1678
         same body: same-body Venus Flat 9/8 : 19/9 : 15/8 (worst 0.1199%)
+   Jupiter–Vesta          3 kinds: cross, moved, ratio H  cross tightness 0.5636   near: struck
+        cross: cross H Vesta–J Jupiter RA 125.3985 Dec 0.1691
+        moved: cross H Vesta–J Jupiter RA 125.3985 Dec 0.1691
+        ratio H: H Jupiter–Vesta GC sky 38.6550 natal 77.3109 2 (0.0013%)
+   Gonggong–Node          3 kinds: cross, partner, moved  cross tightness 0.7775   near: struck, h:j
+        cross: cross H Gonggong–J Rahu RA 1.1662 Dec 1.6518
+        partner: cross H Gonggong–J Rahu RA 1.1662 Dec 1.6518
+        moved: cross H Gonggong–J Rahu RA 1.1662 Dec 1.6518
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Vesta–Jupiter: cross H Vesta–J Jupiter RA 125.3985 Dec 0.1691
    recurring pair Node–Neptune: cross H Rahu–J Neptune RA 119.00417 = 119

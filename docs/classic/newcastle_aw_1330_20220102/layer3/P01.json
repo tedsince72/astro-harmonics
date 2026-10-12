@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "1 Good Effort / 1 Jim Crowley",
  "workbook": "newcastle_aw_1330_20220102__P01.xlsx",
  "bodies": {
@@ -10492,6 +10492,42 @@
  },
  "pair_focus": [
   {
+   "pair": "Jupiter\u2013Transpluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:64"
+    ],
+    "ratio H": [
+     "ratios:4"
+    ],
+    "same body": [
+     "same_body:5"
+    ]
+   },
+   "near": {},
+   "cross_tight": 0.2409,
+   "shared_pct": null
+  },
+  {
+   "pair": "Orcus\u2013Saturn",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:100"
+    ],
+    "partner": [
+     "links:100#shape2"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {},
+   "cross_tight": 0.5437,
+   "shared_pct": null
+  },
+  {
    "pair": "Juno\u2013Node",
    "n": 3,
    "kinds": {
@@ -10517,39 +10553,9 @@
      "pair_family:48",
      "pair_family:128"
     ]
-   }
-  },
-  {
-   "pair": "Jupiter\u2013Transpluto",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:64"
-    ],
-    "ratio H": [
-     "ratios:4"
-    ],
-    "same body": [
-     "same_body:5"
-    ]
    },
-   "near": {}
-  },
-  {
-   "pair": "Orcus\u2013Saturn",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:100"
-    ],
-    "partner": [
-     "links:100#shape2"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.8643,
+   "shared_pct": null
   }
  ]
 }

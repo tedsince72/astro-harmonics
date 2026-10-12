@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "3 Another Theatre / 3 Thomas Dowson",
  "workbook": "perth_1610_20220420__P05.xlsx",
  "bodies": {
@@ -11961,7 +11961,9 @@
     "struck": [
      "links:84#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.8192,
+   "shared_pct": null
   },
   {
    "pair": "Node\u2013Orcus",
@@ -11985,7 +11987,9 @@
      "pair_family:54",
      "pair_family:124"
     ]
-   }
+   },
+   "cross_tight": 0.3887,
+   "shared_pct": null
   },
   {
    "pair": "Saturn\u2013Venus",
@@ -12010,27 +12014,9 @@
     "family": [
      "pair_family:72"
     ]
-   }
-  },
-  {
-   "pair": "Gonggong\u2013Mars",
-   "n": 3,
-   "kinds": {
-    "family": [
-     "pair_family:79"
-    ],
-    "same body": [
-     "same_body:1"
-    ],
-    "sky": [
-     "sky-gc 1.0847"
-    ]
    },
-   "near": {
-    "family": [
-     "pair_family:19"
-    ]
-   }
+   "cross_tight": 0.9664,
+   "shared_pct": null
   }
  ]
 }

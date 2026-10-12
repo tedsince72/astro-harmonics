@@ -1,4 +1,4 @@
-== 5 Rabat / 5 Connor Beasley   [newcastle_aw_1540_20211112__P09.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
+== 5 Rabat / 5 Connor Beasley   [newcastle_aw_1540_20211112__P09.xlsx, L3 v1.4 (12 Oct 2026, pair focus A+B+C)]
 -- strong hubs (5+ tight kinds): J Uranus
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    J Uranus       BMPRSX  tight 5  (near joined: X)
@@ -613,23 +613,15 @@
    [11] joined same-body set (STRONG HUB)  roots 1  bodies=['H Uranus', 'J Uranus']; joined_by=['R', 'X']; strict=True
         same-body Uranus Flat 7 : 8 : 8/7 (worst 0.0185%)
 -- pair focus (kinds of root item on one pair; near beside, not counted)
-   Saturn–Uranus          3 kinds: ratio H, family, same body   near: cross, struck, partner, moved, family
-        ratio H: H Saturn–Uranus Flat sky 96.0993 natal 112.1146 7/6 (0.0011%)
-        family: J Saturn–Uranus Dec sky Saturn – J Uranus 2.7278 vs NN 12.5483 23/5 (0.0031%)
-        same body: same-body Uranus RA 7 : 8 : 8/7 (worst 0.0948%); same-body Uranus Flat 7 : 8 : 8/7 (worst 0.0185%)
-   Jupiter–Uranus         3 kinds: ratio J, set, same body   near: family
-        ratio J: J Jupiter–Uranus Dec sky 29.9301 natal 8.9790 10/3 (0.0006%)
-        set: pair set Jupiter–Uranus Dec H 26.9492 J 8.9790
-        same body: same-body Uranus RA 7 : 8 : 8/7 (worst 0.0948%); same-body Uranus Flat 7 : 8 : 8/7 (worst 0.0185%)
-   Mercury–Node           3 kinds: cross, struck, moved   near: family
-        cross: cross H Rahu–J Mercury RA 6.5950 Dec 0.1094
-        struck: cross H Rahu–J Mercury RA 6.5950 Dec 0.1094
-        moved: cross H Rahu–J Mercury RA 6.5950 Dec 0.1094
-   Node–Node              3 kinds: cross, struck, moved   near: struck
+   Node–Node              3 kinds: cross, struck, moved  cross tightness 0.2025   near: struck
         cross: cross H Rahu–J Ketu RA 86.5795 Dec 0.0607; cross H Ketu–J Rahu RA 86.5795 Dec 0.0607
         struck: cross H Rahu–J Ketu RA 86.5795 Dec 0.0607
         moved: cross H Rahu–J Ketu RA 86.5795 Dec 0.0607; cross H Ketu–J Rahu RA 86.5795 Dec 0.0607
-   Haumea–Mercury         3 kinds: cross, moved, h:j
+   Mercury–Node           3 kinds: cross, struck, moved  cross tightness 0.3648   near: family
+        cross: cross H Rahu–J Mercury RA 6.5950 Dec 0.1094
+        struck: cross H Rahu–J Mercury RA 6.5950 Dec 0.1094
+        moved: cross H Rahu–J Mercury RA 6.5950 Dec 0.1094
+   Haumea–Mercury         3 kinds: cross, moved, h:j  cross tightness 0.7902
         cross: cross H Haumea–J Mercury RA 73.0726 Dec 0.2371
         moved: cross H Haumea–J Mercury RA 73.0726 Dec 0.2371
         h:j: horse:jockey Mercury–Haumea GC H 149.8698 J 47.6843 22/7

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "6 Foinix / 6 Dylan Hogan",
  "workbook": "chelmsford_aw_1320_20240118__P11.xlsx",
  "bodies": {
@@ -11048,7 +11048,9 @@
     "ratio J": [
      "ratios:13"
     ]
-   }
+   },
+   "cross_tight": 0.3584,
+   "shared_pct": null
   },
   {
    "pair": "Pallas\u2013Sedna",
@@ -11078,27 +11080,9 @@
     "family": [
      "pair_family:112"
     ]
-   }
-  },
-  {
-   "pair": "Orcus\u2013Uranus",
-   "n": 3,
-   "kinds": {
-    "shared": [
-     "shared:1"
-    ],
-    "family": [
-     "pair_family:96"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
    },
-   "near": {
-    "h:j": [
-     "hj_ratios:13"
-    ]
-   }
+   "cross_tight": 0.2936,
+   "shared_pct": null
   }
  ]
 }

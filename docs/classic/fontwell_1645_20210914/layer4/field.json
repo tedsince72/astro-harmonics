@@ -1,5 +1,5 @@
 {
- "version": "L4 v1.2 (12 Oct 2026, pair focus)",
+ "version": "L4 v1.3 (12 Oct 2026, pair focus A+B+C)",
  "race": "fontwell_1645_20210914",
  "pair_focus": {
   "P01": {
@@ -10,12 +10,14 @@
     "moved",
     "family"
    ],
+   "cross_tight": 0.2352,
    "tied_pairs": [
     "Node\u2013Quaoar",
     "Pallas\u2013Saturn"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P03": {
@@ -27,12 +29,13 @@
     "moved",
     "family"
    ],
+   "cross_tight": 0.8968,
    "tied_pairs": [
-    "Neptune\u2013Saturn",
-    "Mercury\u2013Uranus"
+    "Neptune\u2013Saturn"
    ],
    "field_max": true,
    "most_lit_alone": true,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P05": {
@@ -43,30 +46,33 @@
     "moved",
     "family"
    ],
+   "cross_tight": 0.6488,
    "tied_pairs": [
-    "Node\u2013Venus",
-    "Mercury\u2013Transpluto"
+    "Node\u2013Venus"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P07": {
-   "top": "Mars\u2013Node",
+   "top": "Neptune\u2013Pluto",
    "n": 3,
    "kinds": [
+    "shared",
     "cross",
-    "family",
-    "same body"
+    "moved"
    ],
+   "cross_tight": 0.4014,
    "tied_pairs": [
+    "Neptune\u2013Pluto",
     "Mars\u2013Node",
     "Mars\u2013Transpluto",
-    "Neptune\u2013Pluto",
     "Sun\u2013Transpluto"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   }
  },

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "1 Mortlake / 1 Rossa Ryan",
  "workbook": "york_1615_20240515__P01.xlsx",
  "bodies": {
@@ -10827,6 +10827,53 @@
  },
  "pair_focus": [
   {
+   "pair": "Quaoar\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:121"
+    ],
+    "moved": [
+     "links:121#shape5"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:121#shape1"
+    ],
+    "partner": [
+     "links:121#shape2"
+    ]
+   },
+   "cross_tight": 0.227,
+   "shared_pct": null
+  },
+  {
+   "pair": "Makemake\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:115"
+    ],
+    "moved": [
+     "links:115#shape5"
+    ],
+    "family": [
+     "pair_family:51"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:50"
+    ]
+   },
+   "cross_tight": 0.2682,
+   "shared_pct": null
+  },
+  {
    "pair": "Jupiter\u2013Sedna",
    "n": 3,
    "kinds": {
@@ -10854,50 +10901,9 @@
      "pair_family:25",
      "pair_family:77"
     ]
-   }
-  },
-  {
-   "pair": "Quaoar\u2013Uranus",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:121"
-    ],
-    "moved": [
-     "links:121#shape5"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:121#shape1"
-    ],
-    "partner": [
-     "links:121#shape2"
-    ]
-   }
-  },
-  {
-   "pair": "Makemake\u2013Sun",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:115"
-    ],
-    "moved": [
-     "links:115#shape5"
-    ],
-    "family": [
-     "pair_family:51"
-    ]
-   },
-   "near": {
-    "family": [
-     "pair_family:50"
-    ]
-   }
+   "cross_tight": 0.6562,
+   "shared_pct": null
   },
   {
    "pair": "Transpluto\u2013Uranus",
@@ -10913,7 +10919,9 @@
      "same_body:0"
     ]
    },
-   "near": {}
+   "near": {},
+   "cross_tight": 0.6956,
+   "shared_pct": null
   }
  ]
 }

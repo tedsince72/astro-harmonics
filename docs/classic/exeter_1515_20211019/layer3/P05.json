@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "3 Pens Man / 3 Jonjo O'Neill Jr",
  "workbook": "20211019_exeter_1515__P05.xlsx",
  "bodies": {
@@ -11107,7 +11107,9 @@
     "struck": [
      "links:121#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.0113,
+   "shared_pct": null
   },
   {
    "pair": "Jupiter\u2013Orcus",
@@ -11123,7 +11125,9 @@
      "links:71#shape5"
     ]
    },
-   "near": {}
+   "near": {},
+   "cross_tight": 0.8733,
+   "shared_pct": null
   }
  ]
 }

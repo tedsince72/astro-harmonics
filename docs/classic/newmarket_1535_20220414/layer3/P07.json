@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "4 Eydon / 4 David Egan",
  "workbook": "newmarket_1535_20220414__P07.xlsx",
  "bodies": {
@@ -10897,7 +10897,9 @@
     "family": [
      "pair_family:130"
     ]
-   }
+   },
+   "cross_tight": 0.0601,
+   "shared_pct": null
   },
   {
    "pair": "Ceres\u2013Node",
@@ -10923,27 +10925,9 @@
     "family": [
      "pair_family:116"
     ]
-   }
-  },
-  {
-   "pair": "Juno\u2013Transpluto",
-   "n": 3,
-   "kinds": {
-    "h:j": [
-     "hj_ratios:20"
-    ],
-    "family": [
-     "pair_family:47"
-    ],
-    "same body": [
-     "same_body:2"
-    ]
    },
-   "near": {
-    "family": [
-     "pair_family:48"
-    ]
-   }
+   "cross_tight": 0.674,
+   "shared_pct": null
   }
  ]
 }

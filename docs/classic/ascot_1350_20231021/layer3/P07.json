@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "4 Run To Freedom / 4 Trevor Whelan",
  "workbook": "ascot_1350_20231021__P07.xlsx",
  "bodies": {
@@ -11031,7 +11031,9 @@
     "struck": [
      "links:101#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.695,
+   "shared_pct": null
   },
   {
    "pair": "Vesta\u2013Vesta",
@@ -11051,23 +11053,9 @@
     "struck": [
      "links:99#shape1"
     ]
-   }
-  },
-  {
-   "pair": "Gonggong\u2013Saturn",
-   "n": 3,
-   "kinds": {
-    "ratio H": [
-     "ratios:2"
-    ],
-    "family": [
-     "pair_family:31"
-    ],
-    "sky": [
-     "sky-gc 4.0084"
-    ]
    },
-   "near": {}
+   "cross_tight": 0.9821,
+   "shared_pct": null
   }
  ]
 }

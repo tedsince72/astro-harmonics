@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "2 Adjali / 2 Daryl Jacob",
  "workbook": "20210822_worcester_1300__P03.xlsx",
  "bodies": {
@@ -11138,6 +11138,24 @@
  },
  "pair_focus": [
   {
+   "pair": "Haumea\u2013Vesta",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:87"
+    ],
+    "moved": [
+     "links:87#shape5"
+    ],
+    "family": [
+     "pair_family:122"
+    ]
+   },
+   "near": {},
+   "cross_tight": 0.6367,
+   "shared_pct": null
+  },
+  {
    "pair": "Chiron\u2013Mars",
    "n": 3,
    "kinds": {
@@ -11162,23 +11180,9 @@
      "pair_family:73",
      "pair_family:74"
     ]
-   }
-  },
-  {
-   "pair": "Haumea\u2013Vesta",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:87"
-    ],
-    "moved": [
-     "links:87#shape5"
-    ],
-    "family": [
-     "pair_family:122"
-    ]
    },
-   "near": {}
+   "cross_tight": 0.9276,
+   "shared_pct": null
   }
  ]
 }

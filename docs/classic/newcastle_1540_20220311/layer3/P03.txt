@@ -1,4 +1,4 @@
-== 2 Edmond Dantes / 2 Brian Hughes   [newcastle_1540_20220311__P03.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
+== 2 Edmond Dantes / 2 Brian Hughes   [newcastle_1540_20220311__P03.xlsx, L3 v1.4 (12 Oct 2026, pair focus A+B+C)]
 -- strong hubs (5+ tight kinds): H Pallas
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Pallas       BMPRSX  tight 6
@@ -616,28 +616,28 @@
         sky Pluto on J Uranus RA 45.6669 Dec 0.2860
         sky Mercury -> J Neptune Dec 9.55527 = 86/9
 -- pair focus (kinds of root item on one pair; near beside, not counted)
-   Mars–Venus             4 kinds: cross, struck, partner, sky   near: h:j, family
-        cross: cross H Venus–J Mars RA 2.8047 Dec 0.2940
-        struck: cross H Venus–J Mars RA 2.8047 Dec 0.2940
-        partner: cross H Venus–J Mars RA 2.8047 Dec 0.2940
-        sky: sky-gc 4.0469
-   Gonggong–Pallas        4 kinds: cross, struck, moved, same body
+   Gonggong–Pallas        4 kinds: cross, struck, moved, same body  cross tightness 0.5877
         cross: cross H Pallas–J Gonggong RA 0.8815 Dec 35.3668
         struck: cross H Pallas–J Gonggong RA 0.8815 Dec 35.3668
         moved: cross H Pallas–J Gonggong RA 0.8815 Dec 35.3668
         same body: same-body Pallas RA 11/6 : 6/5 : 11/5 (worst 0.1231%)
-   Ceres–Makemake         3 kinds: cross, ratio H, h:j   near: struck
-        cross: cross H Makemake–J Ceres RA 98.8830 Dec 0.2089
-        ratio H: H Ceres–Makemake RA sky 134.4491 natal 168.0548 5/4 (0.0039%)
-        h:j: horse:jockey Ceres–Makemake RA H 168.0548 J 68.7502 22/9
-   Ceres–Venus            3 kinds: cross, struck, family   near: h:j
+   Mars–Venus             4 kinds: cross, struck, partner, sky  cross tightness 0.98   near: h:j, family
+        cross: cross H Venus–J Mars RA 2.8047 Dec 0.2940
+        struck: cross H Venus–J Mars RA 2.8047 Dec 0.2940
+        partner: cross H Venus–J Mars RA 2.8047 Dec 0.2940
+        sky: sky-gc 4.0469
+   Ceres–Venus            3 kinds: cross, struck, family  cross tightness 0.3548   near: h:j
         cross: cross H Venus–J Ceres RA 0.5322 Dec 1.5376
         struck: cross H Venus–J Ceres RA 0.5322 Dec 1.5376
         family: J Venus–Ceres GC J Venus – sky Ceres 26.1233 vs TT 121.9075 14/3 (0.0011%)
-   Chiron–Haumea          3 kinds: cross, partner, moved
+   Chiron–Haumea          3 kinds: cross, partner, moved  cross tightness 0.5953
         cross: cross H Haumea–J Chiron RA 140.9826 Dec 0.1786
         partner: cross H Haumea–J Chiron RA 140.9826 Dec 0.1786
         moved: cross H Haumea–J Chiron RA 140.9826 Dec 0.1786
+   Ceres–Makemake         3 kinds: cross, ratio H, h:j  cross tightness 0.6962   near: struck
+        cross: cross H Makemake–J Ceres RA 98.8830 Dec 0.2089
+        ratio H: H Ceres–Makemake RA sky 134.4491 natal 168.0548 5/4 (0.0039%)
+        h:j: horse:jockey Ceres–Makemake RA H 168.0548 J 68.7502 22/9
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Saturn–Neptune: H H Saturn–H Neptune Flat 93.99706 = 94
    recurring pair Neptune–Vesta: H H Neptune–H Vesta GC 92.99512 = 93

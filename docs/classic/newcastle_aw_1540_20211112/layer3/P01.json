@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "1 Poco Contante / 1 Jamie Gormley",
  "workbook": "newcastle_aw_1540_20211112__P01.xlsx",
  "bodies": {
@@ -9470,7 +9470,34 @@
      "same_body:0"
     ]
    },
-   "near": {}
+   "near": {},
+   "cross_tight": 0.9445,
+   "shared_pct": null
+  },
+  {
+   "pair": "Juno\u2013Uranus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:73"
+    ],
+    "moved": [
+     "links:73#shape5"
+    ],
+    "same body": [
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:73#shape1"
+    ],
+    "family": [
+     "pair_family:96"
+    ]
+   },
+   "cross_tight": 0.1963,
+   "shared_pct": null
   },
   {
    "pair": "Juno\u2013Transpluto",
@@ -9496,7 +9523,9 @@
     "h:j": [
      "hj_ratios:11"
     ]
-   }
+   },
+   "cross_tight": 0.5443,
+   "shared_pct": null
   },
   {
    "pair": "Juno\u2013Node",
@@ -9520,30 +9549,9 @@
      "pair_family:47",
      "pair_family:48"
     ]
-   }
-  },
-  {
-   "pair": "Juno\u2013Uranus",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:73"
-    ],
-    "moved": [
-     "links:73#shape5"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:73#shape1"
-    ],
-    "family": [
-     "pair_family:96"
-    ]
-   }
+   "cross_tight": 0.9744,
+   "shared_pct": null
   }
  ]
 }

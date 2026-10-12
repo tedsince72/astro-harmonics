@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "3 Hamish / 3 Pat Dobbs",
  "workbook": "20210904_kempton_aw_1440__P05.xlsx",
  "bodies": {
@@ -12069,25 +12069,44 @@
  },
  "pair_focus": [
   {
-   "pair": "Chiron\u2013Neptune",
+   "pair": "Mars\u2013Uranus",
    "n": 3,
    "kinds": {
-    "h:j": [
-     "hj_ratios:17"
+    "cross": [
+     "links:54"
     ],
-    "family": [
-     "pair_family:35"
+    "partner": [
+     "links:54#shape2"
     ],
     "same body": [
-     "same_body:2"
+     "same_body:1"
     ]
    },
    "near": {
-    "family": [
-     "pair_family:36",
-     "pair_family:37"
+    "struck": [
+     "links:54#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.2261,
+   "shared_pct": null
+  },
+  {
+   "pair": "Juno\u2013Venus",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:51"
+    ],
+    "struck": [
+     "links:51#shape1"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {},
+   "cross_tight": 0.757,
+   "shared_pct": null
   },
   {
    "pair": "Juno\u2013Uranus",
@@ -12108,43 +12127,9 @@
     "struck": [
      "links:83#shape1"
     ]
-   }
-  },
-  {
-   "pair": "Mars\u2013Uranus",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:54"
-    ],
-    "partner": [
-     "links:54#shape2"
-    ],
-    "same body": [
-     "same_body:1"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:54#shape1"
-    ]
-   }
-  },
-  {
-   "pair": "Juno\u2013Venus",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:51"
-    ],
-    "struck": [
-     "links:51#shape1"
-    ],
-    "same body": [
-     "same_body:3"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.965,
+   "shared_pct": null
   }
  ]
 }

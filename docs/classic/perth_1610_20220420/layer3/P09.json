@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "5 Daphne Moon / 5 Sean Bowen",
  "workbook": "perth_1610_20220420__P09.xlsx",
  "bodies": {
@@ -11953,7 +11953,9 @@
      "same_body:2"
     ]
    },
-   "near": {}
+   "near": {},
+   "cross_tight": 0.6661,
+   "shared_pct": null
   },
   {
    "pair": "Haumea\u2013Makemake",
@@ -11972,7 +11974,58 @@
      "pair_family:124"
     ]
    },
-   "near": {}
+   "near": {},
+   "cross_tight": 0.7946,
+   "shared_pct": null
+  },
+  {
+   "pair": "Node\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:81",
+     "links:85"
+    ],
+    "moved": [
+     "links:81#shape5",
+     "links:85#shape5"
+    ],
+    "same body": [
+     "same_body:4"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:81#shape1"
+    ]
+   },
+   "cross_tight": 0.6409,
+   "shared_pct": null
+  },
+  {
+   "pair": "Juno\u2013Transpluto",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:73"
+    ],
+    "struck": [
+     "links:73#shape1"
+    ],
+    "moved": [
+     "links:73#shape5"
+    ]
+   },
+   "near": {
+    "h:j": [
+     "hj_ratios:15"
+    ],
+    "family": [
+     "pair_family:44"
+    ]
+   },
+   "cross_tight": 0.7544,
+   "shared_pct": null
   },
   {
    "pair": "Neptune\u2013Pluto",
@@ -12000,30 +12053,9 @@
     "family": [
      "pair_family:79"
     ]
-   }
-  },
-  {
-   "pair": "Juno\u2013Transpluto",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:73"
-    ],
-    "struck": [
-     "links:73#shape1"
-    ],
-    "moved": [
-     "links:73#shape5"
-    ]
    },
-   "near": {
-    "h:j": [
-     "hj_ratios:15"
-    ],
-    "family": [
-     "pair_family:44"
-    ]
-   }
+   "cross_tight": 0.8064,
+   "shared_pct": 0.4716
   },
   {
    "pair": "Pallas\u2013Pluto",
@@ -12047,85 +12079,9 @@
      "pair_family:33",
      "pair_family:89"
     ]
-   }
-  },
-  {
-   "pair": "Chiron\u2013Sun",
-   "n": 3,
-   "kinds": {
-    "ratio J": [
-     "ratios:9"
-    ],
-    "family": [
-     "pair_family:53"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
    },
-   "near": {
-    "ratio J": [
-     "ratios:8"
-    ]
-   }
-  },
-  {
-   "pair": "Haumea\u2013Node",
-   "n": 3,
-   "kinds": {
-    "shared": [
-     "shared:8"
-    ],
-    "ratio J": [
-     "ratios:17"
-    ],
-    "same body": [
-     "same_body:4"
-    ]
-   },
-   "near": {
-    "h:j": [
-     "hj_ratios:17"
-    ]
-   }
-  },
-  {
-   "pair": "Node\u2013Node",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:81",
-     "links:85"
-    ],
-    "moved": [
-     "links:81#shape5",
-     "links:85#shape5"
-    ],
-    "same body": [
-     "same_body:4"
-    ]
-   },
-   "near": {
-    "struck": [
-     "links:81#shape1"
-    ]
-   }
-  },
-  {
-   "pair": "Gonggong\u2013Mars",
-   "n": 3,
-   "kinds": {
-    "h:j": [
-     "hj_ratios:6"
-    ],
-    "same body": [
-     "same_body:6"
-    ],
-    "sky": [
-     "sky-gc 1.0847"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.8408,
+   "shared_pct": null
   }
  ]
 }

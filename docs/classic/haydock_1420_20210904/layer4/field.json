@@ -1,37 +1,43 @@
 {
- "version": "L4 v1.2 (12 Oct 2026, pair focus)",
+ "version": "L4 v1.3 (12 Oct 2026, pair focus A+B+C)",
  "race": "haydock_1420_20210904",
  "pair_focus": {
   "P01": {
-   "top": "Chiron\u2013Node",
+   "top": "Node\u2013Orcus",
    "n": 2,
    "kinds": [
-    "family",
+    "cross",
     "same body"
    ],
+   "cross_tight": 0.1347,
    "tied_pairs": [
-    "Chiron\u2013Node",
-    "Gonggong\u2013Quaoar",
-    "Node\u2013Pallas"
+    "Node\u2013Orcus",
+    "Sedna\u2013Venus",
+    "Gonggong\u2013Quaoar"
    ],
    "field_max": false,
    "most_lit_alone": false,
-   "same_pair_elsewhere": {}
+   "leads_on_tightness": false,
+   "same_pair_elsewhere": {
+    "P03": 3
+   }
   },
   "P03": {
-   "top": "Node\u2013Orcus",
+   "top": "Ceres\u2013Transpluto",
    "n": 3,
    "kinds": [
     "cross",
-    "moved",
+    "partner",
     "family"
    ],
+   "cross_tight": 0.1262,
    "tied_pairs": [
-    "Node\u2013Orcus",
-    "Ceres\u2013Transpluto"
+    "Ceres\u2013Transpluto",
+    "Node\u2013Orcus"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P05": {
@@ -42,12 +48,13 @@
     "ratio J",
     "same body"
    ],
+   "cross_tight": 0.7488,
    "tied_pairs": [
-    "Node\u2013Sedna",
-    "Node\u2013Venus"
+    "Node\u2013Sedna"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P07": {
@@ -58,29 +65,31 @@
     "partner",
     "same body"
    ],
+   "cross_tight": 0.0898,
    "tied_pairs": [
     "Sedna\u2013Sun"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P09": {
-   "top": "Jupiter\u2013Venus",
+   "top": "Juno\u2013Uranus",
    "n": 3,
    "kinds": [
     "cross",
-    "moved",
-    "same body"
+    "struck",
+    "moved"
    ],
+   "cross_tight": 0.2347,
    "tied_pairs": [
-    "Jupiter\u2013Venus",
-    "Mars\u2013Sedna",
-    "Chiron\u2013Jupiter",
-    "Juno\u2013Uranus"
+    "Juno\u2013Uranus",
+    "Jupiter\u2013Venus"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P11": {
@@ -92,11 +101,13 @@
     "moved",
     "same body"
    ],
+   "cross_tight": 0.6717,
    "tied_pairs": [
     "Uranus\u2013Vesta"
    ],
    "field_max": true,
    "most_lit_alone": true,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   }
  },

@@ -15,6 +15,7 @@
 
 **P09 5 Wholestone / 5 Sam Twiston-Davies**
 - **Only runner in the field (strict): shared node** — shared node  _(rests on 1 independent facts)_
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Orcus–Transpluto, 4 kinds: cross, struck, partner, same body; not lit in any other runner
 - **Only runner in the field (broad): both ends of the cross link have moved** — horse Chiron–Twiston-Davies Pluto RA 100.4895 Dec 0.3992 near; horse Chiron moved RA 34.66760 = 312/9; Twiston-Davies Pluto moved Dec 17.99602 = 18  _(rests on 3 independent facts)_
 - Shared with one other runner (P11), strict: cross link struck on both ends — horse Orcus–Twiston-Davies Transpluto RA 0.8598 Dec 20.2829; sky Chiron -> horse Orcus RA 138.33342 = 1245/9; sky Transpluto -> horse Orcus GC 18.88921 = 170/9
 

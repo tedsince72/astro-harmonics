@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "2 Cosmic View / 2 Jamie Moore",
  "workbook": "fontwell_1530_20231006__P03.xlsx",
  "bodies": {
@@ -10769,52 +10769,67 @@
  },
  "pair_focus": [
   {
-   "pair": "Juno\u2013Mercury",
-   "n": 3,
+   "pair": "Jupiter\u2013Neptune",
+   "n": 2,
    "kinds": {
-    "h:j": [
-     "hj_ratios:1"
+    "cross": [
+     "links:67"
     ],
     "family": [
-     "pair_family:11",
-     "pair_family:12",
-     "pair_family:74"
-    ],
-    "same body": [
-     "same_body:0"
+     "pair_family:26"
     ]
    },
    "near": {
-    "cross": [
-     "links:60"
-    ],
     "struck": [
-     "links:60#shape1"
+     "links:67#shape1"
     ],
-    "partner": [
-     "links:60#shape2"
+    "family": [
+     "pair_family:25"
     ]
-   }
+   },
+   "cross_tight": 0.134,
+   "shared_pct": null
   },
   {
-   "pair": "Mercury\u2013Node",
-   "n": 3,
+   "pair": "Haumea\u2013Makemake",
+   "n": 2,
    "kinds": {
-    "shared": [
-     "shared:1"
-    ],
-    "family": [
-     "pair_family:14"
+    "cross": [
+     "links:108"
     ],
     "same body": [
-     "same_body:0"
+     "same_body:3"
     ]
    },
    "near": {
+    "struck": [
+     "links:108#shape1"
+    ],
     "family": [
-     "pair_family:13"
+     "pair_family:67"
     ]
-   }
+   },
+   "cross_tight": 0.1494,
+   "shared_pct": null
+  },
+  {
+   "pair": "Juno\u2013Vesta",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:90"
+    ],
+    "same body": [
+     "same_body:2"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:90#shape1"
+    ]
+   },
+   "cross_tight": 0.2459,
+   "shared_pct": null
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "5 Wotever Next / 5 Joanna Mason",
  "workbook": "20220406_catterick_1440__P09.xlsx",
  "bodies": {
@@ -9510,62 +9510,9 @@
     "struck": [
      "links:96#shape1"
     ]
-   }
-  },
-  {
-   "pair": "Chiron\u2013Eris",
-   "n": 3,
-   "kinds": {
-    "ratio H": [
-     "ratios:5"
-    ],
-    "family": [
-     "pair_family:111"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
    },
-   "near": {
-    "h:j": [
-     "hj_ratios:9"
-    ],
-    "family": [
-     "pair_family:42"
-    ]
-   }
-  },
-  {
-   "pair": "Ceres\u2013Chiron",
-   "n": 3,
-   "kinds": {
-    "h:j": [
-     "hj_ratios:8"
-    ],
-    "family": [
-     "pair_family:108"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
-   },
-   "near": {}
-  },
-  {
-   "pair": "Chiron\u2013Orcus",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:85"
-    ],
-    "moved": [
-     "links:85#shape5"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.1418,
+   "shared_pct": null
   },
   {
    "pair": "Chiron\u2013Sedna",
@@ -9581,23 +9528,27 @@
      "same_body:0"
     ]
    },
-   "near": {}
+   "near": {},
+   "cross_tight": 0.3348,
+   "shared_pct": null
   },
   {
-   "pair": "Node\u2013Orcus",
+   "pair": "Chiron\u2013Orcus",
    "n": 3,
    "kinds": {
-    "ratio H": [
-     "ratios:7"
+    "cross": [
+     "links:85"
     ],
-    "family": [
-     "pair_family:48"
+    "moved": [
+     "links:85#shape5"
     ],
     "same body": [
-     "same_body:1"
+     "same_body:0"
     ]
    },
-   "near": {}
+   "near": {},
+   "cross_tight": 0.437,
+   "shared_pct": null
   }
  ]
 }

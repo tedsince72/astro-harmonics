@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "9 Sea Of Angels / 9 Marco Ghiani",
  "workbook": "wolverhampton_aw_1725_20231021__P17.xlsx",
  "bodies": {
@@ -12715,7 +12715,9 @@
      "links:109#shape1",
      "links:112#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.566,
+   "shared_pct": null
   },
   {
    "pair": "Mercury\u2013Venus",
@@ -12738,7 +12740,9 @@
     "struck": [
      "links:69#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.7417,
+   "shared_pct": null
   },
   {
    "pair": "Ceres\u2013Venus",
@@ -12762,7 +12766,31 @@
     "family": [
      "pair_family:68"
     ]
-   }
+   },
+   "cross_tight": 0.1465,
+   "shared_pct": null
+  },
+  {
+   "pair": "Mercury\u2013Node",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:67"
+    ],
+    "same body": [
+     "same_body:0"
+    ],
+    "sky": [
+     "sky-gc 4.1743"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:67#shape1"
+    ]
+   },
+   "cross_tight": 0.7539,
+   "shared_pct": null
   },
   {
    "pair": "Eris\u2013Saturn",
@@ -12786,7 +12814,9 @@
     "partner": [
      "links:116#shape2"
     ]
-   }
+   },
+   "cross_tight": 0.8676,
+   "shared_pct": null
   },
   {
    "pair": "Chiron\u2013Sedna",
@@ -12806,47 +12836,9 @@
     "struck": [
      "links:93#shape1"
     ]
-   }
-  },
-  {
-   "pair": "Mercury\u2013Node",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:67"
-    ],
-    "same body": [
-     "same_body:0"
-    ],
-    "sky": [
-     "sky-gc 4.1743"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:67#shape1"
-    ]
-   }
-  },
-  {
-   "pair": "Node\u2013Sedna",
-   "n": 3,
-   "kinds": {
-    "ratio H": [
-     "ratios:6"
-    ],
-    "ratio J": [
-     "ratios:14"
-    ],
-    "same body": [
-     "same_body:5"
-    ]
-   },
-   "near": {
-    "family": [
-     "pair_family:116"
-    ]
-   }
+   "cross_tight": 0.9635,
+   "shared_pct": null
   }
  ]
 }

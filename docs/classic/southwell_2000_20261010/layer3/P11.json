@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "7 Neswick / 7 Dougie Costello",
  "workbook": "20261010_southwell_aw_2000__P11.xlsx",
  "bodies": {
@@ -11196,27 +11196,44 @@
  },
  "pair_focus": [
   {
-   "pair": "Pallas\u2013Sun",
+   "pair": "Chiron\u2013Orcus",
    "n": 3,
    "kinds": {
     "cross": [
-     "links:87"
+     "links:85"
     ],
-    "ratio J": [
-     "ratios:11"
+    "moved": [
+     "links:85#shape5"
     ],
     "same body": [
-     "same_body:2"
+     "same_body:1"
+    ]
+   },
+   "near": {},
+   "cross_tight": 0.4554,
+   "shared_pct": null
+  },
+  {
+   "pair": "Mars\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:57"
+    ],
+    "partner": [
+     "links:57#shape2"
+    ],
+    "same body": [
+     "same_body:0"
     ]
    },
    "near": {
     "struck": [
-     "links:87#shape1"
-    ],
-    "partner": [
-     "links:87#shape2"
+     "links:57#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.6501,
+   "shared_pct": null
   },
   {
    "pair": "Transpluto\u2013Venus",
@@ -11239,79 +11256,34 @@
     "family": [
      "pair_family:16"
     ]
-   }
+   },
+   "cross_tight": 0.832,
+   "shared_pct": null
   },
   {
-   "pair": "Mars\u2013Sun",
+   "pair": "Pallas\u2013Sun",
    "n": 3,
    "kinds": {
     "cross": [
-     "links:57"
+     "links:87"
     ],
-    "partner": [
-     "links:57#shape2"
+    "ratio J": [
+     "ratios:11"
     ],
     "same body": [
-     "same_body:0"
+     "same_body:2"
     ]
    },
    "near": {
     "struck": [
-     "links:57#shape1"
-    ]
-   }
-  },
-  {
-   "pair": "Pallas\u2013Uranus",
-   "n": 3,
-   "kinds": {
-    "ratio J": [
-     "ratios:14"
+     "links:87#shape1"
     ],
-    "family": [
-     "pair_family:31"
-    ],
-    "same body": [
-     "same_body:2"
+    "partner": [
+     "links:87#shape2"
     ]
    },
-   "near": {
-    "family": [
-     "pair_family:95"
-    ]
-   }
-  },
-  {
-   "pair": "Chiron\u2013Orcus",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:85"
-    ],
-    "moved": [
-     "links:85#shape5"
-    ],
-    "same body": [
-     "same_body:1"
-    ]
-   },
-   "near": {}
-  },
-  {
-   "pair": "Haumea\u2013Pallas",
-   "n": 3,
-   "kinds": {
-    "set": [
-     "pair_sets:0"
-    ],
-    "h:j": [
-     "hj_ratios:14"
-    ],
-    "same body": [
-     "same_body:2"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.8596,
+   "shared_pct": null
   }
  ]
 }

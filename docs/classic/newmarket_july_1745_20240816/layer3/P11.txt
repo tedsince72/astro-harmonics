@@ -1,4 +1,4 @@
-== 6 Scandinavia / 6 Tom Marquand   [newmarket_july_1745_20240816__P11.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
+== 6 Scandinavia / 6 Tom Marquand   [newmarket_july_1745_20240816__P11.xlsx, L3 v1.4 (12 Oct 2026, pair focus A+B+C)]
 -- strong hubs (5+ tight kinds): H Sun, H Ceres, H Quaoar
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Sun          BEPRSX  tight 6
@@ -645,19 +645,15 @@
         sky Mercury on J Rahu RA 13.0075 Dec 0.1056
         sky Venus on J Rahu RA 3.9018 Dec 0.0974
 -- pair focus (kinds of root item on one pair; near beside, not counted)
-   Sun–Vesta              4 kinds: cross, family, same body, sky   near: struck, partner, family
+   Sun–Vesta              4 kinds: cross, family, same body, sky  cross tightness 0.488   near: struck, partner, family
         cross: cross H Sun–J Vesta RA 0.7321 Dec 3.6614
         family: H Sun–Vesta GC sky Sun – H Vesta 177.8254 vs NN 83.6824 17/8 (0.0002%); J Sun–Vesta Flat J Sun – sky Vesta 140.9463 vs NN 39.4642 25/7 (0.0020%)
         same body: same-body Sun RA 8/3 : 11/8 : 11/3 (worst 0.0783%)
         sky: sky-gc 3.8849
-   Quaoar–Vesta           3 kinds: cross, h:j, family   near: struck, partner, family
+   Quaoar–Vesta           3 kinds: cross, h:j, family  cross tightness 0.7648   near: struck, partner, family
         cross: cross H Vesta–J Quaoar RA 82.5998 Dec 0.2294
         h:j: horse:jockey Vesta–Quaoar Flat H 50.9328 J 164.1100 29/9
         family: J Vesta–Quaoar Flat sky Vesta – J Quaoar 100.9875 vs NN 164.1100 13/8 (0.0032%)
-   Pallas–Sun             3 kinds: h:j, family, same body
-        h:j: horse:jockey Sun–Pallas RA H 9.3974 J 31.7150 27/8
-        family: J Sun–Pallas RA sky Sun – J Pallas 169.1543 vs NN 31.7150 16/3 (0.0047%)
-        same body: same-body Sun RA 8/3 : 11/8 : 11/3 (worst 0.0783%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Pallas–Juno: H H Pallas–H Juno RA 61.5987 Dec 0.2575
    recurring pair Neptune–Vesta: J J Neptune–J Vesta RA 102.99951 = 103

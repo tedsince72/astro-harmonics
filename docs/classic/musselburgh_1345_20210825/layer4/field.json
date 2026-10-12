@@ -1,5 +1,5 @@
 {
- "version": "L4 v1.2 (12 Oct 2026, pair focus)",
+ "version": "L4 v1.3 (12 Oct 2026, pair focus A+B+C)",
  "race": "musselburgh_1345_20210825",
  "pair_focus": {
   "P01": {
@@ -12,45 +12,51 @@
     "family",
     "same body"
    ],
+   "cross_tight": 0.8506,
    "tied_pairs": [
     "Ceres\u2013Eris"
    ],
    "field_max": true,
    "most_lit_alone": true,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P03": {
-   "top": "Mars\u2013Node",
+   "top": "Saturn\u2013Uranus",
    "n": 3,
    "kinds": [
-    "shared",
     "cross",
-    "same body"
+    "struck",
+    "moved"
    ],
+   "cross_tight": 0.0063,
    "tied_pairs": [
-    "Mars\u2013Node",
-    "Saturn\u2013Uranus"
+    "Saturn\u2013Uranus",
+    "Mars\u2013Node"
    ],
    "field_max": false,
    "most_lit_alone": false,
-   "same_pair_elsewhere": {}
+   "leads_on_tightness": false,
+   "same_pair_elsewhere": {
+    "P01": 3
+   }
   },
   "P05": {
-   "top": "Saturn\u2013Sun",
+   "top": "Juno\u2013Orcus",
    "n": 3,
    "kinds": [
     "cross",
-    "family",
-    "same body"
+    "partner",
+    "moved"
    ],
+   "cross_tight": 0.2856,
    "tied_pairs": [
-    "Saturn\u2013Sun",
     "Juno\u2013Orcus",
-    "Makemake\u2013Mercury",
-    "Pallas\u2013Vesta"
+    "Saturn\u2013Sun"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P07": {
@@ -62,11 +68,13 @@
     "family",
     "same body"
    ],
+   "cross_tight": 0.1614,
    "tied_pairs": [
     "Chiron\u2013Pallas"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P09": {
@@ -77,11 +85,13 @@
     "partner",
     "ratio J"
    ],
+   "cross_tight": 0.2622,
    "tied_pairs": [
     "Node\u2013Transpluto"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   }
  },

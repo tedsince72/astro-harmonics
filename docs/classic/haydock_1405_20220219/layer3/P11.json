@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "6 Molly Ollys Wishes / 6 Harry Skelton",
  "workbook": "haydock_1405_20220219__P11.xlsx",
  "bodies": {
@@ -10392,29 +10392,6 @@
  },
  "pair_focus": [
   {
-   "pair": "Haumea\u2013Transpluto",
-   "n": 4,
-   "kinds": {
-    "set": [
-     "pair_sets:1"
-    ],
-    "h:j": [
-     "hj_ratios:20"
-    ],
-    "family": [
-     "pair_family:58"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
-   },
-   "near": {
-    "h:j": [
-     "hj_ratios:19"
-    ]
-   }
-  },
-  {
    "pair": "Orcus\u2013Uranus",
    "n": 3,
    "kinds": {
@@ -10428,7 +10405,9 @@
      "links:78#shape1"
     ]
    },
-   "near": {}
+   "near": {},
+   "cross_tight": 0.4136,
+   "shared_pct": 0.3257
   }
  ]
 }

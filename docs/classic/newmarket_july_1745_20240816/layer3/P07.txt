@@ -1,4 +1,4 @@
-== 4 King Of Cities / 4 Sean Levey   [newmarket_july_1745_20240816__P07.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
+== 4 King Of Cities / 4 Sean Levey   [newmarket_july_1745_20240816__P07.xlsx, L3 v1.4 (12 Oct 2026, pair focus A+B+C)]
 -- strong hubs (5+ tight kinds): H Mercury, J Juno
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Mercury      MPRSX  tight 5
@@ -697,16 +697,16 @@
         sky Mercury -> H Gonggong Dec 18.66622 = 168/9
         sky Gonggong on H Gonggong RA 0.1429 Dec 0.4441 RETURN
 -- pair focus (kinds of root item on one pair; near beside, not counted)
-   Neptune–Pluto          4 kinds: cross, struck, moved, family   near: family
+   Neptune–Pluto          4 kinds: cross, struck, moved, family  cross tightness 0.9986   near: family
         cross: cross H Pluto–J Neptune RA 19.9355 Dec 0.2996
         struck: cross H Pluto–J Neptune RA 19.9355 Dec 0.2996
         moved: cross H Pluto–J Neptune RA 19.9355 Dec 0.2996
         family: J Neptune–Pluto Flat J Neptune – sky Pluto 22.1094 vs TT 60.8002 11/4 (0.0012%)
-   Eris–Sun               3 kinds: cross, moved, family   near: struck
+   Eris–Sun               3 kinds: cross, moved, family  cross tightness 0.4311   near: struck
         cross: cross H Sun–J Eris RA 0.6467 Dec 19.2626
         moved: cross H Sun–J Eris RA 0.6467 Dec 19.2626
         family: J Sun–Eris GC J Sun – sky Eris 39.1809 vs NN 33.5824 7/6 (0.0038%)
-   Mars–Quaoar            3 kinds: cross, struck, set   near: h:j
+   Mars–Quaoar            3 kinds: cross, struck, set  cross tightness 0.8761   near: h:j
         cross: cross H Mars–J Quaoar RA 99.1002 Dec 0.2628
         struck: cross H Mars–J Quaoar RA 99.1002 Dec 0.2628
         set: pair set Mars–Quaoar GC H 52.8320 J 46.2247

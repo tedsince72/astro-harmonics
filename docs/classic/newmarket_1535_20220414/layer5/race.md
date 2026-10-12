@@ -16,6 +16,7 @@
 - Shared with one other runner (P07), strict: the pair is together in the sky — horse Jupiter–Levey Neptune RA 23.3401 Dec 0.2170
 
 **P07 4 Eydon / 4 David Egan**
+- **Only runner in the field: the most-lit pair in the field (most different kinds of item on one pair)** — Haumea–Node, 4 kinds: cross, struck, moved, family; not lit in any other runner
 - Shared with one other runner (P01), strict: cross link struck on both ends — horse Haumea–Egan Rahu RA 78.0149 Dec 0.0180; sky Chiron -> horse Haumea GC 146.99559 = 147; sky Mercury -> Egan Rahu GC 97.22244 = 875/9
 - Shared with one other runner (P05), strict: the pair is together in the sky — horse Venus–Egan Gonggong RA 0.7002 Dec 4.8984
 

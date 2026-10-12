@@ -1,56 +1,60 @@
 {
- "version": "L4 v1.2 (12 Oct 2026, pair focus)",
+ "version": "L4 v1.3 (12 Oct 2026, pair focus A+B+C)",
  "race": "newcastle_aw_1330_20220102",
  "pair_focus": {
   "P01": {
-   "top": "Juno\u2013Node",
+   "top": "Jupiter\u2013Transpluto",
    "n": 3,
    "kinds": [
     "cross",
-    "partner",
+    "ratio H",
     "same body"
    ],
+   "cross_tight": 0.2409,
    "tied_pairs": [
-    "Juno\u2013Node",
     "Jupiter\u2013Transpluto",
-    "Orcus\u2013Saturn"
+    "Orcus\u2013Saturn",
+    "Juno\u2013Node"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P03": {
-   "top": "Node\u2013Pluto",
+   "top": "Quaoar\u2013Uranus",
    "n": 2,
    "kinds": [
-    "shared",
-    "family"
+    "cross",
+    "ratio H"
    ],
+   "cross_tight": 0.969,
    "tied_pairs": [
-    "Node\u2013Pluto",
-    "Quaoar\u2013Uranus",
-    "Chiron\u2013Saturn"
+    "Quaoar\u2013Uranus"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P05": {
-   "top": "Jupiter\u2013Pluto",
+   "top": "Jupiter\u2013Saturn",
    "n": 3,
    "kinds": [
-    "shared",
     "cross",
-    "moved"
+    "moved",
+    "same body"
    ],
+   "cross_tight": 0.4366,
    "tied_pairs": [
-    "Jupiter\u2013Pluto",
-    "Saturn\u2013Venus",
+    "Jupiter\u2013Saturn",
     "Jupiter\u2013Node",
-    "Jupiter\u2013Saturn"
+    "Saturn\u2013Venus",
+    "Jupiter\u2013Pluto"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P07": {
@@ -63,27 +67,31 @@
     "same body",
     "sky"
    ],
+   "cross_tight": 0.9832,
    "tied_pairs": [
     "Ceres\u2013Node"
    ],
    "field_max": true,
    "most_lit_alone": true,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P09": {
-   "top": "Juno\u2013Saturn",
+   "top": "Node\u2013Sedna",
    "n": 3,
    "kinds": [
+    "shared",
     "cross",
-    "ratio H",
-    "same body"
+    "moved"
    ],
+   "cross_tight": 0.1278,
    "tied_pairs": [
-    "Juno\u2013Saturn",
-    "Node\u2013Sedna"
+    "Node\u2013Sedna",
+    "Juno\u2013Saturn"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   }
  },

@@ -1,23 +1,25 @@
 {
- "version": "L4 v1.2 (12 Oct 2026, pair focus)",
+ "version": "L4 v1.3 (12 Oct 2026, pair focus A+B+C)",
  "race": "newcastle_aw_1220_20211112",
  "pair_focus": {
   "P01": {
-   "top": "Gonggong\u2013Pallas",
+   "top": "Mercury\u2013Transpluto",
    "n": 3,
    "kinds": [
     "cross",
-    "moved",
+    "partner",
     "family"
    ],
+   "cross_tight": 0.4238,
    "tied_pairs": [
+    "Mercury\u2013Transpluto",
     "Gonggong\u2013Pallas",
     "Gonggong\u2013Venus",
-    "Neptune\u2013Node",
-    "Mercury\u2013Transpluto"
+    "Neptune\u2013Node"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P03": {
@@ -29,43 +31,49 @@
     "family",
     "same body"
    ],
+   "cross_tight": 0.0328,
    "tied_pairs": [
     "Ceres\u2013Eris"
    ],
    "field_max": true,
    "most_lit_alone": false,
+   "leads_on_tightness": true,
    "same_pair_elsewhere": {}
   },
   "P05": {
-   "top": "Jupiter\u2013Pallas",
+   "top": "Juno\u2013Node",
+   "n": 2,
+   "kinds": [
+    "cross",
+    "h:j"
+   ],
+   "cross_tight": 0.314,
+   "tied_pairs": [
+    "Juno\u2013Node",
+    "Jupiter\u2013Pallas",
+    "Node\u2013Transpluto"
+   ],
+   "field_max": false,
+   "most_lit_alone": false,
+   "leads_on_tightness": false,
+   "same_pair_elsewhere": {}
+  },
+  "P07": {
+   "top": "Neptune\u2013Saturn",
    "n": 2,
    "kinds": [
     "cross",
     "partner"
    ],
+   "cross_tight": 0.0757,
    "tied_pairs": [
-    "Jupiter\u2013Pallas",
-    "Node\u2013Transpluto",
-    "Ceres\u2013Chiron"
-   ],
-   "field_max": false,
-   "most_lit_alone": false,
-   "same_pair_elsewhere": {}
-  },
-  "P07": {
-   "top": "Jupiter\u2013Quaoar",
-   "n": 2,
-   "kinds": [
-    "cross",
-    "moved"
-   ],
-   "tied_pairs": [
+    "Neptune\u2013Saturn",
     "Jupiter\u2013Quaoar",
-    "Mars\u2013Sedna",
-    "Neptune\u2013Saturn"
+    "Eris\u2013Orcus"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P09": {
@@ -77,11 +85,13 @@
     "struck",
     "partner"
    ],
+   "cross_tight": 0.5331,
    "tied_pairs": [
     "Jupiter\u2013Makemake"
    ],
    "field_max": true,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P11": {
@@ -93,11 +103,13 @@
     "h:j",
     "family"
    ],
+   "cross_tight": 0.9362,
    "tied_pairs": [
     "Sun\u2013Venus"
    ],
    "field_max": true,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   }
  },

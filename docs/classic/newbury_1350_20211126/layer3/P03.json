@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "2 Mister Coffey / 2 James Bowen",
  "workbook": "newbury_1350_20211126__P03.xlsx",
  "bodies": {
@@ -8813,30 +8813,9 @@
      "pair_family:99"
     ]
    },
-   "near": {}
-  },
-  {
-   "pair": "Pluto\u2013Vesta",
-   "n": 3,
-   "kinds": {
-    "ratio J": [
-     "ratios:12"
-    ],
-    "set": [
-     "pair_sets:0"
-    ],
-    "family": [
-     "pair_family:113"
-    ]
-   },
-   "near": {
-    "h:j": [
-     "hj_ratios:10"
-    ],
-    "family": [
-     "pair_family:44"
-    ]
-   }
+   "near": {},
+   "cross_tight": 0.4549,
+   "shared_pct": null
   }
  ]
 }

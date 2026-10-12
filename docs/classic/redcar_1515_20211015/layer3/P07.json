@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "6 Sea Time / 6 David Nolan",
  "workbook": "20211015_redcar_1515__P07.xlsx",
  "bodies": {
@@ -10705,7 +10705,31 @@
     "family": [
      "pair_family:16"
     ]
-   }
+   },
+   "cross_tight": 0.6634,
+   "shared_pct": null
+  },
+  {
+   "pair": "Mercury\u2013Quaoar",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:112"
+    ],
+    "moved": [
+     "links:112#shape5"
+    ],
+    "ratio H": [
+     "ratios:1"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:112#shape1"
+    ]
+   },
+   "cross_tight": 0.774,
+   "shared_pct": null
   },
   {
    "pair": "Pluto\u2013Sun",
@@ -10728,27 +10752,9 @@
     "partner": [
      "links:86#shape2"
     ]
-   }
-  },
-  {
-   "pair": "Mercury\u2013Quaoar",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:112"
-    ],
-    "moved": [
-     "links:112#shape5"
-    ],
-    "ratio H": [
-     "ratios:1"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:112#shape1"
-    ]
-   }
+   "cross_tight": 0.8068,
+   "shared_pct": null
   }
  ]
 }

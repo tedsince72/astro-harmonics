@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "6 Baileys Liberty / 6 Jason Hart",
  "workbook": "nottingham_1750_20220613__P11.xlsx",
  "bodies": {
@@ -12020,7 +12020,37 @@
     "family": [
      "pair_family:35"
     ]
-   }
+   },
+   "cross_tight": 0.7736,
+   "shared_pct": null
+  },
+  {
+   "pair": "Node\u2013Pallas",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:78"
+    ],
+    "family": [
+     "pair_family:110"
+    ],
+    "same body": [
+     "same_body:1",
+     "same_body:0"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:78#shape1"
+    ],
+    "family": [
+     "pair_family:44",
+     "pair_family:45",
+     "pair_family:111"
+    ]
+   },
+   "cross_tight": 0.0499,
+   "shared_pct": null
   },
   {
    "pair": "Node\u2013Venus",
@@ -12046,33 +12076,9 @@
     "family": [
      "pair_family:12"
     ]
-   }
-  },
-  {
-   "pair": "Node\u2013Pallas",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:78"
-    ],
-    "family": [
-     "pair_family:110"
-    ],
-    "same body": [
-     "same_body:0",
-     "same_body:1"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:78#shape1"
-    ],
-    "family": [
-     "pair_family:44",
-     "pair_family:45",
-     "pair_family:111"
-    ]
-   }
+   "cross_tight": 0.1142,
+   "shared_pct": null
   },
   {
    "pair": "Node\u2013Uranus",
@@ -12095,43 +12101,9 @@
     "partner": [
      "links:89#shape2"
     ]
-   }
-  },
-  {
-   "pair": "Node\u2013Sun",
-   "n": 3,
-   "kinds": {
-    "ratio H": [
-     "ratios:0"
-    ],
-    "family": [
-     "pair_family:62"
-    ],
-    "same body": [
-     "same_body:1"
-    ]
    },
-   "near": {
-    "family": [
-     "pair_family:2"
-    ]
-   }
-  },
-  {
-   "pair": "Pallas\u2013Sedna",
-   "n": 3,
-   "kinds": {
-    "ratio J": [
-     "ratios:17"
-    ],
-    "family": [
-     "pair_family:113"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.2151,
+   "shared_pct": null
   }
  ]
 }

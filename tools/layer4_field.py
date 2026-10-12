@@ -12,7 +12,7 @@ written to a separate file.
   6 recurring annotations by runner
 Output: docs/classic/<RACE>/layer4/field.json, field.txt (blind); field_results.txt with --results."""
 import sys, os, glob, json, csv, re
-VERSION = 'L4 v1.2 (12 Oct 2026, pair focus)'
+VERSION = 'L4 v1.3 (12 Oct 2026, pair focus A+B+C)'
 NAMES = {1: 'cross link struck on both ends', 2: 'partner strike', 3: 'pair together in the sky', 4: 'both ends moved',
          5: 'movement onto a cross link', 6: 'swap', 7: 'triangle struck at every corner', 8: 'same number / ratio in both charts',
          9: 'shared node', 10: 'sky body divides a natal pair', 11: 'joined same-body set', 12: 'pair in one chart struck on both ends by 2+'}
@@ -108,11 +108,13 @@ def run(race):
         top = R.get('pair_focus', [])
         best = top[0] if top else None
         pf[t] = {'top': best['pair'] if best else None, 'n': best['n'] if best else 0, 'kinds': list(best['kinds']) if best else [],
+                 'cross_tight': best['cross_tight'] if best else 9.0,
                  'tied_pairs': [x['pair'] for x in top if best and x['n'] == best['n']]}
     mx = max((v['n'] for v in pf.values()), default=0)
     leaders = [t for t, v in pf.items() if v['n'] == mx and mx > 0]
+    tb = min(leaders, key=lambda t: pf[t]['cross_tight']) if leaders else None   # (C) among tied leaders, the tighter cross link
     for t, v in pf.items():
-        v['field_max'] = (t in leaders); v['most_lit_alone'] = (leaders == [t])
+        v['field_max'] = (t in leaders); v['most_lit_alone'] = (leaders == [t]); v['leads_on_tightness'] = (t == tb and len(leaders) > 1)
         # how lit is this runner's top pair in the other runners
         v['same_pair_elsewhere'] = {}
         for t2, R2, I2 in runners:
@@ -144,7 +146,7 @@ def text(F):
     L.append(f"-- pair focus: each runner's most-lit pair (kinds of root item); field max {F['pair_focus_max']} — {', '.join(F['pair_focus_leaders'])}")
     for r in F['runners']:
         v = F['pair_focus'][r['P']]
-        L.append(f"   {r['P']} {r['name'][:40]:40s} {v['top'] or '-':22s} {v['n']}  {', '.join(v['kinds'])}" + ('  <- most-lit pair in the field' if v['most_lit_alone'] else '  (tie)' if v['field_max'] else ''))
+        L.append(f"   {r['P']} {r['name'][:40]:40s} {v['top'] or '-':22s} {v['n']}  {', '.join(v['kinds'])}  (cross {v['cross_tight']})" + ('  <- most-lit pair in the field' if v['most_lit_alone'] else '  (tie, tightest of the tied)' if v['leads_on_tightness'] else '  (tie)' if v['field_max'] else ''))
     L.append('-- strong hubs across the field')
     for h, ws in sorted(F['strong_hubs'].items(), key=lambda x: -len(x[1])): L.append(f"   {h:14s} {len(ws)}: {' '.join(ws)}")
     L.append('-- same pair / body across the field (2+ runners)')

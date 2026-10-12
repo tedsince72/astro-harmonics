@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "1 Classical Song / 1 Rossa Ryan",
  "workbook": "york_1545_20240515__P01.xlsx",
  "bodies": {
@@ -11917,6 +11917,26 @@
  },
  "pair_focus": [
   {
+   "pair": "Node\u2013Vesta",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:87"
+    ],
+    "family": [
+     "pair_family:55",
+     "pair_family:141"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:87#shape1"
+    ]
+   },
+   "cross_tight": 0.2096,
+   "shared_pct": null
+  },
+  {
    "pair": "Jupiter\u2013Sun",
    "n": 2,
    "kinds": {
@@ -11934,7 +11954,9 @@
     "partner": [
      "links:50#shape2"
     ]
-   }
+   },
+   "cross_tight": 0.3124,
+   "shared_pct": null
   },
   {
    "pair": "Orcus\u2013Pallas",
@@ -11954,29 +11976,9 @@
     "partner": [
      "links:110#shape2"
     ]
-   }
-  },
-  {
-   "pair": "Pallas\u2013Transpluto",
-   "n": 2,
-   "kinds": {
-    "cross": [
-     "links:114"
-    ],
-    "moved": [
-     "links:114#shape4",
-     "links:114#shape5",
-     "links:114#shape5"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:114#shape1"
-    ],
-    "partner": [
-     "links:114#shape2"
-    ]
-   }
+   "cross_tight": 0.4138,
+   "shared_pct": null
   }
  ]
 }

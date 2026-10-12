@@ -1,4 +1,4 @@
-== catterick_1505_20211119  field of 6   [L4 v1.2 (12 Oct 2026, pair focus)]  (blind: no finishing positions)
+== catterick_1505_20211119  field of 6   [L4 v1.3 (12 Oct 2026, pair focus A+B+C)]  (blind: no finishing positions)
 -- runners: P01 1 Reve / 1 Sean Bowen; P03 2 Mance Rayder / 2 Jamie Hamilton; P05 3 Red Giant / 3 Sean Quinlan; P07 4 Brian Boranha / 4 Callum Bewley; P09 5 Cracking Find / 5 Ryan Mania; P11 6 Blazer / 6 Alain Cawley
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              3/6: P01:2 P05:1 P11:1  |   6: P01:14 P03:14 P05:17 P07:17 P09:15 P11:18
@@ -40,12 +40,12 @@
    P09 5 Cracking Find / 5 Ryan Mania: only (strict) -; only (broad) -; strict, shared with one other 4
    P11 6 Blazer / 6 Alain Cawley: only (strict) 6; only (broad) -; strict, shared with one other 12,12m
 -- pair focus: each runner's most-lit pair (kinds of root item); field max 4 — P01, P09
-   P01 1 Reve / 1 Sean Bowen                    Node–Sun               4  cross, h:j, family, sky  (tie)
-   P03 2 Mance Rayder / 2 Jamie Hamilton        Node–Sedna             2  cross, same body
-   P05 3 Red Giant / 3 Sean Quinlan             Node–Sun               3  cross, same body, sky
-   P07 4 Brian Boranha / 4 Callum Bewley        Haumea–Saturn          3  cross, moved, same body
-   P09 5 Cracking Find / 5 Ryan Mania           Mercury–Node           4  cross, partner, moved, same body  (tie)
-   P11 6 Blazer / 6 Alain Cawley                Juno–Makemake          3  cross, moved, family
+   P01 1 Reve / 1 Sean Bowen                    Node–Sun               4  cross, h:j, family, sky  (cross 0.0701)  (tie, tightest of the tied)
+   P03 2 Mance Rayder / 2 Jamie Hamilton        Node–Sedna             2  cross, same body  (cross 0.247)
+   P05 3 Red Giant / 3 Sean Quinlan             Eris–Mars              3  cross, partner, same body  (cross 0.3368)
+   P07 4 Brian Boranha / 4 Callum Bewley        Haumea–Saturn          3  cross, moved, same body  (cross 0.1705)
+   P09 5 Cracking Find / 5 Ryan Mania           Node–Sun               4  cross, moved, h:j, sky  (cross 0.2045)  (tie)
+   P11 6 Blazer / 6 Alain Cawley                Juno–Makemake          3  cross, moved, family  (cross 0.2651)
 -- strong hubs across the field
    J Haumea       3: P01 P05 P07
    H Mercury      1: P01

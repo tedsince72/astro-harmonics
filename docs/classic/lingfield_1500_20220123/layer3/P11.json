@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "7 Two For Gold / 7 David Bass",
  "workbook": "lingfield_1500_20220123__P11.xlsx",
  "bodies": {
@@ -11176,7 +11176,71 @@
     "struck": [
      "links:77#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.3195,
+   "shared_pct": 0.4258
+  },
+  {
+   "pair": "Pallas\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:102"
+    ],
+    "family": [
+     "pair_family:47"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:102#shape1"
+    ]
+   },
+   "cross_tight": 0.1485,
+   "shared_pct": null
+  },
+  {
+   "pair": "Juno\u2013Pallas",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:105"
+    ],
+    "partner": [
+     "links:105#shape2"
+    ],
+    "family": [
+     "pair_family:44"
+    ]
+   },
+   "near": {},
+   "cross_tight": 0.3122,
+   "shared_pct": null
+  },
+  {
+   "pair": "Jupiter\u2013Sedna",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:119"
+    ],
+    "family": [
+     "pair_family:18"
+    ],
+    "same body": [
+     "same_body:3"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:119#shape1"
+    ]
+   },
+   "cross_tight": 0.3151,
+   "shared_pct": null
   },
   {
    "pair": "Juno\u2013Vesta",
@@ -11199,63 +11263,9 @@
     "family": [
      "pair_family:119"
     ]
-   }
-  },
-  {
-   "pair": "Jupiter\u2013Sedna",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:119"
-    ],
-    "family": [
-     "pair_family:18"
-    ],
-    "same body": [
-     "same_body:3"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:119#shape1"
-    ]
-   }
-  },
-  {
-   "pair": "Pallas\u2013Sedna",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:102"
-    ],
-    "family": [
-     "pair_family:47"
-    ],
-    "same body": [
-     "same_body:3"
-    ]
-   },
-   "near": {
-    "struck": [
-     "links:102#shape1"
-    ]
-   }
-  },
-  {
-   "pair": "Juno\u2013Pallas",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:105"
-    ],
-    "partner": [
-     "links:105#shape2"
-    ],
-    "family": [
-     "pair_family:44"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.9055,
+   "shared_pct": null
   }
  ]
 }

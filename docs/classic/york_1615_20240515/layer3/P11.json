@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "6 True Promise / 6 Shane Gray",
  "workbook": "york_1615_20240515__P11.xlsx",
  "bodies": {
@@ -10337,25 +10337,38 @@
  },
  "pair_focus": [
   {
-   "pair": "Ceres\u2013Saturn",
+   "pair": "Pallas\u2013Sedna",
    "n": 2,
    "kinds": {
     "cross": [
-     "links:70"
+     "links:89"
     ],
     "same body": [
-     "same_body:0"
+     "same_body:1"
+    ]
+   },
+   "near": {},
+   "cross_tight": 0.0243,
+   "shared_pct": null
+  },
+  {
+   "pair": "Makemake\u2013Vesta",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:77"
+    ],
+    "moved": [
+     "links:77#shape5"
     ]
    },
    "near": {
-    "struck": [
-     "links:70#shape1"
-    ],
     "family": [
-     "pair_family:84",
-     "pair_family:85"
+     "pair_family:120"
     ]
-   }
+   },
+   "cross_tight": 0.0531,
+   "shared_pct": null
   },
   {
    "pair": "Chiron\u2013Sedna",
@@ -10376,27 +10389,9 @@
      "pair_family:45",
      "pair_family:103"
     ]
-   }
-  },
-  {
-   "pair": "Mars\u2013Node",
-   "n": 2,
-   "kinds": {
-    "cross": [
-     "links:56"
-    ],
-    "sky": [
-     "sky-gc 3.5989"
-    ]
    },
-   "near": {
-    "ratio H": [
-     "ratios:2"
-    ],
-    "family": [
-     "pair_family:20"
-    ]
-   }
+   "cross_tight": 0.1911,
+   "shared_pct": null
   }
  ]
 }

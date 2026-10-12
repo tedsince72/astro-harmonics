@@ -1,4 +1,4 @@
-== 7 Stevenson / 7 David Probert   [haydock_1718_20220507__P09.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
+== 7 Stevenson / 7 David Probert   [haydock_1718_20220507__P09.xlsx, L3 v1.4 (12 Oct 2026, pair focus A+B+C)]
 -- strong hubs (5+ tight kinds): J Chiron, H Jupiter, H Chiron, J Jupiter
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    J Chiron       BMPRSX  tight 6
@@ -815,33 +815,25 @@
    [11] joined same-body set (HUB)  roots 1  bodies=['H Vesta', 'J Vesta']; joined_by=['R', 'X']; strict=True
         same-body Vesta RA 13/4 : 9/4 : 13/9 (worst 0.0829%)
 -- pair focus (kinds of root item on one pair; near beside, not counted)
-   Chiron–Juno            5 kinds: cross, partner, moved, family, same body   near: struck
+   Chiron–Juno            5 kinds: cross, partner, moved, family, same body  cross tightness 0.2045   near: struck
         cross: cross H Juno–J Chiron RA 0.3067 Dec 1.8543
         partner: cross H Juno–J Chiron RA 0.3067 Dec 1.8543
         moved: cross H Juno–J Chiron RA 0.3067 Dec 1.8543
         family: H Chiron–Juno RA H Chiron – sky Juno 27.6402 vs NN 93.2835 27/8 (0.0024%); H Chiron–Juno GC sky Chiron – H Juno 81.8337 vs NN 92.0654 9/8 (0.0027%)
         same body: same-body Chiron GC 9 : 8 : 9/8 (worst 0.0293%)
-   Jupiter–Sedna          4 kinds: cross, ratio J, h:j, same body   near: struck, partner, family
+   Jupiter–Sedna          4 kinds: cross, ratio J, h:j, same body  cross tightness 0.3135   near: struck, partner, family
         cross: cross H Sedna–J Jupiter RA 0.4702 Dec 11.1496
         ratio J: J Jupiter–Sedna RA sky 59.3655 natal 16.3771 29/8 (0.0024%)
         h:j: horse:jockey Jupiter–Sedna Flat H 157.3055 J 22.4732 7
         same body: same-body Jupiter RA 8/5 : 5/3 : 8/3 (worst 0.0566%)
-   Chiron–Orcus           3 kinds: cross, struck, same body   near: family
-        cross: cross H Chiron–J Orcus RA 127.0027 Dec 0.2741
-        struck: cross H Chiron–J Orcus RA 127.0027 Dec 0.2741
-        same body: same-body Chiron GC 9 : 8 : 9/8 (worst 0.0293%)
-   Chiron–Mercury         3 kinds: ratio H, ratio J, same body
-        ratio H: H Mercury–Chiron GC sky 50.1328 natal 19.0974 21/8 (0.0040%)
-        ratio J: J Mercury–Chiron RA sky 49.6147 natal 158.7646 16/5 (0.0016%)
-        same body: same-body Chiron GC 9 : 8 : 9/8 (worst 0.0293%)
-   Eris–Mercury           3 kinds: cross, partner, moved
+   Eris–Mercury           3 kinds: cross, partner, moved  cross tightness 0.265
         cross: cross H Mercury–J Eris RA 0.3975 Dec 16.4081
         partner: cross H Mercury–J Eris RA 0.3975 Dec 16.4081
         moved: cross H Mercury–J Eris RA 0.3975 Dec 16.4081
-   Saturn–Vesta           3 kinds: family, same body, sky
-        family: H Saturn–Vesta Dec H Saturn – sky Vesta 6.4625 vs NN 21.9727 17/5 (0.0011%)
-        same body: same-body Vesta RA 13/4 : 9/4 : 13/9 (worst 0.0829%)
-        sky: sky-gc 0.7279
+   Chiron–Orcus           3 kinds: cross, struck, same body  cross tightness 0.9137   near: family
+        cross: cross H Chiron–J Orcus RA 127.0027 Dec 0.2741
+        struck: cross H Chiron–J Orcus RA 127.0027 Dec 0.2741
+        same body: same-body Chiron GC 9 : 8 : 9/8 (worst 0.0293%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Chiron–Transpluto: H H Chiron–H Transpluto RA 151.00164 = 151
    recurring pair Saturn–Neptune: J J Saturn–J Neptune RA 6.9697 Dec 0.4429

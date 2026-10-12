@@ -1,21 +1,23 @@
 {
- "version": "L4 v1.2 (12 Oct 2026, pair focus)",
+ "version": "L4 v1.3 (12 Oct 2026, pair focus A+B+C)",
  "race": "perth_1610_20220420",
  "pair_focus": {
   "P01": {
-   "top": "Gonggong\u2013Node",
-   "n": 4,
+   "top": "Mercury\u2013Sedna",
+   "n": 3,
    "kinds": [
-    "shared",
-    "ratio H",
+    "cross",
     "family",
     "same body"
    ],
+   "cross_tight": 0.1192,
    "tied_pairs": [
-    "Gonggong\u2013Node"
+    "Mercury\u2013Sedna",
+    "Neptune\u2013Pluto"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P03": {
@@ -27,11 +29,13 @@
     "set",
     "same body"
    ],
+   "cross_tight": 0.64,
    "tied_pairs": [
     "Jupiter\u2013Vesta"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P05": {
@@ -44,28 +48,31 @@
     "same body",
     "sky"
    ],
+   "cross_tight": 0.8192,
    "tied_pairs": [
     "Eris\u2013Pallas"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P07": {
-   "top": "Gonggong\u2013Jupiter",
-   "n": 3,
+   "top": "Haumea\u2013Node",
+   "n": 2,
    "kinds": [
-    "ratio H",
-    "family",
-    "same body"
+    "cross",
+    "family"
    ],
+   "cross_tight": 0.2482,
    "tied_pairs": [
-    "Gonggong\u2013Jupiter",
-    "Gonggong\u2013Mars",
-    "Mercury\u2013Uranus"
+    "Haumea\u2013Node",
+    "Jupiter\u2013Pallas",
+    "Gonggong\u2013Saturn"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P09": {
@@ -79,11 +86,13 @@
     "family",
     "same body"
    ],
+   "cross_tight": 0.6661,
    "tied_pairs": [
     "Ceres\u2013Uranus"
    ],
    "field_max": true,
    "most_lit_alone": true,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   }
  },

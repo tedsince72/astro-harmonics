@@ -1,4 +1,4 @@
-== 3 Emorelle / 3 Miss Eleanor Williams   [sedgefield_1500_20220510__P05.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
+== 3 Emorelle / 3 Miss Eleanor Williams   [sedgefield_1500_20220510__P05.xlsx, L3 v1.4 (12 Oct 2026, pair focus A+B+C)]
 -- strong hubs (5+ tight kinds): H Eris, H Ceres
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Eris         BEPRSX  tight 5  (near joined: S)
@@ -710,23 +710,23 @@
         sky Saturn -> J Sedna Dec 19.66621 = 177/9
         sky Transpluto -> J Sedna RA 107.66640 = 969/9
 -- pair focus (kinds of root item on one pair; near beside, not counted)
-   Sun–Venus              4 kinds: cross, struck, family, same body
+   Sun–Venus              4 kinds: cross, struck, family, same body  cross tightness 0.2728
         cross: cross H Sun–J Venus RA 9.3372 Dec 0.0818
         struck: cross H Sun–J Venus RA 9.3372 Dec 0.0818
         family: H Sun–Venus Dec H Sun – sky Venus 19.7374 vs NN 14.8034 4/3 (0.0027%); J Sun–Venus Dec J Sun – sky Venus 20.5490 vs NN 0.8934 23 (0.0014%)
         same body: same-body Venus GC 4 : 5 : 5/4 (worst 0.0215%)
-   Eris–Neptune           3 kinds: cross, family, same body   near: struck
-        cross: cross H Neptune–J Eris RA 38.4131 Dec 0.0795
-        family: J Neptune–Eris GC J Neptune – sky Eris 83.3043 vs TT 31.2394 8/3 (0.0007%)
-        same body: same-body Eris GC 4 : 5 : 5/4 (worst 0.1202%)
-   Ceres–Venus            3 kinds: cross, struck, same body
-        cross: cross H Ceres–J Venus RA 4.8941 Dec 0.2255
-        struck: cross H Ceres–J Venus RA 4.8941 Dec 0.2255
-        same body: same-body Venus GC 4 : 5 : 5/4 (worst 0.0215%); same-body Ceres GC 6/5 : 11/5 : 11/6 (worst 0.0392%)
-   Haumea–Makemake        3 kinds: cross, struck, same body
+   Haumea–Makemake        3 kinds: cross, struck, same body  cross tightness 0.2155
         cross: cross H Makemake–J Haumea RA 0.3232 Dec 3.5942
         struck: cross H Makemake–J Haumea RA 0.3232 Dec 3.5942
         same body: same-body Makemake RA 4 : 5 : 5/4 (worst 0.0908%)
+   Eris–Neptune           3 kinds: cross, family, same body  cross tightness 0.2649   near: struck
+        cross: cross H Neptune–J Eris RA 38.4131 Dec 0.0795
+        family: J Neptune–Eris GC J Neptune – sky Eris 83.3043 vs TT 31.2394 8/3 (0.0007%)
+        same body: same-body Eris GC 4 : 5 : 5/4 (worst 0.1202%)
+   Ceres–Venus            3 kinds: cross, struck, same body  cross tightness 0.7516
+        cross: cross H Ceres–J Venus RA 4.8941 Dec 0.2255
+        struck: cross H Ceres–J Venus RA 4.8941 Dec 0.2255
+        same body: same-body Ceres GC 6/5 : 11/5 : 11/6 (worst 0.0392%); same-body Venus GC 4 : 5 : 5/4 (worst 0.0215%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Pallas–Juno: J J Pallas–J Juno Dec 1.88865 = 17/9
    recurring cross link horse Pluto – jockey Neptune: cross H Pluto–J Neptune RA 13.11132 = 118/9

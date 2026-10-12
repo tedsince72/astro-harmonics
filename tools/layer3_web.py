@@ -11,7 +11,7 @@ Reads docs/classic/<RACE>/layer1/P*.json and layer2/P*.json. Describes, does not
 Rahu and Ketu are folded into one 'Node' per chart for hubs and webs (items keep their own names).
 Output: docs/classic/<RACE>/layer3/P*.json, P*.txt"""
 import sys, os, glob, json, math, itertools
-VERSION = 'L3 v1.3 (12 Oct 2026, pair focus)'
+VERSION = 'L3 v1.4 (12 Oct 2026, pair focus A+B+C)'
 SPLIT_TOL = 0.25      # % for shape 10
 SKY_PAIR_GC = 5.0     # shape 3
 NODE_SHARED = 3.0     # shape 9
@@ -303,8 +303,11 @@ def run(I, T):
     def put(key, kind, iid, near=False):
         e = PF.setdefault(key, {'kinds': {}, 'near': {}})
         (e['near'] if near else e['kinds']).setdefault(kind, []).append(iid)
+    SLOW = {'Eris', 'Sedna', 'Haumea', 'Makemake', 'Gonggong', 'Quaoar', 'Orcus', 'Transpluto'}
     for i, x in enumerate(I['shared']):
-        if is_root(f'shared:{i}'): put(pk(*x['pair'].split('–')), 'shared', f'shared:{i}')
+        a_, b_ = x['pair'].split('–')
+        if is_root(f'shared:{i}') and not (a_ in SLOW and b_ in SLOW):   # (A) slow-body pairs are shared by age, not counted
+            put(pk(a_, b_), 'shared', f'shared:{i}')
     for iid, a, b, kind, cn, lab in links:
         if kind == 'cross' and cn in ('close', 'near') and is_root(iid):
             put(pk(a.split(' ', 1)[1], b.split(' ', 1)[1]), 'cross', iid, cn == 'near')
@@ -334,8 +337,16 @@ def run(I, T):
             ga = [P[f'S {x}'] for x in (['Rahu', 'Ketu'] if a == 'Node' else [a])]; gb = [P[f'S {x}'] for x in (['Rahu', 'Ketu'] if b == 'Node' else [b])]
             g = min(gc(x, y) for x in ga for y in gb)
             if g < SKY_PAIR_GC: PF[key]['kinds'].setdefault('sky', []).append(f'sky-gc {g:.4f}')
-    focus = sorted([{'pair': '–'.join(k), 'n': len(v['kinds']), 'kinds': v['kinds'], 'near': v['near']} for k, v in PF.items()],
-                   key=lambda x: (-x['n'], -len(x['near']), x['pair']))
+    def ctight(ids):   # (C) tightness of the pair's tightest close cross link: min(RA/1.5, Dec/0.3)
+        vals = [min(I['links'][int(i.split(':')[1])]['RA'] / 1.5, I['links'][int(i.split(':')[1])]['Dec'] / 0.3) for i in ids if i.startswith('links:')]
+        return round(min(vals), 4) if vals else 9.0
+    def stight(ids):
+        vals = [I['shared'][int(i.split(':')[1])]['diff_pct'] for i in ids if i.startswith('shared:')]
+        return round(min(vals), 4) if vals else None
+    focus = [{'pair': '–'.join(k), 'n': len(v['kinds']), 'kinds': v['kinds'], 'near': v['near'],
+              'cross_tight': ctight(v['kinds'].get('cross', [])), 'shared_pct': stight(v['kinds'].get('shared', []))}
+             for k, v in PF.items() if 'cross' in v['kinds']]          # (B) only pairs joined by a tight cross link
+    focus.sort(key=lambda x: (-x['n'], x['cross_tight'], x['pair']))
     for x in focus:
         for k, ids in list(x['kinds'].items()) + list(x['near'].items()):
             for iid in ids:
@@ -343,7 +354,7 @@ def run(I, T):
                 if base not in desc and base.startswith('same_body:'):
                     sb = I['same_body'][int(base.split(':')[1])]; desc[base] = f"same-body {sb['body']} {sb['plane']} {' : '.join(sb['ratios'])} (worst {sb['worst_pct']:.4f}%)"
     return {'version': VERSION, 'runner': I['runner'], 'workbook': I['workbook'], 'bodies': body_kinds, 'hubs': hubs, 'strong_hubs': strong, 'webs': web_out,
-            'shapes': shapes, 'annotations': ann, 'desc': desc, 'pair_focus': [x for x in focus if x['n'] >= 3] or focus[:3]}
+            'shapes': shapes, 'annotations': ann, 'desc': desc, 'pair_focus': [x for x in focus if x['n'] >= 3] or focus[:3]}   # v1.4: A slow-shared out, B cross required, C tightness order
 
 def text(R):
     d = R['desc']; D = lambda i: d.get(i, i)
@@ -364,7 +375,7 @@ def text(R):
         for i in s['items'][:6]: L.append(f"        {D(i)}")
     L.append('-- pair focus (kinds of root item on one pair; near beside, not counted)')
     for x in R['pair_focus'][:8]:
-        L.append(f"   {x['pair']:22s} {x['n']} kinds: {', '.join(x['kinds'])}" + (f"   near: {', '.join(x['near'])}" if x['near'] else ''))
+        L.append(f"   {x['pair']:22s} {x['n']} kinds: {', '.join(x['kinds'])}  cross tightness {x['cross_tight']}" + (f", shared {x['shared_pct']}%" if x['shared_pct'] is not None else '') + (f"   near: {', '.join(x['near'])}" if x['near'] else ''))
         for k, ids in x['kinds'].items(): L.append(f"        {k}: " + '; '.join(D(i.split('#')[0]) for i in ids[:2]))
     if R['annotations']:
         L.append('-- annotations (recurring from earlier winners; not weighted)')

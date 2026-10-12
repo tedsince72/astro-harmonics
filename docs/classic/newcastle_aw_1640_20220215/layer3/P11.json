@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "6 Resumption / 6 Tom Marquand",
  "workbook": "newcastle_aw_1640_20220215__P11.xlsx",
  "bodies": {
@@ -10750,6 +10750,28 @@
  },
  "pair_focus": [
   {
+   "pair": "Chiron\u2013Quaoar",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:104"
+    ],
+    "ratio J": [
+     "ratios:18"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:104#shape1"
+    ],
+    "partner": [
+     "links:104#shape2"
+    ]
+   },
+   "cross_tight": 0.1254,
+   "shared_pct": null
+  },
+  {
    "pair": "Gonggong\u2013Pallas",
    "n": 2,
    "kinds": {
@@ -10771,27 +10793,9 @@
      "pair_family:48",
      "pair_family:120"
     ]
-   }
-  },
-  {
-   "pair": "Chiron\u2013Quaoar",
-   "n": 2,
-   "kinds": {
-    "cross": [
-     "links:104"
-    ],
-    "ratio J": [
-     "ratios:18"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:104#shape1"
-    ],
-    "partner": [
-     "links:104#shape2"
-    ]
-   }
+   "cross_tight": 0.3456,
+   "shared_pct": null
   },
   {
    "pair": "Uranus\u2013Vesta",
@@ -10811,7 +10815,9 @@
     "family": [
      "pair_family:36"
     ]
-   }
+   },
+   "cross_tight": 0.4836,
+   "shared_pct": null
   }
  ]
 }

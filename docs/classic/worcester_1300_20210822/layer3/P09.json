@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "5 Oscar Montel / 5 Brian Hughes",
  "workbook": "20210822_worcester_1300__P09.xlsx",
  "bodies": {
@@ -10395,27 +10395,27 @@
     "struck": [
      "links:92#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.4861,
+   "shared_pct": null
   },
   {
-   "pair": "Chiron\u2013Orcus",
+   "pair": "Chiron\u2013Mercury",
    "n": 3,
    "kinds": {
-    "ratio J": [
-     "ratios:11"
+    "cross": [
+     "links:69"
     ],
-    "family": [
-     "pair_family:104"
+    "struck": [
+     "links:69#shape1"
     ],
     "same body": [
      "same_body:1"
     ]
    },
-   "near": {
-    "family": [
-     "pair_family:103"
-    ]
-   }
+   "near": {},
+   "cross_tight": 0.661,
+   "shared_pct": null
   },
   {
    "pair": "Mars\u2013Mercury",
@@ -10435,39 +10435,9 @@
     "struck": [
      "links:68#shape1"
     ]
-   }
-  },
-  {
-   "pair": "Chiron\u2013Mercury",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:69"
-    ],
-    "struck": [
-     "links:69#shape1"
-    ],
-    "same body": [
-     "same_body:1"
-    ]
    },
-   "near": {}
-  },
-  {
-   "pair": "Neptune\u2013Node",
-   "n": 3,
-   "kinds": {
-    "shared": [
-     "shared:1"
-    ],
-    "ratio H": [
-     "ratios:3"
-    ],
-    "family": [
-     "pair_family:32"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.9359,
+   "shared_pct": null
   }
  ]
 }

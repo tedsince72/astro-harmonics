@@ -1,25 +1,24 @@
 {
- "version": "L4 v1.2 (12 Oct 2026, pair focus)",
+ "version": "L4 v1.3 (12 Oct 2026, pair focus A+B+C)",
  "race": "lingfield_1500_20220123",
  "pair_focus": {
   "P01": {
-   "top": "Haumea\u2013Makemake",
+   "top": "Node\u2013Quaoar",
    "n": 3,
    "kinds": [
-    "shared",
     "cross",
+    "family",
     "same body"
    ],
+   "cross_tight": 0.4897,
    "tied_pairs": [
-    "Haumea\u2013Makemake",
-    "Mars\u2013Node",
     "Node\u2013Quaoar",
-    "Node\u2013Uranus",
-    "Mercury\u2013Pallas",
-    "Pallas\u2013Transpluto"
+    "Mars\u2013Node",
+    "Node\u2013Uranus"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P03": {
@@ -31,11 +30,13 @@
     "h:j",
     "same body"
    ],
+   "cross_tight": 0.1476,
    "tied_pairs": [
     "Chiron\u2013Node"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P05": {
@@ -47,11 +48,13 @@
     "h:j",
     "same body"
    ],
+   "cross_tight": 0.3483,
    "tied_pairs": [
     "Pluto\u2013Uranus"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {
     "P09": 3
    }
@@ -65,11 +68,13 @@
     "moved",
     "family"
    ],
+   "cross_tight": 0.4043,
    "tied_pairs": [
     "Jupiter\u2013Mercury"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P09": {
@@ -82,11 +87,13 @@
     "family",
     "same body"
    ],
+   "cross_tight": 0.8825,
    "tied_pairs": [
     "Uranus\u2013Venus"
    ],
    "field_max": true,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P11": {
@@ -99,11 +106,13 @@
     "h:j",
     "same body"
    ],
+   "cross_tight": 0.3195,
    "tied_pairs": [
     "Ceres\u2013Mercury"
    ],
    "field_max": true,
    "most_lit_alone": false,
+   "leads_on_tightness": true,
    "same_pair_elsewhere": {}
   }
  },

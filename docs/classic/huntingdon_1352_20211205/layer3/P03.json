@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "2 Eldorado Allen / 2 Brendan Powell",
  "workbook": "huntingdon_1352_20211205__P03.xlsx",
  "bodies": {
@@ -10724,51 +10724,9 @@
      "same_body:0"
     ]
    },
-   "near": {}
-  },
-  {
-   "pair": "Haumea\u2013Makemake",
-   "n": 3,
-   "kinds": {
-    "shared": [
-     "shared:5"
-    ],
-    "cross": [
-     "links:90"
-    ],
-    "moved": [
-     "links:90#shape5"
-    ]
-   },
-   "near": {
-    "struck": [
-     "links:90#shape1"
-    ],
-    "partner": [
-     "links:90#shape2"
-    ]
-   }
-  },
-  {
-   "pair": "Mercury\u2013Sun",
-   "n": 3,
-   "kinds": {
-    "family": [
-     "pair_family:0"
-    ],
-    "same body": [
-     "same_body:0"
-    ],
-    "sky": [
-     "sky-gc 3.7872"
-    ]
-   },
-   "near": {
-    "family": [
-     "pair_family:1",
-     "pair_family:59"
-    ]
-   }
+   "near": {},
+   "cross_tight": 0.2355,
+   "shared_pct": null
   }
  ]
 }

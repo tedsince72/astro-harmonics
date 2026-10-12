@@ -1,5 +1,5 @@
 {
- "version": "L4 v1.2 (12 Oct 2026, pair focus)",
+ "version": "L4 v1.3 (12 Oct 2026, pair focus A+B+C)",
  "race": "sandown_1425_20211204",
  "pair_focus": {
   "P01": {
@@ -10,12 +10,14 @@
     "struck",
     "family"
    ],
+   "cross_tight": 0.6534,
    "tied_pairs": [
     "Node\u2013Orcus",
     "Mars\u2013Sedna"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {
     "P07": 3
    }
@@ -28,13 +30,13 @@
     "moved",
     "same body"
    ],
+   "cross_tight": 0.9225,
    "tied_pairs": [
-    "Node\u2013Quaoar",
-    "Ceres\u2013Node",
-    "Chiron\u2013Node"
+    "Node\u2013Quaoar"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P05": {
@@ -45,11 +47,13 @@
     "moved",
     "family"
    ],
+   "cross_tight": 0.8205,
    "tied_pairs": [
     "Juno\u2013Mercury"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P07": {
@@ -60,11 +64,13 @@
     "h:j",
     "family"
    ],
+   "cross_tight": 0.1394,
    "tied_pairs": [
     "Node\u2013Orcus"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {
     "P01": 3
    }
@@ -78,11 +84,13 @@
     "moved",
     "same body"
    ],
+   "cross_tight": 0.4122,
    "tied_pairs": [
     "Orcus\u2013Pallas"
    ],
    "field_max": true,
    "most_lit_alone": true,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   }
  },

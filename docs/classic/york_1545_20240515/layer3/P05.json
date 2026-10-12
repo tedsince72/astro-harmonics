@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "3 Friendly Soul / 3 Kieran Shoemark",
  "workbook": "york_1545_20240515__P05.xlsx",
  "bodies": {
@@ -10865,62 +10865,61 @@
  },
  "pair_focus": [
   {
-   "pair": "Mars\u2013Node",
-   "n": 2,
-   "kinds": {
-    "ratio J": [
-     "ratios:9"
-    ],
-    "sky": [
-     "sky-gc 3.6138"
-    ]
-   },
-   "near": {
-    "ratio H": [
-     "ratios:3"
-    ],
-    "h:j": [
-     "hj_ratios:4"
-    ],
-    "family": [
-     "pair_family:21",
-     "pair_family:22"
-    ]
-   }
-  },
-  {
-   "pair": "Chiron\u2013Mercury",
-   "n": 2,
-   "kinds": {
-    "h:j": [
-     "hj_ratios:2"
-    ],
-    "family": [
-     "pair_family:7"
-    ]
-   },
-   "near": {
-    "family": [
-     "pair_family:57"
-    ]
-   }
-  },
-  {
-   "pair": "Juno\u2013Saturn",
+   "pair": "Mercury\u2013Saturn",
    "n": 2,
    "kinds": {
     "cross": [
-     "links:102"
+     "links:85"
     ],
     "moved": [
-     "links:102#shape5"
+     "links:85#shape5"
     ]
    },
    "near": {
     "struck": [
-     "links:102#shape1"
+     "links:85#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.4079,
+   "shared_pct": null
+  },
+  {
+   "pair": "Pluto\u2013Sun",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:95"
+    ],
+    "moved": [
+     "links:95#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:95#shape1"
+    ]
+   },
+   "cross_tight": 0.7315,
+   "shared_pct": null
+  },
+  {
+   "pair": "Neptune\u2013Saturn",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:93"
+    ],
+    "moved": [
+     "links:93#shape5"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:93#shape1"
+    ]
+   },
+   "cross_tight": 0.8308,
+   "shared_pct": null
   }
  ]
 }

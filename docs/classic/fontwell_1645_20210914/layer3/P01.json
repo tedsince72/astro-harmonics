@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "1 Eye To The Sky / 1 Gavin Sheehan",
  "workbook": "20210914_fontwell_1645__P01.xlsx",
  "bodies": {
@@ -8480,7 +8480,9 @@
     "ratio H": [
      "ratios:5"
     ]
-   }
+   },
+   "cross_tight": 0.2352,
+   "shared_pct": null
   },
   {
    "pair": "Pallas\u2013Saturn",
@@ -8500,7 +8502,9 @@
     "family": [
      "pair_family:98"
     ]
-   }
+   },
+   "cross_tight": 0.3787,
+   "shared_pct": null
   }
  ]
 }

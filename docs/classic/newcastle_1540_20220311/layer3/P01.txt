@@ -1,4 +1,4 @@
-== 1 Vocaliser / 1 Fergus Gregory   [newcastle_1540_20220311__P01.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
+== 1 Vocaliser / 1 Fergus Gregory   [newcastle_1540_20220311__P01.xlsx, L3 v1.4 (12 Oct 2026, pair focus A+B+C)]
 -- strong hubs (5+ tight kinds): H Chiron, H Gonggong, J Vesta, J Gonggong
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Chiron       EMPRSX  tight 6
@@ -829,40 +829,32 @@
         sky Pluto -> J Transpluto Dec 36.44446 = 328/9
         sky Orcus -> J Transpluto Dec 25.99932 = 26
 -- pair focus (kinds of root item on one pair; near beside, not counted)
-   Node–Pluto             4 kinds: cross, moved, h:j, family   near: struck, family
-        cross: cross H Pluto–J Rahu RA 0.7153 Dec 3.8488
-        moved: cross H Pluto–J Rahu RA 0.7153 Dec 3.8488
-        h:j: horse:jockey Pluto–Rahu Flat H 29.5087 J 49.1817 5/3
-        family: J Pluto–Rahu Flat sky Pluto – J Rahu 20.4927 vs NN 49.1817 12/5 (0.0013%)
-   Jupiter–Vesta          4 kinds: cross, struck, partner, same body
+   Jupiter–Vesta          4 kinds: cross, struck, partner, same body  cross tightness 0.1351
         cross: cross H Jupiter–J Vesta RA 146.3949 Dec 0.0405
         struck: cross H Jupiter–J Vesta RA 146.3949 Dec 0.0405
         partner: cross H Jupiter–J Vesta RA 146.3949 Dec 0.0405
         same body: same-body Vesta Dec 8/5 : 13/5 : 13/8 (worst 0.0104%)
-   Gonggong–Mercury       3 kinds: cross, same body, sky   near: cross, struck, partner, family
-        cross: cross H Gonggong–J Mercury RA 0.3811 Dec 1.6132
-        same body: same-body Gonggong Flat 2 : 3 : 3/2 (worst 0.1072%)
-        sky: sky-gc 2.4477
-   Chiron–Mercury         3 kinds: cross, moved, family   near: struck, partner
-        cross: cross H Chiron–J Mercury RA 0.8797 Dec 7.2917
-        moved: cross H Chiron–J Mercury RA 0.8797 Dec 7.2917
-        family: H Mercury–Chiron Dec sky Mercury – H Chiron 7.6911 vs TT 18.8013 22/9 (0.0046%)
-   Gonggong–Pallas        3 kinds: ratio J, h:j, same body   near: family
-        ratio J: J Pallas–Gonggong RA sky 35.9410 natal 64.6910 9/5 (0.0043%)
-        h:j: horse:jockey Pallas–Gonggong Dec H 12.5572 J 26.6842 17/8
-        same body: same-body Gonggong Flat 2 : 3 : 3/2 (worst 0.1072%)
-   Chiron–Transpluto      3 kinds: cross, struck, partner
+   Node–Pluto             4 kinds: cross, moved, h:j, family  cross tightness 0.4768   near: struck, family
+        cross: cross H Pluto–J Rahu RA 0.7153 Dec 3.8488
+        moved: cross H Pluto–J Rahu RA 0.7153 Dec 3.8488
+        h:j: horse:jockey Pluto–Rahu Flat H 29.5087 J 49.1817 5/3
+        family: J Pluto–Rahu Flat sky Pluto – J Rahu 20.4927 vs NN 49.1817 12/5 (0.0013%)
+   Chiron–Transpluto      3 kinds: cross, struck, partner  cross tightness 0.0348
         cross: cross H Transpluto–J Chiron RA 26.0528 Dec 0.0104
         struck: cross H Transpluto–J Chiron RA 26.0528 Dec 0.0104
         partner: cross H Transpluto–J Chiron RA 26.0528 Dec 0.0104
-   Gonggong–Transpluto    3 kinds: shared, family, same body
-        shared: shared Gonggong–Transpluto Flat H 178.8985 J 178.0736
-        family: H Gonggong–Transpluto Dec H Gonggong – sky Transpluto 24.4511 vs TT 21.7342 9/8 (0.0007%)
+   Gonggong–Mercury       3 kinds: cross, same body, sky  cross tightness 0.2541   near: cross, struck, partner, family
+        cross: cross H Gonggong–J Mercury RA 0.3811 Dec 1.6132
         same body: same-body Gonggong Flat 2 : 3 : 3/2 (worst 0.1072%)
-   Transpluto–Vesta       3 kinds: cross, struck, same body
+        sky: sky-gc 2.4477
+   Transpluto–Vesta       3 kinds: cross, struck, same body  cross tightness 0.4832
         cross: cross H Transpluto–J Vesta RA 26.7184 Dec 0.1450
         struck: cross H Transpluto–J Vesta RA 26.7184 Dec 0.1450
         same body: same-body Vesta Dec 8/5 : 13/5 : 13/8 (worst 0.0104%)
+   Chiron–Mercury         3 kinds: cross, moved, family  cross tightness 0.5865   near: struck, partner
+        cross: cross H Chiron–J Mercury RA 0.8797 Dec 7.2917
+        moved: cross H Chiron–J Mercury RA 0.8797 Dec 7.2917
+        family: H Mercury–Chiron Dec sky Mercury – H Chiron 7.6911 vs TT 18.8013 22/9 (0.0046%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Venus–Uranus: H H Venus–H Uranus RA 1.2899 Dec 0.9828
    recurring pair Node–Haumea: J J Ketu–J Haumea RA 90.2427 Dec 0.5180

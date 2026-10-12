@@ -1,21 +1,23 @@
 {
- "version": "L4 v1.2 (12 Oct 2026, pair focus)",
+ "version": "L4 v1.3 (12 Oct 2026, pair focus A+B+C)",
  "race": "york_1545_20240515",
  "pair_focus": {
   "P01": {
-   "top": "Jupiter\u2013Sun",
+   "top": "Node\u2013Vesta",
    "n": 2,
    "kinds": [
     "cross",
-    "sky"
+    "family"
    ],
+   "cross_tight": 0.2096,
    "tied_pairs": [
+    "Node\u2013Vesta",
     "Jupiter\u2013Sun",
-    "Orcus\u2013Pallas",
-    "Pallas\u2013Transpluto"
+    "Orcus\u2013Pallas"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P03": {
@@ -26,57 +28,67 @@
     "moved",
     "family"
    ],
+   "cross_tight": 0.7767,
    "tied_pairs": [
     "Orcus\u2013Uranus"
    ],
    "field_max": true,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P05": {
-   "top": "Mars\u2013Node",
+   "top": "Mercury\u2013Saturn",
    "n": 2,
    "kinds": [
-    "ratio J",
-    "sky"
+    "cross",
+    "moved"
    ],
+   "cross_tight": 0.4079,
    "tied_pairs": [
-    "Mars\u2013Node",
-    "Chiron\u2013Mercury",
-    "Juno\u2013Saturn"
+    "Mercury\u2013Saturn",
+    "Pluto\u2013Sun",
+    "Neptune\u2013Saturn"
    ],
    "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P07": {
-   "top": "Uranus\u2013Venus",
-   "n": 3,
+   "top": "Chiron\u2013Juno",
+   "n": 2,
    "kinds": [
-    "ratio H",
-    "same body",
-    "sky"
+    "cross",
+    "partner"
    ],
+   "cross_tight": 0.2029,
    "tied_pairs": [
-    "Uranus\u2013Venus"
+    "Chiron\u2013Juno",
+    "Ceres\u2013Orcus",
+    "Neptune\u2013Pluto"
    ],
-   "field_max": true,
+   "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P09": {
-   "top": "Jupiter\u2013Neptune",
-   "n": 3,
+   "top": "Ceres\u2013Jupiter",
+   "n": 2,
    "kinds": [
-    "ratio H",
-    "h:j",
-    "family"
+    "cross",
+    "moved"
    ],
+   "cross_tight": 0.0781,
    "tied_pairs": [
-    "Jupiter\u2013Neptune"
+    "Ceres\u2013Jupiter",
+    "Neptune\u2013Pluto",
+    "Gonggong\u2013Pluto"
    ],
-   "field_max": true,
+   "field_max": false,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P11": {
@@ -87,11 +99,13 @@
     "cross",
     "struck"
    ],
+   "cross_tight": 0.6626,
    "tied_pairs": [
     "Eris\u2013Juno"
    ],
    "field_max": true,
    "most_lit_alone": false,
+   "leads_on_tightness": false,
    "same_pair_elsewhere": {}
   },
   "P13": {
@@ -102,20 +116,19 @@
     "ratio J",
     "family"
    ],
+   "cross_tight": 0.5247,
    "tied_pairs": [
-    "Neptune\u2013Node",
-    "Ceres\u2013Node"
+    "Neptune\u2013Node"
    ],
    "field_max": true,
    "most_lit_alone": false,
+   "leads_on_tightness": true,
    "same_pair_elsewhere": {}
   }
  },
  "pair_focus_max": 3,
  "pair_focus_leaders": [
   "P03",
-  "P07",
-  "P09",
   "P11",
   "P13"
  ],

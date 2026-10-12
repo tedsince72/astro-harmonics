@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "5 Glory Hallelujah / 5 Rowan Scott",
  "workbook": "nottingham_1750_20220613__P09.xlsx",
  "bodies": {
@@ -11501,6 +11501,33 @@
  },
  "pair_focus": [
   {
+   "pair": "Neptune\u2013Node",
+   "n": 4,
+   "kinds": {
+    "cross": [
+     "links:94"
+    ],
+    "struck": [
+     "links:94#shape1"
+    ],
+    "moved": [
+     "links:94#shape4",
+     "links:94#shape5",
+     "links:94#shape5"
+    ],
+    "ratio J": [
+     "ratios:17"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:112"
+    ]
+   },
+   "cross_tight": 0.3451,
+   "shared_pct": null
+  },
+  {
    "pair": "Mars\u2013Node",
    "n": 4,
    "kinds": {
@@ -11524,32 +11551,9 @@
     "family": [
      "pair_family:21"
     ]
-   }
-  },
-  {
-   "pair": "Neptune\u2013Node",
-   "n": 4,
-   "kinds": {
-    "cross": [
-     "links:94"
-    ],
-    "struck": [
-     "links:94#shape1"
-    ],
-    "moved": [
-     "links:94#shape4",
-     "links:94#shape5",
-     "links:94#shape5"
-    ],
-    "ratio J": [
-     "ratios:17"
-    ]
    },
-   "near": {
-    "family": [
-     "pair_family:112"
-    ]
-   }
+   "cross_tight": 0.6245,
+   "shared_pct": null
   },
   {
    "pair": "Saturn\u2013Sun",
@@ -11574,7 +11578,9 @@
      "pair_family:2",
      "pair_family:3"
     ]
-   }
+   },
+   "cross_tight": 0.1666,
+   "shared_pct": null
   }
  ]
 }

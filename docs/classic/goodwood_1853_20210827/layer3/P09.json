@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "5 Madame Tantzy / 5 Georgia Dobie",
  "workbook": "20210827_goodwood_1853__P09.xlsx",
  "bodies": {
@@ -9341,6 +9341,43 @@
  },
  "pair_focus": [
   {
+   "pair": "Mercury\u2013Uranus",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:61"
+    ],
+    "family": [
+     "pair_family:7"
+    ]
+   },
+   "near": {},
+   "cross_tight": 0.0909,
+   "shared_pct": null
+  },
+  {
+   "pair": "Ceres\u2013Quaoar",
+   "n": 2,
+   "kinds": {
+    "cross": [
+     "links:82"
+    ],
+    "family": [
+     "pair_family:45"
+    ]
+   },
+   "near": {
+    "struck": [
+     "links:82#shape1"
+    ],
+    "partner": [
+     "links:82#shape2"
+    ]
+   },
+   "cross_tight": 0.3673,
+   "shared_pct": null
+  },
+  {
    "pair": "Eris\u2013Saturn",
    "n": 2,
    "kinds": {
@@ -9361,47 +9398,9 @@
     "family": [
      "pair_family:26"
     ]
-   }
-  },
-  {
-   "pair": "Ceres\u2013Quaoar",
-   "n": 2,
-   "kinds": {
-    "cross": [
-     "links:82"
-    ],
-    "family": [
-     "pair_family:45"
-    ]
    },
-   "near": {
-    "struck": [
-     "links:82#shape1"
-    ],
-    "partner": [
-     "links:82#shape2"
-    ]
-   }
-  },
-  {
-   "pair": "Saturn\u2013Vesta",
-   "n": 2,
-   "kinds": {
-    "cross": [
-     "links:86"
-    ],
-    "same body": [
-     "same_body:0"
-    ]
-   },
-   "near": {
-    "struck": [
-     "links:86#shape1"
-    ],
-    "family": [
-     "pair_family:95"
-    ]
-   }
+   "cross_tight": 0.4015,
+   "shared_pct": null
   }
  ]
 }

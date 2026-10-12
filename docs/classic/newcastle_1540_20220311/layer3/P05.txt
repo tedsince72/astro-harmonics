@@ -1,4 +1,4 @@
-== 3 Peak Time / 3 Conor O'Farrell   [newcastle_1540_20220311__P05.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
+== 3 Peak Time / 3 Conor O'Farrell   [newcastle_1540_20220311__P05.xlsx, L3 v1.4 (12 Oct 2026, pair focus A+B+C)]
 -- strong hubs (5+ tight kinds): H Ceres, J Ceres, J Sedna, H Haumea
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    H Ceres        BMPRSX  tight 6
@@ -793,26 +793,22 @@
         sky Ceres on J Haumea RA 121.3702 Dec 0.2938
         sky Makemake on J Haumea RA 13.0789 Dec 0.2788
 -- pair focus (kinds of root item on one pair; near beside, not counted)
-   Ceres–Haumea           3 kinds: cross, moved, same body   near: struck, family
-        cross: cross H Haumea–J Ceres RA 135.9389 Dec 0.1532
-        moved: cross H Haumea–J Ceres RA 135.9389 Dec 0.1532
-        same body: same-body Haumea GC 7/3 : 10/3 : 10/7 (worst 0.0308%); same-body Ceres Dec 5/3 : 3/2 : 5/2 (worst 0.0807%)
-   Sedna–Sun              3 kinds: cross, partner, same body   near: struck, family
-        cross: cross H Sun–J Sedna RA 0.8216 Dec 11.8738
-        partner: cross H Sun–J Sedna RA 0.8216 Dec 11.8738
-        same body: same-body Sedna GC 5/2 : 7/2 : 7/5 (worst 0.0783%)
-   Ceres–Chiron           3 kinds: cross, moved, same body   near: family
-        cross: cross H Ceres–J Chiron RA 0.7983 Dec 11.8429
-        moved: cross H Ceres–J Chiron RA 0.7983 Dec 11.8429
-        same body: same-body Chiron Dec 7/3 : 4/3 : 7/4 (worst 0.0424%); same-body Ceres Dec 5/3 : 3/2 : 5/2 (worst 0.0807%)
-   Chiron–Node            3 kinds: cross, family, same body   near: family
+   Chiron–Node            3 kinds: cross, family, same body  cross tightness 0.3189   near: family
         cross: cross H Ketu–J Chiron RA 57.8130 Dec 0.0957
         family: H Chiron–Ketu Dec sky Chiron – H Ketu 10.7161 vs TT 25.0039 7/3 (0.0014%)
         same body: same-body Chiron Dec 7/3 : 4/3 : 7/4 (worst 0.0424%)
-   Haumea–Saturn          3 kinds: h:j, family, same body
-        h:j: horse:jockey Saturn–Haumea GC H 31.0536 J 102.0339 23/7
-        family: H Saturn–Haumea Flat sky Saturn – H Haumea 119.1416 vs NN 31.0800 23/6 (0.0015%); J Saturn–Haumea Flat J Saturn – sky Haumea 73.0920 vs NN 104.4195 10/7 (0.0023%)
-        same body: same-body Haumea GC 7/3 : 10/3 : 10/7 (worst 0.0308%)
+   Ceres–Haumea           3 kinds: cross, moved, same body  cross tightness 0.5107   near: struck, family
+        cross: cross H Haumea–J Ceres RA 135.9389 Dec 0.1532
+        moved: cross H Haumea–J Ceres RA 135.9389 Dec 0.1532
+        same body: same-body Ceres Dec 5/3 : 3/2 : 5/2 (worst 0.0807%); same-body Haumea GC 7/3 : 10/3 : 10/7 (worst 0.0308%)
+   Ceres–Chiron           3 kinds: cross, moved, same body  cross tightness 0.5322   near: family
+        cross: cross H Ceres–J Chiron RA 0.7983 Dec 11.8429
+        moved: cross H Ceres–J Chiron RA 0.7983 Dec 11.8429
+        same body: same-body Ceres Dec 5/3 : 3/2 : 5/2 (worst 0.0807%); same-body Chiron Dec 7/3 : 4/3 : 7/4 (worst 0.0424%)
+   Sedna–Sun              3 kinds: cross, partner, same body  cross tightness 0.5478   near: struck, family
+        cross: cross H Sun–J Sedna RA 0.8216 Dec 11.8738
+        partner: cross H Sun–J Sedna RA 0.8216 Dec 11.8738
+        same body: same-body Sedna GC 5/2 : 7/2 : 7/5 (worst 0.0783%)
 -- annotations (recurring from earlier winners; not weighted)
    recurring pair Saturn–Neptune: J J Saturn–J Neptune RA 1.5799 Dec 0.4571
    recurring pair Neptune–Node: cross H Neptune–J Rahu GC 8.77826 = 79/9

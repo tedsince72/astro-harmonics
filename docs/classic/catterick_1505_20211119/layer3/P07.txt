@@ -1,4 +1,4 @@
-== 4 Brian Boranha / 4 Callum Bewley   [catterick_1505_20211119__P07.xlsx, L3 v1.3 (12 Oct 2026, pair focus)]
+== 4 Brian Boranha / 4 Callum Bewley   [catterick_1505_20211119__P07.xlsx, L3 v1.4 (12 Oct 2026, pair focus A+B+C)]
 -- strong hubs (5+ tight kinds): J Haumea, H Transpluto, J Vesta
 -- hubs (3+ kinds: P position, M movement, R ratio, B same body, E Equator, S shared, X cross), most tight kinds first
    J Haumea       BEPRSX  tight 5  (near joined: S)
@@ -661,27 +661,23 @@
    [11] joined same-body set (STRONG HUB)  roots 1  bodies=['H Haumea', 'J Haumea']; joined_by=['R', 'X']; strict=True
         same-body Haumea RA 3/2 : 5/2 : 5/3 (worst 0.1483%)
 -- pair focus (kinds of root item on one pair; near beside, not counted)
-   Haumea–Saturn          3 kinds: cross, moved, same body   near: struck, family
+   Haumea–Saturn          3 kinds: cross, moved, same body  cross tightness 0.1705   near: struck, family
         cross: cross H Saturn–J Haumea RA 0.2557 Dec 23.8528
         moved: cross H Saturn–J Haumea RA 0.2557 Dec 23.8528
         same body: same-body Haumea RA 3/2 : 5/2 : 5/3 (worst 0.1483%)
-   Orcus–Transpluto       3 kinds: cross, moved, h:j   near: struck, family
-        cross: cross H Orcus–J Transpluto RA 0.5559 Dec 19.9543
-        moved: cross H Orcus–J Transpluto RA 0.5559 Dec 19.9543
-        h:j: horse:jockey Orcus–Transpluto GC H 18.7373 J 16.8638 10/9
-   Gonggong–Node          3 kinds: ratio H, set, family   near: family
-        ratio H: H Rahu–Gonggong Dec sky 32.0196 natal 9.4173 17/5 (0.0022%)
-        set: pair set Ketu–Gonggong RA H 107.6603 J 75.3419
-        family: J Rahu–Gonggong Dec J Rahu – sky Gonggong 5.7204 vs NN 1.5781 29/8 (0.0029%)
-   Haumea–Vesta           3 kinds: cross, moved, same body   near: struck
-        cross: cross H Haumea–J Vesta RA 121.3904 Dec 0.1313
-        moved: cross H Haumea–J Vesta RA 121.3904 Dec 0.1313
-        same body: same-body Haumea RA 3/2 : 5/2 : 5/3 (worst 0.1483%)
-   Mercury–Venus          3 kinds: cross, partner, moved   near: struck
+   Mercury–Venus          3 kinds: cross, partner, moved  cross tightness 0.3558   near: struck
         cross: cross H Venus–J Mercury RA 128.8238 Dec 0.1067
         partner: cross H Venus–J Mercury RA 128.8238 Dec 0.1067
         moved: cross H Venus–J Mercury RA 128.8238 Dec 0.1067
-   Saturn–Venus           3 kinds: cross, moved, family   near: struck
+   Orcus–Transpluto       3 kinds: cross, moved, h:j  cross tightness 0.3706   near: struck, family
+        cross: cross H Orcus–J Transpluto RA 0.5559 Dec 19.9543
+        moved: cross H Orcus–J Transpluto RA 0.5559 Dec 19.9543
+        h:j: horse:jockey Orcus–Transpluto GC H 18.7373 J 16.8638 10/9
+   Haumea–Vesta           3 kinds: cross, moved, same body  cross tightness 0.4375   near: struck
+        cross: cross H Haumea–J Vesta RA 121.3904 Dec 0.1313
+        moved: cross H Haumea–J Vesta RA 121.3904 Dec 0.1313
+        same body: same-body Haumea RA 3/2 : 5/2 : 5/3 (worst 0.1483%)
+   Saturn–Venus           3 kinds: cross, moved, family  cross tightness 0.9828   near: struck
         cross: cross H Saturn–J Venus RA 1.4742 Dec 5.2349
         moved: cross H Saturn–J Venus RA 1.4742 Dec 5.2349
         family: J Venus–Saturn RA sky Venus – J Saturn 58.5821 vs NN 149.7083 23/9 (0.0009%)

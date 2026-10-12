@@ -1,4 +1,4 @@
-== sandown_1430_20240215  field of 7   [L4 v1.2 (12 Oct 2026, pair focus)]  (blind: no finishing positions)
+== sandown_1430_20240215  field of 7   [L4 v1.3 (12 Oct 2026, pair focus A+B+C)]  (blind: no finishing positions)
 -- runners: P01 1 Aston Martini / 1 James Bowen; P03 2 Cherie d'Am / 2 Harry Skelton; P05 3 Either Or / 3 Nico de Boinville; P07 4 Jeune Belle / 4 Bryony Le Clerc; P09 5 Little Miss Dante / 5 Sean Bowen; P11 6 Smiling Getaway / 6 Sam Twiston-Davies; P13 7 Springtime Promise / 7 Connor Brace
 -- shape table (runner: count)          STRICT | BROAD
    [  1] cross link struck on both ends              3/7: P03:2 P07:1 P11:1  |   7: P01:11 P03:11 P05:10 P07:14 P09:10 P11:11 P13:12
@@ -35,13 +35,13 @@
    P05 3 Either Or / 3 Nico de Boinville: only (strict) -; only (broad) -; strict, shared with one other 3
    P13 7 Springtime Promise / 7 Connor Brace: only (strict) 6,12m; only (broad) 6; strict, shared with one other -
 -- pair focus: each runner's most-lit pair (kinds of root item); field max 4 — P01, P03
-   P01 1 Aston Martini / 1 James Bowen          Eris–Orcus             4  cross, moved, ratio J, same body  (tie)
-   P03 2 Cherie d'Am / 2 Harry Skelton          Mercury–Sun            4  cross, struck, family, same body  (tie)
-   P05 3 Either Or / 3 Nico de Boinville        Chiron–Node            3  cross, same body, sky
-   P07 4 Jeune Belle / 4 Bryony Le Clerc        Juno–Saturn            3  cross, struck, family
-   P09 5 Little Miss Dante / 5 Sean Bowen       Juno–Orcus             3  cross, family, same body
-   P11 6 Smiling Getaway / 6 Sam Twiston-Davies Juno–Uranus            3  cross, moved, family
-   P13 7 Springtime Promise / 7 Connor Brace    Mercury–Pluto          3  shared, ratio J, same body
+   P01 1 Aston Martini / 1 James Bowen          Eris–Orcus             4  cross, moved, ratio J, same body  (cross 0.9073)  (tie)
+   P03 2 Cherie d'Am / 2 Harry Skelton          Mercury–Sun            4  cross, struck, family, same body  (cross 0.6948)  (tie, tightest of the tied)
+   P05 3 Either Or / 3 Nico de Boinville        Chiron–Node            3  cross, same body, sky  (cross 0.8458)
+   P07 4 Jeune Belle / 4 Bryony Le Clerc        Juno–Saturn            3  cross, struck, family  (cross 0.4213)
+   P09 5 Little Miss Dante / 5 Sean Bowen       Juno–Orcus             3  cross, family, same body  (cross 0.1896)
+   P11 6 Smiling Getaway / 6 Sam Twiston-Davies Juno–Neptune           3  cross, struck, family  (cross 0.3857)
+   P13 7 Springtime Promise / 7 Connor Brace    Mercury–Transpluto     2  cross, same body  (cross 0.0854)
 -- strong hubs across the field
    J Orcus        2: P01 P09
    H Node         2: P01 P05

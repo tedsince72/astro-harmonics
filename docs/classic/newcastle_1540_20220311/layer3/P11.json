@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "7 Black Opium / 7 Stephen Mulqueen",
  "workbook": "newcastle_1540_20220311__P11.xlsx",
  "bodies": {
@@ -11631,7 +11631,9 @@
     "family": [
      "pair_family:20"
     ]
-   }
+   },
+   "cross_tight": 0.1817,
+   "shared_pct": null
   },
   {
    "pair": "Ceres\u2013Saturn",
@@ -11653,27 +11655,29 @@
     "partner": [
      "links:71#shape2"
     ]
-   }
+   },
+   "cross_tight": 0.1822,
+   "shared_pct": null
   },
   {
-   "pair": "Ceres\u2013Venus",
+   "pair": "Sedna\u2013Venus",
    "n": 2,
    "kinds": {
     "cross": [
-     "links:62"
+     "links:100"
     ],
-    "moved": [
-     "links:62#shape5"
+    "same body": [
+     "same_body:1",
+     "same_body:2"
     ]
    },
    "near": {
     "struck": [
-     "links:62#shape1"
-    ],
-    "partner": [
-     "links:62#shape2"
+     "links:100#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.3599,
+   "shared_pct": null
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "10 Showmethewayhome / 10 David Probert",
  "workbook": "wolverhampton_aw_1725_20231021__P19.xlsx",
  "bodies": {
@@ -11304,7 +11304,32 @@
      "sky-gc 3.1380"
     ]
    },
-   "near": {}
+   "near": {},
+   "cross_tight": 0.493,
+   "shared_pct": null
+  },
+  {
+   "pair": "Node\u2013Saturn",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:84"
+    ],
+    "struck": [
+     "links:84#shape1"
+    ],
+    "family": [
+     "pair_family:90"
+    ]
+   },
+   "near": {
+    "family": [
+     "pair_family:27",
+     "pair_family:28"
+    ]
+   },
+   "cross_tight": 0.2119,
+   "shared_pct": null
   },
   {
    "pair": "Mercury\u2013Node",
@@ -11327,7 +11352,28 @@
     "family": [
      "pair_family:61"
     ]
-   }
+   },
+   "cross_tight": 0.588,
+   "shared_pct": null
+  },
+  {
+   "pair": "Pluto\u2013Sun",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:59"
+    ],
+    "struck": [
+     "links:59#shape1"
+    ],
+    "same body": [
+     "same_body:0",
+     "same_body:1"
+    ]
+   },
+   "near": {},
+   "cross_tight": 0.6796,
+   "shared_pct": null
   },
   {
    "pair": "Jupiter\u2013Mars",
@@ -11347,84 +11393,9 @@
     "struck": [
      "links:54#shape1"
     ]
-   }
-  },
-  {
-   "pair": "Node\u2013Saturn",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:84"
-    ],
-    "struck": [
-     "links:84#shape1"
-    ],
-    "family": [
-     "pair_family:90"
-    ]
    },
-   "near": {
-    "family": [
-     "pair_family:27",
-     "pair_family:28"
-    ]
-   }
-  },
-  {
-   "pair": "Node\u2013Vesta",
-   "n": 3,
-   "kinds": {
-    "ratio H": [
-     "ratios:10"
-    ],
-    "family": [
-     "pair_family:134"
-    ],
-    "same body": [
-     "same_body:4"
-    ]
-   },
-   "near": {
-    "family": [
-     "pair_family:44",
-     "pair_family:132",
-     "pair_family:133"
-    ]
-   }
-  },
-  {
-   "pair": "Mercury\u2013Sun",
-   "n": 3,
-   "kinds": {
-    "family": [
-     "pair_family:0"
-    ],
-    "same body": [
-     "same_body:0",
-     "same_body:1"
-    ],
-    "sky": [
-     "sky-gc 1.1745"
-    ]
-   },
-   "near": {}
-  },
-  {
-   "pair": "Pluto\u2013Sun",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:59"
-    ],
-    "struck": [
-     "links:59#shape1"
-    ],
-    "same body": [
-     "same_body:0",
-     "same_body:1"
-    ]
-   },
-   "near": {}
+   "cross_tight": 0.6972,
+   "shared_pct": null
   }
  ]
 }

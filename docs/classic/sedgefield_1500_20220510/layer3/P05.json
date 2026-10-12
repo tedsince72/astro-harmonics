@@ -1,5 +1,5 @@
 {
- "version": "L3 v1.3 (12 Oct 2026, pair focus)",
+ "version": "L3 v1.4 (12 Oct 2026, pair focus A+B+C)",
  "runner": "3 Emorelle / 3 Miss Eleanor Williams",
  "workbook": "sedgefield_1500_20220510__P05.xlsx",
  "bodies": {
@@ -11049,7 +11049,27 @@
      "same_body:0"
     ]
    },
-   "near": {}
+   "near": {},
+   "cross_tight": 0.2728,
+   "shared_pct": null
+  },
+  {
+   "pair": "Haumea\u2013Makemake",
+   "n": 3,
+   "kinds": {
+    "cross": [
+     "links:104"
+    ],
+    "struck": [
+     "links:104#shape1"
+    ],
+    "same body": [
+     "same_body:4"
+    ]
+   },
+   "near": {},
+   "cross_tight": 0.2155,
+   "shared_pct": null
   },
   {
    "pair": "Eris\u2013Neptune",
@@ -11069,7 +11089,9 @@
     "struck": [
      "links:77#shape1"
     ]
-   }
+   },
+   "cross_tight": 0.2649,
+   "shared_pct": null
   },
   {
    "pair": "Ceres\u2013Venus",
@@ -11082,27 +11104,13 @@
      "links:84#shape1"
     ],
     "same body": [
-     "same_body:0",
-     "same_body:2"
+     "same_body:2",
+     "same_body:0"
     ]
    },
-   "near": {}
-  },
-  {
-   "pair": "Haumea\u2013Makemake",
-   "n": 3,
-   "kinds": {
-    "cross": [
-     "links:104"
-    ],
-    "struck": [
-     "links:104#shape1"
-    ],
-    "same body": [
-     "same_body:4"
-    ]
-   },
-   "near": {}
+   "near": {},
+   "cross_tight": 0.7516,
+   "shared_pct": null
   }
  ]
 }
