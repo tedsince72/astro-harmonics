@@ -103,16 +103,14 @@ Stars excluded everywhere. No Moon. Natal charts at 12:00.
 3. New measures from positions: 4, 12, 8, 20, 21.
 4. Join view. Then the full check on all 30 folders, the checker, freeze, and continue the blind batch with Kempton 14:40.
 
-## 9. Questions for Eddie (before building)
-- **A. Triangle (8):** which planes for the three pairwise whole-number links? The Ascot hand read used RA only; Layer 3 uses all planes, and
-  that is how Rohaan (Dec) came in. Proposal: all planes, with the plane of each side printed.
-- **B. In-chart pair (9, 10):** the pair is close OR at a whole/ninth (the checklist has both, e.g. Haydock 14:05 Venus–Pluto conj RA 0.628).
-  Proposal: both, labelled.
-- **C. Same number in both charts (11):** count Equator and Dec links as one family (Newmarket July: horse Vesta Equator 21 = Hornby
-  Venus–Pluto Dec 21). Same-ratio pairs in the same plane only? Proposal: same plane strict, other planes near.
-- **D. Midpoint (20):** Golden Flame was in RA. Proposal: test RA and Dec separately, off < 0.05, span < 20.
-- **E. Soak (21):** the spreads seen are 0.0015 (Catterick), 0.013 (Ffos Las) and 0.041 (Golden Flame). Proposal: width 0.05,
-  4+ non-star partners, at least one sky value among them, value >= 0.5; spread is t. At that width chance soaks will be common, so field
-  rarity matters most here. The width could be narrowed after the checks.
-- **F. Node loop (33):** what is the shape? (Sedgefield: Ketu and Sun and Mercury all within a few tenths, horse to jockey.) Proposal: leave
-  out until defined.
+## 9. Eddie's answers (12 Oct 2026) — built to these
+- **A. Triangle (8):** all planes; each side's plane printed; each triangle labelled "one plane" or "mixed planes".
+- **B. In-chart pair (9, 10):** close pairs and whole/ninth pairs both count, labelled.
+- **C. Same number (11):** Equator values and Dec links are one number family. A matching ratio must be in the same plane;
+  cross-plane matches listed separately as "other plane".
+- **D. Midpoint (20):** RA and Dec separately, within 0.05 of the midpoint, span under 20; span and offset printed. Spans 20–60 in a
+  separate "wide" list (Tynwald 21.7).
+- **E. Soak (21):** width ±0.02 around the cluster centre (total spread <= 0.04), 4+ non-star partners, at least one sky value, partners
+  from BOTH horse and jockey charts. Centre, spread and nearest whole/ninth printed. Field rarity decides, not the count.
+- **F. Node loop (33):** Sedgefield 15:00 — a closed loop of close links (inside a chart and across) through the horse node AND the
+  jockey node. Built as cycles of close links of length <= 6 including a node in each chart; the loop printed. Built last.
