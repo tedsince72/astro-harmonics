@@ -1,0 +1,43 @@
+Sky-anchored soak (>= 4 natal partners incl. a horse and a jockey body, +-0.02); 33 read races. NOT evidence: these are the races the checklist came from.
+-- anchors per runner (background): winners 17.5 on average (33 winners), other runners 18.3 (181)
+-- by body name: runners with >= 1 sky-anchored soak on an anchor containing that body
+   body             winners       others
+   Makemake     26/33  79%   123/181  68%
+   Juno         29/33  88%   143/181  79%
+   Node         32/33  97%   166/181  92%
+   Orcus        23/33  70%   117/181  65%
+   Mercury      28/33  85%   147/181  81%
+   Jupiter      27/33  82%   146/181  81%
+   Saturn       28/33  85%   152/181  84%
+   Venus        28/33  85%   152/181  84%
+   Uranus       26/33  79%   142/181  78%
+   Pallas       26/33  79%   144/181  80%
+   Transpluto   22/33  67%   124/181  69%
+   Sun          26/33  79%   147/181  81%
+   Pluto        22/33  67%   127/181  70%
+   Eris         26/33  79%   150/181  83%
+   Gonggong     26/33  79%   150/181  83%
+   Chiron       24/33  73%   140/181  77%
+   Mars         26/33  79%   154/181  85%
+   Quaoar       21/33  64%   127/181  70%
+   Vesta        23/33  70%   143/181  79%
+   Haumea       18/33  55%   119/181  66%
+   Neptune      23/33  70%   147/181  81%
+   Sedna        20/33  61%   137/181  76%
+   Ceres        17/33  52%   121/181  67%
+-- same-afternoon pairs: anchors (same sky pair and plane) that BOTH winners have
+   newcastle_aw_1220_20211112 (winner 2 Sir Chauvelin / 2 Paul Mulrennan) + newcastle_aw_1540_20211112 (winner 3 Heart Throb / 3 Graham Lee): 2 anchors shared by both winners
+      sky Sun–Venus Dec 9.3491 / 9.3048: winners 5 / 6 partners; losers with it 1/5 and 0/5
+         newcastle_aw winner: H Juno, H Node, H Sun, J Orcus, J Sun
+         newcastle_aw winner: H Saturn, H Sun, H Venus, J Chiron, J Sun, J Venus
+      sky Sun–Mercury Flat 10.1558 / 10.0696: winners 4 / 4 partners; losers with it 0/5 and 0/5   <- no loser in either race
+         newcastle_aw winner: H Ceres, H Mercury, J Ceres, J Sun
+         newcastle_aw winner: H Mercury, J Eris, J Sun, J Vesta
+      control: all 36 pairings of one runner from each race — shared anchors: winners 2, others mean 0.63, max 3 (winners' rank 3 of 36); shared by that pairing only: winners 1, others mean 0.43, pairings with >= 1: 11 of 35 (winners' rank 4)
+   york_1545_20240515 (winner 6 Secret Satire / 6 Oisin Murphy) + york_1615_20240515 (winner 13 Diligent Resdev / 13 Joanna Mason): 1 anchors shared by both winners
+      sky Uranus–Sedna GC 13.4105 / 13.4100: winners 5 / 4 partners; losers with it 0/6 and 0/14   <- no loser in either race
+         york_1545_20 winner: H Sedna, H Uranus, J Pallas, J Saturn, J Sedna
+         york_1615_20 winner: H Neptune, H Sedna, J Eris, J Sedna
+      control: all 105 pairings of one runner from each race — shared anchors: winners 1, others mean 0.58, max 4 (winners' rank 10 of 105); shared by that pairing only: winners 1, others mean 0.30, pairings with >= 1: 25 of 104 (winners' rank 7)
+   haydock_1420_20210904 (winner 2 Golden Flame / 2 Joe Fanning) + kempton_aw_1440_20210904 (winner 3 Hamish / 3 Pat Dobbs): 0 anchors shared by both winners
+      control: all 30 pairings of one runner from each race — shared anchors: winners 0, others mean 0.45, max 2 (winners' rank 10 of 30); shared by that pairing only: winners 0, others mean 0.31, pairings with >= 1: 7 of 29 (winners' rank 8)

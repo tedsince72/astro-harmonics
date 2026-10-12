@@ -419,6 +419,15 @@ Def: for pair {A, B} (node folded; A = B allowed), number of different KINDS lan
 - Result: 1 Golden Flame / Joe Fanning (9/1); 2 Praiano (3/1); 3 Valley Forge (11/8 fav); 4 Contact; 5 Roseabad / Kingscote; 6 Tynwald (last).
 - Winner had (Eddie: "Orcus related"): Fanning Ketu at the midpoint of horse Orcus and sky Orcus (item 20); Orcus–Transpluto–Ceres (horse Orcus–Transpluto RA 0.115, partner strike on horse Ceres, Fanning Ceres–Transpluto family 4/3, Ceres–Orcus in both charts); soaks Orcus ~9.79 and Eris ~20.32 joined through sky Orcus–Eris Dec 9.7751 (item 21); node (Rahu – sky Orcus 26/9, Fanning node moved 798/9, horse Rahu – Fanning Transpluto). Mars Flat S–H / S–J = 63/8 (0.0006%) — not a same-body set (p > 30, one ratio only).
 
+### Kempton AW 14:40, 4 Sep 2021 — blind 4 (checklist reader CR v1.1, commit 3d62207; read 8730996)
+- Said (field-only, strict): Hukum 8 (triangle H Vesta / J Chiron / J Vesta, sky Chiron) and 15 (pair set Saturn–Haumea Flat 18/7, 3/2, 27/7, 0.0233%);
+  Fox Tal 5 (H Ketu – J Saturn both ends moved), 7 (swap Pallas/Sun), 14 (shared Sun–Pallas Dec on the swap link); Hamish 33 (node loop of 5:
+  H Node – H Eris – J Node – J Sedna – H Pallas, t 0.981); Outbox, Prince Of Arran none. Watch line: 14 Fox Tal, 15 Hukum, 17 none.
+- Result: 1 Hamish / Pat Dobbs (9/1); 2 Hukum (30/100 fav); 3 Fox Tal (9/1); 4 Outbox; 5 Prince Of Arran.
+- Winner had: the only node loop (built last, low priority); H Eris and J Sedna (loop bodies) also carry number 18 in both charts
+  (H Pluto–Eris Dec 17.99541 | J Sun–Sedna Dec 17.99895; Outbox also has an item 11); Equator Jupiter S/H 16/5 (0.0019%, tightest);
+  tightest shared pair Ceres–Orcus GC (0.0337%). Sedgefield's winner also had a node loop, but so did Wheres Maud Gone there — one race, not a rule.
+
 ## 5. Open candidates for the next version (from the blind tests; not yet rules)
 1. Shared pair that is also cross-linked (Exeter Chiron–Juno; Caspers Court 3rd also had one) — item 14.
 2. Same-body Dec set 9/4 : 5/4 : 9/5 (winners 5/36, others 6/192) — item 17; annotation in pair_focus_design.
@@ -430,3 +439,12 @@ Def: for pair {A, B} (node folded; A = B allowed), number of different KINDS lan
 8. Cosmetic display fixes after the batch: Exeter race page repeats 'pair in one chart' for P01 and P05 (shape 12 and 12m); Redcar prints the 'Equator values' header twice.
    DONE 12 Oct 2026: Layer 3 pair focus listed a pair's two same-body sets in an order that changed from run to run (it looped over a Python set);
    now sorted by item number (tools/layer3_web.py). Seen on Exeter P01 Sedna–Vesta; numbers were never affected.
+9. SKY-ANCHORED SOAK (Eddie 12 Oct): take each sky pair value on the day (sky X – sky Y, any plane, e.g. Haydock 14:20 sky Orcus–Eris Dec 9.7751);
+   per runner count distinct natal partners (horse and jockey bodies) in values within +-0.02 of it that run from X or Y (any chart) to another body;
+   >= 4 partners with at least one horse and one jockey partner. Scan (not in the frozen reader): tools/scans/sky_anchored_soak.py, comparison
+   tools/scans/sky_anchored_compare.py -> docs/classic/sky_anchored_soak_scan.txt. On the 33 read races (NOT evidence — the checklist came from them):
+   every runner has many (winners 17.5 anchors on average, others 18.3); by body name no body separates (e.g. Makemake winners 79% / others 68%,
+   Ceres 52% / 67%). Golden Flame's own anchor (Orcus–Eris Dec 9.7751) reaches only 3 partners (H Orcus, H Pallas, J Sun). Same-afternoon pairs:
+   Newcastle AW 12:20 + 15:40 winners share 2 anchors (Sun–Venus Dec; Sun–Mercury Flat with no loser in either race) — but 11 of 35 other
+   cross-race runner pairings also share an anchor no one else has; York 15:45 + 16:15 winners share 1 (Uranus–Sedna GC 13.41, no loser) — 25 of
+   104 other pairings also have one; Haydock 14:20 + Kempton 14:40 winners share none. The same sky value does not run through the winners only.
