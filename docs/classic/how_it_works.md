@@ -25,3 +25,5 @@ stands against the rest of the field.
 **How we build it.** One layer at a time, going back through the races in reverse order (Newmarket July 17:45, York 16:15, York 15:45,
 Sandown, ...). Each layer must reproduce what was found by hand in each winner before the next goes on top. Independent checker after each
 race. Rules frozen before testing on new races. Every script backed up to the repo.
+
+# Frozen for testing on new races: commit 2d70cfb (12 Oct 2026) — L1 v1.4, L2 v1.2, L3 v1.2, L4 v1.1, L5 v1. Run blind with tools/run_layers.sh <race>, read, then layer4_field.py <race> --results.
