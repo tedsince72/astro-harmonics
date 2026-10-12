@@ -94,3 +94,20 @@ Mercury–Saturn and Mars–Uranus are close in both natal charts. Chiron–Tran
 - 18: Flat 5.0303 is not a whole number; both are only 'about 5'.
 - 19: Mercury–Saturn 19/3 is GC. 20: Mason Uranus–Pluto 15/7 is GC; Rahu–Venus 100/9 works with Rahu only (Ketu–Venus 22.567).
 - 21: 3/7 at 0.0060% confirmed, just outside 0.005%.
+
+## Whole-number Equator Decs (Eddie, 12 Oct 2026: sky Sun 18.99, horse Rahu/Ketu 23.00, jockey Pallas 14.00)
+22. Values (signed Dec): sky Sun +18.99694 (19); horse Rahu +23.00196 / Ketu -23.00196 (23); Mason Pallas -14.00695 (14, off 0.0069 —
+    outside the ±0.005 the tools use, so fit_read missed it; inside ±0.01). Also sky Quaoar -14.99235 (15, off 0.0076).
+23. Because whole ± whole = whole, the Dec strikes between them follow from the Equator values:
+    sky Sun – horse Ketu Dec 41.99890 = 42 (the strings.py 'sky Sun->Dec 42' on the horse node);
+    sky Sun – Mason Pallas Dec 33.00389 = 33 (the both_ends 'sky Sun Dec 33' on horse Ceres – Mason Pallas);
+    horse Ketu – Mason Pallas Dec 8.99501 = 9; sky Sun – horse Rahu Dec 4.00502 = 4.
+    So the Equator is the root of those Dec strikes, not separate hits.
+24. Where they sit in the web:
+    horse node (23) — the node strand (node same-body set Dec 9/4:5/4:9/5; horse Quaoar on Mason Rahu); horse Ketu is Dec 0.481 from
+    Mason Uranus (the cross-link hub); horse Rahu is Dec 0.177 from Mason Haumea and 0.296 from horse Makemake.
+    Mason Pallas (14) — same Dec as Mason Vesta (0.150), Mason Quaoar (0.307) and Mason Venus (0.495), and horse Ceres (0.337).
+    sky Quaoar (15) is Dec 0.985 from Mason Pallas.
+25. Field (natal |Dec| within ±0.01 of a whole number): winner 2 (horse Rahu, Mason Pallas); Blue Prince (3rd) 2 — horse Saturn -19.0023
+    and Kingscote Saturn -18.9989, the same 19 as sky Sun (one number in sky, horse and jockey); Ribble Radiant (15th) 3; Mortlake,
+    Fire Demon, Ziggy's Condor, Lady Pink Rose, Quiet Resolve 1 each; the rest 0. The count does not separate the winner.
