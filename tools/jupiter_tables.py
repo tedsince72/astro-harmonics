@@ -1,0 +1,476 @@
+#!/usr/bin/env python3
+"""jupiter_tables.py INPUT [--out X.xlsx] [--off "YYYY-MM-DD HH:MM"] [--site lat,lon,elev]
+Viewing tool (13 Oct 2026, Eddie): raw Jupiter tables for one race, nothing filtered.
+INPUT = a race_batch_<yyyymmdd>_<course>_<hhmm>.xlsx (TRANS, P01..Pnn, META) or a split race folder in reference/classic
+(<course>_<hhmm>_<yyyymmdd>/<race>__P##.xlsx). Output: race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx next to the batch
+(for a folder: in reference/classic/), unless --out.
+
+Sheets: POSITIONS; SKY JUPITER; one sheet per runner (P01, P03, ...: tables 1-15); FIELD 5, FIELD 6, FIELD 7, FIELD 8, FIELD 10.
+Each value: nearest target = the target with the smallest tightness t = |offset| / that family's strict tolerance (whole, ninth,
+golden, sqrt2, silver; ratios: whole p/1, simple p/q, golden, sqrt2, silver); a second family also inside its near band is shown
+beside it ('also'). Colours: green = strict, yellow = near, light yellow = within 3x the near band. Sky-leg values also at off + 5 min
+(engine, as JR v3 section F) with an arrow: toward / away from the nearest target; n/a where the engine does not reproduce a point.
+Tolerances as JR v3 (tools/jup2/core.py, imported, not changed). Frozen readers are not changed."""
+import argparse, glob, os, re, sys, itertools, math
+import openpyxl
+from openpyxl.styles import PatternFill, Font, Alignment
+
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(REPO, 'tools', 'jup2'))
+from core import (TOL, CONSTANTS, FRACS, MID, ROYAL, NATAL_BODIES, SKY_BODIES, STAR_NAMES, EQUATOR, plane_value, planes_for,
+                  wrap_ra)                                                     # noqa: E402
+import motion                                                                  # noqa: E402
+
+PLANES = ('RA', 'Dec', 'Flat', 'GC')
+STARS = ['Algol', 'Pleiades', 'Aldebaran', 'Capella', 'Sirius', 'Procyon', 'Regulus', 'Alkaid', 'Algorab', 'Spica', 'Arcturus',
+         'Alphecca', 'Antares', 'Vega', 'Deneb Algedi', 'Fomalhaut', 'Rigel', 'Betelgeuse', 'Polaris', 'Castor', 'Altair', 'Bellatrix']
+BODIES = [b for b in SKY_BODIES if b != 'Ketu']           # workbook rows (Ketu rebuilt as Rahu's mirror)
+GREEN = PatternFill('solid', start_color='C6EFCE'); YELLOW = PatternFill('solid', start_color='FFEB9C')
+LIGHT = PatternFill('solid', start_color='FFF8DC'); HEAD = PatternFill('solid', start_color='D9E1F2')
+BOLD = Font(bold=True)
+FILL = {'strict': GREEN, 'near': YELLOW, 'near3': LIGHT}
+COLS = 7                                                   # per plane: value, +5, target, offset, t, arrow, also
+
+
+# ---------------- reading
+def read_sheet(ws):
+    out, label = {}, None
+    for r in ws.iter_rows(min_row=2, values_only=True):
+        if r is None or len(r) < 9 or r[1] is None or r[4] is None:
+            continue
+        label = label or r[0]
+        out[str(r[1]).strip()] = (float(r[4]), float(r[8]))
+    return label, out
+
+
+def jname(lab):
+    """jockey tab label '1 Oisin Murphy' -> 'Oisin Murphy' (cloth number dropped only when present)"""
+    p = str(lab).split(' ', 1)
+    return p[1] if len(p) == 2 and p[0].isdigit() else str(lab)
+
+
+def chart(sheet, sky):
+    ch = {}
+    for b in BODIES:
+        if b == 'Moon' and not sky:
+            continue
+        if b in sheet:
+            ch[b] = (sheet[b][0], sheet[b][1], 'body')
+    for s in STARS:
+        if s + '_B' in sheet:
+            ch[s] = (sheet[s + '_B'][0], sheet[s + '_B'][1], 'star')
+    if 'Rahu' in ch:
+        ch['Ketu'] = ((ch['Rahu'][0] + 180.0) % 360.0, -ch['Rahu'][1], 'body')
+    ch[EQUATOR] = (0.0, 0.0, 'equator')
+    return ch
+
+
+def load_input(path):
+    """-> race name, batch path, trans label, sky, runners {P##: {'name', 'H', 'J'}}"""
+    path = path.rstrip('/')
+    runners = {}
+    if os.path.isdir(path):
+        race = os.path.basename(path)
+        course, hhmm, ymd = motion.race_parts(race)
+        batch = os.path.join(os.path.dirname(path), f'race_batch_{ymd}_{course}_{hhmm}.xlsx')
+        sky = label = None
+        for f in sorted(glob.glob(f'{path}/*__P[0-9][0-9].xlsx')):
+            P = re.search(r'__(P\d\d)\.xlsx$', f).group(1)
+            wb = openpyxl.load_workbook(f, read_only=True, data_only=True)
+            label, t = read_sheet(wb['TRANS'])
+            hl, h = read_sheet(wb['P01']); jl, j = read_sheet(wb['P02'])
+            sky = sky or chart(t, True)
+            runners[P] = {'name': f'{hl} / {jname(jl)}', 'H': chart(h, False), 'J': chart(j, False)}
+    else:
+        m = re.match(r'^race_batch_(\d{8})_(.+)_(\d{4})\.xlsx$', os.path.basename(path))
+        if not m:
+            sys.exit(f'not a race_batch_<yyyymmdd>_<course>_<hhmm>.xlsx: {path}')
+        ymd, course, hhmm = m.groups()
+        race, batch = f'{course}_{hhmm}_{ymd}', path
+        wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
+        label, t = read_sheet(wb['TRANS'])
+        sky = chart(t, True)
+        tabs = [s for s in wb.sheetnames if re.fullmatch(r'P\d+', s)]
+        for i in range(0, len(tabs) - 1, 2):
+            hl, h = read_sheet(wb[tabs[i]]); jl, j = read_sheet(wb[tabs[i + 1]])
+            runners[f'P{int(tabs[i][1:]):02d}'] = {'name': f'{hl} / {jname(jl)}', 'H': chart(h, False), 'J': chart(j, False)}
+    return race, batch, label, sky, runners
+
+
+# ---------------- numbers
+FAM_GROUP = {'whole': 'whole', 'ninth': 'ninth', 'golden': 'const', 'sqrt2': 'const', 'silver': 'const', 'ratio': 'all'}
+
+
+def candidates(v, kind):
+    out = []
+    if TOL[kind]['mode'] == 'rel':
+        for p, q in FRACS:
+            out.append((f'{p}' if q == 1 else f'{p}/{q}', p / q, 'whole' if q == 1 else 'ratio'))
+        for lab, tv, fam in CONSTANTS:
+            if tv > 1:
+                out.append((lab, tv, fam))
+        return out
+    w = min(max(round(v), 1), 180)                          # clamped: values above 180 (Flat) still get 180
+    for x in sorted({min(max(x, 1), 180) for x in (w - 1, w, w + 1)}):
+        out.append((f'{x}', float(x), 'whole'))
+    n = min(max(round(v * 9), 1), 1619)
+    for x in sorted({min(max(x, 1), 1619) for x in (n - 2, n - 1, n, n + 1, n + 2)}):
+        if x % 9:
+            out.append((f'{x}/9', x / 9, 'ninth'))
+    for lab, tv, fam in CONSTANTS:
+        out.append((lab, tv, fam))
+    return out
+
+
+def nearest(v, kind):
+    """-> best {target, family, off, t, level}, also (second family within its near band) or None"""
+    if v is None or (isinstance(v, float) and math.isnan(v)):
+        return None, None
+    T = TOL[kind]
+    best = {}
+    for lab, tv, fam in candidates(v, kind):
+        s, nr = T['all'] if T['mode'] == 'rel' else T[FAM_GROUP[fam]]
+        off = (v / tv - 1) * 100 if T['mode'] == 'rel' else v - tv
+        t = abs(off) / s
+        lev = 'strict' if abs(off) <= s else 'near' if abs(off) <= nr else 'near3' if abs(off) <= 3 * nr else ''
+        d = {'target': lab, 'tv': tv, 'family': fam, 'off': off, 't': t, 'level': lev, 'pct': T['mode'] == 'rel'}
+        if fam not in best or t < best[fam]['t']:
+            best[fam] = d
+    ranked = sorted(best.values(), key=lambda d: d['t'])
+    if not ranked:
+        return None, None
+    also = next((d for d in ranked[1:] if d['level'] in ('strict', 'near')), None)
+    return ranked[0], also
+
+
+def mid_eval(v, tol=MID):
+    off = v
+    s, nr = tol
+    lev = 'strict' if abs(off) <= s else 'near' if abs(off) <= nr else 'near3' if abs(off) <= 3 * nr else ''
+    return {'target': 'midpoint', 'tv': 0.0, 'family': 'midpoint', 'off': off, 't': abs(off) / s, 'level': lev, 'pct': False}
+
+
+# ---------------- race context
+class Ctx:
+    def __init__(self, sky, rates):
+        self.S0 = sky
+        self.S5 = {b: None if rates.get(b) is None else ((p[0] + rates[b][0] * 5.0) % 360.0, p[1] + rates[b][1] * 5.0, p[2])
+                   for b, p in sky.items()}
+
+    def pos(self, R, pt, st):
+        c, b = pt.split(' ', 1)
+        if c == 'S':
+            return self.S0[b] if st == 0 else self.S5[b]
+        return R[c][b]
+
+    def pair(self, R, a, b, pl):
+        """distance a-b in plane pl at the off and at +5 (None if no sky leg or rate n/a)."""
+        if pl not in planes_for(a.split(' ', 1)[1], b.split(' ', 1)[1]):
+            return None, None
+        f = (lambda p, q: abs(p[1])) if b.endswith(' equator') else (lambda p, q: plane_value(p, q, pl))
+        v0 = f(self.pos(R, a, 0), self.pos(R, b, 0))
+        sky = a.startswith('S ') or b.startswith('S ')
+        p5 = [self.pos(R, a, 5), self.pos(R, b, 5)]
+        v5 = f(*p5) if sky and None not in p5 else ('n/a' if sky else None)
+        return v0, v5
+
+
+def ratio(n0, n5, d0, d5):
+    """larger / smaller at the off; same orientation at +5"""
+    if not n0 or not d0:
+        return None, None, ''
+    flip = n0 < d0
+    v0 = d0 / n0 if flip else n0 / d0
+    if n5 == 'n/a' or d5 == 'n/a':
+        v5 = 'n/a'
+    elif n5 is None and d5 is None:
+        v5 = None
+    else:
+        a = n0 if n5 is None else n5
+        b = d0 if d5 is None else d5
+        v5 = (b / a if flip else a / b) if a and b else None
+    return v0, v5, ' (inverted)' if flip else ''
+
+
+# ---------------- writing
+def put_value(ws, row, col, v0, v5, ev, also, note=''):
+    """7 cells from col: value, +5, target, offset, t, arrow, also"""
+    if v0 is None:
+        return
+    c = ws.cell(row=row, column=col, value=round(v0, 6))
+    if ev and ev['level']:
+        c.fill = FILL[ev['level']]
+    if v5 == 'n/a':
+        ws.cell(row=row, column=col + 1, value='n/a')
+    elif v5 is not None:
+        ws.cell(row=row, column=col + 1, value=round(v5, 6))
+    if ev:
+        ws.cell(row=row, column=col + 2, value=f"{ev['target']} ({ev['family']}){note}")
+        ws.cell(row=row, column=col + 3, value=f"{ev['off']:+.5f}{'%' if ev['pct'] else ''}")
+        ws.cell(row=row, column=col + 4, value=round(ev['t'], 2))
+        if v5 == 'n/a':
+            ws.cell(row=row, column=col + 5, value='n/a')
+        elif v5 is not None:
+            if ev['family'] == 'midpoint':
+                d0, d5 = abs(v0), abs(v5)
+            elif ev['pct']:
+                d0, d5 = abs(v0 / ev['tv'] - 1), abs(v5 / ev['tv'] - 1)
+            else:
+                d0, d5 = abs(v0 - ev['tv']), abs(v5 - ev['tv'])
+            ws.cell(row=row, column=col + 5, value='-> toward' if d5 < d0 else '<- away')
+    if also:
+        ws.cell(row=row, column=col + 6, value=f"also {also['target']} ({also['family']}) {also['off']:+.5f}{'%' if also['pct'] else ''} [{also['level']}]")
+
+
+def header(ws, row, tid, title, planes):
+    ws.cell(row=row, column=1, value=tid).font = BOLD
+    ws.cell(row=row, column=2, value=title).font = BOLD
+    row += 1
+    for i, pl in enumerate(planes):
+        col = 3 + COLS * i
+        for k, h in enumerate((pl, '+5 min', 'nearest target', 'offset', 't', 'off->+5', 'also')):
+            c = ws.cell(row=row, column=col + k, value=h); c.fill = HEAD; c.font = BOLD
+    ws.cell(row=row, column=1, value='table').fill = HEAD
+    ws.cell(row=row, column=2, value='points').fill = HEAD
+    return row + 1
+
+
+def plane_index(pl, planes):
+    return 3 + COLS * planes.index(pl)
+
+
+def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of):
+    """rows: [(label, a, b)] -> distances in RA/Dec/Flat/GC (equator: Dec only)."""
+    row = header(ws, row, tid, title, PLANES)
+    out = {}
+    for label, a, b in rows:
+        ws.cell(row=row, column=1, value=tid); ws.cell(row=row, column=2, value=label)
+        for pl in PLANES:
+            v0, v5 = ctx.pair(R, a, b, pl)
+            if v0 is None:
+                continue
+            kind = kind_of(a, b)
+            ev, also = nearest(v0, kind)
+            put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also)
+            out[(label, pl)] = (v0, ev)
+        row += 1
+    return row + 1, out
+
+
+def mid_rows(ctx, R, triples, plane):
+    """triples: [(label, e1, e2, middle)] -> label -> (offset0, offset5, span)"""
+    ix = 0 if plane == 'RA' else 1
+    out = {}
+    for label, e1, e2, m in triples:
+        if plane == 'RA' and any(p.split(' ', 1)[1] == 'Ketu' for p in (e1, e2, m)):
+            continue
+        vals = []
+        for st in (0, 5):
+            ps = [ctx.pos(R, p, st) for p in (e1, e2, m)]
+            if None in ps:
+                vals.append('n/a'); continue
+            a, b, c = ps[0][ix], ps[1][ix], ps[2][ix]
+            if plane == 'RA':
+                d = (b - a + 180.0) % 360.0 - 180.0
+                mid, span = (a + d / 2) % 360.0, abs(d)
+                off = (c - mid + 180.0) % 360.0 - 180.0
+            else:
+                mid, span, off = (a + b) / 2, abs(b - a), c - (a + b) / 2
+            vals.append((off, span))
+        sky = any(p.startswith('S ') for p in (e1, e2, m))
+        o5 = None if not sky else ('n/a' if vals[1] == 'n/a' else vals[1][0])
+        out[label] = (vals[0][0], o5, vals[0][1])
+    return out
+
+
+def write_mids(ws, row, tid, title, ctx, R, triples):
+    row = header(ws, row, tid, title + '  [value = third point\'s signed offset from the midpoint; span in the label column C]', ('RA', 'Dec'))
+    data = {pl: mid_rows(ctx, R, triples, pl) for pl in ('RA', 'Dec')}
+    for label, *_ in triples:
+        ws.cell(row=row, column=1, value=tid)
+        spans = [f"{pl} span {data[pl][label][2]:.4f}" for pl in ('RA', 'Dec') if label in data[pl]]
+        ws.cell(row=row, column=2, value=f"{label}   ({'; '.join(spans)})")
+        for pl in ('RA', 'Dec'):
+            if label in data[pl]:
+                o0, o5, span = data[pl][label]
+                put_value(ws, row, plane_index(pl, ('RA', 'Dec')), o0, o5, mid_eval(o0), None)
+        row += 1
+    return row + 1, data
+
+
+def runner_sheet(wb, P, R, ctx):
+    ws = wb.create_sheet(P)
+    ws.cell(row=1, column=1, value=f"{P} {R['name']}").font = BOLD
+    ws.cell(row=2, column=1, value='green = strict, yellow = near, light yellow = within 3x near; off->+5 = toward / away from the nearest target')
+    row = 4
+    H, J = R['H'], R['J']
+    dist = lambda a, b: 'equator' if b.endswith(' equator') else 'dist'
+    move_or = lambda a, b: 'move' if a == 'S Jupiter' and b.endswith(' Jupiter') else dist(a, b)
+    field = {}
+    for tid, C in (('T1', 'H'), ('T2', 'J')):
+        rows = [(f'{C} Jupiter → {C} {x}', f'{C} Jupiter', f'{C} {x}') for x in R[C] if x != 'Jupiter']
+        row, _ = write_pairs(ws, row, tid, f'{C} Jupiter → {C} bodies, stars, equator (natal)', ctx, R, rows, dist)
+    row, _ = write_pairs(ws, row, 'T3', 'H Jupiter → J bodies (natal, cross)', ctx, R,
+                         [(f'H Jupiter → J {x}', 'H Jupiter', f'J {x}') for x in NATAL_BODIES if x in J], dist)
+    row, _ = write_pairs(ws, row, 'T4', 'J Jupiter → H bodies (natal, cross)', ctx, R,
+                         [(f'J Jupiter → H {x}', 'J Jupiter', f'H {x}') for x in NATAL_BODIES if x in H], dist)
+    for tid, C in (('T5', 'H'), ('T6', 'J')):
+        rows = [(f'S Jupiter → {C} {x}', 'S Jupiter', f'{C} {x}') for x in NATAL_BODIES if x in R[C] and x != 'Jupiter']
+        row, field[tid] = write_pairs(ws, row, tid, f'S Jupiter → {C} bodies, at the off and +5 min', ctx, R, rows, dist)
+    for tid, C in (('T7', 'H'), ('T8', 'J')):
+        rows = [(f'S {z} → {C} Jupiter', f'S {z}', f'{C} Jupiter') for z in SKY_BODIES if z in ctx.S0 and z != 'Jupiter']
+        row, field[tid] = write_pairs(ws, row, tid, f'every sky body (Moon incl.) → {C} Jupiter, at the off and +5 min', ctx, R, rows, dist)
+    row, _ = write_pairs(ws, row, 'T9', 'Jupiter to Jupiter (S–H, S–J movement tolerance; H–J distance) and Equator values', ctx, R,
+                         [('S Jupiter – H Jupiter', 'S Jupiter', 'H Jupiter'), ('S Jupiter – J Jupiter', 'S Jupiter', 'J Jupiter'),
+                          ('H Jupiter – J Jupiter', 'H Jupiter', 'J Jupiter'), ('S Jupiter Equator', 'S Jupiter', 'S equator'),
+                          ('H Jupiter Equator', 'H Jupiter', 'H equator'), ('J Jupiter Equator', 'J Jupiter', 'J equator')], move_or)
+    # T10 / T11 midpoints
+    tri = []
+    for x in NATAL_BODIES:
+        if x in H and x in J:
+            tri += [(f'S Jupiter / H {x} | J {x}', 'S Jupiter', f'H {x}', f'J {x}'),
+                    (f'S Jupiter / J {x} | H {x}', 'S Jupiter', f'J {x}', f'H {x}'),
+                    (f'H {x} / J {x} | S Jupiter', f'H {x}', f'J {x}', 'S Jupiter')]
+    row, field['T10'] = write_mids(ws, row, 'T10', 'midpoints: S Jupiter / H X, S Jupiter / J X, H X / J X — third point\'s offset', ctx, R, tri)
+    tri = [(f'H Jupiter / J Jupiter | S {z}', 'H Jupiter', 'J Jupiter', f'S {z}') for z in SKY_BODIES if z in ctx.S0]
+    for C in 'HJ':
+        tri += [(f'S Jupiter / {C} Jupiter | {D} {x}', 'S Jupiter', f'{C} Jupiter', f'{D} {x}')
+                for D in 'HJ' for x in NATAL_BODIES if x in R[D] and not (D == C and x == 'Jupiter')]
+    row, _ = write_mids(ws, row, 'T11', 'midpoints: H Jupiter / J Jupiter with every sky body; S Jupiter / natal Jupiter with every natal body', ctx, R, tri)
+    # T12-T15 ratios
+    for tid, title, num, den in (
+            ('T12', '(S Jupiter–S X) / (natal Jupiter–natal X), same plane', lambda C, x: ('S Jupiter', f'S {x}'), lambda C, x: (f'{C} Jupiter', f'{C} {x}')),
+            ('T13', '(S Jupiter–natal X) / (natal Jupiter–natal X), same plane', lambda C, x: ('S Jupiter', f'{C} {x}'), lambda C, x: (f'{C} Jupiter', f'{C} {x}'))):
+        row = header(ws, row, tid, title + '  [larger / smaller]', PLANES)
+        for C in 'HJ':
+            for x in NATAL_BODIES:
+                if x == 'Jupiter' or x not in R[C]:
+                    continue
+                ws.cell(row=row, column=1, value=tid)
+                lab = f'{num(C, x)[0]}–{num(C, x)[1]} / {den(C, x)[0]}–{den(C, x)[1]}'
+                for pl in PLANES:
+                    n0, n5 = ctx.pair(R, *num(C, x), pl); d0, d5 = ctx.pair(R, *den(C, x), pl)
+                    if n0 is None or d0 is None:
+                        continue
+                    v0, v5, inv = ratio(n0, n5, d0, d5)
+                    ev, also = nearest(v0, 'ratio') if v0 else (None, None)
+                    put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, inv)
+                ws.cell(row=row, column=2, value=lab)
+                row += 1
+        row += 1
+    row = header(ws, row, 'T14', 'Equator ratios of the three Jupiters (|Dec|, larger / smaller)', ('Equator',))
+    for a, b in (('S', 'H'), ('S', 'J'), ('H', 'J')):
+        A, B = f'{a} Jupiter', f'{b} Jupiter'
+        n0, n5 = ctx.pair(R, A, f'{a} equator', 'Dec'); d0, d5 = ctx.pair(R, B, f'{b} equator', 'Dec')
+        v0, v5, inv = ratio(n0, n5, d0, d5)
+        ws.cell(row=row, column=1, value='T14'); ws.cell(row=row, column=2, value=f'|Dec| {A} / |Dec| {B}{inv}')
+        ev, also = nearest(v0, 'eqratio') if v0 else (None, None)
+        put_value(ws, row, 3, v0, v5, ev, also)
+        row += 1
+    row += 1
+    row = header(ws, row, 'T15', 'apex ratios: (Jupiter–X) / (Jupiter–equator) in Dec, X = bodies + royal stars; (Jupiter–royal A) / (Jupiter–royal B)', PLANES)
+    for C in 'SHJ':
+        CH = ctx.S0 if C == 'S' else R[C]
+        for x in [b for b in NATAL_BODIES + ['Moon'] if b in CH and b != 'Jupiter'] + ROYAL:
+            if x not in CH:
+                continue
+            n0, n5 = ctx.pair(R, f'{C} Jupiter', f'{C} {x}', 'Dec'); d0, d5 = ctx.pair(R, f'{C} Jupiter', f'{C} equator', 'Dec')
+            v0, v5, inv = ratio(n0, n5, d0, d5)
+            ws.cell(row=row, column=1, value='T15'); ws.cell(row=row, column=2, value=f'({C} Jupiter–{C} {x}) / ({C} Jupiter–equator){inv}')
+            ev, also = nearest(v0, 'ratio') if v0 else (None, None)
+            put_value(ws, row, plane_index('Dec', PLANES), v0, v5, ev, also)
+            row += 1
+        for A, B in itertools.combinations(ROYAL, 2):
+            ws.cell(row=row, column=1, value='T15'); ws.cell(row=row, column=2, value=f'({C} Jupiter–{C} {A}) / ({C} Jupiter–{C} {B})')
+            for pl in PLANES:
+                n0, n5 = ctx.pair(R, f'{C} Jupiter', f'{C} {A}', pl); d0, d5 = ctx.pair(R, f'{C} Jupiter', f'{C} {B}', pl)
+                v0, v5, inv = ratio(n0, n5, d0, d5)
+                ev, also = nearest(v0, 'ratio') if v0 else (None, None)
+                put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, inv)
+            row += 1
+    ws.column_dimensions['B'].width = 46
+    ws.freeze_panes = 'C4'
+    return field
+
+
+def field_sheet(wb, tid, title, runners, fields, planes, mid=False):
+    ws = wb.create_sheet(f'FIELD {tid[1:]}')
+    ws.cell(row=1, column=1, value=f'{tid} field matrix — {title}; per runner: value (coloured), nearest target + offset').font = BOLD
+    order = sorted(runners)
+    row = 3
+    for pl in planes:
+        ws.cell(row=row, column=1, value=pl).font = BOLD
+        for i, P in enumerate(order):
+            c = ws.cell(row=row, column=2 + 2 * i, value=f"{P} {runners[P]['name']}"); c.fill = HEAD; c.font = BOLD
+        row += 1
+        labels = []
+        for P in order:
+            src = fields[P][tid]
+            ks = (list(src[pl].keys()) if mid else [k[0] for k in src if k[1] == pl])
+            for k in ks:
+                if k not in labels:
+                    labels.append(k)
+        for lab in labels:
+            ws.cell(row=row, column=1, value=lab)
+            for i, P in enumerate(order):
+                src = fields[P][tid]
+                if mid:
+                    if lab not in src[pl]:
+                        continue
+                    o0 = src[pl][lab][0]; ev = mid_eval(o0); v = o0
+                else:
+                    if (lab, pl) not in src:
+                        continue
+                    v, ev = src[(lab, pl)]
+                c = ws.cell(row=row, column=2 + 2 * i, value=round(v, 6))
+                if ev and ev['level']:
+                    c.fill = FILL[ev['level']]
+                if ev:
+                    ws.cell(row=row, column=3 + 2 * i, value=f"{ev['target']} {ev['off']:+.5f}{'%' if ev['pct'] else ''}")
+            row += 1
+        row += 1
+    ws.column_dimensions['A'].width = 34
+    ws.freeze_panes = 'B4'
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('input'); ap.add_argument('--out'); ap.add_argument('--off'); ap.add_argument('--site')
+    a = ap.parse_args()
+    race, batch, label, sky, runners = load_input(a.input)
+    course, hhmm, ymd = motion.race_parts(race)
+    out = a.out or os.path.join(os.path.dirname(os.path.abspath(batch)), f'race_batch_{ymd}_{course}_{hhmm}_jupiter_tables.xlsx')
+    off, site, src = motion.off_and_site(race, label, batch, a.off, a.site)
+    rates, elines = motion.engine_rates(sky, off, site)
+    ctx = Ctx(sky, rates)
+    wb = openpyxl.Workbook(); ws = wb.active; ws.title = 'POSITIONS'
+    repro = next((l for l in elines if l.startswith('reproduction')), elines[0] if elines else '')
+    ws.append([f'{race} — Jupiter tables (raw, nothing filtered). off {off}; {src}']); ws.append([repro]); ws.append([])
+    ws.append(['runner', 'name', 'chart', 'point', 'kind', 'RA', 'Dec', 'rate RA /min', 'rate Dec /min'])
+    for b, p in sky.items():
+        r = rates.get(b)
+        ws.append(['SKY', '', 'S', b, p[2], p[0], p[1], 'n/a' if r is None else r[0], 'n/a' if r is None else r[1]])
+    for P in sorted(runners):
+        for C in 'HJ':
+            for b, p in runners[P][C].items():
+                ws.append([P, runners[P]['name'], C, b, p[2], p[0], p[1]])
+    # SKY JUPITER
+    ws = wb.create_sheet('SKY JUPITER')
+    ws.cell(row=1, column=1, value=f'{race} — S Jupiter to every sky body, star and the equator (at the off and +5 min)').font = BOLD
+    R0 = {'H': {}, 'J': {}}
+    rows = [(f'S Jupiter → S {x}', 'S Jupiter', f'S {x}') for x in sky if x != 'Jupiter']
+    write_pairs(ws, 3, 'SKY', 'S Jupiter → sky points', ctx, R0, rows, lambda a, b: 'equator' if b.endswith(' equator') else 'dist')
+    ws.column_dimensions['B'].width = 30
+    fields = {}
+    for P in sorted(runners):
+        fields[P] = runner_sheet(wb, P, runners[P], ctx)
+    for tid, title in (('T5', 'S Jupiter → H bodies'), ('T6', 'S Jupiter → J bodies'), ('T7', 'sky bodies → H Jupiter'),
+                       ('T8', 'sky bodies → J Jupiter')):
+        field_sheet(wb, tid, title, runners, fields, PLANES)
+    field_sheet(wb, 'T10', 'midpoints S Jupiter / H X, S Jupiter / J X, H X / J X (third point\'s offset)', runners, fields, ('RA', 'Dec'), mid=True)
+    wb.save(out)
+    print(f'{race}: {len(runners)} runners -> {out} ({os.path.getsize(out) / 1e6:.2f} MB); {repro}')
+
+
+if __name__ == '__main__':
+    main()
