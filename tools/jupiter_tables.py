@@ -217,13 +217,13 @@ def put_value(ws, row, col, v0, v5, ev, also, note='', sc=None, ox=None):
         if ev.get('group'):
             ws.cell(row=row, column=col + 3, value=ev['group'])
         ws.cell(row=row, column=col + 4, value=fmt_off(ev))
-        ws.cell(row=row, column=col + 5, value=round(ev['score'] if ev['score'] is not None else ev['t'], 2))
+        ws.cell(row=row, column=col + 5, value=round(ev['score'] if ev['score'] is not None else ev['t'], 2)).number_format = '0.00'
         if v5 not in ('n/a', None):
             ws.cell(row=row, column=col + 6, value=arrow(v0, v5, ev))
     if also:
-        ws.cell(row=row, column=col + 7, value='; '.join(f"{tlabel(d)} {fmt_off(d)} [{d['score']:.1f}]" for d in also))
+        ws.cell(row=row, column=col + 7, value='; '.join(f"{tlabel(d)} {fmt_off(d)} [{d['score']:.2f}]" for d in also))
     if sc:
-        c = ws.cell(row=row, column=col + 8, value=f"{sc['scale']}: {tlabel(sc)} {fmt_off(sc)} [{sc['score']:.1f}]"
+        c = ws.cell(row=row, column=col + 8, value=f"{sc['scale']}: {tlabel(sc)} {fmt_off(sc)} [{sc['score']:.2f}]"
                     + (' (widens 10x in degrees)' if sc['scale'] == '/10' and sc['deg'] else ''))
         c.fill = FILL[sc['colour']]
 
@@ -536,7 +536,7 @@ def write_cross(ws, row, ctx, R):
             ev = cross_eval(ra0, de0)
             if ev:
                 c.fill = FILL[ev['colour']]
-                ws.cell(row=row, column=col + 3, value=round(ev['score'], 2))
+                ws.cell(row=row, column=col + 3, value=round(ev['score'], 2)).number_format = '0.00'
                 out[(lab, cross_name(a, b))] = (ra0 - de0, ev)
             if 'n/a' in (ra5, de5):
                 ws.cell(row=row, column=col + 4, value='n/a'); ws.cell(row=row, column=col + 5, value='n/a')
@@ -547,7 +547,7 @@ def write_cross(ws, row, ctx, R):
             if ev:
                 fb = families.best((ra0 + de0) / 2, None, 'deg')
                 if fb:
-                    f = ws.cell(row=row, column=col + 6, value=f"{tlabel(fb)} {fmt_off(fb)} [{fb['score']:.1f}]")
+                    f = ws.cell(row=row, column=col + 6, value=f"{tlabel(fb)} {fmt_off(fb)} [{fb['score']:.2f}]")
                     f.fill = FILL[fb['colour']]
         row += 1
     return row + 1, out
@@ -560,6 +560,9 @@ FONT = {'green': '006100', 'yellow': '9C5700', 'light': '8A7400', 'grey': '7F7F7
 
 def short(t):
     return t.replace('Jupiter', 'Jup')
+
+
+KEEP_MARGIN = 0.5                                          # Eddie 14 Oct: a scaled repeat replaces the main form only if > 0.5 higher (unrounded)
 
 
 def same_digits(ev, sc):
@@ -587,7 +590,7 @@ def thread_add(thr, tid, lab, pts, pl, v, ev, sc):
         dirs.add(f'S X→{tid == "T7" and "H" or "J"} Jup')
     num = lambda v: f'{round(v, 6)}' if tid not in ('T10', 'T11', 'T16') else f'{v:+.6f}'
     repeat = same_digits(ev, sc)                           # Eddie 13 Oct: a scaled repeat of the main hit - keep the higher, drop the other
-    up = repeat and sc['score'] > ev['score']              # unrounded scores (Eddie 14 Oct); an exact tie keeps the main hit
+    up = repeat and sc['score'] > ev['score'] + KEEP_MARGIN   # main kept unless the scaled form is > 0.5 higher (unrounded; Eddie 14 Oct)
     if ev and ev.get('score') is not None or tid in ('T10', 'T11') and ev:
         tgt = 'midpoint' if tid in ('T10', 'T11') else 'equal' if tid == 'T16' else ev['target']
         sct = f" ({ev['score']:.2f})" if ev.get('score') is not None else ''
@@ -706,8 +709,8 @@ def number_add(nums, col, lab, pl, v):
             if d['family'] not in NUM_FAMILIES or d['score'] < NUM_MIN or not d['tv']:
                 continue
             k = num_key(d['family'], d['tv'])
-            if k in found and found[k]['score'] >= d['score']:
-                continue                                   # a repeat of the same number (same family, same digits): keep the higher (unrounded; tie = main)
+            if k in found and d['score'] <= found[k]['score'] + (0 if found[k]['scaled'] else KEEP_MARGIN):
+                continue                                   # a repeat (same family, same digits): main kept unless the scaled form is > 0.5 higher
             txt = (f"{lab} {pl} {round(v, 6)} → {d['target']} {d['off']:+.5f} ({d['score']:.2f})" if not scl else
                    f"{lab} {pl} {round(v, 6)} {scl}: {round(v * f, 6)} → {d['target']} {d['off']:+.5f} ({d['score']:.2f}) [scaled]")
             found[k] = {'key': k, 'col': col, 'form': d['target'], 'tv': d['tv'], 'score': d['score'], 'colour': num_colour(d['score']),
@@ -786,7 +789,8 @@ def field_numbers_sheet(wb, runners, allnums):
     for i, key in enumerate(keys, start=4):
         holders = [P for P in order if key in rows[P] and rows[P][key]['tag'] == 'sky + horse + jockey']
         r0 = rows[holders[0]][key]
-        ws.cell(row=i, column=1, value=num_label(key, r0))
+        forms = {f: tv for P in holders for f, tv in rows[P][key]['forms']}           # forms seen across the holders
+        ws.cell(row=i, column=1, value=num_label(key, {'forms': list(forms.items())}))
         sky = r0['cols']['SKY'][0]
         c = ws.cell(row=i, column=2, value=rich([sky])); c.fill = FILL[sky['colour']]
         for k, P in enumerate(order):
@@ -824,6 +828,7 @@ def ratio_sheet(wb, P, R, rats, uni, n):
             for k, x in enumerate(vals):
                 ws.cell(row=row, column=1 + k, value=x)
             ws.cell(row=row, column=5).fill = FILL[ev['colour']]
+            ws.cell(row=row, column=10).number_format = '0.00'
             row += 1
         row += 1
     ws.column_dimensions['C'].width = 52
@@ -866,7 +871,7 @@ def field_sheet(wb, tid, title, runners, fields, planes, mid=False, uni=None):
                     if near:
                         ws.cell(row=row, column=3 + 2 * i, value=f"{near['target']} {fmt_off(near)} (outside ±{near['tol']:.3g}{' %' if near['pct'] else ''})")
                 if ev:
-                    ws.cell(row=row, column=3 + 2 * i, value=f"{ev['target']} {fmt_off(ev)}" + (f" [{ev['score']:.1f}]" if ev['score'] is not None else '')
+                    ws.cell(row=row, column=3 + 2 * i, value=f"{ev['target']} {fmt_off(ev)}" + (f" [{ev['score']:.2f}]" if ev['score'] is not None else '')
                             + (f" [{ev['group']}]" if ev.get('group') else '')
                             + ((' automatic (Jupiter return), not counted' if ev.get('auto') else f" field {uni[(tid, lab, pl)]}/{len(runners)}"
                                 + (' return-assisted' if ev.get('assisted') else ''))

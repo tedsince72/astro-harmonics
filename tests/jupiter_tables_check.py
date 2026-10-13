@@ -25,7 +25,10 @@ H Jupiter – J Jupiter in its own H–J column, once. Changed: test 8 '+ 9 weak
 99.1); test 9 J Haumea 77.798638 (83.67) -> its /10 form 7.779864 (83.68); P07 silver 0.414 sky + horse + jockey -> two of three.
 14 Oct (Eddie): keep-higher compares unrounded scores, display 2 dp in THREADS and NUMBERS. Changed: Dynamic Force S Jup→H Uranus 11.10793
 now shown as /10 1.110793 (94.7963 > 94.7947), '+ 8 weaker' -> '+ 9 weaker'; Wincanton P07 H Rigel 7.777589 now shown as x10 77.775893
-(98.5224 > 98.5209); scores in THREADS lines at 2 dp."""
+(98.5224 > 98.5209); scores in THREADS lines at 2 dp.
+14 Oct, revised (Eddie): the main form is kept unless the scaled form scores > 0.5 higher (unrounded); all scores at 2 dp everywhere
+(scaled, also, FIELD matrices). Changed back: Dynamic Force 11.10793 main (94.80), Wincanton P07 H Rigel 7.777589 main (98.52) and
+J Haumea 77.798638 main (83.67); FIELD 16 tag '[92.3]' -> '[92.30]'."""
 import os, subprocess, sys
 import openpyxl
 from openpyxl.cell.rich_text import CellRichText
@@ -114,7 +117,7 @@ vals = [r[c0 + k].value for k in range(4)]
 check('Jupiter–Orcus J RA 30.55841 = H Dec 30.55995, RA − Dec −0.001541, score 92.3, green', vals == [30.55841, 30.55995, -0.001541, 92.3]
       and r[c0 + 2].fill.start_color.rgb == GREEN, str(vals))
 f16 = [x for x in wb['FIELD 16'].iter_rows(values_only=True) if x[0] == 'Jupiter–Orcus' and any(v is not None for v in x[1:])]
-check('FIELD 16 shows it (Nube Negra column)', len(f16) == 1 and 'crossing -0.00154 [92.3]' in f16[0], str(f16))
+check('FIELD 16 shows it (Nube Negra column)', len(f16) == 1 and 'crossing -0.00154 [92.30]' in f16[0], str(f16))
 
 print('\nTest 5: Newcastle AW 12:20 2021 (batch xlsx) — unison (Perfect 1) with its field count')
 wb = openpyxl.load_workbook(build('reference/classic/race_batch_20211112_newcastle_aw_1220.xlsx'))
@@ -202,15 +205,15 @@ ws = wb['THREADS']
 head = [c.value for c in ws[3]]
 ur = next(r for r in ws.iter_rows(min_row=4) if r[0].value == 'Uranus')
 df = str(ur[head.index('P01 2 Dynamic Force / Ray Dawson')].value).split('\n')
-need = ['S Jup→H Uranus Dec 11.10793 /10: 1.110793 → 1.11111 (94.80) [T5, scaled]', 'S Uranus→H Jup GC 142.001746 → 142 (83.30) [T7]',
+need = ['S Jup→H Uranus Dec 11.10793 → 11.1111 (94.80) [T5]', 'S Uranus→H Jup GC 142.001746 → 142 (83.30) [T7]',
         'S Uranus→J Jup Dec 18.995206 → 19 (57.80) [T8]']
 check('Dynamic Force Uranus cell lists the three hits', all(x in df for x in need), str(df[:8]))
 check('Dynamic Force Uranus tags: mutual, same chart · mutual, across charts · both Jupiters · both charts · directions 4',
       df[0] == 'mutual, same chart · mutual, across charts · both Jupiters · both charts · directions 4', df[0])
-check('cells list hits >= 50 only; a repeat (same family, same digits) shown once, the higher unrounded form: 11.10793 as /10 '
-      '(94.7963 > 94.7947), 14.141031 as /10 1.414 (99.12 > 96.9), 145.643439 as /10 9×φ (87.80 > 13.7); "+ 9 weaker" (score-0 and hidden '
-      'repeats not counted)',
-      df[-1] == '+ 9 weaker (see T-tables)' and not any(x.startswith('S Jup→H Uranus Dec 11.10793 → ') for x in df)
+check('cells list hits >= 50 only; a repeat (same family, same digits) shown once: main kept unless the scaled form is > 0.5 higher '
+      '(unrounded): 11.10793 main (/10 only +0.0016), 14.141031 as /10 1.414 (99.12 vs 96.9), 145.643439 as /10 9×φ (87.80 vs 13.7); '
+      '"+ 9 weaker" (score-0 and hidden repeats not counted)',
+      df[-1] == '+ 9 weaker (see T-tables)' and not any('/10: 1.110793' in x for x in df)
       and 'J Jup→H Uranus Dec 14.141031 /10: 1.414103 → 1.414 (99.12) [T4, scaled]' in df
       and not any(x.startswith('J Jup→H Uranus Dec 14.141031 → 14.14') for x in df)
       and all(float(x.rsplit('(', 1)[1].split(')')[0]) >= 50 for x in df[1:-1]), df[-1])
@@ -223,8 +226,8 @@ nr = [r for r in wb['P07 NUMBERS'].iter_rows(min_row=4, values_only=True) if r[0
 check('P07 NUMBERS row "ninth: 7.77778 / 77.7778" tagged sky + horse + jockey', len(nr) == 1 and nr[0][1] == 'sky + horse + jockey', str(nr))
 sky, horse, jock = (str(nr[0][k]).split('\n') for k in (2, 3, 4))
 check('SKY S Jupiter → S Ceres 77.75345 (80.96), HORSE H Jupiter → H Rigel 7.777589 (98.52), JOCKEY J Jupiter → J Haumea 77.798638 (83.67)',
-      'S Jup→S Ceres RA 77.75345 → 77.7778 -0.02433 (80.96)' in sky and 'H Jup→H Rigel RA 7.777589 x10: 77.775893 → 77.7778 -0.00189 (98.52) [scaled]' in horse
-      and 'J Jup→J Haumea GC 77.798638 /10: 7.779864 → 7.77778 +0.00209 (83.68) [scaled]' in jock, f'{sky} {horse} {jock}')
+      'S Jup→S Ceres RA 77.75345 → 77.7778 -0.02433 (80.96)' in sky and 'H Jup→H Rigel RA 7.777589 → 7.77778 -0.00019 (98.52)' in horse
+      and 'J Jup→J Haumea GC 77.798638 → 77.7778 +0.02086 (83.67)' in jock, f'{sky} {horse} {jock}')
 sv = [r for r in wb['P07 NUMBERS'].iter_rows(min_row=4, values_only=True) if r[0] == 'silver: 0.414 / 4.14']
 check('H Jupiter – J Jupiter in its own H–J column, once: P07 silver 0.414 Dec 0.412452 (86.41) only under H–J; tag two of three (was sky + horse + jockey)',
       len(sv) == 1 and sv[0][1] == 'two of three' and str(sv[0][5]) == 'H Jup→J Jup Dec 0.412452 → 0.414 -0.00176 (86.41)' and sv[0][3] is None
