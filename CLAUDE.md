@@ -76,21 +76,40 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
 - Viewing tool (13 Oct 2026, not a reader): `python3 tools/jupiter_tables.py <race_batch xlsx | reference/classic/<race> folder>` ->
   race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T15 per runner, field matrices, off and +5 min,
   every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score; ratios on the interval
-  list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16; THREADS sheet: rows = bodies (Moon incl.,
-  nodes folded), columns = runners, every hit linking X with Jupiter from T1–T8, T10–T13, T16 (midpoints within 0.15, scaled hits marked);
-  cells list hits >= 50 then '+ n weaker' (score-0 not counted; a scaled repeat of a main hit - same family, same digits - shown once, the higher form, tie = main);
-  tags from main hits >= 50 (midpoints within 0.15 count): mutual same chart (S Jup→H X + S X→H Jup, or J), mutual across
-  charts (S Jup→J X + S X→H Jup, or H/J), both Jupiters, both charts, directions n; field counts per tag; P## NUMBERS: rows = target
-  numbers (×10 / ÷10 forms folded, degree-distance families, no conjunction), columns SKY (S Jupiter → sky points), HORSE (T1+T3),
-  JOCKEY (T2+T4), H–J (H Jupiter – J Jupiter, once, not in the tag), SKY→NATAL (T5–T8), hits >= 40 main or scaled (a repeat keeps the
-  higher form), tag sky + horse + jockey / two of three (separate horse and jockey hits); FIELD NUMBERS = numbers held
-  sky + horse + jockey and by which runners). Venv python (swisseph, pandas).
+  list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16; THREADS, P## NUMBERS and FIELD NUMBERS
+  sheets - rules in the section below). Venv python (swisseph, pandas).
   Tests `python3 tests/jupiter_tables_check.py` (38/38). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
 - On the Mac: see `docs/MAC_SETUP.md` (venv with Python 3.12+, `pip install openpyxl`). Scripts call `python3.12`; inside the venv
   `python3` is fine (edit `tools/run_layers.sh` if `python3.12` is not on the PATH).
+
+## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
+Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
+same digits (target ×10 or ÷10, e.g. ninth 11.1111 / 1.11111, √2 14.14 / 1.414). Only one form is shown: the higher-scoring one, compared
+at the shown precision (THREADS 1 dp, NUMBERS 2 dp); a tie keeps the main form. Automatic (Jupiter return) unisons are left out.
+- **THREADS** (one sheet, after the runner sheets): rows = bodies (sky bodies incl. Moon, Jupiter excluded, Rahu / Ketu folded as
+  "Nodes"), columns = runners. Hits = every scored hit (inside tolerance) linking body X with Jupiter, from T1–T8, T10–T13 and T16
+  (midpoints T10 / T11 count when within 0.15; scaled hits marked "scaled"; stars, equator and Jupiter–Jupiter left out).
+  - Cell: hits scoring >= 50, main first then scaled, best first, short form ("S Jup→H Uranus Dec 11.10793 → 11.1111 (94.8) [T5]"),
+    each line coloured by its score; last line "+ n weaker (see T-tables)" = hits < 50, score-0 hits and hidden repeats not counted.
+  - Tags (top line), from the MAIN hits scoring >= 50 (a main hit hidden by its higher scaled repeat still counts; midpoints within 0.15
+    count): "mutual, same chart" = S Jup→H X with S X→H Jup, or S Jup→J X with S X→J Jup; "mutual, across charts" = S Jup→J X with
+    S X→H Jup, or S Jup→H X with S X→J Jup; "both Jupiters" = S X→H Jup and S X→J Jup; "both charts" = natal X reached in H and in J;
+    "directions n" = distinct of S Jup→H X (T5), S Jup→J X (T6), S X→H Jup (T7), S X→J Jup (T8).
+  - Last columns: per body, runners with mutual same chart / mutual across charts / both Jupiters / any of the three (k/n).
+  - Test 8: Nottingham 15:30 2022, Dynamic Force, Uranus (values set from the rule, not tuned to the winner).
+- **P## NUMBERS** (one per runner, after P## RATIOS): rows = target numbers with the ×10 / ÷10 forms folded into one row (key = family +
+  the target's digits), degree-distance families only (whole, golden, φ powers, ninths, √2, silver; no conjunction, no ratios).
+  - Columns: SKY (S Jupiter → sky bodies, stars, equator), HORSE (T1 + T3), JOCKEY (T2 + T4), H–J (H Jupiter – J Jupiter, counted once,
+    from T3; never in HORSE or JOCKEY), SKY→NATAL (T5–T8).
+  - Cell: hits scoring >= 40 on that number, main or scaled (labelled), value, offset and score, best first; colour green >= 80,
+    yellow 50–80, light yellow 40–50.
+  - Tag: "sky + horse + jockey" (separate SKY, HORSE and JOCKEY hits) or "two of three"; H–J and SKY→NATAL never count. Tagged rows first.
+- **FIELD NUMBERS** (one sheet): every number held sky + horse + jockey by any runner, the SKY best hit, each holder's best HORSE and
+  JOCKEY hit, and the holder count (k/n).
+  - Test 9: Wincanton 14:20 2022, P07 River Bray, row "ninth: 7.77778 / 77.7778" (S Ceres 77.75345, H Rigel 7.777589, J Haumea /10).
 
 ## Where we are (13 Oct 2026)
 - **Working view = the tables tool on Eddie's families:** `tools/jupiter_tables.py` on `tools/families.py` (see "Families" above).
