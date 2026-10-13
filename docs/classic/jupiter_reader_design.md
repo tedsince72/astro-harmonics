@@ -1,6 +1,8 @@
 # Transit-Jupiter reader — design (agreed with Eddie, 13 Oct 2026)
 
-Status: DESIGN ONLY. Nothing built. Build only after Eddie's go-ahead.
+Status: go-ahead 13 Oct 2026 (Eddie), built as JR v2 (`tools/jup2/` + `tools/jupiter_reader.py`). JR v1 (`tools/jup/`, f96f93d) unchanged.
+Decisions of 13 Oct added below: Equator-ratio near band 0.06 %; levels strict / exact-in-race / exact-pre-off / near (5G);
+lines show level, offset and tightness t, sorted by t; field counts per level (section 6). As built: section 10.
 Script (when built): `tools/jupiter_reader.py <race>` -> `docs/classic/<race>/jupiter/`.
 Separate from the frozen layers and the frozen checklist reader (CR v1.1) — those are not changed.
 
@@ -48,7 +50,7 @@ No decimal scaling of whole numbers, ninths or simple ratios.
 | Movement (sky X vs natal X): whole, constants / ninth | ±0.01 / ±0.0011 | ±0.03 / ±0.004 |
 | Equator values: whole, constants / ninth | ±0.01 / ±0.0011 | ±0.03 / ±0.004 |
 | Ratios (all families) | 0.005 % | 0.02 % |
-| Equator ratios | 0.01 % | 0.05 % |
+| Equator ratios (all families) | 0.01 % | 0.06 % (13 Oct; was 0.05 %) |
 | Close contact | RA < 1.5 or Dec < 0.3 | RA < 2 or Dec < 0.6 |
 | Midpoint | within 0.05° | within 0.15° |
 
@@ -98,6 +100,16 @@ Overlaps: a value that is whole is labelled whole only (18/9 = 2 is "2"). A valu
   estimated time to/from exact (linear rate). Natal points don't move; tr-tr hits have both legs moving.
 - If the engine can't be run, the reader still runs and marks every hit "a/s: n/a".
 
+### G. Levels (Eddie, 13 Oct 2026)
+- Every hit has one level, in this order of precedence:
+  1. **strict** — inside the strict tolerance at the off;
+  2. **exact-in-race** — has a sky leg, and F's rate (linear) puts the exact moment between the off and the finish
+     (expected duration from the day's race_info.csv, column expected_dur_s; default 5 min when the race is not listed);
+  3. **exact-pre-off** — has a sky leg, exact within the 5 minutes before the off and separating at the off;
+  4. **near** — inside the near band at the off.
+- Natal-only hits (no sky leg) are strict or near only. A sky-leg hit whose rate is n/a is strict or near only.
+- Combined hits (both ends struck, two sky bodies on one Jupiter, RA AND Dec together) take the weaker level of their parts.
+
 ## 6. Field and report
 
 - For every hit: how many runners in the race hold the same hit (same measure, same bodies by chart role, same number).
@@ -105,7 +117,12 @@ Overlaps: a value that is whole is labelled whole only (18/9 = 2 is "2"). A valu
 - Files:
   - `field.txt` — race page: sky Jupiter's own relationships (A), then each runner's strict hits held by fewer than half the field.
   - `P##.txt` — runner page: the same, grouped by measure (C, D, E, then joined B), each line: measure, bodies (with chart),
-    plane, value, family + target, offset, a/s, field count.
+    plane, value, family + target, **level, offset, tightness t (= |offset| / strict tolerance)**, a/s (+ time to/from exact),
+    field count; lines **sorted by t** inside each group.
+    Shown on the runner page: strict, exact-in-race and exact-pre-off always; near only when rare in the field
+    (held by fewer than half the field at any level) or joined to a strict hit (another strict / exact-in-race / exact-pre-off
+    hit of the same runner on the same set of points, any plane or measure).
+  - Field count: each level counted separately (strict / exact-in-race / exact-pre-off / near, of n runners).
   - `P##_full.txt` / `P##.json` — everything, including near hits, common hits and unjoined natal hits.
 - No scores, no totals, no ranking.
 
@@ -113,7 +130,7 @@ Overlaps: a value that is whole is labelled whole only (18/9 = 2 is "2"). A valu
 
 | Race | Expect |
 |---|---|
-| Lingfield 14:35, 2 Apr 2021 (Pholas / Holly Doyle) | D3: J/S Jupiter Equator 23.29537 / 14.38992 = 1.61887, φ at 0.0515 % (near band, not strict); S Jupiter Dec −14.38992, H −7.06006, J −23.29537 |
+| Lingfield 14:35, 2 Apr 2021 (Pholas / Holly Doyle; file reference/classic/race_batch_pholas.xlsx, this pair only) | D3: J/S Jupiter Equator 23.29537 / 14.38992 = 1.61887, φ at 0.0515 %, level near (0.06 % band); S Jupiter Dec −14.38992, H −7.06006, J −23.29537 |
 | Fontwell 16:45 2021 (Pixie Loc / Ben Jones) | C3: J Jupiter moved RA 58.99549 (59) |
 | Kempton 14:40 2021 (Hamish) | D3: Equator S/H 16/5 (0.0019 %) |
 | Goodwood 18:53 2021 (Madame Tantzy / Dobie) | D3: Equator H/J 11/9 (0.0038 %) |
