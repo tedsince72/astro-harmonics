@@ -31,8 +31,8 @@ what did NOT separate winners, the blind tests so far, and the open candidates. 
 Correction (Eddie, 13 Oct 2026): the ninths are NOT n/9. They are exactly the 48 `_NINTH_RANGES` in rebuild_kit/active_vibrations.py.
 tools/families.py imports Eddie's own scoring functions from that file (not copied). New tools use families.py. The frozen readers
 (layers v2, CR v1.1, JR v1, JR v3) and the watch line still use the OLD tolerances (whole ±0.005, ninth n/9 ±0.0005, movement ±0.01 /
-±0.0011, Equator ±0.01, golden list incl. 1/φ², % bands) until Eddie approves new versions. Past findings built on an n/9 outside the 48
-are listed in docs/classic/families_correction_20261013.md.
+±0.0011, Equator ±0.01, golden list incl. 1/φ², any p/q ratio with % bands) until Eddie approves new versions. Past findings built on an n/9 outside the 48
+and on a ratio off the interval list are listed in docs/classic/families_correction_20261013.md.
 - Whole numbers 1–200, ±0.02 (score_whole).
 - Golden interval: every multiple of φ, ±0.03236, zero multiple not scored (score_phi_interval).
 - φ powers: φ^-1, φ^1..10, 10φ^-1..7, 100φ^-1, 100φ (score_phi_powers). No 1/φ² forms.
@@ -40,12 +40,18 @@ are listed in docs/classic/families_correction_20261013.md.
   111.1…, 1.222…–1.888…, 12.22…–18.88…, 122.2…–177.7…. Not n/9.
 - √2: 1.414, 14.14, 141.4, 0.707, 7.07, 70.7; silver: 2.414, 24.14, 0.414, 4.14, 41.4. No multiples; tol max(0.5 % of target, 0.025).
 - Conjunction: RA < 1.5 or Dec < 0.3.
-- Simple ratios p/q (p <= 30, q <= 9, not 1), for ratio values; linear score on 0.005 % (Equator ratios 0.01 %).
+- Ratios: NOT any p/q. Eddie's musical interval list (blank-sheet-design section 10; also docs/sky_dig.md l.840, 871), tol 0.15 %:
+  Perfect 1, 2, 3/2, 4/3, 3, 4; Imperfect 5/4, 6/5, 5/3, 8/5, 5/2, 8/3, 9/4; Dissonant √2, 1+1/√2, 9/8, 16/9, 9/5, 15/8, 16/15;
+  Septimal 7/4, 7/3, 7/2, 7/5, 7/6, 8/7; Harmonic 5, 6, 7, 8, 9; High 11/5, 11/6, 11/3, 11/8, 11/4, 13/5, 13/8, 13/4;
+  Phi φ, φ², φ³, 1+√2, φ√5, 2−1/φ, φ³+1, 2/φ. Each ratio shows interval · name · group; Group column in every ratio table, a RATIOS BY
+  GROUP sheet per runner (grouped, tightest first), group tag in the field matrices. Ratio values are scored on this list only.
 - Planes RA, Dec, Flat, GC.
 - Decimal scaling: v, 10·v and v/10 are tested against every family, labelled ×10 / ÷10, in their own column (÷10 widens a tolerance 10× in degrees).
 - RA–Dec crossing (same body pair, RA distance in one chart = Dec distance in another): layout proposed, not built yet.
 - No birth-day certainty for now.
-- Nearest target = the family with the highest score. Colour by score: green >= 80, yellow 50–80, light yellow < 50 (inside the bounds).
+- Scores in every cell: squared (10 × (tol − dev) / tol)² for whole, golden, φ powers, √2, silver, conjunction and intervals; linear
+  100 × (tol − dev) / tol for ninths. Nearest target = the family with the highest score. Colour: green >= 80, yellow 50–80,
+  light yellow < 50 (inside the bounds). No summary totals for now.
 
 ## Tools (run from the repo root)
 - Layered reader: `tools/run_layers.sh <race>` = layer1_inventory → layer2_roots → layer3_web → layer4_field → layer5_reader.
@@ -58,8 +64,8 @@ are listed in docs/classic/families_correction_20261013.md.
   are run, blind (no results opened).
 - Viewing tool (13 Oct 2026, not a reader): `python3 tools/jupiter_tables.py <race_batch xlsx | reference/classic/<race> folder>` ->
   race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T15 per runner, field matrices, off and +5 min,
-  every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score). Venv python
-  (swisseph, pandas). Tests `python3 tests/jupiter_tables_check.py` (7/7). In the card pipeline: `run_card_swiss.py --tables`
+  every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score; ratios on the interval
+  list with Group column, P## RATIOS sheets, FIELD 12–15). Venv python (swisseph, pandas). Tests `python3 tests/jupiter_tables_check.py` (8/8). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).

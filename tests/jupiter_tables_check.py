@@ -3,14 +3,16 @@
 13 Oct 2026, Eddie's correction (tools/families.py): scores replace tolerance bands (green >= 80, yellow 50-80, light < 50);
 ninths = the 48 _NINTH_RANGES only. Test 1's ninth check (Dec 15.222681 -> 137/9, not one of the 48) replaced by T5 S Jupiter -> H Mercury
 RA 14.4444; expected values changed: T6 RA 18 green -> yellow (whole score 62.9), Pholas phi yellow -> green (golden 1xphi),
-Venturous S Uranus Dec 7.008205 yellow -> light (whole score 34.78)."""
+Venturous S Uranus Dec 7.008205 yellow -> light (whole score 34.78).
+Same day, Eddie's interval list for ratios (0.15 %, squared): Pholas phi now an interval, phi · golden ratio · Phi, +0.05151 %, score 43.11,
+light (green under the first families.py build, yellow under JR v3 bands); RATIOS BY GROUP sheet checked."""
 import os, subprocess, sys
 import openpyxl
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(REPO)
 GREEN, YELLOW, LIGHT = '00C6EFCE', '00FFEB9C', '00FFF8DC'
-COL = {'RA': 2, 'Dec': 10, 'Flat': 18, 'GC': 26}           # 0-based column of each plane's value (tables with 4 planes, 8 columns each)
+COL = {'RA': 2, 'Dec': 11, 'Flat': 20, 'GC': 29}           # 0-based column of each plane's value (tables with 4 planes, 9 columns each)
 RES = []
 
 
@@ -37,7 +39,7 @@ def sheet_of(wb, horse):
 def cell(r, pl, col0=None):
     c0 = COL[pl] if col0 is None else col0
     c = r[c0]
-    return c.value, r[c0 + 2].value, r[c0 + 3].value, (c.fill.start_color.rgb if c.fill.fill_type else None), r[c0 + 4].value
+    return c.value, r[c0 + 2].value, r[c0 + 4].value, (c.fill.start_color.rgb if c.fill.fill_type else None), r[c0 + 5].value
 
 
 print('Test 1: Nottingham 15:30 2022 (batch xlsx) — Dynamic Force')
@@ -59,12 +61,15 @@ wb = openpyxl.load_workbook(build('reference/classic/lingfield_aw_1435_20210402'
 ws = sheet_of(wb, 'Pholas')
 r = row(ws, 'T14', '|Dec| S Jupiter / |Dec| J Jupiter (inverted)')
 v, t, o, f, sc = cell(r, 'RA')
-check('1.61887 -> 1×φ (golden, +0.00083, score 94.92), green; also φ^1 (phi power)',
-      round(v, 5) == 1.61887 and t == '1×φ (golden)' and o == '+0.00083' and sc == 94.92 and f == GREEN and 'φ^1 (phi power)' in str(r[COL['RA'] + 6].value),
-      f'{v} {t} {o} {sc} {f} also {r[COL["RA"] + 6].value}')
+check('1.61887 -> φ · golden ratio · Phi (interval, +0.05151 %, score 43.11), light; Group column Phi',
+      round(v, 5) == 1.61887 and t == 'φ · golden ratio · Phi' and o == '+0.05151%' and sc == 43.11 and f == LIGHT and r[COL['RA'] + 1 + 2].value == 'Phi',
+      f'{v} {t} {o} {sc} {f} group {r[COL["RA"] + 3].value}')
+rs = wb[[n for n in wb.sheetnames if n.endswith(' RATIOS')][0]]
+hit = [x for x in rs.iter_rows(values_only=True) if x[1] == 'T14' and x[0] == 'Phi' and x[6] == 'φ']
+check('RATIOS BY GROUP sheet lists it under Phi, marked (inverted)', len(hit) == 1 and hit[0][9] == 43.11 and hit[0][2].endswith('(inverted)'), str(hit))
 r = row(ws, 'T7', 'S Rahu → H Jupiter')
-check('arrow n/a where the engine does not reproduce (S Rahu)', r[COL['RA'] + 1].value == 'n/a' and r[COL['RA'] + 5].value == 'n/a',
-      f"+5 {r[COL['RA'] + 1].value}, arrow {r[COL['RA'] + 5].value}")
+check('arrow n/a where the engine does not reproduce (S Rahu)', r[COL['RA'] + 1].value == 'n/a' and r[COL['RA'] + 6].value == 'n/a',
+      f"+5 {r[COL['RA'] + 1].value}, arrow {r[COL['RA'] + 6].value}")
 
 print('\nTest 3: Newcastle AW 13:30 2022 (batch xlsx) — Venturous, T7')
 wb = openpyxl.load_workbook(build('reference/classic/race_batch_20220102_newcastle_aw_1330.xlsx'))
