@@ -1,0 +1,85 @@
+P11 6 Solo Quest / Kieran Shoemark — JR v3 runner page (yarmouth_1354_20261012)
+   Jupiter: S RA 143.77311 Dec +15.03285 | H RA 42.62135 Dec +15.47075 | J RA 273.26096 Dec -23.18149
+   off 2026-10-12 13:54; race duration 87.5 s = 1.46 min (/Users/eddieplace/astronomy-project/racecards/20261012_uk_all/race_info.csv (20261012_yarmouth_1354)); exact-pre-off window 5 min
+   levels: strict / exact-in-race / exact-pre-off / near; t = |offset| / strict tolerance; field S/I/P/N = runners holding the same hit at each level, of 7.
+   shown: strict / exact-in-race / exact-pre-off; near only as a part of a combined hit or chain (then the line is near).
+   chains (CH, RA/Dec): field = runners sharing the root (same sky pair, same plane), by level. Everything else: P##_full.txt. No scores.
+
+C. TRANSIT TO NATAL
+   [C1] S Jupiter – J Neptune GC 154.11111 -> ninth 1387/9 off -0.00001 | strict | t 0.01 | a/s separating exact -0.1 min | field S1 I0 P0 N0 (holders 1/7)
+   [C2] S Mars – H Jupiter Dec 3.99852 -> whole 4 off -0.00148 | strict | t 0.30 | a/s separating exact -16.5 min | field S1 I0 P0 N0 (holders 1/7)
+   [C1] S Jupiter – H Orcus RA 14.14434 -> sqrt2 14.14 off +0.00221 | strict | t 0.44 | a/s applying exact +20.1 min | field S1 I0 P0 N1 (holders 2/7)
+   [C1] S Jupiter – J Pluto Dec 22.99765 -> whole 23 off -0.00235 | strict | t 0.47 | a/s separating exact -68.7 min | field S1 I0 P0 N1 (holders 2/7)
+   [C2] S Eris – H Jupiter Flat 21.99627 -> whole 22 off -0.00373 | strict | t 0.75 | a/s applying exact +10.3 h | field S1 I0 P0 N0 (holders 1/7)
+   [C2b] S Eris and S Mars both on H Jupiter: Flat 21.99627 -> 22 (whole, off -0.00373, t 0.75, strict, applying, exact +10.3 h) + Dec 3.99852 -> 4 (whole, off -0.00148, t 0.30, strict, separating, exact -16.5 min) | strict | t 0.75 | field S1 I0 P0 N0 (holders 1/7)
+   [C2] S Sun – H Jupiter GC 154.00401 -> whole 154 off +0.00401 | strict | t 0.80 | a/s separating exact -5.9 min | field S1 I0 P0 N0 (holders 1/7)
+   [C2b] S Eris and S Sun both on H Jupiter: Flat 21.99627 -> 22 (whole, off -0.00373, t 0.75, strict, applying, exact +10.3 h) + GC 154.00401 -> 154 (whole, off +0.00401, t 0.80, strict, separating, exact -5.9 min) | strict | t 0.80 | field S1 I0 P0 N0 (holders 1/7)
+   [C2b] S Mars and S Sun both on H Jupiter: Dec 3.99852 -> 4 (whole, off -0.00148, t 0.30, strict, separating, exact -16.5 min) + GC 154.00401 -> 154 (whole, off +0.00401, t 0.80, strict, separating, exact -5.9 min) | strict | t 0.80 | field S1 I0 P0 N0 (holders 1/7)
+   [C3] S Jupiter – J Jupiter Flat 135.00903 -> whole 135 off +0.00903 | strict | t 0.90 | a/s applying exact +78.6 min | field S1 I0 P0 N0 (holders 1/7)
+   [C2b] S Eris and S Mars both on H Jupiter: Flat 21.99627 -> 22 (whole, off -0.00373, t 0.75, strict, applying, exact +10.3 h) + Flat 88.11031 -> 793/9 (ninth, off -0.00080, t 1.61, near, applying, exact +2.0 min) | near | t 1.61 | field S0 I0 P0 N1 (holders 1/7)
+   [C2b] S Mars and S Sun both on H Jupiter: Flat 88.11031 -> 793/9 (ninth, off -0.00080, t 1.61, near, applying, exact +2.0 min) + GC 154.00401 -> 154 (whole, off +0.00401, t 0.80, strict, separating, exact -5.9 min) | near | t 1.61 | field S0 I0 P0 N1 (holders 1/7)
+   [C2b] S Eris and S Rahu both on H Jupiter: Flat 21.99627 -> 22 (whole, off -0.00373, t 0.75, strict, applying, exact +10.3 h) + Dec 27.55640 -> 248/9 (ninth, off +0.00084, t 1.69, near, separating, exact -21.9 min) | near | t 1.69 | field S0 I0 P0 N1 (holders 1/7)
+   [CH] sky Mars–Rahu Dec 31.55492 (race-wide; sum; root is a number: ninth 284/9 off -0.00063, near) -> H Jupiter at 3.99852 / 27.55640: Dec 3.99852 -> 4 (whole, off -0.00148, t 0.30, strict, separating, exact -16.5 min) + Dec 27.55640 -> 248/9 (ninth, off +0.00084, t 1.69, near, separating, exact -21.9 min) | near | t 1.69 | field S1 I0 P0 N1 (holders 2/7)
+   [C2b] S Rahu and S Sun both on H Jupiter: Dec 27.55640 -> 248/9 (ninth, off +0.00084, t 1.69, near, separating, exact -21.9 min) + GC 154.00401 -> 154 (whole, off +0.00401, t 0.80, strict, separating, exact -5.9 min) | near | t 1.69 | field S0 I0 P0 N1 (holders 1/7)
+   [C2b] S Eris and S Rahu both on H Jupiter: Flat 21.99627 -> 22 (whole, off -0.00373, t 0.75, strict, applying, exact +10.3 h) + RA 72.22136 -> 650/9 (ninth, off -0.00086, t 1.72, near, applying, exact +8.0 min) | near | t 1.72 | field S0 I0 P0 N1 (holders 1/7)
+   [C2b] S Mars and S Rahu both on H Jupiter: Dec 3.99852 -> 4 (whole, off -0.00148, t 0.30, strict, separating, exact -16.5 min) + RA 72.22136 -> 650/9 (ninth, off -0.00086, t 1.72, near, applying, exact +8.0 min) | near | t 1.72 | field S0 I0 P0 N1 (holders 1/7)
+   [C2b] S Rahu and S Sun both on H Jupiter: RA 72.22136 -> 650/9 (ninth, off -0.00086, t 1.72, near, applying, exact +8.0 min) + GC 154.00401 -> 154 (whole, off +0.00401, t 0.80, strict, separating, exact -5.9 min) | near | t 1.72 | field S0 I0 P0 N1 (holders 1/7)
+   [C2] S Ceres – H Jupiter RA 67.66754 -> ninth 609/9 off +0.00087 | exact-pre-off | t 1.74 | a/s separating exact -5.0 min | field S0 I0 P1 N0 (holders 1/7)
+   [C2b] S Ceres and S Eris both on H Jupiter: RA 67.66754 -> 609/9 (ninth, off +0.00087, t 1.74, exact-pre-off, separating, exact -5.0 min) + Flat 21.99627 -> 22 (whole, off -0.00373, t 0.75, strict, applying, exact +10.3 h) | exact-pre-off | t 1.74 | field S0 I0 P1 N0 (holders 1/7)
+   [C2b] S Ceres and S Mars both on H Jupiter: RA 67.66754 -> 609/9 (ninth, off +0.00087, t 1.74, exact-pre-off, separating, exact -5.0 min) + Dec 3.99852 -> 4 (whole, off -0.00148, t 0.30, strict, separating, exact -16.5 min) | exact-pre-off | t 1.74 | field S0 I0 P1 N0 (holders 1/7)
+   [C2b] S Ceres and S Sun both on H Jupiter: RA 67.66754 -> 609/9 (ninth, off +0.00087, t 1.74, exact-pre-off, separating, exact -5.0 min) + GC 154.00401 -> 154 (whole, off +0.00401, t 0.80, strict, separating, exact -5.9 min) | exact-pre-off | t 1.74 | field S0 I0 P1 N0 (holders 1/7)
+   [C2b] S Eris and S Saturn both on H Jupiter: Flat 21.99627 -> 22 (whole, off -0.00373, t 0.75, strict, applying, exact +10.3 h) + Dec 13.88986 -> 125/9 (ninth, off +0.00097, t 1.94, near, separating, exact -46.9 min) | near | t 1.94 | field S0 I0 P0 N1 (holders 1/7)
+   [CH] sky Mars–Saturn Dec 17.88838 (race-wide; sum; root is a number: ninth 161/9 off -0.00051, near) -> H Jupiter at 3.99852 / 13.88986: Dec 3.99852 -> 4 (whole, off -0.00148, t 0.30, strict, separating, exact -16.5 min) + Dec 13.88986 -> 125/9 (ninth, off +0.00097, t 1.94, near, separating, exact -46.9 min) | near | t 1.94 | field S1 I0 P0 N1 (holders 2/7)
+   [C2b] S Saturn and S Sun both on H Jupiter: Dec 13.88986 -> 125/9 (ninth, off +0.00097, t 1.94, near, separating, exact -46.9 min) + GC 154.00401 -> 154 (whole, off +0.00401, t 0.80, strict, separating, exact -5.9 min) | near | t 1.94 | field S0 I0 P0 N1 (holders 1/7)
+   [C2] S Moon – H Jupiter GC 172.55449 -> ninth 1553/9 off -0.00106 | exact-in-race | t 2.13 | a/s applying exact +0.5 min | field S0 I1 P0 N0 (holders 1/7)
+   [C2b] S Ceres and S Moon both on H Jupiter: RA 67.66754 -> 609/9 (ninth, off +0.00087, t 1.74, exact-pre-off, separating, exact -5.0 min) + GC 172.55449 -> 1553/9 (ninth, off -0.00106, t 2.13, exact-in-race, applying, exact +0.5 min) | exact-pre-off | t 2.13 | field S0 I0 P1 N0 (holders 1/7)
+   [C2b] S Eris and S Moon both on H Jupiter: Flat 21.99627 -> 22 (whole, off -0.00373, t 0.75, strict, applying, exact +10.3 h) + GC 172.55449 -> 1553/9 (ninth, off -0.00106, t 2.13, exact-in-race, applying, exact +0.5 min) | exact-in-race | t 2.13 | field S0 I1 P0 N0 (holders 1/7)
+   [C2b] S Mars and S Moon both on H Jupiter: Dec 3.99852 -> 4 (whole, off -0.00148, t 0.30, strict, separating, exact -16.5 min) + GC 172.55449 -> 1553/9 (ninth, off -0.00106, t 2.13, exact-in-race, applying, exact +0.5 min) | exact-in-race | t 2.13 | field S0 I1 P0 N0 (holders 1/7)
+   [C2b] S Moon and S Sun both on H Jupiter: GC 172.55449 -> 1553/9 (ninth, off -0.00106, t 2.13, exact-in-race, applying, exact +0.5 min) + GC 154.00401 -> 154 (whole, off +0.00401, t 0.80, strict, separating, exact -5.9 min) | exact-in-race | t 2.13 | field S0 I1 P0 N0 (holders 1/7)
+   [CH] sky Eris–Mars Dec 19.55522 (race-wide; sum; root is a number: ninth 176/9 off -0.00034, strict) -> H Jupiter at 15.55670 / 3.99852: Dec 15.55670 -> 140/9 (ninth, off +0.00114, t 2.29, near, separating, exact -514.4 min) + Dec 3.99852 -> 4 (whole, off -0.00148, t 0.30, strict, separating, exact -16.5 min) | near | t 2.29 | field S1 I0 P0 N1 (holders 2/7)
+   [C2b] S Eris and S Sun both on H Jupiter: Dec 15.55670 -> 140/9 (ninth, off +0.00114, t 2.29, near, separating, exact -514.4 min) + GC 154.00401 -> 154 (whole, off +0.00401, t 0.80, strict, separating, exact -5.9 min) | near | t 2.29 | field S0 I0 P0 N1 (holders 1/7)
+   [CH] sky Jupiter–Mars Dec 4.43642 (race-wide; sum; root is not a number) -> H Jupiter at 0.43790 / 3.99852: Dec 0.43790 -> 0.414 (silver, off +0.02368, t 2.37, near, separating, exact -11.5 h) + Dec 3.99852 -> 4 (whole, off -0.00148, t 0.30, strict, separating, exact -16.5 min) | near | t 2.37 | field S0 I0 P0 N4 (holders 4/7)
+   [C1b] S Jupiter strikes both ends of J Pluto – J Eris (close): Dec 22.99765 -> 23 (whole, off -0.00235, t 0.47, strict, separating, exact -68.7 min) + RA 121.22361 -> 1091/9 (ninth, off +0.00139, t 2.78, near, separating, exact -12.7 min) | near | t 2.78 | field S0 I0 P0 N1 (holders 1/7)
+   [C2b] S Eris and S Makemake both on H Jupiter: Flat 21.99627 -> 22 (whole, off -0.00373, t 0.75, strict, applying, exact +10.3 h) + Dec 4.25264 -> 4.236 (golden, off +0.01657, t 3.31, near, applying, exact +50.9 h) | near | t 3.31 | field S0 I0 P0 N1 (holders 1/7)
+   [CH] sky Makemake–Mars Dec 0.25412 (race-wide; difference; root is not a number) -> H Jupiter at 4.25264 / 3.99852: Dec 4.25264 -> 4.236 (golden, off +0.01657, t 3.31, near, applying, exact +50.9 h) + Dec 3.99852 -> 4 (whole, off -0.00148, t 0.30, strict, separating, exact -16.5 min) | near | t 3.31 | field S0 I0 P0 N1 (holders 1/7)
+   [C2b] S Makemake and S Sun both on H Jupiter: Dec 4.25264 -> 4.236 (golden, off +0.01657, t 3.31, near, applying, exact +50.9 h) + GC 154.00401 -> 154 (whole, off +0.00401, t 0.80, strict, separating, exact -5.9 min) | near | t 3.31 | field S0 I0 P0 N1 (holders 1/7)
+   [C2b] S Eris and S Mars both on H Jupiter: Flat 21.99627 -> 22 (whole, off -0.00373, t 0.75, strict, applying, exact +10.3 h) + RA 88.01953 -> 88 (whole, off +0.01953, t 3.91, near, separating, exact -48.9 min) | near | t 3.91 | field S0 I0 P0 N1 (holders 1/7)
+   [C2b] S Mars and S Sun both on H Jupiter: RA 88.01953 -> 88 (whole, off +0.01953, t 3.91, near, separating, exact -48.9 min) + GC 154.00401 -> 154 (whole, off +0.00401, t 0.80, strict, separating, exact -5.9 min) | near | t 3.91 | field S0 I0 P0 N1 (holders 1/7)
+   [C4] S Mars on H Jupiter in RA AND Dec: RA 88.01953 -> 88 (whole, off +0.01953, t 3.91, near, separating, exact -48.9 min) + Dec 3.99852 -> 4 (whole, off -0.00148, t 0.30, strict, separating, exact -16.5 min) | near | t 3.91 | field S0 I0 P0 N1 (holders 1/7)
+   [C2] S Moon – J Jupiter Dec 2.54888 -> ninth 23/9 off -0.00668 | exact-pre-off | t 13.36 | a/s separating exact -2.2 min | field S0 I0 P1 N0 (holders 1/7)
+   [C2] S Moon – H Jupiter RA 174.35377 -> ninth 1569/9 off +0.02044 | exact-pre-off | t 40.88 | a/s separating exact -3.3 min | field S0 I0 P1 N0 (holders 1/7)
+   [CH] sky Ceres–Moon RA 106.68624 (race-wide; difference; root is a number: ninth 960/9 off +0.01957, exact-pre-off) -> H Jupiter at 67.66754 / 174.35377: RA 67.66754 -> 609/9 (ninth, off +0.00087, t 1.74, exact-pre-off, separating, exact -5.0 min) + RA 174.35377 -> 1569/9 (ninth, off +0.02044, t 40.88, exact-pre-off, separating, exact -3.3 min) | exact-pre-off | t 40.88 | field S0 I0 P1 N0 (holders 1/7)
+   [C2b] S Eris and S Moon both on H Jupiter: Flat 21.99627 -> 22 (whole, off -0.00373, t 0.75, strict, applying, exact +10.3 h) + RA 174.35377 -> 1569/9 (ninth, off +0.02044, t 40.88, exact-pre-off, separating, exact -3.3 min) | exact-pre-off | t 40.88 | field S0 I0 P1 N0 (holders 1/7)
+   [C2b] S Mars and S Moon both on H Jupiter: Dec 3.99852 -> 4 (whole, off -0.00148, t 0.30, strict, separating, exact -16.5 min) + RA 174.35377 -> 1569/9 (ninth, off +0.02044, t 40.88, exact-pre-off, separating, exact -3.3 min) | exact-pre-off | t 40.88 | field S0 I0 P1 N0 (holders 1/7)
+   [C2b] S Moon and S Sun both on H Jupiter: RA 174.35377 -> 1569/9 (ninth, off +0.02044, t 40.88, exact-pre-off, separating, exact -3.3 min) + GC 154.00401 -> 154 (whole, off +0.00401, t 0.80, strict, separating, exact -5.9 min) | exact-pre-off | t 40.88 | field S0 I0 P1 N0 (holders 1/7)
+
+D. RATIOS OF THE SAME RELATIONSHIP
+   [D2] (S Jupiter–J Orcus) / (J Jupiter–J Orcus) (inverted) Dec 23.61783 / 14.59650 = 1.61805 -> golden 1.618 off +0.00084% | strict | t 0.17 | a/s separating exact -3.6 min | field S1 I0 P0 N0 (holders 1/7)
+   [D1] (S Jupiter–S Chiron) / (J Jupiter–J Chiron) RA 117.25347 / 81.17406 = 1.44447 -> ratio 13/9 off +0.00175% | strict | t 0.35 | a/s separating exact -14.7 min | field S1 I0 P0 N0 (holders 1/7)
+   [D1] (S Jupiter–S Rahu) / (H Jupiter–H Rahu) Dec 27.11850 / 9.43235 = 2.87505 -> ratio 23/8 off +0.00186% | strict | t 0.37 | a/s separating exact -117.5 min | field S1 I0 P0 N0 (holders 1/7)
+
+E. THREE-WAY MIDPOINTS
+   -
+
+B. NATAL TO NATAL — joined by the sky (cut 4)
+   [B1] J Jupiter – J Gonggong GC 53.44446 -> ninth 481/9 off +0.00002 | strict | t 0.03 | a/s n/a | field S1 I0 P0 N0 (holders 1/7) | joined: J Jupiter struck
+   [B2] (H Jupiter–H Fomalhaut) / (H Jupiter–J Jupiter) (inverted) RA 129.36039 / 58.21185 = 2.22223 -> ratio 20/9 off +0.00057% | strict | t 0.11 | a/s n/a | field S1 I0 P0 N0 (holders 1/7) | joined: H Jupiter struck; J Jupiter struck
+   [B3] H Mercury – J Jupiter GC 106.00059 -> whole 106 off +0.00059 | strict | t 0.12 | a/s n/a | field S1 I0 P0 N0 (holders 1/7) | joined: J Jupiter struck
+   [B3] H Jupiter – J Ceres GC 165.99892 -> whole 166 off -0.00108 | strict | t 0.22 | a/s n/a | field S1 I0 P0 N0 (holders 1/7) | joined: H Jupiter struck
+   [B1] J Jupiter – J Algorab Dec 6.66680 -> ninth 60/9 off +0.00014 | strict | t 0.27 | a/s n/a | field S1 I0 P0 N0 (holders 1/7) | joined: J Jupiter struck
+   [B3] cross link H Ceres – J Jupiter RA 11.2760 Dec 0.1263 | strict | t 0.42 | field S2 I0 P0 N1 (holders 3/7) | joined: J Jupiter struck
+   [B2] (H Jupiter–H Vesta) / (H Jupiter–J Jupiter) (inverted) Flat 135.01151 / 45.00483 = 2.99993 -> whole 3 off -0.00222% | strict | t 0.44 | a/s n/a | field S1 I0 P0 N1 (holders 2/7) | joined: H Jupiter struck; J Jupiter struck
+   [B3] H Venus – J Jupiter GC 68.54340 -> golden 68.54 off +0.00238 | strict | t 0.48 | a/s n/a | field S1 I0 P0 N0 (holders 1/7) | joined: J Jupiter struck
+   [B2] (H Jupiter–H Fomalhaut) / (H Jupiter–J Jupiter) Dec 45.09536 / 38.65223 = 1.16669 -> ratio 7/6 off +0.00241% | strict | t 0.48 | a/s n/a | field S1 I0 P0 N0 (holders 1/7) | joined: H Jupiter struck; J Jupiter struck
+   [B1] J Jupiter – J Arcturus Dec 42.36333 -> golden 42.36 off +0.00265 | strict | t 0.53 | a/s n/a | field S1 I0 P0 N1 (holders 2/7) | joined: J Jupiter struck
+   [B2] (J Jupiter–J Saturn) / (J Jupiter–H Jupiter) (inverted) Dec 38.65223 / 17.56968 = 2.19994 -> ratio 11/5 off -0.00274% | strict | t 0.55 | a/s n/a | field S1 I0 P0 N0 (holders 1/7) | joined: J Jupiter struck; H Jupiter struck
+   [B2] (J Jupiter–J Ceres) / (J Jupiter–H Jupiter) (inverted) Flat 135.01151 / 37.50433 = 3.59989 -> ratio 18/5 off -0.00303% | strict | t 0.61 | a/s n/a | field S1 I0 P0 N0 (holders 1/7) | joined: J Jupiter struck; H Jupiter struck
+   [B1] H Jupiter – H Altair GC 101.77811 -> ninth 916/9 off +0.00033 | strict | t 0.67 | a/s n/a | field S1 I0 P0 N0 (holders 1/7) | joined: H Jupiter struck
+   [B2] (J Jupiter–J Ceres) / (J Jupiter–equator) (inverted) Dec 23.18149 / 9.48302 = 2.44453 -> ratio 22/9 off +0.00336% | strict | t 0.67 | a/s n/a | field S1 I0 P0 N0 (holders 1/7) | joined: J Jupiter struck
+   [B3] H Jupiter – J Juno RA 100.44402 -> ninth 904/9 off -0.00042 | strict | t 0.85 | a/s n/a | field S1 I0 P0 N0 (holders 1/7) | joined: H Jupiter struck
+   [B3] H Chiron – J Jupiter GC 104.99551 -> whole 105 off -0.00449 | strict | t 0.90 | a/s n/a | field S1 I0 P0 N0 (holders 1/7) | joined: J Jupiter struck
+   [B1] H Jupiter – H Vesta Flat 45.00483 -> whole 45 off +0.00483 | strict | t 0.97 | a/s n/a | field S1 I0 P0 N1 (holders 2/7) | joined: H Jupiter struck
+   [B1] H Jupiter – H Uranus Dec 1.99503 -> whole 2 off -0.00497 | strict | t 0.99 | a/s n/a | field S1 I0 P0 N0 (holders 1/7) | joined: H Jupiter struck
+
+A. THE RACE SKY — joined by this runner
+   -

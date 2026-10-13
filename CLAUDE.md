@@ -84,7 +84,8 @@ what did NOT separate winners, the blind tests so far, and the open candidates. 
    Claude does NOT open the csv (it holds the result) and opens nothing else that could hold it.
 2. Split: `python3 tools/split_batch.py <batch.xlsx> reference/classic/<course>_<hhmm>_<yyyymmdd> <course>_<hhmm>_<yyyymmdd>`.
 3. Blind read with the frozen tools only: `bash tools/run_layers.sh <race>`, `python3 tools/checklist_reader.py <race>`,
-   `python3 tools/scans/watch_jupiter.py <race>`. No rule, threshold or watch-line change before the result.
+   `python3 tools/scans/watch_jupiter.py <race>`, `bash tools/jup/run_all.sh <race>` (JR v1) and `python3 tools/jupiter_reader.py <race>` (JR v3).
+   No rule, threshold or watch-line change before the result.
 4. Independent checker (subagent, blind: no csv / results / --results) recomputes the race page, field-only claims, joins and watch line
    from the workbooks. Apply corrections. Commit + push the blind read BEFORE the result ("Blind N: <race> ...").
 5. Show Eddie the race page, joins per runner and the watch line. Open the result only when Eddie says:

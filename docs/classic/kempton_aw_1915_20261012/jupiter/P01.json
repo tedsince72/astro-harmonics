@@ -1,0 +1,8513 @@
+{
+ "runner": "P01",
+ "cloth": "1",
+ "horse": "Floating Market",
+ "jockey": "Oisin Murphy",
+ "hits": [
+  {
+   "m": "B1",
+   "pts": [
+    "H Jupiter",
+    "H Venus"
+   ],
+   "plane": "RA",
+   "value": 20.1117393852953,
+   "desc": "H Jupiter \u2013 H Venus",
+   "flags": [],
+   "target": "181/9",
+   "target_value": 20.11111111111111,
+   "family": "ninth",
+   "level": "near",
+   "offset": 0.000628274184190758,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 1.256548368381516,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": false,
+   "key": "B1|H Jupiter|H Venus|RA|181/9",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "H Jupiter",
+    "H Saturn"
+   ],
+   "plane": "RA",
+   "value": 41.98710518272219,
+   "desc": "H Jupiter \u2013 H Saturn",
+   "flags": [],
+   "target": "42",
+   "target_value": 42.0,
+   "family": "whole",
+   "level": "near",
+   "offset": -0.012894817277810944,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 2.5789634555621888,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": false,
+   "key": "B1|H Jupiter|H Saturn|RA|42",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "H Jupiter",
+    "H Uranus"
+   ],
+   "plane": "Dec",
+   "value": 10.665148438545321,
+   "desc": "H Jupiter \u2013 H Uranus",
+   "flags": [],
+   "target": "96/9",
+   "target_value": 10.666666666666666,
+   "family": "ninth",
+   "level": "near",
+   "offset": -0.0015182281213448334,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 3.036456242689667,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": false,
+   "key": "B1|H Jupiter|H Uranus|Dec|96/9",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "H Jupiter",
+    "H Chiron"
+   ],
+   "plane": "Dec",
+   "value": 1.61507565354081,
+   "desc": "H Jupiter \u2013 H Chiron",
+   "flags": [],
+   "target": "1.618",
+   "target_value": 1.618033988749895,
+   "family": "golden",
+   "level": "strict",
+   "offset": -0.00295833520908495,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 0.59166704181699,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": false,
+   "key": "B1|H Jupiter|H Chiron|Dec|1.618",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "H Jupiter",
+    "H Chiron"
+   ],
+   "plane": "GC",
+   "value": 3.4447916661704676,
+   "desc": "H Jupiter \u2013 H Chiron",
+   "flags": [],
+   "target": "31/9",
+   "target_value": 3.4444444444444446,
+   "family": "ninth",
+   "level": "strict",
+   "offset": 0.00034722172602297263,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 0.6944434520459453,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": false,
+   "key": "B1|H Jupiter|H Chiron|GC|31/9",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "H Jupiter",
+    "H Ceres"
+   ],
+   "plane": "Dec",
+   "value": 9.996132210074123,
+   "desc": "H Jupiter \u2013 H Ceres",
+   "flags": [],
+   "target": "10",
+   "target_value": 10.0,
+   "family": "whole",
+   "level": "strict",
+   "offset": -0.0038677899258772186,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 0.7735579851754437,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": false,
+   "key": "B1|H Jupiter|H Ceres|Dec|10",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "H Jupiter",
+    "H Haumea"
+   ],
+   "plane": "Dec",
+   "value": 9.667452166221713,
+   "desc": "H Jupiter \u2013 H Haumea",
+   "flags": [],
+   "target": "87/9",
+   "target_value": 9.666666666666666,
+   "family": "ninth",
+   "level": "near",
+   "offset": 0.0007854995550466981,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 1.5709991100933962,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": false,
+   "key": "B1|H Jupiter|H Haumea|Dec|87/9",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "H Jupiter",
+    "H Orcus"
+   ],
+   "plane": "Dec",
+   "value": 18.018261020140358,
+   "desc": "H Jupiter \u2013 H Orcus",
+   "flags": [],
+   "target": "18",
+   "target_value": 18.0,
+   "family": "whole",
+   "level": "near",
+   "offset": 0.018261020140357687,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 3.6522040280715373,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": false,
+   "key": "B1|H Jupiter|H Orcus|Dec|18",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "H Jupiter",
+    "H Transpluto"
+   ],
+   "plane": "Dec",
+   "value": 4.777030431342222,
+   "desc": "H Jupiter \u2013 H Transpluto",
+   "flags": [],
+   "target": "43/9",
+   "target_value": 4.777777777777778,
+   "family": "ninth",
+   "level": "near",
+   "offset": -0.0007473464355554071,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 1.4946928711108143,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": false,
+   "key": "B1|H Jupiter|H Transpluto|Dec|43/9",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "H Jupiter",
+    "H Aldebaran"
+   ],
+   "plane": "Flat",
+   "value": 53.988319064639924,
+   "desc": "H Jupiter \u2013 H Aldebaran",
+   "flags": [],
+   "target": "54",
+   "target_value": 54.0,
+   "family": "whole",
+   "level": "near",
+   "offset": -0.01168093536007575,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 2.33618707201515,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": true,
+   "key": "B1|H Jupiter|H Aldebaran|Flat|54",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "H Jupiter",
+    "H Regulus"
+   ],
+   "plane": "RA",
+   "value": 136.00974813944163,
+   "desc": "H Jupiter \u2013 H Regulus",
+   "flags": [],
+   "target": "136",
+   "target_value": 136.0,
+   "family": "whole",
+   "level": "near",
+   "offset": 0.009748139441626336,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 1.9496278883252671,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": true,
+   "key": "B1|H Jupiter|H Regulus|RA|136",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "H Jupiter",
+    "H Antares"
+   ],
+   "plane": "GC",
+   "value": 126.98464473568704,
+   "desc": "H Jupiter \u2013 H Antares",
+   "flags": [],
+   "target": "127",
+   "target_value": 127.0,
+   "family": "whole",
+   "level": "near",
+   "offset": -0.015355264312958639,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 3.0710528625917277,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": true,
+   "key": "B1|H Jupiter|H Antares|GC|127",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "H Jupiter",
+    "H Rigel"
+   ],
+   "plane": "Dec",
+   "value": 13.888428008072625,
+   "desc": "H Jupiter \u2013 H Rigel",
+   "flags": [],
+   "target": "125/9",
+   "target_value": 13.88888888888889,
+   "family": "ninth",
+   "level": "strict",
+   "offset": -0.00046088081626471933,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 0.9217616325294387,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": true,
+   "key": "B1|H Jupiter|H Rigel|Dec|125/9",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "J Jupiter",
+    "J Sun"
+   ],
+   "plane": "GC",
+   "value": 83.88873465250188,
+   "desc": "J Jupiter \u2013 J Sun",
+   "flags": [],
+   "target": "755/9",
+   "target_value": 83.88888888888889,
+   "family": "ninth",
+   "level": "strict",
+   "offset": -0.00015423638700440279,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 0.3084727740088056,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": false,
+   "key": "B1|J Jupiter|J Sun|GC|755/9",
+   "joined_by": [
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "J Jupiter",
+    "J Pluto"
+   ],
+   "plane": "RA",
+   "value": 6.855743652261111,
+   "desc": "J Jupiter \u2013 J Pluto",
+   "flags": [],
+   "target": "6.854",
+   "target_value": 6.854101966249686,
+   "family": "golden",
+   "level": "strict",
+   "offset": 0.0016416860114256693,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 0.32833720228513386,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": false,
+   "key": "B1|J Jupiter|J Pluto|RA|6.854",
+   "joined_by": [
+    "J Jupiter struck",
+    "J Pluto struck"
+   ],
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "J Jupiter",
+    "J Pallas"
+   ],
+   "plane": "RA",
+   "value": 89.9894619041716,
+   "desc": "J Jupiter \u2013 J Pallas",
+   "flags": [],
+   "target": "90",
+   "target_value": 90.0,
+   "family": "whole",
+   "level": "near",
+   "offset": -0.01053809582839449,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 2.107619165678898,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": false,
+   "key": "B1|J Jupiter|J Pallas|RA|90",
+   "joined_by": [
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "J Jupiter",
+    "J Sedna"
+   ],
+   "plane": "RA",
+   "value": 159.55553093116455,
+   "desc": "J Jupiter \u2013 J Sedna",
+   "flags": [],
+   "target": "1436/9",
+   "target_value": 159.55555555555554,
+   "family": "ninth",
+   "level": "strict",
+   "offset": -2.462439098849245e-05,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 0.0492487819769849,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": false,
+   "key": "B1|J Jupiter|J Sedna|RA|1436/9",
+   "joined_by": [
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "J Jupiter",
+    "J Makemake"
+   ],
+   "plane": "RA",
+   "value": 70.98872067737221,
+   "desc": "J Jupiter \u2013 J Makemake",
+   "flags": [],
+   "target": "71",
+   "target_value": 71.0,
+   "family": "whole",
+   "level": "near",
+   "offset": -0.01127932262778586,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 2.255864525557172,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": false,
+   "key": "B1|J Jupiter|J Makemake|RA|71",
+   "joined_by": [
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "J Jupiter",
+    "J Quaoar"
+   ],
+   "plane": "RA",
+   "value": 5.9863407900633945,
+   "desc": "J Jupiter \u2013 J Quaoar",
+   "flags": [],
+   "target": "6",
+   "target_value": 6.0,
+   "family": "whole",
+   "level": "near",
+   "offset": -0.01365920993660552,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 2.731841987321104,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": false,
+   "key": "B1|J Jupiter|J Quaoar|RA|6",
+   "joined_by": [
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "J Jupiter",
+    "J Gonggong"
+   ],
+   "plane": "RA",
+   "value": 85.01208627375831,
+   "desc": "J Jupiter \u2013 J Gonggong",
+   "flags": [],
+   "target": "85",
+   "target_value": 85.0,
+   "family": "whole",
+   "level": "near",
+   "offset": 0.012086273758313837,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 2.4172547516627674,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": false,
+   "key": "B1|J Jupiter|J Gonggong|RA|85",
+   "joined_by": [
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "J Jupiter",
+    "J Gonggong"
+   ],
+   "plane": "Dec",
+   "value": 2.4237123771222713,
+   "desc": "J Jupiter \u2013 J Gonggong",
+   "flags": [],
+   "target": "2.414",
+   "target_value": 2.414213562373095,
+   "family": "silver",
+   "level": "near",
+   "offset": 0.009498814749176354,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 1.8997629498352708,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": false,
+   "key": "B1|J Jupiter|J Gonggong|Dec|2.414",
+   "joined_by": [
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "J Jupiter",
+    "J Algol"
+   ],
+   "plane": "Dec",
+   "value": 62.01052956884169,
+   "desc": "J Jupiter \u2013 J Algol",
+   "flags": [],
+   "target": "62",
+   "target_value": 62.0,
+   "family": "whole",
+   "level": "near",
+   "offset": 0.010529568841690207,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 2.1059137683380413,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": true,
+   "key": "B1|J Jupiter|J Algol|Dec|62",
+   "joined_by": [
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "J Jupiter",
+    "J Algol"
+   ],
+   "plane": "Flat",
+   "value": 172.88821027983528,
+   "desc": "J Jupiter \u2013 J Algol",
+   "flags": [],
+   "target": "1556/9",
+   "target_value": 172.88888888888889,
+   "family": "ninth",
+   "level": "near",
+   "offset": -0.0006786090536081701,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 1.3572181072163403,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": true,
+   "key": "B1|J Jupiter|J Algol|Flat|1556/9",
+   "joined_by": [
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "J Jupiter",
+    "J Pleiades"
+   ],
+   "plane": "GC",
+   "value": 171.3344496541446,
+   "desc": "J Jupiter \u2013 J Pleiades",
+   "flags": [],
+   "target": "1542/9",
+   "target_value": 171.33333333333334,
+   "family": "ninth",
+   "level": "near",
+   "offset": 0.0011163208112634493,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 2.2326416225268986,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": true,
+   "key": "B1|J Jupiter|J Pleiades|GC|1542/9",
+   "joined_by": [
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "J Jupiter",
+    "J Algorab"
+   ],
+   "plane": "GC",
+   "value": 54.99677579956795,
+   "desc": "J Jupiter \u2013 J Algorab",
+   "flags": [],
+   "target": "55",
+   "target_value": 55.0,
+   "family": "whole",
+   "level": "strict",
+   "offset": -0.00322420043205085,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 0.64484008641017,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": true,
+   "key": "B1|J Jupiter|J Algorab|GC|55",
+   "joined_by": [
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "J Jupiter",
+    "J Alphecca"
+   ],
+   "plane": "RA",
+   "value": 11.990648674066108,
+   "desc": "J Jupiter \u2013 J Alphecca",
+   "flags": [],
+   "target": "12",
+   "target_value": 12.0,
+   "family": "whole",
+   "level": "near",
+   "offset": -0.009351325933891985,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 1.870265186778397,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": true,
+   "key": "B1|J Jupiter|J Alphecca|RA|12",
+   "joined_by": [
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B1",
+   "pts": [
+    "J Jupiter",
+    "J Castor"
+   ],
+   "plane": "RA",
+   "value": 132.0147031314416,
+   "desc": "J Jupiter \u2013 J Castor",
+   "flags": [],
+   "target": "132",
+   "target_value": 132.0,
+   "family": "whole",
+   "level": "near",
+   "offset": 0.014703131441592632,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 2.9406262883185263,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "flags_star": true,
+   "key": "B1|J Jupiter|J Castor|RA|132",
+   "joined_by": [
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B2",
+   "pts": [
+    "H Jupiter",
+    "H Mars",
+    "H equator"
+   ],
+   "plane": "Dec",
+   "value": 3.5006164953141,
+   "desc": "(H Jupiter\u2013H Mars) / (H Jupiter\u2013equator)",
+   "flags": [],
+   "target": "7/2",
+   "target_value": 3.5,
+   "family": "ratio",
+   "level": "near",
+   "offset": 0.017614151831435443,
+   "unit": "%",
+   "tol": 0.005,
+   "t": 3.5228303662870886,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "num": 19.89688436599397,
+   "den": 5.683822947365927,
+   "flip": false,
+   "v5": null,
+   "key": "B2|H Jupiter|H Mars|H equator|Dec|7/2",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B2",
+   "pts": [
+    "H Jupiter",
+    "H Vesta",
+    "J Jupiter"
+   ],
+   "plane": "Flat",
+   "value": 28.002951725983444,
+   "desc": "(H Jupiter\u2013H Vesta) / (H Jupiter\u2013J Jupiter) (inverted)",
+   "flags": [],
+   "target": "28",
+   "target_value": 28.0,
+   "family": "whole",
+   "level": "near",
+   "offset": 0.010541878512304592,
+   "unit": "%",
+   "tol": 0.005,
+   "t": 2.1083757024609184,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "num": 4.7544478481047205,
+   "den": 133.13857357418235,
+   "flip": true,
+   "v5": null,
+   "key": "B2|H Jupiter|H Vesta|J Jupiter|Flat|28",
+   "joined_by": [
+    "H Jupiter struck",
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B2",
+   "pts": [
+    "H Jupiter",
+    "H Ketu",
+    "J Jupiter"
+   ],
+   "plane": "Dec",
+   "value": 1.4444757910185935,
+   "desc": "(H Jupiter\u2013H Ketu) / (H Jupiter\u2013J Jupiter) (inverted)",
+   "flags": [],
+   "target": "13/9",
+   "target_value": 1.4444444444444444,
+   "family": "ratio",
+   "level": "strict",
+   "offset": 0.0021701474410829036,
+   "unit": "%",
+   "tol": 0.005,
+   "t": 0.4340294882165807,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "num": 18.511982315339168,
+   "den": 26.74011029827176,
+   "flip": true,
+   "v5": null,
+   "key": "B2|H Jupiter|H Ketu|J Jupiter|Dec|13/9",
+   "joined_by": [
+    "H Jupiter struck",
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "B2",
+   "pts": [
+    "H Jupiter",
+    "H Aldebaran",
+    "H Regulus"
+   ],
+   "plane": "RA",
+   "value": 2.5714486191722377,
+   "desc": "(H Jupiter\u2013H Aldebaran) / (H Jupiter\u2013H Regulus) (inverted)",
+   "flags": [],
+   "target": "18/7",
+   "target_value": 2.5714285714285716,
+   "family": "ratio",
+   "level": "strict",
+   "offset": 0.0007796344759114504,
+   "unit": "%",
+   "tol": 0.005,
+   "t": 0.15592689518229008,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "num": 52.89226746565283,
+   "den": 136.00974813944163,
+   "flip": true,
+   "v5": null,
+   "key": "B2|H Jupiter|H Aldebaran|H Regulus|RA|18/7",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "B2",
+   "pts": [
+    "J Jupiter",
+    "J Mars",
+    "H Jupiter"
+   ],
+   "plane": "Flat",
+   "value": 3.375646948192868,
+   "desc": "(J Jupiter\u2013J Mars) / (J Jupiter\u2013H Jupiter) (inverted)",
+   "flags": [],
+   "target": "27/8",
+   "target_value": 3.375,
+   "family": "ratio",
+   "level": "near",
+   "offset": 0.019168835344229862,
+   "unit": "%",
+   "tol": 0.005,
+   "t": 3.8337670688459724,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "num": 39.440905881895404,
+   "den": 133.13857357418235,
+   "flip": true,
+   "v5": null,
+   "key": "B2|J Jupiter|J Mars|H Jupiter|Flat|27/8",
+   "joined_by": [
+    "J Jupiter struck",
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B2",
+   "pts": [
+    "J Jupiter",
+    "J Haumea",
+    "H Jupiter"
+   ],
+   "plane": "RA",
+   "value": 2.428785449722792,
+   "desc": "(J Jupiter\u2013J Haumea) / (J Jupiter\u2013H Jupiter) (inverted)",
+   "flags": [],
+   "target": "17/7",
+   "target_value": 2.4285714285714284,
+   "family": "ratio",
+   "level": "near",
+   "offset": 0.00881263564438406,
+   "unit": "%",
+   "tol": 0.005,
+   "t": 1.7625271288768118,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "num": 53.6999408700828,
+   "den": 130.42563503623137,
+   "flip": true,
+   "v5": null,
+   "key": "B2|J Jupiter|J Haumea|H Jupiter|RA|17/7",
+   "joined_by": [
+    "J Jupiter struck",
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B2",
+   "pts": [
+    "J Jupiter",
+    "J Regulus",
+    "J Fomalhaut"
+   ],
+   "plane": "Dec",
+   "value": 3.8563817853448263,
+   "desc": "(J Jupiter\u2013J Regulus) / (J Jupiter\u2013J Fomalhaut)",
+   "flags": [],
+   "target": "27/7",
+   "target_value": 3.857142857142857,
+   "family": "ratio",
+   "level": "near",
+   "offset": -0.01973149106005989,
+   "unit": "%",
+   "tol": 0.005,
+   "t": 3.9462982120119783,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "num": 33.025405935180416,
+   "den": 8.56383205124681,
+   "flip": false,
+   "v5": null,
+   "key": "B2|J Jupiter|J Regulus|J Fomalhaut|Dec|27/7",
+   "joined_by": [
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B3",
+   "pts": [
+    "H Jupiter",
+    "J Venus"
+   ],
+   "plane": "GC",
+   "value": 151.00305873795722,
+   "desc": "H Jupiter \u2013 J Venus",
+   "flags": [],
+   "target": "151",
+   "target_value": 151.0,
+   "family": "whole",
+   "level": "strict",
+   "offset": 0.003058737957218227,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 0.6117475914436454,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "key": "B3|H Jupiter|J Venus|GC|151",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "B3",
+   "pts": [
+    "H Jupiter",
+    "J Venus"
+   ],
+   "plane": "RA/Dec",
+   "value": null,
+   "desc": "cross link H Jupiter \u2013 J Venus RA 153.4315 Dec 0.3549",
+   "flags": [],
+   "target": "contact",
+   "target_value": null,
+   "family": "contact",
+   "level": "near",
+   "offset": 0.3549449317066182,
+   "unit": "deg",
+   "tol": null,
+   "t": 1.183149772355394,
+   "rate": null,
+   "eta": null,
+   "as": "n/a (natal)",
+   "RA": 153.43153457382184,
+   "Dec": 0.3549449317066182,
+   "key": "B3|H Jupiter|J Venus|RA/Dec|contact",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B3",
+   "pts": [
+    "H Jupiter",
+    "J Saturn"
+   ],
+   "plane": "Dec",
+   "value": 10.998358438703262,
+   "desc": "H Jupiter \u2013 J Saturn",
+   "flags": [],
+   "target": "11",
+   "target_value": 11.0,
+   "family": "whole",
+   "level": "strict",
+   "offset": -0.0016415612967382032,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 0.32831225934764063,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "key": "B3|H Jupiter|J Saturn|Dec|11",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "B3",
+   "pts": [
+    "H Jupiter",
+    "J Saturn"
+   ],
+   "plane": "GC",
+   "value": 25.00308951423042,
+   "desc": "H Jupiter \u2013 J Saturn",
+   "flags": [],
+   "target": "25",
+   "target_value": 25.0,
+   "family": "whole",
+   "level": "strict",
+   "offset": 0.003089514230421031,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 0.6179028460842062,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "key": "B3|H Jupiter|J Saturn|GC|25",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "B3",
+   "pts": [
+    "H Jupiter",
+    "J Uranus"
+   ],
+   "plane": "Dec",
+   "value": 27.008422612574655,
+   "desc": "H Jupiter \u2013 J Uranus",
+   "flags": [],
+   "target": "27",
+   "target_value": 27.0,
+   "family": "whole",
+   "level": "near",
+   "offset": 0.008422612574655375,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 1.684522514931075,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "key": "B3|H Jupiter|J Uranus|Dec|27",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B3",
+   "pts": [
+    "H Jupiter",
+    "J Sedna"
+   ],
+   "plane": "GC",
+   "value": 29.017594898212113,
+   "desc": "H Jupiter \u2013 J Sedna",
+   "flags": [],
+   "target": "29",
+   "target_value": 29.0,
+   "family": "whole",
+   "level": "near",
+   "offset": 0.017594898212113463,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 3.5189796424226927,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "key": "B3|H Jupiter|J Sedna|GC|29",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B3",
+   "pts": [
+    "H Jupiter",
+    "J Sedna"
+   ],
+   "plane": "GC",
+   "value": 29.017594898212113,
+   "desc": "H Jupiter \u2013 J Sedna",
+   "flags": [],
+   "target": "29.03",
+   "target_value": 29.03444185374864,
+   "family": "golden",
+   "level": "near",
+   "offset": -0.0168469555365256,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 3.3693911073051197,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "key": "B3|H Jupiter|J Sedna|GC|29.03",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B3",
+   "pts": [
+    "H Jupiter",
+    "J Haumea"
+   ],
+   "plane": "Dec",
+   "value": 15.984422490748385,
+   "desc": "H Jupiter \u2013 J Haumea",
+   "flags": [],
+   "target": "16",
+   "target_value": 16.0,
+   "family": "whole",
+   "level": "near",
+   "offset": -0.015577509251615496,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 3.115501850323099,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "key": "B3|H Jupiter|J Haumea|Dec|16",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B3",
+   "pts": [
+    "H Jupiter",
+    "J Orcus"
+   ],
+   "plane": "Flat",
+   "value": 118.88802975642862,
+   "desc": "H Jupiter \u2013 J Orcus",
+   "flags": [],
+   "target": "1070/9",
+   "target_value": 118.88888888888889,
+   "family": "ninth",
+   "level": "near",
+   "offset": -0.0008591324602633676,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 1.7182649205267353,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "key": "B3|H Jupiter|J Orcus|Flat|1070/9",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B3",
+   "pts": [
+    "H Jupiter",
+    "J Transpluto"
+   ],
+   "plane": "GC",
+   "value": 126.99592877372903,
+   "desc": "H Jupiter \u2013 J Transpluto",
+   "flags": [],
+   "target": "127",
+   "target_value": 127.0,
+   "family": "whole",
+   "level": "strict",
+   "offset": -0.004071226270966122,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 0.8142452541932244,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "key": "B3|H Jupiter|J Transpluto|GC|127",
+   "joined_by": [
+    "H Jupiter struck"
+   ],
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "B3",
+   "pts": [
+    "H Sun",
+    "J Jupiter"
+   ],
+   "plane": "RA",
+   "value": 117.33267602191938,
+   "desc": "H Sun \u2013 J Jupiter",
+   "flags": [],
+   "target": "1056/9",
+   "target_value": 117.33333333333333,
+   "family": "ninth",
+   "level": "near",
+   "offset": -0.0006573114139456493,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 1.3146228278912986,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "key": "B3|H Sun|J Jupiter|RA|1056/9",
+   "joined_by": [
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B3",
+   "pts": [
+    "H Sun",
+    "J Jupiter"
+   ],
+   "plane": "Flat",
+   "value": 119.44249160098914,
+   "desc": "H Sun \u2013 J Jupiter",
+   "flags": [],
+   "target": "1075/9",
+   "target_value": 119.44444444444444,
+   "family": "ninth",
+   "level": "near",
+   "offset": -0.0019528434552995577,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 3.9056869105991154,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "key": "B3|H Sun|J Jupiter|Flat|1075/9",
+   "joined_by": [
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B3",
+   "pts": [
+    "H Venus",
+    "J Jupiter"
+   ],
+   "plane": "Dec",
+   "value": 35.980556520272614,
+   "desc": "H Venus \u2013 J Jupiter",
+   "flags": [],
+   "target": "36",
+   "target_value": 36.0,
+   "family": "whole",
+   "level": "near",
+   "offset": -0.019443479727385693,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 3.8886959454771386,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "key": "B3|H Venus|J Jupiter|Dec|36",
+   "joined_by": [
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "B3",
+   "pts": [
+    "H Venus",
+    "J Jupiter"
+   ],
+   "plane": "Flat",
+   "value": 154.7775873478956,
+   "desc": "H Venus \u2013 J Jupiter",
+   "flags": [],
+   "target": "1393/9",
+   "target_value": 154.77777777777777,
+   "family": "ninth",
+   "level": "strict",
+   "offset": -0.0001904298821671091,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 0.3808597643342182,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "key": "B3|H Venus|J Jupiter|Flat|1393/9",
+   "joined_by": [
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "B3",
+   "pts": [
+    "H Saturn",
+    "J Jupiter"
+   ],
+   "plane": "Flat",
+   "value": 88.88778614437243,
+   "desc": "H Saturn \u2013 J Jupiter",
+   "flags": [],
+   "target": "800/9",
+   "target_value": 88.88888888888889,
+   "family": "ninth",
+   "level": "near",
+   "offset": -0.0011027445164586425,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 2.205489032917285,
+   "rate": null,
+   "eta": null,
+   "as": "n/a",
+   "v5": null,
+   "key": "B3|H Saturn|J Jupiter|Flat|800/9",
+   "joined_by": [
+    "J Jupiter struck"
+   ],
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "H Mars"
+   ],
+   "plane": "GC",
+   "value": 52.01846191726785,
+   "desc": "S Jupiter \u2013 H Mars",
+   "flags": [],
+   "target": "52",
+   "target_value": 52.0,
+   "family": "whole",
+   "level": "near",
+   "offset": 0.018461917267849515,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 3.692383453569903,
+   "rate": 0.00011220681473105288,
+   "eta": -164.53472377859273,
+   "as": "separating",
+   "v5": 52.019022951341505,
+   "key": "C1|S Jupiter|H Mars|GC|52",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "H Pluto"
+   ],
+   "plane": "Flat",
+   "value": 162.99373762741786,
+   "desc": "S Jupiter \u2013 H Pluto",
+   "flags": [],
+   "target": "163",
+   "target_value": 163.0,
+   "family": "whole",
+   "level": "near",
+   "offset": -0.006262372582142461,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 1.2524745164284923,
+   "rate": -0.00011576333128573423,
+   "eta": -54.096340461085084,
+   "as": "separating",
+   "v5": 162.99315881076143,
+   "key": "C1|S Jupiter|H Pluto|Flat|163",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "H Chiron"
+   ],
+   "plane": "Flat",
+   "value": 131.01264726749605,
+   "desc": "S Jupiter \u2013 H Chiron",
+   "flags": [],
+   "target": "131",
+   "target_value": 131.0,
+   "family": "whole",
+   "level": "near",
+   "offset": 0.012647267496049608,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 2.5294534992099216,
+   "rate": 0.00010869448813082272,
+   "eta": -116.35610704406267,
+   "as": "separating",
+   "v5": 131.0131907399367,
+   "key": "C1|S Jupiter|H Chiron|Flat|131",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "H Makemake"
+   ],
+   "plane": "GC",
+   "value": 52.98438805327392,
+   "desc": "S Jupiter \u2013 H Makemake",
+   "flags": [],
+   "target": "53",
+   "target_value": 53.0,
+   "family": "whole",
+   "level": "near",
+   "offset": -0.015611946726082238,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 3.1223893452164475,
+   "rate": -9.253414020093942e-05,
+   "eta": -168.71553236654748,
+   "as": "separating",
+   "v5": 52.98392538257291,
+   "key": "C1|S Jupiter|H Makemake|GC|53",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "H Transpluto"
+   ],
+   "plane": "RA",
+   "value": 10.980383268800125,
+   "desc": "S Jupiter \u2013 H Transpluto",
+   "flags": [],
+   "target": "11",
+   "target_value": 11.0,
+   "family": "whole",
+   "level": "near",
+   "offset": -0.01961673119987495,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 3.9233462399749897,
+   "rate": -0.0001108956911707537,
+   "eta": -176.8935383582192,
+   "as": "separating",
+   "v5": 10.979828790344271,
+   "key": "C1|S Jupiter|H Transpluto|RA|11",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "H Transpluto"
+   ],
+   "plane": "Flat",
+   "value": 11.889987393842851,
+   "desc": "S Jupiter \u2013 H Transpluto",
+   "flags": [],
+   "target": "107/9",
+   "target_value": 11.88888888888889,
+   "family": "ninth",
+   "level": "near",
+   "offset": 0.0010985049539620206,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 2.1970099079240413,
+   "rate": -0.00011548141813229051,
+   "eta": 9.51239577525469,
+   "as": "applying",
+   "v5": 11.88940998675219,
+   "key": "C1|S Jupiter|H Transpluto|Flat|107/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "H Procyon"
+   ],
+   "plane": "RA",
+   "value": 28.985735127844293,
+   "desc": "S Jupiter \u2013 H Procyon",
+   "flags": [
+    "copy"
+   ],
+   "target": "29",
+   "target_value": 29.0,
+   "family": "whole",
+   "level": "near",
+   "offset": -0.014264872155706598,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 2.8529744311413197,
+   "rate": 0.0001108956911707537,
+   "eta": 128.63324088707824,
+   "as": "applying",
+   "v5": 28.986289606300147,
+   "key": "C1|S Jupiter|H Procyon|RA|29",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01",
+     "P03",
+     "P05",
+     "P07",
+     "P09",
+     "P11"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "H Spica"
+   ],
+   "plane": "Dec",
+   "value": 26.18530105090539,
+   "desc": "S Jupiter \u2013 H Spica",
+   "flags": [
+    "copy"
+   ],
+   "target": "26.18",
+   "target_value": 26.18033988749895,
+   "family": "golden",
+   "level": "strict",
+   "offset": 0.004961163406441926,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 0.9922326812883853,
+   "rate": -3.407032234221674e-05,
+   "eta": 145.61539384951809,
+   "as": "applying",
+   "v5": 26.18513069929368,
+   "key": "C1|S Jupiter|H Spica|Dec|26.18",
+   "field": {
+    "strict": [
+     "P01",
+     "P03",
+     "P05",
+     "P07",
+     "P09",
+     "P11"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "H Arcturus"
+   ],
+   "plane": "Dec",
+   "value": 4.1446040733319585,
+   "desc": "S Jupiter \u2013 H Arcturus",
+   "flags": [
+    "copy"
+   ],
+   "target": "4.14",
+   "target_value": 4.142135623730951,
+   "family": "silver",
+   "level": "strict",
+   "offset": 0.0024684496010074497,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 0.49368992020148994,
+   "rate": 3.407032234221674e-05,
+   "eta": -72.45160689157258,
+   "as": "separating",
+   "v5": 4.1447744249436695,
+   "key": "C1|S Jupiter|H Arcturus|Dec|4.14",
+   "field": {
+    "strict": [
+     "P01",
+     "P03",
+     "P05",
+     "P07",
+     "P09",
+     "P11"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "H Betelgeuse"
+   ],
+   "plane": "RA",
+   "value": 55.01573230838008,
+   "desc": "S Jupiter \u2013 H Betelgeuse",
+   "flags": [
+    "copy"
+   ],
+   "target": "55",
+   "target_value": 55.0,
+   "family": "whole",
+   "level": "near",
+   "offset": 0.01573230838008044,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 3.146461676016088,
+   "rate": 0.0001108956911707537,
+   "eta": -141.86582196287793,
+   "as": "separating",
+   "v5": 55.016286786835934,
+   "key": "C1|S Jupiter|H Betelgeuse|RA|55",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01",
+     "P03",
+     "P05",
+     "P07",
+     "P09",
+     "P11"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "H Castor"
+   ],
+   "plane": "Flat",
+   "value": 34.554144947215725,
+   "desc": "S Jupiter \u2013 H Castor",
+   "flags": [
+    "copy"
+   ],
+   "target": "311/9",
+   "target_value": 34.55555555555556,
+   "family": "ninth",
+   "level": "near",
+   "offset": -0.0014106083398317537,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 2.8212166796635074,
+   "rate": 0.0001134179860656559,
+   "eta": 12.437254343549837,
+   "as": "applying",
+   "v5": 34.554712037146054,
+   "key": "C1|S Jupiter|H Castor|Flat|311/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "H Castor"
+   ],
+   "plane": "GC",
+   "value": 32.222733490357925,
+   "desc": "S Jupiter \u2013 H Castor",
+   "flags": [
+    "copy"
+   ],
+   "target": "290/9",
+   "target_value": 32.22222222222222,
+   "family": "ninth",
+   "level": "exact-pre-off",
+   "offset": 0.0005112681357033466,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 1.0225362714066932,
+   "rate": 0.0001061273168559751,
+   "eta": -4.8174979906180635,
+   "as": "separating",
+   "v5": 32.223264126942205,
+   "key": "C1|S Jupiter|H Castor|GC|290/9",
+   "field": {
+    "strict": [
+     "P11"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [
+     "P01"
+    ],
+    "near": []
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "H Altair"
+   ],
+   "plane": "RA",
+   "value": 153.88864631287274,
+   "desc": "S Jupiter \u2013 H Altair",
+   "flags": [
+    "copy"
+   ],
+   "target": "1385/9",
+   "target_value": 153.88888888888889,
+   "family": "ninth",
+   "level": "strict",
+   "offset": -0.00024257601614863233,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 0.48515203229726467,
+   "rate": -0.0001108956911707537,
+   "eta": -2.1874250801604314,
+   "as": "separating",
+   "v5": 153.88809183441688,
+   "key": "C1|S Jupiter|H Altair|RA|1385/9",
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P11"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "H Altair"
+   ],
+   "plane": "Flat",
+   "value": 154.01164811998024,
+   "desc": "S Jupiter \u2013 H Altair",
+   "flags": [
+    "copy"
+   ],
+   "target": "154",
+   "target_value": 154.0,
+   "family": "whole",
+   "level": "near",
+   "offset": 0.011648119980236515,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 2.329623996047303,
+   "rate": -0.00011216850267032896,
+   "eta": 103.84483792630407,
+   "as": "applying",
+   "v5": 154.01108727746688,
+   "key": "C1|S Jupiter|H Altair|Flat|154",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01",
+     "P03",
+     "P05",
+     "P07",
+     "P09",
+     "P11"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "H Altair"
+   ],
+   "plane": "GC",
+   "value": 144.77894290027632,
+   "desc": "S Jupiter \u2013 H Altair",
+   "flags": [
+    "copy"
+   ],
+   "target": "1303/9",
+   "target_value": 144.77777777777777,
+   "family": "ninth",
+   "level": "near",
+   "offset": 0.0011651224985484987,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 2.3302449970969974,
+   "rate": -5.837871198650646e-05,
+   "eta": 19.95800282160735,
+   "as": "applying",
+   "v5": 144.7786510067164,
+   "key": "C1|S Jupiter|H Altair|GC|1303/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01",
+     "P03",
+     "P05",
+     "P11"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "J Venus"
+   ],
+   "plane": "Dec",
+   "value": 8.983114275689996,
+   "desc": "S Jupiter \u2013 J Venus",
+   "flags": [],
+   "target": "9",
+   "target_value": 9.0,
+   "family": "whole",
+   "level": "near",
+   "offset": -0.016885724310004235,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 3.377144862000847,
+   "rate": -3.407032234221674e-05,
+   "eta": -495.61387005373393,
+   "as": "separating",
+   "v5": 8.982943924078285,
+   "key": "C1|S Jupiter|J Venus|Dec|9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "J Pluto"
+   ],
+   "plane": "RA",
+   "value": 94.9962597440583,
+   "desc": "S Jupiter \u2013 J Pluto",
+   "flags": [],
+   "target": "95",
+   "target_value": 95.0,
+   "family": "whole",
+   "level": "strict",
+   "offset": -0.003740255941693249,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 0.7480511883386498,
+   "rate": -0.0001108956911707537,
+   "eta": -33.72769403577746,
+   "as": "separating",
+   "v5": 94.99570526560245,
+   "key": "C1|S Jupiter|J Pluto|RA|95",
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "J Ceres"
+   ],
+   "plane": "Dec",
+   "value": 8.666687770000836,
+   "desc": "S Jupiter \u2013 J Ceres",
+   "flags": [],
+   "target": "78/9",
+   "target_value": 8.666666666666666,
+   "family": "ninth",
+   "level": "strict",
+   "offset": 2.110333416993626e-05,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 0.04220666833987252,
+   "rate": -3.407032234221674e-05,
+   "eta": 0.6194051807894695,
+   "as": "applying",
+   "v5": 8.666517418389125,
+   "key": "C1|S Jupiter|J Ceres|Dec|78/9",
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "J Sedna"
+   ],
+   "plane": "GC",
+   "value": 97.00868307587758,
+   "desc": "S Jupiter \u2013 J Sedna",
+   "flags": [],
+   "target": "97",
+   "target_value": 97.0,
+   "family": "whole",
+   "level": "near",
+   "offset": 0.008683075877584656,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 1.7366151755169312,
+   "rate": 0.00011043348071666514,
+   "eta": -78.62720455096841,
+   "as": "separating",
+   "v5": 97.00923524328117,
+   "key": "C1|S Jupiter|J Sedna|GC|97",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "J Haumea"
+   ],
+   "plane": "GC",
+   "value": 46.01057433327929,
+   "desc": "S Jupiter \u2013 J Haumea",
+   "flags": [],
+   "target": "46",
+   "target_value": 46.0,
+   "family": "whole",
+   "level": "near",
+   "offset": 0.010574333279286918,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 2.1148666558573836,
+   "rate": -9.378110624993496e-05,
+   "eta": 112.75547604552011,
+   "as": "applying",
+   "v5": 46.01010542774804,
+   "key": "C1|S Jupiter|J Haumea|GC|46",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "J Quaoar"
+   ],
+   "plane": "Dec",
+   "value": 29.054197743321588,
+   "desc": "S Jupiter \u2013 J Quaoar",
+   "flags": [],
+   "target": "29.03",
+   "target_value": 29.03444185374864,
+   "family": "golden",
+   "level": "near",
+   "offset": 0.019755889572948604,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 3.951177914589721,
+   "rate": -3.40703223415062e-05,
+   "eta": 579.8562565661721,
+   "as": "applying",
+   "v5": 29.05402739170988,
+   "key": "C1|S Jupiter|J Quaoar|Dec|29.03",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "J Procyon"
+   ],
+   "plane": "RA",
+   "value": 28.985533612297687,
+   "desc": "S Jupiter \u2013 J Procyon",
+   "flags": [
+    "copy"
+   ],
+   "target": "29",
+   "target_value": 29.0,
+   "family": "whole",
+   "level": "near",
+   "offset": -0.014466387702313455,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 2.893277540462691,
+   "rate": 0.0001108956911707537,
+   "eta": 130.45040388484134,
+   "as": "applying",
+   "v5": 28.98608809075354,
+   "key": "C1|S Jupiter|J Procyon|RA|29",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01",
+     "P03",
+     "P07",
+     "P09",
+     "P11"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "J Spica"
+   ],
+   "plane": "Dec",
+   "value": 26.181656339515918,
+   "desc": "S Jupiter \u2013 J Spica",
+   "flags": [
+    "copy"
+   ],
+   "target": "26.18",
+   "target_value": 26.18033988749895,
+   "family": "golden",
+   "level": "strict",
+   "offset": 0.0013164520169688387,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 0.26329040339376775,
+   "rate": -3.40703223415062e-05,
+   "eta": 38.63925922899385,
+   "as": "applying",
+   "v5": 26.18148598790421,
+   "key": "C1|S Jupiter|J Spica|Dec|26.18",
+   "field": {
+    "strict": [
+     "P01",
+     "P03",
+     "P05",
+     "P07",
+     "P09",
+     "P11"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "J Spica"
+   ],
+   "plane": "GC",
+   "value": 62.66700404902013,
+   "desc": "S Jupiter \u2013 J Spica",
+   "flags": [
+    "copy"
+   ],
+   "target": "564/9",
+   "target_value": 62.666666666666664,
+   "family": "ninth",
+   "level": "strict",
+   "offset": 0.0003373823534644771,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 0.6747647069289542,
+   "rate": -0.00011215785844882475,
+   "eta": 3.0081026700275086,
+   "as": "applying",
+   "v5": 62.666443259727885,
+   "key": "C1|S Jupiter|J Spica|GC|564/9",
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P03"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "J Rigel"
+   ],
+   "plane": "Dec",
+   "value": 23.220651178336528,
+   "desc": "S Jupiter \u2013 J Rigel",
+   "flags": [
+    "copy"
+   ],
+   "target": "209/9",
+   "target_value": 23.22222222222222,
+   "family": "ninth",
+   "level": "near",
+   "offset": -0.0015710438856935127,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 3.1420877713870254,
+   "rate": -3.407032234221674e-05,
+   "eta": -46.11179988006227,
+   "as": "separating",
+   "v5": 23.220480826724817,
+   "key": "C1|S Jupiter|J Rigel|Dec|209/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01",
+     "P03",
+     "P07",
+     "P09"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "J Betelgeuse"
+   ],
+   "plane": "RA",
+   "value": 55.01700388799493,
+   "desc": "S Jupiter \u2013 J Betelgeuse",
+   "flags": [
+    "copy"
+   ],
+   "target": "55",
+   "target_value": 55.0,
+   "family": "whole",
+   "level": "near",
+   "offset": 0.017003887994931688,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 3.4007775989863376,
+   "rate": 0.0001108956911707537,
+   "eta": -153.33226940936447,
+   "as": "separating",
+   "v5": 55.017558366450785,
+   "key": "C1|S Jupiter|J Betelgeuse|RA|55",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01",
+     "P03",
+     "P05",
+     "P07"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "J Altair"
+   ],
+   "plane": "RA",
+   "value": 153.890301464844,
+   "desc": "S Jupiter \u2013 J Altair",
+   "flags": [
+    "copy"
+   ],
+   "target": "1385/9",
+   "target_value": 153.88888888888889,
+   "family": "ninth",
+   "level": "near",
+   "offset": 0.0014125759551006922,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 2.8251519102013845,
+   "rate": -0.0001108956911707537,
+   "eta": 12.737879535153915,
+   "as": "applying",
+   "v5": 153.88974698638813,
+   "key": "C1|S Jupiter|J Altair|RA|1385/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01",
+     "P11"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "J Altair"
+   ],
+   "plane": "Flat",
+   "value": 154.0131925933361,
+   "desc": "S Jupiter \u2013 J Altair",
+   "flags": [
+    "copy"
+   ],
+   "target": "154",
+   "target_value": 154.0,
+   "family": "whole",
+   "level": "near",
+   "offset": 0.013192593336100344,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 2.638518667220069,
+   "rate": -0.00011216796403914486,
+   "eta": 117.61462775143477,
+   "as": "applying",
+   "v5": 154.0126317535159,
+   "key": "C1|S Jupiter|J Altair|Flat|154",
+   "field": {
+    "strict": [
+     "P05"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01",
+     "P03",
+     "P07",
+     "P09",
+     "P11"
+    ]
+   }
+  },
+  {
+   "m": "C1",
+   "pts": [
+    "S Jupiter",
+    "J Altair"
+   ],
+   "plane": "GC",
+   "value": 144.7782980407032,
+   "desc": "S Jupiter \u2013 J Altair",
+   "flags": [
+    "copy"
+   ],
+   "target": "1303/9",
+   "target_value": 144.77777777777777,
+   "family": "ninth",
+   "level": "near",
+   "offset": 0.0005202629254199564,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 1.040525850839913,
+   "rate": -5.836963531464789e-05,
+   "eta": 8.913246118729752,
+   "as": "applying",
+   "v5": 144.77800619252662,
+   "key": "C1|S Jupiter|J Altair|GC|1303/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C3",
+   "pts": [
+    "S Jupiter",
+    "H Jupiter"
+   ],
+   "plane": "GC",
+   "value": 124.21864965565636,
+   "desc": "S Jupiter \u2013 H Jupiter",
+   "flags": [],
+   "target": "1118/9",
+   "target_value": 124.22222222222223,
+   "family": "ninth",
+   "level": "near",
+   "offset": -0.0035725665658645767,
+   "unit": "deg",
+   "tol": 0.0011,
+   "t": 3.247787787149615,
+   "rate": 0.0001123936876552989,
+   "eta": 31.786185153220615,
+   "as": "applying",
+   "v5": 124.21921162409464,
+   "key": "C3|S Jupiter|H Jupiter|GC|1118/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Sun",
+    "H Jupiter"
+   ],
+   "plane": "Flat",
+   "value": 178.98052155875527,
+   "desc": "S Sun \u2013 H Jupiter",
+   "flags": [],
+   "target": "179",
+   "target_value": 179.0,
+   "family": "whole",
+   "level": "near",
+   "offset": -0.019478441244729083,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 3.8956882489458167,
+   "rate": -0.0006212908560769392,
+   "eta": -31.35156594404621,
+   "as": "separating",
+   "v5": 178.9774151044749,
+   "key": "C2|S Sun|H Jupiter|Flat|179",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Saturn",
+    "H Jupiter"
+   ],
+   "plane": "Dec",
+   "value": 4.109559290640267,
+   "desc": "S Saturn \u2013 H Jupiter",
+   "flags": [],
+   "target": "37/9",
+   "target_value": 4.111111111111111,
+   "family": "ninth",
+   "level": "near",
+   "offset": -0.0015518204708433458,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 3.1036409416866917,
+   "rate": 2.0618302660757593e-05,
+   "eta": 75.2642201628408,
+   "as": "applying",
+   "v5": 4.109662382153571,
+   "key": "C2|S Saturn|H Jupiter|Dec|37/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Pallas",
+    "H Jupiter"
+   ],
+   "plane": "RA",
+   "value": 3.334121195299769,
+   "desc": "S Pallas \u2013 H Jupiter",
+   "flags": [],
+   "target": "30/9",
+   "target_value": 3.3333333333333335,
+   "family": "ninth",
+   "level": "near",
+   "offset": 0.0007878619664354325,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 1.575723932870865,
+   "rate": -0.0001367813569061127,
+   "eta": 5.760009874563711,
+   "as": "applying",
+   "v5": 3.3334372885152384,
+   "key": "C2|S Pallas|H Jupiter|RA|30/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Pallas",
+    "H Jupiter"
+   ],
+   "plane": "GC",
+   "value": 21.55718385992164,
+   "desc": "S Pallas \u2013 H Jupiter",
+   "flags": [],
+   "target": "194/9",
+   "target_value": 21.555555555555557,
+   "family": "ninth",
+   "level": "near",
+   "offset": 0.0016283043660827445,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 3.256608732165489,
+   "rate": 0.00014907819857796768,
+   "eta": -10.922484854357451,
+   "as": "separating",
+   "v5": 21.55792925091453,
+   "key": "C2|S Pallas|H Jupiter|GC|194/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Vesta",
+    "H Jupiter"
+   ],
+   "plane": "Dec",
+   "value": 8.999154627204897,
+   "desc": "S Vesta \u2013 H Jupiter",
+   "flags": [],
+   "target": "9",
+   "target_value": 9.0,
+   "family": "whole",
+   "level": "strict",
+   "offset": -0.0008453727951032164,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 0.16907455902064328,
+   "rate": 6.0706609094651755e-05,
+   "eta": 13.925547938036514,
+   "as": "applying",
+   "v5": 8.99945816025037,
+   "key": "C2|S Vesta|H Jupiter|Dec|9",
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Eris",
+    "H Jupiter"
+   ],
+   "plane": "RA",
+   "value": 10.9824714854377,
+   "desc": "S Eris \u2013 H Jupiter",
+   "flags": [],
+   "target": "11",
+   "target_value": 11.0,
+   "family": "whole",
+   "level": "near",
+   "offset": -0.017528514562300757,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 3.5057029124601513,
+   "rate": -6.2034077700445774e-06,
+   "eta": -2825.626689727475,
+   "as": "separating",
+   "v5": 10.982440468398849,
+   "key": "C2|S Eris|H Jupiter|RA|11",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Makemake",
+    "H Jupiter"
+   ],
+   "plane": "GC",
+   "value": 153.985549396139,
+   "desc": "S Makemake \u2013 H Jupiter",
+   "flags": [],
+   "target": "154",
+   "target_value": 154.0,
+   "family": "whole",
+   "level": "near",
+   "offset": -0.014450603861007494,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 2.8901207722014988,
+   "rate": 2.464163685544918e-06,
+   "eta": 5864.3035549044425,
+   "as": "applying",
+   "v5": 153.98556171695742,
+   "key": "C2|S Makemake|H Jupiter|GC|154",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Moon",
+    "H Jupiter"
+   ],
+   "plane": "GC",
+   "value": 152.6788289232868,
+   "desc": "S Moon \u2013 H Jupiter",
+   "flags": [],
+   "target": "1374/9",
+   "target_value": 152.66666666666666,
+   "family": "ninth",
+   "level": "exact-in-race",
+   "offset": 0.012162256620143808,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 24.324513240287615,
+   "rate": -0.007436462579823911,
+   "eta": 1.6354895206682798,
+   "as": "applying",
+   "v5": 152.64164661038768,
+   "key": "C2|S Moon|H Jupiter|GC|1374/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [
+     "P01"
+    ],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Mars",
+    "J Jupiter"
+   ],
+   "plane": "RA",
+   "value": 114.89067482162909,
+   "desc": "S Mars \u2013 J Jupiter",
+   "flags": [],
+   "target": "1034/9",
+   "target_value": 114.88888888888889,
+   "family": "ninth",
+   "level": "near",
+   "offset": 0.0017859327402049985,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 3.571865480409997,
+   "rate": -0.0004036927680488134,
+   "eta": 4.423989928868502,
+   "as": "applying",
+   "v5": 114.88865635778885,
+   "key": "C2|S Mars|J Jupiter|RA|1034/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Saturn",
+    "J Jupiter"
+   ],
+   "plane": "Flat",
+   "value": 126.88745739763272,
+   "desc": "S Saturn \u2013 J Jupiter",
+   "flags": [],
+   "target": "1142/9",
+   "target_value": 126.88888888888889,
+   "family": "ninth",
+   "level": "near",
+   "offset": -0.0014314912561701476,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 2.862982512340295,
+   "rate": -5.234113527308182e-05,
+   "eta": -27.349258832494982,
+   "as": "separating",
+   "v5": 126.88719569195635,
+   "key": "C2|S Saturn|J Jupiter|Flat|1142/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Saturn",
+    "J Jupiter"
+   ],
+   "plane": "GC",
+   "value": 122.88703127953539,
+   "desc": "S Saturn \u2013 J Jupiter",
+   "flags": [],
+   "target": "1106/9",
+   "target_value": 122.88888888888889,
+   "family": "ninth",
+   "level": "near",
+   "offset": -0.001857609353493217,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 3.715218706986434,
+   "rate": -5.3544904358204806e-05,
+   "eta": -34.692551527708005,
+   "as": "separating",
+   "v5": 122.8867635550136,
+   "key": "C2|S Saturn|J Jupiter|GC|1106/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Uranus",
+    "J Jupiter"
+   ],
+   "plane": "Dec",
+   "value": 42.016184175065106,
+   "desc": "S Uranus \u2013 J Jupiter",
+   "flags": [],
+   "target": "42",
+   "target_value": 42.0,
+   "family": "whole",
+   "level": "near",
+   "offset": 0.016184175065106388,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 3.2368350130212775,
+   "rate": -3.1024354896658226e-06,
+   "eta": 5216.603252191929,
+   "as": "applying",
+   "v5": 42.01616866288766,
+   "key": "C2|S Uranus|J Jupiter|Dec|42",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Pluto",
+    "J Jupiter"
+   ],
+   "plane": "Dec",
+   "value": 2.6685463638082503,
+   "desc": "S Pluto \u2013 J Jupiter",
+   "flags": [],
+   "target": "24/9",
+   "target_value": 2.6666666666666665,
+   "family": "ninth",
+   "level": "near",
+   "offset": 0.0018796971415837582,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 3.7593942831675164,
+   "rate": -7.052879169577864e-08,
+   "eta": 26651.48652612269,
+   "as": "applying",
+   "v5": 2.668546011164292,
+   "key": "C2|S Pluto|J Jupiter|Dec|24/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Vesta",
+    "J Jupiter"
+   ],
+   "plane": "RA",
+   "value": 136.99298126949503,
+   "desc": "S Vesta \u2013 J Jupiter",
+   "flags": [],
+   "target": "137",
+   "target_value": 137.0,
+   "family": "whole",
+   "level": "near",
+   "offset": -0.007018730504967152,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 1.4037461009934304,
+   "rate": -0.00016625726863708223,
+   "eta": -42.21608211481038,
+   "as": "separating",
+   "v5": 136.99214998315185,
+   "key": "C2|S Vesta|J Jupiter|RA|137",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Eris",
+    "J Jupiter"
+   ],
+   "plane": "RA",
+   "value": 141.40810652166908,
+   "desc": "S Eris \u2013 J Jupiter",
+   "flags": [],
+   "target": "141.4",
+   "target_value": 141.4213562373095,
+   "family": "sqrt2",
+   "level": "near",
+   "offset": -0.013249715640426984,
+   "unit": "deg",
+   "tol": 0.005,
+   "t": 2.649943128085397,
+   "rate": -6.2034077700445774e-06,
+   "eta": -2135.8769456375385,
+   "as": "separating",
+   "v5": 141.40807550463023,
+   "key": "C2|S Eris|J Jupiter|RA|141.4",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Makemake",
+    "J Jupiter"
+   ],
+   "plane": "RA",
+   "value": 43.887021932909306,
+   "desc": "S Makemake \u2013 J Jupiter",
+   "flags": [],
+   "target": "395/9",
+   "target_value": 43.888888888888886,
+   "family": "ninth",
+   "level": "near",
+   "offset": -0.001866955979579643,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 3.733911959159286,
+   "rate": -1.375378254806492e-05,
+   "eta": -135.7412750314504,
+   "as": "separating",
+   "v5": 43.886953163996566,
+   "key": "C2|S Makemake|J Jupiter|RA|395/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Makemake",
+    "J Jupiter"
+   ],
+   "plane": "Dec",
+   "value": 40.77791960102786,
+   "desc": "S Makemake \u2013 J Jupiter",
+   "flags": [],
+   "target": "367/9",
+   "target_value": 40.77777777777778,
+   "family": "ninth",
+   "level": "strict",
+   "offset": 0.00014182325008249563,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 0.28364650016499127,
+   "rate": -5.516384831594223e-06,
+   "eta": 25.709455451734506,
+   "as": "applying",
+   "v5": 40.7778920191037,
+   "key": "C2|S Makemake|J Jupiter|Dec|367/9",
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Orcus",
+    "J Jupiter"
+   ],
+   "plane": "RA",
+   "value": 84.331829870501,
+   "desc": "S Orcus \u2013 J Jupiter",
+   "flags": [],
+   "target": "759/9",
+   "target_value": 84.33333333333333,
+   "family": "ninth",
+   "level": "near",
+   "offset": -0.0015034628323320476,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 3.006925664664095,
+   "rate": -1.1829995054313258e-05,
+   "eta": -127.08904994714091,
+   "as": "separating",
+   "v5": 84.33177072052572,
+   "key": "C2|S Orcus|J Jupiter|RA|759/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Quaoar",
+    "J Jupiter"
+   ],
+   "plane": "Flat",
+   "value": 35.44407603767675,
+   "desc": "S Quaoar \u2013 J Jupiter",
+   "flags": [],
+   "target": "319/9",
+   "target_value": 35.44444444444444,
+   "family": "ninth",
+   "level": "strict",
+   "offset": -0.00036840676769145375,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 0.7368135353829075,
+   "rate": 4.830000976596694e-06,
+   "eta": 76.27467768154362,
+   "as": "applying",
+   "v5": 35.444100187681634,
+   "key": "C2|S Quaoar|J Jupiter|Flat|319/9",
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Gonggong",
+    "J Jupiter"
+   ],
+   "plane": "Dec",
+   "value": 10.77880103118811,
+   "desc": "S Gonggong \u2013 J Jupiter",
+   "flags": [],
+   "target": "97/9",
+   "target_value": 10.777777777777779,
+   "family": "ninth",
+   "level": "near",
+   "offset": 0.0010232534103309376,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 2.0465068206618753,
+   "rate": -1.519231878077676e-06,
+   "eta": 673.5333987499572,
+   "as": "applying",
+   "v5": 10.77879343502872,
+   "key": "C2|S Gonggong|J Jupiter|Dec|97/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2",
+   "pts": [
+    "S Moon",
+    "J Jupiter"
+   ],
+   "plane": "GC",
+   "value": 24.671679404924696,
+   "desc": "S Moon \u2013 J Jupiter",
+   "flags": [],
+   "target": "222/9",
+   "target_value": 24.666666666666668,
+   "family": "ninth",
+   "level": "exact-in-race",
+   "offset": 0.005012738258027838,
+   "unit": "deg",
+   "tol": 0.0005,
+   "t": 10.025476516055676,
+   "rate": -0.007654429092659854,
+   "eta": 0.6548807490861414,
+   "as": "applying",
+   "v5": 24.633407259461396,
+   "key": "C2|S Moon|J Jupiter|GC|222/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [
+     "P01"
+    ],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "C1b",
+   "pts": [
+    "S Jupiter",
+    "J Pluto",
+    "J Quaoar"
+   ],
+   "plane": "RA+Dec",
+   "value": null,
+   "desc": "S Jupiter strikes both ends of J Pluto \u2013 J Quaoar (close)",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C1",
+     "pts": [
+      "S Jupiter",
+      "J Pluto"
+     ],
+     "plane": "RA",
+     "value": 94.9962597440583,
+     "desc": "S Jupiter \u2013 J Pluto",
+     "flags": [],
+     "target": "95",
+     "target_value": 95.0,
+     "family": "whole",
+     "level": "strict",
+     "offset": -0.003740255941693249,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 0.7480511883386498,
+     "rate": -0.0001108956911707537,
+     "eta": -33.72769403577746,
+     "as": "separating",
+     "v5": 94.99570526560245,
+     "key": "C1|S Jupiter|J Pluto|RA|95",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    },
+    {
+     "m": "C1",
+     "pts": [
+      "S Jupiter",
+      "J Quaoar"
+     ],
+     "plane": "Dec",
+     "value": 29.054197743321588,
+     "desc": "S Jupiter \u2013 J Quaoar",
+     "flags": [],
+     "target": "29.03",
+     "target_value": 29.03444185374864,
+     "family": "golden",
+     "level": "near",
+     "offset": 0.019755889572948604,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 3.951177914589721,
+     "rate": -3.40703223415062e-05,
+     "eta": 579.8562565661721,
+     "as": "applying",
+     "v5": 29.05402739170988,
+     "key": "C1|S Jupiter|J Quaoar|Dec|29.03",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "RA 95 + Dec 29.03",
+   "target_value": null,
+   "family": "whole+golden",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.951177914589721,
+   "rate": null,
+   "eta": null,
+   "as": "separating, applying",
+   "key": "C1b|S Jupiter strikes both ends of J Pluto \u2013 J Quaoar (close)|RA 95 + Dec 29.03",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "CH",
+   "pts": [
+    "S Eris",
+    "H Jupiter",
+    "S Pallas"
+   ],
+   "plane": "RA+RA",
+   "value": null,
+   "desc": "sky Eris\u2013Pallas RA 7.64835 (race-wide; difference; root is not a number) -> H Jupiter at 10.98247 / 3.33412",
+   "flags": [
+    "both-near"
+   ],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Eris",
+      "H Jupiter"
+     ],
+     "plane": "RA",
+     "value": 10.9824714854377,
+     "desc": "S Eris \u2013 H Jupiter",
+     "flags": [],
+     "target": "11",
+     "target_value": 11.0,
+     "family": "whole",
+     "level": "near",
+     "offset": -0.017528514562300757,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 3.5057029124601513,
+     "rate": -6.2034077700445774e-06,
+     "eta": -2825.626689727475,
+     "as": "separating",
+     "v5": 10.982440468398849,
+     "key": "C2|S Eris|H Jupiter|RA|11",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Pallas",
+      "H Jupiter"
+     ],
+     "plane": "RA",
+     "value": 3.334121195299769,
+     "desc": "S Pallas \u2013 H Jupiter",
+     "flags": [],
+     "target": "30/9",
+     "target_value": 3.3333333333333335,
+     "family": "ninth",
+     "level": "near",
+     "offset": 0.0007878619664354325,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 1.575723932870865,
+     "rate": -0.0001367813569061127,
+     "eta": 5.760009874563711,
+     "as": "applying",
+     "v5": 3.3334372885152384,
+     "key": "C2|S Pallas|H Jupiter|RA|30/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "RA 11 + RA 30/9",
+   "target_value": null,
+   "family": "whole+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.5057029124601513,
+   "rate": null,
+   "eta": null,
+   "as": "separating, applying",
+   "key": "CH|S Eris|S Pallas|RA",
+   "root": "S Eris\u2013S Pallas",
+   "root_plane": "RA",
+   "root_value": 7.64835029013793,
+   "root_relation": "difference",
+   "root_residual": 0.0,
+   "root_number": null,
+   "natal": "H Jupiter",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Eris",
+    "H Jupiter",
+    "S Vesta"
+   ],
+   "plane": "RA+Dec",
+   "value": null,
+   "desc": "S Eris and S Vesta both on H Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Eris",
+      "H Jupiter"
+     ],
+     "plane": "RA",
+     "value": 10.9824714854377,
+     "desc": "S Eris \u2013 H Jupiter",
+     "flags": [],
+     "target": "11",
+     "target_value": 11.0,
+     "family": "whole",
+     "level": "near",
+     "offset": -0.017528514562300757,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 3.5057029124601513,
+     "rate": -6.2034077700445774e-06,
+     "eta": -2825.626689727475,
+     "as": "separating",
+     "v5": 10.982440468398849,
+     "key": "C2|S Eris|H Jupiter|RA|11",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Vesta",
+      "H Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 8.999154627204897,
+     "desc": "S Vesta \u2013 H Jupiter",
+     "flags": [],
+     "target": "9",
+     "target_value": 9.0,
+     "family": "whole",
+     "level": "strict",
+     "offset": -0.0008453727951032164,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 0.16907455902064328,
+     "rate": 6.0706609094651755e-05,
+     "eta": 13.925547938036514,
+     "as": "applying",
+     "v5": 8.99945816025037,
+     "key": "C2|S Vesta|H Jupiter|Dec|9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    }
+   ],
+   "target": "RA 11 + Dec 9",
+   "target_value": null,
+   "family": "whole+whole",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.5057029124601513,
+   "rate": null,
+   "eta": null,
+   "as": "separating, applying",
+   "key": "C2b|S Eris and S Vesta both on H Jupiter|RA 11 + Dec 9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Makemake",
+    "H Jupiter",
+    "S Vesta"
+   ],
+   "plane": "GC+Dec",
+   "value": null,
+   "desc": "S Makemake and S Vesta both on H Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Makemake",
+      "H Jupiter"
+     ],
+     "plane": "GC",
+     "value": 153.985549396139,
+     "desc": "S Makemake \u2013 H Jupiter",
+     "flags": [],
+     "target": "154",
+     "target_value": 154.0,
+     "family": "whole",
+     "level": "near",
+     "offset": -0.014450603861007494,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 2.8901207722014988,
+     "rate": 2.464163685544918e-06,
+     "eta": 5864.3035549044425,
+     "as": "applying",
+     "v5": 153.98556171695742,
+     "key": "C2|S Makemake|H Jupiter|GC|154",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Vesta",
+      "H Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 8.999154627204897,
+     "desc": "S Vesta \u2013 H Jupiter",
+     "flags": [],
+     "target": "9",
+     "target_value": 9.0,
+     "family": "whole",
+     "level": "strict",
+     "offset": -0.0008453727951032164,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 0.16907455902064328,
+     "rate": 6.0706609094651755e-05,
+     "eta": 13.925547938036514,
+     "as": "applying",
+     "v5": 8.99945816025037,
+     "key": "C2|S Vesta|H Jupiter|Dec|9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    }
+   ],
+   "target": "GC 154 + Dec 9",
+   "target_value": null,
+   "family": "whole+whole",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 2.8901207722014988,
+   "rate": null,
+   "eta": null,
+   "as": "applying, applying",
+   "key": "C2b|S Makemake and S Vesta both on H Jupiter|GC 154 + Dec 9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Moon",
+    "H Jupiter",
+    "S Vesta"
+   ],
+   "plane": "GC+Dec",
+   "value": null,
+   "desc": "S Moon and S Vesta both on H Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Moon",
+      "H Jupiter"
+     ],
+     "plane": "GC",
+     "value": 152.6788289232868,
+     "desc": "S Moon \u2013 H Jupiter",
+     "flags": [],
+     "target": "1374/9",
+     "target_value": 152.66666666666666,
+     "family": "ninth",
+     "level": "exact-in-race",
+     "offset": 0.012162256620143808,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 24.324513240287615,
+     "rate": -0.007436462579823911,
+     "eta": 1.6354895206682798,
+     "as": "applying",
+     "v5": 152.64164661038768,
+     "key": "C2|S Moon|H Jupiter|GC|1374/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [
+       "P01"
+      ],
+      "exact-pre-off": [],
+      "near": []
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Vesta",
+      "H Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 8.999154627204897,
+     "desc": "S Vesta \u2013 H Jupiter",
+     "flags": [],
+     "target": "9",
+     "target_value": 9.0,
+     "family": "whole",
+     "level": "strict",
+     "offset": -0.0008453727951032164,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 0.16907455902064328,
+     "rate": 6.0706609094651755e-05,
+     "eta": 13.925547938036514,
+     "as": "applying",
+     "v5": 8.99945816025037,
+     "key": "C2|S Vesta|H Jupiter|Dec|9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    }
+   ],
+   "target": "GC 1374/9 + Dec 9",
+   "target_value": null,
+   "family": "ninth+whole",
+   "level": "exact-in-race",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 24.324513240287615,
+   "rate": null,
+   "eta": null,
+   "as": "applying, applying",
+   "key": "C2b|S Moon and S Vesta both on H Jupiter|GC 1374/9 + Dec 9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [
+     "P01"
+    ],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Pallas",
+    "H Jupiter",
+    "S Vesta"
+   ],
+   "plane": "RA+Dec",
+   "value": null,
+   "desc": "S Pallas and S Vesta both on H Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Pallas",
+      "H Jupiter"
+     ],
+     "plane": "RA",
+     "value": 3.334121195299769,
+     "desc": "S Pallas \u2013 H Jupiter",
+     "flags": [],
+     "target": "30/9",
+     "target_value": 3.3333333333333335,
+     "family": "ninth",
+     "level": "near",
+     "offset": 0.0007878619664354325,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 1.575723932870865,
+     "rate": -0.0001367813569061127,
+     "eta": 5.760009874563711,
+     "as": "applying",
+     "v5": 3.3334372885152384,
+     "key": "C2|S Pallas|H Jupiter|RA|30/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Vesta",
+      "H Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 8.999154627204897,
+     "desc": "S Vesta \u2013 H Jupiter",
+     "flags": [],
+     "target": "9",
+     "target_value": 9.0,
+     "family": "whole",
+     "level": "strict",
+     "offset": -0.0008453727951032164,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 0.16907455902064328,
+     "rate": 6.0706609094651755e-05,
+     "eta": 13.925547938036514,
+     "as": "applying",
+     "v5": 8.99945816025037,
+     "key": "C2|S Vesta|H Jupiter|Dec|9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    }
+   ],
+   "target": "RA 30/9 + Dec 9",
+   "target_value": null,
+   "family": "ninth+whole",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 1.575723932870865,
+   "rate": null,
+   "eta": null,
+   "as": "applying, applying",
+   "key": "C2b|S Pallas and S Vesta both on H Jupiter|RA 30/9 + Dec 9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Pallas",
+    "H Jupiter",
+    "S Vesta"
+   ],
+   "plane": "GC+Dec",
+   "value": null,
+   "desc": "S Pallas and S Vesta both on H Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Pallas",
+      "H Jupiter"
+     ],
+     "plane": "GC",
+     "value": 21.55718385992164,
+     "desc": "S Pallas \u2013 H Jupiter",
+     "flags": [],
+     "target": "194/9",
+     "target_value": 21.555555555555557,
+     "family": "ninth",
+     "level": "near",
+     "offset": 0.0016283043660827445,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.256608732165489,
+     "rate": 0.00014907819857796768,
+     "eta": -10.922484854357451,
+     "as": "separating",
+     "v5": 21.55792925091453,
+     "key": "C2|S Pallas|H Jupiter|GC|194/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Vesta",
+      "H Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 8.999154627204897,
+     "desc": "S Vesta \u2013 H Jupiter",
+     "flags": [],
+     "target": "9",
+     "target_value": 9.0,
+     "family": "whole",
+     "level": "strict",
+     "offset": -0.0008453727951032164,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 0.16907455902064328,
+     "rate": 6.0706609094651755e-05,
+     "eta": 13.925547938036514,
+     "as": "applying",
+     "v5": 8.99945816025037,
+     "key": "C2|S Vesta|H Jupiter|Dec|9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    }
+   ],
+   "target": "GC 194/9 + Dec 9",
+   "target_value": null,
+   "family": "ninth+whole",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.256608732165489,
+   "rate": null,
+   "eta": null,
+   "as": "separating, applying",
+   "key": "C2b|S Pallas and S Vesta both on H Jupiter|GC 194/9 + Dec 9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "CH",
+   "pts": [
+    "S Saturn",
+    "H Jupiter",
+    "S Vesta"
+   ],
+   "plane": "Dec+Dec",
+   "value": null,
+   "desc": "sky Saturn\u2013Vesta Dec 4.88960 (race-wide; difference; root is a number: ninth 44/9 off +0.00071, near) -> H Jupiter at 4.10956 / 8.99915",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Saturn",
+      "H Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 4.109559290640267,
+     "desc": "S Saturn \u2013 H Jupiter",
+     "flags": [],
+     "target": "37/9",
+     "target_value": 4.111111111111111,
+     "family": "ninth",
+     "level": "near",
+     "offset": -0.0015518204708433458,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.1036409416866917,
+     "rate": 2.0618302660757593e-05,
+     "eta": 75.2642201628408,
+     "as": "applying",
+     "v5": 4.109662382153571,
+     "key": "C2|S Saturn|H Jupiter|Dec|37/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Vesta",
+      "H Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 8.999154627204897,
+     "desc": "S Vesta \u2013 H Jupiter",
+     "flags": [],
+     "target": "9",
+     "target_value": 9.0,
+     "family": "whole",
+     "level": "strict",
+     "offset": -0.0008453727951032164,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 0.16907455902064328,
+     "rate": 6.0706609094651755e-05,
+     "eta": 13.925547938036514,
+     "as": "applying",
+     "v5": 8.99945816025037,
+     "key": "C2|S Vesta|H Jupiter|Dec|9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    }
+   ],
+   "target": "Dec 37/9 + Dec 9",
+   "target_value": null,
+   "family": "ninth+whole",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.1036409416866917,
+   "rate": null,
+   "eta": null,
+   "as": "applying, applying",
+   "key": "CH|S Saturn|S Vesta|Dec",
+   "root": "S Saturn\u2013S Vesta",
+   "root_plane": "Dec",
+   "root_value": 4.889595336564629,
+   "root_relation": "difference",
+   "root_residual": 0.0,
+   "root_number": {
+    "target": "44/9",
+    "target_value": 4.888888888888889,
+    "family": "ninth",
+    "level": "near",
+    "offset": 0.0007064476757401295,
+    "unit": "deg",
+    "tol": 0.0005,
+    "t": 1.412895351480259,
+    "rate": 4.008830643389416e-05,
+    "eta": -17.622287858557097,
+    "as": "separating"
+   },
+   "natal": "H Jupiter",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Sun",
+    "H Jupiter",
+    "S Vesta"
+   ],
+   "plane": "Flat+Dec",
+   "value": null,
+   "desc": "S Sun and S Vesta both on H Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Sun",
+      "H Jupiter"
+     ],
+     "plane": "Flat",
+     "value": 178.98052155875527,
+     "desc": "S Sun \u2013 H Jupiter",
+     "flags": [],
+     "target": "179",
+     "target_value": 179.0,
+     "family": "whole",
+     "level": "near",
+     "offset": -0.019478441244729083,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 3.8956882489458167,
+     "rate": -0.0006212908560769392,
+     "eta": -31.35156594404621,
+     "as": "separating",
+     "v5": 178.9774151044749,
+     "key": "C2|S Sun|H Jupiter|Flat|179",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Vesta",
+      "H Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 8.999154627204897,
+     "desc": "S Vesta \u2013 H Jupiter",
+     "flags": [],
+     "target": "9",
+     "target_value": 9.0,
+     "family": "whole",
+     "level": "strict",
+     "offset": -0.0008453727951032164,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 0.16907455902064328,
+     "rate": 6.0706609094651755e-05,
+     "eta": 13.925547938036514,
+     "as": "applying",
+     "v5": 8.99945816025037,
+     "key": "C2|S Vesta|H Jupiter|Dec|9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    }
+   ],
+   "target": "Flat 179 + Dec 9",
+   "target_value": null,
+   "family": "whole+whole",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.8956882489458167,
+   "rate": null,
+   "eta": null,
+   "as": "separating, applying",
+   "key": "C2b|S Sun and S Vesta both on H Jupiter|Flat 179 + Dec 9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "CH",
+   "pts": [
+    "S Eris",
+    "J Jupiter",
+    "S Makemake"
+   ],
+   "plane": "RA+RA",
+   "value": null,
+   "desc": "sky Eris\u2013Makemake RA 174.70487 (race-wide; 360 - sum; root is not a number) -> J Jupiter at 141.40811 / 43.88702",
+   "flags": [
+    "both-near"
+   ],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Eris",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 141.40810652166908,
+     "desc": "S Eris \u2013 J Jupiter",
+     "flags": [],
+     "target": "141.4",
+     "target_value": 141.4213562373095,
+     "family": "sqrt2",
+     "level": "near",
+     "offset": -0.013249715640426984,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 2.649943128085397,
+     "rate": -6.2034077700445774e-06,
+     "eta": -2135.8769456375385,
+     "as": "separating",
+     "v5": 141.40807550463023,
+     "key": "C2|S Eris|J Jupiter|RA|141.4",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Makemake",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 43.887021932909306,
+     "desc": "S Makemake \u2013 J Jupiter",
+     "flags": [],
+     "target": "395/9",
+     "target_value": 43.888888888888886,
+     "family": "ninth",
+     "level": "near",
+     "offset": -0.001866955979579643,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.733911959159286,
+     "rate": -1.375378254806492e-05,
+     "eta": -135.7412750314504,
+     "as": "separating",
+     "v5": 43.886953163996566,
+     "key": "C2|S Makemake|J Jupiter|RA|395/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "RA 141.4 + RA 395/9",
+   "target_value": null,
+   "family": "sqrt2+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.733911959159286,
+   "rate": null,
+   "eta": null,
+   "as": "separating, separating",
+   "key": "CH|S Eris|S Makemake|RA",
+   "root": "S Eris\u2013S Makemake",
+   "root_plane": "RA",
+   "root_value": 174.7048715454216,
+   "root_relation": "360 - sum",
+   "root_residual": 0.0,
+   "root_number": null,
+   "natal": "J Jupiter",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Eris",
+    "J Jupiter",
+    "S Makemake"
+   ],
+   "plane": "RA+Dec",
+   "value": null,
+   "desc": "S Eris and S Makemake both on J Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Eris",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 141.40810652166908,
+     "desc": "S Eris \u2013 J Jupiter",
+     "flags": [],
+     "target": "141.4",
+     "target_value": 141.4213562373095,
+     "family": "sqrt2",
+     "level": "near",
+     "offset": -0.013249715640426984,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 2.649943128085397,
+     "rate": -6.2034077700445774e-06,
+     "eta": -2135.8769456375385,
+     "as": "separating",
+     "v5": 141.40807550463023,
+     "key": "C2|S Eris|J Jupiter|RA|141.4",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Makemake",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 40.77791960102786,
+     "desc": "S Makemake \u2013 J Jupiter",
+     "flags": [],
+     "target": "367/9",
+     "target_value": 40.77777777777778,
+     "family": "ninth",
+     "level": "strict",
+     "offset": 0.00014182325008249563,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.28364650016499127,
+     "rate": -5.516384831594223e-06,
+     "eta": 25.709455451734506,
+     "as": "applying",
+     "v5": 40.7778920191037,
+     "key": "C2|S Makemake|J Jupiter|Dec|367/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    }
+   ],
+   "target": "RA 141.4 + Dec 367/9",
+   "target_value": null,
+   "family": "sqrt2+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 2.649943128085397,
+   "rate": null,
+   "eta": null,
+   "as": "separating, applying",
+   "key": "C2b|S Eris and S Makemake both on J Jupiter|RA 141.4 + Dec 367/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "CH",
+   "pts": [
+    "S Eris",
+    "J Jupiter",
+    "S Mars"
+   ],
+   "plane": "RA+RA",
+   "value": null,
+   "desc": "sky Eris\u2013Mars RA 103.70122 (race-wide; 360 - sum; root is not a number) -> J Jupiter at 141.40811 / 114.89067",
+   "flags": [
+    "both-near"
+   ],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Eris",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 141.40810652166908,
+     "desc": "S Eris \u2013 J Jupiter",
+     "flags": [],
+     "target": "141.4",
+     "target_value": 141.4213562373095,
+     "family": "sqrt2",
+     "level": "near",
+     "offset": -0.013249715640426984,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 2.649943128085397,
+     "rate": -6.2034077700445774e-06,
+     "eta": -2135.8769456375385,
+     "as": "separating",
+     "v5": 141.40807550463023,
+     "key": "C2|S Eris|J Jupiter|RA|141.4",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Mars",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 114.89067482162909,
+     "desc": "S Mars \u2013 J Jupiter",
+     "flags": [],
+     "target": "1034/9",
+     "target_value": 114.88888888888889,
+     "family": "ninth",
+     "level": "near",
+     "offset": 0.0017859327402049985,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.571865480409997,
+     "rate": -0.0004036927680488134,
+     "eta": 4.423989928868502,
+     "as": "applying",
+     "v5": 114.88865635778885,
+     "key": "C2|S Mars|J Jupiter|RA|1034/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "RA 141.4 + RA 1034/9",
+   "target_value": null,
+   "family": "sqrt2+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.571865480409997,
+   "rate": null,
+   "eta": null,
+   "as": "separating, applying",
+   "key": "CH|S Eris|S Mars|RA",
+   "root": "S Eris\u2013S Mars",
+   "root_plane": "RA",
+   "root_value": 103.70121865670183,
+   "root_relation": "360 - sum",
+   "root_residual": 0.0,
+   "root_number": null,
+   "natal": "J Jupiter",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "CH",
+   "pts": [
+    "S Eris",
+    "J Jupiter",
+    "S Orcus"
+   ],
+   "plane": "RA+RA",
+   "value": null,
+   "desc": "sky Eris\u2013Orcus RA 134.26006 (race-wide; 360 - sum; root is not a number) -> J Jupiter at 141.40811 / 84.33183",
+   "flags": [
+    "both-near"
+   ],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Eris",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 141.40810652166908,
+     "desc": "S Eris \u2013 J Jupiter",
+     "flags": [],
+     "target": "141.4",
+     "target_value": 141.4213562373095,
+     "family": "sqrt2",
+     "level": "near",
+     "offset": -0.013249715640426984,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 2.649943128085397,
+     "rate": -6.2034077700445774e-06,
+     "eta": -2135.8769456375385,
+     "as": "separating",
+     "v5": 141.40807550463023,
+     "key": "C2|S Eris|J Jupiter|RA|141.4",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Orcus",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 84.331829870501,
+     "desc": "S Orcus \u2013 J Jupiter",
+     "flags": [],
+     "target": "759/9",
+     "target_value": 84.33333333333333,
+     "family": "ninth",
+     "level": "near",
+     "offset": -0.0015034628323320476,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.006925664664095,
+     "rate": -1.1829995054313258e-05,
+     "eta": -127.08904994714091,
+     "as": "separating",
+     "v5": 84.33177072052572,
+     "key": "C2|S Orcus|J Jupiter|RA|759/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "RA 141.4 + RA 759/9",
+   "target_value": null,
+   "family": "sqrt2+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.006925664664095,
+   "rate": null,
+   "eta": null,
+   "as": "separating, separating",
+   "key": "CH|S Eris|S Orcus|RA",
+   "root": "S Eris\u2013S Orcus",
+   "root_plane": "RA",
+   "root_value": 134.26006360782992,
+   "root_relation": "360 - sum",
+   "root_residual": 0.0,
+   "root_number": null,
+   "natal": "J Jupiter",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Eris",
+    "J Jupiter",
+    "S Quaoar"
+   ],
+   "plane": "RA+Flat",
+   "value": null,
+   "desc": "S Eris and S Quaoar both on J Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Eris",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 141.40810652166908,
+     "desc": "S Eris \u2013 J Jupiter",
+     "flags": [],
+     "target": "141.4",
+     "target_value": 141.4213562373095,
+     "family": "sqrt2",
+     "level": "near",
+     "offset": -0.013249715640426984,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 2.649943128085397,
+     "rate": -6.2034077700445774e-06,
+     "eta": -2135.8769456375385,
+     "as": "separating",
+     "v5": 141.40807550463023,
+     "key": "C2|S Eris|J Jupiter|RA|141.4",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Quaoar",
+      "J Jupiter"
+     ],
+     "plane": "Flat",
+     "value": 35.44407603767675,
+     "desc": "S Quaoar \u2013 J Jupiter",
+     "flags": [],
+     "target": "319/9",
+     "target_value": 35.44444444444444,
+     "family": "ninth",
+     "level": "strict",
+     "offset": -0.00036840676769145375,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.7368135353829075,
+     "rate": 4.830000976596694e-06,
+     "eta": 76.27467768154362,
+     "as": "applying",
+     "v5": 35.444100187681634,
+     "key": "C2|S Quaoar|J Jupiter|Flat|319/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    }
+   ],
+   "target": "RA 141.4 + Flat 319/9",
+   "target_value": null,
+   "family": "sqrt2+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 2.649943128085397,
+   "rate": null,
+   "eta": null,
+   "as": "separating, applying",
+   "key": "C2b|S Eris and S Quaoar both on J Jupiter|RA 141.4 + Flat 319/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "CH",
+   "pts": [
+    "S Eris",
+    "J Jupiter",
+    "S Vesta"
+   ],
+   "plane": "RA+RA",
+   "value": null,
+   "desc": "sky Eris\u2013Vesta RA 4.41513 (race-wide; difference; root is not a number) -> J Jupiter at 141.40811 / 136.99298",
+   "flags": [
+    "both-near"
+   ],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Eris",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 141.40810652166908,
+     "desc": "S Eris \u2013 J Jupiter",
+     "flags": [],
+     "target": "141.4",
+     "target_value": 141.4213562373095,
+     "family": "sqrt2",
+     "level": "near",
+     "offset": -0.013249715640426984,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 2.649943128085397,
+     "rate": -6.2034077700445774e-06,
+     "eta": -2135.8769456375385,
+     "as": "separating",
+     "v5": 141.40807550463023,
+     "key": "C2|S Eris|J Jupiter|RA|141.4",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Vesta",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 136.99298126949503,
+     "desc": "S Vesta \u2013 J Jupiter",
+     "flags": [],
+     "target": "137",
+     "target_value": 137.0,
+     "family": "whole",
+     "level": "near",
+     "offset": -0.007018730504967152,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 1.4037461009934304,
+     "rate": -0.00016625726863708223,
+     "eta": -42.21608211481038,
+     "as": "separating",
+     "v5": 136.99214998315185,
+     "key": "C2|S Vesta|J Jupiter|RA|137",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "RA 141.4 + RA 137",
+   "target_value": null,
+   "family": "sqrt2+whole",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 2.649943128085397,
+   "rate": null,
+   "eta": null,
+   "as": "separating, separating",
+   "key": "CH|S Eris|S Vesta|RA",
+   "root": "S Eris\u2013S Vesta",
+   "root_plane": "RA",
+   "root_value": 4.41512525217404,
+   "root_relation": "difference",
+   "root_residual": 1.0658141036401503e-14,
+   "root_number": null,
+   "natal": "J Jupiter",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "CH",
+   "pts": [
+    "S Gonggong",
+    "J Jupiter",
+    "S Makemake"
+   ],
+   "plane": "Dec+Dec",
+   "value": null,
+   "desc": "sky Gonggong\u2013Makemake Dec 29.99912 (race-wide; difference; root is a number: whole 30 off -0.00088, strict) -> J Jupiter at 10.77880 / 40.77792",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Gonggong",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 10.77880103118811,
+     "desc": "S Gonggong \u2013 J Jupiter",
+     "flags": [],
+     "target": "97/9",
+     "target_value": 10.777777777777779,
+     "family": "ninth",
+     "level": "near",
+     "offset": 0.0010232534103309376,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 2.0465068206618753,
+     "rate": -1.519231878077676e-06,
+     "eta": 673.5333987499572,
+     "as": "applying",
+     "v5": 10.77879343502872,
+     "key": "C2|S Gonggong|J Jupiter|Dec|97/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Makemake",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 40.77791960102786,
+     "desc": "S Makemake \u2013 J Jupiter",
+     "flags": [],
+     "target": "367/9",
+     "target_value": 40.77777777777778,
+     "family": "ninth",
+     "level": "strict",
+     "offset": 0.00014182325008249563,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.28364650016499127,
+     "rate": -5.516384831594223e-06,
+     "eta": 25.709455451734506,
+     "as": "applying",
+     "v5": 40.7778920191037,
+     "key": "C2|S Makemake|J Jupiter|Dec|367/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    }
+   ],
+   "target": "Dec 97/9 + Dec 367/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 2.0465068206618753,
+   "rate": null,
+   "eta": null,
+   "as": "applying, applying",
+   "key": "CH|S Gonggong|S Makemake|Dec",
+   "root": "S Gonggong\u2013S Makemake",
+   "root_plane": "Dec",
+   "root_value": 29.99911856983975,
+   "root_relation": "difference",
+   "root_residual": 0.0,
+   "root_number": {
+    "target": "30",
+    "target_value": 30.0,
+    "family": "whole",
+    "level": "strict",
+    "offset": -0.000881430160248442,
+    "unit": "deg",
+    "tol": 0.005,
+    "t": 0.1762860320496884,
+    "rate": -3.997152954582361e-06,
+    "eta": -220.51449375685385,
+    "as": "separating"
+   },
+   "natal": "J Jupiter",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "CH",
+   "pts": [
+    "S Gonggong",
+    "J Jupiter",
+    "S Pluto"
+   ],
+   "plane": "Dec+Dec",
+   "value": null,
+   "desc": "sky Gonggong\u2013Pluto Dec 13.44735 (race-wide; sum; root is not a number) -> J Jupiter at 10.77880 / 2.66855",
+   "flags": [
+    "both-near"
+   ],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Gonggong",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 10.77880103118811,
+     "desc": "S Gonggong \u2013 J Jupiter",
+     "flags": [],
+     "target": "97/9",
+     "target_value": 10.777777777777779,
+     "family": "ninth",
+     "level": "near",
+     "offset": 0.0010232534103309376,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 2.0465068206618753,
+     "rate": -1.519231878077676e-06,
+     "eta": 673.5333987499572,
+     "as": "applying",
+     "v5": 10.77879343502872,
+     "key": "C2|S Gonggong|J Jupiter|Dec|97/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Pluto",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 2.6685463638082503,
+     "desc": "S Pluto \u2013 J Jupiter",
+     "flags": [],
+     "target": "24/9",
+     "target_value": 2.6666666666666665,
+     "family": "ninth",
+     "level": "near",
+     "offset": 0.0018796971415837582,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.7593942831675164,
+     "rate": -7.052879169577864e-08,
+     "eta": 26651.48652612269,
+     "as": "applying",
+     "v5": 2.668546011164292,
+     "key": "C2|S Pluto|J Jupiter|Dec|24/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "Dec 97/9 + Dec 24/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.7593942831675164,
+   "rate": null,
+   "eta": null,
+   "as": "applying, applying",
+   "key": "CH|S Gonggong|S Pluto|Dec",
+   "root": "S Gonggong\u2013S Pluto",
+   "root_plane": "Dec",
+   "root_value": 13.44734739499636,
+   "root_relation": "sum",
+   "root_residual": 0.0,
+   "root_number": null,
+   "natal": "J Jupiter",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Gonggong",
+    "J Jupiter",
+    "S Quaoar"
+   ],
+   "plane": "Dec+Flat",
+   "value": null,
+   "desc": "S Gonggong and S Quaoar both on J Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Gonggong",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 10.77880103118811,
+     "desc": "S Gonggong \u2013 J Jupiter",
+     "flags": [],
+     "target": "97/9",
+     "target_value": 10.777777777777779,
+     "family": "ninth",
+     "level": "near",
+     "offset": 0.0010232534103309376,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 2.0465068206618753,
+     "rate": -1.519231878077676e-06,
+     "eta": 673.5333987499572,
+     "as": "applying",
+     "v5": 10.77879343502872,
+     "key": "C2|S Gonggong|J Jupiter|Dec|97/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Quaoar",
+      "J Jupiter"
+     ],
+     "plane": "Flat",
+     "value": 35.44407603767675,
+     "desc": "S Quaoar \u2013 J Jupiter",
+     "flags": [],
+     "target": "319/9",
+     "target_value": 35.44444444444444,
+     "family": "ninth",
+     "level": "strict",
+     "offset": -0.00036840676769145375,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.7368135353829075,
+     "rate": 4.830000976596694e-06,
+     "eta": 76.27467768154362,
+     "as": "applying",
+     "v5": 35.444100187681634,
+     "key": "C2|S Quaoar|J Jupiter|Flat|319/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    }
+   ],
+   "target": "Dec 97/9 + Flat 319/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 2.0465068206618753,
+   "rate": null,
+   "eta": null,
+   "as": "applying, applying",
+   "key": "C2b|S Gonggong and S Quaoar both on J Jupiter|Dec 97/9 + Flat 319/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "CH",
+   "pts": [
+    "S Gonggong",
+    "J Jupiter",
+    "S Uranus"
+   ],
+   "plane": "Dec+Dec",
+   "value": null,
+   "desc": "sky Gonggong\u2013Uranus Dec 31.23738 (race-wide; difference; root is not a number) -> J Jupiter at 10.77880 / 42.01618",
+   "flags": [
+    "both-near"
+   ],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Gonggong",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 10.77880103118811,
+     "desc": "S Gonggong \u2013 J Jupiter",
+     "flags": [],
+     "target": "97/9",
+     "target_value": 10.777777777777779,
+     "family": "ninth",
+     "level": "near",
+     "offset": 0.0010232534103309376,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 2.0465068206618753,
+     "rate": -1.519231878077676e-06,
+     "eta": 673.5333987499572,
+     "as": "applying",
+     "v5": 10.77879343502872,
+     "key": "C2|S Gonggong|J Jupiter|Dec|97/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Uranus",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 42.016184175065106,
+     "desc": "S Uranus \u2013 J Jupiter",
+     "flags": [],
+     "target": "42",
+     "target_value": 42.0,
+     "family": "whole",
+     "level": "near",
+     "offset": 0.016184175065106388,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 3.2368350130212775,
+     "rate": -3.1024354896658226e-06,
+     "eta": 5216.603252191929,
+     "as": "applying",
+     "v5": 42.01616866288766,
+     "key": "C2|S Uranus|J Jupiter|Dec|42",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "Dec 97/9 + Dec 42",
+   "target_value": null,
+   "family": "ninth+whole",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.2368350130212775,
+   "rate": null,
+   "eta": null,
+   "as": "applying, applying",
+   "key": "CH|S Gonggong|S Uranus|Dec",
+   "root": "S Gonggong\u2013S Uranus",
+   "root_plane": "Dec",
+   "root_value": 31.237383143877,
+   "root_relation": "difference",
+   "root_residual": 3.552713678800501e-15,
+   "root_number": null,
+   "natal": "J Jupiter",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "CH",
+   "pts": [
+    "S Makemake",
+    "J Jupiter",
+    "S Mars"
+   ],
+   "plane": "RA+RA",
+   "value": null,
+   "desc": "sky Makemake\u2013Mars RA 71.00365 (race-wide; difference; root is a number: whole 71 off +0.00365, strict) -> J Jupiter at 43.88702 / 114.89067",
+   "flags": [
+    "both-near"
+   ],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Makemake",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 43.887021932909306,
+     "desc": "S Makemake \u2013 J Jupiter",
+     "flags": [],
+     "target": "395/9",
+     "target_value": 43.888888888888886,
+     "family": "ninth",
+     "level": "near",
+     "offset": -0.001866955979579643,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.733911959159286,
+     "rate": -1.375378254806492e-05,
+     "eta": -135.7412750314504,
+     "as": "separating",
+     "v5": 43.886953163996566,
+     "key": "C2|S Makemake|J Jupiter|RA|395/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Mars",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 114.89067482162909,
+     "desc": "S Mars \u2013 J Jupiter",
+     "flags": [],
+     "target": "1034/9",
+     "target_value": 114.88888888888889,
+     "family": "ninth",
+     "level": "near",
+     "offset": 0.0017859327402049985,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.571865480409997,
+     "rate": -0.0004036927680488134,
+     "eta": 4.423989928868502,
+     "as": "applying",
+     "v5": 114.88865635778885,
+     "key": "C2|S Mars|J Jupiter|RA|1034/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "RA 395/9 + RA 1034/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.733911959159286,
+   "rate": null,
+   "eta": null,
+   "as": "separating, applying",
+   "key": "CH|S Makemake|S Mars|RA",
+   "root": "S Makemake\u2013S Mars",
+   "root_plane": "RA",
+   "root_value": 71.00365288871978,
+   "root_relation": "difference",
+   "root_residual": 0.0,
+   "root_number": {
+    "target": "71",
+    "target_value": 71.0,
+    "family": "whole",
+    "level": "strict",
+    "offset": 0.0036528887197846416,
+    "unit": "deg",
+    "tol": 0.005,
+    "t": 0.7305777439569283,
+    "rate": -0.00038993898550074844,
+    "eta": 9.367846908391853,
+    "as": "applying"
+   },
+   "natal": "J Jupiter",
+   "field": {
+    "strict": [
+     "P11"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Makemake",
+    "J Jupiter",
+    "S Mars"
+   ],
+   "plane": "Dec+RA",
+   "value": null,
+   "desc": "S Makemake and S Mars both on J Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Makemake",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 40.77791960102786,
+     "desc": "S Makemake \u2013 J Jupiter",
+     "flags": [],
+     "target": "367/9",
+     "target_value": 40.77777777777778,
+     "family": "ninth",
+     "level": "strict",
+     "offset": 0.00014182325008249563,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.28364650016499127,
+     "rate": -5.516384831594223e-06,
+     "eta": 25.709455451734506,
+     "as": "applying",
+     "v5": 40.7778920191037,
+     "key": "C2|S Makemake|J Jupiter|Dec|367/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Mars",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 114.89067482162909,
+     "desc": "S Mars \u2013 J Jupiter",
+     "flags": [],
+     "target": "1034/9",
+     "target_value": 114.88888888888889,
+     "family": "ninth",
+     "level": "near",
+     "offset": 0.0017859327402049985,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.571865480409997,
+     "rate": -0.0004036927680488134,
+     "eta": 4.423989928868502,
+     "as": "applying",
+     "v5": 114.88865635778885,
+     "key": "C2|S Mars|J Jupiter|RA|1034/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "Dec 367/9 + RA 1034/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.571865480409997,
+   "rate": null,
+   "eta": null,
+   "as": "applying, applying",
+   "key": "C2b|S Makemake and S Mars both on J Jupiter|Dec 367/9 + RA 1034/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Makemake",
+    "J Jupiter",
+    "S Moon"
+   ],
+   "plane": "Dec+GC",
+   "value": null,
+   "desc": "S Makemake and S Moon both on J Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Makemake",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 40.77791960102786,
+     "desc": "S Makemake \u2013 J Jupiter",
+     "flags": [],
+     "target": "367/9",
+     "target_value": 40.77777777777778,
+     "family": "ninth",
+     "level": "strict",
+     "offset": 0.00014182325008249563,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.28364650016499127,
+     "rate": -5.516384831594223e-06,
+     "eta": 25.709455451734506,
+     "as": "applying",
+     "v5": 40.7778920191037,
+     "key": "C2|S Makemake|J Jupiter|Dec|367/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Moon",
+      "J Jupiter"
+     ],
+     "plane": "GC",
+     "value": 24.671679404924696,
+     "desc": "S Moon \u2013 J Jupiter",
+     "flags": [],
+     "target": "222/9",
+     "target_value": 24.666666666666668,
+     "family": "ninth",
+     "level": "exact-in-race",
+     "offset": 0.005012738258027838,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 10.025476516055676,
+     "rate": -0.007654429092659854,
+     "eta": 0.6548807490861414,
+     "as": "applying",
+     "v5": 24.633407259461396,
+     "key": "C2|S Moon|J Jupiter|GC|222/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [
+       "P01"
+      ],
+      "exact-pre-off": [],
+      "near": []
+     }
+    }
+   ],
+   "target": "Dec 367/9 + GC 222/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "exact-in-race",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 10.025476516055676,
+   "rate": null,
+   "eta": null,
+   "as": "applying, applying",
+   "key": "C2b|S Makemake and S Moon both on J Jupiter|Dec 367/9 + GC 222/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [
+     "P01"
+    ],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "CH",
+   "pts": [
+    "S Makemake",
+    "J Jupiter",
+    "S Orcus"
+   ],
+   "plane": "RA+RA",
+   "value": null,
+   "desc": "sky Makemake\u2013Orcus RA 40.44481 (race-wide; difference; root is a number: ninth 364/9 off +0.00036, strict) -> J Jupiter at 43.88702 / 84.33183",
+   "flags": [
+    "both-near"
+   ],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Makemake",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 43.887021932909306,
+     "desc": "S Makemake \u2013 J Jupiter",
+     "flags": [],
+     "target": "395/9",
+     "target_value": 43.888888888888886,
+     "family": "ninth",
+     "level": "near",
+     "offset": -0.001866955979579643,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.733911959159286,
+     "rate": -1.375378254806492e-05,
+     "eta": -135.7412750314504,
+     "as": "separating",
+     "v5": 43.886953163996566,
+     "key": "C2|S Makemake|J Jupiter|RA|395/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Orcus",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 84.331829870501,
+     "desc": "S Orcus \u2013 J Jupiter",
+     "flags": [],
+     "target": "759/9",
+     "target_value": 84.33333333333333,
+     "family": "ninth",
+     "level": "near",
+     "offset": -0.0015034628323320476,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.006925664664095,
+     "rate": -1.1829995054313258e-05,
+     "eta": -127.08904994714091,
+     "as": "separating",
+     "v5": 84.33177072052572,
+     "key": "C2|S Orcus|J Jupiter|RA|759/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "RA 395/9 + RA 759/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.733911959159286,
+   "rate": null,
+   "eta": null,
+   "as": "separating, separating",
+   "key": "CH|S Makemake|S Orcus|RA",
+   "root": "S Makemake\u2013S Orcus",
+   "root_plane": "RA",
+   "root_value": 40.44480793759169,
+   "root_relation": "difference",
+   "root_residual": 0.0,
+   "root_number": {
+    "target": "364/9",
+    "target_value": 40.44444444444444,
+    "family": "ninth",
+    "level": "strict",
+    "offset": 0.0003634931472475955,
+    "unit": "deg",
+    "tol": 0.0005,
+    "t": 0.726986294495191,
+    "rate": 1.923787493751661e-06,
+    "eta": -188.94662140605348,
+    "as": "separating"
+   },
+   "natal": "J Jupiter",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Makemake",
+    "J Jupiter",
+    "S Orcus"
+   ],
+   "plane": "Dec+RA",
+   "value": null,
+   "desc": "S Makemake and S Orcus both on J Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Makemake",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 40.77791960102786,
+     "desc": "S Makemake \u2013 J Jupiter",
+     "flags": [],
+     "target": "367/9",
+     "target_value": 40.77777777777778,
+     "family": "ninth",
+     "level": "strict",
+     "offset": 0.00014182325008249563,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.28364650016499127,
+     "rate": -5.516384831594223e-06,
+     "eta": 25.709455451734506,
+     "as": "applying",
+     "v5": 40.7778920191037,
+     "key": "C2|S Makemake|J Jupiter|Dec|367/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Orcus",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 84.331829870501,
+     "desc": "S Orcus \u2013 J Jupiter",
+     "flags": [],
+     "target": "759/9",
+     "target_value": 84.33333333333333,
+     "family": "ninth",
+     "level": "near",
+     "offset": -0.0015034628323320476,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.006925664664095,
+     "rate": -1.1829995054313258e-05,
+     "eta": -127.08904994714091,
+     "as": "separating",
+     "v5": 84.33177072052572,
+     "key": "C2|S Orcus|J Jupiter|RA|759/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "Dec 367/9 + RA 759/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.006925664664095,
+   "rate": null,
+   "eta": null,
+   "as": "applying, separating",
+   "key": "C2b|S Makemake and S Orcus both on J Jupiter|Dec 367/9 + RA 759/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "CH",
+   "pts": [
+    "S Makemake",
+    "J Jupiter",
+    "S Pluto"
+   ],
+   "plane": "Dec+Dec",
+   "value": null,
+   "desc": "sky Makemake\u2013Pluto Dec 43.44647 (race-wide; sum; root is not a number) -> J Jupiter at 40.77792 / 2.66855",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Makemake",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 40.77791960102786,
+     "desc": "S Makemake \u2013 J Jupiter",
+     "flags": [],
+     "target": "367/9",
+     "target_value": 40.77777777777778,
+     "family": "ninth",
+     "level": "strict",
+     "offset": 0.00014182325008249563,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.28364650016499127,
+     "rate": -5.516384831594223e-06,
+     "eta": 25.709455451734506,
+     "as": "applying",
+     "v5": 40.7778920191037,
+     "key": "C2|S Makemake|J Jupiter|Dec|367/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Pluto",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 2.6685463638082503,
+     "desc": "S Pluto \u2013 J Jupiter",
+     "flags": [],
+     "target": "24/9",
+     "target_value": 2.6666666666666665,
+     "family": "ninth",
+     "level": "near",
+     "offset": 0.0018796971415837582,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.7593942831675164,
+     "rate": -7.052879169577864e-08,
+     "eta": 26651.48652612269,
+     "as": "applying",
+     "v5": 2.668546011164292,
+     "key": "C2|S Pluto|J Jupiter|Dec|24/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "Dec 367/9 + Dec 24/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.7593942831675164,
+   "rate": null,
+   "eta": null,
+   "as": "applying, applying",
+   "key": "CH|S Makemake|S Pluto|Dec",
+   "root": "S Makemake\u2013S Pluto",
+   "root_plane": "Dec",
+   "root_value": 43.44646596483611,
+   "root_relation": "sum",
+   "root_residual": 0.0,
+   "root_number": null,
+   "natal": "J Jupiter",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Makemake",
+    "J Jupiter",
+    "S Quaoar"
+   ],
+   "plane": "RA+Flat",
+   "value": null,
+   "desc": "S Makemake and S Quaoar both on J Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Makemake",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 43.887021932909306,
+     "desc": "S Makemake \u2013 J Jupiter",
+     "flags": [],
+     "target": "395/9",
+     "target_value": 43.888888888888886,
+     "family": "ninth",
+     "level": "near",
+     "offset": -0.001866955979579643,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.733911959159286,
+     "rate": -1.375378254806492e-05,
+     "eta": -135.7412750314504,
+     "as": "separating",
+     "v5": 43.886953163996566,
+     "key": "C2|S Makemake|J Jupiter|RA|395/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Quaoar",
+      "J Jupiter"
+     ],
+     "plane": "Flat",
+     "value": 35.44407603767675,
+     "desc": "S Quaoar \u2013 J Jupiter",
+     "flags": [],
+     "target": "319/9",
+     "target_value": 35.44444444444444,
+     "family": "ninth",
+     "level": "strict",
+     "offset": -0.00036840676769145375,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.7368135353829075,
+     "rate": 4.830000976596694e-06,
+     "eta": 76.27467768154362,
+     "as": "applying",
+     "v5": 35.444100187681634,
+     "key": "C2|S Quaoar|J Jupiter|Flat|319/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    }
+   ],
+   "target": "RA 395/9 + Flat 319/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.733911959159286,
+   "rate": null,
+   "eta": null,
+   "as": "separating, applying",
+   "key": "C2b|S Makemake and S Quaoar both on J Jupiter|RA 395/9 + Flat 319/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Makemake",
+    "J Jupiter",
+    "S Quaoar"
+   ],
+   "plane": "Dec+Flat",
+   "value": null,
+   "desc": "S Makemake and S Quaoar both on J Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Makemake",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 40.77791960102786,
+     "desc": "S Makemake \u2013 J Jupiter",
+     "flags": [],
+     "target": "367/9",
+     "target_value": 40.77777777777778,
+     "family": "ninth",
+     "level": "strict",
+     "offset": 0.00014182325008249563,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.28364650016499127,
+     "rate": -5.516384831594223e-06,
+     "eta": 25.709455451734506,
+     "as": "applying",
+     "v5": 40.7778920191037,
+     "key": "C2|S Makemake|J Jupiter|Dec|367/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Quaoar",
+      "J Jupiter"
+     ],
+     "plane": "Flat",
+     "value": 35.44407603767675,
+     "desc": "S Quaoar \u2013 J Jupiter",
+     "flags": [],
+     "target": "319/9",
+     "target_value": 35.44444444444444,
+     "family": "ninth",
+     "level": "strict",
+     "offset": -0.00036840676769145375,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.7368135353829075,
+     "rate": 4.830000976596694e-06,
+     "eta": 76.27467768154362,
+     "as": "applying",
+     "v5": 35.444100187681634,
+     "key": "C2|S Quaoar|J Jupiter|Flat|319/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    }
+   ],
+   "target": "Dec 367/9 + Flat 319/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "strict",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 0.7368135353829075,
+   "rate": null,
+   "eta": null,
+   "as": "applying, applying",
+   "key": "C2b|S Makemake and S Quaoar both on J Jupiter|Dec 367/9 + Flat 319/9",
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Makemake",
+    "J Jupiter",
+    "S Saturn"
+   ],
+   "plane": "Dec+Flat",
+   "value": null,
+   "desc": "S Makemake and S Saturn both on J Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Makemake",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 40.77791960102786,
+     "desc": "S Makemake \u2013 J Jupiter",
+     "flags": [],
+     "target": "367/9",
+     "target_value": 40.77777777777778,
+     "family": "ninth",
+     "level": "strict",
+     "offset": 0.00014182325008249563,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.28364650016499127,
+     "rate": -5.516384831594223e-06,
+     "eta": 25.709455451734506,
+     "as": "applying",
+     "v5": 40.7778920191037,
+     "key": "C2|S Makemake|J Jupiter|Dec|367/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Saturn",
+      "J Jupiter"
+     ],
+     "plane": "Flat",
+     "value": 126.88745739763272,
+     "desc": "S Saturn \u2013 J Jupiter",
+     "flags": [],
+     "target": "1142/9",
+     "target_value": 126.88888888888889,
+     "family": "ninth",
+     "level": "near",
+     "offset": -0.0014314912561701476,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 2.862982512340295,
+     "rate": -5.234113527308182e-05,
+     "eta": -27.349258832494982,
+     "as": "separating",
+     "v5": 126.88719569195635,
+     "key": "C2|S Saturn|J Jupiter|Flat|1142/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "Dec 367/9 + Flat 1142/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 2.862982512340295,
+   "rate": null,
+   "eta": null,
+   "as": "applying, separating",
+   "key": "C2b|S Makemake and S Saturn both on J Jupiter|Dec 367/9 + Flat 1142/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Makemake",
+    "J Jupiter",
+    "S Saturn"
+   ],
+   "plane": "Dec+GC",
+   "value": null,
+   "desc": "S Makemake and S Saturn both on J Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Makemake",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 40.77791960102786,
+     "desc": "S Makemake \u2013 J Jupiter",
+     "flags": [],
+     "target": "367/9",
+     "target_value": 40.77777777777778,
+     "family": "ninth",
+     "level": "strict",
+     "offset": 0.00014182325008249563,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.28364650016499127,
+     "rate": -5.516384831594223e-06,
+     "eta": 25.709455451734506,
+     "as": "applying",
+     "v5": 40.7778920191037,
+     "key": "C2|S Makemake|J Jupiter|Dec|367/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Saturn",
+      "J Jupiter"
+     ],
+     "plane": "GC",
+     "value": 122.88703127953539,
+     "desc": "S Saturn \u2013 J Jupiter",
+     "flags": [],
+     "target": "1106/9",
+     "target_value": 122.88888888888889,
+     "family": "ninth",
+     "level": "near",
+     "offset": -0.001857609353493217,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.715218706986434,
+     "rate": -5.3544904358204806e-05,
+     "eta": -34.692551527708005,
+     "as": "separating",
+     "v5": 122.8867635550136,
+     "key": "C2|S Saturn|J Jupiter|GC|1106/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "Dec 367/9 + GC 1106/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.715218706986434,
+   "rate": null,
+   "eta": null,
+   "as": "applying, separating",
+   "key": "C2b|S Makemake and S Saturn both on J Jupiter|Dec 367/9 + GC 1106/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "CH",
+   "pts": [
+    "S Makemake",
+    "J Jupiter",
+    "S Uranus"
+   ],
+   "plane": "Dec+Dec",
+   "value": null,
+   "desc": "sky Makemake\u2013Uranus Dec 1.23826 (race-wide; difference; root is not a number) -> J Jupiter at 40.77792 / 42.01618",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Makemake",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 40.77791960102786,
+     "desc": "S Makemake \u2013 J Jupiter",
+     "flags": [],
+     "target": "367/9",
+     "target_value": 40.77777777777778,
+     "family": "ninth",
+     "level": "strict",
+     "offset": 0.00014182325008249563,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.28364650016499127,
+     "rate": -5.516384831594223e-06,
+     "eta": 25.709455451734506,
+     "as": "applying",
+     "v5": 40.7778920191037,
+     "key": "C2|S Makemake|J Jupiter|Dec|367/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Uranus",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 42.016184175065106,
+     "desc": "S Uranus \u2013 J Jupiter",
+     "flags": [],
+     "target": "42",
+     "target_value": 42.0,
+     "family": "whole",
+     "level": "near",
+     "offset": 0.016184175065106388,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 3.2368350130212775,
+     "rate": -3.1024354896658226e-06,
+     "eta": 5216.603252191929,
+     "as": "applying",
+     "v5": 42.01616866288766,
+     "key": "C2|S Uranus|J Jupiter|Dec|42",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "Dec 367/9 + Dec 42",
+   "target_value": null,
+   "family": "ninth+whole",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.2368350130212775,
+   "rate": null,
+   "eta": null,
+   "as": "applying, applying",
+   "key": "CH|S Makemake|S Uranus|Dec",
+   "root": "S Makemake\u2013S Uranus",
+   "root_plane": "Dec",
+   "root_value": 1.2382645740372489,
+   "root_relation": "difference",
+   "root_residual": 3.552713678800501e-15,
+   "root_number": null,
+   "natal": "J Jupiter",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "CH",
+   "pts": [
+    "S Makemake",
+    "J Jupiter",
+    "S Vesta"
+   ],
+   "plane": "RA+RA",
+   "value": null,
+   "desc": "sky Makemake\u2013Vesta RA 179.12000 (race-wide; 360 - sum; root is not a number) -> J Jupiter at 43.88702 / 136.99298",
+   "flags": [
+    "both-near"
+   ],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Makemake",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 43.887021932909306,
+     "desc": "S Makemake \u2013 J Jupiter",
+     "flags": [],
+     "target": "395/9",
+     "target_value": 43.888888888888886,
+     "family": "ninth",
+     "level": "near",
+     "offset": -0.001866955979579643,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.733911959159286,
+     "rate": -1.375378254806492e-05,
+     "eta": -135.7412750314504,
+     "as": "separating",
+     "v5": 43.886953163996566,
+     "key": "C2|S Makemake|J Jupiter|RA|395/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Vesta",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 136.99298126949503,
+     "desc": "S Vesta \u2013 J Jupiter",
+     "flags": [],
+     "target": "137",
+     "target_value": 137.0,
+     "family": "whole",
+     "level": "near",
+     "offset": -0.007018730504967152,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 1.4037461009934304,
+     "rate": -0.00016625726863708223,
+     "eta": -42.21608211481038,
+     "as": "separating",
+     "v5": 136.99214998315185,
+     "key": "C2|S Vesta|J Jupiter|RA|137",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "RA 395/9 + RA 137",
+   "target_value": null,
+   "family": "ninth+whole",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.733911959159286,
+   "rate": null,
+   "eta": null,
+   "as": "separating, separating",
+   "key": "CH|S Makemake|S Vesta|RA",
+   "root": "S Makemake\u2013S Vesta",
+   "root_plane": "RA",
+   "root_value": 179.11999679759566,
+   "root_relation": "360 - sum",
+   "root_residual": 0.0,
+   "root_number": null,
+   "natal": "J Jupiter",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Makemake",
+    "J Jupiter",
+    "S Vesta"
+   ],
+   "plane": "Dec+RA",
+   "value": null,
+   "desc": "S Makemake and S Vesta both on J Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Makemake",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 40.77791960102786,
+     "desc": "S Makemake \u2013 J Jupiter",
+     "flags": [],
+     "target": "367/9",
+     "target_value": 40.77777777777778,
+     "family": "ninth",
+     "level": "strict",
+     "offset": 0.00014182325008249563,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.28364650016499127,
+     "rate": -5.516384831594223e-06,
+     "eta": 25.709455451734506,
+     "as": "applying",
+     "v5": 40.7778920191037,
+     "key": "C2|S Makemake|J Jupiter|Dec|367/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Vesta",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 136.99298126949503,
+     "desc": "S Vesta \u2013 J Jupiter",
+     "flags": [],
+     "target": "137",
+     "target_value": 137.0,
+     "family": "whole",
+     "level": "near",
+     "offset": -0.007018730504967152,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 1.4037461009934304,
+     "rate": -0.00016625726863708223,
+     "eta": -42.21608211481038,
+     "as": "separating",
+     "v5": 136.99214998315185,
+     "key": "C2|S Vesta|J Jupiter|RA|137",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "Dec 367/9 + RA 137",
+   "target_value": null,
+   "family": "ninth+whole",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 1.4037461009934304,
+   "rate": null,
+   "eta": null,
+   "as": "applying, separating",
+   "key": "C2b|S Makemake and S Vesta both on J Jupiter|Dec 367/9 + RA 137",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "CH",
+   "pts": [
+    "S Mars",
+    "J Jupiter",
+    "S Orcus"
+   ],
+   "plane": "RA+RA",
+   "value": null,
+   "desc": "sky Mars\u2013Orcus RA 30.55884 (race-wide; difference; root is not a number) -> J Jupiter at 114.89067 / 84.33183",
+   "flags": [
+    "both-near"
+   ],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Mars",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 114.89067482162909,
+     "desc": "S Mars \u2013 J Jupiter",
+     "flags": [],
+     "target": "1034/9",
+     "target_value": 114.88888888888889,
+     "family": "ninth",
+     "level": "near",
+     "offset": 0.0017859327402049985,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.571865480409997,
+     "rate": -0.0004036927680488134,
+     "eta": 4.423989928868502,
+     "as": "applying",
+     "v5": 114.88865635778885,
+     "key": "C2|S Mars|J Jupiter|RA|1034/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Orcus",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 84.331829870501,
+     "desc": "S Orcus \u2013 J Jupiter",
+     "flags": [],
+     "target": "759/9",
+     "target_value": 84.33333333333333,
+     "family": "ninth",
+     "level": "near",
+     "offset": -0.0015034628323320476,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.006925664664095,
+     "rate": -1.1829995054313258e-05,
+     "eta": -127.08904994714091,
+     "as": "separating",
+     "v5": 84.33177072052572,
+     "key": "C2|S Orcus|J Jupiter|RA|759/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "RA 1034/9 + RA 759/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.571865480409997,
+   "rate": null,
+   "eta": null,
+   "as": "applying, separating",
+   "key": "CH|S Mars|S Orcus|RA",
+   "root": "S Mars\u2013S Orcus",
+   "root_plane": "RA",
+   "root_value": 30.558844951128094,
+   "root_relation": "difference",
+   "root_residual": 0.0,
+   "root_number": null,
+   "natal": "J Jupiter",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Mars",
+    "J Jupiter",
+    "S Quaoar"
+   ],
+   "plane": "RA+Flat",
+   "value": null,
+   "desc": "S Mars and S Quaoar both on J Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Mars",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 114.89067482162909,
+     "desc": "S Mars \u2013 J Jupiter",
+     "flags": [],
+     "target": "1034/9",
+     "target_value": 114.88888888888889,
+     "family": "ninth",
+     "level": "near",
+     "offset": 0.0017859327402049985,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.571865480409997,
+     "rate": -0.0004036927680488134,
+     "eta": 4.423989928868502,
+     "as": "applying",
+     "v5": 114.88865635778885,
+     "key": "C2|S Mars|J Jupiter|RA|1034/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Quaoar",
+      "J Jupiter"
+     ],
+     "plane": "Flat",
+     "value": 35.44407603767675,
+     "desc": "S Quaoar \u2013 J Jupiter",
+     "flags": [],
+     "target": "319/9",
+     "target_value": 35.44444444444444,
+     "family": "ninth",
+     "level": "strict",
+     "offset": -0.00036840676769145375,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.7368135353829075,
+     "rate": 4.830000976596694e-06,
+     "eta": 76.27467768154362,
+     "as": "applying",
+     "v5": 35.444100187681634,
+     "key": "C2|S Quaoar|J Jupiter|Flat|319/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    }
+   ],
+   "target": "RA 1034/9 + Flat 319/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.571865480409997,
+   "rate": null,
+   "eta": null,
+   "as": "applying, applying",
+   "key": "C2b|S Mars and S Quaoar both on J Jupiter|RA 1034/9 + Flat 319/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "CH",
+   "pts": [
+    "S Mars",
+    "J Jupiter",
+    "S Vesta"
+   ],
+   "plane": "RA+RA",
+   "value": null,
+   "desc": "sky Mars\u2013Vesta RA 108.11634 (race-wide; 360 - sum; root is not a number) -> J Jupiter at 114.89067 / 136.99298",
+   "flags": [
+    "both-near"
+   ],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Mars",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 114.89067482162909,
+     "desc": "S Mars \u2013 J Jupiter",
+     "flags": [],
+     "target": "1034/9",
+     "target_value": 114.88888888888889,
+     "family": "ninth",
+     "level": "near",
+     "offset": 0.0017859327402049985,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.571865480409997,
+     "rate": -0.0004036927680488134,
+     "eta": 4.423989928868502,
+     "as": "applying",
+     "v5": 114.88865635778885,
+     "key": "C2|S Mars|J Jupiter|RA|1034/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Vesta",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 136.99298126949503,
+     "desc": "S Vesta \u2013 J Jupiter",
+     "flags": [],
+     "target": "137",
+     "target_value": 137.0,
+     "family": "whole",
+     "level": "near",
+     "offset": -0.007018730504967152,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 1.4037461009934304,
+     "rate": -0.00016625726863708223,
+     "eta": -42.21608211481038,
+     "as": "separating",
+     "v5": 136.99214998315185,
+     "key": "C2|S Vesta|J Jupiter|RA|137",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "RA 1034/9 + RA 137",
+   "target_value": null,
+   "family": "ninth+whole",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.571865480409997,
+   "rate": null,
+   "eta": null,
+   "as": "applying, separating",
+   "key": "CH|S Mars|S Vesta|RA",
+   "root": "S Mars\u2013S Vesta",
+   "root_plane": "RA",
+   "root_value": 108.11634390887588,
+   "root_relation": "360 - sum",
+   "root_residual": 0.0,
+   "root_number": null,
+   "natal": "J Jupiter",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Moon",
+    "J Jupiter",
+    "S Quaoar"
+   ],
+   "plane": "GC+Flat",
+   "value": null,
+   "desc": "S Moon and S Quaoar both on J Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Moon",
+      "J Jupiter"
+     ],
+     "plane": "GC",
+     "value": 24.671679404924696,
+     "desc": "S Moon \u2013 J Jupiter",
+     "flags": [],
+     "target": "222/9",
+     "target_value": 24.666666666666668,
+     "family": "ninth",
+     "level": "exact-in-race",
+     "offset": 0.005012738258027838,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 10.025476516055676,
+     "rate": -0.007654429092659854,
+     "eta": 0.6548807490861414,
+     "as": "applying",
+     "v5": 24.633407259461396,
+     "key": "C2|S Moon|J Jupiter|GC|222/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [
+       "P01"
+      ],
+      "exact-pre-off": [],
+      "near": []
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Quaoar",
+      "J Jupiter"
+     ],
+     "plane": "Flat",
+     "value": 35.44407603767675,
+     "desc": "S Quaoar \u2013 J Jupiter",
+     "flags": [],
+     "target": "319/9",
+     "target_value": 35.44444444444444,
+     "family": "ninth",
+     "level": "strict",
+     "offset": -0.00036840676769145375,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.7368135353829075,
+     "rate": 4.830000976596694e-06,
+     "eta": 76.27467768154362,
+     "as": "applying",
+     "v5": 35.444100187681634,
+     "key": "C2|S Quaoar|J Jupiter|Flat|319/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    }
+   ],
+   "target": "GC 222/9 + Flat 319/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "exact-in-race",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 10.025476516055676,
+   "rate": null,
+   "eta": null,
+   "as": "applying, applying",
+   "key": "C2b|S Moon and S Quaoar both on J Jupiter|GC 222/9 + Flat 319/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [
+     "P01"
+    ],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Orcus",
+    "J Jupiter",
+    "S Quaoar"
+   ],
+   "plane": "RA+Flat",
+   "value": null,
+   "desc": "S Orcus and S Quaoar both on J Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Orcus",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 84.331829870501,
+     "desc": "S Orcus \u2013 J Jupiter",
+     "flags": [],
+     "target": "759/9",
+     "target_value": 84.33333333333333,
+     "family": "ninth",
+     "level": "near",
+     "offset": -0.0015034628323320476,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.006925664664095,
+     "rate": -1.1829995054313258e-05,
+     "eta": -127.08904994714091,
+     "as": "separating",
+     "v5": 84.33177072052572,
+     "key": "C2|S Orcus|J Jupiter|RA|759/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Quaoar",
+      "J Jupiter"
+     ],
+     "plane": "Flat",
+     "value": 35.44407603767675,
+     "desc": "S Quaoar \u2013 J Jupiter",
+     "flags": [],
+     "target": "319/9",
+     "target_value": 35.44444444444444,
+     "family": "ninth",
+     "level": "strict",
+     "offset": -0.00036840676769145375,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.7368135353829075,
+     "rate": 4.830000976596694e-06,
+     "eta": 76.27467768154362,
+     "as": "applying",
+     "v5": 35.444100187681634,
+     "key": "C2|S Quaoar|J Jupiter|Flat|319/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    }
+   ],
+   "target": "RA 759/9 + Flat 319/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.006925664664095,
+   "rate": null,
+   "eta": null,
+   "as": "separating, applying",
+   "key": "C2b|S Orcus and S Quaoar both on J Jupiter|RA 759/9 + Flat 319/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "CH",
+   "pts": [
+    "S Orcus",
+    "J Jupiter",
+    "S Vesta"
+   ],
+   "plane": "RA+RA",
+   "value": null,
+   "desc": "sky Orcus\u2013Vesta RA 138.67519 (race-wide; 360 - sum; root is not a number) -> J Jupiter at 84.33183 / 136.99298",
+   "flags": [
+    "both-near"
+   ],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Orcus",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 84.331829870501,
+     "desc": "S Orcus \u2013 J Jupiter",
+     "flags": [],
+     "target": "759/9",
+     "target_value": 84.33333333333333,
+     "family": "ninth",
+     "level": "near",
+     "offset": -0.0015034628323320476,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.006925664664095,
+     "rate": -1.1829995054313258e-05,
+     "eta": -127.08904994714091,
+     "as": "separating",
+     "v5": 84.33177072052572,
+     "key": "C2|S Orcus|J Jupiter|RA|759/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Vesta",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 136.99298126949503,
+     "desc": "S Vesta \u2013 J Jupiter",
+     "flags": [],
+     "target": "137",
+     "target_value": 137.0,
+     "family": "whole",
+     "level": "near",
+     "offset": -0.007018730504967152,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 1.4037461009934304,
+     "rate": -0.00016625726863708223,
+     "eta": -42.21608211481038,
+     "as": "separating",
+     "v5": 136.99214998315185,
+     "key": "C2|S Vesta|J Jupiter|RA|137",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "RA 759/9 + RA 137",
+   "target_value": null,
+   "family": "ninth+whole",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.006925664664095,
+   "rate": null,
+   "eta": null,
+   "as": "separating, separating",
+   "key": "CH|S Orcus|S Vesta|RA",
+   "root": "S Orcus\u2013S Vesta",
+   "root_plane": "RA",
+   "root_value": 138.67518886000397,
+   "root_relation": "360 - sum",
+   "root_residual": 0.0,
+   "root_number": null,
+   "natal": "J Jupiter",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Pluto",
+    "J Jupiter",
+    "S Quaoar"
+   ],
+   "plane": "Dec+Flat",
+   "value": null,
+   "desc": "S Pluto and S Quaoar both on J Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Pluto",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 2.6685463638082503,
+     "desc": "S Pluto \u2013 J Jupiter",
+     "flags": [],
+     "target": "24/9",
+     "target_value": 2.6666666666666665,
+     "family": "ninth",
+     "level": "near",
+     "offset": 0.0018796971415837582,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.7593942831675164,
+     "rate": -7.052879169577864e-08,
+     "eta": 26651.48652612269,
+     "as": "applying",
+     "v5": 2.668546011164292,
+     "key": "C2|S Pluto|J Jupiter|Dec|24/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Quaoar",
+      "J Jupiter"
+     ],
+     "plane": "Flat",
+     "value": 35.44407603767675,
+     "desc": "S Quaoar \u2013 J Jupiter",
+     "flags": [],
+     "target": "319/9",
+     "target_value": 35.44444444444444,
+     "family": "ninth",
+     "level": "strict",
+     "offset": -0.00036840676769145375,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.7368135353829075,
+     "rate": 4.830000976596694e-06,
+     "eta": 76.27467768154362,
+     "as": "applying",
+     "v5": 35.444100187681634,
+     "key": "C2|S Quaoar|J Jupiter|Flat|319/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    }
+   ],
+   "target": "Dec 24/9 + Flat 319/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.7593942831675164,
+   "rate": null,
+   "eta": null,
+   "as": "applying, applying",
+   "key": "C2b|S Pluto and S Quaoar both on J Jupiter|Dec 24/9 + Flat 319/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "CH",
+   "pts": [
+    "S Pluto",
+    "J Jupiter",
+    "S Uranus"
+   ],
+   "plane": "Dec+Dec",
+   "value": null,
+   "desc": "sky Pluto\u2013Uranus Dec 44.68473 (race-wide; sum; root is not a number) -> J Jupiter at 2.66855 / 42.01618",
+   "flags": [
+    "both-near"
+   ],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Pluto",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 2.6685463638082503,
+     "desc": "S Pluto \u2013 J Jupiter",
+     "flags": [],
+     "target": "24/9",
+     "target_value": 2.6666666666666665,
+     "family": "ninth",
+     "level": "near",
+     "offset": 0.0018796971415837582,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.7593942831675164,
+     "rate": -7.052879169577864e-08,
+     "eta": 26651.48652612269,
+     "as": "applying",
+     "v5": 2.668546011164292,
+     "key": "C2|S Pluto|J Jupiter|Dec|24/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Uranus",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 42.016184175065106,
+     "desc": "S Uranus \u2013 J Jupiter",
+     "flags": [],
+     "target": "42",
+     "target_value": 42.0,
+     "family": "whole",
+     "level": "near",
+     "offset": 0.016184175065106388,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 3.2368350130212775,
+     "rate": -3.1024354896658226e-06,
+     "eta": 5216.603252191929,
+     "as": "applying",
+     "v5": 42.01616866288766,
+     "key": "C2|S Uranus|J Jupiter|Dec|42",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "Dec 24/9 + Dec 42",
+   "target_value": null,
+   "family": "ninth+whole",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.7593942831675164,
+   "rate": null,
+   "eta": null,
+   "as": "applying, applying",
+   "key": "CH|S Pluto|S Uranus|Dec",
+   "root": "S Pluto\u2013S Uranus",
+   "root_plane": "Dec",
+   "root_value": 44.68473053887336,
+   "root_relation": "sum",
+   "root_residual": 7.105427357601002e-15,
+   "root_number": null,
+   "natal": "J Jupiter",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Quaoar",
+    "J Jupiter",
+    "S Saturn"
+   ],
+   "plane": "Flat+Flat",
+   "value": null,
+   "desc": "S Quaoar and S Saturn both on J Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Quaoar",
+      "J Jupiter"
+     ],
+     "plane": "Flat",
+     "value": 35.44407603767675,
+     "desc": "S Quaoar \u2013 J Jupiter",
+     "flags": [],
+     "target": "319/9",
+     "target_value": 35.44444444444444,
+     "family": "ninth",
+     "level": "strict",
+     "offset": -0.00036840676769145375,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.7368135353829075,
+     "rate": 4.830000976596694e-06,
+     "eta": 76.27467768154362,
+     "as": "applying",
+     "v5": 35.444100187681634,
+     "key": "C2|S Quaoar|J Jupiter|Flat|319/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Saturn",
+      "J Jupiter"
+     ],
+     "plane": "Flat",
+     "value": 126.88745739763272,
+     "desc": "S Saturn \u2013 J Jupiter",
+     "flags": [],
+     "target": "1142/9",
+     "target_value": 126.88888888888889,
+     "family": "ninth",
+     "level": "near",
+     "offset": -0.0014314912561701476,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 2.862982512340295,
+     "rate": -5.234113527308182e-05,
+     "eta": -27.349258832494982,
+     "as": "separating",
+     "v5": 126.88719569195635,
+     "key": "C2|S Saturn|J Jupiter|Flat|1142/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "Flat 319/9 + Flat 1142/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 2.862982512340295,
+   "rate": null,
+   "eta": null,
+   "as": "applying, separating",
+   "key": "C2b|S Quaoar and S Saturn both on J Jupiter|Flat 319/9 + Flat 1142/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Quaoar",
+    "J Jupiter",
+    "S Saturn"
+   ],
+   "plane": "Flat+GC",
+   "value": null,
+   "desc": "S Quaoar and S Saturn both on J Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Quaoar",
+      "J Jupiter"
+     ],
+     "plane": "Flat",
+     "value": 35.44407603767675,
+     "desc": "S Quaoar \u2013 J Jupiter",
+     "flags": [],
+     "target": "319/9",
+     "target_value": 35.44444444444444,
+     "family": "ninth",
+     "level": "strict",
+     "offset": -0.00036840676769145375,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.7368135353829075,
+     "rate": 4.830000976596694e-06,
+     "eta": 76.27467768154362,
+     "as": "applying",
+     "v5": 35.444100187681634,
+     "key": "C2|S Quaoar|J Jupiter|Flat|319/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Saturn",
+      "J Jupiter"
+     ],
+     "plane": "GC",
+     "value": 122.88703127953539,
+     "desc": "S Saturn \u2013 J Jupiter",
+     "flags": [],
+     "target": "1106/9",
+     "target_value": 122.88888888888889,
+     "family": "ninth",
+     "level": "near",
+     "offset": -0.001857609353493217,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.715218706986434,
+     "rate": -5.3544904358204806e-05,
+     "eta": -34.692551527708005,
+     "as": "separating",
+     "v5": 122.8867635550136,
+     "key": "C2|S Saturn|J Jupiter|GC|1106/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "Flat 319/9 + GC 1106/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.715218706986434,
+   "rate": null,
+   "eta": null,
+   "as": "applying, separating",
+   "key": "C2b|S Quaoar and S Saturn both on J Jupiter|Flat 319/9 + GC 1106/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Quaoar",
+    "J Jupiter",
+    "S Uranus"
+   ],
+   "plane": "Flat+Dec",
+   "value": null,
+   "desc": "S Quaoar and S Uranus both on J Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Quaoar",
+      "J Jupiter"
+     ],
+     "plane": "Flat",
+     "value": 35.44407603767675,
+     "desc": "S Quaoar \u2013 J Jupiter",
+     "flags": [],
+     "target": "319/9",
+     "target_value": 35.44444444444444,
+     "family": "ninth",
+     "level": "strict",
+     "offset": -0.00036840676769145375,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.7368135353829075,
+     "rate": 4.830000976596694e-06,
+     "eta": 76.27467768154362,
+     "as": "applying",
+     "v5": 35.444100187681634,
+     "key": "C2|S Quaoar|J Jupiter|Flat|319/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Uranus",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 42.016184175065106,
+     "desc": "S Uranus \u2013 J Jupiter",
+     "flags": [],
+     "target": "42",
+     "target_value": 42.0,
+     "family": "whole",
+     "level": "near",
+     "offset": 0.016184175065106388,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 3.2368350130212775,
+     "rate": -3.1024354896658226e-06,
+     "eta": 5216.603252191929,
+     "as": "applying",
+     "v5": 42.01616866288766,
+     "key": "C2|S Uranus|J Jupiter|Dec|42",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "Flat 319/9 + Dec 42",
+   "target_value": null,
+   "family": "ninth+whole",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.2368350130212775,
+   "rate": null,
+   "eta": null,
+   "as": "applying, applying",
+   "key": "C2b|S Quaoar and S Uranus both on J Jupiter|Flat 319/9 + Dec 42",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C2b",
+   "pts": [
+    "S Quaoar",
+    "J Jupiter",
+    "S Vesta"
+   ],
+   "plane": "Flat+RA",
+   "value": null,
+   "desc": "S Quaoar and S Vesta both on J Jupiter",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Quaoar",
+      "J Jupiter"
+     ],
+     "plane": "Flat",
+     "value": 35.44407603767675,
+     "desc": "S Quaoar \u2013 J Jupiter",
+     "flags": [],
+     "target": "319/9",
+     "target_value": 35.44444444444444,
+     "family": "ninth",
+     "level": "strict",
+     "offset": -0.00036840676769145375,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.7368135353829075,
+     "rate": 4.830000976596694e-06,
+     "eta": 76.27467768154362,
+     "as": "applying",
+     "v5": 35.444100187681634,
+     "key": "C2|S Quaoar|J Jupiter|Flat|319/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Vesta",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 136.99298126949503,
+     "desc": "S Vesta \u2013 J Jupiter",
+     "flags": [],
+     "target": "137",
+     "target_value": 137.0,
+     "family": "whole",
+     "level": "near",
+     "offset": -0.007018730504967152,
+     "unit": "deg",
+     "tol": 0.005,
+     "t": 1.4037461009934304,
+     "rate": -0.00016625726863708223,
+     "eta": -42.21608211481038,
+     "as": "separating",
+     "v5": 136.99214998315185,
+     "key": "C2|S Vesta|J Jupiter|RA|137",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    }
+   ],
+   "target": "Flat 319/9 + RA 137",
+   "target_value": null,
+   "family": "ninth+whole",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 1.4037461009934304,
+   "rate": null,
+   "eta": null,
+   "as": "applying, separating",
+   "key": "C2b|S Quaoar and S Vesta both on J Jupiter|Flat 319/9 + RA 137",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "C4",
+   "pts": [
+    "S Makemake",
+    "J Jupiter"
+   ],
+   "plane": "RA+Dec",
+   "value": null,
+   "desc": "S Makemake on J Jupiter in RA AND Dec",
+   "flags": [],
+   "parts": [
+    {
+     "m": "C2",
+     "pts": [
+      "S Makemake",
+      "J Jupiter"
+     ],
+     "plane": "RA",
+     "value": 43.887021932909306,
+     "desc": "S Makemake \u2013 J Jupiter",
+     "flags": [],
+     "target": "395/9",
+     "target_value": 43.888888888888886,
+     "family": "ninth",
+     "level": "near",
+     "offset": -0.001866955979579643,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 3.733911959159286,
+     "rate": -1.375378254806492e-05,
+     "eta": -135.7412750314504,
+     "as": "separating",
+     "v5": 43.886953163996566,
+     "key": "C2|S Makemake|J Jupiter|RA|395/9",
+     "field": {
+      "strict": [],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": [
+       "P01"
+      ]
+     }
+    },
+    {
+     "m": "C2",
+     "pts": [
+      "S Makemake",
+      "J Jupiter"
+     ],
+     "plane": "Dec",
+     "value": 40.77791960102786,
+     "desc": "S Makemake \u2013 J Jupiter",
+     "flags": [],
+     "target": "367/9",
+     "target_value": 40.77777777777778,
+     "family": "ninth",
+     "level": "strict",
+     "offset": 0.00014182325008249563,
+     "unit": "deg",
+     "tol": 0.0005,
+     "t": 0.28364650016499127,
+     "rate": -5.516384831594223e-06,
+     "eta": 25.709455451734506,
+     "as": "applying",
+     "v5": 40.7778920191037,
+     "key": "C2|S Makemake|J Jupiter|Dec|367/9",
+     "field": {
+      "strict": [
+       "P01"
+      ],
+      "exact-in-race": [],
+      "exact-pre-off": [],
+      "near": []
+     }
+    }
+   ],
+   "target": "RA 395/9 + Dec 367/9",
+   "target_value": null,
+   "family": "ninth+ninth",
+   "level": "near",
+   "offset": null,
+   "unit": "",
+   "tol": null,
+   "t": 3.733911959159286,
+   "rate": null,
+   "eta": null,
+   "as": "separating, applying",
+   "key": "C4|S Makemake on J Jupiter in RA AND Dec|RA 395/9 + Dec 367/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "D1",
+   "pts": [
+    "S Jupiter",
+    "S Mars",
+    "H Jupiter",
+    "H Mars"
+   ],
+   "plane": "RA",
+   "value": 5.6010105596288176,
+   "desc": "(S Jupiter\u2013S Mars) / (H Jupiter\u2013H Mars) (inverted)",
+   "flags": [],
+   "target": "28/5",
+   "target_value": 5.6,
+   "family": "ratio",
+   "level": "near",
+   "offset": 0.018045707657465826,
+   "unit": "%",
+   "tol": 0.005,
+   "t": 3.609141531493165,
+   "rate": 0.00012579070533167425,
+   "eta": -8.033658974670272,
+   "as": "separating",
+   "num": 13.038671425309673,
+   "den": 73.02973633669001,
+   "flip": true,
+   "v5": 5.601639513155476,
+   "key": "D1|S Jupiter|S Mars|H Jupiter|H Mars|RA|28/5",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "D2",
+   "pts": [
+    "S Jupiter",
+    "H Uranus",
+    "H Jupiter"
+   ],
+   "plane": "Flat",
+   "value": 3.375093937673621,
+   "desc": "(S Jupiter\u2013H Uranus) / (H Jupiter\u2013H Uranus)",
+   "flags": [],
+   "target": "27/8",
+   "target_value": 3.375,
+   "family": "ratio",
+   "level": "strict",
+   "offset": 0.0027833384776521086,
+   "unit": "%",
+   "tol": 0.005,
+   "t": 0.5566676955304217,
+   "rate": 3.7552351732195175e-06,
+   "eta": -25.015124030316084,
+   "as": "separating",
+   "num": 100.06711558220894,
+   "den": 29.64869050465097,
+   "flip": false,
+   "v5": 3.375112713849487,
+   "key": "D2|S Jupiter|H Uranus|H Jupiter|Flat|27/8",
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "D1",
+   "pts": [
+    "S Jupiter",
+    "S Neptune",
+    "H Jupiter",
+    "H Neptune"
+   ],
+   "plane": "Dec",
+   "value": 1.7776221030723902,
+   "desc": "(S Jupiter\u2013S Neptune) / (H Jupiter\u2013H Neptune)",
+   "flags": [],
+   "target": "16/9",
+   "target_value": 1.7777777777777777,
+   "family": "ratio",
+   "level": "near",
+   "offset": -0.008756702178047693,
+   "unit": "%",
+   "tol": 0.005,
+   "t": 1.7513404356095386,
+   "rate": -3.0921213828971615e-06,
+   "eta": -50.345599706569686,
+   "as": "separating",
+   "num": 15.463050504851996,
+   "den": 8.698727630651144,
+   "flip": false,
+   "v5": 1.7776066424654757,
+   "key": "D1|S Jupiter|S Neptune|H Jupiter|H Neptune|Dec|16/9",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "D1",
+   "pts": [
+    "S Jupiter",
+    "S Ceres",
+    "H Jupiter",
+    "H Ceres"
+   ],
+   "plane": "GC",
+   "value": 4.800702080563626,
+   "desc": "(S Jupiter\u2013S Ceres) / (H Jupiter\u2013H Ceres) (inverted)",
+   "flags": [],
+   "target": "24/5",
+   "target_value": 4.8,
+   "family": "ratio",
+   "level": "near",
+   "offset": 0.01462667840887999,
+   "unit": "%",
+   "tol": 0.005,
+   "t": 2.925335681775998,
+   "rate": 6.704804999557723e-06,
+   "eta": -104.7130473850812,
+   "as": "separating",
+   "num": 32.60818249050533,
+   "den": 156.54216952556735,
+   "flip": true,
+   "v5": 4.800735604588624,
+   "key": "D1|S Jupiter|S Ceres|H Jupiter|H Ceres|GC|24/5",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "D1",
+   "pts": [
+    "S Jupiter",
+    "S Neptune",
+    "J Jupiter",
+    "J Neptune"
+   ],
+   "plane": "RA",
+   "value": 2.8754996944588185,
+   "desc": "(S Jupiter\u2013S Neptune) / (J Jupiter\u2013J Neptune)",
+   "flags": [],
+   "target": "23/8",
+   "target_value": 2.875,
+   "family": "ratio",
+   "level": "near",
+   "offset": 0.017380676828460118,
+   "unit": "%",
+   "tol": 0.005,
+   "t": 3.4761353656920235,
+   "rate": 2.596509671803915e-06,
+   "eta": -192.44852589796727,
+   "as": "separating",
+   "num": 141.25537761924153,
+   "den": 49.123767215640896,
+   "flip": false,
+   "v5": 2.8755126770071775,
+   "key": "D1|S Jupiter|S Neptune|J Jupiter|J Neptune|RA|23/8",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "D1",
+   "pts": [
+    "S Jupiter",
+    "S Chiron",
+    "J Jupiter",
+    "J Chiron"
+   ],
+   "plane": "Dec",
+   "value": 4.750609389145178,
+   "desc": "(S Jupiter\u2013S Chiron) / (J Jupiter\u2013J Chiron) (inverted)",
+   "flags": [],
+   "target": "19/4",
+   "target_value": 4.75,
+   "family": "ratio",
+   "level": "near",
+   "offset": 0.012829245161638525,
+   "unit": "%",
+   "tol": 0.005,
+   "t": 2.565849032327705,
+   "rate": 2.6753482842956088e-05,
+   "eta": -22.777936942090843,
+   "as": "separating",
+   "num": 3.900618459018901,
+   "den": 18.530314674888185,
+   "flip": true,
+   "v5": 4.750743156559393,
+   "key": "D1|S Jupiter|S Chiron|J Jupiter|J Chiron|Dec|19/4",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "D2",
+   "pts": [
+    "S Jupiter",
+    "J Ketu",
+    "J Jupiter"
+   ],
+   "plane": "Dec",
+   "value": 7.071133095614073,
+   "desc": "(S Jupiter\u2013J Ketu) / (J Jupiter\u2013J Ketu) (inverted)",
+   "flags": [],
+   "target": "7.07",
+   "target_value": 7.071067811865475,
+   "family": "sqrt2",
+   "level": "strict",
+   "offset": 0.0009232516267054791,
+   "unit": "%",
+   "tol": 0.005,
+   "t": 0.18465032534109582,
+   "rate": 5.389789695922076e-05,
+   "eta": -1.2112485325271374,
+   "as": "separating",
+   "num": 4.47002534566969,
+   "den": 31.60814415999868,
+   "flip": true,
+   "v5": 7.071402585098869,
+   "key": "D2|S Jupiter|J Ketu|J Jupiter|Dec|7.07",
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "D2",
+   "pts": [
+    "S Jupiter",
+    "J Sedna",
+    "J Jupiter"
+   ],
+   "plane": "RA",
+   "value": 1.6183339146942828,
+   "desc": "(S Jupiter\u2013J Sedna) / (J Jupiter\u2013J Sedna) (inverted)",
+   "flags": [],
+   "target": "1.618",
+   "target_value": 1.618033988749895,
+   "family": "golden",
+   "level": "near",
+   "offset": 0.018536442773964268,
+   "unit": "%",
+   "tol": 0.005,
+   "t": 3.7072885547928536,
+   "rate": -1.820273460939603e-06,
+   "eta": 164.76971775057456,
+   "as": "applying",
+   "num": 98.59246567251603,
+   "den": 159.55553093116455,
+   "flip": true,
+   "v5": 1.618324813326978,
+   "key": "D2|S Jupiter|J Sedna|J Jupiter|RA|1.618",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "D2",
+   "pts": [
+    "S Jupiter",
+    "J Orcus",
+    "J Jupiter"
+   ],
+   "plane": "Flat",
+   "value": 6.854149759961756,
+   "desc": "(S Jupiter\u2013J Orcus) / (J Jupiter\u2013J Orcus) (inverted)",
+   "flags": [],
+   "target": "6.854",
+   "target_value": 6.854101966249686,
+   "family": "golden",
+   "level": "strict",
+   "offset": 0.0006973008616739662,
+   "unit": "%",
+   "tol": 0.005,
+   "t": 0.13946017233479324,
+   "rate": -1.3042869752233344e-05,
+   "eta": 3.6643555428021584,
+   "as": "applying",
+   "num": 16.483220510827294,
+   "den": 112.9784619076836,
+   "flip": true,
+   "v5": 6.854084545612995,
+   "key": "D2|S Jupiter|J Orcus|J Jupiter|Flat|6.854",
+   "field": {
+    "strict": [
+     "P01"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  },
+  {
+   "m": "E1",
+   "pts": [
+    "H Neptune",
+    "S Jupiter",
+    "J Neptune"
+   ],
+   "plane": "Dec",
+   "value": 35.96310047619009,
+   "desc": "H Neptune at the midpoint of S Jupiter and J Neptune (span 35.9631, wide)",
+   "flags": [],
+   "target": "midpoint",
+   "target_value": 0.0,
+   "family": "midpoint",
+   "level": "near",
+   "offset": -0.055236599952711796,
+   "unit": "deg",
+   "tol": 0.05,
+   "t": 1.104731999054236,
+   "rate": 1.703516117110837e-05,
+   "eta": 3242.5052747016603,
+   "as": "applying",
+   "key": "E1|H Neptune|S Jupiter|J Neptune|Dec|midpoint",
+   "field": {
+    "strict": [],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": [
+     "P01"
+    ]
+   }
+  },
+  {
+   "m": "E3",
+   "pts": [
+    "H Neptune",
+    "J Jupiter",
+    "S Jupiter"
+   ],
+   "plane": "Dec",
+   "value": 36.07816950566837,
+   "desc": "H Neptune at the midpoint of J Jupiter and S Jupiter (span 36.0782, wide)",
+   "flags": [],
+   "target": "midpoint",
+   "target_value": 0.0,
+   "family": "midpoint",
+   "level": "strict",
+   "offset": 0.002297914786428823,
+   "unit": "deg",
+   "tol": 0.05,
+   "t": 0.04595829572857646,
+   "rate": 1.703516117110837e-05,
+   "eta": -134.89245938723997,
+   "as": "separating",
+   "key": "E3|H Neptune|J Jupiter|S Jupiter|Dec|midpoint",
+   "field": {
+    "strict": [
+     "P01",
+     "P11"
+    ],
+    "exact-in-race": [],
+    "exact-pre-off": [],
+    "near": []
+   }
+  }
+ ]
+}

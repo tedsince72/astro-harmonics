@@ -1,0 +1,52 @@
+JR v3 engine check — musselburgh_1547_20261012
+source: off: META race_local_time; site: META; batch reference/classic/race_batch_20261012_musselburgh_1547.xlsx
+engine v2.2 /Users/eddieplace/astro-harmonics/rebuild_kit/celestial_bodies_swisseph.py, ephe /Users/eddieplace/astronomy-project/ephe
+off 2026-10-12 15:47 Europe/London = 2026-10-12 14:47 UTC; site (55.9406, -3.0564, 9.0); step 5 min
+reproduction: 48 of 48 sky points within 0.0001 deg; failing: none
+  Sun          off: workbook RA 197.456524 Dec -7.411275 | engine dRA 5.68e-14 dDec 0.00e+00 OK | rate RA +0.000637/min Dec -0.000260/min
+  Moon         off: workbook RA 217.741031 Dec -20.968406 | engine dRA 0.00e+00 dDec 0.00e+00 OK | rate RA +0.006518/min Dec -0.002634/min
+  Mercury      off: workbook RA 220.545524 Dec -18.796925 | engine dRA 5.68e-14 dDec 3.55e-15 OK | rate RA +0.000657/min Dec -0.000251/min
+  Venus        off: workbook RA 211.420589 Dec -20.792659 | engine dRA 2.84e-14 dDec 3.55e-15 OK | rate RA -0.000267/min Dec +0.000098/min
+  Mars         off: workbook RA 130.686171 Dec +19.459152 | engine dRA 2.84e-14 dDec 0.00e+00 OK | rate RA +0.000401/min Dec -0.000089/min
+  Jupiter      off: workbook RA 143.785549 Dec +15.028973 | engine dRA 2.84e-14 dDec 1.78e-15 OK | rate RA +0.000110/min Dec -0.000034/min
+  Saturn       off: workbook RA 10.523762 Dec +1.578542 | engine dRA 0.00e+00 dDec 4.44e-16 OK | rate RA -0.000049/min Dec -0.000021/min
+  Uranus       off: workbook RA 62.987897 Dec +20.960554 | engine dRA 0.00e+00 dDec 0.00e+00 OK | rate RA -0.000018/min Dec -0.000003/min
+  Neptune      off: workbook RA 2.556566 Dec -0.439680 | engine dRA 0.00e+00 dDec 0.00e+00 OK | rate RA -0.000017/min Dec -0.000007/min
+  Pluto        off: workbook RA 306.042512 Dec -23.724848 | engine dRA 0.00e+00 dDec 3.55e-15 OK | rate RA -0.000001/min Dec +0.000000/min
+  Chiron       off: workbook RA 26.516285 Dec +11.123783 | engine dRA 0.00e+00 dDec 3.55e-15 OK | rate RA -0.000030/min Dec -0.000012/min
+  Ceres        off: workbook RA 110.308699 Dec +23.414175 | engine dRA 2.84e-14 dDec 3.55e-15 OK | rate RA +0.000175/min Dec +0.000014/min
+  Pallas       off: workbook RA 19.448282 Dec -15.583270 | engine dRA 0.00e+00 dDec 5.33e-15 OK | rate RA -0.000134/min Dec -0.000172/min
+  Juno         off: workbook RA 297.974517 Dec -13.266418 | engine dRA 0.00e+00 dDec 5.33e-15 OK | rate RA +0.000123/min Dec -0.000045/min
+  Vesta        off: workbook RA 22.687560 Dec -3.302770 | engine dRA 0.00e+00 dDec 0.00e+00 OK | rate RA -0.000163/min Dec -0.000061/min
+  Rahu         off: workbook RA 330.387907 Dec -12.090007 | engine dRA 0.00e+00 dDec 3.55e-15 OK | rate RA -0.000107/min Dec -0.000039/min
+  Eris         off: workbook RA 27.069909 Dec -0.086205 | engine dRA 0.00e+00 dDec 0.00e+00 OK | rate RA -0.000006/min Dec -0.000002/min
+  Sedna        off: workbook RA 62.279766 Dec +8.840190 | engine dRA 0.00e+00 dDec 0.00e+00 OK | rate RA -0.000005/min Dec -0.000002/min
+  Haumea       off: workbook RA 220.207668 Dec +13.548136 | engine dRA 2.84e-14 dDec 1.78e-15 OK | rate RA +0.000014/min Dec -0.000006/min
+  Makemake     off: workbook RA 201.770633 Dec +19.722768 | engine dRA 2.84e-14 dDec 3.55e-15 OK | rate RA +0.000014/min Dec -0.000005/min
+  Orcus        off: workbook RA 161.326244 Dec -13.627490 | engine dRA 2.84e-14 dDec 3.55e-15 OK | rate RA +0.000012/min Dec -0.000008/min
+  Quaoar       off: workbook RA 280.599890 Dec -15.102370 | engine dRA 0.00e+00 dDec 0.00e+00 OK | rate RA +0.000005/min Dec -0.000002/min
+  Gonggong     off: workbook RA 337.298037 Dec -10.277175 | engine dRA 5.68e-14 dDec 5.33e-15 OK | rate RA -0.000005/min Dec -0.000001/min
+  Transpluto   off: workbook RA 156.557815 Dec +9.783628 | engine dRA 2.84e-14 dDec 0.00e+00 OK | rate RA +0.000005/min Dec -0.000002/min
+  Algol        off: workbook RA 47.048513 Dec +40.955743 | engine dRA 0.00e+00 dDec 0.00e+00 OK | rate RA +0.000000/min Dec -0.000000/min
+  Pleiades     off: workbook RA 56.875985 Dec +24.105503 | engine dRA 0.00e+00 dDec 3.55e-15 OK | rate RA +0.000000/min Dec -0.000000/min
+  Aldebaran    off: workbook RA 68.984346 Dec +16.508834 | engine dRA 0.00e+00 dDec 0.00e+00 OK | rate RA +0.000000/min Dec -0.000000/min
+  Capella      off: workbook RA 79.177163 Dec +45.993097 | engine dRA 0.00e+00 dDec 0.00e+00 OK | rate RA -0.000000/min Dec -0.000000/min
+  Sirius       off: workbook RA 101.283966 Dec -16.721698 | engine dRA 2.84e-14 dDec 3.55e-15 OK | rate RA -0.000000/min Dec +0.000000/min
+  Procyon      off: workbook RA 114.819903 Dec +5.218913 | engine dRA 2.84e-14 dDec 0.00e+00 OK | rate RA -0.000000/min Dec -0.000000/min
+  Regulus      off: workbook RA 152.087562 Dec +11.968517 | engine dRA 5.68e-14 dDec 0.00e+00 OK | rate RA -0.000000/min Dec -0.000000/min
+  Alkaid       off: workbook RA 206.875761 Dec +49.314945 | engine dRA 0.00e+00 dDec 0.00e+00 OK | rate RA -0.000000/min Dec +0.000000/min
+  Algorab      off: workbook RA 187.459106 Dec -16.514064 | engine dRA 0.00e+00 dDec 3.55e-15 OK | rate RA -0.000000/min Dec -0.000000/min
+  Spica        off: workbook RA 201.292594 Dec -11.159468 | engine dRA 0.00e+00 dDec 3.55e-15 OK | rate RA -0.000000/min Dec -0.000000/min
+  Arcturus     off: workbook RA 213.901265 Dec +19.169925 | engine dRA 0.00e+00 dDec 3.55e-15 OK | rate RA -0.000000/min Dec +0.000000/min
+  Alphecca     off: workbook RA 233.667993 Dec +26.717202 | engine dRA 2.84e-14 dDec 3.55e-15 OK | rate RA -0.000000/min Dec +0.000000/min
+  Antares      off: workbook RA 247.347758 Dec -26.431949 | engine dRA 2.84e-14 dDec 0.00e+00 OK | rate RA -0.000000/min Dec -0.000000/min
+  Vega         off: workbook RA 279.235225 Dec +38.790696 | engine dRA 0.00e+00 dDec 0.00e+00 OK | rate RA +0.000000/min Dec +0.000000/min
+  Deneb Algedi off: workbook RA 326.765380 Dec -16.128640 | engine dRA 0.00e+00 dDec 3.55e-15 OK | rate RA +0.000000/min Dec -0.000000/min
+  Fomalhaut    off: workbook RA 344.420331 Dec -29.623182 | engine dRA 5.68e-14 dDec 3.55e-15 OK | rate RA +0.000000/min Dec -0.000000/min
+  Rigel        off: workbook RA 78.637334 Dec -8.198893 | engine dRA 0.00e+00 dDec 0.00e+00 OK | rate RA -0.000000/min Dec +0.000000/min
+  Betelgeuse   off: workbook RA 88.795165 Dec +7.408636 | engine dRA 0.00e+00 dDec 0.00e+00 OK | rate RA -0.000000/min Dec -0.000000/min
+  Polaris      off: workbook RA 38.370846 Dec +89.262507 | engine dRA 0.00e+00 dDec 0.00e+00 OK | rate RA +0.000008/min Dec -0.000000/min
+  Castor       off: workbook RA 113.647545 Dec +31.886240 | engine dRA 2.84e-14 dDec 3.55e-15 OK | rate RA -0.000000/min Dec -0.000000/min
+  Altair       off: workbook RA 297.700424 Dec +8.874096 | engine dRA 0.00e+00 dDec 0.00e+00 OK | rate RA +0.000000/min Dec +0.000000/min
+  Bellatrix    off: workbook RA 81.285341 Dec +6.351222 | engine dRA 0.00e+00 dDec 8.88e-16 OK | rate RA -0.000000/min Dec -0.000000/min
+  Ketu         off: workbook RA 150.387907 Dec +12.090007 | engine dRA 0.00e+00 dDec 3.55e-15 OK | rate RA -0.000107/min Dec +0.000039/min
