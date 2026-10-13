@@ -10,8 +10,13 @@ Eddie's own scoring functions in rebuild_kit/active_vibrations.py are imported (
   silver     2.414, 24.14, 0.414, 4.14, 41.4 - no multiples              same
   conj       conjunction: RA < 1.5 or Dec < 0.3 (RA / Dec values only)   squared, as score_conjunction, on these tolerances
   interval   ratio values only (larger / smaller): NOT any p/q - Eddie's musical interval list (INTERVALS below, groups Perfect,
-             Imperfect, Dissonant, Septimal, Harmonic, High, Phi), tol 0.15 %, squared. Ratio values are scored against the
-             interval list only; distances (degrees) against the other families only.
+             Imperfect, Dissonant, Septimal, Harmonic, High, Phi), squared on each interval's own tolerance (interval_tol, Eddie
+             13 Oct 2026): unison 1 %; a whole-number interval 1 % / k, k = the whole number or the lower number of the fraction
+             (2, 3/2 -> 0.5 %; 3, 4/3, 5/3, 8/3 -> 0.333 %; 4, 5/4, 7/4, 9/4, 13/4 -> 0.25 %; 5, 6/5 ... 13/5 -> 0.2 %), 0.15 % when
+             k >= 6; Phi group, sqrt2 and 1+1/sqrt2 0.15 %. Ratio values are scored against the interval list only; distances
+             (degrees) against the other families only.
+Outside every tolerance: outside() gives the nearest target and its offset, plain text (ratios: smallest % offset; degrees: smallest
+offset in units of the target's own tolerance).
 Scores: squared (10 (tol - dev) / tol)^2 for whole, golden, phi powers, sqrt2, silver, conjunction and intervals; linear
 100 (tol - dev) / tol for ninths.
 Planes RA, Dec, Flat, GC. Decimal scaling: v, 10 v and v/10 are each tested against every family but conj (scaled() - labelled x10 / /10;
@@ -48,12 +53,23 @@ INTERVALS = [
     ('11/8', 1.375, 'undecimal 11:8', 'High'), ('11/4', 2.75, 'undecimal 11:4', 'High'), ('13/5', 2.6, 'tridecimal 13:5', 'High'),
     ('13/8', 1.625, 'tridecimal 13:8', 'High'), ('13/4', 3.25, 'tridecimal 13:4', 'High'),
     ('φ', PHI, 'golden ratio', 'Phi'), ('φ²', PHI ** 2, 'φ squared', 'Phi'), ('φ³', PHI ** 3, 'φ cubed', 'Phi'),
-    ('1+√2', SILVER, 'silver ratio', 'Phi'), ('φ√5', PHI * math.sqrt(5), 'φ√5', 'Phi'), ('2−1/φ', 2 - 1 / PHI, '2 − 1/φ', 'Phi'),
-    ('φ³+1', PHI ** 3 + 1, 'φ³ + 1', 'Phi'), ('2/φ', 2 / PHI, '2/φ', 'Phi'),
+    ('1+√2', SILVER, 'silver ratio', 'Phi'),               # Eddie 13 Oct: Phi group = φ, φ², φ³, 1+√2 only (φ√5, 2−1/φ, φ³+1, 2/φ removed)
 ]
 INTERVAL_BY_LABEL = {i[0]: i for i in INTERVALS}
 GROUPS = ('Perfect', 'Imperfect', 'Dissonant', 'Septimal', 'Harmonic', 'High', 'Phi')
-INTERVAL_TOL = 0.15                                    # percent
+INTERVAL_TOL = 0.15                                    # percent: the floor; Phi group, √2, 1+1/√2
+
+
+def interval_tol(lab):
+    """tolerance in percent (Eddie, 13 Oct 2026): unison 1 %; whole-number interval 1 % / k (k = the whole number, or the lower
+    number of the fraction: 3/2 -> 2, 13/4 -> 4), 0.15 % when k >= 6; Phi group, √2 and 1+1/√2 0.15 %"""
+    if INTERVAL_BY_LABEL[lab][3] == 'Phi' or '√' in lab:
+        return INTERVAL_TOL
+    k = int(lab.split('/')[1]) if '/' in lab else int(lab)
+    return 1.0 / k if k <= 5 else INTERVAL_TOL
+
+
+TOL = {lab: interval_tol(lab) for lab, *_ in INTERVALS}
 GREEN, YELLOW = 80.0, 50.0
 DEG_FAMILIES = ('whole', 'golden', 'phi power', 'ninth', 'sqrt2', 'silver', 'conj')
 ORDER = DEG_FAMILIES + ('interval',)
@@ -115,8 +131,9 @@ def score_family(v, fam, plane=None, kind='deg'):
         best = (0.0, None, None)
         for lab, t, name, grp in INTERVALS:
             dev = abs(v / t - 1) * 100
-            if dev < INTERVAL_TOL:
-                sc = (10.0 * (INTERVAL_TOL - dev) / INTERVAL_TOL) ** 2
+            tol = TOL[lab]
+            if dev < tol:
+                sc = (10.0 * (tol - dev) / tol) ** 2
                 if sc > best[0]:
                     best = (sc, lab, t)
         return best
@@ -136,6 +153,28 @@ def evaluate(v, plane=None, kind='deg'):
             out.append({'family': fam, 'score': s, 'target': lab, 'tv': t, 'off': off, 'pct': pct, 'colour': colour(s),
                         'name': name, 'group': grp})
     return sorted(out, key=lambda d: (-d['score'], ORDER.index(d['family'])))
+
+
+def outside(v, plane=None, kind='deg'):
+    """no family scores: the nearest target anyway -> ratios: the interval with the smallest % offset; degrees: the target with the
+    smallest offset in units of its own tolerance (every value is within 0.5 of a whole number; conjunction left out) ->
+    {'family', 'target', 'tv', 'off', 'pct', 'tol', 'name', 'group'} or None. Plain text in the tables: no score, no colour."""
+    if v is None or v <= 0:
+        return None
+    if kind != 'deg':
+        cands = [('interval', lab, t, TOL[lab], name, grp) for lab, t, name, grp in INTERVALS]
+    else:
+        k = round(v / PHI)
+        cands = [('whole', f'{round(v)}', float(round(v)), 0.02, '', ''), ('golden', f'{k}×φ', k * PHI, 0.03236, '', '')]
+        cands += [('phi power', _phi_power_label(t), t, max(t * 0.005, 0.025), '', '') for t in _PHI_POWER_TARGETS]
+        cands += [('ninth', f'{t:g}', t, tol, '', '') for lo, hi, tol, t in _NINTH_RANGES]
+        cands += [(f, lab, t, max(t * 0.005, 0.025), '', '') for f, ts in (('sqrt2', SQRT2_T), ('silver', SILVER_T)) for lab, t in ts]
+        cands = [c for c in cands if c[2] > 0]
+    pct = kind != 'deg'
+    rel = (lambda c: abs(v / c[2] - 1)) if pct else (lambda c: abs(v - c[2]) / c[3])     # ratios: smallest % offset
+    f, lab, t, tol, name, grp = min(cands, key=rel)
+    return {'family': f, 'target': lab, 'tv': t, 'off': (v / t - 1) * 100 if pct else v - t, 'pct': pct, 'tol': tol,
+            'name': name, 'group': grp, 'score': None, 'colour': ''}
 
 
 def best(v, plane=None, kind='deg'):

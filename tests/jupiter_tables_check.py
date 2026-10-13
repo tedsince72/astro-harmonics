@@ -6,11 +6,17 @@ RA 14.4444; expected values changed: T6 RA 18 green -> yellow (whole score 62.9)
 Venturous S Uranus Dec 7.008205 yellow -> light (whole score 34.78).
 Same day, Eddie's interval list for ratios (0.15 %, squared): Pholas phi now an interval, phi · golden ratio · Phi, +0.05151 %, score 43.11,
 light (green under the first families.py build, yellow under JR v3 bands); RATIOS BY GROUP sheet checked.
-Test 6 (Eddie 13 Oct): Jupiter return line (information); per-plane automatic unisons (d(S Jup, natal Jup) / d(natal Jup, X) < 0.0015) greyed, not counted;\nreturn-assisted tag for 0.0015 <= d1/d2 < 0.02; empty RATIOS group headers hidden.\nTest 5 (Eddie 13 Oct): unison counts, with its field count.\nTest 4 (T16 RA–Dec crossing, Eddie 13 Oct): Sandown 14:25 2021 Nube Negra / Harry Skelton, Jupiter–Orcus J RA = H Dec."""
+Test 6 (Eddie 13 Oct): Jupiter return line (information); per-plane automatic unisons (d(S Jup, natal Jup) / d(natal Jup, X) < 0.0015) greyed, not counted;\nreturn-assisted tag for 0.0015 <= d1/d2 < 0.02; empty RATIOS group headers hidden.\nTest 5 (Eddie 13 Oct): unison counts, with its field count.\nTest 4 (T16 RA–Dec crossing, Eddie 13 Oct): Sandown 14:25 2021 Nube Negra / Harry Skelton, Jupiter–Orcus J RA = H Dec.
+Test 7 (Eddie 13 Oct): tapered ratio tolerances (unison 1 %, 1 % / k, floor 0.15 %; Phi group φ, φ², φ³, 1+√2 only) and the nearest
+target + offset shown outside every tolerance (plain text, no score, no colour). Expected values changed by it: test 1 Dec 15.222681
+now shows '15.5556 (ninth) — outside ±0.106' -0.33287 (still no score, no colour); test 5 P05 now has 5 unison rows (the Rahu ratio is a
+unison in RA, Flat and GC); test 6 Cobden J Pluto GC 1.001353 score 0.96 light -> 74.77 yellow, Cobden 41 -> 61 unisons (20 automatic,
+all RA; 41 genuine: Flat 20, GC 20, RA 1, all return-assisted, two at 2/6)."""
 import os, subprocess, sys
 import openpyxl
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(REPO, "tools"))
 os.chdir(REPO)
 GREEN, YELLOW, LIGHT = '00C6EFCE', '00FFEB9C', '00FFF8DC'
 COL = {'RA': 2, 'Dec': 11, 'Flat': 20, 'GC': 29}           # 0-based column of each plane's value (tables with 4 planes, 9 columns each)
@@ -54,7 +60,9 @@ v, t, o, f, sc = cell(r, 'RA')
 check('T6 S Jupiter → J Vesta RA 18 (+0.00414, whole score 62.9), yellow', t == '18 (whole)' and o == '+0.00414' and sc == 62.9 and f == YELLOW,
       f'{v} {t} {o} {sc} {f}')
 v, t, o, f, sc = cell(r, 'Dec')
-check('T6 S Jupiter → J Vesta Dec 15.222681: no family (137/9 is not one of the 48), no colour', round(v, 6) == 15.222681 and t is None and f is None,
+check('T6 S Jupiter → J Vesta Dec 15.222681: no family (137/9 is not one of the 48), no colour, no score; nearest shown: '
+      '15.5556 (ninth) — outside ±0.106, -0.33287', round(v, 6) == 15.222681 and t == '15.5556 (ninth) — outside ±0.106' and o == '-0.33287'
+      and f is None and sc is None,
       f'{v} {t} {o} {sc} {f}')
 
 print('\nTest 2: Pholas, Lingfield 2 Apr 2021 (split folder, older workbook) — T14 J/S Jupiter Equator')
@@ -101,10 +109,14 @@ for P, inv in (('P05', ' (inverted)'), ('P11', '')):
     v, t, o, f, sc = cell(r, 'Flat')
     check(f'{P} T12 {lab} Flat -> 1 · unison · Perfect{inv}, also cell "unison: field 2/6"',
           t == f'1 · unison · Perfect{inv}' and r[COL['Flat'] + 7].value == 'unison: field 2/6', f'{v} {t} {o} {sc} {r[COL["Flat"] + 7].value}')
-rs = [x for x in wb['P05 RATIOS'].iter_rows(values_only=True) if x[6] == '1']
-check('P05 RATIOS: unison row with field 2/6', len(rs) == 1 and rs[0][11] == '2/6', str(rs))
-f14 = [x for x in wb['FIELD 12'].iter_rows(values_only=True) if x[0] == lab and any(isinstance(v, str) and 'field 2/6' in v for v in x[1:])]
-check('FIELD 12 tags it "field 2/6"', len(f14) == 1, str(f14))
+rs = [x for x in wb['P05 RATIOS'].iter_rows(values_only=True) if x[6] == '1' and x[1] == 'T12' and x[3] == 'Flat']
+check('P05 RATIOS: the Flat unison row with field 2/6', len(rs) == 1 and rs[0][11] == '2/6', str(rs))
+f12, pl = [], None
+for x in wb['FIELD 12'].iter_rows(values_only=True):
+    pl = x[0] if x[0] in ('RA', 'Dec', 'Flat', 'GC') else pl
+    if pl == 'Flat' and x[0] == lab:
+        f12.append(x)
+check('FIELD 12 (Flat) tags it "field 2/6" for P05 and P11', len(f12) == 1 and sum(isinstance(v, str) and 'field 2/6' in v for v in f12[0][1:]) == 2, str(f12))
 
 print('\nTest 6: Wincanton 14:20 2022 (batch xlsx) — P09 Cobden Jupiter return (S–J Jupiter RA 0.03276, Dec 0.52192)')
 wb = openpyxl.load_workbook(build('reference/classic/race_batch_20220321_wincanton_1420.xlsx'))
@@ -117,23 +129,53 @@ check('RA unison J Makemake automatic (d ratio < 0.0015): grey, not counted',
       t == '1 · unison · Perfect' and f == '00D9D9D9' and r[COL['RA'] + 7].value == 'unison: automatic (Jupiter return), not counted',
       f'{v} {t} {sc} {f} {r[COL["RA"] + 7].value}')
 v, t, o, f, sc = cell(row(ws, 'T13', 'S Jupiter–J Pluto / J Jupiter–J Pluto'), 'GC')
-check('GC unison J Pluto genuine (d(SJ,JJ) 0.522937 / d(JJ,JPluto) 101.36785 = 0.005159): coloured', t == '1 · unison · Perfect' and f == LIGHT and sc == 0.96,
+check('GC unison J Pluto genuine (d(SJ,JJ) 0.522937 / d(JJ,JPluto) 101.36785 = 0.005159): coloured; 1 % tolerance -> 74.77 yellow',
+      t == '1 · unison · Perfect' and f == YELLOW and sc == 74.77,
       f'{v} {t} {sc} {f}')
 rs = [x for x in wb['P09 RATIOS'].iter_rows(values_only=True) if x[6] == '1']
 na = sum('automatic' in x[11] for x in rs)
-check("Cobden's 41 unisons: 20 stay automatic (all RA), 21 genuine (Flat 15, GC 6)",
-      len(rs) == 41 and na == 20 and all(x[3] == 'RA' for x in rs if 'automatic' in x[11])
-      and sorted(x[3] for x in rs if 'automatic' not in x[11]).count('Flat') == 15, f'{len(rs)} rows, {na} automatic')
+gp = sorted(x[3] for x in rs if 'automatic' not in x[11])
+check("Cobden's 61 unisons (1 % tolerance): 20 automatic (all RA), 41 genuine (Flat 20, GC 20, RA 1)",
+      len(rs) == 61 and na == 20 and all(x[3] == 'RA' for x in rs if 'automatic' in x[11])
+      and (gp.count('Flat'), gp.count('GC'), gp.count('RA')) == (20, 20, 1), f'{len(rs)} rows, {na} automatic, genuine {gp}')
 rb = [x for x in wb['P07 RATIOS'].iter_rows(values_only=True) if x[6] == '1']
 check('River Bray (P07) T13 J Pluto GC unison: field 2/6 — Cobden\'s J Pluto GC unison is genuine under the per-plane rule',
       len(rb) == 1 and rb[0][3] == 'GC' and rb[0][11] == '2/6', str(rb))
 
 g = [x for x in rs if 'automatic' not in x[11]]
-check("Cobden's 21 genuine unisons all tagged return-assisted (d1/d2 0.0029-0.0157), field count kept",
-      len(g) == 21 and all(x[11].endswith(' return-assisted') for x in g) and sum(x[11].startswith('2/6') for x in g) == 1, str([x[11] for x in g][:3]))
+check("Cobden's 41 genuine unisons all tagged return-assisted, field count kept (two at 2/6)",
+      len(g) == 41 and all(x[11].endswith(' return-assisted') for x in g) and sum(x[11].startswith('2/6') for x in g) == 2, str([x[11] for x in g][:3]))
 check("River Bray's J Pluto GC (d1/d2 0.917) not tagged", rb[0][11] == '2/6', rb[0][11])
 heads = [x[0] for x in wb['P03 RATIOS'].iter_rows(values_only=True) if x[0] in ('Perfect', 'Imperfect', 'Dissonant', 'Septimal', 'Harmonic', 'High', 'Phi') and x[1] is None]
 check('P03 RATIOS: no empty group header (no Harmonic section)', 'Harmonic' not in heads, str(heads))
+
+print('\nTest 7: Sandown 14:25 2021 (batch xlsx) — tapered ratio tolerances, nearest target outside the tolerance')
+wb = openpyxl.load_workbook('reference/classic/race_batch_20211204_sandown_1425_jupiter_tables.xlsx')   # built in test 4
+ws = wb['P05']
+r = row(ws, 'T12', 'S Jupiter–S Mars / H Jupiter–H Mars')
+v, t, o, f, sc = cell(r, 'RA')
+check('P05 T12 RA S Jupiter–S Mars / H Jupiter–H Mars 1.002631 -> unison inside 1 %, +0.26308 %, score 54.31, yellow',
+      round(v, 6) == 1.002631 and t == '1 · unison · Perfect (inverted)' and o == '+0.26308%' and sc == 54.31 and f == YELLOW, f'{v} {t} {o} {sc} {f}')
+v, t, o, f, sc = cell(r, 'Flat')
+check('same row Flat 1.0445 outside every band: nearest 16/15 -2.07813 %, plain (no score, no colour, no group)',
+      t == '16/15 · minor second · Dissonant — outside ±0.15 % (inverted)' and o == '-2.07813%' and sc is None and f is None
+      and r[COL['Flat'] + 3].value is None, f'{v} {t} {o} {sc} {f}')
+r = row(ws, 'T12', 'S Jupiter–S Haumea / J Jupiter–J Haumea')
+v, t, o, f, sc = cell(r, 'Flat')
+check('3/2 on 0.5 %: P05 T12 Flat Haumea 1.506122, +0.40816 % (outside the old 0.15 %), score (10 (0.5 − 0.40816) / 0.5)² = 3.37',
+      t == '3/2 · fifth · Perfect' and o == '+0.40816%' and sc == 3.37 and sc == round((10 * (0.5 - 0.40816) / 0.5) ** 2, 2), f'{v} {t} {o} {sc} {f}')
+v, t, o, f, sc = cell(row(wb['P09'], 'T12', 'S Jupiter–S Mars / H Jupiter–H Mars'), 'Flat')
+check('9/8 on 0.15 %: P09 T12 Flat Mars 1.125048, +0.00428 %, score (10 (0.15 − 0.00428) / 0.15)² = 94.37, green',
+      t == '9/8 · major second · Dissonant' and o == '+0.00428%' and sc == 94.37 and round((10 * (0.15 - 0.0042844) / 0.15) ** 2, 1) == 94.4
+      and f == GREEN, f'{v} {t} {o} {sc} {f}')
+v, t, o, f, sc = cell(row(ws, 'T5', 'S Jupiter → H Mars'), 'Dec')
+check('degrees outside every family: T5 S Jupiter → H Mars Dec 8.398276 -> 5×φ (golden) — outside ±0.0324, +0.30811, plain',
+      t == '5×φ (golden) — outside ±0.0324' and o == '+0.30811' and sc is None and f is None, f'{v} {t} {o} {sc} {f}')
+import families
+check('Phi group = φ, φ², φ³, 1+√2 only; tolerances 1 / 0.5 / 0.333 / 0.25 / 0.2 / 0.15 %',
+      [i[0] for i in families.INTERVALS if i[3] == 'Phi'] == ['φ', 'φ²', 'φ³', '1+√2']
+      and [round(families.TOL[k], 3) for k in ('1', '2', '3/2', '8/3', '13/4', '13/5', '6', '7/6', '9/8', '√2', '1+1/√2', 'φ')]
+      == [1.0, 0.5, 0.5, 0.333, 0.25, 0.2, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15], str(families.TOL))
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

@@ -9,13 +9,14 @@ Sheets: POSITIONS; SKY JUPITER; one sheet per runner (P01, P03, ...: tables 1-15
 Each value (13 Oct 2026, Eddie's correction): every family of tools/families.py (Eddie's definitions, his scores from
 rebuild_kit/active_vibrations.py) is scored; nearest target = the family with the highest score; the other families with a score > 0
 are listed beside it ('also'); 'scaled' = best family of 10 v or v / 10 (/10 widens a tolerance 10x in degrees). Ratio values (T12-T15)
-are scored against Eddie's musical interval list only (0.15 %): target 'interval · name · group' plus a Group column; per runner a
+are scored against Eddie's musical interval list only (tapered tolerances, families.interval_tol): target 'interval · name · group' plus a Group column; per runner a
 'P## RATIOS' sheet (RATIOS BY GROUP: grouped, tightest first) and FIELD 12-15 matrices with the group tag. Colours by score: green >= 80,
-yellow 50-80, light yellow < 50. No summary totals. Unison (Perfect 1) counts; every unison carries its field count (runners holding
+yellow 50-80, light yellow < 50. No summary totals. Outside every tolerance (13 Oct): the value cell still shows its nearest target
+(ratios: smallest % offset; degrees: smallest offset in units of its own tolerance) and offset, e.g. '1 · unison · Perfect — outside ±1 %' / '+1.26300%', plain text. Unison (Perfect 1) counts; every unison carries its field count (runners holding
 unison on the same ratio; it can come from age, e.g. Equator S/H = 1) in the 'also' column, the RATIOS sheet and FIELD 12-15.
 Jupiter return (13 Oct): when S Jupiter is in conjunction (RA < 1.5 or Dec < 0.3) with a natal Jupiter, that chart's T13 starts with
 'Jupiter return: S-H (S-J) Jupiter RA .. Dec ..' (information). A T12-T14 unison is greyed as 'automatic (Jupiter return)', per plane,
-only when d(S Jupiter, natal Jupiter) / d(natal Jupiter, X) in that plane < 0.0015 (the ratio tolerance); all other unisons are genuine.
+only when d(S Jupiter, natal Jupiter) / d(natal Jupiter, X) in that plane < 0.0015; all other unisons are genuine.
 Automatic unisons are left out of every field count. A unison with 0.0015 <= d1/d2 < 0.02 is tagged 'return-assisted' (colour and field
 count unchanged). RATIOS sheets show only groups with hits. T16 (13 Oct 2026, Eddie): RA-Dec crossing, Jupiter-X RA distance in one chart =
 its Dec distance in another (6 orderings), +-0.02, linear score, family of the value beside it; FIELD 16.
@@ -184,10 +185,21 @@ def tlabel(d):
     return f"{d['target']} · {d['name']} · {d['group']}" if d['family'] == 'interval' else f"{d['target']} ({d['family']})"
 
 
-def put_value(ws, row, col, v0, v5, ev, also, note='', sc=None):
-    """9 cells from col: value, +5, target, group, offset, score (midpoints: t), arrow, also, scaled"""
+def out_text(d):
+    """nearest target outside every tolerance (Eddie, 13 Oct 2026): plain text, no score, no colour"""
+    return f"{tlabel(d)} — outside ±{d['tol']:.3g}{' %' if d['pct'] else ''}"
+
+
+def put_value(ws, row, col, v0, v5, ev, also, note='', sc=None, ox=None):
+    """9 cells from col: value, +5, target, group, offset, score (midpoints: t), arrow, also, scaled.
+    ox = (kind, plane): with no family, the nearest target and offset are still written (plain text, no score, no colour)"""
     if v0 is None:
         return
+    if not ev and ox and v0:
+        near = families.outside(v0, ox[1] if KIND[ox[0]] == 'deg' else None, KIND[ox[0]])
+        if near:
+            ws.cell(row=row, column=col + 2, value=f"{out_text(near)}{note}")
+            ws.cell(row=row, column=col + 4, value=fmt_off(near))
     c = ws.cell(row=row, column=col, value=round(v0, 6))
     if ev and ev['colour']:
         c.fill = FILL[ev['colour']]
@@ -251,7 +263,7 @@ def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of):
                 continue
             kind = kind_of(a, b)
             ev, also, sc = nearest(v0, kind, 'Dec' if kind == 'equator' else pl)
-            put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, sc=sc)
+            put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, sc=sc, ox=(kind, 'Dec' if kind == 'equator' else pl))
             out[(label, pl)] = (v0, ev)
         row += 1
     return row + 1, out
@@ -376,7 +388,7 @@ def runner_sheet(wb, P, R, ctx):
                     v0, v5, inv = ratio(n0, n5, d0, d5)
                     ev, also, sc = nearest(v0, 'ratio') if v0 else (None, [], None)
                     ev = unison_kind(ctx, R, C, f'{C} {x}', pl, ev)  # automatic (grey, not counted) / return-assisted (tag)
-                    put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, inv, sc)
+                    put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, inv, sc, ox=('ratio', pl))
                     if v0:
                         keep(tid, lab, pl, v0, v5, ev, inv, row, plane_index(pl, PLANES))
                 ws.cell(row=row, column=2, value=lab)
@@ -391,7 +403,7 @@ def runner_sheet(wb, P, R, ctx):
         ev, also, sc = nearest(v0, 'eqratio') if v0 else (None, [], None)
         if a == 'S':
             ev = unison_kind(ctx, R, b, f'{b} equator', 'Dec', ev)
-        put_value(ws, row, 3, v0, v5, ev, also, sc=sc)
+        put_value(ws, row, 3, v0, v5, ev, also, sc=sc, ox=('eqratio', None))
         if v0:
             keep('T14', f'|Dec| {A} / |Dec| {B}', 'Equator', v0, v5, ev, inv, row, 3)
         row += 1
@@ -406,7 +418,7 @@ def runner_sheet(wb, P, R, ctx):
             v0, v5, inv = ratio(n0, n5, d0, d5)
             ws.cell(row=row, column=1, value='T15'); ws.cell(row=row, column=2, value=f'({C} Jupiter–{C} {x}) / ({C} Jupiter–equator){inv}')
             ev, also, sc = nearest(v0, 'ratio') if v0 else (None, [], None)
-            put_value(ws, row, plane_index('Dec', PLANES), v0, v5, ev, also, sc=sc)
+            put_value(ws, row, plane_index('Dec', PLANES), v0, v5, ev, also, sc=sc, ox=('ratio', 'Dec'))
             if v0:
                 keep('T15', f'({C} Jupiter–{C} {x}) / ({C} Jupiter–equator)', 'Dec', v0, v5, ev, inv, row, plane_index('Dec', PLANES))
             row += 1
@@ -416,7 +428,7 @@ def runner_sheet(wb, P, R, ctx):
                 n0, n5 = ctx.pair(R, f'{C} Jupiter', f'{C} {A}', pl); d0, d5 = ctx.pair(R, f'{C} Jupiter', f'{C} {B}', pl)
                 v0, v5, inv = ratio(n0, n5, d0, d5)
                 ev, also, sc = nearest(v0, 'ratio') if v0 else (None, [], None)
-                put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, inv, sc)
+                put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, inv, sc, ox=('ratio', pl))
                 if v0:
                     keep('T15', f'({C} Jupiter–{C} {A}) / ({C} Jupiter–{C} {B})', pl, v0, v5, ev, inv, row, plane_index(pl, PLANES))
             row += 1
@@ -427,7 +439,7 @@ def runner_sheet(wb, P, R, ctx):
     return field
 
 
-AUTO_TOL = 0.0015                                          # = the ratio tolerance 0.15 %
+AUTO_TOL = 0.0015                                          # Eddie's rule (13 Oct), kept when the ratio tolerances tapered
 
 
 ASSIST_TOL = 0.02                                          # return-assisted: AUTO_TOL <= d1/d2 < 0.02 (tag only)
@@ -522,7 +534,7 @@ def ratio_sheet(wb, P, R, rats, uni, n):
     """RATIOS BY GROUP: every T12-T15 ratio on an interval, grouped (Eddie's group order), tightest (highest score) first;
     unison rows carry the field count (runners with unison on the same ratio)"""
     ws = wb.create_sheet(f'{P} RATIOS', wb.sheetnames.index(P) + 1)
-    ws.cell(row=1, column=1, value=f"{P} {R['name']} — RATIOS BY GROUP (T12-T15 ratios on Eddie's interval list, 0.15 %; tightest first)").font = BOLD
+    ws.cell(row=1, column=1, value=f"{P} {R['name']} — RATIOS BY GROUP (T12-T15 ratios on Eddie's interval list, each on its own tolerance; tightest first)").font = BOLD
     row = 3
     for g in families.GROUPS:
         if not any(r[5]['group'] == g for r in rats):
@@ -578,6 +590,10 @@ def field_sheet(wb, tid, title, runners, fields, planes, mid=False, uni=None):
                 c = ws.cell(row=row, column=2 + 2 * i, value=round(v, 6))
                 if ev and ev['colour']:
                     c.fill = FILL[ev['colour']]
+                if not ev and tid != 'T16' and v:                 # outside every tolerance: nearest target + offset, plain
+                    near = families.outside(v, pl, 'ratio' if tid in ('T12', 'T13', 'T14', 'T15') else 'deg')
+                    if near:
+                        ws.cell(row=row, column=3 + 2 * i, value=f"{near['target']} {fmt_off(near)} (outside ±{near['tol']:.3g}{' %' if near['pct'] else ''})")
                 if ev:
                     ws.cell(row=row, column=3 + 2 * i, value=f"{ev['target']} {fmt_off(ev)}" + (f" [{ev['score']:.1f}]" if ev['score'] is not None else '')
                             + (f" [{ev['group']}]" if ev.get('group') else '')

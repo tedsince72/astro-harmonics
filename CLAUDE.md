@@ -41,13 +41,21 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
 - √2: 1.414, 14.14, 141.4, 0.707, 7.07, 70.7; silver: 2.414, 24.14, 0.414, 4.14, 41.4. No multiples; tol max(0.5 % of target, 0.025).
   Scored against the exact values (√2 = 1.414213…, 10√2, 100√2, the 1/√2 forms; silver likewise), not the written decimals.
 - Conjunction: RA < 1.5 or Dec < 0.3.
-- Ratios: NOT any p/q. Eddie's musical interval list (blank-sheet-design section 10; also docs/sky_dig.md l.840, 871), tol 0.15 %:
+- Ratios: NOT any p/q. Eddie's musical interval list (blank-sheet-design section 10; also docs/sky_dig.md l.840, 871):
   Perfect 1, 2, 3/2, 4/3, 3, 4; Imperfect 5/4, 6/5, 5/3, 8/5, 5/2, 8/3, 9/4; Dissonant √2, 1+1/√2, 9/8, 16/9, 9/5, 15/8, 16/15;
   Septimal 7/4, 7/3, 7/2, 7/5, 7/6, 8/7; Harmonic 5, 6, 7, 8, 9; High 11/5, 11/6, 11/3, 11/8, 11/4, 13/5, 13/8, 13/4;
-  Phi φ, φ², φ³, 1+√2, φ√5, 2−1/φ, φ³+1, 2/φ. Each ratio shows interval · name · group; Group column in every ratio table, a RATIOS BY
+  Phi φ, φ², φ³, 1+√2 only (13 Oct: φ√5, 2−1/φ, φ³+1, 2/φ removed). Each ratio shows interval · name · group; Group column in every ratio table, a RATIOS BY
   GROUP sheet per runner (grouped, tightest first), group tag in the field matrices. Ratio values are scored on this list only.
   Perfect 1 (unison) counts, in the tables and in any new reader version; every unison shows its field count (it can come from age,
   e.g. Equator S/H = 1).
+- Ratio tolerances taper (Eddie, 13 Oct 2026; families.interval_tol): unison 1 %; every other whole-number interval 1 % / k, k = the
+  whole number or the lower number of the fraction, 0.15 % when k >= 6: 2, 3/2, 5/2, 7/2 -> 0.5 %; 3, 4/3, 5/3, 8/3, 7/3, 11/3 -> 0.333 %;
+  4, 5/4, 7/4, 9/4, 11/4, 13/4 -> 0.25 %; 5, 6/5, 7/5, 8/5, 9/5, 11/5, 13/5 -> 0.2 %; 6–9, 7/6, 8/7, 9/8, 11/6, 11/8, 13/8, 15/8, 16/9,
+  16/15 -> 0.15 %. Phi group, √2 and 1+1/√2 -> 0.15 %. Squared score on each interval's own tolerance; Equator ratios the same.
+  (5/2, 7/2, 7/3, 11/3, 11/4 were not in Eddie's examples: they follow the lower-number rule his examples use, e.g. 13/4 -> 0.25 %.)
+- Outside every tolerance: every value cell still shows its nearest target and offset, plain text, no score, no colour
+  (e.g. '16/15 · minor second · Dissonant — outside ±0.15 %', '-2.07813%'). Ratios: the interval with the smallest % offset; degrees:
+  the target with the smallest offset in units of its own tolerance.
 - Planes RA, Dec, Flat, GC.
 - Decimal scaling: v, 10·v and v/10 are tested against every family, labelled ×10 / ÷10, in their own column (÷10 widens a tolerance 10× in degrees).
 - RA–Dec crossing (same body pair, RA distance in one chart = Dec distance in another; natal RA = sky Dec and the reverse): ±0.02,
@@ -70,7 +78,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T15 per runner, field matrices, off and +5 min,
   every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score; ratios on the interval
   list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16). Venv python (swisseph, pandas).
-  Tests `python3 tests/jupiter_tables_check.py` (22/22). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (28/28). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
