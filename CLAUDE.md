@@ -88,12 +88,13 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
 same digits (target ×10 or ÷10, e.g. ninth 11.1111 / 1.11111, √2 14.14 / 1.414). Only one form is shown: the higher-scoring one, compared
-at the shown precision (THREADS 1 dp, NUMBERS 2 dp); a tie keeps the main form. Automatic (Jupiter return) unisons are left out.
+on the unrounded scores (Eddie, 14 Oct; an exact tie keeps the main form); scores are rounded only for display, 2 dp in both sheets, so
+THREADS, NUMBERS and the T-tables agree. Automatic (Jupiter return) unisons are left out.
 - **THREADS** (one sheet, after the runner sheets): rows = bodies (sky bodies incl. Moon, Jupiter excluded, Rahu / Ketu folded as
   "Nodes"), columns = runners. Hits = every scored hit (inside tolerance) linking body X with Jupiter, from T1–T8, T10–T13 and T16
   (midpoints T10 / T11 count when within 0.15; scaled hits marked "scaled"; stars, equator and Jupiter–Jupiter left out).
-  - Cell: hits scoring >= 50, main first then scaled, best first, short form ("S Jup→H Uranus Dec 11.10793 → 11.1111 (94.8) [T5]"),
-    each line coloured by its score; last line "+ n weaker (see T-tables)" = hits < 50, score-0 hits and hidden repeats not counted.
+  - Cell: hits scoring >= 50, main first then scaled, best first, short form ("S Uranus→H Jup GC 142.001746 → 142 (83.30) [T7]"),
+    each line coloured by its score; last line "+ n weaker (see T-tables)" = hits < 50, score-0 (at 2 dp) hits and hidden repeats not counted.
   - Tags (top line), from the MAIN hits scoring >= 50 (a main hit hidden by its higher scaled repeat still counts; midpoints within 0.15
     count): "mutual, same chart" = S Jup→H X with S X→H Jup, or S Jup→J X with S X→J Jup; "mutual, across charts" = S Jup→J X with
     S X→H Jup, or S Jup→H X with S X→J Jup; "both Jupiters" = S X→H Jup and S X→J Jup; "both charts" = natal X reached in H and in J;

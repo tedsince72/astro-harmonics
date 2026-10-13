@@ -587,17 +587,17 @@ def thread_add(thr, tid, lab, pts, pl, v, ev, sc):
         dirs.add(f'S X→{tid == "T7" and "H" or "J"} Jup')
     num = lambda v: f'{round(v, 6)}' if tid not in ('T10', 'T11', 'T16') else f'{v:+.6f}'
     repeat = same_digits(ev, sc)                           # Eddie 13 Oct: a scaled repeat of the main hit - keep the higher, drop the other
-    up = repeat and round(sc['score'], 1) > round(ev['score'], 1)    # higher at the shown precision; a tie keeps the main hit
+    up = repeat and sc['score'] > ev['score']              # unrounded scores (Eddie 14 Oct); an exact tie keeps the main hit
     if ev and ev.get('score') is not None or tid in ('T10', 'T11') and ev:
         tgt = 'midpoint' if tid in ('T10', 'T11') else 'equal' if tid == 'T16' else ev['target']
-        sct = f" ({ev['score']:.1f})" if ev.get('score') is not None else ''
+        sct = f" ({ev['score']:.2f})" if ev.get('score') is not None else ''
         thr.append({'X': X, 'charts': xch, 'dirs': dirs, 'main': True, 'score': ev.get('score'), 'colour': ev['colour'],
                     'hidden': up,   # line not shown (the scaled form scores higher); still counts for tags
                     'text': f"{lab} {pl + ' ' if pl else ''}{num(v)} → {tgt}{sct} [{tid}]"})
     if sc and (not repeat or up):
         thr.append({'X': X, 'charts': xch, 'dirs': set(), 'main': False, 'score': sc['score'], 'colour': sc['colour'],
                     'text': f"{lab} {pl + ' ' if pl else ''}{round(v, 6)} {sc['scale']}: {round(sc['scaled_value'], 6)} → {sc['target']} "
-                            f"({sc['score']:.1f}) [{tid}, scaled]"})
+                            f"({sc['score']:.2f}) [{tid}, scaled]"})
 
 
 THREAD_MIN = 50.0                                          # Eddie, 13 Oct: tags, field counts and cell lines use hits scoring >= 50
@@ -663,7 +663,7 @@ def threads_sheet(wb, runners, fields):
             rt = CellRichText(TextBlock(InlineFont(b=True), ' · '.join(tags)))
             for h in shown:
                 rt.append(TextBlock(InlineFont(color=FONT.get(h['colour'], '000000')), '\n' + h['text']))
-            weak = sum(1 for h in hits if not strong(h) and not h.get('hidden') and round(h['score'], 1) > 0)   # score-0 hits not counted (Eddie 13 Oct)
+            weak = sum(1 for h in hits if not strong(h) and not h.get('hidden') and round(h['score'], 2) > 0)   # score-0 hits not counted (Eddie 13 Oct)
             if weak:
                 rt.append(TextBlock(InlineFont(i=True), f'\n+ {weak} weaker (see T-tables)'))
             c = ws.cell(row=r, column=2 + i, value=rt)
@@ -706,8 +706,8 @@ def number_add(nums, col, lab, pl, v):
             if d['family'] not in NUM_FAMILIES or d['score'] < NUM_MIN or not d['tv']:
                 continue
             k = num_key(d['family'], d['tv'])
-            if k in found and round(found[k]['score'], 2) >= round(d['score'], 2):
-                continue                                   # a repeat of the same number (same family, same digits): keep the higher (shown 2 dp; tie = main)
+            if k in found and found[k]['score'] >= d['score']:
+                continue                                   # a repeat of the same number (same family, same digits): keep the higher (unrounded; tie = main)
             txt = (f"{lab} {pl} {round(v, 6)} → {d['target']} {d['off']:+.5f} ({d['score']:.2f})" if not scl else
                    f"{lab} {pl} {round(v, 6)} {scl}: {round(v * f, 6)} → {d['target']} {d['off']:+.5f} ({d['score']:.2f}) [scaled]")
             found[k] = {'key': k, 'col': col, 'form': d['target'], 'tv': d['tv'], 'score': d['score'], 'colour': num_colour(d['score']),

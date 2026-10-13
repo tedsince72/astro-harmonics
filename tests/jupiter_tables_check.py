@@ -22,7 +22,10 @@ digits) dropped and score-0 hits left out of '+ n weaker': Dynamic Force Uranus 
 Test 9 (Eddie 13 Oct): NUMBERS sheet per runner + FIELD NUMBERS, Wincanton 14:20 2022 P07 7.777 (ninth) row.
 Same day (Eddie): a repeat (same family, same digits) keeps the higher form at the shown precision (tie = main), in THREADS and NUMBERS;
 H Jupiter – J Jupiter in its own H–J column, once. Changed: test 8 '+ 9 weaker' -> '+ 8 weaker' (J Jup→H Uranus 14.14 shown as /10 1.414,
-99.1); test 9 J Haumea 77.798638 (83.67) -> its /10 form 7.779864 (83.68); P07 silver 0.414 sky + horse + jockey -> two of three."""
+99.1); test 9 J Haumea 77.798638 (83.67) -> its /10 form 7.779864 (83.68); P07 silver 0.414 sky + horse + jockey -> two of three.
+14 Oct (Eddie): keep-higher compares unrounded scores, display 2 dp in THREADS and NUMBERS. Changed: Dynamic Force S Jup→H Uranus 11.10793
+now shown as /10 1.110793 (94.7963 > 94.7947), '+ 8 weaker' -> '+ 9 weaker'; Wincanton P07 H Rigel 7.777589 now shown as x10 77.775893
+(98.5224 > 98.5209); scores in THREADS lines at 2 dp."""
 import os, subprocess, sys
 import openpyxl
 from openpyxl.cell.rich_text import CellRichText
@@ -199,15 +202,16 @@ ws = wb['THREADS']
 head = [c.value for c in ws[3]]
 ur = next(r for r in ws.iter_rows(min_row=4) if r[0].value == 'Uranus')
 df = str(ur[head.index('P01 2 Dynamic Force / Ray Dawson')].value).split('\n')
-need = ['S Jup→H Uranus Dec 11.10793 → 11.1111 (94.8) [T5]', 'S Uranus→H Jup GC 142.001746 → 142 (83.3) [T7]',
-        'S Uranus→J Jup Dec 18.995206 → 19 (57.8) [T8]']
+need = ['S Jup→H Uranus Dec 11.10793 /10: 1.110793 → 1.11111 (94.80) [T5, scaled]', 'S Uranus→H Jup GC 142.001746 → 142 (83.30) [T7]',
+        'S Uranus→J Jup Dec 18.995206 → 19 (57.80) [T8]']
 check('Dynamic Force Uranus cell lists the three hits', all(x in df for x in need), str(df[:8]))
 check('Dynamic Force Uranus tags: mutual, same chart · mutual, across charts · both Jupiters · both charts · directions 4',
       df[0] == 'mutual, same chart · mutual, across charts · both Jupiters · both charts · directions 4', df[0])
-check('cells list hits >= 50 only; a repeat (same family, same digits) shown once, the higher form: 11.10793 main (tie 94.8), 14.141031 '
-      'as /10 1.414 (99.1 > 96.9), 145.643439 as /10 9×φ (87.8 > 13.7); "+ 8 weaker" (score-0 and hidden repeats not counted)',
-      df[-1] == '+ 8 weaker (see T-tables)' and not any('/10: 1.110793' in x for x in df)
-      and 'J Jup→H Uranus Dec 14.141031 /10: 1.414103 → 1.414 (99.1) [T4, scaled]' in df
+check('cells list hits >= 50 only; a repeat (same family, same digits) shown once, the higher unrounded form: 11.10793 as /10 '
+      '(94.7963 > 94.7947), 14.141031 as /10 1.414 (99.12 > 96.9), 145.643439 as /10 9×φ (87.80 > 13.7); "+ 9 weaker" (score-0 and hidden '
+      'repeats not counted)',
+      df[-1] == '+ 9 weaker (see T-tables)' and not any(x.startswith('S Jup→H Uranus Dec 11.10793 → ') for x in df)
+      and 'J Jup→H Uranus Dec 14.141031 /10: 1.414103 → 1.414 (99.12) [T4, scaled]' in df
       and not any(x.startswith('J Jup→H Uranus Dec 14.141031 → 14.14') for x in df)
       and all(float(x.rsplit('(', 1)[1].split(')')[0]) >= 50 for x in df[1:-1]), df[-1])
 cnt = [c.value for c in ur[head.index('runners: mutual, same chart'):]]
@@ -219,7 +223,7 @@ nr = [r for r in wb['P07 NUMBERS'].iter_rows(min_row=4, values_only=True) if r[0
 check('P07 NUMBERS row "ninth: 7.77778 / 77.7778" tagged sky + horse + jockey', len(nr) == 1 and nr[0][1] == 'sky + horse + jockey', str(nr))
 sky, horse, jock = (str(nr[0][k]).split('\n') for k in (2, 3, 4))
 check('SKY S Jupiter → S Ceres 77.75345 (80.96), HORSE H Jupiter → H Rigel 7.777589 (98.52), JOCKEY J Jupiter → J Haumea 77.798638 (83.67)',
-      'S Jup→S Ceres RA 77.75345 → 77.7778 -0.02433 (80.96)' in sky and 'H Jup→H Rigel RA 7.777589 → 7.77778 -0.00019 (98.52)' in horse
+      'S Jup→S Ceres RA 77.75345 → 77.7778 -0.02433 (80.96)' in sky and 'H Jup→H Rigel RA 7.777589 x10: 77.775893 → 77.7778 -0.00189 (98.52) [scaled]' in horse
       and 'J Jup→J Haumea GC 77.798638 /10: 7.779864 → 7.77778 +0.00209 (83.68) [scaled]' in jock, f'{sky} {horse} {jock}')
 sv = [r for r in wb['P07 NUMBERS'].iter_rows(min_row=4, values_only=True) if r[0] == 'silver: 0.414 / 4.14']
 check('H Jupiter – J Jupiter in its own H–J column, once: P07 silver 0.414 Dec 0.412452 (86.41) only under H–J; tag two of three (was sky + horse + jockey)',
