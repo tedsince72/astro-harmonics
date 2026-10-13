@@ -70,14 +70,26 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T15 per runner, field matrices, off and +5 min,
   every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score; ratios on the interval
   list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16). Venv python (swisseph, pandas).
-  Tests `python3 tests/jupiter_tables_check.py` (14/14). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (17/17). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
 - On the Mac: see `docs/MAC_SETUP.md` (venv with Python 3.12+, `pip install openpyxl`). Scripts call `python3.12`; inside the venv
   `python3` is fine (edit `tools/run_layers.sh` if `python3.12` is not on the PATH).
 
-## Where we are (12 Oct 2026, end of session)
+## Where we are (13 Oct 2026)
+- **Working view = the tables tool on Eddie's families:** `tools/jupiter_tables.py` on `tools/families.py` (see "Families" above).
+  Jupiter return (S Jupiter in conjunction with a natal Jupiter): T13 opens with a "Jupiter return" line and its automatic unisons are greyed.
+- **Not trusted until re-checked:** the frozen readers (layers v2, CR v1.1, JR v1, JR v3), the checklist (docs/classic/winner_checklist.md)
+  and the Jupiter watch line still use the OLD definitions (n/9 ninths, any p/q ratios, old tolerances). Their findings are not trusted
+  until re-checked against Eddie's families: see docs/classic/families_correction_20261013.md for what relies on a non-48 ninth or an
+  off-list ratio.
+- **Decision (Eddie, 13 Oct 2026):** look at races in the tables first; rebuild the readers later (no new reader version until Eddie says).
+- **Eddie's observations** from the tables go in docs/classic/eye_notes.md (race, runner, table, exact values, field check).
+- **Forward candidates that still stand:** E1 (JR v3: sky Jupiter, horse X, jockey X — one at the midpoint of the other two) and
+  checklist item 13 (shared natal pair, horse value ≈ jockey value).
+
+## Earlier state (12 Oct 2026, end of session) — kept for reference; definitions superseded as above
 - Frozen tools (do not change during a test; a change = new version + new freeze commit):
   - Layers 1–5 frozen v2 = commit 4baefa1 (how_it_works.md).
   - Checklist reader CR v1.1 = commit 3d62207: `python3 tools/checklist_reader.py <race>` -> docs/classic/<race>/checklist/

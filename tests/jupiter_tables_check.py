@@ -6,7 +6,7 @@ RA 14.4444; expected values changed: T6 RA 18 green -> yellow (whole score 62.9)
 Venturous S Uranus Dec 7.008205 yellow -> light (whole score 34.78).
 Same day, Eddie's interval list for ratios (0.15 %, squared): Pholas phi now an interval, phi · golden ratio · Phi, +0.05151 %, score 43.11,
 light (green under the first families.py build, yellow under JR v3 bands); RATIOS BY GROUP sheet checked.
-Test 5 (Eddie 13 Oct): unison counts, with its field count.\nTest 4 (T16 RA–Dec crossing, Eddie 13 Oct): Sandown 14:25 2021 Nube Negra / Harry Skelton, Jupiter–Orcus J RA = H Dec."""
+Test 6 (Eddie 13 Oct): Jupiter return - automatic T13 unisons greyed.\nTest 5 (Eddie 13 Oct): unison counts, with its field count.\nTest 4 (T16 RA–Dec crossing, Eddie 13 Oct): Sandown 14:25 2021 Nube Negra / Harry Skelton, Jupiter–Orcus J RA = H Dec."""
 import os, subprocess, sys
 import openpyxl
 
@@ -105,6 +105,19 @@ rs = [x for x in wb['P05 RATIOS'].iter_rows(values_only=True) if x[6] == '1']
 check('P05 RATIOS: unison row with field 2/6', len(rs) == 1 and rs[0][11] == '2/6', str(rs))
 f14 = [x for x in wb['FIELD 12'].iter_rows(values_only=True) if x[0] == lab and any(isinstance(v, str) and 'field 2/6' in v for v in x[1:])]
 check('FIELD 12 tags it "field 2/6"', len(f14) == 1, str(f14))
+
+print('\nTest 6: Wincanton 14:20 2022 (batch xlsx) — P09 Jupiter return (S–J Jupiter RA 0.03276): T13 unisons automatic, greyed')
+wb = openpyxl.load_workbook(build('reference/classic/race_batch_20220321_wincanton_1420.xlsx'))
+ws = wb['P09']
+top = [r for r in ws.iter_rows(values_only=True) if r[0] == 'T13' and str(r[1]).startswith('Jupiter return')]
+check('one line at the top of the J part of T13', len(top) == 1 and top[0][1] == 'Jupiter return: S–J Jupiter RA 0.03276 Dec 0.52192; T13 unisons are automatic', str(top))
+r = row(ws, 'T13', 'S Jupiter–J Makemake / J Jupiter–J Makemake')
+v, t, o, f, sc = cell(r, 'RA')
+check('T13 S Jupiter–J Makemake / J Jupiter–J Makemake RA unison greyed, "(automatic: Jupiter return)"',
+      t == '1 · unison · Perfect' and f == '00D9D9D9' and r[COL['RA'] + 7].value == 'unison: field 1/6 (automatic: Jupiter return)',
+      f'{v} {t} {o} {sc} {f} {r[COL["RA"] + 7].value}')
+rs = [x for x in wb['P09 RATIOS'].iter_rows(values_only=True) if x[6] == '1']
+check('P09 RATIOS: all 41 unisons marked automatic', len(rs) == 41 and all('automatic' in x[11] for x in rs), f'{len(rs)} rows')
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
