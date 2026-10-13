@@ -6,20 +6,24 @@ INPUT = a race_batch_<yyyymmdd>_<course>_<hhmm>.xlsx (TRANS, P01..Pnn, META) or 
 (for a folder: in reference/classic/), unless --out.
 
 Sheets: POSITIONS; SKY JUPITER; one sheet per runner (P01, P03, ...: tables 1-15); FIELD 5, FIELD 6, FIELD 7, FIELD 8, FIELD 10.
-Each value: nearest target = the target with the smallest tightness t = |offset| / that family's strict tolerance (whole, ninth,
-golden, sqrt2, silver; ratios: whole p/1, simple p/q, golden, sqrt2, silver); a second family also inside its near band is shown
-beside it ('also'). Colours: green = strict, yellow = near, light yellow = within 3x the near band. Sky-leg values also at off + 5 min
+Each value (13 Oct 2026, Eddie's correction): every family of tools/families.py (Eddie's definitions, his scores from
+rebuild_kit/active_vibrations.py) is scored; nearest target = the family with the highest score; the other families with a score > 0
+are listed beside it ('also'); 'scaled' = best family of 10 v or v / 10 (/10 widens a tolerance 10x in degrees). Ratio values also get
+simple p/q (linear score on 0.005 %, Equator ratios 0.01 %). Colours by score: green >= 80, yellow 50-80, light yellow < 50.
+Midpoints (T10, T11) keep their own tolerance 0.05 / 0.15 (green / yellow; light = within 0.45). Sky-leg values also at off + 5 min
 (engine, as JR v3 section F) with an arrow: toward / away from the nearest target; n/a where the engine does not reproduce a point.
-Tolerances as JR v3 (tools/jup2/core.py, imported, not changed). Frozen readers are not changed."""
+Points and engine from tools/jup2 (imported, not changed). Frozen readers are not changed."""
 import argparse, glob, os, re, sys, itertools, math
 import openpyxl
 from openpyxl.styles import PatternFill, Font, Alignment
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, 'tools', 'jup2'))
-from core import (TOL, CONSTANTS, FRACS, MID, ROYAL, NATAL_BODIES, SKY_BODIES, STAR_NAMES, EQUATOR, plane_value, planes_for,
+from core import (MID, ROYAL, NATAL_BODIES, SKY_BODIES, STAR_NAMES, EQUATOR, plane_value, planes_for,
                   wrap_ra)                                                     # noqa: E402
 import motion                                                                  # noqa: E402
+sys.path.insert(0, os.path.join(REPO, 'tools'))
+import families                                                                # noqa: E402
 
 PLANES = ('RA', 'Dec', 'Flat', 'GC')
 STARS = ['Algol', 'Pleiades', 'Aldebaran', 'Capella', 'Sirius', 'Procyon', 'Regulus', 'Alkaid', 'Algorab', 'Spica', 'Arcturus',
@@ -28,8 +32,8 @@ BODIES = [b for b in SKY_BODIES if b != 'Ketu']           # workbook rows (Ketu 
 GREEN = PatternFill('solid', start_color='C6EFCE'); YELLOW = PatternFill('solid', start_color='FFEB9C')
 LIGHT = PatternFill('solid', start_color='FFF8DC'); HEAD = PatternFill('solid', start_color='D9E1F2')
 BOLD = Font(bold=True)
-FILL = {'strict': GREEN, 'near': YELLOW, 'near3': LIGHT}
-COLS = 7                                                   # per plane: value, +5, target, offset, t, arrow, also
+FILL = {'green': GREEN, 'yellow': YELLOW, 'light': LIGHT}
+COLS = 8                                                   # per plane: value, +5, target, offset, score, arrow, also, scaled
 
 
 # ---------------- reading
@@ -98,56 +102,24 @@ def load_input(path):
 
 
 # ---------------- numbers
-FAM_GROUP = {'whole': 'whole', 'ninth': 'ninth', 'golden': 'const', 'sqrt2': 'const', 'silver': 'const', 'ratio': 'all'}
+KIND = {'dist': 'deg', 'move': 'deg', 'equator': 'deg', 'ratio': 'ratio', 'eqratio': 'eqratio'}
 
 
-def candidates(v, kind):
-    out = []
-    if TOL[kind]['mode'] == 'rel':
-        for p, q in FRACS:
-            out.append((f'{p}' if q == 1 else f'{p}/{q}', p / q, 'whole' if q == 1 else 'ratio'))
-        for lab, tv, fam in CONSTANTS:
-            if tv > 1:
-                out.append((lab, tv, fam))
-        return out
-    w = min(max(round(v), 1), 180)                          # clamped: values above 180 (Flat) still get 180
-    for x in sorted({min(max(x, 1), 180) for x in (w - 1, w, w + 1)}):
-        out.append((f'{x}', float(x), 'whole'))
-    n = min(max(round(v * 9), 1), 1619)
-    for x in sorted({min(max(x, 1), 1619) for x in (n - 2, n - 1, n, n + 1, n + 2)}):
-        if x % 9:
-            out.append((f'{x}/9', x / 9, 'ninth'))
-    for lab, tv, fam in CONSTANTS:
-        out.append((lab, tv, fam))
-    return out
-
-
-def nearest(v, kind):
-    """-> best {target, family, off, t, level}, also (second family within its near band) or None"""
+def nearest(v, kind, plane=None):
+    """-> best family (highest score) or None, the other families with a score > 0, the best scaled (x10 / /10) or None"""
     if v is None or (isinstance(v, float) and math.isnan(v)):
-        return None, None
-    T = TOL[kind]
-    best = {}
-    for lab, tv, fam in candidates(v, kind):
-        s, nr = T['all'] if T['mode'] == 'rel' else T[FAM_GROUP[fam]]
-        off = (v / tv - 1) * 100 if T['mode'] == 'rel' else v - tv
-        t = abs(off) / s
-        lev = 'strict' if abs(off) <= s else 'near' if abs(off) <= nr else 'near3' if abs(off) <= 3 * nr else ''
-        d = {'target': lab, 'tv': tv, 'family': fam, 'off': off, 't': t, 'level': lev, 'pct': T['mode'] == 'rel'}
-        if fam not in best or t < best[fam]['t']:
-            best[fam] = d
-    ranked = sorted(best.values(), key=lambda d: d['t'])
-    if not ranked:
-        return None, None
-    also = next((d for d in ranked[1:] if d['level'] in ('strict', 'near')), None)
-    return ranked[0], also
+        return None, [], None
+    k = KIND[kind]
+    ev = families.evaluate(v, plane if k == 'deg' else None, k)
+    sc = families.scaled(v, plane if k == 'deg' else None, k)
+    return (ev[0] if ev else None), ev[1:], (dict(sc[0], deg=k == 'deg') if sc else None)
 
 
 def mid_eval(v, tol=MID):
     off = v
     s, nr = tol
-    lev = 'strict' if abs(off) <= s else 'near' if abs(off) <= nr else 'near3' if abs(off) <= 3 * nr else ''
-    return {'target': 'midpoint', 'tv': 0.0, 'family': 'midpoint', 'off': off, 't': abs(off) / s, 'level': lev, 'pct': False}
+    col = 'green' if abs(off) <= s else 'yellow' if abs(off) <= nr else 'light' if abs(off) <= 3 * nr else ''
+    return {'target': 'midpoint', 'tv': 0.0, 'family': 'midpoint', 'off': off, 'score': None, 't': abs(off) / s, 'colour': col, 'pct': False}
 
 
 # ---------------- race context
@@ -193,21 +165,27 @@ def ratio(n0, n5, d0, d5):
 
 
 # ---------------- writing
-def put_value(ws, row, col, v0, v5, ev, also, note=''):
-    """7 cells from col: value, +5, target, offset, t, arrow, also"""
+def fmt_off(d):
+    return f"{d['off']:+.5f}{'%' if d['pct'] else ''}"
+
+
+def put_value(ws, row, col, v0, v5, ev, also, note='', sc=None):
+    """8 cells from col: value, +5, target, offset, score (midpoints: t), arrow, also, scaled"""
     if v0 is None:
         return
     c = ws.cell(row=row, column=col, value=round(v0, 6))
-    if ev and ev['level']:
-        c.fill = FILL[ev['level']]
+    if ev and ev['colour']:
+        c.fill = FILL[ev['colour']]
     if v5 == 'n/a':
         ws.cell(row=row, column=col + 1, value='n/a')
     elif v5 is not None:
         ws.cell(row=row, column=col + 1, value=round(v5, 6))
+    if v5 == 'n/a':
+        ws.cell(row=row, column=col + 5, value='n/a')        # engine does not reproduce the point (with or without a family)
     if ev:
         ws.cell(row=row, column=col + 2, value=f"{ev['target']} ({ev['family']}){note}")
-        ws.cell(row=row, column=col + 3, value=f"{ev['off']:+.5f}{'%' if ev['pct'] else ''}")
-        ws.cell(row=row, column=col + 4, value=round(ev['t'], 2))
+        ws.cell(row=row, column=col + 3, value=fmt_off(ev))
+        ws.cell(row=row, column=col + 4, value=round(ev['score'] if ev['score'] is not None else ev['t'], 2))
         if v5 == 'n/a':
             ws.cell(row=row, column=col + 5, value='n/a')
         elif v5 is not None:
@@ -219,7 +197,11 @@ def put_value(ws, row, col, v0, v5, ev, also, note=''):
                 d0, d5 = abs(v0 - ev['tv']), abs(v5 - ev['tv'])
             ws.cell(row=row, column=col + 5, value='-> toward' if d5 < d0 else '<- away')
     if also:
-        ws.cell(row=row, column=col + 6, value=f"also {also['target']} ({also['family']}) {also['off']:+.5f}{'%' if also['pct'] else ''} [{also['level']}]")
+        ws.cell(row=row, column=col + 6, value='; '.join(f"{d['target']} ({d['family']}) {fmt_off(d)} [{d['score']:.1f}]" for d in also))
+    if sc:
+        c = ws.cell(row=row, column=col + 7, value=f"{sc['scale']}: {sc['target']} ({sc['family']}) {fmt_off(sc)} [{sc['score']:.1f}]"
+                    + (' (widens 10x in degrees)' if sc['scale'] == '/10' and sc['deg'] else ''))
+        c.fill = FILL[sc['colour']]
 
 
 def header(ws, row, tid, title, planes):
@@ -228,7 +210,7 @@ def header(ws, row, tid, title, planes):
     row += 1
     for i, pl in enumerate(planes):
         col = 3 + COLS * i
-        for k, h in enumerate((pl, '+5 min', 'nearest target', 'offset', 't', 'off->+5', 'also')):
+        for k, h in enumerate((pl, '+5 min', 'nearest target', 'offset', 'score', 'off->+5', 'also (score)', 'scaled x10 / /10')):
             c = ws.cell(row=row, column=col + k, value=h); c.fill = HEAD; c.font = BOLD
     ws.cell(row=row, column=1, value='table').fill = HEAD
     ws.cell(row=row, column=2, value='points').fill = HEAD
@@ -250,8 +232,8 @@ def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of):
             if v0 is None:
                 continue
             kind = kind_of(a, b)
-            ev, also = nearest(v0, kind)
-            put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also)
+            ev, also, sc = nearest(v0, kind, 'Dec' if kind == 'equator' else pl)
+            put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, sc=sc)
             out[(label, pl)] = (v0, ev)
         row += 1
     return row + 1, out
@@ -284,7 +266,7 @@ def mid_rows(ctx, R, triples, plane):
 
 
 def write_mids(ws, row, tid, title, ctx, R, triples):
-    row = header(ws, row, tid, title + '  [value = third point\'s signed offset from the midpoint; span in the label column C]', ('RA', 'Dec'))
+    row = header(ws, row, tid, title + '  [value = third point\'s signed offset from the midpoint; span in the label column; score column = t on 0.05]', ('RA', 'Dec'))
     data = {pl: mid_rows(ctx, R, triples, pl) for pl in ('RA', 'Dec')}
     for label, *_ in triples:
         ws.cell(row=row, column=1, value=tid)
@@ -301,7 +283,8 @@ def write_mids(ws, row, tid, title, ctx, R, triples):
 def runner_sheet(wb, P, R, ctx):
     ws = wb.create_sheet(P)
     ws.cell(row=1, column=1, value=f"{P} {R['name']}").font = BOLD
-    ws.cell(row=2, column=1, value='green = strict, yellow = near, light yellow = within 3x near; off->+5 = toward / away from the nearest target')
+    ws.cell(row=2, column=1, value='score (Eddie\'s families): green >= 80, yellow 50-80, light yellow < 50; midpoints: green <= 0.05, yellow <= 0.15, '
+            'light <= 0.45; off->+5 = toward / away from the nearest target; scaled = best of 10 v and v / 10 (/10 widens a tolerance 10x in degrees)')
     row = 4
     H, J = R['H'], R['J']
     dist = lambda a, b: 'equator' if b.endswith(' equator') else 'dist'
@@ -353,8 +336,8 @@ def runner_sheet(wb, P, R, ctx):
                     if n0 is None or d0 is None:
                         continue
                     v0, v5, inv = ratio(n0, n5, d0, d5)
-                    ev, also = nearest(v0, 'ratio') if v0 else (None, None)
-                    put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, inv)
+                    ev, also, sc = nearest(v0, 'ratio') if v0 else (None, [], None)
+                    put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, inv, sc)
                 ws.cell(row=row, column=2, value=lab)
                 row += 1
         row += 1
@@ -364,8 +347,8 @@ def runner_sheet(wb, P, R, ctx):
         n0, n5 = ctx.pair(R, A, f'{a} equator', 'Dec'); d0, d5 = ctx.pair(R, B, f'{b} equator', 'Dec')
         v0, v5, inv = ratio(n0, n5, d0, d5)
         ws.cell(row=row, column=1, value='T14'); ws.cell(row=row, column=2, value=f'|Dec| {A} / |Dec| {B}{inv}')
-        ev, also = nearest(v0, 'eqratio') if v0 else (None, None)
-        put_value(ws, row, 3, v0, v5, ev, also)
+        ev, also, sc = nearest(v0, 'eqratio') if v0 else (None, [], None)
+        put_value(ws, row, 3, v0, v5, ev, also, sc=sc)
         row += 1
     row += 1
     row = header(ws, row, 'T15', 'apex ratios: (Jupiter–X) / (Jupiter–equator) in Dec, X = bodies + royal stars; (Jupiter–royal A) / (Jupiter–royal B)', PLANES)
@@ -377,16 +360,16 @@ def runner_sheet(wb, P, R, ctx):
             n0, n5 = ctx.pair(R, f'{C} Jupiter', f'{C} {x}', 'Dec'); d0, d5 = ctx.pair(R, f'{C} Jupiter', f'{C} equator', 'Dec')
             v0, v5, inv = ratio(n0, n5, d0, d5)
             ws.cell(row=row, column=1, value='T15'); ws.cell(row=row, column=2, value=f'({C} Jupiter–{C} {x}) / ({C} Jupiter–equator){inv}')
-            ev, also = nearest(v0, 'ratio') if v0 else (None, None)
-            put_value(ws, row, plane_index('Dec', PLANES), v0, v5, ev, also)
+            ev, also, sc = nearest(v0, 'ratio') if v0 else (None, [], None)
+            put_value(ws, row, plane_index('Dec', PLANES), v0, v5, ev, also, sc=sc)
             row += 1
         for A, B in itertools.combinations(ROYAL, 2):
             ws.cell(row=row, column=1, value='T15'); ws.cell(row=row, column=2, value=f'({C} Jupiter–{C} {A}) / ({C} Jupiter–{C} {B})')
             for pl in PLANES:
                 n0, n5 = ctx.pair(R, f'{C} Jupiter', f'{C} {A}', pl); d0, d5 = ctx.pair(R, f'{C} Jupiter', f'{C} {B}', pl)
                 v0, v5, inv = ratio(n0, n5, d0, d5)
-                ev, also = nearest(v0, 'ratio') if v0 else (None, None)
-                put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, inv)
+                ev, also, sc = nearest(v0, 'ratio') if v0 else (None, [], None)
+                put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, inv, sc)
             row += 1
     ws.column_dimensions['B'].width = 46
     ws.freeze_panes = 'C4'
@@ -423,10 +406,10 @@ def field_sheet(wb, tid, title, runners, fields, planes, mid=False):
                         continue
                     v, ev = src[(lab, pl)]
                 c = ws.cell(row=row, column=2 + 2 * i, value=round(v, 6))
-                if ev and ev['level']:
-                    c.fill = FILL[ev['level']]
+                if ev and ev['colour']:
+                    c.fill = FILL[ev['colour']]
                 if ev:
-                    ws.cell(row=row, column=3 + 2 * i, value=f"{ev['target']} {ev['off']:+.5f}{'%' if ev['pct'] else ''}")
+                    ws.cell(row=row, column=3 + 2 * i, value=f"{ev['target']} {fmt_off(ev)}" + (f" [{ev['score']:.1f}]" if ev['score'] is not None else ''))
             row += 1
         row += 1
     ws.column_dimensions['A'].width = 34
