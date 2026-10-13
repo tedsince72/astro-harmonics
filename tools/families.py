@@ -11,12 +11,12 @@ Eddie's own scoring functions in rebuild_kit/active_vibrations.py are imported (
   conj       conjunction: RA < 1.5 or Dec < 0.3 (RA / Dec values only)   squared, as score_conjunction, on these tolerances
   interval   ratio values only (larger / smaller): NOT any p/q - Eddie's musical interval list (INTERVALS below, groups Perfect,
              Imperfect, Dissonant, Septimal, Harmonic, High, Phi), squared on each interval's own tolerance (interval_tol, Eddie
-             13 Oct 2026): unison 1 %; a whole-number interval 1 % / k, k = the whole number or the lower number of the fraction
-             (2, 3/2 -> 0.5 %; 3, 4/3, 5/3, 8/3 -> 0.333 %; 4, 5/4, 7/4, 9/4, 13/4 -> 0.25 %; 5, 6/5 ... 13/5 -> 0.2 %), 0.15 % when
-             k >= 6; Phi group, sqrt2 and 1+1/sqrt2 0.15 %. Ratio values are scored against the interval list only; distances
+             13 Oct 2026, revised same day): unison 1 %; a whole-number interval 1 % / k, k = the whole number or the LARGER
+             number of the fraction (2 -> 0.5 %; 3, 3/2 -> 0.333 %; 4, 4/3 -> 0.25 %; 5, 5/4, 5/3, 5/2 -> 0.2 %), 0.15 % when
+             k >= 6 (6/5 and up); Phi group, sqrt2 and 1+1/sqrt2 0.15 %. Ratio values are scored against the interval list only; distances
              (degrees) against the other families only.
-Outside every tolerance: outside() gives the nearest target and its offset, plain text (ratios: smallest % offset; degrees: smallest
-offset in units of the target's own tolerance).
+Outside every tolerance: outside() gives the nearest target and its offset, plain text (nearest by tightness: the smallest offset in
+units of the target's own tolerance, ratios and degrees alike).
 Scores: squared (10 (tol - dev) / tol)^2 for whole, golden, phi powers, sqrt2, silver, conjunction and intervals; linear
 100 (tol - dev) / tol for ninths.
 Planes RA, Dec, Flat, GC. Decimal scaling: v, 10 v and v/10 are each tested against every family but conj (scaled() - labelled x10 / /10;
@@ -61,11 +61,11 @@ INTERVAL_TOL = 0.15                                    # percent: the floor; Phi
 
 
 def interval_tol(lab):
-    """tolerance in percent (Eddie, 13 Oct 2026): unison 1 %; whole-number interval 1 % / k (k = the whole number, or the lower
-    number of the fraction: 3/2 -> 2, 13/4 -> 4), 0.15 % when k >= 6; Phi group, √2 and 1+1/√2 0.15 %"""
+    """tolerance in percent (Eddie, 13 Oct 2026, revised): unison 1 %; whole-number interval 1 % / k (k = the whole number, or the
+    larger number of the fraction: 3/2 -> 3, 13/4 -> 13), 0.15 % when k >= 6; Phi group, √2 and 1+1/√2 0.15 %"""
     if INTERVAL_BY_LABEL[lab][3] == 'Phi' or '√' in lab:
         return INTERVAL_TOL
-    k = int(lab.split('/')[1]) if '/' in lab else int(lab)
+    k = max(int(x) for x in lab.split('/'))
     return 1.0 / k if k <= 5 else INTERVAL_TOL
 
 
@@ -156,8 +156,8 @@ def evaluate(v, plane=None, kind='deg'):
 
 
 def outside(v, plane=None, kind='deg'):
-    """no family scores: the nearest target anyway -> ratios: the interval with the smallest % offset; degrees: the target with the
-    smallest offset in units of its own tolerance (every value is within 0.5 of a whole number; conjunction left out) ->
+    """no family scores: the nearest target anyway, by tightness (Eddie, 13 Oct): the target with the smallest offset in units of its
+    own tolerance, ratios and degrees alike (conjunction left out) ->
     {'family', 'target', 'tv', 'off', 'pct', 'tol', 'name', 'group'} or None. Plain text in the tables: no score, no colour."""
     if v is None or v <= 0:
         return None
@@ -171,7 +171,7 @@ def outside(v, plane=None, kind='deg'):
         cands += [(f, lab, t, max(t * 0.005, 0.025), '', '') for f, ts in (('sqrt2', SQRT2_T), ('silver', SILVER_T)) for lab, t in ts]
         cands = [c for c in cands if c[2] > 0]
     pct = kind != 'deg'
-    rel = (lambda c: abs(v / c[2] - 1)) if pct else (lambda c: abs(v - c[2]) / c[3])     # ratios: smallest % offset
+    rel = (lambda c: abs(v / c[2] - 1) * 100 / c[3]) if pct else (lambda c: abs(v - c[2]) / c[3])
     f, lab, t, tol, name, grp = min(cands, key=rel)
     return {'family': f, 'target': lab, 'tv': t, 'off': (v / t - 1) * 100 if pct else v - t, 'pct': pct, 'tol': tol,
             'name': name, 'group': grp, 'score': None, 'colour': ''}

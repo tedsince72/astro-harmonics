@@ -11,7 +11,11 @@ Test 7 (Eddie 13 Oct): tapered ratio tolerances (unison 1 %, 1 % / k, floor 0.15
 target + offset shown outside every tolerance (plain text, no score, no colour). Expected values changed by it: test 1 Dec 15.222681
 now shows '15.5556 (ninth) — outside ±0.106' -0.33287 (still no score, no colour); test 5 P05 now has 5 unison rows (the Rahu ratio is a
 unison in RA, Flat and GC); test 6 Cobden J Pluto GC 1.001353 score 0.96 light -> 74.77 yellow, Cobden 41 -> 61 unisons (20 automatic,
-all RA; 41 genuine: Flat 20, GC 20, RA 1, all return-assisted, two at 2/6)."""
+all RA; 41 genuine: Flat 20, GC 20, RA 1, all return-assisted, two at 2/6).
+Revised same day (Eddie): k = the LARGER number of the ratio (3/2 -> 0.333 %, 4/3 -> 0.25 %, 5/x -> 0.2 %, 6/5 and up -> 0.15 %) and the
+nearest target outside the tolerance by tightness (offset / own tolerance) for ratios too. Test 7 changed: Flat 1.0445 nearest 16/15
+-2.07813 % -> unison +4.44999 % (outside ±1 %); Haumea 1.506122 3/2 score 3.37 -> outside ±0.333 %; the 3/2 hit is now Makemake 1.499624
+on 0.333 % (85.52). Tests 1-6 unchanged."""
 import os, subprocess, sys
 import openpyxl
 
@@ -157,13 +161,15 @@ v, t, o, f, sc = cell(r, 'RA')
 check('P05 T12 RA S Jupiter–S Mars / H Jupiter–H Mars 1.002631 -> unison inside 1 %, +0.26308 %, score 54.31, yellow',
       round(v, 6) == 1.002631 and t == '1 · unison · Perfect (inverted)' and o == '+0.26308%' and sc == 54.31 and f == YELLOW, f'{v} {t} {o} {sc} {f}')
 v, t, o, f, sc = cell(r, 'Flat')
-check('same row Flat 1.0445 outside every band: nearest 16/15 -2.07813 %, plain (no score, no colour, no group)',
-      t == '16/15 · minor second · Dissonant — outside ±0.15 % (inverted)' and o == '-2.07813%' and sc is None and f is None
+check('same row Flat 1.0445 outside every band: nearest by tightness unison +4.44999 % (4.45 tolerances; 16/15 is 13.9), plain',
+      t == '1 · unison · Perfect — outside ±1 % (inverted)' and o == '+4.44999%' and sc is None and f is None
       and r[COL['Flat'] + 3].value is None, f'{v} {t} {o} {sc} {f}')
-r = row(ws, 'T12', 'S Jupiter–S Haumea / J Jupiter–J Haumea')
-v, t, o, f, sc = cell(r, 'Flat')
-check('3/2 on 0.5 %: P05 T12 Flat Haumea 1.506122, +0.40816 % (outside the old 0.15 %), score (10 (0.5 − 0.40816) / 0.5)² = 3.37',
-      t == '3/2 · fifth · Perfect' and o == '+0.40816%' and sc == 3.37 and sc == round((10 * (0.5 - 0.40816) / 0.5) ** 2, 2), f'{v} {t} {o} {sc} {f}')
+v, t, o, f, sc = cell(row(ws, 'T12', 'S Jupiter–S Haumea / J Jupiter–J Haumea'), 'Flat')
+check('3/2 on 0.333 % (k = 3): P05 T12 Flat Haumea 1.506122, +0.40816 % now outside ±0.333 %, plain',
+      t == '3/2 · fifth · Perfect — outside ±0.333 %' and o == '+0.40816%' and sc is None and f is None, f'{v} {t} {o} {sc} {f}')
+v, t, o, f, sc = cell(row(ws, 'T12', 'S Jupiter–S Makemake / H Jupiter–H Makemake'), 'Flat')
+check('3/2 hit on 0.333 %: P05 T12 Flat Makemake 1.499624, -0.02508 %, score (10 (1/3 − 0.02508) / (1/3))² = 85.52, green',
+      t == '3/2 · fifth · Perfect' and o == '-0.02508%' and sc == 85.52 and f == GREEN, f'{v} {t} {o} {sc} {f}')
 v, t, o, f, sc = cell(row(wb['P09'], 'T12', 'S Jupiter–S Mars / H Jupiter–H Mars'), 'Flat')
 check('9/8 on 0.15 %: P09 T12 Flat Mars 1.125048, +0.00428 %, score (10 (0.15 − 0.00428) / 0.15)² = 94.37, green',
       t == '9/8 · major second · Dissonant' and o == '+0.00428%' and sc == 94.37 and round((10 * (0.15 - 0.0042844) / 0.15) ** 2, 1) == 94.4
@@ -172,10 +178,12 @@ v, t, o, f, sc = cell(row(ws, 'T5', 'S Jupiter → H Mars'), 'Dec')
 check('degrees outside every family: T5 S Jupiter → H Mars Dec 8.398276 -> 5×φ (golden) — outside ±0.0324, +0.30811, plain',
       t == '5×φ (golden) — outside ±0.0324' and o == '+0.30811' and sc is None and f is None, f'{v} {t} {o} {sc} {f}')
 import families
-check('Phi group = φ, φ², φ³, 1+√2 only; tolerances 1 / 0.5 / 0.333 / 0.25 / 0.2 / 0.15 %',
+TK = ('1', '2', '3/2', '3', '4/3', '4', '5/4', '5', '5/2', '5/3', '6/5', '8/5', '8/3', '9/4', '7/4', '13/4', '11/5', '7/2', '√2', '1+1/√2', 'φ')
+check('Phi group = φ, φ², φ³, 1+√2 only; tolerances by the larger number (1 %, 1 % / k, 0.15 % from k = 6)',
       [i[0] for i in families.INTERVALS if i[3] == 'Phi'] == ['φ', 'φ²', 'φ³', '1+√2']
-      and [round(families.TOL[k], 3) for k in ('1', '2', '3/2', '8/3', '13/4', '13/5', '6', '7/6', '9/8', '√2', '1+1/√2', 'φ')]
-      == [1.0, 0.5, 0.5, 0.333, 0.25, 0.2, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15], str(families.TOL))
+      and [round(families.TOL[k], 3) for k in TK] == [1.0, 0.5, 0.333, 0.333, 0.25, 0.25, 0.2, 0.2, 0.2, 0.2] + [0.15] * 11
+      and all(families.TOL[k] == 0.15 for k in families.TOL
+              if k[0].isdigit() and '√' not in k and max(int(x) for x in k.split('/')) >= 6), str(families.TOL))
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
