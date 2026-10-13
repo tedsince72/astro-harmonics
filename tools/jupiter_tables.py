@@ -11,7 +11,8 @@ rebuild_kit/active_vibrations.py) is scored; nearest target = the family with th
 are listed beside it ('also'); 'scaled' = best family of 10 v or v / 10 (/10 widens a tolerance 10x in degrees). Ratio values (T12-T15)
 are scored against Eddie's musical interval list only (0.15 %): target 'interval · name · group' plus a Group column; per runner a
 'P## RATIOS' sheet (RATIOS BY GROUP: grouped, tightest first) and FIELD 12-15 matrices with the group tag. Colours by score: green >= 80,
-yellow 50-80, light yellow < 50. No summary totals. T16 (13 Oct 2026, Eddie): RA-Dec crossing, Jupiter-X RA distance in one chart =
+yellow 50-80, light yellow < 50. No summary totals. Unison (Perfect 1) counts; every unison carries its field count (runners holding
+unison on the same ratio; it can come from age, e.g. Equator S/H = 1) in the 'also' column, the RATIOS sheet and FIELD 12-15. T16 (13 Oct 2026, Eddie): RA-Dec crossing, Jupiter-X RA distance in one chart =
 its Dec distance in another (6 orderings), +-0.02, linear score, family of the value beside it; FIELD 16.
 Midpoints (T10, T11) keep their own tolerance 0.05 / 0.15 (green / yellow; light = within 0.45). Sky-leg values also at off + 5 min
 (engine, as JR v3 section F) with an arrow: toward / away from the nearest target; n/a where the engine does not reproduce a point.
@@ -336,10 +337,14 @@ def runner_sheet(wb, P, R, ctx):
     for t in ('T12', 'T13', 'T14', 'T15'):
         field[t] = {}
 
-    def keep(tid, lab, pl, v0, v5, ev, inv=''):
+    field['_uni'] = {}
+
+    def keep(tid, lab, pl, v0, v5, ev, inv, row, col):
         field[tid][(lab, pl)] = (v0, ev)
         if ev:
-            rats.append((tid, lab + inv, pl, v0, v5, ev))
+            rats.append((tid, lab + inv, pl, v0, v5, ev, (tid, lab, pl)))
+            if ev['target'] == '1':                              # unison: field count written after all runners (may come from age)
+                field['_uni'][(tid, lab, pl)] = (row, col + 7)
 
     for tid, title, num, den in (
             ('T12', '(S Jupiter–S X) / (natal Jupiter–natal X), same plane', lambda C, x: ('S Jupiter', f'S {x}'), lambda C, x: (f'{C} Jupiter', f'{C} {x}')),
@@ -359,7 +364,7 @@ def runner_sheet(wb, P, R, ctx):
                     ev, also, sc = nearest(v0, 'ratio') if v0 else (None, [], None)
                     put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, inv, sc)
                     if v0:
-                        keep(tid, lab, pl, v0, v5, ev, inv)
+                        keep(tid, lab, pl, v0, v5, ev, inv, row, plane_index(pl, PLANES))
                 ws.cell(row=row, column=2, value=lab)
                 row += 1
         row += 1
@@ -372,7 +377,7 @@ def runner_sheet(wb, P, R, ctx):
         ev, also, sc = nearest(v0, 'eqratio') if v0 else (None, [], None)
         put_value(ws, row, 3, v0, v5, ev, also, sc=sc)
         if v0:
-            keep('T14', f'|Dec| {A} / |Dec| {B}', 'Equator', v0, v5, ev, inv)
+            keep('T14', f'|Dec| {A} / |Dec| {B}', 'Equator', v0, v5, ev, inv, row, 3)
         row += 1
     row += 1
     row = header(ws, row, 'T15', 'apex ratios: (Jupiter–X) / (Jupiter–equator) in Dec, X = bodies + royal stars; (Jupiter–royal A) / (Jupiter–royal B)', PLANES)
@@ -387,7 +392,7 @@ def runner_sheet(wb, P, R, ctx):
             ev, also, sc = nearest(v0, 'ratio') if v0 else (None, [], None)
             put_value(ws, row, plane_index('Dec', PLANES), v0, v5, ev, also, sc=sc)
             if v0:
-                keep('T15', f'({C} Jupiter–{C} {x}) / ({C} Jupiter–equator)', 'Dec', v0, v5, ev, inv)
+                keep('T15', f'({C} Jupiter–{C} {x}) / ({C} Jupiter–equator)', 'Dec', v0, v5, ev, inv, row, plane_index('Dec', PLANES))
             row += 1
         for A, B in itertools.combinations(ROYAL, 2):
             ws.cell(row=row, column=1, value='T15'); ws.cell(row=row, column=2, value=f'({C} Jupiter–{C} {A}) / ({C} Jupiter–{C} {B})')
@@ -397,12 +402,12 @@ def runner_sheet(wb, P, R, ctx):
                 ev, also, sc = nearest(v0, 'ratio') if v0 else (None, [], None)
                 put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, inv, sc)
                 if v0:
-                    keep('T15', f'({C} Jupiter–{C} {A}) / ({C} Jupiter–{C} {B})', pl, v0, v5, ev, inv)
+                    keep('T15', f'({C} Jupiter–{C} {A}) / ({C} Jupiter–{C} {B})', pl, v0, v5, ev, inv, row, plane_index(pl, PLANES))
             row += 1
     row, field['T16'] = write_cross(ws, row, ctx, R)
     ws.column_dimensions['B'].width = 46
     ws.freeze_panes = 'C4'
-    ratio_sheet(wb, P, R, rats)
+    field['_rats'] = rats
     return field
 
 
@@ -474,20 +479,23 @@ def write_cross(ws, row, ctx, R):
     return row + 1, out
 
 
-def ratio_sheet(wb, P, R, rats):
-    """RATIOS BY GROUP: every T12-T15 ratio on an interval, grouped (Eddie's group order), tightest (highest score) first"""
-    ws = wb.create_sheet(f'{P} RATIOS')
+def ratio_sheet(wb, P, R, rats, uni, n):
+    """RATIOS BY GROUP: every T12-T15 ratio on an interval, grouped (Eddie's group order), tightest (highest score) first;
+    unison rows carry the field count (runners with unison on the same ratio)"""
+    ws = wb.create_sheet(f'{P} RATIOS', wb.sheetnames.index(P) + 1)
     ws.cell(row=1, column=1, value=f"{P} {R['name']} — RATIOS BY GROUP (T12-T15 ratios on Eddie's interval list, 0.15 %; tightest first)").font = BOLD
     row = 3
     for g in families.GROUPS:
         ws.cell(row=row, column=1, value=g).font = BOLD
         row += 1
-        for k, h in enumerate(('group', 'table', 'ratio', 'plane', 'value', '+5 min', 'interval', 'name', 'offset', 'score', 'off->+5')):
+        for k, h in enumerate(('group', 'table', 'ratio', 'plane', 'value', '+5 min', 'interval', 'name', 'offset', 'score', 'off->+5',
+                               'unison field')):
             c = ws.cell(row=row, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
         row += 1
-        for tid, lab, pl, v0, v5, ev in sorted([r for r in rats if r[5]['group'] == g], key=lambda r: -r[5]['score']):
+        for tid, lab, pl, v0, v5, ev, key in sorted([r for r in rats if r[5]['group'] == g], key=lambda r: -r[5]['score']):
             vals = (g, tid, lab, pl, round(v0, 6), v5 if v5 in ('n/a', None) else round(v5, 6), ev['target'], ev['name'], fmt_off(ev),
-                    round(ev['score'], 2), 'n/a' if v5 == 'n/a' else (None if v5 is None else arrow(v0, v5, ev)))
+                    round(ev['score'], 2), 'n/a' if v5 == 'n/a' else (None if v5 is None else arrow(v0, v5, ev)),
+                    f'{uni[key]}/{n}' if ev['target'] == '1' else None)
             for k, x in enumerate(vals):
                 ws.cell(row=row, column=1 + k, value=x)
             ws.cell(row=row, column=5).fill = FILL[ev['colour']]
@@ -496,7 +504,7 @@ def ratio_sheet(wb, P, R, rats):
     ws.column_dimensions['C'].width = 52
 
 
-def field_sheet(wb, tid, title, runners, fields, planes, mid=False):
+def field_sheet(wb, tid, title, runners, fields, planes, mid=False, uni=None):
     ws = wb.create_sheet(f'FIELD {tid[1:]}')
     ws.cell(row=1, column=1, value=f'{tid} field matrix — {title}; per runner: value (coloured), nearest target + offset').font = BOLD
     order = sorted(runners)
@@ -530,7 +538,8 @@ def field_sheet(wb, tid, title, runners, fields, planes, mid=False):
                     c.fill = FILL[ev['colour']]
                 if ev:
                     ws.cell(row=row, column=3 + 2 * i, value=f"{ev['target']} {fmt_off(ev)}" + (f" [{ev['score']:.1f}]" if ev['score'] is not None else '')
-                            + (f" [{ev['group']}]" if ev.get('group') else ''))
+                            + (f" [{ev['group']}]" if ev.get('group') else '')
+                            + (f" field {uni[(tid, lab, pl)]}/{len(runners)}" if uni and ev.get('target') == '1' and ev.get('group') else ''))
             row += 1
         row += 1
     ws.column_dimensions['A'].width = 34
@@ -572,6 +581,17 @@ def main():
     fields = {}
     for P in sorted(runners):
         fields[P] = runner_sheet(wb, P, runners[P], ctx)
+    # unison (Perfect 1) field counts: unison can come from age (e.g. Equator S/H = 1), so every unison shows how many runners hold it
+    uni = {}
+    for P in fields:
+        for k in fields[P]['_uni']:
+            uni[k] = uni.get(k, 0) + 1
+    n = len(runners)
+    for P in sorted(runners):
+        ws = wb[P]
+        for k, (r, c) in fields[P]['_uni'].items():
+            ws.cell(row=r, column=c, value=f'unison: field {uni[k]}/{n}')
+        ratio_sheet(wb, P, runners[P], fields[P]['_rats'], uni, n)
     for tid, title in (('T5', 'S Jupiter → H bodies'), ('T6', 'S Jupiter → J bodies'), ('T7', 'sky bodies → H Jupiter'),
                        ('T8', 'sky bodies → J Jupiter')):
         field_sheet(wb, tid, title, runners, fields, PLANES)
@@ -580,7 +600,7 @@ def main():
                             ('T13', '(S Jupiter–natal X) / (natal Jupiter–natal X), intervals', PLANES),
                             ('T14', 'Equator ratios of the three Jupiters, intervals', ('Equator',)),
                             ('T15', 'apex ratios, intervals', PLANES)):
-        field_sheet(wb, tid, title, runners, fields, pls)
+        field_sheet(wb, tid, title, runners, fields, pls, uni=uni)
     field_sheet(wb, 'T16', 'RA–Dec crossing (value = RA − Dec, inside ±0.02)', runners, fields, [cross_name(a, b) for a, b in CROSS])
     wb.save(out)
     print(f'{race}: {len(runners)} runners -> {out} ({os.path.getsize(out) / 1e6:.2f} MB); {repro}'

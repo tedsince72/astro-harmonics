@@ -6,7 +6,7 @@ RA 14.4444; expected values changed: T6 RA 18 green -> yellow (whole score 62.9)
 Venturous S Uranus Dec 7.008205 yellow -> light (whole score 34.78).
 Same day, Eddie's interval list for ratios (0.15 %, squared): Pholas phi now an interval, phi · golden ratio · Phi, +0.05151 %, score 43.11,
 light (green under the first families.py build, yellow under JR v3 bands); RATIOS BY GROUP sheet checked.
-Test 4 (T16 RA–Dec crossing, Eddie 13 Oct): Sandown 14:25 2021 Nube Negra / Harry Skelton, Jupiter–Orcus J RA = H Dec."""
+Test 5 (Eddie 13 Oct): unison counts, with its field count.\nTest 4 (T16 RA–Dec crossing, Eddie 13 Oct): Sandown 14:25 2021 Nube Negra / Harry Skelton, Jupiter–Orcus J RA = H Dec."""
 import os, subprocess, sys
 import openpyxl
 
@@ -92,6 +92,19 @@ check('Jupiter–Orcus J RA 30.55841 = H Dec 30.55995, RA − Dec −0.001541, s
       and r[c0 + 2].fill.start_color.rgb == GREEN, str(vals))
 f16 = [x for x in wb['FIELD 16'].iter_rows(values_only=True) if x[0] == 'Jupiter–Orcus' and any(v is not None for v in x[1:])]
 check('FIELD 16 shows it (Nube Negra column)', len(f16) == 1 and 'crossing -0.00154 [92.3]' in f16[0], str(f16))
+
+print('\nTest 5: Newcastle AW 12:20 2021 (batch xlsx) — unison (Perfect 1) with its field count')
+wb = openpyxl.load_workbook(build('reference/classic/race_batch_20211112_newcastle_aw_1220.xlsx'))
+lab = 'S Jupiter–S Rahu / H Jupiter–H Rahu'
+for P, inv in (('P05', ' (inverted)'), ('P11', '')):
+    r = row(wb[P], 'T12', lab)
+    v, t, o, f, sc = cell(r, 'Flat')
+    check(f'{P} T12 {lab} Flat -> 1 · unison · Perfect{inv}, also cell "unison: field 2/6"',
+          t == f'1 · unison · Perfect{inv}' and r[COL['Flat'] + 7].value == 'unison: field 2/6', f'{v} {t} {o} {sc} {r[COL["Flat"] + 7].value}')
+rs = [x for x in wb['P05 RATIOS'].iter_rows(values_only=True) if x[6] == '1']
+check('P05 RATIOS: unison row with field 2/6', len(rs) == 1 and rs[0][11] == '2/6', str(rs))
+f14 = [x for x in wb['FIELD 12'].iter_rows(values_only=True) if x[0] == lab and any(isinstance(v, str) and 'field 2/6' in v for v in x[1:])]
+check('FIELD 12 tags it "field 2/6"', len(f14) == 1, str(f14))
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
