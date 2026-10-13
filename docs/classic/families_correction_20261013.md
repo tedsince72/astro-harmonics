@@ -128,3 +128,82 @@ J GC 168.44350 (1516/9). (Kempton 19:15 P11 89/9: M held by 4 of 6, not rare.)
 
 ### Not checked
 JR v3 _full.txt / field.txt text (JSON used); CR P##.json; layer 1–3 outputs; whether a dropped ninth would return under scaling or another family.
+
+---
+
+# Ratio correction (Eddie, 13 Oct 2026, later the same day)
+
+**Correction.** Ratios are NOT any p/q. They are Eddie's musical interval list only, tol 0.15 %, squared score (CLAUDE.md "Families";
+`tools/families.py` INTERVALS). `tools/jupiter_tables.py` uses it from commit 3b91acf. Frozen readers unchanged.
+
+Audit: read-only, independent subagent. Scripts `tools/scans/families_audit/ratios/`; lists `docs/classic/families_audit/ratios/`
+(the 5.4 MB CR instance list cr_offlist_all.txt is not committed — regenerate with cr_audit.py). On / off = the ratio value (larger /
+smaller) equals a list value or not; 1 counts as on the list. Clean split: no off-list p/q (p <= 30, q <= 9) lies within 0.15 % of a list
+value (closest 21/8 vs φ², 0.27 %), and no measured value behind an off-list JR v3 hit lies within 0.15 % of one — nothing is "rescued".
+Not checked: hits that would newly appear between the old bands and 0.15 % (needs a rerun), so every "becomes ONLY" below is provisional.
+
+## What would change in each frozen reader (ratios)
+- **Layers v2:** tools/layer1_inventory.py tolerances l.35–46, PMAX/QMAX 30/9 l.47, frac() l.67–77 ("not 1" l.74), uses l.151–277; split
+  0.25 % layer3_web.py l.15, 268, layer4_field.py l.32–34, layer5_reader.py l.52. → interval list, all bands 0.15 %.
+- **CR v1.1:** ratios from the Layer 1 inventory; checklist_reader.py l.23 (split 0.25), t normalisers l.104 (shared 0.5), 109, 122/126,
+  127 (4:5:9), 141, 149, 153, 162.
+- **Watch line:** watch_jupiter.py l.20 (Equator ratios, tight band), l.22 (same-body sets, sets with a 1 excluded).
+- **JR v1:** tools/jup/jcore.py l.13 (MIN 0.5), l.18–19 (bands 0.005–0.5 %), FRACS l.84, fit() l.87–100; shapes.py l.259–260 (splits).
+- **JR v3:** tools/jup2/core.py CONSTANTS l.23–40, FRACS l.42, TOL l.45–50, RATIO_MIN l.54, targets() ratio branch l.95–106; hits.py l.58,
+  198/202 (A2), 223–234 (B2), 351–363 (D1–D3). Has φ, φ², φ³, √2, 1+√2 but also off-list scaled constants (3.82, 6.18, 6.854, 11.09, 16.18,
+  7.07, 4.14, 24.14 …); lacks 1+1/√2, φ³+1, 2/φ, φ√5, 2−1/φ.
+- Everywhere: 16/15 can't be produced now (q = 15 > 9); layers and JR v1 have no irrational ratio targets; the readers' "not 1" exclusions
+  (sky/natal, h:j, family, Equator, same-body) conflict with Perfect 1 on the list — Eddie to decide.
+
+## Past findings on an off-list ratio
+**winner_checklist.md** (345 citations transcribed by hand; checklist_offlist.txt): ratio values 287 on / 191 off; entries 173 all-on,
+172 with an off one. Off entries by item: 11: 1, 13: 2, 14: 1, 15: 8, 16: 9, 18: 1, 19: 1, 22: 96 of 165, 24: 5, 26: 14, 31: 8, 32: 1,
+34: 17, section 4: 8 (17, 25, section 5: none). Key ones:
+- Item 11 L123 Nottingham 17:50 19/8 both charts. Item 13 L145 Perth jockey 13/3, 19/8.
+- **Item 14 L154 (+ 32 L357, sec. 4 L416) Exeter (blind) Best Chiron–Juno 10/7.**
+- Item 15: Carlisle Ceres–Eris 9/8, 7/4, 14/9 (14/9 off; the field-ONLY set); Haydock 17:18 Venus–Saturn 15/2, 10; Newcastle 15:40
+  Vesta–Sedna 22/7 (field-ONLY); Chelmsford Saturn–Neptune 18/5; the L165 non-qualifiers all off.
+- Item 16 chords (off pairwise ratios): Sandown 14:30 Mercury 17/8, 17/9 ("field tightest"); Newcastle AW 16:40 Gonggong 9/2, 9/7;
+  Carlisle Mercury 12/7, 12/5; Haydock 17:18 Vesta 13/9; Lingfield Mars 15/7; Newbury Vesta 10/7, 10/3; **Redcar (blind) Hogan Pallas
+  11/7 : 7/4 : 11/4 (11/7 off)**; York Quaoar (withdrawn) 63/8, 62/7; Newcastle AW 15:40 Mercury Equator 19.
+- Item 17: every 4:5:9 split on the list. Items 18, 19: York horse Chiron–Transpluto 11/2 (L202); Dettori Diffident Sun–Chiron 11/2 (L208).
+- Item 22: all cited ratios off in Haydock 14:20 (blind) 17/8, Chelmsford (10, 12/5, 28/9, 19/2), Nottingham 17:50 (17/9, 24/7, 19/8 ×2,
+  13/9, 20/9); whole numbers >= 10 all off.
+- Item 23: fail — Newmarket July Chiron 28/3, Vesta 16/5; York Transpluto 11/2 (cross-link ends 12/5, 15/7); Haydock 14:20 Ceres–Orcus
+  17/8. Survive — Sandown 14:25 Mercury, Huntingdon, Newcastle AW 13:30 Juno, Newbury, York Chiron, Exeter Juno.
+- Item 24: 26/9 (Haydock 14:20 blind), 29/8 and 16/5 (Carlisle), 21/8 (Newbury), 29/5 (Exeter blind h:j).
+- Item 26: Venturous sky/horse Sun 12 (the field-ONLY), Good Effort 29/9, Orcus 13/2; Arabian Poet 22/7; King Of Cities 11/7; Carlisle
+  Uranus set 48/5, 55/8; Haydock 14:05 Sedna 11/7; Newcastle 15:40 12/7, 13/3; Newmarket 15:35 17/6; Fontwell 2023 18/5; Sedgefield 13/7;
+  Wincanton 21/5; York 16:15 Mercury 3/7.
+- Item 34: Chiron–Transpluto 21/8 ×2, 14/5, 11/2, 16/7, 11/9 (survive: Sheppard ×5, Sandown 9/8); Neptune–Vesta 14/9, 20/7, 23/5, 21/5
+  (survives: Ring 4/3); Pallas–Juno 19/8, 23/9, 9/7; Bowen ×12; Chiron–Rahu 21/8, 12/5; Venus–Uranus 13/7; Newcastle AW 12:20 19/8, 19/9.
+- **Section 4: Kempton 14:40 Hukum field-only pair set 18/7, 27/7; Kempton Equator Jupiter S/H 16/5; Goodwood Jupiter H/J 11/9**
+  (Fontwell Eye To The Sky 11/5, 11/3, 5/3, 5/4 all on).
+- Tolerance on on-list citations: nearly all already within 0.15 %. Above: Dettori split parts 3 (0.203 %), span/other 4 (0.152 %);
+  Haydock 14:05 sky ×2 (0.224 %); 10 shared pairs (ratio 1, old 0.5 %) at 0.15–0.5 %: Gladly Ever After, Newbury Juno–Pallas,
+  Haydock 14:05, Perth ×2, Ffos Las (item 14 example), Newmarket July Uranus–Ketu and Chiron–Ketu, York Eris–Haumea.
+
+**JR v3** (P##.json, 20 races; ratio measures B2, D1, D2, D3, sky A2; combined hits and chains have no ratio parts), on / off:
+strict 120 / 275, exact-in-race 0 / 5, exact-pre-off 3 / 9, near 416 / 753. 13 blind races: strict 87 / 203, exact-in-race 0 / 1,
+exact-pre-off 0 / 5, near 309 / 553; the 209 off strict/exact = B2 99, D2 56, D1 52, D3 2; per race Kempton 17:15 14, Kempton 19:15 19,
+Musselburgh 14:17 14, 15:47 19, 16:50 17, Newcastle 16:28 11, 18:00 15, Worcester 15:07 15, 15:37 17, 16:07 23, 16:37 13, Yarmouth 13:54 18,
+15:54 14. Sky A2 strict 1 on / 2 off (Worcester 16:07 and Yarmouth 15:54, S Jupiter–Sedna / S Jupiter–equator 17/7). Most frequent
+off targets: 11/9 (32), 13/9 (30), 10/9 (25), 9/7 (22). List: jr3_offlist_blind_strict_exact.txt.
+
+**JR v1** (25 races), on / off: sky/natal tight 33 / 92, near 44 / 81; h:j tight 26 / 47, near 65 / 117; family tight 160 / 280,
+near 504 / 810; Equator tight 2 / 4, near 6 / 9; same-body set 6 / 5; pair set 1 / 4; splits (item 19) 111 / 228; item 23 2 / 16;
+shared pairs (item 13) 12 within 0.15 %, 48 at 0.15–0.5 %. Blind 13: 228 off tight / Equator / set / pair-set items, incl. Equator
+Worcester 15:37 P05 S/H 13/9, Worcester 16:07 P03 S/H 10/9 (tight); same-body set Kempton 17:15 P11 22/9, 24/7, 7/5; pair sets Kempton 17:15
+P13 17/2, 17/7, Worcester 15:37 P11 28/9, 14/9, Yarmouth 15:54 P11 16/7.
+
+**CR v1.1** (50 race folders, P##.json instances), strict on / off: 11: 9 / 10; 15: 27 / 93; 16: 309 / 269; 17: 14 / 0; 18: 255 / 212;
+19: 1873 / 4322; 22: 1120 / 1831; 23: 123 / 717; 24: 4942 / 6975; 26: 82 / 101 (near in cr_counts.txt). Items 13 / 14 (ratio 1): 13 strict
+385 within 0.15 %, 1020 above; 14 strict 26 / 51. Dropping off-list entries changes field holders in 531 (race, item, level) cases
+(cr_fieldonly_changes.txt); blind CR races: Kempton 14:40 — Hukum's ONLY 15 goes, 11 / 23 / 26 become ONLY for another runner;
+Fontwell 16:45 — Santesa's ONLY 14 goes (shared pair above 0.15 %), 18 ONLY P07, 23 ONLY P01; Goodwood 18:53 — 23 ONLY P05, 26 ONLY P03.
+
+**Watch line E / B** off-list entries: Fontwell 16:45 P03 Spike Jones B Dec 7/5 : 12/5 : 12/7; Goodwood P09 Madame Tantzy E H/J 11/9;
+Kempton 14:40 P05 Hamish E S/H 16/5 and B 16/5 : 26/5 : 13/8; Kempton AW 17:15 P11 Katie Louise B 22/9 : 24/7 : 7/5 (still holds through M);
+Worcester 15:37 P05 Mighty Fleur E 13/9; Worcester 16:07 P03 Park Annonciade E 10/9. **Holding the watch line only through an off-list
+entry: Spike Jones, Madame Tantzy, Hamish, Mighty Fleur, Park Annonciade.** On-list holders: Graces Quest 4/3, Galahad Threepwood
+13/8 : 13/5 : 8/5, Starburster 9/5 : 9/4 : 5/4, Tour Ovalie 7/5 : 5/2 : 7/2.

@@ -1,0 +1,67 @@
+item level           on    off   (all 50 CR races)
+  11 near          34     32
+  11 other        104    123
+  11 strict         9     10
+  15 strict        27     93
+  16 other          1      1
+  16 strict       309    269
+  17 strict        14      0
+  18 near          38     48
+  18 strict       255    212
+  19 strict      1873   4322
+  22 near        1117   1793
+  22 strict      1120   1831
+  23 near         211   1178
+  23 strict       123    717
+  24 near       15203  21019
+  24 strict      4942   6975
+  26 near         283    449
+  26 strict        82    101
+
+split blind(_20261012) vs other:
+  11 near     blind       11     10
+  11 near     other       23     22
+  11 other    blind       24     38
+  11 other    other       80     85
+  11 strict   blind        1      1
+  11 strict   other        8      9
+  15 strict   blind        8     33
+  15 strict   other       19     60
+  16 other    other        1      1
+  16 strict   blind       80     63
+  16 strict   other      229    206
+  17 strict   blind        3      0
+  17 strict   other       11      0
+  18 near     blind       13     13
+  18 near     other       25     35
+  18 strict   blind       63     47
+  18 strict   other      192    165
+  19 strict   blind      457    997
+  19 strict   other     1416   3325
+  22 near     blind      329    468
+  22 near     other      788   1325
+  22 strict   blind      281    486
+  22 strict   other      839   1345
+  23 near     blind       76    340
+  23 near     other      135    838
+  23 strict   blind       31    174
+  23 strict   other       92    543
+  24 near     blind     4081   5470
+  24 near     other    11122  15549
+  24 strict   blind     1243   1838
+  24 strict   other     3699   5137
+  26 near     blind       71    111
+  26 near     other      212    338
+  26 strict   blind       12     19
+  26 strict   other       70     82
+
+items 13/14 shared pairs (ratio 1) by % apart vs new 0.15%:
+(13, 'other', '<=0.15%') 149
+(13, 'other', '>0.15%') 396
+(13, 'strict', '<=0.15%') 385
+(13, 'strict', '>0.15%') 1020
+(14, 'near', '<=0.15%') 24
+(14, 'near', '>0.15%') 38
+(14, 'strict', '<=0.15%') 26
+(14, 'strict', '>0.15%') 51
+unparsed: {}
