@@ -14,7 +14,9 @@ are scored against Eddie's musical interval list only (0.15 %): target 'interval
 yellow 50-80, light yellow < 50. No summary totals. Unison (Perfect 1) counts; every unison carries its field count (runners holding
 unison on the same ratio; it can come from age, e.g. Equator S/H = 1) in the 'also' column, the RATIOS sheet and FIELD 12-15.
 Jupiter return (13 Oct): when S Jupiter is in conjunction (RA < 1.5 or Dec < 0.3) with a natal Jupiter, that chart's T13 starts with
-'Jupiter return: S-H (S-J) Jupiter RA .. Dec ..; T13 unisons are automatic' and its unison cells are greyed (also in RATIOS / FIELD 13). T16 (13 Oct 2026, Eddie): RA-Dec crossing, Jupiter-X RA distance in one chart =
+'Jupiter return: S-H (S-J) Jupiter RA .. Dec ..' (information). A T12-T14 unison is greyed as 'automatic (Jupiter return)', per plane,
+only when d(S Jupiter, natal Jupiter) / d(natal Jupiter, X) in that plane < 0.0015 (the ratio tolerance); all other unisons are genuine.
+Automatic unisons are left out of every field count. T16 (13 Oct 2026, Eddie): RA-Dec crossing, Jupiter-X RA distance in one chart =
 its Dec distance in another (6 orderings), +-0.02, linear score, family of the value beside it; FIELD 16.
 Midpoints (T10, T11) keep their own tolerance 0.05 / 0.15 (green / yellow; light = within 0.45). Sky-leg values also at off + 5 min
 (engine, as JR v3 section F) with an arrow: toward / away from the nearest target; n/a where the engine does not reproduce a point.
@@ -354,13 +356,12 @@ def runner_sheet(wb, P, R, ctx):
             ('T13', '(S Jupiter–natal X) / (natal Jupiter–natal X), same plane', lambda C, x: ('S Jupiter', f'{C} {x}'), lambda C, x: (f'{C} Jupiter', f'{C} {x}'))):
         row = header(ws, row, tid, title + '  [larger / smaller]', PLANES)
         for C in 'HJ':
-            auto = False
-            if tid == 'T13':                                   # Jupiter return (Eddie, 13 Oct): S Jupiter in conjunction with C Jupiter
+            if tid == 'T13':                                   # Jupiter return (Eddie, 13 Oct): information line only
                 ra, de = (ctx.pair(R, 'S Jupiter', f'{C} Jupiter', p)[0] for p in ('RA', 'Dec'))
                 if ra < families.CONJ['RA'] or de < families.CONJ['Dec']:
-                    auto = True
                     ws.cell(row=row, column=1, value='T13')
-                    ws.cell(row=row, column=2, value=f'Jupiter return: S–{C} Jupiter RA {ra:.5f} Dec {de:.5f}; T13 unisons are automatic').font = BOLD
+                    ws.cell(row=row, column=2, value=f'Jupiter return: S–{C} Jupiter RA {ra:.5f} Dec {de:.5f}; a unison is automatic (grey) only where '
+                            f'd(S Jupiter, {C} Jupiter) / d({C} Jupiter, X) < {AUTO_TOL} in that plane').font = BOLD
                     row += 1
             for x in NATAL_BODIES:
                 if x == 'Jupiter' or x not in R[C]:
@@ -373,7 +374,7 @@ def runner_sheet(wb, P, R, ctx):
                         continue
                     v0, v5, inv = ratio(n0, n5, d0, d5)
                     ev, also, sc = nearest(v0, 'ratio') if v0 else (None, [], None)
-                    if auto and ev and ev['target'] == '1':
+                    if ev and ev['target'] == '1' and is_auto(ctx, R, C, f'{C} {x}', pl):
                         ev = dict(ev, colour='grey', auto=True)    # automatic unison (Jupiter return): greyed, not coloured
                     put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, inv, sc)
                     if v0:
@@ -388,6 +389,8 @@ def runner_sheet(wb, P, R, ctx):
         v0, v5, inv = ratio(n0, n5, d0, d5)
         ws.cell(row=row, column=1, value='T14'); ws.cell(row=row, column=2, value=f'|Dec| {A} / |Dec| {B}{inv}')
         ev, also, sc = nearest(v0, 'eqratio') if v0 else (None, [], None)
+        if ev and ev['target'] == '1' and a == 'S' and is_auto(ctx, R, b, f'{b} equator', 'Dec'):
+            ev = dict(ev, colour='grey', auto=True)
         put_value(ws, row, 3, v0, v5, ev, also, sc=sc)
         if v0:
             keep('T14', f'|Dec| {A} / |Dec| {B}', 'Equator', v0, v5, ev, inv, row, 3)
@@ -422,6 +425,16 @@ def runner_sheet(wb, P, R, ctx):
     ws.freeze_panes = 'C4'
     field['_rats'] = rats
     return field
+
+
+AUTO_TOL = 0.0015                                          # = the ratio tolerance 0.15 %
+
+
+def is_auto(ctx, R, C, xpt, pl):
+    """automatic unison (Eddie, 13 Oct): d(S Jupiter, C Jupiter) / d(C Jupiter, X) in plane pl < 0.0015"""
+    d1 = ctx.pair(R, 'S Jupiter', f'{C} Jupiter', pl)[0]
+    d2 = ctx.pair(R, f'{C} Jupiter', xpt, pl)[0]
+    return d1 is not None and bool(d2) and d1 / d2 < AUTO_TOL
 
 
 CROSS = [(a, b) for a in 'SHJ' for b in 'SHJ' if a != b]       # RA distance in chart a = Dec distance in chart b
@@ -508,7 +521,7 @@ def ratio_sheet(wb, P, R, rats, uni, n):
         for tid, lab, pl, v0, v5, ev, key in sorted([r for r in rats if r[5]['group'] == g], key=lambda r: -r[5]['score']):
             vals = (g, tid, lab, pl, round(v0, 6), v5 if v5 in ('n/a', None) else round(v5, 6), ev['target'], ev['name'], fmt_off(ev),
                     round(ev['score'], 2), 'n/a' if v5 == 'n/a' else (None if v5 is None else arrow(v0, v5, ev)),
-                    (f'{uni[key]}/{n}' + (' automatic (Jupiter return)' if ev.get('auto') else '')) if ev['target'] == '1' else None)
+                    ('automatic (Jupiter return), not counted' if ev.get('auto') else f'{uni[key]}/{n}') if ev['target'] == '1' else None)
             for k, x in enumerate(vals):
                 ws.cell(row=row, column=1 + k, value=x)
             ws.cell(row=row, column=5).fill = FILL[ev['colour']]
@@ -552,8 +565,8 @@ def field_sheet(wb, tid, title, runners, fields, planes, mid=False, uni=None):
                 if ev:
                     ws.cell(row=row, column=3 + 2 * i, value=f"{ev['target']} {fmt_off(ev)}" + (f" [{ev['score']:.1f}]" if ev['score'] is not None else '')
                             + (f" [{ev['group']}]" if ev.get('group') else '')
-                            + (f" field {uni[(tid, lab, pl)]}/{len(runners)}" if uni and ev.get('target') == '1' and ev.get('group') else '')
-                            + (' automatic (Jupiter return)' if ev.get('auto') else ''))
+                            + ((' automatic (Jupiter return), not counted' if ev.get('auto') else f" field {uni[(tid, lab, pl)]}/{len(runners)}")
+                               if uni is not None and ev.get('target') == '1' and ev.get('group') else ''))
             row += 1
         row += 1
     ws.column_dimensions['A'].width = 34
@@ -598,13 +611,14 @@ def main():
     # unison (Perfect 1) field counts: unison can come from age (e.g. Equator S/H = 1), so every unison shows how many runners hold it
     uni = {}
     for P in fields:
-        for k in fields[P]['_uni']:
-            uni[k] = uni.get(k, 0) + 1
+        for k, (r, c, auto) in fields[P]['_uni'].items():
+            if not auto:                                       # automatic unisons are left out of every field count
+                uni[k] = uni.get(k, 0) + 1
     n = len(runners)
     for P in sorted(runners):
         ws = wb[P]
         for k, (r, c, auto) in fields[P]['_uni'].items():
-            ws.cell(row=r, column=c, value=f'unison: field {uni[k]}/{n}' + (' (automatic: Jupiter return)' if auto else ''))
+            ws.cell(row=r, column=c, value='unison: automatic (Jupiter return), not counted' if auto else f'unison: field {uni[k]}/{n}')
         ratio_sheet(wb, P, runners[P], fields[P]['_rats'], uni, n)
     for tid, title in (('T5', 'S Jupiter → H bodies'), ('T6', 'S Jupiter → J bodies'), ('T7', 'sky bodies → H Jupiter'),
                        ('T8', 'sky bodies → J Jupiter')):
