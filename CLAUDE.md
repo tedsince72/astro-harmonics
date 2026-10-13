@@ -60,7 +60,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   opposite, span = 360 − near span), Dec (signed), Equator (|Dec| of all three: midpoint of |Dec a| and |Dec b|, offset of |Dec c|; listed
   only when the three are not all on the same side of the equator). Tolerance grows with the span (revised 14 Oct): green = 0.1 % of the
   span, floor 0.05, cap 0.15; yellow 3×, light 9× (span under 50° keeps 0.05 / 0.15 / 0.45; span 150° or more 0.15 / 0.45 / 1.35). Each line shows the span and the tolerance used; t = |offset| / green.
-  THREADS counts green and yellow midpoints.
+  THREADS counts green and yellow midpoints. The three Jupiter-only lines (S / H / J Jupiter) are in T11 (and FIELD 11) only.
 - Decimal scaling: v, 10·v and v/10 are tested against every family, labelled ×10 / ÷10, in their own column (÷10 widens a tolerance 10× in degrees).
 - RA–Dec crossing (same body pair, RA distance in one chart = Dec distance in another; natal RA = sky Dec and the reverse): ±0.02,
   linear score; the value need not be in a family (its family score shown beside it). In jupiter_tables: T16 (Jupiter–X, 6 orderings) + FIELD 16.
@@ -83,7 +83,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score; ratios on the interval
   list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
-  Tests `python3 tests/jupiter_tables_check.py` (43/43). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (45/45). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -108,11 +108,11 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
   - Test 8: Nottingham 15:30 2022, Dynamic Force, Uranus (values set from the rule, not tuned to the winner).
 - **P## NUMBERS** (one per runner, after P## RATIOS): rows = target numbers with the ×10 / ÷10 forms folded into one row (key = family +
   the target's digits), degree-distance families only (whole, golden, φ powers, ninths, √2, silver; no conjunction, no ratios).
-  - Columns: SKY (S Jupiter → sky bodies, stars, equator), HORSE (T1 + T3), JOCKEY (T2 + T4), H–J (H Jupiter – J Jupiter, counted once,
-    from T3; never in HORSE or JOCKEY), SKY→NATAL (T5–T8).
+  - Columns: SKY (S Jupiter → sky bodies, stars, equator), HORSE (T1 only: H Jupiter → H bodies, stars, equator), JOCKEY (T2 only:
+    J Jupiter → J bodies, stars, equator), SKY→NATAL (T5–T8). T3 / T4 cross-chart hits are not used (Eddie, 14 Oct; the tables stay).
   - Cell: hits scoring >= 40 on that number, main or scaled (labelled), value, offset and score, best first; colour green >= 80,
     yellow 50–80, light yellow 40–50.
-  - Tag: "sky + horse + jockey" (separate SKY, HORSE and JOCKEY hits) or "two of three"; H–J and SKY→NATAL never count. Tagged rows first.
+  - Tag: "sky + horse + jockey" (SKY, HORSE and JOCKEY hits, within-chart) or "two of three"; SKY→NATAL never counts. Tagged rows first.
 - **FIELD NUMBERS** (one sheet): every number held sky + horse + jockey by any runner, the SKY best hit, each holder's best HORSE and
   JOCKEY hit, and the holder count (k/n).
   - Test 9: Wincanton 14:20 2022, P07 River Bray, row "ninth: 7.77778 / 77.7778" (S Ceres 77.75345, H Rigel 7.777589, J Haumea /10).

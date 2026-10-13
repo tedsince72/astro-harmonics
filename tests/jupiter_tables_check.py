@@ -33,7 +33,9 @@ Test 10 (Eddie 14 Oct): midpoints - Equator plane (|Dec|, only when the three ar
 green = max(0.05, 0.5 % of span), yellow 3x, light 9x. No earlier test checked a midpoint value; THREADS test 8 now also lists midpoint
 lines (they carry span and tolerance); its tags and counts are unchanged.
 Revised 14 Oct (Eddie): green = 0.1 % of span, floor 0.05, cap 0.15 (yellow 3x, light 9x); FIELD 11 added. Test 10 changed: tolerance
-cases; Dynamic Force T10 Equator tol ±0.1108 -> ±0.0500 (still green)."""
+cases; Dynamic Force T10 Equator tol ±0.1108 -> ±0.0500 (still green).
+14 Oct (Eddie): Jupiter-only midpoint lines in T11 only; NUMBERS HORSE = T1, JOCKEY = T2 (no T3 / T4, no H–J column). Changed: test 9's
+H–J check replaced; Wincanton FIELD NUMBERS 6 -> 5 numbers (sqrt2 0.707 / 70.7 drops out; 166.667 3/6 -> 1/6; silver 2.414 2/6 -> 1/6)."""
 import os, subprocess, sys
 import openpyxl
 from openpyxl.cell.rich_text import CellRichText
@@ -233,10 +235,13 @@ sky, horse, jock = (str(nr[0][k]).split('\n') for k in (2, 3, 4))
 check('SKY S Jupiter → S Ceres 77.75345 (80.96), HORSE H Jupiter → H Rigel 7.777589 (98.52), JOCKEY J Jupiter → J Haumea 77.798638 (83.67)',
       'S Jup→S Ceres RA 77.75345 → 77.7778 -0.02433 (80.96)' in sky and 'H Jup→H Rigel RA 7.777589 → 7.77778 -0.00019 (98.52)' in horse
       and 'J Jup→J Haumea GC 77.798638 → 77.7778 +0.02086 (83.67)' in jock, f'{sky} {horse} {jock}')
-sv = [r for r in wb['P07 NUMBERS'].iter_rows(min_row=4, values_only=True) if r[0] == 'silver: 0.414 / 4.14']
-check('H Jupiter – J Jupiter in its own H–J column, once: P07 silver 0.414 Dec 0.412452 (86.41) only under H–J; tag two of three (was sky + horse + jockey)',
-      len(sv) == 1 and sv[0][1] == 'two of three' and str(sv[0][5]) == 'H Jup→J Jup Dec 0.412452 → 0.414 -0.00176 (86.41)' and sv[0][3] is None
-      and 'J Jup→H Jup' not in str(sv[0][4]), str(sv))
+nh = [c.value for c in wb['P07 NUMBERS'][3]]
+lines = [x for r in wb['P07 NUMBERS'].iter_rows(min_row=4, values_only=True) for c in r[2:] if c for x in str(c).split('\n')]
+check('NUMBERS: HORSE = T1, JOCKEY = T2 only - no H–J column, no cross-chart line (H Jup→J X, J Jup→H X)',
+      nh[:6] == ['number', 'tag', 'SKY', 'HORSE', 'JOCKEY', 'SKY→NATAL'] and not any(x.startswith(('H Jup→J ', 'J Jup→H ')) for x in lines), str(nh))
+fnr = [r[0] for r in wb['FIELD NUMBERS'].iter_rows(min_row=4, values_only=True)]
+check('FIELD NUMBERS (within-chart only): sqrt2 0.707 / 70.7 drops out; 5 numbers left',
+      len(fnr) == 5 and not any(str(x).startswith('sqrt2') for x in fnr), str(fnr))
 fn = [r for r in wb['FIELD NUMBERS'].iter_rows(min_row=4, values_only=True) if r[0] == 'ninth: 7.77778 / 77.7778']
 head = [c.value for c in wb['FIELD NUMBERS'][3]]
 check('FIELD NUMBERS lists the number with P07 as holder', len(fn) == 1 and fn[0][[i for i, h in enumerate(head) if str(h).startswith('P07')][0]]
@@ -267,6 +272,11 @@ check('T10 header planes RA, RA far, Dec, Equator; FIELD 10 and FIELD 11 have th
       and all([x[0] for x in wb[f].iter_rows(values_only=True) if x[0] in ('RA', 'RA far', 'Dec', 'Equator')] == ['RA', 'RA far', 'Dec', 'Equator']
               for f in ('FIELD 10', 'FIELD 11')),
       str([hd[2 + 9 * k] for k in range(4)]))
+
+t10 = [r[1] for r in wb['P07'].iter_rows(values_only=True) if r[0] == 'T10']
+t11 = [r[1] for r in wb['P07'].iter_rows(values_only=True) if r[0] == 'T11']
+jo = ('S Jupiter / H Jupiter | J Jupiter', 'S Jupiter / J Jupiter | H Jupiter', 'H Jupiter / J Jupiter | S Jupiter')
+check('the three Jupiter-only midpoint lines are in T11 only (Wincanton P07)', not any(x in t10 for x in jo) and all(x in t11 for x in jo), '')
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

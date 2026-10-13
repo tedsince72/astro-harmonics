@@ -281,10 +281,8 @@ def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None, nums=None)
             out[(label, pl)] = (v0, ev)
             if thr is not None:
                 thread_add(thr, tid, f'{short(a)}→{short(b)}', (a, b), pl, v0, ev, sc)
-            if nums is not None and KIND[kind] == 'deg':
-                hj = a.endswith(' Jupiter') and b.endswith(' Jupiter')
-                if not (hj and tid == 'T4'):                   # H Jupiter – J Jupiter: once (from T3), in its own H–J column
-                    number_add(nums, 'H–J' if hj else NUM_COL[tid], f'{short(a)}→{short(b)}', 'Dec' if kind == 'equator' else pl, v0)
+            if nums is not None and KIND[kind] == 'deg' and tid in NUM_COL:
+                number_add(nums, NUM_COL[tid], f'{short(a)}→{short(b)}', 'Dec' if kind == 'equator' else pl, v0)
         row += 1
     return row + 1, out
 
@@ -380,7 +378,7 @@ def runner_sheet(wb, P, R, ctx):
     # T10 / T11 midpoints
     tri = []
     for x in NATAL_BODIES:
-        if x in H and x in J:
+        if x in H and x in J and x != 'Jupiter':           # Jupiter-only lines: T11 only (Eddie 14 Oct)
             tri += [(f'S Jupiter / H {x} | J {x}', 'S Jupiter', f'H {x}', f'J {x}'),
                     (f'S Jupiter / J {x} | H {x}', 'S Jupiter', f'J {x}', f'H {x}'),
                     (f'H {x} / J {x} | S Jupiter', f'H {x}', f'J {x}', 'S Jupiter')]
@@ -706,9 +704,9 @@ def threads_sheet(wb, runners, fields):
 
 
 # ---------------- NUMBERS (Eddie, 13 Oct 2026)
-NUM_COL = {'SKY': 'SKY', 'T1': 'HORSE', 'T3': 'HORSE', 'T2': 'JOCKEY', 'T4': 'JOCKEY', 'T5': 'SKY→NATAL', 'T6': 'SKY→NATAL',
+NUM_COL = {'SKY': 'SKY', 'T1': 'HORSE', 'T2': 'JOCKEY', 'T5': 'SKY→NATAL', 'T6': 'SKY→NATAL',     # T3 / T4 cross-chart not used (Eddie 14 Oct)
            'T7': 'SKY→NATAL', 'T8': 'SKY→NATAL'}
-NUM_COLS = ('SKY', 'HORSE', 'JOCKEY', 'H–J', 'SKY→NATAL')        # H–J: H Jupiter – J Jupiter, counted once, not in the tag
+NUM_COLS = ('SKY', 'HORSE', 'JOCKEY', 'SKY→NATAL')
 NUM_MIN = 40.0
 NUM_FAMILIES = ('whole', 'golden', 'phi power', 'ninth', 'sqrt2', 'silver')     # degree-distance families (no conjunction, no ratios)
 
@@ -772,12 +770,12 @@ def rich(hits):
 
 def numbers_sheet(wb, P, R, nums):
     """P## NUMBERS: rows = target numbers (x10 / /10 folded, degree-distance families), columns SKY (S Jupiter -> sky points),
-    HORSE (T1, T3), JOCKEY (T2, T4), SKY->NATAL (T5-T8); hits >= 40, main or scaled, best first; tag from SKY / HORSE / JOCKEY"""
+    HORSE (T1), JOCKEY (T2), SKY->NATAL (T5-T8); hits >= 40, main or scaled, best first; tag from SKY / HORSE / JOCKEY"""
     ws = wb.create_sheet(f'{P} NUMBERS', wb.sheetnames.index(f'{P} RATIOS') + 1)
     ws.cell(row=1, column=1, value=f"{P} {R['name']} — NUMBERS: degree-distance hits scoring >= 40 per target number (x10 / /10 forms folded; "
-            'main or scaled; a repeat of the same number keeps the higher form). SKY = S Jupiter -> sky bodies, stars, equator; HORSE = T1 + T3; '
-            'JOCKEY = T2 + T4; H–J = H Jupiter – J Jupiter (once; not HORSE or JOCKEY); SKY->NATAL = T5-T8. '
-            'Tag: sky + horse + jockey, or two of three (separate hits; H–J and SKY->NATAL not in the tag). Colour: green >= 80, yellow 50-80, light 40-50.').font = BOLD
+            'main or scaled; a repeat of the same number keeps the main form unless the scaled is > 0.5 higher). SKY = S Jupiter -> sky bodies, '
+            'stars, equator; HORSE = T1 (H Jupiter -> H bodies, stars, equator); JOCKEY = T2 (J Jupiter -> J); SKY->NATAL = T5-T8; T3 / T4 '
+            'cross-chart hits not used. Tag: sky + horse + jockey, or two of three (SKY->NATAL not in the tag). Colour: green >= 80, yellow 50-80, light 40-50.').font = BOLD
     for k, h in enumerate(('number', 'tag') + NUM_COLS):
         c = ws.cell(row=3, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
     rows = num_rows(nums)
