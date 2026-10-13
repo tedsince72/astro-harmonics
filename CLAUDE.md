@@ -89,6 +89,8 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   off-list ratio.
 - **Decision (Eddie, 13 Oct 2026):** look at races in the tables first; rebuild the readers later (no new reader version until Eddie says).
 - **Eddie's observations** from the tables go in docs/classic/eye_notes.md (race, runner, table, exact values, field check).
+- **Open points, to look at later with Eddie (no changes now):** (1) revisit the scoring; (2) the wide ninth bands at large values
+  (e.g. 166.667 ± 1.17, from _NINTH_RANGES).
 - **Forward candidates that still stand:** E1 (JR v3: sky Jupiter, horse X, jockey X — one at the midpoint of the other two) and
   checklist item 13 (shared natal pair, horse value ≈ jockey value).
 
