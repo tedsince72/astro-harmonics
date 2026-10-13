@@ -25,8 +25,27 @@ what did NOT separate winners, the blind tests so far, and the open candidates. 
   one workbook per runner (`...__P01.xlsx` = horse+jockey of cloth 1; P = 2*cloth-1). Sheets: TRANS (sky at race time), P01 (horse natal),
   P02 (jockey natal); column B body, E RA (deg), I Dec (signed).
 - Planes: RA (wrapped 0–180), Dec (|dDec|), Flat (sqrt(RA²+Dec²)), great circle (GC; old tools call it 'Sky'), Equator (|Dec|),
-  movement (sky X vs natal X). Whole ±0.005, ninth ±0.0005; movement ±0.01 / ±0.0011; Equator values ±0.01; simple ratio p/q with
-  q <= 9, p <= 30, not 1, within 0.005% (near bands listed separately); cross link close = RA < 1.5 or Dec < 0.3 (near RA < 2, Dec < 0.6).
+  movement (sky X vs natal X).
+
+## Families (Eddie's definitions, 13 Oct 2026 — the single reference: tools/families.py)
+Correction (Eddie, 13 Oct 2026): the ninths are NOT n/9. They are exactly the 48 `_NINTH_RANGES` in rebuild_kit/active_vibrations.py.
+tools/families.py imports Eddie's own scoring functions from that file (not copied). New tools use families.py. The frozen readers
+(layers v2, CR v1.1, JR v1, JR v3) and the watch line still use the OLD tolerances (whole ±0.005, ninth n/9 ±0.0005, movement ±0.01 /
+±0.0011, Equator ±0.01, golden list incl. 1/φ², % bands) until Eddie approves new versions. Past findings built on an n/9 outside the 48
+are listed in docs/classic/families_correction_20261013.md.
+- Whole numbers 1–200, ±0.02 (score_whole).
+- Golden interval: every multiple of φ, ±0.03236, zero multiple not scored (score_phi_interval).
+- φ powers: φ^-1, φ^1..10, 10φ^-1..7, 100φ^-1, 100φ (score_phi_powers). No 1/φ² forms.
+- Ninths: the 48 _NINTH_RANGES, lower <= v < upper, own tol, linear score (score_ninth): 0.111…–0.999…, 1.111…–9.999…, 11.11…–99.99…,
+  111.1…, 1.222…–1.888…, 12.22…–18.88…, 122.2…–177.7…. Not n/9.
+- √2: 1.414, 14.14, 141.4, 0.707, 7.07, 70.7; silver: 2.414, 24.14, 0.414, 4.14, 41.4. No multiples; tol max(0.5 % of target, 0.025).
+- Conjunction: RA < 1.5 or Dec < 0.3.
+- Simple ratios p/q (p <= 30, q <= 9, not 1), for ratio values; linear score on 0.005 % (Equator ratios 0.01 %).
+- Planes RA, Dec, Flat, GC.
+- Decimal scaling: v, 10·v and v/10 are tested against every family, labelled ×10 / ÷10, in their own column (÷10 widens a tolerance 10× in degrees).
+- RA–Dec crossing (same body pair, RA distance in one chart = Dec distance in another): layout proposed, not built yet.
+- No birth-day certainty for now.
+- Nearest target = the family with the highest score. Colour by score: green >= 80, yellow 50–80, light yellow < 50 (inside the bounds).
 
 ## Tools (run from the repo root)
 - Layered reader: `tools/run_layers.sh <race>` = layer1_inventory → layer2_roots → layer3_web → layer4_field → layer5_reader.
@@ -39,7 +58,8 @@ what did NOT separate winners, the blind tests so far, and the open candidates. 
   are run, blind (no results opened).
 - Viewing tool (13 Oct 2026, not a reader): `python3 tools/jupiter_tables.py <race_batch xlsx | reference/classic/<race> folder>` ->
   race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T15 per runner, field matrices, off and +5 min,
-  nearest target by tightness, colours). Tests `python3 tests/jupiter_tables_check.py`. In the card pipeline: `run_card_swiss.py --tables`
+  every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score). Venv python
+  (swisseph, pandas). Tests `python3 tests/jupiter_tables_check.py` (7/7). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
