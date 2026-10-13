@@ -22,7 +22,8 @@ only when d(S Jupiter, natal Jupiter) / d(natal Jupiter, X) in that plane < 0.00
 Automatic unisons are left out of every field count. A unison with 0.0015 <= d1/d2 < 0.02 is tagged 'return-assisted' (colour and field
 count unchanged). RATIOS sheets show only groups with hits. T16 (13 Oct 2026, Eddie): RA-Dec crossing, Jupiter-X RA distance in one chart =
 its Dec distance in another (6 orderings), +-0.02, linear score, family of the value beside it; FIELD 16.
-Midpoints (T10, T11) keep their own tolerance 0.05 / 0.15 (green / yellow; light = within 0.45). Sky-leg values also at off + 5 min
+Midpoints (T10, T11; planes RA near, RA far, Dec, Equator = |Dec| when the three are not on one side): tolerance grows with the span,
+green = max(0.05, 0.5 % of the span), yellow 3x, light 9x (Eddie, 14 Oct 2026). Sky-leg values also at off + 5 min
 (engine, as JR v3 section F) with an arrow: toward / away from the nearest target; n/a where the engine does not reproduce a point.
 Points and engine from tools/jup2 (imported, not changed). Frozen readers are not changed."""
 import argparse, glob, os, re, sys, itertools, math
@@ -130,11 +131,17 @@ def nearest(v, kind, plane=None):
     return (ev[0] if ev else None), ev[1:], (dict(sc[0], deg=k == 'deg') if sc else None)
 
 
-def mid_eval(v, tol=MID):
+def mid_tol(span):
+    """midpoint tolerance grows with the span (Eddie, 14 Oct 2026): green = max(0.05, 0.5 % of the span), yellow 3x, light 9x"""
+    return max(MID[0], 0.005 * span)
+
+
+def mid_eval(v, span):
     off = v
-    s, nr = tol
-    col = 'green' if abs(off) <= s else 'yellow' if abs(off) <= nr else 'light' if abs(off) <= 3 * nr else ''
-    return {'target': 'midpoint', 'tv': 0.0, 'family': 'midpoint', 'off': off, 'score': None, 't': abs(off) / s, 'colour': col, 'pct': False}
+    g = mid_tol(span)
+    col = 'green' if abs(off) <= g else 'yellow' if abs(off) <= 3 * g else 'light' if abs(off) <= 9 * g else ''
+    return {'target': f'midpoint · span {span:.4f} · tol ±{g:.4f}', 'tv': 0.0, 'family': 'midpoint', 'off': off, 'score': None,
+            't': abs(off) / g, 'colour': col, 'pct': False, 'span': span, 'tol': g}
 
 
 # ---------------- race context
@@ -186,6 +193,8 @@ def fmt_off(d):
 
 def tlabel(d):
     """target label: 'interval · name · group' for intervals, 'target (family)' otherwise"""
+    if d['family'] == 'midpoint':
+        return d['target']
     return f"{d['target']} · {d['name']} · {d['group']}" if d['family'] == 'interval' else f"{d['target']} ({d['family']})"
 
 
@@ -279,46 +288,60 @@ def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None, nums=None)
     return row + 1, out
 
 
+MID_PLANES = ('RA', 'RA far', 'Dec', 'Equator')
+
+
+def mid_one(a, b, c, plane):
+    """-> (offset of c from the midpoint of a and b, span) or None. RA: the near midpoint (shortest arc); RA far: the point 180 deg
+    opposite, span 360 - near span; Dec: signed Dec; Equator: |Dec| of all three, only when the three are not all on the same side
+    of the equator (otherwise it repeats Dec) (Eddie, 14 Oct 2026)"""
+    if plane in ('RA', 'RA far'):
+        d = (b - a + 180.0) % 360.0 - 180.0
+        mid, span = (a + d / 2) % 360.0, abs(d)
+        if plane == 'RA far':
+            mid, span = (mid + 180.0) % 360.0, 360.0 - span
+        return (c - mid + 180.0) % 360.0 - 180.0, span
+    if plane == 'Equator':
+        if (a >= 0) == (b >= 0) == (c >= 0):
+            return None
+        a, b, c = abs(a), abs(b), abs(c)
+    return c - (a + b) / 2, abs(b - a)
+
+
 def mid_rows(ctx, R, triples, plane):
     """triples: [(label, e1, e2, middle)] -> label -> (offset0, offset5, span)"""
-    ix = 0 if plane == 'RA' else 1
+    ix = 0 if plane.startswith('RA') else 1
     out = {}
     for label, e1, e2, m in triples:
-        if plane == 'RA' and any(p.split(' ', 1)[1] == 'Ketu' for p in (e1, e2, m)):
+        if plane.startswith('RA') and any(p.split(' ', 1)[1] == 'Ketu' for p in (e1, e2, m)):
             continue
         vals = []
         for st in (0, 5):
             ps = [ctx.pos(R, p, st) for p in (e1, e2, m)]
-            if None in ps:
-                vals.append('n/a'); continue
-            a, b, c = ps[0][ix], ps[1][ix], ps[2][ix]
-            if plane == 'RA':
-                d = (b - a + 180.0) % 360.0 - 180.0
-                mid, span = (a + d / 2) % 360.0, abs(d)
-                off = (c - mid + 180.0) % 360.0 - 180.0
-            else:
-                mid, span, off = (a + b) / 2, abs(b - a), c - (a + b) / 2
-            vals.append((off, span))
+            vals.append('n/a' if None in ps else mid_one(ps[0][ix], ps[1][ix], ps[2][ix], plane))
+        if vals[0] is None:
+            continue                                       # Equator: all on one side
         sky = any(p.startswith('S ') for p in (e1, e2, m))
-        o5 = None if not sky else ('n/a' if vals[1] == 'n/a' else vals[1][0])
+        o5 = None if not sky else ('n/a' if vals[1] in ('n/a', None) else vals[1][0])
         out[label] = (vals[0][0], o5, vals[0][1])
     return out
 
 
 def write_mids(ws, row, tid, title, ctx, R, triples, thr=None):
-    row = header(ws, row, tid, title + '  [value = third point\'s signed offset from the midpoint; span in the label column; score column = t on 0.05]', ('RA', 'Dec'))
-    data = {pl: mid_rows(ctx, R, triples, pl) for pl in ('RA', 'Dec')}
+    row = header(ws, row, tid, title + '  [value = third point\'s signed offset from the midpoint; target column = span and the tolerance '
+                 'used (green = max(0.05, 0.5 % of the span), yellow 3x, light 9x); score column = t = |offset| / green tol]', MID_PLANES)
+    data = {pl: mid_rows(ctx, R, triples, pl) for pl in MID_PLANES}
     for label, *_ in triples:
         ws.cell(row=row, column=1, value=tid)
-        spans = [f"{pl} span {data[pl][label][2]:.4f}" for pl in ('RA', 'Dec') if label in data[pl]]
-        ws.cell(row=row, column=2, value=f"{label}   ({'; '.join(spans)})")
-        for pl in ('RA', 'Dec'):
+        ws.cell(row=row, column=2, value=label)
+        for pl in MID_PLANES:
             if label in data[pl]:
                 o0, o5, span = data[pl][label]
-                put_value(ws, row, plane_index(pl, ('RA', 'Dec')), o0, o5, mid_eval(o0), None)
-                if thr is not None and abs(o0) <= MID[1]:      # THREADS: midpoints within 0.15 (green / yellow)
+                ev = mid_eval(o0, span)
+                put_value(ws, row, plane_index(pl, MID_PLANES), o0, o5, ev, None)
+                if thr is not None and ev['colour'] in ('green', 'yellow'):   # THREADS: green and yellow midpoints
                     trip = next(t for t in triples if t[0] == label)[1:]
-                    thread_add(thr, tid, 'mid ' + short(label), trip, pl, o0, mid_eval(o0), None)
+                    thread_add(thr, tid, 'mid ' + short(label), trip, pl, o0, ev, None)
         row += 1
     return row + 1, data
 
@@ -326,8 +349,8 @@ def write_mids(ws, row, tid, title, ctx, R, triples, thr=None):
 def runner_sheet(wb, P, R, ctx):
     ws = wb.create_sheet(P)
     ws.cell(row=1, column=1, value=f"{P} {R['name']}").font = BOLD
-    ws.cell(row=2, column=1, value='score (Eddie\'s families): green >= 80, yellow 50-80, light yellow < 50; midpoints: green <= 0.05, yellow <= 0.15, '
-            'light <= 0.45; off->+5 = toward / away from the nearest target; scaled = best of 10 v and v / 10 (/10 widens a tolerance 10x in degrees)')
+    ws.cell(row=2, column=1, value='score (Eddie\'s families): green >= 80, yellow 50-80, light yellow < 50; midpoints: green <= max(0.05, 0.5 % of the span), '
+            'yellow 3x, light 9x; off->+5 = toward / away from the nearest target; scaled = best of 10 v and v / 10 (/10 widens a tolerance 10x in degrees)')
     row = 4
     H, J = R['H'], R['J']
     thr = []                                               # THREADS: every scored hit linking a body with Jupiter
@@ -592,7 +615,7 @@ def thread_add(thr, tid, lab, pts, pl, v, ev, sc):
     repeat = same_digits(ev, sc)                           # Eddie 13 Oct: a scaled repeat of the main hit - keep the higher, drop the other
     up = repeat and sc['score'] > ev['score'] + KEEP_MARGIN   # main kept unless the scaled form is > 0.5 higher (unrounded; Eddie 14 Oct)
     if ev and ev.get('score') is not None or tid in ('T10', 'T11') and ev:
-        tgt = 'midpoint' if tid in ('T10', 'T11') else 'equal' if tid == 'T16' else ev['target']
+        tgt = ev['target'] if tid in ('T10', 'T11') else 'equal' if tid == 'T16' else ev['target']
         sct = f" ({ev['score']:.2f})" if ev.get('score') is not None else ''
         thr.append({'X': X, 'charts': xch, 'dirs': dirs, 'main': True, 'score': ev.get('score'), 'colour': ev['colour'],
                     'hidden': up,   # line not shown (the scaled form scores higher); still counts for tags
@@ -607,7 +630,7 @@ THREAD_MIN = 50.0                                          # Eddie, 13 Oct: tags
 
 
 def strong(h):
-    """a hit scoring >= 50; midpoints (no score) count when within 0.15 (green / yellow), as they are kept"""
+    """a hit scoring >= 50; midpoints (no score) count when green or yellow (span-scaled tolerance), as they are kept"""
     return h['score'] is None or h['score'] >= THREAD_MIN
 
 
@@ -637,7 +660,7 @@ COUNTED = ('mutual, same chart', 'mutual, across charts', 'both Jupiters')
 def threads_sheet(wb, runners, fields):
     ws = wb.create_sheet('THREADS', wb.sheetnames.index('FIELD 5'))
     ws.cell(row=1, column=1, value='THREADS: hits inside tolerance linking body X with Jupiter, from T1-T8, T10-T13, T16; a cell lists those '
-            'scoring >= 50 (midpoints: within 0.15), main first then scaled x10 / /10 (a scaled repeat of the main hit\'s number - same family, same '
+            'scoring >= 50 (midpoints: green / yellow), main first then scaled x10 / /10 (a scaled repeat of the main hit\'s number - same family, same '
             'digits - shown once, the higher-scoring form; tags still use the main hit), best first, then "+ n weaker" (score-0 hits not counted); automatic unisons left out. '
             'Top line: tags from the main hits >= 50 - mutual, same chart (S Jup->H X and S X->H Jup, or the J pair); mutual, across charts '
             '(S Jup->J X and S X->H Jup, or S Jup->H X and S X->J Jup); both Jupiters (S X->H Jup and S X->J Jup); both charts (natal X in H '
@@ -858,7 +881,7 @@ def field_sheet(wb, tid, title, runners, fields, planes, mid=False, uni=None):
                 if mid:
                     if lab not in src[pl]:
                         continue
-                    o0 = src[pl][lab][0]; ev = mid_eval(o0); v = o0
+                    o0 = src[pl][lab][0]; ev = mid_eval(o0, src[pl][lab][2]); v = o0
                 else:
                     if (lab, pl) not in src:
                         continue
@@ -936,7 +959,7 @@ def main():
     for tid, title in (('T5', 'S Jupiter → H bodies'), ('T6', 'S Jupiter → J bodies'), ('T7', 'sky bodies → H Jupiter'),
                        ('T8', 'sky bodies → J Jupiter')):
         field_sheet(wb, tid, title, runners, fields, PLANES)
-    field_sheet(wb, 'T10', 'midpoints S Jupiter / H X, S Jupiter / J X, H X / J X (third point\'s offset)', runners, fields, ('RA', 'Dec'), mid=True)
+    field_sheet(wb, 'T10', 'midpoints S Jupiter / H X, S Jupiter / J X, H X / J X (third point\'s offset)', runners, fields, MID_PLANES, mid=True)
     for tid, title, pls in (('T12', '(S Jupiter–S X) / (natal Jupiter–natal X), intervals', PLANES),
                             ('T13', '(S Jupiter–natal X) / (natal Jupiter–natal X), intervals', PLANES),
                             ('T14', 'Equator ratios of the three Jupiters, intervals', ('Equator',)),

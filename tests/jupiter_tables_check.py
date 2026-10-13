@@ -28,7 +28,10 @@ now shown as /10 1.110793 (94.7963 > 94.7947), '+ 8 weaker' -> '+ 9 weaker'; Win
 (98.5224 > 98.5209); scores in THREADS lines at 2 dp.
 14 Oct, revised (Eddie): the main form is kept unless the scaled form scores > 0.5 higher (unrounded); all scores at 2 dp everywhere
 (scaled, also, FIELD matrices). Changed back: Dynamic Force 11.10793 main (94.80), Wincanton P07 H Rigel 7.777589 main (98.52) and
-J Haumea 77.798638 main (83.67); FIELD 16 tag '[92.3]' -> '[92.30]'."""
+J Haumea 77.798638 main (83.67); FIELD 16 tag '[92.3]' -> '[92.30]'.
+Test 10 (Eddie 14 Oct): midpoints - Equator plane (|Dec|, only when the three are not on one side), RA far (span 360 - near), tolerance
+green = max(0.05, 0.5 % of span), yellow 3x, light 9x. No earlier test checked a midpoint value; THREADS test 8 now also lists midpoint
+lines (they carry span and tolerance); its tags and counts are unchanged."""
 import os, subprocess, sys
 import openpyxl
 from openpyxl.cell.rich_text import CellRichText
@@ -216,7 +219,7 @@ check('cells list hits >= 50 only; a repeat (same family, same digits) shown onc
       df[-1] == '+ 9 weaker (see T-tables)' and not any('/10: 1.110793' in x for x in df)
       and 'J Jup→H Uranus Dec 14.141031 /10: 1.414103 → 1.414 (99.12) [T4, scaled]' in df
       and not any(x.startswith('J Jup→H Uranus Dec 14.141031 → 14.14') for x in df)
-      and all(float(x.rsplit('(', 1)[1].split(')')[0]) >= 50 for x in df[1:-1]), df[-1])
+      and all(float(x.rsplit('(', 1)[1].split(')')[0]) >= 50 for x in df[1:-1] if not x.startswith('mid ')), df[-1])
 cnt = [c.value for c in ur[head.index('runners: mutual, same chart'):]]
 check('Uranus field counts: mutual same chart 1/5, across charts 2/5 (P01, P07), both Jupiters 1/5, either 2/5', cnt == ['1/5', '2/5', '1/5', '2/5'], str(cnt))
 
@@ -239,6 +242,27 @@ check('FIELD NUMBERS lists the number with P07 as holder', len(fn) == 1 and fn[0
 ok = all(float(x.rsplit('(', 1)[1].split(')')[0]) >= 40 for P in ('P01', 'P07', 'P11') for r in wb[f'{P} NUMBERS'].iter_rows(min_row=4, values_only=True)
          for c in r[2:6] if c for x in str(c).split('\n'))
 check('every NUMBERS hit scores >= 40 (P01, P07, P11)', ok, '')
+
+print('\nTest 10: midpoints (Eddie 14 Oct) — Equator |Dec|, RA far, tolerance grows with the span')
+import jupiter_tables as JT
+check('Equator: Dec +10, +20, −15 -> |Dec| midpoint 15, offset 0 (span 10); all on one side (+10, +20, +15) -> not listed',
+      JT.mid_one(10, 20, -15, 'Equator') == (0.0, 10) and JT.mid_one(10, 20, 15, 'Equator') is None, str(JT.mid_one(10, 20, -15, 'Equator')))
+check('RA far: 350 / 30 -> near midpoint 10 (span 40), far midpoint 190 (span 320)',
+      JT.mid_one(350, 30, 10, 'RA') == (0.0, 40.0) and JT.mid_one(350, 30, 190, 'RA far') == (0.0, 320.0), '')
+check('tolerance: green = max(0.05, 0.5 % of span), yellow 3x, light 9x (span 5 -> 0.05; span 100 -> 0.5)',
+      JT.mid_tol(5) == 0.05 and JT.mid_tol(100) == 0.5 and JT.mid_eval(0.3, 100)['colour'] == 'green' and JT.mid_eval(0.3, 5)['colour'] == 'light'
+      and JT.mid_eval(1.4, 100)['colour'] == 'yellow' and JT.mid_eval(4.4, 100)['colour'] == 'light' and JT.mid_eval(4.6, 100)['colour'] == '', '')
+wb = openpyxl.load_workbook('reference/classic/race_batch_20220601_nottingham_1530_jupiter_tables.xlsx')
+r = row(sheet_of(wb, 'Dynamic Force'), 'T10', 'S Jupiter / J Uranus | H Uranus')
+EQ = 2 + 9 * 3                                              # 4th plane block: Equator
+v, t, o, f, sc = r[EQ].value, r[EQ + 2].value, r[EQ + 4].value, (r[EQ].fill.start_color.rgb if r[EQ].fill.fill_type else None), r[EQ + 5].value
+check('Dynamic Force T10 S Jupiter / J Uranus | H Uranus Equator +0.027875, span 22.1601, tol ±0.1108, green',
+      round(v, 6) == 0.027875 and t == 'midpoint · span 22.1601 · tol ±0.1108' and f == GREEN, f'{v} {t} {o} {sc} {f}')
+hd = [c.value for c in wb['P01'][next(i for i, rr in enumerate(wb['P01'].iter_rows(values_only=True), 1) if rr[0] == 'T10') + 1]]
+check('T10 header planes RA, RA far, Dec, Equator; FIELD 10 has the four planes',
+      [hd[2 + 9 * k] for k in range(4)] == ['RA', 'RA far', 'Dec', 'Equator']
+      and [x[0] for x in wb['FIELD 10'].iter_rows(values_only=True) if x[0] in ('RA', 'RA far', 'Dec', 'Equator')] == ['RA', 'RA far', 'Dec', 'Equator'],
+      str([hd[2 + 9 * k] for k in range(4)]))
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

@@ -56,6 +56,11 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   (e.g. '1 · unison · Perfect — outside ±1 %', '+4.44999%'). Nearest by tightness: the target with the smallest offset in units of its
   own tolerance (ratios and degrees alike).
 - Planes RA, Dec, Flat, GC.
+- Midpoints (jupiter_tables T10, T11, FIELD 10; Eddie, 14 Oct 2026): planes RA (near midpoint, shortest arc), RA far (the point 180°
+  opposite, span = 360 − near span), Dec (signed), Equator (|Dec| of all three: midpoint of |Dec a| and |Dec b|, offset of |Dec c|; listed
+  only when the three are not all on the same side of the equator). Tolerance grows with the span: green = max(0.05, 0.5 % of the span),
+  yellow 3×, light 9× (span under 10° keeps 0.05 / 0.15 / 0.45). Each line shows the span and the tolerance used; t = |offset| / green.
+  THREADS counts green and yellow midpoints.
 - Decimal scaling: v, 10·v and v/10 are tested against every family, labelled ×10 / ÷10, in their own column (÷10 widens a tolerance 10× in degrees).
 - RA–Dec crossing (same body pair, RA distance in one chart = Dec distance in another; natal RA = sky Dec and the reverse): ±0.02,
   linear score; the value need not be in a family (its family score shown beside it). In jupiter_tables: T16 (Jupiter–X, 6 orderings) + FIELD 16.
@@ -78,7 +83,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score; ratios on the interval
   list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
-  Tests `python3 tests/jupiter_tables_check.py` (38/38). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (43/43). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -92,10 +97,10 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 (T-tables, scaled and also columns, FIELD matrices, THREADS, NUMBERS). Automatic (Jupiter return) unisons are left out.
 - **THREADS** (one sheet, after the runner sheets): rows = bodies (sky bodies incl. Moon, Jupiter excluded, Rahu / Ketu folded as
   "Nodes"), columns = runners. Hits = every scored hit (inside tolerance) linking body X with Jupiter, from T1–T8, T10–T13 and T16
-  (midpoints T10 / T11 count when within 0.15; scaled hits marked "scaled"; stars, equator and Jupiter–Jupiter left out).
+  (midpoints T10 / T11 count when green or yellow; scaled hits marked "scaled"; stars, equator and Jupiter–Jupiter left out).
   - Cell: hits scoring >= 50, main first then scaled, best first, short form ("S Uranus→H Jup GC 142.001746 → 142 (83.30) [T7]"),
     each line coloured by its score; last line "+ n weaker (see T-tables)" = hits < 50, score-0 (at 2 dp) hits and hidden repeats not counted.
-  - Tags (top line), from the MAIN hits scoring >= 50 (a main hit hidden by its scaled repeat still counts; midpoints within 0.15
+  - Tags (top line), from the MAIN hits scoring >= 50 (a main hit hidden by its scaled repeat still counts; green / yellow midpoints
     count): "mutual, same chart" = S Jup→H X with S X→H Jup, or S Jup→J X with S X→J Jup; "mutual, across charts" = S Jup→J X with
     S X→H Jup, or S Jup→H X with S X→J Jup; "both Jupiters" = S X→H Jup and S X→J Jup; "both charts" = natal X reached in H and in J;
     "directions n" = distinct of S Jup→H X (T5), S Jup→J X (T6), S X→H Jup (T7), S X→J Jup (T8).
