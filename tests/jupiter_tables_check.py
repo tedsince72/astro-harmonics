@@ -31,7 +31,9 @@ now shown as /10 1.110793 (94.7963 > 94.7947), '+ 8 weaker' -> '+ 9 weaker'; Win
 J Haumea 77.798638 main (83.67); FIELD 16 tag '[92.3]' -> '[92.30]'.
 Test 10 (Eddie 14 Oct): midpoints - Equator plane (|Dec|, only when the three are not on one side), RA far (span 360 - near), tolerance
 green = max(0.05, 0.5 % of span), yellow 3x, light 9x. No earlier test checked a midpoint value; THREADS test 8 now also lists midpoint
-lines (they carry span and tolerance); its tags and counts are unchanged."""
+lines (they carry span and tolerance); its tags and counts are unchanged.
+Revised 14 Oct (Eddie): green = 0.1 % of span, floor 0.05, cap 0.15 (yellow 3x, light 9x); FIELD 11 added. Test 10 changed: tolerance
+cases; Dynamic Force T10 Equator tol ±0.1108 -> ±0.0500 (still green)."""
 import os, subprocess, sys
 import openpyxl
 from openpyxl.cell.rich_text import CellRichText
@@ -249,19 +251,21 @@ check('Equator: Dec +10, +20, −15 -> |Dec| midpoint 15, offset 0 (span 10); al
       JT.mid_one(10, 20, -15, 'Equator') == (0.0, 10) and JT.mid_one(10, 20, 15, 'Equator') is None, str(JT.mid_one(10, 20, -15, 'Equator')))
 check('RA far: 350 / 30 -> near midpoint 10 (span 40), far midpoint 190 (span 320)',
       JT.mid_one(350, 30, 10, 'RA') == (0.0, 40.0) and JT.mid_one(350, 30, 190, 'RA far') == (0.0, 320.0), '')
-check('tolerance: green = max(0.05, 0.5 % of span), yellow 3x, light 9x (span 5 -> 0.05; span 100 -> 0.5)',
-      JT.mid_tol(5) == 0.05 and JT.mid_tol(100) == 0.5 and JT.mid_eval(0.3, 100)['colour'] == 'green' and JT.mid_eval(0.3, 5)['colour'] == 'light'
-      and JT.mid_eval(1.4, 100)['colour'] == 'yellow' and JT.mid_eval(4.4, 100)['colour'] == 'light' and JT.mid_eval(4.6, 100)['colour'] == '', '')
+check('tolerance: green = 0.1 % of span, floor 0.05, cap 0.15; yellow 3x, light 9x (span 5 -> 0.05; 100 -> 0.1; 300 -> 0.15)',
+      JT.mid_tol(5) == 0.05 and JT.mid_tol(100) == 0.1 and JT.mid_tol(300) == 0.15 and JT.mid_eval(0.1, 100)['colour'] == 'green'
+      and JT.mid_eval(0.3, 100)['colour'] == 'yellow' and JT.mid_eval(0.9, 100)['colour'] == 'light' and JT.mid_eval(0.91, 100)['colour'] == ''
+      and JT.mid_eval(1.34, 300)['colour'] == 'light' and JT.mid_eval(1.36, 300)['colour'] == '', '')
 wb = openpyxl.load_workbook('reference/classic/race_batch_20220601_nottingham_1530_jupiter_tables.xlsx')
 r = row(sheet_of(wb, 'Dynamic Force'), 'T10', 'S Jupiter / J Uranus | H Uranus')
 EQ = 2 + 9 * 3                                              # 4th plane block: Equator
 v, t, o, f, sc = r[EQ].value, r[EQ + 2].value, r[EQ + 4].value, (r[EQ].fill.start_color.rgb if r[EQ].fill.fill_type else None), r[EQ + 5].value
-check('Dynamic Force T10 S Jupiter / J Uranus | H Uranus Equator +0.027875, span 22.1601, tol ±0.1108, green',
-      round(v, 6) == 0.027875 and t == 'midpoint · span 22.1601 · tol ±0.1108' and f == GREEN, f'{v} {t} {o} {sc} {f}')
+check('Dynamic Force T10 S Jupiter / J Uranus | H Uranus Equator +0.027875, span 22.1601, tol ±0.0500 (floor), green',
+      round(v, 6) == 0.027875 and t == 'midpoint · span 22.1601 · tol ±0.0500' and f == GREEN, f'{v} {t} {o} {sc} {f}')
 hd = [c.value for c in wb['P01'][next(i for i, rr in enumerate(wb['P01'].iter_rows(values_only=True), 1) if rr[0] == 'T10') + 1]]
-check('T10 header planes RA, RA far, Dec, Equator; FIELD 10 has the four planes',
+check('T10 header planes RA, RA far, Dec, Equator; FIELD 10 and FIELD 11 have the four planes',
       [hd[2 + 9 * k] for k in range(4)] == ['RA', 'RA far', 'Dec', 'Equator']
-      and [x[0] for x in wb['FIELD 10'].iter_rows(values_only=True) if x[0] in ('RA', 'RA far', 'Dec', 'Equator')] == ['RA', 'RA far', 'Dec', 'Equator'],
+      and all([x[0] for x in wb[f].iter_rows(values_only=True) if x[0] in ('RA', 'RA far', 'Dec', 'Equator')] == ['RA', 'RA far', 'Dec', 'Equator']
+              for f in ('FIELD 10', 'FIELD 11')),
       str([hd[2 + 9 * k] for k in range(4)]))
 
 print(f'\n{sum(RES)}/{len(RES)} passed')

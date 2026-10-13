@@ -56,10 +56,10 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   (e.g. '1 · unison · Perfect — outside ±1 %', '+4.44999%'). Nearest by tightness: the target with the smallest offset in units of its
   own tolerance (ratios and degrees alike).
 - Planes RA, Dec, Flat, GC.
-- Midpoints (jupiter_tables T10, T11, FIELD 10; Eddie, 14 Oct 2026): planes RA (near midpoint, shortest arc), RA far (the point 180°
+- Midpoints (jupiter_tables T10, T11, FIELD 10, FIELD 11; Eddie, 14 Oct 2026): planes RA (near midpoint, shortest arc), RA far (the point 180°
   opposite, span = 360 − near span), Dec (signed), Equator (|Dec| of all three: midpoint of |Dec a| and |Dec b|, offset of |Dec c|; listed
-  only when the three are not all on the same side of the equator). Tolerance grows with the span: green = max(0.05, 0.5 % of the span),
-  yellow 3×, light 9× (span under 10° keeps 0.05 / 0.15 / 0.45). Each line shows the span and the tolerance used; t = |offset| / green.
+  only when the three are not all on the same side of the equator). Tolerance grows with the span (revised 14 Oct): green = 0.1 % of the
+  span, floor 0.05, cap 0.15; yellow 3×, light 9× (span under 50° keeps 0.05 / 0.15 / 0.45; span 150° or more 0.15 / 0.45 / 1.35). Each line shows the span and the tolerance used; t = |offset| / green.
   THREADS counts green and yellow midpoints.
 - Decimal scaling: v, 10·v and v/10 are tested against every family, labelled ×10 / ÷10, in their own column (÷10 widens a tolerance 10× in degrees).
 - RA–Dec crossing (same body pair, RA distance in one chart = Dec distance in another; natal RA = sky Dec and the reverse): ±0.02,

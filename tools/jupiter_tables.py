@@ -7,7 +7,7 @@ INPUT = a race_batch_<yyyymmdd>_<course>_<hhmm>.xlsx (TRANS, P01..Pnn, META) or 
 
 Sheets: POSITIONS; SKY JUPITER; one sheet per runner (P01, P03, ...: tables 1-16) + P## RATIOS; THREADS (13 Oct: hits linking each body
 with Jupiter, per runner, tags and field counts - see threads_sheet); P## NUMBERS + FIELD NUMBERS (13 Oct: target numbers, x10 / /10
-folded, SKY / HORSE / JOCKEY / SKY->NATAL - see numbers_sheet); FIELD 5-8, 10, 12-16.
+folded, SKY / HORSE / JOCKEY / SKY->NATAL - see numbers_sheet); FIELD 5-8, 10, 11, 12-16.
 Each value (13 Oct 2026, Eddie's correction): every family of tools/families.py (Eddie's definitions, his scores from
 rebuild_kit/active_vibrations.py) is scored; nearest target = the family with the highest score; the other families with a score > 0
 are listed beside it ('also'); 'scaled' = best family of 10 v or v / 10 (/10 widens a tolerance 10x in degrees). Ratio values (T12-T15)
@@ -23,7 +23,7 @@ Automatic unisons are left out of every field count. A unison with 0.0015 <= d1/
 count unchanged). RATIOS sheets show only groups with hits. T16 (13 Oct 2026, Eddie): RA-Dec crossing, Jupiter-X RA distance in one chart =
 its Dec distance in another (6 orderings), +-0.02, linear score, family of the value beside it; FIELD 16.
 Midpoints (T10, T11; planes RA near, RA far, Dec, Equator = |Dec| when the three are not on one side): tolerance grows with the span,
-green = max(0.05, 0.5 % of the span), yellow 3x, light 9x (Eddie, 14 Oct 2026). Sky-leg values also at off + 5 min
+green = 0.1 % of the span, floor 0.05, cap 0.15; yellow 3x, light 9x (Eddie, 14 Oct 2026, revised). FIELD 10 and FIELD 11. Sky-leg values also at off + 5 min
 (engine, as JR v3 section F) with an arrow: toward / away from the nearest target; n/a where the engine does not reproduce a point.
 Points and engine from tools/jup2 (imported, not changed). Frozen readers are not changed."""
 import argparse, glob, os, re, sys, itertools, math
@@ -132,8 +132,9 @@ def nearest(v, kind, plane=None):
 
 
 def mid_tol(span):
-    """midpoint tolerance grows with the span (Eddie, 14 Oct 2026): green = max(0.05, 0.5 % of the span), yellow 3x, light 9x"""
-    return max(MID[0], 0.005 * span)
+    """midpoint tolerance grows with the span (Eddie, 14 Oct 2026, revised): green = 0.1 % of the span, floor 0.05, cap 0.15;
+    yellow 3x, light 9x"""
+    return min(MID_CAP, max(MID[0], 0.001 * span))
 
 
 def mid_eval(v, span):
@@ -289,6 +290,7 @@ def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None, nums=None)
 
 
 MID_PLANES = ('RA', 'RA far', 'Dec', 'Equator')
+MID_CAP = 0.15
 
 
 def mid_one(a, b, c, plane):
@@ -329,7 +331,7 @@ def mid_rows(ctx, R, triples, plane):
 
 def write_mids(ws, row, tid, title, ctx, R, triples, thr=None):
     row = header(ws, row, tid, title + '  [value = third point\'s signed offset from the midpoint; target column = span and the tolerance '
-                 'used (green = max(0.05, 0.5 % of the span), yellow 3x, light 9x); score column = t = |offset| / green tol]', MID_PLANES)
+                 'used (green = 0.1 % of the span, floor 0.05, cap 0.15; yellow 3x, light 9x); score column = t = |offset| / green tol]', MID_PLANES)
     data = {pl: mid_rows(ctx, R, triples, pl) for pl in MID_PLANES}
     for label, *_ in triples:
         ws.cell(row=row, column=1, value=tid)
@@ -349,7 +351,7 @@ def write_mids(ws, row, tid, title, ctx, R, triples, thr=None):
 def runner_sheet(wb, P, R, ctx):
     ws = wb.create_sheet(P)
     ws.cell(row=1, column=1, value=f"{P} {R['name']}").font = BOLD
-    ws.cell(row=2, column=1, value='score (Eddie\'s families): green >= 80, yellow 50-80, light yellow < 50; midpoints: green <= max(0.05, 0.5 % of the span), '
+    ws.cell(row=2, column=1, value='score (Eddie\'s families): green >= 80, yellow 50-80, light yellow < 50; midpoints: green <= 0.1 % of the span (0.05-0.15), '
             'yellow 3x, light 9x; off->+5 = toward / away from the nearest target; scaled = best of 10 v and v / 10 (/10 widens a tolerance 10x in degrees)')
     row = 4
     H, J = R['H'], R['J']
@@ -387,7 +389,7 @@ def runner_sheet(wb, P, R, ctx):
     for C in 'HJ':
         tri += [(f'S Jupiter / {C} Jupiter | {D} {x}', 'S Jupiter', f'{C} Jupiter', f'{D} {x}')
                 for D in 'HJ' for x in NATAL_BODIES if x in R[D] and not (D == C and x == 'Jupiter')]
-    row, _ = write_mids(ws, row, 'T11', 'midpoints: H Jupiter / J Jupiter with every sky body; S Jupiter / natal Jupiter with every natal body', ctx, R, tri, thr)
+    row, field['T11'] = write_mids(ws, row, 'T11', 'midpoints: H Jupiter / J Jupiter with every sky body; S Jupiter / natal Jupiter with every natal body', ctx, R, tri, thr)
     # T12-T15 ratios (interval list); every scored ratio also goes to the RATIOS BY GROUP sheet and the FIELD 12-15 matrices
     rats = []
     for t in ('T12', 'T13', 'T14', 'T15'):
@@ -960,6 +962,8 @@ def main():
                        ('T8', 'sky bodies → J Jupiter')):
         field_sheet(wb, tid, title, runners, fields, PLANES)
     field_sheet(wb, 'T10', 'midpoints S Jupiter / H X, S Jupiter / J X, H X / J X (third point\'s offset)', runners, fields, MID_PLANES, mid=True)
+    field_sheet(wb, 'T11', 'midpoints H Jupiter / J Jupiter | sky body; S Jupiter / natal Jupiter | natal body (third point\'s offset)', runners,
+                fields, MID_PLANES, mid=True)
     for tid, title, pls in (('T12', '(S Jupiter–S X) / (natal Jupiter–natal X), intervals', PLANES),
                             ('T13', '(S Jupiter–natal X) / (natal Jupiter–natal X), intervals', PLANES),
                             ('T14', 'Equator ratios of the three Jupiters, intervals', ('Equator',)),
