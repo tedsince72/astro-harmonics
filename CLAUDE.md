@@ -80,8 +80,11 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   nodes folded), columns = runners, every hit linking X with Jupiter from T1–T8, T10–T13, T16 (midpoints within 0.15, scaled hits marked);
   cells list hits >= 50 then '+ n weaker' (score-0 not counted; a scaled repeat of a main hit - same family, same digits - dropped);
   tags from main hits >= 50 (midpoints within 0.15 count): mutual same chart (S Jup→H X + S X→H Jup, or J), mutual across
-  charts (S Jup→J X + S X→H Jup, or H/J), both Jupiters, both charts, directions n; field counts per tag). Venv python (swisseph, pandas).
-  Tests `python3 tests/jupiter_tables_check.py` (33/33). In the card pipeline: `run_card_swiss.py --tables`
+  charts (S Jup→J X + S X→H Jup, or H/J), both Jupiters, both charts, directions n; field counts per tag; P## NUMBERS: rows = target
+  numbers (×10 / ÷10 forms folded, degree-distance families, no conjunction), columns SKY (S Jupiter → sky points), HORSE (T1+T3),
+  JOCKEY (T2+T4), SKY→NATAL (T5–T8), hits >= 40 main or scaled, tag sky + horse + jockey / two of three; FIELD NUMBERS = numbers held
+  sky + horse + jockey and by which runners). Venv python (swisseph, pandas).
+  Tests `python3 tests/jupiter_tables_check.py` (37/37). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).

@@ -6,7 +6,8 @@ INPUT = a race_batch_<yyyymmdd>_<course>_<hhmm>.xlsx (TRANS, P01..Pnn, META) or 
 (for a folder: in reference/classic/), unless --out.
 
 Sheets: POSITIONS; SKY JUPITER; one sheet per runner (P01, P03, ...: tables 1-16) + P## RATIOS; THREADS (13 Oct: hits linking each body
-with Jupiter, per runner, tags and field counts - see threads_sheet); FIELD 5-8, 10, 12-16.
+with Jupiter, per runner, tags and field counts - see threads_sheet); P## NUMBERS + FIELD NUMBERS (13 Oct: target numbers, x10 / /10
+folded, SKY / HORSE / JOCKEY / SKY->NATAL - see numbers_sheet); FIELD 5-8, 10, 12-16.
 Each value (13 Oct 2026, Eddie's correction): every family of tools/families.py (Eddie's definitions, his scores from
 rebuild_kit/active_vibrations.py) is scored; nearest target = the family with the highest score; the other families with a score > 0
 are listed beside it ('also'); 'scaled' = best family of 10 v or v / 10 (/10 widens a tolerance 10x in degrees). Ratio values (T12-T15)
@@ -254,7 +255,7 @@ def plane_index(pl, planes):
     return 3 + COLS * planes.index(pl)
 
 
-def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None):
+def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None, nums=None):
     """rows: [(label, a, b)] -> distances in RA/Dec/Flat/GC (equator: Dec only)."""
     row = header(ws, row, tid, title, PLANES)
     out = {}
@@ -270,6 +271,8 @@ def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None):
             out[(label, pl)] = (v0, ev)
             if thr is not None:
                 thread_add(thr, tid, f'{short(a)}→{short(b)}', (a, b), pl, v0, ev, sc)
+            if nums is not None and KIND[kind] == 'deg':
+                number_add(nums, NUM_COL[tid], f'{short(a)}→{short(b)}', 'Dec' if kind == 'equator' else pl, v0)
         row += 1
     return row + 1, out
 
@@ -326,22 +329,23 @@ def runner_sheet(wb, P, R, ctx):
     row = 4
     H, J = R['H'], R['J']
     thr = []                                               # THREADS: every scored hit linking a body with Jupiter
+    nums = []                                              # NUMBERS: degree-distance hits >= 40 per target number
     dist = lambda a, b: 'equator' if b.endswith(' equator') else 'dist'
     move_or = lambda a, b: 'move' if a == 'S Jupiter' and b.endswith(' Jupiter') else dist(a, b)
     field = {}
     for tid, C in (('T1', 'H'), ('T2', 'J')):
         rows = [(f'{C} Jupiter → {C} {x}', f'{C} Jupiter', f'{C} {x}') for x in R[C] if x != 'Jupiter']
-        row, _ = write_pairs(ws, row, tid, f'{C} Jupiter → {C} bodies, stars, equator (natal)', ctx, R, rows, dist, thr)
+        row, _ = write_pairs(ws, row, tid, f'{C} Jupiter → {C} bodies, stars, equator (natal)', ctx, R, rows, dist, thr, nums)
     row, _ = write_pairs(ws, row, 'T3', 'H Jupiter → J bodies (natal, cross)', ctx, R,
-                         [(f'H Jupiter → J {x}', 'H Jupiter', f'J {x}') for x in NATAL_BODIES if x in J], dist, thr)
+                         [(f'H Jupiter → J {x}', 'H Jupiter', f'J {x}') for x in NATAL_BODIES if x in J], dist, thr, nums)
     row, _ = write_pairs(ws, row, 'T4', 'J Jupiter → H bodies (natal, cross)', ctx, R,
-                         [(f'J Jupiter → H {x}', 'J Jupiter', f'H {x}') for x in NATAL_BODIES if x in H], dist, thr)
+                         [(f'J Jupiter → H {x}', 'J Jupiter', f'H {x}') for x in NATAL_BODIES if x in H], dist, thr, nums)
     for tid, C in (('T5', 'H'), ('T6', 'J')):
         rows = [(f'S Jupiter → {C} {x}', 'S Jupiter', f'{C} {x}') for x in NATAL_BODIES if x in R[C] and x != 'Jupiter']
-        row, field[tid] = write_pairs(ws, row, tid, f'S Jupiter → {C} bodies, at the off and +5 min', ctx, R, rows, dist, thr)
+        row, field[tid] = write_pairs(ws, row, tid, f'S Jupiter → {C} bodies, at the off and +5 min', ctx, R, rows, dist, thr, nums)
     for tid, C in (('T7', 'H'), ('T8', 'J')):
         rows = [(f'S {z} → {C} Jupiter', f'S {z}', f'{C} Jupiter') for z in SKY_BODIES if z in ctx.S0 and z != 'Jupiter']
-        row, field[tid] = write_pairs(ws, row, tid, f'every sky body (Moon incl.) → {C} Jupiter, at the off and +5 min', ctx, R, rows, dist, thr)
+        row, field[tid] = write_pairs(ws, row, tid, f'every sky body (Moon incl.) → {C} Jupiter, at the off and +5 min', ctx, R, rows, dist, thr, nums)
     row, _ = write_pairs(ws, row, 'T9', 'Jupiter to Jupiter (S–H, S–J movement tolerance; H–J distance) and Equator values', ctx, R,
                          [('S Jupiter – H Jupiter', 'S Jupiter', 'H Jupiter'), ('S Jupiter – J Jupiter', 'S Jupiter', 'J Jupiter'),
                           ('H Jupiter – J Jupiter', 'H Jupiter', 'J Jupiter'), ('S Jupiter Equator', 'S Jupiter', 'S equator'),
@@ -449,6 +453,7 @@ def runner_sheet(wb, P, R, ctx):
         a, b = cn[0], cn.split('= ')[1][0]
         thread_add(thr, 'T16', f'Jup–{x} {cn}', (f'{a} {x}', f'{b} {x}'), '', d, ev, None)
     field['_thr'] = thr
+    field['_nums'] = nums
     ws.column_dimensions['B'].width = 46
     ws.freeze_panes = 'C4'
     field['_rats'] = rats
@@ -667,6 +672,130 @@ def threads_sheet(wb, runners, fields):
     ws.freeze_panes = 'B4'
 
 
+# ---------------- NUMBERS (Eddie, 13 Oct 2026)
+NUM_COL = {'SKY': 'SKY', 'T1': 'HORSE', 'T3': 'HORSE', 'T2': 'JOCKEY', 'T4': 'JOCKEY', 'T5': 'SKY→NATAL', 'T6': 'SKY→NATAL',
+           'T7': 'SKY→NATAL', 'T8': 'SKY→NATAL'}
+NUM_COLS = ('SKY', 'HORSE', 'JOCKEY', 'SKY→NATAL')
+NUM_MIN = 40.0
+NUM_FAMILIES = ('whole', 'golden', 'phi power', 'ninth', 'sqrt2', 'silver')     # degree-distance families (no conjunction, no ratios)
+
+
+def num_colour(sc):
+    return 'green' if sc >= 80 else 'yellow' if sc >= 50 else 'light'
+
+
+def num_key(fam, tv):
+    """x10 / /10 forms folded: family + the digits of the target (mantissa in [1, 10))"""
+    m = tv / 10 ** math.floor(math.log10(tv))
+    return fam, round(m, 5)
+
+
+def number_add(nums, col, lab, pl, v):
+    """every degree-distance family scoring >= 40 on v (main) and on 10 v, v / 10 (scaled); a scaled hit on the same number
+    (same family, same digits) as a main hit of v is the same hit and is dropped"""
+    if not v or v <= 0:
+        return
+    main = set()
+    for f, scl in ((1.0, ''), (10.0, 'x10'), (0.1, '/10')):
+        for d in families.evaluate(v * f, pl, 'deg'):
+            if d['family'] not in NUM_FAMILIES or d['score'] < NUM_MIN or not d['tv']:
+                continue
+            k = num_key(d['family'], d['tv'])
+            if scl and k in main:
+                continue
+            if not scl:
+                main.add(k)
+            txt = (f"{lab} {pl} {round(v, 6)} → {d['target']} {d['off']:+.5f} ({d['score']:.2f})" if not scl else
+                   f"{lab} {pl} {round(v, 6)} {scl}: {round(v * f, 6)} → {d['target']} {d['off']:+.5f} ({d['score']:.2f}) [scaled]")
+            nums.append({'key': k, 'col': col, 'form': d['target'], 'tv': d['tv'], 'score': d['score'], 'colour': num_colour(d['score']),
+                         'text': txt, 'scaled': bool(scl)})
+
+
+def num_rows(nums):
+    """key -> {col: hits best first}, forms, tag"""
+    rows = {}
+    for h in nums:
+        r = rows.setdefault(h['key'], {'cols': {}, 'forms': []})
+        r['cols'].setdefault(h['col'], []).append(h)
+        if h['form'] not in [f for f, _ in r['forms']]:
+            r['forms'].append((h['form'], h['tv']))
+    for r in rows.values():
+        for c in r['cols']:
+            r['cols'][c].sort(key=lambda h: -h['score'])
+        k = sum(c in r['cols'] for c in ('SKY', 'HORSE', 'JOCKEY'))
+        r['tag'] = 'sky + horse + jockey' if k == 3 else 'two of three' if k == 2 else ''
+    return rows
+
+
+def num_label(key, r):
+    return f"{key[0]}: {' / '.join(f for f, _ in sorted(r['forms'], key=lambda x: x[1]))}"
+
+
+def rich(hits):
+    rt = CellRichText()
+    for i, h in enumerate(hits):
+        rt.append(TextBlock(InlineFont(color=FONT[h['colour']]), ('\n' if i else '') + h['text']))
+    return rt
+
+
+def numbers_sheet(wb, P, R, nums):
+    """P## NUMBERS: rows = target numbers (x10 / /10 folded, degree-distance families), columns SKY (S Jupiter -> sky points),
+    HORSE (T1, T3), JOCKEY (T2, T4), SKY->NATAL (T5-T8); hits >= 40, main or scaled, best first; tag from SKY / HORSE / JOCKEY"""
+    ws = wb.create_sheet(f'{P} NUMBERS', wb.sheetnames.index(f'{P} RATIOS') + 1)
+    ws.cell(row=1, column=1, value=f"{P} {R['name']} — NUMBERS: degree-distance hits scoring >= 40 per target number (x10 / /10 forms folded; "
+            'main or scaled). SKY = S Jupiter -> sky bodies, stars, equator; HORSE = T1 + T3; JOCKEY = T2 + T4; SKY->NATAL = T5-T8. '
+            'Tag: sky + horse + jockey, or two of three (SKY->NATAL not in the tag). Colour: green >= 80, yellow 50-80, light 40-50.').font = BOLD
+    for k, h in enumerate(('number', 'tag') + NUM_COLS):
+        c = ws.cell(row=3, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
+    rows = num_rows(nums)
+    rank = {'sky + horse + jockey': 0, 'two of three': 1, '': 2}
+    r = 4
+    for key in sorted(rows, key=lambda k: (rank[rows[k]['tag']], k)):
+        row = rows[key]
+        ws.cell(row=r, column=1, value=num_label(key, row)).alignment = Alignment(vertical='top', wrap_text=True)
+        ws.cell(row=r, column=2, value=row['tag']).font = BOLD
+        for k, col in enumerate(NUM_COLS):
+            hits = row['cols'].get(col)
+            if hits:
+                c = ws.cell(row=r, column=3 + k, value=rich(hits))
+                c.alignment = Alignment(wrap_text=True, vertical='top')
+                c.fill = FILL[hits[0]['colour']]
+        r += 1
+    ws.column_dimensions['A'].width = 30; ws.column_dimensions['B'].width = 20
+    for k in range(len(NUM_COLS)):
+        ws.column_dimensions[openpyxl.utils.get_column_letter(3 + k)].width = 62
+    ws.freeze_panes = 'C4'
+
+
+def field_numbers_sheet(wb, runners, allnums):
+    """FIELD NUMBERS: each number held with sky + horse + jockey by any runner; which runners hold it (their best horse / jockey hit)"""
+    ws = wb.create_sheet('FIELD NUMBERS', wb.sheetnames.index('THREADS') + 1)
+    ws.cell(row=1, column=1, value='FIELD NUMBERS: numbers held sky + horse + jockey (hits >= 40, x10 / /10 folded); per runner its best HORSE and '
+            'JOCKEY hit on that number; SKY is the same for every runner').font = BOLD
+    order = sorted(runners)
+    rows = {P: num_rows(allnums[P]) for P in order}
+    keys = sorted({k for P in order for k, r in rows[P].items() if r['tag'] == 'sky + horse + jockey'})
+    heads = ('number', 'SKY (best)') + tuple(f"{P} {runners[P]['name']}" for P in order) + ('runners',)
+    for k, h in enumerate(heads):
+        c = ws.cell(row=3, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
+    for i, key in enumerate(keys, start=4):
+        holders = [P for P in order if key in rows[P] and rows[P][key]['tag'] == 'sky + horse + jockey']
+        r0 = rows[holders[0]][key]
+        ws.cell(row=i, column=1, value=num_label(key, r0))
+        sky = r0['cols']['SKY'][0]
+        c = ws.cell(row=i, column=2, value=rich([sky])); c.fill = FILL[sky['colour']]
+        for k, P in enumerate(order):
+            if P in holders:
+                hj = [rows[P][key]['cols']['HORSE'][0], rows[P][key]['cols']['JOCKEY'][0]]
+                c = ws.cell(row=i, column=3 + k, value=rich(hj))
+                c.alignment = Alignment(wrap_text=True, vertical='top')
+        ws.cell(row=i, column=3 + len(order), value=f'{len(holders)}/{len(order)}')
+    ws.column_dimensions['A'].width = 30; ws.column_dimensions['B'].width = 55
+    for k in range(len(order)):
+        ws.column_dimensions[openpyxl.utils.get_column_letter(3 + k)].width = 55
+    ws.freeze_panes = 'C4'
+
+
 def ratio_sheet(wb, P, R, rats, uni, n):
     """RATIOS BY GROUP: every T12-T15 ratio on an interval, grouped (Eddie's group order), tightest (highest score) first;
     unison rows carry the field count (runners with unison on the same ratio)"""
@@ -773,7 +902,9 @@ def main():
     ws.cell(row=1, column=1, value=f'{race} — S Jupiter to every sky body, star and the equator (at the off and +5 min)').font = BOLD
     R0 = {'H': {}, 'J': {}}
     rows = [(f'S Jupiter → S {x}', 'S Jupiter', f'S {x}') for x in sky if x != 'Jupiter']
-    write_pairs(ws, 3, 'SKY', 'S Jupiter → sky points', ctx, R0, rows, lambda a, b: 'equator' if b.endswith(' equator') else 'dist')
+    sky_nums = []
+    write_pairs(ws, 3, 'SKY', 'S Jupiter → sky points', ctx, R0, rows, lambda a, b: 'equator' if b.endswith(' equator') else 'dist',
+                nums=sky_nums)
     ws.column_dimensions['B'].width = 30
     fields = {}
     for P in sorted(runners):
@@ -791,6 +922,7 @@ def main():
             ws.cell(row=r, column=c, value='unison: automatic (Jupiter return), not counted' if auto
                     else f'unison: field {uni[k]}/{n}' + (' return-assisted' if assisted else ''))
         ratio_sheet(wb, P, runners[P], fields[P]['_rats'], uni, n)
+        numbers_sheet(wb, P, runners[P], sky_nums + fields[P]['_nums'])
     for tid, title in (('T5', 'S Jupiter → H bodies'), ('T6', 'S Jupiter → J bodies'), ('T7', 'sky bodies → H Jupiter'),
                        ('T8', 'sky bodies → J Jupiter')):
         field_sheet(wb, tid, title, runners, fields, PLANES)
@@ -802,6 +934,7 @@ def main():
         field_sheet(wb, tid, title, runners, fields, pls, uni=uni)
     field_sheet(wb, 'T16', 'RA–Dec crossing (value = RA − Dec, inside ±0.02)', runners, fields, [cross_name(a, b) for a, b in CROSS])
     threads_sheet(wb, runners, fields)
+    field_numbers_sheet(wb, runners, {P: sky_nums + fields[P]['_nums'] for P in runners})
     wb.save(out)
     print(f'{race}: {len(runners)} runners -> {out} ({os.path.getsize(out) / 1e6:.2f} MB); {repro}'
           + (f"; skipped (no Jupiter in a chart): {', '.join(skipped)}" if skipped else ''))

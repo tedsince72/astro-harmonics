@@ -18,7 +18,8 @@ nearest target outside the tolerance by tightness (offset / own tolerance) for r
 on 0.333 % (85.52). Tests 1-6 unchanged.
 Test 8 (Eddie 13 Oct): THREADS sheet, Nottingham 15:30 2022 Uranus row; expected values set from the rule (hits >= 50 for tags, counts
 and cell lines; mutual same chart / across charts), not tuned to the winner. Same day: scaled repeats of a main hit (same family, same
-digits) dropped and score-0 hits left out of '+ n weaker': Dynamic Force Uranus '+ 11 weaker' -> '+ 9 weaker', 5 scaled lines -> 1."""
+digits) dropped and score-0 hits left out of '+ n weaker': Dynamic Force Uranus '+ 11 weaker' -> '+ 9 weaker', 5 scaled lines -> 1.
+Test 9 (Eddie 13 Oct): NUMBERS sheet per runner + FIELD NUMBERS, Wincanton 14:20 2022 P07 7.777 (ninth) row."""
 import os, subprocess, sys
 import openpyxl
 from openpyxl.cell.rich_text import CellRichText
@@ -205,6 +206,22 @@ check('cells list hits >= 50 only, no scaled repeat of a main hit (same family, 
       and all(float(x.rsplit('(', 1)[1].split(')')[0]) >= 50 for x in df[1:-1]), df[-1])
 cnt = [c.value for c in ur[head.index('runners: mutual, same chart'):]]
 check('Uranus field counts: mutual same chart 1/5, across charts 2/5 (P01, P07), both Jupiters 1/5, either 2/5', cnt == ['1/5', '2/5', '1/5', '2/5'], str(cnt))
+
+print('\nTest 9: Wincanton 14:20 2022 — NUMBERS, the 7.777 (ninth) row, P07 River Bray / Alan Johns')
+wb = openpyxl.load_workbook(build('reference/classic/race_batch_20220321_wincanton_1420.xlsx'), rich_text=True)
+nr = [r for r in wb['P07 NUMBERS'].iter_rows(min_row=4, values_only=True) if r[0] == 'ninth: 7.77778 / 77.7778']
+check('P07 NUMBERS row "ninth: 7.77778 / 77.7778" tagged sky + horse + jockey', len(nr) == 1 and nr[0][1] == 'sky + horse + jockey', str(nr))
+sky, horse, jock = (str(nr[0][k]).split('\n') for k in (2, 3, 4))
+check('SKY S Jupiter → S Ceres 77.75345 (80.96), HORSE H Jupiter → H Rigel 7.777589 (98.52), JOCKEY J Jupiter → J Haumea 77.798638 (83.67)',
+      'S Jup→S Ceres RA 77.75345 → 77.7778 -0.02433 (80.96)' in sky and 'H Jup→H Rigel RA 7.777589 → 7.77778 -0.00019 (98.52)' in horse
+      and 'J Jup→J Haumea GC 77.798638 → 77.7778 +0.02086 (83.67)' in jock, f'{sky} {horse} {jock}')
+fn = [r for r in wb['FIELD NUMBERS'].iter_rows(min_row=4, values_only=True) if r[0] == 'ninth: 7.77778 / 77.7778']
+head = [c.value for c in wb['FIELD NUMBERS'][3]]
+check('FIELD NUMBERS lists the number with P07 as holder', len(fn) == 1 and fn[0][[i for i, h in enumerate(head) if str(h).startswith('P07')][0]]
+      is not None and fn[0][-1] == '1/6', str(fn))
+ok = all(float(x.rsplit('(', 1)[1].split(')')[0]) >= 40 for P in ('P01', 'P07', 'P11') for r in wb[f'{P} NUMBERS'].iter_rows(min_row=4, values_only=True)
+         for c in r[2:6] if c for x in str(c).split('\n'))
+check('every NUMBERS hit scores >= 40 (P01, P07, P11)', ok, '')
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
