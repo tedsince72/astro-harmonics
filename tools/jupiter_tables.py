@@ -555,6 +555,14 @@ def short(t):
     return t.replace('Jupiter', 'Jup')
 
 
+def same_digits(ev, sc):
+    """the scaled hit repeats the main hit: same family and the same digits (target x10 or /10, e.g. ninth 11.1111 / 1.11111)"""
+    if not ev or not sc or ev.get('score') is None or ev['family'] != sc['family'] or not ev.get('tv') or not sc.get('tv'):
+        return False
+    f = 10.0 if sc['scale'] == 'x10' else 0.1
+    return abs(sc['tv'] / (ev['tv'] * f) - 1) < 1e-6
+
+
 def thread_add(thr, tid, lab, pts, pl, v, ev, sc):
     """one THREADS entry per scored hit (main value, and the scaled x10 / /10 value when it scores) on a body X linked with Jupiter.
     pts = the points of the measure ('S Jupiter', 'H Uranus', ...); X = the non-Jupiter body (Rahu / Ketu folded into 'Nodes')."""
@@ -576,7 +584,7 @@ def thread_add(thr, tid, lab, pts, pl, v, ev, sc):
         sct = f" ({ev['score']:.1f})" if ev.get('score') is not None else ''
         thr.append({'X': X, 'charts': xch, 'dirs': dirs, 'main': True, 'score': ev.get('score'), 'colour': ev['colour'],
                     'text': f"{lab} {pl + ' ' if pl else ''}{num(v)} → {tgt}{sct} [{tid}]"})
-    if sc:
+    if sc and not same_digits(ev, sc):                     # Eddie 13 Oct: a scaled repeat of the main hit's number is dropped
         thr.append({'X': X, 'charts': xch, 'dirs': set(), 'main': False, 'score': sc['score'], 'colour': sc['colour'],
                     'text': f"{lab} {pl + ' ' if pl else ''}{round(v, 6)} {sc['scale']}: {round(sc['scaled_value'], 6)} → {sc['target']} "
                             f"({sc['score']:.1f}) [{tid}, scaled]"})
@@ -616,7 +624,8 @@ COUNTED = ('mutual, same chart', 'mutual, across charts', 'both Jupiters')
 def threads_sheet(wb, runners, fields):
     ws = wb.create_sheet('THREADS', wb.sheetnames.index('FIELD 5'))
     ws.cell(row=1, column=1, value='THREADS: hits inside tolerance linking body X with Jupiter, from T1-T8, T10-T13, T16; a cell lists those '
-            'scoring >= 50 (midpoints: within 0.15), main first then scaled x10 / /10, best first, then "+ n weaker"; automatic unisons left out. '
+            'scoring >= 50 (midpoints: within 0.15), main first then scaled x10 / /10 (a scaled repeat of the main hit\'s number - same family, same '
+            'digits - dropped), best first, then "+ n weaker" (score-0 hits not counted); automatic unisons left out. '
             'Top line: tags from the main hits >= 50 - mutual, same chart (S Jup->H X and S X->H Jup, or the J pair); mutual, across charts '
             '(S Jup->J X and S X->H Jup, or S Jup->H X and S X->J Jup); both Jupiters (S X->H Jup and S X->J Jup); both charts (natal X in H '
             'and in J); directions = distinct of S Jup->H X, S Jup->J X, S X->H Jup, S X->J Jup. Line colour = score.').font = BOLD
@@ -644,8 +653,9 @@ def threads_sheet(wb, runners, fields):
             rt = CellRichText(TextBlock(InlineFont(b=True), ' · '.join(tags)))
             for h in shown:
                 rt.append(TextBlock(InlineFont(color=FONT.get(h['colour'], '000000')), '\n' + h['text']))
-            if len(hits) > len(shown):
-                rt.append(TextBlock(InlineFont(i=True), f'\n+ {len(hits) - len(shown)} weaker (see T-tables)'))
+            weak = sum(1 for h in hits if not strong(h) and round(h['score'], 1) > 0)   # score-0 hits not counted (Eddie 13 Oct)
+            if weak:
+                rt.append(TextBlock(InlineFont(i=True), f'\n+ {weak} weaker (see T-tables)'))
             c = ws.cell(row=r, column=2 + i, value=rt)
             c.alignment = Alignment(wrap_text=True, vertical='top')
             best = next((h for h in shown if h['main']), shown[0] if shown else None)

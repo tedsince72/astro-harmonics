@@ -17,7 +17,8 @@ nearest target outside the tolerance by tightness (offset / own tolerance) for r
 -2.07813 % -> unison +4.44999 % (outside ±1 %); Haumea 1.506122 3/2 score 3.37 -> outside ±0.333 %; the 3/2 hit is now Makemake 1.499624
 on 0.333 % (85.52). Tests 1-6 unchanged.
 Test 8 (Eddie 13 Oct): THREADS sheet, Nottingham 15:30 2022 Uranus row; expected values set from the rule (hits >= 50 for tags, counts
-and cell lines; mutual same chart / across charts), not tuned to the winner."""
+and cell lines; mutual same chart / across charts), not tuned to the winner. Same day: scaled repeats of a main hit (same family, same
+digits) dropped and score-0 hits left out of '+ n weaker': Dynamic Force Uranus '+ 11 weaker' -> '+ 9 weaker', 5 scaled lines -> 1."""
 import os, subprocess, sys
 import openpyxl
 from openpyxl.cell.rich_text import CellRichText
@@ -199,7 +200,8 @@ need = ['S Jup→H Uranus Dec 11.10793 → 11.1111 (94.8) [T5]', 'S Uranus→H J
 check('Dynamic Force Uranus cell lists the three hits', all(x in df for x in need), str(df[:8]))
 check('Dynamic Force Uranus tags: mutual, same chart · mutual, across charts · both Jupiters · both charts · directions 4',
       df[0] == 'mutual, same chart · mutual, across charts · both Jupiters · both charts · directions 4', df[0])
-check('cells list hits >= 50 only and end "+ 11 weaker (see T-tables)"', df[-1] == '+ 11 weaker (see T-tables)'
+check('cells list hits >= 50 only, no scaled repeat of a main hit (same family, same digits), end "+ 9 weaker" (score-0 not counted)',
+      df[-1] == '+ 9 weaker (see T-tables)' and not any('/10: 1.110793' in x or '/10: 1.414103' in x for x in df)
       and all(float(x.rsplit('(', 1)[1].split(')')[0]) >= 50 for x in df[1:-1]), df[-1])
 cnt = [c.value for c in ur[head.index('runners: mutual, same chart'):]]
 check('Uranus field counts: mutual same chart 1/5, across charts 2/5 (P01, P07), both Jupiters 1/5, either 2/5', cnt == ['1/5', '2/5', '1/5', '2/5'], str(cnt))
