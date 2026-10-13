@@ -1,4 +1,64 @@
-== yarmouth_1354_20261012: winner cloth 2 = P03 Born This Way / Tom Marquand; 7 runners
+== yarmouth_1354_20261012: winner cloth 2 = P03 Born This Way / Tom Marquand; 7 runners  [opened before kinds were fixed]
+   runners: P01 cloth 1 Amandari; P03 cloth 2 Born This Way; P05 cloth 3 Fort McHenry; P07 cloth 4 Olympiacos; P09 cloth 5 Pigou; P11 cloth 6 Solo Quest; P13 cloth 7 Stellar Max   (* = winner)
+
+KINDS — JR v3 (strict / exact-in-race / exact-pre-off only)
+  kind                  01  03* 05  07  09  11  13   field
+  C1                     Y   Y   Y   Y   Y   Y   Y   7/7  winner Y
+  C1b                    Y   -   -   Y   Y   -   -   3/7  RARE
+  C2                     Y   Y   Y   Y   Y   Y   Y   7/7  winner Y
+  C2b                    Y   Y   Y   Y   Y   Y   Y   7/7  winner Y
+  C3                     Y   -   -   Y   -   Y   Y   4/7
+  C4                     Y   -   -   -   -   -   -   1/7  RARE
+  C5                     -   -   -   -   -   -   -   0/7
+  D1                     Y   -   -   -   Y   Y   Y   4/7
+  D2                     Y   Y   Y   Y   -   Y   -   5/7  winner Y
+  D3                     -   -   -   -   -   -   -   0/7
+  E1                     -   Y   Y   -   -   -   -   2/7  RARE  winner Y
+  E2                     Y   -   -   -   -   -   -   1/7  RARE
+  E3                     -   -   -   -   -   -   -   0/7
+  chain                  Y   -   Y   Y   Y   Y   -   5/7
+  chain, numbered root   Y   -   Y   Y   Y   Y   -   5/7
+  any exact-in-race      Y   -   -   -   -   Y   -   2/7  RARE
+  any exact-pre-off      Y   -   Y   Y   Y   Y   Y   6/7
+
+KINDS — JR v1 item numbers (any item of that number)
+  kind                  01  03* 05  07  09  11  13   field
+  1                      -   Y   Y   Y   Y   Y   Y   6/7  winner Y
+  2                      -   Y   Y   Y   Y   Y   -   5/7  winner Y
+  3                      -   -   -   -   Y   -   -   1/7  RARE
+  4                      -   -   -   -   -   -   -   0/7
+  5                      -   -   -   -   -   -   -   0/7
+  6                      Y   -   -   Y   -   Y   -   3/7  RARE
+  7                      -   -   -   -   -   -   -   0/7
+  8                      -   -   -   -   -   -   -   0/7
+  9                      -   Y   -   Y   -   Y   -   3/7  RARE  winner Y
+  10                     -   -   -   Y   -   -   -   1/7  RARE
+  11                     Y   -   -   -   -   -   -   1/7  RARE
+  12                     -   -   -   -   -   -   -   0/7
+  13                     -   -   -   -   -   -   -   0/7
+  14                     -   -   -   -   -   -   -   0/7
+  15                     -   -   -   -   -   -   -   0/7
+  16                     -   -   -   -   -   -   -   0/7
+  17                     -   -   -   -   -   -   -   0/7
+  18                     -   -   -   -   -   -   -   0/7
+  19                     Y   -   -   Y   Y   Y   Y   5/7
+  20                     -   -   -   Y   -   Y   -   2/7  RARE
+  21                     -   -   -   -   -   -   -   0/7
+  22                     Y   Y   Y   Y   Y   Y   Y   7/7  winner Y
+  23                     -   -   -   -   -   Y   -   1/7  RARE
+  24                     Y   Y   Y   Y   Y   Y   Y   7/7  winner Y
+  25                     -   -   -   -   -   -   -   0/7
+  26                     -   -   -   -   -   -   Y   1/7  RARE
+  27                     Y   Y   Y   Y   Y   Y   Y   7/7  winner Y
+  28                     -   -   -   -   -   -   -   0/7
+  29                     -   -   -   -   -   -   -   0/7
+  30                     -   Y   Y   -   Y   Y   Y   5/7  winner Y
+  31                     Y   -   -   -   -   Y   -   2/7  RARE
+  32                     Y   Y   Y   Y   Y   Y   Y   7/7  winner Y
+  33                     -   -   Y   -   -   -   -   1/7  RARE
+  34                     -   -   -   Y   Y   Y   -   3/7  RARE
+  35                     -   -   -   -   -   -   -   0/7
+  ST                     Y   Y   Y   Y   Y   Y   Y   7/7  winner Y
 
 JR v1 (f96f93d) — every layer-3 item of the winner; k/n = runners holding the same key
   [1] cross link H Venus – J Jupiter RA 0.0585 Dec 0.4127 [close]  {1/7}  ONLY

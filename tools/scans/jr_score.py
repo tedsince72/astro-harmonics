@@ -4,8 +4,16 @@ JR v1: every layer-3 item of the winner (docs/jupiter/RACE/layer3/P##.json), wit
 JR v3: every line of the winner's runner page (strict / exact-in-race / exact-pre-off + combined/chain near through one near part),
 from docs/classic/RACE/jupiter/P##.json, with level, t and field count by level.
 'ONLY' = no other runner held the same key (JR v1) / the same hit at any level (JR v3). Writes docs/classic/RACE/jupiter/winner_score.txt.
+Kinds table (fixed 13 Oct 2026, before Musselburgh 14:17; not to be changed): per runner yes/no for each JR v3 kind at strict /
+exact-in-race / exact-pre-off level only (C1, C1b, C2, C2b, C3, C4, C5, D1, D2, D3, E1, E2, E3, chain, chain with numbered root
+(root itself a number at strict / exact level), any exact-in-race line, any exact-pre-off line), and for each JR v1 item number
+(any item of that number); field count k/n per kind, RARE = held by fewer than half the field. Optional 3rd argument = a note.
 No totals."""
 import sys, json, glob, os
+
+V3_KINDS = ['C1', 'C1b', 'C2', 'C2b', 'C3', 'C4', 'C5', 'D1', 'D2', 'D3', 'E1', 'E2', 'E3', 'chain', 'chain, numbered root',
+            'any exact-in-race', 'any exact-pre-off']
+V1_KINDS = list(range(1, 36)) + ['ST']
 
 STRUCK = ('strict', 'exact-in-race', 'exact-pre-off')
 
@@ -14,8 +22,38 @@ def on_page(h):
     return h['level'] in STRUCK or (h.get('parts') and 'both-near' not in h['flags'])
 
 
+def v3_kinds(hits):
+    ks = set()
+    for h in hits:
+        if h['level'] not in STRUCK:
+            continue
+        if h['m'] in V3_KINDS:
+            ks.add(h['m'])
+        if h['m'] == 'CH':
+            ks.add('chain')
+            rn = h.get('root_number')
+            if rn and rn['level'] in STRUCK:
+                ks.add('chain, numbered root')
+        if h['level'] == 'exact-in-race':
+            ks.add('any exact-in-race')
+        if h['level'] == 'exact-pre-off':
+            ks.add('any exact-pre-off')
+    return ks
+
+
+def table(title, kinds, have, order, W, n):
+    L = [title, '  ' + 'kind'.ljust(22) + ' '.join(P[1:] + ('*' if P == W else ' ') for P in order) + '  field']
+    for k in kinds:
+        held = [P for P in order if k in have[P]]
+        rare = '  RARE' if held and len(held) < n / 2 else ''
+        L.append('  ' + str(k).ljust(22) + ' '.join((' Y ' if k in have[P] else ' - ') for P in order) +
+                 f'  {len(held)}/{n}{rare}' + ('  winner Y' if k in have[W] else ''))
+    return L
+
+
 def main():
     race, cloth = sys.argv[1], str(sys.argv[2])
+    note = sys.argv[3] if len(sys.argv) > 3 else ''
     L = []
     # JR v1
     v1 = {os.path.basename(f)[:3]: json.load(open(f)) for f in sorted(glob.glob(f'docs/jupiter/{race}/layer3/P[0-9][0-9].json'))}
@@ -33,7 +71,13 @@ def main():
     for P, d in v1.items():
         for it in d['items']:
             hold.setdefault(it['key'], set()).add(P)
-    L.append(f'== {race}: winner cloth {cloth} = {W} {pos[W][1]} / {pos[W][2]}; {n} runners')
+    L.append(f'== {race}: winner cloth {cloth} = {W} {pos[W][1]} / {pos[W][2]}; {n} runners' + (f'  [{note}]' if note else ''))
+    order = sorted(v1)
+    L.append('   runners: ' + '; '.join(f'{P} cloth {pos[P][0]} {pos[P][1]}' for P in order) + '   (* = winner)')
+    v3all = {P: json.load(open(f'docs/classic/{race}/jupiter/{P}.json'))['hits'] for P in order}
+    L += [''] + table('KINDS — JR v3 (strict / exact-in-race / exact-pre-off only)', V3_KINDS, {P: v3_kinds(v3all[P]) for P in order}, order, W, n)
+    L += [''] + table('KINDS — JR v1 item numbers (any item of that number)', V1_KINDS,
+                      {P: {it['m'] for it in v1[P]['items']} for P in order}, order, W, n)
     L.append('\nJR v1 (f96f93d) — every layer-3 item of the winner; k/n = runners holding the same key')
     seen = set()
     rows = []
