@@ -147,3 +147,41 @@ Plus an independent checker recomputing one runner's page from the raw workbook.
 ## 9. How it's used
 - Forward only: run on races not yet run, commit + push the race page before the off, open the result after (CLAUDE.md routine).
 - Anything that looks good on old races is a candidate, fixed before the next race, tested forward.
+
+## 10. As built — JR v2 (13 Oct 2026)
+
+Run: `python3 tools/jupiter_reader.py <race> [--batch X.xlsx] [--off "YYYY-MM-DD HH:MM"] [--site lat,lon,elev]` (venv python)
+-> `docs/classic/<race>/jupiter/`: `field.txt` (race page), `P##.txt` (runner page), `P##_full.txt`, `P##.json`, `sky_full.txt`,
+`sky.json`, `engine_check.txt`, `positions.csv` + `positions_log.txt`. Tests: `python3 tests/jr2_check.py` (section 7, 7/7).
+Code: `tools/jup2/core.py` (points, planes, families, tolerances, levels), `motion.py` (F), `hits.py` (A–E), `report.py` (field, pages).
+
+- Positions: JR v1's `tools/jup/positions.py`, unchanged, called with this folder as output (it matches section 1). Ketu is rebuilt
+  as Rahu's exact mirror for the Dec plane (the run stops if positions_log reports a non-exact mirror). Equator = Dec 0 point.
+- F: engine `rebuild_kit/celestial_bodies_swisseph.py` v2.2 (identical to ~/astronomy-project), imported; ephe ~/astronomy-project/ephe;
+  off and site from the batch workbook's META sheet, else from the race folder name + RACECOURSE_COORDS
+  (~/astronomy-project/racingpost_excel_charts_swiss.py); Europe/London clock time. Reproduction is checked per sky point (0.0001°);
+  a point that fails has no rate (its hits are a/s n/a, level from the off only). Rate = engine(off+5) − engine(off), added to the
+  workbook value. Duration: expected_dur_s from ~/astronomy-project/racecards/<yyyymmdd>_*/race_info.csv (key <yyyymmdd>_<course>_<hhmm>),
+  default 300 s. Acceptance races: 48/48 sky points reproduce, except Pholas (older engine file: 15/48 — Jupiter, Sun, Moon,
+  planets to Pluto, Chiron, Ceres, Pallas, Juno and the equator reproduce; Vesta, the node, TNOs, Transpluto and stars do not).
+- Numbers: distances tagged from the smallest target (1/9, 0.382) upward; ratios not formed when either value < 0.5 (JR v1 rule kept);
+  ratios = larger / smaller (so constants < 1 are not ratio targets); a value matching two families gives two lines.
+- Choices where the design is silent (open for Eddie):
+  - A2/B2 apex ratios use the ratio tolerance (0.005 % / 0.02 %), not the Equator-ratio one; X = bodies + royal stars.
+  - C1 includes natal stars (flag `copy`); sky Jupiter → natal Jupiter is C3 only (movement tolerance), and counts as a strike on the
+    natal-Jupiter end for C1-both-ends and C5. C3 adds an Equator plane = | |Dec S| − |Dec natal| |.
+  - C1 both ends: natal pair = inside one chart, a strict number in any plane or close contact; across charts, close contact.
+  - Combined hits (C1b, C2b, C4, C5) are built only from parts at strict / exact-in-race / exact-pre-off ("on a number"); level = the
+    weaker part, t = the largest part t. (With near parts allowed, C2b alone gave ~160 near lines per runner.)
+  - D uses bodies only (no stars). E: span 0.5–60 for E1/E2 as for E3 (wide ≥ 20); RA midpoint on the short arc.
+  - `age` = natal-only (B) hit whose non-Jupiter points are all slow bodies (Jupiter outward, Chiron, node, TNOs, Transpluto), stars or
+    the equator, held by ≥ half the field (any level). Rare = held by fewer than half the field at any level.
+  - Contact t = min(RA / 1.5, Dec / 0.3).
+- Seen on the five acceptance fields (4–6 runners): cut 4 as written joins every B hit (a sky body strikes each natal Jupiter almost
+  always, via C2), and most near hits are "rare" in small fields, so the runner page is close to the full file. Not changed — Eddie's call.
+- Independent checker (13 Oct, own code, Nottingham 15:30 P01 Dynamic Force / Ray Dawson): A1, B1, B3, C1–C5, D3, E and 8 field counts
+  agree with the checker's own numbers. One bug was found and fixed before the freeze: ratios with one natal half (D1, D2, D3 with a natal Jupiter) had no rate.
+  After the fix, D1 Mars Flat 9 is exact-pre-off (−0.3 min) and D1 Mars GC 9 is added (exact-pre-off, −2.6 min); all D1/D2 a/s now match the checker.
+- Open for Eddie (from the checker): stars are in A1, B1, B2 (royal) and C1 only; C2, B3, D and E use bodies, as the design
+  words them ("sky body", "jockey bodies", "natal body"). At Nottingham P01 this leaves out e.g. C2 S Spica → H Jupiter RA 560/9 and
+  B3 H Regulus – J Jupiter Flat 40.00379. The natal-pair definition for C1 both ends (above) is the reader's choice; the design does not define it.

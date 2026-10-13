@@ -1,0 +1,25 @@
+== lingfield_aw_1435_20210402 — JR v2 transit-Jupiter reader, race page. 1 runner(s). Blind: no results opened. No scores, no totals.
+   S Jupiter RA 325.79731 Dec -14.38992; off 2021-04-02 14:35; race duration 300 s = 5.00 min (default 5 min (race not in any race_info.csv)); exact-pre-off window 5 min
+   JR v2; engine check (engine_check.txt): reproduction: 15 of 48 sky points within 0.0001 deg; failing: Vesta, Rahu, Eris, Sedna, Haumea, Makemake, Orcus, Quaoar, Gonggong, Transpluto, Algol, Pleiades, Aldebaran, Capella, Sirius, Procyon, Regulus, Alkaid, Algorab, Spica, Arcturus, Alphecca, Antares, Vega, Deneb Algedi, Fomalhaut, Rigel, Betelgeuse, Polaris, Castor, Altair, Bellatrix, Ketu
+
+   P01 Pholas Pholas / Doyle: H Jupiter Dec -7.06006, J Jupiter Dec -23.29537
+
+A. SKY JUPITER'S OWN RELATIONSHIPS (strict, exact-in-race, exact-pre-off; near in sky_full.txt), sorted by t
+   [A1] S Jupiter – S Venus Dec 19.00270 -> whole 19 off +0.00270 | strict | t 0.54 | a/s separating exact -8.9 min
+   [A1] S Jupiter – S Pleiades GC 96.77807 -> ninth 871/9 off +0.00029 | strict | t 0.58 | a/s n/a
+   [A1] S Jupiter – S Quaoar GC 48.11152 -> ninth 433/9 off +0.00041 | strict | t 0.82 | a/s n/a
+   [A1] S Jupiter – S Rigel Flat 113.00449 -> whole 113 off +0.00449 | strict | t 0.90 | a/s n/a
+   [A1] S Jupiter – S Eris Dec 12.99521 -> whole 13 off -0.00479 | strict | t 0.96 | a/s n/a
+   [A1] S Jupiter – S Moon RA 68.54733 -> golden 68.54 off +0.00631 | exact-in-race | t 1.26 | a/s applying exact +0.5 min
+   [A1] S Jupiter – S Mercury Flat 34.11277 -> ninth 307/9 off +0.00166 | exact-pre-off | t 3.32 | a/s separating exact -1.6 min
+   [A1] S Jupiter – S Venus RA 48.10866 -> ninth 433/9 off -0.00245 | exact-in-race | t 4.91 | a/s applying exact +3.7 min
+   [A1] S Jupiter – S Moon Flat 69.22495 -> ninth 623/9 off +0.00273 | exact-in-race | t 5.46 | a/s applying exact +0.2 min
+   [A1] S Jupiter – S Moon Dec 9.66213 -> ninth 87/9 off -0.00453 | exact-in-race | t 9.07 | a/s applying exact +4.4 min
+   [A1] S Jupiter – S Moon RA 68.54733 -> ninth 617/9 off -0.00822 | exact-pre-off | t 16.44 | a/s separating exact -0.7 min
+   [A1] S Jupiter – S Moon GC 64.86274 -> ninth 584/9 off -0.02615 | exact-pre-off | t 52.29 | a/s separating exact -2.3 min
+   (near: 13 in sky_full.txt)
+
+RUNNERS: strict / exact-in-race / exact-pre-off hits held by fewer than half the field (< 0.5), from each runner page, sorted by t
+
+   P01 Pholas Pholas / Doyle
+     -
