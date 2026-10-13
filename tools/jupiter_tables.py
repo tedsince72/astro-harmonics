@@ -5,7 +5,8 @@ INPUT = a race_batch_<yyyymmdd>_<course>_<hhmm>.xlsx (TRANS, P01..Pnn, META) or 
 (<course>_<hhmm>_<yyyymmdd>/<race>__P##.xlsx). Output: race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx next to the batch
 (for a folder: in reference/classic/), unless --out.
 
-Sheets: POSITIONS; SKY JUPITER; one sheet per runner (P01, P03, ...: tables 1-15); FIELD 5, FIELD 6, FIELD 7, FIELD 8, FIELD 10.
+Sheets: POSITIONS; SKY JUPITER; one sheet per runner (P01, P03, ...: tables 1-16) + P## RATIOS; THREADS (13 Oct: hits linking each body
+with Jupiter, per runner, tags and field counts - see threads_sheet); FIELD 5-8, 10, 12-16.
 Each value (13 Oct 2026, Eddie's correction): every family of tools/families.py (Eddie's definitions, his scores from
 rebuild_kit/active_vibrations.py) is scored; nearest target = the family with the highest score; the other families with a score > 0
 are listed beside it ('also'); 'scaled' = best family of 10 v or v / 10 (/10 widens a tolerance 10x in degrees). Ratio values (T12-T15)
@@ -26,6 +27,8 @@ Points and engine from tools/jup2 (imported, not changed). Frozen readers are no
 import argparse, glob, os, re, sys, itertools, math
 import openpyxl
 from openpyxl.styles import PatternFill, Font, Alignment
+from openpyxl.cell.rich_text import CellRichText, TextBlock
+from openpyxl.cell.text import InlineFont
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, 'tools', 'jup2'))
@@ -251,7 +254,7 @@ def plane_index(pl, planes):
     return 3 + COLS * planes.index(pl)
 
 
-def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of):
+def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None):
     """rows: [(label, a, b)] -> distances in RA/Dec/Flat/GC (equator: Dec only)."""
     row = header(ws, row, tid, title, PLANES)
     out = {}
@@ -265,6 +268,8 @@ def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of):
             ev, also, sc = nearest(v0, kind, 'Dec' if kind == 'equator' else pl)
             put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, sc=sc, ox=(kind, 'Dec' if kind == 'equator' else pl))
             out[(label, pl)] = (v0, ev)
+            if thr is not None:
+                thread_add(thr, tid, f'{short(a)}→{short(b)}', (a, b), pl, v0, ev, sc)
         row += 1
     return row + 1, out
 
@@ -295,7 +300,7 @@ def mid_rows(ctx, R, triples, plane):
     return out
 
 
-def write_mids(ws, row, tid, title, ctx, R, triples):
+def write_mids(ws, row, tid, title, ctx, R, triples, thr=None):
     row = header(ws, row, tid, title + '  [value = third point\'s signed offset from the midpoint; span in the label column; score column = t on 0.05]', ('RA', 'Dec'))
     data = {pl: mid_rows(ctx, R, triples, pl) for pl in ('RA', 'Dec')}
     for label, *_ in triples:
@@ -306,6 +311,9 @@ def write_mids(ws, row, tid, title, ctx, R, triples):
             if label in data[pl]:
                 o0, o5, span = data[pl][label]
                 put_value(ws, row, plane_index(pl, ('RA', 'Dec')), o0, o5, mid_eval(o0), None)
+                if thr is not None and abs(o0) <= MID[1]:      # THREADS: midpoints within 0.15 (green / yellow)
+                    trip = next(t for t in triples if t[0] == label)[1:]
+                    thread_add(thr, tid, 'mid ' + short(label), trip, pl, o0, mid_eval(o0), None)
         row += 1
     return row + 1, data
 
@@ -317,22 +325,23 @@ def runner_sheet(wb, P, R, ctx):
             'light <= 0.45; off->+5 = toward / away from the nearest target; scaled = best of 10 v and v / 10 (/10 widens a tolerance 10x in degrees)')
     row = 4
     H, J = R['H'], R['J']
+    thr = []                                               # THREADS: every scored hit linking a body with Jupiter
     dist = lambda a, b: 'equator' if b.endswith(' equator') else 'dist'
     move_or = lambda a, b: 'move' if a == 'S Jupiter' and b.endswith(' Jupiter') else dist(a, b)
     field = {}
     for tid, C in (('T1', 'H'), ('T2', 'J')):
         rows = [(f'{C} Jupiter → {C} {x}', f'{C} Jupiter', f'{C} {x}') for x in R[C] if x != 'Jupiter']
-        row, _ = write_pairs(ws, row, tid, f'{C} Jupiter → {C} bodies, stars, equator (natal)', ctx, R, rows, dist)
+        row, _ = write_pairs(ws, row, tid, f'{C} Jupiter → {C} bodies, stars, equator (natal)', ctx, R, rows, dist, thr)
     row, _ = write_pairs(ws, row, 'T3', 'H Jupiter → J bodies (natal, cross)', ctx, R,
-                         [(f'H Jupiter → J {x}', 'H Jupiter', f'J {x}') for x in NATAL_BODIES if x in J], dist)
+                         [(f'H Jupiter → J {x}', 'H Jupiter', f'J {x}') for x in NATAL_BODIES if x in J], dist, thr)
     row, _ = write_pairs(ws, row, 'T4', 'J Jupiter → H bodies (natal, cross)', ctx, R,
-                         [(f'J Jupiter → H {x}', 'J Jupiter', f'H {x}') for x in NATAL_BODIES if x in H], dist)
+                         [(f'J Jupiter → H {x}', 'J Jupiter', f'H {x}') for x in NATAL_BODIES if x in H], dist, thr)
     for tid, C in (('T5', 'H'), ('T6', 'J')):
         rows = [(f'S Jupiter → {C} {x}', 'S Jupiter', f'{C} {x}') for x in NATAL_BODIES if x in R[C] and x != 'Jupiter']
-        row, field[tid] = write_pairs(ws, row, tid, f'S Jupiter → {C} bodies, at the off and +5 min', ctx, R, rows, dist)
+        row, field[tid] = write_pairs(ws, row, tid, f'S Jupiter → {C} bodies, at the off and +5 min', ctx, R, rows, dist, thr)
     for tid, C in (('T7', 'H'), ('T8', 'J')):
         rows = [(f'S {z} → {C} Jupiter', f'S {z}', f'{C} Jupiter') for z in SKY_BODIES if z in ctx.S0 and z != 'Jupiter']
-        row, field[tid] = write_pairs(ws, row, tid, f'every sky body (Moon incl.) → {C} Jupiter, at the off and +5 min', ctx, R, rows, dist)
+        row, field[tid] = write_pairs(ws, row, tid, f'every sky body (Moon incl.) → {C} Jupiter, at the off and +5 min', ctx, R, rows, dist, thr)
     row, _ = write_pairs(ws, row, 'T9', 'Jupiter to Jupiter (S–H, S–J movement tolerance; H–J distance) and Equator values', ctx, R,
                          [('S Jupiter – H Jupiter', 'S Jupiter', 'H Jupiter'), ('S Jupiter – J Jupiter', 'S Jupiter', 'J Jupiter'),
                           ('H Jupiter – J Jupiter', 'H Jupiter', 'J Jupiter'), ('S Jupiter Equator', 'S Jupiter', 'S equator'),
@@ -344,12 +353,12 @@ def runner_sheet(wb, P, R, ctx):
             tri += [(f'S Jupiter / H {x} | J {x}', 'S Jupiter', f'H {x}', f'J {x}'),
                     (f'S Jupiter / J {x} | H {x}', 'S Jupiter', f'J {x}', f'H {x}'),
                     (f'H {x} / J {x} | S Jupiter', f'H {x}', f'J {x}', 'S Jupiter')]
-    row, field['T10'] = write_mids(ws, row, 'T10', 'midpoints: S Jupiter / H X, S Jupiter / J X, H X / J X — third point\'s offset', ctx, R, tri)
+    row, field['T10'] = write_mids(ws, row, 'T10', 'midpoints: S Jupiter / H X, S Jupiter / J X, H X / J X — third point\'s offset', ctx, R, tri, thr)
     tri = [(f'H Jupiter / J Jupiter | S {z}', 'H Jupiter', 'J Jupiter', f'S {z}') for z in SKY_BODIES if z in ctx.S0]
     for C in 'HJ':
         tri += [(f'S Jupiter / {C} Jupiter | {D} {x}', 'S Jupiter', f'{C} Jupiter', f'{D} {x}')
                 for D in 'HJ' for x in NATAL_BODIES if x in R[D] and not (D == C and x == 'Jupiter')]
-    row, _ = write_mids(ws, row, 'T11', 'midpoints: H Jupiter / J Jupiter with every sky body; S Jupiter / natal Jupiter with every natal body', ctx, R, tri)
+    row, _ = write_mids(ws, row, 'T11', 'midpoints: H Jupiter / J Jupiter with every sky body; S Jupiter / natal Jupiter with every natal body', ctx, R, tri, thr)
     # T12-T15 ratios (interval list); every scored ratio also goes to the RATIOS BY GROUP sheet and the FIELD 12-15 matrices
     rats = []
     for t in ('T12', 'T13', 'T14', 'T15'):
@@ -391,6 +400,8 @@ def runner_sheet(wb, P, R, ctx):
                     put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, inv, sc, ox=('ratio', pl))
                     if v0:
                         keep(tid, lab, pl, v0, v5, ev, inv, row, plane_index(pl, PLANES))
+                        if not (ev and ev.get('auto')):        # automatic unisons stay out of THREADS
+                            thread_add(thr, tid, short(lab), num(C, x) + den(C, x), pl, v0, ev, sc)
                 ws.cell(row=row, column=2, value=lab)
                 row += 1
         row += 1
@@ -433,6 +444,11 @@ def runner_sheet(wb, P, R, ctx):
                     keep('T15', f'({C} Jupiter–{C} {A}) / ({C} Jupiter–{C} {B})', pl, v0, v5, ev, inv, row, plane_index(pl, PLANES))
             row += 1
     row, field['T16'] = write_cross(ws, row, ctx, R)
+    for (lab, cn), (d, ev) in field['T16'].items():
+        x = lab.split('–', 1)[1]
+        a, b = cn[0], cn.split('= ')[1][0]
+        thread_add(thr, 'T16', f'Jup–{x} {cn}', (f'{a} {x}', f'{b} {x}'), '', d, ev, None)
+    field['_thr'] = thr
     ws.column_dimensions['B'].width = 46
     ws.freeze_panes = 'C4'
     field['_rats'] = rats
@@ -528,6 +544,117 @@ def write_cross(ws, row, ctx, R):
                     f.fill = FILL[fb['colour']]
         row += 1
     return row + 1, out
+
+
+# ---------------- THREADS (Eddie, 13 Oct 2026)
+THREAD_ROWS = [b for b in SKY_BODIES if b not in ('Jupiter', 'Rahu', 'Ketu')] + ['Nodes']
+FONT = {'green': '006100', 'yellow': '9C5700', 'light': '8A7400', 'grey': '7F7F7F'}
+
+
+def short(t):
+    return t.replace('Jupiter', 'Jup')
+
+
+def thread_add(thr, tid, lab, pts, pl, v, ev, sc):
+    """one THREADS entry per scored hit (main value, and the scaled x10 / /10 value when it scores) on a body X linked with Jupiter.
+    pts = the points of the measure ('S Jupiter', 'H Uranus', ...); X = the non-Jupiter body (Rahu / Ketu folded into 'Nodes')."""
+    xs = [p for p in pts if not p.endswith(' Jupiter')]
+    bodies = {p.split(' ', 1)[1] for p in xs}
+    bodies = {'Nodes' if b in ('Rahu', 'Ketu') else b for b in bodies}
+    if len(bodies) != 1 or next(iter(bodies)) not in THREAD_ROWS:
+        return                                             # Jupiter-Jupiter, stars, equator
+    X = next(iter(bodies))
+    xch = {p[0] for p in xs}
+    dirs = set()
+    if tid in ('T5', 'T6'):
+        dirs.add(f'S Jup→{tid == "T5" and "H" or "J"} X')
+    if tid in ('T7', 'T8'):
+        dirs.add(f'S X→{tid == "T7" and "H" or "J"} Jup')
+    num = lambda v: f'{round(v, 6)}' if tid not in ('T10', 'T11', 'T16') else f'{v:+.6f}'
+    if ev and ev.get('score') is not None or tid in ('T10', 'T11') and ev:
+        tgt = 'midpoint' if tid in ('T10', 'T11') else 'equal' if tid == 'T16' else ev['target']
+        sct = f" ({ev['score']:.1f})" if ev.get('score') is not None else ''
+        thr.append({'X': X, 'charts': xch, 'dirs': dirs, 'main': True, 'score': ev.get('score'), 'colour': ev['colour'],
+                    'text': f"{lab} {pl + ' ' if pl else ''}{num(v)} → {tgt}{sct} [{tid}]"})
+    if sc:
+        thr.append({'X': X, 'charts': xch, 'dirs': set(), 'main': False, 'score': sc['score'], 'colour': sc['colour'],
+                    'text': f"{lab} {pl + ' ' if pl else ''}{round(v, 6)} {sc['scale']}: {round(sc['scaled_value'], 6)} → {sc['target']} "
+                            f"({sc['score']:.1f}) [{tid}, scaled]"})
+
+
+THREAD_MIN = 50.0                                          # Eddie, 13 Oct: tags, field counts and cell lines use hits scoring >= 50
+
+
+def strong(h):
+    """a hit scoring >= 50; midpoints (no score) count when within 0.15 (green / yellow), as they are kept"""
+    return h['score'] is None or h['score'] >= THREAD_MIN
+
+
+def thread_tags(hits):
+    """tags from the main (unscaled) hits scoring >= 50: mutual same chart (S Jup->H X with S X->H Jup, or the J pair), mutual across
+    charts (S Jup->J X with S X->H Jup, or S Jup->H X with S X->J Jup), both Jupiters (S X->H and J Jup), both charts (natal X in
+    H and in J), number of distinct directions"""
+    m = [h for h in hits if h['main'] and strong(h)]
+    d = set().union(*[h['dirs'] for h in m]) if m else set()
+    ch = set().union(*[h['charts'] for h in m]) if m else set()
+    tags = []
+    if any({f'S Jup→{c} X', f'S X→{c} Jup'} <= d for c in 'HJ'):
+        tags.append('mutual, same chart')
+    if any({f'S Jup→{a} X', f'S X→{b} Jup'} <= d for a, b in (('J', 'H'), ('H', 'J'))):
+        tags.append('mutual, across charts')
+    if {'S X→H Jup', 'S X→J Jup'} <= d:
+        tags.append('both Jupiters')
+    if {'H', 'J'} <= ch:
+        tags.append('both charts')
+    tags.append(f'directions {len(d)}')
+    return tags
+
+
+COUNTED = ('mutual, same chart', 'mutual, across charts', 'both Jupiters')
+
+
+def threads_sheet(wb, runners, fields):
+    ws = wb.create_sheet('THREADS', wb.sheetnames.index('FIELD 5'))
+    ws.cell(row=1, column=1, value='THREADS: hits inside tolerance linking body X with Jupiter, from T1-T8, T10-T13, T16; a cell lists those '
+            'scoring >= 50 (midpoints: within 0.15), main first then scaled x10 / /10, best first, then "+ n weaker"; automatic unisons left out. '
+            'Top line: tags from the main hits >= 50 - mutual, same chart (S Jup->H X and S X->H Jup, or the J pair); mutual, across charts '
+            '(S Jup->J X and S X->H Jup, or S Jup->H X and S X->J Jup); both Jupiters (S X->H Jup and S X->J Jup); both charts (natal X in H '
+            'and in J); directions = distinct of S Jup->H X, S Jup->J X, S X->H Jup, S X->J Jup. Line colour = score.').font = BOLD
+    order = sorted(runners)
+    ws.cell(row=3, column=1, value='body').fill = HEAD
+    for i, P in enumerate(order):
+        c = ws.cell(row=3, column=2 + i, value=f"{P} {runners[P]['name']}"); c.fill = HEAD; c.font = BOLD
+        ws.column_dimensions[openpyxl.utils.get_column_letter(2 + i)].width = 60
+    last = 2 + len(order)
+    for k, h in enumerate(COUNTED + ('mutual (either) or both Jupiters',)):
+        c = ws.cell(row=3, column=last + k, value=f'runners: {h}'); c.fill = HEAD; c.font = BOLD
+        ws.column_dimensions[openpyxl.utils.get_column_letter(last + k)].width = 16
+    for r, X in enumerate(THREAD_ROWS, start=4):
+        ws.cell(row=r, column=1, value=X + (' (Rahu / Ketu)' if X == 'Nodes' else '')).font = BOLD
+        cnt = [0] * (len(COUNTED) + 1)
+        for i, P in enumerate(order):
+            hits = [h for h in fields[P]['_thr'] if h['X'] == X]
+            if not hits:
+                continue
+            tags = thread_tags(hits)
+            for k, t in enumerate(COUNTED):
+                cnt[k] += t in tags
+            cnt[-1] += any(t in tags for t in COUNTED)
+            shown = sorted([h for h in hits if strong(h)], key=lambda h: (not h['main'], -(100.0 if h['score'] is None else h['score'])))
+            rt = CellRichText(TextBlock(InlineFont(b=True), ' · '.join(tags)))
+            for h in shown:
+                rt.append(TextBlock(InlineFont(color=FONT.get(h['colour'], '000000')), '\n' + h['text']))
+            if len(hits) > len(shown):
+                rt.append(TextBlock(InlineFont(i=True), f'\n+ {len(hits) - len(shown)} weaker (see T-tables)'))
+            c = ws.cell(row=r, column=2 + i, value=rt)
+            c.alignment = Alignment(wrap_text=True, vertical='top')
+            best = next((h for h in shown if h['main']), shown[0] if shown else None)
+            if best and best['colour'] in FILL:
+                c.fill = FILL[best['colour']]
+        for k, v in enumerate(cnt):
+            ws.cell(row=r, column=last + k, value=f'{v}/{len(order)}')
+    ws.column_dimensions['A'].width = 18
+    ws.freeze_panes = 'B4'
 
 
 def ratio_sheet(wb, P, R, rats, uni, n):
@@ -664,6 +791,7 @@ def main():
                             ('T15', 'apex ratios, intervals', PLANES)):
         field_sheet(wb, tid, title, runners, fields, pls, uni=uni)
     field_sheet(wb, 'T16', 'RA–Dec crossing (value = RA − Dec, inside ±0.02)', runners, fields, [cross_name(a, b) for a, b in CROSS])
+    threads_sheet(wb, runners, fields)
     wb.save(out)
     print(f'{race}: {len(runners)} runners -> {out} ({os.path.getsize(out) / 1e6:.2f} MB); {repro}'
           + (f"; skipped (no Jupiter in a chart): {', '.join(skipped)}" if skipped else ''))

@@ -76,8 +76,11 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
 - Viewing tool (13 Oct 2026, not a reader): `python3 tools/jupiter_tables.py <race_batch xlsx | reference/classic/<race> folder>` ->
   race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T15 per runner, field matrices, off and +5 min,
   every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score; ratios on the interval
-  list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16). Venv python (swisseph, pandas).
-  Tests `python3 tests/jupiter_tables_check.py` (29/29). In the card pipeline: `run_card_swiss.py --tables`
+  list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16; THREADS sheet: rows = bodies (Moon incl.,
+  nodes folded), columns = runners, every hit linking X with Jupiter from T1–T8, T10–T13, T16 (midpoints within 0.15, scaled hits marked);
+  cells list hits >= 50 then '+ n weaker'; tags from main hits >= 50: mutual same chart (S Jup→H X + S X→H Jup, or J), mutual across
+  charts (S Jup→J X + S X→H Jup, or H/J), both Jupiters, both charts, directions n; field counts per tag). Venv python (swisseph, pandas).
+  Tests `python3 tests/jupiter_tables_check.py` (33/33). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).

@@ -15,9 +15,12 @@ all RA; 41 genuine: Flat 20, GC 20, RA 1, all return-assisted, two at 2/6).
 Revised same day (Eddie): k = the LARGER number of the ratio (3/2 -> 0.333 %, 4/3 -> 0.25 %, 5/x -> 0.2 %, 6/5 and up -> 0.15 %) and the
 nearest target outside the tolerance by tightness (offset / own tolerance) for ratios too. Test 7 changed: Flat 1.0445 nearest 16/15
 -2.07813 % -> unison +4.44999 % (outside ±1 %); Haumea 1.506122 3/2 score 3.37 -> outside ±0.333 %; the 3/2 hit is now Makemake 1.499624
-on 0.333 % (85.52). Tests 1-6 unchanged."""
+on 0.333 % (85.52). Tests 1-6 unchanged.
+Test 8 (Eddie 13 Oct): THREADS sheet, Nottingham 15:30 2022 Uranus row; expected values set from the rule (hits >= 50 for tags, counts
+and cell lines; mutual same chart / across charts), not tuned to the winner."""
 import os, subprocess, sys
 import openpyxl
+from openpyxl.cell.rich_text import CellRichText
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, "tools"))
@@ -184,6 +187,22 @@ check('Phi group = φ, φ², φ³, 1+√2 only; tolerances by the larger number 
       and [round(families.TOL[k], 3) for k in TK] == [1.0, 0.5, 0.333, 0.333, 0.25, 0.25, 0.2, 0.2, 0.2, 0.2] + [0.15] * 11
       and all(families.TOL[k] == 0.15 for k in families.TOL
               if k[0].isdigit() and '√' not in k and max(int(x) for x in k.split('/')) >= 6), str(families.TOL))
+
+print('\nTest 8: Nottingham 15:30 2022 — THREADS, Uranus row')
+wb = openpyxl.load_workbook('reference/classic/race_batch_20220601_nottingham_1530_jupiter_tables.xlsx', rich_text=True)  # built in test 1
+ws = wb['THREADS']
+head = [c.value for c in ws[3]]
+ur = next(r for r in ws.iter_rows(min_row=4) if r[0].value == 'Uranus')
+df = str(ur[head.index('P01 2 Dynamic Force / Ray Dawson')].value).split('\n')
+need = ['S Jup→H Uranus Dec 11.10793 → 11.1111 (94.8) [T5]', 'S Uranus→H Jup GC 142.001746 → 142 (83.3) [T7]',
+        'S Uranus→J Jup Dec 18.995206 → 19 (57.8) [T8]']
+check('Dynamic Force Uranus cell lists the three hits', all(x in df for x in need), str(df[:8]))
+check('Dynamic Force Uranus tags: mutual, same chart · mutual, across charts · both Jupiters · both charts · directions 4',
+      df[0] == 'mutual, same chart · mutual, across charts · both Jupiters · both charts · directions 4', df[0])
+check('cells list hits >= 50 only and end "+ 11 weaker (see T-tables)"', df[-1] == '+ 11 weaker (see T-tables)'
+      and all(float(x.rsplit('(', 1)[1].split(')')[0]) >= 50 for x in df[1:-1]), df[-1])
+cnt = [c.value for c in ur[head.index('runners: mutual, same chart'):]]
+check('Uranus field counts: mutual same chart 1/5, across charts 2/5 (P01, P07), both Jupiters 1/5, either 2/5', cnt == ['1/5', '2/5', '1/5', '2/5'], str(cnt))
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
