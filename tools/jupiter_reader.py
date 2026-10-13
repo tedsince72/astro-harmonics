@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """jupiter_reader.py RACE [--batch X.xlsx] [--off "YYYY-MM-DD HH:MM"] [--site lat,lon,elev]
-JR v2 - transit-Jupiter reader (design: docs/classic/jupiter_reader_design.md). Output docs/classic/RACE/jupiter/.
+JR v3 - transit-Jupiter reader (design: docs/classic/jupiter_reader_design.md). Output docs/classic/RACE/jupiter/.
 RACE = folder in reference/classic made by tools/split_batch.py (<course>_<hhmm>_<yyyymmdd>). No results are opened.
 Steps: positions (JR v1's tools/jup/positions.py, unchanged, written to this folder) -> F engine rates (tools/jup2/motion.py)
 -> hits A-E (tools/jup2/hits.py) -> field counts, flags, pages (tools/jup2/report.py)."""
@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.join(REPO, 'tools', 'jup2'))
 from core import load_positions                      # noqa: E402
 import motion, hits, report                          # noqa: E402
 
-JR_VERSION = 'JR v2'
+JR_VERSION = 'JR v3'
 
 
 def main():

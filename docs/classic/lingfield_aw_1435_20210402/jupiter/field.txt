@@ -1,6 +1,6 @@
-== lingfield_aw_1435_20210402 — JR v2 transit-Jupiter reader, race page. 1 runner(s). Blind: no results opened. No scores, no totals.
+== lingfield_aw_1435_20210402 — JR v3 transit-Jupiter reader, race page. 1 runner(s). Blind: no results opened. No scores, no totals.
    S Jupiter RA 325.79731 Dec -14.38992; off 2021-04-02 14:35; race duration 300 s = 5.00 min (default 5 min (race not in any race_info.csv)); exact-pre-off window 5 min
-   JR v2; engine check (engine_check.txt): reproduction: 15 of 48 sky points within 0.0001 deg; failing: Vesta, Rahu, Eris, Sedna, Haumea, Makemake, Orcus, Quaoar, Gonggong, Transpluto, Algol, Pleiades, Aldebaran, Capella, Sirius, Procyon, Regulus, Alkaid, Algorab, Spica, Arcturus, Alphecca, Antares, Vega, Deneb Algedi, Fomalhaut, Rigel, Betelgeuse, Polaris, Castor, Altair, Bellatrix, Ketu
+   JR v3; engine check (engine_check.txt): reproduction: 15 of 48 sky points within 0.0001 deg; failing: Vesta, Rahu, Eris, Sedna, Haumea, Makemake, Orcus, Quaoar, Gonggong, Transpluto, Algol, Pleiades, Aldebaran, Capella, Sirius, Procyon, Regulus, Alkaid, Algorab, Spica, Arcturus, Alphecca, Antares, Vega, Deneb Algedi, Fomalhaut, Rigel, Betelgeuse, Polaris, Castor, Altair, Bellatrix, Ketu
 
    P01 Pholas Pholas / Doyle: H Jupiter Dec -7.06006, J Jupiter Dec -23.29537
 
@@ -19,7 +19,19 @@ A. SKY JUPITER'S OWN RELATIONSHIPS (strict, exact-in-race, exact-pre-off; near i
    [A1] S Jupiter – S Moon GC 64.86274 -> ninth 584/9 off -0.02615 | exact-pre-off | t 52.29 | a/s separating exact -2.3 min
    (near: 13 in sky_full.txt)
 
-RUNNERS: strict / exact-in-race / exact-pre-off hits held by fewer than half the field (< 0.5), from each runner page, sorted by t
+CHAIN ROOTS (RA, Dec): two sky bodies on the same natal Jupiter in one plane; root = the sky pair (identity, not a filter).
+   field by level (S/I/P/N) incl. both-near chains (full file only); sorted by number of holders
+   S Eris–S Jupiter Dec 12.99521 (root is a number: whole 13 (strict)) | field S0 I0 P0 N1 (holders 1/1) | P01 H Jupiter 5.66535 / 7.32986 [near, both-near]
+   S Eris–S Moon Dec 22.65734 (root not a number) | field S0 I0 P0 N1 (holders 1/1) | P01 H Jupiter 5.66535 / 16.99199 [near, both-near]
+   S Eris–S Pallas Dec 5.33566 (root not a number) | field S0 I0 P0 N1 (holders 1/1) | P01 H Jupiter 5.66535 / 11.00101 [near]
+   S Gonggong–S Haumea RA 120.78914 (root not a number) | field S0 I0 P0 N1 (holders 1/1) | P01 J Jupiter 56.01080 / 64.77834 [near, both-near]
+   S Gonggong–S Sedna RA 80.97090 (root not a number) | field S0 I0 P0 N1 (holders 1/1) | P01 J Jupiter 56.01080 / 136.98170 [near, both-near]
+   S Haumea–S Sedna RA 158.23996 (root not a number) | field S0 I0 P0 N1 (holders 1/1) | P01 J Jupiter 64.77834 / 136.98170 [near, both-near]
+   S Jupiter–S Moon Dec 9.66213 (root is a number: ninth 87/9 (exact-in-race)) | field S0 I0 P0 N1 (holders 1/1) | P01 H Jupiter 7.32986 / 16.99199 [near, both-near]
+   S Jupiter–S Pallas Dec 18.33087 (root not a number) | field S0 I0 P0 N1 (holders 1/1) | P01 H Jupiter 7.32986 / 11.00101 [near]
+   S Moon–S Pallas Dec 27.99300 (root is a number: whole 28 (near)) | field S0 I0 P0 N1 (holders 1/1) | P01 H Jupiter 16.99199 / 11.00101 [near]
+
+RUNNERS: hits on the runner pages held by fewer than half the field (< 0.5), sorted by t
 
    P01 Pholas Pholas / Doyle
      -

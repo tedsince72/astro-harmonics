@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""jr2_check.py - JR v2 acceptance tests (docs/classic/jupiter_reader_design.md section 7). Runs tools/jupiter_reader.py on the
+"""jr2_check.py - JR v2/v3 acceptance tests (docs/classic/jupiter_reader_design.md section 7; + JR v3 chain test, section 11). Runs tools/jupiter_reader.py on the
 six races, then checks each expected item in the runner's P##.json (found by horse name; no results opened).
 Exit 1 if any check fails."""
 import json, glob, os, subprocess, sys
@@ -31,7 +31,8 @@ def r5(x):
 
 
 RACES = [('lingfield_aw_1435_20210402', 'Pholas'), ('fontwell_1645_20210914', 'Pixie Loc'), ('kempton_aw_1440_20210904', 'Hamish'),
-         ('goodwood_1853_20210827', 'Madame Tantzy'), ('nottingham_1530_20220601', 'Dynamic Force'), ('redcar_1515_20211015', 'Present Moment')]
+         ('goodwood_1853_20210827', 'Madame Tantzy'), ('nottingham_1530_20220601', 'Dynamic Force'), ('redcar_1515_20211015', 'Present Moment'),
+         ('newcastle_aw_1330_20220102', 'Venturous')]
 
 for race, horse in RACES:
     r = subprocess.run([sys.executable, 'tools/jupiter_reader.py', race], capture_output=True, text=True)
@@ -86,6 +87,26 @@ h = [x for x in find(hs, m='C5') if x['parts'][0]['pts'] == ['H Ceres', 'J Jupit
 ok = len(h) == 1 and round(h[0]['parts'][0]['Dec'], 4) == 0.1131 and r5(h[0]['parts'][1]['value']) == 71.11139 and h[0]['level'] == 'strict'
 check('C5 H Ceres – J Jupiter Dec 0.1131; S Jupiter -> H Ceres GC 640/9', ok,
       (f"link Dec {h[0]['parts'][0]['Dec']:.4f}; GC {h[0]['parts'][1]['value']:.5f}, {h[0]['level']}") if h else 'missing')
+
+print('\nNewcastle AW 13:30 2022 (Venturous; King Of Stars) — JR v3 chain')
+V = runner('newcastle_aw_1330_20220102', 'Venturous')
+K = runner('newcastle_aw_1330_20220102', 'King Of Stars')
+cv = [h for h in V['hits'] if h['m'] == 'CH' and h['root'] == 'S Uranus–S Venus' and h['root_plane'] == 'Dec' and h['natal'] == 'H Jupiter']
+ck = [h for h in K['hits'] if h['m'] == 'CH' and h['root'] == 'S Uranus–S Venus' and h['root_plane'] == 'Dec' and h['natal'] == 'J Jupiter']
+ok = len(cv) == 1 and r5(cv[0]['root_value']) == 32.9937 and cv[0]['level'] == 'near' and 'both-near' not in cv[0]['flags'] and \
+    sorted((r5(p['value']), p['level']) for p in cv[0]['parts']) == [(7.00821, 'near'), (40.00191, 'strict')]
+check('CH Venturous: sky Uranus–Venus Dec 32.9937 -> H Jupiter at 7 / 40 (near + strict = near)', ok,
+      (f"root {cv[0]['root_value']:.5f} ({cv[0]['root_relation']}), parts " +
+       ', '.join(f"{p['value']:.5f} {p['level']}" for p in cv[0]['parts']) + f", {cv[0]['level']}") if cv else 'missing')
+ok = len(ck) == 1 and sorted(r5(p['value']) for p in ck[0]['parts']) == [1.99424, 34.98795] and 'both-near' in ck[0]['flags']
+check('CH King Of Stars: same root on J Jupiter, 1.99424 / 34.98795, both near (full file only)', ok,
+      (', '.join(f"{p['value']:.5f} {p['level']}" for p in ck[0]['parts']) + f", flags {ck[0]['flags']}") if ck else 'missing')
+fld = cv[0]['field'] if cv else {}
+both = cv and V['runner'] in fld.get('near', []) and K['runner'] in fld.get('near', [])
+check('CH root field count includes both runners (near)', bool(both), f"field {fld}")
+pv = open(f"docs/classic/newcastle_aw_1330_20220102/jupiter/{V['runner']}.txt").read()
+pk = open(f"docs/classic/newcastle_aw_1330_20220102/jupiter/{K['runner']}.txt").read()
+check('runner pages: Venturous shows the chain, King Of Stars does not', 'sky Uranus–Venus Dec' in pv and 'sky Uranus–Venus Dec' not in pk, '')
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

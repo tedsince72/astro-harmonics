@@ -138,8 +138,15 @@ def struck(hs):
     return [h for h in hs if h['level'] in STRUCK]
 
 
+def allowed(parts):
+    """JR v3: every part strict / exact-in-race / exact-pre-off, or exactly one near part with every other part strict."""
+    lv = [p['level'] for p in parts]
+    n = lv.count('near')
+    return n == 0 or (n == 1 and all(l == 'strict' for l in lv if l != 'near'))
+
+
 def combine(m, parts, desc):
-    """combined hit (parts are strict / exact-in-race / exact-pre-off only - 'on a number'): weaker level, largest t."""
+    """combined hit (see allowed): weaker level (a near part makes it near), largest t."""
     lev = weaker([p['level'] for p in parts])
     pts = list(dict.fromkeys(x for p in parts for x in p['pts']))
     h = {'target': ' + '.join(f"{p['plane']} {p['target']}" for p in parts), 'target_value': None, 'family': '+'.join(p['family'] for p in parts),
@@ -149,6 +156,29 @@ def combine(m, parts, desc):
          'flags': sorted({f for p in parts for f in p['flags']}), 'parts': parts}
     d.update(h)
     d['key'] = f"{m}|{desc}|{h['target']}"
+    return d
+
+
+def chain(ctx, CJ, z1, x, z2, y):
+    """JR v3 chain: S z1 and S z2 on the same natal point in one plane (RA or Dec). There the sky pair's own distance is always the
+    sum or difference of the two hits (RA: or 360 - sum) - an identity, used to label the root, not as a filter."""
+    pl = x['plane']
+    a, b = x['value'], y['value']
+    r0, r5 = ctx.series(lambda p, q: plane_value(p, q, pl), [f'S {z1}', f'S {z2}'])
+    rel = [('difference', abs(abs(a - b) - r0)), ('sum', abs(a + b - r0))]
+    if pl == 'RA':
+        rel.append(('360 - sum', abs(360 - a - b - r0)))
+    rel_name, resid = min(rel, key=lambda t: t[1])
+    nums = classify(r0, r5, 'dist', ctx.race.dur)
+    best = min(nums, key=lambda h: (LEVELS.index(h['level']), h['t'])) if nums else None
+    rootnum = (f"root is a number: {best['family']} {best['target']} off {best['offset']:+.5f}, {best['level']}" if best
+               else 'root is not a number')
+    d = combine('CH', [x, y], f'sky {z1}–{z2} {pl} {r0:.5f} (race-wide; {rel_name}; {rootnum}) -> {CJ} at {a:.5f} / {b:.5f}')
+    d['key'] = f'CH|S {z1}|S {z2}|{pl}'
+    d.update({'root': f'S {z1}–S {z2}', 'root_plane': pl, 'root_value': r0, 'root_relation': rel_name, 'root_residual': resid,
+              'root_number': best, 'natal': CJ})
+    if x['level'] == 'near' and y['level'] == 'near':
+        d['flags'] = sorted(set(d['flags']) | {'both-near'})
     return d
 
 
@@ -278,25 +308,32 @@ def runner_hits(race, R):
             if contact_level(ra, abs(px[1] - py[1])) == 'strict':
                 pairs.append((f'H {X}', f'J {Y}', 'cross link close'))
     for a, b, why in pairs:
-        ha, hb = struck(c1.get(a, [])), struck(c1.get(b, []))
-        if ha and hb:
-            for x in ha:
-                for y in hb:
+        for x in c1.get(a, []):
+            for y in c1.get(b, []):
+                if allowed([x, y]):
                     out.append(combine('C1b', [x, y], f'S Jupiter strikes both ends of {a} – {b} ({why})'))
-    # C2 pairs of sky bodies on the same natal Jupiter
+    # C2 pairs of sky bodies on the same natal Jupiter. JR v3: same plane RA or Dec -> chain (CH, root = the sky pair, an identity
+    # there); Flat / GC or different planes -> plain combined hit C2b. Sky Jupiter (C3) takes part in chains only.
     for CJ, byZ in c2.items():
-        Zs = sorted(z for z in byZ if struck(byZ[z]))
+        src = dict(byZ)
+        src['Jupiter'] = [h for h in c1.get(CJ, []) if h['m'] == 'C3' and h['plane'] in ('RA', 'Dec')]
+        Zs = sorted(z for z in src if src[z])
         for z1, z2 in itertools.combinations(Zs, 2):
-            for x in struck(byZ[z1]):
-                for y in struck(byZ[z2]):
-                    out.append(combine('C2b', [x, y], f'S {z1} and S {z2} both on {CJ}'))
+            for x in src[z1]:
+                for y in src[z2]:
+                    if x['plane'] == y['plane'] and x['plane'] in ('RA', 'Dec'):
+                        if allowed([x, y]) or (x['level'] == 'near' and y['level'] == 'near'):
+                            out.append(chain(ctx, CJ, z1, x, z2, y))
+                    elif 'Jupiter' not in (z1, z2) and allowed([x, y]):
+                        out.append(combine('C2b', [x, y], f'S {z1} and S {z2} both on {CJ}'))
     # C4 RA AND Dec together, a Jupiter at one end
     cands = [(SJ, p, c1.get(p, [])) for p in c1] + [(f'S {Z}', CJ, hs) for CJ, byZ in c2.items() for Z, hs in byZ.items()]
     for z, y, hs in cands:
-        ras = [h for h in struck(hs) if h['plane'] == 'RA']; des = [h for h in struck(hs) if h['plane'] == 'Dec']
+        ras = [h for h in hs if h['plane'] == 'RA']; des = [h for h in hs if h['plane'] == 'Dec']
         for x in ras:
             for w in des:
-                out.append(combine('C4', [x, w], f'{z} on {y} in RA AND Dec'))
+                if allowed([x, w]):
+                    out.append(combine('C4', [x, w], f'{z} on {y} in RA AND Dec'))
     # C5 partner strike: sky Jupiter on a natal body that is cross-linked (close) to the other chart's Jupiter
     for (a, b), link in links.items():
         if link['level'] != 'strict':       # close contact only (design: cross-linked = close)
@@ -307,8 +344,9 @@ def runner_hits(race, R):
         else:
             ends = [y]
         for e in ends:
-            for h in struck(c1.get(e, [])):
-                out.append(combine('C5', [link, h], f'partner strike: S Jupiter on {e}, cross-linked to the other Jupiter ({a} – {b})'))
+            for h in c1.get(e, []):
+                if allowed([link, h]):
+                    out.append(combine('C5', [link, h], f'partner strike: S Jupiter on {e}, cross-linked to the other Jupiter ({a} – {b})'))
 
     # D1 / D2 same relationship ratios
     for C in 'HJ':

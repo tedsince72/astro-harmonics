@@ -1,6 +1,6 @@
 # Transit-Jupiter reader — design (agreed with Eddie, 13 Oct 2026)
 
-Status: go-ahead 13 Oct 2026 (Eddie), built as JR v2 (`tools/jup2/` + `tools/jupiter_reader.py`). JR v1 (`tools/jup/`, f96f93d) unchanged.
+Status: go-ahead 13 Oct 2026 (Eddie), built as JR v2, then JR v3 (13 Oct, section 11) (`tools/jup2/` + `tools/jupiter_reader.py`). JR v1 (`tools/jup/`, f96f93d) unchanged.
 Decisions of 13 Oct added below: Equator-ratio near band 0.06 %; levels strict / exact-in-race / exact-pre-off / near (5G);
 lines show level, offset and tightness t, sorted by t; field counts per level (section 6). As built: section 10.
 Script (when built): `tools/jupiter_reader.py <race>` -> `docs/classic/<race>/jupiter/`.
@@ -185,3 +185,26 @@ Code: `tools/jup2/core.py` (points, planes, families, tolerances, levels), `moti
 - Open for Eddie (from the checker): stars are in A1, B1, B2 (royal) and C1 only; C2, B3, D and E use bodies, as the design
   words them ("sky body", "jockey bodies", "natal body"). At Nottingham P01 this leaves out e.g. C2 S Spica → H Jupiter RA 560/9 and
   B3 H Regulus – J Jupiter Flat 40.00379. The natal-pair definition for C1 both ends (above) is the reader's choice; the design does not define it.
+
+## 11. JR v3 (Eddie, 13 Oct 2026, before any race is read with v2)
+
+Same scripts, changed in place (`tools/jup2/`, `tools/jupiter_reader.py`); JR v2 stays at commit 2898024.
+
+1. **Chain (CH).** Two sky bodies with hits on the same natal Jupiter in the same plane, **RA or Dec only**. In those planes the sky
+   pair's own distance is always the sum or difference of the two hits (RA: or 360 − sum): an identity, so it is **not a filter**; it
+   labels the root — the sky pair, its value, sum/difference, and whether the root is itself a number (distance families and
+   tolerances, with its level). Line, e.g.: `sky Uranus–Venus Dec 32.99370 (race-wide; difference; root is a number: whole 33 ..., near)
+   -> H Jupiter at 7.00821 / 40.00191`. Sky Jupiter (its C3 RA/Dec hits on natal Jupiter) takes part in chains. Field count of a chain =
+   runners sharing the root (same sky pair, same plane, on H or J Jupiter), by level. The race page lists every root (CHAIN ROOTS).
+   In Flat and GC (and mixed planes) two sky bodies on one natal Jupiter stay plain combined hits (C2b).
+2. **Combined hits** (C1b, C2b, C4, C5, CH): every part strict / exact-in-race / exact-pre-off, or **one near part with every other part
+   strict** — the combined hit is then near. Chains with **both parts near** are made too (flag `both-near`): full file only, counted in
+   the root's field count (near).
+3. **Runner page**: strict, exact-in-race and exact-pre-off only; near hits appear only as parts of a combined hit or chain (those lines
+   are near). Everything else in `P##_full.txt`. B hits on the page still need the cut-4 join. Stars unchanged.
+4. Test (added to tests/jr2_check.py, 11/11 with section 7): Newcastle AW 13:30 2 Jan 2022 — Venturous: CH sky Uranus–Venus Dec 32.9937,
+   H Jupiter at 7.00821 (near) / 40.00191 (strict), near; King Of Stars: same root on J Jupiter, 1.99424 / 34.98795, both near,
+   full file only; root field N2 (both runners).
+5. Independent checker (13 Oct, own code, Newcastle AW 13:30 P09 Venturous / Connor Beasley): engine 48/48; C2 16 and C3 2 hits,
+   6 chains, 15 C2b, C4 (none), all 40 chain roots and their field counts by level, and the page rule (47 page lines, no plain near, no
+   both-near chain) — no mismatches.
