@@ -47,7 +47,8 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   GROUP sheet per runner (grouped, tightest first), group tag in the field matrices. Ratio values are scored on this list only.
 - Planes RA, Dec, Flat, GC.
 - Decimal scaling: v, 10·v and v/10 are tested against every family, labelled ×10 / ÷10, in their own column (÷10 widens a tolerance 10× in degrees).
-- RA–Dec crossing (same body pair, RA distance in one chart = Dec distance in another): layout proposed, not built yet.
+- RA–Dec crossing (same body pair, RA distance in one chart = Dec distance in another; natal RA = sky Dec and the reverse): ±0.02,
+  linear score; the value need not be in a family (its family score shown beside it). In jupiter_tables: T16 (Jupiter–X, 6 orderings) + FIELD 16.
 - No birth-day certainty for now.
 - Scores in every cell: squared (10 × (tol − dev) / tol)² for whole, golden, φ powers, √2, silver, conjunction and intervals; linear
   100 × (tol − dev) / tol for ninths. Nearest target = the family with the highest score. Colour: green >= 80, yellow 50–80,
@@ -65,7 +66,8 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
 - Viewing tool (13 Oct 2026, not a reader): `python3 tools/jupiter_tables.py <race_batch xlsx | reference/classic/<race> folder>` ->
   race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T15 per runner, field matrices, off and +5 min,
   every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score; ratios on the interval
-  list with Group column, P## RATIOS sheets, FIELD 12–15). Venv python (swisseph, pandas). Tests `python3 tests/jupiter_tables_check.py` (8/8). In the card pipeline: `run_card_swiss.py --tables`
+  list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16). Venv python (swisseph, pandas).
+  Tests `python3 tests/jupiter_tables_check.py` (10/10). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).

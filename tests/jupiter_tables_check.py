@@ -5,7 +5,8 @@ ninths = the 48 _NINTH_RANGES only. Test 1's ninth check (Dec 15.222681 -> 137/9
 RA 14.4444; expected values changed: T6 RA 18 green -> yellow (whole score 62.9), Pholas phi yellow -> green (golden 1xphi),
 Venturous S Uranus Dec 7.008205 yellow -> light (whole score 34.78).
 Same day, Eddie's interval list for ratios (0.15 %, squared): Pholas phi now an interval, phi · golden ratio · Phi, +0.05151 %, score 43.11,
-light (green under the first families.py build, yellow under JR v3 bands); RATIOS BY GROUP sheet checked."""
+light (green under the first families.py build, yellow under JR v3 bands); RATIOS BY GROUP sheet checked.
+Test 4 (T16 RA–Dec crossing, Eddie 13 Oct): Sandown 14:25 2021 Nube Negra / Harry Skelton, Jupiter–Orcus J RA = H Dec."""
 import os, subprocess, sys
 import openpyxl
 
@@ -80,6 +81,17 @@ check('S Venus → H Jupiter Dec 40.00191 (whole score 81.81), green', round(v, 
 v, t, o, f, sc = cell(row(ws, 'T7', 'S Uranus → H Jupiter'), 'Dec')
 check('S Uranus → H Jupiter Dec 7.008205 (whole score 34.78), light yellow', round(v, 4) == 7.0082 and t == '7 (whole)' and sc == 34.78 and f == LIGHT,
       f'{v} {t} {o} {sc} {f}')
+
+print('\nTest 4: Sandown 14:25 2021 (batch xlsx) — Nube Negra / Harry Skelton, T16 RA–Dec crossing')
+wb = openpyxl.load_workbook(build('reference/classic/race_batch_20211204_sandown_1425.xlsx'))
+ws = sheet_of(wb, 'Nube Negra')
+r = row(ws, 'T16', 'Jupiter–Orcus')
+c0 = 2 + 8 * 5                                              # 6th ordering: J RA = H Dec (8 columns each)
+vals = [r[c0 + k].value for k in range(4)]
+check('Jupiter–Orcus J RA 30.55841 = H Dec 30.55995, RA − Dec −0.001541, score 92.3, green', vals == [30.55841, 30.55995, -0.001541, 92.3]
+      and r[c0 + 2].fill.start_color.rgb == GREEN, str(vals))
+f16 = [x for x in wb['FIELD 16'].iter_rows(values_only=True) if x[0] == 'Jupiter–Orcus' and any(v is not None for v in x[1:])]
+check('FIELD 16 shows it (Nube Negra column)', len(f16) == 1 and 'crossing -0.00154 [92.3]' in f16[0], str(f16))
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

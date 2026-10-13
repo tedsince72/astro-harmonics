@@ -11,7 +11,8 @@ rebuild_kit/active_vibrations.py) is scored; nearest target = the family with th
 are listed beside it ('also'); 'scaled' = best family of 10 v or v / 10 (/10 widens a tolerance 10x in degrees). Ratio values (T12-T15)
 are scored against Eddie's musical interval list only (0.15 %): target 'interval · name · group' plus a Group column; per runner a
 'P## RATIOS' sheet (RATIOS BY GROUP: grouped, tightest first) and FIELD 12-15 matrices with the group tag. Colours by score: green >= 80,
-yellow 50-80, light yellow < 50. No summary totals.
+yellow 50-80, light yellow < 50. No summary totals. T16 (13 Oct 2026, Eddie): RA-Dec crossing, Jupiter-X RA distance in one chart =
+its Dec distance in another (6 orderings), +-0.02, linear score, family of the value beside it; FIELD 16.
 Midpoints (T10, T11) keep their own tolerance 0.05 / 0.15 (green / yellow; light = within 0.45). Sky-leg values also at off + 5 min
 (engine, as JR v3 section F) with an arrow: toward / away from the nearest target; n/a where the engine does not reproduce a point.
 Points and engine from tools/jup2 (imported, not changed). Frozen readers are not changed."""
@@ -398,10 +399,79 @@ def runner_sheet(wb, P, R, ctx):
                 if v0:
                     keep('T15', f'({C} Jupiter–{C} {A}) / ({C} Jupiter–{C} {B})', pl, v0, v5, ev, inv)
             row += 1
+    row, field['T16'] = write_cross(ws, row, ctx, R)
     ws.column_dimensions['B'].width = 46
     ws.freeze_panes = 'C4'
     ratio_sheet(wb, P, R, rats)
     return field
+
+
+CROSS = [(a, b) for a in 'SHJ' for b in 'SHJ' if a != b]       # RA distance in chart a = Dec distance in chart b
+CROSS_TOL = 0.02
+XCOLS = 8
+
+
+def cross_name(a, b):
+    return f'{a} RA = {b} Dec'
+
+
+def cross_eval(ra, de):
+    """-> crossing dict (diff = RA - Dec, linear score on +-0.02) or None outside the tolerance"""
+    d = ra - de
+    if abs(d) >= CROSS_TOL:
+        return None
+    sc = 100.0 * (CROSS_TOL - abs(d)) / CROSS_TOL
+    return {'target': 'crossing', 'family': 'crossing', 'tv': 0.0, 'off': d, 'pct': False, 'score': sc, 'colour': families.colour(sc)}
+
+
+def write_cross(ws, row, ctx, R):
+    """T16 RA-Dec crossing (Eddie, 13 Oct 2026): the same body pair Jupiter-X, its RA distance in one chart equal to its Dec distance
+    in another (6 orderings of S, H, J), +-0.02, linear score. The value need not be in a family; the best family of the mean of the
+    two distances is shown beside it when it has one. Sky legs also at +5 min with the arrow toward / away from equality."""
+    ws.cell(row=row, column=1, value='T16').font = BOLD
+    ws.cell(row=row, column=2, value='RA–Dec crossing: Jupiter–X RA distance in one chart = Jupiter–X Dec distance in another (±0.02, '
+            'linear score); family = best family of the mean of the two (shown when it has one)').font = BOLD
+    row += 1
+    for i, (a, b) in enumerate(CROSS):
+        col = 3 + XCOLS * i
+        for k, h in enumerate((f'{a} RA', f'{b} Dec', 'RA − Dec', 'score', '+5 RA − Dec', 'off->+5', 'family of the value', '')):
+            if h:
+                c = ws.cell(row=row, column=col + k, value=h if k else f'{cross_name(a, b)}: {a} RA'); c.fill = HEAD; c.font = BOLD
+    ws.cell(row=row, column=1, value='table').fill = HEAD
+    ws.cell(row=row, column=2, value='pair').fill = HEAD
+    row += 1
+    out = {}
+    for x in NATAL_BODIES:
+        if x == 'Jupiter' or x not in R['H'] or x not in R['J'] or x not in ctx.S0:
+            continue
+        lab = f'Jupiter–{x}'
+        ws.cell(row=row, column=1, value='T16'); ws.cell(row=row, column=2, value=lab)
+        for i, (a, b) in enumerate(CROSS):
+            ra0, ra5 = ctx.pair(R, f'{a} Jupiter', f'{a} {x}', 'RA')
+            de0, de5 = ctx.pair(R, f'{b} Jupiter', f'{b} {x}', 'Dec')
+            if ra0 is None or de0 is None:
+                continue                                       # Ketu: no RA (mirror of Rahu)
+            col = 3 + XCOLS * i
+            ws.cell(row=row, column=col, value=round(ra0, 6)); ws.cell(row=row, column=col + 1, value=round(de0, 6))
+            c = ws.cell(row=row, column=col + 2, value=round(ra0 - de0, 6))
+            ev = cross_eval(ra0, de0)
+            if ev:
+                c.fill = FILL[ev['colour']]
+                ws.cell(row=row, column=col + 3, value=round(ev['score'], 2))
+                out[(lab, cross_name(a, b))] = (ra0 - de0, ev)
+            if 'n/a' in (ra5, de5):
+                ws.cell(row=row, column=col + 4, value='n/a'); ws.cell(row=row, column=col + 5, value='n/a')
+            elif ra5 is not None or de5 is not None:
+                d5 = (ra0 if ra5 is None else ra5) - (de0 if de5 is None else de5)
+                ws.cell(row=row, column=col + 4, value=round(d5, 6))
+                ws.cell(row=row, column=col + 5, value='-> toward' if abs(d5) < abs(ra0 - de0) else '<- away')
+            if ev:
+                fb = families.best((ra0 + de0) / 2, None, 'deg')
+                if fb:
+                    f = ws.cell(row=row, column=col + 6, value=f"{tlabel(fb)} {fmt_off(fb)} [{fb['score']:.1f}]")
+                    f.fill = FILL[fb['colour']]
+        row += 1
+    return row + 1, out
 
 
 def ratio_sheet(wb, P, R, rats):
@@ -472,6 +542,9 @@ def main():
     ap.add_argument('input'); ap.add_argument('--out'); ap.add_argument('--off'); ap.add_argument('--site')
     a = ap.parse_args()
     race, batch, label, sky, runners = load_input(a.input)
+    skipped = {P: R['name'] for P, R in runners.items() if 'Jupiter' not in R['H'] or 'Jupiter' not in R['J']}
+    for P in skipped:                                          # e.g. a jockey tab with no chart (jockey None): no Jupiter to read
+        del runners[P]
     course, hhmm, ymd = motion.race_parts(race)
     out = a.out or os.path.join(os.path.dirname(os.path.abspath(batch)), f'race_batch_{ymd}_{course}_{hhmm}_jupiter_tables.xlsx')
     off, site, src = motion.off_and_site(race, label, batch, a.off, a.site)
@@ -479,7 +552,8 @@ def main():
     ctx = Ctx(sky, rates)
     wb = openpyxl.Workbook(); ws = wb.active; ws.title = 'POSITIONS'
     repro = next((l for l in elines if l.startswith('reproduction')), elines[0] if elines else '')
-    ws.append([f'{race} — Jupiter tables (raw, nothing filtered). off {off}; {src}']); ws.append([repro]); ws.append([])
+    ws.append([f'{race} — Jupiter tables (raw, nothing filtered). off {off}; {src}']); ws.append([repro])
+    ws.append(['skipped (no Jupiter in a chart): ' + '; '.join(f'{P} {n}' for P, n in skipped.items())] if skipped else [])
     ws.append(['runner', 'name', 'chart', 'point', 'kind', 'RA', 'Dec', 'rate RA /min', 'rate Dec /min'])
     for b, p in sky.items():
         r = rates.get(b)
@@ -507,8 +581,10 @@ def main():
                             ('T14', 'Equator ratios of the three Jupiters, intervals', ('Equator',)),
                             ('T15', 'apex ratios, intervals', PLANES)):
         field_sheet(wb, tid, title, runners, fields, pls)
+    field_sheet(wb, 'T16', 'RA–Dec crossing (value = RA − Dec, inside ±0.02)', runners, fields, [cross_name(a, b) for a, b in CROSS])
     wb.save(out)
-    print(f'{race}: {len(runners)} runners -> {out} ({os.path.getsize(out) / 1e6:.2f} MB); {repro}')
+    print(f'{race}: {len(runners)} runners -> {out} ({os.path.getsize(out) / 1e6:.2f} MB); {repro}'
+          + (f"; skipped (no Jupiter in a chart): {', '.join(skipped)}" if skipped else ''))
 
 
 if __name__ == '__main__':
