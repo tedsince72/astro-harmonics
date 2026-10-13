@@ -19,7 +19,10 @@ on 0.333 % (85.52). Tests 1-6 unchanged.
 Test 8 (Eddie 13 Oct): THREADS sheet, Nottingham 15:30 2022 Uranus row; expected values set from the rule (hits >= 50 for tags, counts
 and cell lines; mutual same chart / across charts), not tuned to the winner. Same day: scaled repeats of a main hit (same family, same
 digits) dropped and score-0 hits left out of '+ n weaker': Dynamic Force Uranus '+ 11 weaker' -> '+ 9 weaker', 5 scaled lines -> 1.
-Test 9 (Eddie 13 Oct): NUMBERS sheet per runner + FIELD NUMBERS, Wincanton 14:20 2022 P07 7.777 (ninth) row."""
+Test 9 (Eddie 13 Oct): NUMBERS sheet per runner + FIELD NUMBERS, Wincanton 14:20 2022 P07 7.777 (ninth) row.
+Same day (Eddie): a repeat (same family, same digits) keeps the higher form at the shown precision (tie = main), in THREADS and NUMBERS;
+H Jupiter – J Jupiter in its own H–J column, once. Changed: test 8 '+ 9 weaker' -> '+ 8 weaker' (J Jup→H Uranus 14.14 shown as /10 1.414,
+99.1); test 9 J Haumea 77.798638 (83.67) -> its /10 form 7.779864 (83.68); P07 silver 0.414 sky + horse + jockey -> two of three."""
 import os, subprocess, sys
 import openpyxl
 from openpyxl.cell.rich_text import CellRichText
@@ -201,8 +204,11 @@ need = ['S Jup→H Uranus Dec 11.10793 → 11.1111 (94.8) [T5]', 'S Uranus→H J
 check('Dynamic Force Uranus cell lists the three hits', all(x in df for x in need), str(df[:8]))
 check('Dynamic Force Uranus tags: mutual, same chart · mutual, across charts · both Jupiters · both charts · directions 4',
       df[0] == 'mutual, same chart · mutual, across charts · both Jupiters · both charts · directions 4', df[0])
-check('cells list hits >= 50 only, no scaled repeat of a main hit (same family, same digits), end "+ 9 weaker" (score-0 not counted)',
-      df[-1] == '+ 9 weaker (see T-tables)' and not any('/10: 1.110793' in x or '/10: 1.414103' in x for x in df)
+check('cells list hits >= 50 only; a repeat (same family, same digits) shown once, the higher form: 11.10793 main (tie 94.8), 14.141031 '
+      'as /10 1.414 (99.1 > 96.9), 145.643439 as /10 9×φ (87.8 > 13.7); "+ 8 weaker" (score-0 and hidden repeats not counted)',
+      df[-1] == '+ 8 weaker (see T-tables)' and not any('/10: 1.110793' in x for x in df)
+      and 'J Jup→H Uranus Dec 14.141031 /10: 1.414103 → 1.414 (99.1) [T4, scaled]' in df
+      and not any(x.startswith('J Jup→H Uranus Dec 14.141031 → 14.14') for x in df)
       and all(float(x.rsplit('(', 1)[1].split(')')[0]) >= 50 for x in df[1:-1]), df[-1])
 cnt = [c.value for c in ur[head.index('runners: mutual, same chart'):]]
 check('Uranus field counts: mutual same chart 1/5, across charts 2/5 (P01, P07), both Jupiters 1/5, either 2/5', cnt == ['1/5', '2/5', '1/5', '2/5'], str(cnt))
@@ -214,7 +220,11 @@ check('P07 NUMBERS row "ninth: 7.77778 / 77.7778" tagged sky + horse + jockey', 
 sky, horse, jock = (str(nr[0][k]).split('\n') for k in (2, 3, 4))
 check('SKY S Jupiter → S Ceres 77.75345 (80.96), HORSE H Jupiter → H Rigel 7.777589 (98.52), JOCKEY J Jupiter → J Haumea 77.798638 (83.67)',
       'S Jup→S Ceres RA 77.75345 → 77.7778 -0.02433 (80.96)' in sky and 'H Jup→H Rigel RA 7.777589 → 7.77778 -0.00019 (98.52)' in horse
-      and 'J Jup→J Haumea GC 77.798638 → 77.7778 +0.02086 (83.67)' in jock, f'{sky} {horse} {jock}')
+      and 'J Jup→J Haumea GC 77.798638 /10: 7.779864 → 7.77778 +0.00209 (83.68) [scaled]' in jock, f'{sky} {horse} {jock}')
+sv = [r for r in wb['P07 NUMBERS'].iter_rows(min_row=4, values_only=True) if r[0] == 'silver: 0.414 / 4.14']
+check('H Jupiter – J Jupiter in its own H–J column, once: P07 silver 0.414 Dec 0.412452 (86.41) only under H–J; tag two of three (was sky + horse + jockey)',
+      len(sv) == 1 and sv[0][1] == 'two of three' and str(sv[0][5]) == 'H Jup→J Jup Dec 0.412452 → 0.414 -0.00176 (86.41)' and sv[0][3] is None
+      and 'J Jup→H Jup' not in str(sv[0][4]), str(sv))
 fn = [r for r in wb['FIELD NUMBERS'].iter_rows(min_row=4, values_only=True) if r[0] == 'ninth: 7.77778 / 77.7778']
 head = [c.value for c in wb['FIELD NUMBERS'][3]]
 check('FIELD NUMBERS lists the number with P07 as holder', len(fn) == 1 and fn[0][[i for i, h in enumerate(head) if str(h).startswith('P07')][0]]

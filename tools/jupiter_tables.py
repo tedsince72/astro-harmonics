@@ -272,7 +272,9 @@ def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None, nums=None)
             if thr is not None:
                 thread_add(thr, tid, f'{short(a)}→{short(b)}', (a, b), pl, v0, ev, sc)
             if nums is not None and KIND[kind] == 'deg':
-                number_add(nums, NUM_COL[tid], f'{short(a)}→{short(b)}', 'Dec' if kind == 'equator' else pl, v0)
+                hj = a.endswith(' Jupiter') and b.endswith(' Jupiter')
+                if not (hj and tid == 'T4'):                   # H Jupiter – J Jupiter: once (from T3), in its own H–J column
+                    number_add(nums, 'H–J' if hj else NUM_COL[tid], f'{short(a)}→{short(b)}', 'Dec' if kind == 'equator' else pl, v0)
         row += 1
     return row + 1, out
 
@@ -584,12 +586,15 @@ def thread_add(thr, tid, lab, pts, pl, v, ev, sc):
     if tid in ('T7', 'T8'):
         dirs.add(f'S X→{tid == "T7" and "H" or "J"} Jup')
     num = lambda v: f'{round(v, 6)}' if tid not in ('T10', 'T11', 'T16') else f'{v:+.6f}'
+    repeat = same_digits(ev, sc)                           # Eddie 13 Oct: a scaled repeat of the main hit - keep the higher, drop the other
+    up = repeat and round(sc['score'], 1) > round(ev['score'], 1)    # higher at the shown precision; a tie keeps the main hit
     if ev and ev.get('score') is not None or tid in ('T10', 'T11') and ev:
         tgt = 'midpoint' if tid in ('T10', 'T11') else 'equal' if tid == 'T16' else ev['target']
         sct = f" ({ev['score']:.1f})" if ev.get('score') is not None else ''
         thr.append({'X': X, 'charts': xch, 'dirs': dirs, 'main': True, 'score': ev.get('score'), 'colour': ev['colour'],
+                    'hidden': up,   # line not shown (the scaled form scores higher); still counts for tags
                     'text': f"{lab} {pl + ' ' if pl else ''}{num(v)} → {tgt}{sct} [{tid}]"})
-    if sc and not same_digits(ev, sc):                     # Eddie 13 Oct: a scaled repeat of the main hit's number is dropped
+    if sc and (not repeat or up):
         thr.append({'X': X, 'charts': xch, 'dirs': set(), 'main': False, 'score': sc['score'], 'colour': sc['colour'],
                     'text': f"{lab} {pl + ' ' if pl else ''}{round(v, 6)} {sc['scale']}: {round(sc['scaled_value'], 6)} → {sc['target']} "
                             f"({sc['score']:.1f}) [{tid}, scaled]"})
@@ -630,7 +635,7 @@ def threads_sheet(wb, runners, fields):
     ws = wb.create_sheet('THREADS', wb.sheetnames.index('FIELD 5'))
     ws.cell(row=1, column=1, value='THREADS: hits inside tolerance linking body X with Jupiter, from T1-T8, T10-T13, T16; a cell lists those '
             'scoring >= 50 (midpoints: within 0.15), main first then scaled x10 / /10 (a scaled repeat of the main hit\'s number - same family, same '
-            'digits - dropped), best first, then "+ n weaker" (score-0 hits not counted); automatic unisons left out. '
+            'digits - shown once, the higher-scoring form; tags still use the main hit), best first, then "+ n weaker" (score-0 hits not counted); automatic unisons left out. '
             'Top line: tags from the main hits >= 50 - mutual, same chart (S Jup->H X and S X->H Jup, or the J pair); mutual, across charts '
             '(S Jup->J X and S X->H Jup, or S Jup->H X and S X->J Jup); both Jupiters (S X->H Jup and S X->J Jup); both charts (natal X in H '
             'and in J); directions = distinct of S Jup->H X, S Jup->J X, S X->H Jup, S X->J Jup. Line colour = score.').font = BOLD
@@ -654,11 +659,11 @@ def threads_sheet(wb, runners, fields):
             for k, t in enumerate(COUNTED):
                 cnt[k] += t in tags
             cnt[-1] += any(t in tags for t in COUNTED)
-            shown = sorted([h for h in hits if strong(h)], key=lambda h: (not h['main'], -(100.0 if h['score'] is None else h['score'])))
+            shown = sorted([h for h in hits if strong(h) and not h.get('hidden')], key=lambda h: (not h['main'], -(100.0 if h['score'] is None else h['score'])))
             rt = CellRichText(TextBlock(InlineFont(b=True), ' · '.join(tags)))
             for h in shown:
                 rt.append(TextBlock(InlineFont(color=FONT.get(h['colour'], '000000')), '\n' + h['text']))
-            weak = sum(1 for h in hits if not strong(h) and round(h['score'], 1) > 0)   # score-0 hits not counted (Eddie 13 Oct)
+            weak = sum(1 for h in hits if not strong(h) and not h.get('hidden') and round(h['score'], 1) > 0)   # score-0 hits not counted (Eddie 13 Oct)
             if weak:
                 rt.append(TextBlock(InlineFont(i=True), f'\n+ {weak} weaker (see T-tables)'))
             c = ws.cell(row=r, column=2 + i, value=rt)
@@ -675,7 +680,7 @@ def threads_sheet(wb, runners, fields):
 # ---------------- NUMBERS (Eddie, 13 Oct 2026)
 NUM_COL = {'SKY': 'SKY', 'T1': 'HORSE', 'T3': 'HORSE', 'T2': 'JOCKEY', 'T4': 'JOCKEY', 'T5': 'SKY→NATAL', 'T6': 'SKY→NATAL',
            'T7': 'SKY→NATAL', 'T8': 'SKY→NATAL'}
-NUM_COLS = ('SKY', 'HORSE', 'JOCKEY', 'SKY→NATAL')
+NUM_COLS = ('SKY', 'HORSE', 'JOCKEY', 'H–J', 'SKY→NATAL')        # H–J: H Jupiter – J Jupiter, counted once, not in the tag
 NUM_MIN = 40.0
 NUM_FAMILIES = ('whole', 'golden', 'phi power', 'ninth', 'sqrt2', 'silver')     # degree-distance families (no conjunction, no ratios)
 
@@ -691,24 +696,23 @@ def num_key(fam, tv):
 
 
 def number_add(nums, col, lab, pl, v):
-    """every degree-distance family scoring >= 40 on v (main) and on 10 v, v / 10 (scaled); a scaled hit on the same number
-    (same family, same digits) as a main hit of v is the same hit and is dropped"""
+    """every degree-distance family scoring >= 40 on v (main) and on 10 v, v / 10 (scaled); forms of v on the same number (same family,
+    same digits) are the same hit: the higher-scoring one is kept (Eddie 13 Oct)"""
     if not v or v <= 0:
         return
-    main = set()
+    found = {}                                             # key -> the kept hit of this value (main or scaled, the higher score)
     for f, scl in ((1.0, ''), (10.0, 'x10'), (0.1, '/10')):
         for d in families.evaluate(v * f, pl, 'deg'):
             if d['family'] not in NUM_FAMILIES or d['score'] < NUM_MIN or not d['tv']:
                 continue
             k = num_key(d['family'], d['tv'])
-            if scl and k in main:
-                continue
-            if not scl:
-                main.add(k)
+            if k in found and round(found[k]['score'], 2) >= round(d['score'], 2):
+                continue                                   # a repeat of the same number (same family, same digits): keep the higher (shown 2 dp; tie = main)
             txt = (f"{lab} {pl} {round(v, 6)} → {d['target']} {d['off']:+.5f} ({d['score']:.2f})" if not scl else
                    f"{lab} {pl} {round(v, 6)} {scl}: {round(v * f, 6)} → {d['target']} {d['off']:+.5f} ({d['score']:.2f}) [scaled]")
-            nums.append({'key': k, 'col': col, 'form': d['target'], 'tv': d['tv'], 'score': d['score'], 'colour': num_colour(d['score']),
-                         'text': txt, 'scaled': bool(scl)})
+            found[k] = {'key': k, 'col': col, 'form': d['target'], 'tv': d['tv'], 'score': d['score'], 'colour': num_colour(d['score']),
+                        'text': txt, 'scaled': bool(scl)}
+    nums.extend(found.values())
 
 
 def num_rows(nums):
@@ -743,8 +747,9 @@ def numbers_sheet(wb, P, R, nums):
     HORSE (T1, T3), JOCKEY (T2, T4), SKY->NATAL (T5-T8); hits >= 40, main or scaled, best first; tag from SKY / HORSE / JOCKEY"""
     ws = wb.create_sheet(f'{P} NUMBERS', wb.sheetnames.index(f'{P} RATIOS') + 1)
     ws.cell(row=1, column=1, value=f"{P} {R['name']} — NUMBERS: degree-distance hits scoring >= 40 per target number (x10 / /10 forms folded; "
-            'main or scaled). SKY = S Jupiter -> sky bodies, stars, equator; HORSE = T1 + T3; JOCKEY = T2 + T4; SKY->NATAL = T5-T8. '
-            'Tag: sky + horse + jockey, or two of three (SKY->NATAL not in the tag). Colour: green >= 80, yellow 50-80, light 40-50.').font = BOLD
+            'main or scaled; a repeat of the same number keeps the higher form). SKY = S Jupiter -> sky bodies, stars, equator; HORSE = T1 + T3; '
+            'JOCKEY = T2 + T4; H–J = H Jupiter – J Jupiter (once; not HORSE or JOCKEY); SKY->NATAL = T5-T8. '
+            'Tag: sky + horse + jockey, or two of three (separate hits; H–J and SKY->NATAL not in the tag). Colour: green >= 80, yellow 50-80, light 40-50.').font = BOLD
     for k, h in enumerate(('number', 'tag') + NUM_COLS):
         c = ws.cell(row=3, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
     rows = num_rows(nums)
