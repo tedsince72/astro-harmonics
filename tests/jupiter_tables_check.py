@@ -6,7 +6,7 @@ RA 14.4444; expected values changed: T6 RA 18 green -> yellow (whole score 62.9)
 Venturous S Uranus Dec 7.008205 yellow -> light (whole score 34.78).
 Same day, Eddie's interval list for ratios (0.15 %, squared): Pholas phi now an interval, phi · golden ratio · Phi, +0.05151 %, score 43.11,
 light (green under the first families.py build, yellow under JR v3 bands); RATIOS BY GROUP sheet checked.
-Test 6 (Eddie 13 Oct): Jupiter return line (information); per-plane automatic unisons (d(S Jup, natal Jup) / d(natal Jup, X) < 0.0015) greyed, not counted.\nTest 5 (Eddie 13 Oct): unison counts, with its field count.\nTest 4 (T16 RA–Dec crossing, Eddie 13 Oct): Sandown 14:25 2021 Nube Negra / Harry Skelton, Jupiter–Orcus J RA = H Dec."""
+Test 6 (Eddie 13 Oct): Jupiter return line (information); per-plane automatic unisons (d(S Jup, natal Jup) / d(natal Jup, X) < 0.0015) greyed, not counted;\nreturn-assisted tag for 0.0015 <= d1/d2 < 0.02; empty RATIOS group headers hidden.\nTest 5 (Eddie 13 Oct): unison counts, with its field count.\nTest 4 (T16 RA–Dec crossing, Eddie 13 Oct): Sandown 14:25 2021 Nube Negra / Harry Skelton, Jupiter–Orcus J RA = H Dec."""
 import os, subprocess, sys
 import openpyxl
 
@@ -127,6 +127,13 @@ check("Cobden's 41 unisons: 20 stay automatic (all RA), 21 genuine (Flat 15, GC 
 rb = [x for x in wb['P07 RATIOS'].iter_rows(values_only=True) if x[6] == '1']
 check('River Bray (P07) T13 J Pluto GC unison: field 2/6 — Cobden\'s J Pluto GC unison is genuine under the per-plane rule',
       len(rb) == 1 and rb[0][3] == 'GC' and rb[0][11] == '2/6', str(rb))
+
+g = [x for x in rs if 'automatic' not in x[11]]
+check("Cobden's 21 genuine unisons all tagged return-assisted (d1/d2 0.0029-0.0157), field count kept",
+      len(g) == 21 and all(x[11].endswith(' return-assisted') for x in g) and sum(x[11].startswith('2/6') for x in g) == 1, str([x[11] for x in g][:3]))
+check("River Bray's J Pluto GC (d1/d2 0.917) not tagged", rb[0][11] == '2/6', rb[0][11])
+heads = [x[0] for x in wb['P03 RATIOS'].iter_rows(values_only=True) if x[0] in ('Perfect', 'Imperfect', 'Dissonant', 'Septimal', 'Harmonic', 'High', 'Phi') and x[1] is None]
+check('P03 RATIOS: no empty group header (no Harmonic section)', 'Harmonic' not in heads, str(heads))
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
