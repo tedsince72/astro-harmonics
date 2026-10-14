@@ -84,7 +84,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score; ratios on the interval
   list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
-  Tests `python3 tests/jupiter_tables_check.py` (70/70). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (72/72). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -94,7 +94,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
 ## jupiter_tables: EQUIDISTANCE (Eddie, 14 Oct 2026; viewing only)
 Jupiter equally far from two bodies X, Y: d(Jup, X) / d(Jup, Y) within unison 1 % (squared score on 1 %), every plane RA, Dec, Flat, GC,
 Equator (Equator = | |Dec Jup| − |Dec X| |, listed only when Jupiter, X and Y are not all on the same side of the equator, as midpoints; a
-chart's own Rahu and Ketu are not paired in Equator). Hits only, best first; stars left out. Each line: both distances, ratio (smaller /
+chart's own Rahu and Ketu are never paired, any plane). Hits only, best first; stars left out. Each line: both distances, ratio (smaller /
 larger), unison offset, score, and "between" (d(X, Y) within 1 % of d(Jup, X) + d(Jup, Y)) or "far side", with d(X, Y) and the sum.
 "X, Y together" (Eddie, 14 Oct): d(X, Y) within the conjunction tolerance in that plane (RA < 1.5; Dec, Equator, Flat, GC < 0.3) -
 tagged, listed at the bottom, shown grey "not counted" in FIELD 17 and left out of its holder counts. A Ketu line with the same numbers
@@ -133,10 +133,10 @@ between / far side; notes "X, Y together" and "(also T17)" (a unison row whose l
   filter (ratio on an interval or all three distances with a family hit; together out; best ratio score first). Ascot 14:30 2012 xlsx
   copied into reference/classic from ~/astronomy-project/racecards (1 runner; P01 T17 no mixed rows, SKY PAIRS 87 rows).
 - SKY JUPITER "SKY STARS" (once per race, background): S Jupiter on two sky stars, filtered as T19.
-- A chart's own Rahu–Ketu pair is left out of Equator in T17, T19 and PAIRS (equal |Dec| by construction; Eddie, 14 Oct: keep).
+- A chart's own Rahu–Ketu pair is left out of every plane in T17, T18, T19, PAIRS, SKY EQ and SKY PAIRS (Eddie, 14 Oct; was Equator only).
 - A Ketu row with the same numbers as the Rahu row is dropped (any plane, also in T18). Test 14: Lingfield P09 H Uranus – H Pluto Equator, 7 / 7 / 14, unison
   1.002238 (60.24), (also T17). Messi (Ascot 19:45 7 Mar 2012) xlsx copied into reference/classic from ~/astronomy-project/racecards/20120307_messi (14 Oct): Venus–Neptune Dec is in neither SKY PAIRS nor T19 (natal 8.839548 / 35.534628, d 44.374176 → ninth 44.4444 (25.60), ratio 4.01996 outside 4 ±0.25 %; sky 0.469427 / 24.936325, ratio 53.12).
-- Ketu is measured in Dec (and Equator) only, never RA / Flat / GC (existing convention, tools/jup2/core.py planes_for: 'RA duplicates Rahu'); found by the Ascot 14:30 2012 checker (14 Oct; it would add 2 SKY PAIRS rows and 8 T17 hits there). Open for Eddie; unchanged.
+- Ketu in every plane (Eddie, 14 Oct, option B): Ketu is measured in RA, Flat and GC as well as Dec / Equator in every table, SKY PAIRS, T17–T19, FIELD sheets and NUMBERS (tables tool only, via own_nodes / Ctx.pair; tools/jup2/core.py planes_for, used by the frozen JR v3, is unchanged). A chart's own Rahu–Ketu pair (H, J, and S Rahu – S Ketu) is never paired or counted, in any plane. Ascot 14:30 2012: SKY PAIRS 87 -> 89 (S Ketu – S Sedna RA 9/5, S Sun – S Ketu GC 8), P01 T17 55 -> 62 (7 Ketu hits; S Jupiter: H Ketu = H Rahu RA gone). Test changes: Newcastle P05 Ketu unisons own rows; Cobden 61 -> 63 unisons (J Ketu RA return-assisted, Flat); Lingfield P11 T18 Vesta–Ketu now kept (horse side Ketu RA 148.226037 / 179.265084, not a Rahu repeat).
 - Sizes (14 Oct, H–J same body only): Lingfield 14:35 2021 (6 runners) tables 1.26 MB + pairs 4.76 MB (44,887 rows). Before that
   change: Lingfield 1.45 + 9.45 MB, York 16:15 2024 (15 runners) 3.63 + 23.18 MB.
 - Timing, one method everywhere (Eddie, 14 Oct): the larger / smaller ratio (orientation fixed at the off) moving linearly toward its

@@ -144,8 +144,8 @@ for P, inv in (('P05', ' (inverted)'), ('P11', '')):
     v, t, o, f, sc = cell(r, 'Flat')
     check(f'{P} T12 {lab} Flat -> 1 · unison · Perfect{inv}, also cell "unison: field 2/6"',
           t == f'1 · unison · Perfect{inv}' and r[COL['Flat'] + 7].value == 'unison: field 2/6', f'{v} {t} {o} {sc} {r[COL["Flat"] + 7].value}')
-rs = [x for x in wb['P05 RATIOS'].iter_rows(values_only=True) if x[6] == '1' and x[1] == 'T12' and x[3] == 'Flat']
-check('P05 RATIOS: the Flat unison row with field 2/6', len(rs) == 1 and rs[0][11] == '2/6', str(rs))
+rs = [x for x in wb['P05 RATIOS'].iter_rows(values_only=True) if x[6] == '1' and x[1] == 'T12' and x[3] == 'Flat' and 'Rahu' in x[2]]
+check('P05 RATIOS: the Rahu Flat unison row with field 2/6 (Ketu Flat 1.008582 is its own row since Ketu is in every plane, 14 Oct)', len(rs) == 1 and rs[0][11] == '2/6', str(rs))
 f12, pl = [], None
 for x in wb['FIELD 12'].iter_rows(values_only=True):
     pl = x[0] if x[0] in ('RA', 'Dec', 'Flat', 'GC') else pl
@@ -170,15 +170,17 @@ check('GC unison J Pluto genuine (d(SJ,JJ) 0.522937 / d(JJ,JPluto) 101.36785 = 0
 rs = [x for x in wb['P09 RATIOS'].iter_rows(values_only=True) if x[6] == '1']
 na = sum('automatic' in x[11] for x in rs)
 gp = sorted(x[3] for x in rs if 'automatic' not in x[11])
-check("Cobden's 61 unisons (1 % tolerance): 20 automatic (all RA), 41 genuine (Flat 20, GC 20, RA 1)",
-      len(rs) == 61 and na == 20 and all(x[3] == 'RA' for x in rs if 'automatic' in x[11])
-      and (gp.count('Flat'), gp.count('GC'), gp.count('RA')) == (20, 20, 1), f'{len(rs)} rows, {na} automatic, genuine {gp}')
+check("Cobden's 63 unisons (1 % tolerance; + J Ketu RA, Flat since Ketu is in every plane, 14 Oct): 20 automatic (all RA), 43 genuine (Flat 21, GC 20, RA 2)",
+      len(rs) == 63 and na == 20 and all(x[3] == 'RA' for x in rs if 'automatic' in x[11])
+      and (gp.count('Flat'), gp.count('GC'), gp.count('RA')) == (21, 20, 2), f'{len(rs)} rows, {na} automatic, genuine {gp}')
 rb = [x for x in wb['P07 RATIOS'].iter_rows(values_only=True) if x[6] == '1']
 check('River Bray (P07) T13 J Pluto GC unison: field 2/6 — Cobden\'s J Pluto GC unison is genuine under the per-plane rule',
       len(rb) == 1 and rb[0][3] == 'GC' and rb[0][11] == '2/6', str(rb))
 
-g = [x for x in rs if 'automatic' not in x[11]]
-check("Cobden's 41 genuine unisons all tagged return-assisted, field count kept (two at 2/6)",
+g = [x for x in rs if 'automatic' not in x[11] and 'Ketu' not in x[2]]
+gk = {x[3]: x[11] for x in rs if 'Ketu' in x[2]}
+check("Cobden's J Ketu unisons: RA 1.001694 return-assisted, Flat 1.009557 not tagged (1/6)", gk == {'RA': '1/6 return-assisted', 'Flat': '1/6'}, str(gk))
+check("Cobden's 41 genuine non-Ketu unisons all tagged return-assisted, field count kept (two at 2/6)",
       len(g) == 41 and all(x[11].endswith(' return-assisted') for x in g) and sum(x[11].startswith('2/6') for x in g) == 2, str([x[11] for x in g][:3]))
 check("River Bray's J Pluto GC (d1/d2 0.917) not tagged", rb[0][11] == '2/6', rb[0][11])
 heads = [x[0] for x in wb['P03 RATIOS'].iter_rows(values_only=True) if x[0] in ('Perfect', 'Imperfect', 'Dissonant', 'Septimal', 'Harmonic', 'High', 'Phi') and x[1] is None]
@@ -355,8 +357,10 @@ check('T18 Uranus–Pluto (both inside 1 %) tagged "both"; block 1 title carries
       str(up[0][18]))
 
 p11 = [r[1] for r in wb['P11'].iter_rows(values_only=True) if r[0] == 'T18']
-check('T18 Ketu repeat dropped even with the planes swapped (P11 Vesta–Ketu = Vesta–Rahu, horse Dec / jockey Equator swapped)',
-      'Vesta–Ketu' not in p11 and 'Vesta–Rahu' in p11, '')
+p11k = [r for r in wb['P11'].iter_rows(values_only=True) if r[0] == 'T18' and r[1] == 'Vesta–Ketu']
+check('T18 P11 Vesta–Ketu kept since Ketu is in every plane (14 Oct): horse side Ketu RA 148.226037 / 179.265084 differs from the Rahu row '
+      '(jockey side Dec 11.035301 / 11.049429 = Rahu Equator)', 'Vesta–Rahu' in p11 and len(p11k) == 1 and p11k[0][2] == 'RA'
+      and p11k[0][3] == 148.226037 and p11k[0][10] == 'Dec' and p11k[0][11] == 11.035301, str(p11k))
 
 print('\nTest 14 (Eddie 14 Oct): T19 sky Jupiter on natal pairs + P09 PAIRS — Lingfield AW 14:35 2021')
 t19 = [r for r in wb['P09'].iter_rows(values_only=True) if r[0] == 'T19']
@@ -411,6 +415,18 @@ for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_table
                     if x[0] != y[0] and x[2:] != y[2:]:
                         mixed.append((n, r[1]))
 check('T17: S Jupiter pairs H–H, J–J or the same body H X – J X only (no other H–J mixed rows; Lingfield, Nottingham)', not mixed, str(mixed[:3]))
+
+own = []
+for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', 'reference/classic/race_batch_20210402_lingfield_aw_1435_pairs.xlsx'):
+    w = openpyxl.load_workbook(f, read_only=True)
+    for n in w.sheetnames:
+        for r in w[n].iter_rows(values_only=True):
+            if r and r[0] in ('T17', 'T18', 'T19', 'PAIRS', 'SKY EQ', 'SKY PAIRS') and isinstance(r[1], str) and isinstance(r[2], str):
+                t = r[2] if r[0] in ('T19', 'PAIRS', 'SKY PAIRS') else r[1]
+                for C in 'SHJ':
+                    if f'{C} Rahu' in t and f'{C} Ketu' in t or (r[0] == 'T18' and t == 'Rahu–Ketu'):
+                        own.append((n, r[0], t))
+check("a chart's own Rahu–Ketu pair never paired, any plane (T17, T18, T19, PAIRS, SKY EQ, SKY PAIRS; Lingfield)", not own, str(own[:3]))
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

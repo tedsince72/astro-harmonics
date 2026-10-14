@@ -146,6 +146,11 @@ def mid_eval(v, span):
 
 
 # ---------------- race context
+def own_nodes(a, b):
+    """a chart's own Rahu-Ketu pair (H Rahu - H Ketu, J ..., S Rahu - S Ketu): never measured, never counted, every plane (Eddie, 14 Oct)"""
+    return a[0] == b[0] and {a[2:], b[2:]} == {'Rahu', 'Ketu'}
+
+
 class Ctx:
     def __init__(self, sky, rates):
         self.S0 = sky
@@ -159,8 +164,9 @@ class Ctx:
         return R[c][b]
 
     def pair(self, R, a, b, pl):
-        """distance a-b in plane pl at the off and at +5 (None if no sky leg or rate n/a)."""
-        if pl not in planes_for(a.split(' ', 1)[1], b.split(' ', 1)[1]):
+        """distance a-b in plane pl at the off and at +5 (None if no sky leg or rate n/a). Ketu is measured in every plane like any
+        body (Eddie, 14 Oct; was Dec only); the equator in Dec only; a chart's own Rahu-Ketu pair is not measured."""
+        if (b.endswith(' equator') and pl != 'Dec') or own_nodes(a, b):
             return None, None
         f = (lambda p, q: abs(p[1])) if b.endswith(' equator') else (lambda p, q: plane_value(p, q, pl))
         v0 = f(self.pos(R, a, 0), self.pos(R, b, 0))
@@ -313,8 +319,6 @@ def mid_rows(ctx, R, triples, plane):
     ix = 0 if plane.startswith('RA') else 1
     out = {}
     for label, e1, e2, m in triples:
-        if plane.startswith('RA') and any(p.split(' ', 1)[1] == 'Ketu' for p in (e1, e2, m)):
-            continue
         vals = []
         for st in (0, 5):
             ps = [ctx.pos(R, p, st) for p in (e1, e2, m)]
@@ -569,7 +573,7 @@ def write_cross(ws, row, ctx, R):
             ra0, ra5 = ctx.pair(R, f'{a} Jupiter', f'{a} {x}', 'RA')
             de0, de5 = ctx.pair(R, f'{b} Jupiter', f'{b} {x}', 'Dec')
             if ra0 is None or de0 is None:
-                continue                                       # Ketu: no RA (mirror of Rahu)
+                continue
             col = 3 + XCOLS * i
             ws.cell(row=row, column=col, value=round(ra0, 6)); ws.cell(row=row, column=col + 1, value=round(de0, 6))
             c = ws.cell(row=row, column=col + 2, value=round(ra0 - de0, 6))
@@ -647,10 +651,10 @@ def eq_family(ctx, v0, v5, pl):
 
 def equi_line(ctx, R, jup, x, y, pl, tid):
     """one plane of Jupiter's distances to X and Y -> dict (inside = within unison 1 %) or None (plane not measured).
-    A chart's Rahu and Ketu are not paired in Equator (equal |Dec| by construction); Equator only when Jupiter, X and Y are not all on one
+    A chart's own Rahu and Ketu are never paired, in any plane (Eddie, 14 Oct); Equator only when Jupiter, X and Y are not all on one
     side of the equator (else it repeats Dec)."""
     tol = families.TOL['1']
-    if pl == 'Equator' and x[0] == y[0] and {x[2:], y[2:]} == {'Rahu', 'Ketu'}:
+    if own_nodes(x, y):
         return None
     if pl == 'Equator':
         ps = [ctx.pos(R, p, 0) for p in (jup, x, y)]
@@ -749,10 +753,10 @@ def pair_rows(ctx, R, stars, t17keys=frozenset(), tid='T19', sky=False):
     out = []
     for blk, pairs in blocks:
         for x, y in pairs:
+            if own_nodes(x, y):                            # a chart's own Rahu-Ketu pair: never, any plane (Eddie 14 Oct)
+                continue
             for pl in EQ_PLANES:
                 if pl == 'Equator':
-                    if x[0] == y[0] and {x[2:], y[2:]} == {'Rahu', 'Ketu'}:
-                        continue
                     ps = [ctx.pos(R, q, 0) for q in (jup, x, y)]
                     if None in ps or (ps[0][1] >= 0) == (ps[1][1] >= 0) == (ps[2][1] >= 0):
                         continue
@@ -1370,7 +1374,7 @@ def main():
                        '(ratio on an interval, or all three distances with a family hit; "X, Y together" left out; best ratio score first): '
                        'd(S Jup, X), d(S Jup, Y), d(X, Y) with their best family (score, timing); ratio larger / smaller on the interval list '
                        '(tapered tolerances, timing); between / far side; planes RA, Dec, Flat, GC, Equator (only when S Jupiter, X, Y '
-                       'straddle the equator; sky Rahu–Ketu not in Equator); a Ketu row repeating the Rahu row dropped')
+                       'straddle the equator); Ketu in every plane; the sky Rahu–Ketu pair never paired; a Ketu row repeating the Rahu row dropped')
     row = write_pairs_rows(ws, row, t19_filter(pair_rows(ctx, R0, [z for z in SKY_BODIES if z != 'Jupiter'], tid='SKY PAIRS', sky=True))) + 1
     row = pairs_header(ws, row, 'SKY STARS (background, once per race): S Jupiter on two sky stars, filtered as T19 (ratio on an interval, '
                        'or all three distances with a family hit; "X, Y together" left out)')
