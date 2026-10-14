@@ -371,7 +371,7 @@ def runner_sheet(wb, P, R, ctx):
     for tid, C in (('T7', 'H'), ('T8', 'J')):
         rows = [(f'S {z} → {C} Jupiter', f'S {z}', f'{C} Jupiter') for z in SKY_BODIES if z in ctx.S0 and z != 'Jupiter']
         row, field[tid] = write_pairs(ws, row, tid, f'every sky body (Moon incl.) → {C} Jupiter, at the off and +5 min', ctx, R, rows, dist, thr, nums)
-    row, _ = write_pairs(ws, row, 'T9', 'Jupiter to Jupiter (S–H, S–J movement tolerance; H–J distance) and Equator values', ctx, R,
+    row, _ = write_pairs(ws, row, 'T9', 'Jupiter to Jupiter (S–H, S–J, H–J distances, scored on the families) and Equator values', ctx, R,
                          [('S Jupiter – H Jupiter', 'S Jupiter', 'H Jupiter'), ('S Jupiter – J Jupiter', 'S Jupiter', 'J Jupiter'),
                           ('H Jupiter – J Jupiter', 'H Jupiter', 'J Jupiter'), ('S Jupiter Equator', 'S Jupiter', 'S equator'),
                           ('H Jupiter Equator', 'H Jupiter', 'H equator'), ('J Jupiter Equator', 'J Jupiter', 'J equator')], move_or)
@@ -851,7 +851,7 @@ def t18_rows(ctx, R, jupH, jupJ):
         h, j = t18_side(ctx, R, jupH, 'H', x, y), t18_side(ctx, R, jupJ, 'J', x, y)
         if (h and h['inside']) or (j and j['inside']):
             rows.append({'pair': f'{x}–{y}', 'x': x, 'y': y, 'H': h, 'J': j})
-    sig = lambda r: tuple((round(r[c]['d1'], 6), round(r[c]['d2'], 6), r[c]['plane']) if r[c] else None for c in 'HJ')
+    sig = lambda r: tuple((round(r[c]['d1'], 6), round(r[c]['d2'], 6)) if r[c] else None for c in 'HJ')    # numbers only, any plane
     rahu = {(r['pair'], sig(r)) for r in rows if 'Rahu' in r['pair']}
     rows = [r for r in rows if not ('Ketu' in r['pair'] and (r['pair'].replace('Ketu', 'Rahu'), sig(r)) in rahu)]
     hin = sorted([r for r in rows if r['H'] and r['H']['inside']], key=lambda r: -r['H']['score'])
@@ -1046,7 +1046,7 @@ def threads_sheet(wb, runners, fields):
     ws = wb.create_sheet('THREADS', wb.sheetnames.index('FIELD 5'))
     ws.cell(row=1, column=1, value='THREADS: hits inside tolerance linking body X with Jupiter, from T1-T8, T10-T13, T16; a cell lists those '
             'scoring >= 50 (midpoints: green / yellow), main first then scaled x10 / /10 (a scaled repeat of the main hit\'s number - same family, same '
-            'digits - shown once, the higher-scoring form; tags still use the main hit), best first, then "+ n weaker" (score-0 hits not counted); automatic unisons left out. '
+            'digits - shown once: the main form unless the scaled one scores > 0.5 higher; tags still use the main hit), best first, then "+ n weaker" (score-0 hits not counted); automatic unisons left out. '
             'Top line: tags from the main hits >= 50 - mutual, same chart (S Jup->H X and S X->H Jup, or the J pair); mutual, across charts '
             '(S Jup->J X and S X->H Jup, or S Jup->H X and S X->J Jup); both Jupiters (S X->H Jup and S X->J Jup); both charts (natal X in H '
             'and in J); directions = distinct of S Jup->H X, S Jup->J X, S X->H Jup, S X->J Jup. Line colour = score.').font = BOLD

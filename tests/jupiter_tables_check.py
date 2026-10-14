@@ -352,6 +352,10 @@ check('T18 Uranus–Pluto (both inside 1 %) tagged "both"; block 1 title carries
       and 'both (horse and jockey inside 1 %): ' in t18[bi[0]][1] and int(t18[bi[0]][1].rsplit(': ', 1)[1]) == sum(r[18] == 'both' for r in b1),
       str(up[0][18]))
 
+p11 = [r[1] for r in wb['P11'].iter_rows(values_only=True) if r[0] == 'T18']
+check('T18 Ketu repeat dropped even with the planes swapped (P11 Vesta–Ketu = Vesta–Rahu, horse Dec / jockey Equator swapped)',
+      'Vesta–Ketu' not in p11 and 'Vesta–Rahu' in p11, '')
+
 print('\nTest 14 (Eddie 14 Oct): T19 sky Jupiter on natal pairs + P09 PAIRS — Lingfield AW 14:35 2021')
 t19 = [r for r in wb['P09'].iter_rows(values_only=True) if r[0] == 'T19']
 uq = [r for r in t19 if r[2] == 'H Uranus – H Pluto' and r[3] == 'Equator']
