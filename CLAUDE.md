@@ -177,7 +177,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 
 ## Where we are (13 Oct 2026)
 - **Planes (14 Oct 2026, Eddie):** jupiter_tables uses RA, Dec and Equator only; Flat and GC removed for noise (every table, SKY sheets,
-  FIELD, NUMBERS, THREADS, pairs workbook). Tests retired / moved to RA, Dec, Equator cases: 5, 6, 7, 8, 9, 11 (65/65). Ascot 14:30 2012:
+  FIELD, NUMBERS, THREADS, pairs workbook). Tests retired / moved to RA, Dec, Equator cases: 5, 6, 7, 8, 9, 11 (65/65).
+  Independent checker (14 Oct) recomputed the moved cases from the input positions (Newcastle P05 / P11 RA Rahu ratios and 2/6, Sandown P07 Vesta 3/2 and J Mars 9/8, Wincanton P01 ninth 11.1111 row and 1/6, Lingfield SKY EQ Mars = Neptune Equator): 0 mismatches. Not yet independently checked: Cobden's 22 unisons, Nottingham Transpluto tags. Ascot 14:30 2012:
   T17 62 -> 35, T18 28 -> 7, T19 351 -> 201, SKY PAIRS 89 -> 52; Lingfield 14:35 2021: T17 306 -> 165, T18 149 -> 59, T19 1840 -> 978,
   SKY PAIRS 100 -> 52, PAIRS 46,477 -> 26,917.
 - **Working view = the tables tool on Eddie's families:** `tools/jupiter_tables.py` on `tools/families.py` (see "Families" above).
