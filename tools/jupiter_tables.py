@@ -720,8 +720,9 @@ def exact_time(ctx, v0, v5, target):
 
 
 def eq_family(ctx, v0, v5, pl):
-    """best family hit of a distance with its score, and its timing when it has a sky leg"""
-    b = families.best(v0, 'Dec' if pl == 'Equator' else pl if pl in ('RA', 'Dec') else None, 'deg')
+    """best family hit of a distance with its score, and its timing when it has a sky leg; no conjunction in the Equator plane
+    (Eddie, 15 Oct 2026: an Equator distance under 0.3 shows a number family or nothing)"""
+    b = families.best(v0, pl if pl in ('RA', 'Dec') else None, 'deg')
     if not b:
         return (round(v0, 6), 'no family', ''), None       # (value cell, family cell, family cell colour)
     return (round(v0, 6), f"→ {b['target']} ({b['family']}, {b['score']:.2f}) · {exact_time(ctx, v0, v5, b['tv'])}", b['colour']), b

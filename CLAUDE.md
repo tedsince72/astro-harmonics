@@ -40,7 +40,9 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   111.1…, 1.222…–1.888…, 12.22…–18.88…, 122.2…–177.7…. Not n/9.
 - √2: 1.414, 14.14, 141.4, 0.707, 7.07, 70.7; silver: 2.414, 24.14, 0.414, 4.14, 41.4. No multiples; tol max(0.5 % of target, 0.025).
   Scored against the exact values (√2 = 1.414213…, 10√2, 100√2, the 1/√2 forms; silver likewise), not the written decimals.
-- Conjunction: RA < 1.5 or Dec < 0.3.
+- Conjunction: RA < 1.5 or Dec < 0.3. Not a family hit in the Equator plane (Eddie, 15 Oct 2026; T17, T18, T19, SKY EQ, SKY PAIRS,
+  PAIRS): an Equator distance under 0.3 shows a number family or nothing. ("X, Y together" in Equator stays < 0.3. The S Jupiter →
+  equator rows of T1–T8 are Dec distances and keep the Dec conjunction.)
 - Ratios: NOT any p/q. Eddie's musical interval list (blank-sheet-design section 10; also docs/sky_dig.md l.840, 871):
   Perfect 1, 2, 3/2, 4/3, 3, 4; Imperfect 5/4, 6/5, 5/3, 8/5, 5/2, 8/3, 9/4; Dissonant √2, 1+1/√2, 9/8, 16/9, 9/5, 15/8, 16/15;
   Septimal 7/4, 7/3, 7/2, 7/5, 7/6, 8/7; Harmonic 5, 6, 7, 8, 9; High 11/5, 11/6, 11/3, 11/8, 11/4, 13/5, 13/8, 13/4;
@@ -100,7 +102,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (72/72). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (73/73). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -197,9 +199,15 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
   71 midpoint only; 7 unisons without a midpoint hit), SKY PAIRS 59 rows (45 ratio, 9 midpoint, 7 midpoint only). Ascot 14:30 2012:
   T19 209 rows (191 ratio, 14 midpoint, 8 midpoint only), SKY PAIRS 53 (40 ratio, 1 midpoint). T18 unchanged (a row is dropped only
   when the whole row repeats). Tests 72/72. Independent checker (15 Oct), recomputed from POSITIONS: every Lingfield T19 row (P01 193,
-  P03 183, P05 153, P07 172, P09 193, P11 154) and SKY PAIRS (59): 0 mismatches, no missing or extra rows. Its note for Eddie: an Equator
-  distance < 0.3 scores as a conjunction family hit (Equator uses the Dec tolerances; families.py names RA and Dec only); 13 T19 rows
-  are listed only because of one, e.g. P01 H Sun – H Ceres Equator d(S Jup, H Sun) 0.116879 → conj (37.26).
+  P03 183, P05 153, P07 172, P09 193, P11 154) and SKY PAIRS (59): 0 mismatches, no missing or extra rows.
+- **No conjunction in the Equator plane (15 Oct 2026, Eddie):** sort kept (higher of ratio score and midpoint total). Rows dropped
+  (listed before only for an Equator conj): Lingfield 14:35 2021 T19 12 (1048 -> 1036; P01 H Sun – H Ceres, J Gonggong – J Transpluto;
+  P03 J Haumea – J Quaoar, J Quaoar – J Transpluto, J Quaoar – J Regulus; P05 J Juno – J Transpluto, H Transpluto – J Transpluto;
+  P09 J Mercury – J Quaoar; P11 J Mercury – J Ceres, J Mercury – J Transpluto, J Chiron – J Transpluto, J Ceres – J Regulus),
+  SKY PAIRS 0 (59); Ascot 14:30 2012 T19 0 (209), SKY PAIRS 0 (53). T17, T18, SKY EQ unchanged. Tests 73/73. Independent checker
+  (15 Oct), from POSITIONS: each of the 12 fails ratio, midpoint and all-three-families without conj (d < 0.3 legs 0.023634–0.239552,
+  ratios 5.95–262.6, closeness <= 16.8 %), each still in P## PAIRS with 'no family' on that leg; completeness of every Equator row in
+  T19 / SKY PAIRS of both races: exact, these 12 only; no '(conj,' on any Equator row. 0 mismatches. (The earlier "13" was a miscount.)
 - **Midpoint scoring revised (14 Oct 2026, Eddie):** closeness >= 90 % (ratio half × 0.5) + distance half × 0.5, total = sum (see Families).
   Midpoint hits, previous version -> revised: Ascot 14:30 2012 T10 0 -> 0, T11 1 -> 2, T17 6 -> 11, T18 horse 3 -> 4 / jockey 3 -> 7,
   T19 5 -> 14, SKY PAIRS 0 -> 1, SKY EQ 0 -> 1; Lingfield 14:35 2021 T10 2 -> 11, T11 1 -> 15, T17 49 -> 138, T18 horse 26 -> 85 /

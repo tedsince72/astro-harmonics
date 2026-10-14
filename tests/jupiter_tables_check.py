@@ -515,5 +515,19 @@ for f in sorted(glob.glob('reference/classic/race_batch_*_jupiter_tables.xlsx') 
 check('no Flat or GC column, row or label in any sheet of the tables and pairs workbooks built in this run',
       not fg and NBUILT[0] >= 6, f'{NBUILT[0]} tables workbooks; {fg[:3]}')
 
+# Eddie 15 Oct 2026: no conjunction family hit in the Equator plane (T17, T18, T19, SKY EQ, SKY PAIRS, PAIRS)
+eqc = []
+for f in sorted(glob.glob('reference/classic/race_batch_*_jupiter_tables.xlsx') + glob.glob('reference/classic/race_batch_*_pairs.xlsx')):
+    if os.path.getmtime(f) < T0:
+        continue
+    w = openpyxl.load_workbook(f, read_only=True)
+    eqc += [(os.path.basename(f), n, r[2]) for n in w.sheetnames for r in w[n].iter_rows(values_only=True)
+            if r and 'Equator' in r and any(isinstance(v, str) and '(conj,' in v for v in r)]
+wbl = openpyxl.load_workbook('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', read_only=True)
+lp9 = [r for r in wbl['P01'].iter_rows(values_only=True) if r[0] == 'T19' and r[2] == 'H Sun – H Ceres' and r[3] == 'Equator']
+check('no conjunction in the Equator plane (Eddie 15 Oct): no Equator row with a conj family cell in any sheet built in this run; '
+      'Lingfield P01 H Sun – H Ceres Equator (d(S Jup, H Sun) 0.116879, listed before only for its conj) gone from T19',
+      not eqc and not lp9, f'{eqc[:3]} {lp9}')
+
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
