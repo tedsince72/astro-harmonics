@@ -478,7 +478,7 @@ def runner_sheet(wb, P, R, ctx):
                     + equi_hits(ctx, R, 'J Jupiter', [p for p in nat if p[0] == 'J' and p != 'J Jupiter'], 'T17')
                     + equi_hits(ctx, R, 'S Jupiter', nat, 'T17'))
     field['T17'].sort(key=lambda h: (h['together'], -h['score']))        # 'X, Y together' lines at the bottom
-    row = write_equi(ws, row, 'T17 EQUIDISTANCE: H Jupiter with two H bodies; J Jupiter with two J bodies; S Jupiter with two natal bodies',
+    row = write_equi(ws, row, 'T17 EQUIDISTANCE: H Jupiter with two H bodies; J Jupiter with two J bodies; S Jupiter with two natal bodies (H–H, J–J, or the same body H X – J X)',
                      field['T17'])
     row, field['T18'] = write_t18(ws, row, ctx, R)
     t17k = frozenset(h['key'] for h in field['T17'])
@@ -690,11 +690,16 @@ def equi_line(ctx, R, jup, x, y, pl, tid):
                 dxy=dxy, sum=sm)
 
 
+def same_rule(x, y):
+    """T17 / T19 pair rule (Eddie, 14 Oct): H-H, J-J, or the same body in both charts (H X - J X); other H-J mixed pairs left out"""
+    return x[0] == y[0] or x[2:] == y[2:]
+
+
 def equi_hits(ctx, R, jup, pts, tid):
     """Jupiter equally far from two bodies: d(Jup, X) / d(Jup, Y) within unison 1 % (squared score), every plane; hits only, best first.
     Jupiter 'between' X and Y when d(X, Y) is within 1 % of d(Jup, X) + d(Jup, Y), otherwise 'far side'. Pairs in a fixed body order, so
-    a pair has one label in every plane and runner."""
-    out = [h for x, y in itertools.combinations(pts, 2) for pl in EQ_PLANES
+    a pair has one label in every plane and runner. Pairs follow same_rule."""
+    out = [h for x, y in itertools.combinations(pts, 2) if same_rule(x, y) for pl in EQ_PLANES
            for h in [equi_line(ctx, R, jup, x, y, pl, tid)] if h and h['inside']]
     # Eddie 14 Oct: a Ketu line with the same numbers as a Rahu line (e.g. X = Ketu in Dec = X = Rahu in Equator) is dropped
     rahu = {(h['label'], round(h['d1'], 6), round(h['d2'], 6)) for h in out if 'Rahu' in h['label']}
@@ -713,7 +718,7 @@ def pair_points(R, C, stars):
 
 
 def pair_rows(ctx, R, stars, t17keys=frozenset(), tid='T19', sky=False):
-    """S Jupiter on every pair X-Y: blocks H-H, J-J, H-J across (sky: S-S stars), every plane. No star-star pairs on a runner (sky:
+    """S Jupiter on every pair X-Y: blocks H-H, J-J, H-J across (sky: S-S, the points given: stars or sky bodies), every plane. No star-star pairs on a runner (sky:
     star-star only). Each row: the three distances with their best family (score, timing), the ratio d(S Jup, X) / d(S Jup, Y)
     (larger / smaller) on the interval list with the tapered tolerances (timing), between / far side, 'X, Y together' tag.
     A Ketu row with the same numbers as the Rahu row is dropped. A unison row also in T17 is marked."""
@@ -1361,6 +1366,12 @@ def main():
                          nums=sky_nums)
     row = write_equi(ws, row, 'EQUIDISTANCE: S Jupiter with two sky bodies',
                      [dict(h, tid='SKY EQ') for h in equi_hits(ctx, R0, 'S Jupiter', [f'S {z}' for z in SKY_BODIES if z in sky and z != 'Jupiter'], 'SKY EQ')])
+    row = pairs_header(ws, row, 'SKY PAIRS (Eddie, 14 Oct): S Jupiter on every pair of sky bodies (Moon included, no stars), filtered as T19 '
+                       '(ratio on an interval, or all three distances with a family hit; "X, Y together" left out; best ratio score first): '
+                       'd(S Jup, X), d(S Jup, Y), d(X, Y) with their best family (score, timing); ratio larger / smaller on the interval list '
+                       '(tapered tolerances, timing); between / far side; planes RA, Dec, Flat, GC, Equator (only when S Jupiter, X, Y '
+                       'straddle the equator; sky Rahu–Ketu not in Equator); a Ketu row repeating the Rahu row dropped')
+    row = write_pairs_rows(ws, row, t19_filter(pair_rows(ctx, R0, [z for z in SKY_BODIES if z != 'Jupiter'], tid='SKY PAIRS', sky=True))) + 1
     row = pairs_header(ws, row, 'SKY STARS (background, once per race): S Jupiter on two sky stars, filtered as T19 (ratio on an interval, '
                        'or all three distances with a family hit; "X, Y together" left out)')
     write_pairs_rows(ws, row, t19_filter(pair_rows(ctx, R0, STARS, tid='SKY STARS', sky=True)))

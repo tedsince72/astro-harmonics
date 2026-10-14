@@ -84,7 +84,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score; ratios on the interval
   list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
-  Tests `python3 tests/jupiter_tables_check.py` (68/68). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (70/70). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -106,8 +106,8 @@ family hit with a sky leg; natal-only lines and legs show "fixed" (beyond 50 yea
 FIELD 17 cells add the unison timing. Test 12: Lingfield AW 14:35 2021 (batch copied from ~/astronomy-project/racecards), P09 Pholas,
 S Jupiter: H Uranus = H Pluto Equator 7.004077 / 6.988434 (between, 13.992511): whole 7, 7, 14; unison applying, exact 17:38.
 - SKY JUPITER sheet (once per race): S Jupiter with any two sky bodies (Moon included).
-- Runner sheets T17: H Jupiter with two H bodies; J Jupiter with two J bodies; S Jupiter with two of the runner's natal bodies (H, J or one
-  of each). FIELD 17: runners side by side, holders k/n, most held first.
+- Runner sheets T17: H Jupiter with two H bodies; J Jupiter with two J bodies; S Jupiter with two of the runner's natal bodies, same pair
+  rule as T19 (Eddie, 14 Oct): H–H, J–J, or the same body in both charts (H X – J X); other H–J mixed pairs (e.g. H Pluto = J Mars) left out. FIELD 17: runners side by side, holders k/n, most held first.
 - Test 11: Beverley 14:05 2024 (sky-only workbook copied into reference/classic from ~/astronomy-project/sky_0608_wb): S Jupiter–S Ceres GC
   133.11392 / S Jupiter–S Pallas GC 133.19155, ratio 0.999417, far side (Ceres–Pallas 71.55442).
 
@@ -129,6 +129,9 @@ between / far side; notes "X, Y together" and "(also T17)" (a unison row whose l
   distances have a family hit; "together" rows left out; best ratio score first.
 - P## PAIRS (one sheet per runner, in a separate workbook race_batch_<yyyymmdd>_<course>_<hhmm>_pairs.xlsx written next to the
   tables workbook, also via run_card_swiss.py --tables): every pair unfiltered, natal bodies + all 22 stars; no star–star pairs; together rows tagged.
+- SKY JUPITER "SKY PAIRS" (Eddie, 14 Oct; once per race): S Jupiter on every pair of sky bodies (Moon included, no stars), T19 rows and
+  filter (ratio on an interval or all three distances with a family hit; together out; best ratio score first). Ascot 14:30 2012 xlsx
+  copied into reference/classic from ~/astronomy-project/racecards (1 runner; P01 T17 no mixed rows, SKY PAIRS 87 rows).
 - SKY JUPITER "SKY STARS" (once per race, background): S Jupiter on two sky stars, filtered as T19.
 - A chart's own Rahu–Ketu pair is left out of Equator in T17, T19 and PAIRS (equal |Dec| by construction; Eddie, 14 Oct: keep).
 - A Ketu row with the same numbers as the Rahu row is dropped (any plane, also in T18). Test 14: Lingfield P09 H Uranus – H Pluto Equator, 7 / 7 / 14, unison

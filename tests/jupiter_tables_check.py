@@ -390,5 +390,27 @@ check('P09 PAIRS unfiltered (blocks H–H, J–J, H–J; outside ratios plain; t
 sk = [r for r in wb['SKY JUPITER'].iter_rows(values_only=True) if r[0] == 'SKY STARS' and r[3]]
 check('SKY JUPITER: S Jupiter on two sky stars (background, star–star only)', sk and all(r[1] == 'S–S' for r in sk), f'{len(sk)} rows')
 
+# Eddie 14 Oct: SKY PAIRS (S Jupiter on two sky bodies, Moon included, no stars, filtered as T19) and the T17 pair rule
+STARN = ('Algol', 'Pleiades', 'Capella', 'Sirius', 'Procyon', 'Alkaid', 'Algorab', 'Spica', 'Arcturus', 'Alphecca', 'Vega', 'Deneb Algedi',
+         'Rigel', 'Betelgeuse', 'Polaris', 'Castor', 'Altair', 'Bellatrix', 'Aldebaran', 'Regulus', 'Antares', 'Fomalhaut')
+sp = [r for r in wb['SKY JUPITER'].iter_rows(values_only=True) if r[0] == 'SKY PAIRS' and r[3]]
+spc = [r[13] for r in sp if r[13] is not None]
+check('SKY PAIRS: S Jupiter on two sky bodies (S–S, no stars, no together, interval hit or all three families, best ratio score first)',
+      sp and all(r[1] == 'S–S' and not any(q[2:] in STARN for q in r[2].split(' – ')) for r in sp)
+      and not any(r[16] and 'together' in r[16] for r in sp) and spc == sorted(spc, reverse=True)
+      and all(r[13] is not None or all(c and c.startswith('→') for c in (r[5], r[7], r[9])) for r in sp), f'{len(sp)} rows')
+mixed = []
+for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx',
+          'reference/classic/race_batch_20220601_nottingham_1530_jupiter_tables.xlsx'):
+    w = openpyxl.load_workbook(f, read_only=True)
+    for n in w.sheetnames:
+        if n[0] == 'P' and n[1:].isdigit():
+            for r in w[n].iter_rows(values_only=True):
+                if r[0] == 'T17' and r[2] and isinstance(r[1], str) and ': ' in r[1]:
+                    x, y = r[1].split(': ', 1)[1].split(' = ')
+                    if x[0] != y[0] and x[2:] != y[2:]:
+                        mixed.append((n, r[1]))
+check('T17: S Jupiter pairs H–H, J–J or the same body H X – J X only (no other H–J mixed rows; Lingfield, Nottingham)', not mixed, str(mixed[:3]))
+
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
