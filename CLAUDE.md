@@ -83,7 +83,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score; ratios on the interval
   list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
-  Tests `python3 tests/jupiter_tables_check.py` (56/56). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (59/59). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -109,6 +109,13 @@ S Jupiter: H Uranus = H Pluto Equator 7.004077 / 6.988434 (between, 13.992511): 
   of each). FIELD 17: runners side by side, holders k/n, most held first.
 - Test 11: Beverley 14:05 2024 (sky-only workbook copied into reference/classic from ~/astronomy-project/sky_0608_wb): S Jupiter–S Ceres GC
   133.11392 / S Jupiter–S Pallas GC 133.19155, ratio 0.999417, far side (Ceres–Pallas 71.55442).
+
+T18 (Eddie, 14 Oct; each runner sheet): the same equidistance pair side by side for horse and jockey. Block 1 "S Jupiter: H X = H Y" |
+"S Jupiter: J X = J Y"; block 2 "H Jupiter: H X = H Y" | "J Jupiter: J X = J Y". One row per body pair X–Y (bodies in both charts,
+Jupiter excluded); each side its best plane (inside 1 %, highest score; "X, Y together" planes left out) with both distances, ratio,
+unison offset, score, between / far side, timing; a side not inside shows its closest plane (smallest offset) plain, uncoloured.
+Horse-inside rows first by the horse's score, then jockey-only rows by the jockey's; a Ketu row repeating the Rahu row dropped.
+Test 13: Lingfield 14:35 2021 P09 Uranus–Pluto, horse Equator 0.997767 | jockey Dec 0.994741.
 
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the

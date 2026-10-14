@@ -5,7 +5,7 @@ INPUT = a race_batch_<yyyymmdd>_<course>_<hhmm>.xlsx (TRANS, P01..Pnn, META) or 
 (<course>_<hhmm>_<yyyymmdd>/<race>__P##.xlsx). Output: race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx next to the batch
 (for a folder: in reference/classic/), unless --out.
 
-Sheets: POSITIONS; SKY JUPITER (+ EQUIDISTANCE, 14 Oct); one sheet per runner (P01, P03, ...: tables 1-17; T17 equidistance) + P## RATIOS; THREADS (13 Oct: hits linking each body
+Sheets: POSITIONS; SKY JUPITER (+ EQUIDISTANCE, 14 Oct); one sheet per runner (P01, P03, ...: tables 1-18; T17 equidistance, T18 horse | jockey side by side) + P## RATIOS; THREADS (13 Oct: hits linking each body
 with Jupiter, per runner, tags and field counts - see threads_sheet); P## NUMBERS + FIELD NUMBERS (13 Oct: target numbers, x10 / /10
 folded, SKY / HORSE / JOCKEY / SKY->NATAL - see numbers_sheet); FIELD 5-8, 10, 11, 12-17.
 Each value (13 Oct 2026, Eddie's correction): every family of tools/families.py (Eddie's definitions, his scores from
@@ -480,6 +480,7 @@ def runner_sheet(wb, P, R, ctx):
     field['T17'].sort(key=lambda h: -h['score'])
     row = write_equi(ws, row, 'T17 EQUIDISTANCE: H Jupiter with two H bodies; J Jupiter with two J bodies; S Jupiter with two natal bodies',
                      field['T17'])
+    row, field['T18'] = write_t18(ws, row, ctx, R)
     for (lab, cn), (d, ev) in field['T16'].items():
         x = lab.split('–', 1)[1]
         a, b = cn[0], cn.split('= ')[1][0]
@@ -635,55 +636,136 @@ def eq_family(ctx, v0, v5, pl):
     return (round(v0, 6), f"→ {b['target']} ({b['family']}, {b['score']:.2f}) · {exact_time(ctx, v0, v5, b['tv'])}", b['colour']), b
 
 
+def equi_line(ctx, R, jup, x, y, pl, tid):
+    """one plane of Jupiter's distances to X and Y -> dict (inside = within unison 1 %) or None (plane not measured).
+    A chart's Rahu and Ketu are not paired in Equator (equal |Dec| by construction); Equator only when Jupiter, X and Y are not all on one
+    side of the equator (else it repeats Dec)."""
+    tol = families.TOL['1']
+    if pl == 'Equator' and x[0] == y[0] and {x[2:], y[2:]} == {'Rahu', 'Ketu'}:
+        return None
+    if pl == 'Equator':
+        ps = [ctx.pos(R, p, 0) for p in (jup, x, y)]
+        if None in ps or (ps[0][1] >= 0) == (ps[1][1] >= 0) == (ps[2][1] >= 0):
+            return None
+    (dx, dx5), (dy, dy5) = eq_dist2(ctx, R, jup, x, pl), eq_dist2(ctx, R, jup, y, pl)
+    if not dx or not dy:
+        return None
+    dev = (max(dx, dy) / min(dx, dy) - 1) * 100
+    base = {'tid': tid, 'label': f'{jup}: {x} = {y}', 'key': (f'{jup}: {x} = {y}', pl), 'plane': pl, 'd1': dx, 'd2': dy,
+            'ratio': min(dx, dy) / max(dx, dy), 'off': dev, 'inside': dev < tol}
+    if dev >= tol:
+        return base
+    sc = (10.0 * (tol - dev) / tol) ** 2
+    dxy, dxy5 = eq_dist2(ctx, R, x, y, pl)
+    sm = dx + dy
+    # +5 min and timing: q = d(Jup, X) / d(Jup, Y) moves linearly; exact unison when q = 1
+    n5 = dx if dx5 is None else dx5
+    m5 = dy if dy5 is None else dy5
+    if dx5 is None and dy5 is None:
+        r5, arw, tim = None, None, 'fixed'
+    elif 'n/a' in (dx5, dy5) or not n5 or not m5:
+        r5, arw, tim = 'n/a', 'n/a', 'n/a (rate)'
+    else:
+        q0, q5 = dx / dy, n5 / m5
+        r5 = min(n5, m5) / max(n5, m5)
+        arw = '-> toward' if abs(q5 - 1) < abs(q0 - 1) else '<- away'
+        tim = exact_time(ctx, q0, q5, 1.0)
+    fams = [eq_family(ctx, dx, dx5, pl)[0], eq_family(ctx, dy, dy5, pl)[0],
+            eq_family(ctx, dxy, dxy5, pl)[0] if dxy else (None, None, '')]
+    pos = 'between' if dxy is not None and abs(dxy - sm) <= 0.01 * sm else 'far side'
+    together = dxy is not None and dxy < (families.CONJ['RA'] if pl == 'RA' else families.CONJ['Dec'])
+    if together:                                           # Eddie 14 Oct: X and Y in conjunction in that plane
+        pos += ' · X, Y together'
+    return dict(base, together=together, fams=fams, r5=r5, arrow=arw, timing=tim, score=sc, colour=families.colour(sc), pos=pos,
+                dxy=dxy, sum=sm)
+
+
 def equi_hits(ctx, R, jup, pts, tid):
     """Jupiter equally far from two bodies: d(Jup, X) / d(Jup, Y) within unison 1 % (squared score), every plane; hits only, best first.
-    Jupiter 'between' X and Y when d(X, Y) is within 1 % of d(Jup, X) + d(Jup, Y), otherwise 'far side'. A chart's Rahu and Ketu are not
-    paired in Equator (equal |Dec| by construction)."""
-    tol = families.TOL['1']
-    out = []
-    for x, y in itertools.combinations(pts, 2):
-        for pl in EQ_PLANES:
-            if pl == 'Equator' and x[0] == y[0] and {x[2:], y[2:]} == {'Rahu', 'Ketu'}:
-                continue                                   # same chart's nodes: |Dec| equal by construction
-            if pl == 'Equator':                            # as midpoints: only when the three are not all on one side (else it repeats Dec)
-                ps = [ctx.pos(R, p, 0) for p in (jup, x, y)]
-                if None in ps or (ps[0][1] >= 0) == (ps[1][1] >= 0) == (ps[2][1] >= 0):
-                    continue
-            (dx, dx5), (dy, dy5) = eq_dist2(ctx, R, jup, x, pl), eq_dist2(ctx, R, jup, y, pl)
-            if not dx or not dy:
-                continue
-            x2, y2, dx2, dy2 = x, y, dx, dy                # fixed body order, so a pair has one label in every plane and runner
-            dev = (max(dx, dy) / min(dx, dy) - 1) * 100
-            if dev >= tol:
-                continue
-            sc = (10.0 * (tol - dev) / tol) ** 2
-            dxy, dxy5 = eq_dist2(ctx, R, x2, y2, pl)
-            sm = dx2 + dy2
-            # +5 min and timing: q = d(Jup, X) / d(Jup, Y) moves linearly; exact unison when q = 1
-            n5 = dx if dx5 is None else dx5
-            m5 = dy if dy5 is None else dy5
-            if dx5 is None and dy5 is None:
-                r5, arw, tim = None, None, 'fixed'
-            elif 'n/a' in (dx5, dy5) or not n5 or not m5:
-                r5, arw, tim = 'n/a', 'n/a', 'n/a (rate)'
-            else:
-                q0, q5 = dx / dy, n5 / m5
-                r5 = min(n5, m5) / max(n5, m5)
-                arw = '-> toward' if abs(q5 - 1) < abs(q0 - 1) else '<- away'
-                tim = exact_time(ctx, q0, q5, 1.0)
-            fams = [eq_family(ctx, dx, dx5, pl)[0], eq_family(ctx, dy, dy5, pl)[0],
-                    eq_family(ctx, dxy, dxy5, pl)[0] if dxy else (None, None, '')]
-            pos = 'between' if dxy is not None and abs(dxy - sm) <= 0.01 * sm else 'far side'
-            together = dxy is not None and dxy < (families.CONJ['RA'] if pl == 'RA' else families.CONJ['Dec'])
-            if together:                                   # Eddie 14 Oct: X and Y in conjunction in that plane
-                pos += ' · X, Y together'
-            out.append({'together': together, 'fams': fams, 'r5': r5, 'arrow': arw, 'timing': tim, 'tid': tid, 'label': f'{jup}: {x2} = {y2}', 'key': (f'{jup}: {x2} = {y2}', pl), 'plane': pl, 'd1': dx2, 'd2': dy2,
-                        'ratio': min(dx, dy) / max(dx, dy), 'off': dev, 'score': sc, 'colour': families.colour(sc), 'pos': pos, 'dxy': dxy, 'sum': sm})
+    Jupiter 'between' X and Y when d(X, Y) is within 1 % of d(Jup, X) + d(Jup, Y), otherwise 'far side'. Pairs in a fixed body order, so
+    a pair has one label in every plane and runner."""
+    out = [h for x, y in itertools.combinations(pts, 2) for pl in EQ_PLANES
+           for h in [equi_line(ctx, R, jup, x, y, pl, tid)] if h and h['inside']]
     # Eddie 14 Oct: a Ketu line with the same numbers as a Rahu line (e.g. X = Ketu in Dec = X = Rahu in Equator) is dropped
     rahu = {(h['label'], round(h['d1'], 6), round(h['d2'], 6)) for h in out if 'Rahu' in h['label']}
     out = [h for h in out if not ('Ketu' in h['label'] and
                                   (h['label'].replace('Ketu', 'Rahu'), round(h['d1'], 6), round(h['d2'], 6)) in rahu)]
     return sorted(out, key=lambda h: (h['together'], -h['score']))      # 'X, Y together' lines at the bottom
+
+
+# ---------------- T18: equidistance, horse and jockey side by side (Eddie, 14 Oct 2026)
+T18_SIDE = ('plane', 'd(Jup, X)', 'd(Jup, Y)', 'ratio', 'unison offset', 'score', 'Jupiter', 'timing')
+
+
+def t18_side(ctx, R, jup, C, x, y):
+    """best plane of one side: the inside (not 'together') plane with the highest score, else the closest plane (smallest offset) plain"""
+    ls = [h for pl in EQ_PLANES for h in [equi_line(ctx, R, jup, f'{C} {x}', f'{C} {y}', pl, 'T18')] if h]
+    ins = [h for h in ls if h['inside'] and not h['together']]
+    if ins:
+        return max(ins, key=lambda h: h['score'])
+    out = [h for h in ls if not h['inside']] or ls
+    return dict(min(out, key=lambda h: h['off']), inside=False) if out else None
+
+
+def t18_rows(ctx, R, jupH, jupJ):
+    """rows per body pair X-Y (bodies in both charts, Jupiter excluded): horse side, jockey side; rows with an inside side only;
+    horse-inside rows first by the horse's score, then jockey-only rows by the jockey's score; a Ketu row repeating the Rahu row dropped"""
+    bodies = [b for b in NATAL_BODIES if b != 'Jupiter' and b in R['H'] and b in R['J']]
+    rows = []
+    for x, y in itertools.combinations(bodies, 2):
+        h, j = t18_side(ctx, R, jupH, 'H', x, y), t18_side(ctx, R, jupJ, 'J', x, y)
+        if (h and h['inside']) or (j and j['inside']):
+            rows.append({'pair': f'{x}–{y}', 'x': x, 'y': y, 'H': h, 'J': j})
+    sig = lambda r: tuple((round(r[c]['d1'], 6), round(r[c]['d2'], 6), r[c]['plane']) if r[c] else None for c in 'HJ')
+    rahu = {(r['pair'], sig(r)) for r in rows if 'Rahu' in r['pair']}
+    rows = [r for r in rows if not ('Ketu' in r['pair'] and (r['pair'].replace('Ketu', 'Rahu'), sig(r)) in rahu)]
+    hin = sorted([r for r in rows if r['H'] and r['H']['inside']], key=lambda r: -r['H']['score'])
+    jin = sorted([r for r in rows if not (r['H'] and r['H']['inside'])], key=lambda r: -r['J']['score'])
+    return hin + jin
+
+
+def t18_cells(h):
+    if not h:
+        return [None] * len(T18_SIDE)
+    if not h['inside']:
+        return [h['plane'], round(h['d1'], 6), round(h['d2'], 6), round(h['ratio'], 6), f"unison +{h['off']:.5f}% (outside 1 %)", None, None, None]
+    return [h['plane'], round(h['d1'], 6), round(h['d2'], 6), round(h['ratio'], 6), f"unison +{h['off']:.5f}%", round(h['score'], 2), h['pos'],
+            h['timing']]
+
+
+def write_t18(ws, row, ctx, R):
+    """T18: the same equidistance pair side by side for horse and jockey. Block 1: S Jupiter: H X = H Y | S Jupiter: J X = J Y.
+    Block 2: H Jupiter: H X = H Y | J Jupiter: J X = J Y. Each side its best plane (inside 1 %, highest score; 'together' planes left
+    out); a side not inside shows its closest plane's ratio plain, uncoloured."""
+    out = {}
+    for blk, (jh, jj, title) in enumerate((('S Jupiter', 'S Jupiter', 'S Jupiter: H X = H Y  |  S Jupiter: J X = J Y'),
+                                          ('H Jupiter', 'J Jupiter', 'H Jupiter: H X = H Y  |  J Jupiter: J X = J Y')), start=1):
+        ws.cell(row=row, column=1, value='T18').font = BOLD
+        ws.cell(row=row, column=2, value=f'T18 block {blk} — equidistance, horse and jockey side by side: {title}. Each side its best plane '
+                '(inside unison 1 %, highest score; "X, Y together" planes left out); a side not inside shows its closest plane plain. '
+                'Horse-inside rows first (closest to unison first), then jockey-only rows.').font = BOLD
+        row += 1
+        heads = ('table', 'X–Y') + tuple(f'horse {h}' for h in T18_SIDE) + tuple(f'jockey {h}' for h in T18_SIDE)
+        for k, h in enumerate(heads):
+            c = ws.cell(row=row, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
+        row += 1
+        rows = t18_rows(ctx, R, jh, jj)
+        out[blk] = rows
+        for r in rows:
+            vals = ['T18', r['pair']] + t18_cells(r['H']) + t18_cells(r['J'])
+            for k, v in enumerate(vals):
+                ws.cell(row=row, column=1 + k, value=v)
+            for k, c in enumerate('HJ'):
+                h = r[c]
+                col = 3 + k * len(T18_SIDE)
+                if h and h['inside']:
+                    ws.cell(row=row, column=col + 3).fill = FILL[h['colour']]
+                    ws.cell(row=row, column=col + 5).number_format = '0.00'
+            row += 1
+        if not rows:
+            ws.cell(row=row, column=2, value='(no pair inside 1 % on either side)'); row += 1
+        row += 1
+    return row, out
 
 
 def write_equi(ws, row, title, hits):

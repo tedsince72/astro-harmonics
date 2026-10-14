@@ -41,7 +41,8 @@ T17 + FIELD 17 (Wincanton). Same day: "X, Y together" (d(X, Y) < 1.5 RA / 0.3 ot
 FIELD 17; a Ketu line with the same numbers as a Rahu line dropped. Changed: test 11 best-first check now above the together lines.
 Test 12 (Eddie 14 Oct): EQUIDISTANCE family hits for d(Jup, X), d(Jup, Y), d(X, Y) and timing (ratio +5, arrow, applying / separating,
 exact clock time, linear) - Lingfield AW 14:35 2021 batch (copied from ~/astronomy-project/racecards/20210402_lingfield_aw; xlsx only).
-Same day: each family hit split into a value cell and a family cell (coloured by its score); test 12 column positions changed."""
+Same day: each family hit split into a value cell and a family cell (coloured by its score); test 12 column positions changed.
+Test 13 (Eddie 14 Oct): T18 - equidistance pair side by side for horse and jockey (block 1 S Jupiter, block 2 natal Jupiters)."""
 import os, subprocess, sys
 import openpyxl
 from openpyxl.cell.rich_text import CellRichText
@@ -330,6 +331,21 @@ na = [r for r in wb['P09'].iter_rows(values_only=True) if r[0] == 'T17' and r[2]
 check('natal-only lines: timing "fixed", no +5 ratio; each family hit "· fixed"', na and all(r[19] == 'fixed' and r[17] is None
       and all(c.endswith('· fixed') for c in r[12:17:2] if c and c.startswith('→')) for r in na),
       str(len(na)))
+
+print('\nTest 13 (Eddie 14 Oct): T18 horse | jockey equidistance side by side — Lingfield AW 14:35 2021, P09')
+t18 = [r for r in wb['P09'].iter_rows(values_only=True) if r[0] == 'T18']
+bi = [i for i, r in enumerate(t18) if str(r[1]).startswith('T18 block')]
+b1 = [r for r in t18[bi[0] + 1:bi[1]] if r[1] != 'X–Y']
+b2 = [r for r in t18[bi[1] + 1:] if r[1] != 'X–Y']
+up = [r for r in b1 if r[1] == 'Uranus–Pluto']
+check('block 1 row Uranus–Pluto: horse Equator 0.997767 | jockey Dec 0.994741',
+      len(up) == 1 and up[0][2] == 'Equator' and up[0][5] == 0.997767 and up[0][10] == 'Dec' and up[0][13] == 0.994741, str(up))
+hs = [r for r in b1 if r[7] is not None]
+js = [r for r in b1 if r[7] is None]
+check('block 1 sorted: horse-inside rows by horse score, then jockey-only rows by jockey score; outside side plain (no score)',
+      b1 == hs + js and [r[7] for r in hs] == sorted([r[7] for r in hs], reverse=True)
+      and [r[15] for r in js] == sorted([r[15] for r in js], reverse=True) and all(r[6].endswith('(outside 1 %)') for r in js if r[6]), '')
+check('no "X, Y together" side; block 2 present', not any('together' in str(c) for r in b1 + b2 for c in r) and len(b2) > 0, f'{len(b1)} / {len(b2)} rows')
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
