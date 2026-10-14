@@ -65,8 +65,11 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   counted nowhere; both offsets shown plain. Planes: RA = the closer of the near and far midpoint, labelled near / far, never both; Dec
   (signed); Equator (|Dec| of all three, only when not all on one side). Columns: offset, (RA: near / far), closeness %, ratio half,
   distance half, total, timing (larger / smaller ratio toward unison). THREADS: every midpoint hit counts, whatever its total.
-  T19 / SKY PAIRS / PAIRS: a row with closeness >= 90 % that is a midpoint hit is the row's unison hit (total), even where the interval
-  list would say 16/15; a unison on the interval list that is not a midpoint hit is not a hit ('— midpoint outside'). The old span
+  T19 / SKY PAIRS / PAIRS (Eddie, 15 Oct): the ratio column stays on the interval list only (unison 1 %, 16/15 its own tolerance); the
+  midpoint result (offset, closeness %, ratio half, distance half, midpoint total) is in its own cells; a row is listed if the ratio or
+  the midpoint is a hit (or all three distances have a family hit); sort by the higher of ratio score and midpoint total. E.g. Lingfield
+  P09 H Pluto – H Sedna Equator: ratio 1.011174 outside unison (+1.11741 %), midpoint 98.8949 %, 39.56 + 27.36 = 66.92; Ascot 14:30 2012
+  P01 J Venus – J Neptune Equator: 16/15 1.065636 (12.67) and midpoint 93.8406 % (17.00), both shown. The old span
   tolerance and the first (1 %, mean) version are gone. The three Jupiter-only lines are in T11 (and FIELD 11) only.
   Test 15: Haydock 14:20 2021 P03 Golden Flame, T11 H Jupiter / J Jupiter | S Uranus RA far: offset 0.032036, distances 173.135571 /
   173.071498 (POSITIONS), closeness 99.963 %, ratio half 49.63, distance half 43.80, total 93.43. Short span (found by the rule):
@@ -97,7 +100,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (71/71). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (72/72). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -150,7 +153,7 @@ between / far side; notes "X, Y together" and "(also T17)" (a unison row whose l
 - SKY JUPITER "SKY STARS" (once per race, background): S Jupiter on two sky stars, filtered as T19.
 - A chart's own Rahu–Ketu pair is left out of every plane in T17, T18, T19, PAIRS, SKY EQ and SKY PAIRS (Eddie, 14 Oct; was Equator only).
 - A Ketu row with the same numbers as the Rahu row is dropped (any plane, also in T18). Test 14: Lingfield P09 H Uranus – H Pluto Equator, 7 / 7 / 14, unison
-  1.002238 (60.24), (also T17). Messi (Ascot 19:45 7 Mar 2012) xlsx copied into reference/classic from ~/astronomy-project/racecards/20120307_messi (14 Oct): Venus–Neptune Dec is in neither SKY PAIRS nor T19 (natal 8.839548 / 35.534628, d 44.374176 → ninth 44.4444 (25.60), ratio 4.01996 outside 4 ±0.25 %; sky 0.469427 / 24.936325, ratio 53.12).
+  1.002238 (60.24), midpoint total 92.71, (also T17 = a midpoint hit whose line is in T17). Messi (Ascot 19:45 7 Mar 2012) xlsx copied into reference/classic from ~/astronomy-project/racecards/20120307_messi (14 Oct): Venus–Neptune Dec is in neither SKY PAIRS nor T19 (natal 8.839548 / 35.534628, d 44.374176 → ninth 44.4444 (25.60), ratio 4.01996 outside 4 ±0.25 %; sky 0.469427 / 24.936325, ratio 53.12).
 - Ketu in every plane (Eddie, 14 Oct, option B): Ketu is measured in RA (and, until 14 Oct, Flat and GC) as well as Dec / Equator in every table, SKY PAIRS, T17–T19, FIELD sheets and NUMBERS (tables tool only, via own_nodes / Ctx.pair; tools/jup2/core.py planes_for, used by the frozen JR v3, is unchanged). A chart's own Rahu–Ketu pair (H, J, and S Rahu – S Ketu) is never paired or counted, in any plane. Ascot 14:30 2012: SKY PAIRS 87 -> 89 (S Ketu – S Sedna RA 9/5, S Sun – S Ketu GC 8), P01 T17 55 -> 62 (7 Ketu hits; S Jupiter: H Ketu = H Rahu RA gone). Test changes: Newcastle P05 Ketu unisons own rows; Cobden 61 -> 63 unisons (J Ketu RA return-assisted, Flat); Lingfield P11 T18 Vesta–Ketu now kept (horse side Ketu RA 148.226037 / 179.265084, not a Rahu repeat).
 - Sizes after Flat / GC removal (14 Oct): Lingfield 14:35 2021 tables 0.89 MB + pairs 2.85 MB (26,917 rows); Ascot 14:30 2012
   0.20 + 0.48 MB. Earlier sizes (14 Oct, H–J same body only, with Flat / GC): Lingfield 14:35 2021 (6 runners) tables 1.26 MB + pairs 4.76 MB (44,887 rows). Before that
@@ -189,6 +192,14 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **T19 / SKY PAIRS / PAIRS split (15 Oct 2026, Eddie):** ratio on the interval list only, midpoint in its own cells (midpoint total
+  column added), listed if either is a hit. Lingfield 14:35 2021: T19 1048 rows (917 ratio hits, 35 of them unison; 99 midpoint hits,
+  71 midpoint only; 7 unisons without a midpoint hit), SKY PAIRS 59 rows (45 ratio, 9 midpoint, 7 midpoint only). Ascot 14:30 2012:
+  T19 209 rows (191 ratio, 14 midpoint, 8 midpoint only), SKY PAIRS 53 (40 ratio, 1 midpoint). T18 unchanged (a row is dropped only
+  when the whole row repeats). Tests 72/72. Independent checker (15 Oct), recomputed from POSITIONS: every Lingfield T19 row (P01 193,
+  P03 183, P05 153, P07 172, P09 193, P11 154) and SKY PAIRS (59): 0 mismatches, no missing or extra rows. Its note for Eddie: an Equator
+  distance < 0.3 scores as a conjunction family hit (Equator uses the Dec tolerances; families.py names RA and Dec only); 13 T19 rows
+  are listed only because of one, e.g. P01 H Sun – H Ceres Equator d(S Jup, H Sun) 0.116879 → conj (37.26).
 - **Midpoint scoring revised (14 Oct 2026, Eddie):** closeness >= 90 % (ratio half × 0.5) + distance half × 0.5, total = sum (see Families).
   Midpoint hits, previous version -> revised: Ascot 14:30 2012 T10 0 -> 0, T11 1 -> 2, T17 6 -> 11, T18 horse 3 -> 4 / jockey 3 -> 7,
   T19 5 -> 14, SKY PAIRS 0 -> 1, SKY EQ 0 -> 1; Lingfield 14:35 2021 T10 2 -> 11, T11 1 -> 15, T17 49 -> 138, T18 horse 26 -> 85 /

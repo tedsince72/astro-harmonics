@@ -388,13 +388,22 @@ print('\nTest 14 (Eddie 14 Oct): T19 sky Jupiter on natal pairs + P09 PAIRS — 
 t19 = [r for r in wb['P09'].iter_rows(values_only=True) if r[0] == 'T19']
 uq = [r for r in t19 if r[2] == 'H Uranus – H Pluto' and r[3] == 'Equator']
 check('T19 S Jupiter on H Uranus – H Pluto Equator: 7 / 7 / 14 (whole), ratio 1.002238 unison, between, (also T17); '
-      'midpoint (14 Oct, revised): offset (7.004077 − 6.988434) / 2 = +0.007822, closeness 99.7767 %, ratio half 47.79, distance half 44.92, total 92.71',
+      'ratio on the interval list only (15 Oct): unison 60.24; midpoint in its own cells: offset (7.004077 − 6.988434) / 2 = +0.007822, '
+      'closeness 99.7767 %, ratio half 47.79, distance half 44.92, midpoint total 92.71',
       len(uq) == 1 and uq[0][5].startswith('→ 7 (whole, 63.38)') and uq[0][7].startswith('→ 7 (whole, 17.78)') and uq[0][9] == '→ 14 (whole, 39.13) · fixed'
       and uq[0][10] == 1.002238 and uq[0][11] == '1 · unison · Perfect' and uq[0][15] == 'between' and uq[0][16] == '(also T17)'
-      and uq[0][17] == '+0.007822' and uq[0][18] == 99.7767 and uq[0][19] == 47.79 and uq[0][20] == 44.92 and uq[0][13] == 92.71, str(uq))
-sc = [r[13] for r in t19 if r[13] is not None]
-check('T19 filter: interval hit or all three families; no together; sorted by ratio score; no star–star, stars royal only',
-      all(r[13] is not None or all(c and c.startswith('→') for c in (r[5], r[7], r[9])) for r in t19) and sc == sorted(sc, reverse=True)
+      and uq[0][17] == '+0.007822' and uq[0][18] == 99.7767 and uq[0][19] == 47.79 and uq[0][20] == 44.92 and uq[0][13] == 60.24 and uq[0][21] == 92.71, str(uq))
+ps = [r for r in t19 if r[2] == 'H Pluto – H Sedna' and r[3] == 'Equator']
+check('T19 H Pluto – H Sedna Equator (Eddie 15 Oct): ratio 1.011174 outside unison ±1 % (+1.11741 %, no ratio score); '
+      'midpoint hit in its own cells: closeness 98.8949 %, 39.56 + 27.36 = 66.92; listed for the midpoint',
+      len(ps) == 1 and ps[0][10] == 1.011174 and ps[0][11] == '1 · unison · Perfect — outside ±1 %' and ps[0][12] == '+1.11741%'
+      and ps[0][13] is None and ps[0][18] == 98.8949 and ps[0][19] == 39.56 and ps[0][20] == 27.36 and ps[0][21] == 66.92, str(ps))
+best = lambda r: max(-1 if r[13] is None else r[13], -1 if len(r) < 22 or r[21] is None else r[21])
+sc = [best(r) for r in t19]
+check('T19 filter: interval hit, midpoint hit or all three families; no together; sorted by the higher of ratio score and midpoint total; '
+      'no star–star, stars royal only',
+      all(r[13] is not None or r[21] is not None or all(c and c.startswith('→') for c in (r[5], r[7], r[9])) for r in t19)
+      and sc == sorted(sc, reverse=True)
       and not any(r[16] and 'together' in r[16] for r in t19)
       and all(sum(p.split(' ', 1)[1] in ('Algol', 'Pleiades', 'Capella', 'Sirius', 'Procyon', 'Alkaid', 'Algorab', 'Spica', 'Arcturus', 'Alphecca',
               'Vega', 'Deneb Algedi', 'Rigel', 'Betelgeuse', 'Polaris', 'Castor', 'Altair', 'Bellatrix', 'Aldebaran', 'Regulus', 'Antares',
@@ -422,11 +431,11 @@ check('SKY JUPITER: S Jupiter on two sky stars (background, star–star only)', 
 STARN = ('Algol', 'Pleiades', 'Capella', 'Sirius', 'Procyon', 'Alkaid', 'Algorab', 'Spica', 'Arcturus', 'Alphecca', 'Vega', 'Deneb Algedi',
          'Rigel', 'Betelgeuse', 'Polaris', 'Castor', 'Altair', 'Bellatrix', 'Aldebaran', 'Regulus', 'Antares', 'Fomalhaut')
 sp = [r for r in wb['SKY JUPITER'].iter_rows(values_only=True) if r[0] == 'SKY PAIRS' and r[3]]
-spc = [r[13] for r in sp if r[13] is not None]
-check('SKY PAIRS: S Jupiter on two sky bodies (S–S, no stars, no together, interval hit or all three families, best ratio score first)',
+spc = [best(r) for r in sp]
+check('SKY PAIRS: S Jupiter on two sky bodies (S–S, no stars, no together, interval hit, midpoint hit or all three families, best first by the higher of ratio score and midpoint total)',
       sp and all(r[1] == 'S–S' and not any(q[2:] in STARN for q in r[2].split(' – ')) for r in sp)
       and not any(r[16] and 'together' in r[16] for r in sp) and spc == sorted(spc, reverse=True)
-      and all(r[13] is not None or all(c and c.startswith('→') for c in (r[5], r[7], r[9])) for r in sp), f'{len(sp)} rows')
+      and all(r[13] is not None or r[21] is not None or all(c and c.startswith('→') for c in (r[5], r[7], r[9])) for r in sp), f'{len(sp)} rows')
 mixed = []
 for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx',
           'reference/classic/race_batch_20220601_nottingham_1530_jupiter_tables.xlsx'):
