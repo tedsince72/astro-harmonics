@@ -5,9 +5,9 @@ INPUT = a race_batch_<yyyymmdd>_<course>_<hhmm>.xlsx (TRANS, P01..Pnn, META) or 
 (<course>_<hhmm>_<yyyymmdd>/<race>__P##.xlsx). Output: race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx next to the batch
 (for a folder: in reference/classic/), unless --out.
 
-Sheets: POSITIONS; SKY JUPITER; one sheet per runner (P01, P03, ...: tables 1-16) + P## RATIOS; THREADS (13 Oct: hits linking each body
+Sheets: POSITIONS; SKY JUPITER (+ EQUIDISTANCE, 14 Oct); one sheet per runner (P01, P03, ...: tables 1-17; T17 equidistance) + P## RATIOS; THREADS (13 Oct: hits linking each body
 with Jupiter, per runner, tags and field counts - see threads_sheet); P## NUMBERS + FIELD NUMBERS (13 Oct: target numbers, x10 / /10
-folded, SKY / HORSE / JOCKEY / SKY->NATAL - see numbers_sheet); FIELD 5-8, 10, 11, 12-16.
+folded, SKY / HORSE / JOCKEY / SKY->NATAL - see numbers_sheet); FIELD 5-8, 10, 11, 12-17.
 Each value (13 Oct 2026, Eddie's correction): every family of tools/families.py (Eddie's definitions, his scores from
 rebuild_kit/active_vibrations.py) is scored; nearest target = the family with the highest score; the other families with a score > 0
 are listed beside it ('also'); 'scaled' = best family of 10 v or v / 10 (/10 widens a tolerance 10x in degrees). Ratio values (T12-T15)
@@ -473,6 +473,13 @@ def runner_sheet(wb, P, R, ctx):
                     keep('T15', f'({C} Jupiter–{C} {A}) / ({C} Jupiter–{C} {B})', pl, v0, v5, ev, inv, row, plane_index(pl, PLANES))
             row += 1
     row, field['T16'] = write_cross(ws, row, ctx, R)
+    nat = [f'{C} {x}' for C in 'HJ' for x in NATAL_BODIES if x in R[C]]         # natal Jupiters included for S Jupiter
+    field['T17'] = (equi_hits(ctx, R, 'H Jupiter', [p for p in nat if p[0] == 'H' and p != 'H Jupiter'], 'T17')
+                    + equi_hits(ctx, R, 'J Jupiter', [p for p in nat if p[0] == 'J' and p != 'J Jupiter'], 'T17')
+                    + equi_hits(ctx, R, 'S Jupiter', nat, 'T17'))
+    field['T17'].sort(key=lambda h: -h['score'])
+    row = write_equi(ws, row, 'T17 EQUIDISTANCE: H Jupiter with two H bodies; J Jupiter with two J bodies; S Jupiter with two natal bodies',
+                     field['T17'])
     for (lab, cn), (d, ev) in field['T16'].items():
         x = lab.split('–', 1)[1]
         a, b = cn[0], cn.split('= ')[1][0]
@@ -574,6 +581,100 @@ def write_cross(ws, row, ctx, R):
                     f.fill = FILL[fb['colour']]
         row += 1
     return row + 1, out
+
+
+# ---------------- EQUIDISTANCE (Eddie, 14 Oct 2026)
+EQ_PLANES = ('RA', 'Dec', 'Flat', 'GC', 'Equator')
+EQ_HEAD = ('table', 'Jupiter: X = Y', 'plane', 'd(Jup, X)', 'd(Jup, Y)', 'ratio (smaller / larger)', 'unison offset', 'score', 'Jupiter',
+           'd(X, Y)', 'd(Jup, X) + d(Jup, Y)')
+
+
+def eq_dist(ctx, R, a, b, pl):
+    """distance a-b in a plane; Equator = | |Dec a| - |Dec b| | (distances from the equator compared)"""
+    if pl == 'Equator':
+        pa, pb = ctx.pos(R, a, 0), ctx.pos(R, b, 0)
+        return None if pa is None or pb is None else abs(abs(pa[1]) - abs(pb[1]))
+    return ctx.pair(R, a, b, pl)[0]
+
+
+def equi_hits(ctx, R, jup, pts, tid):
+    """Jupiter equally far from two bodies: d(Jup, X) / d(Jup, Y) within unison 1 % (squared score), every plane; hits only, best first.
+    Jupiter 'between' X and Y when d(X, Y) is within 1 % of d(Jup, X) + d(Jup, Y), otherwise 'far side'. A chart's Rahu and Ketu are not
+    paired in Equator (equal |Dec| by construction)."""
+    tol = families.TOL['1']
+    out = []
+    for x, y in itertools.combinations(pts, 2):
+        for pl in EQ_PLANES:
+            if pl == 'Equator' and x[0] == y[0] and {x[2:], y[2:]} == {'Rahu', 'Ketu'}:
+                continue                                   # same chart's nodes: |Dec| equal by construction
+            if pl == 'Equator':                            # as midpoints: only when the three are not all on one side (else it repeats Dec)
+                ps = [ctx.pos(R, p, 0) for p in (jup, x, y)]
+                if None in ps or (ps[0][1] >= 0) == (ps[1][1] >= 0) == (ps[2][1] >= 0):
+                    continue
+            dx, dy = eq_dist(ctx, R, jup, x, pl), eq_dist(ctx, R, jup, y, pl)
+            if not dx or not dy:
+                continue
+            x2, y2, dx2, dy2 = x, y, dx, dy                # fixed body order, so a pair has one label in every plane and runner
+            dev = (max(dx, dy) / min(dx, dy) - 1) * 100
+            if dev >= tol:
+                continue
+            sc = (10.0 * (tol - dev) / tol) ** 2
+            dxy = eq_dist(ctx, R, x2, y2, pl)
+            sm = dx2 + dy2
+            pos = 'between' if dxy is not None and abs(dxy - sm) <= 0.01 * sm else 'far side'
+            out.append({'tid': tid, 'label': f'{jup}: {x2} = {y2}', 'key': (f'{jup}: {x2} = {y2}', pl), 'plane': pl, 'd1': dx2, 'd2': dy2,
+                        'ratio': min(dx, dy) / max(dx, dy), 'off': dev, 'score': sc, 'colour': families.colour(sc), 'pos': pos, 'dxy': dxy, 'sum': sm})
+    return sorted(out, key=lambda h: -h['score'])
+
+
+def write_equi(ws, row, title, hits):
+    ws.cell(row=row, column=1, value=hits[0]['tid'] if hits else 'T17').font = BOLD
+    ws.cell(row=row, column=2, value=title + ' — d(Jup, X) / d(Jup, Y) within unison 1 % (squared score), every plane (Equator = | |Dec| − |Dec| |, only when Jupiter, X and Y '
+            'are not all on one side of the equator); '
+            'Jupiter between X and Y when d(X, Y) is within 1 % of d(Jup, X) + d(Jup, Y), otherwise far side; stars left out; hits only, '
+            'best first').font = BOLD
+    row += 1
+    for k, h in enumerate(EQ_HEAD):
+        c = ws.cell(row=row, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
+    row += 1
+    for h in hits:
+        vals = (h['tid'], h['label'], h['plane'], round(h['d1'], 6), round(h['d2'], 6), round(h['ratio'], 6), f"unison +{h['off']:.5f}%",
+                round(h['score'], 2), h['pos'], None if h['dxy'] is None else round(h['dxy'], 6), round(h['sum'], 6))
+        for k, v in enumerate(vals):
+            c = ws.cell(row=row, column=1 + k, value=v)
+        ws.cell(row=row, column=8).number_format = '0.00'
+        ws.cell(row=row, column=6).fill = FILL[h['colour']]
+        row += 1
+    if not hits:
+        ws.cell(row=row, column=2, value='(no equidistance within 1 %)'); row += 1
+    return row + 1
+
+
+def field_equi_sheet(wb, runners, fields):
+    """FIELD 17: every T17 equidistance, runners side by side (ratio, score, between / far side), holder count, most held first"""
+    ws = wb.create_sheet('FIELD 17')
+    ws.cell(row=1, column=1, value='T17 field matrix — equidistance (Jupiter equally far from two bodies, unison 1 %): per runner ratio [score] '
+            'and between / far side; holders = runners with that line').font = BOLD
+    order = sorted(runners)
+    keys = {}
+    for P in order:
+        for h in fields[P]['T17']:
+            keys.setdefault(h['key'], {})[P] = h
+    heads = ('Jupiter: X = Y', 'plane') + tuple(f"{P} {runners[P]['name']}" for P in order) + ('holders',)
+    for k, h in enumerate(heads):
+        c = ws.cell(row=3, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
+    r = 4
+    for key in sorted(keys, key=lambda k: (-len(keys[k]), -max(h['score'] for h in keys[k].values()), k)):
+        ws.cell(row=r, column=1, value=key[0]); ws.cell(row=r, column=2, value=key[1])
+        for i, P in enumerate(order):
+            h = keys[key].get(P)
+            if h:
+                c = ws.cell(row=r, column=3 + i, value=f"{h['ratio']:.6f} [{h['score']:.2f}] {h['pos']}")
+                c.fill = FILL[h['colour']]
+        ws.cell(row=r, column=3 + len(order), value=f'{len(keys[key])}/{len(order)}')
+        r += 1
+    ws.column_dimensions['A'].width = 46
+    ws.freeze_panes = 'C4'
 
 
 # ---------------- THREADS (Eddie, 13 Oct 2026)
@@ -936,8 +1037,10 @@ def main():
     R0 = {'H': {}, 'J': {}}
     rows = [(f'S Jupiter → S {x}', 'S Jupiter', f'S {x}') for x in sky if x != 'Jupiter']
     sky_nums = []
-    write_pairs(ws, 3, 'SKY', 'S Jupiter → sky points', ctx, R0, rows, lambda a, b: 'equator' if b.endswith(' equator') else 'dist',
-                nums=sky_nums)
+    row, _ = write_pairs(ws, 3, 'SKY', 'S Jupiter → sky points', ctx, R0, rows, lambda a, b: 'equator' if b.endswith(' equator') else 'dist',
+                         nums=sky_nums)
+    write_equi(ws, row, 'EQUIDISTANCE: S Jupiter with two sky bodies',
+               [dict(h, tid='SKY EQ') for h in equi_hits(ctx, R0, 'S Jupiter', [f'S {z}' for z in SKY_BODIES if z in sky and z != 'Jupiter'], 'SKY EQ')])
     ws.column_dimensions['B'].width = 30
     fields = {}
     for P in sorted(runners):
@@ -968,6 +1071,7 @@ def main():
                             ('T15', 'apex ratios, intervals', PLANES)):
         field_sheet(wb, tid, title, runners, fields, pls, uni=uni)
     field_sheet(wb, 'T16', 'RA–Dec crossing (value = RA − Dec, inside ±0.02)', runners, fields, [cross_name(a, b) for a, b in CROSS])
+    field_equi_sheet(wb, runners, fields)
     threads_sheet(wb, runners, fields)
     field_numbers_sheet(wb, runners, {P: sky_nums + fields[P]['_nums'] for P in runners})
     wb.save(out)

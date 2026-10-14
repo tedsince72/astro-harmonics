@@ -35,7 +35,9 @@ lines (they carry span and tolerance); its tags and counts are unchanged.
 Revised 14 Oct (Eddie): green = 0.1 % of span, floor 0.05, cap 0.15 (yellow 3x, light 9x); FIELD 11 added. Test 10 changed: tolerance
 cases; Dynamic Force T10 Equator tol ±0.1108 -> ±0.0500 (still green).
 14 Oct (Eddie): Jupiter-only midpoint lines in T11 only; NUMBERS HORSE = T1, JOCKEY = T2 (no T3 / T4, no H–J column). Changed: test 9's
-H–J check replaced; Wincanton FIELD NUMBERS 6 -> 5 numbers (sqrt2 0.707 / 70.7 drops out; 166.667 3/6 -> 1/6; silver 2.414 2/6 -> 1/6)."""
+H–J check replaced; Wincanton FIELD NUMBERS 6 -> 5 numbers (sqrt2 0.707 / 70.7 drops out; 166.667 3/6 -> 1/6; silver 2.414 2/6 -> 1/6).
+Test 11 (Eddie 14 Oct): EQUIDISTANCE on SKY JUPITER (Beverley 14:05 2024, sky-only workbook copied from ~/astronomy-project/sky_0608_wb),
+T17 + FIELD 17 (Wincanton)."""
 import os, subprocess, sys
 import openpyxl
 from openpyxl.cell.rich_text import CellRichText
@@ -277,6 +279,23 @@ t10 = [r[1] for r in wb['P07'].iter_rows(values_only=True) if r[0] == 'T10']
 t11 = [r[1] for r in wb['P07'].iter_rows(values_only=True) if r[0] == 'T11']
 jo = ('S Jupiter / H Jupiter | J Jupiter', 'S Jupiter / J Jupiter | H Jupiter', 'H Jupiter / J Jupiter | S Jupiter')
 check('the three Jupiter-only midpoint lines are in T11 only (Wincanton P07)', not any(x in t10 for x in jo) and all(x in t11 for x in jo), '')
+
+print('\nTest 11 (Eddie 14 Oct): EQUIDISTANCE — Beverley 14:05 2024 (sky-only workbook), SKY JUPITER')
+wb = openpyxl.load_workbook(build('reference/classic/race_batch_20240608_beverley_1405.xlsx'))
+eq = [r for r in wb['SKY JUPITER'].iter_rows(values_only=True) if r[0] == 'SKY EQ' and r[2]]
+cp = [r for r in eq if r[1] == 'S Jupiter: S Ceres = S Pallas' and r[2] == 'GC']
+check('S Jupiter–S Ceres GC 133.11392 / S Jupiter–S Pallas GC 133.19155 -> ratio 0.999417, unison, far side (Ceres–Pallas 71.55442)',
+      len(cp) == 1 and round(cp[0][3], 5) == 133.11392 and round(cp[0][4], 5) == 133.19155 and cp[0][5] == 0.999417
+      and cp[0][6].startswith('unison +') and cp[0][8] == 'far side' and round(cp[0][9], 5) == 71.55442, str(cp))
+check('hits only (unison < 1 %), best first; no Rahu = Ketu Equator line',
+      all(float(r[6].split('+')[1].rstrip('%')) < 1 for r in eq) and [r[7] for r in eq] == sorted([r[7] for r in eq], reverse=True)
+      and not any('Rahu' in r[1] and 'Ketu' in r[1] and r[2] == 'Equator' for r in eq), str(len(eq)))
+wb = openpyxl.load_workbook('reference/classic/race_batch_20220321_wincanton_1420_jupiter_tables.xlsx')   # built in test 9 / 10
+t17 = [r for r in wb['P07'].iter_rows(values_only=True) if r[0] == 'T17' and r[2]]
+f17 = list(wb['FIELD 17'].iter_rows(min_row=4, values_only=True))
+check('Wincanton P07 T17 present (H, J and S Jupiter lines) and FIELD 17 with holder counts',
+      t17 and {r[1].split(':')[0] for r in t17} == {'H Jupiter', 'J Jupiter', 'S Jupiter'} and f17 and all(str(r[-1]).endswith('/6') for r in f17),
+      f'{len(t17)} T17 lines, {len(f17)} FIELD 17 rows')
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
