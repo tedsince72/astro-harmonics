@@ -586,7 +586,7 @@ def write_cross(ws, row, ctx, R):
 # ---------------- EQUIDISTANCE (Eddie, 14 Oct 2026)
 EQ_PLANES = ('RA', 'Dec', 'Flat', 'GC', 'Equator')
 EQ_HEAD = ('table', 'Jupiter: X = Y', 'plane', 'd(Jup, X)', 'd(Jup, Y)', 'ratio (smaller / larger)', 'unison offset', 'score', 'Jupiter',
-           'd(X, Y)', 'd(Jup, X) + d(Jup, Y)', 'd(Jup, X) family', 'd(Jup, Y) family', 'd(X, Y) family', 'ratio +5 min', 'off->+5',
+           'd(X, Y)', 'd(Jup, X) + d(Jup, Y)', 'd(Jup, X)', 'family', 'd(Jup, Y)', 'family', 'd(X, Y)', 'family', 'ratio +5 min', 'off->+5',
            'unison timing')
 
 
@@ -631,8 +631,8 @@ def eq_family(ctx, v0, v5, pl):
     """best family hit of a distance with its score, and its timing when it has a sky leg"""
     b = families.best(v0, 'Dec' if pl == 'Equator' else pl if pl in ('RA', 'Dec') else None, 'deg')
     if not b:
-        return f'{round(v0, 6)}: no family', None
-    return f"{round(v0, 6)} → {b['target']} ({b['family']}, {b['score']:.2f}) · {exact_time(ctx, v0, v5, b['tv'])}", b
+        return (round(v0, 6), 'no family', ''), None       # (value cell, family cell, family cell colour)
+    return (round(v0, 6), f"→ {b['target']} ({b['family']}, {b['score']:.2f}) · {exact_time(ctx, v0, v5, b['tv'])}", b['colour']), b
 
 
 def equi_hits(ctx, R, jup, pts, tid):
@@ -672,7 +672,7 @@ def equi_hits(ctx, R, jup, pts, tid):
                 arw = '-> toward' if abs(q5 - 1) < abs(q0 - 1) else '<- away'
                 tim = exact_time(ctx, q0, q5, 1.0)
             fams = [eq_family(ctx, dx, dx5, pl)[0], eq_family(ctx, dy, dy5, pl)[0],
-                    eq_family(ctx, dxy, dxy5, pl)[0] if dxy else None]
+                    eq_family(ctx, dxy, dxy5, pl)[0] if dxy else (None, None, '')]
             pos = 'between' if dxy is not None and abs(dxy - sm) <= 0.01 * sm else 'far side'
             together = dxy is not None and dxy < (families.CONJ['RA'] if pl == 'RA' else families.CONJ['Dec'])
             if together:                                   # Eddie 14 Oct: X and Y in conjunction in that plane
@@ -699,11 +699,14 @@ def write_equi(ws, row, title, hits):
     for h in hits:
         vals = (h['tid'], h['label'], h['plane'], round(h['d1'], 6), round(h['d2'], 6), round(h['ratio'], 6), f"unison +{h['off']:.5f}%",
                 round(h['score'], 2), h['pos'], None if h['dxy'] is None else round(h['dxy'], 6), round(h['sum'], 6),
-                *h['fams'], h['r5'] if h['r5'] in (None, 'n/a') else round(h['r5'], 6), h['arrow'], h['timing'])
+                *[x for f in h['fams'] for x in f[:2]], h['r5'] if h['r5'] in (None, 'n/a') else round(h['r5'], 6), h['arrow'], h['timing'])
         for k, v in enumerate(vals):
             c = ws.cell(row=row, column=1 + k, value=v)
         ws.cell(row=row, column=8).number_format = '0.00'
         ws.cell(row=row, column=6).fill = FILL[h['colour']]
+        for k, f in enumerate(h['fams']):                  # family cell coloured by its score
+            if f[2]:
+                ws.cell(row=row, column=13 + 2 * k).fill = FILL[f[2]]
         row += 1
     if not hits:
         ws.cell(row=row, column=2, value='(no equidistance within 1 %)'); row += 1

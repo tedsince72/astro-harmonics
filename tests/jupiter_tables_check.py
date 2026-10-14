@@ -40,7 +40,8 @@ Test 11 (Eddie 14 Oct): EQUIDISTANCE on SKY JUPITER (Beverley 14:05 2024, sky-on
 T17 + FIELD 17 (Wincanton). Same day: "X, Y together" (d(X, Y) < 1.5 RA / 0.3 other planes) tagged, at the bottom, not counted in
 FIELD 17; a Ketu line with the same numbers as a Rahu line dropped. Changed: test 11 best-first check now above the together lines.
 Test 12 (Eddie 14 Oct): EQUIDISTANCE family hits for d(Jup, X), d(Jup, Y), d(X, Y) and timing (ratio +5, arrow, applying / separating,
-exact clock time, linear) - Lingfield AW 14:35 2021 batch (copied from ~/astronomy-project/racecards/20210402_lingfield_aw; xlsx only)."""
+exact clock time, linear) - Lingfield AW 14:35 2021 batch (copied from ~/astronomy-project/racecards/20210402_lingfield_aw; xlsx only).
+Same day: each family hit split into a value cell and a family cell (coloured by its score); test 12 column positions changed."""
 import os, subprocess, sys
 import openpyxl
 from openpyxl.cell.rich_text import CellRichText
@@ -316,15 +317,18 @@ eu = [r for r in wb['P09'].iter_rows(values_only=True) if r[0] == 'T17' and r[1]
 check('S Jupiter: H Uranus = H Pluto Equator 7.004077 / 6.988434, between, d(X, Y) 13.992511',
       len(eu) == 1 and eu[0][3] == 7.004077 and eu[0][4] == 6.988434 and eu[0][8] == 'between' and eu[0][9] == 13.992511, str(eu))
 e = eu[0]
-check('families: 7.004077 → 7 (whole, 63.38), 6.988434 → 7 (whole, 17.78), 13.992511 → 14 (whole, 39.13); sky legs timed, X–Y fixed',
-      e[11] == '7.004077 → 7 (whole, 63.38) · applying, exact 16:10 (in 95.7 min)'
-      and e[12] == '6.988434 → 7 (whole, 17.78) · applying, exact 19:06 (in 271.6 min)' and e[13] == '13.992511 → 14 (whole, 39.13) · fixed',
-      str(e[11:14]))
+check('families split in value + family cells: 7.004077 | → 7 (whole, 63.38) · applying ..., 6.988434 | → 7 (whole, 17.78) ..., '
+      '13.992511 | → 14 (whole, 39.13) · fixed',
+      e[11:17] == (7.004077, '→ 7 (whole, 63.38) · applying, exact 16:10 (in 95.7 min)', 6.988434,
+                   '→ 7 (whole, 17.78) · applying, exact 19:06 (in 271.6 min)', 13.992511, '→ 14 (whole, 39.13) · fixed'), str(e[11:17]))
+cells = next(r for r in wb['P09'].iter_rows() if r[0].value == 'T17' and r[1].value == 'S Jupiter: H Uranus = H Pluto' and r[2].value == 'Equator')
+fc = [cells[k].fill.start_color.rgb if cells[k].fill.fill_type else None for k in (12, 14, 16)]
+check('family cells coloured by score: 63.38 yellow, 17.78 light, 39.13 light', fc == [YELLOW, LIGHT, LIGHT], str(fc))
 check('ratio +5 min 0.997827, -> toward, unison applying, exact 17:38 (in 183.5 min) (race-local, off 14:35)',
-      e[14] == 0.997827 and e[15] == '-> toward' and e[16] == 'applying, exact 17:38 (in 183.5 min)', str(e[14:17]))
+      e[17] == 0.997827 and e[18] == '-> toward' and e[19] == 'applying, exact 17:38 (in 183.5 min)', str(e[17:20]))
 na = [r for r in wb['P09'].iter_rows(values_only=True) if r[0] == 'T17' and r[2] and r[1].startswith(('H Jupiter', 'J Jupiter'))]
-check('natal-only lines: timing "fixed", no +5 ratio; each family hit "· fixed"', na and all(r[16] == 'fixed' and r[14] is None
-      and all(c.endswith('· fixed') for c in r[11:14] if c and ' → ' in c) for r in na),
+check('natal-only lines: timing "fixed", no +5 ratio; each family hit "· fixed"', na and all(r[19] == 'fixed' and r[17] is None
+      and all(c.endswith('· fixed') for c in r[12:17:2] if c and c.startswith('→')) for r in na),
       str(len(na)))
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
