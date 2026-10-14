@@ -54,7 +54,7 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, "tools"))
 os.chdir(REPO)
 GREEN, YELLOW, LIGHT = '00C6EFCE', '00FFEB9C', '00FFF8DC'
-COL = {'RA': 2, 'Dec': 11, 'Flat': 20, 'GC': 29}           # 0-based column of each plane's value (tables with 4 planes, 9 columns each)
+COL = {'RA': 2, 'Dec': 11}                                # 0-based column of each plane's value (RA, Dec; 9 columns each; Flat, GC removed 14 Oct 2026)
 RES = []
 
 
@@ -62,7 +62,12 @@ def check(name, ok, detail):
     RES.append(ok); print(f"  {'PASS' if ok else 'FAIL'}  {name}: {detail}")
 
 
+import time
+T0, NBUILT = time.time() - 1, [0]
+
+
 def build(inp):
+    NBUILT[0] += 1
     r = subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp], capture_output=True, text=True)
     print(r.stdout.strip() or r.stderr)
     return r.stdout.split(' -> ')[1].split(' (')[0]
@@ -139,19 +144,20 @@ check('FIELD 16 shows it (Nube Negra column)', len(f16) == 1 and 'crossing -0.00
 print('\nTest 5: Newcastle AW 12:20 2021 (batch xlsx) — unison (Perfect 1) with its field count')
 wb = openpyxl.load_workbook(build('reference/classic/race_batch_20211112_newcastle_aw_1220.xlsx'))
 lab = 'S Jupiter–S Rahu / H Jupiter–H Rahu'
-for P, inv in (('P05', ' (inverted)'), ('P11', '')):
+for P, inv in (('P05', ' (inverted)'), ('P11', ' (inverted)')):    # RA: both inverted (Flat had P11 not inverted)
     r = row(wb[P], 'T12', lab)
-    v, t, o, f, sc = cell(r, 'Flat')
-    check(f'{P} T12 {lab} Flat -> 1 · unison · Perfect{inv}, also cell "unison: field 2/6"',
-          t == f'1 · unison · Perfect{inv}' and r[COL['Flat'] + 7].value == 'unison: field 2/6', f'{v} {t} {o} {sc} {r[COL["Flat"] + 7].value}')
-rs = [x for x in wb['P05 RATIOS'].iter_rows(values_only=True) if x[6] == '1' and x[1] == 'T12' and x[3] == 'Flat' and 'Rahu' in x[2]]
-check('P05 RATIOS: the Rahu Flat unison row with field 2/6 (Ketu Flat 1.008582 is its own row since Ketu is in every plane, 14 Oct)', len(rs) == 1 and rs[0][11] == '2/6', str(rs))
+    v, t, o, f, sc = cell(r, 'RA')                         # moved from Flat (Flat removed 14 Oct 2026): RA, found by the rule
+    check(f'{P} T12 {lab} RA -> 1 · unison · Perfect{inv}, also cell "unison: field 2/6"',
+          t == f'1 · unison · Perfect{inv}' and r[COL['RA'] + 7].value == 'unison: field 2/6', f'{v} {t} {o} {sc} {r[COL["RA"] + 7].value}')
+rs = [x for x in wb['P05 RATIOS'].iter_rows(values_only=True) if x[6] == '1' and x[1] == 'T12' and x[3] == 'RA' and 'Rahu' in x[2]]
+check('P05 RATIOS: the Rahu RA unison row 1.005972 (16.23) with field 2/6', len(rs) == 1 and rs[0][4] == 1.005972 and rs[0][9] == 16.23
+      and rs[0][11] == '2/6', str(rs))
 f12, pl = [], None
 for x in wb['FIELD 12'].iter_rows(values_only=True):
-    pl = x[0] if x[0] in ('RA', 'Dec', 'Flat', 'GC') else pl
-    if pl == 'Flat' and x[0] == lab:
+    pl = x[0] if x[0] in ('RA', 'Dec') else pl
+    if pl == 'RA' and x[0] == lab:
         f12.append(x)
-check('FIELD 12 (Flat) tags it "field 2/6" for P05 and P11', len(f12) == 1 and sum(isinstance(v, str) and 'field 2/6' in v for v in f12[0][1:]) == 2, str(f12))
+check('FIELD 12 (RA) tags it "field 2/6" for P05 and P11', len(f12) == 1 and sum(isinstance(v, str) and 'field 2/6' in v for v in f12[0][1:]) == 2, str(f12))
 
 print('\nTest 6: Wincanton 14:20 2022 (batch xlsx) — P09 Cobden Jupiter return (S–J Jupiter RA 0.03276, Dec 0.52192)')
 wb = openpyxl.load_workbook(build('reference/classic/race_batch_20220321_wincanton_1420.xlsx'))
@@ -163,26 +169,18 @@ v, t, o, f, sc = cell(r, 'RA')
 check('RA unison J Makemake automatic (d ratio < 0.0015): grey, not counted',
       t == '1 · unison · Perfect' and f == '00D9D9D9' and r[COL['RA'] + 7].value == 'unison: automatic (Jupiter return), not counted',
       f'{v} {t} {sc} {f} {r[COL["RA"] + 7].value}')
-v, t, o, f, sc = cell(row(ws, 'T13', 'S Jupiter–J Pluto / J Jupiter–J Pluto'), 'GC')
-check('GC unison J Pluto genuine (d(SJ,JJ) 0.522937 / d(JJ,JPluto) 101.36785 = 0.005159): coloured; 1 % tolerance -> 74.77 yellow',
-      t == '1 · unison · Perfect' and f == YELLOW and sc == 74.77,
-      f'{v} {t} {sc} {f}')
+# retired 14 Oct 2026 (GC removed): 'GC unison J Pluto genuine ... 74.77 yellow' (built on T13 J Pluto GC 1.001353)
 rs = [x for x in wb['P09 RATIOS'].iter_rows(values_only=True) if x[6] == '1']
 na = sum('automatic' in x[11] for x in rs)
 gp = sorted(x[3] for x in rs if 'automatic' not in x[11])
-check("Cobden's 63 unisons (1 % tolerance; + J Ketu RA, Flat since Ketu is in every plane, 14 Oct): 20 automatic (all RA), 43 genuine (Flat 21, GC 20, RA 2)",
-      len(rs) == 63 and na == 20 and all(x[3] == 'RA' for x in rs if 'automatic' in x[11])
-      and (gp.count('Flat'), gp.count('GC'), gp.count('RA')) == (21, 20, 2), f'{len(rs)} rows, {na} automatic, genuine {gp}')
-rb = [x for x in wb['P07 RATIOS'].iter_rows(values_only=True) if x[6] == '1']
-check('River Bray (P07) T13 J Pluto GC unison: field 2/6 — Cobden\'s J Pluto GC unison is genuine under the per-plane rule',
-      len(rb) == 1 and rb[0][3] == 'GC' and rb[0][11] == '2/6', str(rb))
-
-g = [x for x in rs if 'automatic' not in x[11] and 'Ketu' not in x[2]]
-gk = {x[3]: x[11] for x in rs if 'Ketu' in x[2]}
-check("Cobden's J Ketu unisons: RA 1.001694 return-assisted, Flat 1.009557 not tagged (1/6)", gk == {'RA': '1/6 return-assisted', 'Flat': '1/6'}, str(gk))
-check("Cobden's 41 genuine non-Ketu unisons all tagged return-assisted, field count kept (two at 2/6)",
-      len(g) == 41 and all(x[11].endswith(' return-assisted') for x in g) and sum(x[11].startswith('2/6') for x in g) == 2, str([x[11] for x in g][:3]))
-check("River Bray's J Pluto GC (d1/d2 0.917) not tagged", rb[0][11] == '2/6', rb[0][11])
+# moved 14 Oct 2026 (Flat, GC removed): was 63 unisons, 43 genuine (Flat 21, GC 20, RA 2), 41 return-assisted, River Bray J Pluto GC 2/6
+g = sorted((x[2], x[4], x[11]) for x in rs if 'automatic' not in x[11])
+check("Cobden's 22 unisons (1 % tolerance, RA / Dec): 20 automatic (all RA); 2 genuine, RA, both return-assisted 1/6 "
+      "(T13 J Gonggong 1.001741, J Ketu 1.001694)",
+      len(rs) == 22 and na == 20 and all(x[3] == 'RA' for x in rs if 'automatic' in x[11]) and gp == ['RA', 'RA']
+      and g == [('S Jupiter–J Gonggong / J Jupiter–J Gonggong', 1.001741, '1/6 return-assisted'),
+                ('S Jupiter–J Ketu / J Jupiter–J Ketu', 1.001694, '1/6 return-assisted')], f'{len(rs)} rows, {na} automatic, genuine {g}')
+# retired 14 Oct 2026 (GC removed): River Bray (P07) T13 J Pluto GC unison 2/6, not tagged (built on GC; P07 has no unison now)
 heads = [x[0] for x in wb['P03 RATIOS'].iter_rows(values_only=True) if x[0] in ('Perfect', 'Imperfect', 'Dissonant', 'Septimal', 'Harmonic', 'High', 'Phi') and x[1] is None]
 check('P03 RATIOS: no empty group header (no Harmonic section)', 'Harmonic' not in heads, str(heads))
 
@@ -193,20 +191,16 @@ r = row(ws, 'T12', 'S Jupiter–S Mars / H Jupiter–H Mars')
 v, t, o, f, sc = cell(r, 'RA')
 check('P05 T12 RA S Jupiter–S Mars / H Jupiter–H Mars 1.002631 -> unison inside 1 %, +0.26308 %, score 54.31, yellow',
       round(v, 6) == 1.002631 and t == '1 · unison · Perfect (inverted)' and o == '+0.26308%' and sc == 54.31 and f == YELLOW, f'{v} {t} {o} {sc} {f}')
-v, t, o, f, sc = cell(r, 'Flat')
-check('same row Flat 1.0445 outside every band: nearest by tightness unison +4.44999 % (4.45 tolerances; 16/15 is 13.9), plain',
-      t == '1 · unison · Perfect — outside ±1 % (inverted)' and o == '+4.44999%' and sc is None and f is None
-      and r[COL['Flat'] + 3].value is None, f'{v} {t} {o} {sc} {f}')
-v, t, o, f, sc = cell(row(ws, 'T12', 'S Jupiter–S Haumea / J Jupiter–J Haumea'), 'Flat')
-check('3/2 on 0.333 % (k = 3): P05 T12 Flat Haumea 1.506122, +0.40816 % now outside ±0.333 %, plain',
-      t == '3/2 · fifth · Perfect — outside ±0.333 %' and o == '+0.40816%' and sc is None and f is None, f'{v} {t} {o} {sc} {f}')
-v, t, o, f, sc = cell(row(ws, 'T12', 'S Jupiter–S Makemake / H Jupiter–H Makemake'), 'Flat')
-check('3/2 hit on 0.333 %: P05 T12 Flat Makemake 1.499624, -0.02508 %, score (10 (1/3 − 0.02508) / (1/3))² = 85.52, green',
-      t == '3/2 · fifth · Perfect' and o == '-0.02508%' and sc == 85.52 and f == GREEN, f'{v} {t} {o} {sc} {f}')
-v, t, o, f, sc = cell(row(wb['P09'], 'T12', 'S Jupiter–S Mars / H Jupiter–H Mars'), 'Flat')
-check('9/8 on 0.15 %: P09 T12 Flat Mars 1.125048, +0.00428 %, score (10 (0.15 − 0.00428) / 0.15)² = 94.37, green',
-      t == '9/8 · major second · Dissonant' and o == '+0.00428%' and sc == 94.37 and round((10 * (0.15 - 0.0042844) / 0.15) ** 2, 1) == 94.4
-      and f == GREEN, f'{v} {t} {o} {sc} {f}')
+# retired 14 Oct 2026 (Flat removed): Flat 1.0445 outside every band (nearest by tightness), P05 Flat Haumea 1.506122 outside 3/2,
+# P05 Flat Makemake 1.499624 3/2 (85.52), P09 Flat Mars 1.125048 9/8 (94.37). The 3/2 and 9/8 cases are moved to RA (P07, found by the rule).
+v, t, o, f, sc = cell(row(wb['P07'], 'T12', 'S Jupiter–S Vesta / H Jupiter–H Vesta'), 'RA')
+check('3/2 hit on 0.333 % (moved from Flat): P07 T12 RA Vesta 1.499361, -0.04263 %, score (10 (1/3 − 0.04263) / (1/3))² = 76.06, yellow',
+      round(v, 6) == 1.499361 and t == '3/2 · fifth · Perfect (inverted)' and o == '-0.04263%' and sc == 76.06
+      and round((10 * (1 / 3 - 0.04263) / (1 / 3)) ** 2, 1) == 76.1 and f == YELLOW, f'{v} {t} {o} {sc} {f}')
+v, t, o, f, sc = cell(row(wb['P07'], 'T13', 'S Jupiter–J Mars / J Jupiter–J Mars'), 'RA')
+check('9/8 on 0.15 % (moved from Flat): P07 T13 RA J Mars 1.125881, +0.07832 %, score (10 (0.15 − 0.07832) / 0.15)² = 22.83, light',
+      round(v, 6) == 1.125881 and t == '9/8 · major second · Dissonant (inverted)' and o == '+0.07832%' and sc == 22.83
+      and round((10 * (0.15 - 0.07832) / 0.15) ** 2, 1) == 22.8 and f == LIGHT, f'{v} {t} {o} {sc} {f}')
 v, t, o, f, sc = cell(row(ws, 'T5', 'S Jupiter → H Mars'), 'Dec')
 check('degrees outside every family: T5 S Jupiter → H Mars Dec 8.398276 -> 5×φ (golden) — outside ±0.0324, +0.30811, plain',
       t == '5×φ (golden) — outside ±0.0324' and o == '+0.30811' and sc is None and f is None, f'{v} {t} {o} {sc} {f}')
@@ -224,39 +218,45 @@ ws = wb['THREADS']
 head = [c.value for c in ws[3]]
 ur = next(r for r in ws.iter_rows(min_row=4) if r[0].value == 'Uranus')
 df = str(ur[head.index('P01 2 Dynamic Force / Ray Dawson')].value).split('\n')
-need = ['S Jup→H Uranus Dec 11.10793 → 11.1111 (94.80) [T5]', 'S Uranus→H Jup GC 142.001746 → 142 (83.30) [T7]',
-        'S Uranus→J Jup Dec 18.995206 → 19 (57.80) [T8]']
-check('Dynamic Force Uranus cell lists the three hits', all(x in df for x in need), str(df[:8]))
-check('Dynamic Force Uranus tags: mutual, same chart · mutual, across charts · both Jupiters · both charts · directions 4',
-      df[0] == 'mutual, same chart · mutual, across charts · both Jupiters · both charts · directions 4', df[0])
+# 14 Oct 2026 (Flat, GC removed): retired the GC line 'S Uranus→H Jup GC 142.001746 → 142 (83.30) [T7]', the Uranus tags
+# ('mutual, same chart · mutual, across charts · both Jupiters · both charts · directions 4'), '+ 11 weaker' and the Uranus field counts
+# (1/5, 2/5, 1/5, 2/5): all rested on the GC hit. The tags check is moved to P01 Transpluto (RA / Dec hits, found by the rule).
+need = ['S Jup→H Uranus Dec 11.10793 → 11.1111 (94.80) [T5]', 'S Uranus→J Jup Dec 18.995206 → 19 (57.80) [T8]']
+check('Dynamic Force Uranus cell lists the two Dec hits (T5, T8)', all(x in df for x in need), str(df[:8]))
+tp = next(r for r in ws.iter_rows(min_row=4) if r[0].value == 'Transpluto')
+dt = str(tp[head.index('P01 2 Dynamic Force / Ray Dawson')].value).split('\n')
+check('Dynamic Force Transpluto tags (moved): mutual, same chart · mutual, across charts · both Jupiters · directions 3, from '
+      'S Transpluto→H Jup Dec 33.33254 (99.05) [T7], S Jup→J Transpluto RA 141.532633 → 141.4 (71.00) [T6], S Transpluto→J Jup Dec 13.368851 (57.38) [T8]',
+      dt[0] == 'mutual, same chart · mutual, across charts · both Jupiters · directions 3'
+      and all(x in dt for x in ('S Transpluto→H Jup Dec 33.33254 → 33.3333 (99.05) [T7]', 'S Jup→J Transpluto RA 141.532633 → 141.4 (71.00) [T6]',
+                                 'S Transpluto→J Jup Dec 13.368851 → 13.3333 (57.38) [T8]')), str(dt[:5]))
 check('cells list hits >= 50 only; a repeat (same family, same digits) shown once: main kept unless the scaled form is > 0.5 higher '
-      '(unrounded): 11.10793 main (/10 only +0.0016), 14.141031 as /10 1.414 (99.12 vs 96.9), 145.643439 as /10 9×φ (87.80 vs 13.7); '
-      '"+ 11 weaker" (score-0 and hidden repeats not counted; every family hit counted since 14 Oct)',
-      df[-1] == '+ 11 weaker (see T-tables)' and not any('/10: 1.110793' in x for x in df)
+      '(unrounded): 11.10793 main (/10 only +0.0016), 14.141031 as /10 1.414 (99.12 vs 96.9); last line "+ n weaker"',
+      df[-1].startswith('+ ') and df[-1].endswith(' weaker (see T-tables)') and not any('/10: 1.110793' in x for x in df)
       and 'J Jup→H Uranus Dec 14.141031 /10: 1.414103 → 1.414 (99.12) [T4, scaled]' in df
       and not any(x.startswith('J Jup→H Uranus Dec 14.141031 → 14.14') for x in df)
       and all(float(x.rsplit('(', 1)[1].split(')')[0]) >= 50 for x in df[1:-1] if not x.startswith('mid ')), df[-1])
-cnt = [c.value for c in ur[head.index('runners: mutual, same chart'):]]
-check('Uranus field counts: mutual same chart 1/5, across charts 2/5 (P01, P07), both Jupiters 1/5, either 2/5', cnt == ['1/5', '2/5', '1/5', '2/5'], str(cnt))
 
-print('\nTest 9: Wincanton 14:20 2022 — NUMBERS, the 7.777 (ninth) row, P07 River Bray / Alan Johns')
+print('\nTest 9: Wincanton 14:20 2022 — NUMBERS (moved 14 Oct 2026 from P07 7.777 to P01 Reserve Tank, ninth 11.1111)')
+# retired 14 Oct 2026 (GC removed): P07 River Bray "ninth: 7.77778 / 77.7778" sky + horse + jockey (its JOCKEY hit was J Haumea GC 77.798638);
+# FIELD NUMBERS "5 numbers left" and the 7.777 row with P07 as holder. Moved to P01 "ninth: 11.1111 / 111.111" (RA / Dec, found by the rule).
 wb = openpyxl.load_workbook(build('reference/classic/race_batch_20220321_wincanton_1420.xlsx'), rich_text=True)
-nr = [r for r in wb['P07 NUMBERS'].iter_rows(min_row=4, values_only=True) if r[0] == 'ninth: 7.77778 / 77.7778']
-check('P07 NUMBERS row "ninth: 7.77778 / 77.7778" tagged sky + horse + jockey', len(nr) == 1 and nr[0][1] == 'sky + horse + jockey', str(nr))
+nr = [r for r in wb['P01 NUMBERS'].iter_rows(min_row=4, values_only=True) if r[0] == 'ninth: 11.1111 / 111.111']
+check('P01 NUMBERS row "ninth: 11.1111 / 111.111" tagged sky + horse + jockey', len(nr) == 1 and nr[0][1] == 'sky + horse + jockey', str(nr))
 sky, horse, jock = (str(nr[0][k]).split('\n') for k in (2, 3, 4))
-check('SKY S Jupiter → S Ceres 77.75345 (80.96), HORSE H Jupiter → H Rigel 7.777589 (98.52), JOCKEY J Jupiter → J Haumea 77.798638 (83.67)',
-      'S Jup→S Ceres RA 77.75345 → 77.7778 -0.02433 (80.96)' in sky and 'H Jup→H Rigel RA 7.777589 → 7.77778 -0.00019 (98.52)' in horse
-      and 'J Jup→J Haumea GC 77.798638 → 77.7778 +0.02086 (83.67)' in jock, f'{sky} {horse} {jock}')
+check('SKY S Jupiter → S Sirius RA 111.443941 (45.54), HORSE H Jupiter → H Regulus Dec 11.11928 (86.63), JOCKEY J Jupiter → J Venus RA 11.139997 (52.73)',
+      'S Jup→S Sirius RA 111.443941 → 111.111 +0.33283 (45.54)' in sky and 'H Jup→H Regulus Dec 11.11928 → 11.1111 +0.00817 (86.63)' in horse
+      and 'J Jup→J Venus RA 11.139997 → 11.1111 +0.02889 (52.73)' in jock, f'{sky} {horse} {jock}')
 nh = [c.value for c in wb['P07 NUMBERS'][3]]
 lines = [x for r in wb['P07 NUMBERS'].iter_rows(min_row=4, values_only=True) for c in r[2:] if c for x in str(c).split('\n')]
 check('NUMBERS: HORSE = T1, JOCKEY = T2 only - no H–J column, no cross-chart line (H Jup→J X, J Jup→H X)',
       nh[:6] == ['number', 'tag', 'SKY', 'HORSE', 'JOCKEY', 'SKY→NATAL'] and not any(x.startswith(('H Jup→J ', 'J Jup→H ')) for x in lines), str(nh))
 fnr = [r[0] for r in wb['FIELD NUMBERS'].iter_rows(min_row=4, values_only=True)]
-check('FIELD NUMBERS (within-chart only): sqrt2 0.707 / 70.7 drops out; 5 numbers left',
-      len(fnr) == 5 and not any(str(x).startswith('sqrt2') for x in fnr), str(fnr))
-fn = [r for r in wb['FIELD NUMBERS'].iter_rows(min_row=4, values_only=True) if r[0] == 'ninth: 7.77778 / 77.7778']
+check('FIELD NUMBERS (within-chart only): no sqrt2 0.707 / 70.7 row',
+      not any(str(x).startswith('sqrt2') for x in fnr), str(fnr))
+fn = [r for r in wb['FIELD NUMBERS'].iter_rows(min_row=4, values_only=True) if r[0] == 'ninth: 11.1111 / 111.111']
 head = [c.value for c in wb['FIELD NUMBERS'][3]]
-check('FIELD NUMBERS lists the number with P07 as holder', len(fn) == 1 and fn[0][[i for i, h in enumerate(head) if str(h).startswith('P07')][0]]
+check('FIELD NUMBERS lists the number with P01 as holder', len(fn) == 1 and fn[0][[i for i, h in enumerate(head) if str(h).startswith('P01')][0]]
       is not None and fn[0][-1] == '1/6', str(fn))
 ok = all(float(x.rsplit('(', 1)[1].split(')')[0]) >= 40 for P in ('P01', 'P07', 'P11') for r in wb[f'{P} NUMBERS'].iter_rows(min_row=4, values_only=True)
          for c in r[2:6] if c for x in str(c).split('\n'))
@@ -293,10 +293,8 @@ check('the three Jupiter-only midpoint lines are in T11 only (Wincanton P07)', n
 print('\nTest 11 (Eddie 14 Oct): EQUIDISTANCE — Beverley 14:05 2024 (sky-only workbook), SKY JUPITER')
 wb = openpyxl.load_workbook(build('reference/classic/race_batch_20240608_beverley_1405.xlsx'))
 eq = [r for r in wb['SKY JUPITER'].iter_rows(values_only=True) if r[0] == 'SKY EQ' and r[2]]
-cp = [r for r in eq if r[1] == 'S Jupiter: S Ceres = S Pallas' and r[2] == 'GC']
-check('S Jupiter–S Ceres GC 133.11392 / S Jupiter–S Pallas GC 133.19155 -> ratio 0.999417, unison, far side (Ceres–Pallas 71.55442)',
-      len(cp) == 1 and round(cp[0][3], 5) == 133.11392 and round(cp[0][4], 5) == 133.19155 and cp[0][5] == 0.999417
-      and cp[0][6].startswith('unison +') and cp[0][8] == 'far side' and round(cp[0][9], 5) == 71.55442, str(cp))
+# retired 14 Oct 2026 (GC removed): Beverley S Jupiter: S Ceres = S Pallas GC 133.11392 / 133.19155, 0.999417, far side. Beverley's SKY EQ
+# has no non-together line left; the value case is moved to Lingfield 14:35 2021 SKY EQ (Equator, found by the rule), checked in test 12.
 tg = [r for r in eq if r[8].endswith('X, Y together')]
 nt = [r for r in eq if not r[8].endswith('X, Y together')]
 check('"X, Y together" (Beverley S Sun = S Pluto Equator, d(X, Y) 0.003798) tagged and listed at the bottom',
@@ -319,6 +317,9 @@ check('FIELD 17 holder counts leave out "X, Y together" cells', ok and any(c and
 
 print('\nTest 12 (Eddie 14 Oct): EQUIDISTANCE family hits and timing — Lingfield AW 14:35 2021 (batch), P09 Pholas / Hollie Doyle')
 wb = openpyxl.load_workbook(build('reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx'))
+sq = [r for r in wb['SKY JUPITER'].iter_rows(values_only=True) if r[0] == 'SKY EQ' and r[1] == 'S Jupiter: S Mars = S Neptune' and r[2] == 'Equator']
+check('SKY EQ (moved from Beverley GC, test 11): S Jupiter: S Mars = S Neptune Equator 9.894 / 9.906583, ratio 0.99873, between, d(X, Y) 19.800583',
+      len(sq) == 1 and sq[0][3] == 9.894 and sq[0][4] == 9.906583 and sq[0][5] == 0.99873 and sq[0][8] == 'between' and sq[0][9] == 19.800583, str(sq))
 eu = [r for r in wb['P09'].iter_rows(values_only=True) if r[0] == 'T17' and r[1] == 'S Jupiter: H Uranus = H Pluto' and r[2] == 'Equator']
 check('S Jupiter: H Uranus = H Pluto Equator 7.004077 / 6.988434, between, d(X, Y) 13.992511',
       len(eu) == 1 and eu[0][3] == 7.004077 and eu[0][4] == 6.988434 and eu[0][8] == 'between' and eu[0][9] == 13.992511, str(eu))
@@ -427,6 +428,18 @@ for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_table
                     if f'{C} Rahu' in t and f'{C} Ketu' in t or (r[0] == 'T18' and t == 'Rahu–Ketu'):
                         own.append((n, r[0], t))
 check("a chart's own Rahu–Ketu pair never paired, any plane (T17, T18, T19, PAIRS, SKY EQ, SKY PAIRS; Lingfield)", not own, str(own[:3]))
+
+# Eddie 14 Oct 2026: planes RA, Dec, Equator only - no Flat or GC column, row or text in any sheet of either workbook
+import glob, re
+pat, fg = re.compile(r'\b(Flat|GC)\b'), []
+for f in sorted(glob.glob('reference/classic/race_batch_*_jupiter_tables.xlsx') + glob.glob('reference/classic/race_batch_*_pairs.xlsx')):
+    if os.path.getmtime(f) < T0:
+        continue                                           # built in this run only
+    w = openpyxl.load_workbook(f, read_only=True)
+    fg += [(os.path.basename(f), n) for n in w.sheetnames for r in w[n].iter_rows(values_only=True) for v in (r or ())
+           if isinstance(v, str) and pat.search(v)]
+check('no Flat or GC column, row or label in any sheet of the tables and pairs workbooks built in this run',
+      not fg and NBUILT[0] >= 6, f'{NBUILT[0]} tables workbooks; {fg[:3]}')
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

@@ -56,7 +56,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   is never the nearest target (Eddie, 14 Oct: keep)
   (e.g. '1 · unison · Perfect — outside ±1 %', '+4.44999%'). Nearest by tightness: the target with the smallest offset in units of its
   own tolerance (ratios and degrees alike).
-- Planes RA, Dec, Flat, GC.
+- Planes RA, Dec, Flat, GC (frozen readers). jupiter_tables: RA, Dec and Equator only — Flat and GC removed 14 Oct 2026 for noise (Eddie).
 - Midpoints (jupiter_tables T10, T11, FIELD 10, FIELD 11; Eddie, 14 Oct 2026): planes RA (near midpoint, shortest arc), RA far (the point 180°
   opposite, span = 360 − near span), Dec (signed), Equator (|Dec| of all three: midpoint of |Dec a| and |Dec b|, offset of |Dec c|; listed
   only when the three are not all on the same side of the equator). Tolerance grows with the span (revised 14 Oct): green = 0.1 % of the
@@ -84,7 +84,8 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score; ratios on the interval
   list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
-  Tests `python3 tests/jupiter_tables_check.py` (72/72). In the card pipeline: `run_card_swiss.py --tables`
+  Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
+  Tests `python3 tests/jupiter_tables_check.py` (65/65). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -92,11 +93,11 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   `python3` is fine (edit `tools/run_layers.sh` if `python3.12` is not on the PATH).
 
 ## jupiter_tables: EQUIDISTANCE (Eddie, 14 Oct 2026; viewing only)
-Jupiter equally far from two bodies X, Y: d(Jup, X) / d(Jup, Y) within unison 1 % (squared score on 1 %), every plane RA, Dec, Flat, GC,
+Jupiter equally far from two bodies X, Y: d(Jup, X) / d(Jup, Y) within unison 1 % (squared score on 1 %), every plane RA, Dec,
 Equator (Equator = | |Dec Jup| − |Dec X| |, listed only when Jupiter, X and Y are not all on the same side of the equator, as midpoints; a
 chart's own Rahu and Ketu are never paired, any plane). Hits only, best first; stars left out. Each line: both distances, ratio (smaller /
 larger), unison offset, score, and "between" (d(X, Y) within 1 % of d(Jup, X) + d(Jup, Y)) or "far side", with d(X, Y) and the sum.
-"X, Y together" (Eddie, 14 Oct): d(X, Y) within the conjunction tolerance in that plane (RA < 1.5; Dec, Equator, Flat, GC < 0.3) -
+"X, Y together" (Eddie, 14 Oct): d(X, Y) within the conjunction tolerance in that plane (RA < 1.5; Dec, Equator < 0.3) -
 tagged, listed at the bottom, shown grey "not counted" in FIELD 17 and left out of its holder counts. A Ketu line with the same numbers
 as a Rahu line (e.g. X = Ketu in Dec = X = Rahu in Equator) is dropped; the Rahu one is kept.
 Family hits and timing (Eddie, 14 Oct): each line also shows the best family hit (with score) of d(Jup, X), d(Jup, Y) and d(X, Y)
@@ -108,8 +109,9 @@ S Jupiter: H Uranus = H Pluto Equator 7.004077 / 6.988434 (between, 13.992511): 
 - SKY JUPITER sheet (once per race): S Jupiter with any two sky bodies (Moon included).
 - Runner sheets T17: H Jupiter with two H bodies; J Jupiter with two J bodies; S Jupiter with two of the runner's natal bodies, same pair
   rule as T19 (Eddie, 14 Oct): H–H, J–J, or the same body in both charts (H X – J X); other H–J mixed pairs (e.g. H Pluto = J Mars) left out. FIELD 17: runners side by side, holders k/n, most held first.
-- Test 11: Beverley 14:05 2024 (sky-only workbook copied into reference/classic from ~/astronomy-project/sky_0608_wb): S Jupiter–S Ceres GC
-  133.11392 / S Jupiter–S Pallas GC 133.19155, ratio 0.999417, far side (Ceres–Pallas 71.55442).
+- Test 11: Beverley 14:05 2024 (sky-only workbook copied into reference/classic from ~/astronomy-project/sky_0608_wb): together lines,
+  sort. Its value case (S Ceres = S Pallas GC 133.11392 / 133.19155) was retired with GC (14 Oct); moved to Lingfield 14:35 2021 SKY EQ
+  S Jupiter: S Mars = S Neptune Equator 9.894 / 9.906583, ratio 0.99873, between, d 19.800583.
 
 T18 (Eddie, 14 Oct; each runner sheet): the same equidistance pair side by side for horse and jockey. Block 1 "S Jupiter: H X = H Y" |
 "S Jupiter: J X = J Y"; block 2 "H Jupiter: H X = H Y" | "J Jupiter: J X = J Y". One row per body pair X–Y (bodies in both charts,
@@ -120,7 +122,7 @@ A side outside 1 % never shows a "together" plane as its closest plane (Eddie, 1
 Test 13: Lingfield 14:35 2021 P09 Uranus–Pluto, horse Equator 0.997767 | jockey Dec 0.994741. Rows with both sides inside 1 % are tagged "both"
 (last column; sort unchanged), with a "both" count in each block title.
 T19 / P## PAIRS (Eddie, 14 Oct): sky Jupiter on natal pairs X–Y, blocks H–H, J–J and H–J across (H–J: the same body in both charts
-  only, H X – J X, bodies only, no stars), every plane (RA, Dec, Flat, GC,
+  only, H X – J X, bodies only, no stars), every plane (RA, Dec,
 Equator; Equator only when S Jupiter, X, Y straddle the equator). Each row: d(S Jup, X), d(S Jup, Y), d(X, Y) as value + family cell
 (best family, score, timing; natal d(X, Y) fixed; coloured by score); ratio d(S Jup, X) / d(S Jup, Y) larger / smaller on the interval
 list with the tapered tolerances (interval · name · group, offset, score, timing to the interval; outside: nearest interval plain);
@@ -136,8 +138,9 @@ between / far side; notes "X, Y together" and "(also T17)" (a unison row whose l
 - A chart's own Rahu–Ketu pair is left out of every plane in T17, T18, T19, PAIRS, SKY EQ and SKY PAIRS (Eddie, 14 Oct; was Equator only).
 - A Ketu row with the same numbers as the Rahu row is dropped (any plane, also in T18). Test 14: Lingfield P09 H Uranus – H Pluto Equator, 7 / 7 / 14, unison
   1.002238 (60.24), (also T17). Messi (Ascot 19:45 7 Mar 2012) xlsx copied into reference/classic from ~/astronomy-project/racecards/20120307_messi (14 Oct): Venus–Neptune Dec is in neither SKY PAIRS nor T19 (natal 8.839548 / 35.534628, d 44.374176 → ninth 44.4444 (25.60), ratio 4.01996 outside 4 ±0.25 %; sky 0.469427 / 24.936325, ratio 53.12).
-- Ketu in every plane (Eddie, 14 Oct, option B): Ketu is measured in RA, Flat and GC as well as Dec / Equator in every table, SKY PAIRS, T17–T19, FIELD sheets and NUMBERS (tables tool only, via own_nodes / Ctx.pair; tools/jup2/core.py planes_for, used by the frozen JR v3, is unchanged). A chart's own Rahu–Ketu pair (H, J, and S Rahu – S Ketu) is never paired or counted, in any plane. Ascot 14:30 2012: SKY PAIRS 87 -> 89 (S Ketu – S Sedna RA 9/5, S Sun – S Ketu GC 8), P01 T17 55 -> 62 (7 Ketu hits; S Jupiter: H Ketu = H Rahu RA gone). Test changes: Newcastle P05 Ketu unisons own rows; Cobden 61 -> 63 unisons (J Ketu RA return-assisted, Flat); Lingfield P11 T18 Vesta–Ketu now kept (horse side Ketu RA 148.226037 / 179.265084, not a Rahu repeat).
-- Sizes (14 Oct, H–J same body only): Lingfield 14:35 2021 (6 runners) tables 1.26 MB + pairs 4.76 MB (44,887 rows). Before that
+- Ketu in every plane (Eddie, 14 Oct, option B): Ketu is measured in RA (and, until 14 Oct, Flat and GC) as well as Dec / Equator in every table, SKY PAIRS, T17–T19, FIELD sheets and NUMBERS (tables tool only, via own_nodes / Ctx.pair; tools/jup2/core.py planes_for, used by the frozen JR v3, is unchanged). A chart's own Rahu–Ketu pair (H, J, and S Rahu – S Ketu) is never paired or counted, in any plane. Ascot 14:30 2012: SKY PAIRS 87 -> 89 (S Ketu – S Sedna RA 9/5, S Sun – S Ketu GC 8), P01 T17 55 -> 62 (7 Ketu hits; S Jupiter: H Ketu = H Rahu RA gone). Test changes: Newcastle P05 Ketu unisons own rows; Cobden 61 -> 63 unisons (J Ketu RA return-assisted, Flat); Lingfield P11 T18 Vesta–Ketu now kept (horse side Ketu RA 148.226037 / 179.265084, not a Rahu repeat).
+- Sizes after Flat / GC removal (14 Oct): Lingfield 14:35 2021 tables 0.89 MB + pairs 2.85 MB (26,917 rows); Ascot 14:30 2012
+  0.20 + 0.48 MB. Earlier sizes (14 Oct, H–J same body only, with Flat / GC): Lingfield 14:35 2021 (6 runners) tables 1.26 MB + pairs 4.76 MB (44,887 rows). Before that
   change: Lingfield 1.45 + 9.45 MB, York 16:15 2024 (15 runners) 3.63 + 23.18 MB.
 - Timing, one method everywhere (Eddie, 14 Oct): the larger / smaller ratio (orientation fixed at the off) moving linearly toward its
   target interval; T17 and T18 unison timing use it too, so a pair has the same exact time in T17, T18 and T19.
@@ -150,7 +153,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 - **THREADS** (one sheet, after the runner sheets): rows = bodies (sky bodies incl. Moon, Jupiter excluded, Rahu / Ketu folded as
   "Nodes"), columns = runners. Hits = every scored hit (inside tolerance) linking body X with Jupiter, from T1–T8, T10–T13 and T16
   (midpoints T10 / T11 count when green or yellow; scaled hits marked "scaled"; stars, equator and Jupiter–Jupiter left out).
-  - Cell: hits scoring >= 50, main first then scaled, best first, short form ("S Uranus→H Jup GC 142.001746 → 142 (83.30) [T7]"),
+  - Cell: hits scoring >= 50, main first then scaled, best first, short form ("S Transpluto→H Jup Dec 33.33254 → 33.3333 (99.05) [T7]"),
     each line coloured by its score; every family hit of the value (main, and ×10 / ÷10 scaled, no conjunction) is a hit, not only the
   best (Eddie, 14 Oct, as NUMBERS); the cell is coloured by its best line; last line "+ n weaker (see T-tables)" = hits < 50, score-0 (at 2 dp) hits and hidden repeats not counted.
   - Tags (top line), from the MAIN hits scoring >= 50 (a main hit hidden by its scaled repeat still counts; green / yellow midpoints
@@ -158,7 +161,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     S X→H Jup, or S Jup→H X with S X→J Jup; "both Jupiters" = S X→H Jup and S X→J Jup; "both charts" = natal X reached in H and in J;
     "directions n" = distinct of S Jup→H X (T5), S Jup→J X (T6), S X→H Jup (T7), S X→J Jup (T8).
   - Last columns: per body, runners with mutual same chart / mutual across charts / both Jupiters / any of the three (k/n).
-  - Test 8: Nottingham 15:30 2022, Dynamic Force, Uranus (values set from the rule, not tuned to the winner).
+  - Test 8: Nottingham 15:30 2022, Dynamic Force (values set from the rule, not tuned to the winner). Uranus tags / counts rested on a GC
+    hit and were retired 14 Oct; the tags check moved to Transpluto (mutual, same chart · mutual, across charts · both Jupiters · directions 3).
 - **P## NUMBERS** (one per runner, after P## RATIOS): rows = target numbers with the ×10 / ÷10 forms folded into one row (key = family +
   the target's digits), degree-distance families only (whole, golden, φ powers, ninths, √2, silver; no conjunction, no ratios).
   - Columns: SKY (S Jupiter → sky bodies, stars, equator), HORSE (T1 only: H Jupiter → H bodies, stars, equator), JOCKEY (T2 only:
@@ -168,9 +172,14 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
   - Tag: "sky + horse + jockey" (SKY, HORSE and JOCKEY hits, within-chart) or "two of three"; SKY→NATAL never counts. Tagged rows first.
 - **FIELD NUMBERS** (one sheet): every number held sky + horse + jockey by any runner, the SKY best hit, each holder's best HORSE and
   JOCKEY hit, and the holder count (k/n).
-  - Test 9: Wincanton 14:20 2022, P07 River Bray, row "ninth: 7.77778 / 77.7778" (S Ceres 77.75345, H Rigel 7.777589, J Haumea /10).
+  - Test 9: Wincanton 14:20 2022. The P07 River Bray "ninth: 7.77778 / 77.7778" case (its jockey hit was J Haumea GC) was retired 14 Oct;
+    moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **Planes (14 Oct 2026, Eddie):** jupiter_tables uses RA, Dec and Equator only; Flat and GC removed for noise (every table, SKY sheets,
+  FIELD, NUMBERS, THREADS, pairs workbook). Tests retired / moved to RA, Dec, Equator cases: 5, 6, 7, 8, 9, 11 (65/65). Ascot 14:30 2012:
+  T17 62 -> 35, T18 28 -> 7, T19 351 -> 201, SKY PAIRS 89 -> 52; Lingfield 14:35 2021: T17 306 -> 165, T18 149 -> 59, T19 1840 -> 978,
+  SKY PAIRS 100 -> 52, PAIRS 46,477 -> 26,917.
 - **Working view = the tables tool on Eddie's families:** `tools/jupiter_tables.py` on `tools/families.py` (see "Families" above).
   Jupiter return (S Jupiter in conjunction with a natal Jupiter): information line at the top of that chart's T13. A T12–T14 unison is
   greyed "automatic (Jupiter return)" per plane only when d(S Jupiter, natal Jupiter) / d(natal Jupiter, X) < 0.0015; automatic unisons

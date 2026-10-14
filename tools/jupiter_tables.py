@@ -25,6 +25,7 @@ its Dec distance in another (6 orderings), +-0.02, linear score, family of the v
 Midpoints (T10, T11; planes RA near, RA far, Dec, Equator = |Dec| when the three are not on one side): tolerance grows with the span,
 green = 0.1 % of the span, floor 0.05, cap 0.15; yellow 3x, light 9x (Eddie, 14 Oct 2026, revised). FIELD 10 and FIELD 11. Sky-leg values also at off + 5 min
 (engine, as JR v3 section F) with an arrow: toward / away from the nearest target; n/a where the engine does not reproduce a point.
+Planes (14 Oct 2026, Eddie): RA, Dec and Equator only; Flat and GC removed for noise.
 Points and engine from tools/jup2 (imported, not changed). Frozen readers are not changed."""
 import argparse, glob, os, re, sys, itertools, math, datetime
 import openpyxl
@@ -40,7 +41,7 @@ import motion                                                                  #
 sys.path.insert(0, os.path.join(REPO, 'tools'))
 import families                                                                # noqa: E402
 
-PLANES = ('RA', 'Dec', 'Flat', 'GC')
+PLANES = ('RA', 'Dec')                                     # Flat and GC removed (Eddie, 14 Oct 2026: noise); Equator where a table uses it
 STARS = ['Algol', 'Pleiades', 'Aldebaran', 'Capella', 'Sirius', 'Procyon', 'Regulus', 'Alkaid', 'Algorab', 'Spica', 'Arcturus',
          'Alphecca', 'Antares', 'Vega', 'Deneb Algedi', 'Fomalhaut', 'Rigel', 'Betelgeuse', 'Polaris', 'Castor', 'Altair', 'Bellatrix']
 BODIES = [b for b in SKY_BODIES if b != 'Ketu']           # workbook rows (Ketu rebuilt as Rahu's mirror)
@@ -272,7 +273,7 @@ def plane_index(pl, planes):
 
 
 def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None, nums=None):
-    """rows: [(label, a, b)] -> distances in RA/Dec/Flat/GC (equator: Dec only)."""
+    """rows: [(label, a, b)] -> distances in RA / Dec (equator: Dec only)."""
     row = header(ws, row, tid, title, PLANES)
     out = {}
     for label, a, b in rows:
@@ -598,7 +599,7 @@ def write_cross(ws, row, ctx, R):
 
 
 # ---------------- EQUIDISTANCE (Eddie, 14 Oct 2026)
-EQ_PLANES = ('RA', 'Dec', 'Flat', 'GC', 'Equator')
+EQ_PLANES = ('RA', 'Dec', 'Equator')                       # Flat and GC removed (Eddie, 14 Oct 2026)
 EQ_HEAD = ('table', 'Jupiter: X = Y', 'plane', 'd(Jup, X)', 'd(Jup, Y)', 'ratio (smaller / larger)', 'unison offset', 'score', 'Jupiter',
            'd(X, Y)', 'd(Jup, X) + d(Jup, Y)', 'd(Jup, X)', 'family', 'd(Jup, Y)', 'family', 'd(X, Y)', 'family', 'ratio +5 min', 'off->+5',
            'unison timing')
@@ -824,7 +825,7 @@ def pairs_header(ws, row, title):
 
 PAIR_NOTE = ('sky Jupiter on natal pairs: d(S Jup, X), d(S Jup, Y), d(X, Y) with their best family (score, timing; natal d(X, Y) fixed); '
              'ratio d(S Jup, X) / d(S Jup, Y) larger / smaller on the interval list (tapered tolerances, timing); between / far side; '
-             'blocks H–H, J–J, H–J; planes RA, Dec, Flat, GC, Equator (Equator only when S Jupiter, X, Y straddle the equator); '
+             'blocks H–H, J–J, H–J; planes RA, Dec, Equator (Equator only when S Jupiter, X, Y straddle the equator); '
              'no star–star pairs; a Ketu row repeating the Rahu row dropped')
 
 
@@ -919,7 +920,7 @@ def write_equi(ws, row, title, hits):
     ws.cell(row=row, column=2, value=title + ' — d(Jup, X) / d(Jup, Y) within unison 1 % (squared score), every plane (Equator = | |Dec| − |Dec| |, only when Jupiter, X and Y '
             'are not all on one side of the equator); '
             'Jupiter between X and Y when d(X, Y) is within 1 % of d(Jup, X) + d(Jup, Y), otherwise far side; stars left out; hits only, '
-            'best first; "X, Y together" (d(X, Y) < 1.5 RA / 0.3 other planes) at the bottom; a Ketu line repeating a Rahu line dropped').font = BOLD
+            'best first; "X, Y together" (d(X, Y) < 1.5 RA / 0.3 Dec, Equator) at the bottom; a Ketu line repeating a Rahu line dropped').font = BOLD
     row += 1
     for k, h in enumerate(EQ_HEAD):
         c = ws.cell(row=row, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
@@ -1373,7 +1374,7 @@ def main():
     row = pairs_header(ws, row, 'SKY PAIRS (Eddie, 14 Oct): S Jupiter on every pair of sky bodies (Moon included, no stars), filtered as T19 '
                        '(ratio on an interval, or all three distances with a family hit; "X, Y together" left out; best ratio score first): '
                        'd(S Jup, X), d(S Jup, Y), d(X, Y) with their best family (score, timing); ratio larger / smaller on the interval list '
-                       '(tapered tolerances, timing); between / far side; planes RA, Dec, Flat, GC, Equator (only when S Jupiter, X, Y '
+                       '(tapered tolerances, timing); between / far side; planes RA, Dec, Equator (only when S Jupiter, X, Y '
                        'straddle the equator); Ketu in every plane; the sky Rahu–Ketu pair never paired; a Ketu row repeating the Rahu row dropped')
     row = write_pairs_rows(ws, row, t19_filter(pair_rows(ctx, R0, [z for z in SKY_BODIES if z != 'Jupiter'], tid='SKY PAIRS', sky=True))) + 1
     row = pairs_header(ws, row, 'SKY STARS (background, once per race): S Jupiter on two sky stars, filtered as T19 (ratio on an interval, '
