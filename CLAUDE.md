@@ -83,7 +83,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score; ratios on the interval
   list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
-  Tests `python3 tests/jupiter_tables_check.py` (51/51). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (55/55). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -98,6 +98,12 @@ larger), unison offset, score, and "between" (d(X, Y) within 1 % of d(Jup, X) + 
 "X, Y together" (Eddie, 14 Oct): d(X, Y) within the conjunction tolerance in that plane (RA < 1.5; Dec, Equator, Flat, GC < 0.3) -
 tagged, listed at the bottom, shown grey "not counted" in FIELD 17 and left out of its holder counts. A Ketu line with the same numbers
 as a Rahu line (e.g. X = Ketu in Dec = X = Rahu in Equator) is dropped; the Rahu one is kept.
+Family hits and timing (Eddie, 14 Oct): each line also shows the best family hit (with score) of d(Jup, X), d(Jup, Y) and d(X, Y)
+(e.g. "7.004077 → 7 (whole, 63.38)"). Lines with a sky leg: ratio at off + 5 min, arrow, and "applying, exact hh:mm (in n min)" /
+"separating, exact hh:mm (n min ago)" for unison (q = d(Jup, X) / d(Jup, Y) to 1, linear, race-local clock time); the same for each
+family hit with a sky leg; natal-only lines and legs show "fixed" (beyond 50 years: "exact more than 50 years away / ago").
+FIELD 17 cells add the unison timing. Test 12: Lingfield AW 14:35 2021 (batch copied from ~/astronomy-project/racecards), P09 Pholas,
+S Jupiter: H Uranus = H Pluto Equator 7.004077 / 6.988434 (between, 13.992511): whole 7, 7, 14; unison applying, exact 17:38.
 - SKY JUPITER sheet (once per race): S Jupiter with any two sky bodies (Moon included).
 - Runner sheets T17: H Jupiter with two H bodies; J Jupiter with two J bodies; S Jupiter with two of the runner's natal bodies (H, J or one
   of each). FIELD 17: runners side by side, holders k/n, most held first.

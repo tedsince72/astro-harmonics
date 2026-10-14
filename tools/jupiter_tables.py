@@ -26,7 +26,7 @@ Midpoints (T10, T11; planes RA near, RA far, Dec, Equator = |Dec| when the three
 green = 0.1 % of the span, floor 0.05, cap 0.15; yellow 3x, light 9x (Eddie, 14 Oct 2026, revised). FIELD 10 and FIELD 11. Sky-leg values also at off + 5 min
 (engine, as JR v3 section F) with an arrow: toward / away from the nearest target; n/a where the engine does not reproduce a point.
 Points and engine from tools/jup2 (imported, not changed). Frozen readers are not changed."""
-import argparse, glob, os, re, sys, itertools, math
+import argparse, glob, os, re, sys, itertools, math, datetime
 import openpyxl
 from openpyxl.styles import PatternFill, Font, Alignment
 from openpyxl.cell.rich_text import CellRichText, TextBlock
@@ -586,15 +586,53 @@ def write_cross(ws, row, ctx, R):
 # ---------------- EQUIDISTANCE (Eddie, 14 Oct 2026)
 EQ_PLANES = ('RA', 'Dec', 'Flat', 'GC', 'Equator')
 EQ_HEAD = ('table', 'Jupiter: X = Y', 'plane', 'd(Jup, X)', 'd(Jup, Y)', 'ratio (smaller / larger)', 'unison offset', 'score', 'Jupiter',
-           'd(X, Y)', 'd(Jup, X) + d(Jup, Y)')
+           'd(X, Y)', 'd(Jup, X) + d(Jup, Y)', 'd(Jup, X) family', 'd(Jup, Y) family', 'd(X, Y) family', 'ratio +5 min', 'off->+5',
+           'unison timing')
 
 
 def eq_dist(ctx, R, a, b, pl):
     """distance a-b in a plane; Equator = | |Dec a| - |Dec b| | (distances from the equator compared)"""
+    return eq_dist2(ctx, R, a, b, pl)[0]
+
+
+def eq_dist2(ctx, R, a, b, pl):
+    """-> (at the off, at +5 min): +5 is None with no sky leg, 'n/a' where a rate is n/a"""
     if pl == 'Equator':
         pa, pb = ctx.pos(R, a, 0), ctx.pos(R, b, 0)
-        return None if pa is None or pb is None else abs(abs(pa[1]) - abs(pb[1]))
-    return ctx.pair(R, a, b, pl)[0]
+        if pa is None or pb is None:
+            return None, None
+        v0 = abs(abs(pa[1]) - abs(pb[1]))
+        if not (a.startswith('S ') or b.startswith('S ')):
+            return v0, None
+        p5 = [ctx.pos(R, a, 5), ctx.pos(R, b, 5)]
+        return v0, ('n/a' if None in p5 else abs(abs(p5[0][1]) - abs(p5[1][1])))
+    return ctx.pair(R, a, b, pl)
+
+
+def exact_time(ctx, v0, v5, target):
+    """linear motion from the off to +5 min: when v reaches target -> 'applying, exact hh:mm (in n min)' / 'separating, exact hh:mm
+    (n min ago)' in race-local clock time; natal-only 'fixed'"""
+    if v5 is None:
+        return 'fixed'
+    if v5 == 'n/a':
+        return 'n/a (rate)'
+    rate = (v5 - v0) / 5.0
+    if rate == 0:
+        return 'no motion'
+    t = (target - v0) / rate
+    if abs(t) > 50 * 525960:                               # almost no relative motion: exact more than 50 years away
+        return f"{'applying' if t >= 0 else 'separating'}, exact more than 50 years {'away' if t >= 0 else 'ago'}"
+    when = ctx.off + datetime.timedelta(minutes=t)
+    clock = when.strftime('%H:%M') if when.date() == ctx.off.date() else when.strftime('%d %b %Y %H:%M')
+    return f'applying, exact {clock} (in {t:.1f} min)' if t >= 0 else f'separating, exact {clock} ({-t:.1f} min ago)'
+
+
+def eq_family(ctx, v0, v5, pl):
+    """best family hit of a distance with its score, and its timing when it has a sky leg"""
+    b = families.best(v0, 'Dec' if pl == 'Equator' else pl if pl in ('RA', 'Dec') else None, 'deg')
+    if not b:
+        return f'{round(v0, 6)}: no family', None
+    return f"{round(v0, 6)} → {b['target']} ({b['family']}, {b['score']:.2f}) · {exact_time(ctx, v0, v5, b['tv'])}", b
 
 
 def equi_hits(ctx, R, jup, pts, tid):
@@ -611,7 +649,7 @@ def equi_hits(ctx, R, jup, pts, tid):
                 ps = [ctx.pos(R, p, 0) for p in (jup, x, y)]
                 if None in ps or (ps[0][1] >= 0) == (ps[1][1] >= 0) == (ps[2][1] >= 0):
                     continue
-            dx, dy = eq_dist(ctx, R, jup, x, pl), eq_dist(ctx, R, jup, y, pl)
+            (dx, dx5), (dy, dy5) = eq_dist2(ctx, R, jup, x, pl), eq_dist2(ctx, R, jup, y, pl)
             if not dx or not dy:
                 continue
             x2, y2, dx2, dy2 = x, y, dx, dy                # fixed body order, so a pair has one label in every plane and runner
@@ -619,13 +657,27 @@ def equi_hits(ctx, R, jup, pts, tid):
             if dev >= tol:
                 continue
             sc = (10.0 * (tol - dev) / tol) ** 2
-            dxy = eq_dist(ctx, R, x2, y2, pl)
+            dxy, dxy5 = eq_dist2(ctx, R, x2, y2, pl)
             sm = dx2 + dy2
+            # +5 min and timing: q = d(Jup, X) / d(Jup, Y) moves linearly; exact unison when q = 1
+            n5 = dx if dx5 is None else dx5
+            m5 = dy if dy5 is None else dy5
+            if dx5 is None and dy5 is None:
+                r5, arw, tim = None, None, 'fixed'
+            elif 'n/a' in (dx5, dy5) or not n5 or not m5:
+                r5, arw, tim = 'n/a', 'n/a', 'n/a (rate)'
+            else:
+                q0, q5 = dx / dy, n5 / m5
+                r5 = min(n5, m5) / max(n5, m5)
+                arw = '-> toward' if abs(q5 - 1) < abs(q0 - 1) else '<- away'
+                tim = exact_time(ctx, q0, q5, 1.0)
+            fams = [eq_family(ctx, dx, dx5, pl)[0], eq_family(ctx, dy, dy5, pl)[0],
+                    eq_family(ctx, dxy, dxy5, pl)[0] if dxy else None]
             pos = 'between' if dxy is not None and abs(dxy - sm) <= 0.01 * sm else 'far side'
             together = dxy is not None and dxy < (families.CONJ['RA'] if pl == 'RA' else families.CONJ['Dec'])
             if together:                                   # Eddie 14 Oct: X and Y in conjunction in that plane
                 pos += ' · X, Y together'
-            out.append({'together': together, 'tid': tid, 'label': f'{jup}: {x2} = {y2}', 'key': (f'{jup}: {x2} = {y2}', pl), 'plane': pl, 'd1': dx2, 'd2': dy2,
+            out.append({'together': together, 'fams': fams, 'r5': r5, 'arrow': arw, 'timing': tim, 'tid': tid, 'label': f'{jup}: {x2} = {y2}', 'key': (f'{jup}: {x2} = {y2}', pl), 'plane': pl, 'd1': dx2, 'd2': dy2,
                         'ratio': min(dx, dy) / max(dx, dy), 'off': dev, 'score': sc, 'colour': families.colour(sc), 'pos': pos, 'dxy': dxy, 'sum': sm})
     # Eddie 14 Oct: a Ketu line with the same numbers as a Rahu line (e.g. X = Ketu in Dec = X = Rahu in Equator) is dropped
     rahu = {(h['label'], round(h['d1'], 6), round(h['d2'], 6)) for h in out if 'Rahu' in h['label']}
@@ -646,7 +698,8 @@ def write_equi(ws, row, title, hits):
     row += 1
     for h in hits:
         vals = (h['tid'], h['label'], h['plane'], round(h['d1'], 6), round(h['d2'], 6), round(h['ratio'], 6), f"unison +{h['off']:.5f}%",
-                round(h['score'], 2), h['pos'], None if h['dxy'] is None else round(h['dxy'], 6), round(h['sum'], 6))
+                round(h['score'], 2), h['pos'], None if h['dxy'] is None else round(h['dxy'], 6), round(h['sum'], 6),
+                *h['fams'], h['r5'] if h['r5'] in (None, 'n/a') else round(h['r5'], 6), h['arrow'], h['timing'])
         for k, v in enumerate(vals):
             c = ws.cell(row=row, column=1 + k, value=v)
         ws.cell(row=row, column=8).number_format = '0.00'
@@ -677,7 +730,8 @@ def field_equi_sheet(wb, runners, fields):
         for i, P in enumerate(order):
             h = keys[key].get(P)
             if h:
-                c = ws.cell(row=r, column=3 + i, value=f"{h['ratio']:.6f} [{h['score']:.2f}] {h['pos']}" + (', not counted' if h['together'] else ''))
+                c = ws.cell(row=r, column=3 + i, value=f"{h['ratio']:.6f} [{h['score']:.2f}] {h['pos']} · {h['timing']}"
+                            + (', not counted' if h['together'] else ''))
                 c.fill = GREY if h['together'] else FILL[h['colour']]
         ws.cell(row=r, column=3 + len(order), value=f'{len(held(key))}/{len(order)}')
         r += 1
@@ -1027,6 +1081,7 @@ def main():
     off, site, src = motion.off_and_site(race, label, batch, a.off, a.site)
     rates, elines = motion.engine_rates(sky, off, site)
     ctx = Ctx(sky, rates)
+    ctx.off = datetime.datetime.strptime(str(off)[:16], '%Y-%m-%d %H:%M')     # race-local off time (clock times of exact)
     wb = openpyxl.Workbook(); ws = wb.active; ws.title = 'POSITIONS'
     repro = next((l for l in elines if l.startswith('reproduction')), elines[0] if elines else '')
     ws.append([f'{race} — Jupiter tables (raw, nothing filtered). off {off}; {src}']); ws.append([repro])

@@ -38,7 +38,9 @@ cases; Dynamic Force T10 Equator tol ±0.1108 -> ±0.0500 (still green).
 H–J check replaced; Wincanton FIELD NUMBERS 6 -> 5 numbers (sqrt2 0.707 / 70.7 drops out; 166.667 3/6 -> 1/6; silver 2.414 2/6 -> 1/6).
 Test 11 (Eddie 14 Oct): EQUIDISTANCE on SKY JUPITER (Beverley 14:05 2024, sky-only workbook copied from ~/astronomy-project/sky_0608_wb),
 T17 + FIELD 17 (Wincanton). Same day: "X, Y together" (d(X, Y) < 1.5 RA / 0.3 other planes) tagged, at the bottom, not counted in
-FIELD 17; a Ketu line with the same numbers as a Rahu line dropped. Changed: test 11 best-first check now above the together lines."""
+FIELD 17; a Ketu line with the same numbers as a Rahu line dropped. Changed: test 11 best-first check now above the together lines.
+Test 12 (Eddie 14 Oct): EQUIDISTANCE family hits for d(Jup, X), d(Jup, Y), d(X, Y) and timing (ratio +5, arrow, applying / separating,
+exact clock time, linear) - Lingfield AW 14:35 2021 batch (copied from ~/astronomy-project/racecards/20210402_lingfield_aw; xlsx only)."""
 import os, subprocess, sys
 import openpyxl
 from openpyxl.cell.rich_text import CellRichText
@@ -307,6 +309,23 @@ check('Ketu line repeating a Rahu line dropped: P01 H Jupiter: H Sun = H Ketu (D
       ('H Jupiter: H Sun = H Ketu', 'Dec') not in p1 and ('H Jupiter: H Sun = H Rahu', 'Equator') in p1, '')
 ok = all(int(str(r[-1]).split('/')[0]) == sum(1 for c in r[2:-1] if c and not str(c).endswith('not counted')) for r in f17)
 check('FIELD 17 holder counts leave out "X, Y together" cells', ok and any(c and str(c).endswith('not counted') for r in f17 for c in r[2:-1]), '')
+
+print('\nTest 12 (Eddie 14 Oct): EQUIDISTANCE family hits and timing — Lingfield AW 14:35 2021 (batch), P09 Pholas / Hollie Doyle')
+wb = openpyxl.load_workbook(build('reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx'))
+eu = [r for r in wb['P09'].iter_rows(values_only=True) if r[0] == 'T17' and r[1] == 'S Jupiter: H Uranus = H Pluto' and r[2] == 'Equator']
+check('S Jupiter: H Uranus = H Pluto Equator 7.004077 / 6.988434, between, d(X, Y) 13.992511',
+      len(eu) == 1 and eu[0][3] == 7.004077 and eu[0][4] == 6.988434 and eu[0][8] == 'between' and eu[0][9] == 13.992511, str(eu))
+e = eu[0]
+check('families: 7.004077 → 7 (whole, 63.38), 6.988434 → 7 (whole, 17.78), 13.992511 → 14 (whole, 39.13); sky legs timed, X–Y fixed',
+      e[11] == '7.004077 → 7 (whole, 63.38) · applying, exact 16:10 (in 95.7 min)'
+      and e[12] == '6.988434 → 7 (whole, 17.78) · applying, exact 19:06 (in 271.6 min)' and e[13] == '13.992511 → 14 (whole, 39.13) · fixed',
+      str(e[11:14]))
+check('ratio +5 min 0.997827, -> toward, unison applying, exact 17:38 (in 183.5 min) (race-local, off 14:35)',
+      e[14] == 0.997827 and e[15] == '-> toward' and e[16] == 'applying, exact 17:38 (in 183.5 min)', str(e[14:17]))
+na = [r for r in wb['P09'].iter_rows(values_only=True) if r[0] == 'T17' and r[2] and r[1].startswith(('H Jupiter', 'J Jupiter'))]
+check('natal-only lines: timing "fixed", no +5 ratio; each family hit "· fixed"', na and all(r[16] == 'fixed' and r[14] is None
+      and all(c.endswith('· fixed') for c in r[11:14] if c and ' → ' in c) for r in na),
+      str(len(na)))
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
