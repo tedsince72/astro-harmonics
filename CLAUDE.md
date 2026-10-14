@@ -52,7 +52,8 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   interval 1 % / k, k = the whole number or the LARGER number of the fraction, 0.15 % when k >= 6: 2 -> 0.5 %; 3, 3/2 -> 0.333 %;
   4, 4/3 -> 0.25 %; 5, 5/4, 5/3, 5/2 -> 0.2 %; 6/5, 8/5, 8/3, 9/4, 9/5, 7/x, 11/x, 13/x, 9/8, 15/8, 16/9, 16/15, 6–9 -> 0.15 %.
   Phi group, √2 and 1+1/√2 -> 0.15 %. Squared score on each interval's own tolerance; Equator ratios the same.
-- Outside every tolerance: every value cell still shows its nearest target and offset, plain text, no score, no colour
+- Outside every tolerance: every value cell still shows its nearest target and offset, plain text, no score, no colour; conjunction
+  is never the nearest target (Eddie, 14 Oct: keep)
   (e.g. '1 · unison · Perfect — outside ±1 %', '+4.44999%'). Nearest by tightness: the target with the smallest offset in units of its
   own tolerance (ratios and degrees alike).
 - Planes RA, Dec, Flat, GC.
@@ -83,7 +84,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score; ratios on the interval
   list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
-  Tests `python3 tests/jupiter_tables_check.py` (67/67). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (68/68). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -115,9 +116,11 @@ T18 (Eddie, 14 Oct; each runner sheet): the same equidistance pair side by side 
 Jupiter excluded); each side its best plane (inside 1 %, highest score; "X, Y together" planes left out) with both distances, ratio,
 unison offset, score, between / far side, timing; a side not inside shows its closest plane (smallest offset) plain, uncoloured.
 Horse-inside rows first by the horse's score, then jockey-only rows by the jockey's; a Ketu row repeating the Rahu row dropped.
+A side outside 1 % never shows a "together" plane as its closest plane (Eddie, 14 Oct).
 Test 13: Lingfield 14:35 2021 P09 Uranus–Pluto, horse Equator 0.997767 | jockey Dec 0.994741. Rows with both sides inside 1 % are tagged "both"
 (last column; sort unchanged), with a "both" count in each block title.
-T19 / P## PAIRS (Eddie, 14 Oct): sky Jupiter on natal pairs X–Y, blocks H–H, J–J and H–J across, every plane (RA, Dec, Flat, GC,
+T19 / P## PAIRS (Eddie, 14 Oct): sky Jupiter on natal pairs X–Y, blocks H–H, J–J and H–J across (H–J: the same body in both charts
+  only, H X – J X, bodies only, no stars), every plane (RA, Dec, Flat, GC,
 Equator; Equator only when S Jupiter, X, Y straddle the equator). Each row: d(S Jup, X), d(S Jup, Y), d(X, Y) as value + family cell
 (best family, score, timing; natal d(X, Y) fixed; coloured by score); ratio d(S Jup, X) / d(S Jup, Y) larger / smaller on the interval
 list with the tapered tolerances (interval · name · group, offset, score, timing to the interval; outside: nearest interval plain);
@@ -127,10 +130,11 @@ between / far side; notes "X, Y together" and "(also T17)" (a unison row whose l
 - P## PAIRS (one sheet per runner, in a separate workbook race_batch_<yyyymmdd>_<course>_<hhmm>_pairs.xlsx written next to the
   tables workbook, also via run_card_swiss.py --tables): every pair unfiltered, natal bodies + all 22 stars; no star–star pairs; together rows tagged.
 - SKY JUPITER "SKY STARS" (once per race, background): S Jupiter on two sky stars, filtered as T19.
-- A Ketu row with the same numbers as the Rahu row is dropped. Test 14: Lingfield P09 H Uranus – H Pluto Equator, 7 / 7 / 14, unison
+- A chart's own Rahu–Ketu pair is left out of Equator in T17, T19 and PAIRS (equal |Dec| by construction; Eddie, 14 Oct: keep).
+- A Ketu row with the same numbers as the Rahu row is dropped (any plane, also in T18). Test 14: Lingfield P09 H Uranus – H Pluto Equator, 7 / 7 / 14, unison
   1.002238 (60.24), (also T17). The Messi check was skipped: no Messi workbook in the repo (only in ~/astronomy-project, not race_batch).
-- Sizes (14 Oct): Lingfield 14:35 2021 (6 runners) tables 1.45 MB + pairs 9.45 MB; York 16:15 2024 (15 runners) tables 3.63 MB +
-  pairs 23.18 MB.
+- Sizes (14 Oct, H–J same body only): Lingfield 14:35 2021 (6 runners) tables 1.26 MB + pairs 4.76 MB (44,887 rows). Before that
+  change: Lingfield 1.45 + 9.45 MB, York 16:15 2024 (15 runners) 3.63 + 23.18 MB.
 - Timing, one method everywhere (Eddie, 14 Oct): the larger / smaller ratio (orientation fixed at the off) moving linearly toward its
   target interval; T17 and T18 unison timing use it too, so a pair has the same exact time in T17, T18 and T19.
 
@@ -143,7 +147,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
   "Nodes"), columns = runners. Hits = every scored hit (inside tolerance) linking body X with Jupiter, from T1–T8, T10–T13 and T16
   (midpoints T10 / T11 count when green or yellow; scaled hits marked "scaled"; stars, equator and Jupiter–Jupiter left out).
   - Cell: hits scoring >= 50, main first then scaled, best first, short form ("S Uranus→H Jup GC 142.001746 → 142 (83.30) [T7]"),
-    each line coloured by its score; last line "+ n weaker (see T-tables)" = hits < 50, score-0 (at 2 dp) hits and hidden repeats not counted.
+    each line coloured by its score; every family hit of the value (main, and ×10 / ÷10 scaled, no conjunction) is a hit, not only the
+  best (Eddie, 14 Oct, as NUMBERS); the cell is coloured by its best line; last line "+ n weaker (see T-tables)" = hits < 50, score-0 (at 2 dp) hits and hidden repeats not counted.
   - Tags (top line), from the MAIN hits scoring >= 50 (a main hit hidden by its scaled repeat still counts; green / yellow midpoints
     count): "mutual, same chart" = S Jup→H X with S X→H Jup, or S Jup→J X with S X→J Jup; "mutual, across charts" = S Jup→J X with
     S X→H Jup, or S Jup→H X with S X→J Jup; "both Jupiters" = S X→H Jup and S X→J Jup; "both charts" = natal X reached in H and in J;

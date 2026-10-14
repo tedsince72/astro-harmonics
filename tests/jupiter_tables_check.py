@@ -42,6 +42,8 @@ FIELD 17; a Ketu line with the same numbers as a Rahu line dropped. Changed: tes
 Test 12 (Eddie 14 Oct): EQUIDISTANCE family hits for d(Jup, X), d(Jup, Y), d(X, Y) and timing (ratio +5, arrow, applying / separating,
 exact clock time, linear) - Lingfield AW 14:35 2021 batch (copied from ~/astronomy-project/racecards/20210402_lingfield_aw; xlsx only).
 Same day: each family hit split into a value cell and a family cell (coloured by its score); test 12 column positions changed.
+14 Oct (Eddie): THREADS every family hit >= 50 (not only the best), cell colour = best line - test 8 '+ 9 weaker' -> '+ 11 weaker';
+T19 / PAIRS H–J across = same body only; T18 never a 'together' plane as the closest plane.
 Test 13 (Eddie 14 Oct): T18 - equidistance pair side by side for horse and jockey (block 1 S Jupiter, block 2 natal Jupiters);
 'both' tag and count. Test 14: T19 sky Jupiter on natal pairs, P## PAIRS, SKY STARS. (No Messi workbook in the repo: that check skipped.)"""
 import os, subprocess, sys
@@ -227,8 +229,8 @@ check('Dynamic Force Uranus tags: mutual, same chart · mutual, across charts ·
       df[0] == 'mutual, same chart · mutual, across charts · both Jupiters · both charts · directions 4', df[0])
 check('cells list hits >= 50 only; a repeat (same family, same digits) shown once: main kept unless the scaled form is > 0.5 higher '
       '(unrounded): 11.10793 main (/10 only +0.0016), 14.141031 as /10 1.414 (99.12 vs 96.9), 145.643439 as /10 9×φ (87.80 vs 13.7); '
-      '"+ 9 weaker" (score-0 and hidden repeats not counted)',
-      df[-1] == '+ 9 weaker (see T-tables)' and not any('/10: 1.110793' in x for x in df)
+      '"+ 11 weaker" (score-0 and hidden repeats not counted; every family hit counted since 14 Oct)',
+      df[-1] == '+ 11 weaker (see T-tables)' and not any('/10: 1.110793' in x for x in df)
       and 'J Jup→H Uranus Dec 14.141031 /10: 1.414103 → 1.414 (99.12) [T4, scaled]' in df
       and not any(x.startswith('J Jup→H Uranus Dec 14.141031 → 14.14') for x in df)
       and all(float(x.rsplit('(', 1)[1].split(')')[0]) >= 50 for x in df[1:-1] if not x.startswith('mid ')), df[-1])
@@ -379,6 +381,9 @@ t17t = {(r[1].split(': ', 1)[1].replace(' = ', ' – '), r[2]): r[19] for r in w
 same = [(k, t17t[k], r[14]) for r in t19 for k in [(r[2], r[3])] if k in t17t and r[11].startswith('1 ·')]
 check('one timing method: the same unison pair gives the same exact time in T17 and T19', same and all(a == b for _, a, b in same),
       str([x for x in same if x[1] != x[2]][:3]))
+check('H–J across = the same body in both charts only (bodies, no stars), in T19 and PAIRS',
+      all(r[2].split(' – ')[0][2:] == r[2].split(' – ')[1][2:] and r[2].split(' – ')[0][2:] not in ('Aldebaran', 'Regulus', 'Antares', 'Fomalhaut',
+          'Polaris', 'Sirius') for r in t19 + pr if r[1] == 'H–J'), '')
 check('P09 PAIRS unfiltered (blocks H–H, J–J, H–J; outside ratios plain; together tagged; stars all 22)',
       len(pr) > len(t19) and {r[1] for r in pr} == {'H–H', 'J–J', 'H–J'} and any(r[13] is None and 'outside' in r[11] for r in pr)
       and any(r[16] and 'X, Y together' in r[16] for r in pr) and any('Polaris' in r[2] for r in pr), f'{len(pr)} rows')

@@ -660,12 +660,13 @@ def equi_line(ctx, R, jup, x, y, pl, tid):
     if not dx or not dy:
         return None
     dev = (max(dx, dy) / min(dx, dy) - 1) * 100
+    dxy, dxy5 = eq_dist2(ctx, R, x, y, pl)
+    together = dxy is not None and dxy < (families.CONJ['RA'] if pl == 'RA' else families.CONJ['Dec'])
     base = {'tid': tid, 'label': f'{jup}: {x} = {y}', 'key': (f'{jup}: {x} = {y}', pl), 'plane': pl, 'd1': dx, 'd2': dy,
-            'ratio': min(dx, dy) / max(dx, dy), 'off': dev, 'inside': dev < tol}
+            'ratio': min(dx, dy) / max(dx, dy), 'off': dev, 'inside': dev < tol, 'together': together}
     if dev >= tol:
         return base
     sc = (10.0 * (tol - dev) / tol) ** 2
-    dxy, dxy5 = eq_dist2(ctx, R, x, y, pl)
     sm = dx + dy
     # +5 min and timing: q = larger / smaller (as T19) moves linearly; exact unison when q = 1
     n5 = dx if dx5 is None else dx5
@@ -683,7 +684,6 @@ def equi_line(ctx, R, jup, x, y, pl, tid):
     fams = [eq_family(ctx, dx, dx5, pl)[0], eq_family(ctx, dy, dy5, pl)[0],
             eq_family(ctx, dxy, dxy5, pl)[0] if dxy else (None, None, '')]
     pos = 'between' if dxy is not None and abs(dxy - sm) <= 0.01 * sm else 'far side'
-    together = dxy is not None and dxy < (families.CONJ['RA'] if pl == 'RA' else families.CONJ['Dec'])
     if together:                                           # Eddie 14 Oct: X and Y in conjunction in that plane
         pos += ' · X, Y together'
     return dict(base, together=together, fams=fams, r5=r5, arrow=arw, timing=tim, score=sc, colour=families.colour(sc), pos=pos,
@@ -727,7 +727,7 @@ def pair_rows(ctx, R, stars, t17keys=frozenset(), tid='T19', sky=False):
         ok = lambda a, b: not (isstar(a) and isstar(b))
         blocks = [('H–H', [(a, b) for a, b in itertools.combinations(H, 2) if ok(a, b)]),
                   ('J–J', [(a, b) for a, b in itertools.combinations(J, 2) if ok(a, b)]),
-                  ('H–J', [(a, b) for a in H for b in J if ok(a, b)])]
+                  ('H–J', [(f'H {b}', f'J {b}') for b in NATAL_BODIES if b in R['H'] and b in R['J']])]   # same body only (Eddie 14 Oct)
     dcache, fcache = {}, {}
 
     def dist(p, pl):
@@ -838,7 +838,7 @@ def t18_side(ctx, R, jup, C, x, y):
     ins = [h for h in ls if h['inside'] and not h['together']]
     if ins:
         return max(ins, key=lambda h: h['score'])
-    out = [h for h in ls if not h['inside']] or ls
+    out = [h for h in ls if not h['together']]             # a 'together' plane is never the closest plane (Eddie 14 Oct)
     return dict(min(out, key=lambda h: h['off']), inside=False) if out else None
 
 
@@ -997,6 +997,9 @@ def thread_add(thr, tid, lab, pts, pl, v, ev, sc):
     if tid in ('T7', 'T8'):
         dirs.add(f'S X→{tid == "T7" and "H" or "J"} Jup')
     num = lambda v: f'{round(v, 6)}' if tid not in ('T10', 'T11', 'T16') else f'{v:+.6f}'
+    if tid not in ('T10', 'T11', 'T16'):
+        thread_all(thr, tid, lab, pl, v, X, xch, dirs)
+        return
     repeat = same_digits(ev, sc)                           # Eddie 13 Oct: a scaled repeat of the main hit - keep the higher, drop the other
     up = repeat and sc['score'] > ev['score'] + KEEP_MARGIN   # main kept unless the scaled form is > 0.5 higher (unrounded; Eddie 14 Oct)
     if ev and ev.get('score') is not None or tid in ('T10', 'T11') and ev:
@@ -1009,6 +1012,36 @@ def thread_add(thr, tid, lab, pts, pl, v, ev, sc):
         thr.append({'X': X, 'charts': xch, 'dirs': set(), 'main': False, 'score': sc['score'], 'colour': sc['colour'],
                     'text': f"{lab} {pl + ' ' if pl else ''}{round(v, 6)} {sc['scale']}: {round(sc['scaled_value'], 6)} → {sc['target']} "
                             f"({sc['score']:.2f}) [{tid}, scaled]"})
+
+
+def thread_all(thr, tid, lab, pl, v, X, xch, dirs):
+    """THREADS (Eddie 14 Oct): every family hit of v (main) and of 10 v, v / 10 (scaled, no conjunction), as NUMBERS does. A scaled hit on
+    the same number (family + digits) as a main hit is a repeat: the main kept unless the scaled scores > 0.5 higher (then the main line
+    is hidden but still counts for the tags)."""
+    kind = 'ratio' if tid in ('T12', 'T13') else 'deg'
+    plane = None if kind == 'ratio' else pl
+    key = lambda d: num_key(d['family'], d['tv']) if d['tv'] else (d['family'], d['target'])
+    main = {}
+    for d in families.evaluate(v, plane, kind):
+        e = {'X': X, 'charts': xch, 'dirs': dirs, 'main': True, 'score': d['score'], 'colour': d['colour'], 'hidden': False,
+             'text': f"{lab} {pl + ' ' if pl else ''}{round(v, 6)} → {d['target']} ({d['score']:.2f}) [{tid}]"}
+        main.setdefault(key(d), e)
+        thr.append(e)
+    scl = {}
+    for f, tag in ((10.0, 'x10'), (0.1, '/10')):
+        for d in families.evaluate(v * f, plane, kind):
+            if d['family'] == 'conj':
+                continue
+            k = key(d)
+            if k in main and d['score'] <= main[k]['score'] + KEEP_MARGIN:
+                continue                                   # a repeat of a main hit: main kept
+            if k in scl and scl[k]['score'] >= d['score']:
+                continue
+            if k in main:
+                main[k]['hidden'] = True                   # scaled > 0.5 higher: main line hidden, still counts for the tags
+            scl[k] = {'X': X, 'charts': xch, 'dirs': set(), 'main': False, 'score': d['score'], 'colour': d['colour'],
+                      'text': f"{lab} {pl + ' ' if pl else ''}{round(v, 6)} {tag}: {round(v * f, 6)} → {d['target']} ({d['score']:.2f}) [{tid}, scaled]"}
+    thr.extend(scl.values())
 
 
 THREAD_MIN = 50.0                                          # Eddie, 13 Oct: tags, field counts and cell lines use hits scoring >= 50
@@ -1079,7 +1112,8 @@ def threads_sheet(wb, runners, fields):
                 rt.append(TextBlock(InlineFont(i=True), f'\n+ {weak} weaker (see T-tables)'))
             c = ws.cell(row=r, column=2 + i, value=rt)
             c.alignment = Alignment(wrap_text=True, vertical='top')
-            best = next((h for h in shown if h['main']), shown[0] if shown else None)
+            sc_ = [h for h in shown if h['score'] is not None]
+            best = max(sc_, key=lambda h: h['score']) if sc_ else (shown[0] if shown else None)     # cell colour = its best line
             if best and best['colour'] in FILL:
                 c.fill = FILL[best['colour']]
         for k, v in enumerate(cnt):
