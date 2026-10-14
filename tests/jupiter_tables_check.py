@@ -262,7 +262,7 @@ ok = all(float(x.rsplit('(', 1)[1].split(')')[0]) >= 40 for P in ('P01', 'P07', 
          for c in r[2:6] if c for x in str(c).split('\n'))
 check('every NUMBERS hit scores >= 40 (P01, P07, P11)', ok, '')
 
-print('\nTest 10: midpoints (Eddie 14 Oct 2026, new scoring) — ratio half + distance half, RA closer of near / far')
+print('\nTest 10: midpoints (Eddie 14 Oct 2026, revised scoring) — closeness half + distance half (each x 0.5), RA closer of near / far')
 # rewritten 14 Oct 2026: the span-scaled tolerance (0.1 % of span, floor 0.05, cap 0.15, yellow 3x, light 9x) is removed
 import jupiter_tables as JT
 g = JT.mid_geom(10, 20, -15, 'Equator')
@@ -272,21 +272,24 @@ check('geometry: RA 350 / 30 -> c = 10 at the near midpoint (offset 0, near); c 
       JT.mid_geom(350, 30, 10, 'RA')[:2] == (0.0, 'near') and JT.mid_geom(350, 30, 190, 'RA')[:2] == (0.0, 'far')
       and JT.mid_geom(350, 30, 100, 'RA')[1] == 'near' and JT.mid_geom(350, 30, 101, 'RA')[1] == 'far', '')
 m = JT.mid_score(10.0, 10.05, 0.1, 'Dec')
-check('a hit needs both halves: Dec ratio 1.005 inside 1 % but offset 0.1 ... inside 0.15 -> hit; offset 0.16 -> no score; RA tol 0.5',
-      m['hit'] and JT.mid_score(10.0, 10.05, 0.16, 'Dec')['score'] is None and JT.mid_score(10.0, 10.2, 0.1, 'Dec')['score'] is None
-      and JT.mid_score(100.0, 100.5, 0.25, 'RA')['hit'] and not JT.mid_score(100.0, 100.5, 0.51, 'RA')['hit']
-      and abs(m['score'] - ((10 * (1 - 0.5)) ** 2 + (10 * (0.15 - 0.1) / 0.15) ** 2) / 2) < 1e-9, str(m))
+check('a hit needs both halves: Dec 10 / 10.05 closeness 99.5025 % (45.15) and offset 0.1 on 0.15 (5.56) -> total 50.70; offset 0.16 -> '
+      'no score; 10 / 11 closeness 90.9091 % still inside (0.41); 10 / 11.2 = 89.2857 % under 90 % -> no score; RA 100 / 100.5, offset 0.25 '
+      'on 0.5 -> 45.15 + 12.50 = 57.65, offset 0.51 -> no score',
+      m['hit'] and round(m['score'], 2) == 50.70 and round(m['rscore'], 2) == 45.15 and round(m['dscore'], 2) == 5.56
+      and JT.mid_score(10.0, 10.05, 0.16, 'Dec')['score'] is None and round(JT.mid_score(10.0, 11.0, 0.1, 'Dec')['rscore'], 2) == 0.41
+      and JT.mid_score(10.0, 11.2, 0.1, 'Dec')['score'] is None and round(JT.mid_score(100.0, 100.5, 0.25, 'RA')['score'], 2) == 57.65
+      and not JT.mid_score(100.0, 100.5, 0.51, 'RA')['hit'], str(m))
 wb = openpyxl.load_workbook('reference/classic/race_batch_20220601_nottingham_1530_jupiter_tables.xlsx')
 ws = sheet_of(wb, 'Dynamic Force')
 hd = [c.value for c in ws[next(i for i, rr in enumerate(ws.iter_rows(values_only=True), 1) if rr[0] == 'T10') + 1]]
 EQc = hd.index('Equator offset')
 r = [c.value for c in row(ws, 'T10', 'S Jupiter / J Uranus | H Uranus')]
 check('Dynamic Force T10 S Jupiter / J Uranus | H Uranus Equator (hand from POSITIONS: |Dec| S Jup 0.327192, J Uranus 22.487302, '
-      'H Uranus 11.435122): offset +0.027875, distances 11.10793 / 11.05218, ratio 1.005044 (+0.50443 %), ratio score 24.56, '
-      'distance score 66.29, score 45.42 (light)',
-      r[EQc:EQc + 5] == [0.027875, '1.005044 (+0.50443%)', 24.56, 66.29, 45.42], str(r[EQc:EQc + 6]))
-check('T10 header planes RA (offset, midpoint near / far), Dec, Equator, no span / tolerance column; FIELD 10 and FIELD 11 have the three planes',
-      [h for h in hd if h and str(h).endswith(' offset')] == ['RA offset', 'Dec offset', 'Equator offset'] and hd[3] == 'midpoint'
+      'H Uranus 11.435122): offset +0.027875, distances 11.10793 / 11.05218, closeness 99.4981 %, ratio half 45.11, distance half 33.14, '
+      'total 78.25 (yellow)',
+      r[EQc:EQc + 5] == [0.027875, 99.4981, 45.11, 33.14, 78.25], str(r[EQc:EQc + 6]))
+check('T10 header planes RA (offset, midpoint near / far, closeness %, ratio half, distance half, total), Dec, Equator, no span / tolerance column; FIELD 10 and FIELD 11 have the three planes',
+      [h for h in hd if h and str(h).endswith(' offset')] == ['RA offset', 'Dec offset', 'Equator offset'] and hd[3:8] == ['midpoint', 'closeness %', 'ratio half', 'distance half', 'total']
       and not any('span' in str(h) or 'RA far' == h for h in hd)
       and all([x[0] for x in wb[f].iter_rows(values_only=True) if x[0] in ('RA', 'RA far', 'Dec', 'Equator')] == ['RA', 'Dec', 'Equator']
               for f in ('FIELD 10', 'FIELD 11')), str(hd[:10]))
@@ -300,22 +303,22 @@ wb = openpyxl.load_workbook(build('reference/classic/race_batch_20240608_beverle
 eq = [r for r in wb['SKY JUPITER'].iter_rows(values_only=True) if r[0] == 'SKY EQ' and r[2]]
 # retired 14 Oct 2026 (GC removed): Beverley S Jupiter: S Ceres = S Pallas GC 133.11392 / 133.19155, 0.999417, far side. Beverley's SKY EQ
 # has no non-together line left; the value case is moved to Lingfield 14:35 2021 SKY EQ (Equator, found by the rule), checked in test 12.
-tg = [r for r in eq if r[11].endswith('X, Y together')]     # columns since the midpoint scoring (14 Oct): +3 after the unison offset
-nt = [r for r in eq if not r[11].endswith('X, Y together')]
+tg = [r for r in eq if r[10].endswith('X, Y together')]     # columns (14 Oct, revised): closeness %, midpoint offset, ratio half, distance half, total
+nt = [r for r in eq if not r[10].endswith('X, Y together')]
 # 14 Oct 2026 (midpoint scoring): Beverley's together lines (S Sun = S Pluto Equator, d(X, Y) 0.003798) are no longer hits - Jupiter is
 # not near the midpoint of two bodies in conjunction in Dec / Equator - so that case is retired; moved to Newcastle 13:30 2022 P07 (RA far)
 check('"X, Y together" lines tagged, d(X, Y) under the conjunction tolerance, and listed at the bottom (Beverley SKY EQ; none left there)',
       (eq[-len(tg):] == tg if tg else True)
-      and all(r[12] < (1.5 if r[2] == 'RA' else 0.3) for r in tg) and all(r[12] >= (1.5 if r[2] == 'RA' else 0.3) for r in nt), str(tg))
+      and all(r[11] < (1.5 if r[2] == 'RA' else 0.3) for r in tg) and all(r[11] >= (1.5 if r[2] == 'RA' else 0.3) for r in nt), str(tg))
 wn = openpyxl.load_workbook('reference/classic/race_batch_20220102_newcastle_aw_1330_jupiter_tables.xlsx')   # built in test 3
 nt7 = [r for r in wn['P07'].iter_rows(values_only=True) if r[0] == 'T17' and r[2]]
-tgn = [r for r in nt7 if r[11].endswith('X, Y together')]
+tgn = [r for r in nt7 if r[10].endswith('X, Y together')]
 check('"X, Y together" (moved): Newcastle 13:30 P07 S Jupiter: H Orcus = H Transpluto RA 179.975528 / 179.599503, far midpoint −0.212485, '
       'd(X, Y) 0.376025 < 1.5, tagged and at the bottom',
-      [(r[1], r[2], r[3], r[4], r[7], r[12]) for r in tgn] == [('S Jupiter: H Orcus = H Transpluto', 'RA', 179.975528, 179.599503, '-0.212485 far', 0.376025)]
+      [(r[1], r[2], r[3], r[4], r[6], r[11]) for r in tgn] == [('S Jupiter: H Orcus = H Transpluto', 'RA', 179.975528, 179.599503, '-0.212485 far', 0.376025)]
       and nt7[-1] == tgn[0], str([r[1:13] for r in tgn]))
-check('hits only (unison < 1 %), best first above the together lines; no Rahu = Ketu Equator line',
-      all(float(r[6].split('+')[1].rstrip('%')) < 1 for r in eq) and [r[10] for r in nt] == sorted([r[10] for r in nt], reverse=True)
+check('hits only (closeness >= 90 %, total scored), best first above the together lines; no Rahu = Ketu Equator line',
+      all(r[5] >= 90 and r[9] is not None for r in eq) and [r[9] for r in nt] == sorted([r[9] for r in nt], reverse=True)
       and not any('Rahu' in r[1] and 'Ketu' in r[1] and r[2] == 'Equator' for r in eq), str(len(eq)))
 wb = openpyxl.load_workbook('reference/classic/race_batch_20220321_wincanton_1420_jupiter_tables.xlsx')   # built in test 9 / 10
 t17 = [r for r in wb['P07'].iter_rows(values_only=True) if r[0] == 'T17' and r[2]]
@@ -336,24 +339,24 @@ check('FIELD 17 holder counts leave out "X, Y together" cells (Wincanton; moved 
 print('\nTest 12 (Eddie 14 Oct): EQUIDISTANCE family hits and timing — Lingfield AW 14:35 2021 (batch), P09 Pholas / Hollie Doyle')
 wb = openpyxl.load_workbook(build('reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx'))
 sq = [r for r in wb['SKY JUPITER'].iter_rows(values_only=True) if r[0] == 'SKY EQ' and r[1] == 'S Jupiter: S Mars = S Neptune' and r[2] == 'Equator']
-check('SKY EQ (moved from Beverley GC, test 11): S Jupiter: S Mars = S Neptune Equator 9.894 / 9.906583, ratio 0.99873, between, d(X, Y) 19.800583',
-      len(sq) == 1 and sq[0][3] == 9.894 and sq[0][4] == 9.906583 and sq[0][5] == 0.99873 and sq[0][11] == 'between' and sq[0][12] == 19.800583, str(sq))
+check('SKY EQ (moved from Beverley GC, test 11): S Jupiter: S Mars = S Neptune Equator 9.894 / 9.906583, closeness 99.873 %, between, d(X, Y) 19.800583',
+      len(sq) == 1 and sq[0][3] == 9.894 and sq[0][4] == 9.906583 and sq[0][5] == 99.873 and sq[0][10] == 'between' and sq[0][11] == 19.800583, str(sq))
 eu = [r for r in wb['P09'].iter_rows(values_only=True) if r[0] == 'T17' and r[1] == 'S Jupiter: H Uranus = H Pluto' and r[2] == 'Equator']
 check('S Jupiter: H Uranus = H Pluto Equator 7.004077 / 6.988434, between, d(X, Y) 13.992511',
-      len(eu) == 1 and eu[0][3] == 7.004077 and eu[0][4] == 6.988434 and eu[0][11] == 'between' and eu[0][12] == 13.992511, str(eu))
+      len(eu) == 1 and eu[0][3] == 7.004077 and eu[0][4] == 6.988434 and eu[0][10] == 'between' and eu[0][11] == 13.992511, str(eu))
 e = eu[0]
 check('families split in value + family cells: 7.004077 | → 7 (whole, 63.38) · applying ..., 6.988434 | → 7 (whole, 17.78) ..., '
       '13.992511 | → 14 (whole, 39.13) · fixed',
-      e[14:20] == (7.004077, '→ 7 (whole, 63.38) · applying, exact 16:10 (in 95.7 min)', 6.988434,
-                   '→ 7 (whole, 17.78) · applying, exact 19:06 (in 271.6 min)', 13.992511, '→ 14 (whole, 39.13) · fixed'), str(e[14:20]))
+      e[13:19] == (7.004077, '→ 7 (whole, 63.38) · applying, exact 16:10 (in 95.7 min)', 6.988434,
+                   '→ 7 (whole, 17.78) · applying, exact 19:06 (in 271.6 min)', 13.992511, '→ 14 (whole, 39.13) · fixed'), str(e[13:19]))
 cells = next(r for r in wb['P09'].iter_rows() if r[0].value == 'T17' and r[1].value == 'S Jupiter: H Uranus = H Pluto' and r[2].value == 'Equator')
-fc = [cells[k].fill.start_color.rgb if cells[k].fill.fill_type else None for k in (15, 17, 19)]
+fc = [cells[k].fill.start_color.rgb if cells[k].fill.fill_type else None for k in (14, 16, 18)]
 check('family cells coloured by score: 63.38 yellow, 17.78 light, 39.13 light', fc == [YELLOW, LIGHT, LIGHT], str(fc))
 check('ratio +5 min 0.997827, -> toward, unison applying, exact 17:38 (in 183.5 min) (race-local, off 14:35)',
-      e[20] == 0.997827 and e[21] == '-> toward' and e[22] == 'applying, exact 17:38 (in 183.5 min)', str(e[20:23]))
+      e[19] == 0.997827 and e[20] == '-> toward' and e[21] == 'applying, exact 17:38 (in 183.5 min)', str(e[19:22]))
 na = [r for r in wb['P09'].iter_rows(values_only=True) if r[0] == 'T17' and r[2] and r[1].startswith(('H Jupiter', 'J Jupiter'))]
-check('natal-only lines: timing "fixed", no +5 ratio; each family hit "· fixed"', na and all(r[22] == 'fixed' and r[20] is None
-      and all(c.endswith('· fixed') for c in r[15:20:2] if c and c.startswith('→')) for r in na),
+check('natal-only lines: timing "fixed", no +5 ratio; each family hit "· fixed"', na and all(r[21] == 'fixed' and r[19] is None
+      and all(c.endswith('· fixed') for c in r[14:19:2] if c and c.startswith('→')) for r in na),
       str(len(na)))
 
 print('\nTest 13 (Eddie 14 Oct): T18 horse | jockey equidistance side by side — Lingfield AW 14:35 2021, P09')
@@ -362,33 +365,33 @@ bi = [i for i, r in enumerate(t18) if str(r[1]).startswith('T18 block')]
 b1 = [r for r in t18[bi[0] + 1:bi[1]] if r[1] != 'X–Y']
 b2 = [r for r in t18[bi[1] + 1:] if r[1] != 'X–Y']
 up = [r for r in b1 if r[1] == 'Uranus–Pluto']
-check('block 1 row Uranus–Pluto: horse Equator 0.997767 | jockey Dec 0.994741',
-      len(up) == 1 and up[0][2] == 'Equator' and up[0][5] == 0.997767 and up[0][13] == 'Dec' and up[0][16] == 0.994741, str(up))
-hs = [r for r in b1 if r[10] is not None]                 # side = 11 columns since the midpoint scoring (14 Oct); horse score col 10
-js = [r for r in b1 if r[10] is None]
+check('block 1 row Uranus–Pluto: horse Equator closeness 99.7767 % | jockey Dec 99.4741 %',
+      len(up) == 1 and up[0][2] == 'Equator' and up[0][5] == 99.7767 and up[0][12] == 'Dec' and up[0][15] == 99.4741, str(up))
+hs = [r for r in b1 if r[9] is not None]                  # side = 10 columns (14 Oct, revised); horse total col 9, jockey total col 19
+js = [r for r in b1 if r[9] is None]
 check('block 1 sorted: horse-inside rows by horse score, then jockey-only rows by jockey score; outside side plain (no score)',
-      b1 == hs + js and [r[10] for r in hs] == sorted([r[10] for r in hs], reverse=True)
-      and [r[21] for r in js] == sorted([r[21] for r in js], reverse=True) and all(r[8] is None and r[11] is None for r in js), '')
+      b1 == hs + js and [r[9] for r in hs] == sorted([r[9] for r in hs], reverse=True)
+      and [r[19] for r in js] == sorted([r[19] for r in js], reverse=True) and all(r[7] is None and r[10] is None for r in js), '')
 check('no "X, Y together" side; block 2 present', not any('together' in str(c) for r in b1 + b2 for c in r) and len(b2) > 0, f'{len(b1)} / {len(b2)} rows')
 
-check('T18 Uranus–Pluto (both inside 1 %) tagged "both"; block 1 title carries the both count', up[0][24] == 'both'
-      and 'both (horse and jockey midpoint hits): ' in t18[bi[0]][1] and int(t18[bi[0]][1].rsplit(': ', 1)[1]) == sum(r[24] == 'both' for r in b1),
-      str(up[0][24]))
+check('T18 Uranus–Pluto (both inside 1 %) tagged "both"; block 1 title carries the both count', up[0][22] == 'both'
+      and 'both (horse and jockey midpoint hits): ' in t18[bi[0]][1] and int(t18[bi[0]][1].rsplit(': ', 1)[1]) == sum(r[22] == 'both' for r in b1),
+      str(up[0][22]))
 
 p11 = [r[1] for r in wb['P11'].iter_rows(values_only=True) if r[0] == 'T18']
 p11k = [r for r in wb['P11'].iter_rows(values_only=True) if r[0] == 'T18' and r[1] == 'Vesta–Ketu']
 check('T18 P11 Vesta–Ketu kept since Ketu is in every plane (14 Oct): horse side Ketu RA 148.226037 / 179.265084 differs from the Rahu row '
       '(jockey side Dec 11.035301 / 11.049429 = Rahu Equator)', 'Vesta–Rahu' in p11 and len(p11k) == 1 and p11k[0][2] == 'RA'
-      and p11k[0][3] == 148.226037 and p11k[0][13] == 'Dec' and p11k[0][14] == 11.035301, str(p11k))
+      and p11k[0][3] == 148.226037 and p11k[0][12] == 'Dec' and p11k[0][13] == 11.035301, str(p11k))
 
 print('\nTest 14 (Eddie 14 Oct): T19 sky Jupiter on natal pairs + P09 PAIRS — Lingfield AW 14:35 2021')
 t19 = [r for r in wb['P09'].iter_rows(values_only=True) if r[0] == 'T19']
 uq = [r for r in t19 if r[2] == 'H Uranus – H Pluto' and r[3] == 'Equator']
-check('T19 S Jupiter on H Uranus – H Pluto Equator: 7 / 7 / 14 (whole), ratio 1.002238 unison (ratio score 60.24), between, (also T17); '
-      'midpoint (14 Oct): offset (7.004077 − 6.988434) / 2 = +0.007822, distance score (10 (0.15 − 0.007822) / 0.15)² = 89.84, score 75.04',
+check('T19 S Jupiter on H Uranus – H Pluto Equator: 7 / 7 / 14 (whole), ratio 1.002238 unison, between, (also T17); '
+      'midpoint (14 Oct, revised): offset (7.004077 − 6.988434) / 2 = +0.007822, closeness 99.7767 %, ratio half 47.79, distance half 44.92, total 92.71',
       len(uq) == 1 and uq[0][5].startswith('→ 7 (whole, 63.38)') and uq[0][7].startswith('→ 7 (whole, 17.78)') and uq[0][9] == '→ 14 (whole, 39.13) · fixed'
       and uq[0][10] == 1.002238 and uq[0][11] == '1 · unison · Perfect' and uq[0][15] == 'between' and uq[0][16] == '(also T17)'
-      and uq[0][18] == 60.24 and uq[0][19] == 89.84 and uq[0][13] == 75.04 and uq[0][17] == '+0.007822', str(uq))
+      and uq[0][17] == '+0.007822' and uq[0][18] == 99.7767 and uq[0][19] == 47.79 and uq[0][20] == 44.92 and uq[0][13] == 92.71, str(uq))
 sc = [r[13] for r in t19 if r[13] is not None]
 check('T19 filter: interval hit or all three families; no together; sorted by ratio score; no star–star, stars royal only',
       all(r[13] is not None or all(c and c.startswith('→') for c in (r[5], r[7], r[9])) for r in t19) and sc == sorted(sc, reverse=True)
@@ -401,7 +404,7 @@ wbp = openpyxl.load_workbook('reference/classic/race_batch_20210402_lingfield_aw
 check('P## PAIRS in the separate _pairs.xlsx workbook, not in the tables workbook',
       'P09 PAIRS' in wbp.sheetnames and not any(n.endswith(' PAIRS') for n in wb.sheetnames), str(wbp.sheetnames))
 pr = [r for r in wbp['P09 PAIRS'].iter_rows(min_row=3, values_only=True)]
-t17t = {(r[1].split(': ', 1)[1].replace(' = ', ' – '), r[2]): r[22] for r in wb['P09'].iter_rows(values_only=True)
+t17t = {(r[1].split(': ', 1)[1].replace(' = ', ' – '), r[2]): r[21] for r in wb['P09'].iter_rows(values_only=True)
         if r[0] == 'T17' and r[2] and r[1].startswith('S Jupiter')}  # col 20 = unison timing
 same = [(k, t17t[k], r[14]) for r in t19 for k in [(r[2], r[3])] if k in t17t and r[11].startswith('1 ·')]
 check('one timing method: the same unison pair gives the same exact time in T17 and T19', same and all(a == b for _, a, b in same),
@@ -454,9 +457,9 @@ wb = openpyxl.load_workbook(build('reference/classic/race_batch_20210904_haydock
 ws = wb['P03']
 hd = [c.value for c in ws[next(i for i, rr in enumerate(ws.iter_rows(values_only=True), 1) if rr[0] == 'T11') + 1]]
 r = [c.value for c in row(ws, 'T11', 'H Jupiter / J Jupiter | S Uranus')]
-check('T11 H Jupiter / J Jupiter | S Uranus RA far: offset 0.032036, ratio 1.000370 (0.037 % off unison), ratio score 92.73, '
-      'distance score 87.60, combined 90.16 (hand-computed by Claude for Eddie)',
-      r[2:8] == [0.032036, 'far', '1.000370 (+0.03702%)', 92.73, 87.6, 90.16], str(r[2:9]))
+check('T11 H Jupiter / J Jupiter | S Uranus RA far (revised scoring, checked by hand from POSITIONS): offset 0.032036, closeness 99.963 %, '
+      'ratio half 49.63, distance half 43.80, total 93.43',
+      r[2:8] == [0.032036, 'far', 99.963, 49.63, 43.8, 93.43], str(r[2:9]))
 pos = {(x[0], x[2], x[3]): (x[5], x[6]) for x in wb['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[3]}
 u, hj, jj = pos[('SKY', 'S', 'Uranus')], pos[('P03', 'H', 'Jupiter')], pos[('P03', 'J', 'Jupiter')]
 arc = lambda a, b: abs((a - b + 180) % 360 - 180)
@@ -465,8 +468,16 @@ check('its distances from POSITIONS: d(S Uranus, H Jupiter) RA 173.135571, d(S U
       round(arc(u[0], hj[0]), 6) == 173.135571 and round(arc(u[0], jj[0]), 6) == 173.071498, f'{arc(u[0], hj[0]):.6f} {arc(u[0], jj[0]):.6f}')
 th = str([c.value for c in next(rr for rr in wb['THREADS'].iter_rows(min_row=4) if rr[0].value == 'Uranus')][1 + sorted(
     n for n in wb.sheetnames if n[0] == 'P' and n[1:].isdigit()).index('P03')])
-check('THREADS: the midpoint hit counts (Golden Flame Uranus cell lists it)', 'mid H Jup / J Jup | S Uranus RA' in th and '(90.16)' in th, th[:300])
-bad = []
+check('THREADS: the midpoint hit counts (Golden Flame Uranus cell lists it)', 'mid H Jup / J Jup | S Uranus RA' in th and '(93.43)' in th, th[:300])
+wn3 = openpyxl.load_workbook('reference/classic/race_batch_20220601_nottingham_1530_jupiter_tables.xlsx')   # built in test 1
+hd3 = [c.value for c in wn3['P03'][next(i for i, rr in enumerate(wn3['P03'].iter_rows(values_only=True), 1) if rr[0] == 'T11') + 1]]
+r3 = [c.value for c in row(wn3['P03'], 'T11', 'H Jupiter / J Jupiter | S Sun')]
+e3 = hd3.index('Equator offset')
+check('short span (found by the rule; checked by hand from POSITIONS): Nottingham 15:30 2022 P03 T11 H Jupiter / J Jupiter | S Sun Equator, '
+      '|Dec| H Jupiter 22.301199, J Jupiter 21.820645 (span 0.4806), S Sun 22.057924: offset −0.002998, distances 0.243275 / 0.237279, '
+      'closeness 97.5353 %, ratio half 28.39, distance half 48.02, total 76.41',
+      r3[e3:e3 + 5] == [-0.002998, 97.5353, 28.39, 48.02, 76.41], str(r3[e3:e3 + 6]))
+bad, NH = [], 0
 for n in [n for n in wb.sheetnames if n[0] == 'P' and n[1:].isdigit()]:
     hdr = None
     for rr in wb[n].iter_rows(values_only=True):
@@ -474,13 +485,14 @@ for n in [n for n in wb.sheetnames if n[0] == 'P' and n[1:].isdigit()]:
             hdr = rr
         if rr[0] in ('T10', 'T11') and hdr and isinstance(rr[1], str) and ' | ' in rr[1]:
             for j, h in enumerate(hdr):
-                if h == 'score':
+                if h == 'total':
                     rs, ds, sc = rr[j - 2], rr[j - 1], rr[j]
-                    if sc is not None and not (isinstance(rs, (int, float)) and isinstance(ds, (int, float)) and abs((rs + ds) / 2 - sc) <= 0.006):
+                    NH += sc is not None
+                    if sc is not None and not (isinstance(rs, (int, float)) and isinstance(ds, (int, float)) and abs(rs + ds - sc) <= 0.011):
                         bad.append((n, rr[1], rs, ds, sc))
                     if sc is None and isinstance(rs, (int, float)) and isinstance(ds, (int, float)):
                         bad.append((n, rr[1], 'both halves inside but no score'))
-check('every midpoint hit: score = (ratio score + distance score) / 2; no score unless both halves inside (Haydock, all runners)', not bad, str(bad[:3]))
+check('every midpoint hit: total = ratio half + distance half; no score unless both halves inside (Haydock, all runners)', not bad and NH > 0, f'{NH} hits; {bad[:3]}')
 
 # Eddie 14 Oct 2026: planes RA, Dec, Equator only - no Flat or GC column, row or text in any sheet of either workbook
 import glob, re

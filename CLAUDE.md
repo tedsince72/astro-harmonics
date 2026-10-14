@@ -57,22 +57,23 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   (e.g. '1 · unison · Perfect — outside ±1 %', '+4.44999%'). Nearest by tightness: the target with the smallest offset in units of its
   own tolerance (ratios and degrees alike).
 - Planes RA, Dec, Flat, GC (frozen readers). jupiter_tables: RA, Dec and Equator only — Flat and GC removed 14 Oct 2026 for noise (Eddie).
-- Midpoints (jupiter_tables; Eddie, 14 Oct 2026, new scoring): T10, T11, FIELD 10, FIELD 11, and the midpoint half of T17, T18, SKY EQ
-  and the unison rows of T19, SKY PAIRS and PAIRS. Three points: ends A, B and the middle point C (in T17-T19 the Jupiter). Two halves,
-  scored separately: ratio half = larger / smaller of d(C, A), d(C, B) against unison, tolerance 1 %, squared (10 (tol − dev) / tol)²;
-  distance half = C's offset from the midpoint, squared on RA ±0.5, Dec ±0.15, Equator ±0.15. A hit needs both halves inside; score =
-  (ratio score + distance score) / 2, coloured green >= 80, yellow 50–80, light < 50. Otherwise no score, not a hit, counted nowhere, both
-  offsets shown plain. Planes: RA = the closer of the near midpoint (shortest arc) and the far one (180° opposite), labelled near / far,
-  never both; Dec (signed); Equator (|Dec| of all three, only when the three are not all on one side of the equator). Columns per plane:
-  offset, (RA: near / far), ratio with % off unison, ratio score, distance score, score, timing (the ratio toward unison, one method).
-  The old span tolerance (0.1 % of span, floor 0.05, cap 0.15, yellow 3×, light 9×) and the t column are removed. THREADS: every midpoint
-  hit counts (lines and tags), whatever its score. The three Jupiter-only lines (S / H / J Jupiter) are in T11 (and FIELD 11) only.
+- Midpoints (jupiter_tables; Eddie, 14 Oct 2026, revised the same day): T10, T11, FIELD 10, FIELD 11, THREADS, the midpoint half of T17,
+  T18 and SKY EQ, and the unison rows of T19, SKY PAIRS and PAIRS. Three points: ends A, B and the middle point C (in T17-T19 the Jupiter).
+  Ratio half: closeness = smaller ÷ larger of d(C, A), d(C, B) × 100, tolerance 10 % (closeness >= 90 %), score (10 (10 − (100 −
+  closeness)) / 10)² × 0.5. Distance half: C's offset from the midpoint, squared on RA ±0.5, Dec ±0.15, Equator ±0.15, × 0.5. Hit = both
+  halves inside; total = ratio half + distance half (0–100), coloured green >= 80, yellow 50–80, light < 50. Otherwise no score, not a hit,
+  counted nowhere; both offsets shown plain. Planes: RA = the closer of the near and far midpoint, labelled near / far, never both; Dec
+  (signed); Equator (|Dec| of all three, only when not all on one side). Columns: offset, (RA: near / far), closeness %, ratio half,
+  distance half, total, timing (larger / smaller ratio toward unison). THREADS: every midpoint hit counts, whatever its total.
+  T19 / SKY PAIRS / PAIRS: a row with closeness >= 90 % that is a midpoint hit is the row's unison hit (total), even where the interval
+  list would say 16/15; a unison on the interval list that is not a midpoint hit is not a hit ('— midpoint outside'). The old span
+  tolerance and the first (1 %, mean) version are gone. The three Jupiter-only lines are in T11 (and FIELD 11) only.
   Test 15: Haydock 14:20 2021 P03 Golden Flame, T11 H Jupiter / J Jupiter | S Uranus RA far: offset 0.032036, distances 173.135571 /
-  173.071498 (POSITIONS; the hand values 173.135586 / 173.071514 were 0.000015 high), ratio 1.000370 (+0.037 %), ratio score 92.73,
-  distance score 87.60, score 90.16.
-  Independent checker (14 Oct): every T10 / T11 cell of Lingfield (3,055), Ascot (539) and Haydock (2,926), T17 / SKY EQ lines and
-  completeness, T19 / SKY PAIRS / PAIRS unison rows, 44 T18 sides: 0 mismatches. Correction applied: a non-hit shows no half score in
-  T17 / T18 / T19 / PAIRS either (was showing the inside half's score).
+  173.071498 (POSITIONS), closeness 99.963 %, ratio half 49.63, distance half 43.80, total 93.43. Short span (found by the rule):
+  Nottingham 15:30 2022 P03 T11 H Jupiter / J Jupiter | S Sun Equator, span 0.4806: offset −0.002998, 0.243275 / 0.237279, 97.5353 %,
+  28.39 + 48.02 = 76.41.
+  Independent checker (14 Oct, revised rule): every T10 / T11 cell of Ascot P01 and Lingfield P01–P11 (3,594), Haydock P03 and
+  Nottingham P03; T17 / SKY EQ lines and completeness; every T19 / SKY PAIRS / P09 PAIRS row; every T18 side checked: 0 mismatches.
 - Decimal scaling: v, 10·v and v/10 are tested against every family, labelled ×10 / ÷10, in their own column (÷10 widens a tolerance 10× in degrees).
 - RA–Dec crossing (same body pair, RA distance in one chart = Dec distance in another; natal RA = sky Dec and the reverse): ±0.02,
   linear score; the value need not be in a family (its family score shown beside it). In jupiter_tables: T16 (Jupiter–X, 6 orderings) + FIELD 16.
@@ -96,7 +97,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (70/70). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (71/71). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -104,8 +105,8 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   `python3` is fine (edit `tools/run_layers.sh` if `python3.12` is not on the PATH).
 
 ## jupiter_tables: EQUIDISTANCE (Eddie, 14 Oct 2026; viewing only)
-Jupiter equally far from two bodies X, Y: a midpoint hit (rule above: d(Jup, X) / d(Jup, Y) within unison 1 % and Jupiter within RA ±0.5 /
-Dec, Equator ±0.15 of the midpoint of X and Y; score = the mean of the two halves), every plane RA, Dec,
+Jupiter equally far from two bodies X, Y: a midpoint hit (rule above: closeness of d(Jup, X), d(Jup, Y) >= 90 % and Jupiter within RA ±0.5 /
+Dec, Equator ±0.15 of the midpoint of X and Y; total = ratio half + distance half), every plane RA, Dec,
 Equator (Equator = | |Dec Jup| − |Dec X| |, listed only when Jupiter, X and Y are not all on the same side of the equator, as midpoints; a
 chart's own Rahu and Ketu are never paired, any plane). Hits only, best first; stars left out. Each line: both distances, ratio (smaller /
 larger), unison offset, score, and "between" (d(X, Y) within 1 % of d(Jup, X) + d(Jup, Y)) or "far side", with d(X, Y) and the sum.
@@ -188,7 +189,11 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
-- **Midpoint scoring (14 Oct 2026, Eddie):** two halves (unison ratio 1 % + distance from the midpoint RA 0.5 / Dec 0.15 / Equator 0.15),
+- **Midpoint scoring revised (14 Oct 2026, Eddie):** closeness >= 90 % (ratio half × 0.5) + distance half × 0.5, total = sum (see Families).
+  Midpoint hits, previous version -> revised: Ascot 14:30 2012 T10 0 -> 0, T11 1 -> 2, T17 6 -> 11, T18 horse 3 -> 4 / jockey 3 -> 7,
+  T19 5 -> 14, SKY PAIRS 0 -> 1, SKY EQ 0 -> 1; Lingfield 14:35 2021 T10 2 -> 11, T11 1 -> 15, T17 49 -> 138, T18 horse 26 -> 85 /
+  jockey 23 -> 49, T19 28 -> 99, SKY PAIRS 2 -> 9, SKY EQ 2 -> 9. Tests 71/71.
+- **Midpoint scoring (14 Oct 2026, Eddie, first version, superseded):** two halves (unison ratio 1 % + distance from the midpoint RA 0.5 / Dec 0.15 / Equator 0.15),
   both needed, score = the mean; old span tolerance removed (see Families). Midpoint hits, before -> after: Ascot 14:30 2012 T11 6 coloured
   (2 green / yellow) -> 1 (RA far), T10 2 -> 0, T17 7 -> 6, T19 unison 6 -> 5, SKY PAIRS unison 1 -> 0; Lingfield 14:35 2021 T10 34 coloured
   (10 green / yellow) -> 2, T11 39 (14) -> 1, T17 61 -> 49, T19 unison 35 -> 28, SKY PAIRS 2 -> 2. Short spans now fail on the ratio half.
