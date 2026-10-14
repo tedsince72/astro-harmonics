@@ -135,7 +135,8 @@ between / far side; notes "X, Y together" and "(also T17)" (a unison row whose l
 - SKY JUPITER "SKY STARS" (once per race, background): S Jupiter on two sky stars, filtered as T19.
 - A chart's own Rahu–Ketu pair is left out of Equator in T17, T19 and PAIRS (equal |Dec| by construction; Eddie, 14 Oct: keep).
 - A Ketu row with the same numbers as the Rahu row is dropped (any plane, also in T18). Test 14: Lingfield P09 H Uranus – H Pluto Equator, 7 / 7 / 14, unison
-  1.002238 (60.24), (also T17). The Messi check was skipped: no Messi workbook in the repo (only in ~/astronomy-project, not race_batch).
+  1.002238 (60.24), (also T17). Messi (Ascot 19:45 7 Mar 2012) xlsx copied into reference/classic from ~/astronomy-project/racecards/20120307_messi (14 Oct): Venus–Neptune Dec is in neither SKY PAIRS nor T19 (natal 8.839548 / 35.534628, d 44.374176 → ninth 44.4444 (25.60), ratio 4.01996 outside 4 ±0.25 %; sky 0.469427 / 24.936325, ratio 53.12).
+- Ketu is measured in Dec (and Equator) only, never RA / Flat / GC (existing convention, tools/jup2/core.py planes_for: 'RA duplicates Rahu'); found by the Ascot 14:30 2012 checker (14 Oct; it would add 2 SKY PAIRS rows and 8 T17 hits there). Open for Eddie; unchanged.
 - Sizes (14 Oct, H–J same body only): Lingfield 14:35 2021 (6 runners) tables 1.26 MB + pairs 4.76 MB (44,887 rows). Before that
   change: Lingfield 1.45 + 9.45 MB, York 16:15 2024 (15 runners) 3.63 + 23.18 MB.
 - Timing, one method everywhere (Eddie, 14 Oct): the larger / smaller ratio (orientation fixed at the off) moving linearly toward its
