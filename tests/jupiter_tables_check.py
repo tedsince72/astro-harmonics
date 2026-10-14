@@ -37,7 +37,8 @@ cases; Dynamic Force T10 Equator tol ±0.1108 -> ±0.0500 (still green).
 14 Oct (Eddie): Jupiter-only midpoint lines in T11 only; NUMBERS HORSE = T1, JOCKEY = T2 (no T3 / T4, no H–J column). Changed: test 9's
 H–J check replaced; Wincanton FIELD NUMBERS 6 -> 5 numbers (sqrt2 0.707 / 70.7 drops out; 166.667 3/6 -> 1/6; silver 2.414 2/6 -> 1/6).
 Test 11 (Eddie 14 Oct): EQUIDISTANCE on SKY JUPITER (Beverley 14:05 2024, sky-only workbook copied from ~/astronomy-project/sky_0608_wb),
-T17 + FIELD 17 (Wincanton)."""
+T17 + FIELD 17 (Wincanton). Same day: "X, Y together" (d(X, Y) < 1.5 RA / 0.3 other planes) tagged, at the bottom, not counted in
+FIELD 17; a Ketu line with the same numbers as a Rahu line dropped. Changed: test 11 best-first check now above the together lines."""
 import os, subprocess, sys
 import openpyxl
 from openpyxl.cell.rich_text import CellRichText
@@ -287,8 +288,13 @@ cp = [r for r in eq if r[1] == 'S Jupiter: S Ceres = S Pallas' and r[2] == 'GC']
 check('S Jupiter–S Ceres GC 133.11392 / S Jupiter–S Pallas GC 133.19155 -> ratio 0.999417, unison, far side (Ceres–Pallas 71.55442)',
       len(cp) == 1 and round(cp[0][3], 5) == 133.11392 and round(cp[0][4], 5) == 133.19155 and cp[0][5] == 0.999417
       and cp[0][6].startswith('unison +') and cp[0][8] == 'far side' and round(cp[0][9], 5) == 71.55442, str(cp))
-check('hits only (unison < 1 %), best first; no Rahu = Ketu Equator line',
-      all(float(r[6].split('+')[1].rstrip('%')) < 1 for r in eq) and [r[7] for r in eq] == sorted([r[7] for r in eq], reverse=True)
+tg = [r for r in eq if r[8].endswith('X, Y together')]
+nt = [r for r in eq if not r[8].endswith('X, Y together')]
+check('"X, Y together" (Beverley S Sun = S Pluto Equator, d(X, Y) 0.003798) tagged and listed at the bottom',
+      any(r[1] == 'S Jupiter: S Sun = S Pluto' and r[2] == 'Equator' for r in tg) and eq[-len(tg):] == tg
+      and all(r[9] < (1.5 if r[2] == 'RA' else 0.3) for r in tg) and all(r[9] >= (1.5 if r[2] == 'RA' else 0.3) for r in nt), str(tg))
+check('hits only (unison < 1 %), best first above the together lines; no Rahu = Ketu Equator line',
+      all(float(r[6].split('+')[1].rstrip('%')) < 1 for r in eq) and [r[7] for r in nt] == sorted([r[7] for r in nt], reverse=True)
       and not any('Rahu' in r[1] and 'Ketu' in r[1] and r[2] == 'Equator' for r in eq), str(len(eq)))
 wb = openpyxl.load_workbook('reference/classic/race_batch_20220321_wincanton_1420_jupiter_tables.xlsx')   # built in test 9 / 10
 t17 = [r for r in wb['P07'].iter_rows(values_only=True) if r[0] == 'T17' and r[2]]
@@ -296,6 +302,11 @@ f17 = list(wb['FIELD 17'].iter_rows(min_row=4, values_only=True))
 check('Wincanton P07 T17 present (H, J and S Jupiter lines) and FIELD 17 with holder counts',
       t17 and {r[1].split(':')[0] for r in t17} == {'H Jupiter', 'J Jupiter', 'S Jupiter'} and f17 and all(str(r[-1]).endswith('/6') for r in f17),
       f'{len(t17)} T17 lines, {len(f17)} FIELD 17 rows')
+p1 = [(r[1], r[2]) for r in wb['P01'].iter_rows(values_only=True) if r[0] == 'T17' and r[2]]
+check('Ketu line repeating a Rahu line dropped: P01 H Jupiter: H Sun = H Ketu (Dec) gone, H Sun = H Rahu (Equator) kept',
+      ('H Jupiter: H Sun = H Ketu', 'Dec') not in p1 and ('H Jupiter: H Sun = H Rahu', 'Equator') in p1, '')
+ok = all(int(str(r[-1]).split('/')[0]) == sum(1 for c in r[2:-1] if c and not str(c).endswith('not counted')) for r in f17)
+check('FIELD 17 holder counts leave out "X, Y together" cells', ok and any(c and str(c).endswith('not counted') for r in f17 for c in r[2:-1]), '')
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

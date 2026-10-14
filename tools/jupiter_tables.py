@@ -622,9 +622,16 @@ def equi_hits(ctx, R, jup, pts, tid):
             dxy = eq_dist(ctx, R, x2, y2, pl)
             sm = dx2 + dy2
             pos = 'between' if dxy is not None and abs(dxy - sm) <= 0.01 * sm else 'far side'
-            out.append({'tid': tid, 'label': f'{jup}: {x2} = {y2}', 'key': (f'{jup}: {x2} = {y2}', pl), 'plane': pl, 'd1': dx2, 'd2': dy2,
+            together = dxy is not None and dxy < (families.CONJ['RA'] if pl == 'RA' else families.CONJ['Dec'])
+            if together:                                   # Eddie 14 Oct: X and Y in conjunction in that plane
+                pos += ' · X, Y together'
+            out.append({'together': together, 'tid': tid, 'label': f'{jup}: {x2} = {y2}', 'key': (f'{jup}: {x2} = {y2}', pl), 'plane': pl, 'd1': dx2, 'd2': dy2,
                         'ratio': min(dx, dy) / max(dx, dy), 'off': dev, 'score': sc, 'colour': families.colour(sc), 'pos': pos, 'dxy': dxy, 'sum': sm})
-    return sorted(out, key=lambda h: -h['score'])
+    # Eddie 14 Oct: a Ketu line with the same numbers as a Rahu line (e.g. X = Ketu in Dec = X = Rahu in Equator) is dropped
+    rahu = {(h['label'], round(h['d1'], 6), round(h['d2'], 6)) for h in out if 'Rahu' in h['label']}
+    out = [h for h in out if not ('Ketu' in h['label'] and
+                                  (h['label'].replace('Ketu', 'Rahu'), round(h['d1'], 6), round(h['d2'], 6)) in rahu)]
+    return sorted(out, key=lambda h: (h['together'], -h['score']))      # 'X, Y together' lines at the bottom
 
 
 def write_equi(ws, row, title, hits):
@@ -632,7 +639,7 @@ def write_equi(ws, row, title, hits):
     ws.cell(row=row, column=2, value=title + ' — d(Jup, X) / d(Jup, Y) within unison 1 % (squared score), every plane (Equator = | |Dec| − |Dec| |, only when Jupiter, X and Y '
             'are not all on one side of the equator); '
             'Jupiter between X and Y when d(X, Y) is within 1 % of d(Jup, X) + d(Jup, Y), otherwise far side; stars left out; hits only, '
-            'best first').font = BOLD
+            'best first; "X, Y together" (d(X, Y) < 1.5 RA / 0.3 other planes) at the bottom; a Ketu line repeating a Rahu line dropped').font = BOLD
     row += 1
     for k, h in enumerate(EQ_HEAD):
         c = ws.cell(row=row, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
@@ -660,18 +667,19 @@ def field_equi_sheet(wb, runners, fields):
     for P in order:
         for h in fields[P]['T17']:
             keys.setdefault(h['key'], {})[P] = h
+    held = lambda k: [P for P, h in keys[k].items() if not h['together']]     # 'X, Y together' not counted
     heads = ('Jupiter: X = Y', 'plane') + tuple(f"{P} {runners[P]['name']}" for P in order) + ('holders',)
     for k, h in enumerate(heads):
         c = ws.cell(row=3, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
     r = 4
-    for key in sorted(keys, key=lambda k: (-len(keys[k]), -max(h['score'] for h in keys[k].values()), k)):
+    for key in sorted(keys, key=lambda k: (-len(held(k)), -max(h['score'] for h in keys[k].values()), k)):
         ws.cell(row=r, column=1, value=key[0]); ws.cell(row=r, column=2, value=key[1])
         for i, P in enumerate(order):
             h = keys[key].get(P)
             if h:
-                c = ws.cell(row=r, column=3 + i, value=f"{h['ratio']:.6f} [{h['score']:.2f}] {h['pos']}")
-                c.fill = FILL[h['colour']]
-        ws.cell(row=r, column=3 + len(order), value=f'{len(keys[key])}/{len(order)}')
+                c = ws.cell(row=r, column=3 + i, value=f"{h['ratio']:.6f} [{h['score']:.2f}] {h['pos']}" + (', not counted' if h['together'] else ''))
+                c.fill = GREY if h['together'] else FILL[h['colour']]
+        ws.cell(row=r, column=3 + len(order), value=f'{len(held(key))}/{len(order)}')
         r += 1
     ws.column_dimensions['A'].width = 46
     ws.freeze_panes = 'C4'
