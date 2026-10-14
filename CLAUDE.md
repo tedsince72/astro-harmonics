@@ -81,9 +81,9 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
 - Viewing tool (13 Oct 2026, not a reader): `python3 tools/jupiter_tables.py <race_batch xlsx | reference/classic/<race> folder>` ->
   race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T15 per runner, field matrices, off and +5 min,
   every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score; ratios on the interval
-  list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; THREADS, P## NUMBERS and FIELD NUMBERS
+  list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
-  Tests `python3 tests/jupiter_tables_check.py` (59/59). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (64/64). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -115,7 +115,22 @@ T18 (Eddie, 14 Oct; each runner sheet): the same equidistance pair side by side 
 Jupiter excluded); each side its best plane (inside 1 %, highest score; "X, Y together" planes left out) with both distances, ratio,
 unison offset, score, between / far side, timing; a side not inside shows its closest plane (smallest offset) plain, uncoloured.
 Horse-inside rows first by the horse's score, then jockey-only rows by the jockey's; a Ketu row repeating the Rahu row dropped.
-Test 13: Lingfield 14:35 2021 P09 Uranus–Pluto, horse Equator 0.997767 | jockey Dec 0.994741.
+Test 13: Lingfield 14:35 2021 P09 Uranus–Pluto, horse Equator 0.997767 | jockey Dec 0.994741. Rows with both sides inside 1 % are tagged "both"
+(last column; sort unchanged), with a "both" count in each block title.
+T19 / P## PAIRS (Eddie, 14 Oct): sky Jupiter on natal pairs X–Y, blocks H–H, J–J and H–J across, every plane (RA, Dec, Flat, GC,
+Equator; Equator only when S Jupiter, X, Y straddle the equator). Each row: d(S Jup, X), d(S Jup, Y), d(X, Y) as value + family cell
+(best family, score, timing; natal d(X, Y) fixed; coloured by score); ratio d(S Jup, X) / d(S Jup, Y) larger / smaller on the interval
+list with the tapered tolerances (interval · name · group, offset, score, timing to the interval; outside: nearest interval plain);
+between / far side; notes "X, Y together" and "(also T17)" (a unison row whose line is in T17). Natal pairs include the natal Jupiters.
+- T19 (runner sheet): natal bodies + the 4 royal stars (each chart's own positions); rows where the ratio is on an interval or all three
+  distances have a family hit; "together" rows left out; best ratio score first.
+- P## PAIRS (one sheet per runner): every pair unfiltered, natal bodies + all 22 stars; no star–star pairs; together rows tagged.
+- SKY JUPITER "SKY STARS" (once per race, background): S Jupiter on two sky stars, filtered as T19.
+- A Ketu row with the same numbers as the Rahu row is dropped. Test 14: Lingfield P09 H Uranus – H Pluto Equator, 7 / 7 / 14, unison
+  1.002238 (60.24), (also T17). The Messi check was skipped: no Messi workbook in the repo (only in ~/astronomy-project, not race_batch).
+- Size (14 Oct, with PAIRS): about 1.8 MB per runner (6 runners ~11 MB, 15 runners ~27 MB; 10-70 s per race).
+- Open for Eddie: T17 / T18 time the ratio d(Jup, X) / d(Jup, Y) (body order) to 1, T19 the larger / smaller ratio to its interval -
+  the same configuration can show slightly different exact times (seconds to days for far-off exacts).
 
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the

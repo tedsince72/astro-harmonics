@@ -5,7 +5,7 @@ INPUT = a race_batch_<yyyymmdd>_<course>_<hhmm>.xlsx (TRANS, P01..Pnn, META) or 
 (<course>_<hhmm>_<yyyymmdd>/<race>__P##.xlsx). Output: race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx next to the batch
 (for a folder: in reference/classic/), unless --out.
 
-Sheets: POSITIONS; SKY JUPITER (+ EQUIDISTANCE, 14 Oct); one sheet per runner (P01, P03, ...: tables 1-18; T17 equidistance, T18 horse | jockey side by side) + P## RATIOS; THREADS (13 Oct: hits linking each body
+Sheets: POSITIONS; SKY JUPITER (+ EQUIDISTANCE, 14 Oct); one sheet per runner (P01, P03, ...: tables 1-19; T17 equidistance, T18 horse | jockey side by side, T19 sky Jupiter on natal pairs) + P## PAIRS (unfiltered) + P## RATIOS; THREADS (13 Oct: hits linking each body
 with Jupiter, per runner, tags and field counts - see threads_sheet); P## NUMBERS + FIELD NUMBERS (13 Oct: target numbers, x10 / /10
 folded, SKY / HORSE / JOCKEY / SKY->NATAL - see numbers_sheet); FIELD 5-8, 10, 11, 12-17.
 Each value (13 Oct 2026, Eddie's correction): every family of tools/families.py (Eddie's definitions, his scores from
@@ -477,10 +477,19 @@ def runner_sheet(wb, P, R, ctx):
     field['T17'] = (equi_hits(ctx, R, 'H Jupiter', [p for p in nat if p[0] == 'H' and p != 'H Jupiter'], 'T17')
                     + equi_hits(ctx, R, 'J Jupiter', [p for p in nat if p[0] == 'J' and p != 'J Jupiter'], 'T17')
                     + equi_hits(ctx, R, 'S Jupiter', nat, 'T17'))
-    field['T17'].sort(key=lambda h: -h['score'])
+    field['T17'].sort(key=lambda h: (h['together'], -h['score']))        # 'X, Y together' lines at the bottom
     row = write_equi(ws, row, 'T17 EQUIDISTANCE: H Jupiter with two H bodies; J Jupiter with two J bodies; S Jupiter with two natal bodies',
                      field['T17'])
     row, field['T18'] = write_t18(ws, row, ctx, R)
+    t17k = frozenset(h['key'] for h in field['T17'])
+    allp = pair_rows(ctx, R, STARS, t17k, 'PAIRS')
+    t19 = t19_filter([dict(h, tid='T19') for h in allp
+                      if not any(p.split(' ', 1)[1] in STARS and p.split(' ', 1)[1] not in ROYAL for p in (h['x'], h['y']))])
+    row = pairs_header(ws, row, 'T19 sky Jupiter on natal pairs (filtered: ratio on an interval, or all three distances with a family hit; '
+                       '"X, Y together" left out; natal bodies + royal stars; best ratio score first) — ' + PAIR_NOTE)
+    row = write_pairs_rows(ws, row, t19) + 1
+    field['T19'] = t19
+    field['_pairs'] = allp
     for (lab, cn), (d, ev) in field['T16'].items():
         x = lab.split('–', 1)[1]
         a, b = cn[0], cn.split('= ')[1][0]
@@ -693,6 +702,131 @@ def equi_hits(ctx, R, jup, pts, tid):
     return sorted(out, key=lambda h: (h['together'], -h['score']))      # 'X, Y together' lines at the bottom
 
 
+# ---------------- T19 / P## PAIRS: sky Jupiter on natal pairs (Eddie, 14 Oct 2026)
+PAIR_HEAD = ('table', 'block', 'S Jupiter on X – Y', 'plane', 'd(S Jup, X)', 'family', 'd(S Jup, Y)', 'family', 'd(X, Y)', 'family',
+             'ratio (larger / smaller)', 'interval', 'offset', 'score', 'ratio timing', 'Jupiter', 'note')
+
+
+def pair_points(R, C, stars):
+    return [f'{C} {b}' for b in NATAL_BODIES if b in R[C]] + [f'{C} {x}' for x in stars if x in R[C]]
+
+
+def pair_rows(ctx, R, stars, t17keys=frozenset(), tid='T19', sky=False):
+    """S Jupiter on every pair X-Y: blocks H-H, J-J, H-J across (sky: S-S stars), every plane. No star-star pairs on a runner (sky:
+    star-star only). Each row: the three distances with their best family (score, timing), the ratio d(S Jup, X) / d(S Jup, Y)
+    (larger / smaller) on the interval list with the tapered tolerances (timing), between / far side, 'X, Y together' tag.
+    A Ketu row with the same numbers as the Rahu row is dropped. A unison row also in T17 is marked."""
+    jup = 'S Jupiter'
+    if sky:
+        pts = [f'S {x}' for x in stars if x in ctx.S0]
+        blocks = [('S–S', list(itertools.combinations(pts, 2)))]
+    else:
+        H, J = pair_points(R, 'H', stars), pair_points(R, 'J', stars)
+        isstar = lambda p: p.split(' ', 1)[1] in STARS
+        ok = lambda a, b: not (isstar(a) and isstar(b))
+        blocks = [('H–H', [(a, b) for a, b in itertools.combinations(H, 2) if ok(a, b)]),
+                  ('J–J', [(a, b) for a, b in itertools.combinations(J, 2) if ok(a, b)]),
+                  ('H–J', [(a, b) for a in H for b in J if ok(a, b)])]
+    dcache, fcache = {}, {}
+
+    def dist(p, pl):
+        if (p, pl) not in dcache:
+            dcache[(p, pl)] = eq_dist2(ctx, R, jup, p, pl)
+        return dcache[(p, pl)]
+
+    def fam(p, pl):
+        if (p, pl) not in fcache:
+            v0, v5 = dist(p, pl)
+            fcache[(p, pl)] = eq_family(ctx, v0, v5, pl)
+        return fcache[(p, pl)]
+
+    out = []
+    for blk, pairs in blocks:
+        for x, y in pairs:
+            for pl in EQ_PLANES:
+                if pl == 'Equator':
+                    if x[0] == y[0] and {x[2:], y[2:]} == {'Rahu', 'Ketu'}:
+                        continue
+                    ps = [ctx.pos(R, q, 0) for q in (jup, x, y)]
+                    if None in ps or (ps[0][1] >= 0) == (ps[1][1] >= 0) == (ps[2][1] >= 0):
+                        continue
+                (dx, dx5), (dy, dy5) = dist(x, pl), dist(y, pl)
+                if not dx or not dy:
+                    continue
+                dxy, dxy5 = eq_dist2(ctx, R, x, y, pl)
+                (fx, bx), (fy, by) = fam(x, pl), fam(y, pl)
+                fxy, bxy = eq_family(ctx, dxy, dxy5, pl) if dxy else ((dxy, None, ''), None)
+                flip = dx < dy
+                r0 = dx / dy if not flip else dy / dx
+                n5, m5 = (dx if dx5 is None else dx5), (dy if dy5 is None else dy5)
+                r5 = None if dx5 is None and dy5 is None else ('n/a' if 'n/a' in (dx5, dy5) or not n5 or not m5 else (n5 / m5 if not flip else m5 / n5))
+                ev = families.best(r0, None, 'ratio')
+                near = ev or families.outside(r0, None, 'ratio')
+                tim = (exact_time(ctx, r0, None if r5 is None else r5, near['tv']) if r5 != 'n/a' else 'n/a (rate)')
+                sm = dx + dy
+                pos = 'between' if dxy is not None and abs(dxy - sm) <= 0.01 * sm else 'far side'
+                together = dxy is not None and dxy < (families.CONJ['RA'] if pl == 'RA' else families.CONJ['Dec'])
+                note = []
+                if together:
+                    note.append('X, Y together')
+                lab = f'{jup}: {x} = {y}'
+                if ev and ev['target'] == '1' and (lab, pl) in t17keys:
+                    note.append('(also T17)')
+                out.append({'tid': tid, 'block': blk, 'x': x, 'y': y, 'pair': f'{x} – {y}', 'plane': pl, 'fx': fx, 'fy': fy, 'fxy': fxy,
+                            'allfam': bool(bx and by and bxy), 'r0': r0, 'ev': ev, 'near': near, 'timing': tim, 'pos': pos,
+                            'together': together, 'note': '; '.join(note), 'sig': (round(dx, 6), round(dy, 6))})
+    rahu = {(h['pair'], h['sig']) for h in out if 'Rahu' in h['pair']}            # any plane, as T17 (X = Ketu in Dec = X = Rahu in Equator)
+    out = [h for h in out if not ('Ketu' in h['pair'] and (h['pair'].replace('Ketu', 'Rahu'), h['sig']) in rahu)]
+    return out
+
+
+def t19_filter(rows):
+    """T19: ratio on an interval, or all three distances with a family hit; 'X, Y together' left out; best ratio score first"""
+    keep = [h for h in rows if not h['together'] and (h['ev'] or h['allfam'])]
+    return sorted(keep, key=lambda h: -(h['ev']['score'] if h['ev'] else -1))
+
+
+def write_pairs_rows(ws, row, rows):
+    for h in rows:
+        n = h['near']
+        rv = [h['tid'], h['block'], h['pair'], h['plane'], *h['fx'][:2], *h['fy'][:2], *h['fxy'][:2], round(h['r0'], 6),
+              f"{n['target']} · {n['name']} · {n['group']}" + ('' if h['ev'] else f" — outside ±{n['tol']:.3g} %"), fmt_off(n),
+              round(h['ev']['score'], 2) if h['ev'] else None, h['timing'], h['pos'], h['note'] or None]
+        for k, v in enumerate(rv):
+            ws.cell(row=row, column=1 + k, value=v)
+        for k, f in enumerate((h['fx'], h['fy'], h['fxy'])):
+            if f[2]:
+                ws.cell(row=row, column=6 + 2 * k).fill = FILL[f[2]]
+        if h['ev']:
+            ws.cell(row=row, column=11).fill = FILL[h['ev']['colour']]
+            ws.cell(row=row, column=14).number_format = '0.00'
+        row += 1
+    return row
+
+
+def pairs_header(ws, row, title):
+    ws.cell(row=row, column=1, value=title).font = BOLD
+    row += 1
+    for k, h in enumerate(PAIR_HEAD):
+        c = ws.cell(row=row, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
+    return row + 1
+
+
+PAIR_NOTE = ('sky Jupiter on natal pairs: d(S Jup, X), d(S Jup, Y), d(X, Y) with their best family (score, timing; natal d(X, Y) fixed); '
+             'ratio d(S Jup, X) / d(S Jup, Y) larger / smaller on the interval list (tapered tolerances, timing); between / far side; '
+             'blocks H–H, J–J, H–J; planes RA, Dec, Flat, GC, Equator (Equator only when S Jupiter, X, Y straddle the equator); '
+             'no star–star pairs; a Ketu row repeating the Rahu row dropped')
+
+
+def pairs_sheet(wb, P, R, rows):
+    """P## PAIRS: every pair, unfiltered (natal bodies + all 22 stars)"""
+    ws = wb.create_sheet(f'{P} PAIRS', wb.sheetnames.index(P) + 1)
+    row = pairs_header(ws, 1, f"{P} {R['name']} — PAIRS (unfiltered): " + PAIR_NOTE + '; "X, Y together" tagged')
+    write_pairs_rows(ws, row, rows)
+    ws.column_dimensions['C'].width = 34
+    ws.freeze_panes = 'E3'
+
+
 # ---------------- T18: equidistance, horse and jockey side by side (Eddie, 14 Oct 2026)
 T18_SIDE = ('plane', 'd(Jup, X)', 'd(Jup, Y)', 'ratio', 'unison offset', 'score', 'Jupiter', 'timing')
 
@@ -745,14 +879,16 @@ def write_t18(ws, row, ctx, R):
                 '(inside unison 1 %, highest score; "X, Y together" planes left out); a side not inside shows its closest plane plain. '
                 'Horse-inside rows first (closest to unison first), then jockey-only rows.').font = BOLD
         row += 1
-        heads = ('table', 'X–Y') + tuple(f'horse {h}' for h in T18_SIDE) + tuple(f'jockey {h}' for h in T18_SIDE)
+        rows = t18_rows(ctx, R, jh, jj)
+        both = lambda r: bool(r['H'] and r['H']['inside'] and r['J'] and r['J']['inside'])
+        ws.cell(row=row - 1, column=2).value += f'  both (horse and jockey inside 1 %): {sum(both(r) for r in rows)}'
+        heads = ('table', 'X–Y') + tuple(f'horse {h}' for h in T18_SIDE) + tuple(f'jockey {h}' for h in T18_SIDE) + ('both',)
         for k, h in enumerate(heads):
             c = ws.cell(row=row, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
         row += 1
-        rows = t18_rows(ctx, R, jh, jj)
         out[blk] = rows
         for r in rows:
-            vals = ['T18', r['pair']] + t18_cells(r['H']) + t18_cells(r['J'])
+            vals = ['T18', r['pair']] + t18_cells(r['H']) + t18_cells(r['J']) + ['both' if both(r) else None]
             for k, v in enumerate(vals):
                 ws.cell(row=row, column=1 + k, value=v)
             for k, c in enumerate('HJ'):
@@ -1187,8 +1323,11 @@ def main():
     sky_nums = []
     row, _ = write_pairs(ws, 3, 'SKY', 'S Jupiter → sky points', ctx, R0, rows, lambda a, b: 'equator' if b.endswith(' equator') else 'dist',
                          nums=sky_nums)
-    write_equi(ws, row, 'EQUIDISTANCE: S Jupiter with two sky bodies',
-               [dict(h, tid='SKY EQ') for h in equi_hits(ctx, R0, 'S Jupiter', [f'S {z}' for z in SKY_BODIES if z in sky and z != 'Jupiter'], 'SKY EQ')])
+    row = write_equi(ws, row, 'EQUIDISTANCE: S Jupiter with two sky bodies',
+                     [dict(h, tid='SKY EQ') for h in equi_hits(ctx, R0, 'S Jupiter', [f'S {z}' for z in SKY_BODIES if z in sky and z != 'Jupiter'], 'SKY EQ')])
+    row = pairs_header(ws, row, 'SKY STARS (background, once per race): S Jupiter on two sky stars, filtered as T19 (ratio on an interval, '
+                       'or all three distances with a family hit; "X, Y together" left out)')
+    write_pairs_rows(ws, row, t19_filter(pair_rows(ctx, R0, STARS, tid='SKY STARS', sky=True)))
     ws.column_dimensions['B'].width = 30
     fields = {}
     for P in sorted(runners):
@@ -1206,6 +1345,7 @@ def main():
             ws.cell(row=r, column=c, value='unison: automatic (Jupiter return), not counted' if auto
                     else f'unison: field {uni[k]}/{n}' + (' return-assisted' if assisted else ''))
         ratio_sheet(wb, P, runners[P], fields[P]['_rats'], uni, n)
+        pairs_sheet(wb, P, runners[P], fields[P]['_pairs'])
         numbers_sheet(wb, P, runners[P], sky_nums + fields[P]['_nums'])
     for tid, title in (('T5', 'S Jupiter → H bodies'), ('T6', 'S Jupiter → J bodies'), ('T7', 'sky bodies → H Jupiter'),
                        ('T8', 'sky bodies → J Jupiter')):

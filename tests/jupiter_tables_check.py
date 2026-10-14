@@ -42,7 +42,8 @@ FIELD 17; a Ketu line with the same numbers as a Rahu line dropped. Changed: tes
 Test 12 (Eddie 14 Oct): EQUIDISTANCE family hits for d(Jup, X), d(Jup, Y), d(X, Y) and timing (ratio +5, arrow, applying / separating,
 exact clock time, linear) - Lingfield AW 14:35 2021 batch (copied from ~/astronomy-project/racecards/20210402_lingfield_aw; xlsx only).
 Same day: each family hit split into a value cell and a family cell (coloured by its score); test 12 column positions changed.
-Test 13 (Eddie 14 Oct): T18 - equidistance pair side by side for horse and jockey (block 1 S Jupiter, block 2 natal Jupiters)."""
+Test 13 (Eddie 14 Oct): T18 - equidistance pair side by side for horse and jockey (block 1 S Jupiter, block 2 natal Jupiters);
+'both' tag and count. Test 14: T19 sky Jupiter on natal pairs, P## PAIRS, SKY STARS. (No Messi workbook in the repo: that check skipped.)"""
 import os, subprocess, sys
 import openpyxl
 from openpyxl.cell.rich_text import CellRichText
@@ -346,6 +347,31 @@ check('block 1 sorted: horse-inside rows by horse score, then jockey-only rows b
       b1 == hs + js and [r[7] for r in hs] == sorted([r[7] for r in hs], reverse=True)
       and [r[15] for r in js] == sorted([r[15] for r in js], reverse=True) and all(r[6].endswith('(outside 1 %)') for r in js if r[6]), '')
 check('no "X, Y together" side; block 2 present', not any('together' in str(c) for r in b1 + b2 for c in r) and len(b2) > 0, f'{len(b1)} / {len(b2)} rows')
+
+check('T18 Uranus–Pluto (both inside 1 %) tagged "both"; block 1 title carries the both count', up[0][18] == 'both'
+      and 'both (horse and jockey inside 1 %): ' in t18[bi[0]][1] and int(t18[bi[0]][1].rsplit(': ', 1)[1]) == sum(r[18] == 'both' for r in b1),
+      str(up[0][18]))
+
+print('\nTest 14 (Eddie 14 Oct): T19 sky Jupiter on natal pairs + P09 PAIRS — Lingfield AW 14:35 2021')
+t19 = [r for r in wb['P09'].iter_rows(values_only=True) if r[0] == 'T19']
+uq = [r for r in t19 if r[2] == 'H Uranus – H Pluto' and r[3] == 'Equator']
+check('T19 S Jupiter on H Uranus – H Pluto Equator: 7 / 7 / 14 (whole), ratio 1.002238 unison (60.24), between, (also T17)',
+      len(uq) == 1 and uq[0][5].startswith('→ 7 (whole, 63.38)') and uq[0][7].startswith('→ 7 (whole, 17.78)') and uq[0][9] == '→ 14 (whole, 39.13) · fixed'
+      and uq[0][10] == 1.002238 and uq[0][11] == '1 · unison · Perfect' and uq[0][13] == 60.24 and uq[0][15] == 'between' and uq[0][16] == '(also T17)', str(uq))
+sc = [r[13] for r in t19 if r[13] is not None]
+check('T19 filter: interval hit or all three families; no together; sorted by ratio score; no star–star, stars royal only',
+      all(r[13] is not None or all(c and c.startswith('→') for c in (r[5], r[7], r[9])) for r in t19) and sc == sorted(sc, reverse=True)
+      and not any(r[16] and 'together' in r[16] for r in t19)
+      and all(sum(p.split(' ', 1)[1] in ('Algol', 'Pleiades', 'Capella', 'Sirius', 'Procyon', 'Alkaid', 'Algorab', 'Spica', 'Arcturus', 'Alphecca',
+              'Vega', 'Deneb Algedi', 'Rigel', 'Betelgeuse', 'Polaris', 'Castor', 'Altair', 'Bellatrix', 'Aldebaran', 'Regulus', 'Antares',
+              'Fomalhaut') for p in r[2].split(' – ')) <= 1 for r in t19)
+      and not any(p.split(' ', 1)[1] in ('Algol', 'Sirius', 'Vega', 'Polaris') for r in t19 for p in r[2].split(' – ')), f'{len(t19)} rows')
+pr = [r for r in wb['P09 PAIRS'].iter_rows(min_row=3, values_only=True)]
+check('P09 PAIRS unfiltered (blocks H–H, J–J, H–J; outside ratios plain; together tagged; stars all 22)',
+      len(pr) > len(t19) and {r[1] for r in pr} == {'H–H', 'J–J', 'H–J'} and any(r[13] is None and 'outside' in r[11] for r in pr)
+      and any(r[16] and 'X, Y together' in r[16] for r in pr) and any('Polaris' in r[2] for r in pr), f'{len(pr)} rows')
+sk = [r for r in wb['SKY JUPITER'].iter_rows(values_only=True) if r[0] == 'SKY STARS' and r[3]]
+check('SKY JUPITER: S Jupiter on two sky stars (background, star–star only)', sk and all(r[1] == 'S–S' for r in sk), f'{len(sk)} rows')
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
