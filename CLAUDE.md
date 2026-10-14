@@ -83,7 +83,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score; ratios on the interval
   list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
-  Tests `python3 tests/jupiter_tables_check.py` (64/64). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (66/66). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -124,13 +124,15 @@ list with the tapered tolerances (interval · name · group, offset, score, timi
 between / far side; notes "X, Y together" and "(also T17)" (a unison row whose line is in T17). Natal pairs include the natal Jupiters.
 - T19 (runner sheet): natal bodies + the 4 royal stars (each chart's own positions); rows where the ratio is on an interval or all three
   distances have a family hit; "together" rows left out; best ratio score first.
-- P## PAIRS (one sheet per runner): every pair unfiltered, natal bodies + all 22 stars; no star–star pairs; together rows tagged.
+- P## PAIRS (one sheet per runner, in a separate workbook race_batch_<yyyymmdd>_<course>_<hhmm>_pairs.xlsx written next to the
+  tables workbook, also via run_card_swiss.py --tables): every pair unfiltered, natal bodies + all 22 stars; no star–star pairs; together rows tagged.
 - SKY JUPITER "SKY STARS" (once per race, background): S Jupiter on two sky stars, filtered as T19.
 - A Ketu row with the same numbers as the Rahu row is dropped. Test 14: Lingfield P09 H Uranus – H Pluto Equator, 7 / 7 / 14, unison
   1.002238 (60.24), (also T17). The Messi check was skipped: no Messi workbook in the repo (only in ~/astronomy-project, not race_batch).
-- Size (14 Oct, with PAIRS): about 1.8 MB per runner (6 runners ~11 MB, 15 runners ~27 MB; 10-70 s per race).
-- Open for Eddie: T17 / T18 time the ratio d(Jup, X) / d(Jup, Y) (body order) to 1, T19 the larger / smaller ratio to its interval -
-  the same configuration can show slightly different exact times (seconds to days for far-off exacts).
+- Sizes (14 Oct): Lingfield 14:35 2021 (6 runners) tables 1.45 MB + pairs 9.45 MB; York 16:15 2024 (15 runners) tables 3.63 MB +
+  pairs 23.18 MB.
+- Timing, one method everywhere (Eddie, 14 Oct): the larger / smaller ratio (orientation fixed at the off) moving linearly toward its
+  target interval; T17 and T18 unison timing use it too, so a pair has the same exact time in T17, T18 and T19.
 
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the

@@ -5,7 +5,7 @@ INPUT = a race_batch_<yyyymmdd>_<course>_<hhmm>.xlsx (TRANS, P01..Pnn, META) or 
 (<course>_<hhmm>_<yyyymmdd>/<race>__P##.xlsx). Output: race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx next to the batch
 (for a folder: in reference/classic/), unless --out.
 
-Sheets: POSITIONS; SKY JUPITER (+ EQUIDISTANCE, 14 Oct); one sheet per runner (P01, P03, ...: tables 1-19; T17 equidistance, T18 horse | jockey side by side, T19 sky Jupiter on natal pairs) + P## PAIRS (unfiltered) + P## RATIOS; THREADS (13 Oct: hits linking each body
+Sheets: POSITIONS; SKY JUPITER (+ EQUIDISTANCE, 14 Oct); one sheet per runner (P01, P03, ...: tables 1-19; T17 equidistance, T18 horse | jockey side by side, T19 sky Jupiter on natal pairs); P## PAIRS (unfiltered) in a separate race_batch_<yyyymmdd>_<course>_<hhmm>_pairs.xlsx next to it + P## RATIOS; THREADS (13 Oct: hits linking each body
 with Jupiter, per runner, tags and field counts - see threads_sheet); P## NUMBERS + FIELD NUMBERS (13 Oct: target numbers, x10 / /10
 folded, SKY / HORSE / JOCKEY / SKY->NATAL - see numbers_sheet); FIELD 5-8, 10, 11, 12-17.
 Each value (13 Oct 2026, Eddie's correction): every family of tools/families.py (Eddie's definitions, his scores from
@@ -667,7 +667,7 @@ def equi_line(ctx, R, jup, x, y, pl, tid):
     sc = (10.0 * (tol - dev) / tol) ** 2
     dxy, dxy5 = eq_dist2(ctx, R, x, y, pl)
     sm = dx + dy
-    # +5 min and timing: q = d(Jup, X) / d(Jup, Y) moves linearly; exact unison when q = 1
+    # +5 min and timing: q = larger / smaller (as T19) moves linearly; exact unison when q = 1
     n5 = dx if dx5 is None else dx5
     m5 = dy if dy5 is None else dy5
     if dx5 is None and dy5 is None:
@@ -675,7 +675,8 @@ def equi_line(ctx, R, jup, x, y, pl, tid):
     elif 'n/a' in (dx5, dy5) or not n5 or not m5:
         r5, arw, tim = 'n/a', 'n/a', 'n/a (rate)'
     else:
-        q0, q5 = dx / dy, n5 / m5
+        # one timing method everywhere (Eddie 14 Oct): the larger / smaller ratio (orientation fixed at the off) moving toward its target
+        q0, q5 = (dx / dy, n5 / m5) if dx >= dy else (dy / dx, m5 / n5)
         r5 = min(n5, m5) / max(n5, m5)
         arw = '-> toward' if abs(q5 - 1) < abs(q0 - 1) else '<- away'
         tim = exact_time(ctx, q0, q5, 1.0)
@@ -819,8 +820,8 @@ PAIR_NOTE = ('sky Jupiter on natal pairs: d(S Jup, X), d(S Jup, Y), d(X, Y) with
 
 
 def pairs_sheet(wb, P, R, rows):
-    """P## PAIRS: every pair, unfiltered (natal bodies + all 22 stars)"""
-    ws = wb.create_sheet(f'{P} PAIRS', wb.sheetnames.index(P) + 1)
+    """P## PAIRS: every pair, unfiltered (natal bodies + all 22 stars); in the separate _pairs.xlsx workbook (Eddie 14 Oct)"""
+    ws = wb.create_sheet(f'{P} PAIRS')
     row = pairs_header(ws, 1, f"{P} {R['name']} — PAIRS (unfiltered): " + PAIR_NOTE + '; "X, Y together" tagged')
     write_pairs_rows(ws, row, rows)
     ws.column_dimensions['C'].width = 34
@@ -1304,6 +1305,7 @@ def main():
     ctx = Ctx(sky, rates)
     ctx.off = datetime.datetime.strptime(str(off)[:16], '%Y-%m-%d %H:%M')     # race-local off time (clock times of exact)
     wb = openpyxl.Workbook(); ws = wb.active; ws.title = 'POSITIONS'
+    wbp = openpyxl.Workbook(); wbp.remove(wbp.active)        # P## PAIRS: separate workbook next to the tables one
     repro = next((l for l in elines if l.startswith('reproduction')), elines[0] if elines else '')
     ws.append([f'{race} — Jupiter tables (raw, nothing filtered). off {off}; {src}']); ws.append([repro])
     ws.append(['skipped (no Jupiter in a chart): ' + '; '.join(f'{P} {n}' for P, n in skipped.items())] if skipped else [])
@@ -1345,7 +1347,7 @@ def main():
             ws.cell(row=r, column=c, value='unison: automatic (Jupiter return), not counted' if auto
                     else f'unison: field {uni[k]}/{n}' + (' return-assisted' if assisted else ''))
         ratio_sheet(wb, P, runners[P], fields[P]['_rats'], uni, n)
-        pairs_sheet(wb, P, runners[P], fields[P]['_pairs'])
+        pairs_sheet(wbp, P, runners[P], fields[P]['_pairs'])
         numbers_sheet(wb, P, runners[P], sky_nums + fields[P]['_nums'])
     for tid, title in (('T5', 'S Jupiter → H bodies'), ('T6', 'S Jupiter → J bodies'), ('T7', 'sky bodies → H Jupiter'),
                        ('T8', 'sky bodies → J Jupiter')):
@@ -1363,7 +1365,12 @@ def main():
     threads_sheet(wb, runners, fields)
     field_numbers_sheet(wb, runners, {P: sky_nums + fields[P]['_nums'] for P in runners})
     wb.save(out)
-    print(f'{race}: {len(runners)} runners -> {out} ({os.path.getsize(out) / 1e6:.2f} MB); {repro}'
+    pout = out[:-len('_jupiter_tables.xlsx')] + '_pairs.xlsx' if out.endswith('_jupiter_tables.xlsx') else out[:-5] + '_pairs.xlsx'
+    if not wbp.sheetnames:
+        wbp.create_sheet('PAIRS').cell(row=1, column=1, value='no runners')
+    wbp.save(pout)
+    print(f'{race}: {len(runners)} runners -> {out} ({os.path.getsize(out) / 1e6:.2f} MB); pairs -> {pout} '
+          f'({os.path.getsize(pout) / 1e6:.2f} MB); {repro}'
           + (f"; skipped (no Jupiter in a chart): {', '.join(skipped)}" if skipped else ''))
 
 

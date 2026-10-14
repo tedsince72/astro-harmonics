@@ -366,7 +366,15 @@ check('T19 filter: interval hit or all three families; no together; sorted by ra
               'Vega', 'Deneb Algedi', 'Rigel', 'Betelgeuse', 'Polaris', 'Castor', 'Altair', 'Bellatrix', 'Aldebaran', 'Regulus', 'Antares',
               'Fomalhaut') for p in r[2].split(' – ')) <= 1 for r in t19)
       and not any(p.split(' ', 1)[1] in ('Algol', 'Sirius', 'Vega', 'Polaris') for r in t19 for p in r[2].split(' – ')), f'{len(t19)} rows')
-pr = [r for r in wb['P09 PAIRS'].iter_rows(min_row=3, values_only=True)]
+wbp = openpyxl.load_workbook('reference/classic/race_batch_20210402_lingfield_aw_1435_pairs.xlsx', read_only=True)
+check('P## PAIRS in the separate _pairs.xlsx workbook, not in the tables workbook',
+      'P09 PAIRS' in wbp.sheetnames and not any(n.endswith(' PAIRS') for n in wb.sheetnames), str(wbp.sheetnames))
+pr = [r for r in wbp['P09 PAIRS'].iter_rows(min_row=3, values_only=True)]
+t17t = {(r[1].split(': ', 1)[1].replace(' = ', ' – '), r[2]): r[19] for r in wb['P09'].iter_rows(values_only=True)
+        if r[0] == 'T17' and r[2] and r[1].startswith('S Jupiter')}  # col 20 = unison timing
+same = [(k, t17t[k], r[14]) for r in t19 for k in [(r[2], r[3])] if k in t17t and r[11].startswith('1 ·')]
+check('one timing method: the same unison pair gives the same exact time in T17 and T19', same and all(a == b for _, a, b in same),
+      str([x for x in same if x[1] != x[2]][:3]))
 check('P09 PAIRS unfiltered (blocks H–H, J–J, H–J; outside ratios plain; together tagged; stars all 22)',
       len(pr) > len(t19) and {r[1] for r in pr} == {'H–H', 'J–J', 'H–J'} and any(r[13] is None and 'outside' in r[11] for r in pr)
       and any(r[16] and 'X, Y together' in r[16] for r in pr) and any('Polaris' in r[2] for r in pr), f'{len(pr)} rows')

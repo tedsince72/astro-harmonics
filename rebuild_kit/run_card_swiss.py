@@ -5,7 +5,7 @@ Scrapes all UK races with <= max_runners, then for each race:
   1. racingpost_card_scraper.py     — scrape racecards, write CSVs
   2. racingpost_excel_charts_swiss.py — generate natal + transit xlsx (Swiss Ephemeris)
   3. active_vibrations.py           — score xlsx, write _active.xlsx
-  3b. (with --tables) ~/astro-harmonics/tools/jupiter_tables.py — <race>_jupiter_tables.xlsx (raw Jupiter tables)
+  3b. (with --tables) ~/astro-harmonics/tools/jupiter_tables.py — <race>_jupiter_tables.xlsx (raw Jupiter tables) + <race>_pairs.xlsx (P## PAIRS)
   4. run_pipeline.py                — sections 1-6, three-way, summary
   5. full_race_detail.py            — entry-level txt
   6. uk_race_predictor.py           — prediction output
@@ -92,7 +92,7 @@ def main():
     parser.add_argument("--skip-detail",      action="store_true")
     parser.add_argument("--skip-predict",     action="store_true")
     parser.add_argument("--tables",           action="store_true",
-                        help="after step 3, write <race>_jupiter_tables.xlsx (astro-harmonics tools/jupiter_tables.py)")
+                        help="after step 3, write <race>_jupiter_tables.xlsx and <race>_pairs.xlsx (astro-harmonics tools/jupiter_tables.py)")
     parser.add_argument("--tables-script",
                         default=os.path.expanduser("~/astro-harmonics/tools/jupiter_tables.py"))
     args = parser.parse_args()
