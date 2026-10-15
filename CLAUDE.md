@@ -105,7 +105,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (101/101). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (103/103). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -360,7 +360,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
 
 ## jupiter_tables: SKY block timing, royal-star-only tables (Eddie, 16 Oct 2026; viewing only)
 - SKY JUPITER "SKY" block (S Jupiter → every sky body, star and the equator): four new columns after the planes, "RA timing (best)",
-  "RA timing (scaled)", "Dec timing (best)", "Dec timing (scaled)": applying / separating and the exact race-local time of the best family
+  "RA timing (scaled)", "Dec timing (best)", "Dec timing (scaled)" (moved inside each plane's block the same day, see below): applying / separating and the exact race-local time of the best family
   hit and of the scaled (×10 / ÷10) hit, off -> +5 min linear, the T-table method and wording (exact_time). Empty where there is no hit.
   Nothing else in the block changes. Lingfield 14:35 2021: 15 best / 18 scaled timing cells (47 rows: 46 sky points + the equator); Ascot 14:30 2012: 23 / 28.
 - Royal stars only (Aldebaran, Regulus, Antares, Fomalhaut), after the full tables (full tables unchanged); every line listed, hits and
@@ -385,6 +385,15 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   and T22 royal lines identical), FIELD 21R / 22R every cell and k/n: 0 mismatches. Lingfield has no together rows; Ascot's 2 (S Transpluto
   – S Regulus RA 0.929582 and Dec 0.156195) checked by hand: in NO HIT, no fill. Revised (Eddie, 16 Oct): a together
   SKY ROYAL row shows its values plain with no score (ratio score, ratio half, distance half, midpoint total empty; the RA unison was 24.22).
+- Revised (Eddie, 16 Oct): every together side shows its values plain with no score (ratio score, ratio half, distance half, midpoint
+  total empty) and no colour: T19 sky sides (Lingfield 8, e.g. P07 J Orcus – J Gonggong Dec 36.06 and H Venus – H Neptune Equator
+  11.43 -> no score; Ascot 7), T21 / T21R sides (none in these two races), SKY ROYAL rows. Checked over both workbooks: none shows a score.
+  Not changed: the P## PAIRS workbook (unfiltered; together rows keep their scores: Lingfield 175, Ascot 32) and the T17 / SKY EQ
+  together lines (none in these two races).
+- SKY block layout (Eddie, 16 Oct): each plane's timing inside its block, after its scaled column ("timing (best)", "timing (scaled)"):
+  RA columns C-M, Dec N-X (the block has no Equator plane; the equator row is Dec). The scaled timing only when the scaled hit is a different
+  number; a repeat (same family and digits, x10 / /10) shows one timing. Values and timing unchanged. Timing cells: Lingfield best 15,
+  scaled 10 (8 repeats hidden); Ascot best 23, scaled 17 (11 hidden). Tests 103/103 (test 22 positions moved; together-score checks added).
 
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
@@ -418,7 +427,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 
 ## Where we are (13 Oct 2026)
 - **SKY block timing, royal-star-only tables T21R / T22R / SKY ROYAL / FIELD 21R / 22R (16 Oct 2026, Eddie):** see its section.
-  Tests 101/101.
+  Tests 103/103.
 - **SKY PAIRS body – royal, T19 sky side (15 Oct 2026, Eddie):** see its section (revised the same day: together sky sides plain,
   no d(S Jupiter, royal star) in the tag). Tests 97/97.
 - **Third area "φ and √2" (15 Oct 2026, Eddie):** between area A and area B, same tables; see its section. Tests 92/92.

@@ -819,15 +819,37 @@ wbl = openpyxl.load_workbook('reference/classic/race_batch_20210402_lingfield_aw
 sm = [r for r in wbl['SKY JUPITER'].iter_rows(values_only=True) if r and r[0] == 'SKY' and r[1] == 'S Jupiter → S Mercury']
 check('SKY S Jupiter → S Mercury (by hand from POSITIONS: Dec S Jupiter −14.389918 (+0.0000425872 /min), S Mercury −3.326422 '
       '(+0.000505303 /min), off 14:35): Dec 11.063496 → 11.065810 at +5, φ^5 11.090170, rate 0.00046272 /min -> applying, exact 15:32 '
-      '(in 57.6 min), scaled the same; RA 32.268875 -> 32.27372, scaled /10 2×φ: 20φ 32.360680 reached in 94.7 min -> 16:09; RA best '
-      '(outside) no timing',
-      len(sm) == 1 and sm[0][11] == 11.063496 and sm[0][13] == 'φ^5 (phi power)' and sm[0][22] == 'applying, exact 15:32 (in 57.6 min)'
-      and sm[0][23] == 'applying, exact 15:32 (in 57.6 min)' and sm[0][20] is None and sm[0][21] == 'applying, exact 16:09 (in 94.7 min)',
-      str(sm[0][20:24] if sm else sm))
+      '(in 57.6 min); its scaled x10 10×φ^5 is a repeat (same family and digits): one timing only (Eddie 16 Oct); RA 32.268875 -> 32.27372, '
+      'scaled /10 2×φ (20φ 32.360680, a different number) reached in 94.7 min -> 16:09; RA best (outside) no timing. Timing inside each '
+      'plane block, after its scaled column (16 Oct): RA cols 3-13, Dec cols 14-24',
+      len(sm) == 1 and sm[0][13] == 11.063496 and sm[0][15] == 'φ^5 (phi power)' and sm[0][22] == 'applying, exact 15:32 (in 57.6 min)'
+      and sm[0][23] is None and sm[0][21].startswith('x10: 10×φ^5') and sm[0][11] is None
+      and sm[0][12] == 'applying, exact 16:09 (in 94.7 min)' and sm[0][10].startswith('/10: 2×φ'),
+      str(sm[0][2:24] if sm else sm))
 skr = [list(r) + [None] * 30 for r in wbl['SKY JUPITER'].iter_rows(values_only=True) if r and r[0] == 'SKY' and r[1] != 'S Jupiter → sky points']
-check('SKY block: a timing cell exactly where the best hit (score) and the scaled hit are, per plane (RA, Dec)',
-      skr and all((r[c + 5] is not None) == (r[20 + 2 * i] is not None) and (r[c + 8] is not None) == (r[21 + 2 * i] is not None)
-                  for r in skr for i, c in enumerate((2, 11))), f'{len(skr)} rows')
+check('SKY block: a best timing exactly where the best hit (score) is; a scaled timing only with a scaled hit, and a missing one only '
+      'where the scaled hit repeats the best (then the best timing is there), per plane (RA, Dec)',
+      skr and all((r[c + 5] is not None) == (r[c + 9] is not None) and (r[c + 10] is None or r[c + 8] is not None)
+                  and (r[c + 8] is None or r[c + 10] is not None or r[c + 9] is not None)
+                  for r in skr for c in (2, 13)) and sum(1 for r in skr for c in (2, 13) if r[c + 8] and r[c + 10] is None) > 0, f'{len(skr)} rows')
+
+# Eddie 16 Oct 2026: no together side shows a score (T19 sky side, T21 / T21R sides, SKY ROYAL rows)
+tsc = []
+for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', 'reference/classic/race_batch_20120619_ascot_1430_jupiter_tables.xlsx'):
+    w = openpyxl.load_workbook(f, read_only=True)
+    for n in w.sheetnames:
+        for r in w[n].iter_rows(values_only=True):
+            if not r or r[0] not in ('T19', 'T21', 'T21R', 'SKY ROYAL'):
+                continue
+            sides = ([(16, 13, 19)] if r[0] == 'SKY ROYAL' else [(34, 31, 37)] if r[0] == 'T19' else [(c + 12, c + 9, c + 15) for c in (3, 21, 39)])
+            for nc, sc_, m0 in sides:
+                if len(r) > m0 + 2 and r[nc] and 'together' in str(r[nc]) and any(x is not None for x in (r[sc_], r[m0], r[m0 + 1], r[m0 + 2])):
+                    tsc.append((n, r[0], r[1], r[2], r[3] if len(r) > 3 else None))
+check('no together side shows a score (Eddie 16 Oct): T19 sky sides (e.g. Lingfield P07 J Orcus – J Gonggong Dec, was 36.06), T21 / T21R '
+      'sides, SKY ROYAL rows; Lingfield and Ascot', not tsc, str(tsc[:4]))
+p7 = [r for r in wbl['P07'].iter_rows(values_only=True) if r and r[0] == 'T19' and r[2] == 'J Orcus – J Gonggong' and r[3] == 'Dec']
+check('T19 P07 J Orcus – J Gonggong Dec sky side together: values kept (ratio 1.007991), no score', len(p7) == 1 and p7[0][28] == 1.007991
+      and p7[0][31] is None and 'together' in p7[0][34], str(p7[0][28:35] if p7 else p7))
 
 # Eddie 16 Oct 2026: royal-star-only tables T21R, T22R, SKY ROYAL, FIELD 21R / 22R
 print('\nTest 23 (Eddie 16 Oct): royal-star-only tables — Lingfield AW 14:35 2021 (every runner) and Ascot 14:30 2012')

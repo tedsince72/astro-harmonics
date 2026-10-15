@@ -313,13 +313,13 @@ def arrow(v0, v5, ev):
     return '-> toward' if d5 < d0 else '<- away'
 
 
-def header(ws, row, tid, title, planes):
+def header(ws, row, tid, title, planes, extra=()):
     ws.cell(row=row, column=1, value=tid).font = BOLD
     ws.cell(row=row, column=2, value=title).font = BOLD
     row += 1
     for i, pl in enumerate(planes):
-        col = 3 + COLS * i
-        for k, h in enumerate((pl, '+5 min', 'nearest target', 'group', 'offset', 'score', 'off->+5', 'also (score)', 'scaled x10 / /10')):
+        col = 3 + (COLS + len(extra)) * i
+        for k, h in enumerate((pl, '+5 min', 'nearest target', 'group', 'offset', 'score', 'off->+5', 'also (score)', 'scaled x10 / /10') + extra):
             c = ws.cell(row=row, column=col + k, value=h); c.fill = HEAD; c.font = BOLD
     ws.cell(row=row, column=1, value='table').fill = HEAD
     ws.cell(row=row, column=2, value='points').fill = HEAD
@@ -332,7 +332,6 @@ def plane_index(pl, planes):
 
 SKY_COLS = COLS + 1                                        # T1 / T2 SKY cells per plane: the 9 value cells + exact timing
 SAME_COL = 3 + COLS * len(PLANES) + SKY_COLS * len(PLANES)  # T1 / T2 'same as sky' tag column
-TIME_COL = 3 + COLS * len(PLANES)                          # SKY block timing columns (Eddie, 16 Oct 2026): per plane best, scaled
 
 
 def hit_keys(ev, also, sc):
@@ -354,7 +353,11 @@ def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None, nums=None,
     """rows: [(label, a, b)] -> distances in RA / Dec (equator: Dec only).
     sky (T1 / T2, Eddie 15 Oct 2026): SKY cells S Jupiter -> S X in the same plane beside each natal row (value, best family, scaled,
     +5 min, arrow, exact timing; not in THREADS / NUMBERS) and the tag 'same as sky' where both hit the same number."""
-    row = header(ws, row, tid, title, PLANES)
+    # SKY block (Eddie, 16 Oct 2026): each plane's timing inside its own block, after the scaled column: best hit, then the scaled hit
+    # when it is a different number (a repeat - same family and digits, x10 / /10 - shows one timing)
+    W = COLS + (2 if timing else 0)
+    pcol = lambda pl: 3 + W * PLANES.index(pl)
+    row = header(ws, row, tid, title, PLANES, ('timing (best)', 'timing (scaled)') if timing else ())
     if sky:
         ws.cell(row=row - 2, column=3 + COLS * len(PLANES), value='SKY: S Jupiter → S X, same plane (at the off and +5 min)').font = BOLD
         for i, pl in enumerate(PLANES):
@@ -363,10 +366,6 @@ def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None, nums=None,
                                    'scaled x10 / /10', 'timing')):
                 c = ws.cell(row=row - 1, column=col + k, value=h); c.fill = HEAD; c.font = BOLD
         c = ws.cell(row=row - 1, column=SAME_COL, value='same as sky'); c.fill = HEAD; c.font = BOLD
-    if timing:                                             # SKY block (Eddie, 16 Oct 2026): timing of the best and of the scaled hit, per plane
-        for i, pl in enumerate(PLANES):
-            for k, h in enumerate((f'{pl} timing (best)', f'{pl} timing (scaled)')):
-                c = ws.cell(row=row - 1, column=TIME_COL + 2 * i + k, value=h); c.fill = HEAD; c.font = BOLD
     out = {}
     for label, a, b in rows:
         ws.cell(row=row, column=1, value=tid); ws.cell(row=row, column=2, value=label)
@@ -377,13 +376,13 @@ def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None, nums=None,
                 continue
             kind = kind_of(a, b)
             ev, also, sc = nearest(v0, kind, 'Dec' if kind == 'equator' else pl)
-            put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, sc=sc, ox=(kind, 'Dec' if kind == 'equator' else pl))
+            put_value(ws, row, pcol(pl), v0, v5, ev, also, sc=sc, ox=(kind, 'Dec' if kind == 'equator' else pl))
             out[(label, pl)] = (v0, ev)
             if timing:                                     # applying / separating, exact clock time (off -> +5 min, linear), as the T-tables
-                tc = TIME_COL + 2 * PLANES.index(pl)
+                tc = pcol(pl) + COLS
                 if ev:
                     ws.cell(row=row, column=tc, value=exact_time(ctx, v0, v5, ev['tv']))
-                if sc:
+                if sc and not same_digits(ev, sc):
                     f = 10.0 if sc['scale'] == 'x10' else 0.1
                     ws.cell(row=row, column=tc + 1, value=exact_time(ctx, v0 * f, v5 if v5 in (None, 'n/a') else v5 * f, sc['tv']))
             if thr is not None:
@@ -710,6 +709,10 @@ def side_cells(h):
     vals = [*h['fx'][:2], *h['fy'][:2], *h['fxy'][:2], round(h['r0'], 6), f"{n['target']} · {n['name']} · {n['group']}" + miss, fmt_off(n),
             round(h['ev']['score'], 2) if h['ev'] else None, h['timing'], h['pos'], h['note'] or None]
     vals += ([mid_tcells(m)[0], round(m['close'], 4), *mid_tcells(m)[1:], round(m['score'], 2) if m['hit'] else None] if m else [None] * 5)
+    if h['together']:                                      # Eddie 16 Oct: a together side plain - values kept, no score, no colour
+        for k in (9, 15, 16, 17):
+            vals[k] = None
+        return vals, {}
     fill = {1 + 2 * k: f[2] for k, f in enumerate((h['fx'], h['fy'], h['fxy'])) if f[2]}
     if h['ev']:
         fill[6] = fill[9] = h['ev']['colour']
