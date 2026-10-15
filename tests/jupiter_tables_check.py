@@ -888,5 +888,62 @@ check('SKY ROYAL "X, Y together" rows plain with no score (Eddie 16 Oct): Ascot 
 check('T21R / T22R lines = the royal lines of T21 / T22 with the same values (T21R: every one of the six royal pairs, T21\'s royal lines '
       'among them; T22R exactly T22\'s royal lines); SKY ROYAL holds the SKY PAIRS body – royal rows unchanged; FIELD 21R / 22R present',
       bool(not bad and n21r and n22r), f"T21R {n21r}, T22R {n22r} lines; {bad[:5]}")
+# Eddie 16 Oct 2026: TIMELINE on the SKY JUPITER sheet
+print('\nTest 24 (Eddie 16 Oct): TIMELINE — Lingfield AW 14:35 2021 and Ascot 14:30 2012')
+import datetime
+
+
+def tl_check(f, off):
+    """-> (events, [problems]): window, order, and each event's exact time = its source cell (a timing cell on the sheet with the same text;
+    SKY cells outside at the off have none and are recomputed from POSITIONS, linear off -> +5 min)"""
+    w = openpyxl.load_workbook(f, read_only=True)
+    allr = [r for r in w['SKY JUPITER'].iter_rows(values_only=True) if r]
+    pos = {r[3]: r for r in w['POSITIONS'].iter_rows(values_only=True) if r and r[0] == 'SKY'}
+    tl = [r for r in allr if r[0] == 'TIMELINE' and isinstance(r[2], (int, float))]
+    ev = [r for r in tl if r[4]]
+    bad, last = [], -1e9
+    for r in tl:
+        if r[2] < last:
+            bad.append(('order', r[1:5]))
+        last = r[2]
+    for r in ev:
+        if not -30 <= r[2] <= 60:
+            bad.append(('window', r[1:5]))
+        txt = (f'applying, exact {r[1]} (in {r[2]:.1f} min)' if r[2] >= 0 else f'separating, exact {r[1]} ({-r[2]:.1f} min ago)')
+        names = [x for x in re.split(r'S Jupiter: |S Jupiter → | – ', r[4]) if x]
+        src = 'SKY EQ' if r[3] == 'SKY EQ' else r[3]
+        cand = [x for x in allr if x[0] == src and all(any(isinstance(c, str) and nm in c for c in x[1:3]) for nm in names)]
+        if any(isinstance(c, str) and txt in c for x in cand for c in x):
+            continue
+        if r[3] == 'SKY' and r[12] and 'outside at the off' in r[12]:
+            b = r[4].split('→ S ')[1]
+            p0, q0 = pos['Jupiter'], pos[b]
+            ix = 5 if r[5] == 'RA' else 6
+            dd = lambda m: (abs((p0[5] + m * p0[7]) - (q0[5] + m * q0[7])) % 360) if ix == 5 else abs((p0[6] + m * p0[8]) - (q0[6] + m * q0[8]))
+            d = lambda m: min(dd(m), 360 - dd(m)) if ix == 5 else dd(m)
+            t = (r[8] - d(0)) / ((d(5) - d(0)) / 5)
+            clock = (off + datetime.timedelta(minutes=t)).strftime('%H:%M')
+            if abs(t - r[2]) < 0.06 and clock == r[1]:
+                continue
+        bad.append(('source', r[1:9]))
+    return ev, bad
+
+
+bad, n = [], 0
+for f, off in (('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', datetime.datetime(2021, 4, 2, 14, 35)),
+               ('reference/classic/race_batch_20120619_ascot_1430_jupiter_tables.xlsx', datetime.datetime(2012, 6, 19, 14, 30))):
+    ev, b = tl_check(f, off)
+    n += len(ev); bad += b
+check('TIMELINE: every event inside the off − 30 / + 60 min, rows (and the OFF / +5 MIN markers) in time order, each exact time = its source '
+      'cell on the sheet (SKY outside at the off: recomputed from POSITIONS)', not bad and n > 0, f'{n} events; {bad[:4]}')
+wbl = openpyxl.load_workbook('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', read_only=True)
+tm = [r for r in wbl['SKY JUPITER'].iter_rows(values_only=True) if r and r[0] == 'TIMELINE' and r[4] == 'S Jupiter → S Moon' and r[5] == 'Dec']
+check('TIMELINE S Jupiter → S Moon Dec (by hand from POSITIONS: Dec S Jupiter −14.389918 (+0.0000425872 /min), S Moon −24.052038 '
+      '(−0.000983196 /min)): d 9.662120 growing 0.00102578 /min, nearest 6×φ 9.708204 outside at the off, reached in 44.9 min -> 15:19, '
+      'applying, no score',
+      len(tm) == 1 and tm[0][1] == '15:19' and tm[0][2] == 44.9 and tm[0][7] == '6×φ (golden)' and tm[0][9] == 9.66212 and tm[0][10] is None
+      and tm[0][11] == 'applying' and 'outside at the off' in tm[0][12], str(tm[0] if tm else tm))
+mk = [r for r in wbl['SKY JUPITER'].iter_rows(values_only=True) if r and r[0] == 'TIMELINE' and isinstance(r[3], str) and r[3].startswith('———')]
+check('TIMELINE markers: OFF 14:35 (0 min) and OFF + 5 MIN 14:40', [(r[1], r[2]) for r in mk] == [('14:35', 0), ('14:40', 5)], str([r[1:4] for r in mk]))
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

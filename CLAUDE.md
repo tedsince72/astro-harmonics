@@ -105,7 +105,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (103/103). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (106/106). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -395,6 +395,27 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   number; a repeat (same family and digits, x10 / /10) shows one timing. Values and timing unchanged. Timing cells: Lingfield best 15,
   scaled 10 (8 repeats hidden); Ascot best 23, scaled 17 (11 hidden). Tests 103/103 (test 22 positions moved; together-score checks added).
 
+## jupiter_tables: TIMELINE (Eddie, 16 Oct 2026; viewing only)
+- Block TIMELINE at the end of the SKY JUPITER sheet: every sky Jupiter relationship on that sheet whose exact time falls from the off
+  − 30 min to the off + 60 min, one row per event, sorted by time, with marker rows "OFF" (0 min) and "OFF + 5 MIN". Sources: SKY (best
+  hit, scaled hit unless a x10 / /10 repeat, or the nearest target outside at the off), SKY EQ (unison), SKY PAIRS / SKY STARS / SKY ROYAL
+  (ratio toward its interval or nearest interval, midpoint = unison, each distance leg with a family hit). Columns: exact clock, minutes
+  from the off, source, relationship, plane, kind, target (family and number; interval with area), target value, value and score at the
+  off (coloured), applying / separating, note ("outside at the off"; "also <other sources>"). Timing: the linear method (exact_t /
+  exact_time), off -> +5 min. Left out: together rows, x10 / /10 repeats; each event once (distances by the two points, plane and number
+  folded x10 / /10; an Equator distance with both points on one side = the Dec distance; ratios by pair, plane and interval; the first
+  source named in the order SKY, SKY EQ, SKY PAIRS, SKY STARS, SKY ROYAL). Nothing else on the sheet changes; runner sheets unchanged.
+- Events (before the off / first 5 min / after): Lingfield 14:35 2021 50 (18 / 5 / 27); Ascot 14:30 2012 35 (9 / 4 / 22). Sizes:
+  Lingfield 1.37 + 2.90 MB, Ascot 0.32 + 0.49 MB.
+- Tests 106/106 (test 24): every event inside −30 / +60, rows and markers in time order, every exact time = its source cell (84 of 85
+  events matched to a timing cell on the sheet; the one SKY cell outside at the off recomputed); by hand from POSITIONS: S Jupiter → S Moon
+  Dec (S Jupiter −14.389918, +0.0000425872 /min; S Moon −24.052038, −0.000983196 /min): 9.662120 growing 0.00102578 /min to 6×φ 9.708204,
+  outside at the off, applying, exact 15:19 (in 44.9 min); markers 14:35 / 14:40.
+- Independent checker (16 Oct), Lingfield from POSITIONS (own code): source blocks rebuilt (SKY PAIRS 110, SKY STARS 71, SKY ROYAL 277,
+  SKY EQ 9: identical), the 50 events = the rule (none missing or extra; SKY EQ unisons all outside the window, no midpoint in it), every
+  cell of the 52 rows incl. markers and fills, order, title counts, and every event's time = its source cells' timing text (49 SKY, 108
+  pair-block texts): 0 mismatches.
+
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
 same digits (target ×10 or ÷10, e.g. ninth 11.1111 / 1.11111, √2 14.14 / 1.414). Only one form is shown: the main form, unless the
@@ -426,6 +447,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **TIMELINE on SKY JUPITER (16 Oct 2026, Eddie):** see its section. Tests 106/106.
 - **SKY block timing, royal-star-only tables T21R / T22R / SKY ROYAL / FIELD 21R / 22R (16 Oct 2026, Eddie):** see its section.
   Tests 103/103.
 - **SKY PAIRS body – royal, T19 sky side (15 Oct 2026, Eddie):** see its section (revised the same day: together sky sides plain,
