@@ -623,12 +623,13 @@ check('T21 P11 Alphecca – Betelgeuse RA, sky side S Jupiter: S Alphecca – S 
       and t21s[0][42] == '→ φ^10 (phi power, 99.13) · applying, exact 14:55 (in 20.5 min)' and t21s[0][43] == 144.885275
       and t21s[0][45] == 1.335153 and t21s[0][46] == '4/3 · fourth · Perfect' and t21s[0][47] == '+0.13650%' and t21s[0][48] == 20.61
       and t21s[0][49] == 'applying, exact 23:43 (in 548.3 min)' and t21s[0][50] == 'far side', str(t21s[0][39:51] if t21s else t21s))
-check('"same as sky" found by the rule on that line: horse ratio and sky ratio both on 4/3; d(A, B) ninth 144.444 in horse, jockey and sky',
-      t21s and t21s[0][57] == 'same as sky — H: d(A, B) ninth 144.444 | sky 144.444, ratio 4/3 · fourth; J: d(A, B) ninth 144.444 | sky 144.444',
+check('"same as sky" found by the rule on that line: horse ratio and sky ratio both on 4/3 (d(A, B) never counted, Eddie 15 Oct)',
+      t21s and t21s[0][57] == 'same as sky — H: ratio 4/3 · fourth',
       str(t21s[0][57] if t21s else t21s))
 n21 = [r for n in wbl.sheetnames if n.startswith('P') and n[1:].isdigit() for r in wbl[n].iter_rows(values_only=True)
        if r and r[0] == 'T21' and r[2] in ('RA', 'Dec', 'Equator')]
 check('T21 listing unchanged by the sky side: 198 lines (rule as before)', len(n21) == 198, f'{len(n21)} lines')
+check('T21 "same as sky" never on d(A, B)', not any(len(r) > 57 and r[57] and 'd(A, B)' in r[57] for r in n21), '')
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

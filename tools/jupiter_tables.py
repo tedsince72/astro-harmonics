@@ -636,12 +636,13 @@ def row_best(h):
     return max(h['ev']['score'] if h['ev'] else -1, -1 if h['mid'] is None else h['mid'])
 
 
-T21_CELLS = (('d(Jup, A)', 0), ('d(Jup, B)', 1), ('d(A, B)', 2))
+T21_CELLS = (('d(Jup, A)', 0), ('d(Jup, B)', 1))         # never d(A, B): star-star distances barely change birth -> race day (Eddie 15 Oct)
 
 
 def t21_same(h, s):
     """'same as sky' on a T21 side (Eddie, 15 Oct 2026): the natal side and the sky side hit the same target in the same cell - a distance
-    on the same family and number (x10 / /10 folded as in NUMBERS), or the ratio on the same interval -> list of texts"""
+    from Jupiter (d(Jup, A), d(Jup, B); never d(A, B)) on the same family and number (x10 / /10 folded as in NUMBERS), or the ratio on the
+    same interval -> list of texts"""
     out = []
     if h is None or s is None:
         return out
@@ -681,8 +682,8 @@ def write_t21(ws, row, ctx, R):
             'scoring >= 50 (together left out); best first by the higher of the ratio score and the midpoint total. '
             'Natal sides: timing fixed. SKY side (Eddie, 15 Oct 2026): S Jupiter: S A – S B, the same star pair and plane at race time, '
             'the same cells, timing from the off + 5 min; it never adds or removes a line. "same as sky": the horse or jockey side and the '
-            'sky side hit the same target in the same cell (a distance on the same family and number, x10 / /10 folded; the ratio on '
-            'the same interval)').font = BOLD
+            'sky side hit the same target in the same cell (d(Jup, A) or d(Jup, B) on the same family and number, x10 / /10 folded; '
+            'the ratio on the same interval; never d(A, B), star-star distances barely change)').font = BOLD
     row += 1
     ws.cell(row=row, column=4, value='HORSE: H Jupiter on H star A – H star B').font = BOLD
     ws.cell(row=row, column=4 + len(SIDE_HEAD), value='JOCKEY: J Jupiter on J star A – J star B').font = BOLD

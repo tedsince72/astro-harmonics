@@ -102,7 +102,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (90/90). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (91/91). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -221,19 +221,17 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
 - T21: a sky side "S Jupiter: S A – S B" (race-day star positions) on each line, same star pair and plane, the T19 cells, timing from
   the off + 5 min (Equator only when the sky three straddle the equator, so some Equator lines have no sky side).
 - Tag "same as sky" (last column): T1 / T2 - the natal cell and the SKY cell hit the same number (best, also or scaled; family + digits,
-  ×10 / ÷10 folded as in NUMBERS; no conjunction), per plane; T21 - per side, a distance cell whose best family hit is the same number
-  as the sky side's same cell, or both ratios on the same interval (midpoint not part of the tag).
+  ×10 / ÷10 folded as in NUMBERS; no conjunction), per plane; T21 - per side, d(Jup, A) or d(Jup, B) whose best family hit is the same
+  number as the sky side's same cell, or both ratios on the same interval (midpoint not part of the tag). Never d(A, B) (Eddie, 15 Oct
+  2026, revised: star-star distances barely change from birth to race day).
 - Listing unchanged: the sky side never adds or removes a row or line; FIELD sheets, THREADS and NUMBERS unchanged.
-- Note: d(A, B) of two stars is almost the same natal and at race time (stars barely move), so a d(A, B) family hit in a natal side is
-  nearly always "same as sky" too.
-- Tags: Lingfield 14:35 2021 T1 0, T2 0, T21 26 lines (H 26, J 25 sides; 25 lines d(A, B) only; 1 also on the ratio: P11 Alphecca –
-  Betelgeuse RA, horse 4/3 1.333184 (91.22), sky 4/3 1.335153 (20.61)); T21 198 lines, 191 with a sky side. Ascot 14:30 2012 T1 0, T2 0,
-  T21 6 lines (all d(A, B) only); T21 40 lines, 34 with a sky side. Sizes: Lingfield 1.05 + 2.90 MB, Ascot 0.23 + 0.49 MB.
+- First version counted d(A, B) too: Lingfield 26 lines (25 d(A, B) only), Ascot 6 (all d(A, B) only); revised the same day.
+- Tags: Lingfield 14:35 2021 T1 0, T2 0, T21 1 (P11 Alphecca – Betelgeuse RA, horse 4/3 1.333184 (91.22), sky 4/3 1.335153 (20.61));
+  T21 198 lines, 191 with a sky side. Ascot 14:30 2012 T1 0, T2 0, T21 0; T21 40 lines, 34 with a sky side. Sizes: Lingfield 1.05 + 2.90 MB, Ascot 0.23 + 0.49 MB.
 - Test 18 (Lingfield 14:35 2021, by hand from POSITIONS): T1 P03 H Jupiter → H Sun SKY Dec 19.418627 (+5 19.419746) → 12×φ +0.00222
   (86.76), away, separating, exact 14:25 (9.9 min ago), no tag; T21 P11 Alphecca – Betelgeuse RA sky side 92.120174 / 122.994551 (φ^10
   99.13, applying 14:55) / 144.885275 (ninth 144.444, 53.32), ratio 1.335153 4/3 +0.13650 % (20.61), applying, exact 23:43 (in 548.3 min),
-  far side; its tag (found by the rule) 'H: d(A, B) ninth 144.444 | sky 144.444, ratio 4/3 · fourth; J: d(A, B) ninth 144.444 | sky
-  144.444'; T21 still 198 lines. Tests 90/90. Lingfield and Ascot compared cell by cell with the previous build: only the new
+  far side; its tag (found by the rule) 'H: ratio 4/3 · fourth'; T21 still 198 lines; no tag on d(A, B). Tests 91/91. Lingfield and Ascot compared cell by cell with the previous build: only the new
   columns and the T1 / T2 / T21 titles and header rows differ.
   Independent checker (15 Oct), Lingfield from POSITIONS: every T1 / T2 SKY cell of P03 and P09 (364 plane cells), the T1 / T2 tags of
   all 6 runners (0; closest near-match P11 J equator Dec ÷10 1.438992 vs √2 1.414, not the sky's best scaled), every P11 T21 sky side
