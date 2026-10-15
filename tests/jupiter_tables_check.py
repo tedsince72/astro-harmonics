@@ -591,6 +591,17 @@ f22 = [r for r in wbl['FIELD 22'].iter_rows(values_only=True) if r and r[0] == '
 check('FIELD 21 / 22 show them with side, plane and score, and a k/n count',
       f21 and 'H Dec midpoint (98.45)' in str(f21[0][2]) and 'H Dec 1 (96.59)' in str(f21[0][2]) and str(f21[0][-1]).endswith('/6')
       and f22 and 'H RA far midpoint (53.41)' in str(f22[0][6]) and str(f22[0][-1]).endswith('/6'), f'{f21[0] if f21 else f21} | {f22[0] if f22 else f22}')
+bad21 = []
+for n in [x for x in wbl.sheetnames if x.startswith('P') and x[1:].isdigit()]:
+    for r in wbl[n].iter_rows(values_only=True):
+        if r and r[0] == 'T21' and r[2] in ('RA', 'Dec', 'Equator'):
+            sides = [r[c0:c0 + 18] for c0 in (3, 21) if len(r) >= c0 + 18]
+            if not any(sd[17] is not None or (sd[9] is not None and sd[9] >= 50) for sd in sides if not (sd[12] and 'together' in sd[12])):
+                bad21.append((n, r[1], r[2]))
+e21 = [r[0] for r in wbl['FIELD 21'].iter_rows(min_row=4, values_only=True) if r and r[0] and str(r[-1]).startswith('0/')]
+check('T21 filter (Eddie 15 Oct, revised): every line has a side with a midpoint hit or a ratio hit >= 50; FIELD 21 has no empty (0/n) row; '
+      'FIELD 21 ratio lines all >= 50', not bad21 and not e21 and all(float(x.rsplit('(', 1)[1].rstrip(')')) >= 50 for r in wbl['FIELD 21'].iter_rows(min_row=4, values_only=True)
+      for c in r[1:-1] if c for x in str(c).split('\n') if 'midpoint' not in x), f'{bad21[:3]} {e21[:3]}')
 st = [r for r in wbl['THREADS'].iter_rows(values_only=True) for v in r if isinstance(v, str) and ('[T21' in v or '[T22' in v)]
 check('THREADS and NUMBERS: no T21 / T22 (stars stay out)', not st and not any(isinstance(v, str) and ('T21' in v or 'T22' in v)
       for n in wbl.sheetnames if n.endswith('NUMBERS') for r in wbl[n].iter_rows(values_only=True) for v in r), '')

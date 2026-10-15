@@ -591,22 +591,23 @@ def row_best(h):
 def write_t21(ws, row, ctx, R):
     """T21 (Eddie, 15 Oct 2026): natal Jupiter on natal star pairs, all 22 stars, each chart's own star positions; horse 'H Jupiter: H A –
     H B' | jockey 'J Jupiter: J A – J B' side by side per star pair and plane (RA, Dec, Equator when the three straddle the equator).
-    T19 cells and filter per side (ratio on an interval, or a midpoint hit, or all three distances with a family hit; together left out);
-    a line is listed when either side passes; best first by the higher of the ratio score and the midpoint total. All natal: 'fixed'."""
+    T19 cells per side; a line is listed when either side has a midpoint hit (any total) or a ratio hit scoring >= 50 (Eddie 15 Oct, revised;
+    together sides left out); best first by the higher of the ratio score and the midpoint total. All natal: 'fixed'."""
     sides = {}
     for C in 'HJ':
         pts = [f'{C} {x}' for x in STARS if x in R[C]]
         for h in pair_rows(ctx, R, STARS, tid='T21', jup=f'{C} Jupiter', blocks=[(f'{C}–{C}', list(itertools.combinations(pts, 2)))]):
             sides.setdefault((h['x'][2:], h['y'][2:], h['plane']), {})[C] = h
-    ok = lambda h: h is not None and not h['together'] and (h['ev'] or h['mid'] is not None or h['allfam'])
+    # Eddie 15 Oct (revised): a side counts with a midpoint hit (any total) or a ratio hit scoring >= 50; together sides left out
+    ok = lambda h: h is not None and not h['together'] and (h['mid'] is not None or (h['ev'] is not None and h['ev']['score'] >= T21_RMIN))
     lines = [(k, v) for k, v in sides.items() if ok(v.get('H')) or ok(v.get('J'))]
     lines.sort(key=lambda kv: -max(row_best(kv[1][C]) if ok(kv[1].get(C)) else -1 for C in 'HJ'))
     ws.cell(row=row, column=1, value='T21').font = BOLD
     ws.cell(row=row, column=2, value='T21 natal Jupiter on natal star pairs (all 22 stars, each chart\'s own positions): horse H Jupiter: H A – H B | '
             'jockey J Jupiter: J A – J B, per star pair and plane (RA, Dec; Equator only when the three straddle the equator). Cells as T19: the three '
             'distances with their family, ratio d(Jup, A) / d(Jup, B) on the interval list (tapered tolerances), midpoint (closeness >= 90 %, '
-            'ratio half + distance half), between / far side, together. Listed when either side has a ratio on an interval, a midpoint hit or '
-            'all three distances with a family hit (together left out); best first by the higher of the ratio score and the midpoint total. '
+            'ratio half + distance half), between / far side, together. Listed when either side has a midpoint hit (any total) or a ratio hit '
+            'scoring >= 50 (together left out); best first by the higher of the ratio score and the midpoint total. '
             'All natal: timing fixed').font = BOLD
     row += 1
     ws.cell(row=row, column=4, value='HORSE: H Jupiter on H star A – H star B').font = BOLD
@@ -714,12 +715,17 @@ def write_t22(ws, row, ctx, R):
     return row + 1, out
 
 
-def field_star_sheet(wb, tid, title, runners, fields):
+T21_RMIN = 50.0                                            # T21 / FIELD 21: ratio hits count at >= 50 (Eddie 15 Oct); midpoints at any total
+
+
+def field_star_sheet(wb, tid, title, runners, fields, rmin=0.0):
     """FIELD 21 / FIELD 22 (Eddie, 15 Oct 2026): rows = star pairs (T21) / stars (T22), runners as columns; each hit as side, plane and score
-    (ratio: the interval; midpoint: total); last column = runners with a hit (k/n). Hits = a ratio on an interval or a midpoint hit."""
+    (ratio: the interval; midpoint: total); last column = runners with a hit (k/n). Hits = a ratio on an interval scoring >= rmin
+    (T21: 50) or a midpoint hit."""
     ws = wb.create_sheet(f'FIELD {tid[1:]}')
     ws.cell(row=1, column=1, value=f'{tid} field matrix — {title}; per runner every hit: side (H / J), plane, ratio on an interval '
-            '(interval, score) or midpoint (total); cell coloured by its best hit; last column = runners with a hit (k/n)').font = BOLD
+            f"(interval, score{', >= ' + format(rmin, 'g') if rmin else ''}) or midpoint (total); cell coloured by its best hit; last column = runners "
+            'with a hit (k/n)').font = BOLD
     order = sorted(runners)
     ws.cell(row=3, column=1, value='star pair' if tid == 'T21' else 'star').fill = HEAD
     for i, P in enumerate(order):
@@ -747,7 +753,7 @@ def field_star_sheet(wb, tid, title, runners, fields):
                     h = line[C]
                     if h is None or h.get('together'):
                         continue
-                    if h['ev']:
+                    if h['ev'] and h['ev']['score'] >= rmin:
                         hits.append((h['ev']['score'], h['ev']['colour'], f"{C} {line['plane']} {h['ev']['target']} ({h['ev']['score']:.2f})"))
                     if h['mid'] is not None:
                         side = f" {h['m']['side']}" if h['m']['side'] else ''
@@ -1815,7 +1821,7 @@ def main():
     field_sheet(wb, 'T16', 'RA–Dec crossing (value = RA − Dec, inside ±0.02)', runners, fields, [cross_name(a, b) for a, b in CROSS])
     field_equi_sheet(wb, runners, fields)
     field_t20_sheet(wb, runners, fields)
-    field_star_sheet(wb, 'T21', 'natal Jupiter on natal star pairs (H Jupiter: H A – H B | J Jupiter: J A – J B)', runners, fields)
+    field_star_sheet(wb, 'T21', 'natal Jupiter on natal star pairs (H Jupiter: H A – H B | J Jupiter: J A – J B)', runners, fields, T21_RMIN)
     field_star_sheet(wb, 'T22', 'fixed star as the apex, d(star, S Jupiter) / d(star, natal Jupiter)', runners, fields)
     threads_sheet(wb, runners, fields)
     field_numbers_sheet(wb, runners, {P: sky_nums + fields[P]['_nums'] for P in runners})
