@@ -456,8 +456,13 @@ STARN = ('Algol', 'Pleiades', 'Capella', 'Sirius', 'Procyon', 'Alkaid', 'Algorab
          'Rigel', 'Betelgeuse', 'Polaris', 'Castor', 'Altair', 'Bellatrix', 'Aldebaran', 'Regulus', 'Antares', 'Fomalhaut')
 sp = [r for r in wb['SKY JUPITER'].iter_rows(values_only=True) if r[0] == 'SKY PAIRS' and r[3]]
 spc = [best(r) for r in sp]
-check('SKY PAIRS: S Jupiter on two sky bodies (S–S, no stars, no together, interval hit, midpoint hit or all three families, best first by the higher of ratio score and midpoint total)',
-      sp and all(r[1] == 'S–S' and not any(q[2:] in STARN for q in r[2].split(' – ')) for r in sp)
+ROYALN = ('Aldebaran', 'Regulus', 'Antares', 'Fomalhaut')
+# 15 Oct 2026 (Eddie): body – royal rows added (one sky body, one royal star), in the same blocks and sort
+check('SKY PAIRS: S Jupiter on two sky bodies (S–S, no stars) or a sky body and a royal star ("body – royal", 15 Oct), no together, interval hit, '
+      'midpoint hit or all three families, best first by the higher of ratio score and midpoint total',
+      sp and all((r[1] == 'S–S' and not any(q[2:] in STARN for q in r[2].split(' – '))) or
+                 (r[1] == 'body – royal' and r[2].split(' – ')[0][2:] not in STARN + ('Jupiter',) and r[2].split(' – ')[1][2:] in ROYALN) for r in sp)
+      and {r[1] for r in sp} == {'S–S', 'body – royal'}
       and not any(r[16] and 'together' in r[16] for r in sp) and sorted_blocks(blocks(wb['SKY JUPITER'], 'SKY PAIRS'))
       and all(r[13] is not None or r[21] is not None or all(c and c.startswith('→') for c in (r[5], r[7], r[9])) for r in sp), f'{len(sp)} rows')
 mixed = []
@@ -770,5 +775,33 @@ check('every area A row has an A interval (1, 3/2, 2, 3 ... 9) or a midpoint hit
       '(15 Oct: third area φ and √2) (T12-T14, T19, T21 counted sides >= 50, T22, SKY PAIRS, SKY STARS, P## PAIRS, P## RATIOS, FIELD 12-14 / 21 / 22 cells)',
       not res and all(tot.values()), f'{tot}; mismatches {res[:5]}')
 
+# Eddie 15 Oct 2026: SKY PAIRS body – royal rows
+print('\nTest 20 (Eddie 15 Oct): SKY PAIRS body – royal — Lingfield AW 14:35 2021')
+wbl = openpyxl.load_workbook('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', read_only=True)
+hf = [r for r in wbl['SKY JUPITER'].iter_rows(values_only=True) if r and r[0] == 'SKY PAIRS' and r[2] == 'S Haumea – S Fomalhaut' and r[3] == 'Dec']
+check('SKY PAIRS body – royal S Haumea – S Fomalhaut Dec (by hand from POSITIONS: Dec S Jupiter −14.389918, S Haumea 16.069041, '
+      'S Fomalhaut −29.623914): 30.458960 / 15.233996 / 45.692955, ratio 1.999407 on 2 (offset −0.00059, (10 (0.02 − 0.000593) / 0.02)² = 94.16), '
+      'between, in the area A block',
+      len(hf) == 1 and hf[0][1] == 'body – royal' and abs(hf[0][4] - 30.45896) < 2e-6 and hf[0][6] == 15.233996 and hf[0][8] == 45.692955
+      and hf[0][10] == 1.999407 and hf[0][11] == '2 · octave · Perfect' and hf[0][12] == '-0.00059' and hf[0][13] == 94.16 and hf[0][15] == 'between'
+      and any(x[2] == 'S Haumea – S Fomalhaut' and x[3] == 'Dec' for x in blocks(wbl['SKY JUPITER'], 'SKY PAIRS').get('A', [])),
+      str(hf[0][:16] if hf else hf))
+
+# Eddie 15 Oct 2026: sky side on T19 rows, S Jupiter: S X – S Y; '—' for H X – J X and where there is none; 'same as sky' incl. d(X, Y)
+print('\nTest 21 (Eddie 15 Oct): T19 sky side and "same as sky" — Lingfield AW 14:35 2021 P07')
+cj = [r for r in wbl['P07'].iter_rows(values_only=True) if r and r[0] == 'T19' and r[2] == 'J Chiron – J Juno' and r[3] == 'RA']
+check('T19 P07 J Chiron – J Juno RA sky side S Jupiter: S Chiron – S Juno (by hand from POSITIONS: RA S Jupiter 325.797311, S Chiron 7.172849, '
+      'S Juno 263.624221): 41.375538 (silver 41.4, 60.65) / 62.173090 / 103.548628 (64×φ, 68.66), ratio 1.502653 on 3/2 (+0.00265, '
+      '(10 (0.02 − 0.002653) / 0.02)² = 75.23), between, area A; natal side unchanged (76.319284 / 115.485225, 1.513185 3/2, 11.61)',
+      len(cj) == 1 and cj[0][10] == 1.513185 and cj[0][13] == 11.61 and cj[0][22] == 41.375538 and cj[0][23].startswith('→ 41.4 (silver, 60.65)')
+      and cj[0][24] == 62.17309 and cj[0][26] == 103.548628 and cj[0][27].startswith('→ 64×φ (golden, 68.66)') and cj[0][28] == 1.502653
+      and cj[0][29] == '3/2 · fifth · Perfect' and cj[0][30] == '+0.00265' and cj[0][31] == 75.23 and cj[0][33] == 'between' and cj[0][40] == 'A',
+      str(cj[0][22:42] if cj else cj))
+check('"same as sky" found by the rule on that row: natal ratio 1.513185 and sky ratio 1.502653 both on 3/2',
+      cj and cj[0][41] == 'same as sky — ratio 3/2 · fifth', str(cj[0][41] if cj else cj))
+t19l = [r for n in wbl.sheetnames if n.startswith('P') and n[1:].isdigit() for r in wbl[n].iter_rows(values_only=True)
+        if r and r[0] == 'T19' and len(r) > 3 and r[3] in ('RA', 'Dec', 'Equator')]
+check('T19 sky side: every H–J row "—"; every Equator sky side has S Jupiter, S X, S Y straddling (else "—"); the listing unchanged (1365 rows)',
+      len(t19l) == 1365 and all(r[22] == '—' for r in t19l if r[1] == 'H–J') and all(r[22] is not None for r in t19l), f'{len(t19l)} rows')
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

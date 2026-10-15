@@ -105,7 +105,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (92/92). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (96/96). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -152,7 +152,7 @@ between / far side; notes "X, Y together" and "(also T17)" (a unison row whose l
   distances have a family hit; "together" rows left out; best ratio score first.
 - P## PAIRS (one sheet per runner, in a separate workbook race_batch_<yyyymmdd>_<course>_<hhmm>_pairs.xlsx written next to the
   tables workbook, also via run_card_swiss.py --tables): every pair unfiltered, natal bodies + all 22 stars; no star–star pairs; together rows tagged.
-- SKY JUPITER "SKY PAIRS" (Eddie, 14 Oct; once per race): S Jupiter on every pair of sky bodies (Moon included, no stars), T19 rows and
+- SKY JUPITER "SKY PAIRS" (Eddie, 14 Oct; once per race): S Jupiter on every pair of sky bodies (Moon included; 15 Oct also body – royal star), T19 rows and
   filter (ratio on an interval or all three distances with a family hit; together out; best ratio score first). Ascot 14:30 2012 xlsx
   copied into reference/classic from ~/astronomy-project/racecards (1 runner; P01 T17 no mixed rows, SKY PAIRS 87 rows).
 - SKY JUPITER "SKY STARS" (once per race, background): S Jupiter on two sky stars, filtered as T19.
@@ -317,6 +317,34 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   "more than one area" title counts of all 6 runners: 0 mismatches. Open point (Eddie): a T21 side counted by its midpoint whose ratio
   scores under 50 - the ratio's area is not counted (rule as built); counting it would change only P05 T21 A (1 multi-area row instead of 0).
 
+## jupiter_tables: SKY PAIRS body – royal, T19 sky side (Eddie, 15 Oct 2026; viewing only)
+- SKY PAIRS: new rows S Jupiter on one sky body (Moon included, not Jupiter) and one royal star (Aldebaran, Regulus, Antares,
+  Fomalhaut), race-day positions, the T19 cells, timing from the off + 5 min, planes RA, Dec, Equator (straddle rule). Block column
+  "body – royal" (body–body rows stay "S–S"); same filter, same area blocks, sorted with the rest. Body–body rows unchanged.
+  Rows gained (A / φ√2 / B / no ratio or midpoint hit): Lingfield 14:35 2021 14 / 1 / 19 / 0 (SKY PAIRS 76 -> 110);
+  Ascot 14:30 2012 14 / 3 / 10 / 1 (68 -> 96).
+- T19 sky side: each T19 row gets "S Jupiter: S X – S Y" (same bodies, royal stars at race-day positions, same plane) after the natal
+  cells: the T19 cells (three distances + family, ratio on the interval list, midpoint cells, between / far side, note), timing from the
+  off + 5 min, coloured by score, then its area (A / φ and √2 / B / no hit) and the tag. "—" for H X – J X (one point in the sky), for
+  Equator when S Jupiter, S X, S Y are on one side, and where X or Y is Jupiter (d = 0). Tag "same as sky": the natal and sky best family
+  hit the same number on the same leg (d(S Jup, X), d(S Jup, Y) or d(X, Y); x10 / /10 folded, no conjunction), or both ratios on the same
+  interval; parts joined with "; ". Unlike T21, d(X, Y) counts. Listing and blocks unchanged (set by the natal row); P## PAIRS, FIELD,
+  THREADS, NUMBERS unchanged.
+- Tags (rows): Lingfield 14:35 2021 P01 4, P03 6, P05 7, P07 7, P09 8, P11 1 (33); Ascot 14:30 2012 P01 7. Note: 28 of the 40 carry a
+  royal-star leg d(S Jup, star) (Lingfield 22 x Regulus Equator silver 2.414, one of them also ratio 5/4; Ascot 6 x Aldebaran 2×φ): a
+  star hardly moves between birth and race day, so that leg repeats itself. None is on d(X, Y). Sky sides: Lingfield P01 216 of 248 rows, P03 205 / 241,
+  P05 183 / 217, P07 194 / 221, P09 212 / 237, P11 182 / 201; Ascot P01 228 / 265. Sizes: Lingfield 1.27 + 2.90 MB, Ascot 0.28 + 0.49 MB.
+- Tests 96/96: test 14's SKY PAIRS check allows "body – royal"; test 20 SKY PAIRS S Haumea – S Fomalhaut Dec (by hand from POSITIONS:
+  Dec S Jupiter −14.389918, S Haumea 16.069041, S Fomalhaut −29.623914): 30.458960 / 15.233996 / 45.692955, ratio 1.999407 on 2 (−0.00059,
+  94.16), between, area A; test 21 T19 P07 J Chiron – J Juno RA sky side (RA S Jupiter 325.797311, S Chiron 7.172849, S Juno 263.624221):
+  41.375538 (silver 41.4, 60.65) / 62.173090 / 103.548628 (64×φ, 68.66), ratio 1.502653 on 3/2 (+0.00265, 75.23), between, area A; tag
+  found by the rule "ratio 3/2 · fifth" (natal 1.513185 3/2, 11.61); every H–J row "—"; T19 still 1365 rows.
+- Independent checker (15 Oct), from POSITIONS (own code): SKY PAIRS every body – royal and S–S row of both races (set per plane, block,
+  order, every cell; Lingfield 110, Ascot 96); Lingfield P07 T19 natal set and order (221: A 94 / φ√2 17 / B 98 / 12) and every sky-side
+  cell (8,619 cells; 194 sky sides, 27 "—": 7 H–J, 11 Jupiter, 9 Equator one side); Ascot P01 sky sides (10,335 cells, 228 sides, 37 "—");
+  tags of all runners: 0 mismatches. Open point (Eddie): a sky side tagged "X, Y together" still gets an area and can carry a tag (Lingfield
+  P07 2 such sides, Ascot P01 7; Ascot H Transpluto – H Regulus RA tagged "ratio 1 · unison" with the sky side together, d(X, Y) 0.929582).
+
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
 same digits (target ×10 or ÷10, e.g. ninth 11.1111 / 1.11111, √2 14.14 / 1.414). Only one form is shown: the main form, unless the
@@ -348,6 +376,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **SKY PAIRS body – royal, T19 sky side (15 Oct 2026, Eddie):** see its section. Tests 96/96.
 - **Third area "φ and √2" (15 Oct 2026, Eddie):** between area A and area B, same tables; see its section. Tests 92/92.
 - **Areas A / B (15 Oct 2026, Eddie):** area A intervals (1, 3/2, 2, 3 … 9) on ±0.02 absolute; every ratio table split into area A,
   area B (and no hit). See the section "jupiter_tables: areas A / B". Tests 92/92.
