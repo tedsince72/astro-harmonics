@@ -15,6 +15,9 @@ Eddie's own scoring functions in rebuild_kit/active_vibrations.py are imported (
              number of the fraction (2 -> 0.5 %; 3, 3/2 -> 0.333 %; 4, 4/3 -> 0.25 %; 5, 5/4, 5/3, 5/2 -> 0.2 %), 0.15 % when
              k >= 6 (6/5 and up); Phi group, sqrt2 and 1+1/sqrt2 0.15 %. Ratio values are scored against the interval list only; distances
              (degrees) against the other families only.
+             Area A (Eddie, 15 Oct 2026): the whole-number intervals and 3/2 (AREA_A: 1, 3/2, 2, 3, 4, 5, 6, 7, 8, 9) are scored on
+             +-0.02 ABSOLUTE (|ratio - interval| < 0.02, as whole-number distances, squared; offset shown in absolute units, no %).
+             Area B = every other interval, tapered % tolerances as above (interval_tol). area(label) -> 'A' / 'B'.
 Outside every tolerance: outside() gives the nearest target and its offset, plain text (nearest by tightness: the smallest offset in
 units of the target's own tolerance, ratios and degrees alike).
 Scores: squared (10 (tol - dev) / tol)^2 for whole, golden, phi powers, sqrt2, silver, conjunction and intervals; linear
@@ -58,11 +61,20 @@ INTERVALS = [
 INTERVAL_BY_LABEL = {i[0]: i for i in INTERVALS}
 GROUPS = ('Perfect', 'Imperfect', 'Dissonant', 'Septimal', 'Harmonic', 'High', 'Phi')
 INTERVAL_TOL = 0.15                                    # percent: the floor; Phi group, √2, 1+1/√2
+AREA_A = ('1', '3/2', '2', '3', '4', '5', '6', '7', '8', '9')   # Eddie 15 Oct 2026: area A "whole + 3/2"
+A_TOL = 0.02                                           # area A: +-0.02 absolute, as whole-number distances
+
+
+def area(lab):
+    """'A' (whole + 3/2) or 'B' (every other interval on the list)"""
+    return 'A' if lab in AREA_A else 'B'
 
 
 def interval_tol(lab):
-    """tolerance in percent (Eddie, 13 Oct 2026, revised): unison 1 %; whole-number interval 1 % / k (k = the whole number, or the
-    larger number of the fraction: 3/2 -> 3, 13/4 -> 13), 0.15 % when k >= 6; Phi group, √2 and 1+1/√2 0.15 %"""
+    """area A (Eddie, 15 Oct 2026): 0.02 ABSOLUTE. Area B: tolerance in percent (Eddie, 13 Oct 2026, revised): whole-number interval
+    1 % / k (k = the larger number of the fraction: 4/3 -> 4, 13/4 -> 13), 0.15 % when k >= 6; Phi group, √2 and 1+1/√2 0.15 %"""
+    if lab in AREA_A:
+        return A_TOL
     if INTERVAL_BY_LABEL[lab][3] == 'Phi' or '√' in lab:
         return INTERVAL_TOL
     k = max(int(x) for x in lab.split('/'))
@@ -130,7 +142,7 @@ def score_family(v, fam, plane=None, kind='deg'):
     if fam == 'interval':
         best = (0.0, None, None)
         for lab, t, name, grp in INTERVALS:
-            dev = abs(v / t - 1) * 100
+            dev = abs(v - t) if lab in AREA_A else abs(v / t - 1) * 100
             tol = TOL[lab]
             if dev < tol:
                 sc = (10.0 * (tol - dev) / tol) ** 2
@@ -147,9 +159,9 @@ def evaluate(v, plane=None, kind='deg'):
     for fam in (DEG_FAMILIES if kind == 'deg' else ('interval',)):
         s, lab, t = score_family(v, fam, plane, kind)
         if s > 0:
-            pct = fam == 'interval'
+            pct = fam == 'interval' and lab not in AREA_A     # area A offsets are absolute (Eddie 15 Oct)
             off = (v / t - 1) * 100 if pct else v - t
-            name, grp = (INTERVAL_BY_LABEL[lab][2:] if pct else ('', ''))
+            name, grp = (INTERVAL_BY_LABEL[lab][2:] if fam == 'interval' else ('', ''))
             out.append({'family': fam, 'score': s, 'target': lab, 'tv': t, 'off': off, 'pct': pct, 'colour': colour(s),
                         'name': name, 'group': grp})
     return sorted(out, key=lambda d: (-d['score'], ORDER.index(d['family'])))
@@ -170,9 +182,11 @@ def outside(v, plane=None, kind='deg'):
         cands += [('ninth', f'{t:g}', t, tol, '', '') for lo, hi, tol, t in _NINTH_RANGES]
         cands += [(f, lab, t, max(t * 0.005, 0.025), '', '') for f, ts in (('sqrt2', SQRT2_T), ('silver', SILVER_T)) for lab, t in ts]
         cands = [c for c in cands if c[2] > 0]
-    pct = kind != 'deg'
-    rel = (lambda c: abs(v / c[2] - 1) * 100 / c[3]) if pct else (lambda c: abs(v - c[2]) / c[3])
-    f, lab, t, tol, name, grp = min(cands, key=rel)
+    ispct = lambda c: c[0] == 'interval' and c[1] not in AREA_A          # area A ratios: absolute (Eddie 15 Oct)
+    rel = lambda c: abs(v / c[2] - 1) * 100 / c[3] if ispct(c) else abs(v - c[2]) / c[3]
+    c = min(cands, key=rel)
+    f, lab, t, tol, name, grp = c
+    pct = ispct(c)
     return {'family': f, 'target': lab, 'tv': t, 'off': (v / t - 1) * 100 if pct else v - t, 'pct': pct, 'tol': tol,
             'name': name, 'group': grp, 'score': None, 'colour': ''}
 

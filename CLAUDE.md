@@ -50,10 +50,13 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   GROUP sheet per runner (grouped, tightest first), group tag in the field matrices. Ratio values are scored on this list only.
   Perfect 1 (unison) counts, in the tables and in any new reader version; every unison shows its field count (it can come from age,
   e.g. Equator S/H = 1).
-- Ratio tolerances taper (Eddie, 13 Oct 2026, revised the same day; families.interval_tol): unison 1 %; every other whole-number
-  interval 1 % / k, k = the whole number or the LARGER number of the fraction, 0.15 % when k >= 6: 2 -> 0.5 %; 3, 3/2 -> 0.333 %;
-  4, 4/3 -> 0.25 %; 5, 5/4, 5/3, 5/2 -> 0.2 %; 6/5, 8/5, 8/3, 9/4, 9/5, 7/x, 11/x, 13/x, 9/8, 15/8, 16/9, 16/15, 6–9 -> 0.15 %.
-  Phi group, √2 and 1+1/√2 -> 0.15 %. Squared score on each interval's own tolerance; Equator ratios the same.
+- Ratio tolerances (families.interval_tol). Area A "whole + 3/2" (Eddie, 15 Oct 2026; families.AREA_A): 1, 3/2, 2, 3, 4, 5, 6, 7,
+  8, 9 on ±0.02 ABSOLUTE (|ratio − interval| < 0.02, as whole-number distances), squared score, offset shown absolute (no %).
+  Area B "other" = every other interval, tapered (Eddie, 13 Oct 2026, revised the same day): 1 % / k, k = the LARGER number of the
+  fraction, 0.15 % when k >= 6: 4/3 -> 0.25 %; 5/4, 5/3, 5/2 -> 0.2 %; 6/5, 8/5, 8/3, 9/4, 9/5, 7/x, 11/x, 13/x, 9/8, 15/8, 16/9,
+  16/15 -> 0.15 %; Phi group, √2 and 1+1/√2 -> 0.15 %. Squared score on each interval's own tolerance; Equator ratios the same.
+  (Before 15 Oct the A intervals were tapered too: unison 1 %, 2 0.5 %, 3, 3/2 0.333 %, 4 0.25 %, 5 0.2 %, 6–9 0.15 %. Every ratio
+  number and count written in this file before the areas entry below was made on those tolerances.)
 - Outside every tolerance: every value cell still shows its nearest target and offset, plain text, no score, no colour; conjunction
   is never the nearest target (Eddie, 14 Oct: keep)
   (e.g. '1 · unison · Perfect — outside ±1 %', '+4.44999%'). Nearest by tightness: the target with the smallest offset in units of its
@@ -102,7 +105,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (91/91). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (92/92). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -238,6 +241,53 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   (29 sides, 522 cells), every horse / jockey side of all 198 lines, the 26 tagged lines (same set), the listing (198 = the rule; 7 lines
   without a sky side, all Equator with the sky three on one side): 0 mismatches.
 
+## jupiter_tables: areas A / B (Eddie, 15 Oct 2026; viewing only)
+- Area A "whole + 3/2": intervals 1, 3/2, 2, 3, 4, 5, 6, 7, 8, 9, on ±0.02 absolute (see Families), or a midpoint hit (a midpoint is a
+  unison). Area B "other": every other interval on the list (tapered %). Interval list, timing and scores otherwise unchanged.
+- Split into blocks, area A first, then area B, each with its own title and count: T12, T13, T14, T19, T21, T22, SKY PAIRS, SKY STARS,
+  P## PAIRS. Tables that list every row (T12–T14, T22, P## PAIRS) end with a "NO HIT" block. The filtered T19 / SKY PAIRS / SKY STARS
+  end with "NO RATIO OR MIDPOINT HIT": rows listed only because all three distances have a family hit (Claude's choice, so the listing
+  stays as before; Eddie to confirm or drop). Each row appears once: A if any of its cells / sides is A (T12 / T13 RA or Dec; T21 / T22 horse
+  or jockey; T21 sides count at ratio >= 50 or a midpoint, not together), else B, else no hit; the T12 / T13 titles say how many A rows also
+  carry a B hit in the other plane. Order inside each block as before (T19 / SKY PAIRS / SKY STARS / T21 best first; T12–T14, T22, PAIRS
+  in their old order). Group column kept.
+- P## RATIOS: area A, then area B; inside each area the groups in Eddie's order (B: Perfect (4/3), Imperfect, Dissonant, Septimal, High, Phi).
+- FIELD 12–14: per plane, blocks A, B, no hit; each runner's cell in the block of its own hit; k/n per area (automatic unisons not
+  counted). FIELD 21 / 22: blocks A, B, k/n per area.
+- THREADS, NUMBERS and the midpoint tables (T10, T11, T17, T18, T20) keep their layout. Their ratio hits (THREADS T12 / T13) follow
+  the new tolerance.
+- Effect of ±0.02 on the A intervals (wider than before, e.g. unison was 1 %): Lingfield 14:35 2021 T19 1036 -> 1365 rows, SKY PAIRS
+  59 -> 76, T21 198 -> 244 lines; Ascot 14:30 2012 T19 209 -> 265, SKY PAIRS 53 -> 68, T21 40 -> 44. Cobden (Wincanton 14:20 2022 P09)
+  22 -> 25 unisons (5 genuine, all return-assisted: J Gonggong RA 1.001741, J Ketu RA 1.001694, J Pallas RA 1.013747, J Makemake Dec
+  1.013955, J Haumea Dec 1.019953).
+- Messi check (Ascot 19:45 7 Mar 2012 P01): T19 H Venus – H Neptune Dec 8.839548 / 35.534628, ratio 4.01996 -> area A hit on 4, offset
+  +0.01996, score 0.00 (just inside ±0.02); also RA 3.015497 on 3 (5.07).
+- Counts (rows; A / B / no hit, or A / B / all-three-families-only):
+  Lingfield 14:35 2021: T12 P01 5/8/33, P03 5/4/37, P05 4/4/38, P07 10/4/32, P09 5/6/35, P11 4/3/39; T13 P01 3/4/39, P03 5/4/37,
+  P05 8/3/35, P07 3/4/39, P09 4/4/38, P11 5/2/39; T14 P01 0/0/3, P03 0/1/2, P05 0/1/2, P07 1/1/1, P09 0/1/2, P11 0/0/3;
+  T19 P01 120/118/10, P03 115/120/6, P05 112/101/4, P07 94/115/12, P09 85/142/10, P11 103/94/4; T21 (A / B) P01 14/22, P03 16/22,
+  P05 26/20, P07 24/16, P09 16/30, P11 18/20; T22 P01 2/5/59, P03 5/7/54, P05 3/10/53, P07 11/10/38, P09 4/6/49, P11 11/2/53;
+  RATIOS (A / B) P01 8/13, P03 10/10, P05 12/9, P07 14/9, P09 9/12, P11 9/6; PAIRS P01 280/244/3969, P03 274/247/4008,
+  P05 262/228/4056, P07 248/252/3971, P09 229/276/3888, P11 234/219/4032; SKY PAIRS 34/35/7, SKY STARS 37/32/2;
+  FIELD 12 RA 12/14/46, Dec 16/12/46; FIELD 13 RA 8/13/46, Dec 16/11/46; FIELD 14 1/3/3; FIELD 21 94/101; FIELD 22 19/19.
+  T12 / T13 rows with A and B: 4 (P01 T12, P03 T12, P05 T13, P09 T13).
+  Ascot 14:30 2012 (P01): T12 3/3/40, T13 3/3/40, T14 0/0/3, T19 105/151/9, T21 15/29, T22 6/7/53, RATIOS 6/6, PAIRS 238/295/3895,
+  SKY PAIRS 25/31/12, SKY STARS 22/27/7; FIELD 12 RA 0/3/43, Dec 3/0/43; FIELD 13 RA 1/1/44, Dec 2/2/42; FIELD 14 0/0/3;
+  FIELD 21 15/30; FIELD 22 6/6. Sizes: Lingfield 1.12 + 2.90 MB, Ascot 0.24 + 0.49 MB.
+- Tests 92/92. Test 19 (new): every area A row has an A interval or a midpoint hit, every B row a B interval and no A hit, every
+  no-hit row neither, in T12–T14, T19, T21, T22, SKY PAIRS, SKY STARS, P## PAIRS, P## RATIOS, FIELD 12–14 / 21 / 22 (Lingfield every
+  runner + Ascot). Expected values changed by the ±0.02 tolerance (checked by hand from (10 (0.02 − dev) / 0.02)²): test 5 P05 Rahu
+  1.005972 16.23 -> 49.20 (FIELD 12 now read from the area A block); test 6 Cobden 22 -> 25 unisons, P03 RATIOS now has a Harmonic
+  section (check changed to "no empty group header"); test 7 Mars 1.002631 54.31 -> 75.42, Vesta 3/2 1.499361 76.06 -> 93.71 green,
+  tolerance list; test 14 Uranus – Pluto unison 60.24 -> 78.87, Pluto – Sedna 1.011174 now a unison hit (19.47, was outside 1 %);
+  sort checks per block; PAIRS rows read without block titles; test 17 Algorab – Castor 96.59 -> 98.29, Aldebaran 18.98 -> 51.53;
+  test 18 T21 198 -> 244 lines.
+- Independent checker (15 Oct), Lingfield P09 from POSITIONS (own interval and midpoint code): every T12–T14 cell (187), every T19
+  row (237) incl. block, order and completeness (A 85 / B 142 of 1,982 candidates; 10 all-three-families rows), every P09 PAIRS row
+  (4,393: A 229, B 276, no hit 3,888), every T21 / T22 side (46 + 59 lines), P09 RATIOS (21), FIELD 12–14 every cell and k/n, FIELD
+  21 / 22 every cell and k/n, and the Messi check (whole Messi P01 T19, 202 rows): 0 mismatches. Not checked: order inside the PAIRS
+  blocks, the T21 sky side.
+
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
 same digits (target ×10 or ÷10, e.g. ninth 11.1111 / 1.11111, √2 14.14 / 1.414). Only one form is shown: the main form, unless the
@@ -269,6 +319,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **Areas A / B (15 Oct 2026, Eddie):** area A intervals (1, 3/2, 2, 3 … 9) on ±0.02 absolute; every ratio table split into area A,
+  area B (and no hit). See the section "jupiter_tables: areas A / B". Tests 92/92.
 - **THREADS midpoint cut (15 Oct 2026, Eddie):** midpoint hits (T10, T11, T20) count only at total >= 50, like every hit. Lingfield
   14:35 2021: 19 midpoint lines (7.83–48.10) moved to "+ n weaker"; 8 cells lost the "both charts" tag (P01 Uranus, P09 Uranus,
   P03 Neptune, P05 Makemake, P11 Makemake, P05 Orcus, P01 Transpluto, P03 Nodes). Ascot 14:30 2012: 1 line (P01 Uranus T11 39.16),

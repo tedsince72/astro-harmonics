@@ -150,14 +150,15 @@ for P, inv in (('P05', ' (inverted)'), ('P11', ' (inverted)')):    # RA: both in
     check(f'{P} T12 {lab} RA -> 1 · unison · Perfect{inv}, also cell "unison: field 2/6"',
           t == f'1 · unison · Perfect{inv}' and r[COL['RA'] + 7].value == 'unison: field 2/6', f'{v} {t} {o} {sc} {r[COL["RA"] + 7].value}')
 rs = [x for x in wb['P05 RATIOS'].iter_rows(values_only=True) if x[6] == '1' and x[1] == 'T12' and x[3] == 'RA' and 'Rahu' in x[2]]
-check('P05 RATIOS: the Rahu RA unison row 1.005972 (16.23) with field 2/6', len(rs) == 1 and rs[0][4] == 1.005972 and rs[0][9] == 16.23
+check('P05 RATIOS: the Rahu RA unison row 1.005972 (49.20 on ±0.02 absolute, area A; was 16.23 on 1 %) with field 2/6', len(rs) == 1 and rs[0][4] == 1.005972 and rs[0][9] == 49.2
       and rs[0][11] == '2/6', str(rs))
-f12, pl = [], None
+f12, pl, ar = [], None, None
 for x in wb['FIELD 12'].iter_rows(values_only=True):
     pl = x[0] if x[0] in ('RA', 'Dec') else pl
-    if pl == 'RA' and x[0] == lab:
+    ar = x[0][len(pl) + 3:len(pl) + 9] if pl and isinstance(x[0], str) and x[0].startswith(pl + ' — ') else ar   # 'AREA A' / 'AREA B' / 'NO HIT'
+    if pl == 'RA' and ar == 'AREA A' and x[0] == lab:
         f12.append(x)
-check('FIELD 12 (RA) tags it "field 2/6" for P05 and P11', len(f12) == 1 and sum(isinstance(v, str) and 'field 2/6' in v for v in f12[0][1:]) == 2, str(f12))
+check('FIELD 12 (RA) area A tags it "field 2/6" for P05 and P11', len(f12) == 1 and sum(isinstance(v, str) and 'field 2/6' in v for v in f12[0][1:]) == 2, str(f12))
 
 print('\nTest 6: Wincanton 14:20 2022 (batch xlsx) — P09 Cobden Jupiter return (S–J Jupiter RA 0.03276, Dec 0.52192)')
 wb = openpyxl.load_workbook(build('reference/classic/race_batch_20220321_wincanton_1420.xlsx'))
@@ -175,28 +176,36 @@ na = sum('automatic' in x[11] for x in rs)
 gp = sorted(x[3] for x in rs if 'automatic' not in x[11])
 # moved 14 Oct 2026 (Flat, GC removed): was 63 unisons, 43 genuine (Flat 21, GC 20, RA 2), 41 return-assisted, River Bray J Pluto GC 2/6
 g = sorted((x[2], x[4], x[11]) for x in rs if 'automatic' not in x[11])
-check("Cobden's 22 unisons (1 % tolerance, RA / Dec): 20 automatic (all RA); 2 genuine, RA, both return-assisted 1/6 "
-      "(T13 J Gonggong 1.001741, J Ketu 1.001694)",
-      len(rs) == 22 and na == 20 and all(x[3] == 'RA' for x in rs if 'automatic' in x[11]) and gp == ['RA', 'RA']
+# 15 Oct 2026 (Eddie): unison on ±0.02 absolute (was 1 %): 22 -> 25 unisons, 3 more genuine (Pallas RA, Makemake Dec, Haumea Dec)
+check("Cobden's 25 unisons (±0.02 absolute, RA / Dec): 20 automatic (all RA); 5 genuine, all return-assisted 1/6 "
+      "(T13 J Gonggong RA 1.001741, J Ketu RA 1.001694, J Pallas RA 1.013747, J Makemake Dec 1.013955, J Haumea Dec 1.019953)",
+      len(rs) == 25 and na == 20 and all(x[3] == 'RA' for x in rs if 'automatic' in x[11]) and gp == ['Dec', 'Dec', 'RA', 'RA', 'RA']
       and g == [('S Jupiter–J Gonggong / J Jupiter–J Gonggong', 1.001741, '1/6 return-assisted'),
-                ('S Jupiter–J Ketu / J Jupiter–J Ketu', 1.001694, '1/6 return-assisted')], f'{len(rs)} rows, {na} automatic, genuine {g}')
+                ('S Jupiter–J Haumea / J Jupiter–J Haumea (inverted)', 1.019953, '1/6 return-assisted'),
+                ('S Jupiter–J Ketu / J Jupiter–J Ketu', 1.001694, '1/6 return-assisted'),
+                ('S Jupiter–J Makemake / J Jupiter–J Makemake (inverted)', 1.013955, '1/6 return-assisted'),
+                ('S Jupiter–J Pallas / J Jupiter–J Pallas', 1.013747, '1/6 return-assisted')], f'{len(rs)} rows, {na} automatic, genuine {g}')
 # retired 14 Oct 2026 (GC removed): River Bray (P07) T13 J Pluto GC unison 2/6, not tagged (built on GC; P07 has no unison now)
-heads = [x[0] for x in wb['P03 RATIOS'].iter_rows(values_only=True) if x[0] in ('Perfect', 'Imperfect', 'Dissonant', 'Septimal', 'Harmonic', 'High', 'Phi') and x[1] is None]
-check('P03 RATIOS: no empty group header (no Harmonic section)', 'Harmonic' not in heads, str(heads))
+# 15 Oct 2026: P03 now has a Harmonic hit (area A ±0.02); the check is now: every group header has rows under it
+rr = list(wb['P03 RATIOS'].iter_rows(values_only=True))
+heads = [(i, x[0]) for i, x in enumerate(rr) if x[0] in ('Perfect', 'Imperfect', 'Dissonant', 'Septimal', 'Harmonic', 'High', 'Phi') and x[1] is None]
+empty = [g for i, g in heads if not (i + 2 < len(rr) and rr[i + 2][0] == g)]
+check('P03 RATIOS: no empty group header', heads and not empty, f'{heads} empty {empty}')
 
 print('\nTest 7: Sandown 14:25 2021 (batch xlsx) — tapered ratio tolerances, nearest target outside the tolerance')
 wb = openpyxl.load_workbook('reference/classic/race_batch_20211204_sandown_1425_jupiter_tables.xlsx')   # built in test 4
 ws = wb['P05']
 r = row(ws, 'T12', 'S Jupiter–S Mars / H Jupiter–H Mars')
 v, t, o, f, sc = cell(r, 'RA')
-check('P05 T12 RA S Jupiter–S Mars / H Jupiter–H Mars 1.002631 -> unison inside 1 %, +0.26308 %, score 54.31, yellow',
-      round(v, 6) == 1.002631 and t == '1 · unison · Perfect (inverted)' and o == '+0.26308%' and sc == 54.31 and f == YELLOW, f'{v} {t} {o} {sc} {f}')
+check('P05 T12 RA S Jupiter–S Mars / H Jupiter–H Mars 1.002631 -> unison inside ±0.02 absolute (15 Oct; was 1 %), +0.00263, score '
+      '(10 (0.02 − 0.002631) / 0.02)² = 75.42, yellow',
+      round(v, 6) == 1.002631 and t == '1 · unison · Perfect (inverted)' and o == '+0.00263' and sc == 75.42 and f == YELLOW, f'{v} {t} {o} {sc} {f}')
 # retired 14 Oct 2026 (Flat removed): Flat 1.0445 outside every band (nearest by tightness), P05 Flat Haumea 1.506122 outside 3/2,
 # P05 Flat Makemake 1.499624 3/2 (85.52), P09 Flat Mars 1.125048 9/8 (94.37). The 3/2 and 9/8 cases are moved to RA (P07, found by the rule).
 v, t, o, f, sc = cell(row(wb['P07'], 'T12', 'S Jupiter–S Vesta / H Jupiter–H Vesta'), 'RA')
-check('3/2 hit on 0.333 % (moved from Flat): P07 T12 RA Vesta 1.499361, -0.04263 %, score (10 (1/3 − 0.04263) / (1/3))² = 76.06, yellow',
-      round(v, 6) == 1.499361 and t == '3/2 · fifth · Perfect (inverted)' and o == '-0.04263%' and sc == 76.06
-      and round((10 * (1 / 3 - 0.04263) / (1 / 3)) ** 2, 1) == 76.1 and f == YELLOW, f'{v} {t} {o} {sc} {f}')
+check('3/2 hit on ±0.02 absolute (15 Oct; was 0.333 %): P07 T12 RA Vesta 1.499361, -0.00064, score (10 (0.02 − 0.000639) / 0.02)² = 93.71, green',
+      round(v, 6) == 1.499361 and t == '3/2 · fifth · Perfect (inverted)' and o == '-0.00064' and sc == 93.71
+      and round((10 * (0.02 - 0.000639) / 0.02) ** 2, 2) == 93.71 and f == GREEN, f'{v} {t} {o} {sc} {f}')
 v, t, o, f, sc = cell(row(wb['P07'], 'T13', 'S Jupiter–J Mars / J Jupiter–J Mars'), 'RA')
 check('9/8 on 0.15 % (moved from Flat): P07 T13 RA J Mars 1.125881, +0.07832 %, score (10 (0.15 − 0.07832) / 0.15)² = 22.83, light',
       round(v, 6) == 1.125881 and t == '9/8 · major second · Dissonant (inverted)' and o == '+0.07832%' and sc == 22.83
@@ -206,11 +215,12 @@ check('degrees outside every family: T5 S Jupiter → H Mars Dec 8.398276 -> 5×
       t == '5×φ (golden) — outside ±0.0324' and o == '+0.30811' and sc is None and f is None, f'{v} {t} {o} {sc} {f}')
 import families
 TK = ('1', '2', '3/2', '3', '4/3', '4', '5/4', '5', '5/2', '5/3', '6/5', '8/5', '8/3', '9/4', '7/4', '13/4', '11/5', '7/2', '√2', '1+1/√2', 'φ')
-check('Phi group = φ, φ², φ³, 1+√2 only; tolerances by the larger number (1 %, 1 % / k, 0.15 % from k = 6)',
+check('Phi group = φ, φ², φ³, 1+√2 only; area A (1, 3/2, 2, 3 ... 9) ±0.02 absolute (15 Oct); area B by the larger number (1 % / k, 0.15 % from k = 6)',
       [i[0] for i in families.INTERVALS if i[3] == 'Phi'] == ['φ', 'φ²', 'φ³', '1+√2']
-      and [round(families.TOL[k], 3) for k in TK] == [1.0, 0.5, 0.333, 0.333, 0.25, 0.25, 0.2, 0.2, 0.2, 0.2] + [0.15] * 11
+      and families.AREA_A == ('1', '3/2', '2', '3', '4', '5', '6', '7', '8', '9')
+      and [round(families.TOL[k], 3) for k in TK] == [0.02, 0.02, 0.02, 0.02, 0.25, 0.02, 0.2, 0.02, 0.2, 0.2] + [0.15] * 11
       and all(families.TOL[k] == 0.15 for k in families.TOL
-              if k[0].isdigit() and '√' not in k and max(int(x) for x in k.split('/')) >= 6), str(families.TOL))
+              if k[0].isdigit() and '√' not in k and k not in families.AREA_A and max(int(x) for x in k.split('/')) >= 6), str(families.TOL))
 
 print('\nTest 8: Nottingham 15:30 2022 — THREADS, Uranus row')
 wb = openpyxl.load_workbook('reference/classic/race_batch_20220601_nottingham_1530_jupiter_tables.xlsx', rich_text=True)  # built in test 1
@@ -388,22 +398,36 @@ print('\nTest 14 (Eddie 14 Oct): T19 sky Jupiter on natal pairs + P09 PAIRS — 
 t19 = [r for r in wb['P09'].iter_rows(values_only=True) if r[0] == 'T19']
 uq = [r for r in t19 if r[2] == 'H Uranus – H Pluto' and r[3] == 'Equator']
 check('T19 S Jupiter on H Uranus – H Pluto Equator: 7 / 7 / 14 (whole), ratio 1.002238 unison, between, (also T17); '
-      'ratio on the interval list only (15 Oct): unison 60.24; midpoint in its own cells: offset (7.004077 − 6.988434) / 2 = +0.007822, '
+      'ratio on the interval list only (15 Oct): unison 78.87 (±0.02 absolute; was 60.24 on 1 %); midpoint in its own cells: offset (7.004077 − 6.988434) / 2 = +0.007822, '
       'closeness 99.7767 %, ratio half 47.79, distance half 44.92, midpoint total 92.71',
       len(uq) == 1 and uq[0][5].startswith('→ 7 (whole, 63.38)') and uq[0][7].startswith('→ 7 (whole, 17.78)') and uq[0][9] == '→ 14 (whole, 39.13) · fixed'
       and uq[0][10] == 1.002238 and uq[0][11] == '1 · unison · Perfect' and uq[0][15] == 'between' and uq[0][16] == '(also T17)'
-      and uq[0][17] == '+0.007822' and uq[0][18] == 99.7767 and uq[0][19] == 47.79 and uq[0][20] == 44.92 and uq[0][13] == 60.24 and uq[0][21] == 92.71, str(uq))
+      and uq[0][17] == '+0.007822' and uq[0][18] == 99.7767 and uq[0][19] == 47.79 and uq[0][20] == 44.92 and uq[0][13] == 78.87 and uq[0][21] == 92.71, str(uq))
 ps = [r for r in t19 if r[2] == 'H Pluto – H Sedna' and r[3] == 'Equator']
-check('T19 H Pluto – H Sedna Equator (Eddie 15 Oct): ratio 1.011174 outside unison ±1 % (+1.11741 %, no ratio score); '
-      'midpoint hit in its own cells: closeness 98.8949 %, 39.56 + 27.36 = 66.92; listed for the midpoint',
-      len(ps) == 1 and ps[0][10] == 1.011174 and ps[0][11] == '1 · unison · Perfect — outside ±1 %' and ps[0][12] == '+1.11741%'
-      and ps[0][13] is None and ps[0][18] == 98.8949 and ps[0][19] == 39.56 and ps[0][20] == 27.36 and ps[0][21] == 66.92, str(ps))
+check('T19 H Pluto – H Sedna Equator (Eddie 15 Oct): ratio 1.011174 now inside unison ±0.02 absolute (+0.01117, (10 (0.02 − 0.011174) / 0.02)² = 19.47; '
+      'was outside ±1 %); midpoint hit in its own cells: closeness 98.8949 %, 39.56 + 27.36 = 66.92',
+      len(ps) == 1 and ps[0][10] == 1.011174 and ps[0][11] == '1 · unison · Perfect' and ps[0][12] == '+0.01117'
+      and ps[0][13] == 19.47 and ps[0][18] == 98.8949 and ps[0][19] == 39.56 and ps[0][20] == 27.36 and ps[0][21] == 66.92, str(ps))
 best = lambda r: max(-1 if r[13] is None else r[13], -1 if len(r) < 22 or r[21] is None else r[21])
+
+
+def blocks(ws, tid):
+    """rows of a pair table by area block (15 Oct 2026): {'A': [...], 'B': [...], 'rest': [...]}"""
+    out, cur = {}, None
+    for r in ws.iter_rows(values_only=True):
+        if r and isinstance(r[0], str) and r[0].startswith(tid + ' ') and ': ' in r[0]:
+            cur = 'A' if 'AREA A' in r[0] else 'B' if 'AREA B' in r[0] else 'rest'
+        elif r and r[0] == tid:
+            out.setdefault(cur, []).append(r)
+    return out
+
+
+sorted_blocks = lambda bl: all([best(r) for r in v] == sorted([best(r) for r in v], reverse=True) for v in bl.values())
 sc = [best(r) for r in t19]
 check('T19 filter: interval hit, midpoint hit or all three families; no together; sorted by the higher of ratio score and midpoint total; '
       'no star–star, stars royal only',
       all(r[13] is not None or r[21] is not None or all(c and c.startswith('→') for c in (r[5], r[7], r[9])) for r in t19)
-      and sc == sorted(sc, reverse=True)
+      and sorted_blocks(blocks(wb['P09'], 'T19'))                       # best first inside each area block (15 Oct)
       and not any(r[16] and 'together' in r[16] for r in t19)
       and all(sum(p.split(' ', 1)[1] in ('Algol', 'Pleiades', 'Capella', 'Sirius', 'Procyon', 'Alkaid', 'Algorab', 'Spica', 'Arcturus', 'Alphecca',
               'Vega', 'Deneb Algedi', 'Rigel', 'Betelgeuse', 'Polaris', 'Castor', 'Altair', 'Bellatrix', 'Aldebaran', 'Regulus', 'Antares',
@@ -412,7 +436,7 @@ check('T19 filter: interval hit, midpoint hit or all three families; no together
 wbp = openpyxl.load_workbook('reference/classic/race_batch_20210402_lingfield_aw_1435_pairs.xlsx', read_only=True)
 check('P## PAIRS in the separate _pairs.xlsx workbook, not in the tables workbook',
       'P09 PAIRS' in wbp.sheetnames and not any(n.endswith(' PAIRS') for n in wb.sheetnames), str(wbp.sheetnames))
-pr = [r for r in wbp['P09 PAIRS'].iter_rows(min_row=3, values_only=True)]
+pr = [r for r in wbp['P09 PAIRS'].iter_rows(min_row=3, values_only=True) if r and r[0] == 'PAIRS']   # data rows (block titles / headers left out)
 t17t = {(r[1].split(': ', 1)[1].replace(' = ', ' – '), r[2]): r[21] for r in wb['P09'].iter_rows(values_only=True)
         if r[0] == 'T17' and r[2] and r[1].startswith('S Jupiter')}  # col 20 = unison timing
 same = [(k, t17t[k], r[14]) for r in t19 for k in [(r[2], r[3])] if k in t17t and r[11].startswith('1 ·')]
@@ -434,7 +458,7 @@ sp = [r for r in wb['SKY JUPITER'].iter_rows(values_only=True) if r[0] == 'SKY P
 spc = [best(r) for r in sp]
 check('SKY PAIRS: S Jupiter on two sky bodies (S–S, no stars, no together, interval hit, midpoint hit or all three families, best first by the higher of ratio score and midpoint total)',
       sp and all(r[1] == 'S–S' and not any(q[2:] in STARN for q in r[2].split(' – ')) for r in sp)
-      and not any(r[16] and 'together' in r[16] for r in sp) and spc == sorted(spc, reverse=True)
+      and not any(r[16] and 'together' in r[16] for r in sp) and sorted_blocks(blocks(wb['SKY JUPITER'], 'SKY PAIRS'))
       and all(r[13] is not None or r[21] is not None or all(c and c.startswith('→') for c in (r[5], r[7], r[9])) for r in sp), f'{len(sp)} rows')
 mixed = []
 for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx',
@@ -571,17 +595,17 @@ check('THREADS midpoints at total >= 50 only (Eddie 15 Oct): Lingfield P07 J Ura
 print('\nTest 17 (Eddie 15 Oct): T21 / T22 fixed stars — Lingfield AW 14:35 2021')
 t21 = [r for r in wbl['P03'].iter_rows(values_only=True) if r and r[0] == 'T21' and r[1] == 'Algorab – Castor' and r[2] == 'Dec']
 check('T21 P03 horse H Jupiter: H Algorab – H Castor Dec (found by the rule; by hand from POSITIONS: Dec H Jupiter 7.682992, Algorab −16.518521, '
-      'Castor 31.888664): 24.201513 / 24.205672 / 48.407186, ratio 1.000172 unison (96.59), between, midpoint −0.002079, closeness 99.9828 %, '
+      'Castor 31.888664): 24.201513 / 24.205672 / 48.407186, ratio 1.000172 unison (98.29 on ±0.02 absolute; was 96.59 on 1 %), between, midpoint −0.002079, closeness 99.9828 %, '
       '49.83 + 48.62 = 98.45, fixed',
       len(t21) == 1 and t21[0][3] == 24.201513 and t21[0][5] == 24.205672 and t21[0][7] == 48.407186 and t21[0][9] == 1.000172
-      and t21[0][10] == '1 · unison · Perfect' and t21[0][12] == 96.59 and t21[0][13] == 'fixed' and t21[0][14] == 'between'
+      and t21[0][10] == '1 · unison · Perfect' and t21[0][12] == 98.29 and t21[0][13] == 'fixed' and t21[0][14] == 'between'
       and t21[0][16] == '-0.002079' and t21[0][17] == 99.9828 and t21[0][18] == 49.83 and t21[0][19] == 48.62 and t21[0][20] == 98.45, str(t21[0][:21] if t21 else t21))
 t22 = [r for r in wbl['P11'].iter_rows(values_only=True) if r and r[0] == 'T22' and r[1] == 'Aldebaran' and r[2] == 'RA']
 check('T22 P11 horse d(Aldebaran, S Jupiter) / d(Aldebaran, H Jupiter) RA (found by the rule; by hand from POSITIONS: RA S Aldebaran 68.977553, '
-      'S Jupiter 325.797311, H Jupiter 171.578818): 103.180242 / 102.601266, ratio 1.005643 unison (18.98), applying, exact 05 Apr 2021 16:21 '
+      'S Jupiter 325.797311, H Jupiter 171.578818): 103.180242 / 102.601266, ratio 1.005643 unison (51.53 on ±0.02 absolute; was 18.98), applying, exact 05 Apr 2021 16:21 '
       '(in 4426.2 min); midpoint far +0.289488, closeness 99.4389 %, 44.55 + 8.86 = 53.41',
       len(t22) == 1 and t22[0][3] == 103.180242 and t22[0][5] == 102.601266 and t22[0][7] == 1.005643 and t22[0][8] == '1 · unison · Perfect'
-      and t22[0][10] == 18.98 and t22[0][12] == 'applying, exact 05 Apr 2021 16:21 (in 4426.2 min)' and t22[0][13] == '+0.289488 far'
+      and t22[0][10] == 51.53 and t22[0][12] == 'applying, exact 05 Apr 2021 16:21 (in 4426.2 min)' and t22[0][13] == '+0.289488 far'
       and t22[0][14] == 99.4389 and t22[0][15] == 44.55 and t22[0][16] == 8.86 and t22[0][17] == 53.41, str(t22[0][:18] if t22 else t22))
 n22 = [r for r in wbl['P11'].iter_rows(values_only=True) if r and r[0] == 'T22' and r[2] in ('RA', 'Dec', 'Equator')]
 check('T22 lists every star (22), RA and Dec each', {r[1] for r in n22 if r[2] == 'RA'} == set(STARN) and {r[1] for r in n22 if r[2] == 'Dec'} == set(STARN),
@@ -589,7 +613,7 @@ check('T22 lists every star (22), RA and Dec each', {r[1] for r in n22 if r[2] =
 f21 = [r for r in wbl['FIELD 21'].iter_rows(values_only=True) if r and r[0] == 'Algorab – Castor']
 f22 = [r for r in wbl['FIELD 22'].iter_rows(values_only=True) if r and r[0] == 'Aldebaran']
 check('FIELD 21 / 22 show them with side, plane and score, and a k/n count',
-      f21 and 'H Dec midpoint (98.45)' in str(f21[0][2]) and 'H Dec 1 (96.59)' in str(f21[0][2]) and str(f21[0][-1]).endswith('/6')
+      f21 and 'H Dec midpoint (98.45)' in str(f21[0][2]) and 'H Dec 1 (98.29)' in str(f21[0][2]) and str(f21[0][-1]).endswith('/6')
       and f22 and 'H RA far midpoint (53.41)' in str(f22[0][6]) and str(f22[0][-1]).endswith('/6'), f'{f21[0] if f21 else f21} | {f22[0] if f22 else f22}')
 bad21 = []
 for n in [x for x in wbl.sheetnames if x.startswith('P') and x[1:].isdigit()]:
@@ -628,8 +652,109 @@ check('"same as sky" found by the rule on that line: horse ratio and sky ratio b
       str(t21s[0][57] if t21s else t21s))
 n21 = [r for n in wbl.sheetnames if n.startswith('P') and n[1:].isdigit() for r in wbl[n].iter_rows(values_only=True)
        if r and r[0] == 'T21' and r[2] in ('RA', 'Dec', 'Equator')]
-check('T21 listing unchanged by the sky side: 198 lines (rule as before)', len(n21) == 198, f'{len(n21)} lines')
+# 15 Oct 2026: 198 -> 244 lines (area A on ±0.02 absolute: more ratio hits >= 50); the listing rule itself is checked in test 17 (bad21)
+check('T21 listing unchanged by the sky side: 244 lines (rule as before, area A ±0.02)', len(n21) == 244, f'{len(n21)} lines')
 check('T21 "same as sky" never on d(A, B)', not any(len(r) > 57 and r[57] and 'd(A, B)' in r[57] for r in n21), '')
+
+# Eddie 15 Oct 2026: every ratio table split into area A "whole + 3/2" (1, 3/2, 2, 3 ... 9 on ±0.02 absolute, or a midpoint hit) and
+# area B "other" (every other interval); "no hit" at the bottom where every row is listed
+print('\nTest 19 (Eddie 15 Oct): areas A / B — Lingfield AW 14:35 2021 (every runner) and Ascot 14:30 2012')
+AA = set(families.AREA_A)
+iv = lambda t: str(t).split(' ')[0]                    # '4 · double octave · Perfect' -> '4'
+
+
+def side_area(tgt, score, mid, rmin=0.0):
+    if mid is not None:
+        return 'A'
+    if score is not None and score >= rmin:
+        return 'A' if iv(tgt) in AA else 'B'
+    return None
+
+
+def row_ar(areas):
+    return 'A' if 'A' in areas else 'B' if 'B' in areas else 'rest'
+
+
+def walk(ws, tids, row_area, title=lambda r: None):
+    """-> (n data rows, [mismatches]): block from the title rows, area of each data row from its own cells"""
+    cur, n, bad, seen = None, 0, [], set()
+    for r in ws.iter_rows(values_only=True):
+        if not r:
+            continue
+        t = title(r)
+        if t is None:
+            for v in r[:2]:
+                if isinstance(v, str) and ': ' in v and ('AREA A' in v or 'AREA B' in v or 'NO HIT' in v or 'NO RATIO' in v):
+                    t = v
+        if t:
+            cur = 'A' if 'AREA A' in t else 'B' if 'AREA B' in t else 'rest'
+            seen.add(cur)
+            continue
+        if r[0] in tids and isinstance(r[1], str):
+            a = row_area(r)
+            if a == 'skip':                            # a table's main title row
+                continue
+            n += 1
+            if a != cur:
+                bad.append((ws.title, r[0], r[1], r[2] if len(r) > 2 else None, cur, a))
+    return n, bad, seen
+
+
+t1214 = lambda r: row_ar([side_area(r[c + 2], r[c + 5], None) for c in ((2, 11) if r[0] != 'T14' else (2,)) if len(r) > c + 5])
+PL = ('RA', 'Dec', 'Equator')
+pairs = lambda r: 'skip' if len(r) < 4 or r[3] not in PL else row_ar([side_area(r[11], r[13], r[21] if len(r) > 21 else None)])
+t21 = lambda r: 'skip' if len(r) < 3 or r[2] not in PL else row_ar([side_area(r[c + 7], r[c + 9], r[c + 17], 50.0) for c in (3, 21)
+                        if len(r) > c + 17 and not (r[c + 12] and 'together' in str(r[c + 12]))])
+t22 = lambda r: 'skip' if len(r) < 3 or r[2] not in PL else row_ar([side_area(r[c + 5], r[c + 7], r[c + 14]) for c in (3, 18) if len(r) > c + 14])
+res, tot = [], {}
+for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', 'reference/classic/race_batch_20120619_ascot_1430_jupiter_tables.xlsx'):
+    w = openpyxl.load_workbook(f, read_only=True)
+    pw = openpyxl.load_workbook(f.replace('_jupiter_tables.xlsx', '_pairs.xlsx'), read_only=True)
+    for n in [x for x in w.sheetnames if x.startswith('P') and x[1:].isdigit()]:
+        for tids, fn in ((('T12', 'T13', 'T14'), t1214), (('T19',), pairs), (('T21',), t21), (('T22',), t22)):
+            k, b, _ = walk(w[n], tids, fn, title=(lambda r: r[1] if r[0] in ('T12', 'T13', 'T14') and isinstance(r[1], str) and 'rows' in r[1]
+                                                    and ('AREA' in r[1] or 'NO HIT' in r[1]) else None) if 'T12' in tids else (lambda r: None))
+            if 'T12' in tids:                          # T12-T14 data rows: the label rows (not the titles)
+                k, b, _ = walk(w[n], tids, lambda r: fn(r) if not ('AREA' in r[1] or 'NO HIT' in r[1] or r[1].startswith('Jupiter return')) else 'skip',
+                               title=lambda r: r[1] if r[0] in tids and isinstance(r[1], str) and ('AREA' in r[1] or 'NO HIT' in r[1]) else None)
+            tot[tids[0]] = tot.get(tids[0], 0) + k
+            res += b
+        rr, cur = list(w[f'{n} RATIOS'].iter_rows(values_only=True)), None
+        for x in rr:
+            if isinstance(x[0], str) and x[0].startswith('AREA'):
+                cur = x[0][5]
+            elif x[1] in ('T12', 'T13', 'T14') and x[6]:
+                tot['RATIOS'] = tot.get('RATIOS', 0) + 1
+                if ('A' if x[6] in AA else 'B') != cur:
+                    res.append((n + ' RATIOS', x[2], x[3], x[6], cur))
+        k, b, _ = walk(pw[n + ' PAIRS'], ('PAIRS',), pairs)
+        tot['PAIRS'] = tot.get('PAIRS', 0) + k
+        res += b
+    k, b, _ = walk(w['SKY JUPITER'], ('SKY PAIRS', 'SKY STARS'), pairs)
+    tot['SKY'] = tot.get('SKY', 0) + k
+    res += b
+    for fs in ('FIELD 12', 'FIELD 13', 'FIELD 14', 'FIELD 21', 'FIELD 22'):
+        cur = None
+        for r in w[fs].iter_rows(min_row=3, values_only=True):
+            if r and isinstance(r[0], str) and ('AREA' in r[0] or 'NO HIT' in r[0]) and ': ' in r[0]:
+                cur = 'A' if 'AREA A' in r[0] else 'B' if 'AREA B' in r[0] else 'rest'
+                continue
+            if not r or not r[0] or cur is None:
+                continue
+            for c in r[1:]:
+                if not isinstance(c, str) or c.endswith('/6') or c.endswith('/1') or c.startswith('P'):
+                    continue
+                for line in c.split('\n'):
+                    tot[fs] = tot.get(fs, 0) + 1
+                    if fs in ('FIELD 21', 'FIELD 22'):
+                        a = 'A' if 'midpoint' in line else ('A' if line.split(' ')[2] in AA else 'B')
+                    else:
+                        a = 'rest' if 'outside' in line else ('A' if line.split(' ')[0] in AA else 'B')
+                    if a != cur:
+                        res.append((fs, r[0], line, cur, a))
+check('every area A row has an A interval (1, 3/2, 2, 3 ... 9) or a midpoint hit, every area B row a B interval (and no A hit), every '
+      'no-hit row neither (T12-T14, T19, T21 counted sides >= 50, T22, SKY PAIRS, SKY STARS, P## PAIRS, P## RATIOS, FIELD 12-14 / 21 / 22 cells)',
+      not res and all(tot.values()), f'{tot}; mismatches {res[:5]}')
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
