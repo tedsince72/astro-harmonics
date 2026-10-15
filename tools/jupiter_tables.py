@@ -1438,7 +1438,9 @@ def write_pairs_rows(ws, row, rows, skyside=False, notog=False):
               round(h['ev']['score'], 2) if h['ev'] else None, h['timing'], h['pos'], h['note'] or None] + ([mid_tcells(m)[0], round(m['close'], 4), *mid_tcells(m)[1:], round(m['score'], 2) if m['hit'] else None] if m else [])
         for k, v in enumerate(rv):
             ws.cell(row=row, column=1 + k, value=v)
-        if notog and h['together']:                        # SKY ROYAL: a together row plain, in NO HIT (as together sides everywhere)
+        if notog and h['together']:                        # SKY ROYAL: a together row plain, no score, in NO HIT (Eddie 16 Oct)
+            for k in (14, 20, 21, 22):                     # ratio score, ratio half, distance half, midpoint total
+                ws.cell(row=row, column=k).value = None      # (cell(value=None) would not clear it)
             row += 1
             continue
         for k, f in enumerate((h['fx'], h['fy'], h['fxy'])):

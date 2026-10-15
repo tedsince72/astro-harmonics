@@ -105,7 +105,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (100/100). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (101/101). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -383,7 +383,8 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
 - Independent checker (16 Oct), Lingfield from POSITIONS (own code): every SKY block cell incl. the timing (1,023 cells), SKY ROYAL
   (277 rows: 281 generated, 4 Ketu repeats dropped; 5,263 cells, blocks, order, fills), T21R / T22R of all 6 runners (7,760 cells; T21
   and T22 royal lines identical), FIELD 21R / 22R every cell and k/n: 0 mismatches. Lingfield has no together rows; Ascot's 2 (S Transpluto
-  – S Regulus RA 0.929582 and Dec 0.156195) checked by hand: in NO HIT, no fill (values kept, e.g. RA unison score 24.22 shown plain).
+  – S Regulus RA 0.929582 and Dec 0.156195) checked by hand: in NO HIT, no fill. Revised (Eddie, 16 Oct): a together
+  SKY ROYAL row shows its values plain with no score (ratio score, ratio half, distance half, midpoint total empty; the RA unison was 24.22).
 
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
@@ -417,7 +418,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 
 ## Where we are (13 Oct 2026)
 - **SKY block timing, royal-star-only tables T21R / T22R / SKY ROYAL / FIELD 21R / 22R (16 Oct 2026, Eddie):** see its section.
-  Tests 100/100.
+  Tests 101/101.
 - **SKY PAIRS body – royal, T19 sky side (15 Oct 2026, Eddie):** see its section (revised the same day: together sky sides plain,
   no d(S Jupiter, royal star) in the tag). Tests 97/97.
 - **Third area "φ and √2" (15 Oct 2026, Eddie):** between area A and area B, same tables; see its section. Tests 92/92.

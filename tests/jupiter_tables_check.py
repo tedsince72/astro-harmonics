@@ -857,6 +857,12 @@ for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_table
     for fs in ('FIELD 21R', 'FIELD 22R'):
         if fs not in w.sheetnames:
             bad.append(fs)
+wa = openpyxl.load_workbook('reference/classic/race_batch_20120619_ascot_1430_jupiter_tables.xlsx', read_only=True)
+tg = [r for r in wa['SKY JUPITER'].iter_rows(values_only=True) if r and r[0] == 'SKY ROYAL' and len(r) > 16 and r[16] and 'together' in r[16]]
+check('SKY ROYAL "X, Y together" rows plain with no score (Eddie 16 Oct): Ascot S Transpluto – S Regulus RA 0.929582 (unison, was 24.22) '
+      'and Dec, values kept, no ratio score, no midpoint scores',
+      len(tg) == 2 and any(r[3] == 'RA' and r[8] == 0.929582 and r[10] is not None for r in tg)
+      and all(r[13] is None and all(x is None for x in r[19:22]) for r in tg), str([r[2:4] + r[13:14] for r in tg]))
 check('T21R / T22R lines = the royal lines of T21 / T22 with the same values (T21R: every one of the six royal pairs, T21\'s royal lines '
       'among them; T22R exactly T22\'s royal lines); SKY ROYAL holds the SKY PAIRS body – royal rows unchanged; FIELD 21R / 22R present',
       bool(not bad and n21r and n22r), f"T21R {n21r}, T22R {n22r} lines; {bad[:5]}")
