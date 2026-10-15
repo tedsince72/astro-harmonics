@@ -35,6 +35,8 @@ title counts rows with hits in more than one area), order inside a block as befo
 SKY PAIRS body – royal (Eddie, 15 Oct 2026): S Jupiter on each sky body (Moon included) with each royal star, block "body – royal", same
 filter, area blocks and sort. T19 sky side (Eddie, 15 Oct 2026): S Jupiter: S X – S Y beside each T19 row ("—" for H X – J X or where there
 is none), its area, and "same as sky" (same number on the same leg incl. d(X, Y), or the same ratio interval); listing unchanged.
+16 Oct 2026 (Eddie): SKY block timing columns (best and scaled hit, per plane); royal-star-only tables after the full ones, every line:
+T21R, T22R (runner sheets), SKY ROYAL (SKY JUPITER), FIELD 21R / 22R.
 Points and engine from tools/jup2 (imported, not changed). Frozen readers are not changed."""
 import argparse, glob, os, re, sys, itertools, math, datetime
 import openpyxl
@@ -330,6 +332,7 @@ def plane_index(pl, planes):
 
 SKY_COLS = COLS + 1                                        # T1 / T2 SKY cells per plane: the 9 value cells + exact timing
 SAME_COL = 3 + COLS * len(PLANES) + SKY_COLS * len(PLANES)  # T1 / T2 'same as sky' tag column
+TIME_COL = 3 + COLS * len(PLANES)                          # SKY block timing columns (Eddie, 16 Oct 2026): per plane best, scaled
 
 
 def hit_keys(ev, also, sc):
@@ -347,7 +350,7 @@ def same_as_sky(nat, sky):
     return '; '.join(f"{k[0]} {nat[k]['target']} | sky {sky[k]['target']}" for k in nat if k in sky)
 
 
-def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None, nums=None, sky=False):
+def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None, nums=None, sky=False, timing=False):
     """rows: [(label, a, b)] -> distances in RA / Dec (equator: Dec only).
     sky (T1 / T2, Eddie 15 Oct 2026): SKY cells S Jupiter -> S X in the same plane beside each natal row (value, best family, scaled,
     +5 min, arrow, exact timing; not in THREADS / NUMBERS) and the tag 'same as sky' where both hit the same number."""
@@ -360,6 +363,10 @@ def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None, nums=None,
                                    'scaled x10 / /10', 'timing')):
                 c = ws.cell(row=row - 1, column=col + k, value=h); c.fill = HEAD; c.font = BOLD
         c = ws.cell(row=row - 1, column=SAME_COL, value='same as sky'); c.fill = HEAD; c.font = BOLD
+    if timing:                                             # SKY block (Eddie, 16 Oct 2026): timing of the best and of the scaled hit, per plane
+        for i, pl in enumerate(PLANES):
+            for k, h in enumerate((f'{pl} timing (best)', f'{pl} timing (scaled)')):
+                c = ws.cell(row=row - 1, column=TIME_COL + 2 * i + k, value=h); c.fill = HEAD; c.font = BOLD
     out = {}
     for label, a, b in rows:
         ws.cell(row=row, column=1, value=tid); ws.cell(row=row, column=2, value=label)
@@ -372,6 +379,13 @@ def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None, nums=None,
             ev, also, sc = nearest(v0, kind, 'Dec' if kind == 'equator' else pl)
             put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, sc=sc, ox=(kind, 'Dec' if kind == 'equator' else pl))
             out[(label, pl)] = (v0, ev)
+            if timing:                                     # applying / separating, exact clock time (off -> +5 min, linear), as the T-tables
+                tc = TIME_COL + 2 * PLANES.index(pl)
+                if ev:
+                    ws.cell(row=row, column=tc, value=exact_time(ctx, v0, v5, ev['tv']))
+                if sc:
+                    f = 10.0 if sc['scale'] == 'x10' else 0.1
+                    ws.cell(row=row, column=tc + 1, value=exact_time(ctx, v0 * f, v5 if v5 in (None, 'n/a') else v5 * f, sc['tv']))
             if thr is not None:
                 thread_add(thr, tid, f'{short(a)}→{short(b)}', (a, b), pl, v0, ev, sc)
             if nums is not None and KIND[kind] == 'deg' and tid in NUM_COL:
@@ -670,6 +684,8 @@ def runner_sheet(wb, P, R, ctx):
     row, field['T20'] = write_t20(ws, row, ctx, R, thr)
     row, field['T21'] = write_t21(ws, row, ctx, R)        # fixed stars (Eddie 15 Oct): not in THREADS or NUMBERS
     row, field['T22'] = write_t22(ws, row, ctx, R)
+    row, field['T21R'] = write_t21(ws, row + 1, ctx, R, royal=True)    # royal stars only (Eddie 16 Oct), after the full tables
+    row, field['T22R'] = write_t22(ws, row + 1, ctx, R, royal=True)
     for (lab, cn), (d, ev) in field['T16'].items():
         x = lab.split('–', 1)[1]
         a, b = cn[0], cn.split('= ')[1][0]
@@ -738,26 +754,30 @@ def t21_same(h, s, cells=None):
     return out
 
 
-def write_t21(ws, row, ctx, R):
+def write_t21(ws, row, ctx, R, royal=False):
     """T21 (Eddie, 15 Oct 2026): natal Jupiter on natal star pairs, all 22 stars, each chart's own star positions; horse 'H Jupiter: H A –
     H B' | jockey 'J Jupiter: J A – J B' side by side per star pair and plane (RA, Dec, Equator when the three straddle the equator).
     T19 cells per side; a line is listed when either side has a midpoint hit (any total) or a ratio hit scoring >= 50 (Eddie 15 Oct, revised;
     together sides left out); best first by the higher of the ratio score and the midpoint total. All natal: 'fixed'."""
+    tid = 'T21R' if royal else 'T21'                       # T21R (Eddie, 16 Oct 2026): the six royal pairs only, every line listed
+    stars = [x for x in STARS if x in ROYAL] if royal else STARS
     sides = {}
     for C in 'HJ':
-        pts = [f'{C} {x}' for x in STARS if x in R[C]]
+        pts = [f'{C} {x}' for x in stars if x in R[C]]
         for h in pair_rows(ctx, R, STARS, tid='T21', jup=f'{C} Jupiter', blocks=[(f'{C}–{C}', list(itertools.combinations(pts, 2)))]):
             sides.setdefault((h['x'][2:], h['y'][2:], h['plane']), {})[C] = h
     # Eddie 15 Oct (revised): a side counts with a midpoint hit (any total) or a ratio hit scoring >= 50; together sides left out
     ok = lambda h: h is not None and not h['together'] and (h['mid'] is not None or (h['ev'] is not None and h['ev']['score'] >= T21_RMIN))
-    lines = [(k, v) for k, v in sides.items() if ok(v.get('H')) or ok(v.get('J'))]
+    lines = [(k, v) for k, v in sides.items() if royal or ok(v.get('H')) or ok(v.get('J'))]
     # sky side (Eddie 15 Oct): S Jupiter on the same sky star pair and plane; never adds or removes a line
-    spts = [f'S {x}' for x in STARS if x in ctx.S0]
+    spts = [f'S {x}' for x in stars if x in ctx.S0]
     sky = {(h['x'][2:], h['y'][2:], h['plane']): h for h in
            pair_rows(ctx, R, STARS, tid='T21', jup='S Jupiter', blocks=[('S–S', list(itertools.combinations(spts, 2)))])}
     lines.sort(key=lambda kv: -max(row_best(kv[1][C]) if ok(kv[1].get(C)) else -1 for C in 'HJ'))
-    ws.cell(row=row, column=1, value='T21').font = BOLD
-    ws.cell(row=row, column=2, value='T21 natal Jupiter on natal star pairs (all 22 stars, each chart\'s own positions): horse H Jupiter: H A – H B | '
+    ws.cell(row=row, column=1, value=tid).font = BOLD
+    ws.cell(row=row, column=2, value=('T21R ROYAL STARS ONLY (Eddie, 16 Oct 2026): T21 for the six pairs of Aldebaran, Regulus, Antares, Fomalhaut, '
+                                      'every line listed (hits and non-hits; a line with no counted side in NO HIT), same cells, areas and tags. ' if royal else '')
+            + 'T21 natal Jupiter on natal star pairs (all 22 stars, each chart\'s own positions): horse H Jupiter: H A – H B | '
             'jockey J Jupiter: J A – J B, per star pair and plane (RA, Dec; Equator only when the three straddle the equator). Cells as T19: the three '
             'distances with their family, ratio d(Jup, A) / d(Jup, B) on the interval list (area A ±0.02 absolute, area B tapered %), midpoint (closeness >= 90 %, '
             'ratio half + distance half), between / far side, together. Listed when either side has a midpoint hit (any total) or a ratio hit '
@@ -781,10 +801,10 @@ def write_t21(ws, row, ctx, R):
                             if ok(h) else [])
     sareas = lambda v: [x for C in 'HJ' for x in side_areas(v.get(C))]
     larea = lambda v: row_area(sareas(v))
-    blocks = [(a, [kv for kv in lines if larea(kv[1]) == a]) for a in families.AREAS]
+    blocks = [(a, [kv for kv in lines if larea(kv[1]) == a]) for a in families.AREAS + ((None,) if royal else ())]
     seq = []
     for a, blk in blocks:
-        seq.append(('title', f'T21 {AREA_NAME[a]}: {len(blk)} lines' + multi_text(sum(multi(sareas(kv[1])) for kv in blk))))
+        seq.append(('title', f'{tid} {AREA_NAME[a]}: {len(blk)} lines' + multi_text(sum(multi(sareas(kv[1])) for kv in blk))))
         seq += [('line', kv) for kv in blk]
         seq.append(('gap', None))
     for kind, item in seq:
@@ -796,7 +816,7 @@ def write_t21(ws, row, ctx, R):
             row += 1
             continue
         (a, b, pl), v = item
-        ws.cell(row=row, column=1, value='T21'); ws.cell(row=row, column=2, value=f'{a} – {b}'); ws.cell(row=row, column=3, value=pl)
+        ws.cell(row=row, column=1, value=tid); ws.cell(row=row, column=2, value=f'{a} – {b}'); ws.cell(row=row, column=3, value=pl)
         s = sky.get((a, b, pl))
         for i, C in enumerate('HJS'):
             h = s if C == 'S' else v.get(C)
@@ -847,11 +867,13 @@ def t22_line(ctx, R, star, C, pl):
             'mid': m['score'] if m and m['hit'] else None}
 
 
-def write_t22(ws, row, ctx, R):
+def write_t22(ws, row, ctx, R, royal=False):
     """T22 (Eddie, 15 Oct 2026): each fixed star (race-day position) as the apex, sky Jupiter against natal Jupiter; one line per star and
     plane, horse d(star, S Jup) / d(star, H Jup) | jockey d(star, S Jup) / d(star, J Jup); every star listed, hits coloured"""
-    ws.cell(row=row, column=1, value='T22').font = BOLD
-    ws.cell(row=row, column=2, value='T22 fixed star as the apex (race-day position), sky Jupiter against natal Jupiter: horse d(star, S Jupiter) / '
+    tid = 'T22R' if royal else 'T22'                       # T22R (Eddie, 16 Oct 2026): the four royal stars only, every line listed
+    ws.cell(row=row, column=1, value=tid).font = BOLD
+    ws.cell(row=row, column=2, value=('T22R ROYAL STARS ONLY (Eddie, 16 Oct 2026): T22 for Aldebaran, Regulus, Antares, Fomalhaut, every line listed. '
+                                      if royal else '') + 'T22 fixed star as the apex (race-day position), sky Jupiter against natal Jupiter: horse d(star, S Jupiter) / '
             'd(star, H Jupiter) | jockey d(star, S Jupiter) / d(star, J Jupiter), larger / smaller on the interval list (area A ±0.02 absolute, area B tapered %; timing '
             'from the off + 5 min, sky Jupiter and the star move); midpoint cells when closeness >= 90 % (the star the middle point between S Jupiter and '
             'natal Jupiter; ratio half + distance half). Planes RA, Dec, Equator (only when the three straddle the equator). Every star listed').font = BOLD
@@ -864,7 +886,7 @@ def write_t22(ws, row, ctx, R):
     row += 1
     out, allv = [], []
     for star in STARS:
-        if f'{star}' not in ctx.S0:
+        if f'{star}' not in ctx.S0 or (royal and star not in ROYAL):
             continue
         for pl in EQ_PLANES:
             v = {C: t22_line(ctx, R, star, C, pl) for C in 'HJ'}
@@ -876,7 +898,7 @@ def write_t22(ws, row, ctx, R):
     seq = []
     for a in families.AREAS + (None,):
         blk = [x for x in allv if larea(x[2]) == a]
-        seq.append((None, f'T22 {AREA_NAME[a]}: {len(blk)} lines' + multi_text(sum(multi(sareas(x[2])) for x in blk)), None))
+        seq.append((None, f'{tid} {AREA_NAME[a]}: {len(blk)} lines' + multi_text(sum(multi(sareas(x[2])) for x in blk)), None))
         seq += blk
         seq.append((None, None, None))
     for star, pl, v in seq:
@@ -885,7 +907,7 @@ def write_t22(ws, row, ctx, R):
                 ws.cell(row=row, column=1, value=pl).font = BOLD
             row += 1
             continue
-        ws.cell(row=row, column=1, value='T22'); ws.cell(row=row, column=2, value=star); ws.cell(row=row, column=3, value=pl)
+        ws.cell(row=row, column=1, value=tid); ws.cell(row=row, column=2, value=star); ws.cell(row=row, column=3, value=pl)
         for i, C in enumerate('HJ'):
             h = v[C]
             if h is None:
@@ -916,7 +938,7 @@ def write_t22(ws, row, ctx, R):
 T21_RMIN = 50.0                                            # T21 / FIELD 21: ratio hits count at >= 50 (Eddie 15 Oct); midpoints at any total
 
 
-def field_star_sheet(wb, tid, title, runners, fields, rmin=0.0):
+def field_star_sheet(wb, tid, title, runners, fields, rmin=0.0, every=False):
     """FIELD 21 / FIELD 22 (Eddie, 15 Oct 2026): rows = star pairs (T21) / stars (T22), runners as columns; each hit as side, plane and score
     (ratio: the interval; midpoint: total); last column = runners with a hit (k/n). Hits = a ratio on an interval scoring >= rmin
     (T21: 50) or a midpoint hit."""
@@ -925,7 +947,7 @@ def field_star_sheet(wb, tid, title, runners, fields, rmin=0.0):
             f"(interval, score{', >= ' + format(rmin, 'g') if rmin else ''}) or midpoint (total); cell coloured by its best hit; last column = runners "
             'with a hit (k/n)').font = BOLD
     order = sorted(runners)
-    ws.cell(row=3, column=1, value='star pair' if tid == 'T21' else 'star').fill = HEAD
+    ws.cell(row=3, column=1, value='star pair' if tid.startswith('T21') else 'star').fill = HEAD
     for i, P in enumerate(order):
         c = ws.cell(row=3, column=2 + i, value=f"{P} {runners[P]['name']}"); c.fill = HEAD; c.font = BOLD
         ws.column_dimensions[openpyxl.utils.get_column_letter(2 + i)].width = 40
@@ -936,7 +958,7 @@ def field_star_sheet(wb, tid, title, runners, fields, rmin=0.0):
         for h in fields[P][tid]:
             if h['pair'] not in keys:
                 keys.append(h['pair'])
-    if tid == 'T22':
+    if tid.startswith('T22'):
         keys = [x for x in STARS if x in keys]
     hits = {}                                              # (key, P) -> [(area, score, colour, text)]
     for P in order:
@@ -972,6 +994,14 @@ def field_star_sheet(wb, tid, title, runners, fields, rmin=0.0):
             ws.cell(row=r, column=last, value=f'{k}/{len(order)}')
             r += 1
         r += 1
+    if every:                                              # FIELD 21R / 22R (Eddie 16 Oct): every line, the rest with no hit
+        rows = [key for key in keys if not any(hits.get((key, P)) for P in order)]
+        ws.cell(row=r, column=1, value=f'NO HIT: {len(rows)} rows').font = BOLD
+        r += 1
+        for key in rows:
+            ws.cell(row=r, column=1, value=key).font = BOLD
+            ws.cell(row=r, column=last, value=f'0/{len(order)}')
+            r += 1
     ws.column_dimensions['A'].width = 26
     ws.freeze_panes = 'B4'
 
@@ -1398,7 +1428,7 @@ def t19_filter(rows):
 SKY_AREA = {'A': 'A', 'P': 'φ and √2', 'B': 'B', None: 'no hit'}
 
 
-def write_pairs_rows(ws, row, rows, skyside=False):
+def write_pairs_rows(ws, row, rows, skyside=False, notog=False):
     for h in rows:
         n = h['near']
         m = h['m']
@@ -1408,6 +1438,9 @@ def write_pairs_rows(ws, row, rows, skyside=False):
               round(h['ev']['score'], 2) if h['ev'] else None, h['timing'], h['pos'], h['note'] or None] + ([mid_tcells(m)[0], round(m['close'], 4), *mid_tcells(m)[1:], round(m['score'], 2) if m['hit'] else None] if m else [])
         for k, v in enumerate(rv):
             ws.cell(row=row, column=1 + k, value=v)
+        if notog and h['together']:                        # SKY ROYAL: a together row plain, in NO HIT (as together sides everywhere)
+            row += 1
+            continue
         for k, f in enumerate((h['fx'], h['fy'], h['fxy'])):
             if f[2]:
                 ws.cell(row=row, column=6 + 2 * k).fill = FILL[f[2]]
@@ -1446,7 +1479,7 @@ def pair_area(h):
     return row_area(pair_areas(h))
 
 
-def write_pair_blocks(ws, row, title, rows, tid, every=False, skyside=False):
+def write_pair_blocks(ws, row, title, rows, tid, every=False, skyside=False, notog=False):
     """T19, SKY PAIRS, SKY STARS, P## PAIRS in area blocks (Eddie, 15 Oct 2026): A (an A interval or a midpoint hit), φ and √2, B (a B interval),
     then the rest - P## PAIRS (every row): "no hit"; filtered tables: rows listed only for all three distances with a family hit.
     Order inside each block as before."""
@@ -1454,12 +1487,13 @@ def write_pair_blocks(ws, row, title, rows, tid, every=False, skyside=False):
     row += 1
     rest = 'NO HIT' if every else 'NO RATIO OR MIDPOINT HIT (listed for all three distances with a family hit)'
     for a in families.AREAS + (None,):
-        blk = [h for h in rows if pair_area(h) == a]
+        blk = [h for h in rows if (None if notog and h['together'] else pair_area(h)) == a]
         if a is None and not blk and not every:
             continue
-        row = pairs_header(ws, row, f'{tid} {AREA_NAME[a] if a else rest}: {len(blk)} rows' + multi_text(sum(multi(pair_areas(h)) for h in blk)),
+        row = pairs_header(ws, row, f'{tid} {AREA_NAME[a] if a else rest}: {len(blk)} rows'
+                           + multi_text(sum(multi(pair_areas(h)) for h in blk if not (notog and h['together']))),
                            skyside)
-        row = write_pairs_rows(ws, row, blk, skyside) + 1
+        row = write_pairs_rows(ws, row, blk, skyside, notog) + 1
     return row
 
 
@@ -2095,7 +2129,7 @@ def main():
     rows = [(f'S Jupiter → S {x}', 'S Jupiter', f'S {x}') for x in sky if x != 'Jupiter']
     sky_nums = []
     row, _ = write_pairs(ws, 3, 'SKY', 'S Jupiter → sky points', ctx, R0, rows, lambda a, b: 'equator' if b.endswith(' equator') else 'dist',
-                         nums=sky_nums)
+                         nums=sky_nums, timing=True)
     row = write_equi(ws, row, 'EQUIDISTANCE: S Jupiter with two sky bodies',
                      [dict(h, tid='SKY EQ') for h in equi_hits(ctx, R0, 'S Jupiter', [f'S {z}' for z in SKY_BODIES if z in sky and z != 'Jupiter'], 'SKY EQ')])
     row = write_pair_blocks(ws, row, 'SKY PAIRS (Eddie, 14 Oct): S Jupiter on every pair of sky bodies (Moon included), and (15 Oct 2026) on every sky body '
@@ -2106,9 +2140,17 @@ def main():
                        '(area A ±0.02 absolute, area B tapered %; timing); between / far side; planes RA, Dec, Equator (only when S Jupiter, X, Y '
                        'straddle the equator); Ketu in every plane; the sky Rahu–Ketu pair never paired; a Ketu row repeating the Rahu row dropped',
                             t19_filter(pair_rows(ctx, R0, None, tid='SKY PAIRS', blocks=sky_pair_blocks(ctx))), 'SKY PAIRS')
-    write_pair_blocks(ws, row, 'SKY STARS (background, once per race): S Jupiter on two sky stars, filtered as T19 (ratio on an interval, '
+    row = write_pair_blocks(ws, row, 'SKY STARS (background, once per race): S Jupiter on two sky stars, filtered as T19 (ratio on an interval, '
                       'or all three distances with a family hit; "X, Y together" left out)',
                       t19_filter(pair_rows(ctx, R0, STARS, tid='SKY STARS', sky=True)), 'SKY STARS')
+    roy = [f'S {x}' for x in STARS if x in ROYAL and x in ctx.S0]
+    srows = pair_rows(ctx, R0, None, tid='SKY ROYAL', blocks=[('royal – royal', list(itertools.combinations(roy, 2))), sky_pair_blocks(ctx)[1]])
+    srows.sort(key=lambda h: -max(h['ev']['score'] if h['ev'] else -1, -1 if h['mid'] is None else h['mid']))
+    row = write_pair_blocks(ws, row, 'SKY ROYAL (Eddie, 16 Oct 2026; royal stars only): S Jupiter on the six pairs of Aldebaran, Regulus, Antares, '
+                            'Fomalhaut ("royal – royal") and every sky body with a royal star ("body – royal", the SKY PAIRS rows), race-day positions; '
+                            'every row listed (hits and non-hits); a row with "X, Y together" is plain, in NO HIT; same cells and areas as SKY PAIRS, best '
+                            'first inside each block',
+                            srows, 'SKY ROYAL', every=True, notog=True)
     ws.column_dimensions['B'].width = 30
     fields = {}
     for P in sorted(runners):
@@ -2143,6 +2185,9 @@ def main():
     field_t20_sheet(wb, runners, fields)
     field_star_sheet(wb, 'T21', 'natal Jupiter on natal star pairs (H Jupiter: H A – H B | J Jupiter: J A – J B)', runners, fields, T21_RMIN)
     field_star_sheet(wb, 'T22', 'fixed star as the apex, d(star, S Jupiter) / d(star, natal Jupiter)', runners, fields)
+    field_star_sheet(wb, 'T21R', 'ROYAL STARS ONLY (Eddie, 16 Oct 2026): natal Jupiter on the six royal star pairs', runners, fields, T21_RMIN, every=True)
+    field_star_sheet(wb, 'T22R', 'ROYAL STARS ONLY (Eddie, 16 Oct 2026): royal star as the apex, d(star, S Jupiter) / d(star, natal Jupiter)',
+                     runners, fields, every=True)
     threads_sheet(wb, runners, fields)
     field_numbers_sheet(wb, runners, {P: sky_nums + fields[P]['_nums'] for P in runners})
     wb.save(out)

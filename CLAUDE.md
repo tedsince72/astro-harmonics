@@ -105,7 +105,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (97/97). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (100/100). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -358,6 +358,33 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   cells), the 15 together sides (no colour, no area, no tag), fills kept on the other sky sides, every tag and why each dropped one went
   (Ascot Aldebaran legs: 2 Dec, 4 Equator): 0 mismatches.
 
+## jupiter_tables: SKY block timing, royal-star-only tables (Eddie, 16 Oct 2026; viewing only)
+- SKY JUPITER "SKY" block (S Jupiter → every sky body, star and the equator): four new columns after the planes, "RA timing (best)",
+  "RA timing (scaled)", "Dec timing (best)", "Dec timing (scaled)": applying / separating and the exact race-local time of the best family
+  hit and of the scaled (×10 / ÷10) hit, off -> +5 min linear, the T-table method and wording (exact_time). Empty where there is no hit.
+  Nothing else in the block changes. Lingfield 14:35 2021: 15 best / 18 scaled timing cells (47 rows: 46 sky points + the equator); Ascot 14:30 2012: 23 / 28.
+- Royal stars only (Aldebaran, Regulus, Antares, Fomalhaut), after the full tables (full tables unchanged); every line listed, hits and
+  non-hits (non-hits plain), area blocks A / φ and √2 / B / NO HIT:
+  - T21R (runner sheets, after T22): T21 for the six royal pairs, horse | jockey | sky side, same cells, areas (counted sides: not
+    together, midpoint or ratio >= 50) and "same as sky" tags. Each T21 royal line is identical in T21R.
+  - T22R (runner sheets, after T21R): T22 for the four royal stars; = T22's royal lines.
+  - SKY ROYAL (SKY JUPITER, after SKY STARS): S Jupiter on the six royal pairs ("royal – royal") and every sky body with a royal star
+    ("body – royal", the SKY PAIRS rows, identical cells), every row, best first per block; a "X, Y together" row plain, in NO HIT.
+  - FIELD 21R / FIELD 22R: as FIELD 21 / 22 (T21R ratio hits >= 50), plus a NO HIT block (keys with no hit, 0/n).
+- Lines (A / φ√2 / B / no hit): Lingfield T21R P01 1/0/1/16, P03 0/0/0/17, P05 4/0/1/13, P07 0/0/2/15, P09 1/0/1/15, P11 0/0/1/16;
+  T22R P01 0/0/1/11, P03 2/0/2/8, P05 1/1/1/9, P07 2/0/3/5, P09 1/0/1/8, P11 1/0/1/10; SKY ROYAL 14/1/19/243 (277 rows: royal – royal 17,
+  all no hit; body – royal 260); FIELD 21R rows 3/0/4, no hit 2; FIELD 22R 3/1/3, no hit 0. Ascot P01 T21R 0/0/1/16, T22R 2/1/1/8;
+  SKY ROYAL 14/4/10/245 (273: royal – royal 17, 1 in φ and √2; body – royal 256; 2 together rows); FIELD 21R 0/0/1, no hit 5; FIELD 22R
+  2/1/1, no hit 1. Sizes: Lingfield 1.36 + 2.90 MB, Ascot 0.32 + 0.49 MB.
+- Tests 100/100: test 22 SKY S Jupiter → S Mercury (by hand from POSITIONS, off 14:35: Dec 11.063496 -> 11.065810 at +5, φ^5 11.090170,
+  applying, exact 15:32 (in 57.6 min), scaled the same; RA 32.268875 -> 32.27372, /10 2×φ (20φ 32.360680) applying, exact 16:09 (in
+  94.7 min); RA best outside, no timing) and a timing cell exactly where each best / scaled hit is; test 23 T21R / T22R = the royal lines
+  of T21 / T22 with the same values (all Lingfield runners + Ascot), SKY ROYAL holds the SKY PAIRS body – royal rows unchanged.
+- Independent checker (16 Oct), Lingfield from POSITIONS (own code): every SKY block cell incl. the timing (1,023 cells), SKY ROYAL
+  (277 rows: 281 generated, 4 Ketu repeats dropped; 5,263 cells, blocks, order, fills), T21R / T22R of all 6 runners (7,760 cells; T21
+  and T22 royal lines identical), FIELD 21R / 22R every cell and k/n: 0 mismatches. Lingfield has no together rows; Ascot's 2 (S Transpluto
+  – S Regulus RA 0.929582 and Dec 0.156195) checked by hand: in NO HIT, no fill (values kept, e.g. RA unison score 24.22 shown plain).
+
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
 same digits (target ×10 or ÷10, e.g. ninth 11.1111 / 1.11111, √2 14.14 / 1.414). Only one form is shown: the main form, unless the
@@ -389,6 +416,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **SKY block timing, royal-star-only tables T21R / T22R / SKY ROYAL / FIELD 21R / 22R (16 Oct 2026, Eddie):** see its section.
+  Tests 100/100.
 - **SKY PAIRS body – royal, T19 sky side (15 Oct 2026, Eddie):** see its section (revised the same day: together sky sides plain,
   no d(S Jupiter, royal star) in the tag). Tests 97/97.
 - **Third area "φ and √2" (15 Oct 2026, Eddie):** between area A and area B, same tables; see its section. Tests 92/92.

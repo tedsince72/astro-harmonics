@@ -813,5 +813,52 @@ check('T19 "same as sky" (Eddie 15 Oct, revised): never on d(S Jupiter, royal st
       f'{len(royleg)} royal-leg tags, {len(tog)} together sides, {gg[0][41] if gg else gg}')
 check('T19 sky side: every H–J row "—"; every Equator sky side has S Jupiter, S X, S Y straddling (else "—"); the listing unchanged (1365 rows)',
       len(t19l) == 1365 and all(r[22] == '—' for r in t19l if r[1] == 'H–J') and all(r[22] is not None for r in t19l), f'{len(t19l)} rows')
+# Eddie 16 Oct 2026: timing on the SKY JUPITER "SKY" block, best and scaled hit per plane
+print('\nTest 22 (Eddie 16 Oct): SKY block timing — Lingfield AW 14:35 2021')
+wbl = openpyxl.load_workbook('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', read_only=True)
+sm = [r for r in wbl['SKY JUPITER'].iter_rows(values_only=True) if r and r[0] == 'SKY' and r[1] == 'S Jupiter → S Mercury']
+check('SKY S Jupiter → S Mercury (by hand from POSITIONS: Dec S Jupiter −14.389918 (+0.0000425872 /min), S Mercury −3.326422 '
+      '(+0.000505303 /min), off 14:35): Dec 11.063496 → 11.065810 at +5, φ^5 11.090170, rate 0.00046272 /min -> applying, exact 15:32 '
+      '(in 57.6 min), scaled the same; RA 32.268875 -> 32.27372, scaled /10 2×φ: 20φ 32.360680 reached in 94.7 min -> 16:09; RA best '
+      '(outside) no timing',
+      len(sm) == 1 and sm[0][11] == 11.063496 and sm[0][13] == 'φ^5 (phi power)' and sm[0][22] == 'applying, exact 15:32 (in 57.6 min)'
+      and sm[0][23] == 'applying, exact 15:32 (in 57.6 min)' and sm[0][20] is None and sm[0][21] == 'applying, exact 16:09 (in 94.7 min)',
+      str(sm[0][20:24] if sm else sm))
+skr = [list(r) + [None] * 30 for r in wbl['SKY JUPITER'].iter_rows(values_only=True) if r and r[0] == 'SKY' and r[1] != 'S Jupiter → sky points']
+check('SKY block: a timing cell exactly where the best hit (score) and the scaled hit are, per plane (RA, Dec)',
+      skr and all((r[c + 5] is not None) == (r[20 + 2 * i] is not None) and (r[c + 8] is not None) == (r[21 + 2 * i] is not None)
+                  for r in skr for i, c in enumerate((2, 11))), f'{len(skr)} rows')
+
+# Eddie 16 Oct 2026: royal-star-only tables T21R, T22R, SKY ROYAL, FIELD 21R / 22R
+print('\nTest 23 (Eddie 16 Oct): royal-star-only tables — Lingfield AW 14:35 2021 (every runner) and Ascot 14:30 2012')
+RY = ('Aldebaran', 'Regulus', 'Antares', 'Fomalhaut')
+bad, n21r, n22r = [], 0, 0
+for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', 'reference/classic/race_batch_20120619_ascot_1430_jupiter_tables.xlsx'):
+    w = openpyxl.load_workbook(f, read_only=True)
+    for n in [x for x in w.sheetnames if x.startswith('P') and x[1:].isdigit()]:
+        rows = [r for r in w[n].iter_rows(values_only=True) if r and len(r) > 2 and r[2] in PL]
+        for t in ('T21', 'T22'):
+            full = {(r[1], r[2]): r[1:] for r in rows if r[0] == t}
+            roy = {(r[1], r[2]): r[1:] for r in rows if r[0] == t + 'R'}
+            want = {k for k in full if all(x in RY for x in k[0].split(' – '))}
+            if t == 'T22' and set(roy) != want:
+                bad.append((n, t, 'set'))
+            if t == 'T21' and (not want <= set(roy) or any(k[0] not in [f'{a} – {b}' for i, a in enumerate(RY) for b in RY[i + 1:]] for k in roy)):
+                bad.append((n, t, 'set'))
+            bad += [(n, t, k) for k in want if roy.get(k) != full[k]]
+            n21r += len(roy) if t == 'T21' else 0
+            n22r += len(roy) if t == 'T22' else 0
+    sk = [r for r in w['SKY JUPITER'].iter_rows(values_only=True) if r and len(r) > 3 and r[3] in PL]
+    spb = {(r[2], r[3]): r[1:22] for r in sk if r[0] == 'SKY PAIRS' and r[1] == 'body – royal'}
+    sr = {(r[2], r[3]): r[1:22] for r in sk if r[0] == 'SKY ROYAL'}
+    bad += [('SKY ROYAL', k) for k in spb if sr.get(k) != spb[k]]
+    if not all(r[1] in ('royal – royal', 'body – royal') for r in sk if r[0] == 'SKY ROYAL'):
+        bad.append('SKY ROYAL blocks')
+    for fs in ('FIELD 21R', 'FIELD 22R'):
+        if fs not in w.sheetnames:
+            bad.append(fs)
+check('T21R / T22R lines = the royal lines of T21 / T22 with the same values (T21R: every one of the six royal pairs, T21\'s royal lines '
+      'among them; T22R exactly T22\'s royal lines); SKY ROYAL holds the SKY PAIRS body – royal rows unchanged; FIELD 21R / 22R present',
+      bool(not bad and n21r and n22r), f"T21R {n21r}, T22R {n22r} lines; {bad[:5]}")
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
