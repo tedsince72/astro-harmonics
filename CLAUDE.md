@@ -105,7 +105,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (96/96). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (97/97). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -330,7 +330,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   hit the same number on the same leg (d(S Jup, X), d(S Jup, Y) or d(X, Y); x10 / /10 folded, no conjunction), or both ratios on the same
   interval; parts joined with "; ". Unlike T21, d(X, Y) counts. Listing and blocks unchanged (set by the natal row); P## PAIRS, FIELD,
   THREADS, NUMBERS unchanged.
-- Tags (rows): Lingfield 14:35 2021 P01 4, P03 6, P05 7, P07 7, P09 8, P11 1 (33); Ascot 14:30 2012 P01 7. Note: 28 of the 40 carry a
+- Tags (rows, first version; revised below): Lingfield 14:35 2021 P01 4, P03 6, P05 7, P07 7, P09 8, P11 1 (33); Ascot 14:30 2012 P01 7. Note: 28 of the 40 carry a
   royal-star leg d(S Jup, star) (Lingfield 22 x Regulus Equator silver 2.414, one of them also ratio 5/4; Ascot 6 x Aldebaran 2×φ): a
   star hardly moves between birth and race day, so that leg repeats itself. None is on d(X, Y). Sky sides: Lingfield P01 216 of 248 rows, P03 205 / 241,
   P05 183 / 217, P07 194 / 221, P09 212 / 237, P11 182 / 201; Ascot P01 228 / 265. Sizes: Lingfield 1.27 + 2.90 MB, Ascot 0.28 + 0.49 MB.
@@ -342,8 +342,21 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
 - Independent checker (15 Oct), from POSITIONS (own code): SKY PAIRS every body – royal and S–S row of both races (set per plane, block,
   order, every cell; Lingfield 110, Ascot 96); Lingfield P07 T19 natal set and order (221: A 94 / φ√2 17 / B 98 / 12) and every sky-side
   cell (8,619 cells; 194 sky sides, 27 "—": 7 H–J, 11 Jupiter, 9 Equator one side); Ascot P01 sky sides (10,335 cells, 228 sides, 37 "—");
-  tags of all runners: 0 mismatches. Open point (Eddie): a sky side tagged "X, Y together" still gets an area and can carry a tag (Lingfield
-  P07 2 such sides, Ascot P01 7; Ascot H Transpluto – H Regulus RA tagged "ratio 1 · unison" with the sky side together, d(X, Y) 0.929582).
+  tags of all runners: 0 mismatches.
+- Revised (Eddie, 15 Oct 2026): a T19 sky side tagged "X, Y together" is shown plain (values kept, no colour, no area, no tag), as
+  together sides everywhere else; "same as sky" never counts d(S Jupiter, royal star) (the star barely moves birth -> race day);
+  d(X, royal star) and the ratio still count. Together sky sides: Lingfield 8 (P01 2, P03 2, P07 2, P09 1, P11 1), Ascot P01 7.
+  Tagged rows before -> after: Lingfield P01 4 -> 0, P03 6 -> 1, P05 7 -> 2, P07 7 -> 5, P09 8 -> 3, P11 1 -> 0 (33 -> 11);
+  Ascot P01 7 -> 0. Dropped: 21 Lingfield rows tagged only on d(S Jup, Regulus) Equator silver 2.414 (P05 H Gonggong – H Regulus
+  Equator keeps its ratio 5/4), 6 Ascot rows on d(S Jup, Aldebaran) 2×φ, and 1 together side each (Lingfield P03 H Orcus – H Transpluto
+  RA, Ascot P01 H Transpluto – H Regulus RA, both ratio 1 · unison). Left: 8 ratio tags (Lingfield P03 J Orcus – J Regulus RA 1,
+  P05 H Haumea – H Aldebaran Dec 1, H Gonggong – H Regulus Equator 5/4, P07 J Transpluto – J Regulus RA 1, J Chiron – J Juno RA 3/2,
+  P09 J Venus – J Makemake Dec 2, J Orcus – J Regulus RA 1, H Transpluto – H Aldebaran RA 5/3) and 3 on a body leg (P07 J Vesta's
+  d(S Jup, Vesta) 100×φ in J Juno – J Vesta, J Chiron – J Vesta, J Vesta – J Gonggong RA). None on d(X, Y). Tests 97/97 (test 21 checks
+  both rules).
+  Independent checker (15 Oct), from POSITIONS (own code): every cell of every T19 row of all 6 Lingfield runners and Ascot P01 (63,570
+  cells), the 15 together sides (no colour, no area, no tag), fills kept on the other sky sides, every tag and why each dropped one went
+  (Ascot Aldebaran legs: 2 Dec, 4 Equator): 0 mismatches.
 
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
@@ -376,7 +389,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
-- **SKY PAIRS body – royal, T19 sky side (15 Oct 2026, Eddie):** see its section. Tests 96/96.
+- **SKY PAIRS body – royal, T19 sky side (15 Oct 2026, Eddie):** see its section (revised the same day: together sky sides plain,
+  no d(S Jupiter, royal star) in the tag). Tests 97/97.
 - **Third area "φ and √2" (15 Oct 2026, Eddie):** between area A and area B, same tables; see its section. Tests 92/92.
 - **Areas A / B (15 Oct 2026, Eddie):** area A intervals (1, 3/2, 2, 3 … 9) on ±0.02 absolute; every ratio table split into area A,
   area B (and no hit). See the section "jupiter_tables: areas A / B". Tests 92/92.

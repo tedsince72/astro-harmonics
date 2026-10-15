@@ -653,14 +653,17 @@ def runner_sheet(wb, P, R, ctx):
     sky19 = t19_sky(ctx, R)
     for h in t19:                                          # sky side (Eddie 15 Oct): never adds or removes a row, area set by the natal row
         h['S'] = None if h['block'] == 'H–J' else sky19.get((h['x'][2:], h['y'][2:], h['plane']))
-        h['same'] = t21_same(h, h['S'], T19_CELLS)
+        # Eddie 15 Oct: a together sky side has no tag; d(S Jupiter, royal star) never counts (the star barely moves birth -> race day)
+        cells = [(n, i) for n, i in T19_CELLS if not (i < 2 and h['xy'[i]][2:] in ROYAL)]
+        h['same'] = [] if h['S'] is None or h['S']['together'] else t21_same(h, h['S'], cells)
     row = write_pair_blocks(ws, row, 'T19 sky Jupiter on natal pairs (filtered: ratio on an interval, or a midpoint hit, or all three distances with a family hit; '
                             '"X, Y together" left out; natal bodies + royal stars; best first by the higher of the ratio score and the midpoint total) — ' + PAIR_NOTE
                             + '. SKY side (Eddie, 15 Oct 2026): S Jupiter: S X – S Y, the same two bodies (royal stars too) at race-day positions in the same '
                             'plane, the same cells, timing from the off + 5 min, its area; "—" for H X – J X (one point in the sky) and where there is no sky '
                             'side (Equator: S Jupiter, S X, S Y on one side; X = Jupiter). It never adds or removes a row; the block is set by the natal row. '
                             '"same as sky": the natal and the sky side hit the same number on the same leg (d(S Jup, X), d(S Jup, Y) or d(X, Y); best family, '
-                            'x10 / /10 folded) or the ratio on the same interval',
+                            'x10 / /10 folded; never d(S Jup, royal star), the star barely moves) or the ratio on the same interval. A sky side with '
+                            '"X, Y together" is shown plain: no colour, no area, no tag',
                             t19, 'T19', skyside=True)
     field['T19'] = t19
     field['_pairs'] = allp
@@ -1423,11 +1426,12 @@ def write_pairs_rows(ws, row, rows, skyside=False):
                 vals, fill = side_cells(s)
                 for k, x in enumerate(vals):
                     ws.cell(row=row, column=c0 + k, value=x)
-                for k, col in fill.items():
-                    ws.cell(row=row, column=c0 + k).fill = FILL[col]
+                if not s['together']:                      # Eddie 15 Oct: a together sky side plain, no colour, no area, no tag
+                    for k, col in fill.items():
+                        ws.cell(row=row, column=c0 + k).fill = FILL[col]
+                    ws.cell(row=row, column=c0 + len(SIDE_HEAD), value=SKY_AREA[pair_area(s)])
                 for k in (9, 17):
                     ws.cell(row=row, column=c0 + k).number_format = '0.00'
-                ws.cell(row=row, column=c0 + len(SIDE_HEAD), value=SKY_AREA[pair_area(s)])
             if h.get('same'):
                 ws.cell(row=row, column=c0 + len(SIDE_HEAD) + 1, value='same as sky — ' + '; '.join(h['same']))
         row += 1

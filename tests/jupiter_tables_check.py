@@ -801,6 +801,16 @@ check('"same as sky" found by the rule on that row: natal ratio 1.513185 and sky
       cj and cj[0][41] == 'same as sky — ratio 3/2 · fifth', str(cj[0][41] if cj else cj))
 t19l = [r for n in wbl.sheetnames if n.startswith('P') and n[1:].isdigit() for r in wbl[n].iter_rows(values_only=True)
         if r and r[0] == 'T19' and len(r) > 3 and r[3] in ('RA', 'Dec', 'Equator')]
+RY = ('Aldebaran', 'Regulus', 'Antares', 'Fomalhaut')
+royleg = [r for r in t19l if r[41] and any((q.startswith('d(S Jup, X)') and r[2].split(' – ')[0][2:] in RY)
+                                           or (q.startswith('d(S Jup, Y)') and r[2].split(' – ')[1][2:] in RY) for q in r[41][14:].split('; '))]
+tog = [r for r in t19l if r[22] != '—' and r[34] and 'together' in r[34]]
+gg = [r for r in wbl['P05'].iter_rows(values_only=True) if r and r[0] == 'T19' and r[2] == 'H Gonggong – H Regulus' and r[3] == 'Equator']
+check('T19 "same as sky" (Eddie 15 Oct, revised): never on d(S Jupiter, royal star) (P05 H Gonggong – H Regulus Equator keeps only its ratio 5/4); '
+      'a sky side with "X, Y together" plain: no area, no tag (Lingfield: 8 such sides, P03 H Orcus – H Transpluto RA among them)',
+      not royleg and len(gg) == 1 and gg[0][41] == 'same as sky — ratio 5/4 · major third' and len(tog) == 8
+      and all(r[40] is None and r[41] is None for r in tog) and any(r[2] == 'H Orcus – H Transpluto' and r[3] == 'RA' for r in tog),
+      f'{len(royleg)} royal-leg tags, {len(tog)} together sides, {gg[0][41] if gg else gg}')
 check('T19 sky side: every H–J row "—"; every Equator sky side has S Jupiter, S X, S Y straddling (else "—"); the listing unchanged (1365 rows)',
       len(t19l) == 1365 and all(r[22] == '—' for r in t19l if r[1] == 'H–J') and all(r[22] is not None for r in t19l), f'{len(t19l)} rows')
 print(f'\n{sum(RES)}/{len(RES)} passed')
