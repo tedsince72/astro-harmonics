@@ -558,8 +558,14 @@ f20 = [r for r in wbl['FIELD 20'].iter_rows(values_only=True) if r and r[0] == '
 check('FIELD 20: Sun row, P03 column "H Dec 70.99", count 1/6',
       len(f20) == 1 and f20[0][2] == 'H Dec 70.99' and f20[0][-1] == '1/6', str(f20))
 th20 = [r for r in wbl['THREADS'].iter_rows(values_only=True) if r and r[0] == 'Sun']
-check('THREADS: the T20 hit is a Jupiter–Sun link in P03 (every midpoint hit counts)',
+check('THREADS: the T20 hit is a Jupiter–Sun link in P03 (total 70.99 >= 50)',
       th20 and 'mid S Sun / H Sun | H Jup Dec +0.022180 → midpoint (70.99) [T20]' in str(th20[0][2]), str(th20[0][2])[:300] if th20 else '')
+
+# Eddie 15 Oct 2026: THREADS midpoint hits count only at total >= 50 (P07 J Uranus T20 Dec 35.33 is a hit, not listed, in '+ n weaker')
+hp = next(i for i, c in enumerate(next(wbl['THREADS'].iter_rows(min_row=3, max_row=3, values_only=True))) if c and str(c).startswith('P07'))
+thu = [r for r in wbl['THREADS'].iter_rows(values_only=True) if r and r[0] == 'Uranus']
+check('THREADS midpoints at total >= 50 only (Eddie 15 Oct): Lingfield P07 J Uranus T20 Dec 35.33 not listed, counted in "+ n weaker"',
+      thu and '[T20]' not in str(thu[0][hp]) and 'weaker' in str(thu[0][hp]), str(thu[0][hp])[:300] if thu else '')
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

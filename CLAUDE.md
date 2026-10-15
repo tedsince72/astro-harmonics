@@ -66,7 +66,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   halves inside; total = ratio half + distance half (0–100), coloured green >= 80, yellow 50–80, light < 50. Otherwise no score, not a hit,
   counted nowhere; both offsets shown plain. Planes: RA = the closer of the near and far midpoint, labelled near / far, never both; Dec
   (signed); Equator (|Dec| of all three, only when not all on one side). Columns: offset, (RA: near / far), closeness %, ratio half,
-  distance half, total, timing (larger / smaller ratio toward unison). THREADS: every midpoint hit counts, whatever its total.
+  distance half, total, timing (larger / smaller ratio toward unison). THREADS: a midpoint hit counts only at total >= 50, like every other hit (Eddie, 15 Oct 2026).
   T19 / SKY PAIRS / PAIRS (Eddie, 15 Oct): the ratio column stays on the interval list only (unison 1 %, 16/15 its own tolerance); the
   midpoint result (offset, closeness %, ratio half, distance half, midpoint total) is in its own cells; a row is listed if the ratio or
   the midpoint is a hit (or all three distances have a family hit); sort by the higher of ratio score and midpoint total. E.g. Lingfield
@@ -102,7 +102,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (79/79). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (80/80). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -169,7 +169,7 @@ between / far side; notes "X, Y together" and "(also T17)" (a unison row whose l
   the sky and that chart (no stars, no Moon, not Jupiter). Planes RA (closer of near / far, labelled), Dec, Equator (only when not all on
   one side), on the midpoint scoring (see Families), T10 / T11 columns per plane, timing from the off and +5 min. One line per body,
   horse cells | jockey cells. FIELD 20: bodies x runners, each hit as chart, plane, total ('H Dec 70.99'), runners with a hit k/n.
-  THREADS: every T20 hit is a Jupiter–X link (as the other midpoints).
+  THREADS: a T20 hit is a Jupiter–X link, counted at total >= 50 (as every hit).
 - Test 16: Lingfield 14:35 2021 P03 T20 S Sun / H Sun | H Jupiter Dec (hand-checked from POSITIONS): Dec 5.028708 / 10.292917 /
   7.682992, d 2.654284 / 2.609925, offset +0.022180, closeness 98.3287 %, 34.68 + 36.31 = 70.99, applying, exact 17:21 (in 166.5 min).
 - Hits: Lingfield 14:35 2021 4 of 138 lines (H Dec 1, H RA far 1, J Dec 1, J RA far 1: P07 J Mars RA far 83.79, P03 H Sun Dec 70.99,
@@ -185,7 +185,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 (T-tables, scaled and also columns, FIELD matrices, THREADS, NUMBERS). Automatic (Jupiter return) unisons are left out.
 - **THREADS** (one sheet, after the runner sheets): rows = bodies (sky bodies incl. Moon, Jupiter excluded, Rahu / Ketu folded as
   "Nodes"), columns = runners. Hits = every scored hit (inside tolerance) linking body X with Jupiter, from T1–T8, T10–T13, T16 and T20
-  (midpoints T10 / T11 / T20: every midpoint hit counts; scaled hits marked "scaled"; stars, equator and Jupiter–Jupiter left out).
+  (midpoints T10 / T11 / T20 count at total >= 50, like every hit (15 Oct); scaled hits marked "scaled"; stars, equator and Jupiter–Jupiter left out).
   - Cell: hits scoring >= 50, main first then scaled, best first, short form ("S Transpluto→H Jup Dec 33.33254 → 33.3333 (99.05) [T7]"),
     each line coloured by its score; every family hit of the value (main, and ×10 / ÷10 scaled, no conjunction) is a hit, not only the
   best (Eddie, 14 Oct, as NUMBERS); the cell is coloured by its best line; last line "+ n weaker (see T-tables)" = hits < 50, score-0 (at 2 dp) hits and hidden repeats not counted.
@@ -209,6 +209,10 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **THREADS midpoint cut (15 Oct 2026, Eddie):** midpoint hits (T10, T11, T20) count only at total >= 50, like every hit. Lingfield
+  14:35 2021: 19 midpoint lines (7.83–48.10) moved to "+ n weaker"; 8 cells lost the "both charts" tag (P01 Uranus, P09 Uranus,
+  P03 Neptune, P05 Makemake, P11 Makemake, P05 Orcus, P01 Transpluto, P03 Nodes). Ascot 14:30 2012: 1 line (P01 Uranus T11 39.16),
+  no tag change. Tests 80/80.
 - **T19 / SKY PAIRS / PAIRS split (15 Oct 2026, Eddie):** ratio on the interval list only, midpoint in its own cells (midpoint total
   column added), listed if either is a hit. Lingfield 14:35 2021: T19 1048 rows (917 ratio hits, 35 of them unison; 99 midpoint hits,
   71 midpoint only; 7 unisons without a midpoint hit), SKY PAIRS 59 rows (45 ratio, 9 midpoint, 7 midpoint only). Ascot 14:30 2012:

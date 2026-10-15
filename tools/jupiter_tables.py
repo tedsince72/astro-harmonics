@@ -421,7 +421,7 @@ def write_mids(ws, row, tid, title, ctx, R, triples, thr=None):
                 ws.cell(row=row, column=sc_col).fill = FILL[h['colour']]
                 for k in range(len(MID_HEAD[pl]) - 4, len(MID_HEAD[pl]) - 1):
                     ws.cell(row=row, column=c0 + k).number_format = '0.00'
-                if thr is not None:                        # THREADS: every midpoint hit counts (Eddie 14 Oct)
+                if thr is not None:                        # THREADS: a midpoint hit counts at total >= 50 (Eddie 15 Oct)
                     ev = {'target': f"{h['side'] + ' ' if h['side'] else ''}midpoint", 'score': h['score'], 'colour': h['colour']}
                     thread_add(thr, tid, 'mid ' + short(label), tuple(trip), pl, h['o0'], ev, None)
         row += 1
@@ -569,7 +569,7 @@ def write_t20(ws, row, ctx, R, thr=None):
     """T20 (Eddie, 15 Oct 2026): natal Jupiter as the midpoint of sky X and natal X. Horse: S X / H X | H Jupiter; jockey: S X / J X |
     J Jupiter; every body X in the sky and in that chart (no stars, no Moon, not Jupiter). Planes RA (closer of near / far), Dec, Equator,
     on the current midpoint scoring (as T10 / T11, same columns, timing from the off + 5 min). Horse and jockey on one line per body.
-    Every hit goes to THREADS as a Jupiter-X link (as the other midpoints). -> (row, {body: {'H': {plane: line}, 'J': {...}}})"""
+    Every hit goes to THREADS as a Jupiter-X link, counted at total >= 50 (as every hit). -> (row, {body: {'H': {plane: line}, 'J': {...}}})"""
     ws.cell(row=row, column=1, value='T20').font = BOLD
     ws.cell(row=row, column=2, value='T20 natal Jupiter as the midpoint of sky X and natal X: horse S X / H X | H Jupiter, jockey S X / J X | J Jupiter '
             '(bodies only, no stars, no Moon, not Jupiter)  [midpoint scoring as T10 / T11: closeness of natal Jupiter\'s distances to S X and natal X '
@@ -616,7 +616,7 @@ def write_t20(ws, row, ctx, R, thr=None):
                     ws.cell(row=row, column=c0 + n - 2).fill = FILL[h['colour']]
                     for k in range(n - 4, n - 1):
                         ws.cell(row=row, column=c0 + k).number_format = '0.00'
-                    if thr is not None:                    # THREADS: a Jupiter-X link, every midpoint hit counts (as T10 / T11)
+                    if thr is not None:                    # THREADS: a Jupiter-X link, counted at total >= 50 (as every hit)
                         ev = {'target': f"{h['side'] + ' ' if h['side'] else ''}midpoint", 'score': h['score'], 'colour': h['colour']}
                         thread_add(thr, 'T20', 'mid ' + short(lab), (f'S {x}', f'{C} {x}', f'{C} Jupiter'), pl, h['o0'], ev, None)
         row += 1
@@ -1247,8 +1247,8 @@ THREAD_MIN = 50.0                                          # Eddie, 13 Oct: tags
 
 
 def strong(h):
-    """a hit scoring >= 50; a midpoint counts whenever it is a hit (both halves inside; Eddie, 14 Oct 2026)"""
-    return h.get('mid') or h['score'] is None or h['score'] >= THREAD_MIN
+    """a hit scoring >= 50; midpoints (T10, T11, T20) too: total >= 50 (Eddie, 15 Oct 2026; was every midpoint hit)"""
+    return h['score'] is None or h['score'] >= THREAD_MIN
 
 
 def thread_tags(hits):
@@ -1277,7 +1277,7 @@ COUNTED = ('mutual, same chart', 'mutual, across charts', 'both Jupiters')
 def threads_sheet(wb, runners, fields):
     ws = wb.create_sheet('THREADS', wb.sheetnames.index('FIELD 5'))
     ws.cell(row=1, column=1, value='THREADS: hits inside tolerance linking body X with Jupiter, from T1-T8, T10-T13, T16, T20; a cell lists those '
-            'scoring >= 50 (midpoints: every midpoint hit, both halves inside), main first then scaled x10 / /10 (a scaled repeat of the main hit\'s number - same family, same '
+            'scoring >= 50 (midpoints too: total >= 50), main first then scaled x10 / /10 (a scaled repeat of the main hit\'s number - same family, same '
             'digits - shown once: the main form unless the scaled one scores > 0.5 higher; tags still use the main hit), best first, then "+ n weaker" (score-0 hits not counted); automatic unisons left out. '
             'Top line: tags from the main hits >= 50 - mutual, same chart (S Jup->H X and S X->H Jup, or the J pair); mutual, across charts '
             '(S Jup->J X and S X->H Jup, or S Jup->H X and S X->J Jup); both Jupiters (S X->H Jup and S X->J Jup); both charts (natal X in H '
