@@ -567,5 +567,33 @@ thu = [r for r in wbl['THREADS'].iter_rows(values_only=True) if r and r[0] == 'U
 check('THREADS midpoints at total >= 50 only (Eddie 15 Oct): Lingfield P07 J Uranus T20 Dec 35.33 not listed, counted in "+ n weaker"',
       thu and '[T20]' not in str(thu[0][hp]) and 'weaker' in str(thu[0][hp]), str(thu[0][hp])[:300] if thu else '')
 
+# Eddie 15 Oct 2026: T21 natal Jupiter on natal star pairs, T22 fixed star as the apex (sky Jupiter against natal Jupiter), FIELD 21 / 22
+print('\nTest 17 (Eddie 15 Oct): T21 / T22 fixed stars — Lingfield AW 14:35 2021')
+t21 = [r for r in wbl['P03'].iter_rows(values_only=True) if r and r[0] == 'T21' and r[1] == 'Algorab – Castor' and r[2] == 'Dec']
+check('T21 P03 horse H Jupiter: H Algorab – H Castor Dec (found by the rule; by hand from POSITIONS: Dec H Jupiter 7.682992, Algorab −16.518521, '
+      'Castor 31.888664): 24.201513 / 24.205672 / 48.407186, ratio 1.000172 unison (96.59), between, midpoint −0.002079, closeness 99.9828 %, '
+      '49.83 + 48.62 = 98.45, fixed',
+      len(t21) == 1 and t21[0][3] == 24.201513 and t21[0][5] == 24.205672 and t21[0][7] == 48.407186 and t21[0][9] == 1.000172
+      and t21[0][10] == '1 · unison · Perfect' and t21[0][12] == 96.59 and t21[0][13] == 'fixed' and t21[0][14] == 'between'
+      and t21[0][16] == '-0.002079' and t21[0][17] == 99.9828 and t21[0][18] == 49.83 and t21[0][19] == 48.62 and t21[0][20] == 98.45, str(t21[0][:21] if t21 else t21))
+t22 = [r for r in wbl['P11'].iter_rows(values_only=True) if r and r[0] == 'T22' and r[1] == 'Aldebaran' and r[2] == 'RA']
+check('T22 P11 horse d(Aldebaran, S Jupiter) / d(Aldebaran, H Jupiter) RA (found by the rule; by hand from POSITIONS: RA S Aldebaran 68.977553, '
+      'S Jupiter 325.797311, H Jupiter 171.578818): 103.180242 / 102.601266, ratio 1.005643 unison (18.98), applying, exact 05 Apr 2021 16:21 '
+      '(in 4426.2 min); midpoint far +0.289488, closeness 99.4389 %, 44.55 + 8.86 = 53.41',
+      len(t22) == 1 and t22[0][3] == 103.180242 and t22[0][5] == 102.601266 and t22[0][7] == 1.005643 and t22[0][8] == '1 · unison · Perfect'
+      and t22[0][10] == 18.98 and t22[0][12] == 'applying, exact 05 Apr 2021 16:21 (in 4426.2 min)' and t22[0][13] == '+0.289488 far'
+      and t22[0][14] == 99.4389 and t22[0][15] == 44.55 and t22[0][16] == 8.86 and t22[0][17] == 53.41, str(t22[0][:18] if t22 else t22))
+n22 = [r for r in wbl['P11'].iter_rows(values_only=True) if r and r[0] == 'T22' and r[2] in ('RA', 'Dec', 'Equator')]
+check('T22 lists every star (22), RA and Dec each', {r[1] for r in n22 if r[2] == 'RA'} == set(STARN) and {r[1] for r in n22 if r[2] == 'Dec'} == set(STARN),
+      f'{len(n22)} lines')
+f21 = [r for r in wbl['FIELD 21'].iter_rows(values_only=True) if r and r[0] == 'Algorab – Castor']
+f22 = [r for r in wbl['FIELD 22'].iter_rows(values_only=True) if r and r[0] == 'Aldebaran']
+check('FIELD 21 / 22 show them with side, plane and score, and a k/n count',
+      f21 and 'H Dec midpoint (98.45)' in str(f21[0][2]) and 'H Dec 1 (96.59)' in str(f21[0][2]) and str(f21[0][-1]).endswith('/6')
+      and f22 and 'H RA far midpoint (53.41)' in str(f22[0][6]) and str(f22[0][-1]).endswith('/6'), f'{f21[0] if f21 else f21} | {f22[0] if f22 else f22}')
+st = [r for r in wbl['THREADS'].iter_rows(values_only=True) for v in r if isinstance(v, str) and ('[T21' in v or '[T22' in v)]
+check('THREADS and NUMBERS: no T21 / T22 (stars stay out)', not st and not any(isinstance(v, str) and ('T21' in v or 'T22' in v)
+      for n in wbl.sheetnames if n.endswith('NUMBERS') for r in wbl[n].iter_rows(values_only=True) for v in r), '')
+
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

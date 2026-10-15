@@ -550,6 +550,8 @@ def runner_sheet(wb, P, R, ctx):
     field['T19'] = t19
     field['_pairs'] = allp
     row, field['T20'] = write_t20(ws, row, ctx, R, thr)
+    row, field['T21'] = write_t21(ws, row, ctx, R)        # fixed stars (Eddie 15 Oct): not in THREADS or NUMBERS
+    row, field['T22'] = write_t22(ws, row, ctx, R)
     for (lab, cn), (d, ev) in field['T16'].items():
         x = lab.split('–', 1)[1]
         a, b = cn[0], cn.split('= ')[1][0]
@@ -560,6 +562,208 @@ def runner_sheet(wb, P, R, ctx):
     ws.freeze_panes = 'C4'
     field['_rats'] = rats
     return field
+
+
+# ---------------- T21 / T22: fixed stars (Eddie, 15 Oct 2026)
+SIDE_HEAD = ('d(Jup, A)', 'family', 'd(Jup, B)', 'family', 'd(A, B)', 'family', 'ratio (larger / smaller)', 'interval', 'offset', 'score',
+             'ratio timing', 'Jupiter', 'note', 'midpoint offset', 'closeness %', 'ratio half', 'distance half', 'midpoint total')
+
+
+def side_cells(h):
+    """one side of a T21 line (the T19 cells without table / block / pair / plane) -> (values, {index: colour})"""
+    n, m = h['near'], h['m']
+    miss = '' if h['ev'] else f" — outside ±{n['tol']:.3g} %"
+    vals = [*h['fx'][:2], *h['fy'][:2], *h['fxy'][:2], round(h['r0'], 6), f"{n['target']} · {n['name']} · {n['group']}" + miss, fmt_off(n),
+            round(h['ev']['score'], 2) if h['ev'] else None, h['timing'], h['pos'], h['note'] or None]
+    vals += ([mid_tcells(m)[0], round(m['close'], 4), *mid_tcells(m)[1:], round(m['score'], 2) if m['hit'] else None] if m else [None] * 5)
+    fill = {1 + 2 * k: f[2] for k, f in enumerate((h['fx'], h['fy'], h['fxy'])) if f[2]}
+    if h['ev']:
+        fill[6] = fill[9] = h['ev']['colour']
+    if h['mid'] is not None:
+        fill[17] = m['colour']
+    return vals, fill
+
+
+def row_best(h):
+    return max(h['ev']['score'] if h['ev'] else -1, -1 if h['mid'] is None else h['mid'])
+
+
+def write_t21(ws, row, ctx, R):
+    """T21 (Eddie, 15 Oct 2026): natal Jupiter on natal star pairs, all 22 stars, each chart's own star positions; horse 'H Jupiter: H A –
+    H B' | jockey 'J Jupiter: J A – J B' side by side per star pair and plane (RA, Dec, Equator when the three straddle the equator).
+    T19 cells and filter per side (ratio on an interval, or a midpoint hit, or all three distances with a family hit; together left out);
+    a line is listed when either side passes; best first by the higher of the ratio score and the midpoint total. All natal: 'fixed'."""
+    sides = {}
+    for C in 'HJ':
+        pts = [f'{C} {x}' for x in STARS if x in R[C]]
+        for h in pair_rows(ctx, R, STARS, tid='T21', jup=f'{C} Jupiter', blocks=[(f'{C}–{C}', list(itertools.combinations(pts, 2)))]):
+            sides.setdefault((h['x'][2:], h['y'][2:], h['plane']), {})[C] = h
+    ok = lambda h: h is not None and not h['together'] and (h['ev'] or h['mid'] is not None or h['allfam'])
+    lines = [(k, v) for k, v in sides.items() if ok(v.get('H')) or ok(v.get('J'))]
+    lines.sort(key=lambda kv: -max(row_best(kv[1][C]) if ok(kv[1].get(C)) else -1 for C in 'HJ'))
+    ws.cell(row=row, column=1, value='T21').font = BOLD
+    ws.cell(row=row, column=2, value='T21 natal Jupiter on natal star pairs (all 22 stars, each chart\'s own positions): horse H Jupiter: H A – H B | '
+            'jockey J Jupiter: J A – J B, per star pair and plane (RA, Dec; Equator only when the three straddle the equator). Cells as T19: the three '
+            'distances with their family, ratio d(Jup, A) / d(Jup, B) on the interval list (tapered tolerances), midpoint (closeness >= 90 %, '
+            'ratio half + distance half), between / far side, together. Listed when either side has a ratio on an interval, a midpoint hit or '
+            'all three distances with a family hit (together left out); best first by the higher of the ratio score and the midpoint total. '
+            'All natal: timing fixed').font = BOLD
+    row += 1
+    ws.cell(row=row, column=4, value='HORSE: H Jupiter on H star A – H star B').font = BOLD
+    ws.cell(row=row, column=4 + len(SIDE_HEAD), value='JOCKEY: J Jupiter on J star A – J star B').font = BOLD
+    row += 1
+    for k, hh in enumerate(('table', 'star pair', 'plane') + tuple(f'H {x}' for x in SIDE_HEAD) + tuple(f'J {x}' for x in SIDE_HEAD)):
+        c = ws.cell(row=row, column=1 + k, value=hh); c.fill = HEAD; c.font = BOLD
+    row += 1
+    out = []
+    for (a, b, pl), v in lines:
+        ws.cell(row=row, column=1, value='T21'); ws.cell(row=row, column=2, value=f'{a} – {b}'); ws.cell(row=row, column=3, value=pl)
+        for i, C in enumerate('HJ'):
+            h = v.get(C)
+            if h is None:
+                continue
+            vals, fill = side_cells(h)
+            c0 = 4 + i * len(SIDE_HEAD)
+            for k, x in enumerate(vals):
+                ws.cell(row=row, column=c0 + k, value=x)
+            for k, col in fill.items():
+                ws.cell(row=row, column=c0 + k).fill = FILL[col]
+            for k in (9, 17):
+                ws.cell(row=row, column=c0 + k).number_format = '0.00'
+        out.append({'pair': f'{a} – {b}', 'plane': pl, 'H': v.get('H'), 'J': v.get('J')})
+        row += 1
+    return row + 1, out
+
+
+T22_HEAD = ('d(star, S Jup)', 'family', 'd(star, natal Jup)', 'family', 'ratio (larger / smaller)', 'interval', 'offset', 'score', 'off->+5',
+            'ratio timing', 'midpoint offset', 'closeness %', 'ratio half', 'distance half', 'midpoint total')
+
+
+def t22_line(ctx, R, star, C, pl):
+    """the star (race-day position) as the apex: d(star, S Jupiter) / d(star, C Jupiter), larger / smaller (orientation fixed at the off),
+    on the interval list with timing from the off + 5 min; midpoint cells when closeness >= 90 % (the star the middle point between the
+    two Jupiters). Equator only when the three straddle the equator. -> dict or None"""
+    st, sj, cj = f'S {star}', 'S Jupiter', f'{C} Jupiter'
+    if pl == 'Equator':
+        ps = [ctx.pos(R, q, 0) for q in (st, sj, cj)]
+        if None in ps or (ps[0][1] >= 0) == (ps[1][1] >= 0) == (ps[2][1] >= 0):
+            return None
+    (d1, d15), (d2, d25) = eq_dist2(ctx, R, st, sj, pl), eq_dist2(ctx, R, st, cj, pl)
+    if not d1 or not d2:
+        return None
+    flip = d1 < d2
+    r0 = d1 / d2 if not flip else d2 / d1
+    n5, m5 = (d1 if d15 is None else d15), (d2 if d25 is None else d25)
+    r5 = 'n/a' if 'n/a' in (d15, d25) or not n5 or not m5 else (n5 / m5 if not flip else m5 / n5)
+    ev = families.best(r0, None, 'ratio')
+    near = ev or families.outside(r0, None, 'ratio')
+    m = jup_mid(ctx, R, st, sj, cj, pl, d1, d2) if 100.0 / r0 >= 100.0 - MID_RTOL else None
+    return {'d1': d1, 'f1': eq_family(ctx, d1, d15, pl), 'd2': d2, 'f2': eq_family(ctx, d2, d25, pl), 'r0': r0, 'r5': r5, 'ev': ev,
+            'near': near, 'timing': exact_time(ctx, r0, r5, near['tv']) if r5 != 'n/a' else 'n/a (rate)', 'm': m,
+            'mid': m['score'] if m and m['hit'] else None}
+
+
+def write_t22(ws, row, ctx, R):
+    """T22 (Eddie, 15 Oct 2026): each fixed star (race-day position) as the apex, sky Jupiter against natal Jupiter; one line per star and
+    plane, horse d(star, S Jup) / d(star, H Jup) | jockey d(star, S Jup) / d(star, J Jup); every star listed, hits coloured"""
+    ws.cell(row=row, column=1, value='T22').font = BOLD
+    ws.cell(row=row, column=2, value='T22 fixed star as the apex (race-day position), sky Jupiter against natal Jupiter: horse d(star, S Jupiter) / '
+            'd(star, H Jupiter) | jockey d(star, S Jupiter) / d(star, J Jupiter), larger / smaller on the interval list (tapered tolerances; timing '
+            'from the off + 5 min, sky Jupiter and the star move); midpoint cells when closeness >= 90 % (the star the middle point between S Jupiter and '
+            'natal Jupiter; ratio half + distance half). Planes RA, Dec, Equator (only when the three straddle the equator). Every star listed').font = BOLD
+    row += 1
+    ws.cell(row=row, column=4, value='HORSE: d(star, S Jupiter) / d(star, H Jupiter)').font = BOLD
+    ws.cell(row=row, column=4 + len(T22_HEAD), value='JOCKEY: d(star, S Jupiter) / d(star, J Jupiter)').font = BOLD
+    row += 1
+    for k, hh in enumerate(('table', 'star', 'plane') + tuple(f'H {x}' for x in T22_HEAD) + tuple(f'J {x}' for x in T22_HEAD)):
+        c = ws.cell(row=row, column=1 + k, value=hh); c.fill = HEAD; c.font = BOLD
+    row += 1
+    out = []
+    for star in STARS:
+        if f'{star}' not in ctx.S0:
+            continue
+        for pl in EQ_PLANES:
+            v = {C: t22_line(ctx, R, star, C, pl) for C in 'HJ'}
+            if not any(v.values()):
+                continue
+            ws.cell(row=row, column=1, value='T22'); ws.cell(row=row, column=2, value=star); ws.cell(row=row, column=3, value=pl)
+            for i, C in enumerate('HJ'):
+                h = v[C]
+                if h is None:
+                    continue
+                n, m = h['near'], h['m']
+                vals = [*h['f1'][0][:2], *h['f2'][0][:2], round(h['r0'], 6),
+                        f"{n['target']} · {n['name']} · {n['group']}" + ('' if h['ev'] else f" — outside ±{n['tol']:.3g} %"), fmt_off(n),
+                        round(h['ev']['score'], 2) if h['ev'] else None,
+                        h['r5'] if h['r5'] == 'n/a' else arrow(h['r0'], h['r5'], n), h['timing']]
+                vals += ([mid_tcells(m)[0], round(m['close'], 4), *mid_tcells(m)[1:], round(m['score'], 2) if m['hit'] else None] if m else [None] * 5)
+                c0 = 4 + i * len(T22_HEAD)
+                for k, x in enumerate(vals):
+                    ws.cell(row=row, column=c0 + k, value=x)
+                for k, f in ((1, h['f1'][0]), (3, h['f2'][0])):
+                    if f[2]:
+                        ws.cell(row=row, column=c0 + k).fill = FILL[f[2]]
+                if h['ev']:
+                    ws.cell(row=row, column=c0 + 4).fill = ws.cell(row=row, column=c0 + 7).fill = FILL[h['ev']['colour']]
+                if h['mid'] is not None:
+                    ws.cell(row=row, column=c0 + 14).fill = FILL[m['colour']]
+                for k in (7, 14):
+                    ws.cell(row=row, column=c0 + k).number_format = '0.00'
+            out.append({'pair': star, 'plane': pl, 'H': v['H'], 'J': v['J']})
+            row += 1
+    return row + 1, out
+
+
+def field_star_sheet(wb, tid, title, runners, fields):
+    """FIELD 21 / FIELD 22 (Eddie, 15 Oct 2026): rows = star pairs (T21) / stars (T22), runners as columns; each hit as side, plane and score
+    (ratio: the interval; midpoint: total); last column = runners with a hit (k/n). Hits = a ratio on an interval or a midpoint hit."""
+    ws = wb.create_sheet(f'FIELD {tid[1:]}')
+    ws.cell(row=1, column=1, value=f'{tid} field matrix — {title}; per runner every hit: side (H / J), plane, ratio on an interval '
+            '(interval, score) or midpoint (total); cell coloured by its best hit; last column = runners with a hit (k/n)').font = BOLD
+    order = sorted(runners)
+    ws.cell(row=3, column=1, value='star pair' if tid == 'T21' else 'star').fill = HEAD
+    for i, P in enumerate(order):
+        c = ws.cell(row=3, column=2 + i, value=f"{P} {runners[P]['name']}"); c.fill = HEAD; c.font = BOLD
+        ws.column_dimensions[openpyxl.utils.get_column_letter(2 + i)].width = 40
+    last = 2 + len(order)
+    c = ws.cell(row=3, column=last, value='runners with a hit'); c.fill = HEAD; c.font = BOLD
+    keys = []
+    for P in order:
+        for h in fields[P][tid]:
+            if h['pair'] not in keys:
+                keys.append(h['pair'])
+    if tid == 'T22':
+        keys = [x for x in STARS if x in keys]
+    r = 4
+    for key in keys:
+        ws.cell(row=r, column=1, value=key).font = BOLD
+        k = 0
+        for i, P in enumerate(order):
+            hits = []
+            for line in fields[P][tid]:
+                if line['pair'] != key:
+                    continue
+                for C in 'HJ':
+                    h = line[C]
+                    if h is None or h.get('together'):
+                        continue
+                    if h['ev']:
+                        hits.append((h['ev']['score'], h['ev']['colour'], f"{C} {line['plane']} {h['ev']['target']} ({h['ev']['score']:.2f})"))
+                    if h['mid'] is not None:
+                        side = f" {h['m']['side']}" if h['m']['side'] else ''
+                        hits.append((h['mid'], h['m']['colour'], f"{C} {line['plane']}{side} midpoint ({h['mid']:.2f})"))
+            if not hits:
+                continue
+            k += 1
+            hits.sort(key=lambda t: -t[0])
+            c = ws.cell(row=r, column=2 + i, value='\n'.join(t[2] for t in hits))
+            if hits[0][1] in FILL:
+                c.fill = FILL[hits[0][1]]
+            c.alignment = Alignment(wrap_text=True, vertical='top')
+        ws.cell(row=r, column=last, value=f'{k}/{len(order)}')
+        r += 1
+    ws.column_dimensions['A'].width = 26
+    ws.freeze_panes = 'B4'
 
 
 T20_BODIES = [x for x in NATAL_BODIES if x != 'Jupiter']   # bodies only: no stars, no Moon (no natal Moon), not Jupiter
@@ -892,13 +1096,14 @@ def pair_points(R, C, stars):
     return [f'{C} {b}' for b in NATAL_BODIES if b in R[C]] + [f'{C} {x}' for x in stars if x in R[C]]
 
 
-def pair_rows(ctx, R, stars, t17keys=frozenset(), tid='T19', sky=False):
+def pair_rows(ctx, R, stars, t17keys=frozenset(), tid='T19', sky=False, jup='S Jupiter', blocks=None):
     """S Jupiter on every pair X-Y: blocks H-H, J-J, H-J across (sky: S-S, the points given: stars or sky bodies), every plane. No star-star pairs on a runner (sky:
     star-star only). Each row: the three distances with their best family (score, timing), the ratio d(S Jup, X) / d(S Jup, Y)
     (larger / smaller) on the interval list with the tapered tolerances (timing), between / far side, 'X, Y together' tag.
     A Ketu row with the same numbers as the Rahu row is dropped. A unison row also in T17 is marked."""
-    jup = 'S Jupiter'
-    if sky:
+    if blocks is not None:                                 # T21 (15 Oct): natal Jupiter on that chart's star pairs
+        pass
+    elif sky:
         pts = [f'S {x}' for x in stars if x in ctx.S0]
         blocks = [('S–S', list(itertools.combinations(pts, 2)))]
     else:
@@ -1610,6 +1815,8 @@ def main():
     field_sheet(wb, 'T16', 'RA–Dec crossing (value = RA − Dec, inside ±0.02)', runners, fields, [cross_name(a, b) for a, b in CROSS])
     field_equi_sheet(wb, runners, fields)
     field_t20_sheet(wb, runners, fields)
+    field_star_sheet(wb, 'T21', 'natal Jupiter on natal star pairs (H Jupiter: H A – H B | J Jupiter: J A – J B)', runners, fields)
+    field_star_sheet(wb, 'T22', 'fixed star as the apex, d(star, S Jupiter) / d(star, natal Jupiter)', runners, fields)
     threads_sheet(wb, runners, fields)
     field_numbers_sheet(wb, runners, {P: sky_nums + fields[P]['_nums'] for P in runners})
     wb.save(out)

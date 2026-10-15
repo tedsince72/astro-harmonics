@@ -97,12 +97,12 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   layer2 ratios, layer3 every measure per runner, field.txt). Rules, tests and open points: docs/jupiter/README.md. Today's 13 races (12 Oct 2026)
   are run, blind (no results opened).
 - Viewing tool (13 Oct 2026, not a reader): `python3 tools/jupiter_tables.py <race_batch xlsx | reference/classic/<race> folder>` ->
-  race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T14, T16–T20 per runner (T15 removed 15 Oct 2026), field matrices, off and +5 min,
+  race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T14, T16–T22 per runner (T15 removed 15 Oct 2026), field matrices, off and +5 min,
   every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score; ratios on the interval
-  list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; THREADS, P## NUMBERS and FIELD NUMBERS
+  list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (80/80). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (85/85). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -177,6 +177,30 @@ between / far side; notes "X, Y together" and "(also T17)" (a unison row whose l
 - Independent checker (15 Oct), from POSITIONS: every T20 cell of both races (Lingfield 720 plane cells, Ascot 124), the 4 hits incl.
   timing, near-misses (P03 H Mercury Dec −0.242245, P05 H Ceres Equator 0.224967, P11 H Sun RA −0.826292), FIELD 20, THREADS lines,
   no T15 / FIELD 15: 0 mismatches.
+
+## jupiter_tables: T21, T22 fixed stars (Eddie, 15 Oct 2026; viewing only)
+All 22 stars; planes RA, Dec, Equator (only when the three straddle the equator). Existing tables unchanged (Lingfield rebuilt and
+compared row by row with the previous version: 0 differences). THREADS and NUMBERS: stars stay out (no T21 / T22).
+- T21: natal Jupiter on natal star pairs (as SKY STARS, natal; each chart's own star positions). One line per star pair and plane,
+  horse "H Jupiter: H A – H B" | jockey "J Jupiter: J A – J B"; each side the T19 cells (three distances + family, ratio on the interval
+  list, midpoint cells, between / far side, together); timing fixed. Listed when either side passes the T19 filter; best first by the
+  higher of ratio score and midpoint total. (tools: pair_rows with jup / blocks; defaults keep T19 as before.)
+- T22: each star's race-day position as the apex; horse d(star, S Jupiter) / d(star, H Jupiter) | jockey the same with J Jupiter, one
+  line per star and plane, every star listed. Both distances + family, ratio larger / smaller on the interval list (score, arrow,
+  timing from the off + 5 min), midpoint cells when closeness >= 90 % (the star the middle point between S Jupiter and natal Jupiter).
+- FIELD 21 (rows star pairs) / FIELD 22 (rows stars): per runner each hit as side, plane, interval or midpoint and score ('H Dec 1
+  (96.59)', 'H Dec midpoint (98.45)'), runners with a hit k/n. Hits = ratio on an interval or midpoint hit (together sides left out).
+- Test 17 (Lingfield 14:35 2021, by hand from POSITIONS): T21 P03 H Jupiter: H Algorab – H Castor Dec 24.201513 / 24.205672 /
+  48.407186, unison 1.000172 (96.59), midpoint −0.002079, 99.9828 %, 49.83 + 48.62 = 98.45, fixed; T22 P11 H Aldebaran RA 103.180242 /
+  102.601266, unison 1.005643 (18.98), applying, exact 05 Apr 2021 16:21 (in 4426.2 min), midpoint far +0.289488, 99.4389 %, 44.55 +
+  8.86 = 53.41.
+- Hits: Lingfield T21 566 lines, ratio 547 (H RA 106, Dec 94, Eq 58; J RA 114, Dec 107, Eq 68), midpoint 36 (H RA 3, Dec 8, Eq 3; J RA 8,
+  Dec 9, Eq 5); T22 382 lines, ratio 56 (H RA 10, Dec 12, Eq 6; J RA 10, Dec 5, Eq 13), midpoint 2 (H RA 1, H Eq 1). Ascot T21 128 lines,
+  ratio 119 (H RA 17, Dec 22, Eq 20; J RA 24, Dec 19, Eq 17), midpoint 5 (H Dec 1, H Eq 1, J RA 2, J Eq 1); T22 66 lines, ratio 11
+  (H RA 2, Dec 3, Eq 1; J Dec 2, Eq 3), midpoint 0. Sizes: Lingfield 1.05 + 2.90 MB, Ascot 0.23 + 0.49 MB.
+- Independent checker (15 Oct), from POSITIONS: completeness of T21 / T22 in both races (all counts above), every cell of every listed
+  T21 side (Lingfield 1,132, Ascot 256) and every T22 side (750, 132) incl. timing, FIELD 21 / 22 every row: 0 mismatches. Note: FIELD 21
+  also shows 0/n rows for T21 lines listed only by all three families (Lingfield 2, e.g. Capella – Spica; Ascot 9).
 
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
