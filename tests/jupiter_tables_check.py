@@ -606,5 +606,29 @@ st = [r for r in wbl['THREADS'].iter_rows(values_only=True) for v in r if isinst
 check('THREADS and NUMBERS: no T21 / T22 (stars stay out)', not st and not any(isinstance(v, str) and ('T21' in v or 'T22' in v)
       for n in wbl.sheetnames if n.endswith('NUMBERS') for r in wbl[n].iter_rows(values_only=True) for v in r), '')
 
+# Eddie 15 Oct 2026: SKY cells in T1 / T2 (S Jupiter -> S X, same plane), sky side in T21 (S Jupiter: S A – S B), tag 'same as sky'
+print('\nTest 18 (Eddie 15 Oct): SKY cells in T1 / T2, sky side in T21, "same as sky" — Lingfield AW 14:35 2021')
+t1 = [r for r in wbl['P03'].iter_rows(values_only=True) if r and r[0] == 'T1' and r[1] == 'H Jupiter → H Sun']
+check('T1 P03 H Jupiter → H Sun, SKY Dec cell S Jupiter → S Sun (by hand from POSITIONS: Dec S Jupiter −14.389918, S Sun 5.028708; rates '
+      '+0.0000426 / +0.0002664 per min): 19.418627, +5 min 19.419746, 12×φ golden +0.00222 (86.76), away, separating, exact 14:25 (9.9 min ago); '
+      'natal Dec 2.609925 (φ^2) unchanged; no same as sky tag (φ^2 / 10×φ^2 against 12×φ / 120×φ)',
+      len(t1) == 1 and t1[0][11] == 2.609925 and t1[0][13] == 'φ^2 (phi power)' and t1[0][30] == 19.418627 and t1[0][31] == 19.419746
+      and t1[0][32] == '12×φ (golden)' and t1[0][34] == '+0.00222' and t1[0][35] == 86.76 and t1[0][36] == '<- away'
+      and t1[0][39] == 'separating, exact 14:25 (9.9 min ago)' and (len(t1[0]) < 41 or t1[0][40] is None), str(t1[0][28:41] if t1 else t1))
+t21s = [r for r in wbl['P11'].iter_rows(values_only=True) if r and r[0] == 'T21' and r[1] == 'Alphecca – Betelgeuse' and r[2] == 'RA']
+check('T21 P11 Alphecca – Betelgeuse RA, sky side S Jupiter: S Alphecca – S Betelgeuse (by hand from POSITIONS: RA S Jupiter 325.797311, '
+      'S Alphecca 233.677137, S Betelgeuse 88.791862): 92.120174 / 122.994551 (φ^10, 99.13, applying, exact 14:55) / 144.885275 (ninth 144.444, '
+      '53.32), ratio 1.335153 4/3 +0.13650 % (20.61), applying, exact 23:43 (in 548.3 min), far side; horse side unchanged (1.333184 4/3, 91.22)',
+      len(t21s) == 1 and t21s[0][9] == 1.333184 and t21s[0][12] == 91.22 and t21s[0][39] == 92.120174 and t21s[0][41] == 122.994551
+      and t21s[0][42] == '→ φ^10 (phi power, 99.13) · applying, exact 14:55 (in 20.5 min)' and t21s[0][43] == 144.885275
+      and t21s[0][45] == 1.335153 and t21s[0][46] == '4/3 · fourth · Perfect' and t21s[0][47] == '+0.13650%' and t21s[0][48] == 20.61
+      and t21s[0][49] == 'applying, exact 23:43 (in 548.3 min)' and t21s[0][50] == 'far side', str(t21s[0][39:51] if t21s else t21s))
+check('"same as sky" found by the rule on that line: horse ratio and sky ratio both on 4/3; d(A, B) ninth 144.444 in horse, jockey and sky',
+      t21s and t21s[0][57] == 'same as sky — H: d(A, B) ninth 144.444 | sky 144.444, ratio 4/3 · fourth; J: d(A, B) ninth 144.444 | sky 144.444',
+      str(t21s[0][57] if t21s else t21s))
+n21 = [r for n in wbl.sheetnames if n.startswith('P') and n[1:].isdigit() for r in wbl[n].iter_rows(values_only=True)
+       if r and r[0] == 'T21' and r[2] in ('RA', 'Dec', 'Equator')]
+check('T21 listing unchanged by the sky side: 198 lines (rule as before)', len(n21) == 198, f'{len(n21)} lines')
+
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

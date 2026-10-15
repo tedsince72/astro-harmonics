@@ -288,12 +288,42 @@ def plane_index(pl, planes):
     return 3 + COLS * planes.index(pl)
 
 
-def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None, nums=None):
-    """rows: [(label, a, b)] -> distances in RA / Dec (equator: Dec only)."""
+SKY_COLS = COLS + 1                                        # T1 / T2 SKY cells per plane: the 9 value cells + exact timing
+SAME_COL = 3 + COLS * len(PLANES) + SKY_COLS * len(PLANES)  # T1 / T2 'same as sky' tag column
+
+
+def hit_keys(ev, also, sc):
+    """the numbers a cell hits (best, also, scaled), x10 / /10 folded as in NUMBERS (family + digits); no conjunction -> {key: target}"""
+    out = {}
+    for d in [ev, sc] + list(also or []):
+        if d and d.get('family') != 'conj' and d.get('tv'):
+            out.setdefault(num_key(d['family'], d['tv']), d)
+    return out
+
+
+def same_as_sky(nat, sky):
+    """'same as sky' (Eddie, 15 Oct 2026): the natal cell and the SKY cell hit the same target (same family and number, x10 / /10
+    folded) -> text per shared number or ''"""
+    return '; '.join(f"{k[0]} {nat[k]['target']} | sky {sky[k]['target']}" for k in nat if k in sky)
+
+
+def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None, nums=None, sky=False):
+    """rows: [(label, a, b)] -> distances in RA / Dec (equator: Dec only).
+    sky (T1 / T2, Eddie 15 Oct 2026): SKY cells S Jupiter -> S X in the same plane beside each natal row (value, best family, scaled,
+    +5 min, arrow, exact timing; not in THREADS / NUMBERS) and the tag 'same as sky' where both hit the same number."""
     row = header(ws, row, tid, title, PLANES)
+    if sky:
+        ws.cell(row=row - 2, column=3 + COLS * len(PLANES), value='SKY: S Jupiter → S X, same plane (at the off and +5 min)').font = BOLD
+        for i, pl in enumerate(PLANES):
+            col = 3 + COLS * len(PLANES) + SKY_COLS * i
+            for k, h in enumerate((f'SKY {pl}', '+5 min', 'nearest target', 'group', 'offset', 'score', 'off->+5', 'also (score)',
+                                   'scaled x10 / /10', 'timing')):
+                c = ws.cell(row=row - 1, column=col + k, value=h); c.fill = HEAD; c.font = BOLD
+        c = ws.cell(row=row - 1, column=SAME_COL, value='same as sky'); c.fill = HEAD; c.font = BOLD
     out = {}
     for label, a, b in rows:
         ws.cell(row=row, column=1, value=tid); ws.cell(row=row, column=2, value=label)
+        same = []
         for pl in PLANES:
             v0, v5 = ctx.pair(R, a, b, pl)
             if v0 is None:
@@ -306,6 +336,23 @@ def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None, nums=None)
                 thread_add(thr, tid, f'{short(a)}→{short(b)}', (a, b), pl, v0, ev, sc)
             if nums is not None and KIND[kind] == 'deg' and tid in NUM_COL:
                 number_add(nums, NUM_COL[tid], f'{short(a)}→{short(b)}', 'Dec' if kind == 'equator' else pl, v0)
+            if sky:
+                sa, sb = 'S ' + a.split(' ', 1)[1], 'S ' + b.split(' ', 1)[1]
+                if sb.split(' ', 1)[1] not in ctx.S0:
+                    continue
+                s0, s5 = ctx.pair(R, sa, sb, pl)
+                if s0 is None:
+                    continue
+                sev, salso, ssc = nearest(s0, kind, 'Dec' if kind == 'equator' else pl)
+                col = 3 + COLS * len(PLANES) + SKY_COLS * PLANES.index(pl)
+                put_value(ws, row, col, s0, s5, sev, salso, sc=ssc, ox=(kind, 'Dec' if kind == 'equator' else pl))
+                ws.cell(row=row, column=col + COLS, value=exact_time(ctx, s0, s5, sev['tv']) if sev else None)
+                t = same_as_sky(hit_keys(ev, also, sc), hit_keys(sev, salso, ssc))
+                if t:
+                    same.append(f'{pl}: {t}')
+                out[(label, pl, 'sky')] = (s0, sev, t)
+        if same:
+            ws.cell(row=row, column=SAME_COL, value='same as sky — ' + '; '.join(same))
         row += 1
     return row + 1, out
 
@@ -442,7 +489,8 @@ def runner_sheet(wb, P, R, ctx):
     field = {}
     for tid, C in (('T1', 'H'), ('T2', 'J')):
         rows = [(f'{C} Jupiter → {C} {x}', f'{C} Jupiter', f'{C} {x}') for x in R[C] if x != 'Jupiter']
-        row, _ = write_pairs(ws, row, tid, f'{C} Jupiter → {C} bodies, stars, equator (natal)', ctx, R, rows, dist, thr, nums)
+        row, field[tid] = write_pairs(ws, row, tid, f'{C} Jupiter → {C} bodies, stars, equator (natal); SKY cells S Jupiter → S X beside each row',
+                                      ctx, R, rows, dist, thr, nums, sky=True)
     row, _ = write_pairs(ws, row, 'T3', 'H Jupiter → J bodies (natal, cross)', ctx, R,
                          [(f'H Jupiter → J {x}', 'H Jupiter', f'J {x}') for x in NATAL_BODIES if x in J], dist, thr, nums)
     row, _ = write_pairs(ws, row, 'T4', 'J Jupiter → H bodies (natal, cross)', ctx, R,
@@ -588,6 +636,25 @@ def row_best(h):
     return max(h['ev']['score'] if h['ev'] else -1, -1 if h['mid'] is None else h['mid'])
 
 
+T21_CELLS = (('d(Jup, A)', 0), ('d(Jup, B)', 1), ('d(A, B)', 2))
+
+
+def t21_same(h, s):
+    """'same as sky' on a T21 side (Eddie, 15 Oct 2026): the natal side and the sky side hit the same target in the same cell - a distance
+    on the same family and number (x10 / /10 folded as in NUMBERS), or the ratio on the same interval -> list of texts"""
+    out = []
+    if h is None or s is None:
+        return out
+    for name, i in T21_CELLS:
+        a, b = h['best'][i], s['best'][i]
+        if a and b and a['family'] != 'conj' and b['family'] != 'conj' and a.get('tv') and b.get('tv') and \
+                num_key(a['family'], a['tv']) == num_key(b['family'], b['tv']):
+            out.append(f"{name} {a['family']} {a['target']} | sky {b['target']}")
+    if h['ev'] and s['ev'] and h['ev']['target'] == s['ev']['target']:
+        out.append(f"ratio {h['ev']['target']} · {h['ev']['name']}")
+    return out
+
+
 def write_t21(ws, row, ctx, R):
     """T21 (Eddie, 15 Oct 2026): natal Jupiter on natal star pairs, all 22 stars, each chart's own star positions; horse 'H Jupiter: H A –
     H B' | jockey 'J Jupiter: J A – J B' side by side per star pair and plane (RA, Dec, Equator when the three straddle the equator).
@@ -601,6 +668,10 @@ def write_t21(ws, row, ctx, R):
     # Eddie 15 Oct (revised): a side counts with a midpoint hit (any total) or a ratio hit scoring >= 50; together sides left out
     ok = lambda h: h is not None and not h['together'] and (h['mid'] is not None or (h['ev'] is not None and h['ev']['score'] >= T21_RMIN))
     lines = [(k, v) for k, v in sides.items() if ok(v.get('H')) or ok(v.get('J'))]
+    # sky side (Eddie 15 Oct): S Jupiter on the same sky star pair and plane; never adds or removes a line
+    spts = [f'S {x}' for x in STARS if x in ctx.S0]
+    sky = {(h['x'][2:], h['y'][2:], h['plane']): h for h in
+           pair_rows(ctx, R, STARS, tid='T21', jup='S Jupiter', blocks=[('S–S', list(itertools.combinations(spts, 2)))])}
     lines.sort(key=lambda kv: -max(row_best(kv[1][C]) if ok(kv[1].get(C)) else -1 for C in 'HJ'))
     ws.cell(row=row, column=1, value='T21').font = BOLD
     ws.cell(row=row, column=2, value='T21 natal Jupiter on natal star pairs (all 22 stars, each chart\'s own positions): horse H Jupiter: H A – H B | '
@@ -608,19 +679,25 @@ def write_t21(ws, row, ctx, R):
             'distances with their family, ratio d(Jup, A) / d(Jup, B) on the interval list (tapered tolerances), midpoint (closeness >= 90 %, '
             'ratio half + distance half), between / far side, together. Listed when either side has a midpoint hit (any total) or a ratio hit '
             'scoring >= 50 (together left out); best first by the higher of the ratio score and the midpoint total. '
-            'All natal: timing fixed').font = BOLD
+            'Natal sides: timing fixed. SKY side (Eddie, 15 Oct 2026): S Jupiter: S A – S B, the same star pair and plane at race time, '
+            'the same cells, timing from the off + 5 min; it never adds or removes a line. "same as sky": the horse or jockey side and the '
+            'sky side hit the same target in the same cell (a distance on the same family and number, x10 / /10 folded; the ratio on '
+            'the same interval)').font = BOLD
     row += 1
     ws.cell(row=row, column=4, value='HORSE: H Jupiter on H star A – H star B').font = BOLD
     ws.cell(row=row, column=4 + len(SIDE_HEAD), value='JOCKEY: J Jupiter on J star A – J star B').font = BOLD
+    ws.cell(row=row, column=4 + 2 * len(SIDE_HEAD), value='SKY: S Jupiter on S star A – S star B').font = BOLD
     row += 1
-    for k, hh in enumerate(('table', 'star pair', 'plane') + tuple(f'H {x}' for x in SIDE_HEAD) + tuple(f'J {x}' for x in SIDE_HEAD)):
+    for k, hh in enumerate(('table', 'star pair', 'plane') + tuple(f'H {x}' for x in SIDE_HEAD) + tuple(f'J {x}' for x in SIDE_HEAD)
+                           + tuple(f'S {x}' for x in SIDE_HEAD) + ('same as sky',)):
         c = ws.cell(row=row, column=1 + k, value=hh); c.fill = HEAD; c.font = BOLD
     row += 1
     out = []
     for (a, b, pl), v in lines:
         ws.cell(row=row, column=1, value='T21'); ws.cell(row=row, column=2, value=f'{a} – {b}'); ws.cell(row=row, column=3, value=pl)
-        for i, C in enumerate('HJ'):
-            h = v.get(C)
+        s = sky.get((a, b, pl))
+        for i, C in enumerate('HJS'):
+            h = s if C == 'S' else v.get(C)
             if h is None:
                 continue
             vals, fill = side_cells(h)
@@ -631,7 +708,11 @@ def write_t21(ws, row, ctx, R):
                 ws.cell(row=row, column=c0 + k).fill = FILL[col]
             for k in (9, 17):
                 ws.cell(row=row, column=c0 + k).number_format = '0.00'
-        out.append({'pair': f'{a} – {b}', 'plane': pl, 'H': v.get('H'), 'J': v.get('J')})
+        same = {C: t21_same(v.get(C), s) for C in 'HJ'}
+        if same['H'] or same['J']:
+            ws.cell(row=row, column=4 + 3 * len(SIDE_HEAD),
+                    value='same as sky — ' + '; '.join(f'{C}: ' + ', '.join(same[C]) for C in 'HJ' if same[C]))
+        out.append({'pair': f'{a} – {b}', 'plane': pl, 'H': v.get('H'), 'J': v.get('J'), 'S': s, 'same': same})
         row += 1
     return row + 1, out
 
@@ -1169,7 +1250,7 @@ def pair_rows(ctx, R, stars, t17keys=frozenset(), tid='T19', sky=False, jup='S J
                 out.append({'tid': tid, 'block': blk, 'x': x, 'y': y, 'pair': f'{x} – {y}', 'plane': pl, 'fx': fx, 'fy': fy, 'fxy': fxy, 'm': m,
                             'mid': m['score'] if m and m['hit'] else None,
                             'allfam': bool(bx and by and bxy), 'r0': r0, 'ev': ev, 'near': near, 'timing': tim, 'pos': pos,
-                            'together': together, 'note': '; '.join(note), 'sig': (round(dx, 6), round(dy, 6))})
+                            'together': together, 'note': '; '.join(note), 'sig': (round(dx, 6), round(dy, 6)), 'best': (bx, by, bxy)})
     rahu = {(h['pair'], h['sig']) for h in out if 'Rahu' in h['pair']}            # any plane, as T17 (X = Ketu in Dec = X = Rahu in Equator)
     out = [h for h in out if not ('Ketu' in h['pair'] and (h['pair'].replace('Ketu', 'Rahu'), h['sig']) in rahu)]
     return out
