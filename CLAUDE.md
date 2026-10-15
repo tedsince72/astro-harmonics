@@ -213,6 +213,14 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
   14:35 2021: 19 midpoint lines (7.83–48.10) moved to "+ n weaker"; 8 cells lost the "both charts" tag (P01 Uranus, P09 Uranus,
   P03 Neptune, P05 Makemake, P11 Makemake, P05 Orcus, P01 Transpluto, P03 Nodes). Ascot 14:30 2012: 1 line (P01 Uranus T11 39.16),
   no tag change. Tests 80/80.
+- **Independent checker on the last two unchecked cases (15 Oct 2026), recomputed from POSITIONS (families.py only, not the tool's
+  code): 0 mismatches, no corrections.** Wincanton 14:20 2022 P09 Birds Of Prey / Harry Cobden: every T12–T14 ratio of all 6 runners;
+  P09 has 22 unisons, all T13 J RA (none T12, Dec or T14); Jupiter return S–J RA 0.032759, Dec 0.521920; 20 automatic (return ratio
+  0.000183 Mars – 0.000979 Eris); 2 genuine, return-assisted, field 1/6: J Ketu 1.001694 (68.99, ratio 0.001694), J Gonggong 1.001741
+  (68.21, 0.001741); the only other unison in the field is P03 T12 J Eris RA 1.008901 (1.21). Nottingham 15:30 2022 P01 Dynamic Force
+  THREADS Transpluto: T6 RA 141.532633 → 141.4 (71.00), T7 Dec 33.33254 → 33.3333 (99.05), T8 Dec 13.368851 → 13.3333 (57.38), T5 no
+  hit → directions 3, mutual same chart (T6 + T8), mutual across charts (T6 + T7), both Jupiters (T7 + T8); 'both charts' rightly absent
+  (no H Transpluto hit >= 50 in T1–T5, T12, T13; T10, T11, T16, T20 not recomputed, the cell lists none >= 50).
 - **T19 / SKY PAIRS / PAIRS split (15 Oct 2026, Eddie):** ratio on the interval list only, midpoint in its own cells (midpoint total
   column added), listed if either is a hit. Lingfield 14:35 2021: T19 1048 rows (917 ratio hits, 35 of them unison; 99 midpoint hits,
   71 midpoint only; 7 unisons without a midpoint hit), SKY PAIRS 59 rows (45 ratio, 9 midpoint, 7 midpoint only). Ascot 14:30 2012:
@@ -238,7 +246,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
   Tests 70/70 (test 10 rewritten; tests 11, 13, 14 moved / re-indexed; test 15 Haydock).
 - **Planes (14 Oct 2026, Eddie):** jupiter_tables uses RA, Dec and Equator only; Flat and GC removed for noise (every table, SKY sheets,
   FIELD, NUMBERS, THREADS, pairs workbook). Tests retired / moved to RA, Dec, Equator cases: 5, 6, 7, 8, 9, 11 (65/65).
-  Independent checker (14 Oct) recomputed the moved cases from the input positions (Newcastle P05 / P11 RA Rahu ratios and 2/6, Sandown P07 Vesta 3/2 and J Mars 9/8, Wincanton P01 ninth 11.1111 row and 1/6, Lingfield SKY EQ Mars = Neptune Equator): 0 mismatches. Not yet independently checked: Cobden's 22 unisons, Nottingham Transpluto tags. Ascot 14:30 2012:
+  Independent checker (14 Oct) recomputed the moved cases from the input positions (Newcastle P05 / P11 RA Rahu ratios and 2/6, Sandown P07 Vesta 3/2 and J Mars 9/8, Wincanton P01 ninth 11.1111 row and 1/6, Lingfield SKY EQ Mars = Neptune Equator): 0 mismatches. Cobden's 22 unisons and the Nottingham Transpluto tags were checked on 15 Oct (see the THREADS midpoint cut entry above). Ascot 14:30 2012:
   T17 62 -> 35, T18 28 -> 7, T19 351 -> 201, SKY PAIRS 89 -> 52; Lingfield 14:35 2021: T17 306 -> 165, T18 149 -> 59, T19 1840 -> 978,
   SKY PAIRS 100 -> 52, PAIRS 46,477 -> 26,917.
 - **Working view = the tables tool on Eddie's families:** `tools/jupiter_tables.py` on `tools/families.py` (see "Families" above).
