@@ -5,17 +5,17 @@ INPUT = a race_batch_<yyyymmdd>_<course>_<hhmm>.xlsx (TRANS, P01..Pnn, META) or 
 (<course>_<hhmm>_<yyyymmdd>/<race>__P##.xlsx). Output: race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx next to the batch
 (for a folder: in reference/classic/), unless --out.
 
-Sheets: POSITIONS; SKY JUPITER (+ EQUIDISTANCE, 14 Oct); one sheet per runner (P01, P03, ...: tables 1-19; T17 equidistance, T18 horse | jockey side by side, T19 sky Jupiter on natal pairs); P## PAIRS (unfiltered) in a separate race_batch_<yyyymmdd>_<course>_<hhmm>_pairs.xlsx next to it + P## RATIOS; THREADS (13 Oct: hits linking each body
+Sheets: POSITIONS; SKY JUPITER (+ EQUIDISTANCE, 14 Oct); one sheet per runner (P01, P03, ...: tables 1-14, 16-20 (T15 removed 15 Oct 2026); T17 equidistance, T18 horse | jockey side by side, T19 sky Jupiter on natal pairs); P## PAIRS (unfiltered) in a separate race_batch_<yyyymmdd>_<course>_<hhmm>_pairs.xlsx next to it + P## RATIOS; THREADS (13 Oct: hits linking each body
 with Jupiter, per runner, tags and field counts - see threads_sheet); P## NUMBERS + FIELD NUMBERS (13 Oct: target numbers, x10 / /10
-folded, SKY / HORSE / JOCKEY / SKY->NATAL - see numbers_sheet); FIELD 5-8, 10, 11, 12-17.
+folded, SKY / HORSE / JOCKEY / SKY->NATAL - see numbers_sheet); FIELD 5-8, 10-14, 16, 17, 20.
 Each value (13 Oct 2026, Eddie's correction): every family of tools/families.py (Eddie's definitions, his scores from
 rebuild_kit/active_vibrations.py) is scored; nearest target = the family with the highest score; the other families with a score > 0
-are listed beside it ('also'); 'scaled' = best family of 10 v or v / 10 (/10 widens a tolerance 10x in degrees). Ratio values (T12-T15)
+are listed beside it ('also'); 'scaled' = best family of 10 v or v / 10 (/10 widens a tolerance 10x in degrees). Ratio values (T12-T14; T15 removed 15 Oct 2026)
 are scored against Eddie's musical interval list only (tapered tolerances, families.interval_tol): target 'interval · name · group' plus a Group column; per runner a
-'P## RATIOS' sheet (RATIOS BY GROUP: grouped, tightest first) and FIELD 12-15 matrices with the group tag. Colours by score: green >= 80,
+'P## RATIOS' sheet (RATIOS BY GROUP: grouped, tightest first) and FIELD 12-14 matrices with the group tag. Colours by score: green >= 80,
 yellow 50-80, light yellow < 50. No summary totals. Outside every tolerance (13 Oct): the value cell still shows its nearest target
 (by tightness: smallest offset in units of its own tolerance) and offset, e.g. '1 · unison · Perfect — outside ±1 %' / '+1.26300%', plain text. Unison (Perfect 1) counts; every unison carries its field count (runners holding
-unison on the same ratio; it can come from age, e.g. Equator S/H = 1) in the 'also' column, the RATIOS sheet and FIELD 12-15.
+unison on the same ratio; it can come from age, e.g. Equator S/H = 1) in the 'also' column, the RATIOS sheet and FIELD 12-14.
 Jupiter return (13 Oct): when S Jupiter is in conjunction (RA < 1.5 or Dec < 0.3) with a natal Jupiter, that chart's T13 starts with
 'Jupiter return: S-H (S-J) Jupiter RA .. Dec ..' (information). A T12-T14 unison is greyed as 'automatic (Jupiter return)', per plane,
 only when d(S Jupiter, natal Jupiter) / d(natal Jupiter, X) in that plane < 0.0015; all other unisons are genuine.
@@ -23,8 +23,9 @@ Automatic unisons are left out of every field count. A unison with 0.0015 <= d1/
 count unchanged). RATIOS sheets show only groups with hits. T16 (13 Oct 2026, Eddie): RA-Dec crossing, Jupiter-X RA distance in one chart =
 its Dec distance in another (6 orderings), +-0.02, linear score, family of the value beside it; FIELD 16.
 Midpoints (T10, T11, and the midpoint half of T17-T19, SKY EQ, SKY PAIRS; planes RA = the closer of near / far, Dec, Equator = |Dec|
-when the three are not on one side; Eddie, 14 Oct 2026): ratio half = larger / smaller of the two distances against unison 1 %, distance
-half = offset from the midpoint on RA 0.5 / Dec 0.15 / Equator 0.15, both squared; a hit needs both, score = the mean. FIELD 10 and FIELD 11. Sky-leg values also at off + 5 min
+when the three are not on one side; Eddie, 14 Oct 2026, revised): ratio half = closeness (smaller / larger x 100) >= 90 %, distance
+half = offset from the midpoint on RA 0.5 / Dec 0.15 / Equator 0.15, each squared x 0.5; a hit needs both, total = the sum. FIELD 10 and FIELD 11.
+T20 (15 Oct 2026): natal Jupiter as the midpoint of S X and natal X (horse | jockey per body), FIELD 20. Sky-leg values also at off + 5 min
 (engine, as JR v3 section F) with an arrow: toward / away from the nearest target; n/a where the engine does not reproduce a point.
 Planes (14 Oct 2026, Eddie): RA, Dec and Equator only; Flat and GC removed for noise.
 Points and engine from tools/jup2 (imported, not changed). Frozen readers are not changed."""
@@ -430,8 +431,8 @@ def write_mids(ws, row, tid, title, ctx, R, triples, thr=None):
 def runner_sheet(wb, P, R, ctx):
     ws = wb.create_sheet(P)
     ws.cell(row=1, column=1, value=f"{P} {R['name']}").font = BOLD
-    ws.cell(row=2, column=1, value='score (Eddie\'s families): green >= 80, yellow 50-80, light yellow < 50; midpoints: two halves, ratio (unison 1 %) and '
-            'distance from the midpoint (RA 0.5, Dec 0.15, Equator 0.15), a hit needs both, score = the mean; off->+5 = toward / away from the nearest target; scaled = best of 10 v and v / 10 (/10 widens a tolerance 10x in degrees)')
+    ws.cell(row=2, column=1, value='score (Eddie\'s families): green >= 80, yellow 50-80, light yellow < 50; midpoints (T10, T11, T17-T20): two halves, closeness >= 90 % and '
+            'distance from the midpoint (RA 0.5, Dec 0.15, Equator 0.15), each squared x 0.5, a hit needs both, total = the sum; off->+5 = toward / away from the nearest target; scaled = best of 10 v and v / 10 (/10 widens a tolerance 10x in degrees)')
     row = 4
     H, J = R['H'], R['J']
     thr = []                                               # THREADS: every scored hit linking a body with Jupiter
@@ -469,9 +470,10 @@ def runner_sheet(wb, P, R, ctx):
         tri += [(f'S Jupiter / {C} Jupiter | {D} {x}', 'S Jupiter', f'{C} Jupiter', f'{D} {x}')
                 for D in 'HJ' for x in NATAL_BODIES if x in R[D] and not (D == C and x == 'Jupiter')]
     row, field['T11'] = write_mids(ws, row, 'T11', 'midpoints: H Jupiter / J Jupiter with every sky body; S Jupiter / natal Jupiter with every natal body', ctx, R, tri, thr)
-    # T12-T15 ratios (interval list); every scored ratio also goes to the RATIOS BY GROUP sheet and the FIELD 12-15 matrices
+    # T12-T14 ratios (interval list); every scored ratio also goes to the RATIOS BY GROUP sheet and the FIELD 12-14 matrices
+    # (T15 apex ratios removed, Eddie 15 Oct 2026; the other tables keep their numbers)
     rats = []
-    for t in ('T12', 'T13', 'T14', 'T15'):
+    for t in ('T12', 'T13', 'T14'):
         field[t] = {}
 
     field['_uni'] = {}
@@ -529,30 +531,6 @@ def runner_sheet(wb, P, R, ctx):
             keep('T14', f'|Dec| {A} / |Dec| {B}', 'Equator', v0, v5, ev, inv, row, 3)
         row += 1
     row += 1
-    row = header(ws, row, 'T15', 'apex ratios: (Jupiter–X) / (Jupiter–equator) in Dec, X = bodies + royal stars; (Jupiter–royal A) / (Jupiter–royal B)', PLANES)
-    for C in 'SHJ':
-        CH = ctx.S0 if C == 'S' else R[C]
-        for x in [b for b in NATAL_BODIES + ['Moon'] if b in CH and b != 'Jupiter'] + ROYAL:
-            if x not in CH:
-                continue
-            n0, n5 = ctx.pair(R, f'{C} Jupiter', f'{C} {x}', 'Dec'); d0, d5 = ctx.pair(R, f'{C} Jupiter', f'{C} equator', 'Dec')
-            v0, v5, inv = ratio(n0, n5, d0, d5)
-            ws.cell(row=row, column=1, value='T15'); ws.cell(row=row, column=2, value=f'({C} Jupiter–{C} {x}) / ({C} Jupiter–equator){inv}')
-            ev, also, sc = nearest(v0, 'ratio') if v0 else (None, [], None)
-            put_value(ws, row, plane_index('Dec', PLANES), v0, v5, ev, also, sc=sc, ox=('ratio', 'Dec'))
-            if v0:
-                keep('T15', f'({C} Jupiter–{C} {x}) / ({C} Jupiter–equator)', 'Dec', v0, v5, ev, inv, row, plane_index('Dec', PLANES))
-            row += 1
-        for A, B in itertools.combinations(ROYAL, 2):
-            ws.cell(row=row, column=1, value='T15'); ws.cell(row=row, column=2, value=f'({C} Jupiter–{C} {A}) / ({C} Jupiter–{C} {B})')
-            for pl in PLANES:
-                n0, n5 = ctx.pair(R, f'{C} Jupiter', f'{C} {A}', pl); d0, d5 = ctx.pair(R, f'{C} Jupiter', f'{C} {B}', pl)
-                v0, v5, inv = ratio(n0, n5, d0, d5)
-                ev, also, sc = nearest(v0, 'ratio') if v0 else (None, [], None)
-                put_value(ws, row, plane_index(pl, PLANES), v0, v5, ev, also, inv, sc, ox=('ratio', pl))
-                if v0:
-                    keep('T15', f'({C} Jupiter–{C} {A}) / ({C} Jupiter–{C} {B})', pl, v0, v5, ev, inv, row, plane_index(pl, PLANES))
-            row += 1
     row, field['T16'] = write_cross(ws, row, ctx, R)
     nat = [f'{C} {x}' for C in 'HJ' for x in NATAL_BODIES if x in R[C]]         # natal Jupiters included for S Jupiter
     field['T17'] = (equi_hits(ctx, R, 'H Jupiter', [p for p in nat if p[0] == 'H' and p != 'H Jupiter'], 'T17')
@@ -571,6 +549,7 @@ def runner_sheet(wb, P, R, ctx):
     row = write_pairs_rows(ws, row, t19) + 1
     field['T19'] = t19
     field['_pairs'] = allp
+    row, field['T20'] = write_t20(ws, row, ctx, R, thr)
     for (lab, cn), (d, ev) in field['T16'].items():
         x = lab.split('–', 1)[1]
         a, b = cn[0], cn.split('= ')[1][0]
@@ -581,6 +560,101 @@ def runner_sheet(wb, P, R, ctx):
     ws.freeze_panes = 'C4'
     field['_rats'] = rats
     return field
+
+
+T20_BODIES = [x for x in NATAL_BODIES if x != 'Jupiter']   # bodies only: no stars, no Moon (no natal Moon), not Jupiter
+
+
+def write_t20(ws, row, ctx, R, thr=None):
+    """T20 (Eddie, 15 Oct 2026): natal Jupiter as the midpoint of sky X and natal X. Horse: S X / H X | H Jupiter; jockey: S X / J X |
+    J Jupiter; every body X in the sky and in that chart (no stars, no Moon, not Jupiter). Planes RA (closer of near / far), Dec, Equator,
+    on the current midpoint scoring (as T10 / T11, same columns, timing from the off + 5 min). Horse and jockey on one line per body.
+    Every hit goes to THREADS as a Jupiter-X link (as the other midpoints). -> (row, {body: {'H': {plane: line}, 'J': {...}}})"""
+    ws.cell(row=row, column=1, value='T20').font = BOLD
+    ws.cell(row=row, column=2, value='T20 natal Jupiter as the midpoint of sky X and natal X: horse S X / H X | H Jupiter, jockey S X / J X | J Jupiter '
+            '(bodies only, no stars, no Moon, not Jupiter)  [midpoint scoring as T10 / T11: closeness of natal Jupiter\'s distances to S X and natal X '
+            'at least 90 %, ratio half (10 (10 − (100 − closeness)) / 10)² x 0.5; distance half = its signed offset from the midpoint, squared on '
+            'RA ±0.5, Dec ±0.15, Equator ±0.15, x 0.5; a hit needs both, total = the sum; otherwise plain. RA: the closer of the near and far '
+            'midpoint. Equator only when the three are not all on one side. Timing: the ratio toward unison, from the off and +5 min]').font = BOLD
+    row += 1
+    starts, col = {}, 3
+    for C, side in (('H', 'HORSE: S X / H X | H Jupiter'), ('J', 'JOCKEY: S X / J X | J Jupiter')):
+        ws.cell(row=row, column=col, value=side).font = BOLD
+        for pl in MID_PLANES:
+            starts[(C, pl)] = col
+            col += len(MID_HEAD[pl])
+    row += 1
+    ws.cell(row=row, column=1, value='table').fill = HEAD
+    ws.cell(row=row, column=2, value='body').fill = HEAD
+    for (C, pl), c0 in starts.items():
+        for k, h in enumerate(MID_HEAD[pl]):
+            c = ws.cell(row=row, column=c0 + k, value=f'{C} {h}'); c.fill = HEAD; c.font = BOLD
+    row += 1
+    tri = {C: [(f'S {x} / {C} {x} | {C} Jupiter', f'S {x}', f'{C} {x}', f'{C} Jupiter') for x in T20_BODIES if x in R[C] and x in ctx.S0]
+           for C in 'HJ'}
+    data = {C: {pl: mid_rows(ctx, R, tri[C], pl) for pl in MID_PLANES} for C in 'HJ'}
+    out = {}
+    for x in T20_BODIES:
+        if not any(x in R[C] for C in 'HJ') or x not in ctx.S0:
+            continue
+        ws.cell(row=row, column=1, value='T20')
+        ws.cell(row=row, column=2, value=x)
+        out[x] = {'H': {}, 'J': {}}
+        for C in 'HJ':
+            lab = f'S {x} / {C} {x} | {C} Jupiter'
+            for pl in MID_PLANES:
+                h = data[C][pl].get(lab)
+                if not h:
+                    continue
+                out[x][C][pl] = h
+                c0 = starts[(C, pl)]
+                for k, v in enumerate(mid_cells(h, pl)):
+                    ws.cell(row=row, column=c0 + k, value=v)
+                if h['hit']:
+                    n = len(MID_HEAD[pl])
+                    ws.cell(row=row, column=c0).fill = FILL[h['colour']]
+                    ws.cell(row=row, column=c0 + n - 2).fill = FILL[h['colour']]
+                    for k in range(n - 4, n - 1):
+                        ws.cell(row=row, column=c0 + k).number_format = '0.00'
+                    if thr is not None:                    # THREADS: a Jupiter-X link, every midpoint hit counts (as T10 / T11)
+                        ev = {'target': f"{h['side'] + ' ' if h['side'] else ''}midpoint", 'score': h['score'], 'colour': h['colour']}
+                        thread_add(thr, 'T20', 'mid ' + short(lab), (f'S {x}', f'{C} {x}', f'{C} Jupiter'), pl, h['o0'], ev, None)
+        row += 1
+    return row + 1, out
+
+
+def field_t20_sheet(wb, runners, fields):
+    """FIELD 20 (Eddie, 15 Oct 2026): bodies as rows, runners as columns; each T20 hit with its chart, plane and score; runners with a hit k/n"""
+    ws = wb.create_sheet('FIELD 20')
+    ws.cell(row=1, column=1, value='T20 field matrix — natal Jupiter as the midpoint of sky X and natal X (H: S X / H X | H Jupiter; J: S X / J X | '
+            'J Jupiter); per runner every midpoint hit: chart, plane (RA near / far), total; cell coloured by its best hit; last column = runners '
+            'with a hit on that body (k/n)').font = BOLD
+    order = sorted(runners)
+    ws.cell(row=3, column=1, value='body').fill = HEAD
+    for i, P in enumerate(order):
+        c = ws.cell(row=3, column=2 + i, value=f"{P} {runners[P]['name']}"); c.fill = HEAD; c.font = BOLD
+        ws.column_dimensions[openpyxl.utils.get_column_letter(2 + i)].width = 34
+    last = 2 + len(order)
+    c = ws.cell(row=3, column=last, value='runners with a hit'); c.fill = HEAD; c.font = BOLD
+    r = 4
+    for x in T20_BODIES:
+        if not any(x in fields[P]['T20'] for P in order):
+            continue
+        ws.cell(row=r, column=1, value=x).font = BOLD
+        k = 0
+        for i, P in enumerate(order):
+            hits = [(C, pl, h) for C in 'HJ' for pl, h in fields[P]['T20'].get(x, {}).get(C, {}).items() if h['hit']]
+            if not hits:
+                continue
+            k += 1
+            hits.sort(key=lambda t: -t[2]['score'])
+            c = ws.cell(row=r, column=2 + i, value='\n'.join(f"{C} {pl}{' ' + h['side'] if h['side'] else ''} {h['score']:.2f}" for C, pl, h in hits))
+            c.fill = FILL[hits[0][2]['colour']]
+            c.alignment = Alignment(wrap_text=True, vertical='top')
+        ws.cell(row=r, column=last, value=f'{k}/{len(order)}')
+        r += 1
+    ws.column_dimensions['A'].width = 16
+    ws.freeze_panes = 'B4'
 
 
 AUTO_TOL = 0.0015                                          # Eddie's rule (13 Oct), kept when the ratio tolerances tapered
@@ -1121,17 +1195,17 @@ def thread_add(thr, tid, lab, pts, pl, v, ev, sc):
         dirs.add(f'S Jup→{tid == "T5" and "H" or "J"} X')
     if tid in ('T7', 'T8'):
         dirs.add(f'S X→{tid == "T7" and "H" or "J"} Jup')
-    num = lambda v: f'{round(v, 6)}' if tid not in ('T10', 'T11', 'T16') else f'{v:+.6f}'
-    if tid not in ('T10', 'T11', 'T16'):
+    num = lambda v: f'{round(v, 6)}' if tid not in ('T10', 'T11', 'T16', 'T20') else f'{v:+.6f}'
+    if tid not in ('T10', 'T11', 'T16', 'T20'):
         thread_all(thr, tid, lab, pl, v, X, xch, dirs)
         return
     repeat = same_digits(ev, sc)                           # Eddie 13 Oct: a scaled repeat of the main hit - keep the higher, drop the other
     up = repeat and sc['score'] > ev['score'] + KEEP_MARGIN   # main kept unless the scaled form is > 0.5 higher (unrounded; Eddie 14 Oct)
-    if ev and ev.get('score') is not None or tid in ('T10', 'T11') and ev:
-        tgt = ev['target'] if tid in ('T10', 'T11') else 'equal' if tid == 'T16' else ev['target']
+    if ev and ev.get('score') is not None or tid in ('T10', 'T11', 'T20') and ev:
+        tgt = ev['target'] if tid in ('T10', 'T11', 'T20') else 'equal' if tid == 'T16' else ev['target']
         sct = f" ({ev['score']:.2f})" if ev.get('score') is not None else ''
         thr.append({'X': X, 'charts': xch, 'dirs': dirs, 'main': True, 'score': ev.get('score'), 'colour': ev['colour'],
-                    'mid': tid in ('T10', 'T11'), 'hidden': up,   # line not shown (the scaled form scores higher); still counts for tags
+                    'mid': tid in ('T10', 'T11', 'T20'), 'hidden': up,   # line not shown (the scaled form scores higher); still counts for tags
                     'text': f"{lab} {pl + ' ' if pl else ''}{num(v)} → {tgt}{sct} [{tid}]"})
     if sc and (not repeat or up):
         thr.append({'X': X, 'charts': xch, 'dirs': set(), 'main': False, 'score': sc['score'], 'colour': sc['colour'],
@@ -1202,7 +1276,7 @@ COUNTED = ('mutual, same chart', 'mutual, across charts', 'both Jupiters')
 
 def threads_sheet(wb, runners, fields):
     ws = wb.create_sheet('THREADS', wb.sheetnames.index('FIELD 5'))
-    ws.cell(row=1, column=1, value='THREADS: hits inside tolerance linking body X with Jupiter, from T1-T8, T10-T13, T16; a cell lists those '
+    ws.cell(row=1, column=1, value='THREADS: hits inside tolerance linking body X with Jupiter, from T1-T8, T10-T13, T16, T20; a cell lists those '
             'scoring >= 50 (midpoints: every midpoint hit, both halves inside), main first then scaled x10 / /10 (a scaled repeat of the main hit\'s number - same family, same '
             'digits - shown once: the main form unless the scaled one scores > 0.5 higher; tags still use the main hit), best first, then "+ n weaker" (score-0 hits not counted); automatic unisons left out. '
             'Top line: tags from the main hits >= 50 - mutual, same chart (S Jup->H X and S X->H Jup, or the J pair); mutual, across charts '
@@ -1373,10 +1447,10 @@ def field_numbers_sheet(wb, runners, allnums):
 
 
 def ratio_sheet(wb, P, R, rats, uni, n):
-    """RATIOS BY GROUP: every T12-T15 ratio on an interval, grouped (Eddie's group order), tightest (highest score) first;
+    """RATIOS BY GROUP: every T12-T14 ratio on an interval, grouped (Eddie's group order), tightest (highest score) first;
     unison rows carry the field count (runners with unison on the same ratio)"""
     ws = wb.create_sheet(f'{P} RATIOS', wb.sheetnames.index(P) + 1)
-    ws.cell(row=1, column=1, value=f"{P} {R['name']} — RATIOS BY GROUP (T12-T15 ratios on Eddie's interval list, each on its own tolerance; tightest first)").font = BOLD
+    ws.cell(row=1, column=1, value=f"{P} {R['name']} — RATIOS BY GROUP (T12-T14 ratios on Eddie's interval list, each on its own tolerance; tightest first)").font = BOLD
     row = 3
     for g in families.GROUPS:
         if not any(r[5]['group'] == g for r in rats):
@@ -1442,7 +1516,7 @@ def field_sheet(wb, tid, title, runners, fields, planes, mid=False, uni=None):
                 if ev and ev['colour']:
                     c.fill = FILL[ev['colour']]
                 if not ev and tid != 'T16' and v:                 # outside every tolerance: nearest target + offset, plain
-                    near = families.outside(v, pl, 'ratio' if tid in ('T12', 'T13', 'T14', 'T15') else 'deg')
+                    near = families.outside(v, pl, 'ratio' if tid in ('T12', 'T13', 'T14') else 'deg')
                     if near:
                         ws.cell(row=row, column=3 + 2 * i, value=f"{near['target']} {fmt_off(near)} (outside ±{near['tol']:.3g}{' %' if near['pct'] else ''})")
                 if ev:
@@ -1531,11 +1605,11 @@ def main():
                 fields, MID_PLANES, mid=True)
     for tid, title, pls in (('T12', '(S Jupiter–S X) / (natal Jupiter–natal X), intervals', PLANES),
                             ('T13', '(S Jupiter–natal X) / (natal Jupiter–natal X), intervals', PLANES),
-                            ('T14', 'Equator ratios of the three Jupiters, intervals', ('Equator',)),
-                            ('T15', 'apex ratios, intervals', PLANES)):
+                            ('T14', 'Equator ratios of the three Jupiters, intervals', ('Equator',))):
         field_sheet(wb, tid, title, runners, fields, pls, uni=uni)
     field_sheet(wb, 'T16', 'RA–Dec crossing (value = RA − Dec, inside ±0.02)', runners, fields, [cross_name(a, b) for a, b in CROSS])
     field_equi_sheet(wb, runners, fields)
+    field_t20_sheet(wb, runners, fields)
     threads_sheet(wb, runners, fields)
     field_numbers_sheet(wb, runners, {P: sky_nums + fields[P]['_nums'] for P in runners})
     wb.save(out)

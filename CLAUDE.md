@@ -97,12 +97,12 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   layer2 ratios, layer3 every measure per runner, field.txt). Rules, tests and open points: docs/jupiter/README.md. Today's 13 races (12 Oct 2026)
   are run, blind (no results opened).
 - Viewing tool (13 Oct 2026, not a reader): `python3 tools/jupiter_tables.py <race_batch xlsx | reference/classic/<race> folder>` ->
-  race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T15 per runner, field matrices, off and +5 min,
+  race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T14, T16–T20 per runner (T15 removed 15 Oct 2026), field matrices, off and +5 min,
   every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score; ratios on the interval
-  list with Group column, P## RATIOS sheets, FIELD 12–15; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; THREADS, P## NUMBERS and FIELD NUMBERS
+  list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (73/73). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (79/79). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -163,14 +163,29 @@ between / far side; notes "X, Y together" and "(also T17)" (a unison row whose l
 - Timing, one method everywhere (Eddie, 14 Oct): the larger / smaller ratio (orientation fixed at the off) moving linearly toward its
   target interval; T17 and T18 unison timing use it too, so a pair has the same exact time in T17, T18 and T19.
 
+## jupiter_tables: T15 removed, T20 (Eddie, 15 Oct 2026; viewing only)
+- T15 (apex ratios) removed: runner sheets, FIELD 15, P## RATIOS rows, unison field counts. Other tables keep their numbers.
+- T20: natal Jupiter as the midpoint of sky X and natal X. Horse S X / H X | H Jupiter, jockey S X / J X | J Jupiter, every body X in
+  the sky and that chart (no stars, no Moon, not Jupiter). Planes RA (closer of near / far, labelled), Dec, Equator (only when not all on
+  one side), on the midpoint scoring (see Families), T10 / T11 columns per plane, timing from the off and +5 min. One line per body,
+  horse cells | jockey cells. FIELD 20: bodies x runners, each hit as chart, plane, total ('H Dec 70.99'), runners with a hit k/n.
+  THREADS: every T20 hit is a Jupiter–X link (as the other midpoints).
+- Test 16: Lingfield 14:35 2021 P03 T20 S Sun / H Sun | H Jupiter Dec (hand-checked from POSITIONS): Dec 5.028708 / 10.292917 /
+  7.682992, d 2.654284 / 2.609925, offset +0.022180, closeness 98.3287 %, 34.68 + 36.31 = 70.99, applying, exact 17:21 (in 166.5 min).
+- Hits: Lingfield 14:35 2021 4 of 138 lines (H Dec 1, H RA far 1, J Dec 1, J RA far 1: P07 J Mars RA far 83.79, P03 H Sun Dec 70.99,
+  P09 H Ceres RA far 51.24, P07 J Uranus Dec 35.33); Ascot 14:30 2012 0 of 23. Sizes: Lingfield 0.85 + 2.90 MB, Ascot 0.19 + 0.49 MB.
+- Independent checker (15 Oct), from POSITIONS: every T20 cell of both races (Lingfield 720 plane cells, Ascot 124), the 4 hits incl.
+  timing, near-misses (P03 H Mercury Dec −0.242245, P05 H Ceres Equator 0.224967, P11 H Sun RA −0.826292), FIELD 20, THREADS lines,
+  no T15 / FIELD 15: 0 mismatches.
+
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
 same digits (target ×10 or ÷10, e.g. ninth 11.1111 / 1.11111, √2 14.14 / 1.414). Only one form is shown: the main form, unless the
 scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct). Scores are rounded only for display, at 2 dp everywhere
 (T-tables, scaled and also columns, FIELD matrices, THREADS, NUMBERS). Automatic (Jupiter return) unisons are left out.
 - **THREADS** (one sheet, after the runner sheets): rows = bodies (sky bodies incl. Moon, Jupiter excluded, Rahu / Ketu folded as
-  "Nodes"), columns = runners. Hits = every scored hit (inside tolerance) linking body X with Jupiter, from T1–T8, T10–T13 and T16
-  (midpoints T10 / T11 count when green or yellow; scaled hits marked "scaled"; stars, equator and Jupiter–Jupiter left out).
+  "Nodes"), columns = runners. Hits = every scored hit (inside tolerance) linking body X with Jupiter, from T1–T8, T10–T13, T16 and T20
+  (midpoints T10 / T11 / T20: every midpoint hit counts; scaled hits marked "scaled"; stars, equator and Jupiter–Jupiter left out).
   - Cell: hits scoring >= 50, main first then scaled, best first, short form ("S Transpluto→H Jup Dec 33.33254 → 33.3333 (99.05) [T7]"),
     each line coloured by its score; every family hit of the value (main, and ×10 / ÷10 scaled, no conjunction) is a hit, not only the
   best (Eddie, 14 Oct, as NUMBERS); the cell is coloured by its best line; last line "+ n weaker (see T-tables)" = hits < 50, score-0 (at 2 dp) hits and hidden repeats not counted.

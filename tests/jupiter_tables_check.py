@@ -529,5 +529,37 @@ check('no conjunction in the Equator plane (Eddie 15 Oct): no Equator row with a
       'Lingfield P01 H Sun – H Ceres Equator (d(S Jup, H Sun) 0.116879, listed before only for its conj) gone from T19',
       not eqc and not lp9, f'{eqc[:3]} {lp9}')
 
+# Eddie 15 Oct 2026: T15 (apex ratios) removed - no T15 row, no FIELD 15 sheet, no T15 line in RATIOS / THREADS, in any workbook built in this run
+t15 = []
+for f in sorted(glob.glob('reference/classic/race_batch_*_jupiter_tables.xlsx')):
+    if os.path.getmtime(f) < T0:
+        continue
+    w = openpyxl.load_workbook(f, read_only=True)
+    t15 += [(os.path.basename(f), 'FIELD 15')] if 'FIELD 15' in w.sheetnames else []
+    t15 += [(os.path.basename(f), n) for n in w.sheetnames for r in w[n].iter_rows(values_only=True)
+            if r and (r[0] == 'T15' or (len(r) > 1 and r[1] == 'T15') or any(isinstance(v, str) and '[T15' in v for v in r))]
+check('T15 removed (Eddie 15 Oct): no T15 row, no FIELD 15 sheet, no T15 ratio in RATIOS or THREADS', not t15, str(t15[:3]))
+
+# Eddie 15 Oct 2026: T20 natal Jupiter as the midpoint of sky X and natal X (horse | jockey per body), FIELD 20, THREADS
+print('\nTest 16 (Eddie 15 Oct): T20 — Lingfield AW 14:35 2021 P03, S Sun / H Sun | H Jupiter Dec')
+t20 = [r for r in wbl['P03'].iter_rows(values_only=True) if r and r[0] == 'T20' and r[1] == 'Sun']
+check('T20 P03 Sun horse Dec (found by the rule; checked by hand from POSITIONS): Dec S Sun 5.028708, H Sun 10.292917, H Jupiter 7.682992 -> '
+      'd 2.654284 / 2.609925, offset +0.022180, closeness 98.3287 %, ratio half 34.68, distance half 36.31, total 70.99; '
+      'ratio 1.016997 -> 1.016486 at +5 min: applying, exact 17:21 (in 166.5 min)',
+      len(t20) == 1 and t20[0][9:15] == (0.02218, 98.3287, 34.68, 36.31, 70.99, 'applying, exact 17:21 (in 166.5 min)'), str(t20[0][9:15] if t20 else t20))
+hd20 = next(r for r in wbl['P03'].iter_rows(values_only=True) if r and r[0] == 'table' and r[1] == 'body')
+check('T20 layout: one line per body, horse RA (offset, midpoint, closeness, halves, total, timing), Dec, Equator | jockey the same',
+      hd20[2] == 'H RA offset' and hd20[3] == 'H midpoint' and hd20[9] == 'H Dec offset' and hd20[15] == 'H Equator offset'
+      and hd20[21] == 'J RA offset' and hd20[28] == 'J Dec offset' and hd20[34] == 'J Equator offset' and hd20[39] == 'J timing', str(hd20[:41]))
+nb = [r[1] for r in wbl['P03'].iter_rows(values_only=True) if r and r[0] == 'T20' and isinstance(r[1], str) and not r[1].startswith('T20')]
+check('T20 bodies only: no stars, no Moon, not Jupiter; non-hits plain (no total)', nb and not set(nb) & {'Moon', 'Jupiter', 'Regulus', 'Sirius', 'Aldebaran'}
+      and 'Sun' in nb and t20[0][7] is None, f'{len(nb)} bodies')
+f20 = [r for r in wbl['FIELD 20'].iter_rows(values_only=True) if r and r[0] == 'Sun']
+check('FIELD 20: Sun row, P03 column "H Dec 70.99", count 1/6',
+      len(f20) == 1 and f20[0][2] == 'H Dec 70.99' and f20[0][-1] == '1/6', str(f20))
+th20 = [r for r in wbl['THREADS'].iter_rows(values_only=True) if r and r[0] == 'Sun']
+check('THREADS: the T20 hit is a Jupiter–Sun link in P03 (every midpoint hit counts)',
+      th20 and 'mid S Sun / H Sun | H Jup Dec +0.022180 → midpoint (70.99) [T20]' in str(th20[0][2]), str(th20[0][2])[:300] if th20 else '')
+
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
