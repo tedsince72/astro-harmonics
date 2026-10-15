@@ -17,7 +17,8 @@ Eddie's own scoring functions in rebuild_kit/active_vibrations.py are imported (
              (degrees) against the other families only.
              Area A (Eddie, 15 Oct 2026): the whole-number intervals and 3/2 (AREA_A: 1, 3/2, 2, 3, 4, 5, 6, 7, 8, 9) are scored on
              +-0.02 ABSOLUTE (|ratio - interval| < 0.02, as whole-number distances, squared; offset shown in absolute units, no %).
-             Area B = every other interval, tapered % tolerances as above (interval_tol). area(label) -> 'A' / 'B'.
+             Area "φ and √2" (Eddie, 15 Oct 2026; AREA_P: φ, φ², φ³, 1+√2, √2, 1+1/√2), 0.15 % as before.
+             Area B = every other interval, tapered % tolerances as above (interval_tol). area(label) -> 'A' / 'P' / 'B'.
 Outside every tolerance: outside() gives the nearest target and its offset, plain text (nearest by tightness: the smallest offset in
 units of the target's own tolerance, ratios and degrees alike).
 Scores: squared (10 (tol - dev) / tol)^2 for whole, golden, phi powers, sqrt2, silver, conjunction and intervals; linear
@@ -65,9 +66,13 @@ AREA_A = ('1', '3/2', '2', '3', '4', '5', '6', '7', '8', '9')   # Eddie 15 Oct 2
 A_TOL = 0.02                                           # area A: +-0.02 absolute, as whole-number distances
 
 
+AREA_P = ('φ', 'φ²', 'φ³', '1+√2', '√2', '1+1/√2')     # Eddie 15 Oct 2026: area "φ and √2" (0.15 %), between A and B
+AREAS = ('A', 'P', 'B')                                # area order: A, φ and √2, B
+
+
 def area(lab):
-    """'A' (whole + 3/2) or 'B' (every other interval on the list)"""
-    return 'A' if lab in AREA_A else 'B'
+    """'A' (whole + 3/2), 'P' (φ and √2) or 'B' (every other interval on the list)"""
+    return 'A' if lab in AREA_A else 'P' if lab in AREA_P else 'B'
 
 
 def interval_tol(lab):

@@ -288,6 +288,35 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   21 / 22 every cell and k/n, and the Messi check (whole Messi P01 T19, 202 rows): 0 mismatches. Not checked: order inside the PAIRS
   blocks, the T21 sky side.
 
+## jupiter_tables: third area "φ and √2" (Eddie, 15 Oct 2026; viewing only)
+- Area order: A "whole + 3/2" (1, 3/2, 2 … 9, ±0.02 absolute, or a midpoint hit); "φ and √2" (φ, φ², φ³, 1+√2, √2, 1+1/√2; 0.15 % as
+  before; families.AREA_P, families.AREAS = A, P, B); B "other" (every remaining interval, taper); then "no hit" / "no ratio or midpoint
+  hit" as before. Same tables as the A / B split (T12–T14, T19, T21, T22, SKY PAIRS, SKY STARS, P## PAIRS, P## RATIOS, FIELD 12–14 / 21
+  / 22). A row goes once in the highest area it has a hit in (A, then φ and √2, then B): T12 / T13 over RA and Dec, T21 / T22 over horse
+  and jockey sides, T19 / PAIRS over the midpoint (A) and the ratio. Each block title gives its count and "(n carry hits in more than
+  one area)" when n > 0. FIELD sheets: each runner's cell (FIELD 21 / 22: each hit) in its own area's block, k/n per area. RATIOS: A,
+  φ and √2, B, groups in order inside each. THREADS, NUMBERS and the midpoint tables unchanged. Tolerances, scores, listings unchanged
+  (row totals per table as in the A / B entry).
+- Rows per area (A / φ and √2 / B / no hit or all-three-families-only; [m] = rows carrying more than one area, in the A block unless noted):
+  Lingfield 14:35 2021: T12 P01 5[1]/1/7/33, P03 5[1]/1/3/37, P05 4/1/3/38, P07 10/0/4/32, P09 5/0/6/35, P11 4/0/3/39;
+  T13 P01 3/2/2/39, P03 5/0/4/37, P05 8[1]/1/2/35, P07 3/2/2/39, P09 4[1]/0/4/38, P11 5/0/2/39; T14 P01 0/0/0/3, P03 0/0/1/2,
+  P05 0/0/1/2, P07 1/0/1/1, P09 0/1/0/2, P11 0/0/0/3; T19 P01 120/19/99/10, P03 115/12/108/6, P05 112/15/86/4, P07 94/17/98/12,
+  P09 85/21/121/10, P11 103/16/78/4; T21 (A / φ√2 / B) P01 14[1]/5/17, P03 16/1/21, P05 26/0/20, P07 24/3/13, P09 16/3/27,
+  P11 18/4[1, in the φ and √2 block]/16; T22 P01 2/0/5/59, P03 5/0/7/54, P05 3/3/7/53, P07 11[1]/0/10/38, P09 4/0/6/49, P11 11[2]/0/2/53;
+  RATIOS P01 8/3/10, P03 10/1/9, P05 12/2/7, P07 14/2/7, P09 9/1/11, P11 9/0/6; PAIRS P01 280/36/208/3969, P03 274/32/215/4008,
+  P05 262[1]/30/198/4056, P07 248/34/218/3971, P09 229/41/235/3888, P11 234/35/184/4032; SKY PAIRS 34/6/29/7; SKY STARS 37/5/27/2;
+  FIELD 12 RA 12/1/13/46, Dec 16/2/12/46; FIELD 13 RA 8/4/9/46, Dec 16/1/10/46; FIELD 14 1/1/3/3; FIELD 21 94/17/92; FIELD 22 19/3/19.
+  Ascot 14:30 2012 (P01): T12 3/1/2/40, T13 3/0/3/40, T14 0/0/0/3, T19 105[1]/24/127/9, T21 15[2]/2/27, T22 6/2/5/53, RATIOS 6/1/5,
+  PAIRS 238[2]/46/249/3895, SKY PAIRS 25/3/28/12, SKY STARS 22/8/19/7; FIELD 12 RA 0/1/2/43, Dec 3/0/0/43; FIELD 13 RA 1/0/1/44,
+  Dec 2/0/2/42; FIELD 14 0/0/0/3; FIELD 21 15/2/28; FIELD 22 6/2/5.
+- Tests 92/92: test 19 now checks three areas (every φ and √2 row a φ / √2 hit and no A hit; every B row no A or φ / √2 hit) and the
+  "carry hits in more than one area" counts in every block title; test 14's block reader knows the new area. No expected value changed.
+- Independent checker (15 Oct), Lingfield P07 from POSITIONS (own interval, area and midpoint code): every T12–T14 cell (187), every
+  T19 row (221) with completeness (A 94 / φ√2 17 / B 98 / 12 all-three-families), every P07 PAIRS row (4,471), every T21 / T22 side
+  (238, incl. the T21 sky side), P07 RATIOS (23), every cell and k/n of FIELD 12–14 / 21 / 22, SKY PAIRS (76 rows, completeness); the
+  "more than one area" title counts of all 6 runners: 0 mismatches. Open point (Eddie): a T21 side counted by its midpoint whose ratio
+  scores under 50 - the ratio's area is not counted (rule as built); counting it would change only P05 T21 A (1 multi-area row instead of 0).
+
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
 same digits (target ×10 or ÷10, e.g. ninth 11.1111 / 1.11111, √2 14.14 / 1.414). Only one form is shown: the main form, unless the
@@ -319,6 +348,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **Third area "φ and √2" (15 Oct 2026, Eddie):** between area A and area B, same tables; see its section. Tests 92/92.
 - **Areas A / B (15 Oct 2026, Eddie):** area A intervals (1, 3/2, 2, 3 … 9) on ±0.02 absolute; every ratio table split into area A,
   area B (and no hit). See the section "jupiter_tables: areas A / B". Tests 92/92.
 - **THREADS midpoint cut (15 Oct 2026, Eddie):** midpoint hits (T10, T11, T20) count only at total >= 50, like every hit. Lingfield

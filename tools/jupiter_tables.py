@@ -29,8 +29,9 @@ T20 (15 Oct 2026): natal Jupiter as the midpoint of S X and natal X (horse | joc
 (engine, as JR v3 section F) with an arrow: toward / away from the nearest target; n/a where the engine does not reproduce a point.
 Planes (14 Oct 2026, Eddie): RA, Dec and Equator only; Flat and GC removed for noise.
 Areas (Eddie, 15 Oct 2026): every ratio table (T12-T14, T19, T21, T22, SKY PAIRS, SKY STARS, P## PAIRS, P## RATIOS, FIELD 12-14, 21, 22)
-in blocks: area A "whole + 3/2" (an A interval, or a midpoint hit), area B "other" (a B interval), then no hit where every row is listed;
-each row once (A first), order inside a block as before.
+in blocks: area A "whole + 3/2" (an A interval, or a midpoint hit), area "φ and √2" (φ, φ², φ³, 1+√2, √2, 1+1/√2), area B "other"
+(a B interval), then no hit where every row is listed; each row once, in the highest area it has a hit in (A, φ and √2, B; the block
+title counts rows with hits in more than one area), order inside a block as before.
 Points and engine from tools/jup2 (imported, not changed). Frozen readers are not changed."""
 import argparse, glob, os, re, sys, itertools, math, datetime
 import openpyxl
@@ -219,20 +220,30 @@ def ratio(n0, n5, d0, d5):
 
 # ---------------- areas (Eddie, 15 Oct 2026): every ratio table split into area A "whole + 3/2" and area B "other"
 AREA_NAME = {'A': 'AREA A "whole + 3/2" (intervals 1, 3/2, 2, 3, 4, 5, 6, 7, 8, 9 on ±0.02 absolute, or a midpoint hit: a midpoint is a unison)',
+             'P': 'AREA φ AND √2 (φ, φ², φ³, 1+√2, √2, 1+1/√2 on 0.15 %)',
              'B': 'AREA B "other" (every other interval on the list, tapered % tolerances)',
              None: 'NO HIT'}
 
 
 def hit_area(ev, mid=False):
-    """'A' for an A interval or a midpoint hit, 'B' for a B interval, None without a hit"""
+    """'A' for an A interval or a midpoint hit, 'P' for a φ / √2 interval, 'B' for a B interval, None without a hit"""
     if mid:
         return 'A'
     return families.area(ev['target']) if ev and ev.get('family', 'interval') == 'interval' else None
 
 
 def row_area(areas):
-    """a row with several cells / sides: A if any is A, else B if any is B, else None (each row once)"""
-    return 'A' if 'A' in areas else 'B' if 'B' in areas else None
+    """a row with several cells / sides / hits: the highest area present, A, then φ and √2, then B, else None (each row once)"""
+    return next((a for a in families.AREAS if a in areas), None)
+
+
+def multi(areas):
+    """the row carries hits in more than one area"""
+    return len({a for a in areas if a}) > 1
+
+
+def multi_text(n):
+    return f' ({n} carry hits in more than one area)' if n else ''
 
 
 # ---------------- writing
@@ -564,13 +575,12 @@ def runner_sheet(wb, P, R, ctx):
             ws.cell(row=row, column=1, value=tid)
             ws.cell(row=row, column=2, value=t).font = BOLD
             row += 1
-        by = {'A': [], 'B': [], None: []}
+        by = {a: [] for a in families.AREAS + (None,)}
         for lab, cells in lines:
             by[row_area([hit_area(c[3]) for c in cells.values()])].append((lab, cells))
-        for a in ('A', 'B', None):
-            mixed = sum(1 for _, cells in by[a] if 'B' in [hit_area(c[3]) for c in cells.values()]) if a == 'A' else 0
-            row = header(ws, row, tid, f'{title} — {AREA_NAME[a]}: {len(by[a])} rows'
-                         + (f' ({mixed} also carry an area B hit in another plane)' if mixed else ''), planes)
+        for a in families.AREAS + (None,):
+            mixed = sum(1 for _, cells in by[a] if multi([hit_area(c[3]) for c in cells.values()]))
+            row = header(ws, row, tid, f'{title} — {AREA_NAME[a]}: {len(by[a])} rows' + multi_text(mixed), planes)
             for lab, cells in by[a]:
                 ws.cell(row=row, column=1, value=tid)
                 for pl, (v0, v5, inv, ev, also, sc) in cells.items():
@@ -740,13 +750,14 @@ def write_t21(ws, row, ctx, R):
     row += 1
     out = []
     # areas (Eddie, 15 Oct 2026): a line goes in A if a counted side (not together) has an A interval (>= 50) or a midpoint hit, else B
-    side_area = lambda h: (hit_area(h['ev'] if h['ev'] and h['ev']['score'] >= T21_RMIN else None, h['mid'] is not None)
-                           if ok(h) else None)
-    larea = lambda v: row_area([side_area(v.get(C)) for C in 'HJ'])
-    blocks = [(a, [kv for kv in lines if larea(kv[1]) == a]) for a in ('A', 'B')]
+    side_areas = lambda h: ([hit_area(h['ev'] if h['ev'] and h['ev']['score'] >= T21_RMIN else None), hit_area(None, h['mid'] is not None)]
+                            if ok(h) else [])
+    sareas = lambda v: [x for C in 'HJ' for x in side_areas(v.get(C))]
+    larea = lambda v: row_area(sareas(v))
+    blocks = [(a, [kv for kv in lines if larea(kv[1]) == a]) for a in families.AREAS]
     seq = []
     for a, blk in blocks:
-        seq.append(('title', f'T21 {AREA_NAME[a]}: {len(blk)} lines'))
+        seq.append(('title', f'T21 {AREA_NAME[a]}: {len(blk)} lines' + multi_text(sum(multi(sareas(kv[1])) for kv in blk))))
         seq += [('line', kv) for kv in blk]
         seq.append(('gap', None))
     for kind, item in seq:
@@ -833,11 +844,12 @@ def write_t22(ws, row, ctx, R):
             if any(v.values()):
                 allv.append((star, pl, v))
     # areas (Eddie, 15 Oct 2026): A (an A interval or a midpoint hit on either side), B (a B interval), no hit; order as before
-    larea = lambda v: row_area([hit_area(h['ev'], h['mid'] is not None) for h in v.values() if h])
+    sareas = lambda v: [x for h in v.values() if h for x in (hit_area(h['ev']), hit_area(None, h['mid'] is not None))]
+    larea = lambda v: row_area(sareas(v))
     seq = []
-    for a in ('A', 'B', None):
+    for a in families.AREAS + (None,):
         blk = [x for x in allv if larea(x[2]) == a]
-        seq.append((None, f'T22 {AREA_NAME[a]}: {len(blk)} lines', None))
+        seq.append((None, f'T22 {AREA_NAME[a]}: {len(blk)} lines' + multi_text(sum(multi(sareas(x[2])) for x in blk)), None))
         seq += blk
         seq.append((None, None, None))
     for star, pl, v in seq:
@@ -914,7 +926,7 @@ def field_star_sheet(wb, tid, title, runners, fields, rmin=0.0):
                     side = f" {h['m']['side']}" if h['m']['side'] else ''
                     hits.setdefault(key, []).append(('A', h['mid'], h['m']['colour'], f"{C} {line['plane']}{side} midpoint ({h['mid']:.2f})"))
     r = 4
-    for a in ('A', 'B'):                                   # areas (Eddie, 15 Oct 2026): A (A interval or midpoint), B; k/n per area
+    for a in families.AREAS:                               # areas (Eddie, 15 Oct 2026): A (A interval or midpoint), φ and √2, B; k/n per area
         rows = [key for key in keys if any(t[0] == a for P in order for t in hits.get((key, P), []))]
         ws.cell(row=r, column=1, value=f'{AREA_NAME[a]}: {len(rows)} rows').font = BOLD
         r += 1
@@ -1371,22 +1383,26 @@ def write_pairs_rows(ws, row, rows):
     return row
 
 
+def pair_areas(h):
+    return [hit_area(h['ev']), hit_area(None, h['mid'] is not None)]
+
+
 def pair_area(h):
-    return hit_area(h['ev'], h['mid'] is not None)
+    return row_area(pair_areas(h))
 
 
 def write_pair_blocks(ws, row, title, rows, tid, every=False):
-    """T19, SKY PAIRS, SKY STARS, P## PAIRS in area blocks (Eddie, 15 Oct 2026): A (an A interval or a midpoint hit), B (a B interval),
+    """T19, SKY PAIRS, SKY STARS, P## PAIRS in area blocks (Eddie, 15 Oct 2026): A (an A interval or a midpoint hit), φ and √2, B (a B interval),
     then the rest - P## PAIRS (every row): "no hit"; filtered tables: rows listed only for all three distances with a family hit.
     Order inside each block as before."""
     ws.cell(row=row, column=1, value=title).font = BOLD
     row += 1
     rest = 'NO HIT' if every else 'NO RATIO OR MIDPOINT HIT (listed for all three distances with a family hit)'
-    for a in ('A', 'B', None):
+    for a in families.AREAS + (None,):
         blk = [h for h in rows if pair_area(h) == a]
         if a is None and not blk and not every:
             continue
-        row = pairs_header(ws, row, f'{tid} {AREA_NAME[a] if a else rest}: {len(blk)} rows')
+        row = pairs_header(ws, row, f'{tid} {AREA_NAME[a] if a else rest}: {len(blk)} rows' + multi_text(sum(multi(pair_areas(h)) for h in blk)))
         row = write_pairs_rows(ws, row, blk) + 1
     return row
 
@@ -1846,9 +1862,9 @@ def ratio_sheet(wb, P, R, rats, uni, n):
     unison rows carry the field count (runners with unison on the same ratio)"""
     ws = wb.create_sheet(f'{P} RATIOS', wb.sheetnames.index(P) + 1)
     ws.cell(row=1, column=1, value=f"{P} {R['name']} — RATIOS BY GROUP (T12-T14 ratios on Eddie's interval list, each on its own tolerance; "
-            "area A then area B (Eddie, 15 Oct 2026), groups in order inside each area; tightest first)").font = BOLD
+            "area A, then φ and √2, then area B (Eddie, 15 Oct 2026), groups in order inside each area; tightest first)").font = BOLD
     row = 3
-    for ar, g in [(a, g) for a in ('A', 'B') for g in families.GROUPS]:
+    for ar, g in [(a, g) for a in families.AREAS for g in families.GROUPS]:
         if g == families.GROUPS[0]:
             n_ar = sum(1 for r in rats if families.area(r[5]['target']) == ar)
             ws.cell(row=row, column=1, value=f'{AREA_NAME[ar]}: {n_ar} ratios').font = BOLD
@@ -1877,11 +1893,11 @@ def ratio_sheet(wb, P, R, rats, uni, n):
 
 
 def field_ratio_sheet(wb, tid, title, runners, fields, planes, uni):
-    """FIELD 12-14 in areas (Eddie, 15 Oct 2026): per plane, area A, area B and no hit; a runner's cell goes in the block of its own
+    """FIELD 12-14 in areas (Eddie, 15 Oct 2026): per plane, area A, φ and √2, area B and no hit; a runner's cell goes in the block of its own
     hit (each cell once); rows = labels with at least one cell in that block; last column = runners with a hit in that area (k/n;
     automatic unisons not counted)"""
     ws = wb.create_sheet(f'FIELD {tid[1:]}')
-    ws.cell(row=1, column=1, value=f'{tid} field matrix — {title}; per runner: value (coloured), nearest target + offset; area A, area B, '
+    ws.cell(row=1, column=1, value=f'{tid} field matrix — {title}; per runner: value (coloured), nearest target + offset; area A, φ and √2, area B, '
             'no hit (Eddie, 15 Oct 2026), each runner\'s cell in the block of its own hit; k/n = runners with a hit in that area').font = BOLD
     order = sorted(runners)
     last = 2 + 2 * len(order)
@@ -1896,12 +1912,12 @@ def field_ratio_sheet(wb, tid, title, runners, fields, planes, uni):
             for k in [k[0] for k in fields[P][tid] if k[1] == pl]:
                 if k not in labels:
                     labels.append(k)
-        for a in ('A', 'B', None):
+        for a in families.AREAS + (None,):
             cell_of = lambda P, lab: fields[P][tid].get((lab, pl))
             rows = [lab for lab in labels if any(cell_of(P, lab) and hit_area(cell_of(P, lab)[1]) == a for P in order)]
             ws.cell(row=row, column=1, value=f'{pl} — {AREA_NAME[a]}: {len(rows)} rows').font = BOLD
             if a:
-                c = ws.cell(row=row, column=last, value=f'runners with an area {a} hit'); c.fill = HEAD; c.font = BOLD
+                c = ws.cell(row=row, column=last, value=f"runners with a hit in {AREA_NAME[a].split(' (')[0]}"); c.fill = HEAD; c.font = BOLD
             row += 1
             for lab in rows:
                 ws.cell(row=row, column=1, value=lab)

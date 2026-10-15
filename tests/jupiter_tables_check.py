@@ -46,7 +46,7 @@ Same day: each family hit split into a value cell and a family cell (coloured by
 T19 / PAIRS H–J across = same body only; T18 never a 'together' plane as the closest plane.
 Test 13 (Eddie 14 Oct): T18 - equidistance pair side by side for horse and jockey (block 1 S Jupiter, block 2 natal Jupiters);
 'both' tag and count. Test 14: T19 sky Jupiter on natal pairs, P## PAIRS, SKY STARS. (No Messi workbook in the repo: that check skipped.)"""
-import os, subprocess, sys
+import os, re, subprocess, sys
 import openpyxl
 from openpyxl.cell.rich_text import CellRichText
 
@@ -416,7 +416,7 @@ def blocks(ws, tid):
     out, cur = {}, None
     for r in ws.iter_rows(values_only=True):
         if r and isinstance(r[0], str) and r[0].startswith(tid + ' ') and ': ' in r[0]:
-            cur = 'A' if 'AREA A' in r[0] else 'B' if 'AREA B' in r[0] else 'rest'
+            cur = 'A' if 'AREA A' in r[0] else 'P' if 'AREA φ' in r[0] else 'B' if 'AREA B' in r[0] else 'rest'
         elif r and r[0] == tid:
             out.setdefault(cur, []).append(r)
     return out
@@ -658,36 +658,45 @@ check('T21 "same as sky" never on d(A, B)', not any(len(r) > 57 and r[57] and 'd
 
 # Eddie 15 Oct 2026: every ratio table split into area A "whole + 3/2" (1, 3/2, 2, 3 ... 9 on ±0.02 absolute, or a midpoint hit) and
 # area B "other" (every other interval); "no hit" at the bottom where every row is listed
-print('\nTest 19 (Eddie 15 Oct): areas A / B — Lingfield AW 14:35 2021 (every runner) and Ascot 14:30 2012')
-AA = set(families.AREA_A)
+print('\nTest 19 (Eddie 15 Oct): areas A / φ and √2 / B — Lingfield AW 14:35 2021 (every runner) and Ascot 14:30 2012')
+AA, AP = set(families.AREA_A), set(families.AREA_P)    # 15 Oct 2026: third area "φ and √2" between A and B
 iv = lambda t: str(t).split(' ')[0]                    # '4 · double octave · Perfect' -> '4'
+iarea = lambda lab: 'A' if lab in AA else 'P' if lab in AP else 'B'
+tarea = lambda t: 'A' if 'AREA A' in t else 'P' if 'AREA φ' in t else 'B' if 'AREA B' in t else 'rest'
 
 
 def side_area(tgt, score, mid, rmin=0.0):
-    if mid is not None:
-        return 'A'
+    """every area a cell / side has a hit in: the midpoint (A) and the ratio"""
+    out = ['A'] if mid is not None else []
     if score is not None and score >= rmin:
-        return 'A' if iv(tgt) in AA else 'B'
-    return None
+        out.append(iarea(iv(tgt)))
+    return out
 
 
 def row_ar(areas):
-    return 'A' if 'A' in areas else 'B' if 'B' in areas else 'rest'
+    """-> (highest area A, φ and √2 (P), B, or 'rest'; hits in more than one area)"""
+    areas = [a for x in areas for a in x]
+    return next((a for a in ('A', 'P', 'B') if a in areas), 'rest'), len(set(areas)) > 1
 
 
 def walk(ws, tids, row_area, title=lambda r: None):
     """-> (n data rows, [mismatches]): block from the title rows, area of each data row from its own cells"""
-    cur, n, bad, seen = None, 0, [], set()
+    cur, n, bad, seen, nm, tm = None, 0, [], set(), 0, 0
     for r in ws.iter_rows(values_only=True):
         if not r:
             continue
         t = title(r)
         if t is None:
             for v in r[:2]:
-                if isinstance(v, str) and ': ' in v and ('AREA A' in v or 'AREA B' in v or 'NO HIT' in v or 'NO RATIO' in v):
+                if isinstance(v, str) and ': ' in v and ('AREA ' in v or 'NO HIT' in v or 'NO RATIO' in v) \
+                        and any(v.startswith(x + ' ') for x in tids):    # this table's block titles only
                     t = v
         if t:
-            cur = 'A' if 'AREA A' in t else 'B' if 'AREA B' in t else 'rest'
+            if nm != tm:                               # the previous block title's "n carry hits in more than one area"
+                bad.append((ws.title, 'multi count', cur, tm, nm))
+            cur = tarea(t)
+            m = re.search(r'\((\d+) carry hits in more than one area\)', t)
+            nm, tm = 0, int(m.group(1)) if m else 0
             seen.add(cur)
             continue
         if r[0] in tids and isinstance(r[1], str):
@@ -695,8 +704,12 @@ def walk(ws, tids, row_area, title=lambda r: None):
             if a == 'skip':                            # a table's main title row
                 continue
             n += 1
+            a, mu = a
+            nm += mu
             if a != cur:
                 bad.append((ws.title, r[0], r[1], r[2] if len(r) > 2 else None, cur, a))
+    if nm != tm:
+        bad.append((ws.title, 'multi count', cur, tm, nm))
     return n, bad, seen
 
 
@@ -722,10 +735,10 @@ for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_table
         rr, cur = list(w[f'{n} RATIOS'].iter_rows(values_only=True)), None
         for x in rr:
             if isinstance(x[0], str) and x[0].startswith('AREA'):
-                cur = x[0][5]
+                cur = tarea(x[0])
             elif x[1] in ('T12', 'T13', 'T14') and x[6]:
                 tot['RATIOS'] = tot.get('RATIOS', 0) + 1
-                if ('A' if x[6] in AA else 'B') != cur:
+                if iarea(x[6]) != cur:
                     res.append((n + ' RATIOS', x[2], x[3], x[6], cur))
         k, b, _ = walk(pw[n + ' PAIRS'], ('PAIRS',), pairs)
         tot['PAIRS'] = tot.get('PAIRS', 0) + k
@@ -737,7 +750,7 @@ for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_table
         cur = None
         for r in w[fs].iter_rows(min_row=3, values_only=True):
             if r and isinstance(r[0], str) and ('AREA' in r[0] or 'NO HIT' in r[0]) and ': ' in r[0]:
-                cur = 'A' if 'AREA A' in r[0] else 'B' if 'AREA B' in r[0] else 'rest'
+                cur = tarea(r[0])
                 continue
             if not r or not r[0] or cur is None:
                 continue
@@ -747,13 +760,14 @@ for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_table
                 for line in c.split('\n'):
                     tot[fs] = tot.get(fs, 0) + 1
                     if fs in ('FIELD 21', 'FIELD 22'):
-                        a = 'A' if 'midpoint' in line else ('A' if line.split(' ')[2] in AA else 'B')
+                        a = 'A' if 'midpoint' in line else iarea(line.split(' ')[2])
                     else:
-                        a = 'rest' if 'outside' in line else ('A' if line.split(' ')[0] in AA else 'B')
+                        a = 'rest' if 'outside' in line else iarea(line.split(' ')[0])
                     if a != cur:
                         res.append((fs, r[0], line, cur, a))
-check('every area A row has an A interval (1, 3/2, 2, 3 ... 9) or a midpoint hit, every area B row a B interval (and no A hit), every '
-      'no-hit row neither (T12-T14, T19, T21 counted sides >= 50, T22, SKY PAIRS, SKY STARS, P## PAIRS, P## RATIOS, FIELD 12-14 / 21 / 22 cells)',
+check('every area A row has an A interval (1, 3/2, 2, 3 ... 9) or a midpoint hit, every φ and √2 row a φ / √2 interval and no A hit, '
+      'every area B row a B interval (and no A or φ / √2 hit), every no-hit row neither; block titles count the rows with hits in more than one area; '
+      '(15 Oct: third area φ and √2) (T12-T14, T19, T21 counted sides >= 50, T22, SKY PAIRS, SKY STARS, P## PAIRS, P## RATIOS, FIELD 12-14 / 21 / 22 cells)',
       not res and all(tot.values()), f'{tot}; mismatches {res[:5]}')
 
 print(f'\n{sum(RES)}/{len(RES)} passed')
