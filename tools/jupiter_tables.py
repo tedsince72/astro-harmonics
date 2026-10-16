@@ -38,6 +38,7 @@ is none), its area, and "same as sky" (same number on the same leg incl. d(X, Y)
 16 Oct 2026 (Eddie): SKY block timing columns (best and scaled hit, per plane); royal-star-only tables after the full ones, every line:
 T21R, T22R (runner sheets), SKY ROYAL (SKY JUPITER), FIELD 21R / 22R.
 TIMELINE (16 Oct 2026): at the end of SKY JUPITER, every sky Jupiter event on that sheet exact from the off - 30 to + 60 min, in time order.
+TIMELINE H / J (16 Oct 2026): at the end of each runner sheet, the same for every timed relationship involving that chart (T5-T22).
 Points and engine from tools/jup2 (imported, not changed). Frozen readers are not changed."""
 import argparse, glob, os, re, sys, itertools, math, datetime
 import openpyxl
@@ -475,7 +476,7 @@ def mid_rows(ctx, R, triples, plane):
         p5 = [ctx.pos(R, p, 5) for p in (e1, e2, m)] if sky else None
         h = mid_line(ctx, (p0, None if p5 is None or None in p5 else p5, sky), plane)
         if h:
-            out[label] = h
+            out[label] = dict(h, pts=(e1, e2, m))          # TIMELINE H / J (16 Oct): the ends and the middle point
     return out
 
 
@@ -686,6 +687,15 @@ def runner_sheet(wb, P, R, ctx):
     row, field['T22'] = write_t22(ws, row, ctx, R)
     row, field['T21R'] = write_t21(ws, row + 1, ctx, R, royal=True)    # royal stars only (Eddie 16 Oct), after the full tables
     row, field['T22R'] = write_t22(ws, row + 1, ctx, R, royal=True)
+    tl = runner_timeline(ctx, R, field)                    # TIMELINE H / J (Eddie, 16 Oct 2026), after the other tables
+    for C, who in (('H', 'horse'), ('J', 'jockey')):
+        row = write_timeline(ws, row + 1, ctx, tl[C], f'TIMELINE {C}',
+                             f"TIMELINE {C} (Eddie, 16 Oct 2026): every timed relationship involving the {who}'s chart ({C}) whose exact time falls from "
+                             'the off − 30 min to the off + 60 min (T5–T8, T10, T11, T12–T14, T16, T17, T18, T19, T20, T22), linear from the off and the '
+                             'off + 5 min as everywhere; "outside at the off" = not a hit at the off; sky-only and natal-only (fixed) relationships, '
+                             'together rows, automatic unisons and x10 / /10 repeats left out; each event once (other tables in the note); "H + J" = '
+                             'uses both charts, in both timelines')
+    field['_tl'] = tl
     for (lab, cn), (d, ev) in field['T16'].items():
         x = lab.split('–', 1)[1]
         a, b = cn[0], cn.split('= ')[1][0]
@@ -866,7 +876,7 @@ def t22_line(ctx, R, star, C, pl):
     ev = families.best(r0, None, 'ratio')
     near = ev or families.outside(r0, None, 'ratio')
     m = jup_mid(ctx, R, st, sj, cj, pl, d1, d2) if 100.0 / r0 >= 100.0 - MID_RTOL else None
-    return {'d1': d1, 'f1': eq_family(ctx, d1, d15, pl), 'd2': d2, 'f2': eq_family(ctx, d2, d25, pl), 'r0': r0, 'r5': r5, 'ev': ev,
+    return {'d1': d1, 'f1': eq_family(ctx, d1, d15, pl), 'd2': d2, 'd25': d25, 'f2': eq_family(ctx, d2, d25, pl), 'r0': r0, 'r5': r5, 'ev': ev,
             'near': near, 'timing': exact_time(ctx, r0, r5, near['tv']) if r5 != 'n/a' else 'n/a (rate)', 'm': m,
             'mid': m['score'] if m and m['hit'] else None}
 
@@ -1607,14 +1617,184 @@ def timeline(ctx, R0, eq, sources):
     return sorted(ev_by.values(), key=lambda e: e['t'])
 
 
-def write_timeline(ws, row, ctx, evs):
+def runner_timeline(ctx, R, field):
+    """TIMELINE H / J (Eddie, 16 Oct 2026): every timed relationship of a runner sheet that involves the horse's (H) or the jockey's (J)
+    chart, exact from the off - 30 to + 60 min, built as the sky TIMELINE: T5-T8 distances (best hit, scaled hit unless a repeat, or the
+    nearest target outside at the off), T10 / T11 midpoint hits, T12-T14 ratios (interval or nearest interval; scaled unless a repeat;
+    automatic unisons left out), T16 crossings (RA - Dec -> 0), T17 / T18 S Jupiter equidistance hits, T19 rows (ratio, midpoint, each leg
+    with a sky leg and a family hit), T20 midpoint hits, T22 ratio, midpoint and the d(star, natal Jupiter) leg. Sky-only and natal-only
+    (fixed) relationships, together rows and repeats left out; each event once (the first table named, later ones in the note); an event
+    using both charts goes to both, marked 'H + J'. -> {'H': [events], 'J': [events]}"""
+    ev_by = {}
+
+    def add(key, t, pts, **e):
+        ch = {p[0] for p in pts} - {'S'}
+        if not ch or t is None or not TL_WIN[0] <= t <= TL_WIN[1]:
+            return
+        if key in ev_by:
+            o = ev_by[key]
+            if e['src'] != o['src'] and e['src'] not in o['also']:
+                o['also'].append(e['src'])
+            return
+        ev_by[key] = dict(e, t=t, also=[], charts=ch, both=len(ch) == 2)
+
+    def dist(src, a, b, pl, v0, v5, d, hit, scale=None):
+        if v5 in (None, 'n/a') or not d:
+            return
+        f = 1.0 if scale is None else (10.0 if scale == 'x10' else 0.1)
+        kp = pl
+        if pl == 'Equator' and (ctx.pos(R, a, 0)[1] >= 0) == (ctx.pos(R, b, 0)[1] >= 0):
+            kp = 'Dec'                                     # both on one side: the Equator distance is the Dec distance
+        add(('d', frozenset((a, b)), kp, tl_key(d)), exact_t(v0 * f, v5 * f, d['tv']), (a, b), src=src, rel=f'{a} → {b}', plane=pl,
+            kind='distance' + (f' (scaled {scale})' if scale else ''), target=tlabel(d), tv=d['tv'], v0=v0 * f,
+            score=d['score'] if hit else None, colour=d['colour'] if hit else '', out=not hit)
+
+    def cell(src, a, b, pl, kind):                         # a T5-T8 cell: best, scaled, or the nearest target outside
+        v0, v5 = ctx.pair(R, a, b, pl)
+        if v0 is None:
+            return
+        ev, also, sc = nearest(v0, kind, pl)
+        if ev:
+            dist(src, a, b, pl, v0, v5, ev, True)
+        else:
+            dist(src, a, b, pl, v0, v5, families.outside(v0, pl, 'deg'), False)
+        if sc and not same_digits(ev, sc):
+            dist(src, a, b, pl, v0, v5, sc, True, scale=sc['scale'])
+
+    def iv_text(d):
+        return f"{tlabel(d)} (area {SKY_AREA[families.area(d['target'])]})" if d['family'] == 'interval' else tlabel(d)
+
+    def rat(src, lab, pts, pl, v0, v5, ev, sc, kind):
+        if v5 in (None, 'n/a') or v0 is None:
+            return
+        if ev and ev.get('auto'):                          # automatic (Jupiter return) unison: left out
+            ev = None
+            near = None
+        else:
+            near = ev or families.outside(v0, None, kind)
+        for d, hit, scale in ((near, bool(ev), None), (sc if sc and not same_digits(ev, sc) else None, True, sc and sc['scale'])):
+            if not d:
+                continue
+            f = 1.0 if scale is None else (10.0 if scale == 'x10' else 0.1)
+            add(('q', src, lab, pl, d['target'], scale), exact_t(v0 * f, v5 * f, d['tv']), pts, src=src, rel=lab, plane=pl,
+                kind='ratio' + (f' (scaled {scale})' if scale else ''), target=iv_text(d), tv=d['tv'], v0=v0 * f,
+                score=d['score'] if hit else None, colour=d['colour'] if hit else '', out=not hit)
+
+    def uni(src, mid, ends, pl, q0, q5, score, colour, rel):    # a midpoint: the larger / smaller ratio toward unison
+        if q0 is None or q5 in (None, 'n/a'):
+            return
+        add(('r', mid, frozenset(ends), pl, '1'), exact_t(q0, q5, 1.0), (mid,) + tuple(ends), src=src, rel=rel, plane=pl,
+            kind='midpoint', target='1 · unison · midpoint (area A)', tv=1.0, v0=q0, score=score, colour=colour, out=False)
+
+    def pratio(src, mid, ends, pl, r0, r5, near, ev, rel):     # a pair ratio toward its interval (hit) or its nearest interval
+        if r5 in (None, 'n/a'):
+            return
+        add(('r', mid, frozenset(ends), pl, near['target']), exact_t(r0, r5, near['tv']), (mid,) + tuple(ends), src=src, rel=rel,
+            plane=pl, kind='ratio', target=iv_text(near), tv=near['tv'], v0=r0, score=ev['score'] if ev else None,
+            colour=ev['colour'] if ev else '', out=not ev)
+
+    for tid, C in (('T5', 'H'), ('T6', 'J')):              # T5-T8 distances
+        for x in NATAL_BODIES:
+            if x in R[C] and x != 'Jupiter':
+                for pl in PLANES:
+                    cell(tid, 'S Jupiter', f'{C} {x}', pl, 'dist')
+    for tid, C in (('T7', 'H'), ('T8', 'J')):
+        for z in SKY_BODIES:
+            if z in ctx.S0 and z != 'Jupiter':
+                for pl in PLANES:
+                    cell(tid, f'S {z}', f'{C} Jupiter', pl, 'dist')
+    for tid in ('T10', 'T11'):                             # midpoint hits
+        for pl, lines in field[tid].items():
+            for lab, h in lines.items():
+                if h['hit']:
+                    e1, e2, m = h['pts']
+                    q0 = h['d1'] / h['d2'] if h['d1'] >= h['d2'] else h['d2'] / h['d1']
+                    uni(tid, m, (e1, e2), pl, q0, h['q5'], h['score'], h['colour'], lab)
+    for tid, num in (('T12', lambda C, x: ('S Jupiter', f'S {x}')), ('T13', lambda C, x: ('S Jupiter', f'{C} {x}'))):
+        for C in 'HJ':
+            for x in NATAL_BODIES:
+                if x == 'Jupiter' or x not in R[C]:
+                    continue
+                n, d = num(C, x), (f'{C} Jupiter', f'{C} {x}')
+                lab = f'{n[0]}–{n[1]} / {d[0]}–{d[1]}'
+                for pl in PLANES:
+                    n0, n5 = ctx.pair(R, *n, pl); d0, d5 = ctx.pair(R, *d, pl)
+                    if n0 is None or d0 is None:
+                        continue
+                    v0, v5, _ = ratio(n0, n5, d0, d5)
+                    if not v0:
+                        continue
+                    ev, also, sc = nearest(v0, 'ratio')
+                    rat(tid, lab, n + d, pl, v0, v5, unison_kind(ctx, R, C, f'{C} {x}', pl, ev), sc, 'ratio')
+    for C in 'HJ':                                         # T14 S / H, S / J
+        n0, n5 = ctx.pair(R, 'S Jupiter', 'S equator', 'Dec'); d0, d5 = ctx.pair(R, f'{C} Jupiter', f'{C} equator', 'Dec')
+        v0, v5, _ = ratio(n0, n5, d0, d5)
+        if v0:
+            ev, also, sc = nearest(v0, 'eqratio')
+            rat('T14', f'|Dec| S Jupiter / |Dec| {C} Jupiter', ('S Jupiter', f'{C} Jupiter'), 'Equator', v0, v5,
+                unison_kind(ctx, R, C, f'{C} equator', 'Dec', ev), sc, 'eqratio')
+    for x in NATAL_BODIES:                                 # T16 crossings with a sky leg: RA - Dec -> 0
+        if x == 'Jupiter' or x not in R['H'] or x not in R['J'] or x not in ctx.S0:
+            continue
+        for a, b in CROSS:
+            if 'S' not in (a, b):
+                continue
+            ra0, ra5 = ctx.pair(R, f'{a} Jupiter', f'{a} {x}', 'RA'); de0, de5 = ctx.pair(R, f'{b} Jupiter', f'{b} {x}', 'Dec')
+            if ra0 is None or de0 is None or 'n/a' in (ra5, de5):
+                continue
+            v0, v5 = ra0 - de0, (ra0 if ra5 is None else ra5) - (de0 if de5 is None else de5)
+            ev = cross_eval(ra0, de0)
+            add(('x', x, a, b), exact_t(v0, v5, 0.0), (f'{a} {x}', f'{b} {x}'), src='T16', rel=f'Jupiter–{x} {cross_name(a, b)}',
+                plane='RA = Dec', kind='crossing', target='crossing (RA − Dec = 0)', tv=0.0, v0=v0, score=ev['score'] if ev else None,
+                colour=ev['colour'] if ev else '', out=not ev)
+    for h in field['T17']:                                 # T17 / T18: S Jupiter equidistance hits
+        if h['label'].startswith('S Jupiter') and h['inside'] and not h['together'] and h.get('q') and h['q'][0] is not None:
+            uni('T17', 'S Jupiter', h['pts'], h['plane'], h['q'][0], h['q'][1], h['score'], h['colour'], h['label'])
+    for r in field['T18'].get(1, []):
+        for C in 'HJ':
+            h = r[C]
+            if h and h['inside'] and not h['together'] and h.get('q') and h['q'][0] is not None:
+                uni('T18', 'S Jupiter', h['pts'], h['plane'], h['q'][0], h['q'][1], h['score'], h['colour'], h['label'])
+    for h in field['T19']:                                 # T19: ratio, midpoint, legs with a sky leg
+        if h['together']:
+            continue
+        (r0, r5), rel = h['rq'], f"S Jupiter: {h['x']} – {h['y']}"
+        pratio('T19', 'S Jupiter', (h['x'], h['y']), h['plane'], r0, r5, h['near'], h['ev'], rel)
+        if h['mid'] is not None:
+            uni('T19', 'S Jupiter', (h['x'], h['y']), h['plane'], r0, r5, h['mid'], h['m']['colour'], rel)
+        for (a, b), d0, d5, bf in h['legs']:
+            if bf and d0:
+                dist('T19', a, b, h['plane'], d0, d5, bf, True)
+    for x, sides in field['T20'].items():                  # T20 midpoint hits
+        for C in 'HJ':
+            for pl, h in sides[C].items():
+                if h['hit']:
+                    q0 = h['d1'] / h['d2'] if h['d1'] >= h['d2'] else h['d2'] / h['d1']
+                    uni('T20', f'{C} Jupiter', (f'S {x}', f'{C} {x}'), pl, q0, h['q5'], h['score'], h['colour'], f'S {x} / {C} {x} | {C} Jupiter')
+    for line in field['T22']:                              # T22: ratio, midpoint, d(star, natal Jupiter)
+        st = f"S {line['pair']}"
+        for C in 'HJ':
+            h = line[C]
+            if h is None:
+                continue
+            rel = f"{line['pair']}: d(star, S Jupiter) / d(star, {C} Jupiter)"
+            pratio('T22', st, ('S Jupiter', f'{C} Jupiter'), line['plane'], h['r0'], h['r5'], h['near'], h['ev'], rel)
+            if h['mid'] is not None:
+                uni('T22', st, ('S Jupiter', f'{C} Jupiter'), line['plane'], h['r0'], h['r5'], h['mid'], h['m']['colour'], rel)
+            if h['f2'][1]:
+                dist('T22', st, f'{C} Jupiter', line['plane'], h['d2'], h['d25'], h['f2'][1], True)
+    evs = sorted(ev_by.values(), key=lambda e: e['t'])
+    return {C: [e for e in evs if C in e['charts']] for C in 'HJ'}
+
+
+def write_timeline(ws, row, ctx, evs, tid='TIMELINE', title=None):
     """TIMELINE rows in time order, with marker rows for the off and the off + 5 min"""
     nb = sum(1 for e in evs if e['t'] < 0); nd = sum(1 for e in evs if 0 <= e['t'] <= 5); na = len(evs) - nb - nd
-    ws.cell(row=row, column=1, value=f'TIMELINE (Eddie, 16 Oct 2026): every sky Jupiter relationship on this sheet whose exact time falls from the '
-            f'off − 30 min to the off + 60 min (SKY best / scaled hit or nearest target; SKY EQ; SKY PAIRS, SKY STARS, SKY ROYAL ratio, midpoint '
-            f'and each distance leg with a family hit), linear from the off and the off + 5 min as everywhere; "outside at the off" = not a hit '
-            f'at the off; together rows and x10 / /10 repeats left out, each event once (other sources in the note): {len(evs)} events, '
-            f'{nb} before the off, {nd} in the first 5 min, {na} after').font = BOLD
+    title = title or ('TIMELINE (Eddie, 16 Oct 2026): every sky Jupiter relationship on this sheet whose exact time falls from the '
+                      'off − 30 min to the off + 60 min (SKY best / scaled hit or nearest target; SKY EQ; SKY PAIRS, SKY STARS, SKY ROYAL ratio, midpoint '
+                      'and each distance leg with a family hit), linear from the off and the off + 5 min as everywhere; "outside at the off" = not a hit '
+                      'at the off; together rows and x10 / /10 repeats left out, each event once (other sources in the note)')
+    ws.cell(row=row, column=1, value=f'{title}: {len(evs)} events, {nb} before the off, {nd} in the first 5 min, {na} after').font = BOLD
     row += 1
     for k, h in enumerate(TL_HEAD):
         c = ws.cell(row=row, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
@@ -1622,15 +1802,16 @@ def write_timeline(ws, row, ctx, evs):
     marks = [(0.0, 'OFF'), (5.0, 'OFF + 5 MIN')]
 
     def mark(t, lab):
-        for k, v in enumerate(('TIMELINE', tl_clock(ctx, t), t, f'——— {lab} ———')):
+        for k, v in enumerate((tid, tl_clock(ctx, t), t, f'——— {lab} ———')):
             ws.cell(row=row, column=1 + k, value=v).font = BOLD
 
     for e in evs:
         while marks and e['t'] >= marks[0][0]:
             mark(*marks.pop(0)); row += 1
-        note = '; '.join((['outside at the off'] if e['out'] else []) + (['also ' + ', '.join(e['also'])] if e['also'] else []))
-        vals = ('TIMELINE', tl_clock(ctx, e['t']), round(e['t'], 1), e['src'], e['rel'], e['plane'], e['kind'], e['target'],
-                round(e['tv'], 6), round(e['v0'], 6), None if e['score'] is None else round(e['score'], 2),
+        note = '; '.join((['H + J'] if e.get('both') else []) + (['outside at the off'] if e['out'] else [])
+                         + (['also ' + ', '.join(e['also'])] if e['also'] else []))
+        vals = (tid, tl_clock(ctx, e['t']), round(e['t'], 1), e['src'], e['rel'], e['plane'], e['kind'], e['target'],
+                e['tv'], round(e['v0'], 6), None if e['score'] is None else round(e['score'], 2),
                 'applying' if e['t'] >= 0 else 'separating', note or None)
         for k, v in enumerate(vals):
             ws.cell(row=row, column=1 + k, value=v)

@@ -945,5 +945,117 @@ check('TIMELINE S Jupiter → S Moon Dec (by hand from POSITIONS: Dec S Jupiter 
       and tm[0][11] == 'applying' and 'outside at the off' in tm[0][12], str(tm[0] if tm else tm))
 mk = [r for r in wbl['SKY JUPITER'].iter_rows(values_only=True) if r and r[0] == 'TIMELINE' and isinstance(r[3], str) and r[3].startswith('———')]
 check('TIMELINE markers: OFF 14:35 (0 min) and OFF + 5 MIN 14:40', [(r[1], r[2]) for r in mk] == [('14:35', 0), ('14:40', 5)], str([r[1:4] for r in mk]))
+# Eddie 16 Oct 2026: TIMELINE H / TIMELINE J on every runner sheet
+print('\nTest 25 (Eddie 16 Oct): TIMELINE H / J — Lingfield AW 14:35 2021 (every runner) and Ascot 14:30 2012')
+
+
+def rtl_check(f, off):
+    """every runner timeline row recomputed from POSITIONS (linear off -> +5 min, the larger / smaller ratio fixed at the off): exact
+    time and clock, window, order; 'H + J' exactly on events using both charts -> (n events, [problems])"""
+    w = openpyxl.load_workbook(f, read_only=True)
+    posr = list(w['POSITIONS'].iter_rows(values_only=True))
+    sky = {r[3]: r for r in posr if r and r[0] == 'SKY'}
+    n, bad = 0, []
+    for P in [x for x in w.sheetnames if x.startswith('P') and x[1:].isdigit()]:
+        nat = {(r[2], r[3]): r for r in posr if r and r[0] == P}
+
+        def pos(pt, m):
+            c, b = pt.split(' ', 1)
+            if c == 'S':
+                r = sky[b]
+                return ((r[5] + m * r[7]) % 360, r[6] + m * r[8]) if r[7] is not None else None
+            r = nat[(c, b)]
+            return r[5], r[6]
+
+        def d(a, b, pl, m):
+            if b.endswith(' equator'):
+                return abs(pos(a, m)[1])
+            p, q = pos(a, m), pos(b, m)
+            if pl == 'RA':
+                x = abs(p[0] - q[0]) % 360
+                return min(x, 360 - x)
+            return abs(p[1] - q[1]) if pl == 'Dec' else abs(abs(p[1]) - abs(q[1]))
+
+        def lr(a, b, pl):                              # larger / smaller of two distances (pairs of points), orientation fixed at the off
+            x0, y0, x5, y5 = d(*a, pl, 0), d(*b, pl, 0), d(*a, pl, 5), d(*b, pl, 5)
+            return (x0 / y0, x5 / y5) if x0 >= y0 else (y0 / x0, y5 / x5)
+
+        rows = [r for r in w[P].iter_rows(values_only=True) if r and r[0] in ('TIMELINE H', 'TIMELINE J') and isinstance(r[2], (int, float))]
+        for C in 'HJ':
+            last = -1e9
+            for r in [x for x in rows if x[0] == f'TIMELINE {C}']:
+                if r[2] < last:
+                    bad.append((P, 'order', r[1:5]))
+                last = r[2]
+                if not r[4]:
+                    continue
+                n += 1
+                rel, pl, kind, tv = r[4], r[5], r[6], r[8]
+                f_ = 10.0 if 'scaled x10' in kind else 0.1 if 'scaled /10' in kind else 1.0
+                try:
+                    if kind.startswith('distance'):
+                        a, b = rel.split(' → ')
+                        v0, v5 = d(a, b, pl, 0) * f_, d(a, b, pl, 5) * f_
+                    elif kind == 'crossing':
+                        x, rest = rel[len('Jupiter–'):].split(' ', 1)
+                        ca, cb = rest[0], rest.split('= ')[1][0]
+                        v0, v5 = (d(f'{ca} Jupiter', f'{ca} {x}', 'RA', m) - d(f'{cb} Jupiter', f'{cb} {x}', 'Dec', m) for m in (0, 5))
+                    elif r[3] in ('T12', 'T13'):
+                        nn, dd = rel.split(' / ')
+                        v0, v5 = lr(tuple(nn.split('–')), tuple(dd.split('–')), pl)
+                        v0, v5 = v0 * f_, v5 * f_
+                    elif r[3] == 'T14':
+                        c = rel.split(' / ')[1].split(' ')[1]
+                        v0, v5 = lr(('S Jupiter', 'S equator'), (f'{c} Jupiter', f'{c} equator'), 'Dec')
+                        v0, v5 = v0 * f_, v5 * f_
+                    elif r[3] == 'T22':
+                        st, rest = rel.split(': ', 1)
+                        c = rest.split('d(star, ')[2][0]
+                        v0, v5 = lr((f'S {st}', 'S Jupiter'), (f'S {st}', f'{c} Jupiter'), pl)
+                    elif ': ' in rel:                        # T17 / T18 / T19: S Jupiter on X, Y
+                        jup, xy = rel.split(': ')
+                        x, y = re.split(' – | = ', xy)
+                        v0, v5 = lr((jup, x), (jup, y), pl)
+                    else:                                  # T10 / T11 / T20: e1 / e2 | middle (RA: arc distance)
+                        ends, mid = rel.split(' | ')
+                        e1, e2 = ends.split(' / ')
+                        v0, v5 = lr((mid, e1), (mid, e2), pl)
+                except Exception as e:
+                    bad.append((P, 'parse', rel, repr(e)))
+                    continue
+                t = (tv - v0) / ((v5 - v0) / 5)
+                clock = (off + datetime.timedelta(minutes=t)).strftime('%H:%M')
+                if abs(t - r[2]) > 0.06 or clock != r[1] or not -30 <= r[2] <= 60 or (r[11] == 'applying') != (t >= 0):
+                    bad.append((P, rel, pl, r[3], round(t, 3), r[2], clock, r[1]))
+                pts = re.findall(r'\b([SHJ]) [A-Z]', rel)
+                both = {'H', 'J'} <= set(pts) or (r[3] == 'T16' and {rel.split(' ')[1][0], rel.split('= ')[1][0]} == {'H', 'J'})
+                if both != bool(r[12] and 'H + J' in r[12]):
+                    bad.append((P, 'H + J', rel))
+        hj = [x[1:5] for x in rows if x[12] and 'H + J' in x[12]]
+        if sorted(x for x in hj if True) != sorted(hj) or len([x for x in rows if x[0] == 'TIMELINE H' and x[12] and 'H + J' in x[12]]) != \
+                len([x for x in rows if x[0] == 'TIMELINE J' and x[12] and 'H + J' in x[12]]):
+            bad.append((P, 'H + J in both timelines'))
+    return n, bad
+
+
+bad, n = [], 0
+for f, off in (('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', datetime.datetime(2021, 4, 2, 14, 35)),
+               ('reference/classic/race_batch_20120619_ascot_1430_jupiter_tables.xlsx', datetime.datetime(2012, 6, 19, 14, 30))):
+    k, b = rtl_check(f, off)
+    n += k; bad += b
+check('TIMELINE H / J: every event recomputed from POSITIONS (distance, ratio, crossing, midpoint unison; linear off -> +5 min) gives the '
+      'same exact time and clock, inside −30 / +60, applying / separating right, rows and markers in time order, "H + J" exactly on events '
+      'using both charts and in both timelines', not bad and n > 0, f'{n} events; {bad[:4]}')
+w5 = [r for r in wbl['P05'].iter_rows(values_only=True) if r and r[0] in ('TIMELINE H', 'TIMELINE J') and r[4]]
+hn = [r for r in w5 if r[0] == 'TIMELINE H' and r[4] == 'S Jupiter → H Neptune' and r[5] == 'RA']
+jv = [r for r in w5 if r[0] == 'TIMELINE J' and r[4] == 'S Jupiter → J Venus' and r[5] == 'Dec']
+check('TIMELINE H P05 S Jupiter → H Neptune RA (by hand from POSITIONS: RA S Jupiter 325.797311 (+0.000130972 /min), H Neptune 343.738939): '
+      '17.941628 shrinking 0.000130972 /min, φ^6 17.944272 passed 20.2 min before the off -> separating, exact 14:14 (94.19), also T19',
+      len(hn) == 1 and hn[0][1] == '14:14' and hn[0][2] == -20.2 and hn[0][7] == 'φ^6 (phi power)' and hn[0][9] == 17.941628
+      and hn[0][10] == 94.19 and hn[0][11] == 'separating' and 'also T19' in hn[0][12], str(hn))
+check('TIMELINE J P05 S Jupiter → J Venus Dec (by hand: Dec S Jupiter −14.389918 (+0.0000425872 /min), J Venus 18.610635): 33.000553 '
+      'shrinking 0.0000425872 /min, 33 reached in 13.0 min -> applying, exact 14:47 (94.54), also T19',
+      len(jv) == 1 and jv[0][1] == '14:47' and jv[0][2] == 13.0 and jv[0][7] == '33 (whole)' and jv[0][9] == 33.000553
+      and jv[0][10] == 94.54 and jv[0][11] == 'applying' and 'also T19' in jv[0][12], str(jv))
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

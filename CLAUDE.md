@@ -105,7 +105,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (106/106). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (109/109). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -416,6 +416,30 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   cell of the 52 rows incl. markers and fills, order, title counts, and every event's time = its source cells' timing text (49 SKY, 108
   pair-block texts): 0 mismatches.
 
+## jupiter_tables: TIMELINE H / TIMELINE J (Eddie, 16 Oct 2026; viewing only)
+- Two blocks at the end of every runner sheet, built as the sky TIMELINE (window off − 30 / + 60 min, rows, sort, OFF / +5 MIN markers,
+  "outside at the off"): every timed relationship involving the horse's chart (H) / the jockey's (J): T5 / T6 S Jupiter → natal X and
+  T7 / T8 S X → natal Jupiter (best hit, scaled unless a repeat, or the nearest target outside); T10 / T11 midpoint hits; T12 / T13 rows
+  and T14 S / H, S / J (interval or nearest interval, scaled unless a repeat, automatic unisons left out); T16 crossings with a sky leg
+  (RA − Dec -> 0); T17 "S Jupiter: X = Y" and T18 block-1 sides (hits, unison); T19 rows (ratio, midpoint, each leg with a sky leg and a
+  family hit); T20 midpoint hits; T22 ratio, midpoint and the d(star, natal Jupiter) leg. Midpoints count only as hits at the off (as in
+  the sky TIMELINE). Left out: sky-only and natal-only (fixed) relationships, together rows, automatic unisons, repeats. Each event once
+  (first table in the order T5 … T22 named, the others "also …"); an event using both charts (e.g. T19 H X – J X, T10, T11 H Jupiter /
+  J Jupiter | S X) in both blocks, noted "H + J". Target value written at full precision (a ratio's exact time is sensitive to it).
+- Events H n (before / first 5 min / after) | J n (…), "H + J" events: Lingfield 14:35 2021 P01 H 21 (7/3/11) | J 16 (5/3/8), 1;
+  P03 H 15 (5/2/8) | J 15 (7/0/8), 0; P05 H 18 (8/2/8) | J 15 (6/0/9), 1; P07 H 17 (7/1/9) | J 16 (6/2/8), 1; P09 H 32 (16/1/15) |
+  J 17 (5/2/10), 1; P11 H 20 (5/2/13) | J 18 (6/0/12), 0. Ascot 14:30 2012 P01 H 14 (5/1/8) | J 15 (2/1/12), 1. No midpoint event falls in
+  the window in these two races; most events are T19 ratios and T5–T8 distances. Sizes: Lingfield 1.39 + 2.90 MB, Ascot 0.32 + 0.49 MB.
+- Tests 109/109 (test 25): every runner timeline event of both races recomputed from POSITIONS (249 events; distance, ratio, crossing,
+  midpoint; linear off -> +5) = its exact time and clock, window, applying / separating, order, "H + J" exactly on events using both charts;
+  by hand: P05 H S Jupiter → H Neptune RA (S Jupiter 325.797311, +0.000130972 /min; H Neptune 343.738939): 17.941628 shrinking to φ^6
+  17.944272 -> separating, exact 14:14 (20.2 min ago), 94.19, also T19; P05 J S Jupiter → J Venus Dec (S Jupiter −14.389918,
+  +0.0000425872 /min; J Venus 18.610635): 33.000553 -> 33, applying, exact 14:47 (in 13.0 min), 94.54, also T19.
+- Independent checker (16 Oct), Lingfield P05 from POSITIONS (own code): both blocks complete (H 18, J 15; none missing or extra; widening
+  to −40 / +70 adds only J Eris – J Antares RA 11/8 at −36.5 min), 481 cells and fills, order, markers, title counts, 31 source timing
+  texts (T19, T22): 0 mismatches. Display note: an event a few seconds before the off (J T6 S Jupiter → J Juno RA 988×φ scaled, t −0.034)
+  shows 0 min, "separating", 14:34, just above the OFF marker.
+
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
 same digits (target ×10 or ÷10, e.g. ninth 11.1111 / 1.11111, √2 14.14 / 1.414). Only one form is shown: the main form, unless the
@@ -447,6 +471,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **TIMELINE H / TIMELINE J on every runner sheet (16 Oct 2026, Eddie):** see its section. Tests 109/109.
 - **TIMELINE on SKY JUPITER (16 Oct 2026, Eddie):** see its section. Tests 106/106.
 - **SKY block timing, royal-star-only tables T21R / T22R / SKY ROYAL / FIELD 21R / 22R (16 Oct 2026, Eddie):** see its section.
   Tests 103/103.
