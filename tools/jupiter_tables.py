@@ -539,6 +539,7 @@ def runner_sheet(wb, P, R, ctx):
         rows = [(f'{C} Jupiter → {C} {x}', f'{C} Jupiter', f'{C} {x}') for x in R[C] if x != 'Jupiter']
         row, field[tid] = write_pairs(ws, row, tid, f'{C} Jupiter → {C} bodies, stars, equator (natal); SKY cells S Jupiter → S X beside each row',
                                       ctx, R, rows, dist, thr, nums, sky=True)
+    row, field['T23'], field['_t23'], unis = write_t23(ws, row, ctx, R)        # T23 (Eddie, 16 Oct 2026): H / J, S / H, S / J ratios of the T1 / T2 / SKY distances
     row, _ = write_pairs(ws, row, 'T3', 'H Jupiter → J bodies (natal, cross)', ctx, R,
                          [(f'H Jupiter → J {x}', 'H Jupiter', f'J {x}') for x in NATAL_BODIES if x in J], dist, thr, nums)
     row, _ = write_pairs(ws, row, 'T4', 'J Jupiter → H bodies (natal, cross)', ctx, R,
@@ -572,7 +573,7 @@ def runner_sheet(wb, P, R, ctx):
     for t in ('T12', 'T13', 'T14'):
         field[t] = {}
 
-    field['_uni'] = {}
+    field['_uni'] = dict(unis)                              # T23 unisons (written above T12)
 
     def keep(tid, lab, pl, v0, v5, ev, inv):
         field[tid][(lab, pl)] = (v0, ev)
@@ -712,6 +713,88 @@ def runner_sheet(wb, P, R, ctx):
     ws.freeze_panes = 'C4'
     field['_rats'] = rats
     return field
+
+
+# ---------------- T23: ratios of the T1, T2 and SKY distances (Eddie, 16 Oct 2026)
+T23_RATIOS = (('H / J', 'H', 'J'), ('S / H', 'S', 'H'), ('S / J', 'S', 'J'))
+T23_W = COLS + 2                                           # per ratio: the 8 value cells, area, timing
+
+
+def t23_cells(ctx, R, x, pl):
+    """{ratio name: (v0, v5, inv, ev, also, together)} for body / star / equator x in plane pl: larger / smaller of d(a Jupiter, a X) and
+    d(b Jupiter, b X). S / H and S / J = T12 (automatic and return-assisted unisons as there); H / J natal-only (fixed). together = the
+    leg where Jupiter and X are within the conjunction tolerance (RA < 1.5, Dec < 0.3): the cell is left out (no value, no score)"""
+    out = {}
+    kind = 'eqratio' if x == 'equator' else 'ratio'
+    for name, a, b in T23_RATIOS:
+        n0, n5 = ctx.pair(R, f'{a} Jupiter', f'{a} {x}', pl)
+        d0, d5 = ctx.pair(R, f'{b} Jupiter', f'{b} {x}', pl)
+        if n0 is None or d0 is None:
+            continue
+        tog = [f'{c} Jupiter, {c} {x} {v:.6f}' for c, v in ((a, n0), (b, d0)) if v < families.CONJ['Dec' if x == 'equator' else pl]]
+        v0, v5, inv = ratio(n0, n5, d0, d5)
+        ev, also = nearest(v0, kind) if v0 and not tog else (None, [])
+        if a == 'S':
+            ev = unison_kind(ctx, R, b, f'{b} {x}', pl, ev)
+        out[name] = (v0, v5, inv, ev, also, tog)
+    return out
+
+
+def write_t23(ws, row, ctx, R):
+    """T23 (Eddie, 16 Oct 2026): one row per body, star or equator X in both T1 and T2 (not Jupiter), planes RA and Dec (equator: Dec);
+    three ratios per plane, H / J (new, fixed), S / H and S / J (= T12, timing from the off + 5 min); area blocks A, φ and √2, B, no hit
+    by the highest area on the row (as T12). -> row, {(X, plane): (v0, ev)} of the H / J cells (FIELD 23), the lines (tests)"""
+    xs = [x for x in R['H'] if x in R['J'] and x != 'Jupiter']
+    lines = []
+    for x in xs:
+        cells = {pl: t23_cells(ctx, R, x, pl) for pl in PLANES}
+        lines.append((x, {pl: c for pl, c in cells.items() if c}))
+    title = ('T23 ratios of the T1, T2 and SKY distances (Eddie, 16 Oct 2026), larger / smaller: H / J = d(H Jupiter, H X) / d(J Jupiter, J X) '
+             '(natal, fixed); S / H = d(S Jupiter, S X) / d(H Jupiter, H X) and S / J = d(S Jupiter, S X) / d(J Jupiter, J X) (the T12 values, '
+             'repeated; timing from the off + 5 min); interval list, area, group, offset, score; outside: nearest interval plain; Jupiter return '
+             'unisons grey (automatic) as in T12. A ratio with Jupiter and X together on a leg (RA < 1.5, Dec < 0.3) is left out (no value, '
+             'no score; the leg is named)')
+    by = {a: [] for a in families.AREAS + (None,)}
+    areas = lambda cells: [hit_area(c[3]) for pc in cells.values() for c in pc.values()]
+    for lab, cells in lines:
+        by[row_area(areas(cells))].append((lab, cells))
+    out, unis = {}, {}
+    for a in families.AREAS + (None,):
+        mixed = sum(1 for _, cells in by[a] if multi(areas(cells)))
+        ws.cell(row=row, column=1, value='T23').font = BOLD
+        ws.cell(row=row, column=2, value=f'{title} — {AREA_NAME[a]}: {len(by[a])} rows' + multi_text(mixed)).font = BOLD
+        row += 1
+        for i, pl in enumerate(PLANES):
+            for j, (name, _, _) in enumerate(T23_RATIOS):
+                col = 3 + T23_W * (len(T23_RATIOS) * i + j)
+                for k, h in enumerate((f'{name} {pl}', '+5 min', 'interval', 'group', 'offset', 'score', 'off->+5', 'also (score)', 'area', 'timing')):
+                    c = ws.cell(row=row, column=col + k, value=h); c.fill = HEAD; c.font = BOLD
+        ws.cell(row=row, column=1, value='table').fill = HEAD
+        ws.cell(row=row, column=2, value='X').fill = HEAD
+        row += 1
+        for lab, cells in by[a]:
+            ws.cell(row=row, column=1, value='T23'); ws.cell(row=row, column=2, value=lab)
+            for i, pl in enumerate(PLANES):
+                for j, (name, _, _) in enumerate(T23_RATIOS):
+                    if name not in cells.get(pl, {}):
+                        continue
+                    v0, v5, inv, ev, also, tog = cells[pl][name]
+                    col = 3 + T23_W * (len(T23_RATIOS) * i + j)
+                    if tog:
+                        ws.cell(row=row, column=col + 2, value='together, left out: ' + '; '.join(tog))
+                        continue
+                    put_value(ws, row, col, v0, v5, ev, also, '' if lab == 'equator' else inv, ox=('eqratio' if lab == 'equator' else 'ratio', pl))
+                    if ev and not ev.get('auto'):
+                        ws.cell(row=row, column=col + COLS, value=SKY_AREA[hit_area(ev)])
+                    if ev:
+                        ws.cell(row=row, column=col + COLS + 1, value='fixed' if name == 'H / J' else exact_time(ctx, v0, v5, ev['tv']))
+                    if ev and ev['target'] == '1':          # unison: field count written after all runners, as T12
+                        unis[('T23' if name == 'H / J' else f'T23 {name}', lab, pl)] = (row, col + 7, ev.get('auto', False), ev.get('assisted', False))
+                    if name == 'H / J' and v0:
+                        out[(lab, pl)] = (v0, ev)
+            row += 1
+        row += 1
+    return row, out, lines, unis
 
 
 # ---------------- T21 / T22: fixed stars (Eddie, 15 Oct 2026)
@@ -2728,7 +2811,9 @@ def main():
                 fields, MID_PLANES, mid=True)
     for tid, title, pls in (('T12', '(S Jupiter–S X) / (natal Jupiter–natal X), intervals', PLANES),
                             ('T13', '(S Jupiter–natal X) / (natal Jupiter–natal X), intervals', PLANES),
-                            ('T14', 'Equator ratios of the three Jupiters, intervals', ('Equator',))):
+                            ('T14', 'Equator ratios of the three Jupiters, intervals', ('Equator',)),
+                            ('T23', 'H / J = d(H Jupiter, H X) / d(J Jupiter, J X), natal, fixed (Eddie, 16 Oct 2026); bodies, stars, equator (Dec); '
+                             'a ratio with Jupiter and X together on a leg left out', PLANES)):
         field_ratio_sheet(wb, tid, title, runners, fields, pls, uni)
     field_sheet(wb, 'T16', 'RA–Dec crossing (value = RA − Dec, inside ±0.02)', runners, fields, [cross_name(a, b) for a, b in CROSS])
     field_equi_sheet(wb, runners, fields)

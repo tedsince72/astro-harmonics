@@ -1187,5 +1187,75 @@ check('LONG TIMELINE (sky) S Jupiter: S Pallas – S Rahu Dec on 2 (93.55): real
 dash = [r for r in wbl['P05'].iter_rows(values_only=True) if r and r[0] in ('TIMELINE H', 'LONG TIMELINE H') and r[3] in ('T12', 'T13', 'T22') and r[6] == 'ratio']
 check('sky equivalent "—" where two points become one (T12 / T13 both Jupiters, T22 star to S Jupiter and H Jupiter)',
       dash and all(r[14] == '—' for r in dash), str([r[3:6] + r[13:15] for r in dash][:3]))
+# Eddie 16 Oct 2026: T23 = H / J, S / H, S / J ratios of the T1, T2 and SKY distances, after T2; FIELD 23 (H / J)
+T23N = ('H / J', 'S / H', 'S / J')
+
+
+def t23_rows(ws):
+    """{(X, plane, ratio): cells (value, +5, interval, group, offset, score, arrow, also, area, timing)} and the T12 cells by (X, plane, 'S / C')"""
+    t23, t12, seen = {}, {}, []
+    for r in ws.iter_rows(values_only=True):
+        if not r or not r[1]:
+            continue
+        if r[0] == 'T23' and r[1] != 'X' and not str(r[1]).startswith('T23 ratios'):
+            seen.append(r[1])
+            for i, pl in enumerate(('RA', 'Dec')):
+                for j, nm in enumerate(T23N):
+                    c = 2 + 10 * (3 * i + j)
+                    if any(x is not None for x in r[c:c + 10]):
+                        t23[(r[1], pl, nm)] = r[c:c + 10]
+        if r[0] == 'T12' and '–S ' in str(r[1]):
+            C, x = r[1].split('/ ')[1][0], r[1].split('–S ')[1].split(' /')[0]
+            for i, pl in enumerate(('RA', 'Dec')):
+                if r[2 + 8 * i] is not None:
+                    t12[(x, pl, f'S / {C}')] = r[2 + 8 * i:2 + 8 * i + 8]
+    return t23, t12, seen
+
+
+bad, nc, ntog = [], 0, 0
+for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', 'reference/classic/race_batch_20120619_ascot_1430_jupiter_tables.xlsx'):
+    w = openpyxl.load_workbook(f, read_only=True)
+    pos = {(r[0], r[2], r[3]): (r[5], r[6]) for r in w['POSITIONS'].iter_rows(values_only=True) if r and r[0] and r[2] in ('S', 'H', 'J')}
+    for P in [x for x in w.sheetnames if x.startswith('P') and x[1:].isdigit()]:
+        t23, t12, seen = t23_rows(w[P])
+        xs = [b for (q, C, b) in pos if q == P and C == 'H' and (P, 'J', b) in pos and b != 'Jupiter']
+        if sorted(seen) != sorted(set(xs) | ({'equator'} if 'equator' not in xs else set())) or len(seen) != len(set(seen)):
+            bad.append((P, 'rows', len(seen), len(xs)))
+        for k, v in t12.items():
+            nc += 1
+            g = t23.get(k)
+            if g and str(g[2]).startswith('together, left out'):
+                ntog += 1
+                x, pl, nm = k
+                legs = [(c, abs((pos[(P if c != 'S' else 'SKY', c, x)][0] - pos[(P if c != 'S' else 'SKY', c, 'Jupiter')][0] + 180) % 360 - 180)
+                         if pl == 'RA' else abs(pos[(P if c != 'S' else 'SKY', c, x)][1] - pos[(P if c != 'S' else 'SKY', c, 'Jupiter')][1]))
+                        for c in ('S', nm[-1])]
+                if not any(d < (1.5 if pl == 'RA' else 0.3) for _, d in legs) or v[5] is not None:
+                    bad.append((P, k, 'together', legs, v[5]))
+                continue
+            if g is None or tuple(g[:7]) != tuple(v[:7]) or (v[7] != g[7] and not (str(v[7]).startswith('unison') and str(g[7]).startswith('unison'))) \
+                    or (v[5] is not None) != (g[9] is not None) or (v[5] is None) != (g[8] is None):
+                bad.append((P, k, g, v))
+check('T23 rows = every body, star and equator in both T1 and T2 (not Jupiter), once each; every S / H and S / J cell = T12 (value, +5, '
+      'interval, group, offset, score, arrow), with area and timing exactly where there is a score; a cell left out only where Jupiter and X are '
+      'together on a leg (RA < 1.5, Dec < 0.3; T12 has no score there) (Lingfield every runner + Ascot)',
+      not bad and nc > 0, f'{nc} T12 cells, {ntog} together; {bad[:3]}')
+w = openpyxl.load_workbook('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', read_only=True)
+t23, _, _ = t23_rows(w['P03'])
+h = t23.get(('Haumea', 'RA', 'H / J'))
+check('T23 P03 Haumea RA H / J (by hand from POSITIONS: RA H Jupiter 165.660805, H Haumea 211.367148, J Jupiter 58.688530, J Haumea 195.818927): '
+      'd 45.706344 / 137.130397, ratio 3.000249 (inverted) on 3 (+0.00025, 97.53), area A, fixed',
+      h is not None and h[0] == 3.000249 and h[1] is None and h[2] == '3 · twelfth · Perfect (inverted)' and h[4] == '+0.00025' and h[5] == 97.53
+      and h[8] == 'A' and h[9] == 'fixed', str(h))
+f23 = {}
+cur = None
+for r in w['FIELD 23'].iter_rows(values_only=True):
+    if r and isinstance(r[0], str) and r[0] in ('RA', 'Dec'):
+        cur = r[0]
+    elif r and r[0] and cur and r[3] is not None and ' — ' not in r[0]:
+        f23[(r[0], cur)] = r[3:5]
+check('FIELD 23: P03 column = the T23 H / J cells (value and interval; Haumea RA 3.000249 on 3)',
+      f23.get(('Haumea', 'RA'), (None, ''))[0] == 3.000249 and str(f23[('Haumea', 'RA')][1]).startswith('3 +0.00025 [97.53]')
+      and all(f23[(x, pl)][0] == t23[(x, pl, 'H / J')][0] for (x, pl) in f23 if (x, pl, 'H / J') in t23), str(f23.get(('Haumea', 'RA'))))
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

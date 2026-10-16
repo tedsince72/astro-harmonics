@@ -106,10 +106,10 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
 - Viewing tool (13 Oct 2026, not a reader): `python3 tools/jupiter_tables.py <race_batch xlsx | reference/classic/<race> folder>` ->
   race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T14, T16–T22 per runner (T15 removed 15 Oct 2026), field matrices, off and +5 min,
   every family from tools/families.py scored, best = highest score, also (no scaled column since 16 Oct 2026), colours by score; ratios on the interval
-  list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
+  list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (114/114). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (117/117). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -515,6 +515,31 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   recomputed (2,313 values; FIELD NUMBERS 1 row, ninth 14.4444 / 144.444, P09); TIMELINE = before minus the 44 scaled events, splits right:
   0 mismatches.
 
+## jupiter_tables: T23 ratios of the T1, T2 and SKY distances (Eddie, 16 Oct 2026; viewing only)
+- T23 on every runner sheet, straight after T2: one row per body, star or equator X in both T1 and T2 (not Jupiter), planes RA and Dec
+  (equator: Dec, = |Dec| of the Jupiters, scored as T14), three ratios per plane, larger / smaller: H / J = d(H Jupiter, H X) / d(J Jupiter,
+  J X) (new, natal, timing "fixed"); S / H = d(S Jupiter, S X) / d(H Jupiter, H X), S / J = d(S Jupiter, S X) / d(J Jupiter, J X) (the
+  T12 values repeated; stars and equator new; timing from the off + 5 min). Per ratio 10 cells: value, +5, interval · name · group, group,
+  offset, score, arrow, also (unison field count, as T12), area, timing; outside: nearest interval plain. Blocks A, φ and √2, B, no hit by
+  the highest area on the row (as T12). Automatic (Jupiter return) unisons grey as T12 (S / H, S / J only; none in these two races).
+  Together (Claude's reading of "together rows left out"): a ratio with Jupiter and X within the conjunction tolerance on a leg (RA < 1.5,
+  Dec < 0.3) is left out - no value, no score, the leg named; the rest of the row stays. (A chart's own Rahu–Ketu never meets here: every
+  leg is Jupiter–X.) FIELD 23: H / J cells, per plane, blocks A / φ and √2 / B / no hit, k/n per area (together cells left out).
+  Functions: t23_cells, write_t23. Not in THREADS, NUMBERS, RATIOS or TIMELINE.
+- Hits (cells with a score; A / φ and √2 / B): Lingfield 14:35 2021 P01 H / J 9/0/4, S / H 3/0/8, S / J 5/1/4; P03 9/0/6, 1/0/7, 7/1/4;
+  P05 6/0/4, 4/2/7, 3/1/2; P07 2/1/4, 10/0/6, 9/0/5; P09 6/2/3, 3/0/5, 5/1/6; P11 6/4/4, 5/0/1, 3/0/2 (totals H / J 38/7/25, S / H 26/2/34,
+  S / J 32/4/23). Rows (A / φ√2 / B / no hit, [m] more than one area): P01 15[4]/1/9/21, P03 16[6]/1[1]/9/20, P05 10[1]/3/11/22,
+  P07 20[8]/0/8/18, P09 11[1]/3[1]/10/22, P11 12[3]/4/3/27. Together cells: P01 6, P03 10, P05 4, P07 6, P09 4, P11 8 (S Jupiter – S Deneb
+  Algedi RA 0.960728 in every runner). Ascot 14:30 2012 P01 H / J 17/0/1, S / H 5/3/1, S / J 3/0/1; rows 21[2]/1/3/21; no together cell.
+  Note: Ascot's H and J Jupiters are close (RA 6.77559, Dec 0.664246), so 13 of its 17 H / J area A hits are unisons, mostly on stars - an
+  age effect like a Jupiter return, with no automatic rule for H / J (Eddie to decide). Sizes: Lingfield 1.50 + 2.90 MB, Ascot 0.34 + 0.49 MB.
+- Tests 117/117 (test 27): T23 rows complete; every S / H, S / J cell = T12 (644 cells; the 7 differences are together cells, all without
+  a T12 score); P03 Haumea RA H / J by hand from POSITIONS (H Jupiter 165.660805, H Haumea 211.367148, J Jupiter 58.688530, J Haumea
+  195.818927: 45.706344 / 137.130397 = 3.000249 (inverted) on 3, +0.00025, 97.53, area A, fixed); FIELD 23 = the T23 H / J cells.
+- Independent checker (16 Oct), Lingfield P11 from POSITIONS (own code): 2,730 T23 cells (values, labels, scores, arrows, also, areas,
+  timing), blocks and title counts (12[3] / 4 / 3 / 27), 4 together legs, 91 S / H, S / J cell groups = T12, FIELD 23 every runner (608
+  checks incl. k/n): 0 mismatches.
+
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 (16 Oct 2026: value scaling removed - the scaled lines, scaled hits and the repeat rule below are gone; see "No value scaling".)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
@@ -547,6 +572,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **T23 ratios of the T1, T2 and SKY distances (H / J, S / H, S / J) + FIELD 23 (16 Oct 2026, Eddie):** see its section. Tests 117/117.
 - **LONG TIMELINE real exact times from the Swiss Ephemeris (16 Oct 2026, Eddie):** see its section. Tests 114/114.
 - **LONG TIMELINE (score >= 80, any time) and sky equivalents on TIMELINE H / J (16 Oct 2026, Eddie):** see its section. Tests 113/113.
 - **Value scaling removed (16 Oct 2026, Eddie):** see its section and Families. Tests 110/110.
