@@ -718,6 +718,11 @@ def runner_sheet(wb, P, R, ctx):
 # ---------------- T23: ratios of the T1, T2 and SKY distances (Eddie, 16 Oct 2026)
 T23_RATIOS = (('H / J', 'H', 'J'), ('S / H', 'S', 'H'), ('S / J', 'S', 'J'))
 T23_W = COLS + 2                                           # per ratio: the 8 value cells, area, timing
+T23_DIST = (('S', 'S Jupiter → S X'), ('H', 'H Jupiter → H X'), ('J', 'J Jupiter → J X'))
+T23_D = COLS + 1                                           # per distance (16 Oct 2026): the 8 value cells (as T1 / T2 / SKY), timing
+T23_PW = len(T23_DIST) * T23_D + len(T23_RATIOS) * T23_W   # one plane: three distances, then the three ratios
+t23_dcol = lambda i, k: 3 + T23_PW * i + T23_D * k
+t23_rcol = lambda i, j: 3 + T23_PW * i + len(T23_DIST) * T23_D + T23_W * j
 
 
 def t23_cells(ctx, R, x, pl):
@@ -761,7 +766,8 @@ def write_t23(ws, row, ctx, R):
              'unisons grey (automatic) as in T12; H / J unisons (16 Oct 2026) the same rule with d(H Jupiter, J Jupiter) / the smaller of d(H Jupiter, '
              'H X), d(J Jupiter, J X): < 0.0015 grey "automatic (H–J Jupiters close)", counted nowhere (not in FIELD 23, areas, title counts); '
              '0.0015 to < 0.02 "H–J assisted" (tag only). A ratio with Jupiter and X together on a leg (RA < 1.5, Dec < 0.3) is left out (no value, '
-             'no score; the leg is named)')
+             'no score; the leg is named). Before the ratios, per plane (16 Oct 2026): the distances S Jupiter → S X (= the T1 / T2 SKY cells, timing '
+             'from the off + 5 min), H Jupiter → H X (= T1) and J Jupiter → J X (= T2), fixed')
     by = {a: [] for a in families.AREAS + (None,)}
     areas = lambda cells: [hit_area(c[3]) for pc in cells.values() for n, c in pc.items()
                            if not (n == 'H / J' and c[3] and c[3].get('auto'))]    # an automatic H / J unison counts nowhere
@@ -774,8 +780,11 @@ def write_t23(ws, row, ctx, R):
         ws.cell(row=row, column=2, value=f'{title} — {AREA_NAME[a]}: {len(by[a])} rows' + multi_text(mixed)).font = BOLD
         row += 1
         for i, pl in enumerate(PLANES):
+            for k, (_, name) in enumerate(T23_DIST):
+                for m, h in enumerate((f'{name} {pl}', '+5 min', 'nearest target', 'group', 'offset', 'score', 'off->+5', 'also (score)', 'timing')):
+                    c = ws.cell(row=row, column=t23_dcol(i, k) + m, value=h); c.fill = HEAD; c.font = BOLD
             for j, (name, _, _) in enumerate(T23_RATIOS):
-                col = 3 + T23_W * (len(T23_RATIOS) * i + j)
+                col = t23_rcol(i, j)
                 for k, h in enumerate((f'{name} {pl}', '+5 min', 'interval', 'group', 'offset', 'score', 'off->+5', 'also (score)', 'area', 'timing')):
                     c = ws.cell(row=row, column=col + k, value=h); c.fill = HEAD; c.font = BOLD
         ws.cell(row=row, column=1, value='table').fill = HEAD
@@ -784,11 +793,23 @@ def write_t23(ws, row, ctx, R):
         for lab, cells in by[a]:
             ws.cell(row=row, column=1, value='T23'); ws.cell(row=row, column=2, value=lab)
             for i, pl in enumerate(PLANES):
+                # distances (Eddie, 16 Oct 2026): S Jupiter → S X (the T1 / T2 SKY cells), H Jupiter → H X (T1), J Jupiter → J X (T2), fixed
+                kind = 'equator' if lab == 'equator' else 'dist'
+                for k, (C, _) in enumerate(T23_DIST):
+                    if C == 'S' and lab not in ctx.S0:
+                        continue
+                    d0, d5 = ctx.pair(R, f'{C} Jupiter', f'{C} {lab}', pl)
+                    if d0 is None:
+                        continue
+                    dev, dalso = nearest(d0, kind, 'Dec' if kind == 'equator' else pl)
+                    put_value(ws, row, t23_dcol(i, k), d0, d5, dev, dalso, ox=(kind, 'Dec' if kind == 'equator' else pl))
+                    if dev:
+                        ws.cell(row=row, column=t23_dcol(i, k) + COLS, value=exact_time(ctx, d0, d5, dev['tv']) if C == 'S' else 'fixed')
                 for j, (name, _, _) in enumerate(T23_RATIOS):
                     if name not in cells.get(pl, {}):
                         continue
                     v0, v5, inv, ev, also, tog = cells[pl][name]
-                    col = 3 + T23_W * (len(T23_RATIOS) * i + j)
+                    col = t23_rcol(i, j)
                     if tog:
                         ws.cell(row=row, column=col + 2, value='together, left out: ' + '; '.join(tog))
                         continue

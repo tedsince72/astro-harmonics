@@ -1201,9 +1201,13 @@ def t23_rows(ws):
             seen.append(r[1])
             for i, pl in enumerate(('RA', 'Dec')):
                 for j, nm in enumerate(T23N):
-                    c = 2 + 10 * (3 * i + j)
+                    c = 2 + 57 * i + 27 + 10 * j            # per plane: 3 distances x 9 cells (16 Oct 2026), then 3 ratios x 10
                     if any(x is not None for x in r[c:c + 10]):
                         t23[(r[1], pl, nm)] = r[c:c + 10]
+                for k, C in enumerate('SHJ'):
+                    c = 2 + 57 * i + 9 * k
+                    if any(x is not None for x in r[c:c + 9]):
+                        t23[(r[1], pl, C)] = r[c:c + 9]
         if r[0] == 'T12' and '–S ' in str(r[1]):
             C, x = r[1].split('/ ')[1][0], r[1].split('–S ')[1].split(' /')[0]
             for i, pl in enumerate(('RA', 'Dec')):
@@ -1295,5 +1299,39 @@ _R['J']['Jupiter'] = (hjup[0], hjup[1] + 0.0001, hjup[2]); _R['J']['Algol'] = (h
 cc = JT.t23_cells(_ctx, _R, 'Algol', 'Dec')['H / J']
 check('T23 H / J automatic branch (constructed: J Jupiter and J Algol = H + 0.0001 Dec): unison greyed "automatic (H–J Jupiters close)"',
       cc[3] and cc[3]['target'] == '1' and cc[3]['colour'] == 'grey' and cc[3]['auto'] == 'automatic (H–J Jupiters close)', str(cc[3] and (cc[0], cc[3].get('q'))))
+# Eddie 16 Oct 2026: T23 distance cells = the T1 / T2 natal cells (H, J; timing "fixed") and the T1 / T2 SKY cells (S), values and fills
+bad, nd = [], 0
+for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', 'reference/classic/race_batch_20120619_ascot_1430_jupiter_tables.xlsx'):
+    w = openpyxl.load_workbook(f)
+    for P in [x for x in w.sheetnames if x.startswith('P') and x[1:].isdigit()]:
+        ref, got = {}, {}
+        for r in w[P].iter_rows():
+            v = [c.value for c in r]
+            fl = [c.fill.start_color.rgb if c.fill and c.fill.fill_type else None for c in r]
+            if v[0] in ('T1', 'T2') and v[1] and re.match(r'^[HJ] Jupiter → [HJ] \S', str(v[1])) and 'bodies, stars' not in str(v[1]):
+                C, x = v[1][0], v[1].split(' → ')[1][2:]
+                for i, pl in enumerate(('RA', 'Dec')):
+                    a = 2 + 8 * i
+                    if v[a] is not None:
+                        ref[(x, pl, C)] = (tuple(v[a:a + 8]) + ('fixed' if v[a + 5] is not None else None,), fl[a])
+                    b = 18 + 9 * i
+                    if len(v) > b and v[b] is not None:
+                        k = (x, pl, 'S')
+                        if k in ref and ref[k] != (tuple(v[b:b + 9]), fl[b]):
+                            bad.append(('T1 / T2 SKY differ', P, k))
+                        ref[k] = (tuple(v[b:b + 9]), fl[b])
+            if v[0] == 'T23' and v[1] and v[1] != 'X' and not str(v[1]).startswith('T23 ratios'):
+                for i, pl in enumerate(('RA', 'Dec')):
+                    for k, C in enumerate('SHJ'):
+                        c = 2 + 57 * i + 9 * k
+                        if any(x is not None for x in v[c:c + 9]):
+                            got[(v[1], pl, C)] = (tuple(v[c:c + 9]), fl[c])
+        for k in set(ref) | set(got):
+            nd += 1
+            if ref.get(k) != got.get(k):
+                bad.append((P, k, got.get(k), ref.get(k)))
+check('T23 distance cells (Eddie 16 Oct): every S Jupiter → S X, H Jupiter → H X, J Jupiter → J X cell group (value, +5, target, group, offset, '
+      'score, arrow, also, timing; value fill) = the matching T1 / T2 SKY cells and T1 / T2 natal cells (timing "fixed" where scored), none '
+      'missing or extra (Lingfield every runner + Ascot)', not bad and nd > 0, f'{nd} cell groups; {bad[:3]}')
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

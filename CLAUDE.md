@@ -109,7 +109,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (119/119). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (120/120). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -543,6 +543,14 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   Transpluto RA (0.051067), Sirius RA (0.038731) untagged. In Dec q is about the unison offset itself, so automatic would need an
   offset under ~0.0015. Block counts and FIELD 23 unchanged in both races. Tests 119/119 (test 27: every H / J unison's tag recomputed
   from POSITIONS; the automatic branch on a constructed case, J Jupiter and J Algol = H + 0.0001 Dec, q 1.57e-06).
+- Distances on each row (Eddie, 16 Oct 2026): per plane, before the three ratios, S Jupiter → S X (= the T1 / T2 SKY cells: value, +5,
+  best family, group, offset, score, arrow, also, timing from the off + 5 min), H Jupiter → H X (= T1) and J Jupiter → J X (= T2), timing
+  "fixed" where scored; 9 cells each, coloured by score. A plane block is 57 columns (3 x 9 distances, 3 x 10 ratios; RA from C, Dec
+  from BH). Ratios, areas, blocks (unchanged counts) and FIELD 23 unchanged. Sizes: Lingfield 1.57 + 2.90 MB, Ascot 0.36 + 0.49 MB.
+  Tests 120/120: every distance cell group (1,911 over Lingfield and Ascot; values, texts, timing, value fill) = its T1 / T2 / SKY cells.
+  Independent checker (16 Oct), Lingfield P07 from POSITIONS (own code): 46 rows, 2,457 distance cells (values, +5, targets / outside,
+  offsets, scores, arrows, also, timing incl. dates, 'fixed'), 273 value fills, H / J = T1 / T2 natal cells, S = the T1 and T2 SKY cells:
+  0 mismatches.
 - Tests 117/117 (test 27): T23 rows complete; every S / H, S / J cell = T12 (644 cells; the 7 differences are together cells, all without
   a T12 score); P03 Haumea RA H / J by hand from POSITIONS (H Jupiter 165.660805, H Haumea 211.367148, J Jupiter 58.688530, J Haumea
   195.818927: 45.706344 / 137.130397 = 3.000249 (inverted) on 3, +0.00025, 97.53, area A, fixed); FIELD 23 = the T23 H / J cells.
@@ -583,7 +591,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 
 ## Where we are (13 Oct 2026)
 - **T23 ratios of the T1, T2 and SKY distances (H / J, S / H, S / J) + FIELD 23 (16 Oct 2026, Eddie):** see its section; H / J unisons on the
-  H–J Jupiters close rule (automatic / H–J assisted). Tests 119/119.
+  H–J Jupiters close rule (automatic / H–J assisted); the S / H / J distances on each row. Tests 120/120.
 - **LONG TIMELINE real exact times from the Swiss Ephemeris (16 Oct 2026, Eddie):** see its section. Tests 114/114.
 - **LONG TIMELINE (score >= 80, any time) and sky equivalents on TIMELINE H / J (16 Oct 2026, Eddie):** see its section. Tests 113/113.
 - **Value scaling removed (16 Oct 2026, Eddie):** see its section and Families. Tests 110/110.
