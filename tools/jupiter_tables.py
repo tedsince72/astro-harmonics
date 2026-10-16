@@ -736,6 +736,12 @@ def t23_cells(ctx, R, x, pl):
         ev, also = nearest(v0, kind) if v0 and not tog else (None, [])
         if a == 'S':
             ev = unison_kind(ctx, R, b, f'{b} {x}', pl, ev)
+        elif ev and ev['target'] == '1':                   # H / J (Eddie, 16 Oct 2026): the Jupiter-return rule with d(H Jupiter, J Jupiter)
+            q = ctx.pair(R, 'H Jupiter', 'J Jupiter', pl)[0] / min(n0, d0)
+            if q < AUTO_TOL:
+                ev = dict(ev, colour='grey', auto='automatic (H–J Jupiters close)', q=q)
+            elif q < ASSIST_TOL:
+                ev = dict(ev, assisted='H–J assisted', q=q)
         out[name] = (v0, v5, inv, ev, also, tog)
     return out
 
@@ -752,10 +758,13 @@ def write_t23(ws, row, ctx, R):
     title = ('T23 ratios of the T1, T2 and SKY distances (Eddie, 16 Oct 2026), larger / smaller: H / J = d(H Jupiter, H X) / d(J Jupiter, J X) '
              '(natal, fixed); S / H = d(S Jupiter, S X) / d(H Jupiter, H X) and S / J = d(S Jupiter, S X) / d(J Jupiter, J X) (the T12 values, '
              'repeated; timing from the off + 5 min); interval list, area, group, offset, score; outside: nearest interval plain; Jupiter return '
-             'unisons grey (automatic) as in T12. A ratio with Jupiter and X together on a leg (RA < 1.5, Dec < 0.3) is left out (no value, '
+             'unisons grey (automatic) as in T12; H / J unisons (16 Oct 2026) the same rule with d(H Jupiter, J Jupiter) / the smaller of d(H Jupiter, '
+             'H X), d(J Jupiter, J X): < 0.0015 grey "automatic (H–J Jupiters close)", counted nowhere (not in FIELD 23, areas, title counts); '
+             '0.0015 to < 0.02 "H–J assisted" (tag only). A ratio with Jupiter and X together on a leg (RA < 1.5, Dec < 0.3) is left out (no value, '
              'no score; the leg is named)')
     by = {a: [] for a in families.AREAS + (None,)}
-    areas = lambda cells: [hit_area(c[3]) for pc in cells.values() for c in pc.values()]
+    areas = lambda cells: [hit_area(c[3]) for pc in cells.values() for n, c in pc.items()
+                           if not (n == 'H / J' and c[3] and c[3].get('auto'))]    # an automatic H / J unison counts nowhere
     for lab, cells in lines:
         by[row_area(areas(cells))].append((lab, cells))
     out, unis = {}, {}
@@ -790,7 +799,7 @@ def write_t23(ws, row, ctx, R):
                         ws.cell(row=row, column=col + COLS + 1, value='fixed' if name == 'H / J' else exact_time(ctx, v0, v5, ev['tv']))
                     if ev and ev['target'] == '1':          # unison: field count written after all runners, as T12
                         unis[('T23' if name == 'H / J' else f'T23 {name}', lab, pl)] = (row, col + 7, ev.get('auto', False), ev.get('assisted', False))
-                    if name == 'H / J' and v0:
+                    if name == 'H / J' and v0 and not (ev and ev.get('auto')):     # automatic H / J unison: not in FIELD 23
                         out[(lab, pl)] = (v0, ev)
             row += 1
         row += 1
@@ -1208,6 +1217,15 @@ AUTO_TOL = 0.0015                                          # Eddie's rule (13 Oc
 
 
 ASSIST_TOL = 0.02                                          # return-assisted: AUTO_TOL <= d1/d2 < 0.02 (tag only)
+
+
+def auto_text(a):
+    """automatic unison label: T23 H / J carries its own ('automatic (H–J Jupiters close)'), else the Jupiter return"""
+    return a if isinstance(a, str) else 'automatic (Jupiter return)'
+
+
+def assist_text(a):
+    return a if isinstance(a, str) else 'return-assisted'
 
 
 def unison_kind(ctx, R, C, xpt, pl, ev):
@@ -2648,7 +2666,7 @@ def field_ratio_sheet(wb, tid, title, runners, fields, planes, uni):
                         k += not ev.get('auto')
                         ws.cell(row=row, column=3 + 2 * i, value=f"{ev['target']} {fmt_off(ev)} [{ev['score']:.2f}] [{ev['group']}]"
                                 + ((' automatic (Jupiter return), not counted' if ev.get('auto') else f" field {uni[(tid, lab, pl)]}/{len(runners)}"
-                                    + (' return-assisted' if ev.get('assisted') else '')) if ev.get('target') == '1' else ''))
+                                    + (' ' + assist_text(ev['assisted']) if ev.get('assisted') else '')) if ev.get('target') == '1' else ''))
                 if a:
                     ws.cell(row=row, column=last, value=f'{k}/{len(order)}')
                 row += 1
@@ -2798,8 +2816,8 @@ def main():
     for P in sorted(runners):
         ws = wb[P]
         for k, (r, c, auto, assisted) in fields[P]['_uni'].items():
-            ws.cell(row=r, column=c, value='unison: automatic (Jupiter return), not counted' if auto
-                    else f'unison: field {uni[k]}/{n}' + (' return-assisted' if assisted else ''))
+            ws.cell(row=r, column=c, value=f'unison: {auto_text(auto)}, not counted' if auto
+                    else f'unison: field {uni[k]}/{n}' + (' ' + assist_text(assisted) if assisted else ''))
         ratio_sheet(wb, P, runners[P], fields[P]['_rats'], uni, n)
         pairs_sheet(wbp, P, runners[P], fields[P]['_pairs'])
         numbers_sheet(wb, P, runners[P], sky_nums + fields[P]['_nums'])

@@ -1257,5 +1257,43 @@ for r in w['FIELD 23'].iter_rows(values_only=True):
 check('FIELD 23: P03 column = the T23 H / J cells (value and interval; Haumea RA 3.000249 on 3)',
       f23.get(('Haumea', 'RA'), (None, ''))[0] == 3.000249 and str(f23[('Haumea', 'RA')][1]).startswith('3 +0.00025 [97.53]')
       and all(f23[(x, pl)][0] == t23[(x, pl, 'H / J')][0] for (x, pl) in f23 if (x, pl, 'H / J') in t23), str(f23.get(('Haumea', 'RA'))))
+# Eddie 16 Oct 2026: T23 H / J unisons on the Jupiter-return rule with d(H Jupiter, J Jupiter) / the smaller of d(H Jup, H X), d(J Jup, J X)
+tags, bad = {}, []
+for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', 'reference/classic/race_batch_20120619_ascot_1430_jupiter_tables.xlsx'):
+    w = openpyxl.load_workbook(f, read_only=True)
+    pos = {(r[0], r[2], r[3]): (r[5], r[6]) for r in w['POSITIONS'].iter_rows(values_only=True) if r and r[0] and r[2] in ('H', 'J')}
+    dist = lambda P, C, x, pl: (abs((pos[(P, C, x)][0] - pos[(P, C, 'Jupiter')][0] + 180) % 360 - 180) if pl == 'RA'
+                                else abs(pos[(P, C, x)][1] - (0 if x == 'equator' else pos[(P, C, 'Jupiter')][1])) if x != 'equator'
+                                else abs(pos[(P, C, 'Jupiter')][1]))
+    for P in [x for x in w.sheetnames if x.startswith('P') and x[1:].isdigit()]:
+        t23, _, _ = t23_rows(w[P])
+        hj = (lambda pl: abs((pos[(P, 'H', 'Jupiter')][0] - pos[(P, 'J', 'Jupiter')][0] + 180) % 360 - 180) if pl == 'RA'
+              else abs(pos[(P, 'H', 'Jupiter')][1] - pos[(P, 'J', 'Jupiter')][1]))
+        for (x, pl, nm), c in t23.items():
+            if nm != 'H / J' or not str(c[2]).startswith('1 · unison') or c[5] is None:
+                continue
+            q = hj(pl) / min(dist(P, 'H', x, pl), dist(P, 'J', x, pl))
+            want = 'automatic' if q < 0.0015 else 'assisted' if q < 0.02 else ''
+            got = 'automatic' if 'automatic (H–J Jupiters close)' in str(c[7]) else 'assisted' if 'H–J assisted' in str(c[7]) else ''
+            rk = 'ascot' if 'ascot' in f else 'lingfield'
+            tags[(rk, want)] = tags.get((rk, want), 0) + 1
+            if want != got or (want == 'automatic' and (c[8] is not None)):
+                bad.append((P, x, pl, q, c[7]))
+check('T23 H / J unisons (Eddie 16 Oct): "automatic (H–J Jupiters close)" when d(H Jup, J Jup) / the smaller of d(H Jup, H X), d(J Jup, J X) < '
+      '0.0015, "H–J assisted" from 0.0015 to < 0.02, recomputed from POSITIONS (Lingfield every runner + Ascot): Lingfield 7 unisons, none tagged; '
+      'Ascot 14, 11 assisted (e.g. Polaris Dec 1.005865, q 0.005928), 0 automatic',
+      not bad and tags == {('lingfield', ''): 7, ('ascot', ''): 3, ('ascot', 'assisted'): 11}, f'{tags}; {bad[:3]}')
+# a constructed case for the automatic branch: Ascot P01 with the jockey's Jupiter and Algol 0.0001 deg from the horse's (Dec)
+sys.path.insert(0, 'tools')
+import jupiter_tables as JT
+_r, _b, _l, _sky, _run = JT.load_input('reference/classic/race_batch_20120619_ascot_1430.xlsx')
+_off, _site, _ = MO.off_and_site(_r, _l, _b, None, None)
+_ctx = JT.Ctx(_sky, MO.engine_rates(_sky, _off, _site)[0])
+_R = dict(_run['P01']); _R['J'] = dict(_R['J'])
+hjup, halg = _R['H']['Jupiter'], _R['H']['Algol']
+_R['J']['Jupiter'] = (hjup[0], hjup[1] + 0.0001, hjup[2]); _R['J']['Algol'] = (halg[0], halg[1] + 0.0001, halg[2])
+cc = JT.t23_cells(_ctx, _R, 'Algol', 'Dec')['H / J']
+check('T23 H / J automatic branch (constructed: J Jupiter and J Algol = H + 0.0001 Dec): unison greyed "automatic (H–J Jupiters close)"',
+      cc[3] and cc[3]['target'] == '1' and cc[3]['colour'] == 'grey' and cc[3]['auto'] == 'automatic (H–J Jupiters close)', str(cc[3] and (cc[0], cc[3].get('q'))))
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
