@@ -40,6 +40,7 @@ is none), its area, and "same as sky" (same number on the same leg incl. d(X, Y)
 T21R, T22R (runner sheets), SKY ROYAL (SKY JUPITER), FIELD 21R / 22R.
 TIMELINE (16 Oct 2026): at the end of SKY JUPITER, every sky Jupiter event on that sheet exact from the off - 30 to + 60 min, in time order.
 TIMELINE H / J (16 Oct 2026): at the end of each runner sheet, the same for every timed relationship involving that chart (T5-T22).
+LONG TIMELINE (16 Oct 2026): score >= 80 at the off, any exact time, SEPARATING / APPLYING; sky equivalent cells on TIMELINE H / J and LONG H / J.
 Points and engine from tools/jup2 (imported, not changed). Frozen readers are not changed."""
 import argparse, glob, os, re, sys, itertools, math, datetime
 import openpyxl
@@ -680,14 +681,24 @@ def runner_sheet(wb, P, R, ctx):
     row, field['T21R'] = write_t21(ws, row + 1, ctx, R, royal=True)    # royal stars only (Eddie 16 Oct), after the full tables
     row, field['T22R'] = write_t22(ws, row + 1, ctx, R, royal=True)
     tl = runner_timeline(ctx, R, field)                    # TIMELINE H / J (Eddie, 16 Oct 2026), after the other tables
+    skyf = lambda e: sky_equiv(ctx, R, e)                  # sky equivalent cells (Eddie, 16 Oct 2026)
     for C, who in (('H', 'horse'), ('J', 'jockey')):
         row = write_timeline(ws, row + 1, ctx, tl[C], f'TIMELINE {C}',
                              f"TIMELINE {C} (Eddie, 16 Oct 2026): every timed relationship involving the {who}'s chart ({C}) whose exact time falls from "
                              'the off − 30 min to the off + 60 min (T5–T8, T10, T11, T12–T14, T16, T17, T18, T19, T20, T22), linear from the off and the '
                              'off + 5 min as everywhere; "outside at the off" = not a hit at the off; sky-only and natal-only (fixed) relationships, '
                              'together rows and automatic unisons left out; values never scaled x10 / /10; each event once (other tables in the note); "H + J" = '
-                             'uses both charts, in both timelines')
+                             'uses both charts, in both timelines. SKY EQUIVALENT (16 Oct 2026): the same relationship in the sky at the off, every natal '
+                             'point replaced by the same sky body, same plane: value, best family / interval (area), score, timing; "—" where two points '
+                             'become one; "same as sky" = the sky on the same target as the event (both hits)', skyf=skyf)
+    lt = runner_timeline(ctx, R, field, keep=long_keep)    # LONG TIMELINE H / J (Eddie, 16 Oct 2026): score >= 80, any exact time
+    for C, who in (('H', 'horse'), ('J', 'jockey')):
+        row = write_long(ws, row + 1, ctx, lt[C], f'LONG TIMELINE {C}',
+                         f"LONG TIMELINE {C} (Eddie, 16 Oct 2026): every timed relationship involving the {who}'s chart ({C}) scoring >= 80 at the off, "
+                         'any exact time (same sources and rules as TIMELINE {C}; beyond 50 years "more than 50 years away / ago"); SEPARATING most recent '
+                         'first, APPLYING soonest first; sky equivalent cells as in TIMELINE {C}'.replace('{C}', C), skyf=skyf)
     field['_tl'] = tl
+    field['_lt'] = lt
     for (lab, cn), (d, ev) in field['T16'].items():
         x = lab.split('–', 1)[1]
         a, b = cn[0], cn.split('= ')[1][0]
@@ -1523,8 +1534,16 @@ TL_HEAD = ('table', 'exact (race-local)', 'min from the off', 'source', 'relatio
 TL_WIN = (-30.0, 60.0)
 
 
+TL_FAR = 50 * 525960                                       # beyond 50 years: 'more than 50 years away / ago' (as exact_time)
+LONG_MIN = 80.0                                            # LONG TIMELINE (Eddie, 16 Oct 2026): score at the off >= 80, any exact time
+in_window = lambda t, score: TL_WIN[0] <= t <= TL_WIN[1]
+long_keep = lambda t, score: score is not None and score >= LONG_MIN
+
+
 def tl_clock(ctx, t):
-    """race-local clock time of an event t minutes from the off (as exact_time)"""
+    """race-local clock time of an event t minutes from the off (as exact_time; date and time when not on race day)"""
+    if abs(t) > TL_FAR:
+        return f"more than 50 years {'away' if t >= 0 else 'ago'}"
     when = ctx.off + datetime.timedelta(minutes=t)
     return when.strftime('%H:%M') if when.date() == ctx.off.date() else when.strftime('%d %b %Y %H:%M')
 
@@ -1534,7 +1553,14 @@ def tl_key(d):
     return ('conj', 0) if d['family'] == 'conj' or not d.get('tv') else num_key(d['family'], d['tv'])
 
 
-def timeline(ctx, R0, eq, sources):
+def tl_from(t):
+    """minutes or days from the off, as text"""
+    if abs(t) > TL_FAR:
+        return f"more than 50 years {'away' if t >= 0 else 'ago'}"
+    return f'{t:+.1f} min' if abs(t) < 1440 else f'{t / 1440:+.2f} days'
+
+
+def timeline(ctx, R0, eq, sources, keep=in_window):
     """events = every sky Jupiter relationship on the sheet whose exact time (linear, off -> +5 min, as everywhere) falls within
     TL_WIN: SKY (S Jupiter -> sky point; best hit, or the nearest target outside at the off), SKY EQ
     (unison), the pair blocks (ratio on its interval or nearest interval, midpoint = unison, each distance leg with a family hit).
@@ -1543,7 +1569,7 @@ def timeline(ctx, R0, eq, sources):
     ev_by = {}
 
     def add(key, t, **e):
-        if t is None or not TL_WIN[0] <= t <= TL_WIN[1]:
+        if t is None or not keep(t, e['score']):
             return
         if key in ev_by:
             o = ev_by[key]
@@ -1606,7 +1632,7 @@ def timeline(ctx, R0, eq, sources):
     return sorted(ev_by.values(), key=lambda e: e['t'])
 
 
-def runner_timeline(ctx, R, field):
+def runner_timeline(ctx, R, field, keep=in_window):
     """TIMELINE H / J (Eddie, 16 Oct 2026): every timed relationship of a runner sheet that involves the horse's (H) or the jockey's (J)
     chart, exact from the off - 30 to + 60 min, built as the sky TIMELINE: T5-T8 distances (best hit, or the
     nearest target outside at the off), T10 / T11 midpoint hits, T12-T14 ratios (interval or nearest interval;
@@ -1618,7 +1644,7 @@ def runner_timeline(ctx, R, field):
 
     def add(key, t, pts, **e):
         ch = {p[0] for p in pts} - {'S'}
-        if not ch or t is None or not TL_WIN[0] <= t <= TL_WIN[1]:
+        if not ch or t is None or not keep(t, e['score']):
             return
         if key in ev_by:
             o = ev_by[key]
@@ -1633,7 +1659,7 @@ def runner_timeline(ctx, R, field):
         kp = pl
         if pl == 'Equator' and (ctx.pos(R, a, 0)[1] >= 0) == (ctx.pos(R, b, 0)[1] >= 0):
             kp = 'Dec'                                     # both on one side: the Equator distance is the Dec distance
-        add(('d', frozenset((a, b)), kp, tl_key(d)), exact_t(v0, v5, d['tv']), (a, b), src=src, rel=f'{a} → {b}', plane=pl,
+        add(('d', frozenset((a, b)), kp, tl_key(d)), exact_t(v0, v5, d['tv']), (a, b), src=src, rel=f'{a} → {b}', plane=pl, geo=('d', a, b), dk=tl_key(d),
             kind='distance', target=tlabel(d), tv=d['tv'], v0=v0,
             score=d['score'] if hit else None, colour=d['colour'] if hit else '', out=not hit)
 
@@ -1655,19 +1681,19 @@ def runner_timeline(ctx, R, field):
             return
         d = ev or families.outside(v0, None, kind)
         if d:
-            add(('q', src, lab, pl, d['target']), exact_t(v0, v5, d['tv']), pts, src=src, rel=lab, plane=pl, kind='ratio', target=iv_text(d),
+            add(('q', src, lab, pl, d['target']), exact_t(v0, v5, d['tv']), pts, src=src, rel=lab, plane=pl, geo=('q',), dk=d['target'], kind='ratio', target=iv_text(d),
                 tv=d['tv'], v0=v0, score=d['score'] if ev else None, colour=d['colour'] if ev else '', out=not ev)
 
     def uni(src, mid, ends, pl, q0, q5, score, colour, rel):    # a midpoint: the larger / smaller ratio toward unison
         if q0 is None or q5 in (None, 'n/a'):
             return
-        add(('r', mid, frozenset(ends), pl, '1'), exact_t(q0, q5, 1.0), (mid,) + tuple(ends), src=src, rel=rel, plane=pl,
+        add(('r', mid, frozenset(ends), pl, '1'), exact_t(q0, q5, 1.0), (mid,) + tuple(ends), src=src, rel=rel, plane=pl, geo=('r', mid) + tuple(ends), dk='1',
             kind='midpoint', target='1 · unison · midpoint (area A)', tv=1.0, v0=q0, score=score, colour=colour, out=False)
 
     def pratio(src, mid, ends, pl, r0, r5, near, ev, rel):     # a pair ratio toward its interval (hit) or its nearest interval
         if r5 in (None, 'n/a'):
             return
-        add(('r', mid, frozenset(ends), pl, near['target']), exact_t(r0, r5, near['tv']), (mid,) + tuple(ends), src=src, rel=rel,
+        add(('r', mid, frozenset(ends), pl, near['target']), exact_t(r0, r5, near['tv']), (mid,) + tuple(ends), src=src, rel=rel, geo=('r', mid) + tuple(ends), dk=near['target'],
             plane=pl, kind='ratio', target=iv_text(near), tv=near['tv'], v0=r0, score=ev['score'] if ev else None,
             colour=ev['colour'] if ev else '', out=not ev)
 
@@ -1722,7 +1748,7 @@ def runner_timeline(ctx, R, field):
                 continue
             v0, v5 = ra0 - de0, (ra0 if ra5 is None else ra5) - (de0 if de5 is None else de5)
             ev = cross_eval(ra0, de0)
-            add(('x', x, a, b), exact_t(v0, v5, 0.0), (f'{a} {x}', f'{b} {x}'), src='T16', rel=f'Jupiter–{x} {cross_name(a, b)}',
+            add(('x', x, a, b), exact_t(v0, v5, 0.0), (f'{a} {x}', f'{b} {x}'), src='T16', rel=f'Jupiter–{x} {cross_name(a, b)}', geo=('x', x), dk='crossing',
                 plane='RA = Dec', kind='crossing', target='crossing (RA − Dec = 0)', tv=0.0, v0=v0, score=ev['score'] if ev else None,
                 colour=ev['colour'] if ev else '', out=not ev)
     for h in field['T17']:                                 # T17 / T18: S Jupiter equidistance hits
@@ -1765,7 +1791,131 @@ def runner_timeline(ctx, R, field):
     return {C: [e for e in evs if C in e['charts']] for C in 'HJ'}
 
 
-def write_timeline(ws, row, ctx, evs, tid='TIMELINE', title=None):
+def iv_label(d):
+    """target text: 'interval · name · group (area ..)' for intervals, 'target (family)' otherwise"""
+    return f"{tlabel(d)} (area {SKY_AREA[families.area(d['target'])]})" if d['family'] == 'interval' else tlabel(d)
+
+
+SKY_TL_HEAD = ('sky equivalent', 'sky value at the off', 'sky target', 'sky score', 'sky timing', 'same as sky')
+
+
+def sky_equiv(ctx, R, e):
+    """the event's relationship in the sky at the off (Eddie, 16 Oct 2026): every natal point replaced by the same body in the sky, same
+    plane -> dict (rel, v0, target, score, colour, timing, same) or {'rel': .., 'dash': True} where two points become one (T10, T11, T12-T14,
+    T19 H X - J X, T20, T22 ratio / midpoint) or the sky point / plane does not exist. A together sky side shows its values only."""
+    g, pl = e['geo'], e['plane']
+    sp = lambda p: 'S ' + p.split(' ', 1)[1]
+    have = lambda *ps: all(p.split(' ', 1)[1] in ctx.S0 for p in ps)
+    if g[0] == 'q':
+        return {'rel': None, 'dash': True}
+    if g[0] == 'x':
+        x = g[1]
+        rel = f'Jupiter–{x} S RA = S Dec'
+        ra0, ra5 = ctx.pair(R, 'S Jupiter', f'S {x}', 'RA'); de0, de5 = ctx.pair(R, 'S Jupiter', f'S {x}', 'Dec')
+        if not have(f'S {x}') or ra0 is None or de0 is None or 'n/a' in (ra5, de5):
+            return {'rel': rel, 'dash': True}
+        v0, v5 = ra0 - de0, ra5 - de5
+        ev = cross_eval(ra0, de0)
+        return {'rel': rel, 'v0': v0, 'target': 'crossing (RA − Dec = 0)' + ('' if ev else ' — outside'), 'score': ev['score'] if ev else None,
+                'colour': ev['colour'] if ev else '', 'timing': exact_time(ctx, v0, v5, 0.0), 'same': bool(ev and e['score'] is not None)}
+    if g[0] == 'd':
+        a, b = sp(g[1]), sp(g[2])
+        rel = f'{a} → {b}'
+        if a == b or not have(a, b):
+            return {'rel': rel, 'dash': True}
+        v0, v5 = eq_dist2(ctx, R, a, b, pl)
+        if not v0:
+            return {'rel': rel, 'dash': True}
+        fp = pl if pl in ('RA', 'Dec') else None
+        ev = families.best(v0, fp, 'deg')
+        d = ev or families.outside(v0, fp, 'deg')
+        return {'rel': rel, 'v0': v0, 'target': (tlabel(d) + ('' if ev else ' — outside')) if d else 'no family',
+                'score': ev['score'] if ev else None, 'colour': ev['colour'] if ev else '',
+                'timing': exact_time(ctx, v0, v5, d['tv']) if d else None,
+                'same': bool(ev and e['score'] is not None and tl_key(ev) == e['dk'])}
+    m, x, y = (sp(p) for p in g[1:])
+    rel = f"{m}: {x} {'=' if e['kind'] == 'midpoint' else '–'} {y}"
+    if len({m, x, y}) < 3 or not have(m, x, y):
+        return {'rel': rel, 'dash': True}
+    if pl == 'Equator':
+        ps = [ctx.pos(R, q, 0) for q in (m, x, y)]
+        if (ps[0][1] >= 0) == (ps[1][1] >= 0) == (ps[2][1] >= 0):
+            return {'rel': rel, 'dash': True}
+    (dx, dx5), (dy, dy5) = eq_dist2(ctx, R, m, x, pl), eq_dist2(ctx, R, m, y, pl)
+    if not dx or not dy or 'n/a' in (dx5, dy5):
+        return {'rel': rel, 'dash': True}
+    flip = dx < dy
+    q0, q5 = (dy / dx, dy5 / dx5) if flip else (dx / dy, dx5 / dy5)
+    ev = families.best(q0, None, 'ratio')
+    near = ev or families.outside(q0, None, 'ratio')
+    mid = jup_mid(ctx, R, m, x, y, pl, dx, dy) if 100.0 / q0 >= 100.0 - MID_RTOL else None
+    dxy = eq_dist(ctx, R, x, y, pl)
+    together = dxy is not None and dxy < (families.CONJ['RA'] if pl == 'RA' else families.CONJ['Dec'])
+    if e['kind'] == 'midpoint' and mid and mid['hit']:
+        out = {'target': '1 · unison · midpoint (area A)', 'score': mid['score'], 'colour': mid['colour'], 'timing': exact_time(ctx, q0, q5, 1.0),
+               'same': e['score'] is not None}
+    else:
+        out = {'target': iv_label(near) + ('' if ev else ' — outside'), 'score': ev['score'] if ev else None, 'colour': ev['colour'] if ev else '',
+               'timing': exact_time(ctx, q0, q5, near['tv']), 'same': bool(ev and e['score'] is not None and ev['target'] == e['dk'])}
+    if together:                                           # a together side: values only (no score, no colour, no tag)
+        out.update(score=None, colour='', same=False, target=out['target'] + ' (X, Y together)')
+    return dict(out, rel=rel, v0=q0)
+
+
+def write_sky_cells(ws, row, c0, se):
+    """the sky equivalent cells of one event row from column c0"""
+    if se is None:
+        return
+    if se.get('dash'):
+        ws.cell(row=row, column=c0, value=se['rel'] or '—')
+        ws.cell(row=row, column=c0 + 1, value='—')
+        return
+    for k, v in enumerate((se['rel'], round(se['v0'], 6), se['target'], None if se['score'] is None else round(se['score'], 2), se['timing'],
+                           'same as sky' if se['same'] else None)):
+        ws.cell(row=row, column=c0 + k, value=v)
+    if se['colour']:
+        ws.cell(row=row, column=c0 + 1).fill = ws.cell(row=row, column=c0 + 3).fill = FILL[se['colour']]
+    ws.cell(row=row, column=c0 + 3).number_format = '0.00'
+
+
+def tl_vals(ctx, e, tid, long=False):
+    note = '; '.join((['H + J'] if e.get('both') else []) + (['outside at the off'] if e['out'] else [])
+                     + (['also ' + ', '.join(e['also'])] if e['also'] else []))
+    return (tid, tl_clock(ctx, e['t']), tl_from(e['t']) if long else round(e['t'], 1), e['src'], e['rel'], e['plane'], e['kind'], e['target'],
+            e['tv'], round(e['v0'], 6), None if e['score'] is None else round(e['score'], 2),
+            'applying' if e['t'] >= 0 else 'separating', note or None)
+
+
+def write_long(ws, row, ctx, evs, tid, title, skyf=None):
+    """LONG TIMELINE (Eddie, 16 Oct 2026): every event scoring >= 80 at the off, any exact time; SEPARATING (most recent first), then
+    APPLYING (soonest first); runner sheets add the sky equivalent cells"""
+    sep = sorted([e for e in evs if e['t'] < 0], key=lambda e: -e['t'])
+    app = sorted([e for e in evs if e['t'] >= 0], key=lambda e: e['t'])
+    ws.cell(row=row, column=1, value=f'{title}: {len(evs)} events, {len(sep)} separating, {len(app)} applying').font = BOLD
+    row += 1
+    head = TL_HEAD[:2] + ('from the off',) + TL_HEAD[3:] + (SKY_TL_HEAD if skyf else ()) + ('minutes from the off',)
+    for k, h in enumerate(head):
+        c = ws.cell(row=row, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
+    row += 1
+    last = len(head)
+    for lab, part in (('SEPARATING', sep), ('APPLYING', app)):
+        ws.cell(row=row, column=1, value=tid).font = BOLD
+        ws.cell(row=row, column=4, value=f'——— {lab}: {len(part)} events ———').font = BOLD
+        row += 1
+        for e in part:
+            for k, v in enumerate(tl_vals(ctx, e, tid, long=True)):
+                ws.cell(row=row, column=1 + k, value=v)
+            if e['colour']:
+                ws.cell(row=row, column=10).fill = ws.cell(row=row, column=11).fill = FILL[e['colour']]
+            ws.cell(row=row, column=11).number_format = '0.00'
+            if skyf:
+                write_sky_cells(ws, row, 1 + len(TL_HEAD), skyf(e))
+            ws.cell(row=row, column=last, value=round(e['t'], 1))
+            row += 1
+    return row + 1
+
+
+def write_timeline(ws, row, ctx, evs, tid='TIMELINE', title=None, skyf=None):
     """TIMELINE rows in time order, with marker rows for the off and the off + 5 min"""
     nb = sum(1 for e in evs if e['t'] < 0); nd = sum(1 for e in evs if 0 <= e['t'] <= 5); na = len(evs) - nb - nd
     title = title or ('TIMELINE (Eddie, 16 Oct 2026): every sky Jupiter relationship on this sheet whose exact time falls from the '
@@ -1774,7 +1924,7 @@ def write_timeline(ws, row, ctx, evs, tid='TIMELINE', title=None):
                       'at the off; together rows left out, each event once (other sources in the note); values are never scaled')
     ws.cell(row=row, column=1, value=f'{title}: {len(evs)} events, {nb} before the off, {nd} in the first 5 min, {na} after').font = BOLD
     row += 1
-    for k, h in enumerate(TL_HEAD):
+    for k, h in enumerate(TL_HEAD + (SKY_TL_HEAD if skyf else ())):
         c = ws.cell(row=row, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
     row += 1
     marks = [(0.0, 'OFF'), (5.0, 'OFF + 5 MIN')]
@@ -1786,16 +1936,13 @@ def write_timeline(ws, row, ctx, evs, tid='TIMELINE', title=None):
     for e in evs:
         while marks and e['t'] >= marks[0][0]:
             mark(*marks.pop(0)); row += 1
-        note = '; '.join((['H + J'] if e.get('both') else []) + (['outside at the off'] if e['out'] else [])
-                         + (['also ' + ', '.join(e['also'])] if e['also'] else []))
-        vals = (tid, tl_clock(ctx, e['t']), round(e['t'], 1), e['src'], e['rel'], e['plane'], e['kind'], e['target'],
-                e['tv'], round(e['v0'], 6), None if e['score'] is None else round(e['score'], 2),
-                'applying' if e['t'] >= 0 else 'separating', note or None)
-        for k, v in enumerate(vals):
+        for k, v in enumerate(tl_vals(ctx, e, tid)):
             ws.cell(row=row, column=1 + k, value=v)
         if e['colour']:
             ws.cell(row=row, column=10).fill = ws.cell(row=row, column=11).fill = FILL[e['colour']]
         ws.cell(row=row, column=11).number_format = '0.00'
+        if skyf:
+            write_sky_cells(ws, row, 1 + len(TL_HEAD), skyf(e))
         row += 1
     while marks:
         mark(*marks.pop(0)); row += 1
@@ -2416,7 +2563,11 @@ def main():
                             'every row listed (hits and non-hits); a row with "X, Y together" is plain, in NO HIT; same cells and areas as SKY PAIRS, best '
                             'first inside each block',
                             srows, 'SKY ROYAL', every=True, notog=True)
-    row = write_timeline(ws, row, ctx, timeline(ctx, R0, skyeq, (('SKY PAIRS', skypairs), ('SKY STARS', skystars), ('SKY ROYAL', srows))))
+    srcs = (('SKY PAIRS', skypairs), ('SKY STARS', skystars), ('SKY ROYAL', srows))
+    row = write_timeline(ws, row, ctx, timeline(ctx, R0, skyeq, srcs))
+    row = write_long(ws, row, ctx, timeline(ctx, R0, skyeq, srcs, keep=long_keep), 'LONG TIMELINE',
+                     'LONG TIMELINE (Eddie, 16 Oct 2026): every sky Jupiter event on this sheet scoring >= 80 at the off, any exact time (same sources '
+                     'and rules as TIMELINE; beyond 50 years "more than 50 years away / ago"); SEPARATING most recent first, APPLYING soonest first')
     ws.column_dimensions['B'].width = 30
     fields = {}
     for P in sorted(runners):

@@ -109,7 +109,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (110/110). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (113/113). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -444,6 +444,27 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   texts (T19, T22): 0 mismatches. Display note: an event a few seconds before the off (J T6 S Jupiter → J Juno RA 988×φ scaled, t −0.034)
   shows 0 min, "separating", 14:34, just above the OFF marker.
 
+## jupiter_tables: LONG TIMELINE, sky equivalents on TIMELINE H / J (Eddie, 16 Oct 2026; viewing only)
+- LONG TIMELINE on SKY JUPITER and LONG TIMELINE H / J on every runner sheet (after TIMELINE / TIMELINE H / J): the same sources, rules and
+  dedupe, filter = score at the off >= 80, any exact time (no-motion / fixed rows, together rows, automatic unisons left out). Two sections:
+  SEPARATING (most recent first), APPLYING (soonest first). Columns as TIMELINE, but col 3 "from the off" as text (min under a day, else
+  days; beyond 50 years "more than 50 years away / ago", also in the exact column) and a numeric "minutes from the off" last.
+- Sky equivalent on every TIMELINE H / J and LONG TIMELINE H / J row (cols 14–19): the same relationship in the sky at the off, natal points
+  replaced by the same sky body, same plane: value, best family / interval (area) or nearest outside, score, timing (exact_time), "same as
+  sky" when event and sky are hits on the same target. "—" where two points become one (T10, T11, T12–T14, T19 H X – J X, T20, T22 ratio /
+  midpoint) or there is no sky equivalent (Equator not straddling). A together sky side: values only. Never adds or removes a row.
+- Counts (LONG: events, separating / applying): Lingfield 14:35 2021 SKY 26 (10 / 16); P01 H 24 (12 / 12), J 18 (10 / 8); P03 H 14 (7 / 7),
+  J 22 (10 / 12); P05 H 19 (12 / 7), J 20 (9 / 11); P07 H 19 (10 / 9), J 19 (10 / 9); P09 H 23 (11 / 12), J 26 (10 / 16); P11 H 19 (8 / 11),
+  J 19 (12 / 7). Ascot 14:30 2012 SKY 31 (14 / 17); P01 H 17 (9 / 8), J 23 (10 / 13). "same as sky" tags: 0 in both races (33 Lingfield +
+  5 Ascot rows have both event and sky hits, all on different targets). Sizes: Lingfield 1.40 + 2.90 MB, Ascot 0.33 + 0.49 MB.
+- Tests 113/113 (test 26): every LONG row >= 80 in the right section and order; every sky equivalent cell (371) recomputed from POSITIONS
+  (value, target, score, timing); "—" on T12 / T13 / T22 ratios; by hand: P05 LONG H S Betelgeuse → H Jupiter RA (S Betelgeuse 88.791862,
+  +0.000000131692 /min; H Jupiter 199.732329): 110.940467 -> 10×φ^5 110.901699 (86.51), applying, exact 24 Oct 2021 00:52 (+204.43 days);
+  sky S Betelgeuse → S Jupiter RA 122.994551 -> φ^10 (99.13), applying, exact 14:55 (in 20.5 min); no tag.
+- Independent checker (16 Oct), Lingfield from POSITIONS (own code): SKY JUPITER LONG TIMELINE (26 events, 560 cells), P07 LONG H / J
+  (19 / 19, 441 cells each), every sky equivalent cell of P07 TIMELINE H / J and LONG H / J, and the same for P01, P03, P05, P09, P11:
+  0 mismatches; no tag anywhere. Not exercised in this race: a T16 crossing event and a sky midpoint hit on a midpoint-kind event.
+
 ## jupiter_tables: value scaling removed (Eddie, 16 Oct 2026)
 - Every "scaled ×10 / ÷10" column, scaled timing cell, scaled THREADS / NUMBERS / TIMELINE hit and "(widens 10x in degrees)" note removed
   (tables, SKY sheets, TIMELINE, THREADS, NUMBERS, FIELD). Value cells per plane are 8 (value, +5, target, group, offset, score, arrow,
@@ -504,6 +525,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **LONG TIMELINE (score >= 80, any time) and sky equivalents on TIMELINE H / J (16 Oct 2026, Eddie):** see its section. Tests 113/113.
 - **Value scaling removed (16 Oct 2026, Eddie):** see its section and Families. Tests 110/110.
 - **TIMELINE H / TIMELINE J on every runner sheet (16 Oct 2026, Eddie):** see its section. Tests 109/109.
 - **TIMELINE on SKY JUPITER (16 Oct 2026, Eddie):** see its section. Tests 106/106.

@@ -1067,5 +1067,98 @@ check('TIMELINE J P05 S Jupiter → J Venus Dec (by hand: Dec S Jupiter −14.38
       'shrinking 0.0000425872 /min, 33 reached in 13.0 min -> applying, exact 14:47 (94.54), also T19',
       len(jv) == 1 and jv[0][1] == '14:47' and jv[0][2] == 13.0 and jv[0][7] == '33 (whole)' and jv[0][9] == 33.000553
       and jv[0][10] == 94.54 and jv[0][11] == 'applying' and 'also T19' in jv[0][12], str(jv))
+# Eddie 16 Oct 2026: LONG TIMELINE (score >= 80, any time) and the sky equivalent cells on TIMELINE H / J and LONG TIMELINE H / J
+print('\nTest 26 (Eddie 16 Oct): LONG TIMELINE and sky equivalents — Lingfield AW 14:35 2021 (every runner) and Ascot 14:30 2012')
+import families as FAM
+
+
+def long_check(f, off):
+    """LONG rows: score >= 80, SEPARATING (t < 0, most recent first) then APPLYING (soonest first); every sky equivalent cell (TIMELINE H / J
+    and LONG H / J) recomputed from POSITIONS: value, target (best family / interval or nearest outside), score, timing minutes"""
+    w = openpyxl.load_workbook(f, read_only=True)
+    posr = list(w['POSITIONS'].iter_rows(values_only=True))
+    sky = {r[3]: r for r in posr if r and r[0] == 'SKY'}
+    bad, nl, ns = [], 0, 0
+
+    def pos(pt, m):
+        r = sky[pt.split(' ', 1)[1]]
+        return ((r[5] + m * r[7]) % 360, r[6] + m * r[8])
+
+    def d(a, b, pl, m):
+        p, q = pos(a, m), pos(b, m)
+        if pl == 'RA':
+            x = abs(p[0] - q[0]) % 360
+            return min(x, 360 - x)
+        return abs(p[1] - q[1]) if pl == 'Dec' else abs(abs(p[1]) - abs(q[1]))
+
+    mins = lambda txt: (float(re.search(r'\(in ([\d.]+) min\)', txt).group(1)) if '(in ' in txt else
+                        -float(re.search(r'\(([\d.]+) min ago\)', txt).group(1)))
+    for n in [x for x in w.sheetnames if x == 'SKY JUPITER' or (x.startswith('P') and x[1:].isdigit())]:
+        sec, last = None, None
+        for r in w[n].iter_rows(values_only=True):
+            if not r or not isinstance(r[0], str):
+                continue
+            if r[0].startswith('LONG TIMELINE') and isinstance(r[3], str) and r[3].startswith('———'):
+                sec, last = r[3].split()[1].rstrip(':'), None
+                continue
+            ti = 13 if n == 'SKY JUPITER' else 19            # 'minutes from the off' (last column: after the sky cells on runner sheets)
+            if r[0].startswith('LONG TIMELINE') and r[4] and len(r) > ti and isinstance(r[ti], (int, float)):
+                nl += 1
+                t = r[ti]
+                if r[10] is None or r[10] < 80 or (sec == 'SEPARATING') != (t < 0) or r[11] != ('applying' if t >= 0 else 'separating') \
+                        or (last is not None and (t > last if sec == 'SEPARATING' else t < last)):
+                    bad.append((n, 'long', r[1:6], sec))
+                last = t
+            if r[0] in ('TIMELINE H', 'TIMELINE J', 'LONG TIMELINE H', 'LONG TIMELINE J') and r[4] and len(r) > 14 and r[14] not in (None, '—'):
+                ns += 1
+                rel, pl, v, tgt, sc, tim = r[13], r[5], r[14], r[15], r[16], r[17]
+                if ' RA = S Dec' in rel:
+                    x = rel.split('–', 1)[1].split(' S RA')[0]
+                    v0, v5 = (d('S Jupiter', f'S {x}', 'RA', m) - d('S Jupiter', f'S {x}', 'Dec', m) for m in (0, 5))
+                    ev = None if abs(v0) >= 0.02 else 1
+                    tv, lab = 0.0, 'crossing'
+                elif ': ' in rel:
+                    m_, xy = rel.split(': ')
+                    x, y = re.split(' – | = ', xy)
+                    a0, b0, a5, b5 = d(m_, x, pl, 0), d(m_, y, pl, 0), d(m_, x, pl, 5), d(m_, y, pl, 5)
+                    v0, v5 = (a0 / b0, a5 / b5) if a0 >= b0 else (b0 / a0, b5 / a5)
+                    ev = FAM.best(v0, None, 'ratio')
+                    dd = ev or FAM.outside(v0, None, 'ratio')
+                    tv, lab = (1.0, '1 · unison · midpoint') if tgt.startswith('1 · unison · midpoint') else (dd['tv'], dd['target'] + ' · ')
+                else:
+                    a, b = rel.split(' → ')
+                    v0, v5 = d(a, b, pl, 0), d(a, b, pl, 5)
+                    fp = pl if pl in ('RA', 'Dec') else None
+                    ev = FAM.best(v0, fp, 'deg')
+                    dd = ev or FAM.outside(v0, fp, 'deg')
+                    tv, lab = dd['tv'], dd['target'] + ' ('
+                tt = (tv - v0) / ((v5 - v0) / 5)
+                ok = abs(v0 - v) < 2e-6 and tgt.startswith(lab) and abs(tt - mins(tim)) < 0.06 if abs(tt) < 50 * 525960 else 'more than 50' in tim
+                if 'together' not in tgt and not tgt.startswith('1 · unison · midpoint') and (sc is None) != (ev is None):
+                    ok = False
+                if not ok:
+                    bad.append((n, rel, pl, round(v0, 6), v, tgt[:30], round(tt, 1), tim))
+    return nl, ns, bad
+
+
+bad, nl, ns = [], 0, 0
+for f, off in (('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', None),
+               ('reference/classic/race_batch_20120619_ascot_1430_jupiter_tables.xlsx', None)):
+    a_, b_, c_ = long_check(f, off)
+    nl += a_; ns += b_; bad += c_
+check('LONG TIMELINE (sky and every runner H / J): every row scores >= 80, SEPARATING (most recent first) then APPLYING (soonest first); '
+      'every sky equivalent cell (TIMELINE H / J, LONG H / J) = the same relationship recomputed from POSITIONS (value, target, score, timing)',
+      not bad and nl > 0 and ns > 0, f'{nl} long rows, {ns} sky cells; {bad[:3]}')
+bg = [r for r in wbl['P05'].iter_rows(values_only=True) if r and r[0] == 'LONG TIMELINE H' and r[4] == 'S Betelgeuse → H Jupiter' and r[5] == 'RA']
+check('LONG TIMELINE H P05 S Betelgeuse → H Jupiter RA (by hand from POSITIONS: RA S Betelgeuse 88.791862 (+0.000000131692 /min), H Jupiter '
+      '199.732329; S Jupiter 325.797311 (+0.000130972 /min)): 110.940467 shrinking 0.000000131692 /min to 10×φ^5 110.901699 (86.51) -> applying, '
+      'exact 24 Oct 2021 00:52 (+204.43 days); sky equivalent S Betelgeuse → S Jupiter RA 122.994551 shrinking 0.000130841 /min -> φ^10 '
+      '122.991869 (99.13), applying, exact 14:55 (in 20.5 min); different targets, no tag',
+      len(bg) == 1 and bg[0][1] == '24 Oct 2021 00:52' and bg[0][2] == '+204.43 days' and bg[0][9] == 110.940467 and bg[0][10] == 86.51
+      and bg[0][13] == 'S Betelgeuse → S Jupiter' and bg[0][14] == 122.994551 and bg[0][15] == 'φ^10 (phi power)' and bg[0][16] == 99.13
+      and bg[0][17] == 'applying, exact 14:55 (in 20.5 min)' and bg[0][18] is None, str(bg[0][:20] if bg else bg))
+dash = [r for r in wbl['P05'].iter_rows(values_only=True) if r and r[0] in ('TIMELINE H', 'LONG TIMELINE H') and r[3] in ('T12', 'T13', 'T22') and r[6] == 'ratio']
+check('sky equivalent "—" where two points become one (T12 / T13 both Jupiters, T22 star to S Jupiter and H Jupiter)',
+      dash and all(r[14] == '—' for r in dash), str([r[3:6] + r[13:15] for r in dash][:3]))
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
