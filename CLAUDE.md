@@ -82,7 +82,11 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   28.39 + 48.02 = 76.41.
   Independent checker (14 Oct, revised rule): every T10 / T11 cell of Ascot P01 and Lingfield P01–P11 (3,594), Haydock P03 and
   Nottingham P03; T17 / SKY EQ lines and completeness; every T19 / SKY PAIRS / P09 PAIRS row; every T18 side checked: 0 mismatches.
-- Decimal scaling: v, 10·v and v/10 are tested against every family, labelled ×10 / ÷10, in their own column (÷10 widens a tolerance 10× in degrees).
+- No value scaling (Eddie, 16 Oct 2026; replaces "decimal scaling"): the measured value (distance or ratio) is never multiplied or
+  divided by 10. Scaled forms exist only as targets in the family lists (φ powers incl. 10φ^n and 100φ, ninths at every decade, √2 1.414 /
+  14.14 / 141.4, silver 0.414 / 4.14 / 41.4, as in families.py). jupiter_tables has no scaled column, scaled timing, scaled THREADS /
+  NUMBERS / TIMELINE hit or repeat rule (KEEP_MARGIN, same_digits gone). NUMBERS rows still fold the target forms by family and digits.
+  (families.scaled stays in families.py, unused by the tables.)
 - RA–Dec crossing (same body pair, RA distance in one chart = Dec distance in another; natal RA = sky Dec and the reverse): ±0.02,
   linear score; the value need not be in a family (its family score shown beside it). In jupiter_tables: T16 (Jupiter–X, 6 orderings) + FIELD 16.
 - No birth-day certainty for now.
@@ -101,11 +105,11 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   are run, blind (no results opened).
 - Viewing tool (13 Oct 2026, not a reader): `python3 tools/jupiter_tables.py <race_batch xlsx | reference/classic/<race> folder>` ->
   race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T14, T16–T22 per runner (T15 removed 15 Oct 2026), field matrices, off and +5 min,
-  every family from tools/families.py scored, best = highest score, also, scaled ×10 / ÷10, colours by score; ratios on the interval
+  every family from tools/families.py scored, best = highest score, also (no scaled column since 16 Oct 2026), colours by score; ratios on the interval
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (109/109). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (110/110). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -440,7 +444,36 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   texts (T19, T22): 0 mismatches. Display note: an event a few seconds before the off (J T6 S Jupiter → J Juno RA 988×φ scaled, t −0.034)
   shows 0 min, "separating", 14:34, just above the OFF marker.
 
+## jupiter_tables: value scaling removed (Eddie, 16 Oct 2026)
+- Every "scaled ×10 / ÷10" column, scaled timing cell, scaled THREADS / NUMBERS / TIMELINE hit and "(widens 10x in degrees)" note removed
+  (tables, SKY sheets, TIMELINE, THREADS, NUMBERS, FIELD). Value cells per plane are 8 (value, +5, target, group, offset, score, arrow,
+  also); the SKY block has one timing column per plane (RA C–K, Dec L–T); T1 / T2 SKY cells 8 + timing. Values, targets, scores and
+  timings otherwise unchanged.
+- Lost, cells whose only hit was a scaled one (value × plane): Lingfield 14:35 2021 SKY 9, T1 114, T2 115, T3 40, T4 31, T5 39, T6 27,
+  T7 37, T8 40, T9 2, T12 8, T13 12, T14 0 (T1 / T2 include their SKY cells); Ascot 14:30 2012 SKY 13, T1 22, T2 29, T3 5, T4 5, T5 7,
+  T6 7, T7 9, T8 5, T13 3.
+- TIMELINE events before -> after: sky Lingfield 50 -> 48 (now 18 / 5 / 25), Ascot 35 -> 31 (7 / 3 / 21); H / J Lingfield P01 21 / 16 ->
+  18 / 11, P03 15 / 15 -> 13 / 13, P05 18 / 15 -> 14 / 12, P07 17 / 16 -> 13 / 11, P09 32 / 17 -> 27 / 14, P11 20 / 18 -> 18 / 15;
+  Ascot P01 14 / 15 -> 13 / 11. The Ascot sky event S Jupiter → S Deneb Algedi RA ×10 574×φ (score 0.00, 14:09) is gone; no Deneb
+  Algedi Dec 216×φ event existed in either race (searched every sheet of all ten tables workbooks).
+- THREADS lines (>= 50) before -> after: Lingfield 294 -> 195 (114 scaled lines gone; main lines hidden by a scaled repeat shown again),
+  "+ n weaker" 660 -> 389; Ascot 60 -> 40 (25 scaled), 101 -> 56. Tags unchanged (they used the main hits only), cells carrying each: Lingfield
+  mutual same chart 1, across 0, both Jupiters 1, both charts 32; Ascot 3 / 0 / 0 / 8 (a first count of 2 / 1 / 3 also counted the
+  header row; corrected by the checker); one cell (Lingfield P03 Makemake) held only a scaled line ("directions 0", H Jup→H
+  Makemake Dec 18.199475 x10 182) and is now empty. Ascot tags unchanged.
+- Tests 110/110. Built on a scaled hit: test 8 (Nottingham Dynamic Force Uranus THREADS 'J Jup→H Uranus Dec 14.141031 /10 → 1.414
+  (99.12) [T4, scaled]' and the repeat rule) -> moved to the value as it is, '→ 14.14 (96.90) [T4]' (√2 target form, found by the rule);
+  test 22 (SKY S Mercury RA ÷10 on 2×φ, 16:09, and the scaled-timing checks) -> retired; the Dec φ^5 15:32 case kept, RA now outside with
+  no timing; test 25 scaled factor dropped. Column positions moved (not results): COL Dec 11 -> 10, test 18 T1 SKY cells, test 19 T12–T14.
+  New check: no scaling anywhere in the Lingfield and Ascot workbooks.
+- Independent checker (16 Oct), Lingfield from POSITIONS (own code): no scaling left (26 "never scaled" notes only); every value cell of
+  T1–T9, T12–T14 and SKY equal to the before workbook after the column shift, scaled-only counts as above; THREADS recomputed (lines 294 ->
+  195, scaled 114 -> 0, "+ n weaker" 660 -> 389, tags unchanged, only P03 Makemake emptied); every P## NUMBERS sheet and FIELD NUMBERS
+  recomputed (2,313 values; FIELD NUMBERS 1 row, ninth 14.4444 / 144.444, P09); TIMELINE = before minus the 44 scaled events, splits right:
+  0 mismatches.
+
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
+(16 Oct 2026: value scaling removed - the scaled lines, scaled hits and the repeat rule below are gone; see "No value scaling".)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
 same digits (target ×10 or ÷10, e.g. ninth 11.1111 / 1.11111, √2 14.14 / 1.414). Only one form is shown: the main form, unless the
 scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct). Scores are rounded only for display, at 2 dp everywhere
@@ -471,6 +504,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **Value scaling removed (16 Oct 2026, Eddie):** see its section and Families. Tests 110/110.
 - **TIMELINE H / TIMELINE J on every runner sheet (16 Oct 2026, Eddie):** see its section. Tests 109/109.
 - **TIMELINE on SKY JUPITER (16 Oct 2026, Eddie):** see its section. Tests 106/106.
 - **SKY block timing, royal-star-only tables T21R / T22R / SKY ROYAL / FIELD 21R / 22R (16 Oct 2026, Eddie):** see its section.

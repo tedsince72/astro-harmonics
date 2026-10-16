@@ -54,7 +54,7 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, "tools"))
 os.chdir(REPO)
 GREEN, YELLOW, LIGHT = '00C6EFCE', '00FFEB9C', '00FFF8DC'
-COL = {'RA': 2, 'Dec': 11}                                # 0-based column of each plane's value (RA, Dec; 9 columns each; Flat, GC removed 14 Oct 2026)
+COL = {'RA': 2, 'Dec': 10}                                # 0-based column of each plane's value (RA, Dec; 8 columns each since the scaled column went, 16 Oct 2026)
 RES = []
 
 
@@ -240,11 +240,11 @@ check('Dynamic Force Transpluto tags (moved): mutual, same chart · mutual, acro
       dt[0] == 'mutual, same chart · mutual, across charts · both Jupiters · directions 3'
       and all(x in dt for x in ('S Transpluto→H Jup Dec 33.33254 → 33.3333 (99.05) [T7]', 'S Jup→J Transpluto RA 141.532633 → 141.4 (71.00) [T6]',
                                  'S Transpluto→J Jup Dec 13.368851 → 13.3333 (57.38) [T8]')), str(dt[:5]))
-check('cells list hits >= 50 only; a repeat (same family, same digits) shown once: main kept unless the scaled form is > 0.5 higher '
-      '(unrounded): 11.10793 main (/10 only +0.0016), 14.141031 as /10 1.414 (99.12 vs 96.9); last line "+ n weaker"',
-      df[-1].startswith('+ ') and df[-1].endswith(' weaker (see T-tables)') and not any('/10: 1.110793' in x for x in df)
-      and 'J Jup→H Uranus Dec 14.141031 /10: 1.414103 → 1.414 (99.12) [T4, scaled]' in df
-      and not any(x.startswith('J Jup→H Uranus Dec 14.141031 → 14.14') for x in df)
+# 16 Oct 2026 (Eddie): values never scaled - retired 'J Jup→H Uranus Dec 14.141031 /10: 1.414103 → 1.414 (99.12) [T4, scaled]' and the
+# repeat rule; the same value now shows its hit as it is on the √2 target 14.14 (found by the rule, not tuned)
+check('cells list hits >= 50 only, on the value as it is (no scaled lines): J Jup→H Uranus Dec 14.141031 → 14.14 (96.90) [T4]; last line "+ n weaker"',
+      df[-1].startswith('+ ') and df[-1].endswith(' weaker (see T-tables)') and not any('scaled' in x or 'x10:' in x or '/10:' in x for x in df)
+      and 'J Jup→H Uranus Dec 14.141031 → 14.14 (96.90) [T4]' in df
       and all(float(x.rsplit('(', 1)[1].split(')')[0]) >= 50 for x in df[1:-1] if not x.startswith('mid ')), df[-1])
 
 print('\nTest 9: Wincanton 14:20 2022 — NUMBERS (moved 14 Oct 2026 from P07 7.777 to P01 Reserve Tank, ninth 11.1111)')
@@ -641,9 +641,9 @@ t1 = [r for r in wbl['P03'].iter_rows(values_only=True) if r and r[0] == 'T1' an
 check('T1 P03 H Jupiter → H Sun, SKY Dec cell S Jupiter → S Sun (by hand from POSITIONS: Dec S Jupiter −14.389918, S Sun 5.028708; rates '
       '+0.0000426 / +0.0002664 per min): 19.418627, +5 min 19.419746, 12×φ golden +0.00222 (86.76), away, separating, exact 14:25 (9.9 min ago); '
       'natal Dec 2.609925 (φ^2) unchanged; no same as sky tag (φ^2 / 10×φ^2 against 12×φ / 120×φ)',
-      len(t1) == 1 and t1[0][11] == 2.609925 and t1[0][13] == 'φ^2 (phi power)' and t1[0][30] == 19.418627 and t1[0][31] == 19.419746
-      and t1[0][32] == '12×φ (golden)' and t1[0][34] == '+0.00222' and t1[0][35] == 86.76 and t1[0][36] == '<- away'
-      and t1[0][39] == 'separating, exact 14:25 (9.9 min ago)' and (len(t1[0]) < 41 or t1[0][40] is None), str(t1[0][28:41] if t1 else t1))
+      len(t1) == 1 and t1[0][10] == 2.609925 and t1[0][12] == 'φ^2 (phi power)' and t1[0][27] == 19.418627 and t1[0][28] == 19.419746
+      and t1[0][29] == '12×φ (golden)' and t1[0][31] == '+0.00222' and t1[0][32] == 86.76 and t1[0][33] == '<- away'
+      and t1[0][35] == 'separating, exact 14:25 (9.9 min ago)' and (len(t1[0]) < 37 or t1[0][36] is None), str(t1[0][26:37] if t1 else t1))
 t21s = [r for r in wbl['P11'].iter_rows(values_only=True) if r and r[0] == 'T21' and r[1] == 'Alphecca – Betelgeuse' and r[2] == 'RA']
 check('T21 P11 Alphecca – Betelgeuse RA, sky side S Jupiter: S Alphecca – S Betelgeuse (by hand from POSITIONS: RA S Jupiter 325.797311, '
       'S Alphecca 233.677137, S Betelgeuse 88.791862): 92.120174 / 122.994551 (φ^10, 99.13, applying, exact 14:55) / 144.885275 (ninth 144.444, '
@@ -718,7 +718,7 @@ def walk(ws, tids, row_area, title=lambda r: None):
     return n, bad, seen
 
 
-t1214 = lambda r: row_ar([side_area(r[c + 2], r[c + 5], None) for c in ((2, 11) if r[0] != 'T14' else (2,)) if len(r) > c + 5])
+t1214 = lambda r: row_ar([side_area(r[c + 2], r[c + 5], None) for c in ((2, 10) if r[0] != 'T14' else (2,)) if len(r) > c + 5])
 PL = ('RA', 'Dec', 'Equator')
 pairs = lambda r: 'skip' if len(r) < 4 or r[3] not in PL else row_ar([side_area(r[11], r[13], r[21] if len(r) > 21 else None)])
 t21 = lambda r: 'skip' if len(r) < 3 or r[2] not in PL else row_ar([side_area(r[c + 7], r[c + 9], r[c + 17], 50.0) for c in (3, 21)
@@ -813,25 +813,22 @@ check('T19 "same as sky" (Eddie 15 Oct, revised): never on d(S Jupiter, royal st
       f'{len(royleg)} royal-leg tags, {len(tog)} together sides, {gg[0][41] if gg else gg}')
 check('T19 sky side: every H–J row "—"; every Equator sky side has S Jupiter, S X, S Y straddling (else "—"); the listing unchanged (1365 rows)',
       len(t19l) == 1365 and all(r[22] == '—' for r in t19l if r[1] == 'H–J') and all(r[22] is not None for r in t19l), f'{len(t19l)} rows')
-# Eddie 16 Oct 2026: timing on the SKY JUPITER "SKY" block, best and scaled hit per plane
+# Eddie 16 Oct 2026: timing on the SKY JUPITER "SKY" block (the scaled timing retired the same day: values are never scaled)
 print('\nTest 22 (Eddie 16 Oct): SKY block timing — Lingfield AW 14:35 2021')
 wbl = openpyxl.load_workbook('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', read_only=True)
 sm = [r for r in wbl['SKY JUPITER'].iter_rows(values_only=True) if r and r[0] == 'SKY' and r[1] == 'S Jupiter → S Mercury']
 check('SKY S Jupiter → S Mercury (by hand from POSITIONS: Dec S Jupiter −14.389918 (+0.0000425872 /min), S Mercury −3.326422 '
       '(+0.000505303 /min), off 14:35): Dec 11.063496 → 11.065810 at +5, φ^5 11.090170, rate 0.00046272 /min -> applying, exact 15:32 '
-      '(in 57.6 min); its scaled x10 10×φ^5 is a repeat (same family and digits): one timing only (Eddie 16 Oct); RA 32.268875 -> 32.27372, '
-      'scaled /10 2×φ (20φ 32.360680, a different number) reached in 94.7 min -> 16:09; RA best (outside) no timing. Timing inside each '
-      'plane block, after its scaled column (16 Oct): RA cols 3-13, Dec cols 14-24',
-      len(sm) == 1 and sm[0][13] == 11.063496 and sm[0][15] == 'φ^5 (phi power)' and sm[0][22] == 'applying, exact 15:32 (in 57.6 min)'
-      and sm[0][23] is None and sm[0][21].startswith('x10: 10×φ^5') and sm[0][11] is None
-      and sm[0][12] == 'applying, exact 16:09 (in 94.7 min)' and sm[0][10].startswith('/10: 2×φ'),
-      str(sm[0][2:24] if sm else sm))
+      '(in 57.6 min); RA 32.268875 outside every family (20×φ 32.360680 outside ±0.0324): no timing. Timing inside each plane block, '
+      'after its cells: RA cols 3-11, Dec cols 12-20. (16 Oct 2026: the RA /10 2×φ scaled hit, 16:09, and the scaled timing column retired '
+      '- values are never scaled)',
+      len(sm) == 1 and sm[0][11] == 11.063496 and sm[0][13] == 'φ^5 (phi power)' and sm[0][19] == 'applying, exact 15:32 (in 57.6 min)'
+      and sm[0][2] == 32.268875 and sm[0][4].startswith('20×φ (golden) — outside') and sm[0][7] is None and sm[0][10] is None,
+      str(sm[0][2:21] if sm else sm))
 skr = [list(r) + [None] * 30 for r in wbl['SKY JUPITER'].iter_rows(values_only=True) if r and r[0] == 'SKY' and r[1] != 'S Jupiter → sky points']
-check('SKY block: a best timing exactly where the best hit (score) is; a scaled timing only with a scaled hit, and a missing one only '
-      'where the scaled hit repeats the best (then the best timing is there), per plane (RA, Dec)',
-      skr and all((r[c + 5] is not None) == (r[c + 9] is not None) and (r[c + 10] is None or r[c + 8] is not None)
-                  and (r[c + 8] is None or r[c + 10] is not None or r[c + 9] is not None)
-                  for r in skr for c in (2, 13)) and sum(1 for r in skr for c in (2, 13) if r[c + 8] and r[c + 10] is None) > 0, f'{len(skr)} rows')
+check('SKY block: a timing exactly where the best hit (score) is, per plane (RA, Dec); no scaled column',
+      skr and all((r[c + 5] is not None) == (r[c + 8] is not None) for r in skr for c in (2, 11))
+      and not any(isinstance(x, str) and ('x10:' in x or '/10:' in x) for r in skr for x in r), f'{len(skr)} rows')
 
 # Eddie 16 Oct 2026: no together side shows a score (T19 sky side, T21 / T21R sides, SKY ROYAL rows)
 tsc = []
@@ -850,6 +847,19 @@ check('no together side shows a score (Eddie 16 Oct): T19 sky sides (e.g. Lingfi
 p7 = [r for r in wbl['P07'].iter_rows(values_only=True) if r and r[0] == 'T19' and r[2] == 'J Orcus – J Gonggong' and r[3] == 'Dec']
 check('T19 P07 J Orcus – J Gonggong Dec sky side together: values kept (ratio 1.007991), no score', len(p7) == 1 and p7[0][28] == 1.007991
       and p7[0][31] is None and 'together' in p7[0][34], str(p7[0][28:35] if p7 else p7))
+
+# Eddie 16 Oct 2026: no value scaling anywhere (no scaled column, scaled timing, scaled THREADS / NUMBERS / TIMELINE hits, 'widens' note)
+scl = []
+for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', 'reference/classic/race_batch_20120619_ascot_1430_jupiter_tables.xlsx'):
+    w = openpyxl.load_workbook(f, read_only=True)
+    for n in w.sheetnames:
+        for r in w[n].iter_rows(values_only=True):
+            for x in r or ():
+                if isinstance(x, str) and ('x10:' in x or '/10:' in x or 'scaled x10 / /10' == x or '[scaled]' in x or ', scaled]' in x
+                                           or 'widens 10x' in x or x.startswith('distance (scaled') or x.startswith('ratio (scaled') or x.startswith('timing (scaled')):
+                    scl.append((n, x[:60]))
+check('no value scaling anywhere in the Lingfield and Ascot workbooks (Eddie 16 Oct): no scaled column or timing, no scaled THREADS / NUMBERS / '
+      'TIMELINE hit, no "widens 10x" note', not scl, str(scl[:4]))
 
 # Eddie 16 Oct 2026: royal-star-only tables T21R, T22R, SKY ROYAL, FIELD 21R / 22R
 print('\nTest 23 (Eddie 16 Oct): royal-star-only tables — Lingfield AW 14:35 2021 (every runner) and Ascot 14:30 2012')
@@ -991,7 +1001,7 @@ def rtl_check(f, off):
                     continue
                 n += 1
                 rel, pl, kind, tv = r[4], r[5], r[6], r[8]
-                f_ = 10.0 if 'scaled x10' in kind else 0.1 if 'scaled /10' in kind else 1.0
+                f_ = 1.0                                   # values never scaled (16 Oct 2026)
                 try:
                     if kind.startswith('distance'):
                         a, b = rel.split(' → ')

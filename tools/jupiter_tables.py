@@ -10,7 +10,8 @@ with Jupiter, per runner, tags and field counts - see threads_sheet); P## NUMBER
 folded, SKY / HORSE / JOCKEY / SKY->NATAL - see numbers_sheet); FIELD 5-8, 10-14, 16, 17, 20.
 Each value (13 Oct 2026, Eddie's correction): every family of tools/families.py (Eddie's definitions, his scores from
 rebuild_kit/active_vibrations.py) is scored; nearest target = the family with the highest score; the other families with a score > 0
-are listed beside it ('also'); 'scaled' = best family of 10 v or v / 10 (/10 widens a tolerance 10x in degrees). Ratio values (T12-T14; T15 removed 15 Oct 2026)
+are listed beside it ('also'); values are never scaled x10 / /10 (Eddie, 16 Oct 2026: the x10 / /10 forms exist only as targets in
+the family lists; the 'scaled' column, scaled timing and scaled THREADS / NUMBERS hits removed). Ratio values (T12-T14; T15 removed 15 Oct 2026)
 are scored against Eddie's musical interval list only (families.interval_tol: area A 1, 3/2, 2 ... 9 on ±0.02 absolute, area B tapered %, 15 Oct 2026): target 'interval · name · group' plus a Group column; per runner a
 'P## RATIOS' sheet (RATIOS BY GROUP: grouped, tightest first) and FIELD 12-14 matrices with the group tag. Colours by score: green >= 80,
 yellow 50-80, light yellow < 50. No summary totals. Outside every tolerance (13 Oct): the value cell still shows its nearest target
@@ -35,7 +36,7 @@ title counts rows with hits in more than one area), order inside a block as befo
 SKY PAIRS body – royal (Eddie, 15 Oct 2026): S Jupiter on each sky body (Moon included) with each royal star, block "body – royal", same
 filter, area blocks and sort. T19 sky side (Eddie, 15 Oct 2026): S Jupiter: S X – S Y beside each T19 row ("—" for H X – J X or where there
 is none), its area, and "same as sky" (same number on the same leg incl. d(X, Y), or the same ratio interval); listing unchanged.
-16 Oct 2026 (Eddie): SKY block timing columns (best and scaled hit, per plane); royal-star-only tables after the full ones, every line:
+16 Oct 2026 (Eddie): SKY block timing column (best hit, per plane); royal-star-only tables after the full ones, every line:
 T21R, T22R (runner sheets), SKY ROYAL (SKY JUPITER), FIELD 21R / 22R.
 TIMELINE (16 Oct 2026): at the end of SKY JUPITER, every sky Jupiter event on that sheet exact from the off - 30 to + 60 min, in time order.
 TIMELINE H / J (16 Oct 2026): at the end of each runner sheet, the same for every timed relationship involving that chart (T5-T22).
@@ -63,7 +64,7 @@ LIGHT = PatternFill('solid', start_color='FFF8DC'); HEAD = PatternFill('solid', 
 BOLD = Font(bold=True)
 GREY = PatternFill('solid', start_color='D9D9D9')
 FILL = {'green': GREEN, 'yellow': YELLOW, 'light': LIGHT, 'grey': GREY}
-COLS = 9                                                   # per plane: value, +5, target, group, offset, score, arrow, also, scaled
+COLS = 8                                                   # per plane: value, +5, target, group, offset, score, arrow, also (scaled column removed 16 Oct 2026)
 
 
 # ---------------- reading
@@ -136,13 +137,13 @@ KIND = {'dist': 'deg', 'move': 'deg', 'equator': 'deg', 'ratio': 'ratio', 'eqrat
 
 
 def nearest(v, kind, plane=None):
-    """-> best family (highest score) or None, the other families with a score > 0, the best scaled (x10 / /10) or None"""
+    """-> best family (highest score) or None, the other families with a score > 0. The value is never scaled (Eddie, 16 Oct 2026):
+    x10 / /10 forms exist only as targets in the family lists"""
     if v is None or (isinstance(v, float) and math.isnan(v)):
-        return None, [], None
+        return None, []
     k = KIND[kind]
     ev = families.evaluate(v, plane if k == 'deg' else None, k)
-    sc = families.scaled(v, plane if k == 'deg' else None, k)
-    return (ev[0] if ev else None), ev[1:], (dict(sc[0], deg=k == 'deg') if sc else None)
+    return (ev[0] if ev else None), ev[1:]
 
 
 MID_DTOL = {'RA': 0.5, 'Dec': 0.15, 'Equator': 0.15}     # midpoint distance half (Eddie, 14 Oct 2026): offset of X from the midpoint
@@ -273,8 +274,8 @@ def out_text(d):
     return f"{tlabel(d)} — outside ±{d['tol']:.3g}{' %' if d['pct'] else ''}"
 
 
-def put_value(ws, row, col, v0, v5, ev, also, note='', sc=None, ox=None):
-    """9 cells from col: value, +5, target, group, offset, score (midpoints: t), arrow, also, scaled.
+def put_value(ws, row, col, v0, v5, ev, also, note='', ox=None):
+    """8 cells from col: value, +5, target, group, offset, score (midpoints: t), arrow, also.
     ox = (kind, plane): with no family, the nearest target and offset are still written (plain text, no score, no colour)"""
     if v0 is None:
         return
@@ -301,10 +302,6 @@ def put_value(ws, row, col, v0, v5, ev, also, note='', sc=None, ox=None):
             ws.cell(row=row, column=col + 6, value=arrow(v0, v5, ev))
     if also:
         ws.cell(row=row, column=col + 7, value='; '.join(f"{tlabel(d)} {fmt_off(d)} [{d['score']:.2f}]" for d in also))
-    if sc:
-        c = ws.cell(row=row, column=col + 8, value=f"{sc['scale']}: {tlabel(sc)} {fmt_off(sc)} [{sc['score']:.2f}]"
-                    + (' (widens 10x in degrees)' if sc['scale'] == '/10' and sc['deg'] else ''))
-        c.fill = FILL[sc['colour']]
 
 
 def arrow(v0, v5, ev):
@@ -321,7 +318,7 @@ def header(ws, row, tid, title, planes, extra=()):
     row += 1
     for i, pl in enumerate(planes):
         col = 3 + (COLS + len(extra)) * i
-        for k, h in enumerate((pl, '+5 min', 'nearest target', 'group', 'offset', 'score', 'off->+5', 'also (score)', 'scaled x10 / /10') + extra):
+        for k, h in enumerate((pl, '+5 min', 'nearest target', 'group', 'offset', 'score', 'off->+5', 'also (score)') + extra):
             c = ws.cell(row=row, column=col + k, value=h); c.fill = HEAD; c.font = BOLD
     ws.cell(row=row, column=1, value='table').fill = HEAD
     ws.cell(row=row, column=2, value='points').fill = HEAD
@@ -336,10 +333,10 @@ SKY_COLS = COLS + 1                                        # T1 / T2 SKY cells p
 SAME_COL = 3 + COLS * len(PLANES) + SKY_COLS * len(PLANES)  # T1 / T2 'same as sky' tag column
 
 
-def hit_keys(ev, also, sc):
-    """the numbers a cell hits (best, also, scaled), x10 / /10 folded as in NUMBERS (family + digits); no conjunction -> {key: target}"""
+def hit_keys(ev, also):
+    """the numbers a cell hits (best, also), x10 / /10 target forms folded as in NUMBERS (family + digits); no conjunction -> {key: target}"""
     out = {}
-    for d in [ev, sc] + list(also or []):
+    for d in [ev] + list(also or []):
         if d and d.get('family') != 'conj' and d.get('tv'):
             out.setdefault(num_key(d['family'], d['tv']), d)
     return out
@@ -353,19 +350,17 @@ def same_as_sky(nat, sky):
 
 def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None, nums=None, sky=False, timing=False):
     """rows: [(label, a, b)] -> distances in RA / Dec (equator: Dec only).
-    sky (T1 / T2, Eddie 15 Oct 2026): SKY cells S Jupiter -> S X in the same plane beside each natal row (value, best family, scaled,
+    sky (T1 / T2, Eddie 15 Oct 2026): SKY cells S Jupiter -> S X in the same plane beside each natal row (value, best family,
     +5 min, arrow, exact timing; not in THREADS / NUMBERS) and the tag 'same as sky' where both hit the same number."""
-    # SKY block (Eddie, 16 Oct 2026): each plane's timing inside its own block, after the scaled column: best hit, then the scaled hit
-    # when it is a different number (a repeat - same family and digits, x10 / /10 - shows one timing)
-    W = COLS + (2 if timing else 0)
+    # SKY block (Eddie, 16 Oct 2026): each plane's timing inside its own block, after its cells (no scaled timing: values never scaled)
+    W = COLS + (1 if timing else 0)
     pcol = lambda pl: 3 + W * PLANES.index(pl)
-    row = header(ws, row, tid, title, PLANES, ('timing (best)', 'timing (scaled)') if timing else ())
+    row = header(ws, row, tid, title, PLANES, ('timing',) if timing else ())
     if sky:
         ws.cell(row=row - 2, column=3 + COLS * len(PLANES), value='SKY: S Jupiter → S X, same plane (at the off and +5 min)').font = BOLD
         for i, pl in enumerate(PLANES):
             col = 3 + COLS * len(PLANES) + SKY_COLS * i
-            for k, h in enumerate((f'SKY {pl}', '+5 min', 'nearest target', 'group', 'offset', 'score', 'off->+5', 'also (score)',
-                                   'scaled x10 / /10', 'timing')):
+            for k, h in enumerate((f'SKY {pl}', '+5 min', 'nearest target', 'group', 'offset', 'score', 'off->+5', 'also (score)', 'timing')):
                 c = ws.cell(row=row - 1, column=col + k, value=h); c.fill = HEAD; c.font = BOLD
         c = ws.cell(row=row - 1, column=SAME_COL, value='same as sky'); c.fill = HEAD; c.font = BOLD
     out = {}
@@ -377,18 +372,15 @@ def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None, nums=None,
             if v0 is None:
                 continue
             kind = kind_of(a, b)
-            ev, also, sc = nearest(v0, kind, 'Dec' if kind == 'equator' else pl)
-            put_value(ws, row, pcol(pl), v0, v5, ev, also, sc=sc, ox=(kind, 'Dec' if kind == 'equator' else pl))
+            ev, also = nearest(v0, kind, 'Dec' if kind == 'equator' else pl)
+            put_value(ws, row, pcol(pl), v0, v5, ev, also, ox=(kind, 'Dec' if kind == 'equator' else pl))
             out[(label, pl)] = (v0, ev)
             if timing:                                     # applying / separating, exact clock time (off -> +5 min, linear), as the T-tables
                 tc = pcol(pl) + COLS
                 if ev:
                     ws.cell(row=row, column=tc, value=exact_time(ctx, v0, v5, ev['tv']))
-                if sc and not same_digits(ev, sc):
-                    f = 10.0 if sc['scale'] == 'x10' else 0.1
-                    ws.cell(row=row, column=tc + 1, value=exact_time(ctx, v0 * f, v5 if v5 in (None, 'n/a') else v5 * f, sc['tv']))
             if thr is not None:
-                thread_add(thr, tid, f'{short(a)}→{short(b)}', (a, b), pl, v0, ev, sc)
+                thread_add(thr, tid, f'{short(a)}→{short(b)}', (a, b), pl, v0, ev)
             if nums is not None and KIND[kind] == 'deg' and tid in NUM_COL:
                 number_add(nums, NUM_COL[tid], f'{short(a)}→{short(b)}', 'Dec' if kind == 'equator' else pl, v0)
             if sky:
@@ -398,11 +390,11 @@ def write_pairs(ws, row, tid, title, ctx, R, rows, kind_of, thr=None, nums=None,
                 s0, s5 = ctx.pair(R, sa, sb, pl)
                 if s0 is None:
                     continue
-                sev, salso, ssc = nearest(s0, kind, 'Dec' if kind == 'equator' else pl)
+                sev, salso = nearest(s0, kind, 'Dec' if kind == 'equator' else pl)
                 col = 3 + COLS * len(PLANES) + SKY_COLS * PLANES.index(pl)
-                put_value(ws, row, col, s0, s5, sev, salso, sc=ssc, ox=(kind, 'Dec' if kind == 'equator' else pl))
+                put_value(ws, row, col, s0, s5, sev, salso, ox=(kind, 'Dec' if kind == 'equator' else pl))
                 ws.cell(row=row, column=col + COLS, value=exact_time(ctx, s0, s5, sev['tv']) if sev else None)
-                t = same_as_sky(hit_keys(ev, also, sc), hit_keys(sev, salso, ssc))
+                t = same_as_sky(hit_keys(ev, also), hit_keys(sev, salso))
                 if t:
                     same.append(f'{pl}: {t}')
                 out[(label, pl, 'sky')] = (s0, sev, t)
@@ -525,7 +517,7 @@ def write_mids(ws, row, tid, title, ctx, R, triples, thr=None):
                     ws.cell(row=row, column=c0 + k).number_format = '0.00'
                 if thr is not None:                        # THREADS: a midpoint hit counts at total >= 50 (Eddie 15 Oct)
                     ev = {'target': f"{h['side'] + ' ' if h['side'] else ''}midpoint", 'score': h['score'], 'colour': h['colour']}
-                    thread_add(thr, tid, 'mid ' + short(label), tuple(trip), pl, h['o0'], ev, None)
+                    thread_add(thr, tid, 'mid ' + short(label), tuple(trip), pl, h['o0'], ev)
         row += 1
     return row + 1, data
 
@@ -534,7 +526,7 @@ def runner_sheet(wb, P, R, ctx):
     ws = wb.create_sheet(P)
     ws.cell(row=1, column=1, value=f"{P} {R['name']}").font = BOLD
     ws.cell(row=2, column=1, value='score (Eddie\'s families): green >= 80, yellow 50-80, light yellow < 50; midpoints (T10, T11, T17-T20): two halves, closeness >= 90 % and '
-            'distance from the midpoint (RA 0.5, Dec 0.15, Equator 0.15), each squared x 0.5, a hit needs both, total = the sum; off->+5 = toward / away from the nearest target; scaled = best of 10 v and v / 10 (/10 widens a tolerance 10x in degrees)')
+            'distance from the midpoint (RA 0.5, Dec 0.15, Equator 0.15), each squared x 0.5, a hit needs both, total = the sum; off->+5 = toward / away from the nearest target; values are never scaled x10 / /10 (16 Oct 2026)')
     row = 4
     H, J = R['H'], R['J']
     thr = []                                               # THREADS: every scored hit linking a body with Jupiter
@@ -588,7 +580,7 @@ def runner_sheet(wb, P, R, ctx):
 
     def write_ratio_blocks(row, tid, title, planes, lines, info=()):
         """area blocks (Eddie, 15 Oct 2026): A (an A interval in any plane), B (otherwise a B interval), no hit; each row once, in the
-        order as before; info lines (Jupiter return) on top. lines: [(label, {plane: (v0, v5, inv, ev, also, sc)})]"""
+        order as before; info lines (Jupiter return) on top. lines: [(label, {plane: (v0, v5, inv, ev, also)})]"""
         for t in info:
             ws.cell(row=row, column=1, value=tid)
             ws.cell(row=row, column=2, value=t).font = BOLD
@@ -601,9 +593,9 @@ def runner_sheet(wb, P, R, ctx):
             row = header(ws, row, tid, f'{title} — {AREA_NAME[a]}: {len(by[a])} rows' + multi_text(mixed), planes)
             for lab, cells in by[a]:
                 ws.cell(row=row, column=1, value=tid)
-                for pl, (v0, v5, inv, ev, also, sc) in cells.items():
+                for pl, (v0, v5, inv, ev, also) in cells.items():
                     col = plane_index(pl, planes)
-                    put_value(ws, row, col, v0, v5, ev, also, '' if tid == 'T14' else inv, sc, ox=('eqratio' if tid == 'T14' else 'ratio', pl))
+                    put_value(ws, row, col, v0, v5, ev, also, '' if tid == 'T14' else inv, ox=('eqratio' if tid == 'T14' else 'ratio', pl))
                     if ev and ev['target'] == '1':             # unison: field count written after all runners (may come from age)
                         field['_uni'][(tid, lab, pl)] = (row, col + 7, ev.get('auto', False), ev.get('assisted', False))
                 ws.cell(row=row, column=2, value=lab + (next(iter(cells.values()))[2] if tid == 'T14' else ''))
@@ -631,13 +623,13 @@ def runner_sheet(wb, P, R, ctx):
                     if n0 is None or d0 is None:
                         continue
                     v0, v5, inv = ratio(n0, n5, d0, d5)
-                    ev, also, sc = nearest(v0, 'ratio') if v0 else (None, [], None)
+                    ev, also = nearest(v0, 'ratio') if v0 else (None, [])
                     ev = unison_kind(ctx, R, C, f'{C} {x}', pl, ev)  # automatic (grey, not counted) / return-assisted (tag)
-                    cells[pl] = (v0, v5, inv, ev, also, sc)
+                    cells[pl] = (v0, v5, inv, ev, also)
                     if v0:
                         keep(tid, lab, pl, v0, v5, ev, inv)
                         if not (ev and ev.get('auto')):        # automatic unisons stay out of THREADS
-                            thread_add(thr, tid, short(lab), num(C, x) + den(C, x), pl, v0, ev, sc)
+                            thread_add(thr, tid, short(lab), num(C, x) + den(C, x), pl, v0, ev)
                 lines.append((lab, cells))
         row = write_ratio_blocks(row, tid, title + '  [larger / smaller]', PLANES, lines, info)
     lines = []
@@ -645,12 +637,12 @@ def runner_sheet(wb, P, R, ctx):
         A, B = f'{a} Jupiter', f'{b} Jupiter'
         n0, n5 = ctx.pair(R, A, f'{a} equator', 'Dec'); d0, d5 = ctx.pair(R, B, f'{b} equator', 'Dec')
         v0, v5, inv = ratio(n0, n5, d0, d5)
-        ev, also, sc = nearest(v0, 'eqratio') if v0 else (None, [], None)
+        ev, also = nearest(v0, 'eqratio') if v0 else (None, [])
         if a == 'S':
             ev = unison_kind(ctx, R, b, f'{b} equator', 'Dec', ev)
         if v0:
             keep('T14', f'|Dec| {A} / |Dec| {B}', 'Equator', v0, v5, ev, inv)
-        lines.append((f'|Dec| {A} / |Dec| {B}', {'Equator': (v0, v5, inv, ev, also, sc)}))
+        lines.append((f'|Dec| {A} / |Dec| {B}', {'Equator': (v0, v5, inv, ev, also)}))
     row = write_ratio_blocks(row, 'T14', 'Equator ratios of the three Jupiters (|Dec|, larger / smaller)', ('Equator',), lines)
     row, field['T16'] = write_cross(ws, row, ctx, R)
     nat = [f'{C} {x}' for C in 'HJ' for x in NATAL_BODIES if x in R[C]]         # natal Jupiters included for S Jupiter
@@ -693,13 +685,13 @@ def runner_sheet(wb, P, R, ctx):
                              f"TIMELINE {C} (Eddie, 16 Oct 2026): every timed relationship involving the {who}'s chart ({C}) whose exact time falls from "
                              'the off − 30 min to the off + 60 min (T5–T8, T10, T11, T12–T14, T16, T17, T18, T19, T20, T22), linear from the off and the '
                              'off + 5 min as everywhere; "outside at the off" = not a hit at the off; sky-only and natal-only (fixed) relationships, '
-                             'together rows, automatic unisons and x10 / /10 repeats left out; each event once (other tables in the note); "H + J" = '
+                             'together rows and automatic unisons left out; values never scaled x10 / /10; each event once (other tables in the note); "H + J" = '
                              'uses both charts, in both timelines')
     field['_tl'] = tl
     for (lab, cn), (d, ev) in field['T16'].items():
         x = lab.split('–', 1)[1]
         a, b = cn[0], cn.split('= ')[1][0]
-        thread_add(thr, 'T16', f'Jup–{x} {cn}', (f'{a} {x}', f'{b} {x}'), '', d, ev, None)
+        thread_add(thr, 'T16', f'Jup–{x} {cn}', (f'{a} {x}', f'{b} {x}'), '', d, ev)
     field['_thr'] = thr
     field['_nums'] = nums
     ws.column_dimensions['B'].width = 46
@@ -1076,7 +1068,7 @@ def write_t20(ws, row, ctx, R, thr=None):
                         ws.cell(row=row, column=c0 + k).number_format = '0.00'
                     if thr is not None:                    # THREADS: a Jupiter-X link, counted at total >= 50 (as every hit)
                         ev = {'target': f"{h['side'] + ' ' if h['side'] else ''}midpoint", 'score': h['score'], 'colour': h['colour']}
-                        thread_add(thr, 'T20', 'mid ' + short(lab), (f'S {x}', f'{C} {x}', f'{C} Jupiter'), pl, h['o0'], ev, None)
+                        thread_add(thr, 'T20', 'mid ' + short(lab), (f'S {x}', f'{C} {x}', f'{C} Jupiter'), pl, h['o0'], ev)
         row += 1
     return row + 1, out
 
@@ -1544,9 +1536,9 @@ def tl_key(d):
 
 def timeline(ctx, R0, eq, sources):
     """events = every sky Jupiter relationship on the sheet whose exact time (linear, off -> +5 min, as everywhere) falls within
-    TL_WIN: SKY (S Jupiter -> sky point; best hit, scaled hit unless a repeat, or the nearest target outside at the off), SKY EQ
+    TL_WIN: SKY (S Jupiter -> sky point; best hit, or the nearest target outside at the off), SKY EQ
     (unison), the pair blocks (ratio on its interval or nearest interval, midpoint = unison, each distance leg with a family hit).
-    Together rows / lines left out; one event once (distances folded x10 / /10; ratio by pair, plane and interval); the first source
+    Together rows / lines left out; one event once (distances by number, target forms folded x10 / /10; ratio by pair, plane and interval); the first source
     is named, later ones in the note. -> [event dict] sorted by time"""
     ev_by = {}
 
@@ -1560,16 +1552,15 @@ def timeline(ctx, R0, eq, sources):
             return
         ev_by[key] = dict(e, t=t, also=[])
 
-    def dist(src, a, b, pl, v0, v5, d, hit, scale=None):
-        f = 1.0 if scale is None else (10.0 if scale == 'x10' else 0.1)
+    def dist(src, a, b, pl, v0, v5, d, hit):
         if v5 in (None, 'n/a'):
             return
         rel = f'{a} → {b}' if a == 'S Jupiter' else f'{a} – {b}'
         kp = pl
         if pl == 'Equator' and (ctx.pos(R0, a, 0)[1] >= 0) == (ctx.pos(R0, b, 0)[1] >= 0):
             kp = 'Dec'                                     # both on one side: the Equator distance is the Dec distance, one event
-        add(('d', frozenset((a, b)), kp, tl_key(d)), exact_t(v0 * f, v5 * f, d['tv']), src=src, rel=rel, plane=pl,
-            kind='distance' + (f' (scaled {scale})' if scale else ''), target=tlabel(d), tv=d['tv'], v0=v0 * f,
+        add(('d', frozenset((a, b)), kp, tl_key(d)), exact_t(v0, v5, d['tv']), src=src, rel=rel, plane=pl,
+            kind='distance', target=tlabel(d), tv=d['tv'], v0=v0,
             score=d['score'] if hit else None, colour=d['colour'] if hit else '', out=not hit)
 
     for x in ctx.S0:                                       # SKY block
@@ -1581,15 +1572,13 @@ def timeline(ctx, R0, eq, sources):
             if v0 is None:
                 continue
             fp = 'Dec' if x == 'equator' else pl
-            ev, also, sc = nearest(v0, 'dist', fp)
+            ev, also = nearest(v0, 'dist', fp)
             if ev:
                 dist('SKY', 'S Jupiter', b, pl, v0, v5, ev, True)
             else:
                 near = families.outside(v0, fp, 'deg')
                 if near:
                     dist('SKY', 'S Jupiter', b, pl, v0, v5, near, False)
-            if sc and not same_digits(ev, sc):
-                dist('SKY', 'S Jupiter', b, pl, v0, v5, sc, True, scale=sc['scale'])
     for h in eq:                                           # SKY EQ: unison (Jupiter at the midpoint)
         if h['together'] or not h.get('q') or h['q'][0] is None:
             continue
@@ -1619,8 +1608,8 @@ def timeline(ctx, R0, eq, sources):
 
 def runner_timeline(ctx, R, field):
     """TIMELINE H / J (Eddie, 16 Oct 2026): every timed relationship of a runner sheet that involves the horse's (H) or the jockey's (J)
-    chart, exact from the off - 30 to + 60 min, built as the sky TIMELINE: T5-T8 distances (best hit, scaled hit unless a repeat, or the
-    nearest target outside at the off), T10 / T11 midpoint hits, T12-T14 ratios (interval or nearest interval; scaled unless a repeat;
+    chart, exact from the off - 30 to + 60 min, built as the sky TIMELINE: T5-T8 distances (best hit, or the
+    nearest target outside at the off), T10 / T11 midpoint hits, T12-T14 ratios (interval or nearest interval;
     automatic unisons left out), T16 crossings (RA - Dec -> 0), T17 / T18 S Jupiter equidistance hits, T19 rows (ratio, midpoint, each leg
     with a sky leg and a family hit), T20 midpoint hits, T22 ratio, midpoint and the d(star, natal Jupiter) leg. Sky-only and natal-only
     (fixed) relationships, together rows and repeats left out; each event once (the first table named, later ones in the note); an event
@@ -1638,47 +1627,36 @@ def runner_timeline(ctx, R, field):
             return
         ev_by[key] = dict(e, t=t, also=[], charts=ch, both=len(ch) == 2)
 
-    def dist(src, a, b, pl, v0, v5, d, hit, scale=None):
+    def dist(src, a, b, pl, v0, v5, d, hit):
         if v5 in (None, 'n/a') or not d:
             return
-        f = 1.0 if scale is None else (10.0 if scale == 'x10' else 0.1)
         kp = pl
         if pl == 'Equator' and (ctx.pos(R, a, 0)[1] >= 0) == (ctx.pos(R, b, 0)[1] >= 0):
             kp = 'Dec'                                     # both on one side: the Equator distance is the Dec distance
-        add(('d', frozenset((a, b)), kp, tl_key(d)), exact_t(v0 * f, v5 * f, d['tv']), (a, b), src=src, rel=f'{a} → {b}', plane=pl,
-            kind='distance' + (f' (scaled {scale})' if scale else ''), target=tlabel(d), tv=d['tv'], v0=v0 * f,
+        add(('d', frozenset((a, b)), kp, tl_key(d)), exact_t(v0, v5, d['tv']), (a, b), src=src, rel=f'{a} → {b}', plane=pl,
+            kind='distance', target=tlabel(d), tv=d['tv'], v0=v0,
             score=d['score'] if hit else None, colour=d['colour'] if hit else '', out=not hit)
 
-    def cell(src, a, b, pl, kind):                         # a T5-T8 cell: best, scaled, or the nearest target outside
+    def cell(src, a, b, pl, kind):                         # a T5-T8 cell: best, or the nearest target outside
         v0, v5 = ctx.pair(R, a, b, pl)
         if v0 is None:
             return
-        ev, also, sc = nearest(v0, kind, pl)
+        ev, also = nearest(v0, kind, pl)
         if ev:
             dist(src, a, b, pl, v0, v5, ev, True)
         else:
             dist(src, a, b, pl, v0, v5, families.outside(v0, pl, 'deg'), False)
-        if sc and not same_digits(ev, sc):
-            dist(src, a, b, pl, v0, v5, sc, True, scale=sc['scale'])
 
     def iv_text(d):
         return f"{tlabel(d)} (area {SKY_AREA[families.area(d['target'])]})" if d['family'] == 'interval' else tlabel(d)
 
-    def rat(src, lab, pts, pl, v0, v5, ev, sc, kind):
-        if v5 in (None, 'n/a') or v0 is None:
+    def rat(src, lab, pts, pl, v0, v5, ev, kind):
+        if v5 in (None, 'n/a') or v0 is None or (ev and ev.get('auto')):   # automatic (Jupiter return) unison: left out
             return
-        if ev and ev.get('auto'):                          # automatic (Jupiter return) unison: left out
-            ev = None
-            near = None
-        else:
-            near = ev or families.outside(v0, None, kind)
-        for d, hit, scale in ((near, bool(ev), None), (sc if sc and not same_digits(ev, sc) else None, True, sc and sc['scale'])):
-            if not d:
-                continue
-            f = 1.0 if scale is None else (10.0 if scale == 'x10' else 0.1)
-            add(('q', src, lab, pl, d['target'], scale), exact_t(v0 * f, v5 * f, d['tv']), pts, src=src, rel=lab, plane=pl,
-                kind='ratio' + (f' (scaled {scale})' if scale else ''), target=iv_text(d), tv=d['tv'], v0=v0 * f,
-                score=d['score'] if hit else None, colour=d['colour'] if hit else '', out=not hit)
+        d = ev or families.outside(v0, None, kind)
+        if d:
+            add(('q', src, lab, pl, d['target']), exact_t(v0, v5, d['tv']), pts, src=src, rel=lab, plane=pl, kind='ratio', target=iv_text(d),
+                tv=d['tv'], v0=v0, score=d['score'] if ev else None, colour=d['colour'] if ev else '', out=not ev)
 
     def uni(src, mid, ends, pl, q0, q5, score, colour, rel):    # a midpoint: the larger / smaller ratio toward unison
         if q0 is None or q5 in (None, 'n/a'):
@@ -1724,15 +1702,15 @@ def runner_timeline(ctx, R, field):
                     v0, v5, _ = ratio(n0, n5, d0, d5)
                     if not v0:
                         continue
-                    ev, also, sc = nearest(v0, 'ratio')
-                    rat(tid, lab, n + d, pl, v0, v5, unison_kind(ctx, R, C, f'{C} {x}', pl, ev), sc, 'ratio')
+                    ev, also = nearest(v0, 'ratio')
+                    rat(tid, lab, n + d, pl, v0, v5, unison_kind(ctx, R, C, f'{C} {x}', pl, ev), 'ratio')
     for C in 'HJ':                                         # T14 S / H, S / J
         n0, n5 = ctx.pair(R, 'S Jupiter', 'S equator', 'Dec'); d0, d5 = ctx.pair(R, f'{C} Jupiter', f'{C} equator', 'Dec')
         v0, v5, _ = ratio(n0, n5, d0, d5)
         if v0:
-            ev, also, sc = nearest(v0, 'eqratio')
+            ev, also = nearest(v0, 'eqratio')
             rat('T14', f'|Dec| S Jupiter / |Dec| {C} Jupiter', ('S Jupiter', f'{C} Jupiter'), 'Equator', v0, v5,
-                unison_kind(ctx, R, C, f'{C} equator', 'Dec', ev), sc, 'eqratio')
+                unison_kind(ctx, R, C, f'{C} equator', 'Dec', ev), 'eqratio')
     for x in NATAL_BODIES:                                 # T16 crossings with a sky leg: RA - Dec -> 0
         if x == 'Jupiter' or x not in R['H'] or x not in R['J'] or x not in ctx.S0:
             continue
@@ -1791,9 +1769,9 @@ def write_timeline(ws, row, ctx, evs, tid='TIMELINE', title=None):
     """TIMELINE rows in time order, with marker rows for the off and the off + 5 min"""
     nb = sum(1 for e in evs if e['t'] < 0); nd = sum(1 for e in evs if 0 <= e['t'] <= 5); na = len(evs) - nb - nd
     title = title or ('TIMELINE (Eddie, 16 Oct 2026): every sky Jupiter relationship on this sheet whose exact time falls from the '
-                      'off − 30 min to the off + 60 min (SKY best / scaled hit or nearest target; SKY EQ; SKY PAIRS, SKY STARS, SKY ROYAL ratio, midpoint '
+                      'off − 30 min to the off + 60 min (SKY best hit or nearest target; SKY EQ; SKY PAIRS, SKY STARS, SKY ROYAL ratio, midpoint '
                       'and each distance leg with a family hit), linear from the off and the off + 5 min as everywhere; "outside at the off" = not a hit '
-                      'at the off; together rows and x10 / /10 repeats left out, each event once (other sources in the note)')
+                      'at the off; together rows left out, each event once (other sources in the note); values are never scaled')
     ws.cell(row=row, column=1, value=f'{title}: {len(evs)} events, {nb} before the off, {nd} in the first 5 min, {na} after').font = BOLD
     row += 1
     for k, h in enumerate(TL_HEAD):
@@ -1998,19 +1976,8 @@ def short(t):
     return t.replace('Jupiter', 'Jup')
 
 
-KEEP_MARGIN = 0.5                                          # Eddie 14 Oct: a scaled repeat replaces the main form only if > 0.5 higher (unrounded)
-
-
-def same_digits(ev, sc):
-    """the scaled hit repeats the main hit: same family and the same digits (target x10 or /10, e.g. ninth 11.1111 / 1.11111)"""
-    if not ev or not sc or ev.get('score') is None or ev['family'] != sc['family'] or not ev.get('tv') or not sc.get('tv'):
-        return False
-    f = 10.0 if sc['scale'] == 'x10' else 0.1
-    return abs(sc['tv'] / (ev['tv'] * f) - 1) < 1e-6
-
-
-def thread_add(thr, tid, lab, pts, pl, v, ev, sc):
-    """one THREADS entry per scored hit (main value, and the scaled x10 / /10 value when it scores) on a body X linked with Jupiter.
+def thread_add(thr, tid, lab, pts, pl, v, ev):
+    """one THREADS entry per scored hit on a body X linked with Jupiter (the value as it is; never scaled x10 / /10, Eddie 16 Oct 2026).
     pts = the points of the measure ('S Jupiter', 'H Uranus', ...); X = the non-Jupiter body (Rahu / Ketu folded into 'Nodes')."""
     xs = [p for p in pts if not p.endswith(' Jupiter')]
     bodies = {p.split(' ', 1)[1] for p in xs}
@@ -2028,48 +1995,21 @@ def thread_add(thr, tid, lab, pts, pl, v, ev, sc):
     if tid not in ('T10', 'T11', 'T16', 'T20'):
         thread_all(thr, tid, lab, pl, v, X, xch, dirs)
         return
-    repeat = same_digits(ev, sc)                           # Eddie 13 Oct: a scaled repeat of the main hit - keep the higher, drop the other
-    up = repeat and sc['score'] > ev['score'] + KEEP_MARGIN   # main kept unless the scaled form is > 0.5 higher (unrounded; Eddie 14 Oct)
     if ev and ev.get('score') is not None or tid in ('T10', 'T11', 'T20') and ev:
         tgt = ev['target'] if tid in ('T10', 'T11', 'T20') else 'equal' if tid == 'T16' else ev['target']
         sct = f" ({ev['score']:.2f})" if ev.get('score') is not None else ''
         thr.append({'X': X, 'charts': xch, 'dirs': dirs, 'main': True, 'score': ev.get('score'), 'colour': ev['colour'],
-                    'mid': tid in ('T10', 'T11', 'T20'), 'hidden': up,   # line not shown (the scaled form scores higher); still counts for tags
+                    'mid': tid in ('T10', 'T11', 'T20'), 'hidden': False,
                     'text': f"{lab} {pl + ' ' if pl else ''}{num(v)} → {tgt}{sct} [{tid}]"})
-    if sc and (not repeat or up):
-        thr.append({'X': X, 'charts': xch, 'dirs': set(), 'main': False, 'score': sc['score'], 'colour': sc['colour'],
-                    'text': f"{lab} {pl + ' ' if pl else ''}{round(v, 6)} {sc['scale']}: {round(sc['scaled_value'], 6)} → {sc['target']} "
-                            f"({sc['score']:.2f}) [{tid}, scaled]"})
 
 
 def thread_all(thr, tid, lab, pl, v, X, xch, dirs):
-    """THREADS (Eddie 14 Oct): every family hit of v (main) and of 10 v, v / 10 (scaled, no conjunction), as NUMBERS does. A scaled hit on
-    the same number (family + digits) as a main hit is a repeat: the main kept unless the scaled scores > 0.5 higher (then the main line
-    is hidden but still counts for the tags)."""
+    """THREADS (Eddie 14 Oct): every family hit of the value, as NUMBERS does (never scaled, 16 Oct 2026)"""
     kind = 'ratio' if tid in ('T12', 'T13') else 'deg'
     plane = None if kind == 'ratio' else pl
-    key = lambda d: num_key(d['family'], d['tv']) if d['tv'] else (d['family'], d['target'])
-    main = {}
     for d in families.evaluate(v, plane, kind):
-        e = {'X': X, 'charts': xch, 'dirs': dirs, 'main': True, 'score': d['score'], 'colour': d['colour'], 'hidden': False,
-             'text': f"{lab} {pl + ' ' if pl else ''}{round(v, 6)} → {d['target']} ({d['score']:.2f}) [{tid}]"}
-        main.setdefault(key(d), e)
-        thr.append(e)
-    scl = {}
-    for f, tag in ((10.0, 'x10'), (0.1, '/10')):
-        for d in families.evaluate(v * f, plane, kind):
-            if d['family'] == 'conj':
-                continue
-            k = key(d)
-            if k in main and d['score'] <= main[k]['score'] + KEEP_MARGIN:
-                continue                                   # a repeat of a main hit: main kept
-            if k in scl and scl[k]['score'] >= d['score']:
-                continue
-            if k in main:
-                main[k]['hidden'] = True                   # scaled > 0.5 higher: main line hidden, still counts for the tags
-            scl[k] = {'X': X, 'charts': xch, 'dirs': set(), 'main': False, 'score': d['score'], 'colour': d['colour'],
-                      'text': f"{lab} {pl + ' ' if pl else ''}{round(v, 6)} {tag}: {round(v * f, 6)} → {d['target']} ({d['score']:.2f}) [{tid}, scaled]"}
-    thr.extend(scl.values())
+        thr.append({'X': X, 'charts': xch, 'dirs': dirs, 'main': True, 'score': d['score'], 'colour': d['colour'], 'hidden': False,
+                    'text': f"{lab} {pl + ' ' if pl else ''}{round(v, 6)} → {d['target']} ({d['score']:.2f}) [{tid}]"})
 
 
 THREAD_MIN = 50.0                                          # Eddie, 13 Oct: tags, field counts and cell lines use hits scoring >= 50
@@ -2106,8 +2046,7 @@ COUNTED = ('mutual, same chart', 'mutual, across charts', 'both Jupiters')
 def threads_sheet(wb, runners, fields):
     ws = wb.create_sheet('THREADS', wb.sheetnames.index('FIELD 5'))
     ws.cell(row=1, column=1, value='THREADS: hits inside tolerance linking body X with Jupiter, from T1-T8, T10-T13, T16, T20; a cell lists those '
-            'scoring >= 50 (midpoints too: total >= 50), main first then scaled x10 / /10 (a scaled repeat of the main hit\'s number - same family, same '
-            'digits - shown once: the main form unless the scaled one scores > 0.5 higher; tags still use the main hit), best first, then "+ n weaker" (score-0 hits not counted); automatic unisons left out. '
+            'scoring >= 50 (midpoints too: total >= 50; the value as it is, never scaled x10 / /10), best first, then "+ n weaker" (score-0 hits not counted); automatic unisons left out. '
             'Top line: tags from the main hits >= 50 - mutual, same chart (S Jup->H X and S X->H Jup, or the J pair); mutual, across charts '
             '(S Jup->J X and S X->H Jup, or S Jup->H X and S X->J Jup); both Jupiters (S X->H Jup and S X->J Jup); both charts (natal X in H '
             'and in J); directions = distinct of S Jup->H X, S Jup->J X, S X->H Jup, S X->J Jup. Line colour = score.').font = BOLD
@@ -2169,22 +2108,19 @@ def num_key(fam, tv):
 
 
 def number_add(nums, col, lab, pl, v):
-    """every degree-distance family scoring >= 40 on v (main) and on 10 v, v / 10 (scaled); forms of v on the same number (same family,
-    same digits) are the same hit: the higher-scoring one is kept (Eddie 13 Oct)"""
+    """every degree-distance family scoring >= 40 on the value as it is (never scaled x10 / /10, Eddie 16 Oct 2026); rows fold the target
+    forms by family and digits (e.g. ninth 11.1111 / 111.111, real family targets); one hit per number and value (the higher score)"""
     if not v or v <= 0:
         return
-    found = {}                                             # key -> the kept hit of this value (main or scaled, the higher score)
-    for f, scl in ((1.0, ''), (10.0, 'x10'), (0.1, '/10')):
-        for d in families.evaluate(v * f, pl, 'deg'):
-            if d['family'] not in NUM_FAMILIES or d['score'] < NUM_MIN or not d['tv']:
-                continue
-            k = num_key(d['family'], d['tv'])
-            if k in found and d['score'] <= found[k]['score'] + (0 if found[k]['scaled'] else KEEP_MARGIN):
-                continue                                   # a repeat (same family, same digits): main kept unless the scaled form is > 0.5 higher
-            txt = (f"{lab} {pl} {round(v, 6)} → {d['target']} {d['off']:+.5f} ({d['score']:.2f})" if not scl else
-                   f"{lab} {pl} {round(v, 6)} {scl}: {round(v * f, 6)} → {d['target']} {d['off']:+.5f} ({d['score']:.2f}) [scaled]")
-            found[k] = {'key': k, 'col': col, 'form': d['target'], 'tv': d['tv'], 'score': d['score'], 'colour': num_colour(d['score']),
-                        'text': txt, 'scaled': bool(scl)}
+    found = {}
+    for d in families.evaluate(v, pl, 'deg'):
+        if d['family'] not in NUM_FAMILIES or d['score'] < NUM_MIN or not d['tv']:
+            continue
+        k = num_key(d['family'], d['tv'])
+        if k in found and d['score'] <= found[k]['score']:
+            continue
+        found[k] = {'key': k, 'col': col, 'form': d['target'], 'tv': d['tv'], 'score': d['score'], 'colour': num_colour(d['score']),
+                    'text': f"{lab} {pl} {round(v, 6)} → {d['target']} {d['off']:+.5f} ({d['score']:.2f})"}
     nums.extend(found.values())
 
 
@@ -2217,10 +2153,10 @@ def rich(hits):
 
 def numbers_sheet(wb, P, R, nums):
     """P## NUMBERS: rows = target numbers (x10 / /10 folded, degree-distance families), columns SKY (S Jupiter -> sky points),
-    HORSE (T1), JOCKEY (T2), SKY->NATAL (T5-T8); hits >= 40, main or scaled, best first; tag from SKY / HORSE / JOCKEY"""
+    HORSE (T1), JOCKEY (T2), SKY->NATAL (T5-T8); hits >= 40 on the value as it is, best first; tag from SKY / HORSE / JOCKEY"""
     ws = wb.create_sheet(f'{P} NUMBERS', wb.sheetnames.index(f'{P} RATIOS') + 1)
-    ws.cell(row=1, column=1, value=f"{P} {R['name']} — NUMBERS: degree-distance hits scoring >= 40 per target number (x10 / /10 forms folded; "
-            'main or scaled; a repeat of the same number keeps the main form unless the scaled is > 0.5 higher). SKY = S Jupiter -> sky bodies, '
+    ws.cell(row=1, column=1, value=f"{P} {R['name']} — NUMBERS: degree-distance hits scoring >= 40 per target number (x10 / /10 target forms folded "
+            'by family and digits; hits on the value as it is, never scaled). SKY = S Jupiter -> sky bodies, '
             'stars, equator; HORSE = T1 (H Jupiter -> H bodies, stars, equator); JOCKEY = T2 (J Jupiter -> J); SKY->NATAL = T5-T8; T3 / T4 '
             'cross-chart hits not used. Tag: sky + horse + jockey, or two of three (SKY->NATAL not in the tag). Colour: green >= 80, yellow 50-80, light 40-50.').font = BOLD
     for k, h in enumerate(('number', 'tag') + NUM_COLS):
