@@ -1105,10 +1105,11 @@ def long_check(f, off):
             if r[0].startswith('LONG TIMELINE') and r[4] and len(r) > ti and isinstance(r[ti], (int, float)):
                 nl += 1
                 t = r[ti]
+                key = (-r[10], -t if sec == 'SEPARATING' else t) if r[10] is not None else None   # 16 Oct: score first, ties by time
                 if r[10] is None or r[10] < 80 or (sec == 'SEPARATING') != (t < 0) or r[11] != ('applying' if t >= 0 else 'separating') \
-                        or (last is not None and (t > last if sec == 'SEPARATING' else t < last)):
+                        or (last is not None and key < last):
                     bad.append((n, 'long', r[1:6], sec))
-                last = t
+                last = key
             if r[0] in ('TIMELINE H', 'TIMELINE J', 'LONG TIMELINE H', 'LONG TIMELINE J') and r[4] and len(r) > 14 and r[14] not in (None, '—'):
                 ns += 1
                 rel, pl, v, tgt, sc, tim = r[13], r[5], r[14], r[15], r[16], r[17]
@@ -1146,7 +1147,8 @@ for f, off in (('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter
                ('reference/classic/race_batch_20120619_ascot_1430_jupiter_tables.xlsx', None)):
     a_, b_, c_ = long_check(f, off)
     nl += a_; ns += b_; bad += c_
-check('LONG TIMELINE (sky and every runner H / J): every row scores >= 80, SEPARATING (most recent first) then APPLYING (soonest first); '
+check('LONG TIMELINE (sky and every runner H / J): every row scores >= 80, SEPARATING then APPLYING, each by score at the off (highest first; '
+      'ties: separating most recent first, applying soonest first, Eddie 16 Oct); '
       'every sky equivalent cell (TIMELINE H / J, LONG H / J) = the same relationship recomputed from POSITIONS (value, target, score, timing)',
       not bad and nl > 0 and ns > 0, f'{nl} long rows, {ns} sky cells; {bad[:3]}')
 bg = [r for r in wbl['P05'].iter_rows(values_only=True) if r and r[0] == 'LONG TIMELINE H' and r[4] == 'S Betelgeuse → H Jupiter' and r[5] == 'RA']

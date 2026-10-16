@@ -447,7 +447,8 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
 ## jupiter_tables: LONG TIMELINE, sky equivalents on TIMELINE H / J (Eddie, 16 Oct 2026; viewing only)
 - LONG TIMELINE on SKY JUPITER and LONG TIMELINE H / J on every runner sheet (after TIMELINE / TIMELINE H / J): the same sources, rules and
   dedupe, filter = score at the off >= 80, any exact time (no-motion / fixed rows, together rows, automatic unisons left out). Two sections:
-  SEPARATING (most recent first), APPLYING (soonest first). Columns as TIMELINE, but col 3 "from the off" as text (min under a day, else
+  SEPARATING, APPLYING; inside each by score at the off, highest first, ties by exact time (separating most recent first, applying soonest
+  first) (Eddie, 16 Oct 2026; first built by time only). Columns as TIMELINE, but col 3 "from the off" as text (min under a day, else
   days; beyond 50 years "more than 50 years away / ago", also in the exact column) and a numeric "minutes from the off" last.
 - Sky equivalent on every TIMELINE H / J and LONG TIMELINE H / J row (cols 14–19): the same relationship in the sky at the off, natal points
   replaced by the same sky body, same plane: value, best family / interval (area) or nearest outside, score, timing (exact_time), "same as

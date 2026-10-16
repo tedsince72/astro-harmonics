@@ -695,8 +695,8 @@ def runner_sheet(wb, P, R, ctx):
     for C, who in (('H', 'horse'), ('J', 'jockey')):
         row = write_long(ws, row + 1, ctx, lt[C], f'LONG TIMELINE {C}',
                          f"LONG TIMELINE {C} (Eddie, 16 Oct 2026): every timed relationship involving the {who}'s chart ({C}) scoring >= 80 at the off, "
-                         'any exact time (same sources and rules as TIMELINE {C}; beyond 50 years "more than 50 years away / ago"); SEPARATING most recent '
-                         'first, APPLYING soonest first; sky equivalent cells as in TIMELINE {C}'.replace('{C}', C), skyf=skyf)
+                         'any exact time (same sources and rules as TIMELINE {C}; beyond 50 years "more than 50 years away / ago"); SEPARATING, then '
+                         'APPLYING, each by score at the off, highest first (ties by exact time); sky equivalent cells as in TIMELINE {C}'.replace('{C}', C), skyf=skyf)
     field['_tl'] = tl
     field['_lt'] = lt
     for (lab, cn), (d, ev) in field['T16'].items():
@@ -1887,10 +1887,11 @@ def tl_vals(ctx, e, tid, long=False):
 
 
 def write_long(ws, row, ctx, evs, tid, title, skyf=None):
-    """LONG TIMELINE (Eddie, 16 Oct 2026): every event scoring >= 80 at the off, any exact time; SEPARATING (most recent first), then
-    APPLYING (soonest first); runner sheets add the sky equivalent cells"""
-    sep = sorted([e for e in evs if e['t'] < 0], key=lambda e: -e['t'])
-    app = sorted([e for e in evs if e['t'] >= 0], key=lambda e: e['t'])
+    """LONG TIMELINE (Eddie, 16 Oct 2026): every event scoring >= 80 at the off, any exact time; SEPARATING, then APPLYING, each by
+    score at the off (highest first; ties: separating most recent first, applying soonest first); runner sheets add the sky equivalent cells"""
+    # Eddie 16 Oct 2026: inside each section by score at the off, highest first; ties by exact time (separating most recent first)
+    sep = sorted([e for e in evs if e['t'] < 0], key=lambda e: (-e['score'], -e['t']))
+    app = sorted([e for e in evs if e['t'] >= 0], key=lambda e: (-e['score'], e['t']))
     ws.cell(row=row, column=1, value=f'{title}: {len(evs)} events, {len(sep)} separating, {len(app)} applying').font = BOLD
     row += 1
     head = TL_HEAD[:2] + ('from the off',) + TL_HEAD[3:] + (SKY_TL_HEAD if skyf else ()) + ('minutes from the off',)
@@ -2567,7 +2568,7 @@ def main():
     row = write_timeline(ws, row, ctx, timeline(ctx, R0, skyeq, srcs))
     row = write_long(ws, row, ctx, timeline(ctx, R0, skyeq, srcs, keep=long_keep), 'LONG TIMELINE',
                      'LONG TIMELINE (Eddie, 16 Oct 2026): every sky Jupiter event on this sheet scoring >= 80 at the off, any exact time (same sources '
-                     'and rules as TIMELINE; beyond 50 years "more than 50 years away / ago"); SEPARATING most recent first, APPLYING soonest first')
+                     'and rules as TIMELINE; beyond 50 years "more than 50 years away / ago"); each section by score at the off, highest first (ties by exact time)')
     ws.column_dimensions['B'].width = 30
     fields = {}
     for P in sorted(runners):
