@@ -109,7 +109,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (113/113). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (114/114). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -466,6 +466,27 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   (19 / 19, 441 cells each), every sky equivalent cell of P07 TIMELINE H / J and LONG H / J, and the same for P01, P03, P05, P09, P11:
   0 mismatches; no tag anywhere. Not exercised in this race: a T16 crossing event and a sky midpoint hit on a midpoint-kind event.
 
+## jupiter_tables: LONG TIMELINE real exact times (Eddie, 16 Oct 2026; viewing only)
+- LONG TIMELINE (sky and H / J): every event whose linear exact time is more than 60 min from the off gets its real exact time from the
+  Swiss Ephemeris (the race engine rebuild_kit/celestial_bodies_swisseph.py, the race's site, as the positions; sky point at m minutes =
+  workbook value at the off + engine(m) − engine(off); natal fixed): stepping outward from the off (10 min for a day, then 1 h, up to 1 year
+  each way), the first crossing of the target, refined by bisection to the minute; not reached -> "not within 1 year" (section from the
+  motion at the off). Applying / separating and the sections come from the real time; each section by score, ties by real time. The
+  linear estimate is kept in the last column "linear estimate"; the numeric minutes column holds the real time. Short TIMELINE stays linear.
+- Counts (events: separating / applying; real-searched; not within 1 year): Lingfield 14:35 2021 SKY 26 (10 / 16), 13, 1; P01 H 24
+  (12 / 12), 8, 2; J 18 (10 / 8), 8, 1; P03 H 14 (7 / 7), 8, 0; J 22 (10 / 12), 9, 2; P05 H 19 (12 / 7), 11, 1; J 20 (9 / 11), 8, 4; P07 H
+  19 (11 / 8), 11, 1; J 19 (9 / 10), 10, 1; P09 H 23 (11 / 12), 5, 1; J 26 (9 / 17), 10, 1; P11 H 19 (7 / 12), 8, 1; J 19 (12 / 7), 13, 1.
+  Ascot 14:30 2012 SKY 31 (15 / 16), 14, 1; P01 H 17 (9 / 8), 7, 1; J 23 (10 / 13), 16, 0. Some events changed section (e.g. P07 H 10 / 9
+  -> 11 / 8). Sizes: Lingfield 1.41 + 2.90 MB, Ascot 0.33 + 0.49 MB; Lingfield build about 11 s.
+- Tests 114/114: P05 LONG H S Betelgeuse → H Jupiter RA (110.940467, 86.51 on 10×φ^5 110.901699): linear 24 Oct 2021 00:52 (+204.43 days),
+  real "not within 1 year" - the engine keeps the distance between 110.933 and 110.945 over ±1 year (daily scan in the test); sky S Jupiter:
+  S Pallas – S Rahu Dec on 2 (93.55): real 11:32 (−182.8 min) vs linear 11:31 (−183.4 min), checked by a direct engine lookup (the ratio
+  crosses 2 between one minute either side).
+- Independent checker (16 Oct), Lingfield with its own engine search (grid as above): SKY LONG TIMELINE and P03 LONG H / J - every real time
+  within 1 min (e.g. SKY Pallas – Regulus RA −1064.1 vs linear −1072.1), linear estimates, sections, order, counts; the 3 "not within 1 year"
+  (SKY Sirius – Rigel RA 14×φ, linear +15.76 days; P03 J S Deneb Algedi → J Jupiter Dec 22×φ, +196.00 days, and Equator 3.33333, +190.25
+  days) confirmed by an hourly ±1 year scan (no sign change); short TIMELINE still linear: 0 mismatches.
+
 ## jupiter_tables: value scaling removed (Eddie, 16 Oct 2026)
 - Every "scaled ×10 / ÷10" column, scaled timing cell, scaled THREADS / NUMBERS / TIMELINE hit and "(widens 10x in degrees)" note removed
   (tables, SKY sheets, TIMELINE, THREADS, NUMBERS, FIELD). Value cells per plane are 8 (value, +5, target, group, offset, score, arrow,
@@ -526,6 +547,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **LONG TIMELINE real exact times from the Swiss Ephemeris (16 Oct 2026, Eddie):** see its section. Tests 114/114.
 - **LONG TIMELINE (score >= 80, any time) and sky equivalents on TIMELINE H / J (16 Oct 2026, Eddie):** see its section. Tests 113/113.
 - **Value scaling removed (16 Oct 2026, Eddie):** see its section and Families. Tests 110/110.
 - **TIMELINE H / TIMELINE J on every runner sheet (16 Oct 2026, Eddie):** see its section. Tests 109/109.

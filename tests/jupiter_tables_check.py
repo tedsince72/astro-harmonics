@@ -1152,13 +1152,38 @@ check('LONG TIMELINE (sky and every runner H / J): every row scores >= 80, SEPAR
       'every sky equivalent cell (TIMELINE H / J, LONG H / J) = the same relationship recomputed from POSITIONS (value, target, score, timing)',
       not bad and nl > 0 and ns > 0, f'{nl} long rows, {ns} sky cells; {bad[:3]}')
 bg = [r for r in wbl['P05'].iter_rows(values_only=True) if r and r[0] == 'LONG TIMELINE H' and r[4] == 'S Betelgeuse → H Jupiter' and r[5] == 'RA']
-check('LONG TIMELINE H P05 S Betelgeuse → H Jupiter RA (by hand from POSITIONS: RA S Betelgeuse 88.791862 (+0.000000131692 /min), H Jupiter '
-      '199.732329; S Jupiter 325.797311 (+0.000130972 /min)): 110.940467 shrinking 0.000000131692 /min to 10×φ^5 110.901699 (86.51) -> applying, '
-      'exact 24 Oct 2021 00:52 (+204.43 days); sky equivalent S Betelgeuse → S Jupiter RA 122.994551 shrinking 0.000130841 /min -> φ^10 '
-      '122.991869 (99.13), applying, exact 14:55 (in 20.5 min); different targets, no tag',
-      len(bg) == 1 and bg[0][1] == '24 Oct 2021 00:52' and bg[0][2] == '+204.43 days' and bg[0][9] == 110.940467 and bg[0][10] == 86.51
-      and bg[0][13] == 'S Betelgeuse → S Jupiter' and bg[0][14] == 122.994551 and bg[0][15] == 'φ^10 (phi power)' and bg[0][16] == 99.13
-      and bg[0][17] == 'applying, exact 14:55 (in 20.5 min)' and bg[0][18] is None, str(bg[0][:20] if bg else bg))
+# 16 Oct 2026 (Eddie): real exact times from the ephemeris beyond 60 min; this event's linear estimate (+204.43 days) is not the real one
+import sys as _s
+_s.path.insert(0, 'rebuild_kit'); _s.path.insert(0, 'tools/jup2')
+import swisseph as swe, celestial_bodies_swisseph as EN, motion as MO
+swe.set_ephe_path(MO.EPHE)
+JD0 = {'L': EN._to_jd_ut(EN._parse_time('2021-04-02 14:35', 'Europe/London'))}
+SITE = MO.off_and_site('lingfield_aw_1435_20210402', 'TRANS', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', None, None)[1]
+b0 = EN.bodies_at(JD0['L'], *SITE, False)
+scan = [abs(199.7323286437921 - (88.79186212954453 + EN.bodies_at(JD0['L'] + dd, *SITE, False)['Betelgeuse_B']['ra'] - b0['Betelgeuse_B']['ra']))
+        for dd in range(-366, 367)]
+check('LONG TIMELINE H P05 S Betelgeuse → H Jupiter RA (by hand from POSITIONS: H Jupiter 199.732329, S Betelgeuse 88.791862): 110.940467 at the '
+      'off (86.51 on 10×φ^5 110.901699); linear estimate 24 Oct 2021 00:52 (+204.43 days), but the ephemeris (Betelgeuse daily, ±1 year) keeps the '
+      'distance between 110.933 and 110.945: real time "not within 1 year", applying from the motion at the off; sky equivalent unchanged '
+      '(S Betelgeuse → S Jupiter 122.994551, φ^10 99.13, 14:55)',
+      len(bg) == 1 and bg[0][1] == 'not within 1 year' and bg[0][2] == 'not within 1 year' and bg[0][9] == 110.940467 and bg[0][10] == 86.51
+      and bg[0][11] == 'applying' and bg[0][19] is None and bg[0][20] == '24 Oct 2021 00:52 (+204.43 days)' and min(scan) > 110.9017 + 0.03
+      and bg[0][13] == 'S Betelgeuse → S Jupiter' and bg[0][14] == 122.994551 and bg[0][16] == 99.13,
+      f'{bg[0][:21] if bg else bg}; scan {min(scan):.6f}..{max(scan):.6f}')
+pr = [r for r in wbl['SKY JUPITER'].iter_rows(values_only=True) if r and r[0] == 'LONG TIMELINE' and r[4] == 'S Jupiter: S Pallas – S Rahu' and r[5] == 'Dec']
+skyp = {r[3]: r for r in wbl['POSITIONS'].iter_rows(values_only=True) if r and r[0] == 'SKY'}
+
+
+def dec_at(b, m):
+    eb = b + '_B' if skyp[b][4] == 'star' else b
+    return skyp[b][6] + EN.bodies_at(JD0['L'] + m / 1440.0, *SITE, False)[eb]['dec'] - b0[eb]['dec']
+
+
+qv = lambda m: abs(dec_at('Jupiter', m) - dec_at('Rahu', m)) / abs(dec_at('Jupiter', m) - dec_at('Pallas', m))   # larger / smaller at the off
+check('LONG TIMELINE (sky) S Jupiter: S Pallas – S Rahu Dec on 2 (93.55): real exact 11:32 (−182.8 min) vs linear 11:31 (−183.4 min); direct '
+      'ephemeris lookup: d(S Jup, S Rahu) / d(S Jup, S Pallas) (larger / smaller) crosses 2 between one minute before and one minute after the found time',
+      len(pr) == 1 and pr[0][1] == '11:32' and pr[0][13] == -182.8 and pr[0][14] == '11:31 (-183.4 min)'
+      and (qv(pr[0][13] - 1) - 2) * (qv(pr[0][13] + 1) - 2) < 0, f"{pr[0][:15] if pr else pr}; {qv(-183.8):.7f} {qv(-181.8):.7f}")
 dash = [r for r in wbl['P05'].iter_rows(values_only=True) if r and r[0] in ('TIMELINE H', 'LONG TIMELINE H') and r[3] in ('T12', 'T13', 'T22') and r[6] == 'ratio']
 check('sky equivalent "—" where two points become one (T12 / T13 both Jupiters, T22 star to S Jupiter and H Jupiter)',
       dash and all(r[14] == '—' for r in dash), str([r[3:6] + r[13:15] for r in dash][:3]))

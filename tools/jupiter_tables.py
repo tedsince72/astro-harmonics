@@ -692,10 +692,13 @@ def runner_sheet(wb, P, R, ctx):
                              'point replaced by the same sky body, same plane: value, best family / interval (area), score, timing; "—" where two points '
                              'become one; "same as sky" = the sky on the same target as the event (both hits)', skyf=skyf)
     lt = runner_timeline(ctx, R, field, keep=long_keep)    # LONG TIMELINE H / J (Eddie, 16 Oct 2026): score >= 80, any exact time
+    for C in 'HJ':
+        realise(ctx, R, lt[C])                             # real exact time beyond 60 min (ephemeris; an H + J event once per block)
     for C, who in (('H', 'horse'), ('J', 'jockey')):
         row = write_long(ws, row + 1, ctx, lt[C], f'LONG TIMELINE {C}',
                          f"LONG TIMELINE {C} (Eddie, 16 Oct 2026): every timed relationship involving the {who}'s chart ({C}) scoring >= 80 at the off, "
-                         'any exact time (same sources and rules as TIMELINE {C}; beyond 50 years "more than 50 years away / ago"); SEPARATING, then '
+                         'any exact time (same sources and rules as TIMELINE {C}; beyond 60 min the real exact time from the Swiss Ephemeris, up to 1 year each '
+                         'way, else "not within 1 year"; linear estimate in the last column); SEPARATING, then '
                          'APPLYING, each by score at the off, highest first (ties by exact time); sky equivalent cells as in TIMELINE {C}'.replace('{C}', C), skyf=skyf)
     field['_tl'] = tl
     field['_lt'] = lt
@@ -1553,6 +1556,122 @@ def tl_key(d):
     return ('conj', 0) if d['family'] == 'conj' or not d.get('tv') else num_key(d['family'], d['tv'])
 
 
+class Ephem:
+    """sky positions from the race engine (rebuild_kit/celestial_bodies_swisseph.py, the race's site, apparent, topocentric) at any minute
+    from the off: workbook value at the off + engine(t) - engine(off), as the rates; cached per minute"""
+    def __init__(self, ctx):
+        sys.path.insert(0, motion.ENGINE_DIR)
+        import swisseph as swe
+        import celestial_bodies_swisseph as E
+        swe.set_ephe_path(motion.EPHE)
+        self.E, self.ctx, self.cache = E, ctx, {}
+        t0 = E._parse_time(ctx.off_str, 'Europe/London')
+        self.jd0 = E._to_jd_ut(t0)
+        self.b0 = self.raw(0)
+
+    def raw(self, m):
+        return self.E.bodies_at(self.jd0 + m / 1440.0, *self.ctx.site, False)
+
+    def at(self, m):
+        m = round(m, 3)
+        if m not in self.cache:
+            b = self.raw(m)
+            out = {}
+            for x, p in self.ctx.S0.items():
+                eb = x + '_B' if p[2] == 'star' else x
+                if x == 'equator' or eb not in b or b[eb]['ra'] is None:
+                    out[x] = (p[0], p[1])
+                    continue
+                out[x] = ((p[0] + (b[eb]['ra'] - self.b0[eb]['ra'] + 180.0) % 360.0 - 180.0) % 360.0, p[1] + b[eb]['dec'] - self.b0[eb]['dec'])
+            self.cache[m] = out
+        return self.cache[m]
+
+
+EPH_DAY = [m * s for s in (1, -1) for m in range(10, 1441, 10)]          # search grid: 10 min for a day, then 1 h to 1 year, each way
+EPH_YEAR = 525600
+
+
+def geo_value(R, g, pl, pos):
+    """the event's value from positions pos(point) (natal fixed, sky from the engine); ratios larger / smaller with the orientation of the
+    off kept by the caller (returns the raw pair)"""
+    def d(a, b, p):
+        if b.endswith(' equator'):
+            return abs(pos(a)[1])
+        pa, pb = pos(a), pos(b)
+        if p == 'RA':
+            x = abs(pa[0] - pb[0]) % 360.0
+            return min(x, 360.0 - x)
+        return abs(pa[1] - pb[1]) if p == 'Dec' else abs(abs(pa[1]) - abs(pb[1]))
+    if g[0] == 'd':
+        return d(g[1], g[2], pl)
+    if g[0] == 'r':
+        return d(g[1], g[2], pl), d(g[1], g[3], pl)
+    if g[0] == 'q':
+        return d(*g[1], g[3]), d(*g[2], g[3])
+    x, a, b = g[1:]
+    return d(f'{a} Jupiter', f'{a} {x}', 'RA') - d(f'{b} Jupiter', f'{b} {x}', 'Dec')
+
+
+def real_time(ctx, R, e):
+    """the real exact time (Eddie, 16 Oct 2026): the event's value from the Swiss Ephemeris, stepping outward from the off (10 min for a
+    day, then 1 h, up to 1 year each way) to the first crossing of the target, refined to the minute -> minutes from the off, or None
+    when not within 1 year"""
+    eph = ctx.eph
+
+    def pos_at(m):
+        sk = eph.at(m)
+        return lambda p: sk[p.split(' ', 1)[1]] if p.startswith('S ') else ctx.pos(R, p, 0)
+
+    g, pl, tv = e['geo'], e['plane'], e['tv']
+    raw0 = geo_value(R, g, pl, pos_at(0))
+    flip = isinstance(raw0, tuple) and raw0[0] < raw0[1]
+
+    def f(m):
+        v = geo_value(R, g, pl, pos_at(m))
+        if isinstance(v, tuple):
+            if not v[0] or not v[1]:
+                return None
+            v = v[1] / v[0] if flip else v[0] / v[1]
+        return v - tv
+    f0 = f(0)
+    if f0 is None:
+        return None
+    grid = sorted(EPH_DAY + [h * 60 * s for s in (1, -1) for h in range(25, EPH_YEAR // 60 + 1)], key=abs)
+    last = {1: (0.0, f0), -1: (0.0, f0)}
+    for m in grid:
+        side = 1 if m > 0 else -1
+        v = f(m)
+        if v is None:
+            continue
+        pm, pv = last[side]
+        if (pv <= 0) != (v <= 0):
+            lo, hi, flo = pm, m, pv
+            while abs(hi - lo) > 1.0:
+                mid = (lo + hi) / 2
+                vm = f(mid)
+                if (flo <= 0) == (vm <= 0):
+                    lo, flo = mid, vm
+                else:
+                    hi = mid
+            return (lo + hi) / 2
+        last[side] = (m, v)
+    return None
+
+
+def realise(ctx, R, evs):
+    """LONG TIMELINE (Eddie, 16 Oct 2026): every event whose linear exact time is more than 60 min from the off gets its real exact time
+    from the ephemeris ('t'; the linear one kept as 't_lin'); not reached within 1 year -> 'nf' (its section from the motion at the off)"""
+    for e in evs:
+        if 't_lin' in e:                                   # an H + J event already done in the other block
+            continue
+        e['t_lin'] = e['t']
+        if abs(e['t']) > TL_WIN[1] and getattr(ctx, 'eph', None) is not None:
+            tr = real_time(ctx, R, e)
+            e['nf'] = tr is None
+            e['t'] = e['t'] if tr is None else tr
+    return evs
+
+
 def tl_from(t):
     """minutes or days from the off, as text"""
     if abs(t) > TL_FAR:
@@ -1585,7 +1704,7 @@ def timeline(ctx, R0, eq, sources, keep=in_window):
         kp = pl
         if pl == 'Equator' and (ctx.pos(R0, a, 0)[1] >= 0) == (ctx.pos(R0, b, 0)[1] >= 0):
             kp = 'Dec'                                     # both on one side: the Equator distance is the Dec distance, one event
-        add(('d', frozenset((a, b)), kp, tl_key(d)), exact_t(v0, v5, d['tv']), src=src, rel=rel, plane=pl,
+        add(('d', frozenset((a, b)), kp, tl_key(d)), exact_t(v0, v5, d['tv']), src=src, rel=rel, plane=pl, geo=('d', a, b),
             kind='distance', target=tlabel(d), tv=d['tv'], v0=v0,
             score=d['score'] if hit else None, colour=d['colour'] if hit else '', out=not hit)
 
@@ -1609,7 +1728,7 @@ def timeline(ctx, R0, eq, sources, keep=in_window):
         if h['together'] or not h.get('q') or h['q'][0] is None:
             continue
         x, y = h['pts']
-        add(('r', 'S Jupiter', frozenset((x, y)), h['plane'], '1'), exact_t(h['q'][0], h['q'][1], 1.0), src='SKY EQ',
+        add(('r', 'S Jupiter', frozenset((x, y)), h['plane'], '1'), exact_t(h['q'][0], h['q'][1], 1.0), src='SKY EQ', geo=('r', 'S Jupiter', x, y),
             rel=f'S Jupiter: {x} = {y}', plane=h['plane'], kind='midpoint (equidistance)', target='1 · unison · midpoint (area A)', tv=1.0,
             v0=h['q'][0], score=h['score'], colour=h['colour'], out=False)
     for src, rows in sources:                              # pair blocks: ratio, midpoint, legs
@@ -1620,11 +1739,12 @@ def timeline(ctx, R0, eq, sources, keep=in_window):
             rel = f"{h['jup']}: {h['x']} – {h['y']}"
             key = lambda tg: ('r', h['jup'], frozenset((h['x'], h['y'])), h['plane'], tg)
             if r5 is not None:
-                add(key(n['target']), exact_t(r0, r5, n['tv']), src=src, rel=rel, plane=h['plane'], kind='ratio',
+                add(key(n['target']), exact_t(r0, r5, n['tv']), src=src, rel=rel, plane=h['plane'], kind='ratio', geo=('r', h['jup'], h['x'], h['y']),
                     target=f"{n['target']} · {n['name']} · {n['group']} (area {SKY_AREA[families.area(n['target'])]})", tv=n['tv'], v0=r0,
                     score=h['ev']['score'] if h['ev'] else None, colour=h['ev']['colour'] if h['ev'] else '', out=not h['ev'])
                 if h['mid'] is not None:
-                    add(key('1'), exact_t(r0, r5, 1.0), src=src, rel=rel, plane=h['plane'], kind='midpoint', target='1 · unison · midpoint (area A)',
+                    add(key('1'), exact_t(r0, r5, 1.0), src=src, rel=rel, plane=h['plane'], kind='midpoint', geo=('r', h['jup'], h['x'], h['y']),
+                        target='1 · unison · midpoint (area A)',
                         tv=1.0, v0=r0, score=h['mid'], colour=h['m']['colour'], out=False)
             for (a, b), d0, d5, bf in h['legs']:
                 if bf and d0:
@@ -1676,12 +1796,12 @@ def runner_timeline(ctx, R, field, keep=in_window):
     def iv_text(d):
         return f"{tlabel(d)} (area {SKY_AREA[families.area(d['target'])]})" if d['family'] == 'interval' else tlabel(d)
 
-    def rat(src, lab, pts, pl, v0, v5, ev, kind):
+    def rat(src, lab, pts, pl, v0, v5, ev, kind, geo):
         if v5 in (None, 'n/a') or v0 is None or (ev and ev.get('auto')):   # automatic (Jupiter return) unison: left out
             return
         d = ev or families.outside(v0, None, kind)
         if d:
-            add(('q', src, lab, pl, d['target']), exact_t(v0, v5, d['tv']), pts, src=src, rel=lab, plane=pl, geo=('q',), dk=d['target'], kind='ratio', target=iv_text(d),
+            add(('q', src, lab, pl, d['target']), exact_t(v0, v5, d['tv']), pts, src=src, rel=lab, plane=pl, geo=geo, dk=d['target'], kind='ratio', target=iv_text(d),
                 tv=d['tv'], v0=v0, score=d['score'] if ev else None, colour=d['colour'] if ev else '', out=not ev)
 
     def uni(src, mid, ends, pl, q0, q5, score, colour, rel):    # a midpoint: the larger / smaller ratio toward unison
@@ -1729,14 +1849,14 @@ def runner_timeline(ctx, R, field, keep=in_window):
                     if not v0:
                         continue
                     ev, also = nearest(v0, 'ratio')
-                    rat(tid, lab, n + d, pl, v0, v5, unison_kind(ctx, R, C, f'{C} {x}', pl, ev), 'ratio')
+                    rat(tid, lab, n + d, pl, v0, v5, unison_kind(ctx, R, C, f'{C} {x}', pl, ev), 'ratio', ('q', n, d, pl))
     for C in 'HJ':                                         # T14 S / H, S / J
         n0, n5 = ctx.pair(R, 'S Jupiter', 'S equator', 'Dec'); d0, d5 = ctx.pair(R, f'{C} Jupiter', f'{C} equator', 'Dec')
         v0, v5, _ = ratio(n0, n5, d0, d5)
         if v0:
             ev, also = nearest(v0, 'eqratio')
             rat('T14', f'|Dec| S Jupiter / |Dec| {C} Jupiter', ('S Jupiter', f'{C} Jupiter'), 'Equator', v0, v5,
-                unison_kind(ctx, R, C, f'{C} equator', 'Dec', ev), 'eqratio')
+                unison_kind(ctx, R, C, f'{C} equator', 'Dec', ev), 'eqratio', ('q', ('S Jupiter', 'S equator'), (f'{C} Jupiter', f'{C} equator'), 'Dec'))
     for x in NATAL_BODIES:                                 # T16 crossings with a sky leg: RA - Dec -> 0
         if x == 'Jupiter' or x not in R['H'] or x not in R['J'] or x not in ctx.S0:
             continue
@@ -1748,7 +1868,7 @@ def runner_timeline(ctx, R, field, keep=in_window):
                 continue
             v0, v5 = ra0 - de0, (ra0 if ra5 is None else ra5) - (de0 if de5 is None else de5)
             ev = cross_eval(ra0, de0)
-            add(('x', x, a, b), exact_t(v0, v5, 0.0), (f'{a} {x}', f'{b} {x}'), src='T16', rel=f'Jupiter–{x} {cross_name(a, b)}', geo=('x', x), dk='crossing',
+            add(('x', x, a, b), exact_t(v0, v5, 0.0), (f'{a} {x}', f'{b} {x}'), src='T16', rel=f'Jupiter–{x} {cross_name(a, b)}', geo=('x', x, a, b), dk='crossing',
                 plane='RA = Dec', kind='crossing', target='crossing (RA − Dec = 0)', tv=0.0, v0=v0, score=ev['score'] if ev else None,
                 colour=ev['colour'] if ev else '', out=not ev)
     for h in field['T17']:                                 # T17 / T18: S Jupiter equidistance hits
@@ -1881,6 +2001,8 @@ def write_sky_cells(ws, row, c0, se):
 def tl_vals(ctx, e, tid, long=False):
     note = '; '.join((['H + J'] if e.get('both') else []) + (['outside at the off'] if e['out'] else [])
                      + (['also ' + ', '.join(e['also'])] if e['also'] else []))
+    if e.get('nf'):
+        return (tid, 'not within 1 year', 'not within 1 year') + tl_vals(ctx, dict(e, nf=False), tid, long)[3:]
     return (tid, tl_clock(ctx, e['t']), tl_from(e['t']) if long else round(e['t'], 1), e['src'], e['rel'], e['plane'], e['kind'], e['target'],
             e['tv'], round(e['v0'], 6), None if e['score'] is None else round(e['score'], 2),
             'applying' if e['t'] >= 0 else 'separating', note or None)
@@ -1890,15 +2012,16 @@ def write_long(ws, row, ctx, evs, tid, title, skyf=None):
     """LONG TIMELINE (Eddie, 16 Oct 2026): every event scoring >= 80 at the off, any exact time; SEPARATING, then APPLYING, each by
     score at the off (highest first; ties: separating most recent first, applying soonest first); runner sheets add the sky equivalent cells"""
     # Eddie 16 Oct 2026: inside each section by score at the off, highest first; ties by exact time (separating most recent first)
-    sep = sorted([e for e in evs if e['t'] < 0], key=lambda e: (-e['score'], -e['t']))
-    app = sorted([e for e in evs if e['t'] >= 0], key=lambda e: (-e['score'], e['t']))
+    # 16 Oct 2026 (Eddie): by the real time (ephemeris) beyond 60 min; 'not within 1 year' last among equal scores
+    sep = sorted([e for e in evs if e['t'] < 0], key=lambda e: (-e['score'], bool(e.get('nf')), -e['t']))
+    app = sorted([e for e in evs if e['t'] >= 0], key=lambda e: (-e['score'], bool(e.get('nf')), e['t']))
     ws.cell(row=row, column=1, value=f'{title}: {len(evs)} events, {len(sep)} separating, {len(app)} applying').font = BOLD
     row += 1
-    head = TL_HEAD[:2] + ('from the off',) + TL_HEAD[3:] + (SKY_TL_HEAD if skyf else ()) + ('minutes from the off',)
+    head = TL_HEAD[:2] + ('from the off',) + TL_HEAD[3:] + (SKY_TL_HEAD if skyf else ()) + ('minutes from the off', 'linear estimate')
     for k, h in enumerate(head):
         c = ws.cell(row=row, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
     row += 1
-    last = len(head)
+    last = len(head) - 1
     for lab, part in (('SEPARATING', sep), ('APPLYING', app)):
         ws.cell(row=row, column=1, value=tid).font = BOLD
         ws.cell(row=row, column=4, value=f'——— {lab}: {len(part)} events ———').font = BOLD
@@ -1911,7 +2034,9 @@ def write_long(ws, row, ctx, evs, tid, title, skyf=None):
             ws.cell(row=row, column=11).number_format = '0.00'
             if skyf:
                 write_sky_cells(ws, row, 1 + len(TL_HEAD), skyf(e))
-            ws.cell(row=row, column=last, value=round(e['t'], 1))
+            ws.cell(row=row, column=last, value=None if e.get('nf') else round(e['t'], 1))
+            tl_ = e.get('t_lin', e['t'])
+            ws.cell(row=row, column=last + 1, value=f'{tl_clock(ctx, tl_)} ({tl_from(tl_)})')
             row += 1
     return row + 1
 
@@ -2520,6 +2645,12 @@ def main():
     rates, elines = motion.engine_rates(sky, off, site)
     ctx = Ctx(sky, rates)
     ctx.off = datetime.datetime.strptime(str(off)[:16], '%Y-%m-%d %H:%M')     # race-local off time (clock times of exact)
+    ctx.off_str, ctx.site = str(off)[:16], site
+    try:
+        ctx.eph = Ephem(ctx)                               # LONG TIMELINE real exact times (Eddie, 16 Oct 2026)
+    except Exception as ex:                                # engine cannot run: the linear estimate stays
+        print(f'ephemeris not run ({type(ex).__name__}: {ex}): LONG TIMELINE keeps the linear times')
+        ctx.eph = None
     wb = openpyxl.Workbook(); ws = wb.active; ws.title = 'POSITIONS'
     wbp = openpyxl.Workbook(); wbp.remove(wbp.active)        # P## PAIRS: separate workbook next to the tables one
     repro = next((l for l in elines if l.startswith('reproduction')), elines[0] if elines else '')
@@ -2566,9 +2697,10 @@ def main():
                             srows, 'SKY ROYAL', every=True, notog=True)
     srcs = (('SKY PAIRS', skypairs), ('SKY STARS', skystars), ('SKY ROYAL', srows))
     row = write_timeline(ws, row, ctx, timeline(ctx, R0, skyeq, srcs))
-    row = write_long(ws, row, ctx, timeline(ctx, R0, skyeq, srcs, keep=long_keep), 'LONG TIMELINE',
+    row = write_long(ws, row, ctx, realise(ctx, R0, timeline(ctx, R0, skyeq, srcs, keep=long_keep)), 'LONG TIMELINE',
                      'LONG TIMELINE (Eddie, 16 Oct 2026): every sky Jupiter event on this sheet scoring >= 80 at the off, any exact time (same sources '
-                     'and rules as TIMELINE; beyond 50 years "more than 50 years away / ago"); each section by score at the off, highest first (ties by exact time)')
+                     'and rules as TIMELINE). Exact time: beyond 60 min the real time from the Swiss Ephemeris (race engine and site; stepping out from the off, '
+                     'refined to the minute, up to 1 year each way, else "not within 1 year"), the linear estimate in the last column; each section by score at the off, highest first (ties by exact time)')
     ws.column_dimensions['B'].width = 30
     fields = {}
     for P in sorted(runners):
