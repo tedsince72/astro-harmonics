@@ -32,6 +32,10 @@ Written 17 Oct 2026 at the end of a long chat. The next chat starts from this fi
 | 15:15 | He Man (10, P19) | — | — |
 | 15:45 – 17:45 | not given yet | | |
 
+**Race time at Selangor (Eddie, 17 Oct 18:28, worked out that day):** the published race time is when they start loading the runners into
+the stalls; the start is usually 7–12 minutes later. The workbooks' "off" (and every timing, TIMELINE window, "+5 min") is the published time,
+so read exact times against a real start of about +7 to +12 min (12:15 → 12:23, 12:45 → 12:53, 13:15 → 13:23 where given).
+
 All reads of these races were done before or after the result as noted in the chat; none is a blind test except where Eddie gave the result after
 the read (13:45, 14:15, 14:45, 15:15 were read before their results). Do not open any csv for these races.
 
@@ -50,6 +54,12 @@ For every pasted line (or file of lines):
    who else holds it and how strongly (k/n and their numbers).
 - Due diligence (Eddie, 17 Oct 16:54): "when i ask questions i expect you to use due diligence and full detail in the actual raw data not
   summaries or general numbers". Answer from the raw rows; show exact detail with scores and bodies.
+- Level of detail (Eddie, 17 Oct 18:10, after the Ari line-by-line read: "we need to ALWAYS use this level of detail"): every pasted line
+  confirmed from its raw cells; connections traced through shared legs, shared bodies and the same geometry across tables (and lines not
+  pasted that tie to them, flagged as such); for every item every runner's same row and plane read, and recomputed from POSITIONS with
+  families.py when the row is not listed (filtered tables T17, T19, T21 - check T21R for royal pairs); exact numbers and scores; note the
+  workbook off vs the real off for timings; independent checker before reporting, its corrections applied. Example: the Ari rows of 17 Oct
+  18:00 in docs/classic/eye_notes.md.
 - After the work, write the observations into `docs/classic/eye_notes.md` (one table row per observation, format as the existing rows) and
   commit + push only when Eddie says (standing rules). Independent checker (subagent) on any new read before reporting, as CLAUDE.md says.
 - Wait for Eddie's go-ahead before building or changing any code (running existing scripts is fine).
