@@ -599,6 +599,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
   (Athmad / Jason Hart) and Worcester 13:00 22 Aug 2021 (Rhythm Is A Dancer / Harry Cobden; workbook added to reference/classic); rows in eye_notes.md.
   Also Musselburgh 13:45 25 Aug 2021 (Graces Quest / Andrew Mullen). Reading rules added 18 Oct (handover): family + timing with every score,
   compare runners only on the same number and family; a 'simple standout' per race.
+  Also Goodwood 18:53 27 Aug 2021 (Madame Tantzy / Georgia Dobie); simple standouts for all read races in eye_notes.md.
 - **T23 ratios of the T1, T2 and SKY distances (H / J, S / H, S / J) + FIELD 23 (16 Oct 2026, Eddie):** see its section; H / J unisons on the
   H–J Jupiters close rule (automatic / H–J assisted); the S / H / J distances on each row. Tests 120/120.
 - **LONG TIMELINE real exact times from the Swiss Ephemeris (16 Oct 2026, Eddie):** see its section. Tests 114/114.
