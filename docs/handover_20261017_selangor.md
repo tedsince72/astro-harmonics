@@ -66,6 +66,15 @@ For every pasted line (or file of lines):
   else scores on the same item), the sky star events near the off, star joins across sky / horse / jockey, and star items shared with
   earlier winners; the per-runner count of star items >= 70 as background only (it has not separated winners). Example: Newcastle AW 16:33
   2021 (Athmad) and Selangor 13:45 (I'm Back), 18 Oct 2026.
+- Families and timing with every score (Eddie, 18 Oct 17:45: "scores by themselves are not enough because some families are going to be
+  more significant than others"): every hit is given as value → target number, family (and interval group for ratios), score with its
+  scale (ninths linear; whole, golden, φ powers, √2, silver, conjunction and intervals squared), and applying / separating with the exact
+  time ("fixed" for natal-only). Two runners are called stronger / weaker only on the same number in the same family (or both midpoint
+  totals); otherwise they are listed side by side with their families. E.g. Musselburgh 13:45 2021 T3 H Jupiter → J Chiron Dec: Graces
+  Quest 33.3333 (ninth, linear 70.30) vs Major Snugfit 9 (whole, squared 85.67) — different numbers, not comparable; T10 Orcus Equator
+  midpoints Graces Quest 78.9 (applying, exact 26 Aug 08:55) vs Yukon 86.79 (applying, exact 26 Aug 02:16) — same kind, comparable.
+- Simple standout in every race (Eddie, 18 Oct 17:47): end each race with the one thing the winner has that makes it stand out, if only
+  one could be chosen (field-checked, family and timing given).
 - After the work, write the observations into `docs/classic/eye_notes.md` (one table row per observation, format as the existing rows) and
   commit + push only when Eddie says (standing rules). Independent checker (subagent) on any new read before reporting, as CLAUDE.md says.
 - Wait for Eddie's go-ahead before building or changing any code (running existing scripts is fine).
