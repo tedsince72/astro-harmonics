@@ -595,6 +595,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
   working: Eddie pastes lines, Claude says what each is (raw cells), how they connect, and versus the field (every runner's raw rows); no
   pattern yet. Observations for I'm Back (13:45) and Ari (12:15) are in docs/classic/eye_notes.md. Helper scripts (as run) in
   tools/selangor_20261017/. Also added reference/classic/race_batch_20210802_newcastle_aw_1633_jupiter_tables.xlsx (Athmad, read with result known).
+  18 Oct: races with real jockeys read sky / horse / jockey / joins + a fixed-star section (rule in the handover): Newcastle AW 16:33 2021
+  (Athmad / Jason Hart) and Worcester 13:00 22 Aug 2021 (Rhythm Is A Dancer / Harry Cobden; workbook added to reference/classic); rows in eye_notes.md.
 - **T23 ratios of the T1, T2 and SKY distances (H / J, S / H, S / J) + FIELD 23 (16 Oct 2026, Eddie):** see its section; H / J unisons on the
   H–J Jupiters close rule (automatic / H–J assisted); the S / H / J distances on each row. Tests 120/120.
 - **LONG TIMELINE real exact times from the Swiss Ephemeris (16 Oct 2026, Eddie):** see its section. Tests 114/114.

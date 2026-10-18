@@ -60,6 +60,12 @@ For every pasted line (or file of lines):
   families.py when the row is not listed (filtered tables T17, T19, T21 - check T21R for royal pairs); exact numbers and scores; note the
   workbook off vs the real off for timings; independent checker before reporting, its corrections applied. Example: the Ari rows of 17 Oct
   18:00 in docs/classic/eye_notes.md.
+- Fixed stars in every race (Eddie, 18 Oct 11:21: "this is really important to highlight in each race"): after the sky / horse / jockey / joins
+  passes, give a separate fixed-star section — every star item scoring >= 70 for the winner (T1 / T2 star rows, T19 rows with a royal
+  star, T21 horse / jockey / sky sides, T22 ratios and legs; a natal star distance and its T22 leg count once), each with the field (who
+  else scores on the same item), the sky star events near the off, star joins across sky / horse / jockey, and star items shared with
+  earlier winners; the per-runner count of star items >= 70 as background only (it has not separated winners). Example: Newcastle AW 16:33
+  2021 (Athmad) and Selangor 13:45 (I'm Back), 18 Oct 2026.
 - After the work, write the observations into `docs/classic/eye_notes.md` (one table row per observation, format as the existing rows) and
   commit + push only when Eddie says (standing rules). Independent checker (subagent) on any new read before reporting, as CLAUDE.md says.
 - Wait for Eddie's go-ahead before building or changing any code (running existing scripts is fine).
