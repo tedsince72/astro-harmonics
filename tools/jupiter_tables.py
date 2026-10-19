@@ -43,8 +43,8 @@ TIMELINE H / J (16 Oct 2026): at the end of each runner sheet, the same for ever
 LONG TIMELINE (16 Oct 2026): score >= 80 at the off, any exact time, SEPARATING / APPLYING; sky equivalent cells on TIMELINE H / J and LONG H / J.
 T24 (19 Oct 2026): stars against bodies, one row per star, RA / Dec distance per body, coloured by the best family, a cell comment with
 target, family, offset, score; SKY block on SKY JUPITER (Moon included), HORSE and JOCKEY blocks on each runner sheet after T22R.
-Stars (Eddie, 19 Oct 2026): T1, T2 and T24 use T1_T2_T24_STARS (35 stars with |Dec| <= 50: STARS without Polaris + 13 new); every
-other table keeps STARS (23, Polaris included); the new stars' positions are appended to POSITIONS. Default workbook (19 Oct 2026):
+Stars (Eddie, 19 Oct 2026): T1, T2, T24 and the SKY block use T1_T2_T24_STARS (35 stars with |Dec| <= 50: STARS without Polaris + 13 new,
+in RA order); every other table (and TIMELINE, NUMBERS) keeps STARS (23, Polaris included); the new stars' positions are appended to POSITIONS. Default workbook (19 Oct 2026):
 POSITIONS, SKY JUPITER and the runner sheets only; --full also writes P## RATIOS, P## NUMBERS, THREADS, FIELD NUMBERS and every FIELD sheet.
 Points and engine from tools/jup2 (imported, not changed). Frozen readers are not changed."""
 import argparse, glob, os, re, sys, itertools, math, datetime
@@ -68,7 +68,13 @@ STARS = ['Algol', 'Pleiades', 'Aldebaran', 'Capella', 'Sirius', 'Procyon', 'Regu
          'Galactic Centre']                               # Galactic Centre (Eddie, 19 Oct 2026): 23rd star, not royal; skipped where a batch lacks it
 NEW_STARS = ['Hamal', 'Pollux', 'Praesepe', 'Denebola', 'Zubenelgenubi', 'Zubeneschamali', 'Kaus Australis', 'Nunki', 'Deneb', 'Sadalsuud',
              'Sadalmelik', 'Scheat', 'Markab']             # Eddie, 19 Oct 2026: T1, T2 and T24 only (RA order)
-T1_T2_T24_STARS = [x for x in STARS if x != 'Polaris'] + NEW_STARS   # the 35 stars with |Dec| <= 50 (Eddie, 19 Oct 2026); every other table keeps STARS
+# the 35 stars with |Dec| <= 50 (Eddie, 19 Oct 2026): STARS without Polaris + NEW_STARS, in RA order (engine J2000 RA at J2000.0, ascending;
+# one fixed order, Eddie 19 Oct 2026); T1, T2, T24 and the SKY block star rows; every other table keeps STARS
+T1_T2_T24_STARS = ['Hamal', 'Algol', 'Pleiades', 'Aldebaran', 'Rigel', 'Capella', 'Bellatrix', 'Betelgeuse', 'Sirius', 'Castor', 'Procyon',
+                   'Pollux', 'Praesepe', 'Regulus', 'Denebola', 'Algorab', 'Spica', 'Alkaid', 'Arcturus', 'Zubenelgenubi', 'Zubeneschamali',
+                   'Alphecca', 'Antares', 'Galactic Centre', 'Kaus Australis', 'Vega', 'Nunki', 'Altair', 'Deneb', 'Sadalsuud', 'Deneb Algedi',
+                   'Sadalmelik', 'Fomalhaut', 'Scheat', 'Markab']
+assert sorted(T1_T2_T24_STARS) == sorted([x for x in STARS if x != 'Polaris'] + NEW_STARS)
 BODIES = [b for b in SKY_BODIES if b != 'Ketu']           # workbook rows (Ketu rebuilt as Rahu's mirror)
 GREEN = PatternFill('solid', start_color='C6EFCE'); YELLOW = PatternFill('solid', start_color='FFEB9C')
 LIGHT = PatternFill('solid', start_color='FFF8DC'); HEAD = PatternFill('solid', start_color='D9E1F2')
@@ -2980,10 +2986,12 @@ def main():
     ws = wb.create_sheet('SKY JUPITER')
     ws.cell(row=1, column=1, value=f'{race} — S Jupiter to every sky body, star and the equator (at the off and +5 min)').font = BOLD
     R0 = {'H': {}, 'J': {}}
-    rows = [(f'S Jupiter → S {x}', 'S Jupiter', f'S {x}') for x in sky if x != 'Jupiter']
-    sky_nums = []
-    row, _ = write_pairs(ws, 3, 'SKY', 'S Jupiter → sky points', ctx, R0, rows, lambda a, b: 'equator' if b.endswith(' equator') else 'dist',
-                         nums=sky_nums, timing=True)
+    skind = lambda a, b: 'equator' if b.endswith(' equator') else 'dist'
+    rows = [(f'S Jupiter → S {x}', 'S Jupiter', f'S {x}') for x in skyx if x != 'Jupiter']     # stars on T1_T2_T24_STARS (Eddie, 19 Oct 2026)
+    row, _ = write_pairs(ws, 3, 'SKY', 'S Jupiter → sky points', ctx.x, R0, rows, skind, timing=True)
+    sky_nums = []                                          # NUMBERS keep the SKY rows on STARS, as before: fed off-sheet
+    write_pairs(openpyxl.Workbook().active, 3, 'SKY', '', ctx, R0, [(f'S Jupiter → S {x}', 'S Jupiter', f'S {x}') for x in sky if x != 'Jupiter'],
+                skind, nums=sky_nums, timing=True)
     skyeq = [dict(h, tid='SKY EQ') for h in equi_hits(ctx, R0, 'S Jupiter', [f'S {z}' for z in SKY_BODIES if z in sky and z != 'Jupiter'], 'SKY EQ')]
     row = write_equi(ws, row, 'EQUIDISTANCE: S Jupiter with two sky bodies', skyeq)
     skypairs = t19_filter(pair_rows(ctx, R0, None, tid='SKY PAIRS', blocks=sky_pair_blocks(ctx)))

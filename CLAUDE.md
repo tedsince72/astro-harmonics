@@ -109,7 +109,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct); default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (145/145; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (153/153; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -647,6 +647,27 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   and SKY cells, fills, timing of the 17 + 17 SKY hits), T24 SKY 1,750 / HORSE 1,680 / JOCKEY 1,680 value cells + 210 midpoint cells
   (new-star midpoint hits SKY 46, HORSE 23, JOCKEY 39), no new star elsewhere, --full vs before: 0 mismatches.
 
+- Revised (Eddie, 19 Oct 2026): RA ORDER and the SKY BLOCK. T1_T2_T24_STARS is one fixed order, ascending engine J2000 RA at J2000.0
+  (= Eddie's list exactly; engine Pleiades/Alcyone 56.8758 vs his 56.75, same order): Hamal 31.7957, Algol, Pleiades, Aldebaran, Rigel
+  78.6399, Capella 79.1800, Bellatrix, Betelgeuse, Sirius, Castor, Procyon, Pollux, Praesepe, Regulus, Denebola, Algorab, Spica, Alkaid,
+  Arcturus, Zubenelgenubi, Zubeneschamali, Alphecca, Antares, Galactic Centre, Kaus Australis, Vega, Nunki, Altair, Deneb, Sadalsuud,
+  Deneb Algedi, Sadalmelik, Fomalhaut, Scheat, Markab 346.1879. T1 / T2 star rows (with SKY cells) and T24 rows reordered only. The SKY
+  JUPITER "SKY" block star rows now use this list too (ctx.x, engine rates for the new stars; cells as before); NUMBERS still fed from the
+  old SKY rows on STARS off-sheet; the sky TIMELINE / LONG TIMELINE never read the SKY block (built from STARS) - unchanged. Old batches:
+  Lingfield 14:35 2021 has 21 rows (its 22 stars minus Polaris; no Galactic Centre), not 22.
+  Compared with the build before (commit 1d37f4a9; chk_raorder/compare_raorder.py): T1 / T2 / T24 star rows matched by label identical
+  (value, fill, comment, outline) - Lingfield 525, Ascot 175 rows; SKY block: Lingfield Polaris gone, Ascot Polaris gone + 13 new; every
+  other row of every sheet identical (TIMELINE Lingfield 78 rows, Ascot 66). Sizes unchanged (Lingfield 1.79 / 2.01 MB, Ascot 0.47 / 0.54).
+  Tests 153/153. Test 31: engine RA order; T1, T2, T24 x3 and SKY block order (Ascot 35, Lingfield 21); the comparison above built in the
+  suite from commit 1d37f4a9; SKY block new-star cells = the T1 SKY cells (26 groups); by hand from POSITIONS: S Jupiter → S Praesepe RA
+  70.378057 -> 70.377257, 70.7 √2 −0.33262 (0.35), separating, exact 18 Jun 2012 03:50 (2079.9 min ago); S Kaus Australis RA 143.593046
+  -> 143.593845, ninth 144.444 −0.85140 (9.85), applying, exact 23 Jun 2012 07:15 (in 5325.3 min). Test 30's "no new star elsewhere"
+  now allows the SKY block.
+  Independent checker (19 Oct), own code from POSITIONS (chk_raorder/check_sky_block.py), rebuilt Ascot: engine RA order; row order of
+  T1, T2, T24 x3 and the SKY block (35 each); every SKY block cell incl. timing (60 rows, 2,160 cells over the default and --full
+  workbooks, 238 fills) and = the T1 / T2 SKY cells (4,720 comparisons); --full vs before (star rows by label, 3,248 other rows in order,
+  TIMELINE / LONG TIMELINE incl.): 0 mismatches. No new-star SKY timing falls in the TIMELINE window (closest Nunki Dec, 601.5 min ago).
+
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 (16 Oct 2026: value scaling removed - the scaled lines, scaled hits and the repeat rule below are gone; see "No value scaling".)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
@@ -680,7 +701,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 
 ## Where we are (13 Oct 2026)
 - **35 stars in T1, T2, T24 (13 new in the engine, no Polaris there) + trimmed default workbook, --full for the rest (19 Oct 2026, Eddie):**
-  see its section. Tests 145/145.
+  see its section; same day revised: the 35 in RA order, and the SKY block star rows on the 35. Tests 153/153.
 - **Galactic Centre as the 23rd star + T24 stars against bodies (19 Oct 2026, Eddie):** see its section. Engine and card pipeline
   carry the Galactic Centre from now on; older batches unchanged. Same day: T24 columns RA half then Dec half, and T24 midpoints (star
   the middle point of two bodies; midpoint column per half, thick outline, comment line). Tests 134/134.
