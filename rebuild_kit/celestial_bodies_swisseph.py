@@ -127,6 +127,7 @@ BEHENIAN_STARS = [
     ("Fomalhaut", "Fomalhaut"), ("Rigel", "Rigel"), ("Betelgeuse", "Betelgeuse"),
     ("Polaris", "Polaris"), ("Castor", "Castor"), ("Altair", "Altair"),
     ("Bellatrix", "Bellatrix"),
+    ("Galactic Centre", "Galactic Center"),   # Sgr A* (sefstars.txt 'Galactic Center,SgrA*'); Eddie, 19 Oct 2026
 ]
 TIMED_POINTS = ["Part_of_Fortune", "Part_of_Spirit", "Ascendant", "Midheaven", "Vertex"]
 

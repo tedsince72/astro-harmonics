@@ -106,10 +106,10 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
 - Viewing tool (13 Oct 2026, not a reader): `python3 tools/jupiter_tables.py <race_batch xlsx | reference/classic/<race> folder>` ->
   race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T14, T16–T22 per runner (T15 removed 15 Oct 2026), field matrices, off and +5 min,
   every family from tools/families.py scored, best = highest score, also (no scaled column since 16 Oct 2026), colours by score; ratios on the interval
-  list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
+  list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids); SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (120/120). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (129/129). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -558,6 +558,36 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   timing), blocks and title counts (12[3] / 4 / 3 / 27), 4 together legs, 91 S / H, S / J cell groups = T12, FIELD 23 every runner (608
   checks incl. k/n): 0 mismatches.
 
+## jupiter_tables: Galactic Centre, T24 stars against bodies (Eddie, 19 Oct 2026; viewing only)
+- Galactic Centre = the 23rd fixed star (not royal): engine BEHENIAN_STARS ("Galactic Centre", "Galactic Center") = sefstars.txt
+  'Galactic Center,SgrA*' (ICRS 17 45 40.036, −29 00 28.17), in rebuild_kit/celestial_bodies_swisseph.py and the card-pipeline copy
+  ~/astronomy-project/celestial_bodies_swisseph.py (identical; that repo not committed; ~/astronomy-project/deep_reads_kit/engine copy not
+  changed). Engine J2000 apparent at J2000.0: RA 266.410443, Dec −29.007559 (catalogue 266.417 / −29.008; the 0.007° is aberration, as every
+  star). New batches carry 'Galactic Centre_B' on TRANS, horse and jockey sheets. Ascot 14:30 2012 rebuilt through run_card_swiss.py:
+  every other row identical, GC sky 266.423154 / −29.007984, H 266.413036 / −29.007313, J 266.414632 / −29.008250; engine reproduction
+  49 of 49 sky points. jupiter_tables STARS + 'Galactic Centre' (a batch without it: skipped quietly, so existing workbooks unchanged);
+  it enters T1 / T2 star rows, SKY, T21, T22, T23, SKY STARS, FIELD 21 / 22, P## PAIRS (not T19 / royal tables). Rebuilt Ascot: GC lines
+  SKY 1, T1 1, T2 1, T23 1, T21 4, T22 3, T24 3 rows.
+- T24 (write_t24, t24_cell): one row per star (STARS order, those in the chart), one RA / Dec column pair per body: Sun, Moon (SKY only),
+  Mercury … Transpluto, Rahu, Ketu (no equator). Header row 1 body names (merged over two columns), row 2 RA / Dec. Cell = distance
+  (RA wrapped 0–180, Dec |ΔDec|), 6 dp, filled by its best family score (green >= 80, yellow 50–80, light < 50; conjunction RA < 1.5 /
+  Dec < 0.3 counts, as T1; no fill outside); cell comment 'target · family · offset · score' (conjunction: '0 · conjunction (RA < 1.5) ·
+  +0.06464 · 91.57', Claude's wording) or 'nearest: 58 · whole — outside ±0.02 · -0.02729'. Blocks: T24 SKY on SKY JUPITER after SKY
+  ROYAL (race-day positions at the off); T24 HORSE and T24 JOCKEY on each runner sheet after T22R. No timing, +5 or field sheet.
+  Nothing else changes: Lingfield 14:35 2021 and Ascot 14:30 2012 compared with the previous build sheet by sheet - identical apart from
+  the T24 blocks and their blank rows (Lingfield 13 blocks, Ascot 3).
+- Sizes before -> after (tables + pairs): Lingfield 14:35 2021 1.57 + 2.92 -> 2.00 + 2.92 MB; Ascot 14:30 2012 0.36 + 0.50 -> 0.46 + 0.50 MB
+  (22 stars, old batch); Ascot rebuilt with the Galactic Centre 0.47 + 0.51 MB.
+- Tests 129/129 (test 28): Ascot rebuilt through the card pipeline in a temp folder (GC row on TRANS / P01 / P02, other rows identical,
+  sky ~266.417 / −29.008); GC in SKY, T1, T2, T21, T22, T24, not T19; five T24 cells by hand from POSITIONS: SKY S GC – S Ceres RA
+  150.475762 93×φ −0.00140 (91.54), HORSE H GC – H Mars RA 177.745864 ninth 177.778 −0.03191 (97.50), JOCKEY J GC – J Sedna Dec 32.362221
+  20×φ +0.00154 (90.70), conjunction H Algorab – H Makemake RA 0.064638 (91.57), outside H GC – H Sun RA 57.972709 nearest 58; every grid
+  23 x 50 sky (Moon) / 23 x 48 natal on the rebuilt Ascot, 22 rows on the old Lingfield / Ascot builds, every cell a value and comment.
+  Fix: the suite now rebuilds Ascot 14:30 2012 itself (before, its Ascot checks read a workbook built on 16 Oct).
+- Independent checker (19 Oct), rebuilt Ascot from POSITIONS (own code, families.py for targets, 262 squared scores re-derived by hand):
+  every cell of T24 SKY (1,150: green 48, yellow 41, light 148, none 913, conjunction 12), P01 HORSE (1,104: 32 / 44 / 132 / 896, 6) and
+  JOCKEY (1,104: 40 / 41 / 126 / 897, 6) - rows, headers, values, fills, comments: 0 mismatches. Script tools/scans/families_audit/chk_t24/.
+
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 (16 Oct 2026: value scaling removed - the scaled lines, scaled hits and the repeat rule below are gone; see "No value scaling".)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
@@ -590,6 +620,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **Galactic Centre as the 23rd star + T24 stars against bodies (19 Oct 2026, Eddie):** see its section. Engine and card pipeline
+  carry the Galactic Centre from now on; older batches unchanged. Tests 129/129.
 - **Selangor 17 Oct 2026 card (17 Oct, Eddie): read winners line by line — START HERE: docs/handover_20261017_selangor.md.** 12 tables
   workbooks in reference/selangor_20261017/ (dummy jockey: read horse and sky only); results for 12:15–15:15 in the handover. Way of
   working: Eddie pastes lines, Claude says what each is (raw cells), how they connect, and versus the field (every runner's raw rows); no

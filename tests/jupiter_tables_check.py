@@ -724,6 +724,7 @@ pairs = lambda r: 'skip' if len(r) < 4 or r[3] not in PL else row_ar([side_area(
 t21 = lambda r: 'skip' if len(r) < 3 or r[2] not in PL else row_ar([side_area(r[c + 7], r[c + 9], r[c + 17], 50.0) for c in (3, 21)
                         if len(r) > c + 17 and not (r[c + 12] and 'together' in str(r[c + 12]))])
 t22 = lambda r: 'skip' if len(r) < 3 or r[2] not in PL else row_ar([side_area(r[c + 5], r[c + 7], r[c + 14]) for c in (3, 18) if len(r) > c + 14])
+build('reference/classic/race_batch_20120619_ascot_1430.xlsx')     # 19 Oct 2026: Ascot rebuilt here (the checks below had read an older build)
 res, tot = [], {}
 for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', 'reference/classic/race_batch_20120619_ascot_1430_jupiter_tables.xlsx'):
     w = openpyxl.load_workbook(f, read_only=True)
@@ -1333,5 +1334,107 @@ for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_table
 check('T23 distance cells (Eddie 16 Oct): every S Jupiter → S X, H Jupiter → H X, J Jupiter → J X cell group (value, +5, target, group, offset, '
       'score, arrow, also, timing; value fill) = the matching T1 / T2 SKY cells and T1 / T2 natal cells (timing "fixed" where scored), none '
       'missing or extra (Lingfield every runner + Ascot)', not bad and nd > 0, f'{nd} cell groups; {bad[:3]}')
+# Test 28 (Eddie, 19 Oct 2026): Galactic Centre as the 23rd star (engine + card pipeline) and T24 stars against bodies
+import shutil, tempfile, math
+print('test 28: Galactic Centre (card pipeline rebuild of Ascot 14:30 2012) and T24')
+AP = os.path.expanduser('~/astronomy-project')
+tmp = tempfile.mkdtemp(prefix='jt_gc_')
+shutil.copy(f'{AP}/racecards/20120619_ascot/race_batch_20120619_ascot_1430.csv', tmp)
+r = subprocess.run([sys.executable, 'run_card_swiss.py', '--folder', tmp, '--skip-scrape', '--skip-vibrations', '--skip-pipeline',
+                    '--skip-detail', '--skip-predict', '--tables'], cwd=AP, capture_output=True, text=True)
+gcf = f'{tmp}/race_batch_20120619_ascot_1430_jupiter_tables.xlsx'
+check('T28 card pipeline rebuild of Ascot 14:30 2012 writes the tables workbook', r.returncode == 0 and os.path.exists(gcf), r.stdout[-300:] + r.stderr[-300:])
+gb = openpyxl.load_workbook(f'{tmp}/race_batch_20120619_ascot_1430.xlsx', read_only=True)
+ob = openpyxl.load_workbook('reference/classic/race_batch_20120619_ascot_1430.xlsx', read_only=True)
+bad = []
+for sh in ('TRANS', 'P01', 'P02'):
+    g = {x[1]: x for x in gb[sh].iter_rows(min_row=2, values_only=True) if x and x[1]}
+    o = {x[1]: x for x in ob[sh].iter_rows(min_row=2, values_only=True) if x and x[1]}
+    if set(g) - set(o) != {'Galactic Centre_B'} or any(g.get(k) != o[k] for k in o):
+        bad.append(sh)
+gsky = next(x for x in gb['TRANS'].iter_rows(min_row=2, values_only=True) if x and x[1] == 'Galactic Centre_B')
+check('T28 batch: Galactic Centre_B on TRANS, horse and jockey sheets, every other row identical to the old batch; sky RA / Dec = Sgr A* '
+      '(apparent J2000; ~266.417 / -29.008 to 0.01)', not bad and abs(gsky[4] - 266.417) < 0.01 and abs(gsky[8] + 29.008) < 0.01,
+      f'{bad}; sky {gsky[4]:.6f} / {gsky[8]:.6f}')
+gw = openpyxl.load_workbook(gcf)
+
+
+def t24_blocks(ws):
+    """{block title start: (header bodies [(body, plane)], {star label: [cells]})}"""
+    out, cur, hdr, rows = {}, None, None, None
+    it = list(ws.iter_rows())
+    for i, x in enumerate(it):
+        if x[0].value == 'T24' and str(x[1].value).startswith('T24 '):
+            cur = x[1].value.split(' (')[0]; rows = {}
+            names = it[i + 1]; pls = it[i + 2]
+            hdr = []
+            for c in range(2, len(pls)):
+                if pls[c].value in ('RA', 'Dec'):
+                    hdr.append((names[c].value if pls[c].value == 'RA' else names[c - 1].value, pls[c].value))
+            out[cur] = (hdr, rows)
+        elif cur and x[0].value == 'T24':
+            rows[x[1].value] = x[2:2 + len(hdr)]
+        elif cur and x[0].value != 'table' and x[0].value is None and rows:
+            cur = None
+    return out
+
+
+gc_in = {}
+for sh in ('SKY JUPITER', 'P01'):
+    for x in gw[sh].iter_rows():
+        if x[1].value and 'Galactic Centre' in str(x[1].value) and x[0].value:
+            gc_in.setdefault(x[0].value, 0); gc_in[x[0].value] += 1
+check('T28 Galactic Centre in T1, T2, T21, T22, T24 (and SKY) of the rebuilt Ascot, not in T19 (royal only)',
+      all(gc_in.get(t) for t in ('SKY', 'T1', 'T2', 'T21', 'T22', 'T24')) and not gc_in.get('T19'), str(gc_in))
+# (b) five cells by hand from POSITIONS
+pos = {}
+for x in gw['POSITIONS'].iter_rows(min_row=5, values_only=True):
+    if x and x[3]:
+        pos[(x[0] if x[0] != 'SKY' else 'SKY', x[2], x[3])] = (x[5], x[6])
+PHI = (1 + 5 ** 0.5) / 2
+sq = lambda tol, dev: (10 * (tol - dev) / tol) ** 2
+cases = [  # (sheet, block, chart, star, body, plane, expected value, score formula, fill, comment)
+    ('SKY JUPITER', 'T24 SKY', ('SKY', 'S'), 'Galactic Centre', 'Ceres', 'RA', 150.475762, lambda v: sq(0.03236, abs(v - 93 * PHI)), GREEN,
+     '93×φ · golden · {o} · {s}', lambda v: v - 93 * PHI),
+    ('P01', 'T24 HORSE', ('P01', 'H'), 'Galactic Centre', 'Mars', 'RA', 177.745864, lambda v: 100 * (1.277778 - abs(v - 1600 / 9)) / 1.277778,
+     GREEN, '177.778 · ninth · {o} · {s}', lambda v: v - 1600 / 9),
+    ('P01', 'T24 JOCKEY', ('P01', 'J'), 'Galactic Centre', 'Sedna', 'Dec', 32.362221, lambda v: sq(0.03236, abs(v - 20 * PHI)), GREEN,
+     '20×φ · golden · {o} · {s}', lambda v: v - 20 * PHI),
+    ('P01', 'T24 HORSE', ('P01', 'H'), 'Algorab', 'Makemake', 'RA', 0.064638, lambda v: sq(1.5, v), GREEN,
+     '0 · conjunction (RA < 1.5) · {o} · {s}', lambda v: v),
+    ('P01', 'T24 HORSE', ('P01', 'H'), 'Galactic Centre', 'Sun', 'RA', 57.972709, None, None, 'nearest: 58 · whole — outside ±0.02 · {o}',
+     lambda v: v - 58),
+]
+for sh, blk, (who, C), star, body, pl, exp, sc, fill, txt, off in cases:
+    a, b = pos[(who, C, star)], pos[(who, C, body)]
+    d = abs(a[0] - b[0]) % 360.0
+    v = (min(d, 360.0 - d)) if pl == 'RA' else abs(a[1] - b[1])
+    hdr, rows = t24_blocks(gw[sh])[blk]
+    c = rows[f'{C[-1]} {star}'][hdr.index((body, pl))]
+    want = txt.format(o=f'{off(v):+.5f}', s=f'{sc(v):.2f}' if sc else '')
+    got_fill = c.fill.start_color.rgb if c.fill and c.fill.fill_type else None
+    check(f'T28 {blk} {C[-1]} {star} – {C[-1]} {body} {pl} by hand from POSITIONS', abs(c.value - round(v, 6)) < 1e-9 and abs(v - exp) < 1e-6
+          and got_fill == fill and c.comment and c.comment.text == want, f'{c.value} / {v:.6f}, {got_fill}, {c.comment and c.comment.text!r} vs {want!r}')
+# (c) grid shapes: rebuilt Ascot 23 stars; the old Lingfield and Ascot batches 22 (Galactic Centre skipped quietly)
+bad, n = [], 0
+for f, nstar in ((gcf, 23), ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', 22),
+                 ('reference/classic/race_batch_20120619_ascot_1430_jupiter_tables.xlsx', 22)):
+    w = gw if f == gcf else openpyxl.load_workbook(f)
+    for sh in [s for s in w.sheetnames if s == 'SKY JUPITER' or re.fullmatch(r'P\d\d', s)]:
+        bl = t24_blocks(w[sh])
+        want = ['T24 SKY'] if sh == 'SKY JUPITER' else ['T24 HORSE', 'T24 JOCKEY']
+        if sorted(bl) != sorted(want):
+            bad.append((f, sh, list(bl))); continue
+        for k, (hdr, rows) in bl.items():
+            n += 1
+            nb = 25 if k == 'T24 SKY' else 24
+            moon = any(b == 'Moon' for b, _ in hdr)
+            cells = [c for cs in rows.values() for c in cs]
+            if (len(rows) != nstar or len(hdr) != 2 * nb or moon != (k == 'T24 SKY')
+                    or any(c.value is None or c.comment is None for c in cells) or ('Galactic Centre' in str(list(rows))) != (nstar == 23)):
+                bad.append((f[-40:], sh, k, len(rows), len(hdr), moon))
+check('T28 every T24 grid = stars x (2 x bodies): 23 x 50 sky (Moon incl.), 23 x 48 natal on the rebuilt Ascot; 22 rows on the old batches; '
+      'every cell a value and a comment', not bad and n == 3 + 13 + 3, f'{n} grids (rebuilt Ascot 3, Lingfield 13, old Ascot 3); {bad[:3]}')
+shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

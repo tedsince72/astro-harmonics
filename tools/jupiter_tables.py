@@ -41,12 +41,15 @@ T21R, T22R (runner sheets), SKY ROYAL (SKY JUPITER), FIELD 21R / 22R.
 TIMELINE (16 Oct 2026): at the end of SKY JUPITER, every sky Jupiter event on that sheet exact from the off - 30 to + 60 min, in time order.
 TIMELINE H / J (16 Oct 2026): at the end of each runner sheet, the same for every timed relationship involving that chart (T5-T22).
 LONG TIMELINE (16 Oct 2026): score >= 80 at the off, any exact time, SEPARATING / APPLYING; sky equivalent cells on TIMELINE H / J and LONG H / J.
+T24 (19 Oct 2026): stars against bodies, one row per star, RA / Dec distance per body, coloured by the best family, a cell comment with
+target, family, offset, score; SKY block on SKY JUPITER (Moon included), HORSE and JOCKEY blocks on each runner sheet after T22R.
 Points and engine from tools/jup2 (imported, not changed). Frozen readers are not changed."""
 import argparse, glob, os, re, sys, itertools, math, datetime
 import openpyxl
 from openpyxl.styles import PatternFill, Font, Alignment
 from openpyxl.cell.rich_text import CellRichText, TextBlock
 from openpyxl.cell.text import InlineFont
+from openpyxl.comments import Comment
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, 'tools', 'jup2'))
@@ -58,7 +61,8 @@ import families                                                                #
 
 PLANES = ('RA', 'Dec')                                     # Flat and GC removed (Eddie, 14 Oct 2026: noise); Equator where a table uses it
 STARS = ['Algol', 'Pleiades', 'Aldebaran', 'Capella', 'Sirius', 'Procyon', 'Regulus', 'Alkaid', 'Algorab', 'Spica', 'Arcturus',
-         'Alphecca', 'Antares', 'Vega', 'Deneb Algedi', 'Fomalhaut', 'Rigel', 'Betelgeuse', 'Polaris', 'Castor', 'Altair', 'Bellatrix']
+         'Alphecca', 'Antares', 'Vega', 'Deneb Algedi', 'Fomalhaut', 'Rigel', 'Betelgeuse', 'Polaris', 'Castor', 'Altair', 'Bellatrix',
+         'Galactic Centre']                               # Galactic Centre (Eddie, 19 Oct 2026): 23rd star, not royal; skipped where a batch lacks it
 BODIES = [b for b in SKY_BODIES if b != 'Ketu']           # workbook rows (Ketu rebuilt as Rahu's mirror)
 GREEN = PatternFill('solid', start_color='C6EFCE'); YELLOW = PatternFill('solid', start_color='FFEB9C')
 LIGHT = PatternFill('solid', start_color='FFF8DC'); HEAD = PatternFill('solid', start_color='D9E1F2')
@@ -681,6 +685,8 @@ def runner_sheet(wb, P, R, ctx):
     row, field['T22'] = write_t22(ws, row, ctx, R)
     row, field['T21R'] = write_t21(ws, row + 1, ctx, R, royal=True)    # royal stars only (Eddie 16 Oct), after the full tables
     row, field['T22R'] = write_t22(ws, row + 1, ctx, R, royal=True)
+    for C, who in (('H', 'HORSE'), ('J', 'JOCKEY')):        # T24 (Eddie, 19 Oct 2026): stars against bodies, natal
+        row, field[f'_t24{C}'] = write_t24(ws, row + 1, R[C], C, f'T24 {who} (natal): {T24_NOTE}')
     tl = runner_timeline(ctx, R, field)                    # TIMELINE H / J (Eddie, 16 Oct 2026), after the other tables
     skyf = lambda e: sky_equiv(ctx, R, e)                  # sky equivalent cells (Eddie, 16 Oct 2026)
     for C, who in (('H', 'horse'), ('J', 'jockey')):
@@ -713,6 +719,64 @@ def runner_sheet(wb, P, R, ctx):
     ws.freeze_panes = 'C4'
     field['_rats'] = rats
     return field
+
+
+# ---------------- T24: stars against bodies (Eddie, 19 Oct 2026)
+T24_BODIES = ['Sun', 'Moon', 'Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune', 'Pluto', 'Chiron', 'Ceres', 'Pallas',
+              'Juno', 'Vesta', 'Eris', 'Sedna', 'Haumea', 'Makemake', 'Gonggong', 'Quaoar', 'Orcus', 'Transpluto', 'Rahu', 'Ketu']
+
+
+def t24_cell(v, pl):
+    """-> (fill colour or '', comment text) for a T24 distance: best family (conjunction counts, as T1), else the nearest target outside"""
+    ev, _ = nearest(v, 'dist', pl)
+    if ev:
+        fam = f"conjunction ({pl} < {families.CONJ[pl]})" if ev['family'] == 'conj' else ev['family']
+        return ev['colour'], f"{'0' if ev['family'] == 'conj' else ev['target']} · {fam} · {fmt_off(ev)} · {ev['score']:.2f}"
+    near = families.outside(v, pl, 'deg')
+    return '', f"nearest: {near['target']} · {near['family']} — outside ±{near['tol']:.3g} · {fmt_off(near)}" if near else 'no target'
+
+
+def write_t24(ws, row, ch, C, title):
+    """T24 block (Eddie, 19 Oct 2026): rows = stars (STARS order, those in the chart), columns = one RA / Dec pair per body (Moon only in
+    the sky); cell = the distance (RA wrapped 0-180, Dec |ΔDec|), 6 dp, filled by its best family score, comment = target · family ·
+    offset · score or the nearest target outside. No timing, no +5, no field sheet. -> (next row, {(star, body, plane): (v, colour, text)})"""
+    bodies = [b for b in T24_BODIES if b in ch and ch[b][2] == 'body' and (C == 'S' or b != 'Moon')]
+    stars = [x for x in STARS if x in ch]
+    ws.cell(row=row, column=1, value='T24').font = BOLD
+    ws.cell(row=row, column=2, value=title).font = BOLD
+    row += 1
+    for r in (row, row + 1):
+        for c, v in ((1, 'table'), (2, 'star')):
+            ws.cell(row=r, column=c, value=v if r == row else None).fill = HEAD
+    for i, b in enumerate(bodies):
+        col = 3 + 2 * i
+        c = ws.cell(row=row, column=col, value=b); c.fill = HEAD; c.font = BOLD
+        ws.cell(row=row, column=col + 1).fill = HEAD
+        ws.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 1)
+        for k, pl in enumerate(PLANES):
+            c = ws.cell(row=row + 1, column=col + k, value=pl); c.fill = HEAD; c.font = BOLD
+    row += 2
+    out = {}
+    for x in stars:
+        ws.cell(row=row, column=1, value='T24')
+        ws.cell(row=row, column=2, value=f'{C} {x}')
+        for i, b in enumerate(bodies):
+            for k, pl in enumerate(PLANES):
+                v = plane_value(ch[x], ch[b], pl)
+                colour, text = t24_cell(v, pl)
+                c = ws.cell(row=row, column=3 + 2 * i + k, value=round(v, 6))
+                c.number_format = '0.000000'
+                if colour:
+                    c.fill = FILL[colour]
+                c.comment = Comment(text, 'T24', width=260, height=40)
+                out[(x, b, pl)] = (v, colour, text)
+        row += 1
+    return row + 1, out
+
+
+T24_NOTE = ('stars against bodies (Eddie, 19 Oct 2026): one row per star, one RA / Dec pair per body; cell = the distance (RA wrapped 0–180, '
+            'Dec |ΔDec|), coloured by its best family score (green >= 80, yellow 50–80, light < 50; conjunction RA < 1.5 / Dec < 0.3 counts, '
+            'as T1; no fill outside); cell comment = target · family · offset · score, or the nearest target outside. No timing, no +5')
 
 
 # ---------------- T23: ratios of the T1, T2 and SKY distances (Eddie, 16 Oct 2026)
@@ -2817,6 +2881,7 @@ def main():
                             'every row listed (hits and non-hits); a row with "X, Y together" is plain, in NO HIT; same cells and areas as SKY PAIRS, best '
                             'first inside each block',
                             srows, 'SKY ROYAL', every=True, notog=True)
+    row, _ = write_t24(ws, row + 1, sky, 'S', f'T24 SKY (race-day positions at the off, Moon included): {T24_NOTE}')     # Eddie, 19 Oct 2026
     srcs = (('SKY PAIRS', skypairs), ('SKY STARS', skystars), ('SKY ROYAL', srows))
     row = write_timeline(ws, row, ctx, timeline(ctx, R0, skyeq, srcs))
     row = write_long(ws, row, ctx, realise(ctx, R0, timeline(ctx, R0, skyeq, srcs, keep=long_keep)), 'LONG TIMELINE',
