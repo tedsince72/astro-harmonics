@@ -1561,7 +1561,8 @@ for w in (gfw, openpyxl.load_workbook(f'{tmp}/full_pairs.xlsx', read_only=True))
         if sh == 'POSITIONS':
             continue
         for x in w[sh].iter_rows(values_only=True):
-            if x and (x[0] in ('T1', 'T2', 'T24') or sh == 'SKY JUPITER' and x[0] == 'SKY'):   # SKY block on the 35 stars (test 31)
+            if x and (x[0] in ('T1', 'T2', 'T24', 'T24 H / J', 'T24 HORSE RATIOS', 'T24 JOCKEY RATIOS')   # T24 ratio tables (test 32)
+                      or sh == 'SKY JUPITER' and x[0] == 'SKY'):   # SKY block on the 35 stars (test 31)
                 continue
             hit = [v for v in x if isinstance(v, str) and NEWRE.search(v)]
             if hit:
@@ -1694,6 +1695,176 @@ for star, pl, exp, tt, tv, tol, kind, way in cases:
     check(f'T31 SKY block S Jupiter → S {star} {pl} by hand from POSITIONS', abs(v0 - exp) < 1e-6 and x[2].value == round(v0, 6)
           and x[3].value == round(v5, 6) and x[4].value == tt and x[6].value == f'{v0 - tv:+.5f}' and f'{x[7].value:.2f}' == f'{sc:.2f}'
           and x[10].value == txt, f'{v0:.6f} -> {v5:.6f}; {x[4].value}, {x[6].value}, {x[7].value} (by hand {sc:.2f}); {x[10].value!r} vs {txt!r}')
+# Test 32 (Eddie, 19 Oct 2026): T24 ratio tables - T24 H / J, T24 HORSE RATIOS, T24 JOCKEY RATIOS (natal; after T24 JOCKEY)
+print('test 32: T24 H / J and T24 HORSE / JOCKEY RATIOS')
+T24R = ('T24 H / J', 'T24 HORSE RATIOS', 'T24 JOCKEY RATIOS')
+
+
+def t24r_read(ws):
+    """{table: ([(column name, plane)], {row label: [cells]})}"""
+    out, it, cur = {}, list(ws.iter_rows()), None
+    for i, x in enumerate(it):
+        t = x[0].value
+        if t in T24R and str(x[1].value).startswith(t + ' ('):
+            h1, h2, pl, cols, idx = it[i + 1], it[i + 2], None, [], []
+            for c in range(2, len(h1)):
+                pl = h1[c].value if h1[c].value in ('RA', 'Dec') else pl
+                if h2[c].value:
+                    cols.append((h2[c].value, pl)); idx.append(c)
+            out[t] = (cols, {}); cur = (t, idx)
+        elif t in T24R:
+            out[t][1][x[1].value] = [x[c] for c in cur[1]]
+    return out
+
+
+fillrgb = lambda c: c.fill.start_color.rgb if c.fill and c.fill.fill_type else None
+first = lambda c: c.comment.text.split('\n')[0] if c.comment else None
+bad, nchk, nruns = [], 0, 0
+for nm, w, nst in (('Ascot', gw, 35), ('Lingfield', lfw, 21)):
+    for P in runner_tabs(w):
+        nruns += 1
+        nr, nb = t24r_read(w[P]), t24_blocks(w[P])
+        stars = [x for x in JT.T1_T2_T24_STARS if nst == 35 or x in JT.STARS and x != 'Galactic Centre']
+        if sorted(nr) != sorted(T24R):
+            bad.append((nm, P, 'tables', list(nr))); continue
+        hj_cols = [(n, pl) for pl in ('RA', 'Dec') for n in ('d(H star, H Jupiter)', 'd(J star, J Jupiter)', 'H / J')]
+        if nr['T24 H / J'][0] != hj_cols or list(nr['T24 H / J'][1]) != stars:
+            bad.append((nm, P, 'H / J layout'))
+        for C, who in (('H', 'HORSE'), ('J', 'JOCKEY')):
+            hdr, rows = nb[f'T24 {who}']
+            bodies = [b for b, pl in hdr if pl == 'RA' and b != 'Jupiter']
+            cols, rr = nr[f'T24 {who} RATIOS']
+            if cols != [(b, pl) for pl in ('RA', 'Dec') for b in bodies] or list(rr) != [f'{C} {x}' for x in stars]:
+                bad.append((nm, P, who, 'layout')); continue
+            for x in stars:
+                t24 = {k: c for k, c in zip(hdr, rows[f'{C} {x}'])}
+                # T24 H / J distance cells = the T24 Jupiter cells (value, fill, first comment line)
+                for pl in ('RA', 'Dec'):
+                    c = nr['T24 H / J'][1][x][hj_cols.index((f'd({C} star, {C} Jupiter)', pl))]
+                    j = t24[('Jupiter', pl)]
+                    nchk += 1
+                    if (c.value, fillrgb(c), first(c)) != (j.value, fillrgb(j), first(j)):
+                        bad.append((nm, P, 'H / J dist', x, pl))
+                # every RATIOS cell from the two T24 distances
+                for k, (b, pl) in enumerate(cols):
+                    c, dj, dx = rr[f'{C} {x}'][k], t24[('Jupiter', pl)].value, t24[(b, pl)].value
+                    nchk += 1
+                    if min(dj, dx) < (1.5 if pl == 'RA' else 0.3):
+                        if c.value != 'together' or fillrgb(c):
+                            bad.append((nm, P, who, x, b, pl, 'together')); 
+                        continue
+                    r = max(dj, dx) / min(dj, dx)
+                    if not isinstance(c.value, float) or abs(c.value - r) > r * 1e-6 * (1 / dj + 1 / dx) + 2e-6:
+                        bad.append((nm, P, who, x, b, pl, c.value, r))
+            # H / J ratio from its two distance cells
+        for x in stars:
+            for pl in ('RA', 'Dec'):
+                row_ = nr['T24 H / J'][1][x]
+                dh, dj_, c = (row_[hj_cols.index((n, pl))] for n in ('d(H star, H Jupiter)', 'd(J star, J Jupiter)', 'H / J'))
+                nchk += 1
+                if min(dh.value, dj_.value) < (1.5 if pl == 'RA' else 0.3):
+                    ok_ = c.value == 'together'
+                else:
+                    r = max(dh.value, dj_.value) / min(dh.value, dj_.value)
+                    ok_ = isinstance(c.value, float) and abs(c.value - r) <= r * 1e-6 * (1 / dh.value + 1 / dj_.value) + 2e-6
+                if not ok_:
+                    bad.append((nm, P, 'H / J ratio', x, pl, c.value))
+check('T32 layout and every distance: rows = T1_T2_T24_STARS in order (Ascot 35, Lingfield 21), columns RA then Dec (H / J: d(H star, H '
+      'Jupiter), d(J star, J Jupiter), H / J; RATIOS: the T24 bodies without Jupiter); H / J distance cells = the T24 Jupiter cells (value, '
+      'fill, comment); every ratio = larger / smaller of the T24 distances, "together" where one is within RA 1.5 / Dec 0.3',
+      not bad and nruns == 7, f'{nruns} runner sheets, {nchk} cells; {bad[:3]}')
+# T24 H / J for the old stars = the T23 H / J star cells (value, interval, score)
+bad, n23 = [], 0
+for nm, w in (('Ascot', gw), ('Lingfield', lfw)):
+    for P in runner_tabs(w):
+        hj = t24r_read(w[P])['T24 H / J']
+        for x in w[P].iter_rows(values_only=True):
+            if x[0] != 'T23' or x[1] not in hj[1]:
+                continue
+            for i, pl in enumerate(('RA', 'Dec')):
+                col = JT.t23_rcol(i, 0) - 1
+                c = hj[1][x[1]][hj[0].index(('H / J', pl))]
+                n23 += 1
+                if str(x[col + 2] or '').startswith('together'):
+                    ok_ = c.value == 'together'
+                else:
+                    t23_int = str(x[col + 2]).split(' · ')[0]
+                    cm = first(c)
+                    new_int = cm.replace('nearest: ', '').split(' · ')[0]
+                    sc = None if 'outside' in cm else float(cm.split(' · ')[-1])
+                    ok_ = c.value == x[col] and t23_int == new_int and sc == x[col + 5]
+                if not ok_:
+                    bad.append((nm, P, x[1], pl, x[col], x[col + 2], x[col + 5], c.value, first(c)))
+check('T32 T24 H / J ratio of every old star = the T23 H / J star cell (value, interval, score; together alike), Ascot + Lingfield every runner',
+      not bad and n23 > 0, f'{n23} cells; {bad[:3]}')
+# by hand from POSITIONS (rebuilt Ascot P01)
+nr = t24r_read(gw['P01'])
+col_ = lambda t, n, pl: nr[t][0].index((n, pl))
+pct = lambda v, t: (v / t - 1) * 100
+cases = [  # (table, row label, column, plane, chart, star, X (second point), interval, comment by hand)
+    ('T24 H / J', 'Deneb', 'H / J', 'RA', None, 'Deneb', None, 1.25,
+     lambda v: f'5/4 · major third · Imperfect · B · {pct(v, 1.25):+.5f}% · {sq(0.2, abs(pct(v, 1.25))):.2f}'),
+    ('T24 H / J', 'Altair', 'H / J', 'RA', None, 'Altair', None, 1.5, lambda v: f'nearest: 3/2 · fifth — outside · {v - 1.5:+.5f}'),
+    ('T24 H / J', 'Vega', 'H / J', 'Dec', None, 'Vega', None, 1.0, lambda v: f'1 · unison · Perfect · A · {v - 1:+.5f} · {sq(0.02, abs(v - 1)):.2f}'),
+    ('T24 HORSE RATIOS', 'H Algol', 'Sun', 'RA', 'H', 'Algol', 'Sun', 1.5, lambda v: f'3/2 · fifth · Perfect · A · {v - 1.5:+.5f} · {sq(0.02, abs(v - 1.5)):.2f}'),
+    ('T24 HORSE RATIOS', 'H Denebola', 'Uranus', 'RA', 'H', 'Denebola', 'Uranus', PHI,
+     lambda v: f'φ · golden ratio · Phi · φ and √2 · {pct(v, PHI):+.5f}% · {sq(0.15, abs(pct(v, PHI))):.2f}'),
+    ('T24 JOCKEY RATIOS', 'J Bellatrix', 'Makemake', 'RA', 'J', 'Bellatrix', 'Makemake', 2.0,
+     lambda v: f'2 · octave · Perfect · A · {v - 2:+.5f} · {sq(0.02, abs(v - 2)):.2f}'),
+    ('T24 JOCKEY RATIOS', 'J Alkaid', 'Gonggong', 'Dec', 'J', 'Alkaid', 'Gonggong', 1.0,
+     lambda v: f'1 · unison · Perfect · A · {v - 1:+.5f} · {sq(0.02, abs(v - 1)):.2f}'),
+]
+colour_of = lambda sc: GREEN if sc >= 80 else YELLOW if sc >= 50 else LIGHT
+for t, lab, cn, pl, C, star, X, tv, want in cases:
+    if C is None:                                          # T24 H / J: d(H star, H Jupiter) / d(J star, J Jupiter); q = d(H Jup, J Jup) / smaller
+        a, b = dist(gp[('P01', 'H', star)], gp[('P01', 'H', 'Jupiter')], pl), dist(gp[('P01', 'J', star)], gp[('P01', 'J', 'Jupiter')], pl)
+        qd, close = dist(gp[('P01', 'H', 'Jupiter')], gp[('P01', 'J', 'Jupiter')], pl), 'H–J Jupiters'
+    else:                                                  # RATIOS: d(star, Jupiter) / d(star, X); q = d(Jupiter, X) / smaller
+        a, b = dist(gp[('P01', C, star)], gp[('P01', C, 'Jupiter')], pl), dist(gp[('P01', C, star)], gp[('P01', C, X)], pl)
+        qd, close = dist(gp[('P01', C, 'Jupiter')], gp[('P01', C, X)], pl), 'Jupiter–X'
+    v = max(a, b) / min(a, b)
+    w_ = want(v)
+    q = qd / min(a, b)
+    if tv == 1.0 and 0.0015 <= q < 0.02:
+        w_ += f'\n{close} assisted (q {q:.6f})'
+    c = nr[t][1][lab][col_(t, cn, pl)]
+    sc = None if 'outside' in w_ else float(w_.split('\n')[0].split(' · ')[-1])
+    check(f'T32 {t} {lab} {cn} {pl} by hand from POSITIONS', c.value == round(v, 6) and c.comment.text == w_
+          and fillrgb(c) == (colour_of(sc) if sc is not None else None),
+          f'{a:.6f} / {b:.6f} = {v:.6f}; q {q:.6f}; {c.comment.text!r} vs {w_!r}; {fillrgb(c)}')
+a = dist(gp[('P01', 'H', 'Nunki')], gp[('P01', 'H', 'Jupiter')], 'RA')
+c = nr['T24 H / J'][1]['Nunki'][col_('T24 H / J', 'H / J', 'RA')]
+w_ = f'together (RA < 1.5): H Nunki, H Jupiter {a:.6f} — no ratio, no score'
+check('T32 T24 H / J Nunki RA together by hand from POSITIONS (d(H Nunki, H Jupiter) RA < 1.5): "together", no fill, the leg named',
+      a < 1.5 and c.value == 'together' and not fillrgb(c) and c.comment.text == w_, f'{a:.6f}; {c.value!r}, {c.comment.text!r}')
+# automatic / assisted found by the rule: counts over both races (none automatic in these two races)
+cnt = {}
+for nm, w in (('Ascot', gw), ('Lingfield', lfw)):
+    for P in runner_tabs(w):
+        for t, (cols, rr) in t24r_read(w[P]).items():
+            for cs in rr.values():
+                for c in cs:
+                    tx = c.comment.text if c.comment else ''
+                    k = (nm, 'automatic' if 'automatic (' in tx else 'assisted' if ' assisted (q ' in tx else None)
+                    if k[1]:
+                        cnt[k] = cnt.get(k, 0) + 1
+                        if k[1] == 'automatic' and fillrgb(c) != '00D9D9D9':
+                            bad.append(('automatic not grey', nm, P))
+check('T32 automatic / assisted unisons by the rule: automatic none in either race; assisted Ascot 25 (H / J 17, HORSE 1, JOCKEY 7), '
+      'Lingfield 156', cnt == {('Ascot', 'assisted'): 25, ('Lingfield', 'assisted'): 156}, str(cnt))
+# every other sheet and row identical to the build before (commit 10b7d76a), both races, --full
+bf = 'tools/_jt_before_10b7d76a.py'
+open(bf, 'w').write(subprocess.run(['git', 'show', '10b7d76a:tools/jupiter_tables.py'], capture_output=True, text=True).stdout)
+res = {}
+for nm, inp, after in (('Lingfield', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf),
+                       ('Ascot', f'{tmp}/race_batch_20120619_ascot_1430.xlsx', gf)):
+    bo = f'{tmp}/{nm}_before32_jupiter_tables.xlsx'
+    subprocess.run([sys.executable, bf, inp, '--full', '--out', bo], capture_output=True, text=True)
+    r = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_t24r/compare_t24r.py', bo, after], capture_output=True, text=True)
+    res[nm] = line(r.stdout, 'sheets')
+os.remove(bf)
+check('T32 every other sheet and row identical to the build before (commit 10b7d76a; values, fills, comments; the new block cut out), both races',
+      all(v.endswith('differences outside the new tables: 0') for v in res.values()) and len(res) == 2, str(res))
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

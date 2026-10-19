@@ -24,10 +24,17 @@ def cell_sig(c):
             c.border.left.style, c.border.right.style)
 
 
+NEW_T24R = ('T24 H / J', 'T24 HORSE RATIOS', 'T24 JOCKEY RATIOS')   # T24 ratio tables (19 Oct 2026, later): own check, compare_t24r.py
+
+
 def split(ws):
     rest, keyed, order = [], {}, {}
+    inblk = False
     for r in ws.iter_rows():
         if not any(c.value is not None for c in r):
+            continue
+        inblk = r[0].value in NEW_T24R or inblk and r[0].value in ('table', None)
+        if inblk:
             continue
         x = star_of(r)
         if x:

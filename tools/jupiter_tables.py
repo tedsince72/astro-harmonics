@@ -46,6 +46,8 @@ target, family, offset, score; SKY block on SKY JUPITER (Moon included), HORSE a
 Stars (Eddie, 19 Oct 2026): T1, T2, T24 and the SKY block use T1_T2_T24_STARS (35 stars with |Dec| <= 50: STARS without Polaris + 13 new,
 in RA order); every other table (and TIMELINE, NUMBERS) keeps STARS (23, Polaris included); the new stars' positions are appended to POSITIONS. Default workbook (19 Oct 2026):
 POSITIONS, SKY JUPITER and the runner sheets only; --full also writes P## RATIOS, P## NUMBERS, THREADS, FIELD NUMBERS and every FIELD sheet.
+T24 ratio tables (Eddie, 19 Oct 2026; natal only): T24 H / J (d(H star, H Jupiter) / d(J star, J Jupiter)), T24 HORSE RATIOS and T24 JOCKEY
+RATIOS (d(star, Jupiter) / d(star, X), same chart), on each runner sheet after T24 JOCKEY; not in THREADS, NUMBERS, RATIOS, FIELD or TIMELINEs.
 Points and engine from tools/jup2 (imported, not changed). Frozen readers are not changed."""
 import argparse, glob, os, re, sys, itertools, math, datetime
 import openpyxl
@@ -708,6 +710,9 @@ def runner_sheet(wb, P, R, ctx):
     row, field['T22R'] = write_t22(ws, row + 1, ctx, R, royal=True)
     for C, who in (('H', 'HORSE'), ('J', 'JOCKEY')):        # T24 (Eddie, 19 Oct 2026): stars against bodies, natal
         row, field[f'_t24{C}'], field[f'_t24m{C}'] = write_t24(ws, row + 1, RX[C], C, f'T24 {who} (natal): {T24_NOTE}')
+    row, field['_t24hj'] = write_t24hj(ws, row + 1, RX['H'], RX['J'])        # T24 ratio tables (Eddie, 19 Oct 2026), natal only
+    for C, who in (('H', 'HORSE'), ('J', 'JOCKEY')):
+        row, field[f'_t24r{C}'] = write_t24r(ws, row + 1, RX[C], C, who)
     tl = runner_timeline(ctx, R, field)                    # TIMELINE H / J (Eddie, 16 Oct 2026), after the other tables
     skyf = lambda e: sky_equiv(ctx, R, e)                  # sky equivalent cells (Eddie, 16 Oct 2026)
     for C, who in (('H', 'horse'), ('J', 'jockey')):
@@ -867,6 +872,136 @@ T24_NOTE = ('stars against bodies (Eddie, 19 Oct 2026): one row per star; the RA
             'Dec ±0.15 of their midpoint; total = ratio half + distance half; hits only, best first; own Rahu – Ketu, "A, B together" (RA < 1.5, '
             'Dec < 0.3) and Ketu repeats of a Rahu pair left out; between / far side as T17); the two body cells get a thick outline and a '
             'comment line. No timing, no +5')
+
+
+# ---------------- T24 ratio tables (Eddie, 19 Oct 2026; natal only, viewing only)
+T24R_NOTE = ('larger / smaller on the interval list (area A ±0.02 absolute, φ and √2 0.15 %, B tapered), squared score, fill green >= 80, '
+             'yellow 50–80, light < 50, none outside; comment = interval · name · group · area · offset · score, or the nearest interval '
+             'outside; "together" (no ratio, no score) when a distance is within the conjunction tolerance (RA < 1.5, Dec < 0.3), the leg named '
+             'in the comment; a unison with the two compared points close: q = d(the two points) / the smaller distance, < 0.0015 grey '
+             '"automatic, not counted", 0.0015 to < 0.02 tag "assisted" (as T23). Natal, fixed: no +5, no timing')
+
+
+def t24r_cell(ws, row, col, legs, pl, qd, close):
+    """one T24 ratio cell: legs = [(name, distance), (name, distance)]; qd = distance of the two compared points (automatic / assisted
+    unison, as T23 H / J); close = 'H–J Jupiters' / 'Jupiter–X'. -> area of the hit ('A', 'P', 'B') or None (no hit, together, automatic)"""
+    (na, a), (nb, b) = legs
+    tog = [f'{n} {v:.6f}' for n, v in legs if v < families.CONJ[pl]]
+    if tog:
+        c = ws.cell(row=row, column=col, value='together')
+        c.comment = Comment('together (' + ('RA < 1.5' if pl == 'RA' else 'Dec < 0.3') + '): ' + '; '.join(tog) + ' — no ratio, no score', 'T24', width=260, height=55)
+        return None
+    v, _, inv = ratio(a, None, b, None)
+    ev, _ = nearest(v, 'ratio')
+    c = ws.cell(row=row, column=col, value=round(v, 6))
+    c.number_format = '0.000000'
+    if not ev:
+        near = families.outside(v, None, 'ratio')
+        c.comment = Comment(f"nearest: {near['target']} · {near['name']} — outside · {fmt_off(near)}" if near else 'no interval', 'T24', width=260, height=40)
+        return None
+    area = hit_area(ev)
+    text = f"{ev['target']} · {ev['name']} · {ev['group']} · {SKY_AREA[area]} · {fmt_off(ev)} · {ev['score']:.2f}"
+    if ev['target'] == '1':
+        q = qd / min(a, b) if min(a, b) else float('inf')
+        if q < AUTO_TOL:
+            c.fill = FILL['grey']
+            c.comment = Comment(f'{text}\nautomatic ({close} close, q {q:.6f}), not counted', 'T24', width=260, height=55)
+            return None
+        if q < ASSIST_TOL:
+            text += f'\n{close} assisted (q {q:.6f})'
+    c.fill = FILL[ev['colour']]
+    c.comment = Comment(text, 'T24', width=260, height=40 + 15 * text.count('\n'))
+    return area
+
+
+def t24r_head(ws, row, tid, title, groups, cols):
+    """title row; header row 1 'RA' / 'Dec' merged over each plane's columns, row 2 the column names; -> first data row"""
+    ws.cell(row=row, column=1, value=tid).font = BOLD
+    ws.cell(row=row, column=2, value=title).font = BOLD
+    row += 1
+    ws.cell(row=row, column=1, value='table').fill = HEAD
+    ws.cell(row=row, column=2, value='star').fill = HEAD
+    ws.cell(row=row + 1, column=1).fill = HEAD
+    ws.cell(row=row + 1, column=2).fill = HEAD
+    n = len(cols)
+    for i, pl in enumerate(groups):
+        c0 = 3 + n * i
+        c = ws.cell(row=row, column=c0, value=pl); c.fill = HEAD; c.font = BOLD
+        for k in range(1, n):
+            ws.cell(row=row, column=c0 + k).fill = HEAD
+        ws.merge_cells(start_row=row, start_column=c0, end_row=row, end_column=c0 + n - 1)
+        for k, h in enumerate(cols):
+            c = ws.cell(row=row + 1, column=c0 + k, value=h); c.fill = HEAD; c.font = BOLD
+    widths = [(2, T24_NAME_W)] + [(3 + k, T24_VAL_W) for k in range(n * len(groups))]
+    for col, w in widths:                                  # shared columns only ever widened (as T24)
+        L = openpyxl.utils.get_column_letter(col)
+        if L not in ws.column_dimensions or not ws.column_dimensions[L].customWidth:
+            ws.column_dimensions[L].width = w
+        else:
+            ws.column_dimensions[L].width = max(ws.column_dimensions[L].width, w)
+    return row + 2
+
+
+def t24r_title(tid, what, n):
+    return f"{tid} (Eddie, 19 Oct 2026): {what}. {T24R_NOTE}. Hits: A {n['A']}, φ and √2 {n['P']}, B {n['B']}"
+
+
+def write_t24hj(ws, row, H, J):
+    """T24 H / J: one row per star (T1_T2_T24_STARS, in both charts); per plane d(H star, H Jupiter), d(J star, J Jupiter) (the Jupiter
+    cells of T24 HORSE / JOCKEY, filled and commented as there, without the midpoint lines) and the ratio H / J. -> row, hits per area"""
+    stars = [x for x in T1_T2_T24_STARS if x in H and x in J]
+    n = {'A': 0, 'P': 0, 'B': 0}
+    body = []
+    for x in stars:
+        line = [x]
+        for pl in PLANES:
+            dh, dj = plane_value(H[x], H['Jupiter'], pl), plane_value(J[x], J['Jupiter'], pl)
+            line.append((pl, dh, dj))
+        body.append(line)
+    title_row = row
+    row = t24r_head(ws, row, 'T24 H / J', '', PLANES, ('d(H star, H Jupiter)', 'd(J star, J Jupiter)', 'H / J'))
+    for line in body:
+        x = line[0]
+        ws.cell(row=row, column=1, value='T24 H / J')
+        ws.cell(row=row, column=2, value=x)
+        for i, (pl, dh, dj) in enumerate(line[1:]):
+            c0 = 3 + 3 * i
+            for k, v in enumerate((dh, dj)):
+                colour, text = t24_cell(v, pl)
+                c = ws.cell(row=row, column=c0 + k, value=round(v, 6)); c.number_format = '0.000000'
+                if colour:
+                    c.fill = FILL[colour]
+                c.comment = Comment(text, 'T24', width=260, height=40)
+            a = t24r_cell(ws, row, c0 + 2, [(f'H {x}, H Jupiter', dh), (f'J {x}, J Jupiter', dj)], pl,
+                          plane_value(H['Jupiter'], J['Jupiter'], pl), 'H–J Jupiters')
+            if a:
+                n[a] += 1
+        row += 1
+    ws.cell(row=title_row, column=2, value=t24r_title('T24 H / J', 'd(H star, H Jupiter) / d(J star, J Jupiter) per star, RA and Dec', n))
+    return row + 1, n
+
+
+def write_t24r(ws, row, ch, C, who):
+    """T24 HORSE RATIOS / T24 JOCKEY RATIOS: one row per star, one column per body X of the chart (T24 bodies without Jupiter), RA
+    columns then Dec columns; cell = d(star, Jupiter) / d(star, X), larger / smaller, same chart. -> row, hits per area"""
+    bodies = [b for b in T24_BODIES if b in ch and ch[b][2] == 'body' and b not in ('Moon', 'Jupiter')]
+    stars = [x for x in T1_T2_T24_STARS if x in ch]
+    n = {'A': 0, 'P': 0, 'B': 0}
+    title_row = row
+    row = t24r_head(ws, row, f'T24 {who} RATIOS', '', PLANES, bodies)
+    for x in stars:
+        ws.cell(row=row, column=1, value=f'T24 {who} RATIOS')
+        ws.cell(row=row, column=2, value=f'{C} {x}')
+        for i, pl in enumerate(PLANES):
+            dj = plane_value(ch[x], ch['Jupiter'], pl)
+            for k, b in enumerate(bodies):
+                a = t24r_cell(ws, row, 3 + len(bodies) * i + k, [(f'{C} {x}, {C} Jupiter', dj), (f'{C} {x}, {C} {b}', plane_value(ch[x], ch[b], pl))],
+                              pl, plane_value(ch['Jupiter'], ch[b], pl), 'Jupiter–X')
+                if a:
+                    n[a] += 1
+        row += 1
+    ws.cell(row=title_row, column=2, value=t24r_title(f'T24 {who} RATIOS', f'd({C} star, {C} Jupiter) / d({C} star, {C} X) per star and body X', n))
+    return row + 1, n
 
 
 # ---------------- T23: ratios of the T1, T2 and SKY distances (Eddie, 16 Oct 2026)

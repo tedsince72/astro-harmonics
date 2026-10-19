@@ -106,10 +106,10 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
 - Viewing tool (13 Oct 2026, not a reader): `python3 tools/jupiter_tables.py <race_batch xlsx | reference/classic/<race> folder>` ->
   race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T14, T16–T22 per runner (T15 removed 15 Oct 2026), field matrices, off and +5 min,
   every family from tools/families.py scored, best = highest score, also (no scaled column since 16 Oct 2026), colours by score; ratios on the interval
-  list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct); default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
+  list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (153/153; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (165/165; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -668,6 +668,44 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   workbooks, 238 fills) and = the T1 / T2 SKY cells (4,720 comparisons); --full vs before (star rows by label, 3,248 other rows in order,
   TIMELINE / LONG TIMELINE incl.): 0 mismatches. No new-star SKY timing falls in the TIMELINE window (closest Nunki Dec, 601.5 min ago).
 
+## jupiter_tables: T24 ratio tables (Eddie, 19 Oct 2026; viewing only, natal)
+- On each runner sheet after T24 JOCKEY (column A = table id): T24 H / J, T24 HORSE RATIOS, T24 JOCKEY RATIOS (write_t24hj, write_t24r,
+  t24r_cell). Rows T1_T2_T24_STARS in RA order (each chart's own star positions; older batches skip missing stars); header row 1 'RA' /
+  'Dec' merged, row 2 column names; star column as T24, value columns width 11. Natal, fixed: no +5, no timing; not in THREADS, NUMBERS,
+  RATIOS, FIELD or TIMELINEs; no sky version.
+  - T24 H / J: per plane d(H star, H Jupiter), d(J star, J Jupiter) (= the T24 Jupiter cells, filled and commented as T24 but without
+    T24's midpoint lines - Claude's choice: the midpoints stay in T24), ratio H / J.
+  - T24 HORSE / JOCKEY RATIOS: one column per T24 body without Jupiter, RA then Dec; cell d(star, Jupiter) / d(star, X), same chart. No
+    midpoint column.
+  - Ratio cell: larger / smaller, 6 dp, interval list with the area tolerances, squared score, fill by score; comment 'interval · name ·
+    group · area · offset · score' or 'nearest: <interval> · <name> — outside · <offset>'. Together (a distance < RA 1.5 / Dec 0.3): the
+    word 'together', no fill, the leg named in the comment. Automatic / assisted as T23, applied (as T23) only to a unison hit: q = d(the two
+    compared points) / the smaller distance (H / J: H Jupiter – J Jupiter, 'H–J Jupiters close'; RATIOS: Jupiter – X, 'Jupiter–X close');
+    q < 0.0015 grey 'automatic (...), not counted'; 0.0015 to < 0.02 comment tag '... assisted (q ...)'. Title: hits per area (automatic
+    not counted).
+- Hits A / φ and √2 / B (together, assisted cells). Lingfield 14:35 2021 (21 stars): T24 H / J P01 5/0/3, P03 6/0/3, P05 4/0/1, P07 1/0/2,
+  P09 3/1/0, P11 3/2/1 (22/3/10; together 5, assisted 0); HORSE RATIOS P01 48/12/58, P03 71/12/42, P05 36/11/54, P07 54/12/52, P09 51/4/63,
+  P11 57/6/49 (317/57/318; together 141, assisted 74); JOCKEY RATIOS P01 63/11/66, P03 35/8/41, P05 70/8/42, P07 69/8/54, P09 54/9/67,
+  P11 53/8/39 (344/52/309; together 47, assisted 82). Ascot 14:30 2012 rebuilt (35 stars) P01: T24 H / J 18/0/3 (together 2, assisted 17,
+  all Dec: the H and J Jupiters are 0.664246 apart in Dec); HORSE RATIOS 62/17/89 (together 34, assisted 1); JOCKEY RATIOS 82/16/75
+  (together 33, assisted 7). Automatic: none in either race.
+- Sizes (tables default / --full): Lingfield 1.79 / 2.01 -> 2.15 / 2.37 MB; rebuilt Ascot 0.47 / 0.54 -> 0.57 / 0.63 MB (pairs unchanged).
+- Tests 165/165. Test 32: layout (Ascot 35 rows, Lingfield 21, every runner); H / J distance cells = the T24 Jupiter cells; every ratio =
+  larger / smaller of the T24 distances, 'together' where due (15,778 cells); T24 H / J of every old star = the T23 H / J star cell (value,
+  interval, score; 296 cells); by hand from POSITIONS (Ascot P01): H / J Deneb RA 27.344209 / 34.130222 = 1.248170, 5/4 B −0.14640 % (7.18);
+  H / J Altair RA 1.461534 nearest 3/2 outside −0.03847; H / J Vega Dec 1.010896 unison A (20.72), H–J Jupiters assisted (q 0.010788);
+  HORSE H Algol / Sun RA 124.035817 / 82.656226 = 1.500623, 3/2 A +0.00062 (93.87); HORSE H Denebola / Uranus RA 1.618250 φ +0.01337 %
+  (82.97); JOCKEY J Bellatrix / Makemake RA 2.000170, 2 A (98.31); JOCKEY J Alkaid / Gonggong Dec 1.019820 unison (0.01), Jupiter–X assisted
+  (q 0.019820); together H / J Nunki RA (H Nunki – H Jupiter 0.805294); automatic none, assisted Ascot 25, Lingfield 156; every other sheet
+  and row identical to the build before (commit 10b7d76a, chk_t24r/compare_t24r.py: values, fills, comments). Changed for the new tables:
+  test 30 allows them in the "no new star elsewhere" check; compare_raorder.py (test 31) cuts them out.
+  Independent checker (19 Oct), own code from POSITIONS (chk_t24r/check_t24r.py), rebuilt Ascot P01: every cell of the three tables
+  (3,430: 140 distance, 3,290 ratio; values, fills, full comments, order, headers, title counts; 40 scores re-derived by hand): 0 mismatches.
+  Notes: in Dec, when the star is not between the two compared points, q = the unison offset itself, so every Dec unison inside ±0.02 is
+  tagged assisted (all 17 Ascot H / J; q 0.009213 Alkaid – 0.019112 Regulus) and none in RA (Sirius RA 1.019115, q ~0.0387); T24's
+  midpoint lines are not copied to the H / J distance cells (9 Ascot cells, e.g. H Arcturus RA); the automatic branch and a two-leg
+  together comment are not exercised in these races.
+
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 (16 Oct 2026: value scaling removed - the scaled lines, scaled hits and the repeat rule below are gone; see "No value scaling".)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
@@ -701,7 +739,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 
 ## Where we are (13 Oct 2026)
 - **35 stars in T1, T2, T24 (13 new in the engine, no Polaris there) + trimmed default workbook, --full for the rest (19 Oct 2026, Eddie):**
-  see its section; same day revised: the 35 in RA order, and the SKY block star rows on the 35. Tests 153/153.
+  see its section; same day revised: the 35 in RA order, and the SKY block star rows on the 35. 
+- **T24 ratio tables T24 H / J, T24 HORSE RATIOS, T24 JOCKEY RATIOS (19 Oct 2026, Eddie):** see its section. Tests 165/165.
 - **Galactic Centre as the 23rd star + T24 stars against bodies (19 Oct 2026, Eddie):** see its section. Engine and card pipeline
   carry the Galactic Centre from now on; older batches unchanged. Same day: T24 columns RA half then Dec half, and T24 midpoints (star
   the middle point of two bodies; midpoint column per half, thick outline, comment line). Tests 134/134.
