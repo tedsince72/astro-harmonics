@@ -686,7 +686,7 @@ def runner_sheet(wb, P, R, ctx):
     row, field['T21R'] = write_t21(ws, row + 1, ctx, R, royal=True)    # royal stars only (Eddie 16 Oct), after the full tables
     row, field['T22R'] = write_t22(ws, row + 1, ctx, R, royal=True)
     for C, who in (('H', 'HORSE'), ('J', 'JOCKEY')):        # T24 (Eddie, 19 Oct 2026): stars against bodies, natal
-        row, field[f'_t24{C}'] = write_t24(ws, row + 1, R[C], C, f'T24 {who} (natal): {T24_NOTE}')
+        row, field[f'_t24{C}'], field[f'_t24m{C}'] = write_t24(ws, row + 1, R[C], C, f'T24 {who} (natal): {T24_NOTE}')
     tl = runner_timeline(ctx, R, field)                    # TIMELINE H / J (Eddie, 16 Oct 2026), after the other tables
     skyf = lambda e: sky_equiv(ctx, R, e)                  # sky equivalent cells (Eddie, 16 Oct 2026)
     for C, who in (('H', 'horse'), ('J', 'jockey')):
@@ -736,57 +736,116 @@ def t24_cell(v, pl):
     return '', f"nearest: {near['target']} · {near['family']} — outside ±{near['tol']:.3g} · {fmt_off(near)}" if near else 'no target'
 
 
+def t24_mids(ch, x, bodies, pl):
+    """T24 midpoints (Eddie, 19 Oct 2026): star x as the middle point of two bodies A, B of the block, the midpoint rule (mid_geom /
+    mid_score: closeness >= 90 %, distance half RA ±0.5 closer of near / far, Dec ±0.15 signed; total = the two halves); hits only, best
+    total first. Left out: the chart's own Rahu – Ketu, "A, B together" (d(A, B) < 1.5 RA / 0.3 Dec), a Ketu pair repeating the Rahu pair.
+    -> [dict(a, b, d1, d2, off, side, close, rscore, dscore, score, dab, pos)]"""
+    ix = 0 if pl == 'RA' else 1
+    out = []
+    for a, b in itertools.combinations(bodies, 2):
+        if {a, b} == {'Rahu', 'Ketu'}:
+            continue
+        dab = plane_value(ch[a], ch[b], pl)
+        if dab < families.CONJ[pl]:
+            continue
+        off, side, d1, d2 = mid_geom(ch[a][ix], ch[b][ix], ch[x][ix], pl)
+        m = mid_score(d1, d2, off, pl)
+        if not m or not m['hit']:
+            continue
+        sm = d1 + d2
+        out.append(dict(m, a=a, b=b, d1=d1, d2=d2, side=side, dab=dab, pos='between' if abs(dab - sm) <= 0.01 * sm else 'far side'))
+    rahu = {(h['a'], h['b'], round(h['d1'], 6), round(h['d2'], 6)) for h in out if 'Rahu' in (h['a'], h['b'])}
+    out = [h for h in out if not ('Ketu' in (h['a'], h['b']) and
+                                  (*(('Rahu' if z == 'Ketu' else z) for z in (h['a'], h['b'])), round(h['d1'], 6), round(h['d2'], 6)) in rahu)]
+    return sorted(out, key=lambda h: -h['score'])
+
+
+def t24_mid_text(h):
+    return f"{h['a']} = {h['b']} {h['score']:.2f} ({h['side'] + ', ' if h['side'] else ''}{h['pos']})"
+
+
+THICK = openpyxl.styles.Side(style='thick')
+
+
 def write_t24(ws, row, ch, C, title):
-    """T24 block (Eddie, 19 Oct 2026): rows = stars (STARS order, those in the chart), columns = one RA / Dec pair per body (Moon only in
-    the sky); cell = the distance (RA wrapped 0-180, Dec |ΔDec|), 6 dp, filled by its best family score, comment = target · family ·
-    offset · score or the nearest target outside. No timing, no +5, no field sheet. -> (next row, {(star, body, plane): (v, colour, text)})"""
+    """T24 block (Eddie, 19 Oct 2026): rows = stars (STARS order, those in the chart); columns (revised the same day) = every body's RA
+    distance (Moon only in the sky), then "RA midpoints", then every body's Dec distance, then "Dec midpoints"; cell = the distance (RA
+    wrapped 0-180, Dec |ΔDec|), 6 dp, filled by its best family score, comment = target · family · offset · score or the nearest target
+    outside, plus a line per midpoint the body is in; the two body cells of a midpoint hit get a thick outline; midpoint column = every hit,
+    best total first, coloured by the best. No timing, no +5, no field sheet.
+    -> (next row, {(star, body, plane): (v, colour, text)}, {(star, plane): [midpoint hits]})"""
     bodies = [b for b in T24_BODIES if b in ch and ch[b][2] == 'body' and (C == 'S' or b != 'Moon')]
     stars = [x for x in STARS if x in ch]
+    n = len(bodies)
+    c0 = {'RA': 3, 'Dec': 3 + n + 1}                       # first body column of each half; its midpoint column at c0 + n
     ws.cell(row=row, column=1, value='T24').font = BOLD
     ws.cell(row=row, column=2, value=title).font = BOLD
     row += 1
     for r in (row, row + 1):
         for c, v in ((1, 'table'), (2, 'star')):
             ws.cell(row=r, column=c, value=v if r == row else None).fill = HEAD
-    for i, b in enumerate(bodies):
-        col = 3 + 2 * i
-        c = ws.cell(row=row, column=col, value=b); c.fill = HEAD; c.font = BOLD
-        ws.cell(row=row, column=col + 1).fill = HEAD
-        ws.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 1)
-        for k, pl in enumerate(PLANES):
-            c = ws.cell(row=row + 1, column=col + k, value=pl); c.fill = HEAD; c.font = BOLD
+    for pl in PLANES:
+        c = ws.cell(row=row, column=c0[pl], value=pl); c.fill = HEAD; c.font = BOLD
+        for k in range(1, n):
+            ws.cell(row=row, column=c0[pl] + k).fill = HEAD
+        ws.merge_cells(start_row=row, start_column=c0[pl], end_row=row, end_column=c0[pl] + n - 1)
+        for i, b in enumerate(bodies):
+            c = ws.cell(row=row + 1, column=c0[pl] + i, value=b); c.fill = HEAD; c.font = BOLD
+        for r, v in ((row, f'{pl} midpoints'), (row + 1, 'star = middle of A, B: total (side, between / far side)')):
+            c = ws.cell(row=r, column=c0[pl] + n, value=v); c.fill = HEAD; c.font = BOLD
     row += 2
-    out = {}
+    out, mids = {}, {}
     for x in stars:
         ws.cell(row=row, column=1, value='T24')
         ws.cell(row=row, column=2, value=f'{C} {x}')
-        for i, b in enumerate(bodies):
-            for k, pl in enumerate(PLANES):
+        for pl in PLANES:
+            hits = t24_mids(ch, x, bodies, pl)
+            mids[(x, pl)] = hits
+            extra = {b: [] for b in bodies}
+            for h in hits:
+                extra[h['a']].append(f"midpoint with {h['b']}: total {h['score']:.2f}")
+                extra[h['b']].append(f"midpoint with {h['a']}: total {h['score']:.2f}")
+            for i, b in enumerate(bodies):
                 v = plane_value(ch[x], ch[b], pl)
                 colour, text = t24_cell(v, pl)
-                c = ws.cell(row=row, column=3 + 2 * i + k, value=round(v, 6))
+                c = ws.cell(row=row, column=c0[pl] + i, value=round(v, 6))
                 c.number_format = '0.000000'
                 if colour:
                     c.fill = FILL[colour]
-                c.comment = Comment(text, 'T24', width=260, height=40)
-                out[(x, b, pl)] = (v, colour, text)
+                full = '\n'.join([text] + extra[b])
+                c.comment = Comment(full, 'T24', width=260, height=40 + 15 * len(extra[b]))
+                if extra[b]:
+                    c.border = openpyxl.styles.Border(left=THICK, right=THICK, top=THICK, bottom=THICK)
+                out[(x, b, pl)] = (v, colour, full)
+            if hits:
+                c = ws.cell(row=row, column=c0[pl] + n, value='; '.join(t24_mid_text(h) for h in hits))
+                c.fill = FILL[families.colour(hits[0]['score'])]
         row += 1
-    # display (Eddie, 19 Oct 2026): value columns wide enough for 177.745864, star names ~18; shared columns only ever widened
-    for col, w in [(2, T24_NAME_W)] + [(3 + k, T24_VAL_W) for k in range(2 * len(bodies))]:
+    # display (Eddie, 19 Oct 2026): value columns wide enough for 177.745864, star names ~18, midpoint columns wider; shared columns only
+    # ever widened
+    widths = [(2, T24_NAME_W)] + [(c0[pl] + k, T24_VAL_W) for pl in PLANES for k in range(n)] + [(c0[pl] + n, T24_MID_W) for pl in PLANES]
+    for col, w in widths:
         L = openpyxl.utils.get_column_letter(col)
         if L not in ws.column_dimensions or not ws.column_dimensions[L].customWidth:
             ws.column_dimensions[L].width = w
         else:
             ws.column_dimensions[L].width = max(ws.column_dimensions[L].width, w)
-    return row + 1, out
+    return row + 1, out, mids
 
 
+T24_MID_W = 40
 T24_VAL_W, T24_NAME_W = 11, 18
 
 
-T24_NOTE = ('stars against bodies (Eddie, 19 Oct 2026): one row per star, one RA / Dec pair per body; cell = the distance (RA wrapped 0–180, '
+T24_NOTE = ('stars against bodies (Eddie, 19 Oct 2026): one row per star; the RA distance of every body, RA midpoints, the Dec '
+            'distance of every body, Dec midpoints; cell = the distance (RA wrapped 0–180, '
             'Dec |ΔDec|), coloured by its best family score (green >= 80, yellow 50–80, light < 50; conjunction RA < 1.5 / Dec < 0.3 counts, '
-            'as T1; no fill outside); cell comment = target · family · offset · score, or the nearest target outside. No timing, no +5')
+            'as T1; no fill outside); cell comment = target · family · offset · score, or the nearest target outside. MIDPOINTS: the star as the '
+            'middle point of two bodies A, B (closeness of d(star, A), d(star, B) >= 90 % and the star within RA ±0.5 (closer of near / far) / '
+            'Dec ±0.15 of their midpoint; total = ratio half + distance half; hits only, best first; own Rahu – Ketu, "A, B together" (RA < 1.5, '
+            'Dec < 0.3) and Ketu repeats of a Rahu pair left out; between / far side as T17); the two body cells get a thick outline and a '
+            'comment line. No timing, no +5')
 
 
 # ---------------- T23: ratios of the T1, T2 and SKY distances (Eddie, 16 Oct 2026)
@@ -2891,7 +2950,7 @@ def main():
                             'every row listed (hits and non-hits); a row with "X, Y together" is plain, in NO HIT; same cells and areas as SKY PAIRS, best '
                             'first inside each block',
                             srows, 'SKY ROYAL', every=True, notog=True)
-    row, _ = write_t24(ws, row + 1, sky, 'S', f'T24 SKY (race-day positions at the off, Moon included): {T24_NOTE}')     # Eddie, 19 Oct 2026
+    row, _, _ = write_t24(ws, row + 1, sky, 'S', f'T24 SKY (race-day positions at the off, Moon included): {T24_NOTE}')     # Eddie, 19 Oct 2026
     srcs = (('SKY PAIRS', skypairs), ('SKY STARS', skystars), ('SKY ROYAL', srows))
     row = write_timeline(ws, row, ctx, timeline(ctx, R0, skyeq, srcs))
     row = write_long(ws, row, ctx, realise(ctx, R0, timeline(ctx, R0, skyeq, srcs, keep=long_keep)), 'LONG TIMELINE',

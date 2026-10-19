@@ -109,7 +109,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids); SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (129/129). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (134/134). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -580,6 +580,31 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   SKY JUPITER, 46 on runner sheets); shared columns only ever widened (before: Excel default 8.43). Lingfield 14:35 2021 and the rebuilt
   Ascot 14:30 2012 checked (tools/scans/families_audit/chk_t24/check_widths.py): 14,058 / 3,427 T24 cells fit their column, no column
   narrower, every cell's value, fill and comment unchanged vs the build before.
+- Revised (Eddie, 19 Oct 2026): COLUMN ORDER - every block: all RA columns (one per body, body order), "RA midpoints", all Dec columns
+  (same order), "Dec midpoints"; header row 1 "RA" / "Dec" merged over their body columns, row 2 body names. Values, fills, comments
+  and widths (11) unchanged (checked cell by cell vs the build before: Lingfield 13,772, Ascot rebuilt 3,358; only "midpoint with" lines
+  added). Midpoint columns width 40.
+- MIDPOINTS (Eddie, 19 Oct 2026; t24_mids): each star row, plane and pair of bodies A, B of the block, the star as the middle point on the
+  midpoint rule (mid_geom / mid_score: closeness of d(star, A), d(star, B) >= 90 %, distance half RA ±0.5 closer of near / far, labelled,
+  Dec ±0.15 signed; total = ratio half + distance half); hits only. Left out: the chart's own Rahu – Ketu, "A, B together" (d(A, B) RA
+  < 1.5, Dec < 0.3), a Ketu pair repeating the Rahu pair (same rounded distances). Midpoint cell: every hit, best total first, "Sun = Mars
+  93.42 (near, between)" (Dec without side; between / far side as T17: d(A, B) within 1 % of d1 + d2), filled by the best total; the two
+  body cells of each hit get a thick outline and the comment line "midpoint with <other body>: total nn.nn". SKY (Moon incl.), HORSE,
+  JOCKEY alike.
+  Hits (RA / Dec): Lingfield 14:35 2021 SKY 35 / 26; P01 H 27 / 22, J 29 / 20; P03 H 30 / 13, J 31 / 21; P05 H 25 / 18, J 37 / 18; P07 H
+  23 / 23, J 43 / 16; P09 H 28 / 17, J 34 / 16; P11 H 27 / 21, J 37 / 25. Ascot 14:30 2012 rebuilt (23 stars) SKY 43 / 24; P01 H 44 / 17,
+  J 32 / 24. Left out that would have been hits: together Ascot P01 H Capella and H Rigel RA Juno – Quaoar (d 1.3896; 64.50 / 52.24),
+  Lingfield P05 J Sirius RA Saturn – Neptune (67.07), P07 H Regulus RA Orcus – Transpluto (85.76), P07 J Sirius RA Sun – Mercury (75.79),
+  P09 H Regulus RA Venus – Pallas (83.30); Rahu – Ketu Lingfield P03 J Alkaid RA (46.33). Sizes: Lingfield 2.00 -> 2.04 MB, Ascot rebuilt
+  0.47 -> 0.48 MB (pairs unchanged).
+- Test 29: header layout of every T24 block (rebuilt Ascot 3, Lingfield 13); by hand from POSITIONS: SKY S Galactic Centre RA Mercury =
+  Jupiter 153.457407 / 153.219387, offset +0.119010 far, 99.8449 %, 48.46 + 29.03 = 77.49, far side; HORSE H Arcturus RA Jupiter = Orcus
+  69.091938 / 69.107610, +0.007836 near, 99.9773 %, 49.77 + 48.45 = 98.22, between; JOCKEY J Regulus Dec Chiron = Orcus 5.534608 /
+  5.506910, −0.013849, 99.4996 %, 45.12 + 41.19 = 86.31, between (cell text, outlines, comment lines); the Capella together pair and the
+  Alkaid Rahu – Ketu pair not listed, no "Rahu = Ketu" anywhere. Test 28's grid reader moved to the new layout. Tests 134/134.
+- Independent checker (19 Oct), own code from POSITIONS (tools/scans/families_audit/chk_t24/check_midpoints.py): every midpoint of
+  T24 SKY, HORSE and JOCKEY on the rebuilt Ascot (P01) and Lingfield (P07) - completeness, cell text and order, fills, outlines,
+  comment lines: 0 mismatches; dropped would-be hits = the together pairs above; no Rahu – Ketu or Ketu-repeat hit in those six blocks.
 - Sizes before -> after (tables + pairs): Lingfield 14:35 2021 1.57 + 2.92 -> 2.00 + 2.92 MB; Ascot 14:30 2012 0.36 + 0.50 -> 0.46 + 0.50 MB
   (22 stars, old batch); Ascot rebuilt with the Galactic Centre 0.47 + 0.51 MB.
 - Tests 129/129 (test 28): Ascot rebuilt through the card pipeline in a temp folder (GC row on TRANS / P01 / P02, other rows identical,
@@ -625,7 +650,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 
 ## Where we are (13 Oct 2026)
 - **Galactic Centre as the 23rd star + T24 stars against bodies (19 Oct 2026, Eddie):** see its section. Engine and card pipeline
-  carry the Galactic Centre from now on; older batches unchanged. Tests 129/129.
+  carry the Galactic Centre from now on; older batches unchanged. Same day: T24 columns RA half then Dec half, and T24 midpoints (star
+  the middle point of two bodies; midpoint column per half, thick outline, comment line). Tests 134/134.
 - **Selangor 17 Oct 2026 card (17 Oct, Eddie): read winners line by line — START HERE: docs/handover_20261017_selangor.md.** 12 tables
   workbooks in reference/selangor_20261017/ (dummy jockey: read horse and sky only); results for 12:15–15:15 in the handover. Way of
   working: Eddie pastes lines, Claude says what each is (raw cells), how they connect, and versus the field (every runner's raw rows); no

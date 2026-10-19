@@ -1359,21 +1359,30 @@ check('T28 batch: Galactic Centre_B on TRANS, horse and jockey sheets, every oth
 gw = openpyxl.load_workbook(gcf)
 
 
-def t24_blocks(ws):
-    """{block title start: (header bodies [(body, plane)], {star label: [cells]})}"""
+def t24_blocks(ws, mids=None):
+    """{block title start: (header bodies [(body, plane)], {star label: [cells]})}. Layout (Eddie, 19 Oct 2026, revised): header row 1
+    'RA' merged over the RA body columns, 'RA midpoints', 'Dec' merged over the Dec body columns, 'Dec midpoints'; row 2 body names.
+    mids: filled with {(block, star label, plane): midpoint cell}"""
     out, cur, hdr, rows = {}, None, None, None
     it = list(ws.iter_rows())
     for i, x in enumerate(it):
         if x[0].value == 'T24' and str(x[1].value).startswith('T24 '):
             cur = x[1].value.split(' (')[0]; rows = {}
-            names = it[i + 1]; pls = it[i + 2]
-            hdr = []
-            for c in range(2, len(pls)):
-                if pls[c].value in ('RA', 'Dec'):
-                    hdr.append((names[c].value if pls[c].value == 'RA' else names[c - 1].value, pls[c].value))
+            h1, h2 = it[i + 1], it[i + 2]
+            hdr, cols, mcol, pl = [], [], {}, None
+            for c in range(2, len(h1)):
+                if h1[c].value in ('RA', 'Dec'):
+                    pl = h1[c].value
+                if str(h1[c].value or '').endswith(' midpoints'):
+                    mcol[h1[c].value.split()[0]] = c
+                elif pl and h2[c].value:
+                    hdr.append((h2[c].value, pl)); cols.append(c)
             out[cur] = (hdr, rows)
         elif cur and x[0].value == 'T24':
-            rows[x[1].value] = x[2:2 + len(hdr)]
+            rows[x[1].value] = [x[c] for c in cols]
+            if mids is not None:
+                for p, c in mcol.items():
+                    mids[(cur, x[1].value, p)] = x[c]
         elif cur and x[0].value != 'table' and x[0].value is None and rows:
             cur = None
     return out
@@ -1414,7 +1423,7 @@ for sh, blk, (who, C), star, body, pl, exp, sc, fill, txt, off in cases:
     want = txt.format(o=f'{off(v):+.5f}', s=f'{sc(v):.2f}' if sc else '')
     got_fill = c.fill.start_color.rgb if c.fill and c.fill.fill_type else None
     check(f'T28 {blk} {C[-1]} {star} – {C[-1]} {body} {pl} by hand from POSITIONS', abs(c.value - round(v, 6)) < 1e-9 and abs(v - exp) < 1e-6
-          and got_fill == fill and c.comment and c.comment.text == want, f'{c.value} / {v:.6f}, {got_fill}, {c.comment and c.comment.text!r} vs {want!r}')
+          and got_fill == fill and c.comment and c.comment.text.split('\n')[0] == want, f'{c.value} / {v:.6f}, {got_fill}, {c.comment and c.comment.text!r} vs {want!r}')
 # (c) grid shapes: rebuilt Ascot 23 stars; the old Lingfield and Ascot batches 22 (Galactic Centre skipped quietly)
 bad, n = [], 0
 for f, nstar in ((gcf, 23), ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', 22),
@@ -1436,5 +1445,80 @@ for f, nstar in ((gcf, 23), ('reference/classic/race_batch_20210402_lingfield_aw
 check('T28 every T24 grid = stars x (2 x bodies): 23 x 50 sky (Moon incl.), 23 x 48 natal on the rebuilt Ascot; 22 rows on the old batches; '
       'every cell a value and a comment', not bad and n == 3 + 13 + 3, f'{n} grids (rebuilt Ascot 3, Lingfield 13, old Ascot 3); {bad[:3]}')
 shutil.rmtree(tmp, ignore_errors=True)
+# Test 29 (Eddie, 19 Oct 2026): T24 columns RA then Dec, and T24 midpoints (the star the middle point of two bodies of the block)
+print('test 29: T24 RA-then-Dec columns and midpoints')
+bad, n = [], 0
+for f in (gcf, 'reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx'):
+    w = gw if f == gcf else openpyxl.load_workbook(f)
+    for sh in [s for s in w.sheetnames if s == 'SKY JUPITER' or re.fullmatch(r'P\d\d', s)]:
+        for r0 in w[sh].iter_rows():
+            if r0[0].value == 'T24' and str(r0[1].value).startswith('T24 '):
+                n += 1
+                h1 = [c.value for c in w[sh][r0[0].row + 1]]; h2 = [c.value for c in w[sh][r0[0].row + 2]]
+                nb = 25 if 'SKY' in r0[1].value else 24
+                want1 = ['RA'] + [None] * (nb - 1) + ['RA midpoints', 'Dec'] + [None] * (nb - 1) + ['Dec midpoints']
+                body = [b for b in JT.T24_BODIES if nb == 25 or b != 'Moon']
+                if h1[2:2 + 2 * nb + 2] != want1 or h2[2:2 + nb] != body or h2[3 + nb:3 + 2 * nb] != body:
+                    bad.append((f[-40:], sh, r0[1].value[:12]))
+check('T29 every T24 block: header row 1 RA (merged) .. RA midpoints, Dec (merged) .. Dec midpoints; row 2 the bodies in order, RA half then Dec half',
+      not bad and n == 3 + 13, f'{n} blocks; {bad[:3]}')
+gp = {}
+for x in gw['POSITIONS'].iter_rows(min_row=5, values_only=True):
+    if x and x[3]:
+        gp[(x[0], x[2], x[3])] = (x[5], x[6])
+
+
+def by_hand(who, C, star, a, b, pl):
+    """midpoint from POSITIONS, own code: RA near / far midpoint (closer), arc distances; Dec signed"""
+    s, pa, pb = (gp[(who, C, z)] for z in (star, a, b))
+    if pl == 'RA':
+        arc = lambda u, v: abs((u - v + 180) % 360 - 180)
+        mid = (pa[0] + ((pb[0] - pa[0] + 180) % 360 - 180) / 2) % 360
+        near, far = (s[0] - mid + 180) % 360 - 180, (s[0] - mid) % 360 - 180
+        side, off = ('near', near) if abs(near) <= abs(far) else ('far', far)
+        d1, d2, dab, tol = arc(s[0], pa[0]), arc(s[0], pb[0]), arc(pa[0], pb[0]), 0.5
+    else:
+        side, off = '', s[1] - (pa[1] + pb[1]) / 2
+        d1, d2, dab, tol = abs(s[1] - pa[1]), abs(s[1] - pb[1]), abs(pa[1] - pb[1]), 0.15
+    close = 100 * min(d1, d2) / max(d1, d2)
+    rh, dh = 0.5 * (10 * (10 - (100 - close)) / 10) ** 2, 0.5 * (10 * (tol - abs(off)) / tol) ** 2
+    pos = 'between' if abs(dab - (d1 + d2)) <= 0.01 * (d1 + d2) else 'far side'
+    return d1, d2, off, side, close, rh, dh, rh + dh, pos
+
+
+gm = {}
+for sh in ('SKY JUPITER', 'P01'):
+    t24_blocks(gw[sh], gm)
+cases = [  # (block, who, chart, star, A, B, plane, d1, d2, offset, side, closeness, ratio half, distance half, total, between / far side)
+    ('T24 SKY', 'SKY', 'S', 'Galactic Centre', 'Mercury', 'Jupiter', 'RA', 153.457407, 153.219387, 0.119010, 'far', 99.8449, 48.46, 29.03, 77.49, 'far side'),
+    ('T24 HORSE', 'P01', 'H', 'Arcturus', 'Jupiter', 'Orcus', 'RA', 69.091938, 69.107610, 0.007836, 'near', 99.9773, 49.77, 48.45, 98.22, 'between'),
+    ('T24 JOCKEY', 'P01', 'J', 'Regulus', 'Chiron', 'Orcus', 'Dec', 5.534608, 5.506910, -0.013849, '', 99.4996, 45.12, 41.19, 86.31, 'between'),
+]
+for blk, who, C, star, a, b, pl, e1, e2, eo, es, ec, er, ed, et, ep in cases:
+    d1, d2, off, side, close, rh, dh, tot, pos = by_hand(who, C, star, a, b, pl)
+    txt = f"{a} = {b} {tot:.2f} ({side + ', ' if side else ''}{pos})"
+    mc = gm[(blk, f'{C} {star}', pl)]
+    hdr, rows = t24_blocks(gw['SKY JUPITER' if who == 'SKY' else 'P01'])[blk]
+    ca, cb = (rows[f'{C} {star}'][hdr.index((z, pl))] for z in (a, b))
+    ok = (abs(d1 - e1) < 1e-6 and abs(d2 - e2) < 1e-6 and abs(off - eo) < 1e-6 and side == es and abs(close - ec) < 1e-4
+          and f'{rh:.2f}' == f'{er:.2f}' and f'{dh:.2f}' == f'{ed:.2f}' and f'{tot:.2f}' == f'{et:.2f}' and pos == ep
+          and txt in str(mc.value) and ca.border.left.style == 'thick' == cb.border.right.style
+          and f'midpoint with {b}: total {tot:.2f}' in ca.comment.text and f'midpoint with {a}: total {tot:.2f}' in cb.comment.text)
+    check(f'T29 {blk} {C} {star} {pl} {a} = {b} by hand from POSITIONS', ok,
+          f'{d1:.6f} / {d2:.6f}, offset {off:+.6f} {side}, {close:.4f} %, {rh:.2f} + {dh:.2f} = {tot:.2f}, {pos}; cell {mc.value!r}')
+# not listed: "A, B together" (Ascot P01 H Capella RA Juno – Quaoar, d 1.3896 < 1.5, would score 64.50) and the own Rahu – Ketu pair
+# (Lingfield P03 J Alkaid RA, d 180, would score 46.33); no 'Rahu = Ketu' anywhere
+d1, d2, off, side, close, rh, dh, tot, pos = by_hand('P01', 'H', 'Capella', 'Juno', 'Quaoar', 'RA')
+dab = abs((gp[('P01', 'H', 'Juno')][0] - gp[('P01', 'H', 'Quaoar')][0] + 180) % 360 - 180)
+cap = gm[('T24 HORSE', 'H Capella', 'RA')].value
+lw = openpyxl.load_workbook('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx')
+lm = {}
+t24_blocks(lw['P03'], lm)
+alk = lm[('T24 JOCKEY', 'J Alkaid', 'RA')].value
+rk = sum('Rahu = Ketu' in str(c.value) for w in (gw, lw) for sh in w.sheetnames for r in w[sh].iter_rows() if r[0].value == 'T24' for c in r)
+check('T29 not listed: together pair Ascot P01 H Capella RA Juno – Quaoar (by hand d(A, B) < 1.5, a midpoint hit otherwise) and own Rahu – Ketu '
+      '(Lingfield P03 J Alkaid RA); no "Rahu = Ketu" in any T24 cell',
+      dab < 1.5 and tot >= 50 and 'Juno = Quaoar' not in str(cap) and 'Rahu = Ketu' not in str(alk) and rk == 0,
+      f'd(Juno, Quaoar) {dab:.4f}, total {tot:.2f}; Capella cell {cap!r}; Alkaid cell {alk!r}; Rahu = Ketu cells {rk}')
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
