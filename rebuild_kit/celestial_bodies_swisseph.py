@@ -128,6 +128,11 @@ BEHENIAN_STARS = [
     ("Polaris", "Polaris"), ("Castor", "Castor"), ("Altair", "Altair"),
     ("Bellatrix", "Bellatrix"),
     ("Galactic Centre", "Galactic Center"),   # Sgr A* (sefstars.txt 'Galactic Center,SgrA*'); Eddie, 19 Oct 2026
+    # Eddie, 19 Oct 2026: 13 more stars (sefstars.txt names), used in jupiter_tables T1, T2 and T24 only
+    ("Hamal", "Hamal"), ("Pollux", "Pollux"), ("Praesepe", "Praesepe Cluster"), ("Denebola", "Denebola"),
+    ("Zubenelgenubi", "Zubenelgenubi"), ("Zubeneschamali", "Zubeneshamali"), ("Kaus Australis", "Kaus Australis"),
+    ("Nunki", "Nunki"), ("Deneb", "Deneb"), ("Sadalsuud", "Sadalsuud"), ("Sadalmelik", "Sadalmelik"),
+    ("Scheat", "Scheat"), ("Markab", "Markab"),
 ]
 TIMED_POINTS = ["Part_of_Fortune", "Part_of_Spirit", "Ascendant", "Midheaven", "Vertex"]
 

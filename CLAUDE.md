@@ -106,10 +106,10 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
 - Viewing tool (13 Oct 2026, not a reader): `python3 tools/jupiter_tables.py <race_batch xlsx | reference/classic/<race> folder>` ->
   race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T14, T16–T22 per runner (T15 removed 15 Oct 2026), field matrices, off and +5 min,
   every family from tools/families.py scored, best = highest score, also (no scaled column since 16 Oct 2026), colours by score; ratios on the interval
-  list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids); SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
+  list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct); default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (134/134). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (145/145; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -617,6 +617,36 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   every cell of T24 SKY (1,150: green 48, yellow 41, light 148, none 913, conjunction 12), P01 HORSE (1,104: 32 / 44 / 132 / 896, 6) and
   JOCKEY (1,104: 40 / 41 / 126 / 897, 6) - rows, headers, values, fills, comments: 0 mismatches. Script tools/scans/families_audit/chk_t24/.
 
+## jupiter_tables: 35 stars in T1, T2, T24; trimmed workbook (Eddie, 19 Oct 2026; viewing only)
+- Engine: 13 more stars in BEHENIAN_STARS (rebuild_kit/celestial_bodies_swisseph.py = ~/astronomy-project copy, identical; Polaris kept):
+  Hamal, Pollux, Praesepe ('Praesepe Cluster'), Denebola, Zubenelgenubi, Zubeneschamali ('Zubeneshamali'), Kaus Australis, Nunki, Deneb,
+  Sadalsuud, Sadalmelik, Scheat, Markab (sefstars.txt names; all found). Engine J2000 at J2000.0 vs catalogue, all within 0.02°
+  (largest: Deneb 310.351008 / +45.282124, dRA −0.0070; Kaus Australis 276.036075 / −34.384768, −0.0069; Pollux 116.335168 / +28.025059,
+  +0.0062). New batches carry them as '<name>_B'; the rebuilt Ascot 14:30 2012 batch = the old one + 14 rows (Galactic Centre + 13).
+- tools/jupiter_tables.py: T1_T2_T24_STARS (35, |Dec| <= 50) = STARS without Polaris + NEW_STARS (in the given RA order, appended).
+  T1, T2 (with their SKY cells) and T24 SKY / HORSE / JOCKEY use it (charts R['HX'] / R['JX'], sky on ctx.x with engine rates for the new
+  stars). Every other table keeps STARS (23, Polaris incl.): T23 unchanged (Polaris kept), SKY block, T21 / T22 / R, SKY STARS, SKY ROYAL,
+  PAIRS, TIMELINEs. THREADS / NUMBERS are still fed from the T1 / T2 rows on STARS (off-sheet), so they are unchanged. The new stars'
+  positions are appended to POSITIONS (block 'T1 / T2 / T24 only ...'; Claude's choice, so the cells can be checked). Older batches: new
+  stars skipped quietly, Polaris simply gone from T1 / T2 / T24.
+- Sheets: default workbook = POSITIONS, SKY JUPITER, P## only; --full adds P## RATIOS, P## NUMBERS, THREADS, FIELD NUMBERS, every FIELD
+  sheet (as before). run_card_swiss.py --tables writes the default. The _pairs workbook unchanged. The test suite builds with --full.
+- Checked: --full vs the build before, sheet by sheet (tools/scans/families_audit/chk_stars35/compare_full.py): Lingfield 14:35 2021 only
+  the Polaris rows gone (SKY JUPITER 1, each runner 4: T1, T2, T24 H, T24 J), 0 other differences, pairs identical; rebuilt Ascot the same
+  plus 13 new-star rows on SKY JUPITER, 52 on P01 and 39 POSITIONS rows. Default runner / SKY sheets = the --full ones.
+- Sizes (tables default / --full; pairs): Lingfield 14:35 2021 1.79 / 2.01 MB (before 2.04), pairs 2.92; rebuilt Ascot 14:30 2012 0.47 /
+  0.54 MB (before 0.48), pairs 0.51.
+- Tests 145/145. Test 30: default sheets (rebuilt Ascot, Lingfield) and equal to --full; T1, T2, T24 x3 = the 35 stars in order; no new
+  star outside T1 / T2 / T24 in any sheet of the --full workbook or pairs; T23 = the old build's rows + Galactic Centre, Polaris kept; by
+  hand from POSITIONS: T1 H Jupiter → H Pollux RA 166.673131 ninth 166.667 +0.00646 (99.45), H Markab Dec 37.994684 38 −0.00532 (53.90),
+  SKY S Jupiter → S Pollux RA 56.678406 -> 56.677607 nearest 35×φ outside +0.04722; T2 J Hamal Dec 46.919384 29×φ −0.00360 (78.98),
+  J Kaus Australis RA 0.188691 conj (76.42); T24 S Deneb – S Makemake Dec 17.799198 11×φ +0.00082 (94.97), H Pollux – H Eris Dec 32.999538
+  33 −0.00046 (95.43), J Praesepe – J Neptune RA 138.999718 139 −0.00028 (97.20). Changed for the spec: test 28 batch rows (+13), T24
+  grids 35 rows (old batches 21); test 27 T23-vs-T1 / T2 cells skip Polaris and the new stars (not in both).
+- Independent checker (19 Oct), own code from POSITIONS (chk_stars35/check_t1_t2_t24.py), rebuilt Ascot: T1 / T2 all 35 star rows (natal
+  and SKY cells, fills, timing of the 17 + 17 SKY hits), T24 SKY 1,750 / HORSE 1,680 / JOCKEY 1,680 value cells + 210 midpoint cells
+  (new-star midpoint hits SKY 46, HORSE 23, JOCKEY 39), no new star elsewhere, --full vs before: 0 mismatches.
+
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 (16 Oct 2026: value scaling removed - the scaled lines, scaled hits and the repeat rule below are gone; see "No value scaling".)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
@@ -649,6 +679,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **35 stars in T1, T2, T24 (13 new in the engine, no Polaris there) + trimmed default workbook, --full for the rest (19 Oct 2026, Eddie):**
+  see its section. Tests 145/145.
 - **Galactic Centre as the 23rd star + T24 stars against bodies (19 Oct 2026, Eddie):** see its section. Engine and card pipeline
   carry the Galactic Centre from now on; older batches unchanged. Same day: T24 columns RA half then Dec half, and T24 midpoints (star
   the middle point of two bodies; midpoint column per half, thick outline, comment line). Tests 134/134.

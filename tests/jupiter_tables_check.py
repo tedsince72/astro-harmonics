@@ -68,7 +68,7 @@ T0, NBUILT = time.time() - 1, [0]
 
 def build(inp):
     NBUILT[0] += 1
-    r = subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp], capture_output=True, text=True)
+    r = subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--full'], capture_output=True, text=True)   # every sheet (19 Oct 2026)
     print(r.stdout.strip() or r.stderr)
     return r.stdout.split(' -> ')[1].split(' (')[0]
 
@@ -1328,6 +1328,8 @@ for f in ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_table
                         if any(x is not None for x in v[c:c + 9]):
                             got[(v[1], pl, C)] = (tuple(v[c:c + 9]), fl[c])
         for k in set(ref) | set(got):
+            if k[0] in set(JT.STARS) ^ set(JT.T1_T2_T24_STARS):   # 19 Oct 2026: Polaris only in T23, the 13 new stars only in T1 / T2 (T23 unchanged: test 30)
+                continue
             nd += 1
             if ref.get(k) != got.get(k):
                 bad.append((P, k, got.get(k), ref.get(k)))
@@ -1350,10 +1352,10 @@ bad = []
 for sh in ('TRANS', 'P01', 'P02'):
     g = {x[1]: x for x in gb[sh].iter_rows(min_row=2, values_only=True) if x and x[1]}
     o = {x[1]: x for x in ob[sh].iter_rows(min_row=2, values_only=True) if x and x[1]}
-    if set(g) - set(o) != {'Galactic Centre_B'} or any(g.get(k) != o[k] for k in o):
+    if set(g) - set(o) != {x + '_B' for x in ['Galactic Centre'] + JT.NEW_STARS} or any(g.get(k) != o[k] for k in o):   # + 13 stars (19 Oct 2026)
         bad.append(sh)
 gsky = next(x for x in gb['TRANS'].iter_rows(min_row=2, values_only=True) if x and x[1] == 'Galactic Centre_B')
-check('T28 batch: Galactic Centre_B on TRANS, horse and jockey sheets, every other row identical to the old batch; sky RA / Dec = Sgr A* '
+check('T28 batch: Galactic Centre_B (and, 19 Oct 2026, the 13 new stars) on TRANS, horse and jockey sheets, every other row identical to the old batch; sky RA / Dec = Sgr A* '
       '(apparent J2000; ~266.417 / -29.008 to 0.01)', not bad and abs(gsky[4] - 266.417) < 0.01 and abs(gsky[8] + 29.008) < 0.01,
       f'{bad}; sky {gsky[4]:.6f} / {gsky[8]:.6f}')
 gw = openpyxl.load_workbook(gcf)
@@ -1425,9 +1427,10 @@ for sh, blk, (who, C), star, body, pl, exp, sc, fill, txt, off in cases:
     check(f'T28 {blk} {C[-1]} {star} – {C[-1]} {body} {pl} by hand from POSITIONS', abs(c.value - round(v, 6)) < 1e-9 and abs(v - exp) < 1e-6
           and got_fill == fill and c.comment and c.comment.text.split('\n')[0] == want, f'{c.value} / {v:.6f}, {got_fill}, {c.comment and c.comment.text!r} vs {want!r}')
 # (c) grid shapes: rebuilt Ascot 23 stars; the old Lingfield and Ascot batches 22 (Galactic Centre skipped quietly)
+# 19 Oct 2026 (Eddie): T24 on T1_T2_T24_STARS (no Polaris, + 13 stars): rebuilt Ascot 35 rows, the old batches 21
 bad, n = [], 0
-for f, nstar in ((gcf, 23), ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', 22),
-                 ('reference/classic/race_batch_20120619_ascot_1430_jupiter_tables.xlsx', 22)):
+for f, nstar in ((gcf, 35), ('reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx', 21),
+                 ('reference/classic/race_batch_20120619_ascot_1430_jupiter_tables.xlsx', 21)):
     w = gw if f == gcf else openpyxl.load_workbook(f)
     for sh in [s for s in w.sheetnames if s == 'SKY JUPITER' or re.fullmatch(r'P\d\d', s)]:
         bl = t24_blocks(w[sh])
@@ -1440,11 +1443,10 @@ for f, nstar in ((gcf, 23), ('reference/classic/race_batch_20210402_lingfield_aw
             moon = any(b == 'Moon' for b, _ in hdr)
             cells = [c for cs in rows.values() for c in cs]
             if (len(rows) != nstar or len(hdr) != 2 * nb or moon != (k == 'T24 SKY')
-                    or any(c.value is None or c.comment is None for c in cells) or ('Galactic Centre' in str(list(rows))) != (nstar == 23)):
+                    or any(c.value is None or c.comment is None for c in cells) or ('Galactic Centre' in str(list(rows))) != (nstar == 35)):
                 bad.append((f[-40:], sh, k, len(rows), len(hdr), moon))
-check('T28 every T24 grid = stars x (2 x bodies): 23 x 50 sky (Moon incl.), 23 x 48 natal on the rebuilt Ascot; 22 rows on the old batches; '
+check('T28 every T24 grid = stars x (2 x bodies): 35 x 50 sky (Moon incl.), 35 x 48 natal on the rebuilt Ascot; 21 rows on the old batches; '
       'every cell a value and a comment', not bad and n == 3 + 13 + 3, f'{n} grids (rebuilt Ascot 3, Lingfield 13, old Ascot 3); {bad[:3]}')
-shutil.rmtree(tmp, ignore_errors=True)
 # Test 29 (Eddie, 19 Oct 2026): T24 columns RA then Dec, and T24 midpoints (the star the middle point of two bodies of the block)
 print('test 29: T24 RA-then-Dec columns and midpoints')
 bad, n = [], 0
@@ -1520,5 +1522,95 @@ check('T29 not listed: together pair Ascot P01 H Capella RA Juno – Quaoar (by 
       '(Lingfield P03 J Alkaid RA); no "Rahu = Ketu" in any T24 cell',
       dab < 1.5 and tot >= 50 and 'Juno = Quaoar' not in str(cap) and 'Rahu = Ketu' not in str(alk) and rk == 0,
       f'd(Juno, Quaoar) {dab:.4f}, total {tot:.2f}; Capella cell {cap!r}; Alkaid cell {alk!r}; Rahu = Ketu cells {rk}')
+# Test 30 (Eddie, 19 Oct 2026): 13 more stars in the engine; T1, T2 and T24 on T1_T2_T24_STARS (35 stars, |Dec| <= 50: no Polaris),
+# every other table on STARS as before; the default workbook = POSITIONS, SKY JUPITER and the runner sheets (--full: every sheet as before)
+print('test 30: T1 / T2 / T24 star list and the trimmed default workbook')
+NEWRE = re.compile(r'\b(' + '|'.join(x if x != 'Deneb' else r'Deneb(?! Algedi)' for x in JT.NEW_STARS) + r')\b')
+runner_tabs = lambda w: [s for s in w.sheetnames if re.fullmatch(r'P\d\d', s)]
+lf = 'reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx'      # built with --full above
+ld = f'{tmp}/lingfield_default_jupiter_tables.xlsx'
+r = subprocess.run([sys.executable, 'tools/jupiter_tables.py', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', '--out', ld],
+                   capture_output=True, text=True)
+ldw, lfw = openpyxl.load_workbook(ld, read_only=True), openpyxl.load_workbook(lf, read_only=True)
+vals = lambda ws: [tuple(x) for x in ws.iter_rows(values_only=True)]
+same = [sh for sh in ldw.sheetnames if sh in lfw.sheetnames and vals(ldw[sh]) == vals(lfw[sh])]
+check('T30 default workbook = POSITIONS, SKY JUPITER and the P## sheets only (rebuilt Ascot via run_card_swiss.py --tables, Lingfield); '
+      'each equal to the --full workbook\'s sheet',
+      gw.sheetnames == ['POSITIONS', 'SKY JUPITER', 'P01'] and ldw.sheetnames == ['POSITIONS', 'SKY JUPITER'] + runner_tabs(lfw)
+      and same == ldw.sheetnames and len(lfw.sheetnames) > len(ldw.sheetnames),
+      f'Ascot {gw.sheetnames}; Lingfield {ldw.sheetnames} ({len(same)} equal to --full, which has {len(lfw.sheetnames)} sheets)')
+# T1, T2 and T24 on the rebuilt Ascot: the 35 stars in order, the 13 new ones in, no Polaris
+gs = {}
+for sh in ('SKY JUPITER', 'P01'):
+    for x in gw[sh].iter_rows(values_only=True):
+        if x[0] in ('T1', 'T2') and x[1] and ' → ' in str(x[1]) and x[1].split(' → ')[1].split(' ', 1)[1] in JT.T1_T2_T24_STARS + ['Polaris']:
+            gs.setdefault(x[0], []).append(x[1].split(' → ')[1].split(' ', 1)[1])
+for k, (hdr, rows) in {**t24_blocks(gw['SKY JUPITER']), **t24_blocks(gw['P01'])}.items():
+    gs[k] = [lab.split(' ', 1)[1] for lab in rows]
+check('T30 rebuilt Ascot T1, T2, T24 SKY / HORSE / JOCKEY: the 35 stars of T1_T2_T24_STARS in order (13 new ones in, no Polaris)',
+      len(JT.T1_T2_T24_STARS) == 35 and all(gs.get(k) == JT.T1_T2_T24_STARS for k in ('T1', 'T2', 'T24 SKY', 'T24 HORSE', 'T24 JOCKEY')),
+      str({k: len(v) for k, v in gs.items()}))
+# no other table carries the 13 (rebuilt Ascot, --full, and its pairs workbook); T23 unchanged (Polaris kept)
+gf = f'{tmp}/full_jupiter_tables.xlsx'
+r = subprocess.run([sys.executable, 'tools/jupiter_tables.py', f'{tmp}/race_batch_20120619_ascot_1430.xlsx', '--full', '--out', gf],
+                   capture_output=True, text=True)
+gfw = openpyxl.load_workbook(gf, read_only=True)
+leak = []
+for w in (gfw, openpyxl.load_workbook(f'{tmp}/full_pairs.xlsx', read_only=True)):
+    for sh in w.sheetnames:
+        if sh == 'POSITIONS':
+            continue
+        for x in w[sh].iter_rows(values_only=True):
+            if x and x[0] in ('T1', 'T2', 'T24'):
+                continue
+            hit = [v for v in x if isinstance(v, str) and NEWRE.search(v)]
+            if hit:
+                leak.append((sh, x[0], hit[0][:60]))
+t23 = lambda w: {x[1]: x for x in w['P01'].iter_rows(values_only=True) if x and x[0] == 'T23' and x[1] in JT.STARS + JT.BODIES + ['Ketu', JT.EQUATOR]}
+n23, o23 = t23(gfw), t23(openpyxl.load_workbook('reference/classic/race_batch_20120619_ascot_1430_jupiter_tables.xlsx', read_only=True))
+check('T30 rebuilt Ascot --full: none of the 13 new stars in any table but T1, T2, T24 (every sheet, pairs workbook too); T23 on STARS as '
+      'before (Polaris kept; every row = the old 22-star Ascot build\'s, the Galactic Centre row added)',
+      not leak and 'Polaris' in n23 and set(n23) - set(o23) == {'Galactic Centre'} and all(n23[k] == o23[k] for k in o23)
+      and not any(x in n23 for x in JT.NEW_STARS),
+      f'{len(gfw.sheetnames)} sheets; leaks {leak[:3]}; T23 rows {len(n23)} vs old {len(o23)}')
+# two T1, two T2 and three T24 cells of new stars by hand from POSITIONS (rebuilt Ascot)
+rates = {x[3]: (x[7], x[8]) for x in gw['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'SKY' and x[3]}
+ra_d = lambda u, v: min(abs(u - v) % 360, 360 - abs(u - v) % 360)
+dist = lambda p, q, pl: ra_d(p[0], q[0]) if pl == 'RA' else abs(p[1] - q[1])
+cases = [  # (table, chart, star, plane, value, target text, offset text, score by hand, fill)
+    ('T1', 'H', 'Pollux', 'RA', 166.673131, '166.667 (ninth)', lambda v: v - 500 / 3, lambda v: 100 * (1.166667 - abs(v - 500 / 3)) / 1.166667, GREEN),
+    ('T1', 'H', 'Markab', 'Dec', 37.994684, '38 (whole)', lambda v: v - 38, lambda v: sq(0.02, abs(v - 38)), YELLOW),
+    ('T2', 'J', 'Hamal', 'Dec', 46.919384, '29×φ (golden)', lambda v: v - 29 * PHI, lambda v: sq(0.03236, abs(v - 29 * PHI)), YELLOW),
+    ('T2', 'J', 'Kaus Australis', 'RA', 0.188691, 'conj (conj)', lambda v: v, lambda v: sq(1.5, v), YELLOW),
+]
+for tid, C, star, pl, exp, tt, off, sc, fill in cases:
+    x = row(gw['P01'], tid, f'{C} Jupiter → {C} {star}')
+    c0 = 2 if pl == 'RA' else 10
+    v = dist(gp[('P01', C, 'Jupiter')], gp[('P01', C, star)], pl)
+    got_fill = x[c0].fill.start_color.rgb if x[c0].fill and x[c0].fill.fill_type else None
+    check(f'T30 {tid} {C} Jupiter → {C} {star} {pl} by hand from POSITIONS', abs(v - exp) < 1e-6 and x[c0].value == round(v, 6)
+          and x[c0 + 2].value == tt and x[c0 + 4].value == f'{off(v):+.5f}' and f'{x[c0 + 5].value:.2f}' == f'{sc(v):.2f}' and got_fill == fill,
+          f'{v:.6f}; {x[c0 + 2].value}, {x[c0 + 4].value}, {x[c0 + 5].value} (by hand {sc(v):.2f}), {got_fill}')
+# its SKY cell: S Jupiter → S Pollux RA, at the off and +5 min from the POSITIONS rates; nearest 35×φ outside
+x = row(gw['P01'], 'T1', 'H Jupiter → H Pollux')
+sj, sp = gp[('SKY', 'S', 'Jupiter')], gp[('SKY', 'S', 'Pollux')]
+v0 = ra_d(sj[0], sp[0]); v5 = ra_d(sj[0] + 5 * rates['Jupiter'][0], sp[0] + 5 * rates['Pollux'][0])
+check('T30 T1 H Pollux row, SKY cell S Jupiter → S Pollux RA by hand from POSITIONS (+5 min from the rates): 56.678406 -> 56.677607, nearest 35×φ outside',
+      abs(v0 - 56.678406) < 1e-6 and x[18].value == round(v0, 6) and x[19].value == round(v5, 6) and x[20].value == '35×φ (golden) — outside ±0.0324'
+      and x[22].value == f'{v0 - 35 * PHI:+.5f}', f'{v0:.6f} -> {v5:.6f}; {x[18].value}, {x[19].value}, {x[20].value}, {x[22].value}')
+cases = [  # (sheet, block, who, chart, star, body, plane, value, comment, offset, score)
+    ('SKY JUPITER', 'T24 SKY', 'SKY', 'S', 'Deneb', 'Makemake', 'Dec', 17.799198, '11×φ · golden', lambda v: v - 11 * PHI, lambda v: sq(0.03236, abs(v - 11 * PHI))),
+    ('P01', 'T24 HORSE', 'P01', 'H', 'Pollux', 'Eris', 'Dec', 32.999538, '33 · whole', lambda v: v - 33, lambda v: sq(0.02, abs(v - 33))),
+    ('P01', 'T24 JOCKEY', 'P01', 'J', 'Praesepe', 'Neptune', 'RA', 138.999718, '139 · whole', lambda v: v - 139, lambda v: sq(0.02, abs(v - 139))),
+]
+for sh, blk, who, C, star, body, pl, exp, tt, off, sc in cases:
+    v = dist(gp[(who, C, star)], gp[(who, C, body)], pl)
+    hdr, rows = t24_blocks(gw[sh])[blk]
+    c = rows[f'{C} {star}'][hdr.index((body, pl))]
+    want = f'{tt} · {off(v):+.5f} · {sc(v):.2f}'
+    got_fill = c.fill.start_color.rgb if c.fill and c.fill.fill_type else None
+    check(f'T30 {blk} {C} {star} – {C} {body} {pl} by hand from POSITIONS', abs(v - exp) < 1e-6 and c.value == round(v, 6)
+          and c.comment.text.split('\n')[0] == want and got_fill == GREEN, f'{v:.6f}; {c.comment.text.splitlines()[0]!r} vs {want!r}; {got_fill}')
+shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

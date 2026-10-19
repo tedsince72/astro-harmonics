@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""jupiter_tables.py INPUT [--out X.xlsx] [--off "YYYY-MM-DD HH:MM"] [--site lat,lon,elev]
+"""jupiter_tables.py INPUT [--out X.xlsx] [--off "YYYY-MM-DD HH:MM"] [--site lat,lon,elev] [--full]
 Viewing tool (13 Oct 2026, Eddie): raw Jupiter tables for one race, nothing filtered.
 INPUT = a race_batch_<yyyymmdd>_<course>_<hhmm>.xlsx (TRANS, P01..Pnn, META) or a split race folder in reference/classic
 (<course>_<hhmm>_<yyyymmdd>/<race>__P##.xlsx). Output: race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx next to the batch
@@ -43,6 +43,9 @@ TIMELINE H / J (16 Oct 2026): at the end of each runner sheet, the same for ever
 LONG TIMELINE (16 Oct 2026): score >= 80 at the off, any exact time, SEPARATING / APPLYING; sky equivalent cells on TIMELINE H / J and LONG H / J.
 T24 (19 Oct 2026): stars against bodies, one row per star, RA / Dec distance per body, coloured by the best family, a cell comment with
 target, family, offset, score; SKY block on SKY JUPITER (Moon included), HORSE and JOCKEY blocks on each runner sheet after T22R.
+Stars (Eddie, 19 Oct 2026): T1, T2 and T24 use T1_T2_T24_STARS (35 stars with |Dec| <= 50: STARS without Polaris + 13 new); every
+other table keeps STARS (23, Polaris included); the new stars' positions are appended to POSITIONS. Default workbook (19 Oct 2026):
+POSITIONS, SKY JUPITER and the runner sheets only; --full also writes P## RATIOS, P## NUMBERS, THREADS, FIELD NUMBERS and every FIELD sheet.
 Points and engine from tools/jup2 (imported, not changed). Frozen readers are not changed."""
 import argparse, glob, os, re, sys, itertools, math, datetime
 import openpyxl
@@ -63,6 +66,9 @@ PLANES = ('RA', 'Dec')                                     # Flat and GC removed
 STARS = ['Algol', 'Pleiades', 'Aldebaran', 'Capella', 'Sirius', 'Procyon', 'Regulus', 'Alkaid', 'Algorab', 'Spica', 'Arcturus',
          'Alphecca', 'Antares', 'Vega', 'Deneb Algedi', 'Fomalhaut', 'Rigel', 'Betelgeuse', 'Polaris', 'Castor', 'Altair', 'Bellatrix',
          'Galactic Centre']                               # Galactic Centre (Eddie, 19 Oct 2026): 23rd star, not royal; skipped where a batch lacks it
+NEW_STARS = ['Hamal', 'Pollux', 'Praesepe', 'Denebola', 'Zubenelgenubi', 'Zubeneschamali', 'Kaus Australis', 'Nunki', 'Deneb', 'Sadalsuud',
+             'Sadalmelik', 'Scheat', 'Markab']             # Eddie, 19 Oct 2026: T1, T2 and T24 only (RA order)
+T1_T2_T24_STARS = [x for x in STARS if x != 'Polaris'] + NEW_STARS   # the 35 stars with |Dec| <= 50 (Eddie, 19 Oct 2026); every other table keeps STARS
 BODIES = [b for b in SKY_BODIES if b != 'Ketu']           # workbook rows (Ketu rebuilt as Rahu's mirror)
 GREEN = PatternFill('solid', start_color='C6EFCE'); YELLOW = PatternFill('solid', start_color='FFEB9C')
 LIGHT = PatternFill('solid', start_color='FFF8DC'); HEAD = PatternFill('solid', start_color='D9E1F2')
@@ -89,14 +95,14 @@ def jname(lab):
     return p[1] if len(p) == 2 and p[0].isdigit() else str(lab)
 
 
-def chart(sheet, sky):
+def chart(sheet, sky, stars=STARS):
     ch = {}
     for b in BODIES:
         if b == 'Moon' and not sky:
             continue
         if b in sheet:
             ch[b] = (sheet[b][0], sheet[b][1], 'body')
-    for s in STARS:
+    for s in stars:
         if s + '_B' in sheet:
             ch[s] = (sheet[s + '_B'][0], sheet[s + '_B'][1], 'star')
     if 'Rahu' in ch:
@@ -105,22 +111,25 @@ def chart(sheet, sky):
     return ch
 
 
-def load_input(path):
-    """-> race name, batch path, trans label, sky, runners {P##: {'name', 'H', 'J'}}"""
+def load_input(path, with_skyx=False):
+    """-> race name, batch path, trans label, sky, runners {P##: {'name', 'H', 'J', 'HX', 'JX'}}; with_skyx: the sky on T1_T2_T24_STARS
+    after sky. HX / JX (and that sky) = the charts on T1_T2_T24_STARS, for T1, T2 and T24 only (Eddie, 19 Oct 2026)"""
     path = path.rstrip('/')
     runners = {}
     if os.path.isdir(path):
         race = os.path.basename(path)
         course, hhmm, ymd = motion.race_parts(race)
         batch = os.path.join(os.path.dirname(path), f'race_batch_{ymd}_{course}_{hhmm}.xlsx')
-        sky = label = None
+        sky = skyx = label = None
         for f in sorted(glob.glob(f'{path}/*__P[0-9][0-9].xlsx')):
             P = re.search(r'__(P\d\d)\.xlsx$', f).group(1)
             wb = openpyxl.load_workbook(f, read_only=True, data_only=True)
             label, t = read_sheet(wb['TRANS'])
             hl, h = read_sheet(wb['P01']); jl, j = read_sheet(wb['P02'])
             sky = sky or chart(t, True)
-            runners[P] = {'name': f'{hl} / {jname(jl)}', 'H': chart(h, False), 'J': chart(j, False)}
+            skyx = skyx or chart(t, True, T1_T2_T24_STARS)
+            runners[P] = {'name': f'{hl} / {jname(jl)}', 'H': chart(h, False), 'J': chart(j, False),
+                          'HX': chart(h, False, T1_T2_T24_STARS), 'JX': chart(j, False, T1_T2_T24_STARS)}
     else:
         m = re.match(r'^race_batch_(\d{8})_(.+)_(\d{4})\.xlsx$', os.path.basename(path))
         if not m:
@@ -130,11 +139,13 @@ def load_input(path):
         wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
         label, t = read_sheet(wb['TRANS'])
         sky = chart(t, True)
+        skyx = chart(t, True, T1_T2_T24_STARS)
         tabs = [s for s in wb.sheetnames if re.fullmatch(r'P\d+', s)]
         for i in range(0, len(tabs) - 1, 2):
             hl, h = read_sheet(wb[tabs[i]]); jl, j = read_sheet(wb[tabs[i + 1]])
-            runners[f'P{int(tabs[i][1:]):02d}'] = {'name': f'{hl} / {jname(jl)}', 'H': chart(h, False), 'J': chart(j, False)}
-    return race, batch, label, sky, runners
+            runners[f'P{int(tabs[i][1:]):02d}'] = {'name': f'{hl} / {jname(jl)}', 'H': chart(h, False), 'J': chart(j, False),
+                                                   'HX': chart(h, False, T1_T2_T24_STARS), 'JX': chart(j, False, T1_T2_T24_STARS)}
+    return (race, batch, label, sky, skyx, runners) if with_skyx else (race, batch, label, sky, runners)
 
 
 # ---------------- numbers
@@ -539,10 +550,14 @@ def runner_sheet(wb, P, R, ctx):
     dist = lambda a, b: 'equator' if b.endswith(' equator') else 'dist'
     move_or = lambda a, b: 'move' if a == 'S Jupiter' and b.endswith(' Jupiter') else dist(a, b)
     field = {}
+    RX = {'H': R['HX'], 'J': R['JX']}                      # T1, T2 (and T24) on T1_T2_T24_STARS (Eddie, 19 Oct 2026)
     for tid, C in (('T1', 'H'), ('T2', 'J')):
-        rows = [(f'{C} Jupiter → {C} {x}', f'{C} Jupiter', f'{C} {x}') for x in R[C] if x != 'Jupiter']
+        rows = [(f'{C} Jupiter → {C} {x}', f'{C} Jupiter', f'{C} {x}') for x in RX[C] if x != 'Jupiter']
         row, field[tid] = write_pairs(ws, row, tid, f'{C} Jupiter → {C} bodies, stars, equator (natal); SKY cells S Jupiter → S X beside each row',
-                                      ctx, R, rows, dist, thr, nums, sky=True)
+                                      ctx.x, RX, rows, dist, sky=True)
+        # THREADS / NUMBERS keep the T1 / T2 rows on STARS, as before (the new stars stay out, Polaris stays in): fed off-sheet
+        old = [(f'{C} Jupiter → {C} {x}', f'{C} Jupiter', f'{C} {x}') for x in R[C] if x != 'Jupiter']
+        write_pairs(openpyxl.Workbook().active, 1, tid, '', ctx, R, old, dist, thr, nums, sky=True)
     row, field['T23'], field['_t23'], unis = write_t23(ws, row, ctx, R)        # T23 (Eddie, 16 Oct 2026): H / J, S / H, S / J ratios of the T1 / T2 / SKY distances
     row, _ = write_pairs(ws, row, 'T3', 'H Jupiter → J bodies (natal, cross)', ctx, R,
                          [(f'H Jupiter → J {x}', 'H Jupiter', f'J {x}') for x in NATAL_BODIES if x in J], dist, thr, nums)
@@ -686,7 +701,7 @@ def runner_sheet(wb, P, R, ctx):
     row, field['T21R'] = write_t21(ws, row + 1, ctx, R, royal=True)    # royal stars only (Eddie 16 Oct), after the full tables
     row, field['T22R'] = write_t22(ws, row + 1, ctx, R, royal=True)
     for C, who in (('H', 'HORSE'), ('J', 'JOCKEY')):        # T24 (Eddie, 19 Oct 2026): stars against bodies, natal
-        row, field[f'_t24{C}'], field[f'_t24m{C}'] = write_t24(ws, row + 1, R[C], C, f'T24 {who} (natal): {T24_NOTE}')
+        row, field[f'_t24{C}'], field[f'_t24m{C}'] = write_t24(ws, row + 1, RX[C], C, f'T24 {who} (natal): {T24_NOTE}')
     tl = runner_timeline(ctx, R, field)                    # TIMELINE H / J (Eddie, 16 Oct 2026), after the other tables
     skyf = lambda e: sky_equiv(ctx, R, e)                  # sky equivalent cells (Eddie, 16 Oct 2026)
     for C, who in (('H', 'horse'), ('J', 'jockey')):
@@ -769,14 +784,14 @@ THICK = openpyxl.styles.Side(style='thick')
 
 
 def write_t24(ws, row, ch, C, title):
-    """T24 block (Eddie, 19 Oct 2026): rows = stars (STARS order, those in the chart); columns (revised the same day) = every body's RA
+    """T24 block (Eddie, 19 Oct 2026): rows = stars (T1_T2_T24_STARS order, those in the chart; 19 Oct 2026); columns (revised the same day) = every body's RA
     distance (Moon only in the sky), then "RA midpoints", then every body's Dec distance, then "Dec midpoints"; cell = the distance (RA
     wrapped 0-180, Dec |ΔDec|), 6 dp, filled by its best family score, comment = target · family · offset · score or the nearest target
     outside, plus a line per midpoint the body is in; the two body cells of a midpoint hit get a thick outline; midpoint column = every hit,
     best total first, coloured by the best. No timing, no +5, no field sheet.
     -> (next row, {(star, body, plane): (v, colour, text)}, {(star, plane): [midpoint hits]})"""
     bodies = [b for b in T24_BODIES if b in ch and ch[b][2] == 'body' and (C == 'S' or b != 'Moon')]
-    stars = [x for x in STARS if x in ch]
+    stars = [x for x in T1_T2_T24_STARS if x in ch]
     n = len(bodies)
     c0 = {'RA': 3, 'Dec': 3 + n + 1}                       # first body column of each half; its midpoint column at c0 + n
     ws.cell(row=row, column=1, value='T24').font = BOLD
@@ -2886,11 +2901,39 @@ def field_sheet(wb, tid, title, runners, fields, planes, mid=False, uni=None):
     ws.freeze_panes = 'B4'
 
 
+def full_sheets(wb, runners, fields, uni, sky_nums):
+    """--full (Eddie, 19 Oct 2026): every FIELD sheet, THREADS and FIELD NUMBERS, as before"""
+    for tid, title in (('T5', 'S Jupiter → H bodies'), ('T6', 'S Jupiter → J bodies'), ('T7', 'sky bodies → H Jupiter'),
+                       ('T8', 'sky bodies → J Jupiter')):
+        field_sheet(wb, tid, title, runners, fields, PLANES)
+    field_sheet(wb, 'T10', 'midpoints S Jupiter / H X, S Jupiter / J X, H X / J X (third point\'s offset)', runners, fields, MID_PLANES, mid=True)
+    field_sheet(wb, 'T11', 'midpoints H Jupiter / J Jupiter | sky body; S Jupiter / natal Jupiter | natal body (third point\'s offset)', runners,
+                fields, MID_PLANES, mid=True)
+    for tid, title, pls in (('T12', '(S Jupiter–S X) / (natal Jupiter–natal X), intervals', PLANES),
+                            ('T13', '(S Jupiter–natal X) / (natal Jupiter–natal X), intervals', PLANES),
+                            ('T14', 'Equator ratios of the three Jupiters, intervals', ('Equator',)),
+                            ('T23', 'H / J = d(H Jupiter, H X) / d(J Jupiter, J X), natal, fixed (Eddie, 16 Oct 2026); bodies, stars, equator (Dec); '
+                             'a ratio with Jupiter and X together on a leg left out', PLANES)):
+        field_ratio_sheet(wb, tid, title, runners, fields, pls, uni)
+    field_sheet(wb, 'T16', 'RA–Dec crossing (value = RA − Dec, inside ±0.02)', runners, fields, [cross_name(a, b) for a, b in CROSS])
+    field_equi_sheet(wb, runners, fields)
+    field_t20_sheet(wb, runners, fields)
+    field_star_sheet(wb, 'T21', 'natal Jupiter on natal star pairs (H Jupiter: H A – H B | J Jupiter: J A – J B)', runners, fields, T21_RMIN)
+    field_star_sheet(wb, 'T22', 'fixed star as the apex, d(star, S Jupiter) / d(star, natal Jupiter)', runners, fields)
+    field_star_sheet(wb, 'T21R', 'ROYAL STARS ONLY (Eddie, 16 Oct 2026): natal Jupiter on the six royal star pairs', runners, fields, T21_RMIN, every=True)
+    field_star_sheet(wb, 'T22R', 'ROYAL STARS ONLY (Eddie, 16 Oct 2026): royal star as the apex, d(star, S Jupiter) / d(star, natal Jupiter)',
+                     runners, fields, every=True)
+    threads_sheet(wb, runners, fields)
+    field_numbers_sheet(wb, runners, {P: sky_nums + fields[P]['_nums'] for P in runners})
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('input'); ap.add_argument('--out'); ap.add_argument('--off'); ap.add_argument('--site')
+    ap.add_argument('--full', action='store_true', help='also write P## RATIOS, P## NUMBERS, THREADS, FIELD NUMBERS and every FIELD sheet '
+                    '(default since 19 Oct 2026, Eddie: POSITIONS, SKY JUPITER and the runner sheets only)')
     a = ap.parse_args()
-    race, batch, label, sky, runners = load_input(a.input)
+    race, batch, label, sky, skyx, runners = load_input(a.input, with_skyx=True)
     skipped = {P: R['name'] for P, R in runners.items() if 'Jupiter' not in R['H'] or 'Jupiter' not in R['J']}
     for P in skipped:                                          # e.g. a jockey tab with no chart (jockey None): no Jupiter to read
         del runners[P]
@@ -2899,8 +2942,12 @@ def main():
     off, site, src = motion.off_and_site(race, label, batch, a.off, a.site)
     rates, elines = motion.engine_rates(sky, off, site)
     ctx = Ctx(sky, rates)
+    xtra = [b for b in skyx if b not in sky]               # the new stars (Eddie, 19 Oct 2026): T1, T2 and T24 only
+    xrates = motion.engine_rates({b: skyx[b] for b in xtra}, off, site)[0] if xtra else {}
+    ctx.x = Ctx(skyx, {**rates, **xrates})                 # the sky on T1_T2_T24_STARS, for the T1 / T2 SKY cells
     ctx.off = datetime.datetime.strptime(str(off)[:16], '%Y-%m-%d %H:%M')     # race-local off time (clock times of exact)
     ctx.off_str, ctx.site = str(off)[:16], site
+    ctx.x.off, ctx.x.off_str, ctx.x.site = ctx.off, ctx.off_str, ctx.site
     try:
         ctx.eph = Ephem(ctx)                               # LONG TIMELINE real exact times (Eddie, 16 Oct 2026)
     except Exception as ex:                                # engine cannot run: the linear estimate stays
@@ -2919,6 +2966,16 @@ def main():
         for C in 'HJ':
             for b, p in runners[P][C].items():
                 ws.append([P, runners[P]['name'], C, b, p[2], p[0], p[1]])
+    if xtra:                                               # positions of the new stars (Eddie, 19 Oct 2026), used in T1, T2 and T24 only
+        ws.append([]); ws.append(['T1 / T2 / T24 only (Eddie, 19 Oct 2026): ' + ', '.join(xtra)])
+        for b in xtra:
+            p, r = skyx[b], xrates.get(b)
+            ws.append(['SKY', '', 'S', b, p[2], p[0], p[1], 'n/a' if r is None else r[0], 'n/a' if r is None else r[1]])
+        for P in sorted(runners):
+            for C in 'HJ':
+                for b, p in runners[P][C + 'X'].items():
+                    if b not in runners[P][C]:
+                        ws.append([P, runners[P]['name'], C, b, p[2], p[0], p[1]])
     # SKY JUPITER
     ws = wb.create_sheet('SKY JUPITER')
     ws.cell(row=1, column=1, value=f'{race} — S Jupiter to every sky body, star and the equator (at the off and +5 min)').font = BOLD
@@ -2950,7 +3007,7 @@ def main():
                             'every row listed (hits and non-hits); a row with "X, Y together" is plain, in NO HIT; same cells and areas as SKY PAIRS, best '
                             'first inside each block',
                             srows, 'SKY ROYAL', every=True, notog=True)
-    row, _, _ = write_t24(ws, row + 1, sky, 'S', f'T24 SKY (race-day positions at the off, Moon included): {T24_NOTE}')     # Eddie, 19 Oct 2026
+    row, _, _ = write_t24(ws, row + 1, skyx, 'S', f'T24 SKY (race-day positions at the off, Moon included): {T24_NOTE}')     # Eddie, 19 Oct 2026
     srcs = (('SKY PAIRS', skypairs), ('SKY STARS', skystars), ('SKY ROYAL', srows))
     row = write_timeline(ws, row, ctx, timeline(ctx, R0, skyeq, srcs))
     row = write_long(ws, row, ctx, realise(ctx, R0, timeline(ctx, R0, skyeq, srcs, keep=long_keep)), 'LONG TIMELINE',
@@ -2973,31 +3030,12 @@ def main():
         for k, (r, c, auto, assisted) in fields[P]['_uni'].items():
             ws.cell(row=r, column=c, value=f'unison: {auto_text(auto)}, not counted' if auto
                     else f'unison: field {uni[k]}/{n}' + (' ' + assist_text(assisted) if assisted else ''))
-        ratio_sheet(wb, P, runners[P], fields[P]['_rats'], uni, n)
         pairs_sheet(wbp, P, runners[P], fields[P]['_pairs'])
-        numbers_sheet(wb, P, runners[P], sky_nums + fields[P]['_nums'])
-    for tid, title in (('T5', 'S Jupiter → H bodies'), ('T6', 'S Jupiter → J bodies'), ('T7', 'sky bodies → H Jupiter'),
-                       ('T8', 'sky bodies → J Jupiter')):
-        field_sheet(wb, tid, title, runners, fields, PLANES)
-    field_sheet(wb, 'T10', 'midpoints S Jupiter / H X, S Jupiter / J X, H X / J X (third point\'s offset)', runners, fields, MID_PLANES, mid=True)
-    field_sheet(wb, 'T11', 'midpoints H Jupiter / J Jupiter | sky body; S Jupiter / natal Jupiter | natal body (third point\'s offset)', runners,
-                fields, MID_PLANES, mid=True)
-    for tid, title, pls in (('T12', '(S Jupiter–S X) / (natal Jupiter–natal X), intervals', PLANES),
-                            ('T13', '(S Jupiter–natal X) / (natal Jupiter–natal X), intervals', PLANES),
-                            ('T14', 'Equator ratios of the three Jupiters, intervals', ('Equator',)),
-                            ('T23', 'H / J = d(H Jupiter, H X) / d(J Jupiter, J X), natal, fixed (Eddie, 16 Oct 2026); bodies, stars, equator (Dec); '
-                             'a ratio with Jupiter and X together on a leg left out', PLANES)):
-        field_ratio_sheet(wb, tid, title, runners, fields, pls, uni)
-    field_sheet(wb, 'T16', 'RA–Dec crossing (value = RA − Dec, inside ±0.02)', runners, fields, [cross_name(a, b) for a, b in CROSS])
-    field_equi_sheet(wb, runners, fields)
-    field_t20_sheet(wb, runners, fields)
-    field_star_sheet(wb, 'T21', 'natal Jupiter on natal star pairs (H Jupiter: H A – H B | J Jupiter: J A – J B)', runners, fields, T21_RMIN)
-    field_star_sheet(wb, 'T22', 'fixed star as the apex, d(star, S Jupiter) / d(star, natal Jupiter)', runners, fields)
-    field_star_sheet(wb, 'T21R', 'ROYAL STARS ONLY (Eddie, 16 Oct 2026): natal Jupiter on the six royal star pairs', runners, fields, T21_RMIN, every=True)
-    field_star_sheet(wb, 'T22R', 'ROYAL STARS ONLY (Eddie, 16 Oct 2026): royal star as the apex, d(star, S Jupiter) / d(star, natal Jupiter)',
-                     runners, fields, every=True)
-    threads_sheet(wb, runners, fields)
-    field_numbers_sheet(wb, runners, {P: sky_nums + fields[P]['_nums'] for P in runners})
+        if a.full:                                         # P## RATIOS, P## NUMBERS only with --full (Eddie, 19 Oct 2026)
+            ratio_sheet(wb, P, runners[P], fields[P]['_rats'], uni, n)
+            numbers_sheet(wb, P, runners[P], sky_nums + fields[P]['_nums'])
+    if a.full:                                             # FIELD sheets, THREADS, FIELD NUMBERS only with --full (Eddie, 19 Oct 2026)
+        full_sheets(wb, runners, fields, uni, sky_nums)
     wb.save(out)
     pout = out[:-len('_jupiter_tables.xlsx')] + '_pairs.xlsx' if out.endswith('_jupiter_tables.xlsx') else out[:-5] + '_pairs.xlsx'
     if not wbp.sheetnames:
