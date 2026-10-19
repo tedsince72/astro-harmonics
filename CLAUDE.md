@@ -576,6 +576,10 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   ROYAL (race-day positions at the off); T24 HORSE and T24 JOCKEY on each runner sheet after T22R. No timing, +5 or field sheet.
   Nothing else changes: Lingfield 14:35 2021 and Ascot 14:30 2012 compared with the previous build sheet by sheet - identical apart from
   the T24 blocks and their blank rows (Lingfield 13 blocks, Ascot 3).
+- Display (Eddie, 19 Oct 2026, layout only): every T24 value column width 11 (fits 177.745864), the star column at least 18 (it stays 30 on
+  SKY JUPITER, 46 on runner sheets); shared columns only ever widened (before: Excel default 8.43). Lingfield 14:35 2021 and the rebuilt
+  Ascot 14:30 2012 checked (tools/scans/families_audit/chk_t24/check_widths.py): 14,058 / 3,427 T24 cells fit their column, no column
+  narrower, every cell's value, fill and comment unchanged vs the build before.
 - Sizes before -> after (tables + pairs): Lingfield 14:35 2021 1.57 + 2.92 -> 2.00 + 2.92 MB; Ascot 14:30 2012 0.36 + 0.50 -> 0.46 + 0.50 MB
   (22 stars, old batch); Ascot rebuilt with the Galactic Centre 0.47 + 0.51 MB.
 - Tests 129/129 (test 28): Ascot rebuilt through the card pipeline in a temp folder (GC row on TRANS / P01 / P02, other rows identical,

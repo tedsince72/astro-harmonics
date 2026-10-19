@@ -771,7 +771,17 @@ def write_t24(ws, row, ch, C, title):
                 c.comment = Comment(text, 'T24', width=260, height=40)
                 out[(x, b, pl)] = (v, colour, text)
         row += 1
+    # display (Eddie, 19 Oct 2026): value columns wide enough for 177.745864, star names ~18; shared columns only ever widened
+    for col, w in [(2, T24_NAME_W)] + [(3 + k, T24_VAL_W) for k in range(2 * len(bodies))]:
+        L = openpyxl.utils.get_column_letter(col)
+        if L not in ws.column_dimensions or not ws.column_dimensions[L].customWidth:
+            ws.column_dimensions[L].width = w
+        else:
+            ws.column_dimensions[L].width = max(ws.column_dimensions[L].width, w)
     return row + 1, out
+
+
+T24_VAL_W, T24_NAME_W = 11, 18
 
 
 T24_NOTE = ('stars against bodies (Eddie, 19 Oct 2026): one row per star, one RA / Dec pair per body; cell = the distance (RA wrapped 0–180, '
