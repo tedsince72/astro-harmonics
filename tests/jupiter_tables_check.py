@@ -1411,7 +1411,7 @@ cases = [  # (sheet, block, chart, star, body, plane, expected value, score form
      GREEN, '177.778 · ninth · {o} · {s}', lambda v: v - 1600 / 9),
     ('P01', 'T24 JOCKEY', ('P01', 'J'), 'Galactic Centre', 'Sedna', 'Dec', 32.362221, lambda v: sq(0.03236, abs(v - 20 * PHI)), GREEN,
      '20×φ · golden · {o} · {s}', lambda v: v - 20 * PHI),
-    ('P01', 'T24 HORSE', ('P01', 'H'), 'Algorab', 'Makemake', 'RA', 0.064638, lambda v: sq(1.5, v), GREEN,
+    ('P01', 'T24 HORSE', ('P01', 'H'), 'Algorab', 'Makemake', 'RA', 0.064638, lambda v: sq(1.5, v), '00FF8080',   # conjunction red (20 Oct 2026)
      '0 · conjunction (RA < 1.5) · {o} · {s}', lambda v: v),
     ('P01', 'T24 HORSE', ('P01', 'H'), 'Galactic Centre', 'Sun', 'RA', 57.972709, None, None, 'nearest: 58 · whole — outside ±0.02 · {o}',
      lambda v: v - 58),
@@ -1567,6 +1567,16 @@ for _ws in _w.worksheets:
 _w.save(b35)
 gf35 = f'{tmp}/s35/full_jupiter_tables.xlsx'
 subprocess.run([sys.executable, 'tools/jupiter_tables.py', b35, '--full', '--out', gf35], capture_output=True, text=True)
+# 20 Oct 2026 (Eddie, T24 conjunction red): the comparisons of tests 31 - 34 with their builds before run on builds by the code of commit
+# 93e73bc4 (before the red fill), so they keep checking their own change; test 35 checks 93e73bc4 -> now (red fill only)
+bf = 'tools/_jt_before_93e73bc4.py'
+open(bf, 'w').write(subprocess.run(['git', 'show', '93e73bc4:tools/jupiter_tables.py'], capture_output=True, text=True).stdout)
+os.makedirs(f'{tmp}/h93', exist_ok=True)
+lf_h, gf_h, gf35_h = (f'{tmp}/h93/{n}_jupiter_tables.xlsx' for n in ('lingfield', 'ascot', 'ascot35'))
+for inp, out in (('reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_h), (f'{tmp}/race_batch_20120619_ascot_1430.xlsx', gf_h),
+                 (b35, gf35_h)):
+    subprocess.run([sys.executable, bf, inp, '--full', '--out', out], capture_output=True, text=True)
+os.remove(bf)
 leak = []
 for w in (gfw, openpyxl.load_workbook(f'{tmp}/full_pairs.xlsx', read_only=True)):
     for sh in w.sheetnames:
@@ -1656,8 +1666,8 @@ check('T31 T1, T2, T24 SKY / HORSE / JOCKEY and SKY block star rows in RA order:
 bf = 'tools/_jt_before_1d37f4a9.py'
 open(bf, 'w').write(subprocess.run(['git', 'show', '1d37f4a9:tools/jupiter_tables.py'], capture_output=True, text=True).stdout)
 cmp = {}
-for nm, inp, after in (('Lingfield', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf),
-                       ('Ascot', b35, gf35)):                 # 35-star copy (20 Oct 2026)
+for nm, inp, after in (('Lingfield', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_h),
+                       ('Ascot', b35, gf35_h)):               # 35-star copy (20 Oct 2026), code of 93e73bc4
     bo = f'{tmp}/{nm}_before_jupiter_tables.xlsx'
     subprocess.run([sys.executable, bf, inp, '--full', '--out', bo], capture_output=True, text=True)
     r = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_raorder/compare_raorder.py', bo, after], capture_output=True, text=True)
@@ -1680,7 +1690,7 @@ check('T31 SKY block star rows vs before: Lingfield Polaris gone; Ascot Polaris 
 tl = lambda f, drop: [x for x in openpyxl.load_workbook(f, read_only=True)['SKY JUPITER'].iter_rows(values_only=True)
                       if x and x[0] in ('TIMELINE', 'LONG TIMELINE') and not str(x[3] or '').startswith('———') and not drop(str(x))]
 tls = {n: (tl(b, lambda t: 'Polaris' in t), tl(a, lambda t: bool(NEWRE.search(t))))
-       for n, (b, a) in (('Lingfield', (cmp['Lingfield'][1], lf)), ('Ascot', (cmp['Ascot'][1], gf35)))}
+       for n, (b, a) in (('Lingfield', (cmp['Lingfield'][1], lf_h)), ('Ascot', (cmp['Ascot'][1], gf35_h)))}
 check('T31 sky TIMELINE and LONG TIMELINE rows identical to the build before apart from the Polaris events (gone) and the new-star events '
       '(20 Oct 2026; both races)', all(b == a and b for b, a in tls.values()),
       ', '.join(f'{n} {len(a)} rows' for n, (b, a) in tls.items()))
@@ -1871,8 +1881,8 @@ check('T32 automatic / assisted unisons by the rule: automatic none in either ra
 bf = 'tools/_jt_before_10b7d76a.py'
 open(bf, 'w').write(subprocess.run(['git', 'show', '10b7d76a:tools/jupiter_tables.py'], capture_output=True, text=True).stdout)
 res = {}
-for nm, inp, after in (('Lingfield', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf),
-                       ('Ascot', b35, gf35)):                 # 35-star copy (20 Oct 2026)
+for nm, inp, after in (('Lingfield', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_h),
+                       ('Ascot', b35, gf35_h)):               # 35-star copy (20 Oct 2026), code of 93e73bc4
     bo = f'{tmp}/{nm}_before32_jupiter_tables.xlsx'
     subprocess.run([sys.executable, bf, inp, '--full', '--out', bo], capture_output=True, text=True)
     r = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_t24r/compare_t24r.py', bo, after], capture_output=True, text=True)
@@ -1927,8 +1937,8 @@ check('T33 SKY STARS complete: every pair of the batch\'s stars (46 / 21, no Pol
 bf = 'tools/_jt_before_bb23ade2.py'
 open(bf, 'w').write(subprocess.run(['git', 'show', 'bb23ade2:tools/jupiter_tables.py'], capture_output=True, text=True).stdout)
 out33 = {}
-for nm, inp, after in (('Lingfield', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf),
-                       ('Ascot', b35, gf35)):                 # 35-star copy (20 Oct 2026)
+for nm, inp, after in (('Lingfield', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_h),
+                       ('Ascot', b35, gf35_h)):               # 35-star copy (20 Oct 2026), code of 93e73bc4
     bo = f'{tmp}/{nm}_before33_jupiter_tables.xlsx'
     subprocess.run([sys.executable, bf, inp, '--full', '--out', bo], capture_output=True, text=True)
     out33[nm] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_sky35/compare_sky35.py', bo, after], capture_output=True, text=True).stdout
@@ -2080,8 +2090,8 @@ check('T34 the 46 (Ascot) / 21 (Lingfield) in RA order in T1, T2, T24 SKY / HORS
 bf = 'tools/_jt_before_7d88f329.py'
 open(bf, 'w').write(subprocess.run(['git', 'show', '7d88f329:tools/jupiter_tables.py'], capture_output=True, text=True).stdout)
 out34 = {}
-for nm, inp, after, apairs in (('Lingfield', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf, lf.replace('_jupiter_tables', '_pairs')),
-                               ('Ascot', f'{tmp}/race_batch_20120619_ascot_1430.xlsx', gf, gf.replace('_jupiter_tables', '_pairs'))):
+for nm, inp, after, apairs in (('Lingfield', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_h, lf.replace('_jupiter_tables', '_pairs')),
+                               ('Ascot', f'{tmp}/race_batch_20120619_ascot_1430.xlsx', gf_h, gf.replace('_jupiter_tables', '_pairs'))):
     bo = f'{tmp}/{nm}_before34_jupiter_tables.xlsx'
     subprocess.run([sys.executable, bf, inp, '--full', '--out', bo], capture_output=True, text=True)
     o = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_stars46/compare_46.py', bo, after], capture_output=True, text=True).stdout
@@ -2177,6 +2187,36 @@ for a, b, pl, tv, tt in (('Denebola', 'Unukalhai', 'RA', 1.5, '3/2 · fifth · P
           and x[11] == tt and x[12] == f'{r0 - tv:+.5f}' and f'{x[13]:.2f}' == f'{sq(0.02, abs(r0 - tv)):.2f}' and x[14] == tim and x[15] == pos_
           and 'AREA A' in blk.upper(), f'{dx:.6f} / {dy:.6f} / {dxy:.6f}, ratio {r0:.6f} -> {r5:.6f}, {tt} {r0 - tv:+.5f} '
           f'({sq(0.02, abs(r0 - tv)):.2f}), {tim}, {pos_}; sheet {x[10:16]}')
+# ---- 35. T24 conjunction red fill (Eddie, 20 Oct 2026; display only): every T24 SKY / HORSE / JOCKEY body cell and T24 H / J distance
+# cell red (FF8080) exactly when RA < 1.5 / Dec < 0.3, otherwise the fill of the build before (commit 93e73bc4); values, comments, borders
+# and every other cell identical (only the T24 title note changes); pairs workbooks identical
+out35 = {}
+for nm, bo, after in (('Lingfield', lf_h, lf), ('Ascot', gf_h, gf), ('Ascot35', gf35_h, gf35)):
+    o = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_t24red/compare_red.py', bo, after], capture_output=True, text=True).stdout
+    pw = [openpyxl.load_workbook(p, read_only=True) for p in (bo.replace('_jupiter_tables', '_pairs'), after.replace('_jupiter_tables', '_pairs'))]
+    psame = pw[0].sheetnames == pw[1].sheetnames and all(vals(pw[0][s]) == vals(pw[1][s]) for s in pw[0].sheetnames)
+    reds = {(m.group(1), m.group(2)): int(m.group(3)) for m in re.finditer(r'^(\S+(?: JUPITER)?)\s+(T24 \S+(?: / J)?)\s+red\s+(\d+) of', o, re.M)}
+    out35[nm] = (o, psame, reds)
+W35 = {'Ascot': {('SKY JUPITER', 'T24 SKY'): 20, ('P01', 'T24 HORSE'): 16, ('P01', 'T24 JOCKEY'): 13, ('P01', 'T24 H / J'): 2},
+       'Lingfield': {('SKY JUPITER', 'T24 SKY'): 7, **{(p, t): n for p, ns in (('P01', (13, 3, 1)), ('P03', (9, 11, 2)), ('P05', (7, 1, 0)),
+                     ('P07', (9, 2, 0)), ('P09', (10, 5, 1)), ('P11', (7, 3, 1))) for t, n in zip(('T24 HORSE', 'T24 JOCKEY', 'T24 H / J'), ns)}}}
+check('T35 T24 conjunction red, both races --full vs the build before (commit 93e73bc4): every T24 SKY / HORSE / JOCKEY body cell and T24 '
+      'H / J distance cell red exactly when RA < 1.5 / Dec < 0.3, otherwise the fill it had; values, comments, outlines and every other cell '
+      'identical; only the T24 title notes changed (Ascot 3, Lingfield 13); pairs identical; red cells per block as reported; the 35-star '
+      'copy of tests 31 - 33 the same',
+      all('mismatches: 0' in o and ps for o, ps, _ in out35.values()) and 'title cells changed: 3' in out35['Ascot'][0]
+      and 'title cells changed: 13' in out35['Lingfield'][0] and 'title cells changed: 3' in out35['Ascot35'][0]
+      and all(out35[k][2] == W35[k] for k in W35),
+      f"{ {k: (line(v[0], 'mismatches:'), v[1], v[2]) for k, v in out35.items()} }")
+# by hand from POSITIONS (rebuilt Ascot P01): T24 H / J H Nunki RA d(H Nunki, H Jupiter) red, = the T24 HORSE Nunki – Jupiter cell; the
+# ratio cell beside it still "together", no fill
+a = dist(gp[('P01', 'H', 'Nunki')], gp[('P01', 'H', 'Jupiter')], 'RA')
+hj = nr['T24 H / J'][1]['Nunki']
+c, cr = hj[col_('T24 H / J', 'd(H star, H Jupiter)', 'RA')], hj[col_('T24 H / J', 'H / J', 'RA')]
+check('T35 T24 H / J Nunki RA d(H Nunki, H Jupiter) by hand from POSITIONS: 0.805294 < 1.5 -> red, comment the conjunction line unchanged; '
+      'the H / J ratio cell "together", no fill', a < 1.5 and c.value == round(a, 6) and fillrgb(c) == '00FF8080'
+      and first(c).startswith('0 · conjunction (RA < 1.5)') and cr.value == 'together' and not fillrgb(cr),
+      f'{a:.6f}; {fillrgb(c)}, {first(c)!r}; {cr.value!r} {fillrgb(cr)}')
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

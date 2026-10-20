@@ -86,6 +86,7 @@ GREEN = PatternFill('solid', start_color='C6EFCE'); YELLOW = PatternFill('solid'
 LIGHT = PatternFill('solid', start_color='FFF8DC'); HEAD = PatternFill('solid', start_color='D9E1F2')
 BOLD = Font(bold=True)
 GREY = PatternFill('solid', start_color='D9D9D9')
+RED = PatternFill('solid', start_color='FF8080')            # T24 conjunction cells (Eddie, 20 Oct 2026), display only
 FILL = {'green': GREEN, 'yellow': YELLOW, 'light': LIGHT, 'grey': GREY}
 COLS = 8                                                   # per plane: value, +5, target, group, offset, score, arrow, also (scaled column removed 16 Oct 2026)
 
@@ -801,7 +802,7 @@ THICK = openpyxl.styles.Side(style='thick')
 def write_t24(ws, row, ch, C, title):
     """T24 block (Eddie, 19 Oct 2026): rows = stars (T1_T2_T24_STARS order, those in the chart; 19 Oct 2026); columns (revised the same day) = every body's RA
     distance (Moon only in the sky), then "RA midpoints", then every body's Dec distance, then "Dec midpoints"; cell = the distance (RA
-    wrapped 0-180, Dec |ΔDec|), 6 dp, filled by its best family score, comment = target · family · offset · score or the nearest target
+    wrapped 0-180, Dec |ΔDec|), 6 dp, filled by its best family score (a conjunction red, 20 Oct 2026), comment = target · family · offset · score or the nearest target
     outside, plus a line per midpoint the body is in; the two body cells of a midpoint hit get a thick outline; midpoint column = every hit,
     best total first, coloured by the best. No timing, no +5, no field sheet.
     -> (next row, {(star, body, plane): (v, colour, text)}, {(star, plane): [midpoint hits]})"""
@@ -841,7 +842,9 @@ def write_t24(ws, row, ch, C, title):
                 colour, text = t24_cell(v, pl)
                 c = ws.cell(row=row, column=c0[pl] + i, value=round(v, 6))
                 c.number_format = '0.000000'
-                if colour:
+                if v < families.CONJ[pl]:                  # conjunction (RA < 1.5, Dec < 0.3): red instead of the score fill (Eddie, 20 Oct 2026)
+                    c.fill = RED
+                elif colour:
                     c.fill = FILL[colour]
                 full = '\n'.join([text] + extra[b])
                 c.comment = Comment(full, 'T24', width=260, height=40 + 15 * len(extra[b]))
@@ -871,7 +874,7 @@ T24_VAL_W, T24_NAME_W = 11, 18
 T24_NOTE = ('stars against bodies (Eddie, 19 Oct 2026): one row per star; the RA distance of every body, RA midpoints, the Dec '
             'distance of every body, Dec midpoints; cell = the distance (RA wrapped 0–180, '
             'Dec |ΔDec|), coloured by its best family score (green >= 80, yellow 50–80, light < 50; conjunction RA < 1.5 / Dec < 0.3 counts, '
-            'as T1; no fill outside); cell comment = target · family · offset · score, or the nearest target outside. MIDPOINTS: the star as the '
+            'as T1, but filled red; no fill outside); cell comment = target · family · offset · score, or the nearest target outside. MIDPOINTS: the star as the '
             'middle point of two bodies A, B (closeness of d(star, A), d(star, B) >= 90 % and the star within RA ±0.5 (closer of near / far) / '
             'Dec ±0.15 of their midpoint; total = ratio half + distance half; hits only, best first; own Rahu – Ketu, "A, B together" (RA < 1.5, '
             'Dec < 0.3) and Ketu repeats of a Rahu pair left out; between / far side as T17); the two body cells get a thick outline and a '
@@ -973,7 +976,9 @@ def write_t24hj(ws, row, H, J):
             for k, v in enumerate((dh, dj)):
                 colour, text = t24_cell(v, pl)
                 c = ws.cell(row=row, column=c0 + k, value=round(v, 6)); c.number_format = '0.000000'
-                if colour:
+                if v < families.CONJ[pl]:                  # conjunction red, as the T24 Jupiter cells (Eddie, 20 Oct 2026)
+                    c.fill = RED
+                elif colour:
                     c.fill = FILL[colour]
                 c.comment = Comment(text, 'T24', width=260, height=40)
             a = t24r_cell(ws, row, c0 + 2, [(f'H {x}, H Jupiter', dh), (f'J {x}, J Jupiter', dj)], pl,
