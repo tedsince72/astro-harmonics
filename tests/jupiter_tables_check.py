@@ -1562,7 +1562,7 @@ for w in (gfw, openpyxl.load_workbook(f'{tmp}/full_pairs.xlsx', read_only=True))
             continue
         for x in w[sh].iter_rows(values_only=True):
             if x and (x[0] in ('T1', 'T2', 'T24', 'T24 H / J', 'T24 HORSE RATIOS', 'T24 JOCKEY RATIOS')   # T24 ratio tables (test 32)
-                      or sh == 'SKY JUPITER' and x[0] == 'SKY'):   # SKY block on the 35 stars (test 31)
+                      or sh == 'SKY JUPITER' and x[0] in ('SKY', 'SKY STARS', 'TIMELINE', 'LONG TIMELINE')):   # SKY block (test 31); SKY STARS, sky timelines (test 33)
                 continue
             hit = [v for v in x if isinstance(v, str) and NEWRE.search(v)]
             if hit:
@@ -1663,11 +1663,14 @@ check('T31 SKY block star rows vs before: Lingfield Polaris gone; Ascot Polaris 
       sd['Lingfield'] == "SKY block star rows: {'SKY JUPITER': {'gone': ['S Jupiter → S Polaris']}}"
       and "'gone': ['S Jupiter → S Polaris']" in sd['Ascot'] and 'changed' not in sd['Ascot']
       and all(f'S Jupiter → S {x}' in sd['Ascot'] for x in JT.NEW_STARS), str(sd)[:300])
-tl = lambda f: [x for x in openpyxl.load_workbook(f, read_only=True)['SKY JUPITER'].iter_rows(values_only=True)
-                if x and x[0] in ('TIMELINE', 'LONG TIMELINE')]
-tls = {n: (tl(b), tl(a)) for n, (b, a) in (('Lingfield', (cmp['Lingfield'][1], lf)), ('Ascot', (cmp['Ascot'][1], gf)))}
-check('T31 sky TIMELINE and LONG TIMELINE rows identical to the build before (both races; Polaris events kept, none from the new stars)',
-      all(b == a and b for b, a in tls.values()) and not any(NEWRE.search(str(x)) for _, a in tls.values() for x in a),
+# 20 Oct 2026 (Eddie): the sky timelines now take their star events from the 35 stars (test 33): before minus the Polaris events = after
+# minus the new-star events (section count rows left out)
+tl = lambda f, drop: [x for x in openpyxl.load_workbook(f, read_only=True)['SKY JUPITER'].iter_rows(values_only=True)
+                      if x and x[0] in ('TIMELINE', 'LONG TIMELINE') and not str(x[3] or '').startswith('———') and not drop(str(x))]
+tls = {n: (tl(b, lambda t: 'Polaris' in t), tl(a, lambda t: bool(NEWRE.search(t))))
+       for n, (b, a) in (('Lingfield', (cmp['Lingfield'][1], lf)), ('Ascot', (cmp['Ascot'][1], gf)))}
+check('T31 sky TIMELINE and LONG TIMELINE rows identical to the build before apart from the Polaris events (gone) and the new-star events '
+      '(20 Oct 2026; both races)', all(b == a and b for b, a in tls.values()),
       ', '.join(f'{n} {len(a)} rows' for n, (b, a) in tls.items()))
 # SKY block new-star cells = the T1 SKY cells (rebuilt Ascot)
 sb = {x[1].value.split(' → S ')[1]: x for x in gw['SKY JUPITER'].iter_rows() if x[0].value == 'SKY' and x[1].value and ' → S ' in str(x[1].value)}
@@ -1865,6 +1868,156 @@ for nm, inp, after in (('Lingfield', 'reference/classic/race_batch_20210402_ling
 os.remove(bf)
 check('T32 every other sheet and row identical to the build before (commit 10b7d76a; values, fills, comments; the new block cut out), both races',
       all(v.endswith('differences outside the new tables: 0') for v in res.values()) and len(res) == 2, str(res))
+# Test 33 (Eddie, 20 Oct 2026): SKY STARS and the sky TIMELINE / LONG TIMELINE on the 35 stars (ctx.x); everything else unchanged
+print('test 33: SKY STARS and the sky timelines on the 35 stars')
+import itertools
+SS_ORDER = [x for x in JT.STARS if x in JT.T1_T2_T24_STARS] + [x for x in JT.T1_T2_T24_STARS if x not in JT.STARS]
+
+
+def pos_ctx(w, off):
+    """a Ctx from the POSITIONS sky rows (positions and rates at the off), for the listing rule"""
+    sky, rt = {}, {}
+    for x in w['POSITIONS'].iter_rows(min_row=5, values_only=True):
+        if x and x[0] == 'SKY' and x[3]:
+            sky[x[3]] = (x[5], x[6], x[4]); rt[x[3]] = None if x[7] in (None, 'n/a') else (x[7], x[8])
+    c = JT.Ctx(sky, rt); c.off = off; c.off_str = off.strftime('%Y-%m-%d %H:%M')
+    return c
+
+
+def ss_rows(w):
+    blk, out = None, {}
+    for x in w['SKY JUPITER'].iter_rows(values_only=True):
+        if x and str(x[0] or '').startswith('SKY STARS') and x[1] is None:
+            blk = x[0]
+        elif x and x[0] == 'SKY STARS':
+            out[(x[2], x[3])] = (blk, x)
+    return out
+
+
+bad, det = [], []
+for nm, w, off, nst in (('Ascot', gw, datetime.datetime(2012, 6, 19, 14, 30), 35), ('Lingfield', lfw, datetime.datetime(2021, 4, 2, 14, 35), 21)):
+    cx = pos_ctx(w, off)
+    stars = [x for x in SS_ORDER if x in cx.S0]
+    rows = JT.pair_rows(cx, {'H': {}, 'J': {}}, stars, tid='SKY STARS', sky=True)
+    jd = cx.S0['Jupiter'][1]
+    want_cand = {(f'S {a} – S {b}', pl) for a, b in itertools.combinations(stars, 2) for pl in ('RA', 'Dec', 'Equator')
+                 if pl != 'Equator' or not ((jd >= 0) == (cx.S0[a][1] >= 0) == (cx.S0[b][1] >= 0))}
+    got_cand = {(h['pair'], h['plane']) for h in rows}
+    rule = {(h['pair'], h['plane']) for h in rows if not h['together'] and (h['ev'] or h['mid'] is not None or h['allfam'])}
+    sheet = ss_rows(w)
+    ok_ = len(stars) == nst and got_cand == want_cand and set(sheet) == rule and not any('Polaris' in k[0] for k in sheet)
+    bad += [] if ok_ else [(nm, len(stars), len(got_cand ^ want_cand), sorted(set(sheet) ^ rule)[:3])]
+    det.append(f'{nm} {nst} stars, {len(want_cand)} pair-planes, {len(rule)} listed')
+check('T33 SKY STARS complete: every pair of the batch\'s stars (35 / 21, no Polaris) and plane (Equator: straddle) measured, and the rows '
+      'on the sheet = exactly those passing the filter (ratio on an interval, midpoint hit, or all three families; together out)',
+      not bad, '; '.join(det) + f' {bad[:2]}')
+# against the build before (commit bb23ade2): old-star rows unchanged, Polaris rows / events gone, new-star rows / events added, rest identical
+bf = 'tools/_jt_before_bb23ade2.py'
+open(bf, 'w').write(subprocess.run(['git', 'show', 'bb23ade2:tools/jupiter_tables.py'], capture_output=True, text=True).stdout)
+out33 = {}
+for nm, inp, after in (('Lingfield', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf),
+                       ('Ascot', f'{tmp}/race_batch_20120619_ascot_1430.xlsx', gf)):
+    bo = f'{tmp}/{nm}_before33_jupiter_tables.xlsx'
+    subprocess.run([sys.executable, bf, inp, '--full', '--out', bo], capture_output=True, text=True)
+    out33[nm] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_sky35/compare_sky35.py', bo, after], capture_output=True, text=True).stdout
+os.remove(bf)
+ok_ = True
+for nm, o in out33.items():
+    ls = o.splitlines()
+    ok_ &= ('old rows changed: 0 []' in line(o, '  gone') and 'all Polaris: True' in line(o, '  gone') and 'all with a new star: True' in line(o, '  gone')
+            and all(l.endswith('True') for l in ls if l.startswith(('   - gone', '   + new ')))
+            and not any(l.startswith('   ~ changed') for l in ls)
+            and all(', changed 0' in l for l in ls if l.startswith(('TIMELINE:', 'LONG TIMELINE:')))
+            and line(o, 'differences outside') == 'differences outside SKY STARS / TIMELINE / LONG TIMELINE: 0 []')
+check('T33 against the build before (commit bb23ade2): every old-star SKY STARS row identical (cells, fills, block); the rows dropped all '
+      'Polaris, the rows added all with a new star; TIMELINE / LONG TIMELINE: events dropped all Polaris, added all new-star, every other event '
+      'unchanged (time, cells, also); every other row of every sheet identical (both races)', ok_,
+      ' | '.join(f"{n}: {line(o, 'SKY STARS rows per area')[24:]}; {line(o, 'TIMELINE:')}; {line(o, 'LONG TIMELINE:')}" for n, o in out33.items()))
+# new-star events: exact time = the source cell's timing; beyond 60 min the real time re-searched with the engine
+A_OFF = datetime.datetime(2012, 6, 19, 14, 30)
+JA = EN._to_jd_ut(EN._parse_time('2012-06-19 14:30', 'Europe/London'))
+SA = _site
+ba = EN.bodies_at(JA, *SA, False)
+skp = {x[3]: x for x in gw['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'SKY' and x[3]}
+ecache = {}
+
+
+def eng(m):
+    if m not in ecache:
+        ecache[m] = EN.bodies_at(JA + m / 1440.0, *SA, False)
+    return ecache[m]
+
+
+def sky_at(p, m):
+    eb = p + '_B' if skp[p][4] == 'star' else p
+    b = eng(m)
+    return ((skp[p][5] + (b[eb]['ra'] - ba[eb]['ra'] + 180) % 360 - 180) % 360, skp[p][6] + b[eb]['dec'] - ba[eb]['dec'])
+
+
+def pdist(p, q, pl):
+    if pl == 'RA':
+        return ra_d(p[0], q[0])
+    return abs(p[1] - q[1]) if pl == 'Dec' else abs(abs(p[1]) - abs(q[1]))
+
+
+ss = ss_rows(gw)
+tlr = [x for x in gw['SKY JUPITER'].iter_rows(values_only=True) if x and x[0] in ('TIMELINE', 'LONG TIMELINE') and x[4] and NEWRE.search(str(x[4]))]
+bad, nreal, nnf = [], 0, 0
+for e in tlr:
+    rel, pl, kind, tv = e[4], e[5], e[6], e[8]
+    if kind == 'ratio':
+        a, b = rel.split(': ')[1].split(' – ')
+        src = ss[(f'{a} – {b}', pl)][1][14]                 # ratio timing cell
+        f = lambda m: (lambda dx, dy: (max(dx, dy) / min(dx, dy)) - tv)(*(pdist(sky_at('Jupiter', m), sky_at(z[2:], m), pl) for z in (a, b)))
+    else:
+        a, b = rel.split(' – ')
+        r_ = next(r for k, (_, r) in ss.items() if k[1] == pl and a in k[0] and b in k[0])
+        src = r_[9] if f'{a} – {b}' == r_[2] else None     # d(X, Y) family cell: '→ T (fam, sc) · timing'
+        f = lambda m: pdist(sky_at(a[2:], m), sky_at(b[2:], m), pl) - tv
+    if e[1] == 'not within 1 year':
+        nnf += 1
+        days = [f(d * 1440) for d in range(-366, 367)]
+        ok_ = all((x > 0) == (days[0] > 0) for x in days)
+    elif e[0] == 'TIMELINE' or abs(e[13]) <= 60:
+        mins = e[2] if e[0] == 'TIMELINE' else e[13]
+        ok_ = src and f'exact {e[1]}' in src and f'{abs(mins):.1f} min' in src
+    else:
+        nreal += 1
+        ok_ = f(e[13] - 1) * f(e[13] + 1) < 0
+    if not ok_:
+        bad.append((e[0], rel, pl, e[1], e[2], src))
+check('T33 every new-star event on the rebuilt Ascot: within 60 min the exact time = its SKY STARS source cell\'s timing; beyond 60 min the '
+      'real time re-searched with the engine (the value crosses the target between one minute before and after; "not within 1 year": no '
+      'crossing in a daily scan of ±1 year)', not bad and len(tlr) > 0, f'{len(tlr)} event rows, {nreal} real times, {nnf} not within 1 year; {bad[:3]}')
+# by hand from POSITIONS (rates for +5): two new-star SKY STARS rows, the TIMELINE event, the LONG TIMELINE event
+for a, b, pl, area, tv, tt, kind in (('Algol', 'Sadalsuud', 'Equator', 'A', 1.5, '3/2 · fifth · Perfect', 'abs'),
+                                     ('Vega', 'Nunki', 'Dec', 'φ and √2', 1 + 2 ** 0.5, '1+√2 · silver ratio · Phi', 'pct')):
+    J0, J5 = gp[('SKY', 'S', 'Jupiter')], (gp[('SKY', 'S', 'Jupiter')][0] + 5 * rates['Jupiter'][0], gp[('SKY', 'S', 'Jupiter')][1] + 5 * rates['Jupiter'][1])
+    X0, Y0 = gp[('SKY', 'S', a)], gp[('SKY', 'S', b)]
+    X5, Y5 = ((p[0] + 5 * rates[z][0], p[1] + 5 * rates[z][1]) for p, z in ((X0, a), (Y0, b)))
+    dx, dy, dxy = pdist(J0, X0, pl), pdist(J0, Y0, pl), pdist(X0, Y0, pl)
+    r0 = max(dx, dy) / min(dx, dy)
+    r5 = (pdist(J5, X5, pl) / pdist(J5, Y5, pl)) if dx > dy else (pdist(J5, Y5, pl) / pdist(J5, X5, pl))
+    off_ = r0 - tv if kind == 'abs' else (r0 / tv - 1) * 100
+    sc = sq(0.02, abs(off_)) if kind == 'abs' else sq(0.15, abs(off_))
+    t = (tv - r0) / ((r5 - r0) / 5)
+    clk = (A_OFF + datetime.timedelta(minutes=t)).strftime('%H:%M')
+    tim = f"{'applying' if t > 0 else 'separating'}, exact {clk} (in {t:.1f} min)" if t > 0 else f"separating, exact {clk} ({-t:.1f} min ago)"
+    pos_ = 'between' if abs(dxy - (dx + dy)) <= 0.01 * (dx + dy) else 'far side'
+    blk, x = ss[(f'S {a} – S {b}', pl)]
+    offt = f'{off_:+.5f}' + ('%' if kind == 'pct' else '')
+    check(f'T33 SKY STARS S {a} – S {b} {pl} by hand from POSITIONS', [round(v, 6) for v in (dx, dy, dxy, r0)] == [x[4], x[6], x[8], x[10]]
+          and x[11] == tt and x[12] == offt and f'{x[13]:.2f}' == f'{sc:.2f}' and x[14] == tim and x[15] == pos_ and area.upper() in blk.upper(),
+          f'{dx:.6f} / {dy:.6f} / {dxy:.6f}, ratio {r0:.6f} -> {r5:.6f}, {tt} {offt} ({sc:.2f}), {tim}, {pos_}; {blk[:30]}; sheet {x[10:16]}')
+ev = [x for x in gw['SKY JUPITER'].iter_rows(values_only=True) if x and x[0] == 'TIMELINE' and x[4] == 'S Jupiter: S Vega – S Nunki']
+check('T33 TIMELINE new-star event S Jupiter: S Vega – S Nunki Dec 1+√2, exact 14:32 (+2.8 min), applying, 99.13 - inside −30 / +60',
+      len(ev) == 1 and ev[0][1:4] == ('14:32', 2.8, 'SKY STARS') and ev[0][5] == 'Dec' and ev[0][10] == 99.13 and ev[0][11] == 'applying', str(ev))
+lv = [x for x in gw['SKY JUPITER'].iter_rows(values_only=True) if x and x[0] == 'LONG TIMELINE' and x[4] == 'S Jupiter: S Pleiades – S Nunki']
+fpn = lambda m: (lambda dx, dy: max(dx, dy) / min(dx, dy) - 1.5)(*(pdist(sky_at('Jupiter', m), sky_at(z, m), 'Equator') for z in ('Pleiades', 'Nunki')))
+check('T33 LONG TIMELINE new-star event S Jupiter: S Pleiades – S Nunki Equator 3/2 (95.80 at the off): real 12:29 (−120.9 min) by the engine, '
+      'linear 12:28 (−121.1 min); direct engine lookup: the ratio crosses 3/2 between one minute before and after',
+      len(lv) == 1 and lv[0][1] == '12:29' and lv[0][13] == -120.9 and lv[0][14] == '12:28 (-121.1 min)' and lv[0][10] == 95.8
+      and fpn(-121.9) * fpn(-119.9) < 0, f'{lv[0][:15] if lv else lv}; {fpn(-121.9):+.7f} {fpn(-119.9):+.7f}')
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

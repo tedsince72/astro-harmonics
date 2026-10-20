@@ -4,6 +4,8 @@ to the before workbook: every cell's value, fill and comment, row by row (empty 
 (from the titles), together, automatic, assisted cells.
 usage: compare_t24r.py before.xlsx after.xlsx"""
 import sys, re, openpyxl
+SKY35 = ('SKY STARS', 'TIMELINE', 'LONG TIMELINE')     # 20 Oct 2026: on the 35 stars since; checked by chk_sky35/compare_sky35.py
+sky35 = lambda v: str(v or '').startswith(SKY35)
 NEW = ('T24 H / J', 'T24 HORSE RATIOS', 'T24 JOCKEY RATIOS')
 
 
@@ -31,7 +33,7 @@ def rows(ws, cut):
                 j += 1
             i = j
             continue
-        if any(c.value is not None for c in r):
+        if any(c.value is not None for c in r) and not sky35(r[0].value):
             out.append(sig(r))
         i += 1
     return out, stats

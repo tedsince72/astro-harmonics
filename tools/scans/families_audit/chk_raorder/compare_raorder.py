@@ -24,6 +24,8 @@ def cell_sig(c):
             c.border.left.style, c.border.right.style)
 
 
+SKY35 = ('SKY STARS', 'TIMELINE', 'LONG TIMELINE')     # 20 Oct 2026: on the 35 stars since; checked by chk_sky35/compare_sky35.py
+sky35 = lambda v: str(v or '').startswith(SKY35)
 NEW_T24R = ('T24 H / J', 'T24 HORSE RATIOS', 'T24 JOCKEY RATIOS')   # T24 ratio tables (19 Oct 2026, later): own check, compare_t24r.py
 
 
@@ -34,7 +36,7 @@ def split(ws):
         if not any(c.value is not None for c in r):
             continue
         inblk = r[0].value in NEW_T24R or inblk and r[0].value in ('table', None)
-        if inblk:
+        if inblk or sky35(r[0].value):
             continue
         x = star_of(r)
         if x:

@@ -48,6 +48,7 @@ in RA order); every other table (and TIMELINE, NUMBERS) keeps STARS (23, Polaris
 POSITIONS, SKY JUPITER and the runner sheets only; --full also writes P## RATIOS, P## NUMBERS, THREADS, FIELD NUMBERS and every FIELD sheet.
 T24 ratio tables (Eddie, 19 Oct 2026; natal only): T24 H / J (d(H star, H Jupiter) / d(J star, J Jupiter)), T24 HORSE RATIOS and T24 JOCKEY
 RATIOS (d(star, Jupiter) / d(star, X), same chart), on each runner sheet after T24 JOCKEY; not in THREADS, NUMBERS, RATIOS, FIELD or TIMELINEs.
+SKY STARS and the sky TIMELINE / LONG TIMELINE (Eddie, 20 Oct 2026): on the 35 stars (ctx.x), as the SKY block; runner timelines on STARS.
 Points and engine from tools/jup2 (imported, not changed). Frozen readers are not changed."""
 import argparse, glob, os, re, sys, itertools, math, datetime
 import openpyxl
@@ -3091,9 +3092,10 @@ def main():
     ctx.x.off, ctx.x.off_str, ctx.x.site = ctx.off, ctx.off_str, ctx.site
     try:
         ctx.eph = Ephem(ctx)                               # LONG TIMELINE real exact times (Eddie, 16 Oct 2026)
+        ctx.x.eph = Ephem(ctx.x)                           # sky LONG TIMELINE on the 35 stars (Eddie, 20 Oct 2026)
     except Exception as ex:                                # engine cannot run: the linear estimate stays
         print(f'ephemeris not run ({type(ex).__name__}: {ex}): LONG TIMELINE keeps the linear times')
-        ctx.eph = None
+        ctx.eph = ctx.x.eph = None
     wb = openpyxl.Workbook(); ws = wb.active; ws.title = 'POSITIONS'
     wbp = openpyxl.Workbook(); wbp.remove(wbp.active)        # P## PAIRS: separate workbook next to the tables one
     repro = next((l for l in elines if l.startswith('reproduction')), elines[0] if elines else '')
@@ -3130,7 +3132,10 @@ def main():
     skyeq = [dict(h, tid='SKY EQ') for h in equi_hits(ctx, R0, 'S Jupiter', [f'S {z}' for z in SKY_BODIES if z in sky and z != 'Jupiter'], 'SKY EQ')]
     row = write_equi(ws, row, 'EQUIDISTANCE: S Jupiter with two sky bodies', skyeq)
     skypairs = t19_filter(pair_rows(ctx, R0, None, tid='SKY PAIRS', blocks=sky_pair_blocks(ctx)))
-    skystars = t19_filter(pair_rows(ctx, R0, STARS, tid='SKY STARS', sky=True))
+    # SKY STARS on the 35 stars (Eddie, 20 Oct 2026); pair orientation: the old STARS order, then the new stars in RA order, so every old pair keeps
+    # its X / Y as before
+    skystars = t19_filter(pair_rows(ctx.x, R0, [x for x in STARS if x in T1_T2_T24_STARS] + [x for x in T1_T2_T24_STARS if x not in STARS],
+                                    tid='SKY STARS', sky=True))
     row = write_pair_blocks(ws, row, 'SKY PAIRS (Eddie, 14 Oct): S Jupiter on every pair of sky bodies (Moon included), and (15 Oct 2026) on every sky body '
                        'with a royal star (Aldebaran, Regulus, Antares, Fomalhaut; race-day positions; block "body – royal"; no star–star), filtered as T19 '
                        '(ratio on an interval, or a midpoint hit, or all three distances with a family hit; "X, Y together" left out; best first by the higher '
@@ -3139,7 +3144,7 @@ def main():
                        '(area A ±0.02 absolute, area B tapered %; timing); between / far side; planes RA, Dec, Equator (only when S Jupiter, X, Y '
                        'straddle the equator); Ketu in every plane; the sky Rahu–Ketu pair never paired; a Ketu row repeating the Rahu row dropped',
                             skypairs, 'SKY PAIRS')
-    row = write_pair_blocks(ws, row, 'SKY STARS (background, once per race): S Jupiter on two sky stars, filtered as T19 (ratio on an interval, '
+    row = write_pair_blocks(ws, row, 'SKY STARS (background, once per race; 20 Oct 2026: the 35 stars of T1 / T2 / T24, RA order, no Polaris): S Jupiter on two sky stars, filtered as T19 (ratio on an interval, '
                       'or all three distances with a family hit; "X, Y together" left out)',
                       skystars, 'SKY STARS')
     roy = [f'S {x}' for x in STARS if x in ROYAL and x in ctx.S0]
@@ -3152,8 +3157,9 @@ def main():
                             srows, 'SKY ROYAL', every=True, notog=True)
     row, _, _ = write_t24(ws, row + 1, skyx, 'S', f'T24 SKY (race-day positions at the off, Moon included): {T24_NOTE}')     # Eddie, 19 Oct 2026
     srcs = (('SKY PAIRS', skypairs), ('SKY STARS', skystars), ('SKY ROYAL', srows))
-    row = write_timeline(ws, row, ctx, timeline(ctx, R0, skyeq, srcs))
-    row = write_long(ws, row, ctx, realise(ctx, R0, timeline(ctx, R0, skyeq, srcs, keep=long_keep)), 'LONG TIMELINE',
+    # sky TIMELINE / LONG TIMELINE on the 35 stars (Eddie, 20 Oct 2026): SKY star events from the sky on T1_T2_T24_STARS (ctx.x), as the SKY block
+    row = write_timeline(ws, row, ctx.x, timeline(ctx.x, R0, skyeq, srcs))
+    row = write_long(ws, row, ctx.x, realise(ctx.x, R0, timeline(ctx.x, R0, skyeq, srcs, keep=long_keep)), 'LONG TIMELINE',
                      'LONG TIMELINE (Eddie, 16 Oct 2026): every sky Jupiter event on this sheet scoring >= 80 at the off, any exact time (same sources '
                      'and rules as TIMELINE). Exact time: beyond 60 min the real time from the Swiss Ephemeris (race engine and site; stepping out from the off, '
                      'refined to the minute, up to 1 year each way, else "not within 1 year"), the linear estimate in the last column; each section by score at the off, highest first (ties by exact time)')
