@@ -1,0 +1,39 @@
+"""compare_46.py (20 Oct 2026): tables workbook on 46 stars against the build before (35). Every sheet: the rows that name one of the 11
+new stars are taken out of the after build; what is left must equal the before build row for row (values, fills, comments), except title
+rows whose counts change (printed). Also counts the removed rows per sheet and table id.
+usage: compare_46.py before.xlsx after.xlsx"""
+import sys, re, difflib, collections, openpyxl
+NEW11 = ['Alpheratz', 'Algenib', 'Difda', 'Mirach', 'Menkar', 'Phact', 'Adhara', 'Wezen', 'Menkent', 'Unukalhai', 'Rasalhague']
+RX = re.compile(r'\b(' + '|'.join(NEW11) + r')\b')
+
+
+def sig(r):
+    return tuple((c.value, c.fill.start_color.rgb if c.fill and c.fill.fill_type else None, c.comment.text if c.comment else None) for c in r)
+
+
+def rows(ws):
+    return [r for r in ws.iter_rows() if any(c.value is not None for c in r)]
+
+
+b, a = openpyxl.load_workbook(sys.argv[1]), openpyxl.load_workbook(sys.argv[2])
+assert b.sheetnames == a.sheetnames, (b.sheetnames, a.sheetnames)
+other = 0
+for sh in b.sheetnames:
+    rb, ra = rows(b[sh]), rows(a[sh])
+    keep = [r for r in ra if not any(RX.search(str(c.value)) for c in r[1:8] if isinstance(c.value, str))]
+    removed = collections.Counter(str(r[0].value)[:20] for r in ra if r not in keep)
+    sb, sa = [sig(r) for r in rb], [sig(r) for r in keep]
+    diffs = []
+    for op, i1, i2, j1, j2 in difflib.SequenceMatcher(None, sb, sa, autojunk=False).get_opcodes():
+        if op != 'equal':
+            diffs.append((op, [str(x[0][0])[:150] for x in sb[i1:i2]], [str(x[0][0])[:150] for x in sa[j1:j2]]))
+    # titles: first cell text only, same table id, every other cell None
+    title_only = all(op == 'replace' and len(x) == len(y) and all(str(p)[:6] == str(q)[:6] for p, q in zip(x, y)) for op, x, y in diffs)
+    if not title_only:
+        other += 1
+    print(f'{sh}: rows before {len(rb)}, after {len(ra)}, new-star rows {sum(removed.values())} {dict(removed)}; '
+          f'other differences {sum(len(x) for _, x, _ in diffs)} ({"titles only" if title_only else "NOT titles only"})')
+    for op, x, y in diffs:
+        for p, q in zip(x, y) if op == 'replace' else [(x, y)]:
+            print('     before:', p); print('     after: ', q)
+print('sheets with differences other than title rows:', other)

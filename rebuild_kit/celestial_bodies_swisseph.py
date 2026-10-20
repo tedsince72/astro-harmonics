@@ -133,6 +133,12 @@ BEHENIAN_STARS = [
     ("Zubenelgenubi", "Zubenelgenubi"), ("Zubeneschamali", "Zubeneshamali"), ("Kaus Australis", "Kaus Australis"),
     ("Nunki", "Nunki"), ("Deneb", "Deneb"), ("Sadalsuud", "Sadalsuud"), ("Sadalmelik", "Sadalmelik"),
     ("Scheat", "Scheat"), ("Markab", "Markab"),
+    # Eddie, 20 Oct 2026: 11 more stars, jupiter_tables T1, T2, T24 (and the SKY block, SKY STARS, sky timelines) only.
+    # Menkar by designation: sefstars.txt has two 'Menkar' lines, plain 'Menkar' returns lambda Ceti; ',alCet' = alpha Ceti.
+    # Difda = beta Ceti (sefstars' own 'Deneb Kaitos' is iota Ceti, not used); Algenib = gamma Pegasi.
+    ("Alpheratz", "Alpheratz"), ("Algenib", "Algenib"), ("Difda", "Difda"), ("Mirach", "Mirach"), ("Menkar", ",alCet"),
+    ("Phact", "Phact"), ("Adhara", "Adhara"), ("Wezen", "Wezen"), ("Menkent", "Menkent"), ("Unukalhai", "Unukalhai"),
+    ("Rasalhague", "Rasalhague"),
 ]
 TIMED_POINTS = ["Part_of_Fortune", "Part_of_Spirit", "Ascendant", "Midheaven", "Vertex"]
 

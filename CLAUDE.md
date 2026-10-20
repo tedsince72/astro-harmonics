@@ -106,10 +106,10 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
 - Viewing tool (13 Oct 2026, not a reader): `python3 tools/jupiter_tables.py <race_batch xlsx | reference/classic/<race> folder>` ->
   race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T14, T16–T22 per runner (T15 removed 15 Oct 2026), field matrices, off and +5 min,
   every family from tools/families.py scored, best = highest score, also (no scaled column since 16 Oct 2026), colours by score; ratios on the interval
-  list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
+  list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct; 46 since 20 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (172/172; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (187/187; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -740,6 +740,41 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   move non-linearly over days (annual aberration), so their linear estimates can be far off (S Betelgeuse – S Nunki: linear +1.76 days,
   real +17.07 days); the table uses the engine time beyond 60 min.
 
+## jupiter_tables: 11 more stars, 46 in T1, T2, T24 and the sky star tables (Eddie, 20 Oct 2026; viewing only)
+- Engine: BEHENIAN_STARS + Alpheratz, Algenib (gamma Peg), Difda (beta Cet; sefstars' own 'Deneb Kaitos' = iota Cet, not used), Mirach,
+  Menkar (looked up as ',alCet' = alpha Ceti; plain 'Menkar' returns lambda Ceti, Dec +8.9), Phact, Adhara, Wezen, Menkent, Unukalhai,
+  Rasalhague (rebuild_kit copy = ~/astronomy-project copy). J2000 at J2000.0 vs catalogue all within 0.02° (largest Adhara dRA +0.0070,
+  Phact +0.0069, Wezen +0.0062, Rasalhague −0.0060). Script tools/scans/families_audit/chk_stars46/engine_check.py.
+- T1_T2_T24_STARS = 46 (|Dec| <= 50, no Polaris), engine RA order = Eddie's list exactly (Alpheratz 2.0961 ... Markab 346.1879); NEW_STARS
+  = the 13 + the 11. The 11 go exactly where the 35 are used: T1 / T2 (+ SKY cells), T24 SKY / HORSE / JOCKEY (+ midpoints), T24 H / J,
+  T24 HORSE / JOCKEY RATIOS, SKY block, SKY STARS (orientation: old STARS order without Polaris, then the 24 new stars in RA order), sky
+  TIMELINE / LONG TIMELINE; POSITIONS block 'T1 / T2 / T24 only' lists all 24. No code change beyond the lists.
+- Compared with the build before (commit 7d88f329; chk_stars46/compare_46.py): every row not naming one of the 11 identical (values, fills,
+  comments) in both races; only count titles differ (SKY STARS and its areas, TIMELINE, LONG TIMELINE + sections, T24 H / J, RATIOS titles);
+  pairs workbooks identical; Lingfield 14:35 2021 (old batch, 21 stars) unchanged apart from the SKY STARS title ('35' -> '46').
+  Rebuilt Ascot 14:30 2012 new-star rows: POSITIONS 33; SKY JUPITER SKY 11, SKY STARS 139, T24 11, TIMELINE 12, LONG TIMELINE 20; P01 T1 11,
+  T2 11, T24 22, T24 H / J 11, T24 HORSE / JOCKEY RATIOS 11 each.
+- Rebuilt Ascot counts before -> after: SKY STARS (A / φ and √2 / B / no ratio or midpoint hit) 74/15/67/17 -> 140/24/123/25 (1,035 pairs,
+  2,754 pair-planes, 312 listed); TIMELINE 38 (9/4/25) -> 50 (12/4/34), new e.g. S Jupiter: S Denebola – S Unukalhai RA 3/2 14:43 (+13.5,
+  99.91), S Menkar – S Praesepe RA 5 14:23 (−6.1, 95.88), S Jupiter → S Adhara RA 45 15:19 (+49.0, SKY, also SKY STARS); LONG TIMELINE 47
+  (24/23; 25 real-searched; 4 not within 1 year) -> 67 (33/34; 39; 7), new not within 1 year: S Spica – S Menkar RA 155.556, S Fomalhaut –
+  S Algenib RA 18.8889, S Mirach – S Zubeneschamali Dec 45. T24 H / J hits (A / φ√2 / B) 18/0/3 -> 22/0/3, HORSE RATIOS 62/17/89 -> 91/24/119,
+  JOCKEY RATIOS 82/16/75 -> 100/21/100 (assisted 25 -> 29; no automatic). T24 midpoint hits on new-star rows: SKY 39, HORSE 18, JOCKEY 24.
+- Sizes (tables default / --full; pairs): rebuilt Ascot 0.59 / 0.65 -> 0.69 / 0.76 MB, pairs 0.51 unchanged; Lingfield 2.15 / 2.37 MB unchanged.
+- Tests 187/187 (test 34 new): engine catalogue and Menkar = alpha Ceti; the 46 = engine order = Eddie's list; the 46 / 21 in order in every
+  table above; vs 7d88f329 (compare_46.py) as above, the 11 only in the allowed tables, pairs identical; TIMELINE / LONG TIMELINE new-star
+  counts; by hand from POSITIONS: T1 H Menkar RA 122.563385 ninth 122.222 +0.34116 (52.76), H Adhara Dec 6.184544 10×φ^-1 +0.00420 (74.64);
+  T2 J Rasalhague Dec 36.018968 36 +0.01897 (0.27), SKY cell S Jupiter → S Unukalhai Dec 13.296270 ninth 13.3333 −0.03706 (55.52); T24
+  HORSE H Phact – H Makemake Dec 63.104540 39×φ +0.00121 (92.64); T24 HORSE RATIOS H Menkar Dec Jupiter / Mercury 1.501372 3/2 A +0.00137
+  (86.75); SKY block S Adhara RA 45.007846 45 +0.00785 (36.93) applying 15:19, S Menkar RA 14.076783 14.14 −0.06535 (0.57); SKY STARS
+  S Denebola – S Unukalhai RA 3/2 and S Menkar – S Praesepe RA 5. Changed for this: tests 28, 30 – 33 star counts (35 -> 46), T32 assisted
+  Ascot 25 -> 29; the comparisons of tests 31 – 33 with their builds before run on a 35-star copy of the rebuilt batch; test 33 handles a
+  S Jupiter → star leg event (S Jupiter → S Menkent Equator).
+  Independent checker (20 Oct), own code from POSITIONS + engine (chk_stars46/check46_*.py), rebuilt Ascot: engine and batch (+25 '_B' rows,
+  rest identical); order of the 46 everywhere; every cell of T1 / T2 (46 rows), T24 SKY 2,300 / HORSE 2,208 / JOCKEY 2,208 + midpoints,
+  T24 H / J and RATIOS 4,508, SKY block 2,556, SKY STARS 6,864 (completeness, blocks, order; 173 old rows identical); TIMELINE / LONG star
+  events rebuilt, 24 real times within 1 min, 7 not within 1 year by an hourly scan; the 11 nowhere else; Lingfield unchanged: 0 mismatches.
+
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
 (16 Oct 2026: value scaling removed - the scaled lines, scaled hits and the repeat rule below are gone; see "No value scaling".)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
@@ -775,6 +810,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 - **35 stars in T1, T2, T24 (13 new in the engine, no Polaris there) + trimmed default workbook, --full for the rest (19 Oct 2026, Eddie):**
   see its section; same day revised: the 35 in RA order, and the SKY block star rows on the 35. 
 - **T24 ratio tables T24 H / J, T24 HORSE RATIOS, T24 JOCKEY RATIOS (19 Oct 2026, Eddie):** see its section.
+- **11 more stars (Alpheratz ... Rasalhague; Menkar = alpha Ceti): 46 in T1, T2, T24, T24 ratio tables, SKY block, SKY STARS, sky
+  timelines (20 Oct 2026, Eddie):** see its section. Tests 187/187.
 - **SKY STARS and the sky TIMELINE / LONG TIMELINE on the 35 stars (20 Oct 2026, Eddie):** see its section. Tests 172/172.
 - **Galactic Centre as the 23rd star + T24 stars against bodies (19 Oct 2026, Eddie):** see its section. Engine and card pipeline
   carry the Galactic Centre from now on; older batches unchanged. Same day: T24 columns RA half then Dec half, and T24 midpoints (star

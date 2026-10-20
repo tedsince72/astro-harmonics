@@ -43,12 +43,12 @@ TIMELINE H / J (16 Oct 2026): at the end of each runner sheet, the same for ever
 LONG TIMELINE (16 Oct 2026): score >= 80 at the off, any exact time, SEPARATING / APPLYING; sky equivalent cells on TIMELINE H / J and LONG H / J.
 T24 (19 Oct 2026): stars against bodies, one row per star, RA / Dec distance per body, coloured by the best family, a cell comment with
 target, family, offset, score; SKY block on SKY JUPITER (Moon included), HORSE and JOCKEY blocks on each runner sheet after T22R.
-Stars (Eddie, 19 Oct 2026): T1, T2, T24 and the SKY block use T1_T2_T24_STARS (35 stars with |Dec| <= 50: STARS without Polaris + 13 new,
+Stars (Eddie, 19 Oct 2026): T1, T2, T24 and the SKY block use T1_T2_T24_STARS (46 stars with |Dec| <= 50: STARS without Polaris + 13 new, 11 more 20 Oct 2026,
 in RA order); every other table (and TIMELINE, NUMBERS) keeps STARS (23, Polaris included); the new stars' positions are appended to POSITIONS. Default workbook (19 Oct 2026):
 POSITIONS, SKY JUPITER and the runner sheets only; --full also writes P## RATIOS, P## NUMBERS, THREADS, FIELD NUMBERS and every FIELD sheet.
 T24 ratio tables (Eddie, 19 Oct 2026; natal only): T24 H / J (d(H star, H Jupiter) / d(J star, J Jupiter)), T24 HORSE RATIOS and T24 JOCKEY
 RATIOS (d(star, Jupiter) / d(star, X), same chart), on each runner sheet after T24 JOCKEY; not in THREADS, NUMBERS, RATIOS, FIELD or TIMELINEs.
-SKY STARS and the sky TIMELINE / LONG TIMELINE (Eddie, 20 Oct 2026): on the 35 stars (ctx.x), as the SKY block; runner timelines on STARS.
+SKY STARS and the sky TIMELINE / LONG TIMELINE (Eddie, 20 Oct 2026): on the 46 stars (ctx.x), as the SKY block; runner timelines on STARS.
 Points and engine from tools/jup2 (imported, not changed). Frozen readers are not changed."""
 import argparse, glob, os, re, sys, itertools, math, datetime
 import openpyxl
@@ -70,13 +70,16 @@ STARS = ['Algol', 'Pleiades', 'Aldebaran', 'Capella', 'Sirius', 'Procyon', 'Regu
          'Alphecca', 'Antares', 'Vega', 'Deneb Algedi', 'Fomalhaut', 'Rigel', 'Betelgeuse', 'Polaris', 'Castor', 'Altair', 'Bellatrix',
          'Galactic Centre']                               # Galactic Centre (Eddie, 19 Oct 2026): 23rd star, not royal; skipped where a batch lacks it
 NEW_STARS = ['Hamal', 'Pollux', 'Praesepe', 'Denebola', 'Zubenelgenubi', 'Zubeneschamali', 'Kaus Australis', 'Nunki', 'Deneb', 'Sadalsuud',
-             'Sadalmelik', 'Scheat', 'Markab']             # Eddie, 19 Oct 2026: T1, T2 and T24 only (RA order)
-# the 35 stars with |Dec| <= 50 (Eddie, 19 Oct 2026): STARS without Polaris + NEW_STARS, in RA order (engine J2000 RA at J2000.0, ascending;
+             'Sadalmelik', 'Scheat', 'Markab',             # Eddie, 19 Oct 2026: T1, T2 and T24 only (RA order)
+             'Alpheratz', 'Algenib', 'Difda', 'Mirach', 'Menkar', 'Phact', 'Adhara', 'Wezen', 'Menkent', 'Unukalhai',
+             'Rasalhague']                                 # Eddie, 20 Oct 2026: 11 more, the same tables as the 13 (RA order)
+# the 46 stars with |Dec| <= 50 (Eddie, 19 Oct 2026; 46 since 20 Oct 2026): STARS without Polaris + NEW_STARS, in RA order (engine J2000 RA at J2000.0, ascending;
 # one fixed order, Eddie 19 Oct 2026); T1, T2, T24 and the SKY block star rows; every other table keeps STARS
-T1_T2_T24_STARS = ['Hamal', 'Algol', 'Pleiades', 'Aldebaran', 'Rigel', 'Capella', 'Bellatrix', 'Betelgeuse', 'Sirius', 'Castor', 'Procyon',
-                   'Pollux', 'Praesepe', 'Regulus', 'Denebola', 'Algorab', 'Spica', 'Alkaid', 'Arcturus', 'Zubenelgenubi', 'Zubeneschamali',
-                   'Alphecca', 'Antares', 'Galactic Centre', 'Kaus Australis', 'Vega', 'Nunki', 'Altair', 'Deneb', 'Sadalsuud', 'Deneb Algedi',
-                   'Sadalmelik', 'Fomalhaut', 'Scheat', 'Markab']
+T1_T2_T24_STARS = ['Alpheratz', 'Algenib', 'Difda', 'Mirach', 'Hamal', 'Menkar', 'Algol', 'Pleiades', 'Aldebaran', 'Rigel', 'Capella',
+                   'Bellatrix', 'Phact', 'Betelgeuse', 'Sirius', 'Adhara', 'Wezen', 'Castor', 'Procyon', 'Pollux', 'Praesepe', 'Regulus',
+                   'Denebola', 'Algorab', 'Spica', 'Alkaid', 'Menkent', 'Arcturus', 'Zubenelgenubi', 'Zubeneschamali', 'Alphecca',
+                   'Unukalhai', 'Antares', 'Rasalhague', 'Galactic Centre', 'Kaus Australis', 'Vega', 'Nunki', 'Altair', 'Deneb', 'Sadalsuud',
+                   'Deneb Algedi', 'Sadalmelik', 'Fomalhaut', 'Scheat', 'Markab']
 assert sorted(T1_T2_T24_STARS) == sorted([x for x in STARS if x != 'Polaris'] + NEW_STARS)
 BODIES = [b for b in SKY_BODIES if b != 'Ketu']           # workbook rows (Ketu rebuilt as Rahu's mirror)
 GREEN = PatternFill('solid', start_color='C6EFCE'); YELLOW = PatternFill('solid', start_color='FFEB9C')
@@ -3092,7 +3095,7 @@ def main():
     ctx.x.off, ctx.x.off_str, ctx.x.site = ctx.off, ctx.off_str, ctx.site
     try:
         ctx.eph = Ephem(ctx)                               # LONG TIMELINE real exact times (Eddie, 16 Oct 2026)
-        ctx.x.eph = Ephem(ctx.x)                           # sky LONG TIMELINE on the 35 stars (Eddie, 20 Oct 2026)
+        ctx.x.eph = Ephem(ctx.x)                           # sky LONG TIMELINE on the 46 stars (Eddie, 20 Oct 2026)
     except Exception as ex:                                # engine cannot run: the linear estimate stays
         print(f'ephemeris not run ({type(ex).__name__}: {ex}): LONG TIMELINE keeps the linear times')
         ctx.eph = ctx.x.eph = None
@@ -3132,7 +3135,7 @@ def main():
     skyeq = [dict(h, tid='SKY EQ') for h in equi_hits(ctx, R0, 'S Jupiter', [f'S {z}' for z in SKY_BODIES if z in sky and z != 'Jupiter'], 'SKY EQ')]
     row = write_equi(ws, row, 'EQUIDISTANCE: S Jupiter with two sky bodies', skyeq)
     skypairs = t19_filter(pair_rows(ctx, R0, None, tid='SKY PAIRS', blocks=sky_pair_blocks(ctx)))
-    # SKY STARS on the 35 stars (Eddie, 20 Oct 2026); pair orientation: the old STARS order, then the new stars in RA order, so every old pair keeps
+    # SKY STARS on the 46 stars (Eddie, 20 Oct 2026); pair orientation: the old STARS order, then the new stars in RA order, so every old pair keeps
     # its X / Y as before
     skystars = t19_filter(pair_rows(ctx.x, R0, [x for x in STARS if x in T1_T2_T24_STARS] + [x for x in T1_T2_T24_STARS if x not in STARS],
                                     tid='SKY STARS', sky=True))
@@ -3144,7 +3147,7 @@ def main():
                        '(area A ±0.02 absolute, area B tapered %; timing); between / far side; planes RA, Dec, Equator (only when S Jupiter, X, Y '
                        'straddle the equator); Ketu in every plane; the sky Rahu–Ketu pair never paired; a Ketu row repeating the Rahu row dropped',
                             skypairs, 'SKY PAIRS')
-    row = write_pair_blocks(ws, row, 'SKY STARS (background, once per race; 20 Oct 2026: the 35 stars of T1 / T2 / T24, RA order, no Polaris): S Jupiter on two sky stars, filtered as T19 (ratio on an interval, '
+    row = write_pair_blocks(ws, row, 'SKY STARS (background, once per race; 20 Oct 2026: the 46 stars of T1 / T2 / T24, RA order, no Polaris): S Jupiter on two sky stars, filtered as T19 (ratio on an interval, '
                       'or all three distances with a family hit; "X, Y together" left out)',
                       skystars, 'SKY STARS')
     roy = [f'S {x}' for x in STARS if x in ROYAL and x in ctx.S0]
@@ -3157,7 +3160,7 @@ def main():
                             srows, 'SKY ROYAL', every=True, notog=True)
     row, _, _ = write_t24(ws, row + 1, skyx, 'S', f'T24 SKY (race-day positions at the off, Moon included): {T24_NOTE}')     # Eddie, 19 Oct 2026
     srcs = (('SKY PAIRS', skypairs), ('SKY STARS', skystars), ('SKY ROYAL', srows))
-    # sky TIMELINE / LONG TIMELINE on the 35 stars (Eddie, 20 Oct 2026): SKY star events from the sky on T1_T2_T24_STARS (ctx.x), as the SKY block
+    # sky TIMELINE / LONG TIMELINE on the 46 stars (Eddie, 20 Oct 2026): SKY star events from the sky on T1_T2_T24_STARS (ctx.x), as the SKY block
     row = write_timeline(ws, row, ctx.x, timeline(ctx.x, R0, skyeq, srcs))
     row = write_long(ws, row, ctx.x, realise(ctx.x, R0, timeline(ctx.x, R0, skyeq, srcs, keep=long_keep)), 'LONG TIMELINE',
                      'LONG TIMELINE (Eddie, 16 Oct 2026): every sky Jupiter event on this sheet scoring >= 80 at the off, any exact time (same sources '
