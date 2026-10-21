@@ -106,10 +106,10 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
 - Viewing tool (13 Oct 2026, not a reader): `python3 tools/jupiter_tables.py <race_batch xlsx | reference/classic/<race> folder>` ->
   race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T14, T16–T22 per runner (T15 removed 15 Oct 2026), field matrices, off and +5 min,
   every family from tools/families.py scored, best = highest score, also (no scaled column since 16 Oct 2026), colours by score; ratios on the interval
-  list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct; 46 since 20 Oct; conjunction cells red, 20 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
+  list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct; 46 since 20 Oct, 67 since 21 Oct; conjunction cells red, 20 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (189/189; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (210/210; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -775,6 +775,51 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   T24 H / J and RATIOS 4,508, SKY block 2,556, SKY STARS 6,864 (completeness, blocks, order; 173 old rows identical); TIMELINE / LONG star
   events rebuilt, 24 real times within 1 min, 7 not within 1 year by an hourly scan; the 11 nowhere else; Lingfield unchanged: 0 mismatches.
 
+## jupiter_tables: 20 more stars and the Orion Nebula Cluster, 67 in T1, T2, T24 and the sky star tables (Eddie, 21 Oct 2026; viewing only)
+- Engine: BEHENIAN_STARS + Ankaa, Al Rescha ('Alrescha'), Mirfak, El Nath ('Elnath'), Meissa, Alnilam, Murzim ('Mirzam'), Alhena, Acubens,
+  Alphard, Alkes, Zosma, Vindemiatrix, Diadem, Ras Algethi ('Rasalgethi'), Aculeus (M6), Acumen (M7), Facies (M22), Rukbat, Sualocin (each one
+  sefstars.txt line) and the Orion Nebula Cluster ('Orion Nebula', M42; 'Messier 42' a duplicate line, 'Trapezium' = θ¹ Ori not used)
+  (rebuild_kit copy = ~/astronomy-project copy). J2000 at J2000.0 vs catalogue all within 0.02° (largest Rukbat dRA −0.0078, Acumen −0.0073;
+  Orion Nebula Cluster 83.827615 / −5.391674, +0.0056 / −0.0007); Mirfak Dec +49.864180 (<= 50). Script chk_stars67/engine_check.py.
+  Built as one change (the Orion Nebula Cluster came before the 20 were committed).
+- T1_T2_T24_STARS = 67 (|Dec| <= 50, no Polaris), engine RA order = Eddie's list exactly; closest pairs Meissa 83.7901 / Orion Nebula
+  Cluster 83.8276 / Alnilam 84.0589, Facies 279.0934 / Vega 279.2274, Bellatrix 81.2882 / El Nath 81.5792. NEW_STARS = 13 + 11 + 21. The 21 go
+  exactly where the 46 are used (T1 / T2 + SKY cells, T24 SKY / HORSE / JOCKEY + midpoints + red fill, T24 H / J, T24 RATIOS, SKY block,
+  SKY STARS (orientation unchanged rule: old STARS order without Polaris, then the new stars in RA order), sky TIMELINE / LONG TIMELINE);
+  POSITIONS block lists all 45. No code change beyond the lists.
+- Compared with the build before (commit ad0defaf; chk_stars67/compare_67.py): every row not naming one of the 21 identical, row for row
+  (values, fills, comments) in both races, default and --full; only count titles differ; pairs identical; Lingfield 14:35 2021 (old batch)
+  unchanged apart from the SKY STARS title ('46' -> '67'). Rebuilt Ascot 14:30 2012 batch = the 46-star batch + 21 '_B' rows (TRANS, P01,
+  P02; NATAL_HOURLY + 1,050). New-star rows: POSITIONS 63; SKY JUPITER SKY 21, SKY STARS 347, T24 21, TIMELINE 40, LONG TIMELINE 59; P01 T1 21,
+  T2 21, T24 42, T24 H / J 21, T24 HORSE / JOCKEY RATIOS 21 each.
+- Rebuilt Ascot before -> after: SKY STARS (A / φ and √2 / B / no ratio or midpoint hit) 140/24/123/25 -> 289/58/266/46 (2,211 pairs, 5,930 pair-planes, 52 together, 659 listed; 312 old rows identical);
+  TIMELINE 50 (12/4/34) -> 90 (29/7/54); LONG TIMELINE 67 (33/34; 39 real-searched; 7 not within 1 year) -> 126 (61/65; 72; 13);
+  T24 H / J (A / φ√2 / B) 22/0/3 -> 32/0/5, HORSE RATIOS 91/24/119 -> 135/35/169, JOCKEY RATIOS 100/21/100 -> 153/25/147; assisted 29 -> 43
+  (H / J 30, HORSE 2, JOCKEY 11; no automatic); red cells SKY 20 -> 26, HORSE 16 -> 25, JOCKEY 13 -> 22, H / J 2 -> 2; T24 midpoint hits on
+  the new-star rows SKY 62, HORSE 51, JOCKEY 54.
+- Orion Nebula Cluster in SKY STARS: with Meissa, Alnilam, Phact every RA pair is together (d 0.037663 / 0.231326 / 1.089043), left out; listed
+  only S Orion Nebula Cluster – S Alnilam Dec 6/5 1.200205 (78.49) and S Orion Nebula Cluster – S Phact Equator unison 1.001436 (86.16) and midpoint hit (total 91.95; area A);
+  S Meissa – S Orion Nebula Cluster Dec 2.565654 and Equator 1.464108 on no interval. T24 HORSE H Orion Nebula Cluster – H Mars RA 0.333693 red.
+- Sizes (tables default / --full; pairs): rebuilt Ascot 0.69 / 0.76 -> 0.91 / 0.97 MB, pairs 0.51 unchanged; Lingfield 2.15 / 2.37 MB unchanged.
+- Tests 210/210 (test 36 new): engine catalogue, sefstars names, Mirfak; the 67 = engine order = Eddie's list; the 67 / 21 in order in every
+  table above; vs ad0defaf (compare_67.py) as above; TIMELINE / LONG TIMELINE counts; by hand from POSITIONS: T1 H Acumen Dec 12.001827 12
+  (82.57), H El Nath RA 158.570201 98×φ (83.05); T2 J Murzim RA 179.445573 10×φ^6 (99.36), SKY cell S El Nath Dec 8.884166 ninth 8.88889
+  (66.00); T24 JOCKEY J Facies – J Neptune Dec 1.616795 φ (92.49); T24 JOCKEY RATIOS J Mirfak RA / Uranus 1.199952 6/5 B (94.78); SKY block
+  S Meissa RA 24.136328 silver 24.14 (90.61) separating 13:53, S Al Rescha RA 29.133646 18×φ (51.96) separating 13:33; SKY STARS S Pleiades –
+  S Diadem Dec 2 (98.64), S Facies – S Deneb Dec 1+1/√2 (96.78); Orion Nebula Cluster: T1 H RA 160.819052 outside (nearest 100×φ^1 −0.98435),
+  its SKY cell S RA 24.173991 silver (54.19) applying 17:49, T24 HORSE H – H Venus Dec 16.000211 16 (97.90) and H – H Mars RA 0.333693 red,
+  SKY STARS – S Phact Equator unison (86.16), its Meissa / Alnilam / Phact pairs as above. Changed for this: star counts in tests 28, 30 – 33
+  (46 -> 67), T32 assisted Ascot 29 -> 43; tests 34 / 35 run on a 46-star copy of the rebuilt batch, test 35 now compares 93e73bc4 with
+  builds by ad0defaf's code; test 31's "the 13" check skips the 21; test 33's engine re-search keeps the ratio orientation fixed at the off
+  (as the table; with larger / smaller a unison could never cross: two new events, e.g. S Arcturus – S Aculeus RA, failed only in the test).
+  Independent checker (21 Oct), own code from POSITIONS + engine (chk_stars67/check67_*.py), rebuilt Ascot: engine and batch; order of the 67
+  everywhere (default and --full); every cell of T1 / T2 (67 rows), T24 SKY 3,350 / HORSE 3,216 / JOCKEY 3,216 (+ midpoints, outlines, red),
+  T24 H / J and RATIOS 6,566 (40 scores by hand), SKY block 3,312 cells (+ 7,280 comparisons with the T1 / T2 SKY cells), SKY STARS
+  completeness and 14,498 cells; TIMELINE / LONG star events rebuilt (65 / 101; 40 / 59 new-star), 46 real times within 1 min, 13 not
+  within 1 year by an hourly scan; before vs after, pairs, Lingfield, default = --full: 0 mismatches. Note (rule as written, 20 Oct): a cell
+  inside the conjunction tolerance is red even when its best family is another target - 4 cells on the rebuilt Ascot, e.g. T24 HORSE
+  H Ras Algethi – H Juno RA 1.002087 (best whole 1, 80.21), T24 JOCKEY J Alkes – J Juno RA 1.395620 (best √2, 6.57).
+
 ## jupiter_tables: T24 conjunction red (Eddie, 20 Oct 2026; display only)
 - T24 SKY / HORSE / JOCKEY (every star row, every body column) and the two distance columns of T24 H / J: a distance inside the
   conjunction tolerance (RA < 1.5, Dec < 0.3) is filled red (FF8080, RED in jupiter_tables.py) instead of its score fill. Values, comments
@@ -831,6 +876,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 - **35 stars in T1, T2, T24 (13 new in the engine, no Polaris there) + trimmed default workbook, --full for the rest (19 Oct 2026, Eddie):**
   see its section; same day revised: the 35 in RA order, and the SKY block star rows on the 35. 
 - **T24 ratio tables T24 H / J, T24 HORSE RATIOS, T24 JOCKEY RATIOS (19 Oct 2026, Eddie):** see its section.
+- **20 more stars (Ankaa ... Sualocin; Aculeus, Acumen, Facies clusters) and the Orion Nebula Cluster: 67 in T1, T2, T24, T24 ratio tables, SKY
+  block, SKY STARS, sky timelines (21 Oct 2026, Eddie):** see its section. Tests 210/210.
 - **T24 conjunction cells red (FF8080) in T24 SKY / HORSE / JOCKEY and the T24 H / J distance columns, display only (20 Oct 2026, Eddie):**
   see its section. Tests 189/189.
 - **11 more stars (Alpheratz ... Rasalhague; Menkar = alpha Ceti): 46 in T1, T2, T24, T24 ratio tables, SKY block, SKY STARS, sky

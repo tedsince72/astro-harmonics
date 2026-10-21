@@ -139,6 +139,14 @@ BEHENIAN_STARS = [
     ("Alpheratz", "Alpheratz"), ("Algenib", "Algenib"), ("Difda", "Difda"), ("Mirach", "Mirach"), ("Menkar", ",alCet"),
     ("Phact", "Phact"), ("Adhara", "Adhara"), ("Wezen", "Wezen"), ("Menkent", "Menkent"), ("Unukalhai", "Unukalhai"),
     ("Rasalhague", "Rasalhague"),
+    # Eddie, 21 Oct 2026: 20 more stars, same tables as the 11 (sefstars.txt names; Aculeus = M6, Acumen = M7, Facies = M22: clusters).
+    ("Ankaa", "Ankaa"), ("Al Rescha", "Alrescha"), ("Mirfak", "Mirfak"), ("El Nath", "Elnath"), ("Meissa", "Meissa"),
+    ("Alnilam", "Alnilam"), ("Murzim", "Mirzam"), ("Alhena", "Alhena"), ("Acubens", "Acubens"), ("Alphard", "Alphard"),
+    ("Alkes", "Alkes"), ("Zosma", "Zosma"), ("Vindemiatrix", "Vindemiatrix"), ("Diadem", "Diadem"), ("Ras Algethi", "Rasalgethi"),
+    ("Aculeus", "Aculeus"), ("Acumen", "Acumen"), ("Facies", "Facies"), ("Rukbat", "Rukbat"), ("Sualocin", "Sualocin"),
+    # Eddie, 21 Oct 2026: the Orion Nebula Cluster, 67th (sefstars.txt 'Orion Nebula,M42'; 'Messier 42' is a duplicate line, 'Trapezium' =
+    # theta-1 Ori, not used)
+    ("Orion Nebula Cluster", "Orion Nebula"),
 ]
 TIMED_POINTS = ["Part_of_Fortune", "Part_of_Spirit", "Ascendant", "Midheaven", "Vertex"]
 
