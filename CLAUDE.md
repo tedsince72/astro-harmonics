@@ -109,7 +109,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct; 46 since 20 Oct, 67 since 21 Oct; conjunction cells red, 20 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (210/210; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (223/223; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -775,6 +775,55 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   T24 H / J and RATIOS 4,508, SKY block 2,556, SKY STARS 6,864 (completeness, blocks, order; 173 old rows identical); TIMELINE / LONG star
   events rebuilt, 24 real times within 1 min, 7 not within 1 year by an hourly scan; the 11 nowhere else; Lingfield unchanged: 0 mismatches.
 
+## jupiter_tables: all 67 stars in every timeline, STAR TIMELINE, LONG >= 90 (Eddie, 22 Oct 2026; viewing only)
+- Runner TIMELINE H / J and LONG TIMELINE H / J take star events for the 67 stars (T1_T2_T24_STARS), off-sheet, after every table source
+  (runner_timeline(..., stars=...); an event a table source already has keeps its name, the star source goes in "also"), in this order:
+  "S Jup→star" (S Jupiter → natal star, RA / Dec, best hit or nearest target, as T5 / T6), "star→Jup" (sky star → natal Jupiter, as T7 / T8),
+  "S Jup on star pair" (S Jupiter on two natal stars of one chart, RA / Dec / Equator, rows passing the T19 filter: ratio, midpoint, legs
+  with a family hit) and "star apex" (T22 for every star). Same rules, dedupe, timing (linear; LONG real engine time beyond 60 min), "H + J"
+  and sky-equivalent cells. The runner timelines run on a timeline context ctx.t / Rt holding STARS (Polaris incl.) and the 67, so every
+  earlier event keeps its cells. T22 on the sheet stays on its 23 stars; T19 has no star–star rows (so no "royal – royal" T19 events).
+- STAR TIMELINE (SKY JUPITER, after LONG TIMELINE) and STAR TIMELINE H / J (runner sheets, after LONG TIMELINE J): the TIMELINE /
+  TIMELINE H / J rows between Jupiter and stars only (star_event: every point a Jupiter or a star, at least one star), same cells, window,
+  markers (and sky-equivalent cells on runners). Sky: SKY block star rows, SKY STARS, SKY ROYAL royal – royal (and any pair-block leg
+  S Jupiter → star); runners: the four star sources, T22, T19 legs S Jupiter → royal star.
+- LONG_MIN 80 -> 90 (Eddie, 22 Oct 2026): every LONG TIMELINE (sky and H / J) keeps events scoring >= 90 at the off. A side effect of the
+  dedupe (rule unchanged): where a ratio event under 90 and a midpoint event >= 90 share a key, the midpoint now shows (rebuilt Ascot sky:
+  S Jupiter: S Orion Nebula Cluster – S Phact Equator midpoint 91.95, real 20:02; before, the unison ratio 86.16 held the key; Lingfield
+  P07 LONG H T19 S Jupiter: H Eris – H Antares Dec midpoint 91.21, +255.9 min, ratio 82.73 before).
+- Events (TIMELINE: total (before / first 5 min / after)), before -> after:
+  Rebuilt Ascot 14:30 2012: sky TIMELINE 90 (29/7/54) unchanged, STAR TIMELINE 65 (23/6/36); P01 TIMELINE H 13 (4/1/8) -> 68 (21/6/41),
+  J 11 (1/0/10) -> 63 (16/4/43); STAR TIMELINE H 57 (18/5/34), J 52 (15/4/33). New runner events by source: H S Jup on star pair 50,
+  S Jup→star 3, star apex 2; J S Jup on star pair 49, S Jup→star 3.
+  Lingfield 14:35 2021 (21 stars): sky TIMELINE 48 unchanged, STAR TIMELINE 3; TIMELINE H / J P01 18 -> 20 / 11 -> 16, P03 13 -> 16 / 13 -> 18,
+  P05 14 -> 16 / 12 -> 17, P07 13 -> 17 / 11 -> 15, P09 27 -> 30 / 14 -> 19, P11 18 -> 20 / 15 -> 19; STAR TIMELINE H / J P01 2 / 5,
+  P03 4 / 6, P05 3 / 5, P07 5 / 4, P09 3 / 5, P11 2 / 5.
+- LONG (events; real-searched = linear beyond 60 min; not within 1 year): before (>= 80, no star sources) | after at >= 80 (scratch build) |
+  after at >= 90 (the sheet):
+  Rebuilt Ascot sky 126 (72; 13) | 126 (72; 13) | 69 (32; 8); P01 H 17 (8; 1) | 96 (40; 2) | 50 (15; 2); J 23 (17; 0) | 102 (58; 0) | 49 (22; 0).
+  Lingfield sky 25 (13; 1) | 25 | 13 (6; 1); P01 H 24 | 28 | 13, J 18 | 21 | 11; P03 H 14 | 17 | 10, J 22 | 28 | 12; P05 H 19 | 23 | 13,
+  J 20 | 24 | 10; P07 H 19 | 22 | 13, J 19 | 24 | 10; P09 H 23 | 28 | 12, J 26 | 31 | 9; P11 H 19 | 23 | 14, J 19 | 22 | 12.
+- Sizes (tables default / --full; pairs unchanged): rebuilt Ascot 0.91 / 0.97 -> 0.95 / 1.01 MB; Lingfield 2.15 / 2.37 MB (+0.001).
+- Compared with the build before (commit 18aff98a; chk_startl/compare_tl.py), both races default and --full: every row outside the
+  timelines identical; every earlier TIMELINE / TIMELINE H / J event kept with the same cells, every earlier LONG event scoring >= 90 kept;
+  only "also" gained a star source (e.g. Lingfield P01 LONG H T22 S Antares → H Jupiter Dec: 'also star→Jup, star apex').
+- Tests 223/223 (test 37 new): compare_tl vs 18aff98a; every star event of TIMELINE H / J and LONG TIMELINE H / J recomputed from POSITIONS
+  (own code, families.py targets): none missing or extra, value, score, minutes, source / also, both races every runner; Ascot LONG star
+  events: real times cross within ±1 min (engine), "not within 1 year" by a daily scan; STAR TIMELINE (sky, H / J) = the matching TIMELINE
+  rows (own Jupiter–star test); every LONG row >= 90; by hand from POSITIONS (Ascot P01): S Jup→star J Meissa RA 24.144132 silver 24.14
+  (96.72) +12.5 min, J Al Rescha RA 29.125827 18×φ (92.63) −7.6; star→Jup S Murzim → J Jupiter RA 179.438581 10×φ^6 (99.08) real −68.62
+  days, S Pollux → H Jupiter RA 166.685207 ninth (98.41) not within 1 year; S Jup on star pair J Mirach – J Menkar RA 3.000009 (99.91)
+  +0.4, H Pleiades – H Nunki Equator 1.499964 3/2 (99.64) +10.3; star apex Nunki / H Jupiter Equator 1.87522 15/8 (84.94) +24.9,
+  Sadalsuud / J Jupiter Dec 1.414289 √2 (92.99) −43.7. Changed for this: the LONG P05 S Betelgeuse case (86.51) now checks it is gone
+  (< 90); test 30's leak check allows STAR TIMELINE and the runner timelines; test 33 handles a midpoint-kind sky event.
+  Independent checker (22 Oct), own code from POSITIONS + engine (chk_startl/check_tl_*.py): rebuilt Ascot P01 every star-source event of
+  TIMELINE H / J and LONG H / J (68 / 50 / 63 / 49 rows; 55 / 42 / 52 / 43 from star sources; pair rows kept by the T19 filter H 657, J 678;
+  every midpoint hit merged into a unison ratio event) and Lingfield all 6 runners: none missing or extra, every cell; 30 LONG real times
+  within 1 min (largest 0.3), 1 not within 1 year (hourly scan); STAR TIMELINE blocks = the matching TIMELINE rows, both races, default and
+  --full; before vs after as above; every sky-equivalent cell of the 192 Ascot and 67 Lingfield star events: 0 mismatches. Cosmetic note:
+  on the Lingfield P07 Eris – Antares midpoint row the sky-equivalent relationship reads 'S Jupiter: S Eris = S Antares' (midpoint notation)
+  while its sky cells show the unison ratio 1.078941, outside (sky_equiv shows the ratio when the sky midpoint is not a hit; as before).
+
 ## jupiter_tables: 20 more stars and the Orion Nebula Cluster, 67 in T1, T2, T24 and the sky star tables (Eddie, 21 Oct 2026; viewing only)
 - Engine: BEHENIAN_STARS + Ankaa, Al Rescha ('Alrescha'), Mirfak, El Nath ('Elnath'), Meissa, Alnilam, Murzim ('Mirzam'), Alhena, Acubens,
   Alphard, Alkes, Zosma, Vindemiatrix, Diadem, Ras Algethi ('Rasalgethi'), Aculeus (M6), Acumen (M7), Facies (M22), Rukbat, Sualocin (each one
@@ -828,6 +877,8 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
 - Red cells (SKY; per runner HORSE / JOCKEY / H / J): rebuilt Ascot 14:30 2012 SKY 20; P01 16 / 13 / 2. Lingfield 14:35 2021 SKY 7;
   P01 13 / 3 / 1, P03 9 / 11 / 2, P05 7 / 1 / 0, P07 9 / 2 / 0, P09 10 / 5 / 1, P11 7 / 3 / 1. Sizes unchanged (Ascot 0.69 / 0.76 MB,
   Lingfield 2.15 / 2.37 MB; pairs identical).
+- Kept (Eddie, 21 Oct 2026): red on every cell inside the conjunction range (RA < 1.5, Dec < 0.3), even when its best family is another
+  target (e.g. T24 HORSE H Ras Algethi – H Juno RA 1.002087, best whole 1 (80.21)); no code change.
 - Tests 189/189. Test 35: both races --full vs the build before (commit 93e73bc4; tools/scans/families_audit/chk_t24red/compare_red.py):
   red exactly when RA < 1.5 / Dec < 0.3, every other fill as before, values / comments / borders and every other cell identical, only the
   T24 title notes changed (Ascot 3, Lingfield 13), pairs identical, the red counts above (and the 35-star copy); by hand T24 H / J H Nunki
@@ -876,6 +927,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 - **35 stars in T1, T2, T24 (13 new in the engine, no Polaris there) + trimmed default workbook, --full for the rest (19 Oct 2026, Eddie):**
   see its section; same day revised: the 35 in RA order, and the SKY block star rows on the 35. 
 - **T24 ratio tables T24 H / J, T24 HORSE RATIOS, T24 JOCKEY RATIOS (19 Oct 2026, Eddie):** see its section.
+- **All 67 stars in every timeline (runner star events off-sheet), STAR TIMELINE (sky) and STAR TIMELINE H / J, LONG TIMELINE >= 90 (22 Oct
+  2026, Eddie):** see its section. Tests 223/223.
 - **20 more stars (Ankaa ... Sualocin; Aculeus, Acumen, Facies clusters) and the Orion Nebula Cluster: 67 in T1, T2, T24, T24 ratio tables, SKY
   block, SKY STARS, sky timelines (21 Oct 2026, Eddie):** see its section. Tests 210/210.
 - **T24 conjunction cells red (FF8080) in T24 SKY / HORSE / JOCKEY and the T24 H / J distance columns, display only (20 Oct 2026, Eddie):**

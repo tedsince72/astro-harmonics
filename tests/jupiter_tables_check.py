@@ -1163,14 +1163,13 @@ SITE = MO.off_and_site('lingfield_aw_1435_20210402', 'TRANS', 'reference/classic
 b0 = EN.bodies_at(JD0['L'], *SITE, False)
 scan = [abs(199.7323286437921 - (88.79186212954453 + EN.bodies_at(JD0['L'] + dd, *SITE, False)['Betelgeuse_B']['ra'] - b0['Betelgeuse_B']['ra']))
         for dd in range(-366, 367)]
+# 22 Oct 2026 (Eddie, LONG >= 90): this event (86.51) is no longer listed; the ephemeris scan below still holds (it was "not within 1 year")
 check('LONG TIMELINE H P05 S Betelgeuse → H Jupiter RA (by hand from POSITIONS: H Jupiter 199.732329, S Betelgeuse 88.791862): 110.940467 at the '
-      'off (86.51 on 10×φ^5 110.901699); linear estimate 24 Oct 2021 00:52 (+204.43 days), but the ephemeris (Betelgeuse daily, ±1 year) keeps the '
-      'distance between 110.933 and 110.945: real time "not within 1 year", applying from the motion at the off; sky equivalent unchanged '
-      '(S Betelgeuse → S Jupiter 122.994551, φ^10 99.13, 14:55)',
-      len(bg) == 1 and bg[0][1] == 'not within 1 year' and bg[0][2] == 'not within 1 year' and bg[0][9] == 110.940467 and bg[0][10] == 86.51
-      and bg[0][11] == 'applying' and bg[0][19] is None and bg[0][20] == '24 Oct 2021 00:52 (+204.43 days)' and min(scan) > 110.9017 + 0.03
-      and bg[0][13] == 'S Betelgeuse → S Jupiter' and bg[0][14] == 122.994551 and bg[0][16] == 99.13,
-      f'{bg[0][:21] if bg else bg}; scan {min(scan):.6f}..{max(scan):.6f}')
+      'off, 86.51 on 10×φ^5 110.901699 - under 90, so not in LONG TIMELINE H since 22 Oct 2026 (was "not within 1 year": the ephemeris, '
+      'Betelgeuse daily ±1 year, keeps the distance between 110.933 and 110.945)',
+      len(bg) == 0 and min(scan) > 110.9017 + 0.03 and abs(abs(199.7323286437921 - 88.79186212954453) - 110.940467) < 1e-6
+      and abs((10 * (0.005 * 10 * ((1 + 5 ** 0.5) / 2) ** 5 - abs(110.940467 - 10 * ((1 + 5 ** 0.5) / 2) ** 5)) / (0.005 * 10 * ((1 + 5 ** 0.5) / 2) ** 5)) ** 2 - 86.51) < 0.01,
+      f'{bg[:1]}; scan {min(scan):.6f}..{max(scan):.6f}')
 pr = [r for r in wbl['SKY JUPITER'].iter_rows(values_only=True) if r and r[0] == 'LONG TIMELINE' and r[4] == 'S Jupiter: S Pallas – S Rahu' and r[5] == 'Dec']
 skyp = {r[3]: r for r in wbl['POSITIONS'].iter_rows(values_only=True) if r and r[0] == 'SKY'}
 
@@ -1601,6 +1600,17 @@ for inp, out in (('reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx'
                  (b46, gf46_r), (b35, gf35_r)):
     subprocess.run([sys.executable, bf, inp, '--full', '--out', out], capture_output=True, text=True)
 os.remove(bf)
+# 22 Oct 2026 (Eddie, every star in every timeline, LONG >= 90): builds by the code of commit 18aff98a (67 stars, before that change) - tests 34
+# and 36 count and compare on these, test 37 compares them with now
+bf = 'tools/_jt_before_18aff98a.py'
+open(bf, 'w').write(subprocess.run(['git', 'show', '18aff98a:tools/jupiter_tables.py'], capture_output=True, text=True).stdout)
+os.makedirs(f'{tmp}/h18', exist_ok=True)
+lf_s, gf_s, gf46_s = (f'{tmp}/h18/{n}_jupiter_tables.xlsx' for n in ('lingfield', 'ascot', 'ascot46'))
+for inp, out in (('reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_s), (f'{tmp}/race_batch_20120619_ascot_1430.xlsx', gf_s),
+                 (b46, gf46_s)):
+    subprocess.run([sys.executable, bf, inp, '--full', '--out', out], capture_output=True, text=True)
+os.remove(bf)
+gw46_s, gw_s = openpyxl.load_workbook(gf46_s), openpyxl.load_workbook(gf_s)
 leak = []
 for w in (gfw, openpyxl.load_workbook(f'{tmp}/full_pairs.xlsx', read_only=True)):
     for sh in w.sheetnames:
@@ -1608,7 +1618,8 @@ for w in (gfw, openpyxl.load_workbook(f'{tmp}/full_pairs.xlsx', read_only=True))
             continue
         for x in w[sh].iter_rows(values_only=True):
             if x and (x[0] in ('T1', 'T2', 'T24', 'T24 H / J', 'T24 HORSE RATIOS', 'T24 JOCKEY RATIOS')   # T24 ratio tables (test 32)
-                      or sh == 'SKY JUPITER' and x[0] in ('SKY', 'SKY STARS', 'TIMELINE', 'LONG TIMELINE')):   # SKY block (test 31); SKY STARS, sky timelines (test 33)
+                      or sh == 'SKY JUPITER' and x[0] in ('SKY', 'SKY STARS', 'TIMELINE', 'LONG TIMELINE', 'STAR TIMELINE')   # SKY block (test 31); SKY STARS, sky timelines (test 33)
+                      or x[0] in ('TIMELINE H', 'TIMELINE J', 'LONG TIMELINE H', 'LONG TIMELINE J', 'STAR TIMELINE H', 'STAR TIMELINE J')):  # 22 Oct 2026 (test 37)
                 continue
             hit = [v for v in x if isinstance(v, str) and NEWRE.search(v)]
             if hit:
@@ -2011,7 +2022,7 @@ tlr = [x for x in gw['SKY JUPITER'].iter_rows(values_only=True) if x and x[0] in
 bad, nreal, nnf = [], 0, 0
 for e in tlr:
     rel, pl, kind, tv = e[4], e[5], e[6], e[8]
-    if kind == 'ratio':
+    if kind in ('ratio', 'midpoint'):                      # 22 Oct 2026: a midpoint event (unison) of a SKY STARS row, e.g. ONC – Phact (LONG >= 90)
         a, b = rel.split(': ')[1].split(' – ')
         src = ss[(f'{a} – {b}', pl)][1][14]                 # ratio timing cell
         # orientation fixed at the off, as the table (21 Oct 2026: larger / smaller can never cross a unison)
@@ -2144,9 +2155,9 @@ check('T34 against the build before (commit 7d88f329), both races --full: every 
 tlt = lambda w: [str(x[0]) for x in w['SKY JUPITER'].iter_rows(values_only=True) if x and str(x[0] or '').startswith(('TIMELINE (', 'LONG TIMELINE ('))]
 tln = lambda w, t: sum(1 for x in w['SKY JUPITER'].iter_rows(values_only=True) if x and x[0] == t and x[4] and re.search(r'\b(' + '|'.join(NEW11) + r')\b', str(x[4])))
 check('T34 rebuilt Ascot: TIMELINE 38 -> 50 events (12 new-star; 12 before the off, 4 in the first 5 min, 34 after), LONG TIMELINE 47 -> 67 '
-      '(20 new-star; 33 separating, 34 applying)', tln(gw46, 'TIMELINE') == 12 and tln(gw46, 'LONG TIMELINE') == 20
-      and tlt(gw46)[0].endswith('50 events, 12 before the off, 4 in the first 5 min, 34 after') and tlt(gw46)[1].endswith('67 events, 33 separating, 34 applying'),
-      f"{tln(gw46, 'TIMELINE')} / {tln(gw46, 'LONG TIMELINE')}; {tlt(gw46)[0][-70:]}; {tlt(gw46)[1][-40:]}")
+      '(20 new-star; 33 separating, 34 applying; built by the code of 18aff98a, LONG >= 80)', tln(gw46_s, 'TIMELINE') == 12 and tln(gw46_s, 'LONG TIMELINE') == 20
+      and tlt(gw46_s)[0].endswith('50 events, 12 before the off, 4 in the first 5 min, 34 after') and tlt(gw46_s)[1].endswith('67 events, 33 separating, 34 applying'),
+      f"{tln(gw46_s, 'TIMELINE')} / {tln(gw46_s, 'LONG TIMELINE')}; {tlt(gw46_s)[0][-70:]}; {tlt(gw46_s)[1][-40:]}")
 # by hand from POSITIONS (rebuilt Ascot): two cells each of T1, T2, T24 (one ratio table cell), the SKY block and SKY STARS; Menkar in each table
 NT = {122.222: 0.722222, 13.3333: 0.083333}                 # the _NINTH_RANGES tolerances of these two bands
 cases = [  # (table, chart, star, plane, column, value, target text, offset, score by hand, fill)
@@ -2292,7 +2303,7 @@ check('T36 the 67 (Ascot) / 21 (Lingfield) in RA order in T1, T2, T24 SKY / HORS
 # workbook, row for row (values, fills, comments; every row of the 46 earlier stars, SKY STARS pairs and timeline events), only count titles
 # differ; the 21 only in the allowed tables; pairs identical
 out36 = {}
-for nm, bo, after in (('Lingfield', lf_r, lf), ('Ascot', gf_r, gf)):
+for nm, bo, after in (('Lingfield', lf_r, lf_s), ('Ascot', gf_r, gf_s)):   # 22 Oct 2026: the after = built by the code of 18aff98a
     o = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_stars67/compare_67.py', bo, after], capture_output=True, text=True).stdout
     pw = [openpyxl.load_workbook(p, read_only=True) for p in (bo.replace('_jupiter_tables', '_pairs'), after.replace('_jupiter_tables', '_pairs'))]
     psame = pw[0].sheetnames == pw[1].sheetnames and all(vals(pw[0][s]) == vals(pw[1][s]) for s in pw[0].sheetnames)
@@ -2315,9 +2326,9 @@ check('T36 against the build before (commit ad0defaf), both races --full: every 
 RX21 = re.compile(r'\b(' + '|'.join(NEW21) + r')\b')
 tln21 = lambda w, t: sum(1 for x in w['SKY JUPITER'].iter_rows(values_only=True) if x and x[0] == t and x[4] and RX21.search(str(x[4])))
 check('T36 rebuilt Ascot: TIMELINE 50 -> 90 events (40 new-star; 29 before the off, 7 in the first 5 min, 54 after), LONG TIMELINE 67 -> 126 '
-      '(59 new-star; 61 separating, 65 applying)', tln21(gw, 'TIMELINE') == 40 and tln21(gw, 'LONG TIMELINE') == 59
-      and tlt(gw)[0].endswith('90 events, 29 before the off, 7 in the first 5 min, 54 after') and tlt(gw)[1].endswith('126 events, 61 separating, 65 applying'),
-      f"{tln21(gw, 'TIMELINE')} / {tln21(gw, 'LONG TIMELINE')}; {tlt(gw)[0][-70:]}; {tlt(gw)[1][-40:]}")
+      '(59 new-star; 61 separating, 65 applying; built by the code of 18aff98a, LONG >= 80)', tln21(gw_s, 'TIMELINE') == 40 and tln21(gw_s, 'LONG TIMELINE') == 59
+      and tlt(gw_s)[0].endswith('90 events, 29 before the off, 7 in the first 5 min, 54 after') and tlt(gw_s)[1].endswith('126 events, 61 separating, 65 applying'),
+      f"{tln21(gw_s, 'TIMELINE')} / {tln21(gw_s, 'LONG TIMELINE')}; {tlt(gw_s)[0][-70:]}; {tlt(gw_s)[1][-40:]}")
 # by hand from POSITIONS (rebuilt Ascot): two cells each of T1, T2, T24 (one ratio table cell), the SKY block and SKY STARS; clusters in T1,
 # T24 and SKY STARS
 cases = [  # (table, chart, star, plane, column, value, target text, offset, score by hand, fill)
@@ -2437,6 +2448,334 @@ check('T36 SKY STARS pairs of the Orion Nebula Cluster with Meissa, Alnilam, Pha
       all(allr[(p_, 'RA')]['together'] for p_ in prs) and listed == [(f'S {ONC} – S Alnilam', 'Dec'), (f'S {ONC} – S Phact', 'Equator')]
       and [round(pdist(gp[('SKY', 'S', a)], gp[('SKY', 'S', b)], 'RA'), 6) for a, b in ((ONC, 'Meissa'), (ONC, 'Alnilam'), (ONC, 'Phact'))]
       == [0.037663, 0.231326, 1.089043], f'{sorted(allr)}; listed {listed}')
+# Test 37 (Eddie, 22 Oct 2026): all 67 stars in every timeline - runner TIMELINE H / J and LONG TIMELINE H / J take star events off-sheet
+# (S Jup→star, star→Jup, S Jup on star pair, star apex), STAR TIMELINE (sky) and STAR TIMELINE H / J (the Jupiter–star events), LONG
+# TIMELINE threshold >= 90 (was 80). "Before" = commit 18aff98a.
+print('test 37: all 67 stars in every timeline, STAR TIMELINE, LONG >= 90')
+SSRC = ('S Jup→star', 'star→Jup', 'S Jup on star pair', 'star apex')
+out37 = {}
+for nm, bo, after in (('Lingfield', lf_s, lf), ('Ascot', gf_s, gf)):   # the builds by the code of 18aff98a (above)
+    out37[nm] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_startl/compare_tl.py', bo, after], capture_output=True, text=True).stdout
+W37 = {'Ascot': ['SKY JUPITER  LONG TIMELINE    before  126 (>= 90: 68) after   69', 'SKY JUPITER  STAR TIMELINE    before    0 after   65',
+                 'SKY JUPITER  TIMELINE         before   90 after   90', 'P01          LONG TIMELINE H  before   17 (>= 90: 8) after   50',
+                 'P01          LONG TIMELINE J  before   23 (>= 90: 6) after   49', 'P01          STAR TIMELINE H  before    0 after   57',
+                 'P01          STAR TIMELINE J  before    0 after   52', 'P01          TIMELINE H       before   13 after   68',
+                 'P01          TIMELINE J       before   11 after   63']}
+check('T37 against the build before (commit 18aff98a), both races --full: every earlier TIMELINE / TIMELINE H / J event kept with the same cells '
+      '(only "also" may gain a star source), every LONG event scoring >= 90 kept, every row outside the timelines identical; counts as reported',
+      all(line(o, 'mismatches:') == 'mismatches: 0' for o in out37.values()) and all(any(l.startswith(w_) for l in out37['Ascot'].splitlines()) for w_ in W37['Ascot']),
+      ' | '.join(f"{k}: {line(o, 'mismatches:')}" for k, o in out37.items()))
+# every star event recomputed from POSITIONS (own code; families.py for the targets): TIMELINE H / J (window) and LONG TIMELINE H / J (>= 90)
+PL3 = ('RA', 'Dec', 'Equator')
+
+
+def star_expect(w, P, keep):
+    sky, nat = {}, {}
+    for x in w['POSITIONS'].iter_rows(min_row=5, values_only=True):
+        if x and x[3] and x[0] == 'SKY':
+            sky[x[3]] = (x[5], x[6], 0.0 if x[7] in (None, 'n/a') else x[7], 0.0 if x[8] in (None, 'n/a') else x[8])
+        elif x and x[3] and x[0] == P:
+            nat[(x[2], x[3])] = (x[5], x[6])
+
+    def pos(p, m):
+        c, n = p.split(' ', 1)
+        if c == 'S':
+            q = sky[n]
+            return ((q[0] + m * q[2]) % 360.0, q[1] + m * q[3])
+        return nat[(c, n)]
+
+    def d(a, b, pl, m=0.0):
+        pa, pb = pos(a, m), pos(b, m)
+        if pl == 'RA':
+            x = abs(pa[0] - pb[0]) % 360.0
+            return min(x, 360.0 - x)
+        return abs(pa[1] - pb[1]) if pl == 'Dec' else abs(abs(pa[1]) - abs(pb[1]))
+    straddle = lambda *ps: not ((pos(ps[0], 0)[1] >= 0) == (pos(ps[1], 0)[1] >= 0) == (pos(ps[2], 0)[1] >= 0))
+    lin = lambda v0, v5, tv: None if v5 == v0 else (tv - v0) / ((v5 - v0) / 5.0)
+    fp = lambda pl: pl if pl in ('RA', 'Dec') else None
+
+    def fold(dd):
+        if dd['family'] == 'conj':
+            return ('conj', 0)
+        return (dd['family'], re.sub('[^0-9]', '', f"{dd['tv']:.6g}").strip('0'))
+
+    def midhit(a, b, c, pl, da, db):                       # c the middle point of a and b
+        if 100.0 * min(da, db) / max(da, db) < 90.0:
+            return None
+        if pl == 'RA':
+            pa, pb, pc = pos(a, 0)[0], pos(b, 0)[0], pos(c, 0)[0]
+            mid = (pa + ((pb - pa + 180) % 360 - 180) / 2) % 360
+            near, far = (pc - mid + 180) % 360 - 180, (pc - mid) % 360 - 180
+            off, tol = (near if abs(near) <= abs(far) else far), 0.5
+        else:
+            f = (lambda v: v) if pl == 'Dec' else abs
+            off, tol = f(pos(c, 0)[1]) - (f(pos(a, 0)[1]) + f(pos(b, 0)[1])) / 2, 0.15
+        if abs(off) > tol:
+            return None
+        dev = 100.0 - 100.0 * min(da, db) / max(da, db)
+        return 0.5 * (10 * (10 - dev) / 10) ** 2 + 0.5 * (10 * (tol - abs(off)) / tol) ** 2
+    ev = {}
+
+    def add(key, src, t, **e):
+        if t is None or not keep(t, e['score']):
+            return
+        if key in ev:
+            if src != ev[key]['src'] and src not in ev[key]['also']:
+                ev[key]['also'].append(src)
+            return
+        ev[key] = dict(e, src=src, t=t, also=[])
+
+    def dist(src, a, b, pl, dd, hit):
+        v0, v5 = d(a, b, pl), d(a, b, pl, 5.0)
+        kp = 'Dec' if pl == 'Equator' and not straddle(a, b, b) else pl
+        add(('d', frozenset((a, b)), kp, fold(dd)), src, lin(v0, v5, dd['tv']), rel=f'{a} → {b}', plane=pl, kind='distance', tv=dd['tv'],
+            v0=v0, score=dd['score'] if hit else None, C=next(p[0] for p in (a, b) if p[0] != 'S'))
+
+    def cell(src, a, b, pl):
+        v0 = d(a, b, pl)
+        b_ = families.best(v0, pl, 'deg')
+        dist(src, a, b, pl, b_ or families.outside(v0, pl, 'deg'), bool(b_))
+    stars = [x for x in EXPECT67 if x in sky]
+    for C in 'HJ':
+        for x in EXPECT67:
+            if (C, x) in nat:
+                for pl in ('RA', 'Dec'):
+                    cell('S Jup→star', 'S Jupiter', f'{C} {x}', pl)
+    for C in 'HJ':
+        for x in stars:
+            for pl in ('RA', 'Dec'):
+                cell('star→Jup', f'S {x}', f'{C} Jupiter', pl)
+    sj = 'S Jupiter'
+    for C in 'HJ':
+        pts = [f'{C} {x}' for x in EXPECT67 if (C, x) in nat]
+        for x, y in itertools.combinations(pts, 2):
+            for pl in PL3:
+                if pl == 'Equator' and not straddle(sj, x, y):
+                    continue
+                dx, dy, dxy = d(sj, x, pl), d(sj, y, pl), d(x, y, pl)
+                if not dx or not dy:
+                    continue
+                dx5, dy5 = d(sj, x, pl, 5.0), d(sj, y, pl, 5.0)
+                bx, by = families.best(dx, fp(pl), 'deg'), families.best(dy, fp(pl), 'deg')
+                bxy = families.best(dxy, fp(pl), 'deg') if dxy else None
+                r0, r5 = (dx / dy, dx5 / dy5) if dx >= dy else (dy / dx, dy5 / dx5)
+                e_ = families.best(r0, None, 'ratio')
+                near = e_ or families.outside(r0, None, 'ratio')
+                mh = midhit(x, y, sj, pl, dx, dy)
+                if dxy < (1.5 if pl == 'RA' else 0.3) or not (e_ or mh is not None or (bx and by and bxy)):
+                    continue
+                rel = f'S Jupiter: {x} – {y}'
+                add(('r', sj, frozenset((x, y)), pl, near['target']), 'S Jup on star pair', lin(r0, r5, near['tv']), rel=rel, plane=pl, kind='ratio',
+                    tv=near['tv'], v0=r0, score=e_['score'] if e_ else None, C=C)
+                if mh is not None:
+                    add(('r', sj, frozenset((x, y)), pl, '1'), 'S Jup on star pair', lin(r0, r5, 1.0), rel=rel, plane=pl, kind='midpoint', tv=1.0,
+                        v0=r0, score=mh, C=C)
+                for a, b, bb in ((sj, x, bx), (sj, y, by)):
+                    if bb:
+                        dist('S Jup on star pair', a, b, pl, bb, True)
+    for x in stars:
+        st = f'S {x}'
+        for pl in PL3:
+            for C in 'HJ':
+                cj = f'{C} Jupiter'
+                if pl == 'Equator' and not straddle(st, sj, cj):
+                    continue
+                d1, d2 = d(st, sj, pl), d(st, cj, pl)
+                if not d1 or not d2:
+                    continue
+                d15, d25 = d(st, sj, pl, 5.0), d(st, cj, pl, 5.0)
+                r0, r5 = (d1 / d2, d15 / d25) if d1 >= d2 else (d2 / d1, d25 / d15)
+                e_ = families.best(r0, None, 'ratio')
+                near = e_ or families.outside(r0, None, 'ratio')
+                rel = f'{x}: d(star, S Jupiter) / d(star, {C} Jupiter)'
+                add(('r', st, frozenset((sj, cj)), pl, near['target']), 'star apex', lin(r0, r5, near['tv']), rel=rel, plane=pl, kind='ratio',
+                    tv=near['tv'], v0=r0, score=e_['score'] if e_ else None, C=C)
+                mh = midhit(sj, cj, st, pl, d1, d2)
+                if mh is not None:
+                    add(('r', st, frozenset((sj, cj)), pl, '1'), 'star apex', lin(r0, r5, 1.0), rel=rel, plane=pl, kind='midpoint', tv=1.0, v0=r0,
+                        score=mh, C=C)
+                b2 = families.best(d2, fp(pl), 'deg')
+                if b2:
+                    dist('star apex', st, cj, pl, b2, True)
+    return ev, pos
+
+
+def tl_rows(w, P, tid):
+    return [x for x in w[P].iter_rows(values_only=True) if x and x[0] == tid and x[3] and not str(x[3]).startswith('———')]
+
+
+def also_of(n):
+    return next((p[5:].split(', ') for p in (n or '').split('; ') if p.startswith('also ')), [])
+
+
+def kp_of(row, pos):
+    if row[6] != 'distance' or row[5] != 'Equator':
+        return row[5]
+    a, b = row[4].split(' → ')
+    return 'Dec' if (pos(a, 0)[1] >= 0) == (pos(b, 0)[1] >= 0) else 'Equator'
+
+
+bad, det = [], []
+in_win = lambda t, sc: -30.0 <= t <= 60.0
+long90 = lambda t, sc: sc is not None and sc >= 90.0
+for nm, w in (('Ascot', gw), ('Lingfield', lfw)):
+    for P in runner_tabs(w):
+        for long_ in (False, True):
+            ev, pos = star_expect(w, P, long90 if long_ else in_win)
+            for C in 'HJ':
+                tid = f"{'LONG ' if long_ else ''}TIMELINE {C}"
+                rows = tl_rows(w, P, tid)
+                idx = {}
+                for r in rows:
+                    idx.setdefault((r[4], kp_of(r, pos), r[6], round(r[8], 6)), []).append(r)
+                mine = [e for e in ev.values() if e['C'] == C]
+                n_ok = 0
+                for e in mine:
+                    k = (e['rel'], 'Dec' if e['kind'] == 'distance' and e['plane'] == 'Equator' and not ((pos(e['rel'].split(' → ')[0], 0)[1] >= 0) != (pos(e['rel'].split(' → ')[1], 0)[1] >= 0)) else e['plane'], e['kind'], round(e['tv'], 6))
+                    rr = idx.get(k)
+                    if not rr:
+                        bad.append((nm, P, tid, 'missing', e['src'], e['rel'], e['plane'], e['kind'], round(e['tv'], 6))); continue
+                    r = rr[0]
+                    src_ok = r[3] == e['src'] or (r[3] not in SSRC and e['src'] in also_of(r[12]))
+                    val_ok = r[9] == round(e['v0'], 6) and (r[10] is None if e['score'] is None else r[10] == round(e['score'], 2))
+                    t_ok = long_ or r[2] == round(e['t'], 1)
+                    if not (src_ok and val_ok and t_ok):
+                        bad.append((nm, P, tid, 'cells', e['src'], e['rel'], e['plane'], r[2:13], round(e['t'], 1), round(e['v0'], 6), e['score']))
+                    else:
+                        n_ok += 1
+                mk = {(e['rel'], e['kind'], round(e['tv'], 6)) for e in mine}
+                extra = [r[3:9] for r in rows if r[3] in SSRC and (r[4], r[6], round(r[8], 6)) not in mk]
+                bad += [(nm, P, tid, 'extra', x) for x in extra]
+                det.append(f'{nm} {P} {tid} {n_ok}')
+check('T37 every star event recomputed from POSITIONS (own code: S Jup→star, star→Jup, S Jup on star pair with the T19 filter, star apex; '
+      'dedupe in that order, after the table sources): none missing or extra in TIMELINE H / J (window) and LONG TIMELINE H / J (>= 90), '
+      'value, score, minutes (TIMELINE) and source / "also" as on the sheet, both races every runner', not bad,
+      f"{len(det)} blocks, {sum(int(x.split()[-1]) for x in det)} events; {det[:4]}; {bad[:3]}")
+# LONG star events on the rebuilt Ascot: real time (beyond 60 min) crosses the target within ±1 min (engine, orientation fixed at the off);
+# "not within 1 year": no crossing in a daily ±1 year scan
+gpp = {(k[1], k[2]): v for k, v in gp.items() if k[0] == 'P01'}
+
+
+def at_m(p, m):
+    c, n = p.split(' ', 1)
+    return sky_at(n, m) if c == 'S' else gpp[(c, n)]
+
+
+def f_ev(r, m, flip):
+    rel, pl, kind, tv = r[4], r[5], r[6], r[8]
+    if kind == 'distance':
+        a, b = rel.split(' → ')
+        return pdist(at_m(a, m), at_m(b, m), pl) - tv
+    if ': d(star, ' in rel:
+        x, C = rel.split(':')[0], rel.split('d(star, ')[2][0]
+        u, v = pdist(at_m(f'S {x}', m), at_m('S Jupiter', m), pl), pdist(at_m(f'S {x}', m), at_m(f'{C} Jupiter', m), pl)
+    else:
+        a, b = rel.split(': ')[1].split(' – ')
+        u, v = pdist(at_m('S Jupiter', m), at_m(a, m), pl), pdist(at_m('S Jupiter', m), at_m(b, m), pl)
+    return ((v / u) if flip else (u / v)) - tv
+
+
+bad, nreal, nnf = [], 0, 0
+for C in 'HJ':
+    for r in tl_rows(gw, 'P01', f'LONG TIMELINE {C}'):
+        if r[3] not in SSRC:
+            continue
+        flip = r[6] != 'distance' and f_ev(r, 0, False) + r[8] < 1
+        if r[1] == 'not within 1 year':
+            nnf += 1
+            days = [f_ev(r, dd * 1440, flip) for dd in range(-366, 367)]
+            if not all((x > 0) == (days[0] > 0) for x in days):
+                bad.append(('nf', r[3:9]))
+        elif abs(r[19]) > 60:
+            nreal += 1
+            if not f_ev(r, r[19] - 1, flip) * f_ev(r, r[19] + 1, flip) < 0:
+                bad.append(('real', r[3:9], r[19]))
+check('T37 rebuilt Ascot LONG TIMELINE H / J star events: every real time beyond 60 min crosses the target within ±1 min (engine; ratio '
+      'orientation fixed at the off); every "not within 1 year" has no crossing in a daily ±1 year scan', not bad and nreal > 0,
+      f'{nreal} real times, {nnf} not within 1 year; {bad[:3]}')
+# STAR TIMELINE (sky) and STAR TIMELINE H / J = the TIMELINE rows between Jupiter and stars only (own test: no body name, at least one star)
+BODYW = re.compile(r'\b(' + '|'.join(b for b in JT.SKY_BODIES + JT.NATAL_BODIES + ['equator'] if b != 'Jupiter') + r')\b')
+STW = re.compile(r'\b(' + '|'.join(re.escape(x) for x in sorted(set(JT.STARS) | set(EXPECT67), key=len, reverse=True)) + r')\b')
+isstar = lambda rel: bool(STW.search(rel)) and not BODYW.search(STW.sub('', rel))
+bad, det = [], []
+for nm, w in (('Ascot', gw), ('Lingfield', lfw)):
+    for sh, pairs in [('SKY JUPITER', [('TIMELINE', 'STAR TIMELINE')])] + [(P, [(f'TIMELINE {C}', f'STAR TIMELINE {C}') for C in 'HJ']) for P in runner_tabs(w)]:
+        for src_t, st_t in pairs:
+            allr = [x for x in w[sh].iter_rows(values_only=True) if x and x[0] in (src_t, st_t)]
+            a_ = [x[1:] for x in allr if x[0] == src_t and isstar(str(x[4] or '')) and not str(x[3]).startswith('———')]
+            b_ = [x[1:] for x in allr if x[0] == st_t and not str(x[3]).startswith('———')]
+            mk = [x[3] for x in allr if x[0] == st_t and str(x[3]).startswith('———')]
+            if a_ != b_ or mk != ['——— OFF ———', '——— OFF + 5 MIN ———']:
+                bad.append((nm, sh, st_t, len(a_), len(b_), mk))
+            det.append(f'{nm} {sh} {st_t} {len(b_)}')
+check('T37 STAR TIMELINE (sky) and STAR TIMELINE H / J = exactly the TIMELINE rows whose relationship is between Jupiter and stars only (same '
+      'cells, same order), with the OFF / OFF + 5 MIN markers, both races', not bad, f'{det[:3]} ...; {bad[:3]}')
+# LONG threshold >= 90 (22 Oct 2026): every LONG row scores >= 90 at the off; the >= 80 events of the build before scoring >= 90 all kept
+# (compare_tl above); titles
+lows = [(sh, x[0], x[10]) for w in (gw, lfw) for sh in ['SKY JUPITER'] + runner_tabs(w) for x in w[sh].iter_rows(values_only=True)
+        if x and str(x[0] or '').startswith('LONG TIMELINE') and x[3] and not str(x[3]).startswith('———') and x[1] != 'exact (race-local)'
+        and (x[10] is None or x[10] < 90)]
+check('T37 every LONG TIMELINE / LONG TIMELINE H / J event scores >= 90 at the off (was >= 80), both races; titles say >= 90', not lows
+      and all('scoring >= 90 at the off' in str(x[0]) for x in gw['SKY JUPITER'].iter_rows(values_only=True) if str(x[0] or '').startswith('LONG TIMELINE (')),
+      f'{lows[:3]}')
+# by hand from POSITIONS (rebuilt Ascot P01): two events per star source
+def rowf(tid, rel, pl):
+    return next((x for x in tl_rows(gw, 'P01', tid) if x[4] == rel and x[5] == pl), None)
+
+
+sjp, sjr = gp[('SKY', 'S', 'Jupiter')], rates['Jupiter']
+mv = lambda p, r_, m: ((p[0] + m * r_[0]) % 360, p[1] + m * r_[1])
+eqd = lambda p, q: abs(abs(p[1]) - abs(q[1]))
+dd = lambda p, q, pl: pdist(p, q, pl) if pl != 'Equator' else eqd(p, q)
+cases = [  # (block, relationship, plane, kind, target value, score fn, by-hand fn -> (v0, v5))
+    ('TIMELINE J', 'S Jupiter → J Meissa', 'RA', 24.14213562373095, lambda v: sq(max(0.005 * 24.142136, 0.025), abs(v - 24.14213562373095)),
+     lambda: (dd(sjp, gp[('P01', 'J', 'Meissa')], 'RA'), dd(mv(sjp, sjr, 5), gp[('P01', 'J', 'Meissa')], 'RA'))),
+    ('TIMELINE J', 'S Jupiter → J Al Rescha', 'RA', 18 * PHI, lambda v: sq(0.03236, abs(v - 18 * PHI)),
+     lambda: (dd(sjp, gp[('P01', 'J', 'Al Rescha')], 'RA'), dd(mv(sjp, sjr, 5), gp[('P01', 'J', 'Al Rescha')], 'RA'))),
+]
+for tid, rel, pl, tv, scf, hand in cases:
+    v0, v5 = hand()
+    t_ = (tv - v0) / ((v5 - v0) / 5)
+    r = rowf(tid, rel, pl)
+    check(f'T37 {tid} {rel} {pl} (S Jup→star) by hand from POSITIONS: {v0:.6f} -> {tv:.6f} ({scf(v0):.2f}), {t_:+.1f} min',
+          r is not None and r[3] == 'S Jup→star' and r[9] == round(v0, 6) and r[10] == round(scf(v0), 2) and r[2] == round(t_, 1), f'{r[:13] if r else r}')
+# star→Jup (LONG): S Murzim → J Jupiter RA 10×φ^6 real -68.62 days; S Pollux → H Jupiter RA ninth 166.667 not within 1 year
+for tid, x, C, tv, scf, real in (('LONG TIMELINE J', 'Murzim', 'J', 10 * PHI ** 6, lambda v: sq(0.005 * 10 * PHI ** 6, abs(v - 10 * PHI ** 6)), True),
+                                 ('LONG TIMELINE H', 'Pollux', 'H', 500 / 3, lambda v: 100 * (1.166667 - abs(v - 500 / 3)) / 1.166667, False)):
+    v0 = pdist(gp[('SKY', 'S', x)], gp[('P01', C, 'Jupiter')], 'RA')
+    r = rowf(tid, f'S {x} → {C} Jupiter', 'RA')
+    ok_ = r is not None and r[3] == 'star→Jup' and r[9] == round(v0, 6) and r[10] == round(scf(v0), 2)
+    if real:
+        ok_ = ok_ and f_ev(r, r[19] - 1, False) * f_ev(r, r[19] + 1, False) < 0 and r[2] == '-68.62 days'
+    else:
+        ok_ = ok_ and r[1] == 'not within 1 year'
+    check(f'T37 {tid} S {x} → {C} Jupiter RA (star→Jup) by hand from POSITIONS: {v0:.6f} ({scf(v0):.2f}), ' + ('real -68.62 days (engine crossing)' if real else 'not within 1 year'),
+          ok_, f'{r[:13] if r else r}; {r[19] if r else None}')
+# S Jup on star pair: J Mirach – J Menkar RA (3, area A), H Pleiades – H Nunki Equator (3/2, area A)
+for tid, C, a, b, pl, tv in (('TIMELINE J', 'J', 'Mirach', 'Menkar', 'RA', 3.0), ('TIMELINE H', 'H', 'Pleiades', 'Nunki', 'Equator', 1.5)):
+    X, Y = gp[('P01', C, a)], gp[('P01', C, b)]
+    dx, dy = dd(sjp, X, pl), dd(sjp, Y, pl)
+    dx5, dy5 = dd(mv(sjp, sjr, 5), X, pl), dd(mv(sjp, sjr, 5), Y, pl)
+    r0, r5 = (dx / dy, dx5 / dy5) if dx >= dy else (dy / dx, dy5 / dx5)
+    t_ = (tv - r0) / ((r5 - r0) / 5)
+    r = rowf(tid, f'S Jupiter: {C} {a} – {C} {b}', pl)
+    check(f'T37 {tid} S Jupiter: {C} {a} – {C} {b} {pl} (S Jup on star pair) by hand from POSITIONS: {dx:.6f} / {dy:.6f} = {r0:.6f} on {tv:g} '
+          f'({sq(0.02, abs(r0 - tv)):.2f}), {t_:+.1f} min', r is not None and r[3] == 'S Jup on star pair' and r[9] == round(r0, 6)
+          and r[10] == round(sq(0.02, abs(r0 - tv)), 2) and r[2] == round(t_, 1), f'{r[:13] if r else r}')
+# star apex: H Nunki Equator (15/8, area B 0.15 %), J Sadalsuud Dec (√2, 0.15 %)
+for tid, C, x, pl, tv in (('TIMELINE H', 'H', 'Nunki', 'Equator', 15 / 8), ('LONG TIMELINE J', 'J', 'Sadalsuud', 'Dec', 2 ** 0.5)):
+    st, cj = gp[('SKY', 'S', x)], gp[('P01', C, 'Jupiter')]
+    st5 = mv(st, rates[x], 5)
+    d1, d2 = dd(st, sjp, pl), dd(st, cj, pl)
+    d15, d25 = dd(st5, mv(sjp, sjr, 5), pl), dd(st5, cj, pl)
+    r0, r5 = (d1 / d2, d15 / d25) if d1 >= d2 else (d2 / d1, d25 / d15)
+    t_ = (tv - r0) / ((r5 - r0) / 5)
+    sc_ = sq(0.15, abs((r0 / tv - 1) * 100))
+    r = rowf(tid, f'{x}: d(star, S Jupiter) / d(star, {C} Jupiter)', pl)
+    tcheck = (r[2] == round(t_, 1)) if r and not tid.startswith('LONG') else (r is not None and r[19] == round(t_, 1))
+    check(f'T37 {tid} {x}: d(star, S Jupiter) / d(star, {C} Jupiter) {pl} (star apex) by hand from POSITIONS: {d1:.6f} / {d2:.6f} = {r0:.6f} '
+          f'({sc_:.2f}), {t_:+.1f} min', r is not None and r[3] == 'star apex' and r[9] == round(r0, 6) and r[10] == round(sc_, 2) and tcheck,
+          f'{r[:13] if r else r}')
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

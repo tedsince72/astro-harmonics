@@ -40,7 +40,9 @@ is none), its area, and "same as sky" (same number on the same leg incl. d(X, Y)
 T21R, T22R (runner sheets), SKY ROYAL (SKY JUPITER), FIELD 21R / 22R.
 TIMELINE (16 Oct 2026): at the end of SKY JUPITER, every sky Jupiter event on that sheet exact from the off - 30 to + 60 min, in time order.
 TIMELINE H / J (16 Oct 2026): at the end of each runner sheet, the same for every timed relationship involving that chart (T5-T22).
-LONG TIMELINE (16 Oct 2026): score >= 80 at the off, any exact time, SEPARATING / APPLYING; sky equivalent cells on TIMELINE H / J and LONG H / J.
+LONG TIMELINE (16 Oct 2026): score >= 80 at the off (>= 90 since 22 Oct 2026), any exact time, SEPARATING / APPLYING; sky equivalent cells on TIMELINE H / J and LONG H / J.
+Timelines on every star (22 Oct 2026): runner timelines also take star events for the 67 stars (S Jup→star, star→Jup, S Jup on star pair,
+star apex; off-sheet); STAR TIMELINE (sky) and STAR TIMELINE H / J = the timeline events between Jupiter and stars only.
 T24 (19 Oct 2026): stars against bodies, one row per star, RA / Dec distance per body, coloured by the best family, a cell comment with
 target, family, offset, score; SKY block on SKY JUPITER (Moon included), HORSE and JOCKEY blocks on each runner sheet after T22R.
 Stars (Eddie, 19 Oct 2026): T1, T2, T24 and the SKY block use T1_T2_T24_STARS (67 stars with |Dec| <= 50: STARS without Polaris + 13 new, 11 more 20 Oct 2026, 20 more and the Orion Nebula Cluster 21 Oct 2026,
@@ -724,26 +726,36 @@ def runner_sheet(wb, P, R, ctx):
     row, field['_t24hj'] = write_t24hj(ws, row + 1, RX['H'], RX['J'])        # T24 ratio tables (Eddie, 19 Oct 2026), natal only
     for C, who in (('H', 'HORSE'), ('J', 'JOCKEY')):
         row, field[f'_t24r{C}'] = write_t24r(ws, row + 1, RX[C], C, who)
-    tl = runner_timeline(ctx, R, field)                    # TIMELINE H / J (Eddie, 16 Oct 2026), after the other tables
-    skyf = lambda e: sky_equiv(ctx, R, e)                  # sky equivalent cells (Eddie, 16 Oct 2026)
+    # timelines on every star (Eddie, 22 Oct 2026): the timeline context ctx.t / Rt holds STARS (Polaris incl.) and T1_T2_T24_STARS, so the
+    # table sources keep their events and the star sources reach the 67 stars
+    tc, Rt = ctx.t, {C: {**R[C], **R[C + 'X']} for C in 'HJ'}
+    tl = runner_timeline(tc, Rt, field, stars=T1_T2_T24_STARS)       # TIMELINE H / J (Eddie, 16 Oct 2026), after the other tables
+    skyf = lambda e: sky_equiv(tc, Rt, e)                  # sky equivalent cells (Eddie, 16 Oct 2026)
     for C, who in (('H', 'horse'), ('J', 'jockey')):
-        row = write_timeline(ws, row + 1, ctx, tl[C], f'TIMELINE {C}',
+        row = write_timeline(ws, row + 1, tc, tl[C], f'TIMELINE {C}',
                              f"TIMELINE {C} (Eddie, 16 Oct 2026): every timed relationship involving the {who}'s chart ({C}) whose exact time falls from "
-                             'the off − 30 min to the off + 60 min (T5–T8, T10, T11, T12–T14, T16, T17, T18, T19, T20, T22), linear from the off and the '
+                             'the off − 30 min to the off + 60 min (T5–T8, T10, T11, T12–T14, T16, T17, T18, T19, T20, T22; 22 Oct 2026: and, off-sheet, '
+                             'the 67 stars - S Jup→star, star→Jup, S Jup on star pair, star apex), linear from the off and the '
                              'off + 5 min as everywhere; "outside at the off" = not a hit at the off; sky-only and natal-only (fixed) relationships, '
                              'together rows and automatic unisons left out; values never scaled x10 / /10; each event once (other tables in the note); "H + J" = '
                              'uses both charts, in both timelines. SKY EQUIVALENT (16 Oct 2026): the same relationship in the sky at the off, every natal '
                              'point replaced by the same sky body, same plane: value, best family / interval (area), score, timing; "—" where two points '
                              'become one; "same as sky" = the sky on the same target as the event (both hits)', skyf=skyf)
-    lt = runner_timeline(ctx, R, field, keep=long_keep)    # LONG TIMELINE H / J (Eddie, 16 Oct 2026): score >= 80, any exact time
+    lt = runner_timeline(tc, Rt, field, keep=long_keep, stars=T1_T2_T24_STARS)   # LONG TIMELINE H / J (Eddie, 16 Oct 2026): score >= 90, any time
     for C in 'HJ':
-        realise(ctx, R, lt[C])                             # real exact time beyond 60 min (ephemeris; an H + J event once per block)
+        realise(tc, Rt, lt[C])                             # real exact time beyond 60 min (ephemeris; an H + J event once per block)
     for C, who in (('H', 'horse'), ('J', 'jockey')):
-        row = write_long(ws, row + 1, ctx, lt[C], f'LONG TIMELINE {C}',
-                         f"LONG TIMELINE {C} (Eddie, 16 Oct 2026): every timed relationship involving the {who}'s chart ({C}) scoring >= 80 at the off, "
+        row = write_long(ws, row + 1, tc, lt[C], f'LONG TIMELINE {C}',
+                         f"LONG TIMELINE {C} (Eddie, 16 Oct 2026): every timed relationship involving the {who}'s chart ({C}) scoring >= 90 at the off "
+                         '(22 Oct 2026; was 80), '
                          'any exact time (same sources and rules as TIMELINE {C}; beyond 60 min the real exact time from the Swiss Ephemeris, up to 1 year each '
                          'way, else "not within 1 year"; linear estimate in the last column); SEPARATING, then '
                          'APPLYING, each by score at the off, highest first (ties by exact time); sky equivalent cells as in TIMELINE {C}'.replace('{C}', C), skyf=skyf)
+    for C, who in (('H', 'horse'), ('J', 'jockey')):        # STAR TIMELINE H / J (Eddie, 22 Oct 2026): TIMELINE {C}'s Jupiter-star events
+        row = write_timeline(ws, row + 1, tc, [e for e in tl[C] if star_event(e)], f'STAR TIMELINE {C}',
+                             f"STAR TIMELINE {C} (Eddie, 22 Oct 2026): the events of TIMELINE {C} between Jupiter and stars only (every point a Jupiter or a "
+                             'star: S Jup→star, star→Jup, S Jup on star pair, star apex, T22, and T19 legs S Jupiter → royal star; T19 has no star–star '
+                             'rows), the same rows, window, markers and sky equivalent cells', skyf=skyf)
     field['_tl'] = tl
     field['_lt'] = lt
     for (lab, cn), (d, ev) in field['T16'].items():
@@ -1964,7 +1976,7 @@ TL_WIN = (-30.0, 60.0)
 
 
 TL_FAR = 50 * 525960                                       # beyond 50 years: 'more than 50 years away / ago' (as exact_time)
-LONG_MIN = 80.0                                            # LONG TIMELINE (Eddie, 16 Oct 2026): score at the off >= 80, any exact time
+LONG_MIN = 90.0                                            # LONG TIMELINE (Eddie, 16 Oct 2026): score at the off >= 90 (22 Oct 2026; was 80), any exact time
 in_window = lambda t, score: TL_WIN[0] <= t <= TL_WIN[1]
 long_keep = lambda t, score: score is not None and score >= LONG_MIN
 
@@ -2178,14 +2190,31 @@ def timeline(ctx, R0, eq, sources, keep=in_window):
     return sorted(ev_by.values(), key=lambda e: e['t'])
 
 
-def runner_timeline(ctx, R, field, keep=in_window):
+STAR_SRC = ('S Jup→star', 'star→Jup', 'S Jup on star pair', 'star apex')   # runner star sources (Eddie, 22 Oct 2026)
+ALL_STARS = set(STARS) | set(T1_T2_T24_STARS)
+
+
+def star_event(e):
+    """STAR TIMELINE (Eddie, 22 Oct 2026): an event between Jupiter and stars only - every point of the relationship a Jupiter or a star,
+    at least one star"""
+    if e['geo'][0] not in ('d', 'r'):
+        return False
+    names = [p.split(' ', 1)[1] for p in e['geo'][1:]]
+    return all(n == 'Jupiter' or n in ALL_STARS for n in names) and any(n in ALL_STARS for n in names)
+
+
+def runner_timeline(ctx, R, field, keep=in_window, stars=()):
     """TIMELINE H / J (Eddie, 16 Oct 2026): every timed relationship of a runner sheet that involves the horse's (H) or the jockey's (J)
     chart, exact from the off - 30 to + 60 min, built as the sky TIMELINE: T5-T8 distances (best hit, or the
     nearest target outside at the off), T10 / T11 midpoint hits, T12-T14 ratios (interval or nearest interval;
     automatic unisons left out), T16 crossings (RA - Dec -> 0), T17 / T18 S Jupiter equidistance hits, T19 rows (ratio, midpoint, each leg
     with a sky leg and a family hit), T20 midpoint hits, T22 ratio, midpoint and the d(star, natal Jupiter) leg. Sky-only and natal-only
     (fixed) relationships, together rows and repeats left out; each event once (the first table named, later ones in the note); an event
-    using both charts goes to both, marked 'H + J'. -> {'H': [events], 'J': [events]}"""
+    using both charts goes to both, marked 'H + J'. Star sources (Eddie, 22 Oct 2026), for the stars given (T1_T2_T24_STARS), off-sheet,
+    after every table source (an event they share keeps the table's name, the star source goes in "also"): "S Jup→star" (S Jupiter -> natal
+    star, as T5 / T6), "star→Jup" (sky star -> natal Jupiter, as T7 / T8), "S Jup on star pair" (S Jupiter on two natal stars of one chart,
+    as T19: rows passing the T19 filter, ratio, midpoint, legs with a family hit) and "star apex" (T22 for every star). ctx / R must then hold
+    every star (the timeline context). -> {'H': [events], 'J': [events]}"""
     ev_by = {}
 
     def add(key, t, pts, **e):
@@ -2333,6 +2362,41 @@ def runner_timeline(ctx, R, field, keep=in_window):
                 uni('T22', st, ('S Jupiter', f'{C} Jupiter'), line['plane'], h['r0'], h['r5'], h['mid'], h['m']['colour'], rel)
             if h['f2'][1]:
                 dist('T22', st, f'{C} Jupiter', line['plane'], h['d2'], h['d25'], h['f2'][1], True)
+    if stars:                                              # star sources (Eddie, 22 Oct 2026), after every table source
+        for C in 'HJ':
+            for x in stars:
+                if x in R[C]:
+                    for pl in PLANES:
+                        cell('S Jup→star', 'S Jupiter', f'{C} {x}', pl, 'dist')
+        for C in 'HJ':
+            for x in stars:
+                if x in ctx.S0:
+                    for pl in PLANES:
+                        cell('star→Jup', f'S {x}', f'{C} Jupiter', pl, 'dist')
+        blocks = [(f'{C}–{C} stars', list(itertools.combinations([f'{C} {x}' for x in stars if x in R[C]], 2))) for C in 'HJ']
+        for h in t19_filter(pair_rows(ctx, R, None, tid='S Jup on star pair', blocks=blocks)):
+            (r0, r5), rel = h['rq'], f"S Jupiter: {h['x']} – {h['y']}"
+            pratio('S Jup on star pair', 'S Jupiter', (h['x'], h['y']), h['plane'], r0, r5, h['near'], h['ev'], rel)
+            if h['mid'] is not None:
+                uni('S Jup on star pair', 'S Jupiter', (h['x'], h['y']), h['plane'], r0, r5, h['mid'], h['m']['colour'], rel)
+            for (a, b), d0, d5, bf in h['legs']:
+                if bf and d0:
+                    dist('S Jup on star pair', a, b, h['plane'], d0, d5, bf, True)
+        for x in stars:                                    # star apex: T22 for every star
+            if x not in ctx.S0:
+                continue
+            st = f'S {x}'
+            for pl in EQ_PLANES:
+                for C in 'HJ':
+                    h = t22_line(ctx, R, x, C, pl)
+                    if h is None:
+                        continue
+                    rel = f'{x}: d(star, S Jupiter) / d(star, {C} Jupiter)'
+                    pratio('star apex', st, ('S Jupiter', f'{C} Jupiter'), pl, h['r0'], h['r5'], h['near'], h['ev'], rel)
+                    if h['mid'] is not None:
+                        uni('star apex', st, ('S Jupiter', f'{C} Jupiter'), pl, h['r0'], h['r5'], h['mid'], h['m']['colour'], rel)
+                    if h['f2'][1]:
+                        dist('star apex', st, f'{C} Jupiter', pl, h['d2'], h['d25'], h['f2'][1], True)
     evs = sorted(ev_by.values(), key=lambda e: e['t'])
     return {C: [e for e in evs if C in e['charts']] for C in 'HJ'}
 
@@ -3104,12 +3168,15 @@ def main():
     ctx.off = datetime.datetime.strptime(str(off)[:16], '%Y-%m-%d %H:%M')     # race-local off time (clock times of exact)
     ctx.off_str, ctx.site = str(off)[:16], site
     ctx.x.off, ctx.x.off_str, ctx.x.site = ctx.off, ctx.off_str, ctx.site
+    ctx.t = Ctx({**sky, **skyx}, {**rates, **xrates})      # runner timelines on every star (Eddie, 22 Oct 2026): STARS + T1_T2_T24_STARS
+    ctx.t.off, ctx.t.off_str, ctx.t.site = ctx.off, ctx.off_str, ctx.site
     try:
         ctx.eph = Ephem(ctx)                               # LONG TIMELINE real exact times (Eddie, 16 Oct 2026)
         ctx.x.eph = Ephem(ctx.x)                           # sky LONG TIMELINE on the 67 stars (Eddie, 20 Oct 2026)
+        ctx.t.eph = Ephem(ctx.t)                           # runner LONG TIMELINE H / J (22 Oct 2026)
     except Exception as ex:                                # engine cannot run: the linear estimate stays
         print(f'ephemeris not run ({type(ex).__name__}: {ex}): LONG TIMELINE keeps the linear times')
-        ctx.eph = ctx.x.eph = None
+        ctx.eph = ctx.x.eph = ctx.t.eph = None
     wb = openpyxl.Workbook(); ws = wb.active; ws.title = 'POSITIONS'
     wbp = openpyxl.Workbook(); wbp.remove(wbp.active)        # P## PAIRS: separate workbook next to the tables one
     repro = next((l for l in elines if l.startswith('reproduction')), elines[0] if elines else '')
@@ -3172,11 +3239,15 @@ def main():
     row, _, _ = write_t24(ws, row + 1, skyx, 'S', f'T24 SKY (race-day positions at the off, Moon included): {T24_NOTE}')     # Eddie, 19 Oct 2026
     srcs = (('SKY PAIRS', skypairs), ('SKY STARS', skystars), ('SKY ROYAL', srows))
     # sky TIMELINE / LONG TIMELINE on the 67 stars (Eddie, 20 Oct 2026): SKY star events from the sky on T1_T2_T24_STARS (ctx.x), as the SKY block
-    row = write_timeline(ws, row, ctx.x, timeline(ctx.x, R0, skyeq, srcs))
+    stl = timeline(ctx.x, R0, skyeq, srcs)
+    row = write_timeline(ws, row, ctx.x, stl)
     row = write_long(ws, row, ctx.x, realise(ctx.x, R0, timeline(ctx.x, R0, skyeq, srcs, keep=long_keep)), 'LONG TIMELINE',
-                     'LONG TIMELINE (Eddie, 16 Oct 2026): every sky Jupiter event on this sheet scoring >= 80 at the off, any exact time (same sources '
+                     'LONG TIMELINE (Eddie, 16 Oct 2026): every sky Jupiter event on this sheet scoring >= 90 at the off (22 Oct 2026; was 80), any exact time (same sources '
                      'and rules as TIMELINE). Exact time: beyond 60 min the real time from the Swiss Ephemeris (race engine and site; stepping out from the off, '
                      'refined to the minute, up to 1 year each way, else "not within 1 year"), the linear estimate in the last column; each section by score at the off, highest first (ties by exact time)')
+    row = write_timeline(ws, row, ctx.x, [e for e in stl if star_event(e)], 'STAR TIMELINE',     # Eddie, 22 Oct 2026
+                         'STAR TIMELINE (Eddie, 22 Oct 2026): the events of TIMELINE between Jupiter and stars only (every point S Jupiter or a star: '
+                         'SKY block star rows, SKY STARS, SKY ROYAL royal – royal, and any pair-block leg S Jupiter → star), the same rows, window and markers')
     ws.column_dimensions['B'].width = 30
     fields = {}
     for P in sorted(runners):
