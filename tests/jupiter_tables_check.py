@@ -1631,6 +1631,16 @@ for inp, out, fl in (('reference/classic/race_batch_20210402_lingfield_aw_1435.x
                      ('reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_ud, []), (f'{tmp}/race_batch_20120619_ascot_1430.xlsx', gf_ud, [])):
     subprocess.run([sys.executable, bf, inp] + fl + ['--out', out], capture_output=True, text=True)
 os.remove(bf)
+# 22 Oct 2026 (Eddie, T24 STAR SELECT removed): builds by the code of commit 0ad7d2e5 (with T24 STAR SELECT), default and --full, with their
+# pairs workbooks - test 40 compares these with now
+bf = 'tools/_jt_before_0ad7d2e5.py'
+open(bf, 'w').write(subprocess.run(['git', 'show', '0ad7d2e5:tools/jupiter_tables.py'], capture_output=True, text=True).stdout)
+os.makedirs(f'{tmp}/h0a', exist_ok=True)
+H0A = {(n, f): f'{tmp}/h0a/{n}_{f}_jupiter_tables.xlsx' for n in ('lingfield', 'ascot') for f in ('full', 'def')}
+for (n, f), out in H0A.items():
+    inp = 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx' if n == 'lingfield' else f'{tmp}/race_batch_20120619_ascot_1430.xlsx'
+    subprocess.run([sys.executable, bf, inp] + (['--full'] if f == 'full' else []) + ['--out', out], capture_output=True, text=True)
+os.remove(bf)
 leak = []
 for w in (gfw, openpyxl.load_workbook(f'{tmp}/full_pairs.xlsx', read_only=True)):
     for sh in w.sheetnames:
@@ -2842,7 +2852,7 @@ check('T38 LONG STAR TIMELINE sections in order (own check): by score at the off
       'tie-break is the LONG TIMELINE order, compared row for row above); separating / applying in the right section', not bad, f'{bad[:3]}')
 # Test 39 (Eddie, 22 Oct 2026): sky STAR / LONG STAR TIMELINE trimmed to S Jupiter-centred events, 95 / 100 / 95 times; runner T24 STAR
 # SELECT tables. "Before" = commit 00b6db9e.
-print('test 39: sky star timelines trimmed, 95 / 100 / 95, T24 STAR SELECT')
+print('test 39: sky star timelines trimmed, 95 / 100 / 95 (T24 STAR SELECT removed)')
 out39 = {}
 for nm, inp, after, bfull, bdef in (('Lingfield', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf, lf_u, lf_ud),
                                     ('Ascot', f'{tmp}/race_batch_20120619_ascot_1430.xlsx', gf, gf_u, gf_ud)):
@@ -2857,7 +2867,7 @@ DROP39 = {'Ascot': ('SKY JUPITER LONG STAR TIMELINE: before 59, after 45, droppe
 check('T39 against the build before (commit 00b6db9e), both races, default and --full (chk_select/compare_sel.py): sky STAR / LONG STAR '
       'TIMELINE = before minus exactly the star-to-star distance events (Ascot LONG 14, e.g. S Aculeus – S Rukbat RA 16×φ; STAR 0; Lingfield '
       'LONG 1, S Sirius – S Rigel RA 14×φ), every remaining row S Jupiter-centred, its cells identical, the header + "> 95 since", "100", '
-      '"< 95 from"; T24 STAR SELECT new on the runner sheets; every other row identical',
+      '"< 95 from"; every other row identical (T24 STAR SELECT removed the same day: none on the runner sheets)',
       all(line(o, 'mismatches:') == 'mismatches: 0' for o in out39.values()) and all(DROP39[k[0]] in o for k, o in out39.items())
       and all('STAR TIMELINE: before 65, after 65, dropped 0' in o for k, o in out39.items() if k[0] == 'Ascot'),
       f"{ {k: line(o, 'mismatches:') for k, o in out39.items()} }")
@@ -2965,152 +2975,10 @@ check('T39 every "> 95 since" / "< 95 from" cell of the sky STAR / LONG STAR TIM
       'in days, 0.01 day); "—" only where the score '
       'is under 95 at the exact time; "not within 1 year" by a daily ±1 year scan; both races', not bad and n95 > 0,
       f'{n95} crossings, {nd} dashes, {nnf} not within 1 year; {bad[:3]}')
-# (c) T24 STAR SELECT: selection = the rule, layout, cells
-def sky_sel(w):
-    seen, sing, pair = {}, {}, {}
-    for tid in ('STAR TIMELINE', 'LONG STAR TIMELINE'):
-        for r in w['SKY JUPITER'].iter_rows(values_only=True):
-            if r and r[0] == tid and r[3] and not str(r[3]).startswith('———'):
-                k = (r[4], r[5], r[6], r[7])
-                if k in seen:
-                    continue
-                seen[k] = r
-                if r[10] is None:
-                    continue
-                if r[6] == 'distance' and r[10] > 90:
-                    sing.setdefault(r[4].split(' → S ')[1], []).append(k)
-                elif r[6] in ('ratio', 'midpoint') and r[10] > 95:
-                    pair.setdefault(tuple(z[2:] for z in r[4].split(': ')[1].split(' – ')), []).append(k)
-    o = {x: i for i, x in enumerate(EXPECT67)}
-    return ([('single', (x,)) for x in sorted(sing, key=o.get)]
-            + [('pair', ab) for ab in sorted(pair, key=lambda ab: (min(o[z] for z in ab), max(o[z] for z in ab)))]), sing, pair
-
-
-TB = [b for b in JT.T24_BODIES if b != 'Moon']
-PRS = list(itertools.combinations(TB, 2))
-fill_ = lambda c: c.fill.start_color.rgb if c.fill and c.fill.fill_type else None
-COLS = {'green': GREEN, 'yellow': YELLOW, 'light': LIGHT}
-
-
-def want_ratio(a, b, pl):
-    if a < (1.5 if pl == 'RA' else 0.3) or b < (1.5 if pl == 'RA' else 0.3):
-        return ('together', None)
-    v = max(a, b) / min(a, b)
-    e_ = families.best(v, None, 'ratio')
-    return (round(v, 6), (e_['target'], round(e_['score'], 2), COLS[e_['colour']]) if e_ else None)
-
-
-bad, det = [], []
-for nm, w in (('Ascot', gw), ('Lingfield', lfw)):
-    sel, sing, pair = sky_sel(w)
-    for P in runner_tabs(w):
-        pp = {(x[2], x[3]): (x[5], x[6]) for x in w['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == P and x[3]}
-        rows = list(w[P].iter_rows())
-        t24 = t24_blocks(w[P])
-        idx = [i for i, r in enumerate(rows) if r[0].value == 'T24 STAR SELECT' and str(r[1].value or '').startswith('T24 STAR SELECT —')]
-        got = [str(rows[i][1].value).split(': ')[0][len('T24 STAR SELECT — '):] for i in idx]
-        want = [' – '.join(f'S {z}' for z in st) for k, st in sel]
-        if got != want:
-            bad.append((nm, P, 'selection', got[:3], want[:3])); continue
-        for i, (k, st) in zip(idx, sel):
-            h1, h2 = [c.value for c in rows[i + 1]], [c.value for c in rows[i + 2]]
-            names = h2[2:2 + 48 + 552]
-            if names != TB + TB + [f'{a} / {b}' for a, b in PRS] * 2 or [h1[2], h1[26], h1[50], h1[326]] != ['RA', 'Dec', 'RA pairs', 'Dec pairs']:
-                bad.append((nm, P, st, 'header')); continue
-            if k == 'single':
-                x = st[0]
-                labs = [f'H {x}', f'J {x}', f'H / J {x}']
-            else:
-                a_, b_ = st
-                labs = [f'H {a_}', f'H {b_}', f'H {a_} / {b_}', None, f'J {a_}', f'J {b_}', f'J {a_} / {b_}', None, f'H / J {a_}', f'H / J {b_}']
-            body = rows[i + 3:i + 3 + len(labs)]
-            if [r[1].value for r in body] != labs:
-                bad.append((nm, P, st, 'rows', [r[1].value for r in body])); continue
-            for r, lab in zip(body, labs):
-                if lab is None:
-                    if any(c.value is not None for c in r):
-                        bad.append((nm, P, st, 'blank row'))
-                    continue
-                cells = r[2:2 + 48 + 552]
-                if ' / ' in lab:                           # ratio rows: body cells ratios, pair columns blank
-                    if lab.startswith('H / J'):
-                        z = lab[6:]; p_, q_ = ('H', z), ('J', z)
-                    else:
-                        C = lab[0]; aa, bb = lab[2:].split(' / '); p_, q_ = (C, aa), (C, bb)
-                    for j, pl in enumerate(('RA', 'Dec')):
-                        for n_, B in enumerate(TB):
-                            c = cells[24 * j + n_]
-                            wv = want_ratio(dpl(pp[p_], pp[(p_[0], B)], pl), dpl(pp[q_], pp[(q_[0], B)], pl), pl)
-                            gv = (c.value, (c.comment.text.split(' · ')[0], round(float(c.comment.text.split(' · ')[-1]), 2), fill_(c))
-                                  if c.value != 'together' and fill_(c) else None)
-                            if wv != gv:
-                                bad.append((nm, P, lab, pl, B, wv, gv))
-                    if any(c.value is not None for c in cells[48:]):
-                        bad.append((nm, P, lab, 'pair columns not blank'))
-                    continue
-                C, x = lab[0], lab[2:]
-                hdr_, trow = t24[f"T24 {'HORSE' if C == 'H' else 'JOCKEY'}"]
-                tc = {kk: cc for kk, cc in zip(hdr_, trow[f'{C} {x}'])}
-                for j, pl in enumerate(('RA', 'Dec')):
-                    for n_, B in enumerate(TB):
-                        c, t_ = cells[24 * j + n_], tc[(B, pl)]
-                        if (c.value, fill_(c), c.comment.text if c.comment else None) != (t_.value, fill_(t_), t_.comment.text.split('\n')[0]):
-                            bad.append((nm, P, lab, pl, B, 'body cell'))
-                    for n_, (A_, B_) in enumerate(PRS):
-                        c = cells[48 + 276 * j + n_]
-                        wv = want_ratio(dpl(pp[(C, x)], pp[(C, A_)], pl), dpl(pp[(C, x)], pp[(C, B_)], pl), pl)
-                        gv = (c.value, (c.comment.text.split(' · ')[0], round(float(c.comment.text.split(' · ')[-1]), 2), fill_(c))
-                              if c.value != 'together' and fill_(c) else None)
-                        if wv != gv:
-                            bad.append((nm, P, lab, pl, f'{A_} / {B_}', wv, gv))
-        det.append(f'{nm} {P} {len(idx)} tables')
-check('T39 T24 STAR SELECT, both races every runner: tables = the rule from the sky STAR / LONG STAR TIMELINE (singles S Jupiter → S star > 90, '
-      'pairs S Jupiter: S A – S B ratio / midpoint > 95, an event in both once; singles in RA order, then pairs), header RA / Dec 24 + 24 and '
-      'pairs 276 + 276 in order, row labels and blank rows; every body cell = the T24 HORSE / JOCKEY cell (value, fill, first comment line); '
-      'every ratio recomputed from POSITIONS (value, interval, score, fill; "together" when a leg is under RA 1.5 / Dec 0.3); ratio rows\' pair '
-      'columns blank', not bad, f'{det}; {bad[:3]}')
-sel_a, sing_a, pair_a = sky_sel(gw)
-check('T39 rebuilt Ascot selection: 3 singles (Meissa 90.61, Castor 97.57, Algorab 93.96) and 25 pairs (e.g. Mirfak – Orion Nebula Cluster Dec '
-      '6/5 99.94, Vega – Nunki Dec 1+√2 99.13); Lingfield: Betelgeuse (RA φ^10 99.13) and Alkaid – Betelgeuse (Equator 5, 98.80)',
-      [st[0] for k, st in sel_a if k == 'single'] == ['Meissa', 'Castor', 'Algorab'] and sum(1 for k, _ in sel_a if k == 'pair') == 25
-      and sky_sel(lfw)[0] == [('single', ('Betelgeuse',)), ('pair', ('Alkaid', 'Betelgeuse'))], f'{sel_a[:4]}')
-# by hand from POSITIONS (rebuilt Ascot P01): a single-star pair cell, an H / J cell, an H A / B cell, a together cell, a 95 crossing
-pp = {(x[2], x[3]): (x[5], x[6]) for x in gw['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'P01' and x[3]}
-rows = list(gw['P01'].iter_rows())
-
-
-def sel_cell(title, lab, colname, pl):
-    i = next(k for k, r in enumerate(rows) if r[0].value == 'T24 STAR SELECT' and str(r[1].value).startswith(f'T24 STAR SELECT — {title}:'))
-    h1, h2 = rows[i + 1], rows[i + 2]
-    r = next(r for r in rows[i + 3:i + 14] if r[1].value == lab)
-    start = {'RA': 2, 'Dec': 26, 'RA pairs': 50, 'Dec pairs': 326}[pl]
-    n = 24 if pl in ('RA', 'Dec') else 276
-    j = next(j for j in range(start, start + n) if h2[j].value == colname)
-    return r[j]
-
-
-a, b = dpl(pp[('H', 'Castor')], pp[('H', 'Pluto')], 'RA'), dpl(pp[('H', 'Castor')], pp[('H', 'Eris')], 'RA')
-v = max(a, b) / min(a, b); c = sel_cell('S Castor', 'H Castor', 'Pluto / Eris', 'RA pairs')
-check(f'T39 T24 STAR SELECT S Castor, H Castor RA pair Pluto / Eris by hand from POSITIONS: {a:.6f} / {b:.6f} = {v:.6f}, 7/4 B '
-      f'{(v / 1.75 - 1) * 100:+.5f}% ({sq(0.15, abs((v / 1.75 - 1) * 100)):.2f})', c.value == round(v, 6) and abs(v - 1.750159) < 1e-6
-      and c.comment.text == f'7/4 · harmonic seventh · Septimal · B · {(v / 1.75 - 1) * 100:+.5f}% · {sq(0.15, abs((v / 1.75 - 1) * 100)):.2f}'
-      and fill_(c) == GREEN, f'{c.value}; {c.comment.text}')
-a, b = dpl(pp[('H', 'Castor')], pp[('H', 'Sedna')], 'RA'), dpl(pp[('J', 'Castor')], pp[('J', 'Sedna')], 'RA')
-v = max(a, b) / min(a, b); c = sel_cell('S Castor', 'H / J Castor', 'Sedna', 'RA')
-check(f'T39 T24 STAR SELECT S Castor, H / J Castor RA Sedna by hand from POSITIONS: {a:.6f} / {b:.6f} = {v:.6f}, 7/6 B '
-      f'({sq(0.15, abs((v / (7 / 6) - 1) * 100)):.2f})', c.value == round(v, 6) and abs(v - 1.166799) < 1e-6 and c.comment.text.startswith('7/6 · ')
-      and c.comment.text.endswith(f'{sq(0.15, abs((v / (7 / 6) - 1) * 100)):.2f}'), f'{c.value}; {c.comment.text}')
-a, b = dpl(pp[('H', 'Mirfak')], pp[('H', 'Sun')], 'RA'), dpl(pp[('H', 'Orion Nebula Cluster')], pp[('H', 'Sun')], 'RA')
-v = max(a, b) / min(a, b); e_ = families.best(v, None, 'ratio'); n_ = families.outside(v, None, 'ratio')
-c = sel_cell('S Mirfak – S Orion Nebula Cluster', 'H Mirfak / Orion Nebula Cluster', 'Sun', 'RA')
-check(f'T39 T24 STAR SELECT S Mirfak – S Orion Nebula Cluster, H Mirfak / Orion Nebula Cluster RA Sun by hand from POSITIONS: {a:.6f} / {b:.6f} '
-      f'= {v:.6f} ({e_["target"] if e_ else "nearest " + n_["target"] + ", outside"})', c.value == round(v, 6)
-      and (c.comment.text.startswith(f"{e_['target']} · ") if e_ else c.comment.text.startswith(f"nearest: {n_['target']} · ")), f'{c.value}; {c.comment.text}')
-a = dpl(pp[('H', 'Orion Nebula Cluster')], pp[('H', 'Mars')], 'RA')
-c = sel_cell('S Mirfak – S Orion Nebula Cluster', 'H Mirfak / Orion Nebula Cluster', 'Mars', 'RA')
-check(f'T39 T24 STAR SELECT together by hand from POSITIONS: H Mirfak / Orion Nebula Cluster RA Mars, d(H Orion Nebula Cluster, H Mars) '
-      f'{a:.6f} < 1.5 -> "together", no fill, the leg named', a < 1.5 and c.value == 'together' and not fill_(c)
-      and f'H Orion Nebula Cluster, H Mars {a:.6f}' in c.comment.text, f'{c.value}; {c.comment.text}')
+# (c) T24 STAR SELECT removed (Eddie, 22 Oct 2026, the same day): no T24 STAR SELECT title or row on any sheet (both races, --full)
+left = [(nm, sh) for nm, w in (('Ascot', gw), ('Lingfield', lfw)) for sh in w.sheetnames
+        if any(x and any('T24 STAR SELECT' in str(v) for v in x[:2] if v) for x in w[sh].iter_rows(max_col=2, values_only=True))]
+check('T39 T24 STAR SELECT removed (22 Oct 2026): no T24 STAR SELECT title or row on any sheet, both races (--full)', not left, f'{left[:5]}')
 # 95 crossing: S Jupiter → S Castor RA on 54 (whole, ±0.02): score 95 at |v − 54| = 0.02 (1 − √0.95) = 0.000506
 at = sky_engine(gw, '2012-06-19 14:30', 'ascot_1430_20120619', f'{tmp}/race_batch_20120619_ascot_1430.xlsx')
 r = next(x for x in gw['SKY JUPITER'].iter_rows(values_only=True) if x and x[0] == 'STAR TIMELINE' and x[4] == 'S Jupiter → S Castor' and x[5] == 'RA')
@@ -3120,6 +2988,29 @@ lim = 0.02 * (1 - 0.95 ** 0.5)
 check(f'T39 STAR TIMELINE S Jupiter → S Castor RA (54 whole) by hand with the engine: score 95 where |d − 54| = {lim:.6f}; "> 95 since" {r[13]}, '
       f'"100" {r[14]}, "< 95 from" {r[15]}', abs(dv(since - 1)) > lim > abs(dv(since + 1)) and abs(dv(frm + 1)) > lim > abs(dv(frm - 1)),
       f'd−54 at since ±1: {dv(since - 1):+.6f} / {dv(since + 1):+.6f}; at from ±1: {dv(frm - 1):+.6f} / {dv(frm + 1):+.6f}')
+# ---------------------------------------------------------------------------------------------------------------------------------
+# Test 40 (Eddie, 22 Oct 2026): T24 STAR SELECT removed from the runner sheets; every other block unchanged. "Before" = commit 0ad7d2e5.
+print('test 40: T24 STAR SELECT removed')
+out40 = {}
+for n in ('lingfield', 'ascot'):
+    for f in ('full', 'def'):
+        ao = f'{tmp}/after40/{n}_{f}_jupiter_tables.xlsx'
+        os.makedirs(f'{tmp}/after40', exist_ok=True)
+        inp = 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx' if n == 'lingfield' else f'{tmp}/race_batch_20120619_ascot_1430.xlsx'
+        subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp] + (['--full'] if f == 'full' else []) + ['--out', ao], capture_output=True, text=True)
+        out40[(n, f)] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_rmsel/compare_rmsel.py', H0A[(n, f)], ao,
+                                        H0A[(n, f)].replace('_jupiter_tables', '_pairs'), ao.replace('_jupiter_tables', '_pairs')],
+                                       capture_output=True, text=True).stdout
+RM40 = {'lingfield': 'removed 22 (13 T24 STAR SELECT rows, 2 tables)', 'ascot': 'removed 372 (237 T24 STAR SELECT rows, 28 tables)'}
+check('T40 against the build before (commit 0ad7d2e5), both races, default and --full (chk_rmsel/compare_rmsel.py): each runner sheet = the '
+      'build before minus exactly the T24 STAR SELECT tables and their blank rows (Ascot P01 28 tables, 372 rows; Lingfield 2 tables, 22 rows '
+      'per runner), every other row of every sheet identical (values, fills, comments, borders, number formats; merged ranges shifted); pairs '
+      'workbooks identical', all(line(o, 'mismatches:') == 'mismatches: 0' and 'pairs identical' in o for o in out40.values())
+      and all(sum(1 for x in o.splitlines() if RM40[k[0]] in x) == (1 if k[0] == 'ascot' else 6) for k, o in out40.items()),
+      f"{ {k: line(o, 'mismatches:') for k, o in out40.items()} }")
+src = open('tools/jupiter_tables.py').read()
+check('T40 code: write_t24sel, star_select and SEL_NOTE gone; t24r_cell back to its 19 Oct form (no tags parameter)',
+      not any(z in src for z in ('def write_t24sel', 'def star_select', 'SEL_NOTE', 'ctx.sel', 'tags=')), '')
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

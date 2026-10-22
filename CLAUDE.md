@@ -109,7 +109,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct; 46 since 20 Oct, 67 since 21 Oct; conjunction cells red, 20 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (234/234; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (231/231; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -776,6 +776,16 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   events rebuilt, 24 real times within 1 min, 7 not within 1 year by an hourly scan; the 11 nowhere else; Lingfield unchanged: 0 mismatches.
 
 ## jupiter_tables: sky star timelines trimmed, 95 / 100 / 95 times, T24 STAR SELECT (Eddie, 22 Oct 2026; viewing only)
+- T24 STAR SELECT REMOVED (Eddie, 22 Oct 2026, the same day; no reason given): the runner sheets no longer carry it (write_t24sel,
+  star_select, SEL_NOTE and t24r_cell's tags parameter gone; t24r_cell = its 19 Oct form). The trimmed sky STAR / LONG STAR TIMELINE and the
+  95 / 100 / 95 columns stay. Compared with the build before (commit 0ad7d2e5; chk_rmsel/compare_rmsel.py), both races default and --full:
+  each runner sheet = before minus exactly the SELECT region (rebuilt Ascot P01 28 tables, 372 rows; Lingfield 2 tables, 22 rows per
+  runner), every other row of every sheet identical (values, fills, comments, borders, number formats; merged ranges shifted), pairs
+  identical; columns BA onward lose the width 11 only SELECT set (back to the layout before it). Sizes (default / --full): rebuilt Ascot
+  3.02 / 3.08 -> 0.97 / 1.03 MB, Lingfield 2.88 / 3.10 -> 2.16 / 2.38 MB. Tests 231/231: test 39 keeps (a) dropped events, (b) the 95
+  crossings, (d) every other row; (c) is now "no T24 STAR SELECT anywhere"; test 40 new (the comparison above, code gone). Independent checker
+  (22 Oct), own code (chk_rmsel/check_rmsel_indep.py), both races default and --full: 0 mismatches. The text below describes the tables as
+  they were built.
 - SKY JUPITER STAR TIMELINE and LONG STAR TIMELINE: only events centred on S Jupiter (sj_event: 'S Jupiter → S star' RA / Dec and
   'S Jupiter: S A – S B' ratio / midpoint); star-to-star distances (the d(A, B) leg of a pair row) dropped. Runner timelines, sky TIMELINE /
   LONG TIMELINE unchanged. Dropped: rebuilt Ascot 14:30 2012 LONG STAR 59 -> 45 (14: S Aculeus – S Rukbat RA 16×φ 99.87, S Antares – S Alphard
@@ -998,6 +1008,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 - **35 stars in T1, T2, T24 (13 new in the engine, no Polaris there) + trimmed default workbook, --full for the rest (19 Oct 2026, Eddie):**
   see its section; same day revised: the 35 in RA order, and the SKY block star rows on the 35. 
 - **T24 ratio tables T24 H / J, T24 HORSE RATIOS, T24 JOCKEY RATIOS (19 Oct 2026, Eddie):** see its section.
+- **T24 STAR SELECT removed from the runner sheets (22 Oct 2026, Eddie); sky star timeline trimming and 95 / 100 / 95 kept:** see the
+  22 Oct trimmed section. Tests 231/231.
 - **Sky STAR / LONG STAR TIMELINE trimmed to S Jupiter-centred events + 95 / 100 / 95 times; runner T24 STAR SELECT tables (22 Oct 2026,
   Eddie):** see its section. Tests 234/234.
 - **LONG STAR TIMELINE (sky) and LONG STAR TIMELINE H / J (22 Oct 2026, Eddie):** see its section. Tests 225/225.
