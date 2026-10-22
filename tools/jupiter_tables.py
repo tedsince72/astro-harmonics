@@ -727,6 +727,8 @@ def runner_sheet(wb, P, R, ctx):
     row, field['_t24hj'] = write_t24hj(ws, row + 1, RX['H'], RX['J'])        # T24 ratio tables (Eddie, 19 Oct 2026), natal only
     for C, who in (('H', 'HORSE'), ('J', 'JOCKEY')):
         row, field[f'_t24r{C}'] = write_t24r(ws, row + 1, RX[C], C, who)
+    if getattr(ctx, 'sel', None):                          # T24 STAR SELECT (Eddie, 22 Oct 2026), after T24 JOCKEY RATIOS
+        row = write_t24sel(ws, row + 1, RX['H'], RX['J'], ctx.sel)
     # timelines on every star (Eddie, 22 Oct 2026): the timeline context ctx.t / Rt holds STARS (Polaris incl.) and T1_T2_T24_STARS, so the
     # table sources keep their events and the star sources reach the 67 stars
     tc, Rt = ctx.t, {C: {**R[C], **R[C + 'X']} for C in 'HJ'}
@@ -913,7 +915,7 @@ T24R_NOTE = ('larger / smaller on the interval list (area A ±0.02 absolute, φ 
              '"automatic, not counted", 0.0015 to < 0.02 tag "assisted" (as T23). Natal, fixed: no +5, no timing')
 
 
-def t24r_cell(ws, row, col, legs, pl, qd, close):
+def t24r_cell(ws, row, col, legs, pl, qd, close, tags=True):
     """one T24 ratio cell: legs = [(name, distance), (name, distance)]; qd = distance of the two compared points (automatic / assisted
     unison, as T23 H / J); close = 'H–J Jupiters' / 'Jupiter–X'. -> area of the hit ('A', 'P', 'B') or None (no hit, together, automatic)"""
     (na, a), (nb, b) = legs
@@ -932,7 +934,7 @@ def t24r_cell(ws, row, col, legs, pl, qd, close):
         return None
     area = hit_area(ev)
     text = f"{ev['target']} · {ev['name']} · {ev['group']} · {SKY_AREA[area]} · {fmt_off(ev)} · {ev['score']:.2f}"
-    if ev['target'] == '1':
+    if ev['target'] == '1' and tags:                       # T24 STAR SELECT (22 Oct 2026): no automatic / assisted tags
         q = qd / min(a, b) if min(a, b) else float('inf')
         if q < AUTO_TOL:
             c.fill = FILL['grey']
@@ -975,6 +977,123 @@ def t24r_head(ws, row, tid, title, groups, cols):
 
 def t24r_title(tid, what, n):
     return f"{tid} (Eddie, 19 Oct 2026): {what}. {T24R_NOTE}. Hits: A {n['A']}, φ and √2 {n['P']}, B {n['B']}"
+
+
+def star_select(ctx, sst, slst):
+    """T24 STAR SELECT (Eddie, 22 Oct 2026): from the sky STAR TIMELINE and LONG STAR TIMELINE together (an event in both once): singles =
+    S Jupiter → S star events scoring > 90 at the off, one table per star; pairs = S Jupiter: S A – S B ratio / midpoint events scoring > 95,
+    one table per pair. -> [(kind, stars, [event texts])], singles (star RA order) then pairs (RA order of the first, then the second star)"""
+    seen, sing, pair = {}, {}, {}
+    for tl, evs in (('STAR TIMELINE', sst), ('LONG STAR TIMELINE', slst)):
+        for e in evs:
+            k = (e['rel'], e['plane'], e['kind'], e['target'])
+            if k in seen:
+                seen[k][1].append(tl)
+                continue
+            seen[k] = (e, [tl])
+    order = {x: i for i, x in enumerate(T1_T2_T24_STARS)}
+    for e, tls in seen.values():
+        g, sc = e['geo'], e['score']
+        if sc is None:
+            continue
+        if g[0] == 'd' and sc > 90:
+            x = (g[2] if g[1] == 'S Jupiter' else g[1])[2:]
+            sing.setdefault(x, []).append((e, tls))
+        elif g[0] == 'r' and e['kind'] in ('ratio', 'midpoint') and sc > 95:
+            a, b = g[2][2:], g[3][2:]
+            pair.setdefault((a, b), []).append((e, tls))
+
+    def text(e, tls):
+        when = 'not within 1 year' if e.get('nf') else f"{tl_clock(ctx, e['t'])} ({tl_from(e['t'])})"
+        return f"{' + '.join(tls)}: {e['rel']} {e['plane']} {e['kind']} {e['target']} ({e['score']:.2f}), exact {when}"
+    out = [('single', (x,), [text(*v) for v in sing[x]]) for x in sorted(sing, key=lambda x: order.get(x, 999))]
+    out += [('pair', ab, [text(*v) for v in pair[ab]]) for ab in sorted(pair, key=lambda ab: (min(order.get(z, 999) for z in ab), max(order.get(z, 999) for z in ab)))]
+    return out
+
+
+SEL_NOTE = ('T24 STAR SELECT (Eddie, 22 Oct 2026; natal, fixed): stars selected from the sky STAR TIMELINE and LONG STAR TIMELINE (S Jupiter → '
+            'S star scoring > 90 at the off; S Jupiter: S A – S B ratio / midpoint scoring > 95). Body columns = the T24 rows (RA then Dec); PAIR '
+            'columns X / Y = d(star, X) / d(star, Y); "H / J" rows d(H star, H X) / d(J star, J X), "A / B" rows d(A, X) / d(B, X); ratios larger / '
+            'smaller on the interval list (area A ±0.02 absolute, φ and √2 0.15 %, B tapered), squared score, fill by score; "together" when a leg is '
+            'within RA 1.5 / Dec 0.3; no automatic / assisted tags')
+
+
+def write_t24sel(ws, row, H, J, sel):
+    """T24 STAR SELECT tables (Eddie, 22 Oct 2026) on a runner sheet: one per selected star / star pair -> next row"""
+    bodies = [b for b in T24_BODIES if b in H and H[b][2] == 'body' and b != 'Moon' and b in J]
+    prs = list(itertools.combinations(bodies, 2))
+    nb, npr = len(bodies), len(prs)
+    c0 = {'RA': 3, 'Dec': 3 + nb, 'RA pairs': 3 + 2 * nb, 'Dec pairs': 3 + 2 * nb + npr}
+    ch = {'H': H, 'J': J}
+    tid = 'T24 STAR SELECT'
+
+    def body_row(r, C, x):                                 # the T24 row: value, fill (red inside the conjunction range), comment
+        for pl in PLANES:
+            for i, b in enumerate(bodies):
+                v = plane_value(ch[C][x], ch[C][b], pl)
+                colour, text = t24_cell(v, pl)
+                c = ws.cell(row=r, column=c0[pl] + i, value=round(v, 6)); c.number_format = '0.000000'
+                if v < families.CONJ[pl]:
+                    c.fill = RED
+                elif colour:
+                    c.fill = FILL[colour]
+                c.comment = Comment(text, 'T24', width=260, height=40)
+            for i, (a, b) in enumerate(prs):
+                t24r_cell(ws, r, c0[f'{pl} pairs'] + i, [(f'{C} {x}, {C} {a}', plane_value(ch[C][x], ch[C][a], pl)),
+                                                          (f'{C} {x}, {C} {b}', plane_value(ch[C][x], ch[C][b], pl))], pl, None, None, tags=False)
+
+    def ratio_row(r, p, q):                                # p, q = (chart, star): d(p, X) / d(q, X) per body, pair columns blank
+        for pl in PLANES:
+            for i, b in enumerate(bodies):
+                t24r_cell(ws, r, c0[pl] + i, [(f'{p[0]} {p[1]}, {p[0]} {b}', plane_value(ch[p[0]][p[1]], ch[p[0]][b], pl)),
+                                              (f'{q[0]} {q[1]}, {q[0]} {b}', plane_value(ch[q[0]][q[1]], ch[q[0]][b], pl))], pl, None, None, tags=False)
+
+    for kind, stars, evs in sel:
+        if not all(x in H and x in J for x in stars):      # a star not in the chart (old batch): skipped quietly
+            continue
+        lab = ' – '.join(f'S {x}' for x in stars)
+        ws.cell(row=row, column=1, value=tid).font = BOLD
+        ws.cell(row=row, column=2, value=f'{tid} — {lab}: ' + '; '.join(evs) + '. ' + SEL_NOTE).font = BOLD
+        row += 1
+        for r in (row, row + 1):
+            for c, v in ((1, 'table'), (2, 'row')):
+                ws.cell(row=r, column=c, value=v if r == row else None).fill = HEAD
+        for k, n in (('RA', nb), ('Dec', nb), ('RA pairs', npr), ('Dec pairs', npr)):
+            c = ws.cell(row=row, column=c0[k], value=k); c.fill = HEAD; c.font = BOLD
+            for j in range(1, n):
+                ws.cell(row=row, column=c0[k] + j).fill = HEAD
+            ws.merge_cells(start_row=row, start_column=c0[k], end_row=row, end_column=c0[k] + n - 1)
+            names = bodies if n == nb else [f'{a} / {b}' for a, b in prs]
+            for j, nm in enumerate(names):
+                c = ws.cell(row=row + 1, column=c0[k] + j, value=nm); c.fill = HEAD; c.font = BOLD
+        row += 2
+        if kind == 'single':
+            x = stars[0]
+            for C in 'HJ':
+                ws.cell(row=row, column=1, value=tid); ws.cell(row=row, column=2, value=f'{C} {x}')
+                body_row(row, C, x); row += 1
+            ws.cell(row=row, column=1, value=tid); ws.cell(row=row, column=2, value=f'H / J {x}')
+            ratio_row(row, ('H', x), ('J', x)); row += 1
+        else:
+            a, b = stars
+            for C in 'HJ':
+                for x in (a, b):
+                    ws.cell(row=row, column=1, value=tid); ws.cell(row=row, column=2, value=f'{C} {x}')
+                    body_row(row, C, x); row += 1
+                ws.cell(row=row, column=1, value=tid); ws.cell(row=row, column=2, value=f'{C} {a} / {b}')
+                ratio_row(row, (C, a), (C, b)); row += 2      # + blank row
+            for x in (a, b):
+                ws.cell(row=row, column=1, value=tid); ws.cell(row=row, column=2, value=f'H / J {x}')
+                ratio_row(row, ('H', x), ('J', x)); row += 1
+        row += 1
+    widths = [(3 + k, T24_VAL_W) for k in range(2 * nb + 2 * npr)]
+    for col, w in widths:                                  # shared columns only ever widened (as T24)
+        L = openpyxl.utils.get_column_letter(col)
+        if L not in ws.column_dimensions or not ws.column_dimensions[L].customWidth:
+            ws.column_dimensions[L].width = w
+        else:
+            ws.column_dimensions[L].width = max(ws.column_dimensions[L].width, w)
+    return row
 
 
 def write_t24hj(ws, row, H, J):
@@ -2149,7 +2268,7 @@ def timeline(ctx, R0, eq, sources, keep=in_window):
         if pl == 'Equator' and (ctx.pos(R0, a, 0)[1] >= 0) == (ctx.pos(R0, b, 0)[1] >= 0):
             kp = 'Dec'                                     # both on one side: the Equator distance is the Dec distance, one event
         add(('d', frozenset((a, b)), kp, tl_key(d)), exact_t(v0, v5, d['tv']), src=src, rel=rel, plane=pl, geo=('d', a, b),
-            kind='distance', target=tlabel(d), tv=d['tv'], v0=v0,
+            kind='distance', target=tlabel(d), tv=d['tv'], v0=v0, fam=d['family'], lab=d['target'],
             score=d['score'] if hit else None, colour=d['colour'] if hit else '', out=not hit)
 
     for x in ctx.S0:                                       # SKY block
@@ -2185,6 +2304,7 @@ def timeline(ctx, R0, eq, sources, keep=in_window):
             if r5 is not None:
                 add(key(n['target']), exact_t(r0, r5, n['tv']), src=src, rel=rel, plane=h['plane'], kind='ratio', geo=('r', h['jup'], h['x'], h['y']),
                     target=f"{n['target']} · {n['name']} · {n['group']} (area {SKY_AREA[families.area(n['target'])]})", tv=n['tv'], v0=r0,
+                    fam='interval', lab=n['target'],
                     score=h['ev']['score'] if h['ev'] else None, colour=h['ev']['colour'] if h['ev'] else '', out=not h['ev'])
                 if h['mid'] is not None:
                     add(key('1'), exact_t(r0, r5, 1.0), src=src, rel=rel, plane=h['plane'], kind='midpoint', geo=('r', h['jup'], h['x'], h['y']),
@@ -2207,6 +2327,93 @@ def star_event(e):
         return False
     names = [p.split(' ', 1)[1] for p in e['geo'][1:]]
     return all(n == 'Jupiter' or n in ALL_STARS for n in names) and any(n in ALL_STARS for n in names)
+
+
+def sj_event(e):
+    """sky STAR / LONG STAR TIMELINE (Eddie, 22 Oct 2026): events centred on S Jupiter only - 'S Jupiter → S star' and 'S Jupiter: S A – S B'
+    (ratio, midpoint); a star-to-star distance (the d(A, B) leg of a pair row) is dropped"""
+    g = e['geo']
+    return star_event(e) and (g[1] == 'S Jupiter' if g[0] == 'r' else 'S Jupiter' in g[1:3])
+
+
+S95 = 95.0                                                 # 95 / 100 / 95 times (Eddie, 22 Oct 2026)
+
+
+def score_at(ctx, e, m, side=None):
+    """the event's own score at m minutes from the off, sky points from the engine (ctx.eph): distance / ratio on the event's family and
+    target (its own tolerance), midpoint = the midpoint total (0 when not a hit); ratio orientation and the RA near / far side of the off"""
+    sk = ctx.eph.at(m)
+    pos = lambda p: sk[p.split(' ', 1)[1]]
+    g, pl = e['geo'], e['plane']
+    if g[0] == 'd':
+        v = geo_value(None, g, pl, pos)
+        return next((d['score'] for d in families.evaluate(v, pl if pl in ('RA', 'Dec') else None, 'deg')
+                     if d['family'] == e['fam'] and d['target'] == e['lab']), 0.0)
+    dx, dy = geo_value(None, g, pl, pos)
+    if not dx or not dy:
+        return 0.0
+    if e['kind'] == 'ratio':
+        v = dx / dy if e['big'] else dy / dx
+        return next((d['score'] for d in families.evaluate(v, None, 'ratio') if d['target'] == e['lab']), 0.0)
+    ix = 0 if pl == 'RA' else 1
+    gm = mid_geom(pos(g[2])[ix], pos(g[3])[ix], pos(g[1])[ix], pl, side)
+    if gm is None:
+        return 0.0
+    ms = mid_score(dx, dy, gm[0], pl)
+    return ms['score'] if ms and ms['hit'] else 0.0
+
+
+def win95(ctx, e):
+    """'> 95 since' / '< 95 from' (Eddie, 22 Oct 2026): from the exact time (the off when not within 1 year) step outward on the engine grid
+    (from the off: 10 min for a day, then 1 h, up to 1 year each way) to the first minute the score is under 95, bisect to the minute ->
+    (since, from) minutes from the off, 'nf' (not within 1 year) or None ('—': under 95 at the exact time)"""
+    if getattr(ctx, 'eph', None) is None:
+        return None, None
+    g = e['geo']
+    if g[0] == 'r':
+        sk = ctx.eph.at(0)
+        dx, dy = geo_value(None, g, e['plane'], lambda p: sk[p.split(' ', 1)[1]])
+        e['big'] = dx >= dy
+    side = None
+    if e['kind'].startswith('midpoint') and e['plane'] == 'RA':
+        sk = ctx.eph.at(0)
+        side = mid_geom(sk[g[2][2:]][0], sk[g[3][2:]][0], sk[g[1][2:]][0], 'RA')[1]
+    m0 = 0.0 if e.get('nf') else e['t']
+    if abs(m0) > EPH_YEAR or score_at(ctx, e, m0, side) < S95:
+        return None, None
+    grid = sorted(EPH_DAY + [h * 60 * s for s in (1, -1) for h in range(25, EPH_YEAR // 60 + 1)])
+    out = []
+    for sgn in (-1, 1):
+        pts = sorted((x for x in grid if (x - m0) * sgn > 0), key=lambda x: abs(x - m0))
+        lo, res = m0, 'nf'
+        for x in pts:
+            if score_at(ctx, e, x, side) < S95:
+                hi = x
+                while abs(hi - lo) > 1.0:
+                    mid = (lo + hi) / 2
+                    if score_at(ctx, e, mid, side) < S95:
+                        hi = mid
+                    else:
+                        lo = mid
+                res = (lo + hi) / 2
+                break
+            lo = x
+        out.append(res)
+    return tuple(out)
+
+
+W95_HEAD = ('> 95 since', '100', '< 95 from')
+W95_NOTE = ('95 / 100 / 95 (Eddie, 22 Oct 2026): "> 95 since" = when the event\'s own score (its family / interval on its own tolerance; '
+            'midpoint total) rose to 95 before the exact time, "100" = the exact time, "< 95 from" = when it falls under 95 after it; engine '
+            'times (race site; 10 min for a day, then 1 h, up to 1 year each way, to the minute), "not within 1 year", "—" = under 95 at the '
+            'exact time')
+
+
+def w95_cells(ctx, e):
+    """the three cells: clock (from the off) / 'not within 1 year' / '—'"""
+    a, b = e.get('w95', (None, None))
+    f = lambda t: '—' if t is None else 'not within 1 year' if t == 'nf' else f'{tl_clock(ctx, t)} ({tl_from(t)})'
+    return (f(a), 'not within 1 year' if e.get('nf') else f(e['t']), f(b))
 
 
 def runner_timeline(ctx, R, field, keep=in_window, stars=()):
@@ -2504,7 +2711,7 @@ def tl_vals(ctx, e, tid, long=False):
             'applying' if e['t'] >= 0 else 'separating', note or None)
 
 
-def write_long(ws, row, ctx, evs, tid, title, skyf=None):
+def write_long(ws, row, ctx, evs, tid, title, skyf=None, w95=False):
     """LONG TIMELINE (Eddie, 16 Oct 2026): every event scoring >= 80 at the off, any exact time; SEPARATING, then APPLYING, each by
     score at the off (highest first; ties: separating most recent first, applying soonest first); runner sheets add the sky equivalent cells"""
     # Eddie 16 Oct 2026: inside each section by score at the off, highest first; ties by exact time (separating most recent first)
@@ -2513,11 +2720,11 @@ def write_long(ws, row, ctx, evs, tid, title, skyf=None):
     app = sorted([e for e in evs if e['t'] >= 0], key=lambda e: (-e['score'], bool(e.get('nf')), e['t']))
     ws.cell(row=row, column=1, value=f'{title}: {len(evs)} events, {len(sep)} separating, {len(app)} applying').font = BOLD
     row += 1
-    head = TL_HEAD[:2] + ('from the off',) + TL_HEAD[3:] + (SKY_TL_HEAD if skyf else ()) + ('minutes from the off', 'linear estimate')
+    head = TL_HEAD[:2] + ('from the off',) + TL_HEAD[3:] + (SKY_TL_HEAD if skyf else ()) + ('minutes from the off', 'linear estimate') + (W95_HEAD if w95 else ())
     for k, h in enumerate(head):
         c = ws.cell(row=row, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
     row += 1
-    last = len(head) - 1
+    last = len(head) - 1 - (len(W95_HEAD) if w95 else 0)
     for lab, part in (('SEPARATING', sep), ('APPLYING', app)):
         ws.cell(row=row, column=1, value=tid).font = BOLD
         ws.cell(row=row, column=4, value=f'——— {lab}: {len(part)} events ———').font = BOLD
@@ -2533,11 +2740,14 @@ def write_long(ws, row, ctx, evs, tid, title, skyf=None):
             ws.cell(row=row, column=last, value=None if e.get('nf') else round(e['t'], 1))
             tl_ = e.get('t_lin', e['t'])
             ws.cell(row=row, column=last + 1, value=f'{tl_clock(ctx, tl_)} ({tl_from(tl_)})')
+            if w95:                                        # 95 / 100 / 95 (Eddie, 22 Oct 2026)
+                for k, v in enumerate(w95_cells(ctx, e)):
+                    ws.cell(row=row, column=last + 2 + k, value=v)
             row += 1
     return row + 1
 
 
-def write_timeline(ws, row, ctx, evs, tid='TIMELINE', title=None, skyf=None):
+def write_timeline(ws, row, ctx, evs, tid='TIMELINE', title=None, skyf=None, w95=False):
     """TIMELINE rows in time order, with marker rows for the off and the off + 5 min"""
     nb = sum(1 for e in evs if e['t'] < 0); nd = sum(1 for e in evs if 0 <= e['t'] <= 5); na = len(evs) - nb - nd
     title = title or ('TIMELINE (Eddie, 16 Oct 2026): every sky Jupiter relationship on this sheet whose exact time falls from the '
@@ -2546,7 +2756,7 @@ def write_timeline(ws, row, ctx, evs, tid='TIMELINE', title=None, skyf=None):
                       'at the off; together rows left out, each event once (other sources in the note); values are never scaled')
     ws.cell(row=row, column=1, value=f'{title}: {len(evs)} events, {nb} before the off, {nd} in the first 5 min, {na} after').font = BOLD
     row += 1
-    for k, h in enumerate(TL_HEAD + (SKY_TL_HEAD if skyf else ())):
+    for k, h in enumerate(TL_HEAD + (SKY_TL_HEAD if skyf else ()) + (W95_HEAD if w95 else ())):
         c = ws.cell(row=row, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
     row += 1
     marks = [(0.0, 'OFF'), (5.0, 'OFF + 5 MIN')]
@@ -2565,6 +2775,9 @@ def write_timeline(ws, row, ctx, evs, tid='TIMELINE', title=None, skyf=None):
         ws.cell(row=row, column=11).number_format = '0.00'
         if skyf:
             write_sky_cells(ws, row, 1 + len(TL_HEAD), skyf(e))
+        if w95:                                            # 95 / 100 / 95 (Eddie, 22 Oct 2026)
+            for k, v in enumerate(w95_cells(ctx, e)):
+                ws.cell(row=row, column=1 + len(TL_HEAD) + (len(SKY_TL_HEAD) if skyf else 0) + k, value=v)
         row += 1
     while marks:
         mark(*marks.pop(0)); row += 1
@@ -3252,12 +3465,20 @@ def main():
                      'LONG TIMELINE (Eddie, 16 Oct 2026): every sky Jupiter event on this sheet scoring >= 90 at the off (22 Oct 2026; was 80), any exact time (same sources '
                      'and rules as TIMELINE). Exact time: beyond 60 min the real time from the Swiss Ephemeris (race engine and site; stepping out from the off, '
                      'refined to the minute, up to 1 year each way, else "not within 1 year"), the linear estimate in the last column; each section by score at the off, highest first (ties by exact time)')
-    row = write_timeline(ws, row, ctx.x, [e for e in stl if star_event(e)], 'STAR TIMELINE',     # Eddie, 22 Oct 2026
-                         'STAR TIMELINE (Eddie, 22 Oct 2026): the events of TIMELINE between Jupiter and stars only (every point S Jupiter or a star: '
-                         'SKY block star rows, SKY STARS, SKY ROYAL royal – royal, and any pair-block leg S Jupiter → star), the same rows, window and markers')
-    row = write_long(ws, row, ctx.x, [e for e in slt if star_event(e)], 'LONG STAR TIMELINE',          # Eddie, 22 Oct 2026
-                     'LONG STAR TIMELINE (Eddie, 22 Oct 2026): the events of LONG TIMELINE between Jupiter and stars only (as STAR TIMELINE), the same '
-                     'rows (score >= 90 at the off, real exact time beyond 60 min, linear estimate), sections and sort')
+    # STAR / LONG STAR TIMELINE (Eddie, 22 Oct 2026): S Jupiter-centred events only (star-to-star distances dropped, same day), with the
+    # 95 / 100 / 95 times from the engine
+    sst, slst = [e for e in stl if sj_event(e)], [e for e in slt if sj_event(e)]
+    w95n = W95_NOTE
+    for e in sst + slst:
+        if 'w95' not in e:
+            e['w95'] = win95(ctx.x, e)
+    row = write_timeline(ws, row, ctx.x, sst, 'STAR TIMELINE',     # Eddie, 22 Oct 2026
+                         'STAR TIMELINE (Eddie, 22 Oct 2026): the events of TIMELINE centred on S Jupiter with stars only (S Jupiter → S star, S Jupiter: '
+                         'S A – S B ratio and midpoint; star-to-star distances left out), the same rows, window and markers. ' + w95n, w95=True)
+    row = write_long(ws, row, ctx.x, slst, 'LONG STAR TIMELINE',          # Eddie, 22 Oct 2026
+                     'LONG STAR TIMELINE (Eddie, 22 Oct 2026): the events of LONG TIMELINE centred on S Jupiter with stars only (as STAR TIMELINE), the '
+                     'same rows (score >= 90 at the off, real exact time beyond 60 min, linear estimate), sections and sort. ' + w95n, w95=True)
+    ctx.sel = star_select(ctx, sst, slst)                  # T24 STAR SELECT on the runner sheets (Eddie, 22 Oct 2026)
     ws.column_dimensions['B'].width = 30
     fields = {}
     for P in sorted(runners):

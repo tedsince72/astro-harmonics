@@ -1620,6 +1620,17 @@ lf_t, gf_t = (f'{tmp}/h63/{n}_jupiter_tables.xlsx' for n in ('lingfield', 'ascot
 for inp, out in (('reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_t), (f'{tmp}/race_batch_20120619_ascot_1430.xlsx', gf_t)):
     subprocess.run([sys.executable, bf, inp, '--full', '--out', out], capture_output=True, text=True)
 os.remove(bf)
+# 22 Oct 2026 (Eddie, sky star timelines trimmed, T24 STAR SELECT): builds by the code of commit 00b6db9e (LONG STAR TIMELINE) - test 38
+# compares 632447ff with these, test 39 compares these with now
+bf = 'tools/_jt_before_00b6db9e.py'
+open(bf, 'w').write(subprocess.run(['git', 'show', '00b6db9e:tools/jupiter_tables.py'], capture_output=True, text=True).stdout)
+os.makedirs(f'{tmp}/h00', exist_ok=True)
+lf_u, gf_u = (f'{tmp}/h00/{n}_jupiter_tables.xlsx' for n in ('lingfield', 'ascot'))
+lf_ud, gf_ud = (f'{tmp}/h00/{n}_def_jupiter_tables.xlsx' for n in ('lingfield', 'ascot'))
+for inp, out, fl in (('reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_u, ['--full']), (f'{tmp}/race_batch_20120619_ascot_1430.xlsx', gf_u, ['--full']),
+                     ('reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_ud, []), (f'{tmp}/race_batch_20120619_ascot_1430.xlsx', gf_ud, [])):
+    subprocess.run([sys.executable, bf, inp] + fl + ['--out', out], capture_output=True, text=True)
+os.remove(bf)
 leak = []
 for w in (gfw, openpyxl.load_workbook(f'{tmp}/full_pairs.xlsx', read_only=True)):
     for sh in w.sheetnames:
@@ -1629,7 +1640,7 @@ for w in (gfw, openpyxl.load_workbook(f'{tmp}/full_pairs.xlsx', read_only=True))
             if x and (x[0] in ('T1', 'T2', 'T24', 'T24 H / J', 'T24 HORSE RATIOS', 'T24 JOCKEY RATIOS')   # T24 ratio tables (test 32)
                       or sh == 'SKY JUPITER' and x[0] in ('SKY', 'SKY STARS', 'TIMELINE', 'LONG TIMELINE', 'STAR TIMELINE', 'LONG STAR TIMELINE')   # SKY block (test 31); SKY STARS, sky timelines (test 33)
                       or x[0] in ('TIMELINE H', 'TIMELINE J', 'LONG TIMELINE H', 'LONG TIMELINE J', 'STAR TIMELINE H', 'STAR TIMELINE J',
-                                 'LONG STAR TIMELINE H', 'LONG STAR TIMELINE J')):  # 22 Oct 2026 (tests 37, 38)
+                                 'LONG STAR TIMELINE H', 'LONG STAR TIMELINE J', 'T24 STAR SELECT')):  # 22 Oct 2026 (tests 37 - 39)
                 continue
             hit = [v for v in x if isinstance(v, str) and NEWRE.search(v)]
             if hit:
@@ -2712,14 +2723,17 @@ for nm, w in (('Ascot', gw), ('Lingfield', lfw)):
     for sh, pairs in [('SKY JUPITER', [('TIMELINE', 'STAR TIMELINE')])] + [(P, [(f'TIMELINE {C}', f'STAR TIMELINE {C}') for C in 'HJ']) for P in runner_tabs(w)]:
         for src_t, st_t in pairs:
             allr = [x for x in w[sh].iter_rows(values_only=True) if x and x[0] in (src_t, st_t)]
-            a_ = [x[1:] for x in allr if x[0] == src_t and isstar(str(x[4] or '')) and not str(x[3]).startswith('———')]
-            b_ = [x[1:] for x in allr if x[0] == st_t and not str(x[3]).startswith('———')]
+            # 22 Oct 2026 (test 39): the sky STAR TIMELINE keeps S Jupiter-centred events only and has three more columns
+            sky_ = sh == 'SKY JUPITER'
+            a_ = [x[1:13] if sky_ else x[1:] for x in allr if x[0] == src_t and isstar(str(x[4] or '')) and not str(x[3]).startswith('———')
+                  and (not sky_ or str(x[4]).startswith('S Jupiter'))]
+            b_ = [x[1:13] if sky_ else x[1:] for x in allr if x[0] == st_t and not str(x[3]).startswith('———')]
             mk = [x[3] for x in allr if x[0] == st_t and str(x[3]).startswith('———')]
             if a_ != b_ or mk != ['——— OFF ———', '——— OFF + 5 MIN ———']:
                 bad.append((nm, sh, st_t, len(a_), len(b_), mk))
             det.append(f'{nm} {sh} {st_t} {len(b_)}')
 check('T37 STAR TIMELINE (sky) and STAR TIMELINE H / J = exactly the TIMELINE rows whose relationship is between Jupiter and stars only (same '
-      'cells, same order), with the OFF / OFF + 5 MIN markers, both races', not bad, f'{det[:3]} ...; {bad[:3]}')
+      'cells, same order; sky since 22 Oct 2026: S Jupiter-centred only, first 12 cells), with the OFF / OFF + 5 MIN markers, both races', not bad, f'{det[:3]} ...; {bad[:3]}')
 # LONG threshold >= 90 (22 Oct 2026): every LONG row scores >= 90 at the off; the >= 80 events of the build before scoring >= 90 all kept
 # (compare_tl above); titles
 lows = [(sh, x[0], x[10]) for w in (gw, lfw) for sh in ['SKY JUPITER'] + runner_tabs(w) for x in w[sh].iter_rows(values_only=True)
@@ -2790,7 +2804,7 @@ for tid, C, x, pl, tv in (('TIMELINE H', 'H', 'Nunki', 'Equator', 15 / 8), ('LON
 # every other row unchanged. "Before" = commit 632447ff.
 print('test 38: LONG STAR TIMELINE')
 out38 = {}
-for nm, bo, after in (('Lingfield', lf_t, lf), ('Ascot', gf_t, gf)):        # builds by the code of 632447ff (above)
+for nm, bo, after in (('Lingfield', lf_t, lf_u), ('Ascot', gf_t, gf_u)):    # 632447ff -> 00b6db9e (the builds above)
     out38[nm] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_longstar/check_longstar.py', bo, after], capture_output=True, text=True).stdout
 W38 = {'Ascot': {'SKY JUPITER LONG STAR TIMELINE': '59 (28 / 31)', 'P01 LONG STAR TIMELINE H': '45 (21 / 24)', 'P01 LONG STAR TIMELINE J': '44 (21 / 23)'},
        'Lingfield': {'SKY JUPITER LONG STAR TIMELINE': '3 (0 / 3)', 'P01 LONG STAR TIMELINE H': '3 (1 / 2)', 'P01 LONG STAR TIMELINE J': '3 (0 / 3)',
@@ -2826,6 +2840,286 @@ for nm, w in (('Ascot', gw), ('Lingfield', lfw)):
                     bad.append((nm, sh, tid, sec))
 check('T38 LONG STAR TIMELINE sections in order (own check): by score at the off, highest first (shown 2-dp scores never rise; the time '
       'tie-break is the LONG TIMELINE order, compared row for row above); separating / applying in the right section', not bad, f'{bad[:3]}')
+# Test 39 (Eddie, 22 Oct 2026): sky STAR / LONG STAR TIMELINE trimmed to S Jupiter-centred events, 95 / 100 / 95 times; runner T24 STAR
+# SELECT tables. "Before" = commit 00b6db9e.
+print('test 39: sky star timelines trimmed, 95 / 100 / 95, T24 STAR SELECT')
+out39 = {}
+for nm, inp, after, bfull, bdef in (('Lingfield', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf, lf_u, lf_ud),
+                                    ('Ascot', f'{tmp}/race_batch_20120619_ascot_1430.xlsx', gf, gf_u, gf_ud)):
+    for fl in ('--full', None):
+        ao = after if fl else f'{tmp}/{nm}_after39_def_jupiter_tables.xlsx'
+        if not fl:
+            subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
+        out39[(nm, fl or 'default')] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_select/compare_sel.py', bfull if fl else bdef, ao],
+                                                      capture_output=True, text=True).stdout
+DROP39 = {'Ascot': ('SKY JUPITER LONG STAR TIMELINE: before 59, after 45, dropped 14: S Aculeus – S Rukbat RA 16×φ (golden) (99.87); S Antares – '
+                    'S Alphard Dec 17.7778 (ninth) (96.89)'), 'Lingfield': 'SKY JUPITER LONG STAR TIMELINE: before 3, after 2, dropped 1: S Sirius – S Rigel RA 14×φ (golden) (92.35)'}
+check('T39 against the build before (commit 00b6db9e), both races, default and --full (chk_select/compare_sel.py): sky STAR / LONG STAR '
+      'TIMELINE = before minus exactly the star-to-star distance events (Ascot LONG 14, e.g. S Aculeus – S Rukbat RA 16×φ; STAR 0; Lingfield '
+      'LONG 1, S Sirius – S Rigel RA 14×φ), every remaining row S Jupiter-centred, its cells identical, the header + "> 95 since", "100", '
+      '"< 95 from"; T24 STAR SELECT new on the runner sheets; every other row identical',
+      all(line(o, 'mismatches:') == 'mismatches: 0' for o in out39.values()) and all(DROP39[k[0]] in o for k, o in out39.items())
+      and all('STAR TIMELINE: before 65, after 65, dropped 0' in o for k, o in out39.items() if k[0] == 'Ascot'),
+      f"{ {k: line(o, 'mismatches:') for k, o in out39.items()} }")
+# (b) every 95 / 100 / 95 cell re-searched with the engine (own score code from POSITIONS + engine; families.py for the targets)
+_s.path.insert(0, 'tools/jup2')
+import motion as MO2
+
+
+def sky_engine(w, off, race, batch):
+    jd = EN._to_jd_ut(EN._parse_time(off, 'Europe/London'))
+    site = MO2.off_and_site(race, 'TRANS', batch, None, None)[1]
+    b0 = EN.bodies_at(jd, *site, False)
+    sk = {x[3]: x for x in w['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'SKY' and x[3]}
+    cache = {}
+
+    def at(p, m):
+        if m not in cache:
+            cache[m] = EN.bodies_at(jd + m / 1440.0, *site, False)
+        eb = p + '_B' if sk[p][4] == 'star' else p
+        b = cache[m]
+        return ((sk[p][5] + (b[eb]['ra'] - b0[eb]['ra'] + 180) % 360 - 180) % 360, sk[p][6] + b[eb]['dec'] - b0[eb]['dec'])
+    return at
+
+
+def dpl(p, q, pl):
+    if pl == 'RA':
+        x = abs(p[0] - q[0]) % 360
+        return min(x, 360 - x)
+    return abs(p[1] - q[1]) if pl == 'Dec' else abs(abs(p[1]) - abs(q[1]))
+
+
+def own_score(at, r, m, big, side):
+    rel, pl, kind, tgt = r[4], r[5], r[6], r[7]
+    if kind == 'distance':
+        a, b = rel.split(' → ')
+        lab, fam = tgt.rsplit(' (', 1)
+        v = dpl(at(a[2:], m), at(b[2:], m), pl)
+        return next((d['score'] for d in families.evaluate(v, pl if pl in ('RA', 'Dec') else None, 'deg') if d['family'] == fam[:-1] and d['target'] == lab), 0.0)
+    x, y = rel.split(': ')[1].split(' – ')
+    J, X, Y = at('Jupiter', m), at(x[2:], m), at(y[2:], m)
+    dx, dy = dpl(J, X, pl), dpl(J, Y, pl)
+    if kind == 'ratio':
+        v = dx / dy if big else dy / dx
+        return next((d['score'] for d in families.evaluate(v, None, 'ratio') if d['target'] == tgt.split(' · ')[0]), 0.0)
+    close = 100 * min(dx, dy) / max(dx, dy)
+    if 100 - close > 10:
+        return 0.0
+    if pl == 'RA':
+        mid = (X[0] + ((Y[0] - X[0] + 180) % 360 - 180) / 2) % 360
+        near, far = (J[0] - mid + 180) % 360 - 180, (J[0] - mid) % 360 - 180
+        off, tol = (near if side == 'near' else far), 0.5
+    else:
+        f = (lambda v: v) if pl == 'Dec' else abs
+        off, tol = f(J[1]) - (f(X[1]) + f(Y[1])) / 2, 0.15
+    if abs(off) > tol:
+        return 0.0
+    return 0.5 * (10 * (10 - (100 - close)) / 10) ** 2 + 0.5 * (10 * (tol - abs(off)) / tol) ** 2
+
+
+def mins_of(cell):
+    if cell in ('—', 'not within 1 year'):
+        return cell
+    t = cell.split('(')[1].rstrip(')').replace('−', '-')
+    return float(t.split()[0]) * (1440 if 'days' in t else 1)
+
+
+bad, n95, nd, nnf = [], 0, 0, 0
+for nm, w, off, race, batch in (('Ascot', gw, '2012-06-19 14:30', 'ascot_1430_20120619', f'{tmp}/race_batch_20120619_ascot_1430.xlsx'),
+                                ('Lingfield', lfw, '2021-04-02 14:35', 'lingfield_aw_1435_20210402', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx')):
+    at = sky_engine(w, off, race, batch)
+    for tid, c95 in (('STAR TIMELINE', 13), ('LONG STAR TIMELINE', 15)):
+        for r in w['SKY JUPITER'].iter_rows(values_only=True):
+            if not (r and r[0] == tid and r[3] and not str(r[3]).startswith('———')):
+                continue
+            big = side = None
+            if r[6] != 'distance':
+                x, y = r[4].split(': ')[1].split(' – ')
+                J, X, Y = at('Jupiter', 0), at(x[2:], 0), at(y[2:], 0)
+                big = dpl(J, X, r[5]) >= dpl(J, Y, r[5])
+                if r[5] == 'RA':
+                    mid = (X[0] + ((Y[0] - X[0] + 180) % 360 - 180) / 2) % 360
+                    side = 'near' if abs((J[0] - mid + 180) % 360 - 180) <= abs((J[0] - mid) % 360 - 180) else 'far'
+            sc = lambda m: own_score(at, r, m, big, side)
+            since, exact, frm = (mins_of(v) for v in r[c95:c95 + 3])
+            if since == '—':
+                nd += 1
+                m0 = 0.0 if exact == 'not within 1 year' else exact
+                if not (frm == '—' and sc(m0) < 95):
+                    bad.append((nm, tid, r[4], r[5], 'dash', sc(m0)))
+                continue
+            for v, sgn in ((since, -1), (frm, 1)):
+                if v == 'not within 1 year':
+                    nnf += 1
+                    m0 = 0.0 if exact == 'not within 1 year' else exact
+                    if not all(sc(m0 + sgn * dd * 1440) >= 95 for dd in range(1, 367)):
+                        bad.append((nm, tid, r[4], r[5], 'nf', sgn))
+                    continue
+                n95 += 1
+                dm = 8.0 if abs(v) >= 1440 else 1.0               # shown in days beyond a day (0.01 day = 14.4 min): ±8 min
+                ins, outs = sc(v - sgn * dm), sc(v + sgn * dm)      # inside the 95 window on the exact-time side, outside beyond
+                if not (ins >= 95 > outs):
+                    bad.append((nm, tid, r[4], r[5], 'since' if sgn < 0 else 'from', v, round(ins, 3), round(outs, 3)))
+check('T39 every "> 95 since" / "< 95 from" cell of the sky STAR / LONG STAR TIMELINE re-searched (own score code: family / interval on its own '
+      'tolerance, midpoint total; engine positions): the score is >= 95 one minute inside and < 95 one minute outside (8 min for a cell shown '
+      'in days, 0.01 day); "—" only where the score '
+      'is under 95 at the exact time; "not within 1 year" by a daily ±1 year scan; both races', not bad and n95 > 0,
+      f'{n95} crossings, {nd} dashes, {nnf} not within 1 year; {bad[:3]}')
+# (c) T24 STAR SELECT: selection = the rule, layout, cells
+def sky_sel(w):
+    seen, sing, pair = {}, {}, {}
+    for tid in ('STAR TIMELINE', 'LONG STAR TIMELINE'):
+        for r in w['SKY JUPITER'].iter_rows(values_only=True):
+            if r and r[0] == tid and r[3] and not str(r[3]).startswith('———'):
+                k = (r[4], r[5], r[6], r[7])
+                if k in seen:
+                    continue
+                seen[k] = r
+                if r[10] is None:
+                    continue
+                if r[6] == 'distance' and r[10] > 90:
+                    sing.setdefault(r[4].split(' → S ')[1], []).append(k)
+                elif r[6] in ('ratio', 'midpoint') and r[10] > 95:
+                    pair.setdefault(tuple(z[2:] for z in r[4].split(': ')[1].split(' – ')), []).append(k)
+    o = {x: i for i, x in enumerate(EXPECT67)}
+    return ([('single', (x,)) for x in sorted(sing, key=o.get)]
+            + [('pair', ab) for ab in sorted(pair, key=lambda ab: (min(o[z] for z in ab), max(o[z] for z in ab)))]), sing, pair
+
+
+TB = [b for b in JT.T24_BODIES if b != 'Moon']
+PRS = list(itertools.combinations(TB, 2))
+fill_ = lambda c: c.fill.start_color.rgb if c.fill and c.fill.fill_type else None
+COLS = {'green': GREEN, 'yellow': YELLOW, 'light': LIGHT}
+
+
+def want_ratio(a, b, pl):
+    if a < (1.5 if pl == 'RA' else 0.3) or b < (1.5 if pl == 'RA' else 0.3):
+        return ('together', None)
+    v = max(a, b) / min(a, b)
+    e_ = families.best(v, None, 'ratio')
+    return (round(v, 6), (e_['target'], round(e_['score'], 2), COLS[e_['colour']]) if e_ else None)
+
+
+bad, det = [], []
+for nm, w in (('Ascot', gw), ('Lingfield', lfw)):
+    sel, sing, pair = sky_sel(w)
+    for P in runner_tabs(w):
+        pp = {(x[2], x[3]): (x[5], x[6]) for x in w['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == P and x[3]}
+        rows = list(w[P].iter_rows())
+        t24 = t24_blocks(w[P])
+        idx = [i for i, r in enumerate(rows) if r[0].value == 'T24 STAR SELECT' and str(r[1].value or '').startswith('T24 STAR SELECT —')]
+        got = [str(rows[i][1].value).split(': ')[0][len('T24 STAR SELECT — '):] for i in idx]
+        want = [' – '.join(f'S {z}' for z in st) for k, st in sel]
+        if got != want:
+            bad.append((nm, P, 'selection', got[:3], want[:3])); continue
+        for i, (k, st) in zip(idx, sel):
+            h1, h2 = [c.value for c in rows[i + 1]], [c.value for c in rows[i + 2]]
+            names = h2[2:2 + 48 + 552]
+            if names != TB + TB + [f'{a} / {b}' for a, b in PRS] * 2 or [h1[2], h1[26], h1[50], h1[326]] != ['RA', 'Dec', 'RA pairs', 'Dec pairs']:
+                bad.append((nm, P, st, 'header')); continue
+            if k == 'single':
+                x = st[0]
+                labs = [f'H {x}', f'J {x}', f'H / J {x}']
+            else:
+                a_, b_ = st
+                labs = [f'H {a_}', f'H {b_}', f'H {a_} / {b_}', None, f'J {a_}', f'J {b_}', f'J {a_} / {b_}', None, f'H / J {a_}', f'H / J {b_}']
+            body = rows[i + 3:i + 3 + len(labs)]
+            if [r[1].value for r in body] != labs:
+                bad.append((nm, P, st, 'rows', [r[1].value for r in body])); continue
+            for r, lab in zip(body, labs):
+                if lab is None:
+                    if any(c.value is not None for c in r):
+                        bad.append((nm, P, st, 'blank row'))
+                    continue
+                cells = r[2:2 + 48 + 552]
+                if ' / ' in lab:                           # ratio rows: body cells ratios, pair columns blank
+                    if lab.startswith('H / J'):
+                        z = lab[6:]; p_, q_ = ('H', z), ('J', z)
+                    else:
+                        C = lab[0]; aa, bb = lab[2:].split(' / '); p_, q_ = (C, aa), (C, bb)
+                    for j, pl in enumerate(('RA', 'Dec')):
+                        for n_, B in enumerate(TB):
+                            c = cells[24 * j + n_]
+                            wv = want_ratio(dpl(pp[p_], pp[(p_[0], B)], pl), dpl(pp[q_], pp[(q_[0], B)], pl), pl)
+                            gv = (c.value, (c.comment.text.split(' · ')[0], round(float(c.comment.text.split(' · ')[-1]), 2), fill_(c))
+                                  if c.value != 'together' and fill_(c) else None)
+                            if wv != gv:
+                                bad.append((nm, P, lab, pl, B, wv, gv))
+                    if any(c.value is not None for c in cells[48:]):
+                        bad.append((nm, P, lab, 'pair columns not blank'))
+                    continue
+                C, x = lab[0], lab[2:]
+                hdr_, trow = t24[f"T24 {'HORSE' if C == 'H' else 'JOCKEY'}"]
+                tc = {kk: cc for kk, cc in zip(hdr_, trow[f'{C} {x}'])}
+                for j, pl in enumerate(('RA', 'Dec')):
+                    for n_, B in enumerate(TB):
+                        c, t_ = cells[24 * j + n_], tc[(B, pl)]
+                        if (c.value, fill_(c), c.comment.text if c.comment else None) != (t_.value, fill_(t_), t_.comment.text.split('\n')[0]):
+                            bad.append((nm, P, lab, pl, B, 'body cell'))
+                    for n_, (A_, B_) in enumerate(PRS):
+                        c = cells[48 + 276 * j + n_]
+                        wv = want_ratio(dpl(pp[(C, x)], pp[(C, A_)], pl), dpl(pp[(C, x)], pp[(C, B_)], pl), pl)
+                        gv = (c.value, (c.comment.text.split(' · ')[0], round(float(c.comment.text.split(' · ')[-1]), 2), fill_(c))
+                              if c.value != 'together' and fill_(c) else None)
+                        if wv != gv:
+                            bad.append((nm, P, lab, pl, f'{A_} / {B_}', wv, gv))
+        det.append(f'{nm} {P} {len(idx)} tables')
+check('T39 T24 STAR SELECT, both races every runner: tables = the rule from the sky STAR / LONG STAR TIMELINE (singles S Jupiter → S star > 90, '
+      'pairs S Jupiter: S A – S B ratio / midpoint > 95, an event in both once; singles in RA order, then pairs), header RA / Dec 24 + 24 and '
+      'pairs 276 + 276 in order, row labels and blank rows; every body cell = the T24 HORSE / JOCKEY cell (value, fill, first comment line); '
+      'every ratio recomputed from POSITIONS (value, interval, score, fill; "together" when a leg is under RA 1.5 / Dec 0.3); ratio rows\' pair '
+      'columns blank', not bad, f'{det}; {bad[:3]}')
+sel_a, sing_a, pair_a = sky_sel(gw)
+check('T39 rebuilt Ascot selection: 3 singles (Meissa 90.61, Castor 97.57, Algorab 93.96) and 25 pairs (e.g. Mirfak – Orion Nebula Cluster Dec '
+      '6/5 99.94, Vega – Nunki Dec 1+√2 99.13); Lingfield: Betelgeuse (RA φ^10 99.13) and Alkaid – Betelgeuse (Equator 5, 98.80)',
+      [st[0] for k, st in sel_a if k == 'single'] == ['Meissa', 'Castor', 'Algorab'] and sum(1 for k, _ in sel_a if k == 'pair') == 25
+      and sky_sel(lfw)[0] == [('single', ('Betelgeuse',)), ('pair', ('Alkaid', 'Betelgeuse'))], f'{sel_a[:4]}')
+# by hand from POSITIONS (rebuilt Ascot P01): a single-star pair cell, an H / J cell, an H A / B cell, a together cell, a 95 crossing
+pp = {(x[2], x[3]): (x[5], x[6]) for x in gw['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'P01' and x[3]}
+rows = list(gw['P01'].iter_rows())
+
+
+def sel_cell(title, lab, colname, pl):
+    i = next(k for k, r in enumerate(rows) if r[0].value == 'T24 STAR SELECT' and str(r[1].value).startswith(f'T24 STAR SELECT — {title}:'))
+    h1, h2 = rows[i + 1], rows[i + 2]
+    r = next(r for r in rows[i + 3:i + 14] if r[1].value == lab)
+    start = {'RA': 2, 'Dec': 26, 'RA pairs': 50, 'Dec pairs': 326}[pl]
+    n = 24 if pl in ('RA', 'Dec') else 276
+    j = next(j for j in range(start, start + n) if h2[j].value == colname)
+    return r[j]
+
+
+a, b = dpl(pp[('H', 'Castor')], pp[('H', 'Pluto')], 'RA'), dpl(pp[('H', 'Castor')], pp[('H', 'Eris')], 'RA')
+v = max(a, b) / min(a, b); c = sel_cell('S Castor', 'H Castor', 'Pluto / Eris', 'RA pairs')
+check(f'T39 T24 STAR SELECT S Castor, H Castor RA pair Pluto / Eris by hand from POSITIONS: {a:.6f} / {b:.6f} = {v:.6f}, 7/4 B '
+      f'{(v / 1.75 - 1) * 100:+.5f}% ({sq(0.15, abs((v / 1.75 - 1) * 100)):.2f})', c.value == round(v, 6) and abs(v - 1.750159) < 1e-6
+      and c.comment.text == f'7/4 · harmonic seventh · Septimal · B · {(v / 1.75 - 1) * 100:+.5f}% · {sq(0.15, abs((v / 1.75 - 1) * 100)):.2f}'
+      and fill_(c) == GREEN, f'{c.value}; {c.comment.text}')
+a, b = dpl(pp[('H', 'Castor')], pp[('H', 'Sedna')], 'RA'), dpl(pp[('J', 'Castor')], pp[('J', 'Sedna')], 'RA')
+v = max(a, b) / min(a, b); c = sel_cell('S Castor', 'H / J Castor', 'Sedna', 'RA')
+check(f'T39 T24 STAR SELECT S Castor, H / J Castor RA Sedna by hand from POSITIONS: {a:.6f} / {b:.6f} = {v:.6f}, 7/6 B '
+      f'({sq(0.15, abs((v / (7 / 6) - 1) * 100)):.2f})', c.value == round(v, 6) and abs(v - 1.166799) < 1e-6 and c.comment.text.startswith('7/6 · ')
+      and c.comment.text.endswith(f'{sq(0.15, abs((v / (7 / 6) - 1) * 100)):.2f}'), f'{c.value}; {c.comment.text}')
+a, b = dpl(pp[('H', 'Mirfak')], pp[('H', 'Sun')], 'RA'), dpl(pp[('H', 'Orion Nebula Cluster')], pp[('H', 'Sun')], 'RA')
+v = max(a, b) / min(a, b); e_ = families.best(v, None, 'ratio'); n_ = families.outside(v, None, 'ratio')
+c = sel_cell('S Mirfak – S Orion Nebula Cluster', 'H Mirfak / Orion Nebula Cluster', 'Sun', 'RA')
+check(f'T39 T24 STAR SELECT S Mirfak – S Orion Nebula Cluster, H Mirfak / Orion Nebula Cluster RA Sun by hand from POSITIONS: {a:.6f} / {b:.6f} '
+      f'= {v:.6f} ({e_["target"] if e_ else "nearest " + n_["target"] + ", outside"})', c.value == round(v, 6)
+      and (c.comment.text.startswith(f"{e_['target']} · ") if e_ else c.comment.text.startswith(f"nearest: {n_['target']} · ")), f'{c.value}; {c.comment.text}')
+a = dpl(pp[('H', 'Orion Nebula Cluster')], pp[('H', 'Mars')], 'RA')
+c = sel_cell('S Mirfak – S Orion Nebula Cluster', 'H Mirfak / Orion Nebula Cluster', 'Mars', 'RA')
+check(f'T39 T24 STAR SELECT together by hand from POSITIONS: H Mirfak / Orion Nebula Cluster RA Mars, d(H Orion Nebula Cluster, H Mars) '
+      f'{a:.6f} < 1.5 -> "together", no fill, the leg named', a < 1.5 and c.value == 'together' and not fill_(c)
+      and f'H Orion Nebula Cluster, H Mars {a:.6f}' in c.comment.text, f'{c.value}; {c.comment.text}')
+# 95 crossing: S Jupiter → S Castor RA on 54 (whole, ±0.02): score 95 at |v − 54| = 0.02 (1 − √0.95) = 0.000506
+at = sky_engine(gw, '2012-06-19 14:30', 'ascot_1430_20120619', f'{tmp}/race_batch_20120619_ascot_1430.xlsx')
+r = next(x for x in gw['SKY JUPITER'].iter_rows(values_only=True) if x and x[0] == 'STAR TIMELINE' and x[4] == 'S Jupiter → S Castor' and x[5] == 'RA')
+dv = lambda m: dpl(at('Jupiter', m), at('Castor', m), 'RA') - 54
+since, frm = mins_of(r[13]), mins_of(r[15])
+lim = 0.02 * (1 - 0.95 ** 0.5)
+check(f'T39 STAR TIMELINE S Jupiter → S Castor RA (54 whole) by hand with the engine: score 95 where |d − 54| = {lim:.6f}; "> 95 since" {r[13]}, '
+      f'"100" {r[14]}, "< 95 from" {r[15]}', abs(dv(since - 1)) > lim > abs(dv(since + 1)) and abs(dv(frm + 1)) > lim > abs(dv(frm - 1)),
+      f'd−54 at since ±1: {dv(since - 1):+.6f} / {dv(since + 1):+.6f}; at from ±1: {dv(frm - 1):+.6f} / {dv(frm + 1):+.6f}')
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

@@ -109,7 +109,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct; 46 since 20 Oct, 67 since 21 Oct; conjunction cells red, 20 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (225/225; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (234/234; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -775,6 +775,56 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   T24 H / J and RATIOS 4,508, SKY block 2,556, SKY STARS 6,864 (completeness, blocks, order; 173 old rows identical); TIMELINE / LONG star
   events rebuilt, 24 real times within 1 min, 7 not within 1 year by an hourly scan; the 11 nowhere else; Lingfield unchanged: 0 mismatches.
 
+## jupiter_tables: sky star timelines trimmed, 95 / 100 / 95 times, T24 STAR SELECT (Eddie, 22 Oct 2026; viewing only)
+- SKY JUPITER STAR TIMELINE and LONG STAR TIMELINE: only events centred on S Jupiter (sj_event: 'S Jupiter → S star' RA / Dec and
+  'S Jupiter: S A – S B' ratio / midpoint); star-to-star distances (the d(A, B) leg of a pair row) dropped. Runner timelines, sky TIMELINE /
+  LONG TIMELINE unchanged. Dropped: rebuilt Ascot 14:30 2012 LONG STAR 59 -> 45 (14: S Aculeus – S Rukbat RA 16×φ 99.87, S Antares – S Alphard
+  Dec ninth 17.7778 96.89, S Rigel – S Alnilam Dec 7 95.94, S Acubens – S Facies RA ninth 144.444 95.42, S Altair – S Sadalsuud Dec ninth 14.4444
+  95.32, S Sirius – S Acubens RA ninth 33.3333 93.81, S Procyon – S Facies Dec 18×φ 91.74, S Zosma – S Markab RA ninth 177.778 91.18, S Zosma –
+  S Sualocin RA 141.4 90.63, S Betelgeuse – S Nunki Equator ninth 18.8889 99.72, S Fomalhaut – S Algenib RA ninth 18.8889 97.11, S Deneb Algedi –
+  S Phact Dec φ^6 93.98, S Mirach – S Zubeneschamali Dec 45 93.42, S Fomalhaut – S Alkes RA 10×φ^6 92.94), STAR 65 -> 65 (none in the window);
+  Lingfield 14:35 2021 LONG STAR 3 -> 2 (S Sirius – S Rigel RA 14×φ 92.35), STAR 3 -> 3.
+- Three new columns on both blocks (W95_HEAD; win95 / score_at): "> 95 since", "100" (the exact time as before), "< 95 from": the event's
+  own score (distance / ratio on its family and target, own tolerance; midpoint total, RA side fixed at the off) from the engine (race site,
+  sky at m = workbook value at the off + engine(m) − engine(off)); from the exact time (the off when not within 1 year) step outward on the
+  grid of the LONG search (10 min for a day, then 1 h, up to 1 year), first minute under 95, bisect to the minute; "not within 1 year";
+  "—" = under 95 at the exact time. Format as the linear-estimate column ('hh:mm (±n.n min)', dates and days beyond a day). E.g. Ascot
+  S Jupiter → S Castor RA 54 (whole): 14:28 (−1.7) / 14:31 (+1.5) / 14:34 (+4.4); S Orion Nebula Cluster – S Phact Equator midpoint 91.95:
+  16:37 (+127.8) / 20:02 (+332.2) / 23:25 (+535.3). No "—" or "not within 1 year" in these two races.
+- T24 STAR SELECT (write_t24sel, star_select; runner sheets after T24 JOCKEY RATIOS): selection from the trimmed sky STAR TIMELINE and LONG
+  STAR TIMELINE together (an event in both once): singles = S Jupiter → S star with score at the off > 90 (one table per star), pairs =
+  S Jupiter: S A – S B ratio / midpoint > 95 (one table per pair); singles in RA order, then pairs (RA order of the first, then second star).
+  Title lists each selecting event (timeline(s), relationship, plane, kind, target, score, exact time). Columns: the 24 natal T24 bodies RA,
+  then Dec (as T24 HORSE, no midpoint columns), then 276 RA pairs and 276 Dec pairs 'X / Y' (Jupiter and the own Rahu – Ketu included).
+  Rows: single H <star>, J <star> (T24 row cells + pair cells d(star, X) / d(star, Y)), H / J <star> (d(H star, H X) / d(J star, J X), pair
+  columns blank); pair H A, H B, H A / B, blank, J A, J B, J A / B, blank, H / J A, H / J B. Ratio cells as T24 RATIOS (t24r_cell, tags off:
+  no automatic / assisted - Claude's default, Eddie to say if wanted); 'together' when a leg is under RA 1.5 / Dec 0.3. Natal, fixed.
+  Selected, rebuilt Ascot (28 tables): singles Meissa RA 24.14 silver 90.61, Castor RA 54 97.57, Algorab RA 79×φ 93.96; pairs Deneb Algedi –
+  Ankaa RA 7/4 95.34, Mirach – Murzim Equator 9 98.41, Betelgeuse – Al Rescha RA 1 96.18, Al Rescha – Adhara Equator 11/6 95.84, Menkar –
+  Praesepe RA 5 95.88, Algol – Sadalsuud Equator 3/2 97.45, Mirfak – Orion Nebula Cluster Dec 6/5 99.94, Mirfak – Acumen Equator 2 96.08,
+  Pleiades – Vindemiatrix Dec 2 98.48, Pleiades – Diadem Dec 2 98.64, Pleiades – Nunki Equator 3/2 95.80, Capella – Orion Nebula Cluster
+  Equator 11/6 98.40, Bellatrix – Scheat Dec 8/5 95.15, Orion Nebula Cluster – Murzim Dec 3/2 96.71, Murzim – Zosma Equator 11/5 95.33,
+  Vega – Castor RA 13/5 99.31, Regulus – Zubeneschamali Equator 4/3 99.08, Vega – Alkes RA 4/3 98.57, Denebola – Unukalhai RA 3/2 99.91,
+  Vindemiatrix – Zubenelgenubi RA 6/5 98.34, Unukalhai – Sadalmelik RA 2 95.33, Ras Algethi – Kaus Australis Equator 11/4 98.30, Galactic
+  Centre – Rukbat Equator 9/4 99.64, Facies – Deneb Dec 1+1/√2 96.78, Vega – Nunki Dec 1+√2 99.13 (P01: 237 rows). Lingfield (2 tables per
+  runner, 13 rows): Betelgeuse RA φ^10 99.13; Alkaid – Betelgeuse Equator 5 98.80.
+- Sizes (tables default / --full; pairs unchanged): rebuilt Ascot 0.97 / 1.03 -> 3.02 / 3.08 MB; Lingfield 2.16 / 2.38 -> 2.88 / 3.10 MB.
+- Compared with the build before (commit 00b6db9e; chk_select/compare_sel.py), both races default and --full: sky STAR / LONG STAR = before
+  minus exactly the dropped events above, old cells identical, header + the three new names; every other row identical; 0 mismatches.
+- Tests 234/234 (test 39 new): compare_sel as above; every 95 cell of both races re-searched (own score code, engine; >= 95 one minute inside,
+  < 95 one minute outside); T24 STAR SELECT selection = the rule, headers (24 + 24, 276 + 276), row labels and blank rows, every body cell =
+  the T24 cell, every ratio recomputed from POSITIONS (value, interval, score, fill, together), ratio rows' pair columns blank, both races
+  every runner; by hand: S Castor H Castor RA Pluto / Eris 1.750159 7/4 B (88.22), H / J Castor RA Sedna 1.166799 7/6 (85.48), H Mirfak /
+  Orion Nebula Cluster RA Sun, together H Mirfak / Orion Nebula Cluster RA Mars (d(H Orion Nebula Cluster, H Mars) 0.333693), the 95
+  crossings of S Jupiter → S Castor RA 54 (|d − 54| = 0.000506). Changed for this: test 38 compares 632447ff with builds by 00b6db9e's code; test 30's leak check allows T24 STAR SELECT; test 37's sky STAR
+  TIMELINE check uses the S Jupiter rule and the first 12 cells; a 95 cell shown in days is checked at ±8 min (0.01 day).
+  Independent checker (22 Oct), own code from POSITIONS + engine (chk_select/check_sel_*.py), both races: (a) dropped events exactly as above
+  (Ascot LONG STAR separating 28 -> 19, applying 31 -> 26), old cells identical; (b) all 230 95-crossings of 115 rows re-searched (largest
+  difference 0.39 min; day-format cells to 0.01 day); (c) selection = the rule (left out correctly e.g. Vindemiatrix – Diadem 94.30,
+  S Jupiter → Alkaid 71.65), layout and merged ranges, 6,816 body cells and 84,768 ratio cells (together 1,743, hit 10,623, outside
+  72,402); (d) every other row identical, default = --full: 0 mismatches. Not exercised: "—" and "not within 1 year" cells; pair-table
+  order (RA order of the earlier star, then the other) is Claude's choice.
+
 ## jupiter_tables: LONG STAR TIMELINE (Eddie, 22 Oct 2026; viewing only)
 - SKY JUPITER "LONG STAR TIMELINE" straight after STAR TIMELINE, and on each runner sheet "LONG STAR TIMELINE H" / "LONG STAR TIMELINE J"
   straight after STAR TIMELINE H / J: the LONG TIMELINE (H / J) rows between Jupiter and stars only (star_event, as STAR TIMELINE), the same
@@ -948,6 +998,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 - **35 stars in T1, T2, T24 (13 new in the engine, no Polaris there) + trimmed default workbook, --full for the rest (19 Oct 2026, Eddie):**
   see its section; same day revised: the 35 in RA order, and the SKY block star rows on the 35. 
 - **T24 ratio tables T24 H / J, T24 HORSE RATIOS, T24 JOCKEY RATIOS (19 Oct 2026, Eddie):** see its section.
+- **Sky STAR / LONG STAR TIMELINE trimmed to S Jupiter-centred events + 95 / 100 / 95 times; runner T24 STAR SELECT tables (22 Oct 2026,
+  Eddie):** see its section. Tests 234/234.
 - **LONG STAR TIMELINE (sky) and LONG STAR TIMELINE H / J (22 Oct 2026, Eddie):** see its section. Tests 225/225.
 - **All 67 stars in every timeline (runner star events off-sheet), STAR TIMELINE (sky) and STAR TIMELINE H / J, LONG TIMELINE >= 90 (22 Oct
   2026, Eddie):** see its section. Tests 223/223.
