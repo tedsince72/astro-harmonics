@@ -1611,6 +1611,15 @@ for inp, out in (('reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx'
     subprocess.run([sys.executable, bf, inp, '--full', '--out', out], capture_output=True, text=True)
 os.remove(bf)
 gw46_s, gw_s = openpyxl.load_workbook(gf46_s), openpyxl.load_workbook(gf_s)
+# 22 Oct 2026 (Eddie, LONG STAR TIMELINE): builds by the code of commit 632447ff (star timelines, before LONG STAR TIMELINE) - test 37 compares
+# 18aff98a with these, test 38 compares these with now
+bf = 'tools/_jt_before_632447ff.py'
+open(bf, 'w').write(subprocess.run(['git', 'show', '632447ff:tools/jupiter_tables.py'], capture_output=True, text=True).stdout)
+os.makedirs(f'{tmp}/h63', exist_ok=True)
+lf_t, gf_t = (f'{tmp}/h63/{n}_jupiter_tables.xlsx' for n in ('lingfield', 'ascot'))
+for inp, out in (('reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_t), (f'{tmp}/race_batch_20120619_ascot_1430.xlsx', gf_t)):
+    subprocess.run([sys.executable, bf, inp, '--full', '--out', out], capture_output=True, text=True)
+os.remove(bf)
 leak = []
 for w in (gfw, openpyxl.load_workbook(f'{tmp}/full_pairs.xlsx', read_only=True)):
     for sh in w.sheetnames:
@@ -1618,8 +1627,9 @@ for w in (gfw, openpyxl.load_workbook(f'{tmp}/full_pairs.xlsx', read_only=True))
             continue
         for x in w[sh].iter_rows(values_only=True):
             if x and (x[0] in ('T1', 'T2', 'T24', 'T24 H / J', 'T24 HORSE RATIOS', 'T24 JOCKEY RATIOS')   # T24 ratio tables (test 32)
-                      or sh == 'SKY JUPITER' and x[0] in ('SKY', 'SKY STARS', 'TIMELINE', 'LONG TIMELINE', 'STAR TIMELINE')   # SKY block (test 31); SKY STARS, sky timelines (test 33)
-                      or x[0] in ('TIMELINE H', 'TIMELINE J', 'LONG TIMELINE H', 'LONG TIMELINE J', 'STAR TIMELINE H', 'STAR TIMELINE J')):  # 22 Oct 2026 (test 37)
+                      or sh == 'SKY JUPITER' and x[0] in ('SKY', 'SKY STARS', 'TIMELINE', 'LONG TIMELINE', 'STAR TIMELINE', 'LONG STAR TIMELINE')   # SKY block (test 31); SKY STARS, sky timelines (test 33)
+                      or x[0] in ('TIMELINE H', 'TIMELINE J', 'LONG TIMELINE H', 'LONG TIMELINE J', 'STAR TIMELINE H', 'STAR TIMELINE J',
+                                 'LONG STAR TIMELINE H', 'LONG STAR TIMELINE J')):  # 22 Oct 2026 (tests 37, 38)
                 continue
             hit = [v for v in x if isinstance(v, str) and NEWRE.search(v)]
             if hit:
@@ -2454,7 +2464,7 @@ check('T36 SKY STARS pairs of the Orion Nebula Cluster with Meissa, Alnilam, Pha
 print('test 37: all 67 stars in every timeline, STAR TIMELINE, LONG >= 90')
 SSRC = ('S Jup→star', 'star→Jup', 'S Jup on star pair', 'star apex')
 out37 = {}
-for nm, bo, after in (('Lingfield', lf_s, lf), ('Ascot', gf_s, gf)):   # the builds by the code of 18aff98a (above)
+for nm, bo, after in (('Lingfield', lf_s, lf_t), ('Ascot', gf_s, gf_t)):   # 18aff98a -> 632447ff (the builds above)
     out37[nm] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_startl/compare_tl.py', bo, after], capture_output=True, text=True).stdout
 W37 = {'Ascot': ['SKY JUPITER  LONG TIMELINE    before  126 (>= 90: 68) after   69', 'SKY JUPITER  STAR TIMELINE    before    0 after   65',
                  'SKY JUPITER  TIMELINE         before   90 after   90', 'P01          LONG TIMELINE H  before   17 (>= 90: 8) after   50',
@@ -2776,6 +2786,46 @@ for tid, C, x, pl, tv in (('TIMELINE H', 'H', 'Nunki', 'Equator', 15 / 8), ('LON
     check(f'T37 {tid} {x}: d(star, S Jupiter) / d(star, {C} Jupiter) {pl} (star apex) by hand from POSITIONS: {d1:.6f} / {d2:.6f} = {r0:.6f} '
           f'({sc_:.2f}), {t_:+.1f} min', r is not None and r[3] == 'star apex' and r[9] == round(r0, 6) and r[10] == round(sc_, 2) and tcheck,
           f'{r[:13] if r else r}')
+# Test 38 (Eddie, 22 Oct 2026): LONG STAR TIMELINE (sky) and LONG STAR TIMELINE H / J = the LONG TIMELINE rows between Jupiter and stars only;
+# every other row unchanged. "Before" = commit 632447ff.
+print('test 38: LONG STAR TIMELINE')
+out38 = {}
+for nm, bo, after in (('Lingfield', lf_t, lf), ('Ascot', gf_t, gf)):        # builds by the code of 632447ff (above)
+    out38[nm] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_longstar/check_longstar.py', bo, after], capture_output=True, text=True).stdout
+W38 = {'Ascot': {'SKY JUPITER LONG STAR TIMELINE': '59 (28 / 31)', 'P01 LONG STAR TIMELINE H': '45 (21 / 24)', 'P01 LONG STAR TIMELINE J': '44 (21 / 23)'},
+       'Lingfield': {'SKY JUPITER LONG STAR TIMELINE': '3 (0 / 3)', 'P01 LONG STAR TIMELINE H': '3 (1 / 2)', 'P01 LONG STAR TIMELINE J': '3 (0 / 3)',
+                     'P03 LONG STAR TIMELINE H': '3 (1 / 2)', 'P03 LONG STAR TIMELINE J': '4 (1 / 3)', 'P05 LONG STAR TIMELINE H': '4 (2 / 2)',
+                     'P05 LONG STAR TIMELINE J': '3 (1 / 2)', 'P07 LONG STAR TIMELINE H': '4 (3 / 1)', 'P07 LONG STAR TIMELINE J': '3 (1 / 2)',
+                     'P09 LONG STAR TIMELINE H': '3 (2 / 1)', 'P09 LONG STAR TIMELINE J': '3 (1 / 2)', 'P11 LONG STAR TIMELINE H': '4 (1 / 3)',
+                     'P11 LONG STAR TIMELINE J': '2 (1 / 1)'}}
+got38 = {nm: {f'{m.group(1)} {m.group(2)}': m.group(3) for m in re.finditer(r'^(\S+(?: JUPITER)?)\s+(LONG STAR TIMELINE(?: [HJ])?)\s+(\d+ \(\d+ / \d+\))$', o, re.M)}
+         for nm, o in out38.items()}
+check('T38 LONG STAR TIMELINE (sky) / LONG STAR TIMELINE H / J, both races --full (chk_longstar/check_longstar.py): every row = a row of the '
+      'matching LONG TIMELINE (identical cells and fills), every LONG row between Jupiter and stars only in it, none missing or extra, same order, '
+      'SEPARATING / APPLYING with their counts, title counts, every row >= 90; every other row of every sheet identical to the build before '
+      '(commit 632447ff); counts (separating / applying) as reported', all(line(o, 'mismatches:') == 'mismatches: 0' for o in out38.values())
+      and got38 == W38, f"{ {k: line(o, 'mismatches:') for k, o in out38.items()} }; {got38['Ascot']}")
+# sort (own check): inside each section by score at the off, highest first; ties: separating most recent first, applying soonest first
+bad = []
+for nm, w in (('Ascot', gw), ('Lingfield', lfw)):
+    for sh in ['SKY JUPITER'] + runner_tabs(w):
+        for tid in ('LONG STAR TIMELINE', 'LONG STAR TIMELINE H', 'LONG STAR TIMELINE J'):
+            sec, parts = None, {}
+            for x in w[sh].iter_rows(values_only=True):
+                if x and x[0] == tid:
+                    if str(x[3]).startswith('———'):
+                        sec = x[3].split()[1].rstrip(':'); parts[sec] = []
+                    else:
+                        parts[sec].append(x)
+            for sec, rs in parts.items():
+                nf = lambda x: x[1] == 'not within 1 year'
+                # scores on the sheet are rounded to 2 dp: two rows may show the same score with different unrounded scores (e.g. Ascot SKY
+                # 95.3332 before 95.3325), so the time tie-break is checked only where the next row's shown score is not lower (unrounded order kept)
+                sc = [x[10] for x in rs]
+                if sc != sorted(sc, reverse=True) or any((x[11] == 'separating') != (sec == 'SEPARATING') for x in rs):
+                    bad.append((nm, sh, tid, sec))
+check('T38 LONG STAR TIMELINE sections in order (own check): by score at the off, highest first (shown 2-dp scores never rise; the time '
+      'tie-break is the LONG TIMELINE order, compared row for row above); separating / applying in the right section', not bad, f'{bad[:3]}')
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

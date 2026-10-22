@@ -42,7 +42,8 @@ TIMELINE (16 Oct 2026): at the end of SKY JUPITER, every sky Jupiter event on th
 TIMELINE H / J (16 Oct 2026): at the end of each runner sheet, the same for every timed relationship involving that chart (T5-T22).
 LONG TIMELINE (16 Oct 2026): score >= 80 at the off (>= 90 since 22 Oct 2026), any exact time, SEPARATING / APPLYING; sky equivalent cells on TIMELINE H / J and LONG H / J.
 Timelines on every star (22 Oct 2026): runner timelines also take star events for the 67 stars (S Jup→star, star→Jup, S Jup on star pair,
-star apex; off-sheet); STAR TIMELINE (sky) and STAR TIMELINE H / J = the timeline events between Jupiter and stars only.
+star apex; off-sheet); STAR TIMELINE (sky) and STAR TIMELINE H / J = the timeline events between Jupiter and stars only; LONG STAR TIMELINE (sky) and LONG STAR
+TIMELINE H / J the same for the LONG timelines (22 Oct 2026).
 T24 (19 Oct 2026): stars against bodies, one row per star, RA / Dec distance per body, coloured by the best family, a cell comment with
 target, family, offset, score; SKY block on SKY JUPITER (Moon included), HORSE and JOCKEY blocks on each runner sheet after T22R.
 Stars (Eddie, 19 Oct 2026): T1, T2, T24 and the SKY block use T1_T2_T24_STARS (67 stars with |Dec| <= 50: STARS without Polaris + 13 new, 11 more 20 Oct 2026, 20 more and the Orion Nebula Cluster 21 Oct 2026,
@@ -756,6 +757,11 @@ def runner_sheet(wb, P, R, ctx):
                              f"STAR TIMELINE {C} (Eddie, 22 Oct 2026): the events of TIMELINE {C} between Jupiter and stars only (every point a Jupiter or a "
                              'star: S Jup→star, star→Jup, S Jup on star pair, star apex, T22, and T19 legs S Jupiter → royal star; T19 has no star–star '
                              'rows), the same rows, window, markers and sky equivalent cells', skyf=skyf)
+    for C, who in (('H', 'horse'), ('J', 'jockey')):        # LONG STAR TIMELINE H / J (Eddie, 22 Oct 2026): LONG TIMELINE {C}'s Jupiter-star events
+        row = write_long(ws, row + 1, tc, [e for e in lt[C] if star_event(e)], f'LONG STAR TIMELINE {C}',
+                         f"LONG STAR TIMELINE {C} (Eddie, 22 Oct 2026): the events of LONG TIMELINE {C} between Jupiter and stars only (as STAR TIMELINE "
+                         f"{C}), the same rows (score >= 90 at the off, real exact time beyond 60 min, linear estimate, sky equivalent cells), sections and sort",
+                         skyf=skyf)
     field['_tl'] = tl
     field['_lt'] = lt
     for (lab, cn), (d, ev) in field['T16'].items():
@@ -3241,13 +3247,17 @@ def main():
     # sky TIMELINE / LONG TIMELINE on the 67 stars (Eddie, 20 Oct 2026): SKY star events from the sky on T1_T2_T24_STARS (ctx.x), as the SKY block
     stl = timeline(ctx.x, R0, skyeq, srcs)
     row = write_timeline(ws, row, ctx.x, stl)
-    row = write_long(ws, row, ctx.x, realise(ctx.x, R0, timeline(ctx.x, R0, skyeq, srcs, keep=long_keep)), 'LONG TIMELINE',
+    slt = realise(ctx.x, R0, timeline(ctx.x, R0, skyeq, srcs, keep=long_keep))
+    row = write_long(ws, row, ctx.x, slt, 'LONG TIMELINE',
                      'LONG TIMELINE (Eddie, 16 Oct 2026): every sky Jupiter event on this sheet scoring >= 90 at the off (22 Oct 2026; was 80), any exact time (same sources '
                      'and rules as TIMELINE). Exact time: beyond 60 min the real time from the Swiss Ephemeris (race engine and site; stepping out from the off, '
                      'refined to the minute, up to 1 year each way, else "not within 1 year"), the linear estimate in the last column; each section by score at the off, highest first (ties by exact time)')
     row = write_timeline(ws, row, ctx.x, [e for e in stl if star_event(e)], 'STAR TIMELINE',     # Eddie, 22 Oct 2026
                          'STAR TIMELINE (Eddie, 22 Oct 2026): the events of TIMELINE between Jupiter and stars only (every point S Jupiter or a star: '
                          'SKY block star rows, SKY STARS, SKY ROYAL royal – royal, and any pair-block leg S Jupiter → star), the same rows, window and markers')
+    row = write_long(ws, row, ctx.x, [e for e in slt if star_event(e)], 'LONG STAR TIMELINE',          # Eddie, 22 Oct 2026
+                     'LONG STAR TIMELINE (Eddie, 22 Oct 2026): the events of LONG TIMELINE between Jupiter and stars only (as STAR TIMELINE), the same '
+                     'rows (score >= 90 at the off, real exact time beyond 60 min, linear estimate), sections and sort')
     ws.column_dimensions['B'].width = 30
     fields = {}
     for P in sorted(runners):
