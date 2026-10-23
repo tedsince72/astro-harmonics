@@ -109,7 +109,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct; 46 since 20 Oct, 67 since 21 Oct; conjunction cells red, 20 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (231/231; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (235/235; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -775,6 +775,32 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   T24 H / J and RATIOS 4,508, SKY block 2,556, SKY STARS 6,864 (completeness, blocks, order; 173 old rows identical); TIMELINE / LONG star
   events rebuilt, 24 real times within 1 min, 7 not within 1 year by an hourly scan; the 11 nowhere else; Lingfield unchanged: 0 mismatches.
 
+## jupiter_tables: T24 repeats flag (Eddie, 22 Oct 2026; viewing / display only)
+- T24 SKY (SKY JUPITER), T24 HORSE and T24 JOCKEY (every runner sheet), each star row: a scoring value = the cell's best target (as its
+  comment: family + target number), inside tolerance, any score; conjunction cells (RA < 1.5 / Dec < 0.3, red) left out; only the best
+  target counts (Claude's default). A repeat = the same target (same family and target number, no x10 / /10 folding) in two or more body
+  cells of the row, any planes. New column "repeats" after "Dec midpoints" (width 60, wrap): every repeated target, most cells first, then by
+  the highest score among its cells; text '<target> <family> ×n (<body> <plane> (score), ...)' joined with '; ' (family as in the comments:
+  whole, golden, phi power, ninth, sqrt2, silver). Inside a target the cells by score, highest first (ties RA before Dec, body order) -
+  Claude's choice. Each repeated cell: dotted outline (DOTTED; a midpoint thick outline kept) and a comment line "repeat: <target> <family>
+  ×n (with <other cells>)". Title: T24_NOTE + '. REPEATS (22 Oct 2026): k of N rows with a repeat, m repeated targets'. Values, fills (red
+  incl.), existing comments, midpoint columns and outlines, T24 H / J, T24 RATIOS and every other block unchanged.
+- Rows with a repeat / rows, repeated targets, largest ×n: rebuilt Ascot 14:30 2012 SKY 24 / 67, 27, ×3 (S Mirach 10×φ^3 phi power); P01
+  HORSE 20 / 67, 25, ×3 (H Castor ninth 144.444); JOCKEY 27 / 67, 29, ×3 (J Arcturus silver 41.4). Lingfield 14:35 2021 (21 rows) SKY 8, 8,
+  ×2; HORSE / JOCKEY P01 4, 4, ×2 / 7, 7, ×2; P03 10, 14, ×2 / 6, 6, ×3; P05 6, 8, ×2 / 9, 11, ×3; P07 3, 3, ×2 / 13, 15, ×3; P09 9, 10, ×2 /
+  7, 7, ×3; P11 8, 9, ×3 / 6, 6, ×2. Sizes (default / --full; pairs unchanged): rebuilt Ascot 0.97 / 1.03 -> 0.98 / 1.04 MB; Lingfield
+  2.16 / 2.38 -> 2.17 / 2.39 MB.
+- Tests 235/235. Test 41 (new): chk_t24rep/check_rep.py vs the build before (commit 5e10f7bf), both races default and --full: every repeats
+  cell recomputed from POSITIONS (own code, families.evaluate), dotted outlines exactly on repeated cells (thick kept), comments = before +
+  the repeat lines, titles, every other cell of every sheet identical: 0 mismatches; by hand from POSITIONS (rebuilt Ascot P01): RA–Dec
+  T24 HORSE H Menkent silver 24.14 ×2 (Makemake RA 24.137213 (92.01), Rahu Dec 24.066157 (13.73)); Dec–Dec T24 JOCKEY J Orion Nebula Cluster
+  ninth 16.6667 ×2 (Uranus Dec 16.673056 (94.52), Gonggong Dec 16.652082 (87.50)); midpoint + repeat T24 HORSE H Castor RA ninth 144.444 ×3
+  (Quaoar 144.616864 (81.74), Rahu 143.857791 (37.88), Vesta 143.549007 (5.19); Quaoar and Rahu thick kept with both comment lines, Vesta
+  dotted). Changed for this: test 28's T24 grid reader stops at the repeats column; tests 39 / 40 compare on builds by 5e10f7bf's code.
+  Independent checker (22 Oct), own code from POSITIONS (chk_t24rep/check_rep_indep.py), rebuilt Ascot default and --full: every repeats
+  cell, outlines, comment lines, titles, header / width / wrap, every other cell of every sheet (323,818 / 328,853 cells), 5 scores by
+  hand: 0 mismatches. Not exercised: a tie in target order.
+
 ## jupiter_tables: sky star timelines trimmed, 95 / 100 / 95 times, T24 STAR SELECT (Eddie, 22 Oct 2026; viewing only)
 - T24 STAR SELECT REMOVED (Eddie, 22 Oct 2026, the same day; no reason given): the runner sheets no longer carry it (write_t24sel,
   star_select, SEL_NOTE and t24r_cell's tags parameter gone; t24r_cell = its 19 Oct form). The trimmed sky STAR / LONG STAR TIMELINE and the
@@ -1008,6 +1034,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 - **35 stars in T1, T2, T24 (13 new in the engine, no Polaris there) + trimmed default workbook, --full for the rest (19 Oct 2026, Eddie):**
   see its section; same day revised: the 35 in RA order, and the SKY block star rows on the 35. 
 - **T24 ratio tables T24 H / J, T24 HORSE RATIOS, T24 JOCKEY RATIOS (19 Oct 2026, Eddie):** see its section.
+- **T24 repeats flag in T24 SKY / HORSE / JOCKEY: "repeats" column, dotted outline, comment line, title counts (22 Oct 2026, Eddie):**
+  see its section. Tests 235/235.
 - **T24 STAR SELECT removed from the runner sheets (22 Oct 2026, Eddie); sky star timeline trimming and 95 / 100 / 95 kept:** see the
   22 Oct trimmed section. Tests 231/231.
 - **Sky STAR / LONG STAR TIMELINE trimmed to S Jupiter-centred events + 95 / 100 / 95 times; runner T24 STAR SELECT tables (22 Oct 2026,

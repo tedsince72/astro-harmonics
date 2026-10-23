@@ -1374,6 +1374,8 @@ def t24_blocks(ws, mids=None):
             for c in range(2, len(h1)):
                 if h1[c].value in ('RA', 'Dec'):
                     pl = h1[c].value
+                if h1[c].value == 'repeats':                 # T24 repeats column (Eddie, 22 Oct 2026; test 41)
+                    break
                 if str(h1[c].value or '').endswith(' midpoints'):
                     mcol[h1[c].value.split()[0]] = c
                 elif pl and h2[c].value:
@@ -1638,6 +1640,16 @@ open(bf, 'w').write(subprocess.run(['git', 'show', '0ad7d2e5:tools/jupiter_table
 os.makedirs(f'{tmp}/h0a', exist_ok=True)
 H0A = {(n, f): f'{tmp}/h0a/{n}_{f}_jupiter_tables.xlsx' for n in ('lingfield', 'ascot') for f in ('full', 'def')}
 for (n, f), out in H0A.items():
+    inp = 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx' if n == 'lingfield' else f'{tmp}/race_batch_20120619_ascot_1430.xlsx'
+    subprocess.run([sys.executable, bf, inp] + (['--full'] if f == 'full' else []) + ['--out', out], capture_output=True, text=True)
+os.remove(bf)
+# 22 Oct 2026 (Eddie, T24 repeats flag): builds by the code of commit 5e10f7bf (T24 STAR SELECT removed, before the repeats), default and
+# --full - test 41 compares these with now
+bf = 'tools/_jt_before_5e10f7bf.py'
+open(bf, 'w').write(subprocess.run(['git', 'show', '5e10f7bf:tools/jupiter_tables.py'], capture_output=True, text=True).stdout)
+os.makedirs(f'{tmp}/h5e', exist_ok=True)
+H5E = {(n, f): f'{tmp}/h5e/{n}_{f}_jupiter_tables.xlsx' for n in ('lingfield', 'ascot') for f in ('full', 'def')}
+for (n, f), out in H5E.items():
     inp = 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx' if n == 'lingfield' else f'{tmp}/race_batch_20120619_ascot_1430.xlsx'
     subprocess.run([sys.executable, bf, inp] + (['--full'] if f == 'full' else []) + ['--out', out], capture_output=True, text=True)
 os.remove(bf)
@@ -2857,9 +2869,8 @@ out39 = {}
 for nm, inp, after, bfull, bdef in (('Lingfield', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf, lf_u, lf_ud),
                                     ('Ascot', f'{tmp}/race_batch_20120619_ascot_1430.xlsx', gf, gf_u, gf_ud)):
     for fl in ('--full', None):
-        ao = after if fl else f'{tmp}/{nm}_after39_def_jupiter_tables.xlsx'
-        if not fl:
-            subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
+        # 22 Oct 2026 (T24 repeats): the "after" is the build by 5e10f7bf's code (before the repeats), so this keeps checking its own change
+        ao = H5E[(nm.lower(), 'full' if fl else 'def')]
         out39[(nm, fl or 'default')] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_select/compare_sel.py', bfull if fl else bdef, ao],
                                                       capture_output=True, text=True).stdout
 DROP39 = {'Ascot': ('SKY JUPITER LONG STAR TIMELINE: before 59, after 45, dropped 14: S Aculeus – S Rukbat RA 16×φ (golden) (99.87); S Antares – '
@@ -2998,7 +3009,8 @@ for n in ('lingfield', 'ascot'):
         os.makedirs(f'{tmp}/after40', exist_ok=True)
         inp = 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx' if n == 'lingfield' else f'{tmp}/race_batch_20120619_ascot_1430.xlsx'
         subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp] + (['--full'] if f == 'full' else []) + ['--out', ao], capture_output=True, text=True)
-        out40[(n, f)] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_rmsel/compare_rmsel.py', H0A[(n, f)], ao,
+        # 22 Oct 2026 (T24 repeats): the comparison runs on the builds by 5e10f7bf's code (the removal alone); ao (now) feeds test 41
+        out40[(n, f)] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_rmsel/compare_rmsel.py', H0A[(n, f)], H5E[(n, f)],
                                         H0A[(n, f)].replace('_jupiter_tables', '_pairs'), ao.replace('_jupiter_tables', '_pairs')],
                                        capture_output=True, text=True).stdout
 RM40 = {'lingfield': 'removed 22 (13 T24 STAR SELECT rows, 2 tables)', 'ascot': 'removed 372 (237 T24 STAR SELECT rows, 28 tables)'}
@@ -3011,6 +3023,72 @@ check('T40 against the build before (commit 0ad7d2e5), both races, default and -
 src = open('tools/jupiter_tables.py').read()
 check('T40 code: write_t24sel, star_select and SEL_NOTE gone; t24r_cell back to its 19 Oct form (no tags parameter)',
       not any(z in src for z in ('def write_t24sel', 'def star_select', 'SEL_NOTE', 'ctx.sel', 'tags=')), '')
+# ---------------------------------------------------------------------------------------------------------------------------------
+# Test 41 (Eddie, 22 Oct 2026): T24 repeats flag - T24 SKY / HORSE / JOCKEY: the same best target (family + target number, no x10 / /10
+# folding; conjunction cells out) in two or more body cells of a star row; "repeats" column, dotted outline (thick midpoint outline kept),
+# comment line, title counts. "Before" = commit 5e10f7bf.
+print('test 41: T24 repeats flag')
+out41 = {}
+for (n, f), bo in H5E.items():
+    ao = f'{tmp}/after40/{n}_{f}_jupiter_tables.xlsx'           # the current builds of test 40
+    out41[(n, f)] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_t24rep/check_rep.py', bo, ao], capture_output=True, text=True).stdout
+check('T41 against the build before (commit 5e10f7bf), both races, default and --full (chk_t24rep/check_rep.py): every repeats cell of T24 SKY / '
+      'HORSE / JOCKEY recomputed from POSITIONS (own code, families.evaluate: best target per cell, conjunction cells out, every target in >= 2 '
+      'cells with its cells, scores and order; none missing or extra); dotted outline exactly on repeated cells (thick kept on midpoint cells); '
+      'comment = before + the repeat lines; title = the counts; header "repeats"; every other cell of every sheet identical (values, fills, '
+      'comments, borders, formats)', all(line(o, 'mismatches:') == 'mismatches: 0' for o in out41.values())
+      and all('SKY JUPITER T24 SKY: 24 / 67 rows, 27 targets' in o for k, o in out41.items() if k[0] == 'ascot')
+      and all('SKY JUPITER T24 SKY: 8 / 21 rows, 8 targets' in o for k, o in out41.items() if k[0] == 'lingfield'),
+      f"{ {k: line(o, 'mismatches:') for k, o in out41.items()} }")
+# by hand from POSITIONS (rebuilt Ascot P01, --full after): an RA–Dec repeat, a Dec–Dec repeat, a midpoint body cell that is also a repeat
+w41 = openpyxl.load_workbook(f'{tmp}/after40/ascot_full_jupiter_tables.xlsx')
+pp = {(x[2], x[3]): (x[5], x[6]) for x in w41['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'P01' and x[3]}
+rows41 = list(w41['P01'].iter_rows())
+
+
+def t24cell(tid, lab, body, pl):
+    i = next(k for k, r in enumerate(rows41) if r[0].value == 'T24' and str(r[1].value).startswith(tid))
+    h1, h2 = rows41[i + 1], rows41[i + 2]
+    cm = [k for k, c in enumerate(h1) if c.value in ('RA midpoints', 'Dec midpoints')]
+    r = next(r for r in rows41[i + 3:i + 80] if r[1].value == lab)
+    lo, hi = (2, cm[0]) if pl == 'RA' else (cm[0] + 1, cm[1])
+    return r[next(k for k in range(lo, hi) if h2[k].value == body)], r[cm[1] + 1].value
+
+
+SILVER = 10 * (1 + 2 ** 0.5)
+tol = max(SILVER * 0.005, 0.025)
+a, b = dpl(pp[('H', 'Menkent')], pp[('H', 'Makemake')], 'RA'), dpl(pp[('H', 'Menkent')], pp[('H', 'Rahu')], 'Dec')
+sa_, sb_ = sq(tol, abs(a - SILVER)), sq(tol, abs(b - SILVER))
+ca, rp = t24cell('T24 HORSE', 'H Menkent', 'Makemake', 'RA')
+cb, _ = t24cell('T24 HORSE', 'H Menkent', 'Rahu', 'Dec')
+want = f'24.14 silver ×2 (Makemake RA ({sa_:.2f}), Rahu Dec ({sb_:.2f}))'
+check(f'T41 RA–Dec repeat by hand from POSITIONS: T24 HORSE H Menkent – H Makemake RA {a:.6f}, H Menkent – H Rahu Dec {b:.6f}, both silver '
+      f'24.14 (10 (1 + √2), tol {tol:.6f}): {sa_:.2f} / {sb_:.2f}; repeats cell {rp!r}', want in (rp or '') and
+      ca.border.left.style == 'dotted' and cb.border.left.style == 'dotted'
+      and ca.comment.text.endswith(f'repeat: 24.14 silver ×2 (with Rahu Dec ({sb_:.2f}))')
+      and cb.comment.text.endswith(f'repeat: 24.14 silver ×2 (with Makemake RA ({sa_:.2f}))'), f'{ca.comment.text!r}; {cb.comment.text!r}')
+lo_, hi_, ntol, nt = next(z for z in families._NINTH_RANGES if abs(z[3] - 16.666667) < 1e-5)
+a, b = dpl(pp[('J', 'Orion Nebula Cluster')], pp[('J', 'Uranus')], 'Dec'), dpl(pp[('J', 'Orion Nebula Cluster')], pp[('J', 'Gonggong')], 'Dec')
+sa_, sb_ = 100 * (ntol - abs(a - nt)) / ntol, 100 * (ntol - abs(b - nt)) / ntol
+ca, rp = t24cell('T24 JOCKEY', 'J Orion Nebula Cluster', 'Uranus', 'Dec')
+cb, _ = t24cell('T24 JOCKEY', 'J Orion Nebula Cluster', 'Gonggong', 'Dec')
+check(f'T41 Dec–Dec repeat by hand from POSITIONS: T24 JOCKEY J Orion Nebula Cluster – J Uranus Dec {a:.6f}, – J Gonggong Dec {b:.6f}, ninth '
+      f'16.6667 (range {lo_} – {hi_}, tol {ntol}, linear): {sa_:.2f} / {sb_:.2f}; repeats cell {rp!r}',
+      rp == f'16.6667 ninth ×2 (Uranus Dec ({sa_:.2f}), Gonggong Dec ({sb_:.2f}))' and lo_ <= a < hi_ and lo_ <= b < hi_
+      and ca.border.left.style == cb.border.left.style == 'dotted', f'{ca.comment.text!r}')
+# midpoint body cell + repeat: H Castor RA, ninth 144.444 ×3 (Quaoar, Rahu, Vesta); the thick-outlined one keeps thick, the others dotted
+cells = {B: t24cell('T24 HORSE', 'H Castor', B, 'RA')[0] for B in ('Quaoar', 'Rahu', 'Vesta')}
+rp = t24cell('T24 HORSE', 'H Castor', 'Quaoar', 'RA')[1]
+lo_, hi_, ntol, nt = next(z for z in families._NINTH_RANGES if abs(z[3] - 144.444444) < 1e-4)
+vals = {B: dpl(pp[('H', 'Castor')], pp[('H', B)], 'RA') for B in cells}
+scs = {B: 100 * (ntol - abs(v - nt)) / ntol for B, v in vals.items()}
+thick = [B for B, c in cells.items() if c.border.left.style == 'thick']
+check(f'T41 midpoint cell that is also a repeat, by hand from POSITIONS: T24 HORSE H Castor RA Quaoar / Rahu / Vesta '
+      f'{" / ".join(f"{v:.6f}" for v in vals.values())}, ninth 144.444 (tol {ntol}): {" / ".join(f"{v:.2f}" for v in scs.values())}; thick '
+      f'(midpoint) {thick}, kept, with both comment lines; the others dotted; repeats cell {rp!r}',
+      rp.startswith('144.444 ninth ×3 (' + ', '.join(f'{B} RA ({scs[B]:.2f})' for B in sorted(scs, key=lambda z: -scs[z])) + ')') and len(thick) >= 1
+      and all('midpoint with ' in cells[B].comment.text and 'repeat: 144.444 ninth ×3' in cells[B].comment.text for B in thick)
+      and all(cells[B].border.left.style == 'dotted' for B in cells if B not in thick), f'{[cells[B].comment.text for B in thick]}')
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

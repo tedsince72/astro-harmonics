@@ -821,6 +821,7 @@ def t24_mid_text(h):
 
 
 THICK = openpyxl.styles.Side(style='thick')
+DOTTED = openpyxl.styles.Side(style='dotted')      # T24 repeats (Eddie, 22 Oct 2026)
 
 
 def write_t24(ws, row, ch, C, title):
@@ -849,9 +850,15 @@ def write_t24(ws, row, ch, C, title):
             c = ws.cell(row=row + 1, column=c0[pl] + i, value=b); c.fill = HEAD; c.font = BOLD
         for r, v in ((row, f'{pl} midpoints'), (row + 1, 'star = middle of A, B: total (side, between / far side)')):
             c = ws.cell(row=r, column=c0[pl] + n, value=v); c.fill = HEAD; c.font = BOLD
+    crep = c0['Dec'] + n + 1                               # repeats column (Eddie, 22 Oct 2026), after "Dec midpoints"
+    for r, v in ((row, 'repeats'), (row + 1, 'target family ×n (body plane (score), ...)')):
+        c = ws.cell(row=r, column=crep, value=v); c.fill = HEAD; c.font = BOLD
+    trow = row - 1
     row += 2
     out, mids = {}, {}
+    nrep, ntgt = 0, 0
     for x in stars:
+        best = {}                                          # (body, plane) -> (target key, score) of the cell's best target (no conjunction)
         ws.cell(row=row, column=1, value='T24')
         ws.cell(row=row, column=2, value=f'{C} {x}')
         for pl in PLANES:
@@ -864,6 +871,9 @@ def write_t24(ws, row, ch, C, title):
             for i, b in enumerate(bodies):
                 v = plane_value(ch[x], ch[b], pl)
                 colour, text = t24_cell(v, pl)
+                ev, _ = nearest(v, 'dist', pl)
+                if ev and ev['family'] != 'conj' and v >= families.CONJ[pl]:
+                    best[(b, pl)] = (f"{ev['target']} {ev['family']}", ev['score'])
                 c = ws.cell(row=row, column=c0[pl] + i, value=round(v, 6))
                 c.number_format = '0.000000'
                 if v < families.CONJ[pl]:                  # conjunction (RA < 1.5, Dec < 0.3): red instead of the score fill (Eddie, 20 Oct 2026)
@@ -878,10 +888,38 @@ def write_t24(ws, row, ch, C, title):
             if hits:
                 c = ws.cell(row=row, column=c0[pl] + n, value='; '.join(t24_mid_text(h) for h in hits))
                 c.fill = FILL[families.colour(hits[0]['score'])]
+        # REPEATS (Eddie, 22 Oct 2026): the same best target (family and target number, no x10 / /10 folding) in two or more body cells of
+        # the row, any planes; conjunction cells left out. Column: most cells first, then the highest score; cells by score. Each repeated
+        # cell: dotted outline (a midpoint thick outline kept) and a comment line
+        grp = {}
+        for (b, pl), (k, sc) in best.items():
+            grp.setdefault(k, []).append((b, pl, sc))
+        reps = []
+        for k, cells in grp.items():
+            if len(cells) >= 2:
+                cells.sort(key=lambda z: (-z[2], PLANES.index(z[1]), bodies.index(z[0])))
+                reps.append((k, cells))
+        reps.sort(key=lambda kc: (-len(kc[1]), -kc[1][0][2]))
+        if reps:
+            nrep += 1
+            ntgt += len(reps)
+            c = ws.cell(row=row, column=crep, value='; '.join(f"{k} ×{len(cells)} (" + ', '.join(f'{b} {pl} ({sc:.2f})' for b, pl, sc in cells) + ')'
+                                                              for k, cells in reps))
+            c.alignment = openpyxl.styles.Alignment(wrap_text=True, vertical='top')
+            for k, cells in reps:
+                for b, pl, sc in cells:
+                    c = ws.cell(row=row, column=c0[pl] + bodies.index(b))
+                    others = ', '.join(f'{b2} {pl2} ({sc2:.2f})' for b2, pl2, sc2 in cells if (b2, pl2) != (b, pl))
+                    txt = c.comment.text + f'\nrepeat: {k} ×{len(cells)} (with {others})'
+                    c.comment = Comment(txt, 'T24', width=260, height=40 + 15 * txt.count('\n'))
+                    if not (c.border and c.border.left and c.border.left.style == 'thick'):
+                        c.border = openpyxl.styles.Border(left=DOTTED, right=DOTTED, top=DOTTED, bottom=DOTTED)
         row += 1
+    ws.cell(row=trow, column=2, value=f'{title}. REPEATS (22 Oct 2026): {nrep} of {len(stars)} rows with a repeat, {ntgt} repeated targets').font = BOLD
     # display (Eddie, 19 Oct 2026): value columns wide enough for 177.745864, star names ~18, midpoint columns wider; shared columns only
     # ever widened
-    widths = [(2, T24_NAME_W)] + [(c0[pl] + k, T24_VAL_W) for pl in PLANES for k in range(n)] + [(c0[pl] + n, T24_MID_W) for pl in PLANES]
+    widths = ([(2, T24_NAME_W)] + [(c0[pl] + k, T24_VAL_W) for pl in PLANES for k in range(n)] + [(c0[pl] + n, T24_MID_W) for pl in PLANES]
+              + [(crep, T24_REP_W)])
     for col, w in widths:
         L = openpyxl.utils.get_column_letter(col)
         if L not in ws.column_dimensions or not ws.column_dimensions[L].customWidth:
@@ -892,6 +930,7 @@ def write_t24(ws, row, ch, C, title):
 
 
 T24_MID_W = 40
+T24_REP_W = 60                                             # repeats column (Eddie, 22 Oct 2026)
 T24_VAL_W, T24_NAME_W = 11, 18
 
 
@@ -902,7 +941,9 @@ T24_NOTE = ('stars against bodies (Eddie, 19 Oct 2026): one row per star; the RA
             'middle point of two bodies A, B (closeness of d(star, A), d(star, B) >= 90 % and the star within RA ±0.5 (closer of near / far) / '
             'Dec ±0.15 of their midpoint; total = ratio half + distance half; hits only, best first; own Rahu – Ketu, "A, B together" (RA < 1.5, '
             'Dec < 0.3) and Ketu repeats of a Rahu pair left out; between / far side as T17); the two body cells get a thick outline and a '
-            'comment line. No timing, no +5')
+            'comment line. REPEATS (22 Oct 2026): the same best target (family and target number, no x10 / /10 folding; conjunction cells '
+            'left out) in two or more body cells of a row, any planes - listed in the "repeats" column (most cells first, then by the highest '
+            'score), dotted outline and a comment line on each repeated cell (a midpoint thick outline kept). No timing, no +5')
 
 
 # ---------------- T24 ratio tables (Eddie, 19 Oct 2026; natal only, viewing only)
