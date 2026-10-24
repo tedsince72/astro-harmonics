@@ -104,7 +104,7 @@ v, t, o, f, sc = cell(row(ws, 'T5', 'S Jupiter → H Mercury'), 'RA')
 # 24 Oct 2026 (Eddie, 4-digit rule): was ninth 14.4444 (-0.00459, 95.14) green; 14.43... vs 14.44... -> outside the digit match
 check('T5 S Jupiter → H Mercury RA 14.439854: ninth 14.4444 outside the 4-digit match (1443 vs 1444; was 95.14 green, 24 Oct 2026) -> '
       'shown outside, nearest 14.4444 (ninth), -0.00459, no score, no colour',
-      round(v, 6) == 14.439854 and t == '14.4444 (ninth) — outside ±0.0944' and o == '-0.00459' and sc is None and f is None, f'{v} {t} {o} {sc} {f}')
+      round(v, 6) == 14.439854 and t == '14.4444 ninth — not a 4-digit match (-0.00459)' and o == '-0.00459' and sc is None and f is None, f'{v} {t} {o} {sc} {f}')
 r = row(ws, 'T6', 'S Jupiter → J Vesta')
 v, t, o, f, sc = cell(r, 'RA')
 check('T6 S Jupiter → J Vesta RA 18 (+0.00414, whole score 62.9), yellow', t == '18 (whole)' and o == '+0.00414' and sc == 62.9 and f == YELLOW,
@@ -661,7 +661,7 @@ check('T1 P03 H Jupiter → H Sun, SKY Dec cell S Jupiter → S Sun (by hand fro
       '+0.0000426 / +0.0002664 per min): 19.418627, +5 min 19.419746, 12×φ golden +0.00222 (86.76), away, separating, exact 14:25 (9.9 min ago); '
       'natal Dec 2.609925 (24 Oct 2026: φ^2 2.618 now outside the 4-digit match, 2609 vs 2618 - nearest φ^2 shown outside, was a φ^2 hit); '
       'no same as sky tag',
-      len(t1) == 1 and t1[0][10] == 2.609925 and t1[0][12] == 'φ^2 (phi power) — outside ±0.025' and t1[0][15] is None and t1[0][27] == 19.418627 and t1[0][28] == 19.419746
+      len(t1) == 1 and t1[0][10] == 2.609925 and t1[0][12] == 'φ^2 phi power — not a 4-digit match (-0.00811)' and t1[0][15] is None and t1[0][27] == 19.418627 and t1[0][28] == 19.419746
       and t1[0][29] == '12×φ (golden)' and t1[0][31] == '+0.00222' and t1[0][32] == 86.76 and t1[0][33] == '<- away'
       and t1[0][35] == 'separating, exact 14:25 (9.9 min ago)' and (len(t1[0]) < 37 or t1[0][36] is None), str(t1[0][26:37] if t1 else t1))
 t21s = [r for r in wbl['P11'].iter_rows(values_only=True) if r and r[0] == 'T21' and r[1] == 'Alphecca – Betelgeuse' and r[2] == 'RA']
@@ -848,7 +848,7 @@ sm = [r for r in wbl['SKY JUPITER'].iter_rows(values_only=True) if r and r[0] ==
 check('SKY S Jupiter → S Mercury (by hand from POSITIONS: Dec S Jupiter −14.389918, S Mercury −3.326422): Dec 11.063496 → 11.065810 at +5, '
       'φ^5 11.090170 outside the 4-digit match (1106 vs 1109; was applying, exact 15:32 before 24 Oct 2026) -> shown outside, no score, no timing; '
       'RA 32.268875 outside (20×φ 32.360680 outside ±0.0324): no timing. Timing inside each plane block, after its cells: RA cols 3-11, Dec cols 12-20',
-      len(sm) == 1 and sm[0][11] == 11.063496 and sm[0][13] == 'φ^5 (phi power) — outside ±0.0555' and sm[0][16] is None and sm[0][19] is None
+      len(sm) == 1 and sm[0][11] == 11.063496 and sm[0][13] == 'φ^5 phi power — not a 4-digit match (-0.02667)' and sm[0][16] is None and sm[0][19] is None
       and sm[0][2] == 32.268875 and sm[0][4].startswith('20×φ (golden) — outside') and sm[0][7] is None and sm[0][10] is None,
       str(sm[0][2:21] if sm else sm))
 skr = [list(r) + [None] * 30 for r in wbl['SKY JUPITER'].iter_rows(values_only=True) if r and r[0] == 'SKY' and r[1] != 'S Jupiter → sky points']
@@ -1161,7 +1161,7 @@ def long_check(f, off):
                     fp = pl if pl in ('RA', 'Dec') else None
                     ev = FAM.best(v0, fp, 'deg')
                     dd = ev or FAM.outside(v0, fp, 'deg')
-                    tv, lab = dd['tv'], dd['target'] + ' ('
+                    tv, lab = dd['tv'], (f"{dd['target']} {dd['family']} — not a 4-digit match" if dd.get('digit') else dd['target'] + ' (')   # 24 Oct 2026 wording
                 tt = (tv - v0) / ((v5 - v0) / 5)
                 ok = abs(v0 - v) < 2e-6 and tgt.startswith(lab) and abs(tt - mins(tim)) < 0.06 if abs(tt) < 50 * 525960 else 'more than 50' in tim
                 if 'together' not in tgt and not tgt.startswith('1 · unison · midpoint') and (sc is None) != (ev is None):
@@ -1710,7 +1710,7 @@ cases = [  # (table, chart, star, plane, value, target text, offset text, score 
     ('T1', 'H', 'Pollux', 'RA', 166.673131, '166.667 (ninth)', lambda v: v - 500 / 3, lambda v: 100 * (1.166667 - abs(v - 500 / 3)) / 1.166667, GREEN),
     ('T1', 'H', 'Markab', 'Dec', 37.994684, '38 (whole)', lambda v: v - 38, lambda v: sq(0.02, abs(v - 38)), YELLOW),
     # 24 Oct 2026 (Eddie, 4-digit rule): was 29×φ (golden) -0.00360 (78.98) yellow; 46.919384 vs 29×φ 46.923 (4691 vs 4692) -> outside, no score
-    ('T2', 'J', 'Hamal', 'Dec', 46.919384, '29×φ (golden) — outside ±0.0324', lambda v: v - 29 * PHI, None, None),
+    ('T2', 'J', 'Hamal', 'Dec', 46.919384, '29×φ golden — not a 4-digit match (-0.00360)', lambda v: v - 29 * PHI, None, None),
     ('T2', 'J', 'Kaus Australis', 'RA', 0.188691, 'conj (conj)', lambda v: v, lambda v: sq(1.5, v), YELLOW),
 ]
 for tid, C, star, pl, exp, tt, off, sc, fill in cases:
@@ -1815,8 +1815,8 @@ off = datetime.datetime(2012, 6, 19, 14, 30)
 cases = [  # (star, plane, value, target text, target, tol, score, timing text)
     # 24 Oct 2026 (Eddie, 4-digit rule): both were hits (Praesepe √2 70.7 (0.35), separating 18 Jun 03:50; Kaus Australis ninth 144.444 (9.85),
     # applying 23 Jun 07:15); 70.378057 (7037 vs 7071) and 143.593046 (1435 vs 1444) are outside the digit match -> shown outside, no score, no timing
-    ('Praesepe', 'RA', 70.378057, '70.7 (sqrt2) — outside ±0.354', 50 * 2 ** 0.5, 0.005 * 50 * 2 ** 0.5, 'out', 'separating'),
-    ('Kaus Australis', 'RA', 143.593046, '144.444 (ninth) — outside ±0.944', 1300 / 9, 0.944444, 'out', 'applying'),
+    ('Praesepe', 'RA', 70.378057, '70.7 sqrt2 — not a 4-digit match (-0.33262)', 50 * 2 ** 0.5, 0.005 * 50 * 2 ** 0.5, 'out', 'separating'),
+    ('Kaus Australis', 'RA', 143.593046, '144.444 ninth — not a 4-digit match (-0.85140)', 1300 / 9, 0.944444, 'out', 'applying'),
 ]
 for star, pl, exp, tt, tv, tol, kind, way in cases:
     sj, sx = gp[('SKY', 'S', 'Jupiter')], gp[('SKY', 'S', star)]
@@ -2243,8 +2243,8 @@ NT = {122.222: 0.722222, 13.3333: 0.083333}                 # the _NINTH_RANGES 
 cases = [  # (table, chart, star, plane, column, value, target text, offset, score by hand, fill)
     # 24 Oct 2026 (Eddie, 4-digit rule): Menkar was ninth 122.222 (52.76), Adhara 10×φ^-1 (74.64); 122.563385 (1225 vs 1222) and 6.184544 (6184 vs
     # 6180) are outside the digit match -> shown outside, no score, no fill
-    ('T1', 'H', 'Menkar', 'RA', 2, 122.563385, '122.222 (ninth) — outside ±0.722', lambda v: v - 1100 / 9, None, None),
-    ('T1', 'H', 'Adhara', 'Dec', 10, 6.184544, '10×φ^-1 (phi power) — outside ±0.0309', lambda v: v - 10 / PHI, None, None),
+    ('T1', 'H', 'Menkar', 'RA', 2, 122.563385, '122.222 ninth — not a 4-digit match (+0.34116)', lambda v: v - 1100 / 9, None, None),
+    ('T1', 'H', 'Adhara', 'Dec', 10, 6.184544, '10×φ^-1 phi power — not a 4-digit match (+0.00420)', lambda v: v - 10 / PHI, None, None),
     ('T2', 'J', 'Rasalhague', 'Dec', 10, 36.018968, '36 (whole)', lambda v: v - 36, lambda v: sq(0.02, abs(v - 36)), LIGHT),
 ]
 for tid, C, star, pl, c0, exp, tt, off, sc, fill in cases:
@@ -2261,7 +2261,7 @@ sj, su = gp[('SKY', 'S', 'Jupiter')], gp[('SKY', 'S', 'Unukalhai')]
 v0, v5 = abs(sj[1] - su[1]), abs(sj[1] + 5 * rates['Jupiter'][1] - su[1] - 5 * rates['Unukalhai'][1])
 check('T34 T2 J Unukalhai row, SKY cell S Jupiter → S Unukalhai Dec by hand from POSITIONS: 13.296270, ninth 13.3333 −0.03706 outside the 4-digit '
       'match (1329 vs 1333; was 55.52 before 24 Oct 2026) -> shown outside, no score',
-      abs(v0 - 13.29627) < 1e-6 and x[27].value == round(v0, 6) and x[28].value == round(v5, 6) and x[29].value == '13.3333 (ninth) — outside ±0.0833'
+      abs(v0 - 13.29627) < 1e-6 and x[27].value == round(v0, 6) and x[28].value == round(v5, 6) and x[29].value == '13.3333 ninth — not a 4-digit match (-0.03706)'
       and x[31].value == f'{v0 - 120 / 9:+.5f}' and x[32].value is None,
       f'{v0:.6f} -> {v5:.6f}; {x[27].value}, {x[28].value}, {x[29].value}, {x[31].value}, {x[32].value}')
 # T24 HORSE H Phact – H Makemake Dec; T24 HORSE RATIOS H Menkar Dec Jupiter / Mercury
@@ -2281,7 +2281,7 @@ check('T34 T24 HORSE RATIOS H Menkar Dec d(Menkar, Jupiter) / d(Menkar, Mercury)
       f'{dj:.6f} / {dm:.6f} = {r_:.6f}; {first(c)!r} vs {want!r}')
 # SKY block: S Jupiter → S Adhara RA (45 whole, timing = the TIMELINE event 15:19) and S Jupiter → S Menkar RA (√2 14.14)
 # 24 Oct 2026 (Eddie, 4-digit rule): S Menkar RA 14.076783 was √2 14.14 (0.57); 1407 vs 1414 -> outside, no score
-for star, tt, tv, tol, timing in (('Adhara', '45 (whole)', 45, 0.02, 'applying'), ('Menkar', '14.14 (sqrt2) — outside ±0.0707', 10 * 2 ** 0.5, None, None)):
+for star, tt, tv, tol, timing in (('Adhara', '45 (whole)', 45, 0.02, 'applying'), ('Menkar', '14.14 sqrt2 — not a 4-digit match (-0.06535)', 10 * 2 ** 0.5, None, None)):
     x = row(gw['SKY JUPITER'], 'SKY', f'S Jupiter → S {star}')
     sx = gp[('SKY', 'S', star)]
     v0 = ra_d(sj[0], sx[0]); v5 = ra_d(sj[0] + 5 * rates['Jupiter'][0], sx[0] + 5 * rates[star][0])
@@ -2437,14 +2437,14 @@ sj, se = gp[('SKY', 'S', 'Jupiter')], gp[('SKY', 'S', 'El Nath')]
 v0, v5 = abs(sj[1] - se[1]), abs(sj[1] + 5 * rates['Jupiter'][1] - se[1] - 5 * rates['El Nath'][1])
 check('T36 T2 J El Nath row, SKY cell S Jupiter → S El Nath Dec by hand from POSITIONS: 8.884166, ninth 8.88889 −0.00472 outside the 4-digit '
       'match (8884 vs 8888; was 66.00 before 24 Oct 2026) -> shown outside, no score',
-      abs(v0 - 8.884166) < 1e-6 and x[27].value == round(v0, 6) and x[28].value == round(v5, 6) and x[29].value == '8.88889 (ninth) — outside ±0.0139'
+      abs(v0 - 8.884166) < 1e-6 and x[27].value == round(v0, 6) and x[28].value == round(v5, 6) and x[29].value == '8.88889 ninth — not a 4-digit match (-0.00472)'
       and x[31].value == f'{v0 - 80 / 9:+.5f}' and x[32].value is None,
       f'{v0:.6f} -> {v5:.6f}; {x[27].value}, {x[28].value}, {x[29].value}, {x[31].value}, {x[32].value}')
 # T24 JOCKEY J Facies – J Neptune Dec (cluster); T24 JOCKEY RATIOS J Mirfak RA d(Mirfak, Jupiter) / d(Mirfak, Uranus)
 v = dist(gp[('P01', 'J', 'Facies')], gp[('P01', 'J', 'Neptune')], 'Dec')
 hdr, rws = t24_blocks(gw['P01'])['T24 JOCKEY']
 c = rws['J Facies'][hdr.index(('Neptune', 'Dec'))]
-want = f'nearest: 1×φ · golden — outside ±0.0324 · {v - PHI:+.5f}'
+want = f'nearest: 1×φ golden — not a 4-digit match ({v - PHI:+.5f})'
 check('T36 T24 JOCKEY J Facies – J Neptune Dec by hand from POSITIONS: 1.616795, 1×φ −0.00124 outside the 4-digit match (1616 vs 1618; was 92.49 '
       'before 24 Oct 2026) -> nearest, no fill', abs(v - 1.616795) < 1e-6
       and c.value == round(v, 6) and first(c) == want and fillrgb(c) is None, f'{v:.6f}; {first(c)!r} vs {want!r}')
@@ -2459,8 +2459,8 @@ check('T36 T24 JOCKEY RATIOS J Mirfak RA d(Mirfak, Jupiter) / d(Mirfak, Uranus) 
 # SKY block: S Jupiter → S Meissa RA (silver 24.14 = 10 (1 + √2)) and S Jupiter → S Al Rescha RA (18×φ). 24 Oct 2026 (Eddie, 4-digit rule): both
 # were hits (90.61, separating 13:53; 51.96, separating 13:33); 24.136328 (2413 vs 2414) and 29.133646 (2913 vs 2912) are outside the digit
 # match -> shown outside, no score, no timing
-for star, tt, tv, tol in (('Meissa', '24.14 (silver) — outside ±0.121', 10 * (1 + 2 ** 0.5), max(0.005 * 10 * (1 + 2 ** 0.5), 0.025)),
-                          ('Al Rescha', '18×φ (golden) — outside ±0.0324', 18 * PHI, 0.03236)):
+for star, tt, tv, tol in (('Meissa', '24.14 silver — not a 4-digit match (-0.00581)', 10 * (1 + 2 ** 0.5), max(0.005 * 10 * (1 + 2 ** 0.5), 0.025)),
+                          ('Al Rescha', '18×φ golden — not a 4-digit match (+0.00903)', 18 * PHI, 0.03236)):
     x = row(gw['SKY JUPITER'], 'SKY', f'S Jupiter → S {star}')
     sx = gp[('SKY', 'S', star)]
     v0 = ra_d(sj[0], sx[0]); v5 = ra_d(sj[0] + 5 * rates['Jupiter'][0], sx[0] + 5 * rates[star][0])
@@ -2508,7 +2508,7 @@ tim = f"applying, exact {(A_OFF + datetime.timedelta(minutes=t_)).strftime('%H:%
 check(f'T36 T1 H Orion Nebula Cluster row, SKY cell S Jupiter → S ONC RA by hand from POSITIONS: {v0:.6f}, 24.14 silver {v0 - tv:+.5f} outside '
       f'the 4-digit match (2417 vs 2414; was {sq(tol, abs(v0 - tv)):.2f}, {tim} before 24 Oct 2026) -> shown outside, no score, no timing',
       abs(v0 - 24.173991) < 1e-6 and x[18].value == round(v0, 6) and x[19].value == round(v5, 6)
-      and x[20].value == '24.14 (silver) — outside ±0.121' and x[22].value == f'{v0 - tv:+.5f}' and x[23].value is None and x[26].value is None, f'{x[18].value}, {x[19].value}, {x[20].value}, {x[22].value}, {x[23].value}, {x[26].value}')
+      and x[20].value == '24.14 silver — not a 4-digit match (+0.03185)' and x[22].value == f'{v0 - tv:+.5f}' and x[23].value is None and x[26].value is None, f'{x[18].value}, {x[19].value}, {x[20].value}, {x[22].value}, {x[23].value}, {x[26].value}')
 hdr, rws = t24_blocks(gw['P01'])['T24 HORSE']
 for body, pl, exp, want, fill in (('Venus', 'Dec', 16.000211, lambda v: f'16 · whole · {v - 16:+.5f} · {sq(0.02, abs(v - 16)):.2f}', GREEN),
                                   ('Mars', 'RA', 0.333693, lambda v: f'0 · conjunction (RA < 1.5) · {v:+.5f} · {sq(1.5, v):.2f}', '00FF8080')):
@@ -3086,9 +3086,20 @@ check('T40 code: write_t24sel, star_select and SEL_NOTE gone; t24r_cell back to 
 # folding; conjunction cells out) in two or more body cells of a star row; "repeats" column, dotted outline (thick midpoint outline kept),
 # comment line, title counts. "Before" = commit 5e10f7bf.
 print('test 41: T24 repeats flag')
+# 24 Oct 2026 (Eddie, "not a 4-digit match" wording): builds by the code of commit 10b18003 (repeats, half, 4-digit rule, old wording),
+# default and --full - test 41 compares these with the 5e10f7bf builds (the repeats alone), test 43 with now (the wording alone)
+bf = 'tools/_jt_before_10b18003.py'
+open(bf, 'w').write(old_code('10b18003'))
+os.makedirs(f'{tmp}/h10', exist_ok=True)
+for n in ('lingfield', 'ascot'):
+    inp = 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx' if n == 'lingfield' else f'{tmp}/race_batch_20120619_ascot_1430.xlsx'
+    for f in ('full', 'def'):
+        subprocess.run([sys.executable, bf, inp] + (['--full'] if f == 'full' else []) + ['--out', f'{tmp}/h10/{n}_{f}_jupiter_tables.xlsx'],
+                       capture_output=True, text=True)
+os.remove(bf)
 out41 = {}
 for (n, f), bo in H5E.items():
-    ao = f'{tmp}/after40/{n}_{f}_jupiter_tables.xlsx'           # the current builds of test 40
+    ao = f'{tmp}/h10/{n}_{f}_jupiter_tables.xlsx'               # 24 Oct 2026: by 10b18003's code (old wording; the repeats as now)
     out41[(n, f)] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_t24rep/check_rep.py', bo, ao], capture_output=True, text=True).stdout
 check('T41 against the build before (commit 5e10f7bf), both races, default and --full (chk_t24rep/check_rep.py): every repeats cell of T24 SKY / '
       'HORSE / JOCKEY recomputed from POSITIONS (own code, families.evaluate: best target per cell, conjunction cells out, every target in >= 2 '
@@ -3191,7 +3202,7 @@ for tid, ch, X, pl, exp in (('T2', 'J', 'Rasalhague', 'RA', ('12.5 (half)', lamb
                             ('T2', 'J', 'Kaus Australis', 'RA', ('conj (conj)', lambda v: sqs(1.5, v))),
                             ('T1', 'H', 'El Nath', 'RA', ('98×φ (golden)', lambda v: sqs(0.03236, abs(v - 98 * F.PHI)))),
                             ('T2', 'J', 'Gonggong', 'Dec', ('1.414 (sqrt2)', lambda v: sqs(0.025, abs(v - 2 ** 0.5)))),
-                            ('T1', 'H', 'Sun', 'RA', ('41.4 (silver) — outside ±0.207', None))):
+                            ('T1', 'H', 'Sun', 'RA', ('41.4 silver — not a 4-digit match (-0.04177)', None))):
     r = r42[(tid, f'{ch} Jupiter → {ch} {X}')]
     c0 = 2 if pl == 'RA' else 10
     v = dpl(pp[(ch, 'Jupiter')], pp[(ch, X)], pl)
@@ -3219,6 +3230,39 @@ check('T42 against the build before (commit 83850b1c), both races, default and -
       and all('T24 SKY: whole 141 -> 148, half 0 -> 66, golden 114 -> 35, phi power 144 -> 5, ninth 169 -> 14' in o for k, o in out42.items() if k[0] == 'ascot')
       and 'T1: whole 17 -> 18, half 0 -> 14, golden 17 -> 5, phi power 35 -> 1, ninth 39 -> 2' in out42[('lingfield', 'full')],
       f"{ {k: line(o, 'mismatches:') for k, o in out42.items()} }")
+# ---------------------------------------------------------------------------------------------------------------------------------
+# Test 43 (Eddie, 24 Oct 2026): a value inside its family's old tolerance that fails the 4-digit match reads '<target> <family> — not a
+# 4-digit match (<offset>)' (T24 comments: 'nearest: ' + that); beyond the old tolerance '— outside ±<tol>' stays. No score, no fill on either.
+# "Before" = builds by the code of commit 10b18003 (half + 4-digit rule, the old wording).
+print('test 43: "not a 4-digit match" wording')
+out43 = {}
+for n in ('lingfield', 'ascot'):
+    for f in ('full', 'def'):
+        bo = f'{tmp}/h10/{n}_{f}_jupiter_tables.xlsx'
+        out43[(n, f)] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_half/compare_wording.py', f'{tmp}/h85/tools/families.py', bo,
+                                        f'{tmp}/after40/{n}_{f}_jupiter_tables.xlsx'], capture_output=True, text=True).stdout
+check('T43 against the build before (commit 10b18003), both races, default and --full, with their pairs workbooks (chk_half/compare_wording.py): '
+      'only nearest-target texts and comments differ, each from "— outside ..." to "<target> <family> — not a 4-digit match (<offset>)" with the '
+      'same target, family and offset, its value inside the family\'s old tolerance (old score > 0) and scoring nothing now; values, fills, '
+      'borders, formats and every other text identical', all(line(o, 'mismatches:') == 'mismatches: 0' for o in out43.values())
+      and all(int(line(o, 'changed cells:').split()[2]) > 0 for o in out43.values()),
+      f"{ {k: (line(o, 'changed cells:'), line(o, 'mismatches:')) for k, o in out43.items()} }")
+# by hand from POSITIONS (rebuilt Ascot P01): one of each wording
+w43 = openpyxl.load_workbook(f'{tmp}/after40/ascot_full_jupiter_tables.xlsx')
+pp = posmap(w43, 'P01')
+sk = {x[3]: (x[5], x[6]) for x in w43['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'SKY' and x[3]}
+r43 = {(r[0], r[1]): r for r in w43['P01'].iter_rows(values_only=True) if r and r[0] in ('T1', 'T2')}
+v1 = dpl(pp[('J', 'Jupiter')], pp[('J', 'Hamal')], 'Dec')
+t1_ = f'29×φ golden — not a 4-digit match ({v1 - 29 * F.PHI:+.5f})'
+x1 = r43[('T2', 'J Jupiter → J Hamal')]
+v2 = dpl(sk['Jupiter'], sk['Pollux'], 'RA')
+t2_ = f'35×φ (golden) — outside ±0.0324'
+x2 = r43[('T1', 'H Jupiter → H Pollux')]
+check(f'T43 by hand from POSITIONS: T2 J Jupiter → J Hamal Dec {v1:.6f}, 29×φ {29 * F.PHI:.6f}, |offset| {abs(v1 - 29 * F.PHI):.5f} < 0.03236 '
+      f'but {F.digits4(v1)[1]} vs {F.digits4(29 * F.PHI)[1]} -> {t1_!r}; T1 H Pollux row SKY S Jupiter → S Pollux RA {v2:.6f}, 35×φ '
+      f'{35 * F.PHI:.6f}, |offset| {abs(v2 - 35 * F.PHI):.5f} > 0.03236 -> {t2_!r}; neither scored nor filled',
+      x1[12] == t1_ and x1[15] is None and abs(v1 - 29 * F.PHI) < 0.03236 and not F.digit_match(v1, 29 * F.PHI)
+      and x2[20] == t2_ and x2[23] is None and abs(v2 - 35 * F.PHI) > 0.03236, f'{x1[12]!r} {x1[15]}; {x2[20]!r} {x2[23]}')
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

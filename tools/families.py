@@ -236,7 +236,20 @@ def outside(v, plane=None, kind='deg'):
     f, lab, t, tol, name, grp = c
     pct = ispct(c)
     return {'family': f, 'target': lab, 'tv': t, 'off': (v / t - 1) * 100 if pct else v - t, 'pct': pct, 'tol': tol,
-            'name': name, 'group': grp, 'score': None, 'colour': ''}
+            'name': name, 'group': grp, 'score': None, 'colour': '', 'digit': kind == 'deg' and inside_old(v, f, t)}
+
+
+def inside_old(v, fam, t):
+    """the value is inside the family's old tolerance on target t (the old score would be > 0) but fails the 4-digit rule - shown as
+    '<target> <family> — not a 4-digit match (<offset>)' (Eddie, 24 Oct 2026)"""
+    if fam not in DIGIT_FAMILIES or digit_match(v, t):
+        return False
+    if fam == 'golden':
+        return round(v / PHI) >= 1 and abs(round(v / PHI) * PHI - t) < 1e-9 and score_phi_interval(v) > 0
+    if fam == 'ninth':
+        return any(lo <= v < hi and abs(tt - t) < 1e-9 for lo, hi, tol, tt in _NINTH_RANGES) and score_ninth(v) > 0
+    tol = max(t * 0.005, 0.025)                            # phi power, sqrt2, silver
+    return abs(v - t) < tol
 
 
 def best(v, plane=None, kind='deg'):

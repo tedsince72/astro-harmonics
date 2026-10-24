@@ -307,8 +307,16 @@ def tol_text(d):
     return f"±{d['tol']:.3g}{' %' if d['pct'] else ''}"
 
 
+def digit_text(d):
+    """a value inside its family's old tolerance that fails the 4-digit match (Eddie, 24 Oct 2026): no score, no colour"""
+    return f"{d['target']} {d['family']} — not a 4-digit match ({fmt_off(d)})"
+
+
 def out_text(d):
-    """nearest target outside every tolerance (Eddie, 13 Oct 2026): plain text, no score, no colour"""
+    """nearest target outside every tolerance (Eddie, 13 Oct 2026): plain text, no score, no colour; inside the old tolerance but not a
+    4-digit match: digit_text (24 Oct 2026)"""
+    if d.get('digit'):
+        return digit_text(d)
     return f"{tlabel(d)} — outside ±{d['tol']:.3g}{' %' if d['pct'] else ''}"
 
 
@@ -788,6 +796,8 @@ def t24_cell(v, pl):
         fam = f"conjunction ({pl} < {families.CONJ[pl]})" if ev['family'] == 'conj' else ev['family']
         return ev['colour'], f"{'0' if ev['family'] == 'conj' else ev['target']} · {fam} · {fmt_off(ev)} · {ev['score']:.2f}"
     near = families.outside(v, pl, 'deg')
+    if near and near.get('digit'):
+        return '', f"nearest: {digit_text(near)}"
     return '', f"nearest: {near['target']} · {near['family']} — outside ±{near['tol']:.3g} · {fmt_off(near)}" if near else 'no target'
 
 
@@ -2574,7 +2584,7 @@ def sky_equiv(ctx, R, e):
         fp = pl if pl in ('RA', 'Dec') else None
         ev = families.best(v0, fp, 'deg')
         d = ev or families.outside(v0, fp, 'deg')
-        return {'rel': rel, 'v0': v0, 'target': (tlabel(d) + ('' if ev else ' — outside')) if d else 'no family',
+        return {'rel': rel, 'v0': v0, 'target': (tlabel(d) if ev else digit_text(d) if d.get('digit') else tlabel(d) + ' — outside') if d else 'no family',
                 'score': ev['score'] if ev else None, 'colour': ev['colour'] if ev else '',
                 'timing': exact_time(ctx, v0, v5, d['tv']) if d else None,
                 'same': bool(ev and e['score'] is not None and tl_key(ev) == e['dk'])}
@@ -3249,7 +3259,8 @@ def field_sheet(wb, tid, title, runners, fields, planes, mid=False, uni=None):
                 if not ev and tid != 'T16' and v:                 # outside every tolerance: nearest target + offset, plain
                     near = families.outside(v, pl, 'ratio' if tid in ('T12', 'T13', 'T14') else 'deg')
                     if near:
-                        ws.cell(row=row, column=3 + 2 * i, value=f"{near['target']} {fmt_off(near)} (outside ±{near['tol']:.3g}{' %' if near['pct'] else ''})")
+                        ws.cell(row=row, column=3 + 2 * i, value=digit_text(near) if near.get('digit') else
+                                f"{near['target']} {fmt_off(near)} (outside ±{near['tol']:.3g}{' %' if near['pct'] else ''})")
                 if ev:
                     ws.cell(row=row, column=3 + 2 * i, value=f"{ev['target']} {fmt_off(ev)}" + (f" [{ev['score']:.2f}]" if ev['score'] is not None else '')
                             + (f" [{ev['group']}]" if ev.get('group') else '')

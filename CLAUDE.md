@@ -36,10 +36,16 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
 - Whole numbers 1–200, ±0.02 (score_whole).
 - HALF (Eddie, 24 Oct 2026; families.score_half): 0.5, 1.5 … 199.5, ±0.01 absolute, squared (10 (0.01 − dev) / 0.01)², family "half",
   scored alongside the others (best = highest score; nearest by tightness includes the half targets). No 4-digit rule on whole or half.
+  Half vs conjunction (Eddie, 24 Oct 2026, kept as built): inside the conjunction range (RA < 1.5, Dec < 0.3) the highest score wins - a
+  half 0.5 / 1.5 (RA) can outscore the conjunction, as whole 1 already could; the red fill still marks the range (T24). E.g. Lingfield P11
+  T3 H Jupiter → J Ketu RA 1.497436 half 1.5 (55.30) vs conj 0.00; P11 T24 JOCKEY J Alphecca – J Quaoar RA 1.498093 half (65.50), red; pairs
+  workbook P03 J Sun – J Mars RA 0.498836 half 0.5 (78.08) vs conj 44.55, P05 H Sun – H Pallas RA 0.500948 (81.95) vs 44.35.
 - 4-DIGIT RULE (Eddie, 24 Oct 2026; families.digits4 / digit_match): golden, φ powers, ninths, √2 and silver score only when the value's
   first 4 significant digits, TRUNCATED, equal the exact target's at the same order of magnitude (k = floor(log10 x), digits4 = floor(x /
   10^(k − 3)); 2.414 never matches 24.14). Inside the match the score is the family's old formula on its old tolerance (the tolerances
-  below stay as the score scale); outside it no score, no fill, shown as the nearest target outside. E.g. silver 24.1421 -> 24.1400 to
+  below stay as the score scale); outside it no score, no fill: a value inside the family's old tolerance that fails the match reads
+  '<target> <family> — not a 4-digit match (<offset>)' (T24 comments 'nearest: ' + that; Eddie, 24 Oct 2026), a value beyond the old
+  tolerance keeps '— outside ±<tol>'. E.g. silver 24.1421 -> 24.1400 to
   24.1499; ninth 166.667 -> 166.600 to 166.699. Ratios (interval list, areas) and midpoints unchanged. Frozen readers keep their own rules.
 - Golden interval: every multiple of φ, ±0.03236, zero multiple not scored (score_phi_interval).
 - φ powers: φ^-1, φ^1..10, 10φ^-1..7, 100φ^-1, 100φ (score_phi_powers). No 1/φ² forms.
@@ -116,7 +122,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct; 46 since 20 Oct, 67 since 21 Oct; conjunction cells red, 20 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (240/240; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (242/242; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -784,12 +790,26 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
 
 ## families.py: half family and the 4-digit rule (Eddie, 24 Oct 2026; every table follows)
 - Rules in Families above; one change in tools/families.py (active_vibrations.py untouched, wrapped). jupiter_tables.py changed in one line:
-  NUM_FAMILIES + 'half' (Claude's choice: NUMBERS lists half numbers too). Conjunction: as before the highest score wins, so in the
-  conjunction range a half 0.5 / 1.5 (RA) can outscore it, as whole 1 already could: Lingfield P11 T3 H Jupiter → J Ketu RA 1.497436
-  (half 55.30, conj 0.00), P11 T24 JOCKEY J Alphecca – J Quaoar RA 1.498093 (half 65.50, still red); pairs workbook Lingfield P03 J Sun –
-  J Mars RA 0.498836 (78.08 vs conj 44.55), P05 H Sun – H Pallas RA 0.500948 (81.95 vs 44.35). Where a digit-family best failed the match
-  the conjunction came back (e.g. Ascot S Betelgeuse – S Moon RA 1.415202 √2 92.25 -> conj 0.32). Outside text keeps its form ('… —
-  outside ±tol') also when the offset is inside the old tolerance but outside the digit match.
+  NUM_FAMILIES + 'half' (Claude's choice: NUMBERS lists half numbers too). Half vs conjunction: the highest score wins in the conjunction
+  range (Eddie, 24 Oct 2026, kept; examples in Families). Where a digit-family best failed the match the conjunction came back (e.g. Ascot
+  S Betelgeuse – S Moon RA 1.415202 √2 92.25 -> conj 0.32).
+- Wording (Eddie, 24 Oct 2026, second commit the same day): a value inside its family's old tolerance that fails the 4-digit match reads
+  '<target> <family> — not a 4-digit match (<offset>)' in every cell text and comment that shows the nearest target (T-table target cells
+  incl. SKY cells, T23, SKY block, T24 / T24 H / J comments 'nearest: ...', FIELD 5–8 cells, timeline sky-equivalent cells); beyond the old
+  tolerance '— outside ±<tol>' stays; no score, no fill on either (families.outside 'digit' = inside_old; jupiter_tables digit_text). Offset
+  as the offset cells ('-0.00360'). Texts changed vs 10b18003 (cells + comments, default / --full): rebuilt Ascot 1,486 / 1,508, Lingfield
+  2,290 / 2,411; texts per form (not a 4-digit match / outside, every family, cells + comments, --full): Ascot 1,508 / 9,238, Lingfield
+  2,411 / 16,367. Compared cell by cell (chk_half/compare_wording.py, both
+  races, default and --full, pairs too): only those texts differ, same target / family / offset, every value inside the old tolerance and
+  scoring nothing now: 0 mismatches. Test 43: that comparison in the suite (builds by 10b18003's code) and by hand T2 J Jupiter → J Hamal Dec
+  46.919384 '29×φ golden — not a 4-digit match (-0.00360)' (|off| < 0.03236, 4691 vs 4692) and SKY S Jupiter → S Pollux RA 56.678406
+  '35×φ (golden) — outside ±0.0324' (+0.04722); expected texts of tests 1, 18, 22, 30, 31, 34, 36, 42 moved to the new wording; test 26's
+  sky-equivalent check reads the new form; test 41 now compares the 5e10f7bf builds with builds by 10b18003's code (old wording, so it still
+  checks the repeats alone). Tests 242/242.
+  Independent checker (24 Oct), own code (chk_half/indep/: wfam.py, check_wording_cells.py, check_wording.py, diff_wb.py, wording_extra.py),
+  all four workbooks: every nearest-target text matched to its value and rebuilt (Ascot 10,570 / 10,746, Lingfield 17,727 / 18,778 texts,
+  default / --full; T1–T9, T23, T24 and T24 H / J comments, SKY block, FIELD 5–8, runner timeline sky-equivalent cells), T1 / T2 / SKY block
+  / T24 recomputed from POSITIONS, cell by cell vs the build before (only these texts differ; pairs identical): 0 mismatches.
 - Hits per family before -> after (whole / half / golden / φ power / ninth / √2 / silver / conj):
   Rebuilt Ascot 14:30 2012: T1 6→6 / 0→5 / 9→2 / 16→0 / 9→1 / 3→0 / 1→0 / 1→1; T2 5→6 / 0→3 / 6→2 / 10→1 / 12→0 / 4→1 / 0→0 / 1→1;
   T24 SKY 141→148 / 0→66 / 114→35 / 144→5 / 169→14 / 37→3 / 29→1 / 25→26; T24 HORSE 127→138 / 0→80 / 106→29 / 132→3 / 160→13 / 31→1 /
@@ -1095,7 +1115,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
   see its section; same day revised: the 35 in RA order, and the SKY block star rows on the 35. 
 - **T24 ratio tables T24 H / J, T24 HORSE RATIOS, T24 JOCKEY RATIOS (19 Oct 2026, Eddie):** see its section.
 - **families.py: half family (0.5 … 199.5, ±0.01) and the 4-digit rule for golden, φ powers, ninths, √2, silver; every table follows
-  (24 Oct 2026, Eddie):** see its section and Families. Tests 240/240.
+  (24 Oct 2026, Eddie):** see its section and Families. Same day: half vs conjunction kept (highest score wins, red marks the range);
+  '<target> <family> — not a 4-digit match (<offset>)' for values inside the old tolerance that fail the match. Tests 242/242.
 - **T24 repeats flag in T24 SKY / HORSE / JOCKEY: "repeats" column, dotted outline, comment line, title counts (22 Oct 2026, Eddie):**
   see its section. Tests 235/235.
 - **T24 STAR SELECT removed from the runner sheets (22 Oct 2026, Eddie); sky star timeline trimming and 95 / 100 / 95 kept:** see the
