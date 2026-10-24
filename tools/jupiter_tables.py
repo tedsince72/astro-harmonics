@@ -2998,7 +2998,7 @@ NUM_COL = {'SKY': 'SKY', 'T1': 'HORSE', 'T2': 'JOCKEY', 'T5': 'SKY→NATAL', 'T6
            'T7': 'SKY→NATAL', 'T8': 'SKY→NATAL'}
 NUM_COLS = ('SKY', 'HORSE', 'JOCKEY', 'SKY→NATAL')
 NUM_MIN = 40.0
-NUM_FAMILIES = ('whole', 'golden', 'phi power', 'ninth', 'sqrt2', 'silver')     # degree-distance families (no conjunction, no ratios)
+NUM_FAMILIES = ('whole', 'half', 'golden', 'phi power', 'ninth', 'sqrt2', 'silver')     # degree-distance families (no conjunction, no ratios)
 
 
 def num_colour(sc):

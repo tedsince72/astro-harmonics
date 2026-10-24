@@ -3,6 +3,7 @@
 Eddie's own scoring functions in rebuild_kit/active_vibrations.py are imported (not copied) wherever they exist.
 
   whole      whole numbers 1-200, +-0.02                               score_whole (squared)
+  half       0.5, 1.5 ... 199.5, +-0.01 absolute (Eddie, 24 Oct 2026)    score_half (squared)
   golden     every multiple of phi, +-0.03236, zero multiple not scored score_phi_interval (squared)
   phi power  phi^-1, phi^1..10, 10 phi^-1..7, 100 phi^-1, 100 phi       score_phi_powers (squared); 1/phi^2 forms dropped
   ninth      the 48 _NINTH_RANGES (lower <= v < upper, own tol)          score_ninth (linear). Not n/9.
@@ -25,7 +26,11 @@ Scores: squared (10 (tol - dev) / tol)^2 for whole, golden, phi powers, sqrt2, s
 100 (tol - dev) / tol for ninths.
 Planes RA, Dec, Flat, GC. Decimal scaling: v, 10 v and v/10 are each tested against every family but conj (scaled() - labelled x10 / /10;
 /10 widens a tolerance 10x in degrees). Score 0-100; colour green >= 80, yellow 50-80, light yellow < 50 (inside the bounds).
-Best family = the highest score. No birth-day certainty for now."""
+Best family = the highest score. No birth-day certainty for now.
+4-DIGIT RULE (Eddie, 24 Oct 2026): golden, phi power, ninth, sqrt2 and silver score only when the value's first 4 significant digits,
+truncated, equal the exact target's, at the same order of magnitude (digits4, digit_match; 2.414 never matches 24.14). Inside the match
+the score is the family's own formula on its own tolerance, unchanged (the tolerance stays as the score scale); outside it no score
+(outside() still names the nearest target). Whole and half keep +-0.02 / +-0.01. Ratios and conjunction unchanged."""
 import math, os, sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'rebuild_kit'))
@@ -88,7 +93,38 @@ def interval_tol(lab):
 
 TOL = {lab: interval_tol(lab) for lab, *_ in INTERVALS}
 GREEN, YELLOW = 80.0, 50.0
-DEG_FAMILIES = ('whole', 'golden', 'phi power', 'ninth', 'sqrt2', 'silver', 'conj')
+DEG_FAMILIES = ('whole', 'half', 'golden', 'phi power', 'ninth', 'sqrt2', 'silver', 'conj')
+HALF_TOL = 0.01                                        # Eddie 24 Oct 2026: half family 0.5 ... 199.5, +-0.01 absolute
+DIGIT_FAMILIES = ('golden', 'phi power', 'ninth', 'sqrt2', 'silver')   # Eddie 24 Oct 2026: the 4-digit rule
+
+
+def digits4(x):
+    """(k, first 4 significant digits truncated) of x > 0, k = floor(log10(x)); leading zeros skipped (0.7071 -> (-1, 7071)).
+    Computed on round(x, 10), the scaled mantissa rounded to 6 dp, to guard floating error."""
+    x = round(x, 10)
+    k = math.floor(math.log10(x))
+    m = round(x * 10.0 ** (3 - k), 6)
+    if m >= 10000:
+        k, m = k + 1, round(x * 10.0 ** (2 - k), 6)
+    elif m < 1000:
+        k, m = k - 1, round(x * 10.0 ** (4 - k), 6)
+    return k, math.floor(m)
+
+
+def digit_match(v, t):
+    """the 4-digit rule (Eddie, 24 Oct 2026): same order of magnitude and the same first 4 truncated significant digits"""
+    return v > 0 and t > 0 and digits4(v) == digits4(t)
+
+
+def score_half(v):
+    """half numbers 0.5 ... 199.5, tol 0.01 absolute, squared (as score_whole) -> (score, target)"""
+    t = math.floor(v) + 0.5
+    if not (0.5 <= t <= 199.5):
+        return 0.0, t
+    dev = abs(v - t)
+    if dev >= HALF_TOL:
+        return 0.0, t
+    return (10.0 * (HALF_TOL - dev) / HALF_TOL) ** 2, t
 ORDER = DEG_FAMILIES + ('interval',)
 
 
@@ -106,7 +142,7 @@ def _const(v, targets):
     for lab, t in targets:
         tol = max(t * 0.005, 0.025)
         d = abs(v - t)
-        if d <= tol:
+        if d <= tol and digit_match(v, t):            # 4-digit rule (Eddie, 24 Oct 2026)
             s = (10.0 * (tol - d) / tol) ** 2
             if s > best[0]:
                 best = (s, lab, t)
@@ -120,20 +156,25 @@ def score_family(v, fam, plane=None, kind='deg'):
     if fam == 'whole':
         t = float(round(v))
         return score_whole(v), f'{int(t)}', t
+    if fam == 'half':
+        s, t = score_half(v)
+        return (s, f'{t:g}', t) if s else (0.0, None, None)
     if fam == 'golden':
         k = round(v / PHI)
-        return score_phi_interval(v), f'{k}×φ', k * PHI
+        s = score_phi_interval(v)
+        return (s, f'{k}×φ', k * PHI) if s and digit_match(v, k * PHI) else (0.0, None, None)
     if fam == 'phi power':
         s = score_phi_powers(v)
         if not s:
             return 0.0, None, None
         t = max(_PHI_POWER_TARGETS, key=lambda t: (10.0 * (max(t * 0.005, 0.025) - abs(v - t)) / max(t * 0.005, 0.025)) ** 2
                 if abs(v - t) <= max(t * 0.005, 0.025) else -1)
-        return s, _phi_power_label(t), t
+        return (s, _phi_power_label(t), t) if digit_match(v, t) else (0.0, None, None)
     if fam == 'ninth':
         for lo, hi, tol, t in _NINTH_RANGES:
             if lo <= v < hi:
-                return score_ninth(v), f'{t:g}', t
+                s = score_ninth(v)
+                return (s, f'{t:g}', t) if s and digit_match(v, t) else (0.0, None, None)
         return 0.0, None, None
     if fam == 'sqrt2':
         return _const(v, SQRT2_T)
@@ -182,7 +223,9 @@ def outside(v, plane=None, kind='deg'):
         cands = [('interval', lab, t, TOL[lab], name, grp) for lab, t, name, grp in INTERVALS]
     else:
         k = round(v / PHI)
+        h = math.floor(v) + 0.5
         cands = [('whole', f'{round(v)}', float(round(v)), 0.02, '', ''), ('golden', f'{k}×φ', k * PHI, 0.03236, '', '')]
+        cands += [('half', f'{h:g}', h, HALF_TOL, '', '')] if 0.5 <= h <= 199.5 else []
         cands += [('phi power', _phi_power_label(t), t, max(t * 0.005, 0.025), '', '') for t in _PHI_POWER_TARGETS]
         cands += [('ninth', f'{t:g}', t, tol, '', '') for lo, hi, tol, t in _NINTH_RANGES]
         cands += [(f, lab, t, max(t * 0.005, 0.025), '', '') for f, ts in (('sqrt2', SQRT2_T), ('silver', SILVER_T)) for lab, t in ts]
