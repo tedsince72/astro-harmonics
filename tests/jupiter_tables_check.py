@@ -3472,12 +3472,15 @@ check('T46 Jupiter column: blank on S Jupiter → S body and H Jupiter → H bod
 # (builds in after46). Kelso, Lingfield, rebuilt Ascot, default and --full (chk_display/check_display.py).
 print('test 47: summary header rows + freeze, grey separator rows, column widths')
 os.makedirs(f'{tmp}/after47', exist_ok=True)
+# 27 Oct 2026 (sky hit moved, exact widths, test 48): the "after" builds are by d2d4651b's code, so test 47 checks its own change alone
+os.makedirs(f'{tmp}/hd2', exist_ok=True)
+subprocess.run(f'git archive d2d4651b tools rebuild_kit | tar -x -C {tmp}/hd2', shell=True, check=True)
 out47 = {}
 for n, inp in INP44.items():
     for f in ('def', 'full'):
         fl = ['--full'] if f == 'full' else []
         bo, ao = f'{tmp}/after46/{n}_{f}_jupiter_tables.xlsx', f'{tmp}/after47/{n}_{f}_jupiter_tables.xlsx'
-        r47 = subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp] + fl + ['--out', ao], capture_output=True, text=True)
+        r47 = subprocess.run([sys.executable, f'{tmp}/hd2/tools/jupiter_tables.py', inp] + fl + ['--out', ao], capture_output=True, text=True)
         out47[(n, f, 'size')] = re.findall(r'\(([\d.]+ MB)\)', r47.stdout)
         out47[(n, f)] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_display/check_display.py', bo, ao,
                                         f'{tmp}/after45/{n}_{f}_jupiter_tables.xlsx'], capture_output=True, text=True).stdout
@@ -3498,6 +3501,41 @@ check('T47 Kelso: summary row 1 starts "table | star | sky hit", row 2 the body 
       [s47.cell(row=1, column=k).value for k in (1, 2, 3)] == ['table', 'star', 'sky hit'] and s47.cell(row=2, column=4).value == 'Sun'
       and str(s47.cell(row=3, column=1).value).startswith('P01 ') and s47.freeze_panes == 'C3' and w47['P01'].freeze_panes == 'C4'
       and w47['P01'].column_dimensions['AA'].width == 40, [s47.cell(row=1, column=k).value for k in (1, 2, 3)])
+# ---------------------------------------------------------------------------------------------------------------------------------
+# Test 48 (Eddie, 27 Oct 2026): "sky hit" moved from column C to the end of T24 HORSE / JOCKEY (SKY STARS) and the summary (after SCORES
+# Dec), so the copied T24 part sits in the same columns as T24 HORSE / JOCKEY; widths exact ("never narrower" dropped): values, S Jupiter,
+# SCORES 11, midpoints 40, repeats 60, sky hit 36; runner-sheet AA, AZ, BA 11; freeze panes unchanged. "Before" = d2d4651b (builds in
+# after47). Kelso, Lingfield, rebuilt Ascot, default and --full (chk_skyhit/check_skyhit.py).
+print('test 48: sky hit moved to the end of the (SKY STARS) tables, exact widths')
+os.makedirs(f'{tmp}/after48', exist_ok=True)
+out48 = {}
+for n, inp in INP44.items():
+    for f in ('def', 'full'):
+        fl = ['--full'] if f == 'full' else []
+        bo, ao = f'{tmp}/after47/{n}_{f}_jupiter_tables.xlsx', f'{tmp}/after48/{n}_{f}_jupiter_tables.xlsx'
+        r48 = subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp] + fl + ['--out', ao], capture_output=True, text=True)
+        out48[(n, f, 'size')] = re.findall(r'\(([\d.]+ MB)\)', r48.stdout)
+        out48[(n, f)] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_skyhit/check_skyhit.py', bo, ao], capture_output=True, text=True).stdout
+        z = lambda p: subprocess.run(f'unzip -p {p} xl/worksheets/*.xml xl/sharedStrings.xml | shasum', shell=True, capture_output=True, text=True).stdout
+        out48[(n, f, 'pairs')] = z(bo.replace('_jupiter_tables', '_pairs')) == z(ao.replace('_jupiter_tables', '_pairs'))
+print('T48 sizes (tables, pairs):', {k[:2]: v for k, v in out48.items() if k[2:] == ('size',)})
+check('T48 against the build before (commit d2d4651b), Kelso, Lingfield, rebuilt Ascot, default and --full (chk_skyhit/check_skyhit.py): every moved '
+      'cell otherwise identical (sky hit C -> the last column, the rest one column left; merges moved to match; the "stars" grey to the new last '
+      'column); every (SKY STARS) star row = its T24 row column for column; every T24 / (SKY STARS) / summary column at its width (values, S Jupiter, '
+      'SCORES 11, midpoints 40, repeats 60, sky hit 36), runner-sheet AA, AZ, BA 11; freeze panes and every other row of every sheet unchanged; '
+      'pairs identical',
+      all(line(o, 'mismatches:') == 'mismatches: 0' for k, o in out48.items() if len(k) == 2) and all(o for k, o in out48.items() if k[2:] == ('pairs',)),
+      f"{ {k: (line(o, 'sky hit cells moved:'), line(o, 'mismatches:')) for k, o in out48.items() if len(k) == 2} }")
+w48 = openpyxl.load_workbook(f'{tmp}/after48/kelso_def_jupiter_tables.xlsx')
+p48 = w48['P01']
+ss48 = next(r for r in range(1, p48.max_row + 1) if p48.cell(row=r, column=1).value == 'T24 HORSE (SKY STARS)')
+hit48 = next(r for r in range(ss48, ss48 + 30) if p48.cell(row=r, column=2).value == 'H Rukbat')
+check('T48 Kelso P01: (SKY STARS) header C = "Sun" as T24 (was "sky hit"); H Rukbat sky hit in the last column DB '
+      f'({p48.cell(row=hit48, column=106).value!r}); widths C 11, AA 11, AZ 11, BA 11, DB 36',
+      p48.cell(row=ss48 + 2, column=3).value == 'Sun' and p48.cell(row=ss48 + 1, column=106).value == 'sky hit'
+      and str(p48.cell(row=hit48, column=106).value).startswith('RA 68 whole')
+      and [p48.column_dimensions[c].width for c in ('C', 'AA', 'AZ', 'BA', 'DB')] == [11, 11, 11, 11, 36],
+      [p48.column_dimensions[c].width for c in ('C', 'AA', 'AZ', 'BA', 'DB')])
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

@@ -958,9 +958,7 @@ def write_t24(ws, row, ch, C, title, sky=None):
         cc = {'RA': 3, 'Dec': 3 + mm + 1}
         return ([(cc[pl] + k, T24_VAL_W) for pl in PLANES for k in range(mm)] + [(cc[pl] + mm, T24_MID_W) for pl in PLANES]
                 + [(cc['Dec'] + mm + 1, T24_REP_W)])
-    # widths (Eddie, 27 Oct 2026): the layout's own, and never narrower than before the S Jupiter column (a2d20618): the widths the
-    # layout without it asked for are kept too (widest wins)
-    widths = [(2, T24_NAME_W)] + lay(m) + (lay(n) if m != n else [])
+    widths = [(2, T24_NAME_W)] + lay(m)                    # the layout's own widths (Eddie, 27 Oct 2026: "never narrower" dropped)
     for col, w in widths:
         L = openpyxl.utils.get_column_letter(col)
         if L not in ws.column_dimensions or not ws.column_dimensions[L].customWidth:
@@ -1192,8 +1190,8 @@ def t24_put(ws, row, col, v, pl):
 
 def write_t24ss(ws, row, ch, C, who, src, sel, jrows=()):
     """T24 HORSE / JOCKEY (SKY STARS): from the T24 block whose title row is src on this sheet; sel = [(star, sky hit)]. Columns: table,
-    star, sky hit, the T24 columns (from column 3 of T24, shifted by one; with the S Jupiter column, 27 Oct 2026), SCORES RA, SCORES Dec
-    (bodies + S Jupiter). jrows (Eddie, 27 Oct 2026): the four Jupiter rows on top (t24ss_jrows), then a separator 'stars'. -> next row + 1"""
+    star, the T24 columns (from column 3, in the same columns as T24; with the S Jupiter column, 27 Oct 2026), SCORES RA, SCORES Dec
+    (bodies + S Jupiter), sky hit (last; moved from column 3, Eddie 27 Oct 2026). jrows (Eddie, 27 Oct 2026): the four Jupiter rows on top (t24ss_jrows), then a separator 'stars'. -> next row + 1"""
     tid = f'T24 {who} (SKY STARS)'
     bodies = [b for b in T24_BODIES if b in ch and ch[b][2] == 'body' and b != 'Moon']
     stars = [x for x in T1_T2_T24_STARS if x in ch]
@@ -1201,17 +1199,18 @@ def write_t24ss(ws, row, ch, C, who, src, sel, jrows=()):
     m = n + 1                                              # value columns per plane in T24 HORSE / JOCKEY: bodies + S Jupiter
     tc0 = {'RA': 3, 'Dec': 3 + m + 1}                      # T24 value columns of each plane
     last = 3 + 2 * (m + 1)                                 # T24 repeats column
-    s0 = {'RA': last + 2, 'Dec': last + 2 + m}             # SCORES columns (shifted layout)
+    s0 = {'RA': last + 1, 'Dec': last + 1 + m}             # SCORES columns
+    hitc = last + 1 + 2 * m                                # sky hit: the last column (Eddie, 27 Oct 2026)
     rows = [(x, hit) for x, hit in sel if x in ch]
     ws.cell(row=row, column=1, value=tid).font = BOLD
     ws.cell(row=row, column=2, value=f"{tid} (Eddie, 27 Oct 2026): {T24SS_NOTE.format(who=who)}{T24SS_JNOTE.format(C=C)}. Selected: {len(rows)} "
                                      f"star{'' if len(rows) == 1 else 's'}").font = BOLD
     row += 1
-    for k in range(2):                                     # header rows: T24's, shifted; sky hit; SCORES
+    for k in range(2):                                     # header rows: T24's, same columns; SCORES; sky hit
         sr = src + 1 + k
         for col in range(1, last + 1):
-            copy_cell(ws.cell(row=sr, column=col), ws.cell(row=row + k, column=col + (col >= 3)))
-        c = ws.cell(row=row + k, column=3, value='sky hit' if k == 0 else 'SKY block hit(s): plane target family (score)')
+            copy_cell(ws.cell(row=sr, column=col), ws.cell(row=row + k, column=col))
+        c = ws.cell(row=row + k, column=hitc, value='sky hit' if k == 0 else 'SKY block hit(s): plane target family (score)')
         c.fill = HEAD; c.font = BOLD
         for pl in PLANES:
             for i, b in enumerate(bodies + ['S Jupiter']):
@@ -1219,7 +1218,7 @@ def write_t24ss(ws, row, ch, C, who, src, sel, jrows=()):
                 c.fill = HEAD; c.font = BOLD
     ws.cell(row=row, column=1, value='table')
     for pl in PLANES:
-        ws.merge_cells(start_row=row, start_column=tc0[pl] + 1, end_row=row, end_column=tc0[pl] + m)
+        ws.merge_cells(start_row=row, start_column=tc0[pl], end_row=row, end_column=tc0[pl] + m - 1)
         ws.merge_cells(start_row=row, start_column=s0[pl], end_row=row, end_column=s0[pl] + m - 1)
     row += 2
 
@@ -1241,31 +1240,26 @@ def write_t24ss(ws, row, ch, C, who, src, sel, jrows=()):
             for i, b in enumerate(bodies):
                 v = vals.get((b, pl))
                 if v is not None:
-                    cells.append((pl, i, t24_put(ws, row, tc0[pl] + 1 + i, v, pl)))
+                    cells.append((pl, i, t24_put(ws, row, tc0[pl] + i, v, pl)))
         scores(row, cells)
         row += 1
     if jrows:
         ws.cell(row=row, column=1, value=tid)
         ws.cell(row=row, column=2, value='stars').font = BOLD
-        for k in range(1, s0['Dec'] + m):                  # light grey across the table, A to the last SCORES column (Eddie, 27 Oct 2026)
+        for k in range(1, hitc + 1):                       # light grey across the table, A to the last column (sky hit) (Eddie, 27 Oct 2026)
             ws.cell(row=row, column=k).fill = GREY
         row += 1
     for x, hit in rows:
         sr = src + 3 + stars.index(x)
         for col in range(2, last + 1):
-            copy_cell(ws.cell(row=sr, column=col), ws.cell(row=row, column=col + (col >= 3)))
+            copy_cell(ws.cell(row=sr, column=col), ws.cell(row=row, column=col))
         ws.cell(row=row, column=1, value=tid)
-        ws.cell(row=row, column=3, value=hit)
+        ws.cell(row=row, column=hitc, value=hit)
         scores(row, [(pl, i, ws.cell(row=sr, column=tc0[pl] + i)) for pl in PLANES for i in range(m)])
         row += 1
-    def lay(mm):                                           # widths of the layout with mm value columns per plane
-        cc = {'RA': 3, 'Dec': 3 + mm + 1}
-        ls = 3 + 2 * (mm + 1)
-        ss = {'RA': ls + 2, 'Dec': ls + 2 + mm}
-        return ([(cc[pl] + 1 + k, T24_VAL_W) for pl in PLANES for k in range(mm)] + [(cc[pl] + 1 + mm, T24_MID_W) for pl in PLANES]
-                + [(ls + 1, T24_REP_W)] + [(ss[pl] + k, T24_VAL_W) for pl in PLANES for k in range(mm)])
-    # widths (Eddie, 27 Oct 2026): this layout's, and never narrower than before the S Jupiter column (a2d20618): the layout without it too
-    widths = [(2, T24_NAME_W), (3, T24SS_HIT_W)] + lay(m) + lay(n)
+    # widths (Eddie, 27 Oct 2026; "never narrower" dropped): values, S Jupiter and SCORES 11, midpoints 40, repeats 60, sky hit 36
+    widths = ([(2, T24_NAME_W)] + [(tc0[pl] + k, T24_VAL_W) for pl in PLANES for k in range(m)] + [(tc0[pl] + m, T24_MID_W) for pl in PLANES]
+              + [(last, T24_REP_W)] + [(s0[pl] + k, T24_VAL_W) for pl in PLANES for k in range(m)] + [(hitc, T24SS_HIT_W)])
     widen(ws, widths)
     ws._t24ssw = widths
     return row + 1
