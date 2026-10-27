@@ -884,10 +884,10 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   6-dp rounding of the shown value). On the builds before the fix it finds the old bug (Lingfield 67-star 17 cells, repo batch 6, all 0.98 < v < 1).
   Not covered: midpoint / ratio cells, T16 (no crossing in these races), together sides, the --full-only sheets (FIELD 5–8 text, THREADS,
   NUMBERS, RATIOS), "also" columns, the nearest target of no-hit cells.
-  Open point (Eddie): the ninth targets just under 1, 10, 100 are written 0.999999 / 9.999999 / 99.999999 in _NINTH_RANGES, and the 4-digit
-  rule matches against those: a value just below 1 / 10 / 100 scores as a ninth and beats whole (e.g. Kelso P01 T8 RA 99.998689 ninth 99.13,
-  whole 100 would be 87.32; Ascot P01 T24 Dec 9.999769 ninth 98.47); right at 10.000000 a 6-dp value can read either way (Lingfield P07 T24
-  Dec / Equator 10.0 ninth 100.0). As built; no change.
+  Decided (Eddie, 27 Oct 2026): keep as built (a) - highest score wins; a value just under 1 / 10 / 100 can show as ninth 0.999999 / 9.999999 /
+  99.999999 and one just over as whole. (The ninth targets are written that way in _NINTH_RANGES and the 4-digit rule matches against them;
+  e.g. Kelso P01 T8 RA 99.998689 ninth 99.13, whole 100 would be 87.32; Ascot P01 T24 Dec 9.999769 ninth 98.47; right at 10.000000 a 6-dp
+  value can read either way (Lingfield P07 T24 Dec / Equator 10.0 ninth 100.0).)
 
 ## jupiter_tables: T24 HORSE / JOCKEY (SKY STARS), SKY STARS SUMMARY (Eddie, 27 Oct 2026; viewing only)
 - Selection (once per race; sky_star_select): every star of T1_T2_T24_STARS whose S Jupiter → S star cell in the SKY block (SKY JUPITER)
