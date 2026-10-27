@@ -954,8 +954,13 @@ def write_t24(ws, row, ch, C, title, sky=None):
     ws.cell(row=trow, column=2, value=f'{title}. REPEATS (22 Oct 2026): {nrep} of {len(stars)} rows with a repeat, {ntgt} repeated targets').font = BOLD
     # display (Eddie, 19 Oct 2026): value columns wide enough for 177.745864, star names ~18, midpoint columns wider; shared columns only
     # ever widened
-    widths = ([(2, T24_NAME_W)] + [(c0[pl] + k, T24_VAL_W) for pl in PLANES for k in range(m)] + [(c0[pl] + m, T24_MID_W) for pl in PLANES]
-              + [(crep, T24_REP_W)])
+    def lay(mm):                                           # widths of the layout with mm value columns per plane
+        cc = {'RA': 3, 'Dec': 3 + mm + 1}
+        return ([(cc[pl] + k, T24_VAL_W) for pl in PLANES for k in range(mm)] + [(cc[pl] + mm, T24_MID_W) for pl in PLANES]
+                + [(cc['Dec'] + mm + 1, T24_REP_W)])
+    # widths (Eddie, 27 Oct 2026): the layout's own, and never narrower than before the S Jupiter column (a2d20618): the widths the
+    # layout without it asked for are kept too (widest wins)
+    widths = [(2, T24_NAME_W)] + lay(m) + (lay(n) if m != n else [])
     for col, w in widths:
         L = openpyxl.utils.get_column_letter(col)
         if L not in ws.column_dimensions or not ws.column_dimensions[L].customWidth:
@@ -1242,6 +1247,8 @@ def write_t24ss(ws, row, ch, C, who, src, sel, jrows=()):
     if jrows:
         ws.cell(row=row, column=1, value=tid)
         ws.cell(row=row, column=2, value='stars').font = BOLD
+        for k in range(1, s0['Dec'] + m):                  # light grey across the table, A to the last SCORES column (Eddie, 27 Oct 2026)
+            ws.cell(row=row, column=k).fill = GREY
         row += 1
     for x, hit in rows:
         sr = src + 3 + stars.index(x)
@@ -1251,9 +1258,14 @@ def write_t24ss(ws, row, ch, C, who, src, sel, jrows=()):
         ws.cell(row=row, column=3, value=hit)
         scores(row, [(pl, i, ws.cell(row=sr, column=tc0[pl] + i)) for pl in PLANES for i in range(m)])
         row += 1
-    widths = ([(2, T24_NAME_W), (3, T24SS_HIT_W)] + [(tc0[pl] + 1 + k, T24_VAL_W) for pl in PLANES for k in range(m)]
-              + [(tc0[pl] + 1 + m, T24_MID_W) for pl in PLANES] + [(last + 1, T24_REP_W)]
-              + [(s0[pl] + k, T24_VAL_W) for pl in PLANES for k in range(m)])
+    def lay(mm):                                           # widths of the layout with mm value columns per plane
+        cc = {'RA': 3, 'Dec': 3 + mm + 1}
+        ls = 3 + 2 * (mm + 1)
+        ss = {'RA': ls + 2, 'Dec': ls + 2 + mm}
+        return ([(cc[pl] + 1 + k, T24_VAL_W) for pl in PLANES for k in range(mm)] + [(cc[pl] + 1 + mm, T24_MID_W) for pl in PLANES]
+                + [(ls + 1, T24_REP_W)] + [(ss[pl] + k, T24_VAL_W) for pl in PLANES for k in range(mm)])
+    # widths (Eddie, 27 Oct 2026): this layout's, and never narrower than before the S Jupiter column (a2d20618): the layout without it too
+    widths = [(2, T24_NAME_W), (3, T24SS_HIT_W)] + lay(m) + lay(n)
     widen(ws, widths)
     ws._t24ssw = widths
     return row + 1
@@ -1281,7 +1293,7 @@ def summary_sheet(wb, runners, fields):
     """SKY STARS SUMMARY (Eddie, 27 Oct 2026): per runner in sheet order its title line, T24 HORSE (SKY STARS), one blank row, T24 JOCKEY
     (SKY STARS), two blank rows; cells (values, styles, comments, merged header cells) copied from the runner sheets"""
     out = wb.create_sheet('SKY STARS SUMMARY')
-    row = 1
+    row = 3                                                # rows 1-2: the header rows of the first table (Eddie, 27 Oct 2026), below
     for P in sorted(runners):
         ws = wb[P]
         copy_cell(ws.cell(row=1, column=1), out.cell(row=row, column=1))
@@ -1298,6 +1310,17 @@ def summary_sheet(wb, runners, fields):
                     out.merge_cells(start_row=row + m.min_row - r0, start_column=m.min_col, end_row=row + m.max_row - r0, end_column=m.max_col)
             row += r1 - r0 + 1 + (1 if C == 'H' else 2)
         widen(out, ws._t24ssw)                             # widths as the T24 (SKY STARS) tables
+    # rows 1-2 (Eddie, 27 Oct 2026): a copy of the first table's two header rows (rows 5-6: runner line, title, then the headers), values,
+    # styles and merges; frozen at C3 so they and columns A-B stay in view
+    for k in range(2):
+        for c in range(1, out.max_column + 1):
+            sc = out.cell(row=5 + k, column=c)
+            if sc.value is not None or sc.has_style or sc.comment:
+                copy_cell(sc, out.cell(row=1 + k, column=c))
+    for m in list(out.merged_cells.ranges):
+        if 5 <= m.min_row and m.max_row <= 6:
+            out.merge_cells(start_row=m.min_row - 4, start_column=m.min_col, end_row=m.max_row - 4, end_column=m.max_col)
+    out.freeze_panes = 'C3'
     return out
 
 

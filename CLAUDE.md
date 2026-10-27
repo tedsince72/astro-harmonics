@@ -124,7 +124,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct; 46 since 20 Oct, 67 since 21 Oct; conjunction cells red, 20 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (258/258; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (260/260; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -930,6 +930,22 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   default = --full (48,108 cells): 0 mismatches; reported the column widths above. Not exercised in Kelso: a conjunction sky hit (Ascot and
   Lingfield have one each), a selected star missing from a chart.
 
+## jupiter_tables: summary header rows, grey 'stars' rows, widths (Eddie, 27 Oct 2026; display only)
+- SKY STARS SUMMARY: rows 1-2 = a copy of the first table's two header rows (values, styles, merges); everything else two rows lower;
+  freeze panes C3 (summary only; runner sheets C4 as before).
+- Every 'stars' separator row of T24 HORSE / JOCKEY (SKY STARS) (runner sheets and summary): light grey D9D9D9 from column A to the last
+  SCORES column.
+- Widths: no column narrower than before a2d20618 (the T24 / (SKY STARS) widths of the layout without the S Jupiter column are kept too,
+  widest wins): runner sheets AA 11 -> 40, AZ 11 -> 40, BA 11 -> 60, BB 40 -> 60; summary AB 11 -> 40, BA 11 -> 40, BB 11 -> 60 (all wider
+  than their content needs, from the old layout). (Superseded the same day: see the sky hit entry.)
+- Sizes (tables default / --full): Kelso 4.99 / 5.21 MB, Lingfield 2.47 / 2.68, rebuilt Ascot 1.05 / 1.11; pairs unchanged.
+- Tests 260/260. Test 47 (new): chk_display/check_display.py vs builds by a2d20618's code (widths also vs 35255b16), three races, default and
+  --full: summary rows 1-2 = the header rows below, freeze C3 on the summary only, every 'stars' row grey A to the last SCORES column
+  (Kelso 24 rows, 2,544 cells), no column narrower, midpoints >= 40, repeats >= 60, values >= 11, every other cell identical (summary after
+  the shift), pairs identical. Test 46 now compares 35255b16 with builds by a2d20618's code.
+- Independent checker (27 Oct), own code (chk_display/indep/), Kelso default and --full: 353,472 / 370,957 cells, 0 mismatches; 7 planted
+  errors all found; every width change listed above, each = the 35255b16 width.
+
 ## jupiter_tables: T24 "S Jupiter" column, four Jupiter rows on the (SKY STARS) tables (Eddie, 27 Oct 2026; viewing only)
 - T24 HORSE / T24 JOCKEY (every runner sheet), every star row: column "S Jupiter" straight after Ketu in the RA body columns (before "RA
   midpoints") and after Ketu in the Dec body columns (before "Dec midpoints"); cell = d(S Jupiter, S star) at the off = the SKY block value
@@ -1217,6 +1233,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **SKY STARS SUMMARY header rows + freeze C3, grey 'stars' rows, widths never narrower (27 Oct 2026, Eddie):** see its section.
+  Tests 260/260.
 - **T24 HORSE / JOCKEY "S Jupiter" column + four Jupiter rows on the (SKY STARS) tables and summary (27 Oct 2026, Eddie):** see its
   section. Tests 258/258.
 - **Whole numbers on the target (0.98 < v < 1 now scores on 1), every table follows (27 Oct 2026, Eddie):** see its section.

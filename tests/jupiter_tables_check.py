@@ -3402,12 +3402,15 @@ check(f'T45 by hand from POSITIONS (Lingfield 67-star P09): T24 HORSE H Meissa �
 # default and --full (chk_sjcol/check_sjcol.py).
 print('test 46: T24 S Jupiter column and the four Jupiter rows of the (SKY STARS) tables')
 os.makedirs(f'{tmp}/after46', exist_ok=True)
+# 27 Oct 2026 (display changes, test 47): the "after" builds are by a2d20618's code, so test 46 checks its own change alone
+os.makedirs(f'{tmp}/hfa2', exist_ok=True)
+subprocess.run(f'git archive a2d20618 tools rebuild_kit | tar -x -C {tmp}/hfa2', shell=True, check=True)
 out46 = {}
 for n, inp in INP44.items():
     for f in ('def', 'full'):
         fl = ['--full'] if f == 'full' else []
         bo, ao = f'{tmp}/after45/{n}_{f}_jupiter_tables.xlsx', f'{tmp}/after46/{n}_{f}_jupiter_tables.xlsx'
-        r46 = subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp] + fl + ['--out', ao], capture_output=True, text=True)
+        r46 = subprocess.run([sys.executable, f'{tmp}/hfa2/tools/jupiter_tables.py', inp] + fl + ['--out', ao], capture_output=True, text=True)
         out46[(n, f, 'size')] = re.findall(r'\(([\d.]+ MB)\)', r46.stdout)
         out46[(n, f)] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_sjcol/check_sjcol.py', bo, ao], capture_output=True, text=True).stdout
         z = lambda p: subprocess.run(f'unzip -p {p} xl/worksheets/*.xml xl/sharedStrings.xml | shasum', shell=True, capture_output=True, text=True).stdout
@@ -3462,6 +3465,39 @@ check('T46 Jupiter column: blank on S Jupiter → S body and H Jupiter → H bod
       and ws46.cell(row=jr46['H Jupiter → H body'], column=vcol('RA', 'Jupiter')).value is None
       and jj.value == ws46.cell(row=jr46['S Jupiter → H body'], column=vcol('RA', 'Jupiter')).value == round(dpl(s46['Jupiter'], p46[('H', 'Jupiter')], 'RA'), 6),
       jj.value)
+# ---------------------------------------------------------------------------------------------------------------------------------
+# Test 47 (Eddie, 27 Oct 2026): three display changes - SKY STARS SUMMARY rows 1-2 = the first table's header rows, freeze pane C3 (summary
+# only); every 'stars' separator row light grey (D9D9D9) from column A to the last SCORES column; no column narrower than before a2d20618
+# (nor than before the S Jupiter column, 35255b16), midpoint columns 40, repeats 60, value / S Jupiter / SCORES 11. "Before" = a2d20618
+# (builds in after46). Kelso, Lingfield, rebuilt Ascot, default and --full (chk_display/check_display.py).
+print('test 47: summary header rows + freeze, grey separator rows, column widths')
+os.makedirs(f'{tmp}/after47', exist_ok=True)
+out47 = {}
+for n, inp in INP44.items():
+    for f in ('def', 'full'):
+        fl = ['--full'] if f == 'full' else []
+        bo, ao = f'{tmp}/after46/{n}_{f}_jupiter_tables.xlsx', f'{tmp}/after47/{n}_{f}_jupiter_tables.xlsx'
+        r47 = subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp] + fl + ['--out', ao], capture_output=True, text=True)
+        out47[(n, f, 'size')] = re.findall(r'\(([\d.]+ MB)\)', r47.stdout)
+        out47[(n, f)] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_display/check_display.py', bo, ao,
+                                        f'{tmp}/after45/{n}_{f}_jupiter_tables.xlsx'], capture_output=True, text=True).stdout
+        z = lambda p: subprocess.run(f'unzip -p {p} xl/worksheets/*.xml xl/sharedStrings.xml | shasum', shell=True, capture_output=True, text=True).stdout
+        out47[(n, f, 'pairs')] = z(bo.replace('_jupiter_tables', '_pairs')) == z(ao.replace('_jupiter_tables', '_pairs'))
+print('T47 sizes (tables, pairs):', {k[:2]: v for k, v in out47.items() if k[2:] == ('size',)})
+check('T47 against the build before (commit a2d20618), Kelso, Lingfield, rebuilt Ascot, default and --full (chk_display/check_display.py): summary rows 1-2 '
+      '= the header rows below them (values, styles, merges), freeze C3 on the summary only (other sheets as before); every "stars" row grey from A to '
+      'the last SCORES column, none beyond; no column narrower than in the a2d20618 or the 35255b16 build; midpoint columns >= 40, repeats >= 60, '
+      'value / S Jupiter / SCORES >= 11; every other cell of every sheet identical (summary after the two-row shift); pairs identical',
+      all(line(o, 'mismatches:') == 'mismatches: 0' and 'widths also checked' in o for k, o in out47.items() if len(k) == 2)
+      and all(o for k, o in out47.items() if k[2:] == ('pairs',)),
+      f"{ {k: (line(o, 'separator rows:'), line(o, 'mismatches:')) for k, o in out47.items() if len(k) == 2} }")
+w47 = openpyxl.load_workbook(f'{tmp}/after47/kelso_def_jupiter_tables.xlsx')
+s47 = w47['SKY STARS SUMMARY']
+check('T47 Kelso: summary row 1 starts "table | star | sky hit", row 2 the body names (Sun ...), row 3 the P01 title line; freeze C3; runner P01 freeze '
+      f'unchanged (C4); runner-sheet column AA back to 40 (got {w47["P01"].column_dimensions["AA"].width})',
+      [s47.cell(row=1, column=k).value for k in (1, 2, 3)] == ['table', 'star', 'sky hit'] and s47.cell(row=2, column=4).value == 'Sun'
+      and str(s47.cell(row=3, column=1).value).startswith('P01 ') and s47.freeze_panes == 'C3' and w47['P01'].freeze_panes == 'C4'
+      and w47['P01'].column_dimensions['AA'].width == 40, [s47.cell(row=1, column=k).value for k in (1, 2, 3)])
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
