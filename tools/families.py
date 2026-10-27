@@ -2,7 +2,7 @@
 """families.py - the number families, Eddie's definitions (13 Oct 2026). The single reference for every tool from now on.
 Eddie's own scoring functions in rebuild_kit/active_vibrations.py are imported (not copied) wherever they exist.
 
-  whole      whole numbers 1-200, +-0.02                               score_whole (squared)
+  whole      whole numbers 1-200, +-0.02, on the target (27 Oct 2026)    score_whole_t (squared, as score_whole)
   half       0.5, 1.5 ... 199.5, +-0.01 absolute (Eddie, 24 Oct 2026)    score_half (squared)
   golden     every multiple of phi, +-0.03236, zero multiple not scored score_phi_interval (squared)
   phi power  phi^-1, phi^1..10, 10 phi^-1..7, 100 phi^-1, 100 phi       score_phi_powers (squared); 1/phi^2 forms dropped
@@ -116,6 +116,19 @@ def digit_match(v, t):
     return v > 0 and t > 0 and digits4(v) == digits4(t)
 
 
+def score_whole_t(v):
+    """whole numbers checked on the TARGET, not the value (Eddie, 27 Oct 2026): t = round(v), 1 <= t <= 200, dev = |v - t| < 0.02,
+    squared (10 (0.02 - dev) / 0.02)² (active_vibrations.score_whole needs 1 <= v <= 200, so 0.98 < v < 1 and 200 < v < 200.02 never
+    scored) -> (score, target)"""
+    t = float(round(v))
+    if not (1.0 <= t <= 200.0):
+        return 0.0, t
+    dev = abs(v - t)
+    if dev >= 0.02:
+        return 0.0, t
+    return (10.0 * (0.02 - dev) / 0.02) ** 2, t
+
+
 def score_half(v):
     """half numbers 0.5 ... 199.5, tol 0.01 absolute, squared (as score_whole) -> (score, target)"""
     t = math.floor(v) + 0.5
@@ -154,8 +167,8 @@ def score_family(v, fam, plane=None, kind='deg'):
     if v is None or v <= 0 and fam != 'conj':
         return 0.0, None, None
     if fam == 'whole':
-        t = float(round(v))
-        return score_whole(v), f'{int(t)}', t
+        s, t = score_whole_t(v)
+        return (s, f'{int(t)}', t) if s else (0.0, None, None)
     if fam == 'half':
         s, t = score_half(v)
         return (s, f'{t:g}', t) if s else (0.0, None, None)

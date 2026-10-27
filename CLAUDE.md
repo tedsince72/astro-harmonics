@@ -33,7 +33,9 @@ tools/families.py imports Eddie's own scoring functions from that file (not copi
 (layers v2, CR v1.1, JR v1, JR v3) and the watch line still use the OLD tolerances (whole ±0.005, ninth n/9 ±0.0005, movement ±0.01 /
 ±0.0011, Equator ±0.01, golden list incl. 1/φ², any p/q ratio with % bands) until Eddie approves new versions. Past findings built on an n/9 outside the 48
 and on a ratio off the interval list are listed in docs/classic/families_correction_20261013.md.
-- Whole numbers 1–200, ±0.02 (score_whole).
+- Whole numbers 1–200, ±0.02, checked on the TARGET (Eddie, 27 Oct 2026; families.score_whole_t): t = round(v), 1 <= t <= 200,
+  dev = |v − t| < 0.02, squared (10 (0.02 − dev) / 0.02)². (active_vibrations.score_whole, not edited, needs 1 <= v <= 200, so before
+  0.98 < v < 1 never scored on 1, e.g. 0.997954 -> now 1 whole 80.59.)
 - HALF (Eddie, 24 Oct 2026; families.score_half): 0.5, 1.5 … 199.5, ±0.01 absolute, squared (10 (0.01 − dev) / 0.01)², family "half",
   scored alongside the others (best = highest score; nearest by tightness includes the half targets). No 4-digit rule on whole or half.
   Half vs conjunction (Eddie, 24 Oct 2026, kept as built): inside the conjunction range (RA < 1.5, Dec < 0.3) the highest score wins - a
@@ -855,6 +857,38 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   repeats, T19 / T19 sky-side / SKY PAIRS legs; hits per family as above; every changed value a lost digit-family hit, a new half hit, a best
   family changed for one of those, or a nearest target changed to half: 0 mismatches. Not checked: T3–T23 cells other than those, timing values.
 
+## families.py: whole numbers on the target (Eddie, 27 Oct 2026; every table follows)
+- tools/families.py score_whole_t replaces active_vibrations.score_whole for the whole family (active_vibrations.py untouched): t = round(v),
+  1 <= t <= 200, |v − t| < 0.02, same squared formula. Changes only 0.98 < v < 1 (now on 1) and 200 < v < 200.02 (none in any table: distances
+  are <= 180). Conjunction rule unchanged: inside the range (RA < 1.5) the highest score wins, so an RA value 0.98–1 now shows whole 1 where
+  whole beats the conjunction (e.g. Kelso P05 T24 HORSE H Regulus RA 0.989905: conj 11.56 -> 1 whole 24.53), T24 red kept.
+- Compared with the build before (commit f1327932; chk_whole/diff_whole.py, rows aligned per sheet, pairs workbooks too), --full (default
+  = the same minus the --full-only sheets); every changed / added row holds a value 0.98 < v < 1, plus follow-ons. Full list:
+  docs/classic/whole_on_target_20261027.md. Rows changed / added / follow-on (--full; default):
+  Kelso 14:50 2022 127 / 3 / 3 (125 / 2 / 2): T24 cells, T24 (SKY STARS) copies and SCORES, SKY STARS SUMMARY, PAIRS legs; P03 S Jupiter →
+  H Eris Dec 0.99268 now 1 whole (40.19) in T5 and FIELD 5, which adds two T19 rows (H Eris – H Makemake, H Eris – H Fomalhaut Dec, all three
+  legs with a family) and a P03 NUMBERS row 'whole: 1'; P05 H Rigel 0.99016 (T1, T23, T21 legs, T24, T24 H / J); P01 J Menkar a new T24 repeat
+  '1 whole ×2'. Follow-ons: P01 T24 JOCKEY title repeat count, P03 T19 block count (3 -> 5 rows), THREADS P03 Eris '+ 1 weaker'.
+  Lingfield 14:35 2021 repo batch (21 stars) 20 / 0 / 0; Eddie's 67-star rebuild (~/astronomy-project/racecards/20210402_lingfield_aw) 31 / 0 / 0,
+  incl. P09 T24 HORSE H Meissa – H Transpluto Dec 0.997954 -> '1 · whole · -0.00205 · 80.59' green; rebuilt Ascot 14:30 2012 10 / 0 / 0.
+  No SKY block star cell lies in 0.98–1 in these races: the SKY STARS selection is unchanged; no TIMELINE / LONG TIMELINE event changed.
+- Tests: test 45 (new): the by-hand family cases (0.997954 -> 80.59, 0.98 none, 0.981 -> 0.25, 1.002 -> 81.00 = score_whole, 199.99 / 200.01
+  -> 200), the comparison above (four races, default and --full, counts and follow-ons), Meissa by hand from POSITIONS. Test 44 now
+  compares b19fac1f with builds by f1327932's code; test 42 runs its checker from b19fac1f's copy (its families); test 43 compares the
+  10b18003 builds with builds by b19fac1f's code, both on today's families. Tests 248/248.
+- Independent full scoring sweep (27 Oct; own family code from the Families rules, no families.py / active_vibrations.py, only the 48 ninth
+  ranges copied as data; chk_whole/sweep/): every distance cell with a value (T1–T9, T17 / T19 / T21 / T21R / T22 / T22R legs, T23, SKY block,
+  T24 SKY / HORSE / JOCKEY / H / J / (SKY STARS) incl. the summary, SKY EQ / PAIRS / STARS / ROYAL, P## PAIRS legs, timeline distance cells),
+  default and --full (same counts): tables + pairs cells Ascot 18,843 + 13,710, Kelso 84,527 + 83,301, Lingfield repo 38,311 + 80,751,
+  Lingfield 67-star 85,363 + 82,872: 0 cells wrong (no missing / extra hit, no other target or score; scores off at 2 dp only within the
+  6-dp rounding of the shown value). On the builds before the fix it finds the old bug (Lingfield 67-star 17 cells, repo batch 6, all 0.98 < v < 1).
+  Not covered: midpoint / ratio cells, T16 (no crossing in these races), together sides, the --full-only sheets (FIELD 5–8 text, THREADS,
+  NUMBERS, RATIOS), "also" columns, the nearest target of no-hit cells.
+  Open point (Eddie): the ninth targets just under 1, 10, 100 are written 0.999999 / 9.999999 / 99.999999 in _NINTH_RANGES, and the 4-digit
+  rule matches against those: a value just below 1 / 10 / 100 scores as a ninth and beats whole (e.g. Kelso P01 T8 RA 99.998689 ninth 99.13,
+  whole 100 would be 87.32; Ascot P01 T24 Dec 9.999769 ninth 98.47); right at 10.000000 a 6-dp value can read either way (Lingfield P07 T24
+  Dec / Equator 10.0 ninth 100.0). As built; no change.
+
 ## jupiter_tables: T24 HORSE / JOCKEY (SKY STARS), SKY STARS SUMMARY (Eddie, 27 Oct 2026; viewing only)
 - Selection (once per race; sky_star_select): every star of T1_T2_T24_STARS whose S Jupiter → S star cell in the SKY block (SKY JUPITER)
   scores in RA or Dec (any score: conjunction, whole, half, 4-digit hit, as on the sheet); bodies and the equator out; T24 (RA) order; a
@@ -1152,6 +1186,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **Whole numbers on the target (0.98 < v < 1 now scores on 1), every table follows (27 Oct 2026, Eddie):** see its section.
+  Tests 248/248; full scoring sweep 0 wrong cells.
 - **T24 HORSE / JOCKEY (SKY STARS) on every runner sheet + SKY STARS SUMMARY sheet (27 Oct 2026, Eddie):** see its section.
   Tests 245/245.
 - **35 stars in T1, T2, T24 (13 new in the engine, no Polaris there) + trimmed default workbook, --full for the rest (19 Oct 2026, Eddie):**

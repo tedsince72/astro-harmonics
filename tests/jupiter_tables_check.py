@@ -3230,7 +3230,7 @@ for n in ('lingfield', 'ascot'):
     for f in ('full', 'def'):
         subprocess.run([sys.executable, f'{tmp}/hb19/tools/jupiter_tables.py', inp] + (['--full'] if f == 'full' else [])
                        + ['--out', f'{tmp}/hb19/{n}_{f}_jupiter_tables.xlsx'], capture_output=True, text=True)
-out42 = {k: subprocess.run([sys.executable, 'tools/scans/families_audit/chk_half/compare_half.py', f'{tmp}/h85/tools', bo,
+out42 = {k: subprocess.run([sys.executable, f'{tmp}/hb19/tools/scans/families_audit/chk_half/compare_half.py', f'{tmp}/h85/tools', bo,   # b19fac1f's families (27 Oct 2026)
                             f'{tmp}/hb19/{k[0]}_{k[1]}_jupiter_tables.xlsx'], capture_output=True, text=True).stdout for k, bo in H85.items()}
 check('T42 against the build before (commit 83850b1c), both races, default and --full (chk_half/compare_half.py): every distance target cell, '
       'leg cell and T24 cell = the old families before and the new ones after on its shown value; every row that differs holds a value the two '
@@ -3246,11 +3246,21 @@ check('T42 against the build before (commit 83850b1c), both races, default and -
 # "Before" = builds by the code of commit 10b18003 (half + 4-digit rule, the old wording).
 print('test 43: "not a 4-digit match" wording')
 out43 = {}
+# 27 Oct 2026: "after" = builds by b19fac1f's code on today's families (as h10): the whole-on-target fix (test 45) in both, no SKY STARS tables (test 44)
+bf = 'tools/_jt_before_b19fac1f.py'
+open(bf, 'w').write(old_code('b19fac1f'))
+os.makedirs(f'{tmp}/hf43', exist_ok=True)
+for n in ('lingfield', 'ascot'):
+    inp = 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx' if n == 'lingfield' else f'{tmp}/race_batch_20120619_ascot_1430.xlsx'
+    for f in ('full', 'def'):
+        subprocess.run([sys.executable, bf, inp] + (['--full'] if f == 'full' else []) + ['--out', f'{tmp}/hf43/{n}_{f}_jupiter_tables.xlsx'],
+                       capture_output=True, text=True)
+os.remove(bf)
 for n in ('lingfield', 'ascot'):
     for f in ('full', 'def'):
         bo = f'{tmp}/h10/{n}_{f}_jupiter_tables.xlsx'
         out43[(n, f)] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_half/compare_wording.py', f'{tmp}/h85/tools/families.py', bo,
-                                        f'{tmp}/hb19/{n}_{f}_jupiter_tables.xlsx'], capture_output=True, text=True).stdout
+                                        f'{tmp}/hf43/{n}_{f}_jupiter_tables.xlsx'], capture_output=True, text=True).stdout
 check('T43 against the build before (commit 10b18003), both races, default and --full, with their pairs workbooks (chk_half/compare_wording.py): '
       'only nearest-target texts and comments differ, each from "— outside ..." to "<target> <family> — not a 4-digit match (<offset>)" with the '
       'same target, family and offset, its value inside the family\'s old tolerance (old score > 0) and scoring nothing now; values, fills, '
@@ -3279,6 +3289,9 @@ check(f'T43 by hand from POSITIONS: T2 J Jupiter → J Hamal Dec {v1:.6f}, 29×�
 # Lingfield 14:35 2021, default and --full (chk_t24ss/check_t24ss.py).
 print('test 44: T24 HORSE / JOCKEY (SKY STARS) and SKY STARS SUMMARY')
 os.makedirs(f'{tmp}/after44', exist_ok=True)
+# 27 Oct 2026 (whole numbers on the target, test 45): the "after" builds are by f1327932's code, so test 44 checks its own change alone
+os.makedirs(f'{tmp}/hf13', exist_ok=True)
+subprocess.run(f'git archive f1327932 tools rebuild_kit | tar -x -C {tmp}/hf13', shell=True, check=True)
 KELSO = 'reference/classic/race_batch_20220504_kelso_1450.xlsx'
 INP44 = {'kelso': KELSO, 'lingfield': 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', 'ascot': f'{tmp}/race_batch_20120619_ascot_1430.xlsx'}
 out44 = {}
@@ -3288,7 +3301,7 @@ for n, inp in INP44.items():
         bo, ao = f'{tmp}/hb19/{n}_{f}_jupiter_tables.xlsx', f'{tmp}/after44/{n}_{f}_jupiter_tables.xlsx'
         if n == 'kelso':                                    # Lingfield / Ascot built by b19fac1f's code before test 42
             subprocess.run([sys.executable, f'{tmp}/hb19/tools/jupiter_tables.py', inp] + fl + ['--out', bo], capture_output=True, text=True)
-        subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp] + fl + ['--out', ao], capture_output=True, text=True)
+        subprocess.run([sys.executable, f'{tmp}/hf13/tools/jupiter_tables.py', inp] + fl + ['--out', ao], capture_output=True, text=True)
         out44[(n, f)] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_t24ss/check_t24ss.py', bo, ao], capture_output=True, text=True).stdout
         z = lambda p: subprocess.run(f'unzip -p {p} xl/worksheets/*.xml xl/sharedStrings.xml | shasum', shell=True, capture_output=True, text=True).stdout
         out44[(n, f, 'pairs')] = z(bo.replace('_jupiter_tables', '_pairs')) == z(ao.replace('_jupiter_tables', '_pairs'))
@@ -3329,6 +3342,54 @@ check(f'T44 by hand from POSITIONS (Kelso P01): sky hit H Rukbat S Jupiter → S
       ws44.cell(row=rk, column=3).value == hit_ and ra_g.value == round(sqs(0.02, abs(v_g - 45)), 2) and ra_s.value == round(sqs(0.01, abs(v_s - 46.5)), 2)
       and cm44.value == round(sqs(1.5, v_m), 2) and v_m < 1.5 and cm44.fill.start_color.rgb.endswith('FF8080'),
       f'{ws44.cell(row=rk, column=3).value!r} {ra_g.value} {ra_s.value} {cm44.value} {cm44.fill.start_color.rgb}')
+# ---------------------------------------------------------------------------------------------------------------------------------
+# Test 45 (Eddie, 27 Oct 2026): whole numbers checked on the TARGET (families.score_whole_t: t = round(v), 1 <= t <= 200, |v − t| < 0.02,
+# squared); active_vibrations.score_whole needed 1 <= v, so 0.98 < v < 1 never scored on 1. "Before" = commit f1327932 (builds in hf13).
+print('test 45: whole numbers on the target')
+import active_vibrations as AV
+cases = [(0.997954, ('1', 80.59)), (0.98, None), (0.981, ('1', 0.25)), (1.002, ('1', 81.00)), (199.99, ('200', 25.00)), (200.01, ('200', 25.00))]
+got45 = []
+for v, want in cases:
+    s_, lab, t = F.score_family(v, 'whole')
+    got45.append((v, (lab, round(s_, 2)) if s_ else None))
+check('T45 whole on the target by hand (10 (0.02 − dev) / 0.02)²: 0.997954 -> 1 (80.59), 0.98 -> none (dev 0.02), 0.981 -> 1 (0.25), 1.002 -> 1 (81.00) '
+      f'= active_vibrations.score_whole ({AV.score_whole(1.002):.2f}), 199.99 / 200.01 -> 200 (25.00); best of 0.997954 Dec = whole 1',
+      all(g == (v, w) for g, (v, w) in zip(got45, cases)) and abs(AV.score_whole(1.002) - F.score_family(1.002, 'whole')[0]) < 1e-9
+      and F.best(0.997954, 'Dec')['family'] == 'whole', got45)
+L67 = f'{tmp}/l67/race_batch_20210402_lingfield_aw_1435.xlsx'          # Eddie's 67-star rebuild of Lingfield 14:35 2021 (27 Oct 2026)
+os.makedirs(f'{tmp}/l67', exist_ok=True); os.makedirs(f'{tmp}/after45', exist_ok=True)
+shutil.copy(f'{AP}/racecards/20210402_lingfield_aw/race_batch_20210402_lingfield_aw_1435.xlsx', L67)
+INP45 = dict(INP44, l67=L67)
+# rows changed / dropped / added / with a 0.98-1 value / follow-on (counts, default and --full)
+EXP45 = {('kelso', 'def'): (125, 0, 2, 125, 2), ('kelso', 'full'): (127, 0, 3, 127, 3), ('lingfield', 'def'): (20, 0, 0, 20, 0),
+         ('lingfield', 'full'): (20, 0, 0, 20, 0), ('ascot', 'def'): (10, 0, 0, 10, 0), ('ascot', 'full'): (10, 0, 0, 10, 0),
+         ('l67', 'def'): (31, 0, 0, 31, 0), ('l67', 'full'): (31, 0, 0, 31, 0)}
+out45 = {}
+for n, inp in INP45.items():
+    for f in ('def', 'full'):
+        fl = ['--full'] if f == 'full' else []
+        bo, ao = f'{tmp}/after44/{n}_{f}_jupiter_tables.xlsx', f'{tmp}/after45/{n}_{f}_jupiter_tables.xlsx'
+        if n == 'l67':
+            subprocess.run([sys.executable, f'{tmp}/hf13/tools/jupiter_tables.py', inp] + fl + ['--out', bo], capture_output=True, text=True)
+        subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp] + fl + ['--out', ao], capture_output=True, text=True)
+        o = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_whole/diff_whole.py', bo, ao], capture_output=True, text=True).stdout
+        out45[(n, f)] = (o, tuple(int(x) for x in re.findall(r': (\d+)', line(o, 'rows changed:'))))
+fol = [l for o, _ in out45.values() for l in o.splitlines() if '[FOLLOWS]' in l]
+fol_ok = all(re.search(r"\['T24', 'T24 JOCKEY \(natal\)|T19 NO RATIO OR MIDPOINT HIT|THREADS row", l) for l in fol)
+check('T45 against the build before (commit f1327932), Kelso, Lingfield (repo batch and Eddie\'s 67-star rebuild), rebuilt Ascot, default and --full, '
+      'with the pairs workbooks (chk_whole/diff_whole.py): every changed, added or dropped row holds a value 0.98 < v < 1, except the follow-ons '
+      '(Kelso: P01 T24 JOCKEY title repeat count, P03 T19 "no ratio or midpoint hit" count, THREADS P03 Eris "+ 1 weaker"); counts as expected',
+      all(out45[k][1] == EXP45[k] for k in EXP45) and fol_ok, f'{ {k: v[1] for k, v in out45.items()} }; follow-ons {[l[:60] for l in fol]}')
+# by hand from POSITIONS: Eddie's case on the 67-star Lingfield, P09 T24 HORSE H Meissa – H Transpluto Dec
+w45 = openpyxl.load_workbook(f'{tmp}/after45/l67_def_jupiter_tables.xlsx')
+p45 = posmap(w45, 'P09')
+v45 = dpl(p45[('H', 'Meissa')], p45[('H', 'Transpluto')], 'Dec')
+r45 = next(r for r in w45['P09'].iter_rows() if r[0].value == 'T24' and r[1].value == 'H Meissa')
+c45 = next(c for c in r45 if c.value == round(v45, 6))
+check(f'T45 by hand from POSITIONS (Lingfield 67-star P09): T24 HORSE H Meissa – H Transpluto Dec {v45:.6f} -> 1 · whole · {v45 - 1:+.5f} · '
+      f'{sqs(0.02, abs(v45 - 1)):.2f}, filled green (was "nearest: 1 · whole — outside ±0.02")',
+      c45.comment.text.split('\n')[0] == f'1 · whole · {v45 - 1:+.5f} · {sqs(0.02, abs(v45 - 1)):.2f}' and c45.fill.start_color.rgb.endswith('C6EFCE'),
+      c45.comment.text)
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
