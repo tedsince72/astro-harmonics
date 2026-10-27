@@ -1565,7 +1565,8 @@ vals = lambda ws: [tuple(x) for x in ws.iter_rows(values_only=True)]
 same = [sh for sh in ldw.sheetnames if sh in lfw.sheetnames and vals(ldw[sh]) == vals(lfw[sh])]
 check('T30 default workbook = POSITIONS, SKY JUPITER and the P## sheets only (rebuilt Ascot via run_card_swiss.py --tables, Lingfield); '
       'each equal to the --full workbook\'s sheet',
-      gw.sheetnames == ['POSITIONS', 'SKY JUPITER', 'P01'] and ldw.sheetnames == ['POSITIONS', 'SKY JUPITER'] + runner_tabs(lfw)
+      gw.sheetnames == ['POSITIONS', 'SKY JUPITER', 'P01', 'SKY STARS SUMMARY']             # + SKY STARS SUMMARY (Eddie, 27 Oct 2026)
+      and ldw.sheetnames == ['POSITIONS', 'SKY JUPITER'] + runner_tabs(lfw) + ['SKY STARS SUMMARY']
       and same == ldw.sheetnames and len(lfw.sheetnames) > len(ldw.sheetnames),
       f'Ascot {gw.sheetnames}; Lingfield {ldw.sheetnames} ({len(same)} equal to --full, which has {len(lfw.sheetnames)} sheets)')
 # T1, T2 and T24 on the rebuilt Ascot: the 35 stars in order, the 13 new ones in, no Polaris
@@ -1684,10 +1685,11 @@ os.remove(bf)
 leak = []
 for w in (gfw, openpyxl.load_workbook(f'{tmp}/full_pairs.xlsx', read_only=True)):
     for sh in w.sheetnames:
-        if sh == 'POSITIONS':
+        if sh in ('POSITIONS', 'SKY STARS SUMMARY'):          # SKY STARS SUMMARY = copies of T24 rows (Eddie, 27 Oct 2026; test 44)
             continue
         for x in w[sh].iter_rows(values_only=True):
-            if x and (x[0] in ('T1', 'T2', 'T24', 'T24 H / J', 'T24 HORSE RATIOS', 'T24 JOCKEY RATIOS')   # T24 ratio tables (test 32)
+            if x and (x[0] in ('T1', 'T2', 'T24', 'T24 H / J', 'T24 HORSE RATIOS', 'T24 JOCKEY RATIOS',   # T24 ratio tables (test 32)
+                               'T24 HORSE (SKY STARS)', 'T24 JOCKEY (SKY STARS)')                    # T24 rows copied (Eddie, 27 Oct 2026; test 44)
                       or sh == 'SKY JUPITER' and x[0] in ('SKY', 'SKY STARS', 'TIMELINE', 'LONG TIMELINE', 'STAR TIMELINE', 'LONG STAR TIMELINE')   # SKY block (test 31); SKY STARS, sky timelines (test 33)
                       or x[0] in ('TIMELINE H', 'TIMELINE J', 'LONG TIMELINE H', 'LONG TIMELINE J', 'STAR TIMELINE H', 'STAR TIMELINE J',
                                  'LONG STAR TIMELINE H', 'LONG STAR TIMELINE J', 'T24 STAR SELECT')):  # 22 Oct 2026 (tests 37 - 39)
@@ -3220,8 +3222,16 @@ for n in ('lingfield', 'ascot'):
         H85[(n, f)] = f'{tmp}/h85/{n}_{f}_jupiter_tables.xlsx'
         subprocess.run([sys.executable, f'{tmp}/h85/tools/jupiter_tables.py', inp] + (['--full'] if f == 'full' else []) + ['--out', H85[(n, f)]],
                        capture_output=True, text=True)
+# 27 Oct 2026 (T24 SKY STARS, test 44): tests 42 and 43 compare with builds by b19fac1f's code (their own changes alone)
+os.makedirs(f'{tmp}/hb19', exist_ok=True)
+subprocess.run(f'git archive b19fac1f tools rebuild_kit | tar -x -C {tmp}/hb19', shell=True, check=True)
+for n in ('lingfield', 'ascot'):
+    inp = 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx' if n == 'lingfield' else f'{tmp}/race_batch_20120619_ascot_1430.xlsx'
+    for f in ('full', 'def'):
+        subprocess.run([sys.executable, f'{tmp}/hb19/tools/jupiter_tables.py', inp] + (['--full'] if f == 'full' else [])
+                       + ['--out', f'{tmp}/hb19/{n}_{f}_jupiter_tables.xlsx'], capture_output=True, text=True)
 out42 = {k: subprocess.run([sys.executable, 'tools/scans/families_audit/chk_half/compare_half.py', f'{tmp}/h85/tools', bo,
-                            f'{tmp}/after40/{k[0]}_{k[1]}_jupiter_tables.xlsx'], capture_output=True, text=True).stdout for k, bo in H85.items()}
+                            f'{tmp}/hb19/{k[0]}_{k[1]}_jupiter_tables.xlsx'], capture_output=True, text=True).stdout for k, bo in H85.items()}
 check('T42 against the build before (commit 83850b1c), both races, default and --full (chk_half/compare_half.py): every distance target cell, '
       'leg cell and T24 cell = the old families before and the new ones after on its shown value; every row that differs holds a value the two '
       'families evaluate differently (or differs in its count digits, a THREADS "+ n weaker" line, or is a timeline event that came or went '
@@ -3240,7 +3250,7 @@ for n in ('lingfield', 'ascot'):
     for f in ('full', 'def'):
         bo = f'{tmp}/h10/{n}_{f}_jupiter_tables.xlsx'
         out43[(n, f)] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_half/compare_wording.py', f'{tmp}/h85/tools/families.py', bo,
-                                        f'{tmp}/after40/{n}_{f}_jupiter_tables.xlsx'], capture_output=True, text=True).stdout
+                                        f'{tmp}/hb19/{n}_{f}_jupiter_tables.xlsx'], capture_output=True, text=True).stdout
 check('T43 against the build before (commit 10b18003), both races, default and --full, with their pairs workbooks (chk_half/compare_wording.py): '
       'only nearest-target texts and comments differ, each from "— outside ..." to "<target> <family> — not a 4-digit match (<offset>)" with the '
       'same target, family and offset, its value inside the family\'s old tolerance (old score > 0) and scoring nothing now; values, fills, '
@@ -3263,6 +3273,62 @@ check(f'T43 by hand from POSITIONS: T2 J Jupiter → J Hamal Dec {v1:.6f}, 29×�
       f'{35 * F.PHI:.6f}, |offset| {abs(v2 - 35 * F.PHI):.5f} > 0.03236 -> {t2_!r}; neither scored nor filled',
       x1[12] == t1_ and x1[15] is None and abs(v1 - 29 * F.PHI) < 0.03236 and not F.digit_match(v1, 29 * F.PHI)
       and x2[20] == t2_ and x2[23] is None and abs(v2 - 35 * F.PHI) > 0.03236, f'{x1[12]!r} {x1[15]}; {x2[20]!r} {x2[23]}')
+# ---------------------------------------------------------------------------------------------------------------------------------
+# Test 44 (Eddie, 27 Oct 2026): T24 HORSE / JOCKEY (SKY STARS) on every runner sheet (stars whose S Jupiter → S star SKY block cell scores,
+# the T24 row copied, sky hit, SCORES) and the SKY STARS SUMMARY sheet. "Before" = commit b19fac1f. Kelso 14:50 2022, rebuilt Ascot 14:30 2012,
+# Lingfield 14:35 2021, default and --full (chk_t24ss/check_t24ss.py).
+print('test 44: T24 HORSE / JOCKEY (SKY STARS) and SKY STARS SUMMARY')
+os.makedirs(f'{tmp}/after44', exist_ok=True)
+KELSO = 'reference/classic/race_batch_20220504_kelso_1450.xlsx'
+INP44 = {'kelso': KELSO, 'lingfield': 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', 'ascot': f'{tmp}/race_batch_20120619_ascot_1430.xlsx'}
+out44 = {}
+for n, inp in INP44.items():
+    for f in ('def', 'full'):
+        fl = ['--full'] if f == 'full' else []
+        bo, ao = f'{tmp}/hb19/{n}_{f}_jupiter_tables.xlsx', f'{tmp}/after44/{n}_{f}_jupiter_tables.xlsx'
+        if n == 'kelso':                                    # Lingfield / Ascot built by b19fac1f's code before test 42
+            subprocess.run([sys.executable, f'{tmp}/hb19/tools/jupiter_tables.py', inp] + fl + ['--out', bo], capture_output=True, text=True)
+        subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp] + fl + ['--out', ao], capture_output=True, text=True)
+        out44[(n, f)] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_t24ss/check_t24ss.py', bo, ao], capture_output=True, text=True).stdout
+        z = lambda p: subprocess.run(f'unzip -p {p} xl/worksheets/*.xml xl/sharedStrings.xml | shasum', shell=True, capture_output=True, text=True).stdout
+        out44[(n, f, 'pairs')] = z(bo.replace('_jupiter_tables', '_pairs')) == z(ao.replace('_jupiter_tables', '_pairs'))
+SEL44 = {'kelso': 14, 'lingfield': 4, 'ascot': 10}
+check('T44 against the build before (commit b19fac1f), Kelso 14:50 2022, Lingfield 14:35 2021 and rebuilt Ascot 14:30 2012, default and --full '
+      '(chk_t24ss/check_t24ss.py): every other row of every sheet identical (runner sheets minus the two new tables), SKY STARS SUMMARY after the '
+      'runner sheets; selection = every scoring SKY-block star cell (RA or Dec), T24 order; every T24 cell of the new tables = its T24 row; sky hit = '
+      'the SKY block cells; every SCORES cell = the score in its value cell\'s comment (blank exactly where none), fill as the value cell; headers; '
+      'summary = the runner tables cell for cell; pairs workbooks identical',
+      all(line(o, 'mismatches:') == 'mismatches: 0' and line(o, 'selected:') == f'selected: {SEL44[k[0]]}' for k, o in out44.items() if len(k) == 2)
+      and all(o for k, o in out44.items() if len(k) == 3),
+      f"{ {k: (line(o, 'selected:'), line(o, 'mismatches:')) if len(k) == 2 else o for k, o in out44.items()} }")
+k44 = out44[('kelso', 'def')]
+want44 = ['Aldebaran', 'Alhena', 'Castor', 'Praesepe', 'Algorab', 'Vindemiatrix', 'Alkaid', 'Unukalhai', 'Antares', 'Ras Algethi', 'Acumen', 'Rukbat',
+          'Deneb Algedi', 'Fomalhaut']
+got44 = [l.split(':')[0].strip() for l in k44.splitlines() if l.startswith('  ')][:14]
+check(f'T44 Kelso 14:50 2022 selects the 14 stars Eddie gave, in T24 order: {", ".join(want44)}', got44 == want44, got44)
+# by hand from POSITIONS (Kelso P01)
+w44 = openpyxl.load_workbook(f'{tmp}/after44/kelso_def_jupiter_tables.xlsx')
+pk = posmap(w44, 'P01')
+sk44 = {x[3]: (x[5], x[6]) for x in w44['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'SKY' and x[3]}
+ws44 = w44['P01']
+t44 = {who: next(r for r in range(1, ws44.max_row + 1) if ws44.cell(row=r, column=1).value == f'T24 {who} (SKY STARS)') for who in ('HORSE', 'JOCKEY')}
+hb44 = [ws44.cell(row=t44['HORSE'] + 2, column=c).value for c in range(1, ws44.max_column + 1)]
+rk = next(r for r in range(t44['HORSE'], t44['JOCKEY']) if ws44.cell(row=r, column=2).value == 'H Rukbat')
+ra_, de_ = dpl(sk44['Jupiter'], sk44['Rukbat'], 'RA'), dpl(sk44['Jupiter'], sk44['Rukbat'], 'Dec')
+hit_ = f'RA 68 whole ({sqs(0.02, abs(ra_ - 68)):.2f}); Dec 39 whole ({sqs(0.02, abs(de_ - 39)):.2f})'
+scol = lambda pl, b: [c for c in range(1, len(hb44) + 1) if hb44[c - 1] == b][2 if pl == 'RA' else 3]     # value RA, value Dec, SCORES RA, SCORES Dec
+v_g = dpl(pk[('H', 'Rukbat')], pk[('H', 'Gonggong')], 'RA')
+v_s = dpl(pk[('H', 'Rukbat')], pk[('H', 'Sun')], 'Dec')
+ra_g, ra_s = ws44.cell(row=rk, column=scol('RA', 'Gonggong')), ws44.cell(row=rk, column=scol('Dec', 'Sun'))
+ra44 = next(r for r in range(t44['HORSE'], t44['JOCKEY']) if ws44.cell(row=r, column=2).value == 'H Antares')
+v_m = dpl(pk[('H', 'Antares')], pk[('H', 'Mars')], 'RA')
+cm44 = ws44.cell(row=ra44, column=scol('RA', 'Mars'))
+check(f'T44 by hand from POSITIONS (Kelso P01): sky hit H Rukbat S Jupiter → S Rukbat RA {ra_:.6f} / Dec {de_:.6f} -> {hit_!r}; SCORES RA H Rukbat – '
+      f'H Gonggong {v_g:.6f} whole 45 ({sqs(0.02, abs(v_g - 45)):.2f}); SCORES Dec H Rukbat – H Sun {v_s:.6f} half 46.5 ({sqs(0.01, abs(v_s - 46.5)):.2f}); '
+      f'conjunction H Antares – H Mars RA {v_m:.6f} ({sqs(1.5, v_m):.2f}) red',
+      ws44.cell(row=rk, column=3).value == hit_ and ra_g.value == round(sqs(0.02, abs(v_g - 45)), 2) and ra_s.value == round(sqs(0.01, abs(v_s - 46.5)), 2)
+      and cm44.value == round(sqs(1.5, v_m), 2) and v_m < 1.5 and cm44.fill.start_color.rgb.endswith('FF8080'),
+      f'{ws44.cell(row=rk, column=3).value!r} {ra_g.value} {ra_s.value} {cm44.value} {cm44.fill.start_color.rgb}')
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

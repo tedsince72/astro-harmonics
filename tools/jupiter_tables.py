@@ -52,8 +52,10 @@ POSITIONS, SKY JUPITER and the runner sheets only; --full also writes P## RATIOS
 T24 ratio tables (Eddie, 19 Oct 2026; natal only): T24 H / J (d(H star, H Jupiter) / d(J star, J Jupiter)), T24 HORSE RATIOS and T24 JOCKEY
 RATIOS (d(star, Jupiter) / d(star, X), same chart), on each runner sheet after T24 JOCKEY; not in THREADS, NUMBERS, RATIOS, FIELD or TIMELINEs.
 SKY STARS and the sky TIMELINE / LONG TIMELINE (Eddie, 20 Oct 2026): on the 67 stars (21 Oct 2026) (ctx.x), as the SKY block; runner timelines on STARS.
+T24 HORSE / JOCKEY (SKY STARS) (Eddie, 27 Oct 2026): after T24 JOCKEY RATIOS, the T24 rows of the stars whose S Jupiter → S star SKY block cell
+scores (RA or Dec), copied, with the sky hit and a SCORES block; sheet SKY STARS SUMMARY (after the runner sheets) = those tables per runner.
 Points and engine from tools/jup2 (imported, not changed). Frozen readers are not changed."""
-import argparse, glob, os, re, sys, itertools, math, datetime
+import argparse, glob, os, re, sys, itertools, math, datetime, copy
 import openpyxl
 from openpyxl.styles import PatternFill, Font, Alignment
 from openpyxl.cell.rich_text import CellRichText, TextBlock
@@ -730,11 +732,18 @@ def runner_sheet(wb, P, R, ctx):
     row, field['T22'] = write_t22(ws, row, ctx, R)
     row, field['T21R'] = write_t21(ws, row + 1, ctx, R, royal=True)    # royal stars only (Eddie 16 Oct), after the full tables
     row, field['T22R'] = write_t22(ws, row + 1, ctx, R, royal=True)
+    t24at = {}                                             # first row of each T24 block (title), for T24 (SKY STARS)
     for C, who in (('H', 'HORSE'), ('J', 'JOCKEY')):        # T24 (Eddie, 19 Oct 2026): stars against bodies, natal
+        t24at[C] = row + 1
         row, field[f'_t24{C}'], field[f'_t24m{C}'] = write_t24(ws, row + 1, RX[C], C, f'T24 {who} (natal): {T24_NOTE}')
     row, field['_t24hj'] = write_t24hj(ws, row + 1, RX['H'], RX['J'])        # T24 ratio tables (Eddie, 19 Oct 2026), natal only
     for C, who in (('H', 'HORSE'), ('J', 'JOCKEY')):
         row, field[f'_t24r{C}'] = write_t24r(ws, row + 1, RX[C], C, who)
+    field['_t24ss'] = {}                                   # T24 HORSE / JOCKEY (SKY STARS) (Eddie, 27 Oct 2026): (first row, last row) per chart
+    for C, who in (('H', 'HORSE'), ('J', 'JOCKEY')):
+        r0 = row + 1
+        row = write_t24ss(ws, r0, RX[C], C, who, t24at[C], getattr(ctx, 'skysel', []))
+        field['_t24ss'][C] = (r0, row - 2)
     # timelines on every star (Eddie, 22 Oct 2026): the timeline context ctx.t / Rt holds STARS (Polaris incl.) and T1_T2_T24_STARS, so the
     # table sources keep their events and the star sources reach the 67 stars
     tc, Rt = ctx.t, {C: {**R[C], **R[C + 'X']} for C in 'HJ'}
@@ -1086,6 +1095,140 @@ def write_t24r(ws, row, ch, C, who):
         row += 1
     ws.cell(row=title_row, column=2, value=t24r_title(f'T24 {who} RATIOS', f'd({C} star, {C} Jupiter) / d({C} star, {C} X) per star and body X', n))
     return row + 1, n
+
+
+# ---------------- T24 HORSE / JOCKEY (SKY STARS) and the SKY STARS SUMMARY sheet (Eddie, 27 Oct 2026; viewing only)
+T24SS_NOTE = ('the T24 {who} rows of the stars whose S Jupiter → S star cell in the SKY block (SKY JUPITER) scores, RA or Dec (any score: '
+              'conjunction, whole, half or a 4-digit hit, as on the sheet; bodies and the equator not included), in T24 order (RA), a star '
+              'scoring in both planes once, a star missing from the chart skipped; "sky hit" = the SKY block hit(s) that selected the star; the '
+              'T24 columns copied exactly from T24 {who} (values, fills incl. red, comments, midpoints, outlines, repeats); SCORES = the score of '
+              'each value cell (its best family, as in its comment), 2 dp, filled as the value cell, blank where the value cell has no score')
+
+
+def sky_star_select(skycells):
+    """SKY block star cells -> [(star, sky hit text)] in T24 order: every star of T1_T2_T24_STARS whose S Jupiter → S star cell scores in
+    RA or Dec (skycells = write_pairs' {(label, plane): (v0, ev)})"""
+    out = []
+    for x in T1_T2_T24_STARS:
+        hits = []
+        for pl in PLANES:
+            v0, ev = skycells.get((f'S Jupiter → S {x}', pl), (None, None))
+            if ev:
+                tgt, fam = ('0', 'conjunction') if ev['family'] == 'conj' else (ev['target'], ev['family'])
+                hits.append(f"{pl} {tgt} {fam} ({ev['score']:.2f})")
+        if hits:
+            out.append((x, '; '.join(hits)))
+    return out
+
+
+def copy_cell(src, dst):
+    """value, style (fill, font, border, number format, alignment) and comment of one cell"""
+    dst.value = src.value
+    if src.has_style:
+        dst._style = copy.copy(src._style)
+    if src.comment:
+        dst.comment = Comment(src.comment.text, src.comment.author, width=src.comment.width, height=src.comment.height)
+
+
+def t24_score(c):
+    """the score in a T24 value cell's comment (first line 'target · family · offset · score'), or None ('nearest: ...')"""
+    if c.comment is None:
+        return None
+    first = c.comment.text.split('\n')[0]
+    if first.startswith('nearest') or first == 'no target':
+        return None
+    return float(first.rsplit(' · ', 1)[1])
+
+
+def write_t24ss(ws, row, ch, C, who, src, sel):
+    """T24 HORSE / JOCKEY (SKY STARS): from the T24 block whose title row is src on this sheet; sel = [(star, sky hit)]. Columns: table,
+    star, sky hit, the T24 columns (from column 3 of T24, shifted by one), SCORES RA, SCORES Dec. -> next row + 1"""
+    tid = f'T24 {who} (SKY STARS)'
+    bodies = [b for b in T24_BODIES if b in ch and ch[b][2] == 'body' and b != 'Moon']
+    stars = [x for x in T1_T2_T24_STARS if x in ch]
+    n = len(bodies)
+    tc0 = {'RA': 3, 'Dec': 3 + n + 1}                      # T24 body columns of each plane
+    last = 3 + 2 * (n + 1)                                 # T24 repeats column
+    s0 = {'RA': last + 2, 'Dec': last + 2 + n}             # SCORES columns (shifted layout)
+    rows = [(x, hit) for x, hit in sel if x in ch]
+    ws.cell(row=row, column=1, value=tid).font = BOLD
+    ws.cell(row=row, column=2, value=f"{tid} (Eddie, 27 Oct 2026): {T24SS_NOTE.format(who=who)}. Selected: {len(rows)} "
+                                     f"star{'' if len(rows) == 1 else 's'}").font = BOLD
+    row += 1
+    for k in range(2):                                     # header rows: T24's, shifted; sky hit; SCORES
+        sr = src + 1 + k
+        for col in range(1, last + 1):
+            copy_cell(ws.cell(row=sr, column=col), ws.cell(row=row + k, column=col + (col >= 3)))
+        c = ws.cell(row=row + k, column=3, value='sky hit' if k == 0 else 'SKY block hit(s): plane target family (score)')
+        c.fill = HEAD; c.font = BOLD
+        for pl in PLANES:
+            for i, b in enumerate(bodies):
+                c = ws.cell(row=row + k, column=s0[pl] + i, value=(f'SCORES {pl}' if i == 0 else None) if k == 0 else b)
+                c.fill = HEAD; c.font = BOLD
+    ws.cell(row=row, column=1, value='table')
+    for pl in PLANES:
+        ws.merge_cells(start_row=row, start_column=tc0[pl] + 1, end_row=row, end_column=tc0[pl] + n)
+        ws.merge_cells(start_row=row, start_column=s0[pl], end_row=row, end_column=s0[pl] + n - 1)
+    row += 2
+    for x, hit in rows:
+        sr = src + 3 + stars.index(x)
+        for col in range(2, last + 1):
+            copy_cell(ws.cell(row=sr, column=col), ws.cell(row=row, column=col + (col >= 3)))
+        ws.cell(row=row, column=1, value=tid)
+        ws.cell(row=row, column=3, value=hit)
+        for pl in PLANES:
+            for i in range(n):
+                vc = ws.cell(row=sr, column=tc0[pl] + i)
+                sc = t24_score(vc)
+                if sc is not None:
+                    c = ws.cell(row=row, column=s0[pl] + i, value=sc)
+                    c.number_format = '0.00'
+                    if vc.fill is not None and vc.fill.fill_type:
+                        c.fill = copy.copy(vc.fill)
+        row += 1
+    widths = ([(2, T24_NAME_W), (3, T24SS_HIT_W)] + [(tc0[pl] + 1 + k, T24_VAL_W) for pl in PLANES for k in range(n)]
+              + [(tc0[pl] + 1 + n, T24_MID_W) for pl in PLANES] + [(last + 1, T24_REP_W)]
+              + [(s0[pl] + k, T24_VAL_W) for pl in PLANES for k in range(n)])
+    widen(ws, widths)
+    ws._t24ssw = widths
+    return row + 1
+
+
+T24SS_HIT_W = 36
+
+
+def widen(ws, widths):
+    """shared columns only ever widened (as T24)"""
+    for col, w in widths:
+        L = openpyxl.utils.get_column_letter(col)
+        if L not in ws.column_dimensions or not ws.column_dimensions[L].customWidth:
+            ws.column_dimensions[L].width = w
+        else:
+            ws.column_dimensions[L].width = max(ws.column_dimensions[L].width, w)
+
+
+def summary_sheet(wb, runners, fields):
+    """SKY STARS SUMMARY (Eddie, 27 Oct 2026): per runner in sheet order its title line, T24 HORSE (SKY STARS), one blank row, T24 JOCKEY
+    (SKY STARS), two blank rows; cells (values, styles, comments, merged header cells) copied from the runner sheets"""
+    out = wb.create_sheet('SKY STARS SUMMARY')
+    row = 1
+    for P in sorted(runners):
+        ws = wb[P]
+        copy_cell(ws.cell(row=1, column=1), out.cell(row=row, column=1))
+        row += 1
+        for k, C in enumerate('HJ'):
+            r0, r1 = fields[P]['_t24ss'][C]
+            for r in range(r0, r1 + 1):
+                for c in range(1, ws.max_column + 1):
+                    sc = ws.cell(row=r, column=c)
+                    if sc.value is not None or sc.has_style or sc.comment:
+                        copy_cell(sc, out.cell(row=row + r - r0, column=c))
+            for m in list(ws.merged_cells.ranges):
+                if r0 <= m.min_row and m.max_row <= r1:
+                    out.merge_cells(start_row=row + m.min_row - r0, start_column=m.min_col, end_row=row + m.max_row - r0, end_column=m.max_col)
+            row += r1 - r0 + 1 + (1 if C == 'H' else 2)
+        widen(out, ws._t24ssw)                             # widths as the T24 (SKY STARS) tables
+    return out
 
 
 # ---------------- T23: ratios of the T1, T2 and SKY distances (Eddie, 16 Oct 2026)
@@ -3358,7 +3501,8 @@ def main():
     R0 = {'H': {}, 'J': {}}
     skind = lambda a, b: 'equator' if b.endswith(' equator') else 'dist'
     rows = [(f'S Jupiter → S {x}', 'S Jupiter', f'S {x}') for x in skyx if x != 'Jupiter']     # stars on T1_T2_T24_STARS (Eddie, 19 Oct 2026)
-    row, _ = write_pairs(ws, 3, 'SKY', 'S Jupiter → sky points', ctx.x, R0, rows, skind, timing=True)
+    row, skycells = write_pairs(ws, 3, 'SKY', 'S Jupiter → sky points', ctx.x, R0, rows, skind, timing=True)
+    ctx.skysel = sky_star_select(skycells)                 # T24 HORSE / JOCKEY (SKY STARS) selection (Eddie, 27 Oct 2026)
     sky_nums = []                                          # NUMBERS keep the SKY rows on STARS, as before: fed off-sheet
     write_pairs(openpyxl.Workbook().active, 3, 'SKY', '', ctx, R0, [(f'S Jupiter → S {x}', 'S Jupiter', f'S {x}') for x in sky if x != 'Jupiter'],
                 skind, nums=sky_nums, timing=True)
@@ -3415,6 +3559,7 @@ def main():
     fields = {}
     for P in sorted(runners):
         fields[P] = runner_sheet(wb, P, runners[P], ctx)
+    summary_sheet(wb, runners, fields)                     # SKY STARS SUMMARY (Eddie, 27 Oct 2026), after the runner sheets
     # unison (Perfect 1) field counts: unison can come from age (e.g. Equator S/H = 1), so every unison shows how many runners hold it
     uni = {}
     for P in fields:

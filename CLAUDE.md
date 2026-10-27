@@ -855,6 +855,47 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   repeats, T19 / T19 sky-side / SKY PAIRS legs; hits per family as above; every changed value a lost digit-family hit, a new half hit, a best
   family changed for one of those, or a nearest target changed to half: 0 mismatches. Not checked: T3–T23 cells other than those, timing values.
 
+## jupiter_tables: T24 HORSE / JOCKEY (SKY STARS), SKY STARS SUMMARY (Eddie, 27 Oct 2026; viewing only)
+- Selection (once per race; sky_star_select): every star of T1_T2_T24_STARS whose S Jupiter → S star cell in the SKY block (SKY JUPITER)
+  scores in RA or Dec (any score: conjunction, whole, half, 4-digit hit, as on the sheet); bodies and the equator out; T24 (RA) order; a
+  star in both planes once; a star missing from a chart skipped quietly. Selected stars are kept on ctx.skysel.
+- Runner sheets, after T24 JOCKEY RATIOS: "T24 HORSE (SKY STARS)", then "T24 JOCKEY (SKY STARS)" (write_t24ss). Columns: table | star |
+  sky hit ('RA 70 whole (88.36)', both planes joined '; ', a conjunction 'RA 0 conjunction (score)' - Claude's wording) | the T24 row
+  copied from T24 HORSE / JOCKEY on the same sheet (every T24 column from C shifted right by one: values, fills incl. red, comments,
+  midpoint cells, thick / dotted outlines, repeats; copy_cell, no recalculation) | SCORES RA, SCORES Dec (one per body, same order): the
+  score in the value cell's comment (t24_score), 2 dp, filled as the value cell, blank where it has no score. Header rows = T24's plus
+  'sky hit' and 'SCORES RA' / 'SCORES Dec' merged; widths: sky hit 36 (Claude's choice), values / scores 11, midpoints 40, repeats 60.
+  Shared columns are only ever widened, so on runner sheets column C (sky hit) goes 11 -> 36 and AB (midpoints) 11 -> 40 for every table
+  (e.g. T24's RA Sun and Dec Sun columns); display only. Title: what it is, the rule, 'Selected: n stars' (0 and no rows when none).
+- Sheet "SKY STARS SUMMARY" (summary_sheet), after the runner sheets (default and --full; in --full after P## RATIOS / NUMBERS, before
+  the FIELD sheets / THREADS): per runner in order its A1 line ('P01 1 Bravo Team / Sean Bowen'), T24 HORSE (SKY STARS), one blank row,
+  T24 JOCKEY (SKY STARS), two blank rows; cells and merged headers copied from the runner sheets. Not in THREADS, NUMBERS, FIELD or timelines.
+- Selected (sky hits): Kelso 14:50 4 May 2022 (batch copied into reference/classic from ~/astronomy-project/racecards/20220504_kelso;
+  csv not copied) 14 = Eddie's list: Aldebaran RA 70 whole (88.36), Alhena Dec 18 whole (0.15), Castor Dec 33.5 half (0.56), Praesepe RA
+  81×φ golden (36.04), Algorab RA 106×φ (76.48), Vindemiatrix RA 101×φ (56.39), Alkaid RA 94×φ (46.30), Unukalhai RA φ^10 phi power
+  (73.34), Antares RA 69×φ (5.09), Ras Algethi RA 62×φ (57.00); Dec 16 whole (30.93), Acumen RA 90.5 half (0.37), Rukbat RA 68 whole
+  (81.46); Dec 39 whole (49.76), Deneb Algedi Dec 14.5 half (1.93), Fomalhaut RA 9×φ (86.36); Dec 28 whole (83.46). Rebuilt Ascot
+  14:30 2012 10: Rigel RA 19 (10.25), Adhara RA 45 (36.93), Castor RA 54 (97.57), Procyon Dec 14.5 half (85.64), Praesepe Dec 0
+  conjunction (1.59), Algorab RA 79×φ (93.96), Vindemiatrix RA 84×φ (37.60), Alkaid RA 91×φ (71.65), Alphecca Dec 7 (45.04), Nunki Dec 46
+  (0.47). Lingfield 14:35 2021 (21-star batch) 4: Pleiades Dec 38.5 half (18.07), Betelgeuse RA φ^10 (99.13), Spica RA 124.5 half (16.66),
+  Deneb Algedi RA 0 conjunction (12.93).
+- Rows per table (horse = jockey): Kelso 14 (6 runners; 38 rows inserted per runner sheet), Ascot 10, Lingfield 4 (6 runners). Summary
+  rows: Kelso 228, Ascot 30, Lingfield 108. Sizes (default / --full) before -> after: Kelso 4.23 / 4.44 -> 4.77 / 4.99 MB, rebuilt Ascot
+  0.94 / 1.00 -> 1.01 / 1.07, Lingfield 2.12 / 2.33 -> 2.29 / 2.51; pairs identical.
+- Tests 245/245. Test 44 (new): chk_t24ss/check_t24ss.py vs builds by b19fac1f's code, three races, default and --full: every other row of
+  every sheet identical (runner sheets minus the inserted tables; merged ranges shifted; no column narrowed), sheet order, selection = every
+  scoring SKY-block star cell in T24 order, sky hit = the SKY block cells, every T24 cell = its T24 row, every SCORES cell = its comment's
+  score (blank exactly where none) and fill, headers, summary = the runner tables cell for cell; pairs identical; Kelso = Eddie's 14; by
+  hand from POSITIONS (Kelso P01): H Rukbat sky hit (S Jupiter 358.976662 / −1.620635, S Rukbat 290.974713 / −40.614744: RA 68.001949,
+  Dec 38.994109), SCORES RA H Rukbat – H Gonggong 45.003699 whole 45 (66.43), SCORES Dec H Rukbat – H Sun 46.490268 half 46.5 (0.07),
+  conjunction H Antares – H Mars RA 1.308631 (1.63) red. Changed for this: test 30 (default sheets + SKY STARS SUMMARY; the new tables and
+  the summary allowed in the new-star leak check); tests 42 / 43 now compare with builds by b19fac1f's code.
+- Independent checker (27 Oct), own code from POSITIONS (chk_t24ss/indep/), Kelso default and --full: selection (134 SKY cells, the 14,
+  sky-hit texts), 8,568 copied cells vs T24, 8,064 value cells and 8,064 SCORES cells recomputed (fills light 366, green 122, yellow 111,
+  red 56, blank 7,409), headers, summary (25,758 cells), before vs after (1,535,490 / 1,560,875 cells; 38 rows inserted per runner sheet),
+  default = --full (48,108 cells): 0 mismatches; reported the column widths above. Not exercised in Kelso: a conjunction sky hit (Ascot and
+  Lingfield have one each), a selected star missing from a chart.
+
 ## jupiter_tables: T24 repeats flag (Eddie, 22 Oct 2026; viewing / display only)
 - T24 SKY (SKY JUPITER), T24 HORSE and T24 JOCKEY (every runner sheet), each star row: a scoring value = the cell's best target (as its
   comment: family + target number), inside tolerance, any score; conjunction cells (RA < 1.5 / Dec < 0.3, red) left out; only the best
@@ -1111,6 +1152,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **T24 HORSE / JOCKEY (SKY STARS) on every runner sheet + SKY STARS SUMMARY sheet (27 Oct 2026, Eddie):** see its section.
+  Tests 245/245.
 - **35 stars in T1, T2, T24 (13 new in the engine, no Polaris there) + trimmed default workbook, --full for the rest (19 Oct 2026, Eddie):**
   see its section; same day revised: the 35 in RA order, and the SKY block star rows on the 35. 
 - **T24 ratio tables T24 H / J, T24 HORSE RATIOS, T24 JOCKEY RATIOS (19 Oct 2026, Eddie):** see its section.
