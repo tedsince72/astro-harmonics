@@ -1406,7 +1406,7 @@ def t24_blocks(ws, mids=None):
                     break
                 if str(h1[c].value or '').endswith(' midpoints'):
                     mcol[h1[c].value.split()[0]] = c
-                elif pl and h2[c].value:
+                elif pl and h2[c].value and h2[c].value != 'S Jupiter':   # S Jupiter column (27 Oct 2026; test 46): not a body
                     hdr.append((h2[c].value, pl)); cols.append(c)
             out[cur] = (hdr, rows)
         elif cur and x[0].value == 'T24':
@@ -1486,12 +1486,14 @@ for f in (gcf, 'reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_
             if r0[0].value == 'T24' and str(r0[1].value).startswith('T24 '):
                 n += 1
                 h1 = [c.value for c in w[sh][r0[0].row + 1]]; h2 = [c.value for c in w[sh][r0[0].row + 2]]
-                nb = 25 if 'SKY' in r0[1].value else 24
+                nb = 25 if r0[1].value.startswith('T24 SKY') else 24     # (the HORSE / JOCKEY note mentions the SKY block, 27 Oct 2026)
+                body = [b for b in JT.T24_BODIES if nb == 25 or b != 'Moon'] + ([] if nb == 25 else ['S Jupiter'])   # S Jupiter column (27 Oct 2026)
+                nb = len(body)
                 want1 = ['RA'] + [None] * (nb - 1) + ['RA midpoints', 'Dec'] + [None] * (nb - 1) + ['Dec midpoints']
-                body = [b for b in JT.T24_BODIES if nb == 25 or b != 'Moon']
                 if h1[2:2 + 2 * nb + 2] != want1 or h2[2:2 + nb] != body or h2[3 + nb:3 + 2 * nb] != body:
                     bad.append((f[-40:], sh, r0[1].value[:12]))
-check('T29 every T24 block: header row 1 RA (merged) .. RA midpoints, Dec (merged) .. Dec midpoints; row 2 the bodies in order, RA half then Dec half',
+check('T29 every T24 block: header row 1 RA (merged) .. RA midpoints, Dec (merged) .. Dec midpoints; row 2 the bodies in order (HORSE / JOCKEY: then '
+      'S Jupiter, 27 Oct 2026), RA half then Dec half',
       not bad and n == 3 + 13, f'{n} blocks; {bad[:3]}')
 gp = {}
 for x in gw['POSITIONS'].iter_rows(min_row=5, values_only=True):
@@ -3360,6 +3362,9 @@ L67 = f'{tmp}/l67/race_batch_20210402_lingfield_aw_1435.xlsx'          # Eddie's
 os.makedirs(f'{tmp}/l67', exist_ok=True); os.makedirs(f'{tmp}/after45', exist_ok=True)
 shutil.copy(f'{AP}/racecards/20210402_lingfield_aw/race_batch_20210402_lingfield_aw_1435.xlsx', L67)
 INP45 = dict(INP44, l67=L67)
+# 27 Oct 2026 (S Jupiter column + Jupiter rows, test 46): the "after" builds are by 35255b16's code, so test 45 checks its own change alone
+os.makedirs(f'{tmp}/hf35', exist_ok=True)
+subprocess.run(f'git archive 35255b16 tools rebuild_kit | tar -x -C {tmp}/hf35', shell=True, check=True)
 # rows changed / dropped / added / with a 0.98-1 value / follow-on (counts, default and --full)
 EXP45 = {('kelso', 'def'): (125, 0, 2, 125, 2), ('kelso', 'full'): (127, 0, 3, 127, 3), ('lingfield', 'def'): (20, 0, 0, 20, 0),
          ('lingfield', 'full'): (20, 0, 0, 20, 0), ('ascot', 'def'): (10, 0, 0, 10, 0), ('ascot', 'full'): (10, 0, 0, 10, 0),
@@ -3371,7 +3376,7 @@ for n, inp in INP45.items():
         bo, ao = f'{tmp}/after44/{n}_{f}_jupiter_tables.xlsx', f'{tmp}/after45/{n}_{f}_jupiter_tables.xlsx'
         if n == 'l67':
             subprocess.run([sys.executable, f'{tmp}/hf13/tools/jupiter_tables.py', inp] + fl + ['--out', bo], capture_output=True, text=True)
-        subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp] + fl + ['--out', ao], capture_output=True, text=True)
+        subprocess.run([sys.executable, f'{tmp}/hf35/tools/jupiter_tables.py', inp] + fl + ['--out', ao], capture_output=True, text=True)
         o = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_whole/diff_whole.py', bo, ao], capture_output=True, text=True).stdout
         out45[(n, f)] = (o, tuple(int(x) for x in re.findall(r': (\d+)', line(o, 'rows changed:'))))
 fol = [l for o, _ in out45.values() for l in o.splitlines() if '[FOLLOWS]' in l]
@@ -3390,6 +3395,73 @@ check(f'T45 by hand from POSITIONS (Lingfield 67-star P09): T24 HORSE H Meissa �
       f'{sqs(0.02, abs(v45 - 1)):.2f}, filled green (was "nearest: 1 · whole — outside ±0.02")',
       c45.comment.text.split('\n')[0] == f'1 · whole · {v45 - 1:+.5f} · {sqs(0.02, abs(v45 - 1)):.2f}' and c45.fill.start_color.rgb.endswith('C6EFCE'),
       c45.comment.text)
+# ---------------------------------------------------------------------------------------------------------------------------------
+# Test 46 (Eddie, 27 Oct 2026): T24 HORSE / JOCKEY "S Jupiter" column (d(S Jupiter, S star) = the SKY block cell, after Ketu in RA and Dec)
+# and the four Jupiter rows on top of T24 HORSE / JOCKEY (SKY STARS) (S Jupiter → S body, natal Jupiter → natal body, S Jupiter → natal
+# body, S body → natal Jupiter), carried into the summary. "Before" = commit 35255b16 (builds in after45). Kelso, Lingfield, rebuilt Ascot,
+# default and --full (chk_sjcol/check_sjcol.py).
+print('test 46: T24 S Jupiter column and the four Jupiter rows of the (SKY STARS) tables')
+os.makedirs(f'{tmp}/after46', exist_ok=True)
+out46 = {}
+for n, inp in INP44.items():
+    for f in ('def', 'full'):
+        fl = ['--full'] if f == 'full' else []
+        bo, ao = f'{tmp}/after45/{n}_{f}_jupiter_tables.xlsx', f'{tmp}/after46/{n}_{f}_jupiter_tables.xlsx'
+        r46 = subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp] + fl + ['--out', ao], capture_output=True, text=True)
+        out46[(n, f, 'size')] = re.findall(r'\(([\d.]+ MB)\)', r46.stdout)
+        out46[(n, f)] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_sjcol/check_sjcol.py', bo, ao], capture_output=True, text=True).stdout
+        z = lambda p: subprocess.run(f'unzip -p {p} xl/worksheets/*.xml xl/sharedStrings.xml | shasum', shell=True, capture_output=True, text=True).stdout
+        out46[(n, f, 'pairs')] = z(bo.replace('_jupiter_tables', '_pairs')) == z(ao.replace('_jupiter_tables', '_pairs'))
+print('T46 sizes (tables, pairs):', {k[:2]: v for k, v in out46.items() if k[2:] == ('size',)})
+check('T46 against the build before (commit 35255b16), Kelso, Lingfield, rebuilt Ascot, default and --full (chk_sjcol/check_sjcol.py): every S Jupiter '
+      'cell of T24 HORSE / JOCKEY = the SKY block cell for its star (value, target, offset, score, fill, red) after Ketu in RA and Dec; every cell of '
+      'the four Jupiter rows = T1 / T2 SKY cells, T1 / T2, T5 / T6, T7 / T8, T9 (Jupiter column), blanks as stated; SCORES = the comments; summary = '
+      'the runner tables; every other row of every sheet identical apart from the column shift (values, fills, comments, borders); pairs identical',
+      all(line(o, 'mismatches:') == 'mismatches: 0' for k, o in out46.items() if len(k) == 2) and all(o for k, o in out46.items() if k[2:] == ('pairs',)),
+      f"{ {k: (line(o, 'S Jupiter cells:'), line(o, 'Jupiter-row cells:'), line(o, 'mismatches:')) for k, o in out46.items() if len(k) == 2} }")
+# by hand from POSITIONS (Kelso P01)
+w46 = openpyxl.load_workbook(f'{tmp}/after46/kelso_def_jupiter_tables.xlsx')
+p46 = posmap(w46, 'P01')
+s46 = {x[3]: (x[5], x[6]) for x in w46['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'SKY' and x[3]}
+ws46 = w46['P01']
+t46 = next(r for r in range(1, ws46.max_row + 1) if ws46.cell(row=r, column=1).value == 'T24' and str(ws46.cell(row=r, column=2).value).startswith('T24 HORSE (natal)'))
+h46 = [ws46.cell(row=t46 + 2, column=c).value for c in range(1, ws46.max_column + 1)]
+sjc = {pl: [c for c in range(1, len(h46) + 1) if h46[c - 1] == 'S Jupiter'][k] for k, pl in enumerate(('RA', 'Dec'))}
+star46 = lambda x: next(r for r in range(t46 + 3, t46 + 80) if ws46.cell(row=r, column=2).value == f'H {x}')
+ss46 = next(r for r in range(1, ws46.max_row + 1) if ws46.cell(row=r, column=1).value == 'T24 HORSE (SKY STARS)')
+hs46 = [ws46.cell(row=ss46 + 2, column=c).value for c in range(1, ws46.max_column + 1)]
+vcol = lambda pl, b: [c for c in range(1, len(hs46) + 1) if hs46[c - 1] == b][0 if pl == 'RA' else 1]
+jr46 = {ws46.cell(row=r, column=2).value: r for r in range(ss46 + 3, ss46 + 8)}
+cases46 = [  # (what, cell, value by hand, plane, comment)
+    ('T24 HORSE S Jupiter column H Aldebaran RA = d(S Jupiter, S Aldebaran)', ws46.cell(row=star46('Aldebaran'), column=sjc['RA']),
+     dpl(s46['Jupiter'], s46['Aldebaran'], 'RA'), 'RA', lambda v: f'70 · whole · {v - 70:+.5f} · {sqs(0.02, abs(v - 70)):.2f}'),
+    ('T24 HORSE S Jupiter column H Fomalhaut Dec = d(S Jupiter, S Fomalhaut)', ws46.cell(row=star46('Fomalhaut'), column=sjc['Dec']),
+     dpl(s46['Jupiter'], s46['Fomalhaut'], 'Dec'), 'Dec', lambda v: f'28 · whole · {v - 28:+.5f} · {sqs(0.02, abs(v - 28)):.2f}'),
+    ('S Jupiter → S body, Venus Dec', ws46.cell(row=jr46['S Jupiter → S body'], column=vcol('Dec', 'Venus')),
+     dpl(s46['Jupiter'], s46['Venus'], 'Dec'), 'Dec', lambda v: f'1 · whole · {v - 1:+.5f} · {sqs(0.02, abs(v - 1)):.2f}'),
+    ('H Jupiter → H body, Uranus RA', ws46.cell(row=jr46['H Jupiter → H body'], column=vcol('RA', 'Uranus')),
+     dpl(p46[('H', 'Jupiter')], p46[('H', 'Uranus')], 'RA'), 'RA', lambda v: f'148 · whole · {v - 148:+.5f} · {sqs(0.02, abs(v - 148)):.2f}'),
+    ('H Jupiter → H body, Uranus Dec (conjunction, red)', ws46.cell(row=jr46['H Jupiter → H body'], column=vcol('Dec', 'Uranus')),
+     dpl(p46[('H', 'Jupiter')], p46[('H', 'Uranus')], 'Dec'), 'Dec', lambda v: f'0 · conjunction (Dec < 0.3) · {v:+.5f} · {sqs(0.3, v):.2f}'),
+    ('S Jupiter → H body, Gonggong RA', ws46.cell(row=jr46['S Jupiter → H body'], column=vcol('RA', 'Gonggong')),
+     dpl(s46['Jupiter'], p46[('H', 'Gonggong')], 'RA'), 'RA', lambda v: f'23 · whole · {v - 23:+.5f} · {sqs(0.02, abs(v - 23)):.2f}'),
+    ('S Jupiter → H body, Venus RA (conjunction, red)', ws46.cell(row=jr46['S Jupiter → H body'], column=vcol('RA', 'Venus')),
+     dpl(s46['Jupiter'], p46[('H', 'Venus')], 'RA'), 'RA', lambda v: f'0 · conjunction (RA < 1.5) · {v:+.5f} · {sqs(1.5, v):.2f}'),
+    ('S body → H Jupiter, Rahu Dec', ws46.cell(row=jr46['S body → H Jupiter'], column=vcol('Dec', 'Rahu')),
+     dpl(s46['Rahu'], p46[('H', 'Jupiter')], 'Dec'), 'Dec', lambda v: f'11 · whole · {v - 11:+.5f} · {sqs(0.02, abs(v - 11)):.2f}'),
+]
+for what, c, v, pl, txt in cases46:
+    red = v < (1.5 if pl == 'RA' else 0.3)
+    ok = c.value == round(v, 6) and c.comment.text.split('\n')[0] == txt(v) and (c.fill.start_color.rgb.endswith('FF8080') == red)
+    check(f'T46 by hand from POSITIONS (Kelso P01): {what} {v:.6f} -> {txt(v)!r}' + (' red' if red else ''), ok,
+          f'{c.value} {c.comment.text if c.comment else None!r} {c.fill.start_color.rgb}')
+jj = ws46.cell(row=jr46['S body → H Jupiter'], column=vcol('RA', 'Jupiter'))
+check('T46 Jupiter column: blank on S Jupiter → S body and H Jupiter → H body; d(S Jupiter, H Jupiter) on the other two (by hand '
+      f'{dpl(s46["Jupiter"], p46[("H", "Jupiter")], "RA"):.6f} RA)',
+      ws46.cell(row=jr46['S Jupiter → S body'], column=vcol('RA', 'Jupiter')).value is None
+      and ws46.cell(row=jr46['H Jupiter → H body'], column=vcol('RA', 'Jupiter')).value is None
+      and jj.value == ws46.cell(row=jr46['S Jupiter → H body'], column=vcol('RA', 'Jupiter')).value == round(dpl(s46['Jupiter'], p46[('H', 'Jupiter')], 'RA'), 6),
+      jj.value)
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
