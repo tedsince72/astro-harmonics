@@ -1363,10 +1363,12 @@ tlt = lambda w: [str(x[0]) for x in w['SKY JUPITER'].iter_rows(values_only=True)
 tln = lambda w, t: sum(1 for x in w['SKY JUPITER'].iter_rows(values_only=True) if x and x[0] == t and x[4] and re.search(r'\b(' + '|'.join(NEW11) + r')\b', str(x[4])))
 # 24 Oct 2026 (Eddie, half + 4-digit rule; these builds run on today's families.py): TIMELINE 50 (12 / 4 / 34) -> 50 (12 / 5 / 33), new-star 12;
 # LONG TIMELINE 67 (33 / 34), new-star 20 -> 53 (23 / 30), new-star 17
-check('T34 rebuilt Ascot: TIMELINE 50 events (12 new-star; 12 before the off, 5 in the first 5 min, 33 after), LONG TIMELINE 53 '
-      '(17 new-star; 23 separating, 30 applying; built by the code of 18aff98a, LONG >= 80; on the families of 24 Oct 2026 - before: 50 (12 / 4 / 34), '
+# 29 Oct 2026 (Eddie, half removed; these builds run on today's families.py): TIMELINE 50 (12 / 5 / 33) -> 47 (10 / 4 / 33), LONG 53 (23 / 30) ->
+# 49 (21 / 28); new-star 12 / 17 unchanged
+check('T34 rebuilt Ascot: TIMELINE 47 events (12 new-star; 10 before the off, 4 in the first 5 min, 33 after), LONG TIMELINE 49 '
+      '(17 new-star; 21 separating, 28 applying; built by the code of 18aff98a, LONG >= 80; on the families of 29 Oct 2026 (no half) - before: 50 (12 / 4 / 34), '
       '67 (20 new-star; 33 / 34))', tln(gw46_s, 'TIMELINE') == 12 and tln(gw46_s, 'LONG TIMELINE') == 17
-      and tlt(gw46_s)[0].endswith('50 events, 12 before the off, 5 in the first 5 min, 33 after') and tlt(gw46_s)[1].endswith('53 events, 23 separating, 30 applying'),
+      and tlt(gw46_s)[0].endswith('47 events, 10 before the off, 4 in the first 5 min, 33 after') and tlt(gw46_s)[1].endswith('49 events, 21 separating, 28 applying'),
       f"{tln(gw46_s, 'TIMELINE')} / {tln(gw46_s, 'LONG TIMELINE')}; {tlt(gw46_s)[0][-70:]}; {tlt(gw46_s)[1][-40:]}")
 # by hand from POSITIONS (rebuilt Ascot): two cells each of T1, T2, T24 (one ratio table cell), the SKY block and SKY STARS; Menkar in each table
 NT = {122.222: 0.722222, 13.3333: 0.083333}                 # the _NINTH_RANGES tolerances of these two bands
@@ -1528,10 +1530,11 @@ check('T36 against the build before (commit ad0defaf), both races --full: every 
 RX21 = re.compile(r'\b(' + '|'.join(NEW21) + r')\b')
 tln21 = lambda w, t: sum(1 for x in w['SKY JUPITER'].iter_rows(values_only=True) if x and x[0] == t and x[4] and RX21.search(str(x[4])))
 # 24 Oct 2026 (Eddie, half + 4-digit rule): TIMELINE 90 (29 / 7 / 54) -> 90 (29 / 8 / 53), new-star 40; LONG 126 (61 / 65), new-star 59 -> 108 (47 / 61), 55
-check('T36 rebuilt Ascot: TIMELINE 90 events (40 new-star; 29 before the off, 8 in the first 5 min, 53 after), LONG TIMELINE 108 '
-      '(55 new-star; 47 separating, 61 applying; built by the code of 18aff98a, LONG >= 80; on the families of 24 Oct 2026 - before: 90 (29 / 7 / 54), '
+# 29 Oct 2026 (Eddie, half removed): TIMELINE 90 (29 / 8 / 53) -> 87 (27 / 7 / 53), LONG 108 (47 / 61) -> 104 (45 / 59); new-star 40 / 55 unchanged
+check('T36 rebuilt Ascot: TIMELINE 87 events (40 new-star; 27 before the off, 7 in the first 5 min, 53 after), LONG TIMELINE 104 '
+      '(55 new-star; 45 separating, 59 applying; built by the code of 18aff98a, LONG >= 80; on the families of 29 Oct 2026 (no half) - before: 90 (29 / 7 / 54), '
       '126 (59 new-star; 61 / 65))', tln21(gw_s, 'TIMELINE') == 40 and tln21(gw_s, 'LONG TIMELINE') == 55
-      and tlt(gw_s)[0].endswith('90 events, 29 before the off, 8 in the first 5 min, 53 after') and tlt(gw_s)[1].endswith('108 events, 47 separating, 61 applying'),
+      and tlt(gw_s)[0].endswith('87 events, 27 before the off, 7 in the first 5 min, 53 after') and tlt(gw_s)[1].endswith('104 events, 45 separating, 59 applying'),
       f"{tln21(gw_s, 'TIMELINE')} / {tln21(gw_s, 'LONG TIMELINE')}; {tlt(gw_s)[0][-70:]}; {tlt(gw_s)[1][-40:]}")
 # by hand from POSITIONS (rebuilt Ascot): two cells each of T1, T2, T24 (one ratio table cell), the SKY block and SKY STARS; clusters in T1,
 # T24 and SKY STARS
@@ -1662,11 +1665,13 @@ for nm, bo, after in (('Lingfield', lf_s, lf_t), ('Ascot', gf_s, gf_t)):   # 18a
     out37[nm] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_startl/compare_tl.py', bo, after], capture_output=True, text=True).stdout
 # 24 Oct 2026 (Eddie, half + 4-digit rule; both builds run on today's families.py): sky LONG 126 (>= 90: 68) -> 69 became 108 (60) -> 61, STAR 65 -> 66;
 # P01 LONG H 17 (8) -> 50 became 14 (7) -> 49, LONG J 23 (6) -> 49 became 21 (8) -> 51, TIMELINE J 11 -> 63 became 13 -> 65
-W37 = {'Ascot': ['SKY JUPITER  LONG TIMELINE    before  108 (>= 90: 60) after   61', 'SKY JUPITER  STAR TIMELINE    before    0 after   66',
-                 'SKY JUPITER  TIMELINE         before   90 after   90', 'P01          LONG TIMELINE H  before   14 (>= 90: 7) after   49',
-                 'P01          LONG TIMELINE J  before   21 (>= 90: 8) after   51', 'P01          STAR TIMELINE H  before    0 after   57',
+# 29 Oct 2026 (Eddie, half removed; both builds on today's families): sky LONG 108 (60) -> 61 became 104 (59) -> 60, STAR 66 -> 65, TIMELINE 90 -> 87;
+# P01 LONG J 21 (8) -> 51 became 19 (6) -> 49, TIMELINE J 13 -> 65 became 11 -> 63
+W37 = {'Ascot': ['SKY JUPITER  LONG TIMELINE    before  104 (>= 90: 59) after   60', 'SKY JUPITER  STAR TIMELINE    before    0 after   65',
+                 'SKY JUPITER  TIMELINE         before   87 after   87', 'P01          LONG TIMELINE H  before   14 (>= 90: 7) after   49',
+                 'P01          LONG TIMELINE J  before   19 (>= 90: 6) after   49', 'P01          STAR TIMELINE H  before    0 after   57',
                  'P01          STAR TIMELINE J  before    0 after   52', 'P01          TIMELINE H       before   13 after   68',
-                 'P01          TIMELINE J       before   13 after   65']}
+                 'P01          TIMELINE J       before   11 after   63']}
 check('T37 against the build before (commit 18aff98a), both races --full: every earlier TIMELINE / TIMELINE H / J event kept with the same cells '
       '(only "also" may gain a star source), every LONG event scoring >= 90 kept, every row outside the timelines identical; counts as reported',
       all(line(o, 'mismatches:') == 'mismatches: 0' for o in out37.values()) and all(any(l.startswith(w_) for l in out37['Ascot'].splitlines()) for w_ in W37['Ascot']),
@@ -1718,9 +1723,11 @@ for nm, bo, after in (('Lingfield', lf_t, lf_u), ('Ascot', gf_t, gf_u)):    # 63
 W38 = {'Ascot': {'SKY JUPITER LONG STAR TIMELINE': '55 (25 / 30)', 'P01 LONG STAR TIMELINE H': '44 (21 / 23)', 'P01 LONG STAR TIMELINE J': '44 (21 / 23)'},
        'Lingfield': {'SKY JUPITER LONG STAR TIMELINE': '3 (0 / 3)', 'P01 LONG STAR TIMELINE H': '3 (1 / 2)', 'P01 LONG STAR TIMELINE J': '2 (0 / 2)',
                      'P03 LONG STAR TIMELINE H': '3 (1 / 2)', 'P03 LONG STAR TIMELINE J': '4 (1 / 3)', 'P05 LONG STAR TIMELINE H': '4 (2 / 2)',
-                     'P05 LONG STAR TIMELINE J': '3 (1 / 2)', 'P07 LONG STAR TIMELINE H': '4 (3 / 1)', 'P07 LONG STAR TIMELINE J': '3 (2 / 1)',
-                     'P09 LONG STAR TIMELINE H': '2 (2 / 0)', 'P09 LONG STAR TIMELINE J': '3 (1 / 2)', 'P11 LONG STAR TIMELINE H': '4 (1 / 3)',
-                     'P11 LONG STAR TIMELINE J': '3 (1 / 2)'}}
+                     'P05 LONG STAR TIMELINE J': '2 (1 / 1)', 'P07 LONG STAR TIMELINE H': '4 (3 / 1)', 'P07 LONG STAR TIMELINE J': '2 (1 / 1)',
+                     'P09 LONG STAR TIMELINE H': '1 (1 / 0)', 'P09 LONG STAR TIMELINE J': '3 (1 / 2)', 'P11 LONG STAR TIMELINE H': '4 (1 / 3)',
+                     'P11 LONG STAR TIMELINE J': '2 (1 / 1)'}}
+# 29 Oct 2026 (Eddie, half removed): Lingfield P05 J 3 (1 / 2) -> 2 (1 / 1), P07 J 3 (2 / 1) -> 2 (1 / 1), P09 H 2 (2 / 0) -> 1 (1 / 0),
+# P11 J 3 (1 / 2) -> 2 (1 / 1); Ascot unchanged
 got38 = {nm: {f'{m.group(1)} {m.group(2)}': m.group(3) for m in re.finditer(r'^(\S+(?: JUPITER)?)\s+(LONG STAR TIMELINE(?: [HJ])?)\s+(\d+ \(\d+ / \d+\))$', o, re.M)}
          for nm, o in out38.items()}
 check('T38 LONG STAR TIMELINE (sky) / LONG STAR TIMELINE H / J, both races --full (chk_longstar/check_longstar.py): every row = a row of the '
@@ -1768,7 +1775,7 @@ check('T39 against the build before (commit 00b6db9e), both races, default and -
       'LONG 1, S Sirius – S Rigel RA 14×φ), every remaining row S Jupiter-centred, its cells identical, the header + "> 95 since", "100", '
       '"< 95 from"; every other row identical (T24 STAR SELECT removed the same day: none on the runner sheets)',
       all(line(o, 'mismatches:') == 'mismatches: 0' for o in out39.values()) and all(DROP39[k[0]] in o for k, o in out39.items())
-      and all('STAR TIMELINE: before 66, after 66, dropped 0' in o for k, o in out39.items() if k[0] == 'Ascot'),
+      and all('STAR TIMELINE: before 65, after 65, dropped 0' in o for k, o in out39.items() if k[0] == 'Ascot'),   # 66 -> 65 (half removed, 29 Oct 2026)
       f"{ {k: line(o, 'mismatches:') for k, o in out39.items()} }")
 # (b) every 95 / 100 / 95 cell re-searched with the engine (own score code from POSITIONS + engine; families.py for the targets)
 _s.path.insert(0, 'tools/jup2')
@@ -1972,10 +1979,10 @@ for w, sh, who, tid, ch, star, n_, (B1, P1), (B2, P2), thick_ in (
           and cb.comment.text.endswith(f'repeat: {n_} whole ×2 (with {B1} {P1} ({sa_:.2f}))')
           and (not thick_ or all('midpoint with ' in c.comment.text for c in (ca, cb))), f'{rp!r}; {ca.comment.text!r}; {cb.comment.text!r}')
 # ---------------------------------------------------------------------------------------------------------------------------------
-# Test 42 (Eddie, 24 Oct 2026): families.py - HALF family (0.5 ... 199.5, ±0.01 absolute, squared) and the 4-DIGIT RULE for golden, φ powers,
+# Test 42 (Eddie, 24 Oct 2026; half REMOVED 29 Oct 2026): families.py - HALF family (0.5 ... 199.5, ±0.01 absolute, squared) and the 4-DIGIT RULE for golden, φ powers,
 # ninths, √2, silver (first 4 significant digits truncated, same order of magnitude, as the exact target; inside the match the old score).
 # "Before" = commit 83850b1c (its own tools/ and rebuild_kit/, i.e. the old families.py).
-print('test 42: half family and the 4-digit rule')
+print('test 42: half family removed (29 Oct 2026) and the 4-digit rule')
 import importlib.util as _ilu
 os.makedirs(f'{tmp}/h85', exist_ok=True)
 subprocess.run(f'git archive 83850b1c tools rebuild_kit | tar -x -C {tmp}/h85', shell=True, check=True)
@@ -1984,13 +1991,19 @@ FO = _ilu.module_from_spec(_sp)
 _sp.loader.exec_module(FO)
 F = families
 sqs = lambda tol, dev: (10 * (tol - dev) / tol) ** 2
-# (a) half by hand (families level)
-h1, h2, h3 = F.score_family(27.5, 'half'), F.score_family(27.505, 'half'), F.score_family(27.515, 'half')
-check('T42 half by hand: 27.5 -> 27.5 (100.00); 27.505 -> 27.5, (10 (0.01 − 0.005) / 0.01)² = 25.00; 27.515 inside ±0.02 but outside ±0.01 -> no '
-      'half score; half targets 0.5 ... 199.5 only (0.495 -> 0.5; 199.505 -> 199.5; 200.5 none); family order whole, half, golden ...',
-      h1 == (100.0, '27.5', 27.5) and abs(h2[0] - 25.0) < 1e-6 and h2[1] == '27.5' and h3[0] == 0.0 and F.score_family(0.495, 'half')[1] == '0.5'
-      and F.score_family(199.505, 'half')[1] == '199.5' and F.score_family(200.5, 'half')[0] == 0.0
-      and F.DEG_FAMILIES[:3] == ('whole', 'half', 'golden'), f'{h1} {h2} {h3}')
+# (a) 29 Oct 2026 (Eddie): the half family is REMOVED. Retired: 'T42 half by hand' (27.5 -> 27.5 (100.00); 27.505 -> 25.00; 27.515 none;
+# 0.495 -> 0.5; 199.505 -> 199.5; 200.5 none; order whole, half, golden). Now: no half family, no half score, never a half nearest target
+try:
+    F.score_family(27.5, 'half'); _hraise = False
+except ValueError:
+    _hraise = True
+_ev = [d['family'] for v in (27.5, 27.505, 0.5, 1.497, 199.5) for d in F.evaluate(v, 'RA')]
+_out = [F.outside(v, 'Dec')['family'] for v in (27.52, 10.487259, 12.499623, 83.5)]
+check('T42 half removed (Eddie, 29 Oct 2026): "half" not a family (score_family raises), DEG_FAMILIES whole, golden, phi power, ninth, sqrt2, '
+      'silver, conj; evaluate(27.5, 27.505, 0.5, 1.497, 199.5) offers no half; outside() never names half (27.52, 10.487259, 12.499623, 83.5 -> '
+      f'{_out}); RA 1.497 -> conjunction first ({F.evaluate(1.497, "RA")[0]["family"]})',
+      _hraise and F.DEG_FAMILIES == ('whole', 'golden', 'phi power', 'ninth', 'sqrt2', 'silver', 'conj') and 'half' not in _ev
+      and 'half' not in _out and F.evaluate(1.497, 'RA')[0]['family'] == 'conj' and not hasattr(F, 'score_half'), f'{_ev} {_out}')
 # (b) 4-digit rule by hand
 S24, S2 = 10 * (1 + 2 ** 0.5), 1 + 2 ** 0.5
 cases = [('silver 24.1421 / 24.1400', F.digit_match(24.14, S24), True), ('silver 24.1421 / 24.1500', F.digit_match(24.15, S24), False),
@@ -2015,8 +2028,10 @@ w42 = openpyxl.load_workbook(f'{tmp}/after40/ascot_full_jupiter_tables.xlsx')
 pp = {(x[2], x[3]): (x[5], x[6]) for x in w42['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'P01' and x[3]}
 r42 = {(r[0], r[1]): r for r in w42['P01'].iter_rows(values_only=True) if r and r[0] in ('T1', 'T2')}
 want = []
-for tid, ch, X, pl, exp in (('T2', 'J', 'Rasalhague', 'RA', ('12.5 (half)', lambda v: sqs(0.01, abs(v - 12.5)))),
-                            ('T1', 'H', 'Rahu', 'Dec', ('10.5 (half) — outside ±0.01', None)),
+# 29 Oct 2026 (Eddie, half removed): J Rasalhague RA 12.499623 was '12.5 (half)' (92.61) -> nearest ninth 12.2222, no score; H Rahu Dec
+# 10.487259 was '10.5 (half) — outside ±0.01' -> nearest ninth 11.1111
+for tid, ch, X, pl, exp in (('T2', 'J', 'Rasalhague', 'RA', ('12.2222 (ninth) — outside ±0.0722', None)),
+                            ('T1', 'H', 'Rahu', 'Dec', ('11.1111 (ninth) — outside ±0.0611', None)),
                             ('T2', 'J', 'Kaus Australis', 'RA', ('conj (conj)', lambda v: sqs(1.5, v))),
                             ('T1', 'H', 'El Nath', 'RA', ('98×φ (golden)', lambda v: sqs(0.03236, abs(v - 98 * F.PHI)))),
                             ('T2', 'J', 'Gonggong', 'Dec', ('1.414 (sqrt2)', lambda v: sqs(0.025, abs(v - 2 ** 0.5)))),
@@ -2027,35 +2042,12 @@ for tid, ch, X, pl, exp in (('T2', 'J', 'Rasalhague', 'RA', ('12.5 (half)', lamb
     sc = exp[1](v) if exp[1] else None
     ok = abs(r[c0] - v) < 1e-6 and r[c0 + 2] == exp[0] and (r[c0 + 5] is None if sc is None else abs(r[c0 + 5] - sc) < 0.006)
     want.append((ok, f'{tid} {ch} Jupiter → {ch} {X} {pl} {v:.6f} {exp[0]} {"" if sc is None else f"({sc:.2f})"}'))
-check('T42 by hand from POSITIONS (rebuilt Ascot P01): ' + '; '.join(w for _, w in want) + ' - a half hit, a value inside ±0.02 but outside ±0.01 '
-      '(no score), a conjunction that stays conjunction, a golden and a √2 match (old score), a silver outside the 4-digit match (41.379591: 4137 '
+check('T42 by hand from POSITIONS (rebuilt Ascot P01): ' + '; '.join(w for _, w in want) + ' - a former half hit and a former half nearest target, both now '
+      'the nearest ninth (no score), a conjunction that stays conjunction, a golden and a √2 match (old score), a silver outside the 4-digit match (41.379591: 4137 '
       'vs 4142; was 63.73)', all(o for o, _ in want), str([w for o, w in want if not o]))
-# (d) compare with the build before (commit 83850b1c, old families), both races, default and --full
-H85 = {}
-for n in ('lingfield', 'ascot'):
-    inp = 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx' if n == 'lingfield' else f'{tmp}/race_batch_20120619_ascot_1430.xlsx'
-    for f in ('full', 'def'):
-        H85[(n, f)] = f'{tmp}/h85/{n}_{f}_jupiter_tables.xlsx'
-        subprocess.run([sys.executable, f'{tmp}/h85/tools/jupiter_tables.py', inp] + (['--full'] if f == 'full' else []) + ['--out', H85[(n, f)]],
-                       capture_output=True, text=True)
-# 27 Oct 2026 (T24 SKY STARS, test 44): tests 42 and 43 compare with builds by b19fac1f's code (their own changes alone)
-os.makedirs(f'{tmp}/hb19', exist_ok=True)
-subprocess.run(f'git archive b19fac1f tools rebuild_kit | tar -x -C {tmp}/hb19', shell=True, check=True)
-for n in ('lingfield', 'ascot'):
-    inp = 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx' if n == 'lingfield' else f'{tmp}/race_batch_20120619_ascot_1430.xlsx'
-    for f in ('full', 'def'):
-        subprocess.run([sys.executable, f'{tmp}/hb19/tools/jupiter_tables.py', inp] + (['--full'] if f == 'full' else [])
-                       + ['--out', f'{tmp}/hb19/{n}_{f}_jupiter_tables.xlsx'], capture_output=True, text=True)
-out42 = {k: subprocess.run([sys.executable, f'{tmp}/hb19/tools/scans/families_audit/chk_half/compare_half.py', f'{tmp}/h85/tools', bo,   # b19fac1f's families (27 Oct 2026)
-                            f'{tmp}/hb19/{k[0]}_{k[1]}_jupiter_tables.xlsx'], capture_output=True, text=True).stdout for k, bo in H85.items()}
-check('T42 against the build before (commit 83850b1c), both races, default and --full (chk_half/compare_half.py): every distance target cell, '
-      'leg cell and T24 cell = the old families before and the new ones after on its shown value; every row that differs holds a value the two '
-      'families evaluate differently (or differs in its count digits, a THREADS "+ n weaker" line, or is a timeline event that came or went '
-      'with its source row); hits per family as reported (Ascot T24 SKY half 0 -> 66, golden 114 -> 35; Lingfield T1 ninth 39 -> 2)',
-      all(line(o, 'mismatches:') == 'mismatches: 0' for o in out42.values())
-      and all('T24 SKY: whole 141 -> 148, half 0 -> 66, golden 114 -> 35, phi power 144 -> 5, ninth 169 -> 14' in o for k, o in out42.items() if k[0] == 'ascot')
-      and 'T1: whole 17 -> 18, half 0 -> 14, golden 17 -> 5, phi power 35 -> 1, ninth 39 -> 2' in out42[('lingfield', 'full')],
-      f"{ {k: line(o, 'mismatches:') for k, o in out42.items()} }")
+# (d) retired 29 Oct 2026 (Eddie, half removed): compare_half.py, builds by 83850b1c vs b19fac1f (old families -> half + 4-digit rule), both
+# races, default and --full; expected hits per family incl. 'half 0 -> 66' (Ascot T24 SKY) and 'half 0 -> 14' (Lingfield T1). The half part
+# no longer holds; the 4-digit rule stays checked in (b), (c) and test 43
 # ---------------------------------------------------------------------------------------------------------------------------------
 # Test 43 (Eddie, 24 Oct 2026): a value inside its family's old tolerance that fails the 4-digit match reads '<target> <family> — not a
 # 4-digit match (<offset>)' (T24 comments: 'nearest: ' + that); beyond the old tolerance '— outside ±<tol>' stays. No score, no fill on either.
@@ -2289,6 +2281,51 @@ check('T49 Kelso P01 T24 HORSE: the five rows straight after the headers (S Jupi
       and p49.cell(row=h49 + 3, column=jra).value is None and p49.cell(row=h49 + 4, column=jra).value is None
       and w49.sheetnames == ['POSITIONS', 'SKY JUPITER', 'P01', 'P03', 'P05', 'P07', 'P09', 'P11'],
       (lab49, p49.cell(row=h49 + 5, column=jra).value, w49.sheetnames))
+# ---------------------------------------------------------------------------------------------------------------------------------
+# Test 50 (Eddie, 29 Oct 2026): the half family (0.5 ... 199.5, ±0.01) removed from families.py - no half score, never a half nearest target.
+# "Before" = builds by the code of 2cc2af2b (its own tools/ and rebuild_kit/, i.e. families with half). Kelso, Lingfield, rebuilt Ascot,
+# default only (= --full) (chk_nohalf/check_nohalf.py).
+print('test 50: half family removed')
+os.makedirs(f'{tmp}/h2cc', exist_ok=True)
+subprocess.run(f'git archive 2cc2af2b tools rebuild_kit | tar -x -C {tmp}/h2cc', shell=True, check=True)
+INP50 = {'kelso': 'reference/classic/race_batch_20220504_kelso_1450.xlsx', 'lingfield': 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx',
+         'ascot': f'{tmp}/race_batch_20120619_ascot_1430.xlsx'}
+os.makedirs(f'{tmp}/after50', exist_ok=True)
+out50 = {}
+for n, inp in INP50.items():
+    bo, ao = f'{tmp}/h2cc/{n}_jupiter_tables.xlsx', f'{tmp}/after50/{n}_jupiter_tables.xlsx'
+    subprocess.run([sys.executable, f'{tmp}/h2cc/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
+    subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
+    out50[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_nohalf/check_nohalf.py', bo, ao], capture_output=True, text=True).stdout
+check('T50 against the build before (commit 2cc2af2b, families with half), Kelso, Lingfield, rebuilt Ascot (chk_nohalf/check_nohalf.py): every '
+      'changed cell is a cell that scored or was named as half before, or in its value group (target, offset, score, arrow, also, timing), or a '
+      'T24 repeat on a half target; dropped rows (SKY STARS / PAIRS rows listed for a half leg, timeline events on half) named half; otherwise '
+      'only title counts and timeline follow-ons; no half family text anywhere after (the midpoint "ratio half" / "distance half" are not the family)',
+      all(line(o, 'mismatches:') == 'mismatches: 0' for o in out50.values()), {n: line(o, 'mismatches:') for n, o in out50.items()})
+# by hand from POSITIONS
+w50 = {n: openpyxl.load_workbook(f'{tmp}/after50/{n}_jupiter_tables.xlsx') for n in ('kelso', 'lingfield')}
+pk, pl_ = posmap(w50['kelso'], 'P03'), posmap(w50['lingfield'], 'P11')
+skk = {x[3]: (x[5], x[6]) for x in w50['kelso']['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'SKY' and x[3]}
+k3 = w50['kelso']['P03']
+t24j = next(r for r in range(1, k3.max_row + 1) if k3.cell(row=r, column=1).value == 'T24' and str(k3.cell(row=r, column=2).value).startswith('T24 JOCKEY'))
+prow = next(r for r in range(t24j, t24j + 80) if k3.cell(row=r, column=2).value == 'J Pollux')
+tcol = next(k for k in range(3, 30) if k3.cell(row=t24j + 2, column=k).value == 'Transpluto')
+c1 = k3.cell(row=prow, column=tcol)
+v1 = dpl(pk[('J', 'Pollux')], pk[('J', 'Transpluto')], 'RA')
+s1 = (10 * (0.03236 - abs(v1 - 17 * F.PHI)) / 0.03236) ** 2
+r3 = next(r for r in w50['lingfield']['P11'].iter_rows(values_only=True) if r[0] == 'T3' and r[1] == 'H Jupiter → J Ketu')
+v2 = dpl(pl_[('H', 'Jupiter')], pl_[('J', 'Ketu')], 'RA')
+s2 = (10 * (1.5 - v2) / 1.5) ** 2
+rg = next(r for r in w50['kelso']['SKY JUPITER'].iter_rows(values_only=True) if r[0] == 'SKY' and r[1] == 'S Jupiter → S Gonggong')
+v3 = dpl(skk['Jupiter'], skk['Gonggong'], 'RA')
+check(f'T50 by hand from POSITIONS: lost half hit - Kelso P03 T24 JOCKEY J Pollux – J Transpluto RA {v1:.6f} (was 27.5 half 91.23) -> 17×φ '
+      f'{17 * F.PHI:.6f} golden ({s1:.2f}), yellow; conjunction back - Lingfield P11 T3 H Jupiter → J Ketu RA {v2:.6f} (was 1.5 half 55.30) -> '
+      f'conj ({s2:.2f}); nearest off half - Kelso SKY S Jupiter → S Gonggong RA {v3:.6f} (was 21.5 half outside) -> 22.2222 ninth outside ±0.0722',
+      abs(c1.value - v1) < 1e-6 and c1.comment.text.split('\n')[0] == f'17×φ · golden · {v1 - 17 * F.PHI:+.5f} · {s1:.2f}'
+      and c1.fill.start_color.rgb == YELLOW
+      and abs(r3[2] - v2) < 1e-6 and r3[4] == 'conj (conj)' and abs(r3[7] - s2) < 0.006
+      and abs(rg[2] - v3) < 1e-6 and rg[4] == '22.2222 (ninth) — outside ±0.0722' and rg[7] is None,
+      (c1.value, c1.comment.text.split('\n')[0], r3[2:8], rg[2:8]))
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

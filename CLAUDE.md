@@ -36,7 +36,8 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
 - Whole numbers 1–200, ±0.02, checked on the TARGET (Eddie, 27 Oct 2026; families.score_whole_t): t = round(v), 1 <= t <= 200,
   dev = |v − t| < 0.02, squared (10 (0.02 − dev) / 0.02)². (active_vibrations.score_whole, not edited, needs 1 <= v <= 200, so before
   0.98 < v < 1 never scored on 1, e.g. 0.997954 -> now 1 whole 80.59.)
-- HALF (Eddie, 24 Oct 2026; families.score_half): 0.5, 1.5 … 199.5, ±0.01 absolute, squared (10 (0.01 − dev) / 0.01)², family "half",
+- HALF - REMOVED 29 Oct 2026 (Eddie): no half score, never a nearest target; see "half family removed". Text kept for reference:
+  HALF (Eddie, 24 Oct 2026; families.score_half): 0.5, 1.5 … 199.5, ±0.01 absolute, squared (10 (0.01 − dev) / 0.01)², family "half",
   scored alongside the others (best = highest score; nearest by tightness includes the half targets). No 4-digit rule on whole or half.
   Half vs conjunction (Eddie, 24 Oct 2026, kept as built): inside the conjunction range (RA < 1.5, Dec < 0.3) the highest score wins - a
   half 0.5 / 1.5 (RA) can outscore the conjunction, as whole 1 already could; the red fill still marks the range (T24). E.g. Lingfield P11
@@ -126,7 +127,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct; 46 since 20 Oct, 67 since 21 Oct; conjunction cells red, 20 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (145/145; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (146/146; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -808,6 +809,7 @@ REMOVED 29 Oct 2026 (Eddie, workbook trim; see "workbook trimmed"): T24 H / J, T
   events rebuilt, 24 real times within 1 min, 7 not within 1 year by an hourly scan; the 11 nowhere else; Lingfield unchanged: 0 mismatches.
 
 ## families.py: half family and the 4-digit rule (Eddie, 24 Oct 2026; every table follows)
+PARTLY REMOVED 29 Oct 2026 (Eddie): the half family is gone (see "half family removed"); the 4-digit rule and its wording stay. Text kept for reference.
 - Rules in Families above; one change in tools/families.py (active_vibrations.py untouched, wrapped). jupiter_tables.py changed in one line:
   NUM_FAMILIES + 'half' (Claude's choice: NUMBERS lists half numbers too). Half vs conjunction: the highest score wins in the conjunction
   range (Eddie, 24 Oct 2026, kept; examples in Families). Where a digit-family best failed the match the conjunction came back (e.g. Ascot
@@ -905,6 +907,41 @@ REMOVED 29 Oct 2026 (Eddie, workbook trim; see "workbook trimmed"): T24 H / J, T
   99.999999 and one just over as whole. (The ninth targets are written that way in _NINTH_RANGES and the 4-digit rule matches against them;
   e.g. Kelso P01 T8 RA 99.998689 ninth 99.13, whole 100 would be 87.32; Ascot P01 T24 Dec 9.999769 ninth 98.47; right at 10.000000 a 6-dp
   value can read either way (Lingfield P07 T24 Dec / Equator 10.0 ninth 100.0).)
+
+## families.py: half family removed (Eddie, 29 Oct 2026; every table follows)
+- tools/families.py: 'half' out of DEG_FAMILIES, score_family, evaluate / best and outside() (never a nearest target, so never in "outside" /
+  "not a 4-digit match" texts or tightness); score_half and HALF_TOL deleted (nothing else used them). Whole, the 4-digit rule, golden, φ powers,
+  ninths, √2, silver, conjunction, ratios and midpoints unchanged. jupiter_tables.py: no change needed (NUM_FAMILIES went with the trim; its
+  remaining "half" words are the midpoint method's "ratio half" / "distance half"). Frozen readers untouched (never had half).
+- Effects vs 2cc2af2b (Kelso 14:50 2022 / Lingfield 14:35 2021 / rebuilt Ascot 14:30 2012; default = --full), counted by the independent checker:
+  half hits before 1,009 / 372 / 244: T-tables 107 / 75 / 18 -> no score, Lingfield 1 -> conjunction (P11 T3 H Jupiter → J Ketu RA 1.497436);
+  T24 892 / 295 / 226 -> no score, Kelso 7 -> golden (e.g. P03 J Pollux – J Transpluto RA 27.500448: half 91.23 -> 17×φ 65.71), 1 -> √2 (P07 H
+  Difda – H Orcus RA 141.498994: 80.89 -> 141.4 79.25), conjunction back Kelso 2 (P09 H Vindemiatrix – H Makemake RA 1.495272, J Algol – J Rahu RA
+  1.490544), Lingfield 1 (P11 J Alphecca – J Quaoar RA 1.498093, was 65.50), all now conj 0.00 (red as before); Kelso 14 'also' cells lost half.
+  Nearest targets moved off half: 4,209 / 1,611 / 925 (T24 golden 1,391 / 485 / 292, ninth 1,238 / 432 / 280, φ power 677 / 219 / 163, silver
+  175 / 50 / 45, √2 163 / 59 / 24, whole 154 / 60 / 34; T-tables golden 171 / 104 / 31, ninth 145 / 126 / 32, φ power 67 / 49 / 12, silver
+  11 / 9 / 3, √2 11 / 7 / 3, whole 6 / 11 / 6). T24 repeats: Kelso 3 half repeats gone (P03 J Kaus Australis 53.5, P07 H Alphecca 36.5, P11
+  J Betelgeuse 150.5; repeated targets 25 -> 22); Lingfield, Ascot none. SKY STARS rows listed only for three family legs: Kelso 9 dropped
+  (26 -> 17), Ascot 2 (6 -> 4; Sirius – Procyon Equator, Procyon – Alphecca Dec on the 14.5 leg), Lingfield 0; SKY PAIRS / SKY ROYAL unchanged
+  (leg cells: Kelso 52, Lingfield 13, Ascot 26 changed). SKY JUPITER timelines (half events lost, none gained): TIMELINE Kelso 75 -> 72,
+  Lingfield 49 -> 45, Ascot 90 -> 87; LONG Kelso 54 -> 50, Ascot 61 -> 60; STAR Lingfield 5 -> 3, Ascot 66 -> 65; LONG STAR unchanged; no 95 /
+  100 / 95 cell changed. Sizes: Kelso 1.89 -> 1.88 MB, Lingfield 0.78 -> 0.77, Ascot 0.54.
+- Compared cell by cell (chk_nohalf/check_nohalf.py, every sheet, rows aligned): every changed cell named half before or sits in its value
+  group, dropped rows named half, otherwise title counts and timeline follow-ons; no half family text after: 0 unexplained in all three.
+- Tests Tests 146/146. Test 42: '(a) half by hand' retired -> 'half removed' (no half family, score_family raises, no half in evaluate / outside, RA
+  1.497 -> conj); (c) J Rasalhague RA 12.499623 '12.5 (half)' 92.61 -> '12.2222 (ninth) — outside ±0.0722', H Rahu Dec 10.487259 '10.5 (half) —
+  outside ±0.01' -> '11.1111 (ninth) — outside ±0.0611'; (d) compare_half (83850b1c vs b19fac1f, expected 'half 0 -> 66') retired. Old-commit
+  builds that run on today's families.py moved counts (old -> new): T34 Ascot TIMELINE 50 (12 / 5 / 33) -> 47 (10 / 4 / 33), LONG 53 (23 / 30)
+  -> 49 (21 / 28); T36 TIMELINE 90 (29 / 8 / 53) -> 87 (27 / 7 / 53), LONG 108 (47 / 61) -> 104 (45 / 59); T37 Ascot sky LONG 108 (>= 90: 60) -> 61 now 104 (59) -> 60, STAR 66 -> 65, TIMELINE 90 -> 87, P01 LONG J 21 (8) -> 51 now 19 (6) -> 49,
+  TIMELINE J 13 -> 65 now 11 -> 63; T38 Lingfield LONG STAR P05 J 3 -> 2, P07 J 3 -> 2, P09 H 2 -> 1, P11 J 3 -> 2; T39 Ascot STAR 66 -> 65. Test 50 (new): the
+  comparison above in the suite (builds by 2cc2af2b's own tools/ and rebuild_kit/), by hand from POSITIONS: Kelso P03 J Pollux – J Transpluto
+  RA 27.500448 -> 17×φ golden (65.71) yellow; Lingfield P11 T3 H Jupiter → J Ketu RA 1.497436 -> conj; Kelso SKY S Jupiter → S Gonggong RA
+  21.582451 nearest 21.5 half -> 22.2222 ninth.
+- Independent checker (29 Oct), own family code from the rules (chk_nohalf/indep/; only the 48 ninth ranges and the φ-power exponents as data;
+  with half switched on it reproduces the before builds: 0 errors), all three races: no half text (midpoint words excluded); every T1–T8, SKY
+  block and T24 cell recomputed from POSITIONS (Kelso 6,231 value groups + 45,806 T24 cells, Lingfield 3,931 + 15,906, Ascot 1,191 + 10,426),
+  T24 repeats, pair legs (2,919 / 3,231 / 1,344), sky TIMELINE SKY events; before vs after every cell: 0 unexplained; 10 planted errors all
+  caught. Not covered: timing values, T24 midpoint cells (unchanged), pair ratio / midpoint cells, LONG real times.
 
 ## jupiter_tables: workbook trimmed (Eddie, 29 Oct 2026)
 - The workbook is now POSITIONS, SKY JUPITER (whole: SKY block, SKY EQ, SKY PAIRS, SKY STARS, SKY ROYAL, T24 SKY, TIMELINE, LONG TIMELINE,
@@ -1320,6 +1357,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **Half family removed from families.py (29 Oct 2026, Eddie):** see "half family removed". Tests 146/146.
 - **Workbook trimmed (29 Oct 2026, Eddie): POSITIONS, SKY JUPITER, runner T1–T8 + T24 HORSE / JOCKEY (five Jupiter rows on top); no
   summary, --full-only sheets or _pairs workbook:** see "workbook trimmed". Tests 145/145.
 - **"sky hit" moved to the end of the (SKY STARS) tables; exact widths, "never narrower" dropped (27 Oct 2026, Eddie):** see its

@@ -3,7 +3,7 @@
 Eddie's own scoring functions in rebuild_kit/active_vibrations.py are imported (not copied) wherever they exist.
 
   whole      whole numbers 1-200, +-0.02, on the target (27 Oct 2026)    score_whole_t (squared, as score_whole)
-  half       0.5, 1.5 ... 199.5, +-0.01 absolute (Eddie, 24 Oct 2026)    score_half (squared)
+  (half      0.5, 1.5 ... 199.5, +-0.01: added 24 Oct 2026, REMOVED 29 Oct 2026 (Eddie) - not scored, not a nearest target)
   golden     every multiple of phi, +-0.03236, zero multiple not scored score_phi_interval (squared)
   phi power  phi^-1, phi^1..10, 10 phi^-1..7, 100 phi^-1, 100 phi       score_phi_powers (squared); 1/phi^2 forms dropped
   ninth      the 48 _NINTH_RANGES (lower <= v < upper, own tol)          score_ninth (linear). Not n/9.
@@ -30,7 +30,7 @@ Best family = the highest score. No birth-day certainty for now.
 4-DIGIT RULE (Eddie, 24 Oct 2026): golden, phi power, ninth, sqrt2 and silver score only when the value's first 4 significant digits,
 truncated, equal the exact target's, at the same order of magnitude (digits4, digit_match; 2.414 never matches 24.14). Inside the match
 the score is the family's own formula on its own tolerance, unchanged (the tolerance stays as the score scale); outside it no score
-(outside() still names the nearest target). Whole and half keep +-0.02 / +-0.01. Ratios and conjunction unchanged."""
+(outside() still names the nearest target). Whole keeps +-0.02. Ratios and conjunction unchanged."""
 import math, os, sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'rebuild_kit'))
@@ -93,8 +93,7 @@ def interval_tol(lab):
 
 TOL = {lab: interval_tol(lab) for lab, *_ in INTERVALS}
 GREEN, YELLOW = 80.0, 50.0
-DEG_FAMILIES = ('whole', 'half', 'golden', 'phi power', 'ninth', 'sqrt2', 'silver', 'conj')
-HALF_TOL = 0.01                                        # Eddie 24 Oct 2026: half family 0.5 ... 199.5, +-0.01 absolute
+DEG_FAMILIES = ('whole', 'golden', 'phi power', 'ninth', 'sqrt2', 'silver', 'conj')
 DIGIT_FAMILIES = ('golden', 'phi power', 'ninth', 'sqrt2', 'silver')   # Eddie 24 Oct 2026: the 4-digit rule
 
 
@@ -129,15 +128,6 @@ def score_whole_t(v):
     return (10.0 * (0.02 - dev) / 0.02) ** 2, t
 
 
-def score_half(v):
-    """half numbers 0.5 ... 199.5, tol 0.01 absolute, squared (as score_whole) -> (score, target)"""
-    t = math.floor(v) + 0.5
-    if not (0.5 <= t <= 199.5):
-        return 0.0, t
-    dev = abs(v - t)
-    if dev >= HALF_TOL:
-        return 0.0, t
-    return (10.0 * (HALF_TOL - dev) / HALF_TOL) ** 2, t
 ORDER = DEG_FAMILIES + ('interval',)
 
 
@@ -169,9 +159,6 @@ def score_family(v, fam, plane=None, kind='deg'):
     if fam == 'whole':
         s, t = score_whole_t(v)
         return (s, f'{int(t)}', t) if s else (0.0, None, None)
-    if fam == 'half':
-        s, t = score_half(v)
-        return (s, f'{t:g}', t) if s else (0.0, None, None)
     if fam == 'golden':
         k = round(v / PHI)
         s = score_phi_interval(v)
@@ -236,9 +223,7 @@ def outside(v, plane=None, kind='deg'):
         cands = [('interval', lab, t, TOL[lab], name, grp) for lab, t, name, grp in INTERVALS]
     else:
         k = round(v / PHI)
-        h = math.floor(v) + 0.5
         cands = [('whole', f'{round(v)}', float(round(v)), 0.02, '', ''), ('golden', f'{k}×φ', k * PHI, 0.03236, '', '')]
-        cands += [('half', f'{h:g}', h, HALF_TOL, '', '')] if 0.5 <= h <= 199.5 else []
         cands += [('phi power', _phi_power_label(t), t, max(t * 0.005, 0.025), '', '') for t in _PHI_POWER_TARGETS]
         cands += [('ninth', f'{t:g}', t, tol, '', '') for lo, hi, tol, t in _NINTH_RANGES]
         cands += [(f, lab, t, max(t * 0.005, 0.025), '', '') for f, ts in (('sqrt2', SQRT2_T), ('silver', SILVER_T)) for lab, t in ts]
