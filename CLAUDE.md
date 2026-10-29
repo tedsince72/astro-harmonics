@@ -119,12 +119,14 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   layer2 ratios, layer3 every measure per runner, field.txt). Rules, tests and open points: docs/jupiter/README.md. Today's 13 races (12 Oct 2026)
   are run, blind (no results opened).
 - Viewing tool (13 Oct 2026, not a reader): `python3 tools/jupiter_tables.py <race_batch xlsx | reference/classic/<race> folder>` ->
-  race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx (raw Jupiter tables T1–T14, T16–T22 per runner (T15 removed 15 Oct 2026), field matrices, off and +5 min,
+  race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx. TRIMMED 29 Oct 2026 (Eddie): POSITIONS, SKY JUPITER (whole) and per runner T1–T8,
+  T24 HORSE / T24 JOCKEY (with the four Jupiter rows + 'stars' on top) only; --full accepted, no effect; no _pairs workbook. Before the trim:
+  (raw Jupiter tables T1–T14, T16–T22 per runner (T15 removed 15 Oct 2026), field matrices, off and +5 min,
   every family from tools/families.py scored, best = highest score, also (no scaled column since 16 Oct 2026), colours by score; ratios on the interval
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct; 46 since 20 Oct, 67 since 21 Oct; conjunction cells red, 20 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (262/262; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (145/145; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -132,6 +134,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   `python3` is fine (edit `tools/run_layers.sh` if `python3.12` is not on the PATH).
 
 ## jupiter_tables: EQUIDISTANCE (Eddie, 14 Oct 2026; viewing only)
+REMOVED 29 Oct 2026 (Eddie, workbook trim; see "workbook trimmed"): T17, T18, T19, FIELD 17 and P## PAIRS (the _pairs workbook) are gone; SKY EQ and SKY PAIRS on SKY JUPITER kept. Text kept for reference.
 Jupiter equally far from two bodies X, Y: a midpoint hit (rule above: closeness of d(Jup, X), d(Jup, Y) >= 90 % and Jupiter within RA ±0.5 /
 Dec, Equator ±0.15 of the midpoint of X and Y; total = ratio half + distance half), every plane RA, Dec,
 Equator (Equator = | |Dec Jup| − |Dec X| |, listed only when Jupiter, X and Y are not all on the same side of the equator, as midpoints; a
@@ -186,6 +189,7 @@ between / far side; notes "X, Y together" and "(also T17)" (a unison row whose l
   target interval; T17 and T18 unison timing use it too, so a pair has the same exact time in T17, T18 and T19.
 
 ## jupiter_tables: T15 removed, T20 (Eddie, 15 Oct 2026; viewing only)
+REMOVED 29 Oct 2026 (Eddie, workbook trim; see "workbook trimmed"): T20 and FIELD 20 are gone. Text kept for reference.
 - T15 (apex ratios) removed: runner sheets, FIELD 15, P## RATIOS rows, unison field counts. Other tables keep their numbers.
 - T20: natal Jupiter as the midpoint of sky X and natal X. Horse S X / H X | H Jupiter, jockey S X / J X | J Jupiter, every body X in
   the sky and that chart (no stars, no Moon, not Jupiter). Planes RA (closer of near / far, labelled), Dec, Equator (only when not all on
@@ -201,6 +205,7 @@ between / far side; notes "X, Y together" and "(also T17)" (a unison row whose l
   no T15 / FIELD 15: 0 mismatches.
 
 ## jupiter_tables: T21, T22 fixed stars (Eddie, 15 Oct 2026; viewing only)
+REMOVED 29 Oct 2026 (Eddie, workbook trim; see "workbook trimmed"): T21, T22, FIELD 21 / 22 are gone. Text kept for reference.
 All 22 stars; planes RA, Dec, Equator (only when the three straddle the equator). Existing tables unchanged (Lingfield rebuilt and
 compared row by row with the previous version: 0 differences). THREADS and NUMBERS: stars stay out (no T21 / T22).
 - T21: natal Jupiter on natal star pairs (as SKY STARS, natal; each chart's own star positions). One line per star pair and plane,
@@ -237,6 +242,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   42 hits), no 0/n row, T22 unchanged: 0 mismatches.
 
 ## jupiter_tables: SKY cells in T1 / T2, sky side in T21 (Eddie, 15 Oct 2026; viewing only)
+PARTLY REMOVED 29 Oct 2026 (Eddie, workbook trim): the T1 / T2 SKY cells and their "same as sky" tag stay; T21 and its sky side are gone. Text kept for reference.
 - T1 / T2: each row (natal Jupiter → body, star or equator X) has SKY cells S Jupiter → S X in the same plane, after the natal RA / Dec
   cells: value, +5 min, best family (score), group, offset, arrow, also, scaled ×10 / ÷10, exact timing (from the off + 5 min), coloured
   by score. The same SKY cells appear in T1 and T2 beside each natal row. Not in THREADS or NUMBERS.
@@ -261,6 +267,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   without a sky side, all Equator with the sky three on one side): 0 mismatches.
 
 ## jupiter_tables: areas A / B (Eddie, 15 Oct 2026; viewing only)
+PARTLY REMOVED 29 Oct 2026 (Eddie, workbook trim): the area blocks stay only in SKY PAIRS, SKY STARS and SKY ROYAL (SKY JUPITER); T12–T14, T19, T21, T22, P## PAIRS, P## RATIOS and the FIELD sheets are gone. Text kept for reference.
 - Area A "whole + 3/2": intervals 1, 3/2, 2, 3, 4, 5, 6, 7, 8, 9, on ±0.02 absolute (see Families), or a midpoint hit (a midpoint is a
   unison). Area B "other": every other interval on the list (tapered %). Interval list, timing and scores otherwise unchanged.
 - Split into blocks, area A first, then area B, each with its own title and count: T12, T13, T14, T19, T21, T22, SKY PAIRS, SKY STARS,
@@ -308,6 +315,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   blocks, the T21 sky side.
 
 ## jupiter_tables: third area "φ and √2" (Eddie, 15 Oct 2026; viewing only)
+PARTLY REMOVED 29 Oct 2026 (Eddie, workbook trim): as areas A / B - kept on SKY PAIRS, SKY STARS, SKY ROYAL only. Text kept for reference.
 - Area order: A "whole + 3/2" (1, 3/2, 2 … 9, ±0.02 absolute, or a midpoint hit); "φ and √2" (φ, φ², φ³, 1+√2, √2, 1+1/√2; 0.15 % as
   before; families.AREA_P, families.AREAS = A, P, B); B "other" (every remaining interval, taper); then "no hit" / "no ratio or midpoint
   hit" as before. Same tables as the A / B split (T12–T14, T19, T21, T22, SKY PAIRS, SKY STARS, P## PAIRS, P## RATIOS, FIELD 12–14 / 21
@@ -337,6 +345,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   scores under 50 - the ratio's area is not counted (rule as built); counting it would change only P05 T21 A (1 multi-area row instead of 0).
 
 ## jupiter_tables: SKY PAIRS body – royal, T19 sky side (Eddie, 15 Oct 2026; viewing only)
+PARTLY REMOVED 29 Oct 2026 (Eddie, workbook trim): SKY PAIRS body – royal stays; T19 and its sky side are gone. Text kept for reference.
 - SKY PAIRS: new rows S Jupiter on one sky body (Moon included, not Jupiter) and one royal star (Aldebaran, Regulus, Antares,
   Fomalhaut), race-day positions, the T19 cells, timing from the off + 5 min, planes RA, Dec, Equator (straddle rule). Block column
   "body – royal" (body–body rows stay "S–S"); same filter, same area blocks, sorted with the rest. Body–body rows unchanged.
@@ -378,6 +387,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   (Ascot Aldebaran legs: 2 Dec, 4 Equator): 0 mismatches.
 
 ## jupiter_tables: SKY block timing, royal-star-only tables (Eddie, 16 Oct 2026; viewing only)
+PARTLY REMOVED 29 Oct 2026 (Eddie, workbook trim): SKY block timing and SKY ROYAL stay; T21R, T22R, FIELD 21R / 22R are gone. Text kept for reference.
 - SKY JUPITER "SKY" block (S Jupiter → every sky body, star and the equator): four new columns after the planes, "RA timing (best)",
   "RA timing (scaled)", "Dec timing (best)", "Dec timing (scaled)" (moved inside each plane's block the same day, see below): applying / separating and the exact race-local time of the best family
   hit and of the scaled (×10 / ÷10) hit, off -> +5 min linear, the T-table method and wording (exact_time). Empty where there is no hit.
@@ -436,6 +446,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   pair-block texts): 0 mismatches.
 
 ## jupiter_tables: TIMELINE H / TIMELINE J (Eddie, 16 Oct 2026; viewing only)
+REMOVED 29 Oct 2026 (Eddie, workbook trim; see "workbook trimmed"): TIMELINE H / J are gone (the sky TIMELINE stays). Text kept for reference.
 - Two blocks at the end of every runner sheet, built as the sky TIMELINE (window off − 30 / + 60 min, rows, sort, OFF / +5 MIN markers,
   "outside at the off"): every timed relationship involving the horse's chart (H) / the jockey's (J): T5 / T6 S Jupiter → natal X and
   T7 / T8 S X → natal Jupiter (best hit, scaled unless a repeat, or the nearest target outside); T10 / T11 midpoint hits; T12 / T13 rows
@@ -460,6 +471,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   shows 0 min, "separating", 14:34, just above the OFF marker.
 
 ## jupiter_tables: LONG TIMELINE, sky equivalents on TIMELINE H / J (Eddie, 16 Oct 2026; viewing only)
+PARTLY REMOVED 29 Oct 2026 (Eddie, workbook trim): the sky LONG TIMELINE stays; LONG TIMELINE H / J and the sky equivalent cells (runner timelines only) are gone. Text kept for reference.
 - LONG TIMELINE on SKY JUPITER and LONG TIMELINE H / J on every runner sheet (after TIMELINE / TIMELINE H / J): the same sources, rules and
   dedupe, filter = score at the off >= 80, any exact time (no-motion / fixed rows, together rows, automatic unisons left out). Two sections:
   SEPARATING, APPLYING; inside each by score at the off, highest first, ties by exact time (separating most recent first, applying soonest
@@ -482,6 +494,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   0 mismatches; no tag anywhere. Not exercised in this race: a T16 crossing event and a sky midpoint hit on a midpoint-kind event.
 
 ## jupiter_tables: LONG TIMELINE real exact times (Eddie, 16 Oct 2026; viewing only)
+PARTLY REMOVED 29 Oct 2026 (Eddie, workbook trim): real exact times stay on the sky LONG TIMELINE / LONG STAR TIMELINE; the runner LONG TIMELINE H / J are gone. Text kept for reference.
 - LONG TIMELINE (sky and H / J): every event whose linear exact time is more than 60 min from the off gets its real exact time from the
   Swiss Ephemeris (the race engine rebuild_kit/celestial_bodies_swisseph.py, the race's site, as the positions; sky point at m minutes =
   workbook value at the off + engine(m) − engine(off); natal fixed): stepping outward from the off (10 min for a day, then 1 h, up to 1 year
@@ -503,6 +516,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   days) confirmed by an hourly ±1 year scan (no sign change); short TIMELINE still linear: 0 mismatches.
 
 ## jupiter_tables: value scaling removed (Eddie, 16 Oct 2026)
+Note 29 Oct 2026: of the tables named here only T1–T8, the SKY sheet blocks and the sky timelines remain (workbook trim). Text kept for reference.
 - Every "scaled ×10 / ÷10" column, scaled timing cell, scaled THREADS / NUMBERS / TIMELINE hit and "(widens 10x in degrees)" note removed
   (tables, SKY sheets, TIMELINE, THREADS, NUMBERS, FIELD). Value cells per plane are 8 (value, +5, target, group, offset, score, arrow,
   also); the SKY block has one timing column per plane (RA C–K, Dec L–T); T1 / T2 SKY cells 8 + timing. Values, targets, scores and
@@ -531,6 +545,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   0 mismatches.
 
 ## jupiter_tables: T23 ratios of the T1, T2 and SKY distances (Eddie, 16 Oct 2026; viewing only)
+REMOVED 29 Oct 2026 (Eddie, workbook trim; see "workbook trimmed"): T23 and FIELD 23 are gone. Text kept for reference.
 - T23 on every runner sheet, straight after T2: one row per body, star or equator X in both T1 and T2 (not Jupiter), planes RA and Dec
   (equator: Dec, = |Dec| of the Jupiters, scored as T14), three ratios per plane, larger / smaller: H / J = d(H Jupiter, H X) / d(J Jupiter,
   J X) (new, natal, timing "fixed"); S / H = d(S Jupiter, S X) / d(H Jupiter, H X), S / J = d(S Jupiter, S X) / d(J Jupiter, J X) (the
@@ -633,6 +648,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   JOCKEY (1,104: 40 / 41 / 126 / 897, 6) - rows, headers, values, fills, comments: 0 mismatches. Script tools/scans/families_audit/chk_t24/.
 
 ## jupiter_tables: 35 stars in T1, T2, T24; trimmed workbook (Eddie, 19 Oct 2026; viewing only)
+Note 29 Oct 2026 (workbook trim): the --full-only sheets are gone and --full is now the same as the default. Text kept for reference.
 - Engine: 13 more stars in BEHENIAN_STARS (rebuild_kit/celestial_bodies_swisseph.py = ~/astronomy-project copy, identical; Polaris kept):
   Hamal, Pollux, Praesepe ('Praesepe Cluster'), Denebola, Zubenelgenubi, Zubeneschamali ('Zubeneshamali'), Kaus Australis, Nunki, Deneb,
   Sadalsuud, Sadalmelik, Scheat, Markab (sefstars.txt names; all found). Engine J2000 at J2000.0 vs catalogue, all within 0.02°
@@ -684,6 +700,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   TIMELINE / LONG TIMELINE incl.): 0 mismatches. No new-star SKY timing falls in the TIMELINE window (closest Nunki Dec, 601.5 min ago).
 
 ## jupiter_tables: T24 ratio tables (Eddie, 19 Oct 2026; viewing only, natal)
+REMOVED 29 Oct 2026 (Eddie, workbook trim; see "workbook trimmed"): T24 H / J, T24 HORSE RATIOS, T24 JOCKEY RATIOS are gone. Text kept for reference.
 - On each runner sheet after T24 JOCKEY (column A = table id): T24 H / J, T24 HORSE RATIOS, T24 JOCKEY RATIOS (write_t24hj, write_t24r,
   t24r_cell). Rows T1_T2_T24_STARS in RA order (each chart's own star positions; older batches skip missing stars); header row 1 'RA' /
   'Dec' merged, row 2 column names; star column as T24, value columns width 11. Natal, fixed: no +5, no timing; not in THREADS, NUMBERS,
@@ -889,7 +906,49 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   e.g. Kelso P01 T8 RA 99.998689 ninth 99.13, whole 100 would be 87.32; Ascot P01 T24 Dec 9.999769 ninth 98.47; right at 10.000000 a 6-dp
   value can read either way (Lingfield P07 T24 Dec / Equator 10.0 ninth 100.0).)
 
+## jupiter_tables: workbook trimmed (Eddie, 29 Oct 2026)
+- The workbook is now POSITIONS, SKY JUPITER (whole: SKY block, SKY EQ, SKY PAIRS, SKY STARS, SKY ROYAL, T24 SKY, TIMELINE, LONG TIMELINE,
+  STAR TIMELINE, LONG STAR TIMELINE) and one sheet per runner with T1, T2, T3, T4, T5, T6, T7, T8, T24 HORSE, T24 JOCKEY only (S Jupiter column,
+  midpoints, repeats, red, widths, freeze C4 as before). Removed: T9, T10, T11, T12, T13, T14, T16, T17, T18, T19, T20, T21, T21R, T22, T22R,
+  T23, T24 H / J, T24 HORSE / JOCKEY RATIOS, T24 HORSE / JOCKEY (SKY STARS), TIMELINE H / J, LONG TIMELINE H / J, STAR TIMELINE H / J, LONG STAR
+  TIMELINE H / J; the SKY STARS SUMMARY sheet; every --full-only sheet (P## RATIOS, P## NUMBERS, THREADS, FIELD NUMBERS, every FIELD sheet);
+  the _pairs workbook (P## PAIRS). --full is accepted and changes nothing (run_card_swiss.py --tables unchanged apart from its help text;
+  rebuild_kit copy = ~/astronomy-project copy). The sections above marked REMOVED / PARTLY REMOVED keep their text for reference.
+- T24 HORSE / JOCKEY: five rows straight after the two header rows, before the star rows (column A 'T24'): 'S Jupiter → S body' (the T1 / T2
+  SKY cells), 'H Jupiter → H body' (J on JOCKEY; T1 / T2), 'S Jupiter → H body' (T5 / T6), 'S body → H Jupiter' (T7 / T8), then 'stars' (bold,
+  grey D9D9D9 from A to the repeats column - before it ran to the sky hit column of the (SKY STARS) table). Same cells, format and blanks as on
+  the (SKY STARS) tables; the Jupiter column on the last two = d(S Jupiter, natal Jupiter), computed directly (t24_jrows; T9 gone), same value.
+  Out of the repeats, midpoints and title counts. The T24 titles are unchanged (no note added, so the kept tables stay identical).
+- Code: 96 top-level definitions that only fed the removed sheets deleted from tools/jupiter_tables.py (3,680 -> about 1,640 lines; found by a
+  reachability scan from main()), e.g. write_t23, write_t21 / write_t22, write_t20, write_cross, write_t18, write_mids, runner_timeline,
+  sky_equiv, write_t24hj / write_t24r / t24r_cell, write_t24ss / summary_sheet, threads / numbers / ratio / FIELD sheet writers, pairs_sheet,
+  NUM_FAMILIES; write_pairs lost its THREADS / NUMBERS feeds; the runner timeline context (ctx.t) and the unused Ephem(ctx) are gone (the sky
+  timelines use ctx.x, unchanged). Left as is: the runner sheet's row-2 note (it still names T10, T11, T17-T20) so the kept rows stay identical.
+  chk_sjcol/check_sjcol.py (test 46's old checker) imports names that are gone; that check is retired.
+- Compared with acf68341 (chk_trim/check_trim.py), Kelso 14:50 2022, Lingfield 14:35 2021, rebuilt Ascot 14:30 2012, default and --full: 0
+  mismatches. Kelso: POSITIONS + SKY JUPITER 94,654 cells, runner blocks 334,080, five-row cells 2,592 (Lingfield 41,734 / 206,016 / 2,592; Ascot
+  83,259 / 55,680 / 432). Columns BD-DB on runner sheets lose the widths only the removed tables set (51 columns, nothing in them now).
+  Default = --full (sheet, comment, style and workbook XML identical).
+- Sizes (tables default / --full + pairs -> tables): Kelso 4.99 / 5.20 + 2.95 -> 1.89 MB; Lingfield 2.47 / 2.68 + 2.85 -> 0.78 MB; rebuilt
+  Ascot 1.05 / 1.11 + 0.49 -> 0.54 MB.
+- Tests 145/145 (was 262: 110 check sites retired). Retired in place (comment '# retired 29 Oct 2026 (Eddie, workbook trim): ...'): 110 check sites - tests 2 (T14, RATIOS),
+  4 (T16, FIELD 16), 5, 6 (T12 / T13 unisons, RATIOS, FIELD 12), 7 (T12 / T13), 8 (THREADS), 9 (NUMBERS, FIELD NUMBERS), 10 (T10 / T11, FIELD
+  10 / 11), 11 / 12 (T17, FIELD 17), 13 (T18), 14 (T19, P## PAIRS), 15 (T11, THREADS, T15), 16 (T20), 17 (T21 / T22), 18 (T21 sky side), 21
+  (T19 sky side), 22 (T19 together), 23 (T21R / T22R, FIELD 21R / 22R), 25 (TIMELINE H / J), 26 (LONG H / J, sky equivalents), 27 (T23), 32
+  (T24 ratio tables), 34 / 36 (RATIOS cases), 35 (T24 H / J red), 37 (runner star events), 40 (T24 STAR SELECT removal), 44 ((SKY STARS) +
+  summary), 46 (check_sjcol), 47 (summary display), 48 (sky hit move). Adapted (20): the T24 readers skip the five rows; tests 14, 15, 19, 22,
+  23, 26, 28, 30, 34, 35, 36, 37, 38 keep their SKY JUPITER / T1 / T2 / T24 parts only; old-vs-old comparisons drop their pairs part; test 46's
+  by-hand cells now read T24 HORSE itself (+ a layout check). Kept unchanged: POSITIONS, SKY JUPITER, T1-T8, T24 and families checks. Test 49
+  (new): the comparison above in the suite (builds by acf68341's code), default = --full, no pairs workbook, Kelso P01 T24 HORSE five rows and
+  Jupiter RA 167.634941 = d(S Jupiter, H Jupiter) from POSITIONS.
+- Independent checker (29 Oct), own code (chk_trim/indep/), Kelso default and --full: sheets / column A (6,012 cells), POSITIONS + SKY
+  JUPITER 94,654 cells, kept runner tables 336,168 cells after the shift, five rows: 2,256 distances recomputed from POSITIONS, 3,144 cells = the
+  before (SKY STARS) rows, 2,256 fills, 48 Jupiter cells = T9, title counts; default = --full 445,438 cells: 0 mismatches; 16 planted errors all
+  caught (also run on Lingfield and Ascot: 0 mismatches).
+- Untracked reference/classic/*_pairs.xlsx files from earlier builds are left on disk (stale; not written any more).
+
 ## jupiter_tables: T24 HORSE / JOCKEY (SKY STARS), SKY STARS SUMMARY (Eddie, 27 Oct 2026; viewing only)
+REMOVED 29 Oct 2026 (Eddie, workbook trim; see "workbook trimmed"): both (SKY STARS) tables and the SKY STARS SUMMARY sheet are gone. Text kept for reference.
 - Selection (once per race; sky_star_select): every star of T1_T2_T24_STARS whose S Jupiter → S star cell in the SKY block (SKY JUPITER)
   scores in RA or Dec (any score: conjunction, whole, half, 4-digit hit, as on the sheet); bodies and the equator out; T24 (RA) order; a
   star in both planes once; a star missing from a chart skipped quietly. Selected stars are kept on ctx.skysel.
@@ -931,6 +990,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   Lingfield have one each), a selected star missing from a chart.
 
 ## jupiter_tables: sky hit moved to the end of the (SKY STARS) tables, exact widths (Eddie, 27 Oct 2026; layout only)
+REMOVED 29 Oct 2026 (Eddie, workbook trim; see "workbook trimmed"): the (SKY STARS) tables and the summary are gone. Text kept for reference.
 - T24 HORSE / JOCKEY (SKY STARS) (runner sheets) and the SKY STARS SUMMARY: "sky hit" moved from column C to the last column, after SCORES
   Dec (DB with 24 bodies + S Jupiter); the copied T24 part sits in the same columns as T24 HORSE / JOCKEY (C onward: Ketu, S Jupiter, RA
   midpoints, Dec midpoints, repeats as in T24), SCORES RA / Dec right after the repeats column. Cells, fills, comments, outlines unchanged;
@@ -951,6 +1011,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   mismatches; 10 planted errors all found.
 
 ## jupiter_tables: summary header rows, grey 'stars' rows, widths (Eddie, 27 Oct 2026; display only)
+REMOVED 29 Oct 2026 (Eddie, workbook trim; see "workbook trimmed"): the summary and the (SKY STARS) tables are gone. Text kept for reference.
 - SKY STARS SUMMARY: rows 1-2 = a copy of the first table's two header rows (values, styles, merges); everything else two rows lower;
   freeze panes C3 (summary only; runner sheets C4 as before).
 - Every 'stars' separator row of T24 HORSE / JOCKEY (SKY STARS) (runner sheets and summary): light grey D9D9D9 from column A to the last
@@ -967,6 +1028,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   errors all found; every width change listed above, each = the 35255b16 width.
 
 ## jupiter_tables: T24 "S Jupiter" column, four Jupiter rows on the (SKY STARS) tables (Eddie, 27 Oct 2026; viewing only)
+PARTLY REMOVED 29 Oct 2026 (Eddie, workbook trim): the S Jupiter column stays; the (SKY STARS) tables and the summary are gone, and the four Jupiter rows (+ "stars") now sit on top of T24 HORSE / JOCKEY themselves, the Jupiter cell computed directly (T9 gone). Text kept for reference.
 - T24 HORSE / T24 JOCKEY (every runner sheet), every star row: column "S Jupiter" straight after Ketu in the RA body columns (before "RA
   midpoints") and after Ketu in the Dec body columns (before "Dec midpoints"); cell = d(S Jupiter, S star) at the off = the SKY block value
   (ctx.skycells), T24 cell format (6 dp, best-family fill, red inside the conjunction range, comment 'target · family · offset · score' or the
@@ -1024,6 +1086,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   hand: 0 mismatches. Not exercised: a tie in target order.
 
 ## jupiter_tables: sky star timelines trimmed, 95 / 100 / 95 times, T24 STAR SELECT (Eddie, 22 Oct 2026; viewing only)
+Note 29 Oct 2026 (workbook trim): the sky STAR / LONG STAR TIMELINE stay; T24 STAR SELECT was already removed 22 Oct. Text kept for reference.
 - T24 STAR SELECT REMOVED (Eddie, 22 Oct 2026, the same day; no reason given): the runner sheets no longer carry it (write_t24sel,
   star_select, SEL_NOTE and t24r_cell's tags parameter gone; t24r_cell = its 19 Oct form). The trimmed sky STAR / LONG STAR TIMELINE and the
   95 / 100 / 95 columns stay. Compared with the build before (commit 0ad7d2e5; chk_rmsel/compare_rmsel.py), both races default and --full:
@@ -1084,6 +1147,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   order (RA order of the earlier star, then the other) is Claude's choice.
 
 ## jupiter_tables: LONG STAR TIMELINE (Eddie, 22 Oct 2026; viewing only)
+PARTLY REMOVED 29 Oct 2026 (Eddie, workbook trim): the sky LONG STAR TIMELINE stays; LONG STAR TIMELINE H / J are gone. Text kept for reference.
 - SKY JUPITER "LONG STAR TIMELINE" straight after STAR TIMELINE, and on each runner sheet "LONG STAR TIMELINE H" / "LONG STAR TIMELINE J"
   straight after STAR TIMELINE H / J: the LONG TIMELINE (H / J) rows between Jupiter and stars only (star_event, as STAR TIMELINE), the same
   cells (score >= 90, real engine time beyond 60 min, linear estimate, "from the off" text, "also", sky-equivalent columns and "H + J" on
@@ -1105,6 +1169,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   on the unrounded score; test 38's own sort check reads the shown scores only.
 
 ## jupiter_tables: all 67 stars in every timeline, STAR TIMELINE, LONG >= 90 (Eddie, 22 Oct 2026; viewing only)
+PARTLY REMOVED 29 Oct 2026 (Eddie, workbook trim): the sky TIMELINE, STAR TIMELINE and LONG >= 90 stay; the runner TIMELINE H / J, LONG H / J and STAR TIMELINE H / J are gone. Text kept for reference.
 - Runner TIMELINE H / J and LONG TIMELINE H / J take star events for the 67 stars (T1_T2_T24_STARS), off-sheet, after every table source
   (runner_timeline(..., stars=...); an event a table source already has keeps its name, the star source goes in "also"), in this order:
   "S Jup→star" (S Jupiter → natal star, RA / Dec, best hit or nearest target, as T5 / T6), "star→Jup" (sky star → natal Jupiter, as T7 / T8),
@@ -1199,6 +1264,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   H Ras Algethi – H Juno RA 1.002087 (best whole 1, 80.21), T24 JOCKEY J Alkes – J Juno RA 1.395620 (best √2, 6.57).
 
 ## jupiter_tables: T24 conjunction red (Eddie, 20 Oct 2026; display only)
+Note 29 Oct 2026 (workbook trim): T24 H / J is gone; red stays on T24 SKY / HORSE / JOCKEY. Text kept for reference.
 - T24 SKY / HORSE / JOCKEY (every star row, every body column) and the two distance columns of T24 H / J: a distance inside the
   conjunction tolerance (RA < 1.5, Dec < 0.3) is filled red (FF8080, RED in jupiter_tables.py) instead of its score fill. Values, comments
   ('0 · conjunction (RA < 1.5) · … · score'), midpoint outlines and comment lines, the midpoint columns, the H / J ratio cells, T24 HORSE /
@@ -1222,6 +1288,7 @@ compared row by row with the previous version: 0 differences). THREADS and NUMBE
   same counts, 0 mismatches.
 
 ## jupiter_tables: THREADS and NUMBERS sheets (Eddie, 13 Oct 2026; viewing only)
+REMOVED 29 Oct 2026 (Eddie, workbook trim; see "workbook trimmed"): THREADS, P## NUMBERS and FIELD NUMBERS are gone. Text kept for reference.
 (16 Oct 2026: value scaling removed - the scaled lines, scaled hits and the repeat rule below are gone; see "No value scaling".)
 Common to both: a "repeat" is the same hit seen in two forms of one value (main v and scaled ×10 / ÷10) on the same family with the
 same digits (target ×10 or ÷10, e.g. ninth 11.1111 / 1.11111, √2 14.14 / 1.414). Only one form is shown: the main form, unless the
@@ -1253,6 +1320,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **Workbook trimmed (29 Oct 2026, Eddie): POSITIONS, SKY JUPITER, runner T1–T8 + T24 HORSE / JOCKEY (five Jupiter rows on top); no
+  summary, --full-only sheets or _pairs workbook:** see "workbook trimmed". Tests 145/145.
 - **"sky hit" moved to the end of the (SKY STARS) tables; exact widths, "never narrower" dropped (27 Oct 2026, Eddie):** see its
   section. Tests 262/262.
 - **SKY STARS SUMMARY header rows + freeze C3, grey 'stars' rows, widths never narrower (27 Oct 2026, Eddie):** see its section.
