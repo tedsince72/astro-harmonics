@@ -173,11 +173,29 @@ for P in runners:
             rows = [g for g in got if g[1].value == sec]
             if sec != 'EXACT' and any(x[1].value != 'RATIO' for x in got[len(got) - len(rows):]):
                 err(P, tid, 'sections not in order')
-            sk_ = [(-g[20].value,) if sec == 'EXACT' else (g[3].value, -g[20].value) for g in rows]
+            # order (Eddie, 30 Oct 2026, revised): sky cell score highest first, sky cells kept together (ties: SKY block order); RATIO by q, then
+            # p; then T24 score highest first, then T24 order (shown 2-dp scores)
+            sidx = {(x[0], x[1]): i for i, x in enumerate(sky)}
+            tidx = {(x[0], x[1], x[2]): i for i, x in enumerate(t24)}
+            qp = lambda g: tuple(reversed([int(z) for z in str(g[2].value).split('/')])) if '/' in str(g[2].value) else (1, 1)
+            sk_ = [(-g[12].value, sidx[(g[7].value, g[8].value)]) + ((qp(g)) if sec == 'RATIO' else ()) + (-g[19].value, tidx[(g[13].value, g[14].value, g[15].value)])
+                   for g in rows]
             if sk_ != sorted(sk_):
-                err(P, tid, sec, 'order')
+                err(P, tid, sec, 'order', next(i for i in range(len(sk_) - 1) if sk_[i] > sk_[i + 1]))
         # against the before MATCH block (old layout): EXACT rows identical after the 2-column shift, RATIO rows a subset
-        if bm0 is not None:
+        newlay = bm0 is not None and b.cell(row=bm0 + 1, column=6).value == 'circle factor'
+        if newlay:                                         # before already on the 21-column layout: the same rows, cell for cell, any order
+            br = bm0
+            while b.cell(row=br, column=1).value != tid:
+                br += 1
+            br, bro = br + 2, []
+            while b.cell(row=br, column=1).value == tid:
+                bro.append(tuple(sig(b.cell(row=br, column=k)) for k in range(1, 22))); br += 1
+            if sorted(bro, key=str) != sorted([tuple(sig(c) for c in g) for g in got], key=str):
+                err(P, tid, 'rows differ from before (as a set)')
+            moved = sum(1 for x, g in zip(bro, got) if x != tuple(sig(c) for c in g))
+            print(f'{P} {tid}: same {len(bro)} rows as before, {moved} in a new position')
+        elif bm0 is not None:
             br, bt = bm0, None
             while bt != tid:
                 while b.cell(row=br, column=1).value != tid:

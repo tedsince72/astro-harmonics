@@ -909,6 +909,18 @@ PARTLY REMOVED 29 Oct 2026 (Eddie): the half family is gone (see "half family re
   value can read either way (Lingfield P07 T24 Dec / Equator 10.0 ninth 100.0).)
 
 ## jupiter_tables: MATCH HORSE / MATCH JOCKEY (Eddie, 30 Oct 2026; viewing only)
+- ORDER REVISED (Eddie, 30 Oct 2026, same day; rules, rows and cells unchanged): both sections (EXACT, then RATIO) by the sky cell's score,
+  highest first, each sky cell's matches together (ties between sky cells: SKY block order, RA cell before Dec of a row); inside a sky cell
+  RATIO by q of p/q (whole-number ratios first), then p; then the T24 score, highest first, then T24 order (Jupiter rows, then star rows;
+  RA then Dec; body order). Title states it. Vs 38b450d9: the same rows cell for cell, only positions moved (Kelso 1,043 of 1,080 MATCH rows,
+  Lingfield 100 of 151, Ascot 201 of 204). Kelso P01 MATCH HORSE now opens RATIO with S Jupiter → S Aldebaran RA 69.998800 70 (88.36, the top
+  sky score): 2/1 H Capella – H Mercury Dec 34.999580 35 (95.84), 2/1 H Algorab – H Transpluto RA 34.985624 (7.91), 7/1 H Aculeus – H Saturn RA
+  10, 7/1 H Jupiter → H body Eris Dec 10, then 14/1, 7/2, 7/3, 7/4, 7/5 ...; EXACT opens with S Fomalhaut Dec 28 (83.46). Test 51 compares
+  38b450d9 -> now (same rows as a set) and checks the order rule. Tests 148/148. Independent checker (30 Oct), own code
+  (chk_match/indep/check_order.py), all three races: outside the MATCH rows identical (Kelso 299,454 cells; titles differ only in the order
+  wording), the same rows cell for cell, the order rebuilt from POSITIONS with unrounded scores = every sheet row by row (2-dp scores give the
+  same order): 0 mismatches; 7 planted order errors all caught. Not exercised: two sky cells with the same score (none in these races).
+  T24-score ties in Kelso: 3, each the same d(S Jupiter, J Jupiter) twice - T24 order puts 'S Jupiter → J body' before 'S body → J Jupiter'.
 - RATIO TIGHTENED (Eddie, 30 Oct 2026, same day; EXACT unchanged): whole - a ratio row only when the circle factor gcd(A, B, 360) >= 5 (no
   fraction cap); new columns after 'shared factor': 'circle factor' and 'slice of 360' (1/(360 / circle factor)); golden - gcd of the
   multipliers >= 2 AND p, q <= 6 for the ratio in lowest terms (circle columns blank). Sort unchanged; the title gives the rules and
@@ -1415,7 +1427,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 
 ## Where we are (13 Oct 2026)
 - **MATCH HORSE / MATCH JOCKEY on every runner sheet (30 Oct 2026, Eddie), RATIO tightened the same day (whole circle factor >= 5, golden
-  p, q <= 6):** see its section. Tests 148/148.
+  p, q <= 6), re-ordered by sky cell score the same day:** see its section. Tests 148/148.
 - **Half family removed from families.py (29 Oct 2026, Eddie):** see "half family removed". Tests 146/146.
 - **Workbook trimmed (29 Oct 2026, Eddie): POSITIONS, SKY JUPITER, runner T1–T8 + T24 HORSE / JOCKEY (five Jupiter rows on top); no
   summary, --full-only sheets or _pairs workbook:** see "workbook trimmed". Tests 145/145.

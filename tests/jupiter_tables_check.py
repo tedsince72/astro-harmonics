@@ -2334,24 +2334,26 @@ check(f'T50 by hand from POSITIONS: lost half hit - Kelso P03 T24 JOCKEY J Pollu
 # also checked against 9e5d5ea5 through it. Kelso, Lingfield, rebuilt Ascot (chk_match/check_match.py).
 print('test 51: MATCH HORSE / MATCH JOCKEY')
 os.makedirs(f'{tmp}/after51', exist_ok=True)
-os.makedirs(f'{tmp}/ha76', exist_ok=True)
-subprocess.run(f'git archive a76a3e99 tools rebuild_kit | tar -x -C {tmp}/ha76', shell=True, check=True)
+os.makedirs(f'{tmp}/h38b', exist_ok=True)       # 30 Oct 2026 (order revised): before = 38b450d9 (tightened RATIO, old order)
+subprocess.run(f'git archive 38b450d9 tools rebuild_kit | tar -x -C {tmp}/h38b', shell=True, check=True)
 out51, out51b = {}, {}
 for n, inp in INP50.items():
-    bo, ao = f'{tmp}/ha76/{n}_jupiter_tables.xlsx', f'{tmp}/after51/{n}_jupiter_tables.xlsx'           # before = a76a3e99 (first MATCH rule)
-    subprocess.run([sys.executable, f'{tmp}/ha76/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
+    bo, ao = f'{tmp}/h38b/{n}_jupiter_tables.xlsx', f'{tmp}/after51/{n}_jupiter_tables.xlsx'
+    subprocess.run([sys.executable, f'{tmp}/h38b/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
     subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
     out51[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_match/check_match.py', bo, ao], capture_output=True, text=True).stdout
     out51b[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_match/check_match.py', f'{tmp}/after50/{n}_jupiter_tables.xlsx', ao],
                                capture_output=True, text=True).stdout
 cnt51 = {n: [l for l in o.splitlines() if 'MATCH' in l and ': SKY ' in l] for n, o in out51.items()}
 print('T51 counts:', cnt51)
-check('T51 against the builds before (commits a76a3e99, first MATCH rule, and 9e5d5ea5, no MATCH), Kelso, Lingfield, rebuilt Ascot '
+check('T51 against the builds before (commits 38b450d9, tightened RATIO in the old order: the same rows cell for cell, only the order differs; '
+      'and 9e5d5ea5, no MATCH), Kelso, Lingfield, rebuilt Ascot '
       '(chk_match/check_match.py): every other cell, merge, width and freeze identical; MATCH HORSE then MATCH JOCKEY after T24 JOCKEY; rebuilt '
       'from the SKY block cells and the T24 cells on the sheet (scoring, no conjunction; T24 star rows x body columns without S Jupiter, Jupiter '
       'rows without S Jupiter → S body) on the tightened rules (whole circle factor gcd(A, B, 360) >= 5 with circle factor and slice of 360; '
-      'golden p, q <= 6): every pair, none missing or extra, every cell, score fills, title counts, EXACT by lower score, RATIO by ratio then '
-      'lower score; vs a76a3e99 the EXACT rows identical (the two new columns blank) and every RATIO row one of the old rows',
+      'golden p, q <= 6): every pair, none missing or extra, every cell, score fills, title counts; ORDER (revised 30 Oct 2026): both sections '
+      'by the sky cell score, highest first, each sky cell together (ties SKY block order), RATIO by q then p of p/q, then the T24 score, '
+      'highest first, then T24 order',
       all(line(o, 'mismatches:') == 'mismatches: 0' for o in list(out51.values()) + list(out51b.values()))
       and all(len(v) == 2 * {'kelso': 6, 'lingfield': 6, 'ascot': 1}[n] for n, v in cnt51.items()),
       {n: (line(o, 'mismatches:'), line(out51b[n], 'mismatches:')) for n, o in out51.items()})
@@ -2400,6 +2402,17 @@ odd = [(x, b, pl, round(v)) for x in JT.T1_T2_T24_STARS if ('H', x) in p51 for b
 left = [o for o in odd if ('RATIO', 'S Jupiter → S Rukbat', 'RA', f'H {o[0]}', o[1], o[2]) in M51 or ('EXACT', 'S Jupiter → S Rukbat', 'RA', f'H {o[0]}', o[1], o[2]) in M51]
 cases.append((f'left out (gcd 1): S Rukbat RA 68 whole against {len(odd)} whole T24 HORSE cells on targets coprime to 68 (e.g. {odd[0][:3]} {odd[0][3]}): '
               'none listed', odd and not left))
+# order (30 Oct 2026, revised): the top-scoring sky cell S Jupiter → S Aldebaran RA (70 whole) opens RATIO: 2/1 against 35 (H Capella – H Mercury
+# Dec, then H Algorab – H Transpluto RA, by T24 score), then 7/1 against 10; EXACT opens with the best sky cell that has one, S Fomalhaut Dec 28
+rr51 = [r for r in m51 if r[1] == 'RATIO']
+ex51 = [r for r in m51 if r[1] == 'EXACT']
+va, vc, vt = sd('Aldebaran', 'RA'), hd('Capella', 'Mercury', 'Dec'), hd('Algorab', 'Transpluto', 'RA')
+sca, scc, sct = (sq(.02, abs(v - t)) for v, t in ((va, 70), (vc, 35), (vt, 35)))
+cases.append((f'order: RATIO opens with S Aldebaran RA {va:.6f} 70 ({sca:.2f}, the top sky score) - 2/1 H Capella – H Mercury Dec {vc:.6f} '
+              f'({scc:.2f}), 2/1 H Algorab – H Transpluto RA {vt:.6f} ({sct:.2f}), then 7/1; EXACT opens with S Fomalhaut Dec 28',
+              [(r[2], r[13], r[14]) for r in rr51[:3]] == [('2/1', 'H Capella', 'Mercury'), ('2/1', 'H Algorab', 'Transpluto'), ('7/1', 'H Aculeus', 'Saturn')]
+              and all(r[7] == 'S Jupiter → S Aldebaran' and r[8] == 'RA' for r in rr51[:3]) and rr51[0][12] == max(r[12] for r in m51)
+              and scc > sct and ex51[0][7:9] == ('S Jupiter → S Fomalhaut', 'Dec')))
 check('T51 by hand from POSITIONS (Kelso P01 MATCH HORSE): ' + '; '.join(c for c, _ in cases), all(ok for _, ok in cases), [c for c, ok in cases if not ok])
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')

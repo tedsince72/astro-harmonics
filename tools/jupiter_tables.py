@@ -793,8 +793,12 @@ def match_pairs(sky, t24):
                         ratio.append((f'{hi // g}/{lo // g}', hi / lo, f'{g}', cf, f'1/{360 // cf}', s, t, low))
                 elif g >= 2 and hi // g <= MATCH_GOLDEN_MAX and lo // g <= MATCH_GOLDEN_MAX:
                     ratio.append((f'{hi // g}/{lo // g}', hi / lo, f'{g}×φ', None, None, s, t, low))
-    exact.sort(key=lambda r: -r[7])                        # stable: SKY block order, then T24 order
-    ratio.sort(key=lambda r: (r[1], -r[7]))
+    # order (Eddie, 30 Oct 2026, revised): the sky cell's score, highest first (each sky cell's matches together; ties: SKY block order);
+    # RATIO inside a sky cell by q, then p of p/q (whole-number ratios first); then the T24 score, highest first; then T24 order
+    si, ti = {id(x): i for i, x in enumerate(sky)}, {id(x): i for i, x in enumerate(t24)}
+    pq = lambda r: tuple(int(z) for z in r[0].split('/'))
+    exact.sort(key=lambda r: (-r[5][5], si[id(r[5])], -r[6][6], ti[id(r[6])]))
+    ratio.sort(key=lambda r: (-r[5][5], si[id(r[5])], pq(r)[1], pq(r)[0], -r[6][6], ti[id(r[6])]))
     return exact, ratio
 
 
@@ -802,11 +806,13 @@ MATCH_NOTE = ('every scoring cell of the SKY block (SKY JUPITER: S Jupiter → e
               'scoring cell of T24 {who} (star rows × body columns, not the S Jupiter column; the Jupiter rows {C} Jupiter → {C} body, S Jupiter → '
               '{C} body, S body → {C} Jupiter incl. their Jupiter cell, not S Jupiter → S body), either plane with either plane; scoring = the '
               "cell's best family has a score (any score); conjunction cells (target 0) left out. EXACT: same family and same target, or across "
-              'families the two values (6 dp) with the same first 4 significant digits, truncated, at the same order of magnitude; sorted by the '
-              'lower score, highest first. RATIO (same family, whole and golden only; tightened 30 Oct 2026): whole - kept only when the circle '
+              'families the two values (6 dp) with the same first 4 significant digits, truncated, at the same order of magnitude; order below. '
+              'RATIO (same family, whole and golden only; tightened 30 Oct 2026): whole - kept only when the circle '
               'factor gcd(A, B, 360) >= 5 (the largest number dividing both targets and 360; slice of 360 = 1/(360 / circle factor)), shared '
               'factor = gcd(A, B); golden n×φ - the two multipliers share a factor >= 2 and the ratio in lowest terms p/q has p, q <= 6; ratio = '
-              'larger / smaller in lowest terms; sorted by ratio, lowest first, ties by the lower score. Ninths, φ powers, √2, silver: exact only. Score cells coloured by their score as the source cells')
+              'larger / smaller in lowest terms. ORDER (30 Oct 2026, revised): both sections by the sky cell\'s score, highest first, each sky '
+              'cell\'s matches together (ties: SKY block order); inside a sky cell, RATIO by the bottom number q of p/q, smallest first (whole-number '
+              'ratios first: 2, 3, 4 ..., then 3/2, 5/2 ..., then 4/3, 5/3 ...), then by p; then the T24 score, highest first, then T24 order. Ninths, φ powers, √2, silver: exact only. Score cells coloured by their score as the source cells')
 
 
 def write_match(ws, row, who, sky, t24):
