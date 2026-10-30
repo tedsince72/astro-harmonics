@@ -909,6 +909,26 @@ PARTLY REMOVED 29 Oct 2026 (Eddie): the half family is gone (see "half family re
   value can read either way (Lingfield P07 T24 Dec / Equator 10.0 ninth 100.0).)
 
 ## jupiter_tables: MATCH HORSE / MATCH JOCKEY (Eddie, 30 Oct 2026; viewing only)
+- GROUPED BY SKY CELL (Eddie, 30 Oct 2026, same day; rules, rows and cells unchanged vs 8f42f04e; supersedes the two-section order below):
+  one list per table, grouped by sky cell (SKY block relationship + plane), each group under a header row, light grey D9D9D9 from A to U (21
+  columns), column B '<sky relationship> <plane> <value> <target> <family> (<score>) — EXACT n, RATIO m' (bold, Claude's choice; column A the
+  table id), e.g. Ripon 15:25 16 Jun 2022 P01 'S Jupiter → S Murzim RA 90.000720 90 whole (92.93) — EXACT 1, RATIO 42'. Groups by the sky score,
+  highest first (ties: SKY block order, RA before Dec of a row); inside a group EXACT (T24 score highest first, then T24 order), then RATIO
+  (q, p, T24 score, T24 order); section column EXACT / RATIO on every row; no blank rows between groups, two between MATCH HORSE and MATCH
+  JOCKEY. Title: ORDER sentence replaced; totals '..., k sky cells'. Ripon batch copied into reference/classic from
+  ~/astronomy-project/racecards/20220616_ripon (xlsx only, csv not copied).
+  Vs 8f42f04e (chk_match/check_match.py): the same rows cell for cell; data rows in a new position (header rows not counted) Kelso 725 of
+  1,080 (145 groups), Lingfield 40 of 151 (43), Ascot 203 of 204 (18), Ripon 1,362 of 1,419 (107). Ripon P01 MATCH HORSE (13 groups): Murzim RA 90
+  group EXACT 1 (H Alnilam – H Mars RA 90.005287) + RATIO 42; Facies Dec 25 group EXACT 3 (H Markab, H Algenib, H Acumen – Neptune Dec) + RATIO
+  17; first group S Wezen Dec 17×φ (97.80) EXACT 1. Kelso P01 MATCH HORSE opens with the S Aldebaran RA 70 group (EXACT 0). Sizes: Kelso 2.00 ->
+  2.02 MB, Lingfield 0.80, Ascot 0.56, Ripon 1.49 -> 1.50.
+  Tests 148/148: test 51 compares 8f42f04e -> now on Kelso, Lingfield, rebuilt Ascot and Ripon (same rows, every one of them counted; the grouped
+  order, header rows, title) and by hand the Ripon groups above.
+  Independent checker (30 Oct), own code from POSITIONS (chk_match/indep/check_grouped.py, plants_grouped.py), all four races: outside
+  MATCH identical (Kelso 260,754, Lingfield 147,664, Ascot 110,704, Ripon 200,096 cells), the same match rows cell for cell, the order rebuilt
+  with unrounded scores = every sheet row by row incl. header rows (2-dp scores give the same order), header text / counts / grey A to U,
+  blank-row layout, title totals: 0 mismatches; 15 planted errors all caught. No ties between sky cells; 3 T24-score ties in Kelso (as before),
+  decided by T24 order.
 - ORDER REVISED (Eddie, 30 Oct 2026, same day; rules, rows and cells unchanged): both sections (EXACT, then RATIO) by the sky cell's score,
   highest first, each sky cell's matches together (ties between sky cells: SKY block order, RA cell before Dec of a row); inside a sky cell
   RATIO by q of p/q (whole-number ratios first), then p; then the T24 score, highest first, then T24 order (Jupiter rows, then star rows;
@@ -1427,7 +1447,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 
 ## Where we are (13 Oct 2026)
 - **MATCH HORSE / MATCH JOCKEY on every runner sheet (30 Oct 2026, Eddie), RATIO tightened the same day (whole circle factor >= 5, golden
-  p, q <= 6), re-ordered by sky cell score the same day:** see its section. Tests 148/148.
+  p, q <= 6), re-ordered by sky cell score the same day, then grouped by sky cell under grey header rows the same day:** see its section.
+  Tests 148/148.
 - **Half family removed from families.py (29 Oct 2026, Eddie):** see "half family removed". Tests 146/146.
 - **Workbook trimmed (29 Oct 2026, Eddie): POSITIONS, SKY JUPITER, runner T1–T8 + T24 HORSE / JOCKEY (five Jupiter rows on top); no
   summary, --full-only sheets or _pairs workbook:** see "workbook trimmed". Tests 145/145.

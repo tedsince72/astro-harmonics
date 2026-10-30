@@ -2332,36 +2332,44 @@ check(f'T50 by hand from POSITIONS: lost half hit - Kelso P03 T24 JOCKEY J Pollu
 # 30 Oct 2026): whole only when the circle factor gcd(A, B, 360) >= 5 (+ 'circle factor', 'slice of 360' columns), golden only when p, q <= 6
 # (was gcd >= 2 for both). "Before" = builds by a76a3e99's own tools/ (MATCH with the first rule); before that commit's tables the sheets are
 # also checked against 9e5d5ea5 through it. Kelso, Lingfield, rebuilt Ascot (chk_match/check_match.py).
+# Grouped by sky cell (Eddie, 30 Oct 2026): one list per table under grey sky-cell header rows; before = 8f42f04e's own tools/ (same rows,
+# only positions, the header rows and the title change); Ripon 15:25 16 Jun 2022 added (batch copied from ~/astronomy-project/racecards).
 print('test 51: MATCH HORSE / MATCH JOCKEY')
 os.makedirs(f'{tmp}/after51', exist_ok=True)
-os.makedirs(f'{tmp}/h38b', exist_ok=True)       # 30 Oct 2026 (order revised): before = 38b450d9 (tightened RATIO, old order)
-subprocess.run(f'git archive 38b450d9 tools rebuild_kit | tar -x -C {tmp}/h38b', shell=True, check=True)
+os.makedirs(f'{tmp}/h8f4', exist_ok=True)       # 30 Oct 2026 (grouped by sky cell): before = 8f42f04e (sky-score order, two sections)
+subprocess.run(f'git archive 8f42f04e tools rebuild_kit | tar -x -C {tmp}/h8f4', shell=True, check=True)
+INP51 = dict(INP50, ripon='reference/classic/race_batch_20220616_ripon_1525.xlsx')
 out51, out51b = {}, {}
-for n, inp in INP50.items():
-    bo, ao = f'{tmp}/h38b/{n}_jupiter_tables.xlsx', f'{tmp}/after51/{n}_jupiter_tables.xlsx'
-    subprocess.run([sys.executable, f'{tmp}/h38b/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
+for n, inp in INP51.items():
+    bo, ao = f'{tmp}/h8f4/{n}_jupiter_tables.xlsx', f'{tmp}/after51/{n}_jupiter_tables.xlsx'
+    subprocess.run([sys.executable, f'{tmp}/h8f4/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
     subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
     out51[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_match/check_match.py', bo, ao], capture_output=True, text=True).stdout
-    out51b[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_match/check_match.py', f'{tmp}/after50/{n}_jupiter_tables.xlsx', ao],
-                               capture_output=True, text=True).stdout
+    if n in INP50:
+        out51b[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_match/check_match.py', f'{tmp}/after50/{n}_jupiter_tables.xlsx', ao],
+                                   capture_output=True, text=True).stdout
 cnt51 = {n: [l for l in o.splitlines() if 'MATCH' in l and ': SKY ' in l] for n, o in out51.items()}
 print('T51 counts:', cnt51)
-check('T51 against the builds before (commits 38b450d9, tightened RATIO in the old order: the same rows cell for cell, only the order differs; '
-      'and 9e5d5ea5, no MATCH), Kelso, Lingfield, rebuilt Ascot '
+check('T51 against the builds before (commits 8f42f04e, two sections in the sky-score order: the same rows cell for cell, only positions, '
+      'header rows and title differ; and 9e5d5ea5, no MATCH), Kelso, Lingfield, rebuilt Ascot, Ripon 15:25 2022 (8f42f04e only) '
       '(chk_match/check_match.py): every other cell, merge, width and freeze identical; MATCH HORSE then MATCH JOCKEY after T24 JOCKEY; rebuilt '
       'from the SKY block cells and the T24 cells on the sheet (scoring, no conjunction; T24 star rows x body columns without S Jupiter, Jupiter '
       'rows without S Jupiter → S body) on the tightened rules (whole circle factor gcd(A, B, 360) >= 5 with circle factor and slice of 360; '
-      'golden p, q <= 6): every pair, none missing or extra, every cell, score fills, title counts; ORDER (revised 30 Oct 2026): both sections '
-      'by the sky cell score, highest first, each sky cell together (ties SKY block order), RATIO by q then p of p/q, then the T24 score, '
-      'highest first, then T24 order',
+      'golden p, q <= 6): every pair, none missing or extra, every cell, score fills, title counts incl. k sky cells; GROUPED (30 Oct 2026): '
+      'one list, a grey header row (A to U) above each sky cell with its relationship, plane, value, target, family, score and EXACT / RATIO '
+      'counts; groups by the sky score, highest first (ties SKY block order); inside a group EXACT (T24 score highest first, T24 order), then '
+      'RATIO by q, p, T24 score, T24 order; no blank rows between groups, two between MATCH HORSE and MATCH JOCKEY',
       all(line(o, 'mismatches:') == 'mismatches: 0' for o in list(out51.values()) + list(out51b.values()))
-      and all(len(v) == 2 * {'kelso': 6, 'lingfield': 6, 'ascot': 1}[n] for n, v in cnt51.items()),
-      {n: (line(o, 'mismatches:'), line(out51b[n], 'mismatches:')) for n, o in out51.items()})
+      and all(len(v) == 2 * {'kelso': 6, 'lingfield': 6, 'ascot': 1, 'ripon': 4}[n] for n, v in cnt51.items())
+      and all(sum(int(x.split()[4]) for x in o.splitlines() if 'in a new position' in x) == {'kelso': 1080, 'lingfield': 151, 'ascot': 204,
+                                                                                          'ripon': 1419}[n] for n, o in out51.items()),
+      {n: (line(o, 'mismatches:'), line(out51b.get(n, ''), 'mismatches:')) for n, o in out51.items()})
 # by hand from POSITIONS (Kelso P01 MATCH HORSE)
 w51 = openpyxl.load_workbook(f'{tmp}/after51/kelso_jupiter_tables.xlsx', read_only=True)
 p51 = posmap(w51, 'P01')
 s51 = {x[3]: (x[5], x[6]) for x in w51['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'SKY' and x[3]}
 m51 = [r for r in w51['P01'].iter_rows(values_only=True) if r and r[0] == 'MATCH HORSE' and r[1] in ('EXACT', 'RATIO')]
+h51 = [r[1] for r in w51['P01'].iter_rows(values_only=True) if r and r[0] == 'MATCH HORSE' and r[1] not in ('EXACT', 'RATIO')]
 mk = lambda r: (r[1], r[7], r[8], r[13], r[14], r[15])     # 30 Oct 2026: two columns after 'shared factor'
 M51 = {mk(r): r for r in m51}
 sd = lambda x, pl: round(dpl(s51['Jupiter'], s51[x], pl), 6)
@@ -2412,8 +2420,32 @@ cases.append((f'order: RATIO opens with S Aldebaran RA {va:.6f} 70 ({sca:.2f}, t
               f'({scc:.2f}), 2/1 H Algorab – H Transpluto RA {vt:.6f} ({sct:.2f}), then 7/1; EXACT opens with S Fomalhaut Dec 28',
               [(r[2], r[13], r[14]) for r in rr51[:3]] == [('2/1', 'H Capella', 'Mercury'), ('2/1', 'H Algorab', 'Transpluto'), ('7/1', 'H Aculeus', 'Saturn')]
               and all(r[7] == 'S Jupiter → S Aldebaran' and r[8] == 'RA' for r in rr51[:3]) and rr51[0][12] == max(r[12] for r in m51)
-              and scc > sct and ex51[0][7:9] == ('S Jupiter → S Fomalhaut', 'Dec')))
-check('T51 by hand from POSITIONS (Kelso P01 MATCH HORSE): ' + '; '.join(c for c, _ in cases), all(ok for _, ok in cases), [c for c, ok in cases if not ok])
+              and scc > sct and ex51[0][7:9] == ('S Jupiter → S Fomalhaut', 'Dec')
+              and m51[0] == rr51[0] and h51[1].startswith(f'S Jupiter → S Aldebaran RA {va:.6f} 70 whole ({sca:.2f}) — EXACT 0, RATIO ')))
+# Ripon 15:25 16 Jun 2022 P01 MATCH HORSE (Eddie's example): the Murzim RA 90 group = 1 EXACT (H Alnilam – H Mars RA) then its RATIO rows;
+# the Facies Dec 25 group = 3 EXACT then 17 RATIO (counts as built)
+w51r = openpyxl.load_workbook(f'{tmp}/after51/ripon_jupiter_tables.xlsx', read_only=True)
+p51r = posmap(w51r, 'P01')
+s51r = {x[3]: (x[5], x[6]) for x in w51r['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'SKY' and x[3]}
+mr = [r for r in w51r['P01'].iter_rows(values_only=True) if r and r[0] == 'MATCH HORSE'][1:]
+grp51 = {}
+for r in mr:
+    if r[1] in ('EXACT', 'RATIO'):
+        grp51[cur].append(r)
+    else:
+        cur = r[1]; grp51[cur] = []
+vm, va2, vf = round(dpl(s51r['Jupiter'], s51r['Murzim'], 'RA'), 6), round(dpl(p51r[('H', 'Alnilam')], p51r[('H', 'Mars')], 'RA'), 6), \
+    round(dpl(s51r['Jupiter'], s51r['Facies'], 'Dec'), 6)
+hm = next((h for h in grp51 if h.startswith(f'S Jupiter → S Murzim RA {vm:.6f} 90 whole ({sq(.02, abs(vm - 90)):.2f}) — ')), None)
+hf = next((h for h in grp51 if h.startswith(f'S Jupiter → S Facies Dec {vf:.6f} 25 whole ({sq(.02, abs(vf - 25)):.2f}) — ')), None)
+secs = lambda h: [r[1] for r in grp51.get(h, [])]
+cases.append((f'Ripon P01 MATCH HORSE: S Murzim RA {vm:.6f} 90 group - EXACT 1 (H Alnilam – H Mars RA {va2:.6f}), RATIO 42; S Facies Dec {vf:.6f} 25 '
+              'group - EXACT 3, RATIO 17; header counts = the rows under it, EXACT before RATIO',
+              hm is not None and hf is not None and hm.endswith('— EXACT 1, RATIO 42') and hf.endswith('— EXACT 3, RATIO 17')
+              and secs(hm) == ['EXACT'] + ['RATIO'] * 42 and secs(hf) == ['EXACT'] * 3 + ['RATIO'] * 17
+              and grp51[hm][0][13:17] == ('H Alnilam', 'Mars', 'RA', va2)
+              and all(h.endswith(f"— EXACT {secs(h).count('EXACT')}, RATIO {secs(h).count('RATIO')}") for h in grp51)))
+check('T51 by hand from POSITIONS (Kelso P01 MATCH HORSE; Ripon P01): ' + '; '.join(c for c, _ in cases), all(ok for _, ok in cases), [c for c, ok in cases if not ok])
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

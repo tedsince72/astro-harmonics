@@ -10,6 +10,10 @@ usage: check_match.py <before.xlsx> <after.xlsx>
     T24 HORSE / JOCKEY cells (value + comment 'target · family · offset · score'): scoring, not conjunction; T24 star rows x body columns (not
     S Jupiter), Jupiter rows except 'S Jupiter → S body'; pairs by the rules (exact same family + target, or across families the same 4
     significant digits of the two 6-dp values; ratio: whole / golden, gcd >= 2); every row's cells, order, fills, title counts.
+Grouped by sky cell (Eddie, 30 Oct 2026, 8f42f04e -> now): one list per table, a grey header row (D9D9D9, A to U) above each sky cell's
+rows '<relationship> <plane> <value> <target> <family> (<score>) — EXACT n, RATIO m'; groups by the sky score highest first (ties SKY block
+order), inside a group EXACT (T24 score highest first, then T24 order) then RATIO (q, p, T24 score, T24 order); no blank rows between groups,
+two between MATCH HORSE and MATCH JOCKEY; title ends '..., k sky cells (SKY block ...)'.
 Prints counts and 'mismatches: n' last."""
 import sys, math
 import openpyxl
@@ -139,14 +143,50 @@ for P in runners:
             err(P, tid, 'title row', r); break
         title = a.cell(row=r, column=2).value
         nw = sum(1 for e in ratio if e[3] is not None)
-        if not title.endswith(f'EXACT {len(exact)} rows, RATIO {len(ratio)} rows (whole {nw}, golden {len(ratio) - nw}) (SKY block {len(sky)} '
-                              f'scoring cells, T24 {who} {len(t24)})') or 'circle factor gcd(A, B, 360) >= 5' not in title or 'p, q <= 6' not in title:
+        nk = len({(e[5][0], e[5][1]) for e in exact + ratio})
+        if not title.endswith(f'EXACT {len(exact)} rows, RATIO {len(ratio)} rows (whole {nw}, golden {len(ratio) - nw}), {nk} sky cells (SKY block '
+                              f'{len(sky)} scoring cells, T24 {who} {len(t24)})') or 'circle factor gcd(A, B, 360) >= 5' not in title or 'p, q <= 6' not in title \
+                or 'ORDER (30 Oct 2026, grouped by sky cell)' not in title:
             err(P, tid, 'title', title[-90:])
         r += 2
-        got = []
+        got, heads, gof = [], [], []                       # data rows, header rows (row, text, cells), header index of each data row
         while a.cell(row=r, column=1).value == tid:
-            got.append([a.cell(row=r, column=k) for k in range(1, 22)]); r += 1
+            cells = [a.cell(row=r, column=k) for k in range(1, 22)]
+            if cells[1].value in ('EXACT', 'RATIO'):
+                if not heads:
+                    err(P, tid, 'data row before any header row', r)
+                got.append(cells); gof.append(len(heads) - 1)
+            else:
+                heads.append((r, cells[1].value, cells))
+            r += 1
+        if who == 'HORSE' and not (a.cell(row=r, column=1).value is None and a.cell(row=r + 1, column=1).value is None
+                                   and a.cell(row=r + 2, column=1).value == 'MATCH JOCKEY'):
+            err(P, 'not two blank rows between MATCH HORSE and MATCH JOCKEY', r)
         r += 1
+        # header rows and groups: each header names one sky cell, its rows follow it, counts, grey A to U, nothing else on it
+        grp = {}
+        for g, h in zip(got, gof):
+            grp.setdefault(h, []).append(g)
+        if len(heads) != nk or set(grp) != set(range(len(heads))):
+            err(P, tid, 'header rows', len(heads), nk)
+        sbyk = {(x[0], x[1]): x for x in sky}
+        for h, (hr, txt, cells) in enumerate(heads):
+            rows_ = grp.get(h, [])
+            ks = {(g[7].value, g[8].value) for g in rows_}
+            if len(ks) != 1:
+                err(P, tid, 'group with several sky cells', hr); continue
+            x = sbyk[ks.pop()]
+            ne = sum(1 for g in rows_ if g[1].value == 'EXACT')
+            want_t = f'{x[0]} {x[1]} {x[2]:.6f} {x[4]} {x[3]} ({x[5]:.2f}) — EXACT {ne}, RATIO {len(rows_) - ne}'
+            if txt != want_t:
+                err(P, tid, 'header text', hr, txt, want_t)
+            if cells[0].value != tid or any(c.value is not None for c in cells[2:]) or not cells[1].font.b:
+                err(P, tid, 'header cells', hr)
+            if any(not (c.fill.fill_type == 'solid' and c.fill.start_color.rgb in ('00D9D9D9', 'FFD9D9D9')) for c in cells) or \
+                    a.cell(row=hr, column=22).fill.fill_type:
+                err(P, tid, 'header grey A to U', hr)
+            if any(g[1].fill.fill_type for g in rows_):
+                err(P, tid, 'data row grey', hr)
         key = lambda e: (e[5][0], e[5][1], e[6][0], e[6][1], e[6][2])
         gkey = lambda g: (g[7].value, g[8].value, g[13].value, g[14].value, g[15].value)
         want = {('EXACT', key(e)): e for e in exact} | {('RATIO', key(e)): e for e in ratio}
@@ -169,19 +209,18 @@ for P in runners:
             lf = colour(low) or '00FFF8DC'
             if fills[0] != s[6] or fills[1] != tf or fills[2] not in (lf, tf, s[6]):
                 err(P, tid, 'fills', k_, fills)
-        for sec in ('EXACT', 'RATIO'):
-            rows = [g for g in got if g[1].value == sec]
-            if sec != 'EXACT' and any(x[1].value != 'RATIO' for x in got[len(got) - len(rows):]):
-                err(P, tid, 'sections not in order')
-            # order (Eddie, 30 Oct 2026, revised): sky cell score highest first, sky cells kept together (ties: SKY block order); RATIO by q, then
-            # p; then T24 score highest first, then T24 order (shown 2-dp scores)
-            sidx = {(x[0], x[1]): i for i, x in enumerate(sky)}
-            tidx = {(x[0], x[1], x[2]): i for i, x in enumerate(t24)}
-            qp = lambda g: tuple(reversed([int(z) for z in str(g[2].value).split('/')])) if '/' in str(g[2].value) else (1, 1)
-            sk_ = [(-g[12].value, sidx[(g[7].value, g[8].value)]) + ((qp(g)) if sec == 'RATIO' else ()) + (-g[19].value, tidx[(g[13].value, g[14].value, g[15].value)])
-                   for g in rows]
-            if sk_ != sorted(sk_):
-                err(P, tid, sec, 'order', next(i for i in range(len(sk_) - 1) if sk_[i] > sk_[i + 1]))
+        # order (Eddie, 30 Oct 2026, grouped): groups by sky score highest first (ties: SKY block order); inside a group EXACT (T24 score
+        # highest first, then T24 order), then RATIO (q, p, T24 score highest first, T24 order) (shown 2-dp scores)
+        sidx = {(x[0], x[1]): i for i, x in enumerate(sky)}
+        tidx = {(x[0], x[1], x[2]): i for i, x in enumerate(t24)}
+        qp = lambda g: tuple(reversed([int(z) for z in str(g[2].value).split('/')])) if '/' in str(g[2].value) else (0, 0)
+        sk_ = [(-g[12].value, sidx[(g[7].value, g[8].value)], 0 if g[1].value == 'EXACT' else 1) + qp(g)
+               + (-g[19].value, tidx[(g[13].value, g[14].value, g[15].value)]) for g in got]
+        if sk_ != sorted(sk_):
+            err(P, tid, 'order', next(i for i in range(len(sk_) - 1) if sk_[i] > sk_[i + 1]))
+        if [gof[i] for i in range(len(gof))] != sorted(gof):
+            err(P, tid, 'groups not contiguous')
+        print(f'{P} {tid}: {len(heads)} sky-cell groups')
         # against the before MATCH block (old layout): EXACT rows identical after the 2-column shift, RATIO rows a subset
         newlay = bm0 is not None and b.cell(row=bm0 + 1, column=6).value == 'circle factor'
         if newlay:                                         # before already on the 21-column layout: the same rows, cell for cell, any order

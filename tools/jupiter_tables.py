@@ -810,9 +810,13 @@ MATCH_NOTE = ('every scoring cell of the SKY block (SKY JUPITER: S Jupiter → e
               'RATIO (same family, whole and golden only; tightened 30 Oct 2026): whole - kept only when the circle '
               'factor gcd(A, B, 360) >= 5 (the largest number dividing both targets and 360; slice of 360 = 1/(360 / circle factor)), shared '
               'factor = gcd(A, B); golden n×φ - the two multipliers share a factor >= 2 and the ratio in lowest terms p/q has p, q <= 6; ratio = '
-              'larger / smaller in lowest terms. ORDER (30 Oct 2026, revised): both sections by the sky cell\'s score, highest first, each sky '
-              'cell\'s matches together (ties: SKY block order); inside a sky cell, RATIO by the bottom number q of p/q, smallest first (whole-number '
-              'ratios first: 2, 3, 4 ..., then 3/2, 5/2 ..., then 4/3, 5/3 ...), then by p; then the T24 score, highest first, then T24 order. Ninths, φ powers, √2, silver: exact only. Score cells coloured by their score as the source cells')
+              'larger / smaller in lowest terms. ORDER (30 Oct 2026, grouped by sky cell): one list, grouped by sky cell (SKY block '
+              'relationship + plane), each group under a grey header row \'<sky relationship> <plane> <value> <target> <family> (<score>) — '
+              'EXACT n, RATIO m\'; groups by the sky cell\'s score, highest first (ties: SKY block order, a row\'s RA cell before its Dec cell); '
+              'inside a group the EXACT rows first (T24 score highest first, then T24 order), then the RATIO rows by the bottom number q of p/q, '
+              'smallest first (whole-number ratios first: 2, 3, 4 ..., then 3/2, 5/2 ..., then 4/3, 5/3 ...), then p, then the T24 score highest '
+              'first, then T24 order; the section column says EXACT or RATIO on every row. Ninths, φ powers, √2, silver: exact only. Score cells '
+              'coloured by their score as the source cells')
 
 
 def write_match(ws, row, who, sky, t24):
@@ -821,14 +825,25 @@ def write_match(ws, row, who, sky, t24):
     exact, ratio = match_pairs(sky, t24)
     ws.cell(row=row, column=1, value=tid).font = BOLD
     ws.cell(row=row, column=2, value=f'{tid} (Eddie, 30 Oct 2026): {MATCH_NOTE.format(who=who, C=C)}. EXACT {len(exact)} rows, RATIO '
-                                     f"{len(ratio)} rows (whole {sum(1 for r in ratio if r[3] is not None)}, golden {sum(1 for r in ratio if r[3] is None)}) "
-                                     f'(SKY block {len(sky)} scoring cells, T24 {who} {len(t24)})').font = BOLD
+                                     f"{len(ratio)} rows (whole {sum(1 for r in ratio if r[3] is not None)}, golden {sum(1 for r in ratio if r[3] is None)}), "
+                                     f'{len({id(r[5]) for r in exact + ratio})} sky cells (SKY block {len(sky)} scoring cells, T24 {who} {len(t24)})').font = BOLD
     row += 1
     for k, h in enumerate(MATCH_HEAD):
         c = ws.cell(row=row, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
     row += 1
+    groups = {}                                            # sky cell -> [(section, row)]; exact / ratio already in group order
     for sec, rows in (('EXACT', exact), ('RATIO', ratio)):
-        for pq, dec, g, cf, sl, s, t, low in rows:
+        for r in rows:
+            groups.setdefault(id(r[5]), (r[5], []))[1].append((sec, r))
+    si = {id(x): i for i, x in enumerate(sky)}
+    for s, grp in sorted(groups.values(), key=lambda g: (-g[0][5], si[id(g[0])])):
+        ne = sum(1 for sec, _ in grp if sec == 'EXACT')
+        ws.cell(row=row, column=1, value=tid)
+        ws.cell(row=row, column=2, value=f'{s[0]} {s[1]} {s[2]:.6f} {s[4]} {s[3]} ({s[5]:.2f}) — EXACT {ne}, RATIO {len(grp) - ne}').font = BOLD
+        for k in range(1, len(MATCH_HEAD) + 1):
+            ws.cell(row=row, column=k).fill = GREY
+        row += 1
+        for sec, (pq, dec, g, cf, sl, s, t, low) in grp:
             vals = [tid, sec, pq, round(dec, 6), g, cf, sl, s[0], s[1], s[2], s[3], s[4], round(s[5], 2), t[0], t[1], t[2], t[3], t[4], t[5],
                     round(t[6], 2), round(low, 2)]
             for k, v in enumerate(vals):
