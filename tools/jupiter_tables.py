@@ -473,7 +473,12 @@ def runner_sheet(wb, P, R, ctx):
     sky = {(x, pl): v[0] for (lab, pl), v in getattr(ctx, 'skycells', {}).items()
            if lab.startswith('S Jupiter → S ') and (x := lab[14:]) in T1_T2_T24_STARS}
     for C, who in (('H', 'HORSE'), ('J', 'JOCKEY')):        # T24 (Eddie, 19 Oct 2026): stars against bodies, natal
-        row, _, _ = write_t24(ws, row + 1, RX[C], C, f'T24 {who} (natal): {T24_NOTE}{T24SJ_NOTE}', sky=sky, jrows=t24_jrows(ctx, R, field, C))
+        jr = t24_jrows(ctx, R, field, C)
+        row, _, _ = write_t24(ws, row + 1, RX[C], C, f'T24 {who} (natal): {T24_NOTE}{T24SJ_NOTE}', sky=sky, jrows=jr)
+        field[f'_t24c{C}'] = t24_match_cells(RX[C], C, jr)
+    skym = sky_match_cells(getattr(ctx, 'skycells', {}))
+    for C, who in (('H', 'HORSE'), ('J', 'JOCKEY')):        # MATCH HORSE / MATCH JOCKEY (Eddie, 30 Oct 2026), after T24 JOCKEY
+        row = write_match(ws, row + 1, who, skym, field[f'_t24c{C}'])
     ws.column_dimensions['B'].width = 46
     ws.freeze_panes = 'C4'
     return field
@@ -710,6 +715,117 @@ def t24_put(ws, row, col, v, pl):
         c.fill = FILL[colour]
     c.comment = Comment(text, 'T24', width=260, height=40)
     return c
+
+
+# ---------------- MATCH HORSE / MATCH JOCKEY (Eddie, 30 Oct 2026): SKY block hits against T24 HORSE / JOCKEY hits
+MATCH_HEAD = ('table', 'section', 'ratio p/q', 'ratio', 'shared factor', 'sky: relationship', 'plane', 'value', 'family', 'target', 'score',
+              'T24: row', 'body', 'plane', 'value', 'family', 'target', 'score', 'lower score')
+MATCH_RATIO_FAM = ('whole', 'golden')                      # ratio matches: whole and golden only, for now
+
+
+def match_cell(v, ev):
+    """a scoring cell for MATCH: (value 6 dp, best family, target label, score, colour) or None (no score, or a conjunction: target 0)"""
+    if not ev or ev['family'] == 'conj':
+        return None
+    return round(v, 6), ev['family'], ev['target'], ev['score'], ev['colour']
+
+
+def sky_match_cells(skycells):
+    """SKY block (SKY JUPITER): every scoring cell, S Jupiter → every sky body, star and the equator, RA and Dec (sheet order)"""
+    out = []
+    for (lab, pl), (v, ev) in skycells.items():
+        m = match_cell(v, ev)
+        if m:
+            out.append((lab, pl) + m)
+    return out
+
+
+def t24_match_cells(ch, C, jrows):
+    """T24 HORSE / JOCKEY: every scoring cell of the Jupiter rows (not 'S Jupiter → S body'; Jupiter cell incl.) and of the star rows (body
+    columns, not the S Jupiter column), RA and Dec, in sheet order -> [(row label, body, plane, value, family, target, score, colour)]"""
+    bodies = [b for b in T24_BODIES if b in ch and ch[b][2] == 'body' and b != 'Moon']
+    out = []
+    for lab, vals in jrows:
+        if lab == 'S Jupiter → S body':
+            continue
+        for pl in PLANES:
+            for b in bodies:
+                v = vals.get((b, pl))
+                m = v is not None and match_cell(v, nearest(v, 'dist', pl)[0])
+                if m:
+                    out.append((lab, b, pl) + m)
+    for x in [x for x in T1_T2_T24_STARS if x in ch]:
+        for pl in PLANES:
+            for b in bodies:
+                v = plane_value(ch[x], ch[b], pl)
+                m = match_cell(v, nearest(v, 'dist', pl)[0])
+                if m:
+                    out.append((f'{C} {x}', b, pl) + m)
+    return out
+
+
+def golden_k(t):
+    return int(t.split('×')[0])
+
+
+def match_pairs(sky, t24):
+    """-> (exact, ratio) rows. EXACT: same family and target, or (different families) the two values' first 4 significant digits, truncated,
+    the same at the same order of magnitude (families.digits4). RATIO: same family, whole or golden, different targets whose whole numbers /
+    φ multipliers share a factor >= 2: p/q = larger / smaller in lowest terms. Row: (p/q, decimal, factor, sky cell, T24 cell, lower score)"""
+    exact, ratio = [], []
+    for s in sky:
+        for t in t24:
+            sf, st, tf, tt = s[3], s[4], t[4], t[5]
+            low = min(s[5], t[6])
+            if (sf == tf and st == tt) or (sf != tf and families.digits4(s[2]) == families.digits4(t[3])):
+                exact.append(('1', 1.0, None, s, t, low))
+            elif sf == tf and sf in MATCH_RATIO_FAM:
+                a, b = (int(st), int(tt)) if sf == 'whole' else (golden_k(st), golden_k(tt))
+                g = math.gcd(a, b)
+                if g >= 2:
+                    hi, lo = max(a, b), min(a, b)
+                    ratio.append((f'{hi // g}/{lo // g}', hi / lo, f'{g}' if sf == 'whole' else f'{g}×φ', s, t, low))
+    exact.sort(key=lambda r: -r[5])                        # stable: SKY block order, then T24 order
+    ratio.sort(key=lambda r: (r[1], -r[5]))
+    return exact, ratio
+
+
+MATCH_NOTE = ('every scoring cell of the SKY block (SKY JUPITER: S Jupiter → every sky body, star and the equator, RA and Dec) against every '
+              'scoring cell of T24 {who} (star rows × body columns, not the S Jupiter column; the Jupiter rows {C} Jupiter → {C} body, S Jupiter → '
+              '{C} body, S body → {C} Jupiter incl. their Jupiter cell, not S Jupiter → S body), either plane with either plane; scoring = the '
+              "cell's best family has a score (any score); conjunction cells (target 0) left out. EXACT: same family and same target, or across "
+              'families the two values (6 dp) with the same first 4 significant digits, truncated, at the same order of magnitude; sorted by the '
+              'lower score, highest first. RATIO (same family, whole and golden only): different targets sharing a factor >= 2 (whole: gcd of the '
+              'two whole numbers; golden n×φ: gcd of the two multipliers), ratio = larger / smaller in lowest terms; sorted by ratio, lowest first, '
+              'ties by the lower score. Ninths, φ powers, √2, silver: exact only. Score cells coloured by their score as the source cells')
+
+
+def write_match(ws, row, who, sky, t24):
+    """MATCH HORSE / MATCH JOCKEY block -> next row + 1"""
+    tid, C = f'MATCH {who}', who[0]
+    exact, ratio = match_pairs(sky, t24)
+    ws.cell(row=row, column=1, value=tid).font = BOLD
+    ws.cell(row=row, column=2, value=f'{tid} (Eddie, 30 Oct 2026): {MATCH_NOTE.format(who=who, C=C)}. EXACT {len(exact)} rows, RATIO '
+                                     f'{len(ratio)} rows (SKY block {len(sky)} scoring cells, T24 {who} {len(t24)})').font = BOLD
+    row += 1
+    for k, h in enumerate(MATCH_HEAD):
+        c = ws.cell(row=row, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
+    row += 1
+    for sec, rows in (('EXACT', exact), ('RATIO', ratio)):
+        for pq, dec, g, s, t, low in rows:
+            vals = [tid, sec, pq, round(dec, 6), g, s[0], s[1], s[2], s[3], s[4], round(s[5], 2), t[0], t[1], t[2], t[3], t[4], t[5],
+                    round(t[6], 2), round(low, 2)]
+            for k, v in enumerate(vals):
+                ws.cell(row=row, column=1 + k, value=v)
+            for col, sc, colour in ((11, s[5], s[6]), (18, t[6], t[7]), (19, low, families.colour(low))):
+                c = ws.cell(row=row, column=col)
+                c.number_format = '0.00'
+                if colour:
+                    c.fill = FILL[colour]
+            for col in (8, 15):
+                ws.cell(row=row, column=col).number_format = '0.000000'
+            row += 1
+    return row + 1
 
 
 T24SJ_NOTE = ('. S JUPITER column (Eddie, 27 Oct 2026): after Ketu in each plane, d(S Jupiter, S star) at the off = the SKY block value, '

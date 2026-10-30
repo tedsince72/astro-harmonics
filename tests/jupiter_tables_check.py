@@ -987,7 +987,7 @@ for w in (gfw,):                                              # 29 Oct 2026 (wor
         if sh == 'POSITIONS':
             continue
         for x in w[sh].iter_rows(values_only=True):
-            if x and (x[0] in ('T1', 'T2', 'T24')
+            if x and (x[0] in ('T1', 'T2', 'T24', 'MATCH HORSE', 'MATCH JOCKEY')   # MATCH tables name SKY block / T24 cells (Eddie, 30 Oct 2026; test 51)
                       or sh == 'SKY JUPITER' and x[0] in ('SKY', 'SKY STARS', 'TIMELINE', 'LONG TIMELINE', 'STAR TIMELINE', 'LONG STAR TIMELINE')):   # SKY block (test 31); SKY STARS, sky timelines (test 33)
                 continue
             hit = [v for v in x if isinstance(v, str) and NEWRE.search(v)]
@@ -2233,13 +2233,16 @@ check('T46 Jupiter column: blank on S Jupiter → S body and H Jupiter → H bod
 # Test 49 (Eddie, 29 Oct 2026): workbook trim - runner sheets keep T1-T8, T24 HORSE, T24 JOCKEY only; SKY STARS SUMMARY, every --full-only
 # sheet and the _pairs workbook gone (--full accepted, = default); POSITIONS and SKY JUPITER unchanged; the four Jupiter rows of the old
 # (SKY STARS) tables + a grey 'stars' row now on top of T24 HORSE / JOCKEY, the Jupiter cell = d(S Jupiter, natal Jupiter) computed directly
-# (= the old T9 value). "Before" = builds by the code of acf68341. Kelso, Lingfield, rebuilt Ascot, default and --full
+# (= the old T9 value). "Before" = builds by acf68341's own tools/, "after" by 2cc2af2b's (30 Oct 2026). Kelso, Lingfield, rebuilt Ascot, default and --full
 # (chk_trim/check_trim.py).
 print('test 49: workbook trim (Eddie, 29 Oct 2026)')
 INP49 = {'kelso': 'reference/classic/race_batch_20220504_kelso_1450.xlsx', 'lingfield': 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx',
          'ascot': f'{tmp}/race_batch_20120619_ascot_1430.xlsx'}
-bf = 'tools/_jt_before_acf68341.py'
-open(bf, 'w').write(old_code('acf68341'))
+# 30 Oct 2026 (MATCH tables, test 51): before = acf68341's own tools/, after = 2cc2af2b's own tools/ (the trim alone, both with their families)
+for c_, d_ in (('acf68341', 'hacf'), ('2cc2af2b', 'h2cc'), ('9e5d5ea5', 'h9e5')):
+    os.makedirs(f'{tmp}/{d_}', exist_ok=True)
+    subprocess.run(f'git archive {c_} tools rebuild_kit | tar -x -C {tmp}/{d_}', shell=True, check=True)
+bf = f'{tmp}/hacf/tools/jupiter_tables.py'
 os.makedirs(f'{tmp}/before49', exist_ok=True)
 os.makedirs(f'{tmp}/after49', exist_ok=True)
 out49 = {}
@@ -2248,11 +2251,10 @@ for n, inp in INP49.items():
         fl = ['--full'] if f == 'full' else []
         bo, ao = f'{tmp}/before49/{n}_{f}_jupiter_tables.xlsx', f'{tmp}/after49/{n}_{f}_jupiter_tables.xlsx'
         rb = subprocess.run([sys.executable, bf, inp] + fl + ['--out', bo], capture_output=True, text=True)
-        ra = subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp] + fl + ['--out', ao], capture_output=True, text=True)
+        ra = subprocess.run([sys.executable, f'{tmp}/h2cc/tools/jupiter_tables.py', inp] + fl + ['--out', ao], capture_output=True, text=True)
         out49[(n, f, 'size')] = (re.findall(r'\(([\d.]+ MB)\)', rb.stdout), re.findall(r'\(([\d.]+ MB)\)', ra.stdout))
         out49[(n, f, 'pairs')] = os.path.exists(bo.replace('_jupiter_tables', '_pairs')) and not os.path.exists(ao.replace('_jupiter_tables', '_pairs'))
         out49[(n, f)] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_trim/check_trim.py', bo, ao], capture_output=True, text=True).stdout
-os.remove(bf)
 z49 = lambda p: subprocess.run(f'unzip -p {p} "xl/worksheets/*.xml" "xl/comments/*.xml" xl/styles.xml xl/workbook.xml | shasum', shell=True, capture_output=True,
                                text=True).stdout
 same49 = {n: z49(f'{tmp}/after49/{n}_def_jupiter_tables.xlsx') == z49(f'{tmp}/after49/{n}_full_jupiter_tables.xlsx') for n in INP49}
@@ -2286,16 +2288,14 @@ check('T49 Kelso P01 T24 HORSE: the five rows straight after the headers (S Jupi
 # "Before" = builds by the code of 2cc2af2b (its own tools/ and rebuild_kit/, i.e. families with half). Kelso, Lingfield, rebuilt Ascot,
 # default only (= --full) (chk_nohalf/check_nohalf.py).
 print('test 50: half family removed')
-os.makedirs(f'{tmp}/h2cc', exist_ok=True)
-subprocess.run(f'git archive 2cc2af2b tools rebuild_kit | tar -x -C {tmp}/h2cc', shell=True, check=True)
 INP50 = {'kelso': 'reference/classic/race_batch_20220504_kelso_1450.xlsx', 'lingfield': 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx',
          'ascot': f'{tmp}/race_batch_20120619_ascot_1430.xlsx'}
 os.makedirs(f'{tmp}/after50', exist_ok=True)
 out50 = {}
 for n, inp in INP50.items():
-    bo, ao = f'{tmp}/h2cc/{n}_jupiter_tables.xlsx', f'{tmp}/after50/{n}_jupiter_tables.xlsx'
-    subprocess.run([sys.executable, f'{tmp}/h2cc/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
-    subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
+    # 30 Oct 2026: before = the 2cc2af2b build of test 49, after = 9e5d5ea5's own tools/ (the half removal alone)
+    bo, ao = f'{tmp}/after49/{n}_def_jupiter_tables.xlsx', f'{tmp}/after50/{n}_jupiter_tables.xlsx'
+    subprocess.run([sys.executable, f'{tmp}/h9e5/tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
     out50[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_nohalf/check_nohalf.py', bo, ao], capture_output=True, text=True).stdout
 check('T50 against the build before (commit 2cc2af2b, families with half), Kelso, Lingfield, rebuilt Ascot (chk_nohalf/check_nohalf.py): every '
       'changed cell is a cell that scored or was named as half before, or in its value group (target, offset, score, arrow, also, timing), or a '
@@ -2326,6 +2326,62 @@ check(f'T50 by hand from POSITIONS: lost half hit - Kelso P03 T24 JOCKEY J Pollu
       and abs(r3[2] - v2) < 1e-6 and r3[4] == 'conj (conj)' and abs(r3[7] - s2) < 0.006
       and abs(rg[2] - v3) < 1e-6 and rg[4] == '22.2222 (ninth) — outside ±0.0722' and rg[7] is None,
       (c1.value, c1.comment.text.split('\n')[0], r3[2:8], rg[2:8]))
+# ---------------------------------------------------------------------------------------------------------------------------------
+# Test 51 (Eddie, 30 Oct 2026): MATCH HORSE / MATCH JOCKEY on every runner sheet after T24 JOCKEY - SKY block hits against T24 HORSE / JOCKEY
+# hits: EXACT (same family + target, or across families the same first 4 significant digits) and RATIO (whole / golden, gcd >= 2). "Before" =
+# builds by 9e5d5ea5's own tools/. Kelso, Lingfield, rebuilt Ascot (chk_match/check_match.py).
+print('test 51: MATCH HORSE / MATCH JOCKEY')
+os.makedirs(f'{tmp}/after51', exist_ok=True)
+out51 = {}
+for n, inp in INP50.items():
+    bo, ao = f'{tmp}/after50/{n}_jupiter_tables.xlsx', f'{tmp}/after51/{n}_jupiter_tables.xlsx'      # before = 9e5d5ea5 (test 50)
+    subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
+    out51[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_match/check_match.py', bo, ao], capture_output=True, text=True).stdout
+cnt51 = {n: [l for l in o.splitlines() if 'MATCH' in l and '->' in l] for n, o in out51.items()}
+print('T51 counts:', cnt51)
+check('T51 against the build before (commit 9e5d5ea5), Kelso, Lingfield, rebuilt Ascot (chk_match/check_match.py): every other cell, merge, '
+      'width and freeze identical; MATCH HORSE then MATCH JOCKEY after T24 JOCKEY; rebuilt from the SKY block cells and the T24 cells on the '
+      'sheet (scoring, no conjunction; T24 star rows x body columns without S Jupiter, Jupiter rows without S Jupiter → S body): every pair, none '
+      'missing or extra, every cell, score fills, title counts, EXACT by lower score, RATIO by ratio then lower score',
+      all(line(o, 'mismatches:') == 'mismatches: 0' for o in out51.values()) and all(len(v) == 2 * {'kelso': 6, 'lingfield': 6, 'ascot': 1}[n]
+                                                                                   for n, v in cnt51.items()),
+      {n: line(o, 'mismatches:') for n, o in out51.items()})
+# by hand from POSITIONS (Kelso P01 MATCH HORSE)
+w51 = openpyxl.load_workbook(f'{tmp}/after51/kelso_jupiter_tables.xlsx', read_only=True)
+p51 = posmap(w51, 'P01')
+s51 = {x[3]: (x[5], x[6]) for x in w51['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'SKY' and x[3]}
+m51 = [r for r in w51['P01'].iter_rows(values_only=True) if r and r[0] == 'MATCH HORSE' and r[1] in ('EXACT', 'RATIO')]
+mk = lambda r: (r[1], r[5], r[6], r[11], r[12], r[13])
+M51 = {mk(r): r for r in m51}
+sd = lambda x, pl: round(dpl(s51['Jupiter'], s51[x], pl), 6)
+hd = lambda x, b, pl: round(dpl(p51[('H', x)], p51[('H', b)], pl), 6)
+sq = lambda tol, dev: (10 * (tol - dev) / tol) ** 2
+cases = []
+v1, v2 = sd('Rukbat', 'Dec'), hd('Hamal', 'Quaoar', 'Dec')                 # exact, same family: 39 whole / 39 whole
+r1 = M51.get(('EXACT', 'S Jupiter → S Rukbat', 'Dec', 'H Hamal', 'Quaoar', 'Dec'))
+cases.append(('exact whole 39: S Rukbat Dec %.6f (%.2f) / H Hamal – H Quaoar Dec %.6f (%.2f)' % (v1, sq(.02, abs(v1 - 39)), v2, sq(.02, abs(v2 - 39))),
+              r1 is not None and r1[7] == v1 and r1[14] == v2 and r1[9] == r1[16] == '39' and abs(r1[18] - min(sq(.02, abs(v1 - 39)), sq(.02, abs(v2 - 39)))) < 0.006))
+v1, v2 = sd('Praesepe', 'RA'), hd('Praesepe', 'Venus', 'RA')               # exact across families: 81×φ golden / 131 whole, 4 digits 1310
+r2 = M51.get(('EXACT', 'S Jupiter → S Praesepe', 'RA', 'H Praesepe', 'Venus', 'RA'))
+cases.append((f'exact across families: S Praesepe RA {v1:.6f} 81×φ golden / H Praesepe – H Venus RA {v2:.6f} 131 whole, digits '
+              f'{F.digits4(v1)} = {F.digits4(v2)}', r2 is not None and (r2[8], r2[9], r2[15], r2[16]) == ('golden', '81×φ', 'whole', '131')
+              and F.digits4(v1) == F.digits4(v2) and abs(v1 - 81 * F.PHI) < 0.03236 and abs(v2 - 131) < 0.02))
+v1, v2 = sd('Fomalhaut', 'Dec'), hd('Kaus Australis', 'Mars', 'RA')        # whole ratio 30 / 28 -> 15/14, factor 2
+r3 = M51.get(('RATIO', 'S Jupiter → S Fomalhaut', 'Dec', 'H Kaus Australis', 'Mars', 'RA'))
+cases.append((f'whole ratio: S Fomalhaut Dec {v1:.6f} 28 / H Kaus Australis – H Mars RA {v2:.6f} 30 -> 15/14 (1.071429), factor 2',
+              r3 is not None and r3[2:5] == ('15/14', 1.071429, '2') and abs(v1 - 28) < .02 and abs(v2 - 30) < .02))
+v1, v2 = sd('Haumea', 'RA'), hd('Praesepe', 'Quaoar', 'RA')                # golden ratio 88φ / 86φ -> 44/43, factor 2×φ
+r4 = M51.get(('RATIO', 'S Jupiter → S Haumea', 'RA', 'H Praesepe', 'Quaoar', 'RA'))
+cases.append((f'golden ratio: S Haumea RA {v1:.6f} 88×φ / H Praesepe – H Quaoar RA {v2:.6f} 86×φ -> 44/43, factor 2×φ',
+              r4 is not None and r4[2:5] == ('44/43', round(88 / 86, 6), '2×φ') and abs(v1 - 88 * F.PHI) < .03236 and abs(v2 - 86 * F.PHI) < .03236))
+# a pair left out (gcd 1): S Rukbat RA 68 whole against every scoring whole T24 HORSE star cell on an odd target from POSITIONS
+odd = [(x, b, pl, round(v)) for x in JT.T1_T2_T24_STARS if ('H', x) in p51 for b in JT.T24_BODIES if ('H', b) in p51 and b != 'Moon'
+       for pl in ('RA', 'Dec') for v in [dpl(p51[('H', x)], p51[('H', b)], pl)] if abs(v - round(v)) < 0.02 and round(v) % 2 == 1 and round(v) % 17
+       and v >= 1.5]
+left = [o for o in odd if ('RATIO', 'S Jupiter → S Rukbat', 'RA', f'H {o[0]}', o[1], o[2]) in M51 or ('EXACT', 'S Jupiter → S Rukbat', 'RA', f'H {o[0]}', o[1], o[2]) in M51]
+cases.append((f'left out (gcd 1): S Rukbat RA 68 whole against {len(odd)} whole T24 HORSE cells on targets coprime to 68 (e.g. {odd[0][:3]} {odd[0][3]}): '
+              'none listed', odd and not left))
+check('T51 by hand from POSITIONS (Kelso P01 MATCH HORSE): ' + '; '.join(c for c, _ in cases), all(ok for _, ok in cases), [c for c, ok in cases if not ok])
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

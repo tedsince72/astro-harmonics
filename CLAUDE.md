@@ -127,7 +127,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct; 46 since 20 Oct, 67 since 21 Oct; conjunction cells red, 20 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (146/146; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (148/148; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -908,6 +908,40 @@ PARTLY REMOVED 29 Oct 2026 (Eddie): the half family is gone (see "half family re
   e.g. Kelso P01 T8 RA 99.998689 ninth 99.13, whole 100 would be 87.32; Ascot P01 T24 Dec 9.999769 ninth 98.47; right at 10.000000 a 6-dp
   value can read either way (Lingfield P07 T24 Dec / Equator 10.0 ninth 100.0).)
 
+## jupiter_tables: MATCH HORSE / MATCH JOCKEY (Eddie, 30 Oct 2026; viewing only)
+- Every runner sheet, after T24 JOCKEY: MATCH HORSE, then MATCH JOCKEY (sky_match_cells, t24_match_cells, match_pairs, write_match). Sky side:
+  every scoring cell of the SKY block (SKY JUPITER: S Jupiter → every sky body, star, the equator; RA, Dec). T24 side: every scoring cell of
+  T24 HORSE / JOCKEY: star rows × body columns (not the S Jupiter column), and the Jupiter rows H Jupiter → H body, S Jupiter → H body, S body →
+  H Jupiter (J on JOCKEY) incl. their Jupiter cell (not S Jupiter → S body). Scoring = the cell's best family has a score (any score);
+  conjunction cells (best = conjunction, target 0) left out of both sides (Claude's default). A cell inside the conjunction range whose best is
+  whole 1 takes part (red on the T24 sheet; Kelso 3 such cells, all EXACT rows against S Jupiter → S Venus Dec 1.012418 whole 1). Either plane
+  with either plane. Families as in families.py at build time (best family only).
+- EXACT: same family and target; across families the two 6-dp values with the same first 4 significant digits, truncated, same order of
+  magnitude (families.digits4). RATIO (whole and golden only): same family, different targets sharing a factor >= 2 (whole: gcd; golden: gcd
+  of the multipliers), ratio = larger / smaller in lowest terms + decimal. Ninths, φ powers, √2, silver: exact only.
+- Layout: title (rules, EXACT n / RATIO m rows, scoring cells per side), header, rows: table, section, ratio p/q ('1'), decimal, shared factor
+  ('2', '2×φ'), sky relationship, plane, value, family, target, score, T24 row, body, plane, value, family, target, score, lower score. EXACT by
+  lower score, highest first (ties: SKY block order, then T24 order); RATIO by ratio, lowest first, ties by lower score. Score cells filled
+  by score (as their source cells; a red conjunction-range T24 source -> its score colour). Two blank rows between the blocks; widths unchanged.
+- Counts (EXACT / RATIO per table, H | J): Kelso 14:50 2022 (SKY block 18 scoring cells): P01 12 / 569 | 17 / 569, P03 16 / 570 | 15 / 549,
+  P05 21 / 676 | 14 / 546, P07 16 / 589 | 16 / 538, P09 14 / 520 | 18 / 557, P11 11 / 625 | 14 / 642 (largest P05 HORSE 697 rows; all under
+  2,000); Lingfield 14:35 2021 (7): P01 2 / 42 | 2 / 49, P03 5 / 42 | 2 / 44, P05 3 / 47 | 2 / 48, P07 3 / 50 | 2 / 62, P09 2 / 38 | 1 / 59,
+  P11 2 / 41 | 4 / 50; rebuilt Ascot 14:30 2012 (11): P01 9 / 459 | 14 / 400. Totals: Kelso EXACT 184 (5 cross-family) / RATIO 6,950 (whole
+  5,329, golden 1,621; 348 under 1.1, e.g. golden 48/47); Lingfield 30 / 572 (whole 400, golden 172); Ascot 23 (2 cross-family) / 859 (whole
+  807, golden 52). Every cross-family exact pairs a sky golden with a T24 whole (e.g. Kelso S Praesepe RA 131.047819 81×φ with H Praesepe –
+  H Venus RA 131.005156 131). Sizes: Kelso 1.88 -> 2.56 MB, Lingfield 0.77 -> 0.84, Ascot 0.54 -> 0.62.
+- Tests 148/148. Test 51 (new): chk_match/check_match.py vs builds by 9e5d5ea5's own tools/, three races: every other cell / merge / width /
+  freeze identical; the MATCH rows rebuilt from the SKY block and T24 cells on the sheet (set, cells, fills, order, title counts); by hand from
+  POSITIONS (Kelso P01 MATCH HORSE): exact S Rukbat Dec 38.994109 39 / H Hamal – H Quaoar Dec 39.000850 39; cross-family S Praesepe RA 81×φ /
+  H Praesepe – H Venus RA 131 (digits 1310); whole ratio S Fomalhaut Dec 28 / H Kaus Australis – H Mars RA 30 -> 15/14, factor 2; golden ratio
+  S Haumea RA 88×φ / H Praesepe – H Quaoar RA 86×φ -> 44/43, factor 2×φ; left out: S Rukbat RA 68 against the 58 whole T24 HORSE cells on
+  targets coprime to 68. Changed for this: test 30's new-star leak check allows the MATCH tables; tests 49 / 50 now compare builds by
+  acf68341 / 2cc2af2b / 9e5d5ea5's own tools/ (each its own change; before they used the current code).
+- Independent checker (30 Oct), own code from POSITIONS (chk_match/indep/; only the ninth ranges and φ-power targets as data), all three races:
+  every non-MATCH cell before vs after (Kelso 260,754, Lingfield 147,664, Ascot 110,704), merges, widths, freeze; every SKY / T24 value used
+  (1e-6), own scoring and matching: row set, all 19 cells, order, fills, title counts: 0 mismatches; 10 planted errors all caught. Not exercised:
+  ninth / √2 / silver matches (none in these races; φ powers only φ^10 exact).
+
 ## families.py: half family removed (Eddie, 29 Oct 2026; every table follows)
 - tools/families.py: 'half' out of DEG_FAMILIES, score_family, evaluate / best and outside() (never a nearest target, so never in "outside" /
   "not a 4-digit match" texts or tightness); score_half and HALF_TOL deleted (nothing else used them). Whole, the 4-digit rule, golden, φ powers,
@@ -1357,6 +1391,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **MATCH HORSE / MATCH JOCKEY on every runner sheet (30 Oct 2026, Eddie):** see its section. Tests 148/148.
 - **Half family removed from families.py (29 Oct 2026, Eddie):** see "half family removed". Tests 146/146.
 - **Workbook trimmed (29 Oct 2026, Eddie): POSITIONS, SKY JUPITER, runner T1–T8 + T24 HORSE / JOCKEY (five Jupiter rows on top); no
   summary, --full-only sheets or _pairs workbook:** see "workbook trimmed". Tests 145/145.
