@@ -127,7 +127,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct; 46 since 20 Oct, 67 since 21 Oct; conjunction cells red, 20 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (148/148; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (150/150; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -909,6 +909,33 @@ PARTLY REMOVED 29 Oct 2026 (Eddie): the half family is gone (see "half family re
   value can read either way (Lingfield P07 T24 Dec / Equator 10.0 ninth 100.0).)
 
 ## jupiter_tables: MATCH HORSE / MATCH JOCKEY (Eddie, 30 Oct 2026; viewing only)
+- MATCH HORSE | JOCKEY (Eddie, 30 Oct 2026, same day; write_match_hj): a third table on every runner sheet, after MATCH JOCKEY (two blank
+  rows), the two MATCH tables side by side; MATCH HORSE / MATCH JOCKEY and every other cell unchanged. Built from the MATCH data rows on the
+  sheet, cells copied (value and style), nothing recalculated. Key = sky cell (relationship + plane), section, ratio p/q, T24 family, T24 target;
+  horse and jockey rows of a key share a line, several rows on one side paired by T24 score (highest first; ties T24 order = source order),
+  the shorter side empty; a one-side key leaves the other side empty. Columns A-AC: A table id, B-M shared (= the source B-M), N-U horse (T24
+  row ... lower score), V-AC jockey. Header rows: band row (A table id; 'HORSE' merged N-U, 'JOCKEY' V-AC; Claude's layout, two header rows),
+  then the column names (A 'table'). Groups by sky score (union; ties SKY block order, RA before Dec), grey D9D9D9 A-AC header '<sky cell
+  text as in MATCH> — EXACT h | j, RATIO h | j'; inside EXACT, then RATIO by q, p, T24 target value (smaller first), then the pairing. Title:
+  rule + 'n lines, k keys: b with both sides, h horse only, j jockey only; s sky cells (MATCH HORSE x rows, MATCH JOCKEY y rows)'.
+  No width set (every column A-AC is used by other tables; would have liked H 26, N and V 18 - e.g. 'S Jupiter → S Vindemiatrix', 'H Jupiter
+  → H body' - they stay 11, as in MATCH HORSE / JOCKEY).
+  Lines, keys both / horse only / jockey only, sky cells (MATCH HORSE / JOCKEY rows): Ripon 15:25 16 Jun 2022 P01 246, 56 / 60 / 45, 15 (151 /
+  160; Eddie's rough count 116 horse, 101 jockey, 56 shared - the same), P03 294, 71 / 52 / 44, 15 (190 / 192), P05 269, 60 / 69 / 40, 15
+  (200 / 148), P07 301, 65 / 43 / 56, 13 (176 / 202); Kelso P01 130, 27 / 25 / 20, 14 (80 / 83), P03 139, 25 / 37 / 25, 14, P05 158, 33 / 37 /
+  25, 16, P07 144, 30 / 37 / 29, 16, P09 138, 25 / 34 / 27, 13, P11 135, 33 / 26 / 28, 14; Lingfield P01 19, 0 / 11 / 5, 4, P03 20, 4 / 8 / 4, 5,
+  P05 20, 2 / 9 / 6, 4, P07 21, 5 / 5 / 10, 5, P09 21, 4 / 6 / 9, 5, P11 29, 6 / 11 / 7, 5; rebuilt Ascot P01 150, 34 / 24 / 26, 10 (99 / 105).
+  Ripon P01 S Wezen Dec 17×φ group: EXACT 1 | 1, the line H Menkent – Orcus Dec 27.501175 (69.39) | J Alhena – Eris Dec 27.503545 (82.13).
+  Sizes: Kelso 2.02 -> 2.13 MB, Lingfield 0.80 -> 0.82, Ascot 0.56 -> 0.58, Ripon 1.50 -> 1.65.
+  Tests 150/150: test 52 (chk_matchhj/check_hj.py) vs builds by 5ea09b4e's own tools/, four races: every existing cell (Kelso 330,109,
+  Lingfield 160,314, Ascot 123,244, Ripon 285,346), merges, widths, freeze identical; the new table rebuilt from the MATCH rows on the sheet
+  (every row once on its side, cell for cell; key, pairing, order, header counts, grey A-AC, title totals); the Wezen line by hand from
+  POSITIONS. Test 51 now compares 8f42f04e with builds by 5ea09b4e's own tools/.
+  Independent checker (30 Oct), own code (chk_matchhj/indep/check_hj.py, plants.py), all four races: before vs after every cell (same counts
+  as above), widths, freeze, merges; the table rebuilt from the MATCH rows on the sheet, every line cell for cell (fills, formats, blank
+  sides), headers, title totals: 0 mismatches; no 2-dp sky-score ties, no target ties; 16 planted errors (row missing, line deleted /
+  duplicated, pairing swapped inside a key and across keys, lines / groups swapped, header count, grey, title total, side moved, fills,
+  a cell elsewhere) all caught. Not exercised: ninth, √2, silver keys (none in these races).
 - GROUPED BY SKY CELL (Eddie, 30 Oct 2026, same day; rules, rows and cells unchanged vs 8f42f04e; supersedes the two-section order below):
   one list per table, grouped by sky cell (SKY block relationship + plane), each group under a header row, light grey D9D9D9 from A to U (21
   columns), column B '<sky relationship> <plane> <value> <target> <family> (<score>) — EXACT n, RATIO m' (bold, Claude's choice; column A the
@@ -1447,8 +1474,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 
 ## Where we are (13 Oct 2026)
 - **MATCH HORSE / MATCH JOCKEY on every runner sheet (30 Oct 2026, Eddie), RATIO tightened the same day (whole circle factor >= 5, golden
-  p, q <= 6), re-ordered by sky cell score the same day, then grouped by sky cell under grey header rows the same day:** see its section.
-  Tests 148/148.
+  p, q <= 6), re-ordered by sky cell score the same day, then grouped by sky cell under grey header rows the same day; MATCH HORSE | JOCKEY
+  side by side added the same day:** see its section. Tests 150/150.
 - **Half family removed from families.py (29 Oct 2026, Eddie):** see "half family removed". Tests 146/146.
 - **Workbook trimmed (29 Oct 2026, Eddie): POSITIONS, SKY JUPITER, runner T1–T8 + T24 HORSE / JOCKEY (five Jupiter rows on top); no
   summary, --full-only sheets or _pairs workbook:** see "workbook trimmed". Tests 145/145.

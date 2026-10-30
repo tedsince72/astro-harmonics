@@ -987,7 +987,7 @@ for w in (gfw,):                                              # 29 Oct 2026 (wor
         if sh == 'POSITIONS':
             continue
         for x in w[sh].iter_rows(values_only=True):
-            if x and (x[0] in ('T1', 'T2', 'T24', 'MATCH HORSE', 'MATCH JOCKEY')   # MATCH tables name SKY block / T24 cells (Eddie, 30 Oct 2026; test 51)
+            if x and (x[0] in ('T1', 'T2', 'T24', 'MATCH HORSE', 'MATCH JOCKEY', 'MATCH HORSE | JOCKEY')   # MATCH tables name SKY block / T24 cells (Eddie, 30 Oct 2026; tests 51, 52)
                       or sh == 'SKY JUPITER' and x[0] in ('SKY', 'SKY STARS', 'TIMELINE', 'LONG TIMELINE', 'STAR TIMELINE', 'LONG STAR TIMELINE')):   # SKY block (test 31); SKY STARS, sky timelines (test 33)
                 continue
             hit = [v for v in x if isinstance(v, str) and NEWRE.search(v)]
@@ -2334,8 +2334,11 @@ check(f'T50 by hand from POSITIONS: lost half hit - Kelso P03 T24 JOCKEY J Pollu
 # also checked against 9e5d5ea5 through it. Kelso, Lingfield, rebuilt Ascot (chk_match/check_match.py).
 # Grouped by sky cell (Eddie, 30 Oct 2026): one list per table under grey sky-cell header rows; before = 8f42f04e's own tools/ (same rows,
 # only positions, the header rows and the title change); Ripon 15:25 16 Jun 2022 added (batch copied from ~/astronomy-project/racecards).
+# Side by side (Eddie, 30 Oct 2026, test 52): the "after" of test 51 = 5ea09b4e's own tools/ (MATCH HORSE | JOCKEY is test 52's change).
 print('test 51: MATCH HORSE / MATCH JOCKEY')
 os.makedirs(f'{tmp}/after51', exist_ok=True)
+os.makedirs(f'{tmp}/h5ea', exist_ok=True)
+subprocess.run(f'git archive 5ea09b4e tools rebuild_kit | tar -x -C {tmp}/h5ea', shell=True, check=True)
 os.makedirs(f'{tmp}/h8f4', exist_ok=True)       # 30 Oct 2026 (grouped by sky cell): before = 8f42f04e (sky-score order, two sections)
 subprocess.run(f'git archive 8f42f04e tools rebuild_kit | tar -x -C {tmp}/h8f4', shell=True, check=True)
 INP51 = dict(INP50, ripon='reference/classic/race_batch_20220616_ripon_1525.xlsx')
@@ -2343,7 +2346,7 @@ out51, out51b = {}, {}
 for n, inp in INP51.items():
     bo, ao = f'{tmp}/h8f4/{n}_jupiter_tables.xlsx', f'{tmp}/after51/{n}_jupiter_tables.xlsx'
     subprocess.run([sys.executable, f'{tmp}/h8f4/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
-    subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
+    subprocess.run([sys.executable, f'{tmp}/h5ea/tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
     out51[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_match/check_match.py', bo, ao], capture_output=True, text=True).stdout
     if n in INP50:
         out51b[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_match/check_match.py', f'{tmp}/after50/{n}_jupiter_tables.xlsx', ao],
@@ -2446,6 +2449,55 @@ cases.append((f'Ripon P01 MATCH HORSE: S Murzim RA {vm:.6f} 90 group - EXACT 1 (
               and grp51[hm][0][13:17] == ('H Alnilam', 'Mars', 'RA', va2)
               and all(h.endswith(f"— EXACT {secs(h).count('EXACT')}, RATIO {secs(h).count('RATIO')}") for h in grp51)))
 check('T51 by hand from POSITIONS (Kelso P01 MATCH HORSE; Ripon P01): ' + '; '.join(c for c, _ in cases), all(ok for _, ok in cases), [c for c, ok in cases if not ok])
+
+# ---------------------------------------------------------------------------------------------------------------------------------
+# Test 52 (Eddie, 30 Oct 2026): MATCH HORSE | JOCKEY on every runner sheet, after MATCH JOCKEY (two blank rows): the two MATCH tables side
+# by side, cells copied from the sheet. Key = sky cell, section, ratio p/q, T24 family, T24 target; several rows of a key paired by T24
+# score; grouped by sky cell (union), grey header rows 'EXACT h | j, RATIO h | j'. Before = 5ea09b4e's own tools/ (builds of test 51);
+# Kelso, Lingfield, rebuilt Ascot, Ripon (chk_matchhj/check_hj.py).
+print('test 52: MATCH HORSE | JOCKEY')
+os.makedirs(f'{tmp}/after52', exist_ok=True)
+out52 = {}
+for n, inp in INP51.items():
+    ao = f'{tmp}/after52/{n}_jupiter_tables.xlsx'
+    subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
+    out52[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_matchhj/check_hj.py', f'{tmp}/after51/{n}_jupiter_tables.xlsx', ao],
+                              capture_output=True, text=True).stdout
+print('T52 keys:', {n: [l for l in o.splitlines() if l.startswith('P')] for n, o in out52.items()})
+check('T52 against the build before (commit 5ea09b4e), Kelso, Lingfield, rebuilt Ascot, Ripon (chk_matchhj/check_hj.py): every existing cell '
+      'of every sheet identical (value, fill, font, border, number format, alignment, comment), merges, widths, freeze; on each runner sheet two '
+      'blank rows after MATCH JOCKEY, then MATCH HORSE | JOCKEY and nothing after; every MATCH HORSE / MATCH JOCKEY row on its side exactly once, '
+      'cell for cell (value and style), shared A-M = the source B-M on both sides; key, pairing by T24 score, the shorter side empty; groups '
+      'by sky score (union), EXACT then RATIO by q, p, T24 target; grey header rows A-AC with EXACT h | j, RATIO h | j = the source headers; '
+      'HORSE / JOCKEY merged over N-U / V-AC; title totals',
+      all(line(o, 'mismatches:') == 'mismatches: 0' for o in out52.values())
+      and all(len([l for l in o.splitlines() if l.startswith('P')]) == {'kelso': 6, 'lingfield': 6, 'ascot': 1, 'ripon': 4}[n] for n, o in out52.items()),
+      {n: (line(o, 'cells compared:'), line(o, 'mismatches:')) for n, o in out52.items()})
+# by hand (Ripon P01, Eddie's example): the S Wezen Dec 17×φ group - the EXACT line pairs H Menkent – H Orcus Dec with J Alhena – J Eris Dec
+w52 = openpyxl.load_workbook(f'{tmp}/after52/ripon_jupiter_tables.xlsx', read_only=True)
+p52 = posmap(w52, 'P01')
+s52 = {x[3]: (x[5], x[6]) for x in w52['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'SKY' and x[3]}
+m52 = [r for r in w52['P01'].iter_rows(values_only=True) if r and r[0] == 'MATCH HORSE | JOCKEY']
+vw = round(dpl(s52['Jupiter'], s52['Wezen'], 'Dec'), 6)
+uh, uj, uw = dpl(p52[('H', 'Menkent')], p52[('H', 'Orcus')], 'Dec'), dpl(p52[('J', 'Alhena')], p52[('J', 'Eris')], 'Dec'), \
+    dpl(s52['Jupiter'], s52['Wezen'], 'Dec')
+vh, vj = round(uh, 6), round(uj, 6)
+g17 = 17 * F.PHI
+U52 = {vw: uw, vh: uh, vj: uj}                         # score from the unrounded distance (the 6-dp value gives 69.40 for 69.39)
+sc = lambda v: (10 * (0.03236 - abs(U52[v] - g17)) / 0.03236) ** 2
+iw = next((i for i, r in enumerate(m52) if str(r[1]).startswith('S Jupiter → S Wezen Dec ')), None)
+ln = m52[iw + 1] if iw is not None else ()
+cases52 = [(f'Ripon P01 header S Jupiter → S Wezen Dec {vw:.6f} 17×φ golden ({sc(vw):.2f}) — EXACT 1 | 1, RATIO 0 | 0; EXACT line H Menkent – Orcus Dec '
+            f'{vh:.6f} ({sc(vh):.2f}) | J Alhena – Eris Dec {vj:.6f} ({sc(vj):.2f})',
+            iw is not None and m52[iw][1] == f'S Jupiter → S Wezen Dec {vw:.6f} 17×φ golden ({sc(vw):.2f}) — EXACT 1 | 1, RATIO 0 | 0'
+            and ln[1:3] == ('EXACT', '1') and ln[7:13] == ('S Jupiter → S Wezen', 'Dec', vw, 'golden', '17×φ', round(sc(vw), 2))
+            and ln[13:21] == ('H Menkent', 'Orcus', 'Dec', vh, 'golden', '17×φ', round(sc(vh), 2), round(sc(vh), 2))
+            and ln[21:29] == ('J Alhena', 'Eris', 'Dec', vj, 'golden', '17×φ', round(sc(vj), 2), round(sc(vj), 2))
+            and (vh, round(sc(vh), 2), vj, round(sc(vj), 2)) == (27.501175, 69.39, 27.503545, 82.13))]
+t52 = m52[0][1] if m52 else ''
+cases52.append(('Ripon P01 keys (Eddie\'s rough count 116 horse, 101 jockey, 56 shared): title "161 keys: 56 with both sides, 60 horse only, 45 jockey '
+                'only"', '161 keys: 56 with both sides, 60 horse only, 45 jockey only; 15 sky cells' in t52))
+check('T52 by hand from POSITIONS (Ripon P01): ' + '; '.join(c for c, _ in cases52), all(ok for _, ok in cases52), [c for c, ok in cases52 if not ok])
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

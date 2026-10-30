@@ -479,6 +479,7 @@ def runner_sheet(wb, P, R, ctx):
     skym = sky_match_cells(getattr(ctx, 'skycells', {}))
     for C, who in (('H', 'HORSE'), ('J', 'JOCKEY')):        # MATCH HORSE / MATCH JOCKEY (Eddie, 30 Oct 2026), after T24 JOCKEY
         row = write_match(ws, row + 1, who, skym, field[f'_t24c{C}'])
+    row = write_match_hj(ws, row + 1, skym)                # MATCH HORSE | JOCKEY (Eddie, 30 Oct 2026), side by side, after MATCH JOCKEY
     ws.column_dimensions['B'].width = 46
     ws.freeze_panes = 'C4'
     return field
@@ -856,6 +857,92 @@ def write_match(ws, row, who, sky, t24):
             for col in (10, 17):
                 ws.cell(row=row, column=col).number_format = '0.000000'
             row += 1
+    return row + 1
+
+
+# ---------------- MATCH HORSE | JOCKEY (Eddie, 30 Oct 2026): the two MATCH tables side by side, cells taken from the sheet
+MATCH_HJ_NOTE = ('MATCH HORSE and MATCH JOCKEY side by side: every row of each, once, on its own side, cells copied from the two tables '
+                 'above (nothing recalculated). Columns A-M shared (section, ratio, decimal, shared factor, circle factor, slice of 360, the '
+                 'sky cell), N-U the horse row (T24 row, body, plane, value, family, target, score, lower score), V-AC the jockey row. KEY: sky '
+                 'cell (relationship + plane), section (EXACT / RATIO), ratio p/q, T24 family, T24 target; horse and jockey rows with the same '
+                 'key share a line; several rows on one side are paired in order of T24 score, highest first (ties: T24 order), the shorter '
+                 'side left empty on the extra lines; a key on one side only leaves the other side empty. ORDER: grouped by sky cell (the union '
+                 'of the horse and jockey groups), the sky cell\'s score highest first (ties: SKY block order, a row\'s RA cell before its Dec '
+                 'cell), each group under a grey header row \'<sky relationship> <plane> <value> <target> <family> (<score>) — EXACT h | j, '
+                 'RATIO h | j\' (h, j = rows in MATCH HORSE / MATCH JOCKEY); inside a group EXACT, then RATIO by q, then p of p/q, then the '
+                 'T24 target (smaller first), then the pairing above')
+
+
+def match_target_value(fam, lab):
+    """numeric value of a target label as written in the MATCH tables (for 'T24 target, smaller first')"""
+    if fam == 'golden':
+        return int(lab.split('×')[0]) * families.PHI
+    if fam == 'phi power':
+        f, p = lab.split('φ^')
+        return (float(f.rstrip('×')) if f else 1.0) * families.PHI ** int(p)
+    if fam in ('sqrt2', 'silver'):
+        return dict(families.SQRT2_T if fam == 'sqrt2' else families.SILVER_T)[lab]
+    return float(lab)
+
+
+def write_match_hj(ws, row, sky):
+    """MATCH HORSE | JOCKEY block, built from the MATCH HORSE / MATCH JOCKEY data rows already on the sheet -> next row + 1"""
+    tid, n = 'MATCH HORSE | JOCKEY', len(MATCH_HEAD)     # n = 21: A-M shared (13), then 8 per side
+    src, heads = {'H': [], 'J': []}, {}
+    for r in range(1, row):
+        a, b = ws.cell(row=r, column=1).value, ws.cell(row=r, column=2).value
+        C = {'MATCH HORSE': 'H', 'MATCH JOCKEY': 'J'}.get(a)
+        if C and b in ('EXACT', 'RATIO'):
+            src[C].append(r)
+        elif C and ws.cell(row=r, column=1).fill.start_color.rgb == GREY.start_color.rgb and ' — EXACT ' in str(b):
+            heads.setdefault((ws.cell(row=r + 1, column=8).value, ws.cell(row=r + 1, column=9).value), str(b).split(' — EXACT ')[0])
+    keys, cnt = {}, {}                                     # (sky lab, plane) -> key -> side -> [source rows], in sheet order
+    for C in 'HJ':
+        for r in src[C]:
+            v = [ws.cell(row=r, column=k).value for k in range(1, n + 1)]
+            g = (v[7], v[8])
+            keys.setdefault(g, {}).setdefault((v[1], v[2], v[17], v[18]), {'H': [], 'J': []})[C].append(r)
+            cnt.setdefault(g, {'H': [0, 0], 'J': [0, 0]})[C][v[1] == 'RATIO'] += 1
+    si = {(x[0], x[1]): (-x[5], i) for i, x in enumerate(sky)}
+    pq = lambda k: tuple(int(z) for z in k[1].split('/')) if '/' in k[1] else (int(k[1]), 1)
+    korder = lambda k: (k[0] == 'RATIO', pq(k)[1], pq(k)[0], match_target_value(k[2], k[3]), k[2])
+    sides = [(bool(d['H']), bool(d['J'])) for kk in keys.values() for d in kk.values()]
+    nk = {'both': sides.count((True, True)), 'horse': sides.count((True, False)), 'jockey': sides.count((False, True))}
+    nlines = sum(max(len(d['H']), len(d['J'])) for kk in keys.values() for d in kk.values())
+    ws.cell(row=row, column=1, value=tid).font = BOLD
+    ws.cell(row=row, column=2, value=f'{tid} (Eddie, 30 Oct 2026): {MATCH_HJ_NOTE}. {nlines} lines, {sum(len(k) for k in keys.values())} keys: '
+                                     f"{nk['both']} with both sides, {nk['horse']} horse only, {nk['jockey']} jockey only; {len(keys)} sky cells "
+                                     f"(MATCH HORSE {len(src['H'])} rows, MATCH JOCKEY {len(src['J'])} rows)").font = BOLD
+    row += 1
+    ws.cell(row=row, column=1, value=tid)
+    for c0, lab in ((14, 'HORSE'), (22, 'JOCKEY')):
+        c = ws.cell(row=row, column=c0, value=lab); c.fill = HEAD; c.font = BOLD; c.alignment = Alignment(horizontal='center')
+        for k in range(c0 + 1, c0 + 8):
+            ws.cell(row=row, column=k).fill = HEAD
+        ws.merge_cells(start_row=row, start_column=c0, end_row=row, end_column=c0 + 7)
+    row += 1
+    for k, h in enumerate(MATCH_HEAD[:13] + MATCH_HEAD[13:] * 2):
+        c = ws.cell(row=row, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
+    row += 1
+    for g in sorted(keys, key=lambda g: si[g]):
+        h, j = cnt[g]['H'], cnt[g]['J']
+        ws.cell(row=row, column=1, value=tid)
+        ws.cell(row=row, column=2, value=f'{heads[g]} — EXACT {h[0]} | {j[0]}, RATIO {h[1]} | {j[1]}').font = BOLD
+        for k in range(1, 30):
+            ws.cell(row=row, column=k).fill = GREY
+        row += 1
+        for key in sorted(keys[g], key=korder):
+            d = keys[g][key]
+            for i in range(max(len(d['H']), len(d['J']))):
+                ws.cell(row=row, column=1, value=tid)
+                rh, rj = (d['H'][i] if i < len(d['H']) else None), (d['J'][i] if i < len(d['J']) else None)
+                for r, cols in ((rh or rj, [(k, k) for k in range(2, 14)]), (rh, [(k, k) for k in range(14, 22)]),
+                                (rj, [(k, k + 8) for k in range(14, 22)])):
+                    for a, b in (cols if r else ()):
+                        s, t = ws.cell(row=r, column=a), ws.cell(row=row, column=b)
+                        t.value = s.value
+                        t._style = s._style
+                row += 1
     return row + 1
 
 
