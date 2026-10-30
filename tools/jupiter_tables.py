@@ -718,9 +718,11 @@ def t24_put(ws, row, col, v, pl):
 
 
 # ---------------- MATCH HORSE / MATCH JOCKEY (Eddie, 30 Oct 2026): SKY block hits against T24 HORSE / JOCKEY hits
-MATCH_HEAD = ('table', 'section', 'ratio p/q', 'ratio', 'shared factor', 'sky: relationship', 'plane', 'value', 'family', 'target', 'score',
+MATCH_HEAD = ('table', 'section', 'ratio p/q', 'ratio', 'shared factor', 'circle factor', 'slice of 360', 'sky: relationship', 'plane', 'value', 'family', 'target', 'score',
               'T24: row', 'body', 'plane', 'value', 'family', 'target', 'score', 'lower score')
 MATCH_RATIO_FAM = ('whole', 'golden')                      # ratio matches: whole and golden only, for now
+MATCH_CIRCLE_MIN = 5                                       # whole: circle factor gcd(A, B, 360) >= 5 (Eddie, 30 Oct 2026, tightened)
+MATCH_GOLDEN_MAX = 6                                       # golden: p and q of the ratio in lowest terms <= 6 (Eddie, 30 Oct 2026)
 
 
 def match_cell(v, ev):
@@ -771,22 +773,28 @@ def golden_k(t):
 def match_pairs(sky, t24):
     """-> (exact, ratio) rows. EXACT: same family and target, or (different families) the two values' first 4 significant digits, truncated,
     the same at the same order of magnitude (families.digits4). RATIO: same family, whole or golden, different targets whose whole numbers /
-    φ multipliers share a factor >= 2: p/q = larger / smaller in lowest terms. Row: (p/q, decimal, factor, sky cell, T24 cell, lower score)"""
+    φ multipliers share a factor >= 2: p/q = larger / smaller in lowest terms. Tightened (Eddie, 30 Oct 2026): whole only when the circle factor
+    gcd(A, B, 360) >= 5 (slice of 360 = 1/(360 / circle factor)); golden only when p and q <= 6.
+    Row: (p/q, decimal, factor, circle factor, slice, sky cell, T24 cell, lower score)"""
     exact, ratio = [], []
     for s in sky:
         for t in t24:
             sf, st, tf, tt = s[3], s[4], t[4], t[5]
             low = min(s[5], t[6])
             if (sf == tf and st == tt) or (sf != tf and families.digits4(s[2]) == families.digits4(t[3])):
-                exact.append(('1', 1.0, None, s, t, low))
+                exact.append(('1', 1.0, None, None, None, s, t, low))
             elif sf == tf and sf in MATCH_RATIO_FAM:
                 a, b = (int(st), int(tt)) if sf == 'whole' else (golden_k(st), golden_k(tt))
                 g = math.gcd(a, b)
-                if g >= 2:
-                    hi, lo = max(a, b), min(a, b)
-                    ratio.append((f'{hi // g}/{lo // g}', hi / lo, f'{g}' if sf == 'whole' else f'{g}×φ', s, t, low))
-    exact.sort(key=lambda r: -r[5])                        # stable: SKY block order, then T24 order
-    ratio.sort(key=lambda r: (r[1], -r[5]))
+                hi, lo = max(a, b), min(a, b)
+                if sf == 'whole':
+                    cf = math.gcd(g, 360)
+                    if cf >= MATCH_CIRCLE_MIN:
+                        ratio.append((f'{hi // g}/{lo // g}', hi / lo, f'{g}', cf, f'1/{360 // cf}', s, t, low))
+                elif g >= 2 and hi // g <= MATCH_GOLDEN_MAX and lo // g <= MATCH_GOLDEN_MAX:
+                    ratio.append((f'{hi // g}/{lo // g}', hi / lo, f'{g}×φ', None, None, s, t, low))
+    exact.sort(key=lambda r: -r[7])                        # stable: SKY block order, then T24 order
+    ratio.sort(key=lambda r: (r[1], -r[7]))
     return exact, ratio
 
 
@@ -795,9 +803,10 @@ MATCH_NOTE = ('every scoring cell of the SKY block (SKY JUPITER: S Jupiter → e
               '{C} body, S body → {C} Jupiter incl. their Jupiter cell, not S Jupiter → S body), either plane with either plane; scoring = the '
               "cell's best family has a score (any score); conjunction cells (target 0) left out. EXACT: same family and same target, or across "
               'families the two values (6 dp) with the same first 4 significant digits, truncated, at the same order of magnitude; sorted by the '
-              'lower score, highest first. RATIO (same family, whole and golden only): different targets sharing a factor >= 2 (whole: gcd of the '
-              'two whole numbers; golden n×φ: gcd of the two multipliers), ratio = larger / smaller in lowest terms; sorted by ratio, lowest first, '
-              'ties by the lower score. Ninths, φ powers, √2, silver: exact only. Score cells coloured by their score as the source cells')
+              'lower score, highest first. RATIO (same family, whole and golden only; tightened 30 Oct 2026): whole - kept only when the circle '
+              'factor gcd(A, B, 360) >= 5 (the largest number dividing both targets and 360; slice of 360 = 1/(360 / circle factor)), shared '
+              'factor = gcd(A, B); golden n×φ - the two multipliers share a factor >= 2 and the ratio in lowest terms p/q has p, q <= 6; ratio = '
+              'larger / smaller in lowest terms; sorted by ratio, lowest first, ties by the lower score. Ninths, φ powers, √2, silver: exact only. Score cells coloured by their score as the source cells')
 
 
 def write_match(ws, row, who, sky, t24):
@@ -806,23 +815,24 @@ def write_match(ws, row, who, sky, t24):
     exact, ratio = match_pairs(sky, t24)
     ws.cell(row=row, column=1, value=tid).font = BOLD
     ws.cell(row=row, column=2, value=f'{tid} (Eddie, 30 Oct 2026): {MATCH_NOTE.format(who=who, C=C)}. EXACT {len(exact)} rows, RATIO '
-                                     f'{len(ratio)} rows (SKY block {len(sky)} scoring cells, T24 {who} {len(t24)})').font = BOLD
+                                     f"{len(ratio)} rows (whole {sum(1 for r in ratio if r[3] is not None)}, golden {sum(1 for r in ratio if r[3] is None)}) "
+                                     f'(SKY block {len(sky)} scoring cells, T24 {who} {len(t24)})').font = BOLD
     row += 1
     for k, h in enumerate(MATCH_HEAD):
         c = ws.cell(row=row, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
     row += 1
     for sec, rows in (('EXACT', exact), ('RATIO', ratio)):
-        for pq, dec, g, s, t, low in rows:
-            vals = [tid, sec, pq, round(dec, 6), g, s[0], s[1], s[2], s[3], s[4], round(s[5], 2), t[0], t[1], t[2], t[3], t[4], t[5],
+        for pq, dec, g, cf, sl, s, t, low in rows:
+            vals = [tid, sec, pq, round(dec, 6), g, cf, sl, s[0], s[1], s[2], s[3], s[4], round(s[5], 2), t[0], t[1], t[2], t[3], t[4], t[5],
                     round(t[6], 2), round(low, 2)]
             for k, v in enumerate(vals):
                 ws.cell(row=row, column=1 + k, value=v)
-            for col, sc, colour in ((11, s[5], s[6]), (18, t[6], t[7]), (19, low, families.colour(low))):
+            for col, sc, colour in ((13, s[5], s[6]), (20, t[6], t[7]), (21, low, families.colour(low))):
                 c = ws.cell(row=row, column=col)
                 c.number_format = '0.00'
                 if colour:
                     c.fill = FILL[colour]
-            for col in (8, 15):
+            for col in (10, 17):
                 ws.cell(row=row, column=col).number_format = '0.000000'
             row += 1
     return row + 1

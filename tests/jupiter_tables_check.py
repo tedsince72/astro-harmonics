@@ -2328,30 +2328,39 @@ check(f'T50 by hand from POSITIONS: lost half hit - Kelso P03 T24 JOCKEY J Pollu
       (c1.value, c1.comment.text.split('\n')[0], r3[2:8], rg[2:8]))
 # ---------------------------------------------------------------------------------------------------------------------------------
 # Test 51 (Eddie, 30 Oct 2026): MATCH HORSE / MATCH JOCKEY on every runner sheet after T24 JOCKEY - SKY block hits against T24 HORSE / JOCKEY
-# hits: EXACT (same family + target, or across families the same first 4 significant digits) and RATIO (whole / golden, gcd >= 2). "Before" =
-# builds by 9e5d5ea5's own tools/. Kelso, Lingfield, rebuilt Ascot (chk_match/check_match.py).
+# hits: EXACT (same family + target, or across families the same first 4 significant digits) and RATIO. RATIO tightened the same day (Eddie,
+# 30 Oct 2026): whole only when the circle factor gcd(A, B, 360) >= 5 (+ 'circle factor', 'slice of 360' columns), golden only when p, q <= 6
+# (was gcd >= 2 for both). "Before" = builds by a76a3e99's own tools/ (MATCH with the first rule); before that commit's tables the sheets are
+# also checked against 9e5d5ea5 through it. Kelso, Lingfield, rebuilt Ascot (chk_match/check_match.py).
 print('test 51: MATCH HORSE / MATCH JOCKEY')
 os.makedirs(f'{tmp}/after51', exist_ok=True)
-out51 = {}
+os.makedirs(f'{tmp}/ha76', exist_ok=True)
+subprocess.run(f'git archive a76a3e99 tools rebuild_kit | tar -x -C {tmp}/ha76', shell=True, check=True)
+out51, out51b = {}, {}
 for n, inp in INP50.items():
-    bo, ao = f'{tmp}/after50/{n}_jupiter_tables.xlsx', f'{tmp}/after51/{n}_jupiter_tables.xlsx'      # before = 9e5d5ea5 (test 50)
+    bo, ao = f'{tmp}/ha76/{n}_jupiter_tables.xlsx', f'{tmp}/after51/{n}_jupiter_tables.xlsx'           # before = a76a3e99 (first MATCH rule)
+    subprocess.run([sys.executable, f'{tmp}/ha76/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
     subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
     out51[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_match/check_match.py', bo, ao], capture_output=True, text=True).stdout
-cnt51 = {n: [l for l in o.splitlines() if 'MATCH' in l and '->' in l] for n, o in out51.items()}
+    out51b[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_match/check_match.py', f'{tmp}/after50/{n}_jupiter_tables.xlsx', ao],
+                               capture_output=True, text=True).stdout
+cnt51 = {n: [l for l in o.splitlines() if 'MATCH' in l and ': SKY ' in l] for n, o in out51.items()}
 print('T51 counts:', cnt51)
-check('T51 against the build before (commit 9e5d5ea5), Kelso, Lingfield, rebuilt Ascot (chk_match/check_match.py): every other cell, merge, '
-      'width and freeze identical; MATCH HORSE then MATCH JOCKEY after T24 JOCKEY; rebuilt from the SKY block cells and the T24 cells on the '
-      'sheet (scoring, no conjunction; T24 star rows x body columns without S Jupiter, Jupiter rows without S Jupiter → S body): every pair, none '
-      'missing or extra, every cell, score fills, title counts, EXACT by lower score, RATIO by ratio then lower score',
-      all(line(o, 'mismatches:') == 'mismatches: 0' for o in out51.values()) and all(len(v) == 2 * {'kelso': 6, 'lingfield': 6, 'ascot': 1}[n]
-                                                                                   for n, v in cnt51.items()),
-      {n: line(o, 'mismatches:') for n, o in out51.items()})
+check('T51 against the builds before (commits a76a3e99, first MATCH rule, and 9e5d5ea5, no MATCH), Kelso, Lingfield, rebuilt Ascot '
+      '(chk_match/check_match.py): every other cell, merge, width and freeze identical; MATCH HORSE then MATCH JOCKEY after T24 JOCKEY; rebuilt '
+      'from the SKY block cells and the T24 cells on the sheet (scoring, no conjunction; T24 star rows x body columns without S Jupiter, Jupiter '
+      'rows without S Jupiter → S body) on the tightened rules (whole circle factor gcd(A, B, 360) >= 5 with circle factor and slice of 360; '
+      'golden p, q <= 6): every pair, none missing or extra, every cell, score fills, title counts, EXACT by lower score, RATIO by ratio then '
+      'lower score; vs a76a3e99 the EXACT rows identical (the two new columns blank) and every RATIO row one of the old rows',
+      all(line(o, 'mismatches:') == 'mismatches: 0' for o in list(out51.values()) + list(out51b.values()))
+      and all(len(v) == 2 * {'kelso': 6, 'lingfield': 6, 'ascot': 1}[n] for n, v in cnt51.items()),
+      {n: (line(o, 'mismatches:'), line(out51b[n], 'mismatches:')) for n, o in out51.items()})
 # by hand from POSITIONS (Kelso P01 MATCH HORSE)
 w51 = openpyxl.load_workbook(f'{tmp}/after51/kelso_jupiter_tables.xlsx', read_only=True)
 p51 = posmap(w51, 'P01')
 s51 = {x[3]: (x[5], x[6]) for x in w51['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'SKY' and x[3]}
 m51 = [r for r in w51['P01'].iter_rows(values_only=True) if r and r[0] == 'MATCH HORSE' and r[1] in ('EXACT', 'RATIO')]
-mk = lambda r: (r[1], r[5], r[6], r[11], r[12], r[13])
+mk = lambda r: (r[1], r[7], r[8], r[13], r[14], r[15])     # 30 Oct 2026: two columns after 'shared factor'
 M51 = {mk(r): r for r in m51}
 sd = lambda x, pl: round(dpl(s51['Jupiter'], s51[x], pl), 6)
 hd = lambda x, b, pl: round(dpl(p51[('H', x)], p51[('H', b)], pl), 6)
@@ -2360,20 +2369,30 @@ cases = []
 v1, v2 = sd('Rukbat', 'Dec'), hd('Hamal', 'Quaoar', 'Dec')                 # exact, same family: 39 whole / 39 whole
 r1 = M51.get(('EXACT', 'S Jupiter → S Rukbat', 'Dec', 'H Hamal', 'Quaoar', 'Dec'))
 cases.append(('exact whole 39: S Rukbat Dec %.6f (%.2f) / H Hamal – H Quaoar Dec %.6f (%.2f)' % (v1, sq(.02, abs(v1 - 39)), v2, sq(.02, abs(v2 - 39))),
-              r1 is not None and r1[7] == v1 and r1[14] == v2 and r1[9] == r1[16] == '39' and abs(r1[18] - min(sq(.02, abs(v1 - 39)), sq(.02, abs(v2 - 39)))) < 0.006))
+              r1 is not None and r1[9] == v1 and r1[16] == v2 and r1[11] == r1[18] == '39' and abs(r1[20] - min(sq(.02, abs(v1 - 39)), sq(.02, abs(v2 - 39)))) < 0.006))
 v1, v2 = sd('Praesepe', 'RA'), hd('Praesepe', 'Venus', 'RA')               # exact across families: 81×φ golden / 131 whole, 4 digits 1310
 r2 = M51.get(('EXACT', 'S Jupiter → S Praesepe', 'RA', 'H Praesepe', 'Venus', 'RA'))
 cases.append((f'exact across families: S Praesepe RA {v1:.6f} 81×φ golden / H Praesepe – H Venus RA {v2:.6f} 131 whole, digits '
-              f'{F.digits4(v1)} = {F.digits4(v2)}', r2 is not None and (r2[8], r2[9], r2[15], r2[16]) == ('golden', '81×φ', 'whole', '131')
+              f'{F.digits4(v1)} = {F.digits4(v2)}', r2 is not None and (r2[10], r2[11], r2[17], r2[18]) == ('golden', '81×φ', 'whole', '131')
               and F.digits4(v1) == F.digits4(v2) and abs(v1 - 81 * F.PHI) < 0.03236 and abs(v2 - 131) < 0.02))
-v1, v2 = sd('Fomalhaut', 'Dec'), hd('Kaus Australis', 'Mars', 'RA')        # whole ratio 30 / 28 -> 15/14, factor 2
-r3 = M51.get(('RATIO', 'S Jupiter → S Fomalhaut', 'Dec', 'H Kaus Australis', 'Mars', 'RA'))
-cases.append((f'whole ratio: S Fomalhaut Dec {v1:.6f} 28 / H Kaus Australis – H Mars RA {v2:.6f} 30 -> 15/14 (1.071429), factor 2',
-              r3 is not None and r3[2:5] == ('15/14', 1.071429, '2') and abs(v1 - 28) < .02 and abs(v2 - 30) < .02))
-v1, v2 = sd('Haumea', 'RA'), hd('Praesepe', 'Quaoar', 'RA')                # golden ratio 88φ / 86φ -> 44/43, factor 2×φ
-r4 = M51.get(('RATIO', 'S Jupiter → S Haumea', 'RA', 'H Praesepe', 'Quaoar', 'RA'))
-cases.append((f'golden ratio: S Haumea RA {v1:.6f} 88×φ / H Praesepe – H Quaoar RA {v2:.6f} 86×φ -> 44/43, factor 2×φ',
-              r4 is not None and r4[2:5] == ('44/43', round(88 / 86, 6), '2×φ') and abs(v1 - 88 * F.PHI) < .03236 and abs(v2 - 86 * F.PHI) < .03236))
+# 30 Oct 2026 (tightened): whole 90 / 70 kept (circle factor 10, 1/36); whole 30 / 28 dropped (circle factor 2; was 15/14 under gcd >= 2);
+# golden 93φ / 62φ kept (3/2); golden 88φ / 86φ dropped by the cap (44/43; was kept)
+v1, v2 = sd('Aldebaran', 'RA'), hd('Bellatrix', 'Chiron', 'RA')
+r3 = M51.get(('RATIO', 'S Jupiter → S Aldebaran', 'RA', 'H Bellatrix', 'Chiron', 'RA'))
+cases.append((f'whole kept: S Aldebaran RA {v1:.6f} 70 / H Bellatrix – H Chiron RA {v2:.6f} 90 -> 9/7, factor 10, circle factor gcd(70, 90, 360) = 10, 1/36',
+              r3 is not None and r3[2:7] == ('9/7', round(90 / 70, 6), '10', 10, '1/36') and abs(v1 - 70) < .02 and abs(v2 - 90) < .02))
+v1, v2 = sd('Fomalhaut', 'Dec'), hd('Kaus Australis', 'Mars', 'RA')
+cases.append((f'whole dropped: S Fomalhaut Dec {v1:.6f} 28 / H Kaus Australis – H Mars RA {v2:.6f} 30, circle factor gcd(28, 30, 360) = 2 < 5',
+              ('RATIO', 'S Jupiter → S Fomalhaut', 'Dec', 'H Kaus Australis', 'Mars', 'RA') not in M51 and abs(v1 - 28) < .02 and abs(v2 - 30) < .02
+              and math.gcd(math.gcd(28, 30), 360) == 2))
+v1, v2 = sd('Ras Algethi', 'RA'), hd('Menkar', 'Saturn', 'RA')
+r4 = M51.get(('RATIO', 'S Jupiter → S Ras Algethi', 'RA', 'H Menkar', 'Saturn', 'RA'))
+cases.append((f'golden kept: S Ras Algethi RA {v1:.6f} 62×φ / H Menkar – H Saturn RA {v2:.6f} 93×φ -> 3/2, factor 31×φ, circle columns blank',
+              r4 is not None and r4[2:7] == ('3/2', 1.5, '31×φ', None, None) and abs(v1 - 62 * F.PHI) < .03236 and abs(v2 - 93 * F.PHI) < .03236))
+v1, v2 = sd('Haumea', 'RA'), hd('Praesepe', 'Quaoar', 'RA')
+cases.append((f'golden dropped by the cap: S Haumea RA {v1:.6f} 88×φ / H Praesepe – H Quaoar RA {v2:.6f} 86×φ -> 44/43 (44 > 6)',
+              ('RATIO', 'S Jupiter → S Haumea', 'RA', 'H Praesepe', 'Quaoar', 'RA') not in M51 and abs(v1 - 88 * F.PHI) < .03236
+              and abs(v2 - 86 * F.PHI) < .03236))
 # a pair left out (gcd 1): S Rukbat RA 68 whole against every scoring whole T24 HORSE star cell on an odd target from POSITIONS
 odd = [(x, b, pl, round(v)) for x in JT.T1_T2_T24_STARS if ('H', x) in p51 for b in JT.T24_BODIES if ('H', b) in p51 and b != 'Moon'
        for pl in ('RA', 'Dec') for v in [dpl(p51[('H', x)], p51[('H', b)], pl)] if abs(v - round(v)) < 0.02 and round(v) % 2 == 1 and round(v) % 17

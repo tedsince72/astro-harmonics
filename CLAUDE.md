@@ -909,6 +909,29 @@ PARTLY REMOVED 29 Oct 2026 (Eddie): the half family is gone (see "half family re
   value can read either way (Lingfield P07 T24 Dec / Equator 10.0 ninth 100.0).)
 
 ## jupiter_tables: MATCH HORSE / MATCH JOCKEY (Eddie, 30 Oct 2026; viewing only)
+- RATIO TIGHTENED (Eddie, 30 Oct 2026, same day; EXACT unchanged): whole - a ratio row only when the circle factor gcd(A, B, 360) >= 5 (no
+  fraction cap); new columns after 'shared factor': 'circle factor' and 'slice of 360' (1/(360 / circle factor)); golden - gcd of the
+  multipliers >= 2 AND p, q <= 6 for the ratio in lowest terms (circle columns blank). Sort unchanged; the title gives the rules and
+  'RATIO m rows (whole w, golden g)'. Rows are now 21 columns. RATIO before -> after (whole / golden), EXACT unchanged:
+  Kelso P01 H 569 (438 / 131) -> 68 (60 / 8), J 569 (432 / 137) -> 66 (66 / 0); P03 H 570 (426 / 144) -> 85 (82 / 3), J 549 (395 / 154) -> 58
+  (49 / 9); P05 H 676 (515 / 161) -> 85 (80 / 5), J 546 (428 / 118) -> 82 (70 / 12); P07 H 589 (463 / 126) -> 88 (76 / 12), J 538 (398 / 140) ->
+  69 (57 / 12); P09 H 520 (422 / 98) -> 71 (64 / 7), J 557 (458 / 99) -> 70 (66 / 4); P11 H 625 (470 / 155) -> 80 (70 / 10), J 642 (484 / 158) ->
+  74 (67 / 7); total 6,950 (5,329 / 1,621) -> 896 (807 / 89). Lingfield P01 H 42 (30 / 12) -> 10 (9 / 1), J 49 (37 / 12) -> 5 (4 / 1); P03 H 42
+  (39 / 3) -> 11 (10 / 1), J 44 (24 / 20) -> 6 (4 / 2); P05 H 47 (37 / 10) -> 10 (9 / 1), J 48 (41 / 7) -> 7 (6 / 1); P07 H 50 (23 / 27) -> 8
+  (6 / 2), J 62 (46 / 16) -> 13 (12 / 1); P09 H 38 (28 / 10) -> 9 (8 / 1), J 59 (41 / 18) -> 13 (12 / 1); P11 H 41 (27 / 14) -> 16 (12 / 4), J 50
+  (27 / 23) -> 13 (11 / 2); total 572 (400 / 172) -> 121 (103 / 18). Rebuilt Ascot P01 H 459 (429 / 30) -> 90 (89 / 1), J 400 (378 / 22) -> 91
+  (90 / 1); total 859 (807 / 52) -> 181 (179 / 2). Largest table now Kelso P05 MATCH HORSE 106 rows (21 + 85). Sizes: Kelso 2.56 -> 2.00 MB,
+  Lingfield 0.84 -> 0.80, Ascot 0.62 -> 0.56.
+  Test 51 now compares a76a3e99 -> now (EXACT rows identical after the 2-column shift, every RATIO row one of the old ones) and 9e5d5ea5 ->
+  now; by hand (Kelso P01 MATCH HORSE): whole kept S Aldebaran RA 69.998800 70 / H Bellatrix – H Chiron RA 90.005060 90 -> 9/7, circle factor
+  10, 1/36; whole dropped S Fomalhaut Dec 28 / H Kaus Australis – H Mars RA 30 (circle factor 2; was 15/14); golden kept S Ras Algethi RA
+  62×φ / H Menkar – H Saturn RA 93×φ -> 3/2, 31×φ; golden dropped S Haumea RA 88×φ / H Praesepe – H Quaoar RA 86×φ (44/43). Tests 148/148.
+  Independent checker (30 Oct), own code (chk_match/indep/check_ratio_rule.py), all three races: outside MATCH identical (Kelso 260,754
+  cells), EXACT rows identical after the shift, MATCH rebuilt from POSITIONS on the new rules (set, 21 cells, order, fills, titles): 0
+  mismatches; every after RATIO row an old one; dropped whole (cf 1 / 2 / 3 / 4) Kelso 345 / 2,398 / 655 / 1,124, Lingfield 47 / 81 / 82 / 87,
+  Ascot 60 / 432 / 136 / 0; golden dropped by the cap Kelso 1,532, Lingfield 154, Ascot 50; 12 planted errors all caught. Note: 'shared
+  factor' on whole rows is text ('10'), 'circle factor' a number.
+  The text below describes the first rule (gcd >= 2 for both), kept for reference.
 - Every runner sheet, after T24 JOCKEY: MATCH HORSE, then MATCH JOCKEY (sky_match_cells, t24_match_cells, match_pairs, write_match). Sky side:
   every scoring cell of the SKY block (SKY JUPITER: S Jupiter → every sky body, star, the equator; RA, Dec). T24 side: every scoring cell of
   T24 HORSE / JOCKEY: star rows × body columns (not the S Jupiter column), and the Jupiter rows H Jupiter → H body, S Jupiter → H body, S body →
@@ -1391,7 +1414,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
-- **MATCH HORSE / MATCH JOCKEY on every runner sheet (30 Oct 2026, Eddie):** see its section. Tests 148/148.
+- **MATCH HORSE / MATCH JOCKEY on every runner sheet (30 Oct 2026, Eddie), RATIO tightened the same day (whole circle factor >= 5, golden
+  p, q <= 6):** see its section. Tests 148/148.
 - **Half family removed from families.py (29 Oct 2026, Eddie):** see "half family removed". Tests 146/146.
 - **Workbook trimmed (29 Oct 2026, Eddie): POSITIONS, SKY JUPITER, runner T1–T8 + T24 HORSE / JOCKEY (five Jupiter rows on top); no
   summary, --full-only sheets or _pairs workbook:** see "workbook trimmed". Tests 145/145.
