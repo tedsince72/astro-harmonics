@@ -14,6 +14,9 @@ Keep it current — at the END of every session, update "Where we are" and commi
 - One race at a time. Blind first: read before opening the result.
 - Eddie will not use the race scraper with Claude (`run_race_swiss.py --url ...`): ask for the race's xlsx + csv instead.
 - Commit trailer: `Co-Authored-By: Claude <noreply@anthropic.com>` (or the session's own attribution).
+- Tests (Eddie, 31 Oct 2026): every change runs the quick suite (`python3 tests/jupiter_tables_check.py`) plus the independent checker.
+  `--full` runs when Eddie asks, or after a change to families.py, the engine or the star lists. With each new change its comparison with
+  the commit before becomes the quick one and the previous change's comparison moves behind a '#@ full:' marker.
 
 ## The key file
 `docs/classic/winner_checklist.md` — every specific thing found in winners (36 kinds), each with exact numbers, races and field results,
@@ -127,7 +130,12 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct; 46 since 20 Oct, 67 since 21 Oct; conjunction cells red, 20 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (154/154; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` = the QUICK suite (127/127, about 5.5 min: every check on the current builds + the
+  comparison with the commit before the current change); `--full` = every test (154/154: also every old-against-old comparison).
+  Segments are marked '#@ quick: <why>' / '#@ full: <why>' in the file. Old-commit builds are cached in tests/.cache/<commit>/ (git-ignored;
+  key: commit, race, a hash of the input's cell values (META created_utc skipped), options, and for old_code builds a hash of today's
+  families.py / jup2 / rebuild_kit), built only when missing. Timing: `python3 tests/time_suite.py [--full] [--log <file>]` (per test, slowest 15,
+  total). Full run cold cache 41.6 min, warm cache 14.0 min. In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -1544,6 +1552,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
   p, q <= 6), re-ordered by sky cell score the same day, then grouped by sky cell under grey header rows the same day; MATCH HORSE | JOCKEY
   side by side added the same day; 31 Oct 2026: BODY and CONJ STAR rows, SUMMARY sheet, runner freeze D4; then groups in blocks FIXED
   STARS / CONJUNCTIONS / OTHER BODIES and SUMMARY on unrounded scores:** see its section. Tests 154/154.
+- **Test suite: quick by default, --full on request, cached old builds (31 Oct 2026, Eddie):** see Tools and the standing rule. Quick 127/127
+  (5.5 min), full 154/154 (cold 41.6 min, warm cache 14.0 min; before the split 42.5 min). tests/time_suite.py times every test.
 - **Half family removed from families.py (29 Oct 2026, Eddie):** see "half family removed". Tests 146/146.
 - **Workbook trimmed (29 Oct 2026, Eddie): POSITIONS, SKY JUPITER, runner T1–T8 + T24 HORSE / JOCKEY (five Jupiter rows on top); no
   summary, --full-only sheets or _pairs workbook:** see "workbook trimmed". Tests 145/145.

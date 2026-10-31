@@ -1,3 +1,8 @@
 __pycache__/
 *.pyc
 *.bak*
+
+# test cache of old-commit builds; generated tables workbooks (Eddie, 31 Oct 2026)
+tests/.cache/
+reference/classic/*_jupiter_tables.xlsx
+reference/classic/*_pairs.xlsx

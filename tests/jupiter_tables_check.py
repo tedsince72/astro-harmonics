@@ -101,6 +101,125 @@ def cell(r, pl, col0=None):
     return c.value, r[c0 + 2].value, r[c0 + 4].value, (c.fill.start_color.rgb if c.fill.fill_type else None), r[c0 + 5].value
 
 
+line = lambda out, k: next((l for l in out.splitlines() if l.startswith(k)), '')
+
+# ---------------------------------------------------------------------------------------------------------------------------------
+# Cached old builds (Eddie, 31 Oct 2026). Every workbook built by an old commit's code goes to tests/.cache/<commit>/ and is built only when
+# missing. Key: commit, race (input name), options, a hash of the input's content (the cell values of every sheet, without the META row
+# 'created_utc' that a card-pipeline rebuild stamps; or every file of a folder), and for old_code() builds (old jupiter_tables.py on today's tools/) a hash of
+# today's tools/families.py, tools/jup2/*.py and rebuild_kit/*.py. run_build() copies the cached workbook (and a _pairs sibling) to the path
+# the test asks for and returns the build's stdout, so the checks below are unchanged.
+import hashlib, types, zipfile, glob, shutil as _shutil
+CACHE = os.path.join(REPO, 'tests', '.cache')
+ARCH = {}                                                  # extracted tools/ folder -> commit
+
+
+def _h(b):
+    return hashlib.sha1(b).hexdigest()[:12]
+
+
+_KEYS = {}
+
+
+def input_key(inp):
+    p = os.path.abspath(inp)
+    st = os.stat(p)
+    k = (p, st.st_mtime, st.st_size)
+    if k not in _KEYS:
+        h = hashlib.sha1()
+        if os.path.isdir(p):
+            for f in sorted(os.listdir(p)):
+                if f.endswith('.xlsx') and not f.startswith('~$'):
+                    h.update(f.encode()); h.update(input_key(os.path.join(p, f)).encode())
+        else:                                              # cell values of every sheet; the META row 'created_utc' (a card-pipeline rebuild's time) left out
+            _w = openpyxl.load_workbook(p, read_only=True)
+            for _ws in _w.worksheets:
+                h.update(_ws.title.encode())
+                for _r in _ws.iter_rows(values_only=True):
+                    if not (_r and _r[0] == 'created_utc'):
+                        h.update(repr(_r).encode())
+            _w.close()
+        _KEYS[k] = h.hexdigest()[:12]
+    return _KEYS[k]
+
+
+def env_key():
+    files = ['tools/families.py'] + sorted(glob.glob('tools/jup2/*.py')) + sorted(glob.glob('rebuild_kit/*.py'))
+    return _h(b''.join(open(os.path.join(REPO, f), 'rb').read() for f in files))
+
+
+def extract(commit, d):
+    """git archive <commit> tools rebuild_kit -> d (as before; cheap), remembered so run_build() knows the commit of d/tools/jupiter_tables.py"""
+    os.makedirs(d, exist_ok=True)
+    if not os.path.exists(os.path.join(d, 'tools', 'jupiter_tables.py')):
+        subprocess.run(f'git archive {commit} tools rebuild_kit | tar -x -C {d}', shell=True, check=True)
+    ARCH[os.path.abspath(d)] = commit
+
+
+NBUILT_OLD = [0, 0]                                        # [built, from the cache]
+
+
+def run_build(argv, **kw):
+    """an old build: argv = [script, input, options..., '--out', out]; script = tools/_jt_before_<commit>.py (old_code) or <extracted>/tools/
+    jupiter_tables.py (git archive). -> object with .stdout / .returncode, as subprocess.run"""
+    script, inp, rest = argv[0], argv[1], list(argv[2:])
+    i = rest.index('--out')
+    out, opts = rest[i + 1], rest[:i] + rest[i + 2:]
+    m = re.search(r'_jt_before_(\w+)\.py$', script)
+    if m:
+        commit, extra = m.group(1), '_env' + env_key()
+    else:
+        commit, extra = ARCH[os.path.abspath(os.path.dirname(os.path.dirname(script)))], ''
+    stem = os.path.basename(inp.rstrip('/')).replace('.xlsx', '')
+    key = f"{stem}_{input_key(inp)}_{'-'.join(o.strip('-') for o in opts) or 'def'}{extra}"
+    d = os.path.join(CACHE, commit)
+    path = os.path.join(d, f'{key}_jupiter_tables.xlsx')
+    if not os.path.exists(path):
+        os.makedirs(d, exist_ok=True)
+        r = subprocess.run([sys.executable, script, inp] + opts + ['--out', path], capture_output=True, text=True)
+        if r.returncode != 0 or not os.path.exists(path):
+            print(f'  old build failed: {commit} {stem} {opts}: {r.stderr[-400:]}')
+            return types.SimpleNamespace(stdout=r.stdout, stderr=r.stderr, returncode=r.returncode or 1)
+        open(path + '.log', 'w').write(r.stdout)
+        NBUILT_OLD[0] += 1
+    else:
+        NBUILT_OLD[1] += 1
+    os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
+    _shutil.copy(path, out)
+    pairs = path.replace('_jupiter_tables.xlsx', '_pairs.xlsx')
+    if os.path.exists(pairs):
+        _shutil.copy(pairs, out.replace('_jupiter_tables', '_pairs'))
+    log = open(path + '.log').read() if os.path.exists(path + '.log') else ''
+    return types.SimpleNamespace(stdout=log.replace(path, out), stderr='', returncode=0)
+
+
+
+# ---------------------------------------------------------------------------------------------------------------------------------
+# QUICK / FULL (Eddie, 31 Oct 2026). The rest of this file is cut into segments by '#@ quick: <why>' / '#@ full: <why>' lines (the code before the
+# first marker is quick). Default run: the quick segments - every check on the current build (by-hand cells from POSITIONS, family rules,
+# layout, order, counts) and the comparison with the commit before the current change. --full: every segment, as before (every old-commit
+# comparison). All segments run in this module's namespace, in file order, with their own line numbers.
+FULL = '--full' in sys.argv
+if not globals().get('_SEGMENTED'):
+    _SEGMENTED = True
+    _src = open(os.path.abspath(__file__), encoding='utf-8').read().split('\n')
+    _me = next(i for i, l in enumerate(_src) if l.startswith('#@@ end of the segment runner'))
+    _segs, _mode, _why, _start = [], 'quick', 'tests 1 - 30 on the current builds', _me + 1
+    for _i in range(_me + 1, len(_src) + 1):
+        if _i == len(_src) or _src[_i].startswith('#@ '):
+            _segs.append((_mode, _why, _start, _i))
+            if _i < len(_src):
+                _mode, _why = _src[_i][3:].split(':', 1)
+                _mode, _why, _start = _mode.strip(), _why.strip(), _i + 1
+    _skip = [s for s in _segs if s[0] == 'full' and not FULL]
+    print(f"{'FULL' if FULL else 'QUICK'} run: {len(_segs) - len(_skip)} of {len(_segs)} segments"
+          + ('' if FULL else f" ({len(_skip)} full-only segments skipped; --full runs them)"))
+    for _mode, _why, _a, _b in _segs:
+        if _mode == 'full' and not FULL:
+            continue
+        exec(compile('\n' * _a + '\n'.join(_src[_a:_b]), os.path.abspath(__file__), 'exec'), globals())
+    sys.exit(0 if all(RES) else 1)
+#@@ end of the segment runner
 print('Test 1: Nottingham 15:30 2022 (batch xlsx) — Dynamic Force')
 wb = openpyxl.load_workbook(build('reference/classic/race_batch_20220601_nottingham_1530.xlsx'))
 ws = sheet_of(wb, 'Dynamic Force')
@@ -920,6 +1039,7 @@ gf35, gf46 = f'{tmp}/s35/full_jupiter_tables.xlsx', f'{tmp}/s46/full_jupiter_tab
 for _b, _o in ((b35, gf35), (b46, gf46)):
     subprocess.run([sys.executable, 'tools/jupiter_tables.py', _b, '--full', '--out', _o], capture_output=True, text=True)
 gw46 = openpyxl.load_workbook(gf46)
+#@ full: old_code builds of 93e73bc4, ad0defaf, 18aff98a, 632447ff, 00b6db9e, 5e10f7bf: inputs of the old-against-old comparisons of tests 31-41
 # 20 Oct 2026 (Eddie, T24 conjunction red): the comparisons of tests 31 - 34 with their builds before run on builds by the code of commit
 # 93e73bc4 (before the red fill), so they keep checking their own change; test 35 checks 93e73bc4 -> now (red fill only)
 bf = 'tools/_jt_before_93e73bc4.py'
@@ -928,7 +1048,7 @@ os.makedirs(f'{tmp}/h93', exist_ok=True)
 lf_h, gf_h, gf35_h = (f'{tmp}/h93/{n}_jupiter_tables.xlsx' for n in ('lingfield', 'ascot', 'ascot35'))
 for inp, out in (('reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_h), (b46, gf_h),          # 46-star copy (21 Oct 2026)
                  (b35, gf35_h)):
-    subprocess.run([sys.executable, bf, inp, '--full', '--out', out], capture_output=True, text=True)
+    run_build([bf, inp, '--full', '--out', out], capture_output=True, text=True)
 os.remove(bf)
 # 21 Oct 2026 (Eddie, 20 more stars): builds by the code of commit ad0defaf (46 stars, red fill) - test 35 compares 93e73bc4 with these,
 # test 36 compares these with now (lf_r, gf_r on the full 66-star batch)
@@ -938,7 +1058,7 @@ os.makedirs(f'{tmp}/had', exist_ok=True)
 lf_r, gf_r, gf46_r, gf35_r = (f'{tmp}/had/{n}_jupiter_tables.xlsx' for n in ('lingfield', 'ascot', 'ascot46', 'ascot35'))
 for inp, out in (('reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_r), (f'{tmp}/race_batch_20120619_ascot_1430.xlsx', gf_r),
                  (b46, gf46_r), (b35, gf35_r)):
-    subprocess.run([sys.executable, bf, inp, '--full', '--out', out], capture_output=True, text=True)
+    run_build([bf, inp, '--full', '--out', out], capture_output=True, text=True)
 os.remove(bf)
 # 22 Oct 2026 (Eddie, every star in every timeline, LONG >= 90): builds by the code of commit 18aff98a (67 stars, before that change) - tests 34
 # and 36 count and compare on these, test 37 compares them with now
@@ -948,7 +1068,7 @@ os.makedirs(f'{tmp}/h18', exist_ok=True)
 lf_s, gf_s, gf46_s = (f'{tmp}/h18/{n}_jupiter_tables.xlsx' for n in ('lingfield', 'ascot', 'ascot46'))
 for inp, out in (('reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_s), (f'{tmp}/race_batch_20120619_ascot_1430.xlsx', gf_s),
                  (b46, gf46_s)):
-    subprocess.run([sys.executable, bf, inp, '--full', '--out', out], capture_output=True, text=True)
+    run_build([bf, inp, '--full', '--out', out], capture_output=True, text=True)
 os.remove(bf)
 gw46_s, gw_s = openpyxl.load_workbook(gf46_s), openpyxl.load_workbook(gf_s)
 # 22 Oct 2026 (Eddie, LONG STAR TIMELINE): builds by the code of commit 632447ff (star timelines, before LONG STAR TIMELINE) - test 37 compares
@@ -958,7 +1078,7 @@ open(bf, 'w').write(old_code('632447ff'))
 os.makedirs(f'{tmp}/h63', exist_ok=True)
 lf_t, gf_t = (f'{tmp}/h63/{n}_jupiter_tables.xlsx' for n in ('lingfield', 'ascot'))
 for inp, out in (('reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_t), (f'{tmp}/race_batch_20120619_ascot_1430.xlsx', gf_t)):
-    subprocess.run([sys.executable, bf, inp, '--full', '--out', out], capture_output=True, text=True)
+    run_build([bf, inp, '--full', '--out', out], capture_output=True, text=True)
 os.remove(bf)
 # 22 Oct 2026 (Eddie, sky star timelines trimmed, T24 STAR SELECT): builds by the code of commit 00b6db9e (LONG STAR TIMELINE) - test 38
 # compares 632447ff with these, test 39 compares these with now
@@ -969,7 +1089,7 @@ lf_u, gf_u = (f'{tmp}/h00/{n}_jupiter_tables.xlsx' for n in ('lingfield', 'ascot
 lf_ud, gf_ud = (f'{tmp}/h00/{n}_def_jupiter_tables.xlsx' for n in ('lingfield', 'ascot'))
 for inp, out, fl in (('reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_u, ['--full']), (f'{tmp}/race_batch_20120619_ascot_1430.xlsx', gf_u, ['--full']),
                      ('reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_ud, []), (f'{tmp}/race_batch_20120619_ascot_1430.xlsx', gf_ud, [])):
-    subprocess.run([sys.executable, bf, inp] + fl + ['--out', out], capture_output=True, text=True)
+    run_build([bf, inp] + fl + ['--out', out], capture_output=True, text=True)
 os.remove(bf)
 # 29 Oct 2026 (Eddie, workbook trim): the builds by 0ad7d2e5's code (with T24 STAR SELECT) fed only test 40's comparison, retired - removed
 # 22 Oct 2026 (Eddie, T24 repeats flag): builds by the code of commit 5e10f7bf (T24 STAR SELECT removed, before the repeats), default and
@@ -980,8 +1100,9 @@ os.makedirs(f'{tmp}/h5e', exist_ok=True)
 H5E = {(n, f): f'{tmp}/h5e/{n}_{f}_jupiter_tables.xlsx' for n in ('lingfield', 'ascot') for f in ('full', 'def')}
 for (n, f), out in H5E.items():
     inp = 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx' if n == 'lingfield' else f'{tmp}/race_batch_20120619_ascot_1430.xlsx'
-    subprocess.run([sys.executable, bf, inp] + (['--full'] if f == 'full' else []) + ['--out', out], capture_output=True, text=True)
+    run_build([bf, inp] + (['--full'] if f == 'full' else []) + ['--out', out], capture_output=True, text=True)
 os.remove(bf)
+#@ quick: T30 new-star leak check on the current rebuilt Ascot build
 leak = []
 for w in (gfw,):                                              # 29 Oct 2026 (workbook trim): no pairs workbook
     for sh in w.sheetnames:
@@ -1066,6 +1187,7 @@ for nm, w, nst in (('Ascot', gw, 67), ('Lingfield', lfw, 21)):
     det.append(f'{nm} {len(got)} lists of {nst}')
 check('T31 T1, T2, T24 SKY / HORSE / JOCKEY and SKY block star rows in RA order: rebuilt Ascot 67 (35 until 20 Oct 2026, 46 until 21 Oct), Lingfield 21 (its old batch: 22 stars '
       'with Polaris, no Galactic Centre)', ok, '; '.join(det))
+#@ full: T31 comparison 1d37f4a9 -> 93e73bc4 builds (old against old)
 # the build before (commit 1d37f4a9) and the comparison, both races (--full)
 bf = 'tools/_jt_before_1d37f4a9.py'
 open(bf, 'w').write(old_code('1d37f4a9'))
@@ -1073,7 +1195,7 @@ cmp = {}
 for nm, inp, after in (('Lingfield', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_h),
                        ('Ascot', b35, gf35_h)):               # 35-star copy (20 Oct 2026), code of 93e73bc4
     bo = f'{tmp}/{nm}_before_jupiter_tables.xlsx'
-    subprocess.run([sys.executable, bf, inp, '--full', '--out', bo], capture_output=True, text=True)
+    run_build([bf, inp, '--full', '--out', bo], capture_output=True, text=True)
     r = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_raorder/compare_raorder.py', bo, after], capture_output=True, text=True)
     cmp[nm] = (r.stdout, bo)
 os.remove(bf)
@@ -1098,6 +1220,7 @@ tls = {n: (tl(b, lambda t: 'Polaris' in t), tl(a, lambda t: bool(NEWRE.search(t)
 check('T31 sky TIMELINE and LONG TIMELINE rows identical to the build before apart from the Polaris events (gone) and the new-star events '
       '(20 Oct 2026; both races)', all(b == a and b for b, a in tls.values()),
       ', '.join(f'{n} {len(a)} rows' for n, (b, a) in tls.items()))
+#@ quick: T31 SKY block cells and by-hand cases on the current build
 # SKY block new-star cells = the T1 SKY cells (rebuilt Ascot)
 sb = {x[1].value.split(' → S ')[1]: x for x in gw['SKY JUPITER'].iter_rows() if x[0].value == 'SKY' and x[1].value and ' → S ' in str(x[1].value)}
 t1 = {x[1].value.split(' → H ')[1]: x for x in gw['P01'].iter_rows() if x[0].value == 'T1' and x[1].value and ' → H ' in str(x[1].value)}
@@ -1178,6 +1301,7 @@ for nm, w, off, nst in (('Ascot', gw, datetime.datetime(2012, 6, 19, 14, 30), 67
 check('T33 SKY STARS complete: every pair of the batch\'s stars (67 / 21, no Polaris; 35 until 20 Oct 2026, 46 until 21 Oct) and plane (Equator: straddle) measured, and the rows '
       'on the sheet = exactly those passing the filter (ratio on an interval, midpoint hit, or all three families; together out)',
       not bad, '; '.join(det) + f' {bad[:2]}')
+#@ full: T33 comparison bb23ade2 -> 93e73bc4 builds (old against old)
 # against the build before (commit bb23ade2): old-star rows unchanged, Polaris rows / events gone, new-star rows / events added, rest identical
 bf = 'tools/_jt_before_bb23ade2.py'
 open(bf, 'w').write(old_code('bb23ade2'))
@@ -1185,7 +1309,7 @@ out33 = {}
 for nm, inp, after in (('Lingfield', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_h),
                        ('Ascot', b35, gf35_h)):               # 35-star copy (20 Oct 2026), code of 93e73bc4
     bo = f'{tmp}/{nm}_before33_jupiter_tables.xlsx'
-    subprocess.run([sys.executable, bf, inp, '--full', '--out', bo], capture_output=True, text=True)
+    run_build([bf, inp, '--full', '--out', bo], capture_output=True, text=True)
     out33[nm] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_sky35/compare_sky35.py', bo, after], capture_output=True, text=True).stdout
 os.remove(bf)
 ok_ = True
@@ -1200,6 +1324,7 @@ check('T33 against the build before (commit bb23ade2): every old-star SKY STARS 
       'Polaris, the rows added all with a new star; TIMELINE / LONG TIMELINE: events dropped all Polaris, added all new-star, every other event '
       'unchanged (time, cells, also); every other row of every sheet identical (both races)', ok_,
       ' | '.join(f"{n}: {line(o, 'SKY STARS rows per area')[24:]}; {line(o, 'TIMELINE:')}; {line(o, 'LONG TIMELINE:')}" for n, o in out33.items()))
+#@ quick: T33 new-star events re-searched with the engine on the current build
 # new-star events: exact time = the source cell's timing; beyond 60 min the real time re-searched with the engine
 A_OFF = datetime.datetime(2012, 6, 19, 14, 30)
 JA = EN._to_jd_ut(EN._parse_time('2012-06-19 14:30', 'Europe/London'))
@@ -1333,6 +1458,7 @@ check('T34 the 46 (Ascot) / 21 (Lingfield) in RA order in T1, T2, T24 SKY / HORS
       'tables gone 29 Oct 2026)', ok, '; '.join(det))
 # against the build before (commit 7d88f329): the after workbook minus the rows naming one of the 11 = the before workbook, row for row
 # (values, fills, comments), except title rows with counts; the 11 only in the allowed tables. 29 Oct 2026 (Eddie, workbook trim): the
+#@ full: T34 comparison 7d88f329 -> 93e73bc4, and timeline counts on the 18aff98a build (old)
 # pairs-workbook part retired (it compared with the current build's pairs workbook, no longer written); both builds are by older code
 bf = 'tools/_jt_before_7d88f329.py'
 open(bf, 'w').write(old_code('7d88f329'))
@@ -1340,7 +1466,7 @@ out34 = {}
 for nm, inp, after in (('Lingfield', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf_h),
                        ('Ascot', b46, gf_h)):     # 46-star copy (21 Oct 2026)
     bo = f'{tmp}/{nm}_before34_jupiter_tables.xlsx'
-    subprocess.run([sys.executable, bf, inp, '--full', '--out', bo], capture_output=True, text=True)
+    run_build([bf, inp, '--full', '--out', bo], capture_output=True, text=True)
     o = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_stars46/compare_46.py', bo, after], capture_output=True, text=True).stdout
     out34[nm] = (o, True)
 os.remove(bf)
@@ -1371,6 +1497,7 @@ check('T34 rebuilt Ascot: TIMELINE 47 events (12 new-star; 10 before the off, 4 
       '67 (20 new-star; 33 / 34))', tln(gw46_s, 'TIMELINE') == 12 and tln(gw46_s, 'LONG TIMELINE') == 17
       and tlt(gw46_s)[0].endswith('47 events, 10 before the off, 4 in the first 5 min, 33 after') and tlt(gw46_s)[1].endswith('49 events, 21 separating, 28 applying'),
       f"{tln(gw46_s, 'TIMELINE')} / {tln(gw46_s, 'LONG TIMELINE')}; {tlt(gw46_s)[0][-70:]}; {tlt(gw46_s)[1][-40:]}")
+#@ quick: T34 by-hand cells from POSITIONS on the current builds
 # by hand from POSITIONS (rebuilt Ascot): two cells each of T1, T2, T24 (one ratio table cell), the SKY block and SKY STARS; Menkar in each table
 NT = {122.222: 0.722222, 13.3333: 0.083333}                 # the _NINTH_RANGES tolerances of these two bands
 cases = [  # (table, chart, star, plane, column, value, target text, offset, score by hand, fill)
@@ -1440,6 +1567,7 @@ for a, b, pl, tv, tt in (('Denebola', 'Unukalhai', 'RA', 1.5, '3/2 · fifth · P
 # ---- 35. T24 conjunction red fill (Eddie, 20 Oct 2026; display only): every T24 SKY / HORSE / JOCKEY body cell and T24 H / J distance
 # cell red (FF8080) exactly when RA < 1.5 / Dec < 0.3, otherwise the fill of the build before (commit 93e73bc4); values, comments, borders
 # and every other cell identical (only the T24 title note changes); pairs workbooks identical
+#@ full: T35 comparison 93e73bc4 -> ad0defaf builds (old against old)
 out35 = {}
 for nm, bo, after in (('Lingfield', lf_h, lf_r), ('Ascot', gf_h, gf46_r), ('Ascot35', gf35_h, gf35_r)):   # builds by ad0defaf's code (21 Oct 2026)
     o = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_t24red/compare_red.py', bo, after], capture_output=True, text=True).stdout
@@ -1462,6 +1590,7 @@ check('T35 T24 conjunction red, both races --full, commit 93e73bc4 vs commit ad0
 # is gone
 # Test 36 (Eddie, 21 Oct 2026): 20 more stars (Ankaa ... Sualocin; Aculeus = M6, Acumen = M7, Facies = M22) and the Orion Nebula Cluster
 # (M42), built as one change; T1_T2_T24_STARS 67 in engine RA order, the same tables as the 11; everything else unchanged. "Before" = ad0defaf.
+#@ quick: T36 star order and lists on the current builds
 print('test 36: 20 more stars and the Orion Nebula Cluster (67 in T1, T2, T24, T24 ratio tables, SKY block, SKY STARS, sky timelines)')
 CAT21 = {'Ankaa': (6.571, -42.306), 'Al Rescha': (30.512, 2.764), 'Mirfak': (51.081, 49.861), 'El Nath': (81.573, 28.607),
          'Meissa': (83.784, 9.934), 'Alnilam': (84.053, -1.202), 'Murzim': (95.675, -17.956), 'Alhena': (99.428, 16.399),
@@ -1507,6 +1636,7 @@ check('T36 the 67 (Ascot) / 21 (Lingfield) in RA order in T1, T2, T24 SKY / HORS
 # against the build before (commit ad0defaf), both races --full: the after workbook minus the rows naming one of the 20 = the before
 # workbook, row for row (values, fills, comments; every row of the 46 earlier stars, SKY STARS pairs and timeline events), only count titles
 # differ; the 21 only in the allowed tables; pairs identical
+#@ full: T36 comparison ad0defaf -> 18aff98a, and timeline counts on the 18aff98a build (old)
 out36 = {}
 for nm, bo, after in (('Lingfield', lf_r, lf_s), ('Ascot', gf_r, gf_s)):   # 22 Oct 2026: the after = built by the code of 18aff98a
     o = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_stars67/compare_67.py', bo, after], capture_output=True, text=True).stdout
@@ -1537,6 +1667,7 @@ check('T36 rebuilt Ascot: TIMELINE 87 events (40 new-star; 27 before the off, 7 
       '126 (59 new-star; 61 / 65))', tln21(gw_s, 'TIMELINE') == 40 and tln21(gw_s, 'LONG TIMELINE') == 55
       and tlt(gw_s)[0].endswith('87 events, 27 before the off, 7 in the first 5 min, 53 after') and tlt(gw_s)[1].endswith('104 events, 45 separating, 59 applying'),
       f"{tln21(gw_s, 'TIMELINE')} / {tln21(gw_s, 'LONG TIMELINE')}; {tlt(gw_s)[0][-70:]}; {tlt(gw_s)[1][-40:]}")
+#@ quick: T36 by-hand cells from POSITIONS on the current build
 # by hand from POSITIONS (rebuilt Ascot): two cells each of T1, T2, T24 (one ratio table cell), the SKY block and SKY STARS; clusters in T1,
 # T24 and SKY STARS
 cases = [  # (table, chart, star, plane, column, value, target text, offset, score by hand, fill)
@@ -1659,6 +1790,7 @@ check('T36 SKY STARS pairs of the Orion Nebula Cluster with Meissa, Alnilam, Pha
 # Test 37 (Eddie, 22 Oct 2026): all 67 stars in every timeline - runner TIMELINE H / J and LONG TIMELINE H / J take star events off-sheet
 # (S Jup→star, star→Jup, S Jup on star pair, star apex), STAR TIMELINE (sky) and STAR TIMELINE H / J (the Jupiter–star events), LONG
 # TIMELINE threshold >= 90 (was 80). "Before" = commit 18aff98a.
+#@ full: T37 comparison 18aff98a -> 632447ff (old against old)
 print('test 37: all 67 stars in every timeline, STAR TIMELINE, LONG >= 90')
 SSRC = ('S Jup→star', 'star→Jup', 'S Jup on star pair', 'star apex')
 out37 = {}
@@ -1680,6 +1812,7 @@ check('T37 against the build before (commit 18aff98a), both races --full: every 
 # retired 29 Oct 2026 (Eddie, workbook trim): every runner star event recomputed from POSITIONS (own code star_expect: S Jup→star, star→Jup,
 # S Jup on star pair, star apex) in TIMELINE H / J and LONG TIMELINE H / J, none missing or extra; the rebuilt Ascot LONG TIMELINE H / J star
 # events' real times (engine crossing within ±1 min) and "not within 1 year" (daily scan) - the runner timelines are gone
+#@ quick: T37 STAR TIMELINE and LONG >= 90 on the current builds
 # STAR TIMELINE (sky) and STAR TIMELINE H / J = the TIMELINE rows between Jupiter and stars only (own test: no body name, at least one star)
 BODYW = re.compile(r'\b(' + '|'.join(b for b in JT.SKY_BODIES + JT.NATAL_BODIES + ['equator'] if b != 'Jupiter') + r')\b')
 STW = re.compile(r'\b(' + '|'.join(re.escape(x) for x in sorted(set(JT.STARS) | set(EXPECT67), key=len, reverse=True)) + r')\b')
@@ -1715,6 +1848,7 @@ check('T37 every sky LONG TIMELINE event scores >= 90 at the off (was >= 80), bo
 # H Nunki Equator 3/2; TIMELINE H Nunki star apex Equator 15/8 and LONG TIMELINE J Sadalsuud Dec √2 - the runner timelines are gone
 # Test 38 (Eddie, 22 Oct 2026): LONG STAR TIMELINE (sky) and LONG STAR TIMELINE H / J = the LONG TIMELINE rows between Jupiter and stars only;
 # every other row unchanged. "Before" = commit 632447ff.
+#@ full: T38 comparison 632447ff -> 00b6db9e (old against old)
 print('test 38: LONG STAR TIMELINE')
 out38 = {}
 for nm, bo, after in (('Lingfield', lf_t, lf_u), ('Ascot', gf_t, gf_u)):    # 632447ff -> 00b6db9e (the builds above)
@@ -1736,6 +1870,7 @@ check('T38 LONG STAR TIMELINE (sky) / LONG STAR TIMELINE H / J, both races --ful
       'SEPARATING / APPLYING with their counts, title counts, every row >= 90; every other row of every sheet identical to the build before '
       '(commit 632447ff); counts (separating / applying) as reported', all(line(o, 'mismatches:') == 'mismatches: 0' for o in out38.values())
       and got38 == W38, f"{ {k: line(o, 'mismatches:') for k, o in out38.items()} }; {got38['Ascot']}")
+#@ quick: T38 LONG STAR TIMELINE sort on the current builds
 # sort (own check): inside each section by score at the off, highest first; ties: separating most recent first, applying soonest first
 bad = []
 for nm, w in (('Ascot', gw), ('Lingfield', lfw)):
@@ -1759,6 +1894,7 @@ check('T38 sky LONG STAR TIMELINE sections in order (own check; H / J blocks gon
       'tie-break is the LONG TIMELINE order, compared row for row above); separating / applying in the right section', not bad, f'{bad[:3]}')
 # Test 39 (Eddie, 22 Oct 2026): sky STAR / LONG STAR TIMELINE trimmed to S Jupiter-centred events, 95 / 100 / 95 times; runner T24 STAR
 # SELECT tables. "Before" = commit 00b6db9e.
+#@ full: T39 comparison 00b6db9e -> current (an older commit, not the one before the current change)
 print('test 39: sky star timelines trimmed, 95 / 100 / 95 (T24 STAR SELECT removed)')
 out39 = {}
 for nm, inp, after, bfull, bdef in (('Lingfield', 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', lf, lf_u, lf_ud),
@@ -1778,6 +1914,7 @@ check('T39 against the build before (commit 00b6db9e), both races, default and -
       all(line(o, 'mismatches:') == 'mismatches: 0' for o in out39.values()) and all(DROP39[k[0]] in o for k, o in out39.items())
       and all('STAR TIMELINE: before 65, after 65, dropped 0' in o for k, o in out39.items() if k[0] == 'Ascot'),   # 66 -> 65 (half removed, 29 Oct 2026)
       f"{ {k: line(o, 'mismatches:') for k, o in out39.items()} }")
+#@ quick: T39 95 / 100 / 95 cells re-searched with the engine on the current builds; T40 current builds
 # (b) every 95 / 100 / 95 cell re-searched with the engine (own score code from POSITIONS + engine; families.py for the targets)
 _s.path.insert(0, 'tools/jup2')
 import motion as MO2
@@ -1911,6 +2048,7 @@ for n in ('lingfield', 'ascot'):
 # Test 41 (Eddie, 22 Oct 2026): T24 repeats flag - T24 SKY / HORSE / JOCKEY: the same best target (family + target number, no x10 / /10
 # folding; conjunction cells out) in two or more body cells of a star row; "repeats" column, dotted outline (thick midpoint outline kept),
 # comment line, title counts. "Before" = commit 5e10f7bf.
+#@ full: T41 builds by 10b18003 and the comparison 5e10f7bf -> 10b18003 (old against old)
 print('test 41: T24 repeats flag')
 # 24 Oct 2026 (Eddie, "not a 4-digit match" wording): builds by the code of commit 10b18003 (repeats, half, 4-digit rule, old wording),
 # default and --full - test 41 compares these with the 5e10f7bf builds (the repeats alone), test 43 with now (the wording alone)
@@ -1920,7 +2058,7 @@ os.makedirs(f'{tmp}/h10', exist_ok=True)
 for n in ('lingfield', 'ascot'):
     inp = 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx' if n == 'lingfield' else f'{tmp}/race_batch_20120619_ascot_1430.xlsx'
     for f in ('full', 'def'):
-        subprocess.run([sys.executable, bf, inp] + (['--full'] if f == 'full' else []) + ['--out', f'{tmp}/h10/{n}_{f}_jupiter_tables.xlsx'],
+        run_build([bf, inp] + (['--full'] if f == 'full' else []) + ['--out', f'{tmp}/h10/{n}_{f}_jupiter_tables.xlsx'],
                        capture_output=True, text=True)
 os.remove(bf)
 out41 = {}
@@ -1942,6 +2080,7 @@ check('T41 against the build before (commit 5e10f7bf), both races, default and -
 # are all outside the 4-digit match now (2413 / 2406 vs 2414; 1667 / 1665 vs 1666; 1446 / 1438 / 1435 vs 1444), so no repeat is left there. Moved
 # to the repeats there are now (found by the rule): rebuilt Ascot T24 SKY S Rukbat 56 whole (Juno RA, Ceres Dec), T24 JOCKEY J Algol 63 whole
 # (Gonggong Dec, Uranus Dec); Lingfield T24 SKY S Betelgeuse 16 whole (Juno Dec, Makemake Dec), both cells also midpoint cells (thick kept).
+#@ quick: T41 by-hand repeats cells on the current builds; T42 family rules by hand on the current families
 
 
 def t24cell(w, sh, tid, lab, body, pl):
@@ -1986,7 +2125,7 @@ for w, sh, who, tid, ch, star, n_, (B1, P1), (B2, P2), thick_ in (
 print('test 42: half family removed (29 Oct 2026) and the 4-digit rule')
 import importlib.util as _ilu
 os.makedirs(f'{tmp}/h85', exist_ok=True)
-subprocess.run(f'git archive 83850b1c tools rebuild_kit | tar -x -C {tmp}/h85', shell=True, check=True)
+extract(f'83850b1c', f'{tmp}/h85')
 _sp = _ilu.spec_from_file_location('families_old', f'{tmp}/h85/tools/families.py')
 FO = _ilu.module_from_spec(_sp)
 _sp.loader.exec_module(FO)
@@ -2053,6 +2192,7 @@ check('T42 by hand from POSITIONS (rebuilt Ascot P01): ' + '; '.join(w for _, w 
 # Test 43 (Eddie, 24 Oct 2026): a value inside its family's old tolerance that fails the 4-digit match reads '<target> <family> — not a
 # 4-digit match (<offset>)' (T24 comments: 'nearest: ' + that); beyond the old tolerance '— outside ±<tol>' stays. No score, no fill on either.
 # "Before" = builds by the code of commit 10b18003 (half + 4-digit rule, the old wording).
+#@ full: T43 comparison 10b18003 -> b19fac1f builds (old against old)
 print('test 43: "not a 4-digit match" wording')
 out43 = {}
 # 27 Oct 2026: "after" = builds by b19fac1f's code on today's families (as h10): the whole-on-target fix (test 45) in both, no SKY STARS tables (test 44)
@@ -2062,7 +2202,7 @@ os.makedirs(f'{tmp}/hf43', exist_ok=True)
 for n in ('lingfield', 'ascot'):
     inp = 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx' if n == 'lingfield' else f'{tmp}/race_batch_20120619_ascot_1430.xlsx'
     for f in ('full', 'def'):
-        subprocess.run([sys.executable, bf, inp] + (['--full'] if f == 'full' else []) + ['--out', f'{tmp}/hf43/{n}_{f}_jupiter_tables.xlsx'],
+        run_build([bf, inp] + (['--full'] if f == 'full' else []) + ['--out', f'{tmp}/hf43/{n}_{f}_jupiter_tables.xlsx'],
                        capture_output=True, text=True)
 os.remove(bf)
 for n in ('lingfield', 'ascot'):
@@ -2076,6 +2216,7 @@ check('T43 against the build before (commit 10b18003), both races, default and -
       'borders, formats and every other text identical', all(line(o, 'mismatches:') == 'mismatches: 0' for o in out43.values())
       and all(int(line(o, 'changed cells:').split()[2]) > 0 for o in out43.values()),
       f"{ {k: (line(o, 'changed cells:'), line(o, 'mismatches:')) for k, o in out43.items()} }")
+#@ quick: T43 by-hand wording on the current build
 # by hand from POSITIONS (rebuilt Ascot P01): one of each wording
 w43 = openpyxl.load_workbook(f'{tmp}/after40/ascot_full_jupiter_tables.xlsx')
 pp = posmap(w43, 'P01')
@@ -2096,6 +2237,7 @@ check(f'T43 by hand from POSITIONS: T2 J Jupiter → J Hamal Dec {v1:.6f}, 29×�
 # Test 44 (Eddie, 27 Oct 2026): T24 HORSE / JOCKEY (SKY STARS) on every runner sheet (stars whose S Jupiter → S star SKY block cell scores,
 # the T24 row copied, sky hit, SCORES) and the SKY STARS SUMMARY sheet. "Before" = commit b19fac1f. Kelso 14:50 2022, rebuilt Ascot 14:30 2012,
 # Lingfield 14:35 2021, default and --full (chk_t24ss/check_t24ss.py).
+#@ full: T44 builds by f1327932 (old), inputs of the T45 comparison
 print('test 44: builds by f1327932\'s code for test 45 (the SKY STARS checks retired)')
 # retired 29 Oct 2026 (Eddie, workbook trim): T44 against the build before (commit b19fac1f, chk_t24ss/check_t24ss.py; selection, copied T24
 # cells, sky hit, SCORES, headers, summary, pairs identical); Kelso selects Eddie's 14 stars; by hand from POSITIONS (Kelso P01) H Rukbat sky hit,
@@ -2103,17 +2245,18 @@ print('test 44: builds by f1327932\'s code for test 45 (the SKY STARS checks ret
 # and the pairs workbook are gone (the Kelso build by b19fac1f's code removed). The builds by f1327932's code stay: test 45 compares with them.
 os.makedirs(f'{tmp}/after44', exist_ok=True)
 os.makedirs(f'{tmp}/hf13', exist_ok=True)
-subprocess.run(f'git archive f1327932 tools rebuild_kit | tar -x -C {tmp}/hf13', shell=True, check=True)
+extract(f'f1327932', f'{tmp}/hf13')
 KELSO = 'reference/classic/race_batch_20220504_kelso_1450.xlsx'
 INP44 = {'kelso': KELSO, 'lingfield': 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx', 'ascot': f'{tmp}/race_batch_20120619_ascot_1430.xlsx'}
 for n, inp in INP44.items():
     for f in ('def', 'full'):
         fl = ['--full'] if f == 'full' else []
-        subprocess.run([sys.executable, f'{tmp}/hf13/tools/jupiter_tables.py', inp] + fl + ['--out', f'{tmp}/after44/{n}_{f}_jupiter_tables.xlsx'],
+        run_build([f'{tmp}/hf13/tools/jupiter_tables.py', inp] + fl + ['--out', f'{tmp}/after44/{n}_{f}_jupiter_tables.xlsx'],
                        capture_output=True, text=True)
 # ---------------------------------------------------------------------------------------------------------------------------------
 # Test 45 (Eddie, 27 Oct 2026): whole numbers checked on the TARGET (families.score_whole_t: t = round(v), 1 <= t <= 200, |v − t| < 0.02,
 # squared); active_vibrations.score_whole needed 1 <= v, so 0.98 < v < 1 never scored on 1. "Before" = commit f1327932 (builds in hf13).
+#@ quick: T45 whole-on-target family rule by hand (current families)
 print('test 45: whole numbers on the target')
 import active_vibrations as AV
 cases = [(0.997954, ('1', 80.59)), (0.98, None), (0.981, ('1', 0.25)), (1.002, ('1', 81.00)), (199.99, ('200', 25.00)), (200.01, ('200', 25.00))]
@@ -2125,13 +2268,14 @@ check('T45 whole on the target by hand (10 (0.02 − dev) / 0.02)²: 0.997954 ->
       f'= active_vibrations.score_whole ({AV.score_whole(1.002):.2f}), 199.99 / 200.01 -> 200 (25.00); best of 0.997954 Dec = whole 1',
       all(g == (v, w) for g, (v, w) in zip(got45, cases)) and abs(AV.score_whole(1.002) - F.score_family(1.002, 'whole')[0]) < 1e-9
       and F.best(0.997954, 'Dec')['family'] == 'whole', got45)
+#@ full: T45 comparison f1327932 -> 35255b16 and the Meissa cell on the 35255b16 build (old)
 L67 = f'{tmp}/l67/race_batch_20210402_lingfield_aw_1435.xlsx'          # Eddie's 67-star rebuild of Lingfield 14:35 2021 (27 Oct 2026)
 os.makedirs(f'{tmp}/l67', exist_ok=True); os.makedirs(f'{tmp}/after45', exist_ok=True)
 shutil.copy(f'{AP}/racecards/20210402_lingfield_aw/race_batch_20210402_lingfield_aw_1435.xlsx', L67)
 INP45 = dict(INP44, l67=L67)
 # 27 Oct 2026 (S Jupiter column + Jupiter rows, test 46): the "after" builds are by 35255b16's code, so test 45 checks its own change alone
 os.makedirs(f'{tmp}/hf35', exist_ok=True)
-subprocess.run(f'git archive 35255b16 tools rebuild_kit | tar -x -C {tmp}/hf35', shell=True, check=True)
+extract(f'35255b16', f'{tmp}/hf35')
 # rows changed / dropped / added / with a 0.98-1 value / follow-on (counts, default and --full)
 EXP45 = {('kelso', 'def'): (125, 0, 2, 125, 2), ('kelso', 'full'): (127, 0, 3, 127, 3), ('lingfield', 'def'): (20, 0, 0, 20, 0),
          ('lingfield', 'full'): (20, 0, 0, 20, 0), ('ascot', 'def'): (10, 0, 0, 10, 0), ('ascot', 'full'): (10, 0, 0, 10, 0),
@@ -2142,8 +2286,8 @@ for n, inp in INP45.items():
         fl = ['--full'] if f == 'full' else []
         bo, ao = f'{tmp}/after44/{n}_{f}_jupiter_tables.xlsx', f'{tmp}/after45/{n}_{f}_jupiter_tables.xlsx'
         if n == 'l67':
-            subprocess.run([sys.executable, f'{tmp}/hf13/tools/jupiter_tables.py', inp] + fl + ['--out', bo], capture_output=True, text=True)
-        subprocess.run([sys.executable, f'{tmp}/hf35/tools/jupiter_tables.py', inp] + fl + ['--out', ao], capture_output=True, text=True)
+            run_build([f'{tmp}/hf13/tools/jupiter_tables.py', inp] + fl + ['--out', bo], capture_output=True, text=True)
+        run_build([f'{tmp}/hf35/tools/jupiter_tables.py', inp] + fl + ['--out', ao], capture_output=True, text=True)
         o = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_whole/diff_whole.py', bo, ao], capture_output=True, text=True).stdout
         out45[(n, f)] = (o, tuple(int(x) for x in re.findall(r': (\d+)', line(o, 'rows changed:'))))
 fol = [l for o, _ in out45.values() for l in o.splitlines() if '[FOLLOWS]' in l]
@@ -2167,7 +2311,9 @@ check(f'T45 by hand from POSITIONS (Lingfield 67-star P09): T24 HORSE H Meissa �
 # and the four Jupiter rows on top of T24 HORSE / JOCKEY (SKY STARS) (S Jupiter → S body, natal Jupiter → natal body, S Jupiter → natal
 # body, S body → natal Jupiter), carried into the summary. "Before" = commit 35255b16 (builds in after45). Kelso, Lingfield, rebuilt Ascot,
 # default and --full (chk_sjcol/check_sjcol.py).
+#@ quick: T46 T24 HORSE five rows and S Jupiter column on the current Kelso build
 print('test 46: T24 S Jupiter column and the Jupiter rows of T24 HORSE (current code, Kelso)')
+KELSO = 'reference/classic/race_batch_20220504_kelso_1450.xlsx'
 # retired 29 Oct 2026 (Eddie, workbook trim): T46 against the build before (commit 35255b16, chk_sjcol/check_sjcol.py: S Jupiter column = SKY block
 # cells; the four Jupiter rows of the (SKY STARS) tables = T1 / T2 SKY, T1 / T2, T5 - T8, T9; SCORES; summary; pairs identical) - the (SKY STARS)
 # tables, the summary and the pairs workbook are gone, and check_sjcol.py imports T24SS_JNOTE from tools/jupiter_tables.py (gone). The a2d20618
@@ -2236,13 +2382,14 @@ check('T46 Jupiter column: blank on S Jupiter → S body and H Jupiter → H bod
 # (SKY STARS) tables + a grey 'stars' row now on top of T24 HORSE / JOCKEY, the Jupiter cell = d(S Jupiter, natal Jupiter) computed directly
 # (= the old T9 value). "Before" = builds by acf68341's own tools/, "after" by 2cc2af2b's (30 Oct 2026). Kelso, Lingfield, rebuilt Ascot, default and --full
 # (chk_trim/check_trim.py).
+#@ full: T49 - T53 comparisons acf68341 -> 2cc2af2b -> 9e5d5ea5 -> 5ea09b4e -> 93b54a43 -> 3da4ae61 and their by-hand cells on those builds (old against old)
 print('test 49: workbook trim (Eddie, 29 Oct 2026)')
 INP49 = {'kelso': 'reference/classic/race_batch_20220504_kelso_1450.xlsx', 'lingfield': 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx',
          'ascot': f'{tmp}/race_batch_20120619_ascot_1430.xlsx'}
 # 30 Oct 2026 (MATCH tables, test 51): before = acf68341's own tools/, after = 2cc2af2b's own tools/ (the trim alone, both with their families)
 for c_, d_ in (('acf68341', 'hacf'), ('2cc2af2b', 'h2cc'), ('9e5d5ea5', 'h9e5')):
     os.makedirs(f'{tmp}/{d_}', exist_ok=True)
-    subprocess.run(f'git archive {c_} tools rebuild_kit | tar -x -C {tmp}/{d_}', shell=True, check=True)
+    extract(f'{c_}', f'{tmp}/{d_}')
 bf = f'{tmp}/hacf/tools/jupiter_tables.py'
 os.makedirs(f'{tmp}/before49', exist_ok=True)
 os.makedirs(f'{tmp}/after49', exist_ok=True)
@@ -2251,8 +2398,8 @@ for n, inp in INP49.items():
     for f in ('def', 'full'):
         fl = ['--full'] if f == 'full' else []
         bo, ao = f'{tmp}/before49/{n}_{f}_jupiter_tables.xlsx', f'{tmp}/after49/{n}_{f}_jupiter_tables.xlsx'
-        rb = subprocess.run([sys.executable, bf, inp] + fl + ['--out', bo], capture_output=True, text=True)
-        ra = subprocess.run([sys.executable, f'{tmp}/h2cc/tools/jupiter_tables.py', inp] + fl + ['--out', ao], capture_output=True, text=True)
+        rb = run_build([bf, inp] + fl + ['--out', bo], capture_output=True, text=True)
+        ra = run_build([f'{tmp}/h2cc/tools/jupiter_tables.py', inp] + fl + ['--out', ao], capture_output=True, text=True)
         out49[(n, f, 'size')] = (re.findall(r'\(([\d.]+ MB)\)', rb.stdout), re.findall(r'\(([\d.]+ MB)\)', ra.stdout))
         out49[(n, f, 'pairs')] = os.path.exists(bo.replace('_jupiter_tables', '_pairs')) and not os.path.exists(ao.replace('_jupiter_tables', '_pairs'))
         out49[(n, f)] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_trim/check_trim.py', bo, ao], capture_output=True, text=True).stdout
@@ -2296,7 +2443,7 @@ out50 = {}
 for n, inp in INP50.items():
     # 30 Oct 2026: before = the 2cc2af2b build of test 49, after = 9e5d5ea5's own tools/ (the half removal alone)
     bo, ao = f'{tmp}/after49/{n}_def_jupiter_tables.xlsx', f'{tmp}/after50/{n}_jupiter_tables.xlsx'
-    subprocess.run([sys.executable, f'{tmp}/h9e5/tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
+    run_build([f'{tmp}/h9e5/tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
     out50[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_nohalf/check_nohalf.py', bo, ao], capture_output=True, text=True).stdout
 check('T50 against the build before (commit 2cc2af2b, families with half), Kelso, Lingfield, rebuilt Ascot (chk_nohalf/check_nohalf.py): every '
       'changed cell is a cell that scored or was named as half before, or in its value group (target, offset, score, arrow, also, timing), or a '
@@ -2339,15 +2486,15 @@ check(f'T50 by hand from POSITIONS: lost half hit - Kelso P03 T24 JOCKEY J Pollu
 print('test 51: MATCH HORSE / MATCH JOCKEY')
 os.makedirs(f'{tmp}/after51', exist_ok=True)
 os.makedirs(f'{tmp}/h5ea', exist_ok=True)
-subprocess.run(f'git archive 5ea09b4e tools rebuild_kit | tar -x -C {tmp}/h5ea', shell=True, check=True)
+extract(f'5ea09b4e', f'{tmp}/h5ea')
 os.makedirs(f'{tmp}/h8f4', exist_ok=True)       # 30 Oct 2026 (grouped by sky cell): before = 8f42f04e (sky-score order, two sections)
-subprocess.run(f'git archive 8f42f04e tools rebuild_kit | tar -x -C {tmp}/h8f4', shell=True, check=True)
+extract(f'8f42f04e', f'{tmp}/h8f4')
 INP51 = dict(INP50, ripon='reference/classic/race_batch_20220616_ripon_1525.xlsx')
 out51, out51b = {}, {}
 for n, inp in INP51.items():
     bo, ao = f'{tmp}/h8f4/{n}_jupiter_tables.xlsx', f'{tmp}/after51/{n}_jupiter_tables.xlsx'
-    subprocess.run([sys.executable, f'{tmp}/h8f4/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
-    subprocess.run([sys.executable, f'{tmp}/h5ea/tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
+    run_build([f'{tmp}/h8f4/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
+    run_build([f'{tmp}/h5ea/tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
     out51[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_match/check_match.py', bo, ao], capture_output=True, text=True).stdout
     if n in INP50:
         out51b[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_match/check_match.py', f'{tmp}/after50/{n}_jupiter_tables.xlsx', ao],
@@ -2459,11 +2606,11 @@ check('T51 by hand from POSITIONS (Kelso P01 MATCH HORSE; Ripon P01): ' + '; '.j
 print('test 52: MATCH HORSE | JOCKEY')
 os.makedirs(f'{tmp}/after52', exist_ok=True)
 os.makedirs(f'{tmp}/h93b', exist_ok=True)              # 31 Oct 2026 (test 53): after = 93b54a43's own tools/ (MATCH HORSE | JOCKEY alone)
-subprocess.run(f'git archive 93b54a43 tools rebuild_kit | tar -x -C {tmp}/h93b', shell=True, check=True)
+extract(f'93b54a43', f'{tmp}/h93b')
 out52 = {}
 for n, inp in INP51.items():
     ao = f'{tmp}/after52/{n}_jupiter_tables.xlsx'
-    subprocess.run([sys.executable, f'{tmp}/h93b/tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
+    run_build([f'{tmp}/h93b/tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
     out52[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_matchhj/check_hj.py', f'{tmp}/after51/{n}_jupiter_tables.xlsx', ao],
                               capture_output=True, text=True).stdout
 print('T52 keys:', {n: [l for l in o.splitlines() if l.startswith('P')] for n, o in out52.items()})
@@ -2510,14 +2657,14 @@ check('T52 by hand from POSITIONS (Ripon P01): ' + '; '.join(c for c, _ in cases
 print('test 53: BODY, CONJ STAR, SUMMARY, freeze D4')
 os.makedirs(f'{tmp}/after53', exist_ok=True)
 os.makedirs(f'{tmp}/h3da', exist_ok=True)              # 31 Oct 2026 (test 54): after = 3da4ae61's own tools/ (this change alone)
-subprocess.run(f'git archive 3da4ae61 tools rebuild_kit | tar -x -C {tmp}/h3da', shell=True, check=True)
+extract(f'3da4ae61', f'{tmp}/h3da')
 INP53 = dict(INP51, newcastle='reference/classic/race_batch_20210802_newcastle_aw_1633.xlsx')
 out53 = {}
 for n, inp in INP53.items():
     bo, ao = f'{tmp}/after52/{n}_jupiter_tables.xlsx', f'{tmp}/after53/{n}_jupiter_tables.xlsx'
     if not os.path.exists(bo):
-        subprocess.run([sys.executable, f'{tmp}/h93b/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
-    subprocess.run([sys.executable, f'{tmp}/h3da/tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
+        run_build([f'{tmp}/h93b/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
+    run_build([f'{tmp}/h3da/tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
     out53[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_match31/check_m31.py', bo, ao], capture_output=True, text=True).stdout
 print('T53 rows:', {n: [l for l in o.splitlines() if re.match(r'P\d\d ', l)] for n, o in out53.items()})
 check('T53 against the build before (commit 93b54a43), Kelso, Lingfield, rebuilt Ascot, Ripon, Newcastle AW 16:33 2021 (chk_match31/check_m31.py): '
@@ -2579,14 +2726,20 @@ check('T53 by hand from POSITIONS: ' + '; '.join(c for c, _ in cases53), all(ok 
 # conjunction), CONJUNCTIONS (star / equator conjunction), OTHER BODIES (body cells, then body conjunctions at the end); inside by sky score;
 # SUMMARY filter on unrounded scores. Before = 3da4ae61's own tools/ (builds of test 53); five races + Goodwood 18:53 27 Aug 2021 (the only
 # one with an equator group: S Jupiter → S equator Dec 14 whole). chk_match32/check_m32.py.
+#@ quick: T54 comparison with 3da4ae61 (the commit before the current change) and by-hand cells on the current builds
 print('test 54: MATCH blocks, SUMMARY unrounded')
 os.makedirs(f'{tmp}/after54', exist_ok=True)
-INP54 = dict(INP53, goodwood='reference/classic/race_batch_20210827_goodwood_1853.xlsx')
+INP54 = {'kelso': 'reference/classic/race_batch_20220504_kelso_1450.xlsx', 'lingfield': 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx',
+         'ascot': f'{tmp}/race_batch_20120619_ascot_1430.xlsx', 'ripon': 'reference/classic/race_batch_20220616_ripon_1525.xlsx',
+         'newcastle': 'reference/classic/race_batch_20210802_newcastle_aw_1633.xlsx', 'goodwood': 'reference/classic/race_batch_20210827_goodwood_1853.xlsx'}
+extract('3da4ae61', f'{tmp}/h3da')                      # the build before (also built in test 53 with --full; cached)
+os.makedirs(f'{tmp}/after53', exist_ok=True)
+sqd = lambda d, tol: (10 * (tol - d) / tol) ** 2
 out54 = {}
 for n, inp in INP54.items():
     bo, ao = f'{tmp}/after53/{n}_jupiter_tables.xlsx', f'{tmp}/after54/{n}_jupiter_tables.xlsx'
     if not os.path.exists(bo):
-        subprocess.run([sys.executable, f'{tmp}/h3da/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
+        run_build([f'{tmp}/h3da/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
     subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
     out54[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_match32/check_m32.py', bo, ao], capture_output=True, text=True).stdout
 print('T54 groups per block:', {n: [l for l in o.splitlines() if re.match(r'P\d\d ', l)] for n, o in out54.items()})
@@ -2626,12 +2779,13 @@ cases54.append(('Ripon P01 MATCH HORSE: S Murzim RA 90.000720 90 whole (92.93) u
 wg = openpyxl.load_workbook(f'{tmp}/after54/goodwood_jupiter_tables.xlsx', read_only=True)
 sg = {x[3]: (x[5], x[6]) for x in wg['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'SKY' and x[3]}
 ve = abs(sg['Jupiter'][1])
-he = f'S Jupiter → S equator Dec {ve:.6f} 14 whole ({sq(abs(ve - 14), 0.02):.2f})'
+he = f'S Jupiter → S equator Dec {ve:.6f} 14 whole ({sqd(abs(ve - 14), 0.02):.2f})'
 bg = blocks54(f'{tmp}/after54/goodwood_jupiter_tables.xlsx', 'P01', 'MATCH HORSE')
 cases54.append((f'Goodwood P01 MATCH HORSE: the equator group {he!r} under FIXED STARS (|Dec S Jupiter| from POSITIONS)',
-                (round(ve, 6), round(sq(abs(ve - 14), 0.02), 2)) == (14.000933, 90.89)
+                (round(ve, 6), round(sqd(abs(ve - 14), 0.02), 2)) == (14.000933, 90.89)
                 and any(g.startswith(he + ' — ') for g in dict(bg).get('FIXED STARS', []))))
 check('T54 by hand: ' + '; '.join(c for c, _ in cases54), all(ok for _, ok in cases54), [c for c, ok in cases54 if not ok])
 shutil.rmtree(tmp, ignore_errors=True)
+print(f"old builds: {NBUILT_OLD[0]} built, {NBUILT_OLD[1]} from tests/.cache ({'--full' if FULL else 'quick'} run)")
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
