@@ -130,8 +130,8 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct; 46 since 20 Oct, 67 since 21 Oct; conjunction cells red, 20 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` = the QUICK suite (127/127, about 5.5 min: every check on the current builds + the
-  comparison with the commit before the current change); `--full` = every test (154/154: also every old-against-old comparison).
+  Tests `python3 tests/jupiter_tables_check.py` = the QUICK suite (127/127, about 4-5.5 min with a warm cache: every check on the current builds + the
+  comparison with the commit before the current change); `--full` = every test (155 checks since 31 Oct ratio 1; last run 154/154 before it: also every old-against-old comparison).
   Segments are marked '#@ quick: <why>' / '#@ full: <why>' in the file. Old-commit builds are cached in tests/.cache/<commit>/ (git-ignored;
   key: commit, race, a hash of the input's cell values (META created_utc skipped), options, and for old_code builds a hash of today's
   families.py / jup2 / rebuild_kit), built only when missing. Timing: `python3 tests/time_suite.py [--full] [--log <file>]` (per test, slowest 15,
@@ -917,6 +917,18 @@ PARTLY REMOVED 29 Oct 2026 (Eddie): the half family is gone (see "half family re
   value can read either way (Lingfield P07 T24 Dec / Equator 10.0 ninth 100.0).)
 
 ## jupiter_tables: MATCH HORSE / MATCH JOCKEY (Eddie, 30 Oct 2026; viewing only)
+- RATIO 1 LIGHT BLUE, SUMMARY FREEZE D4 (Eddie, 31 Oct 2026, third change that day; display only): every column C cell whose ratio is '1' (the EXACT
+  rows) filled BDD7EE (UNI) in MATCH HORSE / MATCH JOCKEY; MATCH HORSE | JOCKEY and SUMMARY copy the style, so they carry it too; BODY / CONJ STAR
+  (blank C) none; nothing else changes. SUMMARY freeze D4 (runner sheets D4, POSITIONS / SKY JUPITER none, unchanged).
+  Blue cells (MATCH HORSE / MATCH JOCKEY / MATCH HORSE | JOCKEY summed over runners / SUMMARY): Kelso 90 / 94 / 136 / 38, Lingfield 17 / 13 / 26 / 9,
+  rebuilt Ascot 9 / 14 / 16 / 3, Ripon 53 / 46 / 73 / 9, Newcastle AW 16:33 2021 50 / 41 / 71 / 1, Goodwood 18:53 2021 84 / 86 / 128 / 4.
+  Quick 127/127 (4.2 min, warm cache); --full now 155 checks, not run for this change: test 55 (quick; chk_ratio1/check_r1.py) vs builds by e6267326 (Part 1 commit), six races: only the SUMMARY freeze and
+  the C fills differ, blue exactly on the C cells with '1' (every EXACT row, no other section), the counts above. Test 54's comparison moved
+  behind '#@ full:' (3da4ae61 vs e6267326 builds, = ef4298c6 tools/); its by-hand cases stay quick on the current builds.
+  Independent checker (31 Oct), own code (chk_ratio1/indep/: check_r1.py, plants_r1.py), Kelso, Lingfield, Ripon, Newcastle, Goodwood: every C cell
+  and fill of the four tables, every sheet's freeze, before vs after every cell (Kelso 392,246, Lingfield 174,204, Ripon 359,899, Newcastle 418,092,
+  Goodwood 382,105; blue changes 358 / 65 / 181 / 163 / 302, other differences 0): 0 mismatches; planted missing fill, extra fill (RATIO row, BODY
+  row) and wrong freeze (SUMMARY C4, P01 C4) all caught.
 - BLOCKS and SUMMARY on unrounded scores (Eddie, 31 Oct 2026, second change that day; rules, rows and cells unchanged; match_block,
   match_band): groups (one per sky cell) now in three blocks in MATCH HORSE, MATCH JOCKEY, MATCH HORSE | JOCKEY and SUMMARY: FIXED STARS (S Jupiter
   → S star or the equator, best family not conjunction), CONJUNCTIONS (star / equator cells whose best family is conjunction), OTHER BODIES
@@ -1552,6 +1564,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
   p, q <= 6), re-ordered by sky cell score the same day, then grouped by sky cell under grey header rows the same day; MATCH HORSE | JOCKEY
   side by side added the same day; 31 Oct 2026: BODY and CONJ STAR rows, SUMMARY sheet, runner freeze D4; then groups in blocks FIXED
   STARS / CONJUNCTIONS / OTHER BODIES and SUMMARY on unrounded scores:** see its section. Tests 154/154.
+- **MATCH ratio 1 light blue in column C, SUMMARY freeze D4 (31 Oct 2026, Eddie):** see the MATCH section. Quick 127/127.
 - **Test suite: quick by default, --full on request, cached old builds (31 Oct 2026, Eddie):** see Tools and the standing rule. Quick 127/127
   (5.5 min), full 154/154 (cold 41.6 min, warm cache 14.0 min; before the split 42.5 min). tests/time_suite.py times every test.
 - **Half family removed from families.py (29 Oct 2026, Eddie):** see "half family removed". Tests 146/146.

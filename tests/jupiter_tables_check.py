@@ -2726,13 +2726,14 @@ check('T53 by hand from POSITIONS: ' + '; '.join(c for c, _ in cases53), all(ok 
 # conjunction), CONJUNCTIONS (star / equator conjunction), OTHER BODIES (body cells, then body conjunctions at the end); inside by sky score;
 # SUMMARY filter on unrounded scores. Before = 3da4ae61's own tools/ (builds of test 53); five races + Goodwood 18:53 27 Aug 2021 (the only
 # one with an equator group: S Jupiter → S equator Dec 14 whole). chk_match32/check_m32.py.
-#@ quick: T54 comparison with 3da4ae61 (the commit before the current change) and by-hand cells on the current builds
+#@ full: T54 comparison 3da4ae61 -> e6267326 builds (old against old; e6267326's tools/ = ef4298c6's, the block-order change)
 print('test 54: MATCH blocks, SUMMARY unrounded')
 os.makedirs(f'{tmp}/after54', exist_ok=True)
 INP54 = {'kelso': 'reference/classic/race_batch_20220504_kelso_1450.xlsx', 'lingfield': 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx',
          'ascot': f'{tmp}/race_batch_20120619_ascot_1430.xlsx', 'ripon': 'reference/classic/race_batch_20220616_ripon_1525.xlsx',
          'newcastle': 'reference/classic/race_batch_20210802_newcastle_aw_1633.xlsx', 'goodwood': 'reference/classic/race_batch_20210827_goodwood_1853.xlsx'}
 extract('3da4ae61', f'{tmp}/h3da')                      # the build before (also built in test 53 with --full; cached)
+extract('e6267326', f'{tmp}/he62')                      # the build after (Part 1 commit; also the 'before' of test 55)
 os.makedirs(f'{tmp}/after53', exist_ok=True)
 sqd = lambda d, tol: (10 * (tol - d) / tol) ** 2
 out54 = {}
@@ -2740,10 +2741,10 @@ for n, inp in INP54.items():
     bo, ao = f'{tmp}/after53/{n}_jupiter_tables.xlsx', f'{tmp}/after54/{n}_jupiter_tables.xlsx'
     if not os.path.exists(bo):
         run_build([f'{tmp}/h3da/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
-    subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
+    run_build([f'{tmp}/he62/tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
     out54[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_match32/check_m32.py', bo, ao], capture_output=True, text=True).stdout
 print('T54 groups per block:', {n: [l for l in o.splitlines() if re.match(r'P\d\d ', l)] for n, o in out54.items()})
-check('T54 against the build before (commit 3da4ae61), Kelso, Lingfield, rebuilt Ascot, Ripon, Newcastle AW 16:33 2021, Goodwood 18:53 2021 '
+check('T54 builds by e6267326 (= ef4298c6 tools/) against the build before (commit 3da4ae61), Kelso, Lingfield, rebuilt Ascot, Ripon, Newcastle AW 16:33 2021, Goodwood 18:53 2021 '
       '(chk_match32/check_m32.py): every sheet and runner-sheet cell before the MATCH tables identical; each MATCH table = before with its groups '
       'moved only (every group cell for cell, titles excepted); order FIXED STARS (incl. the equator), CONJUNCTIONS, OTHER BODIES (body '
       'conjunctions last), inside by the sky score recomputed from POSITIONS (unrounded), ties SKY block order; band rows (A6A6A6, A to the last '
@@ -2754,6 +2755,37 @@ check('T54 against the build before (commit 3da4ae61), Kelso, Lingfield, rebuilt
                                                                               'goodwood': 5}[n] for n, o in out54.items())
       and all(l.endswith('2-dp edge lines []') for o in out54.values() for l in o.splitlines() if re.match(r'P\d\d ', l)),
       {n: line(o, 'mismatches:') for n, o in out54.items()})
+
+#@ quick: T55 comparison with e6267326 (the commit before the current change); T54 by-hand cells on the current builds
+print('test 55: SUMMARY freeze D4, ratio 1 light blue in column C')
+INP55 = {'kelso': 'reference/classic/race_batch_20220504_kelso_1450.xlsx', 'lingfield': 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx',
+         'ascot': f'{tmp}/race_batch_20120619_ascot_1430.xlsx', 'ripon': 'reference/classic/race_batch_20220616_ripon_1525.xlsx',
+         'newcastle': 'reference/classic/race_batch_20210802_newcastle_aw_1633.xlsx', 'goodwood': 'reference/classic/race_batch_20210827_goodwood_1853.xlsx'}
+extract('e6267326', f'{tmp}/he62')
+for d in ('before55', 'after55'):
+    os.makedirs(f'{tmp}/{d}', exist_ok=True)
+sqd = lambda d, tol: (10 * (tol - d) / tol) ** 2
+out55 = {}
+for n, inp in INP55.items():
+    bo, ao = f'{tmp}/before55/{n}_jupiter_tables.xlsx', f'{tmp}/after55/{n}_jupiter_tables.xlsx'
+    run_build([f'{tmp}/he62/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
+    subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
+    out55[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_ratio1/check_r1.py', bo, ao], capture_output=True, text=True).stdout
+print('T55 filled C cells:', {n: line(o, 'totals:') for n, o in out55.items()})
+check('T55 against the build before (commit e6267326), Kelso, Lingfield, rebuilt Ascot, Ripon, Newcastle AW 16:33 2021, Goodwood 18:53 2021 '
+      '(chk_ratio1/check_r1.py): every sheet, value, font, border, alignment, number format, comment, merge and width identical; freeze '
+      'SUMMARY None -> D4, every other sheet unchanged (runner sheets D4, POSITIONS / SKY JUPITER none); the only fill change is column C on '
+      'MATCH HORSE / MATCH JOCKEY / MATCH HORSE | JOCKEY data rows (runner sheets and SUMMARY), none -> BDD7EE exactly where column C is '
+      "'1' (EXACT rows, every one of them); no BDD7EE anywhere else",
+      all(line(o, 'mismatches:') == 'mismatches: 0' for o in out55.values())
+      and all(line(o, 'freeze:').startswith("freeze: {'POSITIONS': None, 'SKY JUPITER': None, 'P01': 'D4', 'SUMMARY': 'D4'}") for o in out55.values())
+      and {n: line(o, 'totals:') for n, o in out55.items()} == {n: f'totals: MATCH HORSE {h}, MATCH JOCKEY {j}, MATCH HORSE | JOCKEY {hj} | SUMMARY {sm}'
+           for n, (h, j, hj, sm) in {'kelso': (90, 94, 136, 38), 'lingfield': (17, 13, 26, 9), 'ascot': (9, 14, 16, 3), 'ripon': (53, 46, 73, 9),
+                                     'newcastle': (50, 41, 71, 1), 'goodwood': (84, 86, 128, 4)}.items()},
+      {n: line(o, 'mismatches:') for n, o in out55.items()})
+os.makedirs(f'{tmp}/after54', exist_ok=True)               # T54's by-hand cases (below) read the current builds
+for n in INP55:
+    shutil.copy(f'{tmp}/after55/{n}_jupiter_tables.xlsx', f'{tmp}/after54/{n}_jupiter_tables.xlsx')
 cases54 = []
 def blocks54(path, P, tid):
     """-> [(band, [group header texts])] of one MATCH table"""

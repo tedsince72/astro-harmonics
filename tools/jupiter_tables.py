@@ -812,6 +812,7 @@ def match_extra(skya, ch, C, jrows):
 
 MATCH_BANDS = ('FIXED STARS', 'CONJUNCTIONS', 'OTHER BODIES')
 DARK = PatternFill('solid', start_color='A6A6A6')         # block band rows (Eddie, 31 Oct 2026), darker than the GREY group headers
+UNI = PatternFill('solid', start_color='BDD7EE')          # column C ratio '1' (Eddie, 31 Oct 2026; display only)
 
 
 def match_block(s):
@@ -955,6 +956,8 @@ def write_match(ws, row, who, sky, t24, skya=None, extra=()):
                     c.fill = FILL[colour]
             for col in (10, 17):
                 ws.cell(row=row, column=col).number_format = '0.000000'
+            if pq == '1':                                  # ratio 1: column C light blue (Eddie, 31 Oct 2026); MATCH HORSE | JOCKEY and SUMMARY copy it
+                ws.cell(row=row, column=3).fill = UNI
             raw[row] = (s[5], t[6])
             row += 1
     return row + 1
@@ -1152,6 +1155,7 @@ def summary_hj(wb, runners):
             L = openpyxl.utils.get_column_letter(k)
             if L in wb[runners[0]].column_dimensions and wb[runners[0]].column_dimensions[L].customWidth:
                 out.column_dimensions[L].width = wb[runners[0]].column_dimensions[L].width
+    out.freeze_panes = 'D4'                                # Eddie, 31 Oct 2026 (as the runner sheets)
     return out
 
 
