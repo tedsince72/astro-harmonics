@@ -2509,13 +2509,15 @@ check('T52 by hand from POSITIONS (Ripon P01): ' + '; '.join(c for c, _ in cases
 # (none of the four has a conjunction sky star cell over 50; Newcastle has S Sadalmelik RA). chk_match31/check_m31.py.
 print('test 53: BODY, CONJ STAR, SUMMARY, freeze D4')
 os.makedirs(f'{tmp}/after53', exist_ok=True)
+os.makedirs(f'{tmp}/h3da', exist_ok=True)              # 31 Oct 2026 (test 54): after = 3da4ae61's own tools/ (this change alone)
+subprocess.run(f'git archive 3da4ae61 tools rebuild_kit | tar -x -C {tmp}/h3da', shell=True, check=True)
 INP53 = dict(INP51, newcastle='reference/classic/race_batch_20210802_newcastle_aw_1633.xlsx')
 out53 = {}
 for n, inp in INP53.items():
     bo, ao = f'{tmp}/after52/{n}_jupiter_tables.xlsx', f'{tmp}/after53/{n}_jupiter_tables.xlsx'
     if not os.path.exists(bo):
         subprocess.run([sys.executable, f'{tmp}/h93b/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
-    subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
+    subprocess.run([sys.executable, f'{tmp}/h3da/tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
     out53[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_match31/check_m31.py', bo, ao], capture_output=True, text=True).stdout
 print('T53 rows:', {n: [l for l in o.splitlines() if re.match(r'P\d\d ', l)] for n, o in out53.items()})
 check('T53 against the build before (commit 93b54a43), Kelso, Lingfield, rebuilt Ascot, Ripon, Newcastle AW 16:33 2021 (chk_match31/check_m31.py): '
@@ -2572,6 +2574,64 @@ cases53.append((f'Newcastle AW 16:33 2021 P01 MATCH JOCKEY CONJ STAR: S Jupiter 
 fr = {n: {s_: openpyxl.load_workbook(f'{tmp}/after53/{n}_jupiter_tables.xlsx')[s_].freeze_panes for s_ in ('POSITIONS', 'SKY JUPITER', 'P01')} for n in ('ascot',)}
 cases53.append(('freeze: runner sheets D4, POSITIONS and SKY JUPITER none (as before)', fr == {'ascot': {'POSITIONS': None, 'SKY JUPITER': None, 'P01': 'D4'}}))
 check('T53 by hand from POSITIONS: ' + '; '.join(c for c, _ in cases53), all(ok for _, ok in cases53), [c for c, ok in cases53 if not ok])
+
+# Test 54 (Eddie, 31 Oct 2026): MATCH groups in three blocks under darker grey band rows - FIXED STARS (star or equator sky cell, not
+# conjunction), CONJUNCTIONS (star / equator conjunction), OTHER BODIES (body cells, then body conjunctions at the end); inside by sky score;
+# SUMMARY filter on unrounded scores. Before = 3da4ae61's own tools/ (builds of test 53); five races + Goodwood 18:53 27 Aug 2021 (the only
+# one with an equator group: S Jupiter → S equator Dec 14 whole). chk_match32/check_m32.py.
+print('test 54: MATCH blocks, SUMMARY unrounded')
+os.makedirs(f'{tmp}/after54', exist_ok=True)
+INP54 = dict(INP53, goodwood='reference/classic/race_batch_20210827_goodwood_1853.xlsx')
+out54 = {}
+for n, inp in INP54.items():
+    bo, ao = f'{tmp}/after53/{n}_jupiter_tables.xlsx', f'{tmp}/after54/{n}_jupiter_tables.xlsx'
+    if not os.path.exists(bo):
+        subprocess.run([sys.executable, f'{tmp}/h3da/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
+    subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
+    out54[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_match32/check_m32.py', bo, ao], capture_output=True, text=True).stdout
+print('T54 groups per block:', {n: [l for l in o.splitlines() if re.match(r'P\d\d ', l)] for n, o in out54.items()})
+check('T54 against the build before (commit 3da4ae61), Kelso, Lingfield, rebuilt Ascot, Ripon, Newcastle AW 16:33 2021, Goodwood 18:53 2021 '
+      '(chk_match32/check_m32.py): every sheet and runner-sheet cell before the MATCH tables identical; each MATCH table = before with its groups '
+      'moved only (every group cell for cell, titles excepted); order FIXED STARS (incl. the equator), CONJUNCTIONS, OTHER BODIES (body '
+      'conjunctions last), inside by the sky score recomputed from POSITIONS (unrounded), ties SKY block order; band rows (A6A6A6, A to the last '
+      'column) exactly before each block present; title counts; SUMMARY rebuilt on unrounded scores (bands only for shown blocks); no line '
+      'the 2-dp filter would add or drop',
+      all(line(o, 'mismatches:') == 'mismatches: 0' for o in out54.values())
+      and all(len([l for l in o.splitlines() if re.match(r'P\d\d ', l)]) == {'kelso': 6, 'lingfield': 6, 'ascot': 1, 'ripon': 4, 'newcastle': 6,
+                                                                              'goodwood': 5}[n] for n, o in out54.items())
+      and all(l.endswith('2-dp edge lines []') for o in out54.values() for l in o.splitlines() if re.match(r'P\d\d ', l)),
+      {n: line(o, 'mismatches:') for n, o in out54.items()})
+cases54 = []
+def blocks54(path, P, tid):
+    """-> [(band, [group header texts])] of one MATCH table"""
+    out = []
+    for r in openpyxl.load_workbook(path, read_only=True)[P].iter_rows(values_only=True):
+        if r and r[0] == tid and r[1] in ('FIXED STARS', 'CONJUNCTIONS', 'OTHER BODIES'):
+            out.append((r[1], []))
+        elif r and r[0] == tid and isinstance(r[1], str) and ' — EXACT ' in r[1] and len(r[1]) < 300:
+            out[-1][1].append(r[1])
+    return out
+bn = blocks54(f'{tmp}/after54/newcastle_jupiter_tables.xlsx', 'P01', 'MATCH JOCKEY')
+cases54.append(('Newcastle P01 MATCH JOCKEY: bands FIXED STARS, CONJUNCTIONS, OTHER BODIES; CONJUNCTIONS = the S Sadalmelik RA group only',
+                [b for b, _ in bn] == ['FIXED STARS', 'CONJUNCTIONS', 'OTHER BODIES']
+                and [g.split(' — ')[0] for g in bn[1][1]] == ['S Jupiter → S Sadalmelik RA 0.211451 conjunction (73.79)']))
+br = blocks54(f'{tmp}/after54/ripon_jupiter_tables.xlsx', 'P01', 'MATCH HORSE')
+ob = dict(br).get('OTHER BODIES', [])
+cases54.append(('Ripon P01 MATCH HORSE: S Murzim RA 90.000720 90 whole (92.93) under FIXED STARS; no CONJUNCTIONS band; S Juno Dec 0.078975 '
+                'conjunction (54.28) the last group of OTHER BODIES, after every non-conjunction body group',
+                [b for b, _ in br] == ['FIXED STARS', 'OTHER BODIES']
+                and any(g.startswith('S Jupiter → S Murzim RA 90.000720 90 whole (92.93) — ') for g in dict(br)['FIXED STARS'])
+                and ob[-1].startswith('S Jupiter → S Juno Dec 0.078975 conjunction (54.28) — ')
+                and all(' conjunction (' not in g for g in ob[:-1]) and len(ob) == 5))
+wg = openpyxl.load_workbook(f'{tmp}/after54/goodwood_jupiter_tables.xlsx', read_only=True)
+sg = {x[3]: (x[5], x[6]) for x in wg['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'SKY' and x[3]}
+ve = abs(sg['Jupiter'][1])
+he = f'S Jupiter → S equator Dec {ve:.6f} 14 whole ({sq(abs(ve - 14), 0.02):.2f})'
+bg = blocks54(f'{tmp}/after54/goodwood_jupiter_tables.xlsx', 'P01', 'MATCH HORSE')
+cases54.append((f'Goodwood P01 MATCH HORSE: the equator group {he!r} under FIXED STARS (|Dec S Jupiter| from POSITIONS)',
+                (round(ve, 6), round(sq(abs(ve - 14), 0.02), 2)) == (14.000933, 90.89)
+                and any(g.startswith(he + ' — ') for g in dict(bg).get('FIXED STARS', []))))
+check('T54 by hand: ' + '; '.join(c for c, _ in cases54), all(ok for _, ok in cases54), [c for c, ok in cases54 if not ok])
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)

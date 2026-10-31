@@ -127,7 +127,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct; 46 since 20 Oct, 67 since 21 Oct; conjunction cells red, 20 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` (152/152; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
+  Tests `python3 tests/jupiter_tables_check.py` (154/154; builds with --full). In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
@@ -909,6 +909,39 @@ PARTLY REMOVED 29 Oct 2026 (Eddie): the half family is gone (see "half family re
   value can read either way (Lingfield P07 T24 Dec / Equator 10.0 ninth 100.0).)
 
 ## jupiter_tables: MATCH HORSE / MATCH JOCKEY (Eddie, 30 Oct 2026; viewing only)
+- BLOCKS and SUMMARY on unrounded scores (Eddie, 31 Oct 2026, second change that day; rules, rows and cells unchanged; match_block,
+  match_band): groups (one per sky cell) now in three blocks in MATCH HORSE, MATCH JOCKEY, MATCH HORSE | JOCKEY and SUMMARY: FIXED STARS (S Jupiter
+  → S star or the equator, best family not conjunction), CONJUNCTIONS (star / equator cells whose best family is conjunction), OTHER BODIES
+  (S Jupiter → S body cells not conjunction, then the body conjunctions at the end, no band between). Inside each block (and each part of OTHER
+  BODIES) by sky score unrounded, highest first, ties SKY block order (RA before Dec); inside a group unchanged. A band row before each block
+  present (column B the block name, bold; fill A6A6A6, darker than the D9D9D9 group headers, A to the last column: U, AC); none for an empty
+  block. Titles: ORDER sentence replaced, 'groups: FIXED STARS a, CONJUNCTIONS b, OTHER BODIES c (d of them body conjunctions, at the end)'.
+  SUMMARY: filter on the unrounded scores (kept in memory from the MATCH build), cells copied as shown; a band only when one of its groups is
+  shown. Lines added / removed by the unrounded filter: none in the six races below (no score within the 2-dp edge).
+  Groups per block, FIXED STARS / CONJUNCTIONS / OTHER BODIES + body conjunctions, per runner H; J; H | J:
+  Kelso P01 11/0/2+0; 10/0/1+0; 12/0/2+0, P03 8/0/3; 9/0/3; 11/0/3, P05 12/0/2; 9/0/3; 13/0/3, P07 10/0/2; 11/0/3; 13/0/3, P09 9/0/2; 9/0/1;
+  11/0/2, P11 10/0/2; 10/0/3; 11/0/3 (no +). Lingfield P01 0/0/3; 0/0/3; 0/0/4, P03 1/0/4; 1/0/3; 1/0/4, P05 0/0/4; 0/0/3; 0/0/4, P07 0/0/3;
+  1/0/3; 1/0/4, P09 0/0/3; 0/0/3; 0/0/5, P11 0/0/4; 1/0/3; 1/0/4. Ascot P01 5/0/3; 7/0/3; 7/0/3. Ripon P01 9/0/4+1; 11/0/4+0; 11/0/4+1, P03
+  11/0/3; 10/0/4; 11/0/4, P05 9/0/4; 10/0/2; 11/0/4, P07 9/0/4+0; 9/0/4+1; 9/0/4+1. Newcastle AW 16:33 2021 P01 4/0/3; 4/1/3; 5/1/3, P03 4/1/3;
+  2/0/2; 4/1/3, P05 4/1/3; 5/1/2; 6/1/3, P07 5/1/3; 4/1/3; 5/1/3, P09 6/1/3; 3/1/3; 6/1/3, P11 3/1/3; 3/0/3; 3/1/3. Goodwood 18:53 27 Aug 2021
+  P01 7/0/3; 6/0/4; 7/0/4, P03 7/0/4; 6/0/3; 7/0/4, P05 8/0/4; 8/0/3; 9/0/4, P07 8/0/4; 7/0/3; 10/0/4, P09 9/0/4; 7/0/4; 10/0/4.
+  Equator group: none of the five races has a scoring SKY block equator cell, so Goodwood 18:53 27 Aug 2021 was added (batch xlsx copied into
+  reference/classic from ~/astronomy-project/racecards/20210827_goodwood; its csv was already there, not opened): S Jupiter → S equator Dec
+  14.000933 14 whole (90.89), a group in FIXED STARS in every runner's tables. Sizes: Lingfield 0.83 -> 0.84, Ripon 1.68 -> 1.69, Newcastle
+  2.21 -> 2.22 MB, Kelso 2.17 and Ascot 0.59 unchanged; Goodwood 1.94.
+  Tests 154/154: test 54 (chk_match32/check_m32.py) vs builds by 3da4ae61's own tools/, six races: everything before MATCH identical, each MATCH
+  table = before with its groups moved only (cell for cell; titles excepted), block and in-block order on sky scores recomputed from POSITIONS,
+  bands, title counts, SUMMARY rebuilt on unrounded scores (no 2-dp edge line); by hand: Newcastle P01 MATCH JOCKEY CONJUNCTIONS = S Sadalmelik
+  RA 0.211451 (73.79); Ripon P01 MATCH HORSE S Murzim RA 90 under FIXED STARS, S Juno Dec 0.078975 conjunction last of OTHER BODIES (after 4
+  body groups), no CONJUNCTIONS band; Goodwood P01 the equator group in FIXED STARS (|Dec S Jupiter| from POSITIONS). Test 53 now compares
+  93b54a43 with builds by 3da4ae61's own tools/.
+  Independent checker (31 Oct), own code (chk_match32/indep/: check32i.py, plants32i.py), six races: before vs after (every MATCH row and
+  SUMMARY line identical, only positions, bands, titles moved), order rebuilt from POSITIONS on unrounded scores (whole, golden, conjunction
+  recomputed; the few ninth / φ power / √2 / silver cells used at 2 dp, none within 0.01 of 50 or a neighbour), bands, title counts, SUMMARY
+  rebuilt: 0 mismatches; 13 planted errors all caught (equator / star / body conjunction in the wrong block, band missing / wrong, order
+  inside a block, SUMMARY lines at the rounding edge both ways, header counts). Closest to 50: Newcastle P09 J Antares – Quaoar RA 49.996736
+  (shown 50.00, left out by both filters). Same day: the MATCH HORSE | JOCKEY title now names all four header counts (it still said EXACT,
+  RATIO only; found by the checker). Not exercised: a runner with 'no lines', more than one CONJUNCTIONS group, tied sky scores.
 - BODY and CONJ STAR rows, SUMMARY sheet, freeze D4 (Eddie, 31 Oct 2026; match_extra, summary_hj; every EXACT / RATIO row unchanged):
   BODY (MATCH HORSE / JOCKEY): SKY block S Jupiter → S X (X a T24 body, not Jupiter, no Moon) scoring > 50 against the cells of X on the T24 row
   'H Jupiter → H body' (J on JOCKEY) scoring > 50, any plane with any plane. CONJ STAR: SKY block S Jupiter → S star with best family
@@ -1509,7 +1542,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 ## Where we are (13 Oct 2026)
 - **MATCH HORSE / MATCH JOCKEY on every runner sheet (30 Oct 2026, Eddie), RATIO tightened the same day (whole circle factor >= 5, golden
   p, q <= 6), re-ordered by sky cell score the same day, then grouped by sky cell under grey header rows the same day; MATCH HORSE | JOCKEY
-  side by side added the same day; 31 Oct 2026: BODY and CONJ STAR rows, SUMMARY sheet, runner freeze D4:** see its section. Tests 152/152.
+  side by side added the same day; 31 Oct 2026: BODY and CONJ STAR rows, SUMMARY sheet, runner freeze D4; then groups in blocks FIXED
+  STARS / CONJUNCTIONS / OTHER BODIES and SUMMARY on unrounded scores:** see its section. Tests 154/154.
 - **Half family removed from families.py (29 Oct 2026, Eddie):** see "half family removed". Tests 146/146.
 - **Workbook trimmed (29 Oct 2026, Eddie): POSITIONS, SKY JUPITER, runner T1–T8 + T24 HORSE / JOCKEY (five Jupiter rows on top); no
   summary, --full-only sheets or _pairs workbook:** see "workbook trimmed". Tests 145/145.
