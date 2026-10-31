@@ -477,11 +477,13 @@ def runner_sheet(wb, P, R, ctx):
         row, _, _ = write_t24(ws, row + 1, RX[C], C, f'T24 {who} (natal): {T24_NOTE}{T24SJ_NOTE}', sky=sky, jrows=jr)
         field[f'_t24c{C}'] = t24_match_cells(RX[C], C, jr)
     skym = sky_match_cells(getattr(ctx, 'skycells', {}))
+    skya = sky_match_cells(getattr(ctx, 'skycells', {}), conj=True)    # every scoring SKY block cell, conjunction incl. (group order, BODY, CONJ STAR)
     for C, who in (('H', 'HORSE'), ('J', 'JOCKEY')):        # MATCH HORSE / MATCH JOCKEY (Eddie, 30 Oct 2026), after T24 JOCKEY
-        row = write_match(ws, row + 1, who, skym, field[f'_t24c{C}'])
-    row = write_match_hj(ws, row + 1, skym)                # MATCH HORSE | JOCKEY (Eddie, 30 Oct 2026), side by side, after MATCH JOCKEY
+        jr = t24_jrows(ctx, R, field, C)
+        row = write_match(ws, row + 1, who, skym, field[f'_t24c{C}'], skya, match_extra(skya, RX[C], C, jr))
+    row = write_match_hj(ws, row + 1, skya)                # MATCH HORSE | JOCKEY (Eddie, 30 Oct 2026), side by side, after MATCH JOCKEY
     ws.column_dimensions['B'].width = 46
-    ws.freeze_panes = 'C4'
+    ws.freeze_panes = 'D4'                                 # Eddie, 31 Oct 2026 (was C4)
     return field
 
 
@@ -726,18 +728,20 @@ MATCH_CIRCLE_MIN = 5                                       # whole: circle facto
 MATCH_GOLDEN_MAX = 6                                       # golden: p and q of the ratio in lowest terms <= 6 (Eddie, 30 Oct 2026)
 
 
-def match_cell(v, ev):
-    """a scoring cell for MATCH: (value 6 dp, best family, target label, score, colour) or None (no score, or a conjunction: target 0)"""
-    if not ev or ev['family'] == 'conj':
+def match_cell(v, ev, conj=False):
+    """a scoring cell for MATCH: (value 6 dp, best family, target label, score, colour) or None (no score, or a conjunction: target 0,
+    unless conj - BODY / CONJ STAR rows, Eddie 31 Oct 2026)"""
+    if not ev or (ev['family'] == 'conj' and not conj):
         return None
     return round(v, 6), ev['family'], ev['target'], ev['score'], ev['colour']
 
 
-def sky_match_cells(skycells):
-    """SKY block (SKY JUPITER): every scoring cell, S Jupiter → every sky body, star and the equator, RA and Dec (sheet order)"""
+def sky_match_cells(skycells, conj=False):
+    """SKY block (SKY JUPITER): every scoring cell, S Jupiter → every sky body, star and the equator, RA and Dec (sheet order); conj: with
+    the conjunction cells"""
     out = []
     for (lab, pl), (v, ev) in skycells.items():
-        m = match_cell(v, ev)
+        m = match_cell(v, ev, conj)
         if m:
             out.append((lab, pl) + m)
     return out
@@ -765,6 +769,51 @@ def t24_match_cells(ch, C, jrows):
                 if m:
                     out.append((f'{C} {x}', b, pl) + m)
     return out
+
+
+MATCH_MIN = 50                                             # BODY / CONJ STAR: sky and T24 scores more than 50 (Eddie, 31 Oct 2026)
+MATCH_SECTIONS = ('EXACT', 'RATIO', 'BODY', 'CONJ STAR')
+
+
+def match_extra(skya, ch, C, jrows):
+    """BODY and CONJ STAR rows (Eddie, 31 Oct 2026) -> [(section, sky cell, T24 cell)], sky cells in SKY block order, each sky cell's rows
+    in their order. BODY: sky cell S Jupiter → S X (X a T24 body, not Jupiter, no Moon) scoring > 50, against the cells of X on the T24 row
+    '{C} Jupiter → {C} body' scoring > 50, RA then Dec. CONJ STAR: sky cell S Jupiter → S star whose best family is conjunction, scoring
+    > 50, against every body cell of the star's T24 row ({C} star) scoring > 50, then every cell of the T24 row 'S Jupiter → {C} body'
+    scoring > 50, each in body order, RA before Dec. Score = the cell's best family, conjunction included"""
+    bodies = [b for b in T24_BODIES if b in ch and ch[b][2] == 'body' and b != 'Moon']
+    jr = dict(jrows)
+    hit = lambda v, pl: v is not None and (m := match_cell(v, nearest(v, 'dist', pl)[0], True)) and m[3] > MATCH_MIN and m
+    out = []
+    for s in skya:
+        if s[5] <= MATCH_MIN or not s[0].startswith('S Jupiter → S '):
+            continue
+        x = s[0][len('S Jupiter → S '):]
+        if x in bodies and x != 'Jupiter':
+            lab = f'{C} Jupiter → {C} body'
+            for pl in PLANES:
+                m = hit(jr[lab].get((x, pl)), pl)
+                if m:
+                    out.append(('BODY', s, (lab, x, pl) + m))
+        if s[3] == 'conj' and x in T1_T2_T24_STARS and x in ch:
+            for b in bodies:
+                for pl in PLANES:
+                    m = hit(plane_value(ch[x], ch[b], pl), pl)
+                    if m:
+                        out.append(('CONJ STAR', s, (f'{C} {x}', b, pl) + m))
+            lab = f'S Jupiter → {C} body'
+            for b in bodies:
+                for pl in PLANES:
+                    m = hit(jr[lab].get((b, pl)), pl)
+                    if m:
+                        out.append(('CONJ STAR', s, (lab, b, pl) + m))
+    return out
+
+
+def sky_head(s):
+    """grey group header text: '<sky relationship> <plane> <value> <target> <family> (<score>)'; a conjunction '<value> conjunction (<score>)'"""
+    tf = 'conjunction' if s[3] == 'conj' else f'{s[4]} {s[3]}'
+    return f'{s[0]} {s[1]} {s[2]:.6f} {tf} ({s[5]:.2f})'
 
 
 def golden_k(t):
@@ -820,33 +869,46 @@ MATCH_NOTE = ('every scoring cell of the SKY block (SKY JUPITER: S Jupiter → e
               'coloured by their score as the source cells')
 
 
-def write_match(ws, row, who, sky, t24):
-    """MATCH HORSE / MATCH JOCKEY block -> next row + 1"""
+def write_match(ws, row, who, sky, t24, skya=None, extra=()):
+    """MATCH HORSE / MATCH JOCKEY block -> next row + 1. skya: every scoring SKY block cell incl. conjunction (group order); extra: the
+    BODY / CONJ STAR rows (match_extra, Eddie 31 Oct 2026)"""
     tid, C = f'MATCH {who}', who[0]
     exact, ratio = match_pairs(sky, t24)
+    skya = sky if skya is None else skya
+    ext = [(sec, (None, None, None, None, None, s, t, min(s[5], t[6]))) for sec, s, t in extra]
+    nsec = {k: sum(1 for sec, _ in ext if sec == k) for k in ('BODY', 'CONJ STAR')}
+    groups = {}                                            # sky cell -> [(section, row)]; exact / ratio already in group order
+    for sec, rows in (('EXACT', exact), ('RATIO', ratio)):
+        for r in rows:
+            groups.setdefault((r[5][0], r[5][1]), (r[5], []))[1].append((sec, r))
+    for sec, r in ext:                                     # BODY, then CONJ STAR (Eddie, 31 Oct 2026)
+        if sec == 'BODY':
+            groups.setdefault((r[5][0], r[5][1]), (r[5], []))[1].append((sec, r))
+    for sec, r in ext:
+        if sec == 'CONJ STAR':
+            groups.setdefault((r[5][0], r[5][1]), (r[5], []))[1].append((sec, r))
+    nconj = sum(1 for s, _ in groups.values() if s[3] == 'conj')
     ws.cell(row=row, column=1, value=tid).font = BOLD
-    ws.cell(row=row, column=2, value=f'{tid} (Eddie, 30 Oct 2026): {MATCH_NOTE.format(who=who, C=C)}. EXACT {len(exact)} rows, RATIO '
+    ws.cell(row=row, column=2, value=f'{tid} (Eddie, 30 Oct 2026): {MATCH_NOTE.format(who=who, C=C)}{MATCH_EXTRA_NOTE.format(C=C)}. EXACT {len(exact)} rows, RATIO '
                                      f"{len(ratio)} rows (whole {sum(1 for r in ratio if r[3] is not None)}, golden {sum(1 for r in ratio if r[3] is None)}), "
-                                     f'{len({id(r[5]) for r in exact + ratio})} sky cells (SKY block {len(sky)} scoring cells, T24 {who} {len(t24)})').font = BOLD
+                                     f"BODY {nsec['BODY']} rows, CONJ STAR {nsec['CONJ STAR']} rows, "
+                                     f'{len(groups)} sky cells ({nconj} conjunction) (SKY block {len(sky)} scoring cells without conjunction, '
+                                     f'{len(skya) - len(sky)} conjunction; T24 {who} {len(t24)})').font = BOLD
     row += 1
     for k, h in enumerate(MATCH_HEAD):
         c = ws.cell(row=row, column=1 + k, value=h); c.fill = HEAD; c.font = BOLD
     row += 1
-    groups = {}                                            # sky cell -> [(section, row)]; exact / ratio already in group order
-    for sec, rows in (('EXACT', exact), ('RATIO', ratio)):
-        for r in rows:
-            groups.setdefault(id(r[5]), (r[5], []))[1].append((sec, r))
-    si = {id(x): i for i, x in enumerate(sky)}
-    for s, grp in sorted(groups.values(), key=lambda g: (-g[0][5], si[id(g[0])])):
-        ne = sum(1 for sec, _ in grp if sec == 'EXACT')
+    si = {(x[0], x[1]): i for i, x in enumerate(skya)}
+    for s, grp in sorted(groups.values(), key=lambda g: (-g[0][5], si[(g[0][0], g[0][1])])):
+        n = {k: sum(1 for sec, _ in grp if sec == k) for k in MATCH_SECTIONS}
         ws.cell(row=row, column=1, value=tid)
-        ws.cell(row=row, column=2, value=f'{s[0]} {s[1]} {s[2]:.6f} {s[4]} {s[3]} ({s[5]:.2f}) — EXACT {ne}, RATIO {len(grp) - ne}').font = BOLD
+        ws.cell(row=row, column=2, value=f"{sky_head(s)} — EXACT {n['EXACT']}, RATIO {n['RATIO']}, BODY {n['BODY']}, CONJ STAR {n['CONJ STAR']}").font = BOLD
         for k in range(1, len(MATCH_HEAD) + 1):
             ws.cell(row=row, column=k).fill = GREY
         row += 1
         for sec, (pq, dec, g, cf, sl, s, t, low) in grp:
-            vals = [tid, sec, pq, round(dec, 6), g, cf, sl, s[0], s[1], s[2], s[3], s[4], round(s[5], 2), t[0], t[1], t[2], t[3], t[4], t[5],
-                    round(t[6], 2), round(low, 2)]
+            vals = [tid, sec, pq, None if dec is None else round(dec, 6), g, cf, sl, s[0], s[1], s[2], s[3], s[4], round(s[5], 2), t[0], t[1], t[2],
+                    t[3], t[4], t[5], round(t[6], 2), round(low, 2)]
             for k, v in enumerate(vals):
                 ws.cell(row=row, column=1 + k, value=v)
             for col, sc, colour in ((13, s[5], s[6]), (20, t[6], t[7]), (21, low, families.colour(low))):
@@ -860,6 +922,16 @@ def write_match(ws, row, who, sky, t24):
     return row + 1
 
 
+MATCH_EXTRA_NOTE = ('. BODY and CONJ STAR (Eddie, 31 Oct 2026): BODY - the SKY block cell S Jupiter → S X (X a T24 body, not Jupiter, no '
+                    'Moon) scoring more than 50, against the cells of X on the T24 row "{C} Jupiter → {C} body" scoring more than 50, any plane '
+                    'with any plane; CONJ STAR - the SKY block cell S Jupiter → S star whose best family is conjunction (RA < 1.5, Dec < 0.3) '
+                    'scoring more than 50, against every body cell of the star\'s T24 row ({C} star) scoring more than 50, then every cell of the '
+                    'T24 row "S Jupiter → {C} body" scoring more than 50; score = the best family, conjunction included; ratio, decimal, shared '
+                    'factor, circle factor, slice blank. Conjunction sky cells are groups too (EXACT and RATIO still leave conjunction out). '
+                    'Inside a group: EXACT, RATIO, BODY (RA before Dec), CONJ STAR (star-row cells first, then S Jupiter → {C} body, each in '
+                    'body order, RA before Dec)')
+
+
 # ---------------- MATCH HORSE | JOCKEY (Eddie, 30 Oct 2026): the two MATCH tables side by side, cells taken from the sheet
 MATCH_HJ_NOTE = ('MATCH HORSE and MATCH JOCKEY side by side: every row of each, once, on its own side, cells copied from the two tables '
                  'above (nothing recalculated). Columns A-M shared (section, ratio, decimal, shared factor, circle factor, slice of 360, the '
@@ -870,7 +942,20 @@ MATCH_HJ_NOTE = ('MATCH HORSE and MATCH JOCKEY side by side: every row of each, 
                  'of the horse and jockey groups), the sky cell\'s score highest first (ties: SKY block order, a row\'s RA cell before its Dec '
                  'cell), each group under a grey header row \'<sky relationship> <plane> <value> <target> <family> (<score>) — EXACT h | j, '
                  'RATIO h | j\' (h, j = rows in MATCH HORSE / MATCH JOCKEY); inside a group EXACT, then RATIO by q, then p of p/q, then the '
-                 'T24 target (smaller first), then the pairing above')
+                 'T24 target (smaller first), then the pairing above. BODY and CONJ STAR rows (Eddie, 31 Oct 2026) go in too, after RATIO: '
+                 'BODY key = sky cell, section, body, T24 plane (body order, RA before Dec); CONJ STAR key = sky cell, section, T24 row kind (the '
+                 'star row, then S Jupiter → natal body), body, T24 plane; on the S Jupiter → natal body lines the horse side shows S Jupiter → H '
+                 'body and the jockey side S Jupiter → J body')
+
+
+def match_hj_key(v):
+    """MATCH HORSE | JOCKEY key of a MATCH data row (columns A-U as values): EXACT / RATIO (section, p/q, T24 family, T24 target); BODY
+    (section, body, T24 plane); CONJ STAR (section, 'star' / 'S Jupiter', body, T24 plane)"""
+    if v[1] == 'BODY':
+        return v[1], v[14], v[15]
+    if v[1] == 'CONJ STAR':
+        return v[1], 'S Jupiter' if str(v[13]).startswith('S Jupiter →') else 'star', v[14], v[15]
+    return v[1], v[2], v[17], v[18]
 
 
 def match_target_value(fam, lab):
@@ -892,7 +977,7 @@ def write_match_hj(ws, row, sky):
     for r in range(1, row):
         a, b = ws.cell(row=r, column=1).value, ws.cell(row=r, column=2).value
         C = {'MATCH HORSE': 'H', 'MATCH JOCKEY': 'J'}.get(a)
-        if C and b in ('EXACT', 'RATIO'):
+        if C and b in MATCH_SECTIONS:
             src[C].append(r)
         elif C and ws.cell(row=r, column=1).fill.start_color.rgb == GREY.start_color.rgb and ' — EXACT ' in str(b):
             heads.setdefault((ws.cell(row=r + 1, column=8).value, ws.cell(row=r + 1, column=9).value), str(b).split(' — EXACT ')[0])
@@ -901,17 +986,21 @@ def write_match_hj(ws, row, sky):
         for r in src[C]:
             v = [ws.cell(row=r, column=k).value for k in range(1, n + 1)]
             g = (v[7], v[8])
-            keys.setdefault(g, {}).setdefault((v[1], v[2], v[17], v[18]), {'H': [], 'J': []})[C].append(r)
-            cnt.setdefault(g, {'H': [0, 0], 'J': [0, 0]})[C][v[1] == 'RATIO'] += 1
+            keys.setdefault(g, {}).setdefault(match_hj_key(v), {'H': [], 'J': []})[C].append(r)
+            cnt.setdefault(g, {'H': [0] * 4, 'J': [0] * 4})[C][MATCH_SECTIONS.index(v[1])] += 1
     si = {(x[0], x[1]): (-x[5], i) for i, x in enumerate(sky)}
     pq = lambda k: tuple(int(z) for z in k[1].split('/')) if '/' in k[1] else (int(k[1]), 1)
-    korder = lambda k: (k[0] == 'RATIO', pq(k)[1], pq(k)[0], match_target_value(k[2], k[3]), k[2])
+    bo = lambda b: T24_BODIES.index(b)
+    korder = lambda k: ((MATCH_SECTIONS.index(k[0]), pq(k)[1], pq(k)[0], match_target_value(k[2], k[3]), k[2]) if k[0] in ('EXACT', 'RATIO')
+                        else (2, bo(k[1]), PLANES.index(k[2])) if k[0] == 'BODY' else (3, k[1] != 'star', bo(k[2]), PLANES.index(k[3])))
     sides = [(bool(d['H']), bool(d['J'])) for kk in keys.values() for d in kk.values()]
     nk = {'both': sides.count((True, True)), 'horse': sides.count((True, False)), 'jockey': sides.count((False, True))}
     nlines = sum(max(len(d['H']), len(d['J'])) for kk in keys.values() for d in kk.values())
     ws.cell(row=row, column=1, value=tid).font = BOLD
     ws.cell(row=row, column=2, value=f'{tid} (Eddie, 30 Oct 2026): {MATCH_HJ_NOTE}. {nlines} lines, {sum(len(k) for k in keys.values())} keys: '
-                                     f"{nk['both']} with both sides, {nk['horse']} horse only, {nk['jockey']} jockey only; {len(keys)} sky cells "
+                                     f"{nk['both']} with both sides, {nk['horse']} horse only, {nk['jockey']} jockey only (by section: "
+                                     + ', '.join(f"{sec} {sum(1 for kk in keys.values() for k in kk if k[0] == sec)}" for sec in MATCH_SECTIONS)
+                                     + f"); {len(keys)} sky cells "
                                      f"(MATCH HORSE {len(src['H'])} rows, MATCH JOCKEY {len(src['J'])} rows)").font = BOLD
     row += 1
     ws.cell(row=row, column=1, value=tid)
@@ -927,7 +1016,7 @@ def write_match_hj(ws, row, sky):
     for g in sorted(keys, key=lambda g: si[g]):
         h, j = cnt[g]['H'], cnt[g]['J']
         ws.cell(row=row, column=1, value=tid)
-        ws.cell(row=row, column=2, value=f'{heads[g]} — EXACT {h[0]} | {j[0]}, RATIO {h[1]} | {j[1]}').font = BOLD
+        ws.cell(row=row, column=2, value=f'{heads[g]} — ' + ', '.join(f'{sec} {h[k]} | {j[k]}' for k, sec in enumerate(MATCH_SECTIONS))).font = BOLD
         for k in range(1, 30):
             ws.cell(row=row, column=k).fill = GREY
         row += 1
@@ -944,6 +1033,68 @@ def write_match_hj(ws, row, sky):
                         t._style = s._style
                 row += 1
     return row + 1
+
+
+def summary_hj(wb, runners):
+    """SUMMARY sheet (Eddie, 31 Oct 2026): per runner (cloth order) its A1 line, the two header rows of MATCH HORSE | JOCKEY, then the
+    lines of that table with sky score > 50 and horse or jockey T24 score > 50 (the cells on the sheet, 2 dp), same order; a group's grey
+    header kept only when one of its lines is shown, its counts = the shown lines; cells copied with their styles, nothing recalculated;
+    two blank rows between runners; a runner with no lines: its A1 line and 'no lines'"""
+    out = wb.create_sheet('SUMMARY')
+    tid, n = 'MATCH HORSE | JOCKEY', 29
+    num = lambda v: isinstance(v, (int, float)) and v > MATCH_MIN
+    row = 1
+
+    def copy(ws, r, cols=range(1, n + 1)):
+        for k in cols:
+            src, t = ws.cell(row=r, column=k), out.cell(row=row, column=k)
+            t.value = src.value
+            t._style = src._style
+
+    for P in runners:
+        ws = wb[P]
+        out.cell(row=row, column=1, value=ws.cell(row=1, column=1).value)._style = ws.cell(row=1, column=1)._style
+        row += 1
+        rr = [r for r in range(1, ws.max_row + 1) if ws.cell(row=r, column=1).value == tid]
+        t0 = rr[0]                                         # title row; band row t0 + 1, column names t0 + 2 (column A 'table')
+        groups, cur = [], None
+        for r in range(t0 + 2, ws.max_row + 1):
+            a, b = ws.cell(row=r, column=1).value, ws.cell(row=r, column=2).value
+            if r > t0 + 2 and a != tid:
+                break
+            if b in MATCH_SECTIONS:
+                if num(ws.cell(row=r, column=13).value) and (num(ws.cell(row=r, column=20).value) or num(ws.cell(row=r, column=28).value)):
+                    cur[1].append(r)
+            elif r > t0 + 2:
+                cur = (r, [])
+                groups.append(cur)
+        groups = [g for g in groups if g[1]]
+        if not groups:
+            out.cell(row=row, column=1, value='no lines')
+            row += 3
+            continue
+        for r in (t0 + 1, t0 + 2):                          # the two header rows (band row merged N-U, V-AC)
+            copy(ws, r)
+            row += 1
+        for c0 in (14, 22):
+            out.merge_cells(start_row=row - 2, start_column=c0, end_row=row - 2, end_column=c0 + 7)
+        for hr, lines in groups:
+            copy(ws, hr)
+            cnt = [[sum(1 for r in lines if ws.cell(row=r, column=2).value == sec and ws.cell(row=r, column=c).value is not None)
+                    for c in (14, 22)] for sec in MATCH_SECTIONS]
+            out.cell(row=row, column=2, value=str(ws.cell(row=hr, column=2).value).split(' — EXACT ')[0] + ' — '
+                     + ', '.join(f'{sec} {h} | {j}' for sec, (h, j) in zip(MATCH_SECTIONS, cnt)))
+            row += 1
+            for r in lines:
+                copy(ws, r)
+                row += 1
+        row += 2
+    if runners:                                            # widths of columns A-AC as on the first runner sheet (Claude's choice)
+        for k in range(1, n + 1):
+            L = openpyxl.utils.get_column_letter(k)
+            if L in wb[runners[0]].column_dimensions and wb[runners[0]].column_dimensions[L].customWidth:
+                out.column_dimensions[L].width = wb[runners[0]].column_dimensions[L].width
+    return out
 
 
 T24SJ_NOTE = ('. S JUPITER column (Eddie, 27 Oct 2026): after Ketu in each plane, d(S Jupiter, S star) at the off = the SKY block value, '
@@ -1863,6 +2014,7 @@ def main():
     ws.column_dimensions['B'].width = 30
     for P in sorted(runners):
         runner_sheet(wb, P, runners[P], ctx)
+    summary_hj(wb, sorted(runners))                         # SUMMARY (Eddie, 31 Oct 2026), after the runner sheets
     # trimmed (Eddie, 29 Oct 2026): no SKY STARS SUMMARY, no --full-only sheets (P## RATIOS / NUMBERS, THREADS, FIELD), no _pairs workbook
     wb.save(out)
     print(f'{race}: {len(runners)} runners -> {out} ({os.path.getsize(out) / 1e6:.2f} MB); {repro}'

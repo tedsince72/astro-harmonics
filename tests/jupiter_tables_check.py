@@ -871,10 +871,11 @@ ldw, lfw = openpyxl.load_workbook(ld, read_only=True), openpyxl.load_workbook(lf
 vals = lambda ws: [tuple(x) for x in ws.iter_rows(values_only=True)]
 same = [sh for sh in ldw.sheetnames if sh in lfw.sheetnames and vals(ldw[sh]) == vals(lfw[sh])]
 # 29 Oct 2026 (Eddie, workbook trim): no SKY STARS SUMMARY, and --full = the default (no --full-only sheets)
-check('T30 default workbook = POSITIONS, SKY JUPITER and the P## sheets only (rebuilt Ascot via run_card_swiss.py --tables, Lingfield); '
-      'each equal to the --full workbook\'s sheet, and --full adds no sheet (29 Oct 2026)',
-      gw.sheetnames == ['POSITIONS', 'SKY JUPITER', 'P01']
-      and ldw.sheetnames == ['POSITIONS', 'SKY JUPITER'] + runner_tabs(lfw)
+# 31 Oct 2026 (Eddie): + the SUMMARY sheet after the runner sheets
+check('T30 default workbook = POSITIONS, SKY JUPITER, the P## sheets and SUMMARY only (rebuilt Ascot via run_card_swiss.py --tables, Lingfield); '
+      'each equal to the --full workbook\'s sheet, and --full adds no sheet (29 Oct 2026; SUMMARY 31 Oct 2026)',
+      gw.sheetnames == ['POSITIONS', 'SKY JUPITER', 'P01', 'SUMMARY']
+      and ldw.sheetnames == ['POSITIONS', 'SKY JUPITER'] + runner_tabs(lfw) + ['SUMMARY']
       and same == ldw.sheetnames and lfw.sheetnames == ldw.sheetnames,
       f'Ascot {gw.sheetnames}; Lingfield {ldw.sheetnames} ({len(same)} equal to --full, which has {len(lfw.sheetnames)} sheets)')
 # T1, T2 and T24 on the rebuilt Ascot: the 35 stars in order, the 13 new ones in, no Polaris
@@ -2457,10 +2458,12 @@ check('T51 by hand from POSITIONS (Kelso P01 MATCH HORSE; Ripon P01): ' + '; '.j
 # Kelso, Lingfield, rebuilt Ascot, Ripon (chk_matchhj/check_hj.py).
 print('test 52: MATCH HORSE | JOCKEY')
 os.makedirs(f'{tmp}/after52', exist_ok=True)
+os.makedirs(f'{tmp}/h93b', exist_ok=True)              # 31 Oct 2026 (test 53): after = 93b54a43's own tools/ (MATCH HORSE | JOCKEY alone)
+subprocess.run(f'git archive 93b54a43 tools rebuild_kit | tar -x -C {tmp}/h93b', shell=True, check=True)
 out52 = {}
 for n, inp in INP51.items():
     ao = f'{tmp}/after52/{n}_jupiter_tables.xlsx'
-    subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
+    subprocess.run([sys.executable, f'{tmp}/h93b/tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
     out52[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_matchhj/check_hj.py', f'{tmp}/after51/{n}_jupiter_tables.xlsx', ao],
                               capture_output=True, text=True).stdout
 print('T52 keys:', {n: [l for l in o.splitlines() if l.startswith('P')] for n, o in out52.items()})
@@ -2498,6 +2501,77 @@ t52 = m52[0][1] if m52 else ''
 cases52.append(('Ripon P01 keys (Eddie\'s rough count 116 horse, 101 jockey, 56 shared): title "161 keys: 56 with both sides, 60 horse only, 45 jockey '
                 'only"', '161 keys: 56 with both sides, 60 horse only, 45 jockey only; 15 sky cells' in t52))
 check('T52 by hand from POSITIONS (Ripon P01): ' + '; '.join(c for c, _ in cases52), all(ok for _, ok in cases52), [c for c, ok in cases52 if not ok])
+
+# Test 53 (Eddie, 31 Oct 2026): runner sheets freeze D4 (was C4); MATCH HORSE / MATCH JOCKEY gain BODY rows (SKY block S Jupiter → S X > 50 with
+# the T24 row '{C} Jupiter → {C} body' cell of X > 50) and CONJ STAR rows (SKY block S Jupiter → S star conjunction > 50 with the star's T24
+# row cells > 50 and the T24 row 'S Jupiter → {C} body' cells > 50); conjunction sky cells become groups; MATCH HORSE | JOCKEY takes them in;
+# new SUMMARY sheet. Before = 93b54a43's own tools/ (builds of test 52); Kelso, Lingfield, rebuilt Ascot, Ripon, and Newcastle AW 16:33 2021
+# (none of the four has a conjunction sky star cell over 50; Newcastle has S Sadalmelik RA). chk_match31/check_m31.py.
+print('test 53: BODY, CONJ STAR, SUMMARY, freeze D4')
+os.makedirs(f'{tmp}/after53', exist_ok=True)
+INP53 = dict(INP51, newcastle='reference/classic/race_batch_20210802_newcastle_aw_1633.xlsx')
+out53 = {}
+for n, inp in INP53.items():
+    bo, ao = f'{tmp}/after52/{n}_jupiter_tables.xlsx', f'{tmp}/after53/{n}_jupiter_tables.xlsx'
+    if not os.path.exists(bo):
+        subprocess.run([sys.executable, f'{tmp}/h93b/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
+    subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
+    out53[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_match31/check_m31.py', bo, ao], capture_output=True, text=True).stdout
+print('T53 rows:', {n: [l for l in o.splitlines() if re.match(r'P\d\d ', l)] for n, o in out53.items()})
+check('T53 against the build before (commit 93b54a43), Kelso, Lingfield, rebuilt Ascot, Ripon, Newcastle AW 16:33 2021 (chk_match31/check_m31.py): '
+      'POSITIONS and SKY JUPITER identical (freeze unchanged), runner sheets freeze D4, every cell before the MATCH tables and every width '
+      'identical; each MATCH table minus the BODY / CONJ STAR rows and the conjunction-only groups = before cell for cell (titles and header '
+      'counts excepted, header counts extended by BODY / CONJ STAR); BODY / CONJ STAR rows rebuilt from the SKY block and T24 cells (set, cells, '
+      'order, blanks, fills, header counts, group order by sky score); MATCH HORSE | JOCKEY: each new row once on its side, keys, order, counts; '
+      'SUMMARY rebuilt from MATCH HORSE | JOCKEY (filter, groups, counts, cells and styles, merges, blank rows)',
+      all(line(o, 'mismatches:') == 'mismatches: 0' for o in out53.values())
+      and all(len([l for l in o.splitlines() if re.match(r'P\d\d ', l)]) == {'kelso': 6, 'lingfield': 6, 'ascot': 1, 'ripon': 4, 'newcastle': 6}[n]
+              for n, o in out53.items()),
+      {n: line(o, 'mismatches:') for n, o in out53.items()})
+# by hand from POSITIONS: Ripon P01 BODY (S Juno Dec conjunction / H Jupiter → H Juno Dec 11) and its SUMMARY line; Newcastle P01 CONJ STAR
+# (S Sadalmelik RA conjunction / J Sadalmelik – J Gonggong RA conjunction, S Jupiter → J Makemake Dec 45)
+cases53 = []
+sq = lambda d, tol: (10 * (tol - d) / tol) ** 2
+w53 = openpyxl.load_workbook(f'{tmp}/after53/ripon_jupiter_tables.xlsx', read_only=True)
+p53 = posmap(w53, 'P01')
+s53 = {x[3]: (x[5], x[6]) for x in w53['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'SKY' and x[3]}
+ds, dh = dpl(s53['Jupiter'], s53['Juno'], 'Dec'), dpl(p53[('H', 'Jupiter')], p53[('H', 'Juno')], 'Dec')
+m53 = [r for r in w53['P01'].iter_rows(values_only=True) if r and r[0] == 'MATCH HORSE' and r[1] == 'BODY']
+row53 = ('MATCH HORSE', 'BODY', None, None, None, None, None, 'S Jupiter → S Juno', 'Dec', round(ds, 6), 'conj', 'conj', round(sq(ds, 0.3), 2),
+         'H Jupiter → H body', 'Juno', 'Dec', round(dh, 6), 'whole', '11', round(sq(abs(dh - 11), 0.02), 2), round(sq(ds, 0.3), 2))
+cases53.append((f'Ripon P01 MATCH HORSE BODY S Jupiter → S Juno Dec {ds:.6f} conjunction ({sq(ds, 0.3):.2f}) / H Jupiter → H Juno Dec {dh:.6f} 11 '
+                f'whole ({sq(abs(dh - 11), 0.02):.2f}), the only BODY row', [tuple(r[:21]) for r in m53] == [row53]
+                and (round(ds, 6), round(sq(ds, 0.3), 2), round(dh, 6), round(sq(abs(dh - 11), 0.02), 2)) == (0.078975, 54.28, 10.997519, 76.73)))
+hd53 = f'S Jupiter → S Juno Dec {ds:.6f} conjunction ({sq(ds, 0.3):.2f}) — EXACT 0 | 0, RATIO 0 | 0, BODY 1 | 0, CONJ STAR 0 | 0'
+sm = [r for r in w53['SUMMARY'].iter_rows(values_only=True)]
+i53 = next((i for i, r in enumerate(sm) if r[1] == hd53), None)
+hj53 = [r for r in w53['P01'].iter_rows(values_only=True) if r and r[0] == 'MATCH HORSE | JOCKEY' and r[1] in ('EXACT', 'RATIO', 'BODY', 'CONJ STAR')]
+big = lambda x: isinstance(x, (int, float)) and x > 50
+out_ = next(r for r in hj53 if big(r[12]) and not big(r[19]) and not big(r[27]))
+cases53.append((f'Ripon SUMMARY P01: header {hd53!r}, then the line = the MATCH HORSE | JOCKEY line (jockey side empty); a line with sky > 50 and both '
+                f'T24 scores <= 50 ({out_[7]} {out_[8]} / {out_[13] or out_[21]} {out_[14] or out_[22]} {out_[15] or out_[23]}, '
+                f'{out_[19]} | {out_[27]}) left out',
+                sm[0][0] == 'P01 1 Bollin Joan / David Allan' and i53 is not None and tuple(sm[i53 + 1][:21]) == ('MATCH HORSE | JOCKEY',) + row53[1:]
+                and tuple(sm[i53 + 1][21:29]) == (None,) * 8 and tuple(out_[:29]) not in [tuple(r[:29]) for r in sm]))
+w53n = openpyxl.load_workbook(f'{tmp}/after53/newcastle_jupiter_tables.xlsx', read_only=True)
+pn = posmap(w53n, 'P01')
+sn = {x[3]: (x[5], x[6]) for x in w53n['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] == 'SKY' and x[3]}
+dsn = dpl(sn['Jupiter'], sn['Sadalmelik'], 'RA')
+dg, dm = dpl(pn[('J', 'Sadalmelik')], pn[('J', 'Gonggong')], 'RA'), dpl(sn['Jupiter'], pn[('J', 'Makemake')], 'Dec')
+mn = [r[:21] for r in w53n['P01'].iter_rows(values_only=True) if r and r[0] == 'MATCH JOCKEY' and r[1] == 'CONJ STAR']
+skyn = ('S Jupiter → S Sadalmelik', 'RA', round(dsn, 6), 'conj', 'conj', round(sq(dsn, 1.5), 2))
+cases53.append((f'Newcastle AW 16:33 2021 P01 MATCH JOCKEY CONJ STAR: S Jupiter → S Sadalmelik RA {dsn:.6f} conjunction ({sq(dsn, 1.5):.2f}) / '
+                f'J Sadalmelik – J Gonggong RA {dg:.6f} conjunction ({sq(dg, 1.5):.2f}), S Jupiter → J Makemake Dec {dm:.6f} 45 whole '
+                f'({sq(abs(dm - 45), 0.02):.2f}); 5 rows, star row first',
+                len(mn) == 5 and mn[0][13] == 'J Sadalmelik' and mn[2][13] == 'S Jupiter → J body'
+                and ('MATCH JOCKEY', 'CONJ STAR', None, None, None, None, None) + skyn + ('J Sadalmelik', 'Gonggong', 'RA', round(dg, 6), 'conj', 'conj',
+                                                                                        round(sq(dg, 1.5), 2), round(min(sq(dg, 1.5), sq(dsn, 1.5)), 2)) in mn
+                and ('MATCH JOCKEY', 'CONJ STAR', None, None, None, None, None) + skyn + ('S Jupiter → J body', 'Makemake', 'Dec', round(dm, 6), 'whole', '45',
+                                                                                        round(sq(abs(dm - 45), 0.02), 2), round(sq(dsn, 1.5), 2)) in mn
+                and (round(dsn, 6), round(sq(dsn, 1.5), 2), round(dg, 6), round(dm, 6)) == (0.211451, 73.79, 0.179281, 44.999747)))
+fr = {n: {s_: openpyxl.load_workbook(f'{tmp}/after53/{n}_jupiter_tables.xlsx')[s_].freeze_panes for s_ in ('POSITIONS', 'SKY JUPITER', 'P01')} for n in ('ascot',)}
+cases53.append(('freeze: runner sheets D4, POSITIONS and SKY JUPITER none (as before)', fr == {'ascot': {'POSITIONS': None, 'SKY JUPITER': None, 'P01': 'D4'}}))
+check('T53 by hand from POSITIONS: ' + '; '.join(c for c, _ in cases53), all(ok for _, ok in cases53), [c for c, ok in cases53 if not ok])
 shutil.rmtree(tmp, ignore_errors=True)
 print(f'\n{sum(RES)}/{len(RES)} passed')
 sys.exit(0 if all(RES) else 1)
