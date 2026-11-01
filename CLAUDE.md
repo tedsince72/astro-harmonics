@@ -130,8 +130,8 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct; 46 since 20 Oct, 67 since 21 Oct; conjunction cells red, 20 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` = the QUICK suite (128/128, about 5 min with a warm cache: every check on the current builds + the
-  comparison with the commit before the current change); `--full` = every test (157 checks since 1 Nov; last full run 154/154 on 31 Oct: also every old-against-old comparison).
+  Tests `python3 tests/jupiter_tables_check.py` = the QUICK suite (129/129, about 7 min with a warm cache: every check on the current builds + the
+  comparison with the commit before the current change); `--full` = every test (159 checks since 1 Nov; last full run 154/154 on 31 Oct: also every old-against-old comparison).
   Segments are marked '#@ quick: <why>' / '#@ full: <why>' in the file. Old-commit builds are cached in tests/.cache/<commit>/ (git-ignored;
   key: commit, race, a hash of the input's cell values (META created_utc skipped), options, and for old_code builds a hash of today's
   families.py / jup2 / rebuild_kit), built only when missing. Timing: `python3 tests/time_suite.py [--full] [--log <file>]` (per test, slowest 15,
@@ -953,6 +953,46 @@ PARTLY REMOVED 29 Oct 2026 (Eddie): the half family is gone (see "half family re
   1 %)', the old wording (kept; same on SKY JUPITER).
 
 ## jupiter_tables: MATCH HORSE / MATCH JOCKEY (Eddie, 30 Oct 2026; viewing only)
+- SUN AND MOON SECTIONS (Eddie, 1 Nov 2026): MATCH HORSE, MATCH JOCKEY, MATCH HORSE | JOCKEY and SUMMARY each in three sections JUPITER, SUN,
+  MOON (MATCH_CENTRES; match_groups, match_section). JUPITER = the table as before, cell for cell; SUN / MOON = the same build with the sky side
+  from the SKY block of SKY SUN / SKY MOON (S Sun / S Moon → every sky body, star, the equator; ctx.skyc[centre]). Section band row before the
+  block bands: column B 'JUPITER' / 'SUN' / 'MOON' bold white on 595959, A to the last column (column A the table id, white). A section with no
+  groups: band + plain row 'no matches'. T24 side, EXACT / RATIO / BODY / CONJ STAR rules, blocks, order, group headers unchanged; BODY on SUN /
+  MOON: S Sun / S Moon → S X, X a T24 body, not the centre, no Moon (MOON: X can be the Sun; SUN: X = Jupiter finds nothing, the 'H Jupiter → H
+  body' Jupiter cell is blank); S Sun → S Jupiter and S Moon → S Sun are ordinary OTHER BODIES groups. CONJ STAR: a conjunction star whose own
+  T24 row has no cell > 50 still takes the 'S Jupiter → H body' part (e.g. Ripon P05 MATCH JOCKEY S Sun → S Phact RA 0.218378 conj (73.00) /
+  S Jupiter → J Juno Dec 0.005827 conj (96.15)). HJ key = section + the old key, so a Sun line never pairs with a Jupiter line. SUMMARY: the three
+  sections per runner, same filter; a section band / block band only above a shown line; 'no lines' when none in any section. Titles: rule
+  text + per-section counts ('SUN: EXACT n rows, RATIO m rows (whole, golden), BODY, CONJ STAR, k sky cells (c conjunction) (SKY SUN block ...);
+  groups: ...'; HJ: 'SUN: n lines, k keys: ...'). Unchanged: every other sheet, T1-T8, T24, widths, freeze D4.
+  Rows per section JUPITER / SUN / MOON (MATCH HORSE | MATCH JOCKEY | HJ lines):
+  Kelso P01 80/141/17 | 83/141/21 | 130/221/28, P03 101/175/10 | 74/128/14 | 140/242/22, P05 106/143/6 | 96/176/8 | 158/248/11, P07 104/144/10 |
+  85/125/14 | 144/207/21, P09 85/142/13 | 88/158/13 | 138/241/25, P11 91/137/20 | 88/157/10 | 135/212/23. Lingfield P01 12/11/23 | 7/7/19 |
+  19/17/38, P03 16/10/33 | 8/11/16 | 20/18/43, P05 13/7/20 | 9/5/17 | 20/11/35, P07 11/8/24 | 15/15/35 | 21/18/48, P09 11/6/16 | 14/8/34 |
+  21/12/44, P11 18/9/23 | 17/14/21 | 29/21/36. Rebuilt Ascot P01 99/39/91 | 105/40/90 | 150/64/142. Ripon P01 152/54/79 | 160/39/82 |
+  247/75/127, P03 190/49/110 | 192/60/89 | 294/88/155, P05 200/49/110 | 148/45/92 | 269/69/153, P07 176/50/95 | 203/63/91 | 302/90/154.
+  Newcastle AW 16:33 2021 P01 97/83/52 | 98/84/58 | 156/130/87, P03 101/104/61 | 110/111/62 | 165/162/90, P05 129/135/73 | 120/112/53 |
+  187/181/95, P07 124/120/73 | 118/111/61 | 177/165/104, P09 144/127/70 | 108/105/63 | 212/189/110, P11 118/123/84 | 111/89/52 | 172/164/105.
+  Goodwood 18:53 2021 P01 144/39/32 | 138/47/35 | 206/68/49, P03 162/40/38 | 149/38/32 | 237/62/53, P05 147/31/36 | 96/39/37 | 189/59/59, P07
+  147/53/43 | 135/34/30 | 230/73/58, P09 117/40/27 | 95/38/34 | 174/62/48. SUMMARY lines (all sections): Kelso 62, 68, 61, 53, 62, 52;
+  Lingfield 10, 12, 7, 9, 9, 16 (JUPITER / SUN / MOON P01 3/5/2, P03 5/4/3, P05 3/2/2, P07 4/4/1, P09 1/5/3, P11 8/6/2); Ascot 61; Ripon 81, 60,
+  73, 70; Newcastle 68, 62, 85, 95, 89, 64; Goodwood 43, 51, 39, 58, 54. No 'no matches' section and no 'no lines' runner in these six races.
+  Sizes before -> after: Kelso 2.50 -> 2.94 MB, Lingfield 0.97 -> 1.10, rebuilt Ascot 0.89 -> 0.95, Ripon 2.00 -> 2.27, Newcastle 2.54 -> 3.01,
+  Goodwood 2.28 -> 2.48.
+  Tests: test 57 (quick; chk_suntab/check_sm.py) vs builds by 6608676f's own tools/, six races: every sheet outside MATCH / SUMMARY identical;
+  title and header rows; section bands; JUPITER section = the before table cell for cell; every section of MATCH HORSE / JOCKEY rebuilt from the
+  SKY JUPITER / SUN / MOON block cells and the T24 cells (unrounded scores from POSITIONS; rows, cells, fills incl. BDD7EE, order, bands, headers,
+  title counts); HJ and SUMMARY rebuilt. By hand from POSITIONS (Lingfield P01 MATCH HORSE, first row of each kind): SUN EXACT S Sun → S Castor RA
+  101.933593 63×φ (84.87) / H Algorab – Pluto RA 101.941296 63×φ (70.68); MOON RATIO S Moon → S Algol Dec 65.007921 65 (36.47) / H Betelgeuse –
+  Gonggong Dec 20.012861 20 (12.74) -> 13/4, shared 5, circle factor 5, 1/72; SUN BODY S Sun → S Haumea RA 155.523328 ninth 155.556 (96.95) /
+  H Jupiter → H Haumea RA 11.324971 7×φ (92.33). Test 56's comparison moved behind '#@ full:' (fce24a12 vs 6608676f builds); its by-hand cells and
+  T54's stay quick on the current builds (T54's block reader reads the JUPITER section).
+  Independent checker (1 Nov), own code from POSITIONS (chk_suntab/indep/), Lingfield and Kelso: every section of MATCH HORSE / JOCKEY rebuilt,
+  JUPITER sections and SUMMARY JUPITER parts vs before, other sheets (70,488 / 163,096 cells), HJ and SUMMARY rebuilt: 0 mismatches; 5 planted
+  errors (Sun row inside JUPITER, Jupiter row changed, missing section band, Sun and Jupiter lines paired in HJ, SUMMARY line under the wrong
+  section) all caught. Kelso SUN / MOON rows (H + J): EXACT 168 / 66, RATIO 1,563 / 55, BODY 1 (Haumea) / 1 (Ceres), CONJ STAR 35 (S Sun → S
+  Sualocin Dec 0.062135 conj 62.87) / 34. Not exercised: 'no matches', 'no lines', a MOON BODY row with X = Sun, scores within 0.005 of 50,
+  2-dp sky ties; HJ / SUMMARY SUN / MOON rows compared on values and fills (full styles on the JUPITER parts).
 - RATIO 1 LIGHT BLUE, SUMMARY FREEZE D4 (Eddie, 31 Oct 2026, third change that day; display only): every column C cell whose ratio is '1' (the EXACT
   rows) filled BDD7EE (UNI) in MATCH HORSE / MATCH JOCKEY; MATCH HORSE | JOCKEY and SUMMARY copy the style, so they carry it too; BODY / CONJ STAR
   (blank C) none; nothing else changes. SUMMARY freeze D4 (runner sheets D4, POSITIONS / SKY JUPITER none, unchanged).
@@ -1600,6 +1640,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
   p, q <= 6), re-ordered by sky cell score the same day, then grouped by sky cell under grey header rows the same day; MATCH HORSE | JOCKEY
   side by side added the same day; 31 Oct 2026: BODY and CONJ STAR rows, SUMMARY sheet, runner freeze D4; then groups in blocks FIXED
   STARS / CONJUNCTIONS / OTHER BODIES and SUMMARY on unrounded scores:** see its section. Tests 154/154.
+- **SUN and MOON sections in the MATCH tables and SUMMARY (1 Nov 2026, Eddie, second change that day):** see the MATCH section. Quick 129/129 (6.8 min).
 - **SKY SUN and SKY MOON sheets after SKY JUPITER (1 Nov 2026, Eddie):** see its section. Quick 128/128.
 - **MATCH ratio 1 light blue in column C, SUMMARY freeze D4 (31 Oct 2026, Eddie):** see the MATCH section. Quick 127/127.
 - **Test suite: quick by default, --full on request, cached old builds (31 Oct 2026, Eddie):** see Tools and the standing rule. Quick 127/127
