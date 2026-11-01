@@ -1413,9 +1413,10 @@ def pair_rows(ctx, R, stars, t17keys=frozenset(), tid='T19', sky=False, jup='S J
     return out
 
 
-def sky_pair_blocks(ctx):
-    """SKY PAIRS: S–S body pairs (Moon included, not Jupiter) and 'body – royal' (Eddie, 15 Oct 2026): each sky body with each royal star"""
-    bod = [f'S {z}' for z in SKY_BODIES if z != 'Jupiter' and z in ctx.S0]
+def sky_pair_blocks(ctx, centre='Jupiter'):
+    """SKY PAIRS: S–S body pairs (Moon included, not Jupiter) and 'body – royal' (Eddie, 15 Oct 2026): each sky body with each royal star.
+    centre (SKY SUN / SKY MOON, Eddie, 1 Nov 2026): the centre body is left out as a partner; Jupiter is then an ordinary body"""
+    bod = [f'S {z}' for z in SKY_BODIES if z != centre and z in ctx.S0]
     roy = [f'S {x}' for x in ROYAL if x in ctx.S0]
     return [('S–S', list(itertools.combinations(bod, 2))), ('body – royal', [(b, x) for b in bod for x in roy])]
 
@@ -1649,7 +1650,7 @@ def tl_from(t):
     return f'{t:+.1f} min' if abs(t) < 1440 else f'{t / 1440:+.2f} days'
 
 
-def timeline(ctx, R0, eq, sources, keep=in_window):
+def timeline(ctx, R0, eq, sources, keep=in_window, centre='Jupiter'):
     """events = every sky Jupiter relationship on the sheet whose exact time (linear, off -> +5 min, as everywhere) falls within
     TL_WIN: SKY (S Jupiter -> sky point; best hit, or the nearest target outside at the off), SKY EQ
     (unison), the pair blocks (ratio on its interval or nearest interval, midpoint = unison, each distance leg with a family hit).
@@ -1670,7 +1671,7 @@ def timeline(ctx, R0, eq, sources, keep=in_window):
     def dist(src, a, b, pl, v0, v5, d, hit):
         if v5 in (None, 'n/a'):
             return
-        rel = f'{a} → {b}' if a == 'S Jupiter' else f'{a} – {b}'
+        rel = f'{a} → {b}' if a == cp else f'{a} – {b}'
         kp = pl
         if pl == 'Equator' and (ctx.pos(R0, a, 0)[1] >= 0) == (ctx.pos(R0, b, 0)[1] >= 0):
             kp = 'Dec'                                     # both on one side: the Equator distance is the Dec distance, one event
@@ -1678,28 +1679,29 @@ def timeline(ctx, R0, eq, sources, keep=in_window):
             kind='distance', target=tlabel(d), tv=d['tv'], v0=v0, fam=d['family'], lab=d['target'],
             score=d['score'] if hit else None, colour=d['colour'] if hit else '', out=not hit)
 
+    cp = f'S {centre}'                                     # the centre point (SKY SUN / SKY MOON, Eddie, 1 Nov 2026)
     for x in ctx.S0:                                       # SKY block
-        if x == 'Jupiter':
+        if x == centre:
             continue
         b = f'S {x}'
         for pl in PLANES:
-            v0, v5 = ctx.pair(R0, 'S Jupiter', b, pl)
+            v0, v5 = ctx.pair(R0, cp, b, pl)
             if v0 is None:
                 continue
             fp = 'Dec' if x == 'equator' else pl
             ev, also = nearest(v0, 'dist', fp)
             if ev:
-                dist('SKY', 'S Jupiter', b, pl, v0, v5, ev, True)
+                dist('SKY', cp, b, pl, v0, v5, ev, True)
             else:
                 near = families.outside(v0, fp, 'deg')
                 if near:
-                    dist('SKY', 'S Jupiter', b, pl, v0, v5, near, False)
+                    dist('SKY', cp, b, pl, v0, v5, near, False)
     for h in eq:                                           # SKY EQ: unison (Jupiter at the midpoint)
         if h['together'] or not h.get('q') or h['q'][0] is None:
             continue
         x, y = h['pts']
-        add(('r', 'S Jupiter', frozenset((x, y)), h['plane'], '1'), exact_t(h['q'][0], h['q'][1], 1.0), src='SKY EQ', geo=('r', 'S Jupiter', x, y),
-            rel=f'S Jupiter: {x} = {y}', plane=h['plane'], kind='midpoint (equidistance)', target='1 · unison · midpoint (area A)', tv=1.0,
+        add(('r', cp, frozenset((x, y)), h['plane'], '1'), exact_t(h['q'][0], h['q'][1], 1.0), src='SKY EQ', geo=('r', cp, x, y),
+            rel=f'{cp}: {x} = {y}', plane=h['plane'], kind='midpoint (equidistance)', target='1 · unison · midpoint (area A)', tv=1.0,
             v0=h['q'][0], score=h['score'], colour=h['colour'], out=False)
     for src, rows in sources:                              # pair blocks: ratio, midpoint, legs
         for h in rows:
@@ -1726,20 +1728,21 @@ def timeline(ctx, R0, eq, sources, keep=in_window):
 ALL_STARS = set(STARS) | set(T1_T2_T24_STARS)
 
 
-def star_event(e):
+def star_event(e, centre='Jupiter'):
     """STAR TIMELINE (Eddie, 22 Oct 2026): an event between Jupiter and stars only - every point of the relationship a Jupiter or a star,
     at least one star"""
     if e['geo'][0] not in ('d', 'r'):
         return False
     names = [p.split(' ', 1)[1] for p in e['geo'][1:]]
-    return all(n == 'Jupiter' or n in ALL_STARS for n in names) and any(n in ALL_STARS for n in names)
+    return all(n == centre or n in ALL_STARS for n in names) and any(n in ALL_STARS for n in names)
 
 
-def sj_event(e):
+def sj_event(e, centre='Jupiter'):
     """sky STAR / LONG STAR TIMELINE (Eddie, 22 Oct 2026): events centred on S Jupiter only - 'S Jupiter → S star' and 'S Jupiter: S A – S B'
     (ratio, midpoint); a star-to-star distance (the d(A, B) leg of a pair row) is dropped"""
     g = e['geo']
-    return star_event(e) and (g[1] == 'S Jupiter' if g[0] == 'r' else 'S Jupiter' in g[1:3])
+    cp = f'S {centre}'
+    return star_event(e, centre) and (g[1] == cp if g[0] == 'r' else cp in g[1:3])
 
 
 S95 = 95.0                                                 # 95 / 100 / 95 times (Eddie, 22 Oct 2026)
@@ -1933,8 +1936,8 @@ def pairs_header(ws, row, title, skyside=False):
     return row + 1
 
 
-def write_equi(ws, row, title, hits):
-    ws.cell(row=row, column=1, value=hits[0]['tid'] if hits else 'T17').font = BOLD
+def write_equi(ws, row, title, hits, tid=None):
+    ws.cell(row=row, column=1, value=tid or (hits[0]['tid'] if hits else 'T17')).font = BOLD   # tid: 'SKY EQ' also when empty (1 Nov 2026)
     ws.cell(row=row, column=2, value=title + ' — midpoint scoring (Eddie, 14 Oct 2026): closeness of d(Jup, X), d(Jup, Y) at least 90 % and Jupiter\'s offset from the midpoint of X and Y within RA ±0.5 / Dec, Equator ±0.15 (RA: closer of near / far), each half squared x 0.5, total = the sum, a hit needs both; every plane (Equator = | |Dec| − |Dec| |, only when Jupiter, X and Y '
             'are not all on one side of the equator); '
             'Jupiter between X and Y when d(X, Y) is within 1 % of d(Jup, X) + d(Jup, Y), otherwise far side; stars left out; hits only, '
@@ -1966,6 +1969,106 @@ def num_key(fam, tv):
     """x10 / /10 forms folded: family + the digits of the target (mantissa in [1, 10))"""
     m = tv / 10 ** math.floor(math.log10(tv))
     return fam, round(m, 5)
+
+
+MOON_WIN = (-5.0, 20.0)                                   # SKY MOON TIMELINE window (Eddie, 1 Nov 2026)
+moon_window = lambda t, score: MOON_WIN[0] <= t <= MOON_WIN[1]
+MOON_TL_TITLE = ('TIMELINE (Eddie, 16 Oct 2026; SKY MOON 1 Nov 2026): every sky Moon relationship on this sheet whose exact time falls from the '
+                 'off − 5 min to the off + 20 min (SKY best hit or nearest target; SKY EQ; SKY PAIRS, SKY STARS, SKY ROYAL ratio, midpoint '
+                 'and each distance leg with a family hit), linear from the off and the off + 5 min as everywhere; "outside at the off" = not a hit '
+                 'at the off; together rows left out, each event once (other sources in the note); values are never scaled; '
+                 'window −5 / +20 min (the Moon moves about 0.5° an hour)')
+
+
+def centre_text(t, centre):
+    """titles and headers of SKY SUN / SKY MOON (Eddie, 1 Nov 2026): S Jupiter -> S Sun / S Moon (also 'Jupiter', 'Jup'); on SKY MOON
+    'Moon included' reads 'Sun included'"""
+    if centre == 'Moon':
+        t = t.replace('Moon included', 'Sun included')
+    return re.sub(r'Jupiter|Jup\b', centre, t)
+
+
+def sky_sheet(wb, race, ctx, sky, skyx, R0, centre='Jupiter'):
+    """SKY JUPITER (S Jupiter on every sky point; SKY block, SKY EQ, SKY PAIRS, SKY STARS, SKY ROYAL, T24 SKY, the four timelines); centre
+    'Sun' / 'Moon' (Eddie, 1 Nov 2026): the same sheet on S Sun / S Moon - the centre left out as a partner, Jupiter an ordinary body, no
+    T24 SKY; SKY MOON has the TIMELINE only, window -5 / +20 min. Titles and headers name the centre (bold cells; data labels carry it)"""
+    cp = f'S {centre}'
+
+    def finish(ws):
+        ws.column_dimensions['B'].width = 30
+        if centre != 'Jupiter':
+            for k, d in wb['SKY JUPITER'].column_dimensions.items():     # same widths as SKY JUPITER (Eddie, 1 Nov 2026)
+                if d.customWidth:
+                    ws.column_dimensions[k].width = d.width
+            for r in ws.iter_rows():
+                for c in r:
+                    if isinstance(c.value, str) and c.font is not None and c.font.b:
+                        c.value = centre_text(c.value, centre)
+        return ws
+
+    ws = wb.create_sheet(f'SKY {centre.upper()}')
+    ws.cell(row=1, column=1, value=f'{race} — S Jupiter to every sky body, star and the equator (at the off and +5 min)').font = BOLD
+    skind = lambda a, b: 'equator' if b.endswith(' equator') else 'dist'
+    rows = [(f'{cp} → S {x}', cp, f'S {x}') for x in skyx if x != centre]     # stars on T1_T2_T24_STARS (Eddie, 19 Oct 2026)
+    row, skycells = write_pairs(ws, 3, 'SKY', 'S Jupiter → sky points', ctx.x, R0, rows, skind, timing=True)
+    if centre == 'Jupiter':
+        ctx.skycells = skycells                            # T24 HORSE / JOCKEY "S Jupiter" column (Eddie, 27 Oct 2026); MATCH reads SKY JUPITER only
+    skyeq = [dict(h, tid='SKY EQ') for h in equi_hits(ctx, R0, cp, [f'S {z}' for z in SKY_BODIES if z in sky and z != centre], 'SKY EQ')]
+    row = write_equi(ws, row, 'EQUIDISTANCE: S Jupiter with two sky bodies', skyeq, 'SKY EQ')
+    skypairs = t19_filter(pair_rows(ctx, R0, None, tid='SKY PAIRS', jup=cp, blocks=sky_pair_blocks(ctx, centre)))
+    # SKY STARS on the 67 stars (Eddie, 20 Oct 2026; 67 since 21 Oct); pair orientation: the old STARS order, then the new stars in RA order, so every old pair keeps
+    # its X / Y as before
+    skystars = t19_filter(pair_rows(ctx.x, R0, [x for x in STARS if x in T1_T2_T24_STARS] + [x for x in T1_T2_T24_STARS if x not in STARS],
+                                    tid='SKY STARS', sky=True, jup=cp))
+    row = write_pair_blocks(ws, row, 'SKY PAIRS (Eddie, 14 Oct): S Jupiter on every pair of sky bodies (Moon included), and (15 Oct 2026) on every sky body '
+                       'with a royal star (Aldebaran, Regulus, Antares, Fomalhaut; race-day positions; block "body – royal"; no star–star), filtered as T19 '
+                       '(ratio on an interval, or a midpoint hit, or all three distances with a family hit; "X, Y together" left out; best first by the higher '
+                       'of the ratio score and the midpoint total): '
+                       'd(S Jup, X), d(S Jup, Y), d(X, Y) with their best family (score, timing); ratio larger / smaller on the interval list '
+                       '(area A ±0.02 absolute, area B tapered %; timing); between / far side; planes RA, Dec, Equator (only when S Jupiter, X, Y '
+                       'straddle the equator); Ketu in every plane; the sky Rahu–Ketu pair never paired; a Ketu row repeating the Rahu row dropped',
+                            skypairs, 'SKY PAIRS')
+    row = write_pair_blocks(ws, row, 'SKY STARS (background, once per race; 20 Oct 2026: the 67 stars of T1 / T2 / T24, RA order, no Polaris): S Jupiter on two sky stars, filtered as T19 (ratio on an interval, '
+                      'or all three distances with a family hit; "X, Y together" left out)',
+                      skystars, 'SKY STARS')
+    roy = [f'S {x}' for x in STARS if x in ROYAL and x in ctx.S0]
+    srows = pair_rows(ctx, R0, None, tid='SKY ROYAL', jup=cp,
+                      blocks=[('royal – royal', list(itertools.combinations(roy, 2))), sky_pair_blocks(ctx, centre)[1]])
+    srows.sort(key=lambda h: -max(h['ev']['score'] if h['ev'] else -1, -1 if h['mid'] is None else h['mid']))
+    row = write_pair_blocks(ws, row, 'SKY ROYAL (Eddie, 16 Oct 2026; royal stars only): S Jupiter on the six pairs of Aldebaran, Regulus, Antares, '
+                            'Fomalhaut ("royal – royal") and every sky body with a royal star ("body – royal", the SKY PAIRS rows), race-day positions; '
+                            'every row listed (hits and non-hits); a row with "X, Y together" is plain, in NO HIT; same cells and areas as SKY PAIRS, best '
+                            'first inside each block',
+                            srows, 'SKY ROYAL', every=True, notog=True)
+    if centre == 'Jupiter':                                # T24 SKY has no Jupiter in it: SKY JUPITER only (Eddie, 1 Nov 2026)
+        row, _, _ = write_t24(ws, row + 1, skyx, 'S', f'T24 SKY (race-day positions at the off, Moon included): {T24_NOTE}')     # Eddie, 19 Oct 2026
+    srcs = (('SKY PAIRS', skypairs), ('SKY STARS', skystars), ('SKY ROYAL', srows))
+    # sky TIMELINE / LONG TIMELINE on the 67 stars (Eddie, 20 Oct 2026): SKY star events from the sky on T1_T2_T24_STARS (ctx.x), as the SKY block
+    if centre == 'Moon':                                   # SKY MOON: TIMELINE only, window -5 / +20 min (Eddie, 1 Nov 2026)
+        stl = timeline(ctx.x, R0, skyeq, srcs, keep=moon_window, centre=centre)
+        row = write_timeline(ws, row, ctx.x, stl, title=MOON_TL_TITLE)
+        return finish(ws)
+    stl = timeline(ctx.x, R0, skyeq, srcs, centre=centre)
+    row = write_timeline(ws, row, ctx.x, stl)
+    slt = realise(ctx.x, R0, timeline(ctx.x, R0, skyeq, srcs, keep=long_keep, centre=centre))
+    row = write_long(ws, row, ctx.x, slt, 'LONG TIMELINE',
+                     'LONG TIMELINE (Eddie, 16 Oct 2026): every sky Jupiter event on this sheet scoring >= 90 at the off (22 Oct 2026; was 80), any exact time (same sources '
+                     'and rules as TIMELINE). Exact time: beyond 60 min the real time from the Swiss Ephemeris (race engine and site; stepping out from the off, '
+                     'refined to the minute, up to 1 year each way, else "not within 1 year"), the linear estimate in the last column; each section by score at the off, highest first (ties by exact time)')
+    # STAR / LONG STAR TIMELINE (Eddie, 22 Oct 2026): S Jupiter-centred events only (star-to-star distances dropped, same day), with the
+    # 95 / 100 / 95 times from the engine
+    sst, slst = [e for e in stl if sj_event(e, centre)], [e for e in slt if sj_event(e, centre)]
+    w95n = W95_NOTE
+    for e in sst + slst:
+        if 'w95' not in e:
+            e['w95'] = win95(ctx.x, e)
+    row = write_timeline(ws, row, ctx.x, sst, 'STAR TIMELINE',     # Eddie, 22 Oct 2026
+                         'STAR TIMELINE (Eddie, 22 Oct 2026): the events of TIMELINE centred on S Jupiter with stars only (S Jupiter → S star, S Jupiter: '
+                         'S A – S B ratio and midpoint; star-to-star distances left out), the same rows, window and markers. ' + w95n, w95=True)
+    row = write_long(ws, row, ctx.x, slst, 'LONG STAR TIMELINE',          # Eddie, 22 Oct 2026
+                     'LONG STAR TIMELINE (Eddie, 22 Oct 2026): the events of LONG TIMELINE centred on S Jupiter with stars only (as STAR TIMELINE), the '
+                     'same rows (score >= 90 at the off, real exact time beyond 60 min, linear estimate), sections and sort. ' + w95n, w95=True)
+    return finish(ws)
 
 
 def main():
@@ -2016,64 +2119,9 @@ def main():
                 for b, p in runners[P][C + 'X'].items():
                     if b not in runners[P][C]:
                         ws.append([P, runners[P]['name'], C, b, p[2], p[0], p[1]])
-    # SKY JUPITER
-    ws = wb.create_sheet('SKY JUPITER')
-    ws.cell(row=1, column=1, value=f'{race} — S Jupiter to every sky body, star and the equator (at the off and +5 min)').font = BOLD
     R0 = {'H': {}, 'J': {}}
-    skind = lambda a, b: 'equator' if b.endswith(' equator') else 'dist'
-    rows = [(f'S Jupiter → S {x}', 'S Jupiter', f'S {x}') for x in skyx if x != 'Jupiter']     # stars on T1_T2_T24_STARS (Eddie, 19 Oct 2026)
-    row, skycells = write_pairs(ws, 3, 'SKY', 'S Jupiter → sky points', ctx.x, R0, rows, skind, timing=True)
-    ctx.skycells = skycells                                # T24 HORSE / JOCKEY "S Jupiter" column (Eddie, 27 Oct 2026)
-    skyeq = [dict(h, tid='SKY EQ') for h in equi_hits(ctx, R0, 'S Jupiter', [f'S {z}' for z in SKY_BODIES if z in sky and z != 'Jupiter'], 'SKY EQ')]
-    row = write_equi(ws, row, 'EQUIDISTANCE: S Jupiter with two sky bodies', skyeq)
-    skypairs = t19_filter(pair_rows(ctx, R0, None, tid='SKY PAIRS', blocks=sky_pair_blocks(ctx)))
-    # SKY STARS on the 67 stars (Eddie, 20 Oct 2026; 67 since 21 Oct); pair orientation: the old STARS order, then the new stars in RA order, so every old pair keeps
-    # its X / Y as before
-    skystars = t19_filter(pair_rows(ctx.x, R0, [x for x in STARS if x in T1_T2_T24_STARS] + [x for x in T1_T2_T24_STARS if x not in STARS],
-                                    tid='SKY STARS', sky=True))
-    row = write_pair_blocks(ws, row, 'SKY PAIRS (Eddie, 14 Oct): S Jupiter on every pair of sky bodies (Moon included), and (15 Oct 2026) on every sky body '
-                       'with a royal star (Aldebaran, Regulus, Antares, Fomalhaut; race-day positions; block "body – royal"; no star–star), filtered as T19 '
-                       '(ratio on an interval, or a midpoint hit, or all three distances with a family hit; "X, Y together" left out; best first by the higher '
-                       'of the ratio score and the midpoint total): '
-                       'd(S Jup, X), d(S Jup, Y), d(X, Y) with their best family (score, timing); ratio larger / smaller on the interval list '
-                       '(area A ±0.02 absolute, area B tapered %; timing); between / far side; planes RA, Dec, Equator (only when S Jupiter, X, Y '
-                       'straddle the equator); Ketu in every plane; the sky Rahu–Ketu pair never paired; a Ketu row repeating the Rahu row dropped',
-                            skypairs, 'SKY PAIRS')
-    row = write_pair_blocks(ws, row, 'SKY STARS (background, once per race; 20 Oct 2026: the 67 stars of T1 / T2 / T24, RA order, no Polaris): S Jupiter on two sky stars, filtered as T19 (ratio on an interval, '
-                      'or all three distances with a family hit; "X, Y together" left out)',
-                      skystars, 'SKY STARS')
-    roy = [f'S {x}' for x in STARS if x in ROYAL and x in ctx.S0]
-    srows = pair_rows(ctx, R0, None, tid='SKY ROYAL', blocks=[('royal – royal', list(itertools.combinations(roy, 2))), sky_pair_blocks(ctx)[1]])
-    srows.sort(key=lambda h: -max(h['ev']['score'] if h['ev'] else -1, -1 if h['mid'] is None else h['mid']))
-    row = write_pair_blocks(ws, row, 'SKY ROYAL (Eddie, 16 Oct 2026; royal stars only): S Jupiter on the six pairs of Aldebaran, Regulus, Antares, '
-                            'Fomalhaut ("royal – royal") and every sky body with a royal star ("body – royal", the SKY PAIRS rows), race-day positions; '
-                            'every row listed (hits and non-hits); a row with "X, Y together" is plain, in NO HIT; same cells and areas as SKY PAIRS, best '
-                            'first inside each block',
-                            srows, 'SKY ROYAL', every=True, notog=True)
-    row, _, _ = write_t24(ws, row + 1, skyx, 'S', f'T24 SKY (race-day positions at the off, Moon included): {T24_NOTE}')     # Eddie, 19 Oct 2026
-    srcs = (('SKY PAIRS', skypairs), ('SKY STARS', skystars), ('SKY ROYAL', srows))
-    # sky TIMELINE / LONG TIMELINE on the 67 stars (Eddie, 20 Oct 2026): SKY star events from the sky on T1_T2_T24_STARS (ctx.x), as the SKY block
-    stl = timeline(ctx.x, R0, skyeq, srcs)
-    row = write_timeline(ws, row, ctx.x, stl)
-    slt = realise(ctx.x, R0, timeline(ctx.x, R0, skyeq, srcs, keep=long_keep))
-    row = write_long(ws, row, ctx.x, slt, 'LONG TIMELINE',
-                     'LONG TIMELINE (Eddie, 16 Oct 2026): every sky Jupiter event on this sheet scoring >= 90 at the off (22 Oct 2026; was 80), any exact time (same sources '
-                     'and rules as TIMELINE). Exact time: beyond 60 min the real time from the Swiss Ephemeris (race engine and site; stepping out from the off, '
-                     'refined to the minute, up to 1 year each way, else "not within 1 year"), the linear estimate in the last column; each section by score at the off, highest first (ties by exact time)')
-    # STAR / LONG STAR TIMELINE (Eddie, 22 Oct 2026): S Jupiter-centred events only (star-to-star distances dropped, same day), with the
-    # 95 / 100 / 95 times from the engine
-    sst, slst = [e for e in stl if sj_event(e)], [e for e in slt if sj_event(e)]
-    w95n = W95_NOTE
-    for e in sst + slst:
-        if 'w95' not in e:
-            e['w95'] = win95(ctx.x, e)
-    row = write_timeline(ws, row, ctx.x, sst, 'STAR TIMELINE',     # Eddie, 22 Oct 2026
-                         'STAR TIMELINE (Eddie, 22 Oct 2026): the events of TIMELINE centred on S Jupiter with stars only (S Jupiter → S star, S Jupiter: '
-                         'S A – S B ratio and midpoint; star-to-star distances left out), the same rows, window and markers. ' + w95n, w95=True)
-    row = write_long(ws, row, ctx.x, slst, 'LONG STAR TIMELINE',          # Eddie, 22 Oct 2026
-                     'LONG STAR TIMELINE (Eddie, 22 Oct 2026): the events of LONG TIMELINE centred on S Jupiter with stars only (as STAR TIMELINE), the '
-                     'same rows (score >= 90 at the off, real exact time beyond 60 min, linear estimate), sections and sort. ' + w95n, w95=True)
-    ws.column_dimensions['B'].width = 30
+    for centre in ('Jupiter', 'Sun', 'Moon'):              # SKY JUPITER; SKY SUN, SKY MOON (Eddie, 1 Nov 2026)
+        sky_sheet(wb, race, ctx, sky, skyx, R0, centre)
     for P in sorted(runners):
         runner_sheet(wb, P, runners[P], ctx)
     summary_hj(wb, sorted(runners))                         # SUMMARY (Eddie, 31 Oct 2026), after the runner sheets

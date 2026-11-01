@@ -130,8 +130,8 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   list with Group column, P## RATIOS sheets, FIELD 12–14; T16 RA–Dec crossing + FIELD 16; T17 equidistance + FIELD 17; T18 horse | jockey; T19 + P## PAIRS; T20 + FIELD 20; T21, T22 + FIELD 21, 22 (fixed stars); T23 + FIELD 23 (H / J, S / H, S / J ratios); T24 stars against bodies (SKY, HORSE, JOCKEY grids; T1 / T2 / T24 on 35 stars, 19 Oct; 46 since 20 Oct, 67 since 21 Oct; conjunction cells red, 20 Oct) + T24 H / J, HORSE / JOCKEY RATIOS; default workbook POSITIONS, SKY JUPITER, P## only, --full for RATIOS / NUMBERS / THREADS / FIELD; SKY cells in T1 / T2 and a sky side in T21 with the tag 'same as sky'; THREADS, P## NUMBERS and FIELD NUMBERS
   sheets - rules in the section below). Venv python (swisseph, pandas).
   Planes RA, Dec and Equator only (Flat and GC removed 14 Oct 2026 for noise, Eddie).
-  Tests `python3 tests/jupiter_tables_check.py` = the QUICK suite (127/127, about 4-5.5 min with a warm cache: every check on the current builds + the
-  comparison with the commit before the current change); `--full` = every test (155 checks since 31 Oct ratio 1; last run 154/154 before it: also every old-against-old comparison).
+  Tests `python3 tests/jupiter_tables_check.py` = the QUICK suite (128/128, about 5 min with a warm cache: every check on the current builds + the
+  comparison with the commit before the current change); `--full` = every test (157 checks since 1 Nov; last full run 154/154 on 31 Oct: also every old-against-old comparison).
   Segments are marked '#@ quick: <why>' / '#@ full: <why>' in the file. Old-commit builds are cached in tests/.cache/<commit>/ (git-ignored;
   key: commit, race, a hash of the input's cell values (META created_utc skipped), options, and for old_code builds a hash of today's
   families.py / jup2 / rebuild_kit), built only when missing. Timing: `python3 tests/time_suite.py [--full] [--log <file>]` (per test, slowest 15,
@@ -916,6 +916,42 @@ PARTLY REMOVED 29 Oct 2026 (Eddie): the half family is gone (see "half family re
   e.g. Kelso P01 T8 RA 99.998689 ninth 99.13, whole 100 would be 87.32; Ascot P01 T24 Dec 9.999769 ninth 98.47; right at 10.000000 a 6-dp
   value can read either way (Lingfield P07 T24 Dec / Equator 10.0 ninth 100.0).)
 
+## jupiter_tables: SKY SUN and SKY MOON sheets (Eddie, 1 Nov 2026; viewing only)
+- Two sheets straight after SKY JUPITER, before the runner sheets: SKY SUN, then SKY MOON (sky_sheet(centre)). Each = SKY JUPITER with S Jupiter
+  replaced by S Sun / S Moon in every block, title and label: SKY block (centre → every sky body, the 67 stars, the equator; RA, Dec; +5, family,
+  score, timing), SKY EQ, SKY PAIRS (body – body, body – royal), SKY STARS, SKY ROYAL, timelines; same rules, filters, areas, sort, colours and
+  column widths (copied from SKY JUPITER); no freeze. The centre is never a partner; S Jupiter is an ordinary sky body; the Moon is a partner on
+  SKY SUN, the Sun on SKY MOON; the sky Rahu – Ketu pair never paired. Titles / headers (bold cells) name the centre ('Jupiter', 'Jup' -> Sun /
+  Moon; SKY MOON 'Moon included' -> 'Sun included'); data labels carry the centre. No T24 SKY on either (it has no Jupiter in it).
+- SKY SUN: TIMELINE (−30 / +60), LONG TIMELINE (>= 90, engine times beyond 60 min), STAR TIMELINE, LONG STAR TIMELINE (95 / 100 / 95), as SKY
+  JUPITER; STAR events = S Sun → star and S Sun on two stars. SKY MOON: TIMELINE only, window off − 5 to off + 20 min (MOON_WIN), title "window
+  −5 / +20 min (the Moon moves about 0.5° an hour)". SKY JUPITER, POSITIONS, runner sheets, MATCH tables and SUMMARY unchanged (MATCH reads SKY
+  JUPITER only). Code: timeline(), sky_pair_blocks(), star_event(), sj_event() take the centre (default Jupiter); write_equi labels an empty SKY EQ
+  block 'SKY EQ' (was 'T17', a leftover; none of the six test races has an empty SKY EQ on SKY JUPITER, so SKY JUPITER is unchanged there).
+- Lingfield 14:35 2021 by hand from POSITIONS: S Sun → S Jupiter RA 45.918398 (46 whole, outside), Dec 19.418627 12×φ (86.76); S Moon → S Jupiter
+  RA 68.547364 10×φ^4 (96.33), Dec 9.66212 outside; S Sun → S equator Dec 5.028708 = |Dec S Sun|.
+  Counts (SKY rows / SKY EQ / pair rows): Lingfield SKY SUN 47 / 7 / 464, SKY MOON 47 / 3 / 448; Kelso SKY SUN 93 / 0 / 1,031, SKY MOON 93 / 0 / 985.
+  SKY SUN timelines: Lingfield TIMELINE 84 (35 before / 8 first 5 min / 41 after), LONG 11 (4 sep / 7 app), STAR 25, LONG STAR 3; Kelso 263 (91 /
+  22 / 150), LONG 43 (21 / 22), STAR 201, LONG STAR 26. SKY MOON TIMELINE events (before / after the off): Kelso 299 (91 / 208), Lingfield 79 (29 /
+  50), rebuilt Ascot 300 (81 / 219), Ripon 354 (131 / 223), Newcastle AW 16:33 2021 401 (140 / 261), Goodwood 18:53 2021 463 (147 / 316).
+  Sizes before -> after: Kelso 2.17 -> 2.50 MB, Lingfield 0.84 -> 0.97, rebuilt Ascot 0.59 -> 0.89, Ripon 1.69 -> 2.00, Newcastle 2.22 -> 2.54,
+  Goodwood 1.94 -> 2.28.
+- Tests: quick 128/128 (--full 157 checks, not run for this change). Test 56 (quick; chk_skysun/check_sun.py) vs builds by fce24a12's own tools/,
+  six races: sheet order, every existing sheet identical, blocks (SKY SUN = SKY JUPITER's; SKY MOON minus T24 SKY, LONG, STAR, LONG STAR), widths,
+  no freeze, S Sun / S Moon → S Jupiter = S Jupiter → S Sun / S Moon (value, +5, target, group, offset, score, both planes), equator = |Dec|,
+  partners, titles, SKY MOON TIMELINE window / order / markers, each event = its source timing cell (outside SKY cells and midpoint events
+  recomputed from POSITIONS), every in-window timing cell has its event (cells shown at exactly −5.0 / 20.0 listed, not required); by hand the
+  Lingfield cells above. Test 55's comparison moved behind '#@ full:' (e6267326 vs fce24a12 builds). Test 30 expects the two sheets and allows
+  the new stars on them as on SKY JUPITER.
+- Independent checker (1 Nov), own code from POSITIONS + engine (chk_skysun/indep/), Lingfield and Kelso: every SKY block cell (Lingfield 91 + 91,
+  Kelso 183 + 183 plane cells), SKY EQ, SKY PAIRS / SKY STARS / SKY ROYAL completeness, cells and order, every timeline event (Kelso SKY SUN 263 /
+  LONG 43 / STAR 201 / LONG STAR 26, 11 real times, 454 95 / 100 / 95 cells; SKY MOON 299), the Moon window edges (left out Lingfield −5.28 and
+  +20.42, Kelso +20.02; in Lingfield −4.88 / +19.80, Kelso −4.91 / +19.88): 0 mismatches; 7 planted errors (wrong centre cells, relabelled row,
+  missing pair row, centre as partner, Moon event at +20.42 / +20.02, swapped events, extra STAR TIMELINE on SKY MOON) all caught. It ran before
+  two display fixes it reported: widths (now = SKY JUPITER's) and the empty SKY EQ label 'T17' (now 'SKY EQ'). Not covered: midpoint halves one
+  by one, pair note column, tie order, LONG 'not within 1 year' (none on SKY SUN). Open: the empty SKY EQ line still reads '(no equidistance within
+  1 %)', the old wording (kept; same on SKY JUPITER).
+
 ## jupiter_tables: MATCH HORSE / MATCH JOCKEY (Eddie, 30 Oct 2026; viewing only)
 - RATIO 1 LIGHT BLUE, SUMMARY FREEZE D4 (Eddie, 31 Oct 2026, third change that day; display only): every column C cell whose ratio is '1' (the EXACT
   rows) filled BDD7EE (UNI) in MATCH HORSE / MATCH JOCKEY; MATCH HORSE | JOCKEY and SUMMARY copy the style, so they carry it too; BODY / CONJ STAR
@@ -1146,7 +1182,7 @@ PARTLY REMOVED 29 Oct 2026 (Eddie): the half family is gone (see "half family re
   caught. Not covered: timing values, T24 midpoint cells (unchanged), pair ratio / midpoint cells, LONG real times.
 
 ## jupiter_tables: workbook trimmed (Eddie, 29 Oct 2026)
-- The workbook is now POSITIONS, SKY JUPITER (whole: SKY block, SKY EQ, SKY PAIRS, SKY STARS, SKY ROYAL, T24 SKY, TIMELINE, LONG TIMELINE,
+- The workbook is now POSITIONS, SKY JUPITER (since 1 Nov 2026 followed by SKY SUN, SKY MOON) (whole: SKY block, SKY EQ, SKY PAIRS, SKY STARS, SKY ROYAL, T24 SKY, TIMELINE, LONG TIMELINE,
   STAR TIMELINE, LONG STAR TIMELINE) and one sheet per runner with T1, T2, T3, T4, T5, T6, T7, T8, T24 HORSE, T24 JOCKEY only (S Jupiter column,
   midpoints, repeats, red, widths, freeze C4 as before; D4 since 31 Oct 2026, Eddie; POSITIONS / SKY JUPITER no freeze); since 30 / 31 Oct 2026 also MATCH HORSE, MATCH JOCKEY,
   MATCH HORSE | JOCKEY on each runner sheet and a SUMMARY sheet after them (see the MATCH section). Removed: T9, T10, T11, T12, T13, T14, T16, T17, T18, T19, T20, T21, T21R, T22, T22R,
@@ -1564,6 +1600,7 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
   p, q <= 6), re-ordered by sky cell score the same day, then grouped by sky cell under grey header rows the same day; MATCH HORSE | JOCKEY
   side by side added the same day; 31 Oct 2026: BODY and CONJ STAR rows, SUMMARY sheet, runner freeze D4; then groups in blocks FIXED
   STARS / CONJUNCTIONS / OTHER BODIES and SUMMARY on unrounded scores:** see its section. Tests 154/154.
+- **SKY SUN and SKY MOON sheets after SKY JUPITER (1 Nov 2026, Eddie):** see its section. Quick 128/128.
 - **MATCH ratio 1 light blue in column C, SUMMARY freeze D4 (31 Oct 2026, Eddie):** see the MATCH section. Quick 127/127.
 - **Test suite: quick by default, --full on request, cached old builds (31 Oct 2026, Eddie):** see Tools and the standing rule. Quick 127/127
   (5.5 min), full 154/154 (cold 41.6 min, warm cache 14.0 min; before the split 42.5 min). tests/time_suite.py times every test.
