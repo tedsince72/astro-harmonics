@@ -502,6 +502,10 @@ def rules_register(path):
     for r in order:
         p = sorted(picked[r])
         print(f"    {r:4} {len(p)}: " + (', '.join(N(x).strip() for x in p) if p else 'none'))
+    print("\n  RULES PER RUNNER (Eddie, 4 Nov 2026: the combinations)")
+    for R in runners:
+        rs = [r for r in order if R in picked[r]]
+        print(f"    {N(R):34} {len(rs):2}: " + (', '.join(rs) if rs else 'none'))
     for r in order:
         print(f"\n  {r}" + ('' if out[r] else ': none'))
         for line in out[r][:40]: print('  ' + line)
