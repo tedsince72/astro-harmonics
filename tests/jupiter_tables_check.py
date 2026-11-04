@@ -2847,7 +2847,9 @@ check('T57 builds by e7b0049 against the build before (commit 6608676f), Kelso, 
       all(line(o, 'mismatches:') == 'mismatches: 0' for o in out57.values()), {n: line(o, 'mismatches:') for n, o in out57.items()})
 #@ quick: T58 comparison with e7b0049 (the commit before the current change); T58, T57, T56 and T54 by-hand cells on the current builds
 print('test 58: T24 HORSE / JOCKEY S Sun, S Moon columns and the four Sun / Moon rows')
-INP58 = INP57
+INP58 = {'kelso': 'reference/classic/race_batch_20220504_kelso_1450.xlsx', 'lingfield': 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx',
+         'ascot': f'{tmp}/race_batch_20120619_ascot_1430.xlsx', 'ripon': 'reference/classic/race_batch_20220616_ripon_1525.xlsx',
+         'newcastle': 'reference/classic/race_batch_20210802_newcastle_aw_1633.xlsx', 'goodwood': 'reference/classic/race_batch_20210827_goodwood_1853.xlsx'}
 extract('e7b0049', f'{tmp}/he7b')
 for d in ('before58', 'after58', 'after57', 'after56', 'after54'):
     os.makedirs(f'{tmp}/{d}', exist_ok=True)
