@@ -20,7 +20,7 @@ Sections (they follow the reading procedure in claude/handover-new-race-reads.md
   6  the same body on both charts of a runner
   7  sky lines exact within the window on the rows only that runner is in (any score)
   8  near-but-off pairs between runners, both ways
-  9  the rules register (R1-R13, claude/isolation-log.md), computed from POSITIONS with families.py
+  9  the rules register (R1-R15, claude/isolation-log.md), computed from POSITIONS with families.py
 """
 import re
 import sys
@@ -358,6 +358,14 @@ def rules_register(path):
     def txt(c):
         return '; '.join(f"{pl} {v:.4f} {t} {f} {s:.2f}" for pl, (v, t, f, s) in c.items())
 
+    def anyc(a, b):
+        """{plane: (value, target, family, score)} for any best-family score > 0 (a sky line)."""
+        out = {}
+        for pl in ('RA', 'Dec'):
+            v = dist(a, b, pl); bb = F.best(v, pl)
+            if bb and bb['score'] > 0: out[pl] = (v, str(bb['target']), bb['family'], bb['score'])
+        return out
+
     def anysc(a, b):
         return any((F.best(dist(a, b, pl), pl) or {}).get('score', 0) > 0 for pl in ('RA', 'Dec'))
 
@@ -464,8 +472,30 @@ def rules_register(path):
                 labs = {a for a, _ in v}
                 if len(labs) >= 2 and any(a.startswith('S ') for a in labs):
                     add('R13', R, f"{ch} Jupiter on {tg} {fam}: " + ' | '.join(t for _, t in v))
+        for c in ('Jupiter', 'Sun', 'Moon'):                                      # R14 (Worcester 22 Aug 2021)
+            for st in lines[c]:
+                for pl, (v, tg, fam, sc) in anyc(SKY(c), SKY(st)).items():
+                    if fam == 'conj': continue
+                    for ch in 'HJ':
+                        if nat(R, ch, st) is None or not (jb := cells(nat(R, ch, st), nat(R, ch, 'Jupiter'))): continue
+                        for X in REG_BODIES:
+                            if X == 'Jupiter': continue
+                            for pl2, (v2, tg2, fam2, sc2) in cells(nat(R, ch, st), nat(R, ch, X)).items():
+                                if tg2 == tg and fam2 == fam:
+                                    add('R14', R, f"S {c} → S {st} {pl} {v:.4f} {tg} {fam} ({sc:.2f}) = {ch} {st} → {X} {pl2} {v2:.4f} ({sc2:.2f}); "
+                                                  f"{st} → {ch} Jupiter [{txt(jb)}]")
+        for ch in 'HJ':                                                           # R15 (Worcester 22 Aug 2021)
+            oc = 'J' if ch == 'H' else 'H'
+            for X in REG_BODIES:
+                if X == 'Jupiter' or nat(R, ch, X) is None or nat(R, oc, X) is None: continue
+                got = {c: g for c in ('Jupiter', 'Sun', 'Moon') if c != X and (g := cells(SKY(c), nat(R, ch, X)))}
+                if len(got) < 2: continue
+                js = [f"{jn} Jupiter → {oc} {X} [{txt(t)}]" for jn, Jp in (('H', nat(R, 'H', 'Jupiter')), ('J', nat(R, 'J', 'Jupiter')),
+                                                                     ('S', SKY('Jupiter'))) if (t := cells(Jp, nat(R, oc, X)))]
+                if js:
+                    add('R15', R, f"{ch} {X}: " + ' | '.join(f"S {c} [{txt(g)}]" for c, g in got.items()) + ' ++ ' + ' / '.join(js))
 
-    order = ['R1', 'R2', 'R2a', 'R3', 'R4', 'R5', 'R6', 'R7', 'R6x', 'R8', 'R9', 'R9b', 'R9c', 'R4b', 'R1b', 'R10', 'R11', 'R12', 'R13']
+    order = ['R1', 'R2', 'R2a', 'R3', 'R4', 'R5', 'R6', 'R7', 'R6x', 'R8', 'R9', 'R9b', 'R9c', 'R4b', 'R1b', 'R10', 'R11', 'R12', 'R13', 'R14', 'R15']
     print(f"  sky star lines: Jupiter {len(lines['Jupiter'])}, Sun {len(lines['Sun'])}, Moon {len(lines['Moon'])}; "
           f"strongest sky Jupiter star line: {top}")
     print("\n  SUMMARY (runners each rule picks out)")
