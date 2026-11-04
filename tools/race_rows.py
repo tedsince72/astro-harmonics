@@ -20,7 +20,7 @@ Sections (they follow the reading procedure in claude/handover-new-race-reads.md
   6  the same body on both charts of a runner
   7  sky lines exact within the window on the rows only that runner is in (any score)
   8  near-but-off pairs between runners, both ways
-  9  the rules register (R1-R20, claude/isolation-log.md), computed from POSITIONS with families.py
+  9  the rules register (R1-R21, claude/isolation-log.md), computed from POSITIONS with families.py
 """
 import re
 import sys
@@ -519,8 +519,16 @@ def rules_register(path):
         for a_, b_ in (('H', 'J'), ('J', 'H')):                                   # R20 (Chelmsford 26 Aug 2021)
             ra, ke = cells(SKY('Rahu'), nat(R, a_, 'Jupiter')), cells(SKY('Ketu'), nat(R, b_, 'Jupiter'))
             if ra and ke: add('R20', R, f"S Rahu → {a_} Jupiter [{txt(ra)}] + S Ketu → {b_} Jupiter [{txt(ke)}]")
+        for ch in 'HJ':                                                           # R21 (Ascot 3 Sep 2021)
+            if top is None or nat(R, ch, top) is None: continue
+            if not (bj := cells(nat(R, ch, top), nat(R, ch, 'Jupiter'))): continue
+            for X in REG_BODIES:
+                if X == 'Jupiter' or nat(R, ch, X) is None: continue
+                a, b = cells(nat(R, ch, top), nat(R, ch, X)), cells(nat(R, ch, 'Jupiter'), nat(R, ch, X))
+                if set(a) & set(b):
+                    add('R21', R, f"{ch} {top} → {X} [{txt(a)}] + {ch} Jupiter → {X} [{txt(b)}] + {ch} {top} → {ch} Jupiter [{txt(bj)}]")
 
-    order = ['R1', 'R2', 'R2a', 'R3', 'R4', 'R5', 'R6', 'R7', 'R6x', 'R8', 'R9', 'R9b', 'R9c', 'R4b', 'R1b', 'R10', 'R11', 'R12', 'R13', 'R14', 'R15', 'R16', 'R17', 'R18', 'R19', 'R20']
+    order = ['R1', 'R2', 'R2a', 'R3', 'R4', 'R5', 'R6', 'R7', 'R6x', 'R8', 'R9', 'R9b', 'R9c', 'R4b', 'R1b', 'R10', 'R11', 'R12', 'R13', 'R14', 'R15', 'R16', 'R17', 'R18', 'R19', 'R20', 'R21']
     print(f"  sky star lines: Jupiter {len(lines['Jupiter'])}, Sun {len(lines['Sun'])}, Moon {len(lines['Moon'])}; "
           f"strongest sky Jupiter star line: {top}")
     print("\n  SUMMARY (runners each rule picks out)")
