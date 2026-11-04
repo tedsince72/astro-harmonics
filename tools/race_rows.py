@@ -20,7 +20,7 @@ Sections (they follow the reading procedure in claude/handover-new-race-reads.md
   6  the same body on both charts of a runner
   7  sky lines exact within the window on the rows only that runner is in (any score)
   8  near-but-off pairs between runners, both ways
-  9  the rules register (R1-R17, claude/isolation-log.md), computed from POSITIONS with families.py
+  9  the rules register (R1-R20, claude/isolation-log.md), computed from POSITIONS with families.py
 """
 import re
 import sys
@@ -508,8 +508,19 @@ def rules_register(path):
                 for pl, (v, tg, fam, sc) in cells(SKY(X), nat(R, jc, 'Jupiter'), conj=False).items():
                     m = [f"S {c} → S {pt} {pl2} {v2:.4f}" for c, pt, pl2, (v2, tg2, fam2, sc2) in skylines if tg2 == tg and fam2 == fam]
                     if m: add('R17', R, f"S {X} → {jc} Jupiter {pl} {v:.4f} {tg} {fam} ({sc:.2f}) = " + ', '.join(m))
+        for c in ('Jupiter', 'Sun', 'Moon'):                                      # R18 (Wolverhampton 25 Aug 2021)
+            for pl, (v, tg, fam, sc) in cells(SKY(c), nat(R, 'J', 'Pallas')).items():
+                if fam == 'conj': add('R18', R, f"S {c} conj J Pallas {pl} {v:.4f} ({sc:.2f})")
+        for ch in 'HJ':                                                           # R19 (Haydock 8 Jun 2020)
+            for X in REG_BODIES:
+                if X in ('Jupiter', 'Moon') or nat(R, ch, X) is None: continue
+                a, b = cells(SKY('Jupiter'), nat(R, ch, X)), cells(nat(R, ch, 'Jupiter'), nat(R, ch, X))
+                if a and b: add('R19', R, f"{ch} {X}: S Jupiter → {ch} {X} [{txt(a)}] + {ch} Jupiter → {ch} {X} [{txt(b)}]")
+        for a_, b_ in (('H', 'J'), ('J', 'H')):                                   # R20 (Chelmsford 26 Aug 2021)
+            ra, ke = cells(SKY('Rahu'), nat(R, a_, 'Jupiter')), cells(SKY('Ketu'), nat(R, b_, 'Jupiter'))
+            if ra and ke: add('R20', R, f"S Rahu → {a_} Jupiter [{txt(ra)}] + S Ketu → {b_} Jupiter [{txt(ke)}]")
 
-    order = ['R1', 'R2', 'R2a', 'R3', 'R4', 'R5', 'R6', 'R7', 'R6x', 'R8', 'R9', 'R9b', 'R9c', 'R4b', 'R1b', 'R10', 'R11', 'R12', 'R13', 'R14', 'R15', 'R16', 'R17']
+    order = ['R1', 'R2', 'R2a', 'R3', 'R4', 'R5', 'R6', 'R7', 'R6x', 'R8', 'R9', 'R9b', 'R9c', 'R4b', 'R1b', 'R10', 'R11', 'R12', 'R13', 'R14', 'R15', 'R16', 'R17', 'R18', 'R19', 'R20']
     print(f"  sky star lines: Jupiter {len(lines['Jupiter'])}, Sun {len(lines['Sun'])}, Moon {len(lines['Moon'])}; "
           f"strongest sky Jupiter star line: {top}")
     print("\n  SUMMARY (runners each rule picks out)")
