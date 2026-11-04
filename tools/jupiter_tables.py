@@ -470,11 +470,10 @@ def runner_sheet(wb, P, R, ctx):
     for tid, C in (('T7', 'H'), ('T8', 'J')):
         rows = [(f'S {z} → {C} Jupiter', f'S {z}', f'{C} Jupiter') for z in SKY_BODIES if z in ctx.S0 and z != 'Jupiter']
         row, field[tid] = write_pairs(ws, row, tid, f'every sky body (Moon incl.) → {C} Jupiter, at the off and +5 min', ctx, R, rows, dist)
-    sky = {(x, pl): v[0] for (lab, pl), v in getattr(ctx, 'skycells', {}).items()
-           if lab.startswith('S Jupiter → S ') and (x := lab[14:]) in T1_T2_T24_STARS}
+    sky = t24_sky_cols(ctx)                                # S Jupiter column (27 Oct 2026); S Sun, S Moon columns (Eddie, 4 Nov 2026)
     for C, who in (('H', 'HORSE'), ('J', 'JOCKEY')):        # T24 (Eddie, 19 Oct 2026): stars against bodies, natal
-        jr = t24_jrows(ctx, R, field, C)
-        row, _, _ = write_t24(ws, row + 1, RX[C], C, f'T24 {who} (natal): {T24_NOTE}{T24SJ_NOTE}', sky=sky, jrows=jr)
+        jr = t24_jrows(ctx, R, field, C) + t24_smrows(ctx, R, C)
+        row, _, _ = write_t24(ws, row + 1, RX[C], C, f'T24 {who} (natal): {T24_NOTE}{T24SJ_NOTE}{T24SM_NOTE}', sky=sky, jrows=jr)
         field[f'_t24c{C}'] = t24_match_cells(RX[C], C, jr)
     # sections JUPITER, SUN, MOON (Eddie, 1 Nov 2026): the sky cells of the SKY block of SKY JUPITER / SKY SUN / SKY MOON
     skyc = getattr(ctx, 'skyc', {})
@@ -554,7 +553,10 @@ def write_t24(ws, row, ch, C, title, sky=None, jrows=()):
     bodies = [b for b in T24_BODIES if b in ch and ch[b][2] == 'body' and (C == 'S' or b != 'Moon')]
     stars = [x for x in T1_T2_T24_STARS if x in ch]
     n = len(bodies)
-    m = n + (sky is not None)                              # value columns per plane: the bodies (+ S Jupiter on HORSE / JOCKEY)
+    if isinstance(sky, dict):                              # one S Jupiter column (as before 4 Nov 2026)
+        sky = [('S Jupiter', sky)]
+    skys = sky or []                                       # sky columns after Ketu: S Jupiter, S Sun, S Moon (Eddie, 4 Nov 2026)
+    m = n + len(skys)                                      # value columns per plane: the bodies (+ the sky columns on HORSE / JOCKEY)
     c0 = {'RA': 3, 'Dec': 3 + m + 1}                       # first body column of each half; its midpoint column at c0 + m
     ws.cell(row=row, column=1, value='T24').font = BOLD
     ws.cell(row=row, column=2, value=title).font = BOLD
@@ -567,7 +569,7 @@ def write_t24(ws, row, ch, C, title, sky=None, jrows=()):
         for k in range(1, m):
             ws.cell(row=row, column=c0[pl] + k).fill = HEAD
         ws.merge_cells(start_row=row, start_column=c0[pl], end_row=row, end_column=c0[pl] + m - 1)
-        for i, b in enumerate(bodies + (['S Jupiter'] if sky is not None else [])):
+        for i, b in enumerate(bodies + [nm for nm, _ in skys]):
             c = ws.cell(row=row + 1, column=c0[pl] + i, value=b); c.fill = HEAD; c.font = BOLD
         for r, v in ((row, f'{pl} midpoints'), (row + 1, 'star = middle of A, B: total (side, between / far side)')):
             c = ws.cell(row=r, column=c0[pl] + m, value=v); c.fill = HEAD; c.font = BOLD
@@ -620,10 +622,12 @@ def write_t24(ws, row, ch, C, title, sky=None, jrows=()):
                 if extra[b]:
                     c.border = openpyxl.styles.Border(left=THICK, right=THICK, top=THICK, bottom=THICK)
                 out[(x, b, pl)] = (v, colour, full)
-            if sky is not None and (x, pl) in sky:         # S Jupiter column (Eddie, 27 Oct 2026): d(S Jupiter, S star) = the SKY block value
-                v = sky[(x, pl)]
+            for k, (_, sv) in enumerate(skys):             # S Jupiter column (Eddie, 27 Oct 2026): d(S Jupiter, S star) = the SKY block value;
+                if (x, pl) not in sv:                      # S Sun, S Moon columns the same from SKY SUN / SKY MOON (Eddie, 4 Nov 2026)
+                    continue
+                v = sv[(x, pl)]
                 colour, text = t24_cell(v, pl)
-                c = ws.cell(row=row, column=c0[pl] + n, value=round(v, 6))
+                c = ws.cell(row=row, column=c0[pl] + n + k, value=round(v, 6))
                 c.number_format = '0.000000'
                 if v < families.CONJ[pl]:
                     c.fill = RED
@@ -710,6 +714,37 @@ def t24_jrows(ctx, R, field, C):
     return out
 
 
+T24_SM = ('Sun', 'Moon')                                   # sky Sun / Moon rows and columns on T24 HORSE / JOCKEY (Eddie, 4 Nov 2026)
+
+
+def t24_sky_cols(ctx):
+    """the sky columns of T24 HORSE / JOCKEY: [(name, {(star, plane): d(S centre, S star) at the off})] for S Jupiter (Eddie, 27 Oct 2026)
+    and S Sun, S Moon (Eddie, 4 Nov 2026), from the SKY block of SKY JUPITER / SKY SUN / SKY MOON (ctx.skyc); S Jupiter from ctx.skycells"""
+    out = []
+    for centre in ('Jupiter',) + T24_SM:
+        cells = getattr(ctx, 'skycells', {}) if centre == 'Jupiter' else getattr(ctx, 'skyc', {}).get(centre, {})
+        pre = f'S {centre} → S '
+        out.append((f'S {centre}', {(x, pl): v[0] for (lab, pl), v in cells.items()
+                                    if lab.startswith(pre) and (x := lab[len(pre):]) in T1_T2_T24_STARS}))
+    return out
+
+
+def t24_smrows(ctx, R, C):
+    """four rows of T24 HORSE / JOCKEY under 'S body → natal Jupiter' (Eddie, 4 Nov 2026): 'S Sun → S body', 'S Sun → H body' (J),
+    'S Moon → S body', 'S Moon → H body' (J); one cell per T24 body column (Jupiter incl.), d at the off, computed from POSITIONS; blank where
+    the centre meets itself (S Sun → S Sun). Not in MATCH, the repeats, the midpoints or the title counts. -> [(label, {(body, plane): v})]"""
+    out = []
+    for centre in T24_SM:
+        for tgt in ('S', C):
+            vals = {}
+            for b in T24_BODIES:
+                for pl in PLANES:
+                    vals[(b, pl)] = (None if (tgt == 'S' and b == centre) or b not in (ctx.S0 if tgt == 'S' else R[C])
+                                     else ctx.pair(R, f'S {centre}', f'{tgt} {b}', pl)[0])
+            out.append((f'S {centre} → {tgt} body', vals))
+    return out
+
+
 def t24_put(ws, row, col, v, pl):
     """one T24-format distance cell (value 6 dp, best family fill, conjunction red, comment) -> the cell"""
     colour, text = t24_cell(v, pl)
@@ -756,7 +791,7 @@ def t24_match_cells(ch, C, jrows):
     bodies = [b for b in T24_BODIES if b in ch and ch[b][2] == 'body' and b != 'Moon']
     out = []
     for lab, vals in jrows:
-        if lab == 'S Jupiter → S body':
+        if lab == 'S Jupiter → S body' or lab.startswith(('S Sun → ', 'S Moon → ')):     # the Sun / Moon rows (4 Nov 2026) not in MATCH
             continue
         for pl in PLANES:
             for b in bodies:
@@ -1227,6 +1262,9 @@ def summary_hj(wb, runners):
 
 T24SJ_NOTE = ('. S JUPITER column (Eddie, 27 Oct 2026): after Ketu in each plane, d(S Jupiter, S star) at the off = the SKY block value, '
               'same cell format; not in the repeats or the midpoints')
+T24SM_NOTE = ('. S SUN, S MOON columns (Eddie, 4 Nov 2026): after S Jupiter in each plane, d(S Sun, S star) / d(S Moon, S star) at the off = '
+              'the SKY block value of SKY SUN / SKY MOON, same cell format; not in the repeats or the midpoints. Rows S Sun → S body, S Sun → natal '
+              'body, S Moon → S body, S Moon → natal body under the Jupiter rows (at the off, from POSITIONS); not in MATCH')
 
 
 # ---------------- pair-row cells (T21 / T22 used them; removed 29 Oct 2026): SKY PAIRS, SKY STARS, SKY ROYAL

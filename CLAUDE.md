@@ -952,6 +952,22 @@ PARTLY REMOVED 29 Oct 2026 (Eddie): the half family is gone (see "half family re
   by one, pair note column, tie order, LONG 'not within 1 year' (none on SKY SUN). Open: the empty SKY EQ line still reads '(no equidistance within
   1 %)', the old wording (kept; same on SKY JUPITER).
 
+## jupiter_tables: T24 HORSE / JOCKEY S Sun, S Moon columns and rows (Eddie, 4 Nov 2026; viewing only; branch t24-sun-moon)
+- Columns: "S Sun" and "S Moon" straight after "S Jupiter" in each plane (RA after Ketu, S Jupiter; Dec the same), before "RA midpoints" /
+  "Dec midpoints"; star rows only; cell = d(S Sun, S star) / d(S Moon, S star) at the off = the SKY block value of SKY SUN / SKY MOON
+  (ctx.skyc), the S Jupiter column's cell format (6 dp, best-family fill, red in the conjunction range, comment); not in the repeats or the
+  midpoints. write_t24(sky=) now takes a list [(column name, {(star, plane): v})] (a dict still means one S Jupiter column); t24_sky_cols.
+- Rows: four under "S body → H Jupiter" (J on JOCKEY), before the grey "stars" row: "S Sun → S body", "S Sun → H body" (J), "S Moon → S body",
+  "S Moon → H body" (J) (t24_smrows): one cell per T24 body column (Jupiter incl.), at the off, ctx.pair from POSITIONS; blank where the
+  centre meets itself (S Sun → S Sun); sky columns blank. Not in MATCH (t24_match_cells skips them), the repeats, the midpoints or the title
+  counts. Title note T24SM_NOTE. Everything else unchanged; every column after S Moon shifts right by two per plane.
+- Checked (tools/scans/families_audit/chk_t24sm/check_sm.py, before vs after, Kelso 14:50 2022 and Huntingdon 13:52 2021 repo batches): every
+  other sheet and row identical (MATCH, SUMMARY incl.), old T24 cells identical after the shift, the new column cells = SKY SUN / SKY MOON SKY
+  block values (Kelso 3,216, Huntingdon 1,008), the new row cells recomputed from POSITIONS (2,280 each race; 24 blanks): 0 mismatches.
+  NOT RUN: the quick suite - this cloud session has no asteroid ephemeris files (s136199s.se1 etc. are not in data/ephe), so the engine
+  stops; builds here ran with "ENGINE NOT RUN" (no +5 / timing), which does not touch the at-the-off cells checked. Eddie to run
+  `python3 tests/jupiter_tables_check.py` on the Mac before merging to main.
+
 ## jupiter_tables: MATCH HORSE / MATCH JOCKEY (Eddie, 30 Oct 2026; viewing only)
 - SUN AND MOON SECTIONS (Eddie, 1 Nov 2026): MATCH HORSE, MATCH JOCKEY, MATCH HORSE | JOCKEY and SUMMARY each in three sections JUPITER, SUN,
   MOON (MATCH_CENTRES; match_groups, match_section). JUPITER = the table as before, cell for cell; SUN / MOON = the same build with the sky side
