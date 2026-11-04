@@ -964,6 +964,10 @@ PARTLY REMOVED 29 Oct 2026 (Eddie): the half family is gone (see "half family re
 - Checked (tools/scans/families_audit/chk_t24sm/check_sm.py, before vs after, Kelso 14:50 2022 and Huntingdon 13:52 2021 repo batches): every
   other sheet and row identical (MATCH, SUMMARY incl.), old T24 cells identical after the shift, the new column cells = SKY SUN / SKY MOON SKY
   block values (Kelso 3,216, Huntingdon 1,008), the new row cells recomputed from POSITIONS (2,280 each race; 24 blanks): 0 mismatches.
+  Independent checker (4 Nov, own code from POSITIONS, /tmp only): every cell's value, fill, comment and style, both races (new star cells
+  Kelso 3,216 / Huntingdon 1,008, new row cells 2,280 + 24 blanks each, old T24 cells after the shift 48,840 / 18,480, other runner-sheet
+  cells incl. MATCH 487,163 / 159,005, other sheets 149,121 / 61,473): 0 mismatches; 3 planted errors (S Sun value, deleted new-row cell,
+  MATCH cell) all caught.
   NOT RUN: the quick suite - this cloud session has no asteroid ephemeris files (s136199s.se1 etc. are not in data/ephe), so the engine
   stops; builds here ran with "ENGINE NOT RUN" (no +5 / timing), which does not touch the at-the-off cells checked. Eddie to run
   `python3 tests/jupiter_tables_check.py` on the Mac before merging to main.
