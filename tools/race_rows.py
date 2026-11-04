@@ -20,6 +20,7 @@ Sections (they follow the reading procedure in claude/handover-new-race-reads.md
   6  the same body on both charts of a runner
   7  sky lines exact within the window on the rows only that runner is in (any score)
   8  near-but-off pairs between runners, both ways
+  9  the rules register (R1-R13, claude/isolation-log.md), computed from POSITIONS with families.py
 """
 import re
 import sys
@@ -298,5 +299,185 @@ def main():
             for x in ba: print(f"     {x}")
 
 
+# ---------------------------------------------------------------------------------------------------
+# 9  RULES REGISTER (Eddie, 4 Nov 2026; rules and records in claude/isolation-log.md)
+# Computed from POSITIONS with families.py (the astro-harmonics repo). Cut-offs as in the reads.
+# ---------------------------------------------------------------------------------------------------
+import os
+
+REG_BODIES = ['Sun', 'Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune', 'Pluto', 'Chiron', 'Ceres',
+              'Pallas', 'Juno', 'Vesta', 'Eris', 'Sedna', 'Haumea', 'Makemake', 'Gonggong', 'Quaoar', 'Orcus',
+              'Transpluto', 'Rahu', 'Ketu']
+REG_CUT = {'whole': 50, 'golden': 50, 'conj': 50}
+
+
+def reg_families():
+    """families.py from the astro-harmonics repo (ASTRO_REPO, else ~/astro-harmonics, else /home/claude/astro-harmonics)."""
+    for root in (os.environ.get('ASTRO_REPO'), os.path.expanduser('~/astro-harmonics'), '/home/claude/astro-harmonics'):
+        if root and os.path.exists(os.path.join(root, 'tools', 'families.py')):
+            for sub in ('tools', 'rebuild_kit'):
+                if os.path.join(root, sub) not in sys.path: sys.path.insert(0, os.path.join(root, sub))
+            import families
+            return families
+    return None
+
+
+def rules_register(path):
+    """Readings as the records were made (4 Nov 2026): a cell counts on its best family only; R6x leaves out a centre
+    on its own natal namesake (S Sun → H Sun); R9 needs conj as the cell's best family; R10's sky bodies are the 24
+    natal bodies without Jupiter (no Moon). R13 includes the sky Moon."""
+    print("\n" + "=" * 78 + "\n9  RULES REGISTER (rules as worded in claude/isolation-log.md; run on the whole field)")
+    F = reg_families()
+    if F is None:
+        print("  families.py not found (set ASTRO_REPO to the astro-harmonics repo); section skipped"); return
+    wb = openpyxl.load_workbook(path, read_only=True)
+    P, names, kind = {}, {}, {}
+    for r in wb['POSITIONS'].iter_rows(values_only=True):
+        if r and len(r) > 6 and isinstance(r[5], (int, float)) and r[2] in ('S', 'H', 'J'):
+            if r[3] == 'Polaris': continue                   # not in the SKY block, T1 / T2 or T24
+            P[(r[0], r[2], r[3])] = (r[5], r[6]); kind[r[3]] = r[4]
+            if r[1] and r[0] != 'SKY': names[r[0]] = str(r[1])
+    runners = sorted({k[0] for k in P if k[0] != 'SKY'})
+    SKY = lambda x: P.get(('SKY', 'S', x))
+
+    def dist(a, b, pl):
+        if pl == 'RA':
+            x = abs(a[0] - b[0]) % 360; return min(x, 360 - x)
+        return abs(a[1] - b[1])
+
+    def cells(a, b, conj=True):
+        """{plane: (value, target, family, score)} for the cells that count at the cut-offs."""
+        out = {}
+        if a is None or b is None: return out
+        for pl in ('RA', 'Dec'):
+            v = dist(a, b, pl); bb = F.best(v, pl)
+            if bb and bb['score'] >= REG_CUT.get(bb['family'], 0) and (conj or bb['family'] != 'conj'):
+                out[pl] = (v, str(bb['target']), bb['family'], bb['score'])
+        return out
+
+    def txt(c):
+        return '; '.join(f"{pl} {v:.4f} {t} {f} {s:.2f}" for pl, (v, t, f, s) in c.items())
+
+    def anysc(a, b):
+        return any((F.best(dist(a, b, pl), pl) or {}).get('score', 0) > 0 for pl in ('RA', 'Dec'))
+
+    skystars = sorted({k[2] for k in P if k[0] == 'SKY' and kind.get(k[2]) == 'star'})
+    lines = {c: [st for st in skystars if SKY(c) and anysc(SKY(c), SKY(st))] for c in ('Jupiter', 'Sun', 'Moon')}
+    allst = sorted(set(sum(lines.values(), [])))
+    onl = lambda st: ','.join(c for c in lines if st in lines[c])
+    N = lambda R: f"{R} {names.get(R, '')[:30]}"
+    picked = defaultdict(set)
+    out = defaultdict(list)
+
+    def add(rule, R, s):
+        picked[rule].add(R); out[rule].append(f"  {N(R)}: {s}")
+
+    nat = lambda R, ch, x: P.get((R, ch, x))
+    top = max(lines['Jupiter'], key=lambda st: max((F.best(dist(SKY('Jupiter'), SKY(st), pl), pl) or {'score': 0})['score']
+                                                   for pl in ('RA', 'Dec'))) if lines['Jupiter'] else None
+    for R in runners:
+        for c in ('Sun', 'Moon'):                                 # R1
+            for X in REG_BODIES:
+                h, j = cells(SKY(c), nat(R, 'H', X)), cells(SKY(c), nat(R, 'J', X))
+                if not (h and j) or X == 'Jupiter': continue
+                back = [f"S {X} → {jc} Jupiter [{txt(t)}]" for jc in 'HJ' if (t := cells(SKY(X), nat(R, jc, 'Jupiter')))]
+                if back: add('R1', R, f"S {c} → H {X} [{txt(h)}], → J {X} [{txt(j)}]; " + ' | '.join(back))
+        for jc, oc in (('H', 'J'), ('J', 'H')):                    # R2, R2a
+            for X in REG_BODIES:
+                if X == 'Jupiter': continue
+                a, b = cells(nat(R, jc, 'Jupiter'), nat(R, jc, X)), cells(nat(R, jc, 'Jupiter'), nat(R, oc, X))
+                if a and b:
+                    s = f"{jc} Jupiter → {jc} {X} [{txt(a)}] and → {oc} {X} [{txt(b)}]"
+                    add('R2', R, s)
+                    if jc == 'H': add('R2a', R, s)
+        for A, B in (('H Jupiter', 'H Pluto'), ('J Jupiter', 'J Pluto'), ('H Jupiter', 'J Pluto'), ('J Jupiter', 'H Pluto'),
+                     ('S Jupiter', 'H Pluto'), ('S Jupiter', 'J Pluto'), ('S Pluto', 'H Jupiter'), ('S Pluto', 'J Jupiter')):   # R3
+            ka = SKY(A[2:]) if A[0] == 'S' else nat(R, A[0], A[2:]); kb = SKY(B[2:]) if B[0] == 'S' else nat(R, B[0], B[2:])
+            if ka is None or kb is None: continue
+            for pl in ('RA', 'Dec'):
+                v = dist(ka, kb, pl); s, lab, t = F.score_family(v, 'golden', pl)
+                if lab == '12×φ' and s >= 50: add('R3', R, f"{A} → {B} {pl} {v:.4f} 12×φ {s:.2f}")
+        for ch in 'HJ':
+            oc = 'J' if ch == 'H' else 'H'
+            for X in REG_BODIES:
+                if X == 'Jupiter' or nat(R, ch, X) is None: continue
+                mo = cells(SKY('Moon'), nat(R, ch, X))
+                if mo:
+                    if (t := cells(nat(R, oc, 'Jupiter'), nat(R, ch, X))):       # R4
+                        add('R4', R, f"S Moon → {ch} {X} [{txt(mo)}] + {oc} Jupiter → {ch} {X} [{txt(t)}]")
+                    if (t := cells(nat(R, ch, 'Jupiter'), nat(R, ch, X))):       # R4b
+                        add('R4b', R, f"S Moon → {ch} {X} [{txt(mo)}] + {ch} Jupiter → {ch} {X} [{txt(t)}]")
+                    if (t := cells(SKY(X), nat(R, ch, 'Jupiter'))):              # R1b
+                        add('R1b', R, f"S Moon → {ch} {X} [{txt(mo)}] + S {X} → {ch} Jupiter [{txt(t)}]")
+                    for pl, (v, tg, fam, sc) in mo.items():                      # R5
+                        if fam == 'conj': continue
+                        for st in lines['Moon']:
+                            for pl2, (v2, tg2, fam2, sc2) in cells(nat(R, ch, st), nat(R, ch, X)).items():
+                                if tg2 == tg and fam2 == fam:
+                                    add('R5', R, f"S Moon → {ch} {X} {pl} {v:.4f} {tg} {sc:.2f} = {ch} {st} → {X} {pl2} {v2:.4f} {sc2:.2f}")
+                got = {c: g for c in ('Jupiter', 'Sun', 'Moon') if c != X and (g := cells(SKY(c), nat(R, ch, X)))}
+                if 'Jupiter' in got and 'Moon' in got:                            # R6
+                    add('R6', R, f"{ch} {X}: S Jupiter [{txt(got['Jupiter'])}] + S Moon [{txt(got['Moon'])}]")
+                if len(got) >= 2:                                                 # R6x
+                    add('R6x', R, f"{ch} {X}: " + ' | '.join(f"S {c} [{txt(g)}]" for c, g in got.items()))
+        for st in allst:                                                          # R7, R8
+            both = [X for X in REG_BODIES if X != 'Jupiter' and all(cells(nat(R, c2, st), nat(R, c2, X)) for c2 in 'HJ')]
+            for ch in 'HJ':
+                jh = cells(nat(R, ch, st), nat(R, ch, 'Jupiter'))
+                if jh and both:
+                    add('R7', R, f"{ch} {st} ({onl(st)}) → {ch} Jupiter [{txt(jh)}]; on both charts' {st}: {', '.join(both)}")
+            for X in both:
+                back = [f"S {X} → {jc} Jupiter [{txt(t)}]" for jc in 'HJ' if (t := cells(SKY(X), nat(R, jc, 'Jupiter')))]
+                if back: add('R8', R, f"{X} on both charts' {st} ({onl(st)}); " + ' | '.join(back))
+        for ch in 'HJ':                                                           # R9, R9b, R9c
+            for st in allst:
+                if nat(R, ch, st) is None: continue
+                for X in REG_BODIES:
+                    if X == 'Jupiter' or nat(R, ch, X) is None: continue
+                    a = cells(nat(R, ch, st), nat(R, ch, X)); b = cells(nat(R, ch, 'Jupiter'), nat(R, ch, X))
+                    if not (a and b): continue
+                    s = f"{ch} {st} ({onl(st)}) → {X} [{txt(a)}] + {ch} Jupiter → {X} [{txt(b)}]"
+                    add('R9b', R, s)
+                    if any(f == 'conj' for (_, _, f, _) in a.values()): add('R9', R, s)
+                    if st == top and set(a) & set(b): add('R9c', R, s)
+        for X in REG_BODIES:                                                      # R10
+            if X == 'Jupiter': continue
+            a, b = cells(SKY(X), nat(R, 'H', 'Jupiter')), cells(SKY(X), nat(R, 'J', 'Jupiter'))
+            if a and b: add('R10', R, f"S {X} → H Jupiter [{txt(a)}] + → J Jupiter [{txt(b)}]")
+        for ch in 'HJ':
+            J = nat(R, ch, 'Jupiter')
+            s = [f"{st} [{txt(t)}]" for st in lines['Jupiter'] if (t := cells(nat(R, ch, st), J))]   # R11
+            if len(s) >= 2: add('R11', R, f"{ch}: " + ' | '.join(s))
+            for X in REG_BODIES:                                                  # R12
+                if X == 'Jupiter' or not (sj := cells(SKY('Jupiter'), nat(R, ch, X))): continue
+                for st in allst:
+                    a = cells(nat(R, ch, st), nat(R, ch, X)); b = cells(nat(R, ch, st), J)
+                    if a and b: add('R12', R, f"{ch} {X}: S Jupiter [{txt(sj)}] + {st} ({onl(st)}) → {X} [{txt(a)}] + {st} → {ch} Jupiter [{txt(b)}]")
+            seen = defaultdict(list)                                              # R13
+            pts = [(f"{ch} {x}", P[k]) for k in P if k[0] == R and k[1] == ch and (x := k[2]) != 'Jupiter']
+            pts += [(f"S {x}", SKY(x)) for x in REG_BODIES + ['Moon'] if x != 'Jupiter' and SKY(x)]
+            for lab, p in pts:
+                for pl, (v, tg, fam, sc) in cells(p, J, conj=False).items():
+                    if pl == 'RA' and lab.endswith('equator'): continue   # the equator is a Dec row only
+                    seen[(fam, tg)].append((lab, f"{lab} {pl} {v:.4f} {sc:.2f}"))
+            for (fam, tg), v in seen.items():
+                labs = {a for a, _ in v}
+                if len(labs) >= 2 and any(a.startswith('S ') for a in labs):
+                    add('R13', R, f"{ch} Jupiter on {tg} {fam}: " + ' | '.join(t for _, t in v))
+
+    order = ['R1', 'R2', 'R2a', 'R3', 'R4', 'R5', 'R6', 'R7', 'R6x', 'R8', 'R9', 'R9b', 'R9c', 'R4b', 'R1b', 'R10', 'R11', 'R12', 'R13']
+    print(f"  sky star lines: Jupiter {len(lines['Jupiter'])}, Sun {len(lines['Sun'])}, Moon {len(lines['Moon'])}; "
+          f"strongest sky Jupiter star line: {top}")
+    print("\n  SUMMARY (runners each rule picks out)")
+    for r in order:
+        p = sorted(picked[r])
+        print(f"    {r:4} {len(p)}: " + (', '.join(N(x).strip() for x in p) if p else 'none'))
+    for r in order:
+        print(f"\n  {r}" + ('' if out[r] else ': none'))
+        for line in out[r][:40]: print('  ' + line)
+        if len(out[r]) > 40: print(f"    ... {len(out[r]) - 40} more")
+
+
 if __name__ == '__main__':
     main()
+    rules_register(sys.argv[1])
