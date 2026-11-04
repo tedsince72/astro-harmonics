@@ -179,8 +179,7 @@ def skyline(star, entries):
     if not ls:
         return None
     e = max(ls, key=lambda e: e['b']['score'])
-    t = 'conj' if e['b']['family'] == 'conj' else f"{e['b']['target']} {e['b']['family']}"
-    return f"sky {e['body'][2:]} {e['plane']} {t} {e['b']['score']:.2f}", e['body'][2:]
+    return f"sky {e['body'][2:]} {sc(e)}", e['body'][2:]
 
 
 def skylines(star, entries):
