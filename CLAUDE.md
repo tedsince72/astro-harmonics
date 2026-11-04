@@ -968,9 +968,13 @@ PARTLY REMOVED 29 Oct 2026 (Eddie): the half family is gone (see "half family re
   Kelso 3,216 / Huntingdon 1,008, new row cells 2,280 + 24 blanks each, old T24 cells after the shift 48,840 / 18,480, other runner-sheet
   cells incl. MATCH 487,163 / 159,005, other sheets 149,121 / 61,473): 0 mismatches; 3 planted errors (S Sun value, deleted new-row cell,
   MATCH cell) all caught.
-  NOT RUN: the quick suite - this cloud session has no asteroid ephemeris files (s136199s.se1 etc. are not in data/ephe), so the engine
-  stops; builds here ran with "ENGINE NOT RUN" (no +5 / timing), which does not touch the at-the-off cells checked. Eddie to run
-  `python3 tests/jupiter_tables_check.py` on the Mac before merging to main.
+  Quick suite (Eddie's Mac, 4 Nov, before the test update): 125/129 - the 4 fails were the tests' old T24 layout (T28 grid width, T29
+  header, T46 row list) and T57's checker comparing against the current code. Tests updated: t24_blocks skips every sky column ('S ...'),
+  T29 expects S Jupiter, S Sun, S Moon, T46 the nine rows; T57's comparison moved behind '#@ full:' (6608676f vs e7b0049 builds, old against
+  old); test 58 (quick) = chk_t24sm/check_sm.py vs builds by e7b0049's own tools/, six races, + by hand from POSITIONS (Kelso P01 T24 HORSE:
+  S Moon column H Rigel Dec 33.973034 21×φ (67.98) yellow, S Sun → H body Venus Dec 18.017801 18 (1.21) light, S Moon column H Phact RA
+  0.160390 conjunction (79.76) red, blanks). Quick should now be 130 checks. (This cloud session cannot run the suite: no asteroid
+  ephemeris files in data/ephe.)
 
 ## jupiter_tables: MATCH HORSE / MATCH JOCKEY (Eddie, 30 Oct 2026; viewing only)
 - SUN AND MOON SECTIONS (Eddie, 1 Nov 2026): MATCH HORSE, MATCH JOCKEY, MATCH HORSE | JOCKEY and SUMMARY each in three sections JUPITER, SUN,

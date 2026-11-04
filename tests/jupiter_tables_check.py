@@ -827,7 +827,7 @@ def t24_blocks(ws, mids=None):
                     break
                 if str(h1[c].value or '').endswith(' midpoints'):
                     mcol[h1[c].value.split()[0]] = c
-                elif pl and h2[c].value and h2[c].value != 'S Jupiter':   # S Jupiter column (27 Oct 2026; test 46): not a body
+                elif pl and h2[c].value and not str(h2[c].value).startswith('S '):   # sky columns S Jupiter (27 Oct 2026; test 46), S Sun, S Moon (4 Nov 2026; test 58): not bodies
                     hdr.append((h2[c].value, pl)); cols.append(c)
             out[cur] = (hdr, rows)
         elif cur and x[0].value == 'T24' and ('→' in str(x[1].value) or x[1].value == 'stars'):
@@ -911,13 +911,13 @@ for f in (gcf, 'reference/classic/race_batch_20210402_lingfield_aw_1435_jupiter_
                 n += 1
                 h1 = [c.value for c in w[sh][r0[0].row + 1]]; h2 = [c.value for c in w[sh][r0[0].row + 2]]
                 nb = 25 if r0[1].value.startswith('T24 SKY') else 24     # (the HORSE / JOCKEY note mentions the SKY block, 27 Oct 2026)
-                body = [b for b in JT.T24_BODIES if nb == 25 or b != 'Moon'] + ([] if nb == 25 else ['S Jupiter'])   # S Jupiter column (27 Oct 2026)
+                body = [b for b in JT.T24_BODIES if nb == 25 or b != 'Moon'] + ([] if nb == 25 else ['S Jupiter', 'S Sun', 'S Moon'])   # S Jupiter column (27 Oct 2026); S Sun, S Moon (4 Nov 2026)
                 nb = len(body)
                 want1 = ['RA'] + [None] * (nb - 1) + ['RA midpoints', 'Dec'] + [None] * (nb - 1) + ['Dec midpoints']
                 if h1[2:2 + 2 * nb + 2] != want1 or h2[2:2 + nb] != body or h2[3 + nb:3 + 2 * nb] != body:
                     bad.append((f[-40:], sh, r0[1].value[:12]))
 check('T29 every T24 block: header row 1 RA (merged) .. RA midpoints, Dec (merged) .. Dec midpoints; row 2 the bodies in order (HORSE / JOCKEY: then '
-      'S Jupiter, 27 Oct 2026), RA half then Dec half',
+      'S Jupiter, 27 Oct 2026; S Sun, S Moon, 4 Nov 2026), RA half then Dec half',
       not bad and n == 3 + 13, f'{n} blocks; {bad[:3]}')
 gp = {}
 for x in gw['POSITIONS'].iter_rows(min_row=5, values_only=True):
@@ -2334,14 +2334,15 @@ ws46 = w46['P01']
 t46 = next(r for r in range(1, ws46.max_row + 1) if ws46.cell(row=r, column=1).value == 'T24' and str(ws46.cell(row=r, column=2).value).startswith('T24 HORSE (natal)'))
 h46 = [ws46.cell(row=t46 + 2, column=c).value for c in range(1, ws46.max_column + 1)]
 sjc = {pl: [c for c in range(1, len(h46) + 1) if h46[c - 1] == 'S Jupiter'][k] for k, pl in enumerate(('RA', 'Dec'))}
-star46 = lambda x: next(r for r in range(t46 + 3, t46 + 80) if ws46.cell(row=r, column=2).value == f'H {x}')
+star46 = lambda x: next(r for r in range(t46 + 3, t46 + 90) if ws46.cell(row=r, column=2).value == f'H {x}')
 vcol = lambda pl, b: [c for c in range(1, len(h46) + 1) if h46[c - 1] == b][0 if pl == 'RA' else 1]
 jr46 = {ws46.cell(row=r, column=2).value: r for r in range(t46 + 3, t46 + 8)}
-check('T46 T24 HORSE (current code, Kelso P01): the five rows after the header rows are S Jupiter → S body, H Jupiter → H body, S Jupiter → H body, '
-      'S body → H Jupiter, stars (29 Oct 2026); the first star row follows',
-      [ws46.cell(row=t46 + 3 + k, column=2).value for k in range(5)] == ['S Jupiter → S body', 'H Jupiter → H body', 'S Jupiter → H body',
-                                                                       'S body → H Jupiter', 'stars']
-      and str(ws46.cell(row=t46 + 8, column=2).value).startswith('H '), [ws46.cell(row=t46 + 3 + k, column=2).value for k in range(6)])
+check('T46 T24 HORSE (current code, Kelso P01): the rows after the header rows are S Jupiter → S body, H Jupiter → H body, S Jupiter → H body, '
+      'S body → H Jupiter (29 Oct 2026), S Sun → S body, S Sun → H body, S Moon → S body, S Moon → H body (4 Nov 2026), stars; the first star row follows',
+      [ws46.cell(row=t46 + 3 + k, column=2).value for k in range(9)] == ['S Jupiter → S body', 'H Jupiter → H body', 'S Jupiter → H body',
+                                                                       'S body → H Jupiter', 'S Sun → S body', 'S Sun → H body',
+                                                                       'S Moon → S body', 'S Moon → H body', 'stars']
+      and str(ws46.cell(row=t46 + 12, column=2).value).startswith('H '), [ws46.cell(row=t46 + 3 + k, column=2).value for k in range(10)])
 cases46 = [  # (what, cell, value by hand, plane, comment)
     ('T24 HORSE S Jupiter column H Aldebaran RA = d(S Jupiter, S Aldebaran)', ws46.cell(row=star46('Aldebaran'), column=sjc['RA']),
      dpl(s46['Jupiter'], s46['Aldebaran'], 'RA'), 'RA', lambda v: f'70 · whole · {v - 70:+.5f} · {sqs(0.02, abs(v - 70)):.2f}'),
@@ -2815,29 +2816,27 @@ check('T56 against the build before (commit fce24a12), Kelso, Lingfield, rebuilt
       'SKY MOON); SKY MOON TIMELINE window -5 / +20 in its title, every event inside, in time order, markers, each event = its source timing '
       'cell and every timing cell in the window has its event',
       all(line(o, 'mismatches:') == 'mismatches: 0' for o in out56.values()), {n: line(o, 'mismatches:') for n, o in out56.items()})
-#@ quick: T57 comparison with 6608676f (the commit before the current change); T56 and T54 by-hand cells on the current builds
+#@ full: T57 comparison 6608676f -> e7b0049 builds (old against old; e7b0049 = the SUN / MOON sections in the MATCH tables)
 print('test 57: SUN and MOON sections in the MATCH tables')
 INP57 = {'kelso': 'reference/classic/race_batch_20220504_kelso_1450.xlsx', 'lingfield': 'reference/classic/race_batch_20210402_lingfield_aw_1435.xlsx',
          'ascot': f'{tmp}/race_batch_20120619_ascot_1430.xlsx', 'ripon': 'reference/classic/race_batch_20220616_ripon_1525.xlsx',
          'newcastle': 'reference/classic/race_batch_20210802_newcastle_aw_1633.xlsx', 'goodwood': 'reference/classic/race_batch_20210827_goodwood_1853.xlsx'}
 extract('6608676f', f'{tmp}/h660')
-for d in ('before57', 'after57', 'after56', 'after54'):
+extract('e7b0049', f'{tmp}/he7b')
+for d in ('before57', 'after57'):
     os.makedirs(f'{tmp}/{d}', exist_ok=True)
-sqd = lambda d, tol: (10 * (tol - d) / tol) ** 2
 out57, size57 = {}, {}
 for n, inp in INP57.items():
     bo, ao = f'{tmp}/before57/{n}_jupiter_tables.xlsx', f'{tmp}/after57/{n}_jupiter_tables.xlsx'
     run_build([f'{tmp}/h660/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
-    subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
+    run_build([f'{tmp}/he7b/tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)   # e7b0049's own code (4 Nov 2026: was the current code)
     out57[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_suntab/check_sm.py', bo, ao], capture_output=True, text=True).stdout
     size57[n] = f'{os.path.getsize(bo) / 1e6:.2f} -> {os.path.getsize(ao) / 1e6:.2f} MB'
-    for d in ('after56', 'after54'):                       # the T56 / T54 by-hand cases (below) read the current builds
-        shutil.copy(ao, f'{tmp}/{d}/{n}_jupiter_tables.xlsx')
 print('T57 sizes:', size57)
 for n, o in out57.items():
     print(f'T57 {n} rows per section (JUPITER / SUN / MOON):')
     print('\n'.join('   ' + l for l in o.splitlines() if l.startswith('P')))
-check('T57 against the build before (commit 6608676f), Kelso, Lingfield, rebuilt Ascot, Ripon, Newcastle AW 16:33 2021, Goodwood 18:53 2021 '
+check('T57 builds by e7b0049 against the build before (commit 6608676f), Kelso, Lingfield, rebuilt Ascot, Ripon, Newcastle AW 16:33 2021, Goodwood 18:53 2021 '
       '(chk_suntab/check_sm.py): every sheet outside the MATCH tables and SUMMARY identical (POSITIONS, SKY JUPITER, SKY SUN, SKY MOON, T1-T8, '
       'T24, widths, freeze); each MATCH table: title, header rows, then section bands JUPITER, SUN, MOON (bold white on 595959, A to the last '
       'column); the JUPITER section = the before table cell for cell; every MATCH HORSE / JOCKEY section rebuilt from the SKY block cells of SKY '
@@ -2846,6 +2845,58 @@ check('T57 against the build before (commit 6608676f), Kelso, Lingfield, rebuilt
       'JOCKEY rebuilt with the section in the key (keys, pairing, order, headers, title counts); SUMMARY rebuilt (unrounded filter, section '
       'and block bands only above a shown line)',
       all(line(o, 'mismatches:') == 'mismatches: 0' for o in out57.values()), {n: line(o, 'mismatches:') for n, o in out57.items()})
+#@ quick: T58 comparison with e7b0049 (the commit before the current change); T58, T57, T56 and T54 by-hand cells on the current builds
+print('test 58: T24 HORSE / JOCKEY S Sun, S Moon columns and the four Sun / Moon rows')
+INP58 = INP57
+extract('e7b0049', f'{tmp}/he7b')
+for d in ('before58', 'after58', 'after57', 'after56', 'after54'):
+    os.makedirs(f'{tmp}/{d}', exist_ok=True)
+sqd = lambda d, tol: (10 * (tol - d) / tol) ** 2
+out58, size58 = {}, {}
+for n, inp in INP58.items():
+    bo, ao = f'{tmp}/before58/{n}_jupiter_tables.xlsx', f'{tmp}/after58/{n}_jupiter_tables.xlsx'
+    run_build([f'{tmp}/he7b/tools/jupiter_tables.py', inp, '--out', bo], capture_output=True, text=True)
+    subprocess.run([sys.executable, 'tools/jupiter_tables.py', inp, '--out', ao], capture_output=True, text=True)
+    out58[n] = subprocess.run([sys.executable, 'tools/scans/families_audit/chk_t24sm/check_sm.py', bo, ao], capture_output=True, text=True).stdout
+    size58[n] = f'{os.path.getsize(bo) / 1e6:.2f} -> {os.path.getsize(ao) / 1e6:.2f} MB'
+    for d in ('after57', 'after56', 'after54'):            # the T57 / T56 / T54 by-hand cases (below) read the current builds
+        shutil.copy(ao, f'{tmp}/{d}/{n}_jupiter_tables.xlsx')
+print('T58 sizes:', size58)
+print('T58 counts:', {n: line(o, 'counts:') for n, o in out58.items()})
+check('T58 against the build before (commit e7b0049), Kelso, Lingfield, rebuilt Ascot, Ripon, Newcastle AW 16:33 2021, Goodwood 18:53 2021 '
+      '(chk_t24sm/check_sm.py): every sheet but the runner sheets identical (POSITIONS, SKY JUPITER, SKY SUN, SKY MOON, SUMMARY); every runner-sheet '
+      'row outside T24 HORSE / JOCKEY identical (T1-T8, MATCH tables); T24 HORSE / JOCKEY: title + the S SUN, S MOON note, header S Sun, S Moon after '
+      'S Jupiter in each plane, the old rows identical after the two-column shift; S Sun / S Moon star cells = the SKY SUN / SKY MOON SKY block '
+      'values, each with a comment; four rows S Sun → S body, S Sun → natal body, S Moon → S body, S Moon → natal body under the Jupiter rows, '
+      'before "stars", every cell recomputed from POSITIONS, blank where the centre meets itself, sky columns blank',
+      all(line(o, 'mismatches:') == 'mismatches: 0' for o in out58.values()), {n: line(o, 'mismatches:') for n, o in out58.items()})
+# by hand from POSITIONS (Kelso P01 T24 HORSE)
+w58 = openpyxl.load_workbook(f'{tmp}/after58/kelso_jupiter_tables.xlsx')
+p58 = {(x[0], x[2], x[3]): (x[5], x[6]) for x in w58['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] and x[3] and isinstance(x[5], (int, float))}
+ws58 = w58['P01']
+t58 = next(r for r in range(1, ws58.max_row + 1) if ws58.cell(row=r, column=1).value == 'T24' and str(ws58.cell(row=r, column=2).value).startswith('T24 HORSE (natal)'))
+h58 = [ws58.cell(row=t58 + 2, column=c).value for c in range(1, ws58.max_column + 1)]
+col58 = lambda b, pl: [c for c in range(1, len(h58) + 1) if h58[c - 1] == b][0 if pl == 'RA' else 1]
+row58 = lambda lab: next(r for r in range(t58 + 3, t58 + 90) if ws58.cell(row=r, column=2).value == lab)
+rd58 = lambda a, b: min(abs(a - b) % 360, 360 - abs(a - b) % 360)
+fill58 = lambda c: c.fill.start_color.rgb if c.fill and c.fill.fill_type else None
+cases58 = []
+v = abs(p58[('SKY', 'S', 'Moon')][1] - p58[('SKY', 'S', 'Rigel')][1]); c = ws58.cell(row=row58('H Rigel'), column=col58('S Moon', 'Dec'))
+want = f"21×φ · golden · {v - 21 * families.PHI:+.5f} · {sqd(abs(v - 21 * families.PHI), 0.03236):.2f}"
+cases58.append((f'S Moon column, H Rigel Dec = d(S Moon, S Rigel) {v:.6f} -> {want!r}, yellow', abs(c.value - round(v, 6)) < 1e-9 and round(v, 6) == 33.973034
+                and c.comment.text == want and want.endswith('67.98') and fill58(c) == YELLOW))
+v = abs(p58[('SKY', 'S', 'Sun')][1] - p58[('P01', 'H', 'Venus')][1]); c = ws58.cell(row=row58('S Sun → H body'), column=col58('Venus', 'Dec'))
+want = f"18 · whole · {v - 18:+.5f} · {sqd(abs(v - 18), 0.02):.2f}"
+cases58.append((f'S Sun → H body, Venus Dec = d(S Sun, H Venus) {v:.6f} -> {want!r}, light', abs(c.value - round(v, 6)) < 1e-9 and round(v, 6) == 18.017801
+                and c.comment.text == want and want.endswith('1.21') and fill58(c) == LIGHT))
+v = rd58(p58[('SKY', 'S', 'Moon')][0], p58[('SKY', 'S', 'Phact')][0]); c = ws58.cell(row=row58('H Phact'), column=col58('S Moon', 'RA'))
+want = f"0 · conjunction (RA < 1.5) · {v:+.5f} · {sqd(v, 1.5):.2f}"
+cases58.append((f'S Moon column, H Phact RA = d(S Moon, S Phact) {v:.6f} -> {want!r}, red', abs(c.value - round(v, 6)) < 1e-9 and round(v, 6) == 0.16039
+                and c.comment.text == want and want.endswith('79.76') and fill58(c) == '00FF8080'))
+c = ws58.cell(row=row58('S Sun → S body'), column=col58('Sun', 'RA'))
+cases58.append(('S Sun → S body, Sun cell blank (the centre meets itself); S Moon → H body sky columns blank', c.value is None
+                and all(ws58.cell(row=row58('S Moon → H body'), column=col58(b, pl)).value is None for b in ('S Jupiter', 'S Sun', 'S Moon') for pl in ('RA', 'Dec'))))
+check('T58 by hand from POSITIONS (Kelso P01 T24 HORSE): ' + '; '.join(c for c, _ in cases58), all(ok for _, ok in cases58), [c for c, ok in cases58 if not ok])
 w57 = openpyxl.load_workbook(f'{tmp}/after57/lingfield_jupiter_tables.xlsx', read_only=True)
 p57 = {(x[0], x[2], x[3]): (x[5], x[6]) for x in w57['POSITIONS'].iter_rows(min_row=5, values_only=True) if x and x[0] and x[3] and isinstance(x[5], (int, float))}
 rd = lambda a, b: min(abs(a - b) % 360, 360 - abs(a - b) % 360)

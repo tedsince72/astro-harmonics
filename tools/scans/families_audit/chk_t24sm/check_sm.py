@@ -157,8 +157,8 @@ def main(bp, ap):
             n['other rows'] += 1
             i += 1; j += 1
     print(bp, '->', ap)
-    print(' ', ', '.join(f'{k} {v}' for k, v in n.items()))
-    print('  mismatches:', len(bad))
+    print('counts:', ', '.join(f'{k} {v}' for k, v in n.items()))
+    print('mismatches:', len(bad))
     for b in bad[:40]:
         print('   ', b)
     return not bad
