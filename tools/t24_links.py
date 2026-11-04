@@ -4,9 +4,12 @@
 For one runner sheet, horse then jockey:
   1. every scoring cell of the T24 top rows (S Jupiter → S body, H/J Jupiter → body, S Jupiter → natal body,
      S body → natal Jupiter, S Sun → S body, S Sun → natal body, S Moon → S body, S Moon → natal body);
-  2. every star row whose Jupiter column (natal Jupiter) or S Jupiter column (sky Jupiter → that star) scores,
-     RA or Dec, highest Jupiter score first, with every scoring cell of that row (bodies and the S Jupiter /
-     S Sun / S Moon columns);
+  2. every star row whose S Jupiter column scores (sky Jupiter on the star; Eddie, 4 Nov 2026), RA or Dec,
+     highest sky Jupiter score first, with every scoring cell of that row (bodies and the S Jupiter / S Sun /
+     S Moon columns);
+  3. then the star rows on a sky Sun or sky Moon line only (S Sun / S Moon column scores, no S Jupiter): their
+     cells on a body join a chain built from 1 and 2 as part C (with their own centre named); they never start a
+     chain of their own (Eddie, 4 Nov 2026: Jupiter first, Sun and Moon joining);
 Sky-only cells (S Jupiter / S Sun / S Moon → S body, and the S columns of a star row) are the same on the horse and
 jockey blocks: they are listed and counted once, as side S.
 then, horse and jockey together:
@@ -86,8 +89,8 @@ def fmt(e):
 
 
 def collect(ws_rows):
-    """(entries, star rows with a Jupiter score per side) for one runner sheet."""
-    entries, jstar = [], {}
+    """(entries, star rows on the sky Jupiter line per side, Sun / Moon star-row entries) for one runner sheet."""
+    entries, jstar, extra = [], {}, []
     for side, hi, first, last in blocks(ws_rows):
         c = cols(ws_rows[hi - 1], ws_rows[hi])
         top = []
@@ -106,10 +109,18 @@ def collect(ws_rows):
                                         kind='top', block=side))
         jr = []
         for r in stars:
-            js = [cell(r[ci], pl) for ci, (pl, nm) in c.items() if nm in ('Jupiter', 'S Jupiter')]
+            js = [cell(r[ci], pl) for ci, (pl, nm) in c.items() if nm == 'S Jupiter']
             js = [x for x in js if x]
             if js:
                 jr.append((max(x['score'] for x in js), r))
+            elif any(cell(r[ci], pl) for ci, (pl, nm) in c.items() if nm in ('S Sun', 'S Moon')):
+                st = r[1].split(' ', 1)[1]
+                for ci, (pl, nm) in c.items():
+                    b = cell(r[ci], pl)
+                    if b:
+                        sk = nm.startswith('S ')
+                        extra.append(dict(side='S' if sk else side, row=('S ' + st) if sk else r[1], body=nm,
+                                          plane=pl, v=r[ci], b=b, kind='sm', star=st, block=side))
         jr.sort(key=lambda x: -x[0])
         jstar[side] = []
         for sc, r in jr:
@@ -122,10 +133,12 @@ def collect(ws_rows):
                     entries.append(dict(side='S' if sk else side, row=('S ' + st) if sk else r[1], body=nm,
                                         plane=pl, v=r[ci], b=b, kind='star', star=st, block=side))
     # one copy of each cell
-    u = {}
+    u, x = {}, {}
     for e in entries:
         u.setdefault((e['side'], e['row'], e['body'], e['plane']), e)
-    return list(u.values()), jstar
+    for e in extra:
+        x.setdefault((e['side'], e['row'], e['body'], e['plane']), e)
+    return list(u.values()), jstar, list(x.values())
 
 
 def tkey(b):
@@ -135,7 +148,7 @@ def tkey(b):
 def fkey(e):
     """the same cell on another runner: chart, row (star name for star rows), body, plane, target."""
     row = e['row']
-    if e['kind'] == 'star' and e['side'] in 'HJ':
+    if e['kind'] in ('star', 'sm') and e['side'] in 'HJ':
         row = 'star ' + e['star']
     return (e['side'], row, e['body'], e['plane'], tkey(e['b']))
 
@@ -162,12 +175,24 @@ def jup_cell(e, x):
 
 def skyline(star, entries):
     """the strongest sky line onto a star: 'sky Jupiter 26×φ golden 93.94'."""
-    ls = [e for e in entries if e['kind'] == 'star' and e['side'] == 'S' and e['star'] == star]
+    ls = [e for e in entries if e['kind'] in ('star', 'sm') and e['side'] == 'S' and e['star'] == star]
     if not ls:
         return None
     e = max(ls, key=lambda e: e['b']['score'])
     t = 'conj' if e['b']['family'] == 'conj' else f"{e['b']['target']} {e['b']['family']}"
     return f"sky {e['body'][2:]} {e['plane']} {t} {e['b']['score']:.2f}", e['body'][2:]
+
+
+def skylines(star, entries):
+    """every sky line onto a star: ('sky Sun RA 65×φ golden 92.31, sky Moon ...', 'Sun / Moon')."""
+    ls = sorted((e for e in entries if e['kind'] in ('star', 'sm') and e['side'] == 'S' and e['star'] == star),
+                key=lambda e: -e['b']['score'])
+    txt = ', '.join(f"sky {e['body'][2:]} {sc(e)}" for e in ls)
+    cs = []
+    for e in ls:
+        if e['body'][2:] not in cs:
+            cs.append(e['body'][2:])
+    return txt, ' / '.join(sorted(cs, key=['Jupiter', 'Sun', 'Moon'].index))
 
 
 def sc(e):
@@ -213,7 +238,7 @@ def parts(nm, es, entries):
     return out
 
 
-def report(label, me, entries, jstar, field):
+def report(label, me, entries, jstar, extra, field):
     out = [f'=== {label} ===']
     sh = lambda e: f"{e['side']} {fmt(e)}   [{field_mark(e, me, field)}]"
     by = defaultdict(list)
@@ -231,26 +256,43 @@ def report(label, me, entries, jstar, field):
         if js and len({(e['side'], e['row']) for e in es}) >= 2:
             only = sum(1 for e in es if field_mark(e, me, field) == 'ONLY')
             pt = parts(nm, es, entries)
-            tags = [f'{k}: {pt[k]}' for k in 'ABCD' if k in pt] + ([pt['centres']] if 'centres' in pt else [])
+            tags = [f'{k}: {pt[k]}' for k in 'ABCD' if k in pt]
+            letters = {k for k in 'ABCD' if k in pt}
+            # Sun / Moon star rows join the chain (body chains only), as part C with their own centre
+            joined = [e for e in extra if e['side'] in 'HJ' and e['body'] == nm]
+            cen = pt.get('centres', '')
+            for e in sorted(joined, key=lambda e: -e['b']['score']):
+                txt, cs = skylines(e['star'], extra)
+                tags.append(f"C {cs}: {e['side']} {e['star']} → {nm} {sc(e)}; {e['star']} on {txt}")
+                letters.add('C')
+            if joined:
+                es = es + joined
+                only = sum(1 for e in es if field_mark(e, me, field) == 'ONLY')
+                jc = sorted({c for e in joined for c in skylines(e['star'], extra)[1].split(' / ')},
+                            key=['Jupiter', 'Sun', 'Moon'].index)
+                cen = (cen + '; ' if cen else '') + 'joined C: ' + ' / '.join(jc)
+            if cen:
+                tags.append(cen)
             sides = ''.join(sorted({e['side'] for e in es}))
-            chains.append((nm, es, js, only, tags, sides))
-    chains.sort(key=lambda c: (-sum(1 for t in c[4] if t[1:3] == ': '), -len({(e['side'], e['row']) for e in c[1]}), -c[3], c[0]))
+            chains.append((nm, es, js, only, tags, sides, ''.join(sorted(letters))))
+    chains.sort(key=lambda c: (-len(c[6]), -len({(e['side'], e['row']) for e in c[1]}), -c[3], c[0]))
     out.append('\n--- CHAINS: a body or star in two or more rows that also closes on a Jupiter ---')
     out.append('(parts, Eddie 4 Nov 2026: A sky centre → sky X (or X a star on a sky line); B sky centre → natal X; '
                'C a star on a sky line → natal X; D closes on a natal Jupiter (sky X → natal Jupiter, natal Jupiter '
                '→ X, or star X → own Jupiter). Most parts first. [ONLY] = no other runner has that cell on the same '
-               'target; sky cells are the same for every runner. →J marks the closing cells.)')
-    for nm, es, js, only, tags, sides in chains:
-        out.append(f"{nm}: parts {''.join(sorted(pt for pt in 'ABCD' if any(t.startswith(pt + ':') for t in tags)))}"
-                   f", {len({(e['side'], e['row']) for e in es})} rows, {sides}, {only} ONLY cells")
+               'target; sky cells are the same for every runner. →J marks the closing cells. "C Sun / Moon": a star on '
+               'a sky Sun or Moon line only, joining the chain.)')
+    for nm, es, js, only, tags, sides, letters in chains:
+        out.append(f"{nm}: parts {letters}, {len({(e['side'], e['row']) for e in es})} rows, {sides}, {only} ONLY cells")
         for t in tags:
             out.append('      ' + t)
-        for e in sorted(es, key=lambda e: (not jup_cell(e, nm), -e['b']['score'])):
-            out.append('   ' + ('→J ' if jup_cell(e, nm) else '   ') + sh(e))
+        for e in sorted(es, key=lambda e: (not jup_cell(e, nm), e['kind'] == 'sm', -e['b']['score'])):
+            out.append('   ' + ('→J ' if jup_cell(e, nm) else ('+C ' if e['kind'] == 'sm' else '   ')) + sh(e))
     out.append('\n--- REPEATS: the same target (family and number, not conj) in two or more cells; '
                'SKY + NATAL (a sky line value repeated on a natal cell) first ---')
     bt = defaultdict(list)
-    for e in entries:
+    joinedall = [e for c in chains for e in c[1] if e['kind'] == 'sm']
+    for e in entries + joinedall:
         if e['b']['family'] != 'conj':
             bt[tkey(e['b'])].append(e)
     skynat = lambda es: any(e['side'] == 'S' for e in es) and any(e['side'] in 'HJ' for e in es)
@@ -279,14 +321,18 @@ def report(label, me, entries, jstar, field):
             if e['row'] != cur:
                 cur = e['row']; out.append(cur + ':')
             out.append('   ' + sh(e))
-        out.append(f"\n--- {'HORSE' if blk == 'H' else 'JOCKEY'}: star rows with a Jupiter or S Jupiter score, "
-                   "highest first ---")
-        for sc, rl in jstar.get(blk, []):
+        out.append(f"\n--- {'HORSE' if blk == 'H' else 'JOCKEY'}: star rows on the sky Jupiter line, "
+                   "highest sky Jupiter score first ---")
+        for scr, rl in jstar.get(blk, []):
             st = rl.split(' ', 1)[1]
-            out.append(f'{rl} (Jupiter {sc:.2f}):')
+            out.append(f'{rl} (sky Jupiter {scr:.2f}):')
             es = [e for e in entries if e['kind'] == 'star' and e['star'] == st and (e['row'] == rl or e['side'] == 'S')]
             for e in sorted(es, key=lambda e: (e['body'] not in ('Jupiter', 'S Jupiter'), -e['b']['score'])):
                 out.append('   ' + sh(e))
+        js_ = [e for e in joinedall if e['block'] == blk]
+        out.append(f"\n--- {'HORSE' if blk == 'H' else 'JOCKEY'}: star rows on a sky Sun / Moon line joining a chain ---")
+        for e in sorted(js_, key=lambda e: -e['b']['score']):
+            out.append(f"   {sh(e)}; {e['star']} on {skylines(e['star'], extra)[0]}")
     return out, chains
 
 
@@ -297,29 +343,28 @@ def main():
     for name in wb.sheetnames:
         if name.startswith('P') and name[1:].isdigit():
             rows = [tuple(r) for r in wb[name].iter_rows(values_only=True)]
-            ents, js = collect(rows)
-            data[name] = (rows[0][0], ents, js)
+            ents, js, ex = collect(rows)
+            data[name] = (rows[0][0], ents, js, ex)
     field = {}
-    for name, (_, ents, _) in data.items():
+    for name, (_, ents, _, ex) in data.items():
         idx = defaultdict(list)
-        for e in ents:
+        for e in ents + ex:
             if e['side'] != 'S':
                 idx[fkey(e)].append(e)
         field[name] = idx
     summary = []
-    for name, (lab, ents, js) in data.items():
+    for name, (lab, ents, js, ex) in data.items():
         if want and name not in want:
             continue
-        out, chains = report(lab, name, ents, js, field)
+        out, chains = report(lab, name, ents, js, ex, field)
         print('\n'.join(out)); print()
         summary.append((lab, chains))
     print('=== FIELD: chains per runner, most parts first (A sky centre → sky X / X on a sky line; B sky centre → natal X; '
-          'C sky-line star → natal X; D closes on a natal Jupiter) ===')
+          'C sky-line star → natal X (C Sun / Moon: joining); D closes on a natal Jupiter) ===')
     for lab, chains in summary:
         print(lab)
-        for nm, es, js, only, tags, sides in chains:
-            pp = ''.join(t[0] for t in tags if t[1:3] == ': ')
-            print(f"   {nm}: parts {pp}, {len({(e['side'], e['row']) for e in es})} rows, {sides}, {only} ONLY cells")
+        for nm, es, js, only, tags, sides, letters in chains:
+            print(f"   {nm}: parts {letters}, {len({(e['side'], e['row']) for e in es})} rows, {sides}, {only} ONLY cells")
             for t in tags:
                 print('        ' + t)
 
