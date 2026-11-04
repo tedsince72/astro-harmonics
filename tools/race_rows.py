@@ -20,7 +20,7 @@ Sections (they follow the reading procedure in claude/handover-new-race-reads.md
   6  the same body on both charts of a runner
   7  sky lines exact within the window on the rows only that runner is in (any score)
   8  near-but-off pairs between runners, both ways
-  9  the rules register (R1-R15, claude/isolation-log.md), computed from POSITIONS with families.py
+  9  the rules register (R1-R17, claude/isolation-log.md), computed from POSITIONS with families.py
 """
 import re
 import sys
@@ -381,6 +381,9 @@ def rules_register(path):
         picked[rule].add(R); out[rule].append(f"  {N(R)}: {s}")
 
     nat = lambda R, ch, x: P.get((R, ch, x))
+    skylines = [(c, pt, pl, val) for c in ('Jupiter', 'Sun', 'Moon') if SKY(c)          # every sky centre line, not conj (R17)
+                for pt in sorted({k[2] for k in P if k[0] == 'SKY' and k[2] != c})
+                for pl, val in anyc(SKY(c), SKY(pt)).items() if val[2] != 'conj']
     top = max(lines['Jupiter'], key=lambda st: max((F.best(dist(SKY('Jupiter'), SKY(st), pl), pl) or {'score': 0})['score']
                                                    for pl in ('RA', 'Dec'))) if lines['Jupiter'] else None
     for R in runners:
@@ -494,8 +497,19 @@ def rules_register(path):
                                                                      ('S', SKY('Jupiter'))) if (t := cells(Jp, nat(R, oc, X)))]
                 if js:
                     add('R15', R, f"{ch} {X}: " + ' | '.join(f"S {c} [{txt(g)}]" for c, g in got.items()) + ' ++ ' + ' / '.join(js))
+        for X in REG_BODIES:                                                      # R16 (Musselburgh 25 Aug 2021)
+            if X == 'Jupiter' or not SKY(X) or not (ml := anyc(SKY('Moon'), SKY(X))): continue
+            for jc in 'HJ':
+                if (t := cells(SKY(X), nat(R, jc, 'Jupiter'))):
+                    add('R16', R, f"S Moon → S {X} [{txt(ml)}] + S {X} → {jc} Jupiter [{txt(t)}]")
+        for X in REG_BODIES + ['Moon']:                                           # R17 (Musselburgh 25 Aug 2021)
+            if X == 'Jupiter' or not SKY(X): continue
+            for jc in 'HJ':
+                for pl, (v, tg, fam, sc) in cells(SKY(X), nat(R, jc, 'Jupiter'), conj=False).items():
+                    m = [f"S {c} → S {pt} {pl2} {v2:.4f}" for c, pt, pl2, (v2, tg2, fam2, sc2) in skylines if tg2 == tg and fam2 == fam]
+                    if m: add('R17', R, f"S {X} → {jc} Jupiter {pl} {v:.4f} {tg} {fam} ({sc:.2f}) = " + ', '.join(m))
 
-    order = ['R1', 'R2', 'R2a', 'R3', 'R4', 'R5', 'R6', 'R7', 'R6x', 'R8', 'R9', 'R9b', 'R9c', 'R4b', 'R1b', 'R10', 'R11', 'R12', 'R13', 'R14', 'R15']
+    order = ['R1', 'R2', 'R2a', 'R3', 'R4', 'R5', 'R6', 'R7', 'R6x', 'R8', 'R9', 'R9b', 'R9c', 'R4b', 'R1b', 'R10', 'R11', 'R12', 'R13', 'R14', 'R15', 'R16', 'R17']
     print(f"  sky star lines: Jupiter {len(lines['Jupiter'])}, Sun {len(lines['Sun'])}, Moon {len(lines['Moon'])}; "
           f"strongest sky Jupiter star line: {top}")
     print("\n  SUMMARY (runners each rule picks out)")
