@@ -20,7 +20,7 @@ Sections (they follow the reading procedure in claude/handover-new-race-reads.md
   6  the same body on both charts of a runner
   7  sky lines exact within the window on the rows only that runner is in (any score)
   8  near-but-off pairs between runners, both ways
-  9  the rules register (R1-R35 and R12c, claude/isolation-log.md), computed from POSITIONS with families.py
+  9  the rules register (R1-R36 and R12c, claude/isolation-log.md), computed from POSITIONS with families.py
 """
 import re
 import sys
@@ -635,8 +635,11 @@ def rules_register(path):
         for R, v in sj90.items():
             if len(v) == mx: add('R31', R, f"{len(v)} cells: " + ' | '.join(v))
 
+    nob = [R for R in runners if R not in picked['R9b']]                         # R36 (Eddie, 5 Nov 2026; Greaneteen, Sandown 4 Dec 2021):
+    if len(nob) == 1:                                                             # the only runner in the field without R9b
+        add('R36', nob[0], f"the only runner of {len(runners)} without R9b")
     order = ['R1', 'R2', 'R2a', 'R3', 'R4', 'R5', 'R6', 'R7', 'R6x', 'R8', 'R9', 'R9b', 'R9c', 'R4b', 'R1b', 'R10', 'R11', 'R12', 'R12c', 'R13', 'R14', 'R15', 'R16', 'R17', 'R18', 'R19', 'R20', 'R21',
-             'R22', 'R23', 'R24', 'R25', 'R26', 'R27', 'R28', 'R29', 'R30', 'R31', 'R32', 'R33', 'R34', 'R35']
+             'R22', 'R23', 'R24', 'R25', 'R26', 'R27', 'R28', 'R29', 'R30', 'R31', 'R32', 'R33', 'R34', 'R35', 'R36']
     print(f"  sky star lines: Jupiter {len(lines['Jupiter'])}, Sun {len(lines['Sun'])}, Moon {len(lines['Moon'])}; "
           f"strongest sky Jupiter star line: {top}")
     print("\n  SUMMARY (runners each rule picks out)")
