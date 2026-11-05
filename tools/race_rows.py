@@ -20,7 +20,7 @@ Sections (they follow the reading procedure in claude/handover-new-race-reads.md
   6  the same body on both charts of a runner
   7  sky lines exact within the window on the rows only that runner is in (any score)
   8  near-but-off pairs between runners, both ways
-  9  the rules register (R1-R33, claude/isolation-log.md), computed from POSITIONS with families.py
+  9  the rules register (R1-R34, claude/isolation-log.md), computed from POSITIONS with families.py
 """
 import re
 import sys
@@ -596,6 +596,18 @@ def rules_register(path):
                     if cj:
                         add('R33', R, f"S {c_} conj S {S_} [{txt({pl: c for pl, c in cells(SKY(c_), SKY(S_)).items() if c[2] == 'conj'})}]; "
                                       f"{ch} {S_} → {ch} Jupiter [{txt(jj)}] + {ch} {S_} conj {ch} {X} [{txt(cj)}]")
+        for S_, c_, isstar in conjpts:                                            # R34 (Eddie, 5 Nov 2026; Strictlyadancer, Haydock 20 Nov 2021):
+            if not isstar: continue                                               # R33 crossed: natal S conj a natal body X on one chart,
+            for ch in 'HJ':                                                       # and the other chart's Jupiter reaches that X
+                oc = 'J' if ch == 'H' else 'H'
+                st = nat(R, ch, S_)
+                if st is None: continue
+                for X in REG_BODIES:
+                    if X == 'Jupiter' or nat(R, ch, X) is None: continue
+                    cj = {pl: c for pl, c in cells(st, nat(R, ch, X)).items() if c[2] == 'conj'}
+                    if cj and (oj := cells(nat(R, oc, 'Jupiter'), nat(R, ch, X))):
+                        add('R34', R, f"S {c_} conj S {S_} [{txt({pl: c for pl, c in cells(SKY(c_), SKY(S_)).items() if c[2] == 'conj'})}]; "
+                                      f"{ch} {S_} conj {ch} {X} [{txt(cj)}] + {oc} Jupiter → {ch} {X} [{txt(oj)}]")
         sj90[R] = [f"{ch} {X} {pl} {v:.4f} {tg} {f} {s:.2f}" for ch in 'HJ' for X in REG_BODIES if X != 'Jupiter'
                    for pl, (v, tg, f, s) in cells(SKY('Jupiter'), nat(R, ch, X)).items() if s >= 90]
         for S_, c_, isstar in conjpts:                                            # R30 closest natal conj to the sky conj point
@@ -615,7 +627,7 @@ def rules_register(path):
             if len(v) == mx: add('R31', R, f"{len(v)} cells: " + ' | '.join(v))
 
     order = ['R1', 'R2', 'R2a', 'R3', 'R4', 'R5', 'R6', 'R7', 'R6x', 'R8', 'R9', 'R9b', 'R9c', 'R4b', 'R1b', 'R10', 'R11', 'R12', 'R13', 'R14', 'R15', 'R16', 'R17', 'R18', 'R19', 'R20', 'R21',
-             'R22', 'R23', 'R24', 'R25', 'R26', 'R27', 'R28', 'R29', 'R30', 'R31', 'R32', 'R33']
+             'R22', 'R23', 'R24', 'R25', 'R26', 'R27', 'R28', 'R29', 'R30', 'R31', 'R32', 'R33', 'R34']
     print(f"  sky star lines: Jupiter {len(lines['Jupiter'])}, Sun {len(lines['Sun'])}, Moon {len(lines['Moon'])}; "
           f"strongest sky Jupiter star line: {top}")
     print("\n  SUMMARY (runners each rule picks out)")
