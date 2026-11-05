@@ -20,7 +20,7 @@ Sections (they follow the reading procedure in claude/handover-new-race-reads.md
   6  the same body on both charts of a runner
   7  sky lines exact within the window on the rows only that runner is in (any score)
   8  near-but-off pairs between runners, both ways
-  9  the rules register (R1-R35, claude/isolation-log.md), computed from POSITIONS with families.py
+  9  the rules register (R1-R35 and R12c, claude/isolation-log.md), computed from POSITIONS with families.py
 """
 import re
 import sys
@@ -471,6 +471,8 @@ def rules_register(path):
                 for st in allst:
                     a = cells(nat(R, ch, st), nat(R, ch, X)); b = cells(nat(R, ch, st), J)
                     if a and b: add('R12', R, f"{ch} {X}: S Jupiter [{txt(sj)}] + {st} ({onl(st)}) → {X} [{txt(a)}] + {st} → {ch} Jupiter [{txt(b)}]")
+                    if a and b and any(f == 'conj' for (_, _, f, _) in a.values()):   # R12c (Eddie, 5 Nov 2026): the star–X cell a conj
+                        add('R12c', R, f"{ch} {X}: S Jupiter [{txt(sj)}] + {st} ({onl(st)}) conj {X} [{txt(a)}] + {st} → {ch} Jupiter [{txt(b)}]")
             seen = defaultdict(list)                                              # R13
             pts = [(f"{ch} {x}", P[k]) for k in P if k[0] == R and k[1] == ch and (x := k[2]) != 'Jupiter']
             pts += [(f"S {x}", SKY(x)) for x in REG_BODIES + ['Moon'] if x != 'Jupiter' and SKY(x)]
@@ -633,7 +635,7 @@ def rules_register(path):
         for R, v in sj90.items():
             if len(v) == mx: add('R31', R, f"{len(v)} cells: " + ' | '.join(v))
 
-    order = ['R1', 'R2', 'R2a', 'R3', 'R4', 'R5', 'R6', 'R7', 'R6x', 'R8', 'R9', 'R9b', 'R9c', 'R4b', 'R1b', 'R10', 'R11', 'R12', 'R13', 'R14', 'R15', 'R16', 'R17', 'R18', 'R19', 'R20', 'R21',
+    order = ['R1', 'R2', 'R2a', 'R3', 'R4', 'R5', 'R6', 'R7', 'R6x', 'R8', 'R9', 'R9b', 'R9c', 'R4b', 'R1b', 'R10', 'R11', 'R12', 'R12c', 'R13', 'R14', 'R15', 'R16', 'R17', 'R18', 'R19', 'R20', 'R21',
              'R22', 'R23', 'R24', 'R25', 'R26', 'R27', 'R28', 'R29', 'R30', 'R31', 'R32', 'R33', 'R34', 'R35']
     print(f"  sky star lines: Jupiter {len(lines['Jupiter'])}, Sun {len(lines['Sun'])}, Moon {len(lines['Moon'])}; "
           f"strongest sky Jupiter star line: {top}")
