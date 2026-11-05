@@ -20,7 +20,7 @@ Sections (they follow the reading procedure in claude/handover-new-race-reads.md
   6  the same body on both charts of a runner
   7  sky lines exact within the window on the rows only that runner is in (any score)
   8  near-but-off pairs between runners, both ways
-  9  the rules register (R1-R34, claude/isolation-log.md), computed from POSITIONS with families.py
+  9  the rules register (R1-R35, claude/isolation-log.md), computed from POSITIONS with families.py
 """
 import re
 import sys
@@ -608,6 +608,13 @@ def rules_register(path):
                     if cj and (oj := cells(nat(R, oc, 'Jupiter'), nat(R, ch, X))):
                         add('R34', R, f"S {c_} conj S {S_} [{txt({pl: c for pl, c in cells(SKY(c_), SKY(S_)).items() if c[2] == 'conj'})}]; "
                                       f"{ch} {S_} conj {ch} {X} [{txt(cj)}] + {oc} Jupiter → {ch} {X} [{txt(oj)}]")
+        for ch in 'HJ':                                                           # R35 (Eddie, 5 Nov 2026; Not Available, Newbury 26 Nov 2021):
+            for x in sorted({k[2] for k in P if k[0] == R and k[1] == ch and kind.get(k[2]) in ('body', 'star')}):   # two sky centres
+                if x == 'Moon': continue                                          # each conj the same natal point
+                cj = {c: {pl: v for pl, v in cells(SKY(c), nat(R, ch, x)).items() if v[2] == 'conj'} for c in ('Jupiter', 'Sun', 'Moon') if c != x}
+                cj = {c: v for c, v in cj.items() if v}
+                if len(cj) >= 2:
+                    add('R35', R, f"{ch} {x}: " + ' | '.join(f"S {c} conj [{txt(v)}]" for c, v in cj.items()))
         sj90[R] = [f"{ch} {X} {pl} {v:.4f} {tg} {f} {s:.2f}" for ch in 'HJ' for X in REG_BODIES if X != 'Jupiter'
                    for pl, (v, tg, f, s) in cells(SKY('Jupiter'), nat(R, ch, X)).items() if s >= 90]
         for S_, c_, isstar in conjpts:                                            # R30 closest natal conj to the sky conj point
@@ -627,7 +634,7 @@ def rules_register(path):
             if len(v) == mx: add('R31', R, f"{len(v)} cells: " + ' | '.join(v))
 
     order = ['R1', 'R2', 'R2a', 'R3', 'R4', 'R5', 'R6', 'R7', 'R6x', 'R8', 'R9', 'R9b', 'R9c', 'R4b', 'R1b', 'R10', 'R11', 'R12', 'R13', 'R14', 'R15', 'R16', 'R17', 'R18', 'R19', 'R20', 'R21',
-             'R22', 'R23', 'R24', 'R25', 'R26', 'R27', 'R28', 'R29', 'R30', 'R31', 'R32', 'R33', 'R34']
+             'R22', 'R23', 'R24', 'R25', 'R26', 'R27', 'R28', 'R29', 'R30', 'R31', 'R32', 'R33', 'R34', 'R35']
     print(f"  sky star lines: Jupiter {len(lines['Jupiter'])}, Sun {len(lines['Sun'])}, Moon {len(lines['Moon'])}; "
           f"strongest sky Jupiter star line: {top}")
     print("\n  SUMMARY (runners each rule picks out)")
