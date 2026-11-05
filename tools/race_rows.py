@@ -20,7 +20,7 @@ Sections (they follow the reading procedure in claude/handover-new-race-reads.md
   6  the same body on both charts of a runner
   7  sky lines exact within the window on the rows only that runner is in (any score)
   8  near-but-off pairs between runners, both ways
-  9  the rules register (R1-R21, claude/isolation-log.md), computed from POSITIONS with families.py
+  9  the rules register (R1-R31, claude/isolation-log.md), computed from POSITIONS with families.py
 """
 import re
 import sys
@@ -386,6 +386,13 @@ def rules_register(path):
                 for pl, val in anyc(SKY(c), SKY(pt)).items() if val[2] != 'conj']
     top = max(lines['Jupiter'], key=lambda st: max((F.best(dist(SKY('Jupiter'), SKY(st), pl), pl) or {'score': 0})['score']
                                                    for pl in ('RA', 'Dec'))) if lines['Jupiter'] else None
+    bsc = lambda a, b: max((F.best(dist(a, b, pl), pl) or {'score': 0})['score'] for pl in ('RA', 'Dec'))
+    jb = [X for X in REG_BODIES if X != 'Jupiter' and SKY(X) and SKY('Jupiter') and bsc(SKY('Jupiter'), SKY(X)) > 0]
+    topb = max(jb, key=lambda X: bsc(SKY('Jupiter'), SKY(X))) if jb else None         # R27
+    conjpts = [(x, c, kind.get(x) == 'star') for c in ('Jupiter', 'Sun', 'Moon') if SKY(c)                    # R30
+               for x in sorted({k[2] for k in P if k[0] == 'SKY'}) if x not in ('Jupiter', 'Sun', 'Moon')
+               and kind.get(x) in ('star', 'body') and any(f == 'conj' for (_, _, f, _) in cells(SKY(c), SKY(x)).values())]
+    conjcand, sj90 = defaultdict(list), {}
     for R in runners:
         for c in ('Sun', 'Moon'):                                 # R1
             for X in REG_BODIES:
@@ -527,8 +534,68 @@ def rules_register(path):
                 a, b = cells(nat(R, ch, top), nat(R, ch, X)), cells(nat(R, ch, 'Jupiter'), nat(R, ch, X))
                 if set(a) & set(b):
                     add('R21', R, f"{ch} {top} → {X} [{txt(a)}] + {ch} Jupiter → {X} [{txt(b)}] + {ch} {top} → {ch} Jupiter [{txt(bj)}]")
+        # R22-R31 (Eddie, 5 Nov 2026: shapes seen on winners Kempton 4 Sep - Fontwell 20 Oct 2021, added together and
+        # backfilled; every earlier race is in-sample, the record counts from the next race on)
+        nodej = [f"S {n} → {jc} Jupiter [{txt(t)}]" for n in ('Rahu', 'Ketu') for jc in 'HJ'
+                 if (t := cells(SKY(n), nat(R, jc, 'Jupiter')))]
+        if nodej:                                                                 # R24 (N3): a sky node on a natal Jupiter
+            add('R24', R, ' | '.join(nodej))
+            lit = [f"S {c} → {ch} {n} [{txt(t)}]" for c in ('Sun', 'Moon') for ch in 'HJ' for n in ('Rahu', 'Ketu')
+                   if (t := cells(SKY(c), nat(R, ch, n)))]
+            if lit: add('R22', R, ' | '.join(nodej) + ' ++ ' + ' | '.join(lit))     # R22 (N1): + Sun / Moon on a natal node
+        for X in REG_BODIES:                                                      # R23 (N2): Sun on X one chart, Moon on X the other
+            if X == 'Jupiter': continue
+            for a_, b_ in (('H', 'J'), ('J', 'H')):
+                s_, m_ = cells(SKY('Sun'), nat(R, a_, X)), cells(SKY('Moon'), nat(R, b_, X))
+                if s_ and m_: add('R23', R, f"S Sun → {a_} {X} [{txt(s_)}] + S Moon → {b_} {X} [{txt(m_)}]")
+        for ch in 'HJ':                                                           # R25 Pallas
+            if nat(R, ch, 'Pallas') is None: continue
+            got = {f"S {c}": g for c in ('Jupiter', 'Sun', 'Moon') if (g := cells(SKY(c), nat(R, ch, 'Pallas')))}
+            if (g := cells(nat(R, ch, 'Jupiter'), nat(R, ch, 'Pallas'))): got[f"{ch} Jupiter"] = g
+            conj_ = [k for k, g in got.items() if k.startswith('S ') and any(f == 'conj' for (_, _, f, _) in g.values())]
+            if len(got) >= 2 or conj_:
+                add('R25', R, f"{ch} Pallas: " + ' | '.join(f"{k} [{txt(g)}]" for k, g in got.items()))
+        for ch in 'HJ':                                                           # R26 royal star on a sky line → own Jupiter
+            for st in ('Regulus', 'Aldebaran', 'Antares', 'Fomalhaut'):
+                if st not in allst or nat(R, ch, st) is None: continue
+                if (t := cells(nat(R, ch, st), nat(R, ch, 'Jupiter'))):
+                    ln = ' | '.join(f"S {c} → S {st} [{txt(anyc(SKY(c), SKY(st)))}]" for c in lines if st in lines[c])
+                    add('R26', R, f"{ch} {st} → {ch} Jupiter [{txt(t)}]; line: {ln}")
+        if topb:                                                                  # R27 body of the strongest sky Jupiter body line
+            for ch in 'HJ':
+                if nat(R, ch, topb) is None: continue
+                js = [f"{jc} Jupiter → {ch} {topb} [{txt(t)}]" for jc in 'HJ' if (t := cells(nat(R, jc, 'Jupiter'), nat(R, ch, topb)))]
+                cs = [f"S {c} → {ch} {topb} [{txt(t)}]" for c in ('Jupiter', 'Sun', 'Moon') if c != topb
+                      and (t := cells(SKY(c), nat(R, ch, topb)))]
+                if js and cs: add('R27', R, ' | '.join(js) + ' ++ ' + ' | '.join(cs))
+        chj = [f"S Chiron → {jc} Jupiter [{txt(t)}]" for jc in 'HJ' if (t := cells(SKY('Chiron'), nat(R, jc, 'Jupiter')))]
+        if chj:                                                                   # R28 Chiron
+            lit = [f"S {c} → {ch} Chiron [{txt(t)}]" for c in ('Sun', 'Moon') for ch in 'HJ' if (t := cells(SKY(c), nat(R, ch, 'Chiron')))]
+            lit += [f"S {c} → S Chiron [{txt(t)}]" for c in ('Sun', 'Moon') if SKY('Chiron') and (t := anyc(SKY(c), SKY('Chiron')))]
+            if lit: add('R28', R, ' | '.join(lit) + ' ++ ' + ' | '.join(chj))
+        for jc in 'HJ':                                                           # R29 sky Ceres → natal Jupiter >= 95
+            t = {pl: c for pl, c in cells(SKY('Ceres'), nat(R, jc, 'Jupiter')).items() if c[3] >= 95}
+            if t: add('R29', R, f"S Ceres → {jc} Jupiter [{txt(t)}]")
+        sj90[R] = [f"{ch} {X} {pl} {v:.4f} {tg} {f} {s:.2f}" for ch in 'HJ' for X in REG_BODIES if X != 'Jupiter'
+                   for pl, (v, tg, f, s) in cells(SKY('Jupiter'), nat(R, ch, X)).items() if s >= 90]
+        for S_, c_, isstar in conjpts:                                            # R30 closest natal conj to the sky conj point
+            for ch in 'HJ':
+                if nat(R, ch, S_) is None: continue
+                for Y in [k[2] for k in P if k[0] == R and k[1] == ch and k[2] != S_ and kind.get(k[2]) != 'equator' and (isstar or kind.get(k[2]) == 'star')]:
+                    for pl, (v, tg, f, s) in cells(nat(R, ch, S_), nat(R, ch, Y)).items():
+                        if f == 'conj': conjcand[(S_, c_)].append((v, R, f"S {c_} conj S {S_}; {ch} {S_} conj {ch} {Y} {pl} {v:.4f} ({s:.2f})"))
+    for key, lst in conjcand.items():                                             # R30: the smallest distance in the field
+        if not lst: continue
+        best = min(v for v, _, _ in lst)
+        for v, R, s in lst:
+            if v == best: add('R30', R, s + ' (closest in the field)')
+    mx = max((len(v) for v in sj90.values()), default=0)                          # R31 most sky Jupiter → natal body cells >= 90
+    if mx >= 3:
+        for R, v in sj90.items():
+            if len(v) == mx: add('R31', R, f"{len(v)} cells: " + ' | '.join(v))
 
-    order = ['R1', 'R2', 'R2a', 'R3', 'R4', 'R5', 'R6', 'R7', 'R6x', 'R8', 'R9', 'R9b', 'R9c', 'R4b', 'R1b', 'R10', 'R11', 'R12', 'R13', 'R14', 'R15', 'R16', 'R17', 'R18', 'R19', 'R20', 'R21']
+    order = ['R1', 'R2', 'R2a', 'R3', 'R4', 'R5', 'R6', 'R7', 'R6x', 'R8', 'R9', 'R9b', 'R9c', 'R4b', 'R1b', 'R10', 'R11', 'R12', 'R13', 'R14', 'R15', 'R16', 'R17', 'R18', 'R19', 'R20', 'R21',
+             'R22', 'R23', 'R24', 'R25', 'R26', 'R27', 'R28', 'R29', 'R30', 'R31']
     print(f"  sky star lines: Jupiter {len(lines['Jupiter'])}, Sun {len(lines['Sun'])}, Moon {len(lines['Moon'])}; "
           f"strongest sky Jupiter star line: {top}")
     print("\n  SUMMARY (runners each rule picks out)")
