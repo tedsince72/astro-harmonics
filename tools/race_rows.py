@@ -20,8 +20,9 @@ Sections (they follow the reading procedure in claude/handover-new-race-reads.md
   6  the same body on both charts of a runner
   7  sky lines exact within the window on the rows only that runner is in (any score)
   8  near-but-off pairs between runners, both ways
-  9  the rules register (R1-R40 and R12c, claude/isolation-log.md), computed from POSITIONS with families.py
+  9  the rules register (R1-R42 and R12c, claude/isolation-log.md), computed from POSITIONS with families.py
 """
+import math
 import re
 import sys
 from collections import defaultdict
@@ -370,6 +371,27 @@ def rules_register(path):
     def anysc(a, b):
         return any((F.best(dist(a, b, pl), pl) or {}).get('score', 0) > 0 for pl in ('RA', 'Dec'))
 
+    def d3(x):                                                                    # first 3 significant digits, truncated (R41, R42)
+        x = round(x, 10); k = math.floor(math.log10(x)); m = round(x * 10 ** (2 - k), 6)
+        if m >= 1000: k, m = k + 1, round(x * 10 ** (1 - k), 6)
+        elif m < 100: k, m = k - 1, round(x * 10 ** (3 - k), 6)
+        return k, math.floor(m)
+
+    def loose(a, b, pl):
+        """Loose same-body target (R41, R42): (value, target, family, offset) or None."""
+        if a is None or b is None: return None
+        v = dist(a, b, pl)
+        if v < 2: return None
+        if abs(v - round(v)) < 0.03: return (v, str(round(v)), 'whole', v - round(v))
+        orig = F.digit_match
+        F.digit_match = lambda x, t: x > 0 and t > 0 and d3(x) == d3(t)
+        try: ev = F.evaluate(v, pl)
+        finally: F.digit_match = orig
+        ev = [e for e in ev if e['family'] not in ('whole', 'conj')]
+        return (v, str(ev[0]['target']), ev[0]['family'], ev[0]['off']) if ev else None
+
+    lt = lambda t: f"{t[0]:.4f} {t[1]} {t[2]} ({t[3]:+.4f})"
+
     skystars = sorted({k[2] for k in P if k[0] == 'SKY' and kind.get(k[2]) == 'star'})
     lines = {c: [st for st in skystars if SKY(c) and anysc(SKY(c), SKY(st))] for c in ('Jupiter', 'Sun', 'Moon')}
     allst = sorted(set(sum(lines.values(), [])))
@@ -666,6 +688,17 @@ def rules_register(path):
                     reach += [f"{ch} {st} ({onl(st)}) → {ch} {od} [{txt(t)}]" for st in allst if (t := cells(nat(R, ch, st), ok))]
                     if reach:
                         add('R40', R, f"S {c} conj {ch} {nd} [{txt(cj)}]; " + ' | '.join(reach))
+        for X in REG_BODIES:                                                      # R41 (Eddie, 6 Nov 2026; Venturous, Secret Satire, Art Power):
+            if X == 'Ketu': continue                                              # sky X → H X and sky X → J X both on a loose target in the same
+            for pl in ('RA', 'Dec'):                                              # plane (loose: whole ±0.03, other families 3-digit rule, any
+                a = loose(SKY(X), nat(R, 'H', X), pl); b = loose(SKY(X), nat(R, 'J', X), pl)   # score; values 2 or more; Ketu = Rahu)
+                if a and b: add('R41', R, f"{X} {pl} H {lt(a)} | J {lt(b)}")
+        for ch in 'HJ':                                                           # R42 (Eddie, 6 Nov 2026; Kilcummin, Art Power, Venturous): a loose
+            for X in REG_BODIES:                                                  # same-body cell sky X → natal X (either plane) and the sky Moon
+                if X == 'Ketu' or nat(R, ch, X) is None: continue                 # → the same natal X scoring 90 or more ("sky moon is the clock")
+                sb = [f"{pl} {lt(t)}" for pl in ('RA', 'Dec') if (t := loose(SKY(X), nat(R, ch, X), pl))]
+                mo = {pl: c for pl, c in cells(SKY('Moon'), nat(R, ch, X)).items() if c[3] >= 90}
+                if sb and mo: add('R42', R, f"S {X} → {ch} {X} " + '; '.join(sb) + f" | S Moon → {ch} {X} [{txt(mo)}]")
         sj90[R] = [f"{ch} {X} {pl} {v:.4f} {tg} {f} {s:.2f}" for ch in 'HJ' for X in REG_BODIES if X != 'Jupiter'
                    for pl, (v, tg, f, s) in cells(SKY('Jupiter'), nat(R, ch, X)).items() if s >= 90]
         for S_, c_, isstar in conjpts:                                            # R30 closest natal conj to the sky conj point
@@ -688,7 +721,7 @@ def rules_register(path):
     if len(nob) == 1:                                                             # the only runner in the field without R9b
         add('R36', nob[0], f"the only runner of {len(runners)} without R9b")
     order = ['R1', 'R2', 'R2a', 'R3', 'R4', 'R5', 'R6', 'R7', 'R6x', 'R8', 'R9', 'R9b', 'R9c', 'R4b', 'R1b', 'R10', 'R11', 'R12', 'R12c', 'R13', 'R14', 'R15', 'R16', 'R17', 'R18', 'R19', 'R20', 'R21',
-             'R22', 'R23', 'R24', 'R25', 'R26', 'R27', 'R28', 'R29', 'R30', 'R31', 'R32', 'R33', 'R34', 'R35', 'R36', 'R37', 'R38', 'R39', 'R40']
+             'R22', 'R23', 'R24', 'R25', 'R26', 'R27', 'R28', 'R29', 'R30', 'R31', 'R32', 'R33', 'R34', 'R35', 'R36', 'R37', 'R38', 'R39', 'R40', 'R41', 'R42']
     print(f"  sky star lines: Jupiter {len(lines['Jupiter'])}, Sun {len(lines['Sun'])}, Moon {len(lines['Moon'])}; "
           f"strongest sky Jupiter star line: {top}")
     print("\n  SUMMARY (runners each rule picks out)")
