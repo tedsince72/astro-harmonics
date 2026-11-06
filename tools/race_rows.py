@@ -20,7 +20,8 @@ Sections (they follow the reading procedure in claude/handover-new-race-reads.md
   6  the same body on both charts of a runner
   7  sky lines exact within the window on the rows only that runner is in (any score)
   8  near-but-off pairs between runners, both ways
-  9  the rules register (R1-R42, R12c and R41c, claude/isolation-log.md), computed from POSITIONS with families.py
+  9  the rules register (R1-R42, R12c and R41c, claude/isolation-log.md), computed from POSITIONS with families.py;
+     R41 / R41c need a piece on the body (sky Jupiter / Sun / Moon >= 90, natal Jupiter or a sky-line star → X)
 """
 import math
 import re
@@ -692,14 +693,29 @@ def rules_register(path):
                     reach += [f"{ch} {st} ({onl(st)}) → {ch} {od} [{txt(t)}]" for st in allst if (t := cells(nat(R, ch, st), ok))]
                     if reach:
                         add('R40', R, f"S {c} conj {ch} {nd} [{txt(cj)}]; " + ' | '.join(reach))
+        def piece(ch, X):                                                         # Eddie, 6 Nov 2026: a loose cell is emphasis (an underline);
+            out = []                                                              # it counts only when body X carries a piece of its own:
+            for c in ('Jupiter', 'Sun', 'Moon'):                                  # sky Jupiter / Sun / Moon → natal X >= 90 (4-digit),
+                if c == X: continue
+                t = {pl: v for pl, v in cells(SKY(c), nat(R, ch, X)).items() if v[3] >= 90}
+                if t: out.append(f"S {c} → {ch} {X} [{txt(t)}]")
+            if X != 'Jupiter' and (t := cells(nat(R, ch, 'Jupiter'), nat(R, ch, X))):   # natal Jupiter → X (cut-offs),
+                out.append(f"{ch} Jupiter → {ch} {X} [{txt(t)}]")
+            for st in allst:                                                      # a sky-line star conj or reaching natal X (cut-offs)
+                if nat(R, ch, st) is not None and (t := cells(nat(R, ch, st), nat(R, ch, X))):
+                    out.append(f"{ch} {st} ({onl(st)}) → {X} [{txt(t)}]")
+            return out
         for X in REG_BODIES:                                                      # R41 (Eddie, 6 Nov 2026; Venturous, Secret Satire, Art Power):
             if X == 'Ketu': continue                                              # sky X → H X and sky X → J X both on a loose target in the same
-            for pl in ('RA', 'Dec'):                                              # plane (loose: whole ±0.03, other families 3-digit rule, any
-                a = loose(SKY(X), nat(R, 'H', X), pl); b = loose(SKY(X), nat(R, 'J', X), pl)   # score; values 2 or more; Ketu = Rahu)
-                if a and b: add('R41', R, f"{X} {pl} H {lt(a)} | J {lt(b)}")
+            pcs = [p_ for ch in 'HJ' for p_ in piece(ch, X)]                      # plane (loose: whole ±0.03, other families 3-digit rule, any
+            if not pcs: continue                                                  # score; values 2 or more; Ketu = Rahu); since 6 Nov 2026 only
+            pc = ' ++ piece: ' + ' | '.join(pcs[:3]) + (f' (+{len(pcs) - 3})' if len(pcs) > 3 else '')   # with a piece on X (either chart)
+            for pl in ('RA', 'Dec'):
+                a = loose(SKY(X), nat(R, 'H', X), pl); b = loose(SKY(X), nat(R, 'J', X), pl)
+                if a and b: add('R41', R, f"{X} {pl} H {lt(a)} | J {lt(b)}{pc}")
             for hp, jp in (('RA', 'Dec'), ('Dec', 'RA')):                         # R41c (Eddie, 6 Nov 2026; Ishvara, Haydock 8 Jun 2020): R41
                 a = loose(SKY(X), nat(R, 'H', X), hp); b = loose(SKY(X), nat(R, 'J', X), jp)   # with the planes crossed (horse RA, jockey
-                if a and b: add('R41c', R, f"{X} H {hp} {lt(a)} | J {jp} {lt(b)}")       # Dec, or horse Dec, jockey RA)
+                if a and b: add('R41c', R, f"{X} H {hp} {lt(a)} | J {jp} {lt(b)}{pc}")   # Dec, or horse Dec, jockey RA); piece as R41
         for ch in 'HJ':                                                           # R42 (Eddie, 6 Nov 2026; Kilcummin, Art Power, Venturous): a loose
             for X in REG_BODIES:                                                  # same-body cell sky X → natal X (either plane) and the sky Moon
                 if X == 'Ketu' or nat(R, ch, X) is None: continue                 # → the same natal X scoring 90 or more ("sky moon is the clock")
