@@ -47,9 +47,11 @@ CASES = {
     ]),
     'race_batch_20220311_newcastle_1540_jupiter_tables.xlsx': ('3 Peak Time', [
         'J Zubeneschamali → J Eris Dec 0.0002 conj (99.84)',
-        'H Jupiter → H Rahu RA 0.4014 conj (53.64)',
     ]),
 }
+EXTRA = [  # (workbook, runner, cell): natal Jupiter conj in T1 / T2 (independent checker, 6 Nov 2026)
+    ('race_batch_20220311_newcastle_1540_jupiter_tables.xlsx', '2 Edmond Dantes', 'H Jupiter → H Rahu RA 0.4014 conj (53.64)'),
+]
 SKY_LINES = {
     'race_batch_20220217_leicester_1445_jupiter_tables.xlsx': ['S Sun conj Sadalmelik RA 0.6895 (29.20)'],
     'race_batch_20220219_haydock_1405_jupiter_tables.xlsx': ['Regulus RA 179.443306 10×φ^6', 'Diadem (Jupiter + Moon)'],
@@ -127,6 +129,9 @@ for wbname, (runner, cells) in CASES.items():
     for p in D['pieces']:
         n = len(hold[key(p)]) - 1
         check((p['field'] == 'only') == (n == 0) and (n == 0 or p['field'].count(',') == n - 1), f"{wbname} flag {p}")
+
+for wbname, runner, c in EXTRA:
+    check(c in section(E.report(E.read(os.path.join(REF, wbname))), runner), f'{wbname} {runner}: missing "{c}"')
 
 # every race runs
 for f in sorted(os.listdir(REF)):
