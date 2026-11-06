@@ -377,6 +377,10 @@ def rules_register(path):
         elif m < 100: k, m = k - 1, round(x * 10 ** (3 - k), 6)
         return k, math.floor(m)
 
+    def r3(x):                                                                    # first 3 significant digits, rounded (Eddie, 6 Nov 2026)
+        k, _ = d3(x); m = round(x * 10 ** (2 - k))
+        return (k + 1, 100) if m >= 1000 else (k, m)
+
     def loose(a, b, pl):
         """Loose same-body target (R41, R42): (value, target, family, offset) or None."""
         if a is None or b is None: return None
@@ -384,7 +388,7 @@ def rules_register(path):
         if v < 2: return None
         if abs(v - round(v)) < 0.03: return (v, str(round(v)), 'whole', v - round(v))
         orig = F.digit_match
-        F.digit_match = lambda x, t: x > 0 and t > 0 and d3(x) == d3(t)
+        F.digit_match = lambda x, t: x > 0 and t > 0 and d3(t) in (d3(x), r3(x))   # value truncated or rounded vs the target's 3 digits (Eddie, 6 Nov 2026)
         try: ev = F.evaluate(v, pl)
         finally: F.digit_match = orig
         ev = [e for e in ev if e['family'] not in ('whole', 'conj')]
