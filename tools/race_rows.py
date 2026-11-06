@@ -20,7 +20,7 @@ Sections (they follow the reading procedure in claude/handover-new-race-reads.md
   6  the same body on both charts of a runner
   7  sky lines exact within the window on the rows only that runner is in (any score)
   8  near-but-off pairs between runners, both ways
-  9  the rules register (R1-R42, R12c and R41c, claude/isolation-log.md), computed from POSITIONS with families.py
+  9  the rules register (R1-R42, R12c and R41c, claude/isolation-log.md), computed from POSITIONS with families.py, 3-digit rule first, 4-digit marked
 """
 import math
 import re
@@ -313,6 +313,18 @@ REG_CUT = {'whole': 50, 'golden': 50, 'conj': 50}
 R39_BODIES = ['Sun', 'Mercury', 'Venus', 'Mars', 'Saturn', 'Chiron', 'Ceres', 'Pallas', 'Juno', 'Vesta', 'Rahu', 'Ketu']   # bodies that move (no outer / TNO)
 
 
+def d3_digits(x):
+    """First 3 significant digits, truncated, and the order of magnitude (the 3-digit rule)."""
+    x = round(x, 10); k = math.floor(math.log10(x)); m = round(x * 10 ** (2 - k), 6)
+    if m >= 1000: k, m = k + 1, round(x * 10 ** (1 - k), 6)
+    elif m < 100: k, m = k - 1, round(x * 10 ** (3 - k), 6)
+    return k, math.floor(m)
+
+
+def match3(v, t):
+    return v > 0 and t > 0 and d3_digits(v) == d3_digits(t)
+
+
 def reg_families():
     """families.py from the astro-harmonics repo (ASTRO_REPO, else ~/astro-harmonics, else /home/claude/astro-harmonics)."""
     for root in (os.environ.get('ASTRO_REPO'), os.path.expanduser('~/astro-harmonics'), '/home/claude/astro-harmonics'):
@@ -324,14 +336,14 @@ def reg_families():
     return None
 
 
-def rules_register(path):
+def _register(path, digits=3):
     """Readings as the records were made (4 Nov 2026): a cell counts on its best family only; R6x leaves out a centre
     on its own natal namesake (S Sun → H Sun); R9 needs conj as the cell's best family; R10's sky bodies are the 24
     natal bodies without Jupiter (no Moon). R13 includes the sky Moon."""
-    print("\n" + "=" * 78 + "\n9  RULES REGISTER (rules as worded in claude/isolation-log.md; run on the whole field)")
     F = reg_families()
-    if F is None:
-        print("  families.py not found (set ASTRO_REPO to the astro-harmonics repo); section skipped"); return
+    if F is None: return None
+    F_orig_match = F.digit_match                          # Eddie, 6 Nov 2026: "it should be 3 digit first / that shows all the
+    if digits == 3: F.digit_match = match3                # relationships / then you can refine with quality / 4 digits if required"
     wb = openpyxl.load_workbook(path, read_only=True)
     P, names, kind = {}, {}, {}
     for r in wb['POSITIONS'].iter_rows(values_only=True):
@@ -725,21 +737,42 @@ def rules_register(path):
         add('R36', nob[0], f"the only runner of {len(runners)} without R9b")
     order = ['R1', 'R2', 'R2a', 'R3', 'R4', 'R5', 'R6', 'R7', 'R6x', 'R8', 'R9', 'R9b', 'R9c', 'R4b', 'R1b', 'R10', 'R11', 'R12', 'R12c', 'R13', 'R14', 'R15', 'R16', 'R17', 'R18', 'R19', 'R20', 'R21',
              'R22', 'R23', 'R24', 'R25', 'R26', 'R27', 'R28', 'R29', 'R30', 'R31', 'R32', 'R33', 'R34', 'R35', 'R36', 'R37', 'R38', 'R39', 'R40', 'R41', 'R41c', 'R42']
+    F.digit_match = F_orig_match
+    return dict(picked=picked, out=out, order=order, runners=runners, N=N, lines=lines, top=top)
+
+
+def rules_register(path):
+    """The register on the 3-digit rule (default since 6 Nov 2026); each pick marked '4d' when it also stands on the
+    4-digit rule (the refinement), '3d only' when it needs the wider rule."""
+    print("\n" + "=" * 78 + "\n9  RULES REGISTER (rules as worded in claude/isolation-log.md; run on the whole field)")
+    r4 = _register(path, 4)
+    r3 = _register(path, 3)
+    if r3 is None:
+        print("  families.py not found (set ASTRO_REPO to the astro-harmonics repo); section skipped"); return
+    picked, out, order, runners, N, lines, top = (r3[k] for k in ('picked', 'out', 'order', 'runners', 'N', 'lines', 'top'))
+    p4, o4 = r4['picked'], r4['out']
+    print("  Scoring: 3-digit rule first (golden, φ power, ninth, √2, silver: first 3 significant digits); '4d' = the pick also stands"
+          " on the 4-digit rule, '3d only' = it needs the wider rule. Lines marked '[3d only]' are not in the 4-digit run.")
     print(f"  sky star lines: Jupiter {len(lines['Jupiter'])}, Sun {len(lines['Sun'])}, Moon {len(lines['Moon'])}; "
           f"strongest sky Jupiter star line: {top}")
-    print("\n  SUMMARY (runners each rule picks out)")
+    tag = lambda r, x: N(x).strip() + ('' if x in p4[r] else ' [3d only]')
+    print("\n  SUMMARY (runners each rule picks out; 3-digit, [3d only] = not picked on the 4-digit rule)")
     for r in order:
         p = sorted(picked[r])
-        print(f"    {r:4} {len(p)}: " + (', '.join(N(x).strip() for x in p) if p else 'none'))
-    print("\n  RULES PER RUNNER (Eddie, 4 Nov 2026: the combinations)")
+        print(f"    {r:4} {len(p)}: " + (', '.join(tag(r, x) for x in p) if p else 'none') +
+              (f"   | 4-digit: {len(p4[r])}" if len(p4[r]) != len(p) else ''))
+    print("\n  RULES PER RUNNER (Eddie, 4 Nov 2026: the combinations; 3-digit, rules in brackets only on 3 digits)")
     for R in runners:
-        rs = [r for r in order if R in picked[r]]
+        rs = [(r if R in p4[r] else f"({r})") for r in order if R in picked[r]]
         print(f"    {N(R):34} {len(rs):2}: " + (', '.join(rs) if rs else 'none'))
     for r in order:
         print(f"\n  {r}" + ('' if out[r] else ': none'))
-        for line in out[r][:40]: print('  ' + line)
-        if len(out[r]) > 40: print(f"    ... {len(out[r]) - 40} more")
-
+        s4 = set(o4[r])
+        lst = [l + ('' if l in s4 else '  [3d only]') for l in out[r]]
+        for line in lst[:40]: print('  ' + line)
+        if len(lst) > 40: print(f"    ... {len(lst) - 40} more")
+        gone = [l for l in o4[r] if l not in set(out[r])]
+        for line in gone[:10]: print('  ' + line + '  [4d line, changed at 3 digits]')
 
 if __name__ == '__main__':
     main()
