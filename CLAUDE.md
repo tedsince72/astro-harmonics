@@ -137,6 +137,14 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   families.py / jup2 / rebuild_kit), built only when missing. Timing: `python3 tests/time_suite.py [--full] [--log <file>]` (per test, slowest 15,
   total). Full run cold cache 41.6 min, warm cache 14.0 min. In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
+- Eddie's read, stage 1 (6 Nov 2026, Eddie's go-ahead; collector, not a reader - no lead, no ranking): `python3 tools/eddie_read.py
+  <race_batch_..._jupiter_tables.xlsx> [--out DIR]` -> <race>_eddie_read.md + .json, in Eddie's order (same body; sky Jupiter / Sun / Moon
+  notes, hubs, top line, conj points; MATCH; T1 / T2; T24 top rows; T24 star rows with midpoints; by body / number / family, threads; named
+  flags), every piece marked 'only' or 'also: <runners>'. Rules fixed in the docstring (noted line: >= 40 within ±120 min, >= 90 applying,
+  or any centre conj; star rows: every scoring cell). Reads the tables workbook only, never the csv. Outputs for the 15 Jan-Mar 2022 races in
+  docs/eddie_read/. Tests `python3 tests/eddie_read_check.py` (Eddie's hand-read cells in Haydock 19 Feb, Leicester 17 Feb, Newcastle 11 Mar
+  2022; every value from POSITIONS; every field flag). Stage 2 (narrower, rule settings file) and stage 3 (back-test, separate results file)
+  come later.
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
 - On the Mac: see `docs/MAC_SETUP.md` (venv with Python 3.12+, `pip install openpyxl`). Scripts call `python3.12`; inside the venv

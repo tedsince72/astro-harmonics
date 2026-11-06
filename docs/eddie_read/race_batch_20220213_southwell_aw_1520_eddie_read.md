@@ -1,0 +1,1427 @@
+# Eddie's race read (stage 1): race_batch_20220213_southwell_aw_1520_jupiter_tables.xlsx
+Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether it is held by this runner only.
+
+## Sky notes
+- Regulus: no Regulus line
+### Sky Jupiter
+- Juno RA 37.005591 37 (whole) (51.90) -> toward — applying, exact 16:06 (in 46.7 min)
+- Meissa RA 102.005730 102 (whole) (50.91) -> toward — applying, exact 15:57 (in 37.4 min)
+- Alphard Dec 0.107319 conj (conj) (41.25) -> toward — applying, exact 14 Feb 2022 20:00 (in 1720.8 min)
+### Sky Sun
+- Aculeus RA 61.802606 100×φ^-1 (phi power) (99.49) <- away — applying, exact 15:21 (in 1.2 min)
+- Deneb Algedi RA 0.126105 conj (conj) (83.89) <- away — separating, exact 12:13 (186.7 min ago)
+- Sadalsuud RA 3.997964 4 (whole) (80.68) -> toward — applying, exact 15:23 (in 3.0 min) [360/90]
+- Rasalhague Dec 25.882430 16×φ (golden) (65.78) <- away — separating, exact 14:53 (26.0 min ago)
+- Quaoar RA 50.151880 31×φ (golden) (60.58) -> toward — applying, exact 15:30 (in 10.8 min)
+- Sadalmelik Dec 13.004799 13 (whole) (57.77) -> toward — applying, exact 15:40 (in 20.4 min)
+- Alkaid RA 119.994890 120 (whole) (55.43) -> toward — applying, exact 15:27 (in 7.6 min) [360/3]
+### Sky Moon
+- Facies RA 166.681283 166.667 (ninth) (98.75) <- away — applying, exact 15:21 (in 1.5 min)
+- Spica RA 88.886651 88.8889 (ninth) (98.39) <- away — separating, exact 15:19 (0.2 min ago)
+- Mars Dec 48.542267 30×φ (golden) (92.44) <- away — separating, exact 15:09 (10.3 min ago)
+- Galactic Centre RA 153.999124 154 (whole) (91.44) <- away — separating, exact 15:19 (0.1 min ago)
+- Saturn RA 152.997524 153 (whole) (76.77) <- away — applying, exact 15:20 (in 0.3 min)
+- Neptune RA 119.740762 74×φ (golden) (65.12) <- away — separating, exact 15:19 (0.6 min ago)
+- Fomalhaut RA 128.004815 128 (whole) (57.65) <- away — separating, exact 15:19 (0.5 min ago)
+- Venus RA 173.140846 107×φ (golden) (42.72) <- away — applying, exact 15:21 (in 1.2 min)
+- Castor RA 1.239650 conj (conj) (3.01) -> toward — applying, exact 17:27 (in 127.7 min)
+- **Hubs** (a point two centres reach): none
+- **Top line** (highest, exact within 5 min of the off): S Sun → Aculeus RA 61.802606 100×φ^-1 (99.49)
+- **Conj points**: S Jupiter conj Alphard Dec 0.1073 (41.25) applying, exact 14 Feb 2022 20:00 (in 1720.8 min); S Sun conj Deneb Algedi RA 0.1261 (83.89) separating, exact 12:13 (186.7 min ago); S Moon conj Castor RA 1.2396 (3.01) applying, exact 17:27 (in 127.7 min)
+- **Noted stars**: Aculeus (Sun), Alkaid (Sun), Alphard (Jupiter), Castor (Moon), Deneb Algedi (Sun), Facies (Moon), Fomalhaut (Moon), Galactic Centre (Moon), Meissa (Jupiter), Rasalhague (Sun), Sadalmelik (Sun), Sadalsuud (Sun), Spica (Moon)
+- **Strong line stars** (>= 90): Aculeus, Facies, Galactic Centre, Spica
+
+## Flags (shapes found so far; field-checked; no ranking)
+### line star carries a sky number — held by 6 of 7: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+- 5 Carn A Chlamain / Tom Marquand: H Deneb Algedi → H Rahu RA 166.679083 166.667 (98.94) = S Moon → Facies RA 166.667
+- 1 The Dancing Poet / Harry Russell: J Facies → J Ceres RA 61.807659 100×φ^-1 (97.26) = S Sun → Aculeus RA 100×φ^-1
+- 1 The Dancing Poet / Harry Russell: H Alphard → H Gonggong RA 166.631682 166.667 (97.0) = S Moon → Facies RA 166.667
+- 6 Flamingo Rose / Dougie Costello: H Spica → H Transpluto RA 48.542367 30×φ (91.85) = S Moon → Mars Dec 30×φ
+- 4 Deluxe Music / Callum Rodriguez: H Galactic Centre → H Pallas Dec 25.885626 16×φ (82.78) = S Sun → Rasalhague Dec 16×φ
+- 7 Red Tornado / Jason Hart: J Galactic Centre → J Pallas RA 154.003087 154 (71.51) = S Moon → Galactic Centre RA 154
+- 3 Chase The Dollar / Rossa Ryan: H Deneb Algedi → H Gonggong Dec 4.003383 4 (69.03) = S Sun → Sadalsuud RA 4
+- 7 Red Tornado / Jason Hart: H Aculeus → H Pluto Dec 12.996452 13 (67.67) = S Sun → Sadalmelik Dec 13
+- 4 Deluxe Music / Callum Rodriguez: H Meissa → H Mercury Dec 12.996289 13 (66.33) = S Sun → Sadalmelik Dec 13
+- 6 Flamingo Rose / Dougie Costello: J Aculeus → J Vesta RA 101.994633 102 (53.53) = S Jupiter → Meissa RA 102
+### locked line star on natal Jupiter — held by 5 of 7: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+- 6 Flamingo Rose / Dougie Costello: J Sadalsuud ↔ J Jupiter Dec 15.5556 (natal 15.5554 99.85 / sky 15.5555 99.91)
+- 5 Carn A Chlamain / Tom Marquand: J Fomalhaut ↔ J Jupiter RA conj (natal 0.1648 79.24 / sky 0.1626 79.49)
+- 6 Flamingo Rose / Dougie Costello: J Deneb Algedi ↔ J Jupiter Dec 5 (natal 5.0009 91.09 / sky 4.9975 76.15)
+- 1 The Dancing Poet / Harry Russell: J Facies ↔ J Jupiter RA 25×φ (natal 40.4560 70.50 / sky 40.4549 76.68)
+- 3 Chase The Dollar / Rossa Ryan: J Deneb Algedi ↔ J Jupiter Dec 22×φ (natal 35.5908 66.64 / sky 35.5961 96.06)
+- 6 Flamingo Rose / Dougie Costello: J Meissa ↔ J Jupiter RA 102×φ (natal 165.0461 62.97 / sky 165.0443 72.18)
+- 4 Deluxe Music / Callum Rodriguez: J Sadalsuud ↔ J Jupiter RA conj (natal 0.3456 59.23 / sky 0.3409 59.71)
+- 6 Flamingo Rose / Dougie Costello: H Sadalsuud ↔ H Jupiter RA 78×φ (natal 126.2159 50.81 / sky 126.2131 64.12)
+### natal body on a strong line star — held by 4 of 7: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+- 2 Flying Instructor / Dylan Hogan: J Spica conj J Saturn Dec 0.0126 (91.78)
+- 6 Flamingo Rose / Dougie Costello: J Spica conj J Eris Dec 0.0201 (87.02)
+- 2 Flying Instructor / Dylan Hogan: H Facies conj H Saturn RA 0.1964 (75.53)
+- 3 Chase The Dollar / Rossa Ryan: H Facies conj H Saturn RA 0.2755 (66.64)
+- 3 Chase The Dollar / Rossa Ryan: H Facies conj H Mars RA 0.2949 (64.54)
+- 4 Deluxe Music / Callum Rodriguez: H Galactic Centre conj H Saturn RA 0.3598 (57.78)
+- 2 Flying Instructor / Dylan Hogan: H Galactic Centre conj H Vesta RA 0.4076 (53.04)
+### same source on the same body, both charts — held by 3 of 7: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+- 3 Chase The Dollar / Rossa Ryan: Orcus: Rasalhague
+- 6 Flamingo Rose / Dougie Costello: Jupiter: S Sadalsuud
+- 6 Flamingo Rose / Dougie Costello: Jupiter: Sadalsuud
+- 6 Flamingo Rose / Dougie Costello: Transpluto: Rasalhague
+- 6 Flamingo Rose / Dougie Costello: star Sadalsuud: Jupiter
+- 7 Red Tornado / Jason Hart: Pallas: Galactic Centre
+
+## 1 The Dancing Poet / Harry Russell
+### 1. Same body
+- S Mercury → H Mercury RA 13.9902 14 (26.07) — only
+- S Saturn → H Saturn Dec 4.1466 4.14 (loose) — only
+- S Pallas → H Pallas RA 63.9711 64 (loose) — only
+- S Eris → H Eris Dec 1.6145 1×φ (loose) — only
+- S Gonggong → H Gonggong Dec 1.6101 1×φ (loose) — only
+- S Transpluto → H Transpluto RA 1.7698 1.77778 (loose) — also: 5 Carn A Chlamain
+- S Mercury → J Mercury RA 28.9809 29 (0.19) — only
+- S Jupiter → J Jupiter RA 22.2315 22.2222 (loose) — only
+- S Pluto → J Pluto Dec 12.9513 8×φ (loose) — only
+- S Rahu → J Rahu RA 111.5996 111.111 (loose) — only
+- S Ketu → J Ketu RA 111.5996 111.111 (loose) — only
+### 5. MATCH
+- H EXACT: S Jupiter → Meissa RA 102.00573 | H Diadem Pallas RA 101.991491 102 (33.01)
+- H EXACT: S Sun → Sadalsuud RA 3.997964 | H Orion Nebula Cluster Orcus Dec 3.99766 4 (77.97)
+- H EXACT: S Sun → Sadalmelik Dec 13.004799 | H Zubenelgenubi Ketu Dec 12.991366 13 (32.3)
+- H EXACT: S Sun → Sadalmelik Dec 13.004799 | H Pleiades Transpluto Dec 12.985731 13 (8.21)
+- H EXACT: S Sun → Sadalmelik Dec 13.004799 | H Meissa Ketu Dec 12.983941 13 (3.88)
+- H EXACT: S Sun → Alkaid RA 119.99489 | H Aculeus Eris RA 119.992368 120 (38.24)
+- H CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | H Deneb Algedi Uranus RA 48.9986 49 (86.49)
+- H CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | H Deneb Algedi Ketu RA 26.183047 10×φ^2 (95.91)
+- H CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | S Jupiter → H body Uranus RA 33.972881 21×φ (67.2)
+- H EXACT: S Moon → Facies RA 166.681283 | H Jupiter → H body Neptune RA 166.643257 166.667 (97.99)
+- H EXACT: S Moon → Facies RA 166.681283 | H Alphard Gonggong RA 166.631682 166.667 (97)
+- H EXACT: S Moon → Spica RA 88.886651 | H Alnilam Rahu RA 88.88153 88.8889 (94.7)
+- H EXACT: S Moon → Mars Dec 48.542267 | H Mirach Gonggong Dec 48.547602 30×φ (63.45)
+- H EXACT: S Moon → Saturn RA 152.997524 | H Aldebaran Juno RA 153.016001 153 (4)
+- H BODY: S Moon → Neptune RA 119.740762 | H Jupiter → H body Neptune RA 166.643257 166.667 (97.99)
+- J EXACT: S Jupiter → Meissa RA 102.00573 | J Scheat Quaoar RA 101.996379 102 (67.07)
+- J EXACT: S Jupiter → Meissa RA 102.00573 | S body → J Jupiter Haumea RA 101.996059 102 (64.47)
+- J EXACT: S Jupiter → Meissa RA 102.00573 | J Facies Juno RA 102.009828 102 (25.87)
+- J EXACT: S Jupiter → Juno RA 37.005591 | J Scheat Eris RA 36.999815 37 (98.15)
+- J EXACT: S Sun → Aculeus RA 61.802606 | J Facies Ceres RA 61.807659 100×φ^-1 (97.26)
+- J EXACT: S Sun → Sadalsuud RA 3.997964 | J Deneb Algedi Gonggong RA 3.991691 4 (34.17)
+- J EXACT: S Sun → Sadalsuud RA 3.997964 | J Sadalsuud Pluto Dec 3.986488 4 (10.52)
+- J EXACT: S Sun → Sadalsuud RA 3.997964 | J Difda Sun Dec 4.019173 4 (0.17)
+- J EXACT: S Sun → Sadalmelik Dec 13.004799 | J Hamal Vesta RA 12.995384 13 (59.17)
+- J EXACT: S Sun → Sadalmelik Dec 13.004799 | J Vindemiatrix Vesta Dec 13.018004 13 (1)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | J Deneb Algedi Sun RA 77.9964 78 (67.24)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | J Deneb Algedi Ceres RA 14.143453 14.14 (96.31)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | S Jupiter → J body Mercury Dec 16.664885 16.6667 (98.47)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | S Jupiter → J body Pallas RA 42.063042 26×φ (67.15)
+- J EXACT: S Moon → Facies RA 166.681283 | J Alpheratz Haumea RA 166.650539 166.667 (98.62)
+- J EXACT: S Moon → Fomalhaut RA 128.004815 | J Zosma Venus RA 127.984263 128 (4.54)
+- J EXACT: S Moon → Saturn RA 152.997524 | J Sirius Uranus RA 153.003412 153 (68.79)
+- J EXACT: S Moon → Venus RA 173.140846 | J Deneb Orcus RA 173.123052 107×φ (63.45)
+- J EXACT: S Moon → Venus RA 173.140846 | J Pollux Mars RA 173.10118 107×φ (1.45)
+### 6. T1 (horse Jupiter)
+- H Jupiter → H Neptune RA 166.6433 166.667 (97.99) [sky number: S Moon → Facies RA 166.667] — only
+### 6. T2 (jockey Jupiter)
+- J Jupiter → J star Facies RA 40.4560 25×φ (70.50) — only
+### 7. T24 top rows
+- S Orcus → H Jupiter RA 16.6659 16.6667 (99.39) — only
+- S Moon → H Makemake Dec 0.0028 conj (98.17) — also: 4 Deluxe Music, 5 Carn A Chlamain, 6 Flamingo Rose
+- S Pluto → H Jupiter RA 125.9983 126 (83.72) — only
+- S Pallas → H Jupiter RA 170.0026 170 (75.82) — only
+- S Sun → H Mercury Dec 7.0030 7 (72.18) — only
+- S Jupiter → H Uranus RA 33.9729 21×φ (67.20) — only
+- S Moon → H Vesta Dec 24.9951 25 (57.34) — only
+- S Jupiter → J Mercury Dec 16.6649 16.6667 (98.47) — only
+- S Sun → J Transpluto RA 179.4323 10×φ^6 (97.68) — only
+- S Saturn → J Jupiter Dec 0.0043 conj (97.17) — also: 5 Carn A Chlamain
+- S Saturn → J Jupiter RA 0.1337 conj (82.97) — only
+- S Facies → J Jupiter RA 40.4549 25×φ (76.68) — only
+- S Jupiter → J Pallas RA 42.0630 26×φ (67.15) — only
+- S Haumea → J Jupiter RA 101.9961 102 (64.47) [sky number: S Jupiter → Meissa RA 102] — only
+- S Venus → J Jupiter RA 33.9953 34 (58.60) — only
+- S Sun → J Pluto RA 80.9947 81 (54.28) — only
+- S Venus → J Jupiter Dec 0.1343 conj (30.50) — also: 5 Carn A Chlamain
+- S Jupiter → J Ceres RA 0.8799 conj (17.09) — only
+### 8. T24 star rows
+- **Alphard** (sky Jupiter)
+  - H Alphard → H Gonggong RA 166.6317 166.667 (97.00) [sky number: S Moon → Facies RA 166.667] — only
+  - J Alphard → J Ceres Dec 11.1167 11.1111 (90.86) — only
+  - J Alphard → J Ceres RA 160.9970 161 (72.30) — only
+  - J Alphard → J Jupiter Dec 7.9919 8 (35.21) [360/45] — only
+  - J Alphard → J Pluto RA 103.9887 104 (19.07) — only
+  - H RA midpoints: Uranus = Quaoar 62.72 (far, far side); Vesta = Quaoar 50.40 (far, far side)
+  - H Dec midpoints: Mercury = Rahu 84.11 (between); Mars = Eris 42.53 (between); Mars = Ketu 24.33 (between)
+  - J RA midpoints: Venus = Ketu 51.65 (far, far side)
+  - J Dec midpoints: Saturn = Neptune 62.05 (between); Sun = Sedna 57.68 (between); Pluto = Eris 51.41 (between); Jupiter = Orcus 51.24 (between)
+- **Meissa** (sky Jupiter)
+  - H Meissa → H Sun Dec 27.9992 28 (91.89) — only
+  - H Meissa → H Haumea Dec 6.9896 7 (22.85) — only
+  - H Meissa → H Ketu Dec 12.9839 13 (3.88) [sky number: S Sun → Sadalmelik Dec 13] — only
+  - J Meissa → J Gonggong Dec 27.9943 28 (51.37) — only
+  - J Meissa → J Vesta Dec 11.9937 12 (47.13) [360/30] — only
+  - J Meissa → J Haumea RA 111.6583 69×φ (32.25) — only
+  - J Meissa → J Vesta RA 64.9876 65 (14.43) — only
+  - J Meissa → J Quaoar RA 160.1573 99×φ (1.78) — only
+  - H RA midpoints: Uranus = Orcus 94.58 (near, between); Vesta = Orcus 71.65 (near, between)
+  - H Dec midpoints: Haumea = Rahu 56.64 (between)
+  - J RA midpoints: Uranus = Chiron 49.98 (far, far side)
+- **Aculeus** (sky Sun)
+  - H Aculeus → H Vesta RA 110.9108 10×φ^5 (96.75) — only
+  - H Aculeus → H Mars Dec 17.7711 17.7778 (94.74) — only
+  - H Aculeus → H Ceres RA 70.0029 70 (73.30) — only
+  - H Aculeus → H Eris RA 119.9924 120 (38.24) [360/3] [sky number: S Sun → Alkaid RA 120] — only
+  - H Aculeus → H Neptune Dec 23.0086 23 (32.60) — only
+  - J Aculeus → J Juno RA 87.9924 88 (38.55) — only
+  - J Aculeus → J Orcus RA 127.8461 79×φ (11.35) — only
+  - H RA midpoints: Makemake = Gonggong 63.38 (near, between); Ceres = Makemake 51.09 (near, between); Venus = Saturn 47.14 (near, between)
+  - J RA midpoints: Eris = Transpluto 76.85 (far, far side)
+- **Alkaid** (sky Sun)
+  - H Alkaid → H Orcus RA 55.0147 34×φ (90.89) — only
+  - H Alkaid → H Jupiter Dec 44.9923 45 (37.65) [360/8] — only
+  - J Alkaid → J Mars Dec 72.8148 45×φ (80.64) — also: 2 Flying Instructor
+  - J Alkaid → J Pluto RA 39.0084 39 (33.49) — only
+- **Deneb Algedi** (sky Sun)
+  - H Deneb Algedi → H Ketu RA 26.1830 10×φ^2 (95.91) — only
+  - H Deneb Algedi → H Uranus RA 48.9986 49 (86.49) — only
+  - J Deneb Algedi → J Ceres RA 14.1435 14.14 (96.31) — only
+  - J Deneb Algedi → J Sun RA 77.9964 78 (67.24) — only
+  - J Deneb Algedi → J Chiron RA 106.7804 66×φ (48.56) — only
+  - J Deneb Algedi → J Gonggong RA 3.9917 4 (34.17) [360/90] [sky number: S Sun → Sadalsuud RA 4] — only
+  - H RA midpoints: Eris = Quaoar 95.25 (near, between); Venus = Vesta 73.33 (near, between); Venus = Uranus 54.07 (near, between)
+  - J RA midpoints: Sun = Sedna 42.55 (near, between); Mercury = Eris 34.54 (near, between)
+- **Rasalhague** (sky Sun)
+  - H Rasalhague → H Eris RA 121.3408 75×φ (40.58) — only
+  - H Rasalhague → H Venus Dec 35.0154 35 (5.26) — only
+  - J Rasalhague → J Mercury Dec 37.9935 38 (45.90) — only
+  - J Rasalhague → J Chiron Dec 27.0084 27 (33.65) — only
+  - J Rasalhague → J Pallas RA 35.9908 36 (29.30) [360/10] — only
+  - J Rasalhague → J Uranus Dec 31.9829 32 (2.12) — only
+  - H RA midpoints: Uranus = Orcus 83.33 (far, far side); Vesta = Orcus 64.48 (far, far side)
+  - J RA midpoints: Uranus = Chiron 35.22 (near, between)
+- **Sadalmelik** (sky Sun)
+  - H Sadalmelik → H Mercury Dec 20.0082 20 (34.58) [360/18] — only
+  - J Sadalmelik → J Pallas Dec 0.0367 conj (77.03) — only
+  - J Sadalmelik → J Haumea RA 135.9964 136 (67.47) — only
+  - J Sadalmelik → J Transpluto RA 176.0052 176 (54.89) — only
+  - J Sadalmelik → J Gonggong RA 0.6948 conj (28.82) — also: 2 Flying Instructor, 3 Chase The Dollar, 4 Deluxe Music, 5 Carn A Chlamain, 7 Red Tornado
+  - J Sadalmelik → J Mars RA 42.0097 42 (26.53) — only
+  - J Sadalmelik → J Orcus Dec 0.2158 conj (7.88) — also: 5 Carn A Chlamain
+  - H RA midpoints: Pluto = Vesta 94.37 (near, between); Uranus = Pluto 78.87 (near, between); Mercury = Vesta 61.65 (near, between); Venus = Eris 51.28 (near, between); Mercury = Uranus 45.06 (near, between)
+  - H Dec midpoints: Pallas = Ketu 39.58 (between); Pallas = Eris 14.86 (between)
+  - J RA midpoints: Mars = Saturn 75.74 (near, between); Orcus = Rahu 44.38 (far, far side)
+  - J Dec midpoints: Sedna = Ketu 13.24 (between)
+- **Sadalsuud** (sky Sun)
+  - H Sadalsuud → H Chiron Dec 4.8546 3×φ (96.78) — only
+  - H Sadalsuud → H Orcus RA 171.0135 171 (10.70) — only
+  - J Sadalsuud → J Pluto RA 77.0002 77 (98.06) — only
+  - J Sadalsuud → J Makemake Dec 38.0060 38 (48.79) — only
+  - J Sadalsuud → J Ketu Dec 0.1550 conj (23.35) — only
+  - J Sadalsuud → J Pluto Dec 3.9865 4 (10.52) [360/90] [sky number: S Sun → Sadalsuud RA 4] — only
+  - J Sadalsuud → J Ceres RA 18.0141 18 (8.80) [360/20] — only
+  - H RA midpoints: Sun = Ceres 27.97 (near, between); Sun = Gonggong 13.36 (near, between)
+  - H Dec midpoints: Juno = Eris 61.66 (between); Venus = Transpluto 45.59 (between); Sun = Sedna 29.58 (between); Juno = Ketu 28.44 (between); Jupiter = Quaoar 28.03 (between); Mars = Rahu 23.21 (between)
+  - J RA midpoints: Mercury = Saturn 48.39 (near, between); Pallas = Ketu 38.05 (near, between); Neptune = Ketu 20.66 (near, between)
+  - J Dec midpoints: Venus = Transpluto 49.83 (between); Jupiter = Rahu 36.15 (between)
+- **Castor** (sky Moon)
+  - J Castor → J Venus Dec 55.9864 56 (10.39) — only
+  - J Castor → J Haumea Dec 10.9857 11 (8.00) — only
+  - J Castor → J Saturn RA 99.9840 100 (3.96) — only
+  - H RA midpoints: Saturn = Ceres 72.04 (far, far side); Saturn = Gonggong 59.34 (far, far side); Sedna = Rahu 57.21 (near, between); Uranus = Haumea 53.36 (far, far side); Pluto = Pallas 45.77 (far, far side); Vesta = Haumea 43.93 (far, far side); Jupiter = Sedna 34.95 (near, between)
+  - J RA midpoints: Pluto = Ceres 57.69 (far, far side)
+- **Facies** (sky Moon)
+  - H Facies → H Neptune RA 61.0109 61 (20.64) — only
+  - H Facies → H Ceres RA 55.9869 56 (11.83) — only
+  - J Facies → J Ceres RA 61.8077 100×φ^-1 (97.26) [sky number: S Sun → Aculeus RA 100×φ^-1] — only
+  - J Facies → J Jupiter RA 40.4560 25×φ (70.50) — only
+  - J Facies → J Juno RA 102.0098 102 (25.87) [sky number: S Jupiter → Meissa RA 102] — only
+  - J Facies → J Juno Dec 21.9898 22 (24.06) — only
+  - J Facies → J Venus Dec 0.1943 conj (12.41) — only
+  - H RA midpoints: Eris = Rahu 82.04 (far, far side); Jupiter = Eris 68.32 (far, far side); Juno = Gonggong 35.54 (near, between)
+- **Fomalhaut** (sky Moon)
+  - H Fomalhaut → H Mars RA 122.9198 φ^10 (77.95) — only
+  - J Fomalhaut → J Rahu RA 177.7849 177.778 (99.45) — only
+  - H RA midpoints: Gonggong = Ketu 13.19 (near, between); Ceres = Ketu 3.07 (near, between)
+- **Galactic Centre** (sky Moon)
+  - J Galactic Centre → J Chiron Dec 14.5606 9×φ (89.54) — only
+  - J Galactic Centre → J Sun Dec 7.0012 7 (88.38) — only
+  - J Galactic Centre → J Saturn Dec 31.9961 32 (64.81) — only
+  - J Galactic Centre → J Sedna RA 139.1383 86×φ (37.19) — also: 5 Carn A Chlamain
+  - H RA midpoints: Sun = Mars 85.37 (near, between); Sun = Juno 60.81 (near, between)
+  - J RA midpoints: Mars = Quaoar 38.19 (near, between)
+- **Spica** (sky Moon)
+  - J Spica → J Saturn Dec 14.1480 14.14 (84.16) — only
+  - J Spica → J Makemake RA 22.9966 23 (68.57) — only
+  - J Spica → J Uranus RA 106.9947 107 (53.80) — only
+  - J Spica → J Gonggong RA 129.4555 80×φ (36.76) — only
+  - H RA midpoints: Chiron = Sedna 93.56 (far, far side)
+  - H Dec midpoints: Gonggong = Orcus 93.45 (between); Venus = Vesta 60.51 (between); Neptune = Gonggong 13.80 (between)
+  - J RA midpoints: Vesta = Eris 46.62 (far, far side)
+  - J Dec midpoints: Sun = Pallas 82.79 (between); Neptune = Vesta 73.97 (between); Jupiter = Ketu 73.61 (between); Mercury = Saturn 58.71 (between); Eris = Quaoar 44.33 (between); Sun = Orcus 34.99 (between); Neptune = Juno 34.68 (between); Chiron = Eris 25.70 (between)
+### Organised
+- **By body** (3 or more cells): Jupiter 13 (HJ); Ceres 8 (HJ); Mercury 6 (HJ); Gonggong 6 (HJ); Pluto 6 (J); Saturn 4 (HJ); Pallas 4 (HJ); Uranus 4 (HJ); Vesta 4 (HJ); Mars 4 (HJ); Orcus 4 (HJ); Ketu 4 (HJ); Haumea 4 (HJ); Chiron 4 (HJ); Eris 3 (H); Transpluto 3 (HJ); Neptune 3 (H); Makemake 3 (HJ); Sun 3 (HJ); Venus 3 (HJ); Juno 3 (J)
+- **By number** (across layers or charts): 7 (whole) ×3; 25×φ (golden) ×3; 166.667 (ninth) ×2 =SKY; 16.6667 (ninth) ×2; 23 (whole) ×2; 56 (whole) ×2; 28 (whole) ×2; 102 (whole) ×2 =SKY
+- **By family** (cells >= 50): whole 20, golden 9, ninth 7, phi power 5, conj 4, sqrt2 2
+- **Threads** (>= 4 cells on one body, both charts, >= 2 layers): Jupiter 10 (H 3, J 7; same body, star rows, top rows); Mercury 4 (H 2, J 2; same body, top rows)
+- **Flags held**: line star carries a sky number; locked line star on natal Jupiter
+
+## 2 Flying Instructor / Dylan Hogan
+### 1. Same body
+- S Pluto → H Pluto Dec 1.0099 1 (25.32) [360/360] — also: 3 Chase The Dollar, 5 Carn A Chlamain
+- S Pallas → H Pallas Dec 1.0190 1 (0.23) [360/360] — only
+- S Venus → H Venus RA 90.0206 90 (loose) [360/4] — only
+- S Jupiter → H Jupiter RA 111.0856 111.111 (loose) — only
+- S Chiron → H Chiron RA 10.9724 11 (loose) — only
+- S Chiron → H Chiron Dec 3.2294 2×φ (loose) — only
+- S Ceres → H Ceres Dec 11.1655 11.1111 (loose) — only
+- S Mercury → J Mercury Dec 12.9887 13 (18.81) [sky number: S Sun → Sadalmelik Dec 13] — only
+- S Chiron → J Chiron RA 163.0124 163 (14.35) — only
+- S Ceres → J Ceres RA 79.0161 79 (3.79) — only
+- S Sun → J Sun RA 111.3434 111.111 (loose) — only
+- S Mars → J Mars Dec 41.3567 41.4 (loose) — only
+- S Pluto → J Pluto RA 61.4578 38×φ (loose) — only
+- S Vesta → J Vesta Dec 40.4467 25×φ (loose) — only
+- S Haumea → J Haumea Dec 6.1843 10×φ^-1 (loose) — only
+- S Orcus → J Orcus Dec 13.3095 13.3333 (loose) — only
+### 5. MATCH
+- H EXACT: S Sun → Sadalsuud RA 3.997964 | H Alkes Saturn Dec 4.003262 4 (70.04)
+- H EXACT: S Sun → Sadalsuud RA 3.997964 | H Nunki Saturn Dec 3.992881 4 (41.48)
+- H EXACT: S Sun → Rasalhague Dec 25.88243 | H Deneb Gonggong RA 25.882032 16×φ (63.8)
+- H CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | S Jupiter → H body Juno RA 0.05828 conj (92.38)
+- H EXACT: S Moon → Facies RA 166.681283 | H Zubenelgenubi Sedna RA 166.622923 166.667 (96.25)
+- H EXACT: S Moon → Spica RA 88.886651 | H Antares Gonggong RA 88.881168 88.8889 (94.44)
+- H EXACT: S Moon → Saturn RA 152.997524 | H Galactic Centre Pallas RA 152.990185 153 (25.93)
+- H EXACT: S Moon → Neptune RA 119.740762 | H Regulus Quaoar RA 119.74777 74×φ (34.86)
+- H EXACT: S Moon → Venus RA 173.140846 | H Zubeneschamali Sedna RA 173.154517 107×φ (5.34)
+- J EXACT: S Sun → Sadalmelik Dec 13.004799 | J Unukalhai Pluto Dec 12.987738 13 (14.97)
+- J EXACT: S Sun → Sadalmelik Dec 13.004799 | J Diadem Sedna Dec 13.018374 13 (0.66)
+- J EXACT: S Sun → Alkaid RA 119.99489 | J Galactic Centre Transpluto RA 120.012955 120 (12.41)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | S Jupiter → J body Pallas Dec 16.666057 16.6667 (99.48)
+- J EXACT: S Moon → Galactic Centre RA 153.999124 | J Markab Haumea RA 154.011191 154 (19.4)
+- J EXACT: S Moon → Fomalhaut RA 128.004815 | J Sirius Jupiter RA 127.993343 128 (44.51)
+- J EXACT: S Moon → Neptune RA 119.740762 | J Mirach Mars RA 119.739158 74×φ (73.36)
+- J EXACT: S Moon → Venus RA 173.140846 | J Pleiades Juno RA 173.126638 107×φ (82.32)
+- J EXACT: S Moon → Venus RA 173.140846 | J Deneb Ceres RA 173.125643 107×φ (76.84)
+- J EXACT: S Moon → Venus RA 173.140846 | J Jupiter → J body Ketu RA 173.141817 107×φ (38.89)
+### 6. T1 (horse Jupiter)
+- none
+### 6. T2 (jockey Jupiter)
+- none
+### 7. T24 top rows
+- S Sun → H Eris Dec 11.0919 φ^5 (93.87) — only
+- S Jupiter → H Juno RA 0.0583 conj (92.38) — only
+- S Sun → H Uranus RA 58.0016 58 (84.61) — only
+- S Mars → H Jupiter RA 55.0042 55 (62.22) — only
+- S Sun → H Haumea RA 113.2548 70×φ (58.45) — only
+- S Jupiter → J Pallas Dec 16.6661 16.6667 (99.48) — only
+- S Alkaid → J Jupiter Dec 66.6679 66.6667 (98.96) — only
+- S Sun → J Makemake RA 151.9959 152 (63.11) — only
+- S Eris → J Jupiter Dec 15.9947 16 (54.28) — only
+- S Jupiter → J Juno Dec 0.2621 conj (1.60) — also: 6 Flamingo Rose
+### 8. T24 star rows
+- **Alphard** (sky Jupiter)
+  - H Alphard → H Saturn RA 137.0014 137 (86.80) — only
+  - H Alphard → H Juno RA 160.1775 99×φ (57.44) — only
+  - H Alphard → H Pluto RA 150.4977 93×φ (13.36) — only
+  - H Alphard → H Uranus RA 117.0170 117 (2.20) — only
+  - J Alphard → J Makemake RA 32.9906 33 (28.05) — only
+  - J Alphard → J Eris Dec 0.2051 conj (10.01) — only
+  - H RA midpoints: Ceres = Transpluto 77.60 (near, between); Ceres = Orcus 17.00 (near, between)
+  - H Dec midpoints: Sun = Jupiter 54.30 (between); Neptune = Pallas 39.41 (between); Juno = Gonggong 7.49 (between)
+  - J RA midpoints: Sedna = Quaoar 93.26 (far, far side); Ceres = Transpluto 56.86 (near, between); Mars = Transpluto 45.77 (near, between)
+  - J Dec midpoints: Uranus = Sedna 44.71 (between); Chiron = Rahu 31.17 (between)
+- **Meissa** (sky Jupiter)
+  - H Meissa → H Vesta RA 177.7746 177.778 (99.75) — only
+  - H Meissa → H Mercury RA 69.9940 70 (48.97) — only
+  - H Meissa → H Uranus Dec 0.1648 conj (20.30) — also: 3 Chase The Dollar
+  - J Meissa → J Quaoar RA 155.5821 155.556 (97.49) — only
+  - H RA midpoints: Mercury = Transpluto 53.16 (near, between); Venus = Orcus 43.11 (near, between)
+  - H Dec midpoints: Juno = Makemake 94.44 (between); Ceres = Gonggong 37.80 (between)
+- **Aculeus** (sky Sun)
+  - H Aculeus → H Ceres Dec 64.0027 64 (74.89) — only
+  - H Aculeus → H Vesta RA 0.9257 conj (14.66) — only
+  - H Aculeus → H Sedna RA 151.0164 151 (3.33) — only
+  - H Aculeus → H Eris Dec 30.0179 30 (1.15) [360/12] — only
+  - H Aculeus → H Jupiter Dec 14.9800 15 (0.00) [360/24] — only
+  - J Aculeus → J Neptune Dec 11.0024 11 (77.20) — also: 7 Red Tornado
+  - J Aculeus → J Ceres RA 127.8465 79×φ (10.60) — only
+  - J Aculeus → J Mercury RA 64.9831 65 (2.38) — only
+  - H RA midpoints: Haumea = Ketu 63.44 (near, between)
+  - J RA midpoints: Mercury = Gonggong 91.57 (near, between); Saturn = Haumea 65.99 (near, between); Neptune = Pluto 62.11 (near, between); Eris = Transpluto 42.62 (far, far side)
+- **Alkaid** (sky Sun)
+  - H Alkaid → H Rahu RA 70.7150 70.7 (97.58) — only
+  - H Alkaid → H Gonggong Dec 61.4844 38×φ (94.36) — only
+  - H Alkaid → H Mars Dec 72.8183 45×φ (62.65) — also: 1 The Dancing Poet
+  - H Alkaid → H Uranus RA 177.9927 110×φ (52.26) — only
+  - H Alkaid → H Saturn RA 72.0111 72 (19.78) [360/5] — only
+  - H Alkaid → H Neptune RA 138.9830 139 (2.24) — only
+  - H Alkaid → H Ketu Dec 66.0185 66 (0.55) — only
+  - J Alkaid → J Makemake RA 31.9909 32 (29.97) — only
+  - J Alkaid → J Ketu Dec 33.0092 33 (29.39) — only
+  - J Alkaid → J Vesta Dec 30.0155 30 (5.09) [360/12] — only
+  - H RA midpoints: Chiron = Sedna 48.30 (far, far side)
+  - J RA midpoints: Makemake = Quaoar 48.12 (near, between); Pluto = Makemake 27.50 (near, between); Haumea = Rahu 11.25 (near, between)
+- **Deneb Algedi** (sky Sun)
+  - H Deneb Algedi → H Haumea Dec 32.9881 33 (16.40) — only
+  - J Deneb Algedi → J Rahu Dec 0.1777 conj (16.63) — only
+  - H RA midpoints: Mercury = Saturn 35.90 (near, between); Venus = Saturn 32.27 (near, between)
+  - H Dec midpoints: Quaoar = Ketu 62.84 (between); Saturn = Orcus 62.13 (between); Saturn = Pallas 17.75 (between)
+  - J RA midpoints: Vesta = Haumea 90.26 (far, far side)
+  - J Dec midpoints: Venus = Saturn 48.27 (between); Mercury = Pallas 36.60 (between); Saturn = Neptune 31.74 (between); Pluto = Pallas 27.48 (between)
+- **Rasalhague** (sky Sun)
+  - H Rasalhague → H Makemake Dec 12.2252 12.2222 (95.90) — only
+  - H Rasalhague → H Orcus RA 110.9992 111 (92.15) — only
+  - H Rasalhague → H Juno RA 77.9888 78 (19.32) — only
+  - H Rasalhague → H Mercury RA 110.0554 68×φ (1.03) — only
+  - J Rasalhague → J Uranus RA 31.0031 31 (71.41) — only
+  - J Rasalhague → J Pallas RA 155.0032 155 (70.67) — only
+  - J Rasalhague → J Pallas Dec 37.9965 38 (67.81) — only
+  - J Rasalhague → J Eris Dec 21.0139 21 (9.33) — only
+  - J Rasalhague → J Orcus RA 129.0145 129 (7.43) — only
+  - H RA midpoints: Mercury = Transpluto 61.70 (far, far side); Venus = Orcus 44.01 (far, far side); Mercury = Orcus 42.02 (far, far side)
+  - J Dec midpoints: Eris = Makemake 48.26 (between)
+- **Sadalmelik** (sky Sun)
+  - H Sadalmelik → H Ceres RA 158.9952 159 (57.75) — only
+  - H Sadalmelik → H Sun Dec 0.1499 conj (25.02) — only
+  - H Sadalmelik → H Venus Dec 5.9828 6 (1.91) [360/60] — only
+  - H Sadalmelik → H Saturn Dec 21.9818 22 (0.78) — only
+  - J Sadalmelik → J Vesta RA 129.9875 130 (13.99) — only
+  - J Sadalmelik → J Rahu Dec 15.9862 16 (9.57) — only
+  - J Sadalmelik → J Gonggong RA 1.4616 conj (0.07) — also: 1 The Dancing Poet, 3 Chase The Dollar, 4 Deluxe Music, 5 Carn A Chlamain, 7 Red Tornado
+  - H RA midpoints: Saturn = Uranus 34.99 (near, between); Neptune = Ketu 11.74 (near, between)
+  - H Dec midpoints: Vesta = Haumea 92.84 (between); Jupiter = Rahu 72.16 (between); Vesta = Rahu 58.67 (between); Jupiter = Haumea 40.27 (between); Uranus = Pallas 38.36 (between); Mercury = Orcus 29.19 (between)
+  - J Dec midpoints: Sun = Transpluto 93.00 (between); Quaoar = Transpluto 87.07 (between); Uranus = Haumea 72.92 (between)
+- **Sadalsuud** (sky Sun)
+  - H Sadalsuud → H Uranus RA 61.9984 62 (84.37) — only
+  - H Sadalsuud → H Neptune RA 22.9887 23 (18.75) — only
+  - H Sadalsuud → H Saturn RA 43.9832 44 (2.61) — only
+  - J Sadalsuud → J Makemake RA 148.0043 148 (61.36) — only
+  - J Sadalsuud → J Pluto Dec 0.9903 1 (26.72) [360/360] — only
+  - H RA midpoints: Mercury = Quaoar 84.60 (near, between); Mercury = Mars 52.74 (near, between)
+  - H Dec midpoints: Venus = Ketu 64.23 (between); Saturn = Transpluto 63.35 (between)
+- **Castor** (sky Moon)
+  - H Castor → H Ceres Dec 0.1379 conj (29.18) — only
+  - H RA midpoints: Mercury = Haumea 87.94 (far, far side); Jupiter = Chiron 69.86 (far, far side); Mars = Ketu 69.08 (far, far side); Quaoar = Ketu 49.52 (far, far side)
+  - J RA midpoints: Uranus = Neptune 90.33 (far, far side)
+- **Facies** (sky Moon)
+  - H Facies → H Sedna RA 137.0013 137 (87.37) — only
+  - H Facies → H Saturn RA 0.1964 conj (75.53) — also: 3 Chase The Dollar, 5 Carn A Chlamain
+  - H Facies → H Juno Dec 19.0038 19 (65.97) — only
+  - J Facies → J Mercury RA 79.0010 79 (90.69) — only
+  - J Facies → J Transpluto RA 132.6971 82×φ (18.88) — only
+  - H RA midpoints: Pluto = Vesta 66.57 (near, between)
+  - J RA midpoints: Eris = Makemake 58.70 (far, far side)
+- **Fomalhaut** (sky Moon)
+  - H Fomalhaut → H Pallas RA 74.9984 75 (84.51) — only
+  - H Fomalhaut → H Makemake RA 148.8501 92×φ (51.90) — only
+  - H Fomalhaut → H Pluto RA 52.0102 52 (24.24) — only
+  - H Fomalhaut → H Neptune RA 1.4654 conj (0.05) — also: 4 Deluxe Music, 6 Flamingo Rose
+  - J Fomalhaut → J Mercury Dec 23.0038 23 (66.02) — only
+  - J Fomalhaut → J Makemake Dec 63.0105 63 (22.60) — only
+  - J Fomalhaut → J Rahu RA 121.9895 122 (22.43) — only
+  - J Fomalhaut → J Ketu RA 58.0105 58 (22.43) — only
+  - J Fomalhaut → J Transpluto RA 161.9840 162 (3.99) — only
+  - J Fomalhaut → J Vesta RA 117.0198 117 (0.01) — only
+  - H RA midpoints: Sedna = Quaoar 39.49 (near, between)
+  - J RA midpoints: Mars = Haumea 57.69 (far, far side); Ceres = Haumea 54.94 (far, far side)
+- **Galactic Centre** (sky Moon)
+  - H Galactic Centre → H Vesta RA 0.4076 conj (53.04) — only
+  - H Galactic Centre → H Pallas RA 152.9902 153 (25.93) [sky number: S Moon → Saturn RA 153] — only
+  - H Galactic Centre → H Neptune Dec 21.9817 22 (0.73) — only
+  - H Galactic Centre → H Pluto RA 25.9816 26 (0.68) — only
+  - H Galactic Centre → H Ceres RA 135.9804 136 (0.03) — only
+  - J Galactic Centre → J Uranus Dec 7.0003 7 (96.60) — only
+  - J Galactic Centre → J Transpluto RA 120.0130 120 (12.41) [360/3] [sky number: S Sun → Alkaid RA 120] — only
+  - J Galactic Centre → J Rahu RA 43.9864 44 (10.32) — only
+  - J Galactic Centre → J Ketu RA 136.0136 136 (10.32) — only
+  - J Galactic Centre → J Gonggong Dec 10.0141 10 (8.58) [360/36] — only
+  - J RA midpoints: Uranus = Pluto 88.29 (near, between); Neptune = Quaoar 20.36 (near, between)
+- **Spica** (sky Moon)
+  - H Spica → H Ketu RA 114.8734 71×φ (61.11) — only
+  - H Spica → H Sun Dec 10.9911 11 (30.73) — only
+  - H Spica → H Gonggong Dec 1.0112 1 (19.36) [360/360] — only
+  - J Spica → J Saturn Dec 0.0126 conj (91.78) — only
+  - J Spica → J Quaoar Dec 3.0038 3 (65.95) [360/120] — only
+  - J Spica → J Sedna RA 156.9350 97×φ (31.06) — only
+  - J Spica → J Jupiter RA 27.9911 28 (30.81) — only
+  - J Spica → J Sun Dec 2.9880 3 (15.90) [360/120] — only
+  - J Spica → J Mercury RA 1.1975 conj (4.07) — only
+  - H RA midpoints: Ceres = Quaoar 68.30 (near, between); Vesta = Rahu 60.57 (near, between); Neptune = Sedna 52.53 (far, far side); Mars = Ceres 45.30 (near, between)
+  - H Dec midpoints: Juno = Vesta 73.87 (between); Sun = Saturn 50.06 (between); Jupiter = Juno 40.53 (between); Pallas = Gonggong 37.93 (between); Gonggong = Orcus 20.37 (between); Neptune = Quaoar 14.18 (between)
+  - J Dec midpoints: Neptune = Chiron 27.84 (between); Sun = Eris 0.43 (between); Eris = Quaoar 0.02 (between)
+### Organised
+- **By body** (3 or more cells): Ceres 7 (HJ); Uranus 7 (HJ); Vesta 7 (HJ); Makemake 7 (HJ); Mercury 7 (HJ); Jupiter 6 (HJ); Pluto 6 (HJ); Pallas 6 (HJ); Saturn 6 (HJ); Juno 5 (HJ); Neptune 5 (HJ); Rahu 5 (HJ); Ketu 5 (HJ); Eris 4 (HJ); Gonggong 4 (HJ); Sun 4 (HJ); Chiron 3 (HJ); Haumea 3 (HJ); Sedna 3 (HJ); Orcus 3 (HJ); Transpluto 3 (J)
+- **By number** (across layers or charts): 1 (whole) ×4; 11 (whole) ×3; 33 (whole) ×3; 111.111 (ninth) ×2; 58 (whole) ×2; 30 (whole) ×2; 38×φ (golden) ×2; 117 (whole) ×2; 136 (whole) ×2; 44 (whole) ×2; 23 (whole) ×2; 79 (whole) ×2; 16 (whole) ×2
+- **By family** (cells >= 50): whole 21, golden 7, ninth 5, conj 4, phi power 1, sqrt2 1
+- **Threads** (>= 4 cells on one body, both charts, >= 2 layers): Pallas 5 (H 2, J 3; same body, star rows, top rows); Uranus 5 (H 3, J 2; star rows, top rows); Jupiter 4 (H 2, J 2; same body, top rows); Ceres 4 (H 3, J 1; same body, star rows); Makemake 4 (H 2, J 2; star rows, top rows)
+- **Flags held**: natal body on a strong line star
+
+## 3 Chase The Dollar / Rossa Ryan
+### 1. Same body
+- S Vesta → H Vesta RA 18.8874 18.8889 (98.92) — only
+- S Uranus → H Uranus RA 13.0102 13 (23.91) [sky number: S Sun → Sadalmelik Dec 13] — only
+- S Pluto → H Pluto Dec 1.0176 1 (1.43) [360/360] — also: 2 Flying Instructor, 5 Carn A Chlamain
+- S Sun → H Sun Dec 17.8550 φ^6 (loose) — only
+- S Juno → H Juno RA 42.3887 10×φ^3 (loose) — only
+- S Orcus → H Orcus RA 4.2302 φ^3 (loose) — only
+- S Quaoar → H Quaoar RA 4.8554 3×φ (loose) — only
+- S Transpluto → H Transpluto RA 1.6622 1.66667 (loose) — only
+- S Sun → J Sun RA 135.9982 136 (83.22) — only
+- S Juno → J Juno Dec 10.0060 10 (49.28) [360/36] — only
+- S Mercury → J Mercury RA 166.8627 166.667 (loose) [sky number: S Moon → Facies RA 166.667] — only
+- S Venus → J Venus RA 176.0231 176 (loose) — only
+- S Mars → J Mars RA 176.6814 177.778 (loose) — only
+- S Pallas → J Pallas RA 151.9767 152 (loose) — only
+- S Rahu → J Rahu RA 61.5000 38×φ (loose) — only
+- S Ketu → J Ketu RA 61.5000 38×φ (loose) — only
+### 5. MATCH
+- H EXACT: S Sun → Sadalsuud RA 3.997964 | H Deneb Algedi Gonggong Dec 4.003383 4 (69.03)
+- H EXACT: S Sun → Sadalmelik Dec 13.004799 | H Diadem Sun Dec 12.999447 13 (94.54)
+- H EXACT: S Sun → Sadalmelik Dec 13.004799 | H Acubens Makemake Dec 13.007768 13 (37.4)
+- H CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | H Deneb Algedi Gonggong Dec 4.003383 4 (69.03)
+- H CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | H Deneb Algedi Ketu Dec 0.777767 0.777778 (99.12)
+- H EXACT: S Sun → Quaoar RA 50.15188 | H Procyon Pallas RA 50.156339 31×φ (83.92)
+- H EXACT: S Moon → Facies RA 166.681283 | H Zubenelgenubi Venus RA 166.637612 166.667 (97.51)
+- H EXACT: S Moon → Facies RA 166.681283 | H Scheat Orcus RA 166.62648 166.667 (96.56)
+- H EXACT: S Moon → Fomalhaut RA 128.004815 | H Algorab Ketu RA 128.007401 128 (39.68)
+- J EXACT: S Jupiter → Juno RA 37.005591 | J Antares Pallas Dec 36.982872 37 (2.06)
+- J EXACT: S Jupiter → Juno RA 37.005591 | J Murzim Jupiter RA 36.980625 37 (0.1)
+- J EXACT: S Sun → Aculeus RA 61.802606 | J Menkar Mercury RA 61.805547 100×φ^-1 (98.61)
+- J EXACT: S Sun → Sadalsuud RA 3.997964 | J Hamal Jupiter Dec 3.995739 4 (61.93)
+- J EXACT: S Sun → Rasalhague Dec 25.88243 | J Bellatrix Makemake Dec 25.883123 16×φ (69.31)
+- J EXACT: S Sun → Sadalmelik Dec 13.004799 | J Rigel Ketu Dec 13.000626 13 (93.84)
+- J EXACT: S Sun → Sadalmelik Dec 13.004799 | J Rasalhague Pluto RA 12.990391 13 (27)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | J Deneb Algedi Jupiter Dec 35.590804 22×φ (66.64)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | J Deneb Algedi Pluto RA 76.015594 φ^9 (98.72)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | J Deneb Algedi Transpluto RA 179.421152 10×φ^6 (95.25)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | S Jupiter → J body Eris Dec 2.222185 2.22222 (99.49)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | S Jupiter → J body Makemake Dec 41.000598 41 (94.11)
+- J EXACT: S Sun → Quaoar RA 50.15188 | J Diadem Transpluto RA 50.15451 31×φ (73.89)
+- J EXACT: S Moon → Facies RA 166.681283 | J Procyon Neptune RA 166.690533 166.667 (97.95)
+- J EXACT: S Moon → Facies RA 166.681283 | J Sualocin Rahu RA 166.613618 166.667 (95.45)
+- J EXACT: S Moon → Fomalhaut RA 128.004815 | J Zosma Ketu RA 128.003344 128 (69.36)
+- J EXACT: S Moon → Mars Dec 48.542267 | J Ankaa Ceres Dec 48.548557 30×φ (58.84)
+- J EXACT: S Moon → Saturn RA 152.997524 | J Menkent Jupiter RA 152.984414 153 (4.87)
+- J EXACT: S Moon → Neptune RA 119.740762 | J Zubeneschamali Venus RA 119.723358 74×φ (42.93)
+### 6. T1 (horse Jupiter)
+- none
+### 6. T2 (jockey Jupiter)
+- J Jupiter → J star Deneb Algedi Dec 35.5908 22×φ (66.64) — only
+### 7. T24 top rows
+- S Sun → H Chiron Dec 16.0033 16 (69.92) — only
+- S Jupiter → J Eris Dec 2.2222 2.22222 (99.49) — only
+- S Deneb Algedi → J Jupiter Dec 35.5961 22×φ (96.06) — only
+- S Jupiter → J Makemake Dec 41.0006 41 (94.11) — only
+- S Sun → J Sedna Dec 18.8804 18.8889 (93.88) — only
+- S Moon → J Quaoar RA 133.9988 134 (88.01) — only
+- S Sun → J Haumea RA 131.0634 81×φ (84.22) — only
+- S Sun → J Sun RA 135.9982 136 (83.22) — only
+- S Sun → J Uranus RA 4.0048 4 (57.89) [360/90] [sky number: S Sun → Sadalsuud RA 4] — only
+- S Moon → J Ceres Dec 18.9948 19 (54.62) — only
+- S Sedna → J Jupiter RA 0.3925 conj (54.52) — only
+- S Rahu → J Jupiter Dec 0.0909 conj (48.60) — only
+- S Ceres → J Jupiter RA 0.4724 conj (46.93) — only
+### 8. T24 star rows
+- **Alphard** (sky Jupiter)
+  - H Alphard → H Mercury Dec 16.0152 16 (5.81) — only
+  - J Alphard → J Venus RA 32.3608 20×φ (99.30) — only
+  - J Alphard → J Sun RA 39.0120 39 (15.87) — only
+  - J Alphard → J Uranus RA 179.0151 179 (6.10) — only
+  - H RA midpoints: Ceres = Transpluto 52.51 (near, between); Ceres = Orcus 51.99 (near, between)
+  - J Dec midpoints: Pluto = Eris 10.28 (between)
+- **Meissa** (sky Jupiter)
+  - H Meissa → H Uranus Dec 0.0721 conj (57.71) — also: 2 Flying Instructor
+  - J Meissa → J Ketu RA 147.2509 91×φ (48.44) — only
+  - J Meissa → J Vesta Dec 32.0138 32 (9.55) — only
+  - H Dec midpoints: Chiron = Haumea 27.89 (between); Chiron = Rahu 18.95 (between)
+  - J RA midpoints: Haumea = Gonggong 44.61 (far, far side); Venus = Jupiter 33.30 (near, between)
+  - J Dec midpoints: Juno = Haumea 75.73 (between); Juno = Rahu 46.70 (between)
+- **Aculeus** (sky Sun)
+  - J Aculeus → J Venus RA 155.5578 155.556 (99.79) — only
+  - J Aculeus → J Saturn RA 150.0069 150 (42.92) — only
+- **Alkaid** (sky Sun)
+  - H Alkaid → H Gonggong RA 129.4602 80×φ (21.04) — only
+  - H Alkaid → H Quaoar RA 64.9832 65 (2.49) — only
+  - J Alkaid → J Sun RA 104.0069 104 (43.11) — only
+  - J Alkaid → J Uranus RA 115.9901 116 (25.52) — only
+  - H RA midpoints: Chiron = Sedna 99.85 (far, far side); Mars = Rahu 55.85 (near, between)
+- **Deneb Algedi** (sky Sun)
+  - H Deneb Algedi → H Ketu Dec 0.7778 0.777778 (99.12) — only
+  - H Deneb Algedi → H Gonggong Dec 4.0034 4 (69.03) [360/90] [sky number: S Sun → Sadalsuud RA 4] — only
+  - H Deneb Algedi → H Makemake Dec 40.9939 41 (48.64) — only
+  - J Deneb Algedi → J Pluto RA 76.0156 φ^9 (98.72) — only
+  - J Deneb Algedi → J Transpluto RA 179.4212 10×φ^6 (95.25) — also: 7 Red Tornado
+  - J Deneb Algedi → J Jupiter Dec 35.5908 22×φ (66.64) — only
+  - J Deneb Algedi → J Ceres RA 139.1708 86×φ (14.91) — only
+  - H Dec midpoints: Saturn = Orcus 78.40 (between)
+  - J RA midpoints: Pallas = Orcus 68.55 (far, far side); Sedna = Quaoar 60.62 (near, between)
+  - J Dec midpoints: Uranus = Chiron 68.06 (between); Pluto = Ketu 55.57 (between)
+- **Rasalhague** (sky Sun)
+  - H Rasalhague → H Orcus RA 111.1700 111.111 (90.36) — only
+  - H Rasalhague → H Neptune Dec 19.4186 12×φ (86.77) — only
+  - H Rasalhague → H Sun RA 106.7960 66×φ (67.50) — only
+  - H Rasalhague → H Eris RA 121.9816 122 (0.62) — only
+  - J Rasalhague → J Orcus RA 126.0046 126 (59.41) — only
+  - J Rasalhague → J Sedna Dec 7.0070 7 (42.34) — only
+  - J Rasalhague → J Pluto RA 12.9904 13 (27.00) [sky number: S Sun → Sadalmelik Dec 13] — only
+  - J Rasalhague → J Uranus Dec 27.9898 28 (24.15) — only
+  - J Rasalhague → J Pallas Dec 2.0109 2 (20.69) [360/180] — only
+  - J Rasalhague → J Rahu RA 147.2109 91×φ (0.43) — only
+  - J RA midpoints: Venus = Jupiter 48.65 (far, far side); Haumea = Gonggong 38.31 (near, between)
+  - J Dec midpoints: Jupiter = Sedna 58.01 (between)
+- **Sadalmelik** (sky Sun)
+  - H Sadalmelik → H Chiron Dec 2.9988 3 (88.58) [360/120] — only
+  - H Sadalmelik → H Sedna Dec 8.0032 8 (70.16) [360/45] — only
+  - H Sadalmelik → H Haumea RA 117.9846 118 (5.18) — only
+  - J Sadalmelik → J Mercury RA 135.9228 84×φ (57.02) — only
+  - J Sadalmelik → J Pallas RA 176.0134 176 (11.03) — only
+  - J Sadalmelik → J Gonggong RA 1.1083 conj (6.82) — also: 1 The Dancing Poet, 2 Flying Instructor, 4 Deluxe Music, 5 Carn A Chlamain, 7 Red Tornado
+  - H RA midpoints: Sun = Pluto 75.09 (near, between); Juno = Ketu 64.77 (near, between); Mercury = Pluto 49.95 (near, between)
+  - H Dec midpoints: Venus = Gonggong 88.97 (between); Vesta = Rahu 82.19 (between); Vesta = Haumea 63.76 (between); Mercury = Pallas 56.86 (between); Chiron = Juno 23.45 (between)
+  - J RA midpoints: Pallas = Transpluto 88.06 (far, far side); Mercury = Haumea 72.92 (far, far side)
+  - J Dec midpoints: Vesta = Haumea 96.02 (between); Vesta = Rahu 41.66 (between); Mercury = Neptune 40.63 (between); Pluto = Pallas 32.85 (between)
+- **Sadalsuud** (sky Sun)
+  - H Sadalsuud → H Juno RA 24.2785 15×φ (56.64) — only
+  - H Sadalsuud → H Quaoar RA 51.0113 51 (18.86) — only
+  - J Sadalsuud → J Uranus RA 0.0163 conj (97.84) — only
+  - J Sadalsuud → J Makemake RA 144.4143 144.444 (96.81) — only
+  - J Sadalsuud → J Mercury RA 144.4784 144.444 (96.40) — only
+  - J Sadalsuud → J Haumea Dec 27.0005 27 (95.52) — only
+  - J Sadalsuud → J Sun RA 139.9867 140 (11.33) — only
+  - H RA midpoints: Jupiter = Sedna 58.32 (far, far side)
+  - H Dec midpoints: Saturn = Transpluto 82.47 (between); Pallas = Juno 43.43 (between); Sun = Quaoar 40.90 (between)
+  - J RA midpoints: Mercury = Makemake 93.35 (far, far side); Orcus = Transpluto 50.24 (far, far side)
+  - J Dec midpoints: Chiron = Sedna 50.28 (between); Sedna = Gonggong 29.90 (between)
+- **Castor** (sky Moon)
+  - H Castor → H Gonggong Dec 44.0149 44 (6.58) — only
+  - H Castor → H Pallas RA 48.9829 49 (2.17) — only
+  - H Castor → H Rahu Dec 14.9807 15 (0.11) [360/24] — only
+  - H RA midpoints: Quaoar = Ketu 94.45 (far, far side); Jupiter = Chiron 68.49 (far, far side)
+- **Facies** (sky Moon)
+  - H Facies → H Ketu Dec 6.9970 7 (72.44) — only
+  - H Facies → H Saturn RA 0.2755 conj (66.64) — also: 2 Flying Instructor, 5 Carn A Chlamain
+  - H Facies → H Mars RA 0.2949 conj (64.54) — only
+  - H Facies → H Transpluto Dec 34.9840 35 (3.95) — only
+  - H Facies → H Pallas Dec 16.0162 16 (3.65) — only
+  - J Facies → J Saturn RA 135.9907 136 (28.75) — only
+  - J RA midpoints: Neptune = Pluto 35.23 (near, between)
+- **Fomalhaut** (sky Moon)
+  - J Fomalhaut → J Mercury RA 122.9567 φ^10 (88.88) — only
+  - J Fomalhaut → J Quaoar RA 98.0028 98 (74.24) — only
+  - J Fomalhaut → J Neptune Dec 11.0098 11 (25.79) — only
+  - H RA midpoints: Sedna = Quaoar 43.49 (near, between)
+- **Galactic Centre** (sky Moon)
+  - H Galactic Centre → H Venus RA 122.9430 φ^10 (84.73) — only
+  - H Galactic Centre → H Transpluto RA 113.2689 70×φ (63.61) — only
+  - H Galactic Centre → H Uranus Dec 39.0123 39 (14.93) — only
+  - J Galactic Centre → J Pallas RA 110.9868 10×φ^5 (71.66) — only
+  - J Galactic Centre → J Quaoar RA 20.0101 20 (24.58) [360/18] — only
+- **Spica** (sky Moon)
+  - H Spica → H Juno Dec 7.9973 8 (74.39) [360/45] — only
+  - H Spica → H Eris Dec 8.9872 9 (12.81) [360/40] — only
+  - J Spica → J Mars Dec 34.9992 35 (92.11) — only
+  - J Spica → J Rahu Dec 32.3634 20×φ (83.66) — only
+  - J Spica → J Pluto Dec 0.2097 conj (9.05) — only
+  - H RA midpoints: Neptune = Sedna 86.72 (far, far side); Ceres = Quaoar 78.16 (near, between); Juno = Sedna 47.91 (far, far side)
+  - H Dec midpoints: Neptune = Quaoar 85.63 (between)
+  - J RA midpoints: Mars = Vesta 78.14 (far, far side); Sun = Vesta 73.30 (far, far side); Pallas = Quaoar 38.13 (near, between)
+  - J Dec midpoints: Orcus = Ketu 30.26 (between)
+### Organised
+- **By body** (3 or more cells): Uranus 8 (HJ); Sun 7 (HJ); Quaoar 6 (HJ); Pallas 6 (HJ); Mercury 5 (HJ); Jupiter 5 (J); Pluto 4 (HJ); Juno 4 (HJ); Transpluto 4 (HJ); Gonggong 4 (HJ); Rahu 4 (HJ); Ketu 4 (HJ); Venus 4 (HJ); Orcus 3 (HJ); Makemake 3 (HJ); Mars 3 (HJ); Saturn 3 (HJ); Eris 3 (HJ); Sedna 3 (HJ); Haumea 3 (HJ)
+- **By number** (across layers or charts): 16 (whole) ×3; 136 (whole) ×3; 22×φ (golden) ×3; 13 (whole) ×2 =SKY; 18.8889 (ninth) ×2; 41 (whole) ×2; 4 (whole) ×2 =SKY; 35 (whole) ×2; 7 (whole) ×2; φ^10 (phi power) ×2; 39 (whole) ×2; 176 (whole) ×2
+- **By family** (cells >= 50): whole 16, golden 11, ninth 8, conj 5, phi power 5
+- **Threads** (>= 4 cells on one body, both charts, >= 2 layers): Sun 4 (H 2, J 2; same body, star rows, top rows); Uranus 4 (H 2, J 2; same body, star rows, top rows); Juno 4 (H 3, J 1; same body, star rows); Venus 4 (H 1, J 3; same body, star rows)
+- **Flags held**: line star carries a sky number; locked line star on natal Jupiter; natal body on a strong line star; same source on the same body, both charts
+
+## 4 Deluxe Music / Callum Rodriguez
+### 1. Same body
+- S Sun → H Sun Dec 9.7032 6×φ (loose) — only
+- S Jupiter → H Jupiter RA 141.5826 141.4 (loose) — only
+- S Eris → J Eris Dec 5.9988 6 (88.68) [360/60] — only
+- S Juno → J Juno RA 132.6862 82×φ (59.38) — only
+- S Haumea → J Haumea Dec 6.9903 7 (26.77) — only
+- S Quaoar → J Quaoar Dec 1.0122 1 (15.26) [360/360] — only
+- S Sedna → J Sedna Dec 3.0169 3 (2.39) [360/120] — also: 5 Carn A Chlamain
+- S Uranus → J Uranus Dec 33.3795 33.3333 (loose) — only
+- S Pluto → J Pluto Dec 14.1601 14.14 (loose) — only
+- S Rahu → J Rahu Dec 18.7587 18.8889 (loose) — only
+- S Haumea → J Haumea RA 24.0548 24.14 (loose) — only
+- S Makemake → J Makemake Dec 11.3474 7×φ (loose) — only
+- S Orcus → J Orcus RA 22.2721 22.2222 (loose) — only
+- S Ketu → J Ketu Dec 18.7587 18.8889 (loose) — only
+### 5. MATCH
+- H EXACT: S Jupiter → Juno RA 37.005591 | H Alpheratz Neptune Dec 37.002239 37 (78.86)
+- H EXACT: S Jupiter → Juno RA 37.005591 | H Rukbat Sun Dec 36.991923 37 (35.54)
+- H EXACT: S Sun → Sadalsuud RA 3.997964 | H Bellatrix Rahu Dec 3.997558 4 (77.07)
+- H EXACT: S Sun → Sadalsuud RA 3.997964 | H Sualocin Mars Dec 4.004164 4 (62.7)
+- H EXACT: S Sun → Rasalhague Dec 25.88243 | H Galactic Centre Pallas Dec 25.885626 16×φ (82.78)
+- H EXACT: S Sun → Sadalmelik Dec 13.004799 | H Meissa Mercury Dec 12.996289 13 (66.33)
+- H EXACT: S Sun → Sadalmelik Dec 13.004799 | H Rigel Pluto Dec 13.005739 13 (50.85)
+- H EXACT: S Sun → Sadalmelik Dec 13.004799 | H Deneb Algedi Pallas Dec 13.008631 13 (32.31)
+- H CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | H Deneb Algedi Orcus RA 174.74419 108×φ (79.64)
+- H EXACT: S Moon → Fomalhaut RA 128.004815 | H Sadalsuud Makemake RA 128.012745 128 (13.16)
+- H EXACT: S Moon → Saturn RA 152.997524 | H Alpheratz Rahu RA 153.004236 153 (62.13)
+- H EXACT: S Moon → Neptune RA 119.740762 | H Murzim Gonggong RA 119.73828 74×φ (78.08)
+- H EXACT: S Moon → Neptune RA 119.740762 | H Castor Pallas RA 119.714156 74×φ (13.75)
+- J EXACT: S Jupiter → Juno RA 37.005591 | J Rigel Sun RA 36.993589 37 (46.17)
+- J EXACT: S Jupiter → Juno RA 37.005591 | J Aculeus Neptune RA 36.991696 37 (34.2)
+- J EXACT: S Jupiter → Juno RA 37.005591 | S body → J Jupiter Venus RA 36.988505 37 (18.09)
+- J EXACT: S Sun → Sadalsuud RA 3.997964 | J Diadem Haumea RA 4.002922 4 (72.91)
+- J EXACT: S Sun → Sadalsuud RA 3.997964 | J Bellatrix Mercury Dec 3.984236 4 (4.49)
+- J EXACT: S Sun → Sadalsuud RA 3.997964 | J Sadalmelik Saturn Dec 3.984113 4 (4.23)
+- J EXACT: S Sun → Sadalmelik Dec 13.004799 | J Alpheratz Sun Dec 13.019226 13 (0.15)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | J Deneb Algedi Ceres RA 11.998687 12 (87.31)
+- J BODY: S Sun → Quaoar RA 50.15188 | J Jupiter → J body Quaoar Dec 1.000323 1 (96.79)
+- J EXACT: S Moon → Galactic Centre RA 153.999124 | J Zosma Jupiter RA 154.013383 154 (10.95)
+- J EXACT: S Moon → Neptune RA 119.740762 | J Algenib Quaoar RA 119.702517 74×φ (0.01)
+### 6. T1 (horse Jupiter)
+- none
+### 6. T2 (jockey Jupiter)
+- J Jupiter → J Quaoar Dec 1.0003 1 (96.79) [360/360] — only
+- J Jupiter → J star Sadalsuud RA 0.3456 conj (59.23) — only
+### 7. T24 top rows
+- S Moon → H Pluto RA 177.7684 177.778 (99.26) — only
+- S Moon → H Mars Dec 13.3365 13.3333 (96.25) — only
+- S Moon → H Sedna Dec 17.7723 17.7778 (95.73) — only
+- S Moon → H Eris RA 87.0007 87 (92.81) — only
+- S Moon → H Vesta RA 0.1230 conj (84.28) — only
+- S Moon → H Makemake Dec 0.0554 conj (66.45) — also: 1 The Dancing Poet, 5 Carn A Chlamain, 6 Flamingo Rose
+- S Mercury → H Jupiter RA 100.3104 62×φ (58.18) — only
+- S Spica → H Jupiter RA 1.1016 conj (7.06) — only
+- S Sun → J Haumea RA 133.3830 133.333 (94.04) — only
+- S Quaoar → J Jupiter Dec 0.0119 conj (92.25) — also: 7 Red Tornado
+- S Moon → J Gonggong Dec 42.9970 43 (72.59) — only
+- S Ceres → J Jupiter Dec 36.0033 36 (69.83) [360/10] — only
+- S Alkaid → J Jupiter Dec 64.7268 40×φ (69.02) — only
+- S Sadalsuud → J Jupiter RA 0.3409 conj (59.71) — only
+### 8. T24 star rows
+- **Alphard** (sky Jupiter)
+  - H Alphard → H Mars RA 113.2536 70×φ (53.16) — only
+  - H Alphard → H Uranus RA 121.0063 121 (46.92) — only
+  - H Alphard → H Eris RA 116.4881 72×φ (46.29) — only
+  - H Alphard → H Rahu Dec 19.0066 19 (45.20) — only
+  - J Alphard → J Neptune RA 160.1825 99×φ (83.01) — only
+  - J Alphard → J Mercury Dec 18.9937 19 (46.95) — only
+  - J Alphard → J Chiron Dec 1.9835 2 (3.11) [360/180] — only
+  - J Alphard → J Uranus Dec 10.0190 10 (0.25) [360/36] — only
+  - H RA midpoints: Pluto = Pallas 71.19 (far, far side); Pluto = Chiron 65.65 (far, far side)
+  - H Dec midpoints: Jupiter = Ketu 20.01 (between)
+  - J RA midpoints: Uranus = Gonggong 54.83 (far, far side); Chiron = Juno 52.74 (near, between)
+  - J Dec midpoints: Gonggong = Orcus 58.11 (between); Ceres = Orcus 40.40 (between)
+- **Meissa** (sky Jupiter)
+  - H Meissa → H Mercury Dec 12.9963 13 (66.33) [sky number: S Sun → Sadalmelik Dec 13] — only
+  - H Meissa → H Saturn RA 177.0091 177 (29.61) — only
+  - J Meissa → J Chiron RA 122.0154 122 (5.20) — only
+  - H RA midpoints: Vesta = Sedna 75.85 (near, between)
+  - H Dec midpoints: Uranus = Ceres 72.64 (between)
+  - J RA midpoints: Mars = Ketu 51.92 (near, between); Jupiter = Chiron 46.27 (far, far side)
+  - J Dec midpoints: Sun = Saturn 45.77 (between); Saturn = Pallas 36.19 (between)
+- **Aculeus** (sky Sun)
+  - H Aculeus → H Quaoar Dec 16.6604 16.6667 (94.60) — only
+  - H Aculeus → H Rahu RA 109.9866 110 (10.85) — only
+  - H Aculeus → H Ketu RA 70.0134 70 (10.85) — only
+  - J Aculeus → J Ceres Dec 14.5647 9×φ (85.80) — only
+  - J Aculeus → J Transpluto RA 118.9966 119 (69.02) — only
+  - J Aculeus → J Neptune RA 36.9917 37 (34.20) [sky number: S Jupiter → Juno RA 37] — only
+  - H RA midpoints: Makemake = Ketu 79.48 (near, between); Makemake = Gonggong 47.60 (near, between)
+  - J RA midpoints: Eris = Transpluto 50.66 (far, far side); Mars = Vesta 46.74 (far, far side)
+- **Alkaid** (sky Sun)
+  - H Alkaid → H Uranus RA 174.0046 174 (59.61) — only
+  - H Alkaid → H Juno RA 72.9855 73 (7.60) — only
+  - H Alkaid → H Makemake RA 12.0182 12 (0.77) [360/30] — only
+  - J Alkaid → J Ceres Dec 67.0017 67 (83.33) — only
+  - J Alkaid → J Uranus Dec 67.9936 68 (46.04) — only
+  - J Alkaid → J Juno RA 129.4307 80×φ (39.57) — only
+  - J Alkaid → J Chiron RA 1.0974 conj (7.20) — only
+  - J Alkaid → J Mercury Dec 38.9809 39 (0.19) — only
+  - H RA midpoints: Mars = Eris 74.36 (far, far side)
+  - J RA midpoints: Mars = Pluto 71.17 (near, between)
+- **Deneb Algedi** (sky Sun)
+  - H Deneb Algedi → H Orcus RA 174.7442 108×φ (79.64) — only
+  - H Deneb Algedi → H Pallas Dec 13.0086 13 (32.31) [sky number: S Sun → Sadalmelik Dec 13] — only
+  - H Deneb Algedi → H Saturn RA 59.9807 60 (0.11) [360/6] — only
+  - J Deneb Algedi → J Ceres RA 11.9987 12 (87.31) [360/30] — only
+  - J Deneb Algedi → J Makemake Dec 49.9847 50 (5.42) — only
+  - H Dec midpoints: Saturn = Ketu 34.35 (between); Pluto = Juno 17.00 (between)
+  - J RA midpoints: Venus = Quaoar 85.64 (near, between)
+  - J Dec midpoints: Gonggong = Quaoar 40.83 (between); Ceres = Quaoar 13.77 (between)
+- **Rasalhague** (sky Sun)
+  - H Rasalhague → H Venus RA 104.0011 104 (88.88) — only
+  - H Rasalhague → H Mercury RA 92.2216 57×φ (64.68) — only
+  - J Rasalhague → J Orcus Dec 12.0119 12 (16.22) [360/30] — only
+  - J Rasalhague → J Ceres RA 75.0198 75 (0.02) — only
+  - H RA midpoints: Vesta = Sedna 72.79 (far, far side)
+  - H Dec midpoints: Uranus = Haumea 40.62 (between)
+  - J RA midpoints: Mars = Ketu 57.25 (far, far side); Jupiter = Chiron 37.33 (near, between)
+  - J Dec midpoints: Venus = Mars 19.39 (between)
+- **Sadalmelik** (sky Sun)
+  - H Sadalmelik → H Orcus RA 179.4288 10×φ^6 (96.93) — only
+  - H Sadalmelik → H Mars Dec 12.2270 12.2222 (93.36) — only
+  - H Sadalmelik → H Quaoar RA 60.9901 61 (25.54) — only
+  - H Sadalmelik → H Rahu RA 176.3450 109×φ (12.99) — only
+  - J Sadalmelik → J Neptune Dec 19.4186 12×φ (87.04) — only
+  - J Sadalmelik → J Juno Dec 14.0058 14 (50.24) — only
+  - J Sadalmelik → J Gonggong RA 0.4808 conj (46.16) — also: 1 The Dancing Poet, 2 Flying Instructor, 3 Chase The Dollar, 5 Carn A Chlamain, 7 Red Tornado
+  - J Sadalmelik → J Sedna RA 73.9929 74 (41.87) — only
+  - J Sadalmelik → J Eris RA 51.9867 52 (11.14) — only
+  - J Sadalmelik → J Saturn Dec 3.9841 4 (4.23) [360/90] [sky number: S Sun → Sadalsuud RA 4] — only
+  - J Sadalmelik → J Juno RA 106.0178 106 (1.19) — only
+  - H Dec midpoints: Mars = Gonggong 70.86 (between); Venus = Gonggong 48.73 (between); Ceres = Gonggong 46.22 (between); Juno = Rahu 42.57 (between); Neptune = Sedna 33.32 (between)
+  - J RA midpoints: Neptune = Vesta 79.41 (near, between); Mars = Orcus 62.54 (far, far side)
+  - J Dec midpoints: Venus = Uranus 92.16 (between); Juno = Quaoar 68.02 (between); Mars = Eris 59.30 (between); Quaoar = Transpluto 46.66 (between)
+- **Sadalsuud** (sky Sun)
+  - H Sadalsuud → H Transpluto RA 169.8953 105×φ (89.68) — only
+  - H Sadalsuud → H Juno RA 43.0090 43 (30.33) — only
+  - H Sadalsuud → H Uranus RA 58.0101 58 (24.70) — only
+  - H Sadalsuud → H Makemake RA 128.0127 128 (13.16) [sky number: S Moon → Fomalhaut RA 128] — only
+  - H Sadalsuud → H Quaoar Dec 10.0189 10 (0.30) [360/36] — only
+  - J Sadalsuud → J Quaoar RA 79.2867 49×φ (82.23) — only
+  - J Sadalsuud → J Makemake RA 147.2369 91×φ (75.73) — only
+  - J Sadalsuud → J Jupiter RA 0.3456 conj (59.23) — only
+  - H RA midpoints: Mercury = Pluto 59.50 (near, between)
+  - H Dec midpoints: Chiron = Gonggong 45.05 (between); Saturn = Transpluto 44.60 (between); Neptune = Pallas 34.91 (between); Pluto = Rahu 34.06 (between); Mercury = Neptune 14.87 (between)
+  - J RA midpoints: Sun = Quaoar 54.04 (near, between)
+  - J Dec midpoints: Mars = Gonggong 39.08 (between); Mars = Ceres 30.45 (between); Chiron = Ketu 8.58 (between)
+- **Castor** (sky Moon)
+  - H Castor → H Mars RA 85.0040 85 (63.93) — only
+  - H Castor → H Pallas Dec 35.0096 35 (26.86) — only
+  - H Castor → H Pallas RA 119.7142 74×φ (13.75) [sky number: S Moon → Neptune RA 74×φ] — only
+  - H Castor → H Mars Dec 19.9831 20 (2.36) [360/18] — only
+  - H Castor → H Vesta RA 1.3607 conj (0.86) — only
+  - J Castor → J Vesta RA 113.0030 113 (72.06) — only
+  - J Castor → J Makemake RA 62.0049 62 (57.07) — only
+  - J Castor → J Sun RA 72.0109 72 (20.67) [360/5] — only
+  - J RA midpoints: Venus = Rahu 37.11 (near, between)
+- **Facies** (sky Moon)
+  - H Facies → H Rahu RA 124.0017 124 (83.41) — only
+  - H Facies → H Ketu RA 55.9983 56 (83.41) — only
+  - H Facies → H Neptune Dec 15.9908 16 (29.40) — only
+  - H Facies → H Juno RA 0.7783 conj (23.15) — only
+  - J Facies → J Pluto Dec 15.5558 15.5556 (99.74) — only
+  - J Facies → J Vesta Dec 18.9980 19 (80.97) — only
+  - J Facies → J Transpluto RA 133.0116 133 (17.53) — only
+  - J RA midpoints: Mercury = Mars 44.48 (far, far side); Eris = Makemake 42.71 (far, far side)
+- **Fomalhaut** (sky Moon)
+  - H Fomalhaut → H Sun Dec 26.0014 26 (86.92) — only
+  - H Fomalhaut → H Eris RA 41.0048 41 (57.50) — only
+  - H Fomalhaut → H Neptune RA 0.8443 conj (19.11) — also: 2 Flying Instructor, 6 Flamingo Rose
+  - H Fomalhaut → H Orcus Dec 19.9838 20 (3.54) [360/18] — only
+  - J Fomalhaut → J Pallas Dec 45.9959 46 (63.28) — only
+  - H RA midpoints: Pallas = Ketu 60.52 (near, between); Chiron = Gonggong 39.82 (near, between); Pluto = Ceres 35.73 (near, between); Chiron = Ketu 23.63 (near, between)
+  - J RA midpoints: Haumea = Orcus 46.95 (far, far side)
+- **Galactic Centre** (sky Moon)
+  - H Galactic Centre → H Mars RA 122.2318 122.222 (98.67) — only
+  - H Galactic Centre → H Pallas Dec 25.8856 16×φ (82.78) [sky number: S Sun → Rasalhague Dec 16×φ] — only
+  - H Galactic Centre → H Eris RA 118.9973 119 (74.96) — only
+  - H Galactic Centre → H Saturn RA 0.3598 conj (57.78) — also: 6 Flamingo Rose
+  - H Galactic Centre → H Venus Dec 40.9931 41 (43.07) — only
+  - J Galactic Centre → J Eris RA 117.0097 117 (26.31) — only
+  - J Galactic Centre → J Sedna RA 139.0160 139 (3.98) — only
+  - H RA midpoints: Uranus = Orcus 92.09 (far, far side)
+  - J RA midpoints: Ceres = Haumea 50.86 (near, between); Makemake = Ketu 40.03 (far, far side)
+- **Spica** (sky Moon)
+  - H Spica → H Vesta RA 89.0114 89 (18.40) — only
+  - H Spica → H Jupiter RA 1.1034 conj (6.99) — only
+  - J Spica → J Mars Dec 17.9839 18 (3.78) [360/20] — only
+  - H RA midpoints: Pluto = Vesta 86.25 (near, between)
+  - H Dec midpoints: Jupiter = Quaoar 47.49 (between)
+  - J RA midpoints: Mercury = Saturn 82.73 (far, far side); Sun = Vesta 70.70 (far, far side); Sedna = Ketu 43.88 (far, far side)
+  - J Dec midpoints: Ceres = Vesta 17.92 (between)
+### Organised
+- **By body** (3 or more cells): Jupiter 9 (HJ); Mars 7 (HJ); Eris 7 (HJ); Makemake 7 (HJ); Juno 7 (HJ); Quaoar 6 (HJ); Uranus 6 (HJ); Vesta 5 (HJ); Rahu 5 (HJ); Pallas 5 (HJ); Orcus 5 (HJ); Neptune 5 (HJ); Sedna 4 (HJ); Saturn 4 (HJ); Mercury 4 (HJ); Ceres 4 (J); Sun 3 (HJ); Pluto 3 (HJ); Ketu 3 (HJ); Transpluto 3 (HJ); Haumea 3 (J); Chiron 3 (J)
+- **By number** (across layers or charts): 12 (whole) ×3; 19 (whole) ×3; 119 (whole) ×2; 43 (whole) ×2; 10 (whole) ×2; 1 (whole) ×2
+- **By family** (cells >= 50): whole 22, golden 13, ninth 8, conj 7, phi power 1
+- **Threads** (>= 4 cells on one body, both charts, >= 2 layers): Jupiter 7 (H 2, J 5; same body, star rows, top rows); Eris 4 (H 3, J 1; same body, star rows, top rows); Makemake 4 (H 1, J 3; same body, star rows, top rows); Quaoar 4 (H 1, J 3; T1/T2, same body, star rows)
+- **Flags held**: line star carries a sky number; locked line star on natal Jupiter; natal body on a strong line star
+
+## 5 Carn A Chlamain / Tom Marquand
+### 1. Same body
+- S Transpluto → H Transpluto RA 1.7776 1.77778 (98.59) — also: 1 The Dancing Poet
+- S Pluto → H Pluto Dec 1.0047 1 (58.15) [360/360] — also: 2 Flying Instructor, 3 Chase The Dollar
+- S Jupiter → H Jupiter Dec 7.7736 7.77778 (loose) — only
+- S Neptune → H Neptune Dec 2.2278 2.22222 (loose) — only
+- S Sedna → H Sedna RA 1.8778 1.88889 (loose) — only
+- S Haumea → H Haumea RA 4.4416 4.44444 (loose) — only
+- S Orcus → H Orcus RA 4.4462 4.44444 (loose) — only
+- S Makemake → J Makemake RA 21.9997 22 (97.17) — only
+- S Makemake → J Makemake Dec 10.9960 11 (63.98) — only
+- S Saturn → J Saturn Dec 22.9885 23 (17.94) — only
+- S Rahu → J Rahu RA 106.7701 66×φ (14.16) — only
+- S Ketu → J Ketu RA 106.7701 66×φ (14.16) — only
+- S Transpluto → J Transpluto Dec 2.9826 3 (1.70) [360/120] — only
+- S Chiron → J Chiron Dec 20.9825 21 (1.52) — only
+- S Neptune → J Neptune Dec 15.0180 15 (1.05) [360/24] — only
+- S Mercury → J Mercury RA 77.6868 77.7778 (loose) — only
+- S Uranus → J Uranus RA 84.0272 84 (loose) — only
+- S Pluto → J Pluto Dec 13.0274 13 (loose) [sky number: S Sun → Sadalmelik Dec 13] — only
+- S Chiron → J Chiron RA 141.7147 141.4 (loose) — only
+- S Pallas → J Pallas Dec 12.2489 12.2222 (loose) — only
+- S Sedna → J Sedna Dec 3.0246 3 (loose) [360/120] — also: 4 Deluxe Music
+### 5. MATCH
+- H EXACT: S Jupiter → Juno RA 37.005591 | H Sualocin Neptune RA 36.994968 37 (56.01)
+- H EXACT: S Sun → Sadalsuud RA 3.997964 | H Zubenelgenubi Gonggong Dec 3.984934 4 (6.09)
+- H EXACT: S Sun → Sadalsuud RA 3.997964 | H Unukalhai Uranus Dec 4.01509 4 (6.03)
+- H EXACT: S Sun → Rasalhague Dec 25.88243 | S Jupiter → H body Haumea Dec 25.889807 16×φ (92.35)
+- H EXACT: S Sun → Sadalmelik Dec 13.004799 | H Regulus Makemake Dec 12.986026 13 (9.08)
+- H EXACT: S Sun → Sadalmelik Dec 13.004799 | H Pleiades Transpluto Dec 12.981716 13 (0.74)
+- H EXACT: S Sun → Alkaid RA 119.99489 | H Hamal Quaoar RA 119.999923 120 (99.23)
+- H CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | H Deneb Algedi Rahu RA 166.679083 166.667 (98.94)
+- H CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | S Jupiter → H body Pallas RA 92.997623 93 (77.64)
+- H CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | S Jupiter → H body Haumea Dec 25.889807 16×φ (92.35)
+- H EXACT: S Moon → Facies RA 166.681283 | H Deneb Algedi Rahu RA 166.679083 166.667 (98.94)
+- H EXACT: S Moon → Galactic Centre RA 153.999124 | H Unukalhai Sun RA 154.005479 154 (52.71)
+- H EXACT: S Moon → Venus RA 173.140846 | H Phact Quaoar RA 173.119517 107×φ (47.24)
+- J EXACT: S Jupiter → Meissa RA 102.00573 | J Meissa Ketu RA 101.984805 102 (5.77)
+- J EXACT: S Jupiter → Juno RA 37.005591 | J Fomalhaut Mars Dec 36.986689 37 (11.18)
+- J EXACT: S Jupiter → Juno RA 37.005591 | J Arcturus Uranus Dec 37.014534 37 (7.47)
+- J EXACT: S Sun → Sadalmelik Dec 13.004799 | J Zosma Makemake Dec 12.983756 13 (3.53)
+- J EXACT: S Sun → Alkaid RA 119.99489 | J Altair Juno RA 120.003913 120 (64.69)
+- J EXACT: S Sun → Alkaid RA 119.99489 | J Markab Chiron RA 119.994371 120 (51.63)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | S Jupiter → J body Orcus RA 153.720136 95×φ (61.87)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | S Jupiter → J body Ketu RA 0.016536 conj (97.81)
+- J EXACT: S Moon → Facies RA 166.681283 | J Algorab Saturn RA 166.653022 166.667 (98.83)
+- J EXACT: S Moon → Facies RA 166.681283 | J El Nath Pluto RA 166.633295 166.667 (97.14)
+- J EXACT: S Moon → Mars Dec 48.542267 | J Algol Jupiter Dec 48.547342 30×φ (64.74)
+- J EXACT: S Moon → Neptune RA 119.740762 | J Scheat Chiron RA 119.747197 74×φ (36.98)
+### 6. T1 (horse Jupiter)
+- none
+### 6. T2 (jockey Jupiter)
+- J Jupiter → J star Fomalhaut RA 0.1648 conj (79.24) — only
+### 7. T24 top rows
+- S Jupiter → H Haumea Dec 25.8898 16×φ (92.35) [sky number: S Sun → Rasalhague Dec 16×φ] — only
+- S Ketu → H Jupiter RA 6.9979 7 (80.02) — only
+- S Rahu → H Jupiter RA 173.0021 173 (80.02) — only
+- S Jupiter → H Pallas RA 92.9976 93 (77.64) — only
+- S Moon → H Sedna RA 55.9958 56 (62.41) — only
+- S Moon → H Orcus Dec 34.9949 35 (55.28) — only
+- S Saturn → H Jupiter Dec 0.1121 conj (39.22) — also: 1 The Dancing Poet
+- S Venus → H Jupiter Dec 0.2422 conj (3.72) — also: 1 The Dancing Poet
+- S Moon → H Makemake Dec 0.2890 conj (0.13) — also: 1 The Dancing Poet, 4 Deluxe Music, 6 Flamingo Rose
+- S Pallas → J Jupiter RA 18.8875 18.8889 (99.02) — only
+- S Jupiter → J Ketu RA 0.0165 conj (97.81) — only
+- S Fomalhaut → J Jupiter RA 0.1626 conj (79.49) — only
+- S Sun → J Rahu Dec 21.0390 13×φ (73.55) — only
+- S Jupiter → J Orcus RA 153.7201 95×φ (61.87) — only
+### 8. T24 star rows
+- **Alphard** (sky Jupiter)
+  - H Alphard → H Neptune RA 154.9942 155 (50.34) — only
+  - H Alphard → H Ketu RA 171.5401 106×φ (1.39) — only
+  - J Alphard → J Saturn Dec 14.9967 15 (69.40) [360/24] — only
+  - J Alphard → J Mercury Dec 20.0089 20 (30.70) [360/18] — only
+  - J Alphard → J Gonggong RA 169.9812 170 (0.35) — only
+  - H RA midpoints: Jupiter = Sedna 48.78 (near, between); Venus = Jupiter 42.30 (near, between)
+  - H Dec midpoints: Juno = Ketu 39.86 (between); Eris = Quaoar 33.62 (between); Juno = Vesta 31.61 (between)
+- **Meissa** (sky Jupiter)
+  - H Meissa → H Pallas RA 9.0017 9 (83.73) [360/40] — only
+  - H Meissa → H Quaoar RA 171.9923 172 (37.80) — only
+  - H Meissa → H Gonggong Dec 21.9917 22 (34.51) — only
+  - H Meissa → H Eris Dec 12.0143 12 (8.22) [360/30] — only
+  - H Meissa → H Mars Dec 32.9847 33 (5.53) — only
+  - H Meissa → H Makemake Dec 15.0194 15 (0.09) [360/24] — only
+  - J Meissa → J Mercury Dec 1.4147 1.414 (96.12) — only
+  - J Meissa → J Pluto Dec 19.4141 12×φ (86.39) — only
+  - J Meissa → J Juno Dec 5.0037 5 (66.34) [360/72] — only
+  - J Meissa → J Haumea Dec 11.9855 12 (7.66) [360/30] — only
+  - J Meissa → J Rahu RA 78.0152 78 (5.77) — only
+  - J Meissa → J Ketu RA 101.9848 102 (5.77) [sky number: S Jupiter → Meissa RA 102] — only
+  - H Dec midpoints: Venus = Juno 52.78 (between); Sun = Sedna 18.31 (between)
+  - J RA midpoints: Saturn = Transpluto 80.96 (near, between); Haumea = Gonggong 50.79 (far, far side)
+  - J Dec midpoints: Saturn = Transpluto 50.40 (between); Saturn = Vesta 15.37 (between)
+- **Aculeus** (sky Sun)
+  - H Aculeus → H Saturn Dec 9.9975 10 (76.16) [360/36] — only
+  - H Aculeus → H Sun RA 124.9908 125 (29.33) — only
+  - H Aculeus → H Sedna Dec 40.0140 40 (8.99) [360/9] — only
+  - H Aculeus → H Pallas Dec 28.0147 28 (6.96) — only
+  - J Aculeus → J Eris Dec 24.9953 25 (58.49) — only
+  - J Aculeus → J Eris RA 118.1333 73×φ (23.05) — only
+  - J Aculeus → J Vesta Dec 45.9891 46 (20.86) — only
+  - J Aculeus → J Ceres RA 111.6176 69×φ (3.01) — only
+  - J RA midpoints: Neptune = Chiron 94.29 (near, between); Eris = Transpluto 65.90 (far, far side); Sun = Rahu 60.31 (far, far side)
+- **Alkaid** (sky Sun)
+  - H Alkaid → H Sedna RA 150.4739 93×φ (81.03) — only
+  - H Alkaid → H Neptune RA 140.0120 140 (16.01) — only
+  - J Alkaid → J Quaoar Dec 64.0026 64 (75.51) — only
+  - J Alkaid → J Venus RA 118.1369 73×φ (13.62) — only
+  - H RA midpoints: Saturn = Ceres 97.36 (near, between); Venus = Chiron 82.51 (far, far side); Juno = Sedna 56.59 (far, far side); Saturn = Rahu 43.57 (near, between)
+  - J RA midpoints: Sun = Sedna 54.53 (far, far side)
+- **Deneb Algedi** (sky Sun)
+  - H Deneb Algedi → H Rahu RA 166.6791 166.667 (98.94) [sky number: S Moon → Facies RA 166.667] — only
+  - H Deneb Algedi → H Pallas RA 108.0199 108 (0.00) — only
+  - H Dec midpoints: Saturn = Orcus 19.91 (between)
+  - J RA midpoints: Pluto = Sedna 75.53 (near, between)
+  - J Dec midpoints: Gonggong = Quaoar 76.98 (between)
+- **Rasalhague** (sky Sun)
+  - H Rasalhague → H Uranus RA 122.9044 φ^10 (73.56) — only
+  - H Rasalhague → H Quaoar Dec 27.9825 28 (1.58) — only
+  - J Rasalhague → J Rahu RA 101.9368 63×φ (96.17) — only
+  - H RA midpoints: Haumea = Ketu 33.70 (near, between)
+  - H Dec midpoints: Ceres = Pallas 53.06 (between); Sedna = Rahu 46.02 (between); Juno = Makemake 43.04 (between); Sedna = Haumea 16.47 (between)
+  - J RA midpoints: Saturn = Transpluto 91.41 (far, far side); Haumea = Gonggong 52.62 (near, between)
+  - J Dec midpoints: Mercury = Vesta 69.10 (between); Pallas = Haumea 49.73 (between)
+- **Sadalmelik** (sky Sun)
+  - H Sadalmelik → H Rahu Dec 17.7945 11×φ (77.46) — only
+  - H Sadalmelik → H Rahu RA 161.9949 162 (55.51) — only
+  - H Sadalmelik → H Ketu RA 18.0051 18 (55.51) [360/20] — only
+  - H Sadalmelik → H Juno Dec 0.2932 conj (0.05) — only
+  - J Sadalmelik → J Eris RA 51.7763 32×φ (95.06) — only
+  - J Sadalmelik → J Gonggong RA 0.4773 conj (46.48) — also: 1 The Dancing Poet, 2 Flying Instructor, 3 Chase The Dollar, 4 Deluxe Music, 7 Red Tornado
+  - J Sadalmelik → J Orcus Dec 0.1541 conj (23.66) — also: 1 The Dancing Poet
+  - J Sadalmelik → J Ceres Dec 0.2368 conj (4.43) — only
+  - H RA midpoints: Jupiter = Pallas 91.79 (far, far side)
+  - H Dec midpoints: Vesta = Haumea 37.96 (between); Haumea = Ketu 34.63 (between); Gonggong = Transpluto 28.18 (between)
+  - J Dec midpoints: Mars = Ketu 18.97 (between); Saturn = Eris 18.23 (between)
+- **Sadalsuud** (sky Sun)
+  - H Sadalsuud → H Sedna Dec 13.3338 13.3333 (99.38) — only
+  - H Sadalsuud → H Uranus Dec 16.0115 16 (18.18) — only
+  - H Sadalsuud → H Neptune RA 24.0161 24 (3.76) [360/15] — only
+  - J Sadalsuud → J Vesta RA 84.1385 52×φ (95.29) — only
+  - J Sadalsuud → J Transpluto Dec 19.0083 19 (34.02) — only
+  - J Sadalsuud → J Ceres Dec 5.0141 5 (8.64) [360/72] — only
+  - J Sadalsuud → J Jupiter Dec 2.0183 2 (0.74) [360/180] — only
+  - H RA midpoints: Orcus = Rahu 98.71 (far, far side); Transpluto = Rahu 50.61 (far, far side); Ceres = Orcus 49.30 (far, far side); Mercury = Saturn 36.38 (near, between)
+  - H Dec midpoints: Saturn = Transpluto 95.28 (between); Uranus = Pluto 71.98 (between); Mercury = Gonggong 54.77 (between)
+  - J RA midpoints: Neptune = Ketu 92.34 (near, between); Uranus = Gonggong 11.53 (near, between)
+  - J Dec midpoints: Saturn = Gonggong 77.36 (between); Sun = Quaoar 27.03 (between)
+- **Castor** (sky Moon)
+  - H Castor → H Pluto Dec 53.3927 33×φ (85.35) — only
+  - H Castor → H Uranus RA 87.0052 87 (54.99) — only
+  - H Castor → H Vesta RA 160.1993 99×φ (32.38) — only
+  - H RA midpoints: Vesta = Ketu 99.01 (far, far side); Pallas = Orcus 80.69 (near, between); Jupiter = Chiron 53.25 (far, far side); Pallas = Transpluto 49.26 (near, between)
+  - J RA midpoints: Quaoar = Ketu 88.96 (far, far side)
+- **Facies** (sky Moon)
+  - H Facies → H Sun RA 110.9759 10×φ^5 (75.04) — only
+  - H Facies → H Saturn RA 0.4972 conj (44.70) — also: 2 Flying Instructor, 3 Chase The Dollar
+  - H Facies → H Haumea RA 65.9896 66 (22.89) — only
+  - J Facies → J Pallas RA 58.0157 58 (4.60) — only
+  - J RA midpoints: Chiron = Gonggong 89.78 (near, between); Saturn = Makemake 82.86 (far, far side); Saturn = Juno 70.88 (far, far side)
+- **Fomalhaut** (sky Moon)
+  - H Fomalhaut → H Sedna RA 72.0076 72 (38.60) [360/5] — only
+  - H Fomalhaut → H Neptune Dec 23.0113 23 (18.83) — only
+  - J Fomalhaut → J Jupiter RA 0.1648 conj (79.24) — only
+  - J Fomalhaut → J Quaoar RA 99.0114 99 (18.58) — only
+  - J Fomalhaut → J Mars Dec 36.9867 37 (11.18) [sky number: S Jupiter → Juno RA 37] — only
+  - H RA midpoints: Venus = Vesta 95.46 (near, between); Ceres = Makemake 69.64 (far, far side); Makemake = Rahu 66.40 (far, far side); Sedna = Quaoar 49.33 (near, between)
+- **Galactic Centre** (sky Moon)
+  - H Galactic Centre → H Sedna RA 149.9978 150 (79.48) — only
+  - H Galactic Centre → H Rahu RA 132.9819 133 (0.91) — only
+  - H Galactic Centre → H Ketu RA 47.0181 47 (0.91) — only
+  - J Galactic Centre → J Sedna RA 139.1335 86×φ (21.41) — also: 1 The Dancing Poet
+  - J RA midpoints: Pallas = Haumea 44.47 (near, between)
+- **Spica** (sky Moon)
+  - H Spica → H Juno RA 155.5139 155.556 (96.05) — only
+  - H Spica → H Saturn Dec 11.0918 φ^5 (94.30) — only
+  - H Spica → H Neptune RA 145.6010 90×φ (10.05) — only
+  - J Spica → J Orcus Dec 10.9953 11 (58.58) — only
+  - H RA midpoints: Neptune = Sedna 49.24 (far, far side); Venus = Neptune 47.58 (far, far side)
+  - H Dec midpoints: Saturn = Juno 82.82 (between); Mercury = Mars 70.56 (between); Neptune = Quaoar 6.70 (between)
+  - J RA midpoints: Mars = Eris 45.31 (far, far side); Chiron = Makemake 25.22 (near, between)
+  - J Dec midpoints: Jupiter = Quaoar 75.23 (between); Quaoar = Ketu 57.78 (between); Chiron = Eris 5.51 (between)
+### Organised
+- **By body** (3 or more cells): Jupiter 9 (HJ); Sedna 9 (HJ); Rahu 8 (HJ); Neptune 7 (HJ); Pallas 6 (HJ); Ketu 6 (HJ); Orcus 5 (HJ); Saturn 5 (HJ); Pluto 4 (HJ); Haumea 4 (HJ); Makemake 4 (HJ); Uranus 4 (HJ); Eris 4 (HJ); Quaoar 4 (HJ); Transpluto 3 (HJ); Vesta 3 (HJ); Gonggong 3 (HJ); Juno 3 (HJ); Mercury 3 (J); Ceres 3 (J)
+- **By number** (across layers or charts): 15 (whole) ×3; 23 (whole) ×2; 12 (whole) ×2; 22 (whole) ×2; 11 (whole) ×2
+- **By family** (cells >= 50): whole 20, golden 10, ninth 5, conj 4, phi power 3, sqrt2 1
+- **Threads** (>= 4 cells on one body, both charts, >= 2 layers): Jupiter 6 (H 3, J 3; same body, star rows, top rows); Sedna 6 (H 5, J 1; same body, star rows, top rows); Rahu 6 (H 3, J 3; same body, star rows, top rows); Pluto 4 (H 2, J 2; same body, star rows); Orcus 4 (H 2, J 2; same body, star rows, top rows); Saturn 4 (H 2, J 2; same body, star rows)
+- **Flags held**: line star carries a sky number; locked line star on natal Jupiter
+
+## 6 Flamingo Rose / Dougie Costello
+### 1. Same body
+- S Juno → H Juno Dec 3.0100 3 (24.89) [360/120] — only
+- S Eris → H Eris Dec 1.0156 1 (4.89) [360/360] — only
+- S Chiron → H Chiron RA 12.9539 8×φ (loose) — only
+- S Pallas → H Pallas RA 1.7657 1.77778 (loose) — only
+- S Vesta → H Vesta Dec 46.8806 φ^8 (loose) — only
+- S Gonggong → H Gonggong Dec 1.0300 1 (loose) [360/360] — only
+- S Sun → J Sun RA 17.9875 18 (14.05) [360/20] — only
+- S Mars → J Mars RA 80.0208 80 (loose) — only
+- S Saturn → J Saturn Dec 6.1841 10×φ^-1 (loose) — only
+- S Pluto → J Pluto Dec 27.5168 17×φ (loose) — only
+- S Chiron → J Chiron RA 43.9759 44 (loose) — only
+- S Ceres → J Ceres RA 111.5022 111.111 (loose) — only
+- S Pallas → J Pallas Dec 17.8623 φ^6 (loose) — only
+- S Gonggong → J Gonggong RA 8.9795 9 (loose) [360/40] — only
+- S Transpluto → J Transpluto RA 13.3233 13.3333 (loose) — only
+### 5. MATCH
+- H EXACT: S Jupiter → Juno RA 37.005591 | H Alphecca Jupiter RA 37.006372 37 (46.43)
+- H EXACT: S Sun → Sadalsuud RA 3.997964 | H Betelgeuse Venus Dec 3.999947 4 (99.47)
+- H EXACT: S Sun → Sadalsuud RA 3.997964 | H Zubeneschamali Jupiter Dec 4.00426 4 (61.94)
+- H EXACT: S Sun → Sadalsuud RA 3.997964 | H Algol Mars RA 3.993743 4 (47.21)
+- H EXACT: S Sun → Sadalsuud RA 3.997964 | H Jupiter → H body Orcus Dec 3.987969 4 (15.88)
+- H EXACT: S Sun → Sadalsuud RA 3.997964 | S body → H Jupiter Eris Dec 4.015517 4 (5.02)
+- H EXACT: S Sun → Rasalhague Dec 25.88243 | H Deneb Gonggong RA 25.888259 16×φ (98.25)
+- H EXACT: S Sun → Sadalmelik Dec 13.004799 | H Alhena Venus Dec 12.992733 13 (40.53)
+- H EXACT: S Sun → Sadalmelik Dec 13.004799 | H Rigel Pluto Dec 12.989632 13 (23.2)
+- H EXACT: S Sun → Sadalmelik Dec 13.004799 | H Orion Nebula Cluster Sedna Dec 12.983493 13 (3.05)
+- H EXACT: S Sun → Sadalmelik Dec 13.004799 | H Praesepe Vesta RA 12.982254 13 (1.27)
+- H EXACT: S Sun → Sadalmelik Dec 13.004799 | H Al Rescha Mercury Dec 13.018066 13 (0.94)
+- H EXACT: S Sun → Alkaid RA 119.99489 | H Al Rescha Quaoar RA 120.005669 120 (51.34)
+- H CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | H Deneb Algedi Transpluto RA 173.997529 174 (76.81)
+- H CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | S Jupiter → H body Ketu Dec 2.00086 2 (91.59)
+- H EXACT: S Moon → Facies RA 166.681283 | H Deneb Vesta RA 166.688499 166.667 (98.13)
+- H EXACT: S Moon → Facies RA 166.681283 | H Algorab Sun RA 166.635474 166.667 (97.33)
+- H EXACT: S Moon → Facies RA 166.681283 | H Algenib Jupiter RA 166.632611 166.667 (97.08)
+- H EXACT: S Moon → Spica RA 88.886651 | H Antares Gonggong RA 88.888046 88.8889 (99.39)
+- H EXACT: S Moon → Spica RA 88.886651 | S body → H Jupiter Venus RA 88.883657 88.8889 (96.23)
+- H EXACT: S Moon → Mars Dec 48.542267 | H Spica Transpluto RA 48.542367 30×φ (91.85)
+- H EXACT: S Moon → Neptune RA 119.740762 | H Procyon Venus RA 119.741206 74×φ (62.92)
+- H EXACT: S Moon → Neptune RA 119.740762 | H Menkar Juno RA 119.743846 74×φ (50.65)
+- J EXACT: S Jupiter → Meissa RA 102.00573 | J Aculeus Vesta RA 101.994633 102 (53.53)
+- J EXACT: S Jupiter → Meissa RA 102.00573 | J Rasalhague Mars RA 101.989164 102 (20.99)
+- J EXACT: S Sun → Sadalmelik Dec 13.004799 | J El Nath Chiron Dec 13.018757 13 (0.39)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | J Deneb Algedi Jupiter Dec 5.000912 5 (91.09)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | J Deneb Algedi Haumea RA 145.614765 90×φ (55.31)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | J Deneb Algedi Orcus RA 155.545915 155.556 (99.09)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | S Jupiter → J body Sedna RA 56.633386 35×φ (86.88)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | S Jupiter → J body Gonggong Dec 13.336518 13.3333 (96.18)
+- J EXACT: S Moon → Fomalhaut RA 128.004815 | J Murzim Gonggong RA 127.989734 128 (23.69)
+- J EXACT: S Moon → Neptune RA 119.740762 | J Antares Vesta RA 119.724114 74×φ (46.05)
+### 6. T1 (horse Jupiter)
+- H Jupiter → H star Sadalsuud RA 126.2159 78×φ (50.81) — only
+### 6. T2 (jockey Jupiter)
+- J Jupiter → J star Sadalsuud Dec 15.5554 15.5556 (99.85) — only
+- J Jupiter → J star Deneb Algedi Dec 5.0009 5 (91.09) [360/72] — only
+- J Jupiter → J star Meissa RA 165.0461 102×φ (62.97) — only
+### 7. T24 top rows
+- S Venus → H Jupiter RA 88.8837 88.8889 (96.23) [sky number: S Moon → Spica RA 88.8889] — only
+- S Jupiter → H Ketu Dec 2.0009 2 (91.59) [360/180] — only
+- S Neptune → H Jupiter RA 156.0020 156 (80.55) — only
+- S Neptune → H Jupiter Dec 0.9969 1 (71.03) [360/360] — only
+- S Sadalsuud → H Jupiter RA 126.2131 78×φ (64.12) — only
+- S Gonggong → H Jupiter RA 139.9957 140 (61.55) — only
+- S Moon → H Makemake Dec 0.1548 conj (23.44) — also: 1 The Dancing Poet, 4 Deluxe Music, 5 Carn A Chlamain
+- S Sadalsuud → H Jupiter Dec 0.1926 conj (12.81) — only
+- S Jupiter → H Juno Dec 0.2736 conj (0.78) — also: 2 Flying Instructor
+- S Sadalsuud → J Jupiter Dec 15.5555 15.5556 (99.91) — only
+- S Sun → J Pallas RA 45.9999 46 (98.58) — only
+- S Jupiter → J Gonggong Dec 13.3365 13.3333 (96.18) — only
+- S Sun → J Chiron RA 84.9991 85 (91.37) — only
+- S Moon → J Sedna RA 73.9990 74 (90.03) — only
+- S Vesta → J Jupiter Dec 0.0203 conj (86.95) — only
+- S Jupiter → J Sedna RA 56.6334 35×φ (86.88) — only
+- S Deneb Algedi → J Jupiter Dec 4.9975 5 (76.15) [360/72] — only
+- S Sun → J Quaoar Dec 0.9970 1 (72.49) [360/360] — only
+- S Meissa → J Jupiter RA 165.0443 102×φ (72.18) — only
+- S Sun → J Mars RA 38.8388 24×φ (66.48) — only
+- S Sun → J Juno RA 0.4880 conj (45.52) — only
+- S Sun → J Gonggong RA 0.8052 conj (21.46) — only
+### 8. T24 star rows
+- **Alphard** (sky Jupiter)
+  - H Alphard → H Mercury RA 110.9424 10×φ^5 (85.85) — only
+  - H Alphard → H Juno Dec 0.1672 conj (19.58) — only
+  - H Alphard → H Haumea Dec 26.0147 26 (6.97) — only
+  - J Alphard → J Transpluto RA 0.4137 conj (52.45) — only
+  - J Alphard → J Vesta Dec 6.0160 6 (4.09) [360/60] — only
+  - J Alphard → J Pallas RA 138.9806 139 (0.08) — only
+  - J RA midpoints: Makemake = Orcus 53.61 (near, between); Venus = Ketu 44.41 (far, far side)
+  - J Dec midpoints: Neptune = Pluto 59.69 (between); Mercury = Vesta 44.52 (between); Pluto = Gonggong 37.82 (between)
+- **Meissa** (sky Jupiter)
+  - H Meissa → H Saturn Dec 31.9961 32 (64.89) — only
+  - H Meissa → H Chiron Dec 8.0186 8 (0.48) [360/45] — only
+  - J Meissa → J Jupiter RA 165.0461 102×φ (62.97) — only
+  - H RA midpoints: Mars = Vesta 47.83 (near, between); Makemake = Ketu 46.48 (far, far side); Ceres = Vesta 42.42 (near, between)
+  - H Dec midpoints: Jupiter = Makemake 53.28 (between); Sun = Transpluto 17.85 (between); Venus = Ceres 16.70 (between)
+  - J RA midpoints: Vesta = Makemake 48.18 (near, between); Mars = Makemake 45.62 (near, between); Uranus = Pallas 44.51 (far, far side)
+  - J Dec midpoints: Venus = Chiron 38.22 (between); Pluto = Transpluto 14.58 (between)
+- **Aculeus** (sky Sun)
+  - H Aculeus → H Rahu RA 111.1081 111.111 (99.50) — only
+  - H Aculeus → H Venus RA 89.9947 90 (53.74) [360/4] — only
+  - H Aculeus → H Vesta Dec 57.9845 58 (5.02) — only
+  - H Aculeus → H Sun Dec 41.0160 41 (4.01) — only
+  - J Aculeus → J Sedna RA 133.3332 133.333 (99.99) — only
+  - J Aculeus → J Vesta RA 101.9946 102 (53.53) [sky number: S Jupiter → Meissa RA 102] — only
+  - H RA midpoints: Makemake = Gonggong 61.82 (near, between); Jupiter = Ketu 56.99 (near, between)
+  - J RA midpoints: Jupiter = Pallas 41.32 (near, between)
+- **Alkaid** (sky Sun)
+  - J Alkaid → J Vesta RA 160.1848 99×φ (96.66) — only
+  - J Alkaid → J Pallas RA 73.9908 74 (29.17) — only
+  - J Alkaid → J Chiron RA 155.0102 155 (23.90) — only
+  - J Alkaid → J Mercury RA 121.9804 122 (0.04) — only
+  - H RA midpoints: Mercury = Uranus 74.07 (far, far side)
+  - J RA midpoints: Transpluto = Ketu 43.63 (near, between)
+- **Deneb Algedi** (sky Sun)
+  - H Deneb Algedi → H Transpluto RA 173.9975 174 (76.81) — only
+  - H Deneb Algedi → H Sedna RA 88.9811 89 (0.31) — only
+  - J Deneb Algedi → J Orcus RA 155.5459 155.556 (99.09) — only
+  - J Deneb Algedi → J Jupiter Dec 5.0009 5 (91.09) [360/72] — only
+  - J Deneb Algedi → J Haumea RA 145.6148 90×φ (55.31) — only
+  - J Deneb Algedi → J Transpluto RA 174.7346 108×φ (35.57) — only
+  - J Deneb Algedi → J Juno RA 0.6167 conj (34.67) — only
+  - J Deneb Algedi → J Pluto RA 113.2490 70×φ (34.58) — only
+  - J Deneb Algedi → J Mars Dec 18.0108 18 (21.21) [360/20] — only
+  - J Deneb Algedi → J Gonggong RA 0.9339 conj (14.24) — only
+  - J Deneb Algedi → J Eris Dec 4.9851 5 (6.55) [360/72] — only
+  - H RA midpoints: Uranus = Quaoar 55.92 (near, between); Saturn = Eris 55.32 (near, between)
+  - H Dec midpoints: Pluto = Ketu 9.98 (between)
+  - J RA midpoints: Eris = Ketu 38.21 (near, between)
+  - J Dec midpoints: Jupiter = Eris 91.77 (between); Saturn = Uranus 78.95 (between)
+- **Rasalhague** (sky Sun)
+  - H Rasalhague → H Transpluto RA 110.9758 10×φ^5 (75.05) — only
+  - H Rasalhague → H Sedna RA 152.0028 152 (73.87) — only
+  - J Rasalhague → J Transpluto RA 122.2437 122.222 (97.02) — only
+  - J Rasalhague → J Orcus RA 141.4324 141.4 (96.89) — only
+  - J Rasalhague → J Ketu Dec 35.9914 36 (32.28) [360/10] — only
+  - J Rasalhague → J Mars RA 101.9892 102 (20.99) [sky number: S Jupiter → Meissa RA 102] — only
+  - J Rasalhague → J Sun Dec 19.0167 19 (2.67) — only
+  - J Rasalhague → J Ceres RA 42.9820 43 (0.97) — only
+  - H RA midpoints: Mars = Vesta 53.99 (far, far side); Ceres = Vesta 50.71 (far, far side); Makemake = Ketu 39.96 (near, between)
+  - H Dec midpoints: Uranus = Ceres 50.52 (between); Pallas = Vesta 35.15 (between); Sedna = Haumea 31.43 (between); Sun = Ceres 25.48 (between)
+  - J RA midpoints: Mars = Makemake 52.31 (far, far side); Vesta = Makemake 45.96 (far, far side)
+  - J Dec midpoints: Mars = Rahu 38.66 (between)
+- **Sadalmelik** (sky Sun)
+  - H Sadalmelik → H Rahu Dec 11.0904 φ^5 (99.30) — only
+  - H Sadalmelik → H Vesta RA 145.6015 90×φ (11.10) — only
+  - J Sadalmelik → J Ketu RA 59.8629 37×φ (74.79) — only
+  - J Sadalmelik → J Quaoar Dec 12.0076 12 (38.73) [360/30] — only
+  - J Sadalmelik → J Pallas Dec 8.9876 9 (14.48) [360/40] — only
+  - H Dec midpoints: Sun = Orcus 83.71 (between); Uranus = Orcus 58.90 (between); Juno = Sedna 24.12 (between); Chiron = Eris 10.42 (between)
+  - J RA midpoints: Makemake = Transpluto 76.61 (far, far side); Haumea = Orcus 56.19 (far, far side); Pallas = Eris 34.85 (near, between)
+  - J Dec midpoints: Juno = Orcus 60.58 (between); Mars = Vesta 30.47 (between)
+- **Sadalsuud** (sky Sun)
+  - H Sadalsuud → H Ketu RA 11.0910 φ^5 (97.20) — only
+  - H Sadalsuud → H Saturn RA 55.5588 55.5556 (96.89) — only
+  - H Sadalsuud → H Jupiter RA 126.2159 78×φ (50.81) — only
+  - H Sadalsuud → H Jupiter Dec 0.1924 conj (12.86) — only
+  - J Sadalsuud → J Jupiter Dec 15.5554 15.5556 (99.85) — only
+  - J Sadalsuud → J Pallas RA 42.0021 42 (79.83) — only
+  - J Sadalsuud → J Chiron RA 88.9968 55×φ (71.62) — only
+  - J Sadalsuud → J Rahu Dec 29.0067 29 (44.35) — only
+  - J Sadalsuud → J Mercury RA 5.9875 6 (13.91) [360/60] — only
+  - J Sadalsuud → J Sun RA 21.9852 22 (6.82) — only
+  - H RA midpoints: Venus = Pluto 87.07 (near, between); Pluto = Chiron 72.52 (near, between)
+  - H Dec midpoints: Saturn = Rahu 54.01 (between); Juno = Eris 1.59 (between)
+  - J RA midpoints: Uranus = Sedna 72.03 (near, between); Mars = Pallas 33.79 (near, between)
+- **Castor** (sky Moon)
+  - H Castor → H Pallas RA 108.4233 67×φ (28.79) — only
+  - J Castor → J Neptune RA 155.5457 155.556 (99.07) — only
+  - J Castor → J Mars Dec 30.0060 30 (48.95) [360/12] — only
+  - J Castor → J Gonggong Dec 53.9932 54 (43.66) — only
+  - J Castor → J Uranus RA 133.9824 134 (1.47) — only
+  - J Castor → J Jupiter Dec 53.0177 53 (1.31) — only
+  - H RA midpoints: Mercury = Jupiter 68.44 (near, between)
+  - J RA midpoints: Ceres = Pallas 73.71 (far, far side)
+- **Facies** (sky Moon)
+  - H Facies → H Ceres RA 132.0055 132 (52.58) — only
+  - J Facies → J Transpluto Dec 39.0137 39 (9.99) — only
+  - J Facies → J Sedna Dec 27.0143 27 (8.07) — only
+  - J Facies → J Ceres Dec 0.2972 conj (0.01) — only
+  - H RA midpoints: Saturn = Pluto 54.47 (near, between)
+  - J RA midpoints: Sun = Pluto 80.89 (near, between); Sun = Saturn 66.42 (near, between)
+- **Fomalhaut** (sky Moon)
+  - H Fomalhaut → H Haumea Dec 46.9767 φ^8 (98.33) — only
+  - H Fomalhaut → H Sedna Dec 37.2131 23×φ (89.74) — only
+  - H Fomalhaut → H Neptune RA 0.2004 conj (75.06) — also: 2 Flying Instructor, 4 Deluxe Music
+  - H Fomalhaut → H Makemake Dec 55.0193 34×φ (65.46) — only
+  - J Fomalhaut → J Sun RA 0.4650 conj (47.61) — only
+  - J Fomalhaut → J Sedna RA 54.0102 54 (23.88) — only
+  - J Fomalhaut → J Ceres Dec 6.0158 6 (4.31) [360/60] — only
+  - H RA midpoints: Chiron = Ketu 79.70 (near, between); Venus = Ketu 59.01 (near, between); Vesta = Haumea 54.39 (far, far side)
+  - J RA midpoints: Ceres = Eris 27.48 (near, between)
+- **Galactic Centre** (sky Moon)
+  - H Galactic Centre → H Gonggong Dec 16.6619 16.6667 (95.91) — only
+  - H Galactic Centre → H Saturn RA 0.9089 conj (15.53) — also: 4 Deluxe Music
+  - J Galactic Centre → J Sedna RA 131.9998 132 (98.49) — only
+  - J Galactic Centre → J Juno Dec 21.0054 21 (53.36) — only
+  - J Galactic Centre → J Pluto Dec 34.0153 34 (5.45) — only
+  - H RA midpoints: Vesta = Sedna 94.28 (far, far side); Jupiter = Gonggong 91.57 (near, between); Sun = Orcus 62.90 (far, far side); Sun = Transpluto 46.56 (far, far side)
+  - J RA midpoints: Venus = Makemake 69.22 (far, far side); Ceres = Quaoar 61.29 (near, between)
+- **Spica** (sky Moon)
+  - H Spica → H Transpluto RA 48.5424 30×φ (91.85) [sky number: S Moon → Mars Dec 30×φ] — only
+  - H Spica → H Uranus Dec 19.9976 20 (77.27) [360/18] — only
+  - H Spica → H Ketu RA 132.6748 82×φ (76.97) — only
+  - H Spica → H Venus Dec 14.5693 9×φ (61.65) — only
+  - J Spica → J Eris Dec 0.0201 conj (87.02) — only
+  - J Spica → J Orcus RA 79.0030 79 (72.04) — only
+  - H RA midpoints: Juno = Vesta 74.46 (near, between); Sun = Uranus 48.38 (far, far side)
+  - H Dec midpoints: Pluto = Pallas 27.86 (between)
+  - J RA midpoints: Pallas = Orcus 51.96 (near, between)
+### Organised
+- **By body** (3 or more cells): Jupiter 16 (HJ); Sedna 9 (HJ); Pallas 8 (HJ); Transpluto 8 (HJ); Gonggong 7 (HJ); Chiron 6 (HJ); Juno 6 (HJ); Vesta 6 (HJ); Ketu 5 (HJ); Sun 5 (HJ); Ceres 5 (HJ); Mars 5 (J); Saturn 4 (HJ); Eris 3 (HJ); Rahu 3 (HJ); Mercury 3 (HJ); Haumea 3 (HJ); Pluto 3 (J); Orcus 3 (J)
+- **By number** (across layers or charts): 1 (whole) ×4; 5 (whole) ×4; 78×φ (golden) ×3; 102×φ (golden) ×3; 15.5556 (ninth) ×3; φ^8 (phi power) ×2; 111.111 (ninth) ×2; 132 (whole) ×2; 90×φ (golden) ×2; 18 (whole) ×2; 9 (whole) ×2; 13.3333 (ninth) ×2; 74 (whole) ×2
+- **By family** (cells >= 50): whole 22, golden 17, ninth 12, phi power 5, conj 4, sqrt2 1
+- **Threads** (>= 4 cells on one body, both charts, >= 2 layers): Jupiter 13 (H 6, J 7; star rows, top rows); Transpluto 6 (H 3, J 3; same body, star rows); Sedna 6 (H 2, J 4; star rows, top rows); Chiron 4 (H 1, J 3; same body, star rows, top rows); Pallas 4 (H 1, J 3; same body, star rows, top rows); Gonggong 4 (H 2, J 2; same body, star rows, top rows); Ketu 4 (H 3, J 1; star rows, top rows)
+- **Flags held**: line star carries a sky number; locked line star on natal Jupiter; natal body on a strong line star; same source on the same body, both charts
+
+## 7 Red Tornado / Jason Hart
+### 1. Same body
+- S Quaoar → H Quaoar RA 12.9481 8×φ (77.65) — only
+- S Orcus → H Orcus RA 8.9826 9 (1.64) [360/40] — only
+- S Sun → H Sun RA 19.4016 12×φ (loose) — only
+- S Vesta → H Vesta Dec 17.9232 φ^6 (loose) — only
+- S Rahu → H Rahu Dec 41.3640 41.4 (loose) — only
+- S Ketu → H Ketu Dec 41.3640 41.4 (loose) — only
+- S Sun → J Sun RA 143.0085 143 (33.16) — only
+- S Chiron → J Chiron RA 158.9894 159 (21.94) — only
+- S Eris → J Eris Dec 6.9841 7 (4.28) — only
+- S Haumea → J Haumea RA 26.0761 10×φ^2 (loose) — only
+- S Gonggong → J Gonggong RA 6.4652 4×φ (loose) — only
+### 5. MATCH
+- H EXACT: S Jupiter → Juno RA 37.005591 | H Antares Mars Dec 37.002515 37 (76.43)
+- H EXACT: S Jupiter → Juno RA 37.005591 | H Phact Mercury Dec 37.008343 37 (33.97)
+- H EXACT: S Jupiter → Juno RA 37.005591 | H Algenib Rahu Dec 36.990039 37 (25.19)
+- H EXACT: S Jupiter → Juno RA 37.005591 | H Markab Rahu Dec 37.011206 37 (19.33)
+- H EXACT: S Sun → Sadalsuud RA 3.997964 | H Denebola Mars Dec 3.998439 4 (85)
+- H EXACT: S Sun → Sadalsuud RA 3.997964 | H Hamal Makemake Dec 4.010385 4 (23.11)
+- H EXACT: S Sun → Sadalsuud RA 3.997964 | H Al Rescha Sedna Dec 4.014691 4 (7.05)
+- H EXACT: S Sun → Sadalsuud RA 3.997964 | H Menkent Saturn RA 4.018804 4 (0.36)
+- H EXACT: S Sun → Sadalsuud RA 3.997964 | H Sadalmelik Pallas RA 3.980453 4 (0.05)
+- H EXACT: S Sun → Rasalhague Dec 25.88243 | H Kaus Australis Saturn Dec 25.884007 16×φ (73.93)
+- H EXACT: S Sun → Sadalmelik Dec 13.004799 | H Aculeus Pluto Dec 12.996452 13 (67.67)
+- H EXACT: S Sun → Sadalmelik Dec 13.004799 | H Acumen Rahu Dec 12.984143 13 (4.29)
+- H CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | H Deneb Algedi Vesta RA 38.837259 24×φ (74.42)
+- H CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | S Jupiter → H body Quaoar RA 77.999383 78 (93.92)
+- H EXACT: S Moon → Facies RA 166.681283 | H Vindemiatrix Mercury RA 166.699364 166.667 (97.2)
+- H EXACT: S Moon → Galactic Centre RA 153.999124 | H Ras Algethi Sedna RA 153.982428 154 (1.47)
+- H EXACT: S Moon → Fomalhaut RA 128.004815 | H Hamal Quaoar RA 128.00793 128 (36.42)
+- J EXACT: S Jupiter → Juno RA 37.005591 | J Jupiter → J body Haumea Dec 36.990948 37 (29.96)
+- J EXACT: S Sun → Aculeus RA 61.802606 | J Deneb Rahu Dec 61.809386 100×φ^-1 (96.16)
+- J EXACT: S Sun → Sadalsuud RA 3.997964 | J Zosma Ketu Dec 4.001035 4 (89.92)
+- J EXACT: S Sun → Sadalsuud RA 3.997964 | J Difda Quaoar Dec 4.004266 4 (61.89)
+- J EXACT: S Sun → Sadalsuud RA 3.997964 | J Algorab Haumea RA 4.017105 4 (2.1)
+- J EXACT: S Sun → Rasalhague Dec 25.88243 | J Algenib Saturn Dec 25.88216 16×φ (64.44)
+- J EXACT: S Sun → Rasalhague Dec 25.88243 | J Diadem Eris Dec 25.880783 16×φ (57.78)
+- J EXACT: S Sun → Sadalmelik Dec 13.004799 | J Bellatrix Vesta Dec 13.002024 13 (80.78)
+- J EXACT: S Sun → Sadalmelik Dec 13.004799 | J Vega Neptune RA 13.002042 13 (80.63)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | J Deneb Algedi Sun Dec 14.445609 14.4444 (98.77)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | J Deneb Algedi Transpluto RA 179.420674 10×φ^6 (95.15)
+- J CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | S Jupiter → J body Venus RA 122.295351 122.222 (89.87)
+- J EXACT: S Moon → Galactic Centre RA 153.999124 | J Galactic Centre Pallas RA 154.003087 154 (71.51)
+- J EXACT: S Moon → Galactic Centre RA 153.999124 | J Sadalmelik Ceres RA 154.012252 154 (15.01)
+- J EXACT: S Moon → Fomalhaut RA 128.004815 | J Menkent Saturn RA 128.01603 128 (3.94)
+- J EXACT: S Moon → Mars Dec 48.542267 | J Zubenelgenubi Makemake RA 48.546764 30×φ (67.65)
+- J EXACT: S Moon → Neptune RA 119.740762 | J Alhena Saturn RA 119.745777 74×φ (42.51)
+- J EXACT: S Moon → Neptune RA 119.740762 | J Deneb Algedi Mercury RA 119.709546 74×φ (5.22)
+### 6. T1 (horse Jupiter)
+- none
+### 6. T2 (jockey Jupiter)
+- none
+### 7. T24 top rows
+- S Jupiter → H Quaoar RA 77.9994 78 (93.92) — only
+- S Jupiter → H Saturn Dec 0.2674 conj (1.18) — only
+- S Jupiter → J Venus RA 122.2954 122.222 (89.87) — only
+- S Moon → J Pallas RA 51.9951 52 (57.24) — only
+- S Quaoar → J Jupiter Dec 0.0827 conj (52.47) — also: 4 Deluxe Music
+### 8. T24 star rows
+- **Alphard** (sky Jupiter)
+  - H Alphard → H Quaoar Dec 6.9989 7 (89.06) — only
+  - H Alphard → H Saturn Dec 0.1608 conj (21.52) — only
+  - H Alphard → H Neptune Dec 2.9802 3 (0.01) [360/120] — only
+  - J Alphard → J Transpluto Dec 22.2223 22.2222 (99.85) — only
+  - J Alphard → J Chiron RA 25.0018 25 (82.65) — only
+  - J Alphard → J Vesta Dec 28.0093 28 (28.56) — only
+  - J Alphard → J Sun RA 41.9808 42 (0.14) — only
+  - H RA midpoints: Jupiter = Rahu 44.77 (far, far side); Uranus = Pluto 43.21 (far, far side)
+  - H Dec midpoints: Sun = Neptune 13.14 (between); Vesta = Gonggong 10.38 (between)
+  - J RA midpoints: Pallas = Rahu 80.59 (near, between); Sedna = Quaoar 58.29 (far, far side)
+  - J Dec midpoints: Uranus = Sedna 53.75 (between); Gonggong = Orcus 37.68 (between); Sun = Jupiter 17.72 (between)
+- **Meissa** (sky Jupiter)
+  - H Meissa → H Quaoar RA 179.9969 180 (71.14) [360/2] — only
+  - H Meissa → H Mercury Dec 7.0034 7 (68.77) — only
+  - H Meissa → H Mars RA 82.0139 82 (9.21) — only
+  - J Meissa → J Chiron Dec 9.0110 9 (20.13) [360/40] — only
+  - J Meissa → J Uranus Dec 32.0132 32 (11.39) — only
+  - H RA midpoints: Mercury = Mars 58.12 (near, between); Pluto = Rahu 52.92 (far, far side)
+  - H Dec midpoints: Jupiter = Sedna 53.18 (between)
+  - J Dec midpoints: Sun = Haumea 66.43 (between); Sun = Mars 31.53 (between)
+- **Aculeus** (sky Sun)
+  - H Aculeus → H Juno RA 18.8898 18.8889 (99.33) — only
+  - H Aculeus → H Pluto Dec 12.9965 13 (67.67) [sky number: S Sun → Sadalmelik Dec 13] — only
+  - H Aculeus → H Quaoar RA 1.2997 conj (1.78) — only
+  - J Aculeus → J Pallas RA 155.3367 96×φ (68.99) — only
+  - J Aculeus → J Neptune Dec 10.9860 11 (8.93) — also: 2 Flying Instructor
+  - J Aculeus → J Mercury Dec 18.0195 18 (0.06) [360/20] — only
+  - J RA midpoints: Ceres = Sedna 92.13 (far, far side); Eris = Transpluto 44.29 (far, far side); Saturn = Haumea 37.55 (near, between); Neptune = Quaoar 29.54 (near, between); Neptune = Pluto 21.38 (near, between)
+- **Alkaid** (sky Sun)
+  - H Alkaid → H Ketu Dec 27.5009 17×φ (68.09) — only
+  - H Alkaid → H Gonggong Dec 63.1093 39×φ (66.35) — only
+  - H Alkaid → H Venus RA 179.6166 111×φ (29.43) — only
+  - H Alkaid → H Saturn RA 0.7636 conj (24.10) — only
+  - H Alkaid → H Mercury RA 155.3567 96×φ (4.52) — only
+  - H Alkaid → H Haumea RA 1.4200 conj (0.28) — only
+  - J Alkaid → J Mars Dec 27.5064 17×φ (99.04) — only
+  - J Alkaid → J Mercury RA 0.1764 conj (77.87) — only
+  - J Alkaid → J Sun Dec 50.9962 51 (65.34) — only
+  - J Alkaid → J Sun RA 23.0042 23 (62.55) — only
+  - J Alkaid → J Saturn Dec 60.0125 60 (14.05) [360/6] — only
+  - J Alkaid → J Chiron RA 39.9831 40 (2.44) [360/9] — only
+  - H RA midpoints: Sun = Ketu 87.03 (far, far side); Jupiter = Ceres 45.54 (far, far side); Mars = Rahu 43.67 (near, between)
+  - J RA midpoints: Jupiter = Haumea 98.56 (near, between); Makemake = Quaoar 26.34 (near, between); Haumea = Rahu 10.52 (near, between)
+- **Deneb Algedi** (sky Sun)
+  - H Deneb Algedi → H Vesta RA 38.8373 24×φ (74.42) — only
+  - H Deneb Algedi → H Eris RA 57.9926 58 (39.69) — only
+  - J Deneb Algedi → J Sun Dec 14.4456 14.4444 (98.77) — only
+  - J Deneb Algedi → J Transpluto RA 179.4207 10×φ^6 (95.15) — also: 3 Chase The Dollar
+  - J Deneb Algedi → J Pluto Dec 9.9879 10 (15.78) [360/36] — only
+  - J Deneb Algedi → J Mercury RA 119.7095 74×φ (5.22) [sky number: S Moon → Neptune RA 74×φ] — only
+  - J Deneb Algedi → J Rahu RA 103.5857 64×φ (0.06) — only
+  - J Dec midpoints: Venus = Saturn 59.72 (between); Saturn = Neptune 11.23 (between)
+- **Rasalhague** (sky Sun)
+  - H Rasalhague → H Quaoar RA 0.0493 conj (93.53) — only
+  - H Rasalhague → H Makemake RA 72.9982 73 (83.15) — only
+  - H Rasalhague → H Venus Dec 0.1524 conj (24.20) — only
+  - H Rasalhague → H Mars Dec 1.9852 2 (6.85) [360/180] — only
+  - H Rasalhague → H Eris RA 121.0154 121 (5.18) — only
+  - J Rasalhague → J Pallas Dec 27.5040 17×φ (84.94) — only
+  - J Rasalhague → J Transpluto Dec 1.0028 1 (74.04) [360/360] — only
+  - J Rasalhague → J Orcus Dec 11.0999 φ^5 (67.94) — only
+  - J Rasalhague → J Mars RA 145.6034 90×φ (15.47) — only
+  - H RA midpoints: Mercury = Mars 53.08 (far, far side); Pluto = Rahu 34.00 (near, between)
+  - H Dec midpoints: Sedna = Haumea 63.25 (between)
+  - J Dec midpoints: Eris = Makemake 93.56 (between)
+- **Sadalmelik** (sky Sun)
+  - H Sadalmelik → H Orcus RA 176.3726 109×φ (61.94) — only
+  - H Sadalmelik → H Pallas RA 3.9805 4 (0.05) [360/90] [sky number: S Sun → Sadalsuud RA 4] — only
+  - H Sadalmelik → H Transpluto RA 179.9802 180 (0.01) [360/2] — only
+  - J Sadalmelik → J Transpluto RA 174.7344 108×φ (34.80) — only
+  - J Sadalmelik → J Ceres RA 154.0123 154 (15.01) [sky number: S Moon → Galactic Centre RA 154] — only
+  - J Sadalmelik → J Gonggong RA 1.2485 conj (2.81) — also: 1 The Dancing Poet, 2 Flying Instructor, 3 Chase The Dollar, 4 Deluxe Music, 5 Carn A Chlamain
+  - H Dec midpoints: Jupiter = Gonggong 93.03 (between); Sedna = Orcus 50.05 (between); Pluto = Haumea 46.54 (between); Mercury = Eris 3.42 (between)
+  - J RA midpoints: Mercury = Vesta 63.19 (far, far side); Sun = Mars 44.63 (far, far side)
+  - J Dec midpoints: Mercury = Transpluto 87.27 (between); Uranus = Haumea 46.77 (between); Quaoar = Transpluto 38.74 (between); Sun = Chiron 18.62 (between)
+- **Sadalsuud** (sky Sun)
+  - H Sadalsuud → H Haumea Dec 23.9912 24 (31.34) [360/15] — only
+  - H Sadalsuud → H Sun Dec 0.2981 conj (0.00) — only
+  - J Sadalsuud → J Vesta RA 133.3774 133.333 (94.71) — only
+  - J Sadalsuud → J Chiron RA 155.9986 156 (86.34) — only
+  - J Sadalsuud → J Orcus RA 171.5075 106×φ (75.98) — only
+  - J Sadalsuud → J Juno RA 103.5234 64×φ (0.24) — only
+  - J Sadalsuud → J Sun RA 139.0196 139 (0.03) — only
+  - H RA midpoints: Pluto = Vesta 44.67 (near, between)
+  - H Dec midpoints: Eris = Orcus 89.20 (between); Mars = Rahu 68.85 (between); Uranus = Neptune 38.18 (between); Mercury = Gonggong 23.17 (between)
+  - J RA midpoints: Mars = Chiron 48.03 (far, far side)
+- **Castor** (sky Moon)
+  - H Castor → H Saturn RA 94.0012 94 (87.96) — only
+  - H Castor → H Sedna RA 61.0089 61 (30.75) — only
+  - H Castor → H Jupiter RA 78.0167 78 (2.78) — only
+  - H RA midpoints: Jupiter = Makemake 38.95 (near, between)
+  - J RA midpoints: Chiron = Pallas 97.88 (near, between); Sun = Ketu 75.19 (near, between); Uranus = Neptune 50.49 (far, far side)
+- **Facies** (sky Moon)
+  - H Facies → H Pluto RA 0.4719 conj (46.98) — only
+  - J Facies → J Eris Dec 15.5557 15.5556 (99.85) — only
+  - J Facies → J Sun Dec 22.2248 22.2222 (96.45) — only
+  - J Facies → J Juno Dec 18.0110 18 (20.21) [360/20] — only
+  - J Facies → J Ceres Dec 47.0135 47 (10.43) — only
+  - J RA midpoints: Eris = Makemake 42.31 (far, far side); Saturn = Juno 38.03 (near, between); Venus = Saturn 35.35 (near, between)
+- **Fomalhaut** (sky Moon)
+  - H Fomalhaut → H Orcus RA 163.4056 101×φ (25.95) — only
+  - H Fomalhaut → H Transpluto RA 167.0131 167 (11.76) — only
+  - H Fomalhaut → H Pallas RA 8.9866 9 (10.85) [360/40] — only
+  - H Fomalhaut → H Neptune Dec 17.9836 18 (3.24) [360/20] — only
+  - J Fomalhaut → J Pallas RA 76.0013 76 (87.47) — only
+  - J Fomalhaut → J Orcus RA 149.9833 150 (2.70) — only
+- **Galactic Centre** (sky Moon)
+  - H Galactic Centre → H Pallas Dec 28.9988 29 (88.59) — only
+  - H Galactic Centre → H Transpluto RA 114.9943 115 (51.37) — only
+  - H Galactic Centre → H Pallas RA 69.0059 69 (49.45) — only
+  - J Galactic Centre → J Pallas RA 154.0031 154 (71.51) [sky number: S Moon → Galactic Centre RA 154] — only
+  - J Galactic Centre → J Venus RA 46.9295 29×φ (63.81) — only
+  - J Galactic Centre → J Orcus RA 132.0149 132 (6.44) — only
+  - H RA midpoints: Eris = Orcus 74.49 (far, far side)
+  - J RA midpoints: Uranus = Quaoar 75.58 (near, between)
+- **Spica** (sky Moon)
+  - H Spica → H Haumea RA 7.0080 7 (36.03) — only
+  - H Spica → H Sun RA 144.9816 145 (0.65) — only
+  - H RA midpoints: Pallas = Ketu 81.86 (far, far side); Chiron = Ketu 76.06 (far, far side); Gonggong = Ketu 64.62 (far, far side); Ceres = Eris 54.58 (far, far side)
+  - H Dec midpoints: Saturn = Gonggong 82.75 (between); Pluto = Vesta 44.16 (between)
+  - J RA midpoints: Sun = Juno 26.11 (near, between); Sun = Venus 19.07 (near, between)
+  - J Dec midpoints: Eris = Quaoar 92.90 (between); Juno = Rahu 55.49 (between); Mercury = Eris 1.63 (between)
+### Organised
+- **By body** (3 or more cells): Sun 10 (HJ); Pallas 9 (HJ); Orcus 7 (HJ); Transpluto 7 (HJ); Quaoar 6 (H); Saturn 5 (HJ); Mercury 5 (HJ); Chiron 5 (J); Vesta 4 (HJ); Venus 4 (HJ); Haumea 4 (HJ); Eris 4 (HJ); Mars 4 (HJ); Pluto 3 (HJ); Juno 3 (HJ); Gonggong 3 (HJ); Neptune 3 (HJ)
+- **By number** (across layers or charts): 7 (whole) ×4; 9 (whole) ×3; 17×φ (golden) ×3; 18 (whole) ×3; 78 (whole) ×2; 96×φ (golden) ×2
+- **By family** (cells >= 50): whole 17, golden 10, ninth 7, conj 3, phi power 2
+- **Threads** (>= 4 cells on one body, both charts, >= 2 layers): Sun 6 (H 1, J 5; same body, star rows); Pallas 6 (H 1, J 5; star rows, top rows); Orcus 4 (H 2, J 2; same body, star rows)
+- **Flags held**: line star carries a sky number; same source on the same body, both charts
