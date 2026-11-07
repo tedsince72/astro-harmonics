@@ -1,0 +1,2633 @@
+# Stage 2 layers: race_batch_20261106_hexham_1335_jupiter_tables.xlsx
+The stage 1 data laid out in fixed layers for every runner; data only, no interpretation, no ranking, no pick (tools/eddie_layers.py).
+
+## L0 field
+- In the tables workbook (6): 1 Walk Tall / Freddie Gingell; 3 Defence Witness / Jonathan England; 4 Wise Move / Jonathon Bewley; 5 C'Mon So / Patrick Wadge; 7 Aill Dubh / Brian Hughes; 8 Croagh Patrick / Charlie Maggs
+- Missing from the tables workbook (in the _active.xlsx): 2 Lunar Contact
+- Cloth numbers not in the tables workbook: 2, 6
+
+## Sky (noted lines)
+- S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+- S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+- S Sun → Haumea RA 0.5829 conj (37.38)
+- S Sun → Algenib RA 141.9957 142 whole (61.23)
+- S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- S Sun → Adhara Dec 12.9952 13 whole (57.45)
+- S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+- S Moon → Orcus RA 27.5001 17×φ golden (63.79)
+- S Moon → Capella RA 110.0018 110 whole (82.88)
+- S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+- Hubs: Capella
+
+## READ (reading order, Eddie 7 Nov 2026)
+### READ 1 same body first
+- **1 Walk Tall / Freddie Gingell**
+  - S Saturn → H Saturn Dec 20.9865 21 whole (10.54)
+  - S Uranus → H Uranus RA 28.9705 29 whole (loose)
+  - S Haumea → H Haumea RA 5.5554 5.55556 ninth (98.87)
+  - S Pallas → J Pallas RA 122.7031 122.222 ninth (loose)
+  - S Juno → J Juno RA 132.0093 132 whole (28.79)
+  - S Rahu → J Rahu Dec 16.5556 16.6667 ninth (loose)
+  - S Eris → J Eris RA 2.9824 3 whole (1.48)
+  - S Orcus → J Orcus RA 17.7953 17.7778 ninth (loose)
+  - S Ketu → J Ketu Dec 16.5556 16.6667 ninth (loose)
+- **3 Defence Witness / Jonathan England**
+  - S Sun → H Sun RA 141.7042 141.4 sqrt2 (loose)
+  - S Neptune → H Neptune RA 14.0213 14 whole (loose)
+  - S Ceres → H Ceres RA 137.5197 85×φ golden (35.09)
+  - S Juno → H Juno RA 132.8529 133.333 ninth (loose)
+  - S Sedna → H Sedna Dec 0.9852 1 whole (6.89)
+  - S Haumea → H Haumea Dec 3.2387 2×φ golden (loose)
+  - S Sun → J Sun RA 161.9776 162 whole (loose)
+  - S Jupiter → J Jupiter Dec 5.9962 6 whole (65.63)
+  - S Ceres → J Ceres Dec 22.0089 22 whole (30.67)
+  - S Pallas → J Pallas RA 144.3729 144.444 ninth (loose)
+  - S Rahu → J Rahu RA 33.3918 33.3333 ninth (loose)
+  - S Orcus → J Orcus RA 32.3912 20×φ golden (loose)
+  - S Ketu → J Ketu RA 33.3918 33.3333 ninth (loose)
+- **4 Wise Move / Jonathon Bewley**
+  - S Sun → H Sun Dec 29.1525 18×φ golden (loose)
+  - S Mercury → H Mercury Dec 15.4955 15.5556 ninth (loose)
+  - S Venus → H Venus Dec 33.3034 33.3333 ninth (loose)
+  - S Vesta → H Vesta Dec 12.9560 8×φ golden (loose)
+  - S Sedna → H Sedna Dec 0.9985 1 whole (85.89)
+  - S Mercury → J Mercury Dec 35.5760 22×φ golden (loose)
+  - S Venus → J Venus RA 77.7197 77.7778 ninth (loose)
+  - S Venus → J Venus Dec 33.2506 33.3333 ninth (loose)
+  - S Mars → J Mars Dec 1.2164 1.22222 ninth (loose)
+  - S Saturn → J Saturn RA 115.0106 115 whole (21.96)
+  - S Pallas → J Pallas RA 141.3566 141.4 sqrt2 (loose)
+  - S Juno → J Juno Dec 13.3182 13.3333 ninth (loose)
+  - S Sedna → J Sedna Dec 4.8559 3×φ golden (loose)
+  - S Makemake → J Makemake Dec 16.5807 16.6667 ninth (loose)
+  - S Orcus → J Orcus Dec 19.3857 12×φ golden (loose)
+  - S Transpluto → J Transpluto Dec 4.8452 3×φ golden (loose)
+- **5 C'Mon So / Patrick Wadge**
+  - S Venus → H Venus RA 154.9798 155 whole (loose)
+  - S Jupiter → H Jupiter RA 176.8359 177.778 ninth (loose)
+  - S Uranus → H Uranus RA 24.1012 24.14 silver (loose)
+  - S Pluto → H Pluto Dec 1.4439 1.44444 ninth (loose)
+  - S Vesta → H Vesta RA 144.9674 144.444 ninth (loose)
+  - S Haumea → H Haumea RA 4.9831 5 whole (2.40)
+  - S Mars → J Mars Dec 19.9796 20 whole (loose)
+  - S Neptune → J Neptune RA 51.9934 52 whole (44.81)
+  - S Pallas → J Pallas RA 88.7720 88.8889 ninth (loose)
+  - S Juno → J Juno Dec 14.3533 14.4444 ninth (loose)
+  - S Eris → J Eris Dec 6.4760 4×φ golden (loose)
+  - S Makemake → J Makemake RA 20.0179 20 whole (1.11)
+  - S Orcus → J Orcus Dec 11.3027 7×φ golden (loose)
+  - S Quaoar → J Quaoar RA 31.0267 31 whole (loose)
+  - S Gonggong → J Gonggong Dec 6.4771 4×φ golden (loose)
+  - S Transpluto → J Transpluto Dec 2.9917 3 whole (34.48)
+- **7 Aill Dubh / Brian Hughes**
+  - S Sun → H Sun RA 179.2359 10×φ^6 phi power (loose)
+  - S Mercury → H Mercury RA 165.9155 166.667 ninth (loose)
+  - S Venus → H Venus RA 161.1788 100×φ^1 phi power (loose)
+  - S Venus → H Venus Dec 14.0881 14.14 sqrt2 (loose)
+  - S Mars → H Mars RA 77.7703 77.7778 ninth (94.16)
+  - S Saturn → H Saturn Dec 22.9803 23 whole (0.02)
+  - S Pluto → H Pluto RA 15.5830 15.5556 ninth (loose)
+  - S Ceres → H Ceres RA 55.4943 55.5556 ninth (loose)
+  - S Juno → H Juno RA 16.5693 16.6667 ninth (loose)
+  - S Rahu → H Rahu Dec 24.1073 24.14 silver (loose)
+  - S Gonggong → H Gonggong Dec 1.9801 2 whole (0.00)
+  - S Transpluto → H Transpluto RA 4.0267 4 whole (loose)
+  - S Ketu → H Ketu Dec 24.1073 24.14 silver (loose)
+  - S Venus → J Venus RA 161.3103 100×φ^1 phi power (loose)
+  - S Mars → J Mars Dec 8.0937 5×φ golden (loose)
+  - S Gonggong → J Gonggong Dec 11.0971 11.1111 ninth (loose)
+- **8 Croagh Patrick / Charlie Maggs**
+  - S Sun → H Sun RA 138.9904 139 whole (26.85)
+  - S Sun → H Sun Dec 16.1044 10×φ^1 phi power (loose)
+  - S Neptune → H Neptune RA 22.1628 22.2222 ninth (loose)
+  - S Juno → H Juno RA 179.5892 10×φ^6 phi power (loose)
+  - S Transpluto → H Transpluto RA 4.4401 4.44444 ninth (loose)
+  - S Venus → J Venus Dec 14.1309 14.14 sqrt2 (loose)
+  - S Pallas → J Pallas RA 144.6099 144.444 ninth (loose)
+  - S Vesta → J Vesta Dec 24.1659 24.14 silver (loose)
+  - S Haumea → J Haumea RA 18.7629 18.8889 ninth (loose)
+  - S Orcus → J Orcus RA 17.7282 17.7778 ninth (loose)
+  - S Orcus → J Orcus Dec 9.6998 6×φ golden (loose)
+  - S Transpluto → J Transpluto RA 6.6582 6.66667 ninth (loose)
+### READ 2 Jupiter / Sun star lines, highest score first, each in full
+#### 1. S Jupiter → Capella Dec 32.0002 32 whole (97.83) — runners with cells 6/6
+- Moon confirms: S Moon → Capella RA 110.0018 110 whole (82.88)
+- 1 Walk Tall / Freddie Gingell
+  - star rows: H Capella → H Uranus RA 46.0095 46 whole (27.76) — also: 3 Defence Witness / Jonathan England
+  - star rows: H Capella → H Pluto Dec 67.9977 68 whole (77.98) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: H Capella → H Sedna Dec 38.0180 38 whole (1.02) — only
+  - star rows: H Capella → H Haumea RA 136.0099 136 whole (25.39) — only
+  - star rows: J Capella → J Mercury RA 169.8824 105×φ golden (42.81) — only
+  - MATCH EXACT: H Regulus → Saturn Dec 32.0079 32 whole (36.85)
+  - MATCH EXACT: J Regulus → Venus Dec 31.9931 32 whole (42.74)
+  - MATCH EXACT: J Aldebaran → Quaoar Dec 32.0115 32 whole (18.12)
+- 3 Defence Witness / Jonathan England
+  - star rows: S Capella → J Jupiter Dec 26.0040 26 whole (63.88) — only
+  - star rows: J Capella → J Saturn Dec 65.0175 65 whole (1.53) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Capella → J Uranus RA 153.9999 154 whole (99.35) — also: 1 Walk Tall / Freddie Gingell
+  - star rows: J Capella → J Quaoar RA 156.9714 97×φ golden (10.03) — also: 8 Croagh Patrick / Charlie Maggs
+  - MATCH EXACT: H Aldebaran → Quaoar Dec 31.9820 32 whole (1.00)
+- 4 Wise Move / Jonathon Bewley
+  - star rows: H Capella → H Pallas RA 2.9909 3 whole (29.84) — only
+  - star rows: H Capella → H Vesta RA 164.9942 165 whole (50.53) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+  - star rows: H Capella → H Makemake Dec 21.0394 13×φ golden (71.71) — also: 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Capella → J Mars RA 58.9933 59 whole (44.20) — also: 7 Aill Dubh / Brian Hughes
+  - star rows: J Capella → J Saturn RA 174.7534 108×φ golden (67.53) — also: 3 Defence Witness / Jonathan England, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Capella → J Juno Dec 46.9221 29×φ golden (94.33) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+  - star rows: J Capella → J Transpluto RA 63.9927 64 whole (40.12) — only
+  - MATCH EXACT: H Phact → Eris Dec 32.0080 32 whole (36.24)
+  - MATCH EXACT: J Spica → Venus Dec 32.0031 32 whole (71.28)
+  - MATCH EXACT: J Diadem → Quaoar RA 32.0172 32 whole (1.94)
+- 5 C'Mon So / Patrick Wadge
+  - star rows: H Capella → H Vesta Dec 28.0094 28 whole (28.03) — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+  - star rows: H Capella → H Gonggong RA 101.9980 102 whole (80.69) — also: 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Capella → J Pluto Dec 59.0076 59 whole (38.41) — also: 1 Walk Tall / Freddie Gingell
+  - star rows: J Capella → J Ceres Dec 69.9949 70 whole (55.85) — only
+  - star rows: J Capella → J Juno RA 68.0142 68 whole (8.32) — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+  - MATCH EXACT: H Meissa → Ketu Dec 31.9828 32 whole (1.90)
+  - MATCH EXACT: J Markab → Gonggong Dec 31.9958 32 whole (62.54)
+  - same number: H Meissa → H Ketu Dec 31.9828 32 whole (1.90) — only
+- 7 Aill Dubh / Brian Hughes
+  - star rows: H Capella → H Mars RA 12.9827 13 whole (1.86) — also: 4 Wise Move / Jonathon Bewley
+  - star rows: H Capella → H Vesta RA 43.9913 44 whole (31.75) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+  - star rows: J Capella → J Juno RA 103.5398 64×φ golden (30.99) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+  - MATCH EXACT: J Ankaa → Eris Dec 31.9874 32 whole (13.62)
+  - MATCH EXACT: J Mirfak → Chiron Dec 31.9807 32 whole (0.14)
+- 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Capella → H Saturn Dec 64.9913 65 whole (32.11) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+  - star rows: H Capella → H Eris Dec 48.9971 49 whole (73.48) — only
+  - star rows: H Capella → H Gonggong RA 103.5443 64×φ golden (48.24) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: J Capella → J Sun RA 132.6564 82×φ golden (9.42) — only
+  - star rows: J Capella → J Saturn RA 54.0182 54 whole (0.83) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+  - star rows: J Capella → J Makemake RA 106.0169 106 whole (2.42) — also: 4 Wise Move / Jonathon Bewley
+  - star rows: J Capella → J Quaoar RA 174.0024 174 whole (77.32) — also: 3 Defence Witness / Jonathan England
+  - MATCH EXACT: H Rukbat → Orcus Dec 32.0030 32 whole (72.59)
+  - MATCH EXACT: H Alhena → Quaoar Dec 32.0044 32 whole (61.11)
+  - MATCH EXACT: H Mirfak → Jupiter Dec 31.9866 32 whole (10.89)
+  - MATCH EXACT: J Alhena → Pluto Dec 31.9990 32 whole (90.47)
+#### 2. S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91) — runners with cells 6/6
+- Moon confirms: none
+- 1 Walk Tall / Freddie Gingell
+  - star rows: H Alkaid → H Mercury RA 150.0154 150 whole (5.40) — only
+  - star rows: H Alkaid → H Ceres Dec 68.9995 69 whole (95.46) — only
+  - star rows: H Alkaid → H Pallas RA 85.0011 85 whole (88.88) — only
+  - star rows: H Alkaid → H Rahu Dec 25.8857 16×φ golden (83.42) — also: 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Alkaid → J Juno Dec 51.0077 51 whole (37.52) — only
+  - star rows: J Alkaid → J Rahu RA 161.9942 162 whole (50.36) — also: 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Alkaid → J Haumea RA 3.9809 4 whole (0.19) — only
+  - star rows: J Alkaid → J Orcus RA 62.9947 63 whole (53.91) — only
+  - star rows: J Alkaid → J Ketu RA 18.0058 18 whole (50.36) — only
+- 3 Defence Witness / Jonathan England
+  - star rows: H Alkaid → H Sun Dec 48.0031 48 whole (71.27) — only
+  - star rows: H Alkaid → H Makemake Dec 24.9813 25 whole (0.39) — also: 4 Wise Move / Jonathon Bewley
+  - star rows: J Alkaid → J Eris Dec 58.2481 36×φ golden (93.38) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+  - MATCH EXACT: H Rigel → Jupiter Dec 14.4490 14.4444 ninth (95.21)
+- 4 Wise Move / Jonathon Bewley
+  - star rows: J Alkaid → J Makemake RA 41.4281 41.4 silver (93.57) — also: 3 Defence Witness / Jonathan England
+  - MATCH EXACT: H Algorab → Eris Dec 14.4486 14.4444 ninth (95.58)
+- 5 C'Mon So / Patrick Wadge
+  - star rows: H Alkaid → H Eris RA 179.4728 10×φ^6 phi power (93.41) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes
+  - star rows: J Alkaid → J Mars RA 145.6406 90×φ golden (20.92) — also: 7 Aill Dubh / Brian Hughes
+  - star rows: J Alkaid → J Sedna Dec 43.9855 44 whole (7.45) — only
+  - star rows: J Alkaid → J Quaoar RA 43.0031 43 whole (71.82) — only
+  - MATCH EXACT: H Spica → Haumea RA 14.4483 14.4444 ninth (95.93)
+  - MATCH EXACT: J Alkes → Mars Dec 14.4420 14.4444 ninth (97.43)
+  - MATCH EXACT: S body → J Jupiter → Ceres RA 14.4401 14.4444 ninth (95.35)
+  - same number: S Juno → J Juno Dec 14.3533 14.4444 ninth (loose) — only
+  - same number: S Ceres → J Jupiter RA 14.4401 14.4444 ninth (95.35) — only
+- 7 Aill Dubh / Brian Hughes
+  - star rows: H Alkaid → H Mars Dec 26.9948 27 whole (54.41) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: H Alkaid → H Eris RA 179.0136 179 whole (10.19) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge
+  - star rows: J Alkaid → J Pluto RA 9.0193 9 whole (0.11) — only
+- 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Alkaid → J Venus RA 52.9881 53 whole (16.35) — only
+  - star rows: J Alkaid → J Uranus Dec 59.0193 59 whole (0.13) — only
+  - star rows: J Alkaid → J Rahu Dec 44.0091 44 whole (29.45) — also: 1 Walk Tall / Freddie Gingell
+#### 3. S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24) — runners with cells 6/6
+- Moon confirms: none
+- 1 Walk Tall / Freddie Gingell
+  - star rows: H Galactic Centre → H Sun RA 110.9592 10×φ^5 phi power (80.33) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: H Galactic Centre → H Mars RA 41.9961 42 whole (64.63) — also: 4 Wise Move / Jonathon Bewley
+  - star rows: H Galactic Centre → H Pluto Dec 7.0071 7 whole (41.79) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+  - star rows: H Galactic Centre → H Sedna RA 151.0014 151 whole (86.11) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Galactic Centre → H Sedna Dec 36.9868 37 whole (11.40) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Galactic Centre → J Venus Dec 8.9808 9 whole (0.15) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: J Galactic Centre → J Saturn RA 133.3338 133.333 ninth (99.95) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Galactic Centre → J Gonggong RA 66.3395 41×φ golden (99.46) — only
+- 3 Defence Witness / Jonathan England
+  - star rows: H Galactic Centre → H Uranus RA 122.2629 122.222 ninth (94.37) — only
+  - star rows: S Galactic Centre → J Jupiter Dec 48.9980 49 whole (80.60) — only
+  - star rows: J Galactic Centre → J Saturn Dec 9.9905 10 whole (27.42) — also: 1 Walk Tall / Freddie Gingell, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Galactic Centre → J Juno Dec 21.0325 13×φ golden (88.33) — only
+  - natal Jupiter → star: J Jupiter → J star Galactic Centre Dec 48.9972 49 whole (74.25) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+  - MATCH EXACT: H Wezen → Haumea Dec 42.9913 43 whole (32.02)
+  - MATCH EXACT: H Murzim → Mars RA 42.9848 43 whole (5.86)
+  - MATCH EXACT: J Hamal → Gonggong Dec 43.0008 43 whole (92.33)
+- 4 Wise Move / Jonathon Bewley
+  - star rows: H Galactic Centre → H Mars RA 26.0002 26 whole (98.42) — also: 1 Walk Tall / Freddie Gingell
+  - star rows: H Galactic Centre → H Ketu RA 46.9771 φ^8 phi power (98.63) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: J Galactic Centre → J Mercury RA 156.9248 97×φ golden (5.90) — only
+  - star rows: J Galactic Centre → J Chiron RA 179.6070 111×φ golden (70.24) — only
+  - star rows: J Galactic Centre → J Sedna RA 135.0140 135 whole (8.97) — also: 1 Walk Tall / Freddie Gingell, 8 Croagh Patrick / Charlie Maggs
+  - MATCH EXACT: J Denebola → Pluto RA 42.9885 43 whole (17.87)
+- 5 C'Mon So / Patrick Wadge
+  - star rows: H Galactic Centre → H Venus RA 139.1420 86×φ golden (52.27) — also: 1 Walk Tall / Freddie Gingell
+  - star rows: H Galactic Centre → H Vesta Dec 46.9947 47 whole (54.38) — also: 7 Aill Dubh / Brian Hughes
+  - star rows: J Galactic Centre → J Sun RA 22.0018 22 whole (82.95) — also: 1 Walk Tall / Freddie Gingell
+  - star rows: J Galactic Centre → J Pluto Dec 15.9990 16 whole (90.37) — also: 1 Walk Tall / Freddie Gingell, 7 Aill Dubh / Brian Hughes
+  - star rows: J Galactic Centre → J Ceres Dec 5.0117 5 whole (17.34) — only
+  - star rows: J Galactic Centre → J Haumea RA 67.0114 67 whole (18.33) — also: 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Galactic Centre → J Ketu RA 0.3561 conj (58.16) — also: 4 Wise Move / Jonathon Bewley
+  - MATCH EXACT: H Acumen → Sedna Dec 42.9829 43 whole (2.10)
+  - MATCH EXACT: J Alkaid → Quaoar RA 43.0031 43 whole (71.82)
+  - same number: J Alkaid → J Quaoar RA 43.0031 43 whole (71.82) — only
+- 7 Aill Dubh / Brian Hughes
+  - star rows: H Galactic Centre → H Saturn RA 0.3031 conj (63.67) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Galactic Centre → H Pluto RA 24.1451 24.14 silver (95.14) — also: 1 Walk Tall / Freddie Gingell, 5 C'Mon So / Patrick Wadge
+  - star rows: H Galactic Centre → H Orcus RA 114.9836 115 whole (3.31) — only
+  - star rows: J Galactic Centre → J Vesta Dec 27.9802 28 whole (0.01) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: J Galactic Centre → J Rahu RA 139.1228 86×φ golden (1.73) — only
+  - MATCH EXACT: J Murzim → Mercury Dec 43.0060 43 whole (49.21)
+- 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Galactic Centre → H Saturn Dec 10.0143 10 whole (8.23) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes
+  - star rows: H Galactic Centre → H Pallas RA 1.3264 conj (1.34) — only
+  - star rows: H Galactic Centre → H Eris Dec 26.0085 26 whole (33.33) — only
+  - star rows: H Galactic Centre → H Sedna RA 147.9904 148 whole (27.06) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley
+  - star rows: H Galactic Centre → H Haumea RA 55.5528 55.5556 ninth (97.39) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: H Galactic Centre → H Quaoar RA 1.4235 conj (0.26) — only
+  - MATCH EXACT: H Fomalhaut → Venus Dec 43.0048 43 whole (57.40)
+  - MATCH EXACT: H Arcturus → Ceres Dec 42.9868 43 whole (11.42)
+  - MATCH EXACT: J Vega → Orcus Dec 43.0009 43 whole (91.59)
+#### 4. S Sun → Pollux Dec 43.9981 44 whole (82.31) — runners with cells 6/6
+- Moon confirms: none
+- 1 Walk Tall / Freddie Gingell
+  - star rows: H Pollux → H Pluto RA 179.6058 111×φ golden (76.53) — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Pollux → H Chiron RA 111.9836 112 whole (3.25) — also: 3 Defence Witness / Jonathan England
+  - star rows: H Pollux → H Orcus Dec 38.8364 24×φ golden (79.25) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+  - star rows: H Pollux → H Ketu RA 155.5422 155.556 ninth (98.73) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes
+  - star rows: J Pollux → J Jupiter RA 103.0125 103 whole (13.92) — only
+  - MATCH EXACT: J Rukbat → Pallas Dec 44.0012 44 whole (88.77)
+  - MATCH EXACT: J Alpheratz → Neptune RA 44.0129 44 whole (12.44)
+  - MATCH EXACT: J Mirfak → Sedna Dec 44.0195 44 whole (0.06)
+- 3 Defence Witness / Jonathan England
+  - star rows: H Pollux → H Chiron RA 116.0034 116 whole (68.58) — also: 1 Walk Tall / Freddie Gingell
+  - star rows: H Pollux → H Rahu RA 0.7776 conj (23.20) — also: 7 Aill Dubh / Brian Hughes
+  - star rows: H Pollux → H Eris Dec 29.9854 30 whole (7.26) — only
+  - star rows: H Pollux → H Makemake RA 79.9872 80 whole (13.01) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: H Pollux → H Orcus RA 37.2138 23×φ golden (93.91) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley
+  - star rows: J Pollux → J Juno Dec 36.0019 36 whole (82.19) — only
+  - star rows: J Pollux → J Ketu RA 1.1288 conj (6.13) — also: 1 Walk Tall / Freddie Gingell, 7 Aill Dubh / Brian Hughes
+  - MATCH EXACT: H Jupiter → H body → Rahu Dec 44.0146 44 whole (7.38)
+  - MATCH EXACT: H Algol → Sun RA 44.0157 44 whole (4.72)
+  - MATCH EXACT: J Algorab → Pluto RA 44.0200 44 whole (0.00)
+- 4 Wise Move / Jonathon Bewley
+  - star rows: H Pollux → H Pluto RA 176.3672 109×φ golden (90.99) — also: 1 Walk Tall / Freddie Gingell, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Pollux → H Orcus RA 36.0067 36 whole (44.12) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England
+  - MATCH EXACT: J Phact → Jupiter Dec 43.9980 44 whole (80.93)
+  - MATCH EXACT: J Praesepe → Chiron RA 43.9907 44 whole (28.44)
+- 5 C'Mon So / Patrick Wadge
+  - star rows: H Pollux → H Pallas Dec 21.9978 22 whole (78.81) — also: 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Pollux → H Makemake RA 80.9936 81 whole (45.91) — also: 3 Defence Witness / Jonathan England
+  - star rows: H Pollux → H Gonggong RA 139.1542 86×φ golden (80.58) — only
+  - star rows: J Pollux → J Saturn Dec 8.0020 8 whole (80.62) — also: 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Pollux → J Uranus RA 151.0048 151 whole (57.61) — only
+  - star rows: J Pollux → J Sedna RA 69.0003 69 whole (96.86) — only
+  - MATCH EXACT: J Alkaid → Sedna Dec 43.9855 44 whole (7.45)
+  - same number: J Alkaid → J Sedna Dec 43.9855 44 whole (7.45) — also: 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+- 7 Aill Dubh / Brian Hughes
+  - star rows: H Pollux → H Rahu RA 36.0174 36 whole (1.67) — also: 3 Defence Witness / Jonathan England
+  - star rows: H Pollux → H Quaoar RA 153.9952 154 whole (57.62) — only
+  - star rows: H Pollux → H Ketu RA 143.9826 144 whole (1.67) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England
+  - star rows: J Pollux → J Pluto Dec 24.2775 15×φ golden (61.53) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+  - MATCH EXACT: H Zubenelgenubi → Saturn RA 43.9998 44 whole (97.55)
+  - MATCH EXACT: H Sadalmelik → Juno RA 44.0003 44 whole (96.80)
+  - MATCH EXACT: H Capella → Vesta RA 43.9913 44 whole (31.75)
+  - MATCH EXACT: H Ankaa → Venus Dec 43.9863 44 whole (10.04)
+  - MATCH EXACT: J Zosma → Orcus RA 44.0129 44 whole (12.51)
+  - same number: H Capella → H Vesta RA 43.9913 44 whole (31.75) — also: 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+  - same number: H Zubenelgenubi → H Saturn RA 43.9998 44 whole (97.55) — also: 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+- 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Pollux → H Venus RA 84.0144 84 whole (7.91) — only
+  - star rows: H Pollux → H Saturn Dec 47.0192 47 whole (0.15) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: H Pollux → H Pluto RA 169.8642 105×φ golden (0.85) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+  - star rows: H Pollux → H Ceres RA 177.7061 177.778 ninth (94.39) — only
+  - star rows: J Pollux → J Saturn Dec 10.0061 10 whole (48.63) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: J Pollux → J Pluto RA 145.9863 146 whole (10.00) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+  - star rows: J Pollux → J Pallas RA 113.9865 114 whole (10.56) — also: 5 C'Mon So / Patrick Wadge
+  - MATCH EXACT: J Alkaid → Rahu Dec 44.0091 44 whole (29.45)
+  - same number: J Alkaid → J Rahu Dec 44.0091 44 whole (29.45) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+#### 5. S Sun → Meissa RA 137.5285 85×φ golden (74.78) — runners with cells 6/6
+- Moon confirms: none
+- 1 Walk Tall / Freddie Gingell
+  - star rows: H Meissa → H Mercury Dec 14.0029 14 whole (73.18) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+  - star rows: H Meissa → H Venus Dec 15.0089 15 whole (31.01) — also: 3 Defence Witness / Jonathan England
+  - star rows: H Meissa → H Makemake Dec 14.0117 14 whole (17.08) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+  - star rows: J Meissa → J Chiron RA 142.0135 142 whole (10.67) — only
+  - star rows: J Meissa → J Vesta RA 27.0038 27 whole (65.98) — also: 8 Croagh Patrick / Charlie Maggs
+  - MATCH EXACT: H Alphard → Chiron RA 137.5575 85×φ golden (5.66)
+- 3 Defence Witness / Jonathan England
+  - star rows: H Meissa → H Venus Dec 22.9860 23 whole (8.87) — also: 1 Walk Tall / Freddie Gingell
+  - star rows: H Meissa → H Mars Dec 9.9823 10 whole (1.36) — only
+  - star rows: H Meissa → H Pallas Dec 3.0186 3 whole (0.46) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: H Meissa → H Eris RA 58.0182 58 whole (0.85) — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Meissa → H Transpluto Dec 1.0048 1 whole (57.55) — also: 7 Aill Dubh / Brian Hughes
+  - star rows: J Meissa → J Sun Dec 0.2047 conj (10.09) — only
+  - star rows: J Meissa → J Uranus Dec 32.9965 33 whole (68.22) — also: 4 Wise Move / Jonathon Bewley
+  - star rows: J Meissa → J Neptune RA 155.5892 155.556 ninth (96.82) — only
+  - star rows: J Meissa → J Makemake Dec 26.0156 26 whole (4.87) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley
+  - same number: S Ceres → H Ceres RA 137.5197 85×φ golden (35.09) — only
+- 4 Wise Move / Jonathon Bewley
+  - star rows: H Meissa → H Mercury RA 74.9845 75 whole (5.03) — also: 1 Walk Tall / Freddie Gingell, 5 C'Mon So / Patrick Wadge
+  - star rows: H Meissa → H Uranus RA 56.9873 57 whole (13.17) — also: 3 Defence Witness / Jonathan England
+  - star rows: H Meissa → H Ceres RA 50.9885 51 whole (18.24) — also: 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Meissa → H Eris Dec 12.0030 12 whole (72.19) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Meissa → H Makemake RA 111.1722 111.111 ninth (90.01) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England
+  - star rows: H Meissa → H Quaoar RA 172.0161 172 whole (3.79) — only
+  - star rows: H Meissa → H Gonggong Dec 21.9848 22 whole (5.76) — also: 7 Aill Dubh / Brian Hughes
+  - star rows: J Meissa → J Jupiter Dec 0.0079 conj (94.83) — only
+  - star rows: J Meissa → J Mercury Dec 11.3277 7×φ golden (90.87) — also: 1 Walk Tall / Freddie Gingell, 5 C'Mon So / Patrick Wadge
+  - natal Jupiter → star: J Jupiter → J star Meissa Dec 0.0079 conj (94.83) — also: 3 Defence Witness / Jonathan England, 8 Croagh Patrick / Charlie Maggs
+- 5 C'Mon So / Patrick Wadge
+  - star rows: H Meissa → H Ceres RA 57.0099 57 whole (25.58) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Meissa → H Pallas RA 101.9506 63×φ golden (30.68) — also: 3 Defence Witness / Jonathan England
+  - star rows: H Meissa → H Juno RA 179.4163 10×φ^6 phi power (94.20) — also: 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Meissa → H Ketu Dec 31.9828 32 whole (1.90) — only
+  - star rows: J Meissa → J Mercury RA 135.9354 84×φ golden (13.34) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley
+  - star rows: J Meissa → J Ketu Dec 33.3396 33.3333 ninth (92.50) — only
+  - MATCH EXACT: J Praesepe → Mars RA 137.5065 85×φ golden (3.45)
+- 7 Aill Dubh / Brian Hughes
+  - star rows: H Meissa → H Eris Dec 12.2284 12.2222 ninth (91.48) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Meissa → H Gonggong Dec 22.2259 22.2222 ninth (94.87) — also: 4 Wise Move / Jonathon Bewley
+  - star rows: J Meissa → J Saturn RA 147.2282 91×φ golden (36.14) — only
+  - star rows: J Meissa → J Saturn Dec 26.1813 10×φ^2 phi power (98.57) — only
+  - star rows: J Meissa → J Haumea Dec 13.9918 14 whole (34.81) — only
+  - star rows: J Meissa → J Gonggong RA 115.0103 115 whole (23.39) — also: 4 Wise Move / Jonathon Bewley
+  - star rows: J Meissa → J Transpluto Dec 4.9922 5 whole (37.08) — also: 3 Defence Witness / Jonathan England
+  - MATCH EXACT: H Pleiades → Jupiter RA 137.5082 85×φ golden (5.64)
+- 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Meissa → H Rahu RA 105.1775 65×φ golden (69.98) — only
+  - star rows: J Meissa → J Ceres RA 166.6749 166.667 ninth (99.30) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+  - star rows: J Meissa → J Juno RA 0.6759 conj (30.18) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: J Meissa → J Vesta RA 28.9956 29 whole (60.70) — also: 1 Walk Tall / Freddie Gingell
+  - star rows: J Meissa → J Eris Dec 15.5586 15.5556 ninth (97.09) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+  - star rows: J Meissa → J Sedna Dec 3.9844 4 whole (4.76) — only
+  - star rows: J Meissa → J Orcus Dec 14.1476 14.14 sqrt2 (85.09) — only
+#### 6. S Sun → Algenib RA 141.9957 142 whole (61.23) — runners with cells 6/6
+- Moon confirms: none
+- 1 Walk Tall / Freddie Gingell
+  - star rows: H Algenib → H Chiron RA 1.0382 conj (9.48) — also: 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Algenib → H Orcus Dec 25.9910 26 whole (30.13) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge
+  - star rows: J Algenib → J Saturn Dec 3.0113 3 whole (18.89) — also: 7 Aill Dubh / Brian Hughes
+  - star rows: J Algenib → J Ketu Dec 19.0116 19 whole (17.64) — only
+  - MATCH EXACT: J Meissa → Chiron RA 142.0135 142 whole (10.67)
+  - same number: J Meissa → J Chiron RA 142.0135 142 whole (10.67) — also: 7 Aill Dubh / Brian Hughes
+- 3 Defence Witness / Jonathan England
+  - star rows: H Algenib → H Sun RA 0.2819 conj (65.94) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Algenib → H Sedna RA 53.3984 33×φ golden (80.98) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+  - star rows: H Algenib → H Makemake RA 166.9889 167 whole (19.75) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Algenib → J Sun RA 19.9911 20 whole (30.64) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Algenib → J Pallas RA 155.9943 156 whole (50.91) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Algenib → J Orcus RA 125.9864 126 whole (10.10) — also: 1 Walk Tall / Freddie Gingell, 5 C'Mon So / Patrick Wadge
+  - star rows: J Algenib → J Gonggong RA 32.9975 33 whole (76.64) — only
+  - star rows: J Algenib → J Transpluto RA 140.7540 87×φ golden (29.07) — also: 7 Aill Dubh / Brian Hughes
+- 4 Wise Move / Jonathon Bewley
+  - star rows: H Algenib → H Sun Dec 2.0017 2 whole (83.29) — also: 3 Defence Witness / Jonathan England, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Algenib → H Mercury Dec 13.9989 14 whole (89.04) — also: 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Algenib → H Pallas Dec 18.9919 19 whole (35.28) — also: 3 Defence Witness / Jonathan England, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Algenib → J Ceres RA 102.0194 102 whole (0.08) — also: 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Algenib → J Rahu RA 0.3233 conj (61.54) — also: 7 Aill Dubh / Brian Hughes
+- 5 C'Mon So / Patrick Wadge
+  - star rows: H Algenib → H Mercury Dec 3.9915 4 whole (32.98) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Algenib → H Jupiter RA 33.0171 33 whole (2.04) — only
+  - star rows: H Algenib → H Sedna Dec 6.9906 7 whole (28.34) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes
+  - star rows: H Algenib → H Makemake RA 165.9878 166 whole (15.29) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Algenib → J Vesta Dec 0.2955 conj (0.02) — only
+  - star rows: J Algenib → J Eris RA 20.0034 20 whole (68.84) — only
+  - star rows: J Algenib → J Makemake Dec 16.0056 16 whole (52.13) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Algenib → J Orcus Dec 17.7938 11×φ golden (73.61) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England
+- 7 Aill Dubh / Brian Hughes
+  - star rows: H Algenib → H Saturn Dec 37.2167 23×φ golden (88.29) — also: 1 Walk Tall / Freddie Gingell
+  - star rows: H Algenib → H Quaoar RA 92.9860 93 whole (9.14) — also: 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Algenib → J Rahu Dec 2.0156 2 whole (4.93) — also: 4 Wise Move / Jonathon Bewley
+  - star rows: J Algenib → J Sedna RA 36.9872 37 whole (12.83) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge
+  - star rows: J Algenib → J Makemake Dec 22.0023 22 whole (78.20) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Algenib → J Quaoar RA 135.9253 84×φ golden (45.84) — also: 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Algenib → J Transpluto Dec 0.2559 conj (2.16) — also: 3 Defence Witness / Jonathan England
+  - MATCH EXACT: H Jupiter → H body → Gonggong RA 142.0028 142 whole (74.18)
+  - MATCH EXACT: H Arcturus → Chiron RA 142.0050 142 whole (56.25)
+  - MATCH EXACT: H Alkes → Mercury RA 142.0156 142 whole (4.77)
+  - same number: H Jupiter → H Gonggong RA 142.0028 142 whole (74.18) — also: 1 Walk Tall / Freddie Gingell
+- 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Algenib → H Sun RA 2.9958 3 whole (62.52) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+  - star rows: H Algenib → H Mercury Dec 24.0087 24 whole (31.65) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+  - star rows: H Algenib → H Venus RA 29.0106 29 whole (22.08) — only
+  - star rows: H Algenib → H Ceres Dec 38.9974 39 whole (75.33) — also: 4 Wise Move / Jonathon Bewley
+  - star rows: H Algenib → H Quaoar RA 95.4630 59×φ golden (94.00) — also: 7 Aill Dubh / Brian Hughes
+  - star rows: J Algenib → J Pluto RA 100.9982 101 whole (83.25) — only
+  - star rows: J Algenib → J Chiron Dec 28.9844 29 whole (4.94) — also: 1 Walk Tall / Freddie Gingell
+  - star rows: J Algenib → J Pallas RA 132.9981 133 whole (81.66) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+  - star rows: J Algenib → J Makemake Dec 13.9872 14 whole (13.11) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+#### 7. S Sun → Zubenelgenubi Dec 0.0674 conj (60.14) — runners with cells 6/6
+- Moon confirms: none
+- 1 Walk Tall / Freddie Gingell
+  - star rows: H Zubenelgenubi → H Venus Dec 40.9853 41 whole (7.15) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+  - star rows: H Zubenelgenubi → H Saturn Dec 3.9983 4 whole (83.40) — also: 7 Aill Dubh / Brian Hughes
+  - star rows: H Zubenelgenubi → H Neptune RA 127.8000 79×φ golden (5.68) — only
+  - star rows: H Zubenelgenubi → H Pluto RA 73.9958 74 whole (62.52) — only
+  - star rows: H Zubenelgenubi → H Makemake Dec 39.9882 40 whole (16.89) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+  - star rows: H Zubenelgenubi → H Transpluto RA 68.9866 69 whole (10.75) — also: 3 Defence Witness / Jonathan England
+  - star rows: J Zubenelgenubi → J Venus Dec 3.9862 4 whole (9.55) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+  - star rows: J Zubenelgenubi → J Neptune Dec 0.2744 conj (0.73) — only
+  - star rows: J Zubenelgenubi → J Pluto Dec 0.1870 conj (14.20) — only
+  - star rows: J Zubenelgenubi → J Gonggong RA 110.0343 68×φ golden (56.56) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Zubenelgenubi → J Gonggong Dec 0.2867 conj (0.20) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+  - MATCH CONJ STAR: H Zubenelgenubi → Saturn Dec 3.9983 4 whole (83.40)
+  - MATCH CONJ STAR: H Zubenelgenubi → Pluto RA 73.9958 74 whole (62.52)
+  - MATCH CONJ STAR: J Zubenelgenubi → Gonggong RA 110.0343 68×φ golden (56.56)
+  - MATCH CONJ STAR: S Jupiter → J body → Mercury RA 101.9396 63×φ golden (79.79)
+  - MATCH CONJ STAR: S Jupiter → J body → Mars RA 110.9987 111 whole (87.03)
+- 3 Defence Witness / Jonathan England
+  - star rows: H Zubenelgenubi → H Venus Dec 2.9902 3 whole (26.14) — also: 1 Walk Tall / Freddie Gingell, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+  - star rows: H Zubenelgenubi → H Pallas Dec 28.9948 29 whole (54.96) — also: 4 Wise Move / Jonathon Bewley
+  - star rows: H Zubenelgenubi → H Transpluto Dec 26.9810 27 whole (0.26) — also: 1 Walk Tall / Freddie Gingell
+  - star rows: J Zubenelgenubi → J Juno RA 74.0108 74 whole (21.14) — only
+  - star rows: J Zubenelgenubi → J Makemake Dec 51.9917 52 whole (33.96) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley
+  - MATCH CONJ STAR: H Zubenelgenubi → Pallas Dec 28.9948 29 whole (54.96)
+  - MATCH CONJ STAR: S Jupiter → H body → Venus RA 177.7693 177.778 ninth (99.33)
+  - MATCH CONJ STAR: S Jupiter → H body → Eris RA 121.3579 75×φ golden (69.80)
+  - MATCH CONJ STAR: S Jupiter → J body → Jupiter Dec 5.9962 6 whole (65.63)
+  - MATCH CONJ STAR: S Jupiter → J body → Haumea RA 41.0002 41 whole (97.82)
+- 4 Wise Move / Jonathon Bewley
+  - star rows: S Zubenelgenubi → H Jupiter RA 4.9882 5 whole (16.64) — only
+  - star rows: H Zubenelgenubi → H Makemake Dec 41.0014 41 whole (86.05) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England
+  - star rows: H Zubenelgenubi → H Gonggong Dec 3.9919 4 whole (35.55) — also: 1 Walk Tall / Freddie Gingell, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Zubenelgenubi → J Uranus RA 40.0125 40 whole (14.19) — only
+  - star rows: J Zubenelgenubi → J Pallas Dec 36.0084 36 whole (33.60) — also: 3 Defence Witness / Jonathan England
+  - star rows: J Zubenelgenubi → J Vesta RA 128.9950 129 whole (56.48) — also: 7 Aill Dubh / Brian Hughes
+  - MATCH CONJ STAR: H Zubenelgenubi → Makemake Dec 41.0014 41 whole (86.05)
+  - MATCH CONJ STAR: J Zubenelgenubi → Vesta RA 128.9950 129 whole (56.48)
+  - MATCH CONJ STAR: S Jupiter → J body → Saturn RA 106.7966 66×φ golden (64.50)
+  - MATCH CONJ STAR: S Jupiter → J body → Vesta RA 53.3977 33×φ golden (84.90)
+- 5 C'Mon So / Patrick Wadge
+  - star rows: H Zubenelgenubi → H Sun RA 173.9826 174 whole (1.75) — only
+  - star rows: H Zubenelgenubi → H Ketu Dec 6.0059 6 whole (49.65) — only
+  - star rows: J Zubenelgenubi → J Venus RA 63.9836 64 whole (3.19) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes
+  - star rows: J Zubenelgenubi → J Ceres RA 93.9830 94 whole (2.23) — only
+  - MATCH CONJ STAR: S Jupiter → H body → Saturn RA 168.2721 104×φ golden (79.95)
+  - MATCH CONJ STAR: S Jupiter → H body → Sedna RA 88.8894 88.8889 ninth (99.63)
+  - MATCH CONJ STAR: S Jupiter → H body → Rahu RA 77.9994 78 whole (94.39)
+  - MATCH CONJ STAR: S Jupiter → H body → Ketu RA 102.0006 102 whole (94.39)
+  - MATCH CONJ STAR: S Jupiter → J body → Pluto Dec 27.0021 27 whole (79.94)
+  - MATCH CONJ STAR: S Jupiter → J body → Juno RA 0.0706 conj (90.81)
+- 7 Aill Dubh / Brian Hughes
+  - star rows: H Zubenelgenubi → H Venus RA 138.9970 139 whole (72.15) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge
+  - star rows: H Zubenelgenubi → H Saturn RA 43.9998 44 whole (97.55) — also: 1 Walk Tall / Freddie Gingell
+  - star rows: H Zubenelgenubi → H Saturn Dec 5.9920 6 whole (35.82) — also: 1 Walk Tall / Freddie Gingell
+  - star rows: J Zubenelgenubi → J Saturn Dec 0.2046 conj (10.11) — also: 1 Walk Tall / Freddie Gingell
+  - star rows: J Zubenelgenubi → J Vesta Dec 15.0149 15 whole (6.38) — also: 4 Wise Move / Jonathon Bewley
+  - MATCH CONJ STAR: H Zubenelgenubi → Venus RA 138.9970 139 whole (72.15)
+  - MATCH CONJ STAR: H Zubenelgenubi → Saturn RA 43.9998 44 whole (97.55)
+  - MATCH CONJ STAR: S Jupiter → J body → Sun RA 61.0050 61 whole (56.44)
+- 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Zubenelgenubi → J Chiron RA 75.9937 76 whole (46.67) — only
+  - star rows: J Zubenelgenubi → J Sedna Dec 21.9912 22 whole (31.25) — only
+  - star rows: J Zubenelgenubi → J Gonggong RA 109.9878 110 whole (15.14) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley
+  - star rows: J Zubenelgenubi → J Gonggong Dec 0.1904 conj (13.35) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley
+  - MATCH CONJ STAR: S Jupiter → H body → Mercury RA 161.9956 162 whole (60.57)
+  - MATCH CONJ STAR: S Jupiter → H body → Saturn RA 96.0012 96 whole (88.72)
+  - MATCH CONJ STAR: S Jupiter → H body → Chiron RA 159.9971 160 whole (73.01)
+  - MATCH CONJ STAR: S Jupiter → H body → Vesta RA 177.7489 177.778 ninth (97.74)
+  - MATCH CONJ STAR: S Jupiter → H body → Vesta Dec 29.1203 18×φ golden (75.19)
+#### 8. S Sun → Adhara Dec 12.9952 13 whole (57.45) — runners with cells 6/6
+- Moon confirms: none
+- 1 Walk Tall / Freddie Gingell
+  - star rows: H Adhara → H Chiron RA 100.3139 62×φ golden (75.94) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: H Adhara → H Gonggong RA 127.8322 79×φ golden (59.08) — only
+  - star rows: J Adhara → J Mercury RA 144.4002 144.444 ninth (95.31) — only
+  - MATCH EXACT: H Rigel → Jupiter Dec 13.0068 13 whole (43.32)
+  - MATCH EXACT: H Vindemiatrix → Makemake Dec 12.9873 13 whole (13.45)
+  - MATCH EXACT: H Bellatrix → Vesta Dec 13.0188 13 whole (0.38)
+  - MATCH EXACT: J Unukalhai → Mercury RA 13.0006 13 whole (94.30)
+  - MATCH EXACT: J Al Rescha → Mars Dec 13.0079 13 whole (36.56)
+  - MATCH EXACT: J Alhena → Pallas Dec 13.0152 13 whole (5.66)
+- 3 Defence Witness / Jonathan England
+  - star rows: H Adhara → H Eris Dec 27.0173 27 whole (1.79) — only
+  - star rows: J Adhara → J Uranus RA 179.4877 10×φ^6 phi power (90.23) — also: 7 Aill Dubh / Brian Hughes
+  - star rows: J Adhara → J Juno Dec 21.0015 21 whole (85.89) — also: 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+  - MATCH EXACT: H Alphard → Saturn Dec 12.9927 13 whole (40.50)
+  - MATCH EXACT: J Pleiades → Mercury Dec 12.9979 13 whole (80.33)
+  - MATCH EXACT: J Aldebaran → Orcus Dec 13.0027 13 whole (74.48)
+- 4 Wise Move / Jonathon Bewley
+  - star rows: H Adhara → H Haumea RA 108.4111 67×φ golden (83.09) — only
+  - star rows: S Adhara → J Jupiter RA 76.9960 77 whole (63.89) — also: 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Adhara → J Rahu RA 101.0155 101 whole (5.02) — only
+  - star rows: J Adhara → J Ketu RA 78.9845 79 whole (5.02) — also: 5 C'Mon So / Patrick Wadge
+  - MATCH EXACT: H Sualocin → Ceres Dec 12.9942 13 whole (50.14)
+  - MATCH EXACT: H Unukalhai → Neptune Dec 13.0067 13 whole (44.28)
+  - MATCH EXACT: H Regulus → Makemake Dec 12.9913 13 whole (31.83)
+  - MATCH EXACT: J Denebola → Rahu Dec 13.0000 13 whole (99.87)
+- 5 C'Mon So / Patrick Wadge
+  - star rows: H Adhara → H Pallas Dec 35.0050 35 whole (56.45) — also: 7 Aill Dubh / Brian Hughes
+  - star rows: H Adhara → H Juno RA 158.5431 98×φ golden (6.26) — also: 3 Defence Witness / Jonathan England, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Adhara → H Ketu RA 144.4702 144.444 ninth (97.28) — also: 4 Wise Move / Jonathon Bewley
+  - star rows: J Adhara → J Venus RA 177.9625 110×φ golden (11.83) — only
+  - star rows: J Adhara → J Saturn Dec 48.9958 49 whole (62.11) — also: 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Adhara → J Chiron RA 168.2976 104×φ golden (10.14) — also: 1 Walk Tall / Freddie Gingell
+  - MATCH EXACT: H Acubens → Mars Dec 12.9857 13 whole (8.00)
+  - MATCH EXACT: H Altair → Neptune Dec 13.0186 13 whole (0.49)
+  - MATCH EXACT: J Bellatrix → Eris Dec 12.9811 13 whole (0.31)
+- 7 Aill Dubh / Brian Hughes
+  - star rows: H Adhara → H Uranus RA 80.9890 81 whole (20.39) — also: 3 Defence Witness / Jonathan England
+  - star rows: H Adhara → H Pallas RA 91.9831 92 whole (2.45) — also: 5 C'Mon So / Patrick Wadge
+  - MATCH EXACT: H Aldebaran → Sedna RA 12.9947 13 whole (53.83)
+  - MATCH EXACT: H Orion Nebula Cluster → Mercury Dec 12.9941 13 whole (49.36)
+  - MATCH EXACT: H Capella → Mars RA 12.9827 13 whole (1.86)
+  - MATCH EXACT: H Rigel → Pluto Dec 13.0182 13 whole (0.84)
+  - MATCH EXACT: J Regulus → Vesta Dec 12.9958 13 whole (62.75)
+  - same number: H Capella → H Mars RA 12.9827 13 whole (1.86) — only
+- 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Adhara → H Jupiter RA 30.9952 31 whole (58.07) — also: 4 Wise Move / Jonathon Bewley
+  - star rows: H Adhara → H Saturn Dec 9.9834 10 whole (2.96) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: H Adhara → H Juno Dec 40.4525 25×φ golden (89.93) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge
+  - star rows: J Adhara → J Saturn Dec 46.9873 47 whole (13.31) — also: 5 C'Mon So / Patrick Wadge
+  - natal Jupiter → star: H Jupiter → H star Adhara RA 30.9952 31 whole (58.07) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+  - MATCH EXACT: J Sualocin → Juno Dec 13.0071 13 whole (41.55)
+  - MATCH EXACT: J Alkes → Ketu Dec 12.9909 13 whole (29.63)
+  - MATCH EXACT: J Acumen → Mercury Dec 13.0113 13 whole (18.98)
+#### 9. S Sun → Deneb Algedi Dec 0.1562 conj (22.98) — runners with cells 6/6
+- Moon confirms: none
+- 1 Walk Tall / Freddie Gingell
+  - star rows: H Deneb Algedi → H Uranus Dec 28.9910 29 whole (30.37) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: H Deneb Algedi → H Juno RA 132.6651 82×φ golden (33.39) — only
+  - star rows: H Deneb Algedi → H Transpluto Dec 26.9885 27 whole (17.91) — also: 4 Wise Move / Jonathon Bewley
+  - star rows: J Deneb Algedi → J Neptune Dec 0.1860 conj (14.43) — only
+  - star rows: J Deneb Algedi → J Pluto Dec 0.2754 conj (0.67) — only
+  - star rows: J Deneb Algedi → J Chiron RA 24.9806 25 whole (0.08) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes
+  - star rows: J Deneb Algedi → J Vesta RA 144.0367 89×φ golden (0.05) — also: 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Deneb Algedi → J Gonggong RA 5.9924 6 whole (38.29) — also: 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+- 3 Defence Witness / Jonathan England
+  - star rows: H Deneb Algedi → H Ceres Dec 0.2555 conj (2.20) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+  - star rows: H Deneb Algedi → H Eris RA 59.0082 59 whole (34.54) — only
+  - star rows: H Deneb Algedi → H Makemake Dec 40.4591 25×φ golden (55.73) — also: 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Deneb Algedi → J Chiron Dec 30.9944 31 whole (51.79) — also: 1 Walk Tall / Freddie Gingell, 7 Aill Dubh / Brian Hughes
+- 4 Wise Move / Jonathon Bewley
+  - star rows: H Deneb Algedi → H Ceres RA 168.0097 168 whole (26.52) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge
+  - star rows: H Deneb Algedi → H Rahu RA 166.6381 166.667 ninth (97.55) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+  - star rows: H Deneb Algedi → H Quaoar RA 54.9949 55 whole (55.85) — only
+  - star rows: J Deneb Algedi → J Saturn Dec 4.9905 5 whole (27.74) — also: 7 Aill Dubh / Brian Hughes
+  - star rows: J Deneb Algedi → J Transpluto RA 176.3948 109×φ golden (1.03) — also: 1 Walk Tall / Freddie Gingell
+- 5 C'Mon So / Patrick Wadge
+  - star rows: H Deneb Algedi → H Ceres RA 60.0104 60 whole (23.16) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+  - star rows: H Deneb Algedi → H Haumea RA 111.0089 111 whole (30.80) — only
+  - star rows: H Deneb Algedi → H Makemake RA 129.4435 80×φ golden (95.16) — also: 3 Defence Witness / Jonathan England, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Deneb Algedi → J Uranus RA 1.4258 conj (0.24) — also: 1 Walk Tall / Freddie Gingell
+  - star rows: J Deneb Algedi → J Vesta Dec 31.0180 31 whole (0.96) — also: 1 Walk Tall / Freddie Gingell, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Deneb Algedi → J Rahu RA 120.0109 120 whole (20.79) — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+  - star rows: J Deneb Algedi → J Ketu RA 59.9891 60 whole (20.79) — also: 8 Croagh Patrick / Charlie Maggs
+- 7 Aill Dubh / Brian Hughes
+  - star rows: H Deneb Algedi → H Rahu Dec 27.5071 17×φ golden (96.71) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+  - star rows: J Deneb Algedi → J Saturn Dec 0.1224 conj (35.04) — also: 4 Wise Move / Jonathon Bewley
+  - star rows: J Deneb Algedi → J Chiron Dec 34.0029 34 whole (73.38) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England
+  - star rows: J Deneb Algedi → J Gonggong RA 2.0066 2 whole (45.12) — also: 1 Walk Tall / Freddie Gingell, 8 Croagh Patrick / Charlie Maggs
+- 8 Croagh Patrick / Charlie Maggs
+  - star rows: S Deneb Algedi → H Jupiter Dec 34.0056 34 whole (52.19) — only
+  - star rows: H Deneb Algedi → H Pallas RA 59.0133 59 whole (11.26) — only
+  - star rows: H Deneb Algedi → H Vesta Dec 1.0033 1 whole (70.08) — also: 1 Walk Tall / Freddie Gingell, 5 C'Mon So / Patrick Wadge
+  - star rows: H Deneb Algedi → H Ketu Dec 19.9930 20 whole (42.06) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: J Deneb Algedi → J Makemake Dec 45.3008 28×φ golden (75.95) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge
+  - star rows: J Deneb Algedi → J Gonggong Dec 0.2775 conj (0.56) — also: 1 Walk Tall / Freddie Gingell, 7 Aill Dubh / Brian Hughes
+### READ 3 Jupiter / Sun lines to bodies (not followed)
+- S Sun → Haumea RA 0.5829 conj (37.38)
+### READ 4 Moon only, not active (confirm no lead line; not followed)
+- S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+- S Moon → Orcus RA 27.5001 17×φ golden (63.79)
+
+## 1 Walk Tall / Freddie Gingell
+### L1 same bodies
+- S Saturn → H Saturn Dec 20.9865 21 whole (10.54)
+- S Uranus → H Uranus RA 28.9705 29 whole (loose)
+- S Haumea → H Haumea RA 5.5554 5.55556 ninth (98.87)
+- S Pallas → J Pallas RA 122.7031 122.222 ninth (loose)
+- S Juno → J Juno RA 132.0093 132 whole (28.79)
+- S Rahu → J Rahu Dec 16.5556 16.6667 ninth (loose)
+- S Eris → J Eris RA 2.9824 3 whole (1.48)
+- S Orcus → J Orcus RA 17.7953 17.7778 ninth (loose)
+- S Ketu → J Ketu Dec 16.5556 16.6667 ninth (loose)
+### L2 what lands on each same body
+- **H Saturn** (same body: S Saturn → H Saturn Dec 20.9865 21 whole (10.54))
+  - star rows: H Zubenelgenubi → H Saturn Dec 3.9983 4 whole (83.40)
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - other chart, star rows: J Algenib → J Saturn Dec 3.0113 3 whole (18.89)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - other chart, star rows: J Galactic Centre → J Saturn RA 133.3338 133.333 ninth (99.95)
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+- **H Uranus** (same body: S Uranus → H Uranus RA 28.9705 29 whole (loose))
+  - star rows: H Capella → H Uranus RA 46.0095 46 whole (27.76)
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: H Deneb Algedi → H Uranus Dec 28.9910 29 whole (30.37)
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+- **H Haumea** (same body: S Haumea → H Haumea RA 5.5554 5.55556 ninth (98.87))
+  - sky line to Haumea: S Sun → Haumea RA 0.5829 conj (37.38)
+  - top rows: S Moon → H Haumea RA 25.9975 26 whole (76.31)
+  - star rows: H Capella → H Haumea RA 136.0099 136 whole (25.39)
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - other chart, star rows: J Alkaid → J Haumea RA 3.9809 4 whole (0.19)
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- **J Pallas** (same body: S Pallas → J Pallas RA 122.7031 122.222 ninth (loose))
+  - other chart, star rows: H Alkaid → H Pallas RA 85.0011 85 whole (88.88)
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- **J Juno** (same body: S Juno → J Juno RA 132.0093 132 whole (28.79))
+  - star rows: J Alkaid → J Juno Dec 51.0077 51 whole (37.52)
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - other chart, star rows: H Deneb Algedi → H Juno RA 132.6651 82×φ golden (33.39)
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+- **J Rahu** (same body: S Rahu → J Rahu Dec 16.5556 16.6667 ninth (loose))
+  - star rows: J Alkaid → J Rahu RA 161.9942 162 whole (50.36)
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - other chart, top rows: S Sun → H Rahu RA 129.4496 80×φ golden (62.00)
+  - other chart, star rows: H Alkaid → H Rahu Dec 25.8857 16×φ golden (83.42)
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- **J Eris** (same body: S Eris → J Eris RA 2.9824 3 whole (1.48))
+- **J Orcus** (same body: S Orcus → J Orcus RA 17.7953 17.7778 ninth (loose))
+  - sky line to Orcus: S Moon → Orcus RA 27.5001 17×φ golden (63.79)
+  - star rows: J Alkaid → J Orcus RA 62.9947 63 whole (53.91)
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - other chart, star rows: H Algenib → H Orcus Dec 25.9910 26 whole (30.13)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - other chart, star rows: H Pollux → H Orcus Dec 38.8364 24×φ golden (79.25)
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **J Ketu** (same body: S Ketu → J Ketu Dec 16.5556 16.6667 ninth (loose))
+  - top rows: S Moon → J Ketu RA 0.3065 conj (63.31)
+  - star rows: J Algenib → J Ketu Dec 19.0116 19 whole (17.64)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: J Alkaid → J Ketu RA 18.0058 18 whole (50.36)
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - other chart, top rows: S Moon → H Ketu Dec 14.5633 9×φ golden (93.88)
+  - other chart, star rows: H Menkent → H Ketu Dec 12.9484 8×φ golden (76.06)
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - other chart, star rows: H Pollux → H Ketu RA 155.5422 155.556 ninth (98.73)
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+### L3 matches
+- **1. same body on both charts**: none
+- **2. one body in both planes**: none
+- **3. runner number = sky number**
+  - 142 whole — also: 7 Aill Dubh / Brian Hughes
+    - J Meissa → J Chiron RA 142.0135 142 whole (10.67) = S Sun → Algenib RA 141.9957 142 whole (61.23)
+- **4. circle divisions**
+  - 15 = 360/24 — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes
+    - H Meissa → H Venus Dec 15.0089 15 whole (31.01)
+  - 4 = 360/90 — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - H Zubenelgenubi → H Saturn Dec 3.9983 4 whole (83.40)
+  - 40 = 360/9 — also: 4 Wise Move / Jonathon Bewley
+    - H Zubenelgenubi → H Makemake Dec 39.9882 40 whole (16.89)
+  - 3 = 360/120 — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - S Eris → J Eris RA 2.9824 3 whole (1.48)
+  - 3 = 360/120 — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - J Algenib → J Saturn Dec 3.0113 3 whole (18.89)
+  - 4 = 360/90 — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - J Alkaid → J Haumea RA 3.9809 4 whole (0.19)
+  - 18 = 360/20 — only
+    - J Alkaid → J Ketu RA 18.0058 18 whole (50.36)
+  - 6 = 360/60 — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - J Deneb Algedi → J Gonggong RA 5.9924 6 whole (38.29)
+  - 9 = 360/40 — also: 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - J Galactic Centre → J Venus Dec 8.9808 9 whole (0.15)
+  - 4 = 360/90 — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - J Zubenelgenubi → J Venus Dec 3.9862 4 whole (9.55)
+- **5. same number in more than one place**
+  - 21 whole — only
+    - S Saturn → H Saturn Dec 20.9865 21 whole (10.54)
+    - H Menkent → H Quaoar Dec 21.0019 21 whole (81.96)
+  - 29 whole — also: 8 Croagh Patrick / Charlie Maggs
+    - S Uranus → H Uranus RA 28.9705 29 whole (loose)
+    - H Deneb Algedi → H Uranus Dec 28.9910 29 whole (30.37)
+  - 26 whole — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+    - S Moon → H Haumea RA 25.9975 26 whole (76.31)
+    - H Algenib → H Orcus Dec 25.9910 26 whole (30.13)
+  - 79×φ golden — only
+    - H Adhara → H Gonggong RA 127.8322 79×φ golden (59.08)
+    - H Zubenelgenubi → H Neptune RA 127.8000 79×φ golden (5.68)
+  - 69 whole — only
+    - H Alkaid → H Ceres Dec 68.9995 69 whole (95.46)
+    - H Zubenelgenubi → H Transpluto RA 68.9866 69 whole (10.75)
+  - 27 whole — also: 3 Defence Witness / Jonathan England
+    - H Deneb Algedi → H Transpluto Dec 26.9885 27 whole (17.91)
+    - J Meissa → J Vesta RA 27.0038 27 whole (65.98)
+  - 14 whole — only
+    - H Meissa → H Mercury Dec 14.0029 14 whole (73.18)
+    - H Meissa → H Makemake Dec 14.0117 14 whole (17.08)
+  - 155.556 ninth — only
+    - H Pollux → H Ketu RA 155.5422 155.556 ninth (98.73)
+    - S Pallas → J Jupiter RA 155.5792 155.556 ninth (97.76)
+  - 4 whole — only
+    - H Zubenelgenubi → H Saturn Dec 3.9983 4 whole (83.40)
+    - J Alkaid → J Haumea RA 3.9809 4 whole (0.19)
+    - J Zubenelgenubi → J Venus Dec 3.9862 4 whole (9.55)
+  - 16.6667 ninth — only
+    - S Rahu → J Rahu Dec 16.5556 16.6667 ninth (loose)
+    - S Ketu → J Ketu Dec 16.5556 16.6667 ninth (loose)
+  - 3 whole — also: 3 Defence Witness / Jonathan England
+    - S Eris → J Eris RA 2.9824 3 whole (1.48)
+    - J Algenib → J Saturn Dec 3.0113 3 whole (18.89)
+### L4 every natal body
+- **Saturn**
+  - same body: S Saturn → H Saturn Dec 20.9865 21 whole (10.54) — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+  - star rows: H Zubenelgenubi → H Saturn Dec 3.9983 4 whole (83.40) — also: 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - star rows: J Algenib → J Saturn Dec 3.0113 3 whole (18.89) — also: 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: J Galactic Centre → J Saturn RA 133.3338 133.333 ninth (99.95) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+- **Uranus**
+  - same body: S Uranus → H Uranus RA 28.9705 29 whole (loose) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: H Capella → H Uranus RA 46.0095 46 whole (27.76) — also: 3 Defence Witness / Jonathan England
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: H Deneb Algedi → H Uranus Dec 28.9910 29 whole (30.37) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+- **Haumea**
+  - same body: S Haumea → H Haumea RA 5.5554 5.55556 ninth (98.87) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Haumea RA 0.5829 conj (37.38)
+  - top rows: S Moon → H Haumea RA 25.9975 26 whole (76.31) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+  - star rows: H Capella → H Haumea RA 136.0099 136 whole (25.39) — only
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: J Alkaid → J Haumea RA 3.9809 4 whole (0.19) — only
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- **Pluto**
+  - T1: H Jupiter → H Pluto RA 0.2183 conj (73.01) — only
+  - star rows: H Capella → H Pluto Dec 67.9977 68 whole (77.98) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: H Galactic Centre → H Pluto Dec 7.0071 7 whole (41.79) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: H Pollux → H Pluto RA 179.6058 111×φ golden (76.53) — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - star rows: H Zubenelgenubi → H Pluto RA 73.9958 74 whole (62.52) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - top rows: S Sun → J Pluto Dec 0.1195 conj (36.20) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Deneb Algedi → J Pluto Dec 0.2754 conj (0.67) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: J Zubenelgenubi → J Pluto Dec 0.1870 conj (14.20) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **Rahu**
+  - top rows: S Sun → H Rahu RA 129.4496 80×φ golden (62.00) — only
+  - star rows: H Alkaid → H Rahu Dec 25.8857 16×φ golden (83.42) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - same body: S Rahu → J Rahu Dec 16.5556 16.6667 ninth (loose) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes
+  - star rows: J Alkaid → J Rahu RA 161.9942 162 whole (50.36) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- **Ketu**
+  - top rows: S Moon → H Ketu Dec 14.5633 9×φ golden (93.88) — only
+  - star rows: H Menkent → H Ketu Dec 12.9484 8×φ golden (76.06) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - star rows: H Pollux → H Ketu RA 155.5422 155.556 ninth (98.73) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - same body: S Ketu → J Ketu Dec 16.5556 16.6667 ninth (loose) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes
+  - top rows: S Moon → J Ketu RA 0.3065 conj (63.31) — only
+  - star rows: J Algenib → J Ketu Dec 19.0116 19 whole (17.64) — only
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: J Alkaid → J Ketu RA 18.0058 18 whole (50.36) — only
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- **Chiron**
+  - star rows: H Adhara → H Chiron RA 100.3139 62×φ golden (75.94) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - star rows: H Algenib → H Chiron RA 1.0382 conj (9.48) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: H Pollux → H Chiron RA 111.9836 112 whole (3.25) — also: 3 Defence Witness / Jonathan England
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - star rows: J Deneb Algedi → J Chiron RA 24.9806 25 whole (0.08) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: J Meissa → J Chiron RA 142.0135 142 whole (10.67) — only
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **Gonggong**
+  - star rows: H Adhara → H Gonggong RA 127.8322 79×φ golden (59.08) — only
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - top rows: S Sun → J Gonggong Dec 0.2192 conj (7.26) — also: 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Deneb Algedi → J Gonggong RA 5.9924 6 whole (38.29) — also: 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: J Galactic Centre → J Gonggong RA 66.3395 41×φ golden (99.46) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: J Zubenelgenubi → J Gonggong RA 110.0343 68×φ golden (56.56) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - star rows: J Zubenelgenubi → J Gonggong Dec 0.2867 conj (0.20) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **Orcus**
+  - star rows: H Algenib → H Orcus Dec 25.9910 26 whole (30.13) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: H Pollux → H Orcus Dec 38.8364 24×φ golden (79.25) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - same body: S Orcus → J Orcus RA 17.7953 17.7778 ninth (loose) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Moon → Orcus RA 27.5001 17×φ golden (63.79)
+  - star rows: J Alkaid → J Orcus RA 62.9947 63 whole (53.91) — only
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- **Mercury**
+  - star rows: H Alkaid → H Mercury RA 150.0154 150 whole (5.40) — only
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - star rows: H Meissa → H Mercury Dec 14.0029 14 whole (73.18) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - top rows: S Jupiter → J Mercury RA 101.9396 63×φ golden (79.79) — also: 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Adhara → J Mercury RA 144.4002 144.444 ninth (95.31) — only
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - star rows: J Capella → J Mercury RA 169.8824 105×φ golden (42.81) — only
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+- **Ceres**
+  - star rows: H Alkaid → H Ceres Dec 68.9995 69 whole (95.46) — only
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- **Pallas**
+  - star rows: H Alkaid → H Pallas RA 85.0011 85 whole (88.88) — only
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - same body: S Pallas → J Pallas RA 122.7031 122.222 ninth (loose) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+- **Sedna**
+  - star rows: H Capella → H Sedna Dec 38.0180 38 whole (1.02) — only
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: H Galactic Centre → H Sedna RA 151.0014 151 whole (86.11) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: H Galactic Centre → H Sedna Dec 36.9868 37 whole (11.40) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+- **Juno**
+  - star rows: H Deneb Algedi → H Juno RA 132.6651 82×φ golden (33.39) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - same body: S Juno → J Juno RA 132.0093 132 whole (28.79) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Alkaid → J Juno Dec 51.0077 51 whole (37.52) — only
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- **Transpluto**
+  - star rows: H Deneb Algedi → H Transpluto Dec 26.9885 27 whole (17.91) — also: 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: H Zubenelgenubi → H Transpluto RA 68.9866 69 whole (10.75) — also: 3 Defence Witness / Jonathan England
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **Sun**
+  - star rows: H Galactic Centre → H Sun RA 110.9592 10×φ^5 phi power (80.33) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+- **Mars**
+  - star rows: H Galactic Centre → H Mars RA 41.9961 42 whole (64.63) — also: 4 Wise Move / Jonathon Bewley
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - top rows: S Jupiter → J Mars RA 110.9987 111 whole (87.03) — only
+- **Venus**
+  - star rows: H Meissa → H Venus Dec 15.0089 15 whole (31.01) — also: 3 Defence Witness / Jonathan England
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: H Zubenelgenubi → H Venus Dec 40.9853 41 whole (7.15) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - star rows: J Galactic Centre → J Venus Dec 8.9808 9 whole (0.15) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: J Zubenelgenubi → J Venus Dec 3.9862 4 whole (9.55) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **Makemake**
+  - star rows: H Meissa → H Makemake Dec 14.0117 14 whole (17.08) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: H Zubenelgenubi → H Makemake Dec 39.9882 40 whole (16.89) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **Quaoar**
+  - star rows: H Menkent → H Quaoar Dec 21.0019 21 whole (81.96) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+- **Neptune**
+  - star rows: H Zubenelgenubi → H Neptune RA 127.8000 79×φ golden (5.68) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - star rows: J Deneb Algedi → J Neptune Dec 0.1860 conj (14.43) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: J Zubenelgenubi → J Neptune Dec 0.2744 conj (0.73) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **Eris**
+  - same body: S Eris → J Eris RA 2.9824 3 whole (1.48) — also: 5 C'Mon So / Patrick Wadge
+- **Jupiter**
+  - top rows: S Mercury → J Jupiter Dec 0.0769 conj (55.31) — only
+  - top rows: S Pallas → J Jupiter RA 155.5792 155.556 ninth (97.76) — also: 7 Aill Dubh / Brian Hughes
+  - top rows: S Juno → J Jupiter Dec 0.0061 conj (95.96) — only
+  - top rows: S Haumea → J Jupiter RA 1.3883 conj (0.55) — only
+    - source line: S Sun → Haumea RA 0.5829 conj (37.38)
+  - star rows: J Pollux → J Jupiter RA 103.0125 103 whole (13.92) — only
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **Vesta**
+  - star rows: J Deneb Algedi → J Vesta RA 144.0367 89×φ golden (0.05) — also: 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: J Meissa → J Vesta RA 27.0038 27 whole (65.98) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: J Menkent → J Vesta Dec 58.0023 58 whole (78.22) — also: 7 Aill Dubh / Brian Hughes
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+
+## 3 Defence Witness / Jonathan England
+### L1 same bodies
+- S Sun → H Sun RA 141.7042 141.4 sqrt2 (loose)
+- S Neptune → H Neptune RA 14.0213 14 whole (loose)
+- S Ceres → H Ceres RA 137.5197 85×φ golden (35.09)
+- S Juno → H Juno RA 132.8529 133.333 ninth (loose)
+- S Sedna → H Sedna Dec 0.9852 1 whole (6.89)
+- S Haumea → H Haumea Dec 3.2387 2×φ golden (loose)
+- S Sun → J Sun RA 161.9776 162 whole (loose)
+- S Jupiter → J Jupiter Dec 5.9962 6 whole (65.63)
+- S Ceres → J Ceres Dec 22.0089 22 whole (30.67)
+- S Pallas → J Pallas RA 144.3729 144.444 ninth (loose)
+- S Rahu → J Rahu RA 33.3918 33.3333 ninth (loose)
+- S Orcus → J Orcus RA 32.3912 20×φ golden (loose)
+- S Ketu → J Ketu RA 33.3918 33.3333 ninth (loose)
+### L2 what lands on each same body
+- **H Sun** (same body: S Sun → H Sun RA 141.7042 141.4 sqrt2 (loose))
+  - star rows: H Algenib → H Sun RA 0.2819 conj (65.94)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: H Alkaid → H Sun Dec 48.0031 48 whole (71.27)
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - other chart, same body: S Sun → J Sun RA 161.9776 162 whole (loose)
+  - other chart, star rows: J Algenib → J Sun RA 19.9911 20 whole (30.64)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - other chart, star rows: J Meissa → J Sun Dec 0.2047 conj (10.09)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **H Neptune** (same body: S Neptune → H Neptune RA 14.0213 14 whole (loose))
+  - other chart, star rows: J Meissa → J Neptune RA 155.5892 155.556 ninth (96.82)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **H Ceres** (same body: S Ceres → H Ceres RA 137.5197 85×φ golden (35.09))
+  - star rows: H Deneb Algedi → H Ceres Dec 0.2555 conj (2.20)
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: H Menkent → H Ceres Dec 19.9873 20 whole (13.34)
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - other chart, same body: S Ceres → J Ceres Dec 22.0089 22 whole (30.67)
+  - other chart, top rows: S Moon → J Ceres Dec 11.1113 11.1111 ninth (99.75)
+  - other chart, star rows: J Menkent → J Ceres RA 0.9872 1 whole (13.05)
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+- **H Juno** (same body: S Juno → H Juno RA 132.8529 133.333 ninth (loose))
+  - top rows: S Sun → H Juno RA 144.4510 144.444 ninth (99.31)
+  - other chart, top rows: S Sun → J Juno Dec 7.9983 8 whole (84.13)
+  - other chart, star rows: J Adhara → J Juno Dec 21.0015 21 whole (85.89)
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - other chart, star rows: J Galactic Centre → J Juno Dec 21.0325 13×φ golden (88.33)
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - other chart, star rows: J Pollux → J Juno Dec 36.0019 36 whole (82.19)
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - other chart, star rows: J Zubenelgenubi → J Juno RA 74.0108 74 whole (21.14)
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **H Sedna** (same body: S Sedna → H Sedna Dec 0.9852 1 whole (6.89))
+  - star rows: H Algenib → H Sedna RA 53.3984 33×φ golden (80.98)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+- **H Haumea** (same body: S Haumea → H Haumea Dec 3.2387 2×φ golden (loose))
+  - sky line to Haumea: S Sun → Haumea RA 0.5829 conj (37.38)
+  - other chart, top rows: S Jupiter → J Haumea RA 41.0002 41 whole (97.82)
+  - other chart, top rows: S Moon → J Haumea RA 1.0580 conj (8.68)
+- **J Sun** (same body: S Sun → J Sun RA 161.9776 162 whole (loose))
+  - star rows: J Algenib → J Sun RA 19.9911 20 whole (30.64)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: J Meissa → J Sun Dec 0.2047 conj (10.09)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - other chart, same body: S Sun → H Sun RA 141.7042 141.4 sqrt2 (loose)
+  - other chart, star rows: H Algenib → H Sun RA 0.2819 conj (65.94)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - other chart, star rows: H Alkaid → H Sun Dec 48.0031 48 whole (71.27)
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- **J Jupiter** (same body: S Jupiter → J Jupiter Dec 5.9962 6 whole (65.63))
+  - star rows: S Capella → J Jupiter Dec 26.0040 26 whole (63.88)
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: S Galactic Centre → J Jupiter Dec 48.9980 49 whole (80.60)
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - other chart, top rows: S Chiron → H Jupiter Dec 33.3351 33.3333 ninth (97.91)
+- **J Ceres** (same body: S Ceres → J Ceres Dec 22.0089 22 whole (30.67))
+  - top rows: S Moon → J Ceres Dec 11.1113 11.1111 ninth (99.75)
+  - star rows: J Menkent → J Ceres RA 0.9872 1 whole (13.05)
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - other chart, same body: S Ceres → H Ceres RA 137.5197 85×φ golden (35.09)
+  - other chart, star rows: H Deneb Algedi → H Ceres Dec 0.2555 conj (2.20)
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - other chart, star rows: H Menkent → H Ceres Dec 19.9873 20 whole (13.34)
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+- **J Pallas** (same body: S Pallas → J Pallas RA 144.3729 144.444 ninth (loose))
+  - star rows: J Algenib → J Pallas RA 155.9943 156 whole (50.91)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - other chart, star rows: H Meissa → H Pallas Dec 3.0186 3 whole (0.46)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - other chart, star rows: H Menkent → H Pallas RA 0.1036 conj (86.66)
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - other chart, star rows: H Zubenelgenubi → H Pallas Dec 28.9948 29 whole (54.96)
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **J Rahu** (same body: S Rahu → J Rahu RA 33.3918 33.3333 ninth (loose))
+  - other chart, star rows: H Pollux → H Rahu RA 0.7776 conj (23.20)
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **J Orcus** (same body: S Orcus → J Orcus RA 32.3912 20×φ golden (loose))
+  - sky line to Orcus: S Moon → Orcus RA 27.5001 17×φ golden (63.79)
+  - star rows: J Algenib → J Orcus RA 125.9864 126 whole (10.10)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - other chart, star rows: H Pollux → H Orcus RA 37.2138 23×φ golden (93.91)
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **J Ketu** (same body: S Ketu → J Ketu RA 33.3918 33.3333 ninth (loose))
+  - star rows: J Pollux → J Ketu RA 1.1288 conj (6.13)
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - other chart, star rows: H Menkent → H Ketu Dec 15.0121 15 whole (15.76)
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+### L3 matches
+- **1. same body on both charts**
+  - Sun — only
+    - S Sun → H Sun RA 141.7042 141.4 sqrt2 (loose)
+    - S Sun → J Sun RA 161.9776 162 whole (loose)
+  - Ceres — only
+    - S Ceres → H Ceres RA 137.5197 85×φ golden (35.09)
+    - S Ceres → J Ceres Dec 22.0089 22 whole (30.67)
+- **2. one body in both planes**: none
+- **3. runner number = sky number**
+  - 85×φ golden — only
+    - S Ceres → H Ceres RA 137.5197 85×φ golden (35.09) = S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **4. circle divisions**
+  - 1 = 360/360 — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - S Sedna → H Sedna Dec 0.9852 1 whole (6.89)
+  - 10 = 360/36 — also: 8 Croagh Patrick / Charlie Maggs
+    - H Meissa → H Mars Dec 9.9823 10 whole (1.36)
+  - 3 = 360/120 — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - H Meissa → H Pallas Dec 3.0186 3 whole (0.46)
+  - 1 = 360/360 — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - H Meissa → H Transpluto Dec 1.0048 1 whole (57.55)
+  - 20 = 360/18 — also: 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - H Menkent → H Ceres Dec 19.9873 20 whole (13.34)
+  - 15 = 360/24 — also: 1 Walk Tall / Freddie Gingell, 7 Aill Dubh / Brian Hughes
+    - H Menkent → H Ketu Dec 15.0121 15 whole (15.76)
+  - 30 = 360/12 — only
+    - H Pollux → H Eris Dec 29.9854 30 whole (7.26)
+  - 3 = 360/120 — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - H Zubenelgenubi → H Venus Dec 2.9902 3 whole (26.14)
+  - 6 = 360/60 — also: 1 Walk Tall / Freddie Gingell, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - S Jupiter → J Jupiter Dec 5.9962 6 whole (65.63)
+  - 8 = 360/45 — also: 5 C'Mon So / Patrick Wadge
+    - S Sun → J Juno Dec 7.9983 8 whole (84.13)
+  - 20 = 360/18 — also: 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - J Algenib → J Sun RA 19.9911 20 whole (30.64)
+  - 10 = 360/36 — also: 8 Croagh Patrick / Charlie Maggs
+    - J Galactic Centre → J Saturn Dec 9.9905 10 whole (27.42)
+  - 1 = 360/360 — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - J Menkent → J Ceres RA 0.9872 1 whole (13.05)
+  - 36 = 360/10 — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+    - J Pollux → J Juno Dec 36.0019 36 whole (82.19)
+- **5. same number in more than one place**
+  - 1 whole — only
+    - S Sedna → H Sedna Dec 0.9852 1 whole (6.89)
+    - H Meissa → H Transpluto Dec 1.0048 1 whole (57.55)
+    - J Menkent → J Ceres RA 0.9872 1 whole (13.05)
+  - 144.444 ninth — also: 5 C'Mon So / Patrick Wadge
+    - S Sun → H Juno RA 144.4510 144.444 ninth (99.31)
+    - S Pallas → J Pallas RA 144.3729 144.444 ninth (loose)
+  - 25 whole — only
+    - S Sun → H Makemake RA 25.0027 25 whole (74.69)
+    - H Alkaid → H Makemake Dec 24.9813 25 whole (0.39)
+  - 33.3333 ninth — also: 4 Wise Move / Jonathon Bewley
+    - S Chiron → H Jupiter Dec 33.3351 33.3333 ninth (97.91)
+    - S Rahu → J Rahu RA 33.3918 33.3333 ninth (loose)
+    - S Ketu → J Ketu RA 33.3918 33.3333 ninth (loose)
+  - 27 whole — also: 1 Walk Tall / Freddie Gingell
+    - H Adhara → H Eris Dec 27.0173 27 whole (1.79)
+    - H Zubenelgenubi → H Transpluto Dec 26.9810 27 whole (0.26)
+  - 10 whole — also: 8 Croagh Patrick / Charlie Maggs
+    - H Meissa → H Mars Dec 9.9823 10 whole (1.36)
+    - J Galactic Centre → J Saturn Dec 9.9905 10 whole (27.42)
+  - 3 whole — also: 1 Walk Tall / Freddie Gingell
+    - H Meissa → H Pallas Dec 3.0186 3 whole (0.46)
+    - H Zubenelgenubi → H Venus Dec 2.9902 3 whole (26.14)
+  - 20 whole — also: 5 C'Mon So / Patrick Wadge
+    - H Menkent → H Ceres Dec 19.9873 20 whole (13.34)
+    - J Algenib → J Sun RA 19.9911 20 whole (30.64)
+  - 49 whole — only
+    - J Jupiter → J star Galactic Centre Dec 48.9972 49 whole (74.25)
+    - S Galactic Centre → J Jupiter Dec 48.9980 49 whole (80.60)
+  - 33 whole — only
+    - J Algenib → J Gonggong RA 32.9975 33 whole (76.64)
+    - J Meissa → J Uranus Dec 32.9965 33 whole (68.22)
+  - 26 whole — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley
+    - S Capella → J Jupiter Dec 26.0040 26 whole (63.88)
+    - J Meissa → J Makemake Dec 26.0156 26 whole (4.87)
+  - 25 and 25×φ on H Makemake — only
+    - S Sun → H Makemake RA 25.0027 25 whole (74.69)
+    - H Alkaid → H Makemake Dec 24.9813 25 whole (0.39)
+    - H Deneb Algedi → H Makemake Dec 40.4591 25×φ golden (55.73)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun RA 141.7042 141.4 sqrt2 (loose) — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Algenib → H Sun RA 0.2819 conj (65.94) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: H Alkaid → H Sun Dec 48.0031 48 whole (71.27) — only
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - same body: S Sun → J Sun RA 161.9776 162 whole (loose) — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Algenib → J Sun RA 19.9911 20 whole (30.64) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: J Meissa → J Sun Dec 0.2047 conj (10.09) — only
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **Neptune**
+  - same body: S Neptune → H Neptune RA 14.0213 14 whole (loose) — also: 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Meissa → J Neptune RA 155.5892 155.556 ninth (96.82) — only
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **Ceres**
+  - same body: S Ceres → H Ceres RA 137.5197 85×φ golden (35.09) — also: 7 Aill Dubh / Brian Hughes
+  - star rows: H Deneb Algedi → H Ceres Dec 0.2555 conj (2.20) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: H Menkent → H Ceres Dec 19.9873 20 whole (13.34) — only
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - same body: S Ceres → J Ceres Dec 22.0089 22 whole (30.67) — also: 7 Aill Dubh / Brian Hughes
+  - top rows: S Moon → J Ceres Dec 11.1113 11.1111 ninth (99.75) — only
+  - star rows: J Menkent → J Ceres RA 0.9872 1 whole (13.05) — only
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+- **Juno**
+  - same body: S Juno → H Juno RA 132.8529 133.333 ninth (loose) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - top rows: S Sun → H Juno RA 144.4510 144.444 ninth (99.31) — also: 8 Croagh Patrick / Charlie Maggs
+  - top rows: S Sun → J Juno Dec 7.9983 8 whole (84.13) — also: 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Adhara → J Juno Dec 21.0015 21 whole (85.89) — also: 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - star rows: J Galactic Centre → J Juno Dec 21.0325 13×φ golden (88.33) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: J Pollux → J Juno Dec 36.0019 36 whole (82.19) — only
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - star rows: J Zubenelgenubi → J Juno RA 74.0108 74 whole (21.14) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **Sedna**
+  - same body: S Sedna → H Sedna Dec 0.9852 1 whole (6.89) — also: 4 Wise Move / Jonathon Bewley
+  - star rows: H Algenib → H Sedna RA 53.3984 33×φ golden (80.98) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+- **Haumea**
+  - same body: S Haumea → H Haumea Dec 3.2387 2×φ golden (loose) — also: 1 Walk Tall / Freddie Gingell, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Haumea RA 0.5829 conj (37.38)
+  - top rows: S Jupiter → J Haumea RA 41.0002 41 whole (97.82) — only
+  - top rows: S Moon → J Haumea RA 1.0580 conj (8.68) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley
+- **Venus**
+  - top rows: S Jupiter → H Venus RA 177.7693 177.778 ninth (99.33) — only
+  - star rows: H Meissa → H Venus Dec 22.9860 23 whole (8.87) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: H Zubenelgenubi → H Venus Dec 2.9902 3 whole (26.14) — also: 1 Walk Tall / Freddie Gingell, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - star rows: J Menkent → J Venus RA 150.9869 151 whole (11.81) — only
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+- **Eris**
+  - top rows: S Jupiter → H Eris RA 121.3579 75×φ golden (69.80) — only
+  - top rows: S Moon → H Eris RA 163.4161 101×φ golden (69.56) — only
+  - star rows: H Adhara → H Eris Dec 27.0173 27 whole (1.79) — only
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - star rows: H Deneb Algedi → H Eris RA 59.0082 59 whole (34.54) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: H Meissa → H Eris RA 58.0182 58 whole (0.85) — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: H Pollux → H Eris Dec 29.9854 30 whole (7.26) — only
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - top rows: S Moon → J Eris RA 166.6781 166.667 ninth (99.02) — only
+  - top rows: S Moon → J Eris Dec 0.0740 conj (56.76) — only
+  - star rows: J Alkaid → J Eris Dec 58.2481 36×φ golden (93.38) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- **Makemake**
+  - top rows: S Sun → H Makemake RA 25.0027 25 whole (74.69) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: H Algenib → H Makemake RA 166.9889 167 whole (19.75) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: H Alkaid → H Makemake Dec 24.9813 25 whole (0.39) — also: 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - star rows: H Deneb Algedi → H Makemake Dec 40.4591 25×φ golden (55.73) — also: 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: H Pollux → H Makemake RA 79.9872 80 whole (13.01) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - star rows: J Meissa → J Makemake Dec 26.0156 26 whole (4.87) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: J Zubenelgenubi → J Makemake Dec 51.9917 52 whole (33.96) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **Jupiter**
+  - top rows: S Chiron → H Jupiter Dec 33.3351 33.3333 ninth (97.91) — only
+  - same body + top rows: S Jupiter → J Jupiter Dec 5.9962 6 whole (65.63) — also: 5 C'Mon So / Patrick Wadge
+  - T2: J Jupiter → J star Galactic Centre Dec 48.9972 49 whole (74.25) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+  - star rows: S Capella → J Jupiter Dec 26.0040 26 whole (63.88) — only
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: S Galactic Centre → J Jupiter Dec 48.9980 49 whole (80.60) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+- **Uranus**
+  - star rows: H Galactic Centre → H Uranus RA 122.2629 122.222 ninth (94.37) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: H Menkent → H Uranus RA 177.0075 177 whole (38.79) — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - star rows: J Adhara → J Uranus RA 179.4877 10×φ^6 phi power (90.23) — also: 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - star rows: J Capella → J Uranus RA 153.9999 154 whole (99.35) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: J Meissa → J Uranus Dec 32.9965 33 whole (68.22) — also: 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **Mars**
+  - star rows: H Meissa → H Mars Dec 9.9823 10 whole (1.36) — only
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: H Menkent → H Mars RA 158.9824 159 whole (1.48) — only
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+- **Pallas**
+  - star rows: H Meissa → H Pallas Dec 3.0186 3 whole (0.46) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: H Menkent → H Pallas RA 0.1036 conj (86.66) — also: 7 Aill Dubh / Brian Hughes
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - star rows: H Zubenelgenubi → H Pallas Dec 28.9948 29 whole (54.96) — also: 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - same body: S Pallas → J Pallas RA 144.3729 144.444 ninth (loose) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Algenib → J Pallas RA 155.9943 156 whole (50.91) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+- **Transpluto**
+  - star rows: H Meissa → H Transpluto Dec 1.0048 1 whole (57.55) — also: 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: H Zubenelgenubi → H Transpluto Dec 26.9810 27 whole (0.26) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - top rows: S Jupiter → J Transpluto Dec 0.2839 conj (0.29) — only
+  - star rows: J Algenib → J Transpluto RA 140.7540 87×φ golden (29.07) — also: 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+- **Ketu**
+  - star rows: H Menkent → H Ketu Dec 15.0121 15 whole (15.76) — also: 1 Walk Tall / Freddie Gingell, 7 Aill Dubh / Brian Hughes
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - same body: S Ketu → J Ketu RA 33.3918 33.3333 ninth (loose) — also: 1 Walk Tall / Freddie Gingell, 7 Aill Dubh / Brian Hughes
+  - star rows: J Pollux → J Ketu RA 1.1288 conj (6.13) — also: 1 Walk Tall / Freddie Gingell, 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **Chiron**
+  - star rows: H Pollux → H Chiron RA 116.0034 116 whole (68.58) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - star rows: J Deneb Algedi → J Chiron Dec 30.9944 31 whole (51.79) — also: 1 Walk Tall / Freddie Gingell, 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+- **Rahu**
+  - star rows: H Pollux → H Rahu RA 0.7776 conj (23.20) — also: 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - same body: S Rahu → J Rahu RA 33.3918 33.3333 ninth (loose) — also: 1 Walk Tall / Freddie Gingell, 7 Aill Dubh / Brian Hughes
+- **Orcus**
+  - star rows: H Pollux → H Orcus RA 37.2138 23×φ golden (93.91) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - same body: S Orcus → J Orcus RA 32.3912 20×φ golden (loose) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Moon → Orcus RA 27.5001 17×φ golden (63.79)
+  - star rows: J Algenib → J Orcus RA 125.9864 126 whole (10.10) — also: 1 Walk Tall / Freddie Gingell, 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+- **Gonggong**
+  - star rows: J Algenib → J Gonggong RA 32.9975 33 whole (76.64) — only
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+- **Saturn**
+  - star rows: J Capella → J Saturn Dec 65.0175 65 whole (1.53) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: J Galactic Centre → J Saturn Dec 9.9905 10 whole (27.42) — also: 1 Walk Tall / Freddie Gingell, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+- **Quaoar**
+  - star rows: J Capella → J Quaoar RA 156.9714 97×φ golden (10.03) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+- **Mercury**
+  - star rows: J Menkent → J Mercury RA 169.8645 105×φ golden (1.03) — only
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+
+## 4 Wise Move / Jonathon Bewley
+### L1 same bodies
+- S Sun → H Sun Dec 29.1525 18×φ golden (loose)
+- S Mercury → H Mercury Dec 15.4955 15.5556 ninth (loose)
+- S Venus → H Venus Dec 33.3034 33.3333 ninth (loose)
+- S Vesta → H Vesta Dec 12.9560 8×φ golden (loose)
+- S Sedna → H Sedna Dec 0.9985 1 whole (85.89)
+- S Mercury → J Mercury Dec 35.5760 22×φ golden (loose)
+- S Venus → J Venus RA 77.7197 77.7778 ninth (loose)
+- S Venus → J Venus Dec 33.2506 33.3333 ninth (loose)
+- S Mars → J Mars Dec 1.2164 1.22222 ninth (loose)
+- S Saturn → J Saturn RA 115.0106 115 whole (21.96)
+- S Pallas → J Pallas RA 141.3566 141.4 sqrt2 (loose)
+- S Juno → J Juno Dec 13.3182 13.3333 ninth (loose)
+- S Sedna → J Sedna Dec 4.8559 3×φ golden (loose)
+- S Makemake → J Makemake Dec 16.5807 16.6667 ninth (loose)
+- S Orcus → J Orcus Dec 19.3857 12×φ golden (loose)
+- S Transpluto → J Transpluto Dec 4.8452 3×φ golden (loose)
+### L2 what lands on each same body
+- **H Sun** (same body: S Sun → H Sun Dec 29.1525 18×φ golden (loose))
+  - star rows: H Algenib → H Sun Dec 2.0017 2 whole (83.29)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+- **H Mercury** (same body: S Mercury → H Mercury Dec 15.4955 15.5556 ninth (loose))
+  - star rows: H Algenib → H Mercury Dec 13.9989 14 whole (89.04)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: H Meissa → H Mercury RA 74.9845 75 whole (5.03)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - other chart, same body: S Mercury → J Mercury Dec 35.5760 22×φ golden (loose)
+  - other chart, star rows: J Galactic Centre → J Mercury RA 156.9248 97×φ golden (5.90)
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - other chart, star rows: J Meissa → J Mercury Dec 11.3277 7×φ golden (90.87)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **H Venus** (same body: S Venus → H Venus Dec 33.3034 33.3333 ninth (loose))
+  - other chart, same body: S Venus → J Venus RA 77.7197 77.7778 ninth (loose)
+  - other chart, same body: S Venus → J Venus Dec 33.2506 33.3333 ninth (loose)
+- **H Vesta** (same body: S Vesta → H Vesta Dec 12.9560 8×φ golden (loose))
+  - star rows: H Capella → H Vesta RA 164.9942 165 whole (50.53)
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - other chart, top rows: S Jupiter → J Vesta RA 53.3977 33×φ golden (84.90)
+  - other chart, star rows: J Zubenelgenubi → J Vesta RA 128.9950 129 whole (56.48)
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **H Sedna** (same body: S Sedna → H Sedna Dec 0.9985 1 whole (85.89))
+  - other chart, same body: S Sedna → J Sedna Dec 4.8559 3×φ golden (loose)
+  - other chart, star rows: J Galactic Centre → J Sedna RA 135.0140 135 whole (8.97)
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+- **J Mercury** (same body: S Mercury → J Mercury Dec 35.5760 22×φ golden (loose))
+  - star rows: J Galactic Centre → J Mercury RA 156.9248 97×φ golden (5.90)
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: J Meissa → J Mercury Dec 11.3277 7×φ golden (90.87)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - other chart, same body: S Mercury → H Mercury Dec 15.4955 15.5556 ninth (loose)
+  - other chart, star rows: H Algenib → H Mercury Dec 13.9989 14 whole (89.04)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - other chart, star rows: H Meissa → H Mercury RA 74.9845 75 whole (5.03)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **J Venus** (same body: S Venus → J Venus RA 77.7197 77.7778 ninth (loose); S Venus → J Venus Dec 33.2506 33.3333 ninth (loose))
+  - other chart, same body: S Venus → H Venus Dec 33.3034 33.3333 ninth (loose)
+- **J Mars** (same body: S Mars → J Mars Dec 1.2164 1.22222 ninth (loose))
+  - star rows: J Capella → J Mars RA 58.9933 59 whole (44.20)
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - other chart, star rows: H Galactic Centre → H Mars RA 26.0002 26 whole (98.42)
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+- **J Saturn** (same body: S Saturn → J Saturn RA 115.0106 115 whole (21.96))
+  - top rows: S Jupiter → J Saturn RA 106.7966 66×φ golden (64.50)
+  - star rows: J Capella → J Saturn RA 174.7534 108×φ golden (67.53)
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: J Deneb Algedi → J Saturn Dec 4.9905 5 whole (27.74)
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+- **J Pallas** (same body: S Pallas → J Pallas RA 141.3566 141.4 sqrt2 (loose))
+  - star rows: J Zubenelgenubi → J Pallas Dec 36.0084 36 whole (33.60)
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - other chart, top rows: S Moon → H Pallas RA 113.0052 113 whole (54.40)
+  - other chart, star rows: H Algenib → H Pallas Dec 18.9919 19 whole (35.28)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - other chart, star rows: H Capella → H Pallas RA 2.9909 3 whole (29.84)
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+- **J Juno** (same body: S Juno → J Juno Dec 13.3182 13.3333 ninth (loose))
+  - star rows: J Capella → J Juno Dec 46.9221 29×φ golden (94.33)
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+- **J Sedna** (same body: S Sedna → J Sedna Dec 4.8559 3×φ golden (loose))
+  - star rows: J Galactic Centre → J Sedna RA 135.0140 135 whole (8.97)
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - other chart, same body: S Sedna → H Sedna Dec 0.9985 1 whole (85.89)
+- **J Makemake** (same body: S Makemake → J Makemake Dec 16.5807 16.6667 ninth (loose))
+  - star rows: J Alkaid → J Makemake RA 41.4281 41.4 silver (93.57)
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - other chart, star rows: H Capella → H Makemake Dec 21.0394 13×φ golden (71.71)
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - other chart, star rows: H Meissa → H Makemake RA 111.1722 111.111 ninth (90.01)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - other chart, star rows: H Zubenelgenubi → H Makemake Dec 41.0014 41 whole (86.05)
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **J Orcus** (same body: S Orcus → J Orcus Dec 19.3857 12×φ golden (loose))
+  - sky line to Orcus: S Moon → Orcus RA 27.5001 17×φ golden (63.79)
+  - other chart, star rows: H Pollux → H Orcus RA 36.0067 36 whole (44.12)
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **J Transpluto** (same body: S Transpluto → J Transpluto Dec 4.8452 3×φ golden (loose))
+  - star rows: J Capella → J Transpluto RA 63.9927 64 whole (40.12)
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: J Deneb Algedi → J Transpluto RA 176.3948 109×φ golden (1.03)
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+### L3 matches
+- **1. same body on both charts**
+  - Mercury — only
+    - S Mercury → H Mercury Dec 15.4955 15.5556 ninth (loose)
+    - S Mercury → J Mercury Dec 35.5760 22×φ golden (loose)
+  - Venus — also: 7 Aill Dubh / Brian Hughes
+    - S Venus → H Venus Dec 33.3034 33.3333 ninth (loose)
+    - S Venus → J Venus RA 77.7197 77.7778 ninth (loose)
+    - S Venus → J Venus Dec 33.2506 33.3333 ninth (loose)
+  - Sedna — only
+    - S Sedna → H Sedna Dec 0.9985 1 whole (85.89)
+    - S Sedna → J Sedna Dec 4.8559 3×φ golden (loose)
+- **2. one body in both planes**
+  - J Venus — only
+    - S Venus → J Venus RA 77.7197 77.7778 ninth (loose)
+    - S Venus → J Venus Dec 33.2506 33.3333 ninth (loose)
+- **3. runner number = sky number**: none
+- **4. circle divisions**
+  - 1 = 360/360 — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - S Sedna → H Sedna Dec 0.9985 1 whole (85.89)
+  - 2 = 360/180 — also: 7 Aill Dubh / Brian Hughes
+    - H Algenib → H Sun Dec 2.0017 2 whole (83.29)
+  - 3 = 360/120 — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - H Capella → H Pallas RA 2.9909 3 whole (29.84)
+  - 12 = 360/30 — only
+    - H Meissa → H Eris Dec 12.0030 12 whole (72.19)
+  - 36 = 360/10 — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+    - H Pollux → H Orcus RA 36.0067 36 whole (44.12)
+  - 5 = 360/72 — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - S Zubenelgenubi → H Jupiter RA 4.9882 5 whole (16.64)
+  - 4 = 360/90 — also: 1 Walk Tall / Freddie Gingell, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - H Zubenelgenubi → H Gonggong Dec 3.9919 4 whole (35.55)
+  - 5 = 360/72 — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - J Deneb Algedi → J Saturn Dec 4.9905 5 whole (27.74)
+  - 40 = 360/9 — also: 1 Walk Tall / Freddie Gingell
+    - J Zubenelgenubi → J Uranus RA 40.0125 40 whole (14.19)
+  - 36 = 360/10 — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+    - J Zubenelgenubi → J Pallas Dec 36.0084 36 whole (33.60)
+- **5. same number in more than one place**
+  - 33.3333 ninth — also: 3 Defence Witness / Jonathan England
+    - S Venus → H Venus Dec 33.3034 33.3333 ninth (loose)
+    - S Venus → J Venus Dec 33.2506 33.3333 ninth (loose)
+  - 8×φ golden — only
+    - S Vesta → H Vesta Dec 12.9560 8×φ golden (loose)
+    - J Menkent → J Uranus Dec 12.9401 8×φ golden (76.11)
+  - 26 whole — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England
+    - S Moon → H Haumea Dec 25.9995 26 whole (94.77)
+    - H Galactic Centre → H Mars RA 26.0002 26 whole (98.42)
+  - 109×φ golden — only
+    - H Pollux → H Pluto RA 176.3672 109×φ golden (90.99)
+    - J Deneb Algedi → J Transpluto RA 176.3948 109×φ golden (1.03)
+  - 36 whole — only
+    - H Pollux → H Orcus RA 36.0067 36 whole (44.12)
+    - J Zubenelgenubi → J Pallas Dec 36.0084 36 whole (33.60)
+  - 5 whole — also: 5 C'Mon So / Patrick Wadge
+    - S Zubenelgenubi → H Jupiter RA 4.9882 5 whole (16.64)
+    - J Deneb Algedi → J Saturn Dec 4.9905 5 whole (27.74)
+  - 3×φ golden — only
+    - S Sedna → J Sedna Dec 4.8559 3×φ golden (loose)
+    - S Transpluto → J Transpluto Dec 4.8452 3×φ golden (loose)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun Dec 29.1525 18×φ golden (loose) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Algenib → H Sun Dec 2.0017 2 whole (83.29) — also: 3 Defence Witness / Jonathan England, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+- **Mercury**
+  - same body: S Mercury → H Mercury Dec 15.4955 15.5556 ninth (loose) — also: 7 Aill Dubh / Brian Hughes
+  - star rows: H Algenib → H Mercury Dec 13.9989 14 whole (89.04) — also: 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: H Meissa → H Mercury RA 74.9845 75 whole (5.03) — also: 1 Walk Tall / Freddie Gingell, 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - same body: S Mercury → J Mercury Dec 35.5760 22×φ golden (loose) — also: 7 Aill Dubh / Brian Hughes
+  - star rows: J Galactic Centre → J Mercury RA 156.9248 97×φ golden (5.90) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: J Meissa → J Mercury Dec 11.3277 7×φ golden (90.87) — also: 1 Walk Tall / Freddie Gingell, 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **Venus**
+  - same body: S Venus → H Venus Dec 33.3034 33.3333 ninth (loose) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - same body: S Venus → J Venus RA 77.7197 77.7778 ninth (loose) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - same body: S Venus → J Venus Dec 33.2506 33.3333 ninth (loose) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+- **Vesta**
+  - same body: S Vesta → H Vesta Dec 12.9560 8×φ golden (loose) — also: 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Capella → H Vesta RA 164.9942 165 whole (50.53) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - top rows: S Jupiter → J Vesta RA 53.3977 33×φ golden (84.90) — also: 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Zubenelgenubi → J Vesta RA 128.9950 129 whole (56.48) — also: 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **Sedna**
+  - same body: S Sedna → H Sedna Dec 0.9985 1 whole (85.89) — also: 3 Defence Witness / Jonathan England
+  - same body: S Sedna → J Sedna Dec 4.8559 3×φ golden (loose) — also: 3 Defence Witness / Jonathan England
+  - star rows: J Galactic Centre → J Sedna RA 135.0140 135 whole (8.97) — also: 1 Walk Tall / Freddie Gingell, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+- **Pallas**
+  - top rows: S Moon → H Pallas RA 113.0052 113 whole (54.40) — only
+  - star rows: H Algenib → H Pallas Dec 18.9919 19 whole (35.28) — also: 3 Defence Witness / Jonathan England, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: H Capella → H Pallas RA 2.9909 3 whole (29.84) — only
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - same body: S Pallas → J Pallas RA 141.3566 141.4 sqrt2 (loose) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Zubenelgenubi → J Pallas Dec 36.0084 36 whole (33.60) — also: 3 Defence Witness / Jonathan England
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **Haumea**
+  - top rows: S Moon → H Haumea Dec 25.9995 26 whole (94.77) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England
+  - star rows: H Adhara → H Haumea RA 108.4111 67×φ golden (83.09) — only
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - star rows: H Menkent → H Haumea RA 1.3915 conj (0.52) — also: 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+- **Jupiter**
+  - top rows: S Transpluto → H Jupiter RA 70.9943 71 whole (50.99) — only
+  - star rows: S Zubenelgenubi → H Jupiter RA 4.9882 5 whole (16.64) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - T2: J Jupiter → J star Meissa Dec 0.0079 conj (94.83) — also: 3 Defence Witness / Jonathan England, 8 Croagh Patrick / Charlie Maggs
+  - top rows: S Rahu → J Jupiter Dec 22.6561 14×φ golden (78.80) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+  - top rows: S Eris → J Jupiter RA 0.8275 conj (20.10) — only
+  - top rows: S Transpluto → J Jupiter Dec 0.2011 conj (10.88) — only
+  - star rows: S Adhara → J Jupiter RA 76.9960 77 whole (63.89) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - star rows: J Meissa → J Jupiter Dec 0.0079 conj (94.83) — only
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: S Menkent → J Jupiter RA 176.0046 176 whole (59.49) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+- **Makemake**
+  - star rows: H Capella → H Makemake Dec 21.0394 13×φ golden (71.71) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: H Meissa → H Makemake RA 111.1722 111.111 ninth (90.01) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: H Zubenelgenubi → H Makemake Dec 41.0014 41 whole (86.05) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - same body: S Makemake → J Makemake Dec 16.5807 16.6667 ninth (loose) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: J Alkaid → J Makemake RA 41.4281 41.4 silver (93.57) — also: 3 Defence Witness / Jonathan England
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- **Ceres**
+  - star rows: H Deneb Algedi → H Ceres RA 168.0097 168 whole (26.52) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: H Meissa → H Ceres RA 50.9885 51 whole (18.24) — also: 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: J Algenib → J Ceres RA 102.0194 102 whole (0.08) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+- **Rahu**
+  - star rows: H Deneb Algedi → H Rahu RA 166.6381 166.667 ninth (97.55) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: J Adhara → J Rahu RA 101.0155 101 whole (5.02) — only
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - star rows: J Algenib → J Rahu RA 0.3233 conj (61.54) — also: 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+- **Quaoar**
+  - star rows: H Deneb Algedi → H Quaoar RA 54.9949 55 whole (55.85) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: H Meissa → H Quaoar RA 172.0161 172 whole (3.79) — only
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **Mars**
+  - star rows: H Galactic Centre → H Mars RA 26.0002 26 whole (98.42) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - same body: S Mars → J Mars Dec 1.2164 1.22222 ninth (loose) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+  - star rows: J Capella → J Mars RA 58.9933 59 whole (44.20) — also: 7 Aill Dubh / Brian Hughes
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+- **Ketu**
+  - star rows: H Galactic Centre → H Ketu RA 46.9771 φ^8 phi power (98.63) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: J Adhara → J Ketu RA 78.9845 79 whole (5.02) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+- **Uranus**
+  - star rows: H Meissa → H Uranus RA 56.9873 57 whole (13.17) — also: 3 Defence Witness / Jonathan England
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - top rows: S Moon → J Uranus Dec 14.5679 9×φ golden (68.51) — only
+  - star rows: J Menkent → J Uranus Dec 12.9401 8×φ golden (76.11) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - star rows: J Zubenelgenubi → J Uranus RA 40.0125 40 whole (14.19) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **Eris**
+  - star rows: H Meissa → H Eris Dec 12.0030 12 whole (72.19) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **Gonggong**
+  - star rows: H Meissa → H Gonggong Dec 21.9848 22 whole (5.76) — also: 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: H Zubenelgenubi → H Gonggong Dec 3.9919 4 whole (35.55) — also: 1 Walk Tall / Freddie Gingell, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **Pluto**
+  - star rows: H Menkent → H Pluto RA 81.0176 81 whole (1.46) — only
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - star rows: H Pollux → H Pluto RA 176.3672 109×φ golden (90.99) — also: 1 Walk Tall / Freddie Gingell, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - top rows: S Sun → J Pluto RA 1.0657 conj (8.38) — also: 1 Walk Tall / Freddie Gingell, 8 Croagh Patrick / Charlie Maggs
+- **Orcus**
+  - star rows: H Pollux → H Orcus RA 36.0067 36 whole (44.12) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - same body: S Orcus → J Orcus Dec 19.3857 12×φ golden (loose) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Moon → Orcus RA 27.5001 17×φ golden (63.79)
+- **Saturn**
+  - same body: S Saturn → J Saturn RA 115.0106 115 whole (21.96) — also: 1 Walk Tall / Freddie Gingell, 7 Aill Dubh / Brian Hughes
+  - top rows: S Jupiter → J Saturn RA 106.7966 66×φ golden (64.50) — also: 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Capella → J Saturn RA 174.7534 108×φ golden (67.53) — also: 3 Defence Witness / Jonathan England, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: J Deneb Algedi → J Saturn Dec 4.9905 5 whole (27.74) — also: 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+- **Juno**
+  - same body: S Juno → J Juno Dec 13.3182 13.3333 ninth (loose) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Capella → J Juno Dec 46.9221 29×φ golden (94.33) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+- **Transpluto**
+  - same body: S Transpluto → J Transpluto Dec 4.8452 3×φ golden (loose) — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Capella → J Transpluto RA 63.9927 64 whole (40.12) — only
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: J Deneb Algedi → J Transpluto RA 176.3948 109×φ golden (1.03) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+- **Chiron**
+  - star rows: J Galactic Centre → J Chiron RA 179.6070 111×φ golden (70.24) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+
+## 5 C'Mon So / Patrick Wadge
+### L1 same bodies
+- S Venus → H Venus RA 154.9798 155 whole (loose)
+- S Jupiter → H Jupiter RA 176.8359 177.778 ninth (loose)
+- S Uranus → H Uranus RA 24.1012 24.14 silver (loose)
+- S Pluto → H Pluto Dec 1.4439 1.44444 ninth (loose)
+- S Vesta → H Vesta RA 144.9674 144.444 ninth (loose)
+- S Haumea → H Haumea RA 4.9831 5 whole (2.40)
+- S Mars → J Mars Dec 19.9796 20 whole (loose)
+- S Neptune → J Neptune RA 51.9934 52 whole (44.81)
+- S Pallas → J Pallas RA 88.7720 88.8889 ninth (loose)
+- S Juno → J Juno Dec 14.3533 14.4444 ninth (loose)
+- S Eris → J Eris Dec 6.4760 4×φ golden (loose)
+- S Makemake → J Makemake RA 20.0179 20 whole (1.11)
+- S Orcus → J Orcus Dec 11.3027 7×φ golden (loose)
+- S Quaoar → J Quaoar RA 31.0267 31 whole (loose)
+- S Gonggong → J Gonggong Dec 6.4771 4×φ golden (loose)
+- S Transpluto → J Transpluto Dec 2.9917 3 whole (34.48)
+### L2 what lands on each same body
+- **H Venus** (same body: S Venus → H Venus RA 154.9798 155 whole (loose))
+  - star rows: H Galactic Centre → H Venus RA 139.1420 86×φ golden (52.27)
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - other chart, star rows: J Adhara → J Venus RA 177.9625 110×φ golden (11.83)
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - other chart, star rows: J Zubenelgenubi → J Venus RA 63.9836 64 whole (3.19)
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **H Jupiter** (same body: S Jupiter → H Jupiter RA 176.8359 177.778 ninth (loose))
+  - top rows: S Rahu → H Jupiter Dec 0.1887 conj (13.78)
+  - top rows: S Orcus → H Jupiter Dec 0.9944 1 whole (51.68)
+    - source line: S Moon → Orcus RA 27.5001 17×φ golden (63.79)
+  - star rows: H Algenib → H Jupiter RA 33.0171 33 whole (2.04)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - other chart, top rows: S Ceres → J Jupiter RA 14.4401 14.4444 ninth (95.35)
+- **H Uranus** (same body: S Uranus → H Uranus RA 24.1012 24.14 silver (loose))
+  - other chart, star rows: J Deneb Algedi → J Uranus RA 1.4258 conj (0.24)
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - other chart, star rows: J Pollux → J Uranus RA 151.0048 151 whole (57.61)
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **H Pluto** (same body: S Pluto → H Pluto Dec 1.4439 1.44444 ninth (loose))
+  - other chart, top rows: S Jupiter → J Pluto Dec 27.0021 27 whole (79.94)
+  - other chart, star rows: J Capella → J Pluto Dec 59.0076 59 whole (38.41)
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - other chart, star rows: J Galactic Centre → J Pluto Dec 15.9990 16 whole (90.37)
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+- **H Vesta** (same body: S Vesta → H Vesta RA 144.9674 144.444 ninth (loose))
+  - star rows: H Capella → H Vesta Dec 28.0094 28 whole (28.03)
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: H Galactic Centre → H Vesta Dec 46.9947 47 whole (54.38)
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - other chart, star rows: J Algenib → J Vesta Dec 0.2955 conj (0.02)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - other chart, star rows: J Deneb Algedi → J Vesta Dec 31.0180 31 whole (0.96)
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+- **H Haumea** (same body: S Haumea → H Haumea RA 4.9831 5 whole (2.40))
+  - sky line to Haumea: S Sun → Haumea RA 0.5829 conj (37.38)
+  - star rows: H Deneb Algedi → H Haumea RA 111.0089 111 whole (30.80)
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - other chart, star rows: J Galactic Centre → J Haumea RA 67.0114 67 whole (18.33)
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+- **J Mars** (same body: S Mars → J Mars Dec 19.9796 20 whole (loose))
+  - star rows: J Alkaid → J Mars RA 145.6406 90×φ golden (20.92)
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- **J Neptune** (same body: S Neptune → J Neptune RA 51.9934 52 whole (44.81))
+  - other chart, star rows: H Menkent → H Neptune RA 141.4588 141.4 sqrt2 (89.68)
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+- **J Pallas** (same body: S Pallas → J Pallas RA 88.7720 88.8889 ninth (loose))
+  - other chart, top rows: S Sun → H Pallas Dec 22.0023 22 whole (78.38)
+  - other chart, star rows: H Adhara → H Pallas Dec 35.0050 35 whole (56.45)
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - other chart, star rows: H Meissa → H Pallas RA 101.9506 63×φ golden (30.68)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - other chart, star rows: H Pollux → H Pallas Dec 21.9978 22 whole (78.81)
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **J Juno** (same body: S Juno → J Juno Dec 14.3533 14.4444 ninth (loose))
+  - top rows: S Jupiter → J Juno RA 0.0706 conj (90.81)
+  - star rows: J Capella → J Juno RA 68.0142 68 whole (8.32)
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - other chart, star rows: H Adhara → H Juno RA 158.5431 98×φ golden (6.26)
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - other chart, star rows: H Meissa → H Juno RA 179.4163 10×φ^6 phi power (94.20)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **J Eris** (same body: S Eris → J Eris Dec 6.4760 4×φ golden (loose))
+  - star rows: J Algenib → J Eris RA 20.0034 20 whole (68.84)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - other chart, top rows: S Sun → H Eris RA 165.0473 102×φ golden (57.30)
+  - other chart, star rows: H Alkaid → H Eris RA 179.4728 10×φ^6 phi power (93.41)
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- **J Makemake** (same body: S Makemake → J Makemake RA 20.0179 20 whole (1.11))
+  - star rows: J Algenib → J Makemake Dec 16.0056 16 whole (52.13)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - other chart, top rows: S Sun → H Makemake RA 24.0007 24 whole (93.58)
+  - other chart, star rows: H Algenib → H Makemake RA 165.9878 166 whole (15.29)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - other chart, star rows: H Deneb Algedi → H Makemake RA 129.4435 80×φ golden (95.16)
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - other chart, star rows: H Pollux → H Makemake RA 80.9936 81 whole (45.91)
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **J Orcus** (same body: S Orcus → J Orcus Dec 11.3027 7×φ golden (loose))
+  - sky line to Orcus: S Moon → Orcus RA 27.5001 17×φ golden (63.79)
+  - star rows: J Algenib → J Orcus Dec 17.7938 11×φ golden (73.61)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+- **J Quaoar** (same body: S Quaoar → J Quaoar RA 31.0267 31 whole (loose))
+  - star rows: J Alkaid → J Quaoar RA 43.0031 43 whole (71.82)
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- **J Gonggong** (same body: S Gonggong → J Gonggong Dec 6.4771 4×φ golden (loose))
+  - other chart, star rows: H Capella → H Gonggong RA 101.9980 102 whole (80.69)
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - other chart, star rows: H Pollux → H Gonggong RA 139.1542 86×φ golden (80.58)
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **J Transpluto** (same body: S Transpluto → J Transpluto Dec 2.9917 3 whole (34.48))
+### L3 matches
+- **1. same body on both charts**: none
+- **2. one body in both planes**: none
+- **3. runner number = sky number**
+  - 32 whole — only
+    - H Meissa → H Ketu Dec 31.9828 32 whole (1.90) = S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+  - 14.4444 ninth — only
+    - S Juno → J Juno Dec 14.3533 14.4444 ninth (loose) = S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - 14.4444 ninth — only
+    - S Ceres → J Jupiter RA 14.4401 14.4444 ninth (95.35) = S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - 44 whole — also: 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - J Alkaid → J Sedna Dec 43.9855 44 whole (7.45) = S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - 43 whole — only
+    - J Alkaid → J Quaoar RA 43.0031 43 whole (71.82) = S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+- **4. circle divisions**
+  - 5 = 360/72 — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - S Haumea → H Haumea RA 4.9831 5 whole (2.40)
+  - 24 = 360/15 — also: 8 Croagh Patrick / Charlie Maggs
+    - S Sun → H Makemake RA 24.0007 24 whole (93.58)
+  - 1 = 360/360 — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+    - S Orcus → H Jupiter Dec 0.9944 1 whole (51.68)
+  - 4 = 360/90 — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - H Algenib → H Mercury Dec 3.9915 4 whole (32.98)
+  - 60 = 360/6 — only
+    - H Deneb Algedi → H Ceres RA 60.0104 60 whole (23.16)
+  - 6 = 360/60 — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - H Zubenelgenubi → H Ketu Dec 6.0059 6 whole (49.65)
+  - 20 = 360/18 — also: 3 Defence Witness / Jonathan England, 8 Croagh Patrick / Charlie Maggs
+    - S Mars → J Mars Dec 19.9796 20 whole (loose)
+  - 20 = 360/18 — also: 3 Defence Witness / Jonathan England, 8 Croagh Patrick / Charlie Maggs
+    - S Makemake → J Makemake RA 20.0179 20 whole (1.11)
+  - 3 = 360/120 — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+    - S Transpluto → J Transpluto Dec 2.9917 3 whole (34.48)
+  - 36 = 360/10 — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+    - S Sun → J Saturn Dec 35.9963 36 whole (66.43)
+  - 20 = 360/18 — also: 3 Defence Witness / Jonathan England, 8 Croagh Patrick / Charlie Maggs
+    - J Algenib → J Eris RA 20.0034 20 whole (68.84)
+  - 120 = 360/3 — only
+    - J Deneb Algedi → J Rahu RA 120.0109 120 whole (20.79)
+  - 60 = 360/6 — only
+    - J Deneb Algedi → J Ketu RA 59.9891 60 whole (20.79)
+  - 5 = 360/72 — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - J Galactic Centre → J Ceres Dec 5.0117 5 whole (17.34)
+  - 8 = 360/45 — also: 3 Defence Witness / Jonathan England
+    - J Pollux → J Saturn Dec 8.0020 8 whole (80.62)
+- **5. same number in more than one place**
+  - 144.444 ninth — also: 3 Defence Witness / Jonathan England
+    - S Vesta → H Vesta RA 144.9674 144.444 ninth (loose)
+    - H Adhara → H Ketu RA 144.4702 144.444 ninth (97.28)
+  - 5 whole — also: 4 Wise Move / Jonathon Bewley
+    - S Haumea → H Haumea RA 4.9831 5 whole (2.40)
+    - J Galactic Centre → J Ceres Dec 5.0117 5 whole (17.34)
+  - 104×φ golden — only
+    - S Jupiter → H Saturn RA 168.2721 104×φ golden (79.95)
+    - J Adhara → J Chiron RA 168.2976 104×φ golden (10.14)
+  - 88.8889 ninth — only
+    - S Jupiter → H Sedna RA 88.8894 88.8889 ninth (99.63)
+    - S Pallas → J Pallas RA 88.7720 88.8889 ninth (loose)
+  - 102 whole — only
+    - S Jupiter → H Ketu RA 102.0006 102 whole (94.39)
+    - H Capella → H Gonggong RA 101.9980 102 whole (80.69)
+  - 22 whole — only
+    - S Sun → H Pallas Dec 22.0023 22 whole (78.38)
+    - H Pollux → H Pallas Dec 21.9978 22 whole (78.81)
+    - J Galactic Centre → J Sun RA 22.0018 22 whole (82.95)
+  - 10×φ^6 phi power — also: 7 Aill Dubh / Brian Hughes
+    - H Alkaid → H Eris RA 179.4728 10×φ^6 phi power (93.41)
+    - H Meissa → H Juno RA 179.4163 10×φ^6 phi power (94.20)
+  - 60 whole — only
+    - H Deneb Algedi → H Ceres RA 60.0104 60 whole (23.16)
+    - J Deneb Algedi → J Ketu RA 59.9891 60 whole (20.79)
+  - 86×φ golden — only
+    - H Galactic Centre → H Venus RA 139.1420 86×φ golden (52.27)
+    - H Pollux → H Gonggong RA 139.1542 86×φ golden (80.58)
+  - 20 whole — also: 3 Defence Witness / Jonathan England
+    - S Mars → J Mars Dec 19.9796 20 whole (loose)
+    - S Makemake → J Makemake RA 20.0179 20 whole (1.11)
+    - J Algenib → J Eris RA 20.0034 20 whole (68.84)
+  - 14.4444 ninth — only
+    - S Juno → J Juno Dec 14.3533 14.4444 ninth (loose)
+    - S Ceres → J Jupiter RA 14.4401 14.4444 ninth (95.35)
+  - 4×φ golden — only
+    - S Eris → J Eris Dec 6.4760 4×φ golden (loose)
+    - S Gonggong → J Gonggong Dec 6.4771 4×φ golden (loose)
+  - 31 whole — also: 8 Croagh Patrick / Charlie Maggs
+    - S Quaoar → J Quaoar RA 31.0267 31 whole (loose)
+    - J Deneb Algedi → J Vesta Dec 31.0180 31 whole (0.96)
+  - 16 whole — only
+    - J Algenib → J Makemake Dec 16.0056 16 whole (52.13)
+    - J Galactic Centre → J Pluto Dec 15.9990 16 whole (90.37)
+### L4 every natal body
+- **Venus**
+  - same body: S Venus → H Venus RA 154.9798 155 whole (loose) — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Galactic Centre → H Venus RA 139.1420 86×φ golden (52.27) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: J Adhara → J Venus RA 177.9625 110×φ golden (11.83) — only
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - star rows: J Zubenelgenubi → J Venus RA 63.9836 64 whole (3.19) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **Jupiter**
+  - same body: S Jupiter → H Jupiter RA 176.8359 177.778 ninth (loose) — also: 3 Defence Witness / Jonathan England
+  - top rows: S Rahu → H Jupiter Dec 0.1887 conj (13.78) — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+  - top rows: S Orcus → H Jupiter Dec 0.9944 1 whole (51.68) — only
+    - source line: S Moon → Orcus RA 27.5001 17×φ golden (63.79)
+  - star rows: H Algenib → H Jupiter RA 33.0171 33 whole (2.04) — only
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - top rows: S Ceres → J Jupiter RA 14.4401 14.4444 ninth (95.35) — only
+- **Uranus**
+  - same body: S Uranus → H Uranus RA 24.1012 24.14 silver (loose) — also: 1 Walk Tall / Freddie Gingell
+  - star rows: J Deneb Algedi → J Uranus RA 1.4258 conj (0.24) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: J Pollux → J Uranus RA 151.0048 151 whole (57.61) — only
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **Pluto**
+  - same body: S Pluto → H Pluto Dec 1.4439 1.44444 ninth (loose) — also: 7 Aill Dubh / Brian Hughes
+  - top rows: S Jupiter → J Pluto Dec 27.0021 27 whole (79.94) — only
+  - star rows: J Capella → J Pluto Dec 59.0076 59 whole (38.41) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: J Galactic Centre → J Pluto Dec 15.9990 16 whole (90.37) — also: 1 Walk Tall / Freddie Gingell, 7 Aill Dubh / Brian Hughes
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+- **Vesta**
+  - same body: S Vesta → H Vesta RA 144.9674 144.444 ninth (loose) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Capella → H Vesta Dec 28.0094 28 whole (28.03) — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: H Galactic Centre → H Vesta Dec 46.9947 47 whole (54.38) — also: 7 Aill Dubh / Brian Hughes
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: J Algenib → J Vesta Dec 0.2955 conj (0.02) — only
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: J Deneb Algedi → J Vesta Dec 31.0180 31 whole (0.96) — also: 1 Walk Tall / Freddie Gingell, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+- **Haumea**
+  - same body: S Haumea → H Haumea RA 4.9831 5 whole (2.40) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Haumea RA 0.5829 conj (37.38)
+  - star rows: H Deneb Algedi → H Haumea RA 111.0089 111 whole (30.80) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: J Galactic Centre → J Haumea RA 67.0114 67 whole (18.33) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+- **Saturn**
+  - top rows: S Jupiter → H Saturn RA 168.2721 104×φ golden (79.95) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+  - top rows: S Moon → H Saturn RA 126.2139 78×φ golden (60.11) — only
+  - top rows: S Sun → J Saturn Dec 35.9963 36 whole (66.43) — also: 7 Aill Dubh / Brian Hughes
+  - star rows: J Adhara → J Saturn Dec 48.9958 49 whole (62.11) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - star rows: J Pollux → J Saturn Dec 8.0020 8 whole (80.62) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **Rahu**
+  - top rows: S Jupiter → H Rahu RA 77.9994 78 whole (94.39) — only
+  - star rows: J Deneb Algedi → J Rahu RA 120.0109 120 whole (20.79) — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+- **Sedna**
+  - top rows: S Jupiter → H Sedna RA 88.8894 88.8889 ninth (99.63) — only
+  - star rows: H Algenib → H Sedna Dec 6.9906 7 whole (28.34) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: J Alkaid → J Sedna Dec 43.9855 44 whole (7.45) — only
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - star rows: J Pollux → J Sedna RA 69.0003 69 whole (96.86) — only
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **Ketu**
+  - top rows: S Jupiter → H Ketu RA 102.0006 102 whole (94.39) — only
+  - star rows: H Adhara → H Ketu RA 144.4702 144.444 ninth (97.28) — also: 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - star rows: H Meissa → H Ketu Dec 31.9828 32 whole (1.90) — only
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: H Zubenelgenubi → H Ketu Dec 6.0059 6 whole (49.65) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - star rows: J Deneb Algedi → J Ketu RA 59.9891 60 whole (20.79) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: J Galactic Centre → J Ketu RA 0.3561 conj (58.16) — also: 4 Wise Move / Jonathon Bewley
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: J Meissa → J Ketu Dec 33.3396 33.3333 ninth (92.50) — only
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **Pallas**
+  - top rows: S Sun → H Pallas Dec 22.0023 22 whole (78.38) — also: 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Adhara → H Pallas Dec 35.0050 35 whole (56.45) — also: 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - star rows: H Meissa → H Pallas RA 101.9506 63×φ golden (30.68) — also: 3 Defence Witness / Jonathan England
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: H Pollux → H Pallas Dec 21.9978 22 whole (78.81) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - same body: S Pallas → J Pallas RA 88.7720 88.8889 ninth (loose) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+- **Eris**
+  - top rows: S Sun → H Eris RA 165.0473 102×φ golden (57.30) — only
+  - star rows: H Alkaid → H Eris RA 179.4728 10×φ^6 phi power (93.41) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - same body: S Eris → J Eris Dec 6.4760 4×φ golden (loose) — also: 1 Walk Tall / Freddie Gingell
+  - star rows: J Algenib → J Eris RA 20.0034 20 whole (68.84) — only
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+- **Makemake**
+  - top rows: S Sun → H Makemake RA 24.0007 24 whole (93.58) — also: 3 Defence Witness / Jonathan England
+  - star rows: H Algenib → H Makemake RA 165.9878 166 whole (15.29) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: H Deneb Algedi → H Makemake RA 129.4435 80×φ golden (95.16) — also: 3 Defence Witness / Jonathan England, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: H Pollux → H Makemake RA 80.9936 81 whole (45.91) — also: 3 Defence Witness / Jonathan England
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - same body: S Makemake → J Makemake RA 20.0179 20 whole (1.11) — also: 4 Wise Move / Jonathon Bewley
+  - star rows: J Algenib → J Makemake Dec 16.0056 16 whole (52.13) — also: 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+- **Juno**
+  - star rows: H Adhara → H Juno RA 158.5431 98×φ golden (6.26) — also: 3 Defence Witness / Jonathan England, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - star rows: H Meissa → H Juno RA 179.4163 10×φ^6 phi power (94.20) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - same body: S Juno → J Juno Dec 14.3533 14.4444 ninth (loose) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+  - top rows: S Jupiter → J Juno RA 0.0706 conj (90.81) — only
+  - star rows: J Capella → J Juno RA 68.0142 68 whole (8.32) — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+- **Mercury**
+  - star rows: H Algenib → H Mercury Dec 3.9915 4 whole (32.98) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: J Meissa → J Mercury RA 135.9354 84×φ golden (13.34) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **Gonggong**
+  - star rows: H Capella → H Gonggong RA 101.9980 102 whole (80.69) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: H Pollux → H Gonggong RA 139.1542 86×φ golden (80.58) — only
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - same body: S Gonggong → J Gonggong Dec 6.4771 4×φ golden (loose) — also: 7 Aill Dubh / Brian Hughes
+- **Ceres**
+  - star rows: H Deneb Algedi → H Ceres RA 60.0104 60 whole (23.16) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: H Meissa → H Ceres RA 57.0099 57 whole (25.58) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: J Capella → J Ceres Dec 69.9949 70 whole (55.85) — only
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: J Galactic Centre → J Ceres Dec 5.0117 5 whole (17.34) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: J Zubenelgenubi → J Ceres RA 93.9830 94 whole (2.23) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **Neptune**
+  - star rows: H Menkent → H Neptune RA 141.4588 141.4 sqrt2 (89.68) — only
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - same body: S Neptune → J Neptune RA 51.9934 52 whole (44.81) — also: 3 Defence Witness / Jonathan England, 8 Croagh Patrick / Charlie Maggs
+- **Sun**
+  - star rows: H Zubenelgenubi → H Sun RA 173.9826 174 whole (1.75) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - star rows: J Galactic Centre → J Sun RA 22.0018 22 whole (82.95) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: J Menkent → J Sun Dec 14.0054 14 whole (53.59) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+- **Mars**
+  - same body: S Mars → J Mars Dec 19.9796 20 whole (loose) — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+  - star rows: J Alkaid → J Mars RA 145.6406 90×φ golden (20.92) — also: 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- **Orcus**
+  - same body: S Orcus → J Orcus Dec 11.3027 7×φ golden (loose) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Moon → Orcus RA 27.5001 17×φ golden (63.79)
+  - star rows: J Algenib → J Orcus Dec 17.7938 11×φ golden (73.61) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+- **Quaoar**
+  - same body: S Quaoar → J Quaoar RA 31.0267 31 whole (loose) — only
+  - star rows: J Alkaid → J Quaoar RA 43.0031 43 whole (71.82) — only
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- **Transpluto**
+  - same body: S Transpluto → J Transpluto Dec 2.9917 3 whole (34.48) — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes, 8 Croagh Patrick / Charlie Maggs
+- **Chiron**
+  - star rows: J Adhara → J Chiron RA 168.2976 104×φ golden (10.14) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+
+## 7 Aill Dubh / Brian Hughes
+### L1 same bodies
+- S Sun → H Sun RA 179.2359 10×φ^6 phi power (loose)
+- S Mercury → H Mercury RA 165.9155 166.667 ninth (loose)
+- S Venus → H Venus RA 161.1788 100×φ^1 phi power (loose)
+- S Venus → H Venus Dec 14.0881 14.14 sqrt2 (loose)
+- S Mars → H Mars RA 77.7703 77.7778 ninth (94.16)
+- S Saturn → H Saturn Dec 22.9803 23 whole (0.02)
+- S Pluto → H Pluto RA 15.5830 15.5556 ninth (loose)
+- S Ceres → H Ceres RA 55.4943 55.5556 ninth (loose)
+- S Juno → H Juno RA 16.5693 16.6667 ninth (loose)
+- S Rahu → H Rahu Dec 24.1073 24.14 silver (loose)
+- S Gonggong → H Gonggong Dec 1.9801 2 whole (0.00)
+- S Transpluto → H Transpluto RA 4.0267 4 whole (loose)
+- S Ketu → H Ketu Dec 24.1073 24.14 silver (loose)
+- S Venus → J Venus RA 161.3103 100×φ^1 phi power (loose)
+- S Mars → J Mars Dec 8.0937 5×φ golden (loose)
+- S Gonggong → J Gonggong Dec 11.0971 11.1111 ninth (loose)
+### L2 what lands on each same body
+- **H Sun** (same body: S Sun → H Sun RA 179.2359 10×φ^6 phi power (loose))
+  - other chart, top rows: S Jupiter → J Sun RA 61.0050 61 whole (56.44)
+- **H Mercury** (same body: S Mercury → H Mercury RA 165.9155 166.667 ninth (loose))
+- **H Venus** (same body: S Venus → H Venus RA 161.1788 100×φ^1 phi power (loose); S Venus → H Venus Dec 14.0881 14.14 sqrt2 (loose))
+  - star rows: H Zubenelgenubi → H Venus RA 138.9970 139 whole (72.15)
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - other chart, same body: S Venus → J Venus RA 161.3103 100×φ^1 phi power (loose)
+- **H Mars** (same body: S Mars → H Mars RA 77.7703 77.7778 ninth (94.16))
+  - top rows: S Moon → H Mars RA 122.9978 φ^10 phi power (98.07)
+  - star rows: H Alkaid → H Mars Dec 26.9948 27 whole (54.41)
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - star rows: H Capella → H Mars RA 12.9827 13 whole (1.86)
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - other chart, same body: S Mars → J Mars Dec 8.0937 5×φ golden (loose)
+- **H Saturn** (same body: S Saturn → H Saturn Dec 22.9803 23 whole (0.02))
+  - star rows: H Algenib → H Saturn Dec 37.2167 23×φ golden (88.29)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: H Galactic Centre → H Saturn RA 0.3031 conj (63.67)
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: H Zubenelgenubi → H Saturn RA 43.9998 44 whole (97.55)
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - star rows: H Zubenelgenubi → H Saturn Dec 5.9920 6 whole (35.82)
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - other chart, top rows: S Sun → J Saturn Dec 0.2741 conj (0.75)
+  - other chart, star rows: J Deneb Algedi → J Saturn Dec 0.1224 conj (35.04)
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - other chart, star rows: J Meissa → J Saturn RA 147.2282 91×φ golden (36.14)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - other chart, star rows: J Meissa → J Saturn Dec 26.1813 10×φ^2 phi power (98.57)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - other chart, star rows: J Zubenelgenubi → J Saturn Dec 0.2046 conj (10.11)
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **H Pluto** (same body: S Pluto → H Pluto RA 15.5830 15.5556 ninth (loose))
+  - star rows: H Galactic Centre → H Pluto RA 24.1451 24.14 silver (95.14)
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - other chart, star rows: J Alkaid → J Pluto RA 9.0193 9 whole (0.11)
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - other chart, star rows: J Pollux → J Pluto Dec 24.2775 15×φ golden (61.53)
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **H Ceres** (same body: S Ceres → H Ceres RA 55.4943 55.5556 ninth (loose))
+- **H Juno** (same body: S Juno → H Juno RA 16.5693 16.6667 ninth (loose))
+  - other chart, star rows: J Capella → J Juno RA 103.5398 64×φ golden (30.99)
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+- **H Rahu** (same body: S Rahu → H Rahu Dec 24.1073 24.14 silver (loose))
+  - star rows: H Deneb Algedi → H Rahu Dec 27.5071 17×φ golden (96.71)
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: H Pollux → H Rahu RA 36.0174 36 whole (1.67)
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - other chart, star rows: J Algenib → J Rahu Dec 2.0156 2 whole (4.93)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - other chart, star rows: J Galactic Centre → J Rahu RA 139.1228 86×φ golden (1.73)
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+- **H Gonggong** (same body: S Gonggong → H Gonggong Dec 1.9801 2 whole (0.00))
+  - T1: H Jupiter → H Gonggong RA 142.0028 142 whole (74.18)
+  - star rows: H Meissa → H Gonggong Dec 22.2259 22.2222 ninth (94.87)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - other chart, same body: S Gonggong → J Gonggong Dec 11.0971 11.1111 ninth (loose)
+  - other chart, star rows: J Deneb Algedi → J Gonggong RA 2.0066 2 whole (45.12)
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - other chart, star rows: J Meissa → J Gonggong RA 115.0103 115 whole (23.39)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **H Transpluto** (same body: S Transpluto → H Transpluto RA 4.0267 4 whole (loose))
+  - star rows: H Menkent → H Transpluto RA 58.9935 59 whole (45.76)
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - other chart, star rows: J Algenib → J Transpluto Dec 0.2559 conj (2.16)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - other chart, star rows: J Meissa → J Transpluto Dec 4.9922 5 whole (37.08)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **H Ketu** (same body: S Ketu → H Ketu Dec 24.1073 24.14 silver (loose))
+  - star rows: H Menkent → H Ketu Dec 24.9962 25 whole (66.01)
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - star rows: H Pollux → H Ketu RA 143.9826 144 whole (1.67)
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **J Venus** (same body: S Venus → J Venus RA 161.3103 100×φ^1 phi power (loose))
+  - other chart, same body: S Venus → H Venus RA 161.1788 100×φ^1 phi power (loose)
+  - other chart, same body: S Venus → H Venus Dec 14.0881 14.14 sqrt2 (loose)
+  - other chart, star rows: H Zubenelgenubi → H Venus RA 138.9970 139 whole (72.15)
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **J Mars** (same body: S Mars → J Mars Dec 8.0937 5×φ golden (loose))
+  - other chart, same body: S Mars → H Mars RA 77.7703 77.7778 ninth (94.16)
+  - other chart, top rows: S Moon → H Mars RA 122.9978 φ^10 phi power (98.07)
+  - other chart, star rows: H Alkaid → H Mars Dec 26.9948 27 whole (54.41)
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - other chart, star rows: H Capella → H Mars RA 12.9827 13 whole (1.86)
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+- **J Gonggong** (same body: S Gonggong → J Gonggong Dec 11.0971 11.1111 ninth (loose))
+  - star rows: J Deneb Algedi → J Gonggong RA 2.0066 2 whole (45.12)
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: J Meissa → J Gonggong RA 115.0103 115 whole (23.39)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - other chart, same body: S Gonggong → H Gonggong Dec 1.9801 2 whole (0.00)
+  - other chart, T1: H Jupiter → H Gonggong RA 142.0028 142 whole (74.18)
+  - other chart, star rows: H Meissa → H Gonggong Dec 22.2259 22.2222 ninth (94.87)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+### L3 matches
+- **1. same body on both charts**
+  - Venus — also: 4 Wise Move / Jonathon Bewley
+    - S Venus → H Venus RA 161.1788 100×φ^1 phi power (loose)
+    - S Venus → H Venus Dec 14.0881 14.14 sqrt2 (loose)
+    - S Venus → J Venus RA 161.3103 100×φ^1 phi power (loose)
+  - Mars — only
+    - S Mars → H Mars RA 77.7703 77.7778 ninth (94.16)
+    - S Mars → J Mars Dec 8.0937 5×φ golden (loose)
+  - Gonggong — only
+    - S Gonggong → H Gonggong Dec 1.9801 2 whole (0.00)
+    - S Gonggong → J Gonggong Dec 11.0971 11.1111 ninth (loose)
+- **2. one body in both planes**
+  - H Venus — only
+    - S Venus → H Venus RA 161.1788 100×φ^1 phi power (loose)
+    - S Venus → H Venus Dec 14.0881 14.14 sqrt2 (loose)
+- **3. runner number = sky number**
+  - 142 whole — also: 1 Walk Tall / Freddie Gingell
+    - H Jupiter → H Gonggong RA 142.0028 142 whole (74.18) = S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - 13 whole — only
+    - H Capella → H Mars RA 12.9827 13 whole (1.86) = S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - 44 whole — also: 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - H Capella → H Vesta RA 43.9913 44 whole (31.75) = S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - 17×φ golden — only
+    - H Deneb Algedi → H Rahu Dec 27.5071 17×φ golden (96.71) = S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - 44 whole — also: 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - H Zubenelgenubi → H Saturn RA 43.9998 44 whole (97.55) = S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **4. circle divisions**
+  - 2 = 360/180 — also: 4 Wise Move / Jonathon Bewley
+    - S Gonggong → H Gonggong Dec 1.9801 2 whole (0.00)
+  - 4 = 360/90 — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - S Transpluto → H Transpluto RA 4.0267 4 whole (loose)
+  - 36 = 360/10 — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+    - H Pollux → H Rahu RA 36.0174 36 whole (1.67)
+  - 6 = 360/60 — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - H Zubenelgenubi → H Saturn Dec 5.9920 6 whole (35.82)
+  - 9 = 360/40 — also: 1 Walk Tall / Freddie Gingell, 8 Croagh Patrick / Charlie Maggs
+    - S Rahu → J Jupiter RA 9.0028 9 whole (73.62)
+  - 2 = 360/180 — also: 4 Wise Move / Jonathon Bewley
+    - J Algenib → J Rahu Dec 2.0156 2 whole (4.93)
+  - 9 = 360/40 — also: 1 Walk Tall / Freddie Gingell, 8 Croagh Patrick / Charlie Maggs
+    - J Alkaid → J Pluto RA 9.0193 9 whole (0.11)
+  - 2 = 360/180 — also: 4 Wise Move / Jonathon Bewley
+    - J Deneb Algedi → J Gonggong RA 2.0066 2 whole (45.12)
+  - 5 = 360/72 — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - J Meissa → J Transpluto Dec 4.9922 5 whole (37.08)
+  - 15 = 360/24 — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England
+    - J Zubenelgenubi → J Vesta Dec 15.0149 15 whole (6.38)
+- **5. same number in more than one place**
+  - 10×φ^6 phi power — also: 5 C'Mon So / Patrick Wadge
+    - S Sun → H Sun RA 179.2359 10×φ^6 phi power (loose)
+    - S Pallas → H Jupiter RA 179.4484 10×φ^6 phi power (98.74)
+  - 100×φ^1 phi power — only
+    - S Venus → H Venus RA 161.1788 100×φ^1 phi power (loose)
+    - S Venus → J Venus RA 161.3103 100×φ^1 phi power (loose)
+  - 24.14 silver — only
+    - S Rahu → H Rahu Dec 24.1073 24.14 silver (loose)
+    - S Ketu → H Ketu Dec 24.1073 24.14 silver (loose)
+    - H Galactic Centre → H Pluto RA 24.1451 24.14 silver (95.14)
+  - 2 whole — only
+    - S Gonggong → H Gonggong Dec 1.9801 2 whole (0.00)
+    - J Algenib → J Rahu Dec 2.0156 2 whole (4.93)
+    - J Deneb Algedi → J Gonggong RA 2.0066 2 whole (45.12)
+  - 44 whole — only
+    - H Capella → H Vesta RA 43.9913 44 whole (31.75)
+    - H Zubenelgenubi → H Saturn RA 43.9998 44 whole (97.55)
+  - 115 whole — only
+    - H Galactic Centre → H Orcus RA 114.9836 115 whole (3.31)
+    - J Meissa → J Gonggong RA 115.0103 115 whole (23.39)
+  - 61 whole — only
+    - H Menkent → H Vesta Dec 61.0124 61 whole (14.52)
+    - S Jupiter → J Sun RA 61.0050 61 whole (56.44)
+  - 9 whole — only
+    - S Rahu → J Jupiter RA 9.0028 9 whole (73.62)
+    - J Alkaid → J Pluto RA 9.0193 9 whole (0.11)
+  - 23 and 23×φ on H Saturn — only
+    - S Saturn → H Saturn Dec 22.9803 23 whole (0.02)
+    - H Algenib → H Saturn Dec 37.2167 23×φ golden (88.29)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun RA 179.2359 10×φ^6 phi power (loose) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+  - top rows: S Jupiter → J Sun RA 61.0050 61 whole (56.44) — only
+- **Mercury**
+  - same body: S Mercury → H Mercury RA 165.9155 166.667 ninth (loose) — also: 4 Wise Move / Jonathon Bewley
+- **Venus**
+  - same body: S Venus → H Venus RA 161.1788 100×φ^1 phi power (loose) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+  - same body: S Venus → H Venus Dec 14.0881 14.14 sqrt2 (loose) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Zubenelgenubi → H Venus RA 138.9970 139 whole (72.15) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - same body: S Venus → J Venus RA 161.3103 100×φ^1 phi power (loose) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+- **Mars**
+  - same body: S Mars → H Mars RA 77.7703 77.7778 ninth (94.16) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+  - top rows: S Moon → H Mars RA 122.9978 φ^10 phi power (98.07) — only
+  - star rows: H Alkaid → H Mars Dec 26.9948 27 whole (54.41) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - star rows: H Capella → H Mars RA 12.9827 13 whole (1.86) — also: 4 Wise Move / Jonathon Bewley
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - same body: S Mars → J Mars Dec 8.0937 5×φ golden (loose) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+- **Saturn**
+  - same body: S Saturn → H Saturn Dec 22.9803 23 whole (0.02) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley
+  - star rows: H Algenib → H Saturn Dec 37.2167 23×φ golden (88.29) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: H Galactic Centre → H Saturn RA 0.3031 conj (63.67) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: H Zubenelgenubi → H Saturn RA 43.9998 44 whole (97.55) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - star rows: H Zubenelgenubi → H Saturn Dec 5.9920 6 whole (35.82) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - top rows: S Sun → J Saturn Dec 0.2741 conj (0.75) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: J Deneb Algedi → J Saturn Dec 0.1224 conj (35.04) — also: 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: J Meissa → J Saturn RA 147.2282 91×φ golden (36.14) — only
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: J Meissa → J Saturn Dec 26.1813 10×φ^2 phi power (98.57) — only
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: J Zubenelgenubi → J Saturn Dec 0.2046 conj (10.11) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **Pluto**
+  - same body: S Pluto → H Pluto RA 15.5830 15.5556 ninth (loose) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: H Galactic Centre → H Pluto RA 24.1451 24.14 silver (95.14) — also: 1 Walk Tall / Freddie Gingell, 5 C'Mon So / Patrick Wadge
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: J Alkaid → J Pluto RA 9.0193 9 whole (0.11) — only
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - star rows: J Pollux → J Pluto Dec 24.2775 15×φ golden (61.53) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **Ceres**
+  - same body: S Ceres → H Ceres RA 55.4943 55.5556 ninth (loose) — also: 3 Defence Witness / Jonathan England
+- **Juno**
+  - same body: S Juno → H Juno RA 16.5693 16.6667 ninth (loose) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+  - star rows: J Capella → J Juno RA 103.5398 64×φ golden (30.99) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+- **Rahu**
+  - same body: S Rahu → H Rahu Dec 24.1073 24.14 silver (loose) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England
+  - star rows: H Deneb Algedi → H Rahu Dec 27.5071 17×φ golden (96.71) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: H Pollux → H Rahu RA 36.0174 36 whole (1.67) — also: 3 Defence Witness / Jonathan England
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - star rows: J Algenib → J Rahu Dec 2.0156 2 whole (4.93) — also: 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: J Galactic Centre → J Rahu RA 139.1228 86×φ golden (1.73) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong Dec 1.9801 2 whole (0.00) — also: 5 C'Mon So / Patrick Wadge
+  - T1: H Jupiter → H Gonggong RA 142.0028 142 whole (74.18) — only
+  - star rows: H Meissa → H Gonggong Dec 22.2259 22.2222 ninth (94.87) — also: 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - same body: S Gonggong → J Gonggong Dec 11.0971 11.1111 ninth (loose) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: J Deneb Algedi → J Gonggong RA 2.0066 2 whole (45.12) — also: 1 Walk Tall / Freddie Gingell, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: J Meissa → J Gonggong RA 115.0103 115 whole (23.39) — also: 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **Transpluto**
+  - same body: S Transpluto → H Transpluto RA 4.0267 4 whole (loose) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+  - star rows: H Menkent → H Transpluto RA 58.9935 59 whole (45.76) — only
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - star rows: J Algenib → J Transpluto Dec 0.2559 conj (2.16) — also: 3 Defence Witness / Jonathan England
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: J Meissa → J Transpluto Dec 4.9922 5 whole (37.08) — also: 3 Defence Witness / Jonathan England
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **Ketu**
+  - same body: S Ketu → H Ketu Dec 24.1073 24.14 silver (loose) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England
+  - star rows: H Menkent → H Ketu Dec 24.9962 25 whole (66.01) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - star rows: H Pollux → H Ketu RA 143.9826 144 whole (1.67) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **Makemake**
+  - T1: H Jupiter → H Makemake RA 0.3761 conj (56.14) — only
+  - star rows: J Algenib → J Makemake Dec 22.0023 22 whole (78.20) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+- **Quaoar**
+  - top rows: S Sun → H Quaoar RA 49.0013 49 whole (86.98) — only
+  - star rows: H Algenib → H Quaoar RA 92.9860 93 whole (9.14) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: H Pollux → H Quaoar RA 153.9952 154 whole (57.62) — only
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - star rows: J Algenib → J Quaoar RA 135.9253 84×φ golden (45.84) — also: 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+- **Jupiter**
+  - top rows: S Pallas → H Jupiter RA 179.4484 10×φ^6 phi power (98.74) — also: 1 Walk Tall / Freddie Gingell
+  - top rows: S Vesta → H Jupiter Dec 0.1048 conj (42.34) — also: 8 Croagh Patrick / Charlie Maggs
+  - top rows: S Rahu → J Jupiter RA 9.0028 9 whole (73.62) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+  - top rows: S Ketu → J Jupiter RA 170.9972 171 whole (73.62) — also: 8 Croagh Patrick / Charlie Maggs
+- **Uranus**
+  - star rows: H Adhara → H Uranus RA 80.9890 81 whole (20.39) — also: 3 Defence Witness / Jonathan England
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - star rows: H Menkent → H Uranus RA 171.9904 172 whole (27.14) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+- **Pallas**
+  - star rows: H Adhara → H Pallas RA 91.9831 92 whole (2.45) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - star rows: H Menkent → H Pallas RA 160.9963 161 whole (66.61) — also: 3 Defence Witness / Jonathan England
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+- **Eris**
+  - star rows: H Alkaid → H Eris RA 179.0136 179 whole (10.19) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - star rows: H Meissa → H Eris Dec 12.2284 12.2222 ninth (91.48) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **Vesta**
+  - star rows: H Capella → H Vesta RA 43.9913 44 whole (31.75) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: H Menkent → H Vesta Dec 61.0124 61 whole (14.52) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - star rows: J Galactic Centre → J Vesta Dec 27.9802 28 whole (0.01) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: J Zubenelgenubi → J Vesta Dec 15.0149 15 whole (6.38) — also: 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **Orcus**
+  - star rows: H Galactic Centre → H Orcus RA 114.9836 115 whole (3.31) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - top rows: S Sun → J Orcus Dec 22.6523 14×φ golden (99.05) — only
+- **Haumea**
+  - star rows: H Menkent → H Haumea RA 0.3315 conj (60.68) — also: 4 Wise Move / Jonathon Bewley, 8 Croagh Patrick / Charlie Maggs
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - star rows: J Meissa → J Haumea Dec 13.9918 14 whole (34.81) — only
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **Sedna**
+  - star rows: J Algenib → J Sedna RA 36.9872 37 whole (12.83) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+- **Chiron**
+  - star rows: J Deneb Algedi → J Chiron Dec 34.0029 34 whole (73.38) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+
+## 8 Croagh Patrick / Charlie Maggs
+### L1 same bodies
+- S Sun → H Sun RA 138.9904 139 whole (26.85)
+- S Sun → H Sun Dec 16.1044 10×φ^1 phi power (loose)
+- S Neptune → H Neptune RA 22.1628 22.2222 ninth (loose)
+- S Juno → H Juno RA 179.5892 10×φ^6 phi power (loose)
+- S Transpluto → H Transpluto RA 4.4401 4.44444 ninth (loose)
+- S Venus → J Venus Dec 14.1309 14.14 sqrt2 (loose)
+- S Pallas → J Pallas RA 144.6099 144.444 ninth (loose)
+- S Vesta → J Vesta Dec 24.1659 24.14 silver (loose)
+- S Haumea → J Haumea RA 18.7629 18.8889 ninth (loose)
+- S Orcus → J Orcus RA 17.7282 17.7778 ninth (loose)
+- S Orcus → J Orcus Dec 9.6998 6×φ golden (loose)
+- S Transpluto → J Transpluto RA 6.6582 6.66667 ninth (loose)
+### L2 what lands on each same body
+- **H Sun** (same body: S Sun → H Sun RA 138.9904 139 whole (26.85); S Sun → H Sun Dec 16.1044 10×φ^1 phi power (loose))
+  - star rows: H Algenib → H Sun RA 2.9958 3 whole (62.52)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - other chart, top rows: S Moon → J Sun RA 22.6530 14×φ golden (96.49)
+  - other chart, star rows: J Capella → J Sun RA 132.6564 82×φ golden (9.42)
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - other chart, star rows: J Menkent → J Sun RA 0.1717 conj (78.42)
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+- **H Neptune** (same body: S Neptune → H Neptune RA 22.1628 22.2222 ninth (loose))
+- **H Juno** (same body: S Juno → H Juno RA 179.5892 10×φ^6 phi power (loose))
+  - star rows: H Adhara → H Juno Dec 40.4525 25×φ golden (89.93)
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - other chart, top rows: S Sun → J Juno Dec 18.8815 18.8889 ninth (94.68)
+  - other chart, star rows: J Meissa → J Juno RA 0.6759 conj (30.18)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **H Transpluto** (same body: S Transpluto → H Transpluto RA 4.4401 4.44444 ninth (loose))
+  - other chart, same body: S Transpluto → J Transpluto RA 6.6582 6.66667 ninth (loose)
+- **J Venus** (same body: S Venus → J Venus Dec 14.1309 14.14 sqrt2 (loose))
+  - star rows: J Alkaid → J Venus RA 52.9881 53 whole (16.35)
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+  - other chart, top rows: S Sun → H Venus RA 170.9968 171 whole (70.38)
+  - other chart, star rows: H Algenib → H Venus RA 29.0106 29 whole (22.08)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - other chart, star rows: H Pollux → H Venus RA 84.0144 84 whole (7.91)
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **J Pallas** (same body: S Pallas → J Pallas RA 144.6099 144.444 ninth (loose))
+  - top rows: S Sun → J Pallas RA 8.9981 9 whole (81.62)
+  - star rows: J Algenib → J Pallas RA 132.9981 133 whole (81.66)
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: J Pollux → J Pallas RA 113.9865 114 whole (10.56)
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - other chart, star rows: H Deneb Algedi → H Pallas RA 59.0133 59 whole (11.26)
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - other chart, star rows: H Galactic Centre → H Pallas RA 1.3264 conj (1.34)
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+- **J Vesta** (same body: S Vesta → J Vesta Dec 24.1659 24.14 silver (loose))
+  - star rows: J Meissa → J Vesta RA 28.9956 29 whole (60.70)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - other chart, top rows: S Jupiter → H Vesta RA 177.7489 177.778 ninth (97.74)
+  - other chart, top rows: S Jupiter → H Vesta Dec 29.1203 18×φ golden (75.19)
+  - other chart, star rows: H Deneb Algedi → H Vesta Dec 1.0033 1 whole (70.08)
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+- **J Haumea** (same body: S Haumea → J Haumea RA 18.7629 18.8889 ninth (loose))
+  - sky line to Haumea: S Sun → Haumea RA 0.5829 conj (37.38)
+  - other chart, star rows: H Galactic Centre → H Haumea RA 55.5528 55.5556 ninth (97.39)
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - other chart, star rows: H Menkent → H Haumea RA 0.8090 conj (21.22)
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+- **J Orcus** (same body: S Orcus → J Orcus RA 17.7282 17.7778 ninth (loose); S Orcus → J Orcus Dec 9.6998 6×φ golden (loose))
+  - sky line to Orcus: S Moon → Orcus RA 27.5001 17×φ golden (63.79)
+  - star rows: J Meissa → J Orcus Dec 14.1476 14.14 sqrt2 (85.09)
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - other chart, top rows: S Moon → H Orcus Dec 0.2502 conj (2.76)
+- **J Transpluto** (same body: S Transpluto → J Transpluto RA 6.6582 6.66667 ninth (loose))
+  - other chart, same body: S Transpluto → H Transpluto RA 4.4401 4.44444 ninth (loose)
+### L3 matches
+- **1. same body on both charts**
+  - Transpluto — only
+    - S Transpluto → H Transpluto RA 4.4401 4.44444 ninth (loose)
+    - S Transpluto → J Transpluto RA 6.6582 6.66667 ninth (loose)
+- **2. one body in both planes**
+  - H Sun — only
+    - S Sun → H Sun RA 138.9904 139 whole (26.85)
+    - S Sun → H Sun Dec 16.1044 10×φ^1 phi power (loose)
+  - J Orcus — only
+    - S Orcus → J Orcus RA 17.7282 17.7778 ninth (loose)
+    - S Orcus → J Orcus Dec 9.6998 6×φ golden (loose)
+- **3. runner number = sky number**
+  - 44 whole — also: 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+    - J Alkaid → J Rahu Dec 44.0091 44 whole (29.45) = S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - 110 whole — only
+    - J Zubenelgenubi → J Gonggong RA 109.9878 110 whole (15.14) = S Moon → Capella RA 110.0018 110 whole (82.88)
+- **4. circle divisions**
+  - 5 = 360/72 — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+    - S Moon → H Rahu Dec 4.9992 5 whole (92.20)
+  - 10 = 360/36 — also: 3 Defence Witness / Jonathan England
+    - H Adhara → H Saturn Dec 9.9834 10 whole (2.96)
+  - 3 = 360/120 — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+    - H Algenib → H Sun RA 2.9958 3 whole (62.52)
+  - 24 = 360/15 — also: 5 C'Mon So / Patrick Wadge
+    - H Algenib → H Mercury Dec 24.0087 24 whole (31.65)
+  - 1 = 360/360 — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+    - H Deneb Algedi → H Vesta Dec 1.0033 1 whole (70.08)
+  - 20 = 360/18 — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge
+    - H Deneb Algedi → H Ketu Dec 19.9930 20 whole (42.06)
+  - 10 = 360/36 — also: 3 Defence Witness / Jonathan England
+    - H Galactic Centre → H Saturn Dec 10.0143 10 whole (8.23)
+  - 9 = 360/40 — also: 1 Walk Tall / Freddie Gingell, 7 Aill Dubh / Brian Hughes
+    - S Sun → J Pallas RA 8.9981 9 whole (81.62)
+  - 6 = 360/60 — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+    - S Vesta → J Jupiter Dec 5.9972 6 whole (74.17)
+  - 4 = 360/90 — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+    - J Meissa → J Sedna Dec 3.9844 4 whole (4.76)
+  - 10 = 360/36 — also: 3 Defence Witness / Jonathan England
+    - J Pollux → J Saturn Dec 10.0061 10 whole (48.63)
+- **5. same number in more than one place**
+  - 31 whole — also: 5 C'Mon So / Patrick Wadge
+    - H Jupiter → H star Adhara RA 30.9952 31 whole (58.07)
+    - H Adhara → H Jupiter RA 30.9952 31 whole (58.07)
+  - 177.778 ninth — only
+    - S Jupiter → H Vesta RA 177.7489 177.778 ninth (97.74)
+    - H Pollux → H Ceres RA 177.7061 177.778 ninth (94.39)
+  - 10 whole — also: 3 Defence Witness / Jonathan England
+    - H Adhara → H Saturn Dec 9.9834 10 whole (2.96)
+    - H Galactic Centre → H Saturn Dec 10.0143 10 whole (8.23)
+    - J Pollux → J Saturn Dec 10.0061 10 whole (48.63)
+  - 29 whole — also: 1 Walk Tall / Freddie Gingell
+    - H Algenib → H Venus RA 29.0106 29 whole (22.08)
+    - J Algenib → J Chiron Dec 28.9844 29 whole (4.94)
+    - J Meissa → J Vesta RA 28.9956 29 whole (60.70)
+  - 59 whole — only
+    - H Deneb Algedi → H Pallas RA 59.0133 59 whole (11.26)
+    - J Alkaid → J Uranus Dec 59.0193 59 whole (0.13)
+  - 76 whole — only
+    - S Menkent → H Jupiter RA 76.0060 76 whole (49.13)
+    - J Zubenelgenubi → J Chiron RA 75.9937 76 whole (46.67)
+  - 47 whole — only
+    - H Pollux → H Saturn Dec 47.0192 47 whole (0.15)
+    - J Adhara → J Saturn Dec 46.9873 47 whole (13.31)
+  - 14.14 sqrt2 — only
+    - S Venus → J Venus Dec 14.1309 14.14 sqrt2 (loose)
+    - J Meissa → J Orcus Dec 14.1476 14.14 sqrt2 (85.09)
+  - 18.8889 ninth — only
+    - S Haumea → J Haumea RA 18.7629 18.8889 ninth (loose)
+    - S Sun → J Juno Dec 18.8815 18.8889 ninth (94.68)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun RA 138.9904 139 whole (26.85) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+  - same body: S Sun → H Sun Dec 16.1044 10×φ^1 phi power (loose) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+  - star rows: H Algenib → H Sun RA 2.9958 3 whole (62.52) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - top rows: S Moon → J Sun RA 22.6530 14×φ golden (96.49) — only
+  - star rows: J Capella → J Sun RA 132.6564 82×φ golden (9.42) — only
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: J Menkent → J Sun RA 0.1717 conj (78.42) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+- **Neptune**
+  - same body: S Neptune → H Neptune RA 22.1628 22.2222 ninth (loose) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge
+- **Juno**
+  - same body: S Juno → H Juno RA 179.5892 10×φ^6 phi power (loose) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+  - star rows: H Adhara → H Juno Dec 40.4525 25×φ golden (89.93) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - top rows: S Sun → J Juno Dec 18.8815 18.8889 ninth (94.68) — also: 3 Defence Witness / Jonathan England
+  - star rows: J Meissa → J Juno RA 0.6759 conj (30.18) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **Transpluto**
+  - same body: S Transpluto → H Transpluto RA 4.4401 4.44444 ninth (loose) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+  - same body: S Transpluto → J Transpluto RA 6.6582 6.66667 ninth (loose) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+- **Jupiter**
+  - T1: H Jupiter → H star Adhara RA 30.9952 31 whole (58.07) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+  - top rows: S Ketu → H Jupiter RA 12.9405 8×φ golden (77.88) — also: 7 Aill Dubh / Brian Hughes
+  - star rows: H Adhara → H Jupiter RA 30.9952 31 whole (58.07) — also: 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - star rows: S Deneb Algedi → H Jupiter Dec 34.0056 34 whole (52.19) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: S Menkent → H Jupiter RA 76.0060 76 whole (49.13) — also: 4 Wise Move / Jonathon Bewley
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - top rows: S Vesta → J Jupiter Dec 5.9972 6 whole (74.17) — also: 7 Aill Dubh / Brian Hughes
+  - top rows: S Gonggong → J Jupiter Dec 0.2600 conj (1.78) — only
+- **Mercury**
+  - top rows: S Jupiter → H Mercury RA 161.9956 162 whole (60.57) — also: 1 Walk Tall / Freddie Gingell
+  - top rows: S Moon → H Mercury Dec 0.0349 conj (78.07) — only
+  - star rows: H Algenib → H Mercury Dec 24.0087 24 whole (31.65) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+- **Saturn**
+  - top rows: S Jupiter → H Saturn RA 96.0012 96 whole (88.72) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+  - star rows: H Adhara → H Saturn Dec 9.9834 10 whole (2.96) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - star rows: H Capella → H Saturn Dec 64.9913 65 whole (32.11) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: H Galactic Centre → H Saturn Dec 10.0143 10 whole (8.23) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 7 Aill Dubh / Brian Hughes
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: H Pollux → H Saturn Dec 47.0192 47 whole (0.15) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - star rows: J Adhara → J Saturn Dec 46.9873 47 whole (13.31) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Adhara Dec 12.9952 13 whole (57.45)
+  - star rows: J Capella → J Saturn RA 54.0182 54 whole (0.83) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: J Pollux → J Saturn Dec 10.0061 10 whole (48.63) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **Chiron**
+  - top rows: S Jupiter → H Chiron RA 159.9971 160 whole (73.01) — only
+  - star rows: J Algenib → J Chiron Dec 28.9844 29 whole (4.94) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: J Zubenelgenubi → J Chiron RA 75.9937 76 whole (46.67) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **Vesta**
+  - top rows: S Jupiter → H Vesta RA 177.7489 177.778 ninth (97.74) — also: 4 Wise Move / Jonathon Bewley
+  - top rows: S Jupiter → H Vesta Dec 29.1203 18×φ golden (75.19) — also: 4 Wise Move / Jonathon Bewley
+  - star rows: H Deneb Algedi → H Vesta Dec 1.0033 1 whole (70.08) — also: 1 Walk Tall / Freddie Gingell, 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - same body: S Vesta → J Vesta Dec 24.1659 24.14 silver (loose) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+  - star rows: J Meissa → J Vesta RA 28.9956 29 whole (60.70) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **Venus**
+  - top rows: S Sun → H Venus RA 170.9968 171 whole (70.38) — only
+  - star rows: H Algenib → H Venus RA 29.0106 29 whole (22.08) — only
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: H Pollux → H Venus RA 84.0144 84 whole (7.91) — only
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - same body: S Venus → J Venus Dec 14.1309 14.14 sqrt2 (loose) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+  - star rows: J Alkaid → J Venus RA 52.9881 53 whole (16.35) — only
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- **Rahu**
+  - top rows: S Moon → H Rahu RA 0.2201 conj (72.80) — only
+  - top rows: S Moon → H Rahu Dec 4.9992 5 whole (92.20) — only
+  - star rows: H Meissa → H Rahu RA 105.1775 65×φ golden (69.98) — only
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: J Alkaid → J Rahu Dec 44.0091 44 whole (29.45) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
+- **Orcus**
+  - top rows: S Moon → H Orcus Dec 0.2502 conj (2.76) — only
+  - same body: S Orcus → J Orcus RA 17.7282 17.7778 ninth (loose) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+    - source line: S Moon → Orcus RA 27.5001 17×φ golden (63.79)
+  - same body: S Orcus → J Orcus Dec 9.6998 6×φ golden (loose) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+    - source line: S Moon → Orcus RA 27.5001 17×φ golden (63.79)
+  - star rows: J Meissa → J Orcus Dec 14.1476 14.14 sqrt2 (85.09) — only
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **Ceres**
+  - star rows: H Algenib → H Ceres Dec 38.9974 39 whole (75.33) — also: 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: H Pollux → H Ceres RA 177.7061 177.778 ninth (94.39) — only
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - star rows: J Meissa → J Ceres RA 166.6749 166.667 ninth (99.30) — also: 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+- **Quaoar**
+  - star rows: H Algenib → H Quaoar RA 95.4630 59×φ golden (94.00) — also: 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: H Galactic Centre → H Quaoar RA 1.4235 conj (0.26) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - top rows: S Moon → J Quaoar RA 63.9991 64 whole (91.26) — only
+  - star rows: J Capella → J Quaoar RA 174.0024 174 whole (77.32) — also: 3 Defence Witness / Jonathan England
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: J Menkent → J Quaoar Dec 21.0384 13×φ golden (76.85) — also: 1 Walk Tall / Freddie Gingell
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+- **Eris**
+  - star rows: H Capella → H Eris Dec 48.9971 49 whole (73.48) — only
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: H Galactic Centre → H Eris Dec 26.0085 26 whole (33.33) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: J Meissa → J Eris Dec 15.5586 15.5556 ninth (97.09) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: J Menkent → J Eris Dec 30.7457 19×φ golden (82.24) — only
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+- **Gonggong**
+  - star rows: H Capella → H Gonggong RA 103.5443 64×φ golden (48.24) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - top rows: S Sun → J Gonggong Dec 0.1234 conj (34.65) — also: 1 Walk Tall / Freddie Gingell
+  - star rows: J Deneb Algedi → J Gonggong Dec 0.2775 conj (0.56) — also: 1 Walk Tall / Freddie Gingell, 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: J Zubenelgenubi → J Gonggong RA 109.9878 110 whole (15.14) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+  - star rows: J Zubenelgenubi → J Gonggong Dec 0.1904 conj (13.35) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **Pallas**
+  - star rows: H Deneb Algedi → H Pallas RA 59.0133 59 whole (11.26) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+  - star rows: H Galactic Centre → H Pallas RA 1.3264 conj (1.34) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - same body: S Pallas → J Pallas RA 144.6099 144.444 ninth (loose) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley, 5 C'Mon So / Patrick Wadge
+  - top rows: S Sun → J Pallas RA 8.9981 9 whole (81.62) — also: 5 C'Mon So / Patrick Wadge
+  - star rows: J Algenib → J Pallas RA 132.9981 133 whole (81.66) — also: 3 Defence Witness / Jonathan England, 4 Wise Move / Jonathon Bewley
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: J Pollux → J Pallas RA 113.9865 114 whole (10.56) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **Ketu**
+  - star rows: H Deneb Algedi → H Ketu Dec 19.9930 20 whole (42.06) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+- **Sedna**
+  - star rows: H Galactic Centre → H Sedna RA 147.9904 148 whole (27.06) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: J Meissa → J Sedna Dec 3.9844 4 whole (4.76) — only
+    - source line: S Sun → Meissa RA 137.5285 85×φ golden (74.78)
+  - star rows: J Zubenelgenubi → J Sedna Dec 21.9912 22 whole (31.25) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0674 conj (60.14)
+- **Haumea**
+  - star rows: H Galactic Centre → H Haumea RA 55.5528 55.5556 ninth (97.39) — also: 5 C'Mon So / Patrick Wadge
+    - source line: S Jupiter → Galactic Centre Dec 43.0018 43 whole (83.24)
+  - star rows: H Menkent → H Haumea RA 0.8090 conj (21.22) — also: 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+    - source line: S Moon → Menkent Dec 27.5094 17×φ golden (83.18)
+  - same body: S Haumea → J Haumea RA 18.7629 18.8889 ninth (loose) — also: 1 Walk Tall / Freddie Gingell, 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Haumea RA 0.5829 conj (37.38)
+- **Pluto**
+  - star rows: H Pollux → H Pluto RA 169.8642 105×φ golden (0.85) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+  - top rows: S Sun → J Pluto RA 40.9979 41 whole (80.04) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley
+  - star rows: J Algenib → J Pluto RA 100.9982 101 whole (83.25) — only
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: J Pollux → J Pluto RA 145.9863 146 whole (10.00) — also: 1 Walk Tall / Freddie Gingell, 4 Wise Move / Jonathon Bewley, 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Pollux Dec 43.9981 44 whole (82.31)
+- **Makemake**
+  - star rows: J Algenib → J Makemake Dec 13.9872 14 whole (13.11) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge, 7 Aill Dubh / Brian Hughes
+    - source line: S Sun → Algenib RA 141.9957 142 whole (61.23)
+  - star rows: J Capella → J Makemake RA 106.0169 106 whole (2.42) — also: 4 Wise Move / Jonathon Bewley
+    - source line: S Jupiter → Capella Dec 32.0002 32 whole (97.83)
+    - source line: S Moon → Capella RA 110.0018 110 whole (82.88)
+  - star rows: J Deneb Algedi → J Makemake Dec 45.3008 28×φ golden (75.95) — also: 3 Defence Witness / Jonathan England, 5 C'Mon So / Patrick Wadge
+    - source line: S Sun → Deneb Algedi Dec 0.1562 conj (22.98)
+- **Uranus**
+  - star rows: J Alkaid → J Uranus Dec 59.0193 59 whole (0.13) — only
+    - source line: S Sun → Alkaid RA 14.4415 14.4444 ninth (96.91)
