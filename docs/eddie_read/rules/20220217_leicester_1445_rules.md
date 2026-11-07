@@ -18,11 +18,12 @@ Workbook race_batch_20220217_leicester_1445_jupiter_tables.xlsx. Runners 4. Resu
 - **B4 Same body, clear lead** (1 of 4): 3 Nelson River / Harry Bannister
 - **B5 Same body in both planes** (0 of 4): none
 - **B6 Same body on both charts** (1 of 4): 3 Nelson River / Harry Bannister
+- **B7 Most sky bodies onto the jockey's Jupiter** (1 of 4): 3 Nelson River / Harry Bannister
 
 ## Per runner
 
 - 1 Fransham / Jack Andrews: R1b, B1
-- 3 Nelson River / Harry Bannister: R1b, B1, B2, B3, B4, B6
+- 3 Nelson River / Harry Bannister: R1b, B1, B2, B3, B4, B6, B7
 - 4 Nickolson / Jonjo O'Neill Jr: R40
 - 5 Stepney Causeway / Harry Skelton: none
 
@@ -99,4 +100,12 @@ _One natal body X with same-body cells sky X -> natal X scoring 50 or more in bo
 _One body X with a same-body cell sky X -> H X scoring 50 or more and a same-body cell sky X -> J X scoring 50 or more (any planes)._
 - 3 Nelson River / Harry Bannister
   - Juno: S Juno → H Juno RA 177.7114 177.778 ninth (94.81) | S Juno → J Juno Dec 14.5657 9×φ golden (80.15)
+
+### B7 Most sky bodies onto the jockey's Jupiter
+_The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (stage 1 top rows 'S X -> J Jupiter', X a sky body other than Jupiter, either plane) scoring 80 or more; S Jupiter -> J Jupiter is the same-body cell and is not counted; ties: every runner on the top count; no pick when nobody has one. Jockey chart only, so it comes with the jockey to every ride._
+- 3 Nelson River / Harry Bannister
+  - 3 sky bodies -> J Jupiter at 80 or more (most in the field; next 1)
+  - S Pallas → J Jupiter Dec 3.3332 3.33333 ninth (98.95)
+  - S Sedna → J Jupiter RA 155.5073 155.556 ninth (95.43)
+  - S Quaoar → J Jupiter RA 63.0006 63 whole (93.87)
 

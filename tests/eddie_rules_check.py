@@ -4,7 +4,7 @@
   - every rule in rules.json has a function; rules output exists for every race in results.json
   - set A picks = the SUMMARY lines race_rows.py prints (section 9) for the same workbook
   - set B recomputed here from the stage 1 json (own code)
-  - known cases: Aintree 13:50 All In You in B4, B5 (J Sun), B6 (Makemake); B1 / B3 / B4 in-sample records as written
+  - known cases: Aintree 13:50 All In You in B4, B5 (J Sun), B6 (Makemake); Aintree 12:40 Risky Obsession in B7; B1 / B3 / B4 in-sample records as written
     in claude/full-race-read-method.md (B1 winner held 11 of 14, 8.2 expected; version 4 6 of 14, 2.4; B4 6 picks, 2 won)
   - every horse in the workbooks is in its results order (non-runners apart); eddie_rules.py never reads results
   - back-test tallies recomputed here
@@ -97,7 +97,14 @@ for race, o in sel.items():
     e5 = {R for R, ps in s.items() if any({p['plane'] for p in ps if (p['chart'], p['body']) == k} >= {'RA', 'Dec'}
                                           for k in {(p['chart'], p['body']) for p in ps})}
     e6 = {R for R, ps in s.items() if any({p['chart'] for p in ps if p['body'] == X} >= {'H', 'J'} for X in {p['body'] for p in ps})}
-    for rid, e in (('B1', e1), ('B2', e2), ('B3', e3), ('B4', e4), ('B5', e5), ('B6', e6)):
+    jj = defaultdict(set)
+    for p in d['pieces']:
+        if (p['layer'] == 'top rows' and p['chart'] == 'J' and p['body'] == 'Jupiter' and p['source'].startswith('S ')
+                and p['source'] != 'S Jupiter' and p.get('score') is not None and p['score'] >= 80):
+            jj[p['runner']].add((p['source'], p['plane'], round(p['value'], 6)))
+    mx = max([len(v) for v in jj.values()] or [0])
+    e7 = {R for R, v in jj.items() if mx and len(v) == mx}
+    for rid, e in (('B1', e1), ('B2', e2), ('B3', e3), ('B4', e4), ('B5', e5), ('B6', e6), ('B7', e7)):
         check(got[rid] == e, f'{race} {rid}: {sorted(got[rid])} vs {sorted(e)}')
 
 # known cases
@@ -106,6 +113,14 @@ check(a['B4']['selected'] == ['P07'] and a['B4']['cells']['P07'][0].startswith('
 check(a['B5']['selected'] == ['P07'] and a['B5']['cells']['P07'][0].startswith('J Sun:'), 'All In You B5 J Sun')
 check('P07' in a['B6']['selected'] and any(c.startswith('Makemake:') for c in a['B6']['cells']['P07']), 'All In You B6 Makemake')
 check(a['B3']['selected'] == ['P05'], 'Aintree 13:50 version 4 picks Manuelito')
+a = {r['id']: r for r in sel['20261106_aintree_1240']['rules']}
+check(a['B7']['selected'] == ['P07'] and a['B7']['cells']['P07'] == [
+    '4 sky bodies -> J Jupiter at 80 or more (most in the field; next 2)',
+    'S Rahu → J Jupiter Dec 35.5965 22×φ golden (98.35)', 'S Gonggong → J Jupiter RA 122.2676 122.222 ninth (93.71)',
+    'S Sun → J Jupiter Dec 38.8310 24×φ golden (89.08)', 'S Chiron → J Jupiter RA 74.0013 74 whole (87.33)'],
+      'Aintree 12:40 B7 Risky Obsession, four sky bodies on J Jupiter')
+a = {r['id']: r for r in sel['20261106_aintree_1500']['rules']}
+check(a['B7']['selected'] == ['P01', 'P03', 'P05'], 'Aintree 15:00 B7 three tied on 1 (S Jupiter -> J Jupiter not counted)')
 
 # horses in results; back-test recomputed
 for race, o in sel.items():

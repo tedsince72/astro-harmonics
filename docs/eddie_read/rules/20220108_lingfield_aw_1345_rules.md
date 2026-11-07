@@ -18,10 +18,11 @@ Workbook race_batch_20220108_lingfield_aw_1345_jupiter_tables.xlsx. Runners 5. R
 - **B4 Same body, clear lead** (1 of 5): 1 Protected Guest / Jane Elliott
 - **B5 Same body in both planes** (0 of 5): none
 - **B6 Same body on both charts** (0 of 5): none
+- **B7 Most sky bodies onto the jockey's Jupiter** (1 of 5): 1 Protected Guest / Jane Elliott
 
 ## Per runner
 
-- 1 Protected Guest / Jane Elliott: R26, B1, B4
+- 1 Protected Guest / Jane Elliott: R26, B1, B4, B7
 - 2 Supakalanistic / Liam Keniry: R28, R1b, R7, R42
 - 3 Creationist / Connor Murtagh: B1, B2, B3
 - 4 Trevolli / Kieran O'Neill: R42
@@ -110,4 +111,11 @@ _One natal body X with same-body cells sky X -> natal X scoring 50 or more in bo
 ### B6 Same body on both charts
 _One body X with a same-body cell sky X -> H X scoring 50 or more and a same-body cell sky X -> J X scoring 50 or more (any planes)._
 - none
+
+### B7 Most sky bodies onto the jockey's Jupiter
+_The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (stage 1 top rows 'S X -> J Jupiter', X a sky body other than Jupiter, either plane) scoring 80 or more; S Jupiter -> J Jupiter is the same-body cell and is not counted; ties: every runner on the top count; no pick when nobody has one. Jockey chart only, so it comes with the jockey to every ride._
+- 1 Protected Guest / Jane Elliott
+  - 2 sky bodies -> J Jupiter at 80 or more (most in the field; next 1)
+  - S Uranus → J Jupiter RA 144.0015 144 whole (85.89)
+  - S Makemake → J Jupiter Dec 43.9984 44 whole (84.63)
 

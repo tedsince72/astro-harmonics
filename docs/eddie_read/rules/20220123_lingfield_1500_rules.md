@@ -18,12 +18,13 @@ Workbook race_batch_20220123_lingfield_1500_jupiter_tables.xlsx. Runners 6. Resu
 - **B4 Same body, clear lead** (0 of 6): none
 - **B5 Same body in both planes** (0 of 6): none
 - **B6 Same body on both charts** (0 of 6): none
+- **B7 Most sky bodies onto the jockey's Jupiter** (1 of 6): 3 Master Tommytucker / Harry Cobden
 
 ## Per runner
 
 - 1 Bristol De Mai / Sam Twiston-Davies: B1
 - 2 Dashel Drasher / Rex Dingle: B1
-- 3 Master Tommytucker / Harry Cobden: B1, B2
+- 3 Master Tommytucker / Harry Cobden: B1, B2, B7
 - 5 Itchy Feet / Gavin Sheehan: R7, R42, B1
 - 6 Lieutenant Rocco / Tom Scudamore: R26, B1
 - 7 Two For Gold / David Bass: R26, B1, B3
@@ -107,4 +108,11 @@ _One natal body X with same-body cells sky X -> natal X scoring 50 or more in bo
 ### B6 Same body on both charts
 _One body X with a same-body cell sky X -> H X scoring 50 or more and a same-body cell sky X -> J X scoring 50 or more (any planes)._
 - none
+
+### B7 Most sky bodies onto the jockey's Jupiter
+_The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (stage 1 top rows 'S X -> J Jupiter', X a sky body other than Jupiter, either plane) scoring 80 or more; S Jupiter -> J Jupiter is the same-body cell and is not counted; ties: every runner on the top count; no pick when nobody has one. Jockey chart only, so it comes with the jockey to every ride._
+- 3 Master Tommytucker / Harry Cobden
+  - 2 sky bodies -> J Jupiter at 80 or more (most in the field; next 1)
+  - S Juno → J Jupiter RA 53.3926 33×φ golden (84.82)
+  - S Sedna → J Jupiter Dec 13.9983 14 whole (83.91)
 

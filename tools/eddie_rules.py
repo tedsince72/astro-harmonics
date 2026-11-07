@@ -19,6 +19,7 @@ Rules (Eddie, 7 Nov 2026: "create the rules for all of these"; text in rules.jso
          B4 most same-body cells scoring >= 50 (pieces layer 'same body', score >= 50), alone, lead >= 2
          B5 one natal body with same-body cells >= 50 in RA and in Dec on the same chart
          B6 one body with a same-body cell >= 50 on the horse chart and one on the jockey chart
+         B7 most sky bodies onto the jockey's natal Jupiter (top rows 'S X -> J Jupiter', score >= 80, X not Jupiter; ties all)
 A new rule: its entry in rules.json and a function in RULES below (takes the race context, returns {runner: [cells]}).
 """
 import argparse
@@ -144,8 +145,28 @@ def b6(ctx):
     return dict(out)
 
 
+def b7(ctx):
+    cnt = defaultdict(dict)
+    for p in ctx['d']['pieces']:
+        if (p['layer'] == 'top rows' and p['chart'] == 'J' and p['body'] == 'Jupiter' and p['source'].startswith('S ')
+                and p['source'] != 'S Jupiter'
+                and p.get('score') is not None and p['score'] >= 80):
+            cnt[p['runner']].setdefault((p['source'], p['plane'], round(p['value'], 6)), p)
+    if not cnt:
+        return {}
+    top = max(len(v) for v in cnt.values())
+    out = {}
+    for R, v in cnt.items():
+        if len(v) == top:
+            others = sorted((len(cnt.get(Q, {})) for Q in ctx['d']['runners'] if Q != R), reverse=True)
+            nxt = f"next {others[0]}" if others else 'no other runner'
+            out[R] = [f"{top} sky bodies -> J Jupiter at 80 or more (most in the field; {nxt})"] + \
+                [sbtxt(p) for p in sorted(v.values(), key=lambda p: -p['score'])]
+    return out
+
+
 RULES = {rid: reg_rule(rid) for rid in ('R25', 'R28', 'R1b', 'R7', 'R26', 'R40', 'R42', 'R1')}
-RULES.update(B1=b1, B2=b2, B3=b3, B4=b4, B5=b5, B6=b6)
+RULES.update(B1=b1, B2=b2, B3=b3, B4=b4, B5=b5, B6=b6, B7=b7)
 
 
 def run(json_path, rules):

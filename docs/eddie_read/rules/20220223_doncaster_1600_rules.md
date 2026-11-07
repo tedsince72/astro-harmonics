@@ -18,6 +18,7 @@ Workbook race_batch_20220223_doncaster_1600_jupiter_tables.xlsx. Runners 6. Resu
 - **B4 Same body, clear lead** (0 of 6): none
 - **B5 Same body in both planes** (0 of 6): none
 - **B6 Same body on both charts** (0 of 6): none
+- **B7 Most sky bodies onto the jockey's Jupiter** (1 of 6): 5 Half Track / Sean Quinlan
 
 ## Per runner
 
@@ -25,7 +26,7 @@ Workbook race_batch_20220223_doncaster_1600_jupiter_tables.xlsx. Runners 6. Resu
 - 2 Mister Watson / Kielan Woods: none
 - 3 Gredin / Brian Hughes: none
 - 4 Mr Washington / Jordan Nailor: R42
-- 5 Half Track / Sean Quinlan: none
+- 5 Half Track / Sean Quinlan: B7
 - 6 Silva Eclipse / Thomas Willmott: none
 
 ## Cells
@@ -92,4 +93,10 @@ _One natal body X with same-body cells sky X -> natal X scoring 50 or more in bo
 ### B6 Same body on both charts
 _One body X with a same-body cell sky X -> H X scoring 50 or more and a same-body cell sky X -> J X scoring 50 or more (any planes)._
 - none
+
+### B7 Most sky bodies onto the jockey's Jupiter
+_The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (stage 1 top rows 'S X -> J Jupiter', X a sky body other than Jupiter, either plane) scoring 80 or more; S Jupiter -> J Jupiter is the same-body cell and is not counted; ties: every runner on the top count; no pick when nobody has one. Jockey chart only, so it comes with the jockey to every ride._
+- 5 Half Track / Sean Quinlan
+  - 1 sky bodies -> J Jupiter at 80 or more (most in the field; next 0)
+  - S Pluto → J Jupiter RA 39.0014 39 whole (86.83)
 

@@ -22,6 +22,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 | B4 | Same body, clear lead | 2 | 1 | 1 | 0 (0.2) | 1 (0.3) | 0 |
 | B5 | Same body in both planes | 2 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 |
 | B6 | Same body on both charts | 2 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 |
+| B7 | Most sky bodies onto the jockey's Jupiter | 19 | 18 | 22 | 6 (3.6) | 12 (7.4) | 4 |
 
 ## In-sample races
 
@@ -41,6 +42,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 | B4 | Same body, clear lead | 18 | 6 | 6 | 2 (1.1) | 4 (2.2) | 2 |
 | B5 | Same body in both planes | 18 | 4 | 4 | 1 (0.6) | 2 (1.3) | 1 |
 | B6 | Same body on both charts | 18 | 3 | 4 | 2 (0.7) | 2 (1.4) | 1 |
+| B7 | Most sky bodies onto the jockey's Jupiter | 1 | 1 | 1 | 1 (0.2) | 1 (0.5) | 1 |
 
 ## All races
 
@@ -60,6 +62,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 | B4 | Same body, clear lead | 20 | 7 | 7 | 2 (1.2) | 5 (2.5) | 2 |
 | B5 | Same body in both planes | 20 | 4 | 4 | 1 (0.6) | 2 (1.3) | 1 |
 | B6 | Same body on both charts | 20 | 3 | 4 | 2 (0.7) | 2 (1.4) | 1 |
+| B7 | Most sky bodies onto the jockey's Jupiter | 20 | 19 | 23 | 7 (3.9) | 13 (7.9) | 5 |
 
 
 ## Per rule, every race
@@ -371,4 +374,26 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (in-sample, 7 ran): Dedicated Hero (6), All In You (won); winner All In You
 - 20261106_aintree_1500 (test, 6 ran): none; winner Rubaud
 - 20261106_fontwell_1435 (test, 8 ran): none; winner Fire Flyer
+
+### B7 Most sky bodies onto the jockey's Jupiter
+- 20220108_lingfield_aw_1345 (test, 5 ran): Protected Guest (2); winner Trevolli
+- 20220110_ludlow_1515 (test, 7 ran): Java Point (won), Method Madness (6); winner Java Point
+- 20220121_lingfield_1350 (test, 7 ran): Frero Banbou (won); winner Frero Banbou
+- 20220123_lingfield_1500 (test, 6 ran): Master Tommytucker (5); winner Two For Gold
+- 20220128_doncaster_1315 (test, 7 ran): Funambule Sivola (won); winner Funambule Sivola
+- 20220129_doncaster_1410 (test, 5 ran): Anna Bunina (4); winner Miss Heritage
+- 20220213_southwell_aw_1520 (test, 7 ran): The Dancing Poet (3); winner Chase The Dollar
+- 20220214_catterick_1515 (test, 6 ran): Brian Boranha (4); winner Omar Maretti
+- 20220215_newcastle_aw_1640 (test, 6 ran): Onesmoothoperator (2); winner Sir Chauvelin
+- 20220217_leicester_1445 (test, 4 ran): Nelson River (won); winner Nelson River
+- 20220219_haydock_1405 (test, 6 ran): Top Ville Ben (2); winner Wholestone
+- 20220223_doncaster_1600 (test, 6 ran): Half Track (3); winner Silva Eclipse
+- 20220224_newcastle_aw_1830 (test, 5 ran): none; winner Gowanlad
+- 20220309_fontwell_1440 (test, 7 ran): Royaume Uni (won); winner Royaume Uni
+- 20220311_newcastle_1540 (test, 6 ran): Thundersockssundae (3); winner Peak Time
+- 20261106_aintree_1240 (in-sample, 4 ran): Risky Obsession (won); winner Risky Obsession
+- 20261106_aintree_1315 (test, 5 ran): Barnpark (5); winner Off The Jury
+- 20261106_aintree_1350 (test, 7 ran): Bucephalus (3), Lyssenko (2); winner All In You
+- 20261106_aintree_1500 (test, 6 ran): JPR One (2), Mirabad (3), Rubaud (won); winner Rubaud
+- 20261106_fontwell_1435 (test, 8 ran): Motazzen (2); winner Fire Flyer
 

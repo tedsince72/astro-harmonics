@@ -48,6 +48,10 @@
     {"id": "B6", "set": "B", "name": "Same body on both charts",
      "text": "One body X with a same-body cell sky X -> H X scoring 50 or more and a same-body cell sky X -> J X scoring 50 or more (any planes).",
      "origin": "All In You, Aintree 13:50 (Makemake H RA 10×φ^-1, J Dec 13)", "added": "2026-11-07",
-     "in_sample": ["20220108_lingfield_aw_1345", "20220110_ludlow_1515", "20220121_lingfield_1350", "20220123_lingfield_1500", "20220128_doncaster_1315", "20220129_doncaster_1410", "20220213_southwell_aw_1520", "20220214_catterick_1515", "20220215_newcastle_aw_1640", "20220217_leicester_1445", "20220219_haydock_1405", "20220223_doncaster_1600", "20220224_newcastle_aw_1830", "20220309_fontwell_1440", "20220311_newcastle_1540", "20261106_aintree_1240", "20261106_aintree_1315", "20261106_aintree_1350"]}
+     "in_sample": ["20220108_lingfield_aw_1345", "20220110_ludlow_1515", "20220121_lingfield_1350", "20220123_lingfield_1500", "20220128_doncaster_1315", "20220129_doncaster_1410", "20220213_southwell_aw_1520", "20220214_catterick_1515", "20220215_newcastle_aw_1640", "20220217_leicester_1445", "20220219_haydock_1405", "20220223_doncaster_1600", "20220224_newcastle_aw_1830", "20220309_fontwell_1440", "20220311_newcastle_1540", "20261106_aintree_1240", "20261106_aintree_1315", "20261106_aintree_1350"]},
+    {"id": "B7", "set": "B", "name": "Most sky bodies onto the jockey's Jupiter",
+     "text": "The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (stage 1 top rows 'S X -> J Jupiter', X a sky body other than Jupiter, either plane) scoring 80 or more; S Jupiter -> J Jupiter is the same-body cell and is not counted; ties: every runner on the top count; no pick when nobody has one. Jockey chart only, so it comes with the jockey to every ride.",
+     "origin": "Eddie, 7 Nov 2026 ('build 5'): filter 5 from the stage 2 data of Aintree 12:40 6 Nov 2026 (Risky Obsession / Harry Skelton: S Rahu 98.35, S Gonggong 93.71, S Sun 89.08, S Chiron 87.33). Its result on the other 19 races was looked at once before the rule was fixed (6 of 22 picks won, 3.7 by chance).", "added": "2026-11-07",
+     "in_sample": ["20261106_aintree_1240"]}
   ]
 }

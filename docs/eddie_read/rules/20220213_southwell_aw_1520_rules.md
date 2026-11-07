@@ -18,10 +18,11 @@ Workbook race_batch_20220213_southwell_aw_1520_jupiter_tables.xlsx. Runners 7. R
 - **B4 Same body, clear lead** (1 of 7): 5 Carn A Chlamain / Tom Marquand
 - **B5 Same body in both planes** (1 of 7): 5 Carn A Chlamain / Tom Marquand
 - **B6 Same body on both charts** (0 of 7): none
+- **B7 Most sky bodies onto the jockey's Jupiter** (1 of 7): 1 The Dancing Poet / Harry Russell
 
 ## Per runner
 
-- 1 The Dancing Poet / Harry Russell: none
+- 1 The Dancing Poet / Harry Russell: B7
 - 2 Flying Instructor / Dylan Hogan: B1, B2, B3
 - 3 Chase The Dollar / Rossa Ryan: B1
 - 4 Deluxe Music / Callum Rodriguez: B1
@@ -107,4 +108,11 @@ _One natal body X with same-body cells sky X -> natal X scoring 50 or more in bo
 ### B6 Same body on both charts
 _One body X with a same-body cell sky X -> H X scoring 50 or more and a same-body cell sky X -> J X scoring 50 or more (any planes)._
 - none
+
+### B7 Most sky bodies onto the jockey's Jupiter
+_The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (stage 1 top rows 'S X -> J Jupiter', X a sky body other than Jupiter, either plane) scoring 80 or more; S Jupiter -> J Jupiter is the same-body cell and is not counted; ties: every runner on the top count; no pick when nobody has one. Jockey chart only, so it comes with the jockey to every ride._
+- 1 The Dancing Poet / Harry Russell
+  - 2 sky bodies -> J Jupiter at 80 or more (most in the field; next 1)
+  - S Saturn → J Jupiter Dec 0.0043 conj (97.17)
+  - S Saturn → J Jupiter RA 0.1337 conj (82.97)
 

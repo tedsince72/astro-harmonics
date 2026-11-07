@@ -18,11 +18,12 @@ Workbook race_batch_20220309_fontwell_1440_jupiter_tables.xlsx. Runners 7. Resul
 - **B4 Same body, clear lead** (0 of 7): none
 - **B5 Same body in both planes** (0 of 7): none
 - **B6 Same body on both charts** (0 of 7): none
+- **B7 Most sky bodies onto the jockey's Jupiter** (1 of 7): 2 Royaume Uni / Joshua Moore
 
 ## Per runner
 
 - 1 Breaking Waves / Jonjo O'Neill Jr: R1b, R1
-- 2 Royaume Uni / Joshua Moore: none
+- 2 Royaume Uni / Joshua Moore: B7
 - 3 Hell Red / Harry Cobden: R25
 - 4 Dreaming Blue / Rex Dingle: none
 - 5 Grangeclare Glory / Tom Scudamore: R40, B3
@@ -93,4 +94,12 @@ _One natal body X with same-body cells sky X -> natal X scoring 50 or more in bo
 ### B6 Same body on both charts
 _One body X with a same-body cell sky X -> H X scoring 50 or more and a same-body cell sky X -> J X scoring 50 or more (any planes)._
 - none
+
+### B7 Most sky bodies onto the jockey's Jupiter
+_The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (stage 1 top rows 'S X -> J Jupiter', X a sky body other than Jupiter, either plane) scoring 80 or more; S Jupiter -> J Jupiter is the same-body cell and is not counted; ties: every runner on the top count; no pick when nobody has one. Jockey chart only, so it comes with the jockey to every ride._
+- 2 Royaume Uni / Joshua Moore
+  - 3 sky bodies -> J Jupiter at 80 or more (most in the field; next 2)
+  - S Saturn → J Jupiter Dec 24.2704 15×φ golden (99.25)
+  - S Juno → J Jupiter Dec 17.7701 17.7778 ninth (93.99)
+  - S Ceres → J Jupiter Dec 14.1471 14.14 sqrt2 (86.53)
 

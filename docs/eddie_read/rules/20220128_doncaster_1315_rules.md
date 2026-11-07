@@ -18,10 +18,11 @@ Workbook race_batch_20220128_doncaster_1315_jupiter_tables.xlsx. Runners 7. Resu
 - **B4 Same body, clear lead** (0 of 7): none
 - **B5 Same body in both planes** (1 of 7): 2 Before Midnight / James Bowen
 - **B6 Same body on both charts** (0 of 7): none
+- **B7 Most sky bodies onto the jockey's Jupiter** (1 of 7): 1 Funambule Sivola / Charlie Deutsch
 
 ## Per runner
 
-- 1 Funambule Sivola / Charlie Deutsch: B1, B2, B3
+- 1 Funambule Sivola / Charlie Deutsch: B1, B2, B3, B7
 - 2 Before Midnight / James Bowen: B5
 - 3 The Big Bite / Brian Hughes: R7, R42
 - 4 King D'argent / Harry Skelton: R28, B1
@@ -108,4 +109,11 @@ _One natal body X with same-body cells sky X -> natal X scoring 50 or more in bo
 ### B6 Same body on both charts
 _One body X with a same-body cell sky X -> H X scoring 50 or more and a same-body cell sky X -> J X scoring 50 or more (any planes)._
 - none
+
+### B7 Most sky bodies onto the jockey's Jupiter
+_The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (stage 1 top rows 'S X -> J Jupiter', X a sky body other than Jupiter, either plane) scoring 80 or more; S Jupiter -> J Jupiter is the same-body cell and is not counted; ties: every runner on the top count; no pick when nobody has one. Jockey chart only, so it comes with the jockey to every ride._
+- 1 Funambule Sivola / Charlie Deutsch
+  - 2 sky bodies -> J Jupiter at 80 or more (most in the field; next 1)
+  - S Uranus → J Jupiter RA 111.1423 111.111 ninth (94.90)
+  - S Haumea → J Jupiter RA 69.5774 43×φ golden (88.65)
 
