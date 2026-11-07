@@ -1,0 +1,285 @@
+{
+ "race": "20210402_lingfield_aw_1435",
+ "workbook": "race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09",
+  "P11"
+ ],
+ "names": {
+  "P01": "1 Arafi / Sean Levey",
+  "P03": "2 Fizzy Feet / Rossa Ryan",
+  "P05": "3 Indie Angel / Martin Harley",
+  "P07": "4 Nirodha / Silvestre De Sousa",
+  "P09": "5 Pholas / Hollie Doyle",
+  "P11": "6 Shimmering Dawn / James Doyle"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [
+    "P11"
+   ],
+   "cells": {
+    "P11": [
+     "H El Nath (Jupiter) → H Jupiter [RA 90.0033 90 whole 69.52]; on both charts' El Nath: Gonggong",
+     "J El Nath (Jupiter) → J Jupiter [Dec 14.5669 9×φ golden 73.59]; on both charts' El Nath: Gonggong",
+     "J Murzim (Sun) → J Jupiter [Dec 32.0005 32 whole 95.50]; on both charts' Murzim: Mercury"
+    ]
+   }
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [
+    "P03",
+    "P09"
+   ],
+   "cells": {
+    "P03": [
+     "S Juno → H Juno RA 42.3733 10×φ^3 phi power (+0.0127) | S Moon → H Juno [RA 35.9991 36 whole 90.97]"
+    ],
+    "P09": [
+     "S Ceres → J Ceres Dec 24.9984 25 whole (-0.0016) | S Moon → J Ceres [RA 0.0136 conj conj 98.20]"
+    ]
+   }
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [
+    "P01",
+    "P03",
+    "P05",
+    "P09"
+   ],
+   "cells": {
+    "P01": [
+     "H Betelgeuse → H Sedna Dec 0.0270 conj (82.78)"
+    ],
+    "P03": [
+     "H Betelgeuse → H Sedna Dec 0.0663 conj (60.69)"
+    ],
+    "P05": [
+     "H Betelgeuse → H Sedna Dec 0.0816 conj (52.98)",
+     "J Ras Algethi → J Transpluto Dec 0.0220 conj (85.85)"
+    ],
+    "P09": [
+     "H Alhena → H Haumea Dec 0.0351 conj (77.97)",
+     "H Betelgeuse → H Uranus Dec 0.0209 conj (86.54)",
+     "H Betelgeuse → H Sedna Dec 0.0834 conj (52.14)"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "H Betelgeuse → H Uranus Dec 0.0209 conj (86.54) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "step 2: H Betelgeuse → H Uranus Dec 0.0209 conj (86.54) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [
+    "P05"
+   ],
+   "cells": {
+    "P05": [
+     "Venus: S Venus → H Venus Dec 6.9947 7 whole (53.82) | S Venus → J Venus Dec 13.9979 14 whole (79.73)"
+    ]
+   }
+  },
+  {
+   "id": "B7",
+   "name": "Most sky bodies onto the jockey's Jupiter",
+   "selected": [
+    "P07"
+   ],
+   "cells": {
+    "P07": [
+     "2 sky bodies -> J Jupiter at 80 or more (most in the field; next 1)",
+     "S Sun → J Jupiter RA 177.7544 177.778 ninth (98.17)",
+     "S Chiron → J Jupiter RA 177.7028 177.778 ninth (94.13)"
+    ]
+   }
+  },
+  {
+   "id": "B8",
+   "name": "One line star on the most natal bodies",
+   "selected": [
+    "P05",
+    "P09"
+   ],
+   "cells": {
+    "P05": [
+     "J Orion Nebula Cluster on 4 natal bodies at 80 or more (most in the field; tied with 1, next 3)",
+     "J Orion Nebula Cluster → J Rahu RA 115.0000 115 whole (99.98)",
+     "J Orion Nebula Cluster → J Ketu RA 65.0000 65 whole (99.98)",
+     "J Orion Nebula Cluster → J Neptune Dec 16.6665 16.6667 ninth (99.84)",
+     "J Orion Nebula Cluster → J Venus Dec 24.0009 24 whole (91.33)"
+    ],
+    "P09": [
+     "H Pollux on 4 natal bodies at 80 or more (most in the field; tied with 1, next 3)",
+     "H Pollux → H Pallas RA 144.4725 144.444 ninth (97.03)",
+     "H Pollux → H Saturn RA 144.4163 144.444 ninth (97.02)",
+     "H Pollux → H Mars RA 133.3786 133.333 ninth (94.57)",
+     "H Pollux → H Transpluto RA 37.2138 23×φ golden (94.17)"
+    ]
+   }
+  },
+  {
+   "id": "B9",
+   "name": "Jupiter and two of its line stars on one natal body",
+   "selected": [
+    "P05"
+   ],
+   "cells": {
+    "P05": [
+     "H Makemake: S Jupiter and 2 Jupiter-line stars (Betelgeuse, Orion Nebula Cluster)",
+     "S Jupiter → H Makemake RA 131.0031 131 whole (71.30)",
+     "H Betelgeuse → H Makemake RA 106.0007 106 whole (92.77)",
+     "H Orion Nebula Cluster → H Makemake RA 110.9722 10×φ^5 phi power (76.20)",
+     "H Venus: S Jupiter and 2 Jupiter-line stars (El Nath, Orion Nebula Cluster)",
+     "S Jupiter → H Venus Dec 25.9974 26 whole (75.41)",
+     "H El Nath → H Venus Dec 16.9997 17 whole (96.68)",
+     "H Orion Nebula Cluster → H Venus Dec 17.0013 17 whole (87.34)",
+     "J Venus: S Jupiter and 2 Jupiter-line stars (El Nath, Orion Nebula Cluster)",
+     "S Jupiter → J Venus Dec 33.0006 33 whole (94.54)",
+     "J El Nath → J Venus Dec 9.9968 10 whole (70.66)",
+     "J Orion Nebula Cluster → J Venus Dec 24.0009 24 whole (91.33)"
+    ]
+   }
+  },
+  {
+   "id": "B10",
+   "name": "Sun and two of its line stars on one natal body",
+   "selected": [
+    "P07"
+   ],
+   "cells": {
+    "P07": [
+     "J Makemake: S Sun and 2 Sun-line stars (Adhara, Pollux)",
+     "S Sun → J Makemake Dec 32.9991 33 whole (91.04)",
+     "J Adhara → J Makemake Dec 67.0000 67 whole (99.93)",
+     "J Pollux → J Makemake Dec 10.0025 10 whole (76.72)",
+     "J Neptune: S Sun and 2 Sun-line stars (Adhara, Pollux)",
+     "S Sun → J Neptune Dec 27.0044 27 whole (60.83)",
+     "J Adhara → J Neptune Dec 6.9965 7 whole (68.25)",
+     "J Pollux → J Neptune Dec 50.0010 50 whole (90.24)"
+    ]
+   }
+  },
+  {
+   "id": "B11",
+   "name": "Moon and two of its line stars on one natal body",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B12",
+   "name": "Same body and two line stars on it",
+   "selected": [
+    "P05",
+    "P07",
+    "P09"
+   ],
+   "cells": {
+    "P05": [
+     "H Venus: same body and 2 line stars (El Nath (Jupiter), Orion Nebula Cluster (Jupiter))",
+     "S Venus → H Venus Dec 6.9947 7 whole (53.82)",
+     "H El Nath → H Venus Dec 16.9997 17 whole (96.68)",
+     "H Orion Nebula Cluster → H Venus Dec 17.0013 17 whole (87.34)",
+     "J Venus: same body and 3 line stars (Difda (Sun), El Nath (Jupiter), Orion Nebula Cluster (Jupiter))",
+     "S Venus → J Venus Dec 13.9979 14 whole (79.73)",
+     "J Difda → J Venus RA 124.5799 77×φ golden (53.16)",
+     "J El Nath → J Venus Dec 9.9968 10 whole (70.66)",
+     "J Orion Nebula Cluster → J Venus Dec 24.0009 24 whole (91.33)"
+    ],
+    "P07": [
+     "J Venus: same body and 2 line stars (Difda (Sun), Sualocin (Sun))",
+     "S Venus → J Venus RA 118.0039 118 whole (64.85)",
+     "J Difda → J Venus RA 114.9941 115 whole (50.00)",
+     "J Sualocin → J Venus RA 54.0021 54 whole (80.48)"
+    ],
+    "P09": [
+     "J Juno: same body and 4 line stars (Adhara (Sun), Castor (Sun), Ras Algethi (Moon), Zubeneschamali (Moon))",
+     "S Juno → J Juno RA 110.0311 68×φ golden (72.51)",
+     "J Adhara → J Juno RA 91.0018 91 whole (82.87)",
+     "J Castor → J Juno RA 99.9941 100 ninth (96.06)",
+     "J Ras Algethi → J Juno RA 114.9963 115 whole (66.53)",
+     "J Zubeneschamali → J Juno RA 144.4082 144.444 ninth (96.16)"
+    ]
+   }
+  }
+ ]
+}

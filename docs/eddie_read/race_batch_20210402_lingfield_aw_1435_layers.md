@@ -1,0 +1,3100 @@
+# Stage 2 layers: race_batch_20210402_lingfield_aw_1435_jupiter_tables.xlsx
+The stage 1 data laid out in fixed layers for every runner; data only, no interpretation, no ranking, no pick (tools/eddie_layers.py).
+
+## L0 field
+- In the tables workbook (6): 1 Arafi / Sean Levey; 2 Fizzy Feet / Rossa Ryan; 3 Indie Angel / Martin Harley; 4 Nirodha / Silvestre De Sousa; 5 Pholas / Hollie Doyle; 6 Shimmering Dawn / James Doyle
+- Missing from the tables workbook (in the _active.xlsx): none
+- Cloth numbers not in the tables workbook: none
+
+## Sky (noted lines)
+- S Jupiter → Sun Dec 19.4186 12×φ golden (86.76)
+- S Jupiter → Venus Dec 19.0027 19 whole (74.86)
+- S Jupiter → Mars RA 110.0189 68×φ golden (59.41)
+- S Jupiter → Moon RA 68.5474 10×φ^4 phi power (96.33)
+- S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+- S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+- S Sun → Jupiter Dec 19.4186 12×φ golden (86.76)
+- S Sun → Haumea RA 155.5233 155.556 ninth (96.95)
+- S Sun → Difda RA 0.8223 conj (20.41)
+- S Sun → Adhara Dec 34.0052 34 whole (54.46)
+- S Sun → Castor RA 101.9336 63×φ golden (84.87)
+- S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- S Moon → Jupiter RA 68.5474 10×φ^4 phi power (96.33)
+- S Moon → Eris Dec 22.6551 14×φ golden (84.66)
+- S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+- S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- S Moon → Facies Dec 0.1473 conj (25.89)
+- Hubs: Jupiter
+
+## READ (reading order, Eddie 7 Nov 2026)
+### READ 1 same body first
+- **1 Arafi / Sean Levey**
+  - S Saturn → H Saturn RA 48.9932 49 whole (43.48)
+  - S Saturn → H Saturn Dec 4.1473 4.14 silver (loose)
+  - S Chiron → H Chiron RA 15.5063 15.5556 ninth (loose)
+  - S Orcus → H Orcus RA 2.6163 φ^2 phi power (loose)
+  - S Mars → J Mars RA 155.3441 155.556 ninth (loose)
+  - S Pluto → J Pluto Dec 22.2615 22.2222 ninth (loose)
+  - S Juno → J Juno Dec 9.7036 6×φ golden (loose)
+  - S Rahu → J Rahu RA 76.9839 77 whole (3.84)
+  - S Makemake → J Makemake Dec 13.3651 13.3333 ninth (loose)
+  - S Orcus → J Orcus Dec 16.1731 10×φ^1 phi power (loose)
+  - S Ketu → J Ketu RA 76.9839 77 whole (3.84)
+- **2 Fizzy Feet / Rossa Ryan**
+  - S Saturn → H Saturn Dec 2.9856 3 whole (7.81)
+  - S Ceres → H Ceres RA 13.2904 13.3333 ninth (loose)
+  - S Juno → H Juno RA 42.3733 10×φ^3 phi power (loose)
+  - S Rahu → H Rahu Dec 18.7516 18.8889 ninth (loose)
+  - S Eris → H Eris Dec 1.2206 1.22222 ninth (loose)
+  - S Orcus → H Orcus RA 4.4480 4.44444 ninth (loose)
+  - S Ketu → H Ketu Dec 18.7516 18.8889 ninth (loose)
+  - S Sun → J Sun Dec 17.8811 φ^6 phi power (loose)
+  - S Neptune → J Neptune Dec 14.1262 14.14 sqrt2 (loose)
+  - S Pallas → J Pallas RA 179.0953 10×φ^6 phi power (loose)
+- **3 Indie Angel / Martin Harley**
+  - S Sun → H Sun RA 15.5268 15.5556 ninth (loose)
+  - S Venus → H Venus Dec 6.9947 7 whole (53.82)
+  - S Mars → H Mars Dec 11.0889 φ^5 phi power (loose)
+  - S Pluto → H Pluto Dec 1.0073 1 whole (40.60)
+  - S Ceres → H Ceres RA 24.1926 24.14 silver (loose)
+  - S Juno → H Juno Dec 1.8898 1.88889 ninth (loose)
+  - S Vesta → H Vesta RA 51.0051 51 whole (55.24)
+  - S Rahu → H Rahu RA 84.1251 52×φ golden (loose)
+  - S Eris → H Eris Dec 1.1127 1.11111 ninth (loose)
+  - S Makemake → H Makemake RA 2.9720 3 whole (loose)
+  - S Gonggong → H Gonggong RA 0.9804 1 whole (loose)
+  - S Ketu → H Ketu RA 84.1251 52×φ golden (loose)
+  - S Venus → J Venus RA 121.5711 122.222 ninth (loose)
+  - S Venus → J Venus Dec 13.9979 14 whole (79.73)
+  - S Ceres → J Ceres RA 48.5431 30×φ golden (87.37)
+  - S Ceres → J Ceres Dec 17.9291 φ^6 phi power (loose)
+  - S Rahu → J Rahu RA 101.9545 63×φ golden (18.73)
+  - S Gonggong → J Gonggong Dec 8.8853 8.88889 ninth (loose)
+  - S Ketu → J Ketu RA 101.9545 63×φ golden (18.73)
+- **4 Nirodha / Silvestre De Sousa**
+  - S Venus → H Venus RA 16.1511 10×φ^1 phi power (loose)
+  - S Mars → H Mars Dec 3.0116 3 whole (17.75)
+  - S Uranus → H Uranus RA 13.3111 13.3333 ninth (loose)
+  - S Pluto → H Pluto Dec 1.0033 1 whole (69.90)
+  - S Pallas → H Pallas Dec 3.9796 4 whole (loose)
+  - S Juno → H Juno Dec 1.1058 1.11111 ninth (loose)
+  - S Rahu → H Rahu Dec 11.1669 11.1111 ninth (loose)
+  - S Makemake → H Makemake Dec 2.0059 2 whole (49.48)
+  - S Ketu → H Ketu Dec 11.1669 11.1111 ninth (loose)
+  - S Venus → J Venus RA 118.0039 118 whole (64.85)
+  - S Mars → J Mars RA 132.5312 133.333 ninth (loose)
+  - S Pallas → J Pallas RA 55.5183 55.5556 ninth (loose)
+  - S Pallas → J Pallas Dec 27.5185 17×φ golden (loose)
+  - S Makemake → J Makemake RA 37.9859 38 whole (8.61)
+- **5 Pholas / Hollie Doyle**
+  - S Venus → H Venus RA 41.4020 41.4 silver (loose)
+  - S Uranus → H Uranus Dec 6.6571 6.66667 ninth (loose)
+  - S Juno → H Juno RA 4.0113 4 whole (19.05)
+  - S Gonggong → H Gonggong Dec 1.4188 1.414 sqrt2 (loose)
+  - S Sun → J Sun Dec 12.2789 12.2222 ninth (loose)
+  - S Mars → J Mars RA 66.3370 41×φ golden (85.80)
+  - S Mars → J Mars Dec 7.9766 8 whole (loose)
+  - S Saturn → J Saturn Dec 16.6614 16.6667 ninth (95.51)
+  - S Neptune → J Neptune Dec 16.1944 10×φ^1 phi power (loose)
+  - S Chiron → J Chiron RA 169.0142 169 whole (8.42)
+  - S Chiron → J Chiron Dec 14.3993 14.4444 ninth (loose)
+  - S Ceres → J Ceres Dec 24.9984 25 whole (85.09)
+  - S Juno → J Juno RA 110.0311 68×φ golden (72.51)
+  - S Orcus → J Orcus RA 18.8601 18.8889 ninth (loose)
+  - S Quaoar → J Quaoar Dec 0.9955 1 whole (59.82)
+- **6 Shimmering Dawn / James Doyle**
+  - S Sun → H Sun Dec 16.1303 10×φ^1 phi power (loose)
+  - S Mercury → H Mercury Dec 15.9741 16 whole (loose)
+  - S Venus → H Venus Dec 24.1515 24.14 silver (loose)
+  - S Saturn → H Saturn Dec 3.0282 3 whole (loose)
+  - S Pluto → H Pluto RA 11.0138 11 whole (9.59)
+  - S Orcus → H Orcus Dec 2.0295 2 whole (loose)
+  - S Quaoar → H Quaoar RA 7.0245 7 whole (loose)
+  - S Sun → J Sun RA 18.8162 18.8889 ninth (loose)
+  - S Mars → J Mars RA 122.3544 122.222 ninth (loose)
+  - S Saturn → J Saturn RA 40.9885 41 whole (18.17)
+  - S Neptune → J Neptune RA 71.1751 44×φ golden (loose)
+  - S Pluto → J Pluto RA 74.4212 46×φ golden (55.04)
+  - S Chiron → J Chiron RA 77.7687 77.7778 ninth (loose)
+  - S Chiron → J Chiron Dec 12.0096 12 whole (27.23)
+  - S Ceres → J Ceres Dec 14.1131 14.14 sqrt2 (loose)
+  - S Rahu → J Rahu RA 77.6952 77.7778 ninth (loose)
+  - S Transpluto → J Transpluto RA 11.1131 11.1111 ninth (96.81)
+  - S Ketu → J Ketu RA 77.6952 77.7778 ninth (loose)
+### READ 2 Jupiter / Sun star lines, highest score first, each in full
+#### 1. S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13) — runners with cells 6/6
+- Moon confirms: none
+- 1 Arafi / Sean Levey
+  - star rows: H Betelgeuse → H Saturn RA 176.0177 176 whole (1.36) — only
+  - star rows: H Betelgeuse → H Uranus Dec 0.2894 conj (0.13) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+  - star rows: H Betelgeuse → H Ceres Dec 0.1174 conj (37.06) — also: 3 Indie Angel / Martin Harley
+  - star rows: H Betelgeuse → H Sedna Dec 0.0270 conj (82.78) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - star rows: H Betelgeuse → H Gonggong Dec 20.0129 20 whole (12.74) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+  - star rows: H Betelgeuse → H Ketu Dec 17.7701 17.7778 ninth (93.96) — only
+  - star rows: J Betelgeuse → J Rahu RA 95.0065 95 whole (45.24) — also: 3 Indie Angel / Martin Harley
+  - star rows: J Betelgeuse → J Eris RA 67.0164 67 whole (3.24) — only
+  - star rows: J Betelgeuse → J Ketu RA 84.9935 85 whole (45.24) — only
+  - MATCH EXACT: H Alphard → Saturn RA 122.9120 φ^10 phi power (75.72)
+- 2 Fizzy Feet / Rossa Ryan
+  - star rows: S Betelgeuse → H Jupiter Dec 0.2774 conj (0.57) — also: 3 Indie Angel / Martin Harley
+  - star rows: H Betelgeuse → H Sun RA 64.0190 64 whole (0.26) — also: 6 Shimmering Dawn / James Doyle
+  - star rows: H Betelgeuse → H Uranus Dec 0.0914 conj (48.36) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+  - star rows: H Betelgeuse → H Sedna Dec 0.0663 conj (60.69) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - star rows: H Betelgeuse → H Gonggong Dec 19.9975 20 whole (76.69) — also: 1 Arafi / Sean Levey, 6 Shimmering Dawn / James Doyle
+  - star rows: J Betelgeuse → J Neptune Dec 26.0169 26 whole (2.35) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+  - star rows: J Betelgeuse → J Quaoar Dec 21.9977 22 whole (78.73) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+  - MATCH EXACT: H Phact → Pallas RA 122.9669 φ^10 phi power (92.05)
+  - MATCH EXACT: H Procyon → Ketu RA 122.9514 φ^10 phi power (87.27)
+  - MATCH EXACT: H Procyon → Chiron RA 122.9431 φ^10 phi power (84.78)
+  - MATCH EXACT: J Fomalhaut → Mercury RA 122.9567 φ^10 phi power (88.88)
+- 3 Indie Angel / Martin Harley
+  - star rows: H Betelgeuse → H Jupiter RA 110.9389 10×φ^5 phi power (87.04) — also: 2 Fizzy Feet / Rossa Ryan
+  - star rows: H Betelgeuse → H Ceres Dec 4.9894 5 whole (21.98) — also: 1 Arafi / Sean Levey
+  - star rows: H Betelgeuse → H Rahu Dec 3.0159 3 whole (4.27) — also: 1 Arafi / Sean Levey
+  - star rows: H Betelgeuse → H Sedna Dec 0.0816 conj (52.98) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - star rows: H Betelgeuse → H Makemake RA 106.0007 106 whole (92.77) — also: 4 Nirodha / Silvestre De Sousa
+  - star rows: H Betelgeuse → H Orcus Dec 17.0068 17 whole (43.48) — also: 4 Nirodha / Silvestre De Sousa
+  - star rows: H Betelgeuse → H Quaoar Dec 22.9816 23 whole (0.67) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+  - star rows: J Betelgeuse → J Transpluto Dec 7.0061 7 whole (48.49) — only
+  - natal Jupiter → star: H Jupiter → H star Betelgeuse RA 110.9389 10×φ^5 phi power (87.04) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+  - MATCH EXACT: J Scheat → Sun RA 122.9080 φ^10 phi power (74.60)
+- 4 Nirodha / Silvestre De Sousa
+  - star rows: H Betelgeuse → H Sedna Dec 0.2323 conj (5.09) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - star rows: H Betelgeuse → H Orcus Dec 16.6633 16.6667 ninth (97.09) — also: 3 Indie Angel / Martin Harley
+  - star rows: J Betelgeuse → J Neptune RA 173.9841 174 whole (4.25) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+  - star rows: J Betelgeuse → J Pluto RA 120.0117 120 whole (17.14) — only
+  - star rows: J Betelgeuse → J Pallas Dec 30.9843 31 whole (4.60) — also: 5 Pholas / Hollie Doyle
+  - star rows: J Betelgeuse → J Haumea RA 91.0055 91 whole (52.45) — only
+  - star rows: J Betelgeuse → J Makemake RA 70.9819 71 whole (0.87) — also: 3 Indie Angel / Martin Harley
+  - MATCH EXACT: H Kaus Australis → Rahu RA 122.9351 φ^10 phi power (82.39)
+  - MATCH EXACT: J Pleiades → Haumea RA 122.9283 φ^10 phi power (80.40)
+- 5 Pholas / Hollie Doyle
+  - star rows: H Betelgeuse → H Mars Dec 15.5538 15.5556 ninth (98.29) — only
+  - star rows: H Betelgeuse → H Uranus Dec 0.0209 conj (86.54) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan
+  - star rows: H Betelgeuse → H Neptune Dec 16.1828 10×φ^1 phi power (93.94) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+  - star rows: H Betelgeuse → H Sedna Dec 0.0834 conj (52.14) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+  - star rows: H Betelgeuse → H Quaoar RA 179.6293 111×φ golden (2.25) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley
+  - star rows: J Betelgeuse → J Uranus Dec 27.9924 28 whole (38.25) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan
+  - star rows: J Betelgeuse → J Pallas RA 148.8908 92×φ golden (0.05) — also: 4 Nirodha / Silvestre De Sousa
+  - MATCH EXACT: H Facies → Rahu RA 122.9542 φ^10 phi power (88.13)
+  - MATCH EXACT: H Kaus Australis → Orcus RA 122.9532 φ^10 phi power (87.83)
+  - MATCH EXACT: J Aculeus → Mars RA 122.9274 φ^10 phi power (80.14)
+  - MATCH EXACT: J Deneb → Rahu RA 122.9249 φ^10 phi power (79.41)
+  - same number: H Facies → H Rahu RA 122.9542 φ^10 phi power (88.13) — only
+- 6 Shimmering Dawn / James Doyle
+  - star rows: H Betelgeuse → H Mercury RA 137.5577 85×φ golden (5.37) — only
+  - star rows: H Betelgeuse → H Sedna Dec 0.1365 conj (29.70) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+  - star rows: H Betelgeuse → H Gonggong RA 113.2841 70×φ golden (10.73) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan
+  - star rows: J Betelgeuse → J Sun Dec 5.0151 5 whole (5.96) — also: 2 Fizzy Feet / Rossa Ryan
+  - MATCH EXACT: J Sirius → Pluto RA 122.9438 φ^10 phi power (84.97)
+#### 2. S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84) — runners with cells 6/6
+- Moon confirms: none
+- 1 Arafi / Sean Levey
+  - star rows: H Sualocin → H Ceres RA 81.0071 81 whole (41.29) — also: 6 Shimmering Dawn / James Doyle
+  - star rows: H Sualocin → H Makemake Dec 8.9878 9 whole (15.06) — also: 2 Fizzy Feet / Rossa Ryan
+  - star rows: J Sualocin → J Neptune Dec 38.0076 38 whole (38.67) — only
+  - star rows: J Sualocin → J Haumea RA 124.0099 124 whole (25.35) — also: 5 Pholas / Hollie Doyle
+  - star rows: J Sualocin → J Makemake RA 142.9977 143 whole (78.01) — also: 2 Fizzy Feet / Rossa Ryan
+  - star rows: J Sualocin → J Orcus RA 176.9870 177 whole (12.12) — only
+  - star rows: J Sualocin → J Transpluto RA 166.6546 166.667 ninth (98.96) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+- 2 Fizzy Feet / Rossa Ryan
+  - star rows: H Sualocin → H Makemake RA 116.4777 72×φ golden (12.82) — also: 1 Arafi / Sean Levey
+  - star rows: H Sualocin → H Ketu Dec 19.4170 12×φ golden (96.61) — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+  - star rows: J Sualocin → J Sun Dec 6.9980 7 whole (80.89) — also: 6 Shimmering Dawn / James Doyle
+  - star rows: J Sualocin → J Saturn RA 105.1819 65×φ golden (48.87) — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+  - star rows: J Sualocin → J Vesta Dec 37.9913 38 whole (31.81) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+  - star rows: J Sualocin → J Rahu RA 166.6136 166.667 ninth (95.45) — also: 3 Indie Angel / Martin Harley
+  - MATCH EXACT: H Alphecca → Rahu RA 61.8073 100×φ^-1 phi power (97.47)
+  - MATCH EXACT: J Menkar → Mercury RA 61.8055 100×φ^-1 phi power (98.61)
+- 3 Indie Angel / Martin Harley
+  - star rows: H Sualocin → H Saturn Dec 37.9949 38 whole (55.32) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+  - star rows: H Sualocin → H Rahu RA 155.0094 155 whole (27.85) — also: 2 Fizzy Feet / Rossa Ryan
+  - star rows: H Sualocin → H Transpluto RA 156.9580 97×φ golden (53.35) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+  - star rows: H Sualocin → H Ketu RA 24.9906 25 whole (27.85) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+  - star rows: J Sualocin → J Pluto RA 85.0000 85 whole (99.89) — only
+- 4 Nirodha / Silvestre De Sousa
+  - star rows: H Sualocin → H Ketu Dec 27.0017 27 whole (83.34) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley
+  - star rows: J Sualocin → J Venus RA 54.0021 54 whole (80.48) — only
+  - star rows: J Sualocin → J Mars Dec 36.9943 37 whole (51.25) — only
+  - star rows: J Sualocin → J Saturn RA 120.0125 120 whole (13.98) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley
+  - star rows: J Sualocin → J Vesta Dec 2.9996 3 whole (96.29) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+  - MATCH EXACT: H Menkent → Makemake Dec 61.8054 100×φ^-1 phi power (98.68)
+  - MATCH EXACT: J Mirfak → Quaoar Dec 61.8061 100×φ^-1 phi power (98.27)
+- 5 Pholas / Hollie Doyle
+  - star rows: H Sualocin → H Haumea RA 97.0156 97 whole (4.92) — also: 1 Arafi / Sean Levey
+  - star rows: H Sualocin → H Transpluto Dec 4.9805 5 whole (0.05) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley
+  - star rows: J Sualocin → J Vesta RA 54.9914 55 whole (32.69) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+  - MATCH EXACT: J Rukbat → Haumea Dec 61.8051 100×φ^-1 phi power (98.91)
+- 6 Shimmering Dawn / James Doyle
+  - star rows: H Sualocin → H Sun Dec 27.0113 27 whole (18.72) — also: 2 Fizzy Feet / Rossa Ryan
+  - star rows: H Sualocin → H Mercury RA 1.3335 1.33333 ninth (97.42) — only
+  - star rows: H Sualocin → H Quaoar RA 41.0101 41 whole (24.69) — only
+  - star rows: J Sualocin → J Ceres RA 37.0073 37 whole (40.07) — also: 1 Arafi / Sean Levey
+  - star rows: J Sualocin → J Pallas RA 0.5986 conj (36.11) — only
+  - star rows: J Sualocin → J Juno Dec 7.0135 7 whole (10.58) — only
+  - star rows: J Sualocin → J Sedna Dec 12.0106 12 whole (22.15) — only
+  - MATCH EXACT: J Acumen → Venus Dec 61.8078 100×φ^-1 phi power (97.18)
+#### 3. S Sun → Castor RA 101.9336 63×φ golden (84.87) — runners with cells 6/6
+- Moon confirms: none
+- 1 Arafi / Sean Levey
+  - star rows: H Castor → H Chiron RA 121.9876 122 whole (14.56) — only
+  - star rows: H Castor → H Vesta RA 1.0643 conj (8.44) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+  - star rows: H Castor → H Makemake Dec 6.9894 7 whole (21.92) — also: 2 Fizzy Feet / Rossa Ryan
+  - star rows: J Castor → J Neptune Dec 53.9875 54 whole (14.10) — only
+  - star rows: J Castor → J Sedna RA 72.9959 73 whole (63.56) — also: 6 Shimmering Dawn / James Doyle
+  - MATCH EXACT: H Algorab → Pluto RA 101.9413 63×φ golden (70.68)
+  - MATCH EXACT: H Alphecca → Gonggong RA 101.9423 63×φ golden (65.45)
+- 2 Fizzy Feet / Rossa Ryan
+  - star rows: S Castor → H Jupiter RA 52.0115 52 whole (18.05) — also: 3 Indie Angel / Martin Harley
+  - star rows: H Castor → H Venus RA 101.0193 101 whole (0.12) — only
+  - star rows: H Castor → H Mars RA 133.3708 133.333 ninth (95.50) — also: 6 Shimmering Dawn / James Doyle
+  - star rows: H Castor → H Makemake Dec 6.0062 6 whole (47.63) — also: 1 Arafi / Sean Levey
+- 3 Indie Angel / Martin Harley
+  - star rows: H Castor → H Vesta RA 1.0854 conj (7.64) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+  - star rows: J Castor → J Jupiter Dec 8.8881 8.88889 ninth (94.19) — also: 2 Fizzy Feet / Rossa Ryan
+  - star rows: J Castor → J Transpluto RA 29.9990 30 whole (89.86) — only
+  - natal Jupiter → star: J Jupiter → J star Castor Dec 8.8881 8.88889 ninth (94.19) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+  - MATCH EXACT: H Zosma → Quaoar RA 101.9530 63×φ golden (23.00)
+  - same number: S Rahu → J Rahu RA 101.9545 63×φ golden (18.73) — only
+  - same number: S Ketu → J Ketu RA 101.9545 63×φ golden (18.73) — only
+- 4 Nirodha / Silvestre De Sousa
+  - star rows: H Castor → H Ketu Dec 42.9816 43 whole (0.64) — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - star rows: J Castor → J Eris RA 92.9917 93 whole (34.32) — only
+  - star rows: J Castor → J Quaoar RA 110.0174 68×φ golden (52.61) — also: 5 Pholas / Hollie Doyle
+  - MATCH EXACT: H Rukbat → Sun RA 101.9664 63×φ golden (0.42)
+  - MATCH EXACT: J Unukalhai → Rahu RA 101.9506 63×φ golden (30.65)
+  - MATCH EXACT: J Spica → Mars RA 101.9877 102 whole (14.70)
+- 5 Pholas / Hollie Doyle
+  - star rows: H Castor → H Mercury RA 156.9245 97×φ golden (5.51) — only
+  - star rows: H Castor → H Vesta Dec 10.0016 10 whole (84.30) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley
+  - star rows: H Castor → H Quaoar RA 155.5144 155.556 ninth (96.10) — also: 4 Nirodha / Silvestre De Sousa
+  - star rows: H Castor → H Ketu RA 137.5157 85×φ golden (22.04) — also: 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+  - star rows: J Castor → J Juno RA 99.9941 100 ninth (96.06) — also: 6 Shimmering Dawn / James Doyle
+  - MATCH EXACT: H Mirfak → Orcus RA 101.9962 102 whole (65.29)
+  - MATCH EXACT: H Phact → Mars RA 101.9656 63×φ golden (0.80)
+- 6 Shimmering Dawn / James Doyle
+  - star rows: H Castor → H Sun Dec 42.9892 43 whole (20.98) — only
+  - star rows: H Castor → H Pluto RA 173.9843 174 whole (4.65) — only
+  - star rows: H Castor → H Ketu RA 121.3399 75×φ golden (37.09) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+  - star rows: J Castor → J Mars RA 160.1872 99×φ golden (88.82) — also: 2 Fizzy Feet / Rossa Ryan
+  - star rows: J Castor → J Juno RA 69.5767 43×φ golden (92.45) — also: 5 Pholas / Hollie Doyle
+  - star rows: J Castor → J Juno Dec 22.9946 23 whole (53.31) — also: 5 Pholas / Hollie Doyle
+  - star rows: J Castor → J Sedna Dec 27.9917 28 whole (34.20) — also: 1 Arafi / Sean Levey
+  - MATCH EXACT: H Difda → Quaoar RA 101.9999 102 whole (98.96)
+  - MATCH EXACT: J Acubens → Mercury RA 101.9504 63×φ golden (31.26)
+  - MATCH EXACT: J Denebola → Venus RA 101.9620 63×φ golden (4.01)
+#### 4. S Sun → Pollux Dec 22.9976 23 whole (77.78) — runners with cells 6/6
+- Moon confirms: none
+- 1 Arafi / Sean Levey
+  - star rows: H Pollux → H Venus RA 113.2386 70×φ golden (7.05) — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - star rows: H Pollux → H Quaoar RA 153.7258 95×φ golden (37.43) — also: 5 Pholas / Hollie Doyle
+  - star rows: H Pollux → H Transpluto Dec 16.9836 17 whole (3.18) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+  - star rows: J Pollux → J Saturn RA 155.5462 155.556 ninth (99.12) — also: 5 Pholas / Hollie Doyle
+  - star rows: J Pollux → J Vesta RA 0.0941 conj (87.85) — also: 6 Shimmering Dawn / James Doyle
+  - star rows: J Pollux → J Gonggong RA 147.2103 91×φ golden (0.22) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+  - MATCH EXACT: H Scheat → Mars RA 22.9998 23 whole (97.60)
+  - MATCH EXACT: H Galactic Centre → Pluto RA 22.9971 23 whole (72.72)
+  - MATCH EXACT: J Pleiades → Juno Dec 22.9952 23 whole (57.41)
+  - MATCH EXACT: J Alphecca → Sedna Dec 22.9944 23 whole (52.08)
+- 2 Fizzy Feet / Rossa Ryan
+  - star rows: J Pollux → J Rahu RA 0.2054 conj (74.49) — also: 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+  - star rows: J Pollux → J Gonggong Dec 44.9890 45 whole (20.16) — also: 1 Arafi / Sean Levey, 4 Nirodha / Silvestre De Sousa
+  - MATCH EXACT: S body → H Jupiter → Quaoar Dec 23.0148 23 whole (6.78)
+- 3 Indie Angel / Martin Harley
+  - star rows: H Pollux → H Mercury RA 111.6319 69×φ golden (37.85) — only
+  - star rows: H Pollux → H Ketu RA 141.4321 141.4 sqrt2 (96.98) — also: 6 Shimmering Dawn / James Doyle
+  - MATCH EXACT: H Zubenelgenubi → Jupiter RA 22.9904 23 whole (27.05)
+  - MATCH EXACT: H Betelgeuse → Quaoar Dec 22.9816 23 whole (0.67)
+  - MATCH EXACT: J Al Rescha → Gonggong Dec 23.0036 23 whole (67.56)
+  - MATCH EXACT: J Capella → Jupiter Dec 22.9963 23 whole (66.56)
+  - same number: H Betelgeuse → H Quaoar Dec 22.9816 23 whole (0.67) — also: 6 Shimmering Dawn / James Doyle
+- 4 Nirodha / Silvestre De Sousa
+  - star rows: H Pollux → H Gonggong RA 139.9904 140 whole (27.07) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan
+  - star rows: J Pollux → J Neptune Dec 50.0010 50 whole (90.24) — also: 5 Pholas / Hollie Doyle
+  - star rows: J Pollux → J Ceres RA 0.2729 conj (66.93) — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - star rows: J Pollux → J Rahu RA 17.7727 17.7778 ninth (95.99) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+  - star rows: J Pollux → J Makemake Dec 10.0025 10 whole (76.72) — also: 5 Pholas / Hollie Doyle
+  - star rows: J Pollux → J Transpluto RA 25.0007 25 whole (93.04) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+  - MATCH EXACT: H Aculeus → Orcus Dec 22.9954 23 whole (59.00)
+  - MATCH EXACT: H Sadalsuud → Haumea Dec 23.0049 23 whole (56.73)
+  - MATCH EXACT: H Phact → Ketu Dec 22.9851 23 whole (6.54)
+- 5 Pholas / Hollie Doyle
+  - star rows: H Pollux → H Mars RA 133.3786 133.333 ninth (94.57) — only
+  - star rows: H Pollux → H Saturn RA 144.4163 144.444 ninth (97.02) — also: 1 Arafi / Sean Levey
+  - star rows: H Pollux → H Chiron RA 126.2161 78×φ golden (49.98) — only
+  - star rows: H Pollux → H Ceres Dec 26.0193 26 whole (0.11) — also: 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+  - star rows: H Pollux → H Pallas RA 144.4725 144.444 ninth (97.03) — only
+  - star rows: H Pollux → H Makemake RA 79.0058 79 whole (50.62) — also: 4 Nirodha / Silvestre De Sousa
+  - star rows: H Pollux → H Transpluto RA 37.2138 23×φ golden (94.17) — also: 1 Arafi / Sean Levey, 4 Nirodha / Silvestre De Sousa
+  - star rows: J Pollux → J Venus Dec 19.0114 19 whole (18.61) — also: 1 Arafi / Sean Levey, 6 Shimmering Dawn / James Doyle
+  - star rows: J Pollux → J Neptune RA 179.4459 10×φ^6 phi power (99.28) — also: 4 Nirodha / Silvestre De Sousa
+  - star rows: J Pollux → J Pallas RA 121.3566 75×φ golden (76.47) — only
+  - star rows: J Pollux → J Quaoar Dec 42.3620 10×φ^3 phi power (98.75) — also: 1 Arafi / Sean Levey
+  - MATCH EXACT: H Aculeus → Pluto RA 22.9946 23 whole (53.63)
+  - MATCH EXACT: H Al Rescha → Mercury Dec 22.9820 23 whole (1.00)
+  - MATCH EXACT: J Fomalhaut → Ketu RA 23.0184 23 whole (0.68)
+- 6 Shimmering Dawn / James Doyle
+  - star rows: H Pollux → H Vesta Dec 24.0033 24 whole (70.00) — also: 1 Arafi / Sean Levey
+  - star rows: H Pollux → H Rahu RA 55.9828 56 whole (2.01) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+  - star rows: H Pollux → H Ketu RA 124.0172 124 whole (2.01) — also: 3 Indie Angel / Martin Harley
+  - star rows: J Pollux → J Jupiter Dec 13.9858 14 whole (8.50) — only
+  - star rows: J Pollux → J Venus Dec 1.0118 1 whole (16.95) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+  - star rows: J Pollux → J Ceres RA 129.4143 80×φ golden (1.47) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+  - star rows: J Pollux → J Rahu Dec 31.0190 31 whole (0.26) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+  - MATCH EXACT: H Ankaa → Mercury Dec 23.0108 23 whole (21.39)
+  - MATCH EXACT: J Meissa → Quaoar Dec 22.9974 23 whole (75.67)
+  - MATCH EXACT: J Castor → Juno Dec 22.9946 23 whole (53.31)
+  - MATCH EXACT: J Menkar → Mars Dec 22.9918 23 whole (35.07)
+  - MATCH EXACT: J Scheat → Orcus Dec 22.9906 23 whole (28.31)
+  - same number: J Castor → J Juno Dec 22.9946 23 whole (53.31) — also: 3 Indie Angel / Martin Harley
+#### 5. S Jupiter → El Nath Dec 42.9967 43 whole (69.87) — runners with cells 6/6
+- Moon confirms: none
+- 1 Arafi / Sean Levey
+  - star rows: H El Nath → H Mars Dec 25.0067 25 whole (44.21) — also: 6 Shimmering Dawn / James Doyle
+  - star rows: H El Nath → H Quaoar RA 171.5194 106×φ golden (57.63) — only
+  - star rows: J El Nath → J Chiron RA 1.4682 conj (0.04) — also: 4 Nirodha / Silvestre De Sousa
+  - star rows: J El Nath → J Juno RA 63.0028 63 whole (74.14) — only
+- 2 Fizzy Feet / Rossa Ryan
+  - star rows: J El Nath → J Saturn Dec 11.1140 11.1111 ninth (95.30) — only
+  - star rows: J El Nath → J Sedna RA 34.0149 34 whole (6.41) — only
+  - star rows: J El Nath → J Gonggong RA 109.0092 109 whole (29.19) — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+- 3 Indie Angel / Martin Harley
+  - star rows: H El Nath → H Venus Dec 16.9997 17 whole (96.68) — only
+  - star rows: H El Nath → H Vesta RA 30.9932 31 whole (43.37) — only
+  - star rows: J El Nath → J Venus Dec 9.9968 10 whole (70.66) — only
+  - star rows: J El Nath → J Ceres RA 16.0066 16 whole (44.69) — only
+  - MATCH EXACT: H Sirius → Vesta Dec 43.0041 43 whole (62.94)
+- 4 Nirodha / Silvestre De Sousa
+  - star rows: H El Nath → H Mercury RA 56.9825 57 whole (1.54) — also: 5 Pholas / Hollie Doyle
+  - star rows: H El Nath → H Chiron RA 85.9942 86 whole (50.30) — also: 1 Arafi / Sean Levey
+  - star rows: J El Nath → J Mercury RA 160.0101 160 whole (24.68) — also: 5 Pholas / Hollie Doyle
+  - star rows: J El Nath → J Mercury Dec 53.3931 33×φ golden (87.96) — also: 5 Pholas / Hollie Doyle
+  - MATCH EXACT: H Castor → Ketu Dec 42.9816 43 whole (0.64)
+  - MATCH EXACT: J Praesepe → Sun Dec 43.0184 43 whole (0.66)
+  - same number: H Castor → H Ketu Dec 42.9816 43 whole (0.64) — also: 6 Shimmering Dawn / James Doyle
+- 5 Pholas / Hollie Doyle
+  - star rows: H El Nath → H Mercury RA 170.9997 171 whole (96.57) — also: 4 Nirodha / Silvestre De Sousa
+  - star rows: H El Nath → H Pluto Dec 49.9855 50 whole (7.51) — only
+  - star rows: J El Nath → J Haumea RA 112.0164 112 whole (3.27) — also: 6 Shimmering Dawn / James Doyle
+  - star rows: J El Nath → J Gonggong RA 110.9732 10×φ^5 phi power (75.86) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+  - star rows: J El Nath → J Gonggong Dec 47.0127 47 whole (13.29) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+  - MATCH EXACT: H Bellatrix → Vesta RA 42.9805 43 whole (0.05)
+- 6 Shimmering Dawn / James Doyle
+  - star rows: H El Nath → H Jupiter RA 90.0033 90 whole (69.52) — only
+  - star rows: H El Nath → H Mars Dec 46.0052 46 whole (54.60) — also: 1 Arafi / Sean Levey
+  - star rows: H El Nath → H Gonggong Dec 41.4281 41.4 silver (93.57) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+  - star rows: S El Nath → J Jupiter Dec 14.5655 9×φ golden (81.16) — only
+  - star rows: J El Nath → J Sun Dec 16.1874 10×φ^1 phi power (83.33) — only
+  - star rows: J El Nath → J Haumea RA 103.5720 64×φ golden (20.14) — also: 5 Pholas / Hollie Doyle
+  - star rows: J El Nath → J Gonggong RA 111.9975 112 whole (76.37) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+  - natal Jupiter → star: H Jupiter → H star El Nath RA 90.0033 90 whole (69.52) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley
+  - natal Jupiter → star: J Jupiter → J star El Nath Dec 14.5669 9×φ golden (73.59) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley
+  - MATCH EXACT: H Hamal → Venus Dec 43.0006 43 whole (94.40)
+  - MATCH EXACT: H Castor → Sun Dec 42.9892 43 whole (20.98)
+  - MATCH EXACT: J Pleiades → Mars Dec 43.0081 43 whole (35.66)
+  - MATCH EXACT: J Capella → Ketu Dec 43.0089 43 whole (30.98)
+  - MATCH EXACT: J Adhara → Jupiter Dec 43.0175 43 whole (1.61)
+  - same number: H Castor → H Sun Dec 42.9892 43 whole (20.98) — also: 4 Nirodha / Silvestre De Sousa
+  - same number: J Adhara → J Jupiter Dec 43.0175 43 whole (1.61) — also: 4 Nirodha / Silvestre De Sousa
+#### 6. S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07) — runners with cells 6/6
+- Moon confirms: none
+- 1 Arafi / Sean Levey
+  - star rows: H Orion Nebula Cluster → H Sun RA 119.7496 74×φ golden (28.45) — also: 5 Pholas / Hollie Doyle
+  - star rows: H Orion Nebula Cluster → H Mars Dec 8.9938 9 whole (47.93) — also: 6 Shimmering Dawn / James Doyle
+  - star rows: H Orion Nebula Cluster → H Saturn RA 179.0110 179 whole (20.42) — also: 6 Shimmering Dawn / James Doyle
+  - star rows: H Orion Nebula Cluster → H Saturn Dec 16.6670 16.6667 ninth (99.72) — also: 6 Shimmering Dawn / James Doyle
+  - star rows: J Orion Nebula Cluster → J Neptune RA 163.0010 163 whole (89.87) — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+  - star rows: J Orion Nebula Cluster → J Chiron RA 0.7811 conj (22.97) — also: 6 Shimmering Dawn / James Doyle
+  - MATCH EXACT: H Fomalhaut → Mercury Dec 9.0050 9 whole (56.23)
+  - MATCH EXACT: H Orion Nebula Cluster → Mars Dec 8.9938 9 whole (47.93)
+  - MATCH EXACT: H Sualocin → Makemake Dec 8.9878 9 whole (15.06)
+  - MATCH EXACT: H Bellatrix → Eris Dec 9.0193 9 whole (0.14)
+  - MATCH EXACT: H Alhena → Sedna Dec 9.0194 9 whole (0.08)
+  - MATCH EXACT: J Sadalmelik → Mercury RA 9.0178 9 whole (1.23)
+  - MATCH EXACT: J Menkar → Venus Dec 9.0181 9 whole (0.92)
+  - same number: H Alhena → H Sedna Dec 9.0194 9 whole (0.08) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+  - same number: H Sualocin → H Makemake Dec 8.9878 9 whole (15.06) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+- 2 Fizzy Feet / Rossa Ryan
+  - star rows: H Orion Nebula Cluster → H Venus RA 71.1905 44×φ golden (82.30) — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+  - star rows: H Orion Nebula Cluster → H Pluto RA 155.3143 96×φ golden (22.57) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+  - star rows: J Orion Nebula Cluster → J Haumea RA 112.0022 112 whole (79.66) — only
+  - MATCH EXACT: H Aldebaran → Uranus Dec 9.0104 9 whole (22.98)
+  - MATCH EXACT: J Algorab → Makemake RA 8.9861 9 whole (9.33)
+  - MATCH EXACT: J Rukbat → Vesta RA 9.0171 9 whole (2.17)
+- 3 Indie Angel / Martin Harley
+  - star rows: H Orion Nebula Cluster → H Venus Dec 17.0013 17 whole (87.34) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+  - star rows: H Orion Nebula Cluster → H Makemake RA 110.9722 10×φ^5 phi power (76.20) — only
+  - star rows: S Orion Nebula Cluster → J Jupiter RA 1.3323 conj (1.25) — also: 5 Pholas / Hollie Doyle
+  - star rows: J Orion Nebula Cluster → J Mercury Dec 29.0195 29 whole (0.06) — only
+  - star rows: J Orion Nebula Cluster → J Venus Dec 24.0009 24 whole (91.33) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+  - star rows: J Orion Nebula Cluster → J Neptune Dec 16.6665 16.6667 ninth (99.84) — also: 1 Arafi / Sean Levey, 6 Shimmering Dawn / James Doyle
+  - star rows: J Orion Nebula Cluster → J Rahu RA 115.0000 115 whole (99.98) — only
+  - star rows: J Orion Nebula Cluster → J Eris RA 60.9802 61 whole (0.01) — also: 4 Nirodha / Silvestre De Sousa
+  - star rows: J Orion Nebula Cluster → J Ketu RA 65.0000 65 whole (99.98) — only
+  - MATCH EXACT: J Sadalmelik → Eris Dec 9.0170 9 whole (2.25)
+  - MATCH EXACT: J Zubeneschamali → Pluto Dec 9.0185 9 whole (0.58)
+  - same number: J Zubeneschamali → J Pluto Dec 9.0185 9 whole (0.58) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+- 4 Nirodha / Silvestre De Sousa
+  - star rows: H Orion Nebula Cluster → H Pallas RA 73.9817 74 whole (0.76) — only
+  - star rows: H Orion Nebula Cluster → H Eris RA 57.9897 58 whole (23.41) — also: 3 Indie Angel / Martin Harley
+  - star rows: J Orion Nebula Cluster → J Pluto RA 124.9826 125 whole (1.65) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+  - MATCH EXACT: H Kaus Australis → Saturn RA 9.0067 9 whole (44.27)
+  - MATCH EXACT: J Nunki → Ketu Dec 9.0047 9 whole (58.69)
+  - MATCH EXACT: J Bellatrix → Jupiter Dec 9.0118 9 whole (16.65)
+  - MATCH EXACT: J Spica → Juno RA 9.0148 9 whole (6.82)
+- 5 Pholas / Hollie Doyle
+  - star rows: S Orion Nebula Cluster → H Jupiter Dec 1.6663 1.66667 ninth (96.65) — also: 3 Indie Angel / Martin Harley
+  - star rows: H Orion Nebula Cluster → H Pluto Dec 15.9866 16 whole (10.73) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+  - star rows: J Orion Nebula Cluster → J Sun RA 113.2335 70×φ golden (1.13) — also: 1 Arafi / Sean Levey
+  - star rows: J Orion Nebula Cluster → J Uranus RA 140.7910 87×φ golden (10.13) — only
+  - star rows: J Orion Nebula Cluster → J Pluto RA 158.0111 158 whole (19.84) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+  - star rows: J Orion Nebula Cluster → J Juno Dec 0.1921 conj (12.94) — only
+  - star rows: J Orion Nebula Cluster → J Gonggong Dec 13.0169 13 whole (2.47) — only
+  - MATCH EXACT: H Alhena → Uranus Dec 9.0128 9 whole (13.14)
+  - MATCH EXACT: H Zubenelgenubi → Jupiter Dec 8.9812 9 whole (0.35)
+  - MATCH EXACT: J Alphard → Orcus Dec 8.9899 9 whole (24.61)
+  - same number: H Alhena → H Uranus Dec 9.0128 9 whole (13.14) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley
+- 6 Shimmering Dawn / James Doyle
+  - star rows: H Orion Nebula Cluster → H Venus RA 137.5605 85×φ golden (2.13) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley
+  - star rows: H Orion Nebula Cluster → H Venus Dec 14.1452 14.14 sqrt2 (91.53) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley
+  - star rows: H Orion Nebula Cluster → H Mars Dec 12.0044 12 whole (60.85) — also: 1 Arafi / Sean Levey
+  - star rows: H Orion Nebula Cluster → H Chiron RA 94.9849 95 whole (6.10) — also: 1 Arafi / Sean Levey
+  - star rows: H Orion Nebula Cluster → H Sedna RA 28.9967 29 whole (69.91) — only
+  - star rows: J Orion Nebula Cluster → J Saturn RA 170.9997 171 whole (97.22) — also: 1 Arafi / Sean Levey
+  - star rows: J Orion Nebula Cluster → J Neptune Dec 16.6643 16.6667 ninth (98.00) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley
+  - star rows: J Orion Nebula Cluster → J Chiron RA 1.1229 conj (6.32) — also: 1 Arafi / Sean Levey
+  - MATCH EXACT: H Alkes → Orcus Dec 8.9992 9 whole (92.36)
+  - MATCH EXACT: H Wezen → Mars Dec 8.9986 9 whole (86.33)
+  - MATCH EXACT: H Murzim → Neptune Dec 9.0131 9 whole (11.85)
+  - MATCH EXACT: J Sadalsuud → Ceres Dec 8.9883 9 whole (17.34)
+  - MATCH EXACT: S body → J Jupiter → Sun Dec 9.0126 9 whole (13.77)
+  - MATCH EXACT: J Alpheratz → Rahu RA 9.0150 9 whole (6.15)
+#### 7. S Sun → Adhara Dec 34.0052 34 whole (54.46) — runners with cells 6/6
+- Moon confirms: none
+- 1 Arafi / Sean Levey
+  - star rows: H Adhara → H Chiron RA 112.9951 113 whole (56.76) — also: 3 Indie Angel / Martin Harley
+  - star rows: H Adhara → H Transpluto Dec 40.0169 40 whole (2.36) — also: 3 Indie Angel / Martin Harley
+  - star rows: J Adhara → J Venus RA 75.9851 76 whole (6.61) — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - star rows: J Adhara → J Sedna RA 64.0013 64 whole (87.35) — only
+  - MATCH EXACT: H Alphard → Vesta Dec 34.0056 34 whole (51.77)
+  - MATCH EXACT: H Nunki → Uranus Dec 33.9925 34 whole (38.92)
+  - MATCH EXACT: H Unukalhai → Quaoar RA 33.9901 34 whole (25.63)
+  - MATCH EXACT: H Ankaa → Neptune Dec 33.9865 34 whole (10.44)
+  - MATCH EXACT: J Aculeus → Pallas RA 33.9910 34 whole (30.04)
+  - MATCH EXACT: J Sirius → Chiron Dec 34.0113 34 whole (18.72)
+  - MATCH EXACT: J Pleiades → Eris Dec 33.9802 34 whole (0.01)
+- 2 Fizzy Feet / Rossa Ryan
+  - star rows: S Adhara → H Jupiter RA 61.0041 61 whole (63.17) — also: 6 Shimmering Dawn / James Doyle
+  - star rows: H Adhara → H Mars RA 142.3637 88×φ golden (7.83) — only
+  - star rows: J Adhara → J Pluto Dec 18.0197 18 whole (0.03) — only
+  - star rows: J Adhara → J Gonggong Dec 12.0102 12 whole (24.17) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+  - natal Jupiter → star: H Jupiter → H star Adhara RA 61.0057 61 whole (51.12) — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+  - MATCH EXACT: J Algorab → Saturn Dec 34.0095 34 whole (27.34)
+  - MATCH EXACT: J Ankaa → Gonggong RA 34.0138 34 whole (9.48)
+  - MATCH EXACT: J El Nath → Sedna RA 34.0149 34 whole (6.41)
+  - same number: J El Nath → J Sedna RA 34.0149 34 whole (6.41) — also: 5 Pholas / Hollie Doyle
+- 3 Indie Angel / Martin Harley
+  - star rows: H Adhara → H Chiron RA 111.1555 111.111 ninth (92.74) — also: 1 Arafi / Sean Levey
+  - star rows: H Adhara → H Juno RA 176.3711 109×φ golden (69.38) — also: 5 Pholas / Hollie Doyle
+  - star rows: J Adhara → J Transpluto RA 38.9925 39 whole (39.10) — also: 1 Arafi / Sean Levey
+  - MATCH EXACT: J Algorab → Ceres Dec 33.9972 34 whole (74.04)
+  - MATCH EXACT: J Procyon → Ketu RA 33.9948 34 whole (55.07)
+  - MATCH EXACT: J Spica → Makemake RA 34.0154 34 whole (5.24)
+  - MATCH EXACT: J Kaus Australis → Pluto Dec 34.0198 34 whole (0.01)
+- 4 Nirodha / Silvestre De Sousa
+  - star rows: H Adhara → H Gonggong Dec 16.6664 16.6667 ninth (99.77) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+  - star rows: J Adhara → J Neptune Dec 6.9965 7 whole (68.25) — only
+  - star rows: J Adhara → J Eris RA 83.9975 84 whole (76.27) — only
+  - star rows: J Adhara → J Makemake Dec 67.0000 67 whole (99.93) — only
+  - star rows: J Adhara → J Quaoar RA 119.0117 119 whole (17.34) — only
+  - MATCH EXACT: H Regulus → Saturn Dec 34.0134 34 whole (11.02)
+  - MATCH EXACT: J Alphecca → Juno Dec 33.9988 34 whole (87.94)
+  - MATCH EXACT: J Sirius → Rahu Dec 34.0024 34 whole (77.24)
+  - MATCH EXACT: J Vindemiatrix → Sun Dec 33.9940 34 whole (48.82)
+  - MATCH EXACT: J Vindemiatrix → Gonggong Dec 34.0102 34 whole (24.19)
+- 5 Pholas / Hollie Doyle
+  - star rows: H Adhara → H Ceres RA 80.9080 50×φ golden (64.76) — also: 6 Shimmering Dawn / James Doyle
+  - star rows: H Adhara → H Gonggong RA 129.4124 80×φ golden (0.41) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+  - star rows: J Adhara → J Venus Dec 37.9820 38 whole (1.00) — also: 1 Arafi / Sean Levey, 6 Shimmering Dawn / James Doyle
+  - star rows: J Adhara → J Juno RA 91.0018 91 whole (82.87) — also: 3 Indie Angel / Martin Harley
+  - star rows: J Adhara → J Haumea Dec 50.1552 31×φ golden (77.43) — only
+  - same number: S Moon → H Rahu Dec 33.9985 34 whole (85.44) — also: 2 Fizzy Feet / Rossa Ryan
+- 6 Shimmering Dawn / James Doyle
+  - star rows: H Adhara → H Ceres RA 121.3519 75×φ golden (96.22) — also: 5 Pholas / Hollie Doyle
+  - star rows: H Adhara → H Vesta Dec 32.9979 33 whole (80.21) — only
+  - star rows: J Adhara → J Jupiter Dec 43.0175 43 whole (1.61) — also: 2 Fizzy Feet / Rossa Ryan
+  - star rows: J Adhara → J Mercury RA 71.9822 72 whole (1.26) — only
+  - star rows: J Adhara → J Venus Dec 55.9915 56 whole (33.22) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+  - star rows: J Adhara → J Pallas RA 155.3442 96×φ golden (36.01) — only
+  - star rows: J Adhara → J Rahu Dec 25.9843 26 whole (4.66) — only
+#### 8. S Sun → Difda RA 0.8223 conj (20.41) — runners with cells 6/6
+- Moon confirms: none
+- 1 Arafi / Sean Levey
+  - star rows: H Difda → H Ceres RA 20.0163 20 whole (3.37) — also: 5 Pholas / Hollie Doyle
+  - star rows: H Difda → H Transpluto RA 142.3561 88×φ golden (0.20) — only
+  - star rows: H Difda → H Transpluto Dec 29.0313 φ^7 phi power (95.71) — only
+  - star rows: J Difda → J Sun RA 22.6504 14×φ golden (87.70) — also: 2 Fizzy Feet / Rossa Ryan
+  - star rows: J Difda → J Sun Dec 12.9409 8×φ golden (80.00) — also: 2 Fizzy Feet / Rossa Ryan
+  - star rows: J Difda → J Saturn RA 99.0103 99 whole (23.73) — also: 4 Nirodha / Silvestre De Sousa
+  - star rows: J Difda → J Haumea RA 175.0034 175 whole (69.30) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+  - star rows: J Difda → J Haumea Dec 41.4272 41.4 silver (94.42) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+  - star rows: J Difda → J Makemake RA 156.0156 156 whole (4.80) — also: 4 Nirodha / Silvestre De Sousa
+  - star rows: J Difda → J Orcus RA 116.0002 116 whole (97.58) — only
+- 2 Fizzy Feet / Rossa Ryan
+  - star rows: H Difda → H Chiron RA 19.0145 19 whole (7.69) — only
+  - star rows: J Difda → J Sun RA 91.9832 92 whole (2.49) — also: 1 Arafi / Sean Levey
+  - star rows: J Difda → J Uranus RA 48.0199 48 whole (0.00) — only
+- 3 Indie Angel / Martin Harley
+  - star rows: H Difda → H Rahu RA 144.0032 89×φ golden (89.05) — also: 6 Shimmering Dawn / James Doyle
+  - star rows: H Difda → H Eris RA 14.5606 9×φ golden (89.53) — only
+  - star rows: H Difda → H Ketu RA 35.9968 36 whole (70.54) — only
+  - star rows: S Difda → J Jupiter Dec 40.9901 41 whole (25.34) — only
+  - star rows: J Difda → J Venus RA 124.5799 77×φ golden (53.16) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - star rows: J Difda → J Pluto RA 145.9826 146 whole (1.67) — only
+  - star rows: J Difda → J Haumea RA 174.7758 108×φ golden (1.71) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+- 4 Nirodha / Silvestre De Sousa
+  - star rows: H Difda → H Pallas RA 1.0568 conj (8.73) — only
+  - star rows: H Difda → H Pallas Dec 17.9488 φ^6 phi power (90.15) — only
+  - star rows: H Difda → H Sedna RA 44.9912 45 whole (31.23) — only
+  - star rows: J Difda → J Venus RA 114.9941 115 whole (50.00) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - star rows: J Difda → J Saturn RA 178.9954 179 whole (59.24) — also: 1 Arafi / Sean Levey
+  - star rows: J Difda → J Neptune Dec 3.9868 4 whole (11.42) — also: 5 Pholas / Hollie Doyle
+  - star rows: J Difda → J Makemake RA 148.8841 92×φ golden (5.24) — also: 1 Arafi / Sean Levey
+  - star rows: J Difda → J Makemake Dec 56.0167 56 whole (2.68) — also: 1 Arafi / Sean Levey
+  - star rows: J Difda → J Quaoar RA 147.2216 91×φ golden (15.88) — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+- 5 Pholas / Hollie Doyle
+  - star rows: H Difda → H Mercury RA 100.3189 62×φ golden (95.32) — only
+  - star rows: H Difda → H Ceres Dec 19.9942 20 whole (50.70) — also: 1 Arafi / Sean Levey
+  - star rows: H Difda → H Haumea RA 158.0094 158 whole (27.96) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley
+  - star rows: J Difda → J Venus Dec 26.9992 27 whole (92.14) — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+  - star rows: J Difda → J Neptune RA 74.0194 74 whole (0.08) — also: 4 Nirodha / Silvestre De Sousa
+  - star rows: J Difda → J Vesta RA 115.9828 116 whole (1.93) — also: 6 Shimmering Dawn / James Doyle
+  - star rows: J Difda → J Quaoar RA 129.4583 80×φ golden (26.91) — also: 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+- 6 Shimmering Dawn / James Doyle
+  - star rows: H Difda → H Vesta Dec 22.0118 22 whole (16.88) — also: 5 Pholas / Hollie Doyle
+  - star rows: H Difda → H Quaoar RA 101.9999 102 whole (98.96) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+  - star rows: J Difda → J Venus Dec 45.0032 45 whole (70.20) — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+  - star rows: J Difda → J Rahu Dec 14.9960 15 whole (64.26) — also: 3 Indie Angel / Martin Harley
+### READ 3 Jupiter / Sun lines to bodies (not followed)
+- S Sun → Haumea RA 155.5233 155.556 ninth (96.95)
+- S Jupiter → Moon RA 68.5474 10×φ^4 phi power (96.33)
+- S Jupiter → Sun Dec 19.4186 12×φ golden (86.76)
+- S Sun → Jupiter Dec 19.4186 12×φ golden (86.76)
+- S Jupiter → Venus Dec 19.0027 19 whole (74.86)
+- S Jupiter → Mars RA 110.0189 68×φ golden (59.41)
+### READ 4 Moon only, not active (confirm no lead line; not followed)
+- S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+- S Moon → Jupiter RA 68.5474 10×φ^4 phi power (96.33)
+- S Moon → Eris Dec 22.6551 14×φ golden (84.66)
+- S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- S Moon → Facies Dec 0.1473 conj (25.89)
+
+## 1 Arafi / Sean Levey
+### L1 same bodies
+- S Saturn → H Saturn RA 48.9932 49 whole (43.48)
+- S Saturn → H Saturn Dec 4.1473 4.14 silver (loose)
+- S Chiron → H Chiron RA 15.5063 15.5556 ninth (loose)
+- S Orcus → H Orcus RA 2.6163 φ^2 phi power (loose)
+- S Mars → J Mars RA 155.3441 155.556 ninth (loose)
+- S Pluto → J Pluto Dec 22.2615 22.2222 ninth (loose)
+- S Juno → J Juno Dec 9.7036 6×φ golden (loose)
+- S Rahu → J Rahu RA 76.9839 77 whole (3.84)
+- S Makemake → J Makemake Dec 13.3651 13.3333 ninth (loose)
+- S Orcus → J Orcus Dec 16.1731 10×φ^1 phi power (loose)
+- S Ketu → J Ketu RA 76.9839 77 whole (3.84)
+### L2 what lands on each same body
+- **H Saturn** (same body: S Saturn → H Saturn RA 48.9932 49 whole (43.48); S Saturn → H Saturn Dec 4.1473 4.14 silver (loose))
+  - star rows: H Betelgeuse → H Saturn RA 176.0177 176 whole (1.36)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Orion Nebula Cluster → H Saturn RA 179.0110 179 whole (20.42)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: H Orion Nebula Cluster → H Saturn Dec 16.6670 16.6667 ninth (99.72)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - other chart, star rows: J Difda → J Saturn RA 99.0103 99 whole (23.73)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - other chart, star rows: J Pollux → J Saturn RA 155.5462 155.556 ninth (99.12)
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **H Chiron** (same body: S Chiron → H Chiron RA 15.5063 15.5556 ninth (loose))
+  - star rows: H Adhara → H Chiron RA 112.9951 113 whole (56.76)
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: H Castor → H Chiron RA 121.9876 122 whole (14.56)
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: H Ras Algethi → H Chiron RA 93.0075 93 whole (39.22)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - other chart, star rows: J El Nath → J Chiron RA 1.4682 conj (0.04)
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - other chart, star rows: J Orion Nebula Cluster → J Chiron RA 0.7811 conj (22.97)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **H Orcus** (same body: S Orcus → H Orcus RA 2.6163 φ^2 phi power (loose))
+  - other chart, same body: S Orcus → J Orcus Dec 16.1731 10×φ^1 phi power (loose)
+  - other chart, top rows: S Sun → J Orcus Dec 0.1854 conj (14.59)
+  - other chart, star rows: J Difda → J Orcus RA 116.0002 116 whole (97.58)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - other chart, star rows: J Sualocin → J Orcus RA 176.9870 177 whole (12.12)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **J Mars** (same body: S Mars → J Mars RA 155.3441 155.556 ninth (loose))
+  - sky line to Mars: S Jupiter → Mars RA 110.0189 68×φ golden (59.41)
+  - star rows: J Facies → J Mars RA 1.3746 conj (0.70)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - other chart, star rows: H El Nath → H Mars Dec 25.0067 25 whole (44.21)
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - other chart, star rows: H Facies → H Mars Dec 27.5055 17×φ golden (93.65)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - other chart, star rows: H Orion Nebula Cluster → H Mars Dec 8.9938 9 whole (47.93)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - other chart, star rows: H Zubeneschamali → H Mars Dec 12.9844 13 whole (4.88)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **J Pluto** (same body: S Pluto → J Pluto Dec 22.2615 22.2222 ninth (loose))
+  - top rows: S Jupiter → J Pluto Dec 14.4406 14.4444 ninth (95.96)
+  - star rows: J Facies → J Pluto RA 54.0075 54 whole (38.94)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **J Juno** (same body: S Juno → J Juno Dec 9.7036 6×φ golden (loose))
+  - star rows: J El Nath → J Juno RA 63.0028 63 whole (74.14)
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: J Facies → J Juno Dec 25.0150 25 whole (6.37)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **J Rahu** (same body: S Rahu → J Rahu RA 76.9839 77 whole (3.84))
+  - star rows: J Betelgeuse → J Rahu RA 95.0065 95 whole (45.24)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+- **J Makemake** (same body: S Makemake → J Makemake Dec 13.3651 13.3333 ninth (loose))
+  - star rows: J Difda → J Makemake RA 156.0156 156 whole (4.80)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Sualocin → J Makemake RA 142.9977 143 whole (78.01)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - other chart, star rows: H Castor → H Makemake Dec 6.9894 7 whole (21.92)
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - other chart, star rows: H Sualocin → H Makemake Dec 8.9878 9 whole (15.06)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **J Orcus** (same body: S Orcus → J Orcus Dec 16.1731 10×φ^1 phi power (loose))
+  - top rows: S Sun → J Orcus Dec 0.1854 conj (14.59)
+  - star rows: J Difda → J Orcus RA 116.0002 116 whole (97.58)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Sualocin → J Orcus RA 176.9870 177 whole (12.12)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - other chart, same body: S Orcus → H Orcus RA 2.6163 φ^2 phi power (loose)
+- **J Ketu** (same body: S Ketu → J Ketu RA 76.9839 77 whole (3.84))
+  - star rows: J Betelgeuse → J Ketu RA 84.9935 85 whole (45.24)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - other chart, star rows: H Betelgeuse → H Ketu Dec 17.7701 17.7778 ninth (93.96)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - other chart, star rows: H Zubeneschamali → H Ketu Dec 0.9803 1 whole (0.02)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+### L3 matches
+- **1. same body on both charts**
+  - Orcus — only
+    - S Orcus → H Orcus RA 2.6163 φ^2 phi power (loose)
+    - S Orcus → J Orcus Dec 16.1731 10×φ^1 phi power (loose)
+- **2. one body in both planes**
+  - H Saturn — only
+    - S Saturn → H Saturn RA 48.9932 49 whole (43.48)
+    - S Saturn → H Saturn Dec 4.1473 4.14 silver (loose)
+- **3. runner number = sky number**
+  - 9 whole — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - H Alhena → H Sedna Dec 9.0194 9 whole (0.08) = S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - 9 whole — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - H Orion Nebula Cluster → H Mars Dec 8.9938 9 whole (47.93) = S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - 9 whole — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - H Sualocin → H Makemake Dec 8.9878 9 whole (15.06) = S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - 155.556 ninth — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - S Mars → J Mars RA 155.3441 155.556 ninth (loose) = S Sun → Haumea RA 155.5233 155.556 ninth (96.95)
+  - 19 whole — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+    - S Moon → J Sun Dec 19.0034 19 whole (69.15) = S Jupiter → Venus Dec 19.0027 19 whole (74.86)
+  - 14×φ golden — also: 5 Pholas / Hollie Doyle
+    - J Difda → J Sun RA 22.6504 14×φ golden (87.70) = S Moon → Eris Dec 22.6551 14×φ golden (84.66)
+  - 155.556 ninth — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - J Pollux → J Saturn RA 155.5462 155.556 ninth (99.12) = S Sun → Haumea RA 155.5233 155.556 ninth (96.95)
+- **4. circle divisions**
+  - 8 = 360/45 — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - S Sun → H Uranus RA 8.0021 8 whole (80.08)
+  - 40 = 360/9 — only
+    - H Adhara → H Transpluto Dec 40.0169 40 whole (2.36)
+  - 9 = 360/40 — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - H Alhena → H Sedna Dec 9.0194 9 whole (0.08)
+  - 20 = 360/18 — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+    - H Betelgeuse → H Gonggong Dec 20.0129 20 whole (12.74)
+  - 20 = 360/18 — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+    - H Difda → H Ceres RA 20.0163 20 whole (3.37)
+  - 45 = 360/8 — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - H Facies → H Sun RA 44.9804 45 whole (0.05)
+  - 9 = 360/40 — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - H Orion Nebula Cluster → H Mars Dec 8.9938 9 whole (47.93)
+  - 9 = 360/40 — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - H Sualocin → H Makemake Dec 8.9878 9 whole (15.06)
+  - 1 = 360/360 — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - H Zubeneschamali → H Ketu Dec 0.9803 1 whole (0.02)
+  - 40 = 360/9 — only
+    - J Alhena → J Uranus Dec 40.0196 40 whole (0.04)
+- **5. same number in more than one place**
+  - 40 whole — only
+    - H Adhara → H Transpluto Dec 40.0169 40 whole (2.36)
+    - J Alhena → J Uranus Dec 40.0196 40 whole (0.04)
+  - 37 whole — only
+    - H Alhena → H Mercury Dec 37.0190 37 whole (0.25)
+    - J Facies → J Venus Dec 37.0110 37 whole (20.20)
+  - 9 whole — only
+    - H Alhena → H Sedna Dec 9.0194 9 whole (0.08)
+    - H Orion Nebula Cluster → H Mars Dec 8.9938 9 whole (47.93)
+    - H Sualocin → H Makemake Dec 8.9878 9 whole (15.06)
+  - 20 whole — only
+    - H Betelgeuse → H Gonggong Dec 20.0129 20 whole (12.74)
+    - H Difda → H Ceres RA 20.0163 20 whole (3.37)
+  - 7 whole — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - H Castor → H Makemake Dec 6.9894 7 whole (21.92)
+    - H Ras Algethi → H Sedna Dec 7.0088 7 whole (31.46)
+  - 25 whole — only
+    - H El Nath → H Mars Dec 25.0067 25 whole (44.21)
+    - J Facies → J Juno Dec 25.0150 25 whole (6.37)
+  - 106×φ golden — only
+    - H El Nath → H Quaoar RA 171.5194 106×φ golden (57.63)
+    - J Alhena → J Uranus RA 171.5117 106×φ golden (99.20)
+  - 17 whole — also: 3 Indie Angel / Martin Harley
+    - H Pollux → H Transpluto Dec 16.9836 17 whole (3.18)
+    - J Alhena → J Vesta RA 16.9991 17 whole (90.84)
+  - 156 whole — only
+    - H Zubeneschamali → H Eris RA 155.9838 156 whole (3.60)
+    - J Difda → J Makemake RA 156.0156 156 whole (4.80)
+  - 76 whole — only
+    - H Zubeneschamali → H Transpluto RA 76.0001 76 whole (99.35)
+    - J Adhara → J Venus RA 75.9851 76 whole (6.61)
+  - 155.556 ninth — only
+    - S Mars → J Mars RA 155.3441 155.556 ninth (loose)
+    - J Pollux → J Saturn RA 155.5462 155.556 ninth (99.12)
+  - 77 whole — only
+    - S Rahu → J Rahu RA 76.9839 77 whole (3.84)
+    - S Ketu → J Ketu RA 76.9839 77 whole (3.84)
+  - 8×φ golden — only
+    - S Makemake → J Jupiter Dec 12.9406 8×φ golden (78.63)
+    - J Difda → J Sun Dec 12.9409 8×φ golden (80.00)
+  - 54 whole — also: 4 Nirodha / Silvestre De Sousa
+    - J Castor → J Neptune Dec 53.9875 54 whole (14.10)
+    - J Facies → J Pluto RA 54.0075 54 whole (38.94)
+  - 38 whole — only
+    - J Ras Algethi → J Uranus Dec 38.0077 38 whole (37.61)
+    - J Sualocin → J Neptune Dec 38.0076 38 whole (38.67)
+### L4 every natal body
+- **Saturn**
+  - same body: S Saturn → H Saturn RA 48.9932 49 whole (43.48) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - same body: S Saturn → H Saturn Dec 4.1473 4.14 silver (loose) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - star rows: H Betelgeuse → H Saturn RA 176.0177 176 whole (1.36) — only
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Orion Nebula Cluster → H Saturn RA 179.0110 179 whole (20.42) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: H Orion Nebula Cluster → H Saturn Dec 16.6670 16.6667 ninth (99.72) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: J Difda → J Saturn RA 99.0103 99 whole (23.73) — also: 4 Nirodha / Silvestre De Sousa
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Pollux → J Saturn RA 155.5462 155.556 ninth (99.12) — also: 5 Pholas / Hollie Doyle
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **Chiron**
+  - same body: S Chiron → H Chiron RA 15.5063 15.5556 ninth (loose) — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - star rows: H Adhara → H Chiron RA 112.9951 113 whole (56.76) — also: 3 Indie Angel / Martin Harley
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: H Castor → H Chiron RA 121.9876 122 whole (14.56) — only
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: H Ras Algethi → H Chiron RA 93.0075 93 whole (39.22) — only
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: J El Nath → J Chiron RA 1.4682 conj (0.04) — also: 4 Nirodha / Silvestre De Sousa
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: J Orion Nebula Cluster → J Chiron RA 0.7811 conj (22.97) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **Orcus**
+  - same body: S Orcus → H Orcus RA 2.6163 φ^2 phi power (loose) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - same body: S Orcus → J Orcus Dec 16.1731 10×φ^1 phi power (loose) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - top rows: S Sun → J Orcus Dec 0.1854 conj (14.59) — also: 6 Shimmering Dawn / James Doyle
+  - star rows: J Difda → J Orcus RA 116.0002 116 whole (97.58) — only
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Sualocin → J Orcus RA 176.9870 177 whole (12.12) — only
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **Haumea**
+  - T1: H Jupiter → H Haumea RA 11.3250 7×φ golden (92.33) — also: 5 Pholas / Hollie Doyle
+  - star rows: J Difda → J Haumea RA 175.0034 175 whole (69.30) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Difda → J Haumea Dec 41.4272 41.4 silver (94.42) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Sualocin → J Haumea RA 124.0099 124 whole (25.35) — also: 5 Pholas / Hollie Doyle
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **Sun**
+  - top rows: S Jupiter → H Sun Dec 0.1169 conj (37.26) — only
+  - star rows: H Facies → H Sun RA 44.9804 45 whole (0.05) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: H Orion Nebula Cluster → H Sun RA 119.7496 74×φ golden (28.45) — also: 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - top rows: S Moon → J Sun Dec 19.0034 19 whole (69.15) — only
+  - star rows: J Alhena → J Sun RA 111.1889 111.111 ninth (87.27) — only
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: J Difda → J Sun RA 22.6504 14×φ golden (87.70) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Difda → J Sun Dec 12.9409 8×φ golden (80.00) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Zubeneschamali → J Sun RA 118.9869 119 whole (11.77) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **Venus**
+  - top rows: S Sun → H Venus Dec 0.1976 conj (11.64) — also: 2 Fizzy Feet / Rossa Ryan
+  - star rows: H Facies → H Venus RA 83.9975 84 whole (76.14) — only
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: H Pollux → H Venus RA 113.2386 70×φ golden (7.05) — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - star rows: J Adhara → J Venus RA 75.9851 76 whole (6.61) — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: J Facies → J Venus Dec 37.0110 37 whole (20.20) — only
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: J Ras Algethi → J Venus RA 130.0126 130 whole (13.60) — only
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **Uranus**
+  - top rows: S Sun → H Uranus RA 8.0021 8 whole (80.08) — only
+  - star rows: H Betelgeuse → H Uranus Dec 0.2894 conj (0.13) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Zubeneschamali → H Uranus RA 150.4666 93×φ golden (45.41) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - star rows: J Alhena → J Uranus RA 171.5117 106×φ golden (99.20) — also: 5 Pholas / Hollie Doyle
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: J Alhena → J Uranus Dec 40.0196 40 whole (0.04) — also: 5 Pholas / Hollie Doyle
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: J Facies → J Uranus Dec 0.2839 conj (0.29) — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: J Ras Algethi → J Uranus Dec 38.0077 38 whole (37.61) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **Vesta**
+  - top rows: S Sun → H Vesta RA 103.0028 103 whole (74.17) — also: 3 Indie Angel / Martin Harley
+  - star rows: H Castor → H Vesta RA 1.0643 conj (8.44) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: J Alhena → J Vesta RA 16.9991 17 whole (90.84) — also: 4 Nirodha / Silvestre De Sousa
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: J Pollux → J Vesta RA 0.0941 conj (87.85) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **Transpluto**
+  - top rows: S Moon → H Transpluto RA 103.9988 104 whole (88.45) — only
+  - star rows: H Adhara → H Transpluto Dec 40.0169 40 whole (2.36) — also: 3 Indie Angel / Martin Harley
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: H Difda → H Transpluto RA 142.3561 88×φ golden (0.20) — only
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: H Difda → H Transpluto Dec 29.0313 φ^7 phi power (95.71) — only
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: H Pollux → H Transpluto Dec 16.9836 17 whole (3.18) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - star rows: H Zubeneschamali → H Transpluto RA 76.0001 76 whole (99.35) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - top rows: S Moon → J Transpluto RA 113.9996 114 whole (96.13) — only
+  - star rows: J Ras Algethi → J Transpluto Dec 0.1545 conj (23.52) — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: J Sualocin → J Transpluto RA 166.6546 166.667 ninth (98.96) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - star rows: J Zubeneschamali → J Transpluto RA 86.0040 86 whole (63.78) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **Mercury**
+  - star rows: H Alhena → H Mercury Dec 37.0190 37 whole (0.25) — only
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Ras Algethi → H Mercury Dec 35.0084 35 whole (33.93) — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: J Alhena → J Mercury RA 137.0071 137 whole (41.83) — only
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+- **Sedna**
+  - star rows: H Alhena → H Sedna Dec 9.0194 9 whole (0.08) — also: 3 Indie Angel / Martin Harley
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Betelgeuse → H Sedna Dec 0.0270 conj (82.78) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Ras Algethi → H Sedna Dec 7.0088 7 whole (31.46) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: J Adhara → J Sedna RA 64.0013 64 whole (87.35) — only
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: J Castor → J Sedna RA 72.9959 73 whole (63.56) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: J Ras Algethi → J Sedna RA 141.9965 142 whole (67.72) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **Gonggong**
+  - star rows: H Alhena → H Gonggong Dec 29.0053 29 whole (54.35) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Betelgeuse → H Gonggong Dec 20.0129 20 whole (12.74) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Ras Algethi → H Gonggong Dec 26.9946 27 whole (53.27) — also: 4 Nirodha / Silvestre De Sousa
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: J Pollux → J Gonggong RA 147.2103 91×φ golden (0.22) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **Ceres**
+  - star rows: H Betelgeuse → H Ceres Dec 0.1174 conj (37.06) — also: 3 Indie Angel / Martin Harley
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Difda → H Ceres RA 20.0163 20 whole (3.37) — also: 5 Pholas / Hollie Doyle
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: H Sualocin → H Ceres RA 81.0071 81 whole (41.29) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **Ketu**
+  - star rows: H Betelgeuse → H Ketu Dec 17.7701 17.7778 ninth (93.96) — only
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Zubeneschamali → H Ketu Dec 0.9803 1 whole (0.02) — only
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - same body: S Ketu → J Ketu RA 76.9839 77 whole (3.84) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+  - star rows: J Betelgeuse → J Ketu RA 84.9935 85 whole (45.24) — only
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+- **Makemake**
+  - star rows: H Castor → H Makemake Dec 6.9894 7 whole (21.92) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: H Sualocin → H Makemake Dec 8.9878 9 whole (15.06) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - same body: S Makemake → J Makemake Dec 13.3651 13.3333 ninth (loose) — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+  - star rows: J Difda → J Makemake RA 156.0156 156 whole (4.80) — also: 4 Nirodha / Silvestre De Sousa
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Sualocin → J Makemake RA 142.9977 143 whole (78.01) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **Mars**
+  - star rows: H El Nath → H Mars Dec 25.0067 25 whole (44.21) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: H Facies → H Mars Dec 27.5055 17×φ golden (93.65) — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: H Orion Nebula Cluster → H Mars Dec 8.9938 9 whole (47.93) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: H Zubeneschamali → H Mars Dec 12.9844 13 whole (4.88) — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - same body: S Mars → J Mars RA 155.3441 155.556 ninth (loose) — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Mars RA 110.0189 68×φ golden (59.41)
+  - star rows: J Facies → J Mars RA 1.3746 conj (0.70) — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **Quaoar**
+  - star rows: H El Nath → H Quaoar RA 171.5194 106×φ golden (57.63) — only
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: H Pollux → H Quaoar RA 153.7258 95×φ golden (37.43) — also: 5 Pholas / Hollie Doyle
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **Pallas**
+  - star rows: H Facies → H Pallas Dec 18.8872 18.8889 ninth (98.76) — also: 4 Nirodha / Silvestre De Sousa
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **Eris**
+  - star rows: H Zubeneschamali → H Eris RA 155.9838 156 whole (3.60) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - star rows: J Betelgeuse → J Eris RA 67.0164 67 whole (3.24) — only
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+- **Pluto**
+  - same body: S Pluto → J Pluto Dec 22.2615 22.2222 ninth (loose) — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+  - top rows: S Jupiter → J Pluto Dec 14.4406 14.4444 ninth (95.96) — only
+  - star rows: J Facies → J Pluto RA 54.0075 54 whole (38.94) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **Juno**
+  - same body: S Juno → J Juno Dec 9.7036 6×φ golden (loose) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+  - star rows: J El Nath → J Juno RA 63.0028 63 whole (74.14) — only
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: J Facies → J Juno Dec 25.0150 25 whole (6.37) — only
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **Rahu**
+  - same body: S Rahu → J Rahu RA 76.9839 77 whole (3.84) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+  - star rows: J Betelgeuse → J Rahu RA 95.0065 95 whole (45.24) — also: 3 Indie Angel / Martin Harley
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+- **Jupiter**
+  - top rows: S Haumea → J Jupiter RA 171.9950 172 whole (56.37) — only
+    - source line: S Sun → Haumea RA 155.5233 155.556 ninth (96.95)
+  - top rows: S Makemake → J Jupiter Dec 12.9406 8×φ golden (78.63) — also: 6 Shimmering Dawn / James Doyle
+  - top rows: S Transpluto → J Jupiter Dec 0.2402 conj (3.98) — only
+- **Neptune**
+  - star rows: J Castor → J Neptune Dec 53.9875 54 whole (14.10) — only
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: J Orion Nebula Cluster → J Neptune RA 163.0010 163 whole (89.87) — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: J Sualocin → J Neptune Dec 38.0076 38 whole (38.67) — only
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+
+## 2 Fizzy Feet / Rossa Ryan
+### L1 same bodies
+- S Saturn → H Saturn Dec 2.9856 3 whole (7.81)
+- S Ceres → H Ceres RA 13.2904 13.3333 ninth (loose)
+- S Juno → H Juno RA 42.3733 10×φ^3 phi power (loose)
+- S Rahu → H Rahu Dec 18.7516 18.8889 ninth (loose)
+- S Eris → H Eris Dec 1.2206 1.22222 ninth (loose)
+- S Orcus → H Orcus RA 4.4480 4.44444 ninth (loose)
+- S Ketu → H Ketu Dec 18.7516 18.8889 ninth (loose)
+- S Sun → J Sun Dec 17.8811 φ^6 phi power (loose)
+- S Neptune → J Neptune Dec 14.1262 14.14 sqrt2 (loose)
+- S Pallas → J Pallas RA 179.0953 10×φ^6 phi power (loose)
+### L2 what lands on each same body
+- **H Saturn** (same body: S Saturn → H Saturn Dec 2.9856 3 whole (7.81))
+  - star rows: H Alhena → H Saturn RA 155.3385 96×φ golden (60.07)
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Facies → H Saturn Dec 3.0061 3 whole (48.57)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - other chart, star rows: J El Nath → J Saturn Dec 11.1140 11.1111 ninth (95.30)
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - other chart, star rows: J Facies → J Saturn RA 135.9907 136 whole (28.75)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - other chart, star rows: J Sualocin → J Saturn RA 105.1819 65×φ golden (48.87)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **H Ceres** (same body: S Ceres → H Ceres RA 13.2904 13.3333 ninth (loose))
+- **H Juno** (same body: S Juno → H Juno RA 42.3733 10×φ^3 phi power (loose))
+  - top rows: S Moon → H Juno RA 35.9991 36 whole (90.97)
+  - star rows: H Zubeneschamali → H Juno RA 8.0054 8 whole (53.62)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - other chart, top rows: S Jupiter → J Juno RA 0.8579 conj (18.32)
+- **H Rahu** (same body: S Rahu → H Rahu Dec 18.7516 18.8889 ninth (loose))
+  - other chart, top rows: S Jupiter → J Rahu Dec 35.5914 22×φ golden (69.87)
+  - other chart, star rows: J Pollux → J Rahu RA 0.2054 conj (74.49)
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - other chart, star rows: J Sualocin → J Rahu RA 166.6136 166.667 ninth (95.45)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **H Eris** (same body: S Eris → H Eris Dec 1.2206 1.22222 ninth (loose))
+  - sky line to Eris: S Moon → Eris Dec 22.6551 14×φ golden (84.66)
+  - star rows: H Alhena → H Eris Dec 19.0161 19 whole (3.80)
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Ras Algethi → H Eris Dec 17.0051 17 whole (55.16)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **H Orcus** (same body: S Orcus → H Orcus RA 4.4480 4.44444 ninth (loose))
+  - star rows: H Ras Algethi → H Orcus RA 107.9802 108 whole (0.01)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **H Ketu** (same body: S Ketu → H Ketu Dec 18.7516 18.8889 ninth (loose))
+  - star rows: H Sualocin → H Ketu Dec 19.4170 12×φ golden (96.61)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - other chart, star rows: J Ras Algethi → J Ketu Dec 35.5928 22×φ golden (77.25)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **J Sun** (same body: S Sun → J Sun Dec 17.8811 φ^6 phi power (loose))
+  - sky line to Sun: S Jupiter → Sun Dec 19.4186 12×φ golden (86.76)
+  - star rows: J Difda → J Sun RA 91.9832 92 whole (2.49)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Sualocin → J Sun Dec 6.9980 7 whole (80.89)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - other chart, star rows: H Betelgeuse → H Sun RA 64.0190 64 whole (0.26)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - other chart, star rows: H Zubeneschamali → H Sun RA 155.5153 155.556 ninth (96.19)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **J Neptune** (same body: S Neptune → J Neptune Dec 14.1262 14.14 sqrt2 (loose))
+  - star rows: J Alhena → J Neptune Dec 35.0092 35 whole (29.01)
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: J Betelgeuse → J Neptune Dec 26.0169 26 whole (2.35)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: J Ras Algethi → J Neptune Dec 33.0009 33 whole (91.33)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **J Pallas** (same body: S Pallas → J Pallas RA 179.0953 10×φ^6 phi power (loose))
+  - star rows: J Alhena → J Pallas RA 56.0140 56 whole (9.13)
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+### L3 matches
+- **1. same body on both charts**: none
+- **2. one body in both planes**: none
+- **3. runner number = sky number**
+  - 19 whole — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+    - H Alhena → H Eris Dec 19.0161 19 whole (3.80) = S Jupiter → Venus Dec 19.0027 19 whole (74.86)
+  - 19 whole — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+    - H Difda → H Chiron RA 19.0145 19 whole (7.69) = S Jupiter → Venus Dec 19.0027 19 whole (74.86)
+  - 12×φ golden — only
+    - H Sualocin → H Ketu Dec 19.4170 12×φ golden (96.61) = S Sun → Jupiter Dec 19.4186 12×φ golden (86.76)
+  - 155.556 ninth — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - H Zubeneschamali → H Sun RA 155.5153 155.556 ninth (96.19) = S Sun → Haumea RA 155.5233 155.556 ninth (96.95)
+  - 34 whole — also: 5 Pholas / Hollie Doyle
+    - J El Nath → J Sedna RA 34.0149 34 whole (6.41) = S Sun → Adhara Dec 34.0052 34 whole (54.46)
+- **4. circle divisions**
+  - 3 = 360/120 — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - S Saturn → H Saturn Dec 2.9856 3 whole (7.81)
+  - 36 = 360/10 — also: 3 Indie Angel / Martin Harley
+    - S Moon → H Juno RA 35.9991 36 whole (90.97)
+  - 20 = 360/18 — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+    - H Betelgeuse → H Gonggong Dec 19.9975 20 whole (76.69)
+  - 6 = 360/60 — only
+    - H Castor → H Makemake Dec 6.0062 6 whole (47.63)
+  - 3 = 360/120 — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - H Facies → H Saturn Dec 3.0061 3 whole (48.57)
+  - 8 = 360/45 — also: 1 Arafi / Sean Levey, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - H Zubeneschamali → H Juno RA 8.0054 8 whole (53.62)
+  - 18 = 360/20 — only
+    - J Adhara → J Pluto Dec 18.0197 18 whole (0.03)
+  - 12 = 360/30 — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - J Adhara → J Gonggong Dec 12.0102 12 whole (24.17)
+  - 45 = 360/8 — also: 1 Arafi / Sean Levey, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - J Pollux → J Gonggong Dec 44.9890 45 whole (20.16)
+- **5. same number in more than one place**
+  - 3 whole — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - S Saturn → H Saturn Dec 2.9856 3 whole (7.81)
+    - H Facies → H Saturn Dec 3.0061 3 whole (48.57)
+  - 18.8889 ninth — only
+    - S Rahu → H Rahu Dec 18.7516 18.8889 ninth (loose)
+    - S Ketu → H Ketu Dec 18.7516 18.8889 ninth (loose)
+  - 61 whole — only
+    - H Jupiter → H star Adhara RA 61.0057 61 whole (51.12)
+    - S Adhara → H Jupiter RA 61.0041 61 whole (63.17)
+  - 93 whole — only
+    - H Jupiter → H star Ras Algethi RA 93.0045 93 whole (60.08)
+    - S Ras Algethi → H Jupiter RA 93.0032 93 whole (70.25)
+  - 14.14 sqrt2 — also: 6 Shimmering Dawn / James Doyle
+    - S Sun → H Mercury Dec 14.1482 14.14 sqrt2 (83.61)
+    - S Neptune → J Neptune Dec 14.1262 14.14 sqrt2 (loose)
+  - 96×φ golden — only
+    - H Alhena → H Saturn RA 155.3385 96×φ golden (60.07)
+    - H Orion Nebula Cluster → H Pluto RA 155.3143 96×φ golden (22.57)
+  - 19 whole — only
+    - H Alhena → H Eris Dec 19.0161 19 whole (3.80)
+    - H Difda → H Chiron RA 19.0145 19 whole (7.69)
+  - 29 whole — also: 6 Shimmering Dawn / James Doyle
+    - H Alhena → H Gonggong Dec 28.9903 29 whole (26.58)
+    - J Ras Algethi → J Quaoar Dec 28.9817 29 whole (0.72)
+  - 22×φ golden — only
+    - S Jupiter → J Rahu Dec 35.5914 22×φ golden (69.87)
+    - J Ras Algethi → J Ketu Dec 35.5928 22×φ golden (77.25)
+### L4 every natal body
+- **Saturn**
+  - same body: S Saturn → H Saturn Dec 2.9856 3 whole (7.81) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - star rows: H Alhena → H Saturn RA 155.3385 96×φ golden (60.07) — also: 3 Indie Angel / Martin Harley
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Facies → H Saturn Dec 3.0061 3 whole (48.57) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: J El Nath → J Saturn Dec 11.1140 11.1111 ninth (95.30) — only
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: J Facies → J Saturn RA 135.9907 136 whole (28.75) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: J Sualocin → J Saturn RA 105.1819 65×φ golden (48.87) — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **Ceres**
+  - same body: S Ceres → H Ceres RA 13.2904 13.3333 ninth (loose) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+- **Juno**
+  - same body: S Juno → H Juno RA 42.3733 10×φ^3 phi power (loose) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+  - top rows: S Moon → H Juno RA 35.9991 36 whole (90.97) — only
+  - star rows: H Zubeneschamali → H Juno RA 8.0054 8 whole (53.62) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - top rows: S Jupiter → J Juno RA 0.8579 conj (18.32) — only
+- **Rahu**
+  - same body: S Rahu → H Rahu Dec 18.7516 18.8889 ninth (loose) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+  - top rows: S Jupiter → J Rahu Dec 35.5914 22×φ golden (69.87) — only
+  - star rows: J Pollux → J Rahu RA 0.2054 conj (74.49) — also: 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - star rows: J Sualocin → J Rahu RA 166.6136 166.667 ninth (95.45) — also: 3 Indie Angel / Martin Harley
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **Eris**
+  - same body: S Eris → H Eris Dec 1.2206 1.22222 ninth (loose) — also: 3 Indie Angel / Martin Harley
+    - source line: S Moon → Eris Dec 22.6551 14×φ golden (84.66)
+  - star rows: H Alhena → H Eris Dec 19.0161 19 whole (3.80) — only
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Ras Algethi → H Eris Dec 17.0051 17 whole (55.16) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **Orcus**
+  - same body: S Orcus → H Orcus RA 4.4480 4.44444 ninth (loose) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - star rows: H Ras Algethi → H Orcus RA 107.9802 108 whole (0.01) — also: 3 Indie Angel / Martin Harley
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **Ketu**
+  - same body: S Ketu → H Ketu Dec 18.7516 18.8889 ninth (loose) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+  - star rows: H Sualocin → H Ketu Dec 19.4170 12×φ golden (96.61) — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - star rows: J Ras Algethi → J Ketu Dec 35.5928 22×φ golden (77.25) — only
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **Jupiter**
+  - T1: H Jupiter → H star Adhara RA 61.0057 61 whole (51.12) — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+  - T1: H Jupiter → H star Ras Algethi RA 93.0045 93 whole (60.08) — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+  - star rows: S Adhara → H Jupiter RA 61.0041 61 whole (63.17) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: S Betelgeuse → H Jupiter Dec 0.2774 conj (0.57) — also: 3 Indie Angel / Martin Harley
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: S Castor → H Jupiter RA 52.0115 52 whole (18.05) — also: 3 Indie Angel / Martin Harley
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: S Ras Algethi → H Jupiter RA 93.0032 93 whole (70.25) — also: 3 Indie Angel / Martin Harley
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - top rows: S Sun → J Jupiter RA 46.9728 φ^8 phi power (95.05) — also: 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+  - top rows: S Sedna → J Jupiter RA 0.7448 conj (25.35) — only
+- **Mercury**
+  - top rows: S Sun → H Mercury Dec 14.1482 14.14 sqrt2 (83.61) — only
+- **Venus**
+  - top rows: S Sun → H Venus RA 0.9129 conj (15.32) — also: 1 Arafi / Sean Levey
+  - star rows: H Castor → H Venus RA 101.0193 101 whole (0.12) — only
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: H Orion Nebula Cluster → H Venus RA 71.1905 44×φ golden (82.30) — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: J Zubeneschamali → J Venus RA 119.7234 74×φ golden (42.93) — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **Uranus**
+  - top rows: S Moon → H Uranus RA 122.0043 122 whole (61.47) — only
+  - star rows: H Betelgeuse → H Uranus Dec 0.0914 conj (48.36) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Zubeneschamali → H Uranus RA 149.9980 150 whole (81.37) — also: 1 Arafi / Sean Levey, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - star rows: J Difda → J Uranus RA 48.0199 48 whole (0.00) — only
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+- **Vesta**
+  - top rows: S Moon → H Vesta Dec 36.9981 37 whole (81.93) — only
+  - star rows: H Zubeneschamali → H Vesta RA 176.0122 176 whole (15.09) — only
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - star rows: J Sualocin → J Vesta Dec 37.9913 38 whole (31.81) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **Mars**
+  - star rows: H Adhara → H Mars RA 142.3637 88×φ golden (7.83) — only
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: H Castor → H Mars RA 133.3708 133.333 ninth (95.50) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+- **Makemake**
+  - star rows: H Alhena → H Makemake RA 94.0047 94 whole (58.58) — only
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Castor → H Makemake Dec 6.0062 6 whole (47.63) — also: 1 Arafi / Sean Levey
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: H Sualocin → H Makemake RA 116.4777 72×φ golden (12.82) — also: 1 Arafi / Sean Levey
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **Gonggong**
+  - star rows: H Alhena → H Gonggong Dec 28.9903 29 whole (26.58) — also: 1 Arafi / Sean Levey
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Betelgeuse → H Gonggong Dec 19.9975 20 whole (76.69) — also: 1 Arafi / Sean Levey, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: J Adhara → J Gonggong Dec 12.0102 12 whole (24.17) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: J El Nath → J Gonggong RA 109.0092 109 whole (29.19) — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: J Pollux → J Gonggong Dec 44.9890 45 whole (20.16) — also: 1 Arafi / Sean Levey, 4 Nirodha / Silvestre De Sousa
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **Transpluto**
+  - star rows: H Alhena → H Transpluto RA 52.9921 53 whole (36.47) — also: 3 Indie Angel / Martin Harley
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+- **Sun**
+  - star rows: H Betelgeuse → H Sun RA 64.0190 64 whole (0.26) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Zubeneschamali → H Sun RA 155.5153 155.556 ninth (96.19) — also: 1 Arafi / Sean Levey
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - same body: S Sun → J Sun Dec 17.8811 φ^6 phi power (loose) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - star rows: J Difda → J Sun RA 91.9832 92 whole (2.49) — also: 1 Arafi / Sean Levey
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Sualocin → J Sun Dec 6.9980 7 whole (80.89) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **Sedna**
+  - star rows: H Betelgeuse → H Sedna Dec 0.0663 conj (60.69) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: J El Nath → J Sedna RA 34.0149 34 whole (6.41) — only
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: J Ras Algethi → J Sedna RA 148.8849 92×φ golden (4.15) — also: 1 Arafi / Sean Levey
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **Chiron**
+  - star rows: H Difda → H Chiron RA 19.0145 19 whole (7.69) — only
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Alhena → J Chiron RA 152.0686 94×φ golden (3.13) — also: 3 Indie Angel / Martin Harley
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+- **Pluto**
+  - star rows: H Orion Nebula Cluster → H Pluto RA 155.3143 96×φ golden (22.57) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: J Adhara → J Pluto Dec 18.0197 18 whole (0.03) — only
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+- **Neptune**
+  - same body: S Neptune → J Neptune Dec 14.1262 14.14 sqrt2 (loose) — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - star rows: J Alhena → J Neptune Dec 35.0092 35 whole (29.01) — also: 5 Pholas / Hollie Doyle
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: J Betelgeuse → J Neptune Dec 26.0169 26 whole (2.35) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: J Ras Algethi → J Neptune Dec 33.0009 33 whole (91.33) — only
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **Pallas**
+  - same body: S Pallas → J Pallas RA 179.0953 10×φ^6 phi power (loose) — also: 4 Nirodha / Silvestre De Sousa
+  - star rows: J Alhena → J Pallas RA 56.0140 56 whole (9.13) — only
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+- **Quaoar**
+  - top rows: S Jupiter → J Quaoar Dec 0.2005 conj (11.01) — also: 5 Pholas / Hollie Doyle
+  - star rows: J Alhena → J Quaoar RA 146.9907 147 whole (28.41) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: J Alhena → J Quaoar Dec 30.9900 31 whole (25.19) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: J Betelgeuse → J Quaoar Dec 21.9977 22 whole (78.73) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: J Ras Algethi → J Quaoar Dec 28.9817 29 whole (0.72) — also: 4 Nirodha / Silvestre De Sousa
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **Haumea**
+  - star rows: J Orion Nebula Cluster → J Haumea RA 112.0022 112 whole (79.66) — only
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+
+## 3 Indie Angel / Martin Harley
+### L1 same bodies
+- S Sun → H Sun RA 15.5268 15.5556 ninth (loose)
+- S Venus → H Venus Dec 6.9947 7 whole (53.82)
+- S Mars → H Mars Dec 11.0889 φ^5 phi power (loose)
+- S Pluto → H Pluto Dec 1.0073 1 whole (40.60)
+- S Ceres → H Ceres RA 24.1926 24.14 silver (loose)
+- S Juno → H Juno Dec 1.8898 1.88889 ninth (loose)
+- S Vesta → H Vesta RA 51.0051 51 whole (55.24)
+- S Rahu → H Rahu RA 84.1251 52×φ golden (loose)
+- S Eris → H Eris Dec 1.1127 1.11111 ninth (loose)
+- S Makemake → H Makemake RA 2.9720 3 whole (loose)
+- S Gonggong → H Gonggong RA 0.9804 1 whole (loose)
+- S Ketu → H Ketu RA 84.1251 52×φ golden (loose)
+- S Venus → J Venus RA 121.5711 122.222 ninth (loose)
+- S Venus → J Venus Dec 13.9979 14 whole (79.73)
+- S Ceres → J Ceres RA 48.5431 30×φ golden (87.37)
+- S Ceres → J Ceres Dec 17.9291 φ^6 phi power (loose)
+- S Rahu → J Rahu RA 101.9545 63×φ golden (18.73)
+- S Gonggong → J Gonggong Dec 8.8853 8.88889 ninth (loose)
+- S Ketu → J Ketu RA 101.9545 63×φ golden (18.73)
+### L2 what lands on each same body
+- **H Sun** (same body: S Sun → H Sun RA 15.5268 15.5556 ninth (loose))
+  - sky line to Sun: S Jupiter → Sun Dec 19.4186 12×φ golden (86.76)
+- **H Venus** (same body: S Venus → H Venus Dec 6.9947 7 whole (53.82))
+  - sky line to Venus: S Jupiter → Venus Dec 19.0027 19 whole (74.86)
+  - top rows: S Jupiter → H Venus Dec 25.9974 26 whole (75.41)
+  - star rows: H El Nath → H Venus Dec 16.9997 17 whole (96.68)
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: H Orion Nebula Cluster → H Venus Dec 17.0013 17 whole (87.34)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: H Zubeneschamali → H Venus Dec 20.9920 21 whole (35.99)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - other chart, same body: S Venus → J Venus RA 121.5711 122.222 ninth (loose)
+  - other chart, same body: S Venus → J Venus Dec 13.9979 14 whole (79.73)
+  - other chart, top rows: S Jupiter → J Venus Dec 33.0006 33 whole (94.54)
+  - other chart, star rows: J Difda → J Venus RA 124.5799 77×φ golden (53.16)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - other chart, star rows: J El Nath → J Venus Dec 9.9968 10 whole (70.66)
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - other chart, star rows: J Orion Nebula Cluster → J Venus Dec 24.0009 24 whole (91.33)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - other chart, star rows: J Zubeneschamali → J Venus Dec 27.9936 28 whole (46.09)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **H Mars** (same body: S Mars → H Mars Dec 11.0889 φ^5 phi power (loose))
+  - sky line to Mars: S Jupiter → Mars RA 110.0189 68×φ golden (59.41)
+  - star rows: H Facies → H Mars RA 112.9902 113 whole (26.06)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - other chart, top rows: S Moon → J Mars RA 119.9960 120 whole (63.87)
+  - other chart, star rows: J Zubeneschamali → J Mars RA 92.0011 92 whole (89.30)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **H Pluto** (same body: S Pluto → H Pluto Dec 1.0073 1 whole (40.60))
+  - star rows: H Ras Algethi → H Pluto Dec 35.5906 22×φ golden (65.43)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - other chart, star rows: J Difda → J Pluto RA 145.9826 146 whole (1.67)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - other chart, star rows: J Sualocin → J Pluto RA 85.0000 85 whole (99.89)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - other chart, star rows: J Zubeneschamali → J Pluto Dec 9.0185 9 whole (0.58)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **H Ceres** (same body: S Ceres → H Ceres RA 24.1926 24.14 silver (loose))
+  - star rows: H Alhena → H Ceres Dec 4.0033 4 whole (69.33)
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Betelgeuse → H Ceres Dec 4.9894 5 whole (21.98)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Ras Algethi → H Ceres Dec 1.9921 2 whole (36.73)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - other chart, same body: S Ceres → J Ceres RA 48.5431 30×φ golden (87.37)
+  - other chart, same body: S Ceres → J Ceres Dec 17.9291 φ^6 phi power (loose)
+  - other chart, star rows: J El Nath → J Ceres RA 16.0066 16 whole (44.69)
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+- **H Juno** (same body: S Juno → H Juno Dec 1.8898 1.88889 ninth (loose))
+  - star rows: H Adhara → H Juno RA 176.3711 109×φ golden (69.38)
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: H Zubeneschamali → H Juno RA 51.7753 32×φ golden (89.44)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **H Vesta** (same body: S Vesta → H Vesta RA 51.0051 51 whole (55.24))
+  - star rows: H Castor → H Vesta RA 1.0854 conj (7.64)
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: H El Nath → H Vesta RA 30.9932 31 whole (43.37)
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - other chart, top rows: S Sun → J Vesta RA 99.9902 100 ninth (93.45)
+- **H Rahu** (same body: S Rahu → H Rahu RA 84.1251 52×φ golden (loose))
+  - star rows: H Betelgeuse → H Rahu Dec 3.0159 3 whole (4.27)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Difda → H Rahu RA 144.0032 89×φ golden (89.05)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: H Sualocin → H Rahu RA 155.0094 155 whole (27.85)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - other chart, same body: S Rahu → J Rahu RA 101.9545 63×φ golden (18.73)
+  - other chart, star rows: J Orion Nebula Cluster → J Rahu RA 115.0000 115 whole (99.98)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **H Eris** (same body: S Eris → H Eris Dec 1.1127 1.11111 ninth (loose))
+  - sky line to Eris: S Moon → Eris Dec 22.6551 14×φ golden (84.66)
+  - star rows: H Difda → H Eris RA 14.5606 9×φ golden (89.53)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - other chart, star rows: J Facies → J Eris Dec 14.5683 9×φ golden (66.56)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - other chart, star rows: J Orion Nebula Cluster → J Eris RA 60.9802 61 whole (0.01)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - other chart, star rows: J Zubeneschamali → J Eris Dec 0.0468 conj (71.23)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **H Makemake** (same body: S Makemake → H Makemake RA 2.9720 3 whole (loose))
+  - top rows: S Jupiter → H Makemake RA 131.0031 131 whole (71.30)
+  - star rows: H Betelgeuse → H Makemake RA 106.0007 106 whole (92.77)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Orion Nebula Cluster → H Makemake RA 110.9722 10×φ^5 phi power (76.20)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - other chart, top rows: S Sun → J Makemake RA 155.5677 155.556 ninth (98.84)
+- **H Gonggong** (same body: S Gonggong → H Gonggong RA 0.9804 1 whole (loose))
+  - other chart, same body: S Gonggong → J Gonggong Dec 8.8853 8.88889 ninth (loose)
+  - other chart, top rows: S Sun → J Gonggong RA 41.9978 42 whole (79.49)
+- **H Ketu** (same body: S Ketu → H Ketu RA 84.1251 52×φ golden (loose))
+  - star rows: H Difda → H Ketu RA 35.9968 36 whole (70.54)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: H Pollux → H Ketu RA 141.4321 141.4 sqrt2 (96.98)
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - star rows: H Sualocin → H Ketu RA 24.9906 25 whole (27.85)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - other chart, same body: S Ketu → J Ketu RA 101.9545 63×φ golden (18.73)
+  - other chart, star rows: J Orion Nebula Cluster → J Ketu RA 65.0000 65 whole (99.98)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **J Venus** (same body: S Venus → J Venus RA 121.5711 122.222 ninth (loose); S Venus → J Venus Dec 13.9979 14 whole (79.73))
+  - sky line to Venus: S Jupiter → Venus Dec 19.0027 19 whole (74.86)
+  - top rows: S Jupiter → J Venus Dec 33.0006 33 whole (94.54)
+  - star rows: J Difda → J Venus RA 124.5799 77×φ golden (53.16)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J El Nath → J Venus Dec 9.9968 10 whole (70.66)
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: J Orion Nebula Cluster → J Venus Dec 24.0009 24 whole (91.33)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: J Zubeneschamali → J Venus Dec 27.9936 28 whole (46.09)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - other chart, same body: S Venus → H Venus Dec 6.9947 7 whole (53.82)
+  - other chart, top rows: S Jupiter → H Venus Dec 25.9974 26 whole (75.41)
+  - other chart, star rows: H El Nath → H Venus Dec 16.9997 17 whole (96.68)
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - other chart, star rows: H Orion Nebula Cluster → H Venus Dec 17.0013 17 whole (87.34)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - other chart, star rows: H Zubeneschamali → H Venus Dec 20.9920 21 whole (35.99)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **J Ceres** (same body: S Ceres → J Ceres RA 48.5431 30×φ golden (87.37); S Ceres → J Ceres Dec 17.9291 φ^6 phi power (loose))
+  - star rows: J El Nath → J Ceres RA 16.0066 16 whole (44.69)
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - other chart, same body: S Ceres → H Ceres RA 24.1926 24.14 silver (loose)
+  - other chart, star rows: H Alhena → H Ceres Dec 4.0033 4 whole (69.33)
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - other chart, star rows: H Betelgeuse → H Ceres Dec 4.9894 5 whole (21.98)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - other chart, star rows: H Ras Algethi → H Ceres Dec 1.9921 2 whole (36.73)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **J Rahu** (same body: S Rahu → J Rahu RA 101.9545 63×φ golden (18.73))
+  - star rows: J Orion Nebula Cluster → J Rahu RA 115.0000 115 whole (99.98)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - other chart, same body: S Rahu → H Rahu RA 84.1251 52×φ golden (loose)
+  - other chart, star rows: H Betelgeuse → H Rahu Dec 3.0159 3 whole (4.27)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - other chart, star rows: H Difda → H Rahu RA 144.0032 89×φ golden (89.05)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - other chart, star rows: H Sualocin → H Rahu RA 155.0094 155 whole (27.85)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **J Gonggong** (same body: S Gonggong → J Gonggong Dec 8.8853 8.88889 ninth (loose))
+  - top rows: S Sun → J Gonggong RA 41.9978 42 whole (79.49)
+  - other chart, same body: S Gonggong → H Gonggong RA 0.9804 1 whole (loose)
+- **J Ketu** (same body: S Ketu → J Ketu RA 101.9545 63×φ golden (18.73))
+  - star rows: J Orion Nebula Cluster → J Ketu RA 65.0000 65 whole (99.98)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - other chart, same body: S Ketu → H Ketu RA 84.1251 52×φ golden (loose)
+  - other chart, star rows: H Difda → H Ketu RA 35.9968 36 whole (70.54)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - other chart, star rows: H Pollux → H Ketu RA 141.4321 141.4 sqrt2 (96.98)
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - other chart, star rows: H Sualocin → H Ketu RA 24.9906 25 whole (27.85)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+### L3 matches
+- **1. same body on both charts**
+  - Venus — also: 4 Nirodha / Silvestre De Sousa
+    - S Venus → H Venus Dec 6.9947 7 whole (53.82)
+    - S Venus → J Venus RA 121.5711 122.222 ninth (loose)
+    - S Venus → J Venus Dec 13.9979 14 whole (79.73)
+  - Ceres — only
+    - S Ceres → H Ceres RA 24.1926 24.14 silver (loose)
+    - S Ceres → J Ceres RA 48.5431 30×φ golden (87.37)
+    - S Ceres → J Ceres Dec 17.9291 φ^6 phi power (loose)
+  - Rahu — only
+    - S Rahu → H Rahu RA 84.1251 52×φ golden (loose)
+    - S Rahu → J Rahu RA 101.9545 63×φ golden (18.73)
+  - Gonggong — only
+    - S Gonggong → H Gonggong RA 0.9804 1 whole (loose)
+    - S Gonggong → J Gonggong Dec 8.8853 8.88889 ninth (loose)
+  - Ketu — only
+    - S Ketu → H Ketu RA 84.1251 52×φ golden (loose)
+    - S Ketu → J Ketu RA 101.9545 63×φ golden (18.73)
+- **2. one body in both planes**
+  - J Venus — only
+    - S Venus → J Venus RA 121.5711 122.222 ninth (loose)
+    - S Venus → J Venus Dec 13.9979 14 whole (79.73)
+  - J Ceres — only
+    - S Ceres → J Ceres RA 48.5431 30×φ golden (87.37)
+    - S Ceres → J Ceres Dec 17.9291 φ^6 phi power (loose)
+- **3. runner number = sky number**
+  - 23 whole — also: 6 Shimmering Dawn / James Doyle
+    - H Betelgeuse → H Quaoar Dec 22.9816 23 whole (0.67) = S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - 63×φ golden — only
+    - S Rahu → J Rahu RA 101.9545 63×φ golden (18.73) = S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - 63×φ golden — only
+    - S Ketu → J Ketu RA 101.9545 63×φ golden (18.73) = S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - 155.556 ninth — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+    - S Sun → J Makemake RA 155.5677 155.556 ninth (98.84) = S Sun → Haumea RA 155.5233 155.556 ninth (96.95)
+  - 28 whole — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - J Zubeneschamali → J Venus Dec 27.9936 28 whole (46.09) = S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - 9 whole — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+    - J Zubeneschamali → J Pluto Dec 9.0185 9 whole (0.58) = S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **4. circle divisions**
+  - 1 = 360/360 — also: 1 Arafi / Sean Levey, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - S Pluto → H Pluto Dec 1.0073 1 whole (40.60)
+  - 3 = 360/120 — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - S Makemake → H Makemake RA 2.9720 3 whole (loose)
+  - 1 = 360/360 — also: 1 Arafi / Sean Levey, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - S Gonggong → H Gonggong RA 0.9804 1 whole (loose)
+  - 4 = 360/90 — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - H Alhena → H Ceres Dec 4.0033 4 whole (69.33)
+  - 5 = 360/72 — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - H Betelgeuse → H Ceres Dec 4.9894 5 whole (21.98)
+  - 3 = 360/120 — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - H Betelgeuse → H Rahu Dec 3.0159 3 whole (4.27)
+  - 36 = 360/10 — also: 2 Fizzy Feet / Rossa Ryan
+    - H Difda → H Ketu RA 35.9968 36 whole (70.54)
+  - 2 = 360/180 — also: 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - H Ras Algethi → H Ceres Dec 1.9921 2 whole (36.73)
+  - 24 = 360/15 — also: 6 Shimmering Dawn / James Doyle
+    - H Ras Algethi → H Orcus Dec 23.9883 24 whole (17.27)
+  - 120 = 360/3 — also: 4 Nirodha / Silvestre De Sousa
+    - S Moon → J Mars RA 119.9960 120 whole (63.87)
+  - 2 = 360/180 — also: 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - S Moon → J Neptune Dec 1.9953 2 whole (58.53)
+  - 2 = 360/180 — also: 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - J Alhena → J Transpluto Dec 1.9863 2 whole (10.06)
+  - 30 = 360/12 — also: 6 Shimmering Dawn / James Doyle
+    - J Castor → J Transpluto RA 29.9990 30 whole (89.86)
+  - 10 = 360/36 — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - J El Nath → J Venus Dec 9.9968 10 whole (70.66)
+  - 2 = 360/180 — also: 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - J Facies → J Saturn RA 1.9960 2 whole (63.92)
+  - 24 = 360/15 — also: 6 Shimmering Dawn / James Doyle
+    - J Orion Nebula Cluster → J Venus Dec 24.0009 24 whole (91.33)
+  - 9 = 360/40 — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+    - J Zubeneschamali → J Pluto Dec 9.0185 9 whole (0.58)
+- **5. same number in more than one place**
+  - 7 whole — also: 1 Arafi / Sean Levey, 6 Shimmering Dawn / James Doyle
+    - S Venus → H Venus Dec 6.9947 7 whole (53.82)
+    - J Betelgeuse → J Transpluto Dec 7.0061 7 whole (48.49)
+  - 1 whole — also: 4 Nirodha / Silvestre De Sousa
+    - S Pluto → H Pluto Dec 1.0073 1 whole (40.60)
+    - S Gonggong → H Gonggong RA 0.9804 1 whole (loose)
+  - 52×φ golden — only
+    - S Rahu → H Rahu RA 84.1251 52×φ golden (loose)
+    - S Ketu → H Ketu RA 84.1251 52×φ golden (loose)
+  - 3 whole — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - S Makemake → H Makemake RA 2.9720 3 whole (loose)
+    - H Betelgeuse → H Rahu Dec 3.0159 3 whole (4.27)
+  - 10×φ^5 phi power — also: 5 Pholas / Hollie Doyle
+    - H Jupiter → H star Betelgeuse RA 110.9389 10×φ^5 phi power (87.04)
+    - H Betelgeuse → H Jupiter RA 110.9389 10×φ^5 phi power (87.04)
+    - H Orion Nebula Cluster → H Makemake RA 110.9722 10×φ^5 phi power (76.20)
+  - 13×φ golden — only
+    - H Jupiter → H star Ras Algethi Dec 21.0334 13×φ golden (93.48)
+    - S Ras Algethi → H Jupiter Dec 21.0336 13×φ golden (94.63)
+  - 26 whole — only
+    - S Jupiter → H Venus Dec 25.9974 26 whole (75.41)
+    - H Alhena → H Orcus Dec 25.9995 26 whole (95.41)
+  - φ^6 phi power — only
+    - S Jupiter → H Neptune RA 17.9416 φ^6 phi power (94.19)
+    - S Ceres → J Ceres Dec 17.9291 φ^6 phi power (loose)
+  - 17 whole — also: 1 Arafi / Sean Levey
+    - H Betelgeuse → H Orcus Dec 17.0068 17 whole (43.48)
+    - H El Nath → H Venus Dec 16.9997 17 whole (96.68)
+    - H Orion Nebula Cluster → H Venus Dec 17.0013 17 whole (87.34)
+  - 9×φ golden — also: 6 Shimmering Dawn / James Doyle
+    - H Difda → H Eris RA 14.5606 9×φ golden (89.53)
+    - J Facies → J Eris Dec 14.5683 9×φ golden (66.56)
+  - 2 whole — also: 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - H Ras Algethi → H Ceres Dec 1.9921 2 whole (36.73)
+    - S Moon → J Neptune Dec 1.9953 2 whole (58.53)
+    - J Alhena → J Transpluto Dec 1.9863 2 whole (10.06)
+    - J Facies → J Saturn RA 1.9960 2 whole (63.92)
+  - 24 whole — also: 6 Shimmering Dawn / James Doyle
+    - H Ras Algethi → H Orcus Dec 23.9883 24 whole (17.27)
+    - J Orion Nebula Cluster → J Venus Dec 24.0009 24 whole (91.33)
+  - 63×φ golden — only
+    - S Rahu → J Rahu RA 101.9545 63×φ golden (18.73)
+    - S Ketu → J Ketu RA 101.9545 63×φ golden (18.73)
+  - 8.88889 ninth — only
+    - S Gonggong → J Gonggong Dec 8.8853 8.88889 ninth (loose)
+    - J Jupiter → J star Castor Dec 8.8881 8.88889 ninth (94.19)
+    - J Castor → J Jupiter Dec 8.8881 8.88889 ninth (94.19)
+  - 33 whole — also: 4 Nirodha / Silvestre De Sousa
+    - S Jupiter → J Venus Dec 33.0006 33 whole (94.54)
+    - J Zubeneschamali → J Mercury Dec 33.0122 33 whole (15.18)
+  - 41 whole — also: 6 Shimmering Dawn / James Doyle
+    - S Difda → J Jupiter Dec 40.9901 41 whole (25.34)
+    - J Facies → J Chiron Dec 41.0090 41 whole (30.16)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun RA 15.5268 15.5556 ninth (loose) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+- **Venus**
+  - same body: S Venus → H Venus Dec 6.9947 7 whole (53.82) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Venus Dec 19.0027 19 whole (74.86)
+  - top rows: S Jupiter → H Venus Dec 25.9974 26 whole (75.41) — only
+  - star rows: H El Nath → H Venus Dec 16.9997 17 whole (96.68) — only
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: H Orion Nebula Cluster → H Venus Dec 17.0013 17 whole (87.34) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: H Zubeneschamali → H Venus Dec 20.9920 21 whole (35.99) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - same body: S Venus → J Venus RA 121.5711 122.222 ninth (loose) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Venus Dec 19.0027 19 whole (74.86)
+  - same body: S Venus → J Venus Dec 13.9979 14 whole (79.73) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Venus Dec 19.0027 19 whole (74.86)
+  - top rows: S Jupiter → J Venus Dec 33.0006 33 whole (94.54) — only
+  - star rows: J Difda → J Venus RA 124.5799 77×φ golden (53.16) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J El Nath → J Venus Dec 9.9968 10 whole (70.66) — only
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: J Orion Nebula Cluster → J Venus Dec 24.0009 24 whole (91.33) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: J Zubeneschamali → J Venus Dec 27.9936 28 whole (46.09) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **Mars**
+  - same body: S Mars → H Mars Dec 11.0889 φ^5 phi power (loose) — also: 1 Arafi / Sean Levey, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Mars RA 110.0189 68×φ golden (59.41)
+  - star rows: H Facies → H Mars RA 112.9902 113 whole (26.06) — also: 1 Arafi / Sean Levey, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - top rows: S Moon → J Mars RA 119.9960 120 whole (63.87) — only
+  - star rows: J Zubeneschamali → J Mars RA 92.0011 92 whole (89.30) — also: 1 Arafi / Sean Levey, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **Pluto**
+  - same body: S Pluto → H Pluto Dec 1.0073 1 whole (40.60) — also: 1 Arafi / Sean Levey, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+  - star rows: H Ras Algethi → H Pluto Dec 35.5906 22×φ golden (65.43) — also: 4 Nirodha / Silvestre De Sousa
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: J Difda → J Pluto RA 145.9826 146 whole (1.67) — only
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Sualocin → J Pluto RA 85.0000 85 whole (99.89) — only
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - star rows: J Zubeneschamali → J Pluto Dec 9.0185 9 whole (0.58) — also: 5 Pholas / Hollie Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **Ceres**
+  - same body: S Ceres → H Ceres RA 24.1926 24.14 silver (loose) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - star rows: H Alhena → H Ceres Dec 4.0033 4 whole (69.33) — only
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Betelgeuse → H Ceres Dec 4.9894 5 whole (21.98) — also: 1 Arafi / Sean Levey
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Ras Algethi → H Ceres Dec 1.9921 2 whole (36.73) — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - same body: S Ceres → J Ceres RA 48.5431 30×φ golden (87.37) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - same body: S Ceres → J Ceres Dec 17.9291 φ^6 phi power (loose) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+  - star rows: J El Nath → J Ceres RA 16.0066 16 whole (44.69) — only
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+- **Juno**
+  - same body: S Juno → H Juno Dec 1.8898 1.88889 ninth (loose) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+  - star rows: H Adhara → H Juno RA 176.3711 109×φ golden (69.38) — also: 5 Pholas / Hollie Doyle
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: H Zubeneschamali → H Juno RA 51.7753 32×φ golden (89.44) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **Vesta**
+  - same body: S Vesta → H Vesta RA 51.0051 51 whole (55.24) — only
+  - star rows: H Castor → H Vesta RA 1.0854 conj (7.64) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: H El Nath → H Vesta RA 30.9932 31 whole (43.37) — only
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - top rows: S Sun → J Vesta RA 99.9902 100 ninth (93.45) — also: 1 Arafi / Sean Levey
+- **Rahu**
+  - same body: S Rahu → H Rahu RA 84.1251 52×φ golden (loose) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+  - star rows: H Betelgeuse → H Rahu Dec 3.0159 3 whole (4.27) — also: 1 Arafi / Sean Levey
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Difda → H Rahu RA 144.0032 89×φ golden (89.05) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: H Sualocin → H Rahu RA 155.0094 155 whole (27.85) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - same body: S Rahu → J Rahu RA 101.9545 63×φ golden (18.73) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+  - star rows: J Orion Nebula Cluster → J Rahu RA 115.0000 115 whole (99.98) — only
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **Eris**
+  - same body: S Eris → H Eris Dec 1.1127 1.11111 ninth (loose) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Moon → Eris Dec 22.6551 14×φ golden (84.66)
+  - star rows: H Difda → H Eris RA 14.5606 9×φ golden (89.53) — only
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Facies → J Eris Dec 14.5683 9×φ golden (66.56) — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: J Orion Nebula Cluster → J Eris RA 60.9802 61 whole (0.01) — also: 4 Nirodha / Silvestre De Sousa
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: J Zubeneschamali → J Eris Dec 0.0468 conj (71.23) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **Makemake**
+  - same body: S Makemake → H Makemake RA 2.9720 3 whole (loose) — also: 1 Arafi / Sean Levey, 4 Nirodha / Silvestre De Sousa
+  - top rows: S Jupiter → H Makemake RA 131.0031 131 whole (71.30) — only
+  - star rows: H Betelgeuse → H Makemake RA 106.0007 106 whole (92.77) — also: 4 Nirodha / Silvestre De Sousa
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Orion Nebula Cluster → H Makemake RA 110.9722 10×φ^5 phi power (76.20) — only
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - top rows: S Sun → J Makemake RA 155.5677 155.556 ninth (98.84) — also: 4 Nirodha / Silvestre De Sousa
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong RA 0.9804 1 whole (loose) — also: 5 Pholas / Hollie Doyle
+  - same body: S Gonggong → J Gonggong Dec 8.8853 8.88889 ninth (loose) — also: 5 Pholas / Hollie Doyle
+  - top rows: S Sun → J Gonggong RA 41.9978 42 whole (79.49) — only
+- **Ketu**
+  - same body: S Ketu → H Ketu RA 84.1251 52×φ golden (loose) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+  - star rows: H Difda → H Ketu RA 35.9968 36 whole (70.54) — only
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: H Pollux → H Ketu RA 141.4321 141.4 sqrt2 (96.98) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - star rows: H Sualocin → H Ketu RA 24.9906 25 whole (27.85) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - same body: S Ketu → J Ketu RA 101.9545 63×φ golden (18.73) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+  - star rows: J Orion Nebula Cluster → J Ketu RA 65.0000 65 whole (99.98) — only
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **Jupiter**
+  - T1: H Jupiter → H star Betelgeuse RA 110.9389 10×φ^5 phi power (87.04) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+  - T1: H Jupiter → H star Ras Algethi Dec 21.0334 13×φ golden (93.48) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+  - star rows: S Alhena → H Jupiter RA 100.3046 62×φ golden (33.87) — only
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Betelgeuse → H Jupiter RA 110.9389 10×φ^5 phi power (87.04) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: S Ras Algethi → H Jupiter Dec 21.0336 13×φ golden (94.63) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - T2: J Jupiter → J star Castor Dec 8.8881 8.88889 ninth (94.19) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+  - star rows: J Castor → J Jupiter Dec 8.8881 8.88889 ninth (94.19) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: S Difda → J Jupiter Dec 40.9901 41 whole (25.34) — only
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: S Orion Nebula Cluster → J Jupiter RA 1.3323 conj (1.25) — also: 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **Neptune**
+  - top rows: S Jupiter → H Neptune RA 17.9416 φ^6 phi power (94.19) — only
+  - top rows: S Moon → J Neptune Dec 1.9953 2 whole (58.53) — also: 6 Shimmering Dawn / James Doyle
+  - star rows: J Orion Nebula Cluster → J Neptune Dec 16.6665 16.6667 ninth (99.84) — also: 1 Arafi / Sean Levey, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **Chiron**
+  - star rows: H Adhara → H Chiron RA 111.1555 111.111 ninth (92.74) — also: 1 Arafi / Sean Levey
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: J Alhena → J Chiron RA 0.7881 conj (22.52) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: J Facies → J Chiron Dec 41.0090 41 whole (30.16) — only
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **Orcus**
+  - star rows: H Alhena → H Orcus Dec 25.9995 26 whole (95.41) — only
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Betelgeuse → H Orcus Dec 17.0068 17 whole (43.48) — also: 4 Nirodha / Silvestre De Sousa
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Ras Algethi → H Orcus Dec 23.9883 24 whole (17.27) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: H Zubeneschamali → H Orcus Dec 0.2167 conj (7.71) — also: 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **Sedna**
+  - star rows: H Betelgeuse → H Sedna Dec 0.0816 conj (52.98) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: J Alhena → J Sedna Dec 12.2254 12.2222 ninth (95.58) — also: 1 Arafi / Sean Levey
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: J Zubeneschamali → J Sedna RA 173.0183 173 whole (0.70) — only
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **Quaoar**
+  - star rows: H Betelgeuse → H Quaoar Dec 22.9816 23 whole (0.67) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+- **Mercury**
+  - star rows: H Pollux → H Mercury RA 111.6319 69×φ golden (37.85) — only
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - star rows: J Orion Nebula Cluster → J Mercury Dec 29.0195 29 whole (0.06) — only
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: J Ras Algethi → J Mercury RA 160.9827 161 whole (1.83) — also: 1 Arafi / Sean Levey, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: J Zubeneschamali → J Mercury Dec 33.0122 33 whole (15.18) — also: 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **Saturn**
+  - star rows: H Sualocin → H Saturn Dec 37.9949 38 whole (55.32) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - star rows: J Alhena → J Saturn Dec 38.8362 24×φ golden (80.15) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: J Facies → J Saturn RA 1.9960 2 whole (63.92) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **Transpluto**
+  - star rows: H Sualocin → H Transpluto RA 156.9580 97×φ golden (53.35) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - star rows: J Adhara → J Transpluto RA 38.9925 39 whole (39.10) — also: 1 Arafi / Sean Levey
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: J Alhena → J Transpluto Dec 1.9863 2 whole (10.06) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: J Betelgeuse → J Transpluto Dec 7.0061 7 whole (48.49) — only
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: J Castor → J Transpluto RA 29.9990 30 whole (89.86) — only
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: J Ras Algethi → J Transpluto Dec 0.0220 conj (85.85) — also: 1 Arafi / Sean Levey, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **Haumea**
+  - star rows: J Difda → J Haumea RA 174.7758 108×φ golden (1.71) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Ras Algethi → J Haumea RA 72.9940 73 whole (48.78) — only
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **Uranus**
+  - star rows: J Facies → J Uranus Dec 0.2236 conj (6.49) — also: 1 Arafi / Sean Levey, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+
+## 4 Nirodha / Silvestre De Sousa
+### L1 same bodies
+- S Venus → H Venus RA 16.1511 10×φ^1 phi power (loose)
+- S Mars → H Mars Dec 3.0116 3 whole (17.75)
+- S Uranus → H Uranus RA 13.3111 13.3333 ninth (loose)
+- S Pluto → H Pluto Dec 1.0033 1 whole (69.90)
+- S Pallas → H Pallas Dec 3.9796 4 whole (loose)
+- S Juno → H Juno Dec 1.1058 1.11111 ninth (loose)
+- S Rahu → H Rahu Dec 11.1669 11.1111 ninth (loose)
+- S Makemake → H Makemake Dec 2.0059 2 whole (49.48)
+- S Ketu → H Ketu Dec 11.1669 11.1111 ninth (loose)
+- S Venus → J Venus RA 118.0039 118 whole (64.85)
+- S Mars → J Mars RA 132.5312 133.333 ninth (loose)
+- S Pallas → J Pallas RA 55.5183 55.5556 ninth (loose)
+- S Pallas → J Pallas Dec 27.5185 17×φ golden (loose)
+- S Makemake → J Makemake RA 37.9859 38 whole (8.61)
+### L2 what lands on each same body
+- **H Venus** (same body: S Venus → H Venus RA 16.1511 10×φ^1 phi power (loose))
+  - sky line to Venus: S Jupiter → Venus Dec 19.0027 19 whole (74.86)
+  - other chart, same body: S Venus → J Venus RA 118.0039 118 whole (64.85)
+  - other chart, top rows: S Moon → J Venus RA 1.3479 conj (1.03)
+  - other chart, star rows: J Difda → J Venus RA 114.9941 115 whole (50.00)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - other chart, star rows: J Sualocin → J Venus RA 54.0021 54 whole (80.48)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **H Mars** (same body: S Mars → H Mars Dec 3.0116 3 whole (17.75))
+  - sky line to Mars: S Jupiter → Mars RA 110.0189 68×φ golden (59.41)
+  - other chart, same body: S Mars → J Mars RA 132.5312 133.333 ninth (loose)
+  - other chart, star rows: J Sualocin → J Mars Dec 36.9943 37 whole (51.25)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **H Uranus** (same body: S Uranus → H Uranus RA 13.3111 13.3333 ninth (loose))
+  - star rows: H Facies → H Uranus Dec 33.0111 33 whole (19.76)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: H Ras Algethi → H Uranus RA 124.5764 77×φ golden (38.92)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: H Zubeneschamali → H Uranus RA 153.9859 154 whole (8.72)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **H Pluto** (same body: S Pluto → H Pluto Dec 1.0033 1 whole (69.90))
+  - star rows: H Ras Algethi → H Pluto Dec 35.5953 22×φ golden (91.52)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - other chart, star rows: J Betelgeuse → J Pluto RA 120.0117 120 whole (17.14)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - other chart, star rows: J Orion Nebula Cluster → J Pluto RA 124.9826 125 whole (1.65)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - other chart, star rows: J Ras Algethi → J Pluto Dec 8.0168 8 whole (2.56)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **H Pallas** (same body: S Pallas → H Pallas Dec 3.9796 4 whole (loose))
+  - star rows: H Difda → H Pallas RA 1.0568 conj (8.73)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: H Difda → H Pallas Dec 17.9488 φ^6 phi power (90.15)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: H Orion Nebula Cluster → H Pallas RA 73.9817 74 whole (0.76)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: H Ras Algethi → H Pallas RA 111.1708 111.111 ninth (90.23)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - other chart, same body: S Pallas → J Pallas RA 55.5183 55.5556 ninth (loose)
+  - other chart, same body: S Pallas → J Pallas Dec 27.5185 17×φ golden (loose)
+  - other chart, star rows: J Betelgeuse → J Pallas Dec 30.9843 31 whole (4.60)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - other chart, star rows: J Facies → J Pallas RA 110.9563 10×φ^5 phi power (81.28)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **H Juno** (same body: S Juno → H Juno Dec 1.1058 1.11111 ninth (loose))
+- **H Rahu** (same body: S Rahu → H Rahu Dec 11.1669 11.1111 ninth (loose))
+  - star rows: H Facies → H Rahu RA 125.9915 126 whole (33.21)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: H Facies → H Rahu Dec 34.9974 35 whole (75.95)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - other chart, star rows: J Facies → J Rahu RA 144.9819 145 whole (0.90)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - other chart, star rows: J Pollux → J Rahu RA 17.7727 17.7778 ninth (95.99)
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **H Makemake** (same body: S Makemake → H Makemake Dec 2.0059 2 whole (49.48))
+  - star rows: H Facies → H Makemake RA 84.9806 85 whole (0.08)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - other chart, same body: S Makemake → J Makemake RA 37.9859 38 whole (8.61)
+  - other chart, top rows: S Sun → J Makemake Dec 32.9991 33 whole (91.04)
+  - other chart, star rows: J Adhara → J Makemake Dec 67.0000 67 whole (99.93)
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - other chart, star rows: J Betelgeuse → J Makemake RA 70.9819 71 whole (0.87)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - other chart, star rows: J Difda → J Makemake RA 148.8841 92×φ golden (5.24)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - other chart, star rows: J Difda → J Makemake Dec 56.0167 56 whole (2.68)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - other chart, star rows: J Pollux → J Makemake Dec 10.0025 10 whole (76.72)
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **H Ketu** (same body: S Ketu → H Ketu Dec 11.1669 11.1111 ninth (loose))
+  - star rows: H Castor → H Ketu Dec 42.9816 43 whole (0.64)
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: H Facies → H Ketu RA 54.0085 54 whole (33.21)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: H Sualocin → H Ketu Dec 27.0017 27 whole (83.34)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - other chart, star rows: J Facies → J Ketu RA 35.0181 35 whole (0.90)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **J Venus** (same body: S Venus → J Venus RA 118.0039 118 whole (64.85))
+  - sky line to Venus: S Jupiter → Venus Dec 19.0027 19 whole (74.86)
+  - top rows: S Moon → J Venus RA 1.3479 conj (1.03)
+  - star rows: J Difda → J Venus RA 114.9941 115 whole (50.00)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Sualocin → J Venus RA 54.0021 54 whole (80.48)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - other chart, same body: S Venus → H Venus RA 16.1511 10×φ^1 phi power (loose)
+- **J Mars** (same body: S Mars → J Mars RA 132.5312 133.333 ninth (loose))
+  - sky line to Mars: S Jupiter → Mars RA 110.0189 68×φ golden (59.41)
+  - star rows: J Sualocin → J Mars Dec 36.9943 37 whole (51.25)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - other chart, same body: S Mars → H Mars Dec 3.0116 3 whole (17.75)
+- **J Pallas** (same body: S Pallas → J Pallas RA 55.5183 55.5556 ninth (loose); S Pallas → J Pallas Dec 27.5185 17×φ golden (loose))
+  - star rows: J Betelgeuse → J Pallas Dec 30.9843 31 whole (4.60)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: J Facies → J Pallas RA 110.9563 10×φ^5 phi power (81.28)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - other chart, same body: S Pallas → H Pallas Dec 3.9796 4 whole (loose)
+  - other chart, star rows: H Difda → H Pallas RA 1.0568 conj (8.73)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - other chart, star rows: H Difda → H Pallas Dec 17.9488 φ^6 phi power (90.15)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - other chart, star rows: H Orion Nebula Cluster → H Pallas RA 73.9817 74 whole (0.76)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - other chart, star rows: H Ras Algethi → H Pallas RA 111.1708 111.111 ninth (90.23)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **J Makemake** (same body: S Makemake → J Makemake RA 37.9859 38 whole (8.61))
+  - top rows: S Sun → J Makemake Dec 32.9991 33 whole (91.04)
+  - star rows: J Adhara → J Makemake Dec 67.0000 67 whole (99.93)
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: J Betelgeuse → J Makemake RA 70.9819 71 whole (0.87)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: J Difda → J Makemake RA 148.8841 92×φ golden (5.24)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Difda → J Makemake Dec 56.0167 56 whole (2.68)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Pollux → J Makemake Dec 10.0025 10 whole (76.72)
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - other chart, same body: S Makemake → H Makemake Dec 2.0059 2 whole (49.48)
+  - other chart, star rows: H Facies → H Makemake RA 84.9806 85 whole (0.08)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+### L3 matches
+- **1. same body on both charts**
+  - Venus — also: 3 Indie Angel / Martin Harley
+    - S Venus → H Venus RA 16.1511 10×φ^1 phi power (loose)
+    - S Venus → J Venus RA 118.0039 118 whole (64.85)
+  - Mars — only
+    - S Mars → H Mars Dec 3.0116 3 whole (17.75)
+    - S Mars → J Mars RA 132.5312 133.333 ninth (loose)
+  - Pallas — only
+    - S Pallas → H Pallas Dec 3.9796 4 whole (loose)
+    - S Pallas → J Pallas RA 55.5183 55.5556 ninth (loose)
+    - S Pallas → J Pallas Dec 27.5185 17×φ golden (loose)
+  - Makemake — only
+    - S Makemake → H Makemake Dec 2.0059 2 whole (49.48)
+    - S Makemake → J Makemake RA 37.9859 38 whole (8.61)
+- **2. one body in both planes**
+  - J Pallas — only
+    - S Pallas → J Pallas RA 55.5183 55.5556 ninth (loose)
+    - S Pallas → J Pallas Dec 27.5185 17×φ golden (loose)
+- **3. runner number = sky number**
+  - 43 whole — also: 6 Shimmering Dawn / James Doyle
+    - H Castor → H Ketu Dec 42.9816 43 whole (0.64) = S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - 68×φ golden — also: 5 Pholas / Hollie Doyle
+    - J Castor → J Quaoar RA 110.0174 68×φ golden (52.61) = S Jupiter → Mars RA 110.0189 68×φ golden (59.41)
+- **4. circle divisions**
+  - 3 = 360/120 — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - S Mars → H Mars Dec 3.0116 3 whole (17.75)
+  - 1 = 360/360 — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - S Pluto → H Pluto Dec 1.0033 1 whole (69.90)
+  - 4 = 360/90 — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - S Pallas → H Pallas Dec 3.9796 4 whole (loose)
+  - 2 = 360/180 — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - S Makemake → H Makemake Dec 2.0059 2 whole (49.48)
+  - 2 = 360/180 — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - S Moon → H Saturn Dec 2.0051 2 whole (55.54)
+  - 45 = 360/8 — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+    - H Difda → H Sedna RA 44.9912 45 whole (31.23)
+  - 1 = 360/360 — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - S Moon → J Gonggong Dec 0.9994 1 whole (94.47)
+  - 120 = 360/3 — also: 3 Indie Angel / Martin Harley
+    - J Betelgeuse → J Pluto RA 120.0117 120 whole (17.14)
+  - 4 = 360/90 — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - J Difda → J Neptune Dec 3.9868 4 whole (11.42)
+  - 10 = 360/36 — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - J Pollux → J Makemake Dec 10.0025 10 whole (76.72)
+  - 8 = 360/45 — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - J Ras Algethi → J Pluto Dec 8.0168 8 whole (2.56)
+  - 120 = 360/3 — also: 3 Indie Angel / Martin Harley
+    - J Sualocin → J Saturn RA 120.0125 120 whole (13.98)
+  - 3 = 360/120 — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - J Sualocin → J Vesta Dec 2.9996 3 whole (96.29)
+- **5. same number in more than one place**
+  - 3 whole — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - S Mars → H Mars Dec 3.0116 3 whole (17.75)
+    - J Sualocin → J Vesta Dec 2.9996 3 whole (96.29)
+  - 1 whole — also: 3 Indie Angel / Martin Harley
+    - S Pluto → H Pluto Dec 1.0033 1 whole (69.90)
+    - S Moon → J Gonggong Dec 0.9994 1 whole (94.47)
+  - 4 whole — only
+    - S Pallas → H Pallas Dec 3.9796 4 whole (loose)
+    - J Difda → J Neptune Dec 3.9868 4 whole (11.42)
+  - 11.1111 ninth — only
+    - S Rahu → H Rahu Dec 11.1669 11.1111 ninth (loose)
+    - S Ketu → H Ketu Dec 11.1669 11.1111 ninth (loose)
+  - 2 whole — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - S Makemake → H Makemake Dec 2.0059 2 whole (49.48)
+    - S Moon → H Saturn Dec 2.0051 2 whole (55.54)
+  - 16.6667 ninth — only
+    - H Adhara → H Gonggong Dec 16.6664 16.6667 ninth (99.77)
+    - H Betelgeuse → H Orcus Dec 16.6633 16.6667 ninth (97.09)
+  - 33 whole — also: 3 Indie Angel / Martin Harley
+    - H Facies → H Uranus Dec 33.0111 33 whole (19.76)
+    - S Sun → J Makemake Dec 32.9991 33 whole (91.04)
+  - 35 whole — only
+    - H Facies → H Rahu Dec 34.9974 35 whole (75.95)
+    - J Facies → J Ketu RA 35.0181 35 whole (0.90)
+    - J Ras Algethi → J Quaoar RA 34.9819 35 whole (0.88)
+  - 54 whole — also: 1 Arafi / Sean Levey
+    - H Facies → H Ketu RA 54.0085 54 whole (33.21)
+    - J Sualocin → J Venus RA 54.0021 54 whole (80.48)
+  - 27 whole — only
+    - H Sualocin → H Ketu Dec 27.0017 27 whole (83.34)
+    - S Sun → J Neptune Dec 27.0044 27 whole (60.83)
+  - 177.778 ninth — only
+    - S Sun → J Jupiter RA 177.7544 177.778 ninth (98.17)
+    - S Chiron → J Jupiter RA 177.7028 177.778 ninth (94.13)
+  - 120 whole — only
+    - J Betelgeuse → J Pluto RA 120.0117 120 whole (17.14)
+    - J Sualocin → J Saturn RA 120.0125 120 whole (13.98)
+### L4 every natal body
+- **Venus**
+  - same body: S Venus → H Venus RA 16.1511 10×φ^1 phi power (loose) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Venus Dec 19.0027 19 whole (74.86)
+  - same body: S Venus → J Venus RA 118.0039 118 whole (64.85) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Venus Dec 19.0027 19 whole (74.86)
+  - top rows: S Moon → J Venus RA 1.3479 conj (1.03) — only
+  - star rows: J Difda → J Venus RA 114.9941 115 whole (50.00) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Sualocin → J Venus RA 54.0021 54 whole (80.48) — only
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **Mars**
+  - same body: S Mars → H Mars Dec 3.0116 3 whole (17.75) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Mars RA 110.0189 68×φ golden (59.41)
+  - same body: S Mars → J Mars RA 132.5312 133.333 ninth (loose) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Mars RA 110.0189 68×φ golden (59.41)
+  - star rows: J Sualocin → J Mars Dec 36.9943 37 whole (51.25) — only
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **Uranus**
+  - same body: S Uranus → H Uranus RA 13.3111 13.3333 ninth (loose) — also: 5 Pholas / Hollie Doyle
+  - star rows: H Facies → H Uranus Dec 33.0111 33 whole (19.76) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: H Ras Algethi → H Uranus RA 124.5764 77×φ golden (38.92) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: H Zubeneschamali → H Uranus RA 153.9859 154 whole (8.72) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **Pluto**
+  - same body: S Pluto → H Pluto Dec 1.0033 1 whole (69.90) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+  - star rows: H Ras Algethi → H Pluto Dec 35.5953 22×φ golden (91.52) — also: 3 Indie Angel / Martin Harley
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: J Betelgeuse → J Pluto RA 120.0117 120 whole (17.14) — only
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: J Orion Nebula Cluster → J Pluto RA 124.9826 125 whole (1.65) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: J Ras Algethi → J Pluto Dec 8.0168 8 whole (2.56) — also: 3 Indie Angel / Martin Harley
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **Pallas**
+  - same body: S Pallas → H Pallas Dec 3.9796 4 whole (loose) — also: 2 Fizzy Feet / Rossa Ryan
+  - star rows: H Difda → H Pallas RA 1.0568 conj (8.73) — only
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: H Difda → H Pallas Dec 17.9488 φ^6 phi power (90.15) — only
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: H Orion Nebula Cluster → H Pallas RA 73.9817 74 whole (0.76) — only
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: H Ras Algethi → H Pallas RA 111.1708 111.111 ninth (90.23) — only
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - same body: S Pallas → J Pallas RA 55.5183 55.5556 ninth (loose) — also: 2 Fizzy Feet / Rossa Ryan
+  - same body: S Pallas → J Pallas Dec 27.5185 17×φ golden (loose) — also: 2 Fizzy Feet / Rossa Ryan
+  - star rows: J Betelgeuse → J Pallas Dec 30.9843 31 whole (4.60) — also: 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: J Facies → J Pallas RA 110.9563 10×φ^5 phi power (81.28) — also: 1 Arafi / Sean Levey
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **Juno**
+  - same body: S Juno → H Juno Dec 1.1058 1.11111 ninth (loose) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+- **Rahu**
+  - same body: S Rahu → H Rahu Dec 11.1669 11.1111 ninth (loose) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+  - star rows: H Facies → H Rahu RA 125.9915 126 whole (33.21) — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: H Facies → H Rahu Dec 34.9974 35 whole (75.95) — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: J Facies → J Rahu RA 144.9819 145 whole (0.90) — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: J Pollux → J Rahu RA 17.7727 17.7778 ninth (95.99) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **Makemake**
+  - same body: S Makemake → H Makemake Dec 2.0059 2 whole (49.48) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley
+  - star rows: H Facies → H Makemake RA 84.9806 85 whole (0.08) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - same body: S Makemake → J Makemake RA 37.9859 38 whole (8.61) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley
+  - top rows: S Sun → J Makemake Dec 32.9991 33 whole (91.04) — also: 3 Indie Angel / Martin Harley
+  - star rows: J Adhara → J Makemake Dec 67.0000 67 whole (99.93) — only
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: J Betelgeuse → J Makemake RA 70.9819 71 whole (0.87) — also: 3 Indie Angel / Martin Harley
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: J Difda → J Makemake RA 148.8841 92×φ golden (5.24) — also: 1 Arafi / Sean Levey
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Difda → J Makemake Dec 56.0167 56 whole (2.68) — also: 1 Arafi / Sean Levey
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Pollux → J Makemake Dec 10.0025 10 whole (76.72) — also: 5 Pholas / Hollie Doyle
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **Ketu**
+  - same body: S Ketu → H Ketu Dec 11.1669 11.1111 ninth (loose) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+  - star rows: H Castor → H Ketu Dec 42.9816 43 whole (0.64) — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: H Facies → H Ketu RA 54.0085 54 whole (33.21) — only
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: H Sualocin → H Ketu Dec 27.0017 27 whole (83.34) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - star rows: J Facies → J Ketu RA 35.0181 35 whole (0.90) — only
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **Saturn**
+  - top rows: S Moon → H Saturn Dec 2.0051 2 whole (55.54) — only
+  - T2: J Jupiter → J Saturn RA 0.4215 conj (51.69) — only
+  - top rows: S Jupiter → J Saturn RA 135.9057 84×φ golden (51.42) — only
+  - star rows: J Difda → J Saturn RA 178.9954 179 whole (59.24) — also: 1 Arafi / Sean Levey
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Sualocin → J Saturn RA 120.0125 120 whole (13.98) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **Gonggong**
+  - star rows: H Adhara → H Gonggong Dec 16.6664 16.6667 ninth (99.77) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: H Pollux → H Gonggong RA 139.9904 140 whole (27.07) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - star rows: H Ras Algethi → H Gonggong RA 77.6681 48×φ golden (85.45) — also: 1 Arafi / Sean Levey
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - top rows: S Jupiter → J Gonggong RA 0.5128 conj (43.32) — only
+  - top rows: S Moon → J Gonggong Dec 0.9994 1 whole (94.47) — also: 5 Pholas / Hollie Doyle
+- **Quaoar**
+  - star rows: H Alhena → H Quaoar RA 170.9810 171 whole (0.23) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: J Adhara → J Quaoar RA 119.0117 119 whole (17.34) — only
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: J Castor → J Quaoar RA 110.0174 68×φ golden (52.61) — also: 5 Pholas / Hollie Doyle
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: J Difda → J Quaoar RA 147.2216 91×φ golden (15.88) — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Ras Algethi → J Quaoar RA 34.9819 35 whole (0.88) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **Sedna**
+  - star rows: H Betelgeuse → H Sedna Dec 0.2323 conj (5.09) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Difda → H Sedna RA 44.9912 45 whole (31.23) — only
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+- **Orcus**
+  - star rows: H Betelgeuse → H Orcus Dec 16.6633 16.6667 ninth (97.09) — also: 3 Indie Angel / Martin Harley
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Zubeneschamali → H Orcus Dec 0.1272 conj (33.18) — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **Mercury**
+  - star rows: H El Nath → H Mercury RA 56.9825 57 whole (1.54) — also: 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: H Zubeneschamali → H Mercury RA 155.3298 96×φ golden (91.43) — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - star rows: J El Nath → J Mercury RA 160.0101 160 whole (24.68) — also: 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: J El Nath → J Mercury Dec 53.3931 33×φ golden (87.96) — also: 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+- **Chiron**
+  - star rows: H El Nath → H Chiron RA 85.9942 86 whole (50.30) — also: 1 Arafi / Sean Levey
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+- **Eris**
+  - star rows: H Orion Nebula Cluster → H Eris RA 57.9897 58 whole (23.41) — also: 3 Indie Angel / Martin Harley
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: J Adhara → J Eris RA 83.9975 84 whole (76.27) — only
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: J Castor → J Eris RA 92.9917 93 whole (34.32) — only
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: J Ras Algethi → J Eris RA 122.0090 122 whole (30.36) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **Sun**
+  - star rows: H Ras Algethi → H Sun RA 134.2741 83×φ golden (8.88) — only
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **Jupiter**
+  - top rows: S Sun → J Jupiter RA 177.7544 177.778 ninth (98.17) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+  - top rows: S Chiron → J Jupiter RA 177.7028 177.778 ninth (94.13) — only
+- **Neptune**
+  - top rows: S Sun → J Neptune Dec 27.0044 27 whole (60.83) — only
+  - star rows: J Adhara → J Neptune Dec 6.9965 7 whole (68.25) — only
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: J Betelgeuse → J Neptune RA 173.9841 174 whole (4.25) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: J Difda → J Neptune Dec 3.9868 4 whole (11.42) — also: 5 Pholas / Hollie Doyle
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Pollux → J Neptune Dec 50.0010 50 whole (90.24) — also: 5 Pholas / Hollie Doyle
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **Vesta**
+  - star rows: J Alhena → J Vesta RA 64.7260 40×φ golden (73.61) — also: 1 Arafi / Sean Levey
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: J Sualocin → J Vesta Dec 2.9996 3 whole (96.29) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **Haumea**
+  - star rows: J Betelgeuse → J Haumea RA 91.0055 91 whole (52.45) — only
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+- **Ceres**
+  - star rows: J Pollux → J Ceres RA 0.2729 conj (66.93) — also: 5 Pholas / Hollie Doyle, 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **Transpluto**
+  - star rows: J Pollux → J Transpluto RA 25.0007 25 whole (93.04) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+
+## 5 Pholas / Hollie Doyle
+### L1 same bodies
+- S Venus → H Venus RA 41.4020 41.4 silver (loose)
+- S Uranus → H Uranus Dec 6.6571 6.66667 ninth (loose)
+- S Juno → H Juno RA 4.0113 4 whole (19.05)
+- S Gonggong → H Gonggong Dec 1.4188 1.414 sqrt2 (loose)
+- S Sun → J Sun Dec 12.2789 12.2222 ninth (loose)
+- S Mars → J Mars RA 66.3370 41×φ golden (85.80)
+- S Mars → J Mars Dec 7.9766 8 whole (loose)
+- S Saturn → J Saturn Dec 16.6614 16.6667 ninth (95.51)
+- S Neptune → J Neptune Dec 16.1944 10×φ^1 phi power (loose)
+- S Chiron → J Chiron RA 169.0142 169 whole (8.42)
+- S Chiron → J Chiron Dec 14.3993 14.4444 ninth (loose)
+- S Ceres → J Ceres Dec 24.9984 25 whole (85.09)
+- S Juno → J Juno RA 110.0311 68×φ golden (72.51)
+- S Orcus → J Orcus RA 18.8601 18.8889 ninth (loose)
+- S Quaoar → J Quaoar Dec 0.9955 1 whole (59.82)
+### L2 what lands on each same body
+- **H Venus** (same body: S Venus → H Venus RA 41.4020 41.4 silver (loose))
+  - sky line to Venus: S Jupiter → Venus Dec 19.0027 19 whole (74.86)
+  - other chart, star rows: J Adhara → J Venus Dec 37.9820 38 whole (1.00)
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - other chart, star rows: J Difda → J Venus Dec 26.9992 27 whole (92.14)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - other chart, star rows: J Pollux → J Venus Dec 19.0114 19 whole (18.61)
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **H Uranus** (same body: S Uranus → H Uranus Dec 6.6571 6.66667 ninth (loose))
+  - star rows: H Alhena → H Uranus Dec 9.0128 9 whole (13.14)
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Betelgeuse → H Uranus Dec 0.0209 conj (86.54)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Ras Algethi → H Uranus Dec 7.0036 7 whole (67.19)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - other chart, star rows: J Alhena → J Uranus Dec 36.9838 37 whole (3.52)
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - other chart, star rows: J Betelgeuse → J Uranus Dec 27.9924 28 whole (38.25)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - other chart, star rows: J Orion Nebula Cluster → J Uranus RA 140.7910 87×φ golden (10.13)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **H Juno** (same body: S Juno → H Juno RA 4.0113 4 whole (19.05))
+  - star rows: H Alhena → H Juno RA 160.1790 99×φ golden (64.37)
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Ras Algethi → H Juno RA 0.9565 conj (13.13)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - other chart, same body: S Juno → J Juno RA 110.0311 68×φ golden (72.51)
+  - other chart, star rows: J Adhara → J Juno RA 91.0018 91 whole (82.87)
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - other chart, star rows: J Castor → J Juno RA 99.9941 100 ninth (96.06)
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - other chart, star rows: J Orion Nebula Cluster → J Juno Dec 0.1921 conj (12.94)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - other chart, star rows: J Ras Algethi → J Juno RA 114.9963 115 whole (66.53)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - other chart, star rows: J Zubeneschamali → J Juno RA 144.4082 144.444 ninth (96.16)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **H Gonggong** (same body: S Gonggong → H Gonggong Dec 1.4188 1.414 sqrt2 (loose))
+  - top rows: S Moon → H Gonggong RA 78.0006 78 whole (93.88)
+  - star rows: H Adhara → H Gonggong RA 129.4124 80×φ golden (0.41)
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: H Zubeneschamali → H Gonggong RA 106.0028 106 whole (73.85)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - other chart, star rows: J El Nath → J Gonggong RA 110.9732 10×φ^5 phi power (75.86)
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - other chart, star rows: J El Nath → J Gonggong Dec 47.0127 47 whole (13.29)
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - other chart, star rows: J Orion Nebula Cluster → J Gonggong Dec 13.0169 13 whole (2.47)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **J Sun** (same body: S Sun → J Sun Dec 12.2789 12.2222 ninth (loose))
+  - sky line to Sun: S Jupiter → Sun Dec 19.4186 12×φ golden (86.76)
+  - star rows: J Orion Nebula Cluster → J Sun RA 113.2335 70×φ golden (1.13)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **J Mars** (same body: S Mars → J Mars RA 66.3370 41×φ golden (85.80); S Mars → J Mars Dec 7.9766 8 whole (loose))
+  - sky line to Mars: S Jupiter → Mars RA 110.0189 68×φ golden (59.41)
+  - star rows: J Alhena → J Mars Dec 0.0926 conj (47.80)
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - other chart, star rows: H Alhena → H Mars RA 116.4807 72×φ golden (20.44)
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - other chart, star rows: H Betelgeuse → H Mars Dec 15.5538 15.5556 ninth (98.29)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - other chart, star rows: H Pollux → H Mars RA 133.3786 133.333 ninth (94.57)
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **J Saturn** (same body: S Saturn → J Saturn Dec 16.6614 16.6667 ninth (95.51))
+  - star rows: J Facies → J Saturn Dec 22.6533 14×φ golden (94.75)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - other chart, top rows: S Sun → H Saturn RA 110.9675 10×φ^5 phi power (77.68)
+  - other chart, star rows: H Pollux → H Saturn RA 144.4163 144.444 ninth (97.02)
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **J Neptune** (same body: S Neptune → J Neptune Dec 16.1944 10×φ^1 phi power (loose))
+  - star rows: J Difda → J Neptune RA 74.0194 74 whole (0.08)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Pollux → J Neptune RA 179.4459 10×φ^6 phi power (99.28)
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - other chart, star rows: H Alhena → H Neptune RA 117.9896 118 whole (22.89)
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - other chart, star rows: H Betelgeuse → H Neptune Dec 16.1828 10×φ^1 phi power (93.94)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+- **J Chiron** (same body: S Chiron → J Chiron RA 169.0142 169 whole (8.42); S Chiron → J Chiron Dec 14.3993 14.4444 ninth (loose))
+  - other chart, top rows: S Jupiter → H Chiron Dec 14.4461 14.4444 ninth (98.20)
+  - other chart, star rows: H Pollux → H Chiron RA 126.2161 78×φ golden (49.98)
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **J Ceres** (same body: S Ceres → J Ceres Dec 24.9984 25 whole (85.09))
+  - top rows: S Moon → J Ceres RA 0.0136 conj (98.20)
+  - star rows: J Ras Algethi → J Ceres RA 1.4226 conj (0.27)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: J Zubeneschamali → J Ceres RA 27.9892 28 whole (21.33)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - other chart, star rows: H Adhara → H Ceres RA 80.9080 50×φ golden (64.76)
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - other chart, star rows: H Difda → H Ceres Dec 19.9942 20 whole (50.70)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - other chart, star rows: H Pollux → H Ceres Dec 26.0193 26 whole (0.11)
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **J Juno** (same body: S Juno → J Juno RA 110.0311 68×φ golden (72.51))
+  - star rows: J Adhara → J Juno RA 91.0018 91 whole (82.87)
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: J Castor → J Juno RA 99.9941 100 ninth (96.06)
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: J Orion Nebula Cluster → J Juno Dec 0.1921 conj (12.94)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: J Ras Algethi → J Juno RA 114.9963 115 whole (66.53)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: J Zubeneschamali → J Juno RA 144.4082 144.444 ninth (96.16)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - other chart, same body: S Juno → H Juno RA 4.0113 4 whole (19.05)
+  - other chart, star rows: H Alhena → H Juno RA 160.1790 99×φ golden (64.37)
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - other chart, star rows: H Ras Algethi → H Juno RA 0.9565 conj (13.13)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **J Orcus** (same body: S Orcus → J Orcus RA 18.8601 18.8889 ninth (loose))
+  - other chart, star rows: H Facies → H Orcus RA 126.0109 126 whole (20.80)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **J Quaoar** (same body: S Quaoar → J Quaoar Dec 0.9955 1 whole (59.82))
+  - top rows: S Jupiter → J Quaoar Dec 0.0536 conj (67.47)
+  - star rows: J Alhena → J Quaoar RA 142.0152 142 whole (5.70)
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: J Difda → J Quaoar RA 129.4583 80×φ golden (26.91)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Pollux → J Quaoar Dec 42.3620 10×φ^3 phi power (98.75)
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - other chart, star rows: H Betelgeuse → H Quaoar RA 179.6293 111×φ golden (2.25)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - other chart, star rows: H Castor → H Quaoar RA 155.5144 155.556 ninth (96.10)
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+### L3 matches
+- **1. same body on both charts**
+  - Juno — only
+    - S Juno → H Juno RA 4.0113 4 whole (19.05)
+    - S Juno → J Juno RA 110.0311 68×φ golden (72.51)
+- **2. one body in both planes**
+  - J Mars — only
+    - S Mars → J Mars RA 66.3370 41×φ golden (85.80)
+    - S Mars → J Mars Dec 7.9766 8 whole (loose)
+  - J Chiron — also: 6 Shimmering Dawn / James Doyle
+    - S Chiron → J Chiron RA 169.0142 169 whole (8.42)
+    - S Chiron → J Chiron Dec 14.3993 14.4444 ninth (loose)
+- **3. runner number = sky number**
+  - 1.414 sqrt2 — only
+    - S Gonggong → H Gonggong Dec 1.4188 1.414 sqrt2 (loose) = S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - 34 whole — also: 2 Fizzy Feet / Rossa Ryan
+    - S Moon → H Rahu Dec 33.9985 34 whole (85.44) = S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - 9 whole — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley
+    - H Alhena → H Uranus Dec 9.0128 9 whole (13.14) = S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - 155.556 ninth — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley
+    - H Castor → H Quaoar RA 155.5144 155.556 ninth (96.10) = S Sun → Haumea RA 155.5233 155.556 ninth (96.95)
+  - φ^10 phi power — only
+    - H Facies → H Rahu RA 122.9542 φ^10 phi power (88.13) = S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - 68×φ golden — also: 4 Nirodha / Silvestre De Sousa
+    - S Juno → J Juno RA 110.0311 68×φ golden (72.51) = S Jupiter → Mars RA 110.0189 68×φ golden (59.41)
+  - 28 whole — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - J Betelgeuse → J Uranus Dec 27.9924 28 whole (38.25) = S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - 14×φ golden — also: 1 Arafi / Sean Levey
+    - J Facies → J Saturn Dec 22.6533 14×φ golden (94.75) = S Moon → Eris Dec 22.6551 14×φ golden (84.66)
+  - 19 whole — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan
+    - J Pollux → J Venus Dec 19.0114 19 whole (18.61) = S Jupiter → Venus Dec 19.0027 19 whole (74.86)
+  - 28 whole — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - J Zubeneschamali → J Ceres RA 27.9892 28 whole (21.33) = S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **4. circle divisions**
+  - 4 = 360/90 — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+    - S Juno → H Juno RA 4.0113 4 whole (19.05)
+  - 9 = 360/40 — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley
+    - H Alhena → H Uranus Dec 9.0128 9 whole (13.14)
+  - 10 = 360/36 — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+    - H Castor → H Vesta Dec 10.0016 10 whole (84.30)
+  - 20 = 360/18 — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan
+    - H Difda → H Ceres Dec 19.9942 20 whole (50.70)
+  - 5 = 360/72 — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - H Sualocin → H Transpluto Dec 4.9805 5 whole (0.05)
+  - 12 = 360/30 — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+    - H Zubeneschamali → H Pluto Dec 11.9956 12 whole (60.66)
+  - 8 = 360/45 — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - S Mars → J Mars Dec 7.9766 8 whole (loose)
+  - 1 = 360/360 — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - S Quaoar → J Quaoar Dec 0.9955 1 whole (59.82)
+- **5. same number in more than one place**
+  - 14.4444 ninth — only
+    - S Jupiter → H Chiron Dec 14.4461 14.4444 ninth (98.20)
+    - S Chiron → J Chiron Dec 14.3993 14.4444 ninth (loose)
+  - 10×φ^5 phi power — also: 3 Indie Angel / Martin Harley
+    - S Sun → H Saturn RA 110.9675 10×φ^5 phi power (77.68)
+    - J El Nath → J Gonggong RA 110.9732 10×φ^5 phi power (75.86)
+  - 144.444 ninth — only
+    - S Sun → H Rahu RA 144.4236 144.444 ninth (97.79)
+    - H Pollux → H Saturn RA 144.4163 144.444 ninth (97.02)
+    - H Pollux → H Pallas RA 144.4725 144.444 ninth (97.03)
+    - J Zubeneschamali → J Juno RA 144.4082 144.444 ninth (96.16)
+  - 80×φ golden — only
+    - H Adhara → H Gonggong RA 129.4124 80×φ golden (0.41)
+    - J Difda → J Quaoar RA 129.4583 80×φ golden (26.91)
+  - 10×φ^1 phi power — also: 6 Shimmering Dawn / James Doyle
+    - H Betelgeuse → H Neptune Dec 16.1828 10×φ^1 phi power (93.94)
+    - S Neptune → J Neptune Dec 16.1944 10×φ^1 phi power (loose)
+  - 158 whole — only
+    - H Difda → H Haumea RA 158.0094 158 whole (27.96)
+    - J Orion Nebula Cluster → J Pluto RA 158.0111 158 whole (19.84)
+  - 126 whole — only
+    - H Facies → H Orcus RA 126.0109 126 whole (20.80)
+    - S Moon → J Eris RA 126.0044 126 whole (60.71)
+  - 16 whole — only
+    - H Orion Nebula Cluster → H Pluto Dec 15.9866 16 whole (10.73)
+    - J Facies → J Eris Dec 16.0166 16 whole (2.94)
+  - 28 whole — only
+    - J Betelgeuse → J Uranus Dec 27.9924 28 whole (38.25)
+    - J Zubeneschamali → J Ceres RA 27.9892 28 whole (21.33)
+### L4 every natal body
+- **Venus**
+  - same body: S Venus → H Venus RA 41.4020 41.4 silver (loose) — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Venus Dec 19.0027 19 whole (74.86)
+  - star rows: J Adhara → J Venus Dec 37.9820 38 whole (1.00) — also: 1 Arafi / Sean Levey, 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: J Difda → J Venus Dec 26.9992 27 whole (92.14) — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Pollux → J Venus Dec 19.0114 19 whole (18.61) — also: 1 Arafi / Sean Levey, 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **Uranus**
+  - same body: S Uranus → H Uranus Dec 6.6571 6.66667 ninth (loose) — also: 4 Nirodha / Silvestre De Sousa
+  - star rows: H Alhena → H Uranus Dec 9.0128 9 whole (13.14) — also: 1 Arafi / Sean Levey
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Betelgeuse → H Uranus Dec 0.0209 conj (86.54) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Ras Algethi → H Uranus Dec 7.0036 7 whole (67.19) — also: 1 Arafi / Sean Levey, 4 Nirodha / Silvestre De Sousa
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: J Alhena → J Uranus Dec 36.9838 37 whole (3.52) — also: 1 Arafi / Sean Levey
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: J Betelgeuse → J Uranus Dec 27.9924 28 whole (38.25) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: J Orion Nebula Cluster → J Uranus RA 140.7910 87×φ golden (10.13) — only
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **Juno**
+  - same body: S Juno → H Juno RA 4.0113 4 whole (19.05) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+  - star rows: H Alhena → H Juno RA 160.1790 99×φ golden (64.37) — only
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Ras Algethi → H Juno RA 0.9565 conj (13.13) — only
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - same body: S Juno → J Juno RA 110.0311 68×φ golden (72.51) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+  - star rows: J Adhara → J Juno RA 91.0018 91 whole (82.87) — also: 3 Indie Angel / Martin Harley
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: J Castor → J Juno RA 99.9941 100 ninth (96.06) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: J Orion Nebula Cluster → J Juno Dec 0.1921 conj (12.94) — only
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: J Ras Algethi → J Juno RA 114.9963 115 whole (66.53) — only
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: J Zubeneschamali → J Juno RA 144.4082 144.444 ninth (96.16) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong Dec 1.4188 1.414 sqrt2 (loose) — also: 3 Indie Angel / Martin Harley
+  - top rows: S Moon → H Gonggong RA 78.0006 78 whole (93.88) — also: 4 Nirodha / Silvestre De Sousa
+  - star rows: H Adhara → H Gonggong RA 129.4124 80×φ golden (0.41) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: H Zubeneschamali → H Gonggong RA 106.0028 106 whole (73.85) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - star rows: J El Nath → J Gonggong RA 110.9732 10×φ^5 phi power (75.86) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: J El Nath → J Gonggong Dec 47.0127 47 whole (13.29) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: J Orion Nebula Cluster → J Gonggong Dec 13.0169 13 whole (2.47) — only
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **Chiron**
+  - top rows: S Jupiter → H Chiron Dec 14.4461 14.4444 ninth (98.20) — only
+  - star rows: H Pollux → H Chiron RA 126.2161 78×φ golden (49.98) — only
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - same body: S Chiron → J Chiron RA 169.0142 169 whole (8.42) — also: 1 Arafi / Sean Levey, 6 Shimmering Dawn / James Doyle
+  - same body: S Chiron → J Chiron Dec 14.3993 14.4444 ninth (loose) — also: 1 Arafi / Sean Levey, 6 Shimmering Dawn / James Doyle
+- **Saturn**
+  - top rows: S Sun → H Saturn RA 110.9675 10×φ^5 phi power (77.68) — only
+  - star rows: H Pollux → H Saturn RA 144.4163 144.444 ninth (97.02) — also: 1 Arafi / Sean Levey
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - same body: S Saturn → J Saturn Dec 16.6614 16.6667 ninth (95.51) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+  - star rows: J Facies → J Saturn Dec 22.6533 14×φ golden (94.75) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **Rahu**
+  - top rows: S Sun → H Rahu RA 144.4236 144.444 ninth (97.79) — only
+  - top rows: S Moon → H Rahu Dec 33.9985 34 whole (85.44) — only
+  - star rows: H Facies → H Rahu RA 122.9542 φ^10 phi power (88.13) — also: 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: J Alhena → J Rahu RA 88.0065 88 whole (45.88) — only
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+- **Jupiter**
+  - top rows: S Pallas → H Jupiter Dec 11.0010 11 whole (90.18) — only
+  - star rows: S Orion Nebula Cluster → H Jupiter Dec 1.6663 1.66667 ninth (96.65) — also: 3 Indie Angel / Martin Harley
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **Ceres**
+  - star rows: H Adhara → H Ceres RA 80.9080 50×φ golden (64.76) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: H Difda → H Ceres Dec 19.9942 20 whole (50.70) — also: 1 Arafi / Sean Levey
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: H Pollux → H Ceres Dec 26.0193 26 whole (0.11) — also: 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - same body: S Ceres → J Ceres Dec 24.9984 25 whole (85.09) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+  - top rows: S Moon → J Ceres RA 0.0136 conj (98.20) — only
+  - star rows: J Ras Algethi → J Ceres RA 1.4226 conj (0.27) — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: J Zubeneschamali → J Ceres RA 27.9892 28 whole (21.33) — only
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **Mars**
+  - star rows: H Alhena → H Mars RA 116.4807 72×φ golden (20.44) — only
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Betelgeuse → H Mars Dec 15.5538 15.5556 ninth (98.29) — only
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Pollux → H Mars RA 133.3786 133.333 ninth (94.57) — only
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - same body: S Mars → J Mars RA 66.3370 41×φ golden (85.80) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Mars RA 110.0189 68×φ golden (59.41)
+  - same body: S Mars → J Mars Dec 7.9766 8 whole (loose) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Mars RA 110.0189 68×φ golden (59.41)
+  - star rows: J Alhena → J Mars Dec 0.0926 conj (47.80) — only
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+- **Neptune**
+  - star rows: H Alhena → H Neptune RA 117.9896 118 whole (22.89) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Betelgeuse → H Neptune Dec 16.1828 10×φ^1 phi power (93.94) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - same body: S Neptune → J Neptune Dec 16.1944 10×φ^1 phi power (loose) — also: 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+  - star rows: J Difda → J Neptune RA 74.0194 74 whole (0.08) — also: 4 Nirodha / Silvestre De Sousa
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Pollux → J Neptune RA 179.4459 10×φ^6 phi power (99.28) — also: 4 Nirodha / Silvestre De Sousa
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **Haumea**
+  - star rows: H Alhena → H Haumea Dec 0.0351 conj (77.97) — only
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: H Difda → H Haumea RA 158.0094 158 whole (27.96) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: H Sualocin → H Haumea RA 97.0156 97 whole (4.92) — also: 1 Arafi / Sean Levey
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - T2: J Jupiter → J Haumea RA 87.3735 54×φ golden (97.76) — also: 1 Arafi / Sean Levey
+  - star rows: J Adhara → J Haumea Dec 50.1552 31×φ golden (77.43) — only
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: J El Nath → J Haumea RA 112.0164 112 whole (3.27) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+- **Sedna**
+  - star rows: H Betelgeuse → H Sedna Dec 0.0834 conj (52.14) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - top rows: S Sun → J Sedna Dec 0.2004 conj (11.03) — only
+- **Quaoar**
+  - star rows: H Betelgeuse → H Quaoar RA 179.6293 111×φ golden (2.25) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Castor → H Quaoar RA 155.5144 155.556 ninth (96.10) — also: 4 Nirodha / Silvestre De Sousa
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - same body: S Quaoar → J Quaoar Dec 0.9955 1 whole (59.82) — also: 6 Shimmering Dawn / James Doyle
+  - top rows: S Jupiter → J Quaoar Dec 0.0536 conj (67.47) — also: 2 Fizzy Feet / Rossa Ryan
+  - star rows: J Alhena → J Quaoar RA 142.0152 142 whole (5.70) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+  - star rows: J Difda → J Quaoar RA 129.4583 80×φ golden (26.91) — also: 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Pollux → J Quaoar Dec 42.3620 10×φ^3 phi power (98.75) — also: 1 Arafi / Sean Levey
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **Mercury**
+  - star rows: H Castor → H Mercury RA 156.9245 97×φ golden (5.51) — only
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: H Difda → H Mercury RA 100.3189 62×φ golden (95.32) — only
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: H El Nath → H Mercury RA 170.9997 171 whole (96.57) — also: 4 Nirodha / Silvestre De Sousa
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+- **Vesta**
+  - star rows: H Castor → H Vesta Dec 10.0016 10 whole (84.30) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: J Difda → J Vesta RA 115.9828 116 whole (1.93) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Sualocin → J Vesta RA 54.9914 55 whole (32.69) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **Ketu**
+  - star rows: H Castor → H Ketu RA 137.5157 85×φ golden (22.04) — also: 4 Nirodha / Silvestre De Sousa, 6 Shimmering Dawn / James Doyle
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: J Alhena → J Ketu RA 91.9935 92 whole (45.88) — only
+    - source line: S Moon → Alhena Dec 40.4503 25×φ golden (96.82)
+- **Pluto**
+  - star rows: H El Nath → H Pluto Dec 49.9855 50 whole (7.51) — only
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: H Orion Nebula Cluster → H Pluto Dec 15.9866 16 whole (10.73) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: H Zubeneschamali → H Pluto Dec 11.9956 12 whole (60.66) — also: 3 Indie Angel / Martin Harley
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - star rows: J Orion Nebula Cluster → J Pluto RA 158.0111 158 whole (19.84) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **Orcus**
+  - star rows: H Facies → H Orcus RA 126.0109 126 whole (20.80) — also: 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - same body: S Orcus → J Orcus RA 18.8601 18.8889 ninth (loose) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 6 Shimmering Dawn / James Doyle
+- **Pallas**
+  - star rows: H Pollux → H Pallas RA 144.4725 144.444 ninth (97.03) — only
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - star rows: J Betelgeuse → J Pallas RA 148.8908 92×φ golden (0.05) — also: 4 Nirodha / Silvestre De Sousa
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: J Pollux → J Pallas RA 121.3566 75×φ golden (76.47) — only
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **Makemake**
+  - star rows: H Pollux → H Makemake RA 79.0058 79 whole (50.62) — also: 4 Nirodha / Silvestre De Sousa
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **Transpluto**
+  - star rows: H Pollux → H Transpluto RA 37.2138 23×φ golden (94.17) — also: 1 Arafi / Sean Levey, 4 Nirodha / Silvestre De Sousa
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - star rows: H Sualocin → H Transpluto Dec 4.9805 5 whole (0.05) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **Sun**
+  - same body: S Sun → J Sun Dec 12.2789 12.2222 ninth (loose) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+  - star rows: J Orion Nebula Cluster → J Sun RA 113.2335 70×φ golden (1.13) — also: 1 Arafi / Sean Levey
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **Eris**
+  - top rows: S Moon → J Eris RA 126.0044 126 whole (60.71) — only
+  - star rows: J Facies → J Eris Dec 16.0166 16 whole (2.94) — also: 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: J Ras Algethi → J Eris RA 124.5953 77×φ golden (62.75) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: J Zubeneschamali → J Eris RA 154.0072 154 whole (40.81) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 6 Shimmering Dawn / James Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+
+## 6 Shimmering Dawn / James Doyle
+### L1 same bodies
+- S Sun → H Sun Dec 16.1303 10×φ^1 phi power (loose)
+- S Mercury → H Mercury Dec 15.9741 16 whole (loose)
+- S Venus → H Venus Dec 24.1515 24.14 silver (loose)
+- S Saturn → H Saturn Dec 3.0282 3 whole (loose)
+- S Pluto → H Pluto RA 11.0138 11 whole (9.59)
+- S Orcus → H Orcus Dec 2.0295 2 whole (loose)
+- S Quaoar → H Quaoar RA 7.0245 7 whole (loose)
+- S Sun → J Sun RA 18.8162 18.8889 ninth (loose)
+- S Mars → J Mars RA 122.3544 122.222 ninth (loose)
+- S Saturn → J Saturn RA 40.9885 41 whole (18.17)
+- S Neptune → J Neptune RA 71.1751 44×φ golden (loose)
+- S Pluto → J Pluto RA 74.4212 46×φ golden (55.04)
+- S Chiron → J Chiron RA 77.7687 77.7778 ninth (loose)
+- S Chiron → J Chiron Dec 12.0096 12 whole (27.23)
+- S Ceres → J Ceres Dec 14.1131 14.14 sqrt2 (loose)
+- S Rahu → J Rahu RA 77.6952 77.7778 ninth (loose)
+- S Transpluto → J Transpluto RA 11.1131 11.1111 ninth (96.81)
+- S Ketu → J Ketu RA 77.6952 77.7778 ninth (loose)
+### L2 what lands on each same body
+- **H Sun** (same body: S Sun → H Sun Dec 16.1303 10×φ^1 phi power (loose))
+  - sky line to Sun: S Jupiter → Sun Dec 19.4186 12×φ golden (86.76)
+  - star rows: H Castor → H Sun Dec 42.9892 43 whole (20.98)
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: H Facies → H Sun RA 53.9986 54 whole (86.14)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: H Sualocin → H Sun Dec 27.0113 27 whole (18.72)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - other chart, same body: S Sun → J Sun RA 18.8162 18.8889 ninth (loose)
+  - other chart, star rows: J Betelgeuse → J Sun Dec 5.0151 5 whole (5.96)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - other chart, star rows: J El Nath → J Sun Dec 16.1874 10×φ^1 phi power (83.33)
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+- **H Mercury** (same body: S Mercury → H Mercury Dec 15.9741 16 whole (loose))
+  - star rows: H Betelgeuse → H Mercury RA 137.5577 85×φ golden (5.37)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Sualocin → H Mercury RA 1.3335 1.33333 ninth (97.42)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - star rows: H Zubeneschamali → H Mercury RA 81.9859 82 whole (8.77)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - other chart, star rows: J Adhara → J Mercury RA 71.9822 72 whole (1.26)
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - other chart, star rows: J Ras Algethi → J Mercury RA 134.0064 134 whole (46.49)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - other chart, star rows: J Zubeneschamali → J Mercury RA 163.4150 101×φ golden (64.05)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **H Venus** (same body: S Venus → H Venus Dec 24.1515 24.14 silver (loose))
+  - sky line to Venus: S Jupiter → Venus Dec 19.0027 19 whole (74.86)
+  - star rows: H Orion Nebula Cluster → H Venus RA 137.5605 85×φ golden (2.13)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: H Orion Nebula Cluster → H Venus Dec 14.1452 14.14 sqrt2 (91.53)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: H Zubeneschamali → H Venus RA 77.0118 77 whole (17.00)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - other chart, star rows: J Adhara → J Venus Dec 55.9915 56 whole (33.22)
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - other chart, star rows: J Difda → J Venus Dec 45.0032 45 whole (70.20)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - other chart, star rows: J Pollux → J Venus Dec 1.0118 1 whole (16.95)
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **H Saturn** (same body: S Saturn → H Saturn Dec 3.0282 3 whole (loose))
+  - other chart, same body: S Saturn → J Saturn RA 40.9885 41 whole (18.17)
+  - other chart, star rows: J Orion Nebula Cluster → J Saturn RA 170.9997 171 whole (97.22)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **H Pluto** (same body: S Pluto → H Pluto RA 11.0138 11 whole (9.59))
+  - star rows: H Castor → H Pluto RA 173.9843 174 whole (4.65)
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: H Facies → H Pluto Dec 2.9892 3 whole (21.14)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - other chart, same body: S Pluto → J Pluto RA 74.4212 46×φ golden (55.04)
+- **H Orcus** (same body: S Orcus → H Orcus Dec 2.0295 2 whole (loose))
+  - star rows: H Zubeneschamali → H Orcus Dec 0.0837 conj (51.98)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - other chart, top rows: S Sun → J Orcus RA 114.8834 71×φ golden (82.54)
+  - other chart, top rows: S Sun → J Orcus Dec 0.0594 conj (64.29)
+  - other chart, star rows: J Facies → J Orcus Dec 28.9927 29 whole (40.36)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **H Quaoar** (same body: S Quaoar → H Quaoar RA 7.0245 7 whole (loose))
+  - star rows: H Difda → H Quaoar RA 101.9999 102 whole (98.96)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: H Sualocin → H Quaoar RA 41.0101 41 whole (24.69)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - other chart, star rows: J Facies → J Quaoar RA 46.9232 29×φ golden (98.80)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **J Sun** (same body: S Sun → J Sun RA 18.8162 18.8889 ninth (loose))
+  - sky line to Sun: S Jupiter → Sun Dec 19.4186 12×φ golden (86.76)
+  - star rows: J Betelgeuse → J Sun Dec 5.0151 5 whole (5.96)
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: J El Nath → J Sun Dec 16.1874 10×φ^1 phi power (83.33)
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - other chart, same body: S Sun → H Sun Dec 16.1303 10×φ^1 phi power (loose)
+  - other chart, star rows: H Castor → H Sun Dec 42.9892 43 whole (20.98)
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - other chart, star rows: H Facies → H Sun RA 53.9986 54 whole (86.14)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - other chart, star rows: H Sualocin → H Sun Dec 27.0113 27 whole (18.72)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **J Mars** (same body: S Mars → J Mars RA 122.3544 122.222 ninth (loose))
+  - sky line to Mars: S Jupiter → Mars RA 110.0189 68×φ golden (59.41)
+  - star rows: J Castor → J Mars RA 160.1872 99×φ golden (88.82)
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: J Facies → J Mars Dec 5.0009 5 whole (91.66)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - other chart, star rows: H El Nath → H Mars Dec 46.0052 46 whole (54.60)
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - other chart, star rows: H Orion Nebula Cluster → H Mars Dec 12.0044 12 whole (60.85)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - other chart, star rows: H Zubeneschamali → H Mars Dec 8.0138 8 whole (9.47)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **J Saturn** (same body: S Saturn → J Saturn RA 40.9885 41 whole (18.17))
+  - star rows: J Orion Nebula Cluster → J Saturn RA 170.9997 171 whole (97.22)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - other chart, same body: S Saturn → H Saturn Dec 3.0282 3 whole (loose)
+- **J Neptune** (same body: S Neptune → J Neptune RA 71.1751 44×φ golden (loose))
+  - top rows: S Moon → J Neptune Dec 1.9943 2 whole (51.21)
+  - star rows: J Orion Nebula Cluster → J Neptune Dec 16.6643 16.6667 ninth (98.00)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **J Pluto** (same body: S Pluto → J Pluto RA 74.4212 46×φ golden (55.04))
+  - other chart, same body: S Pluto → H Pluto RA 11.0138 11 whole (9.59)
+  - other chart, star rows: H Castor → H Pluto RA 173.9843 174 whole (4.65)
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - other chart, star rows: H Facies → H Pluto Dec 2.9892 3 whole (21.14)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **J Chiron** (same body: S Chiron → J Chiron RA 77.7687 77.7778 ninth (loose); S Chiron → J Chiron Dec 12.0096 12 whole (27.23))
+  - star rows: J Orion Nebula Cluster → J Chiron RA 1.1229 conj (6.32)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - other chart, star rows: H Orion Nebula Cluster → H Chiron RA 94.9849 95 whole (6.10)
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **J Ceres** (same body: S Ceres → J Ceres Dec 14.1131 14.14 sqrt2 (loose))
+  - top rows: S Jupiter → J Ceres Dec 0.1710 conj (18.50)
+  - star rows: J Pollux → J Ceres RA 129.4143 80×φ golden (1.47)
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - star rows: J Sualocin → J Ceres RA 37.0073 37 whole (40.07)
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - other chart, star rows: H Adhara → H Ceres RA 121.3519 75×φ golden (96.22)
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - other chart, star rows: H Ras Algethi → H Ceres Dec 30.0133 30 whole (11.29)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+- **J Rahu** (same body: S Rahu → J Rahu RA 77.6952 77.7778 ninth (loose))
+  - star rows: J Adhara → J Rahu Dec 25.9843 26 whole (4.66)
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: J Difda → J Rahu Dec 14.9960 15 whole (64.26)
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Pollux → J Rahu Dec 31.0190 31 whole (0.26)
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - other chart, star rows: H Facies → H Rahu RA 106.7822 66×φ golden (56.53)
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - other chart, star rows: H Pollux → H Rahu RA 55.9828 56 whole (2.01)
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **J Transpluto** (same body: S Transpluto → J Transpluto RA 11.1131 11.1111 ninth (96.81))
+  - star rows: J Ras Algethi → J Transpluto Dec 0.2420 conj (3.74)
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: J Zubeneschamali → J Transpluto Dec 24.0140 24 whole (9.06)
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **J Ketu** (same body: S Ketu → J Ketu RA 77.6952 77.7778 ninth (loose))
+  - other chart, star rows: H Castor → H Ketu RA 121.3399 75×φ golden (37.09)
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - other chart, star rows: H Pollux → H Ketu RA 124.0172 124 whole (2.01)
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+### L3 matches
+- **1. same body on both charts**
+  - Sun — only
+    - S Sun → H Sun Dec 16.1303 10×φ^1 phi power (loose)
+    - S Sun → J Sun RA 18.8162 18.8889 ninth (loose)
+  - Saturn — only
+    - S Saturn → H Saturn Dec 3.0282 3 whole (loose)
+    - S Saturn → J Saturn RA 40.9885 41 whole (18.17)
+  - Pluto — only
+    - S Pluto → H Pluto RA 11.0138 11 whole (9.59)
+    - S Pluto → J Pluto RA 74.4212 46×φ golden (55.04)
+- **2. one body in both planes**
+  - J Chiron — also: 5 Pholas / Hollie Doyle
+    - S Chiron → J Chiron RA 77.7687 77.7778 ninth (loose)
+    - S Chiron → J Chiron Dec 12.0096 12 whole (27.23)
+- **3. runner number = sky number**
+  - 43 whole — also: 4 Nirodha / Silvestre De Sousa
+    - H Castor → H Sun Dec 42.9892 43 whole (20.98) = S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - 43 whole — also: 4 Nirodha / Silvestre De Sousa
+    - J Adhara → J Jupiter Dec 43.0175 43 whole (1.61) = S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - 23 whole — also: 3 Indie Angel / Martin Harley
+    - J Castor → J Juno Dec 22.9946 23 whole (53.31) = S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - 28 whole — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - J Castor → J Sedna Dec 27.9917 28 whole (34.20) = S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **4. circle divisions**
+  - 3 = 360/120 — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+    - S Saturn → H Saturn Dec 3.0282 3 whole (loose)
+  - 2 = 360/180 — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+    - S Orcus → H Orcus Dec 2.0295 2 whole (loose)
+  - 90 = 360/4 — only
+    - H Jupiter → H star El Nath RA 90.0033 90 whole (69.52)
+  - 90 = 360/4 — only
+    - H El Nath → H Jupiter RA 90.0033 90 whole (69.52)
+  - 3 = 360/120 — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+    - H Facies → H Pluto Dec 2.9892 3 whole (21.14)
+  - 12 = 360/30 — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+    - H Orion Nebula Cluster → H Mars Dec 12.0044 12 whole (60.85)
+  - 24 = 360/15 — also: 3 Indie Angel / Martin Harley
+    - H Pollux → H Vesta Dec 24.0033 24 whole (70.00)
+  - 30 = 360/12 — also: 3 Indie Angel / Martin Harley
+    - H Ras Algethi → H Ceres Dec 30.0133 30 whole (11.29)
+  - 8 = 360/45 — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - H Zubeneschamali → H Mars Dec 8.0138 8 whole (9.47)
+  - 12 = 360/30 — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+    - S Chiron → J Chiron Dec 12.0096 12 whole (27.23)
+  - 2 = 360/180 — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+    - S Moon → J Neptune Dec 1.9943 2 whole (51.21)
+  - 72 = 360/5 — only
+    - J Adhara → J Mercury RA 71.9822 72 whole (1.26)
+  - 5 = 360/72 — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - J Betelgeuse → J Sun Dec 5.0151 5 whole (5.96)
+  - 45 = 360/8 — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+    - J Difda → J Venus Dec 45.0032 45 whole (70.20)
+  - 15 = 360/24 — only
+    - J Difda → J Rahu Dec 14.9960 15 whole (64.26)
+  - 5 = 360/72 — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - J Facies → J Mars Dec 5.0009 5 whole (91.66)
+  - 1 = 360/360 — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - J Pollux → J Venus Dec 1.0118 1 whole (16.95)
+  - 12 = 360/30 — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+    - J Sualocin → J Sedna Dec 12.0106 12 whole (22.15)
+  - 24 = 360/15 — also: 3 Indie Angel / Martin Harley
+    - J Zubeneschamali → J Transpluto Dec 24.0140 24 whole (9.06)
+- **5. same number in more than one place**
+  - 10×φ^1 phi power — also: 5 Pholas / Hollie Doyle
+    - S Sun → H Sun Dec 16.1303 10×φ^1 phi power (loose)
+    - J El Nath → J Sun Dec 16.1874 10×φ^1 phi power (83.33)
+  - 3 whole — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+    - S Saturn → H Saturn Dec 3.0282 3 whole (loose)
+    - H Facies → H Pluto Dec 2.9892 3 whole (21.14)
+  - 2 whole — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+    - S Orcus → H Orcus Dec 2.0295 2 whole (loose)
+    - S Moon → J Neptune Dec 1.9943 2 whole (51.21)
+  - 7 whole — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley
+    - S Quaoar → H Quaoar RA 7.0245 7 whole (loose)
+    - J Sualocin → J Juno Dec 7.0135 7 whole (10.58)
+  - 90 whole — only
+    - H Jupiter → H star El Nath RA 90.0033 90 whole (69.52)
+    - H El Nath → H Jupiter RA 90.0033 90 whole (69.52)
+  - 75×φ golden — only
+    - H Adhara → H Ceres RA 121.3519 75×φ golden (96.22)
+    - H Castor → H Ketu RA 121.3399 75×φ golden (37.09)
+  - 85×φ golden — only
+    - H Betelgeuse → H Mercury RA 137.5577 85×φ golden (5.37)
+    - H Orion Nebula Cluster → H Venus RA 137.5605 85×φ golden (2.13)
+  - 43 whole — only
+    - H Castor → H Sun Dec 42.9892 43 whole (20.98)
+    - J Adhara → J Jupiter Dec 43.0175 43 whole (1.61)
+  - 14.14 sqrt2 — also: 2 Fizzy Feet / Rossa Ryan
+    - H Orion Nebula Cluster → H Venus Dec 14.1452 14.14 sqrt2 (91.53)
+    - S Ceres → J Ceres Dec 14.1131 14.14 sqrt2 (loose)
+  - 12 whole — only
+    - H Orion Nebula Cluster → H Mars Dec 12.0044 12 whole (60.85)
+    - S Chiron → J Chiron Dec 12.0096 12 whole (27.23)
+    - J Sualocin → J Sedna Dec 12.0106 12 whole (22.15)
+  - 29 whole — also: 2 Fizzy Feet / Rossa Ryan
+    - H Orion Nebula Cluster → H Sedna RA 28.9967 29 whole (69.91)
+    - J Facies → J Orcus Dec 28.9927 29 whole (40.36)
+  - 24 whole — also: 3 Indie Angel / Martin Harley
+    - H Pollux → H Vesta Dec 24.0033 24 whole (70.00)
+    - J Zubeneschamali → J Transpluto Dec 24.0140 24 whole (9.06)
+  - 56 whole — only
+    - H Pollux → H Rahu RA 55.9828 56 whole (2.01)
+    - J Adhara → J Venus Dec 55.9915 56 whole (33.22)
+  - 41 whole — also: 3 Indie Angel / Martin Harley
+    - H Sualocin → H Quaoar RA 41.0101 41 whole (24.69)
+    - S Saturn → J Saturn RA 40.9885 41 whole (18.17)
+  - 77.7778 ninth — only
+    - S Chiron → J Chiron RA 77.7687 77.7778 ninth (loose)
+    - S Rahu → J Rahu RA 77.6952 77.7778 ninth (loose)
+    - S Ketu → J Ketu RA 77.6952 77.7778 ninth (loose)
+  - 9×φ golden — also: 3 Indie Angel / Martin Harley
+    - J Jupiter → J star El Nath Dec 14.5669 9×φ golden (73.59)
+    - S El Nath → J Jupiter Dec 14.5655 9×φ golden (81.16)
+  - 5 whole — only
+    - J Betelgeuse → J Sun Dec 5.0151 5 whole (5.96)
+    - J Facies → J Mars Dec 5.0009 5 whole (91.66)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun Dec 16.1303 10×φ^1 phi power (loose) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+  - star rows: H Castor → H Sun Dec 42.9892 43 whole (20.98) — only
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: H Facies → H Sun RA 53.9986 54 whole (86.14) — also: 1 Arafi / Sean Levey
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: H Sualocin → H Sun Dec 27.0113 27 whole (18.72) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - same body: S Sun → J Sun RA 18.8162 18.8889 ninth (loose) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+  - star rows: J Betelgeuse → J Sun Dec 5.0151 5 whole (5.96) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: J El Nath → J Sun Dec 16.1874 10×φ^1 phi power (83.33) — only
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+- **Mercury**
+  - same body: S Mercury → H Mercury Dec 15.9741 16 whole (loose) — only
+  - star rows: H Betelgeuse → H Mercury RA 137.5577 85×φ golden (5.37) — only
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Sualocin → H Mercury RA 1.3335 1.33333 ninth (97.42) — only
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - star rows: H Zubeneschamali → H Mercury RA 81.9859 82 whole (8.77) — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - star rows: J Adhara → J Mercury RA 71.9822 72 whole (1.26) — only
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: J Ras Algethi → J Mercury RA 134.0064 134 whole (46.49) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: J Zubeneschamali → J Mercury RA 163.4150 101×φ golden (64.05) — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **Venus**
+  - same body: S Venus → H Venus Dec 24.1515 24.14 silver (loose) — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → Venus Dec 19.0027 19 whole (74.86)
+  - star rows: H Orion Nebula Cluster → H Venus RA 137.5605 85×φ golden (2.13) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: H Orion Nebula Cluster → H Venus Dec 14.1452 14.14 sqrt2 (91.53) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: H Zubeneschamali → H Venus RA 77.0118 77 whole (17.00) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - star rows: J Adhara → J Venus Dec 55.9915 56 whole (33.22) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: J Difda → J Venus Dec 45.0032 45 whole (70.20) — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Pollux → J Venus Dec 1.0118 1 whole (16.95) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **Saturn**
+  - same body: S Saturn → H Saturn Dec 3.0282 3 whole (loose) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+  - same body: S Saturn → J Saturn RA 40.9885 41 whole (18.17) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+  - star rows: J Orion Nebula Cluster → J Saturn RA 170.9997 171 whole (97.22) — also: 1 Arafi / Sean Levey
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **Pluto**
+  - same body: S Pluto → H Pluto RA 11.0138 11 whole (9.59) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+  - star rows: H Castor → H Pluto RA 173.9843 174 whole (4.65) — only
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: H Facies → H Pluto Dec 2.9892 3 whole (21.14) — also: 1 Arafi / Sean Levey
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - same body: S Pluto → J Pluto RA 74.4212 46×φ golden (55.04) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+- **Orcus**
+  - same body: S Orcus → H Orcus Dec 2.0295 2 whole (loose) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+  - star rows: H Zubeneschamali → H Orcus Dec 0.0837 conj (51.98) — also: 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - top rows: S Sun → J Orcus RA 114.8834 71×φ golden (82.54) — also: 1 Arafi / Sean Levey
+  - top rows: S Sun → J Orcus Dec 0.0594 conj (64.29) — also: 1 Arafi / Sean Levey
+  - star rows: J Facies → J Orcus Dec 28.9927 29 whole (40.36) — also: 5 Pholas / Hollie Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **Quaoar**
+  - same body: S Quaoar → H Quaoar RA 7.0245 7 whole (loose) — also: 5 Pholas / Hollie Doyle
+  - star rows: H Difda → H Quaoar RA 101.9999 102 whole (98.96) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: H Sualocin → H Quaoar RA 41.0101 41 whole (24.69) — only
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+  - star rows: J Facies → J Quaoar RA 46.9232 29×φ golden (98.80) — only
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **Eris**
+  - T1: H Jupiter → H Eris Dec 8.0904 5×φ golden (98.73) — only
+  - star rows: H Facies → H Eris Dec 21.0188 21 whole (0.38) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: J Zubeneschamali → J Eris Dec 0.2689 conj (1.07) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **Jupiter**
+  - T1: H Jupiter → H star El Nath RA 90.0033 90 whole (69.52) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley
+  - top rows: S Sun → H Jupiter Dec 0.1755 conj (17.22) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+  - top rows: S Makemake → H Jupiter RA 26.1873 10×φ^2 phi power (89.58) — also: 1 Arafi / Sean Levey
+  - star rows: H El Nath → H Jupiter RA 90.0033 90 whole (69.52) — only
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - T2: J Jupiter → J star El Nath Dec 14.5669 9×φ golden (73.59) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley
+  - top rows: S Uranus → J Jupiter Dec 0.0017 conj (98.90) — only
+  - star rows: J Adhara → J Jupiter Dec 43.0175 43 whole (1.61) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: S El Nath → J Jupiter Dec 14.5655 9×φ golden (81.16) — only
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: J Pollux → J Jupiter Dec 13.9858 14 whole (8.50) — only
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **Ceres**
+  - star rows: H Adhara → H Ceres RA 121.3519 75×φ golden (96.22) — also: 5 Pholas / Hollie Doyle
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: H Ras Algethi → H Ceres Dec 30.0133 30 whole (11.29) — also: 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - same body: S Ceres → J Ceres Dec 14.1131 14.14 sqrt2 (loose) — also: 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 5 Pholas / Hollie Doyle
+  - top rows: S Jupiter → J Ceres Dec 0.1710 conj (18.50) — only
+  - star rows: J Pollux → J Ceres RA 129.4143 80×φ golden (1.47) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - star rows: J Sualocin → J Ceres RA 37.0073 37 whole (40.07) — also: 1 Arafi / Sean Levey
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **Vesta**
+  - star rows: H Adhara → H Vesta Dec 32.9979 33 whole (80.21) — only
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: H Difda → H Vesta Dec 22.0118 22 whole (16.88) — also: 5 Pholas / Hollie Doyle
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: H Pollux → H Vesta Dec 24.0033 24 whole (70.00) — also: 1 Arafi / Sean Levey
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - star rows: J Facies → J Vesta Dec 48.9811 49 whole (0.32) — only
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **Sedna**
+  - star rows: H Betelgeuse → H Sedna Dec 0.1365 conj (29.70) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H Orion Nebula Cluster → H Sedna RA 28.9967 29 whole (69.91) — only
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: J Castor → J Sedna Dec 27.9917 28 whole (34.20) — also: 1 Arafi / Sean Levey
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: J Sualocin → J Sedna Dec 12.0106 12 whole (22.15) — only
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **Gonggong**
+  - star rows: H Betelgeuse → H Gonggong RA 113.2841 70×φ golden (10.73) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan
+    - source line: S Jupiter → Betelgeuse RA 122.9946 φ^10 phi power (99.13)
+  - star rows: H El Nath → H Gonggong Dec 41.4281 41.4 silver (93.57) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: J El Nath → J Gonggong RA 111.9975 112 whole (76.37) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: J Zubeneschamali → J Gonggong RA 100.3141 62×φ golden (76.90) — also: 5 Pholas / Hollie Doyle
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **Ketu**
+  - star rows: H Castor → H Ketu RA 121.3399 75×φ golden (37.09) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: H Pollux → H Ketu RA 124.0172 124 whole (2.01) — also: 3 Indie Angel / Martin Harley
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - same body: S Ketu → J Ketu RA 77.6952 77.7778 ninth (loose) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+- **Mars**
+  - star rows: H El Nath → H Mars Dec 46.0052 46 whole (54.60) — also: 1 Arafi / Sean Levey
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+  - star rows: H Orion Nebula Cluster → H Mars Dec 12.0044 12 whole (60.85) — also: 1 Arafi / Sean Levey
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - star rows: H Zubeneschamali → H Mars Dec 8.0138 8 whole (9.47) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - same body: S Mars → J Mars RA 122.3544 122.222 ninth (loose) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → Mars RA 110.0189 68×φ golden (59.41)
+  - star rows: J Castor → J Mars RA 160.1872 99×φ golden (88.82) — also: 2 Fizzy Feet / Rossa Ryan
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: J Facies → J Mars Dec 5.0009 5 whole (91.66) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **Rahu**
+  - star rows: H Facies → H Rahu RA 106.7822 66×φ golden (56.53) — also: 4 Nirodha / Silvestre De Sousa, 5 Pholas / Hollie Doyle
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: H Pollux → H Rahu RA 55.9828 56 whole (2.01) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+  - same body: S Rahu → J Rahu RA 77.6952 77.7778 ninth (loose) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+  - star rows: J Adhara → J Rahu Dec 25.9843 26 whole (4.66) — only
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: J Difda → J Rahu Dec 14.9960 15 whole (64.26) — also: 3 Indie Angel / Martin Harley
+    - source line: S Sun → Difda RA 0.8223 conj (20.41)
+  - star rows: J Pollux → J Rahu Dec 31.0190 31 whole (0.26) — also: 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+    - source line: S Sun → Pollux Dec 22.9976 23 whole (77.78)
+- **Haumea**
+  - star rows: H Facies → H Haumea RA 67.0199 67 whole (0.01) — only
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+  - star rows: J El Nath → J Haumea RA 103.5720 64×φ golden (20.14) — also: 5 Pholas / Hollie Doyle
+    - source line: S Jupiter → El Nath Dec 42.9967 43 whole (69.87)
+- **Chiron**
+  - star rows: H Orion Nebula Cluster → H Chiron RA 94.9849 95 whole (6.10) — also: 1 Arafi / Sean Levey
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+  - same body: S Chiron → J Chiron RA 77.7687 77.7778 ninth (loose) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+  - same body: S Chiron → J Chiron Dec 12.0096 12 whole (27.23) — also: 1 Arafi / Sean Levey, 5 Pholas / Hollie Doyle
+  - star rows: J Orion Nebula Cluster → J Chiron RA 1.1229 conj (6.32) — also: 1 Arafi / Sean Levey
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **Uranus**
+  - star rows: H Zubeneschamali → H Uranus RA 147.2387 91×φ golden (85.66) — also: 1 Arafi / Sean Levey, 2 Fizzy Feet / Rossa Ryan, 4 Nirodha / Silvestre De Sousa
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+  - star rows: J Facies → J Uranus Dec 0.2705 conj (0.97) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley, 4 Nirodha / Silvestre De Sousa
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
+- **Neptune**
+  - same body: S Neptune → J Neptune RA 71.1751 44×φ golden (loose) — also: 2 Fizzy Feet / Rossa Ryan, 5 Pholas / Hollie Doyle
+  - top rows: S Moon → J Neptune Dec 1.9943 2 whole (51.21) — also: 3 Indie Angel / Martin Harley
+  - star rows: J Orion Nebula Cluster → J Neptune Dec 16.6643 16.6667 ninth (98.00) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley
+    - source line: S Jupiter → Orion Nebula Cluster Dec 8.9961 9 whole (65.07)
+- **Transpluto**
+  - same body: S Transpluto → J Transpluto RA 11.1131 11.1111 ninth (96.81) — only
+  - star rows: J Ras Algethi → J Transpluto Dec 0.2420 conj (3.74) — also: 1 Arafi / Sean Levey, 3 Indie Angel / Martin Harley
+    - source line: S Moon → Ras Algethi RA 1.4141 1.414 sqrt2 (99.04)
+  - star rows: J Zubeneschamali → J Transpluto Dec 24.0140 24 whole (9.06) — also: 1 Arafi / Sean Levey
+    - source line: S Moon → Zubeneschamali RA 27.9946 28 whole (53.17)
+- **Pallas**
+  - star rows: J Adhara → J Pallas RA 155.3442 96×φ golden (36.01) — only
+    - source line: S Sun → Adhara Dec 34.0052 34 whole (54.46)
+  - star rows: J Sualocin → J Pallas RA 0.5986 conj (36.11) — only
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **Juno**
+  - star rows: J Castor → J Juno RA 69.5767 43×φ golden (92.45) — also: 5 Pholas / Hollie Doyle
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: J Castor → J Juno Dec 22.9946 23 whole (53.31) — also: 5 Pholas / Hollie Doyle
+    - source line: S Sun → Castor RA 101.9336 63×φ golden (84.87)
+  - star rows: J Sualocin → J Juno Dec 7.0135 7 whole (10.58) — only
+    - source line: S Sun → Sualocin RA 61.8083 100×φ^-1 phi power (96.84)
+- **Makemake**
+  - star rows: J Facies → J Makemake RA 112.9911 113 whole (31.01) — also: 4 Nirodha / Silvestre De Sousa
+    - source line: S Moon → Facies Dec 0.1473 conj (25.89)
