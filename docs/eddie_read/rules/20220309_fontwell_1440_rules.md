@@ -20,11 +20,13 @@ Workbook race_batch_20220309_fontwell_1440_jupiter_tables.xlsx. Runners 7. Resul
 - **B6 Same body on both charts** (0 of 7): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 7): 2 Royaume Uni / Joshua Moore
 - **B8 One line star on the most natal bodies** (3 of 7): 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle
+- **B9 Jupiter and two of its line stars on one natal body** (0 of 7): none
+- **B10 Sun and two of its line stars on one natal body** (1 of 7): 2 Royaume Uni / Joshua Moore
 
 ## Per runner
 
 - 1 Breaking Waves / Jonjo O'Neill Jr: R1b, R1
-- 2 Royaume Uni / Joshua Moore: B7, B8
+- 2 Royaume Uni / Joshua Moore: B7, B8, B10
 - 3 Hell Red / Harry Cobden: R25, B8
 - 4 Dreaming Blue / Rex Dingle: B8
 - 5 Grangeclare Glory / Tom Scudamore: R40
@@ -120,4 +122,16 @@ _For each runner and each natal star on one chart (every star-row star is on a s
   - J Denebola → J Sun RA 111.1754 111.111 ninth (89.47)
   - J Denebola → J Mars RA 141.4612 141.4 sqrt2 (89.05)
   - J Denebola → J Gonggong RA 153.7157 95×φ golden (85.30)
+
+### B9 Jupiter and two of its line stars on one natal body
+_One natal body X on one chart (X not Jupiter) that sky Jupiter reaches at 50 or more (stage 1 top rows 'S Jupiter -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- none
+
+### B10 Sun and two of its line stars on one natal body
+_As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun reaches at 50 or more (stage 1 top rows 'S Sun -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Sun line. Every runner with such a body is picked._
+- 2 Royaume Uni / Joshua Moore
+  - H Orcus: S Sun and 2 Sun-line stars (Diadem, Zosma)
+  - S Sun → H Orcus Dec 4.9999 5 whole (98.76)
+  - H Diadem → H Orcus Dec 27.0017 27 whole (84.16)
+  - H Zosma → H Orcus Dec 29.9955 30 whole (60.26)
 

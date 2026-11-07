@@ -207,6 +207,41 @@
      "J Sualocin → J Saturn RA 56.6334 35×φ golden (87.00)"
     ]
    }
+  },
+  {
+   "id": "B9",
+   "name": "Jupiter and two of its line stars on one natal body",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B10",
+   "name": "Sun and two of its line stars on one natal body",
+   "selected": [
+    "P01",
+    "P03",
+    "P09"
+   ],
+   "cells": {
+    "P01": [
+     "J Gonggong: S Sun and 2 Sun-line stars (Rasalhague, Sualocin)",
+     "S Sun → J Gonggong RA 20.9968 21 whole (70.92)",
+     "J Rasalhague → J Gonggong RA 67.9578 42×φ golden (97.64)",
+     "J Sualocin → J Gonggong Dec 33.9767 21×φ golden (87.80)"
+    ],
+    "P03": [
+     "J Neptune: S Sun and 2 Sun-line stars (Deneb, Sualocin)",
+     "S Sun → J Neptune Dec 0.0394 conj (75.48)",
+     "J Deneb → J Neptune RA 0.1446 conj (81.65)",
+     "J Sualocin → J Neptune RA 0.3023 conj (63.76)"
+    ],
+    "P09": [
+     "H Vesta: S Sun and 2 Sun-line stars (Rasalhague, Sualocin)",
+     "S Sun → H Vesta RA 106.7916 66×φ golden (91.77)",
+     "H Rasalhague → H Vesta Dec 9.0053 9 whole (54.06)",
+     "H Sualocin → H Vesta RA 106.0007 106 whole (93.11)"
+    ]
+   }
   }
  ]
 }

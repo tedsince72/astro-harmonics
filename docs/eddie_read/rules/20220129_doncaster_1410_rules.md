@@ -20,6 +20,8 @@ Workbook race_batch_20220129_doncaster_1410_jupiter_tables.xlsx. Runners 5. Resu
 - **B6 Same body on both charts** (0 of 5): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 5): 3 Anna Bunina / James Bowen
 - **B8 One line star on the most natal bodies** (1 of 5): 2 Western Victory / Tom Bellamy
+- **B9 Jupiter and two of its line stars on one natal body** (0 of 5): none
+- **B10 Sun and two of its line stars on one natal body** (1 of 5): 5 Miss Heritage / Sean Quinlan
 
 ## Per runner
 
@@ -27,7 +29,7 @@ Workbook race_batch_20220129_doncaster_1410_jupiter_tables.xlsx. Runners 5. Resu
 - 2 Western Victory / Tom Bellamy: R42, B8
 - 3 Anna Bunina / James Bowen: B7
 - 4 Dazzling Glory / Harry Skelton: none
-- 5 Miss Heritage / Sean Quinlan: none
+- 5 Miss Heritage / Sean Quinlan: B10
 
 ## Cells
 
@@ -106,4 +108,21 @@ _For each runner and each natal star on one chart (every star-row star is on a s
   - H Difda → H Makemake RA 179.4716 10×φ^6 phi power (93.66)
   - H Difda → H Sedna RA 42.3675 10×φ^3 phi power (93.62)
   - H Difda → H Pluto RA 89.0010 89 whole (90.54)
+
+### B9 Jupiter and two of its line stars on one natal body
+_One natal body X on one chart (X not Jupiter) that sky Jupiter reaches at 50 or more (stage 1 top rows 'S Jupiter -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- none
+
+### B10 Sun and two of its line stars on one natal body
+_As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun reaches at 50 or more (stage 1 top rows 'S Sun -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Sun line. Every runner with such a body is picked._
+- 5 Miss Heritage / Sean Quinlan
+  - J Sedna: S Sun and 3 Sun-line stars (Murzim, Sadalsuud, Scheat)
+  - S Sun → J Sedna Dec 21.0007 21 whole (92.86)
+  - J Murzim → J Sedna Dec 21.0370 13×φ golden (85.02)
+  - J Sadalsuud → J Sedna RA 76.0030 76 whole (72.07)
+  - J Scheat → J Sedna Dec 25.0033 25 whole (69.60)
+  - J Uranus: S Sun and 2 Sun-line stars (Scheat, Wezen)
+  - S Sun → J Uranus Dec 3.9991 4 whole (90.75)
+  - J Scheat → J Uranus Dec 50.0031 50 whole (71.45)
+  - J Wezen → J Uranus RA 141.4383 141.4 sqrt2 (95.27)
 

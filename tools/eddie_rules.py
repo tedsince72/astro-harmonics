@@ -20,6 +20,8 @@ Rules (Eddie, 7 Nov 2026: "create the rules for all of these"; text in rules.jso
          B5 one natal body with same-body cells >= 50 in RA and in Dec on the same chart
          B6 one body with a same-body cell >= 50 on the horse chart and one on the jockey chart
          B8 one natal line star on the most natal bodies of its chart, each cell scoring >= 80 (ties all)
+         B9 / B10 one natal body (not the centre itself) reached by sky Jupiter / sky Sun (top rows, >= 50) and by two or more of
+            that centre's line stars on the same chart (natal star-row cells, each >= 50)
          B7 most sky bodies onto the jockey's natal Jupiter (top rows 'S X -> J Jupiter', score >= 80, X not Jupiter; ties all)
 A new rule: its entry in rules.json and a function in RULES below (takes the race context, returns {runner: [cells]}).
 """
@@ -196,8 +198,34 @@ def b8(ctx):
     return out
 
 
+def centre_and_stars(centre):
+    def f(ctx):
+        d = ctx['d']
+        lstars = {st for st, cs in d['star_centre'].items() if centre in cs}
+        direct, stars = defaultdict(list), defaultdict(lambda: defaultdict(list))
+        for p in d['pieces']:
+            if p.get('score') is None or p['score'] < 50 or p['body'] == centre:
+                continue
+            k = (p['runner'], p['chart'], p['body'])
+            if p['layer'] == 'top rows' and p['source'] == 'S ' + centre:
+                direct[k].append(p)
+            elif (p['layer'] == 'star rows' and p['source'].startswith(p['chart'] + ' ')
+                  and p.get('star') in lstars):
+                stars[k][p['star']].append(p)
+        out = defaultdict(list)
+        for k in sorted(direct):
+            if len(stars[k]) >= 2:
+                R, ch, X = k
+                out[R].append(f"{ch} {X}: S {centre} and {len(stars[k])} {centre}-line stars ({', '.join(sorted(stars[k]))})")
+                for p in sorted(direct[k], key=lambda p: -p['score']) + \
+                        [q for st in sorted(stars[k]) for q in sorted(stars[k][st], key=lambda p: -p['score'])]:
+                    out[R].append(sbtxt(p))
+        return dict(out)
+    return f
+
+
 RULES = {rid: reg_rule(rid) for rid in ('R25', 'R28', 'R1b', 'R7', 'R26', 'R40', 'R42', 'R1')}
-RULES.update(B1=b1, B2=b2, B3=b3, B4=b4, B5=b5, B6=b6, B7=b7, B8=b8)
+RULES.update(B1=b1, B2=b2, B3=b3, B4=b4, B5=b5, B6=b6, B7=b7, B8=b8, B9=centre_and_stars('Jupiter'), B10=centre_and_stars('Sun'))
 
 
 def run(json_path, rules):

@@ -20,15 +20,17 @@ Workbook race_batch_20220121_lingfield_1350_jupiter_tables.xlsx. Runners 7. Resu
 - **B6 Same body on both charts** (0 of 7): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 7): 3 Frero Banbou / Charlie Deutsch
 - **B8 One line star on the most natal bodies** (1 of 7): 3 Frero Banbou / Charlie Deutsch
+- **B9 Jupiter and two of its line stars on one natal body** (0 of 7): none
+- **B10 Sun and two of its line stars on one natal body** (4 of 7): 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
 
 ## Per runner
 
-- 1 Eclair D'Ainay / Harry Skelton: R1b, R40, B1
-- 2 Financier / Richard Patrick: R7, R26, R42, B1, B2, B3
+- 1 Eclair D'Ainay / Harry Skelton: R1b, R40, B1, B10
+- 2 Financier / Richard Patrick: R7, R26, R42, B1, B2, B3, B10
 - 3 Frero Banbou / Charlie Deutsch: B1, B7, B8
 - 4 One True King / Sam Twiston-Davies: R26, B1
-- 5 Cedar Hill / Jonathan Burke: R1b, R1, B1, B5
-- 6 Le Ligerien / Ben Jones: R42, B1
+- 5 Cedar Hill / Jonathan Burke: R1b, R1, B1, B5, B10
+- 6 Le Ligerien / Ben Jones: R42, B1, B10
 - 7 Beaufort West / Page Fuller: R26, R40, B1
 
 ## Cells
@@ -141,4 +143,35 @@ _For each runner and each natal star on one chart (every star-row star is on a s
   - J Sualocin → J Transpluto Dec 2.2228 2.22222 ninth (91.96)
   - J Sualocin → J Gonggong Dec 33.9767 21×φ golden (87.80)
   - J Sualocin → J Saturn RA 56.6334 35×φ golden (87.00)
+
+### B9 Jupiter and two of its line stars on one natal body
+_One natal body X on one chart (X not Jupiter) that sky Jupiter reaches at 50 or more (stage 1 top rows 'S Jupiter -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- none
+
+### B10 Sun and two of its line stars on one natal body
+_As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun reaches at 50 or more (stage 1 top rows 'S Sun -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Sun line. Every runner with such a body is picked._
+- 1 Eclair D'Ainay / Harry Skelton
+  - J Makemake: S Sun and 2 Sun-line stars (Fomalhaut, Pleiades)
+  - S Sun → J Makemake Dec 55.0037 55 whole (66.63)
+  - J Fomalhaut → J Makemake Dec 64.7296 40×φ golden (55.76)
+  - J Pleiades → J Makemake Dec 11.0036 11 whole (67.32)
+  - J Transpluto: S Sun and 2 Sun-line stars (Fomalhaut, Galactic Centre)
+  - S Sun → J Transpluto RA 159.0005 159 whole (94.60)
+  - J Fomalhaut → J Transpluto RA 159.9958 160 whole (62.48)
+  - J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33)
+- 2 Financier / Richard Patrick
+  - H Ceres: S Sun and 2 Sun-line stars (Fomalhaut, Galactic Centre)
+  - S Sun → H Ceres RA 142.9989 143 whole (89.66)
+  - H Fomalhaut → H Ceres RA 102.0042 102 whole (62.77)
+  - H Galactic Centre → H Ceres RA 179.9950 180 whole (56.44)
+- 5 Cedar Hill / Jonathan Burke
+  - J Sedna: S Sun and 2 Sun-line stars (Fomalhaut, Galactic Centre)
+  - S Sun → J Sedna RA 100.9948 101 whole (55.01)
+  - J Fomalhaut → J Sedna RA 59.9982 60 whole (83.07)
+  - J Galactic Centre → J Sedna RA 137.9983 138 whole (83.42)
+- 6 Le Ligerien / Ben Jones
+  - J Sedna: S Sun and 2 Sun-line stars (Al Rescha, Pleiades)
+  - S Sun → J Sedna Dec 25.0054 25 whole (53.34)
+  - J Al Rescha → J Sedna RA 16.1893 10×φ^1 phi power (78.97)
+  - J Pleiades → J Sedna Dec 18.9955 19 whole (60.18)
 

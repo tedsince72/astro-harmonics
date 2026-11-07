@@ -20,10 +20,12 @@ Workbook race_batch_20220215_newcastle_aw_1640_jupiter_tables.xlsx. Runners 6. R
 - **B6 Same body on both charts** (0 of 6): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 6): 4 Onesmoothoperator / Harry Russell
 - **B8 One line star on the most natal bodies** (2 of 6): 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+- **B9 Jupiter and two of its line stars on one natal body** (0 of 6): none
+- **B10 Sun and two of its line stars on one natal body** (1 of 6): 1 Sir Chauvelin / Paul Mulrennan
 
 ## Per runner
 
-- 1 Sir Chauvelin / Paul Mulrennan: B1
+- 1 Sir Chauvelin / Paul Mulrennan: B1, B10
 - 2 Alba Rose / Joe Fanning: B1
 - 3 Wise Eagle / Graham Lee: R1b, R7, B1, B2, B3
 - 4 Onesmoothoperator / Harry Russell: R1b, R7, B1, B7, B8
@@ -130,4 +132,17 @@ _For each runner and each natal star on one chart (every star-row star is on a s
   - J Algorab → J Gonggong RA 144.4476 144.444 ninth (99.66)
   - J Algorab → J Saturn RA 166.6530 166.667 ninth (98.83)
   - J Algorab → J Mars RA 169.0011 169 whole (88.93)
+
+### B9 Jupiter and two of its line stars on one natal body
+_One natal body X on one chart (X not Jupiter) that sky Jupiter reaches at 50 or more (stage 1 top rows 'S Jupiter -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- none
+
+### B10 Sun and two of its line stars on one natal body
+_As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun reaches at 50 or more (stage 1 top rows 'S Sun -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Sun line. Every runner with such a body is picked._
+- 1 Sir Chauvelin / Paul Mulrennan
+  - J Venus: S Sun and 3 Sun-line stars (Alkaid, Mirach, Sadalsuud)
+  - S Sun → J Venus RA 19.4150 12×φ golden (91.31)
+  - J Alkaid → J Venus RA 141.4092 141.4 sqrt2 (96.59)
+  - J Mirach → J Venus RA 29.1224 18×φ golden (86.97)
+  - J Sadalsuud → J Venus Dec 0.0669 conj (60.40)
 

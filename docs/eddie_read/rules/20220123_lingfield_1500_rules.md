@@ -20,15 +20,17 @@ Workbook race_batch_20220123_lingfield_1500_jupiter_tables.xlsx. Runners 6. Resu
 - **B6 Same body on both charts** (0 of 6): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 6): 3 Master Tommytucker / Harry Cobden
 - **B8 One line star on the most natal bodies** (1 of 6): 5 Itchy Feet / Gavin Sheehan
+- **B9 Jupiter and two of its line stars on one natal body** (0 of 6): none
+- **B10 Sun and two of its line stars on one natal body** (5 of 6): 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
 
 ## Per runner
 
-- 1 Bristol De Mai / Sam Twiston-Davies: B1
-- 2 Dashel Drasher / Rex Dingle: B1
-- 3 Master Tommytucker / Harry Cobden: B1, B2, B7
-- 5 Itchy Feet / Gavin Sheehan: R7, R42, B1, B8
+- 1 Bristol De Mai / Sam Twiston-Davies: B1, B10
+- 2 Dashel Drasher / Rex Dingle: B1, B10
+- 3 Master Tommytucker / Harry Cobden: B1, B2, B7, B10
+- 5 Itchy Feet / Gavin Sheehan: R7, R42, B1, B8, B10
 - 6 Lieutenant Rocco / Tom Scudamore: R26, B1
-- 7 Two For Gold / David Bass: R26, B1, B3
+- 7 Two For Gold / David Bass: R26, B1, B3, B10
 
 ## Cells
 
@@ -125,4 +127,40 @@ _For each runner and each natal star on one chart (every star-row star is on a s
   - J El Nath → J Mars RA 46.9207 29×φ golden (86.39)
   - J El Nath → J Gonggong RA 110.9457 10×φ^5 phi power (84.77)
   - J El Nath → J Sun RA 11.0019 11 whole (82.30)
+
+### B9 Jupiter and two of its line stars on one natal body
+_One natal body X on one chart (X not Jupiter) that sky Jupiter reaches at 50 or more (stage 1 top rows 'S Jupiter -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- none
+
+### B10 Sun and two of its line stars on one natal body
+_As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun reaches at 50 or more (stage 1 top rows 'S Sun -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Sun line. Every runner with such a body is picked._
+- 1 Bristol De Mai / Sam Twiston-Davies
+  - J Juno: S Sun and 2 Sun-line stars (Ankaa, Menkar)
+  - S Sun → J Juno RA 152.0027 152 whole (74.91)
+  - J Ankaa → J Juno RA 90.9947 91 whole (54.17)
+  - J Menkar → J Juno RA 51.9970 52 whole (72.36)
+- 2 Dashel Drasher / Rex Dingle
+  - J Mercury: S Sun and 2 Sun-line stars (Ankaa, Menkar)
+  - S Sun → J Mercury RA 42.0005 42 whole (95.31)
+  - J Ankaa → J Mercury RA 103.0009 103 whole (90.83)
+  - J Menkar → J Mercury RA 142.0040 142 whole (63.74)
+- 3 Master Tommytucker / Harry Cobden
+  - H Rahu: S Sun and 2 Sun-line stars (Ankaa, Menkar)
+  - S Sun → H Rahu Dec 3.9955 4 whole (59.83)
+  - H Ankaa → H Rahu Dec 18.8887 18.8889 ninth (99.85)
+  - H Menkar → H Rahu Dec 27.5082 17×φ golden (90.39)
+  - J Uranus: S Sun and 2 Sun-line stars (Ankaa, Menkar)
+  - S Sun → J Uranus RA 6.0051 6 whole (55.58)
+  - J Ankaa → J Uranus RA 55.0023 55 whole (78.04)
+  - J Menkar → J Uranus RA 94.0011 94 whole (89.54)
+- 5 Itchy Feet / Gavin Sheehan
+  - J Sedna: S Sun and 2 Sun-line stars (Ankaa, Menkar)
+  - S Sun → J Sedna RA 97.9970 98 whole (72.12)
+  - J Ankaa → J Sedna RA 36.9964 37 whole (66.86)
+  - J Menkar → J Sedna RA 1.9999 2 whole (99.18)
+- 7 Two For Gold / David Bass
+  - J Saturn: S Sun and 2 Sun-line stars (Ankaa, Menkar)
+  - S Sun → J Saturn RA 37.0021 37 whole (79.75)
+  - J Ankaa → J Saturn RA 98.0032 98 whole (70.30)
+  - J Menkar → J Saturn RA 136.9995 137 whole (95.25)
 

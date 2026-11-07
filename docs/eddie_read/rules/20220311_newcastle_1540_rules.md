@@ -20,10 +20,12 @@ Workbook race_batch_20220311_newcastle_1540_jupiter_tables.xlsx. Runners 6. Resu
 - **B6 Same body on both charts** (0 of 6): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 6): 6 Thundersockssundae / Kielan Woods
 - **B8 One line star on the most natal bodies** (3 of 6): 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
+- **B9 Jupiter and two of its line stars on one natal body** (1 of 6): 1 Vocaliser / Fergus Gregory
+- **B10 Sun and two of its line stars on one natal body** (0 of 6): none
 
 ## Per runner
 
-- 1 Vocaliser / Fergus Gregory: R7
+- 1 Vocaliser / Fergus Gregory: R7, B9
 - 2 Edmond Dantes / Brian Hughes: R42, B8
 - 3 Peak Time / Conor O'Farrell: B1, B2, B3, B8
 - 5 Sir Apollo / Jonathan England: none
@@ -121,4 +123,16 @@ _For each runner and each natal star on one chart (every star-row star is on a s
   - H Zubeneschamali → H Eris RA 155.5605 155.556 ninth (99.53)
   - H Zubeneschamali → H Chiron RA 111.1143 111.111 ninth (99.48)
   - H Zubeneschamali → H Neptune Dec 1.4149 1.414 sqrt2 (94.92)
+
+### B9 Jupiter and two of its line stars on one natal body
+_One natal body X on one chart (X not Jupiter) that sky Jupiter reaches at 50 or more (stage 1 top rows 'S Jupiter -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 1 Vocaliser / Fergus Gregory
+  - J Haumea: S Jupiter and 2 Jupiter-line stars (Mirach, Sadalmelik)
+  - S Jupiter → J Haumea Dec 28.9978 29 whole (79.25)
+  - J Mirach → J Haumea Dec 13.0003 13 whole (96.97)
+  - J Sadalmelik → J Haumea RA 141.4779 141.4 sqrt2 (84.65)
+
+### B10 Sun and two of its line stars on one natal body
+_As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun reaches at 50 or more (stage 1 top rows 'S Sun -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Sun line. Every runner with such a body is picked._
+- none
 

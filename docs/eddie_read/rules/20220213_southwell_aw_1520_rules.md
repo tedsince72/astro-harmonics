@@ -20,16 +20,18 @@ Workbook race_batch_20220213_southwell_aw_1520_jupiter_tables.xlsx. Runners 7. R
 - **B6 Same body on both charts** (0 of 7): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 7): 1 The Dancing Poet / Harry Russell
 - **B8 One line star on the most natal bodies** (1 of 7): 3 Chase The Dollar / Rossa Ryan
+- **B9 Jupiter and two of its line stars on one natal body** (1 of 7): 7 Red Tornado / Jason Hart
+- **B10 Sun and two of its line stars on one natal body** (1 of 7): 2 Flying Instructor / Dylan Hogan
 
 ## Per runner
 
 - 1 The Dancing Poet / Harry Russell: B7
-- 2 Flying Instructor / Dylan Hogan: B1, B2, B3
+- 2 Flying Instructor / Dylan Hogan: B1, B2, B3, B10
 - 3 Chase The Dollar / Rossa Ryan: B1, B8
 - 4 Deluxe Music / Callum Rodriguez: B1
 - 5 Carn A Chlamain / Tom Marquand: R26, R40, B4, B5
 - 6 Flamingo Rose / Dougie Costello: B1
-- 7 Red Tornado / Jason Hart: R25
+- 7 Red Tornado / Jason Hart: R25, B9
 
 ## Cells
 
@@ -125,4 +127,20 @@ _For each runner and each natal star on one chart (every star-row star is on a s
   - J Sadalsuud → J Makemake RA 144.4143 144.444 ninth (96.81)
   - J Sadalsuud → J Mercury RA 144.4784 144.444 ninth (96.40)
   - J Sadalsuud → J Haumea Dec 27.0005 27 whole (95.52)
+
+### B9 Jupiter and two of its line stars on one natal body
+_One natal body X on one chart (X not Jupiter) that sky Jupiter reaches at 50 or more (stage 1 top rows 'S Jupiter -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 7 Red Tornado / Jason Hart
+  - H Quaoar: S Jupiter and 2 Jupiter-line stars (Alphard, Meissa)
+  - S Jupiter → H Quaoar RA 77.9994 78 whole (93.92)
+  - H Alphard → H Quaoar Dec 6.9989 7 whole (89.06)
+  - H Meissa → H Quaoar RA 179.9969 180 whole (71.14)
+
+### B10 Sun and two of its line stars on one natal body
+_As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun reaches at 50 or more (stage 1 top rows 'S Sun -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Sun line. Every runner with such a body is picked._
+- 2 Flying Instructor / Dylan Hogan
+  - H Uranus: S Sun and 2 Sun-line stars (Alkaid, Sadalsuud)
+  - S Sun → H Uranus RA 58.0016 58 whole (84.61)
+  - H Alkaid → H Uranus RA 177.9927 110×φ golden (52.26)
+  - H Sadalsuud → H Uranus RA 61.9984 62 whole (84.37)
 

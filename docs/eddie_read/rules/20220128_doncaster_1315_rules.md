@@ -20,14 +20,16 @@ Workbook race_batch_20220128_doncaster_1315_jupiter_tables.xlsx. Runners 7. Resu
 - **B6 Same body on both charts** (0 of 7): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 7): 1 Funambule Sivola / Charlie Deutsch
 - **B8 One line star on the most natal bodies** (1 of 7): 1 Funambule Sivola / Charlie Deutsch
+- **B9 Jupiter and two of its line stars on one natal body** (0 of 7): none
+- **B10 Sun and two of its line stars on one natal body** (3 of 7): 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
 
 ## Per runner
 
-- 1 Funambule Sivola / Charlie Deutsch: B1, B2, B3, B7, B8
-- 2 Before Midnight / James Bowen: B5
+- 1 Funambule Sivola / Charlie Deutsch: B1, B2, B3, B7, B8, B10
+- 2 Before Midnight / James Bowen: B5, B10
 - 3 The Big Bite / Brian Hughes: R7, R42
 - 4 King D'argent / Harry Skelton: R28, B1
-- 5 Fransham / Jack Andrews: R7, B1
+- 5 Fransham / Jack Andrews: R7, B1, B10
 - 6 Moonlighter / Tom Scudamore: none
 - 7 Gold Des Bois / Conor O'Farrell: R25, R7, R42, B1
 
@@ -126,4 +128,26 @@ _For each runner and each natal star on one chart (every star-row star is on a s
   - J Sualocin → J Transpluto Dec 2.2228 2.22222 ninth (91.96)
   - J Sualocin → J Gonggong Dec 33.9767 21×φ golden (87.80)
   - J Sualocin → J Saturn RA 56.6334 35×φ golden (87.00)
+
+### B9 Jupiter and two of its line stars on one natal body
+_One natal body X on one chart (X not Jupiter) that sky Jupiter reaches at 50 or more (stage 1 top rows 'S Jupiter -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- none
+
+### B10 Sun and two of its line stars on one natal body
+_As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun reaches at 50 or more (stage 1 top rows 'S Sun -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Sun line. Every runner with such a body is picked._
+- 1 Funambule Sivola / Charlie Deutsch
+  - J Gonggong: S Sun and 2 Sun-line stars (Rasalhague, Sualocin)
+  - S Sun → J Gonggong RA 20.9968 21 whole (70.92)
+  - J Rasalhague → J Gonggong RA 67.9578 42×φ golden (97.64)
+  - J Sualocin → J Gonggong Dec 33.9767 21×φ golden (87.80)
+- 2 Before Midnight / James Bowen
+  - J Neptune: S Sun and 2 Sun-line stars (Deneb, Sualocin)
+  - S Sun → J Neptune Dec 0.0394 conj (75.48)
+  - J Deneb → J Neptune RA 0.1446 conj (81.65)
+  - J Sualocin → J Neptune RA 0.3023 conj (63.76)
+- 5 Fransham / Jack Andrews
+  - H Vesta: S Sun and 2 Sun-line stars (Rasalhague, Sualocin)
+  - S Sun → H Vesta RA 106.7916 66×φ golden (91.77)
+  - H Rasalhague → H Vesta Dec 9.0053 9 whole (54.06)
+  - H Sualocin → H Vesta RA 106.0007 106 whole (93.11)
 

@@ -4,7 +4,7 @@
   - every rule in rules.json has a function; rules output exists for every race in results.json
   - set A picks = the SUMMARY lines race_rows.py prints (section 9) for the same workbook
   - set B recomputed here from the stage 1 json (own code)
-  - known cases: Aintree 13:50 All In You in B4, B5 (J Sun), B6 (Makemake); Aintree 12:40 Risky Obsession in B7; Aintree 13:15 Off The Jury in B8; B1 / B3 / B4 in-sample records as written
+  - known cases: Aintree 13:50 All In You in B4, B5 (J Sun), B6 (Makemake); Aintree 12:40 Risky Obsession in B7; Aintree 13:15 Off The Jury in B8; Fontwell 14:35 Fire Flyer in B9; B1 / B3 / B4 in-sample records as written
     in claude/full-race-read-method.md (B1 winner held 11 of 14, 8.2 expected; version 4 6 of 14, 2.4; B4 6 picks, 2 won)
   - every horse in the workbooks is in its results order (non-runners apart); eddie_rules.py never reads results
   - back-test tallies recomputed here
@@ -110,7 +110,21 @@ for race, o in sel.items():
             sp[p['runner']][(p['chart'], p['star'])].add(p['body'])
     bs = {R: max(len(v) for v in st.values()) for R, st in sp.items()}
     e8 = {R for R, n in bs.items() if n == max(bs.values())} if bs else set()
-    for rid, e in (('B1', e1), ('B2', e2), ('B3', e3), ('B4', e4), ('B5', e5), ('B6', e6), ('B7', e7), ('B8', e8)):
+    def cs(C):
+        ls = {st for st, c in d['star_centre'].items() if C in c}
+        dr, stv = set(), defaultdict(set)
+        for p in d['pieces']:
+            if p.get('score') is None or p['score'] < 50 or p['body'] == C:
+                continue
+            k = (p['runner'], p['chart'], p['body'])
+            if p['layer'] == 'top rows' and p['source'] == 'S ' + C:
+                dr.add(k)
+            if p['layer'] == 'star rows' and p['source'].startswith(p['chart'] + ' ') and p.get('star') in ls:
+                stv[k].add(p['star'])
+        return {k[0] for k in dr if len(stv[k]) >= 2}
+    e9, e10 = cs('Jupiter'), cs('Sun')
+    for rid, e in (('B1', e1), ('B2', e2), ('B3', e3), ('B4', e4), ('B5', e5), ('B6', e6), ('B7', e7), ('B8', e8),
+                   ('B9', e9), ('B10', e10)):
         check(got[rid] == e, f'{race} {rid}: {sorted(got[rid])} vs {sorted(e)}')
 
 # known cases
@@ -131,6 +145,10 @@ check(a['B8']['selected'] == ['P01'] and a['B8']['cells']['P01'] == [
     'J Alphard → J Uranus RA 166.0000 166 whole (99.68)', 'J Alphard → J Quaoar RA 100.3188 62×φ golden (95.93)',
     'J Alphard → J Pluto Dec 0.0065 conj (95.74)', 'J Alphard → J Saturn RA 122.9668 φ^10 phi power (92.00)'],
       'Aintree 13:15 B8 Off The Jury, J Alphard on four bodies')
+a = {r['id']: r for r in sel['20261106_fontwell_1435']['rules']}
+check(a['B9']['selected'] == ['P01'] and 'H Gonggong: S Jupiter and 2 Jupiter-line stars (Capella, Galactic Centre)' in a['B9']['cells']['P01']
+      and 'J Galactic Centre → J Juno Dec 17.0002 17 whole (98.41)' in a['B9']['cells']['P01'], 'Fontwell 14:35 B9 Fire Flyer, Juno and Gonggong')
+check(a['B10']['selected'] == ['P03', 'P05'], 'Fontwell 14:35 B10 Lynx De Thaix, Donnie Azoff')
 a = {r['id']: r for r in sel['20261106_aintree_1500']['rules']}
 check(a['B7']['selected'] == ['P01', 'P03', 'P05'], 'Aintree 15:00 B7 three tied on 1 (S Jupiter -> J Jupiter not counted)')
 

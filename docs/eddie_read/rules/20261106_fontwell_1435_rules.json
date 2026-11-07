@@ -186,6 +186,47 @@
      "J Difda → J Sun RA 3.0014 3 whole (86.42)"
     ]
    }
+  },
+  {
+   "id": "B9",
+   "name": "Jupiter and two of its line stars on one natal body",
+   "selected": [
+    "P01"
+   ],
+   "cells": {
+    "P01": [
+     "H Gonggong: S Jupiter and 2 Jupiter-line stars (Capella, Galactic Centre)",
+     "S Jupiter → H Gonggong Dec 26.0009 26 whole (91.57)",
+     "H Capella → H Gonggong Dec 58.0046 58 whole (59.22)",
+     "H Galactic Centre → H Gonggong Dec 16.9992 17 whole (91.98)",
+     "J Juno: S Jupiter and 2 Jupiter-line stars (Capella, Galactic Centre)",
+     "S Jupiter → J Juno Dec 26.0003 26 whole (97.32)",
+     "J Capella → J Juno RA 177.7605 177.778 ninth (98.65)",
+     "J Galactic Centre → J Juno Dec 17.0002 17 whole (98.41)"
+    ]
+   }
+  },
+  {
+   "id": "B10",
+   "name": "Sun and two of its line stars on one natal body",
+   "selected": [
+    "P03",
+    "P05"
+   ],
+   "cells": {
+    "P03": [
+     "H Sedna: S Sun and 2 Sun-line stars (Deneb Algedi, Difda)",
+     "S Sun → H Sedna Dec 23.9991 24 whole (90.74)",
+     "H Deneb Algedi → H Sedna Dec 24.1441 24.14 silver (96.83)",
+     "H Difda → H Sedna Dec 26.0026 26 whole (75.89)"
+    ],
+    "P05": [
+     "H Transpluto: S Sun and 2 Sun-line stars (Deneb Algedi, Difda)",
+     "S Sun → H Transpluto RA 69.0028 69 whole (74.19)",
+     "H Deneb Algedi → H Transpluto Dec 27.5023 17×φ golden (75.13)",
+     "H Difda → H Transpluto RA 141.4604 141.4 sqrt2 (89.27)"
+    ]
+   }
   }
  ]
 }

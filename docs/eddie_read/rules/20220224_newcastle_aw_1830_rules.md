@@ -20,12 +20,14 @@ Workbook race_batch_20220224_newcastle_aw_1830_jupiter_tables.xlsx. Runners 5. R
 - **B6 Same body on both charts** (0 of 5): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (0 of 5): none
 - **B8 One line star on the most natal bodies** (2 of 5): 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
+- **B9 Jupiter and two of its line stars on one natal body** (0 of 5): none
+- **B10 Sun and two of its line stars on one natal body** (1 of 5): 3 Gowanlad / Phil Dennis
 
 ## Per runner
 
 - 1 James Watt / Ben Robinson: R7, R26
 - 2 Alablaq / George Downing: R42, B1
-- 3 Gowanlad / Phil Dennis: R26, B1, B2, B3
+- 3 Gowanlad / Phil Dennis: R26, B1, B2, B3, B10
 - 4 Blazing Hot / Hollie Doyle: R1b, B4, B8
 - 5 Tathmeen / Cam Hardie: R7, R42, B1, B8
 
@@ -130,4 +132,19 @@ _For each runner and each natal star on one chart (every star-row star is on a s
   - J Zubenelgenubi → J Gonggong Dec 1.9995 2 whole (95.07)
   - J Zubenelgenubi → J Sedna RA 177.7131 177.778 ninth (94.94)
   - J Zubenelgenubi → J Saturn RA 141.4396 141.4 sqrt2 (94.91)
+
+### B9 Jupiter and two of its line stars on one natal body
+_One natal body X on one chart (X not Jupiter) that sky Jupiter reaches at 50 or more (stage 1 top rows 'S Jupiter -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- none
+
+### B10 Sun and two of its line stars on one natal body
+_As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun reaches at 50 or more (stage 1 top rows 'S Sun -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Sun line. Every runner with such a body is picked._
+- 3 Gowanlad / Phil Dennis
+  - J Ketu: S Sun and 4 Sun-line stars (Aldebaran, Kaus Australis, Mirach, Zubeneschamali)
+  - S Sun → J Ketu Dec 13.9962 14 whole (65.60)
+  - J Aldebaran → J Ketu RA 58.2450 36×φ golden (75.72)
+  - J Kaus Australis → J Ketu Dec 39.0000 39 whole (99.51)
+  - J Mirach → J Ketu Dec 31.0028 31 whole (73.93)
+  - J Zubeneschamali → J Ketu RA 141.4764 141.4 sqrt2 (85.04)
+  - J Zubeneschamali → J Ketu Dec 13.9982 14 whole (82.81)
 

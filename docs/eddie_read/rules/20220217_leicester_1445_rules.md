@@ -20,13 +20,15 @@ Workbook race_batch_20220217_leicester_1445_jupiter_tables.xlsx. Runners 4. Resu
 - **B6 Same body on both charts** (1 of 4): 3 Nelson River / Harry Bannister
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 4): 3 Nelson River / Harry Bannister
 - **B8 One line star on the most natal bodies** (3 of 4): 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
+- **B9 Jupiter and two of its line stars on one natal body** (1 of 4): 5 Stepney Causeway / Harry Skelton
+- **B10 Sun and two of its line stars on one natal body** (0 of 4): none
 
 ## Per runner
 
 - 1 Fransham / Jack Andrews: R1b, B1, B8
 - 3 Nelson River / Harry Bannister: R1b, B1, B2, B3, B4, B6, B7, B8
 - 4 Nickolson / Jonjo O'Neill Jr: R40
-- 5 Stepney Causeway / Harry Skelton: B8
+- 5 Stepney Causeway / Harry Skelton: B8, B9
 
 ## Cells
 
@@ -127,4 +129,16 @@ _For each runner and each natal star on one chart (every star-row star is on a s
   - J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49)
   - J Murzim → J Juno Dec 17.7707 17.7778 ninth (94.45)
   - J Murzim → J Orcus Dec 21.9984 22 whole (84.80)
+
+### B9 Jupiter and two of its line stars on one natal body
+_One natal body X on one chart (X not Jupiter) that sky Jupiter reaches at 50 or more (stage 1 top rows 'S Jupiter -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 5 Stepney Causeway / Harry Skelton
+  - J Uranus: S Jupiter and 2 Jupiter-line stars (Alphecca, Menkent)
+  - S Jupiter → J Uranus RA 71.0042 71 whole (62.37)
+  - J Alphecca → J Uranus RA 37.9967 38 whole (69.74)
+  - J Menkent → J Uranus RA 59.9979 60 whole (79.83)
+
+### B10 Sun and two of its line stars on one natal body
+_As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun reaches at 50 or more (stage 1 top rows 'S Sun -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Sun line. Every runner with such a body is picked._
+- none
 

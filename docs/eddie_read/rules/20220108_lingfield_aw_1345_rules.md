@@ -20,13 +20,15 @@ Workbook race_batch_20220108_lingfield_aw_1345_jupiter_tables.xlsx. Runners 5. R
 - **B6 Same body on both charts** (0 of 5): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 5): 1 Protected Guest / Jane Elliott
 - **B8 One line star on the most natal bodies** (2 of 5): 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry
+- **B9 Jupiter and two of its line stars on one natal body** (0 of 5): none
+- **B10 Sun and two of its line stars on one natal body** (1 of 5): 4 Trevolli / Kieran O'Neill
 
 ## Per runner
 
 - 1 Protected Guest / Jane Elliott: R26, B1, B4, B7, B8
 - 2 Supakalanistic / Liam Keniry: R28, R1b, R7, R42, B8
 - 3 Creationist / Connor Murtagh: B1, B2, B3
-- 4 Trevolli / Kieran O'Neill: R42
+- 4 Trevolli / Kieran O'Neill: R42, B10
 - 5 Eleven Eleven / Joey Haynes: R28, R7, B1
 
 ## Cells
@@ -132,4 +134,16 @@ _For each runner and each natal star on one chart (every star-row star is on a s
   - H Ankaa → H Transpluto Dec 53.9993 54 whole (92.68)
   - H Ankaa → H Jupiter RA 64.9991 65 whole (91.40)
   - H Ankaa → H Mercury Dec 37.0021 37 whole (80.06)
+
+### B9 Jupiter and two of its line stars on one natal body
+_One natal body X on one chart (X not Jupiter) that sky Jupiter reaches at 50 or more (stage 1 top rows 'S Jupiter -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- none
+
+### B10 Sun and two of its line stars on one natal body
+_As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun reaches at 50 or more (stage 1 top rows 'S Sun -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Sun line. Every runner with such a body is picked._
+- 4 Trevolli / Kieran O'Neill
+  - H Uranus: S Sun and 2 Sun-line stars (Sadalmelik, Sadalsuud)
+  - S Sun → H Uranus RA 96.0033 96 whole (70.03)
+  - H Sadalmelik → H Uranus RA 54.0039 54 whole (64.85)
+  - H Sadalsuud → H Uranus Dec 15.5578 15.5556 ninth (97.85)
 

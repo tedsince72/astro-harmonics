@@ -20,12 +20,14 @@ Workbook race_batch_20220214_catterick_1515_jupiter_tables.xlsx. Runners 6. Resu
 - **B6 Same body on both charts** (0 of 6): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 6): 5 Brian Boranha / Callum Bewley
 - **B8 One line star on the most natal bodies** (1 of 6): 4 Winds Of Fire / Adam Wedge
+- **B9 Jupiter and two of its line stars on one natal body** (0 of 6): none
+- **B10 Sun and two of its line stars on one natal body** (1 of 6): 3 Omar Maretti / Kielan Woods
 
 ## Per runner
 
 - 1 Almazhar Garde / Luca Morgan: R40, R42
 - 2 Marown / Brian Hughes: none
-- 3 Omar Maretti / Kielan Woods: none
+- 3 Omar Maretti / Kielan Woods: B10
 - 4 Winds Of Fire / Adam Wedge: R1b, R40, R1, B8
 - 5 Brian Boranha / Callum Bewley: R1b, R7, B7
 - 6 The Paddy Pie / Sean Quinlan: none
@@ -112,4 +114,16 @@ _For each runner and each natal star on one chart (every star-row star is on a s
   - H Alphard → H Pluto RA 144.4362 144.444 ninth (99.12)
   - H Alphard → H Pallas Dec 24.1406 24.14 silver (97.53)
   - H Alphard → H Juno RA 16.6608 16.6667 ninth (95.00)
+
+### B9 Jupiter and two of its line stars on one natal body
+_One natal body X on one chart (X not Jupiter) that sky Jupiter reaches at 50 or more (stage 1 top rows 'S Jupiter -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- none
+
+### B10 Sun and two of its line stars on one natal body
+_As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun reaches at 50 or more (stage 1 top rows 'S Sun -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Sun line. Every runner with such a body is picked._
+- 3 Omar Maretti / Kielan Woods
+  - H Pallas: S Sun and 2 Sun-line stars (Difda, Murzim)
+  - S Sun → H Pallas RA 176.3672 109×φ golden (91.22)
+  - H Difda → H Pallas RA 133.3309 133.333 ninth (99.71)
+  - H Murzim → H Pallas RA 48.5497 30×φ golden (53.33)
 

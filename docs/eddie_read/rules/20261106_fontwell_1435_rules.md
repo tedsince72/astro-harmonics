@@ -20,12 +20,14 @@ Workbook race_batch_20261106_fontwell_1435_jupiter_tables.xlsx. Runners 7. Resul
 - **B6 Same body on both charts** (0 of 7): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 7): 7 Motazzen / Paul O'Brien
 - **B8 One line star on the most natal bodies** (1 of 7): 3 Donnie Azoff / Isabelle Ryder
+- **B9 Jupiter and two of its line stars on one natal body** (1 of 7): 1 Fire Flyer / Richie McLernon
+- **B10 Sun and two of its line stars on one natal body** (2 of 7): 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
 
 ## Per runner
 
-- 1 Fire Flyer / Richie McLernon: R26, B1
-- 2 Lynx De Thaix / Gavin Sheehan: none
-- 3 Donnie Azoff / Isabelle Ryder: B1, B8
+- 1 Fire Flyer / Richie McLernon: R26, B1, B9
+- 2 Lynx De Thaix / Gavin Sheehan: B10
+- 3 Donnie Azoff / Isabelle Ryder: B1, B8, B10
 - 5 He's A Latchico / Caoilin Quinn: B1
 - 6 So You Know / Tom Bellamy: B1, B2, B3
 - 7 Motazzen / Paul O'Brien: R28, R42, B7
@@ -121,4 +123,29 @@ _For each runner and each natal star on one chart (every star-row star is on a s
   - J Difda → J Pallas Dec 26.1826 10×φ^2 phi power (96.52)
   - J Difda → J Mars RA 35.9995 36 whole (94.97)
   - J Difda → J Sun RA 3.0014 3 whole (86.42)
+
+### B9 Jupiter and two of its line stars on one natal body
+_One natal body X on one chart (X not Jupiter) that sky Jupiter reaches at 50 or more (stage 1 top rows 'S Jupiter -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 1 Fire Flyer / Richie McLernon
+  - H Gonggong: S Jupiter and 2 Jupiter-line stars (Capella, Galactic Centre)
+  - S Jupiter → H Gonggong Dec 26.0009 26 whole (91.57)
+  - H Capella → H Gonggong Dec 58.0046 58 whole (59.22)
+  - H Galactic Centre → H Gonggong Dec 16.9992 17 whole (91.98)
+  - J Juno: S Jupiter and 2 Jupiter-line stars (Capella, Galactic Centre)
+  - S Jupiter → J Juno Dec 26.0003 26 whole (97.32)
+  - J Capella → J Juno RA 177.7605 177.778 ninth (98.65)
+  - J Galactic Centre → J Juno Dec 17.0002 17 whole (98.41)
+
+### B10 Sun and two of its line stars on one natal body
+_As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun reaches at 50 or more (stage 1 top rows 'S Sun -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Sun line. Every runner with such a body is picked._
+- 2 Lynx De Thaix / Gavin Sheehan
+  - H Sedna: S Sun and 2 Sun-line stars (Deneb Algedi, Difda)
+  - S Sun → H Sedna Dec 23.9991 24 whole (90.74)
+  - H Deneb Algedi → H Sedna Dec 24.1441 24.14 silver (96.83)
+  - H Difda → H Sedna Dec 26.0026 26 whole (75.89)
+- 3 Donnie Azoff / Isabelle Ryder
+  - H Transpluto: S Sun and 2 Sun-line stars (Deneb Algedi, Difda)
+  - S Sun → H Transpluto RA 69.0028 69 whole (74.19)
+  - H Deneb Algedi → H Transpluto Dec 27.5023 17×φ golden (75.13)
+  - H Difda → H Transpluto RA 141.4604 141.4 sqrt2 (89.27)
 

@@ -20,6 +20,8 @@ Workbook race_batch_20220223_doncaster_1600_jupiter_tables.xlsx. Runners 6. Resu
 - **B6 Same body on both charts** (0 of 6): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 6): 5 Half Track / Sean Quinlan
 - **B8 One line star on the most natal bodies** (1 of 6): 1 Boss Man Fred / Harry Skelton
+- **B9 Jupiter and two of its line stars on one natal body** (0 of 6): none
+- **B10 Sun and two of its line stars on one natal body** (0 of 6): none
 
 ## Per runner
 
@@ -109,4 +111,12 @@ _For each runner and each natal star on one chart (every star-row star is on a s
   - J Praesepe → J Uranus Dec 43.6862 27×φ golden (95.48)
   - J Praesepe → J Rahu Dec 32.9990 33 whole (90.27)
   - J Praesepe → J Gonggong Dec 40.4542 25×φ golden (80.61)
+
+### B9 Jupiter and two of its line stars on one natal body
+_One natal body X on one chart (X not Jupiter) that sky Jupiter reaches at 50 or more (stage 1 top rows 'S Jupiter -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- none
+
+### B10 Sun and two of its line stars on one natal body
+_As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun reaches at 50 or more (stage 1 top rows 'S Sun -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Sun line. Every runner with such a body is picked._
+- none
 
