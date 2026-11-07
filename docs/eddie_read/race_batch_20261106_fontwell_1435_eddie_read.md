@@ -7,7 +7,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - Galactic Centre Dec 43.000393 43 whole (96.10) -> toward — applying, exact 14:52 (in 17.2 min)
 - Uranus RA 84.999298 85 whole (93.10) -> toward — applying, exact 14:41 (in 6.9 min)
 - Capella Dec 32.001574 32 whole (84.88) <- away — separating, exact 13:26 (68.8 min ago)
-- Ketu RA 1.460334 conj (0.07) -> toward — applying, exact 12 Nov 2026 15:17 (in 8682.9 min)
 ### Sky Sun
 - Difda Dec 2.000210 2 whole (97.91) <- away — applying, exact 14:36 (in 1.0 min) [360/180]
 - Orion Nebula Cluster RA 137.532001 85×φ golden (94.58) <- away — applying, exact 14:36 (in 1.3 min)
@@ -16,7 +15,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - Zubenelgenubi Dec 0.055011 conj (66.69) -> toward — applying, exact 19:01 (in 266.1 min)
 - Haumea RA 0.623093 conj (34.18) <- away — separating, exact 05 Nov 2026 23:07 (927.9 min ago)
 - Deneb Algedi Dec 0.143835 conj (27.10) -> toward — applying, exact 07 Nov 2026 02:10 (in 695.9 min)
-- Zubenelgenubi RA 1.354778 conj (0.94) -> toward — applying, exact 07 Nov 2026 23:28 (in 1973.7 min)
 ### Sky Moon
 - Sadalsuud RA 133.338676 133.333 ninth (99.36) <- away — applying, exact 14:35 (in 0.7 min)
 - Algol Dec 49.999895 50 whole (98.95) <- away — applying, exact 14:35 (in 0.0 min)
@@ -26,7 +24,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - Vindemiatrix Dec 20.003415 20 whole (68.76) <- away — separating, exact 14:34 (0.9 min ago) [360/18]
 - **Hubs** (a point two centres reach): Zubenelgenubi (Sun + Moon)
 - **Top line** (highest, exact within 5 min of the off): S Moon → Sadalsuud RA 133.338676 133.333 (99.36)
-- **Conj points**: S Jupiter conj Ketu RA 1.4603 (0.07) applying, exact 12 Nov 2026 15:17 (in 8682.9 min); S Sun conj Haumea RA 0.6231 (34.18) separating, exact 05 Nov 2026 23:07 (927.9 min ago); S Sun conj Zubenelgenubi RA 1.3548 (0.94) applying, exact 07 Nov 2026 23:28 (in 1973.7 min); S Sun conj Zubenelgenubi Dec 0.0550 (66.69) applying, exact 19:01 (in 266.1 min); S Sun conj Deneb Algedi Dec 0.1438 (27.10) applying, exact 07 Nov 2026 02:10 (in 695.9 min)
+- **Conj points**: S Sun conj Haumea RA 0.6231 (34.18) separating, exact 05 Nov 2026 23:07 (927.9 min ago); S Sun conj Zubenelgenubi Dec 0.0550 (66.69) applying, exact 19:01 (in 266.1 min); S Sun conj Deneb Algedi Dec 0.1438 (27.10) applying, exact 07 Nov 2026 02:10 (in 695.9 min)
 - **Noted stars**: Algol (Moon), Capella (Jupiter), Deneb (Sun), Deneb Algedi (Sun), Difda (Sun), Galactic Centre (Jupiter), Orion Nebula Cluster (Sun), Pleiades (Moon), Rigel (Moon), Sadalsuud (Moon), Scheat (Sun), Vindemiatrix (Moon), Zubenelgenubi (Sun/Moon)
 - **Strong line stars** (>= 90): Algol, Difda, Galactic Centre, Orion Nebula Cluster, Rigel, Sadalsuud, Scheat
 
@@ -1051,7 +1049,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - J EXACT: S Moon → Zubenelgenubi Dec 6.997565 | J Jupiter → J body Uranus Dec 7.017693 7 whole (1.33)
 ### 6. T1 (horse Jupiter)
 - H Jupiter → H star Vindemiatrix RA 133.3876 133.333 ninth (93.49) [sky number: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)] — only
-- H Jupiter → H Ketu RA 79.2805 49×φ golden (81.38) — only
 - H Jupiter → H star Orion Nebula Cluster RA 114.8836 71×φ golden (81.26) — only
 - H Jupiter → H star Scheat RA 17.0054 17 whole (53.14) — only
 ### 6. T2 (jockey Jupiter)
@@ -1485,7 +1482,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 ### 6. T1 (horse Jupiter)
 - none
 ### 6. T2 (jockey Jupiter)
-- J Jupiter → J Ketu RA 179.4156 10×φ^6 phi power (94.05) — only
+- none
 ### 7. T24 top rows
 - S Jupiter → H Pluto RA 152.0976 94×φ golden (85.40) — only
 - S Jupiter → J Sun Dec 18.0019 18 whole (81.74) [360/20] — only

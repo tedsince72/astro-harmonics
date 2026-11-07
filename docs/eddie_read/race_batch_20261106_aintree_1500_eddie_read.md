@@ -7,24 +7,21 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - Galactic Centre Dec 42.999811 43 whole (98.12) <- away — separating, exact 14:51 (8.2 min ago)
 - Uranus RA 85.001859 85 whole (82.28) <- away — separating, exact 14:41 (18.3 min ago)
 - Capella Dec 32.002156 32 whole (79.60) <- away — separating, exact 13:25 (94.4 min ago)
-- Ketu RA 1.456111 conj (0.09) -> toward — applying, exact 12 Nov 2026 14:45 (in 8625.7 min)
 ### Sky Sun
 - Zubenelgenubi Dec 0.049783 conj (69.57) -> toward — applying, exact 19:00 (in 240.9 min)
 - Difda Dec 1.994984 2 whole (56.13) <- away — separating, exact 14:35 (24.3 min ago) [360/180]
 - Haumea RA 0.639995 conj (32.87) <- away — separating, exact 05 Nov 2026 23:07 (952.2 min ago)
 - Deneb Algedi Dec 0.138609 conj (28.94) -> toward — applying, exact 07 Nov 2026 02:10 (in 670.9 min)
-- Zubenelgenubi RA 1.337501 conj (1.17) -> toward — applying, exact 07 Nov 2026 23:26 (in 1946.7 min)
 ### Sky Moon
 - Transpluto Dec 18.887534 18.8889 ninth (99.02) <- away — applying, exact 15:00 (in 0.4 min)
 - Pallas Dec 11.110489 11.1111 ninth (98.98) <- away — separating, exact 14:59 (0.2 min ago)
 - Rigel RA 111.138542 111.111 ninth (95.51) <- away — separating, exact 14:56 (3.6 min ago)
 - Spica Dec 1.997830 2 whole (79.48) <- away — separating, exact 14:59 (0.6 min ago) [360/180]
 - Eris Dec 9.005694 9 whole (51.17) <- away — separating, exact 14:58 (1.6 min ago) [360/40]
-- Zubeneschamali Dec 0.219822 conj (7.14) -> toward — applying, exact 16:00 (in 60.9 min)
 - **Hubs** (a point two centres reach): none
 - **Top line** (highest, exact within 5 min of the off): S Moon → Transpluto Dec 18.887534 18.8889 (99.02)
-- **Conj points**: S Jupiter conj Ketu RA 1.4561 (0.09) applying, exact 12 Nov 2026 14:45 (in 8625.7 min); S Sun conj Haumea RA 0.6400 (32.87) separating, exact 05 Nov 2026 23:07 (952.2 min ago); S Sun conj Zubenelgenubi RA 1.3375 (1.17) applying, exact 07 Nov 2026 23:26 (in 1946.7 min); S Sun conj Zubenelgenubi Dec 0.0498 (69.57) applying, exact 19:00 (in 240.9 min); S Sun conj Deneb Algedi Dec 0.1386 (28.94) applying, exact 07 Nov 2026 02:10 (in 670.9 min); S Moon conj Zubeneschamali Dec 0.2198 (7.14) applying, exact 16:00 (in 60.9 min)
-- **Noted stars**: Capella (Jupiter), Deneb Algedi (Sun), Difda (Sun), Galactic Centre (Jupiter), Rigel (Moon), Spica (Moon), Zubenelgenubi (Sun), Zubeneschamali (Moon)
+- **Conj points**: S Sun conj Haumea RA 0.6400 (32.87) separating, exact 05 Nov 2026 23:07 (952.2 min ago); S Sun conj Zubenelgenubi Dec 0.0498 (69.57) applying, exact 19:00 (in 240.9 min); S Sun conj Deneb Algedi Dec 0.1386 (28.94) applying, exact 07 Nov 2026 02:10 (in 670.9 min)
+- **Noted stars**: Capella (Jupiter), Deneb Algedi (Sun), Difda (Sun), Galactic Centre (Jupiter), Rigel (Moon), Spica (Moon), Zubenelgenubi (Sun)
 - **Strong line stars** (>= 90): Galactic Centre, Rigel
 
 ## Flags (shapes found so far; field-checked; no ranking)
@@ -208,19 +205,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H RA midpoints: Sun = Neptune 94.55 (far, far side); Uranus = Pallas 56.45 (far, far side); Ceres = Gonggong 52.12 (far, far side); Neptune = Sedna 43.59 (far, far side)
   - H Dec midpoints: Neptune = Quaoar 10.53 (between)
   - J Dec midpoints: Quaoar = Ketu 77.12 (between); Venus = Ketu 66.23 (between); Venus = Eris 64.94 (between); Eris = Quaoar 55.03 (between)
-- **Zubeneschamali** (sky Moon)
-  - H Zubeneschamali → H Venus RA 144.4857 144.444 ninth (95.63) — only
-  - H Zubeneschamali → H Quaoar Dec 6.0112 6 whole (19.26) [360/60] — also: 5 Brookie
-  - J Zubeneschamali → J Makemake Dec 42.3639 10×φ^3 phi power (97.03) — also: 6 Daytime Dreaming
-  - J Zubeneschamali → J Makemake RA 51.0011 51 whole (89.19) — only
-  - J Zubeneschamali → J Gonggong RA 101.9324 63×φ golden (78.46) — only
-  - J Zubeneschamali → J Venus RA 62.0089 62 whole (30.81) — only
-  - J Zubeneschamali → J Ceres RA 126.0125 126 whole (13.97) — only
-  - J Zubeneschamali → J Sedna RA 176.0135 176 whole (10.63) — only
-  - H RA midpoints: Jupiter = Saturn 64.33 (near, between)
-  - H Dec midpoints: Pluto = Chiron 49.58 (between)
-  - J RA midpoints: Uranus = Transpluto 80.18 (near, between)
-  - J Dec midpoints: Ceres = Ketu 90.32 (between); Mercury = Vesta 56.78 (between); Chiron = Juno 55.28 (between); Pallas = Gonggong 36.08 (between); Ceres = Eris 27.42 (between)
 ### Threads (4 or more cells on one body, both charts, 2 or more layers)
 - **Jupiter**: 11 cells (H 6, J 5; same body, star rows, top rows)
   - same body: S Jupiter → H Jupiter Dec 17.9814 18 whole (0.49) [360/20] — also: 5 Brookie
@@ -294,7 +278,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - J EXACT: S Moon → Eris Dec 9.005694 | J Meissa Sun Dec 8.999518 9 whole (95.24)
 - J EXACT: S Moon → Eris Dec 9.005694 | J Castor Jupiter Dec 9.018964 9 whole (0.27)
 ### 6. T1 (horse Jupiter)
-- H Jupiter → H Ketu Dec 1.0015 1 whole (85.19) [360/360] — only
+- none
 ### 6. T2 (jockey Jupiter)
 - J Jupiter → J Pallas Dec 30.7412 19×φ golden (91.27) — only
 - J Jupiter → J star Deneb Algedi RA 132.6713 82×φ golden (58.97) — only
@@ -389,14 +373,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - J Spica → J Sedna RA 159.0181 159 whole (0.87) — only
   - J RA midpoints: Uranus = Orcus 38.08 (near, between); Sun = Pluto 23.94 (near, between); Venus = Haumea 12.83 (near, between)
   - J Dec midpoints: Mars = Saturn 83.34 (between); Neptune = Juno 80.52 (between)
-- **Zubeneschamali** (sky Moon)
-  - H Zubeneschamali → H Haumea RA 15.0153 15 whole (5.60) [360/24] — only
-  - H Zubeneschamali → H Chiron RA 131.9807 132 whole (0.12) — only
-  - J Zubeneschamali → J Chiron RA 122.9085 φ^10 phi power (74.73) — only
-  - J Zubeneschamali → J Eris Dec 0.2131 conj (8.39) — only
-  - H Dec midpoints: Jupiter = Chiron 87.58 (between); Vesta = Quaoar 73.93 (between); Ceres = Eris 38.07 (between)
-  - J RA midpoints: Uranus = Haumea 92.88 (near, between); Sun = Neptune 85.90 (near, between); Gonggong = Orcus 61.86 (far, far side); Orcus = Rahu 46.96 (far, far side); Mars = Saturn 44.00 (near, between)
-  - J Dec midpoints: Saturn = Sedna 90.57 (between); Saturn = Orcus 82.55 (between); Mercury = Rahu 1.70 (between)
 ### Threads (4 or more cells on one body, both charts, 2 or more layers)
 - **Jupiter**: 6 cells (H 2, J 4; same body, star rows, top rows)
   - same body: S Jupiter → J Jupiter Dec 8.8775 8.88889 ninth (loose) — only
@@ -411,16 +387,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - star rows: H Deneb Algedi → H Juno RA 117.9962 118 whole (65.27) — only
   - star rows: J Spica → J Juno RA 11.1155 11.1111 ninth (92.74) [sky number: S Moon → Pallas Dec 11.1105 11.1111 ninth (98.98)] — only
   - star rows: J Capella → J Juno RA 111.0048 111 whole (58.05) — only
-- **Chiron**: 4 cells (H 2, J 2; same body, star rows)
-  - same body: S Chiron → H Chiron RA 24.1934 24.14 silver (loose) — only
-  - same body: S Chiron → J Chiron RA 80.9103 50×φ golden (loose) — only
-  - star rows: H Deneb Algedi → H Chiron Dec 19.9999 20 whole (98.60) [360/18] — only
-  - star rows: J Zubeneschamali → J Chiron RA 122.9085 φ^10 phi power (74.73) — only
-- **Ketu**: 4 cells (H 2, J 2; T1/T2, same body, star rows, top rows)
-  - same body: S Ketu → H Ketu RA 144.9835 145 whole (3.02) — only
-  - T1: H Jupiter → H Ketu Dec 1.0015 1 whole (85.19) [360/360] — only
-  - top rows: S Sun → J Ketu Dec 29.0057 29 whole (51.13) — only
-  - star rows: J Difda → J Ketu Dec 30.9991 31 whole (91.04) — only
 - **Mercury**: 4 cells (H 2, J 2; same body, star rows)
   - same body: S Mercury → J Mercury RA 32.3660 20×φ golden (69.92) — only
   - star rows: H Galactic Centre → H Mercury RA 87.3714 54×φ golden (85.30) — only
@@ -577,13 +543,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Dec midpoints: Gonggong = Orcus 52.82 (between); Juno = Ketu 37.02 (between)
   - J RA midpoints: Pallas = Orcus 90.47 (near, between)
   - J Dec midpoints: Jupiter = Uranus 36.86 (between); Sun = Quaoar 7.27 (between)
-- **Zubeneschamali** (sky Moon)
-  - H Zubeneschamali → H Sedna Dec 17.0016 17 whole (84.21) — only
-  - H Zubeneschamali → H Ceres RA 98.7035 61×φ golden (79.72) — only
-  - H Zubeneschamali → H Mars Dec 14.0182 14 whole (0.78) — only
-  - H Dec midpoints: Sun = Ketu 79.77 (between); Eris = Ketu 78.61 (between)
-  - J RA midpoints: Uranus = Makemake 68.52 (near, between)
-  - J Dec midpoints: Uranus = Sedna 95.39 (between); Sedna = Rahu 42.71 (between); Jupiter = Gonggong 26.31 (between)
 ### Threads (4 or more cells on one body, both charts, 2 or more layers)
 - **Pallas**: 6 cells (H 3, J 3; same body, star rows, top rows)
   - same body: S Pallas → H Pallas RA 42.3975 10×φ^3 phi power (loose) — only
@@ -736,16 +695,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Dec midpoints: Jupiter = Neptune 16.27 (between)
   - J RA midpoints: Ceres = Gonggong 42.76 (far, far side)
   - J Dec midpoints: Pluto = Pallas 50.62 (between); Pluto = Ketu 35.37 (between); Eris = Quaoar 23.98 (between)
-- **Zubeneschamali** (sky Moon)
-  - S Zubeneschamali → H Jupiter RA 87.9868 88 whole (11.46) [same star: H Zubeneschamali 87.9801 88 whole (0.00)] — only
-  - H Zubeneschamali → H Transpluto Dec 19.9841 20 whole (4.22) [360/18] — only
-  - H Zubeneschamali → H Sedna RA 171.5386 106×φ golden (2.76) — only
-  - J Zubeneschamali → J Venus RA 7.0047 7 whole (58.47) — only
-  - J Zubeneschamali → J Saturn Dec 17.9863 18 whole (9.99) [360/20] — only
-  - J Zubeneschamali → J Chiron RA 1.1215 conj (6.37) — only
-  - H Dec midpoints: Ceres = Gonggong 99.61 (between); Jupiter = Eris 35.70 (between); Ceres = Orcus 34.75 (between)
-  - J RA midpoints: Saturn = Ceres 78.46 (far, far side); Uranus = Transpluto 41.23 (near, between)
-  - J Dec midpoints: Gonggong = Orcus 70.26 (between); Mercury = Sedna 65.65 (between)
 ### Threads (4 or more cells on one body, both charts, 2 or more layers)
 - **Sedna**: 4 cells (H 1, J 3; star rows, top rows)
   - top rows: S Sun → J Sedna Dec 20.9999 21 whole (98.53) — only
@@ -915,17 +864,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Dec midpoints: Neptune = Quaoar 8.48 (between)
   - J RA midpoints: Pallas = Vesta 74.79 (near, between)
   - J Dec midpoints: Chiron = Pallas 74.17 (between); Uranus = Eris 48.30 (between); Venus = Quaoar 3.30 (between)
-- **Zubeneschamali** (sky Moon)
-  - H Zubeneschamali → H Chiron Dec 12.0062 12 whole (47.83) [360/30] — only
-  - H Zubeneschamali → H Quaoar Dec 6.0148 6 whole (6.75) [360/60] — also: 1 JPR One
-  - H Zubeneschamali → H Sun Dec 28.9812 29 whole (0.38) — only
-  - H Zubeneschamali → H Orcus Dec 0.2960 conj (0.02) — only
-  - J Zubeneschamali → J Ketu RA 74.4233 46×φ golden (64.94) — only
-  - J Zubeneschamali → J Vesta Dec 10.0130 10 whole (12.32) [360/36] — only
-  - H RA midpoints: Vesta = Ketu 52.75 (far, far side); Jupiter = Saturn 44.71 (near, between)
-  - H Dec midpoints: Pluto = Chiron 55.83 (between)
-  - J RA midpoints: Uranus = Orcus 45.62 (far, far side)
-  - J Dec midpoints: Venus = Pluto 11.22 (between)
 ### Threads (4 or more cells on one body, both charts, 2 or more layers)
 - **Rahu**: 8 cells (H 5, J 3; same body, star rows, top rows)
   - same body: S Rahu → H Rahu RA 177.9267 177.778 ninth (loose) — also: 1 JPR One
@@ -965,11 +903,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - top rows: S Sun → J Gonggong RA 110.9687 10×φ^5 phi power (77.30) — only
   - star rows: H Galactic Centre → H Gonggong RA 70.0050 70 whole (56.53) — also: 1 JPR One
   - star rows: J Difda → J Gonggong Dec 0.9969 1 whole (71.36) [360/360] — only
-- **Ketu**: 4 cells (H 2, J 2; same body, star rows, top rows)
-  - same body: S Ketu → H Ketu RA 177.9267 177.778 ninth (loose) — also: 1 JPR One
-  - same body: S Ketu → J Ketu RA 155.0929 155.556 ninth (loose) — only
-  - top rows: S Sun → H Ketu Dec 3.9981 4 whole (82.09) [360/90] — also: 1 JPR One
-  - star rows: J Zubeneschamali → J Ketu RA 74.4233 46×φ golden (64.94) — only
 ### Flags held
 - **same source on the same body, both charts** (4 of 6 runners)
   - S Jupiter → H Mercury Dec 5.0021 5 whole (80.28) | S Jupiter → J Mercury RA 168.2840 104×φ golden (54.52)
@@ -1105,19 +1038,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Dec midpoints: Pluto = Juno 68.95 (between); Sun = Ceres 33.01 (between); Jupiter = Juno 28.88 (between); Saturn = Eris 25.87 (between)
   - J RA midpoints: Neptune = Ceres 44.16 (far, far side)
   - J Dec midpoints: Neptune = Juno 76.26 (between)
-- **Zubeneschamali** (sky Moon)
-  - H Zubeneschamali → H Ceres Dec 12.0063 12 whole (47.17) [360/30] — only
-  - H Zubeneschamali → H Mars RA 62.9929 63 whole (41.51) — only
-  - H Zubeneschamali → H Juno Dec 8.9879 9 whole (15.77) [360/40] [sky number: S Moon → Eris Dec 9.0057 9 whole (51.17)] — only
-  - H Zubeneschamali → H Sedna RA 172.0192 172 whole (0.15) — only
-  - H Zubeneschamali → H Ketu Dec 13.9802 14 whole (0.01) — only
-  - J Zubeneschamali → J Makemake Dec 42.3672 10×φ^3 phi power (93.93) — also: 1 JPR One
-  - J Zubeneschamali → J Orcus Dec 9.0125 9 whole (14.22) [360/40] [sky number: S Moon → Eris Dec 9.0057 9 whole (51.17)] — only
-  - J Zubeneschamali → J Mars Dec 0.2936 conj (0.05) — only
-  - H RA midpoints: Chiron = Rahu 53.25 (far, far side)
-  - H Dec midpoints: Chiron = Ketu 33.06 (between)
-  - J RA midpoints: Pallas = Sedna 44.84 (far, far side); Uranus = Rahu 39.87 (far, far side)
-  - J Dec midpoints: Pallas = Gonggong 67.95 (between)
 ### Threads (4 or more cells on one body, both charts, 2 or more layers)
 - **Jupiter**: 7 cells (H 2, J 5; star rows, top rows)
   - top rows: S Quaoar → H Jupiter RA 12.9455 8×φ golden (92.58) — only

@@ -16,7 +16,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Sun → Zubenelgenubi RA 114.8818 71×φ golden (91.73)
 - S Sun → Zubeneschamali Dec 0.0034 conj (97.75)
 - S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
-- S Moon → Algol Dec 66.0062 66 whole (47.70)
 - S Moon → Bellatrix RA 174.0057 174 whole (51.29)
 - S Moon → Meissa RA 171.5037 106×φ golden (56.94)
 - S Moon → Sirius RA 154.0031 154 whole (71.80)
@@ -39,8 +38,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun Dec 13.3342 13.3333 ninth (98.92))
   - top rows: S Moon → H Sun Dec 29.0021 29 whole (79.81)
-  - star rows: H Algol → H Sun Dec 37.0026 37 whole (75.77)
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: H Vindemiatrix → H Sun Dec 7.0036 7 whole (67.64)
     - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
   - star rows: H Zubenelgenubi → H Sun Dec 19.9969 20 whole (71.05)
@@ -70,8 +67,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Menkent Dec 11.3233 7×φ golden (82.95)
   - star rows: J Vindemiatrix → J Mars Dec 18.8822 18.8889 ninth (95.20)
     - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
-  - other chart, star rows: H Algol → H Mars RA 161.8734 100×φ^1 phi power (83.45)
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
 - **J Uranus** (same body: S Uranus → J Uranus Dec 33.2754 33.3333 ninth (loose))
   - star rows: J Aldebaran → J Uranus Dec 34.9883 35 whole (17.09)
     - source line: S Sun → Aldebaran Dec 25.8885 16×φ golden (99.70)
@@ -110,15 +105,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Bellatrix RA 174.0057 174 whole (51.29)
   - star rows: J Zubeneschamali → J Sedna RA 176.0176 176 whole (1.42)
     - source line: S Sun → Zubeneschamali Dec 0.0034 conj (97.75)
-  - other chart, star rows: H Algol → H Sedna RA 8.0132 8 whole (11.51)
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - other chart, star rows: H Kaus Australis → H Sedna RA 139.0068 139 whole (43.79)
     - source line: S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
 - **J Makemake** (same body: S Makemake → J Makemake RA 21.0274 21 whole (loose))
   - sky line to Makemake: S Sun → Makemake Dec 32.0040 32 whole (64.00)
   - T2: J Jupiter → J Makemake RA 155.5030 155.556 ninth (95.03)
-  - star rows: J Algol → J Makemake RA 131.0326 81×φ golden (1.73)
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - other chart, star rows: H Zubenelgenubi → H Makemake RA 29.0009 29 whole (91.62)
     - source line: S Sun → Zubenelgenubi RA 114.8818 71×φ golden (91.73)
     - source line: S Moon → Zubenelgenubi Dec 9.0059 9 whole (49.44)
@@ -135,8 +126,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 36 whole — also: 5 Tathmeen / Cam Hardie
     - J Bellatrix → J Sedna RA 36.0166 36 whole (2.93) = S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
 - **4. circle divisions**
-  - 8 = 360/45 — also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis
-    - H Algol → H Sedna RA 8.0132 8 whole (11.51)
   - 36 = 360/10 — also: 5 Tathmeen / Cam Hardie
     - H Fomalhaut → H Mercury Dec 36.0145 36 whole (7.61)
   - 20 = 360/18 — also: 2 Alablaq / George Downing, 5 Tathmeen / Cam Hardie
@@ -158,7 +147,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 29 whole — also: 5 Tathmeen / Cam Hardie
     - S Moon → H Sun Dec 29.0021 29 whole (79.81)
     - H Zubenelgenubi → H Makemake RA 29.0009 29 whole (91.62)
-  - 36 whole — also: 5 Tathmeen / Cam Hardie
+  - 36 whole — only
     - H Fomalhaut → H Mercury Dec 36.0145 36 whole (7.61)
     - J Bellatrix → J Sedna RA 36.0166 36 whole (2.93)
   - 7 whole — also: 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle
@@ -180,8 +169,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Sun**
   - same body + top rows: S Sun → H Sun Dec 13.3342 13.3333 ninth (98.92) — also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis
   - top rows: S Moon → H Sun Dec 29.0021 29 whole (79.81) — also: 4 Blazing Hot / Hollie Doyle
-  - star rows: H Algol → H Sun Dec 37.0026 37 whole (75.77) — also: 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: H Vindemiatrix → H Sun Dec 7.0036 7 whole (67.64) — also: 5 Tathmeen / Cam Hardie
     - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
   - star rows: H Zubenelgenubi → H Sun Dec 19.9969 20 whole (71.05) — also: 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie
@@ -238,29 +225,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → H Saturn RA 0.1283 conj (83.62) — only
   - star rows: H Mirach → H Saturn RA 122.2659 122.222 ninth (93.96) — only
     - source line: S Sun → Mirach Dec 45.0012 45 whole (88.22)
-- **Mars**
-  - star rows: H Algol → H Mars RA 161.8734 100×φ^1 phi power (83.45) — only
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
-  - same body: S Mars → J Mars Dec 14.3854 14.4444 ninth (loose) — also: 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
-  - top rows: S Jupiter → J Mars RA 0.5969 conj (36.25) — only
-  - top rows: S Jupiter → J Mars Dec 0.1702 conj (18.72) — only
-  - star rows: J Fomalhaut → J Mars RA 0.7287 conj (26.44) — only
-    - source line: S Jupiter → Fomalhaut RA 0.1339 conj (82.94)
-  - star rows: J Menkent → J Mars RA 132.0053 132 whole (53.76) — also: 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle
-    - source line: S Moon → Menkent Dec 11.3233 7×φ golden (82.95)
-  - star rows: J Vindemiatrix → J Mars Dec 18.8822 18.8889 ninth (95.20) — only
-    - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
-- **Sedna**
-  - star rows: H Algol → H Sedna RA 8.0132 8 whole (11.51) — also: 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
-  - star rows: H Kaus Australis → H Sedna RA 139.0068 139 whole (43.79) — also: 4 Blazing Hot / Hollie Doyle
-    - source line: S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
-  - same body: S Sedna → J Sedna Dec 3.2319 2×φ golden (loose) — also: 2 Alablaq / George Downing, 5 Tathmeen / Cam Hardie
-  - top rows: S Jupiter → J Sedna RA 60.9942 61 whole (50.40) — only
-  - star rows: J Bellatrix → J Sedna RA 36.0166 36 whole (2.93) — also: 2 Alablaq / George Downing
-    - source line: S Moon → Bellatrix RA 174.0057 174 whole (51.29)
-  - star rows: J Zubeneschamali → J Sedna RA 176.0176 176 whole (1.42) — also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie
-    - source line: S Sun → Zubeneschamali Dec 0.0034 conj (97.75)
 - **Gonggong**
   - star rows: H Bellatrix → H Gonggong Dec 18.9964 19 whole (66.91) — also: 2 Alablaq / George Downing
     - source line: S Moon → Bellatrix RA 174.0057 174 whole (51.29)
@@ -275,6 +239,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Mirach Dec 45.0012 45 whole (88.22)
   - star rows: J Sirius → J Pluto Dec 7.0022 7 whole (79.20) — also: 5 Tathmeen / Cam Hardie
     - source line: S Moon → Sirius RA 154.0031 154 whole (71.80)
+- **Sedna**
+  - star rows: H Kaus Australis → H Sedna RA 139.0068 139 whole (43.79) — also: 4 Blazing Hot / Hollie Doyle
+    - source line: S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
+  - same body: S Sedna → J Sedna Dec 3.2319 2×φ golden (loose) — also: 2 Alablaq / George Downing, 5 Tathmeen / Cam Hardie
+  - top rows: S Jupiter → J Sedna RA 60.9942 61 whole (50.40) — only
+  - star rows: J Bellatrix → J Sedna RA 36.0166 36 whole (2.93) — also: 2 Alablaq / George Downing
+    - source line: S Moon → Bellatrix RA 174.0057 174 whole (51.29)
+  - star rows: J Zubeneschamali → J Sedna RA 176.0176 176 whole (1.42) — also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie
+    - source line: S Sun → Zubeneschamali Dec 0.0034 conj (97.75)
 - **Ceres**
   - star rows: H Menkent → H Ceres RA 145.9919 146 whole (35.33) — only
     - source line: S Moon → Menkent Dec 11.3233 7×φ golden (82.95)
@@ -290,8 +263,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Zubenelgenubi RA 114.8818 71×φ golden (91.73)
     - source line: S Moon → Zubenelgenubi Dec 9.0059 9 whole (49.44)
   - top rows: S Jupiter → J Juno RA 158.5750 98×φ golden (58.00) — only
-  - star rows: J Algol → J Juno Dec 43.0156 43 whole (4.92) — also: 4 Blazing Hot / Hollie Doyle
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: J Meissa → J Juno RA 101.9122 63×φ golden (6.82) — only
     - source line: S Moon → Meissa RA 171.5037 106×φ golden (56.94)
   - star rows: J Meissa → J Juno Dec 11.9909 12 whole (29.51) — only
@@ -310,8 +281,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Makemake → J Makemake RA 21.0274 21 whole (loose) — also: 4 Blazing Hot / Hollie Doyle
     - source line: S Sun → Makemake Dec 32.0040 32 whole (64.00)
   - T2: J Jupiter → J Makemake RA 155.5030 155.556 ninth (95.03) — also: 4 Blazing Hot / Hollie Doyle
-  - star rows: J Algol → J Makemake RA 131.0326 81×φ golden (1.73) — also: 4 Blazing Hot / Hollie Doyle
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
 - **Vesta**
   - star rows: H Zubeneschamali → H Vesta RA 168.9849 169 whole (6.01) — also: 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie
     - source line: S Sun → Zubeneschamali Dec 0.0034 conj (97.75)
@@ -319,6 +288,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Bellatrix RA 174.0057 174 whole (51.29)
   - star rows: J Meissa → J Vesta RA 53.9871 54 whole (12.52) — also: 2 Alablaq / George Downing, 5 Tathmeen / Cam Hardie
     - source line: S Moon → Meissa RA 171.5037 106×φ golden (56.94)
+- **Mars**
+  - same body: S Mars → J Mars Dec 14.3854 14.4444 ninth (loose) — also: 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
+  - top rows: S Jupiter → J Mars RA 0.5969 conj (36.25) — only
+  - top rows: S Jupiter → J Mars Dec 0.1702 conj (18.72) — only
+  - star rows: J Fomalhaut → J Mars RA 0.7287 conj (26.44) — only
+    - source line: S Jupiter → Fomalhaut RA 0.1339 conj (82.94)
+  - star rows: J Menkent → J Mars RA 132.0053 132 whole (53.76) — also: 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle
+    - source line: S Moon → Menkent Dec 11.3233 7×φ golden (82.95)
+  - star rows: J Vindemiatrix → J Mars Dec 18.8822 18.8889 ninth (95.20) — only
+    - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
 - **Neptune**
   - same body: S Neptune → J Neptune Dec 15.4813 15.5556 ninth (loose) — also: 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle
   - star rows: J Menkent → J Neptune Dec 16.6611 16.6667 ninth (95.26) — also: 3 Gowanlad / Phil Dennis
@@ -336,8 +315,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Jupiter → J Eris Dec 0.2445 conj (3.42) — also: 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
 - **Ketu**
   - top rows: S Jupiter → J Ketu Dec 0.1674 conj (19.54) — only
-  - star rows: J Algol → J Ketu Dec 48.5459 30×φ golden (71.87) — only
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
 - **Orcus**
   - star rows: J Aldebaran → J Orcus Dec 17.0008 17 whole (91.84) — only
     - source line: S Sun → Aldebaran Dec 25.8885 16×φ golden (99.70)
@@ -437,8 +414,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Zubeneschamali → H Chiron Dec 12.2209 12.2222 ninth (98.12)
     - source line: S Sun → Zubeneschamali Dec 0.0034 conj (97.75)
 - **J Vesta** (same body: S Vesta → J Vesta RA 106.0171 106 whole (2.04))
-  - star rows: J Algol → J Vesta RA 141.4209 141.4 sqrt2 (99.87)
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: J Meissa → J Vesta Dec 7.0088 7 whole (31.28)
     - source line: S Moon → Meissa RA 171.5037 106×φ golden (56.94)
   - other chart, star rows: H Aldebaran → H Vesta Dec 34.0043 34 whole (61.88)
@@ -485,7 +460,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Ceres → H Ceres Dec 9.0154 9 whole (5.25)
   - 60 = 360/6 — only
     - S Sun → H Venus RA 59.9951 60 whole (57.27)
-  - 8 = 360/45 — also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis
+  - 8 = 360/45 — also: 3 Gowanlad / Phil Dennis
     - H Fomalhaut → H Gonggong RA 7.9961 8 whole (64.82)
   - 45 = 360/8 — also: 3 Gowanlad / Phil Dennis
     - H Sirius → H Sedna RA 45.0185 45 whole (0.53)
@@ -495,7 +470,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Kaus Australis → J Gonggong Dec 14.9909 15 whole (29.55)
   - 40 = 360/9 — only
     - J Meissa → J Sedna RA 40.0139 40 whole (9.24)
-  - 8 = 360/45 — also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis
+  - 8 = 360/45 — also: 3 Gowanlad / Phil Dennis
     - J Vindemiatrix → J Orcus Dec 7.9931 8 whole (42.71)
   - 9 = 360/40 — also: 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
     - J Zubenelgenubi → J Pluto RA 9.0115 9 whole (17.98)
@@ -508,9 +483,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 9 whole — only
     - S Ceres → H Ceres Dec 9.0154 9 whole (5.25)
     - J Zubenelgenubi → J Pluto RA 9.0115 9 whole (17.98)
-  - 38 whole — only
-    - H Aldebaran → H Pluto Dec 37.9990 38 whole (89.90)
-    - J Algol → J Orcus Dec 37.9849 38 whole (5.99)
   - 14 whole — also: 3 Gowanlad / Phil Dennis
     - H Aldebaran → H Ceres Dec 14.0135 14 whole (10.69)
     - J Kaus Australis → J Pallas RA 13.9869 14 whole (11.88)
@@ -608,8 +580,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Zubeneschamali Dec 0.0034 conj (97.75)
   - T2: J Jupiter → J star Kaus Australis RA 110.0170 68×φ golden (50.69) — also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
   - top rows: S Transpluto → J Jupiter RA 11.3211 7×φ golden (70.70) — only
-  - star rows: S Algol → J Jupiter RA 118.9916 119 whole (33.73) — also: 3 Gowanlad / Phil Dennis
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: J Kaus Australis → J Jupiter RA 110.0170 68×φ golden (50.69) — also: 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle
     - source line: S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
 - **Venus**
@@ -650,8 +620,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Aldebaran → H Vesta Dec 34.0043 34 whole (61.88) — also: 5 Tathmeen / Cam Hardie
     - source line: S Sun → Aldebaran Dec 25.8885 16×φ golden (99.70)
   - same body: S Vesta → J Vesta RA 106.0171 106 whole (2.04) — also: 4 Blazing Hot / Hollie Doyle
-  - star rows: J Algol → J Vesta RA 141.4209 141.4 sqrt2 (99.87) — only
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: J Meissa → J Vesta Dec 7.0088 7 whole (31.28) — also: 1 James Watt / Ben Robinson, 5 Tathmeen / Cam Hardie
     - source line: S Moon → Meissa RA 171.5037 106×φ golden (56.94)
 - **Sedna**
@@ -700,17 +668,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Zubeneschamali Dec 0.0034 conj (97.75)
   - star rows: J Meissa → J Makemake RA 86.9908 87 whole (29.09) — only
     - source line: S Moon → Meissa RA 171.5037 106×φ golden (56.94)
+- **Neptune**
+  - star rows: J Vindemiatrix → J Neptune RA 92.9939 93 whole (48.50) — also: 1 James Watt / Ben Robinson, 4 Blazing Hot / Hollie Doyle
+    - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
 - **Orcus**
-  - star rows: J Algol → J Orcus Dec 37.9849 38 whole (5.99) — only
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: J Vindemiatrix → J Orcus Dec 7.9931 8 whole (42.71) — only
     - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
   - star rows: J Zubenelgenubi → J Orcus Dec 19.0102 19 whole (24.25) — also: 1 James Watt / Ben Robinson
     - source line: S Sun → Zubenelgenubi RA 114.8818 71×φ golden (91.73)
     - source line: S Moon → Zubenelgenubi Dec 9.0059 9 whole (49.44)
-- **Neptune**
-  - star rows: J Vindemiatrix → J Neptune RA 92.9939 93 whole (48.50) — also: 1 James Watt / Ben Robinson, 4 Blazing Hot / Hollie Doyle
-    - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
 
 ## 3 Gowanlad / Phil Dennis
 ### L1 same bodies
@@ -738,8 +704,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Zubenelgenubi RA 114.8818 71×φ golden (91.73)
     - source line: S Moon → Zubenelgenubi Dec 9.0059 9 whole (49.44)
 - **H Jupiter** (same body: S Jupiter → H Jupiter RA 147.2464 91×φ golden (69.66))
-  - star rows: H Algol → H Jupiter RA 149.9925 150 whole (39.12)
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: S Kaus Australis → H Jupiter RA 79.0105 79 whole (22.46)
     - source line: S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
   - star rows: H Meissa → H Jupiter RA 113.2465 70×φ golden (25.79)
@@ -748,8 +712,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Mirach Dec 45.0012 45 whole (88.22)
   - star rows: H Vindemiatrix → H Jupiter RA 1.4805 conj (0.02)
     - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
-  - other chart, star rows: S Algol → J Jupiter Dec 63.9848 64 whole (5.87)
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - other chart, star rows: S Vindemiatrix → J Jupiter RA 87.0074 87 whole (39.77)
     - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
   - other chart, star rows: J Vindemiatrix → J Jupiter Dec 33.9884 34 whole (17.65)
@@ -764,8 +726,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Meissa → J Saturn RA 76.0154 φ^9 phi power (98.81)
     - source line: S Moon → Meissa RA 171.5037 106×φ golden (56.94)
 - **H Uranus** (same body: S Uranus → H Uranus Dec 6.0256 6 whole (loose))
-  - other chart, star rows: J Algol → J Uranus Dec 61.0151 61 whole (6.06)
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - other chart, star rows: J Meissa → J Uranus Dec 29.9966 30 whole (68.69)
     - source line: S Moon → Meissa RA 171.5037 106×φ golden (56.94)
   - other chart, star rows: J Vindemiatrix → J Uranus RA 109.9812 110 whole (0.33)
@@ -778,16 +738,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Meissa RA 171.5037 106×φ golden (56.94)
   - other chart, same body: S Chiron → J Chiron RA 179.6210 10×φ^6 phi power (loose)
   - other chart, same body: S Chiron → J Chiron Dec 10.9855 11 whole (7.58)
-  - other chart, star rows: J Algol → J Chiron RA 140.9882 141 whole (16.85)
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
 - **H Pallas** (same body: S Pallas → H Pallas RA 3.2296 2×φ golden (loose))
   - star rows: H Meissa → H Pallas Dec 10.9998 11 whole (98.10)
     - source line: S Moon → Meissa RA 171.5037 106×φ golden (56.94)
   - star rows: H Zubenelgenubi → H Pallas RA 141.4374 141.4 sqrt2 (95.50)
     - source line: S Sun → Zubenelgenubi RA 114.8818 71×φ golden (91.73)
     - source line: S Moon → Zubenelgenubi Dec 9.0059 9 whole (49.44)
-  - other chart, star rows: J Algol → J Pallas RA 166.9823 167 whole (1.36)
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - other chart, star rows: J Menkent → J Pallas Dec 57.0180 57 whole (0.95)
     - source line: S Moon → Menkent Dec 11.3233 7×φ golden (82.95)
   - other chart, star rows: J Mirach → J Pallas RA 163.4119 101×φ golden (49.59)
@@ -837,8 +793,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Fomalhaut → H Neptune RA 0.1124 conj (85.58)
     - source line: S Jupiter → Fomalhaut RA 0.1339 conj (82.94)
 - **J Chiron** (same body: S Chiron → J Chiron RA 179.6210 10×φ^6 phi power (loose); S Chiron → J Chiron Dec 10.9855 11 whole (7.58))
-  - star rows: J Algol → J Chiron RA 140.9882 141 whole (16.85)
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - other chart, same body: S Chiron → H Chiron Dec 3.9710 4 whole (loose)
   - other chart, star rows: H Meissa → H Chiron RA 88.9831 89 whole (2.37)
     - source line: S Moon → Meissa RA 171.5037 106×φ golden (56.94)
@@ -909,7 +863,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Menkent → H Gonggong Dec 24.0184 24 whole (0.67)
   - 45 = 360/8 — also: 2 Alablaq / George Downing
     - H Mirach → H Orcus Dec 45.0128 45 whole (12.83)
-  - 8 = 360/45 — also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing
+  - 8 = 360/45 — also: 2 Alablaq / George Downing
     - H Sirius → H Juno Dec 7.9990 8 whole (90.55)
   - 30 = 360/12 — also: 1 James Watt / Ben Robinson, 4 Blazing Hot / Hollie Doyle
     - J Meissa → J Uranus Dec 29.9966 30 whole (68.69)
@@ -949,9 +903,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Kaus Australis → H Orcus Dec 24.9894 25 whole (22.18)
     - H Mirach → H Rahu Dec 24.9817 25 whole (0.70)
     - J Fomalhaut → J Rahu Dec 25.0038 25 whole (65.65)
-  - 18.8889 ninth — only
-    - H Kaus Australis → H Quaoar Dec 18.8850 18.8889 ninth (97.17)
-    - J Algol → J Haumea Dec 18.8840 18.8889 ninth (96.49)
   - 24 whole — only
     - H Menkent → H Gonggong Dec 24.0184 24 whole (0.67)
     - J Meissa → J Quaoar Dec 24.0155 24 whole (5.01)
@@ -959,9 +910,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Zubenelgenubi → H Pallas RA 141.4374 141.4 sqrt2 (95.50)
     - J Kaus Australis → J Orcus RA 141.4421 141.4 sqrt2 (94.22)
     - J Zubeneschamali → J Ketu RA 141.4764 141.4 sqrt2 (85.04)
-  - 167 whole — only
-    - H Zubenelgenubi → H Sedna RA 167.0155 167 whole (4.99)
-    - J Algol → J Pallas RA 166.9823 167 whole (1.36)
   - 7 whole — also: 1 James Watt / Ben Robinson, 4 Blazing Hot / Hollie Doyle
     - H Zubeneschamali → H Eris Dec 6.9906 7 whole (28.31)
     - J Aldebaran → J Mars Dec 6.9839 7 whole (3.82)
@@ -990,8 +938,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Jupiter**
   - same body + top rows: S Jupiter → H Jupiter RA 147.2464 91×φ golden (69.66) — also: 1 James Watt / Ben Robinson, 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
   - T1: H Jupiter → H star Mirach RA 179.6009 111×φ golden (94.86) — also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing, 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
-  - star rows: H Algol → H Jupiter RA 149.9925 150 whole (39.12) — also: 2 Alablaq / George Downing
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: S Kaus Australis → H Jupiter RA 79.0105 79 whole (22.46) — also: 2 Alablaq / George Downing, 4 Blazing Hot / Hollie Doyle
     - source line: S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
   - star rows: H Meissa → H Jupiter RA 113.2465 70×φ golden (25.79) — only
@@ -1000,8 +946,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Mirach Dec 45.0012 45 whole (88.22)
   - star rows: H Vindemiatrix → H Jupiter RA 1.4805 conj (0.02) — also: 4 Blazing Hot / Hollie Doyle
     - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
-  - star rows: S Algol → J Jupiter Dec 63.9848 64 whole (5.87) — also: 2 Alablaq / George Downing
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: S Vindemiatrix → J Jupiter RA 87.0074 87 whole (39.77) — also: 4 Blazing Hot / Hollie Doyle
     - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
   - star rows: J Vindemiatrix → J Jupiter Dec 33.9884 34 whole (17.65) — also: 4 Blazing Hot / Hollie Doyle
@@ -1018,8 +962,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Meissa RA 171.5037 106×φ golden (56.94)
 - **Uranus**
   - same body: S Uranus → H Uranus Dec 6.0256 6 whole (loose) — also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing, 4 Blazing Hot / Hollie Doyle
-  - star rows: J Algol → J Uranus Dec 61.0151 61 whole (6.06) — also: 4 Blazing Hot / Hollie Doyle
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: J Meissa → J Uranus Dec 29.9966 30 whole (68.69) — also: 2 Alablaq / George Downing, 4 Blazing Hot / Hollie Doyle
     - source line: S Moon → Meissa RA 171.5037 106×φ golden (56.94)
   - star rows: J Vindemiatrix → J Uranus RA 109.9812 110 whole (0.33) — also: 1 James Watt / Ben Robinson
@@ -1033,8 +975,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Meissa RA 171.5037 106×φ golden (56.94)
   - same body: S Chiron → J Chiron RA 179.6210 10×φ^6 phi power (loose) — also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing, 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
   - same body: S Chiron → J Chiron Dec 10.9855 11 whole (7.58) — also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing, 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
-  - star rows: J Algol → J Chiron RA 140.9882 141 whole (16.85) — also: 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
 - **Pallas**
   - same body: S Pallas → H Pallas RA 3.2296 2×φ golden (loose) — also: 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
   - star rows: H Meissa → H Pallas Dec 10.9998 11 whole (98.10) — also: 2 Alablaq / George Downing
@@ -1042,8 +982,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Zubenelgenubi → H Pallas RA 141.4374 141.4 sqrt2 (95.50) — only
     - source line: S Sun → Zubenelgenubi RA 114.8818 71×φ golden (91.73)
     - source line: S Moon → Zubenelgenubi Dec 9.0059 9 whole (49.44)
-  - star rows: J Algol → J Pallas RA 166.9823 167 whole (1.36) — only
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: J Menkent → J Pallas Dec 57.0180 57 whole (0.95) — only
     - source line: S Moon → Menkent Dec 11.3233 7×φ golden (82.95)
   - star rows: J Mirach → J Pallas RA 163.4119 101×φ golden (49.59) — only
@@ -1118,8 +1056,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Aldebaran Dec 25.8885 16×φ golden (99.70)
   - star rows: H Kaus Australis → H Quaoar Dec 18.8850 18.8889 ninth (97.17) — only
     - source line: S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
-  - star rows: J Algol → J Quaoar RA 165.9842 166 whole (4.32) — only
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: J Kaus Australis → J Quaoar RA 34.9946 35 whole (53.21) — only
     - source line: S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
   - star rows: J Meissa → J Quaoar Dec 24.0155 24 whole (5.01) — also: 4 Blazing Hot / Hollie Doyle
@@ -1147,8 +1083,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Mirach Dec 45.0012 45 whole (88.22)
   - star rows: H Sirius → H Haumea RA 111.1241 111.111 ninth (97.87) — also: 5 Tathmeen / Cam Hardie
     - source line: S Moon → Sirius RA 154.0031 154 whole (71.80)
-  - star rows: J Algol → J Haumea Dec 18.8840 18.8889 ninth (96.49) — only
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: J Bellatrix → J Haumea RA 110.9146 10×φ^5 phi power (95.39) — only
     - source line: S Moon → Bellatrix RA 174.0057 174 whole (51.29)
   - star rows: J Meissa → J Haumea RA 108.4131 67×φ golden (72.57) — only
@@ -1221,8 +1155,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Zubenelgenubi → H Sedna RA 167.0155 167 whole (4.99) — also: 5 Tathmeen / Cam Hardie
     - source line: S Sun → Zubenelgenubi RA 114.8818 71×φ golden (91.73)
     - source line: S Moon → Zubenelgenubi Dec 9.0059 9 whole (49.44)
-  - star rows: J Algol → J Sedna RA 1.4044 conj (0.41) — also: 1 James Watt / Ben Robinson, 5 Tathmeen / Cam Hardie
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: J Zubeneschamali → J Sedna RA 176.3802 109×φ golden (30.51) — also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing, 5 Tathmeen / Cam Hardie
     - source line: S Sun → Zubeneschamali Dec 0.0034 conj (97.75)
 - **Mercury**
@@ -1271,8 +1203,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Jupiter → H Uranus Dec 15.5515 15.5556 ninth (96.16)
   - star rows: H Menkent → H Uranus RA 168.2901 104×φ golden (30.11)
     - source line: S Moon → Menkent Dec 11.3233 7×φ golden (82.95)
-  - other chart, star rows: J Algol → J Uranus RA 104.0150 104 whole (6.31)
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - other chart, star rows: J Kaus Australis → J Uranus RA 26.9921 27 whole (36.57)
     - source line: S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
   - other chart, star rows: J Meissa → J Uranus RA 140.7535 87×φ golden (27.13)
@@ -1289,8 +1219,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Vindemiatrix → H Pallas Dec 15.5568 15.5556 ninth (98.83)
     - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
 - **H Juno** (same body: S Juno → H Juno Dec 1.4445 1.44444 ninth (99.91))
-  - star rows: H Algol → H Juno RA 132.9950 133 whole (55.99)
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: H Kaus Australis → H Juno RA 1.9924 2 whole (38.38)
     - source line: S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
   - other chart, star rows: J Menkent → J Juno RA 161.9905 162 whole (27.72)
@@ -1338,8 +1266,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Meissa → H Saturn Dec 32.0066 32 whole (44.94)
     - source line: S Moon → Meissa RA 171.5037 106×φ golden (56.94)
 - **J Chiron** (same body: S Chiron → J Chiron Dec 14.5797 9×φ golden (loose))
-  - other chart, star rows: H Algol → H Chiron RA 55.0152 34×φ golden (87.60)
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - other chart, star rows: H Kaus Australis → H Chiron RA 75.9873 76 whole (13.49)
     - source line: S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
 - **J Ceres** (same body: S Ceres → J Ceres Dec 46.9517 φ^8 phi power (loose))
@@ -1370,10 +1296,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - sky line to Makemake: S Sun → Makemake Dec 32.0040 32 whole (64.00)
   - T2: J Jupiter → J Makemake Dec 55.9959 56 whole (63.49)
   - top rows: S Jupiter → J Makemake Dec 40.4560 25×φ golden (70.50)
-  - star rows: J Algol → J Makemake RA 129.4297 80×φ golden (35.86)
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
-  - other chart, star rows: H Algol → H Makemake Dec 15.9863 16 whole (9.87)
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - other chart, star rows: H Mirach → H Makemake RA 177.7329 177.778 ninth (96.48)
     - source line: S Sun → Mirach Dec 45.0012 45 whole (88.22)
   - other chart, star rows: H Vindemiatrix → H Makemake RA 0.3836 conj (55.40)
@@ -1460,9 +1382,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 89×φ golden — only
     - H Aldebaran → H Haumea RA 144.0176 89×φ golden (37.54)
     - S Sun → J Haumea RA 144.0104 89×φ golden (69.64)
-  - 16 whole — only
-    - H Algol → H Makemake Dec 15.9863 16 whole (9.87)
-    - J Kaus Australis → J Gonggong Dec 15.9802 16 whole (0.01)
   - 2 whole — also: 5 Tathmeen / Cam Hardie
     - H Bellatrix → H Ceres Dec 1.9931 2 whole (42.75)
     - H Kaus Australis → H Juno RA 1.9924 2 whole (38.38)
@@ -1497,9 +1416,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - φ^5 phi power — only
     - J Jupiter → J star Kaus Australis Dec 11.0902 φ^5 phi power (99.79)
     - J Kaus Australis → J Jupiter Dec 11.0902 φ^5 phi power (99.79)
-  - 80×φ golden — only
-    - J Algol → J Makemake RA 129.4297 80×φ golden (35.86)
-    - J Kaus Australis → J Sedna RA 129.4652 80×φ golden (9.28)
   - 24×φ golden — only
     - J Fomalhaut → J Eris RA 38.8372 24×φ golden (74.73)
     - J Mirach → J Rahu Dec 38.8340 24×φ golden (92.97)
@@ -1520,8 +1436,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Jupiter → H Uranus Dec 15.5515 15.5556 ninth (96.16) — only
   - star rows: H Menkent → H Uranus RA 168.2901 104×φ golden (30.11) — also: 1 James Watt / Ben Robinson
     - source line: S Moon → Menkent Dec 11.3233 7×φ golden (82.95)
-  - star rows: J Algol → J Uranus RA 104.0150 104 whole (6.31) — also: 3 Gowanlad / Phil Dennis
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: J Kaus Australis → J Uranus RA 26.9921 27 whole (36.57) — only
     - source line: S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
   - star rows: J Meissa → J Uranus RA 140.7535 87×φ golden (27.13) — also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis
@@ -1541,8 +1455,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
 - **Juno**
   - same body: S Juno → H Juno Dec 1.4445 1.44444 ninth (99.91) — only
-  - star rows: H Algol → H Juno RA 132.9950 133 whole (55.99) — also: 1 James Watt / Ben Robinson
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: H Kaus Australis → H Juno RA 1.9924 2 whole (38.38) — only
     - source line: S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
   - star rows: J Menkent → J Juno RA 161.9905 162 whole (27.72) — also: 2 Alablaq / George Downing
@@ -1588,30 +1500,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Mirach → H Venus RA 11.0098 11 whole (25.97) — only
     - source line: S Sun → Mirach Dec 45.0012 45 whole (88.22)
   - same body: S Venus → J Venus Dec 26.0247 26 whole (loose) — also: 3 Gowanlad / Phil Dennis
-- **Chiron**
-  - star rows: H Algol → H Chiron RA 55.0152 34×φ golden (87.60) — also: 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
-  - star rows: H Kaus Australis → H Chiron RA 75.9873 76 whole (13.49) — also: 5 Tathmeen / Cam Hardie
-    - source line: S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
-  - same body: S Chiron → J Chiron Dec 14.5797 9×φ golden (loose) — also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie
-- **Makemake**
-  - star rows: H Algol → H Makemake Dec 15.9863 16 whole (9.87) — also: 1 James Watt / Ben Robinson
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
-  - star rows: H Mirach → H Makemake RA 177.7329 177.778 ninth (96.48) — only
-    - source line: S Sun → Mirach Dec 45.0012 45 whole (88.22)
-  - star rows: H Vindemiatrix → H Makemake RA 0.3836 conj (55.40) — also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis
-    - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
-  - star rows: H Vindemiatrix → H Makemake Dec 14.0148 14 whole (6.78) — also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis
-    - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
-  - star rows: H Zubenelgenubi → H Makemake Dec 41.0139 41 whole (9.36) — also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis
-    - source line: S Sun → Zubenelgenubi RA 114.8818 71×φ golden (91.73)
-    - source line: S Moon → Zubenelgenubi Dec 9.0059 9 whole (49.44)
-  - same body: S Makemake → J Makemake RA 22.6240 14×φ golden (loose) — also: 1 James Watt / Ben Robinson
-    - source line: S Sun → Makemake Dec 32.0040 32 whole (64.00)
-  - T2: J Jupiter → J Makemake Dec 55.9959 56 whole (63.49) — also: 1 James Watt / Ben Robinson
-  - top rows: S Jupiter → J Makemake Dec 40.4560 25×φ golden (70.50) — only
-  - star rows: J Algol → J Makemake RA 129.4297 80×φ golden (35.86) — also: 1 James Watt / Ben Robinson
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
 - **Ceres**
   - star rows: H Bellatrix → H Ceres Dec 1.9931 2 whole (42.75) — only
     - source line: S Moon → Bellatrix RA 174.0057 174 whole (51.29)
@@ -1688,6 +1576,24 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Bellatrix RA 174.0057 174 whole (51.29)
   - star rows: J Sirius → J Orcus RA 34.9843 35 whole (4.66) — only
     - source line: S Moon → Sirius RA 154.0031 154 whole (71.80)
+- **Chiron**
+  - star rows: H Kaus Australis → H Chiron RA 75.9873 76 whole (13.49) — also: 5 Tathmeen / Cam Hardie
+    - source line: S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
+  - same body: S Chiron → J Chiron Dec 14.5797 9×φ golden (loose) — also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie
+- **Makemake**
+  - star rows: H Mirach → H Makemake RA 177.7329 177.778 ninth (96.48) — only
+    - source line: S Sun → Mirach Dec 45.0012 45 whole (88.22)
+  - star rows: H Vindemiatrix → H Makemake RA 0.3836 conj (55.40) — also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis
+    - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
+  - star rows: H Vindemiatrix → H Makemake Dec 14.0148 14 whole (6.78) — also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis
+    - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
+  - star rows: H Zubenelgenubi → H Makemake Dec 41.0139 41 whole (9.36) — also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis
+    - source line: S Sun → Zubenelgenubi RA 114.8818 71×φ golden (91.73)
+    - source line: S Moon → Zubenelgenubi Dec 9.0059 9 whole (49.44)
+  - same body: S Makemake → J Makemake RA 22.6240 14×φ golden (loose) — also: 1 James Watt / Ben Robinson
+    - source line: S Sun → Makemake Dec 32.0040 32 whole (64.00)
+  - T2: J Jupiter → J Makemake Dec 55.9959 56 whole (63.49) — also: 1 James Watt / Ben Robinson
+  - top rows: S Jupiter → J Makemake Dec 40.4560 25×φ golden (70.50) — only
 - **Transpluto**
   - star rows: H Vindemiatrix → H Transpluto Dec 0.1089 conj (40.56) — also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie
     - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
@@ -1709,8 +1615,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Mirach Dec 45.0012 45 whole (88.22)
 - **Sun**
   - top rows: S Moon → J Sun Dec 17.7985 11×φ golden (99.18) — also: 1 James Watt / Ben Robinson
-  - star rows: J Algol → J Sun RA 150.0095 150 whole (27.55) — also: 1 James Watt / Ben Robinson, 5 Tathmeen / Cam Hardie
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: J Kaus Australis → J Sun RA 78.9834 79 whole (2.93) — also: 1 James Watt / Ben Robinson
     - source line: S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
   - star rows: J Meissa → J Sun RA 113.2710 70×φ golden (53.70) — only
@@ -1790,8 +1694,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Zubeneschamali → H Sedna RA 174.9953 175 whole (58.42)
     - source line: S Sun → Zubeneschamali Dec 0.0034 conj (97.75)
   - other chart, same body: S Sedna → J Sedna RA 13.2987 13.3333 ninth (loose)
-  - other chart, star rows: J Algol → J Sedna Dec 36.0140 36 whole (8.94)
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - other chart, star rows: J Meissa → J Sedna Dec 4.9929 5 whole (41.77)
     - source line: S Moon → Meissa RA 171.5037 106×φ golden (56.94)
   - other chart, star rows: J Menkent → J Sedna RA 166.6654 166.667 ninth (99.89)
@@ -1826,8 +1728,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Zubenelgenubi RA 114.8818 71×φ golden (91.73)
     - source line: S Moon → Zubenelgenubi Dec 9.0059 9 whole (49.44)
 - **J Chiron** (same body: S Chiron → J Chiron RA 178.6304 10×φ^6 phi power (loose))
-  - star rows: J Algol → J Chiron RA 140.0016 140 whole (84.79)
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: J Kaus Australis → J Chiron RA 89.0110 89 whole (20.47)
     - source line: S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
   - star rows: J Kaus Australis → J Chiron Dec 28.9913 29 whole (31.66)
@@ -1851,8 +1751,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Vindemiatrix → J Rahu RA 0.0997 conj (87.15)
     - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
 - **J Sedna** (same body: S Sedna → J Sedna RA 13.2987 13.3333 ninth (loose))
-  - star rows: J Algol → J Sedna Dec 36.0140 36 whole (8.94)
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: J Meissa → J Sedna Dec 4.9929 5 whole (41.77)
     - source line: S Moon → Meissa RA 171.5037 106×φ golden (56.94)
   - star rows: J Menkent → J Sedna RA 166.6654 166.667 ninth (99.89)
@@ -1892,8 +1790,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Haumea → J Haumea RA 25.0191 25 whole (0.22) = S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
   - 36 whole — also: 1 James Watt / Ben Robinson
     - J Aldebaran → J Mars RA 36.0038 36 whole (65.83) = S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
-  - 36 whole — also: 1 James Watt / Ben Robinson
-    - J Algol → J Sedna Dec 36.0140 36 whole (8.94) = S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
   - 7×φ golden — also: 2 Alablaq / George Downing, 4 Blazing Hot / Hollie Doyle
     - J Sirius → J Chiron Dec 11.3251 7×φ golden (93.35) = S Moon → Menkent Dec 11.3233 7×φ golden (82.95)
 - **4. circle divisions**
@@ -1923,8 +1819,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Aldebaran → J Mercury Dec 3.9968 4 whole (70.57)
   - 36 = 360/10 — also: 1 James Watt / Ben Robinson
     - J Aldebaran → J Mars RA 36.0038 36 whole (65.83)
-  - 36 = 360/10 — also: 1 James Watt / Ben Robinson
-    - J Algol → J Sedna Dec 36.0140 36 whole (8.94)
   - 2 = 360/180 — also: 4 Blazing Hot / Hollie Doyle
     - J Meissa → J Venus RA 1.9968 2 whole (70.79)
   - 5 = 360/72 — also: 3 Gowanlad / Phil Dennis
@@ -1961,9 +1855,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 63×φ golden — only
     - S Uranus → H Jupiter RA 101.9321 63×φ golden (76.34)
     - H Bellatrix → H Venus RA 101.9091 63×φ golden (2.65)
-  - 59 whole — only
-    - H Menkent → H Transpluto RA 58.9860 59 whole (9.10)
-    - J Algol → J Gonggong Dec 58.9971 59 whole (73.37)
   - 26 whole — only
     - H Sirius → H Juno RA 25.9917 26 whole (34.42)
     - J Bellatrix → J Uranus Dec 26.0164 26 whole (3.27)
@@ -1985,9 +1876,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 4 whole — also: 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle
     - J Aldebaran → J Mercury Dec 3.9968 4 whole (70.57)
     - J Zubeneschamali → J Chiron Dec 3.9921 4 whole (36.45)
-  - 36 whole — also: 1 James Watt / Ben Robinson
-    - J Aldebaran → J Mars RA 36.0038 36 whole (65.83)
-    - J Algol → J Sedna Dec 36.0140 36 whole (8.94)
   - 29 whole — also: 1 James Watt / Ben Robinson
     - J Kaus Australis → J Chiron Dec 28.9913 29 whole (31.66)
     - J Menkent → J Pluto Dec 28.9968 29 whole (70.77)
@@ -2056,8 +1944,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Zubeneschamali → H Sedna RA 174.9953 175 whole (58.42) — also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis
     - source line: S Sun → Zubeneschamali Dec 0.0034 conj (97.75)
   - same body: S Sedna → J Sedna RA 13.2987 13.3333 ninth (loose) — also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing
-  - star rows: J Algol → J Sedna Dec 36.0140 36 whole (8.94) — also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: J Meissa → J Sedna Dec 4.9929 5 whole (41.77) — also: 2 Alablaq / George Downing
     - source line: S Moon → Meissa RA 171.5037 106×φ golden (56.94)
   - star rows: J Menkent → J Sedna RA 166.6654 166.667 ninth (99.89) — only
@@ -2085,8 +1971,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Sirius → H Chiron Dec 14.9842 15 whole (4.47) — only
     - source line: S Moon → Sirius RA 154.0031 154 whole (71.80)
   - same body: S Chiron → J Chiron RA 178.6304 10×φ^6 phi power (loose) — also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle
-  - star rows: J Algol → J Chiron RA 140.0016 140 whole (84.79) — also: 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: J Kaus Australis → J Chiron RA 89.0110 89 whole (20.47) — also: 4 Blazing Hot / Hollie Doyle
     - source line: S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)
   - star rows: J Kaus Australis → J Chiron Dec 28.9913 29 whole (31.66) — also: 4 Blazing Hot / Hollie Doyle
@@ -2150,8 +2034,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
   - star rows: J Aldebaran → J Sun Dec 1.0109 1 whole (20.67) — only
     - source line: S Sun → Aldebaran Dec 25.8885 16×φ golden (99.70)
-  - star rows: J Algol → J Sun RA 0.3045 conj (63.52) — also: 1 James Watt / Ben Robinson, 4 Blazing Hot / Hollie Doyle
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: J Zubenelgenubi → J Sun RA 175.9947 176 whole (54.01) — also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis
     - source line: S Sun → Zubenelgenubi RA 114.8818 71×φ golden (91.73)
     - source line: S Moon → Zubenelgenubi Dec 9.0059 9 whole (49.44)
@@ -2175,9 +2057,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Ketu → J Ketu RA 141.9088 141.4 sqrt2 (loose) — also: 4 Blazing Hot / Hollie Doyle
   - star rows: J Bellatrix → J Ketu Dec 0.2397 conj (4.04) — also: 3 Gowanlad / Phil Dennis
     - source line: S Moon → Bellatrix RA 174.0057 174 whole (51.29)
+- **Uranus**
+  - star rows: J Bellatrix → J Uranus Dec 26.0164 26 whole (3.27) — only
+    - source line: S Moon → Bellatrix RA 174.0057 174 whole (51.29)
 - **Gonggong**
-  - star rows: J Algol → J Gonggong Dec 58.9971 59 whole (73.37) — only
-    - source line: S Moon → Algol Dec 66.0062 66 whole (47.70)
   - star rows: J Menkent → J Gonggong RA 120.0198 120 whole (0.01) — also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis
     - source line: S Moon → Menkent Dec 11.3233 7×φ golden (82.95)
   - star rows: J Vindemiatrix → J Gonggong Dec 29.0011 29 whole (89.19) — also: 3 Gowanlad / Phil Dennis
@@ -2185,6 +2068,3 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Zubenelgenubi → J Gonggong Dec 1.9995 2 whole (95.07) — only
     - source line: S Sun → Zubenelgenubi RA 114.8818 71×φ golden (91.73)
     - source line: S Moon → Zubenelgenubi Dec 9.0059 9 whole (49.44)
-- **Uranus**
-  - star rows: J Bellatrix → J Uranus Dec 26.0164 26 whole (3.27) — only
-    - source line: S Moon → Bellatrix RA 174.0057 174 whole (51.29)

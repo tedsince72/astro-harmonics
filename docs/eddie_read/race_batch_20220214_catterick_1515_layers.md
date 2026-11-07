@@ -16,11 +16,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Sun → Murzim RA 127.8222 79×φ golden (85.13)
 - S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)
 - S Sun → Vega Dec 51.7710 32×φ golden (65.83)
-- S Sun → Deneb Algedi RA 1.1004 conj (7.10)
-- S Moon → Vesta RA 163.4101 101×φ golden (42.14)
 - S Moon → Hamal Dec 0.0488 conj (70.13)
 - S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
-- Hubs: Betelgeuse, Vesta
+- Hubs: Betelgeuse
 
 ## 1 Almazhar Garde / Luca Morgan
 ### L1 same bodies
@@ -73,8 +71,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, same body: S Orcus → J Orcus Dec 10.0038 10 whole (65.78)
   - other chart, star rows: J Alphard → J Orcus RA 1.4250 conj (0.25)
     - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
-  - other chart, star rows: J Deneb Algedi → J Orcus Dec 13.9972 14 whole (74.35)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
 - **J Neptune** (same body: S Neptune → J Neptune RA 44.3816 44.4444 ninth (loose))
   - top rows: S Moon → J Neptune Dec 42.0695 26×φ golden (96.37)
   - star rows: J Alphard → J Neptune Dec 10.0007 10 whole (93.57)
@@ -83,7 +79,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
 - **J Vesta** (same body: S Vesta → J Vesta RA 143.9661 144.444 ninth (loose))
   - sky line to Vesta: S Sun → Vesta RA 38.8398 24×φ golden (61.63)
-  - sky line to Vesta: S Moon → Vesta RA 163.4101 101×φ golden (42.14)
 - **J Eris** (same body: S Eris → J Eris RA 1.9899 2 whole (24.64))
   - star rows: J Alphard → J Eris RA 118.0074 118 whole (39.54)
     - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
@@ -92,8 +87,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
   - star rows: J Difda → J Eris RA 12.9839 13 whole (3.71)
     - source line: S Sun → Difda Dec 5.0001 5 whole (98.75)
-  - other chart, star rows: H Deneb Algedi → H Eris Dec 12.9438 8×φ golden (97.17)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
 - **J Makemake** (same body: S Makemake → J Makemake RA 17.9556 φ^6 phi power (loose))
   - star rows: J Vega → J Makemake RA 97.9859 98 whole (8.66)
     - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
@@ -104,8 +97,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Orcus** (same body: S Orcus → J Orcus Dec 10.0038 10 whole (65.78))
   - star rows: J Alphard → J Orcus RA 1.4250 conj (0.25)
     - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
-  - star rows: J Deneb Algedi → J Orcus Dec 13.9972 14 whole (74.35)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - other chart, same body: S Orcus → H Orcus RA 5.9764 6 whole (loose)
   - other chart, top rows: S Jupiter → H Orcus Dec 0.1960 conj (12.02)
   - other chart, star rows: H Alphard → H Orcus Dec 0.2138 conj (8.25)
@@ -116,8 +107,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Hamal → H Orcus RA 119.0097 119 whole (26.31)
     - source line: S Moon → Hamal Dec 0.0488 conj (70.13)
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 28.9783 29 whole (loose))
-  - star rows: J Deneb Algedi → J Quaoar RA 78.9918 79 whole (34.53)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: J Hamal → J Quaoar RA 144.0274 89×φ golden (9.50)
     - source line: S Moon → Hamal Dec 0.0488 conj (70.13)
   - star rows: J Murzim → J Quaoar RA 152.0952 94×φ golden (99.93)
@@ -134,8 +123,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **3. runner number = sky number**
   - 5 whole — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
     - H Alphard → H Mars Dec 5.0022 5 whole (78.79) = S Sun → Difda Dec 5.0001 5 whole (98.75)
-  - 101×φ golden — only
-    - H Alphard → H Neptune RA 163.4151 101×φ golden (64.59) = S Moon → Vesta RA 163.4101 101×φ golden (42.14)
   - 12×φ golden — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
     - H Unukalhai → H Makemake Dec 19.4159 12×φ golden (96.61) = S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)
   - 16 whole — also: 2 Marown / Brian Hughes
@@ -147,15 +134,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Orcus → H Orcus RA 5.9764 6 whole (loose)
   - 5 = 360/72 — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
     - H Alphard → H Mars Dec 5.0022 5 whole (78.79)
-  - 15 = 360/24 — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods
+  - 15 = 360/24 — also: 3 Omar Maretti / Kielan Woods
     - H Alphard → H Pallas Dec 15.0001 15 whole (98.51)
-  - 9 = 360/40 — also: 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
+  - 9 = 360/40 — also: 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
     - H Betelgeuse → H Chiron Dec 8.9939 9 whole (48.35)
-  - 3 = 360/120 — also: 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan
-    - H Deneb Algedi → H Gonggong Dec 3.0030 3 whole (72.10)
   - 1 = 360/360 — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
     - H Murzim → H Saturn Dec 0.9869 1 whole (11.90)
-  - 8 = 360/45 — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
+  - 8 = 360/45 — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge
     - H Unukalhai → H Chiron Dec 8.0115 8 whole (18.15)
   - 2 = 360/180 — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
     - S Eris → J Eris RA 1.9899 2 whole (24.64)
@@ -183,9 +168,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 27 whole — only
     - S Moon → H Transpluto RA 27.0053 27 whole (54.33)
     - H Unukalhai → H Pluto Dec 26.9956 27 whole (60.53)
-  - 8×φ golden — only
-    - H Deneb Algedi → H Eris Dec 12.9438 8×φ golden (97.17)
-    - H Vega → H Makemake Dec 12.9420 8×φ golden (86.67)
   - 1 whole — also: 5 Brian Boranha / Callum Bewley
     - H Murzim → H Saturn Dec 0.9869 1 whole (11.90)
     - S Hamal → J Jupiter Dec 1.0176 1 whole (1.47)
@@ -196,9 +178,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 144.444 ninth — only
     - S Vesta → J Vesta RA 143.9661 144.444 ninth (loose)
     - S Moon → J Ketu RA 144.4312 144.444 ninth (98.60)
-  - 14 whole — only
-    - J Betelgeuse → J Eris Dec 14.0159 14 whole (4.13)
-    - J Deneb Algedi → J Orcus Dec 13.9972 14 whole (74.35)
 ### L4 every natal body
 - **Mercury**
   - same body: S Mercury → H Mercury RA 1.3271 1.33333 ninth (loose) — also: 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
@@ -242,12 +221,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Orcus → J Orcus Dec 10.0038 10 whole (65.78) — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 6 The Paddy Pie / Sean Quinlan
   - star rows: J Alphard → J Orcus RA 1.4250 conj (0.25) — also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
     - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
-  - star rows: J Deneb Algedi → J Orcus Dec 13.9972 14 whole (74.35) — also: 5 Brian Boranha / Callum Bewley
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
 - **Gonggong**
   - top rows: S Sun → H Gonggong Dec 0.1381 conj (29.11) — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
-  - star rows: H Deneb Algedi → H Gonggong Dec 3.0030 3 whole (72.10) — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: J Murzim → J Gonggong Dec 0.9898 1 whole (24.03) — also: 2 Marown / Brian Hughes
     - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
 - **Chiron**
@@ -301,17 +276,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
   - star rows: J Hamal → J Sedna Dec 17.9899 18 whole (24.58) — also: 5 Brian Boranha / Callum Bewley
     - source line: S Moon → Hamal Dec 0.0488 conj (70.13)
-- **Eris**
-  - star rows: H Deneb Algedi → H Eris Dec 12.9438 8×φ golden (97.17) — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
-  - same body: S Eris → J Eris RA 1.9899 2 whole (24.64) — only
-  - star rows: J Alphard → J Eris RA 118.0074 118 whole (39.54) — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods
-    - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
-  - star rows: J Betelgeuse → J Eris Dec 14.0159 14 whole (4.13) — also: 4 Winds Of Fire / Adam Wedge
-    - source line: S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)
-    - source line: S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
-  - star rows: J Difda → J Eris RA 12.9839 13 whole (3.71) — also: 6 The Paddy Pie / Sean Quinlan
-    - source line: S Sun → Difda Dec 5.0001 5 whole (98.75)
 - **Ketu**
   - star rows: H Difda → H Ketu RA 0.8977 conj (16.12) — only
     - source line: S Sun → Difda Dec 5.0001 5 whole (98.75)
@@ -343,11 +307,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Vesta**
   - same body: S Vesta → J Vesta RA 143.9661 144.444 ninth (loose) — also: 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
     - source line: S Sun → Vesta RA 38.8398 24×φ golden (61.63)
-    - source line: S Moon → Vesta RA 163.4101 101×φ golden (42.14)
+- **Eris**
+  - same body: S Eris → J Eris RA 1.9899 2 whole (24.64) — only
+  - star rows: J Alphard → J Eris RA 118.0074 118 whole (39.54) — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods
+    - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
+  - star rows: J Betelgeuse → J Eris Dec 14.0159 14 whole (4.13) — also: 4 Winds Of Fire / Adam Wedge
+    - source line: S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)
+    - source line: S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
+  - star rows: J Difda → J Eris RA 12.9839 13 whole (3.71) — also: 6 The Paddy Pie / Sean Quinlan
+    - source line: S Sun → Difda Dec 5.0001 5 whole (98.75)
 - **Quaoar**
   - same body: S Quaoar → J Quaoar RA 28.9783 29 whole (loose) — only
-  - star rows: J Deneb Algedi → J Quaoar RA 78.9918 79 whole (34.53) — only
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: J Hamal → J Quaoar RA 144.0274 89×φ golden (9.50) — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods
     - source line: S Moon → Hamal Dec 0.0488 conj (70.13)
   - star rows: J Murzim → J Quaoar RA 152.0952 94×φ golden (99.93) — also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
@@ -419,8 +389,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)
     - source line: S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
   - other chart, top rows: S Jupiter → J Saturn RA 110.9967 111 whole (69.84)
-  - other chart, star rows: J Deneb Algedi → J Saturn Dec 0.1224 conj (35.04)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
 - **H Neptune** (same body: S Neptune → H Neptune RA 13.9841 14 whole (4.31))
   - other chart, same body: S Neptune → J Neptune Dec 17.8819 φ^6 phi power (loose)
 - **H Ceres** (same body: S Ceres → H Ceres Dec 17.0227 17 whole (loose))
@@ -440,23 +408,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Betelgeuse → J Gonggong RA 120.0187 120 whole (0.42)
     - source line: S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)
     - source line: S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
-  - other chart, star rows: J Deneb Algedi → J Gonggong RA 2.0066 2 whole (45.12)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
 - **J Uranus** (same body: S Uranus → J Uranus RA 143.9975 144 whole (76.52))
   - other chart, star rows: H Alphard → H Uranus RA 129.4139 80×φ golden (1.17)
     - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
 - **J Neptune** (same body: S Neptune → J Neptune Dec 17.8819 φ^6 phi power (loose))
   - other chart, same body: S Neptune → H Neptune RA 13.9841 14 whole (4.31)
 - **J Chiron** (same body: S Chiron → J Chiron Dec 12.2314 12.2222 ninth (loose))
-  - star rows: J Deneb Algedi → J Chiron Dec 34.0029 34 whole (73.38)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: J Unukalhai → J Chiron RA 166.6071 166.667 ninth (94.89)
     - source line: S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)
   - other chart, star rows: H Betelgeuse → H Chiron RA 103.5676 64×φ golden (34.38)
     - source line: S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)
     - source line: S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
-  - other chart, star rows: H Deneb Algedi → H Chiron Dec 14.9954 15 whole (59.07)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - other chart, star rows: H Vega → H Chiron RA 65.9843 66 whole (4.55)
     - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
 - **J Juno** (same body: S Juno → J Juno RA 122.4655 122.222 ninth (loose))
@@ -498,12 +460,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **4. circle divisions**
   - 90 = 360/4 — only
     - S Saturn → H Saturn RA 90.0021 90 whole (79.90)
-  - 3 = 360/120 — also: 1 Almazhar Garde / Luca Morgan, 6 The Paddy Pie / Sean Quinlan
+  - 3 = 360/120 — also: 6 The Paddy Pie / Sean Quinlan
     - S Haumea → H Haumea Dec 2.9809 3 whole (0.20)
   - 1 = 360/360 — also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
     - S Gonggong → H Gonggong RA 0.9958 1 whole (62.21)
-  - 15 = 360/24 — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods
-    - H Deneb Algedi → H Chiron Dec 14.9954 15 whole (59.07)
   - 120 = 360/3 — also: 4 Winds Of Fire / Adam Wedge
     - H Murzim → H Gonggong RA 119.9905 120 whole (27.33)
   - 5 = 360/72 — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
@@ -512,12 +472,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Sedna → J Sedna RA 18.0009 18 whole (91.18)
   - 5 = 360/72 — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
     - J Betelgeuse → J Venus Dec 5.0027 5 whole (75.22)
-  - 8 = 360/45 — also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
+  - 8 = 360/45 — also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge
     - J Betelgeuse → J Pallas Dec 8.0104 8 whole (22.81)
   - 120 = 360/3 — also: 4 Winds Of Fire / Adam Wedge
     - J Betelgeuse → J Gonggong RA 120.0187 120 whole (0.42)
-  - 2 = 360/180 — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
-    - J Deneb Algedi → J Gonggong RA 2.0066 2 whole (45.12)
   - 2 = 360/180 — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
     - J Hamal → J Ceres Dec 2.0000 2 whole (99.59)
   - 6 = 360/60 — also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
@@ -542,9 +500,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 5 whole — also: 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
     - H Vega → H Pluto RA 5.0024 5 whole (77.46)
     - J Betelgeuse → J Venus Dec 5.0027 5 whole (75.22)
-  - 2 whole — only
-    - J Deneb Algedi → J Gonggong RA 2.0066 2 whole (45.12)
-    - J Hamal → J Ceres Dec 2.0000 2 whole (99.59)
 ### L4 every natal body
 - **Venus**
   - same body: S Venus → H Venus RA 60.9914 61 whole (32.32) — also: 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
@@ -582,8 +537,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)
     - source line: S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
   - top rows: S Jupiter → J Saturn RA 110.9967 111 whole (69.84) — also: 5 Brian Boranha / Callum Bewley
-  - star rows: J Deneb Algedi → J Saturn Dec 0.1224 conj (35.04) — also: 3 Omar Maretti / Kielan Woods
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
 - **Neptune**
   - same body: S Neptune → H Neptune RA 13.9841 14 whole (4.31) — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
   - same body: S Neptune → J Neptune Dec 17.8819 φ^6 phi power (loose) — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
@@ -607,8 +560,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Betelgeuse → J Gonggong RA 120.0187 120 whole (0.42) — also: 3 Omar Maretti / Kielan Woods
     - source line: S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)
     - source line: S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
-  - star rows: J Deneb Algedi → J Gonggong RA 2.0066 2 whole (45.12) — also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
 - **Vesta**
   - top rows: S Moon → H Vesta RA 78.9953 79 whole (58.56) — only
 - **Uranus**
@@ -626,21 +577,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Eris**
   - star rows: H Alphard → H Eris RA 116.4916 72×φ golden (62.19) — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods
     - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
-  - star rows: H Deneb Algedi → H Eris Dec 13.0155 13 whole (5.02) — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: J Vega → J Eris RA 103.0184 103 whole (0.68) — also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
     - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
 - **Chiron**
   - star rows: H Betelgeuse → H Chiron RA 103.5676 64×φ golden (34.38) — also: 1 Almazhar Garde / Luca Morgan, 5 Brian Boranha / Callum Bewley
     - source line: S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)
     - source line: S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
-  - star rows: H Deneb Algedi → H Chiron Dec 14.9954 15 whole (59.07) — also: 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: H Vega → H Chiron RA 65.9843 66 whole (4.55) — also: 5 Brian Boranha / Callum Bewley
     - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
   - same body: S Chiron → J Chiron Dec 12.2314 12.2222 ninth (loose) — also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
-  - star rows: J Deneb Algedi → J Chiron Dec 34.0029 34 whole (73.38) — also: 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: J Unukalhai → J Chiron RA 166.6071 166.667 ninth (94.89) — also: 1 Almazhar Garde / Luca Morgan, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
     - source line: S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)
 - **Sedna**
@@ -655,13 +600,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Murzim → H Makemake RA 96.0084 96 whole (33.53) — also: 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
     - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
   - top rows: S Jupiter → J Makemake RA 179.4236 10×φ^6 phi power (95.78) — only
-- **Transpluto**
-  - star rows: H Deneb Algedi → H Transpluto RA 175.0012 175 whole (88.65) — only
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
-  - star rows: J Alphard → J Transpluto RA 0.1658 conj (79.11) — also: 6 The Paddy Pie / Sean Quinlan
-    - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
-  - star rows: J Unukalhai → J Transpluto RA 94.0117 94 whole (17.30) — also: 4 Winds Of Fire / Adam Wedge
-    - source line: S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)
 - **Quaoar**
   - star rows: H Hamal → H Quaoar Dec 38.9813 39 whole (0.40) — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods
     - source line: S Moon → Hamal Dec 0.0488 conj (70.13)
@@ -686,6 +624,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
   - star rows: J Hamal → J Sun Dec 0.0691 conj (59.24) — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley
     - source line: S Moon → Hamal Dec 0.0488 conj (70.13)
+- **Transpluto**
+  - star rows: J Alphard → J Transpluto RA 0.1658 conj (79.11) — also: 6 The Paddy Pie / Sean Quinlan
+    - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
+  - star rows: J Unukalhai → J Transpluto RA 94.0117 94 whole (17.30) — also: 4 Winds Of Fire / Adam Wedge
+    - source line: S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)
 - **Pallas**
   - star rows: J Betelgeuse → J Pallas Dec 8.0104 8 whole (22.81) — also: 3 Omar Maretti / Kielan Woods
     - source line: S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)
@@ -719,8 +662,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Hamal Dec 0.0488 conj (70.13)
 - **H Neptune** (same body: S Neptune → H Neptune RA 14.4180 14.4444 ninth (loose))
 - **H Ceres** (same body: S Ceres → H Ceres Dec 17.7975 11×φ golden (94.42))
-  - star rows: H Deneb Algedi → H Ceres Dec 18.9977 19 whole (78.48)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: H Murzim → H Ceres RA 114.8503 71×φ golden (0.50)
     - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
   - other chart, same body: S Ceres → J Ceres Dec 50.9719 51 whole (loose)
@@ -789,8 +730,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Hamal → J Ceres RA 89.0040 89 whole (64.21)
     - source line: S Moon → Hamal Dec 0.0488 conj (70.13)
   - other chart, same body: S Ceres → H Ceres Dec 17.7975 11×φ golden (94.42)
-  - other chart, star rows: H Deneb Algedi → H Ceres Dec 18.9977 19 whole (78.48)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - other chart, star rows: H Murzim → H Ceres RA 114.8503 71×φ golden (0.50)
     - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 14.4655 14.4444 ninth (loose))
@@ -819,7 +758,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Vega → H Pluto RA 4.9824 5 whole (1.39)
   - 12 = 360/30 — also: 4 Winds Of Fire / Adam Wedge
     - H Vega → H Makemake Dec 12.0141 12 whole (8.74)
-  - 15 = 360/24 — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes
+  - 15 = 360/24 — also: 1 Almazhar Garde / Luca Morgan
     - J Hamal → J Chiron Dec 15.0008 15 whole (92.60)
 - **5. same number in more than one place**
   - 17.7778 ninth — only
@@ -846,7 +785,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Alphard → J Jupiter RA 39.0003 39 whole (96.80)
   - 38 whole — only
     - J Jupiter → J star Vega Dec 37.9954 38 whole (59.47)
-    - J Deneb Algedi → J Haumea Dec 37.9956 38 whole (60.94)
     - J Vega → J Jupiter Dec 37.9954 38 whole (59.47)
 ### L4 every natal body
 - **Mars**
@@ -863,8 +801,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Neptune → H Neptune RA 14.4180 14.4444 ninth (loose) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
 - **Ceres**
   - same body: S Ceres → H Ceres Dec 17.7975 11×φ golden (94.42) — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge
-  - star rows: H Deneb Algedi → H Ceres Dec 18.9977 19 whole (78.48) — only
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: H Murzim → H Ceres RA 114.8503 71×φ golden (0.50) — only
     - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
   - same body: S Ceres → J Ceres Dec 50.9719 51 whole (loose) — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge
@@ -900,16 +836,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Betelgeuse → H Juno RA 71.1905 44×φ golden (82.15) — only
     - source line: S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)
     - source line: S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
-  - star rows: J Deneb Algedi → J Juno RA 129.9935 130 whole (45.62) — also: 6 The Paddy Pie / Sean Quinlan
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: J Murzim → J Juno RA 1.0797 conj (7.85) — also: 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
     - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
   - star rows: J Unukalhai → J Juno Dec 0.2786 conj (0.51) — also: 2 Marown / Brian Hughes
     - source line: S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)
 - **Haumea**
   - top rows: S Sun → H Haumea RA 118.1231 73×φ golden (63.36) — also: 5 Brian Boranha / Callum Bewley
-  - star rows: J Deneb Algedi → J Haumea Dec 37.9956 38 whole (60.94) — also: 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
 - **Gonggong**
   - top rows: S Sun → H Gonggong Dec 0.1636 conj (20.68) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
   - star rows: H Betelgeuse → H Gonggong RA 113.2351 70×φ golden (2.46) — also: 2 Marown / Brian Hughes
@@ -953,27 +885,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
   - star rows: J Unukalhai → J Quaoar RA 0.4026 conj (53.52) — also: 4 Winds Of Fire / Adam Wedge
     - source line: S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)
-- **Saturn**
-  - star rows: H Deneb Algedi → H Saturn Dec 0.1716 conj (18.32) — also: 2 Marown / Brian Hughes
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
-  - star rows: H Murzim → H Saturn Dec 2.0017 2 whole (83.78) — also: 1 Almazhar Garde / Luca Morgan
-    - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
-  - star rows: J Difda → J Saturn Dec 0.2292 conj (5.57) — only
-    - source line: S Sun → Difda Dec 5.0001 5 whole (98.75)
-  - star rows: J Murzim → J Saturn RA 140.9828 141 whole (1.95) — also: 1 Almazhar Garde / Luca Morgan
-    - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
-  - star rows: J Murzim → J Saturn Dec 0.2618 conj (1.62) — also: 1 Almazhar Garde / Luca Morgan
-    - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
-  - star rows: J Vega → J Saturn Dec 57.0021 57 whole (80.06) — also: 4 Winds Of Fire / Adam Wedge
-    - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
-- **Eris**
-  - star rows: H Deneb Algedi → H Eris Dec 12.9446 8×φ golden (97.87) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
-  - star rows: H Vega → H Eris RA 106.0156 106 whole (4.83) — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
-    - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
-  - top rows: S Jupiter → J Eris Dec 0.2337 conj (4.88) — only
-  - star rows: J Alphard → J Eris Dec 0.2559 conj (2.17) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes
-    - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
 - **Uranus**
   - star rows: H Difda → H Uranus RA 0.7579 conj (24.48) — also: 5 Brian Boranha / Callum Bewley
     - source line: S Sun → Difda Dec 5.0001 5 whole (98.75)
@@ -985,6 +896,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Hamal → H Makemake RA 160.1655 99×φ golden (14.80) — also: 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
     - source line: S Moon → Hamal Dec 0.0488 conj (70.13)
   - star rows: H Vega → H Makemake Dec 12.0141 12 whole (8.74) — also: 1 Almazhar Garde / Luca Morgan
+    - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
+- **Saturn**
+  - star rows: H Murzim → H Saturn Dec 2.0017 2 whole (83.78) — also: 1 Almazhar Garde / Luca Morgan
+    - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
+  - star rows: J Difda → J Saturn Dec 0.2292 conj (5.57) — only
+    - source line: S Sun → Difda Dec 5.0001 5 whole (98.75)
+  - star rows: J Murzim → J Saturn RA 140.9828 141 whole (1.95) — also: 1 Almazhar Garde / Luca Morgan
+    - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
+  - star rows: J Murzim → J Saturn Dec 0.2618 conj (1.62) — also: 1 Almazhar Garde / Luca Morgan
+    - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
+  - star rows: J Vega → J Saturn Dec 57.0021 57 whole (80.06) — also: 4 Winds Of Fire / Adam Wedge
     - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
 - **Pluto**
   - star rows: H Vega → H Pluto RA 4.9824 5 whole (1.39) — also: 2 Marown / Brian Hughes
@@ -1000,6 +922,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Rahu**
   - star rows: H Vega → H Rahu RA 73.0155 73 whole (5.03) — also: 4 Winds Of Fire / Adam Wedge
     - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
+- **Eris**
+  - star rows: H Vega → H Eris RA 106.0156 106 whole (4.83) — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
+    - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
+  - top rows: S Jupiter → J Eris Dec 0.2337 conj (4.88) — only
+  - star rows: J Alphard → J Eris Dec 0.2559 conj (2.17) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes
+    - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
 - **Ketu**
   - star rows: H Vega → H Ketu RA 106.9845 107 whole (5.03) — also: 4 Winds Of Fire / Adam Wedge
     - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
@@ -1047,8 +975,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Alphard → J Sun RA 0.5288 conj (41.92)
     - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
 - **H Venus** (same body: S Venus → H Venus RA 121.6157 122.222 ninth (loose))
-  - star rows: H Deneb Algedi → H Venus Dec 35.0021 35 whole (79.67)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - other chart, star rows: J Difda → J Venus Dec 22.0075 22 whole (38.76)
     - source line: S Sun → Difda Dec 5.0001 5 whole (98.75)
   - other chart, star rows: J Murzim → J Venus RA 77.6655 48×φ golden (99.21)
@@ -1093,10 +1019,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Hamal → H Saturn Dec 42.3691 10×φ^3 phi power (92.25)
     - source line: S Moon → Hamal Dec 0.0488 conj (70.13)
 - **J Neptune** (same body: S Neptune → J Neptune Dec 17.7615 17.7778 ninth (loose))
-  - star rows: J Deneb Algedi → J Neptune Dec 6.0067 6 whole (44.13)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
-  - other chart, star rows: H Deneb Algedi → H Neptune Dec 7.0101 7 whole (24.32)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
 - **J Chiron** (same body: S Chiron → J Chiron RA 95.4960 59×φ golden (loose); S Chiron → J Chiron Dec 11.0767 φ^5 phi power (loose))
 - **J Ceres** (same body: S Ceres → J Ceres RA 19.3926 12×φ golden (loose))
   - star rows: J Betelgeuse → J Ceres RA 11.0021 11 whole (80.24)
@@ -1109,8 +1031,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Rahu** (same body: S Rahu → J Rahu Dec 32.3702 20×φ golden (loose))
   - top rows: S Sun → J Rahu RA 0.3830 conj (55.46)
   - top rows: S Sun → J Rahu Dec 0.1334 conj (30.84)
-  - star rows: J Deneb Algedi → J Rahu RA 1.4748 conj (0.03)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: J Vega → J Rahu RA 49.0003 49 whole (97.32)
     - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
   - other chart, top rows: S Jupiter → H Rahu RA 153.0007 153 whole (93.06)
@@ -1129,13 +1049,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)
     - source line: S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
 - **J Ketu** (same body: S Ketu → J Ketu Dec 32.3702 20×φ golden (loose))
-  - star rows: J Deneb Algedi → J Ketu Dec 28.9805 29 whole (0.06)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: J Vega → J Ketu RA 130.9997 131 whole (97.32)
     - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
   - other chart, top rows: S Jupiter → H Ketu RA 26.9993 27 whole (93.06)
-  - other chart, star rows: H Deneb Algedi → H Ketu Dec 20.0104 20 whole (23.22)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
 ### L3 matches
 - **1. same body on both charts**: none
 - **2. one body in both planes**
@@ -1161,13 +1077,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Pluto → H Pluto Dec 2.0045 2 whole (60.36)
   - 1 = 360/360 — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley
     - S Transpluto → H Transpluto Dec 0.9858 1 whole (8.43)
-  - 9 = 360/40 — also: 1 Almazhar Garde / Luca Morgan, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
-    - H Deneb Algedi → H Gonggong RA 8.9973 9 whole (74.41)
-  - 20 = 360/18 — only
-    - H Deneb Algedi → H Ketu Dec 20.0104 20 whole (23.22)
   - 36 = 360/10 — also: 5 Brian Boranha / Callum Bewley
     - S Difda → H Jupiter Dec 35.9884 36 whole (17.67)
-  - 8 = 360/45 — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley
+  - 8 = 360/45 — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes
     - H Hamal → H Pallas Dec 7.9810 8 whole (0.25)
   - 12 = 360/30 — also: 3 Omar Maretti / Kielan Woods
     - H Hamal → H Transpluto Dec 12.0185 12 whole (0.56)
@@ -1177,13 +1089,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Unukalhai → H Transpluto Dec 5.0187 5 whole (0.45)
   - 6 = 360/60 — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan
     - S Saturn → J Saturn Dec 6.0203 6 whole (loose)
-  - 8 = 360/45 — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley
+  - 8 = 360/45 — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes
     - S Jupiter → J Pluto Dec 7.9984 8 whole (84.71)
-  - 6 = 360/60 — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan
-    - J Deneb Algedi → J Neptune Dec 6.0067 6 whole (44.13)
   - 5 = 360/72 — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 6 The Paddy Pie / Sean Quinlan
     - J Difda → J Quaoar Dec 5.0134 5 whole (10.77)
-  - 9 = 360/40 — also: 1 Almazhar Garde / Luca Morgan, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
+  - 9 = 360/40 — also: 1 Almazhar Garde / Luca Morgan, 5 Brian Boranha / Callum Bewley
     - J Hamal → J Eris RA 8.9905 9 whole (27.49)
   - 12 = 360/30 — also: 3 Omar Maretti / Kielan Woods
     - J Hamal → J Makemake Dec 11.9832 12 whole (2.64)
@@ -1201,9 +1111,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Alphard → H Juno RA 16.6608 16.6667 ninth (95.00)
     - J Jupiter → J star Unukalhai Dec 16.6635 16.6667 ninth (97.26)
     - S Unukalhai → J Jupiter Dec 16.6678 16.6667 ninth (99.01)
-  - 9 whole — also: 5 Brian Boranha / Callum Bewley
-    - H Deneb Algedi → H Gonggong RA 8.9973 9 whole (74.41)
-    - J Hamal → J Eris RA 8.9905 9 whole (27.49)
   - 8 whole — only
     - H Hamal → H Pallas Dec 7.9810 8 whole (0.25)
     - S Jupiter → J Pluto Dec 7.9984 8 whole (84.71)
@@ -1217,9 +1124,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Unukalhai → H Transpluto Dec 5.0187 5 whole (0.45)
     - J Difda → J Quaoar Dec 5.0134 5 whole (10.77)
     - J Murzim → J Quaoar Dec 4.9829 5 whole (2.09)
-  - 6 whole — only
-    - S Saturn → J Saturn Dec 6.0203 6 whole (loose)
-    - J Deneb Algedi → J Neptune Dec 6.0067 6 whole (44.13)
   - 20×φ golden — only
     - S Rahu → J Rahu Dec 32.3702 20×φ golden (loose)
     - S Ketu → J Ketu Dec 32.3702 20×φ golden (loose)
@@ -1229,9 +1133,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 11 whole — also: 6 The Paddy Pie / Sean Quinlan
     - J Betelgeuse → J Ceres RA 11.0021 11 whole (80.24)
     - J Vega → J Vesta RA 11.0097 11 whole (26.58)
-  - 29 whole — only
-    - J Deneb Algedi → J Ketu Dec 28.9805 29 whole (0.06)
-    - J Unukalhai → J Makemake Dec 29.0178 29 whole (1.17)
 ### L4 every natal body
 - **Sun**
   - same body: S Sun → H Sun RA 44.4785 44.4444 ninth (loose) — also: 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
@@ -1242,8 +1143,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
 - **Venus**
   - same body: S Venus → H Venus RA 121.6157 122.222 ninth (loose) — also: 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan
-  - star rows: H Deneb Algedi → H Venus Dec 35.0021 35 whole (79.67) — only
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: J Difda → J Venus Dec 22.0075 22 whole (38.76) — only
     - source line: S Sun → Difda Dec 5.0001 5 whole (98.75)
   - star rows: J Murzim → J Venus RA 77.6655 48×φ golden (99.21) — also: 3 Omar Maretti / Kielan Woods, 6 The Paddy Pie / Sean Quinlan
@@ -1277,8 +1176,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Rahu → J Rahu Dec 32.3702 20×φ golden (loose) — also: 5 Brian Boranha / Callum Bewley
   - top rows: S Sun → J Rahu RA 0.3830 conj (55.46) — only
   - top rows: S Sun → J Rahu Dec 0.1334 conj (30.84) — only
-  - star rows: J Deneb Algedi → J Rahu RA 1.4748 conj (0.03) — only
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: J Vega → J Rahu RA 49.0003 49 whole (97.32) — also: 3 Omar Maretti / Kielan Woods
     - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
 - **Orcus**
@@ -1289,11 +1186,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
 - **Ketu**
   - top rows: S Jupiter → H Ketu RA 26.9993 27 whole (93.06) — only
-  - star rows: H Deneb Algedi → H Ketu Dec 20.0104 20 whole (23.22) — only
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - same body: S Ketu → J Ketu Dec 32.3702 20×φ golden (loose) — also: 5 Brian Boranha / Callum Bewley
-  - star rows: J Deneb Algedi → J Ketu Dec 28.9805 29 whole (0.06) — only
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: J Vega → J Ketu RA 130.9997 131 whole (97.32) — also: 3 Omar Maretti / Kielan Woods
     - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
 - **Vesta**
@@ -1307,8 +1200,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
 - **Gonggong**
   - top rows: S Sun → H Gonggong Dec 0.0938 conj (47.22) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 6 The Paddy Pie / Sean Quinlan
-  - star rows: H Deneb Algedi → H Gonggong RA 8.9973 9 whole (74.41) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
 - **Mars**
   - top rows: S Moon → H Mars Dec 11.3277 7×φ golden (91.44) — also: 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley
   - star rows: H Alphard → H Mars RA 112.0171 112 whole (2.04) — also: 1 Almazhar Garde / Luca Morgan
@@ -1352,19 +1243,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
   - star rows: J Unukalhai → J Makemake Dec 29.0178 29 whole (1.17) — also: 1 Almazhar Garde / Luca Morgan
     - source line: S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)
-- **Neptune**
-  - star rows: H Deneb Algedi → H Neptune Dec 7.0101 7 whole (24.32) — only
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
-  - same body: S Neptune → J Neptune Dec 17.7615 17.7778 ninth (loose) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
-  - star rows: J Deneb Algedi → J Neptune Dec 6.0067 6 whole (44.13) — only
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
-- **Haumea**
-  - star rows: H Deneb Algedi → H Haumea Dec 33.9896 34 whole (22.98) — also: 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
-  - star rows: H Murzim → H Haumea RA 114.9944 115 whole (52.00) — only
-    - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
-  - star rows: J Deneb Algedi → J Haumea Dec 39.0077 39 whole (37.96) — also: 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
 - **Saturn**
   - star rows: H Hamal → H Saturn Dec 42.3691 10×φ^3 phi power (92.25) — only
     - source line: S Moon → Hamal Dec 0.0488 conj (70.13)
@@ -1375,6 +1253,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
   - star rows: J Vega → J Saturn RA 0.3631 conj (57.45) — also: 3 Omar Maretti / Kielan Woods
     - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
+- **Haumea**
+  - star rows: H Murzim → H Haumea RA 114.9944 115 whole (52.00) — only
+    - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
 - **Quaoar**
   - star rows: H Unukalhai → H Quaoar Dec 21.9871 22 whole (12.57) — also: 3 Omar Maretti / Kielan Woods
     - source line: S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)
@@ -1388,6 +1269,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Mercury → J Mercury RA 139.1782 86×φ golden (2.50) — also: 1 Almazhar Garde / Luca Morgan, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
   - star rows: J Difda → J Mercury Dec 25.9861 26 whole (9.30) — only
     - source line: S Sun → Difda Dec 5.0001 5 whole (98.75)
+- **Neptune**
+  - same body: S Neptune → J Neptune Dec 17.7615 17.7778 ninth (loose) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
 - **Chiron**
   - same body: S Chiron → J Chiron RA 95.4960 59×φ golden (loose) — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods
   - same body: S Chiron → J Chiron Dec 11.0767 φ^5 phi power (loose) — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods
@@ -1472,8 +1355,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Betelgeuse → H Sun RA 35.0150 35 whole (6.33)
     - source line: S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)
     - source line: S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
-  - other chart, star rows: H Deneb Algedi → H Sun RA 87.0122 87 whole (15.19)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - other chart, star rows: H Hamal → H Sun RA 21.9847 22 whole (5.49)
     - source line: S Moon → Hamal Dec 0.0488 conj (70.13)
   - other chart, star rows: H Unukalhai → H Sun RA 177.7005 177.778 ninth (93.95)
@@ -1498,11 +1379,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)
 - **J Vesta** (same body: S Vesta → J Vesta RA 155.8775 155.556 ninth (loose))
   - sky line to Vesta: S Sun → Vesta RA 38.8398 24×φ golden (61.63)
-  - sky line to Vesta: S Moon → Vesta RA 163.4101 101×φ golden (42.14)
   - star rows: J Alphard → J Vesta RA 56.9972 57 whole (73.77)
     - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
-  - star rows: J Deneb Algedi → J Vesta RA 118.1292 73×φ golden (36.91)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: J Difda → J Vesta RA 73.9934 74 whole (45.13)
     - source line: S Sun → Difda Dec 5.0001 5 whole (98.75)
   - other chart, star rows: H Murzim → H Vesta RA 138.0031 138 whole (71.54)
@@ -1510,8 +1388,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Murzim → H Vesta Dec 1.0161 1 whole (3.80)
     - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
 - **J Sedna** (same body: S Sedna → J Sedna Dec 3.3338 3.33333 ninth (93.79))
-  - star rows: J Deneb Algedi → J Sedna RA 77.9937 78 whole (46.92)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - other chart, star rows: H Betelgeuse → H Sedna RA 35.9813 36 whole (0.42)
     - source line: S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)
     - source line: S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
@@ -1540,17 +1416,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **4. circle divisions**
   - 36 = 360/10 — also: 4 Winds Of Fire / Adam Wedge
     - H Betelgeuse → H Sedna RA 35.9813 36 whole (0.42)
-  - 8 = 360/45 — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge
-    - H Deneb Algedi → H Chiron RA 8.0174 8 whole (1.73)
   - 1 = 360/360 — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge
     - H Hamal → H Mercury RA 0.9964 1 whole (67.43)
   - 1 = 360/360 — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge
     - H Murzim → H Vesta Dec 1.0161 1 whole (3.80)
   - 60 = 360/6 — only
     - S Neptune → J Neptune RA 59.9965 60 whole (68.39)
-  - 9 = 360/40 — also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
+  - 9 = 360/40 — also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge
     - S Transpluto → J Transpluto RA 8.9922 9 whole (37.08)
-  - 9 = 360/40 — also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
+  - 9 = 360/40 — also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge
     - S Neptune → J Jupiter Dec 9.0001 9 whole (99.16)
   - 1 = 360/360 — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge
     - J Alphard → J Saturn Dec 1.0056 1 whole (51.96)
@@ -1593,7 +1467,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Unukalhai → H Sun RA 177.7005 177.778 ninth (93.95)
     - S Sun → J Sun RA 177.4172 177.778 ninth (loose)
     - S Uranus → J Jupiter RA 177.7985 177.778 ninth (98.38)
-  - 9 whole — also: 4 Winds Of Fire / Adam Wedge
+  - 9 whole — only
     - S Transpluto → J Transpluto RA 8.9922 9 whole (37.08)
     - S Neptune → J Jupiter Dec 9.0001 9 whole (99.16)
   - 74 whole — only
@@ -1658,8 +1532,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Betelgeuse → H Sun RA 35.0150 35 whole (6.33) — also: 2 Marown / Brian Hughes
     - source line: S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)
     - source line: S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
-  - star rows: H Deneb Algedi → H Sun RA 87.0122 87 whole (15.19) — only
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: H Hamal → H Sun RA 21.9847 22 whole (5.49) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods
     - source line: S Moon → Hamal Dec 0.0488 conj (70.13)
   - star rows: H Unukalhai → H Sun RA 177.7005 177.778 ninth (93.95) — only
@@ -1669,8 +1541,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Betelgeuse → H Chiron RA 114.0098 114 whole (25.98) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes
     - source line: S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)
     - source line: S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
-  - star rows: H Deneb Algedi → H Chiron RA 8.0174 8 whole (1.73) — also: 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: H Hamal → H Chiron RA 57.0102 57 whole (24.24) — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods
     - source line: S Moon → Hamal Dec 0.0488 conj (70.13)
   - star rows: H Unukalhai → H Chiron RA 98.7057 61×φ golden (68.42) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan
@@ -1688,15 +1558,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Hamal → H Sedna RA 21.0184 21 whole (0.67) — also: 1 Almazhar Garde / Luca Morgan
     - source line: S Moon → Hamal Dec 0.0488 conj (70.13)
   - same body: S Sedna → J Sedna Dec 3.3338 3.33333 ninth (93.79) — also: 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan
-  - star rows: J Deneb Algedi → J Sedna RA 77.9937 78 whole (46.92) — only
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
-- **Orcus**
-  - star rows: H Deneb Algedi → H Orcus RA 179.6052 111×φ golden (80.04) — also: 1 Almazhar Garde / Luca Morgan
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
-  - star rows: J Hamal → J Orcus RA 101.9329 63×φ golden (80.95) — also: 1 Almazhar Garde / Luca Morgan
-    - source line: S Moon → Hamal Dec 0.0488 conj (70.13)
-  - star rows: J Vega → J Orcus Dec 36.9940 37 whole (49.23) — also: 4 Winds Of Fire / Adam Wedge
-    - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
 - **Mars**
   - star rows: H Hamal → H Mars RA 0.6365 conj (33.14) — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods
     - source line: S Moon → Hamal Dec 0.0488 conj (70.13)
@@ -1721,11 +1582,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
   - same body: S Vesta → J Vesta RA 155.8775 155.556 ninth (loose) — also: 1 Almazhar Garde / Luca Morgan, 6 The Paddy Pie / Sean Quinlan
     - source line: S Sun → Vesta RA 38.8398 24×φ golden (61.63)
-    - source line: S Moon → Vesta RA 163.4101 101×φ golden (42.14)
   - star rows: J Alphard → J Vesta RA 56.9972 57 whole (73.77) — only
     - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
-  - star rows: J Deneb Algedi → J Vesta RA 118.1292 73×φ golden (36.91) — only
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: J Difda → J Vesta RA 73.9934 74 whole (45.13) — only
     - source line: S Sun → Difda Dec 5.0001 5 whole (98.75)
 - **Venus**
@@ -1752,8 +1610,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Betelgeuse → J Haumea RA 101.9860 102 whole (8.86) — only
     - source line: S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)
     - source line: S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
-  - star rows: J Deneb Algedi → J Haumea RA 135.9892 136 whole (21.06) — also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: J Difda → J Haumea Dec 39.9888 40 whole (19.51) — only
     - source line: S Sun → Difda Dec 5.0001 5 whole (98.75)
   - star rows: J Hamal → J Haumea RA 158.9806 159 whole (0.08) — also: 1 Almazhar Garde / Luca Morgan
@@ -1766,6 +1622,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Difda Dec 5.0001 5 whole (98.75)
   - star rows: J Unukalhai → J Uranus RA 58.9972 59 whole (74.36) — also: 6 The Paddy Pie / Sean Quinlan
     - source line: S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)
+- **Orcus**
+  - star rows: J Hamal → J Orcus RA 101.9329 63×φ golden (80.95) — also: 1 Almazhar Garde / Luca Morgan
+    - source line: S Moon → Hamal Dec 0.0488 conj (70.13)
+  - star rows: J Vega → J Orcus Dec 36.9940 37 whole (49.23) — also: 4 Winds Of Fire / Adam Wedge
+    - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
 
 ## 6 The Paddy Pie / Sean Quinlan
 ### L1 same bodies
@@ -1803,8 +1664,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
   - other chart, same body: S Jupiter → J Jupiter Dec 14.1404 14.14 sqrt2 (95.15)
   - other chart, top rows: S Venus → J Jupiter Dec 5.9971 6 whole (73.18)
-  - other chart, star rows: J Deneb Algedi → J Jupiter RA 65.9877 66 whole (14.63)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
 - **H Saturn** (same body: S Saturn → H Saturn Dec 4.0024 4 whole (77.33))
   - other chart, same body: S Saturn → J Saturn Dec 3.2336 2×φ golden (loose)
 - **H Neptune** (same body: S Neptune → H Neptune Dec 6.4653 4×φ golden (loose))
@@ -1816,8 +1675,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Gonggong** (same body: S Gonggong → H Gonggong RA 1.5484 1.55556 ninth (loose))
   - top rows: S Moon → H Gonggong RA 150.4774 93×φ golden (98.54)
   - other chart, top rows: S Sun → J Gonggong RA 0.8361 conj (19.59)
-  - other chart, star rows: J Deneb Algedi → J Gonggong RA 0.2640 conj (67.89)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - other chart, star rows: J Vega → J Gonggong Dec 60.9988 61 whole (88.40)
     - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
 - **J Sun** (same body: S Sun → J Sun Dec 10.0072 10 whole (40.84))
@@ -1827,13 +1684,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Mercury** (same body: S Mercury → J Mercury RA 21.0260 21 whole (loose))
   - star rows: J Vega → J Mercury RA 1.1979 conj (4.06)
     - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
-  - other chart, star rows: H Deneb Algedi → H Mercury Dec 9.0067 9 whole (43.95)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
 - **J Jupiter** (same body: S Jupiter → J Jupiter Dec 14.1404 14.14 sqrt2 (95.15))
   - sky line to Jupiter: S Sun → Jupiter RA 14.1471 14.14 sqrt2 (86.42)
   - top rows: S Venus → J Jupiter Dec 5.9971 6 whole (73.18)
-  - star rows: J Deneb Algedi → J Jupiter RA 65.9877 66 whole (14.63)
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - other chart, same body: S Jupiter → H Jupiter Dec 30.0278 30 whole (loose)
   - other chart, top rows: S Pluto → H Jupiter RA 127.8231 79×φ golden (90.64)
   - other chart, star rows: S Alphard → H Jupiter Dec 30.0101 30 whole (24.67)
@@ -1860,7 +1713,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)
 - **J Vesta** (same body: S Vesta → J Vesta RA 152.1126 94×φ golden (loose))
   - sky line to Vesta: S Sun → Vesta RA 38.8398 24×φ golden (61.63)
-  - sky line to Vesta: S Moon → Vesta RA 163.4101 101×φ golden (42.14)
   - other chart, star rows: H Unukalhai → H Vesta RA 161.0123 161 whole (14.77)
     - source line: S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)
 - **J Sedna** (same body: S Sedna → J Sedna RA 19.4063 12×φ golden (loose); S Sedna → J Sedna Dec 4.9866 5 whole (10.95))
@@ -1929,10 +1781,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Saturn → H Saturn Dec 4.0024 4 whole (77.33)
   - 30 = 360/12 — only
     - S Alphard → H Jupiter Dec 30.0101 30 whole (24.67)
-  - 3 = 360/120 — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes
+  - 3 = 360/120 — also: 2 Marown / Brian Hughes
     - H Alphard → H Venus Dec 3.0066 3 whole (44.81)
-  - 9 = 360/40 — also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
-    - H Deneb Algedi → H Mercury Dec 9.0067 9 whole (43.95)
   - 10 = 360/36 — also: 1 Almazhar Garde / Luca Morgan
     - S Sun → J Sun Dec 10.0072 10 whole (40.84)
   - 5 = 360/72 — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
@@ -1959,9 +1809,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 5 whole — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge
     - S Sedna → J Sedna Dec 4.9866 5 whole (10.95)
     - J Difda → J Sun Dec 5.0085 5 whole (32.85)
-  - 12.2222 ninth — only
-    - S Transpluto → J Transpluto RA 12.2503 12.2222 ninth (loose)
-    - J Deneb Algedi → J Mars Dec 12.2279 12.2222 ninth (92.11)
   - 177.778 ninth — also: 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley
     - J Difda → J Mars RA 177.7911 177.778 ninth (98.95)
     - J Unukalhai → J Chiron RA 177.7981 177.778 ninth (98.41)
@@ -1984,8 +1831,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
   - same body + top rows: S Jupiter → J Jupiter Dec 14.1404 14.14 sqrt2 (95.15) — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
   - top rows: S Venus → J Jupiter Dec 5.9971 6 whole (73.18) — only
-  - star rows: J Deneb Algedi → J Jupiter RA 65.9877 66 whole (14.63) — only
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
 - **Saturn**
   - same body: S Saturn → H Saturn Dec 4.0024 4 whole (77.33) — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
   - same body: S Saturn → J Saturn Dec 3.2336 2×φ golden (loose) — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
@@ -2000,14 +1845,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Gonggong → H Gonggong RA 1.5484 1.55556 ninth (loose) — also: 2 Marown / Brian Hughes
   - top rows: S Moon → H Gonggong RA 150.4774 93×φ golden (98.54) — also: 3 Omar Maretti / Kielan Woods
   - top rows: S Sun → J Gonggong RA 0.8361 conj (19.59) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
-  - star rows: J Deneb Algedi → J Gonggong RA 0.2640 conj (67.89) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: J Vega → J Gonggong Dec 60.9988 61 whole (88.40) — only
     - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
 - **Mars**
   - top rows: S Jupiter → H Mars RA 18.9986 19 whole (86.50) — only
-  - star rows: J Deneb Algedi → J Mars Dec 12.2279 12.2222 ninth (92.11) — only
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: J Difda → J Mars RA 177.7911 177.778 ninth (98.95) — also: 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
     - source line: S Sun → Difda Dec 5.0001 5 whole (98.75)
 - **Uranus**
@@ -2042,24 +1883,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
   - star rows: H Unukalhai → H Ceres Dec 21.9814 22 whole (0.47) — also: 2 Marown / Brian Hughes
     - source line: S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)
-- **Mercury**
-  - star rows: H Deneb Algedi → H Mercury Dec 9.0067 9 whole (43.95) — only
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
-  - same body: S Mercury → J Mercury RA 21.0260 21 whole (loose) — also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
-  - star rows: J Vega → J Mercury RA 1.1979 conj (4.06) — only
-    - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
-- **Chiron**
-  - star rows: H Deneb Algedi → H Chiron Dec 13.0027 13 whole (74.76) — also: 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
-  - star rows: H Murzim → H Chiron RA 115.9964 116 whole (67.49) — only
-    - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
-  - star rows: J Unukalhai → J Chiron RA 177.7981 177.778 ninth (98.41) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley
-    - source line: S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)
 - **Juno**
   - star rows: H Difda → H Juno RA 71.0180 71 whole (0.98) — only
     - source line: S Sun → Difda Dec 5.0001 5 whole (98.75)
-  - star rows: J Deneb Algedi → J Juno RA 62.9894 63 whole (21.92) — also: 3 Omar Maretti / Kielan Woods
-    - source line: S Sun → Deneb Algedi RA 1.1004 conj (7.10)
   - star rows: J Murzim → J Juno Dec 11.1146 11.1111 ninth (94.26) — also: 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley
     - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
 - **Eris**
@@ -2085,12 +1911,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard Dec 0.0178 conj (88.51)
   - star rows: J Vega → J Transpluto Dec 24.0149 24 whole (6.62) — also: 1 Almazhar Garde / Luca Morgan
     - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
+- **Chiron**
+  - star rows: H Murzim → H Chiron RA 115.9964 116 whole (67.49) — only
+    - source line: S Sun → Murzim RA 127.8222 79×φ golden (85.13)
+  - star rows: J Unukalhai → J Chiron RA 177.7981 177.778 ninth (98.41) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley
+    - source line: S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)
 - **Vesta**
   - star rows: H Unukalhai → H Vesta RA 161.0123 161 whole (14.77) — only
     - source line: S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)
   - same body: S Vesta → J Vesta RA 152.1126 94×φ golden (loose) — also: 1 Almazhar Garde / Luca Morgan, 5 Brian Boranha / Callum Bewley
     - source line: S Sun → Vesta RA 38.8398 24×φ golden (61.63)
-    - source line: S Moon → Vesta RA 163.4101 101×φ golden (42.14)
 - **Sedna**
   - star rows: H Vega → H Sedna RA 134.0070 134 whole (42.48) — only
     - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
@@ -2106,6 +1936,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Sun → J Sun Dec 10.0072 10 whole (40.84) — also: 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
   - star rows: J Difda → J Sun Dec 5.0085 5 whole (32.85) — also: 4 Winds Of Fire / Adam Wedge
     - source line: S Sun → Difda Dec 5.0001 5 whole (98.75)
+- **Mercury**
+  - same body: S Mercury → J Mercury RA 21.0260 21 whole (loose) — also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
+  - star rows: J Vega → J Mercury RA 1.1979 conj (4.06) — only
+    - source line: S Sun → Vega Dec 51.7710 32×φ golden (65.83)
 - **Pluto**
   - same body: S Pluto → J Pluto Dec 26.0616 10×φ^2 phi power (loose) — also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
   - star rows: J Betelgeuse → J Pluto RA 126.2248 78×φ golden (19.38) — only

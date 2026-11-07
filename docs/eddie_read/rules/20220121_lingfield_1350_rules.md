@@ -141,9 +141,4 @@ _For each runner and each natal star on one chart (every star-row star is on a s
   - J Sualocin → J Transpluto Dec 2.2228 2.22222 ninth (91.96)
   - J Sualocin → J Gonggong Dec 33.9767 21×φ golden (87.80)
   - J Sualocin → J Saturn RA 56.6334 35×φ golden (87.00)
-  - J Vindemiatrix on 4 natal bodies at 80 or more (most in the field; next 3)
-  - J Vindemiatrix → J Mercury RA 141.4341 141.4 sqrt2 (96.43)
-  - J Vindemiatrix → J Saturn RA 170.9996 171 whole (96.11)
-  - J Vindemiatrix → J Uranus RA 111.1684 111.111 ninth (90.63)
-  - J Vindemiatrix → J Ketu Dec 4.9985 5 whole (85.26)
 

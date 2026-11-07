@@ -14,20 +14,20 @@ Workbook race_batch_20220309_fontwell_1440_jupiter_tables.xlsx. Runners 7. Resul
 - **R1 Sun / Moon on one body both charts, sky X to Jupiter** (1 of 7): 1 Breaking Waves / Jonjo O'Neill Jr
 - **B1 Natal body on a strong line star (filter)** (0 of 7): none
 - **B2 Top natal body on a strong line star** (0 of 7): none
-- **B3 Version 4** (1 of 7): 5 Grangeclare Glory / Tom Scudamore
+- **B3 Version 4** (0 of 7): none
 - **B4 Same body, clear lead** (0 of 7): none
 - **B5 Same body in both planes** (0 of 7): none
 - **B6 Same body on both charts** (0 of 7): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 7): 2 Royaume Uni / Joshua Moore
-- **B8 One line star on the most natal bodies** (4 of 7): 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle
+- **B8 One line star on the most natal bodies** (3 of 7): 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle
 
 ## Per runner
 
-- 1 Breaking Waves / Jonjo O'Neill Jr: R1b, R1, B8
+- 1 Breaking Waves / Jonjo O'Neill Jr: R1b, R1
 - 2 Royaume Uni / Joshua Moore: B7, B8
 - 3 Hell Red / Harry Cobden: R25, B8
 - 4 Dreaming Blue / Rex Dingle: B8
-- 5 Grangeclare Glory / Tom Scudamore: R40, B3
+- 5 Grangeclare Glory / Tom Scudamore: R40
 - 6 Manvers House / James Best: R28, R42
 - 7 Island Run / Tom O'Brien: none
 
@@ -81,8 +81,7 @@ _The runner(s) with the highest score in the flag 'natal body on a strong line s
 
 ### B3 Version 4
 _Step 1: the flag 'hub landing' held by exactly one runner -> that runner. Otherwise step 2: rule B2. No pick when neither fires._
-- 5 Grangeclare Glory / Tom Scudamore
-  - step 1, hub landing held alone: hub body J Vesta → J Sadalsuud RA 0.3822 conj (55.54)
+- none
 
 ### B4 Same body, clear lead
 _The runner with the most same-body cells (sky X -> natal X, either chart, either plane) scoring 50 or more, held alone with a lead of 2 or more over the next runner._
@@ -106,31 +105,18 @@ _The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (sta
 
 ### B8 One line star on the most natal bodies
 _For each runner and each natal star on one chart (every star-row star is on a sky Jupiter, Sun or Moon line), count the different natal bodies of that chart it reaches with a cell scoring 80 or more (the natal star's own cell; a sky copy of the star does not count). The runner(s) with the highest count are picked; ties: every runner on the top count. Horse and jockey charts count separately._
-- 1 Breaking Waves / Jonjo O'Neill Jr
-  - H Capella on 3 natal bodies at 80 or more (most in the field; tied with 3, next 2)
-  - H Capella → H Vesta RA 122.9980 φ^10 phi power (98.03)
-  - H Capella → H Mars RA 111.6453 69×φ golden (94.00)
-  - H Capella → H Quaoar Dec 61.4870 38×φ golden (89.94)
-  - J Markab on 3 natal bodies at 80 or more (most in the field; tied with 3, next 2)
-  - J Markab → J Makemake Dec 17.7755 17.7778 ninth (98.24)
-  - J Markab → J Uranus RA 34.9988 35 whole (88.63)
-  - J Markab → J Ketu Dec 22.6551 14×φ golden (84.17)
 - 2 Royaume Uni / Joshua Moore
-  - H Zosma on 3 natal bodies at 80 or more (most in the field; tied with 3, next 2)
+  - H Zosma on 3 natal bodies at 80 or more (most in the field; tied with 2, next 2)
   - H Zosma → H Mars RA 126.0003 126 whole (97.25)
   - H Zosma → H Chiron Dec 18.8804 18.8889 ninth (93.86)
   - H Zosma → H Quaoar RA 101.9981 102 whole (82.02)
-  - J Markab on 3 natal bodies at 80 or more (most in the field; tied with 3, next 2)
-  - J Markab → J Mars RA 122.9808 φ^10 phi power (96.42)
-  - J Markab → J Sun RA 122.9691 φ^10 phi power (92.72)
-  - J Markab → J Sedna Dec 11.0932 φ^5 phi power (89.46)
 - 3 Hell Red / Harry Cobden
-  - J Zosma on 3 natal bodies at 80 or more (most in the field; tied with 3, next 2)
+  - J Zosma on 3 natal bodies at 80 or more (most in the field; tied with 2, next 2)
   - J Zosma → J Sedna RA 122.2263 122.222 ninth (99.43)
   - J Zosma → J Mars Dec 14.1443 14.14 sqrt2 (93.97)
   - J Zosma → J Neptune Dec 40.4538 25×φ golden (82.71)
 - 4 Dreaming Blue / Rex Dingle
-  - J Denebola on 3 natal bodies at 80 or more (most in the field; tied with 3, next 2)
+  - J Denebola on 3 natal bodies at 80 or more (most in the field; tied with 2, next 2)
   - J Denebola → J Sun RA 111.1754 111.111 ninth (89.47)
   - J Denebola → J Mars RA 141.4612 141.4 sqrt2 (89.05)
   - J Denebola → J Gonggong RA 153.7157 95×φ golden (85.30)

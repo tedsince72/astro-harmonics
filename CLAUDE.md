@@ -148,6 +148,11 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   two layers counts once); flags held listed with their cells; T24 top rows = S Jupiter / Sun / Moon -> natal body, then S body -> natal
   Jupiter (bodies only), order Jupiter, Sun, Moon, horse then jockey, score; S star -> natal Jupiter moved under its star in the star rows;
   every cell (sky notes, MATCH, flags) written 'value target family (score)'. Tests 5602/5602; independent checker 0 mismatches.
+  Noted sky lines revised (Eddie, 7 Nov 2026, from his Haydock 19 Feb 2022 list): non-conj >= 50 (within +-120 min, or >= 90 applying),
+  conj >= 20, a star line 40-50 within +-120 min only when another centre's noted line to the same star scores >= 50 (was >= 40 and any
+  conj). Haydock 22 -> 16 lines = Eddie's 16; the 20 races 361 -> 293. Back-test effect: version 4 in-sample 6 of 14 (2.4) -> 6 of 13 (2.3)
+  (Fontwell 9 Mar 2022 no pick); B8 34 picks 8 won (5.8), alone 5 -> 39 picks 8 won (6.6), alone 3; every other rule unchanged. Rubaud's
+  H Zubeneschamali -> H Sedna is no longer collected (S Moon conj Zubeneschamali 7.14 < 20).
   One fixed star on one natal body counts once (Eddie, 7 Nov 2026): a star's natal and sky copies onto the same natal body (same plane)
   are one star-row line (best copy kept, the others in '[same star: ...]'), a thread counts a star once per body, and the 'locked line
   star on natal Jupiter' flag is gone. Tests 8070/8070; independent checker 0 mismatches. Version 4 back-test unchanged (6 of 14).

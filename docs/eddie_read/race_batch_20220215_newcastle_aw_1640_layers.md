@@ -10,17 +10,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Jupiter → Mercury Dec 11.0015 11 whole (85.59)
 - S Jupiter → Saturn Dec 7.9992 8 whole (92.07)
 - S Jupiter → Alphard Dec 0.0777 conj (54.91)
-- S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
-- S Sun → Eris RA 56.9934 57 whole (44.79)
-- S Sun → Difda RA 42.0067 42 whole (44.12)
 - S Sun → Mirach RA 48.5421 30×φ golden (93.32)
 - S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
 - S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
 - S Sun → Alkaid RA 122.0006 122 whole (93.98)
 - S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
 - S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
-- S Moon → Haumea Dec 4.9929 5 whole (41.61)
-- S Moon → Zosma Dec 0.2378 conj (4.30)
 - S Moon → Deneb Dec 24.9956 25 whole (61.08)
 - Hubs: none
 
@@ -55,24 +50,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
   - star rows: J Sadalsuud → J Saturn Dec 1.0045 1 whole (59.83)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: J Unukalhai → J Saturn Dec 10.9913 11 whole (32.03)
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
   - other chart, star rows: H Alkaid → H Saturn RA 0.1797 conj (77.48)
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
-  - other chart, star rows: H Unukalhai → H Saturn RA 28.9990 29 whole (90.31)
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 - **J Neptune** (same body: S Neptune → J Neptune Dec 17.7508 17.7778 ninth (loose))
   - star rows: J Alphard → J Neptune RA 125.0191 125 whole (0.22)
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
   - other chart, star rows: H Alphard → H Neptune RA 168.2607 104×φ golden (29.47)
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - other chart, star rows: H Zosma → H Neptune Dec 32.0108 32 whole (21.00)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **J Pluto** (same body: S Pluto → J Pluto Dec 29.0539 φ^7 phi power (loose))
   - star rows: J Fomalhaut → J Pluto RA 134.2869 83×φ golden (48.16)
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
-  - star rows: J Unukalhai → J Pluto Dec 0.1301 conj (32.06)
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
   - star rows: J Vindemiatrix → J Pluto RA 14.5694 9×φ golden (61.20)
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
   - other chart, star rows: H Alkaid → H Pluto Dec 68.5498 10×φ^4 phi power (94.95)
@@ -86,23 +73,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
   - star rows: J Alphard → J Juno Dec 0.9896 1 whole (23.18)
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - star rows: J Zosma → J Juno RA 111.1886 111.111 ninth (87.31)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - other chart, top rows: S Jupiter → H Juno Dec 0.1751 conj (17.33)
   - other chart, star rows: H Alphard → H Juno Dec 0.2537 conj (2.38)
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
 - **J Vesta** (same body: S Vesta → J Vesta RA 24.0194 24 whole (0.09))
   - other chart, star rows: H Algorab → H Vesta Dec 15.5504 15.5556 ninth (95.13)
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
-  - other chart, star rows: H Difda → H Vesta RA 0.1926 conj (75.97)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
 - **J Gonggong** (same body: S Gonggong → J Gonggong Dec 10.9822 11 whole (1.25))
   - star rows: J Alkaid → J Gonggong RA 121.0040 121 whole (64.12)
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
   - star rows: J Alphard → J Gonggong RA 174.0005 174 whole (95.05)
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - star rows: J Difda → J Gonggong RA 42.9930 43 whole (42.13)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: J Sadalsuud → J Gonggong RA 5.0102 5 whole (23.97)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
 - **J Transpluto** (same body: S Transpluto → J Transpluto Dec 4.8562 3×φ golden (loose))
@@ -123,34 +104,22 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **3. runner number = sky number**
   - 8 whole — also: 4 Onesmoothoperator / Harry Russell
     - H Fomalhaut → H Rahu Dec 7.9982 8 whole (82.66) = S Jupiter → Saturn Dec 7.9992 8 whole (92.07)
-  - 5 whole — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
-    - H Vindemiatrix → H Makemake RA 5.0087 5 whole (31.87) = S Moon → Haumea Dec 4.9929 5 whole (41.61)
   - 11 whole — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
     - S Gonggong → J Gonggong Dec 10.9822 11 whole (1.25) = S Jupiter → Mercury Dec 11.0015 11 whole (85.59)
-  - 141.4 sqrt2 — also: 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
+  - 141.4 sqrt2 — also: 6 Resumption / Tom Marquand
     - J Alkaid → J Venus RA 141.4092 141.4 sqrt2 (96.59) = S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
-  - 57 whole — also: 2 Alba Rose / Joe Fanning
-    - J Alkaid → J Juno Dec 56.9844 57 whole (4.75) = S Sun → Eris RA 56.9934 57 whole (44.79)
-  - 5 whole — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
-    - J Sadalsuud → J Gonggong RA 5.0102 5 whole (23.97) = S Moon → Haumea Dec 4.9929 5 whole (41.61)
-  - 11 whole — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
-    - J Unukalhai → J Saturn Dec 10.9913 11 whole (32.03) = S Jupiter → Mercury Dec 11.0015 11 whole (85.59)
 - **4. circle divisions**
-  - 9 = 360/40 — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
+  - 9 = 360/40 — also: 5 Aced It / Jack Mitchell
     - S Sun → H Rahu Dec 8.9990 9 whole (90.51)
-  - 3 = 360/120 — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
+  - 3 = 360/120 — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - S Sun → H Quaoar Dec 2.9972 3 whole (73.61)
-  - 30 = 360/12 — also: 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
-    - H Difda → H Mars Dec 30.0104 30 whole (23.26)
   - 8 = 360/45 — also: 4 Onesmoothoperator / Harry Russell
     - H Fomalhaut → H Rahu Dec 7.9982 8 whole (82.66)
-  - 3 = 360/120 — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
+  - 3 = 360/120 — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - H Vindemiatrix → H Jupiter Dec 3.0068 3 whole (43.51)
   - 5 = 360/72 — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - H Vindemiatrix → H Makemake RA 5.0087 5 whole (31.87)
-  - 2 = 360/180 — also: 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
-    - H Zosma → H Haumea Dec 1.9801 2 whole (0.00)
-  - 12 = 360/30 — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
+  - 12 = 360/30 — also: 4 Onesmoothoperator / Harry Russell
     - S Saturn → J Saturn Dec 12.0137 12 whole (9.78)
   - 24 = 360/15 — only
     - S Vesta → J Vesta RA 24.0194 24 whole (0.09)
@@ -158,39 +127,27 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Alphard → J Juno Dec 0.9896 1 whole (23.18)
   - 24 = 360/15 — only
     - J Fomalhaut → J Venus Dec 23.9817 24 whole (0.72)
-  - 20 = 360/18 — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
+  - 20 = 360/18 — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
     - J Mirach → J Chiron Dec 19.9893 20 whole (21.83)
   - 1 = 360/360 — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - J Sadalsuud → J Saturn Dec 1.0045 1 whole (59.83)
-  - 30 = 360/12 — also: 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+  - 30 = 360/12 — only
     - J Sadalsuud → J Haumea Dec 30.0073 30 whole (40.45)
   - 5 = 360/72 — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - J Sadalsuud → J Gonggong RA 5.0102 5 whole (23.97)
-  - 18 = 360/20 — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
-    - J Unukalhai → J Haumea Dec 18.0114 18 whole (18.35)
 - **5. same number in more than one place**
-  - 100×φ^1 phi power — only
-    - H Jupiter → H star Unukalhai RA 161.8643 100×φ^1 phi power (85.51)
-    - H Unukalhai → H Jupiter RA 161.8643 100×φ^1 phi power (85.51)
-    - H Vindemiatrix → H Sun RA 161.8103 100×φ^1 phi power (98.29)
-  - 3 whole — also: 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
+  - 3 whole — also: 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - S Sun → H Quaoar Dec 2.9972 3 whole (73.61)
     - H Vindemiatrix → H Jupiter Dec 3.0068 3 whole (43.51)
-  - 30 whole — only
-    - H Difda → H Mars Dec 30.0104 30 whole (23.26)
-    - J Sadalsuud → J Haumea Dec 30.0073 30 whole (40.45)
-  - 14 whole — also: 6 Resumption / Tom Marquand
+  - 14 whole — only
     - H Fomalhaut → H Quaoar Dec 14.0001 14 whole (99.49)
     - H Mirach → H Ketu Dec 13.9934 14 whole (44.70)
-  - 5 whole — also: 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
+  - 5 whole — also: 6 Resumption / Tom Marquand
     - H Vindemiatrix → H Makemake RA 5.0087 5 whole (31.87)
     - J Sadalsuud → J Gonggong RA 5.0102 5 whole (23.97)
   - 24 whole — only
     - S Vesta → J Vesta RA 24.0194 24 whole (0.09)
     - J Fomalhaut → J Venus Dec 23.9817 24 whole (0.72)
-  - 11 whole — only
-    - S Gonggong → J Gonggong Dec 10.9822 11 whole (1.25)
-    - J Unukalhai → J Saturn Dec 10.9913 11 whole (32.03)
   - 1 whole — also: 2 Alba Rose / Joe Fanning
     - J Alphard → J Juno Dec 0.9896 1 whole (23.18)
     - J Sadalsuud → J Saturn Dec 1.0045 1 whole (59.83)
@@ -207,17 +164,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
   - star rows: J Deneb → J Quaoar RA 85.7596 53×φ golden (78.06) — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
-- **Jupiter**
-  - T1: H Jupiter → H star Unukalhai RA 161.8643 100×φ^1 phi power (85.51) — also: 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
-  - top rows: S Uranus → H Jupiter RA 0.6207 conj (34.37) — also: 4 Onesmoothoperator / Harry Russell
-  - top rows: S Rahu → H Jupiter RA 16.6678 16.6667 ninth (99.02) — also: 5 Aced It / Jack Mitchell
-  - star rows: H Unukalhai → H Jupiter RA 161.8643 100×φ^1 phi power (85.51) — also: 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
-  - star rows: H Vindemiatrix → H Jupiter Dec 3.0068 3 whole (43.51) — also: 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
-    - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - top rows: S Orcus → J Jupiter Dec 0.0763 conj (55.59) — only
-  - star rows: S Deneb → J Jupiter RA 96.0179 96 whole (1.07) — only
-    - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
 - **Juno**
   - top rows: S Jupiter → H Juno Dec 0.1751 conj (17.33) — also: 3 Wise Eagle / Graham Lee
   - star rows: H Alphard → H Juno Dec 0.2537 conj (2.38) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee
@@ -227,14 +173,20 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
   - star rows: J Alphard → J Juno Dec 0.9896 1 whole (23.18) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - star rows: J Zosma → J Juno RA 111.1886 111.111 ninth (87.31) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **Rahu**
   - top rows: S Sun → H Rahu Dec 8.9990 9 whole (90.51) — only
   - star rows: H Fomalhaut → H Rahu Dec 7.9982 8 whole (82.66) — also: 4 Onesmoothoperator / Harry Russell
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
   - star rows: J Fomalhaut → J Rahu Dec 52.0198 52 whole (0.01) — also: 4 Onesmoothoperator / Harry Russell
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
+- **Jupiter**
+  - top rows: S Uranus → H Jupiter RA 0.6207 conj (34.37) — also: 4 Onesmoothoperator / Harry Russell
+  - top rows: S Rahu → H Jupiter RA 16.6678 16.6667 ninth (99.02) — also: 5 Aced It / Jack Mitchell
+  - star rows: H Vindemiatrix → H Jupiter Dec 3.0068 3 whole (43.51) — also: 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+    - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
+  - top rows: S Orcus → J Jupiter Dec 0.0763 conj (55.59) — only
+  - star rows: S Deneb → J Jupiter RA 96.0179 96 whole (1.07) — only
+    - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
 - **Sun**
   - star rows: H Algorab → H Sun RA 169.8879 105×φ golden (68.01) — also: 3 Wise Eagle / Graham Lee
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
@@ -249,16 +201,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Mars**
   - star rows: H Algorab → H Mars RA 26.0101 26 whole (24.60) — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
-  - star rows: H Difda → H Mars Dec 30.0104 30 whole (23.26) — also: 4 Onesmoothoperator / Harry Russell
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: H Mirach → H Mars RA 144.0328 89×φ golden (2.05) — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
   - top rows: S Jupiter → J Mars RA 158.5674 98×φ golden (99.28) — only
 - **Vesta**
   - star rows: H Algorab → H Vesta Dec 15.5504 15.5556 ninth (95.13) — also: 2 Alba Rose / Joe Fanning
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
-  - star rows: H Difda → H Vesta RA 0.1926 conj (75.97) — also: 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - same body: S Vesta → J Vesta RA 24.0194 24 whole (0.09) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
 - **Ketu**
   - star rows: H Algorab → H Ketu RA 121.3353 75×φ golden (21.89) — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
@@ -274,8 +222,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Saturn**
   - star rows: H Alkaid → H Saturn RA 0.1797 conj (77.48) — only
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
-  - star rows: H Unukalhai → H Saturn RA 28.9990 29 whole (90.31) — also: 6 Resumption / Tom Marquand
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
   - same body: S Saturn → J Saturn RA 121.8666 122.222 ninth (loose) — also: 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
     - source line: S Jupiter → Saturn Dec 7.9992 8 whole (92.07)
   - same body: S Saturn → J Saturn Dec 12.0137 12 whole (9.78) — also: 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
@@ -285,17 +231,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
   - star rows: J Sadalsuud → J Saturn Dec 1.0045 1 whole (59.83) — also: 3 Wise Eagle / Graham Lee
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: J Unukalhai → J Saturn Dec 10.9913 11 whole (32.03) — also: 6 Resumption / Tom Marquand
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 - **Uranus**
   - star rows: H Alkaid → H Uranus RA 156.9825 157 whole (1.57) — also: 6 Resumption / Tom Marquand
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
-  - star rows: H Difda → H Uranus RA 7.0190 7 whole (0.23) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: H Sadalsuud → H Uranus RA 40.9885 41 whole (18.00) — only
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: H Unukalhai → H Uranus RA 127.8038 79×φ golden (12.65) — only
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
   - top rows: S Jupiter → J Uranus Dec 12.2238 12.2222 ninth (97.87) — only
 - **Pluto**
   - star rows: H Alkaid → H Pluto Dec 68.5498 10×φ^4 phi power (94.95) — also: 4 Onesmoothoperator / Harry Russell
@@ -303,8 +243,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Pluto → J Pluto Dec 29.0539 φ^7 phi power (loose) — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
   - star rows: J Fomalhaut → J Pluto RA 134.2869 83×φ golden (48.16) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
-  - star rows: J Unukalhai → J Pluto Dec 0.1301 conj (32.06) — also: 4 Onesmoothoperator / Harry Russell
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
   - star rows: J Vindemiatrix → J Pluto RA 14.5694 9×φ golden (61.20) — also: 3 Wise Eagle / Graham Lee
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
 - **Eris**
@@ -313,23 +251,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Haumea**
   - star rows: H Alkaid → H Haumea RA 1.2702 conj (2.35) — only
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
-  - star rows: H Zosma → H Haumea Dec 1.9801 2 whole (0.00) — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - star rows: J Deneb → J Haumea RA 130.9930 131 whole (42.09) — also: 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
   - star rows: J Fomalhaut → J Haumea RA 165.0428 102×φ golden (80.57) — also: 3 Wise Eagle / Graham Lee
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
   - star rows: J Sadalsuud → J Haumea Dec 30.0073 30 whole (40.45) — also: 6 Resumption / Tom Marquand
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: J Unukalhai → J Haumea Dec 18.0114 18 whole (18.35) — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
   - star rows: J Vindemiatrix → J Haumea RA 16.1865 10×φ^1 phi power (85.33) — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
 - **Neptune**
   - star rows: H Alphard → H Neptune RA 168.2607 104×φ golden (29.47) — also: 5 Aced It / Jack Mitchell
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - star rows: H Zosma → H Neptune Dec 32.0108 32 whole (21.00) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - same body: S Neptune → J Neptune Dec 17.7508 17.7778 ninth (loose) — also: 2 Alba Rose / Joe Fanning
   - star rows: J Alphard → J Neptune RA 125.0191 125 whole (0.22) — also: 5 Aced It / Jack Mitchell
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
@@ -338,8 +270,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
   - star rows: H Vindemiatrix → H Makemake RA 5.0087 5 whole (31.87) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - star rows: H Zosma → H Makemake RA 22.0064 22 whole (46.37) — also: 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - star rows: J Fomalhaut → J Makemake Dec 68.0043 68 whole (61.96) — also: 3 Wise Eagle / Graham Lee
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
 - **Gonggong**
@@ -348,8 +278,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
   - star rows: J Alphard → J Gonggong RA 174.0005 174 whole (95.05) — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - star rows: J Difda → J Gonggong RA 42.9930 43 whole (42.13) — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: J Sadalsuud → J Gonggong RA 5.0102 5 whole (23.97) — also: 2 Alba Rose / Joe Fanning
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
 - **Transpluto**
@@ -375,17 +303,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
   - star rows: J Mirach → J Sedna RA 20.9944 21 whole (51.61) — also: 3 Wise Eagle / Graham Lee
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
-  - star rows: J Unukalhai → J Sedna Dec 3.2365 2×φ golden (97.47) — also: 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 - **Mercury**
   - star rows: J Deneb → J Mercury RA 91.0061 91 whole (48.60) — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
 - **Chiron**
   - star rows: J Mirach → J Chiron Dec 19.9893 20 whole (21.83) — only
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
-- **Orcus**
-  - star rows: J Unukalhai → J Orcus RA 114.9884 115 whole (17.45) — only
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 - **Pallas**
   - star rows: J Vindemiatrix → J Pallas RA 0.1415 conj (82.02) — also: 5 Aced It / Jack Mitchell
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
@@ -408,15 +331,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Orcus → J Orcus Dec 26.0595 10×φ^2 phi power (loose)
 ### L2 what lands on each same body
 - **H Pluto** (same body: S Pluto → H Pluto Dec 1.0094 1 whole (28.20))
-  - star rows: H Zosma → H Pluto Dec 42.0128 42 whole (12.79)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - other chart, star rows: J Fomalhaut → J Pluto RA 160.1812 99×φ golden (75.66)
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
 - **H Chiron** (same body: S Chiron → H Chiron Dec 2.9867 3 whole (11.26))
   - other chart, star rows: J Alkaid → J Chiron RA 160.1798 99×φ golden (68.80)
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
-  - other chart, star rows: J Unukalhai → J Chiron RA 130.9965 131 whole (68.19)
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
   - other chart, star rows: J Vindemiatrix → J Chiron RA 171.5180 106×φ golden (64.45)
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
 - **H Vesta** (same body: S Vesta → H Vesta RA 20.0089 20 whole (30.74))
@@ -427,42 +346,22 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Rahu** (same body: S Rahu → H Rahu RA 80.8756 50×φ golden (loose))
   - star rows: H Algorab → H Rahu RA 51.9926 52 whole (39.68)
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
-  - star rows: H Difda → H Rahu RA 124.5846 77×φ golden (76.62)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
-  - other chart, star rows: J Difda → J Rahu RA 35.9812 36 whole (0.35)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
 - **H Ketu** (same body: S Ketu → H Ketu RA 80.8756 50×φ golden (loose))
   - star rows: H Algorab → H Ketu RA 128.0074 128 whole (39.68)
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
   - other chart, top rows: S Jupiter → J Ketu Dec 18.9977 19 whole (78.02)
-  - other chart, star rows: J Difda → J Ketu RA 144.0188 89×φ golden (32.91)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - other chart, star rows: J Sadalsuud → J Ketu Dec 15.9843 16 whole (4.53)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - other chart, star rows: J Unukalhai → J Ketu Dec 3.9871 4 whole (12.60)
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 - **J Venus** (same body: S Venus → J Venus Dec 4.0114 4 whole (18.62))
   - other chart, star rows: H Deneb → H Venus RA 79.0069 79 whole (43.06)
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
-  - other chart, star rows: H Zosma → H Venus RA 139.1716 86×φ golden (12.92)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
-  - other chart, star rows: H Zosma → H Venus Dec 9.0119 9 whole (16.38)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **J Mars** (same body: S Mars → J Mars RA 121.7204 122.222 ninth (loose))
   - star rows: J Fomalhaut → J Mars Dec 37.0152 37 whole (5.65)
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
 - **J Uranus** (same body: S Uranus → J Uranus Dec 17.7001 17.7778 ninth (loose))
   - star rows: J Algorab → J Uranus RA 1.1283 conj (6.14)
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
-  - star rows: J Difda → J Uranus Dec 14.9995 15 whole (95.12)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
-  - other chart, star rows: H Difda → H Uranus Dec 27.9935 28 whole (45.27)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
 - **J Neptune** (same body: S Neptune → J Neptune Dec 13.9889 14 whole (19.73))
-  - star rows: J Unukalhai → J Neptune RA 1.1675 conj (4.91)
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
-  - other chart, star rows: H Zosma → H Neptune RA 177.7429 177.778 ninth (97.27)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **J Ceres** (same body: S Ceres → J Ceres Dec 18.8803 18.8889 ninth (93.84))
   - other chart, top rows: S Sun → H Ceres Dec 43.6829 27×φ golden (76.81)
   - other chart, star rows: H Deneb → H Ceres RA 179.4117 10×φ^6 phi power (93.21)
@@ -475,16 +374,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
   - star rows: J Sadalsuud → J Juno RA 93.9807 94 whole (0.11)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: J Zosma → J Juno RA 111.6463 69×φ golden (88.34)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - other chart, star rows: H Sadalsuud → H Juno RA 24.2785 15×φ golden (56.64)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
 - **J Haumea** (same body: S Haumea → J Haumea RA 48.5431 30×φ golden (87.84))
-  - sky line to Haumea: S Moon → Haumea Dec 4.9929 5 whole (41.61)
-  - star rows: J Unukalhai → J Haumea Dec 17.7733 17.7778 ninth (96.47)
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
-  - star rows: J Zosma → J Haumea RA 0.4854 conj (45.75)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - other chart, star rows: H Algorab → H Haumea RA 25.9872 26 whole (12.96)
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
   - other chart, star rows: H Vindemiatrix → H Haumea Dec 6.0122 6 whole (15.29)
@@ -496,53 +388,27 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **1. same body on both charts**: none
 - **2. one body in both planes**: none
 - **3. runner number = sky number**
-  - 6 whole — also: 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell
-    - S Unukalhai → H Jupiter RA 6.0099 6 whole (25.65) = S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - 6 whole — also: 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell
+  - 6 whole — also: 3 Wise Eagle / Graham Lee
     - H Vindemiatrix → H Haumea Dec 6.0122 6 whole (15.29) = S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - 42 whole — only
-    - H Zosma → H Pluto Dec 42.0128 42 whole (12.79) = S Sun → Difda RA 42.0067 42 whole (44.12)
   - 30×φ golden — also: 4 Onesmoothoperator / Harry Russell
     - S Haumea → J Haumea RA 48.5431 30×φ golden (87.84) = S Sun → Mirach RA 48.5421 30×φ golden (93.32)
-  - 5 whole — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
-    - S Difda → J Jupiter Dec 4.9908 5 whole (29.37) = S Moon → Haumea Dec 4.9929 5 whole (41.61)
-  - 15 whole — also: 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
-    - J Difda → J Uranus Dec 14.9995 15 whole (95.12) = S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
-  - 57 whole — also: 1 Sir Chauvelin / Paul Mulrennan
-    - J Difda → J Makemake Dec 57.0144 57 whole (7.93) = S Sun → Eris RA 56.9934 57 whole (44.79)
-  - 5 whole — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
-    - J Sadalsuud → J Sun Dec 5.0154 5 whole (5.24) = S Moon → Haumea Dec 4.9929 5 whole (41.61)
 - **4. circle divisions**
   - 1 = 360/360 — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - S Pluto → H Pluto Dec 1.0094 1 whole (28.20)
-  - 3 = 360/120 — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
+  - 3 = 360/120 — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - S Chiron → H Chiron Dec 2.9867 3 whole (11.26)
-  - 20 = 360/18 — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
+  - 20 = 360/18 — also: 1 Sir Chauvelin / Paul Mulrennan, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
     - S Vesta → H Vesta RA 20.0089 20 whole (30.74)
   - 1 = 360/360 — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - H Algorab → H Vesta Dec 0.9845 1 whole (5.06)
-  - 6 = 360/60 — also: 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell
-    - S Unukalhai → H Jupiter RA 6.0099 6 whole (25.65)
-  - 6 = 360/60 — also: 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell
+  - 6 = 360/60 — also: 3 Wise Eagle / Graham Lee
     - H Vindemiatrix → H Haumea Dec 6.0122 6 whole (15.29)
-  - 9 = 360/40 — also: 1 Sir Chauvelin / Paul Mulrennan, 5 Aced It / Jack Mitchell
-    - H Zosma → H Venus Dec 9.0119 9 whole (16.38)
-  - 36 = 360/10 — also: 3 Wise Eagle / Graham Lee
-    - H Zosma → H Quaoar Dec 36.0122 36 whole (15.27)
   - 4 = 360/90 — also: 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
     - S Venus → J Venus Dec 4.0114 4 whole (18.62)
-  - 18 = 360/20 — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
+  - 18 = 360/20 — also: 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
     - J Alphard → J Gonggong Dec 17.9845 18 whole (5.03)
   - 5 = 360/72 — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
-    - S Difda → J Jupiter Dec 4.9908 5 whole (29.37)
-  - 15 = 360/24 — also: 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
-    - J Difda → J Uranus Dec 14.9995 15 whole (95.12)
-  - 36 = 360/10 — also: 3 Wise Eagle / Graham Lee
-    - J Difda → J Rahu RA 35.9812 36 whole (0.35)
-  - 5 = 360/72 — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - J Sadalsuud → J Sun Dec 5.0154 5 whole (5.24)
-  - 4 = 360/90 — also: 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
-    - J Unukalhai → J Ketu Dec 3.9871 4 whole (12.60)
 - **5. same number in more than one place**
   - 1 whole — also: 1 Sir Chauvelin / Paul Mulrennan
     - S Pluto → H Pluto Dec 1.0094 1 whole (28.20)
@@ -550,47 +416,24 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 50×φ golden — only
     - S Rahu → H Rahu RA 80.8756 50×φ golden (loose)
     - S Ketu → H Ketu RA 80.8756 50×φ golden (loose)
-  - 26 whole — also: 4 Onesmoothoperator / Harry Russell
+  - 26 whole — only
     - H Algorab → H Haumea RA 25.9872 26 whole (12.96)
     - H Deneb → H Gonggong RA 25.9977 26 whole (78.22)
-  - 16 whole — also: 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
+  - 16 whole — also: 3 Wise Eagle / Graham Lee
     - H Alphard → H Mercury Dec 16.0152 16 whole (5.81)
-    - H Zosma → H Sun Dec 15.9932 16 whole (43.86)
     - J Sadalsuud → J Ketu Dec 15.9843 16 whole (4.53)
-  - 6 whole — only
-    - S Unukalhai → H Jupiter RA 6.0099 6 whole (25.65)
-    - H Vindemiatrix → H Haumea Dec 6.0122 6 whole (15.29)
-  - 36 whole — only
-    - H Zosma → H Quaoar Dec 36.0122 36 whole (15.27)
-    - J Difda → J Rahu RA 35.9812 36 whole (0.35)
-  - 4 whole — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
-    - S Venus → J Venus Dec 4.0114 4 whole (18.62)
-    - J Unukalhai → J Ketu Dec 3.9871 4 whole (12.60)
-  - 17.7778 ninth — only
-    - S Uranus → J Uranus Dec 17.7001 17.7778 ninth (loose)
-    - J Unukalhai → J Haumea Dec 17.7733 17.7778 ninth (96.47)
   - 99×φ golden — only
     - J Alkaid → J Chiron RA 160.1798 99×φ golden (68.80)
     - J Fomalhaut → J Pluto RA 160.1812 99×φ golden (75.66)
-  - 5 whole — also: 1 Sir Chauvelin / Paul Mulrennan, 6 Resumption / Tom Marquand
-    - S Difda → J Jupiter Dec 4.9908 5 whole (29.37)
-    - J Sadalsuud → J Sun Dec 5.0154 5 whole (5.24)
-  - 89×φ golden — only
-    - J Difda → J Ketu RA 144.0188 89×φ golden (32.91)
-    - J Unukalhai → J Eris RA 144.0135 89×φ golden (54.31)
 ### L4 every natal body
 - **Pluto**
   - same body: S Pluto → H Pluto Dec 1.0094 1 whole (28.20) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
-  - star rows: H Zosma → H Pluto Dec 42.0128 42 whole (12.79) — also: 6 Resumption / Tom Marquand
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - star rows: J Fomalhaut → J Pluto RA 160.1812 99×φ golden (75.66) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
 - **Chiron**
   - same body: S Chiron → H Chiron Dec 2.9867 3 whole (11.26) — also: 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
   - star rows: J Alkaid → J Chiron RA 160.1798 99×φ golden (68.80) — only
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
-  - star rows: J Unukalhai → J Chiron RA 130.9965 131 whole (68.19) — also: 5 Aced It / Jack Mitchell
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
   - star rows: J Vindemiatrix → J Chiron RA 171.5180 106×φ golden (64.45) — only
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
 - **Vesta**
@@ -603,21 +446,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Rahu → H Rahu RA 80.8756 50×φ golden (loose) — also: 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
   - star rows: H Algorab → H Rahu RA 51.9926 52 whole (39.68) — also: 4 Onesmoothoperator / Harry Russell
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
-  - star rows: H Difda → H Rahu RA 124.5846 77×φ golden (76.62) — also: 3 Wise Eagle / Graham Lee
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
-  - star rows: J Difda → J Rahu RA 35.9812 36 whole (0.35) — also: 3 Wise Eagle / Graham Lee
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
 - **Ketu**
   - same body: S Ketu → H Ketu RA 80.8756 50×φ golden (loose) — also: 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
   - star rows: H Algorab → H Ketu RA 128.0074 128 whole (39.68) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
   - top rows: S Jupiter → J Ketu Dec 18.9977 19 whole (78.02) — also: 6 Resumption / Tom Marquand
-  - star rows: J Difda → J Ketu RA 144.0188 89×φ golden (32.91) — also: 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: J Sadalsuud → J Ketu Dec 15.9843 16 whole (4.53) — also: 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: J Unukalhai → J Ketu Dec 3.9871 4 whole (12.60) — only
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 - **Ceres**
   - top rows: S Sun → H Ceres Dec 43.6829 27×φ golden (76.81) — only
   - star rows: H Deneb → H Ceres RA 179.4117 10×φ^6 phi power (93.21) — only
@@ -625,23 +460,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Ceres → J Ceres Dec 18.8803 18.8889 ninth (93.84) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
 - **Jupiter**
   - top rows: S Venus → H Jupiter Dec 0.2290 conj (5.60) — also: 4 Onesmoothoperator / Harry Russell
-  - star rows: S Unukalhai → H Jupiter RA 6.0099 6 whole (25.65) — also: 1 Sir Chauvelin / Paul Mulrennan, 6 Resumption / Tom Marquand
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
   - top rows: S Mercury → J Jupiter RA 87.3741 54×φ golden (98.25) — also: 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
     - source line: S Jupiter → Mercury Dec 11.0015 11 whole (85.59)
-  - star rows: S Difda → J Jupiter Dec 4.9908 5 whole (29.37) — only
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
 - **Haumea**
   - star rows: H Algorab → H Haumea RA 25.9872 26 whole (12.96) — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
   - star rows: H Vindemiatrix → H Haumea Dec 6.0122 6 whole (15.29) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
   - same body: S Haumea → J Haumea RA 48.5431 30×φ golden (87.84) — only
-    - source line: S Moon → Haumea Dec 4.9929 5 whole (41.61)
-  - star rows: J Unukalhai → J Haumea Dec 17.7733 17.7778 ninth (96.47) — also: 1 Sir Chauvelin / Paul Mulrennan, 5 Aced It / Jack Mitchell
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
-  - star rows: J Zosma → J Haumea RA 0.4854 conj (45.75) — also: 1 Sir Chauvelin / Paul Mulrennan, 5 Aced It / Jack Mitchell
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **Gonggong**
   - star rows: H Algorab → H Gonggong RA 148.8818 92×φ golden (9.01) — also: 6 Resumption / Tom Marquand
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
@@ -657,68 +483,30 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Quaoar**
   - star rows: H Alkaid → H Quaoar RA 64.9832 65 whole (2.49) — also: 6 Resumption / Tom Marquand
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
-  - star rows: H Difda → H Quaoar RA 99.0181 99 whole (0.88) — also: 5 Aced It / Jack Mitchell
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: H Sadalsuud → H Quaoar RA 51.0113 51 whole (18.86) — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: H Zosma → H Quaoar Dec 36.0122 36 whole (15.27) — also: 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - star rows: J Alphard → J Quaoar Dec 0.2547 conj (2.28) — only
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
 - **Mercury**
   - star rows: H Alphard → H Mercury Dec 16.0152 16 whole (5.81) — also: 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - star rows: H Difda → H Mercury RA 1.0871 conj (7.58) — also: 5 Aced It / Jack Mitchell
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: J Deneb → J Mercury RA 144.4143 144.444 ninth (96.81) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
   - star rows: J Sadalsuud → J Mercury RA 156.9454 97×φ golden (77.36) — also: 5 Aced It / Jack Mitchell
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: J Unukalhai → J Mercury Dec 0.2404 conj (3.95) — only
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 - **Venus**
   - star rows: H Deneb → H Venus RA 79.0069 79 whole (43.06) — only
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
-  - star rows: H Zosma → H Venus RA 139.1716 86×φ golden (12.92) — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
-  - star rows: H Zosma → H Venus Dec 9.0119 9 whole (16.38) — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - same body: S Venus → J Venus Dec 4.0114 4 whole (18.62) — only
 - **Makemake**
   - star rows: H Deneb → H Makemake RA 114.9964 115 whole (66.99) — also: 3 Wise Eagle / Graham Lee
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
   - star rows: H Vindemiatrix → H Makemake RA 0.1900 conj (76.28) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - star rows: J Difda → J Makemake Dec 57.0144 57 whole (7.93) — only
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: J Sadalsuud → J Makemake RA 176.3385 109×φ golden (2.54) — also: 4 Onesmoothoperator / Harry Russell
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
   - star rows: J Vindemiatrix → J Makemake RA 48.9863 49 whole (9.82) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-- **Sun**
-  - star rows: H Difda → H Sun RA 0.3613 conj (57.63) — also: 4 Onesmoothoperator / Harry Russell
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
-  - star rows: H Vindemiatrix → H Sun RA 174.9838 175 whole (3.65) — also: 1 Sir Chauvelin / Paul Mulrennan
-    - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - star rows: H Zosma → H Sun RA 158.0011 158 whole (89.08) — only
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
-  - star rows: H Zosma → H Sun Dec 15.9932 16 whole (43.86) — only
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
-  - star rows: J Sadalsuud → J Sun Dec 5.0154 5 whole (5.24) — only
-    - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: J Unukalhai → J Sun Dec 6.9817 7 whole (0.76) — only
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
-- **Uranus**
-  - star rows: H Difda → H Uranus Dec 27.9935 28 whole (45.27) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
-  - same body: S Uranus → J Uranus Dec 17.7001 17.7778 ninth (loose) — also: 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
-  - star rows: J Algorab → J Uranus RA 1.1283 conj (6.14) — also: 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
-    - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
-  - star rows: J Difda → J Uranus Dec 14.9995 15 whole (95.12) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
-- **Sedna**
-  - star rows: H Difda → H Sedna RA 45.3049 28×φ golden (99.92) — only
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
 - **Juno**
   - star rows: H Sadalsuud → H Juno RA 24.2785 15×φ golden (56.64) — only
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
@@ -729,8 +517,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
   - star rows: J Sadalsuud → J Juno RA 93.9807 94 whole (0.11) — only
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: J Zosma → J Juno RA 111.6463 69×φ golden (88.34) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
+- **Sun**
+  - star rows: H Vindemiatrix → H Sun RA 174.9838 175 whole (3.65) — also: 1 Sir Chauvelin / Paul Mulrennan
+    - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
+  - star rows: J Sadalsuud → J Sun Dec 5.0154 5 whole (5.24) — only
+    - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
 - **Orcus**
   - star rows: H Vindemiatrix → H Orcus RA 42.9822 43 whole (1.20) — also: 3 Wise Eagle / Graham Lee
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
@@ -742,21 +533,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
   - star rows: J Deneb → J Transpluto Dec 28.9876 29 whole (14.26) — also: 4 Onesmoothoperator / Harry Russell
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
-- **Neptune**
-  - star rows: H Zosma → H Neptune RA 177.7429 177.778 ninth (97.27) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
-  - same body: S Neptune → J Neptune Dec 13.9889 14 whole (19.73) — also: 1 Sir Chauvelin / Paul Mulrennan
-  - star rows: J Unukalhai → J Neptune RA 1.1675 conj (4.91) — also: 6 Resumption / Tom Marquand
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 - **Mars**
   - same body: S Mars → J Mars RA 121.7204 122.222 ninth (loose) — also: 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
   - star rows: J Fomalhaut → J Mars Dec 37.0152 37 whole (5.65) — also: 6 Resumption / Tom Marquand
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
+- **Uranus**
+  - same body: S Uranus → J Uranus Dec 17.7001 17.7778 ninth (loose) — also: 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+  - star rows: J Algorab → J Uranus RA 1.1283 conj (6.14) — also: 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+    - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
+- **Neptune**
+  - same body: S Neptune → J Neptune Dec 13.9889 14 whole (19.73) — also: 1 Sir Chauvelin / Paul Mulrennan
 - **Pallas**
   - same body: S Pallas → J Pallas RA 37.2174 23×φ golden (84.62) — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
-- **Eris**
-  - star rows: J Unukalhai → J Eris RA 144.0135 89×φ golden (54.31) — also: 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 
 ## 3 Wise Eagle / Graham Lee
 ### L1 same bodies
@@ -780,21 +568,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Uranus** (same body: S Uranus → H Uranus RA 16.0108 16 whole (20.99))
   - star rows: H Vindemiatrix → H Uranus RA 173.0039 173 whole (64.82)
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - star rows: H Zosma → H Uranus RA 145.9882 146 whole (16.81)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - other chart, star rows: J Alphard → J Uranus RA 72.0158 72 whole (4.33)
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - other chart, star rows: J Difda → J Uranus RA 156.9814 157 whole (0.50)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
 - **H Eris** (same body: S Eris → H Eris Dec 1.0244 1 whole (loose))
-  - sky line to Eris: S Sun → Eris RA 56.9934 57 whole (44.79)
-  - T1: H Jupiter → H Eris Dec 2.9999 3 whole (99.37)
   - star rows: H Mirach → H Eris Dec 37.9985 38 whole (85.52)
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
   - star rows: H Vindemiatrix → H Eris Dec 13.3378 13.3333 ninth (94.60)
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - other chart, star rows: J Unukalhai → J Eris RA 144.0074 89×φ golden (86.01)
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 - **H Makemake** (same body: S Makemake → H Makemake RA 4.8556 3×φ golden (loose))
   - top rows: S Jupiter → H Makemake Dec 33.9787 21×φ golden (99.99)
   - star rows: H Deneb → H Makemake RA 116.0176 116 whole (1.41)
@@ -829,8 +609,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
   - star rows: J Vindemiatrix → J Saturn Dec 8.8882 8.88889 ninth (94.69)
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - other chart, star rows: H Difda → H Saturn RA 103.5648 64×φ golden (45.03)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - other chart, star rows: H Sadalsuud → H Saturn RA 55.5589 55.5556 ninth (96.88)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
 - **J Chiron** (same body: S Chiron → J Chiron RA 14.1817 14.14 sqrt2 (loose); S Chiron → J Chiron Dec 3.9900 4 whole (25.24))
@@ -841,16 +619,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Vindemiatrix → H Ceres RA 144.4414 144.444 ninth (99.67)
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
 - **J Juno** (same body: S Juno → J Juno RA 140.0120 140 whole (16.15); S Juno → J Juno Dec 10.0116 10 whole (17.75))
-  - star rows: J Difda → J Juno Dec 16.6610 16.6667 ninth (95.10)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - other chart, top rows: S Jupiter → H Juno Dec 0.0886 conj (49.64)
   - other chart, star rows: H Alphard → H Juno Dec 0.1672 conj (19.58)
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - other chart, star rows: H Zosma → H Juno Dec 29.0161 29 whole (3.72)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **J Vesta** (same body: S Vesta → J Vesta RA 68.4801 10×φ^4 phi power (loose))
-  - star rows: J Unukalhai → J Vesta RA 122.0131 122 whole (11.89)
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
   - other chart, star rows: H Deneb → H Vesta RA 166.6885 166.667 ninth (98.13)
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
 ### L3 matches
@@ -866,28 +638,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Juno → J Juno RA 140.0120 140 whole (16.15)
     - S Juno → J Juno Dec 10.0116 10 whole (17.75)
 - **3. runner number = sky number**
-  - 6 whole — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
+  - 6 whole — also: 2 Alba Rose / Joe Fanning
     - S Jupiter → H Gonggong RA 5.9959 6 whole (62.84) = S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - 141.4 sqrt2 — also: 1 Sir Chauvelin / Paul Mulrennan, 6 Resumption / Tom Marquand
-    - J Difda → J Rahu RA 141.4023 141.4 sqrt2 (94.69) = S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
-  - 122 whole — only
-    - J Unukalhai → J Vesta RA 122.0131 122 whole (11.89) = S Sun → Alkaid RA 122.0006 122 whole (93.98)
 - **4. circle divisions**
   - 1 = 360/360 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - S Eris → H Eris Dec 1.0244 1 whole (loose)
-  - 3 = 360/120 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
-    - H Jupiter → H Eris Dec 2.9999 3 whole (99.37)
-  - 6 = 360/60 — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
+  - 6 = 360/60 — also: 2 Alba Rose / Joe Fanning
     - S Jupiter → H Gonggong RA 5.9959 6 whole (62.84)
   - 45 = 360/8 — only
     - H Mirach → H Orcus Dec 44.9864 45 whole (10.26)
-  - 3 = 360/120 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
-    - H Unukalhai → H Venus Dec 3.0177 3 whole (1.36)
-  - 36 = 360/10 — also: 2 Alba Rose / Joe Fanning
-    - H Zosma → H Quaoar Dec 36.0122 36 whole (15.38)
   - 4 = 360/90 — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
     - S Chiron → J Chiron Dec 3.9900 4 whole (25.24)
-  - 2 = 360/180 — also: 1 Sir Chauvelin / Paul Mulrennan, 6 Resumption / Tom Marquand
+  - 2 = 360/180 — also: 6 Resumption / Tom Marquand
     - S Ceres → J Ceres Dec 2.0283 2 whole (loose)
   - 10 = 360/36 — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
     - S Juno → J Juno Dec 10.0116 10 whole (17.75)
@@ -895,15 +657,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Alphard → J Uranus RA 72.0158 72 whole (4.33)
   - 180 = 360/2 — only
     - J Mirach → J Pluto RA 179.9848 180 whole (5.65)
-  - 18 = 360/20 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
+  - 18 = 360/20 — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
     - J Mirach → J Sedna RA 17.9889 18 whole (19.80)
 - **5. same number in more than one place**
-  - 16 whole — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
+  - 16 whole — also: 2 Alba Rose / Joe Fanning
     - S Uranus → H Uranus RA 16.0108 16 whole (20.99)
     - S Gonggong → J Jupiter Dec 15.9957 16 whole (61.94)
-  - 3 whole — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
-    - H Jupiter → H Eris Dec 2.9999 3 whole (99.37)
-    - H Unukalhai → H Venus Dec 3.0177 3 whole (1.36)
   - 41 whole — only
     - H Jupiter → H star Mirach Dec 40.9984 41 whole (84.93)
     - S Mirach → H Jupiter Dec 41.0013 41 whole (87.26)
@@ -935,22 +694,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Uranus → H Uranus RA 16.0108 16 whole (20.99) — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
   - star rows: H Vindemiatrix → H Uranus RA 173.0039 173 whole (64.82) — also: 6 Resumption / Tom Marquand
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - star rows: H Zosma → H Uranus RA 145.9882 146 whole (16.81) — also: 4 Onesmoothoperator / Harry Russell
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - star rows: J Alphard → J Uranus RA 72.0158 72 whole (4.33) — also: 5 Aced It / Jack Mitchell
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - star rows: J Difda → J Uranus RA 156.9814 157 whole (0.50) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
 - **Eris**
   - same body: S Eris → H Eris Dec 1.0244 1 whole (loose) — only
-    - source line: S Sun → Eris RA 56.9934 57 whole (44.79)
-  - T1: H Jupiter → H Eris Dec 2.9999 3 whole (99.37) — only
   - star rows: H Mirach → H Eris Dec 37.9985 38 whole (85.52) — only
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
   - star rows: H Vindemiatrix → H Eris Dec 13.3378 13.3333 ninth (94.60) — also: 6 Resumption / Tom Marquand
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - star rows: J Unukalhai → J Eris RA 144.0074 89×φ golden (86.01) — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 - **Makemake**
   - same body: S Makemake → H Makemake RA 4.8556 3×φ golden (loose) — also: 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
   - top rows: S Jupiter → H Makemake Dec 33.9787 21×φ golden (99.99) — only
@@ -961,8 +712,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Vindemiatrix → H Makemake RA 1.2099 conj (3.74) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
 - **Jupiter**
-  - T1: H Jupiter → H star Mirach Dec 40.9984 41 whole (84.93) — also: 1 Sir Chauvelin / Paul Mulrennan, 6 Resumption / Tom Marquand
-  - T1: H Jupiter → H star Sadalsuud RA 126.2160 78×φ golden (50.65) — also: 1 Sir Chauvelin / Paul Mulrennan, 6 Resumption / Tom Marquand
+  - T1: H Jupiter → H star Mirach Dec 40.9984 41 whole (84.93) — also: 6 Resumption / Tom Marquand
+  - T1: H Jupiter → H star Sadalsuud RA 126.2160 78×φ golden (50.65) — also: 6 Resumption / Tom Marquand
   - top rows: S Mars → H Jupiter Dec 17.7743 17.7778 ninth (97.25) — only
   - top rows: S Saturn → H Jupiter RA 122.9894 φ^10 phi power (99.19) — also: 4 Onesmoothoperator / Harry Russell
     - source line: S Jupiter → Saturn Dec 7.9992 8 whole (92.07)
@@ -984,12 +735,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Jupiter → H Juno Dec 0.0886 conj (49.64) — also: 1 Sir Chauvelin / Paul Mulrennan
   - star rows: H Alphard → H Juno Dec 0.1672 conj (19.58) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - star rows: H Zosma → H Juno Dec 29.0161 29 whole (3.72) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - same body: S Juno → J Juno RA 140.0120 140 whole (16.15) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
   - same body: S Juno → J Juno Dec 10.0116 10 whole (17.75) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
-  - star rows: J Difda → J Juno Dec 16.6610 16.6667 ninth (95.10) — also: 5 Aced It / Jack Mitchell
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
 - **Gonggong**
   - top rows: S Jupiter → H Gonggong RA 5.9959 6 whole (62.84) — only
   - top rows: S Sun → H Gonggong Dec 0.2815 conj (0.38) — also: 5 Aced It / Jack Mitchell
@@ -1022,8 +769,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
   - star rows: J Mirach → J Mercury RA 103.0171 103 whole (2.08) — also: 6 Resumption / Tom Marquand
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
-  - star rows: J Zosma → J Mercury Dec 45.9846 46 whole (5.36) — also: 4 Onesmoothoperator / Harry Russell
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **Haumea**
   - star rows: H Alphard → H Haumea Dec 26.0147 26 whole (6.96) — only
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
@@ -1037,24 +782,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Deneb → H Vesta RA 166.6885 166.667 ninth (98.13) — also: 5 Aced It / Jack Mitchell
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
   - same body: S Vesta → J Vesta RA 68.4801 10×φ^4 phi power (loose) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
-  - star rows: J Unukalhai → J Vesta RA 122.0131 122 whole (11.89) — only
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
-- **Saturn**
-  - star rows: H Difda → H Saturn RA 103.5648 64×φ golden (45.03) — only
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
-  - star rows: H Sadalsuud → H Saturn RA 55.5589 55.5556 ninth (96.88) — also: 1 Sir Chauvelin / Paul Mulrennan
-    - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - same body: S Saturn → J Saturn RA 165.0648 102×φ golden (4.75) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
-    - source line: S Jupiter → Saturn Dec 7.9992 8 whole (92.07)
-  - star rows: J Sadalsuud → J Saturn RA 161.8389 100×φ^1 phi power (91.43) — also: 1 Sir Chauvelin / Paul Mulrennan
-    - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: J Vindemiatrix → J Saturn Dec 8.8882 8.88889 ninth (94.69) — also: 6 Resumption / Tom Marquand
-    - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
 - **Neptune**
   - star rows: H Fomalhaut → H Neptune RA 0.2004 conj (75.06) — also: 4 Onesmoothoperator / Harry Russell
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
-  - star rows: H Zosma → H Neptune Dec 28.0188 28 whole (0.35) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **Sedna**
   - star rows: H Fomalhaut → H Sedna Dec 37.2131 23×φ golden (89.73) — also: 1 Sir Chauvelin / Paul Mulrennan
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
@@ -1068,14 +798,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
   - star rows: J Vindemiatrix → J Orcus Dec 0.0182 conj (88.22) — also: 2 Alba Rose / Joe Fanning
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
+- **Saturn**
+  - star rows: H Sadalsuud → H Saturn RA 55.5589 55.5556 ninth (96.88) — also: 1 Sir Chauvelin / Paul Mulrennan
+    - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
+  - same body: S Saturn → J Saturn RA 165.0648 102×φ golden (4.75) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
+    - source line: S Jupiter → Saturn Dec 7.9992 8 whole (92.07)
+  - star rows: J Sadalsuud → J Saturn RA 161.8389 100×φ^1 phi power (91.43) — also: 1 Sir Chauvelin / Paul Mulrennan
+    - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
+  - star rows: J Vindemiatrix → J Saturn Dec 8.8882 8.88889 ninth (94.69) — also: 6 Resumption / Tom Marquand
+    - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
 - **Ketu**
   - star rows: H Sadalsuud → H Ketu RA 11.0909 φ^5 phi power (97.21) — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-- **Venus**
-  - star rows: H Unukalhai → H Venus RA 119.0092 119 whole (29.16) — only
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
-  - star rows: H Unukalhai → H Venus Dec 3.0177 3 whole (1.36) — only
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 - **Ceres**
   - star rows: H Vindemiatrix → H Ceres RA 144.4414 144.444 ninth (99.67) — also: 5 Aced It / Jack Mitchell
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
@@ -1083,18 +817,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Rahu**
   - star rows: H Vindemiatrix → H Rahu Dec 0.1889 conj (13.70) — also: 5 Aced It / Jack Mitchell
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - star rows: J Difda → J Rahu RA 141.4023 141.4 sqrt2 (94.69) — also: 2 Alba Rose / Joe Fanning
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
-  - star rows: J Difda → J Rahu Dec 0.2593 conj (1.84) — also: 2 Alba Rose / Joe Fanning
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
-- **Quaoar**
-  - star rows: H Zosma → H Quaoar Dec 36.0122 36 whole (15.38) — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
-  - top rows: S Moon → J Quaoar RA 77.9951 78 whole (56.76) — also: 4 Onesmoothoperator / Harry Russell
-  - star rows: J Fomalhaut → J Quaoar RA 126.9918 127 whole (35.04) — also: 1 Sir Chauvelin / Paul Mulrennan, 6 Resumption / Tom Marquand
-    - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
-  - star rows: J Mirach → J Quaoar RA 160.0172 160 whole (2.00) — also: 6 Resumption / Tom Marquand
-    - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
 - **Pluto**
   - top rows: S Moon → J Pluto RA 57.9970 58 whole (72.23) — only
   - star rows: J Fomalhaut → J Pluto RA 146.9899 147 whole (24.55) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
@@ -1103,6 +825,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
   - star rows: J Vindemiatrix → J Pluto Dec 0.2294 conj (5.54) — also: 1 Sir Chauvelin / Paul Mulrennan
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
+- **Quaoar**
+  - top rows: S Moon → J Quaoar RA 77.9951 78 whole (56.76) — also: 4 Onesmoothoperator / Harry Russell
+  - star rows: J Fomalhaut → J Quaoar RA 126.9918 127 whole (35.04) — also: 1 Sir Chauvelin / Paul Mulrennan, 6 Resumption / Tom Marquand
+    - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
+  - star rows: J Mirach → J Quaoar RA 160.0172 160 whole (2.00) — also: 6 Resumption / Tom Marquand
+    - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
 
 ## 4 Onesmoothoperator / Harry Russell
 ### L1 same bodies
@@ -1129,7 +857,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Neptune → H Jupiter Dec 12.9959 13 whole (63.46)
   - top rows: S Pallas → H Jupiter RA 133.3313 133.333 ninth (99.75)
   - top rows: S Eris → H Jupiter Dec 15.9949 16 whole (55.27)
-    - source line: S Sun → Eris RA 56.9934 57 whole (44.79)
   - top rows: S Transpluto → H Jupiter RA 76.0483 47×φ golden (95.63)
   - other chart, top rows: S Venus → J Jupiter Dec 0.2097 conj (9.05)
   - other chart, top rows: S Saturn → J Jupiter RA 0.1104 conj (85.83)
@@ -1138,22 +865,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Saturn Dec 7.9992 8 whole (92.07)
   - other chart, top rows: S Uranus → J Jupiter RA 79.0048 79 whole (57.92)
   - other chart, top rows: S Eris → J Jupiter RA 66.3315 41×φ golden (57.01)
-    - source line: S Sun → Eris RA 56.9934 57 whole (44.79)
   - other chart, top rows: S Haumea → J Jupiter RA 102.0013 102 whole (87.61)
-    - source line: S Moon → Haumea Dec 4.9929 5 whole (41.61)
   - other chart, star rows: S Algorab → J Jupiter Dec 0.1319 conj (31.39)
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
   - other chart, star rows: J Alphard → J Jupiter Dec 7.9919 8 whole (35.21)
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
   - other chart, star rows: S Vindemiatrix → J Jupiter RA 124.0044 124 whole (60.68)
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - other chart, star rows: S Zosma → J Jupiter RA 151.0170 151 whole (2.29)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **H Uranus** (same body: S Uranus → H Uranus RA 14.4483 14.4444 ninth (95.95))
   - star rows: H Algorab → H Uranus Dec 25.9815 26 whole (0.59)
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
-  - star rows: H Zosma → H Uranus RA 144.4267 144.444 ninth (98.12)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **H Pluto** (same body: S Pluto → H Pluto Dec 0.9751 1 whole (loose))
   - top rows: S Jupiter → H Pluto Dec 12.9429 8×φ golden (91.62)
   - star rows: H Algorab → H Pluto Dec 5.0079 5 whole (36.36)
@@ -1164,17 +885,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
   - other chart, star rows: J Alphard → J Pluto RA 103.9887 104 whole (19.07)
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - other chart, star rows: J Difda → J Pluto RA 125.0125 125 whole (14.18)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - other chart, star rows: J Sadalsuud → J Pluto RA 77.0002 77 whole (98.06)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
   - other chart, star rows: J Sadalsuud → J Pluto Dec 3.9865 4 whole (10.52)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - other chart, star rows: J Unukalhai → J Pluto Dec 15.9836 16 whole (3.25)
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 - **H Chiron** (same body: S Chiron → H Chiron RA 11.9805 12 whole (0.06))
-  - star rows: H Difda → H Chiron Dec 20.0169 20 whole (2.40)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - other chart, same body: S Chiron → J Chiron RA 148.0156 148 whole (4.88)
   - other chart, top rows: S Jupiter → J Chiron RA 122.2620 122.222 ninth (94.50)
 - **H Ceres** (same body: S Ceres → H Ceres RA 72.9849 73 whole (6.07); S Ceres → H Ceres Dec 11.3481 7×φ golden (loose))
@@ -1184,8 +899,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
   - other chart, star rows: J Alphard → J Ceres Dec 11.1167 11.1111 ninth (90.86)
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - other chart, star rows: J Difda → J Ceres RA 29.9982 30 whole (82.90)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - other chart, star rows: J Sadalsuud → J Ceres RA 18.0141 18 whole (8.80)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
 - **H Pallas** (same body: S Pallas → H Pallas RA 48.5692 30×φ golden (loose))
@@ -1201,8 +914,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Transpluto** (same body: S Transpluto → H Transpluto RA 1.4121 1.414 sqrt2 (loose))
   - star rows: H Deneb → H Transpluto RA 156.9707 97×φ golden (11.56)
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
-  - star rows: H Difda → H Transpluto Dec 28.9823 29 whole (1.31)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: H Vindemiatrix → H Transpluto Dec 0.0364 conj (77.20)
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
   - other chart, star rows: J Algorab → J Transpluto RA 40.0136 40 whole (10.18)
@@ -1212,13 +923,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Ketu** (same body: S Ketu → H Ketu Dec 2.9760 3 whole (loose))
   - star rows: H Algorab → H Ketu Dec 0.0322 conj (79.70)
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
-  - star rows: H Zosma → H Ketu Dec 37.0062 37 whole (47.90)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - other chart, same body: S Ketu → J Ketu RA 112.0256 112 whole (loose)
   - other chart, star rows: J Deneb → J Ketu Dec 51.0103 51 whole (23.74)
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
-  - other chart, star rows: J Difda → J Ketu RA 24.2723 15×φ golden (89.38)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - other chart, star rows: J Sadalsuud → J Ketu Dec 0.1550 conj (23.35)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
 - **J Mercury** (same body: S Mercury → J Mercury RA 30.9808 31 whole (0.17))
@@ -1228,8 +935,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
   - star rows: J Vindemiatrix → J Mercury RA 75.9875 76 whole (14.23)
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - star rows: J Zosma → J Mercury RA 103.0023 103 whole (77.97)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **J Saturn** (same body: S Saturn → J Saturn RA 54.0100 54 whole (24.78))
   - sky line to Saturn: S Jupiter → Saturn Dec 7.9992 8 whole (92.07)
   - other chart, star rows: H Mirach → H Saturn Dec 57.9833 58 whole (2.74)
@@ -1240,14 +945,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
   - star rows: J Alphard → J Pluto RA 103.9887 104 whole (19.07)
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - star rows: J Difda → J Pluto RA 125.0125 125 whole (14.18)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: J Sadalsuud → J Pluto RA 77.0002 77 whole (98.06)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
   - star rows: J Sadalsuud → J Pluto Dec 3.9865 4 whole (10.52)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: J Unukalhai → J Pluto Dec 15.9836 16 whole (3.25)
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
   - other chart, same body: S Pluto → H Pluto Dec 0.9751 1 whole (loose)
   - other chart, top rows: S Jupiter → H Pluto Dec 12.9429 8×φ golden (91.62)
   - other chart, star rows: H Algorab → H Pluto Dec 5.0079 5 whole (36.36)
@@ -1255,16 +956,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Chiron** (same body: S Chiron → J Chiron RA 148.0156 148 whole (4.88))
   - top rows: S Jupiter → J Chiron RA 122.2620 122.222 ninth (94.50)
   - other chart, same body: S Chiron → H Chiron RA 11.9805 12 whole (0.06)
-  - other chart, star rows: H Difda → H Chiron Dec 20.0169 20 whole (2.40)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
 - **J Ceres** (same body: S Ceres → J Ceres RA 77.6881 77.7778 ninth (loose))
   - top rows: S Jupiter → J Ceres RA 1.3381 conj (1.17)
   - star rows: J Alphard → J Ceres RA 160.9970 161 whole (72.30)
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
   - star rows: J Alphard → J Ceres Dec 11.1167 11.1111 ninth (90.86)
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - star rows: J Difda → J Ceres RA 29.9982 30 whole (82.90)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: J Sadalsuud → J Ceres RA 18.0141 18 whole (8.80)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
   - other chart, same body: S Ceres → H Ceres RA 72.9849 73 whole (6.07)
@@ -1275,8 +972,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Vindemiatrix → J Vesta Dec 13.0180 13 whole (1.00)
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
   - other chart, T1: H Jupiter → H Vesta Dec 0.0644 conj (61.65)
-  - other chart, star rows: H Difda → H Vesta RA 110.9504 10×φ^5 phi power (83.22)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
 - **J Rahu** (same body: S Rahu → J Rahu RA 112.0256 112 whole (loose))
   - star rows: J Fomalhaut → J Rahu RA 177.7849 177.778 ninth (99.45)
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
@@ -1286,15 +981,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Ketu** (same body: S Ketu → J Ketu RA 112.0256 112 whole (loose))
   - star rows: J Deneb → J Ketu Dec 51.0103 51 whole (23.74)
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
-  - star rows: J Difda → J Ketu RA 24.2723 15×φ golden (89.38)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: J Sadalsuud → J Ketu Dec 0.1550 conj (23.35)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
   - other chart, same body: S Ketu → H Ketu Dec 2.9760 3 whole (loose)
   - other chart, star rows: H Algorab → H Ketu Dec 0.0322 conj (79.70)
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
-  - other chart, star rows: H Zosma → H Ketu Dec 37.0062 37 whole (47.90)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 ### L3 matches
 - **1. same body on both charts**
   - Pluto — only
@@ -1320,10 +1011,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **3. runner number = sky number**
   - 30×φ golden — also: 2 Alba Rose / Joe Fanning
     - S Pallas → H Pallas RA 48.5692 30×φ golden (loose) = S Sun → Mirach RA 48.5421 30×φ golden (93.32)
-  - 133.333 ninth — also: 5 Aced It / Jack Mitchell
+  - 133.333 ninth — only
     - S Pallas → H Jupiter RA 133.3313 133.333 ninth (99.75) = S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - 5 whole — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
-    - H Algorab → H Pluto Dec 5.0079 5 whole (36.36) = S Moon → Haumea Dec 4.9929 5 whole (41.61)
   - 11 whole — also: 1 Sir Chauvelin / Paul Mulrennan, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
     - H Mirach → H Makemake Dec 10.9868 11 whole (11.41) = S Jupiter → Mercury Dec 11.0015 11 whole (85.59)
   - 8 whole — also: 1 Sir Chauvelin / Paul Mulrennan
@@ -1333,16 +1022,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **4. circle divisions**
   - 1 = 360/360 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
     - S Pluto → H Pluto Dec 0.9751 1 whole (loose)
-  - 12 = 360/30 — also: 1 Sir Chauvelin / Paul Mulrennan, 5 Aced It / Jack Mitchell
+  - 12 = 360/30 — also: 1 Sir Chauvelin / Paul Mulrennan
     - S Chiron → H Chiron RA 11.9805 12 whole (0.06)
-  - 3 = 360/120 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
+  - 3 = 360/120 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
     - S Rahu → H Rahu Dec 2.9760 3 whole (loose)
-  - 3 = 360/120 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
+  - 3 = 360/120 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
     - S Ketu → H Ketu Dec 2.9760 3 whole (loose)
   - 5 = 360/72 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
     - H Algorab → H Pluto Dec 5.0079 5 whole (36.36)
-  - 20 = 360/18 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
-    - H Difda → H Chiron Dec 20.0169 20 whole (2.40)
   - 10 = 360/36 — also: 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
     - H Sadalsuud → H Quaoar Dec 10.0108 10 whole (21.21)
   - 8 = 360/45 — also: 1 Sir Chauvelin / Paul Mulrennan
@@ -1354,39 +1041,25 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 60 = 360/6 — only
     - J Deneb → J Quaoar Dec 59.9990 60 whole (90.58)
   - 4 = 360/90 — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
-    - J Difda → J Sun Dec 4.0192 4 whole (0.17)
-  - 30 = 360/12 — also: 1 Sir Chauvelin / Paul Mulrennan, 6 Resumption / Tom Marquand
-    - J Difda → J Ceres RA 29.9982 30 whole (82.90)
-  - 4 = 360/90 — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
     - J Sadalsuud → J Pluto Dec 3.9865 4 whole (10.52)
-  - 18 = 360/20 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee
+  - 18 = 360/20 — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee
     - J Sadalsuud → J Ceres RA 18.0141 18 whole (8.80)
 - **5. same number in more than one place**
-  - 3 whole — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
+  - 3 whole — also: 1 Sir Chauvelin / Paul Mulrennan, 6 Resumption / Tom Marquand
     - S Rahu → H Rahu Dec 2.9760 3 whole (loose)
     - S Ketu → H Ketu Dec 2.9760 3 whole (loose)
   - 8×φ golden — only
     - S Jupiter → H Pluto Dec 12.9429 8×φ golden (91.62)
-    - H Zosma → H Sedna Dec 12.9448 8×φ golden (96.65)
     - S Pluto → J Pluto Dec 12.9431 8×φ golden (92.89)
-  - 7 whole — also: 6 Resumption / Tom Marquand
+  - 7 whole — only
     - S Jupiter → H Quaoar Dec 7.0014 7 whole (86.31)
     - J Algorab → J Mars Dec 6.9910 7 whole (30.07)
   - 13 whole — also: 6 Resumption / Tom Marquand
     - S Neptune → H Jupiter Dec 12.9959 13 whole (63.46)
     - J Vindemiatrix → J Vesta Dec 13.0180 13 whole (1.00)
-  - 16 whole — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell
-    - S Eris → H Jupiter Dec 15.9949 16 whole (55.27)
-    - J Unukalhai → J Pluto Dec 15.9836 16 whole (3.25)
-  - 26 whole — also: 2 Alba Rose / Joe Fanning
-    - H Algorab → H Uranus Dec 25.9815 26 whole (0.59)
-    - J Unukalhai → J Makemake Dec 26.0089 26 whole (30.73)
   - 54 whole — only
     - H Alkaid → H Mars RA 53.9858 54 whole (8.54)
     - S Saturn → J Saturn RA 54.0100 54 whole (24.78)
-  - 29 whole — only
-    - H Difda → H Transpluto Dec 28.9823 29 whole (1.31)
-    - J Vindemiatrix → J Gonggong Dec 29.0186 29 whole (0.49)
   - 161 whole — only
     - H Vindemiatrix → H Venus RA 161.0008 161 whole (92.14)
     - J Alphard → J Ceres RA 160.9970 161 whole (72.30)
@@ -1399,16 +1072,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 8 whole — only
     - J Algorab → J Haumea RA 7.9848 8 whole (5.69)
     - J Alphard → J Jupiter Dec 7.9919 8 whole (35.21)
-  - 4 whole — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
-    - J Difda → J Sun Dec 4.0192 4 whole (0.17)
-    - J Sadalsuud → J Pluto Dec 3.9865 4 whole (10.52)
 ### L4 every natal body
 - **Jupiter**
   - same body: S Jupiter → H Jupiter RA 111.3986 111.111 ninth (loose) — also: 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
   - top rows: S Neptune → H Jupiter Dec 12.9959 13 whole (63.46) — also: 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
   - top rows: S Pallas → H Jupiter RA 133.3313 133.333 ninth (99.75) — only
   - top rows: S Eris → H Jupiter Dec 15.9949 16 whole (55.27) — also: 5 Aced It / Jack Mitchell
-    - source line: S Sun → Eris RA 56.9934 57 whole (44.79)
   - top rows: S Transpluto → H Jupiter RA 76.0483 47×φ golden (95.63) — only
   - top rows: S Venus → J Jupiter Dec 0.2097 conj (9.05) — also: 2 Alba Rose / Joe Fanning
   - top rows: S Saturn → J Jupiter RA 0.1104 conj (85.83) — also: 3 Wise Eagle / Graham Lee
@@ -1417,23 +1086,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Saturn Dec 7.9992 8 whole (92.07)
   - top rows: S Uranus → J Jupiter RA 79.0048 79 whole (57.92) — also: 1 Sir Chauvelin / Paul Mulrennan
   - top rows: S Eris → J Jupiter RA 66.3315 41×φ golden (57.01) — also: 5 Aced It / Jack Mitchell
-    - source line: S Sun → Eris RA 56.9934 57 whole (44.79)
   - top rows: S Haumea → J Jupiter RA 102.0013 102 whole (87.61) — only
-    - source line: S Moon → Haumea Dec 4.9929 5 whole (41.61)
   - star rows: S Algorab → J Jupiter Dec 0.1319 conj (31.39) — also: 3 Wise Eagle / Graham Lee
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
   - star rows: J Alphard → J Jupiter Dec 7.9919 8 whole (35.21) — only
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
   - star rows: S Vindemiatrix → J Jupiter RA 124.0044 124 whole (60.68) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - star rows: S Zosma → J Jupiter RA 151.0170 151 whole (2.29) — also: 5 Aced It / Jack Mitchell
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **Uranus**
   - same body: S Uranus → H Uranus RA 14.4483 14.4444 ninth (95.95) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
   - star rows: H Algorab → H Uranus Dec 25.9815 26 whole (0.59) — also: 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
-  - star rows: H Zosma → H Uranus RA 144.4267 144.444 ninth (98.12) — also: 3 Wise Eagle / Graham Lee
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **Pluto**
   - same body: S Pluto → H Pluto Dec 0.9751 1 whole (loose) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
   - top rows: S Jupiter → H Pluto Dec 12.9429 8×φ golden (91.62) — only
@@ -1445,18 +1108,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
   - star rows: J Alphard → J Pluto RA 103.9887 104 whole (19.07) — only
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - star rows: J Difda → J Pluto RA 125.0125 125 whole (14.18) — only
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: J Sadalsuud → J Pluto RA 77.0002 77 whole (98.06) — only
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
   - star rows: J Sadalsuud → J Pluto Dec 3.9865 4 whole (10.52) — only
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: J Unukalhai → J Pluto Dec 15.9836 16 whole (3.25) — also: 1 Sir Chauvelin / Paul Mulrennan
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 - **Chiron**
   - same body: S Chiron → H Chiron RA 11.9805 12 whole (0.06) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
-  - star rows: H Difda → H Chiron Dec 20.0169 20 whole (2.40) — only
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - same body: S Chiron → J Chiron RA 148.0156 148 whole (4.88) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
   - top rows: S Jupiter → J Chiron RA 122.2620 122.222 ninth (94.50) — only
 - **Ceres**
@@ -1468,8 +1125,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
   - star rows: J Alphard → J Ceres Dec 11.1167 11.1111 ninth (90.86) — only
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - star rows: J Difda → J Ceres RA 29.9982 30 whole (82.90) — only
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: J Sadalsuud → J Ceres RA 18.0141 18 whole (8.80) — also: 6 Resumption / Tom Marquand
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
 - **Pallas**
@@ -1488,8 +1143,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Transpluto → H Transpluto RA 1.4121 1.414 sqrt2 (loose) — also: 1 Sir Chauvelin / Paul Mulrennan, 6 Resumption / Tom Marquand
   - star rows: H Deneb → H Transpluto RA 156.9707 97×φ golden (11.56) — also: 2 Alba Rose / Joe Fanning
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
-  - star rows: H Difda → H Transpluto Dec 28.9823 29 whole (1.31) — also: 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: H Vindemiatrix → H Transpluto Dec 0.0364 conj (77.20) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
   - star rows: J Algorab → J Transpluto RA 40.0136 40 whole (10.18) — only
@@ -1500,19 +1153,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Ketu → H Ketu Dec 2.9760 3 whole (loose) — also: 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
   - star rows: H Algorab → H Ketu Dec 0.0322 conj (79.70) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
-  - star rows: H Zosma → H Ketu Dec 37.0062 37 whole (47.90) — only
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - same body: S Ketu → J Ketu RA 112.0256 112 whole (loose) — also: 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
   - star rows: J Deneb → J Ketu Dec 51.0103 51 whole (23.74) — also: 6 Resumption / Tom Marquand
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
-  - star rows: J Difda → J Ketu RA 24.2723 15×φ golden (89.38) — also: 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: J Sadalsuud → J Ketu Dec 0.1550 conj (23.35) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
 - **Vesta**
   - T1: H Jupiter → H Vesta Dec 0.0644 conj (61.65) — only
-  - star rows: H Difda → H Vesta RA 110.9504 10×φ^5 phi power (83.22) — also: 1 Sir Chauvelin / Paul Mulrennan, 6 Resumption / Tom Marquand
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - same body: S Vesta → J Vesta Dec 19.0083 19 whole (34.10) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee
   - star rows: J Mirach → J Vesta RA 1.3656 conj (0.80) — only
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
@@ -1522,8 +1169,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Jupiter → H Quaoar Dec 7.0014 7 whole (86.31) — only
   - star rows: H Sadalsuud → H Quaoar Dec 10.0108 10 whole (21.21) — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: H Unukalhai → H Quaoar Dec 22.0071 22 whole (41.30) — also: 5 Aced It / Jack Mitchell
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
   - top rows: S Moon → J Quaoar Dec 34.9973 35 whole (74.64) — also: 3 Wise Eagle / Graham Lee
   - star rows: J Deneb → J Quaoar Dec 59.9990 60 whole (90.58) — also: 1 Sir Chauvelin / Paul Mulrennan, 5 Aced It / Jack Mitchell
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
@@ -1536,8 +1181,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Mars**
   - star rows: H Alkaid → H Mars RA 53.9858 54 whole (8.54) — only
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
-  - star rows: H Difda → H Mars RA 110.0182 68×φ golden (56.15) — also: 1 Sir Chauvelin / Paul Mulrennan
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: H Sadalsuud → H Mars RA 62.0091 62 whole (29.47) — only
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
   - star rows: J Algorab → J Mars Dec 6.9910 7 whole (30.07) — also: 1 Sir Chauvelin / Paul Mulrennan, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
@@ -1549,8 +1192,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Sun**
   - star rows: H Fomalhaut → H Sun RA 0.2538 conj (69.02) — only
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
-  - star rows: J Difda → J Sun Dec 4.0192 4 whole (0.17) — also: 2 Alba Rose / Joe Fanning
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
 - **Neptune**
   - star rows: H Fomalhaut → H Neptune RA 0.8769 conj (17.26) — also: 3 Wise Eagle / Graham Lee
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
@@ -1566,34 +1207,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
   - star rows: J Sadalsuud → J Makemake Dec 38.0060 38 whole (48.79) — also: 2 Alba Rose / Joe Fanning
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: J Unukalhai → J Makemake Dec 26.0089 26 whole (30.73) — only
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 - **Orcus**
   - star rows: H Sadalsuud → H Orcus RA 169.8733 105×φ golden (13.95) — also: 5 Aced It / Jack Mitchell
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
   - star rows: J Deneb → J Orcus RA 173.1231 107×φ golden (63.45) — only
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
-- **Gonggong**
-  - star rows: H Unukalhai → H Gonggong RA 99.9853 100 whole (6.94) — only
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
-  - star rows: J Difda → J Gonggong Dec 0.0722 conj (57.67) — also: 1 Sir Chauvelin / Paul Mulrennan, 5 Aced It / Jack Mitchell
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
-  - star rows: J Vindemiatrix → J Gonggong Dec 29.0186 29 whole (0.49) — also: 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
-    - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
 - **Venus**
   - star rows: H Vindemiatrix → H Venus RA 161.0008 161 whole (92.14) — only
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - star rows: H Zosma → H Venus RA 171.9855 172 whole (7.48) — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
-  - star rows: J Zosma → J Venus RA 127.9843 128 whole (4.54) — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
-- **Sedna**
-  - star rows: H Zosma → H Sedna Dec 12.9448 8×φ golden (96.65) — also: 6 Resumption / Tom Marquand
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
-  - star rows: J Vindemiatrix → J Sedna RA 149.9923 150 whole (38.07) — also: 6 Resumption / Tom Marquand
-    - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - star rows: J Zosma → J Sedna RA 122.9775 φ^10 phi power (95.39) — also: 6 Resumption / Tom Marquand
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **Mercury**
   - same body: S Mercury → J Mercury RA 30.9808 31 whole (0.17) — also: 5 Aced It / Jack Mitchell
     - source line: S Jupiter → Mercury Dec 11.0015 11 whole (85.59)
@@ -1602,14 +1223,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
   - star rows: J Vindemiatrix → J Mercury RA 75.9875 76 whole (14.23) — only
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - star rows: J Zosma → J Mercury RA 103.0023 103 whole (77.97) — also: 3 Wise Eagle / Graham Lee
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **Haumea**
   - star rows: J Algorab → J Haumea RA 7.9848 8 whole (5.69) — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
   - star rows: J Mirach → J Haumea RA 178.0116 178 whole (17.75) — also: 3 Wise Eagle / Graham Lee
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
   - star rows: J Vindemiatrix → J Haumea RA 0.0927 conj (88.02) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
+    - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
+- **Sedna**
+  - star rows: J Vindemiatrix → J Sedna RA 149.9923 150 whole (38.07) — also: 6 Resumption / Tom Marquand
+    - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
+- **Gonggong**
+  - star rows: J Vindemiatrix → J Gonggong Dec 29.0186 29 whole (0.49) — also: 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
 
 ## 5 Aced It / Jack Mitchell
@@ -1630,14 +1255,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - sky line to Mercury: S Jupiter → Mercury Dec 11.0015 11 whole (85.59)
   - star rows: H Alkaid → H Mercury RA 166.9844 167 whole (4.92)
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
-  - star rows: H Difda → H Mercury RA 2.9833 3 whole (2.70)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: H Sadalsuud → H Mercury RA 50.9901 51 whole (25.72)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
   - star rows: H Sadalsuud → H Mercury Dec 11.0180 11 whole (0.99)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - other chart, star rows: J Difda → J Mercury Dec 5.9990 6 whole (90.40)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
 - **H Mars** (same body: S Mars → H Mars RA 42.3847 10×φ^3 phi power (loose))
   - star rows: H Algorab → H Mars Dec 3.9818 4 whole (0.80)
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
@@ -1645,10 +1266,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
   - other chart, star rows: J Vindemiatrix → J Mars RA 179.0198 179 whole (0.01)
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - other chart, star rows: J Zosma → J Mars RA 152.0042 152 whole (62.26)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
-  - other chart, star rows: J Zosma → J Mars Dec 13.0155 13 whole (5.05)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **H Pluto** (same body: S Pluto → H Pluto RA 11.1275 11.1111 ninth (loose))
   - star rows: H Fomalhaut → H Pluto RA 56.0105 56 whole (22.34)
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
@@ -1659,8 +1276,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
   - other chart, star rows: J Vindemiatrix → J Pallas RA 121.0013 121 whole (87.19)
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - other chart, star rows: J Zosma → J Pallas RA 148.0169 148 whole (2.39)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **J Saturn** (same body: S Saturn → J Saturn RA 44.0121 44 whole (15.59))
   - sky line to Saturn: S Jupiter → Saturn Dec 7.9992 8 whole (92.07)
   - star rows: J Fomalhaut → J Saturn Dec 7.0082 7 whole (34.85)
@@ -1676,15 +1291,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
   - star rows: J Mirach → J Makemake Dec 0.1624 conj (21.04)
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
-  - star rows: J Zosma → J Makemake RA 0.5029 conj (44.19)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 16.1728 10×φ^1 phi power (loose))
-  - star rows: J Difda → J Orcus RA 118.1316 73×φ golden (28.38)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - other chart, star rows: H Alkaid → H Orcus RA 56.0122 56 whole (15.20)
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
-  - other chart, star rows: H Difda → H Orcus RA 139.9866 140 whole (11.04)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - other chart, star rows: H Sadalsuud → H Orcus RA 172.0065 172 whole (45.58)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
 ### L3 matches
@@ -1697,16 +1306,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Jupiter → H Ceres Dec 16.9994 17 whole (94.44) = S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
   - 11 whole — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - H Sadalsuud → H Mercury Dec 11.0180 11 whole (0.99) = S Jupiter → Mercury Dec 11.0015 11 whole (85.59)
-  - 15 whole — also: 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
-    - H Vindemiatrix → H Juno Dec 14.9847 15 whole (5.61) = S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
-  - 15 whole — also: 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
-    - J Alphard → J Uranus Dec 14.9908 15 whole (28.99) = S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
-  - 6 whole — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee
-    - J Difda → J Mercury Dec 5.9990 6 whole (90.40) = S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - 17 whole — only
-    - J Difda → J Juno Dec 17.0095 17 whole (27.43) = S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
-  - 133.333 ninth — also: 4 Onesmoothoperator / Harry Russell
-    - J Difda → J Transpluto RA 133.3345 133.333 ninth (99.86) = S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
   - 17 whole — only
     - J Mirach → J Jupiter Dec 16.9837 17 whole (3.51) = S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
 - **4. circle divisions**
@@ -1714,61 +1313,34 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Algorab → H Mars Dec 3.9818 4 whole (0.80)
   - 4 = 360/90 — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - H Alphard → H Gonggong Dec 3.9910 4 whole (29.99)
-  - 3 = 360/120 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
-    - H Difda → H Mercury RA 2.9833 3 whole (2.70)
   - 10 = 360/36 — also: 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - H Sadalsuud → H Quaoar Dec 9.9866 10 whole (10.81)
-  - 12 = 360/30 — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell
-    - H Unukalhai → H Juno RA 11.9913 12 whole (32.08)
   - 4 = 360/90 — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
     - H Vindemiatrix → H Pallas Dec 3.9868 4 whole (11.66)
-  - 15 = 360/24 — also: 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
+  - 15 = 360/24 — also: 6 Resumption / Tom Marquand
     - H Vindemiatrix → H Juno Dec 14.9847 15 whole (5.61)
-  - 3 = 360/120 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
-    - H Zosma → H Haumea Dec 2.9867 3 whole (11.20)
-  - 20 = 360/18 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+  - 20 = 360/18 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
     - S Eris → J Jupiter Dec 19.9964 20 whole (66.88)
-  - 15 = 360/24 — also: 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
+  - 15 = 360/24 — also: 6 Resumption / Tom Marquand
     - J Alphard → J Uranus Dec 14.9908 15 whole (28.99)
-  - 6 = 360/60 — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee
-    - J Difda → J Mercury Dec 5.9990 6 whole (90.40)
-  - 9 = 360/40 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning
+  - 9 = 360/40 — also: 1 Sir Chauvelin / Paul Mulrennan
     - J Fomalhaut → J Gonggong Dec 9.0178 9 whole (1.25)
-  - 20 = 360/18 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+  - 20 = 360/18 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
     - J Vindemiatrix → J Rahu Dec 19.9914 20 whole (32.49)
-  - 4 = 360/90 — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
-    - J Zosma → J Chiron Dec 3.9964 4 whole (67.32)
 - **5. same number in more than one place**
   - 10×φ^1 phi power — only
     - S Sun → H Sun Dec 16.1920 10×φ^1 phi power (loose)
     - S Orcus → J Orcus Dec 16.1728 10×φ^1 phi power (loose)
-  - 11.1111 ninth — also: 6 Resumption / Tom Marquand
-    - S Pluto → H Pluto RA 11.1275 11.1111 ninth (loose)
-    - H Unukalhai → H Haumea Dec 11.1118 11.1111 ninth (98.88)
-  - 16 whole — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
-    - S Pallas → H Pallas Dec 15.9935 16 whole (45.24)
-    - H Zosma → H Transpluto RA 16.0081 16 whole (35.32)
   - 17 whole — only
     - H Jupiter → H Ceres Dec 16.9994 17 whole (94.44)
-    - J Difda → J Juno Dec 17.0095 17 whole (27.43)
     - J Mirach → J Jupiter Dec 16.9837 17 whole (3.51)
-  - 109×φ golden — only
-    - S Sun → H Transpluto RA 176.3635 109×φ golden (86.69)
-    - H Zosma → H Venus RA 176.3488 109×φ golden (22.75)
-  - 4 whole — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
+  - 4 whole — only
     - H Algorab → H Mars Dec 3.9818 4 whole (0.80)
     - H Alphard → H Gonggong Dec 3.9910 4 whole (29.99)
     - H Vindemiatrix → H Pallas Dec 3.9868 4 whole (11.66)
-    - J Zosma → J Chiron Dec 3.9964 4 whole (67.32)
   - 56 whole — only
     - H Alkaid → H Orcus RA 56.0122 56 whole (15.20)
     - H Fomalhaut → H Pluto RA 56.0105 56 whole (22.34)
-  - 3 whole — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
-    - H Difda → H Mercury RA 2.9833 3 whole (2.70)
-    - H Zosma → H Haumea Dec 2.9867 3 whole (11.20)
-  - 22 whole — also: 6 Resumption / Tom Marquand
-    - H Unukalhai → H Quaoar Dec 21.9828 22 whole (2.02)
-    - J Vindemiatrix → J Ceres Dec 22.0011 22 whole (89.58)
   - 15 whole — only
     - H Vindemiatrix → H Juno Dec 14.9847 15 whole (5.61)
     - J Alphard → J Uranus Dec 14.9908 15 whole (28.99)
@@ -1785,14 +1357,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Mercury Dec 11.0015 11 whole (85.59)
   - star rows: H Alkaid → H Mercury RA 166.9844 167 whole (4.92) — only
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
-  - star rows: H Difda → H Mercury RA 2.9833 3 whole (2.70) — also: 2 Alba Rose / Joe Fanning
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: H Sadalsuud → H Mercury RA 50.9901 51 whole (25.72) — also: 2 Alba Rose / Joe Fanning
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
   - star rows: H Sadalsuud → H Mercury Dec 11.0180 11 whole (0.99) — also: 2 Alba Rose / Joe Fanning
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: J Difda → J Mercury Dec 5.9990 6 whole (90.40) — also: 2 Alba Rose / Joe Fanning
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
 - **Mars**
   - same body: S Mars → H Mars RA 42.3847 10×φ^3 phi power (loose) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
   - star rows: H Algorab → H Mars Dec 3.9818 4 whole (0.80) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
@@ -1801,10 +1369,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
   - star rows: J Vindemiatrix → J Mars RA 179.0198 179 whole (0.01) — only
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - star rows: J Zosma → J Mars RA 152.0042 152 whole (62.26) — also: 6 Resumption / Tom Marquand
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
-  - star rows: J Zosma → J Mars Dec 13.0155 13 whole (5.05) — also: 6 Resumption / Tom Marquand
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **Pluto**
   - same body: S Pluto → H Pluto RA 11.1275 11.1111 ninth (loose) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
   - star rows: H Fomalhaut → H Pluto RA 56.0105 56 whole (22.34) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
@@ -1817,8 +1381,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
   - star rows: J Vindemiatrix → J Pallas RA 121.0013 121 whole (87.19) — also: 1 Sir Chauvelin / Paul Mulrennan
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - star rows: J Zosma → J Pallas RA 148.0169 148 whole (2.39) — also: 6 Resumption / Tom Marquand
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **Uranus**
   - T1: H Jupiter → H Uranus Dec 0.0276 conj (82.47) — only
   - star rows: H Mirach → H Uranus RA 0.8688 conj (17.70) — also: 6 Resumption / Tom Marquand
@@ -1841,8 +1403,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Alphard → H Gonggong Dec 3.9910 4 whole (29.99) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
   - top rows: S Sun → J Gonggong RA 0.3309 conj (60.74) — also: 3 Wise Eagle / Graham Lee
-  - star rows: J Difda → J Gonggong Dec 2.6181 φ^2 phi power (99.31) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: J Fomalhaut → J Gonggong Dec 9.0178 9 whole (1.25) — only
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
   - star rows: J Vindemiatrix → J Gonggong RA 133.0134 133 whole (11.04) — also: 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
@@ -1851,29 +1411,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Sun → H Transpluto RA 176.3635 109×φ golden (86.69) — only
   - star rows: H Alkaid → H Transpluto Dec 37.9989 38 whole (88.97) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
-  - star rows: H Zosma → H Transpluto RA 16.0081 16 whole (35.32) — only
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
-  - star rows: J Difda → J Transpluto RA 133.3345 133.333 ninth (99.86) — also: 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
 - **Venus**
   - top rows: S Moon → H Venus RA 147.2378 91×φ golden (80.77) — only
-  - star rows: H Zosma → H Venus RA 176.3488 109×φ golden (22.75) — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **Eris**
   - star rows: H Alkaid → H Eris Dec 52.0110 52 whole (20.20) — also: 1 Sir Chauvelin / Paul Mulrennan
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
-  - star rows: J Unukalhai → J Eris RA 145.6299 90×φ golden (62.02) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 - **Orcus**
   - star rows: H Alkaid → H Orcus RA 56.0122 56 whole (15.20) — only
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
-  - star rows: H Difda → H Orcus RA 139.9866 140 whole (11.04) — only
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: H Sadalsuud → H Orcus RA 172.0065 172 whole (45.58) — also: 4 Onesmoothoperator / Harry Russell
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
   - same body: S Orcus → J Orcus Dec 16.1728 10×φ^1 phi power (loose) — also: 2 Alba Rose / Joe Fanning
-  - star rows: J Difda → J Orcus RA 118.1316 73×φ golden (28.38) — only
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
 - **Saturn**
   - star rows: H Alphard → H Saturn RA 113.2694 70×φ golden (61.52) — also: 6 Resumption / Tom Marquand
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
@@ -1891,67 +1439,41 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Quaoar**
   - star rows: H Sadalsuud → H Quaoar Dec 9.9866 10 whole (10.81) — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: H Unukalhai → H Quaoar Dec 21.9828 22 whole (2.02) — also: 4 Onesmoothoperator / Harry Russell
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
   - star rows: J Deneb → J Quaoar RA 76.9874 77 whole (13.55) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
-  - star rows: J Difda → J Quaoar RA 137.5332 85×φ golden (97.81) — also: 2 Alba Rose / Joe Fanning
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
-  - star rows: J Zosma → J Quaoar Dec 34.0076 34 whole (38.67) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
-- **Chiron**
-  - star rows: H Unukalhai → H Chiron RA 114.8853 71×φ golden (71.96) — also: 2 Alba Rose / Joe Fanning
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
-  - star rows: J Algorab → J Chiron RA 93.0051 93 whole (55.38) — only
-    - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
-  - star rows: J Fomalhaut → J Chiron RA 110.0523 68×φ golden (3.83) — only
-    - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
-  - star rows: J Zosma → J Chiron Dec 3.9964 4 whole (67.32) — only
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **Juno**
-  - star rows: H Unukalhai → H Juno RA 11.9913 12 whole (32.08) — only
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
   - star rows: H Vindemiatrix → H Juno Dec 14.9847 15 whole (5.61) — only
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - star rows: J Difda → J Juno Dec 17.0095 17 whole (27.43) — also: 3 Wise Eagle / Graham Lee
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: J Vindemiatrix → J Juno RA 36.9883 37 whole (17.41) — only
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-- **Haumea**
-  - star rows: H Unukalhai → H Haumea Dec 11.1118 11.1111 ninth (98.88) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
-  - star rows: H Zosma → H Haumea Dec 2.9867 3 whole (11.20) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
-  - star rows: J Algorab → J Haumea RA 0.0916 conj (88.16) — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
-    - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
-  - star rows: J Deneb → J Haumea RA 122.9763 φ^10 phi power (95.01) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee
-    - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
-- **Jupiter**
-  - star rows: S Zosma → H Jupiter RA 1.3330 conj (1.24) — also: 4 Onesmoothoperator / Harry Russell
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
-  - top rows: S Neptune → J Jupiter Dec 22.9953 23 whole (58.47) — also: 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
-  - top rows: S Rahu → J Jupiter RA 0.5381 conj (41.12) — also: 1 Sir Chauvelin / Paul Mulrennan
-  - top rows: S Eris → J Jupiter Dec 19.9964 20 whole (66.88) — also: 4 Onesmoothoperator / Harry Russell
-    - source line: S Sun → Eris RA 56.9934 57 whole (44.79)
-  - top rows: S Ketu → J Jupiter RA 179.4619 10×φ^6 phi power (95.77) — only
-  - star rows: J Mirach → J Jupiter Dec 16.9837 17 whole (3.51) — also: 3 Wise Eagle / Graham Lee
-    - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
 - **Makemake**
   - same body: S Makemake → J Makemake Dec 13.2552 13.3333 ninth (loose) — also: 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
   - star rows: J Alphard → J Makemake Dec 44.4447 44.4444 ninth (99.74) — only
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
   - star rows: J Mirach → J Makemake Dec 0.1624 conj (21.04) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
-  - star rows: J Zosma → J Makemake RA 0.5029 conj (44.19) — also: 1 Sir Chauvelin / Paul Mulrennan, 6 Resumption / Tom Marquand
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
+- **Jupiter**
+  - top rows: S Neptune → J Jupiter Dec 22.9953 23 whole (58.47) — also: 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+  - top rows: S Rahu → J Jupiter RA 0.5381 conj (41.12) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - top rows: S Eris → J Jupiter Dec 19.9964 20 whole (66.88) — also: 4 Onesmoothoperator / Harry Russell
+  - top rows: S Ketu → J Jupiter RA 179.4619 10×φ^6 phi power (95.77) — only
+  - star rows: J Mirach → J Jupiter Dec 16.9837 17 whole (3.51) — also: 3 Wise Eagle / Graham Lee
+    - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
+- **Chiron**
+  - star rows: J Algorab → J Chiron RA 93.0051 93 whole (55.38) — only
+    - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
+  - star rows: J Fomalhaut → J Chiron RA 110.0523 68×φ golden (3.83) — only
+    - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
+- **Haumea**
+  - star rows: J Algorab → J Haumea RA 0.0916 conj (88.16) — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
+    - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
+  - star rows: J Deneb → J Haumea RA 122.9763 φ^10 phi power (95.01) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee
+    - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
 - **Rahu**
   - star rows: J Alphard → J Rahu RA 163.4122 101×φ golden (51.29) — only
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
   - star rows: J Vindemiatrix → J Rahu Dec 19.9914 20 whole (32.49) — also: 3 Wise Eagle / Graham Lee
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-- **Sedna**
-  - star rows: J Unukalhai → J Sedna RA 164.9959 165 whole (63.05) — also: 1 Sir Chauvelin / Paul Mulrennan, 6 Resumption / Tom Marquand
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 
 ## 6 Resumption / Tom Marquand
 ### L1 same bodies
@@ -1976,16 +1498,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
   - star rows: H Mirach → H Mars RA 78.9803 79 whole (0.03)
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
-  - star rows: H Zosma → H Mars Dec 43.0018 43 whole (82.51)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - other chart, star rows: J Algorab → J Mars RA 169.0011 169 whole (88.93)
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
   - other chart, star rows: J Fomalhaut → J Mars Dec 36.9867 37 whole (11.18)
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
   - other chart, star rows: J Mirach → J Mars RA 1.0439 conj (9.25)
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
-  - other chart, star rows: J Unukalhai → J Mars RA 142.3999 88×φ golden (36.00)
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 - **H Uranus** (same body: S Uranus → H Uranus RA 11.1185 11.1111 ninth (87.87); S Uranus → H Uranus Dec 3.9800 4 whole (0.00))
   - star rows: H Alkaid → H Uranus RA 179.4554 10×φ^6 phi power (97.20)
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
@@ -1997,8 +1515,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
   - other chart, star rows: J Deneb → J Uranus Dec 63.1096 39×φ golden (65.21)
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
-  - other chart, star rows: J Difda → J Uranus Dec 0.1548 conj (23.41)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
 - **H Chiron** (same body: S Chiron → H Chiron Dec 2.2152 2.22222 ninth (loose))
   - other chart, same body: S Chiron → J Chiron RA 141.8027 141.4 sqrt2 (loose)
   - other chart, same body: S Chiron → J Chiron Dec 21.0149 21 whole (6.59)
@@ -2009,8 +1525,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Ketu** (same body: S Ketu → H Ketu Dec 1.5597 1.55556 ninth (loose))
   - star rows: H Deneb → H Ketu RA 1.4702 conj (0.04)
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
-  - star rows: H Difda → H Ketu Dec 0.0853 conj (51.19)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - other chart, top rows: S Jupiter → J Ketu RA 0.4417 conj (49.78)
   - other chart, top rows: S Moon → J Ketu Dec 27.9950 28 whole (56.35)
   - other chart, star rows: J Deneb → J Ketu Dec 52.9881 53 whole (16.33)
@@ -2023,13 +1537,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
   - star rows: S Sadalsuud → J Jupiter Dec 2.0182 2 whole (0.80)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: J Unukalhai → J Jupiter Dec 14.0143 14 whole (8.17)
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
   - other chart, star rows: S Vindemiatrix → H Jupiter Dec 27.0119 27 whole (16.53)
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
 - **J Pluto** (same body: S Pluto → J Pluto Dec 13.0192 13 whole (0.15))
-  - star rows: J Zosma → J Pluto Dec 30.0037 30 whole (66.76)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - other chart, star rows: H Algorab → H Pluto RA 105.1699 65×φ golden (86.24)
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
   - other chart, star rows: H Algorab → H Pluto Dec 5.0149 5 whole (6.54)
@@ -2041,13 +1551,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Sedna** (same body: S Sedna → J Sedna Dec 3.0300 3 whole (loose))
   - star rows: J Vindemiatrix → J Sedna RA 149.9979 150 whole (79.75)
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - star rows: J Zosma → J Sedna RA 122.9805 φ^10 phi power (96.33)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
-  - other chart, star rows: H Unukalhai → H Sedna RA 179.4770 10×φ^6 phi power (92.50)
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 - **J Makemake** (same body: S Makemake → J Makemake RA 21.9820 22 whole (1.04); S Makemake → J Makemake Dec 10.9750 11 whole (loose))
-  - star rows: J Zosma → J Makemake Dec 12.9838 13 whole (3.53)
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - other chart, star rows: H Vindemiatrix → H Makemake RA 0.7783 conj (23.15)
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
   - other chart, star rows: H Vindemiatrix → H Makemake Dec 14.0050 14 whole (56.07)
@@ -2055,14 +1559,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Transpluto** (same body: S Transpluto → J Transpluto Dec 2.9756 3 whole (loose))
   - star rows: J Sadalsuud → J Transpluto Dec 19.0083 19 whole (34.02)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: J Unukalhai → J Transpluto Dec 7.0123 7 whole (14.70)
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
   - star rows: J Vindemiatrix → J Transpluto RA 48.9803 49 whole (0.03)
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
   - other chart, star rows: H Alphard → H Transpluto RA 11.0948 φ^5 phi power (83.89)
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - other chart, star rows: H Difda → H Transpluto Dec 29.1249 18×φ golden (98.53)
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - other chart, star rows: H Sadalsuud → H Transpluto RA 169.8974 105×φ golden (77.47)
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
   - other chart, star rows: H Vindemiatrix → H Transpluto Dec 0.1796 conj (16.09)
@@ -2084,49 +1584,41 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Makemake → J Makemake RA 21.9820 22 whole (1.04)
     - S Makemake → J Makemake Dec 10.9750 11 whole (loose)
 - **3. runner number = sky number**
-  - 5 whole — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
-    - H Algorab → H Pluto Dec 5.0149 5 whole (6.54) = S Moon → Haumea Dec 4.9929 5 whole (41.61)
-  - 141.4 sqrt2 — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee
+  - 141.4 sqrt2 — also: 1 Sir Chauvelin / Paul Mulrennan
     - S Chiron → J Chiron RA 141.8027 141.4 sqrt2 (loose) = S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
   - 11 whole — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
     - S Makemake → J Makemake Dec 10.9750 11 whole (loose) = S Jupiter → Mercury Dec 11.0015 11 whole (85.59)
-  - 15 whole — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
-    - J Alphard → J Saturn Dec 14.9967 15 whole (69.40) = S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
-  - 5 whole — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
-    - J Sadalsuud → J Ceres Dec 5.0141 5 whole (8.64) = S Moon → Haumea Dec 4.9929 5 whole (41.61)
 - **4. circle divisions**
   - 4 = 360/90 — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
     - S Uranus → H Uranus Dec 3.9800 4 whole (0.00)
   - 5 = 360/72 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
     - H Algorab → H Pluto Dec 5.0149 5 whole (6.54)
-  - 20 = 360/18 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
+  - 20 = 360/18 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
     - H Fomalhaut → H Orcus Dec 19.9879 20 whole (15.51)
   - 10 = 360/36 — also: 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
     - H Mirach → H Uranus RA 10.0080 10 whole (35.73)
   - 1 = 360/360 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
     - S Jupiter → J Jupiter Dec 0.9913 1 whole (31.77)
-  - 3 = 360/120 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
+  - 3 = 360/120 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
     - S Sedna → J Sedna Dec 3.0300 3 whole (loose)
-  - 3 = 360/120 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
+  - 3 = 360/120 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
     - S Transpluto → J Transpluto Dec 2.9756 3 whole (loose)
-  - 20 = 360/18 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
+  - 20 = 360/18 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
     - J Alphard → J Mercury Dec 20.0089 20 whole (30.70)
-  - 15 = 360/24 — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
+  - 15 = 360/24 — also: 5 Aced It / Jack Mitchell
     - J Alphard → J Saturn Dec 14.9967 15 whole (69.40)
-  - 2 = 360/180 — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee
+  - 2 = 360/180 — also: 3 Wise Eagle / Graham Lee
     - S Sadalsuud → J Jupiter Dec 2.0182 2 whole (0.80)
   - 5 = 360/72 — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
     - J Sadalsuud → J Ceres Dec 5.0141 5 whole (8.64)
-  - 30 = 360/12 — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell
-    - J Zosma → J Pluto Dec 30.0037 30 whole (66.76)
 - **5. same number in more than one place**
-  - 11.1111 ninth — also: 5 Aced It / Jack Mitchell
+  - 11.1111 ninth — only
     - S Mars → H Mars RA 11.1067 11.1111 ninth (loose)
     - S Uranus → H Uranus RA 11.1185 11.1111 ninth (87.87)
   - 1.55556 ninth — only
     - S Rahu → H Rahu Dec 1.5597 1.55556 ninth (loose)
     - S Ketu → H Ketu Dec 1.5597 1.55556 ninth (loose)
-  - 22 whole — also: 5 Aced It / Jack Mitchell
+  - 22 whole — only
     - H Algorab → H Mercury Dec 21.9917 22 whole (34.04)
     - S Makemake → J Makemake RA 21.9820 22 whole (1.04)
   - 10×φ^5 phi power — only
@@ -2135,33 +1627,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 65×φ golden — only
     - H Algorab → H Pluto RA 105.1699 65×φ golden (86.24)
     - H Algorab → H Pallas RA 105.1449 65×φ golden (2.48)
-  - 5 whole — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning
+  - 5 whole — also: 1 Sir Chauvelin / Paul Mulrennan
     - H Algorab → H Pluto Dec 5.0149 5 whole (6.54)
     - J Sadalsuud → J Ceres Dec 5.0141 5 whole (8.64)
-  - 10×φ^6 phi power — only
-    - H Alkaid → H Uranus RA 179.4554 10×φ^6 phi power (97.20)
-    - H Unukalhai → H Sedna RA 179.4770 10×φ^6 phi power (92.50)
   - 20 whole — also: 5 Aced It / Jack Mitchell
     - H Fomalhaut → H Orcus Dec 19.9879 20 whole (15.51)
     - J Alphard → J Mercury Dec 20.0089 20 whole (30.70)
-  - 150 whole — only
-    - H Unukalhai → H Eris RA 149.9913 150 whole (32.11)
-    - J Vindemiatrix → J Sedna RA 149.9979 150 whole (79.75)
-  - 27 whole — only
-    - S Vindemiatrix → H Jupiter Dec 27.0119 27 whole (16.53)
-    - H Zosma → H Neptune Dec 26.9978 27 whole (78.80)
   - 13 whole — also: 4 Onesmoothoperator / Harry Russell
     - H Vindemiatrix → H Eris Dec 12.9839 13 whole (3.85)
     - S Pluto → J Pluto Dec 13.0192 13 whole (0.15)
-    - J Zosma → J Makemake Dec 12.9838 13 whole (3.53)
-  - 14 whole — also: 1 Sir Chauvelin / Paul Mulrennan
-    - H Vindemiatrix → H Makemake Dec 14.0050 14 whole (56.07)
-    - J Unukalhai → J Jupiter Dec 14.0143 14 whole (8.17)
-  - 7 whole — also: 4 Onesmoothoperator / Harry Russell
-    - H Zosma → H Ceres Dec 7.0114 7 whole (18.69)
-    - J Unukalhai → J Ceres Dec 6.9819 7 whole (0.88)
-    - J Unukalhai → J Transpluto Dec 7.0123 7 whole (14.70)
-  - 3 whole — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
+  - 3 whole — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell
     - S Sedna → J Sedna Dec 3.0300 3 whole (loose)
     - S Transpluto → J Transpluto Dec 2.9756 3 whole (loose)
   - 166.667 ninth — also: 3 Wise Eagle / Graham Lee
@@ -2177,16 +1652,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
   - star rows: H Mirach → H Mars RA 78.9803 79 whole (0.03) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
-  - star rows: H Zosma → H Mars Dec 43.0018 43 whole (82.51) — also: 5 Aced It / Jack Mitchell
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - star rows: J Algorab → J Mars RA 169.0011 169 whole (88.93) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
   - star rows: J Fomalhaut → J Mars Dec 36.9867 37 whole (11.18) — also: 2 Alba Rose / Joe Fanning
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
   - star rows: J Mirach → J Mars RA 1.0439 conj (9.25) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
-  - star rows: J Unukalhai → J Mars RA 142.3999 88×φ golden (36.00) — only
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 - **Uranus**
   - same body: S Uranus → H Uranus RA 11.1185 11.1111 ninth (87.87) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
   - same body: S Uranus → H Uranus Dec 3.9800 4 whole (0.00) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
@@ -2200,8 +1671,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
   - star rows: J Deneb → J Uranus Dec 63.1096 39×φ golden (65.21) — only
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
-  - star rows: J Difda → J Uranus Dec 0.1548 conj (23.41) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
 - **Chiron**
   - same body: S Chiron → H Chiron Dec 2.2152 2.22222 ninth (loose) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
   - same body: S Chiron → J Chiron RA 141.8027 141.4 sqrt2 (loose) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
@@ -2216,22 +1685,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Ketu → H Ketu Dec 1.5597 1.55556 ninth (loose) — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
   - star rows: H Deneb → H Ketu RA 1.4702 conj (0.04) — also: 4 Onesmoothoperator / Harry Russell
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
-  - star rows: H Difda → H Ketu Dec 0.0853 conj (51.19) — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - top rows: S Jupiter → J Ketu RA 0.4417 conj (49.78) — also: 2 Alba Rose / Joe Fanning
   - top rows: S Moon → J Ketu Dec 27.9950 28 whole (56.35) — only
   - star rows: J Deneb → J Ketu Dec 52.9881 53 whole (16.33) — also: 4 Onesmoothoperator / Harry Russell
     - source line: S Moon → Deneb Dec 24.9956 25 whole (61.08)
 - **Ceres**
   - top rows: S Jupiter → H Ceres RA 155.5233 155.556 ninth (96.94) — also: 4 Onesmoothoperator / Harry Russell
-  - star rows: H Zosma → H Ceres Dec 7.0114 7 whole (18.69) — only
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
   - star rows: J Mirach → J Ceres RA 0.7241 conj (26.75) — only
     - source line: S Sun → Mirach RA 48.5421 30×φ golden (93.32)
   - star rows: J Sadalsuud → J Ceres Dec 5.0141 5 whole (8.64) — also: 4 Onesmoothoperator / Harry Russell
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: J Unukalhai → J Ceres Dec 6.9819 7 whole (0.88) — only
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
 - **Mercury**
   - star rows: H Algorab → H Mercury Dec 21.9917 22 whole (34.04) — only
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
@@ -2249,27 +1712,19 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Fomalhaut → H Pluto RA 51.7729 32×φ golden (75.61) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
   - same body: S Pluto → J Pluto Dec 13.0192 13 whole (0.15) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
-  - star rows: J Zosma → J Pluto Dec 30.0037 30 whole (66.76) — also: 2 Alba Rose / Joe Fanning
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **Pallas**
   - star rows: H Algorab → H Pallas RA 105.1449 65×φ golden (2.48) — also: 3 Wise Eagle / Graham Lee
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
   - star rows: H Alkaid → H Pallas RA 124.5676 77×φ golden (12.38) — also: 4 Onesmoothoperator / Harry Russell
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
-  - star rows: H Zosma → H Pallas Dec 22.6567 14×φ golden (75.82) — also: 5 Aced It / Jack Mitchell
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **Vesta**
   - star rows: H Alkaid → H Vesta Dec 67.0026 67 whole (76.11) — only
     - source line: S Sun → Alkaid RA 122.0006 122 whole (93.98)
-  - star rows: H Difda → H Vesta Dec 0.2980 conj (0.00) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: J Sadalsuud → J Vesta RA 84.1385 52×φ golden (95.29) — only
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
 - **Transpluto**
   - star rows: H Alphard → H Transpluto RA 11.0948 φ^5 phi power (83.89) — also: 1 Sir Chauvelin / Paul Mulrennan
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - star rows: H Difda → H Transpluto Dec 29.1249 18×φ golden (98.53) — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
-    - source line: S Sun → Difda RA 42.0067 42 whole (44.12)
   - star rows: H Sadalsuud → H Transpluto RA 169.8974 105×φ golden (77.47) — only
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
   - star rows: H Vindemiatrix → H Transpluto Dec 0.1796 conj (16.09) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
@@ -2277,8 +1732,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Transpluto → J Transpluto Dec 2.9756 3 whole (loose) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell
   - star rows: J Sadalsuud → J Transpluto Dec 19.0083 19 whole (34.02) — only
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: J Unukalhai → J Transpluto Dec 7.0123 7 whole (14.70) — only
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
   - star rows: J Vindemiatrix → J Transpluto RA 48.9803 49 whole (0.03) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
 - **Orcus**
@@ -2306,31 +1759,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Jupiter → J Haumea RA 147.2361 91×φ golden (71.47) — only
   - star rows: J Vindemiatrix → J Haumea RA 0.5457 conj (40.48) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-- **Neptune**
-  - star rows: H Unukalhai → H Neptune RA 111.1805 111.111 ninth (88.65) — also: 2 Alba Rose / Joe Fanning
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
-  - star rows: H Zosma → H Neptune Dec 26.9978 27 whole (78.80) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
-  - star rows: J Unukalhai → J Neptune RA 67.9546 42×φ golden (83.50) — also: 2 Alba Rose / Joe Fanning
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
-- **Eris**
-  - star rows: H Unukalhai → H Eris RA 149.9913 150 whole (32.11) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
-  - star rows: H Vindemiatrix → H Eris Dec 12.9839 13 whole (3.85) — also: 3 Wise Eagle / Graham Lee
-    - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-- **Sedna**
-  - star rows: H Unukalhai → H Sedna RA 179.4770 10×φ^6 phi power (92.50) — also: 1 Sir Chauvelin / Paul Mulrennan, 5 Aced It / Jack Mitchell
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
-  - same body: S Sedna → J Sedna Dec 3.0300 3 whole (loose) — only
-  - star rows: J Vindemiatrix → J Sedna RA 149.9979 150 whole (79.75) — also: 4 Onesmoothoperator / Harry Russell
-    - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
-  - star rows: J Zosma → J Sedna RA 122.9805 φ^10 phi power (96.33) — also: 4 Onesmoothoperator / Harry Russell
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **Jupiter**
   - star rows: S Vindemiatrix → H Jupiter Dec 27.0119 27 whole (16.53) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
   - same body: S Jupiter → J Jupiter Dec 0.9913 1 whole (31.77) — also: 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
-  - T2: J Jupiter → J star Fomalhaut RA 0.1648 conj (79.24) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee
+  - T2: J Jupiter → J star Fomalhaut RA 0.1648 conj (79.24) — also: 3 Wise Eagle / Graham Lee
   - top rows: S Mercury → J Jupiter RA 42.0624 26×φ golden (63.75) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee
     - source line: S Jupiter → Mercury Dec 11.0015 11 whole (85.59)
   - top rows: S Neptune → J Jupiter Dec 3.2362 2×φ golden (98.97) — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
@@ -2338,8 +1771,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Fomalhaut Dec 16.9988 17 whole (88.65)
   - star rows: S Sadalsuud → J Jupiter Dec 2.0182 2 whole (0.80) — also: 3 Wise Eagle / Graham Lee
     - source line: S Sun → Sadalsuud RA 6.0040 6 whole (64.38)
-  - star rows: J Unukalhai → J Jupiter Dec 14.0143 14 whole (8.17) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
+- **Eris**
+  - star rows: H Vindemiatrix → H Eris Dec 12.9839 13 whole (3.85) — also: 3 Wise Eagle / Graham Lee
+    - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
 - **Makemake**
   - star rows: H Vindemiatrix → H Makemake RA 0.7783 conj (23.15) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
@@ -2347,8 +1781,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
   - same body: S Makemake → J Makemake RA 21.9820 22 whole (1.04) — also: 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell
   - same body: S Makemake → J Makemake Dec 10.9750 11 whole (loose) — also: 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell
-  - star rows: J Zosma → J Makemake Dec 12.9838 13 whole (3.53) — also: 1 Sir Chauvelin / Paul Mulrennan, 5 Aced It / Jack Mitchell
-    - source line: S Moon → Zosma Dec 0.2378 conj (4.30)
 - **Gonggong**
   - star rows: H Vindemiatrix → H Gonggong Dec 22.9857 23 whole (8.19) — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
@@ -2356,12 +1788,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
   - star rows: J Alphard → J Gonggong RA 169.9812 170 whole (0.35) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
+- **Sedna**
+  - same body: S Sedna → J Sedna Dec 3.0300 3 whole (loose) — only
+  - star rows: J Vindemiatrix → J Sedna RA 149.9979 150 whole (79.75) — also: 4 Onesmoothoperator / Harry Russell
+    - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)
 - **Saturn**
   - star rows: J Algorab → J Saturn RA 166.6530 166.667 ninth (98.83) — only
     - source line: S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49)
   - star rows: J Alphard → J Saturn Dec 14.9967 15 whole (69.40) — also: 5 Aced It / Jack Mitchell
     - source line: S Jupiter → Alphard Dec 0.0777 conj (54.91)
-  - star rows: J Unukalhai → J Saturn Dec 0.0877 conj (50.08) — also: 1 Sir Chauvelin / Paul Mulrennan
-    - source line: S Jupiter → Unukalhai Dec 15.0060 15 whole (48.97)
   - star rows: J Vindemiatrix → J Saturn RA 174.7310 108×φ golden (23.48) — also: 3 Wise Eagle / Graham Lee
     - source line: S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90)

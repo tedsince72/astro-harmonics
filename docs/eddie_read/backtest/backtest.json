@@ -2760,25 +2760,25 @@
   },
   "in_sample": {
    "races": 16,
-   "fired": 14,
-   "picks": 14,
+   "fired": 13,
+   "picks": 13,
    "winners": 6,
    "top2": 7,
-   "chance_w": 2.447619047619048,
-   "chance_2": 5.038095238095238,
+   "chance_w": 2.304761904761905,
+   "chance_2": 4.752380952380952,
    "alone": 6,
-   "missed": 8
+   "missed": 7
   },
   "all": {
    "races": 20,
-   "fired": 17,
-   "picks": 17,
+   "fired": 16,
+   "picks": 16,
    "winners": 6,
    "top2": 8,
-   "chance_w": 2.882142857142857,
-   "chance_2": 5.907142857142857,
+   "chance_w": 2.7392857142857143,
+   "chance_2": 5.621428571428571,
    "alone": 6,
-   "missed": 11
+   "missed": 10
   },
   "races": [
    {
@@ -2944,14 +2944,9 @@
     "race": "20220309_fontwell_1440",
     "ran": 7,
     "placed": 2,
-    "picks": [
-     [
-      "Grangeclare Glory",
-      4
-     ]
-    ],
+    "picks": [],
     "winner": "Royaume Uni",
-    "n_sel": 1
+    "n_sel": 0
    },
    {
     "race": "20220311_newcastle_1540",
@@ -4010,12 +4005,12 @@
   "test": {
    "races": 19,
    "fired": 19,
-   "picks": 34,
+   "picks": 39,
    "winners": 8,
-   "top2": 14,
-   "chance_w": 5.815476190476191,
-   "chance_2": 11.773809523809524,
-   "alone": 5,
+   "top2": 16,
+   "chance_w": 6.5773809523809526,
+   "chance_2": 13.29761904761905,
+   "alone": 3,
    "missed": 11
   },
   "in_sample": {
@@ -4032,12 +4027,12 @@
   "all": {
    "races": 20,
    "fired": 20,
-   "picks": 35,
+   "picks": 40,
    "winners": 9,
-   "top2": 15,
-   "chance_w": 6.015476190476191,
-   "chance_2": 12.173809523809524,
-   "alone": 6,
+   "top2": 17,
+   "chance_w": 6.777380952380953,
+   "chance_2": 13.69761904761905,
+   "alone": 4,
    "missed": 11
   },
   "races": [
@@ -4171,12 +4166,16 @@
     "placed": 2,
     "picks": [
      [
-      "Aced It",
-      3
+      "Onesmoothoperator",
+      2
+     ],
+     [
+      "Resumption",
+      5
      ]
     ],
     "winner": "Sir Chauvelin",
-    "n_sel": 1
+    "n_sel": 2
    },
    {
     "race": "20220217_leicester_1445",
@@ -4205,10 +4204,6 @@
     "placed": 2,
     "picks": [
      [
-      "Third Wind",
-      3
-     ],
-     [
       "Thomas Darby",
       5
      ],
@@ -4218,7 +4213,7 @@
      ]
     ],
     "winner": "Wholestone",
-    "n_sel": 3
+    "n_sel": 2
    },
    {
     "race": "20220223_doncaster_1600",
@@ -4256,10 +4251,6 @@
     "placed": 2,
     "picks": [
      [
-      "Breaking Waves",
-      7
-     ],
-     [
       "Royaume Uni",
       1
      ],
@@ -4273,7 +4264,7 @@
      ]
     ],
     "winner": "Royaume Uni",
-    "n_sel": 4
+    "n_sel": 3
    },
    {
     "race": "20220311_newcastle_1540",
@@ -4281,12 +4272,20 @@
     "placed": 2,
     "picks": [
      [
+      "Edmond Dantes",
+      6
+     ],
+     [
       "Peak Time",
       1
+     ],
+     [
+      "Black Opium",
+      4
      ]
     ],
     "winner": "Peak Time",
-    "n_sel": 1
+    "n_sel": 3
    },
    {
     "race": "20261106_aintree_1240",
@@ -4320,12 +4319,28 @@
     "placed": 2,
     "picks": [
      [
+      "Dedicated Hero",
+      6
+     ],
+     [
       "All In You",
       1
+     ],
+     [
+      "Lyssenko",
+      2
+     ],
+     [
+      "Star Of Guiting",
+      5
+     ],
+     [
+      "King Ulanda",
+      7
      ]
     ],
     "winner": "All In You",
-    "n_sel": 1
+    "n_sel": 5
    },
    {
     "race": "20261106_aintree_1500",

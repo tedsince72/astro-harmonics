@@ -5,7 +5,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - Regulus: S Jupiter → Regulus RA 177.9641 110×φ (15.52) separating, exact 11:20 (144.9 min ago); S Moon → Regulus Dec 14.9805 15 (0.05) separating, exact 13:39 (5.0 min ago)
 ### Sky Jupiter
 - Pallas Dec 0.077073 conj (55.22) -> toward — applying, exact 11 Jan 2022 13:45 (in 4320.1 min)
-- Gonggong Dec 0.297335 conj (0.01) -> toward — applying, exact 12 Jan 2022 18:17 (in 6032.2 min)
 ### Sky Sun
 - Menkent RA 77.777876 77.7778 ninth (99.92) <- away — separating, exact 13:44 (0.1 min ago)
 - Sadalsuud Dec 16.663727 16.6667 ninth (97.48) <- away — separating, exact 13:13 (31.0 min ago)
@@ -13,20 +12,18 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - Al Rescha Dec 24.999303 25 whole (93.15) <- away — separating, exact 13:37 (7.4 min ago)
 - Alnilam Dec 21.033309 13×φ golden (93.12) <- away — separating, exact 13:33 (11.9 min ago)
 - Venus RA 0.117139 conj (84.99) -> toward — applying, exact 15:19 (in 94.7 min)
-- Juno RA 0.966920 conj (12.63) -> toward — applying, exact 09 Jan 2022 23:33 (in 2028.9 min)
 ### Sky Moon
 - Makemake RA 166.695495 166.667 ninth (97.53) <- away — separating, exact 13:40 (4.5 min ago)
 - Arcturus RA 152.097564 94×φ golden (85.89) <- away — separating, exact 13:44 (0.4 min ago)
 - Alhena Dec 19.413210 12×φ golden (81.21) <- away — separating, exact 13:44 (0.8 min ago)
 - Meissa Dec 12.948569 8×φ golden (75.20) <- away — applying, exact 13:46 (in 1.1 min)
 - Praesepe Dec 22.996639 23 whole (69.22) <- away — separating, exact 13:44 (0.9 min ago)
-- Galactic Centre Dec 25.992784 26 whole (40.85) <- away — applying, exact 13:46 (in 1.9 min)
 - Ankaa RA 0.567689 conj (38.63) -> toward — applying, exact 15:13 (in 88.4 min)
 - Chiron RA 0.786354 conj (22.64) -> toward — applying, exact 15:47 (in 122.6 min)
 - **Hubs** (a point two centres reach): none
 - **Top line** (highest, exact within 5 min of the off): S Sun → Menkent RA 77.777876 77.7778 (99.92)
-- **Conj points**: S Jupiter conj Pallas Dec 0.0771 (55.22) applying, exact 11 Jan 2022 13:45 (in 4320.1 min); S Jupiter conj Gonggong Dec 0.2973 (0.01) applying, exact 12 Jan 2022 18:17 (in 6032.2 min); S Sun conj Venus RA 0.1171 (84.99) applying, exact 15:19 (in 94.7 min); S Sun conj Juno RA 0.9669 (12.63) applying, exact 09 Jan 2022 23:33 (in 2028.9 min); S Moon conj Chiron RA 0.7864 (22.64) applying, exact 15:47 (in 122.6 min); S Moon conj Ankaa RA 0.5677 (38.63) applying, exact 15:13 (in 88.4 min)
-- **Noted stars**: Al Rescha (Sun), Alhena (Moon), Alnilam (Sun), Ankaa (Moon), Arcturus (Moon), Galactic Centre (Moon), Meissa (Moon), Menkent (Sun), Praesepe (Moon), Sadalmelik (Sun), Sadalsuud (Sun)
+- **Conj points**: S Jupiter conj Pallas Dec 0.0771 (55.22) applying, exact 11 Jan 2022 13:45 (in 4320.1 min); S Sun conj Venus RA 0.1171 (84.99) applying, exact 15:19 (in 94.7 min); S Moon conj Chiron RA 0.7864 (22.64) applying, exact 15:47 (in 122.6 min); S Moon conj Ankaa RA 0.5677 (38.63) applying, exact 15:13 (in 88.4 min)
+- **Noted stars**: Al Rescha (Sun), Alhena (Moon), Alnilam (Sun), Ankaa (Moon), Arcturus (Moon), Meissa (Moon), Menkent (Sun), Praesepe (Moon), Sadalmelik (Sun), Sadalsuud (Sun)
 - **Strong line stars** (>= 90): Al Rescha, Alnilam, Menkent, Sadalmelik, Sadalsuud
 
 ## Flags (shapes found so far; field-checked; no ranking)
@@ -89,7 +86,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - J EXACT: S Moon → Praesepe Dec 22.996639 | J Vega Uranus RA 23.009192 23 whole (29.2)
 - J EXACT: S Moon → Praesepe Dec 22.996639 | J Zosma Transpluto RA 22.98401 23 whole (4.02)
 - J EXACT: S Moon → Praesepe Dec 22.996639 | J Aldebaran Saturn Dec 22.980252 23 whole (0.02)
-- J EXACT: S Moon → Galactic Centre Dec 25.992784 | J Zosma Mercury Dec 25.999925 26 whole (99.25)
 ### 6. T1 (horse Jupiter)
 - none
 ### 6. T2 (jockey Jupiter)
@@ -195,12 +191,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H RA midpoints: Uranus = Sedna 50.02 (far, far side)
   - J RA midpoints: Eris = Sedna 44.78 (far, far side); Jupiter = Makemake 44.58 (near, between)
   - J Dec midpoints: Vesta = Ketu 79.13 (between); Vesta = Transpluto 16.71 (between)
-- **Galactic Centre** (sky Moon)
-  - H Galactic Centre → H Quaoar RA 1.1206 conj (6.40) — also: 2 Supakalanistic
-  - H Galactic Centre → H Saturn Dec 10.0182 10 whole (0.79) [360/36] — only
-  - J Galactic Centre → J Vesta RA 174.7439 108×φ golden (77.94) — only
-  - J Galactic Centre → J Eris Dec 20.9858 21 whole (8.36) — only
-  - H RA midpoints: Neptune = Makemake 50.95 (near, between)
 - **Meissa** (sky Moon)
   - H Meissa → H Sun Dec 22.0062 22 whole (47.49) — only
   - H Meissa → H Jupiter RA 54.9887 55 whole (18.93) [same star: S Meissa 54.9860 55 whole (8.87)] — only
@@ -283,9 +273,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - H EXACT: S Moon → Alhena Dec 19.41321 | H Alphecca Venus Dec 19.41143 12×φ golden (71.6)
 - H EXACT: S Moon → Meissa Dec 12.948569 | H Praesepe Sedna Dec 12.944159 8×φ golden (99.3)
 - H EXACT: S Moon → Praesepe Dec 22.996639 | H Antares Eris Dec 23.012082 23 whole (15.67)
-- H EXACT: S Moon → Galactic Centre Dec 25.992784 | H Menkar Jupiter RA 25.999288 26 whole (93.01)
-- H EXACT: S Moon → Galactic Centre Dec 25.992784 | H Deneb Neptune RA 26.008964 26 whole (30.45)
-- H EXACT: S Moon → Galactic Centre Dec 25.992784 | H Hamal Chiron Dec 25.982095 26 whole (1.1)
 - J EXACT: S Sun → Sadalsuud Dec 16.663727 | J Vega Venus Dec 16.667231 16.6667 ninth (99.52)
 - J EXACT: S Sun → Sadalsuud Dec 16.663727 | S body → J Jupiter Chiron Dec 16.661326 16.6667 ninth (95.42)
 - J EXACT: S Sun → Al Rescha Dec 24.999303 | J Alnilam Haumea Dec 24.999763 25 whole (97.65)
@@ -295,8 +282,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - J EXACT: S Moon → Arcturus RA 152.097564 | J Pleiades Pluto RA 152.094679 94×φ golden (96.84)
 - J EXACT: S Moon → Praesepe Dec 22.996639 | J Vega Pallas Dec 22.99015 23 whole (25.76)
 - J EXACT: S Moon → Praesepe Dec 22.996639 | J Kaus Australis Jupiter Dec 22.983624 23 whole (3.28)
-- J EXACT: S Moon → Galactic Centre Dec 25.992784 | S body → J Jupiter Uranus Dec 26.006939 26 whole (42.64)
-- J EXACT: S Moon → Galactic Centre Dec 25.992784 | J Rigel Rahu RA 26.012727 26 whole (13.23)
 ### 6. T1 (horse Jupiter)
 - H Jupiter → H star Ankaa RA 64.9991 65 whole (91.40) — only
 - H Jupiter → H star Praesepe Dec 1.9980 2 whole (80.61) [360/180] — only
@@ -406,19 +391,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H RA midpoints: Neptune = Ceres 62.58 (far, far side)
   - J RA midpoints: Vesta = Rahu 46.70 (far, far side)
   - J Dec midpoints: Mercury = Rahu 33.67 (between); Pallas = Rahu 25.06 (between)
-- **Galactic Centre** (sky Moon)
-  - H Galactic Centre → H Juno RA 41.0014 41 whole (86.17) — only
-  - H Galactic Centre → H Vesta RA 176.9967 177 whole (69.55) — only
-  - H Galactic Centre → H Pallas RA 131.9961 132 whole (64.65) — only
-  - S Galactic Centre → H Jupiter Dec 50.9885 51 whole (17.94) [same star: H Galactic Centre 50.9883 51 whole (17.35)] — only
-  - H Galactic Centre → H Uranus RA 102.0165 102 whole (3.05) — only
-  - H Galactic Centre → H Quaoar RA 1.2669 conj (2.42) — also: 1 Protected Guest
-  - J Galactic Centre → J Orcus Dec 37.0001 37 whole (98.77) — only
-  - J Galactic Centre → J Juno RA 1.0933 conj (7.35) — only
-  - J Galactic Centre → J Mars RA 58.0150 58 whole (6.36) — only
-  - J Galactic Centre → J Haumea RA 87.0153 87 whole (5.52) — only
-  - H RA midpoints: Eris = Orcus 56.59 (far, far side); Chiron = Makemake 45.00 (near, between)
-  - J RA midpoints: Pluto = Vesta 92.74 (near, between); Pallas = Gonggong 61.69 (near, between); Mars = Vesta 54.64 (near, between); Sun = Sedna 44.91 (far, far side)
 - **Meissa** (sky Moon)
   - S Meissa → H Jupiter RA 12.2254 12.2222 ninth (95.63) — only
   - H Meissa → H Vesta RA 0.3664 conj (57.11) — only
@@ -450,19 +422,18 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - star rows: H Ankaa → H Jupiter RA 64.9991 65 whole (91.40) [same star: S Ankaa 64.9928 65 whole (40.90)] — only
   - star rows: S Praesepe → H Jupiter Dec 1.9990 2 whole (90.70) [same star: H Praesepe 1.9980 2 whole (80.61)] [360/180] — only
   - star rows: J Sadalsuud → J Jupiter RA 111.9961 112 whole (64.59) [same star: S Sadalsuud 111.9864 112 whole (10.39)] — only
-- **Vesta**: 6 cells (H 3, J 3; star rows, top rows)
-  - top rows: S Moon → J Vesta RA 42.0619 26×φ golden (61.62) — only
-  - star rows: H Sadalsuud → H Vesta Dec 29.0022 29 whole (79.54) — only
-  - star rows: H Galactic Centre → H Vesta RA 176.9967 177 whole (69.55) — only
-  - star rows: H Meissa → H Vesta RA 0.3664 conj (57.11) — only
-  - star rows: J Sadalsuud → J Vesta Dec 15.9972 16 whole (74.13) — only
-  - star rows: J Arcturus → J Vesta RA 110.0218 68×φ golden (74.00) — only
 - **Mercury**: 5 cells (H 3, J 2; same body, star rows, top rows)
   - same body: S Mercury → H Mercury RA 43.9935 44 whole (45.66) — only
   - same body: S Mercury → J Mercury RA 164.0185 164 whole (0.58) — only
   - top rows: S Jupiter → J Mercury RA 171.5204 106×φ golden (52.81) — only
   - star rows: H Sadalmelik → H Mercury RA 22.2212 22.2222 ninth (98.63) — only
   - star rows: H Ankaa → H Mercury Dec 37.0021 37 whole (80.06) — only
+- **Vesta**: 5 cells (H 2, J 3; star rows, top rows)
+  - top rows: S Moon → J Vesta RA 42.0619 26×φ golden (61.62) — only
+  - star rows: H Sadalsuud → H Vesta Dec 29.0022 29 whole (79.54) — only
+  - star rows: H Meissa → H Vesta RA 0.3664 conj (57.11) — only
+  - star rows: J Sadalsuud → J Vesta Dec 15.9972 16 whole (74.13) — only
+  - star rows: J Arcturus → J Vesta RA 110.0218 68×φ golden (74.00) — only
 ### Flags held
 - **line star carries a sky number** (3 of 5 runners)
   - J Al Rescha → J Haumea Dec 21.0344 13×φ golden (99.89) = S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)
@@ -599,12 +570,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - S Arcturus → J Jupiter RA 178.0123 178 whole (14.70) — only
   - H RA midpoints: Vesta = Eris 85.11 (far, far side); Saturn = Rahu 33.38 (near, between)
   - J RA midpoints: Makemake = Quaoar 45.79 (near, between)
-- **Galactic Centre** (sky Moon)
-  - H Galactic Centre → H Vesta RA 136.0090 136 whole (30.12) — only
-  - H Galactic Centre → H Vesta Dec 40.9833 41 whole (2.72) — only
-  - J Galactic Centre → J Eris RA 117.0191 117 whole (0.20) — only
-  - H RA midpoints: Ceres = Rahu 57.39 (far, far side); Pallas = Haumea 34.02 (near, between)
-  - J RA midpoints: Jupiter = Orcus 70.91 (far, far side)
 - **Meissa** (sky Moon)
   - J Meissa → J Ceres RA 104.0168 104 whole (2.57) — only
   - J Meissa → J Vesta RA 156.9219 97×φ golden (2.37) — only
@@ -669,9 +634,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - H EXACT: S Sun → Al Rescha Dec 24.999303 | H Mirfak Makemake Dec 25.004253 25 whole (61.99)
 - H EXACT: S Moon → Praesepe Dec 22.996639 | H Nunki Juno Dec 22.984048 23 whole (4.1)
 - H EXACT: S Moon → Praesepe Dec 22.996639 | H Capella Sedna RA 22.981039 23 whole (0.27)
-- H EXACT: S Moon → Galactic Centre Dec 25.992784 | H Algorab Haumea RA 26.002279 26 whole (78.51)
-- H EXACT: S Moon → Galactic Centre Dec 25.992784 | H Phact Pallas Dec 26.002743 26 whole (74.45)
-- H EXACT: S Moon → Galactic Centre Dec 25.992784 | H Deneb Gonggong RA 25.988584 26 whole (18.42)
 - H EXACT: S Moon → Makemake RA 166.695495 | H Scheat Orcus RA 166.639517 166.667 ninth (97.67)
 - J EXACT: S Sun → Sadalmelik RA 41.999409 | J Castor Eris Dec 41.989335 42 whole (21.79)
 - J EXACT: S Sun → Alnilam Dec 21.033309 | J Vega Chiron Dec 21.038731 13×φ golden (75.25)
@@ -679,9 +641,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - J EXACT: S Moon → Praesepe Dec 22.996639 | J Alkaid Quaoar RA 23.009396 23 whole (28.11)
 - J EXACT: S Moon → Praesepe Dec 22.996639 | J Scheat Orcus Dec 23.016275 23 whole (3.47)
 - J EXACT: S Moon → Praesepe Dec 22.996639 | J Pleiades Sun Dec 22.980305 23 whole (0.02)
-- J EXACT: S Moon → Galactic Centre Dec 25.992784 | J Acumen Mercury Dec 25.986383 26 whole (10.19)
-- J EXACT: S Moon → Galactic Centre Dec 25.992784 | J Sualocin Eris Dec 26.016359 26 whole (3.31)
-- J EXACT: S Moon → Galactic Centre Dec 25.992784 | J Alphecca Pluto Dec 26.017698 26 whole (1.32)
 - J EXACT: S Moon → Makemake RA 166.695495 | J Deneb Transpluto RA 166.645883 166.667 ninth (98.22)
 ### 6. T1 (horse Jupiter)
 - none
@@ -790,15 +749,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - J Arcturus → J Vesta Dec 0.9816 1 whole (0.62) [360/360] — only
   - H RA midpoints: Pluto = Rahu 65.23 (near, between)
   - J RA midpoints: Jupiter = Sedna 68.58 (far, far side); Venus = Pallas 59.81 (near, between); Pallas = Haumea 59.72 (near, between); Mercury = Quaoar 55.20 (near, between)
-- **Galactic Centre** (sky Moon)
-  - H Galactic Centre → H Transpluto RA 113.2620 70×φ golden (97.81) — only
-  - H Galactic Centre → H Uranus Dec 38.9921 39 whole (36.72) — only
-  - J Galactic Centre → J Haumea Dec 51.7778 32×φ golden (95.74) — only
-  - J Galactic Centre → J Uranus RA 4.0035 4 whole (68.12) [360/90] — only
-  - J Galactic Centre → J Ketu Dec 27.9942 28 whole (50.27) — only
-  - J Galactic Centre → J Ceres RA 0.4742 conj (46.77) — only
-  - J Galactic Centre → J Sun RA 89.0174 89 whole (1.68) — only
-  - J RA midpoints: Mars = Rahu 47.50 (far, far side)
 - **Meissa** (sky Moon)
   - H Meissa → H Uranus Dec 0.0520 conj (68.36) — also: 5 Eleven Eleven
   - H Meissa → H Pallas Dec 18.0089 18 whole (30.58) [360/20] — only
@@ -818,7 +768,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - J Praesepe → J Pallas RA 113.2314 70×φ golden (0.18) — only
   - H RA midpoints: Pallas = Makemake 57.44 (near, between)
 ### Threads (4 or more cells on one body, both charts, 2 or more layers)
-- **Uranus**: 11 cells (H 7, J 4; same body, star rows, top rows)
+- **Uranus**: 10 cells (H 7, J 3; same body, star rows, top rows)
   - same body: S Uranus → J Uranus Dec 38.0226 38 whole (loose) — only
   - top rows: S Moon → H Uranus Dec 12.9995 13 whole (95.17) — only
   - top rows: S Sun → H Uranus RA 96.0033 96 whole (70.03) — only
@@ -829,23 +779,12 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - star rows: H Sadalmelik → H Uranus RA 54.0039 54 whole (64.85) — only
   - star rows: J Ankaa → J Uranus Dec 18.8861 18.8889 ninth (97.96) — only
   - star rows: J Al Rescha → J Uranus Dec 26.1824 10×φ^2 phi power (96.86) — only
-  - star rows: J Galactic Centre → J Uranus RA 4.0035 4 whole (68.12) [360/90] — only
 - **Orcus**: 5 cells (H 2, J 3; same body, star rows, top rows)
   - same body: S Orcus → H Orcus Dec 2.2285 2.22222 ninth (loose) — only
   - same body: S Orcus → J Orcus RA 29.1000 φ^7 phi power (loose) — only
   - top rows: S Moon → J Orcus RA 122.2268 122.222 ninth (99.36) — only
   - star rows: H Ankaa → H Orcus Dec 32.3606 20×φ golden (99.25) — only
   - star rows: J Meissa → J Orcus RA 44.4460 44.4444 ninth (98.41) — only
-- **Haumea**: 4 cells (H 1, J 3; same body, star rows, top rows)
-  - same body: S Haumea → H Haumea Dec 1.9989 2 whole (89.62) [360/180] — only
-  - top rows: S Sun → J Haumea Dec 45.0054 45 whole (52.96) [360/8] — only
-  - star rows: J Galactic Centre → J Haumea Dec 51.7778 32×φ golden (95.74) — only
-  - star rows: J Al Rescha → J Haumea Dec 20.0036 20 whole (67.39) [360/18] — only
-- **Ketu**: 4 cells (H 1, J 3; same body, star rows, top rows)
-  - same body: S Ketu → H Ketu Dec 3.3375 3.33333 ninth (loose) — only
-  - top rows: S Moon → J Ketu Dec 2.0006 2 whole (94.02) [360/180] — only
-  - star rows: J Praesepe → J Ketu Dec 20.9983 21 whole (83.67) — only
-  - star rows: J Galactic Centre → J Ketu Dec 27.9942 28 whole (50.27) — only
 - **Ceres**: 4 cells (H 1, J 3; same body, star rows)
   - same body: S Ceres → H Ceres Dec 13.0298 13 whole (loose) — only
   - same body: S Ceres → J Ceres RA 149.9749 150 whole (loose) — only
@@ -885,8 +824,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - H EXACT: S Sun → Al Rescha Dec 24.999303 | H Bellatrix Sedna RA 24.995408 25 whole (59.35)
 - H EXACT: S Moon → Alhena Dec 19.41321 | H Ankaa Uranus RA 19.410814 12×φ golden (68.42)
 - H EXACT: S Moon → Meissa Dec 12.948569 | H Regulus Makemake Dec 12.945263 8×φ golden (93.97)
-- H EXACT: S Moon → Galactic Centre Dec 25.992784 | H Aculeus Pallas Dec 25.986929 26 whole (12)
-- H EXACT: S Moon → Galactic Centre Dec 25.992784 | H Alkes Sedna Dec 26.01648 26 whole (3.1)
 - J EXACT: S Sun → Sadalsuud Dec 16.663727 | J Algol Ceres Dec 16.662354 16.6667 ninth (96.3)
 - J EXACT: S Moon → Arcturus RA 152.097564 | J Ankaa Jupiter RA 152.095767 94×φ golden (96.49)
 - J EXACT: S Moon → Arcturus RA 152.097564 | J Altair Transpluto RA 152.076575 94×φ golden (18.03)
@@ -990,12 +927,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H RA midpoints: Pluto = Rahu 62.89 (near, between); Chiron = Pallas 43.81 (far, far side)
   - H Dec midpoints: Sun = Ceres 75.29 (between); Ceres = Sedna 29.90 (between)
   - J RA midpoints: Sun = Neptune 70.82 (near, between); Eris = Sedna 68.05 (far, far side); Pluto = Haumea 17.36 (near, between)
-- **Galactic Centre** (sky Moon)
-  - H Galactic Centre → H Gonggong RA 70.0105 70 whole (22.63) — only
-  - J Galactic Centre → J Sun RA 132.0053 132 whole (53.79) — only
-  - J Galactic Centre → J Mars RA 174.7684 108×φ golden (12.96) — only
-  - H RA midpoints: Venus = Ceres 43.58 (far, far side)
-  - J RA midpoints: Mercury = Ketu 74.46 (far, far side); Saturn = Haumea 38.07 (near, between); Uranus = Pluto 27.78 (near, between)
 - **Meissa** (sky Moon)
   - H Meissa → H Mercury Dec 7.0715 7.07 sqrt2 (97.67) — only
   - H Meissa → H Rahu RA 50.9934 51 whole (45.15) — only

@@ -57,20 +57,12 @@
        "text": "H Zubenelgenubi → H Sun RA 176.3914 109×φ golden (4.28)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ]
       }
      ],
      "other_chart_same_body": [],
      "on_other_chart": [
-      {
-       "text": "J Adhara → J Sun RA 52.9907 53 whole (28.81)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ]
-      },
       {
        "text": "J Capella → J Sun RA 27.5033 17×φ golden (80.70)",
        "layer": "star rows",
@@ -126,13 +118,6 @@
      ],
      "on_other_chart": [
       {
-       "text": "J Algorab → J Ceres RA 125.9896 126 whole (23.22)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      },
-      {
        "text": "J Bellatrix → J Ceres RA 127.8179 79×φ golden (62.70)",
        "layer": "star rows",
        "source_lines": [
@@ -158,13 +143,6 @@
      "other_chart_same_body": [],
      "on_other_chart": [
       {
-       "text": "J Algorab → J Pallas Dec 38.8350 24×φ golden (86.91)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      },
-      {
        "text": "J Alphard → J Pallas RA 132.9928 133 whole (41.09)",
        "layer": "star rows",
        "source_lines": [
@@ -181,15 +159,7 @@
       "S Rahu → H Rahu RA 100.3364 62×φ golden (19.02)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "H Adhara → H Rahu Dec 51.0001 51 whole (99.36)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -242,15 +212,12 @@
      "same_body": [
       "S Ketu → H Ketu RA 100.3364 62×φ golden (19.02)"
      ],
-     "body_lines": [
-      "S Jupiter → Ketu RA 1.4795 conj (0.02)"
-     ],
+     "body_lines": [],
      "on_this_chart": [
       {
        "text": "H Zubenelgenubi → H Ketu Dec 5.9807 6 whole (0.14)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ]
       }
@@ -267,15 +234,7 @@
      "body_lines": [],
      "on_this_chart": [],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Algorab → H Mercury RA 121.0064 121 whole (46.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -291,17 +250,9 @@
        "source_lines": []
       },
       {
-       "text": "J Deneb Algedi → J Saturn Dec 0.0427 conj (73.57)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ]
-      },
-      {
        "text": "J Zubenelgenubi → J Saturn Dec 0.0405 conj (74.82)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ]
       }
@@ -312,7 +263,6 @@
        "text": "H Zubenelgenubi → H Saturn RA 92.9852 93 whole (6.64)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ]
       }
@@ -326,13 +276,6 @@
      ],
      "body_lines": [],
      "on_this_chart": [
-      {
-       "text": "J Algorab → J Uranus RA 101.9933 102 whole (43.97)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      },
       {
        "text": "J Alphard → J Uranus Dec 13.9930 14 whole (42.44)",
        "layer": "star rows",
@@ -352,20 +295,6 @@
      "other_chart_same_body": [],
      "on_other_chart": [
       {
-       "text": "H Adhara → H Uranus Dec 43.6816 27×φ golden (69.81)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ]
-      },
-      {
-       "text": "H Algorab → H Uranus RA 148.8757 92×φ golden (23.85)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      },
-      {
        "text": "H Ankaa → H Uranus Dec 57.0128 57 whole (13.02)",
        "layer": "star rows",
        "source_lines": [
@@ -383,7 +312,6 @@
        "text": "H Zubenelgenubi → H Uranus Dec 30.7499 19×φ golden (60.13)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ]
       }
@@ -396,15 +324,7 @@
       "S Chiron → J Chiron Dec 1.9724 2 whole (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "J Algorab → J Chiron RA 61.9954 62 whole (59.63)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -412,13 +332,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Moon → Bellatrix Dec 14.9956 15 whole (61.23)"
-       ]
-      },
-      {
-       "text": "H Sirius → H Chiron RA 92.2284 57×φ golden (97.39)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
        ]
       }
      ]
@@ -432,13 +345,6 @@
      ],
      "body_lines": [],
      "on_this_chart": [
-      {
-       "text": "J Algorab → J Ceres RA 125.9896 126 whole (23.22)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      },
       {
        "text": "J Bellatrix → J Ceres RA 127.8179 79×φ golden (62.70)",
        "layer": "star rows",
@@ -573,23 +479,10 @@
        "text": "H Zubenelgenubi → H Sun RA 176.3914 109×φ golden (4.28)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ],
        "key": [
         "Zubenelgenubi",
-        "Sun"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Adhara → J Sun RA 52.9907 53 whole (28.81)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
         "Sun"
        ],
        "field": "only"
@@ -691,18 +584,6 @@
        "field": "also: 4 Risky Obsession / Harry Skelton"
       },
       {
-       "text": "J Algorab → J Ceres RA 125.9896 126 whole (23.22)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Ceres"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
-      },
-      {
        "text": "J Bellatrix → J Ceres RA 127.8179 79×φ golden (62.70)",
        "layer": "star rows",
        "source_lines": [
@@ -740,18 +621,6 @@
        "field": "only"
       },
       {
-       "text": "J Algorab → J Pallas Dec 38.8350 24×φ golden (86.91)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Pallas"
-       ],
-       "field": "only"
-      },
-      {
        "text": "J Alphard → J Pallas RA 132.9928 133 whole (41.09)",
        "layer": "star rows",
        "source_lines": [
@@ -778,18 +647,6 @@
         "Rahu"
        ],
        "field": "also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "H Adhara → H Rahu Dec 51.0001 51 whole (99.36)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Rahu"
-       ],
-       "field": "only"
       },
       {
        "text": "J Bellatrix → J Rahu RA 169.8742 105×φ golden (16.19)",
@@ -874,9 +731,7 @@
       {
        "text": "S Ketu → H Ketu RA 100.3364 62×φ golden (19.02)",
        "layer": "same body",
-       "source_lines": [
-        "S Jupiter → Ketu RA 1.4795 conj (0.02)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Ketu"
@@ -887,7 +742,6 @@
        "text": "H Zubenelgenubi → H Ketu Dec 5.9807 6 whole (0.14)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ],
        "key": [
@@ -946,18 +800,6 @@
        "field": "also: 2 Aqua Bleu / Sean Bowen"
       },
       {
-       "text": "S Sirius → H Jupiter Dec 4.2361 φ^3 phi power (99.90)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Jupiter"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
-      },
-      {
        "text": "J Jupiter → J star Bellatrix RA 76.0436 47×φ golden (76.75)",
        "layer": "T2",
        "source_lines": [],
@@ -965,7 +807,7 @@
         "natal Jupiter",
         "Jupiter"
        ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
+       "field": "also: 4 Risky Obsession / Harry Skelton"
       },
       {
        "text": "S Chiron → J Jupiter Dec 0.1504 conj (24.87)",
@@ -1012,133 +854,37 @@
      ]
     },
     {
-     "body": "Uranus",
+     "body": "Mars",
      "cells": [
       {
-       "text": "H Adhara → H Uranus Dec 43.6816 27×φ golden (69.81)",
+       "text": "H Alhena → H Mars RA 0.9583 conj (13.04)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
+        "S Sun → Alhena Dec 32.3610 20×φ golden (97.89)"
        ],
        "key": [
-        "Adhara",
-        "Uranus"
+        "Alhena",
+        "Mars"
        ],
-       "field": "also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton"
+       "field": "also: 2 Aqua Bleu / Sean Bowen"
       },
       {
-       "text": "H Algorab → H Uranus RA 148.8757 92×φ golden (23.85)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Uranus"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "H Ankaa → H Uranus Dec 57.0128 57 whole (13.02)",
+       "text": "J Ankaa → J Mars RA 0.0979 conj (87.38)",
        "layer": "star rows",
        "source_lines": [
         "S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)"
        ],
        "key": [
         "Ankaa",
-        "Uranus"
+        "Mars"
        ],
-       "field": "also: 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "H Nunki → H Uranus Dec 41.0026 41 whole (76.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Nunki RA 95.0039 95 whole (65.03)"
-       ],
-       "key": [
-        "Nunki",
-        "Uranus"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "H Zubenelgenubi → H Uranus Dec 30.7499 19×φ golden (60.13)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
-        "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
-       ],
-       "key": [
-        "Zubenelgenubi",
-        "Uranus"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Uranus → J Uranus RA 132.6682 82×φ golden (45.10)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Uranus"
-       ],
-       "field": "also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "J Algorab → J Uranus RA 101.9933 102 whole (43.97)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Uranus"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "J Alphard → J Uranus Dec 13.9930 14 whole (42.44)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)",
-        "S Moon → Alphard Dec 0.0111 conj (92.71)"
-       ],
-       "key": [
-        "Alphard",
-        "Uranus"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "J Bellatrix → J Uranus Dec 29.0025 29 whole (76.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Bellatrix Dec 14.9956 15 whole (61.23)"
-       ],
-       "key": [
-        "Bellatrix",
-        "Uranus"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
+       "field": "also: 4 Risky Obsession / Harry Skelton"
       }
      ]
     },
     {
      "body": "Haumea",
      "cells": [
-      {
-       "text": "H Adhara → H Haumea RA 110.9295 10×φ^5 phi power (90.23)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Haumea"
-       ],
-       "field": "only"
-      },
       {
        "text": "H Alhena → H Haumea Dec 0.1078 conj (41.03)",
        "layer": "star rows",
@@ -1164,30 +910,6 @@
        "field": "also: 3 Avide / Theo Gillard"
       },
       {
-       "text": "H Deneb Algedi → H Haumea RA 111.1788 111.111 ninth (88.92)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Haumea"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "H Sirius → H Haumea Dec 33.0168 33 whole (2.57)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Haumea"
-       ],
-       "field": "also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton"
-      },
-      {
        "text": "S Moon → J Haumea RA 0.1521 conj (80.75)",
        "layer": "top rows",
        "source_lines": [],
@@ -1196,242 +918,6 @@
         "Haumea"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Adhara → J Haumea RA 84.0048 84 whole (57.67)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Haumea"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Algorab → J Haumea RA 1.1869 conj (4.36)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Haumea"
-       ],
-       "field": "also: 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "J Sirius → J Haumea RA 87.3729 54×φ golden (94.08)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Haumea"
-       ],
-       "field": "also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton"
-      }
-     ]
-    },
-    {
-     "body": "Mercury",
-     "cells": [
-      {
-       "text": "H Algorab → H Mercury RA 121.0064 121 whole (46.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Mercury"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "S Mercury → J Mercury RA 177.1397 177.778 ninth (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Mercury"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
-      }
-     ]
-    },
-    {
-     "body": "Venus",
-     "cells": [
-      {
-       "text": "H Algorab → H Venus RA 129.4209 80×φ golden (10.63)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Venus"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "J Zubenelgenubi → J Venus RA 178.9985 179 whole (85.99)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
-        "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
-       ],
-       "key": [
-        "Zubenelgenubi",
-        "Venus"
-       ],
-       "field": "also: 4 Risky Obsession / Harry Skelton"
-      }
-     ]
-    },
-    {
-     "body": "Eris",
-     "cells": [
-      {
-       "text": "H Algorab → H Eris RA 161.0093 161 whole (28.81)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Eris"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "S Moon → J Eris Dec 0.0558 conj (66.27)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Moon",
-        "Eris"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Alhena → J Eris Dec 24.9881 25 whole (16.59)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Alhena Dec 32.3610 20×φ golden (97.89)"
-       ],
-       "key": [
-        "Alhena",
-        "Eris"
-       ],
-       "field": "also: 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "J Alphard → J Eris RA 118.9912 119 whole (31.16)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)",
-        "S Moon → Alphard Dec 0.0111 conj (92.71)"
-       ],
-       "key": [
-        "Alphard",
-        "Eris"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Alphard → J Eris Dec 0.0718 conj (57.85)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)",
-        "S Moon → Alphard Dec 0.0111 conj (92.71)"
-       ],
-       "key": [
-        "Alphard",
-        "Eris"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Zubenelgenubi → J Eris RA 160.1800 99×φ golden (69.50)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
-        "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
-       ],
-       "key": [
-        "Zubenelgenubi",
-        "Eris"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Mars",
-     "cells": [
-      {
-       "text": "H Alhena → H Mars RA 0.9583 conj (13.04)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Alhena Dec 32.3610 20×φ golden (97.89)"
-       ],
-       "key": [
-        "Alhena",
-        "Mars"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "H Sirius → H Mars RA 0.8975 conj (16.14)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Mars"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "J Adhara → J Mars RA 97.9889 98 whole (19.89)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Mars"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Algorab → J Mars Dec 17.9403 φ^6 phi power (91.40)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Mars"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "J Ankaa → J Mars RA 0.0979 conj (87.38)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)"
-       ],
-       "key": [
-        "Ankaa",
-        "Mars"
-       ],
-       "field": "also: 4 Risky Obsession / Harry Skelton"
       }
      ]
     },
@@ -1477,6 +963,82 @@
      ]
     },
     {
+     "body": "Uranus",
+     "cells": [
+      {
+       "text": "H Ankaa → H Uranus Dec 57.0128 57 whole (13.02)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)"
+       ],
+       "key": [
+        "Ankaa",
+        "Uranus"
+       ],
+       "field": "also: 3 Avide / Theo Gillard"
+      },
+      {
+       "text": "H Nunki → H Uranus Dec 41.0026 41 whole (76.00)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Nunki RA 95.0039 95 whole (65.03)"
+       ],
+       "key": [
+        "Nunki",
+        "Uranus"
+       ],
+       "field": "also: 3 Avide / Theo Gillard"
+      },
+      {
+       "text": "H Zubenelgenubi → H Uranus Dec 30.7499 19×φ golden (60.13)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
+       ],
+       "key": [
+        "Zubenelgenubi",
+        "Uranus"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "S Uranus → J Uranus RA 132.6682 82×φ golden (45.10)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Uranus"
+       ],
+       "field": "also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton"
+      },
+      {
+       "text": "J Alphard → J Uranus Dec 13.9930 14 whole (42.44)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)",
+        "S Moon → Alphard Dec 0.0111 conj (92.71)"
+       ],
+       "key": [
+        "Alphard",
+        "Uranus"
+       ],
+       "field": "also: 2 Aqua Bleu / Sean Bowen"
+      },
+      {
+       "text": "J Bellatrix → J Uranus Dec 29.0025 29 whole (76.65)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Bellatrix Dec 14.9956 15 whole (61.23)"
+       ],
+       "key": [
+        "Bellatrix",
+        "Uranus"
+       ],
+       "field": "also: 2 Aqua Bleu / Sean Bowen"
+      }
+     ]
+    },
+    {
      "body": "Chiron",
      "cells": [
       {
@@ -1492,18 +1054,6 @@
        "field": "only"
       },
       {
-       "text": "H Sirius → H Chiron RA 92.2284 57×φ golden (97.39)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Chiron"
-       ],
-       "field": "only"
-      },
-      {
        "text": "S Chiron → J Chiron Dec 1.9724 2 whole (loose)",
        "layer": "same body",
        "source_lines": [],
@@ -1512,18 +1062,6 @@
         "Chiron"
        ],
        "field": "also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "J Algorab → J Chiron RA 61.9954 62 whole (59.63)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Chiron"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
       }
      ]
     },
@@ -1541,77 +1079,6 @@
         "Makemake"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Jupiter → J Makemake RA 12.9975 13 whole (76.13)",
-       "layer": "T2",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Makemake"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Algorab → J Makemake Dec 52.0185 52 whole (0.56)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Makemake"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
-      }
-     ]
-    },
-    {
-     "body": "Transpluto",
-     "cells": [
-      {
-       "text": "H Sirius → H Transpluto Dec 27.5098 17×φ golden (81.19)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Transpluto"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "S Jupiter → J Transpluto Dec 0.1814 conj (15.62)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Jupiter",
-        "Transpluto"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "S Moon → J Transpluto RA 44.4432 44.4444 ninth (98.72)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Moon",
-        "Transpluto"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Alhena → J Transpluto Dec 2.2229 2.22222 ninth (91.28)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Alhena Dec 32.3610 20×φ golden (97.89)"
-       ],
-       "key": [
-        "Alhena",
-        "Transpluto"
-       ],
-       "field": "also: 4 Risky Obsession / Harry Skelton"
       }
      ]
     },
@@ -1622,7 +1089,6 @@
        "text": "H Zubenelgenubi → H Saturn RA 92.9852 93 whole (6.64)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ],
        "key": [
@@ -1652,22 +1118,9 @@
        "field": "also: 3 Avide / Theo Gillard"
       },
       {
-       "text": "J Deneb Algedi → J Saturn Dec 0.0427 conj (73.57)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Saturn"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
-      },
-      {
        "text": "J Zubenelgenubi → J Saturn Dec 0.0405 conj (74.82)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ],
        "key": [
@@ -1685,7 +1138,6 @@
        "text": "H Zubenelgenubi → H Neptune Dec 11.9910 12 whole (30.46)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ],
        "key": [
@@ -1693,6 +1145,21 @@
         "Neptune"
        ],
        "field": "also: 2 Aqua Bleu / Sean Bowen"
+      }
+     ]
+    },
+    {
+     "body": "Mercury",
+     "cells": [
+      {
+       "text": "S Mercury → J Mercury RA 177.1397 177.778 ninth (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Mercury"
+       ],
+       "field": "also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
       }
      ]
     },
@@ -1772,29 +1239,102 @@
      ]
     },
     {
-     "body": "Sedna",
+     "body": "Transpluto",
      "cells": [
       {
-       "text": "J Adhara → J Sedna RA 61.4852 38×φ golden (99.64)",
+       "text": "S Jupiter → J Transpluto Dec 0.1814 conj (15.62)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Jupiter",
+        "Transpluto"
+       ],
+       "field": "also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton"
+      },
+      {
+       "text": "S Moon → J Transpluto RA 44.4432 44.4444 ninth (98.72)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Moon",
+        "Transpluto"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Alhena → J Transpluto Dec 2.2229 2.22222 ninth (91.28)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
+        "S Sun → Alhena Dec 32.3610 20×φ golden (97.89)"
        ],
        "key": [
-        "Adhara",
-        "Sedna"
+        "Alhena",
+        "Transpluto"
+       ],
+       "field": "also: 4 Risky Obsession / Harry Skelton"
+      }
+     ]
+    },
+    {
+     "body": "Eris",
+     "cells": [
+      {
+       "text": "S Moon → J Eris Dec 0.0558 conj (66.27)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Moon",
+        "Eris"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Alhena → J Eris Dec 24.9881 25 whole (16.59)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Alhena Dec 32.3610 20×φ golden (97.89)"
+       ],
+       "key": [
+        "Alhena",
+        "Eris"
        ],
        "field": "also: 4 Risky Obsession / Harry Skelton"
       },
       {
-       "text": "J Capella → J Sedna RA 35.9978 36 whole (79.09)",
+       "text": "J Alphard → J Eris RA 118.9912 119 whole (31.16)",
        "layer": "star rows",
        "source_lines": [
-        "S Jupiter → Capella Dec 31.9990 32 whole (89.78)"
+        "S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)",
+        "S Moon → Alphard Dec 0.0111 conj (92.71)"
        ],
        "key": [
-        "Capella",
-        "Sedna"
+        "Alphard",
+        "Eris"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Alphard → J Eris Dec 0.0718 conj (57.85)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)",
+        "S Moon → Alphard Dec 0.0111 conj (92.71)"
+       ],
+       "key": [
+        "Alphard",
+        "Eris"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Zubenelgenubi → J Eris RA 160.1800 99×φ golden (69.50)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
+       ],
+       "key": [
+        "Zubenelgenubi",
+        "Eris"
        ],
        "field": "only"
       }
@@ -1814,6 +1354,40 @@
         "Juno"
        ],
        "field": "also: 3 Avide / Theo Gillard"
+      }
+     ]
+    },
+    {
+     "body": "Sedna",
+     "cells": [
+      {
+       "text": "J Capella → J Sedna RA 35.9978 36 whole (79.09)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Capella Dec 31.9990 32 whole (89.78)"
+       ],
+       "key": [
+        "Capella",
+        "Sedna"
+       ],
+       "field": "only"
+      }
+     ]
+    },
+    {
+     "body": "Venus",
+     "cells": [
+      {
+       "text": "J Zubenelgenubi → J Venus RA 178.9985 179 whole (85.99)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
+       ],
+       "key": [
+        "Zubenelgenubi",
+        "Venus"
+       ],
+       "field": "also: 4 Risky Obsession / Harry Skelton"
       }
      ]
     }
@@ -1857,13 +1431,6 @@
       "field": "also: 3 Avide / Theo Gillard"
      },
      {
-      "label": "13 whole",
-      "cells": [
-       "J Jupiter → J Makemake RA 12.9975 13 whole (76.13) = S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-      ],
-      "field": "also: 2 Aqua Bleu / Sean Bowen"
-     },
-     {
       "label": "95 whole",
       "cells": [
        "J Alphard → J Quaoar RA 95.0023 95 whole (78.17) = S Moon → Nunki RA 95.0039 95 whole (65.03)"
@@ -1877,7 +1444,7 @@
       "cells": [
        "H Alhena → H Sun Dec 1.0099 1 whole (25.72)"
       ],
-      "field": "also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton"
+      "field": "also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton"
      },
      {
       "label": "12 = 360/30",
@@ -1891,7 +1458,7 @@
       "cells": [
        "H Zubenelgenubi → H Ketu Dec 5.9807 6 whole (0.14)"
       ],
-      "field": "also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard"
+      "field": "also: 2 Aqua Bleu / Sean Bowen"
      },
      {
       "label": "2 = 360/180",
@@ -1919,7 +1486,7 @@
       "cells": [
        "J Bellatrix → J Quaoar Dec 19.9933 20 whole (44.21)"
       ],
-      "field": "also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard"
+      "field": "also: 3 Avide / Theo Gillard"
      },
      {
       "label": "36 = 360/10",
@@ -1960,14 +1527,6 @@
       "cells": [
        "H Ankaa → H Uranus Dec 57.0128 57 whole (13.02)",
        "H Capella → H Orcus Dec 57.0040 57 whole (64.32)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "17×φ golden",
-      "cells": [
-       "H Sirius → H Transpluto Dec 27.5098 17×φ golden (81.19)",
-       "J Capella → J Sun RA 27.5033 17×φ golden (80.70)"
       ],
       "field": "only"
      },
@@ -2035,24 +1594,10 @@
      "body_lines": [],
      "on_this_chart": [
       {
-       "text": "H Algorab → H Sun RA 111.1749 111.111 ninth (89.57)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      },
-      {
        "text": "H Bellatrix → H Sun RA 4.9854 5 whole (7.38)",
        "layer": "star rows",
        "source_lines": [
         "S Moon → Bellatrix Dec 14.9956 15 whole (61.23)"
-       ]
-      },
-      {
-       "text": "H Sirius → H Sun RA 24.9865 25 whole (10.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
        ]
       }
      ],
@@ -2088,13 +1633,6 @@
        "source_lines": []
       },
       {
-       "text": "H Algorab → H Mercury Dec 32.0187 32 whole (0.43)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      },
-      {
        "text": "H Alhena → H Mercury RA 43.9813 44 whole (0.43)",
        "layer": "star rows",
        "source_lines": [
@@ -2125,24 +1663,10 @@
        "text": "S Jupiter → H Venus Dec 0.2654 conj (1.33)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "H Adhara → H Venus RA 64.0039 64 whole (64.66)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ]
       }
      ],
      "other_chart_same_body": [],
      "on_other_chart": [
-      {
-       "text": "J Adhara → J Venus Dec 20.0153 20 whole (5.49)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ]
-      },
       {
        "text": "J Alphard → J Venus Dec 0.2966 conj (0.01)",
        "layer": "star rows",
@@ -2157,13 +1681,6 @@
        "source_lines": [
         "S Jupiter → Capella Dec 31.9990 32 whole (89.78)"
        ]
-      },
-      {
-       "text": "J Deneb Algedi → J Venus RA 126.2154 78×φ golden (53.46)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ]
       }
      ]
     },
@@ -2174,15 +1691,7 @@
       "S Mars → H Mars RA 133.6337 133.333 ninth (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "H Algorab → H Mars Dec 19.0103 19 whole (23.32)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [
       "S Mars → J Mars Dec 33.0218 33 whole (loose)"
      ],
@@ -2200,17 +1709,9 @@
        ]
       },
       {
-       "text": "J Sirius → J Mars Dec 0.1808 conj (15.78)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ]
-      },
-      {
        "text": "J Zubenelgenubi → J Mars RA 1.3104 conj (1.60)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ]
       }
@@ -2228,13 +1729,6 @@
        "text": "S Saturn → H Jupiter Dec 0.2313 conj (5.25)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "S Adhara → H Jupiter RA 99.9991 100 ninth (99.40)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ]
       },
       {
        "text": "H Ankaa → H Jupiter Dec 43.0191 43 whole (0.20)",
@@ -2288,13 +1782,6 @@
        "source_lines": [
         "S Sun → Alhena Dec 32.3610 20×φ golden (97.89)"
        ]
-      },
-      {
-       "text": "H Deneb Algedi → H Chiron Dec 23.9863 24 whole (9.99)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ]
       }
      ],
      "other_chart_same_body": [
@@ -2305,13 +1792,6 @@
        "text": "S Sun → J Chiron Dec 4.9997 5 whole (96.67)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "J Adhara → J Chiron Dec 18.0059 18 whole (49.46)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ]
       },
       {
        "text": "J Alhena → J Chiron RA 109.0037 109 whole (66.10)",
@@ -2382,9 +1862,7 @@
       "S Ketu → H Ketu RA 80.9195 50×φ golden (loose)",
       "S Ketu → H Ketu Dec 30.9756 31 whole (loose)"
      ],
-     "body_lines": [
-      "S Jupiter → Ketu RA 1.4795 conj (0.02)"
-     ],
+     "body_lines": [],
      "on_this_chart": [],
      "other_chart_same_body": [
       "S Ketu → J Ketu RA 158.0213 158 whole (loose)"
@@ -2401,7 +1879,6 @@
        "text": "J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ]
       }
@@ -2428,24 +1905,10 @@
      ],
      "on_other_chart": [
       {
-       "text": "H Algorab → H Sun RA 111.1749 111.111 ninth (89.57)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      },
-      {
        "text": "H Bellatrix → H Sun RA 4.9854 5 whole (7.38)",
        "layer": "star rows",
        "source_lines": [
         "S Moon → Bellatrix Dec 14.9956 15 whole (61.23)"
-       ]
-      },
-      {
-       "text": "H Sirius → H Sun RA 24.9865 25 whole (10.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
        ]
       }
      ]
@@ -2471,17 +1934,9 @@
        ]
       },
       {
-       "text": "J Sirius → J Mars Dec 0.1808 conj (15.78)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ]
-      },
-      {
        "text": "J Zubenelgenubi → J Mars RA 1.3104 conj (1.60)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ]
       }
@@ -2489,15 +1944,7 @@
      "other_chart_same_body": [
       "S Mars → H Mars RA 133.6337 133.333 ninth (loose)"
      ],
-     "on_other_chart": [
-      {
-       "text": "H Algorab → H Mars Dec 19.0103 19 whole (23.32)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -2523,13 +1970,6 @@
        "text": "H Jupiter → H Saturn Dec 14.9956 15 whole (60.63)",
        "layer": "T1",
        "source_lines": []
-      },
-      {
-       "text": "H Deneb Algedi → H Saturn RA 0.8449 conj (19.07)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ]
       },
       {
        "text": "H Nunki → H Saturn Dec 12.0149 12 whole (6.44)",
@@ -2577,13 +2017,6 @@
      "other_chart_same_body": [],
      "on_other_chart": [
       {
-       "text": "H Algorab → H Pluto RA 113.0047 113 whole (58.24)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      },
-      {
        "text": "H Alhena → H Pluto Dec 38.9851 39 whole (6.60)",
        "layer": "star rows",
        "source_lines": [
@@ -2614,13 +2047,6 @@
        "source_lines": []
       },
       {
-       "text": "J Adhara → J Chiron Dec 18.0059 18 whole (49.46)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ]
-      },
-      {
        "text": "J Alhena → J Chiron RA 109.0037 109 whole (66.10)",
        "layer": "star rows",
        "source_lines": [
@@ -2637,13 +2063,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Sun → Alhena Dec 32.3610 20×φ golden (97.89)"
-       ]
-      },
-      {
-       "text": "H Deneb Algedi → H Chiron Dec 23.9863 24 whole (9.99)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
        ]
       }
      ]
@@ -2687,15 +2106,7 @@
       "S Sun → Haumea RA 0.5461 conj (40.44)",
       "S Moon → Haumea Dec 22.0001 22 whole (98.85)"
      ],
-     "on_this_chart": [
-      {
-       "text": "J Deneb Algedi → J Haumea RA 133.0056 133 whole (52.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -2721,7 +2132,6 @@
        "text": "H Zubenelgenubi → H Makemake Dec 38.9928 39 whole (40.98)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ]
       }
@@ -2766,7 +2176,6 @@
        "text": "H Zubenelgenubi → H Orcus RA 66.9871 67 whole (12.47)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ]
       }
@@ -2796,28 +2205,12 @@
        "text": "J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ]
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Adhara → H Gonggong Dec 17.9962 18 whole (66.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ]
-      },
-      {
-       "text": "H Algorab → H Gonggong RA 149.9851 150 whole (6.52)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -2825,9 +2218,7 @@
      "same_body": [
       "S Ketu → J Ketu RA 158.0213 158 whole (loose)"
      ],
-     "body_lines": [
-      "S Jupiter → Ketu RA 1.4795 conj (0.02)"
-     ],
+     "body_lines": [],
      "on_this_chart": [
       {
        "text": "J Ankaa → J Ketu RA 15.9997 16 whole (97.43)",
@@ -2840,7 +2231,6 @@
        "text": "J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ]
       }
@@ -2867,18 +2257,6 @@
        "field": "also: 1 Watery Borren / Derek Fox"
       },
       {
-       "text": "H Algorab → H Sun RA 111.1749 111.111 ninth (89.57)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Sun"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
-      },
-      {
        "text": "H Bellatrix → H Sun RA 4.9854 5 whole (7.38)",
        "layer": "star rows",
        "source_lines": [
@@ -2889,18 +2267,6 @@
         "Sun"
        ],
        "field": "only"
-      },
-      {
-       "text": "H Sirius → H Sun RA 24.9865 25 whole (10.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Sun"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
       },
       {
        "text": "S Sun → J Sun Dec 22.6418 14×φ golden (loose)",
@@ -2960,18 +2326,6 @@
        "field": "only"
       },
       {
-       "text": "H Algorab → H Mercury Dec 32.0187 32 whole (0.43)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Mercury"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
        "text": "H Alhena → H Mercury RA 43.9813 44 whole (0.43)",
        "layer": "star rows",
        "source_lines": [
@@ -3021,30 +2375,6 @@
        "field": "only"
       },
       {
-       "text": "H Adhara → H Venus RA 64.0039 64 whole (64.66)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Venus"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "J Adhara → J Venus Dec 20.0153 20 whole (5.49)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Venus"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
-      },
-      {
        "text": "J Alphard → J Venus Dec 0.2966 conj (0.01)",
        "layer": "star rows",
        "source_lines": [
@@ -3068,18 +2398,6 @@
         "Venus"
        ],
        "field": "also: 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "J Deneb Algedi → J Venus RA 126.2154 78×φ golden (53.46)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Venus"
-       ],
-       "field": "also: 4 Risky Obsession / Harry Skelton"
       }
      ]
     },
@@ -3095,18 +2413,6 @@
         "Mars"
        ],
        "field": "also: 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "H Algorab → H Mars Dec 19.0103 19 whole (23.32)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Mars"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton"
       },
       {
        "text": "S Mars → J Mars Dec 33.0218 33 whole (loose)",
@@ -3141,22 +2447,9 @@
        "field": "also: 1 Watery Borren / Derek Fox"
       },
       {
-       "text": "J Sirius → J Mars Dec 0.1808 conj (15.78)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Mars"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard"
-      },
-      {
        "text": "J Zubenelgenubi → J Mars RA 1.3104 conj (1.60)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ],
        "key": [
@@ -3181,33 +2474,11 @@
        "field": "also: 3 Avide / Theo Gillard"
       },
       {
-       "text": "H Jupiter → H star Adhara RA 99.9901 100 ninth (93.41)",
-       "layer": "T1",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Jupiter"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton"
-      },
-      {
        "text": "S Saturn → H Jupiter Dec 0.2313 conj (5.25)",
        "layer": "top rows",
        "source_lines": [],
        "key": [
         "S Saturn",
-        "Jupiter"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Adhara → H Jupiter RA 99.9991 100 ninth (99.40)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
         "Jupiter"
        ],
        "field": "only"
@@ -3298,18 +2569,6 @@
        "field": "also: 4 Risky Obsession / Harry Skelton"
       },
       {
-       "text": "H Deneb Algedi → H Chiron Dec 23.9863 24 whole (9.99)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Chiron"
-       ],
-       "field": "only"
-      },
-      {
        "text": "S Chiron → J Chiron RA 177.0047 177 whole (58.82)",
        "layer": "same body",
        "source_lines": [],
@@ -3328,18 +2587,6 @@
         "Chiron"
        ],
        "field": "also: 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "J Adhara → J Chiron Dec 18.0059 18 whole (49.46)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Chiron"
-       ],
-       "field": "only"
       },
       {
        "text": "J Alhena → J Chiron RA 109.0037 109 whole (66.10)",
@@ -3457,9 +2704,7 @@
       {
        "text": "S Ketu → H Ketu RA 80.9195 50×φ golden (loose)",
        "layer": "same body",
-       "source_lines": [
-        "S Jupiter → Ketu RA 1.4795 conj (0.02)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Ketu"
@@ -3469,9 +2714,7 @@
       {
        "text": "S Ketu → H Ketu Dec 30.9756 31 whole (loose)",
        "layer": "same body",
-       "source_lines": [
-        "S Jupiter → Ketu RA 1.4795 conj (0.02)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Ketu"
@@ -3481,9 +2724,7 @@
       {
        "text": "S Ketu → J Ketu RA 158.0213 158 whole (loose)",
        "layer": "same body",
-       "source_lines": [
-        "S Jupiter → Ketu RA 1.4795 conj (0.02)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Ketu"
@@ -3506,7 +2747,6 @@
        "text": "J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ],
        "key": [
@@ -3529,18 +2769,6 @@
         "Saturn"
        ],
        "field": "only"
-      },
-      {
-       "text": "H Deneb Algedi → H Saturn RA 0.8449 conj (19.07)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Saturn"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox"
       },
       {
        "text": "H Nunki → H Saturn Dec 12.0149 12 whole (6.44)",
@@ -3664,30 +2892,6 @@
        "field": "only"
       },
       {
-       "text": "H Deneb Algedi → H Quaoar Dec 0.9977 1 whole (78.42)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Quaoar"
-       ],
-       "field": "also: 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "J Adhara → J Quaoar RA 137.5574 85×φ golden (5.85)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Quaoar"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
-      },
-      {
        "text": "J Alphard → J Quaoar RA 100.3188 62×φ golden (95.93)",
        "layer": "star rows",
        "source_lines": [
@@ -3752,18 +2956,6 @@
        "field": "only"
       },
       {
-       "text": "H Sirius → H Transpluto RA 52.9962 53 whole (65.64)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Transpluto"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard"
-      },
-      {
        "text": "S Jupiter → J Transpluto RA 0.1297 conj (83.45)",
        "layer": "top rows",
        "source_lines": [],
@@ -3772,38 +2964,26 @@
         "Transpluto"
        ],
        "field": "also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "J Sirius → J Transpluto Dec 30.0030 30 whole (72.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Transpluto"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard"
       }
      ]
     },
     {
-     "body": "Juno",
+     "body": "Uranus",
      "cells": [
       {
-       "text": "H Adhara → H Juno RA 121.3316 75×φ golden (12.34)",
+       "text": "H Alhena → H Uranus Dec 0.0058 conj (96.17)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
+        "S Sun → Alhena Dec 32.3610 20×φ golden (97.89)"
        ],
        "key": [
-        "Adhara",
-        "Juno"
+        "Alhena",
+        "Uranus"
        ],
        "field": "only"
       },
       {
-       "text": "H Alphard → H Juno RA 158.5750 98×φ golden (58.18)",
+       "text": "J Alphard → J Uranus RA 166.0000 166 whole (99.68)",
        "layer": "star rows",
        "source_lines": [
         "S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)",
@@ -3811,154 +2991,69 @@
        ],
        "key": [
         "Alphard",
-        "Juno"
+        "Uranus"
        ],
-       "field": "only"
+       "field": "also: 1 Watery Borren / Derek Fox"
       },
       {
-       "text": "J Ankaa → J Juno RA 137.0112 137 whole (19.33)",
+       "text": "J Bellatrix → J Uranus RA 133.3900 133.333 ninth (93.20)",
        "layer": "star rows",
        "source_lines": [
-        "S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)"
+        "S Moon → Bellatrix Dec 14.9956 15 whole (61.23)"
        ],
        "key": [
-        "Ankaa",
-        "Juno"
+        "Bellatrix",
+        "Uranus"
        ],
-       "field": "also: 3 Avide / Theo Gillard"
+       "field": "also: 1 Watery Borren / Derek Fox"
       }
      ]
     },
     {
-     "body": "Vesta",
+     "body": "Neptune",
      "cells": [
       {
-       "text": "H Adhara → H Vesta RA 127.9838 128 whole (3.66)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Vesta"
-       ],
-       "field": "also: 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "H Alhena → H Vesta Dec 30.0167 30 whole (2.73)",
+       "text": "H Alhena → H Neptune RA 103.5252 64×φ golden (1.12)",
        "layer": "star rows",
        "source_lines": [
         "S Sun → Alhena Dec 32.3610 20×φ golden (97.89)"
        ],
        "key": [
         "Alhena",
-        "Vesta"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Sirius → J Vesta Dec 18.8882 18.8889 ninth (99.54)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Vesta"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Gonggong",
-     "cells": [
-      {
-       "text": "H Adhara → H Gonggong Dec 17.9962 18 whole (66.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Gonggong"
+        "Neptune"
        ],
        "field": "also: 3 Avide / Theo Gillard"
       },
       {
-       "text": "H Algorab → H Gonggong RA 149.9851 150 whole (6.52)",
+       "text": "H Alphard → H Neptune RA 145.9968 146 whole (70.88)",
        "layer": "star rows",
        "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
+        "S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)",
+        "S Moon → Alphard Dec 0.0111 conj (92.71)"
        ],
        "key": [
-        "Algorab",
-        "Gonggong"
+        "Alphard",
+        "Neptune"
        ],
-       "field": "also: 4 Risky Obsession / Harry Skelton"
+       "field": "also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton"
       },
       {
-       "text": "S Gonggong → J Gonggong RA 5.9788 6 whole (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Gonggong"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "S Moon → J Gonggong RA 142.3795 88×φ golden (58.96)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Moon",
-        "Gonggong"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Capella → J Gonggong RA 107.9827 108 whole (1.76)",
+       "text": "H Zubenelgenubi → H Neptune Dec 12.9984 13 whole (84.46)",
        "layer": "star rows",
        "source_lines": [
-        "S Jupiter → Capella Dec 31.9990 32 whole (89.78)"
-       ],
-       "key": [
-        "Capella",
-        "Gonggong"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ],
        "key": [
         "Zubenelgenubi",
-        "Gonggong"
+        "Neptune"
        ],
-       "field": "only"
+       "field": "also: 1 Watery Borren / Derek Fox"
       }
      ]
     },
     {
      "body": "Pluto",
      "cells": [
-      {
-       "text": "H Algorab → H Pluto RA 113.0047 113 whole (58.24)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Pluto"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
-      },
       {
        "text": "H Alhena → H Pluto Dec 38.9851 39 whole (6.60)",
        "layer": "star rows",
@@ -4042,64 +3137,27 @@
      ]
     },
     {
-     "body": "Uranus",
+     "body": "Vesta",
      "cells": [
       {
-       "text": "H Alhena → H Uranus Dec 0.0058 conj (96.17)",
+       "text": "H Alhena → H Vesta Dec 30.0167 30 whole (2.73)",
        "layer": "star rows",
        "source_lines": [
         "S Sun → Alhena Dec 32.3610 20×φ golden (97.89)"
        ],
        "key": [
         "Alhena",
-        "Uranus"
+        "Vesta"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Alphard → J Uranus RA 166.0000 166 whole (99.68)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)",
-        "S Moon → Alphard Dec 0.0111 conj (92.71)"
-       ],
-       "key": [
-        "Alphard",
-        "Uranus"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
-       "text": "J Bellatrix → J Uranus RA 133.3900 133.333 ninth (93.20)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Bellatrix Dec 14.9956 15 whole (61.23)"
-       ],
-       "key": [
-        "Bellatrix",
-        "Uranus"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox"
       }
      ]
     },
     {
-     "body": "Neptune",
+     "body": "Juno",
      "cells": [
       {
-       "text": "H Alhena → H Neptune RA 103.5252 64×φ golden (1.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Alhena Dec 32.3610 20×φ golden (97.89)"
-       ],
-       "key": [
-        "Alhena",
-        "Neptune"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "H Alphard → H Neptune RA 145.9968 146 whole (70.88)",
+       "text": "H Alphard → H Juno RA 158.5750 98×φ golden (58.18)",
        "layer": "star rows",
        "source_lines": [
         "S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)",
@@ -4107,22 +3165,21 @@
        ],
        "key": [
         "Alphard",
-        "Neptune"
+        "Juno"
        ],
-       "field": "also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton"
+       "field": "only"
       },
       {
-       "text": "H Zubenelgenubi → H Neptune Dec 12.9984 13 whole (84.46)",
+       "text": "J Ankaa → J Juno RA 137.0112 137 whole (19.33)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
-        "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
+        "S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)"
        ],
        "key": [
-        "Zubenelgenubi",
-        "Neptune"
+        "Ankaa",
+        "Juno"
        ],
-       "field": "also: 1 Watery Borren / Derek Fox"
+       "field": "also: 3 Avide / Theo Gillard"
       }
      ]
     },
@@ -4158,7 +3215,6 @@
        "text": "H Zubenelgenubi → H Orcus RA 66.9871 67 whole (12.47)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ],
        "key": [
@@ -4220,18 +3276,6 @@
         "Haumea"
        ],
        "field": "also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "J Deneb Algedi → J Haumea RA 133.0056 133 whole (52.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Haumea"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton"
       }
      ]
     },
@@ -4249,35 +3293,6 @@
         "Eris"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Algorab → J Eris Dec 9.0165 9 whole (3.05)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Eris"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox"
-      }
-     ]
-    },
-    {
-     "body": "Ceres",
-     "cells": [
-      {
-       "text": "H Sirius → H Ceres RA 0.2701 conj (67.22)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Ceres"
-       ],
-       "field": "also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton"
       }
      ]
     },
@@ -4288,7 +3303,6 @@
        "text": "H Zubenelgenubi → H Makemake Dec 38.9928 39 whole (40.98)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ],
        "key": [
@@ -4306,6 +3320,55 @@
         "Makemake"
        ],
        "field": "also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton"
+      }
+     ]
+    },
+    {
+     "body": "Gonggong",
+     "cells": [
+      {
+       "text": "S Gonggong → J Gonggong RA 5.9788 6 whole (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Gonggong"
+       ],
+       "field": "also: 3 Avide / Theo Gillard"
+      },
+      {
+       "text": "S Moon → J Gonggong RA 142.3795 88×φ golden (58.96)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Moon",
+        "Gonggong"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Capella → J Gonggong RA 107.9827 108 whole (1.76)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Capella Dec 31.9990 32 whole (89.78)"
+       ],
+       "key": [
+        "Capella",
+        "Gonggong"
+       ],
+       "field": "also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton"
+      },
+      {
+       "text": "J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
+       ],
+       "key": [
+        "Zubenelgenubi",
+        "Gonggong"
+       ],
+       "field": "only"
       }
      ]
     }
@@ -4390,25 +3453,11 @@
       "field": "only"
      },
      {
-      "label": "32 whole",
-      "cells": [
-       "H Algorab → H Mercury Dec 32.0187 32 whole (0.43) = S Jupiter → Capella Dec 31.9990 32 whole (89.78)"
-      ],
-      "field": "also: 3 Avide / Theo Gillard"
-     },
-     {
       "label": "15 whole",
       "cells": [
        "H Nunki → H Orcus Dec 15.0187 15 whole (0.45) = S Moon → Bellatrix Dec 14.9956 15 whole (61.23)"
       ],
       "field": "only"
-     },
-     {
-      "label": "13 whole",
-      "cells": [
-       "H Zubenelgenubi → H Neptune Dec 12.9984 13 whole (84.46) = S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-      ],
-      "field": "also: 1 Watery Borren / Derek Fox"
      },
      {
       "label": "14×φ golden",
@@ -4423,13 +3472,6 @@
        "S Pluto → J Pluto Dec 15.0207 15 whole (loose) = S Moon → Bellatrix Dec 14.9956 15 whole (61.23)"
       ],
       "field": "only"
-     },
-     {
-      "label": "13 whole",
-      "cells": [
-       "S Makemake → J Makemake Dec 13.0021 13 whole (80.03) = S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-      ],
-      "field": "also: 1 Watery Borren / Derek Fox"
      },
      {
       "label": "14×φ golden",
@@ -4462,18 +3504,11 @@
       "field": "only"
      },
      {
-      "label": "18 = 360/20",
-      "cells": [
-       "H Adhara → H Gonggong Dec 17.9962 18 whole (66.00)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "30 = 360/12",
       "cells": [
        "H Alhena → H Vesta Dec 30.0167 30 whole (2.73)"
       ],
-      "field": "also: 3 Avide / Theo Gillard"
+      "field": "only"
      },
      {
       "label": "90 = 360/4",
@@ -4494,21 +3529,7 @@
       "cells": [
        "H Capella → H Haumea Dec 30.0088 30 whole (31.60)"
       ],
-      "field": "also: 3 Avide / Theo Gillard"
-     },
-     {
-      "label": "24 = 360/15",
-      "cells": [
-       "H Deneb Algedi → H Chiron Dec 23.9863 24 whole (9.99)"
-      ],
-      "field": "also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton"
-     },
-     {
-      "label": "1 = 360/360",
-      "cells": [
-       "H Deneb Algedi → H Quaoar Dec 0.9977 1 whole (78.42)"
-      ],
-      "field": "also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton"
+      "field": "only"
      },
      {
       "label": "12 = 360/30",
@@ -4543,7 +3564,7 @@
       "cells": [
        "S Gonggong → J Gonggong RA 5.9788 6 whole (loose)"
       ],
-      "field": "also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard"
+      "field": "also: 1 Watery Borren / Derek Fox"
      },
      {
       "label": "5 = 360/72",
@@ -4553,32 +3574,11 @@
       "field": "also: 1 Watery Borren / Derek Fox"
      },
      {
-      "label": "20 = 360/18",
-      "cells": [
-       "J Adhara → J Venus Dec 20.0153 20 whole (5.49)"
-      ],
-      "field": "also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard"
-     },
-     {
-      "label": "18 = 360/20",
-      "cells": [
-       "J Adhara → J Chiron Dec 18.0059 18 whole (49.46)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "9 = 360/40",
-      "cells": [
-       "J Algorab → J Eris Dec 9.0165 9 whole (3.05)"
-      ],
-      "field": "also: 3 Avide / Theo Gillard"
-     },
-     {
       "label": "9 = 360/40",
       "cells": [
        "J Alhena → J Mercury Dec 8.9912 9 whole (31.30)"
       ],
-      "field": "also: 3 Avide / Theo Gillard"
+      "field": "only"
      },
      {
       "label": "24 = 360/15",
@@ -4600,13 +3600,6 @@
        "J Nunki → J Quaoar Dec 11.9909 12 whole (29.78)"
       ],
       "field": "also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton"
-     },
-     {
-      "label": "30 = 360/12",
-      "cells": [
-       "J Sirius → J Transpluto Dec 30.0030 30 whole (72.17)"
-      ],
-      "field": "also: 3 Avide / Theo Gillard"
      },
      {
       "label": "2 = 360/180",
@@ -4670,34 +3663,10 @@
       "field": "only"
      },
      {
-      "label": "100 ninth",
-      "cells": [
-       "H Jupiter → H star Adhara RA 99.9901 100 ninth (93.41)",
-       "S Adhara → H Jupiter RA 99.9991 100 ninth (99.40)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "67 whole",
       "cells": [
        "S Sun → H Transpluto RA 67.0053 67 whole (54.07)",
        "H Zubenelgenubi → H Orcus RA 66.9871 67 whole (12.47)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "75×φ golden",
-      "cells": [
-       "H Adhara → H Juno RA 121.3316 75×φ golden (12.34)",
-       "J Capella → J Venus RA 121.3784 75×φ golden (4.04)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "18 whole",
-      "cells": [
-       "H Adhara → H Gonggong Dec 17.9962 18 whole (66.00)",
-       "J Adhara → J Chiron Dec 18.0059 18 whole (49.46)"
       ],
       "field": "only"
      },
@@ -4713,8 +3682,7 @@
       "label": "30 whole",
       "cells": [
        "H Alhena → H Vesta Dec 30.0167 30 whole (2.73)",
-       "H Capella → H Haumea Dec 30.0088 30 whole (31.60)",
-       "J Sirius → J Transpluto Dec 30.0030 30 whole (72.17)"
+       "H Capella → H Haumea Dec 30.0088 30 whole (31.60)"
       ],
       "field": "only"
      },
@@ -4735,26 +3703,10 @@
       "field": "also: 1 Watery Borren / Derek Fox"
      },
      {
-      "label": "24 whole",
-      "cells": [
-       "H Deneb Algedi → H Chiron Dec 23.9863 24 whole (9.99)",
-       "J Bellatrix → J Jupiter Dec 23.9871 24 whole (12.67)"
-      ],
-      "field": "also: 3 Avide / Theo Gillard"
-     },
-     {
       "label": "27 whole",
       "cells": [
        "H Nunki → H Jupiter Dec 27.0105 27 whole (22.57)",
        "S Haumea → J Haumea RA 26.9741 27 whole (loose)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "78×φ golden",
-      "cells": [
-       "H Nunki → H Pallas RA 126.2088 78×φ golden (87.10)",
-       "J Deneb Algedi → J Venus RA 126.2154 78×φ golden (53.46)"
       ],
       "field": "only"
      },
@@ -4779,14 +3731,6 @@
       "cells": [
        "S Rahu → J Rahu RA 158.0213 158 whole (loose)",
        "S Ketu → J Ketu RA 158.0213 158 whole (loose)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "9 whole",
-      "cells": [
-       "J Algorab → J Eris Dec 9.0165 9 whole (3.05)",
-       "J Alhena → J Mercury Dec 8.9912 9 whole (31.30)"
       ],
       "field": "only"
      }
@@ -4846,13 +3790,6 @@
        "source_lines": [
         "S Moon → Bellatrix Dec 14.9956 15 whole (61.23)"
        ]
-      },
-      {
-       "text": "J Sirius → J Mars RA 122.0176 122 whole (1.40)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ]
       }
      ]
     },
@@ -4893,13 +3830,6 @@
        "source_lines": [
         "S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)",
         "S Moon → Alphard Dec 0.0111 conj (92.71)"
-       ]
-      },
-      {
-       "text": "S Sirius → H Jupiter RA 119.7577 74×φ golden (8.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
        ]
       }
      ],
@@ -4947,13 +3877,6 @@
        "source_lines": [
         "S Moon → Bellatrix Dec 14.9956 15 whole (61.23)"
        ]
-      },
-      {
-       "text": "H Sirius → H Sedna RA 42.9921 43 whole (36.41)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ]
       }
      ],
      "other_chart_same_body": [],
@@ -4970,13 +3893,6 @@
      ],
      "on_this_chart": [
       {
-       "text": "H Deneb Algedi → H Orcus Dec 3.9889 4 whole (19.76)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ]
-      },
-      {
        "text": "H Nunki → H Orcus RA 126.9959 127 whole (62.84)",
        "layer": "star rows",
        "source_lines": [
@@ -4987,15 +3903,7 @@
      "other_chart_same_body": [
       "S Orcus → J Orcus Dec 13.3908 13.3333 ninth (loose)"
      ],
-     "on_other_chart": [
-      {
-       "text": "J Algorab → J Orcus Dec 15.9947 16 whole (54.37)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "H",
@@ -5005,13 +3913,6 @@
      ],
      "body_lines": [],
      "on_this_chart": [
-      {
-       "text": "H Adhara → H Gonggong RA 128.0069 128 whole (42.96)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ]
-      },
       {
        "text": "H Ankaa → H Gonggong Dec 30.9912 31 whole (31.58)",
        "layer": "star rows",
@@ -5028,24 +3929,10 @@
        "source_lines": []
       },
       {
-       "text": "J Adhara → J Gonggong RA 133.3854 133.333 ninth (93.75)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ]
-      },
-      {
        "text": "J Bellatrix → J Gonggong RA 110.0097 110 whole (26.77)",
        "layer": "star rows",
        "source_lines": [
         "S Moon → Bellatrix Dec 14.9956 15 whole (61.23)"
-       ]
-      },
-      {
-       "text": "J Sirius → J Gonggong RA 130.0157 130 whole (4.61)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
        ]
       }
      ]
@@ -5072,13 +3959,6 @@
        "text": "S Jupiter → J Transpluto RA 0.0733 conj (90.46)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "J Sirius → J Transpluto Dec 29.9895 30 whole (22.66)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ]
       }
      ]
     },
@@ -5100,13 +3980,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Moon → Bellatrix Dec 14.9956 15 whole (61.23)"
-       ]
-      },
-      {
-       "text": "J Sirius → J Mars RA 122.0176 122 whole (1.40)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
        ]
       }
      ],
@@ -5130,24 +4003,9 @@
       "S Uranus → J Uranus RA 110.4684 10×φ^5 phi power (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "J Adhara → J Uranus RA 152.9987 153 whole (87.59)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
-      {
-       "text": "H Algorab → H Uranus RA 148.9841 149 whole (4.28)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      },
       {
        "text": "H Ankaa → H Uranus Dec 57.0034 57 whole (68.96)",
        "layer": "star rows",
@@ -5186,36 +4044,15 @@
        "source_lines": [
         "S Moon → Bellatrix Dec 14.9956 15 whole (61.23)"
        ]
-      },
-      {
-       "text": "J Sirius → J Pluto Dec 6.9890 7 whole (20.34)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ]
       }
      ],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
-       "text": "H Algorab → H Pluto Dec 5.9965 6 whole (67.98)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      },
-      {
        "text": "H Alhena → H Pluto RA 160.0087 160 whole (31.98)",
        "layer": "star rows",
        "source_lines": [
         "S Sun → Alhena Dec 32.3610 20×φ golden (97.89)"
-       ]
-      },
-      {
-       "text": "H Sirius → H Pluto RA 161.8644 100×φ^1 phi power (85.50)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
        ]
       }
      ]
@@ -5229,13 +4066,6 @@
      "body_lines": [],
      "on_this_chart": [
       {
-       "text": "J Algorab → J Juno RA 1.4746 conj (0.03)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      },
-      {
        "text": "J Alhena → J Juno Dec 18.9982 19 whole (82.97)",
        "layer": "star rows",
        "source_lines": [
@@ -5247,13 +4077,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)"
-       ]
-      },
-      {
-       "text": "J Deneb Algedi → J Juno RA 140.7597 87×φ golden (51.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
        ]
       }
      ],
@@ -5272,13 +4095,6 @@
        "source_lines": [
         "S Moon → Bellatrix Dec 14.9956 15 whole (61.23)"
        ]
-      },
-      {
-       "text": "H Sirius → H Juno RA 156.9613 97×φ golden (39.66)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ]
       }
      ]
     },
@@ -5289,15 +4105,7 @@
       "S Rahu → J Rahu RA 166.2813 166.667 ninth (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "J Algorab → J Rahu Dec 24.0177 24 whole (1.35)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -5332,17 +4140,9 @@
      ],
      "on_this_chart": [
       {
-       "text": "J Deneb Algedi → J Haumea RA 131.0525 81×φ golden (55.70)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ]
-      },
-      {
        "text": "J Zubenelgenubi → J Haumea RA 27.0176 27 whole (1.43)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ]
       }
@@ -5369,13 +4169,6 @@
        "source_lines": [
         "S Jupiter → Capella Dec 31.9990 32 whole (89.78)"
        ]
-      },
-      {
-       "text": "H Sirius → H Haumea Dec 31.9834 32 whole (2.94)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ]
       }
      ]
     },
@@ -5388,15 +4181,7 @@
      "body_lines": [],
      "on_this_chart": [],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Algorab → H Makemake Dec 39.0154 39 whole (5.35)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -5407,26 +4192,11 @@
      "body_lines": [
       "S Jupiter → Orcus RA 14.5618 9×φ golden (96.78)"
      ],
-     "on_this_chart": [
-      {
-       "text": "J Algorab → J Orcus Dec 15.9947 16 whole (54.37)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [
       "S Orcus → H Orcus Dec 1.7695 1.77778 ninth (loose)"
      ],
      "on_other_chart": [
-      {
-       "text": "H Deneb Algedi → H Orcus Dec 3.9889 4 whole (19.76)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ]
-      },
       {
        "text": "H Nunki → H Orcus RA 126.9959 127 whole (62.84)",
        "layer": "star rows",
@@ -5442,18 +4212,8 @@
      "same_body": [
       "S Ketu → J Ketu RA 166.2813 166.667 ninth (loose)"
      ],
-     "body_lines": [
-      "S Jupiter → Ketu RA 1.4795 conj (0.02)"
-     ],
-     "on_this_chart": [
-      {
-       "text": "J Algorab → J Ketu Dec 9.0135 9 whole (10.53)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      }
-     ],
+     "body_lines": [],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -5530,18 +4290,6 @@
         "Mars"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Sirius → J Mars RA 122.0176 122 whole (1.40)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Mars"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen"
       }
      ]
     },
@@ -5615,18 +4363,6 @@
        "field": "only"
       },
       {
-       "text": "S Sirius → H Jupiter RA 119.7577 74×φ golden (8.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Jupiter"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
        "text": "S Sun → J Jupiter RA 110.9330 10×φ^5 phi power (89.02)",
        "layer": "top rows",
        "source_lines": [],
@@ -5697,18 +4433,6 @@
         "Sedna"
        ],
        "field": "also: 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "H Sirius → H Sedna RA 42.9921 43 whole (36.41)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Sedna"
-       ],
-       "field": "also: 4 Risky Obsession / Harry Skelton"
       }
      ]
     },
@@ -5726,18 +4450,6 @@
         "Orcus"
        ],
        "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "H Deneb Algedi → H Orcus Dec 3.9889 4 whole (19.76)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Orcus"
-       ],
-       "field": "only"
       },
       {
        "text": "H Nunki → H Orcus RA 126.9959 127 whole (62.84)",
@@ -5762,18 +4474,6 @@
         "Orcus"
        ],
        "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "J Algorab → J Orcus Dec 15.9947 16 whole (54.37)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Orcus"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -5786,18 +4486,6 @@
        "source_lines": [],
        "key": [
         "same body",
-        "Gonggong"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "H Adhara → H Gonggong RA 128.0069 128 whole (42.96)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
         "Gonggong"
        ],
        "field": "also: 2 Aqua Bleu / Sean Bowen"
@@ -5825,18 +4513,6 @@
        "field": "only"
       },
       {
-       "text": "J Adhara → J Gonggong RA 133.3854 133.333 ninth (93.75)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Gonggong"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
-      },
-      {
        "text": "J Bellatrix → J Gonggong RA 110.0097 110 whole (26.77)",
        "layer": "star rows",
        "source_lines": [
@@ -5844,18 +4520,6 @@
        ],
        "key": [
         "Bellatrix",
-        "Gonggong"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Sirius → J Gonggong RA 130.0157 130 whole (4.61)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
         "Gonggong"
        ],
        "field": "only"
@@ -5896,18 +4560,6 @@
         "Transpluto"
        ],
        "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "J Sirius → J Transpluto Dec 29.9895 30 whole (22.66)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Transpluto"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen"
       }
      ]
     },
@@ -5925,18 +4577,6 @@
        "field": "also: 1 Watery Borren / Derek Fox"
       },
       {
-       "text": "H Algorab → H Saturn Dec 0.1759 conj (17.11)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Saturn"
-       ],
-       "field": "also: 4 Risky Obsession / Harry Skelton"
-      },
-      {
        "text": "H Bellatrix → H Saturn RA 122.0044 122 whole (60.80)",
        "layer": "star rows",
        "source_lines": [
@@ -5949,34 +4589,9 @@
        "field": "only"
       },
       {
-       "text": "H Sirius → H Saturn RA 142.0069 142 whole (43.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Saturn"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "H Sirius → H Saturn Dec 0.0336 conj (78.85)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Saturn"
-       ],
-       "field": "only"
-      },
-      {
        "text": "J Zubenelgenubi → J Saturn Dec 20.0182 20 whole (0.80)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ],
        "key": [
@@ -5984,411 +4599,6 @@
         "Saturn"
        ],
        "field": "also: 1 Watery Borren / Derek Fox"
-      }
-     ]
-    },
-    {
-     "body": "Venus",
-     "cells": [
-      {
-       "text": "H Algorab → H Venus Dec 0.2214 conj (6.86)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Venus"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
-       "text": "H Nunki → H Venus RA 1.1520 conj (5.38)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Nunki RA 95.0039 95 whole (65.03)"
-       ],
-       "key": [
-        "Nunki",
-        "Venus"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "H Sirius → H Venus Dec 0.0119 conj (92.20)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Venus"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Moon → J Venus RA 100.3214 62×φ golden (80.41)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Moon",
-        "Venus"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Adhara → J Venus Dec 13.9862 14 whole (9.62)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Venus"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "J Alphard → J Venus RA 147.2284 91×φ golden (36.98)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)",
-        "S Moon → Alphard Dec 0.0111 conj (92.71)"
-       ],
-       "key": [
-        "Alphard",
-        "Venus"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "J Capella → J Venus Dec 60.9887 61 whole (19.06)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Capella Dec 31.9990 32 whole (89.78)"
-       ],
-       "key": [
-        "Capella",
-        "Venus"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
-      }
-     ]
-    },
-    {
-     "body": "Uranus",
-     "cells": [
-      {
-       "text": "H Algorab → H Uranus RA 148.9841 149 whole (4.28)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Uranus"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
-       "text": "H Ankaa → H Uranus Dec 57.0034 57 whole (68.96)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)"
-       ],
-       "key": [
-        "Ankaa",
-        "Uranus"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
-       "text": "H Nunki → H Uranus Dec 40.9885 41 whole (18.03)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Nunki RA 95.0039 95 whole (65.03)"
-       ],
-       "key": [
-        "Nunki",
-        "Uranus"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
-       "text": "S Uranus → J Uranus RA 110.4684 10×φ^5 phi power (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Uranus"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "J Adhara → J Uranus RA 152.9987 153 whole (87.59)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Uranus"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton"
-      }
-     ]
-    },
-    {
-     "body": "Pluto",
-     "cells": [
-      {
-       "text": "H Algorab → H Pluto Dec 5.9965 6 whole (67.98)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Pluto"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "H Alhena → H Pluto RA 160.0087 160 whole (31.98)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Alhena Dec 32.3610 20×φ golden (97.89)"
-       ],
-       "key": [
-        "Alhena",
-        "Pluto"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "H Sirius → H Pluto RA 161.8644 100×φ^1 phi power (85.50)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Pluto"
-       ],
-       "field": "also: 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "S Pluto → J Pluto RA 58.2456 36×φ golden (79.03)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Pluto"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "J Alphard → J Pluto RA 106.0011 106 whole (89.61)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)",
-        "S Moon → Alphard Dec 0.0111 conj (92.71)"
-       ],
-       "key": [
-        "Alphard",
-        "Pluto"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "J Bellatrix → J Pluto RA 166.6171 166.667 ninth (95.75)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Bellatrix Dec 14.9956 15 whole (61.23)"
-       ],
-       "key": [
-        "Bellatrix",
-        "Pluto"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "J Sirius → J Pluto Dec 6.9890 7 whole (20.34)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Pluto"
-       ],
-       "field": "also: 4 Risky Obsession / Harry Skelton"
-      }
-     ]
-    },
-    {
-     "body": "Chiron",
-     "cells": [
-      {
-       "text": "H Algorab → H Chiron RA 179.6108 111×φ golden (51.84)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Chiron"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
-       "text": "H Ankaa → H Chiron RA 1.2899 conj (1.96)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)"
-       ],
-       "key": [
-        "Ankaa",
-        "Chiron"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Sun → J Chiron Dec 0.1631 conj (20.82)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Sun",
-        "Chiron"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "J Zubenelgenubi → J Chiron Dec 0.2430 conj (3.61)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
-        "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
-       ],
-       "key": [
-        "Zubenelgenubi",
-        "Chiron"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Ceres",
-     "cells": [
-      {
-       "text": "H Algorab → H Ceres RA 129.4497 80×φ golden (61.29)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Ceres"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
-       "text": "H Algorab → H Ceres Dec 37.0092 37 whole (28.91)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Ceres"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
-       "text": "H Bellatrix → H Ceres Dec 14.1440 14.14 sqrt2 (94.75)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Bellatrix Dec 14.9956 15 whole (61.23)"
-       ],
-       "key": [
-        "Bellatrix",
-        "Ceres"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
-       "text": "H Sirius → H Ceres Dec 37.2187 23×φ golden (76.99)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Ceres"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
-      },
-      {
-       "text": "S Moon → J Ceres RA 168.9961 169 whole (64.86)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Moon",
-        "Ceres"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Ankaa → J Ceres Dec 32.3620 20×φ golden (91.75)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)"
-       ],
-       "key": [
-        "Ankaa",
-        "Ceres"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Nunki → J Ceres RA 73.9945 74 whole (52.37)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Nunki RA 95.0039 95 whole (65.03)"
-       ],
-       "key": [
-        "Nunki",
-        "Ceres"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Makemake",
-     "cells": [
-      {
-       "text": "H Algorab → H Makemake Dec 39.0154 39 whole (5.35)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Makemake"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
-       "text": "S Makemake → J Makemake RA 24.1118 24.14 silver (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Makemake"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
       }
      ]
     },
@@ -6425,30 +4635,6 @@
        "field": "also: 2 Aqua Bleu / Sean Bowen"
       },
       {
-       "text": "H Deneb Algedi → H Neptune RA 25.8810 16×φ golden (58.96)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Neptune"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Algorab → J Neptune RA 114.8692 71×φ golden (42.52)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Neptune"
-       ],
-       "field": "only"
-      },
-      {
        "text": "J Alphard → J Neptune Dec 11.0930 φ^5 phi power (90.11)",
        "layer": "star rows",
        "source_lines": [
@@ -6458,6 +4644,58 @@
        "key": [
         "Alphard",
         "Neptune"
+       ],
+       "field": "also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
+      }
+     ]
+    },
+    {
+     "body": "Pluto",
+     "cells": [
+      {
+       "text": "H Alhena → H Pluto RA 160.0087 160 whole (31.98)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Alhena Dec 32.3610 20×φ golden (97.89)"
+       ],
+       "key": [
+        "Alhena",
+        "Pluto"
+       ],
+       "field": "also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
+      },
+      {
+       "text": "S Pluto → J Pluto RA 58.2456 36×φ golden (79.03)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Pluto"
+       ],
+       "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen"
+      },
+      {
+       "text": "J Alphard → J Pluto RA 106.0011 106 whole (89.61)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)",
+        "S Moon → Alphard Dec 0.0111 conj (92.71)"
+       ],
+       "key": [
+        "Alphard",
+        "Pluto"
+       ],
+       "field": "also: 2 Aqua Bleu / Sean Bowen"
+      },
+      {
+       "text": "J Bellatrix → J Pluto RA 166.6171 166.667 ninth (95.75)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Bellatrix Dec 14.9956 15 whole (61.23)"
+       ],
+       "key": [
+        "Bellatrix",
+        "Pluto"
        ],
        "field": "also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
       }
@@ -6491,35 +4729,11 @@
        "field": "also: 1 Watery Borren / Derek Fox"
       },
       {
-       "text": "H Sirius → H Juno RA 156.9613 97×φ golden (39.66)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Juno"
-       ],
-       "field": "only"
-      },
-      {
        "text": "S Juno → J Juno RA 118.0074 118 whole (39.50)",
        "layer": "same body",
        "source_lines": [],
        "key": [
         "same body",
-        "Juno"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Algorab → J Juno RA 1.4746 conj (0.03)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
         "Juno"
        ],
        "field": "only"
@@ -6547,18 +4761,6 @@
         "Juno"
        ],
        "field": "also: 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "J Deneb Algedi → J Juno RA 140.7597 87×φ golden (51.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Juno"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -6602,18 +4804,6 @@
        "field": "also: 2 Aqua Bleu / Sean Bowen"
       },
       {
-       "text": "H Sirius → H Haumea Dec 31.9834 32 whole (2.94)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Haumea"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton"
-      },
-      {
        "text": "S Haumea → J Haumea Dec 8.0218 8 whole (loose)",
        "layer": "same body",
        "source_lines": [
@@ -6627,22 +4817,9 @@
        "field": "also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
       },
       {
-       "text": "J Deneb Algedi → J Haumea RA 131.0525 81×φ golden (55.70)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Haumea"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
-      },
-      {
        "text": "J Zubenelgenubi → J Haumea RA 27.0176 27 whole (1.43)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ],
        "key": [
@@ -6683,24 +4860,139 @@
       {
        "text": "S Ketu → J Ketu RA 166.2813 166.667 ninth (loose)",
        "layer": "same body",
-       "source_lines": [
-        "S Jupiter → Ketu RA 1.4795 conj (0.02)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Ketu"
        ],
        "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen"
-      },
+      }
+     ]
+    },
+    {
+     "body": "Uranus",
+     "cells": [
       {
-       "text": "J Algorab → J Ketu Dec 9.0135 9 whole (10.53)",
+       "text": "H Ankaa → H Uranus Dec 57.0034 57 whole (68.96)",
        "layer": "star rows",
        "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
+        "S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)"
        ],
        "key": [
-        "Algorab",
-        "Ketu"
+        "Ankaa",
+        "Uranus"
+       ],
+       "field": "also: 1 Watery Borren / Derek Fox"
+      },
+      {
+       "text": "H Nunki → H Uranus Dec 40.9885 41 whole (18.03)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Nunki RA 95.0039 95 whole (65.03)"
+       ],
+       "key": [
+        "Nunki",
+        "Uranus"
+       ],
+       "field": "also: 1 Watery Borren / Derek Fox"
+      },
+      {
+       "text": "S Uranus → J Uranus RA 110.4684 10×φ^5 phi power (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Uranus"
+       ],
+       "field": "also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton"
+      }
+     ]
+    },
+    {
+     "body": "Chiron",
+     "cells": [
+      {
+       "text": "H Ankaa → H Chiron RA 1.2899 conj (1.96)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)"
+       ],
+       "key": [
+        "Ankaa",
+        "Chiron"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "S Sun → J Chiron Dec 0.1631 conj (20.82)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Sun",
+        "Chiron"
+       ],
+       "field": "also: 2 Aqua Bleu / Sean Bowen"
+      },
+      {
+       "text": "J Zubenelgenubi → J Chiron Dec 0.2430 conj (3.61)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
+       ],
+       "key": [
+        "Zubenelgenubi",
+        "Chiron"
+       ],
+       "field": "only"
+      }
+     ]
+    },
+    {
+     "body": "Ceres",
+     "cells": [
+      {
+       "text": "H Bellatrix → H Ceres Dec 14.1440 14.14 sqrt2 (94.75)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Bellatrix Dec 14.9956 15 whole (61.23)"
+       ],
+       "key": [
+        "Bellatrix",
+        "Ceres"
+       ],
+       "field": "also: 1 Watery Borren / Derek Fox"
+      },
+      {
+       "text": "S Moon → J Ceres RA 168.9961 169 whole (64.86)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Moon",
+        "Ceres"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Ankaa → J Ceres Dec 32.3620 20×φ golden (91.75)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)"
+       ],
+       "key": [
+        "Ankaa",
+        "Ceres"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Nunki → J Ceres RA 73.9945 74 whole (52.37)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Nunki RA 95.0039 95 whole (65.03)"
+       ],
+       "key": [
+        "Nunki",
+        "Ceres"
        ],
        "field": "only"
       }
@@ -6730,81 +5022,56 @@
         "Rahu"
        ],
        "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "J Algorab → J Rahu Dec 24.0177 24 whole (1.35)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Rahu"
-       ],
-       "field": "only"
       }
      ]
     },
     {
-     "body": "Sun",
+     "body": "Venus",
      "cells": [
       {
-       "text": "H Deneb Algedi → H Sun RA 0.9898 1 whole (23.85)",
+       "text": "H Nunki → H Venus RA 1.1520 conj (5.38)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
+        "S Moon → Nunki RA 95.0039 95 whole (65.03)"
        ],
        "key": [
-        "Deneb Algedi",
-        "Sun"
+        "Nunki",
+        "Venus"
        ],
        "field": "only"
       },
       {
-       "text": "H Sirius → H Sun Dec 3.0187 3 whole (0.42)",
+       "text": "S Moon → J Venus RA 100.3214 62×φ golden (80.41)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Moon",
+        "Venus"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Alphard → J Venus RA 147.2284 91×φ golden (36.98)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
+        "S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)",
+        "S Moon → Alphard Dec 0.0111 conj (92.71)"
        ],
        "key": [
-        "Sirius",
-        "Sun"
+        "Alphard",
+        "Venus"
        ],
        "field": "also: 2 Aqua Bleu / Sean Bowen"
       },
       {
-       "text": "J Algorab → J Sun Dec 0.0253 conj (83.87)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Sun"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "J Capella → J Sun RA 122.2305 122.222 ninth (98.86)",
+       "text": "J Capella → J Venus Dec 60.9887 61 whole (19.06)",
        "layer": "star rows",
        "source_lines": [
         "S Jupiter → Capella Dec 31.9990 32 whole (89.78)"
        ],
        "key": [
         "Capella",
-        "Sun"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
-       "text": "J Sirius → J Sun Dec 0.2275 conj (5.84)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Sun"
+        "Venus"
        ],
        "field": "also: 2 Aqua Bleu / Sean Bowen"
       }
@@ -6824,18 +5091,6 @@
         "Pallas"
        ],
        "field": "also: 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "J Adhara → J Pallas RA 145.0187 145 whole (0.44)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Pallas"
-       ],
-       "field": "only"
       },
       {
        "text": "J Alphard → J Pallas RA 177.7411 177.778 ninth (97.13)",
@@ -6871,7 +5126,6 @@
        "text": "H Zubenelgenubi → H Quaoar RA 53.9882 54 whole (16.61)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ],
        "key": [
@@ -6879,18 +5133,6 @@
         "Quaoar"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Adhara → J Quaoar Dec 14.1446 14.14 sqrt2 (93.18)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Quaoar"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
       },
       {
        "text": "J Bellatrix → J Quaoar RA 164.0000 164 whole (99.62)",
@@ -6903,18 +5145,6 @@
         "Quaoar"
        ],
        "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
-       "text": "J Sirius → J Quaoar RA 143.9939 144 whole (48.35)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Quaoar"
-       ],
-       "field": "also: 4 Risky Obsession / Harry Skelton"
       }
      ]
     },
@@ -6930,6 +5160,38 @@
         "Eris"
        ],
        "field": "also: 4 Risky Obsession / Harry Skelton"
+      }
+     ]
+    },
+    {
+     "body": "Makemake",
+     "cells": [
+      {
+       "text": "S Makemake → J Makemake RA 24.1118 24.14 silver (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Makemake"
+       ],
+       "field": "also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
+      }
+     ]
+    },
+    {
+     "body": "Sun",
+     "cells": [
+      {
+       "text": "J Capella → J Sun RA 122.2305 122.222 ninth (98.86)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Capella Dec 31.9990 32 whole (89.78)"
+       ],
+       "key": [
+        "Capella",
+        "Sun"
+       ],
+       "field": "also: 1 Watery Borren / Derek Fox"
       }
      ]
     }
@@ -6956,13 +5218,6 @@
     "2": [],
     "3": [
      {
-      "label": "32 whole",
-      "cells": [
-       "H Sirius → H Haumea Dec 31.9834 32 whole (2.94) = S Jupiter → Capella Dec 31.9990 32 whole (89.78)"
-      ],
-      "field": "also: 2 Aqua Bleu / Sean Bowen"
-     },
-     {
       "label": "177.778 ninth",
       "cells": [
        "J Alphard → J Pallas RA 177.7411 177.778 ninth (97.13) = S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)"
@@ -6983,14 +5238,7 @@
       "cells": [
        "S Gonggong → H Gonggong Dec 1.0081 1 whole (35.13)"
       ],
-      "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
-     },
-     {
-      "label": "6 = 360/60",
-      "cells": [
-       "H Algorab → H Pluto Dec 5.9965 6 whole (67.98)"
-      ],
-      "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen"
+      "field": "also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton"
      },
      {
       "label": "36 = 360/10",
@@ -7014,27 +5262,6 @@
       "field": "also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
      },
      {
-      "label": "1 = 360/360",
-      "cells": [
-       "H Deneb Algedi → H Sun RA 0.9898 1 whole (23.85)"
-      ],
-      "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
-     },
-     {
-      "label": "4 = 360/90",
-      "cells": [
-       "H Deneb Algedi → H Orcus Dec 3.9889 4 whole (19.76)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "3 = 360/120",
-      "cells": [
-       "H Sirius → H Sun Dec 3.0187 3 whole (0.42)"
-      ],
-      "field": "also: 4 Risky Obsession / Harry Skelton"
-     },
-     {
       "label": "4 = 360/90",
       "cells": [
        "S Eris → J Eris RA 3.9997 4 whole (96.90)"
@@ -7049,32 +5276,11 @@
       "field": "only"
      },
      {
-      "label": "24 = 360/15",
-      "cells": [
-       "J Algorab → J Rahu Dec 24.0177 24 whole (1.35)"
-      ],
-      "field": "also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton"
-     },
-     {
-      "label": "9 = 360/40",
-      "cells": [
-       "J Algorab → J Ketu Dec 9.0135 9 whole (10.53)"
-      ],
-      "field": "also: 2 Aqua Bleu / Sean Bowen"
-     },
-     {
-      "label": "30 = 360/12",
-      "cells": [
-       "J Sirius → J Transpluto Dec 29.9895 30 whole (22.66)"
-      ],
-      "field": "also: 2 Aqua Bleu / Sean Bowen"
-     },
-     {
       "label": "20 = 360/18",
       "cells": [
        "J Zubenelgenubi → J Saturn Dec 20.0182 20 whole (0.80)"
       ],
-      "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen"
+      "field": "also: 1 Watery Borren / Derek Fox"
      }
     ],
     "5": [
@@ -7089,66 +5295,10 @@
       "field": "only"
      },
      {
-      "label": "1 whole",
-      "cells": [
-       "S Gonggong → H Gonggong Dec 1.0081 1 whole (35.13)",
-       "H Deneb Algedi → H Sun RA 0.9898 1 whole (23.85)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "149 whole",
-      "cells": [
-       "H Algorab → H Uranus RA 148.9841 149 whole (4.28)",
-       "H Ankaa → H Haumea RA 149.0114 149 whole (18.54)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "36 whole",
       "cells": [
        "H Alhena → H Mercury Dec 35.9823 36 whole (1.33)",
        "H Alhena → H Ketu Dec 35.9888 36 whole (19.43)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "122 whole",
-      "cells": [
-       "H Bellatrix → H Saturn RA 122.0044 122 whole (60.80)",
-       "J Sirius → J Mars RA 122.0176 122 whole (1.40)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "14.14 sqrt2",
-      "cells": [
-       "H Bellatrix → H Ceres Dec 14.1440 14.14 sqrt2 (94.75)",
-       "J Adhara → J Quaoar Dec 14.1446 14.14 sqrt2 (93.18)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "24 whole",
-      "cells": [
-       "H Capella → H Rahu RA 23.9906 24 whole (28.29)",
-       "J Algorab → J Rahu Dec 24.0177 24 whole (1.35)"
-      ],
-      "field": "also: 2 Aqua Bleu / Sean Bowen"
-     },
-     {
-      "label": "16×φ golden",
-      "cells": [
-       "H Deneb Algedi → H Neptune RA 25.8810 16×φ golden (58.96)",
-       "S Mars → J Mars Dec 25.8798 16×φ golden (loose)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "4 whole",
-      "cells": [
-       "H Deneb Algedi → H Orcus Dec 3.9889 4 whole (19.76)",
-       "S Eris → J Eris RA 3.9997 4 whole (96.90)"
       ],
       "field": "only"
      },
@@ -7204,15 +5354,7 @@
       "S Mercury → H Mercury RA 140.0175 140 whole (1.52)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "H Deneb Algedi → H Mercury Dec 35.0083 35 whole (34.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -7226,7 +5368,6 @@
        "text": "J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ]
       }
@@ -7250,15 +5391,7 @@
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "J Adhara → J Vesta Dec 2.9883 3 whole (17.19)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "H",
@@ -7267,15 +5400,7 @@
       "S Eris → H Eris Dec 1.0063 1 whole (46.71)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "H Deneb Algedi → H Eris RA 59.9821 60 whole (1.13)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -7311,21 +5436,12 @@
        "text": "J Zubenelgenubi → J Venus Dec 0.2933 conj (0.05)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ]
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Deneb Algedi → H Venus Dec 40.0009 40 whole (91.16)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -7334,22 +5450,7 @@
       "S Uranus → J Uranus RA 150.4667 93×φ golden (45.88)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "J Adhara → J Uranus RA 167.0102 167 whole (24.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ]
-      },
-      {
-       "text": "J Sirius → J Uranus Dec 6.9930 7 whole (42.42)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": []
     },
@@ -7394,37 +5495,15 @@
      "body_lines": [],
      "on_this_chart": [
       {
-       "text": "J Adhara → J Ceres Dec 49.9839 50 whole (3.72)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ]
-      },
-      {
        "text": "J Capella → J Ceres Dec 24.9810 25 whole (0.25)",
        "layer": "star rows",
        "source_lines": [
         "S Jupiter → Capella Dec 31.9990 32 whole (89.78)"
        ]
-      },
-      {
-       "text": "J Sirius → J Ceres RA 11.3217 7×φ golden (74.16)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ]
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Deneb Algedi → H Ceres RA 76.9850 77 whole (6.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -7436,29 +5515,7 @@
       "S Sun → Haumea RA 0.5461 conj (40.44)",
       "S Moon → Haumea Dec 22.0001 22 whole (98.85)"
      ],
-     "on_this_chart": [
-      {
-       "text": "J Algorab → J Haumea RA 0.6881 conj (29.30)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      },
-      {
-       "text": "J Algorab → J Haumea Dec 39.0016 39 whole (84.59)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ]
-      },
-      {
-       "text": "J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -7466,13 +5523,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Sun → Alhena Dec 32.3610 20×φ golden (97.89)"
-       ]
-      },
-      {
-       "text": "H Sirius → H Haumea Dec 32.9908 33 whole (29.14)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
        ]
       }
      ]
@@ -7494,15 +5544,7 @@
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Deneb Algedi → H Makemake RA 129.9823 130 whole (1.37)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -7513,15 +5555,7 @@
      "body_lines": [
       "S Jupiter → Orcus RA 14.5618 9×φ golden (96.78)"
      ],
-     "on_this_chart": [
-      {
-       "text": "J Adhara → J Orcus Dec 33.0139 33 whole (9.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -7539,22 +5573,7 @@
       "S Quaoar → J Quaoar Dec 2.0256 2 whole (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ]
-      },
-      {
-       "text": "J Sirius → J Quaoar RA 131.0625 81×φ golden (89.72)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": []
     },
@@ -7605,18 +5624,6 @@
        "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen"
       },
       {
-       "text": "H Deneb Algedi → H Mercury Dec 35.0083 35 whole (34.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Mercury"
-       ],
-       "field": "only"
-      },
-      {
        "text": "J Ankaa → J Mercury RA 178.0064 178 whole (46.14)",
        "layer": "star rows",
        "source_lines": [
@@ -7632,7 +5639,6 @@
        "text": "J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ],
        "key": [
@@ -7668,18 +5674,6 @@
         "Vesta"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Adhara → J Vesta Dec 2.9883 3 whole (17.19)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Vesta"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
       }
      ]
     },
@@ -7695,18 +5689,6 @@
         "Eris"
        ],
        "field": "also: 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "H Deneb Algedi → H Eris RA 59.9821 60 whole (1.13)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Eris"
-       ],
-       "field": "only"
       },
       {
        "text": "J Alhena → J Eris Dec 25.9946 26 whole (53.09)",
@@ -7807,18 +5789,6 @@
         "Gonggong"
        ],
        "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "J Algorab → J Gonggong RA 141.4748 141.4 sqrt2 (85.45)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Gonggong"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
       }
      ]
     },
@@ -7848,35 +5818,11 @@
        "field": "also: 3 Avide / Theo Gillard"
       },
       {
-       "text": "H Deneb Algedi → H Ketu RA 78.0019 78 whole (81.94)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Ketu"
-       ],
-       "field": "only"
-      },
-      {
        "text": "S Jupiter → J Ketu RA 0.6653 conj (30.97)",
        "layer": "top rows",
        "source_lines": [],
        "key": [
         "S Jupiter",
-        "Ketu"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Adhara → J Ketu Dec 41.9826 42 whole (1.68)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
         "Ketu"
        ],
        "field": "only"
@@ -7931,18 +5877,6 @@
        "field": "also: 2 Aqua Bleu / Sean Bowen"
       },
       {
-       "text": "J Adhara → J Sedna Dec 32.9921 33 whole (36.52)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Sedna"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
        "text": "J Bellatrix → J Sedna RA 39.0080 39 whole (35.87)",
        "layer": "star rows",
        "source_lines": [
@@ -7950,18 +5884,6 @@
        ],
        "key": [
         "Bellatrix",
-        "Sedna"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "J Sirius → J Sedna RA 59.0123 59 whole (14.88)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
         "Sedna"
        ],
        "field": "also: 3 Avide / Theo Gillard"
@@ -7992,18 +5914,6 @@
         "Orcus"
        ],
        "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "J Adhara → J Orcus Dec 33.0139 33 whole (9.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Orcus"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -8047,23 +5957,6 @@
      ]
     },
     {
-     "body": "Saturn",
-     "cells": [
-      {
-       "text": "H Algorab → H Saturn RA 128.0005 128 whole (94.74)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Saturn"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
-      }
-     ]
-    },
-    {
      "body": "Pluto",
      "cells": [
       {
@@ -8089,18 +5982,6 @@
         "Pluto"
        ],
        "field": "also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "H Sirius → H Pluto RA 162.9825 163 whole (1.53)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Pluto"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
       },
       {
        "text": "J Ankaa → J Pluto RA 141.0147 141 whole (6.98)",
@@ -8135,7 +6016,6 @@
        "text": "H Zubenelgenubi → H Juno Dec 11.9882 12 whole (16.78)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ],
        "key": [
@@ -8184,18 +6064,6 @@
        "field": "also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard"
       },
       {
-       "text": "H Sirius → H Haumea Dec 32.9908 33 whole (29.14)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Haumea"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard"
-      },
-      {
        "text": "S Haumea → J Haumea RA 33.9604 21×φ golden (loose)",
        "layer": "same body",
        "source_lines": [
@@ -8207,42 +6075,6 @@
         "Haumea"
        ],
        "field": "also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "J Algorab → J Haumea RA 0.6881 conj (29.30)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Haumea"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
-       "text": "J Algorab → J Haumea Dec 39.0016 39 whole (84.59)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Haumea"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
-       "text": "J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Haumea"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard"
       }
      ]
     },
@@ -8295,7 +6127,6 @@
        "text": "H Zubenelgenubi → H Mars RA 98.0160 98 whole (4.05)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ],
        "key": [
@@ -8308,7 +6139,6 @@
        "text": "H Zubenelgenubi → H Mars Dec 36.9997 37 whole (97.14)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ],
        "key": [
@@ -8316,18 +6146,6 @@
         "Mars"
        ],
        "field": "also: 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "J Algorab → J Mars Dec 16.9995 17 whole (95.41)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algorab RA 1.3493 conj (1.01)"
-       ],
-       "key": [
-        "Algorab",
-        "Mars"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen"
       }
      ]
     },
@@ -8354,27 +6172,7 @@
         "natal Jupiter",
         "Jupiter"
        ],
-       "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "J Jupiter → J star Deneb Algedi RA 132.6713 82×φ golden (58.97)",
-       "layer": "T2",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Jupiter"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "J Jupiter → J star Deneb Algedi Dec 38.9942 39 whole (50.53)",
-       "layer": "T2",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Jupiter"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen"
+       "field": "also: 1 Watery Borren / Derek Fox"
       },
       {
        "text": "S Sun → J Jupiter Dec 38.8310 24×φ golden (89.08)",
@@ -8427,30 +6225,6 @@
         "Jupiter"
        ],
        "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
-       "text": "S Deneb Algedi → J Jupiter RA 132.6721 82×φ golden (62.78)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Jupiter"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.70)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Jupiter"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -8470,18 +6244,6 @@
        "field": "also: 3 Avide / Theo Gillard"
       },
       {
-       "text": "H Deneb Algedi → H Rahu RA 101.9981 102 whole (81.94)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Rahu"
-       ],
-       "field": "only"
-      },
-      {
        "text": "J Capella → J Rahu Dec 59.0120 59 whole (16.05)",
        "layer": "star rows",
        "source_lines": [
@@ -8492,36 +6254,12 @@
         "Rahu"
        ],
        "field": "also: 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "J Deneb Algedi → J Rahu RA 1.0206 conj (10.21)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Rahu"
-       ],
-       "field": "only"
       }
      ]
     },
     {
      "body": "Venus",
      "cells": [
-      {
-       "text": "H Deneb Algedi → H Venus Dec 40.0009 40 whole (91.16)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Venus"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
-      },
       {
        "text": "S Venus → J Venus Dec 3.3253 3.33333 ninth (loose)",
        "layer": "same body",
@@ -8546,7 +6284,6 @@
        "text": "J Zubenelgenubi → J Venus Dec 0.2933 conj (0.05)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
         "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)"
        ],
        "key": [
@@ -8558,20 +6295,23 @@
      ]
     },
     {
-     "body": "Ceres",
+     "body": "Uranus",
      "cells": [
       {
-       "text": "H Deneb Algedi → H Ceres RA 76.9850 77 whole (6.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
+       "text": "S Uranus → J Uranus RA 150.4667 93×φ golden (45.88)",
+       "layer": "same body",
+       "source_lines": [],
        "key": [
-        "Deneb Algedi",
-        "Ceres"
+        "same body",
+        "Uranus"
        ],
-       "field": "only"
-      },
+       "field": "also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard"
+      }
+     ]
+    },
+    {
+     "body": "Ceres",
+     "cells": [
       {
        "text": "S Ceres → J Ceres Dec 3.2400 2×φ golden (loose)",
        "layer": "same body",
@@ -8581,18 +6321,6 @@
         "Ceres"
        ],
        "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
-       "text": "J Adhara → J Ceres Dec 49.9839 50 whole (3.72)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Ceres"
-       ],
-       "field": "only"
       },
       {
        "text": "J Capella → J Ceres Dec 24.9810 25 whole (0.25)",
@@ -8605,36 +6333,12 @@
         "Ceres"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Sirius → J Ceres RA 11.3217 7×φ golden (74.16)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Ceres"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard"
       }
      ]
     },
     {
      "body": "Makemake",
      "cells": [
-      {
-       "text": "H Deneb Algedi → H Makemake RA 129.9823 130 whole (1.37)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Makemake"
-       ],
-       "field": "only"
-      },
       {
        "text": "S Makemake → J Makemake Dec 15.5348 15.5556 ninth (loose)",
        "layer": "same body",
@@ -8654,74 +6358,6 @@
        "key": [
         "Nunki",
         "Makemake"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Pallas",
-     "cells": [
-      {
-       "text": "H Sirius → H Pallas RA 110.0558 68×φ golden (0.79)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Pallas"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Alhena → J Pallas Dec 24.2722 15×φ golden (89.89)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Alhena Dec 32.3610 20×φ golden (97.89)"
-       ],
-       "key": [
-        "Alhena",
-        "Pallas"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Uranus",
-     "cells": [
-      {
-       "text": "S Uranus → J Uranus RA 150.4667 93×φ golden (45.88)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Uranus"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "J Adhara → J Uranus RA 167.0102 167 whole (24.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 13.0066 13 whole (44.85)"
-       ],
-       "key": [
-        "Adhara",
-        "Uranus"
-       ],
-       "field": "also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard"
-      },
-      {
-       "text": "J Sirius → J Uranus Dec 6.9930 7 whole (42.42)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Uranus"
        ],
        "field": "only"
       }
@@ -8749,30 +6385,6 @@
         "Quaoar"
        ],
        "field": "also: 1 Watery Borren / Derek Fox"
-      },
-      {
-       "text": "J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Quaoar"
-       ],
-       "field": "also: 2 Aqua Bleu / Sean Bowen"
-      },
-      {
-       "text": "J Sirius → J Quaoar RA 131.0625 81×φ golden (89.72)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sirius RA 119.9934 120 whole (45.12)"
-       ],
-       "key": [
-        "Sirius",
-        "Quaoar"
-       ],
-       "field": "also: 3 Avide / Theo Gillard"
       }
      ]
     },
@@ -8824,6 +6436,23 @@
        "field": "also: 3 Avide / Theo Gillard"
       }
      ]
+    },
+    {
+     "body": "Pallas",
+     "cells": [
+      {
+       "text": "J Alhena → J Pallas Dec 24.2722 15×φ golden (89.89)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Alhena Dec 32.3610 20×φ golden (97.89)"
+       ],
+       "key": [
+        "Alhena",
+        "Pallas"
+       ],
+       "field": "only"
+      }
+     ]
     }
    ],
    "cases": {
@@ -8845,7 +6474,7 @@
       "cells": [
        "S Eris → H Eris Dec 1.0063 1 whole (46.71)"
       ],
-      "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard"
+      "field": "also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard"
      },
      {
       "label": "36 = 360/10",
@@ -8862,20 +6491,6 @@
       "field": "also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard"
      },
      {
-      "label": "40 = 360/9",
-      "cells": [
-       "H Deneb Algedi → H Venus Dec 40.0009 40 whole (91.16)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "60 = 360/6",
-      "cells": [
-       "H Deneb Algedi → H Eris RA 59.9821 60 whole (1.13)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "12 = 360/30",
       "cells": [
        "H Zubenelgenubi → H Juno Dec 11.9882 12 whole (16.78)"
@@ -8890,25 +6505,11 @@
       "field": "also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen"
      },
      {
-      "label": "3 = 360/120",
-      "cells": [
-       "J Adhara → J Vesta Dec 2.9883 3 whole (17.19)"
-      ],
-      "field": "also: 3 Avide / Theo Gillard"
-     },
-     {
       "label": "45 = 360/8",
       "cells": [
        "J Alhena → J Transpluto RA 44.9863 45 whole (9.78)"
       ],
       "field": "only"
-     },
-     {
-      "label": "3 = 360/120",
-      "cells": [
-       "J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)"
-      ],
-      "field": "also: 3 Avide / Theo Gillard"
      },
      {
       "label": "10 = 360/36",
@@ -8919,22 +6520,6 @@
      }
     ],
     "5": [
-     {
-      "label": "140 whole",
-      "cells": [
-       "S Mercury → H Mercury RA 140.0175 140 whole (1.52)",
-       "J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "7 whole",
-      "cells": [
-       "S Jupiter → H Chiron Dec 7.0010 7 whole (89.91)",
-       "J Sirius → J Uranus Dec 6.9930 7 whole (42.42)"
-      ],
-      "field": "only"
-     },
      {
       "label": "15×φ golden",
       "cells": [
@@ -8963,46 +6548,9 @@
       "label": "39 whole",
       "cells": [
        "H Capella → H Chiron Dec 39.0010 39 whole (89.87)",
-       "J Jupiter → J star Deneb Algedi Dec 38.9942 39 whole (50.53)",
-       "J Algorab → J Haumea Dec 39.0016 39 whole (84.59)",
-       "J Bellatrix → J Sedna RA 39.0080 39 whole (35.87)",
-       "S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.70)"
+       "J Bellatrix → J Sedna RA 39.0080 39 whole (35.87)"
       ],
       "field": "also: 2 Aqua Bleu / Sean Bowen"
-     },
-     {
-      "label": "33 whole",
-      "cells": [
-       "H Sirius → H Haumea Dec 32.9908 33 whole (29.14)",
-       "J Adhara → J Sedna Dec 32.9921 33 whole (36.52)",
-       "J Adhara → J Orcus Dec 33.0139 33 whole (9.17)",
-       "J Capella → J Ketu Dec 32.9823 33 whole (1.27)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "82×φ golden",
-      "cells": [
-       "J Jupiter → J star Deneb Algedi RA 132.6713 82×φ golden (58.97)",
-       "S Deneb Algedi → J Jupiter RA 132.6721 82×φ golden (62.78)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "3 whole",
-      "cells": [
-       "J Adhara → J Vesta Dec 2.9883 3 whole (17.19)",
-       "J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "59 whole",
-      "cells": [
-       "J Capella → J Rahu Dec 59.0120 59 whole (16.05)",
-       "J Sirius → J Sedna RA 59.0123 59 whole (14.88)"
-      ],
-      "field": "only"
      }
     ]
    }
@@ -9017,19 +6565,13 @@
    "S Jupiter → Orcus RA 14.5618 9×φ golden (96.78)",
    "S Jupiter → Capella Dec 31.9990 32 whole (89.78)",
    "S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)",
-   "S Jupiter → Ketu RA 1.4795 conj (0.02)",
    "S Sun → Haumea RA 0.5461 conj (40.44)",
    "S Sun → Alhena Dec 32.3610 20×φ golden (97.89)",
-   "S Sun → Sirius RA 119.9934 120 whole (45.12)",
-   "S Sun → Adhara Dec 13.0066 13 whole (44.85)",
-   "S Sun → Zubenelgenubi RA 1.4335 conj (0.20)",
    "S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)",
-   "S Sun → Deneb Algedi Dec 0.1676 conj (19.47)",
    "S Moon → Haumea Dec 22.0001 22 whole (98.85)",
    "S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)",
    "S Moon → Bellatrix Dec 14.9956 15 whole (61.23)",
    "S Moon → Alphard Dec 0.0111 conj (92.71)",
-   "S Moon → Algorab RA 1.3493 conj (1.01)",
    "S Moon → Nunki RA 95.0039 95 whole (65.03)"
   ]
  }

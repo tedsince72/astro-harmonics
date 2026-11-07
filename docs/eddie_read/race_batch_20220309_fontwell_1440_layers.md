@@ -14,9 +14,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Jupiter → Moon RA 81.0021 81 whole (80.22)
 - S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
 - S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-- S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-- S Jupiter → Scheat RA 1.2262 conj (3.33)
-- S Jupiter → Markab RA 0.9799 conj (12.02)
 - S Sun → Uranus Dec 19.4155 12×φ golden (94.70)
 - S Sun → Haumea Dec 19.9944 20 whole (52.20)
 - S Sun → Zosma Dec 24.9947 25 whole (54.14)
@@ -29,7 +26,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Vesta RA 126.9981 127 whole (81.81)
 - S Moon → Makemake Dec 0.0216 conj (86.14)
 - S Moon → Aldebaran RA 0.8126 conj (21.00)
-- S Moon → Capella RA 11.0061 11 whole (48.14)
 - S Moon → Murzim RA 27.5095 17×φ golden (82.56)
 - Hubs: Saturn, Venus, Vesta
 
@@ -58,13 +54,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, same body: S Venus → J Venus Dec 1.6070 1×φ golden (loose)
   - other chart, star rows: J Denebola → J Venus RA 113.9905 114 whole (27.80)
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - other chart, star rows: J Markab → J Venus Dec 30.0161 30 whole (3.84)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 - **H Mars** (same body: S Mars → H Mars Dec 17.6547 17.7778 ninth (loose))
-  - star rows: H Capella → H Mars RA 111.6453 69×φ golden (94.00)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: H Scheat → H Mars Dec 31.0128 31 whole (13.13)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **H Jupiter** (same body: S Jupiter → H Jupiter RA 118.9798 119 whole (loose))
   - sky line to Jupiter: S Moon → Jupiter RA 81.0021 81 whole (80.22)
   - top rows: S Moon → H Jupiter Dec 0.1863 conj (14.36)
@@ -75,8 +65,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, top rows: S Mercury → J Jupiter RA 1.4482 conj (0.12)
   - other chart, top rows: S Haumea → J Jupiter RA 112.9997 113 whole (97.15)
     - source line: S Sun → Haumea Dec 19.9944 20 whole (52.20)
-  - other chart, star rows: S Capella → J Jupiter Dec 59.0055 59 whole (52.70)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - other chart, star rows: S Zosma → J Jupiter RA 161.8760 100×φ^1 phi power (82.86)
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
 - **H Neptune** (same body: S Neptune → H Neptune Dec 5.5589 5.55556 ninth (loose))
@@ -87,27 +75,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Diadem → H Neptune RA 141.4623 141.4 sqrt2 (88.77)
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
 - **H Pluto** (same body: S Pluto → H Pluto RA 15.9734 16 whole (loose))
-  - star rows: H Capella → H Pluto RA 154.9895 155 whole (22.59)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: H Markab → H Pluto RA 62.0103 62 whole (23.30)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 - **H Chiron** (same body: S Chiron → H Chiron Dec 6.9798 7 whole (loose))
   - sky line to Chiron: S Moon → Chiron Dec 16.6620 16.6667 ninth (96.00)
   - top rows: S Jupiter → H Chiron RA 1.4922 conj (0.00)
-  - star rows: H Markab → H Chiron RA 0.5145 conj (43.16)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - star rows: H Murzim → H Chiron RA 109.9987 110 whole (87.32)
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
-  - star rows: H Scheat → H Chiron RA 0.2682 conj (67.43)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
-  - star rows: H Scheat → H Chiron Dec 28.9961 29 whole (64.43)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **H Ceres** (same body: S Ceres → H Ceres RA 140.8793 141.4 sqrt2 (loose); S Ceres → H Ceres Dec 18.7712 18.8889 ninth (loose))
   - sky line to Ceres: S Moon → Ceres Dec 0.1440 conj (27.02)
-  - star rows: H Markab → H Ceres RA 141.4450 141.4 sqrt2 (93.41)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: H Sadalsuud → H Ceres RA 118.1465 73×φ golden (0.54)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - other chart, star rows: J Alkes → J Ceres Dec 6.9941 7 whole (49.91)
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
   - other chart, star rows: J Denebola → J Ceres RA 177.9942 178 whole (50.19)
@@ -119,26 +93,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → H Vesta RA 133.9973 134 whole (75.17)
   - star rows: H Alkes → H Vesta RA 37.2199 23×φ golden (71.00)
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: H Capella → H Vesta RA 122.9980 φ^10 phi power (98.03)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: H Markab → H Vesta RA 144.0229 89×φ golden (20.11)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: H Markab → H Vesta Dec 11.3296 7×φ golden (80.52)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - other chart, star rows: J Scheat → J Vesta RA 39.9893 40 whole (21.64)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **H Rahu** (same body: S Rahu → H Rahu RA 153.9929 154 whole (41.29))
   - top rows: S Jupiter → H Rahu RA 140.9948 141 whole (55.02)
   - top rows: S Moon → H Rahu RA 138.0031 138 whole (71.59)
-  - star rows: H Capella → H Rahu RA 127.0037 127 whole (66.40)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: H Markab → H Rahu RA 140.0171 140 whole (2.05)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 - **H Gonggong** (same body: S Gonggong → H Gonggong Dec 1.8772 1.88889 ninth (loose))
-  - other chart, star rows: J Capella → J Gonggong RA 107.9953 108 whole (58.17)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - other chart, star rows: J Markab → J Gonggong RA 15.0032 15 whole (70.37)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - other chart, star rows: J Murzim → J Gonggong Dec 0.1322 conj (31.29)
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
 - **H Ketu** (same body: S Ketu → H Ketu RA 153.9929 154 whole (41.29))
@@ -146,21 +104,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → H Ketu RA 41.9969 42 whole (71.59)
   - star rows: H Alkes → H Ketu Dec 29.1253 18×φ golden (95.70)
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: H Capella → H Ketu RA 52.9963 53 whole (66.40)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: H Markab → H Ketu RA 39.9829 40 whole (2.05)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - star rows: H Zosma → H Ketu RA 142.3607 88×φ golden (3.57)
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
   - other chart, star rows: J Denebola → J Ketu Dec 22.0199 22 whole (0.00)
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - other chart, star rows: J Markab → J Ketu Dec 22.6551 14×φ golden (84.17)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - other chart, star rows: J Murzim → J Ketu RA 113.2349 70×φ golden (2.24)
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
 - **J Mercury** (same body: S Mercury → J Mercury RA 41.0022 41 whole (79.64))
-  - star rows: J Capella → J Mercury Dec 69.0087 69 whole (32.10)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - other chart, star rows: H Aldebaran → H Mercury Dec 0.9840 1 whole (4.06)
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
   - other chart, star rows: H Diadem → H Mercury RA 153.0117 153 whole (17.16)
@@ -172,8 +122,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - sky line to Venus: S Moon → Venus RA 124.0035 124 whole (68.42)
   - star rows: J Denebola → J Venus RA 113.9905 114 whole (27.80)
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - star rows: J Markab → J Venus Dec 30.0161 30 whole (3.84)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - other chart, same body: S Venus → H Venus Dec 14.4420 14.4444 ninth (97.46)
   - other chart, star rows: H Murzim → H Venus Dec 15.9828 16 whole (1.97)
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
@@ -187,47 +135,24 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Ceres → H Ceres RA 140.8793 141.4 sqrt2 (loose)
     - S Ceres → H Ceres Dec 18.7712 18.8889 ninth (loose)
 - **3. runner number = sky number**
-  - 11 whole — also: 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - S Sun → H Saturn Dec 11.0045 11 whole (60.14) = S Moon → Capella RA 11.0061 11 whole (48.14)
-  - 1 whole — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - H Aldebaran → H Mercury Dec 0.9840 1 whole (4.06) = S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - 127 whole — also: 3 Hell Red / Harry Cobden
-    - H Capella → H Rahu RA 127.0037 127 whole (66.40) = S Moon → Vesta RA 126.9981 127 whole (81.81)
-  - 22 whole — also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore
+  - 22 whole — also: 3 Hell Red / Harry Cobden
     - J Alkes → J Saturn Dec 22.0148 22 whole (6.64) = S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - 22 whole — also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore
+  - 22 whole — also: 3 Hell Red / Harry Cobden
     - J Denebola → J Ketu Dec 22.0199 22 whole (0.00) = S Sun → Diadem Dec 22.0013 22 whole (87.07)
 - **4. circle divisions**
-  - 30 = 360/12 — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 30 = 360/12 — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - S Pallas → H Jupiter Dec 29.9948 30 whole (55.02)
   - 1 = 360/360 — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - H Aldebaran → H Mercury Dec 0.9840 1 whole (4.06)
   - 90 = 360/4 — only
     - H Aldebaran → H Neptune RA 90.0129 90 whole (12.53)
-  - 6 = 360/60 — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 6 = 360/60 — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - H Diadem → H Makemake RA 5.9935 6 whole (45.43)
-  - 8 = 360/45 — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - H Markab → H Juno Dec 8.0108 8 whole (21.06)
-  - 40 = 360/9 — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore
-    - H Markab → H Ketu RA 39.9829 40 whole (2.05)
-  - 36 = 360/10 — also: 3 Hell Red / Harry Cobden, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 36 = 360/10 — also: 6 Manvers House / James Best
     - H Zosma → H Saturn Dec 36.0016 36 whole (85.10)
-  - 36 = 360/10 — also: 3 Hell Red / Harry Cobden, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 36 = 360/10 — also: 6 Manvers House / James Best
     - H Zosma → H Quaoar Dec 36.0127 36 whole (13.32)
-  - 30 = 360/12 — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - J Markab → J Venus Dec 30.0161 30 whole (3.84)
-  - 15 = 360/24 — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
-    - J Markab → J Gonggong RA 15.0032 15 whole (70.37)
-  - 2 = 360/180 — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
-    - J Sadalsuud → J Eris Dec 2.0033 2 whole (69.42)
-  - 5 = 360/72 — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - J Sadalsuud → J Orcus Dec 5.0192 5 whole (0.14)
-  - 40 = 360/9 — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore
-    - J Scheat → J Vesta RA 39.9893 40 whole (21.64)
 - **5. same number in more than one place**
-  - 17.7778 ninth — only
-    - S Mars → H Mars Dec 17.6547 17.7778 ninth (loose)
-    - J Markab → J Makemake Dec 17.7755 17.7778 ninth (98.24)
   - 16 whole — only
     - S Pluto → H Pluto RA 15.9734 16 whole (loose)
     - H Murzim → H Venus Dec 15.9828 16 whole (1.97)
@@ -237,39 +162,20 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 141.4 sqrt2 — only
     - S Ceres → H Ceres RA 140.8793 141.4 sqrt2 (loose)
     - H Diadem → H Neptune RA 141.4623 141.4 sqrt2 (88.77)
-    - H Markab → H Ceres RA 141.4450 141.4 sqrt2 (93.41)
   - 154 whole — only
     - S Rahu → H Rahu RA 153.9929 154 whole (41.29)
     - S Ketu → H Ketu RA 153.9929 154 whole (41.29)
-  - 100×φ^1 phi power — also: 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
+  - 100×φ^1 phi power — also: 7 Island Run / Tom O'Brien
     - S Moon → H Quaoar RA 161.8801 100×φ^1 phi power (81.93)
     - J Jupiter → J star Zosma RA 161.8784 100×φ^1 phi power (82.33)
     - S Zosma → J Jupiter RA 161.8760 100×φ^1 phi power (82.86)
-  - 166 whole — only
-    - S Pluto → H Jupiter RA 165.9945 166 whole (52.28)
-    - J Capella → J Quaoar RA 165.9954 166 whole (59.05)
-  - 30 whole — also: 4 Dreaming Blue / Rex Dingle
-    - S Pallas → H Jupiter Dec 29.9948 30 whole (55.02)
-    - J Markab → J Venus Dec 30.0161 30 whole (3.84)
   - 32 whole — also: 3 Hell Red / Harry Cobden
     - H Aldebaran → H Saturn Dec 31.9860 32 whole (9.02)
     - H Aldebaran → H Quaoar Dec 31.9972 32 whole (73.61)
     - H Denebola → H Haumea RA 32.0170 32 whole (2.18)
-  - 174 whole — only
-    - H Alkes → H Neptune RA 174.0179 174 whole (1.15)
-    - H Sadalsuud → H Orcus RA 173.9915 174 whole (33.12)
-  - φ^10 phi power — also: 2 Royaume Uni / Joshua Moore
-    - H Capella → H Vesta RA 122.9980 φ^10 phi power (98.03)
-    - H Denebola → H Sedna RA 122.9987 φ^10 phi power (97.79)
   - 33 whole — also: 6 Manvers House / James Best
     - H Diadem → H Saturn Dec 33.0075 33 whole (39.02)
     - H Diadem → H Quaoar Dec 33.0187 33 whole (0.45)
-  - 40 whole — only
-    - H Markab → H Ketu RA 39.9829 40 whole (2.05)
-    - J Scheat → J Vesta RA 39.9893 40 whole (21.64)
-  - 13 whole — only
-    - H Scheat → H Sun Dec 13.0058 13 whole (50.08)
-    - J Capella → J Makemake Dec 13.0196 13 whole (0.04)
   - 36 whole — only
     - H Zosma → H Saturn Dec 36.0016 36 whole (85.10)
     - H Zosma → H Quaoar Dec 36.0127 36 whole (13.32)
@@ -288,14 +194,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Venus RA 124.0035 124 whole (68.42)
   - star rows: J Denebola → J Venus RA 113.9905 114 whole (27.80) — also: 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - star rows: J Markab → J Venus Dec 30.0161 30 whole (3.84) — also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 - **Mars**
   - same body: S Mars → H Mars Dec 17.6547 17.7778 ninth (loose) — also: 3 Hell Red / Harry Cobden
-  - star rows: H Capella → H Mars RA 111.6453 69×φ golden (94.00) — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: H Scheat → H Mars Dec 31.0128 31 whole (13.13) — only
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **Jupiter**
   - same body: S Jupiter → H Jupiter RA 118.9798 119 whole (loose) — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
   - top rows: S Moon → H Jupiter Dec 0.1863 conj (14.36) — also: 6 Manvers House / James Best
@@ -303,12 +203,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Pallas → H Jupiter Dec 29.9948 30 whole (55.02) — also: 4 Dreaming Blue / Rex Dingle
   - top rows: S Makemake → H Jupiter Dec 0.1647 conj (20.33) — also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
     - source line: S Moon → Makemake Dec 0.0216 conj (86.14)
-  - T2: J Jupiter → J star Zosma RA 161.8784 100×φ^1 phi power (82.33) — also: 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien
+  - T2: J Jupiter → J star Zosma RA 161.8784 100×φ^1 phi power (82.33) — also: 2 Royaume Uni / Joshua Moore
   - top rows: S Mercury → J Jupiter RA 1.4482 conj (0.12) — only
   - top rows: S Haumea → J Jupiter RA 112.9997 113 whole (97.15) — only
     - source line: S Sun → Haumea Dec 19.9944 20 whole (52.20)
-  - star rows: S Capella → J Jupiter Dec 59.0055 59 whole (52.70) — also: 6 Manvers House / James Best
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - star rows: S Zosma → J Jupiter RA 161.8760 100×φ^1 phi power (82.86) — also: 2 Royaume Uni / Joshua Moore
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
 - **Neptune**
@@ -321,31 +219,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
 - **Pluto**
   - same body: S Pluto → H Pluto RA 15.9734 16 whole (loose) — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore
-  - star rows: H Capella → H Pluto RA 154.9895 155 whole (22.59) — also: 4 Dreaming Blue / Rex Dingle
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: H Markab → H Pluto RA 62.0103 62 whole (23.30) — also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 - **Chiron**
   - same body: S Chiron → H Chiron Dec 6.9798 7 whole (loose) — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
     - source line: S Moon → Chiron Dec 16.6620 16.6667 ninth (96.00)
   - top rows: S Jupiter → H Chiron RA 1.4922 conj (0.00) — also: 5 Grangeclare Glory / Tom Scudamore
-  - star rows: H Markab → H Chiron RA 0.5145 conj (43.16) — also: 3 Hell Red / Harry Cobden
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - star rows: H Murzim → H Chiron RA 109.9987 110 whole (87.32) — also: 6 Manvers House / James Best
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
-  - star rows: H Scheat → H Chiron RA 0.2682 conj (67.43) — also: 2 Royaume Uni / Joshua Moore
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
-  - star rows: H Scheat → H Chiron Dec 28.9961 29 whole (64.43) — also: 2 Royaume Uni / Joshua Moore
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **Ceres**
   - same body: S Ceres → H Ceres RA 140.8793 141.4 sqrt2 (loose) — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - source line: S Moon → Ceres Dec 0.1440 conj (27.02)
   - same body: S Ceres → H Ceres Dec 18.7712 18.8889 ninth (loose) — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - source line: S Moon → Ceres Dec 0.1440 conj (27.02)
-  - star rows: H Markab → H Ceres RA 141.4450 141.4 sqrt2 (93.41) — only
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: H Sadalsuud → H Ceres RA 118.1465 73×φ golden (0.54) — also: 2 Royaume Uni / Joshua Moore
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - star rows: J Alkes → J Ceres Dec 6.9941 7 whole (49.91) — only
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
   - star rows: J Denebola → J Ceres RA 177.9942 178 whole (50.19) — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
@@ -358,28 +242,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → H Vesta RA 133.9973 134 whole (75.17) — also: 7 Island Run / Tom O'Brien
   - star rows: H Alkes → H Vesta RA 37.2199 23×φ golden (71.00) — also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: H Capella → H Vesta RA 122.9980 φ^10 phi power (98.03) — also: 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: H Markab → H Vesta RA 144.0229 89×φ golden (20.11) — also: 6 Manvers House / James Best
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: H Markab → H Vesta Dec 11.3296 7×φ golden (80.52) — also: 6 Manvers House / James Best
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: J Scheat → J Vesta RA 39.9893 40 whole (21.64) — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **Rahu**
   - same body: S Rahu → H Rahu RA 153.9929 154 whole (41.29) — also: 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
   - top rows: S Jupiter → H Rahu RA 140.9948 141 whole (55.02) — also: 6 Manvers House / James Best
   - top rows: S Moon → H Rahu RA 138.0031 138 whole (71.59) — also: 5 Grangeclare Glory / Tom Scudamore
-  - star rows: H Capella → H Rahu RA 127.0037 127 whole (66.40) — also: 2 Royaume Uni / Joshua Moore
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: H Markab → H Rahu RA 140.0171 140 whole (2.05) — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 - **Gonggong**
   - same body: S Gonggong → H Gonggong Dec 1.8772 1.88889 ninth (loose) — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-  - star rows: J Capella → J Gonggong RA 107.9953 108 whole (58.17) — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: J Markab → J Gonggong RA 15.0032 15 whole (70.37) — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - star rows: J Murzim → J Gonggong Dec 0.1322 conj (31.29) — also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
 - **Ketu**
@@ -388,16 +256,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → H Ketu RA 41.9969 42 whole (71.59) — also: 2 Royaume Uni / Joshua Moore
   - star rows: H Alkes → H Ketu Dec 29.1253 18×φ golden (95.70) — also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: H Capella → H Ketu RA 52.9963 53 whole (66.40) — only
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: H Markab → H Ketu RA 39.9829 40 whole (2.05) — also: 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - star rows: H Zosma → H Ketu RA 142.3607 88×φ golden (3.57) — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
   - star rows: J Denebola → J Ketu Dec 22.0199 22 whole (0.00) — only
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - star rows: J Markab → J Ketu Dec 22.6551 14×φ golden (84.17) — also: 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - star rows: J Murzim → J Ketu RA 113.2349 70×φ golden (2.24) — also: 4 Dreaming Blue / Rex Dingle
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
 - **Saturn**
@@ -421,16 +283,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → H Quaoar RA 161.8801 100×φ^1 phi power (81.93) — only
   - star rows: H Aldebaran → H Quaoar Dec 31.9972 32 whole (73.61) — also: 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
-  - star rows: H Capella → H Quaoar Dec 61.4870 38×φ golden (89.94) — also: 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - star rows: H Diadem → H Quaoar Dec 33.0187 33 whole (0.45) — also: 3 Hell Red / Harry Cobden, 6 Manvers House / James Best
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
   - star rows: H Zosma → H Quaoar Dec 36.0127 36 whole (13.32) — also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
-  - star rows: J Capella → J Quaoar RA 165.9954 166 whole (59.05) — also: 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: J Markab → J Quaoar RA 101.0126 101 whole (13.69) — also: 6 Manvers House / James Best
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 - **Transpluto**
   - top rows: S Moon → H Transpluto Dec 11.1181 11.1111 ninth (88.51) — also: 6 Manvers House / James Best
 - **Mercury**
@@ -441,8 +297,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Diadem → H Mercury Dec 0.0375 conj (76.58) — only
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
   - same body: S Mercury → J Mercury RA 41.0022 41 whole (79.64) — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
-  - star rows: J Capella → J Mercury Dec 69.0087 69 whole (32.10) — also: 3 Hell Red / Harry Cobden
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
 - **Sedna**
   - star rows: H Denebola → H Sedna RA 122.9987 φ^10 phi power (97.79) — also: 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
@@ -456,43 +310,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
   - star rows: H Zosma → H Eris RA 143.0176 143 whole (1.42) — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
-  - star rows: J Sadalsuud → J Eris Dec 2.0033 2 whole (69.42) — only
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **Makemake**
   - star rows: H Diadem → H Makemake RA 5.9935 6 whole (45.43) — also: 6 Manvers House / James Best
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - star rows: J Capella → J Makemake Dec 13.0196 13 whole (0.04) — also: 6 Manvers House / James Best
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - star rows: J Denebola → J Makemake RA 0.9805 conj (11.99) — also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - star rows: J Markab → J Makemake Dec 17.7755 17.7778 ninth (98.24) — also: 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-- **Sun**
-  - star rows: H Markab → H Sun Dec 0.1284 conj (32.72) — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: H Scheat → H Sun Dec 13.0058 13 whole (50.08) — also: 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
-  - star rows: J Sadalsuud → J Sun RA 14.1464 14.14 sqrt2 (88.23) — also: 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **Juno**
-  - star rows: H Markab → H Juno Dec 8.0108 8 whole (21.06) — also: 4 Dreaming Blue / Rex Dingle
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - star rows: H Zosma → H Juno Dec 13.3317 13.3333 ninth (97.99) — only
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
 - **Orcus**
-  - star rows: H Markab → H Orcus Dec 22.9936 23 whole (46.41) — also: 6 Manvers House / James Best
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: H Sadalsuud → H Orcus RA 173.9915 174 whole (33.12) — also: 6 Manvers House / James Best
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - star rows: J Diadem → J Orcus RA 61.0179 61 whole (1.06) — also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - star rows: J Sadalsuud → J Orcus Dec 5.0192 5 whole (0.14) — also: 6 Manvers House / James Best
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **Uranus**
-  - star rows: J Capella → J Uranus RA 127.9909 128 whole (29.49) — only
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: J Markab → J Uranus RA 34.9988 35 whole (88.63) — only
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - star rows: J Murzim → J Uranus RA 144.4930 144.444 ninth (94.86) — also: 4 Dreaming Blue / Rex Dingle
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
 
@@ -525,10 +354,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Juno → J Jupiter Dec 17.7701 17.7778 ninth (93.99)
   - top rows: S Sedna → J Jupiter Dec 0.2955 conj (0.02)
     - source line: S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)
-  - star rows: S Markab → J Jupiter RA 176.3574 109×φ golden (55.04)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: J Sadalsuud → J Jupiter Dec 14.0045 14 whole (59.99)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - star rows: S Zosma → J Jupiter RA 5.9911 6 whole (30.78)
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
   - other chart, top rows: S Makemake → H Jupiter RA 0.8418 conj (19.25)
@@ -552,16 +377,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
 - **J Chiron** (same body: S Chiron → J Chiron Dec 5.0270 5 whole (loose))
   - sky line to Chiron: S Moon → Chiron Dec 16.6620 16.6667 ninth (96.00)
-  - star rows: J Sadalsuud → J Chiron Dec 16.6606 16.6667 ninth (94.82)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - star rows: J Scheat → J Chiron Dec 16.9957 17 whole (61.32)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
   - other chart, star rows: H Zosma → H Chiron Dec 18.8804 18.8889 ninth (93.86)
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
 - **J Ceres** (same body: S Ceres → J Ceres RA 179.9680 10×φ^6 phi power (loose))
   - sky line to Ceres: S Moon → Ceres Dec 0.1440 conj (27.02)
-  - star rows: J Sadalsuud → J Ceres RA 78.9950 79 whole (56.22)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - other chart, star rows: H Denebola → H Ceres Dec 0.0187 conj (87.91)
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
 - **J Pallas** (same body: S Pallas → J Pallas RA 144.9895 145 whole (22.44))
@@ -573,18 +392,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
 - **J Sedna** (same body: S Sedna → J Sedna RA 15.5147 15.5556 ninth (loose); S Sedna → J Sedna Dec 4.0239 4 whole (loose))
   - sky line to Sedna: S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)
-  - star rows: J Markab → J Sedna Dec 11.0932 φ^5 phi power (89.46)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - other chart, star rows: H Diadem → H Sedna Dec 9.9840 10 whole (3.91)
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
 - **J Makemake** (same body: S Makemake → J Makemake RA 26.9993 27 whole (93.48))
   - sky line to Makemake: S Moon → Makemake Dec 0.0216 conj (86.14)
   - star rows: J Alkes → J Makemake RA 6.9975 7 whole (76.94)
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: J Sadalsuud → J Makemake Dec 39.9954 40 whole (59.55)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - star rows: J Scheat → J Makemake RA 174.0062 174 whole (47.77)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
   - other chart, star rows: H Zosma → H Makemake RA 26.0113 26 whole (18.93)
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
 - **J Orcus** (same body: S Orcus → J Orcus RA 24.2443 15×φ golden (loose))
@@ -605,22 +418,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Sedna → J Sedna RA 15.5147 15.5556 ninth (loose)
     - S Sedna → J Sedna Dec 4.0239 4 whole (loose)
 - **3. runner number = sky number**
-  - 1 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - H Denebola → H Mercury Dec 0.9892 1 whole (21.27) = S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - 43 whole — also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
     - H Diadem → H Rahu RA 43.0189 43 whole (0.31) = S Jupiter → Venus RA 43.0014 43 whole (86.77)
-  - 16.6667 ninth — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
-    - J Sadalsuud → J Chiron Dec 16.6606 16.6667 ninth (94.82) = S Moon → Chiron Dec 16.6620 16.6667 ninth (96.00)
 - **4. circle divisions**
   - 12 = 360/30 — also: 3 Hell Red / Harry Cobden
     - H Jupiter → H star Murzim Dec 11.9969 12 whole (71.32)
-  - 5 = 360/72 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 5 = 360/72 — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - S Sun → H Orcus Dec 4.9999 5 whole (98.76)
-  - 6 = 360/60 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 6 = 360/60 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - S Moon → H Mars Dec 5.9964 6 whole (67.29)
   - 1 = 360/360 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - H Denebola → H Mercury Dec 0.9892 1 whole (21.27)
-  - 6 = 360/60 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 6 = 360/60 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - H Denebola → H Uranus Dec 5.9885 6 whole (18.11)
   - 24 = 360/15 — also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
     - H Denebola → H Juno Dec 23.9826 24 whole (1.64)
@@ -628,40 +437,28 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Denebola → H Rahu Dec 3.9910 4 whole (30.09)
   - 10 = 360/36 — also: 4 Dreaming Blue / Rex Dingle
     - H Diadem → H Sedna Dec 9.9840 10 whole (3.91)
-  - 4 = 360/90 — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
-    - H Markab → H Transpluto Dec 4.0056 4 whole (52.16)
   - 12 = 360/30 — also: 3 Hell Red / Harry Cobden
     - H Murzim → H Jupiter Dec 11.9969 12 whole (71.32)
-  - 5 = 360/72 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - H Sadalsuud → H Ketu Dec 5.0056 5 whole (51.65)
-  - 12 = 360/30 — also: 3 Hell Red / Harry Cobden
-    - H Scheat → H Venus RA 12.0158 12 whole (4.33)
-  - 2 = 360/180 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
-    - H Scheat → H Vesta Dec 1.9845 2 whole (5.16)
-  - 30 = 360/12 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 30 = 360/12 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - H Zosma → H Orcus Dec 29.9955 30 whole (60.26)
-  - 15 = 360/24 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
+  - 15 = 360/24 — also: 6 Manvers House / James Best
     - S Jupiter → J Jupiter Dec 15.0007 15 whole (93.29)
-  - 5 = 360/72 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 5 = 360/72 — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - S Chiron → J Chiron Dec 5.0270 5 whole (loose)
-  - 8 = 360/45 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 8 = 360/45 — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - S Eris → J Eris Dec 7.9719 8 whole (loose)
   - 4 = 360/90 — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
     - S Sedna → J Sedna Dec 4.0239 4 whole (loose)
-  - 5 = 360/72 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 5 = 360/72 — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - J Murzim → J Rahu Dec 5.0104 5 whole (23.15)
-  - 40 = 360/9 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore
-    - J Sadalsuud → J Makemake Dec 39.9954 40 whole (59.55)
-  - 6 = 360/60 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 6 = 360/60 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - S Zosma → J Jupiter RA 5.9911 6 whole (30.78)
 - **5. same number in more than one place**
   - 12 whole — only
     - H Jupiter → H star Murzim Dec 11.9969 12 whole (71.32)
     - H Murzim → H Jupiter Dec 11.9969 12 whole (71.32)
-    - H Scheat → H Venus RA 12.0158 12 whole (4.33)
   - 5 whole — only
     - S Sun → H Orcus Dec 4.9999 5 whole (98.76)
-    - H Sadalsuud → H Ketu Dec 5.0056 5 whole (51.65)
     - S Chiron → J Chiron Dec 5.0270 5 whole (loose)
     - J Murzim → J Rahu Dec 5.0104 5 whole (23.15)
   - 6 whole — only
@@ -671,33 +468,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 14.14 sqrt2 — only
     - S Moon → H Uranus Dec 14.1443 14.14 sqrt2 (93.84)
     - S Ceres → J Jupiter Dec 14.1471 14.14 sqrt2 (86.53)
-  - 26 whole — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
+  - 26 whole — also: 6 Manvers House / James Best
     - H Aldebaran → H Orcus Dec 25.9813 26 whole (0.44)
     - H Zosma → H Makemake RA 26.0113 26 whole (18.93)
-  - 133.333 ninth — only
-    - H Capella → H Haumea RA 133.3792 133.333 ninth (94.49)
-    - H Scheat → H Haumea RA 133.3900 133.333 ninth (93.20)
-    - J Sadalsuud → J Haumea RA 133.3018 133.333 ninth (96.21)
   - 4 whole — only
     - H Denebola → H Rahu Dec 3.9910 4 whole (30.09)
-    - H Markab → H Transpluto Dec 4.0056 4 whole (52.16)
     - S Sedna → J Sedna Dec 4.0239 4 whole (loose)
-  - 17 whole — also: 6 Manvers House / James Best
-    - H Denebola → H Eris Dec 17.0059 17 whole (49.70)
-    - J Markab → J Gonggong RA 17.0128 17 whole (12.89)
-    - J Scheat → J Chiron Dec 16.9957 17 whole (61.32)
   - 27 whole — only
     - H Diadem → H Orcus Dec 27.0017 27 whole (84.16)
     - S Makemake → J Makemake RA 26.9993 27 whole (93.48)
   - 15×φ golden — only
     - S Orcus → J Orcus RA 24.2443 15×φ golden (loose)
     - S Saturn → J Jupiter Dec 24.2704 15×φ golden (99.25)
-  - 14 whole — only
-    - J Jupiter → J star Sadalsuud Dec 14.0045 14 whole (59.99)
-    - J Sadalsuud → J Jupiter Dec 14.0045 14 whole (59.99)
-  - φ^10 phi power — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - J Markab → J Sun RA 122.9691 φ^10 phi power (92.72)
-    - J Markab → J Mars RA 122.9808 φ^10 phi power (96.42)
   - 15 and 15×φ on J Jupiter — only
     - S Jupiter → J Jupiter Dec 15.0007 15 whole (93.29)
     - S Saturn → J Jupiter Dec 24.2704 15×φ golden (99.25)
@@ -708,7 +490,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
   - same body: S Pallas → J Pallas RA 144.9895 145 whole (22.44) — also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
 - **Jupiter**
-  - T1: H Jupiter → H star Murzim Dec 11.9969 12 whole (71.32) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien
+  - T1: H Jupiter → H star Murzim Dec 11.9969 12 whole (71.32) — also: 1 Breaking Waves / Jonjo O'Neill Jr
   - top rows: S Makemake → H Jupiter RA 0.8418 conj (19.25) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best
     - source line: S Moon → Makemake Dec 0.0216 conj (86.14)
   - star rows: H Diadem → H Jupiter RA 0.5970 conj (36.24) — also: 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
@@ -716,7 +498,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Murzim → H Jupiter Dec 11.9969 12 whole (71.32) — also: 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
   - same body + top rows: S Jupiter → J Jupiter Dec 15.0007 15 whole (93.29) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
-  - T2: J Jupiter → J star Sadalsuud Dec 14.0045 14 whole (59.99) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien
   - top rows: S Saturn → J Jupiter Dec 24.2704 15×φ golden (99.25) — also: 5 Grangeclare Glory / Tom Scudamore
     - source line: S Jupiter → Saturn RA 24.9957 25 whole (61.45)
     - source line: S Moon → Saturn RA 105.9978 106 whole (78.90)
@@ -725,10 +506,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Juno → J Jupiter Dec 17.7701 17.7778 ninth (93.99) — also: 3 Hell Red / Harry Cobden, 6 Manvers House / James Best
   - top rows: S Sedna → J Jupiter Dec 0.2955 conj (0.02) — also: 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
     - source line: S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)
-  - star rows: S Markab → J Jupiter RA 176.3574 109×φ golden (55.04) — also: 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: J Sadalsuud → J Jupiter Dec 14.0045 14 whole (59.99) — also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - star rows: S Zosma → J Jupiter RA 5.9911 6 whole (30.78) — also: 1 Breaking Waves / Jonjo O'Neill Jr
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
 - **Orcus**
@@ -746,18 +523,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
   - star rows: H Zosma → H Mars RA 126.0003 126 whole (97.25) — also: 3 Hell Red / Harry Cobden
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
-  - star rows: J Capella → J Mars RA 144.0330 89×φ golden (1.84) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - star rows: J Diadem → J Mars Dec 33.9827 34 whole (1.86) — only
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - star rows: J Markab → J Mars RA 122.9808 φ^10 phi power (96.42) — also: 6 Manvers House / James Best
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 - **Uranus**
   - top rows: S Moon → H Uranus Dec 14.1443 14.14 sqrt2 (93.84) — also: 7 Island Run / Tom O'Brien
   - star rows: H Denebola → H Uranus Dec 5.9885 6 whole (18.11) — also: 6 Manvers House / James Best
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - star rows: H Sadalsuud → H Uranus RA 59.0170 59 whole (2.20) — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - star rows: J Aldebaran → J Uranus RA 147.0070 147 whole (42.16) — only
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
 - **Neptune**
@@ -767,8 +538,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Venus**
   - star rows: H Alkes → H Venus RA 166.9911 167 whole (30.79) — also: 4 Dreaming Blue / Rex Dingle
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: H Scheat → H Venus RA 12.0158 12 whole (4.33) — also: 4 Dreaming Blue / Rex Dingle
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **Juno**
   - star rows: H Alkes → H Juno Dec 8.8881 8.88889 ninth (94.24) — only
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
@@ -776,19 +545,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
   - star rows: J Alkes → J Juno RA 132.0172 132 whole (2.00) — only
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: J Scheat → J Juno RA 48.9866 49 whole (10.73) — also: 6 Manvers House / James Best
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
-- **Haumea**
-  - star rows: H Capella → H Haumea RA 133.3792 133.333 ninth (94.49) — only
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: H Diadem → H Haumea Dec 0.2692 conj (1.05) — also: 3 Hell Red / Harry Cobden
-    - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - star rows: H Scheat → H Haumea RA 133.3900 133.333 ninth (93.20) — also: 6 Manvers House / James Best
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
-  - star rows: H Zosma → H Haumea RA 44.0164 44 whole (3.33) — also: 3 Hell Red / Harry Cobden
-    - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
-  - star rows: J Sadalsuud → J Haumea RA 133.3018 133.333 ninth (96.21) — also: 3 Hell Red / Harry Cobden
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **Mercury**
   - star rows: H Denebola → H Mercury Dec 0.9892 1 whole (21.27) — only
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
@@ -808,17 +564,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
   - same body: S Ceres → J Ceres RA 179.9680 10×φ^6 phi power (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - source line: S Moon → Ceres Dec 0.1440 conj (27.02)
-  - star rows: J Sadalsuud → J Ceres RA 78.9950 79 whole (56.22) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **Rahu**
   - star rows: H Denebola → H Rahu Dec 3.9910 4 whole (30.09) — only
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
   - star rows: H Diadem → H Rahu RA 43.0189 43 whole (0.31) — only
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - star rows: H Markab → H Rahu RA 168.2957 104×φ golden (14.14) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: J Capella → J Rahu RA 156.9428 97×φ golden (63.73) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - star rows: J Murzim → J Rahu Dec 5.0104 5 whole (23.15) — also: 3 Hell Red / Harry Cobden
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
 - **Eris**
@@ -828,8 +578,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Vesta**
   - star rows: H Diadem → H Vesta RA 83.0138 83 whole (9.49) — also: 6 Manvers House / James Best
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - star rows: H Scheat → H Vesta Dec 1.9845 2 whole (5.16) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **Sedna**
   - star rows: H Diadem → H Sedna Dec 9.9840 10 whole (3.91) — also: 6 Manvers House / James Best
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
@@ -837,35 +585,20 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)
   - same body: S Sedna → J Sedna Dec 4.0239 4 whole (loose) — also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - source line: S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)
-  - star rows: J Markab → J Sedna Dec 11.0932 φ^5 phi power (89.46) — also: 6 Manvers House / James Best
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
+- **Haumea**
+  - star rows: H Diadem → H Haumea Dec 0.2692 conj (1.05) — also: 3 Hell Red / Harry Cobden
+    - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
+  - star rows: H Zosma → H Haumea RA 44.0164 44 whole (3.33) — also: 3 Hell Red / Harry Cobden
+    - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
 - **Ketu**
   - star rows: H Diadem → H Ketu RA 136.9811 137 whole (0.31) — also: 7 Island Run / Tom O'Brien
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - star rows: H Sadalsuud → H Ketu Dec 5.0056 5 whole (51.65) — only
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - top rows: S Moon → J Ketu Dec 0.2381 conj (4.26) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-- **Transpluto**
-  - star rows: H Markab → H Transpluto RA 166.6487 166.667 ninth (98.46) — also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: H Markab → H Transpluto Dec 4.0056 4 whole (52.16) — also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-- **Saturn**
-  - star rows: H Sadalsuud → H Saturn RA 55.5520 55.5556 ninth (96.65) — only
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - star rows: H Scheat → H Saturn Dec 50.1563 31×φ golden (83.64) — only
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
-  - star rows: J Denebola → J Saturn Dec 34.9889 35 whole (19.66) — also: 4 Dreaming Blue / Rex Dingle
-    - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
 - **Chiron**
   - star rows: H Zosma → H Chiron Dec 18.8804 18.8889 ninth (93.86) — also: 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
   - same body: S Chiron → J Chiron Dec 5.0270 5 whole (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
     - source line: S Moon → Chiron Dec 16.6620 16.6667 ninth (96.00)
-  - star rows: J Sadalsuud → J Chiron Dec 16.6606 16.6667 ninth (94.82) — only
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - star rows: J Scheat → J Chiron Dec 16.9957 17 whole (61.32) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **Makemake**
   - star rows: H Zosma → H Makemake RA 26.0113 26 whole (18.93) — also: 5 Grangeclare Glory / Tom Scudamore
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
@@ -873,21 +606,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Makemake Dec 0.0216 conj (86.14)
   - star rows: J Alkes → J Makemake RA 6.9975 7 whole (76.94) — also: 5 Grangeclare Glory / Tom Scudamore
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: J Sadalsuud → J Makemake Dec 39.9954 40 whole (59.55) — also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - star rows: J Scheat → J Makemake RA 174.0062 174 whole (47.77) — also: 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **Quaoar**
   - star rows: H Zosma → H Quaoar RA 101.9981 102 whole (82.02) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
-- **Gonggong**
-  - star rows: J Capella → J Gonggong RA 109.9991 110 whole (90.75) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: J Markab → J Gonggong RA 17.0128 17 whole (12.89) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-- **Sun**
-  - star rows: J Markab → J Sun RA 122.9691 φ^10 phi power (92.72) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
+- **Saturn**
+  - star rows: J Denebola → J Saturn Dec 34.9889 35 whole (19.66) — also: 4 Dreaming Blue / Rex Dingle
+    - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
 
 ## 3 Hell Red / Harry Cobden
 ### L1 same bodies
@@ -904,16 +628,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Venus** (same body: S Venus → H Venus RA 53.9891 54 whole (20.67); S Venus → H Venus Dec 17.8997 φ^6 phi power (loose))
   - sky line to Venus: S Jupiter → Venus RA 43.0014 43 whole (86.77)
   - sky line to Venus: S Moon → Venus RA 124.0035 124 whole (68.42)
-  - star rows: H Capella → H Venus RA 81.0143 81 whole (8.21)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - other chart, star rows: J Aldebaran → J Venus Dec 32.0105 32 whole (22.35)
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
   - other chart, star rows: J Denebola → J Venus RA 44.9802 45 whole (0.01)
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
 - **H Mars** (same body: S Mars → H Mars Dec 41.9965 42 whole (67.78))
   - top rows: S Sun → H Mars Dec 25.8827 16×φ golden (67.21)
-  - star rows: H Sadalsuud → H Mars Dec 26.9813 27 whole (0.43)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - other chart, top rows: S Jupiter → J Mars Dec 12.9457 8×φ golden (91.45)
   - other chart, top rows: S Sun → J Mars RA 179.4167 10×φ^6 phi power (94.29)
   - other chart, star rows: J Zosma → J Mars RA 0.4986 conj (44.57)
@@ -924,8 +644,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - sky line to Jupiter: S Moon → Jupiter RA 81.0021 81 whole (80.22)
   - top rows: S Sun → H Jupiter Dec 0.2728 conj (0.82)
   - top rows: S Juno → H Jupiter RA 119.0034 119 whole (69.25)
-  - star rows: H Sadalsuud → H Jupiter RA 127.8054 79×φ golden (16.32)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - other chart, top rows: S Sun → J Jupiter RA 0.2022 conj (74.86)
   - other chart, star rows: S Murzim → J Jupiter Dec 11.9844 12 whole (4.75)
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
@@ -937,12 +655,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Vesta** (same body: S Vesta → H Vesta RA 179.7428 10×φ^6 phi power (loose))
   - sky line to Vesta: S Jupiter → Vesta RA 45.9960 46 whole (64.02)
   - sky line to Vesta: S Moon → Vesta RA 126.9981 127 whole (81.81)
-  - star rows: H Scheat → H Vesta Dec 3.0097 3 whole (26.59)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
   - other chart, star rows: J Aldebaran → J Vesta RA 69.9804 70 whole (0.04)
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
-  - other chart, star rows: J Scheat → J Vesta RA 153.0192 153 whole (0.15)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **J Pluto** (same body: S Pluto → J Pluto Dec 12.2396 12.2222 ninth (loose))
   - other chart, same body: S Pluto → H Pluto Dec 1.2200 1.22222 ninth (loose)
   - other chart, top rows: S Sun → H Pluto RA 59.0056 59 whole (51.79)
@@ -963,70 +677,41 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Venus → H Venus RA 53.9891 54 whole (20.67)
     - S Venus → H Venus Dec 17.8997 φ^6 phi power (loose)
 - **3. runner number = sky number**
-  - 81 whole — also: 5 Grangeclare Glory / Tom Scudamore
-    - H Capella → H Venus RA 81.0143 81 whole (8.21) = S Moon → Jupiter RA 81.0021 81 whole (80.22)
-  - 1 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - H Denebola → H Sun Dec 0.9987 1 whole (87.58) = S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - 22 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore
+  - 22 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr
     - H Denebola → H Juno Dec 21.9852 22 whole (6.82) = S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - 17×φ golden — also: 4 Dreaming Blue / Rex Dingle
-    - H Markab → H Gonggong Dec 27.5096 17×φ golden (81.93) = S Moon → Murzim RA 27.5095 17×φ golden (82.56)
   - 81 whole — also: 5 Grangeclare Glory / Tom Scudamore
     - S Sun → J Ceres RA 81.0026 81 whole (75.94) = S Moon → Jupiter RA 81.0021 81 whole (80.22)
-  - 22 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore
+  - 22 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr
     - J Denebola → J Eris Dec 22.0101 22 whole (24.49) = S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - 127 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - J Sadalsuud → J Haumea RA 127.0000 127 whole (99.60) = S Moon → Vesta RA 126.9981 127 whole (81.81)
 - **4. circle divisions**
   - 24 = 360/15 — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
     - S Jupiter → H Haumea Dec 24.0034 24 whole (69.19)
-  - 6 = 360/60 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 6 = 360/60 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - H Alkes → H Gonggong Dec 5.9938 6 whole (47.48)
-  - 36 = 360/10 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - H Capella → H Mercury Dec 36.0101 36 whole (24.63)
   - 1 = 360/360 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - H Denebola → H Sun Dec 0.9987 1 whole (87.58)
-  - 24 = 360/15 — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
-    - H Markab → H Pallas RA 23.9894 24 whole (22.31)
-  - 3 = 360/120 — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - H Scheat → H Vesta Dec 3.0097 3 whole (26.59)
   - 45 = 360/8 — also: 7 Island Run / Tom O'Brien
     - J Denebola → J Venus RA 44.9802 45 whole (0.01)
   - 12 = 360/30 — also: 2 Royaume Uni / Joshua Moore
     - S Murzim → J Jupiter Dec 11.9844 12 whole (4.75)
-  - 30 = 360/12 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 30 = 360/12 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - J Murzim → J Rahu Dec 30.0159 30 whole (4.22)
 - **5. same number in more than one place**
-  - 94×φ golden — only
-    - S Jupiter → H Jupiter RA 152.0821 94×φ golden (35.40)
-    - H Markab → H Makemake RA 152.0806 94×φ golden (30.03)
   - 10×φ^6 phi power — only
     - S Vesta → H Vesta RA 179.7428 10×φ^6 phi power (loose)
     - S Sun → J Mars RA 179.4167 10×φ^6 phi power (94.29)
-  - 24 whole — also: 5 Grangeclare Glory / Tom Scudamore
-    - S Jupiter → H Haumea Dec 24.0034 24 whole (69.19)
-    - H Markab → H Pallas RA 23.9894 24 whole (22.31)
   - 32 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr
     - S Jupiter → H Makemake Dec 31.9988 32 whole (88.43)
     - J Aldebaran → J Venus Dec 32.0105 32 whole (22.35)
-  - 100×φ^1 phi power — also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien
-    - S Sun → H Orcus RA 161.8644 100×φ^1 phi power (85.49)
-    - J Scheat → J Transpluto RA 161.8259 100×φ^1 phi power (94.51)
   - 84 whole — only
     - H Aldebaran → H Neptune RA 83.9931 84 whole (43.00)
     - H Aldebaran → H Rahu RA 84.0030 84 whole (71.93)
-  - 81 whole — only
-    - H Capella → H Venus RA 81.0143 81 whole (8.21)
-    - S Sun → J Ceres RA 81.0026 81 whole (75.94)
   - 22 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr
     - H Denebola → H Juno Dec 21.9852 22 whole (6.82)
     - J Denebola → J Eris Dec 22.0101 22 whole (24.49)
   - 39 whole — only
     - H Murzim → H Ceres RA 39.0022 39 whole (79.25)
     - J Alkes → J Haumea Dec 38.9994 39 whole (93.66)
-  - 15.5556 ninth — only
-    - H Sadalsuud → H Mercury Dec 15.5596 15.5556 ninth (96.13)
-    - H Zosma → H Rahu RA 15.5527 15.5556 ninth (97.30)
   - 95×φ golden — only
     - S Sun → J Haumea RA 153.7155 95×φ golden (86.46)
     - J Denebola → J Gonggong RA 153.7315 95×φ golden (18.88)
@@ -1038,8 +723,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Venus → H Venus Dec 17.8997 φ^6 phi power (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - source line: S Jupiter → Venus RA 43.0014 43 whole (86.77)
     - source line: S Moon → Venus RA 124.0035 124 whole (68.42)
-  - star rows: H Capella → H Venus RA 81.0143 81 whole (8.21) — only
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - star rows: J Aldebaran → J Venus Dec 32.0105 32 whole (22.35) — also: 7 Island Run / Tom O'Brien
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
   - star rows: J Denebola → J Venus RA 44.9802 45 whole (0.01) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien
@@ -1047,8 +730,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Mars**
   - same body: S Mars → H Mars Dec 41.9965 42 whole (67.78) — also: 1 Breaking Waves / Jonjo O'Neill Jr
   - top rows: S Sun → H Mars Dec 25.8827 16×φ golden (67.21) — only
-  - star rows: H Sadalsuud → H Mars Dec 26.9813 27 whole (0.43) — only
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - top rows: S Jupiter → J Mars Dec 12.9457 8×φ golden (91.45) — only
   - top rows: S Sun → J Mars RA 179.4167 10×φ^6 phi power (94.29) — only
   - star rows: J Zosma → J Mars RA 0.4986 conj (44.57) — also: 2 Royaume Uni / Joshua Moore
@@ -1059,8 +740,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Jupiter → H Jupiter RA 152.0821 94×φ golden (35.40) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien
   - top rows: S Sun → H Jupiter Dec 0.2728 conj (0.82) — only
   - top rows: S Juno → H Jupiter RA 119.0034 119 whole (69.25) — also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
-  - star rows: H Sadalsuud → H Jupiter RA 127.8054 79×φ golden (16.32) — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - top rows: S Sun → J Jupiter RA 0.2022 conj (74.86) — only
   - star rows: S Murzim → J Jupiter Dec 11.9844 12 whole (4.75) — also: 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
@@ -1074,50 +753,28 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Vesta → H Vesta RA 179.7428 10×φ^6 phi power (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - source line: S Jupiter → Vesta RA 45.9960 46 whole (64.02)
     - source line: S Moon → Vesta RA 126.9981 127 whole (81.81)
-  - star rows: H Scheat → H Vesta Dec 3.0097 3 whole (26.59) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
   - star rows: J Aldebaran → J Vesta RA 69.9804 70 whole (0.04) — only
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
-  - star rows: J Scheat → J Vesta RA 153.0192 153 whole (0.15) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **Haumea**
   - top rows: S Jupiter → H Haumea Dec 24.0034 24 whole (69.19) — also: 7 Island Run / Tom O'Brien
   - star rows: H Diadem → H Haumea Dec 0.0919 conj (48.13) — also: 2 Royaume Uni / Joshua Moore
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - star rows: H Sadalsuud → H Haumea Dec 23.0096 23 whole (26.96) — also: 2 Royaume Uni / Joshua Moore
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - top rows: S Sun → J Haumea RA 153.7155 95×φ golden (86.46) — also: 6 Manvers House / James Best
   - star rows: J Alkes → J Haumea Dec 38.9994 39 whole (93.66) — also: 7 Island Run / Tom O'Brien
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: J Sadalsuud → J Haumea RA 127.0000 127 whole (99.60) — also: 2 Royaume Uni / Joshua Moore
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - star rows: J Zosma → J Haumea Dec 0.1799 conj (16.02) — also: 2 Royaume Uni / Joshua Moore
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
 - **Makemake**
   - top rows: S Jupiter → H Makemake Dec 31.9988 32 whole (88.43) — only
-  - star rows: H Markab → H Makemake RA 152.0806 94×φ golden (30.03) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: H Sadalsuud → H Makemake Dec 31.0051 31 whole (55.81) — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - top rows: S Jupiter → J Makemake RA 168.2688 104×φ golden (62.93) — only
-  - star rows: J Sadalsuud → J Makemake RA 143.9941 144 whole (49.52) — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **Orcus**
   - top rows: S Sun → H Orcus RA 161.8644 100×φ^1 phi power (85.49) — also: 2 Royaume Uni / Joshua Moore
   - same body: S Orcus → J Orcus Dec 11.1285 11.1111 ninth (loose) — also: 2 Royaume Uni / Joshua Moore
 - **Neptune**
   - star rows: H Aldebaran → H Neptune RA 83.9931 84 whole (43.00) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
-  - star rows: H Markab → H Neptune RA 1.2045 conj (3.88) — only
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: H Scheat → H Neptune RA 0.9583 conj (13.04) — only
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
-  - star rows: J Capella → J Neptune RA 137.5089 85×φ golden (6.76) — also: 6 Manvers House / James Best
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - star rows: J Murzim → J Neptune RA 154.0087 154 whole (31.80) — also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
-  - star rows: J Scheat → J Neptune Dec 48.0165 48 whole (3.05) — only
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
   - star rows: J Zosma → J Neptune Dec 40.4538 25×φ golden (82.71) — only
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
 - **Rahu**
@@ -1140,35 +797,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Mercury**
   - star rows: H Alkes → H Mercury RA 140.7665 87×φ golden (85.11) — also: 4 Dreaming Blue / Rex Dingle
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: H Capella → H Mercury RA 54.9889 55 whole (19.97) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: H Capella → H Mercury Dec 36.0101 36 whole (24.63) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: H Markab → H Mercury RA 37.9910 38 whole (30.51) — also: 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: H Sadalsuud → H Mercury Dec 15.5596 15.5556 ninth (96.13) — also: 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **Gonggong**
   - star rows: H Alkes → H Gonggong Dec 5.9938 6 whole (47.48) — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: H Markab → H Gonggong Dec 27.5096 17×φ golden (81.93) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - star rows: J Aldebaran → J Gonggong RA 97.9925 98 whole (38.77) — also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
   - star rows: J Denebola → J Gonggong RA 153.7315 95×φ golden (18.88) — also: 4 Dreaming Blue / Rex Dingle
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
   - star rows: J Murzim → J Gonggong Dec 0.1298 conj (32.19) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
-- **Pallas**
-  - star rows: H Capella → H Pallas RA 68.9905 69 whole (27.76) — also: 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: H Markab → H Pallas RA 23.9894 24 whole (22.31) — also: 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - top rows: S Jupiter → J Pallas RA 0.2598 conj (68.36) — also: 4 Dreaming Blue / Rex Dingle
-  - star rows: J Markab → J Pallas RA 1.2319 conj (3.19) — also: 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: J Scheat → J Pallas RA 1.4783 conj (0.02) — also: 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **Sun**
   - star rows: H Denebola → H Sun Dec 0.9987 1 whole (87.58) — also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
@@ -1178,30 +815,20 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Sedna**
   - star rows: H Denebola → H Sedna RA 121.3706 75×φ golden (19.66) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - star rows: H Sadalsuud → H Sedna RA 93.0076 93 whole (38.51) — also: 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - star rows: J Capella → J Sedna Dec 40.9881 41 whole (16.53) — also: 6 Manvers House / James Best
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - star rows: J Zosma → J Sedna RA 122.2263 122.222 ninth (99.43) — only
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
-- **Chiron**
-  - star rows: H Markab → H Chiron Dec 12.9876 13 whole (14.53) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 - **Ceres**
   - star rows: H Murzim → H Ceres RA 39.0022 39 whole (79.25) — only
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
   - top rows: S Sun → J Ceres RA 81.0026 81 whole (75.94) — also: 4 Dreaming Blue / Rex Dingle
-  - star rows: J Capella → J Ceres Dec 28.9931 29 whole (42.78) — only
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
 - **Eris**
   - same body: S Eris → J Eris Dec 6.1825 10×φ^-1 phi power (loose) — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
   - star rows: J Denebola → J Eris Dec 22.0101 22 whole (24.49) — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
 - **Uranus**
   - top rows: S Jupiter → J Uranus RA 35.5908 22×φ golden (66.85) — also: 4 Dreaming Blue / Rex Dingle
-- **Transpluto**
-  - star rows: J Scheat → J Transpluto RA 161.8259 100×φ^1 phi power (94.51) — also: 4 Dreaming Blue / Rex Dingle
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
+- **Pallas**
+  - top rows: S Jupiter → J Pallas RA 0.2598 conj (68.36) — also: 4 Dreaming Blue / Rex Dingle
 
 ## 4 Dreaming Blue / Rex Dingle
 ### L1 same bodies
@@ -1230,8 +857,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Sun → H Pallas Dec 0.1910 conj (13.20)
   - star rows: H Alkes → H Pallas Dec 14.0167 14 whole (2.66)
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: H Scheat → H Pallas Dec 32.3652 20×φ golden (73.80)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **H Haumea** (same body: S Haumea → H Haumea RA 4.4396 4.44444 ninth (loose))
   - sky line to Haumea: S Sun → Haumea Dec 19.9944 20 whole (52.20)
   - star rows: H Aldebaran → H Haumea RA 143.9891 144 whole (20.60)
@@ -1254,26 +879,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
   - star rows: J Diadem → J Ceres RA 152.0816 94×φ golden (33.70)
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - other chart, star rows: H Scheat → H Ceres Dec 18.9853 19 whole (6.94)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **J Juno** (same body: S Juno → J Juno RA 129.4643 80×φ golden (11.15))
-  - other chart, star rows: H Markab → H Juno RA 70.7180 70.7 sqrt2 (95.89)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 - **J Rahu** (same body: S Rahu → J Rahu RA 111.4462 111.111 ninth (loose))
   - star rows: J Alkes → J Rahu RA 1.3233 conj (1.39)
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - other chart, star rows: H Markab → H Rahu Dec 4.8550 3×φ golden (94.68)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 - **J Sedna** (same body: S Sedna → J Sedna Dec 3.3335 3.33333 ninth (97.48))
   - sky line to Sedna: S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)
-  - other chart, star rows: H Sadalsuud → H Sedna Dec 12.9855 13 whole (7.55)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 10.0189 10 whole (0.28))
   - sky line to Makemake: S Moon → Makemake Dec 0.0216 conj (86.14)
   - star rows: J Denebola → J Makemake RA 1.1219 conj (6.35)
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - star rows: J Sadalsuud → J Makemake RA 144.4961 144.444 ninth (94.53)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - other chart, star rows: H Murzim → H Makemake Dec 42.9821 43 whole (1.14)
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
 - **J Ketu** (same body: S Ketu → J Ketu RA 111.4462 111.111 ninth (loose))
@@ -1281,13 +896,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
   - star rows: J Murzim → J Ketu Dec 10.9876 11 whole (14.53)
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
-  - other chart, star rows: H Markab → H Ketu RA 11.0968 φ^5 phi power (77.38)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 ### L3 matches
 - **1. same body on both charts**: none
 - **2. one body in both planes**: none
 - **3. runner number = sky number**
-  - 17×φ golden — also: 3 Hell Red / Harry Cobden
+  - 17×φ golden — only
     - H Alkes → H Venus Dec 27.5003 17×φ golden (64.74) = S Moon → Murzim RA 27.5095 17×φ golden (82.56)
   - 43 whole — also: 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien
     - H Murzim → H Makemake Dec 42.9821 43 whole (1.14) = S Jupiter → Venus RA 43.0014 43 whole (86.77)
@@ -1295,50 +908,34 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Jupiter → J Neptune RA 24.9942 25 whole (50.25) = S Sun → Zosma Dec 24.9947 25 whole (54.14)
   - 105×φ golden — only
     - S Orcus → J Jupiter RA 169.8995 105×φ golden (66.89) = S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - 20 whole — also: 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
+  - 20 whole — also: 7 Island Run / Tom O'Brien
     - J Alkes → J Vesta Dec 19.9803 20 whole (0.02) = S Sun → Haumea Dec 19.9944 20 whole (52.20)
   - 124 whole — only
     - J Denebola → J Neptune RA 124.0130 124 whole (12.21) = S Moon → Venus RA 124.0035 124 whole (68.42)
-  - 1 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - J Murzim → J Uranus Dec 1.0191 1 whole (0.21) = S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - 11 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - J Murzim → J Ketu Dec 10.9876 11 whole (14.53) = S Moon → Capella RA 11.0061 11 whole (48.14)
-  - 46 whole — only
-    - J Scheat → J Gonggong Dec 46.0038 46 whole (65.52) = S Jupiter → Vesta RA 45.9960 46 whole (64.02)
 - **4. circle divisions**
-  - 6 = 360/60 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - H Markab → H Venus Dec 6.0029 6 whole (73.03)
   - 10 = 360/36 — also: 2 Royaume Uni / Joshua Moore
     - S Makemake → J Makemake Dec 10.0189 10 whole (0.28)
-  - 20 = 360/18 — also: 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
+  - 20 = 360/18 — also: 7 Island Run / Tom O'Brien
     - J Alkes → J Vesta Dec 19.9803 20 whole (0.02)
-  - 30 = 360/12 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 30 = 360/12 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - J Denebola → J Chiron Dec 30.0117 30 whole (17.29)
-  - 30 = 360/12 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 30 = 360/12 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - J Denebola → J Transpluto RA 29.9902 30 whole (25.88)
-  - 2 = 360/180 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien
-    - J Markab → J Transpluto Dec 2.0139 2 whole (9.42)
   - 1 = 360/360 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - J Murzim → J Uranus Dec 1.0191 1 whole (0.21)
-  - 2 = 360/180 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien
+  - 2 = 360/180 — only
     - J Murzim → J Neptune Dec 2.0049 2 whole (57.16)
 - **5. same number in more than one place**
   - 7×φ golden — also: 7 Island Run / Tom O'Brien
     - H Zosma → H Venus Dec 11.3201 7×φ golden (65.55)
     - J Alkes → J Ketu Dec 11.3287 7×φ golden (85.29)
-  - 144.444 ninth — also: 7 Island Run / Tom O'Brien
-    - S Chiron → J Chiron RA 144.9494 144.444 ninth (loose)
-    - J Sadalsuud → J Makemake RA 144.4961 144.444 ninth (94.53)
-  - 111.111 ninth — also: 5 Grangeclare Glory / Tom Scudamore
+  - 111.111 ninth — only
     - S Rahu → J Rahu RA 111.4462 111.111 ninth (loose)
     - S Ketu → J Ketu RA 111.4462 111.111 ninth (loose)
     - J Denebola → J Sun RA 111.1754 111.111 ninth (89.47)
-  - 30 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr
+  - 30 whole — only
     - J Denebola → J Chiron Dec 30.0117 30 whole (17.29)
     - J Denebola → J Transpluto RA 29.9902 30 whole (25.88)
-  - 2 whole — also: 7 Island Run / Tom O'Brien
-    - J Markab → J Transpluto Dec 2.0139 2 whole (9.42)
-    - J Murzim → J Neptune Dec 2.0049 2 whole (57.16)
 ### L4 every natal body
 - **Uranus**
   - same body: S Uranus → H Uranus Dec 7.0668 7.07 sqrt2 (loose) — also: 6 Manvers House / James Best
@@ -1354,8 +951,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Sun → H Pallas Dec 0.1910 conj (13.20) — only
   - star rows: H Alkes → H Pallas Dec 14.0167 14 whole (2.66) — also: 1 Breaking Waves / Jonjo O'Neill Jr
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: H Scheat → H Pallas Dec 32.3652 20×φ golden (73.80) — also: 3 Hell Red / Harry Cobden, 6 Manvers House / James Best
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **Haumea**
   - same body: S Haumea → H Haumea RA 4.4396 4.44444 ninth (loose) — also: 5 Grangeclare Glory / Tom Scudamore
     - source line: S Sun → Haumea Dec 19.9944 20 whole (52.20)
@@ -1367,12 +962,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
 - **Transpluto**
   - top rows: S Sun → H Transpluto Dec 15.5565 15.5556 ninth (99.08) — also: 7 Island Run / Tom O'Brien
-  - star rows: H Scheat → H Transpluto Dec 16.9997 17 whole (97.08) — also: 3 Hell Red / Harry Cobden
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
   - star rows: J Denebola → J Transpluto RA 29.9902 30 whole (25.88) — also: 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - star rows: J Markab → J Transpluto Dec 2.0139 2 whole (9.42) — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 - **Orcus**
   - top rows: S Moon → H Orcus RA 84.1378 52×φ golden (99.97) — only
   - star rows: J Denebola → J Orcus RA 40.4586 25×φ golden (57.85) — only
@@ -1405,30 +996,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Venus**
   - star rows: H Alkes → H Venus Dec 27.5003 17×φ golden (64.74) — also: 2 Royaume Uni / Joshua Moore
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: H Markab → H Venus Dec 6.0029 6 whole (73.03) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: H Scheat → H Venus Dec 18.8817 18.8889 ninth (94.84) — also: 2 Royaume Uni / Joshua Moore
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
   - star rows: H Zosma → H Venus Dec 11.3201 7×φ golden (65.55) — also: 6 Manvers House / James Best
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
-- **Juno**
-  - star rows: H Markab → H Juno RA 70.7180 70.7 sqrt2 (95.89) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - same body: S Juno → J Juno RA 129.4643 80×φ golden (11.15) — also: 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
-- **Rahu**
-  - star rows: H Markab → H Rahu Dec 4.8550 3×φ golden (94.68) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - same body: S Rahu → J Rahu RA 111.4462 111.111 ninth (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-  - star rows: J Alkes → J Rahu RA 1.3233 conj (1.39) — also: 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-- **Ketu**
-  - star rows: H Markab → H Ketu RA 11.0968 φ^5 phi power (77.38) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - same body: S Ketu → J Ketu RA 111.4462 111.111 ninth (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-  - star rows: J Alkes → J Ketu Dec 11.3287 7×φ golden (85.29) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: J Murzim → J Ketu Dec 10.9876 11 whole (14.53) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
 - **Makemake**
   - star rows: H Murzim → H Makemake Dec 42.9821 43 whole (1.14) — only
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
@@ -1436,29 +1005,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Makemake Dec 0.0216 conj (86.14)
   - star rows: J Denebola → J Makemake RA 1.1219 conj (6.35) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - star rows: J Sadalsuud → J Makemake RA 144.4961 144.444 ninth (94.53) — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 6 Manvers House / James Best
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-- **Vesta**
-  - star rows: H Sadalsuud → H Vesta RA 150.0006 150 whole (94.37) — also: 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - star rows: J Alkes → J Vesta Dec 19.9803 20 whole (0.02) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-- **Sedna**
-  - star rows: H Sadalsuud → H Sedna Dec 12.9855 13 whole (7.55) — also: 3 Hell Red / Harry Cobden, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - same body: S Sedna → J Sedna Dec 3.3335 3.33333 ninth (97.48) — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)
-- **Ceres**
-  - star rows: H Scheat → H Ceres Dec 18.9853 19 whole (6.94) — only
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
-  - same body: S Ceres → J Ceres Dec 37.0190 37 whole (0.23) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - source line: S Moon → Ceres Dec 0.1440 conj (27.02)
-  - T2: J Jupiter → J Ceres Dec 0.0170 conj (89.00) — only
-  - top rows: S Sun → J Ceres RA 0.0271 conj (96.42) — also: 3 Hell Red / Harry Cobden
-  - star rows: J Denebola → J Ceres Dec 29.0077 29 whole (37.92) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
-    - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - star rows: J Diadem → J Ceres RA 152.0816 94×φ golden (33.70) — only
-    - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
 - **Sun**
   - same body: S Sun → J Sun Dec 17.8856 φ^6 phi power (loose) — also: 5 Grangeclare Glory / Tom Scudamore
   - star rows: J Denebola → J Sun RA 111.1754 111.111 ninth (89.47) — also: 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
@@ -1468,6 +1014,30 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Chiron Dec 16.6620 16.6667 ninth (96.00)
   - star rows: J Denebola → J Chiron Dec 30.0117 30 whole (17.29) — only
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
+- **Ceres**
+  - same body: S Ceres → J Ceres Dec 37.0190 37 whole (0.23) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+    - source line: S Moon → Ceres Dec 0.1440 conj (27.02)
+  - T2: J Jupiter → J Ceres Dec 0.0170 conj (89.00) — only
+  - top rows: S Sun → J Ceres RA 0.0271 conj (96.42) — also: 3 Hell Red / Harry Cobden
+  - star rows: J Denebola → J Ceres Dec 29.0077 29 whole (37.92) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
+    - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
+  - star rows: J Diadem → J Ceres RA 152.0816 94×φ golden (33.70) — only
+    - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
+- **Juno**
+  - same body: S Juno → J Juno RA 129.4643 80×φ golden (11.15) — also: 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
+- **Rahu**
+  - same body: S Rahu → J Rahu RA 111.4462 111.111 ninth (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - star rows: J Alkes → J Rahu RA 1.3233 conj (1.39) — also: 5 Grangeclare Glory / Tom Scudamore
+    - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
+- **Sedna**
+  - same body: S Sedna → J Sedna Dec 3.3335 3.33333 ninth (97.48) — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+    - source line: S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)
+- **Ketu**
+  - same body: S Ketu → J Ketu RA 111.4462 111.111 ninth (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - star rows: J Alkes → J Ketu Dec 11.3287 7×φ golden (85.29) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore
+    - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
+  - star rows: J Murzim → J Ketu Dec 10.9876 11 whole (14.53) — also: 1 Breaking Waves / Jonjo O'Neill Jr
+    - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
 - **Gonggong**
   - top rows: S Jupiter → J Gonggong RA 16.1823 10×φ^1 phi power (95.11) — only
   - star rows: J Aldebaran → J Gonggong RA 98.0021 98 whole (80.03) — also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
@@ -1476,13 +1046,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
   - star rows: J Murzim → J Gonggong Dec 0.0375 conj (76.57) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
-  - star rows: J Scheat → J Gonggong Dec 46.0038 46 whole (65.52) — also: 6 Manvers House / James Best
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
-- **Pluto**
-  - star rows: J Capella → J Pluto RA 168.0055 168 whole (52.32) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: J Markab → J Pluto RA 99.0022 99 whole (79.58) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
+- **Vesta**
+  - star rows: J Alkes → J Vesta Dec 19.9803 20 whole (0.02) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien
+    - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
 - **Mars**
   - star rows: J Denebola → J Mars RA 141.4612 141.4 sqrt2 (89.05) — also: 6 Manvers House / James Best
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
@@ -1512,39 +1078,19 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Gonggong → J Gonggong Dec 11.0970 φ^5 phi power (76.98)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun Dec 15.5556 15.5556 ninth (100.00))
-  - star rows: H Scheat → H Sun Dec 16.9983 17 whole (83.48)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
   - other chart, same body: S Sun → J Sun RA 69.5872 43×φ golden (loose)
-  - other chart, star rows: J Markab → J Sun RA 73.0044 73 whole (60.72)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - other chart, star rows: J Sadalsuud → J Sun Dec 25.9966 26 whole (68.90)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - other chart, star rows: J Zosma → J Sun Dec 0.1003 conj (44.32)
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
 - **H Mercury** (same body: S Mercury → H Mercury RA 64.7311 40×φ golden (loose); S Mercury → H Mercury Dec 29.0799 φ^7 phi power (loose))
-  - star rows: H Markab → H Mercury Dec 0.1194 conj (36.23)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - other chart, star rows: J Markab → J Mercury Dec 8.0066 8 whole (44.93)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - other chart, star rows: J Sadalsuud → J Mercury RA 111.1385 111.111 ninth (95.53)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **H Venus** (same body: S Venus → H Venus RA 122.7244 φ^10 phi power (loose))
   - sky line to Venus: S Jupiter → Venus RA 43.0014 43 whole (86.77)
   - sky line to Venus: S Moon → Venus RA 124.0035 124 whole (68.42)
   - top rows: S Moon → H Venus RA 1.2791 conj (2.17)
-  - star rows: H Sadalsuud → H Venus RA 104.0004 104 whole (96.29)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - other chart, same body: S Venus → J Venus Dec 22.6393 14×φ golden (loose)
   - other chart, star rows: J Diadem → J Venus RA 177.7324 177.778 ninth (96.45)
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - other chart, star rows: J Markab → J Venus Dec 8.9818 9 whole (0.82)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 - **H Pallas** (same body: S Pallas → H Pallas RA 101.9515 63×φ golden (27.56))
   - top rows: S Moon → H Pallas RA 157.9951 158 whole (57.08)
-  - star rows: H Capella → H Pallas RA 168.9957 169 whole (61.65)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: H Markab → H Pallas RA 76.0145 φ^9 phi power (99.30)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - other chart, same body: S Pallas → J Pallas RA 178.8837 10×φ^6 phi power (loose)
   - other chart, top rows: S Moon → J Pallas Dec 0.1549 conj (23.39)
   - other chart, star rows: J Denebola → J Pallas Dec 7.9978 8 whole (78.78)
@@ -1564,26 +1110,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
   - other chart, same body: S Haumea → J Haumea Dec 8.8790 8.88889 ninth (loose)
 - **J Sun** (same body: S Sun → J Sun RA 69.5872 43×φ golden (loose))
-  - star rows: J Markab → J Sun RA 73.0044 73 whole (60.72)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: J Sadalsuud → J Sun Dec 25.9966 26 whole (68.90)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - star rows: J Zosma → J Sun Dec 0.1003 conj (44.32)
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
   - other chart, same body: S Sun → H Sun Dec 15.5556 15.5556 ninth (100.00)
-  - other chart, star rows: H Scheat → H Sun Dec 16.9983 17 whole (83.48)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **J Venus** (same body: S Venus → J Venus Dec 22.6393 14×φ golden (loose))
   - sky line to Venus: S Jupiter → Venus RA 43.0014 43 whole (86.77)
   - sky line to Venus: S Moon → Venus RA 124.0035 124 whole (68.42)
   - star rows: J Diadem → J Venus RA 177.7324 177.778 ninth (96.45)
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - star rows: J Markab → J Venus Dec 8.9818 9 whole (0.82)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - other chart, same body: S Venus → H Venus RA 122.7244 φ^10 phi power (loose)
   - other chart, top rows: S Moon → H Venus RA 1.2791 conj (2.17)
-  - other chart, star rows: H Sadalsuud → H Venus RA 104.0004 104 whole (96.29)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **J Pluto** (same body: S Pluto → J Pluto Dec 29.1417 18×φ golden (loose))
   - star rows: J Alkes → J Pluto Dec 25.0148 25 whole (6.80)
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
@@ -1597,17 +1133,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
   - other chart, same body: S Pallas → H Pallas RA 101.9515 63×φ golden (27.56)
   - other chart, top rows: S Moon → H Pallas RA 157.9951 158 whole (57.08)
-  - other chart, star rows: H Capella → H Pallas RA 168.9957 169 whole (61.65)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - other chart, star rows: H Markab → H Pallas RA 76.0145 φ^9 phi power (99.30)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 - **J Juno** (same body: S Juno → J Juno RA 35.5881 22×φ golden (loose))
   - star rows: J Aldebaran → J Juno RA 150.4759 93×φ golden (92.12)
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
   - star rows: J Diadem → J Juno RA 80.9951 81 whole (56.73)
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - star rows: J Sadalsuud → J Juno Dec 0.0411 conj (74.50)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - other chart, star rows: H Denebola → H Juno Dec 1.0171 1 whole (2.17)
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
 - **J Sedna** (same body: S Sedna → J Sedna Dec 4.8578 3×φ golden (loose))
@@ -1626,8 +1156,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - sky line to Makemake: S Moon → Makemake Dec 0.0216 conj (86.14)
   - star rows: J Alkes → J Makemake RA 5.9992 6 whole (92.29)
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: J Scheat → J Makemake RA 173.0069 173 whole (43.22)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
   - other chart, star rows: H Zosma → H Makemake RA 24.0190 24 whole (0.23)
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
 - **J Gonggong** (same body: S Gonggong → J Gonggong Dec 11.0970 φ^5 phi power (76.98))
@@ -1635,10 +1163,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
   - star rows: J Alkes → J Gonggong Dec 3.9975 4 whole (76.15)
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: J Capella → J Gonggong RA 111.1766 111.111 ninth (89.29)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - other chart, star rows: H Sadalsuud → H Gonggong RA 12.9935 13 whole (45.47)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 ### L3 matches
 - **1. same body on both charts**
   - Sun — only
@@ -1658,13 +1182,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Mercury → H Mercury RA 64.7311 40×φ golden (loose)
     - S Mercury → H Mercury Dec 29.0799 φ^7 phi power (loose)
 - **3. runner number = sky number**
-  - 1 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - H Denebola → H Juno Dec 1.0171 1 whole (2.17) = S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - 20 whole — also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
-    - H Sadalsuud → H Vesta RA 19.9890 20 whole (20.36) = S Sun → Haumea Dec 19.9944 20 whole (52.20)
-  - 22 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden
-    - H Scheat → H Uranus Dec 21.9850 22 whole (6.25) = S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - 16.6667 ninth — also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
+  - 16.6667 ninth — also: 6 Manvers House / James Best
     - H Zosma → H Ketu Dec 16.6639 16.6667 ninth (97.61) = S Moon → Chiron Dec 16.6620 16.6667 ninth (96.00)
   - 25 whole — also: 4 Dreaming Blue / Rex Dingle
     - J Alkes → J Pluto Dec 25.0148 25 whole (6.80) = S Sun → Zosma Dec 24.9947 25 whole (54.14)
@@ -1675,36 +1193,26 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **4. circle divisions**
   - 18 = 360/20 — also: 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - H Jupiter → H Chiron Dec 17.9953 18 whole (58.45)
-  - 3 = 360/120 — also: 3 Hell Red / Harry Cobden, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 3 = 360/120 — also: 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - S Uranus → H Jupiter Dec 2.9964 3 whole (67.45)
   - 24 = 360/15 — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
     - H Alkes → H Rahu RA 24.0058 24 whole (50.46)
-  - 30 = 360/12 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - H Capella → H Mars Dec 30.0068 30 whole (43.84)
   - 1 = 360/360 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - H Denebola → H Juno Dec 1.0171 1 whole (2.17)
-  - 9 = 360/40 — also: 6 Manvers House / James Best
+  - 9 = 360/40 — only
     - H Murzim → H Neptune Dec 9.0100 9 whole (24.99)
-  - 20 = 360/18 — also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
-    - H Sadalsuud → H Vesta RA 19.9890 20 whole (20.36)
   - 24 = 360/15 — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
     - H Zosma → H Makemake RA 24.0190 24 whole (0.23)
-  - 40 = 360/9 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore
+  - 40 = 360/9 — only
     - S Makemake → J Makemake RA 39.9911 40 whole (30.71)
-  - 5 = 360/72 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 5 = 360/72 — also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - J Jupiter → J Vesta Dec 4.9994 5 whole (94.19)
-  - 6 = 360/60 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 6 = 360/60 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - J Alkes → J Makemake RA 5.9992 6 whole (92.29)
   - 4 = 360/90 — also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
     - J Alkes → J Gonggong Dec 3.9975 4 whole (76.15)
-  - 8 = 360/45 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - 8 = 360/45 — also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - J Denebola → J Pallas Dec 7.9978 8 whole (78.78)
-  - 8 = 360/45 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - J Markab → J Mercury Dec 8.0066 8 whole (44.93)
-  - 9 = 360/40 — also: 6 Manvers House / James Best
-    - J Markab → J Venus Dec 8.9818 9 whole (0.82)
-  - 15 = 360/24 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
-    - J Sadalsuud → J Uranus Dec 15.0188 15 whole (0.36)
 - **5. same number in more than one place**
   - 158 whole — only
     - S Moon → H Pallas RA 157.9951 158 whole (57.08)
@@ -1712,63 +1220,31 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 107×φ golden — only
     - S Saturn → H Jupiter RA 173.1304 107×φ golden (95.32)
     - H Aldebaran → H Saturn RA 173.1366 107×φ golden (61.61)
-  - 24 whole — also: 3 Hell Red / Harry Cobden
+  - 24 whole — only
     - H Alkes → H Rahu RA 24.0058 24 whole (50.46)
     - H Zosma → H Makemake RA 24.0190 24 whole (0.23)
-  - 9 whole — only
-    - H Murzim → H Neptune Dec 9.0100 9 whole (24.99)
-    - J Markab → J Venus Dec 8.9818 9 whole (0.82)
-  - 26 whole — also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
-    - S Uranus → J Jupiter Dec 26.0021 26 whole (80.53)
-    - J Sadalsuud → J Sun Dec 25.9966 26 whole (68.90)
-  - 111.111 ninth — also: 4 Dreaming Blue / Rex Dingle
-    - J Capella → J Gonggong RA 111.1766 111.111 ninth (89.29)
-    - J Sadalsuud → J Mercury RA 111.1385 111.111 ninth (95.53)
-  - 8 whole — also: 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-    - J Denebola → J Pallas Dec 7.9978 8 whole (78.78)
-    - J Markab → J Mercury Dec 8.0066 8 whole (44.93)
 ### L4 every natal body
 - **Sun**
   - same body + top rows: S Sun → H Sun Dec 15.5556 15.5556 ninth (100.00) — also: 4 Dreaming Blue / Rex Dingle
-  - star rows: H Scheat → H Sun Dec 16.9983 17 whole (83.48) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
   - same body: S Sun → J Sun RA 69.5872 43×φ golden (loose) — also: 4 Dreaming Blue / Rex Dingle
-  - star rows: J Markab → J Sun RA 73.0044 73 whole (60.72) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: J Sadalsuud → J Sun Dec 25.9966 26 whole (68.90) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - star rows: J Zosma → J Sun Dec 0.1003 conj (44.32) — only
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
 - **Mercury**
   - same body: S Mercury → H Mercury RA 64.7311 40×φ golden (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best
   - same body: S Mercury → H Mercury Dec 29.0799 φ^7 phi power (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best
-  - star rows: H Markab → H Mercury Dec 0.1194 conj (36.23) — also: 3 Hell Red / Harry Cobden
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: J Markab → J Mercury Dec 8.0066 8 whole (44.93) — also: 3 Hell Red / Harry Cobden
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: J Sadalsuud → J Mercury RA 111.1385 111.111 ninth (95.53) — also: 3 Hell Red / Harry Cobden
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **Venus**
   - same body: S Venus → H Venus RA 122.7244 φ^10 phi power (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - source line: S Jupiter → Venus RA 43.0014 43 whole (86.77)
     - source line: S Moon → Venus RA 124.0035 124 whole (68.42)
   - top rows: S Moon → H Venus RA 1.2791 conj (2.17) — also: 7 Island Run / Tom O'Brien
-  - star rows: H Sadalsuud → H Venus RA 104.0004 104 whole (96.29) — only
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - same body: S Venus → J Venus Dec 22.6393 14×φ golden (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - source line: S Jupiter → Venus RA 43.0014 43 whole (86.77)
     - source line: S Moon → Venus RA 124.0035 124 whole (68.42)
   - star rows: J Diadem → J Venus RA 177.7324 177.778 ninth (96.45) — only
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - star rows: J Markab → J Venus Dec 8.9818 9 whole (0.82) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 - **Pallas**
   - same body: S Pallas → H Pallas RA 101.9515 63×φ golden (27.56) — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
   - top rows: S Moon → H Pallas RA 157.9951 158 whole (57.08) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-  - star rows: H Capella → H Pallas RA 168.9957 169 whole (61.65) — also: 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: H Markab → H Pallas RA 76.0145 φ^9 phi power (99.30) — also: 3 Hell Red / Harry Cobden
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - same body: S Pallas → J Pallas RA 178.8837 10×φ^6 phi power (loose) — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
   - top rows: S Moon → J Pallas Dec 0.1549 conj (23.39) — also: 1 Breaking Waves / Jonjo O'Neill Jr
   - star rows: J Denebola → J Pallas Dec 7.9978 8 whole (78.78) — only
@@ -1803,8 +1279,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Uranus → J Jupiter Dec 26.0021 26 whole (80.53) — only
     - source line: S Sun → Uranus Dec 19.4155 12×φ golden (94.70)
   - top rows: S Gonggong → J Jupiter Dec 0.1421 conj (27.69) — only
-  - star rows: S Sadalsuud → J Jupiter RA 112.0104 112 whole (23.12) — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **Saturn**
   - star rows: H Aldebaran → H Saturn RA 173.1366 107×φ golden (61.61) — also: 1 Breaking Waves / Jonjo O'Neill Jr
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
@@ -1825,33 +1299,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
   - star rows: H Alkes → H Rahu Dec 14.4426 14.4444 ninth (98.08) — also: 4 Dreaming Blue / Rex Dingle
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: H Scheat → H Rahu RA 156.9890 157 whole (20.21) — only
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
   - top rows: S Moon → J Rahu Dec 0.0521 conj (68.26) — also: 1 Breaking Waves / Jonjo O'Neill Jr
   - star rows: J Zosma → J Rahu RA 62.9950 63 whole (56.62) — also: 3 Hell Red / Harry Cobden
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
 - **Ketu**
   - star rows: H Alkes → H Ketu RA 155.9942 156 whole (50.46) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: H Scheat → H Ketu RA 23.0110 23 whole (20.21) — also: 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
   - star rows: H Zosma → H Ketu Dec 16.6639 16.6667 ninth (97.61) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
   - star rows: J Zosma → J Ketu RA 117.0050 117 whole (56.62) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
-- **Mars**
-  - star rows: H Capella → H Mars Dec 30.0068 30 whole (43.84) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-- **Vesta**
-  - star rows: H Capella → H Vesta Dec 57.0110 57 whole (20.08) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: H Sadalsuud → H Vesta RA 19.9890 20 whole (20.36) — also: 4 Dreaming Blue / Rex Dingle
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - T2: J Jupiter → J Vesta Dec 4.9994 5 whole (94.19) — also: 7 Island Run / Tom O'Brien
-  - star rows: J Denebola → J Vesta RA 146.0030 146 whole (72.34) — also: 6 Manvers House / James Best
-    - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - star rows: J Sadalsuud → J Vesta RA 0.3822 conj (55.54) — also: 4 Dreaming Blue / Rex Dingle
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **Juno**
   - star rows: H Denebola → H Juno Dec 1.0171 1 whole (2.17) — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
@@ -1860,8 +1317,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
   - star rows: J Diadem → J Juno RA 80.9951 81 whole (56.73) — only
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - star rows: J Sadalsuud → J Juno Dec 0.0411 conj (74.50) — only
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **Neptune**
   - star rows: H Murzim → H Neptune Dec 9.0100 9 whole (24.99) — also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
@@ -1873,25 +1328,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)
   - star rows: J Alkes → J Sedna RA 126.2117 78×φ golden (71.27) — also: 6 Manvers House / James Best
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-- **Uranus**
-  - star rows: H Sadalsuud → H Uranus RA 52.9973 53 whole (74.96) — also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - star rows: H Scheat → H Uranus Dec 21.9850 22 whole (6.25) — only
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
-  - star rows: J Sadalsuud → J Uranus Dec 15.0188 15 whole (0.36) — also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - star rows: J Scheat → J Uranus RA 105.0165 105 whole (2.98) — only
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
-- **Gonggong**
-  - star rows: H Sadalsuud → H Gonggong RA 12.9935 13 whole (45.47) — only
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - same body: S Gonggong → J Gonggong Dec 11.0970 φ^5 phi power (76.98) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
-  - star rows: J Aldebaran → J Gonggong RA 100.9865 101 whole (10.60) — also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
-    - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
-  - star rows: J Alkes → J Gonggong Dec 3.9975 4 whole (76.15) — also: 3 Hell Red / Harry Cobden, 6 Manvers House / James Best
-    - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: J Capella → J Gonggong RA 111.1766 111.111 ninth (89.29) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
 - **Makemake**
   - star rows: H Zosma → H Makemake RA 24.0190 24 whole (0.23) — also: 2 Royaume Uni / Joshua Moore
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
@@ -1899,17 +1335,20 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Makemake Dec 0.0216 conj (86.14)
   - star rows: J Alkes → J Makemake RA 5.9992 6 whole (92.29) — also: 2 Royaume Uni / Joshua Moore
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: J Scheat → J Makemake RA 173.0069 173 whole (43.22) — also: 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
+- **Gonggong**
+  - same body: S Gonggong → J Gonggong Dec 11.0970 φ^5 phi power (76.98) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - star rows: J Aldebaran → J Gonggong RA 100.9865 101 whole (10.60) — also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
+    - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
+  - star rows: J Alkes → J Gonggong Dec 3.9975 4 whole (76.15) — also: 3 Hell Red / Harry Cobden, 6 Manvers House / James Best
+    - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
+- **Vesta**
+  - T2: J Jupiter → J Vesta Dec 4.9994 5 whole (94.19) — also: 7 Island Run / Tom O'Brien
+  - star rows: J Denebola → J Vesta RA 146.0030 146 whole (72.34) — also: 6 Manvers House / James Best
+    - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
 - **Ceres**
   - top rows: S Moon → J Ceres Dec 32.0016 32 whole (85.06) — also: 7 Island Run / Tom O'Brien
   - star rows: J Aldebaran → J Ceres RA 158.0041 158 whole (63.32) — also: 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
-- **Transpluto**
-  - star rows: J Markab → J Transpluto Dec 0.1077 conj (41.11) — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: J Sadalsuud → J Transpluto RA 177.9581 110×φ golden (4.34) — also: 6 Manvers House / James Best
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 
 ## 6 Manvers House / James Best
 ### L1 same bodies
@@ -1934,8 +1373,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - sky line to Uranus: S Sun → Uranus Dec 19.4155 12×φ golden (94.70)
   - star rows: H Denebola → H Uranus Dec 10.9855 11 whole (7.55)
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - other chart, star rows: J Sadalsuud → J Uranus Dec 17.9430 φ^6 phi power (97.12)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **H Ceres** (same body: S Ceres → H Ceres Dec 6.0130 6 whole (12.09))
   - sky line to Ceres: S Moon → Ceres Dec 0.1440 conj (27.02)
   - other chart, same body: S Ceres → J Ceres Dec 19.0174 19 whole (1.74)
@@ -1946,8 +1383,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Vesta** (same body: S Vesta → H Vesta RA 155.5462 155.556 ninth (99.11); S Vesta → H Vesta Dec 44.0157 44 whole (4.58))
   - sky line to Vesta: S Jupiter → Vesta RA 45.9960 46 whole (64.02)
   - sky line to Vesta: S Moon → Vesta RA 126.9981 127 whole (81.81)
-  - star rows: H Markab → H Vesta Dec 8.9842 9 whole (4.31)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - star rows: H Murzim → H Vesta RA 1.0445 conj (9.22)
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
   - other chart, star rows: J Denebola → J Vesta Dec 5.0000 5 whole (99.79)
@@ -1956,30 +1391,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
 - **H Rahu** (same body: S Rahu → H Rahu RA 172.0297 172 whole (loose))
   - top rows: S Jupiter → H Rahu RA 122.9580 φ^10 phi power (89.30)
-  - star rows: H Markab → H Rahu RA 121.9811 122 whole (0.31)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - other chart, same body: S Rahu → J Rahu RA 110.5641 10×φ^5 phi power (loose)
 - **H Sedna** (same body: S Sedna → H Sedna Dec 0.9808 1 whole (0.18))
   - sky line to Sedna: S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)
   - star rows: H Alkes → H Sedna RA 111.1057 111.111 ninth (99.12)
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: H Capella → H Sedna Dec 38.8391 24×φ golden (64.86)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - other chart, same body: S Sedna → J Sedna RA 16.1817 10×φ^1 phi power (96.55)
   - other chart, top rows: S Jupiter → J Sedna RA 55.0120 34×φ golden (92.96)
-  - other chart, star rows: J Capella → J Sedna RA 37.0030 37 whole (72.37)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - other chart, star rows: J Diadem → J Sedna RA 155.3175 96×φ golden (32.97)
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - other chart, star rows: J Markab → J Sedna RA 55.9865 56 whole (10.41)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - other chart, star rows: J Sadalsuud → J Sedna RA 79.2891 49×φ golden (69.00)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - other chart, star rows: J Scheat → J Sedna Dec 24.1428 24.14 silver (98.91)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **H Ketu** (same body: S Ketu → H Ketu RA 172.0297 172 whole (loose))
-  - star rows: H Markab → H Ketu RA 58.0189 58 whole (0.31)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - other chart, same body: S Ketu → J Ketu RA 110.5641 10×φ^5 phi power (loose)
   - other chart, star rows: J Zosma → J Ketu Dec 0.2569 conj (2.06)
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
@@ -1991,10 +1412,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Neptune** (same body: S Neptune → J Neptune Dec 17.9621 φ^6 phi power (loose))
   - top rows: S Jupiter → J Neptune RA 63.0036 63 whole (67.12)
   - top rows: S Moon → J Neptune RA 144.0057 89×φ golden (95.86)
-  - star rows: J Capella → J Neptune RA 155.0186 155 whole (0.49)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: J Capella → J Neptune Dec 67.9971 68 whole (73.42)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - star rows: J Murzim → J Neptune RA 171.5188 106×φ golden (60.38)
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
   - other chart, top rows: S Moon → H Neptune Dec 33.0021 33 whole (80.37)
@@ -2008,37 +1425,21 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Rahu** (same body: S Rahu → J Rahu RA 110.5641 10×φ^5 phi power (loose))
   - other chart, same body: S Rahu → H Rahu RA 172.0297 172 whole (loose)
   - other chart, top rows: S Jupiter → H Rahu RA 122.9580 φ^10 phi power (89.30)
-  - other chart, star rows: H Markab → H Rahu RA 121.9811 122 whole (0.31)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 - **J Sedna** (same body: S Sedna → J Sedna RA 16.1817 10×φ^1 phi power (96.55))
   - sky line to Sedna: S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)
   - top rows: S Jupiter → J Sedna RA 55.0120 34×φ golden (92.96)
-  - star rows: J Capella → J Sedna RA 37.0030 37 whole (72.37)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - star rows: J Diadem → J Sedna RA 155.3175 96×φ golden (32.97)
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - star rows: J Markab → J Sedna RA 55.9865 56 whole (10.41)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: J Sadalsuud → J Sedna RA 79.2891 49×φ golden (69.00)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - star rows: J Scheat → J Sedna Dec 24.1428 24.14 silver (98.91)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
   - other chart, same body: S Sedna → H Sedna Dec 0.9808 1 whole (0.18)
   - other chart, star rows: H Alkes → H Sedna RA 111.1057 111.111 ninth (99.12)
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - other chart, star rows: H Capella → H Sedna Dec 38.8391 24×φ golden (64.86)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
 - **J Gonggong** (same body: S Gonggong → J Gonggong RA 7.9995 8 whole (95.38))
   - star rows: J Alkes → J Gonggong RA 163.9866 164 whole (10.89)
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: J Scheat → J Gonggong RA 17.0127 17 whole (13.30)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **J Ketu** (same body: S Ketu → J Ketu RA 110.5641 10×φ^5 phi power (loose))
   - star rows: J Zosma → J Ketu Dec 0.2569 conj (2.06)
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
   - other chart, same body: S Ketu → H Ketu RA 172.0297 172 whole (loose)
-  - other chart, star rows: H Markab → H Ketu RA 58.0189 58 whole (0.31)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 ### L3 matches
 - **1. same body on both charts**
   - Ceres — only
@@ -2058,88 +1459,59 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Vesta → H Vesta RA 155.5462 155.556 ninth (99.11)
     - S Vesta → H Vesta Dec 44.0157 44 whole (4.58)
 - **3. runner number = sky number**
-  - 1 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
-    - S Sedna → H Sedna Dec 0.9808 1 whole (0.18) = S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - 11 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
-    - H Jupiter → H Transpluto Dec 10.9961 11 whole (64.40) = S Moon → Capella RA 11.0061 11 whole (48.14)
-  - 11 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
-    - S Moon → H Transpluto Dec 10.9943 11 whole (51.36) = S Moon → Capella RA 11.0061 11 whole (48.14)
-  - 16.6667 ninth — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore
+  - 16.6667 ninth — also: 5 Grangeclare Glory / Tom Scudamore
     - S Chiron → H Jupiter Dec 16.6637 16.6667 ninth (97.47) = S Moon → Chiron Dec 16.6620 16.6667 ninth (96.00)
-  - 11 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
-    - H Denebola → H Uranus Dec 10.9855 11 whole (7.55) = S Moon → Capella RA 11.0061 11 whole (48.14)
   - 12×φ golden — only
     - H Diadem → H Chiron Dec 19.4148 12×φ golden (90.05) = S Sun → Uranus Dec 19.4155 12×φ golden (94.70)
   - 177.778 ninth — also: 5 Grangeclare Glory / Tom Scudamore
     - S Juno → J Jupiter RA 177.7293 177.778 ninth (96.21) = S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - 11 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
-    - J Denebola → J Ceres Dec 11.0077 11 whole (37.88) = S Moon → Capella RA 11.0061 11 whole (48.14)
 - **4. circle divisions**
-  - 6 = 360/60 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
+  - 6 = 360/60 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
     - S Ceres → H Ceres Dec 6.0130 6 whole (12.09)
   - 1 = 360/360 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
     - S Sedna → H Sedna Dec 0.9808 1 whole (0.18)
-  - 15 = 360/24 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore
+  - 15 = 360/24 — also: 2 Royaume Uni / Joshua Moore
     - H Alkes → H Eris Dec 15.0096 15 whole (26.88)
-  - 9 = 360/40 — also: 5 Grangeclare Glory / Tom Scudamore
-    - H Markab → H Vesta Dec 8.9842 9 whole (4.31)
-  - 36 = 360/10 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
+  - 36 = 360/10 — also: 1 Breaking Waves / Jonjo O'Neill Jr
     - H Zosma → H Quaoar Dec 35.9872 36 whole (12.92)
-  - 8 = 360/45 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
+  - 8 = 360/45 — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
     - S Gonggong → J Gonggong RA 7.9995 8 whole (95.38)
   - 18 = 360/20 — also: 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
     - S Sun → J Chiron Dec 18.0040 18 whole (64.09)
-  - 3 = 360/120 — also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
+  - 3 = 360/120 — also: 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
     - J Aldebaran → J Chiron Dec 2.9806 3 whole (0.08)
-  - 8 = 360/45 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
+  - 8 = 360/45 — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
     - J Denebola → J Mars Dec 8.0097 8 whole (26.35)
-  - 5 = 360/72 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
+  - 5 = 360/72 — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
     - J Denebola → J Vesta Dec 5.0000 5 whole (99.79)
   - 4 = 360/90 — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore
     - J Diadem → J Chiron Dec 3.9985 4 whole (85.50)
-  - 30 = 360/12 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
+  - 30 = 360/12 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
     - J Zosma → J Eris Dec 30.0144 30 whole (7.84)
 - **5. same number in more than one place**
-  - 76 whole — only
-    - S Mercury → H Mercury RA 76.0008 76 whole (92.41)
-    - J Markab → J Mars RA 76.0091 76 whole (29.59)
   - 172 whole — only
     - S Rahu → H Rahu RA 172.0297 172 whole (loose)
     - S Ketu → H Ketu RA 172.0297 172 whole (loose)
     - H Diadem → H Eris RA 172.0159 172 whole (4.28)
-  - 11 whole — also: 7 Island Run / Tom O'Brien
-    - H Jupiter → H Transpluto Dec 10.9961 11 whole (64.40)
-    - S Moon → H Transpluto Dec 10.9943 11 whole (51.36)
-    - H Denebola → H Uranus Dec 10.9855 11 whole (7.55)
-    - J Denebola → J Ceres Dec 11.0077 11 whole (37.88)
   - 33 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr
     - S Moon → H Neptune Dec 33.0021 33 whole (80.37)
     - H Diadem → H Quaoar Dec 32.9931 33 whole (43.18)
-    - H Scheat → H Juno Dec 32.9811 33 whole (0.32)
-  - 26 whole — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore
+  - 11 whole — also: 7 Island Run / Tom O'Brien
+    - S Moon → H Transpluto Dec 10.9943 11 whole (51.36)
+    - H Denebola → H Uranus Dec 10.9855 11 whole (7.55)
+    - J Denebola → J Ceres Dec 11.0077 11 whole (37.88)
+  - 26 whole — also: 2 Royaume Uni / Joshua Moore
     - H Aldebaran → H Mars RA 26.0117 26 whole (17.30)
     - J Aldebaran → J Eris Dec 26.0021 26 whole (79.68)
-  - 122 whole — only
-    - H Alkes → H Mars RA 121.9806 122 whole (0.10)
-    - H Markab → H Rahu RA 121.9811 122 whole (0.31)
   - 7 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr
     - H Diadem → H Makemake RA 6.9921 7 whole (36.88)
     - J Zosma → J Chiron Dec 6.9928 7 whole (41.10)
-  - 106×φ golden — only
-    - H Sadalsuud → H Transpluto RA 171.5073 106×φ golden (74.98)
-    - J Murzim → J Neptune RA 171.5188 106×φ golden (60.38)
-  - φ^6 phi power — only
-    - S Neptune → J Neptune Dec 17.9621 φ^6 phi power (loose)
-    - J Sadalsuud → J Uranus Dec 17.9430 φ^6 phi power (97.12)
   - 10×φ^5 phi power — only
     - S Rahu → J Rahu RA 110.5641 10×φ^5 phi power (loose)
     - S Ketu → J Ketu RA 110.5641 10×φ^5 phi power (loose)
-  - 8 whole — also: 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
+  - 8 whole — only
     - S Gonggong → J Gonggong RA 7.9995 8 whole (95.38)
     - J Denebola → J Mars Dec 8.0097 8 whole (26.35)
-  - 17 whole — also: 2 Royaume Uni / Joshua Moore
-    - J Capella → J Mars RA 16.9803 17 whole (0.03)
-    - J Scheat → J Gonggong RA 17.0127 17 whole (13.30)
 ### L4 every natal body
 - **Mercury**
   - same body: S Mercury → H Mercury RA 76.0008 76 whole (92.41) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore
@@ -2148,8 +1520,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Uranus Dec 19.4155 12×φ golden (94.70)
   - star rows: H Denebola → H Uranus Dec 10.9855 11 whole (7.55) — also: 2 Royaume Uni / Joshua Moore
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - star rows: J Sadalsuud → J Uranus Dec 17.9430 φ^6 phi power (97.12) — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **Ceres**
   - same body: S Ceres → H Ceres Dec 6.0130 6 whole (12.09) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
     - source line: S Moon → Ceres Dec 0.1440 conj (27.02)
@@ -2166,8 +1536,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Vesta → H Vesta Dec 44.0157 44 whole (4.58) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
     - source line: S Jupiter → Vesta RA 45.9960 46 whole (64.02)
     - source line: S Moon → Vesta RA 126.9981 127 whole (81.81)
-  - star rows: H Markab → H Vesta Dec 8.9842 9 whole (4.31) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - star rows: H Murzim → H Vesta RA 1.0445 conj (9.22) — only
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
   - star rows: J Denebola → J Vesta Dec 5.0000 5 whole (99.79) — also: 5 Grangeclare Glory / Tom Scudamore
@@ -2177,49 +1545,24 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Rahu**
   - same body: S Rahu → H Rahu RA 172.0297 172 whole (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
   - top rows: S Jupiter → H Rahu RA 122.9580 φ^10 phi power (89.30) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-  - star rows: H Markab → H Rahu RA 121.9811 122 whole (0.31) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - same body: S Rahu → J Rahu RA 110.5641 10×φ^5 phi power (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
 - **Sedna**
   - same body: S Sedna → H Sedna Dec 0.9808 1 whole (0.18) — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
     - source line: S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)
   - star rows: H Alkes → H Sedna RA 111.1057 111.111 ninth (99.12) — also: 5 Grangeclare Glory / Tom Scudamore
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: H Capella → H Sedna Dec 38.8391 24×φ golden (64.86) — also: 3 Hell Red / Harry Cobden
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - same body: S Sedna → J Sedna RA 16.1817 10×φ^1 phi power (96.55) — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
     - source line: S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)
   - top rows: S Jupiter → J Sedna RA 55.0120 34×φ golden (92.96) — only
-  - star rows: J Capella → J Sedna RA 37.0030 37 whole (72.37) — also: 3 Hell Red / Harry Cobden
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - star rows: J Diadem → J Sedna RA 155.3175 96×φ golden (32.97) — also: 2 Royaume Uni / Joshua Moore
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - star rows: J Markab → J Sedna RA 55.9865 56 whole (10.41) — also: 2 Royaume Uni / Joshua Moore
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: J Sadalsuud → J Sedna RA 79.2891 49×φ golden (69.00) — also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - star rows: J Scheat → J Sedna Dec 24.1428 24.14 silver (98.91) — only
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **Ketu**
   - same body: S Ketu → H Ketu RA 172.0297 172 whole (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
-  - star rows: H Markab → H Ketu RA 58.0189 58 whole (0.31) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - same body: S Ketu → J Ketu RA 110.5641 10×φ^5 phi power (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
   - star rows: J Zosma → J Ketu Dec 0.2569 conj (2.06) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
-- **Transpluto**
-  - T1: H Jupiter → H Transpluto Dec 10.9961 11 whole (64.40) — only
-  - top rows: S Moon → H Transpluto Dec 10.9943 11 whole (51.36) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-  - star rows: H Denebola → H Transpluto RA 25.8837 16×φ golden (72.20) — also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
-    - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - star rows: H Sadalsuud → H Transpluto RA 171.5073 106×φ golden (74.98) — also: 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **Haumea**
   - top rows: S Sun → H Haumea RA 141.4057 141.4 sqrt2 (95.61) — also: 3 Hell Red / Harry Cobden
-  - star rows: H Markab → H Haumea RA 137.9881 138 whole (16.27) — only
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: J Scheat → J Haumea RA 156.9331 97×φ golden (24.99) — also: 2 Royaume Uni / Joshua Moore
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **Jupiter**
   - top rows: S Moon → H Jupiter Dec 0.0017 conj (98.86) — also: 1 Breaking Waves / Jonjo O'Neill Jr
   - top rows: S Chiron → H Jupiter Dec 16.6637 16.6667 ninth (97.47) — only
@@ -2228,8 +1571,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Ceres Dec 0.1440 conj (27.02)
   - top rows: S Makemake → H Jupiter Dec 0.0198 conj (87.21) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore
     - source line: S Moon → Makemake Dec 0.0216 conj (86.14)
-  - star rows: H Capella → H Jupiter RA 0.5397 conj (40.99) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - top rows: S Juno → J Jupiter RA 177.7293 177.778 ninth (96.21) — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden
   - top rows: S Sedna → J Jupiter RA 77.9982 78 whole (82.64) — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle
     - source line: S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)
@@ -2240,12 +1581,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Neptune → J Neptune Dec 17.9621 φ^6 phi power (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien
   - top rows: S Jupiter → J Neptune RA 63.0036 63 whole (67.12) — only
   - top rows: S Moon → J Neptune RA 144.0057 89×φ golden (95.86) — also: 5 Grangeclare Glory / Tom Scudamore
-  - star rows: J Capella → J Neptune RA 155.0186 155 whole (0.49) — also: 3 Hell Red / Harry Cobden
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: J Capella → J Neptune Dec 67.9971 68 whole (73.42) — also: 3 Hell Red / Harry Cobden
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - star rows: J Murzim → J Neptune RA 171.5188 106×φ golden (60.38) — also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
+- **Transpluto**
+  - top rows: S Moon → H Transpluto Dec 10.9943 11 whole (51.36) — also: 1 Breaking Waves / Jonjo O'Neill Jr
+  - star rows: H Denebola → H Transpluto RA 25.8837 16×φ golden (72.20) — also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
+    - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
 - **Mars**
   - star rows: H Aldebaran → H Mars RA 26.0117 26 whole (17.30) — also: 2 Royaume Uni / Joshua Moore
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
@@ -2254,12 +1595,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Alkes → H Mars RA 121.9806 122 whole (0.10) — also: 7 Island Run / Tom O'Brien
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
   - top rows: S Moon → J Mars Dec 0.1440 conj (27.05) — also: 2 Royaume Uni / Joshua Moore
-  - star rows: J Capella → J Mars RA 16.9803 17 whole (0.03) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - star rows: J Denebola → J Mars Dec 8.0097 8 whole (26.35) — also: 4 Dreaming Blue / Rex Dingle
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - star rows: J Markab → J Mars RA 76.0091 76 whole (29.59) — also: 2 Royaume Uni / Joshua Moore
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 - **Eris**
   - star rows: H Alkes → H Eris Dec 15.0096 15 whole (26.88) — only
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
@@ -2284,58 +1621,34 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Makemake**
   - star rows: H Diadem → H Makemake RA 6.9921 7 whole (36.88) — also: 1 Breaking Waves / Jonjo O'Neill Jr
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - star rows: J Capella → J Makemake Dec 11.1185 11.1111 ninth (87.91) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: J Sadalsuud → J Makemake Dec 40.4514 25×φ golden (96.76) — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **Quaoar**
   - star rows: H Diadem → H Quaoar Dec 32.9931 33 whole (43.18) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
   - star rows: H Zosma → H Quaoar Dec 35.9872 36 whole (12.92) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
-  - star rows: J Capella → J Quaoar RA 155.9990 156 whole (90.23) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
-  - star rows: J Markab → J Quaoar RA 111.0116 111 whole (17.79) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-- **Orcus**
-  - star rows: H Markab → H Orcus RA 161.8483 100×φ^1 phi power (89.20) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - top rows: S Jupiter → J Orcus RA 143.9942 144 whole (50.72) — only
-  - star rows: J Diadem → J Orcus RA 66.3352 41×φ golden (75.96) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore
-    - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - star rows: J Murzim → J Orcus Dec 21.0020 21 whole (81.22) — only
-    - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
-  - star rows: J Sadalsuud → J Orcus RA 168.2714 104×φ golden (76.04) — also: 1 Breaking Waves / Jonjo O'Neill Jr
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-- **Pluto**
-  - star rows: H Sadalsuud → H Pluto RA 41.0092 41 whole (28.91) — only
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-- **Pallas**
-  - star rows: H Scheat → H Pallas Dec 30.9967 31 whole (69.61) — also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
-  - star rows: H Zosma → H Pallas RA 114.8875 71×φ golden (61.10) — only
-    - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
-  - star rows: J Aldebaran → J Pallas RA 89.0119 89 whole (16.25) — also: 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien
-    - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
-- **Juno**
-  - star rows: H Scheat → H Juno Dec 32.9811 33 whole (0.32) — also: 2 Royaume Uni / Joshua Moore
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
-  - top rows: S Sun → J Juno RA 95.0045 95 whole (60.20) — only
 - **Venus**
   - star rows: H Zosma → H Venus Dec 0.0962 conj (46.16) — also: 4 Dreaming Blue / Rex Dingle
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
   - same body: S Venus → J Venus RA 50.1466 31×φ golden (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
     - source line: S Jupiter → Venus RA 43.0014 43 whole (86.77)
     - source line: S Moon → Venus RA 124.0035 124 whole (68.42)
+- **Pallas**
+  - star rows: H Zosma → H Pallas RA 114.8875 71×φ golden (61.10) — only
+    - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
+  - star rows: J Aldebaran → J Pallas RA 89.0119 89 whole (16.25) — also: 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien
+    - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
 - **Gonggong**
   - same body: S Gonggong → J Gonggong RA 7.9995 8 whole (95.38) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
   - star rows: J Alkes → J Gonggong RA 163.9866 164 whole (10.89) — also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
-  - star rows: J Scheat → J Gonggong RA 17.0127 17 whole (13.30) — also: 4 Dreaming Blue / Rex Dingle
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
-- **Saturn**
-  - star rows: J Markab → J Saturn RA 51.9822 52 whole (1.17) — only
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
+- **Orcus**
+  - top rows: S Jupiter → J Orcus RA 143.9942 144 whole (50.72) — only
+  - star rows: J Diadem → J Orcus RA 66.3352 41×φ golden (75.96) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore
+    - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
+  - star rows: J Murzim → J Orcus Dec 21.0020 21 whole (81.22) — only
+    - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
+- **Juno**
+  - top rows: S Sun → J Juno RA 95.0045 95 whole (60.20) — only
 
 ## 7 Island Run / Tom O'Brien
 ### L1 same bodies
@@ -2370,21 +1683,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Jupiter** (same body: S Jupiter → H Jupiter Dec 1.0068 1 whole (43.81))
   - sky line to Jupiter: S Moon → Jupiter RA 81.0021 81 whole (80.22)
   - top rows: S Ketu → H Jupiter Dec 11.3291 7×φ golden (83.00)
-  - star rows: S Markab → H Jupiter RA 144.4640 144.444 ninth (97.93)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: H Sadalsuud → H Jupiter Dec 2.0001 2 whole (99.12)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - other chart, same body: S Jupiter → J Jupiter RA 1.5450 1.55556 ninth (loose)
   - other chart, same body: S Jupiter → J Jupiter Dec 1.0102 1 whole (24.16)
   - other chart, top rows: S Ketu → J Jupiter Dec 11.3257 7×φ golden (96.76)
-  - other chart, star rows: S Markab → J Jupiter RA 0.5651 conj (38.85)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - other chart, star rows: S Murzim → J Jupiter RA 110.0567 68×φ golden (0.39)
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
-  - other chart, star rows: S Sadalsuud → J Jupiter Dec 2.0032 2 whole (70.38)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - other chart, star rows: S Scheat → J Jupiter RA 0.3189 conj (62.00)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **H Neptune** (same body: S Neptune → H Neptune RA 11.0366 φ^5 phi power (loose))
   - star rows: H Murzim → H Neptune RA 113.2340 70×φ golden (1.49)
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
@@ -2400,15 +1703,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Zosma → H Chiron Dec 20.0035 20 whole (68.40)
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
   - other chart, same body: S Chiron → J Chiron Dec 11.3214 7×φ golden (72.48)
-  - other chart, star rows: J Capella → J Chiron RA 0.0928 conj (88.01)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - other chart, star rows: J Diadem → J Chiron Dec 0.1436 conj (27.20)
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
 - **H Pallas** (same body: S Pallas → H Pallas RA 29.1541 18×φ golden (loose))
   - star rows: H Aldebaran → H Pallas RA 86.0132 86 whole (11.60)
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
-  - other chart, star rows: J Capella → J Pallas RA 132.6606 82×φ golden (19.09)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
 - **H Juno** (same body: S Juno → H Juno RA 43.0198 43 whole (0.01))
   - other chart, top rows: S Jupiter → J Juno RA 77.7792 77.7778 ninth (98.85)
 - **H Vesta** (same body: S Vesta → H Vesta Dec 44.9833 45 whole (2.65))
@@ -2420,8 +1719,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
 - **H Sedna** (same body: S Sedna → H Sedna RA 2.9725 3 whole (loose))
   - sky line to Sedna: S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)
-  - star rows: H Sadalsuud → H Sedna Dec 12.9445 8×φ golden (98.76)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - other chart, same body: S Sedna → J Sedna RA 18.0250 18 whole (loose)
   - other chart, star rows: J Denebola → J Sedna Dec 11.1153 11.1111 ninth (93.20)
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
@@ -2433,24 +1730,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Jupiter** (same body: S Jupiter → J Jupiter RA 1.5450 1.55556 ninth (loose); S Jupiter → J Jupiter Dec 1.0102 1 whole (24.16))
   - sky line to Jupiter: S Moon → Jupiter RA 81.0021 81 whole (80.22)
   - top rows: S Ketu → J Jupiter Dec 11.3257 7×φ golden (96.76)
-  - star rows: S Markab → J Jupiter RA 0.5651 conj (38.85)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - star rows: S Murzim → J Jupiter RA 110.0567 68×φ golden (0.39)
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
-  - star rows: S Sadalsuud → J Jupiter Dec 2.0032 2 whole (70.38)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - star rows: S Scheat → J Jupiter RA 0.3189 conj (62.00)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
   - other chart, same body: S Jupiter → H Jupiter Dec 1.0068 1 whole (43.81)
   - other chart, top rows: S Ketu → H Jupiter Dec 11.3291 7×φ golden (83.00)
-  - other chart, star rows: S Markab → H Jupiter RA 144.4640 144.444 ninth (97.93)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - other chart, star rows: H Sadalsuud → H Jupiter Dec 2.0001 2 whole (99.12)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **J Chiron** (same body: S Chiron → J Chiron Dec 11.3214 7×φ golden (72.48))
   - sky line to Chiron: S Moon → Chiron Dec 16.6620 16.6667 ninth (96.00)
-  - star rows: J Capella → J Chiron RA 0.0928 conj (88.01)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - star rows: J Diadem → J Chiron Dec 0.1436 conj (27.20)
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
   - other chart, same body: S Chiron → H Chiron Dec 5.5465 5.55556 ninth (loose)
@@ -2477,27 +1762,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Denebola → J Sedna Dec 11.1153 11.1111 ninth (93.20)
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
   - other chart, same body: S Sedna → H Sedna RA 2.9725 3 whole (loose)
-  - other chart, star rows: H Sadalsuud → H Sedna Dec 12.9445 8×φ golden (98.76)
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 13.3571 13.3333 ninth (loose))
   - sky line to Makemake: S Moon → Makemake Dec 0.0216 conj (86.14)
   - T2: J Jupiter → J Makemake Dec 43.6806 27×φ golden (64.83)
-  - star rows: J Markab → J Makemake RA 179.4052 10×φ^6 phi power (91.81)
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: J Scheat → J Makemake Dec 8.0184 8 whole (0.62)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
   - other chart, star rows: H Denebola → H Makemake RA 17.9896 18 whole (23.05)
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 46.8645 φ^8 phi power (loose))
-  - star rows: J Capella → J Quaoar Dec 59.0001 59 whole (99.24)
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - other chart, star rows: H Aldebaran → H Quaoar RA 158.9830 159 whole (2.29)
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
 - **J Ketu** (same body: S Ketu → J Ketu Dec 11.0048 11 whole (57.44))
   - star rows: J Diadem → J Ketu RA 1.1628 conj (5.05)
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - star rows: J Scheat → J Ketu Dec 35.9831 36 whole (2.33)
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 ### L3 matches
 - **1. same body on both charts**
   - Jupiter — only
@@ -2515,65 +1790,41 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Jupiter → J Jupiter RA 1.5450 1.55556 ninth (loose)
     - S Jupiter → J Jupiter Dec 1.0102 1 whole (24.16)
 - **3. runner number = sky number**
-  - 20 whole — also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore
+  - 20 whole — also: 4 Dreaming Blue / Rex Dingle
     - S Venus → H Venus Dec 19.9830 20 whole (2.28) = S Sun → Haumea Dec 19.9944 20 whole (52.20)
-  - 1 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
-    - S Jupiter → H Jupiter Dec 1.0068 1 whole (43.81) = S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - 43 whole — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle
     - S Juno → H Juno RA 43.0198 43 whole (0.01) = S Jupiter → Venus RA 43.0014 43 whole (86.77)
-  - 11 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
-    - H Denebola → H Venus Dec 11.0040 11 whole (63.61) = S Moon → Capella RA 11.0061 11 whole (48.14)
-  - 20 whole — also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore
+  - 20 whole — also: 4 Dreaming Blue / Rex Dingle
     - H Zosma → H Chiron Dec 20.0035 20 whole (68.40) = S Sun → Haumea Dec 19.9944 20 whole (52.20)
-  - 1 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
-    - S Jupiter → J Jupiter Dec 1.0102 1 whole (24.16) = S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - 11 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
-    - S Rahu → J Rahu Dec 11.0048 11 whole (57.44) = S Moon → Capella RA 11.0061 11 whole (48.14)
-  - 11 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
-    - S Ketu → J Ketu Dec 11.0048 11 whole (57.44) = S Moon → Capella RA 11.0061 11 whole (48.14)
-  - 11 whole — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
-    - J Alkes → J Vesta Dec 11.0179 11 whole (1.12) = S Moon → Capella RA 11.0061 11 whole (48.14)
 - **4. circle divisions**
-  - 20 = 360/18 — also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore
+  - 20 = 360/18 — also: 4 Dreaming Blue / Rex Dingle
     - S Venus → H Venus Dec 19.9830 20 whole (2.28)
   - 1 = 360/360 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
     - S Jupiter → H Jupiter Dec 1.0068 1 whole (43.81)
   - 45 = 360/8 — also: 3 Hell Red / Harry Cobden
     - S Vesta → H Vesta Dec 44.9833 45 whole (2.65)
-  - 3 = 360/120 — also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
+  - 3 = 360/120 — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
     - S Sedna → H Sedna RA 2.9725 3 whole (loose)
-  - 2 = 360/180 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle
-    - H Jupiter → H star Sadalsuud Dec 2.0001 2 whole (99.12)
-  - 6 = 360/60 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
+  - 6 = 360/60 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
     - S Moon → H Haumea Dec 5.9980 6 whole (81.15)
-  - 3 = 360/120 — also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
+  - 3 = 360/120 — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
     - H Alkes → H Pluto Dec 2.9816 3 whole (0.65)
   - 18 = 360/20 — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
     - H Denebola → H Makemake RA 17.9896 18 whole (23.05)
   - 24 = 360/15 — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore
     - H Denebola → H Transpluto RA 23.9886 24 whole (18.37)
-  - 2 = 360/180 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle
-    - H Sadalsuud → H Jupiter Dec 2.0001 2 whole (99.12)
-  - 20 = 360/18 — also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore
+  - 20 = 360/18 — also: 4 Dreaming Blue / Rex Dingle
     - H Zosma → H Chiron Dec 20.0035 20 whole (68.40)
   - 1 = 360/360 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
     - S Jupiter → J Jupiter Dec 1.0102 1 whole (24.16)
   - 18 = 360/20 — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
     - S Sedna → J Sedna RA 18.0250 18 whole (loose)
-  - 2 = 360/180 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle
-    - J Jupiter → J star Sadalsuud Dec 2.0057 2 whole (51.17)
-  - 30 = 360/12 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
+  - 30 = 360/12 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
     - S Moon → J Vesta Dec 30.0042 30 whole (62.04)
-  - 5 = 360/72 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
+  - 5 = 360/72 — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
     - J Alkes → J Uranus Dec 4.9959 5 whole (63.37)
-  - 8 = 360/45 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
+  - 8 = 360/45 — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
     - J Denebola → J Haumea RA 8.0199 8 whole (0.00)
-  - 2 = 360/180 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle
-    - S Sadalsuud → J Jupiter Dec 2.0032 2 whole (70.38)
-  - 8 = 360/45 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
-    - J Scheat → J Makemake Dec 8.0184 8 whole (0.62)
-  - 36 = 360/10 — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 6 Manvers House / James Best
-    - J Scheat → J Ketu Dec 35.9831 36 whole (2.33)
 - **5. same number in more than one place**
   - 20 whole — only
     - S Venus → H Venus Dec 19.9830 20 whole (2.28)
@@ -2587,21 +1838,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 3 whole — only
     - S Sedna → H Sedna RA 2.9725 3 whole (loose)
     - H Alkes → H Pluto Dec 2.9816 3 whole (0.65)
-  - 144.444 ninth — also: 4 Dreaming Blue / Rex Dingle
-    - H Jupiter → H star Markab RA 144.4645 144.444 ninth (97.88)
-    - S Markab → H Jupiter RA 144.4640 144.444 ninth (97.93)
-  - 2 whole — also: 4 Dreaming Blue / Rex Dingle
-    - H Jupiter → H star Sadalsuud Dec 2.0001 2 whole (99.12)
-    - H Sadalsuud → H Jupiter Dec 2.0001 2 whole (99.12)
-    - J Jupiter → J star Sadalsuud Dec 2.0057 2 whole (51.17)
-    - S Sadalsuud → J Jupiter Dec 2.0032 2 whole (70.38)
   - 7×φ golden — also: 4 Dreaming Blue / Rex Dingle
     - S Ketu → H Jupiter Dec 11.3291 7×φ golden (83.00)
     - S Chiron → J Chiron Dec 11.3214 7×φ golden (72.48)
     - S Ketu → J Jupiter Dec 11.3257 7×φ golden (96.76)
-  - 8×φ golden — only
-    - H Aldebaran → H Venus Dec 12.9433 8×φ golden (93.98)
-    - H Sadalsuud → H Sedna Dec 12.9445 8×φ golden (98.76)
   - 21 whole — only
     - H Alkes → H Mars Dec 20.9835 21 whole (3.13)
     - J Jupiter → J Vesta RA 21.0048 21 whole (57.97)
@@ -2613,15 +1853,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 18 whole — only
     - H Denebola → H Makemake RA 17.9896 18 whole (23.05)
     - S Sedna → J Sedna RA 18.0250 18 whole (loose)
-  - 166.667 ninth — only
-    - H Scheat → H Orcus RA 166.6296 166.667 ninth (96.82)
-    - S Ceres → J Ceres RA 166.1774 166.667 ninth (loose)
-  - 100×φ^1 phi power — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden
+  - 100×φ^1 phi power — also: 1 Breaking Waves / Jonjo O'Neill Jr
     - S Jupiter → J Haumea RA 161.8803 100×φ^1 phi power (81.89)
     - S Moon → J Ceres RA 161.8733 100×φ^1 phi power (83.48)
-  - 8 whole — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
-    - J Denebola → J Haumea RA 8.0199 8 whole (0.00)
-    - J Scheat → J Makemake Dec 8.0184 8 whole (0.62)
 ### L4 every natal body
 - **Venus**
   - same body: S Venus → H Venus Dec 19.9830 20 whole (2.28) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
@@ -2634,26 +1868,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → J Venus Dec 35.5973 22×φ golden (96.34) — also: 5 Grangeclare Glory / Tom Scudamore
 - **Jupiter**
   - same body: S Jupiter → H Jupiter Dec 1.0068 1 whole (43.81) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden
-  - T1: H Jupiter → H star Markab RA 144.4645 144.444 ninth (97.88) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore
-  - T1: H Jupiter → H star Sadalsuud Dec 2.0001 2 whole (99.12) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore
   - top rows: S Ketu → H Jupiter Dec 11.3291 7×φ golden (83.00) — only
-  - star rows: S Markab → H Jupiter RA 144.4640 144.444 ninth (97.93) — also: 2 Royaume Uni / Joshua Moore
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: H Sadalsuud → H Jupiter Dec 2.0001 2 whole (99.12) — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - same body: S Jupiter → J Jupiter RA 1.5450 1.55556 ninth (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden
   - same body: S Jupiter → J Jupiter Dec 1.0102 1 whole (24.16) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden
-  - T2: J Jupiter → J star Sadalsuud Dec 2.0057 2 whole (51.17) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore
-  - T2: J Jupiter → J star Scheat RA 0.3235 conj (61.51) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore
   - top rows: S Ketu → J Jupiter Dec 11.3257 7×φ golden (96.76) — only
-  - star rows: S Markab → J Jupiter RA 0.5651 conj (38.85) — also: 2 Royaume Uni / Joshua Moore
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
   - star rows: S Murzim → J Jupiter RA 110.0567 68×φ golden (0.39) — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
-  - star rows: S Sadalsuud → J Jupiter Dec 2.0032 2 whole (70.38) — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
-  - star rows: S Scheat → J Jupiter RA 0.3189 conj (62.00) — only
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **Neptune**
   - same body: S Neptune → H Neptune RA 11.0366 φ^5 phi power (loose) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
   - star rows: H Murzim → H Neptune RA 113.2340 70×φ golden (1.49) — also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
@@ -2672,16 +1892,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
   - same body: S Chiron → J Chiron Dec 11.3214 7×φ golden (72.48) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle
     - source line: S Moon → Chiron Dec 16.6620 16.6667 ninth (96.00)
-  - star rows: J Capella → J Chiron RA 0.0928 conj (88.01) — only
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
   - star rows: J Diadem → J Chiron Dec 0.1436 conj (27.20) — also: 6 Manvers House / James Best
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
 - **Pallas**
   - same body: S Pallas → H Pallas RA 29.1541 18×φ golden (loose) — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore
   - star rows: H Aldebaran → H Pallas RA 86.0132 86 whole (11.60) — also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
-  - star rows: J Capella → J Pallas RA 132.6606 82×φ golden (19.09) — also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
 - **Juno**
   - same body: S Juno → H Juno RA 43.0198 43 whole (0.01) — also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore
   - top rows: S Jupiter → J Juno RA 77.7792 77.7778 ninth (98.85) — only
@@ -2696,8 +1912,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Sedna**
   - same body: S Sedna → H Sedna RA 2.9725 3 whole (loose) — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
     - source line: S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)
-  - star rows: H Sadalsuud → H Sedna Dec 12.9445 8×φ golden (98.76) — also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
-    - source line: S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)
   - same body: S Sedna → J Sedna RA 18.0250 18 whole (loose) — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
     - source line: S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)
   - star rows: J Denebola → J Sedna Dec 11.1153 11.1111 ninth (93.20) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden
@@ -2732,8 +1946,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Aldebaran → H Quaoar RA 158.9830 159 whole (2.29) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden
     - source line: S Moon → Aldebaran RA 0.8126 conj (21.00)
   - same body: S Quaoar → J Quaoar RA 46.8645 φ^8 phi power (loose) — also: 4 Dreaming Blue / Rex Dingle
-  - star rows: J Capella → J Quaoar Dec 59.0001 59 whole (99.24) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best
-    - source line: S Moon → Capella RA 11.0061 11 whole (48.14)
 - **Mars**
   - star rows: H Alkes → H Mars Dec 20.9835 21 whole (3.13) — also: 6 Manvers House / James Best
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
@@ -2742,18 +1954,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)
   - star rows: J Denebola → J Pluto RA 44.0095 44 whole (27.47) — also: 2 Royaume Uni / Joshua Moore
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - star rows: J Markab → J Pluto Dec 14.4434 14.4444 ninth (98.93) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
 - **Makemake**
   - star rows: H Denebola → H Makemake RA 17.9896 18 whole (23.05) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
   - same body: S Makemake → J Makemake Dec 13.3571 13.3333 ninth (loose) — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore
     - source line: S Moon → Makemake Dec 0.0216 conj (86.14)
   - T2: J Jupiter → J Makemake Dec 43.6806 27×φ golden (64.83) — only
-  - star rows: J Markab → J Makemake RA 179.4052 10×φ^6 phi power (91.81) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)
-  - star rows: J Scheat → J Makemake Dec 8.0184 8 whole (0.62) — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **Transpluto**
   - star rows: H Denebola → H Transpluto RA 23.9886 24 whole (18.37) — also: 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
@@ -2764,9 +1970,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
   - star rows: J Murzim → J Transpluto Dec 32.3631 20×φ golden (85.84) — only
     - source line: S Moon → Murzim RA 27.5095 17×φ golden (82.56)
-- **Orcus**
-  - star rows: H Scheat → H Orcus RA 166.6296 166.667 ninth (96.82) — only
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **Saturn**
   - star rows: H Zosma → H Saturn RA 96.0121 96 whole (15.58) — also: 1 Breaking Waves / Jonjo O'Neill Jr
     - source line: S Sun → Zosma Dec 24.9947 25 whole (54.14)
@@ -2780,10 +1983,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Ketu → J Ketu Dec 11.0048 11 whole (57.44) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
   - star rows: J Diadem → J Ketu RA 1.1628 conj (5.05) — also: 2 Royaume Uni / Joshua Moore
     - source line: S Sun → Diadem Dec 22.0013 22 whole (87.07)
-  - star rows: J Scheat → J Ketu Dec 35.9831 36 whole (2.33) — also: 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Scheat RA 1.2262 conj (3.33)
 - **Sun**
   - star rows: J Denebola → J Sun RA 66.9957 67 whole (61.46) — also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle
     - source line: S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)
-  - star rows: J Markab → J Sun RA 101.9302 63×φ golden (66.46) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore
-    - source line: S Jupiter → Markab RA 0.9799 conj (12.02)

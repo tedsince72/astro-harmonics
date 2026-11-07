@@ -66,13 +66,6 @@
        "text": "S Jupiter → H Mercury RA 0.9626 conj (12.83)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "H Deneb → H Mercury Dec 57.0169 57 whole (2.35)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
       }
      ],
      "other_chart_same_body": [],
@@ -403,15 +396,7 @@
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Menkar → H Rahu Dec 7.9845 8 whole (5.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -427,25 +412,10 @@
        "source_lines": [
         "S Sun → Difda Dec 0.0705 conj (58.51)"
        ]
-      },
-      {
-       "text": "J Menkar → J Sedna RA 1.3408 conj (1.13)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ]
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Deneb → H Sedna RA 104.0194 104 whole (0.10)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -467,13 +437,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Sun → Difda Dec 0.0705 conj (58.51)"
-       ]
-      },
-      {
-       "text": "J Phact → J Makemake RA 88.9959 55×φ golden (76.53)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
        ]
       },
       {
@@ -516,15 +479,7 @@
       "S Quaoar → J Quaoar Dec 1.2205 1.22222 ninth (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "J Deneb → J Quaoar RA 69.0047 69 whole (58.41)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": []
     },
@@ -568,20 +523,6 @@
        ]
       },
       {
-       "text": "H Deneb → H Gonggong Dec 58.2441 36×φ golden (70.87)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
-      },
-      {
-       "text": "H Menkar → H Gonggong RA 69.9919 70 whole (35.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ]
-      },
-      {
        "text": "H Murzim → H Gonggong Dec 4.9917 5 whole (34.47)",
        "layer": "star rows",
        "source_lines": [
@@ -613,13 +554,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)"
-       ]
-      },
-      {
-       "text": "H Menkar → H Ketu Dec 0.1904 conj (13.36)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
        ]
       },
       {
@@ -667,18 +601,6 @@
        "source_lines": [],
        "key": [
         "S Jupiter",
-        "Mercury"
-       ],
-       "field": "also: 3 Anna Bunina / James Bowen"
-      },
-      {
-       "text": "H Deneb → H Mercury Dec 57.0169 57 whole (2.35)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
         "Mercury"
        ],
        "field": "also: 3 Anna Bunina / James Bowen"
@@ -1004,18 +926,6 @@
         "Neptune"
        ],
        "field": "also: 3 Anna Bunina / James Bowen"
-      },
-      {
-       "text": "J Deneb → J Neptune RA 12.9446 8×φ golden (97.84)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Neptune"
-       ],
-       "field": "also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan"
       }
      ]
     },
@@ -1150,16 +1060,6 @@
        "field": "only"
       },
       {
-       "text": "J Jupiter → J star Menkar Dec 25.8884 16×φ golden (99.04)",
-       "layer": "T2",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Jupiter"
-       ],
-       "field": "also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
-      },
-      {
        "text": "J Jupiter → J star Wezen RA 146.9980 147 whole (80.59)",
        "layer": "T2",
        "source_lines": [],
@@ -1178,18 +1078,6 @@
         "Jupiter"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Menkar → J Jupiter Dec 25.8884 16×φ golden (99.04)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Jupiter"
-       ],
-       "field": "also: 3 Anna Bunina / James Bowen"
       },
       {
        "text": "J Wezen → J Jupiter RA 146.9980 147 whole (80.59)",
@@ -1260,30 +1148,6 @@
         "Gonggong"
        ],
        "field": "also: 2 Western Victory / Tom Bellamy"
-      },
-      {
-       "text": "H Deneb → H Gonggong Dec 58.2441 36×φ golden (70.87)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Gonggong"
-       ],
-       "field": "also: 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "H Menkar → H Gonggong RA 69.9919 70 whole (35.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Gonggong"
-       ],
-       "field": "also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
       },
       {
        "text": "H Murzim → H Gonggong Dec 4.9917 5 whole (34.47)",
@@ -1373,30 +1237,6 @@
        "field": "also: 4 Dazzling Glory / Harry Skelton"
       },
       {
-       "text": "H Menkar → H Ceres Dec 27.9845 28 whole (5.16)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Ceres"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "H Phact → H Ceres RA 148.0026 148 whole (75.51)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Ceres"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen"
-      },
-      {
        "text": "H Sualocin → H Ceres RA 12.9961 13 whole (65.19)",
        "layer": "star rows",
        "source_lines": [
@@ -1457,18 +1297,6 @@
        "field": "only"
       },
       {
-       "text": "J Phact → J Ceres Dec 63.9853 64 whole (7.11)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Ceres"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen"
-      },
-      {
        "text": "J Sualocin → J Ceres Dec 13.9983 14 whole (83.40)",
        "layer": "star rows",
        "source_lines": [
@@ -1510,18 +1338,6 @@
        "field": "also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton"
       },
       {
-       "text": "H Phact → H Vesta RA 118.0014 118 whole (86.08)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Vesta"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy"
-      },
-      {
        "text": "H Sualocin → H Vesta RA 17.0050 17 whole (56.03)",
        "layer": "star rows",
        "source_lines": [
@@ -1544,18 +1360,6 @@
         "Vesta"
        ],
        "field": "also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
-      },
-      {
-       "text": "J Deneb → J Vesta RA 146.0055 146 whole (52.43)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Vesta"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen"
       },
       {
        "text": "J Difda → J Vesta Dec 43.0198 43 whole (0.01)",
@@ -1611,18 +1415,6 @@
        "field": "also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
       },
       {
-       "text": "H Menkar → H Ketu Dec 0.1904 conj (13.36)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Ketu"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton"
-      },
-      {
        "text": "H Sualocin → H Ketu Dec 12.0119 12 whole (16.60)",
        "layer": "star rows",
        "source_lines": [
@@ -1655,57 +1447,6 @@
         "Ketu"
        ],
        "field": "also: 5 Miss Heritage / Sean Quinlan"
-      }
-     ]
-    },
-    {
-     "body": "Sedna",
-     "cells": [
-      {
-       "text": "H Deneb → H Sedna RA 104.0194 104 whole (0.10)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Sedna"
-       ],
-       "field": "also: 4 Dazzling Glory / Harry Skelton"
-      },
-      {
-       "text": "S Sedna → J Sedna RA 14.0914 14.14 sqrt2 (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Sedna"
-       ],
-       "field": "also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "J Difda → J Sedna RA 33.3326 33.3333 ninth (99.09)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Difda Dec 0.0705 conj (58.51)"
-       ],
-       "key": [
-        "Difda",
-        "Sedna"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "J Menkar → J Sedna RA 1.3408 conj (1.13)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Sedna"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
       }
      ]
     },
@@ -1759,18 +1500,6 @@
        "field": "also: 2 Western Victory / Tom Bellamy"
       },
       {
-       "text": "J Phact → J Makemake RA 88.9959 55×φ golden (76.53)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Makemake"
-       ],
-       "field": "also: 5 Miss Heritage / Sean Quinlan"
-      },
-      {
        "text": "J Sadalsuud → J Makemake RA 148.9819 149 whole (0.87)",
        "layer": "star rows",
        "source_lines": [
@@ -1803,98 +1532,6 @@
        "key": [
         "Wezen",
         "Makemake"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Rahu",
-     "cells": [
-      {
-       "text": "H Menkar → H Rahu Dec 7.9845 8 whole (5.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Rahu"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Rahu → J Rahu Dec 33.3151 33.3333 ninth (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Rahu"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "J Adhara → J Rahu Dec 15.5543 15.5556 ninth (98.84)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)"
-       ],
-       "key": [
-        "Adhara",
-        "Rahu"
-       ],
-       "field": "also: 3 Anna Bunina / James Bowen"
-      }
-     ]
-    },
-    {
-     "body": "Haumea",
-     "cells": [
-      {
-       "text": "H Phact → H Haumea RA 126.0181 126 whole (0.88)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Haumea"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "H Phact → H Haumea Dec 51.7711 32×φ golden (66.25)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Haumea"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "H Scheat → H Haumea RA 135.0081 135 whole (35.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Scheat Dec 46.0028 46 whole (73.65)"
-       ],
-       "key": [
-        "Scheat",
-        "Haumea"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Phact → J Haumea Dec 56.6341 35×φ golden (82.93)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Haumea"
        ],
        "field": "only"
       }
@@ -1940,6 +1577,23 @@
      ]
     },
     {
+     "body": "Haumea",
+     "cells": [
+      {
+       "text": "H Scheat → H Haumea RA 135.0081 135 whole (35.12)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Scheat Dec 46.0028 46 whole (73.65)"
+       ],
+       "key": [
+        "Scheat",
+        "Haumea"
+       ],
+       "field": "only"
+      }
+     ]
+    },
+    {
      "body": "Pluto",
      "cells": [
       {
@@ -1977,6 +1631,60 @@
      ]
     },
     {
+     "body": "Rahu",
+     "cells": [
+      {
+       "text": "S Rahu → J Rahu Dec 33.3151 33.3333 ninth (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Rahu"
+       ],
+       "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
+      },
+      {
+       "text": "J Adhara → J Rahu Dec 15.5543 15.5556 ninth (98.84)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)"
+       ],
+       "key": [
+        "Adhara",
+        "Rahu"
+       ],
+       "field": "also: 3 Anna Bunina / James Bowen"
+      }
+     ]
+    },
+    {
+     "body": "Sedna",
+     "cells": [
+      {
+       "text": "S Sedna → J Sedna RA 14.0914 14.14 sqrt2 (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Sedna"
+       ],
+       "field": "also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
+      },
+      {
+       "text": "J Difda → J Sedna RA 33.3326 33.3333 ninth (99.09)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Difda Dec 0.0705 conj (58.51)"
+       ],
+       "key": [
+        "Difda",
+        "Sedna"
+       ],
+       "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
+      }
+     ]
+    },
+    {
      "body": "Quaoar",
      "cells": [
       {
@@ -1988,18 +1696,6 @@
         "Quaoar"
        ],
        "field": "also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "J Deneb → J Quaoar RA 69.0047 69 whole (58.41)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Quaoar"
-       ],
-       "field": "also: 4 Dazzling Glory / Harry Skelton"
       }
      ]
     }
@@ -2048,7 +1744,7 @@
       "cells": [
        "S Transpluto → H Transpluto Dec 0.9889 1 whole (20.01)"
       ],
-      "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
+      "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
      },
      {
       "label": "40 = 360/9",
@@ -2056,13 +1752,6 @@
        "H Adhara → H Venus Dec 40.0171 40 whole (2.17)"
       ],
       "field": "only"
-     },
-     {
-      "label": "8 = 360/45",
-      "cells": [
-       "H Menkar → H Rahu Dec 7.9845 8 whole (5.12)"
-      ],
-      "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
      },
      {
       "label": "5 = 360/72",
@@ -2178,22 +1867,6 @@
       "field": "also: 5 Miss Heritage / Sean Quinlan"
      },
      {
-      "label": "28 whole",
-      "cells": [
-       "H Castor → H Ketu Dec 27.9911 28 whole (30.54)",
-       "H Menkar → H Ceres Dec 27.9845 28 whole (5.16)"
-      ],
-      "field": "also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan"
-     },
-     {
-      "label": "104 whole",
-      "cells": [
-       "H Deneb → H Sedna RA 104.0194 104 whole (0.10)",
-       "H Difda → H Pallas RA 104.0039 104 whole (65.06)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "116 whole",
       "cells": [
        "H Murzim → H Neptune RA 115.9834 116 whole (2.92)",
@@ -2210,14 +1883,6 @@
        "J Sadalsuud → J Chiron Dec 5.0034 5 whole (68.96)"
       ],
       "field": "also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan"
-     },
-     {
-      "label": "35×φ golden",
-      "cells": [
-       "H Murzim → H Transpluto RA 56.6312 35×φ golden (99.83)",
-       "J Phact → J Haumea Dec 56.6341 35×φ golden (82.93)"
-      ],
-      "field": "only"
      },
      {
       "label": "43 whole",
@@ -2252,14 +1917,6 @@
        "J Sadalsuud → J Orcus Dec 7.0111 7 whole (19.95)"
       ],
       "field": "also: 2 Western Victory / Tom Bellamy"
-     },
-     {
-      "label": "16×φ golden",
-      "cells": [
-       "J Jupiter → J star Menkar Dec 25.8884 16×φ golden (99.04)",
-       "J Menkar → J Jupiter Dec 25.8884 16×φ golden (99.04)"
-      ],
-      "field": "only"
      },
      {
       "label": "147 whole",
@@ -2310,22 +1967,7 @@
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "J Deneb → J Sun RA 130.9833 131 whole (2.77)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
-      },
-      {
-       "text": "J Deneb → J Sun Dec 45.0175 45 whole (1.54)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "H",
@@ -2346,13 +1988,6 @@
      "other_chart_same_body": [],
      "on_other_chart": [
       {
-       "text": "J Phact → J Venus Dec 13.9975 14 whole (76.29)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ]
-      },
-      {
        "text": "J Sualocin → J Venus Dec 35.9872 36 whole (12.90)",
        "layer": "star rows",
        "source_lines": [
@@ -2371,20 +2006,6 @@
      "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
-      {
-       "text": "J Menkar → J Uranus RA 111.1878 111.111 ninth (87.45)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ]
-      },
-      {
-       "text": "J Phact → J Uranus Dec 11.9949 12 whole (55.69)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ]
-      },
       {
        "text": "J Scheat → J Uranus Dec 50.1596 31×φ golden (96.74)",
        "layer": "star rows",
@@ -2524,13 +2145,6 @@
        ]
       },
       {
-       "text": "J Phact → J Juno RA 132.9982 133 whole (82.56)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ]
-      },
-      {
        "text": "J Sadalsuud → J Juno RA 104.9828 105 whole (1.93)",
        "layer": "star rows",
        "source_lines": [
@@ -2581,24 +2195,10 @@
        ]
       },
       {
-       "text": "H Deneb → H Vesta Dec 23.0081 23 whole (35.39)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
-      },
-      {
        "text": "H Difda → H Vesta RA 64.9997 65 whole (97.47)",
        "layer": "star rows",
        "source_lines": [
         "S Sun → Difda Dec 0.0705 conj (58.51)"
-       ]
-      },
-      {
-       "text": "H Phact → H Vesta RA 9.0195 9 whole (0.06)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
        ]
       },
       {
@@ -2682,20 +2282,6 @@
        "text": "S Moon → J Jupiter Dec 11.9992 12 whole (92.52)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "S Deneb → J Jupiter RA 89.0083 89 whole (34.34)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
-      },
-      {
-       "text": "J Phact → J Jupiter Dec 19.0126 19 whole (13.62)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ]
       },
       {
        "text": "S Scheat → J Jupiter RA 124.5982 77×φ golden (49.60)",
@@ -2851,13 +2437,6 @@
        ]
       },
       {
-       "text": "J Phact → J Juno RA 132.9982 133 whole (82.56)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ]
-      },
-      {
        "text": "J Sadalsuud → J Juno RA 104.9828 105 whole (1.93)",
        "layer": "star rows",
        "source_lines": [
@@ -2913,15 +2492,7 @@
      "body_lines": [],
      "on_this_chart": [],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Deneb → H Rahu RA 84.9977 85 whole (78.46)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -2930,24 +2501,9 @@
       "S Haumea → J Haumea RA 26.1747 10×φ^2 phi power (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "J Deneb → J Haumea RA 118.9884 119 whole (17.78)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
-      {
-       "text": "H Deneb → H Haumea Dec 27.0189 27 whole (0.30)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
-      },
       {
        "text": "H Wezen → H Haumea RA 101.9931 102 whole (42.63)",
        "layer": "star rows",
@@ -2981,13 +2537,6 @@
        "source_lines": [
         "S Sun → Difda Dec 0.0705 conj (58.51)"
        ]
-      },
-      {
-       "text": "H Menkar → H Makemake Dec 23.0183 23 whole (0.76)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ]
       }
      ]
     },
@@ -3000,22 +2549,7 @@
      "body_lines": [],
      "on_this_chart": [],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Deneb → H Ketu RA 95.0023 95 whole (78.46)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
-      },
-      {
-       "text": "H Menkar → H Ketu RA 0.2116 conj (73.78)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     }
    ],
    "bodies": [
@@ -3043,30 +2577,6 @@
         "Sun"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Deneb → J Sun RA 130.9833 131 whole (2.77)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Sun"
-       ],
-       "field": "also: 4 Dazzling Glory / Harry Skelton"
-      },
-      {
-       "text": "J Deneb → J Sun Dec 45.0175 45 whole (1.54)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Sun"
-       ],
-       "field": "also: 4 Dazzling Glory / Harry Skelton"
       }
      ]
     },
@@ -3091,18 +2601,6 @@
        ],
        "key": [
         "Scheat",
-        "Venus"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Phact → J Venus Dec 13.9975 14 whole (76.29)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
         "Venus"
        ],
        "field": "only"
@@ -3133,30 +2631,6 @@
         "Uranus"
        ],
        "field": "also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen"
-      },
-      {
-       "text": "J Menkar → J Uranus RA 111.1878 111.111 ninth (87.45)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Uranus"
-       ],
-       "field": "also: 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "J Phact → J Uranus Dec 11.9949 12 whole (55.69)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Uranus"
-       ],
-       "field": "only"
       },
       {
        "text": "J Scheat → J Uranus Dec 50.1596 31×φ golden (96.74)",
@@ -3392,18 +2866,6 @@
        "field": "also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
       },
       {
-       "text": "J Phact → J Juno RA 132.9982 133 whole (82.56)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Juno"
-       ],
-       "field": "only"
-      },
-      {
        "text": "J Sadalsuud → J Juno RA 104.9828 105 whole (1.93)",
        "layer": "star rows",
        "source_lines": [
@@ -3489,18 +2951,6 @@
        "field": "also: 1 Miranda / Bryony Frost"
       },
       {
-       "text": "H Deneb → H Vesta Dec 23.0081 23 whole (35.39)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Vesta"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen"
-      },
-      {
        "text": "H Difda → H Vesta RA 64.9997 65 whole (97.47)",
        "layer": "star rows",
        "source_lines": [
@@ -3511,18 +2961,6 @@
         "Vesta"
        ],
        "field": "also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton"
-      },
-      {
-       "text": "H Phact → H Vesta RA 9.0195 9 whole (0.06)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Vesta"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost"
       },
       {
        "text": "H Sadalsuud → H Vesta RA 113.0074 113 whole (39.47)",
@@ -3757,30 +3195,6 @@
        "field": "only"
       },
       {
-       "text": "S Deneb → J Jupiter RA 89.0083 89 whole (34.34)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Jupiter"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Phact → J Jupiter Dec 19.0126 19 whole (13.62)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Jupiter"
-       ],
-       "field": "only"
-      },
-      {
        "text": "S Scheat → J Jupiter RA 124.5982 77×φ golden (49.60)",
        "layer": "star rows",
        "source_lines": [
@@ -3875,18 +3289,6 @@
        "field": "also: 5 Miss Heritage / Sean Quinlan"
       },
       {
-       "text": "J Phact → J Pluto Dec 27.9957 28 whole (61.68)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Pluto"
-       ],
-       "field": "also: 4 Dazzling Glory / Harry Skelton"
-      },
-      {
        "text": "J Sualocin → J Pluto Dec 21.9889 22 whole (20.00)",
        "layer": "star rows",
        "source_lines": [
@@ -3897,140 +3299,6 @@
         "Pluto"
        ],
        "field": "also: 5 Miss Heritage / Sean Quinlan"
-      }
-     ]
-    },
-    {
-     "body": "Rahu",
-     "cells": [
-      {
-       "text": "H Deneb → H Rahu RA 84.9977 85 whole (78.46)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Rahu"
-       ],
-       "field": "also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "S Rahu → J Rahu RA 166.5468 166.667 ninth (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Rahu"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
-      }
-     ]
-    },
-    {
-     "body": "Haumea",
-     "cells": [
-      {
-       "text": "H Deneb → H Haumea Dec 27.0189 27 whole (0.30)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Haumea"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "H Wezen → H Haumea RA 101.9931 102 whole (42.63)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Wezen RA 155.3330 96×φ golden (89.39)"
-       ],
-       "key": [
-        "Wezen",
-        "Haumea"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Haumea → J Haumea RA 26.1747 10×φ^2 phi power (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Haumea"
-       ],
-       "field": "also: 3 Anna Bunina / James Bowen"
-      },
-      {
-       "text": "J Deneb → J Haumea RA 118.9884 119 whole (17.78)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Haumea"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Orcus",
-     "cells": [
-      {
-       "text": "H Deneb → H Orcus RA 161.8571 100×φ^1 phi power (87.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Orcus"
-       ],
-       "field": "also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
-      }
-     ]
-    },
-    {
-     "body": "Ketu",
-     "cells": [
-      {
-       "text": "H Deneb → H Ketu RA 95.0023 95 whole (78.46)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Ketu"
-       ],
-       "field": "also: 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "H Menkar → H Ketu RA 0.2116 conj (73.78)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Ketu"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton"
-      },
-      {
-       "text": "S Ketu → J Ketu RA 166.5468 166.667 ninth (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Ketu"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
       }
      ]
     },
@@ -4074,18 +3342,6 @@
        "field": "only"
       },
       {
-       "text": "J Menkar → J Sedna RA 0.9180 conj (15.05)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Sedna"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
-      },
-      {
        "text": "J Murzim → J Sedna RA 51.0189 51 whole (0.29)",
        "layer": "star rows",
        "source_lines": [
@@ -4113,18 +3369,6 @@
         "Makemake"
        ],
        "field": "also: 1 Miranda / Bryony Frost"
-      },
-      {
-       "text": "H Menkar → H Makemake Dec 23.0183 23 whole (0.76)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Makemake"
-       ],
-       "field": "also: 4 Dazzling Glory / Harry Skelton"
       },
       {
        "text": "S Makemake → J Makemake Dec 11.1299 11.1111 ninth (loose)",
@@ -4174,36 +3418,12 @@
         "Eris"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Deneb → J Eris RA 72.8120 45×φ golden (97.19)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Eris"
-       ],
-       "field": "also: 4 Dazzling Glory / Harry Skelton"
       }
      ]
     },
     {
      "body": "Saturn",
      "cells": [
-      {
-       "text": "H Phact → H Saturn RA 134.2808 83×φ golden (25.35)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Saturn"
-       ],
-       "field": "only"
-      },
       {
        "text": "H Sadalsuud → H Saturn Dec 6.9969 7 whole (71.60)",
        "layer": "star rows",
@@ -4234,18 +3454,6 @@
      "body": "Ceres",
      "cells": [
       {
-       "text": "H Phact → H Ceres RA 1.0433 conj (9.27)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Ceres"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen"
-      },
-      {
        "text": "H Sadalsuud → H Ceres RA 120.9837 121 whole (3.37)",
        "layer": "star rows",
        "source_lines": [
@@ -4253,30 +3461,6 @@
        ],
        "key": [
         "Sadalsuud",
-        "Ceres"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Deneb → J Ceres RA 173.1376 107×φ golden (56.87)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Ceres"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Deneb → J Ceres Dec 22.0103 22 whole (23.58)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
         "Ceres"
        ],
        "field": "only"
@@ -4321,6 +3505,63 @@
         "Mars"
        ],
        "field": "also: 3 Anna Bunina / James Bowen"
+      }
+     ]
+    },
+    {
+     "body": "Haumea",
+     "cells": [
+      {
+       "text": "H Wezen → H Haumea RA 101.9931 102 whole (42.63)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Wezen RA 155.3330 96×φ golden (89.39)"
+       ],
+       "key": [
+        "Wezen",
+        "Haumea"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "S Haumea → J Haumea RA 26.1747 10×φ^2 phi power (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Haumea"
+       ],
+       "field": "also: 3 Anna Bunina / James Bowen"
+      }
+     ]
+    },
+    {
+     "body": "Rahu",
+     "cells": [
+      {
+       "text": "S Rahu → J Rahu RA 166.5468 166.667 ninth (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Rahu"
+       ],
+       "field": "also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
+      }
+     ]
+    },
+    {
+     "body": "Ketu",
+     "cells": [
+      {
+       "text": "S Ketu → J Ketu RA 166.5468 166.667 ninth (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Ketu"
+       ],
+       "field": "also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
       }
      ]
     },
@@ -4417,13 +3658,6 @@
     "2": [],
     "3": [
      {
-      "label": "24 whole",
-      "cells": [
-       "S Moon → H Chiron Dec 24.0001 24 whole (99.17) = S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-      ],
-      "field": "also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
-     },
-     {
       "label": "101×φ golden",
       "cells": [
        "S Moon → H Vesta RA 163.4156 101×φ golden (67.22) = S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)"
@@ -4435,7 +3669,7 @@
       "cells": [
        "S Neptune → H Jupiter Dec 25.9975 26 whole (76.73) = S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)"
       ],
-      "field": "also: 5 Miss Heritage / Sean Quinlan"
+      "field": "only"
      },
      {
       "label": "66 whole",
@@ -4443,13 +3677,6 @@
        "H Alphard → H Vesta RA 66.0084 66 whole (33.41) = S Moon → Jupiter RA 66.0010 66 whole (90.00)"
       ],
       "field": "only"
-     },
-     {
-      "label": "100×φ^1 phi power",
-      "cells": [
-       "H Deneb → H Orcus RA 161.8571 100×φ^1 phi power (87.17) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)"
-      ],
-      "field": "also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
      },
      {
       "label": "11.1111 ninth",
@@ -4463,14 +3690,7 @@
       "cells": [
        "J Jupiter → J Eris RA 161.8328 100×φ^1 phi power (92.86) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)"
       ],
-      "field": "also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
-     },
-     {
-      "label": "22 whole",
-      "cells": [
-       "J Deneb → J Ceres Dec 22.0103 22 whole (23.58) = S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-      ],
-      "field": "also: 4 Dazzling Glory / Harry Skelton"
+      "field": "also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
      },
      {
       "label": "96×φ golden",
@@ -4485,13 +3705,6 @@
        "J Murzim → J Neptune RA 163.4156 101×φ golden (67.33) = S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)"
       ],
       "field": "also: 3 Anna Bunina / James Bowen"
-     },
-     {
-      "label": "22 whole",
-      "cells": [
-       "J Sualocin → J Pluto Dec 21.9889 22 whole (20.00) = S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-      ],
-      "field": "also: 4 Dazzling Glory / Harry Skelton"
      }
     ],
     "4": [
@@ -4521,13 +3734,6 @@
       "cells": [
        "H Murzim → H Juno Dec 8.0187 8 whole (0.39)"
       ],
-      "field": "also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
-     },
-     {
-      "label": "9 = 360/40",
-      "cells": [
-       "H Phact → H Vesta RA 9.0195 9 whole (0.06)"
-      ],
       "field": "also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
      },
      {
@@ -4535,7 +3741,7 @@
       "cells": [
        "H Scheat → H Venus RA 8.0136 8 whole (10.13)"
       ],
-      "field": "also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
+      "field": "also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
      },
      {
       "label": "5 = 360/72",
@@ -4573,18 +3779,11 @@
       "field": "also: 4 Dazzling Glory / Harry Skelton"
      },
      {
-      "label": "45 = 360/8",
-      "cells": [
-       "J Deneb → J Sun Dec 45.0175 45 whole (1.54)"
-      ],
-      "field": "also: 4 Dazzling Glory / Harry Skelton"
-     },
-     {
       "label": "1 = 360/360",
       "cells": [
        "J Difda → J Gonggong Dec 0.9842 1 whole (4.49)"
       ],
-      "field": "also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
+      "field": "also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
      },
      {
       "label": "4 = 360/90",
@@ -4597,13 +3796,6 @@
       "label": "1 = 360/360",
       "cells": [
        "J Murzim → J Gonggong Dec 1.0163 1 whole (3.48)"
-      ],
-      "field": "also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
-     },
-     {
-      "label": "12 = 360/30",
-      "cells": [
-       "J Phact → J Uranus Dec 11.9949 12 whole (55.69)"
       ],
       "field": "also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
      },
@@ -4623,14 +3815,6 @@
      }
     ],
     "5": [
-     {
-      "label": "45×φ golden",
-      "cells": [
-       "S Venus → H Venus RA 72.8110 45×φ golden (96.59)",
-       "J Deneb → J Eris RA 72.8120 45×φ golden (97.19)"
-      ],
-      "field": "only"
-     },
      {
       "label": "16.6667 ninth",
       "cells": [
@@ -4680,52 +3864,12 @@
       "field": "only"
      },
      {
-      "label": "23 whole",
-      "cells": [
-       "H Deneb → H Vesta Dec 23.0081 23 whole (35.39)",
-       "H Menkar → H Makemake Dec 23.0183 23 whole (0.76)"
-      ],
-      "field": "also: 4 Dazzling Glory / Harry Skelton"
-     },
-     {
-      "label": "27 whole",
-      "cells": [
-       "H Deneb → H Haumea Dec 27.0189 27 whole (0.30)",
-       "H Sadalsuud → H Jupiter Dec 26.9913 27 whole (32.10)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "100×φ^1 phi power",
-      "cells": [
-       "H Deneb → H Orcus RA 161.8571 100×φ^1 phi power (87.17)",
-       "J Jupiter → J Eris RA 161.8328 100×φ^1 phi power (92.86)"
-      ],
-      "field": "also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
-     },
-     {
-      "label": "89 whole",
-      "cells": [
-       "H Difda → H Pluto RA 89.0010 89 whole (90.54)",
-       "S Deneb → J Jupiter RA 89.0083 89 whole (34.34)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "8 whole",
       "cells": [
        "H Murzim → H Juno Dec 8.0187 8 whole (0.39)",
        "H Scheat → H Venus RA 8.0136 8 whole (10.13)"
       ],
       "field": "only"
-     },
-     {
-      "label": "28 whole",
-      "cells": [
-       "H Sualocin → H Pluto RA 28.0138 28 whole (9.49)",
-       "J Phact → J Pluto Dec 27.9957 28 whole (61.68)"
-      ],
-      "field": "also: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan"
      },
      {
       "label": "5 whole",
@@ -4742,22 +3886,6 @@
        "S Ketu → J Ketu RA 166.5468 166.667 ninth (loose)"
       ],
       "field": "only"
-     },
-     {
-      "label": "12 whole",
-      "cells": [
-       "S Moon → J Jupiter Dec 11.9992 12 whole (92.52)",
-       "J Phact → J Uranus Dec 11.9949 12 whole (55.69)"
-      ],
-      "field": "also: 3 Anna Bunina / James Bowen"
-     },
-     {
-      "label": "22 whole",
-      "cells": [
-       "J Deneb → J Ceres Dec 22.0103 22 whole (23.58)",
-       "J Sualocin → J Pluto Dec 21.9889 22 whole (20.00)"
-      ],
-      "field": "also: 4 Dazzling Glory / Harry Skelton"
      },
      {
       "label": "1 whole",
@@ -4832,13 +3960,6 @@
        "source_lines": []
       },
       {
-       "text": "J Menkar → J Saturn Dec 13.3377 13.3333 ninth (94.81)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ]
-      },
-      {
        "text": "J Sadalsuud → J Saturn Dec 22.9986 23 whole (86.61)",
        "layer": "star rows",
        "source_lines": [
@@ -4910,13 +4031,6 @@
        ]
       },
       {
-       "text": "J Deneb → J Neptune RA 0.1446 conj (81.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
-      },
-      {
        "text": "J Difda → J Neptune Dec 0.1668 conj (19.73)",
        "layer": "star rows",
        "source_lines": [
@@ -4955,13 +4069,6 @@
        ]
       },
       {
-       "text": "H Menkar → H Pluto Dec 24.9853 25 whole (6.92)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ]
-      },
-      {
        "text": "H Sadalsuud → H Pluto RA 35.0089 35 whole (30.61)",
        "layer": "star rows",
        "source_lines": [
@@ -4993,13 +4100,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)"
-       ]
-      },
-      {
-       "text": "H Deneb → H Chiron RA 38.9845 39 whole (5.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
        ]
       }
      ],
@@ -5059,15 +4159,7 @@
      "other_chart_same_body": [
       "S Ceres → J Ceres RA 133.1851 133.333 ninth (loose)"
      ],
-     "on_other_chart": [
-      {
-       "text": "J Phact → J Ceres RA 161.8776 100×φ^1 phi power (82.50)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "H",
@@ -5082,13 +4174,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)"
-       ]
-      },
-      {
-       "text": "H Phact → H Rahu RA 87.3800 54×φ golden (65.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
        ]
       }
      ],
@@ -5202,13 +4287,6 @@
        ]
       },
       {
-       "text": "J Deneb → J Neptune RA 0.1446 conj (81.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
-      },
-      {
        "text": "J Difda → J Neptune Dec 0.1668 conj (19.73)",
        "layer": "star rows",
        "source_lines": [
@@ -5250,15 +4328,7 @@
       "S Ceres → J Ceres RA 133.1851 133.333 ninth (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "J Phact → J Ceres RA 161.8776 100×φ^1 phi power (82.50)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [
       "S Ceres → H Ceres RA 69.5751 43×φ golden (97.60)"
      ],
@@ -5293,24 +4363,9 @@
       "S Pallas → J Pallas RA 102.0036 102 whole (67.38)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "J Phact → J Pallas RA 171.5169 106×φ golden (70.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
-      {
-       "text": "H Deneb → H Pallas RA 0.9490 conj (13.50)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
-      },
       {
        "text": "H Sadalsuud → H Pallas Dec 9.9866 10 whole (11.02)",
        "layer": "star rows",
@@ -5392,15 +4447,7 @@
       "S Quaoar → J Quaoar RA 27.0298 27 whole (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "J Phact → J Quaoar Dec 19.0122 19 whole (15.27)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -5479,18 +4526,6 @@
         "Saturn"
        ],
        "field": "also: 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "J Menkar → J Saturn Dec 13.3377 13.3333 ninth (94.81)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Saturn"
-       ],
-       "field": "also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
       },
       {
        "text": "J Sadalsuud → J Saturn Dec 22.9986 23 whole (86.61)",
@@ -5609,18 +4644,6 @@
        "field": "also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton"
       },
       {
-       "text": "J Deneb → J Neptune RA 0.1446 conj (81.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Neptune"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan"
-      },
-      {
        "text": "J Difda → J Neptune Dec 0.1668 conj (19.73)",
        "layer": "star rows",
        "source_lines": [
@@ -5684,18 +4707,6 @@
        "field": "also: 2 Western Victory / Tom Bellamy"
       },
       {
-       "text": "H Menkar → H Pluto Dec 24.9853 25 whole (6.92)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Pluto"
-       ],
-       "field": "also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
-      },
-      {
        "text": "H Sadalsuud → H Pluto RA 35.0089 35 whole (30.61)",
        "layer": "star rows",
        "source_lines": [
@@ -5745,18 +4756,6 @@
         "Chiron"
        ],
        "field": "only"
-      },
-      {
-       "text": "H Deneb → H Chiron RA 38.9845 39 whole (5.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Chiron"
-       ],
-       "field": "also: 5 Miss Heritage / Sean Quinlan"
       },
       {
        "text": "S Sun → J Chiron Dec 0.0511 conj (68.83)",
@@ -5852,18 +4851,6 @@
         "Ceres"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Phact → J Ceres RA 161.8776 100×φ^1 phi power (82.50)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Ceres"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy"
       }
      ]
     },
@@ -5891,18 +4878,6 @@
         "Rahu"
        ],
        "field": "only"
-      },
-      {
-       "text": "H Phact → H Rahu RA 87.3800 54×φ golden (65.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Rahu"
-       ],
-       "field": "also: 5 Miss Heritage / Sean Quinlan"
       },
       {
        "text": "J Adhara → J Rahu RA 0.8218 conj (20.44)",
@@ -5993,119 +4968,6 @@
      ]
     },
     {
-     "body": "Jupiter",
-     "cells": [
-      {
-       "text": "H Jupiter → H star Menkar RA 125.0029 125 whole (73.22)",
-       "layer": "T1",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Jupiter"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton"
-      },
-      {
-       "text": "S Chiron → H Jupiter Dec 0.2268 conj (5.95)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Chiron",
-        "Jupiter"
-       ],
-       "field": "also: 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "S Haumea → H Jupiter RA 46.9783 φ^8 phi power (99.62)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Haumea",
-        "Jupiter"
-       ],
-       "field": "also: 4 Dazzling Glory / Harry Skelton"
-      },
-      {
-       "text": "S Menkar → H Jupiter RA 125.0000 125 whole (99.88)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Jupiter"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost"
-      },
-      {
-       "text": "J Jupiter → J star Wezen Dec 46.9215 29×φ golden (90.97)",
-       "layer": "T2",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Jupiter"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton"
-      },
-      {
-       "text": "S Sun → J Jupiter RA 110.9120 10×φ^5 phi power (96.32)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Sun",
-        "Jupiter"
-       ],
-       "field": "also: 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "S Mars → J Jupiter RA 148.9993 149 whole (92.75)",
-       "layer": "top rows",
-       "source_lines": [
-        "S Moon → Mars RA 1.2062 conj (3.84)"
-       ],
-       "key": [
-        "S Mars",
-        "Jupiter"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Quaoar → J Jupiter Dec 35.9997 36 whole (96.93)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Quaoar",
-        "Jupiter"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Murzim → J Jupiter RA 32.9973 33 whole (74.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Murzim Dec 0.0394 conj (75.49)"
-       ],
-       "key": [
-        "Murzim",
-        "Jupiter"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Wezen → J Jupiter Dec 46.9215 29×φ golden (90.97)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Wezen RA 155.3330 96×φ golden (89.39)"
-       ],
-       "key": [
-        "Wezen",
-        "Jupiter"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost"
-      }
-     ]
-    },
-    {
      "body": "Mercury",
      "cells": [
       {
@@ -6126,30 +4988,6 @@
        ],
        "key": [
         "Castor",
-        "Mercury"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "H Deneb → H Mercury RA 14.4481 14.4444 ninth (96.11)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Mercury"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost"
-      },
-      {
-       "text": "H Phact → H Mercury Dec 17.9897 18 whole (23.75)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
         "Mercury"
        ],
        "field": "only"
@@ -6201,6 +5039,95 @@
         "Mercury"
        ],
        "field": "also: 2 Western Victory / Tom Bellamy"
+      }
+     ]
+    },
+    {
+     "body": "Jupiter",
+     "cells": [
+      {
+       "text": "S Chiron → H Jupiter Dec 0.2268 conj (5.95)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Chiron",
+        "Jupiter"
+       ],
+       "field": "also: 5 Miss Heritage / Sean Quinlan"
+      },
+      {
+       "text": "S Haumea → H Jupiter RA 46.9783 φ^8 phi power (99.62)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Haumea",
+        "Jupiter"
+       ],
+       "field": "also: 4 Dazzling Glory / Harry Skelton"
+      },
+      {
+       "text": "J Jupiter → J star Wezen Dec 46.9215 29×φ golden (90.97)",
+       "layer": "T2",
+       "source_lines": [],
+       "key": [
+        "natal Jupiter",
+        "Jupiter"
+       ],
+       "field": "also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton"
+      },
+      {
+       "text": "S Sun → J Jupiter RA 110.9120 10×φ^5 phi power (96.32)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Sun",
+        "Jupiter"
+       ],
+       "field": "also: 5 Miss Heritage / Sean Quinlan"
+      },
+      {
+       "text": "S Mars → J Jupiter RA 148.9993 149 whole (92.75)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Mars",
+        "Jupiter"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "S Quaoar → J Jupiter Dec 35.9997 36 whole (96.93)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Quaoar",
+        "Jupiter"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "S Murzim → J Jupiter RA 32.9973 33 whole (74.65)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Murzim Dec 0.0394 conj (75.49)"
+       ],
+       "key": [
+        "Murzim",
+        "Jupiter"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Wezen → J Jupiter Dec 46.9215 29×φ golden (90.97)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Wezen RA 155.3330 96×φ golden (89.39)"
+       ],
+       "key": [
+        "Wezen",
+        "Jupiter"
+       ],
+       "field": "also: 1 Miranda / Bryony Frost"
       }
      ]
     },
@@ -6330,134 +5257,6 @@
         "Quaoar"
        ],
        "field": "also: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "J Phact → J Quaoar Dec 19.0122 19 whole (15.27)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Quaoar"
-       ],
-       "field": "also: 5 Miss Heritage / Sean Quinlan"
-      }
-     ]
-    },
-    {
-     "body": "Pallas",
-     "cells": [
-      {
-       "text": "H Deneb → H Pallas RA 0.9490 conj (13.50)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Pallas"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "H Sadalsuud → H Pallas Dec 9.9866 10 whole (11.02)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Pallas"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost"
-      },
-      {
-       "text": "H Sualocin → H Pallas RA 0.5026 conj (44.22)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)"
-       ],
-       "key": [
-        "Sualocin",
-        "Pallas"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost"
-      },
-      {
-       "text": "S Pallas → J Pallas RA 102.0036 102 whole (67.38)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Pallas"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy"
-      },
-      {
-       "text": "J Phact → J Pallas RA 171.5169 106×φ golden (70.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Pallas"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Orcus",
-     "cells": [
-      {
-       "text": "H Deneb → H Orcus RA 159.0183 159 whole (0.74)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Orcus"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton"
-      },
-      {
-       "text": "H Menkar → H Orcus Dec 13.3321 13.3333 ninth (98.47)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Orcus"
-       ],
-       "field": "also: 4 Dazzling Glory / Harry Skelton"
-      },
-      {
-       "text": "H Sualocin → H Orcus RA 158.5719 98×φ golden (73.88)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)"
-       ],
-       "key": [
-        "Sualocin",
-        "Orcus"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Difda → J Orcus Dec 16.1804 10×φ^1 phi power (99.86)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Difda Dec 0.0705 conj (58.51)"
-       ],
-       "key": [
-        "Difda",
-        "Orcus"
-       ],
-       "field": "also: 5 Miss Heritage / Sean Quinlan"
       }
      ]
     },
@@ -6511,43 +5310,70 @@
      ]
     },
     {
-     "body": "Transpluto",
+     "body": "Pallas",
      "cells": [
       {
-       "text": "H Phact → H Transpluto Dec 45.3022 28×φ golden (83.51)",
+       "text": "H Sadalsuud → H Pallas Dec 9.9866 10 whole (11.02)",
        "layer": "star rows",
        "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
+        "S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)"
        ],
        "key": [
-        "Phact",
-        "Transpluto"
+        "Sadalsuud",
+        "Pallas"
+       ],
+       "field": "also: 1 Miranda / Bryony Frost"
+      },
+      {
+       "text": "H Sualocin → H Pallas RA 0.5026 conj (44.22)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)"
+       ],
+       "key": [
+        "Sualocin",
+        "Pallas"
+       ],
+       "field": "also: 1 Miranda / Bryony Frost"
+      },
+      {
+       "text": "S Pallas → J Pallas RA 102.0036 102 whole (67.38)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Pallas"
+       ],
+       "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy"
+      }
+     ]
+    },
+    {
+     "body": "Orcus",
+     "cells": [
+      {
+       "text": "H Sualocin → H Orcus RA 158.5719 98×φ golden (73.88)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)"
+       ],
+       "key": [
+        "Sualocin",
+        "Orcus"
        ],
        "field": "only"
       },
       {
-       "text": "J Adhara → J Transpluto Dec 42.0115 42 whole (17.96)",
+       "text": "J Difda → J Orcus Dec 16.1804 10×φ^1 phi power (99.86)",
        "layer": "star rows",
        "source_lines": [
-        "S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)"
+        "S Sun → Difda Dec 0.0705 conj (58.51)"
        ],
        "key": [
-        "Adhara",
-        "Transpluto"
+        "Difda",
+        "Orcus"
        ],
-       "field": "also: 2 Western Victory / Tom Bellamy"
-      },
-      {
-       "text": "J Murzim → J Transpluto Dec 30.9948 31 whole (54.60)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Murzim Dec 0.0394 conj (75.49)"
-       ],
-       "key": [
-        "Murzim",
-        "Transpluto"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost"
+       "field": "also: 5 Miss Heritage / Sean Quinlan"
       }
      ]
     },
@@ -6621,18 +5447,6 @@
        "field": "also: 5 Miss Heritage / Sean Quinlan"
       },
       {
-       "text": "J Deneb → J Vesta Dec 49.9876 50 whole (14.39)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Vesta"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy"
-      },
-      {
        "text": "J Murzim → J Vesta RA 94.0196 94 whole (0.04)",
        "layer": "star rows",
        "source_lines": [
@@ -6643,6 +5457,35 @@
         "Vesta"
        ],
        "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy"
+      }
+     ]
+    },
+    {
+     "body": "Transpluto",
+     "cells": [
+      {
+       "text": "J Adhara → J Transpluto Dec 42.0115 42 whole (17.96)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)"
+       ],
+       "key": [
+        "Adhara",
+        "Transpluto"
+       ],
+       "field": "also: 2 Western Victory / Tom Bellamy"
+      },
+      {
+       "text": "J Murzim → J Transpluto Dec 30.9948 31 whole (54.60)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Murzim Dec 0.0394 conj (75.49)"
+       ],
+       "key": [
+        "Murzim",
+        "Transpluto"
+       ],
+       "field": "also: 1 Miranda / Bryony Frost"
       }
      ]
     },
@@ -6684,30 +5527,6 @@
         "Sedna"
        ],
        "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "J Menkar → J Sedna RA 1.3358 conj (1.20)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Sedna"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "J Phact → J Sedna RA 38.0100 38 whole (24.79)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Sedna"
-       ],
-       "field": "only"
       },
       {
        "text": "J Sadalsuud → J Sedna RA 84.0176 84 whole (1.39)",
@@ -6782,13 +5601,6 @@
       "field": "also: 2 Western Victory / Tom Bellamy"
      },
      {
-      "label": "13.3333 ninth",
-      "cells": [
-       "H Menkar → H Orcus Dec 13.3321 13.3333 ninth (98.47) = S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)"
-      ],
-      "field": "also: 5 Miss Heritage / Sean Quinlan"
-     },
-     {
       "label": "11.1111 ninth",
       "cells": [
        "H Murzim → H Juno Dec 11.1131 11.1111 ninth (96.79) = S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)"
@@ -6808,20 +5620,6 @@
        "J Castor → J Neptune RA 163.4451 101×φ golden (7.29) = S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)"
       ],
       "field": "also: 2 Western Victory / Tom Bellamy"
-     },
-     {
-      "label": "13.3333 ninth",
-      "cells": [
-       "J Menkar → J Saturn Dec 13.3377 13.3333 ninth (94.81) = S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)"
-      ],
-      "field": "also: 5 Miss Heritage / Sean Quinlan"
-     },
-     {
-      "label": "100×φ^1 phi power",
-      "cells": [
-       "J Phact → J Ceres RA 161.8776 100×φ^1 phi power (82.50) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)"
-      ],
-      "field": "also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
      }
     ],
     "4": [
@@ -6851,7 +5649,7 @@
       "cells": [
        "H Adhara → H Saturn Dec 8.0052 8 whole (55.04)"
       ],
-      "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
+      "field": "also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton"
      },
      {
       "label": "12 = 360/30",
@@ -6872,7 +5670,7 @@
       "cells": [
        "H Murzim → H Venus Dec 0.9902 1 whole (26.11)"
       ],
-      "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
+      "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton"
      },
      {
       "label": "3 = 360/120",
@@ -6880,13 +5678,6 @@
        "H Murzim → H Saturn Dec 3.0114 3 whole (18.33)"
       ],
       "field": "also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
-     },
-     {
-      "label": "18 = 360/20",
-      "cells": [
-       "H Phact → H Mercury Dec 17.9897 18 whole (23.75)"
-      ],
-      "field": "also: 1 Miranda / Bryony Frost"
      },
      {
       "label": "10 = 360/36",
@@ -6928,7 +5719,7 @@
       "cells": [
        "J Alphard → J Juno Dec 9.0017 9 whole (84.01)"
       ],
-      "field": "also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton"
+      "field": "also: 4 Dazzling Glory / Harry Skelton"
      },
      {
       "label": "36 = 360/10",
@@ -6942,7 +5733,7 @@
       "cells": [
        "J Sadalsuud → J Eris Dec 1.0192 1 whole (0.17)"
       ],
-      "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan"
+      "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton"
      }
     ],
     "5": [
@@ -6955,28 +5746,12 @@
       "field": "only"
      },
      {
-      "label": "18 whole",
-      "cells": [
-       "S Chiron → H Chiron RA 17.9974 18 whole (75.58)",
-       "H Phact → H Mercury Dec 17.9897 18 whole (23.75)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "16.6667 ninth",
       "cells": [
        "S Rahu → H Rahu Dec 16.5660 16.6667 ninth (loose)",
        "S Ketu → H Ketu Dec 16.5660 16.6667 ninth (loose)"
       ],
       "field": "also: 2 Western Victory / Tom Bellamy"
-     },
-     {
-      "label": "125 whole",
-      "cells": [
-       "H Jupiter → H star Menkar RA 125.0029 125 whole (73.22)",
-       "S Menkar → H Jupiter RA 125.0000 125 whole (99.88)"
-      ],
-      "field": "only"
      },
      {
       "label": "6 whole",
@@ -6993,7 +5768,7 @@
        "H Adhara → H Venus Dec 12.0068 12 whole (43.44)",
        "H Alphard → H Rahu Dec 11.9877 12 whole (14.97)"
       ],
-      "field": "also: 2 Western Victory / Tom Bellamy"
+      "field": "only"
      },
      {
       "label": "32 whole",
@@ -7008,14 +5783,6 @@
       "cells": [
        "H Difda → H Saturn Dec 2.9814 3 whole (0.52)",
        "H Murzim → H Saturn Dec 3.0114 3 whole (18.33)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "13.3333 ninth",
-      "cells": [
-       "H Menkar → H Orcus Dec 13.3321 13.3333 ninth (98.47)",
-       "J Menkar → J Saturn Dec 13.3377 13.3333 ninth (94.81)"
       ],
       "field": "only"
      },
@@ -7147,24 +5914,10 @@
        "source_lines": [
         "S Sun → Murzim Dec 0.0394 conj (75.49)"
        ]
-      },
-      {
-       "text": "J Phact → J Sun Dec 35.0053 35 whole (54.20)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ]
       }
      ],
      "other_chart_same_body": [],
      "on_other_chart": [
-      {
-       "text": "H Deneb → H Sun Dec 40.4505 25×φ golden (98.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
-      },
       {
        "text": "H Difda → H Sun RA 0.3403 conj (59.78)",
        "layer": "star rows",
@@ -7211,13 +5964,6 @@
      "other_chart_same_body": [],
      "on_other_chart": [
       {
-       "text": "H Deneb → H Rahu RA 121.3543 75×φ golden (89.51)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
-      },
-      {
        "text": "H Scheat → H Rahu RA 156.9390 97×φ golden (46.34)",
        "layer": "star rows",
        "source_lines": [
@@ -7249,13 +5995,6 @@
        ]
       },
       {
-       "text": "J Menkar → J Sedna Dec 0.0676 conj (60.02)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ]
-      },
-      {
        "text": "J Murzim → J Sedna RA 53.3989 33×φ golden (78.24)",
        "layer": "star rows",
        "source_lines": [
@@ -7264,15 +6003,7 @@
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Deneb → H Sedna Dec 37.9941 38 whole (49.58)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -7311,13 +6042,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)"
-       ]
-      },
-      {
-       "text": "H Menkar → H Ketu Dec 0.2078 conj (9.44)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
        ]
       }
      ]
@@ -7566,30 +6290,6 @@
        "field": "also: 5 Miss Heritage / Sean Quinlan"
       },
       {
-       "text": "J Deneb → J Orcus RA 179.6308 111×φ golden (1.08)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Orcus"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen"
-      },
-      {
-       "text": "J Menkar → J Orcus Dec 0.0457 conj (71.85)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Orcus"
-       ],
-       "field": "also: 3 Anna Bunina / James Bowen"
-      },
-      {
        "text": "J Murzim → J Orcus Dec 21.9984 22 whole (84.80)",
        "layer": "star rows",
        "source_lines": [
@@ -7615,18 +6315,6 @@
         "Saturn"
        ],
        "field": "only"
-      },
-      {
-       "text": "H Menkar → H Saturn Dec 23.0057 23 whole (51.29)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Saturn"
-       ],
-       "field": "also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan"
       },
       {
        "text": "H Scheat → H Saturn Dec 46.9986 47 whole (86.47)",
@@ -7656,30 +6344,6 @@
         "Pluto"
        ],
        "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen"
-      },
-      {
-       "text": "H Phact → H Pluto RA 158.5835 98×φ golden (25.07)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Pluto"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy"
-      },
-      {
-       "text": "J Menkar → J Pluto RA 179.9889 180 whole (19.78)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Pluto"
-       ],
-       "field": "also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan"
       }
      ]
     },
@@ -7752,18 +6416,6 @@
        "field": "also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan"
       },
       {
-       "text": "H Menkar → H Ketu Dec 0.2078 conj (9.44)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Ketu"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy"
-      },
-      {
        "text": "S Ketu → J Ketu RA 88.8053 88.8889 ninth (loose)",
        "layer": "same body",
        "source_lines": [],
@@ -7815,18 +6467,6 @@
      "body": "Sun",
      "cells": [
       {
-       "text": "H Deneb → H Sun Dec 40.4505 25×φ golden (98.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Sun"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy"
-      },
-      {
        "text": "H Difda → H Sun RA 0.3403 conj (59.78)",
        "layer": "star rows",
        "source_lines": [
@@ -7869,75 +6509,12 @@
         "Sun"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Phact → J Sun Dec 35.0053 35 whole (54.20)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Sun"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Rahu",
-     "cells": [
-      {
-       "text": "H Deneb → H Rahu RA 121.3543 75×φ golden (89.51)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Rahu"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "H Scheat → H Rahu RA 156.9390 97×φ golden (46.34)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Scheat Dec 46.0028 46 whole (73.65)"
-       ],
-       "key": [
-        "Scheat",
-        "Rahu"
-       ],
-       "field": "also: 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "S Rahu → J Rahu RA 88.8053 88.8889 ninth (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Rahu"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan"
       }
      ]
     },
     {
      "body": "Eris",
      "cells": [
-      {
-       "text": "H Deneb → H Eris RA 75.0001 75 whole (98.57)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Eris"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy"
-      },
       {
        "text": "H Murzim → H Eris Dec 15.0193 15 whole (0.13)",
        "layer": "star rows",
@@ -7949,221 +6526,6 @@
         "Eris"
        ],
        "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy"
-      },
-      {
-       "text": "J Menkar → J Eris RA 23.0151 23 whole (5.97)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Eris"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Sedna",
-     "cells": [
-      {
-       "text": "H Deneb → H Sedna Dec 37.9941 38 whole (49.58)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Sedna"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost"
-      },
-      {
-       "text": "S Sedna → J Sedna Dec 4.0085 4 whole (33.08)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Sedna"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "J Adhara → J Sedna Dec 32.9921 33 whole (36.52)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)"
-       ],
-       "key": [
-        "Adhara",
-        "Sedna"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy"
-      },
-      {
-       "text": "J Difda → J Sedna Dec 22.0086 22 whole (32.62)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Difda Dec 0.0705 conj (58.51)"
-       ],
-       "key": [
-        "Difda",
-        "Sedna"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "J Menkar → J Sedna Dec 0.0676 conj (60.02)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Sedna"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "J Murzim → J Sedna RA 53.3989 33×φ golden (78.24)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Murzim Dec 0.0394 conj (75.49)"
-       ],
-       "key": [
-        "Murzim",
-        "Sedna"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan"
-      }
-     ]
-    },
-    {
-     "body": "Makemake",
-     "cells": [
-      {
-       "text": "H Deneb → H Makemake Dec 18.9874 19 whole (13.75)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Makemake"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Menkar → J Makemake Dec 31.0172 31 whole (1.99)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Makemake"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy"
-      }
-     ]
-    },
-    {
-     "body": "Mercury",
-     "cells": [
-      {
-       "text": "H Menkar → H Mercury Dec 3.9838 4 whole (3.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Mercury"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Menkar → J Mercury RA 139.0100 139 whole (24.89)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Mercury"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Venus",
-     "cells": [
-      {
-       "text": "H Menkar → H Venus RA 0.7191 conj (27.10)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Venus"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "H Sadalsuud → H Venus Dec 23.9925 24 whole (39.03)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Venus"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost"
-      }
-     ]
-    },
-    {
-     "body": "Gonggong",
-     "cells": [
-      {
-       "text": "H Menkar → H Gonggong Dec 16.9872 17 whole (13.10)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Gonggong"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "H Scheat → H Gonggong Dec 40.9802 41 whole (0.01)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Scheat Dec 46.0028 46 whole (73.65)"
-       ],
-       "key": [
-        "Scheat",
-        "Gonggong"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Scheat → J Gonggong RA 17.0125 17 whole (14.21)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Scheat Dec 46.0028 46 whole (73.65)"
-       ],
-       "key": [
-        "Scheat",
-        "Gonggong"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -8195,6 +6557,23 @@
      ]
     },
     {
+     "body": "Venus",
+     "cells": [
+      {
+       "text": "H Sadalsuud → H Venus Dec 23.9925 24 whole (39.03)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)"
+       ],
+       "key": [
+        "Sadalsuud",
+        "Venus"
+       ],
+       "field": "also: 1 Miranda / Bryony Frost"
+      }
+     ]
+    },
+    {
      "body": "Quaoar",
      "cells": [
       {
@@ -8220,18 +6599,6 @@
         "Quaoar"
        ],
        "field": "also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan"
-      },
-      {
-       "text": "J Deneb → J Quaoar RA 78.0127 78 whole (13.28)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Quaoar"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost"
       }
      ]
     },
@@ -8247,6 +6614,62 @@
        "key": [
         "Sadalsuud",
         "Transpluto"
+       ],
+       "field": "only"
+      }
+     ]
+    },
+    {
+     "body": "Rahu",
+     "cells": [
+      {
+       "text": "H Scheat → H Rahu RA 156.9390 97×φ golden (46.34)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Scheat Dec 46.0028 46 whole (73.65)"
+       ],
+       "key": [
+        "Scheat",
+        "Rahu"
+       ],
+       "field": "also: 5 Miss Heritage / Sean Quinlan"
+      },
+      {
+       "text": "S Rahu → J Rahu RA 88.8053 88.8889 ninth (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Rahu"
+       ],
+       "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan"
+      }
+     ]
+    },
+    {
+     "body": "Gonggong",
+     "cells": [
+      {
+       "text": "H Scheat → H Gonggong Dec 40.9802 41 whole (0.01)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Scheat Dec 46.0028 46 whole (73.65)"
+       ],
+       "key": [
+        "Scheat",
+        "Gonggong"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Scheat → J Gonggong RA 17.0125 17 whole (14.21)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Scheat Dec 46.0028 46 whole (73.65)"
+       ],
+       "key": [
+        "Scheat",
+        "Gonggong"
        ],
        "field": "only"
       }
@@ -8345,6 +6768,57 @@
      ]
     },
     {
+     "body": "Sedna",
+     "cells": [
+      {
+       "text": "S Sedna → J Sedna Dec 4.0085 4 whole (33.08)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Sedna"
+       ],
+       "field": "also: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan"
+      },
+      {
+       "text": "J Adhara → J Sedna Dec 32.9921 33 whole (36.52)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)"
+       ],
+       "key": [
+        "Adhara",
+        "Sedna"
+       ],
+       "field": "also: 2 Western Victory / Tom Bellamy"
+      },
+      {
+       "text": "J Difda → J Sedna Dec 22.0086 22 whole (32.62)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Difda Dec 0.0705 conj (58.51)"
+       ],
+       "key": [
+        "Difda",
+        "Sedna"
+       ],
+       "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan"
+      },
+      {
+       "text": "J Murzim → J Sedna RA 53.3989 33×φ golden (78.24)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Murzim Dec 0.0394 conj (75.49)"
+       ],
+       "key": [
+        "Murzim",
+        "Sedna"
+       ],
+       "field": "also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan"
+      }
+     ]
+    },
+    {
      "body": "Uranus",
      "cells": [
       {
@@ -8380,18 +6854,6 @@
         "Uranus"
        ],
        "field": "also: 1 Miranda / Bryony Frost"
-      },
-      {
-       "text": "J Deneb → J Uranus Dec 68.9867 69 whole (11.15)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Uranus"
-       ],
-       "field": "only"
       },
       {
        "text": "J Murzim → J Uranus RA 175.9907 176 whole (28.69)",
@@ -8430,20 +6892,6 @@
     ],
     "3": [
      {
-      "label": "25×φ golden",
-      "cells": [
-       "H Deneb → H Sun Dec 40.4505 25×φ golden (98.12) = S Sun → Neptune RA 40.4536 25×φ golden (83.58)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "24 whole",
-      "cells": [
-       "H Sadalsuud → H Venus Dec 23.9925 24 whole (39.03) = S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-      ],
-      "field": "also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan"
-     },
-     {
       "label": "18.8889 ninth",
       "cells": [
        "S Sun → J Sun Dec 18.8548 18.8889 ninth (loose) = S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)"
@@ -8455,14 +6903,7 @@
       "cells": [
        "S Mercury → J Jupiter RA 161.8939 100×φ^1 phi power (78.87) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)"
       ],
-      "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan"
-     },
-     {
-      "label": "22 whole",
-      "cells": [
-       "J Difda → J Sedna Dec 22.0086 22 whole (32.62) = S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-      ],
-      "field": "also: 2 Western Victory / Tom Bellamy"
+      "field": "also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan"
      },
      {
       "label": "18.8889 ninth",
@@ -8472,18 +6913,11 @@
       "field": "also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan"
      },
      {
-      "label": "22 whole",
-      "cells": [
-       "J Murzim → J Orcus Dec 21.9984 22 whole (84.80) = S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-      ],
-      "field": "also: 2 Western Victory / Tom Bellamy"
-     },
-     {
       "label": "100×φ^1 phi power",
       "cells": [
        "J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)"
       ],
-      "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan"
+      "field": "also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan"
      }
     ],
     "4": [
@@ -8499,7 +6933,7 @@
       "cells": [
        "S Sun → H Saturn Dec 0.9995 1 whole (94.69)"
       ],
-      "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan"
+      "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen"
      },
      {
       "label": "15 = 360/24",
@@ -8514,13 +6948,6 @@
        "S Difda → H Jupiter Dec 35.9836 36 whole (3.33)"
       ],
       "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan"
-     },
-     {
-      "label": "4 = 360/90",
-      "cells": [
-       "H Menkar → H Mercury Dec 3.9838 4 whole (3.65)"
-      ],
-      "field": "also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan"
      },
      {
       "label": "15 = 360/24",
@@ -8562,28 +6989,21 @@
       "cells": [
        "S Castor → J Jupiter Dec 9.0176 9 whole (1.41)"
       ],
-      "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen"
+      "field": "also: 3 Anna Bunina / James Bowen"
      },
      {
       "label": "45 = 360/8",
       "cells": [
        "J Castor → J Quaoar Dec 45.0159 45 whole (4.20)"
       ],
-      "field": "also: 2 Western Victory / Tom Bellamy"
+      "field": "only"
      },
      {
       "label": "8 = 360/45",
       "cells": [
        "J Difda → J Vesta Dec 7.9952 8 whole (57.88)"
       ],
-      "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan"
-     },
-     {
-      "label": "180 = 360/2",
-      "cells": [
-       "J Menkar → J Pluto RA 179.9889 180 whole (19.78)"
-      ],
-      "field": "only"
+      "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen"
      }
     ],
     "5": [
@@ -8612,25 +7032,8 @@
       "field": "only"
      },
      {
-      "label": "4 whole",
-      "cells": [
-       "H Menkar → H Mercury Dec 3.9838 4 whole (3.65)",
-       "S Sedna → J Sedna Dec 4.0085 4 whole (33.08)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "23 whole",
-      "cells": [
-       "H Menkar → H Saturn Dec 23.0057 23 whole (51.29)",
-       "J Menkar → J Eris RA 23.0151 23 whole (5.97)"
-      ],
-      "field": "also: 2 Western Victory / Tom Bellamy"
-     },
-     {
       "label": "17 whole",
       "cells": [
-       "H Menkar → H Gonggong Dec 16.9872 17 whole (13.10)",
        "H Sadalsuud → H Transpluto Dec 17.0120 17 whole (15.86)",
        "J Scheat → J Gonggong RA 17.0125 17 whole (14.21)"
       ],
@@ -8666,7 +7069,7 @@
        "S Mercury → J Jupiter RA 161.8939 100×φ^1 phi power (78.87)",
        "J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12)"
       ],
-      "field": "also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan"
+      "field": "also: 5 Miss Heritage / Sean Quinlan"
      },
      {
       "label": "33 whole",
@@ -8681,14 +7084,6 @@
       "cells": [
        "J Difda → J Sedna Dec 22.0086 22 whole (32.62)",
        "J Murzim → J Orcus Dec 21.9984 22 whole (84.80)"
-      ],
-      "field": "also: 2 Western Victory / Tom Bellamy"
-     },
-     {
-      "label": "31 whole",
-      "cells": [
-       "J Difda → J Ketu Dec 30.9991 31 whole (91.04)",
-       "J Menkar → J Makemake Dec 31.0172 31 whole (1.99)"
       ],
       "field": "only"
      },
@@ -8782,31 +7177,9 @@
       "S Rahu → H Rahu Dec 30.7467 19×φ golden (76.56)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "H Phact → H Rahu RA 121.3396 75×φ golden (35.88)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
-      {
-       "text": "J Deneb → J Rahu RA 124.5830 77×φ golden (68.35)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
-      },
-      {
-       "text": "J Phact → J Rahu RA 9.9834 10 whole (2.85)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ]
-      },
       {
        "text": "J Scheat → J Rahu RA 88.9936 55×φ golden (89.37)",
        "layer": "star rows",
@@ -8834,20 +7207,6 @@
      ],
      "other_chart_same_body": [],
      "on_other_chart": [
-      {
-       "text": "J Deneb → J Ketu Dec 68.0026 68 whole (75.49)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
-      },
-      {
-       "text": "J Phact → J Ketu RA 170.0166 170 whole (2.85)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ]
-      },
       {
        "text": "J Sadalsuud → J Ketu RA 67.9512 42×φ golden (65.33)",
        "layer": "star rows",
@@ -8934,13 +7293,6 @@
        "text": "S Jupiter → H Neptune Dec 0.2597 conj (1.80)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "H Deneb → H Neptune RA 27.9910 28 whole (30.25)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ]
       }
      ]
     },
@@ -8959,13 +7311,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)"
-       ]
-      },
-      {
-       "text": "H Menkar → H Pluto RA 121.3361 75×φ golden (24.28)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
        ]
       },
       {
@@ -9021,13 +7366,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Sun → Difda Dec 0.0705 conj (58.51)"
-       ]
-      },
-      {
-       "text": "J Menkar → J Sedna Dec 1.0088 1 whole (31.26)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
        ]
       },
       {
@@ -9143,13 +7481,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Sun → Difda Dec 0.0705 conj (58.51)"
-       ]
-      },
-      {
-       "text": "J Phact → J Quaoar RA 141.9835 142 whole (3.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
        ]
       },
       {
@@ -9298,42 +7629,6 @@
        "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
       },
       {
-       "text": "H Phact → H Rahu RA 121.3396 75×φ golden (35.88)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Rahu"
-       ],
-       "field": "also: 3 Anna Bunina / James Bowen"
-      },
-      {
-       "text": "J Deneb → J Rahu RA 124.5830 77×φ golden (68.35)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Rahu"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton"
-      },
-      {
-       "text": "J Phact → J Rahu RA 9.9834 10 whole (2.85)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Rahu"
-       ],
-       "field": "also: 3 Anna Bunina / James Bowen"
-      },
-      {
        "text": "J Scheat → J Rahu RA 88.9936 55×φ golden (89.37)",
        "layer": "star rows",
        "source_lines": [
@@ -9371,30 +7666,6 @@
         "Ketu"
        ],
        "field": "also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
-      },
-      {
-       "text": "J Deneb → J Ketu Dec 68.0026 68 whole (75.49)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Ketu"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy"
-      },
-      {
-       "text": "J Phact → J Ketu RA 170.0166 170 whole (2.85)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Ketu"
-       ],
-       "field": "only"
       },
       {
        "text": "J Sadalsuud → J Ketu RA 67.9512 42×φ golden (65.33)",
@@ -9444,18 +7715,6 @@
         "Neptune"
        ],
        "field": "also: 1 Miranda / Bryony Frost"
-      },
-      {
-       "text": "H Deneb → H Neptune RA 27.9910 28 whole (30.25)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Neptune"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen"
       },
       {
        "text": "S Neptune → J Neptune Dec 17.6924 17.7778 ninth (loose)",
@@ -9706,18 +7965,6 @@
        "field": "only"
       },
       {
-       "text": "J Phact → J Quaoar RA 141.9835 142 whole (3.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
-        "Quaoar"
-       ],
-       "field": "also: 3 Anna Bunina / James Bowen"
-      },
-      {
        "text": "J Sadalsuud → J Quaoar RA 95.9844 96 whole (4.81)",
        "layer": "star rows",
        "source_lines": [
@@ -9771,18 +8018,6 @@
        "field": "only"
       },
       {
-       "text": "H Menkar → H Uranus Dec 0.2578 conj (1.98)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Uranus"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy"
-      },
-      {
        "text": "H Wezen → H Uranus Dec 30.7427 19×φ golden (99.94)",
        "layer": "star rows",
        "source_lines": [
@@ -9803,18 +8038,6 @@
         "Uranus"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Menkar → J Uranus Dec 26.0086 26 whole (32.50)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Uranus"
-       ],
-       "field": "also: 2 Western Victory / Tom Bellamy"
       },
       {
        "text": "J Scheat → J Uranus Dec 50.0031 50 whole (71.45)",
@@ -9853,18 +8076,6 @@
        ],
        "key": [
         "Alphard",
-        "Makemake"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost"
-      },
-      {
-       "text": "H Phact → H Makemake RA 107.0095 107 whole (27.54)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-       ],
-       "key": [
-        "Phact",
         "Makemake"
        ],
        "field": "also: 1 Miranda / Bryony Frost"
@@ -9921,18 +8132,6 @@
         "Pluto"
        ],
        "field": "only"
-      },
-      {
-       "text": "H Menkar → H Pluto RA 121.3361 75×φ golden (24.28)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Pluto"
-       ],
-       "field": "also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
       },
       {
        "text": "H Sualocin → H Pluto Dec 36.0150 36 whole (6.13)",
@@ -10010,81 +8209,8 @@
      ]
     },
     {
-     "body": "Saturn",
-     "cells": [
-      {
-       "text": "H Menkar → H Saturn Dec 20.0148 20 whole (6.78)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Saturn"
-       ],
-       "field": "also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
-      },
-      {
-       "text": "H Scheat → H Saturn Dec 44.0075 44 whole (39.06)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Scheat Dec 46.0028 46 whole (73.65)"
-       ],
-       "key": [
-        "Scheat",
-        "Saturn"
-       ],
-       "field": "also: 4 Dazzling Glory / Harry Skelton"
-      },
-      {
-       "text": "S Jupiter → J Saturn RA 118.0000 118 whole (99.90)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Jupiter",
-        "Saturn"
-       ],
-       "field": "also: 3 Anna Bunina / James Bowen"
-      },
-      {
-       "text": "S Moon → J Saturn RA 51.9990 52 whole (90.10)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Moon",
-        "Saturn"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Wezen → J Saturn Dec 13.0067 13 whole (44.01)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Wezen RA 155.3330 96×φ golden (89.39)"
-       ],
-       "key": [
-        "Wezen",
-        "Saturn"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost"
-      }
-     ]
-    },
-    {
      "body": "Chiron",
      "cells": [
-      {
-       "text": "H Menkar → H Chiron RA 61.0102 61 whole (23.92)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Chiron"
-       ],
-       "field": "only"
-      },
       {
        "text": "H Murzim → H Chiron RA 111.1188 111.111 ninth (98.74)",
        "layer": "star rows",
@@ -10106,47 +8232,6 @@
        "key": [
         "Scheat",
         "Chiron"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost"
-      },
-      {
-       "text": "J Deneb → J Chiron Dec 28.9936 29 whole (45.92)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Chiron"
-       ],
-       "field": "also: 3 Anna Bunina / James Bowen"
-      }
-     ]
-    },
-    {
-     "body": "Gonggong",
-     "cells": [
-      {
-       "text": "H Menkar → H Gonggong RA 69.9912 70 whole (31.55)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Gonggong"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton"
-      },
-      {
-       "text": "J Deneb → J Gonggong RA 16.6678 16.6667 ninth (98.99)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb RA 1.4205 conj (0.28)"
-       ],
-       "key": [
-        "Deneb",
-        "Gonggong"
        ],
        "field": "also: 1 Miranda / Bryony Frost"
       }
@@ -10192,18 +8277,6 @@
        "field": "only"
       },
       {
-       "text": "J Menkar → J Mars Dec 7.9898 8 whole (24.16)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
-        "Mars"
-       ],
-       "field": "only"
-      },
-      {
        "text": "J Scheat → J Mars Dec 31.9843 32 whole (4.68)",
        "layer": "star rows",
        "source_lines": [
@@ -10226,6 +8299,55 @@
         "Mars"
        ],
        "field": "only"
+      }
+     ]
+    },
+    {
+     "body": "Saturn",
+     "cells": [
+      {
+       "text": "H Scheat → H Saturn Dec 44.0075 44 whole (39.06)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Scheat Dec 46.0028 46 whole (73.65)"
+       ],
+       "key": [
+        "Scheat",
+        "Saturn"
+       ],
+       "field": "also: 4 Dazzling Glory / Harry Skelton"
+      },
+      {
+       "text": "S Jupiter → J Saturn RA 118.0000 118 whole (99.90)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Jupiter",
+        "Saturn"
+       ],
+       "field": "also: 3 Anna Bunina / James Bowen"
+      },
+      {
+       "text": "S Moon → J Saturn RA 51.9990 52 whole (90.10)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Moon",
+        "Saturn"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Wezen → J Saturn Dec 13.0067 13 whole (44.01)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Wezen RA 155.3330 96×φ golden (89.39)"
+       ],
+       "key": [
+        "Wezen",
+        "Saturn"
+       ],
+       "field": "also: 1 Miranda / Bryony Frost"
       }
      ]
     },
@@ -10314,18 +8436,6 @@
        ],
        "key": [
         "Difda",
-        "Sedna"
-       ],
-       "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
-      },
-      {
-       "text": "J Menkar → J Sedna Dec 1.0088 1 whole (31.26)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar Dec 22.0070 22 whole (42.05)"
-       ],
-       "key": [
-        "Menkar",
         "Sedna"
        ],
        "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
@@ -10484,18 +8594,11 @@
     ],
     "3": [
      {
-      "label": "24 whole",
-      "cells": [
-       "S Moon → H Mercury Dec 24.0055 24 whole (52.78) = S Jupiter → Phact Dec 23.9930 24 whole (42.18)"
-      ],
-      "field": "also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton"
-     },
-     {
       "label": "100×φ^1 phi power",
       "cells": [
        "H Adhara → H Quaoar RA 161.8432 100×φ^1 phi power (90.39) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)"
       ],
-      "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
+      "field": "also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton"
      },
      {
       "label": "18.8889 ninth",
@@ -10509,14 +8612,7 @@
       "cells": [
        "J Castor → J Vesta Dec 13.3346 13.3333 ninth (98.50) = S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)"
       ],
-      "field": "also: 3 Anna Bunina / James Bowen"
-     },
-     {
-      "label": "26 whole",
-      "cells": [
-       "J Menkar → J Uranus Dec 26.0086 26 whole (32.50) = S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)"
-      ],
-      "field": "also: 2 Western Victory / Tom Bellamy"
+      "field": "only"
      },
      {
       "label": "11.1111 ninth",
@@ -10530,7 +8626,7 @@
       "cells": [
        "J Sadalsuud → J Orcus RA 161.8053 100×φ^1 phi power (99.53) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)"
       ],
-      "field": "also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
+      "field": "also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton"
      }
     ],
     "4": [
@@ -10547,13 +8643,6 @@
        "H Difda → H Orcus Dec 9.9930 10 whole (41.93)"
       ],
       "field": "also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
-     },
-     {
-      "label": "20 = 360/18",
-      "cells": [
-       "H Menkar → H Saturn Dec 20.0148 20 whole (6.78)"
-      ],
-      "field": "only"
      },
      {
       "label": "10 = 360/36",
@@ -10596,27 +8685,6 @@
        "J Difda → J Sun Dec 5.0085 5 whole (32.85)"
       ],
       "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy"
-     },
-     {
-      "label": "8 = 360/45",
-      "cells": [
-       "J Menkar → J Mars Dec 7.9898 8 whole (24.16)"
-      ],
-      "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
-     },
-     {
-      "label": "1 = 360/360",
-      "cells": [
-       "J Menkar → J Sedna Dec 1.0088 1 whole (31.26)"
-      ],
-      "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
-     },
-     {
-      "label": "10 = 360/36",
-      "cells": [
-       "J Phact → J Rahu RA 9.9834 10 whole (2.85)"
-      ],
-      "field": "also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton"
      }
     ],
     "5": [
@@ -10653,7 +8721,7 @@
        "H Adhara → H Quaoar RA 161.8432 100×φ^1 phi power (90.39)",
        "J Sadalsuud → J Orcus RA 161.8053 100×φ^1 phi power (99.53)"
       ],
-      "field": "also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton"
+      "field": "also: 4 Dazzling Glory / Harry Skelton"
      },
      {
       "label": "13 whole",
@@ -10668,14 +8736,6 @@
       "cells": [
        "H Alphard → H Makemake RA 50.0196 50 whole (0.04)",
        "J Scheat → J Uranus Dec 50.0031 50 whole (71.45)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "77×φ golden",
-      "cells": [
-       "H Alphard → H Quaoar RA 124.5997 77×φ golden (43.34)",
-       "J Deneb → J Rahu RA 124.5830 77×φ golden (68.35)"
       ],
       "field": "only"
      },
@@ -10696,27 +8756,10 @@
       "field": "only"
      },
      {
-      "label": "28 whole",
-      "cells": [
-       "H Deneb → H Neptune RA 27.9910 28 whole (30.25)",
-       "J Difda → J Sedna RA 27.9916 28 whole (33.73)"
-      ],
-      "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy"
-     },
-     {
       "label": "10 whole",
       "cells": [
        "H Difda → H Orcus Dec 9.9930 10 whole (41.93)",
-       "H Sadalsuud → H Quaoar Dec 9.9917 10 whole (34.14)",
-       "J Phact → J Rahu RA 9.9834 10 whole (2.85)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "75×φ golden",
-      "cells": [
-       "H Menkar → H Pluto RA 121.3361 75×φ golden (24.28)",
-       "H Phact → H Rahu RA 121.3396 75×φ golden (35.88)"
+       "H Sadalsuud → H Quaoar Dec 9.9917 10 whole (34.14)"
       ],
       "field": "only"
      },
@@ -10735,14 +8778,6 @@
        "J Difda → J Sun Dec 5.0085 5 whole (32.85)"
       ],
       "field": "also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy"
-     },
-     {
-      "label": "29 whole",
-      "cells": [
-       "J Deneb → J Chiron Dec 28.9936 29 whole (45.92)",
-       "J Murzim → J Orcus RA 29.0115 29 whole (17.98)"
-      ],
-      "field": "only"
      }
     ]
    }
@@ -10752,21 +8787,17 @@
   "hubs": [],
   "lines": [
    "S Jupiter → Moon RA 66.0010 66 whole (90.00)",
-   "S Jupiter → Phact Dec 23.9930 24 whole (42.18)",
    "S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)",
    "S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)",
    "S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)",
    "S Sun → Neptune RA 40.4536 25×φ golden (83.58)",
    "S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)",
    "S Sun → Difda Dec 0.0705 conj (58.51)",
-   "S Sun → Menkar Dec 22.0070 22 whole (42.05)",
    "S Sun → Murzim Dec 0.0394 conj (75.49)",
    "S Sun → Wezen RA 155.3330 96×φ golden (89.39)",
    "S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)",
-   "S Sun → Deneb RA 1.4205 conj (0.28)",
    "S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)",
    "S Sun → Scheat Dec 46.0028 46 whole (73.65)",
-   "S Moon → Mars RA 1.2062 conj (3.84)",
    "S Moon → Jupiter RA 66.0010 66 whole (90.00)"
   ]
  }

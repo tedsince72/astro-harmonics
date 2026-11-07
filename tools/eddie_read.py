@@ -25,8 +25,11 @@ Eddie's order (6 Nov 2026):
                        'locked line star on natal Jupiter' flag (natal and sky copy on the same number) is gone.
 
 Rules fixed here so the output repeats race to race (Claude's choices, 6 Nov 2026; change only with Eddie):
-  noted line   : a SKY block line of S Jupiter / Sun / Moon scoring >= 40 and exact within +-120 min of the off,
-                 or scoring >= 90 and applying at any time, or a conj (centre within RA 1.5 / Dec 0.3) at any score and time
+  noted line   : a SKY block line of S Jupiter / Sun / Moon (Eddie, 7 Nov 2026, from his Haydock 19 Feb 2022 list; was >= 40,
+                 any conj): a non-conj line scoring >= 50 and exact within +-120 min of the off, or scoring >= 90 and applying
+                 at any time; a conj (centre within RA 1.5 / Dec 0.3) scoring >= 20 at any time; a star line scoring 40-50
+                 within +-120 min when another centre reaches the same star with a noted line scoring >= 50 (Haydock
+                 Jupiter -> Diadem 47.74 with Moon -> Diadem 98.77; a body line never comes in this way: Sun -> Pluto 47.79)
   a cell counts: best family score >= 50 (conj too); star rows list every scoring cell (any score, as the sheet colours them)
   loose        : whole within +-0.03 of a whole 1-200, or a non-whole family whose first 3 significant digits
                  match truncated or rounded (values >= 0.3), the value also inside that family's own tolerance
@@ -54,7 +57,7 @@ import families as F  # noqa: E402
 
 CENTRES = ('Jupiter', 'Sun', 'Moon')
 SKY_SHEETS = (('SKY JUPITER', 'Jupiter'), ('SKY SUN', 'Sun'), ('SKY MOON', 'Moon'))
-NOTE_MIN, NOTE_WIN, NOTE_APPLY, CONJ_MIN = 40, 120, 90, 0
+NOTE_MIN, NOTE_WIN, NOTE_APPLY, CONJ_MIN, HUB_STAR_MIN = 50, 120, 90, 20, 40
 CELL_MIN, STAR_HI, CONJ_LIST = 50, 0, 0
 ORIG_DIGIT = F.digit_match
 
@@ -205,10 +208,15 @@ def read(path):
     bodies = [k[2] for k in P if k[0] == runners[0] and k[1] == 'H' and kinds.get(k[2]) == 'body' and k[2] != 'Moon']
 
     def noted(l):
+        if l['family'] == 'conj':
+            return l['score'] >= CONJ_MIN
         return ((l['score'] >= NOTE_MIN and mins(l['timing']) <= NOTE_WIN)
-                or (l['score'] >= NOTE_APPLY and 'applying' in l['timing'])
-                or (l['family'] == 'conj' and l['score'] >= CONJ_MIN))
-    lines = [l for l in sky if noted(l)]
+                or (l['score'] >= NOTE_APPLY and 'applying' in l['timing']))
+    base = [l for l in sky if noted(l)]
+    strong_pt = {(l['point'], l['centre']) for l in base if l['score'] >= NOTE_MIN}
+    lines = [l for l in sky if l in base or (
+        l['family'] != 'conj' and kinds.get(l['point']) == 'star' and HUB_STAR_MIN <= l['score'] < NOTE_MIN
+        and mins(l['timing']) <= NOTE_WIN and any(p == l['point'] and c != l['centre'] for p, c in strong_pt))]
     pts_by_centre = defaultdict(set)
     for l in lines:
         pts_by_centre[l['point']].add(l['centre'])

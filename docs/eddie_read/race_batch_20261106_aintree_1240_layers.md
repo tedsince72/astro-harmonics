@@ -10,19 +10,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Jupiter → Orcus RA 14.5618 9×φ golden (96.78)
 - S Jupiter → Capella Dec 31.9990 32 whole (89.78)
 - S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
-- S Jupiter → Ketu RA 1.4795 conj (0.02)
 - S Sun → Haumea RA 0.5461 conj (40.44)
 - S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
-- S Sun → Sirius RA 119.9934 120 whole (45.12)
-- S Sun → Adhara Dec 13.0066 13 whole (44.85)
-- S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
 - S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
-- S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
 - S Moon → Haumea Dec 22.0001 22 whole (98.85)
 - S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
 - S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
 - S Moon → Alphard Dec 0.0111 conj (92.71)
-- S Moon → Algorab RA 1.3493 conj (1.01)
 - S Moon → Nunki RA 95.0039 95 whole (65.03)
 - Hubs: Alphard, Haumea
 
@@ -48,10 +42,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Alhena → H Sun Dec 1.0099 1 whole (25.72)
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - star rows: H Zubenelgenubi → H Sun RA 176.3914 109×φ golden (4.28)
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
-  - other chart, star rows: J Adhara → J Sun RA 52.9907 53 whole (28.81)
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - other chart, star rows: J Capella → J Sun RA 27.5033 17×φ golden (80.70)
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
   - other chart, star rows: J Nunki → J Sun RA 127.8413 79×φ golden (23.73)
@@ -63,20 +54,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - other chart, same body: S Ceres → J Ceres RA 161.6028 100×φ^1 phi power (loose)
   - other chart, same body: S Ceres → J Ceres Dec 48.0257 48 whole (loose)
-  - other chart, star rows: J Algorab → J Ceres RA 125.9896 126 whole (23.22)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - other chart, star rows: J Bellatrix → J Ceres RA 127.8179 79×φ golden (62.70)
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
 - **H Pallas** (same body: S Pallas → H Pallas Dec 27.0037 27 whole (66.16))
   - top rows: S Sun → H Pallas RA 122.9687 φ^10 phi power (92.61)
-  - other chart, star rows: J Algorab → J Pallas Dec 38.8350 24×φ golden (86.91)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - other chart, star rows: J Alphard → J Pallas RA 132.9928 133 whole (41.09)
     - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
     - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
 - **H Rahu** (same body: S Rahu → H Rahu RA 100.3364 62×φ golden (19.02))
-  - star rows: H Adhara → H Rahu Dec 51.0001 51 whole (99.36)
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - other chart, star rows: J Bellatrix → J Rahu RA 169.8742 105×φ golden (16.19)
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
 - **H Orcus** (same body: S Orcus → H Orcus RA 6.8541 φ^4 phi power (99.92))
@@ -88,52 +73,31 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
   - other chart, same body: S Orcus → J Orcus Dec 17.0224 17 whole (loose)
 - **H Ketu** (same body: S Ketu → H Ketu RA 100.3364 62×φ golden (19.02))
-  - sky line to Ketu: S Jupiter → Ketu RA 1.4795 conj (0.02)
   - star rows: H Zubenelgenubi → H Ketu Dec 5.9807 6 whole (0.14)
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
 - **J Mercury** (same body: S Mercury → J Mercury RA 177.1397 177.778 ninth (loose))
-  - other chart, star rows: H Algorab → H Mercury RA 121.0064 121 whole (46.00)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
 - **J Saturn** (same body: S Saturn → J Saturn Dec 17.0291 17 whole (loose))
   - top rows: S Sun → J Saturn Dec 0.1219 conj (35.23)
-  - star rows: J Deneb Algedi → J Saturn Dec 0.0427 conj (73.57)
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - star rows: J Zubenelgenubi → J Saturn Dec 0.0405 conj (74.82)
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
   - other chart, star rows: H Zubenelgenubi → H Saturn RA 92.9852 93 whole (6.64)
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
 - **J Uranus** (same body: S Uranus → J Uranus RA 132.6682 82×φ golden (45.10))
-  - star rows: J Algorab → J Uranus RA 101.9933 102 whole (43.97)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - star rows: J Alphard → J Uranus Dec 13.9930 14 whole (42.44)
     - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
     - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
   - star rows: J Bellatrix → J Uranus Dec 29.0025 29 whole (76.65)
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - other chart, star rows: H Adhara → H Uranus Dec 43.6816 27×φ golden (69.81)
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
-  - other chart, star rows: H Algorab → H Uranus RA 148.8757 92×φ golden (23.85)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - other chart, star rows: H Ankaa → H Uranus Dec 57.0128 57 whole (13.02)
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
   - other chart, star rows: H Nunki → H Uranus Dec 41.0026 41 whole (76.00)
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
   - other chart, star rows: H Zubenelgenubi → H Uranus Dec 30.7499 19×φ golden (60.13)
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
 - **J Chiron** (same body: S Chiron → J Chiron Dec 1.9724 2 whole (loose))
-  - star rows: J Algorab → J Chiron RA 61.9954 62 whole (59.63)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - other chart, star rows: H Bellatrix → H Chiron Dec 0.0759 conj (55.79)
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - other chart, star rows: H Sirius → H Chiron RA 92.2284 57×φ golden (97.39)
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **J Ceres** (same body: S Ceres → J Ceres RA 161.6028 100×φ^1 phi power (loose); S Ceres → J Ceres Dec 48.0257 48 whole (loose))
-  - star rows: J Algorab → J Ceres RA 125.9896 126 whole (23.22)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - star rows: J Bellatrix → J Ceres RA 127.8179 79×φ golden (62.70)
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
   - other chart, same body: S Ceres → H Ceres Dec 19.0156 19 whole (4.77)
@@ -175,16 +139,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **3. runner number = sky number**
   - 177.778 ninth — also: 3 Avide / Theo Gillard
     - S Mercury → J Mercury RA 177.1397 177.778 ninth (loose) = S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
-  - 13 whole — also: 2 Aqua Bleu / Sean Bowen
-    - J Jupiter → J Makemake RA 12.9975 13 whole (76.13) = S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - 95 whole — only
     - J Alphard → J Quaoar RA 95.0023 95 whole (78.17) = S Moon → Nunki RA 95.0039 95 whole (65.03)
 - **4. circle divisions**
-  - 1 = 360/360 — also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
+  - 1 = 360/360 — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
     - H Alhena → H Sun Dec 1.0099 1 whole (25.72)
   - 12 = 360/30 — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
     - H Zubenelgenubi → H Neptune Dec 11.9910 12 whole (30.46)
-  - 6 = 360/60 — also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard
+  - 6 = 360/60 — also: 2 Aqua Bleu / Sean Bowen
     - H Zubenelgenubi → H Ketu Dec 5.9807 6 whole (0.14)
   - 2 = 360/180 — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
     - S Chiron → J Chiron Dec 1.9724 2 whole (loose)
@@ -192,7 +154,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Moon → J Quaoar Dec 4.9999 5 whole (98.76)
   - 5 = 360/72 — also: 2 Aqua Bleu / Sean Bowen
     - J Alphard → J Quaoar Dec 4.9838 5 whole (3.68)
-  - 20 = 360/18 — also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard
+  - 20 = 360/18 — also: 3 Avide / Theo Gillard
     - J Bellatrix → J Quaoar Dec 19.9933 20 whole (44.21)
   - 36 = 360/10 — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
     - J Capella → J Sedna RA 35.9978 36 whole (79.09)
@@ -210,9 +172,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 57 whole — only
     - H Ankaa → H Uranus Dec 57.0128 57 whole (13.02)
     - H Capella → H Orcus Dec 57.0040 57 whole (64.32)
-  - 17×φ golden — only
-    - H Sirius → H Transpluto Dec 27.5098 17×φ golden (81.19)
-    - J Capella → J Sun RA 27.5033 17×φ golden (80.70)
   - 17 whole — only
     - S Saturn → J Saturn Dec 17.0291 17 whole (loose)
     - S Orcus → J Orcus Dec 17.0224 17 whole (loose)
@@ -228,10 +187,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Alhena → H Sun Dec 1.0099 1 whole (25.72) — only
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - star rows: H Zubenelgenubi → H Sun RA 176.3914 109×φ golden (4.28) — only
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
-  - star rows: J Adhara → J Sun RA 52.9907 53 whole (28.81) — only
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - star rows: J Capella → J Sun RA 27.5033 17×φ golden (80.70) — also: 3 Avide / Theo Gillard
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
   - star rows: J Nunki → J Sun RA 127.8413 79×φ golden (23.73) — also: 4 Risky Obsession / Harry Skelton
@@ -245,22 +201,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - same body: S Ceres → J Ceres RA 161.6028 100×φ^1 phi power (loose) — also: 4 Risky Obsession / Harry Skelton
   - same body: S Ceres → J Ceres Dec 48.0257 48 whole (loose) — also: 4 Risky Obsession / Harry Skelton
-  - star rows: J Algorab → J Ceres RA 125.9896 126 whole (23.22) — also: 3 Avide / Theo Gillard
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - star rows: J Bellatrix → J Ceres RA 127.8179 79×φ golden (62.70) — also: 3 Avide / Theo Gillard
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
 - **Pallas**
   - same body: S Pallas → H Pallas Dec 27.0037 27 whole (66.16) — only
   - top rows: S Sun → H Pallas RA 122.9687 φ^10 phi power (92.61) — only
-  - star rows: J Algorab → J Pallas Dec 38.8350 24×φ golden (86.91) — only
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - star rows: J Alphard → J Pallas RA 132.9928 133 whole (41.09) — also: 3 Avide / Theo Gillard
     - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
     - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
 - **Rahu**
   - same body: S Rahu → H Rahu RA 100.3364 62×φ golden (19.02) — also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard
-  - star rows: H Adhara → H Rahu Dec 51.0001 51 whole (99.36) — only
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - star rows: J Bellatrix → J Rahu RA 169.8742 105×φ golden (16.19) — only
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
 - **Orcus**
@@ -275,9 +225,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Orcus RA 14.5618 9×φ golden (96.78)
 - **Ketu**
   - same body: S Ketu → H Ketu RA 100.3364 62×φ golden (19.02) — also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard
-    - source line: S Jupiter → Ketu RA 1.4795 conj (0.02)
   - star rows: H Zubenelgenubi → H Ketu Dec 5.9807 6 whole (0.14) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
 - **Jupiter**
   - top rows: S Venus → H Jupiter Dec 0.0646 conj (61.57) — also: 3 Avide / Theo Gillard
@@ -286,88 +234,23 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - star rows: S Ankaa → H Jupiter RA 34.9892 35 whole (21.37) — also: 2 Aqua Bleu / Sean Bowen
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
-  - star rows: S Sirius → H Jupiter Dec 4.2361 φ^3 phi power (99.90) — also: 3 Avide / Theo Gillard
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
-  - T2: J Jupiter → J star Bellatrix RA 76.0436 47×φ golden (76.75) — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
+  - T2: J Jupiter → J star Bellatrix RA 76.0436 47×φ golden (76.75) — also: 4 Risky Obsession / Harry Skelton
   - top rows: S Chiron → J Jupiter Dec 0.1504 conj (24.87) — also: 4 Risky Obsession / Harry Skelton
   - top rows: S Pallas → J Jupiter RA 142.3907 88×φ golden (78.25) — only
   - top rows: S Transpluto → J Jupiter RA 0.6145 conj (34.85) — only
   - star rows: J Bellatrix → J Jupiter RA 76.0436 47×φ golden (76.75) — also: 2 Aqua Bleu / Sean Bowen
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-- **Uranus**
-  - star rows: H Adhara → H Uranus Dec 43.6816 27×φ golden (69.81) — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
-  - star rows: H Algorab → H Uranus RA 148.8757 92×φ golden (23.85) — also: 3 Avide / Theo Gillard
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - star rows: H Ankaa → H Uranus Dec 57.0128 57 whole (13.02) — also: 3 Avide / Theo Gillard
+- **Mars**
+  - star rows: H Alhena → H Mars RA 0.9583 conj (13.04) — also: 2 Aqua Bleu / Sean Bowen
+    - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
+  - star rows: J Ankaa → J Mars RA 0.0979 conj (87.38) — also: 4 Risky Obsession / Harry Skelton
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
-  - star rows: H Nunki → H Uranus Dec 41.0026 41 whole (76.00) — also: 3 Avide / Theo Gillard
-    - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
-  - star rows: H Zubenelgenubi → H Uranus Dec 30.7499 19×φ golden (60.13) — only
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
-    - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
-  - same body: S Uranus → J Uranus RA 132.6682 82×φ golden (45.10) — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
-  - star rows: J Algorab → J Uranus RA 101.9933 102 whole (43.97) — also: 3 Avide / Theo Gillard
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - star rows: J Alphard → J Uranus Dec 13.9930 14 whole (42.44) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
-    - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
-  - star rows: J Bellatrix → J Uranus Dec 29.0025 29 whole (76.65) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
 - **Haumea**
-  - star rows: H Adhara → H Haumea RA 110.9295 10×φ^5 phi power (90.23) — only
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - star rows: H Alhena → H Haumea Dec 0.1078 conj (41.03) — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - star rows: H Ankaa → H Haumea RA 150.9853 151 whole (7.07) — also: 3 Avide / Theo Gillard
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
-  - star rows: H Deneb Algedi → H Haumea RA 111.1788 111.111 ninth (88.92) — also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
-  - star rows: H Sirius → H Haumea Dec 33.0168 33 whole (2.57) — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
   - top rows: S Moon → J Haumea RA 0.1521 conj (80.75) — only
-  - star rows: J Adhara → J Haumea RA 84.0048 84 whole (57.67) — only
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
-  - star rows: J Algorab → J Haumea RA 1.1869 conj (4.36) — also: 4 Risky Obsession / Harry Skelton
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - star rows: J Sirius → J Haumea RA 87.3729 54×φ golden (94.08) — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
-- **Mercury**
-  - star rows: H Algorab → H Mercury RA 121.0064 121 whole (46.00) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - same body: S Mercury → J Mercury RA 177.1397 177.778 ninth (loose) — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
-- **Venus**
-  - star rows: H Algorab → H Venus RA 129.4209 80×φ golden (10.63) — also: 3 Avide / Theo Gillard
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - star rows: J Zubenelgenubi → J Venus RA 178.9985 179 whole (85.99) — also: 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
-    - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
-- **Eris**
-  - star rows: H Algorab → H Eris RA 161.0093 161 whole (28.81) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - top rows: S Moon → J Eris Dec 0.0558 conj (66.27) — only
-  - star rows: J Alhena → J Eris Dec 24.9881 25 whole (16.59) — also: 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
-  - star rows: J Alphard → J Eris RA 118.9912 119 whole (31.16) — only
-    - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
-    - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
-  - star rows: J Alphard → J Eris Dec 0.0718 conj (57.85) — only
-    - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
-    - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
-  - star rows: J Zubenelgenubi → J Eris RA 160.1800 99×φ golden (69.50) — only
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
-    - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
-- **Mars**
-  - star rows: H Alhena → H Mars RA 0.9583 conj (13.04) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
-  - star rows: H Sirius → H Mars RA 0.8975 conj (16.14) — also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
-  - star rows: J Adhara → J Mars RA 97.9889 98 whole (19.89) — only
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
-  - star rows: J Algorab → J Mars Dec 17.9403 φ^6 phi power (91.40) — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - star rows: J Ankaa → J Mars RA 0.0979 conj (87.38) — also: 4 Risky Obsession / Harry Skelton
-    - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
 - **Gonggong**
   - star rows: H Alhena → H Gonggong RA 122.2096 122.222 ninth (98.25) — only
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
@@ -375,42 +258,38 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
   - star rows: H Nunki → H Gonggong RA 53.3947 33×φ golden (97.54) — only
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
+- **Uranus**
+  - star rows: H Ankaa → H Uranus Dec 57.0128 57 whole (13.02) — also: 3 Avide / Theo Gillard
+    - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
+  - star rows: H Nunki → H Uranus Dec 41.0026 41 whole (76.00) — also: 3 Avide / Theo Gillard
+    - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
+  - star rows: H Zubenelgenubi → H Uranus Dec 30.7499 19×φ golden (60.13) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
+  - same body: S Uranus → J Uranus RA 132.6682 82×φ golden (45.10) — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
+  - star rows: J Alphard → J Uranus Dec 13.9930 14 whole (42.44) — also: 2 Aqua Bleu / Sean Bowen
+    - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
+    - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
+  - star rows: J Bellatrix → J Uranus Dec 29.0025 29 whole (76.65) — also: 2 Aqua Bleu / Sean Bowen
+    - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
 - **Chiron**
   - star rows: H Bellatrix → H Chiron Dec 0.0759 conj (55.79) — only
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - star rows: H Sirius → H Chiron RA 92.2284 57×φ golden (97.39) — only
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
   - same body: S Chiron → J Chiron Dec 1.9724 2 whole (loose) — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
-  - star rows: J Algorab → J Chiron RA 61.9954 62 whole (59.63) — also: 3 Avide / Theo Gillard
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
 - **Makemake**
   - star rows: H Capella → H Makemake RA 117.9993 118 whole (92.91) — only
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
-  - T2: J Jupiter → J Makemake RA 12.9975 13 whole (76.13) — only
-  - star rows: J Algorab → J Makemake Dec 52.0185 52 whole (0.56) — also: 3 Avide / Theo Gillard
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-- **Transpluto**
-  - star rows: H Sirius → H Transpluto Dec 27.5098 17×φ golden (81.19) — also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
-  - top rows: S Jupiter → J Transpluto Dec 0.1814 conj (15.62) — also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
-  - top rows: S Moon → J Transpluto RA 44.4432 44.4444 ninth (98.72) — only
-  - star rows: J Alhena → J Transpluto Dec 2.2229 2.22222 ninth (91.28) — also: 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
 - **Saturn**
   - star rows: H Zubenelgenubi → H Saturn RA 92.9852 93 whole (6.64) — also: 3 Avide / Theo Gillard
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
   - same body: S Saturn → J Saturn Dec 17.0291 17 whole (loose) — also: 2 Aqua Bleu / Sean Bowen
   - top rows: S Sun → J Saturn Dec 0.1219 conj (35.23) — also: 3 Avide / Theo Gillard
-  - star rows: J Deneb Algedi → J Saturn Dec 0.0427 conj (73.57) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - star rows: J Zubenelgenubi → J Saturn Dec 0.0405 conj (74.82) — also: 3 Avide / Theo Gillard
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
 - **Neptune**
   - star rows: H Zubenelgenubi → H Neptune Dec 11.9910 12 whole (30.46) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
+- **Mercury**
+  - same body: S Mercury → J Mercury RA 177.1397 177.778 ninth (loose) — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
 - **Quaoar**
   - same body: S Quaoar → J Quaoar RA 44.0136 44 whole (10.14) — also: 4 Risky Obsession / Harry Skelton
   - top rows: S Moon → J Quaoar Dec 4.9999 5 whole (98.76) — only
@@ -424,14 +303,32 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
   - star rows: J Nunki → J Quaoar RA 46.9215 29×φ golden (91.28) — also: 2 Aqua Bleu / Sean Bowen
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
-- **Sedna**
-  - star rows: J Adhara → J Sedna RA 61.4852 38×φ golden (99.64) — also: 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
-  - star rows: J Capella → J Sedna RA 35.9978 36 whole (79.09) — only
-    - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
+- **Transpluto**
+  - top rows: S Jupiter → J Transpluto Dec 0.1814 conj (15.62) — also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
+  - top rows: S Moon → J Transpluto RA 44.4432 44.4444 ninth (98.72) — only
+  - star rows: J Alhena → J Transpluto Dec 2.2229 2.22222 ninth (91.28) — also: 4 Risky Obsession / Harry Skelton
+    - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
+- **Eris**
+  - top rows: S Moon → J Eris Dec 0.0558 conj (66.27) — only
+  - star rows: J Alhena → J Eris Dec 24.9881 25 whole (16.59) — also: 4 Risky Obsession / Harry Skelton
+    - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
+  - star rows: J Alphard → J Eris RA 118.9912 119 whole (31.16) — only
+    - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
+    - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
+  - star rows: J Alphard → J Eris Dec 0.0718 conj (57.85) — only
+    - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
+    - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
+  - star rows: J Zubenelgenubi → J Eris RA 160.1800 99×φ golden (69.50) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
 - **Juno**
   - star rows: J Bellatrix → J Juno Dec 0.1275 conj (33.07) — also: 3 Avide / Theo Gillard
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
+- **Sedna**
+  - star rows: J Capella → J Sedna RA 35.9978 36 whole (79.09) — only
+    - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
+- **Venus**
+  - star rows: J Zubenelgenubi → J Venus RA 178.9985 179 whole (85.99) — also: 4 Risky Obsession / Harry Skelton
+    - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
 
 ## 2 Aqua Bleu / Sean Bowen
 ### L1 same bodies
@@ -460,53 +357,34 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Ketu → J Ketu RA 158.0213 158 whole (loose)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun RA 144.9880 145 whole (16.10))
-  - star rows: H Algorab → H Sun RA 111.1749 111.111 ninth (89.57)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - star rows: H Bellatrix → H Sun RA 4.9854 5 whole (7.38)
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - star rows: H Sirius → H Sun RA 24.9865 25 whole (10.65)
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
   - other chart, same body: S Sun → J Sun Dec 22.6418 14×φ golden (loose)
   - other chart, star rows: J Ankaa → J Sun Dec 48.9827 49 whole (1.89)
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
 - **H Mercury** (same body: S Mercury → H Mercury RA 161.6129 100×φ^1 phi power (loose))
   - top rows: S Moon → H Mercury RA 133.3679 133.333 ninth (95.85)
   - top rows: S Moon → H Mercury Dec 24.1452 24.14 silver (94.99)
-  - star rows: H Algorab → H Mercury Dec 32.0187 32 whole (0.43)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - star rows: H Alhena → H Mercury RA 43.9813 44 whole (0.43)
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - other chart, star rows: J Alhena → J Mercury Dec 8.9912 9 whole (31.30)
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
 - **H Venus** (same body: S Venus → H Venus Dec 26.1512 10×φ^2 phi power (loose))
   - top rows: S Jupiter → H Venus Dec 0.2654 conj (1.33)
-  - star rows: H Adhara → H Venus RA 64.0039 64 whole (64.66)
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
-  - other chart, star rows: J Adhara → J Venus Dec 20.0153 20 whole (5.49)
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - other chart, star rows: J Alphard → J Venus Dec 0.2966 conj (0.01)
     - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
     - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
   - other chart, star rows: J Capella → J Venus RA 121.3784 75×φ golden (4.04)
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
-  - other chart, star rows: J Deneb Algedi → J Venus RA 126.2154 78×φ golden (53.46)
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
 - **H Mars** (same body: S Mars → H Mars RA 133.6337 133.333 ninth (loose))
-  - star rows: H Algorab → H Mars Dec 19.0103 19 whole (23.32)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - other chart, same body: S Mars → J Mars Dec 33.0218 33 whole (loose)
   - other chart, top rows: S Sun → J Mars RA 0.1269 conj (83.80)
   - other chart, star rows: J Alhena → J Mars RA 121.9811 122 whole (0.31)
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
-  - other chart, star rows: J Sirius → J Mars Dec 0.1808 conj (15.78)
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
   - other chart, star rows: J Zubenelgenubi → J Mars RA 1.3104 conj (1.60)
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
 - **H Jupiter** (same body: S Jupiter → H Jupiter Dec 13.2808 13.3333 ninth (loose))
   - top rows: S Saturn → H Jupiter Dec 0.2313 conj (5.25)
-  - star rows: S Adhara → H Jupiter RA 99.9991 100 ninth (99.40)
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - star rows: H Ankaa → H Jupiter Dec 43.0191 43 whole (0.20)
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
   - star rows: H Nunki → H Jupiter Dec 27.0105 27 whole (22.57)
@@ -519,12 +397,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Chiron** (same body: S Chiron → H Chiron RA 11.9937 12 whole (46.73))
   - star rows: H Alhena → H Chiron RA 85.9824 86 whole (1.48)
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
-  - star rows: H Deneb Algedi → H Chiron Dec 23.9863 24 whole (9.99)
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - other chart, same body: S Chiron → J Chiron RA 177.0047 177 whole (58.82)
   - other chart, top rows: S Sun → J Chiron Dec 4.9997 5 whole (96.67)
-  - other chart, star rows: J Adhara → J Chiron Dec 18.0059 18 whole (49.46)
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - other chart, star rows: J Alhena → J Chiron RA 109.0037 109 whole (66.10)
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
 - **H Rahu** (same body: S Rahu → H Rahu RA 80.9195 50×φ golden (loose); S Rahu → H Rahu Dec 30.9756 31 whole (loose))
@@ -538,42 +412,29 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Alhena → J Sedna Dec 11.3255 7×φ golden (95.27)
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
 - **H Ketu** (same body: S Ketu → H Ketu RA 80.9195 50×φ golden (loose); S Ketu → H Ketu Dec 30.9756 31 whole (loose))
-  - sky line to Ketu: S Jupiter → Ketu RA 1.4795 conj (0.02)
   - other chart, same body: S Ketu → J Ketu RA 158.0213 158 whole (loose)
   - other chart, star rows: J Ankaa → J Ketu RA 15.9997 16 whole (97.43)
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
   - other chart, star rows: J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20)
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
 - **J Sun** (same body: S Sun → J Sun Dec 22.6418 14×φ golden (loose))
   - star rows: J Ankaa → J Sun Dec 48.9827 49 whole (1.89)
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
   - other chart, same body: S Sun → H Sun RA 144.9880 145 whole (16.10)
-  - other chart, star rows: H Algorab → H Sun RA 111.1749 111.111 ninth (89.57)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - other chart, star rows: H Bellatrix → H Sun RA 4.9854 5 whole (7.38)
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - other chart, star rows: H Sirius → H Sun RA 24.9865 25 whole (10.65)
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **J Mars** (same body: S Mars → J Mars Dec 33.0218 33 whole (loose))
   - top rows: S Sun → J Mars RA 0.1269 conj (83.80)
   - star rows: J Alhena → J Mars RA 121.9811 122 whole (0.31)
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
-  - star rows: J Sirius → J Mars Dec 0.1808 conj (15.78)
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
   - star rows: J Zubenelgenubi → J Mars RA 1.3104 conj (1.60)
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
   - other chart, same body: S Mars → H Mars RA 133.6337 133.333 ninth (loose)
-  - other chart, star rows: H Algorab → H Mars Dec 19.0103 19 whole (23.32)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
 - **J Saturn** (same body: S Saturn → J Saturn RA 9.9926 10 whole (39.60); S Saturn → J Saturn Dec 4.1443 4.14 silver (loose))
   - star rows: J Alphard → J Saturn RA 122.9668 φ^10 phi power (92.00)
     - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
     - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
   - other chart, T1: H Jupiter → H Saturn Dec 14.9956 15 whole (60.63)
-  - other chart, star rows: H Deneb Algedi → H Saturn RA 0.8449 conj (19.07)
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - other chart, star rows: H Nunki → H Saturn Dec 12.0149 12 whole (6.44)
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
 - **J Pluto** (same body: S Pluto → J Pluto Dec 15.0207 15 whole (loose))
@@ -584,8 +445,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
   - star rows: J Bellatrix → J Pluto Dec 15.0140 15 whole (9.09)
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - other chart, star rows: H Algorab → H Pluto RA 113.0047 113 whole (58.24)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - other chart, star rows: H Alhena → H Pluto Dec 38.9851 39 whole (6.60)
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - other chart, star rows: H Alphard → H Pluto RA 158.5771 98×φ golden (48.90)
@@ -593,15 +452,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
 - **J Chiron** (same body: S Chiron → J Chiron RA 177.0047 177 whole (58.82))
   - top rows: S Sun → J Chiron Dec 4.9997 5 whole (96.67)
-  - star rows: J Adhara → J Chiron Dec 18.0059 18 whole (49.46)
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - star rows: J Alhena → J Chiron RA 109.0037 109 whole (66.10)
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - other chart, same body: S Chiron → H Chiron RA 11.9937 12 whole (46.73)
   - other chart, star rows: H Alhena → H Chiron RA 85.9824 86 whole (1.48)
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
-  - other chart, star rows: H Deneb Algedi → H Chiron Dec 23.9863 24 whole (9.99)
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
 - **J Rahu** (same body: S Rahu → J Rahu RA 158.0213 158 whole (loose))
   - star rows: J Ankaa → J Rahu RA 164.0003 164 whole (97.43)
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
@@ -612,13 +467,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Haumea** (same body: S Haumea → J Haumea RA 26.9741 27 whole (loose))
   - sky line to Haumea: S Sun → Haumea RA 0.5461 conj (40.44)
   - sky line to Haumea: S Moon → Haumea Dec 22.0001 22 whole (98.85)
-  - star rows: J Deneb Algedi → J Haumea RA 133.0056 133 whole (52.17)
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - other chart, star rows: H Capella → H Haumea Dec 30.0088 30 whole (31.60)
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 13.0021 13 whole (80.03))
   - other chart, star rows: H Zubenelgenubi → H Makemake Dec 38.9928 39 whole (40.98)
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 14.0905 14.14 sqrt2 (loose))
   - sky line to Orcus: S Jupiter → Orcus RA 14.5618 9×φ golden (96.78)
@@ -630,25 +482,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Nunki → H Orcus Dec 15.0187 15 whole (0.45)
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
   - other chart, star rows: H Zubenelgenubi → H Orcus RA 66.9871 67 whole (12.47)
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
 - **J Gonggong** (same body: S Gonggong → J Gonggong RA 5.9788 6 whole (loose))
   - top rows: S Moon → J Gonggong RA 142.3795 88×φ golden (58.96)
   - star rows: J Capella → J Gonggong RA 107.9827 108 whole (1.76)
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
   - star rows: J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19)
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
-  - other chart, star rows: H Adhara → H Gonggong Dec 17.9962 18 whole (66.00)
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
-  - other chart, star rows: H Algorab → H Gonggong RA 149.9851 150 whole (6.52)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
 - **J Ketu** (same body: S Ketu → J Ketu RA 158.0213 158 whole (loose))
-  - sky line to Ketu: S Jupiter → Ketu RA 1.4795 conj (0.02)
   - star rows: J Ankaa → J Ketu RA 15.9997 16 whole (97.43)
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
   - star rows: J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20)
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
   - other chart, same body: S Ketu → H Ketu RA 80.9195 50×φ golden (loose)
   - other chart, same body: S Ketu → H Ketu Dec 30.9756 31 whole (loose)
@@ -684,18 +528,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **3. runner number = sky number**
   - 15 whole — only
     - H Jupiter → H Saturn Dec 14.9956 15 whole (60.63) = S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - 32 whole — also: 3 Avide / Theo Gillard
-    - H Algorab → H Mercury Dec 32.0187 32 whole (0.43) = S Jupiter → Capella Dec 31.9990 32 whole (89.78)
   - 15 whole — only
     - H Nunki → H Orcus Dec 15.0187 15 whole (0.45) = S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - 13 whole — also: 1 Watery Borren / Derek Fox
-    - H Zubenelgenubi → H Neptune Dec 12.9984 13 whole (84.46) = S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - 14×φ golden — only
     - S Sun → J Sun Dec 22.6418 14×φ golden (loose) = S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
   - 15 whole — only
     - S Pluto → J Pluto Dec 15.0207 15 whole (loose) = S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - 13 whole — also: 1 Watery Borren / Derek Fox
-    - S Makemake → J Makemake Dec 13.0021 13 whole (80.03) = S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - 14×φ golden — only
     - S Jupiter → J Pluto Dec 22.6576 14×φ golden (70.94) = S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
   - 15 whole — only
@@ -705,20 +543,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Chiron → H Chiron RA 11.9937 12 whole (46.73)
   - 15 = 360/24 — only
     - H Jupiter → H Saturn Dec 14.9956 15 whole (60.63)
-  - 18 = 360/20 — only
-    - H Adhara → H Gonggong Dec 17.9962 18 whole (66.00)
-  - 30 = 360/12 — also: 3 Avide / Theo Gillard
+  - 30 = 360/12 — only
     - H Alhena → H Vesta Dec 30.0167 30 whole (2.73)
   - 90 = 360/4 — only
     - H Ankaa → H Quaoar RA 89.9822 90 whole (1.25)
   - 5 = 360/72 — also: 1 Watery Borren / Derek Fox
     - H Bellatrix → H Sun RA 4.9854 5 whole (7.38)
-  - 30 = 360/12 — also: 3 Avide / Theo Gillard
+  - 30 = 360/12 — only
     - H Capella → H Haumea Dec 30.0088 30 whole (31.60)
-  - 24 = 360/15 — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
-    - H Deneb Algedi → H Chiron Dec 23.9863 24 whole (9.99)
-  - 1 = 360/360 — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
-    - H Deneb Algedi → H Quaoar Dec 0.9977 1 whole (78.42)
   - 12 = 360/30 — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
     - H Nunki → H Saturn Dec 12.0149 12 whole (6.44)
   - 15 = 360/24 — only
@@ -727,17 +559,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Saturn → J Saturn RA 9.9926 10 whole (39.60)
   - 15 = 360/24 — only
     - S Pluto → J Pluto Dec 15.0207 15 whole (loose)
-  - 6 = 360/60 — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard
+  - 6 = 360/60 — also: 1 Watery Borren / Derek Fox
     - S Gonggong → J Gonggong RA 5.9788 6 whole (loose)
   - 5 = 360/72 — also: 1 Watery Borren / Derek Fox
     - S Sun → J Chiron Dec 4.9997 5 whole (96.67)
-  - 20 = 360/18 — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard
-    - J Adhara → J Venus Dec 20.0153 20 whole (5.49)
-  - 18 = 360/20 — only
-    - J Adhara → J Chiron Dec 18.0059 18 whole (49.46)
-  - 9 = 360/40 — also: 3 Avide / Theo Gillard
-    - J Algorab → J Eris Dec 9.0165 9 whole (3.05)
-  - 9 = 360/40 — also: 3 Avide / Theo Gillard
+  - 9 = 360/40 — only
     - J Alhena → J Mercury Dec 8.9912 9 whole (31.30)
   - 24 = 360/15 — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
     - J Bellatrix → J Jupiter Dec 23.9871 24 whole (12.67)
@@ -745,8 +571,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Bellatrix → J Pluto Dec 15.0140 15 whole (9.09)
   - 12 = 360/30 — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
     - J Nunki → J Quaoar Dec 11.9909 12 whole (29.78)
-  - 30 = 360/12 — also: 3 Avide / Theo Gillard
-    - J Sirius → J Transpluto Dec 30.0030 30 whole (72.17)
   - 2 = 360/180 — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
     - J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19)
   - 12 = 360/30 — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
@@ -772,40 +596,24 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Nunki → H Orcus Dec 15.0187 15 whole (0.45)
     - S Pluto → J Pluto Dec 15.0207 15 whole (loose)
     - J Bellatrix → J Pluto Dec 15.0140 15 whole (9.09)
-  - 100 ninth — only
-    - H Jupiter → H star Adhara RA 99.9901 100 ninth (93.41)
-    - S Adhara → H Jupiter RA 99.9991 100 ninth (99.40)
   - 67 whole — only
     - S Sun → H Transpluto RA 67.0053 67 whole (54.07)
     - H Zubenelgenubi → H Orcus RA 66.9871 67 whole (12.47)
-  - 75×φ golden — only
-    - H Adhara → H Juno RA 121.3316 75×φ golden (12.34)
-    - J Capella → J Venus RA 121.3784 75×φ golden (4.04)
-  - 18 whole — only
-    - H Adhara → H Gonggong Dec 17.9962 18 whole (66.00)
-    - J Adhara → J Chiron Dec 18.0059 18 whole (49.46)
   - 39 whole — also: 4 Risky Obsession / Harry Skelton
     - H Alhena → H Pluto Dec 38.9851 39 whole (6.60)
     - H Zubenelgenubi → H Makemake Dec 38.9928 39 whole (40.98)
   - 30 whole — only
     - H Alhena → H Vesta Dec 30.0167 30 whole (2.73)
     - H Capella → H Haumea Dec 30.0088 30 whole (31.60)
-    - J Sirius → J Transpluto Dec 30.0030 30 whole (72.17)
   - 98×φ golden — only
     - H Alphard → H Pluto RA 158.5771 98×φ golden (48.90)
     - H Alphard → H Juno RA 158.5750 98×φ golden (58.18)
   - 5 whole — also: 1 Watery Borren / Derek Fox
     - H Bellatrix → H Sun RA 4.9854 5 whole (7.38)
     - S Sun → J Chiron Dec 4.9997 5 whole (96.67)
-  - 24 whole — also: 3 Avide / Theo Gillard
-    - H Deneb Algedi → H Chiron Dec 23.9863 24 whole (9.99)
-    - J Bellatrix → J Jupiter Dec 23.9871 24 whole (12.67)
   - 27 whole — only
     - H Nunki → H Jupiter Dec 27.0105 27 whole (22.57)
     - S Haumea → J Haumea RA 26.9741 27 whole (loose)
-  - 78×φ golden — only
-    - H Nunki → H Pallas RA 126.2088 78×φ golden (87.10)
-    - J Deneb Algedi → J Venus RA 126.2154 78×φ golden (53.46)
   - 13 whole — only
     - H Zubenelgenubi → H Neptune Dec 12.9984 13 whole (84.46)
     - S Makemake → J Makemake Dec 13.0021 13 whole (80.03)
@@ -815,18 +623,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 158 whole — only
     - S Rahu → J Rahu RA 158.0213 158 whole (loose)
     - S Ketu → J Ketu RA 158.0213 158 whole (loose)
-  - 9 whole — only
-    - J Algorab → J Eris Dec 9.0165 9 whole (3.05)
-    - J Alhena → J Mercury Dec 8.9912 9 whole (31.30)
 ### L4 every natal body
 - **Sun**
   - same body: S Sun → H Sun RA 144.9880 145 whole (16.10) — also: 1 Watery Borren / Derek Fox
-  - star rows: H Algorab → H Sun RA 111.1749 111.111 ninth (89.57) — also: 3 Avide / Theo Gillard
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - star rows: H Bellatrix → H Sun RA 4.9854 5 whole (7.38) — only
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - star rows: H Sirius → H Sun RA 24.9865 25 whole (10.65) — also: 3 Avide / Theo Gillard
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
   - same body: S Sun → J Sun Dec 22.6418 14×φ golden (loose) — also: 1 Watery Borren / Derek Fox
   - star rows: J Ankaa → J Sun Dec 48.9827 49 whole (1.89) — only
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
@@ -834,8 +635,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Mercury → H Mercury RA 161.6129 100×φ^1 phi power (loose) — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
   - top rows: S Moon → H Mercury RA 133.3679 133.333 ninth (95.85) — only
   - top rows: S Moon → H Mercury Dec 24.1452 24.14 silver (94.99) — only
-  - star rows: H Algorab → H Mercury Dec 32.0187 32 whole (0.43) — also: 1 Watery Borren / Derek Fox
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - star rows: H Alhena → H Mercury RA 43.9813 44 whole (0.43) — also: 3 Avide / Theo Gillard
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - star rows: J Alhena → J Mercury Dec 8.9912 9 whole (31.30) — also: 3 Avide / Theo Gillard
@@ -843,36 +642,22 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Venus**
   - same body: S Venus → H Venus Dec 26.1512 10×φ^2 phi power (loose) — also: 4 Risky Obsession / Harry Skelton
   - top rows: S Jupiter → H Venus Dec 0.2654 conj (1.33) — only
-  - star rows: H Adhara → H Venus RA 64.0039 64 whole (64.66) — also: 3 Avide / Theo Gillard
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
-  - star rows: J Adhara → J Venus Dec 20.0153 20 whole (5.49) — also: 3 Avide / Theo Gillard
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - star rows: J Alphard → J Venus Dec 0.2966 conj (0.01) — also: 3 Avide / Theo Gillard
     - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
     - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
   - star rows: J Capella → J Venus RA 121.3784 75×φ golden (4.04) — also: 3 Avide / Theo Gillard
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
-  - star rows: J Deneb Algedi → J Venus RA 126.2154 78×φ golden (53.46) — also: 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
 - **Mars**
   - same body: S Mars → H Mars RA 133.6337 133.333 ninth (loose) — also: 3 Avide / Theo Gillard
-  - star rows: H Algorab → H Mars Dec 19.0103 19 whole (23.32) — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - same body: S Mars → J Mars Dec 33.0218 33 whole (loose) — also: 3 Avide / Theo Gillard
   - top rows: S Sun → J Mars RA 0.1269 conj (83.80) — also: 3 Avide / Theo Gillard
   - star rows: J Alhena → J Mars RA 121.9811 122 whole (0.31) — also: 1 Watery Borren / Derek Fox
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
-  - star rows: J Sirius → J Mars Dec 0.1808 conj (15.78) — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
   - star rows: J Zubenelgenubi → J Mars RA 1.3104 conj (1.60) — also: 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
 - **Jupiter**
   - same body: S Jupiter → H Jupiter Dec 13.2808 13.3333 ninth (loose) — also: 3 Avide / Theo Gillard
-  - T1: H Jupiter → H star Adhara RA 99.9901 100 ninth (93.41) — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
   - top rows: S Saturn → H Jupiter Dec 0.2313 conj (5.25) — only
-  - star rows: S Adhara → H Jupiter RA 99.9991 100 ninth (99.40) — only
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - star rows: H Ankaa → H Jupiter Dec 43.0191 43 whole (0.20) — also: 1 Watery Borren / Derek Fox
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
   - star rows: H Nunki → H Jupiter Dec 27.0105 27 whole (22.57) — only
@@ -886,12 +671,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Chiron → H Chiron RA 11.9937 12 whole (46.73) — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
   - star rows: H Alhena → H Chiron RA 85.9824 86 whole (1.48) — also: 4 Risky Obsession / Harry Skelton
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
-  - star rows: H Deneb Algedi → H Chiron Dec 23.9863 24 whole (9.99) — only
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - same body: S Chiron → J Chiron RA 177.0047 177 whole (58.82) — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
   - top rows: S Sun → J Chiron Dec 4.9997 5 whole (96.67) — also: 3 Avide / Theo Gillard
-  - star rows: J Adhara → J Chiron Dec 18.0059 18 whole (49.46) — only
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - star rows: J Alhena → J Chiron RA 109.0037 109 whole (66.10) — also: 4 Risky Obsession / Harry Skelton
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
 - **Rahu**
@@ -909,20 +690,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
 - **Ketu**
   - same body: S Ketu → H Ketu RA 80.9195 50×φ golden (loose) — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard
-    - source line: S Jupiter → Ketu RA 1.4795 conj (0.02)
   - same body: S Ketu → H Ketu Dec 30.9756 31 whole (loose) — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard
-    - source line: S Jupiter → Ketu RA 1.4795 conj (0.02)
   - same body: S Ketu → J Ketu RA 158.0213 158 whole (loose) — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard
-    - source line: S Jupiter → Ketu RA 1.4795 conj (0.02)
   - star rows: J Ankaa → J Ketu RA 15.9997 16 whole (97.43) — only
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
   - star rows: J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20) — also: 1 Watery Borren / Derek Fox
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
 - **Saturn**
   - T1: H Jupiter → H Saturn Dec 14.9956 15 whole (60.63) — only
-  - star rows: H Deneb Algedi → H Saturn RA 0.8449 conj (19.07) — also: 1 Watery Borren / Derek Fox
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - star rows: H Nunki → H Saturn Dec 12.0149 12 whole (6.44) — only
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
   - same body: S Saturn → J Saturn RA 9.9926 10 whole (39.60) — also: 1 Watery Borren / Derek Fox
@@ -941,10 +716,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Jupiter → H Quaoar Dec 29.1254 18×φ golden (95.35) — only
   - star rows: H Ankaa → H Quaoar RA 89.9822 90 whole (1.25) — only
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
-  - star rows: H Deneb Algedi → H Quaoar Dec 0.9977 1 whole (78.42) — also: 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
-  - star rows: J Adhara → J Quaoar RA 137.5574 85×φ golden (5.85) — also: 3 Avide / Theo Gillard
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - star rows: J Alphard → J Quaoar RA 100.3188 62×φ golden (95.93) — also: 1 Watery Borren / Derek Fox
     - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
     - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
@@ -956,54 +727,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Sun → H Transpluto RA 67.0053 67 whole (54.07) — only
   - star rows: H Bellatrix → H Transpluto RA 72.9973 73 whole (74.81) — only
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - star rows: H Sirius → H Transpluto RA 52.9962 53 whole (65.64) — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
   - top rows: S Jupiter → J Transpluto RA 0.1297 conj (83.45) — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
-  - star rows: J Sirius → J Transpluto Dec 30.0030 30 whole (72.17) — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
-- **Juno**
-  - star rows: H Adhara → H Juno RA 121.3316 75×φ golden (12.34) — only
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
-  - star rows: H Alphard → H Juno RA 158.5750 98×φ golden (58.18) — only
-    - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
-    - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
-  - star rows: J Ankaa → J Juno RA 137.0112 137 whole (19.33) — also: 3 Avide / Theo Gillard
-    - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
-- **Vesta**
-  - star rows: H Adhara → H Vesta RA 127.9838 128 whole (3.66) — also: 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
-  - star rows: H Alhena → H Vesta Dec 30.0167 30 whole (2.73) — only
-    - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
-  - star rows: J Sirius → J Vesta Dec 18.8882 18.8889 ninth (99.54) — only
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
-- **Gonggong**
-  - star rows: H Adhara → H Gonggong Dec 17.9962 18 whole (66.00) — also: 3 Avide / Theo Gillard
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
-  - star rows: H Algorab → H Gonggong RA 149.9851 150 whole (6.52) — also: 4 Risky Obsession / Harry Skelton
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - same body: S Gonggong → J Gonggong RA 5.9788 6 whole (loose) — also: 3 Avide / Theo Gillard
-  - top rows: S Moon → J Gonggong RA 142.3795 88×φ golden (58.96) — only
-  - star rows: J Capella → J Gonggong RA 107.9827 108 whole (1.76) — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
-    - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
-  - star rows: J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19) — only
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
-    - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
-- **Pluto**
-  - star rows: H Algorab → H Pluto RA 113.0047 113 whole (58.24) — also: 3 Avide / Theo Gillard
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - star rows: H Alhena → H Pluto Dec 38.9851 39 whole (6.60) — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
-  - star rows: H Alphard → H Pluto RA 158.5771 98×φ golden (48.90) — also: 3 Avide / Theo Gillard
-    - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
-    - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
-  - same body: S Pluto → J Pluto Dec 15.0207 15 whole (loose) — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard
-  - top rows: S Jupiter → J Pluto Dec 22.6576 14×φ golden (70.94) — also: 1 Watery Borren / Derek Fox
-  - top rows: S Moon → J Pluto Dec 0.0179 conj (88.41) — only
-  - star rows: J Alphard → J Pluto Dec 0.0065 conj (95.74) — also: 3 Avide / Theo Gillard
-    - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
-    - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
-  - star rows: J Bellatrix → J Pluto Dec 15.0140 15 whole (9.09) — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
-    - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
 - **Uranus**
   - star rows: H Alhena → H Uranus Dec 0.0058 conj (96.17) — only
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
@@ -1019,8 +743,30 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
     - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
   - star rows: H Zubenelgenubi → H Neptune Dec 12.9984 13 whole (84.46) — also: 1 Watery Borren / Derek Fox
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
+- **Pluto**
+  - star rows: H Alhena → H Pluto Dec 38.9851 39 whole (6.60) — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
+    - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
+  - star rows: H Alphard → H Pluto RA 158.5771 98×φ golden (48.90) — also: 3 Avide / Theo Gillard
+    - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
+    - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
+  - same body: S Pluto → J Pluto Dec 15.0207 15 whole (loose) — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard
+  - top rows: S Jupiter → J Pluto Dec 22.6576 14×φ golden (70.94) — also: 1 Watery Borren / Derek Fox
+  - top rows: S Moon → J Pluto Dec 0.0179 conj (88.41) — only
+  - star rows: J Alphard → J Pluto Dec 0.0065 conj (95.74) — also: 3 Avide / Theo Gillard
+    - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
+    - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
+  - star rows: J Bellatrix → J Pluto Dec 15.0140 15 whole (9.09) — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
+    - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
+- **Vesta**
+  - star rows: H Alhena → H Vesta Dec 30.0167 30 whole (2.73) — only
+    - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
+- **Juno**
+  - star rows: H Alphard → H Juno RA 158.5750 98×φ golden (58.18) — only
+    - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
+    - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
+  - star rows: J Ankaa → J Juno RA 137.0112 137 whole (19.33) — also: 3 Avide / Theo Gillard
+    - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
 - **Orcus**
   - star rows: H Alphard → H Orcus Dec 2.6182 φ^2 phi power (98.96) — only
     - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
@@ -1028,7 +774,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Nunki → H Orcus Dec 15.0187 15 whole (0.45) — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
   - star rows: H Zubenelgenubi → H Orcus RA 66.9871 67 whole (12.47) — only
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
   - same body: S Orcus → J Orcus Dec 14.0905 14.14 sqrt2 (loose) — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
     - source line: S Jupiter → Orcus RA 14.5618 9×φ golden (96.78)
@@ -1040,21 +785,20 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Haumea → J Haumea RA 26.9741 27 whole (loose) — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
     - source line: S Sun → Haumea RA 0.5461 conj (40.44)
     - source line: S Moon → Haumea Dec 22.0001 22 whole (98.85)
-  - star rows: J Deneb Algedi → J Haumea RA 133.0056 133 whole (52.17) — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
 - **Eris**
   - star rows: H Nunki → H Eris RA 103.0067 103 whole (44.23) — only
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
-  - star rows: J Algorab → J Eris Dec 9.0165 9 whole (3.05) — also: 1 Watery Borren / Derek Fox
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-- **Ceres**
-  - star rows: H Sirius → H Ceres RA 0.2701 conj (67.22) — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **Makemake**
   - star rows: H Zubenelgenubi → H Makemake Dec 38.9928 39 whole (40.98) — only
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
   - same body: S Makemake → J Makemake Dec 13.0021 13 whole (80.03) — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
+- **Gonggong**
+  - same body: S Gonggong → J Gonggong RA 5.9788 6 whole (loose) — also: 3 Avide / Theo Gillard
+  - top rows: S Moon → J Gonggong RA 142.3795 88×φ golden (58.96) — only
+  - star rows: J Capella → J Gonggong RA 107.9827 108 whole (1.76) — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
+    - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
+  - star rows: J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
 
 ## 3 Avide / Theo Gillard
 ### L1 same bodies
@@ -1083,8 +827,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, top rows: S Sun → J Mars RA 117.9950 118 whole (56.07)
   - other chart, star rows: J Bellatrix → J Mars RA 102.0116 102 whole (17.74)
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - other chart, star rows: J Sirius → J Mars RA 122.0176 122 whole (1.40)
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **H Jupiter** (same body: S Jupiter → H Jupiter RA 165.5907 166.667 ninth (loose))
   - top rows: S Moon → H Jupiter Dec 0.2248 conj (6.29)
   - top rows: S Mars → H Jupiter Dec 24.9986 25 whole (86.64)
@@ -1095,8 +837,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Alphard → H Jupiter Dec 0.2094 conj (9.13)
     - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
     - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
-  - star rows: S Sirius → H Jupiter RA 119.7577 74×φ golden (8.00)
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
   - other chart, top rows: S Sun → J Jupiter RA 110.9330 10×φ^5 phi power (89.02)
   - other chart, top rows: S Venus → J Jupiter Dec 0.0664 conj (60.64)
   - other chart, top rows: S Pluto → J Jupiter Dec 11.3280 7×φ golden (89.46)
@@ -1104,49 +844,29 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Sedna** (same body: S Sedna → H Sedna Dec 0.7069 0.707 sqrt2 (loose))
   - star rows: H Bellatrix → H Sedna RA 22.9896 23 whole (23.06)
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - star rows: H Sirius → H Sedna RA 42.9921 43 whole (36.41)
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **H Orcus** (same body: S Orcus → H Orcus Dec 1.7695 1.77778 ninth (loose))
   - sky line to Orcus: S Jupiter → Orcus RA 14.5618 9×φ golden (96.78)
-  - star rows: H Deneb Algedi → H Orcus Dec 3.9889 4 whole (19.76)
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - star rows: H Nunki → H Orcus RA 126.9959 127 whole (62.84)
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
   - other chart, same body: S Orcus → J Orcus Dec 13.3908 13.3333 ninth (loose)
-  - other chart, star rows: J Algorab → J Orcus Dec 15.9947 16 whole (54.37)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
 - **H Gonggong** (same body: S Gonggong → H Gonggong Dec 1.0081 1 whole (35.13))
-  - star rows: H Adhara → H Gonggong RA 128.0069 128 whole (42.96)
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - star rows: H Ankaa → H Gonggong Dec 30.9912 31 whole (31.58)
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
   - other chart, top rows: S Sun → J Gonggong RA 109.9969 110 whole (71.40)
-  - other chart, star rows: J Adhara → J Gonggong RA 133.3854 133.333 ninth (93.75)
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - other chart, star rows: J Bellatrix → J Gonggong RA 110.0097 110 whole (26.77)
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - other chart, star rows: J Sirius → J Gonggong RA 130.0157 130 whole (4.61)
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **H Transpluto** (same body: S Transpluto → H Transpluto RA 1.8852 1.88889 ninth (loose))
   - star rows: H Nunki → H Transpluto RA 128.9898 129 whole (24.11)
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
   - other chart, top rows: S Jupiter → J Transpluto RA 0.0733 conj (90.46)
-  - other chart, star rows: J Sirius → J Transpluto Dec 29.9895 30 whole (22.66)
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **J Mars** (same body: S Mars → J Mars Dec 25.8798 16×φ golden (loose))
   - top rows: S Sun → J Mars RA 117.9950 118 whole (56.07)
   - star rows: J Bellatrix → J Mars RA 102.0116 102 whole (17.74)
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - star rows: J Sirius → J Mars RA 122.0176 122 whole (1.40)
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
   - other chart, same body: S Mars → H Mars RA 140.8556 141.4 sqrt2 (loose)
   - other chart, star rows: H Nunki → H Mars RA 0.9795 conj (12.04)
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
 - **J Uranus** (same body: S Uranus → J Uranus RA 110.4684 10×φ^5 phi power (loose))
-  - star rows: J Adhara → J Uranus RA 152.9987 153 whole (87.59)
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
-  - other chart, star rows: H Algorab → H Uranus RA 148.9841 149 whole (4.28)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - other chart, star rows: H Ankaa → H Uranus Dec 57.0034 57 whole (68.96)
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
   - other chart, star rows: H Nunki → H Uranus Dec 40.9885 41 whole (18.03)
@@ -1157,42 +877,25 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
   - star rows: J Bellatrix → J Pluto RA 166.6171 166.667 ninth (95.75)
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - star rows: J Sirius → J Pluto Dec 6.9890 7 whole (20.34)
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
-  - other chart, star rows: H Algorab → H Pluto Dec 5.9965 6 whole (67.98)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - other chart, star rows: H Alhena → H Pluto RA 160.0087 160 whole (31.98)
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
-  - other chart, star rows: H Sirius → H Pluto RA 161.8644 100×φ^1 phi power (85.50)
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **J Juno** (same body: S Juno → J Juno RA 118.0074 118 whole (39.50))
-  - star rows: J Algorab → J Juno RA 1.4746 conj (0.03)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - star rows: J Alhena → J Juno Dec 18.9982 19 whole (82.97)
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - star rows: J Ankaa → J Juno RA 179.4282 10×φ^6 phi power (96.78)
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
-  - star rows: J Deneb Algedi → J Juno RA 140.7597 87×φ golden (51.17)
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - other chart, star rows: H Alhena → H Juno Dec 27.9918 28 whole (34.73)
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - other chart, star rows: H Bellatrix → H Juno Dec 17.9419 φ^6 phi power (94.81)
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - other chart, star rows: H Sirius → H Juno RA 156.9613 97×φ golden (39.66)
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **J Rahu** (same body: S Rahu → J Rahu RA 166.2813 166.667 ninth (loose))
-  - star rows: J Algorab → J Rahu Dec 24.0177 24 whole (1.35)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - other chart, star rows: H Capella → H Rahu RA 23.9906 24 whole (28.29)
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
 - **J Eris** (same body: S Eris → J Eris RA 3.9997 4 whole (96.90))
 - **J Haumea** (same body: S Haumea → J Haumea Dec 8.0218 8 whole (loose))
   - sky line to Haumea: S Sun → Haumea RA 0.5461 conj (40.44)
   - sky line to Haumea: S Moon → Haumea Dec 22.0001 22 whole (98.85)
-  - star rows: J Deneb Algedi → J Haumea RA 131.0525 81×φ golden (55.70)
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - star rows: J Zubenelgenubi → J Haumea RA 27.0176 27 whole (1.43)
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
   - other chart, star rows: H Alhena → H Haumea RA 118.1242 73×φ golden (57.95)
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
@@ -1200,24 +903,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
   - other chart, star rows: H Capella → H Haumea Dec 30.7405 19×φ golden (87.17)
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
-  - other chart, star rows: H Sirius → H Haumea Dec 31.9834 32 whole (2.94)
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **J Makemake** (same body: S Makemake → J Makemake RA 24.1118 24.14 silver (loose))
-  - other chart, star rows: H Algorab → H Makemake Dec 39.0154 39 whole (5.35)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 13.3908 13.3333 ninth (loose))
   - sky line to Orcus: S Jupiter → Orcus RA 14.5618 9×φ golden (96.78)
-  - star rows: J Algorab → J Orcus Dec 15.9947 16 whole (54.37)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - other chart, same body: S Orcus → H Orcus Dec 1.7695 1.77778 ninth (loose)
-  - other chart, star rows: H Deneb Algedi → H Orcus Dec 3.9889 4 whole (19.76)
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - other chart, star rows: H Nunki → H Orcus RA 126.9959 127 whole (62.84)
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
 - **J Ketu** (same body: S Ketu → J Ketu RA 166.2813 166.667 ninth (loose))
-  - sky line to Ketu: S Jupiter → Ketu RA 1.4795 conj (0.02)
-  - star rows: J Algorab → J Ketu Dec 9.0135 9 whole (10.53)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - other chart, star rows: H Alhena → H Ketu Dec 35.9888 36 whole (19.43)
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - other chart, star rows: H Capella → H Ketu RA 156.0094 156 whole (28.29)
@@ -1232,40 +924,24 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Orcus → J Orcus Dec 13.3908 13.3333 ninth (loose)
 - **2. one body in both planes**: none
 - **3. runner number = sky number**
-  - 32 whole — also: 2 Aqua Bleu / Sean Bowen
-    - H Sirius → H Haumea Dec 31.9834 32 whole (2.94) = S Jupiter → Capella Dec 31.9990 32 whole (89.78)
   - 177.778 ninth — also: 1 Watery Borren / Derek Fox
     - J Alphard → J Pallas RA 177.7411 177.778 ninth (97.13) = S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
   - 20×φ golden — only
     - J Ankaa → J Ceres Dec 32.3620 20×φ golden (91.75) = S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
 - **4. circle divisions**
-  - 1 = 360/360 — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
+  - 1 = 360/360 — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
     - S Gonggong → H Gonggong Dec 1.0081 1 whole (35.13)
-  - 6 = 360/60 — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen
-    - H Algorab → H Pluto Dec 5.9965 6 whole (67.98)
   - 36 = 360/10 — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
     - H Alhena → H Mercury Dec 35.9823 36 whole (1.33)
   - 36 = 360/10 — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
     - H Alhena → H Ketu Dec 35.9888 36 whole (19.43)
   - 24 = 360/15 — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
     - H Capella → H Rahu RA 23.9906 24 whole (28.29)
-  - 1 = 360/360 — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
-    - H Deneb Algedi → H Sun RA 0.9898 1 whole (23.85)
-  - 4 = 360/90 — only
-    - H Deneb Algedi → H Orcus Dec 3.9889 4 whole (19.76)
-  - 3 = 360/120 — also: 4 Risky Obsession / Harry Skelton
-    - H Sirius → H Sun Dec 3.0187 3 whole (0.42)
   - 4 = 360/90 — only
     - S Eris → J Eris RA 3.9997 4 whole (96.90)
   - 8 = 360/45 — only
     - S Haumea → J Haumea Dec 8.0218 8 whole (loose)
-  - 24 = 360/15 — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
-    - J Algorab → J Rahu Dec 24.0177 24 whole (1.35)
-  - 9 = 360/40 — also: 2 Aqua Bleu / Sean Bowen
-    - J Algorab → J Ketu Dec 9.0135 9 whole (10.53)
-  - 30 = 360/12 — also: 2 Aqua Bleu / Sean Bowen
-    - J Sirius → J Transpluto Dec 29.9895 30 whole (22.66)
-  - 20 = 360/18 — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen
+  - 20 = 360/18 — also: 1 Watery Borren / Derek Fox
     - J Zubenelgenubi → J Saturn Dec 20.0182 20 whole (0.80)
 - **5. same number in more than one place**
   - 166.667 ninth — only
@@ -1273,30 +949,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Rahu → J Rahu RA 166.2813 166.667 ninth (loose)
     - S Ketu → J Ketu RA 166.2813 166.667 ninth (loose)
     - J Bellatrix → J Pluto RA 166.6171 166.667 ninth (95.75)
-  - 1 whole — only
-    - S Gonggong → H Gonggong Dec 1.0081 1 whole (35.13)
-    - H Deneb Algedi → H Sun RA 0.9898 1 whole (23.85)
-  - 149 whole — only
-    - H Algorab → H Uranus RA 148.9841 149 whole (4.28)
-    - H Ankaa → H Haumea RA 149.0114 149 whole (18.54)
   - 36 whole — only
     - H Alhena → H Mercury Dec 35.9823 36 whole (1.33)
     - H Alhena → H Ketu Dec 35.9888 36 whole (19.43)
-  - 122 whole — only
-    - H Bellatrix → H Saturn RA 122.0044 122 whole (60.80)
-    - J Sirius → J Mars RA 122.0176 122 whole (1.40)
-  - 14.14 sqrt2 — only
-    - H Bellatrix → H Ceres Dec 14.1440 14.14 sqrt2 (94.75)
-    - J Adhara → J Quaoar Dec 14.1446 14.14 sqrt2 (93.18)
-  - 24 whole — also: 2 Aqua Bleu / Sean Bowen
-    - H Capella → H Rahu RA 23.9906 24 whole (28.29)
-    - J Algorab → J Rahu Dec 24.0177 24 whole (1.35)
-  - 16×φ golden — only
-    - H Deneb Algedi → H Neptune RA 25.8810 16×φ golden (58.96)
-    - S Mars → J Mars Dec 25.8798 16×φ golden (loose)
-  - 4 whole — only
-    - H Deneb Algedi → H Orcus Dec 3.9889 4 whole (19.76)
-    - S Eris → J Eris RA 3.9997 4 whole (96.90)
   - 10×φ^5 phi power — only
     - S Uranus → J Uranus RA 110.4684 10×φ^5 phi power (loose)
     - S Sun → J Jupiter RA 110.9330 10×φ^5 phi power (89.02)
@@ -1315,8 +970,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Sun → J Mars RA 117.9950 118 whole (56.07) — also: 2 Aqua Bleu / Sean Bowen
   - star rows: J Bellatrix → J Mars RA 102.0116 102 whole (17.74) — only
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - star rows: J Sirius → J Mars RA 122.0176 122 whole (1.40) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **Jupiter**
   - same body: S Jupiter → H Jupiter RA 165.5907 166.667 ninth (loose) — also: 2 Aqua Bleu / Sean Bowen
   - top rows: S Moon → H Jupiter Dec 0.2248 conj (6.29) — only
@@ -1328,8 +981,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Alphard → H Jupiter Dec 0.2094 conj (9.13) — only
     - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
     - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
-  - star rows: S Sirius → H Jupiter RA 119.7577 74×φ golden (8.00) — also: 1 Watery Borren / Derek Fox
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
   - top rows: S Sun → J Jupiter RA 110.9330 10×φ^5 phi power (89.02) — also: 4 Risky Obsession / Harry Skelton
   - top rows: S Venus → J Jupiter Dec 0.0664 conj (60.64) — also: 1 Watery Borren / Derek Fox
   - top rows: S Pluto → J Jupiter Dec 11.3280 7×φ golden (89.46) — only
@@ -1339,148 +990,59 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Sedna → H Sedna Dec 0.7069 0.707 sqrt2 (loose) — also: 2 Aqua Bleu / Sean Bowen
   - star rows: H Bellatrix → H Sedna RA 22.9896 23 whole (23.06) — also: 4 Risky Obsession / Harry Skelton
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - star rows: H Sirius → H Sedna RA 42.9921 43 whole (36.41) — also: 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **Orcus**
   - same body: S Orcus → H Orcus Dec 1.7695 1.77778 ninth (loose) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
     - source line: S Jupiter → Orcus RA 14.5618 9×φ golden (96.78)
-  - star rows: H Deneb Algedi → H Orcus Dec 3.9889 4 whole (19.76) — only
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - star rows: H Nunki → H Orcus RA 126.9959 127 whole (62.84) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
   - same body: S Orcus → J Orcus Dec 13.3908 13.3333 ninth (loose) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
     - source line: S Jupiter → Orcus RA 14.5618 9×φ golden (96.78)
-  - star rows: J Algorab → J Orcus Dec 15.9947 16 whole (54.37) — only
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
 - **Gonggong**
   - same body: S Gonggong → H Gonggong Dec 1.0081 1 whole (35.13) — also: 2 Aqua Bleu / Sean Bowen
-  - star rows: H Adhara → H Gonggong RA 128.0069 128 whole (42.96) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - star rows: H Ankaa → H Gonggong Dec 30.9912 31 whole (31.58) — only
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
   - top rows: S Sun → J Gonggong RA 109.9969 110 whole (71.40) — only
-  - star rows: J Adhara → J Gonggong RA 133.3854 133.333 ninth (93.75) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - star rows: J Bellatrix → J Gonggong RA 110.0097 110 whole (26.77) — only
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - star rows: J Sirius → J Gonggong RA 130.0157 130 whole (4.61) — only
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **Transpluto**
   - same body: S Transpluto → H Transpluto RA 1.8852 1.88889 ninth (loose) — also: 4 Risky Obsession / Harry Skelton
   - star rows: H Nunki → H Transpluto RA 128.9898 129 whole (24.11) — also: 4 Risky Obsession / Harry Skelton
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
   - top rows: S Jupiter → J Transpluto RA 0.0733 conj (90.46) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
-  - star rows: J Sirius → J Transpluto Dec 29.9895 30 whole (22.66) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **Saturn**
   - top rows: S Sun → H Saturn RA 98.0013 98 whole (87.01) — also: 1 Watery Borren / Derek Fox
-  - star rows: H Algorab → H Saturn Dec 0.1759 conj (17.11) — also: 4 Risky Obsession / Harry Skelton
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - star rows: H Bellatrix → H Saturn RA 122.0044 122 whole (60.80) — only
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - star rows: H Sirius → H Saturn RA 142.0069 142 whole (43.12) — only
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
-  - star rows: H Sirius → H Saturn Dec 0.0336 conj (78.85) — only
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
   - star rows: J Zubenelgenubi → J Saturn Dec 20.0182 20 whole (0.80) — also: 1 Watery Borren / Derek Fox
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
-- **Venus**
-  - star rows: H Algorab → H Venus Dec 0.2214 conj (6.86) — also: 1 Watery Borren / Derek Fox
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - star rows: H Nunki → H Venus RA 1.1520 conj (5.38) — only
-    - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
-  - star rows: H Sirius → H Venus Dec 0.0119 conj (92.20) — only
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
-  - top rows: S Moon → J Venus RA 100.3214 62×φ golden (80.41) — only
-  - star rows: J Adhara → J Venus Dec 13.9862 14 whole (9.62) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
-  - star rows: J Alphard → J Venus RA 147.2284 91×φ golden (36.98) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
-    - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
-  - star rows: J Capella → J Venus Dec 60.9887 61 whole (19.06) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
-- **Uranus**
-  - star rows: H Algorab → H Uranus RA 148.9841 149 whole (4.28) — also: 1 Watery Borren / Derek Fox
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - star rows: H Ankaa → H Uranus Dec 57.0034 57 whole (68.96) — also: 1 Watery Borren / Derek Fox
-    - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
-  - star rows: H Nunki → H Uranus Dec 40.9885 41 whole (18.03) — also: 1 Watery Borren / Derek Fox
-    - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
-  - same body: S Uranus → J Uranus RA 110.4684 10×φ^5 phi power (loose) — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
-  - star rows: J Adhara → J Uranus RA 152.9987 153 whole (87.59) — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
-- **Pluto**
-  - star rows: H Algorab → H Pluto Dec 5.9965 6 whole (67.98) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - star rows: H Alhena → H Pluto RA 160.0087 160 whole (31.98) — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
-  - star rows: H Sirius → H Pluto RA 161.8644 100×φ^1 phi power (85.50) — also: 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
-  - same body: S Pluto → J Pluto RA 58.2456 36×φ golden (79.03) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen
-  - star rows: J Alphard → J Pluto RA 106.0011 106 whole (89.61) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
-    - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
-  - star rows: J Bellatrix → J Pluto RA 166.6171 166.667 ninth (95.75) — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
-    - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - star rows: J Sirius → J Pluto Dec 6.9890 7 whole (20.34) — also: 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
-- **Chiron**
-  - star rows: H Algorab → H Chiron RA 179.6108 111×φ golden (51.84) — also: 1 Watery Borren / Derek Fox
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - star rows: H Ankaa → H Chiron RA 1.2899 conj (1.96) — only
-    - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
-  - top rows: S Sun → J Chiron Dec 0.1631 conj (20.82) — also: 2 Aqua Bleu / Sean Bowen
-  - star rows: J Zubenelgenubi → J Chiron Dec 0.2430 conj (3.61) — only
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
-    - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
-- **Ceres**
-  - star rows: H Algorab → H Ceres RA 129.4497 80×φ golden (61.29) — also: 1 Watery Borren / Derek Fox
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - star rows: H Algorab → H Ceres Dec 37.0092 37 whole (28.91) — also: 1 Watery Borren / Derek Fox
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - star rows: H Bellatrix → H Ceres Dec 14.1440 14.14 sqrt2 (94.75) — also: 1 Watery Borren / Derek Fox
-    - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - star rows: H Sirius → H Ceres Dec 37.2187 23×φ golden (76.99) — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
-  - top rows: S Moon → J Ceres RA 168.9961 169 whole (64.86) — only
-  - star rows: J Ankaa → J Ceres Dec 32.3620 20×φ golden (91.75) — only
-    - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
-  - star rows: J Nunki → J Ceres RA 73.9945 74 whole (52.37) — only
-    - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
-- **Makemake**
-  - star rows: H Algorab → H Makemake Dec 39.0154 39 whole (5.35) — also: 1 Watery Borren / Derek Fox
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - same body: S Makemake → J Makemake RA 24.1118 24.14 silver (loose) — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
 - **Mercury**
   - star rows: H Alhena → H Mercury Dec 35.9823 36 whole (1.33) — also: 2 Aqua Bleu / Sean Bowen
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
 - **Neptune**
   - star rows: H Alhena → H Neptune RA 106.7950 66×φ golden (72.79) — also: 2 Aqua Bleu / Sean Bowen
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
-  - star rows: H Deneb Algedi → H Neptune RA 25.8810 16×φ golden (58.96) — only
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
-  - star rows: J Algorab → J Neptune RA 114.8692 71×φ golden (42.52) — only
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - star rows: J Alphard → J Neptune Dec 11.0930 φ^5 phi power (90.11) — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
     - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
     - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
+- **Pluto**
+  - star rows: H Alhena → H Pluto RA 160.0087 160 whole (31.98) — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
+    - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
+  - same body: S Pluto → J Pluto RA 58.2456 36×φ golden (79.03) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen
+  - star rows: J Alphard → J Pluto RA 106.0011 106 whole (89.61) — also: 2 Aqua Bleu / Sean Bowen
+    - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
+    - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
+  - star rows: J Bellatrix → J Pluto RA 166.6171 166.667 ninth (95.75) — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
+    - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
 - **Juno**
   - star rows: H Alhena → H Juno Dec 27.9918 28 whole (34.73) — also: 4 Risky Obsession / Harry Skelton
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - star rows: H Bellatrix → H Juno Dec 17.9419 φ^6 phi power (94.81) — also: 1 Watery Borren / Derek Fox
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - star rows: H Sirius → H Juno RA 156.9613 97×φ golden (39.66) — only
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
   - same body: S Juno → J Juno RA 118.0074 118 whole (39.50) — only
-  - star rows: J Algorab → J Juno RA 1.4746 conj (0.03) — only
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
   - star rows: J Alhena → J Juno Dec 18.9982 19 whole (82.97) — also: 4 Risky Obsession / Harry Skelton
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - star rows: J Ankaa → J Juno RA 179.4282 10×φ^6 phi power (96.78) — also: 2 Aqua Bleu / Sean Bowen
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
-  - star rows: J Deneb Algedi → J Juno RA 140.7597 87×φ golden (51.17) — only
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
 - **Haumea**
   - star rows: H Alhena → H Haumea RA 118.1242 73×φ golden (57.95) — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
@@ -1488,15 +1050,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
   - star rows: H Capella → H Haumea Dec 30.7405 19×φ golden (87.17) — also: 2 Aqua Bleu / Sean Bowen
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
-  - star rows: H Sirius → H Haumea Dec 31.9834 32 whole (2.94) — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
   - same body: S Haumea → J Haumea Dec 8.0218 8 whole (loose) — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
     - source line: S Sun → Haumea RA 0.5461 conj (40.44)
     - source line: S Moon → Haumea Dec 22.0001 22 whole (98.85)
-  - star rows: J Deneb Algedi → J Haumea RA 131.0525 81×φ golden (55.70) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - star rows: J Zubenelgenubi → J Haumea RA 27.0176 27 whole (1.43) — only
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
 - **Ketu**
   - star rows: H Alhena → H Ketu Dec 35.9888 36 whole (19.43) — only
@@ -1504,31 +1061,42 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Capella → H Ketu RA 156.0094 156 whole (28.29) — also: 4 Risky Obsession / Harry Skelton
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
   - same body: S Ketu → J Ketu RA 166.2813 166.667 ninth (loose) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen
-    - source line: S Jupiter → Ketu RA 1.4795 conj (0.02)
-  - star rows: J Algorab → J Ketu Dec 9.0135 9 whole (10.53) — only
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
+- **Uranus**
+  - star rows: H Ankaa → H Uranus Dec 57.0034 57 whole (68.96) — also: 1 Watery Borren / Derek Fox
+    - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
+  - star rows: H Nunki → H Uranus Dec 40.9885 41 whole (18.03) — also: 1 Watery Borren / Derek Fox
+    - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
+  - same body: S Uranus → J Uranus RA 110.4684 10×φ^5 phi power (loose) — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
+- **Chiron**
+  - star rows: H Ankaa → H Chiron RA 1.2899 conj (1.96) — only
+    - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
+  - top rows: S Sun → J Chiron Dec 0.1631 conj (20.82) — also: 2 Aqua Bleu / Sean Bowen
+  - star rows: J Zubenelgenubi → J Chiron Dec 0.2430 conj (3.61) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
+- **Ceres**
+  - star rows: H Bellatrix → H Ceres Dec 14.1440 14.14 sqrt2 (94.75) — also: 1 Watery Borren / Derek Fox
+    - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
+  - top rows: S Moon → J Ceres RA 168.9961 169 whole (64.86) — only
+  - star rows: J Ankaa → J Ceres Dec 32.3620 20×φ golden (91.75) — only
+    - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
+  - star rows: J Nunki → J Ceres RA 73.9945 74 whole (52.37) — only
+    - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
 - **Rahu**
   - star rows: H Capella → H Rahu RA 23.9906 24 whole (28.29) — also: 4 Risky Obsession / Harry Skelton
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
   - same body: S Rahu → J Rahu RA 166.2813 166.667 ninth (loose) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen
-  - star rows: J Algorab → J Rahu Dec 24.0177 24 whole (1.35) — only
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-- **Sun**
-  - star rows: H Deneb Algedi → H Sun RA 0.9898 1 whole (23.85) — only
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
-  - star rows: H Sirius → H Sun Dec 3.0187 3 whole (0.42) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
-  - star rows: J Algorab → J Sun Dec 0.0253 conj (83.87) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - star rows: J Capella → J Sun RA 122.2305 122.222 ninth (98.86) — also: 1 Watery Borren / Derek Fox
+- **Venus**
+  - star rows: H Nunki → H Venus RA 1.1520 conj (5.38) — only
+    - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
+  - top rows: S Moon → J Venus RA 100.3214 62×φ golden (80.41) — only
+  - star rows: J Alphard → J Venus RA 147.2284 91×φ golden (36.98) — also: 2 Aqua Bleu / Sean Bowen
+    - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
+    - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
+  - star rows: J Capella → J Venus Dec 60.9887 61 whole (19.06) — also: 2 Aqua Bleu / Sean Bowen
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
-  - star rows: J Sirius → J Sun Dec 0.2275 conj (5.84) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **Pallas**
   - star rows: H Nunki → H Pallas Dec 17.0055 17 whole (52.33) — also: 2 Aqua Bleu / Sean Bowen
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
-  - star rows: J Adhara → J Pallas RA 145.0187 145 whole (0.44) — only
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - star rows: J Alphard → J Pallas RA 177.7411 177.778 ninth (97.13) — also: 1 Watery Borren / Derek Fox
     - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
     - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
@@ -1536,16 +1104,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
 - **Quaoar**
   - star rows: H Zubenelgenubi → H Quaoar RA 53.9882 54 whole (16.61) — only
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
-  - star rows: J Adhara → J Quaoar Dec 14.1446 14.14 sqrt2 (93.18) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - star rows: J Bellatrix → J Quaoar RA 164.0000 164 whole (99.62) — also: 1 Watery Borren / Derek Fox
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - star rows: J Sirius → J Quaoar RA 143.9939 144 whole (48.35) — also: 4 Risky Obsession / Harry Skelton
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **Eris**
   - same body: S Eris → J Eris RA 3.9997 4 whole (96.90) — also: 4 Risky Obsession / Harry Skelton
+- **Makemake**
+  - same body: S Makemake → J Makemake RA 24.1118 24.14 silver (loose) — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
+- **Sun**
+  - star rows: J Capella → J Sun RA 122.2305 122.222 ninth (98.86) — also: 1 Watery Borren / Derek Fox
+    - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
 
 ## 4 Risky Obsession / Harry Skelton
 ### L1 same bodies
@@ -1564,22 +1132,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Transpluto → J Transpluto RA 12.2938 12.2222 ninth (loose)
 ### L2 what lands on each same body
 - **H Mercury** (same body: S Mercury → H Mercury RA 140.0175 140 whole (1.52))
-  - star rows: H Deneb Algedi → H Mercury Dec 35.0083 35 whole (34.00)
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - other chart, star rows: J Ankaa → J Mercury RA 178.0064 178 whole (46.14)
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
   - other chart, star rows: J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44)
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
 - **H Vesta** (same body: S Vesta → H Vesta Dec 16.6618 16.6667 ninth (95.86))
   - star rows: H Alphard → H Vesta RA 29.0023 29 whole (78.69)
     - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
     - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
-  - other chart, star rows: J Adhara → J Vesta Dec 2.9883 3 whole (17.19)
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
 - **H Eris** (same body: S Eris → H Eris Dec 1.0063 1 whole (46.71))
-  - star rows: H Deneb Algedi → H Eris RA 59.9821 60 whole (1.13)
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - other chart, star rows: J Alhena → J Eris Dec 25.9946 26 whole (53.09)
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - other chart, star rows: J Ankaa → J Eris RA 15.9813 16 whole (0.41)
@@ -1587,15 +1148,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Venus** (same body: S Venus → J Venus Dec 3.3253 3.33333 ninth (loose))
   - top rows: S Sun → J Venus Dec 0.2148 conj (8.07)
   - star rows: J Zubenelgenubi → J Venus Dec 0.2933 conj (0.05)
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
-  - other chart, star rows: H Deneb Algedi → H Venus Dec 40.0009 40 whole (91.16)
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
 - **J Uranus** (same body: S Uranus → J Uranus RA 150.4667 93×φ golden (45.88))
-  - star rows: J Adhara → J Uranus RA 167.0102 167 whole (24.12)
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
-  - star rows: J Sirius → J Uranus Dec 6.9930 7 whole (42.42)
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **J Chiron** (same body: S Chiron → J Chiron RA 80.9063 50×φ golden (73.67))
   - star rows: J Alhena → J Chiron Dec 0.2769 conj (0.59)
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
@@ -1603,42 +1157,20 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Capella → H Chiron Dec 39.0010 39 whole (89.87)
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
 - **J Ceres** (same body: S Ceres → J Ceres Dec 3.2400 2×φ golden (loose))
-  - star rows: J Adhara → J Ceres Dec 49.9839 50 whole (3.72)
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - star rows: J Capella → J Ceres Dec 24.9810 25 whole (0.25)
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
-  - star rows: J Sirius → J Ceres RA 11.3217 7×φ golden (74.16)
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
-  - other chart, star rows: H Deneb Algedi → H Ceres RA 76.9850 77 whole (6.17)
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
 - **J Haumea** (same body: S Haumea → J Haumea RA 33.9604 21×φ golden (loose))
   - sky line to Haumea: S Sun → Haumea RA 0.5461 conj (40.44)
   - sky line to Haumea: S Moon → Haumea Dec 22.0001 22 whole (98.85)
-  - star rows: J Algorab → J Haumea RA 0.6881 conj (29.30)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - star rows: J Algorab → J Haumea Dec 39.0016 39 whole (84.59)
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - star rows: J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28)
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - other chart, star rows: H Alhena → H Haumea Dec 0.1324 conj (31.23)
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
-  - other chart, star rows: H Sirius → H Haumea Dec 32.9908 33 whole (29.14)
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 15.5348 15.5556 ninth (loose))
   - star rows: J Nunki → J Makemake RA 114.9815 115 whole (0.59)
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
-  - other chart, star rows: H Deneb Algedi → H Makemake RA 129.9823 130 whole (1.37)
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 17.9579 φ^6 phi power (loose))
   - sky line to Orcus: S Jupiter → Orcus RA 14.5618 9×φ golden (96.78)
-  - star rows: J Adhara → J Orcus Dec 33.0139 33 whole (9.17)
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - other chart, top rows: S Sun → H Orcus RA 66.3325 41×φ golden (61.78)
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 48.5623 30×φ golden (loose); S Quaoar → J Quaoar Dec 2.0256 2 whole (loose))
-  - star rows: J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
-  - star rows: J Sirius → J Quaoar RA 131.0625 81×φ golden (89.72)
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **J Transpluto** (same body: S Transpluto → J Transpluto RA 12.2938 12.2222 ninth (loose))
   - top rows: S Jupiter → J Transpluto Dec 0.1647 conj (20.35)
   - star rows: J Alhena → J Transpluto RA 44.9863 45 whole (9.78)
@@ -1653,35 +1185,21 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Quaoar → J Quaoar Dec 2.0256 2 whole (loose)
 - **3. runner number = sky number**: none
 - **4. circle divisions**
-  - 1 = 360/360 — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard
+  - 1 = 360/360 — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard
     - S Eris → H Eris Dec 1.0063 1 whole (46.71)
   - 36 = 360/10 — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard
     - S Jupiter → H Ketu Dec 35.9962 36 whole (66.01)
   - 24 = 360/15 — also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard
     - H Capella → H Rahu Dec 23.9936 24 whole (45.94)
-  - 40 = 360/9 — only
-    - H Deneb Algedi → H Venus Dec 40.0009 40 whole (91.16)
-  - 60 = 360/6 — only
-    - H Deneb Algedi → H Eris RA 59.9821 60 whole (1.13)
   - 12 = 360/30 — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen
     - H Zubenelgenubi → H Juno Dec 11.9882 12 whole (16.78)
   - 2 = 360/180 — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen
     - S Quaoar → J Quaoar Dec 2.0256 2 whole (loose)
-  - 3 = 360/120 — also: 3 Avide / Theo Gillard
-    - J Adhara → J Vesta Dec 2.9883 3 whole (17.19)
   - 45 = 360/8 — only
     - J Alhena → J Transpluto RA 44.9863 45 whole (9.78)
-  - 3 = 360/120 — also: 3 Avide / Theo Gillard
-    - J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)
   - 10 = 360/36 — also: 2 Aqua Bleu / Sean Bowen
     - J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44)
 - **5. same number in more than one place**
-  - 140 whole — only
-    - S Mercury → H Mercury RA 140.0175 140 whole (1.52)
-    - J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28)
-  - 7 whole — only
-    - S Jupiter → H Chiron Dec 7.0010 7 whole (89.91)
-    - J Sirius → J Uranus Dec 6.9930 7 whole (42.42)
   - 15×φ golden — only
     - S Sun → H Sedna Dec 24.2759 15×φ golden (69.57)
     - J Alhena → J Pallas Dec 24.2722 15×φ golden (89.89)
@@ -1693,45 +1211,21 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Sun → J Jupiter Dec 38.8310 24×φ golden (89.08)
   - 39 whole — also: 2 Aqua Bleu / Sean Bowen
     - H Capella → H Chiron Dec 39.0010 39 whole (89.87)
-    - J Jupiter → J star Deneb Algedi Dec 38.9942 39 whole (50.53)
-    - J Algorab → J Haumea Dec 39.0016 39 whole (84.59)
     - J Bellatrix → J Sedna RA 39.0080 39 whole (35.87)
-    - S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.70)
-  - 33 whole — only
-    - H Sirius → H Haumea Dec 32.9908 33 whole (29.14)
-    - J Adhara → J Sedna Dec 32.9921 33 whole (36.52)
-    - J Adhara → J Orcus Dec 33.0139 33 whole (9.17)
-    - J Capella → J Ketu Dec 32.9823 33 whole (1.27)
-  - 82×φ golden — only
-    - J Jupiter → J star Deneb Algedi RA 132.6713 82×φ golden (58.97)
-    - S Deneb Algedi → J Jupiter RA 132.6721 82×φ golden (62.78)
-  - 3 whole — only
-    - J Adhara → J Vesta Dec 2.9883 3 whole (17.19)
-    - J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)
-  - 59 whole — only
-    - J Capella → J Rahu Dec 59.0120 59 whole (16.05)
-    - J Sirius → J Sedna RA 59.0123 59 whole (14.88)
 ### L4 every natal body
 - **Mercury**
   - same body: S Mercury → H Mercury RA 140.0175 140 whole (1.52) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen
-  - star rows: H Deneb Algedi → H Mercury Dec 35.0083 35 whole (34.00) — only
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - star rows: J Ankaa → J Mercury RA 178.0064 178 whole (46.14) — only
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
   - star rows: J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44) — only
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
 - **Vesta**
   - same body: S Vesta → H Vesta Dec 16.6618 16.6667 ninth (95.86) — also: 3 Avide / Theo Gillard
   - star rows: H Alphard → H Vesta RA 29.0023 29 whole (78.69) — only
     - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
     - source line: S Moon → Alphard Dec 0.0111 conj (92.71)
-  - star rows: J Adhara → J Vesta Dec 2.9883 3 whole (17.19) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
 - **Eris**
   - same body: S Eris → H Eris Dec 1.0063 1 whole (46.71) — also: 3 Avide / Theo Gillard
-  - star rows: H Deneb Algedi → H Eris RA 59.9821 60 whole (1.13) — only
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - star rows: J Alhena → J Eris Dec 25.9946 26 whole (53.09) — also: 1 Watery Borren / Derek Fox
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - star rows: J Ankaa → J Eris RA 15.9813 16 whole (0.41) — only
@@ -1747,17 +1241,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Jupiter → H Gonggong RA 169.8847 105×φ golden (52.92) — only
   - star rows: H Capella → H Gonggong RA 101.9304 63×φ golden (67.85) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
-  - star rows: J Algorab → J Gonggong RA 141.4748 141.4 sqrt2 (85.45) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
 - **Ketu**
   - top rows: S Jupiter → H Ketu Dec 35.9962 36 whole (66.01) — only
   - star rows: H Capella → H Ketu Dec 67.9963 68 whole (66.05) — also: 3 Avide / Theo Gillard
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
-  - star rows: H Deneb Algedi → H Ketu RA 78.0019 78 whole (81.94) — only
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - top rows: S Jupiter → J Ketu RA 0.6653 conj (30.97) — only
-  - star rows: J Adhara → J Ketu Dec 41.9826 42 whole (1.68) — only
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - star rows: J Capella → J Ketu Dec 32.9823 33 whole (1.27) — also: 3 Avide / Theo Gillard
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
 - **Sedna**
@@ -1765,41 +1253,29 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Nunki → H Sedna RA 135.0044 135 whole (61.09) — only
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
   - top rows: S Sun → J Sedna RA 179.0043 179 whole (61.31) — also: 2 Aqua Bleu / Sean Bowen
-  - star rows: J Adhara → J Sedna Dec 32.9921 33 whole (36.52) — also: 1 Watery Borren / Derek Fox
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - star rows: J Bellatrix → J Sedna RA 39.0080 39 whole (35.87) — also: 3 Avide / Theo Gillard
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - star rows: J Sirius → J Sedna RA 59.0123 59 whole (14.88) — also: 3 Avide / Theo Gillard
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **Orcus**
   - top rows: S Sun → H Orcus RA 66.3325 41×φ golden (61.78) — only
   - same body: S Orcus → J Orcus Dec 17.9579 φ^6 phi power (loose) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard
     - source line: S Jupiter → Orcus RA 14.5618 9×φ golden (96.78)
-  - star rows: J Adhara → J Orcus Dec 33.0139 33 whole (9.17) — only
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
 - **Sun**
   - top rows: S Moon → H Sun RA 105.0026 105 whole (75.55) — only
   - star rows: H Nunki → H Sun RA 159.9844 160 whole (4.78) — also: 1 Watery Borren / Derek Fox
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
   - star rows: J Nunki → J Sun RA 105.9817 106 whole (0.76) — also: 1 Watery Borren / Derek Fox
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
-- **Saturn**
-  - star rows: H Algorab → H Saturn RA 128.0005 128 whole (94.74) — also: 3 Avide / Theo Gillard
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
 - **Pluto**
   - star rows: H Alhena → H Pluto Dec 38.8347 24×φ golden (88.76) — also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - star rows: H Bellatrix → H Pluto RA 142.9814 143 whole (0.51) — also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard
     - source line: S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
-  - star rows: H Sirius → H Pluto RA 162.9825 163 whole (1.53) — also: 3 Avide / Theo Gillard
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
   - star rows: J Ankaa → J Pluto RA 141.0147 141 whole (6.98) — only
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
 - **Juno**
   - star rows: H Alhena → H Juno RA 155.5467 155.556 ninth (99.16) — also: 3 Avide / Theo Gillard
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - star rows: H Zubenelgenubi → H Juno Dec 11.9882 12 whole (16.78) — only
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
   - top rows: S Moon → J Juno RA 1.3687 conj (0.77) — only
   - star rows: J Capella → J Juno RA 111.0048 111 whole (58.05) — only
@@ -1807,17 +1283,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Haumea**
   - star rows: H Alhena → H Haumea Dec 0.1324 conj (31.23) — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
-  - star rows: H Sirius → H Haumea Dec 32.9908 33 whole (29.14) — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
   - same body: S Haumea → J Haumea RA 33.9604 21×φ golden (loose) — also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard
     - source line: S Sun → Haumea RA 0.5461 conj (40.44)
     - source line: S Moon → Haumea Dec 22.0001 22 whole (98.85)
-  - star rows: J Algorab → J Haumea RA 0.6881 conj (29.30) — also: 1 Watery Borren / Derek Fox
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - star rows: J Algorab → J Haumea Dec 39.0016 39 whole (84.59) — also: 1 Watery Borren / Derek Fox
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
-  - star rows: J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
 - **Neptune**
   - star rows: H Alphard → H Neptune RA 147.9917 148 whole (34.25) — also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard
     - source line: S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99)
@@ -1828,80 +1296,42 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Ankaa → H Mars RA 118.1359 73×φ golden (15.95) — also: 1 Watery Borren / Derek Fox
     - source line: S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
   - star rows: H Zubenelgenubi → H Mars RA 98.0160 98 whole (4.05) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
   - star rows: H Zubenelgenubi → H Mars Dec 36.9997 37 whole (97.14) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
-  - star rows: J Algorab → J Mars Dec 16.9995 17 whole (95.41) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen
-    - source line: S Moon → Algorab RA 1.3493 conj (1.01)
 - **Jupiter**
   - star rows: S Capella → H Jupiter RA 104.9885 105 whole (17.86) — only
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
-  - T2: J Jupiter → J star Alhena RA 0.0083 conj (98.89) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen
-  - T2: J Jupiter → J star Deneb Algedi RA 132.6713 82×φ golden (58.97) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen
-  - T2: J Jupiter → J star Deneb Algedi Dec 38.9942 39 whole (50.53) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen
+  - T2: J Jupiter → J star Alhena RA 0.0083 conj (98.89) — also: 1 Watery Borren / Derek Fox
   - top rows: S Sun → J Jupiter Dec 38.8310 24×φ golden (89.08) — also: 3 Avide / Theo Gillard
   - top rows: S Chiron → J Jupiter RA 74.0013 74 whole (87.33) — also: 1 Watery Borren / Derek Fox
   - top rows: S Rahu → J Jupiter Dec 35.5965 22×φ golden (98.35) — also: 1 Watery Borren / Derek Fox
   - top rows: S Gonggong → J Jupiter RA 122.2676 122.222 ninth (93.71) — only
   - star rows: S Alhena → J Jupiter RA 0.0037 conj (99.51) — also: 1 Watery Borren / Derek Fox
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
-  - star rows: S Deneb Algedi → J Jupiter RA 132.6721 82×φ golden (62.78) — only
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
-  - star rows: S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.70) — only
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
 - **Rahu**
   - star rows: H Capella → H Rahu Dec 23.9936 24 whole (45.94) — also: 3 Avide / Theo Gillard
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
-  - star rows: H Deneb Algedi → H Rahu RA 101.9981 102 whole (81.94) — only
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - star rows: J Capella → J Rahu Dec 59.0120 59 whole (16.05) — also: 3 Avide / Theo Gillard
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
-  - star rows: J Deneb Algedi → J Rahu RA 1.0206 conj (10.21) — only
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
 - **Venus**
-  - star rows: H Deneb Algedi → H Venus Dec 40.0009 40 whole (91.16) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - same body: S Venus → J Venus Dec 3.3253 3.33333 ninth (loose) — also: 2 Aqua Bleu / Sean Bowen
   - top rows: S Sun → J Venus Dec 0.2148 conj (8.07) — only
   - star rows: J Zubenelgenubi → J Venus Dec 0.2933 conj (0.05) — also: 1 Watery Borren / Derek Fox
-    - source line: S Sun → Zubenelgenubi RA 1.4335 conj (0.20)
     - source line: S Sun → Zubenelgenubi Dec 0.0788 conj (54.37)
+- **Uranus**
+  - same body: S Uranus → J Uranus RA 150.4667 93×φ golden (45.88) — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard
 - **Ceres**
-  - star rows: H Deneb Algedi → H Ceres RA 76.9850 77 whole (6.17) — only
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - same body: S Ceres → J Ceres Dec 3.2400 2×φ golden (loose) — also: 1 Watery Borren / Derek Fox
-  - star rows: J Adhara → J Ceres Dec 49.9839 50 whole (3.72) — only
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
   - star rows: J Capella → J Ceres Dec 24.9810 25 whole (0.25) — only
     - source line: S Jupiter → Capella Dec 31.9990 32 whole (89.78)
-  - star rows: J Sirius → J Ceres RA 11.3217 7×φ golden (74.16) — also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **Makemake**
-  - star rows: H Deneb Algedi → H Makemake RA 129.9823 130 whole (1.37) — only
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
   - same body: S Makemake → J Makemake Dec 15.5348 15.5556 ninth (loose) — also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard
   - star rows: J Nunki → J Makemake RA 114.9815 115 whole (0.59) — only
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
-- **Pallas**
-  - star rows: H Sirius → H Pallas RA 110.0558 68×φ golden (0.79) — only
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
-  - star rows: J Alhena → J Pallas Dec 24.2722 15×φ golden (89.89) — only
-    - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
-- **Uranus**
-  - same body: S Uranus → J Uranus RA 150.4667 93×φ golden (45.88) — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard
-  - star rows: J Adhara → J Uranus RA 167.0102 167 whole (24.12) — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard
-    - source line: S Sun → Adhara Dec 13.0066 13 whole (44.85)
-  - star rows: J Sirius → J Uranus Dec 6.9930 7 whole (42.42) — only
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **Quaoar**
   - same body: S Quaoar → J Quaoar RA 48.5623 30×φ golden (loose) — also: 1 Watery Borren / Derek Fox
   - same body: S Quaoar → J Quaoar Dec 2.0256 2 whole (loose) — also: 1 Watery Borren / Derek Fox
-  - star rows: J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63) — also: 2 Aqua Bleu / Sean Bowen
-    - source line: S Sun → Deneb Algedi Dec 0.1676 conj (19.47)
-  - star rows: J Sirius → J Quaoar RA 131.0625 81×φ golden (89.72) — also: 3 Avide / Theo Gillard
-    - source line: S Sun → Sirius RA 119.9934 120 whole (45.12)
 - **Transpluto**
   - same body: S Transpluto → J Transpluto RA 12.2938 12.2222 ninth (loose) — also: 3 Avide / Theo Gillard
   - top rows: S Jupiter → J Transpluto Dec 0.1647 conj (20.35) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard
@@ -1909,3 +1339,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)
   - star rows: J Nunki → J Transpluto Dec 40.4563 25×φ golden (69.14) — also: 3 Avide / Theo Gillard
     - source line: S Moon → Nunki RA 95.0039 95 whole (65.03)
+- **Pallas**
+  - star rows: J Alhena → J Pallas Dec 24.2722 15×φ golden (89.89) — only
+    - source line: S Sun → Alhena Dec 32.3610 20×φ golden (97.89)

@@ -19,16 +19,16 @@ Workbook race_batch_20220311_newcastle_1540_jupiter_tables.xlsx. Runners 6. Resu
 - **B5 Same body in both planes** (0 of 6): none
 - **B6 Same body on both charts** (0 of 6): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 6): 6 Thundersockssundae / Kielan Woods
-- **B8 One line star on the most natal bodies** (1 of 6): 3 Peak Time / Conor O'Farrell
+- **B8 One line star on the most natal bodies** (3 of 6): 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
 
 ## Per runner
 
 - 1 Vocaliser / Fergus Gregory: R7
-- 2 Edmond Dantes / Brian Hughes: R42
+- 2 Edmond Dantes / Brian Hughes: R42, B8
 - 3 Peak Time / Conor O'Farrell: B1, B2, B3, B8
 - 5 Sir Apollo / Jonathan England: none
 - 6 Thundersockssundae / Kielan Woods: R7, B1, B7
-- 7 Black Opium / Stephen Mulqueen: none
+- 7 Black Opium / Stephen Mulqueen: B8
 
 ## Cells
 
@@ -106,10 +106,19 @@ _The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (sta
 
 ### B8 One line star on the most natal bodies
 _For each runner and each natal star on one chart (every star-row star is on a sky Jupiter, Sun or Moon line), count the different natal bodies of that chart it reaches with a cell scoring 80 or more (the natal star's own cell; a sky copy of the star does not count). The runner(s) with the highest count are picked; ties: every runner on the top count. Horse and jockey charts count separately._
+- 2 Edmond Dantes / Brian Hughes
+  - H Mirach on 3 natal bodies at 80 or more (most in the field; tied with 2, next 2)
+  - H Mirach → H Orcus RA 133.3737 133.333 ninth (95.16)
+  - H Mirach → H Mars RA 146.9991 147 whole (90.89)
+  - H Mirach → H Quaoar Dec 51.0019 51 whole (81.47)
 - 3 Peak Time / Conor O'Farrell
-  - H Markab on 4 natal bodies at 80 or more (most in the field; next 3)
-  - H Markab → H Makemake RA 155.5839 155.556 ninth (97.31)
-  - H Markab → H Ketu Dec 1.6187 1×φ golden (96.22)
-  - H Markab → H Chiron RA 4.0008 4 whole (92.27)
-  - H Markab → H Orcus RA 161.8551 100×φ^1 phi power (87.63)
+  - J Zubeneschamali on 3 natal bodies at 80 or more (most in the field; tied with 2, next 2)
+  - J Zubeneschamali → J Eris Dec 0.0002 conj (99.84)
+  - J Zubeneschamali → J Makemake Dec 44.9993 45 whole (92.70)
+  - J Zubeneschamali → J Mars RA 80.9043 50×φ golden (84.29)
+- 7 Black Opium / Stephen Mulqueen
+  - H Zubeneschamali on 3 natal bodies at 80 or more (most in the field; tied with 2, next 2)
+  - H Zubeneschamali → H Eris RA 155.5605 155.556 ninth (99.53)
+  - H Zubeneschamali → H Chiron RA 111.1143 111.111 ninth (99.48)
+  - H Zubeneschamali → H Neptune Dec 1.4149 1.414 sqrt2 (94.92)
 

@@ -11,14 +11,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Jupiter → Acubens RA 147.0032 147 whole (70.45)
 - S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
 - S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
-- S Jupiter → Markab RA 1.4381 conj (0.17)
 - S Sun → Algol RA 55.5518 55.5556 ninth (96.46)
 - S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
 - S Moon → Uranus Dec 11.1153 11.1111 ninth (93.22)
 - S Moon → Quaoar Dec 41.4235 41.4 silver (97.91)
 - S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
 - S Moon → Menkar Dec 21.9956 22 whole (60.56)
-- S Moon → Murzim RA 1.0066 1 whole (45.23)
 - S Moon → Menkent RA 117.0014 117 whole (86.48)
 - S Moon → Alphecca RA 139.0053 139 whole (54.26)
 - S Moon → Scheat Dec 1.9986 2 whole (86.84)
@@ -49,27 +47,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Sun → H Mars Dec 11.0927 φ^5 phi power (91.01)
   - star rows: H Alpheratz → H Mars RA 170.9887 171 whole (18.73)
     - source line: S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
-  - star rows: H Markab → H Mars RA 173.1039 107×φ golden (4.15)
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - other chart, star rows: J Acubens → J Mars Dec 33.0019 33 whole (81.67)
     - source line: S Jupiter → Acubens RA 147.0032 147 whole (70.45)
-  - other chart, star rows: J Murzim → J Mars RA 153.7326 95×φ golden (16.17)
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - other chart, star rows: J Scheat → J Mars RA 43.9914 44 whole (32.41)
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
 - **H Saturn** (same body: S Saturn → H Saturn Dec 6.9711 7 whole (loose))
-  - star rows: H Markab → H Saturn RA 137.9935 138 whole (45.89)
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
-  - star rows: H Markab → H Saturn Dec 24.0024 24 whole (77.66)
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
-  - other chart, star rows: J Markab → J Saturn RA 31.9944 32 whole (52.17)
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - other chart, star rows: J Menkar → J Saturn Dec 22.0191 22 whole (0.19)
     - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
-  - other chart, star rows: J Murzim → J Saturn RA 141.4882 141.4 sqrt2 (82.00)
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
-  - other chart, star rows: J Murzim → J Saturn Dec 0.0282 conj (82.06)
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - other chart, star rows: J Scheat → J Saturn Dec 46.0125 46 whole (14.24)
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
 - **H Chiron** (same body: S Chiron → H Chiron Dec 11.1102 11.1111 ninth (98.55))
@@ -114,12 +98,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, same body: S Ketu → J Ketu Dec 42.0384 26×φ golden (loose)
 - **J Uranus** (same body: S Uranus → J Uranus RA 111.4324 111.111 ninth (loose))
   - sky line to Uranus: S Moon → Uranus Dec 11.1153 11.1111 ninth (93.22)
-  - star rows: J Markab → J Uranus Dec 38.0052 38 whole (54.52)
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - other chart, star rows: H Alpheratz → H Uranus RA 0.0854 conj (88.93)
     - source line: S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
-  - other chart, star rows: H Markab → H Uranus RA 15.9929 16 whole (41.59)
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
 - **J Chiron** (same body: S Chiron → J Chiron Dec 5.5453 5.55556 ninth (loose))
   - star rows: J Acubens → J Chiron Dec 0.2059 conj (9.83)
     - source line: S Jupiter → Acubens RA 147.0032 147 whole (70.45)
@@ -175,8 +155,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
 - **J Quaoar** (same body: S Quaoar → J Quaoar Dec 1.3350 1.33333 ninth (loose))
   - sky line to Quaoar: S Moon → Quaoar Dec 41.4235 41.4 silver (97.91)
-  - star rows: J Markab → J Quaoar RA 108.4103 67×φ golden (87.71)
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
 - **J Gonggong** (same body: S Gonggong → J Gonggong RA 7.0169 7 whole (2.40))
   - star rows: J Alpheratz → J Gonggong Dec 48.5442 30×φ golden (81.33)
     - source line: S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
@@ -223,11 +201,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Moon → H Neptune RA 122.2754 122.222 ninth (92.63) = S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
   - 122.222 ninth — also: 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
     - H Alphecca → H Vesta RA 122.2253 122.222 ninth (99.57) = S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
-  - 3 whole — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
-    - H Murzim → H Mercury Dec 3.0084 3 whole (33.89) = S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
   - 42 whole — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - H Scheat → H Gonggong Dec 41.9931 42 whole (42.64) = S Jupiter → Mirach Dec 41.9959 42 whole (63.40)
-  - 22 whole — also: 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - 22 whole — also: 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - J Menkar → J Saturn Dec 22.0191 22 whole (0.19) = S Moon → Menkar Dec 21.9956 22 whole (60.56)
   - 42 whole — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - J Sadalmelik → J Neptune RA 42.0184 42 whole (0.67) = S Jupiter → Mirach Dec 41.9959 42 whole (63.40)
@@ -236,19 +212,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Pallas → H Pallas RA 45.0074 45 whole (39.45)
   - 20 = 360/18 — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - H Alphecca → H Sedna Dec 20.0052 20 whole (54.64)
-  - 24 = 360/15 — also: 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
-    - H Markab → H Saturn Dec 24.0024 24 whole (77.66)
   - 18 = 360/20 — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - H Menkar → H Gonggong Dec 17.9983 18 whole (83.87)
   - 24 = 360/15 — also: 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
     - H Mirach → H Transpluto Dec 23.9817 24 whole (0.73)
-  - 3 = 360/120 — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
-    - H Murzim → H Mercury Dec 3.0084 3 whole (33.89)
-  - 6 = 360/60 — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
-    - H Murzim → H Neptune Dec 6.0148 6 whole (6.71)
-  - 4 = 360/90 — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - 4 = 360/90 — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
     - S Sedna → J Sedna Dec 4.0091 4 whole (29.75)
-  - 36 = 360/10 — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+  - 36 = 360/10 — also: 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods
     - J Zubeneschamali → J Pallas RA 35.9920 36 whole (35.82)
 - **5. same number in more than one place**
   - 7 whole — also: 5 Sir Apollo / Jonathan England
@@ -268,25 +238,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Alphecca → H Pluto Dec 46.0009 46 whole (90.78)
     - S Scheat → H Jupiter RA 46.0161 46 whole (3.79)
     - J Scheat → J Saturn Dec 46.0125 46 whole (14.24)
-  - 107×φ golden — also: 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
-    - H Markab → H Mars RA 173.1039 107×φ golden (4.15)
-    - S Sun → J Vesta RA 173.1368 107×φ golden (60.61)
-    - J Zubeneschamali → J Sedna RA 173.1557 107×φ golden (3.82)
-  - 24 whole — also: 5 Sir Apollo / Jonathan England
-    - H Markab → H Saturn Dec 24.0024 24 whole (77.66)
-    - H Mirach → H Transpluto Dec 23.9817 24 whole (0.73)
-  - 16 whole — also: 5 Sir Apollo / Jonathan England
-    - H Markab → H Uranus RA 15.9929 16 whole (41.59)
-    - J Scheat → J Gonggong RA 16.0019 16 whole (81.94)
   - 35 whole — only
     - H Menkent → H Pallas Dec 35.0170 35 whole (2.20)
     - J Acubens → J Rahu Dec 34.9955 35 whole (60.08)
   - 48 whole — also: 7 Black Opium / Stephen Mulqueen
     - H Menkent → H Transpluto Dec 48.0098 48 whole (26.19)
     - J Menkent → J Chiron Dec 48.0176 48 whole (1.44)
-  - 14 whole — only
-    - H Murzim → H Ceres Dec 14.0120 14 whole (15.91)
-    - H Murzim → H Eris Dec 14.0069 14 whole (42.94)
   - 42 whole — only
     - H Scheat → H Gonggong Dec 41.9931 42 whole (42.64)
     - J Sadalmelik → J Neptune RA 42.0184 42 whole (0.67)
@@ -296,43 +253,26 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 20×φ golden — also: 7 Black Opium / Stephen Mulqueen
     - J Jupiter → J star Algol Dec 32.3688 20×φ golden (56.05)
     - S Algol → J Jupiter Dec 32.3680 20×φ golden (59.83)
+  - 107×φ golden — also: 7 Black Opium / Stephen Mulqueen
+    - S Sun → J Vesta RA 173.1368 107×φ golden (60.61)
+    - J Zubeneschamali → J Sedna RA 173.1557 107×φ golden (3.82)
   - 39 whole — only
     - J Alphecca → J Mercury Dec 39.0078 39 whole (37.09)
     - J Menkent → J Orcus Dec 39.0092 39 whole (29.02)
-  - 32 whole — only
-    - J Markab → J Saturn RA 31.9944 32 whole (52.17)
-    - J Zubeneschamali → J Haumea Dec 32.0053 32 whole (54.06)
-  - 141.4 sqrt2 — also: 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
-    - J Murzim → J Saturn RA 141.4882 141.4 sqrt2 (82.00)
-    - J Sadalmelik → J Haumea RA 141.4779 141.4 sqrt2 (84.65)
 ### L4 every natal body
 - **Mars**
   - same body: S Mars → H Mars RA 133.1929 133.333 ninth (loose) — also: 2 Edmond Dantes / Brian Hughes
   - top rows: S Sun → H Mars Dec 11.0927 φ^5 phi power (91.01) — also: 7 Black Opium / Stephen Mulqueen
   - star rows: H Alpheratz → H Mars RA 170.9887 171 whole (18.73) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England
     - source line: S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
-  - star rows: H Markab → H Mars RA 173.1039 107×φ golden (4.15) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - star rows: J Acubens → J Mars Dec 33.0019 33 whole (81.67) — also: 6 Thundersockssundae / Kielan Woods
     - source line: S Jupiter → Acubens RA 147.0032 147 whole (70.45)
-  - star rows: J Murzim → J Mars RA 153.7326 95×φ golden (16.17) — also: 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: J Scheat → J Mars RA 43.9914 44 whole (32.41) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
 - **Saturn**
   - same body: S Saturn → H Saturn Dec 6.9711 7 whole (loose) — also: 2 Edmond Dantes / Brian Hughes
-  - star rows: H Markab → H Saturn RA 137.9935 138 whole (45.89) — only
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
-  - star rows: H Markab → H Saturn Dec 24.0024 24 whole (77.66) — only
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
-  - star rows: J Markab → J Saturn RA 31.9944 32 whole (52.17) — only
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - star rows: J Menkar → J Saturn Dec 22.0191 22 whole (0.19) — also: 6 Thundersockssundae / Kielan Woods
     - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
-  - star rows: J Murzim → J Saturn RA 141.4882 141.4 sqrt2 (82.00) — also: 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
-  - star rows: J Murzim → J Saturn Dec 0.0282 conj (82.06) — also: 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: J Scheat → J Saturn Dec 46.0125 46 whole (14.24) — also: 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
 - **Chiron**
@@ -395,16 +335,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
 - **Ceres**
   - top rows: S Sun → H Ceres Dec 0.2731 conj (0.80) — only
-  - star rows: H Murzim → H Ceres Dec 14.0120 14 whole (15.91) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: J Alphecca → J Ceres Dec 50.9925 51 whole (38.79) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
 - **Eris**
   - top rows: S Sun → H Eris Dec 0.2782 conj (0.53) — also: 7 Black Opium / Stephen Mulqueen
   - star rows: H Acubens → H Eris RA 110.0143 68×φ golden (39.59) — only
     - source line: S Jupiter → Acubens RA 147.0032 147 whole (70.45)
-  - star rows: H Murzim → H Eris Dec 14.0069 14 whole (42.94) — only
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: H Zubeneschamali → H Eris RA 155.3618 96×φ golden (0.33) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
     - source line: S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
 - **Haumea**
@@ -424,8 +360,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
 - **Neptune**
   - top rows: S Moon → H Neptune RA 122.2754 122.222 ninth (92.63) — also: 2 Edmond Dantes / Brian Hughes
-  - star rows: H Murzim → H Neptune Dec 6.0148 6 whole (6.71) — only
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: H Sadalmelik → H Neptune RA 0.9538 conj (13.26) — also: 3 Peak Time / Conor O'Farrell
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
   - star rows: J Mirach → J Neptune RA 88.0062 88 whole (47.31) — only
@@ -462,12 +396,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Mercury**
   - star rows: H Alpheratz → H Mercury RA 33.9906 34 whole (28.09) — also: 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
     - source line: S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
-  - star rows: H Murzim → H Mercury Dec 3.0084 3 whole (33.89) — also: 2 Edmond Dantes / Brian Hughes
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: J Alphecca → J Mercury Dec 39.0078 39 whole (37.09) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
-  - star rows: J Markab → J Mercury Dec 27.5011 17×φ golden (68.80) — also: 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - star rows: J Scheat → J Mercury RA 10.9894 11 whole (22.02) — also: 5 Sir Apollo / Jonathan England
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
 - **Venus**
@@ -476,12 +406,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Uranus**
   - star rows: H Alpheratz → H Uranus RA 0.0854 conj (88.93) — also: 7 Black Opium / Stephen Mulqueen
     - source line: S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
-  - star rows: H Markab → H Uranus RA 15.9929 16 whole (41.59) — also: 5 Sir Apollo / Jonathan England
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - same body: S Uranus → J Uranus RA 111.4324 111.111 ninth (loose) — also: 2 Edmond Dantes / Brian Hughes
     - source line: S Moon → Uranus Dec 11.1153 11.1111 ninth (93.22)
-  - star rows: J Markab → J Uranus Dec 38.0052 38 whole (54.52) — also: 5 Sir Apollo / Jonathan England
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
 - **Gonggong**
   - star rows: H Alpheratz → H Gonggong Dec 43.0003 43 whole (96.53) — only
     - source line: S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
@@ -502,8 +428,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Quaoar**
   - same body: S Quaoar → J Quaoar Dec 1.3350 1.33333 ninth (loose) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
     - source line: S Moon → Quaoar Dec 41.4235 41.4 silver (97.91)
-  - star rows: J Markab → J Quaoar RA 108.4103 67×φ golden (87.71) — also: 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
 - **Orcus**
   - star rows: J Menkent → J Orcus Dec 39.0092 39 whole (29.02) — only
     - source line: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
@@ -536,8 +460,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, same body: S Mercury → J Mercury RA 124.0036 124 whole (66.92)
   - other chart, star rows: J Alphecca → J Mercury Dec 1.6666 1.66667 ninth (99.85)
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
-  - other chart, star rows: J Murzim → J Mercury Dec 43.0060 43 whole (49.21)
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
 - **H Jupiter** (same body: S Jupiter → H Jupiter RA 179.5373 10×φ^6 phi power (loose))
   - top rows: S Rahu → H Jupiter RA 114.9965 115 whole (67.79)
   - top rows: S Ketu → H Jupiter RA 65.0035 65 whole (67.79)
@@ -566,8 +488,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Menkent → H Ceres RA 172.9868 173 whole (11.58)
     - source line: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
     - source line: S Moon → Menkent RA 117.0014 117 whole (86.48)
-  - star rows: H Murzim → H Ceres RA 71.0110 71 whole (20.19)
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: H Scheat → H Ceres Dec 28.0072 28 whole (40.89)
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
   - other chart, top rows: S Moon → J Ceres RA 0.8401 conj (19.36)
@@ -587,8 +507,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Mercury** (same body: S Mercury → J Mercury RA 124.0036 124 whole (66.92))
   - star rows: J Alphecca → J Mercury Dec 1.6666 1.66667 ninth (99.85)
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
-  - star rows: J Murzim → J Mercury Dec 43.0060 43 whole (49.21)
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - other chart, same body: S Mercury → H Mercury Dec 33.3929 33.3333 ninth (loose)
   - other chart, star rows: H Algol → H Mercury RA 22.9813 23 whole (0.44)
     - source line: S Sun → Algol RA 55.5518 55.5556 ninth (96.46)
@@ -600,15 +518,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → J Mars RA 1.4325 conj (0.20)
   - star rows: J Alpheratz → J Mars RA 94.0068 94 whole (43.62)
     - source line: S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
-  - star rows: J Markab → J Mars Dec 9.0136 9 whole (10.10)
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
-  - star rows: J Murzim → J Mars RA 0.4333 conj (50.57)
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - other chart, top rows: S Jupiter → H Mars Dec 14.5614 9×φ golden (94.41)
   - other chart, star rows: H Mirach → H Mars RA 146.9991 147 whole (90.89)
     - source line: S Jupiter → Mirach Dec 41.9959 42 whole (63.40)
-  - other chart, star rows: H Murzim → H Mars Dec 2.9817 3 whole (0.69)
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - other chart, star rows: H Sadalmelik → H Mars RA 101.0158 101 whole (4.34)
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
   - other chart, star rows: H Scheat → H Mars Dec 49.0186 49 whole (0.46)
@@ -631,10 +543,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Algol → H Pluto Dec 61.9950 62 whole (56.48)
     - source line: S Sun → Algol RA 55.5518 55.5556 ninth (96.46)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 14.4187 14.4444 ninth (loose))
-  - star rows: J Markab → J Makemake RA 176.3892 109×φ golden (7.59)
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
-  - star rows: J Markab → J Makemake Dec 21.9805 22 whole (0.06)
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - star rows: J Menkar → J Makemake RA 117.0144 117 whole (7.76)
     - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
   - other chart, star rows: H Sadalmelik → H Makemake Dec 25.9899 26 whole (24.37)
@@ -652,20 +560,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Acubens → H Orcus RA 16.1876 10×φ^1 phi power (82.85) = S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
   - 147 whole — also: 3 Peak Time / Conor O'Farrell
     - H Mirach → H Mars RA 146.9991 147 whole (90.89) = S Jupiter → Acubens RA 147.0032 147 whole (70.45)
-  - 3 whole — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
-    - H Murzim → H Mars Dec 2.9817 3 whole (0.69) = S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
   - 42 whole — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - J Algol → J Vesta Dec 41.9810 42 whole (0.24) = S Jupiter → Mirach Dec 41.9959 42 whole (63.40)
-  - 2 whole — also: 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
-    - J Markab → J Rahu Dec 1.9937 2 whole (47.23) = S Moon → Scheat Dec 1.9986 2 whole (86.84)
-  - 22 whole — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
-    - J Markab → J Makemake Dec 21.9805 22 whole (0.06) = S Moon → Menkar Dec 21.9956 22 whole (60.56)
   - 117 whole — also: 5 Sir Apollo / Jonathan England
     - J Menkar → J Makemake RA 117.0144 117 whole (7.76) = S Moon → Menkent RA 117.0014 117 whole (86.48)
 - **4. circle divisions**
   - 72 = 360/5 — also: 3 Peak Time / Conor O'Farrell
     - S Saturn → H Saturn RA 72.0143 72 whole (8.13)
-  - 10 = 360/36 — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+  - 10 = 360/36 — also: 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
     - S Neptune → H Neptune RA 10.0151 10 whole (5.91)
   - 9 = 360/40 — also: 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
     - S Quaoar → H Quaoar RA 9.0208 9 whole (loose)
@@ -673,60 +575,41 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Jupiter → H Uranus Dec 15.0004 15 whole (96.36)
   - 2 = 360/180 — also: 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - S Sun → H Ketu Dec 1.9970 2 whole (72.34)
-  - 6 = 360/60 — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+  - 6 = 360/60 — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
     - H Alphecca → H Mercury Dec 6.0192 6 whole (0.15)
   - 9 = 360/40 — also: 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
     - H Alphecca → H Haumea Dec 9.0163 9 whole (3.35)
-  - 10 = 360/36 — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
-    - H Markab → H Gonggong RA 10.0003 10 whole (96.58)
   - 12 = 360/30 — only
     - H Menkar → H Neptune Dec 12.0071 12 whole (41.54)
-  - 4 = 360/90 — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - 4 = 360/90 — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
     - H Menkar → H Ceres Dec 4.0154 4 whole (5.19)
   - 45 = 360/8 — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
     - H Menkent → H Uranus Dec 44.9991 45 whole (90.97)
-  - 3 = 360/120 — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
-    - H Murzim → H Mars Dec 2.9817 3 whole (0.69)
-  - 6 = 360/60 — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+  - 6 = 360/60 — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
     - H Sadalmelik → H Rahu Dec 5.9906 6 whole (27.93)
   - 18 = 360/20 — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - H Sadalmelik → H Haumea Dec 18.0193 18 whole (0.13)
-  - 36 = 360/10 — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+  - 36 = 360/10 — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods
     - H Scheat → H Neptune Dec 35.9989 36 whole (89.11)
   - 18 = 360/20 — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - H Zubeneschamali → H Uranus Dec 18.0076 18 whole (38.64)
-  - 6 = 360/60 — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+  - 6 = 360/60 — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
     - H Zubeneschamali → H Quaoar Dec 6.0014 6 whole (86.60)
-  - 6 = 360/60 — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+  - 6 = 360/60 — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
     - J Acubens → J Chiron Dec 6.0195 6 whole (0.08)
-  - 9 = 360/40 — also: 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
-    - J Markab → J Mars Dec 9.0136 9 whole (10.10)
-  - 9 = 360/40 — also: 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
-    - J Markab → J Juno Dec 8.9827 9 whole (1.85)
-  - 2 = 360/180 — also: 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
-    - J Markab → J Rahu Dec 1.9937 2 whole (47.23)
   - 180 = 360/2 — only
     - J Menkar → J Ketu RA 179.9803 180 whole (0.02)
-  - 10 = 360/36 — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+  - 10 = 360/36 — also: 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
     - J Sadalmelik → J Eris Dec 9.9937 10 whole (46.67)
-  - 4 = 360/90 — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - 4 = 360/90 — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
     - J Sadalmelik → J Sedna Dec 4.0009 4 whole (91.12)
 - **5. same number in more than one place**
-  - 10×φ^6 phi power — only
-    - S Jupiter → H Jupiter RA 179.5373 10×φ^6 phi power (loose)
-    - H Markab → H Rahu RA 179.4326 10×φ^6 phi power (97.77)
   - 10 whole — only
     - S Neptune → H Neptune RA 10.0151 10 whole (5.91)
-    - H Markab → H Gonggong RA 10.0003 10 whole (96.58)
     - J Sadalmelik → J Eris Dec 9.9937 10 whole (46.67)
-  - 9 whole — also: 7 Black Opium / Stephen Mulqueen
+  - 9 whole — only
     - S Quaoar → H Quaoar RA 9.0208 9 whole (loose)
     - H Alphecca → H Haumea Dec 9.0163 9 whole (3.35)
-    - J Markab → J Mars Dec 9.0136 9 whole (10.10)
-    - J Markab → J Juno Dec 8.9827 9 whole (1.85)
-  - 2 whole — also: 6 Thundersockssundae / Kielan Woods
-    - S Sun → H Ketu Dec 1.9970 2 whole (72.34)
-    - J Markab → J Rahu Dec 1.9937 2 whole (47.23)
   - 153 whole — only
     - H Acubens → H Pluto RA 152.9885 153 whole (18.16)
     - J Zubeneschamali → J Eris RA 153.0024 153 whole (77.36)
@@ -736,7 +619,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 144.444 ninth — only
     - H Alphecca → H Sun RA 144.4278 144.444 ninth (98.24)
     - S Uranus → J Uranus RA 144.7916 144.444 ninth (loose)
-  - 6 whole — also: 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
+  - 6 whole — also: 3 Peak Time / Conor O'Farrell
     - H Alphecca → H Mercury Dec 6.0192 6 whole (0.15)
     - H Sadalmelik → H Rahu Dec 5.9906 6 whole (27.93)
     - H Zubeneschamali → H Quaoar Dec 6.0014 6 whole (86.60)
@@ -768,8 +651,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Mercury → J Mercury RA 124.0036 124 whole (66.92) — only
   - star rows: J Alphecca → J Mercury Dec 1.6666 1.66667 ninth (99.85) — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
-  - star rows: J Murzim → J Mercury Dec 43.0060 43 whole (49.21) — also: 1 Vocaliser / Fergus Gregory
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
 - **Jupiter**
   - same body: S Jupiter → H Jupiter RA 179.5373 10×φ^6 phi power (loose) — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
   - top rows: S Rahu → H Jupiter RA 114.9965 115 whole (67.79) — only
@@ -802,8 +683,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Menkent → H Ceres RA 172.9868 173 whole (11.58) — also: 5 Sir Apollo / Jonathan England
     - source line: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
     - source line: S Moon → Menkent RA 117.0014 117 whole (86.48)
-  - star rows: H Murzim → H Ceres RA 71.0110 71 whole (20.19) — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: H Scheat → H Ceres Dec 28.0072 28 whole (40.89) — only
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
   - top rows: S Moon → J Ceres RA 0.8401 conj (19.36) — only
@@ -825,22 +704,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - T1: H Jupiter → H Rahu RA 0.4014 conj (53.64) — only
   - star rows: H Algol → H Rahu RA 119.7224 74×φ golden (39.01) — also: 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - source line: S Sun → Algol RA 55.5518 55.5556 ninth (96.46)
-  - star rows: H Markab → H Rahu RA 179.4326 10×φ^6 phi power (97.77) — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - star rows: H Sadalmelik → H Rahu Dec 5.9906 6 whole (27.93) — also: 5 Sir Apollo / Jonathan England
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
   - star rows: J Algol → J Rahu RA 1.4905 conj (0.00) — also: 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - source line: S Sun → Algol RA 55.5518 55.5556 ninth (96.46)
-  - star rows: J Markab → J Rahu Dec 1.9937 2 whole (47.23) — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - star rows: J Menkar → J Rahu RA 0.0197 conj (97.39) — also: 7 Black Opium / Stephen Mulqueen
     - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
 - **Mars**
   - top rows: S Jupiter → H Mars Dec 14.5614 9×φ golden (94.41) — only
   - star rows: H Mirach → H Mars RA 146.9991 147 whole (90.89) — also: 5 Sir Apollo / Jonathan England
     - source line: S Jupiter → Mirach Dec 41.9959 42 whole (63.40)
-  - star rows: H Murzim → H Mars Dec 2.9817 3 whole (0.69) — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: H Sadalmelik → H Mars RA 101.0158 101 whole (4.34) — also: 3 Peak Time / Conor O'Farrell
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
   - star rows: H Scheat → H Mars Dec 49.0186 49 whole (0.46) — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England
@@ -851,10 +724,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → J Mars RA 1.4325 conj (0.20) — also: 5 Sir Apollo / Jonathan England
   - star rows: J Alpheratz → J Mars RA 94.0068 94 whole (43.62) — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England
     - source line: S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
-  - star rows: J Markab → J Mars Dec 9.0136 9 whole (10.10) — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
-  - star rows: J Murzim → J Mars RA 0.4333 conj (50.57) — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
 - **Uranus**
   - top rows: S Jupiter → H Uranus Dec 15.0004 15 whole (96.36) — only
   - star rows: H Menkent → H Uranus Dec 44.9991 45 whole (90.97) — only
@@ -869,8 +738,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Ketu**
   - top rows: S Jupiter → H Ketu RA 0.8641 conj (17.97) — only
   - top rows: S Sun → H Ketu Dec 1.9970 2 whole (72.34) — only
-  - star rows: H Markab → H Ketu RA 0.5674 conj (38.66) — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - star rows: H Scheat → H Ketu RA 0.8132 conj (20.97) — also: 6 Thundersockssundae / Kielan Woods
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
   - star rows: J Menkar → J Ketu RA 179.9803 180 whole (0.02) — also: 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
@@ -899,8 +766,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Pallas**
   - star rows: H Algol → H Pallas Dec 26.9963 27 whole (66.43) — also: 6 Thundersockssundae / Kielan Woods
     - source line: S Sun → Algol RA 55.5518 55.5556 ninth (96.46)
-  - star rows: H Murzim → H Pallas RA 126.0191 126 whole (0.21) — only
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: J Sadalmelik → J Pallas Dec 0.2836 conj (0.30) — only
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
 - **Haumea**
@@ -926,11 +791,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
   - star rows: J Mirach → J Sun Dec 12.2259 12.2222 ninth (94.93) — also: 6 Thundersockssundae / Kielan Woods
     - source line: S Jupiter → Mirach Dec 41.9959 42 whole (63.40)
-- **Gonggong**
-  - star rows: H Markab → H Gonggong RA 10.0003 10 whole (96.58) — also: 5 Sir Apollo / Jonathan England
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
-  - star rows: H Sadalmelik → H Gonggong Dec 12.2248 12.2222 ninth (96.43) — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
-    - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
 - **Eris**
   - star rows: H Menkar → H Eris RA 19.4165 12×φ golden (99.57) — also: 6 Thundersockssundae / Kielan Woods
     - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
@@ -942,8 +802,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Menkent → H Juno RA 0.0883 conj (88.57) — also: 3 Peak Time / Conor O'Farrell
     - source line: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
     - source line: S Moon → Menkent RA 117.0014 117 whole (86.48)
-  - star rows: J Markab → J Juno Dec 8.9827 9 whole (1.85) — only
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
 - **Vesta**
   - star rows: H Menkent → H Vesta Dec 56.0116 56 whole (17.48) — only
     - source line: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
@@ -961,27 +819,22 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Mirach Dec 41.9959 42 whole (63.40)
   - star rows: H Sadalmelik → H Transpluto RA 179.0044 179 whole (61.00) — also: 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
-  - star rows: J Markab → J Transpluto Dec 0.2777 conj (0.55) — only
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
+- **Makemake**
+  - star rows: H Sadalmelik → H Makemake Dec 25.9899 26 whole (24.37) — also: 5 Sir Apollo / Jonathan England
+    - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
+  - same body: S Makemake → J Makemake Dec 14.4187 14.4444 ninth (loose) — also: 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - star rows: J Menkar → J Makemake RA 117.0144 117 whole (7.76) — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+    - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
+- **Gonggong**
+  - star rows: H Sadalmelik → H Gonggong Dec 12.2248 12.2222 ninth (96.43) — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
+    - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
 - **Chiron**
-  - star rows: H Murzim → H Chiron RA 101.9461 63×φ golden (48.07) — only
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: H Scheat → H Chiron RA 7.7771 7.77778 ninth (94.46) — also: 6 Thundersockssundae / Kielan Woods
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
   - star rows: J Acubens → J Chiron Dec 6.0195 6 whole (0.08) — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England
     - source line: S Jupiter → Acubens RA 147.0032 147 whole (70.45)
   - star rows: J Sadalmelik → J Chiron RA 98.0159 98 whole (4.26) — also: 6 Thundersockssundae / Kielan Woods
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
-- **Makemake**
-  - star rows: H Sadalmelik → H Makemake Dec 25.9899 26 whole (24.37) — also: 5 Sir Apollo / Jonathan England
-    - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
-  - same body: S Makemake → J Makemake Dec 14.4187 14.4444 ninth (loose) — also: 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
-  - star rows: J Markab → J Makemake RA 176.3892 109×φ golden (7.59) — also: 3 Peak Time / Conor O'Farrell
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
-  - star rows: J Markab → J Makemake Dec 21.9805 22 whole (0.06) — also: 3 Peak Time / Conor O'Farrell
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
-  - star rows: J Menkar → J Makemake RA 117.0144 117 whole (7.76) — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
-    - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
 
 ## 3 Peak Time / Conor O'Farrell
 ### L1 same bodies
@@ -1028,8 +881,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - sky line to Quaoar: S Moon → Quaoar Dec 41.4235 41.4 silver (97.91)
   - other chart, star rows: J Algol → J Quaoar RA 175.0193 175 whole (0.14)
     - source line: S Sun → Algol RA 55.5518 55.5556 ninth (96.46)
-  - other chart, star rows: J Murzim → J Quaoar Dec 5.0072 5 whole (41.24)
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
 - **J Ceres** (same body: S Ceres → J Ceres Dec 4.0027 4 whole (74.75))
   - other chart, same body: S Ceres → H Ceres Dec 6.0089 6 whole (30.76)
 - **J Juno** (same body: S Juno → J Juno Dec 15.4873 15.5556 ninth (loose))
@@ -1038,10 +889,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Menkent → J Juno RA 40.0108 40 whole (21.14)
     - source line: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
     - source line: S Moon → Menkent RA 117.0014 117 whole (86.48)
-  - star rows: J Murzim → J Juno RA 75.9917 76 whole (34.01)
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
-  - other chart, star rows: H Murzim → H Juno RA 142.3954 88×φ golden (54.99)
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - other chart, star rows: H Zubeneschamali → H Juno RA 84.0192 84 whole (0.17)
     - source line: S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
 - **J Sedna** (same body: S Sedna → J Sedna RA 16.0157 16 whole (4.67); S Sedna → J Sedna Dec 3.9845 4 whole (5.01))
@@ -1064,13 +911,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Sedna → J Sedna RA 16.0157 16 whole (4.67)
     - S Sedna → J Sedna Dec 3.9845 4 whole (5.01)
 - **3. runner number = sky number**
-  - 1 whole — also: 5 Sir Apollo / Jonathan England
-    - S Sedna → H Sedna Dec 1.0110 1 whole (20.37) = S Moon → Murzim RA 1.0066 1 whole (45.23)
   - 30 whole — also: 6 Thundersockssundae / Kielan Woods
     - H Algol → H Jupiter RA 29.9817 30 whole (0.71) = S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
   - 122.222 ninth — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods
     - H Sadalmelik → H Vesta RA 122.2697 122.222 ninth (93.42) = S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
-  - 3 whole — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
+  - 3 whole — also: 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
     - H Sadalmelik → H Eris Dec 2.9928 3 whole (41.16) = S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
   - 30 whole — also: 6 Thundersockssundae / Kielan Woods
     - S Pallas → J Jupiter Dec 29.9945 30 whole (52.38) = S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
@@ -1079,7 +924,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 147 whole — also: 2 Edmond Dantes / Brian Hughes
     - J Zubeneschamali → J Pallas RA 147.0179 147 whole (1.15) = S Jupiter → Acubens RA 147.0032 147 whole (70.45)
 - **4. circle divisions**
-  - 6 = 360/60 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+  - 6 = 360/60 — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
     - S Ceres → H Ceres Dec 6.0089 6 whole (30.76)
   - 1 = 360/360 — also: 5 Sir Apollo / Jonathan England
     - S Sedna → H Sedna Dec 1.0110 1 whole (20.37)
@@ -1087,27 +932,25 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Algol → H Jupiter RA 29.9817 30 whole (0.71)
   - 15 = 360/24 — also: 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods
     - H Alphecca → H Transpluto Dec 14.9847 15 whole (5.49)
-  - 4 = 360/90 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
-    - H Markab → H Chiron RA 4.0008 4 whole (92.27)
   - 8 = 360/45 — also: 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - H Mirach → H Eris RA 7.9915 8 whole (33.06)
   - 15 = 360/24 — also: 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods
     - H Sadalmelik → H Mars Dec 14.9951 15 whole (56.86)
-  - 10 = 360/36 — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+  - 10 = 360/36 — also: 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods
     - H Sadalmelik → H Neptune Dec 9.9933 10 whole (43.91)
-  - 3 = 360/120 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
+  - 3 = 360/120 — also: 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
     - H Sadalmelik → H Eris Dec 2.9928 3 whole (41.16)
   - 9 = 360/40 — also: 2 Edmond Dantes / Brian Hughes, 7 Black Opium / Stephen Mulqueen
     - H Scheat → H Neptune RA 8.9852 9 whole (6.63)
-  - 4 = 360/90 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - 4 = 360/90 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
     - S Ceres → J Ceres Dec 4.0027 4 whole (74.75)
-  - 4 = 360/90 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - 4 = 360/90 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
     - S Sedna → J Sedna Dec 3.9845 4 whole (5.01)
   - 15 = 360/24 — also: 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods
     - S Sun → J Venus Dec 14.9969 15 whole (71.00)
   - 30 = 360/12 — also: 6 Thundersockssundae / Kielan Woods
     - S Pallas → J Jupiter Dec 29.9945 30 whole (52.38)
-  - 6 = 360/60 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+  - 6 = 360/60 — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
     - J Alpheratz → J Jupiter Dec 5.9935 6 whole (45.67)
   - 40 = 360/9 — only
     - J Menkent → J Juno RA 40.0108 40 whole (21.14)
@@ -1115,8 +958,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Menkent → J Makemake Dec 71.9874 72 whole (13.84)
   - 45 = 360/8 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 7 Black Opium / Stephen Mulqueen
     - J Mirach → J Eris Dec 45.0016 45 whole (85.07)
-  - 5 = 360/72 — also: 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
-    - J Murzim → J Quaoar Dec 5.0072 5 whole (41.24)
   - 20 = 360/18 — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - J Sadalmelik → J Gonggong Dec 19.9848 20 whole (5.74)
   - 5 = 360/72 — also: 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
@@ -1124,7 +965,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 45 = 360/8 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 7 Black Opium / Stephen Mulqueen
     - J Zubeneschamali → J Makemake Dec 44.9993 45 whole (92.70)
 - **5. same number in more than one place**
-  - 6 whole — also: 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods
+  - 6 whole — also: 2 Edmond Dantes / Brian Hughes
     - S Ceres → H Ceres Dec 6.0089 6 whole (30.76)
     - J Alpheratz → J Jupiter Dec 5.9935 6 whole (45.67)
   - 14.4444 ninth — only
@@ -1133,15 +974,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 30 whole — also: 6 Thundersockssundae / Kielan Woods
     - H Algol → H Jupiter RA 29.9817 30 whole (0.71)
     - S Pallas → J Jupiter Dec 29.9945 30 whole (52.38)
-  - 34 whole — only
-    - H Alphecca → H Orcus Dec 34.0047 34 whole (58.54)
-    - H Murzim → H Sun Dec 33.9940 34 whole (49.31)
   - 15 whole — only
     - H Alphecca → H Transpluto Dec 14.9847 15 whole (5.49)
     - H Sadalmelik → H Mars Dec 14.9951 15 whole (56.86)
     - S Sun → J Venus Dec 14.9969 15 whole (71.00)
   - 4 whole — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England
-    - H Markab → H Chiron RA 4.0008 4 whole (92.27)
     - S Ceres → J Ceres Dec 4.0027 4 whole (74.75)
     - S Sedna → J Sedna Dec 3.9845 4 whole (5.01)
   - 19 whole — only
@@ -1153,9 +990,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 45 whole — only
     - J Mirach → J Eris Dec 45.0016 45 whole (85.07)
     - J Zubeneschamali → J Makemake Dec 44.9993 45 whole (92.70)
-  - 5 whole — also: 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
-    - J Murzim → J Quaoar Dec 5.0072 5 whole (41.24)
-    - J Scheat → J Jupiter Dec 4.9855 5 whole (7.64)
 ### L4 every natal body
 - **Jupiter**
   - same body: S Jupiter → H Jupiter Dec 28.9642 φ^7 phi power (loose) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
@@ -1196,8 +1030,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Quaoar Dec 41.4235 41.4 silver (97.91)
   - star rows: J Algol → J Quaoar RA 175.0193 175 whole (0.14) — also: 7 Black Opium / Stephen Mulqueen
     - source line: S Sun → Algol RA 55.5518 55.5556 ninth (96.46)
-  - star rows: J Murzim → J Quaoar Dec 5.0072 5 whole (41.24) — also: 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
 - **Pallas**
   - top rows: S Sun → H Pallas Dec 0.2316 conj (5.20) — only
   - star rows: J Mirach → J Pallas RA 1.1627 conj (5.06) — also: 5 Sir Apollo / Jonathan England
@@ -1211,8 +1043,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Makemake**
   - star rows: H Acubens → H Makemake RA 55.9819 56 whole (0.88) — also: 7 Black Opium / Stephen Mulqueen
     - source line: S Jupiter → Acubens RA 147.0032 147 whole (70.45)
-  - star rows: H Markab → H Makemake RA 155.5839 155.556 ninth (97.31) — also: 2 Edmond Dantes / Brian Hughes
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - star rows: H Scheat → H Makemake RA 155.3376 96×φ golden (64.62) — also: 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
   - star rows: J Menkar → J Makemake RA 122.0131 122 whole (11.79) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
@@ -1232,8 +1062,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Venus**
   - star rows: H Algol → H Venus RA 4.1428 4.14 silver (94.54) — only
     - source line: S Sun → Algol RA 55.5518 55.5556 ninth (96.46)
-  - star rows: H Markab → H Venus RA 64.9903 65 whole (26.68) — also: 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - top rows: S Sun → J Venus Dec 14.9969 15 whole (71.00) — also: 7 Black Opium / Stephen Mulqueen
   - star rows: J Menkar → J Venus RA 111.1460 111.111 ninth (94.30) — also: 7 Black Opium / Stephen Mulqueen
     - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
@@ -1244,8 +1072,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Algol RA 55.5518 55.5556 ninth (96.46)
   - star rows: H Alphecca → H Orcus Dec 34.0047 34 whole (58.54) — also: 7 Black Opium / Stephen Mulqueen
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
-  - star rows: H Markab → H Orcus RA 161.8551 100×φ^1 phi power (87.63) — only
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
 - **Mercury**
   - star rows: H Alphecca → H Mercury Dec 14.4435 14.4444 ninth (99.00) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
@@ -1253,16 +1079,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Alpheratz → H Saturn RA 146.0018 146 whole (83.05) — also: 2 Edmond Dantes / Brian Hughes
     - source line: S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
   - top rows: S Sun → J Saturn Dec 18.8827 18.8889 ninth (95.54) — only
-- **Chiron**
-  - star rows: H Markab → H Chiron RA 4.0008 4 whole (92.27) — also: 6 Thundersockssundae / Kielan Woods
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
-  - star rows: J Algol → J Chiron RA 54.9885 55 whole (18.05) — only
-    - source line: S Sun → Algol RA 55.5518 55.5556 ninth (96.46)
-- **Ketu**
-  - star rows: H Markab → H Ketu Dec 1.6187 1×φ golden (96.22) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
-  - star rows: H Menkar → H Ketu RA 1.3485 conj (1.02) — also: 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods
-    - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
 - **Gonggong**
   - star rows: H Menkar → H Gonggong RA 70.0124 70 whole (14.54) — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods
     - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
@@ -1272,6 +1088,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Acubens RA 147.0032 147 whole (70.45)
   - star rows: J Sadalmelik → J Gonggong Dec 19.9848 20 whole (5.74) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
+- **Ketu**
+  - star rows: H Menkar → H Ketu RA 1.3485 conj (1.02) — also: 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods
+    - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
 - **Eris**
   - star rows: H Mirach → H Eris RA 7.9915 8 whole (33.06) — also: 6 Thundersockssundae / Kielan Woods
     - source line: S Jupiter → Mirach Dec 41.9959 42 whole (63.40)
@@ -1284,14 +1103,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Mirach Dec 41.9959 42 whole (63.40)
   - star rows: J Zubeneschamali → J Eris Dec 0.0002 conj (99.84) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 7 Black Opium / Stephen Mulqueen
     - source line: S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
-- **Sun**
-  - star rows: H Murzim → H Sun Dec 33.9940 34 whole (49.31) — only
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
-  - star rows: J Alphecca → J Sun RA 106.7640 66×φ golden (3.63) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England
-    - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
+- **Mars**
+  - star rows: H Sadalmelik → H Mars Dec 14.9951 15 whole (56.86) — also: 2 Edmond Dantes / Brian Hughes
+    - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
+  - star rows: J Zubeneschamali → J Mars RA 80.9043 50×φ golden (84.29) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+    - source line: S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
 - **Juno**
-  - star rows: H Murzim → H Juno RA 142.3954 88×φ golden (54.99) — also: 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: H Zubeneschamali → H Juno RA 84.0192 84 whole (0.17) — only
     - source line: S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
   - same body: S Juno → J Juno Dec 15.4873 15.5556 ninth (loose) — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
@@ -1300,17 +1117,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Menkent → J Juno RA 40.0108 40 whole (21.14) — also: 2 Edmond Dantes / Brian Hughes
     - source line: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
     - source line: S Moon → Menkent RA 117.0014 117 whole (86.48)
-  - star rows: J Murzim → J Juno RA 75.9917 76 whole (34.01) — also: 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
-- **Mars**
-  - star rows: H Sadalmelik → H Mars Dec 14.9951 15 whole (56.86) — also: 2 Edmond Dantes / Brian Hughes
-    - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
-  - star rows: J Zubeneschamali → J Mars RA 80.9043 50×φ golden (84.29) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
-    - source line: S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
 - **Haumea**
   - T2: J Jupiter → J Haumea Dec 0.0518 conj (68.44) — also: 6 Thundersockssundae / Kielan Woods
-  - star rows: J Murzim → J Haumea Dec 40.9984 41 whole (84.43) — also: 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: J Sadalmelik → J Haumea RA 145.6195 90×φ golden (79.11) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
 - **Uranus**
@@ -1322,13 +1130,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Pluto**
   - star rows: J Algol → J Pluto RA 177.7815 177.778 ninth (99.71) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England
     - source line: S Sun → Algol RA 55.5518 55.5556 ninth (96.46)
-  - star rows: J Markab → J Pluto RA 121.3722 75×φ golden (15.52) — also: 6 Thundersockssundae / Kielan Woods
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - star rows: J Sadalmelik → J Pluto Dec 0.1945 conj (12.38) — only
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
-- **Rahu**
-  - star rows: J Markab → J Rahu Dec 28.0175 28 whole (1.50) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
+- **Chiron**
+  - star rows: J Algol → J Chiron RA 54.9885 55 whole (18.05) — only
+    - source line: S Sun → Algol RA 55.5518 55.5556 ninth (96.46)
+- **Sun**
+  - star rows: J Alphecca → J Sun RA 106.7640 66×φ golden (3.63) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England
+    - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
 
 ## 5 Sir Apollo / Jonathan England
 ### L1 same bodies
@@ -1367,8 +1176,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
   - star rows: H Scheat → H Pallas Dec 5.9911 6 whole (30.66)
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
-  - other chart, star rows: J Markab → J Pallas RA 173.1123 107×φ golden (21.58)
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - other chart, star rows: J Mirach → J Pallas Dec 24.1467 24.14 silver (92.57)
     - source line: S Jupiter → Mirach Dec 41.9959 42 whole (63.40)
 - **H Vesta** (same body: S Vesta → H Vesta Dec 11.1208 11.1111 ninth (loose))
@@ -1378,16 +1185,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Eris** (same body: S Eris → H Eris Dec 1.5499 1.55556 ninth (loose))
   - star rows: H Alphecca → H Eris RA 152.0131 152 whole (11.91)
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
-  - star rows: H Markab → H Eris Dec 17.9973 18 whole (74.85)
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - star rows: H Menkent → H Eris RA 174.0174 174 whole (1.74)
     - source line: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
     - source line: S Moon → Menkent RA 117.0014 117 whole (86.48)
   - other chart, star rows: J Scheat → J Eris Dec 37.0153 37 whole (5.63)
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
 - **H Gonggong** (same body: S Gonggong → H Gonggong RA 0.9720 1 whole (loose); S Gonggong → H Gonggong Dec 1.6146 1×φ golden (loose))
-  - star rows: H Markab → H Gonggong Dec 28.0102 28 whole (24.00)
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - other chart, star rows: J Sadalmelik → J Gonggong RA 1.1365 conj (5.87)
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
 - **J Sedna** (same body: S Sedna → J Sedna RA 15.9959 16 whole (63.21))
@@ -1399,8 +1202,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 40.9912 41 whole (31.44))
   - sky line to Quaoar: S Moon → Quaoar Dec 41.4235 41.4 silver (97.91)
   - top rows: S Moon → J Quaoar RA 141.4689 141.4 sqrt2 (87.00)
-  - star rows: J Markab → J Quaoar RA 110.0470 68×φ golden (13.00)
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - other chart, star rows: H Menkar → H Quaoar RA 138.0034 138 whole (69.04)
     - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
 ### L3 matches
@@ -1412,15 +1213,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **3. runner number = sky number**
   - 11.1111 ninth — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods
     - S Vesta → H Vesta Dec 11.1208 11.1111 ninth (loose) = S Moon → Uranus Dec 11.1153 11.1111 ninth (93.22)
-  - 1 whole — also: 3 Peak Time / Conor O'Farrell
-    - S Gonggong → H Gonggong RA 0.9720 1 whole (loose) = S Moon → Murzim RA 1.0066 1 whole (45.23)
-  - 1 whole — also: 3 Peak Time / Conor O'Farrell
-    - S Moon → J Mars Dec 1.0021 1 whole (80.04) = S Moon → Murzim RA 1.0066 1 whole (45.23)
-  - 3 whole — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
+  - 3 whole — also: 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
     - J Acubens → J Chiron Dec 3.0103 3 whole (23.42) = S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
-  - 1 whole — also: 3 Peak Time / Conor O'Farrell
-    - J Menkent → J Ceres RA 0.9872 1 whole (13.05) = S Moon → Murzim RA 1.0066 1 whole (45.23)
-  - 3 whole — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
+  - 3 whole — also: 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
     - J Scheat → J Mars Dec 2.9983 3 whole (83.28) = S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
   - 117 whole — also: 2 Edmond Dantes / Brian Hughes
     - J Zubeneschamali → J Chiron RA 116.9958 117 whole (62.58) = S Moon → Menkent RA 117.0014 117 whole (86.48)
@@ -1429,25 +1224,19 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Jupiter → H Jupiter Dec 23.9837 24 whole (3.50)
   - 1 = 360/360 — also: 3 Peak Time / Conor O'Farrell
     - S Gonggong → H Gonggong RA 0.9720 1 whole (loose)
-  - 4 = 360/90 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - 4 = 360/90 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
     - S Moon → H Pallas Dec 3.9942 4 whole (50.59)
   - 5 = 360/72 — also: 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
     - H Alpheratz → H Mercury Dec 4.9904 5 whole (26.85)
-  - 24 = 360/15 — also: 1 Vocaliser / Fergus Gregory, 7 Black Opium / Stephen Mulqueen
-    - H Markab → H Neptune Dec 24.0042 24 whole (62.48)
-  - 18 = 360/20 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
-    - H Markab → H Eris Dec 17.9973 18 whole (74.85)
   - 20 = 360/18 — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - H Menkar → H Mercury Dec 20.0083 20 whole (34.21)
   - 18 = 360/20 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - H Menkar → H Pallas Dec 18.0009 18 whole (91.60)
   - 18 = 360/20 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - H Mirach → H Jupiter Dec 18.0099 18 whole (25.64)
-  - 36 = 360/10 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods
-    - H Murzim → H Haumea Dec 36.0083 36 whole (34.20)
-  - 4 = 360/90 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - 4 = 360/90 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
     - H Scheat → H Mercury Dec 3.9836 4 whole (3.30)
-  - 6 = 360/60 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
+  - 6 = 360/60 — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
     - H Scheat → H Pallas Dec 5.9911 6 whole (30.66)
   - 120 = 360/3 — also: 6 Thundersockssundae / Kielan Woods
     - S Sun → J Pluto RA 119.9950 120 whole (56.57)
@@ -1455,24 +1244,21 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Moon → J Mars Dec 1.0021 1 whole (80.04)
   - 24 = 360/15 — also: 1 Vocaliser / Fergus Gregory, 7 Black Opium / Stephen Mulqueen
     - S Neptune → J Jupiter Dec 23.9954 24 whole (59.49)
-  - 3 = 360/120 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
+  - 3 = 360/120 — also: 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
     - J Acubens → J Chiron Dec 3.0103 3 whole (23.42)
   - 5 = 360/72 — also: 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
     - J Algol → J Makemake Dec 5.0068 5 whole (43.36)
   - 18 = 360/20 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - J Alpheratz → J Mercury Dec 17.9815 18 whole (0.53)
-  - 4 = 360/90 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - 4 = 360/90 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
     - J Alpheratz → J Mars Dec 4.0072 4 whole (41.01)
   - 1 = 360/360 — also: 3 Peak Time / Conor O'Farrell
     - J Menkent → J Ceres RA 0.9872 1 whole (13.05)
-  - 10 = 360/36 — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
-    - J Murzim → J Juno Dec 9.9845 10 whole (5.01)
-  - 3 = 360/120 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
+  - 3 = 360/120 — also: 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
     - J Scheat → J Mars Dec 2.9983 3 whole (83.28)
 - **5. same number in more than one place**
-  - 24 whole — also: 1 Vocaliser / Fergus Gregory
+  - 24 whole — only
     - S Jupiter → H Jupiter Dec 23.9837 24 whole (3.50)
-    - H Markab → H Neptune Dec 24.0042 24 whole (62.48)
     - S Neptune → J Jupiter Dec 23.9954 24 whole (59.49)
   - 29 whole — only
     - S Pallas → H Pallas Dec 28.9869 29 whole (11.93)
@@ -1485,7 +1271,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Moon → H Pallas Dec 3.9942 4 whole (50.59)
     - H Scheat → H Mercury Dec 3.9836 4 whole (3.30)
     - J Alpheratz → J Mars Dec 4.0072 4 whole (41.01)
-  - 141.4 sqrt2 — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods
+  - 141.4 sqrt2 — also: 6 Thundersockssundae / Kielan Woods
     - H Algol → H Rahu RA 141.4201 141.4 sqrt2 (99.66)
     - S Moon → J Quaoar RA 141.4689 141.4 sqrt2 (87.00)
   - 105 whole — only
@@ -1494,39 +1280,29 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 152 whole — only
     - H Alphecca → H Eris RA 152.0131 152 whole (11.91)
     - H Alpheratz → H Haumea RA 151.9855 152 whole (7.63)
-  - 5 whole — also: 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
+  - 5 whole — also: 6 Thundersockssundae / Kielan Woods
     - H Alpheratz → H Mercury Dec 4.9904 5 whole (26.85)
     - J Algol → J Makemake Dec 5.0068 5 whole (43.36)
   - 7 whole — also: 1 Vocaliser / Fergus Gregory
     - H Alpheratz → H Pallas Dec 6.9978 7 whole (79.26)
     - J Menkar → J Mercury Dec 7.0185 7 whole (0.54)
   - 18 whole — also: 2 Edmond Dantes / Brian Hughes
-    - H Markab → H Eris Dec 17.9973 18 whole (74.85)
     - H Menkar → H Pallas Dec 18.0009 18 whole (91.60)
     - H Mirach → H Jupiter Dec 18.0099 18 whole (25.64)
     - J Alpheratz → J Mercury Dec 17.9815 18 whole (0.53)
-  - 28 whole — only
-    - H Markab → H Gonggong Dec 28.0102 28 whole (24.00)
-    - S Transpluto → J Jupiter RA 27.9955 28 whole (60.19)
   - 174 whole — only
     - H Menkent → H Eris RA 174.0174 174 whole (1.74)
     - J Acubens → J Saturn RA 173.9825 174 whole (1.53)
-  - 16 whole — also: 1 Vocaliser / Fergus Gregory
+  - 16 whole — only
     - H Mirach → H Mars Dec 15.9836 16 whole (3.21)
     - S Sedna → J Sedna RA 15.9959 16 whole (63.21)
   - 37 whole — only
     - H Sadalmelik → H Ketu RA 37.0104 37 whole (22.80)
     - H Zubeneschamali → H Makemake RA 36.9854 37 whole (7.27)
     - J Scheat → J Eris Dec 37.0153 37 whole (5.63)
-  - 58 whole — only
-    - H Scheat → H Sun RA 57.9963 58 whole (66.55)
-    - J Markab → J Neptune RA 57.9934 58 whole (45.12)
   - 3 whole — also: 7 Black Opium / Stephen Mulqueen
     - J Acubens → J Chiron Dec 3.0103 3 whole (23.42)
     - J Scheat → J Mars Dec 2.9983 3 whole (83.28)
-  - 107×φ golden — also: 1 Vocaliser / Fergus Gregory, 7 Black Opium / Stephen Mulqueen
-    - J Markab → J Pallas RA 173.1123 107×φ golden (21.58)
-    - J Zubeneschamali → J Sedna RA 173.1167 107×φ golden (36.00)
   - 1 and 1×φ on H Gonggong — only
     - S Gonggong → H Gonggong RA 0.9720 1 whole (loose)
     - S Gonggong → H Gonggong Dec 1.6146 1×φ golden (loose)
@@ -1558,8 +1334,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
   - star rows: H Scheat → H Pallas Dec 5.9911 6 whole (30.66) — only
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
-  - star rows: J Markab → J Pallas RA 173.1123 107×φ golden (21.58) — only
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - star rows: J Mirach → J Pallas Dec 24.1467 24.14 silver (92.57) — also: 3 Peak Time / Conor O'Farrell
     - source line: S Jupiter → Mirach Dec 41.9959 42 whole (63.40)
 - **Vesta**
@@ -1571,8 +1345,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Eris → H Eris Dec 1.5499 1.55556 ninth (loose) — also: 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
   - star rows: H Alphecca → H Eris RA 152.0131 152 whole (11.91) — only
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
-  - star rows: H Markab → H Eris Dec 17.9973 18 whole (74.85) — only
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - star rows: H Menkent → H Eris RA 174.0174 174 whole (1.74) — also: 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
     - source line: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
     - source line: S Moon → Menkent RA 117.0014 117 whole (86.48)
@@ -1581,8 +1353,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Gonggong**
   - same body: S Gonggong → H Gonggong RA 0.9720 1 whole (loose) — also: 1 Vocaliser / Fergus Gregory, 7 Black Opium / Stephen Mulqueen
   - same body: S Gonggong → H Gonggong Dec 1.6146 1×φ golden (loose) — also: 1 Vocaliser / Fergus Gregory, 7 Black Opium / Stephen Mulqueen
-  - star rows: H Markab → H Gonggong Dec 28.0102 28 whole (24.00) — also: 2 Edmond Dantes / Brian Hughes
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - star rows: J Sadalmelik → J Gonggong RA 1.1365 conj (5.87) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
 - **Rahu**
@@ -1591,22 +1361,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Algol RA 55.5518 55.5556 ninth (96.46)
   - star rows: H Sadalmelik → H Rahu RA 142.9896 143 whole (22.80) — also: 2 Edmond Dantes / Brian Hughes
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
-  - star rows: J Markab → J Rahu RA 50.9840 51 whole (4.03) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
 - **Venus**
   - top rows: S Moon → H Venus Dec 0.0867 conj (50.53) — also: 2 Edmond Dantes / Brian Hughes
   - star rows: H Alphecca → H Venus RA 144.4722 144.444 ninth (97.06) — also: 6 Thundersockssundae / Kielan Woods
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
-  - star rows: H Markab → H Venus RA 103.0184 103 whole (0.60) — also: 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - top rows: S Moon → J Venus RA 33.9782 21×φ golden (96.94) — also: 2 Edmond Dantes / Brian Hughes
   - star rows: J Alphecca → J Venus RA 172.9851 173 whole (6.38) — also: 6 Thundersockssundae / Kielan Woods
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
   - star rows: J Menkent → J Venus RA 150.9869 151 whole (11.81) — also: 6 Thundersockssundae / Kielan Woods
     - source line: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
     - source line: S Moon → Menkent RA 117.0014 117 whole (86.48)
-  - star rows: J Murzim → J Venus RA 34.9812 35 whole (0.39) — also: 6 Thundersockssundae / Kielan Woods
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
 - **Makemake**
   - top rows: S Moon → H Makemake Dec 0.2839 conj (0.29) — also: 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
   - star rows: H Sadalmelik → H Makemake RA 139.1735 86×φ golden (9.17) — also: 2 Edmond Dantes / Brian Hughes
@@ -1626,8 +1390,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Acubens RA 147.0032 147 whole (70.45)
   - star rows: H Scheat → H Juno RA 147.2732 91×φ golden (0.01) — also: 7 Black Opium / Stephen Mulqueen
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
-  - star rows: J Murzim → J Juno Dec 9.9845 10 whole (5.01) — also: 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
 - **Pluto**
   - star rows: H Algol → H Pluto Dec 61.4813 38×φ golden (76.80) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell
     - source line: S Sun → Algol RA 55.5518 55.5556 ninth (96.46)
@@ -1654,13 +1416,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Haumea**
   - star rows: H Alpheratz → H Haumea RA 151.9855 152 whole (7.63) — only
     - source line: S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
-  - star rows: H Murzim → H Haumea Dec 36.0083 36 whole (34.20) — also: 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: H Sadalmelik → H Haumea RA 121.3370 75×φ golden (27.05) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
+- **Quaoar**
+  - star rows: H Menkar → H Quaoar RA 138.0034 138 whole (69.04) — only
+    - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
+  - same body: S Quaoar → J Quaoar RA 40.9912 41 whole (31.44) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell
+    - source line: S Moon → Quaoar Dec 41.4235 41.4 silver (97.91)
+  - top rows: S Moon → J Quaoar RA 141.4689 141.4 sqrt2 (87.00) — only
 - **Mars**
-  - star rows: H Markab → H Mars RA 67.9560 42×φ golden (91.59) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - star rows: H Menkent → H Mars Dec 56.0080 56 whole (36.30) — also: 6 Thundersockssundae / Kielan Woods
     - source line: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
     - source line: S Moon → Menkent RA 117.0014 117 whole (86.48)
@@ -1676,33 +1440,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Scheat → J Mars Dec 2.9983 3 whole (83.28) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
 - **Neptune**
-  - star rows: H Markab → H Neptune Dec 24.0042 24 whole (62.48) — also: 7 Black Opium / Stephen Mulqueen
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - star rows: H Menkent → H Neptune RA 129.4520 80×φ golden (50.94) — only
     - source line: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
     - source line: S Moon → Menkent RA 117.0014 117 whole (86.48)
-  - star rows: J Markab → J Neptune RA 57.9934 58 whole (45.12) — also: 7 Black Opium / Stephen Mulqueen
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
-- **Quaoar**
-  - star rows: H Menkar → H Quaoar RA 138.0034 138 whole (69.04) — only
-    - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
-  - same body: S Quaoar → J Quaoar RA 40.9912 41 whole (31.44) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell
-    - source line: S Moon → Quaoar Dec 41.4235 41.4 silver (97.91)
-  - top rows: S Moon → J Quaoar RA 141.4689 141.4 sqrt2 (87.00) — only
-  - star rows: J Markab → J Quaoar RA 110.0470 68×φ golden (13.00) — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
 - **Uranus**
   - star rows: H Mirach → H Uranus RA 0.6338 conj (33.34) — also: 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
     - source line: S Jupiter → Mirach Dec 41.9959 42 whole (63.40)
   - star rows: J Algol → J Uranus Dec 64.0189 64 whole (0.28) — also: 7 Black Opium / Stephen Mulqueen
     - source line: S Sun → Algol RA 55.5518 55.5556 ninth (96.46)
-  - star rows: J Markab → J Uranus RA 61.0183 61 whole (0.68) — also: 1 Vocaliser / Fergus Gregory
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
 - **Ketu**
   - star rows: H Sadalmelik → H Ketu RA 37.0104 37 whole (22.80) — only
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
-  - star rows: J Markab → J Ketu RA 129.0160 129 whole (4.03) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
 - **Sun**
   - star rows: H Scheat → H Sun RA 57.9963 58 whole (66.55) — also: 7 Black Opium / Stephen Mulqueen
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
@@ -1732,8 +1480,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Menkent → J Ceres RA 0.9872 1 whole (13.05) — also: 2 Edmond Dantes / Brian Hughes
     - source line: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
     - source line: S Moon → Menkent RA 117.0014 117 whole (86.48)
-  - star rows: J Murzim → J Ceres RA 115.0184 115 whole (0.64) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
 
 ## 6 Thundersockssundae / Kielan Woods
 ### L1 same bodies
@@ -1758,8 +1504,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, same body: S Juno → J Juno RA 141.8948 141.4 sqrt2 (loose)
   - other chart, star rows: J Alphecca → J Juno Dec 20.0114 20 whole (18.37)
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
-  - other chart, star rows: J Murzim → J Juno RA 1.0797 conj (7.85)
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
 - **H Eris** (same body: S Eris → H Eris Dec 1.6580 1.66667 ninth (loose))
   - star rows: H Alpheratz → H Eris Dec 31.9901 32 whole (25.41)
     - source line: S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
@@ -1800,8 +1544,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Pluto** (same body: S Pluto → J Pluto Dec 17.9746 18 whole (loose))
   - star rows: J Alphecca → J Pluto RA 0.7549 conj (24.68)
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
-  - star rows: J Markab → J Pluto RA 113.2827 70×φ golden (13.87)
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - other chart, star rows: H Zubeneschamali → H Pluto Dec 11.1154 11.1111 ninth (92.97)
     - source line: S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
 - **J Ceres** (same body: S Ceres → J Ceres RA 121.6664 122.222 ninth (loose))
@@ -1810,8 +1552,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Juno** (same body: S Juno → J Juno RA 141.8948 141.4 sqrt2 (loose))
   - star rows: J Alphecca → J Juno Dec 20.0114 20 whole (18.37)
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
-  - star rows: J Murzim → J Juno RA 1.0797 conj (7.85)
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - other chart, same body: S Juno → H Juno Dec 22.2705 22.2222 ninth (loose)
   - other chart, top rows: S Moon → H Juno Dec 12.9417 8×φ golden (84.68)
   - other chart, star rows: H Sadalmelik → H Juno RA 155.0169 155 whole (2.44)
@@ -1847,14 +1587,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **3. runner number = sky number**
   - 30 whole — also: 3 Peak Time / Conor O'Farrell
     - S Sun → H Makemake Dec 30.0004 30 whole (95.72) = S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
-  - 22 whole — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 7 Black Opium / Stephen Mulqueen
+  - 22 whole — also: 1 Vocaliser / Fergus Gregory, 7 Black Opium / Stephen Mulqueen
     - S Neptune → H Jupiter Dec 22.0056 22 whole (51.49) = S Moon → Menkar Dec 21.9956 22 whole (60.56)
   - 122.222 ninth — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell
     - S Pallas → H Jupiter RA 122.2326 122.222 ninth (98.56) = S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
   - 2 whole — also: 2 Edmond Dantes / Brian Hughes, 7 Black Opium / Stephen Mulqueen
     - H Acubens → H Mars Dec 1.9807 2 whole (0.12) = S Moon → Scheat Dec 1.9986 2 whole (86.84)
-  - 2 whole — also: 2 Edmond Dantes / Brian Hughes, 7 Black Opium / Stephen Mulqueen
-    - H Markab → H Chiron RA 2.0065 2 whole (45.73) = S Moon → Scheat Dec 1.9986 2 whole (86.84)
   - 2 whole — also: 2 Edmond Dantes / Brian Hughes, 7 Black Opium / Stephen Mulqueen
     - H Mirach → H Uranus RA 2.0166 2 whole (2.84) = S Moon → Scheat Dec 1.9986 2 whole (86.84)
   - 11.1111 ninth — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England
@@ -1872,16 +1610,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **4. circle divisions**
   - 30 = 360/12 — also: 3 Peak Time / Conor O'Farrell
     - S Sun → H Makemake Dec 30.0004 30 whole (95.72)
-  - 4 = 360/90 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
+  - 4 = 360/90 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
     - H Acubens → H Sun Dec 4.0075 4 whole (39.34)
   - 2 = 360/180 — also: 2 Edmond Dantes / Brian Hughes, 7 Black Opium / Stephen Mulqueen
     - H Acubens → H Mars Dec 1.9807 2 whole (0.12)
   - 8 = 360/45 — also: 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
     - H Acubens → H Ketu Dec 8.0068 8 whole (43.24)
-  - 6 = 360/60 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
-    - H Markab → H Venus Dec 5.9947 6 whole (54.38)
-  - 2 = 360/180 — also: 2 Edmond Dantes / Brian Hughes, 7 Black Opium / Stephen Mulqueen
-    - H Markab → H Chiron RA 2.0065 2 whole (45.73)
   - 2 = 360/180 — also: 2 Edmond Dantes / Brian Hughes, 7 Black Opium / Stephen Mulqueen
     - H Mirach → H Uranus RA 2.0166 2 whole (2.84)
   - 8 = 360/45 — also: 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
@@ -1890,9 +1624,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Pluto → J Pluto Dec 17.9746 18 whole (loose)
   - 60 = 360/6 — only
     - S Jupiter → J Neptune RA 59.9966 60 whole (69.01)
-  - 10 = 360/36 — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
+  - 10 = 360/36 — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell
     - J Acubens → J Haumea Dec 10.0109 10 whole (20.66)
-  - 36 = 360/10 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England
+  - 36 = 360/10 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes
     - J Algol → J Ketu RA 35.9828 36 whole (2.01)
   - 5 = 360/72 — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
     - J Alphecca → J Venus RA 4.9889 5 whole (19.65)
@@ -1908,7 +1642,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Sadalmelik → J Mercury Dec 14.9801 15 whole (0.01)
   - 30 = 360/12 — also: 3 Peak Time / Conor O'Farrell
     - J Sadalmelik → J Ceres Dec 29.9885 30 whole (17.87)
-  - 6 = 360/60 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
+  - 6 = 360/60 — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
     - J Scheat → J Makemake Dec 5.9881 6 whole (16.22)
 - **5. same number in more than one place**
   - 11 whole — only
@@ -1925,9 +1659,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Pallas → H Jupiter RA 122.2326 122.222 ninth (98.56)
     - S Ceres → J Ceres RA 121.6664 122.222 ninth (loose)
     - J Zubeneschamali → J Mars RA 122.2296 122.222 ninth (98.98)
-  - 2 whole — also: 2 Edmond Dantes / Brian Hughes
+  - 2 whole — only
     - H Acubens → H Mars Dec 1.9807 2 whole (0.12)
-    - H Markab → H Chiron RA 2.0065 2 whole (45.73)
     - H Mirach → H Uranus RA 2.0166 2 whole (2.84)
   - 8 whole — only
     - H Acubens → H Ketu Dec 8.0068 8 whole (43.24)
@@ -1935,9 +1668,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 50 whole — only
     - H Algol → H Neptune Dec 49.9978 50 whole (79.00)
     - J Alphecca → J Rahu Dec 50.0036 50 whole (67.45)
-  - 6 whole — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell
-    - H Markab → H Venus Dec 5.9947 6 whole (54.38)
-    - J Scheat → J Makemake Dec 5.9881 6 whole (16.22)
   - 27×φ golden — only
     - H Menkent → H Sedna Dec 43.6857 27×φ golden (92.39)
     - J Alphecca → J Haumea RA 43.6820 27×φ golden (71.82)
@@ -1945,7 +1675,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Neptune → J Neptune Dec 17.7330 17.7778 ninth (loose)
     - J Algol → J Mars Dec 17.7720 17.7778 ninth (95.44)
     - J Menkar → J Haumea Dec 17.7779 17.7778 ninth (99.91)
-  - 141.4 sqrt2 — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England
+  - 141.4 sqrt2 — also: 5 Sir Apollo / Jonathan England
     - S Juno → J Juno RA 141.8948 141.4 sqrt2 (loose)
     - S Saturn → J Jupiter RA 141.4959 141.4 sqrt2 (80.02)
     - J Sadalmelik → J Haumea RA 141.4646 141.4 sqrt2 (88.15)
@@ -1955,7 +1685,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 102×φ golden — only
     - J Acubens → J Gonggong RA 165.0636 102×φ golden (6.50)
     - S Scheat → J Jupiter RA 165.0444 102×φ golden (71.96)
-  - 5 whole — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
+  - 5 whole — also: 5 Sir Apollo / Jonathan England
     - J Alphecca → J Venus RA 4.9889 5 whole (19.65)
     - J Alpheratz → J Makemake Dec 4.9804 5 whole (0.04)
 ### L4 every natal body
@@ -1971,8 +1701,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Juno → J Juno RA 141.8948 141.4 sqrt2 (loose) — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
   - star rows: J Alphecca → J Juno Dec 20.0114 20 whole (18.37) — also: 3 Peak Time / Conor O'Farrell
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
-  - star rows: J Murzim → J Juno RA 1.0797 conj (7.85) — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
 - **Eris**
   - same body: S Eris → H Eris Dec 1.6580 1.66667 ninth (loose) — also: 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
   - star rows: H Alpheratz → H Eris Dec 31.9901 32 whole (25.41) — only
@@ -1999,8 +1727,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Menkent → H Haumea RA 1.1149 conj (6.59) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 7 Black Opium / Stephen Mulqueen
     - source line: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
     - source line: S Moon → Menkent RA 117.0014 117 whole (86.48)
-  - star rows: H Murzim → H Haumea RA 114.8858 71×φ golden (69.51) — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: J Acubens → J Haumea Dec 10.0109 10 whole (20.66) — only
     - source line: S Jupiter → Acubens RA 147.0032 147 whole (70.45)
   - star rows: J Alphecca → J Haumea RA 43.6820 27×φ golden (71.82) — also: 2 Edmond Dantes / Brian Hughes
@@ -2013,8 +1739,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
 - **Chiron**
   - top rows: S Jupiter → H Chiron RA 0.5693 conj (38.50) — only
-  - star rows: H Markab → H Chiron RA 2.0065 2 whole (45.73) — also: 3 Peak Time / Conor O'Farrell
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - star rows: H Sadalmelik → H Chiron Dec 0.0679 conj (59.83) — also: 2 Edmond Dantes / Brian Hughes
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
   - star rows: J Sadalmelik → J Chiron RA 170.0117 170 whole (17.10) — also: 2 Edmond Dantes / Brian Hughes
@@ -2078,8 +1802,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Sun**
   - star rows: H Acubens → H Sun Dec 4.0075 4 whole (39.34) — only
     - source line: S Jupiter → Acubens RA 147.0032 147 whole (70.45)
-  - star rows: H Markab → H Sun RA 32.3601 20×φ golden (96.73) — only
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - star rows: H Menkar → H Sun RA 27.0189 27 whole (0.30) — also: 2 Edmond Dantes / Brian Hughes, 7 Black Opium / Stephen Mulqueen
     - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
   - star rows: H Mirach → H Sun RA 1.1187 conj (6.46) — also: 2 Edmond Dantes / Brian Hughes
@@ -2094,8 +1816,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Menkent → H Mars RA 176.9877 177 whole (14.78) — also: 5 Sir Apollo / Jonathan England
     - source line: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
     - source line: S Moon → Menkent RA 117.0014 117 whole (86.48)
-  - star rows: H Murzim → H Mars RA 60.9870 61 whole (12.08) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: J Acubens → J Mars Dec 11.3250 7×φ golden (92.53) — also: 1 Vocaliser / Fergus Gregory
     - source line: S Jupiter → Acubens RA 147.0032 147 whole (70.45)
   - star rows: J Algol → J Mars Dec 17.7720 17.7778 ninth (95.44) — also: 7 Black Opium / Stephen Mulqueen
@@ -2125,35 +1845,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Algol RA 55.5518 55.5556 ninth (96.46)
   - star rows: J Scheat → J Ketu RA 97.0834 60×φ golden (91.72) — also: 2 Edmond Dantes / Brian Hughes
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
-- **Mercury**
-  - star rows: H Markab → H Mercury RA 33.0003 33 whole (96.94) — also: 1 Vocaliser / Fergus Gregory, 7 Black Opium / Stephen Mulqueen
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
-  - star rows: J Alphecca → J Mercury Dec 42.0159 42 whole (4.24) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell
-    - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
-  - star rows: J Alpheratz → J Mercury RA 147.2598 91×φ golden (17.86) — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England
-    - source line: S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
-  - star rows: J Sadalmelik → J Mercury Dec 14.9801 15 whole (0.01) — also: 2 Edmond Dantes / Brian Hughes
-    - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
-- **Venus**
-  - star rows: H Markab → H Venus Dec 5.9947 6 whole (54.38) — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
-  - star rows: J Alphecca → J Venus RA 4.9889 5 whole (19.65) — also: 5 Sir Apollo / Jonathan England
-    - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
-  - star rows: J Menkent → J Venus RA 17.0123 17 whole (14.75) — also: 5 Sir Apollo / Jonathan England
-    - source line: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
-    - source line: S Moon → Menkent RA 117.0014 117 whole (86.48)
-  - star rows: J Murzim → J Venus RA 133.0013 133 whole (87.41) — also: 5 Sir Apollo / Jonathan England
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
-  - star rows: J Zubeneschamali → J Venus RA 0.5694 conj (38.49) — only
-    - source line: S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
-- **Quaoar**
-  - star rows: H Markab → H Quaoar Dec 30.7447 19×φ golden (87.84) — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
-  - top rows: S Jupiter → J Quaoar RA 111.1583 111.111 ninth (92.27) — only
-  - star rows: J Murzim → J Quaoar RA 140.7884 87×φ golden (15.90) — also: 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
-  - star rows: J Sadalmelik → J Quaoar RA 94.9843 95 whole (4.71) — only
-    - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
 - **Saturn**
   - star rows: H Menkar → H Saturn RA 163.0035 163 whole (68.12) — also: 1 Vocaliser / Fergus Gregory
     - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
@@ -2161,10 +1852,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
   - star rows: H Scheat → H Saturn Dec 46.9285 29×φ golden (68.77) — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
-  - star rows: J Murzim → J Saturn RA 140.9828 141 whole (1.95) — also: 1 Vocaliser / Fergus Gregory, 7 Black Opium / Stephen Mulqueen
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
-  - star rows: J Murzim → J Saturn Dec 0.2618 conj (1.62) — also: 1 Vocaliser / Fergus Gregory, 7 Black Opium / Stephen Mulqueen
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
 - **Uranus**
   - star rows: H Mirach → H Uranus RA 2.0166 2 whole (2.84) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
     - source line: S Jupiter → Mirach Dec 41.9959 42 whole (63.40)
@@ -2177,11 +1864,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Pluto → J Pluto Dec 17.9746 18 whole (loose) — also: 2 Edmond Dantes / Brian Hughes, 7 Black Opium / Stephen Mulqueen
   - star rows: J Alphecca → J Pluto RA 0.7549 conj (24.68) — also: 1 Vocaliser / Fergus Gregory, 7 Black Opium / Stephen Mulqueen
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
-  - star rows: J Markab → J Pluto RA 113.2827 70×φ golden (13.87) — also: 3 Peak Time / Conor O'Farrell
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
 - **Ceres**
   - same body: S Ceres → J Ceres RA 121.6664 122.222 ninth (loose) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
   - star rows: J Sadalmelik → J Ceres Dec 29.9885 30 whole (17.87) — only
+    - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
+- **Quaoar**
+  - top rows: S Jupiter → J Quaoar RA 111.1583 111.111 ninth (92.27) — only
+  - star rows: J Sadalmelik → J Quaoar RA 94.9843 95 whole (4.71) — only
     - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
 - **Transpluto**
   - top rows: S Jupiter → J Transpluto RA 157.9974 158 whole (75.34) — only
@@ -2193,6 +1882,21 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Menkar → J Gonggong RA 76.0187 φ^9 phi power (97.11) — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell
     - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
   - star rows: J Zubeneschamali → J Gonggong RA 100.3089 62×φ golden (50.97) — only
+    - source line: S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
+- **Mercury**
+  - star rows: J Alphecca → J Mercury Dec 42.0159 42 whole (4.24) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell
+    - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
+  - star rows: J Alpheratz → J Mercury RA 147.2598 91×φ golden (17.86) — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England
+    - source line: S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
+  - star rows: J Sadalmelik → J Mercury Dec 14.9801 15 whole (0.01) — also: 2 Edmond Dantes / Brian Hughes
+    - source line: S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
+- **Venus**
+  - star rows: J Alphecca → J Venus RA 4.9889 5 whole (19.65) — also: 5 Sir Apollo / Jonathan England
+    - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
+  - star rows: J Menkent → J Venus RA 17.0123 17 whole (14.75) — also: 5 Sir Apollo / Jonathan England
+    - source line: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)
+    - source line: S Moon → Menkent RA 117.0014 117 whole (86.48)
+  - star rows: J Zubeneschamali → J Venus RA 0.5694 conj (38.49) — only
     - source line: S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
 
 ## 7 Black Opium / Stephen Mulqueen
@@ -2216,8 +1920,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Neptune** (same body: S Neptune → H Neptune RA 17.7587 17.7778 ninth (loose))
   - star rows: H Acubens → H Neptune Dec 22.6543 14×φ golden (89.23)
     - source line: S Jupiter → Acubens RA 147.0032 147 whole (70.45)
-  - star rows: H Markab → H Neptune Dec 26.0032 26 whole (70.59)
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - star rows: H Zubeneschamali → H Neptune Dec 1.4149 1.414 sqrt2 (94.92)
     - source line: S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
   - other chart, star rows: J Acubens → J Neptune RA 156.9739 97×φ golden (5.80)
@@ -2227,8 +1929,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Pluto** (same body: S Pluto → H Pluto RA 17.6618 17.7778 ninth (loose))
   - star rows: H Alphecca → H Pluto Dec 46.9234 29×φ golden (97.32)
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
-  - star rows: H Murzim → H Pluto RA 173.1420 107×φ golden (38.21)
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - other chart, top rows: S Jupiter → J Pluto RA 110.9659 10×φ^5 phi power (78.19)
   - other chart, star rows: J Alphecca → J Pluto RA 2.9858 3 whole (8.31)
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
@@ -2241,8 +1941,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Mirach → H Ceres RA 168.0183 168 whole (0.71)
     - source line: S Jupiter → Mirach Dec 41.9959 42 whole (63.40)
   - other chart, same body: S Ceres → J Ceres Dec 38.8631 24×φ golden (loose)
-  - other chart, star rows: J Markab → J Ceres RA 4.0033 4 whole (69.53)
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
 - **H Pallas** (same body: S Pallas → H Pallas Dec 14.1660 14.14 sqrt2 (loose))
   - star rows: H Alpheratz → H Pallas Dec 50.1554 31×φ golden (78.56)
     - source line: S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
@@ -2252,13 +1950,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Zubeneschamali → J Pallas RA 79.0030 79 whole (72.33)
     - source line: S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
 - **H Juno** (same body: S Juno → H Juno RA 26.1293 10×φ^2 phi power (loose))
-  - star rows: H Murzim → H Juno Dec 8.9968 9 whole (70.43)
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - other chart, same body: S Juno → J Juno Dec 16.1737 10×φ^1 phi power (loose)
   - other chart, star rows: J Menkar → J Juno RA 46.0024 46 whole (77.17)
     - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
-  - other chart, star rows: J Murzim → J Juno Dec 25.0034 25 whole (68.85)
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - other chart, star rows: J Scheat → J Juno Dec 21.0374 13×φ golden (82.67)
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
 - **H Eris** (same body: S Eris → H Eris RA 1.2257 1.22222 ninth (loose))
@@ -2293,21 +1987,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Scheat → J Makemake RA 173.1161 107×φ golden (33.86)
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
 - **J Ceres** (same body: S Ceres → J Ceres Dec 38.8631 24×φ golden (loose))
-  - star rows: J Markab → J Ceres RA 4.0033 4 whole (69.53)
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - other chart, same body: S Ceres → H Ceres RA 144.9532 144.444 ninth (loose)
   - other chart, star rows: H Mirach → H Ceres RA 168.0183 168 whole (0.71)
     - source line: S Jupiter → Mirach Dec 41.9959 42 whole (63.40)
 - **J Juno** (same body: S Juno → J Juno Dec 16.1737 10×φ^1 phi power (loose))
   - star rows: J Menkar → J Juno RA 46.0024 46 whole (77.17)
     - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
-  - star rows: J Murzim → J Juno Dec 25.0034 25 whole (68.85)
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: J Scheat → J Juno Dec 21.0374 13×φ golden (82.67)
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
   - other chart, same body: S Juno → H Juno RA 26.1293 10×φ^2 phi power (loose)
-  - other chart, star rows: H Murzim → H Juno Dec 8.9968 9 whole (70.43)
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
 - **J Sedna** (same body: S Sedna → J Sedna RA 15.4984 15.5556 ninth (loose))
   - star rows: J Menkar → J Sedna Dec 0.1645 conj (20.39)
     - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
@@ -2353,9 +2041,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Makemake → J Makemake RA 26.0887 10×φ^2 phi power (loose)
     - S Makemake → J Makemake Dec 12.2389 12.2222 ninth (loose)
 - **3. runner number = sky number**
-  - 3 whole — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
+  - 3 whole — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
     - H Alpheratz → H Makemake Dec 2.9924 3 whole (38.55) = S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
-  - 22 whole — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods
+  - 22 whole — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods
     - H Menkar → H Makemake Dec 22.0101 22 whole (24.34) = S Moon → Menkar Dec 21.9956 22 whole (60.56)
   - 2 whole — also: 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods
     - H Scheat → H Makemake Dec 1.9854 2 whole (7.40) = S Moon → Scheat Dec 1.9986 2 whole (86.84)
@@ -2363,16 +2051,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Juno → J Juno Dec 16.1737 10×φ^1 phi power (loose) = S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)
   - 42 whole — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
     - J Alphecca → J Saturn Dec 42.0035 42 whole (68.42) = S Jupiter → Mirach Dec 41.9959 42 whole (63.40)
-  - 3 whole — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
+  - 3 whole — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
     - J Alphecca → J Pluto RA 2.9858 3 whole (8.31) = S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
-  - 22 whole — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods
+  - 22 whole — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods
     - J Sadalmelik → J Uranus Dec 22.0000 22 whole (99.84) = S Moon → Menkar Dec 21.9956 22 whole (60.56)
 - **4. circle divisions**
   - 18 = 360/20 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
     - S Algol → H Jupiter Dec 18.0071 18 whole (41.85)
   - 45 = 360/8 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell
     - H Alpheratz → H Venus Dec 44.9896 45 whole (23.15)
-  - 3 = 360/120 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
+  - 3 = 360/120 — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
     - H Alpheratz → H Makemake Dec 2.9924 3 whole (38.55)
   - 24 = 360/15 — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England
     - H Menkar → H Sun Dec 23.9894 24 whole (22.21)
@@ -2380,16 +2068,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Menkar → H Venus Dec 19.9871 20 whole (12.51)
   - 9 = 360/40 — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell
     - H Mirach → H Uranus RA 8.9884 9 whole (17.79)
-  - 9 = 360/40 — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell
-    - H Murzim → H Juno Dec 8.9968 9 whole (70.43)
   - 2 = 360/180 — also: 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods
     - H Scheat → H Makemake Dec 1.9854 2 whole (7.40)
   - 8 = 360/45 — also: 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
     - S Gonggong → J Gonggong Dec 7.9785 8 whole (loose)
-  - 3 = 360/120 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
+  - 3 = 360/120 — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
     - J Alphecca → J Pluto RA 2.9858 3 whole (8.31)
-  - 4 = 360/90 — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
-    - J Markab → J Ceres RA 4.0033 4 whole (69.53)
 - **5. same number in more than one place**
   - 17.7778 ninth — also: 6 Thundersockssundae / Kielan Woods
     - S Neptune → H Neptune RA 17.7587 17.7778 ninth (loose)
@@ -2413,28 +2097,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 46 whole — also: 1 Vocaliser / Fergus Gregory
     - S Sedna → H Jupiter RA 46.0042 46 whole (62.56)
     - J Menkar → J Juno RA 46.0024 46 whole (77.17)
-  - 14×φ golden — only
-    - H Acubens → H Neptune Dec 22.6543 14×φ golden (89.23)
-    - J Markab → J Mercury Dec 22.6511 14×φ golden (91.41)
   - 3 whole — also: 5 Sir Apollo / Jonathan England
     - H Alpheratz → H Makemake Dec 2.9924 3 whole (38.55)
     - J Alphecca → J Pluto RA 2.9858 3 whole (8.31)
-  - 26 whole — only
-    - H Markab → H Neptune Dec 26.0032 26 whole (70.59)
-    - J Acubens → J Quaoar Dec 26.0169 26 whole (2.42)
   - 22 whole — only
     - H Menkar → H Makemake Dec 22.0101 22 whole (24.34)
     - J Sadalmelik → J Uranus Dec 22.0000 22 whole (99.84)
   - 37×φ golden — only
     - H Menkent → H Pallas RA 59.8636 37×φ golden (78.86)
     - H Scheat → H Venus RA 59.8642 37×φ golden (82.03)
-  - 107×φ golden — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England
+  - 107×φ golden — also: 1 Vocaliser / Fergus Gregory
     - H Menkent → H Eris RA 173.1421 107×φ golden (37.76)
-    - H Murzim → H Pluto RA 173.1420 107×φ golden (38.21)
     - J Scheat → J Makemake RA 173.1161 107×φ golden (33.86)
-  - 9 whole — also: 2 Edmond Dantes / Brian Hughes
-    - H Mirach → H Uranus RA 8.9884 9 whole (17.79)
-    - H Murzim → H Juno Dec 8.9968 9 whole (70.43)
   - 168 whole — only
     - H Mirach → H Ceres RA 168.0183 168 whole (0.71)
     - J Algol → J Quaoar RA 168.0124 168 whole (14.28)
@@ -2447,16 +2121,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 20×φ golden — also: 1 Vocaliser / Fergus Gregory
     - J Jupiter → J star Scheat Dec 32.3641 20×φ golden (79.95)
     - S Scheat → J Jupiter Dec 32.3638 20×φ golden (81.71)
-  - 25 whole — only
-    - J Menkent → J Pluto RA 24.9831 25 whole (2.40)
-    - J Murzim → J Juno Dec 25.0034 25 whole (68.85)
 ### L4 every natal body
 - **Neptune**
   - same body: S Neptune → H Neptune RA 17.7587 17.7778 ninth (loose) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
   - star rows: H Acubens → H Neptune Dec 22.6543 14×φ golden (89.23) — also: 6 Thundersockssundae / Kielan Woods
     - source line: S Jupiter → Acubens RA 147.0032 147 whole (70.45)
-  - star rows: H Markab → H Neptune Dec 26.0032 26 whole (70.59) — also: 5 Sir Apollo / Jonathan England
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
   - star rows: H Zubeneschamali → H Neptune Dec 1.4149 1.414 sqrt2 (94.92) — only
     - source line: S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
   - star rows: J Acubens → J Neptune RA 156.9739 97×φ golden (5.80) — also: 6 Thundersockssundae / Kielan Woods
@@ -2467,8 +2136,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Pluto → H Pluto RA 17.6618 17.7778 ninth (loose) — also: 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods
   - star rows: H Alphecca → H Pluto Dec 46.9234 29×φ golden (97.32) — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
-  - star rows: H Murzim → H Pluto RA 173.1420 107×φ golden (38.21) — only
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - top rows: S Jupiter → J Pluto RA 110.9659 10×φ^5 phi power (78.19) — only
   - star rows: J Alphecca → J Pluto RA 2.9858 3 whole (8.31) — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods
     - source line: S Moon → Alphecca RA 139.0053 139 whole (54.26)
@@ -2482,8 +2149,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Mirach → H Ceres RA 168.0183 168 whole (0.71) — only
     - source line: S Jupiter → Mirach Dec 41.9959 42 whole (63.40)
   - same body: S Ceres → J Ceres Dec 38.8631 24×φ golden (loose) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
-  - star rows: J Markab → J Ceres RA 4.0033 4 whole (69.53) — only
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
 - **Pallas**
   - same body: S Pallas → H Pallas Dec 14.1660 14.14 sqrt2 (loose) — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
   - star rows: H Alpheratz → H Pallas Dec 50.1554 31×φ golden (78.56) — also: 5 Sir Apollo / Jonathan England
@@ -2495,13 +2160,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)
 - **Juno**
   - same body: S Juno → H Juno RA 26.1293 10×φ^2 phi power (loose) — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
-  - star rows: H Murzim → H Juno Dec 8.9968 9 whole (70.43) — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - same body: S Juno → J Juno Dec 16.1737 10×φ^1 phi power (loose) — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
   - star rows: J Menkar → J Juno RA 46.0024 46 whole (77.17) — only
     - source line: S Moon → Menkar Dec 21.9956 22 whole (60.56)
-  - star rows: J Murzim → J Juno Dec 25.0034 25 whole (68.85) — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: J Scheat → J Juno Dec 21.0374 13×φ golden (82.67) — also: 5 Sir Apollo / Jonathan England
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
 - **Eris**
@@ -2588,8 +2249,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Quaoar**
   - star rows: H Acubens → H Quaoar RA 131.0722 81×φ golden (41.77) — only
     - source line: S Jupiter → Acubens RA 147.0032 147 whole (70.45)
-  - star rows: H Murzim → H Quaoar RA 170.0193 170 whole (0.12) — also: 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: J Acubens → J Quaoar Dec 26.0169 26 whole (2.42) — only
     - source line: S Jupiter → Acubens RA 147.0032 147 whole (70.45)
   - star rows: J Algol → J Quaoar RA 168.0124 168 whole (14.28) — also: 3 Peak Time / Conor O'Farrell
@@ -2597,8 +2256,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Saturn**
   - star rows: H Algol → H Saturn Dec 57.0160 57 whole (3.98) — only
     - source line: S Sun → Algol RA 55.5518 55.5556 ninth (96.46)
-  - star rows: H Murzim → H Saturn RA 134.2659 83×φ golden (0.21) — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods
-    - source line: S Moon → Murzim RA 1.0066 1 whole (45.23)
   - star rows: H Scheat → H Saturn RA 115.9938 116 whole (47.67) — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
     - source line: S Moon → Scheat Dec 1.9986 2 whole (86.84)
   - star rows: H Zubeneschamali → H Saturn RA 0.6969 conj (28.66) — only
@@ -2661,9 +2318,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Acubens RA 147.0032 147 whole (70.45)
   - star rows: J Algol → J Vesta Dec 62.0091 62 whole (29.65) — also: 2 Edmond Dantes / Brian Hughes
     - source line: S Sun → Algol RA 55.5518 55.5556 ninth (96.46)
-- **Mercury**
-  - star rows: J Markab → J Mercury Dec 22.6511 14×φ golden (91.41) — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods
-    - source line: S Jupiter → Markab RA 1.4381 conj (0.17)
 - **Ketu**
   - star rows: J Menkent → J Ketu RA 133.3741 133.333 ninth (95.10) — only
     - source line: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)

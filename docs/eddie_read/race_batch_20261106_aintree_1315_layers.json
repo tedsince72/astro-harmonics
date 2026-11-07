@@ -145,13 +145,6 @@
        "source_lines": [
         "S Jupiter → Capella Dec 31.9998 32 whole (97.55)"
        ]
-      },
-      {
-       "text": "H Pollux → H Makemake Dec 4.0084 4 whole (33.38)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
       }
      ],
      "other_chart_same_body": [
@@ -180,15 +173,7 @@
       "S Sun → J Sun Dec 22.6491 14×φ golden (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "J Pollux → J Sun RA 47.9985 48 whole (85.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -231,7 +216,6 @@
        "text": "J Zubenelgenubi → J Mars RA 1.3104 conj (1.60)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -286,20 +270,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Jupiter → Capella Dec 31.9998 32 whole (97.55)"
-       ]
-      },
-      {
-       "text": "H Pollux → H Saturn RA 171.5162 106×φ golden (73.72)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
-      },
-      {
-       "text": "H Pollux → H Saturn Dec 50.0079 50 whole (36.52)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
        ]
       }
      ]
@@ -364,13 +334,6 @@
        ]
       },
       {
-       "text": "J Pollux → J Chiron Dec 38.9885 39 whole (18.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
-      },
-      {
        "text": "J Procyon → J Chiron Dec 16.1896 10×φ^1 phi power (78.40)",
        "layer": "star rows",
        "source_lines": [
@@ -398,15 +361,7 @@
      "body_lines": [],
      "on_this_chart": [],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Pollux → H Rahu RA 1.8883 1.88889 ninth (95.81)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -489,13 +444,6 @@
        "source_lines": [
         "S Jupiter → Capella Dec 31.9998 32 whole (97.55)"
        ]
-      },
-      {
-       "text": "H Pollux → H Makemake Dec 4.0084 4 whole (33.38)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
       }
      ]
     },
@@ -537,7 +485,6 @@
        "text": "J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -548,7 +495,6 @@
        "text": "H Zubenelgenubi → H Gonggong Dec 3.9853 4 whole (6.96)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -560,15 +506,12 @@
      "same_body": [
       "S Ketu → J Ketu RA 158.0181 158 whole (0.90)"
      ],
-     "body_lines": [
-      "S Jupiter → Ketu RA 1.4737 conj (0.03)"
-     ],
+     "body_lines": [],
      "on_this_chart": [
       {
        "text": "J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -731,18 +674,6 @@
        "field": "also: 2 Stride On / Derek Fox"
       },
       {
-       "text": "H Pollux → H Makemake Dec 4.0084 4 whole (33.38)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Makemake"
-       ],
-       "field": "also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston"
-      },
-      {
        "text": "S Makemake → J Makemake Dec 13.0022 13 whole (79.20)",
        "layer": "same body",
        "source_lines": [],
@@ -839,7 +770,6 @@
        "text": "J Zubenelgenubi → J Mars RA 1.3104 conj (1.60)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -910,18 +840,6 @@
         "Chiron"
        ],
        "field": "also: 3 Leader Crik / Dylan Johnston"
-      },
-      {
-       "text": "J Pollux → J Chiron Dec 38.9885 39 whole (18.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Chiron"
-       ],
-       "field": "also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor"
       },
       {
        "text": "J Procyon → J Chiron Dec 16.1896 10×φ^1 phi power (78.40)",
@@ -1080,30 +998,6 @@
         "Saturn"
        ],
        "field": "also: 6 Barnpark / Harry Skelton"
-      },
-      {
-       "text": "H Pollux → H Saturn RA 171.5162 106×φ golden (73.72)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Saturn"
-       ],
-       "field": "also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor"
-      },
-      {
-       "text": "H Pollux → H Saturn Dec 50.0079 50 whole (36.52)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Saturn"
-       ],
-       "field": "also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor"
       },
       {
        "text": "S Saturn → J Saturn RA 9.9938 10 whole (47.93)",
@@ -1485,18 +1379,6 @@
         "Sun"
        ],
        "field": "also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor"
-      },
-      {
-       "text": "J Pollux → J Sun RA 47.9985 48 whole (85.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Sun"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -1519,7 +1401,6 @@
        "text": "H Zubenelgenubi → H Juno Dec 21.9807 22 whole (0.12)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -1582,33 +1463,6 @@
      ]
     },
     {
-     "body": "Rahu",
-     "cells": [
-      {
-       "text": "H Pollux → H Rahu RA 1.8883 1.88889 ninth (95.81)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Rahu"
-       ],
-       "field": "also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor"
-      },
-      {
-       "text": "S Rahu → J Rahu RA 158.0181 158 whole (0.90)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Rahu"
-       ],
-       "field": "also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor"
-      }
-     ]
-    },
-    {
      "body": "Vesta",
      "cells": [
       {
@@ -1644,7 +1498,6 @@
        "text": "H Zubenelgenubi → H Gonggong Dec 3.9853 4 whole (6.96)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -1679,7 +1532,6 @@
        "text": "J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -1739,14 +1591,27 @@
      ]
     },
     {
+     "body": "Rahu",
+     "cells": [
+      {
+       "text": "S Rahu → J Rahu RA 158.0181 158 whole (0.90)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Rahu"
+       ],
+       "field": "also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor"
+      }
+     ]
+    },
+    {
      "body": "Ketu",
      "cells": [
       {
        "text": "S Ketu → J Ketu RA 158.0181 158 whole (0.90)",
        "layer": "same body",
-       "source_lines": [
-        "S Jupiter → Ketu RA 1.4737 conj (0.03)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Ketu"
@@ -1757,7 +1622,6 @@
        "text": "J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -1829,7 +1693,7 @@
       "cells": [
        "H Deneb Algedi → H Eris Dec 14.0081 14 whole (35.63) = S Moon → Procyon Dec 13.9948 14 whole (54.47)"
       ],
-      "field": "also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor"
+      "field": "also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor"
      },
      {
       "label": "14×φ golden",
@@ -1885,16 +1749,9 @@
      {
       "label": "4 = 360/90",
       "cells": [
-       "H Pollux → H Makemake Dec 4.0084 4 whole (33.38)"
-      ],
-      "field": "also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor"
-     },
-     {
-      "label": "4 = 360/90",
-      "cells": [
        "H Zubenelgenubi → H Gonggong Dec 3.9853 4 whole (6.96)"
       ],
-      "field": "also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor"
+      "field": "also: 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor"
      },
      {
       "label": "10 = 360/36",
@@ -1950,7 +1807,7 @@
       "cells": [
        "J Galactic Centre → J Mars RA 45.0116 45 whole (17.65)"
       ],
-      "field": "also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton"
+      "field": "also: 6 Barnpark / Harry Skelton"
      },
      {
       "label": "2 = 360/180",
@@ -2012,8 +1869,7 @@
       "label": "39 whole",
       "cells": [
        "H Deneb Algedi → H Venus RA 38.9978 39 whole (79.58)",
-       "H Procyon → H Transpluto RA 38.9958 39 whole (62.70)",
-       "J Pollux → J Chiron Dec 38.9885 39 whole (18.17)"
+       "H Procyon → H Transpluto RA 38.9958 39 whole (62.70)"
       ],
       "field": "also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor"
      },
@@ -2025,14 +1881,6 @@
        "S Jupiter → J Pluto Dec 22.6568 14×φ golden (75.21)"
       ],
       "field": "also: 7 Dixie Mafia / Jack Tudor"
-     },
-     {
-      "label": "4 whole",
-      "cells": [
-       "H Pollux → H Makemake Dec 4.0084 4 whole (33.38)",
-       "H Zubenelgenubi → H Gonggong Dec 3.9853 4 whole (6.96)"
-      ],
-      "field": "also: 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor"
      },
      {
       "label": "158 whole",
@@ -2110,17 +1958,9 @@
        ]
       },
       {
-       "text": "H Pollux → H Venus RA 35.9918 36 whole (34.93)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
-      },
-      {
        "text": "H Zubenelgenubi → H Venus RA 142.3941 88×φ golden (61.02)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -2131,7 +1971,6 @@
        "text": "J Zubenelgenubi → J Venus RA 178.9985 179 whole (85.99)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -2170,7 +2009,6 @@
        "text": "J Zubenelgenubi → J Saturn Dec 0.0405 conj (74.82)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -2246,13 +2084,6 @@
        "source_lines": [
         "S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)"
        ]
-      },
-      {
-       "text": "H Pollux → H Makemake Dec 4.0174 4 whole (1.75)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
       }
      ],
      "other_chart_same_body": [],
@@ -2261,13 +2092,6 @@
        "text": "J Jupiter → J Makemake RA 12.9975 13 whole (76.13)",
        "layer": "T2",
        "source_lines": []
-      },
-      {
-       "text": "J Pollux → J Makemake RA 53.9915 54 whole (32.97)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
       }
      ]
     },
@@ -2332,7 +2156,6 @@
        "text": "J Zubenelgenubi → J Saturn Dec 0.0405 conj (74.82)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -2357,25 +2180,10 @@
         "S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)",
         "S Moon → Alphard Dec 0.1204 conj (35.82)"
        ]
-      },
-      {
-       "text": "J Pollux → J Uranus RA 173.1361 107×φ golden (63.95)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Pollux → H Uranus Dec 14.5607 9×φ golden (90.13)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -2507,13 +2315,6 @@
      "other_chart_same_body": [],
      "on_other_chart": [
       {
-       "text": "H Pollux → H Quaoar RA 157.9927 158 whole (40.45)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
-      },
-      {
        "text": "H Rukbat → H Quaoar RA 16.6604 16.6667 ninth (94.63)",
        "layer": "star rows",
        "source_lines": [
@@ -2562,22 +2363,9 @@
        "field": "only"
       },
       {
-       "text": "H Pollux → H Venus RA 35.9918 36 whole (34.93)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Venus"
-       ],
-       "field": "only"
-      },
-      {
        "text": "H Zubenelgenubi → H Venus RA 142.3941 88×φ golden (61.02)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -2590,7 +2378,6 @@
        "text": "J Zubenelgenubi → J Venus RA 178.9985 179 whole (85.99)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -2660,7 +2447,6 @@
        "text": "J Zubenelgenubi → J Saturn Dec 0.0405 conj (74.82)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -2802,18 +2588,6 @@
        "field": "only"
       },
       {
-       "text": "H Pollux → H Makemake Dec 4.0174 4 whole (1.75)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Makemake"
-       ],
-       "field": "also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston"
-      },
-      {
        "text": "J Jupiter → J Makemake RA 12.9975 13 whole (76.13)",
        "layer": "T2",
        "source_lines": [],
@@ -2822,18 +2596,6 @@
         "Makemake"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Pollux → J Makemake RA 53.9915 54 whole (32.97)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Makemake"
-       ],
-       "field": "also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston"
       }
      ]
     },
@@ -2989,7 +2751,6 @@
        "text": "J Zubenelgenubi → J Eris RA 160.1800 99×φ golden (69.50)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -3225,18 +2986,6 @@
         "Jupiter"
        ],
        "field": "only"
-      },
-      {
-       "text": "S Pollux → J Jupiter RA 40.9956 41 whole (60.79)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Jupiter"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -3394,18 +3143,6 @@
        "field": "also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor"
       },
       {
-       "text": "H Pollux → H Ketu RA 152.9878 153 whole (15.11)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Ketu"
-       ],
-       "field": "also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor"
-      },
-      {
        "text": "J Galactic Centre → J Ketu RA 175.0185 175 whole (0.55)",
        "layer": "star rows",
        "source_lines": [
@@ -3473,18 +3210,6 @@
         "Rahu"
        ],
        "field": "also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton"
-      },
-      {
-       "text": "H Pollux → H Rahu RA 27.0122 27 whole (15.11)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Rahu"
-       ],
-       "field": "also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor"
       },
       {
        "text": "J Galactic Centre → J Rahu RA 4.9815 5 whole (0.55)",
@@ -3577,7 +3302,6 @@
        "text": "H Zubenelgenubi → H Pluto Dec 6.0144 6 whole (7.84)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -3652,126 +3376,8 @@
      ]
     },
     {
-     "body": "Mars",
-     "cells": [
-      {
-       "text": "H Pollux → H Mars RA 145.6029 90×φ golden (14.23)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Mars"
-       ],
-       "field": "also: 6 Barnpark / Harry Skelton"
-      },
-      {
-       "text": "H Zubenelgenubi → H Mars RA 107.9948 108 whole (55.05)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
-        "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
-       ],
-       "key": [
-        "Zubenelgenubi",
-        "Mars"
-       ],
-       "field": "also: 1 Off The Jury / Sean Bowen"
-      },
-      {
-       "text": "J Adhara → J Mars RA 97.9889 98 whole (19.89)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Adhara Dec 12.9993 13 whole (93.43)"
-       ],
-       "key": [
-        "Adhara",
-        "Mars"
-       ],
-       "field": "also: 3 Leader Crik / Dylan Johnston"
-      },
-      {
-       "text": "J Betelgeuse → J Mars Dec 5.9833 6 whole (2.77)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)"
-       ],
-       "key": [
-        "Betelgeuse",
-        "Mars"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Uranus",
-     "cells": [
-      {
-       "text": "H Pollux → H Uranus Dec 14.5607 9×φ golden (90.13)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Uranus"
-       ],
-       "field": "also: 6 Barnpark / Harry Skelton"
-      },
-      {
-       "text": "S Uranus → J Uranus RA 132.6672 82×φ golden (41.14)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Uranus"
-       ],
-       "field": "also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton"
-      },
-      {
-       "text": "J Alphard → J Uranus Dec 13.9930 14 whole (42.44)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)",
-        "S Moon → Alphard Dec 0.1204 conj (35.82)"
-       ],
-       "key": [
-        "Alphard",
-        "Uranus"
-       ],
-       "field": "also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor"
-      },
-      {
-       "text": "J Pollux → J Uranus RA 173.1361 107×φ golden (63.95)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Uranus"
-       ],
-       "field": "also: 6 Barnpark / Harry Skelton"
-      }
-     ]
-    },
-    {
      "body": "Quaoar",
      "cells": [
-      {
-       "text": "H Pollux → H Quaoar RA 157.9927 158 whole (40.45)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Quaoar"
-       ],
-       "field": "only"
-      },
       {
        "text": "H Rukbat → H Quaoar RA 16.6604 16.6667 ninth (94.63)",
        "layer": "star rows",
@@ -3823,6 +3429,75 @@
      ]
     },
     {
+     "body": "Mars",
+     "cells": [
+      {
+       "text": "H Zubenelgenubi → H Mars RA 107.9948 108 whole (55.05)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
+       ],
+       "key": [
+        "Zubenelgenubi",
+        "Mars"
+       ],
+       "field": "also: 1 Off The Jury / Sean Bowen"
+      },
+      {
+       "text": "J Adhara → J Mars RA 97.9889 98 whole (19.89)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Adhara Dec 12.9993 13 whole (93.43)"
+       ],
+       "key": [
+        "Adhara",
+        "Mars"
+       ],
+       "field": "also: 3 Leader Crik / Dylan Johnston"
+      },
+      {
+       "text": "J Betelgeuse → J Mars Dec 5.9833 6 whole (2.77)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)"
+       ],
+       "key": [
+        "Betelgeuse",
+        "Mars"
+       ],
+       "field": "only"
+      }
+     ]
+    },
+    {
+     "body": "Uranus",
+     "cells": [
+      {
+       "text": "S Uranus → J Uranus RA 132.6672 82×φ golden (41.14)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Uranus"
+       ],
+       "field": "also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton"
+      },
+      {
+       "text": "J Alphard → J Uranus Dec 13.9930 14 whole (42.44)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)",
+        "S Moon → Alphard Dec 0.1204 conj (35.82)"
+       ],
+       "key": [
+        "Alphard",
+        "Uranus"
+       ],
+       "field": "also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor"
+      }
+     ]
+    },
+    {
      "body": "Pallas",
      "cells": [
       {
@@ -3849,35 +3524,6 @@
         "Pallas"
        ],
        "field": "also: 7 Dixie Mafia / Jack Tudor"
-      },
-      {
-       "text": "J Pollux → J Pallas RA 158.5619 98×φ golden (69.26)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Pallas"
-       ],
-       "field": "also: 6 Barnpark / Harry Skelton"
-      }
-     ]
-    },
-    {
-     "body": "Gonggong",
-     "cells": [
-      {
-       "text": "J Pollux → J Gonggong RA 145.6230 90×φ golden (99.77)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Gonggong"
-       ],
-       "field": "also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor"
       }
      ]
     }
@@ -3914,13 +3560,6 @@
     ],
     "3": [
      {
-      "label": "44 whole",
-      "cells": [
-       "S Quaoar → J Quaoar RA 44.0140 44 whole (8.86) = S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-      ],
-      "field": "also: 3 Leader Crik / Dylan Johnston"
-     },
-     {
       "label": "13 whole",
       "cells": [
        "J Jupiter → J Makemake RA 12.9975 13 whole (76.13) = S Sun → Adhara Dec 12.9993 13 whole (93.43)"
@@ -3932,7 +3571,7 @@
       "cells": [
        "J Alphard → J Uranus Dec 13.9930 14 whole (42.44) = S Moon → Procyon Dec 13.9948 14 whole (54.47)"
       ],
-      "field": "also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor"
+      "field": "also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor"
      },
      {
       "label": "13 whole",
@@ -3970,20 +3609,6 @@
        "H Deneb Algedi → H Pluto RA 30.0080 30 whole (36.14)"
       ],
       "field": "also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor"
-     },
-     {
-      "label": "36 = 360/10",
-      "cells": [
-       "H Pollux → H Venus RA 35.9918 36 whole (34.93)"
-      ],
-      "field": "also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton"
-     },
-     {
-      "label": "4 = 360/90",
-      "cells": [
-       "H Pollux → H Makemake Dec 4.0174 4 whole (1.75)"
-      ],
-      "field": "also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor"
      },
      {
       "label": "6 = 360/60",
@@ -4078,34 +3703,10 @@
       "field": "only"
      },
      {
-      "label": "107×φ golden",
-      "cells": [
-       "H Deneb Algedi → H Transpluto RA 173.1416 107×φ golden (39.82)",
-       "J Pollux → J Uranus RA 173.1361 107×φ golden (63.95)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "17×φ golden",
       "cells": [
        "H Galactic Centre → H Eris Dec 27.5090 17×φ golden (85.62)",
        "J Capella → J Sun RA 27.5033 17×φ golden (80.70)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "36 whole",
-      "cells": [
-       "H Pollux → H Venus RA 35.9918 36 whole (34.93)",
-       "J Capella → J Sedna RA 35.9978 36 whole (79.09)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "90×φ golden",
-      "cells": [
-       "H Pollux → H Mars RA 145.6029 90×φ golden (14.23)",
-       "J Pollux → J Gonggong RA 145.6230 90×φ golden (99.77)"
       ],
       "field": "only"
      },
@@ -4261,17 +3862,9 @@
        ]
       },
       {
-       "text": "J Pollux → J Neptune RA 168.0118 168 whole (16.75)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
-      },
-      {
        "text": "J Zubenelgenubi → J Neptune Dec 2.6186 φ^2 phi power (95.15)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -4289,7 +3882,6 @@
        "text": "H Zubenelgenubi → H Pallas Dec 16.9921 17 whole (36.60)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -4396,7 +3988,6 @@
        "text": "H Zubenelgenubi → H Eris Dec 14.4442 14.4444 ninth (99.75)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -4449,13 +4040,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Sun → Adhara Dec 12.9993 13 whole (93.43)"
-       ]
-      },
-      {
-       "text": "J Pollux → J Gonggong Dec 44.9909 45 whole (29.62)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
        ]
       },
       {
@@ -4552,17 +4136,9 @@
        ]
       },
       {
-       "text": "J Pollux → J Neptune RA 168.0118 168 whole (16.75)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
-      },
-      {
        "text": "J Zubenelgenubi → J Neptune Dec 2.6186 φ^2 phi power (95.15)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -4758,7 +4334,6 @@
        "text": "H Zubenelgenubi → H Eris Dec 14.4442 14.4444 ninth (99.75)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -4797,9 +4372,7 @@
      "same_body": [
       "S Ketu → J Ketu RA 121.0095 121 whole (27.37)"
      ],
-     "body_lines": [
-      "S Jupiter → Ketu RA 1.4737 conj (0.03)"
-     ],
+     "body_lines": [],
      "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
@@ -4957,22 +4530,9 @@
        "field": "only"
       },
       {
-       "text": "J Pollux → J Neptune RA 168.0118 168 whole (16.75)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Neptune"
-       ],
-       "field": "only"
-      },
-      {
        "text": "J Zubenelgenubi → J Neptune Dec 2.6186 φ^2 phi power (95.15)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -5000,7 +4560,6 @@
        "text": "H Zubenelgenubi → H Pallas Dec 16.9921 17 whole (36.60)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -5180,7 +4739,6 @@
        "text": "H Zubenelgenubi → H Eris Dec 14.4442 14.4444 ninth (99.75)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -5271,18 +4829,6 @@
         "Gonggong"
        ],
        "field": "also: 7 Dixie Mafia / Jack Tudor"
-      },
-      {
-       "text": "J Pollux → J Gonggong Dec 44.9909 45 whole (29.62)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Gonggong"
-       ],
-       "field": "also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor"
       },
       {
        "text": "J Procyon → J Gonggong RA 143.0020 143 whole (80.66)",
@@ -5458,9 +5004,7 @@
       {
        "text": "S Ketu → J Ketu RA 121.0095 121 whole (27.37)",
        "layer": "same body",
-       "source_lines": [
-        "S Jupiter → Ketu RA 1.4737 conj (0.03)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Ketu"
@@ -5583,18 +5127,6 @@
         "Saturn"
        ],
        "field": "only"
-      },
-      {
-       "text": "H Pollux → H Saturn RA 166.6830 166.667 ninth (98.60)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Saturn"
-       ],
-       "field": "also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor"
       },
       {
        "text": "J Deneb Algedi → J Saturn RA 106.7956 66×φ golden (69.62)",
@@ -6010,7 +5542,6 @@
        "text": "H Zubenelgenubi → H Pluto RA 74.9801 75 whole (0.00)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -6035,18 +5566,6 @@
         "Makemake"
        ],
        "field": "also: 7 Dixie Mafia / Jack Tudor"
-      },
-      {
-       "text": "J Pollux → J Makemake RA 64.9835 65 whole (3.01)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Makemake"
-       ],
-       "field": "also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox"
       }
      ]
     },
@@ -6086,7 +5605,6 @@
        "text": "H Zubenelgenubi → H Sedna RA 165.0105 165 whole (22.63)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -6099,7 +5617,6 @@
        "text": "H Zubenelgenubi → H Sedna Dec 23.9884 24 whole (17.82)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -6204,13 +5721,6 @@
     ],
     "3": [
      {
-      "label": "44 whole",
-      "cells": [
-       "J Adhara → J Transpluto RA 44.0149 44 whole (6.62) = S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-      ],
-      "field": "also: 2 Stride On / Derek Fox"
-     },
-     {
       "label": "32 whole",
       "cells": [
        "J Rukbat → J Sun Dec 31.9802 32 whole (0.01) = S Jupiter → Capella Dec 31.9998 32 whole (97.55)"
@@ -6231,7 +5741,7 @@
       "cells": [
        "H Alhena → H Ceres Dec 23.9869 24 whole (11.90)"
       ],
-      "field": "also: 6 Barnpark / Harry Skelton"
+      "field": "only"
      },
      {
       "label": "18 = 360/20",
@@ -6280,7 +5790,7 @@
       "cells": [
        "H Zubenelgenubi → H Sedna Dec 23.9884 24 whole (17.82)"
       ],
-      "field": "also: 6 Barnpark / Harry Skelton"
+      "field": "only"
      },
      {
       "label": "36 = 360/10",
@@ -6365,13 +5875,6 @@
        "J Galactic Centre → J Chiron RA 2.0056 2 whole (51.58)"
       ],
       "field": "also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton"
-     },
-     {
-      "label": "45 = 360/8",
-      "cells": [
-       "J Pollux → J Gonggong Dec 44.9909 45 whole (29.62)"
-      ],
-      "field": "also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton"
      },
      {
       "label": "3 = 360/120",
@@ -6464,7 +5967,7 @@
        "J Alhena → J Venus Dec 15.0150 15 whole (6.15)",
        "J Betelgeuse → J Jupiter Dec 15.0191 15 whole (0.22)"
       ],
-      "field": "also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor"
+      "field": "only"
      },
      {
       "label": "121 whole",
@@ -6482,7 +5985,7 @@
        "J Alphard → J Neptune Dec 10.0031 10 whole (71.57)",
        "J Alphard → J Juno RA 9.9959 10 whole (62.91)"
       ],
-      "field": "also: 6 Barnpark / Harry Skelton"
+      "field": "only"
      }
     ]
    }
@@ -6525,7 +6028,6 @@
        "text": "H Zubenelgenubi → H Sun RA 106.9811 107 whole (0.29)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -6609,13 +6111,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Sun → Adhara Dec 12.9993 13 whole (93.43)"
-       ]
-      },
-      {
-       "text": "J Pollux → J Vesta Dec 41.0026 41 whole (75.60)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
        ]
       }
      ]
@@ -6715,7 +6210,6 @@
        "text": "H Zubenelgenubi → H Transpluto Dec 26.9838 27 whole (3.70)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -6757,9 +6251,7 @@
      "same_body": [
       "S Ketu → H Ketu Dec 29.1406 18×φ golden (loose)"
      ],
-     "body_lines": [
-      "S Jupiter → Ketu RA 1.4737 conj (0.03)"
-     ],
+     "body_lines": [],
      "on_this_chart": [
       {
        "text": "H Deneb Algedi → H Ketu Dec 0.2815 conj (0.38)",
@@ -6931,7 +6423,6 @@
        "text": "H Zubenelgenubi → H Transpluto Dec 26.9838 27 whole (3.70)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -6968,7 +6459,6 @@
        "text": "H Zubenelgenubi → H Sun RA 106.9811 107 whole (0.29)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -7096,18 +6586,6 @@
        ],
        "key": [
         "Adhara",
-        "Vesta"
-       ],
-       "field": "also: 6 Barnpark / Harry Skelton"
-      },
-      {
-       "text": "J Pollux → J Vesta Dec 41.0026 41 whole (75.60)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
         "Vesta"
        ],
        "field": "also: 6 Barnpark / Harry Skelton"
@@ -7258,7 +6736,6 @@
        "text": "H Zubenelgenubi → H Transpluto Dec 26.9838 27 whole (3.70)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -7339,9 +6816,7 @@
       {
        "text": "S Ketu → H Ketu Dec 29.1406 18×φ golden (loose)",
        "layer": "same body",
-       "source_lines": [
-        "S Jupiter → Ketu RA 1.4737 conj (0.03)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Ketu"
@@ -7576,7 +7051,6 @@
        "text": "J Zubenelgenubi → J Chiron RA 81.0167 81 whole (2.72)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -7838,18 +7312,6 @@
        "field": "also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton"
       },
       {
-       "text": "H Pollux → H Ceres RA 17.9498 φ^6 phi power (87.96)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Ceres"
-       ],
-       "field": "also: 6 Barnpark / Harry Skelton"
-      },
-      {
        "text": "S Sun → J Ceres Dec 14.1459 14.14 sqrt2 (89.65)",
        "layer": "top rows",
        "source_lines": [],
@@ -7927,7 +7389,6 @@
        "text": "J Zubenelgenubi → J Eris RA 159.9987 160 whole (86.99)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -8062,18 +7523,6 @@
        "field": "also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor"
       },
       {
-       "text": "J Pollux → J Mercury Dec 45.0043 45 whole (61.83)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Mercury"
-       ],
-       "field": "also: 7 Dixie Mafia / Jack Tudor"
-      },
-      {
        "text": "J Rukbat → J Mercury RA 71.9965 72 whole (68.12)",
        "layer": "star rows",
        "source_lines": [
@@ -8138,7 +7587,7 @@
       "cells": [
        "J Deneb Algedi → J Ceres Dec 13.9890 14 whole (20.40) = S Moon → Procyon Dec 13.9948 14 whole (54.47)"
       ],
-      "field": "also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor"
+      "field": "also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor"
      }
     ],
     "4": [
@@ -8189,14 +7638,14 @@
       "cells": [
        "H Procyon → H Uranus Dec 4.0132 4 whole (11.65)"
       ],
-      "field": "also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor"
+      "field": "also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor"
      },
      {
       "label": "4 = 360/90",
       "cells": [
        "S Transpluto → J Transpluto Dec 4.0245 4 whole (loose)"
       ],
-      "field": "also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor"
+      "field": "also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor"
      },
      {
       "label": "5 = 360/72",
@@ -8239,13 +7688,6 @@
        "J Alphard → J Orcus RA 8.9939 9 whole (48.64)"
       ],
       "field": "also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor"
-     },
-     {
-      "label": "45 = 360/8",
-      "cells": [
-       "J Pollux → J Mercury Dec 45.0043 45 whole (61.83)"
-      ],
-      "field": "also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton"
      },
      {
       "label": "72 = 360/5",
@@ -8305,7 +7747,7 @@
        "H Procyon → H Uranus Dec 4.0132 4 whole (11.65)",
        "S Transpluto → J Transpluto Dec 4.0245 4 whole (loose)"
       ],
-      "field": "also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor"
+      "field": "also: 7 Dixie Mafia / Jack Tudor"
      },
      {
       "label": "25 whole",
@@ -8337,14 +7779,6 @@
       "cells": [
        "S Sun → J Ceres Dec 14.1459 14.14 sqrt2 (89.65)",
        "J Procyon → J Eris Dec 14.1495 14.14 sqrt2 (80.23)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "41 whole",
-      "cells": [
-       "J Adhara → J Transpluto RA 40.9820 41 whole (1.04)",
-       "J Pollux → J Vesta Dec 41.0026 41 whole (75.60)"
       ],
       "field": "only"
      },
@@ -8422,7 +7856,6 @@
        "text": "J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -8476,13 +7909,6 @@
        ]
       },
       {
-       "text": "J Pollux → J Ceres Dec 7.0100 7 whole (24.76)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
-      },
-      {
        "text": "J Rukbat → J Ceres RA 158.9919 159 whole (35.45)",
        "layer": "star rows",
        "source_lines": [
@@ -8498,15 +7924,7 @@
       "S Juno → H Juno RA 110.6894 10×φ^5 phi power (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "H Pollux → H Juno RA 76.9948 77 whole (54.46)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -8582,7 +8000,6 @@
        "text": "H Zubenelgenubi → H Transpluto RA 69.0095 69 whole (27.67)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -8625,9 +8042,7 @@
      "same_body": [
       "S Ketu → H Ketu RA 122.8714 φ^10 phi power (loose)"
      ],
-     "body_lines": [
-      "S Jupiter → Ketu RA 1.4737 conj (0.03)"
-     ],
+     "body_lines": [],
      "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
@@ -8656,13 +8071,6 @@
        "source_lines": [
         "S Jupiter → Capella Dec 31.9998 32 whole (97.55)"
        ]
-      },
-      {
-       "text": "J Pollux → J Ketu Dec 15.0113 15 whole (18.87)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
       }
      ]
     },
@@ -8690,7 +8098,6 @@
        "text": "J Zubenelgenubi → J Venus Dec 0.2933 conj (0.05)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -8793,13 +8200,6 @@
        "source_lines": [
         "S Sun → Adhara Dec 12.9993 13 whole (93.43)"
        ]
-      },
-      {
-       "text": "J Pollux → J Uranus RA 155.3367 96×φ golden (69.21)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
       }
      ],
      "other_chart_same_body": [],
@@ -8808,7 +8208,6 @@
        "text": "H Zubenelgenubi → H Uranus Dec 28.9802 29 whole (0.01)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -8827,13 +8226,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Sun → Alhena Dec 32.3683 20×φ golden (58.48)"
-       ]
-      },
-      {
-       "text": "J Pollux → J Chiron RA 9.9881 10 whole (16.29)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
        ]
       }
      ],
@@ -8934,7 +8326,6 @@
        "text": "H Zubenelgenubi → H Makemake Dec 40.0069 40 whole (43.22)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -9079,7 +8470,6 @@
        "text": "H Zubenelgenubi → H Transpluto RA 69.0095 69 whole (27.67)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -9150,7 +8540,6 @@
        "text": "J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -9245,18 +8634,6 @@
        "field": "only"
       },
       {
-       "text": "J Pollux → J Ceres Dec 7.0100 7 whole (24.76)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Ceres"
-       ],
-       "field": "also: 4 Below The Radar / Sam Twiston-Davies"
-      },
-      {
        "text": "J Rukbat → J Ceres RA 158.9919 159 whole (35.45)",
        "layer": "star rows",
        "source_lines": [
@@ -9282,18 +8659,6 @@
         "Juno"
        ],
        "field": "also: 7 Dixie Mafia / Jack Tudor"
-      },
-      {
-       "text": "H Pollux → H Juno RA 76.9948 77 whole (54.46)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Juno"
-       ],
-       "field": "only"
       },
       {
        "text": "S Moon → J Juno RA 1.1426 conj (5.68)",
@@ -9411,7 +8776,6 @@
        "text": "H Zubenelgenubi → H Transpluto RA 69.0095 69 whole (27.67)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -9484,9 +8848,7 @@
       {
        "text": "S Ketu → H Ketu RA 122.8714 φ^10 phi power (loose)",
        "layer": "same body",
-       "source_lines": [
-        "S Jupiter → Ketu RA 1.4737 conj (0.03)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Ketu"
@@ -9538,18 +8900,6 @@
         "Ketu"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Pollux → J Ketu Dec 15.0113 15 whole (18.87)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Ketu"
-       ],
-       "field": "also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor"
       }
      ]
     },
@@ -9601,18 +8951,6 @@
         "Saturn"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Pollux → J Saturn RA 161.8212 100×φ^1 phi power (95.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Saturn"
-       ],
-       "field": "also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor"
       },
       {
        "text": "J Procyon → J Saturn Dec 27.9928 28 whole (40.65)",
@@ -9729,18 +9067,6 @@
        "field": "only"
       },
       {
-       "text": "H Pollux → H Pallas Dec 14.0108 14 whole (21.11)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Pallas"
-       ],
-       "field": "also: 2 Stride On / Derek Fox"
-      },
-      {
        "text": "H Rukbat → H Pallas RA 1.4991 conj (0.00)",
        "layer": "star rows",
        "source_lines": [
@@ -9838,18 +9164,6 @@
         "Sedna"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Pollux → J Sedna Dec 24.0018 24 whole (82.64)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Sedna"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -9865,18 +9179,6 @@
         "Mars"
        ],
        "field": "only"
-      },
-      {
-       "text": "H Pollux → H Mars RA 165.0339 102×φ golden (68.76)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Mars"
-       ],
-       "field": "also: 2 Stride On / Derek Fox"
       },
       {
        "text": "J Rukbat → J Mars RA 109.9814 110 whole (0.50)",
@@ -10183,7 +9485,6 @@
        "text": "J Zubenelgenubi → J Venus Dec 0.2933 conj (0.05)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -10244,18 +9545,6 @@
         "Vesta"
        ],
        "field": "also: 1 Off The Jury / Sean Bowen"
-      },
-      {
-       "text": "J Pollux → J Vesta Dec 54.0056 54 whole (51.75)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Vesta"
-       ],
-       "field": "also: 4 Below The Radar / Sam Twiston-Davies"
       }
      ]
     },
@@ -10601,7 +9890,6 @@
        "text": "H Zubenelgenubi → H Makemake Dec 40.0069 40 whole (43.22)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -10670,18 +9958,6 @@
         "Chiron"
        ],
        "field": "also: 1 Off The Jury / Sean Bowen"
-      },
-      {
-       "text": "J Pollux → J Chiron RA 9.9881 10 whole (16.29)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Chiron"
-       ],
-       "field": "also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor"
       }
      ]
     },
@@ -10733,7 +10009,6 @@
        "text": "H Zubenelgenubi → H Uranus Dec 28.9802 29 whole (0.01)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -10763,18 +10038,6 @@
         "Uranus"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Pollux → J Uranus RA 155.3367 96×φ golden (69.21)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Uranus"
-       ],
-       "field": "also: 2 Stride On / Derek Fox"
       }
      ]
     }
@@ -10822,13 +10085,6 @@
        "H Capella → H Pallas Dec 31.9815 32 whole (0.55) = S Jupiter → Capella Dec 31.9998 32 whole (97.55)"
       ],
       "field": "also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies"
-     },
-     {
-      "label": "14 whole",
-      "cells": [
-       "H Pollux → H Pallas Dec 14.0108 14 whole (21.11) = S Moon → Procyon Dec 13.9948 14 whole (54.47)"
-      ],
-      "field": "also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor"
      },
      {
       "label": "14×φ golden",
@@ -10956,7 +10212,7 @@
       "cells": [
        "J Alhena → J Transpluto RA 44.9863 45 whole (9.78)"
       ],
-      "field": "also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies"
+      "field": "also: 1 Off The Jury / Sean Bowen"
      },
      {
       "label": "3 = 360/120",
@@ -10964,27 +10220,6 @@
        "J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)"
       ],
       "field": "also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor"
-     },
-     {
-      "label": "10 = 360/36",
-      "cells": [
-       "J Pollux → J Chiron RA 9.9881 10 whole (16.29)"
-      ],
-      "field": "also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston"
-     },
-     {
-      "label": "24 = 360/15",
-      "cells": [
-       "J Pollux → J Sedna Dec 24.0018 24 whole (82.64)"
-      ],
-      "field": "also: 3 Leader Crik / Dylan Johnston"
-     },
-     {
-      "label": "15 = 360/24",
-      "cells": [
-       "J Pollux → J Ketu Dec 15.0113 15 whole (18.87)"
-      ],
-      "field": "also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor"
      },
      {
       "label": "10 = 360/36",
@@ -11078,14 +10313,6 @@
       "field": "only"
      },
      {
-      "label": "102×φ golden",
-      "cells": [
-       "H Alphard → H Gonggong RA 165.0433 102×φ golden (77.93)",
-       "H Pollux → H Mars RA 165.0339 102×φ golden (68.76)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "9 whole",
       "cells": [
        "H Betelgeuse → H Mercury Dec 8.9874 9 whole (13.56)",
@@ -11101,22 +10328,6 @@
        "H Capella → H Haumea RA 135.9459 84×φ golden (0.17)"
       ],
       "field": "only"
-     },
-     {
-      "label": "7 whole",
-      "cells": [
-       "H Galactic Centre → H Pluto Dec 7.0048 7 whole (57.73)",
-       "J Pollux → J Ceres Dec 7.0100 7 whole (24.76)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "15 whole",
-      "cells": [
-       "H Kaus Australis → H Ceres Dec 14.9846 15 whole (5.38)",
-       "J Pollux → J Ketu Dec 15.0113 15 whole (18.87)"
-      ],
-      "field": "also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor"
      },
      {
       "label": "16 whole",
@@ -11173,22 +10384,6 @@
       "cells": [
        "J Betelgeuse → J Ketu RA 58.9918 59 whole (34.63)",
        "J Capella → J Rahu Dec 59.0120 59 whole (16.05)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "10 whole",
-      "cells": [
-       "J Pollux → J Chiron RA 9.9881 10 whole (16.29)",
-       "J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44)"
-      ],
-      "field": "also: 3 Leader Crik / Dylan Johnston"
-     },
-     {
-      "label": "54 whole",
-      "cells": [
-       "J Pollux → J Vesta Dec 54.0056 54 whole (51.75)",
-       "J Procyon → J Makemake RA 54.0110 54 whole (20.36)"
       ],
       "field": "only"
      }
@@ -11270,13 +10465,6 @@
        "source_lines": [
         "S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)"
        ]
-      },
-      {
-       "text": "J Pollux → J Mercury Dec 4.0191 4 whole (0.20)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
       }
      ]
     },
@@ -11328,13 +10516,6 @@
        "source_lines": []
       },
       {
-       "text": "H Pollux → H Pluto RA 177.7978 177.778 ninth (98.43)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
-      },
-      {
        "text": "H Procyon → H Pluto Dec 27.0095 27 whole (27.39)",
        "layer": "star rows",
        "source_lines": [
@@ -11354,15 +10535,7 @@
       "S Chiron → H Chiron RA 26.0873 10×φ^2 phi power (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "H Pollux → H Chiron RA 116.9836 117 whole (3.21)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -11414,7 +10587,6 @@
        "text": "H Zubenelgenubi → H Vesta RA 126.2247 78×φ golden (19.50)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -11451,20 +10623,6 @@
        "source_lines": [
         "S Moon → Kaus Australis RA 87.0029 87 whole (72.78)"
        ]
-      },
-      {
-       "text": "H Pollux → H Rahu RA 1.1288 conj (6.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
-      },
-      {
-       "text": "H Pollux → H Rahu Dec 6.9856 7 whole (7.96)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
       }
      ],
      "other_chart_same_body": [],
@@ -11480,7 +10638,6 @@
        "text": "J Zubenelgenubi → J Rahu RA 145.6428 90×φ golden (15.16)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -11503,7 +10660,6 @@
        "text": "H Zubenelgenubi → H Eris Dec 13.9955 14 whole (60.35)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -11515,13 +10671,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Moon → Aculeus RA 76.0429 47×φ golden (72.93)"
-       ]
-      },
-      {
-       "text": "J Pollux → J Eris RA 92.2251 57×φ golden (83.31)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
        ]
       }
      ]
@@ -11566,7 +10715,6 @@
        "text": "H Zubenelgenubi → H Haumea RA 8.0173 8 whole (1.82)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -11598,13 +10746,6 @@
        "source_lines": [
         "S Sun → Adhara Dec 12.9993 13 whole (93.43)"
        ]
-      },
-      {
-       "text": "H Pollux → H Gonggong Dec 40.0074 40 whole (39.77)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
       }
      ],
      "other_chart_same_body": [
@@ -11622,7 +10763,6 @@
        "text": "J Zubenelgenubi → J Gonggong Dec 0.2856 conj (0.23)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -11678,13 +10818,6 @@
        "source_lines": [
         "S Jupiter → Capella Dec 31.9998 32 whole (97.55)"
        ]
-      },
-      {
-       "text": "J Pollux → J Transpluto Dec 15.0124 15 whole (14.38)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
       }
      ]
     },
@@ -11694,9 +10827,7 @@
      "same_body": [
       "S Ketu → H Ketu RA 148.8624 92×φ golden (80.73)"
      ],
-     "body_lines": [
-      "S Jupiter → Ketu RA 1.4737 conj (0.03)"
-     ],
+     "body_lines": [],
      "on_this_chart": [
       {
        "text": "H Alphard → H Ketu RA 155.5563 155.556 ninth (99.93)",
@@ -11710,18 +10841,12 @@
        "text": "H Zubenelgenubi → H Ketu Dec 4.9972 5 whole (73.73)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
      ],
      "other_chart_same_body": [],
      "on_other_chart": [
-      {
-       "text": "J Jupiter → J Ketu Dec 45.9965 46 whole (68.34)",
-       "layer": "T2",
-       "source_lines": []
-      },
       {
        "text": "J Aculeus → J Ketu RA 8.0063 8 whole (47.16)",
        "layer": "star rows",
@@ -11734,13 +10859,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)"
-       ]
-      },
-      {
-       "text": "J Pollux → J Ketu RA 140.7563 87×φ golden (37.15)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
        ]
       }
      ]
@@ -11816,13 +10934,6 @@
        "source_lines": []
       },
       {
-       "text": "H Pollux → H Pluto RA 177.7978 177.778 ninth (98.43)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ]
-      },
-      {
        "text": "H Procyon → H Pluto Dec 27.0095 27 whole (27.39)",
        "layer": "star rows",
        "source_lines": [
@@ -11882,7 +10993,6 @@
        "text": "J Zubenelgenubi → J Sedna RA 174.7387 108×φ golden (52.19)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -11942,7 +11052,6 @@
        "text": "H Zubenelgenubi → H Haumea RA 8.0173 8 whole (1.82)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -12013,7 +11122,6 @@
        "text": "J Zubenelgenubi → J Gonggong Dec 0.2856 conj (0.23)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ]
       }
@@ -12027,13 +11135,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Sun → Adhara Dec 12.9993 13 whole (93.43)"
-       ]
-      },
-      {
-       "text": "H Pollux → H Gonggong Dec 40.0074 40 whole (39.77)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
        ]
       }
      ]
@@ -12124,18 +11225,6 @@
         "Mercury"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Pollux → J Mercury Dec 4.0191 4 whole (0.20)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Mercury"
-       ],
-       "field": "also: 4 Below The Radar / Sam Twiston-Davies"
       }
      ]
     },
@@ -12214,18 +11303,6 @@
        "field": "also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton"
       },
       {
-       "text": "H Pollux → H Pluto RA 177.7978 177.778 ninth (98.43)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Pluto"
-       ],
-       "field": "only"
-      },
-      {
        "text": "H Procyon → H Pluto Dec 27.0095 27 whole (27.39)",
        "layer": "star rows",
        "source_lines": [
@@ -12261,18 +11338,6 @@
         "Chiron"
        ],
        "field": "also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton"
-      },
-      {
-       "text": "H Pollux → H Chiron RA 116.9836 117 whole (3.21)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Chiron"
-       ],
-       "field": "also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton"
       },
       {
        "text": "J Aculeus → J Chiron RA 13.9969 14 whole (71.22)",
@@ -12353,7 +11418,6 @@
        "text": "H Zubenelgenubi → H Vesta RA 126.2247 78×φ golden (19.50)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -12414,30 +11478,6 @@
        "field": "also: 4 Below The Radar / Sam Twiston-Davies"
       },
       {
-       "text": "H Pollux → H Rahu RA 1.1288 conj (6.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Rahu"
-       ],
-       "field": "also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox"
-      },
-      {
-       "text": "H Pollux → H Rahu Dec 6.9856 7 whole (7.96)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Rahu"
-       ],
-       "field": "also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox"
-      },
-      {
        "text": "J Aculeus → J Rahu RA 171.9937 172 whole (47.16)",
        "layer": "star rows",
        "source_lines": [
@@ -12453,7 +11493,6 @@
        "text": "J Zubenelgenubi → J Rahu RA 145.6428 90×φ golden (15.16)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -12491,7 +11530,6 @@
        "text": "H Zubenelgenubi → H Eris Dec 13.9955 14 whole (60.35)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -12511,18 +11549,6 @@
         "Eris"
        ],
        "field": "also: 6 Barnpark / Harry Skelton"
-      },
-      {
-       "text": "J Pollux → J Eris RA 92.2251 57×φ golden (83.31)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Eris"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -12591,7 +11617,6 @@
        "text": "H Zubenelgenubi → H Haumea RA 8.0173 8 whole (1.82)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -12652,18 +11677,6 @@
        "field": "also: 3 Leader Crik / Dylan Johnston"
       },
       {
-       "text": "H Pollux → H Gonggong Dec 40.0074 40 whole (39.77)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Gonggong"
-       ],
-       "field": "also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston"
-      },
-      {
        "text": "S Gonggong → J Gonggong Dec 6.0163 6 whole (3.45)",
        "layer": "same body",
        "source_lines": [],
@@ -12689,7 +11702,6 @@
        "text": "J Zubenelgenubi → J Gonggong Dec 0.2856 conj (0.23)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -12782,18 +11794,6 @@
         "Transpluto"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Pollux → J Transpluto Dec 15.0124 15 whole (14.38)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Transpluto"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -12803,9 +11803,7 @@
       {
        "text": "S Ketu → H Ketu RA 148.8624 92×φ golden (80.73)",
        "layer": "same body",
-       "source_lines": [
-        "S Jupiter → Ketu RA 1.4737 conj (0.03)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Ketu"
@@ -12829,7 +11827,6 @@
        "text": "H Zubenelgenubi → H Ketu Dec 4.9972 5 whole (73.73)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -12837,16 +11834,6 @@
         "Ketu"
        ],
        "field": "also: 1 Off The Jury / Sean Bowen"
-      },
-      {
-       "text": "J Jupiter → J Ketu Dec 45.9965 46 whole (68.34)",
-       "layer": "T2",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Ketu"
-       ],
-       "field": "only"
       },
       {
        "text": "J Aculeus → J Ketu RA 8.0063 8 whole (47.16)",
@@ -12868,18 +11855,6 @@
        ],
        "key": [
         "Betelgeuse",
-        "Ketu"
-       ],
-       "field": "also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton"
-      },
-      {
-       "text": "J Pollux → J Ketu RA 140.7563 87×φ golden (37.15)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
         "Ketu"
        ],
        "field": "also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton"
@@ -12949,7 +11924,6 @@
        "text": "H Zubenelgenubi → H Jupiter RA 38.8394 24×φ golden (63.27)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -13035,7 +12009,6 @@
        "text": "H Zubenelgenubi → H Ceres Dec 0.1280 conj (32.87)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -13226,18 +12199,6 @@
         "Saturn"
        ],
        "field": "also: 3 Leader Crik / Dylan Johnston"
-      },
-      {
-       "text": "J Pollux → J Saturn RA 42.9918 43 whole (34.68)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Pollux Dec 43.9940 44 whole (48.83)"
-       ],
-       "key": [
-        "Pollux",
-        "Saturn"
-       ],
-       "field": "also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton"
       },
       {
        "text": "J Procyon → J Saturn Dec 15.9820 16 whole (1.01)",
@@ -13488,7 +12449,6 @@
        "text": "J Zubenelgenubi → J Sedna RA 174.7387 108×φ golden (52.19)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -13535,7 +12495,6 @@
        "text": "J Zubenelgenubi → J Makemake Dec 47.9915 48 whole (33.03)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
         "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)"
        ],
        "key": [
@@ -13595,7 +12554,7 @@
       "cells": [
        "H Zubenelgenubi → H Eris Dec 13.9955 14 whole (60.35) = S Moon → Procyon Dec 13.9948 14 whole (54.47)"
       ],
-      "field": "also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton"
+      "field": "also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies"
      },
      {
       "label": "14×φ golden",
@@ -13609,7 +12568,7 @@
       "cells": [
        "J Aculeus → J Chiron RA 13.9969 14 whole (71.22) = S Moon → Procyon Dec 13.9948 14 whole (54.47)"
       ],
-      "field": "also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton"
+      "field": "also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies"
      },
      {
       "label": "13 whole",
@@ -13622,13 +12581,6 @@
       "label": "43 whole",
       "cells": [
        "J Kaus Australis → J Pallas RA 43.0127 43 whole (13.31) = S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)"
-      ],
-      "field": "also: 6 Barnpark / Harry Skelton"
-     },
-     {
-      "label": "43 whole",
-      "cells": [
-       "J Pollux → J Saturn RA 42.9918 43 whole (34.68) = S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)"
       ],
       "field": "also: 6 Barnpark / Harry Skelton"
      }
@@ -13698,13 +12650,6 @@
       "field": "also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton"
      },
      {
-      "label": "40 = 360/9",
-      "cells": [
-       "H Pollux → H Gonggong Dec 40.0074 40 whole (39.77)"
-      ],
-      "field": "also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton"
-     },
-     {
       "label": "30 = 360/12",
       "cells": [
        "H Rukbat → H Orcus Dec 29.9898 30 whole (24.05)"
@@ -13758,14 +12703,14 @@
       "cells": [
        "J Alhena → J Jupiter RA 3.9802 4 whole (0.01)"
       ],
-      "field": "also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies"
+      "field": "also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies"
      },
      {
       "label": "4 = 360/90",
       "cells": [
        "J Alphard → J Uranus Dec 3.9956 4 whole (60.49)"
       ],
-      "field": "also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies"
+      "field": "also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies"
      },
      {
       "label": "40 = 360/9",
@@ -13773,20 +12718,6 @@
        "J Deneb Algedi → J Venus Dec 40.0163 40 whole (3.43)"
       ],
       "field": "also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton"
-     },
-     {
-      "label": "4 = 360/90",
-      "cells": [
-       "J Pollux → J Mercury Dec 4.0191 4 whole (0.20)"
-      ],
-      "field": "also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies"
-     },
-     {
-      "label": "15 = 360/24",
-      "cells": [
-       "J Pollux → J Transpluto Dec 15.0124 15 whole (14.38)"
-      ],
-      "field": "also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton"
      },
      {
       "label": "40 = 360/9",
@@ -13922,23 +12853,6 @@
       "field": "only"
      },
      {
-      "label": "117 whole",
-      "cells": [
-       "H Pollux → H Chiron RA 116.9836 117 whole (3.21)",
-       "J Rukbat → J Sedna RA 117.0114 117 whole (18.69)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "40 whole",
-      "cells": [
-       "H Pollux → H Gonggong Dec 40.0074 40 whole (39.77)",
-       "J Deneb Algedi → J Venus Dec 40.0163 40 whole (3.43)",
-       "J Rukbat → J Uranus RA 39.9984 40 whole (84.34)"
-      ],
-      "field": "also: 6 Barnpark / Harry Skelton"
-     },
-     {
       "label": "11 whole",
       "cells": [
        "H Procyon → H Sun Dec 10.9911 11 whole (30.77)",
@@ -13963,14 +12877,6 @@
       "field": "only"
      },
      {
-      "label": "15 whole",
-      "cells": [
-       "J Aculeus → J Quaoar RA 15.0011 15 whole (88.85)",
-       "J Pollux → J Transpluto Dec 15.0124 15 whole (14.38)"
-      ],
-      "field": "also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton"
-     },
-     {
       "label": "53 whole",
       "cells": [
        "J Adhara → J Mercury Dec 52.9836 53 whole (3.20)",
@@ -13982,18 +12888,17 @@
       "label": "4 whole",
       "cells": [
        "J Alhena → J Jupiter RA 3.9802 4 whole (0.01)",
-       "J Alphard → J Uranus Dec 3.9956 4 whole (60.49)",
-       "J Pollux → J Mercury Dec 4.0191 4 whole (0.20)"
+       "J Alphard → J Uranus Dec 3.9956 4 whole (60.49)"
       ],
-      "field": "also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies"
+      "field": "also: 4 Below The Radar / Sam Twiston-Davies"
      },
      {
-      "label": "43 whole",
+      "label": "40 whole",
       "cells": [
-       "J Kaus Australis → J Pallas RA 43.0127 43 whole (13.31)",
-       "J Pollux → J Saturn RA 42.9918 43 whole (34.68)"
+       "J Deneb Algedi → J Venus Dec 40.0163 40 whole (3.43)",
+       "J Rukbat → J Uranus RA 39.9984 40 whole (84.34)"
       ],
-      "field": "only"
+      "field": "also: 6 Barnpark / Harry Skelton"
      }
     ]
    }
@@ -14007,12 +12912,9 @@
    "S Jupiter → Capella Dec 31.9998 32 whole (97.55)",
    "S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)",
    "S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)",
-   "S Jupiter → Ketu RA 1.4737 conj (0.03)",
    "S Sun → Haumea RA 0.5695 conj (38.48)",
    "S Sun → Alhena Dec 32.3683 20×φ golden (58.48)",
    "S Sun → Adhara Dec 12.9993 13 whole (93.43)",
-   "S Sun → Pollux Dec 43.9940 44 whole (48.83)",
-   "S Sun → Zubenelgenubi RA 1.4095 conj (0.36)",
    "S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)",
    "S Sun → Deneb Algedi Dec 0.1604 conj (21.67)",
    "S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)",

@@ -8,9 +8,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 
 ## Sky (noted lines)
 - S Jupiter → Pallas Dec 0.0771 conj (55.22)
-- S Jupiter → Gonggong Dec 0.2973 conj (0.01)
 - S Sun → Venus RA 0.1171 conj (84.99)
-- S Sun → Juno RA 0.9669 conj (12.63)
 - S Sun → Al Rescha Dec 24.9993 25 whole (93.15)
 - S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)
 - S Sun → Menkent RA 77.7779 77.7778 ninth (99.92)
@@ -23,7 +21,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
 - S Moon → Praesepe Dec 22.9966 23 whole (69.22)
 - S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
-- S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
 - Hubs: none
 
 ## 1 Protected Guest / Jane Elliott
@@ -73,7 +70,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Ankaa → J Pallas RA 63.9807 64 whole (0.12)
     - source line: S Moon → Ankaa RA 0.5677 conj (38.63)
 - **H Juno** (same body: S Juno → H Juno RA 165.8384 166.667 ninth (loose))
-  - sky line to Juno: S Sun → Juno RA 0.9669 conj (12.63)
   - star rows: H Al Rescha → H Juno Dec 4.0113 4 whole (18.94)
     - source line: S Sun → Al Rescha Dec 24.9993 25 whole (93.15)
   - star rows: H Ankaa → H Juno RA 118.0043 118 whole (61.44)
@@ -116,8 +112,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Praesepe → H Rahu Dec 24.1433 24.14 silver (98.16)
     - source line: S Moon → Praesepe Dec 22.9966 23 whole (69.22)
 - **J Eris** (same body: S Eris → J Eris RA 2.9900 3 whole (24.89))
-  - star rows: J Galactic Centre → J Eris Dec 20.9858 21 whole (8.36)
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - star rows: J Praesepe → J Eris Dec 28.0042 28 whole (62.13)
     - source line: S Moon → Praesepe Dec 22.9966 23 whole (69.22)
   - other chart, top rows: S Moon → H Eris Dec 0.1404 conj (28.30)
@@ -148,8 +142,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Alhena → H Haumea Dec 1.0078 1 whole (37.19)
   - 15 = 360/24 — also: 4 Trevolli / Kieran O'Neill
     - H Arcturus → H Ketu Dec 15.0093 15 whole (28.69)
-  - 10 = 360/36 — also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill
-    - H Galactic Centre → H Saturn Dec 10.0182 10 whole (0.79)
   - 3 = 360/120 — also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
     - S Praesepe → H Jupiter Dec 3.0143 3 whole (7.98)
   - 1 = 360/360 — also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill
@@ -176,9 +168,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - φ^10 phi power — only
     - S Jupiter → H Haumea RA 122.9496 φ^10 phi power (86.72)
     - H Al Rescha → H Quaoar RA 122.9754 φ^10 phi power (94.70)
-  - 21 whole — also: 5 Eleven Eleven / Joey Haynes
-    - H Al Rescha → H Mercury Dec 21.0057 21 whole (51.43)
-    - J Galactic Centre → J Eris Dec 20.9858 21 whole (8.36)
   - 105 whole — only
     - H Al Rescha → H Pluto RA 105.0193 105 whole (0.11)
     - H Praesepe → H Eris RA 105.0127 105 whole (13.26)
@@ -195,7 +184,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 98×φ golden — only
     - H Alnilam → H Saturn RA 158.5441 98×φ golden (7.88)
     - H Alnilam → H Pluto RA 158.5657 98×φ golden (90.12)
-  - 28 whole — also: 4 Trevolli / Kieran O'Neill
+  - 28 whole — only
     - H Arcturus → H Orcus Dec 28.0100 28 whole (25.22)
     - J Ankaa → J Quaoar Dec 27.9862 28 whole (9.61)
     - J Praesepe → J Eris Dec 28.0042 28 whole (62.13)
@@ -203,9 +192,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Arcturus → H Ketu Dec 15.0093 15 whole (28.69)
     - H Sadalsuud → H Pluto Dec 14.9844 15 whole (4.85)
     - J Alnilam → J Transpluto Dec 14.9865 15 whole (10.68)
-  - 10 whole — only
-    - H Galactic Centre → H Saturn Dec 10.0182 10 whole (0.79)
-    - J Meissa → J Mars Dec 10.0134 10 whole (10.73)
   - 3 whole — also: 2 Supakalanistic / Liam Keniry
     - S Praesepe → H Jupiter Dec 3.0143 3 whole (7.98)
     - S Eris → J Eris RA 2.9900 3 whole (24.89)
@@ -250,7 +236,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Ankaa RA 0.5677 conj (38.63)
 - **Juno**
   - same body: S Juno → H Juno RA 165.8384 166.667 ninth (loose) — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
-    - source line: S Sun → Juno RA 0.9669 conj (12.63)
   - star rows: H Al Rescha → H Juno Dec 4.0113 4 whole (18.94) — only
     - source line: S Sun → Al Rescha Dec 24.9993 25 whole (93.15)
   - star rows: H Ankaa → H Juno RA 118.0043 118 whole (61.44) — also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill
@@ -308,8 +293,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Praesepe → H Eris RA 105.0127 105 whole (13.26) — only
     - source line: S Moon → Praesepe Dec 22.9966 23 whole (69.22)
   - same body: S Eris → J Eris RA 2.9900 3 whole (24.89) — also: 5 Eleven Eleven / Joey Haynes
-  - star rows: J Galactic Centre → J Eris Dec 20.9858 21 whole (8.36) — also: 3 Creationist / Connor Murtagh
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - star rows: J Praesepe → J Eris Dec 28.0042 28 whole (62.13) — only
     - source line: S Moon → Praesepe Dec 22.9966 23 whole (69.22)
 - **Jupiter**
@@ -357,8 +340,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)
   - star rows: J Arcturus → J Vesta RA 122.2477 122.222 ninth (96.47) — also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill
     - source line: S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
-  - star rows: J Galactic Centre → J Vesta RA 174.7439 108×φ golden (77.94) — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - star rows: J Menkent → J Vesta RA 120.0033 120 whole (69.71) — only
     - source line: S Sun → Menkent RA 77.7779 77.7778 ninth (99.92)
 - **Makemake**
@@ -369,8 +350,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Quaoar**
   - star rows: H Al Rescha → H Quaoar RA 122.9754 φ^10 phi power (94.70) — also: 3 Creationist / Connor Murtagh
     - source line: S Sun → Al Rescha Dec 24.9993 25 whole (93.15)
-  - star rows: H Galactic Centre → H Quaoar RA 1.1206 conj (6.40) — also: 2 Supakalanistic / Liam Keniry
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - star rows: H Praesepe → H Quaoar RA 137.5038 85×φ golden (1.00) — also: 3 Creationist / Connor Murtagh
     - source line: S Moon → Praesepe Dec 22.9966 23 whole (69.22)
   - star rows: J Al Rescha → J Quaoar RA 148.9853 149 whole (7.01) — also: 3 Creationist / Connor Murtagh
@@ -382,8 +361,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Saturn**
   - star rows: H Alnilam → H Saturn RA 158.5441 98×φ golden (7.88) — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
     - source line: S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)
-  - star rows: H Galactic Centre → H Saturn Dec 10.0182 10 whole (0.79) — only
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
 - **Uranus**
   - star rows: H Alnilam → H Uranus RA 71.1941 44×φ golden (96.39) — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh
     - source line: S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)
@@ -453,8 +430,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Menkent RA 77.7779 77.7778 ninth (99.92)
   - other chart, star rows: J Alhena → J Mars RA 108.9832 109 whole (2.55)
     - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
-  - other chart, star rows: J Galactic Centre → J Mars RA 58.0150 58 whole (6.36)
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
 - **H Pluto** (same body: S Pluto → H Pluto RA 16.1251 10×φ^1 phi power (loose); S Pluto → H Pluto Dec 2.9955 3 whole (59.78))
   - top rows: S Moon → H Pluto Dec 16.6652 16.6667 ninth (98.77)
   - star rows: H Al Rescha → H Pluto RA 108.4169 67×φ golden (53.98)
@@ -464,13 +439,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Arcturus → J Pluto Dec 13.0079 13 whole (36.48)
     - source line: S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
 - **H Juno** (same body: S Juno → H Juno RA 17.0110 17 whole (20.43))
-  - sky line to Juno: S Sun → Juno RA 0.9669 conj (12.63)
   - star rows: H Alhena → H Juno RA 152.0065 152 whole (45.39)
     - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
-  - star rows: H Galactic Centre → H Juno RA 41.0014 41 whole (86.17)
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
-  - other chart, star rows: J Galactic Centre → J Juno RA 1.0933 conj (7.35)
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
 - **H Rahu** (same body: S Rahu → H Rahu RA 166.3247 166.667 ninth (loose))
   - other chart, top rows: S Sun → J Rahu Dec 44.9947 45 whole (54.09)
   - other chart, star rows: J Al Rescha → J Rahu Dec 19.9937 20 whole (46.99)
@@ -508,8 +478,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Meissa Dec 12.9486 8×φ golden (75.20)
   - other chart, star rows: H Alhena → H Pallas RA 61.0119 61 whole (16.49)
     - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
-  - other chart, star rows: H Galactic Centre → H Pallas RA 131.9961 132 whole (64.65)
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - other chart, star rows: H Sadalsuud → H Pallas Dec 0.2878 conj (0.17)
     - source line: S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)
 - **J Haumea** (same body: S Haumea → J Haumea RA 38.0078 38 whole (36.94))
@@ -519,18 +487,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
   - star rows: J Alnilam → J Haumea Dec 24.9998 25 whole (97.65)
     - source line: S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)
-  - star rows: J Galactic Centre → J Haumea RA 87.0153 87 whole (5.52)
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
 - **J Quaoar** (same body: S Quaoar → J Quaoar Dec 3.9764 4 whole (loose))
   - top rows: S Jupiter → J Quaoar Dec 0.2228 conj (6.62)
   - star rows: J Arcturus → J Quaoar Dec 30.7417 19×φ golden (93.97)
     - source line: S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
-  - other chart, star rows: H Galactic Centre → H Quaoar RA 1.2669 conj (2.42)
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - other chart, star rows: H Sadalsuud → H Quaoar Dec 9.9871 10 whole (12.75)
     - source line: S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)
 - **J Gonggong** (same body: S Gonggong → J Gonggong Dec 11.0571 φ^5 phi power (loose))
-  - sky line to Gonggong: S Jupiter → Gonggong Dec 0.2973 conj (0.01)
   - top rows: S Sun → J Gonggong Dec 0.2930 conj (0.05)
   - other chart, top rows: S Jupiter → H Gonggong RA 1.2521 conj (2.73)
 ### L3 matches
@@ -638,7 +601,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 37 whole — only
     - H Ankaa → H Mercury Dec 37.0021 37 whole (80.06)
     - H Sadalmelik → H Uranus RA 36.9931 37 whole (42.71)
-    - J Galactic Centre → J Orcus Dec 37.0001 37 whole (98.77)
   - 54 whole — only
     - H Ankaa → H Transpluto Dec 53.9993 54 whole (92.68)
     - J Arcturus → J Makemake RA 53.9851 54 whole (6.49)
@@ -688,8 +650,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Menkent RA 77.7779 77.7778 ninth (99.92)
   - star rows: J Alhena → J Mars RA 108.9832 109 whole (2.55) — also: 3 Creationist / Connor Murtagh
     - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
-  - star rows: J Galactic Centre → J Mars RA 58.0150 58 whole (6.36) — also: 5 Eleven Eleven / Joey Haynes
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
 - **Pluto**
   - same body: S Pluto → H Pluto RA 16.1251 10×φ^1 phi power (loose) — also: 1 Protected Guest / Jane Elliott, 5 Eleven Eleven / Joey Haynes
   - same body: S Pluto → H Pluto Dec 2.9955 3 whole (59.78) — also: 1 Protected Guest / Jane Elliott, 5 Eleven Eleven / Joey Haynes
@@ -702,13 +662,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
 - **Juno**
   - same body: S Juno → H Juno RA 17.0110 17 whole (20.43) — also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
-    - source line: S Sun → Juno RA 0.9669 conj (12.63)
   - star rows: H Alhena → H Juno RA 152.0065 152 whole (45.39) — only
     - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
-  - star rows: H Galactic Centre → H Juno RA 41.0014 41 whole (86.17) — only
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
-  - star rows: J Galactic Centre → J Juno RA 1.0933 conj (7.35) — only
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
 - **Rahu**
   - same body: S Rahu → H Rahu RA 166.3247 166.667 ninth (loose) — also: 1 Protected Guest / Jane Elliott, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
   - top rows: S Sun → J Rahu Dec 44.9947 45 whole (54.09) — only
@@ -726,13 +681,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Venus RA 0.1171 conj (84.99)
   - top rows: S Pluto → H Jupiter RA 133.3495 133.333 ninth (98.06) — only
   - top rows: S Juno → H Jupiter Dec 35.5998 22×φ golden (81.79) — only
-    - source line: S Sun → Juno RA 0.9669 conj (12.63)
   - top rows: S Makemake → H Jupiter Dec 0.1881 conj (13.92) — also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh
     - source line: S Moon → Makemake RA 166.6955 166.667 ninth (97.53)
   - star rows: H Ankaa → H Jupiter RA 64.9991 65 whole (91.40) — also: 5 Eleven Eleven / Joey Haynes
     - source line: S Moon → Ankaa RA 0.5677 conj (38.63)
-  - star rows: S Galactic Centre → H Jupiter Dec 50.9885 51 whole (17.94) — only
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - star rows: S Meissa → H Jupiter RA 12.2254 12.2222 ninth (95.63) — also: 1 Protected Guest / Jane Elliott
     - source line: S Moon → Meissa Dec 12.9486 8×φ golden (75.20)
   - star rows: S Praesepe → H Jupiter Dec 1.9990 2 whole (90.70) — also: 1 Protected Guest / Jane Elliott
@@ -743,7 +695,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Pallas → J Jupiter Dec 0.2913 conj (0.08) — only
     - source line: S Jupiter → Pallas Dec 0.0771 conj (55.22)
   - top rows: S Gonggong → J Jupiter Dec 0.0710 conj (58.26) — also: 5 Eleven Eleven / Joey Haynes
-    - source line: S Jupiter → Gonggong Dec 0.2973 conj (0.01)
   - star rows: J Al Rescha → J Jupiter RA 179.6137 111×φ golden (39.87) — only
     - source line: S Sun → Al Rescha Dec 24.9993 25 whole (93.15)
   - star rows: S Arcturus → J Jupiter RA 3.0076 3 whole (38.30) — also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
@@ -755,7 +706,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Gonggong**
   - top rows: S Jupiter → H Gonggong RA 1.2521 conj (2.73) — also: 1 Protected Guest / Jane Elliott
   - same body: S Gonggong → J Gonggong Dec 11.0571 φ^5 phi power (loose) — only
-    - source line: S Jupiter → Gonggong Dec 0.2973 conj (0.01)
   - top rows: S Sun → J Gonggong Dec 0.2930 conj (0.05) — only
 - **Neptune**
   - top rows: S Sun → H Neptune RA 46.9216 29×φ golden (91.75) — also: 4 Trevolli / Kieran O'Neill
@@ -766,8 +716,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Al Rescha Dec 24.9993 25 whole (93.15)
   - star rows: H Alhena → H Uranus RA 90.9915 91 whole (32.81) — also: 4 Trevolli / Kieran O'Neill
     - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
-  - star rows: H Galactic Centre → H Uranus RA 102.0165 102 whole (3.05) — also: 4 Trevolli / Kieran O'Neill
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - star rows: H Sadalmelik → H Uranus RA 36.9931 37 whole (42.71) — also: 1 Protected Guest / Jane Elliott, 4 Trevolli / Kieran O'Neill
     - source line: S Sun → Sadalmelik RA 41.9994 42 whole (94.18)
   - star rows: J Alnilam → J Uranus Dec 18.9864 19 whole (10.18) — also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh
@@ -790,8 +738,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Pallas**
   - star rows: H Alhena → H Pallas RA 61.0119 61 whole (16.49) — only
     - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
-  - star rows: H Galactic Centre → H Pallas RA 131.9961 132 whole (64.65) — only
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - star rows: H Sadalsuud → H Pallas Dec 0.2878 conj (0.17) — only
     - source line: S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)
   - same body: S Pallas → J Pallas Dec 27.4872 17×φ golden (loose) — also: 1 Protected Guest / Jane Elliott
@@ -805,8 +751,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
   - star rows: H Alnilam → H Vesta RA 0.6354 conj (33.23) — also: 1 Protected Guest / Jane Elliott, 4 Trevolli / Kieran O'Neill
     - source line: S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)
-  - star rows: H Galactic Centre → H Vesta RA 176.9967 177 whole (69.55) — also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - star rows: H Meissa → H Vesta RA 0.3664 conj (57.11) — also: 3 Creationist / Connor Murtagh
     - source line: S Moon → Meissa Dec 12.9486 8×φ golden (75.20)
   - star rows: H Sadalsuud → H Vesta Dec 29.0022 29 whole (79.54) — only
@@ -825,15 +769,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Praesepe Dec 22.9966 23 whole (69.22)
   - star rows: J Meissa → J Ceres RA 141.4351 141.4 sqrt2 (96.15) — also: 3 Creationist / Connor Murtagh
     - source line: S Moon → Meissa Dec 12.9486 8×φ golden (75.20)
-- **Quaoar**
-  - star rows: H Galactic Centre → H Quaoar RA 1.2669 conj (2.42) — also: 1 Protected Guest / Jane Elliott
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
-  - star rows: H Sadalsuud → H Quaoar Dec 9.9871 10 whole (12.75) — also: 4 Trevolli / Kieran O'Neill
-    - source line: S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)
-  - same body: S Quaoar → J Quaoar Dec 3.9764 4 whole (loose) — also: 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
-  - top rows: S Jupiter → J Quaoar Dec 0.2228 conj (6.62) — only
-  - star rows: J Arcturus → J Quaoar Dec 30.7417 19×φ golden (93.97) — also: 5 Eleven Eleven / Joey Haynes
-    - source line: S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
 - **Chiron**
   - star rows: H Menkent → H Chiron RA 129.4238 80×φ golden (17.15) — also: 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
     - source line: S Sun → Menkent RA 77.7779 77.7778 ninth (99.92)
@@ -853,6 +788,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
   - star rows: J Sadalmelik → J Makemake RA 171.5157 106×φ golden (76.22) — also: 4 Trevolli / Kieran O'Neill
     - source line: S Sun → Sadalmelik RA 41.9994 42 whole (94.18)
+- **Quaoar**
+  - star rows: H Sadalsuud → H Quaoar Dec 9.9871 10 whole (12.75) — also: 4 Trevolli / Kieran O'Neill
+    - source line: S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)
+  - same body: S Quaoar → J Quaoar Dec 3.9764 4 whole (loose) — also: 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+  - top rows: S Jupiter → J Quaoar Dec 0.2228 conj (6.62) — only
+  - star rows: J Arcturus → J Quaoar Dec 30.7417 19×φ golden (93.97) — also: 5 Eleven Eleven / Joey Haynes
+    - source line: S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
 - **Sun**
   - same body: S Sun → J Sun RA 154.9522 155.556 ninth (loose) — also: 1 Protected Guest / Jane Elliott, 5 Eleven Eleven / Joey Haynes
   - star rows: J Arcturus → J Sun Dec 2.0091 2 whole (29.56) — also: 5 Eleven Eleven / Joey Haynes
@@ -865,8 +807,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
   - star rows: J Alnilam → J Haumea Dec 24.9998 25 whole (97.65) — also: 4 Trevolli / Kieran O'Neill
     - source line: S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)
-  - star rows: J Galactic Centre → J Haumea RA 87.0153 87 whole (5.52) — also: 4 Trevolli / Kieran O'Neill
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
 - **Saturn**
   - star rows: J Alnilam → J Saturn RA 113.0147 113 whole (7.07) — also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
     - source line: S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)
@@ -876,8 +816,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Arcturus → J Eris RA 168.0171 168 whole (2.10) — only
     - source line: S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
 - **Orcus**
-  - star rows: J Galactic Centre → J Orcus Dec 37.0001 37 whole (98.77) — only
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - star rows: J Praesepe → J Orcus Dec 11.9929 12 whole (41.65) — only
     - source line: S Moon → Praesepe Dec 22.9966 23 whole (69.22)
 
@@ -915,7 +853,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Alnilam → H Chiron Dec 2.0192 2 whole (0.16)
     - source line: S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)
 - **H Juno** (same body: S Juno → H Juno RA 67.9551 42×φ golden (86.15))
-  - sky line to Juno: S Sun → Juno RA 0.9669 conj (12.63)
   - top rows: S Moon → H Juno Dec 0.2908 conj (0.09)
   - star rows: H Sadalmelik → H Juno RA 108.9882 109 whole (16.83)
     - source line: S Sun → Sadalmelik RA 41.9994 42 whole (94.18)
@@ -924,10 +861,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Vesta** (same body: S Vesta → H Vesta RA 134.2708 83×φ golden (3.86); S Vesta → H Vesta Dec 33.3174 33.3333 ninth (loose))
   - star rows: H Alhena → H Vesta RA 56.9986 57 whole (86.79)
     - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
-  - star rows: H Galactic Centre → H Vesta RA 136.0090 136 whole (30.12)
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
-  - star rows: H Galactic Centre → H Vesta Dec 40.9833 41 whole (2.72)
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - star rows: H Praesepe → H Vesta Dec 8.0071 8 whole (41.42)
     - source line: S Moon → Praesepe Dec 22.9966 23 whole (69.22)
   - star rows: H Sadalmelik → H Vesta RA 70.9856 71 whole (7.86)
@@ -966,10 +899,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, same body: S Vesta → H Vesta Dec 33.3174 33.3333 ninth (loose)
   - other chart, star rows: H Alhena → H Vesta RA 56.9986 57 whole (86.79)
     - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
-  - other chart, star rows: H Galactic Centre → H Vesta RA 136.0090 136 whole (30.12)
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
-  - other chart, star rows: H Galactic Centre → H Vesta Dec 40.9833 41 whole (2.72)
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - other chart, star rows: H Praesepe → H Vesta Dec 8.0071 8 whole (41.42)
     - source line: S Moon → Praesepe Dec 22.9966 23 whole (69.22)
   - other chart, star rows: H Sadalmelik → H Vesta RA 70.9856 71 whole (7.86)
@@ -1028,7 +957,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Alnilam → H Chiron Dec 2.0192 2 whole (0.16)
     - S Vesta → J Vesta Dec 1.9911 2 whole (30.78)
   - 41 whole — also: 1 Protected Guest / Jane Elliott
-    - H Galactic Centre → H Vesta Dec 40.9833 41 whole (2.72)
     - H Praesepe → H Mars Dec 41.0173 41 whole (1.76)
     - J Alnilam → J Saturn RA 41.0019 41 whole (81.47)
   - 8 whole — also: 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
@@ -1059,7 +987,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)
 - **Juno**
   - same body: S Juno → H Juno RA 67.9551 42×φ golden (86.15) — also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 5 Eleven Eleven / Joey Haynes
-    - source line: S Sun → Juno RA 0.9669 conj (12.63)
   - top rows: S Moon → H Juno Dec 0.2908 conj (0.09) — also: 4 Trevolli / Kieran O'Neill
   - star rows: H Sadalmelik → H Juno RA 108.9882 109 whole (16.83) — also: 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
     - source line: S Sun → Sadalmelik RA 41.9994 42 whole (94.18)
@@ -1070,10 +997,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Vesta → H Vesta Dec 33.3174 33.3333 ninth (loose) — only
   - star rows: H Alhena → H Vesta RA 56.9986 57 whole (86.79) — also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill
     - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
-  - star rows: H Galactic Centre → H Vesta RA 136.0090 136 whole (30.12) — also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
-  - star rows: H Galactic Centre → H Vesta Dec 40.9833 41 whole (2.72) — also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - star rows: H Praesepe → H Vesta Dec 8.0071 8 whole (41.42) — also: 4 Trevolli / Kieran O'Neill
     - source line: S Moon → Praesepe Dec 22.9966 23 whole (69.22)
   - star rows: H Sadalmelik → H Vesta RA 70.9856 71 whole (7.86) — only
@@ -1153,8 +1076,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Sun → J Eris RA 93.9942 94 whole (50.36) — only
   - star rows: J Alhena → J Eris RA 75.9914 76 whole (32.73) — only
     - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
-  - star rows: J Galactic Centre → J Eris RA 117.0191 117 whole (0.20) — also: 1 Protected Guest / Jane Elliott
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - star rows: J Sadalmelik → J Eris RA 51.9952 52 whole (57.52) — also: 5 Eleven Eleven / Joey Haynes
     - source line: S Sun → Sadalmelik RA 41.9994 42 whole (94.18)
 - **Makemake**
@@ -1262,8 +1183,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, same body: S Ceres → J Ceres RA 149.9749 150 whole (loose)
   - other chart, star rows: J Al Rescha → J Ceres RA 124.5735 77×φ golden (28.49)
     - source line: S Sun → Al Rescha Dec 24.9993 25 whole (93.15)
-  - other chart, star rows: J Galactic Centre → J Ceres RA 0.4742 conj (46.77)
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - other chart, star rows: J Menkent → J Ceres Dec 8.0025 8 whole (76.66)
     - source line: S Sun → Menkent RA 77.7779 77.7778 ninth (99.92)
   - other chart, star rows: J Praesepe → J Ceres RA 135.9211 84×φ golden (64.97)
@@ -1291,8 +1210,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Al Rescha Dec 24.9993 25 whole (93.15)
   - other chart, star rows: J Arcturus → J Haumea RA 28.9860 29 whole (8.89)
     - source line: S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
-  - other chart, star rows: J Galactic Centre → J Haumea Dec 51.7778 32×φ golden (95.74)
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
 - **H Orcus** (same body: S Orcus → H Orcus Dec 2.2285 2.22222 ninth (loose))
   - star rows: H Ankaa → H Orcus RA 146.0132 146 whole (11.66)
     - source line: S Moon → Ankaa RA 0.5677 conj (38.63)
@@ -1312,8 +1229,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, top rows: S Moon → J Ketu Dec 2.0006 2 whole (94.02)
   - other chart, star rows: J Alnilam → J Ketu Dec 0.1854 conj (14.59)
     - source line: S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)
-  - other chart, star rows: J Galactic Centre → J Ketu Dec 27.9942 28 whole (50.27)
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - other chart, star rows: J Praesepe → J Ketu Dec 20.9983 21 whole (83.67)
     - source line: S Moon → Praesepe Dec 22.9966 23 whole (69.22)
 - **J Venus** (same body: S Venus → J Venus Dec 16.6707 16.6667 ninth (loose))
@@ -1335,8 +1250,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
   - star rows: J Ankaa → J Uranus Dec 18.8861 18.8889 ninth (97.96)
     - source line: S Moon → Ankaa RA 0.5677 conj (38.63)
-  - star rows: J Galactic Centre → J Uranus RA 4.0035 4 whole (68.12)
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - other chart, top rows: S Sun → H Uranus RA 96.0033 96 whole (70.03)
   - other chart, top rows: S Moon → H Uranus Dec 12.9995 13 whole (95.17)
   - other chart, star rows: H Alhena → H Uranus RA 73.9820 74 whole (1.00)
@@ -1345,8 +1258,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Ankaa RA 0.5677 conj (38.63)
   - other chart, star rows: H Arcturus → H Uranus RA 171.5315 106×φ golden (14.94)
     - source line: S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
-  - other chart, star rows: H Galactic Centre → H Uranus Dec 38.9921 39 whole (36.72)
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - other chart, star rows: H Meissa → H Uranus Dec 0.0520 conj (68.36)
     - source line: S Moon → Meissa Dec 12.9486 8×φ golden (75.20)
   - other chart, star rows: H Praesepe → H Uranus Dec 9.9980 10 whole (81.18)
@@ -1358,8 +1269,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Ceres** (same body: S Ceres → J Ceres RA 149.9749 150 whole (loose))
   - star rows: J Al Rescha → J Ceres RA 124.5735 77×φ golden (28.49)
     - source line: S Sun → Al Rescha Dec 24.9993 25 whole (93.15)
-  - star rows: J Galactic Centre → J Ceres RA 0.4742 conj (46.77)
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - star rows: J Menkent → J Ceres Dec 8.0025 8 whole (76.66)
     - source line: S Sun → Menkent RA 77.7779 77.7778 ninth (99.92)
   - star rows: J Praesepe → J Ceres RA 135.9211 84×φ golden (64.97)
@@ -1450,8 +1359,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Ankaa → J Neptune Dec 19.9810 20 whole (0.23)
   - 1 = 360/360 — also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh
     - J Arcturus → J Vesta Dec 0.9816 1 whole (0.62)
-  - 4 = 360/90 — also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 5 Eleven Eleven / Joey Haynes
-    - J Galactic Centre → J Uranus RA 4.0035 4 whole (68.12)
   - 8 = 360/45 — also: 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
     - J Menkent → J Ceres Dec 8.0025 8 whole (76.66)
   - 45 = 360/8 — also: 2 Supakalanistic / Liam Keniry
@@ -1476,9 +1383,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Haumea → H Haumea Dec 1.9989 2 whole (89.62)
     - S Moon → J Ketu Dec 2.0006 2 whole (94.02)
     - J Alhena → J Transpluto Dec 2.0113 2 whole (18.79)
-  - 4 whole — also: 5 Eleven Eleven / Joey Haynes
-    - S Quaoar → H Quaoar RA 3.9931 4 whole (42.84)
-    - J Galactic Centre → J Uranus RA 4.0035 4 whole (68.12)
   - 20 whole — only
     - H Al Rescha → H Mercury RA 20.0169 20 whole (2.38)
     - J Al Rescha → J Haumea Dec 20.0036 20 whole (67.39)
@@ -1489,12 +1393,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 18.8889 ninth — only
     - H Ankaa → H Uranus RA 18.8803 18.8889 ninth (93.81)
     - J Ankaa → J Uranus Dec 18.8861 18.8889 ninth (97.96)
-  - 39 whole — only
-    - H Ankaa → H Juno Dec 38.9966 39 whole (68.53)
-    - H Galactic Centre → H Uranus Dec 38.9921 39 whole (36.72)
-  - 70×φ golden — only
-    - H Galactic Centre → H Transpluto RA 113.2620 70×φ golden (97.81)
-    - J Praesepe → J Pallas RA 113.2314 70×φ golden (0.18)
   - 18 whole — only
     - H Meissa → H Pallas Dec 18.0089 18 whole (30.58)
     - H Sadalsuud → H Mars Dec 17.9834 18 whole (2.84)
@@ -1514,9 +1412,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Al Rescha → J Sedna Dec 1.0148 1 whole (6.79)
     - J Arcturus → J Vesta Dec 0.9816 1 whole (0.62)
     - J Sadalmelik → J Pluto Dec 1.0188 1 whole (0.36)
-  - 28 whole — also: 1 Protected Guest / Jane Elliott
-    - J Arcturus → J Mercury Dec 28.0004 28 whole (96.31)
-    - J Galactic Centre → J Ketu Dec 27.9942 28 whole (50.27)
   - 29 whole — only
     - J Arcturus → J Venus RA 28.9869 29 whole (11.77)
     - J Arcturus → J Haumea RA 28.9860 29 whole (8.89)
@@ -1556,8 +1451,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Ceres → J Ceres RA 149.9749 150 whole (loose) — also: 1 Protected Guest / Jane Elliott, 5 Eleven Eleven / Joey Haynes
   - star rows: J Al Rescha → J Ceres RA 124.5735 77×φ golden (28.49) — only
     - source line: S Sun → Al Rescha Dec 24.9993 25 whole (93.15)
-  - star rows: J Galactic Centre → J Ceres RA 0.4742 conj (46.77) — only
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - star rows: J Menkent → J Ceres Dec 8.0025 8 whole (76.66) — only
     - source line: S Sun → Menkent RA 77.7779 77.7778 ninth (99.92)
   - star rows: J Praesepe → J Ceres RA 135.9211 84×φ golden (64.97) — also: 2 Supakalanistic / Liam Keniry
@@ -1588,8 +1481,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Al Rescha Dec 24.9993 25 whole (93.15)
   - star rows: J Arcturus → J Haumea RA 28.9860 29 whole (8.89) — also: 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
     - source line: S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
-  - star rows: J Galactic Centre → J Haumea Dec 51.7778 32×φ golden (95.74) — also: 2 Supakalanistic / Liam Keniry
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
 - **Orcus**
   - same body: S Orcus → H Orcus Dec 2.2285 2.22222 ninth (loose) — also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
   - star rows: H Ankaa → H Orcus RA 146.0132 146 whole (11.66) — only
@@ -1612,8 +1503,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → J Ketu Dec 2.0006 2 whole (94.02) — only
   - star rows: J Alnilam → J Ketu Dec 0.1854 conj (14.59) — only
     - source line: S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)
-  - star rows: J Galactic Centre → J Ketu Dec 27.9942 28 whole (50.27) — only
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - star rows: J Praesepe → J Ketu Dec 20.9983 21 whole (83.67) — also: 3 Creationist / Connor Murtagh
     - source line: S Moon → Praesepe Dec 22.9966 23 whole (69.22)
 - **Saturn**
@@ -1634,8 +1523,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Ankaa RA 0.5677 conj (38.63)
   - star rows: H Arcturus → H Uranus RA 171.5315 106×φ golden (14.94) — also: 5 Eleven Eleven / Joey Haynes
     - source line: S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
-  - star rows: H Galactic Centre → H Uranus Dec 38.9921 39 whole (36.72) — also: 2 Supakalanistic / Liam Keniry
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - star rows: H Meissa → H Uranus Dec 0.0520 conj (68.36) — also: 5 Eleven Eleven / Joey Haynes
     - source line: S Moon → Meissa Dec 12.9486 8×φ golden (75.20)
   - star rows: H Praesepe → H Uranus Dec 9.9980 10 whole (81.18) — also: 3 Creationist / Connor Murtagh
@@ -1651,8 +1538,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
   - star rows: J Ankaa → J Uranus Dec 18.8861 18.8889 ninth (97.96) — also: 2 Supakalanistic / Liam Keniry, 5 Eleven Eleven / Joey Haynes
     - source line: S Moon → Ankaa RA 0.5677 conj (38.63)
-  - star rows: J Galactic Centre → J Uranus RA 4.0035 4 whole (68.12) — also: 2 Supakalanistic / Liam Keniry
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
 - **Juno**
   - top rows: S Moon → H Juno Dec 0.2979 conj (0.00) — also: 3 Creationist / Connor Murtagh
   - star rows: H Ankaa → H Juno Dec 38.9966 39 whole (68.53) — also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh
@@ -1684,13 +1569,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Ankaa RA 0.5677 conj (38.63)
   - star rows: J Sadalmelik → J Pluto Dec 1.0188 1 whole (0.36) — only
     - source line: S Sun → Sadalmelik RA 41.9994 42 whole (94.18)
-- **Transpluto**
-  - star rows: H Galactic Centre → H Transpluto RA 113.2620 70×φ golden (97.81) — only
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
-  - star rows: J Alhena → J Transpluto Dec 2.0113 2 whole (18.79) — only
-    - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
-  - star rows: J Menkent → J Transpluto RA 67.9505 42×φ golden (61.62) — also: 1 Protected Guest / Jane Elliott
-    - source line: S Sun → Menkent RA 77.7779 77.7778 ninth (99.92)
 - **Pallas**
   - star rows: H Meissa → H Pallas Dec 18.0089 18 whole (30.58) — also: 2 Supakalanistic / Liam Keniry
     - source line: S Moon → Meissa Dec 12.9486 8×φ golden (75.20)
@@ -1716,6 +1594,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
   - star rows: J Meissa → J Gonggong Dec 31.0197 31 whole (0.03) — also: 5 Eleven Eleven / Joey Haynes
     - source line: S Moon → Meissa Dec 12.9486 8×φ golden (75.20)
+- **Transpluto**
+  - star rows: J Alhena → J Transpluto Dec 2.0113 2 whole (18.79) — only
+    - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
+  - star rows: J Menkent → J Transpluto RA 67.9505 42×φ golden (61.62) — also: 1 Protected Guest / Jane Elliott
+    - source line: S Sun → Menkent RA 77.7779 77.7778 ninth (99.92)
 - **Makemake**
   - star rows: J Ankaa → J Makemake Dec 78.0019 78 whole (81.96) — also: 3 Creationist / Connor Murtagh
     - source line: S Moon → Ankaa RA 0.5677 conj (38.63)
@@ -1723,9 +1606,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Menkent RA 77.7779 77.7778 ninth (99.92)
   - star rows: J Sadalmelik → J Makemake Dec 36.0169 36 whole (2.44) — also: 2 Supakalanistic / Liam Keniry
     - source line: S Sun → Sadalmelik RA 41.9994 42 whole (94.18)
-- **Sun**
-  - star rows: J Galactic Centre → J Sun RA 89.0174 89 whole (1.68) — also: 5 Eleven Eleven / Joey Haynes
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
 
 ## 5 Eleven Eleven / Joey Haynes
 ### L1 same bodies
@@ -1797,8 +1677,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Ankaa RA 0.5677 conj (38.63)
   - star rows: J Arcturus → J Sun Dec 1.9830 2 whole (2.23)
     - source line: S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
-  - star rows: J Galactic Centre → J Sun RA 132.0053 132 whole (53.79)
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - star rows: J Sadalsuud → J Sun RA 171.5210 106×φ golden (50.38)
     - source line: S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)
   - other chart, star rows: H Meissa → H Sun Dec 2.0138 2 whole (9.63)
@@ -1807,7 +1685,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Sadalsuud → J Pluto Dec 0.0413 conj (74.37)
     - source line: S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)
 - **J Juno** (same body: S Juno → J Juno Dec 13.2693 13.3333 ninth (loose))
-  - sky line to Juno: S Sun → Juno RA 0.9669 conj (12.63)
   - star rows: J Meissa → J Juno RA 121.9943 122 whole (51.10)
     - source line: S Moon → Meissa Dec 12.9486 8×φ golden (75.20)
   - star rows: J Sadalmelik → J Juno Dec 0.0313 conj (80.22)
@@ -1887,7 +1764,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 12.2222 ninth — only
     - S Uranus → H Uranus RA 12.2940 12.2222 ninth (loose)
     - S Ceres → H Ceres Dec 12.2610 12.2222 ninth (loose)
-  - 4 whole — also: 4 Trevolli / Kieran O'Neill
+  - 4 whole — only
     - S Quaoar → H Quaoar RA 4.0078 4 whole (37.51)
     - J Arcturus → J Mars Dec 4.0142 4 whole (8.27)
   - 2 whole — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill
@@ -1895,7 +1772,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Meissa → H Sun Dec 2.0138 2 whole (9.63)
     - J Al Rescha → J Sedna Dec 2.0040 2 whole (64.16)
     - J Arcturus → J Sun Dec 1.9830 2 whole (2.23)
-  - 21 whole — also: 1 Protected Guest / Jane Elliott
+  - 21 whole — only
     - H Arcturus → H Juno Dec 21.0147 21 whole (7.15)
     - J Sadalmelik → J Mercury Dec 21.0166 21 whole (2.93)
   - 105×φ golden — only
@@ -1967,7 +1844,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Jupiter**
   - top rows: S Vesta → H Jupiter RA 38.8349 24×φ golden (87.28) — also: 3 Creationist / Connor Murtagh
   - top rows: S Gonggong → H Jupiter RA 106.9963 107 whole (66.49) — also: 2 Supakalanistic / Liam Keniry
-    - source line: S Jupiter → Gonggong Dec 0.2973 conj (0.01)
   - T2: J Jupiter → J star Ankaa RA 152.0958 94×φ golden (96.49) — also: 2 Supakalanistic / Liam Keniry
   - T2: J Jupiter → J star Sadalsuud RA 108.4161 67×φ golden (57.36) — also: 2 Supakalanistic / Liam Keniry
   - top rows: S Chiron → J Jupiter Dec 17.9440 φ^6 phi power (99.39) — also: 2 Supakalanistic / Liam Keniry
@@ -1993,8 +1869,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Gonggong**
   - star rows: H Alhena → H Gonggong RA 122.9972 φ^10 phi power (98.28) — also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill
     - source line: S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
-  - star rows: H Galactic Centre → H Gonggong RA 70.0105 70 whole (22.63) — only
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - star rows: H Menkent → H Gonggong Dec 24.2788 15×φ golden (55.44) — only
     - source line: S Sun → Menkent RA 77.7779 77.7778 ninth (99.92)
   - star rows: H Sadalmelik → H Gonggong RA 4.9871 5 whole (12.47) — also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh
@@ -2023,7 +1897,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Arcturus → H Juno Dec 21.0147 21 whole (7.15) — also: 4 Trevolli / Kieran O'Neill
     - source line: S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
   - same body: S Juno → J Juno Dec 13.2693 13.3333 ninth (loose) — also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh
-    - source line: S Sun → Juno RA 0.9669 conj (12.63)
   - star rows: J Meissa → J Juno RA 121.9943 122 whole (51.10) — only
     - source line: S Moon → Meissa Dec 12.9486 8×φ golden (75.20)
   - star rows: J Sadalmelik → J Juno Dec 0.0313 conj (80.22) — also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill
@@ -2055,8 +1928,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Ankaa RA 0.5677 conj (38.63)
   - star rows: J Arcturus → J Sun Dec 1.9830 2 whole (2.23) — also: 2 Supakalanistic / Liam Keniry
     - source line: S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
-  - star rows: J Galactic Centre → J Sun RA 132.0053 132 whole (53.79) — also: 4 Trevolli / Kieran O'Neill
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
   - star rows: J Sadalsuud → J Sun RA 171.5210 106×φ golden (50.38) — also: 3 Creationist / Connor Murtagh
     - source line: S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)
 - **Rahu**
@@ -2086,8 +1957,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Mars**
   - star rows: J Arcturus → J Mars Dec 4.0142 4 whole (8.27) — only
     - source line: S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
-  - star rows: J Galactic Centre → J Mars RA 174.7684 108×φ golden (12.96) — also: 2 Supakalanistic / Liam Keniry
-    - source line: S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
 - **Pallas**
   - star rows: J Menkent → J Pallas Dec 34.0130 34 whole (12.30) — also: 3 Creationist / Connor Murtagh
     - source line: S Sun → Menkent RA 77.7779 77.7778 ninth (99.92)

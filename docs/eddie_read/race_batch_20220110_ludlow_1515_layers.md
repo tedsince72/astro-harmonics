@@ -22,7 +22,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Pluto Dec 31.0058 31 whole (50.26)
 - S Moon → Juno RA 98.0009 98 whole (91.15)
 - S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
-- S Moon → Al Rescha RA 1.2818 conj (2.12)
 - S Moon → Alphard Dec 16.9991 17 whole (91.06)
 - S Moon → Alphecca RA 155.5623 155.556 ninth (99.36)
 - S Moon → Vega RA 110.0023 110 whole (78.36)
@@ -57,8 +56,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Jupiter** (same body: S Jupiter → H Jupiter RA 161.3070 100×φ^1 phi power (loose))
   - top rows: S Mars → H Jupiter RA 122.9007 φ^10 phi power (72.56)
   - top rows: S Eris → H Jupiter RA 110.0342 68×φ golden (57.33)
-  - star rows: S Al Rescha → H Jupiter Dec 15.0041 15 whole (63.40)
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: S Altair → H Jupiter RA 161.8476 100×φ^1 phi power (89.36)
     - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
   - star rows: H Denebola → H Jupiter RA 41.4208 41.4 silver (99.50)
@@ -153,8 +150,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
   - star rows: J Denebola → J Makemake RA 0.8462 conj (19.00)
     - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
-  - other chart, star rows: H Al Rescha → H Makemake RA 161.8679 100×φ^1 phi power (84.69)
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - other chart, star rows: H Ras Algethi → H Makemake Dec 11.9823 12 whole (1.35)
     - source line: S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
   - other chart, star rows: H Rukbat → H Makemake Dec 66.9848 67 whole (5.88)
@@ -198,7 +193,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Quaoar → J Quaoar RA 33.9670 21×φ golden (loose)
     - S Quaoar → J Quaoar Dec 0.9828 1 whole (2.00)
 - **3. runner number = sky number**
-  - 17 whole — also: 2 Isolate / Liam Harrison, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+  - 17 whole — also: 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
     - H Rukbat → H Ceres Dec 16.9939 17 whole (48.62) = S Moon → Alphard Dec 16.9991 17 whole (91.06)
   - 6 whole — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
     - S Gonggong → J Gonggong RA 5.9844 6 whole (4.87) = S Sun → Altair RA 6.0052 6 whole (54.90)
@@ -206,7 +201,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Venus → J Jupiter Dec 5.9981 6 whole (81.81) = S Sun → Altair RA 6.0052 6 whole (54.90)
   - 31 whole — also: 7 Fanamix / Ben Jones
     - J Alphecca → J Pallas Dec 31.0165 31 whole (3.14) = S Moon → Pluto Dec 31.0058 31 whole (50.26)
-  - 17 whole — also: 2 Isolate / Liam Harrison, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+  - 17 whole — also: 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
     - J Vega → J Neptune RA 17.0148 17 whole (6.81) = S Moon → Alphard Dec 16.9991 17 whole (91.06)
 - **4. circle divisions**
   - 24 = 360/15 — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
@@ -214,14 +209,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 24 = 360/15 — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
     - S Ketu → H Ketu Dec 24.0000 24 whole (99.82)
   - 15 = 360/24 — also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
-    - H Jupiter → H star Al Rescha Dec 15.0054 15 whole (53.59)
-  - 15 = 360/24 — also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
-    - S Al Rescha → H Jupiter Dec 15.0041 15 whole (63.40)
-  - 15 = 360/24 — also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
     - H Alphard → H Uranus Dec 14.9871 15 whole (12.65)
-  - 12 = 360/30 — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+  - 12 = 360/30 — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
     - H Altair → H Pallas Dec 11.9856 12 whole (7.92)
-  - 12 = 360/30 — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+  - 12 = 360/30 — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
     - H Ras Algethi → H Makemake Dec 11.9823 12 whole (1.35)
   - 9 = 360/40 — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
     - H Ras Algethi → H Quaoar RA 8.9858 9 whole (8.37)
@@ -240,18 +231,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 10 = 360/36 — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
     - J Vega → J Mars RA 10.0127 10 whole (13.38)
 - **5. same number in more than one place**
-  - 100×φ^1 phi power — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+  - 100×φ^1 phi power — also: 3 Une De La Seniere / Paddy Brennan
     - S Jupiter → H Jupiter RA 161.3070 100×φ^1 phi power (loose)
     - H Jupiter → H star Altair RA 161.8536 100×φ^1 phi power (87.96)
-    - H Al Rescha → H Makemake RA 161.8679 100×φ^1 phi power (84.69)
     - S Altair → H Jupiter RA 161.8476 100×φ^1 phi power (89.36)
   - 24 whole — also: 4 Wildfire Warrior / Tom O'Brien
     - S Rahu → H Rahu Dec 24.0000 24 whole (99.82)
     - S Ketu → H Ketu Dec 24.0000 24 whole (99.82)
-  - 15 whole — also: 4 Wildfire Warrior / Tom O'Brien
-    - H Jupiter → H star Al Rescha Dec 15.0054 15 whole (53.59)
-    - S Al Rescha → H Jupiter Dec 15.0041 15 whole (63.40)
-    - H Alphard → H Uranus Dec 14.9871 15 whole (12.65)
   - 41.4 silver — only
     - H Jupiter → H star Denebola RA 41.4208 41.4 silver (99.50)
     - H Denebola → H Jupiter RA 41.4208 41.4 silver (99.50)
@@ -262,7 +248,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 19 whole — also: 2 Isolate / Liam Harrison
     - S Jupiter → H Sedna Dec 19.0004 19 whole (95.90)
     - J Ankaa → J Mars Dec 18.9892 19 whole (21.18)
-  - 144.444 ninth — also: 7 Fanamix / Ben Jones
+  - 144.444 ninth — only
     - H Alphard → H Pluto RA 144.4420 144.444 ninth (99.74)
     - S Rahu → J Rahu RA 144.1936 144.444 ninth (loose)
     - S Ketu → J Ketu RA 144.1936 144.444 ninth (loose)
@@ -293,10 +279,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 25 whole — also: 5 Jimmy The Digger / Richard Patrick
     - H Vega → H Juno Dec 24.9868 25 whole (11.44)
     - J Denebola → J Rahu RA 24.9890 25 whole (20.29)
-  - 14 whole — also: 2 Isolate / Liam Harrison, 7 Fanamix / Ben Jones
+  - 14 whole — also: 2 Isolate / Liam Harrison
     - S Sedna → J Sedna RA 13.9930 14 whole (42.49)
     - J Altair → J Vesta Dec 13.9962 14 whole (66.02)
-  - 1 whole — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+  - 1 whole — also: 5 Jimmy The Digger / Richard Patrick
     - S Quaoar → J Quaoar Dec 0.9828 1 whole (2.00)
     - J Ras Algethi → J Transpluto Dec 0.9959 1 whole (63.29)
   - 6 whole — only
@@ -311,13 +297,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
 - **Jupiter**
   - same body: S Jupiter → H Jupiter RA 161.3070 100×φ^1 phi power (loose) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
-  - T1: H Jupiter → H star Al Rescha Dec 15.0054 15 whole (53.59) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
-  - T1: H Jupiter → H star Altair RA 161.8536 100×φ^1 phi power (87.96) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
-  - T1: H Jupiter → H star Denebola RA 41.4208 41.4 silver (99.50) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+  - T1: H Jupiter → H star Altair RA 161.8536 100×φ^1 phi power (87.96) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+  - T1: H Jupiter → H star Denebola RA 41.4208 41.4 silver (99.50) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
   - top rows: S Mars → H Jupiter RA 122.9007 φ^10 phi power (72.56) — only
   - top rows: S Eris → H Jupiter RA 110.0342 68×φ golden (57.33) — also: 7 Fanamix / Ben Jones
-  - star rows: S Al Rescha → H Jupiter Dec 15.0041 15 whole (63.40) — also: 7 Fanamix / Ben Jones
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: S Altair → H Jupiter RA 161.8476 100×φ^1 phi power (89.36) — also: 7 Fanamix / Ben Jones
     - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
   - star rows: H Denebola → H Jupiter RA 41.4208 41.4 silver (99.50) — also: 5 Jimmy The Digger / Richard Patrick
@@ -413,28 +396,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
   - star rows: J Denebola → J Venus Dec 36.0045 36 whole (59.70) — also: 2 Isolate / Liam Harrison
     - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
-- **Ceres**
-  - star rows: H Al Rescha → H Ceres RA 80.9064 50×φ golden (72.80) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
-  - star rows: H Ras Algethi → H Ceres Dec 38.0086 38 whole (32.60) — also: 5 Jimmy The Digger / Richard Patrick
-    - source line: S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
-  - star rows: H Rukbat → H Ceres Dec 16.9939 17 whole (48.62) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
-    - source line: S Jupiter → Rukbat Dec 29.0037 29 whole (66.42)
-    - source line: S Sun → Rukbat RA 0.7240 conj (26.77)
-  - top rows: S Jupiter → J Ceres Dec 0.2592 conj (1.85) — also: 5 Jimmy The Digger / Richard Patrick
-- **Makemake**
-  - star rows: H Al Rescha → H Makemake RA 161.8679 100×φ^1 phi power (84.69) — also: 4 Wildfire Warrior / Tom O'Brien
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
-  - star rows: H Ras Algethi → H Makemake Dec 11.9823 12 whole (1.35) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan
-    - source line: S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
-  - star rows: H Rukbat → H Makemake Dec 66.9848 67 whole (5.88) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
-    - source line: S Jupiter → Rukbat Dec 29.0037 29 whole (66.42)
-    - source line: S Sun → Rukbat RA 0.7240 conj (26.77)
-  - same body: S Makemake → J Makemake Dec 11.1623 11.1111 ninth (loose) — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
-  - star rows: J Alphard → J Makemake Dec 42.0059 42 whole (49.42) — also: 2 Isolate / Liam Harrison
-    - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
-  - star rows: J Denebola → J Makemake RA 0.8462 conj (19.00) — also: 7 Fanamix / Ben Jones
-    - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
 - **Mars**
   - star rows: H Alphard → H Mars Dec 26.9910 27 whole (30.51) — also: 7 Fanamix / Ben Jones
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
@@ -497,6 +458,24 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
   - star rows: J Denebola → J Sun Dec 38.0070 38 whole (42.34) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
     - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
+- **Ceres**
+  - star rows: H Ras Algethi → H Ceres Dec 38.0086 38 whole (32.60) — also: 5 Jimmy The Digger / Richard Patrick
+    - source line: S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
+  - star rows: H Rukbat → H Ceres Dec 16.9939 17 whole (48.62) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+    - source line: S Jupiter → Rukbat Dec 29.0037 29 whole (66.42)
+    - source line: S Sun → Rukbat RA 0.7240 conj (26.77)
+  - top rows: S Jupiter → J Ceres Dec 0.2592 conj (1.85) — also: 5 Jimmy The Digger / Richard Patrick
+- **Makemake**
+  - star rows: H Ras Algethi → H Makemake Dec 11.9823 12 whole (1.35) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan
+    - source line: S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
+  - star rows: H Rukbat → H Makemake Dec 66.9848 67 whole (5.88) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+    - source line: S Jupiter → Rukbat Dec 29.0037 29 whole (66.42)
+    - source line: S Sun → Rukbat RA 0.7240 conj (26.77)
+  - same body: S Makemake → J Makemake Dec 11.1623 11.1111 ninth (loose) — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+  - star rows: J Alphard → J Makemake Dec 42.0059 42 whole (49.42) — also: 2 Isolate / Liam Harrison
+    - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
+  - star rows: J Denebola → J Makemake RA 0.8462 conj (19.00) — also: 7 Fanamix / Ben Jones
+    - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
 - **Haumea**
   - star rows: H Vega → H Haumea RA 69.0158 69 whole (4.33) — only
     - source line: S Moon → Vega RA 110.0023 110 whole (78.36)
@@ -552,8 +531,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Orcus** (same body: S Orcus → H Orcus RA 6.4776 4×φ golden (loose))
 - **H Transpluto** (same body: S Transpluto → H Transpluto Dec 0.9718 1 whole (loose))
   - sky line to Transpluto: S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
-  - star rows: H Al Rescha → H Transpluto RA 121.9910 122 whole (30.29)
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: H Alphard → H Transpluto Dec 19.9828 20 whole (2.03)
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
 - **J Mercury** (same body: S Mercury → J Mercury RA 116.4866 72×φ golden (40.15))
@@ -627,26 +604,22 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Venus → H Venus RA 68.5072 10×φ^4 phi power (loose)
     - S Venus → H Venus Dec 14.1253 14.14 sqrt2 (loose)
 - **3. runner number = sky number**
-  - 10×φ^6 phi power — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+  - 10×φ^6 phi power — also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
     - H Denebola → H Venus RA 179.4332 10×φ^6 phi power (97.90) = S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
   - 26 whole — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
     - S Ceres → J Ceres Dec 26.0272 26 whole (loose) = S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
   - 26 whole — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
     - S Quaoar → J Quaoar RA 26.0216 26 whole (loose) = S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
-  - 17 whole — also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
-    - J Al Rescha → J Sun Dec 17.0194 17 whole (0.09) = S Moon → Alphard Dec 16.9991 17 whole (91.06)
 - **4. circle divisions**
   - 1 = 360/360 — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
     - S Transpluto → H Transpluto Dec 0.9718 1 whole (loose)
-  - 12 = 360/30 — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
-    - H Al Rescha → H Uranus RA 12.0013 12 whole (87.62)
   - 20 = 360/18 — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
     - H Alphard → H Transpluto Dec 19.9828 20 whole (2.03)
   - 40 = 360/9 — also: 5 Jimmy The Digger / Richard Patrick
     - H Alphecca → H Makemake RA 40.0051 40 whole (55.19)
   - 3 = 360/120 — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
     - H Denebola → H Haumea Dec 2.9992 3 whole (92.33)
-  - 45 = 360/8 — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+  - 45 = 360/8 — also: 4 Wildfire Warrior / Tom O'Brien
     - H Rukbat → H Gonggong RA 44.9857 45 whole (8.22)
   - 10 = 360/36 — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
     - S Pluto → J Pluto Dec 9.9884 10 whole (17.66)
@@ -667,7 +640,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 65 whole — only
     - H Ras Algethi → H Makemake RA 64.9923 65 whole (37.57)
     - J Alphard → J Rahu RA 65.0000 65 whole (99.58)
-  - 14 whole — also: 1 Java Point / Jonathan Burke, 7 Fanamix / Ben Jones
+  - 14 whole — also: 1 Java Point / Jonathan Burke
     - H Vindemiatrix → H Venus Dec 13.9939 14 whole (48.40)
     - J Alphecca → J Juno Dec 14.0111 14 whole (19.67)
   - 28 whole — only
@@ -709,14 +682,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Transpluto**
   - same body: S Transpluto → H Transpluto Dec 0.9718 1 whole (loose) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
     - source line: S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
-  - star rows: H Al Rescha → H Transpluto RA 121.9910 122 whole (30.29) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: H Alphard → H Transpluto Dec 19.9828 20 whole (2.03) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
 - **Uranus**
   - T1: H Jupiter → H Uranus Dec 0.0462 conj (71.57) — only
-  - star rows: H Al Rescha → H Uranus RA 12.0013 12 whole (87.62) — also: 5 Jimmy The Digger / Richard Patrick
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: J Ras Algethi → J Uranus Dec 26.9964 27 whole (67.21) — also: 7 Fanamix / Ben Jones
     - source line: S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
   - star rows: J Rukbat → J Uranus Dec 28.0065 28 whole (45.26) — only
@@ -802,8 +771,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Rukbat → H Sun RA 80.9031 50×φ golden (91.64) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
     - source line: S Jupiter → Rukbat Dec 29.0037 29 whole (66.42)
     - source line: S Sun → Rukbat RA 0.7240 conj (26.77)
-  - star rows: J Al Rescha → J Sun Dec 17.0194 17 whole (0.09) — also: 7 Fanamix / Ben Jones
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: J Vega → J Sun Dec 18.9990 19 whole (90.11) — only
     - source line: S Moon → Vega RA 110.0023 110 whole (78.36)
 - **Ceres**
@@ -867,8 +834,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, same body: S Juno → J Juno RA 77.7169 77.7778 ninth (loose)
   - other chart, T2: J Jupiter → J Juno Dec 1.0053 1 whole (53.78)
   - other chart, top rows: S Sun → J Juno Dec 21.0013 21 whole (87.71)
-  - other chart, star rows: J Al Rescha → J Juno RA 176.9927 177 whole (40.63)
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
 - **H Vesta** (same body: S Vesta → H Vesta Dec 11.3538 7×φ golden (loose))
   - star rows: H Alphard → H Vesta RA 155.9902 156 whole (26.16)
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
@@ -883,8 +848,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Altair → H Transpluto RA 145.6397 90×φ golden (23.50)
     - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
   - other chart, same body: S Transpluto → J Transpluto RA 14.5913 9×φ golden (loose)
-  - other chart, star rows: J Al Rescha → J Transpluto RA 109.9850 110 whole (6.28)
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - other chart, star rows: J Alphard → J Transpluto RA 1.4079 conj (0.38)
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
   - other chart, star rows: J Rukbat → J Transpluto RA 150.4804 93×φ golden (80.92)
@@ -895,14 +858,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - sky line to Juno: S Moon → Juno RA 98.0009 98 whole (91.15)
   - T2: J Jupiter → J Juno Dec 1.0053 1 whole (53.78)
   - top rows: S Sun → J Juno Dec 21.0013 21 whole (87.71)
-  - star rows: J Al Rescha → J Juno RA 176.9927 177 whole (40.63)
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - other chart, same body: S Juno → H Juno RA 161.0889 100×φ^1 phi power (loose)
   - other chart, star rows: H Alphecca → H Juno RA 103.5367 64×φ golden (21.06)
     - source line: S Moon → Alphecca RA 155.5623 155.556 ninth (99.36)
 - **J Sedna** (same body: S Sedna → J Sedna Dec 4.9702 5 whole (loose))
-  - star rows: J Al Rescha → J Sedna Dec 0.2771 conj (0.58)
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: J Alphard → J Sedna RA 103.9984 104 whole (84.31)
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
   - other chart, star rows: H Ras Algethi → H Sedna Dec 7.0156 7 whole (4.85)
@@ -940,8 +899,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, top rows: S Jupiter → H Gonggong RA 1.3870 conj (0.57)
 - **J Transpluto** (same body: S Transpluto → J Transpluto RA 14.5913 9×φ golden (loose))
   - sky line to Transpluto: S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
-  - star rows: J Al Rescha → J Transpluto RA 109.9850 110 whole (6.28)
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: J Alphard → J Transpluto RA 1.4079 conj (0.38)
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
   - star rows: J Rukbat → J Transpluto RA 150.4804 93×φ golden (80.92)
@@ -960,9 +917,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Transpluto → J Transpluto RA 14.5913 9×φ golden (loose)
 - **2. one body in both planes**: none
 - **3. runner number = sky number**
-  - 110 whole — only
-    - J Al Rescha → J Transpluto RA 109.9850 110 whole (6.28) = S Moon → Vega RA 110.0023 110 whole (78.36)
-  - 10×φ^6 phi power — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+  - 10×φ^6 phi power — also: 2 Isolate / Liam Harrison, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
     - J Ankaa → J Saturn RA 179.4287 10×φ^6 phi power (96.90) = S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
   - 26 whole — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
     - J Denebola → J Vesta RA 26.0152 26 whole (5.83) = S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
@@ -973,17 +928,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **4. circle divisions**
   - 3 = 360/120 — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
     - S Transpluto → H Transpluto RA 3.0234 3 whole (loose)
-  - 45 = 360/8 — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien
-    - H Al Rescha → H Venus RA 45.0137 45 whole (9.98)
-  - 1 = 360/360 — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
-    - H Al Rescha → H Ketu Dec 1.0034 1 whole (69.26)
   - 10 = 360/36 — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
     - H Alphard → H Saturn Dec 10.0083 10 whole (33.95)
   - 8 = 360/45 — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
     - H Alphecca → H Saturn RA 8.0192 8 whole (0.16)
   - 30 = 360/12 — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
     - H Altair → H Quaoar RA 30.0014 30 whole (86.48)
-  - 12 = 360/30 — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien
+  - 12 = 360/30 — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien
     - H Ras Algethi → H Makemake Dec 11.9801 12 whole (0.00)
   - 5 = 360/72 — also: 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
     - S Sedna → J Sedna Dec 4.9702 5 whole (loose)
@@ -1002,16 +953,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 8 = 360/45 — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
     - J Vega → J Ceres Dec 7.9961 8 whole (64.82)
 - **5. same number in more than one place**
-  - 100×φ^1 phi power — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick
+  - 100×φ^1 phi power — also: 1 Java Point / Jonathan Burke
     - S Jupiter → H Jupiter RA 161.0654 100×φ^1 phi power (loose)
     - S Juno → H Juno RA 161.0889 100×φ^1 phi power (loose)
   - 35 whole — also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
     - S Venus → H Jupiter Dec 35.0040 35 whole (63.76)
     - H Alphecca → H Orcus Dec 35.0193 35 whole (0.13)
     - H Vega → H Ketu Dec 35.0153 35 whole (5.44)
-  - 1 whole — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick
-    - H Al Rescha → H Ketu Dec 1.0034 1 whole (69.26)
-    - J Jupiter → J Juno Dec 1.0053 1 whole (53.78)
   - 8 whole — also: 5 Jimmy The Digger / Richard Patrick
     - H Alphecca → H Saturn RA 8.0192 8 whole (0.16)
     - J Vega → J Ceres Dec 7.9961 8 whole (64.82)
@@ -1030,7 +978,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 21 whole — only
     - H Vindemiatrix → H Vesta Dec 21.0031 21 whole (71.77)
     - S Sun → J Juno Dec 21.0013 21 whole (87.71)
-    - J Al Rescha → J Ketu Dec 20.9889 21 whole (19.70)
   - 10×φ^3 phi power — only
     - J Jupiter → J star Ankaa Dec 42.3690 10×φ^3 phi power (92.31)
     - J Ankaa → J Jupiter Dec 42.3690 10×φ^3 phi power (92.31)
@@ -1050,7 +997,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: S Rukbat → H Jupiter RA 155.3601 96×φ golden (1.19) — also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
     - source line: S Jupiter → Rukbat Dec 29.0037 29 whole (66.42)
     - source line: S Sun → Rukbat RA 0.7240 conj (26.77)
-  - T2: J Jupiter → J star Ankaa Dec 42.3690 10×φ^3 phi power (92.31) — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+  - T2: J Jupiter → J star Ankaa Dec 42.3690 10×φ^3 phi power (92.31) — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
   - star rows: J Ankaa → J Jupiter Dec 42.3690 10×φ^3 phi power (92.31) — also: 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
     - source line: S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
 - **Uranus**
@@ -1076,8 +1023,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Juno RA 98.0009 98 whole (91.15)
   - T2: J Jupiter → J Juno Dec 1.0053 1 whole (53.78) — also: 6 Method Madness / Alex Edwards
   - top rows: S Sun → J Juno Dec 21.0013 21 whole (87.71) — also: 1 Java Point / Jonathan Burke
-  - star rows: J Al Rescha → J Juno RA 176.9927 177 whole (40.63) — only
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
 - **Vesta**
   - same body: S Vesta → H Vesta Dec 11.3538 7×φ golden (loose) — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
   - star rows: H Alphard → H Vesta RA 155.9902 156 whole (26.16) — also: 4 Wildfire Warrior / Tom O'Brien
@@ -1095,8 +1040,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
   - same body: S Transpluto → J Transpluto RA 14.5913 9×φ golden (loose) — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
     - source line: S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
-  - star rows: J Al Rescha → J Transpluto RA 109.9850 110 whole (6.28) — also: 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: J Alphard → J Transpluto RA 1.4079 conj (0.38) — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
   - star rows: J Rukbat → J Transpluto RA 150.4804 93×φ golden (80.92) — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick
@@ -1130,28 +1073,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Rukbat RA 0.7240 conj (26.77)
   - star rows: J Vindemiatrix → J Gonggong RA 131.9988 132 whole (88.11) — also: 4 Wildfire Warrior / Tom O'Brien
     - source line: S Jupiter → Vindemiatrix RA 138.9961 139 whole (64.46)
-- **Venus**
-  - star rows: H Al Rescha → H Venus RA 45.0137 45 whole (9.98) — only
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
-  - star rows: H Vindemiatrix → H Venus Dec 14.0076 14 whole (38.25) — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick
-    - source line: S Jupiter → Vindemiatrix RA 138.9961 139 whole (64.46)
-  - star rows: J Altair → J Venus Dec 0.0785 conj (54.50) — also: 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick
-    - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
-  - star rows: J Vega → J Venus Dec 29.9925 30 whole (39.08) — also: 6 Method Madness / Alex Edwards
-    - source line: S Moon → Vega RA 110.0023 110 whole (78.36)
-- **Ketu**
-  - star rows: H Al Rescha → H Ketu Dec 1.0034 1 whole (69.26) — also: 6 Method Madness / Alex Edwards
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
-  - star rows: H Vega → H Ketu Dec 35.0153 35 whole (5.44) — also: 4 Wildfire Warrior / Tom O'Brien
-    - source line: S Moon → Vega RA 110.0023 110 whole (78.36)
-  - star rows: J Al Rescha → J Ketu Dec 20.9889 21 whole (19.70) — also: 6 Method Madness / Alex Edwards
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
-  - star rows: J Ankaa → J Ketu RA 55.9808 56 whole (0.16) — also: 2 Isolate / Liam Harrison, 6 Method Madness / Alex Edwards
-    - source line: S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
-  - star rows: J Denebola → J Ketu RA 133.3095 133.333 ninth (97.14) — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien
-    - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
-  - star rows: J Vega → J Ketu Dec 57.0046 57 whole (59.17) — also: 4 Wildfire Warrior / Tom O'Brien
-    - source line: S Moon → Vega RA 110.0023 110 whole (78.36)
 - **Saturn**
   - star rows: H Alphard → H Saturn Dec 10.0083 10 whole (33.95) — only
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
@@ -1203,10 +1124,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Altair → H Quaoar RA 30.0014 30 whole (86.48) — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
     - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
   - top rows: S Jupiter → J Quaoar Dec 0.0711 conj (58.23) — also: 5 Jimmy The Digger / Richard Patrick
-  - star rows: J Al Rescha → J Quaoar RA 167.0099 167 whole (25.45) — also: 7 Fanamix / Ben Jones
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
-  - star rows: J Al Rescha → J Quaoar Dec 14.4465 14.4444 ninth (97.80) — also: 7 Fanamix / Ben Jones
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
 - **Sedna**
   - star rows: H Ras Algethi → H Sedna Dec 7.0156 7 whole (4.85) — also: 1 Java Point / Jonathan Burke, 7 Fanamix / Ben Jones
     - source line: S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
@@ -1216,8 +1133,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Vindemiatrix → H Sedna RA 140.7846 87×φ golden (26.80) — also: 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
     - source line: S Jupiter → Vindemiatrix RA 138.9961 139 whole (64.46)
   - same body: S Sedna → J Sedna Dec 4.9702 5 whole (loose) — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
-  - star rows: J Al Rescha → J Sedna Dec 0.2771 conj (0.58) — also: 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: J Alphard → J Sedna RA 103.9984 104 whole (84.31) — only
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
 - **Makemake**
@@ -1235,9 +1150,23 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Rukbat → H Ceres RA 17.7799 17.7778 ninth (98.36) — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien
     - source line: S Jupiter → Rukbat Dec 29.0037 29 whole (66.42)
     - source line: S Sun → Rukbat RA 0.7240 conj (26.77)
-  - star rows: J Al Rescha → J Ceres Dec 28.0196 28 whole (0.03) — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: J Vega → J Ceres Dec 7.9961 8 whole (64.82) — only
+    - source line: S Moon → Vega RA 110.0023 110 whole (78.36)
+- **Ketu**
+  - star rows: H Vega → H Ketu Dec 35.0153 35 whole (5.44) — also: 4 Wildfire Warrior / Tom O'Brien
+    - source line: S Moon → Vega RA 110.0023 110 whole (78.36)
+  - star rows: J Ankaa → J Ketu RA 55.9808 56 whole (0.16) — also: 2 Isolate / Liam Harrison, 6 Method Madness / Alex Edwards
+    - source line: S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
+  - star rows: J Denebola → J Ketu RA 133.3095 133.333 ninth (97.14) — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien
+    - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
+  - star rows: J Vega → J Ketu Dec 57.0046 57 whole (59.17) — also: 4 Wildfire Warrior / Tom O'Brien
+    - source line: S Moon → Vega RA 110.0023 110 whole (78.36)
+- **Venus**
+  - star rows: H Vindemiatrix → H Venus Dec 14.0076 14 whole (38.25) — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick
+    - source line: S Jupiter → Vindemiatrix RA 138.9961 139 whole (64.46)
+  - star rows: J Altair → J Venus Dec 0.0785 conj (54.50) — also: 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick
+    - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
+  - star rows: J Vega → J Venus Dec 29.9925 30 whole (39.08) — also: 6 Method Madness / Alex Edwards
     - source line: S Moon → Vega RA 110.0023 110 whole (78.36)
 - **Eris**
   - top rows: S Jupiter → J Eris Dec 0.1811 conj (15.71) — only
@@ -1245,11 +1174,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
   - star rows: J Vega → J Eris RA 102.0023 102 whole (78.72) — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
     - source line: S Moon → Vega RA 110.0023 110 whole (78.36)
-- **Haumea**
-  - star rows: J Al Rescha → J Haumea RA 148.0080 148 whole (36.04) — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
-  - star rows: J Denebola → J Haumea RA 1.2420 conj (2.96) — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
-    - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
 - **Pallas**
   - star rows: J Alphard → J Pallas RA 77.9829 78 whole (2.16) — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
@@ -1264,6 +1188,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Rukbat → J Sun RA 90.9981 91 whole (81.60) — also: 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick
     - source line: S Jupiter → Rukbat Dec 29.0037 29 whole (66.42)
     - source line: S Sun → Rukbat RA 0.7240 conj (26.77)
+- **Haumea**
+  - star rows: J Denebola → J Haumea RA 1.2420 conj (2.96) — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+    - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
 
 ## 4 Wildfire Warrior / Tom O'Brien
 ### L1 same bodies
@@ -1338,8 +1265,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Rukbat → H Makemake Dec 66.6610 66.6667 ninth (95.10)
     - source line: S Jupiter → Rukbat Dec 29.0037 29 whole (66.42)
     - source line: S Sun → Rukbat RA 0.7240 conj (26.77)
-  - other chart, star rows: J Al Rescha → J Makemake Dec 33.3393 33.3333 ninth (92.82)
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
 - **H Orcus** (same body: S Orcus → H Orcus RA 6.8582 φ^4 phi power (loose))
   - T1: H Jupiter → H Orcus Dec 26.1869 10×φ^2 phi power (90.21)
   - star rows: H Alphard → H Orcus Dec 0.0980 conj (45.36)
@@ -1391,8 +1316,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Pluto** (same body: S Pluto → J Pluto RA 77.0131 77 whole (11.97))
   - sky line to Pluto: S Moon → Pluto Dec 31.0058 31 whole (50.26)
   - top rows: S Jupiter → J Pluto RA 113.2643 70×φ golden (88.34)
-  - star rows: J Al Rescha → J Pluto Dec 2.0005 2 whole (94.96)
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: J Denebola → J Pluto RA 44.0095 44 whole (27.47)
     - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
 - **J Pallas** (same body: S Pallas → J Pallas RA 140.8501 141.4 sqrt2 (loose); S Pallas → J Pallas Dec 10.9914 11 whole (32.72))
@@ -1452,8 +1375,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Makemake → H Makemake RA 5.9709 6 whole (loose) = S Sun → Altair RA 6.0052 6 whole (54.90)
   - 10×φ^2 phi power — only
     - H Jupiter → H Orcus Dec 26.1869 10×φ^2 phi power (90.21) = S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
-  - 10×φ^6 phi power — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
-    - H Al Rescha → H Haumea RA 179.4232 10×φ^6 phi power (95.70) = S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
   - 26 whole — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
     - H Altair → H Mercury Dec 25.9915 26 whole (33.14) = S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
   - 29 whole — only
@@ -1473,9 +1394,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Alphard → H Transpluto Dec 20.0081 20 whole (35.29)
   - 30 = 360/12 — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
     - H Altair → H Quaoar RA 29.9872 30 whole (13.13)
-  - 45 = 360/8 — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan
+  - 45 = 360/8 — also: 2 Isolate / Liam Harrison
     - H Ankaa → H Mars Dec 44.9826 45 whole (1.75)
-  - 12 = 360/30 — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan
+  - 12 = 360/30 — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
     - H Denebola → H Rahu RA 11.9809 12 whole (0.22)
   - 90 = 360/4 — only
     - H Vega → H Rahu RA 89.9836 90 whole (3.26)
@@ -1487,8 +1408,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Vindemiatrix → H Gonggong Dec 23.9879 24 whole (15.58)
   - 9 = 360/40 — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
     - S Eris → J Eris Dec 9.0253 9 whole (loose)
-  - 2 = 360/180 — also: 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
-    - J Al Rescha → J Pluto Dec 2.0005 2 whole (94.96)
   - 4 = 360/90 — also: 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
     - J Alphecca → J Haumea Dec 4.0020 4 whole (80.83)
   - 90 = 360/4 — only
@@ -1509,7 +1428,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - φ^7 phi power — only
     - S Jupiter → H Jupiter Dec 29.0419 φ^7 phi power (loose)
     - S Moon → J Saturn Dec 29.0376 φ^7 phi power (95.71)
-  - 24.14 silver — also: 5 Jimmy The Digger / Richard Patrick
+  - 24.14 silver — only
     - S Rahu → H Rahu Dec 24.1824 24.14 silver (loose)
     - S Ketu → H Ketu Dec 24.1824 24.14 silver (loose)
   - 24 whole — also: 1 Java Point / Jonathan Burke
@@ -1537,10 +1456,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Vega → H Rahu RA 89.9836 90 whole (3.26)
     - H Vega → H Ketu RA 90.0164 90 whole (3.26)
     - J Alphecca → J Transpluto RA 90.0083 90 whole (34.42)
-  - 33.3333 ninth — only
-    - J Al Rescha → J Makemake Dec 33.3393 33.3333 ninth (92.82)
-    - J Rukbat → J Vesta Dec 33.3385 33.3333 ninth (93.74)
-  - 15 whole — also: 1 Java Point / Jonathan Burke
+  - 15 whole — only
     - J Ankaa → J Eris RA 15.0038 15 whole (65.64)
     - J Ras Algethi → J Pallas Dec 14.9874 15 whole (13.51)
 ### L4 every natal body
@@ -1608,8 +1524,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Rukbat → H Makemake Dec 66.6610 66.6667 ninth (95.10) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 7 Fanamix / Ben Jones
     - source line: S Jupiter → Rukbat Dec 29.0037 29 whole (66.42)
     - source line: S Sun → Rukbat RA 0.7240 conj (26.77)
-  - star rows: J Al Rescha → J Makemake Dec 33.3393 33.3333 ninth (92.82) — also: 1 Java Point / Jonathan Burke
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
 - **Orcus**
   - same body: S Orcus → H Orcus RA 6.8582 φ^4 phi power (loose) — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan
   - T1: H Jupiter → H Orcus Dec 26.1869 10×φ^2 phi power (90.21) — only
@@ -1662,23 +1576,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
   - star rows: J Vega → J Quaoar RA 48.9844 49 whole (4.89) — only
     - source line: S Moon → Vega RA 110.0023 110 whole (78.36)
-- **Mars**
-  - star rows: H Al Rescha → H Mars Dec 0.0899 conj (49.06) — only
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
-  - star rows: H Ankaa → H Mars RA 0.8085 conj (21.25) — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick
-    - source line: S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
-  - star rows: H Ankaa → H Mars Dec 44.9826 45 whole (1.75) — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick
-    - source line: S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
-  - star rows: H Denebola → H Mars RA 169.8933 105×φ golden (98.59) — also: 5 Jimmy The Digger / Richard Patrick
-    - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
-  - top rows: S Jupiter → J Mars RA 0.2447 conj (70.04) — also: 3 Une De La Seniere / Paddy Brennan
-- **Haumea**
-  - star rows: H Al Rescha → H Haumea RA 179.4232 10×φ^6 phi power (95.70) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
-  - star rows: J Alphecca → J Haumea Dec 4.0020 4 whole (80.83) — also: 6 Method Madness / Alex Edwards
-    - source line: S Moon → Alphecca RA 155.5623 155.556 ninth (99.36)
-  - star rows: J Denebola → J Haumea RA 8.0199 8 whole (0.00) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards
-    - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
 - **Vesta**
   - star rows: H Alphard → H Vesta Dec 9.0150 9 whole (6.18) — also: 3 Une De La Seniere / Paddy Brennan
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
@@ -1711,6 +1608,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
   - star rows: J Ankaa → J Mercury Dec 27.9811 28 whole (0.32) — also: 3 Une De La Seniere / Paddy Brennan
     - source line: S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
+- **Mars**
+  - star rows: H Ankaa → H Mars RA 0.8085 conj (21.25) — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick
+    - source line: S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
+  - star rows: H Ankaa → H Mars Dec 44.9826 45 whole (1.75) — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick
+    - source line: S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
+  - star rows: H Denebola → H Mars RA 169.8933 105×φ golden (98.59) — also: 5 Jimmy The Digger / Richard Patrick
+    - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
+  - top rows: S Jupiter → J Mars RA 0.2447 conj (70.04) — also: 3 Une De La Seniere / Paddy Brennan
 - **Sedna**
   - star rows: H Denebola → H Sedna RA 122.9722 φ^10 phi power (93.70) — also: 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
     - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
@@ -1735,8 +1640,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Pluto → J Pluto RA 77.0131 77 whole (11.97) — also: 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
     - source line: S Moon → Pluto Dec 31.0058 31 whole (50.26)
   - top rows: S Jupiter → J Pluto RA 113.2643 70×φ golden (88.34) — only
-  - star rows: J Al Rescha → J Pluto Dec 2.0005 2 whole (94.96) — also: 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: J Denebola → J Pluto RA 44.0095 44 whole (27.47) — also: 2 Isolate / Liam Harrison
     - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
 - **Uranus**
@@ -1744,6 +1647,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alphecca RA 155.5623 155.556 ninth (99.36)
   - star rows: J Ankaa → J Uranus Dec 19.0148 19 whole (6.66) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
     - source line: S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
+- **Haumea**
+  - star rows: J Alphecca → J Haumea Dec 4.0020 4 whole (80.83) — also: 6 Method Madness / Alex Edwards
+    - source line: S Moon → Alphecca RA 155.5623 155.556 ninth (99.36)
+  - star rows: J Denebola → J Haumea RA 8.0199 8 whole (0.00) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards
+    - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
 
 ## 5 Jimmy The Digger / Richard Patrick
 ### L1 same bodies
@@ -1852,13 +1760,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Denebola → H Mars RA 169.8986 105×φ golden (71.16)
     - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
 - **J Uranus** (same body: S Uranus → J Uranus Dec 35.9847 36 whole (5.50))
-  - star rows: J Al Rescha → J Uranus Dec 24.1487 24.14 silver (89.49)
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: J Altair → J Uranus RA 1.0542 conj (8.83)
     - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
   - other chart, top rows: S Jupiter → H Uranus Dec 14.1419 14.14 sqrt2 (99.28)
-  - other chart, star rows: H Al Rescha → H Uranus Dec 0.2335 conj (4.92)
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - other chart, star rows: H Ankaa → H Uranus RA 0.9799 conj (12.02)
     - source line: S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
   - other chart, star rows: H Vindemiatrix → H Uranus RA 171.9969 172 whole (71.49)
@@ -1880,11 +1784,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - sky line to Pallas: S Sun → Pallas RA 61.0023 61 whole (78.49)
   - star rows: J Altair → J Pallas RA 130.9880 131 whole (16.04)
     - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
-  - other chart, star rows: H Al Rescha → H Pallas RA 0.6438 conj (32.58)
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
 - **J Sedna** (same body: S Sedna → J Sedna RA 13.2914 13.3333 ninth (loose))
-  - star rows: J Al Rescha → J Sedna Dec 1.9816 2 whole (0.60)
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - other chart, star rows: H Alphecca → H Sedna RA 179.6288 111×φ golden (2.67)
     - source line: S Moon → Alphecca RA 155.5623 155.556 ninth (99.36)
   - other chart, star rows: H Vindemiatrix → H Sedna Dec 3.9840 4 whole (3.98)
@@ -1929,11 +1829,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **4. circle divisions**
   - 3 = 360/120 — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
     - S Pluto → H Pluto Dec 2.9749 3 whole (loose)
-  - 2 = 360/180 — also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+  - 2 = 360/180 — also: 7 Fanamix / Ben Jones
     - S Eris → H Eris Dec 2.0220 2 whole (loose)
   - 8 = 360/45 — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
     - S Makemake → H Makemake RA 7.9944 8 whole (51.91)
-  - 2 = 360/180 — also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+  - 2 = 360/180 — also: 7 Fanamix / Ben Jones
     - S Gonggong → H Gonggong Dec 1.9994 2 whole (93.83)
   - 4 = 360/90 — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
     - S Jupiter → H Quaoar Dec 4.0007 4 whole (93.44)
@@ -1955,8 +1855,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Quaoar → J Quaoar RA 35.9809 36 whole (0.22)
   - 8 = 360/45 — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
     - S Juno → J Jupiter Dec 8.0048 8 whole (57.79)
-  - 2 = 360/180 — also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
-    - J Al Rescha → J Sedna Dec 1.9816 2 whole (0.60)
   - 72 = 360/5 — only
     - J Ankaa → J Neptune RA 72.0093 72 whole (28.77)
   - 40 = 360/9 — also: 2 Isolate / Liam Harrison
@@ -1969,18 +1867,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 2 whole — only
     - S Eris → H Eris Dec 2.0220 2 whole (loose)
     - S Gonggong → H Gonggong Dec 1.9994 2 whole (93.83)
-    - J Al Rescha → J Sedna Dec 1.9816 2 whole (0.60)
   - 8 whole — also: 3 Une De La Seniere / Paddy Brennan
     - S Makemake → H Makemake RA 7.9944 8 whole (51.91)
     - S Juno → J Jupiter Dec 8.0048 8 whole (57.79)
   - 4 whole — also: 6 Method Madness / Alex Edwards
     - S Jupiter → H Quaoar Dec 4.0007 4 whole (93.44)
     - H Vindemiatrix → H Sedna Dec 3.9840 4 whole (3.98)
-  - 15.5556 ninth — only
-    - H Al Rescha → H Haumea Dec 15.5538 15.5556 ninth (98.36)
-    - S Pluto → J Pluto Dec 15.5842 15.5556 ninth (loose)
-    - J Jupiter → J Saturn Dec 15.5591 15.5556 ninth (96.69)
-  - 1 whole — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+  - 1 whole — also: 1 Java Point / Jonathan Burke
     - H Alphard → H Orcus Dec 1.0197 1 whole (0.02)
     - J Vindemiatrix → J Venus RA 0.9976 1 whole (77.61)
   - 26 whole — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan
@@ -1995,15 +1888,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 36 whole — only
     - S Uranus → J Uranus Dec 35.9847 36 whole (5.50)
     - S Quaoar → J Quaoar RA 35.9809 36 whole (0.22)
-  - 24.14 silver — also: 4 Wildfire Warrior / Tom O'Brien
-    - S Makemake → J Makemake RA 24.1303 24.14 silver (loose)
-    - J Al Rescha → J Uranus Dec 24.1487 24.14 silver (89.49)
+  - 15.5556 ninth — only
+    - S Pluto → J Pluto Dec 15.5842 15.5556 ninth (loose)
+    - J Jupiter → J Saturn Dec 15.5591 15.5556 ninth (96.69)
   - 118 whole — only
     - J Jupiter → J star Ankaa RA 118.0035 118 whole (68.46)
     - S Ankaa → J Jupiter RA 117.9972 118 whole (74.19)
-  - 100×φ^1 phi power — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
-    - J Al Rescha → J Haumea RA 161.8836 100×φ^1 phi power (81.17)
-    - J Ankaa → J Rahu RA 161.8688 100×φ^1 phi power (84.49)
 ### L4 every natal body
 - **Sun**
   - same body + top rows: S Sun → H Sun RA 69.9977 70 whole (78.17) — only
@@ -2082,15 +1972,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Vega RA 110.0023 110 whole (78.36)
 - **Uranus**
   - top rows: S Jupiter → H Uranus Dec 14.1419 14.14 sqrt2 (99.28) — only
-  - star rows: H Al Rescha → H Uranus Dec 0.2335 conj (4.92) — also: 2 Isolate / Liam Harrison
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: H Ankaa → H Uranus RA 0.9799 conj (12.02) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
     - source line: S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
   - star rows: H Vindemiatrix → H Uranus RA 171.9969 172 whole (71.49) — also: 6 Method Madness / Alex Edwards
     - source line: S Jupiter → Vindemiatrix RA 138.9961 139 whole (64.46)
   - same body: S Uranus → J Uranus Dec 35.9847 36 whole (5.50) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
-  - star rows: J Al Rescha → J Uranus Dec 24.1487 24.14 silver (89.49) — also: 2 Isolate / Liam Harrison
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: J Altair → J Uranus RA 1.0542 conj (8.83) — only
     - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
 - **Neptune**
@@ -2101,8 +1987,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
 - **Ceres**
   - top rows: S Jupiter → H Ceres RA 110.9850 10×φ^5 phi power (72.21) — also: 1 Java Point / Jonathan Burke
-  - star rows: H Al Rescha → H Ceres RA 55.0164 34×φ golden (80.71) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: H Ras Algethi → H Ceres RA 173.1392 107×φ golden (49.44) — also: 1 Java Point / Jonathan Burke
     - source line: S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
   - star rows: H Vindemiatrix → H Ceres RA 110.0245 68×φ golden (88.89) — only
@@ -2119,19 +2003,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Quaoar → J Quaoar RA 35.9809 36 whole (0.22) — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 6 Method Madness / Alex Edwards
   - star rows: J Altair → J Quaoar Dec 22.9999 23 whole (99.50) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
     - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
-- **Pallas**
-  - star rows: H Al Rescha → H Pallas RA 0.6438 conj (32.58) — only
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
-  - same body: S Pallas → J Pallas RA 174.0185 174 whole (0.60) — also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
-    - source line: S Jupiter → Pallas Dec 0.0263 conj (83.23)
-    - source line: S Sun → Pallas RA 61.0023 61 whole (78.49)
-  - star rows: J Altair → J Pallas RA 130.9880 131 whole (16.04) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
-    - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
-- **Haumea**
-  - star rows: H Al Rescha → H Haumea Dec 15.5538 15.5556 ninth (98.36) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
-  - star rows: J Al Rescha → J Haumea RA 161.8836 100×φ^1 phi power (81.17) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
 - **Orcus**
   - star rows: H Alphard → H Orcus Dec 1.0197 1 whole (0.02) — also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
@@ -2144,7 +2015,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alphecca RA 155.5623 155.556 ninth (99.36)
   - star rows: S Denebola → H Jupiter Dec 6.9907 7 whole (28.87) — also: 1 Java Point / Jonathan Burke
     - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
-  - T2: J Jupiter → J star Ankaa RA 118.0035 118 whole (68.46) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+  - T2: J Jupiter → J star Ankaa RA 118.0035 118 whole (68.46) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards
   - top rows: S Juno → J Jupiter Dec 8.0048 8 whole (57.79) — only
     - source line: S Sun → Juno RA 0.4578 conj (48.28)
     - source line: S Moon → Juno RA 98.0009 98 whole (91.15)
@@ -2157,8 +2028,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Vindemiatrix → H Sedna Dec 3.9840 4 whole (3.98) — also: 3 Une De La Seniere / Paddy Brennan, 7 Fanamix / Ben Jones
     - source line: S Jupiter → Vindemiatrix RA 138.9961 139 whole (64.46)
   - same body: S Sedna → J Sedna RA 13.2914 13.3333 ninth (loose) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 7 Fanamix / Ben Jones
-  - star rows: J Al Rescha → J Sedna Dec 1.9816 2 whole (0.60) — also: 3 Une De La Seniere / Paddy Brennan, 7 Fanamix / Ben Jones
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
 - **Rahu**
   - star rows: H Altair → H Rahu Dec 25.9906 26 whole (27.92) — also: 6 Method Madness / Alex Edwards
     - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
@@ -2180,12 +2049,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Jupiter → J Juno Dec 0.1566 conj (22.83) — also: 2 Isolate / Liam Harrison
   - star rows: J Alphard → J Juno RA 122.2776 122.222 ninth (92.34) — also: 6 Method Madness / Alex Edwards
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
+- **Pallas**
+  - same body: S Pallas → J Pallas RA 174.0185 174 whole (0.60) — also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+    - source line: S Jupiter → Pallas Dec 0.0263 conj (83.23)
+    - source line: S Sun → Pallas RA 61.0023 61 whole (78.49)
+  - star rows: J Altair → J Pallas RA 130.9880 131 whole (16.04) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+    - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
 - **Saturn**
   - T2: J Jupiter → J Saturn Dec 15.5591 15.5556 ninth (96.69) — only
 - **Transpluto**
   - T2: J Jupiter → J Transpluto Dec 34.9945 35 whole (52.56) — only
-  - star rows: J Al Rescha → J Transpluto RA 116.0143 116 whole (8.26) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: J Rukbat → J Transpluto RA 144.4425 144.444 ninth (99.80) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
     - source line: S Jupiter → Rukbat Dec 29.0037 29 whole (66.42)
     - source line: S Sun → Rukbat RA 0.7240 conj (26.77)
@@ -2241,8 +2114,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Gonggong** (same body: S Gonggong → H Gonggong Dec 1.3291 1.33333 ninth (loose))
   - sky line to Gonggong: S Jupiter → Gonggong Dec 0.1496 conj (25.13)
   - top rows: S Jupiter → H Gonggong RA 1.4829 conj (0.01)
-  - star rows: H Al Rescha → H Gonggong Dec 15.5562 15.5556 ninth (99.38)
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
 - **H Transpluto** (same body: S Transpluto → H Transpluto RA 3.0228 3 whole (loose))
   - sky line to Transpluto: S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
   - star rows: H Altair → H Transpluto RA 145.6424 90×φ golden (16.14)
@@ -2289,8 +2160,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Altair → J Ketu Dec 6.9987 7 whole (87.72)
     - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
   - other chart, top rows: S Jupiter → H Ketu Dec 14.4498 14.4444 ninth (94.30)
-  - other chart, star rows: H Al Rescha → H Ketu Dec 0.0731 conj (57.21)
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - other chart, star rows: H Ankaa → H Ketu RA 0.0076 conj (98.99)
     - source line: S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
   - other chart, star rows: H Vindemiatrix → H Ketu RA 171.0165 171 whole (3.04)
@@ -2309,9 +2178,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Sun → H Chiron Dec 22.6533 14×φ golden (95.21) = S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
   - 26 whole — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
     - H Alphecca → H Chiron Dec 26.0037 26 whole (66.57) = S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
-  - 17 whole — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 7 Fanamix / Ben Jones
+  - 17 whole — also: 1 Java Point / Jonathan Burke, 7 Fanamix / Ben Jones
     - H Ankaa → H Ceres Dec 17.0078 17 whole (37.11) = S Moon → Alphard Dec 16.9991 17 whole (91.06)
-  - 10×φ^6 phi power — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+  - 10×φ^6 phi power — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 7 Fanamix / Ben Jones
     - J Vindemiatrix → J Pallas RA 179.4160 10×φ^6 phi power (94.13) = S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
 - **4. circle divisions**
   - 3 = 360/120 — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
@@ -2340,8 +2209,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Mars → J Mars RA 8.9721 9 whole (loose)
   - 4 = 360/90 — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
     - S Eris → J Eris RA 3.9968 4 whole (70.59)
-  - 5 = 360/72 — also: 3 Une De La Seniere / Paddy Brennan, 7 Fanamix / Ben Jones
-    - J Al Rescha → J Pluto Dec 5.0106 5 whole (22.30)
   - 10 = 360/36 — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
     - J Alphard → J Sun Dec 10.0146 10 whole (7.40)
   - 4 = 360/90 — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
@@ -2356,9 +2223,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 14.4444 ninth — only
     - S Jupiter → H Ketu Dec 14.4498 14.4444 ninth (94.30)
     - H Vindemiatrix → H Pallas Dec 14.4401 14.4444 ninth (95.38)
-  - 5 whole — only
-    - H Alphecca → H Saturn RA 4.9971 5 whole (72.70)
-    - J Al Rescha → J Pluto Dec 5.0106 5 whole (22.30)
   - 111.111 ninth — only
     - H Altair → H Rahu RA 111.1401 111.111 ninth (95.25)
     - S Moon → J Uranus RA 111.1929 111.111 ninth (86.62)
@@ -2426,8 +2290,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Gonggong → H Gonggong Dec 1.3291 1.33333 ninth (loose) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
     - source line: S Jupiter → Gonggong Dec 0.1496 conj (25.13)
   - top rows: S Jupiter → H Gonggong RA 1.4829 conj (0.01) — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
-  - star rows: H Al Rescha → H Gonggong Dec 15.5562 15.5556 ninth (99.38) — only
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
 - **Transpluto**
   - same body: S Transpluto → H Transpluto RA 3.0228 3 whole (loose) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
     - source line: S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
@@ -2440,7 +2302,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Alphard → H Juno RA 1.0408 conj (9.37) — also: 5 Jimmy The Digger / Richard Patrick
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
 - **Jupiter**
-  - T1: H Jupiter → H star Ankaa RA 133.3623 133.333 ninth (96.52) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
+  - T1: H Jupiter → H star Ankaa RA 133.3623 133.333 ninth (96.52) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
   - top rows: S Pallas → H Jupiter RA 147.2416 91×φ golden (97.10) — only
     - source line: S Jupiter → Pallas Dec 0.0263 conj (83.23)
     - source line: S Sun → Pallas RA 61.0023 61 whole (78.49)
@@ -2450,7 +2312,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Vindemiatrix RA 138.9961 139 whole (64.46)
   - same body: S Jupiter → J Jupiter RA 118.0113 118 whole (18.80) — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
   - same body: S Jupiter → J Jupiter Dec 34.9772 35 whole (loose) — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
-  - T2: J Jupiter → J star Vindemiatrix RA 102.9966 103 whole (68.93) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
+  - T2: J Jupiter → J star Vindemiatrix RA 102.9966 103 whole (68.93) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
   - top rows: S Sun → J Jupiter Dec 45.3057 28×φ golden (95.62) — only
   - star rows: J Ankaa → J Jupiter RA 85.9834 86 whole (2.83) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
     - source line: S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
@@ -2465,8 +2327,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Vega RA 110.0023 110 whole (78.36)
 - **Ketu**
   - top rows: S Jupiter → H Ketu Dec 14.4498 14.4444 ninth (94.30) — only
-  - star rows: H Al Rescha → H Ketu Dec 0.0731 conj (57.21) — also: 3 Une De La Seniere / Paddy Brennan
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: H Ankaa → H Ketu RA 0.0076 conj (98.99) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan
     - source line: S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
   - star rows: H Vindemiatrix → H Ketu RA 171.0165 171 whole (3.04) — only
@@ -2543,8 +2403,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Rukbat → H Pluto Dec 20.0086 20 whole (32.34) — also: 5 Jimmy The Digger / Richard Patrick
     - source line: S Jupiter → Rukbat Dec 29.0037 29 whole (66.42)
     - source line: S Sun → Rukbat RA 0.7240 conj (26.77)
-  - star rows: J Al Rescha → J Pluto Dec 5.0106 5 whole (22.30) — also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: J Altair → J Pluto Dec 11.1137 11.1111 ninth (95.77) — also: 7 Fanamix / Ben Jones
     - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
   - star rows: J Ankaa → J Pluto RA 136.9943 137 whole (51.23) — also: 3 Une De La Seniere / Paddy Brennan
@@ -2609,8 +2467,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Vindemiatrix RA 138.9961 139 whole (64.46)
 - **H Pluto** (same body: S Pluto → H Pluto RA 12.9466 8×φ golden (85.98))
   - sky line to Pluto: S Moon → Pluto Dec 31.0058 31 whole (50.26)
-  - star rows: H Al Rescha → H Pluto RA 105.1692 65×φ golden (81.99)
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - other chart, star rows: J Altair → J Pluto RA 47.9984 48 whole (84.84)
     - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
   - other chart, star rows: J Altair → J Pluto Dec 20.0009 20 whole (91.58)
@@ -2627,8 +2483,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
   - star rows: H Ras Algethi → H Sedna RA 155.5927 155.556 ninth (96.48)
     - source line: S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
-  - other chart, star rows: J Al Rescha → J Sedna RA 16.1893 10×φ^1 phi power (78.97)
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - other chart, star rows: J Altair → J Sedna RA 109.0130 109 whole (12.13)
     - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
   - other chart, star rows: J Vindemiatrix → J Sedna RA 148.8339 92×φ golden (4.80)
@@ -2639,8 +2493,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
   - star rows: S Vindemiatrix → J Jupiter RA 169.9923 170 whole (37.65)
     - source line: S Jupiter → Vindemiatrix RA 138.9961 139 whole (64.46)
-  - other chart, star rows: S Al Rescha → H Jupiter Dec 14.0021 14 whole (79.69)
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - other chart, star rows: H Vega → H Jupiter Dec 22.0158 22 whole (4.32)
     - source line: S Moon → Vega RA 110.0023 110 whole (78.36)
 - **J Saturn** (same body: S Saturn → J Saturn Dec 31.0288 31 whole (loose))
@@ -2668,11 +2520,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Alphard → H Haumea Dec 26.0128 26 whole (12.83) = S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
   - 139 whole — only
     - H Alphecca → H Uranus RA 138.9932 139 whole (43.59) = S Jupiter → Vindemiatrix RA 138.9961 139 whole (64.46)
-  - 10×φ^6 phi power — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+  - 10×φ^6 phi power — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards
     - H Alphecca → H Sedna RA 179.4203 10×φ^6 phi power (95.05) = S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
   - 14×φ golden — also: 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
     - H Altair → H Sun Dec 22.6587 14×φ golden (65.20) = S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
-  - 17 whole — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 6 Method Madness / Alex Edwards
+  - 17 whole — also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards
     - H Altair → H Makemake Dec 16.9928 17 whole (40.86) = S Moon → Alphard Dec 16.9991 17 whole (91.06)
   - 155.556 ninth — only
     - H Ras Algethi → H Sedna RA 155.5927 155.556 ninth (96.48) = S Moon → Alphecca RA 155.5623 155.556 ninth (99.36)
@@ -2680,7 +2532,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Saturn → J Saturn Dec 31.0288 31 whole (loose) = S Moon → Pluto Dec 31.0058 31 whole (50.26)
   - 155.556 ninth — only
     - J Jupiter → J Mercury RA 155.5143 155.556 ninth (96.09) = S Moon → Alphecca RA 155.5623 155.556 ninth (99.36)
-  - 17 whole — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 6 Method Madness / Alex Edwards
+  - 17 whole — also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards
     - J Denebola → J Makemake Dec 17.0198 17 whole (0.01) = S Moon → Alphard Dec 16.9991 17 whole (91.06)
 - **4. circle divisions**
   - 5 = 360/72 — also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards
@@ -2689,7 +2541,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Alphard → H Mercury Dec 8.9843 9 whole (4.68)
   - 18 = 360/20 — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
     - H Ankaa → H Ceres Dec 18.0176 18 whole (1.44)
-  - 2 = 360/180 — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+  - 2 = 360/180 — also: 5 Jimmy The Digger / Richard Patrick
     - H Vindemiatrix → H Makemake RA 1.9853 2 whole (7.07)
   - 15 = 360/24 — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien
     - J Alphard → J Pallas Dec 15.0017 15 whole (83.76)
@@ -2701,10 +2553,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 166.667 ninth — only
     - S Juno → H Juno RA 165.8678 166.667 ninth (loose)
     - H Alphard → H Gonggong RA 166.6862 166.667 ninth (98.33)
-  - 14 whole — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison
-    - H Jupiter → H star Al Rescha Dec 14.0032 14 whole (70.56)
-    - S Al Rescha → H Jupiter Dec 14.0021 14 whole (79.69)
-    - H Vindemiatrix → H Mars Dec 13.9811 14 whole (0.29)
   - 51 whole — only
     - H Alphecca → H Ceres RA 51.0132 51 whole (11.62)
     - H Alphecca → H Ceres Dec 51.0041 51 whole (62.94)
@@ -2718,9 +2566,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 155.556 ninth — only
     - H Ras Algethi → H Sedna RA 155.5927 155.556 ninth (96.48)
     - J Jupiter → J Mercury RA 155.5143 155.556 ninth (96.09)
-  - 144.444 ninth — also: 1 Java Point / Jonathan Burke
-    - S Moon → J Chiron RA 144.4196 144.444 ninth (97.37)
-    - J Al Rescha → J Quaoar RA 144.4893 144.444 ninth (95.25)
 ### L4 every natal body
 - **Mars**
   - same body: S Mars → H Mars RA 95.9821 96 whole (1.15) — also: 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
@@ -2746,8 +2591,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Pluto**
   - same body: S Pluto → H Pluto RA 12.9466 8×φ golden (85.98) — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
     - source line: S Moon → Pluto Dec 31.0058 31 whole (50.26)
-  - star rows: H Al Rescha → H Pluto RA 105.1692 65×φ golden (81.99) — also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: J Altair → J Pluto RA 47.9984 48 whole (84.84) — also: 6 Method Madness / Alex Edwards
     - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
   - star rows: J Altair → J Pluto Dec 20.0009 20 whole (91.58) — also: 6 Method Madness / Alex Edwards
@@ -2769,23 +2612,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
   - star rows: H Ras Algethi → H Sedna RA 155.5927 155.556 ninth (96.48) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
     - source line: S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
-  - star rows: J Al Rescha → J Sedna RA 16.1893 10×φ^1 phi power (78.97) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: J Altair → J Sedna RA 109.0130 109 whole (12.13) — only
     - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
   - star rows: J Vindemiatrix → J Sedna RA 148.8339 92×φ golden (4.80) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
-    - source line: S Jupiter → Vindemiatrix RA 138.9961 139 whole (64.46)
-- **Jupiter**
-  - T1: H Jupiter → H star Al Rescha Dec 14.0032 14 whole (70.56) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
-  - star rows: S Al Rescha → H Jupiter Dec 14.0021 14 whole (79.69) — also: 1 Java Point / Jonathan Burke
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
-  - star rows: H Vega → H Jupiter Dec 22.0158 22 whole (4.32) — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien
-    - source line: S Moon → Vega RA 110.0023 110 whole (78.36)
-  - same body: S Jupiter → J Jupiter RA 51.0117 51 whole (17.34) — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
-  - top rows: S Eris → J Jupiter RA 0.2612 conj (68.21) — also: 1 Java Point / Jonathan Burke
-  - star rows: J Altair → J Jupiter Dec 0.1318 conj (31.45) — also: 1 Java Point / Jonathan Burke
-    - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
-  - star rows: S Vindemiatrix → J Jupiter RA 169.9923 170 whole (37.65) — also: 6 Method Madness / Alex Edwards
     - source line: S Jupiter → Vindemiatrix RA 138.9961 139 whole (64.46)
 - **Gonggong**
   - top rows: S Jupiter → H Gonggong RA 0.6773 conj (30.08) — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
@@ -2813,8 +2642,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Altair → J Ceres RA 122.9703 76×φ golden (98.21) — also: 4 Wildfire Warrior / Tom O'Brien
     - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
 - **Sun**
-  - star rows: H Al Rescha → H Sun RA 64.9888 65 whole (19.25) — also: 2 Isolate / Liam Harrison
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
   - star rows: H Alphard → H Sun RA 176.3810 109×φ golden (27.89) — also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
   - star rows: H Altair → H Sun Dec 22.6587 14×φ golden (65.20) — also: 5 Jimmy The Digger / Richard Patrick
@@ -2871,12 +2698,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → J Pallas Dec 31.9985 32 whole (85.98) — only
   - star rows: J Alphard → J Pallas Dec 15.0017 15 whole (83.76) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
     - source line: S Moon → Alphard Dec 16.9991 17 whole (91.06)
+- **Jupiter**
+  - star rows: H Vega → H Jupiter Dec 22.0158 22 whole (4.32) — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien
+    - source line: S Moon → Vega RA 110.0023 110 whole (78.36)
+  - same body: S Jupiter → J Jupiter RA 51.0117 51 whole (17.34) — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+  - top rows: S Eris → J Jupiter RA 0.2612 conj (68.21) — also: 1 Java Point / Jonathan Burke
+  - star rows: J Altair → J Jupiter Dec 0.1318 conj (31.45) — also: 1 Java Point / Jonathan Burke
+    - source line: S Sun → Altair RA 6.0052 6 whole (54.90)
+  - star rows: S Vindemiatrix → J Jupiter RA 169.9923 170 whole (37.65) — also: 6 Method Madness / Alex Edwards
+    - source line: S Jupiter → Vindemiatrix RA 138.9961 139 whole (64.46)
 - **Chiron**
   - same body: S Chiron → J Chiron RA 122.0170 122 whole (2.24) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
   - top rows: S Moon → J Chiron RA 144.4196 144.444 ninth (97.37) — only
-- **Quaoar**
-  - star rows: J Al Rescha → J Quaoar RA 144.4893 144.444 ninth (95.25) — also: 3 Une De La Seniere / Paddy Brennan
-    - source line: S Moon → Al Rescha RA 1.2818 conj (2.12)
 - **Ketu**
   - star rows: J Ras Algethi → J Ketu Dec 32.9872 33 whole (12.86) — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien
     - source line: S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)

@@ -7,20 +7,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - Cloth numbers not in the tables workbook: 4
 
 ## Sky (noted lines)
-- S Jupiter → Pallas Dec 0.2217 conj (6.80)
 - S Jupiter → Gonggong RA 0.7553 conj (24.65)
 - S Jupiter → Transpluto RA 177.7848 177.778 ninth (99.45)
 - S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
 - S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
 - S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
-- S Sun → Mercury RA 1.2413 conj (2.97)
 - S Sun → Rahu RA 111.1604 111.111 ninth (91.93)
 - S Sun → Moon RA 115.9955 116 whole (59.91)
 - S Sun → Ankaa RA 61.0007 61 whole (92.80)
 - S Sun → Menkar RA 100.0021 100 whole (79.93)
 - S Sun → Denebola Dec 33.9942 34 whole (50.13)
 - S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
-- S Sun → Antares Dec 7.0061 7 whole (48.51)
 - S Moon → Sun RA 115.9955 116 whole (59.91)
 - S Moon → Transpluto Dec 11.1107 11.1111 ninth (99.38)
 - S Moon → Ankaa RA 176.9962 177 whole (65.72)
@@ -28,7 +25,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
 - S Moon → El Nath RA 107.9956 108 whole (60.79)
 - S Moon → Sirius Dec 15.9996 16 whole (96.36)
-- S Moon → Deneb Dec 46.0059 46 whole (49.51)
 - S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
 - Hubs: Ankaa, Menkar, Transpluto
 
@@ -64,8 +60,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Ankaa → H Ceres RA 12.2284 12.2222 ninth (91.45)
     - source line: S Sun → Ankaa RA 61.0007 61 whole (92.80)
     - source line: S Moon → Ankaa RA 176.9962 177 whole (65.72)
-  - star rows: H Antares → H Ceres RA 106.9814 107 whole (0.51)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - other chart, star rows: J Denebola → J Ceres RA 126.0176 126 whole (1.40)
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - other chart, star rows: J Sirius → J Ceres RA 158.0110 158 whole (20.46)
@@ -73,8 +67,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Spica → J Ceres RA 101.9858 102 whole (8.37)
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
 - **H Sedna** (same body: S Sedna → H Sedna Dec 1.1065 1.11111 ninth (loose))
-  - other chart, star rows: J Antares → J Sedna Dec 30.7420 19×φ golden (96.19)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - other chart, star rows: J Menkar → J Sedna Dec 0.2185 conj (7.37)
     - source line: S Sun → Menkar RA 100.0021 100 whole (79.93)
     - source line: S Moon → Menkar RA 144.0024 89×φ golden (84.43)
@@ -124,8 +116,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Ankaa → J Juno RA 90.9947 91 whole (54.17)
     - source line: S Sun → Ankaa RA 61.0007 61 whole (92.80)
     - source line: S Moon → Ankaa RA 176.9962 177 whole (65.72)
-  - star rows: J Deneb → J Juno RA 147.2119 91×φ golden (0.99)
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: J El Nath → J Juno RA 15.9956 16 whole (61.01)
     - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
   - star rows: J Menkar → J Juno RA 51.9970 52 whole (72.36)
@@ -144,10 +134,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
   - star rows: J Sirius → J Orcus Dec 19.0175 19 whole (1.62)
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
-  - other chart, star rows: H Antares → H Orcus RA 100.9823 101 whole (1.32)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - other chart, star rows: H Deneb → H Orcus RA 163.9851 164 whole (6.41)
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
 ### L3 matches
 - **1. same body on both charts**
   - Saturn — also: 3 Master Tommytucker / Harry Cobden
@@ -170,18 +156,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Rigel → H Makemake RA 110.0502 68×φ golden (6.86) = S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
   - 11.1111 ninth — also: 7 Two For Gold / David Bass
     - S Jupiter → J Jupiter Dec 11.1299 11.1111 ninth (loose) = S Moon → Transpluto Dec 11.1107 11.1111 ninth (99.38)
-  - 16 whole — also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+  - 16 whole — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
     - J El Nath → J Juno RA 15.9956 16 whole (61.01) = S Moon → Sirius Dec 15.9996 16 whole (96.36)
-  - 84×φ golden — also: 3 Master Tommytucker / Harry Cobden
+  - 84×φ golden — only
     - S Menkar → J Jupiter RA 135.9015 84×φ golden (34.45) = S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
 - **4. circle divisions**
   - 24 = 360/15 — also: 5 Itchy Feet / Gavin Sheehan
     - S Moon → H Ketu Dec 23.9983 24 whole (84.05)
   - 30 = 360/12 — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
     - H Denebola → H Quaoar Dec 29.9906 30 whole (28.10)
-  - 12 = 360/30 — also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+  - 12 = 360/30 — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
     - H Menkar → H Venus RA 11.9864 12 whole (10.27)
-  - 4 = 360/90 — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - 4 = 360/90 — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
     - H Rigel → H Chiron Dec 4.0113 4 whole (19.01)
   - 5 = 360/72 — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
     - H Sirius → H Neptune Dec 5.0173 5 whole (1.84)
@@ -210,7 +196,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Moon → J Ketu Dec 23.9955 24 whole (59.94)
   - 19×φ golden — also: 5 Itchy Feet / Gavin Sheehan
     - S Ceres → H Jupiter RA 30.7469 19×φ golden (75.22)
-    - J Antares → J Sedna Dec 30.7420 19×φ golden (96.19)
     - J Vindemiatrix → J Venus Dec 30.7412 19×φ golden (91.15)
   - 27 whole — only
     - H Ankaa → H Venus RA 27.0104 27 whole (22.82)
@@ -218,12 +203,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 12.2222 ninth — only
     - H Ankaa → H Ceres RA 12.2284 12.2222 ninth (91.45)
     - J Sirius → J Pluto Dec 12.2206 12.2222 ninth (97.82)
-  - 11 whole — only
-    - H Antares → H Quaoar Dec 11.0140 11 whole (8.90)
-    - H Menkar → H Mars RA 11.0125 11 whole (14.11)
-  - 22 whole — also: 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
-    - H Deneb → H Ketu Dec 22.0033 22 whole (69.61)
-    - J Deneb → J Ketu Dec 22.0157 22 whole (4.64)
   - 23 whole — also: 2 Dashel Drasher / Rex Dingle
     - H Spica → H Venus Dec 22.9934 23 whole (45.08)
     - J Vindemiatrix → J Makemake RA 22.9910 23 whole (30.28)
@@ -233,9 +212,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 152 whole — only
     - S Sun → J Juno RA 152.0027 152 whole (74.91)
     - J Vindemiatrix → J Sedna RA 152.0150 152 whole (6.23)
-  - 91 and 91×φ on J Juno — only
-    - J Ankaa → J Juno RA 90.9947 91 whole (54.17)
-    - J Deneb → J Juno RA 147.2119 91×φ golden (0.99)
 ### L4 every natal body
 - **Sun**
   - same body + top rows: S Sun → H Sun RA 111.1488 111.111 ninth (93.82) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
@@ -256,8 +232,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Ankaa → H Ceres RA 12.2284 12.2222 ninth (91.45) — also: 2 Dashel Drasher / Rex Dingle
     - source line: S Sun → Ankaa RA 61.0007 61 whole (92.80)
     - source line: S Moon → Ankaa RA 176.9962 177 whole (65.72)
-  - star rows: H Antares → H Ceres RA 106.9814 107 whole (0.51) — also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: J Denebola → J Ceres RA 126.0176 126 whole (1.40) — also: 2 Dashel Drasher / Rex Dingle
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - star rows: J Sirius → J Ceres RA 158.0110 158 whole (20.46) — only
@@ -266,8 +240,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
 - **Sedna**
   - same body: S Sedna → H Sedna Dec 1.1065 1.11111 ninth (loose) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
-  - star rows: J Antares → J Sedna Dec 30.7420 19×φ golden (96.19) — only
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: J Menkar → J Sedna Dec 0.2185 conj (7.37) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
     - source line: S Sun → Menkar RA 100.0021 100 whole (79.93)
     - source line: S Moon → Menkar RA 144.0024 89×φ golden (84.43)
@@ -277,12 +249,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
 - **Rahu**
   - T1: H Jupiter → H Rahu RA 122.2803 122.222 ninth (91.96) — only
-  - star rows: H Deneb → H Rahu Dec 68.5485 10×φ^4 phi power (95.71) — also: 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
 - **Eris**
   - T1: H Jupiter → H Eris RA 0.2298 conj (71.71) — also: 6 Lieutenant Rocco / Tom Scudamore
-  - star rows: H Antares → H Eris Dec 22.6534 14×φ golden (94.33) — also: 3 Master Tommytucker / Harry Cobden
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: H Sirius → H Eris Dec 12.9426 8×φ golden (90.19) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
   - star rows: H Spica → H Eris RA 175.9952 176 whole (57.59) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
@@ -334,15 +302,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
 - **Ketu**
   - top rows: S Moon → H Ketu Dec 23.9983 24 whole (84.05) — also: 3 Master Tommytucker / Harry Cobden
-  - star rows: H Deneb → H Ketu Dec 22.0033 22 whole (69.61) — also: 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: H El Nath → H Ketu RA 1.2299 conj (3.24) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
     - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
   - star rows: H Sirius → H Ketu Dec 39.9947 40 whole (53.67) — also: 7 Two For Gold / David Bass
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
   - top rows: S Moon → J Ketu Dec 23.9955 24 whole (59.94) — also: 3 Master Tommytucker / Harry Cobden
-  - star rows: J Deneb → J Ketu Dec 22.0157 22 whole (4.64) — also: 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: J El Nath → J Ketu RA 1.1067 conj (6.88) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
     - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
 - **Jupiter**
@@ -350,7 +314,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Eris → H Jupiter RA 0.7346 conj (26.04) — also: 3 Master Tommytucker / Harry Cobden
   - same body: S Jupiter → J Jupiter RA 155.7325 155.556 ninth (loose) — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
   - same body: S Jupiter → J Jupiter Dec 11.1299 11.1111 ninth (loose) — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
-  - T2: J Jupiter → J star Sadalsuud RA 141.4193 141.4 sqrt2 (99.43) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - T2: J Jupiter → J star Sadalsuud RA 141.4193 141.4 sqrt2 (99.43) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
   - star rows: S Menkar → J Jupiter RA 135.9015 84×φ golden (34.45) — only
     - source line: S Sun → Menkar RA 100.0021 100 whole (79.93)
     - source line: S Moon → Menkar RA 144.0024 89×φ golden (84.43)
@@ -393,41 +357,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Mars → J Mars Dec 46.9363 φ^8 phi power (loose) — also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
   - star rows: J Alhena → J Mars RA 9.0069 9 whole (42.87) — also: 7 Two For Gold / David Bass
     - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
-- **Orcus**
-  - star rows: H Antares → H Orcus RA 100.9823 101 whole (1.32) — also: 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: H Deneb → H Orcus RA 163.9851 164 whole (6.41) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
-  - same body: S Orcus → J Orcus Dec 14.4964 14.4444 ninth (loose) — also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
-  - star rows: J Sadalsuud → J Orcus RA 170.0084 170 whole (33.53) — also: 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
-    - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
-  - star rows: J Sirius → J Orcus Dec 19.0175 19 whole (1.62) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
-    - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
 - **Quaoar**
-  - star rows: H Antares → H Quaoar Dec 11.0140 11 whole (8.90) — only
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: H Denebola → H Quaoar Dec 29.9906 30 whole (28.10) — only
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - star rows: H El Nath → H Quaoar RA 179.6189 111×φ golden (22.14) — only
     - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
   - star rows: J Vindemiatrix → J Quaoar RA 40.9890 41 whole (20.13) — also: 6 Lieutenant Rocco / Tom Scudamore
     - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
-- **Neptune**
-  - star rows: H Deneb → H Neptune Dec 56.9807 57 whole (0.12) — only
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
-  - star rows: H Sirius → H Neptune Dec 5.0173 5 whole (1.84) — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
-  - star rows: J Rigel → J Neptune RA 150.9819 151 whole (0.94) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
-    - source line: S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
-- **Pluto**
-  - star rows: H Deneb → H Pluto Dec 64.0127 64 whole (13.44) — also: 2 Dashel Drasher / Rex Dingle
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
-  - star rows: H Sirius → H Pluto Dec 2.0147 2 whole (7.02) — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
-  - star rows: H Spica → H Pluto RA 76.0010 76 whole (89.78) — only
-    - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
-  - star rows: J Sirius → J Pluto Dec 12.2206 12.2222 ninth (97.82) — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
 - **Gonggong**
   - star rows: H Menkar → H Gonggong Dec 17.9432 φ^6 phi power (97.68) — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
     - source line: S Sun → Menkar RA 100.0021 100 whole (79.93)
@@ -444,6 +380,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
   - star rows: J Sirius → J Mercury Dec 0.2684 conj (1.11) — only
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
+- **Neptune**
+  - star rows: H Sirius → H Neptune Dec 5.0173 5 whole (1.84) — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore
+    - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
+  - star rows: J Rigel → J Neptune RA 150.9819 151 whole (0.94) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
+    - source line: S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
+- **Pluto**
+  - star rows: H Sirius → H Pluto Dec 2.0147 2 whole (7.02) — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore
+    - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
+  - star rows: H Spica → H Pluto RA 76.0010 76 whole (89.78) — only
+    - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
+  - star rows: J Sirius → J Pluto Dec 12.2206 12.2222 ninth (97.82) — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore
+    - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
 - **Vesta**
   - star rows: H Sirius → H Vesta Dec 0.1687 conj (19.15) — also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
@@ -454,13 +402,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Ankaa → J Juno RA 90.9947 91 whole (54.17) — only
     - source line: S Sun → Ankaa RA 61.0007 61 whole (92.80)
     - source line: S Moon → Ankaa RA 176.9962 177 whole (65.72)
-  - star rows: J Deneb → J Juno RA 147.2119 91×φ golden (0.99) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: J El Nath → J Juno RA 15.9956 16 whole (61.01) — also: 7 Two For Gold / David Bass
     - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
   - star rows: J Menkar → J Juno RA 51.9970 52 whole (72.36) — also: 5 Itchy Feet / Gavin Sheehan
     - source line: S Sun → Menkar RA 100.0021 100 whole (79.93)
     - source line: S Moon → Menkar RA 144.0024 89×φ golden (84.43)
+- **Orcus**
+  - same body: S Orcus → J Orcus Dec 14.4964 14.4444 ninth (loose) — also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - star rows: J Sadalsuud → J Orcus RA 170.0084 170 whole (33.53) — also: 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+    - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
+  - star rows: J Sirius → J Orcus Dec 19.0175 19 whole (1.62) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
+    - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
 
 ## 2 Dashel Drasher / Rex Dingle
 ### L1 same bodies
@@ -498,10 +450,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Pluto** (same body: S Pluto → H Pluto RA 16.6677 16.6667 ninth (99.12))
   - top rows: S Sun → H Pluto Dec 0.2553 conj (2.22)
   - other chart, top rows: S Moon → J Pluto Dec 9.0000 9 whole (99.85)
-  - other chart, star rows: J Antares → J Pluto RA 0.1618 conj (79.59)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - other chart, star rows: J Deneb → J Pluto Dec 55.0073 55 whole (40.12)
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - other chart, star rows: J Sirius → J Pluto Dec 6.9905 7 whole (27.56)
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
 - **H Haumea** (same body: S Haumea → H Haumea RA 8.9793 9 whole (loose))
@@ -521,8 +469,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
 - **H Makemake** (same body: S Makemake → H Makemake Dec 4.9807 5 whole (0.12))
   - top rows: S Moon → H Makemake RA 1.2469 conj (2.85)
-  - star rows: H Deneb → H Makemake Dec 17.9940 18 whole (49.00)
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: H Nunki → H Makemake RA 92.9976 93 whole (77.82)
     - source line: S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
   - star rows: H Sirius → H Makemake Dec 44.0052 44 whole (54.97)
@@ -599,8 +545,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Ketu** (same body: S Ketu → J Ketu Dec 12.9532 8×φ golden (loose))
   - star rows: J Rigel → J Ketu RA 95.0160 95 whole (4.01)
     - source line: S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
-  - other chart, star rows: H Antares → H Ketu RA 156.9609 97×φ golden (41.25)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - other chart, star rows: H Menkar → H Ketu RA 1.2472 conj (2.84)
     - source line: S Sun → Menkar RA 100.0021 100 whole (79.93)
     - source line: S Moon → Menkar RA 144.0024 89×φ golden (84.43)
@@ -612,14 +556,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **1. same body on both charts**: none
 - **2. one body in both planes**: none
 - **3. runner number = sky number**
-  - 16 whole — also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
-    - H Antares → H Neptune Dec 16.0151 16 whole (6.04) = S Moon → Sirius Dec 15.9996 16 whole (96.36)
   - 111.111 ninth — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
     - J Denebola → J Sun RA 111.1754 111.111 ninth (89.47) = S Sun → Rahu RA 111.1604 111.111 ninth (91.93)
-  - 7 whole — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
-    - J Sirius → J Pluto Dec 6.9905 7 whole (27.56) = S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - 46 whole — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
-    - J Sirius → J Transpluto RA 45.9835 46 whole (3.08) = S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - 100 whole — also: 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
     - J Spica → J Neptune RA 99.9824 100 whole (1.41) = S Sun → Menkar RA 100.0021 100 whole (79.93)
 - **4. circle divisions**
@@ -629,8 +567,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Makemake → H Makemake Dec 4.9807 5 whole (0.12)
   - 1 = 360/360 — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
     - S Gonggong → H Gonggong RA 0.9760 1 whole (loose)
-  - 18 = 360/20 — also: 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
-    - H Deneb → H Makemake Dec 17.9940 18 whole (49.00)
   - 36 = 360/10 — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden
     - H El Nath → H Orcus Dec 36.0053 36 whole (54.06)
   - 3 = 360/120 — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
@@ -641,8 +577,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Moon → J Pluto Dec 9.0000 9 whole (99.85)
   - 20 = 360/18 — also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
     - J Alhena → J Juno Dec 20.0115 20 whole (17.89)
-  - 12 = 360/30 — also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
-    - J Antares → J Ceres Dec 11.9934 12 whole (45.16)
   - 30 = 360/12 — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
     - J Denebola → J Chiron Dec 30.0117 30 whole (17.29)
   - 30 = 360/12 — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
@@ -651,21 +585,19 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Spica → J Mars Dec 5.9903 6 whole (26.53)
   - 10 = 360/36 — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
     - J Spica → J Pallas Dec 10.0149 10 whole (6.50)
-  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
     - J Vindemiatrix → J Rahu Dec 3.9882 4 whole (16.63)
 - **5. same number in more than one place**
   - 9 whole — also: 6 Lieutenant Rocco / Tom Scudamore
     - S Haumea → H Haumea RA 8.9793 9 whole (loose)
     - S Moon → J Pluto Dec 9.0000 9 whole (99.85)
-  - 23 whole — also: 1 Bristol De Mai / Sam Twiston-Davies
-    - H Jupiter → H star Deneb Dec 23.0012 23 whole (88.01)
-    - S Moon → H Jupiter Dec 22.9998 23 whole (97.94)
-    - H Deneb → H Jupiter Dec 23.0012 23 whole (88.01)
-    - H Spica → H Rahu RA 23.0142 23 whole (8.56)
   - 39 whole — only
     - H Jupiter → H star Sirius Dec 38.9979 39 whole (80.41)
     - S Sirius → H Jupiter Dec 38.9994 39 whole (94.34)
     - J Nunki → J Quaoar RA 38.9871 39 whole (12.68)
+  - 23 whole — also: 1 Bristol De Mai / Sam Twiston-Davies
+    - S Moon → H Jupiter Dec 22.9998 23 whole (97.94)
+    - H Spica → H Rahu RA 23.0142 23 whole (8.56)
   - 149 whole — only
     - H Denebola → H Sun RA 148.9951 149 whole (57.00)
     - J Denebola → J Jupiter RA 149.0072 149 whole (41.04)
@@ -676,7 +608,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 28 whole — also: 7 Two For Gold / David Bass
     - H El Nath → H Sedna RA 27.9817 28 whole (0.68)
     - H Spica → H Ketu Dec 28.0134 28 whole (10.90)
-  - 3 whole — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
+  - 3 whole — also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
     - H Menkar → H Sedna Dec 2.9971 3 whole (73.45)
     - S Eris → J Eris RA 3.0081 3 whole (35.29)
   - 44 whole — only
@@ -729,10 +661,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Pluto → H Pluto RA 16.6677 16.6667 ninth (99.12) — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
   - top rows: S Sun → H Pluto Dec 0.2553 conj (2.22) — also: 7 Two For Gold / David Bass
   - top rows: S Moon → J Pluto Dec 9.0000 9 whole (99.85) — only
-  - star rows: J Antares → J Pluto RA 0.1618 conj (79.59) — also: 3 Master Tommytucker / Harry Cobden
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: J Deneb → J Pluto Dec 55.0073 55 whole (40.12) — also: 1 Bristol De Mai / Sam Twiston-Davies
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: J Sirius → J Pluto Dec 6.9905 7 whole (27.56) — also: 1 Bristol De Mai / Sam Twiston-Davies, 6 Lieutenant Rocco / Tom Scudamore
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
 - **Haumea**
@@ -754,8 +682,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Makemake**
   - same body: S Makemake → H Makemake Dec 4.9807 5 whole (0.12) — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
   - top rows: S Moon → H Makemake RA 1.2469 conj (2.85) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
-  - star rows: H Deneb → H Makemake Dec 17.9940 18 whole (49.00) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: H Nunki → H Makemake RA 92.9976 93 whole (77.82) — also: 3 Master Tommytucker / Harry Cobden
     - source line: S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
   - star rows: H Sirius → H Makemake Dec 44.0052 44 whole (54.97) — also: 7 Two For Gold / David Bass
@@ -790,12 +716,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Sirius → J Transpluto RA 45.9835 46 whole (3.08) — only
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
 - **Jupiter**
-  - T1: H Jupiter → H star Deneb Dec 23.0012 23 whole (88.01) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
-  - T1: H Jupiter → H star Sirius Dec 38.9979 39 whole (80.41) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - T1: H Jupiter → H star Sirius Dec 38.9979 39 whole (80.41) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
   - top rows: S Moon → H Jupiter Dec 22.9998 23 whole (97.94) — only
   - top rows: S Makemake → H Jupiter Dec 0.0266 conj (83.08) — also: 7 Two For Gold / David Bass
-  - star rows: H Deneb → H Jupiter Dec 23.0012 23 whole (88.01) — only
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: S Sirius → H Jupiter Dec 38.9994 39 whole (94.34) — only
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
   - star rows: J Denebola → J Jupiter RA 149.0072 149 whole (41.04) — also: 6 Lieutenant Rocco / Tom Scudamore
@@ -805,8 +728,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Neptune**
   - top rows: S Jupiter → H Neptune RA 0.5333 conj (41.53) — also: 7 Two For Gold / David Bass
   - top rows: S Jupiter → H Neptune Dec 0.1664 conj (19.84) — also: 7 Two For Gold / David Bass
-  - star rows: H Antares → H Neptune Dec 16.0151 16 whole (6.04) — only
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: H Denebola → H Neptune Dec 24.9879 25 whole (15.56) — also: 5 Itchy Feet / Gavin Sheehan
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - star rows: H Rigel → H Neptune RA 101.9589 63×φ golden (8.78) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden
@@ -819,30 +740,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
 - **Uranus**
   - top rows: S Moon → H Uranus RA 179.4755 10×φ^6 phi power (92.82) — also: 3 Master Tommytucker / Harry Cobden
-  - star rows: J Deneb → J Uranus RA 0.2769 conj (66.49) — also: 3 Master Tommytucker / Harry Cobden
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
-- **Juno**
-  - star rows: H Antares → H Juno RA 63.0154 63 whole (5.36) — also: 3 Master Tommytucker / Harry Cobden
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: H Deneb → H Juno RA 0.0151 conj (97.99) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
-  - star rows: J Alhena → J Juno Dec 20.0115 20 whole (17.89) — also: 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
-    - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
-  - star rows: J Rigel → J Juno RA 105.9825 106 whole (1.58) — also: 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
-- **Ketu**
-  - star rows: H Antares → H Ketu RA 156.9609 97×φ golden (41.25) — also: 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: H Menkar → H Ketu RA 1.2472 conj (2.84) — also: 7 Two For Gold / David Bass
-    - source line: S Sun → Menkar RA 100.0021 100 whole (79.93)
-    - source line: S Moon → Menkar RA 144.0024 89×φ golden (84.43)
-  - star rows: H Spica → H Ketu RA 156.9858 157 whole (8.56) — also: 7 Two For Gold / David Bass
-    - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
-  - star rows: H Spica → H Ketu Dec 28.0134 28 whole (10.90) — also: 7 Two For Gold / David Bass
-    - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
-  - same body: S Ketu → J Ketu Dec 12.9532 8×φ golden (loose) — also: 5 Itchy Feet / Gavin Sheehan
-  - star rows: J Rigel → J Ketu RA 95.0160 95 whole (4.01) — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
-    - source line: S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
 - **Eris**
   - star rows: H Denebola → H Eris RA 151.9825 152 whole (1.60) — also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
@@ -879,6 +776,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - star rows: J Nunki → J Orcus RA 147.0015 147 whole (85.51) — only
     - source line: S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
+- **Ketu**
+  - star rows: H Menkar → H Ketu RA 1.2472 conj (2.84) — also: 7 Two For Gold / David Bass
+    - source line: S Sun → Menkar RA 100.0021 100 whole (79.93)
+    - source line: S Moon → Menkar RA 144.0024 89×φ golden (84.43)
+  - star rows: H Spica → H Ketu RA 156.9858 157 whole (8.56) — also: 7 Two For Gold / David Bass
+    - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
+  - star rows: H Spica → H Ketu Dec 28.0134 28 whole (10.90) — also: 7 Two For Gold / David Bass
+    - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
+  - same body: S Ketu → J Ketu Dec 12.9532 8×φ golden (loose) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Rigel → J Ketu RA 95.0160 95 whole (4.01) — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+    - source line: S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
 - **Mars**
   - star rows: H Sadalsuud → H Mars RA 64.9820 65 whole (1.01) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
     - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
@@ -893,8 +801,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Pallas**
   - star rows: H Sadalsuud → H Pallas RA 80.9039 50×φ golden (86.81) — also: 7 Two For Gold / David Bass
     - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
-  - star rows: J Deneb → J Pallas RA 0.4715 conj (47.01) — also: 7 Two For Gold / David Bass
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: J Nunki → J Pallas RA 27.0121 27 whole (15.43) — only
     - source line: S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
   - star rows: J Rigel → J Pallas RA 127.8175 79×φ golden (60.37) — also: 3 Master Tommytucker / Harry Cobden
@@ -929,8 +835,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Ankaa → J Ceres RA 16.9909 17 whole (29.86) — also: 1 Bristol De Mai / Sam Twiston-Davies
     - source line: S Sun → Ankaa RA 61.0007 61 whole (92.80)
     - source line: S Moon → Ankaa RA 176.9962 177 whole (65.72)
-  - star rows: J Antares → J Ceres Dec 11.9934 12 whole (45.16) — also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: J Denebola → J Ceres Dec 29.0077 29 whole (37.92) — also: 1 Bristol De Mai / Sam Twiston-Davies
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - star rows: J El Nath → J Ceres RA 92.0002 92 whole (98.43) — also: 5 Itchy Feet / Gavin Sheehan
@@ -949,13 +853,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Menkar → J Mercury RA 142.0040 142 whole (63.74) — also: 7 Two For Gold / David Bass
     - source line: S Sun → Menkar RA 100.0021 100 whole (79.93)
     - source line: S Moon → Menkar RA 144.0024 89×φ golden (84.43)
-- **Chiron**
-  - star rows: J Antares → J Chiron Dec 10.9894 11 whole (22.29) — only
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: J Denebola → J Chiron Dec 30.0117 30 whole (17.29) — only
-    - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
+- **Juno**
+  - star rows: J Alhena → J Juno Dec 20.0115 20 whole (17.89) — also: 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+    - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
+  - star rows: J Rigel → J Juno RA 105.9825 106 whole (1.58) — also: 6 Lieutenant Rocco / Tom Scudamore
+    - source line: S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
 - **Saturn**
   - star rows: J Denebola → J Saturn RA 163.4125 101×φ golden (52.24) — only
+    - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
+- **Chiron**
+  - star rows: J Denebola → J Chiron Dec 30.0117 30 whole (17.29) — only
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
 - **Quaoar**
   - star rows: J Nunki → J Quaoar RA 38.9871 39 whole (12.68) — only
@@ -985,16 +892,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Sun** (same body: S Sun → H Sun Dec 18.7767 18.8889 ninth (loose))
   - sky line to Sun: S Moon → Sun RA 115.9955 116 whole (59.91)
   - top rows: S Moon → H Sun Dec 0.0773 conj (55.10)
-  - star rows: H Antares → H Sun RA 111.1557 111.111 ninth (92.71)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - other chart, star rows: J Alhena → J Sun RA 121.0015 121 whole (85.70)
     - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
-  - other chart, star rows: J Deneb → J Sun Dec 60.9930 61 whole (42.17)
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - other chart, star rows: J Sirius → J Sun Dec 1.0053 1 whole (54.34)
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
 - **H Mercury** (same body: S Mercury → H Mercury RA 69.9993 70 whole (93.26); S Mercury → H Mercury Dec 24.1889 24.14 silver (loose))
-  - sky line to Mercury: S Sun → Mercury RA 1.2413 conj (2.97)
   - other chart, same body: S Mercury → J Mercury RA 61.8649 100×φ^-1 phi power (loose)
   - other chart, top rows: S Sun → J Mercury RA 63.1062 39×φ golden (83.02)
   - other chart, star rows: J Vindemiatrix → J Mercury RA 46.9235 29×φ golden (96.86)
@@ -1008,12 +910,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Vindemiatrix → H Saturn RA 0.7793 conj (23.08)
     - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
   - other chart, same body: S Saturn → J Saturn Dec 25.9807 26 whole (0.13)
-  - other chart, star rows: J Antares → J Saturn RA 140.7648 87×φ golden (76.22)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - other chart, star rows: J El Nath → J Saturn Dec 20.0024 20 whole (77.09)
     - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
 - **H Pallas** (same body: S Pallas → H Pallas RA 57.9952 58 whole (57.68))
-  - sky line to Pallas: S Jupiter → Pallas Dec 0.2217 conj (6.80)
   - star rows: H Ankaa → H Pallas RA 68.0121 68 whole (15.45)
     - source line: S Sun → Ankaa RA 61.0007 61 whole (92.80)
     - source line: S Moon → Ankaa RA 176.9962 177 whole (65.72)
@@ -1035,10 +934,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
   - star rows: H Sadalsuud → H Juno RA 152.0746 94×φ golden (13.32)
     - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
-  - other chart, star rows: J Antares → J Juno RA 30.0077 30 whole (38.10)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - other chart, star rows: J Deneb → J Juno RA 93.0186 93 whole (0.49)
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - other chart, star rows: J Spica → J Juno Dec 3.9861 4 whole (9.34)
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
 - **H Sedna** (same body: S Sedna → H Sedna Dec 1.3317 1.33333 ninth (loose))
@@ -1063,7 +958,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Ankaa RA 176.9962 177 whole (65.72)
   - other chart, T2: J Jupiter → J Transpluto Dec 18.9950 19 whole (56.24)
 - **J Mercury** (same body: S Mercury → J Mercury RA 61.8649 100×φ^-1 phi power (loose))
-  - sky line to Mercury: S Sun → Mercury RA 1.2413 conj (2.97)
   - top rows: S Sun → J Mercury RA 63.1062 39×φ golden (83.02)
   - star rows: J Vindemiatrix → J Mercury RA 46.9235 29×φ golden (96.86)
     - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
@@ -1079,8 +973,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Vindemiatrix → H Mars Dec 16.1847 10×φ^1 phi power (89.60)
     - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
 - **J Saturn** (same body: S Saturn → J Saturn Dec 25.9807 26 whole (0.13))
-  - star rows: J Antares → J Saturn RA 140.7648 87×φ golden (76.22)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: J El Nath → J Saturn Dec 20.0024 20 whole (77.09)
     - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
   - other chart, same body: S Saturn → H Saturn RA 122.1318 122.222 ninth (loose)
@@ -1089,10 +981,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
 - **J Ceres** (same body: S Ceres → J Ceres Dec 2.0008 2 whole (91.75))
 - **J Eris** (same body: S Eris → J Eris Dec 5.9937 6 whole (47.20))
-  - star rows: J Antares → J Eris RA 135.9382 84×φ golden (7.73)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: J Antares → J Eris Dec 18.9939 19 whole (48.59)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: J Denebola → J Eris Dec 22.0101 22 whole (24.49)
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - star rows: J Sirius → J Eris RA 78.0062 78 whole (47.54)
@@ -1117,8 +1005,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
 - **J Orcus** (same body: S Orcus → J Orcus RA 19.0084 19 whole (33.71); S Orcus → J Orcus Dec 11.3233 7×φ golden (82.81))
   - top rows: S Moon → J Orcus Dec 0.1401 conj (28.40)
-  - other chart, star rows: H Deneb → H Orcus Dec 51.9826 52 whole (1.66)
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - other chart, star rows: H Sirius → H Orcus Dec 10.0170 10 whole (2.20)
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
 ### L3 matches
@@ -1149,14 +1035,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Saturn → H Saturn RA 122.1318 122.222 ninth (loose) = S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
   - 34 whole — also: 5 Itchy Feet / Gavin Sheehan
     - S Jupiter → H Ketu Dec 34.0044 34 whole (60.61) = S Sun → Denebola Dec 33.9942 34 whole (50.13)
-  - 111.111 ninth — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore
-    - H Antares → H Sun RA 111.1557 111.111 ninth (92.71) = S Sun → Rahu RA 111.1604 111.111 ninth (91.93)
   - 33×φ golden — only
     - S Juno → J Jupiter RA 53.3926 33×φ golden (84.82) = S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
-  - 84×φ golden — also: 1 Bristol De Mai / Sam Twiston-Davies
-    - J Antares → J Eris RA 135.9382 84×φ golden (7.73) = S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
-  - 61 whole — only
-    - J Deneb → J Sun Dec 60.9930 61 whole (42.17) = S Sun → Ankaa RA 61.0007 61 whole (92.80)
   - 111.111 ninth — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore
     - J El Nath → J Ketu RA 111.1099 111.111 ninth (99.80) = S Sun → Rahu RA 111.1604 111.111 ninth (91.93)
   - 133.333 ninth — also: 7 Two For Gold / David Bass
@@ -1164,14 +1044,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 133.333 ninth — also: 7 Two For Gold / David Bass
     - J Nunki → J Rahu RA 133.3450 133.333 ninth (98.60) = S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
 - **4. circle divisions**
-  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
     - S Transpluto → H Transpluto RA 4.0075 4 whole (38.87)
-  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
     - S Sun → H Rahu Dec 3.9955 4 whole (59.83)
   - 20 = 360/18 — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
     - S Mercury → H Jupiter Dec 20.0000 20 whole (99.64)
-  - 3 = 360/120 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
-    - H Antares → H Rahu Dec 3.0113 3 whole (19.08)
   - 30 = 360/12 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
     - H Nunki → H Jupiter Dec 30.0101 30 whole (24.36)
   - 3 = 360/120 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
@@ -1194,10 +1072,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Sun → J Uranus RA 6.0051 6 whole (55.58)
   - 36 = 360/10 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle
     - S Eris → J Jupiter RA 36.0040 36 whole (63.72)
-  - 30 = 360/12 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
-    - J Antares → J Juno RA 30.0077 30 whole (38.10)
-  - 60 = 360/6 — also: 5 Itchy Feet / Gavin Sheehan
-    - J Deneb → J Quaoar Dec 59.9958 60 whole (62.40)
   - 45 = 360/8 — only
     - J Denebola → J Venus RA 44.9802 45 whole (0.01)
   - 20 = 360/18 — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
@@ -1210,7 +1084,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Sirius → J Quaoar Dec 2.0024 2 whole (77.03)
   - 1 = 360/360 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
     - J Spica → J Pallas Dec 1.0161 1 whole (3.84)
-  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
     - J Spica → J Juno Dec 3.9861 4 whole (9.34)
 - **5. same number in more than one place**
   - 18.8889 ninth — only
@@ -1234,17 +1108,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Moon → H Vesta Dec 18.9959 19 whole (63.21)
     - S Orcus → J Orcus RA 19.0084 19 whole (33.71)
     - J Jupiter → J Transpluto Dec 18.9950 19 whole (56.24)
-    - J Antares → J Eris Dec 18.9939 19 whole (48.59)
   - 20 whole — also: 6 Lieutenant Rocco / Tom Scudamore
     - S Mercury → H Jupiter Dec 20.0000 20 whole (99.64)
     - J El Nath → J Saturn Dec 20.0024 20 whole (77.09)
-  - 111.111 ninth — also: 6 Lieutenant Rocco / Tom Scudamore
-    - H Antares → H Sun RA 111.1557 111.111 ninth (92.71)
-    - J El Nath → J Ketu RA 111.1099 111.111 ninth (99.80)
-  - 3 whole — also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
-    - H Antares → H Rahu Dec 3.0113 3 whole (19.08)
-    - H Sirius → H Vesta Dec 2.9981 3 whole (81.94)
-    - S Sedna → J Sedna Dec 3.0141 3 whole (8.73)
   - 107 whole — only
     - H Menkar → H Pallas RA 107.0134 107 whole (10.77)
     - H Rigel → H Neptune RA 107.0125 107 whole (14.08)
@@ -1254,10 +1120,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 30 whole — also: 2 Dashel Drasher / Rex Dingle
     - H Nunki → H Jupiter Dec 30.0101 30 whole (24.36)
     - H Spica → H Haumea Dec 29.9826 30 whole (1.65)
-    - J Antares → J Juno RA 30.0077 30 whole (38.10)
   - 10×φ^1 phi power — only
     - H Sirius → H Uranus Dec 16.1807 10×φ^1 phi power (99.12)
     - H Vindemiatrix → H Mars Dec 16.1847 10×φ^1 phi power (89.60)
+  - 3 whole — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore
+    - H Sirius → H Vesta Dec 2.9981 3 whole (81.94)
+    - S Sedna → J Sedna Dec 3.0141 3 whole (8.73)
   - 1 whole — also: 7 Two For Gold / David Bass
     - H Spica → H Neptune Dec 1.0062 1 whole (47.87)
     - J Sirius → J Sun Dec 1.0053 1 whole (54.34)
@@ -1272,9 +1140,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 66 whole — only
     - J Jupiter → J star Nunki RA 65.9949 66 whole (55.16)
     - S Nunki → J Jupiter RA 65.9975 66 whole (76.53)
-  - 39×φ golden — only
-    - S Sun → J Mercury RA 63.1062 39×φ golden (83.02)
-    - J Deneb → J Gonggong Dec 63.1086 39×φ golden (69.87)
   - 55 whole — only
     - J Ankaa → J Uranus RA 55.0023 55 whole (78.04)
     - J Sirius → J Sedna RA 54.9931 55 whole (42.61)
@@ -1285,21 +1150,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Sun**
   - same body: S Sun → H Sun Dec 18.7767 18.8889 ninth (loose) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
   - top rows: S Moon → H Sun Dec 0.0773 conj (55.10) — also: 5 Itchy Feet / Gavin Sheehan
-  - star rows: H Antares → H Sun RA 111.1557 111.111 ninth (92.71) — only
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: J Alhena → J Sun RA 121.0015 121 whole (85.70) — also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
     - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
-  - star rows: J Deneb → J Sun Dec 60.9930 61 whole (42.17) — only
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: J Sirius → J Sun Dec 1.0053 1 whole (54.34) — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
 - **Mercury**
   - same body: S Mercury → H Mercury RA 69.9993 70 whole (93.26) — also: 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Sun → Mercury RA 1.2413 conj (2.97)
   - same body: S Mercury → H Mercury Dec 24.1889 24.14 silver (loose) — also: 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Sun → Mercury RA 1.2413 conj (2.97)
   - same body: S Mercury → J Mercury RA 61.8649 100×φ^-1 phi power (loose) — also: 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Sun → Mercury RA 1.2413 conj (2.97)
   - top rows: S Sun → J Mercury RA 63.1062 39×φ golden (83.02) — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
   - star rows: J Vindemiatrix → J Mercury RA 46.9235 29×φ golden (96.86) — also: 1 Bristol De Mai / Sam Twiston-Davies, 7 Two For Gold / David Bass
     - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
@@ -1315,13 +1173,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Vindemiatrix → H Saturn RA 0.7793 conj (23.08) — also: 6 Lieutenant Rocco / Tom Scudamore
     - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
   - same body: S Saturn → J Saturn Dec 25.9807 26 whole (0.13) — also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
-  - star rows: J Antares → J Saturn RA 140.7648 87×φ golden (76.22) — only
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: J El Nath → J Saturn Dec 20.0024 20 whole (77.09) — also: 7 Two For Gold / David Bass
     - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
 - **Pallas**
   - same body: S Pallas → H Pallas RA 57.9952 58 whole (57.68) — also: 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Jupiter → Pallas Dec 0.2217 conj (6.80)
   - star rows: H Ankaa → H Pallas RA 68.0121 68 whole (15.45) — also: 5 Itchy Feet / Gavin Sheehan
     - source line: S Sun → Ankaa RA 61.0007 61 whole (92.80)
     - source line: S Moon → Ankaa RA 176.9962 177 whole (65.72)
@@ -1344,10 +1199,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
   - star rows: H Sadalsuud → H Juno RA 152.0746 94×φ golden (13.32) — also: 6 Lieutenant Rocco / Tom Scudamore
     - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
-  - star rows: J Antares → J Juno RA 30.0077 30 whole (38.10) — also: 2 Dashel Drasher / Rex Dingle
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: J Deneb → J Juno RA 93.0186 93 whole (0.49) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: J Spica → J Juno Dec 3.9861 4 whole (9.34) — also: 7 Two For Gold / David Bass
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
 - **Sedna**
@@ -1383,8 +1234,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Uranus**
   - top rows: S Sun → H Uranus Dec 18.8823 18.8889 ninth (95.28) — only
   - top rows: S Moon → H Uranus Dec 0.1829 conj (15.24) — also: 2 Dashel Drasher / Rex Dingle
-  - star rows: H Antares → H Uranus Dec 25.8891 16×φ golden (96.79) — only
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: H Sirius → H Uranus Dec 16.1807 10×φ^1 phi power (99.12) — also: 5 Itchy Feet / Gavin Sheehan
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
   - top rows: S Sun → J Uranus RA 6.0051 6 whole (55.58) — only
@@ -1392,8 +1241,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Ankaa → J Uranus RA 55.0023 55 whole (78.04) — also: 1 Bristol De Mai / Sam Twiston-Davies
     - source line: S Sun → Ankaa RA 61.0007 61 whole (92.80)
     - source line: S Moon → Ankaa RA 176.9962 177 whole (65.72)
-  - star rows: J Deneb → J Uranus RA 1.2171 conj (3.56) — also: 2 Dashel Drasher / Rex Dingle
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: J El Nath → J Uranus RA 130.0037 130 whole (66.03) — also: 6 Lieutenant Rocco / Tom Scudamore
     - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
   - star rows: J Menkar → J Uranus RA 94.0011 94 whole (89.54) — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
@@ -1402,8 +1249,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Vesta**
   - top rows: S Sun → H Vesta Dec 0.2965 conj (0.01) — only
   - top rows: S Moon → H Vesta Dec 18.9959 19 whole (63.21) — only
-  - star rows: H Deneb → H Vesta Dec 64.9977 65 whole (78.44) — also: 7 Two For Gold / David Bass
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: H Denebola → H Vesta RA 118.1280 73×φ golden (41.57) — also: 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - star rows: H Sadalsuud → H Vesta Dec 14.1485 14.14 sqrt2 (82.85) — also: 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
@@ -1418,8 +1263,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Ankaa → H Rahu Dec 18.8887 18.8889 ninth (99.85) — also: 7 Two For Gold / David Bass
     - source line: S Sun → Ankaa RA 61.0007 61 whole (92.80)
     - source line: S Moon → Ankaa RA 176.9962 177 whole (65.72)
-  - star rows: H Antares → H Rahu Dec 3.0113 3 whole (19.08) — also: 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: H Denebola → H Rahu Dec 37.9902 38 whole (25.91) — also: 5 Itchy Feet / Gavin Sheehan
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - star rows: H Menkar → H Rahu Dec 27.5082 17×φ golden (90.39) — only
@@ -1431,8 +1274,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → H Makemake RA 0.0754 conj (90.20) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
   - star rows: H Rigel → H Makemake RA 111.0154 111 whole (5.29) — also: 1 Bristol De Mai / Sam Twiston-Davies
     - source line: S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
-  - star rows: J Deneb → J Makemake Dec 13.3381 13.3333 ninth (94.25) — also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: J Menkar → J Makemake RA 133.3209 133.333 ninth (98.51) — only
     - source line: S Sun → Menkar RA 100.0021 100 whole (79.93)
     - source line: S Moon → Menkar RA 144.0024 89×φ golden (84.43)
@@ -1444,10 +1285,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
 - **Jupiter**
   - top rows: S Mercury → H Jupiter Dec 20.0000 20 whole (99.64) — also: 5 Itchy Feet / Gavin Sheehan
-    - source line: S Sun → Mercury RA 1.2413 conj (2.97)
   - star rows: H Nunki → H Jupiter Dec 30.0101 30 whole (24.36) — also: 5 Itchy Feet / Gavin Sheehan
     - source line: S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
-  - T2: J Jupiter → J star Nunki RA 65.9949 66 whole (55.16) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - T2: J Jupiter → J star Nunki RA 65.9949 66 whole (55.16) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
   - top rows: S Juno → J Jupiter RA 53.3926 33×φ golden (84.82) — only
   - top rows: S Eris → J Jupiter RA 36.0040 36 whole (63.72) — also: 1 Bristol De Mai / Sam Twiston-Davies
   - top rows: S Sedna → J Jupiter Dec 13.9983 14 whole (83.91) — only
@@ -1465,18 +1305,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
   - star rows: H Spica → H Quaoar Dec 4.4442 4.44444 ninth (97.54) — only
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
-  - star rows: J Deneb → J Quaoar Dec 59.9958 60 whole (62.40) — only
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: J Sirius → J Quaoar Dec 2.0024 2 whole (77.03) — only
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
-- **Orcus**
-  - star rows: H Deneb → H Orcus Dec 51.9826 52 whole (1.66) — also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
-  - star rows: H Sirius → H Orcus Dec 10.0170 10 whole (2.20) — also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan
-    - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
-  - same body: S Orcus → J Orcus RA 19.0084 19 whole (33.71) — also: 1 Bristol De Mai / Sam Twiston-Davies, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
-  - same body: S Orcus → J Orcus Dec 11.3233 7×φ golden (82.81) — also: 1 Bristol De Mai / Sam Twiston-Davies, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
-  - top rows: S Moon → J Orcus Dec 0.1401 conj (28.40) — also: 2 Dashel Drasher / Rex Dingle
 - **Mars**
   - star rows: H Denebola → H Mars RA 173.1190 107×φ golden (44.96) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
@@ -1492,8 +1322,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - star rows: H Rigel → H Pluto RA 161.0178 161 whole (1.21) — only
     - source line: S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
-  - star rows: J Antares → J Pluto RA 0.2575 conj (68.62) — also: 2 Dashel Drasher / Rex Dingle
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: J Rigel → J Pluto Dec 1.9898 2 whole (24.04) — only
     - source line: S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
 - **Chiron**
@@ -1503,8 +1331,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
   - star rows: H Spica → H Chiron RA 131.0786 81×φ golden (20.09) — also: 7 Two For Gold / David Bass
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
-  - star rows: J Deneb → J Chiron RA 79.9894 80 whole (22.05) — also: 5 Itchy Feet / Gavin Sheehan
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
+- **Orcus**
+  - star rows: H Sirius → H Orcus Dec 10.0170 10 whole (2.20) — also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan
+    - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
+  - same body: S Orcus → J Orcus RA 19.0084 19 whole (33.71) — also: 1 Bristol De Mai / Sam Twiston-Davies, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - same body: S Orcus → J Orcus Dec 11.3233 7×φ golden (82.81) — also: 1 Bristol De Mai / Sam Twiston-Davies, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - top rows: S Moon → J Orcus Dec 0.1401 conj (28.40) — also: 2 Dashel Drasher / Rex Dingle
 - **Haumea**
   - star rows: H Spica → H Haumea Dec 29.9826 30 whole (1.65) — also: 1 Bristol De Mai / Sam Twiston-Davies
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
@@ -1521,10 +1353,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Vindemiatrix → H Eris Dec 14.9865 15 whole (10.45) — also: 5 Itchy Feet / Gavin Sheehan
     - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
   - same body: S Eris → J Eris Dec 5.9937 6 whole (47.20) — also: 2 Dashel Drasher / Rex Dingle
-  - star rows: J Antares → J Eris RA 135.9382 84×φ golden (7.73) — also: 1 Bristol De Mai / Sam Twiston-Davies
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: J Antares → J Eris Dec 18.9939 19 whole (48.59) — also: 1 Bristol De Mai / Sam Twiston-Davies
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: J Denebola → J Eris Dec 22.0101 22 whole (24.49) — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - star rows: J Sirius → J Eris RA 78.0062 78 whole (47.54) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
@@ -1535,8 +1363,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Ceres → J Ceres Dec 2.0008 2 whole (91.75) — also: 1 Bristol De Mai / Sam Twiston-Davies
 - **Gonggong**
   - top rows: S Moon → J Gonggong RA 141.4192 141.4 sqrt2 (99.40) — also: 2 Dashel Drasher / Rex Dingle
-  - star rows: J Deneb → J Gonggong Dec 63.1086 39×φ golden (69.87) — only
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: J Denebola → J Gonggong RA 153.7315 95×φ golden (18.88) — also: 2 Dashel Drasher / Rex Dingle
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
 
@@ -1562,26 +1388,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Quaoar → J Quaoar Dec 1.9935 2 whole (45.31)
 ### L2 what lands on each same body
 - **H Mercury** (same body: S Mercury → H Mercury RA 122.4140 122.222 ninth (loose))
-  - sky line to Mercury: S Sun → Mercury RA 1.2413 conj (2.97)
   - star rows: H Spica → H Mercury Dec 35.0170 35 whole (2.29)
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
-  - other chart, star rows: J Deneb → J Mercury RA 166.6220 166.667 ninth (96.17)
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - other chart, star rows: J Spica → J Mercury Dec 34.0004 34 whole (95.61)
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
 - **H Venus** (same body: S Venus → H Venus Dec 18.7918 18.8889 ninth (loose))
   - top rows: S Sun → H Venus Dec 21.9958 22 whole (62.31)
-  - star rows: H Antares → H Venus RA 123.0058 123 whole (50.32)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: H Antares → H Venus Dec 29.0034 29 whole (69.15)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: H Deneb → H Venus RA 60.0038 60 whole (65.58)
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: H Denebola → H Venus Dec 12.0008 12 whole (92.36)
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
 - **H Jupiter** (same body: S Jupiter → H Jupiter Dec 33.3007 33.3333 ninth (loose))
   - top rows: S Mercury → H Jupiter Dec 39.0035 39 whole (67.73)
-    - source line: S Sun → Mercury RA 1.2413 conj (2.97)
   - star rows: H Nunki → H Jupiter Dec 49.0133 49 whole (11.06)
     - source line: S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
   - other chart, top rows: S Neptune → J Jupiter Dec 13.9995 14 whole (95.47)
@@ -1599,13 +1415,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J El Nath → J Neptune RA 152.0664 94×φ golden (1.24)
     - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
 - **H Pallas** (same body: S Pallas → H Pallas RA 154.8597 155.556 ninth (loose))
-  - sky line to Pallas: S Jupiter → Pallas Dec 0.2217 conj (6.80)
   - star rows: H Alhena → H Pallas RA 51.9838 52 whole (3.56)
     - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
   - star rows: H Spica → H Pallas Dec 24.2727 15×φ golden (86.63)
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
   - other chart, same body: S Pallas → J Pallas RA 88.9637 55×φ golden (loose)
-  - other chart, T2: J Jupiter → J Pallas RA 106.7922 66×φ golden (88.08)
   - other chart, star rows: J Ankaa → J Pallas RA 98.9853 99 whole (7.07)
     - source line: S Sun → Ankaa RA 61.0007 61 whole (92.80)
     - source line: S Moon → Ankaa RA 176.9962 177 whole (65.72)
@@ -1619,8 +1433,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Jupiter → H Rahu Dec 0.2244 conj (6.36)
   - star rows: H El Nath → H Rahu RA 124.5603 77×φ golden (1.60)
     - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
-  - other chart, star rows: J Antares → J Rahu Dec 2.9949 3 whole (55.68)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - other chart, star rows: J Denebola → J Rahu Dec 38.0118 38 whole (16.95)
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
 - **H Transpluto** (same body: S Transpluto → H Transpluto Dec 1.2286 1.22222 ninth (loose))
@@ -1670,15 +1482,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
 - **J Chiron** (same body: S Chiron → J Chiron RA 121.9110 122.222 ninth (loose))
   - other chart, top rows: S Moon → H Chiron Dec 0.0004 conj (99.75)
-  - other chart, star rows: H Deneb → H Chiron Dec 46.0017 46 whole (83.28)
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - other chart, star rows: H Sirius → H Chiron Dec 15.9973 16 whole (75.02)
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
   - other chart, star rows: H Vindemiatrix → H Chiron RA 150.4962 93×φ golden (17.06)
     - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
 - **J Pallas** (same body: S Pallas → J Pallas RA 88.9637 55×φ golden (loose))
-  - sky line to Pallas: S Jupiter → Pallas Dec 0.2217 conj (6.80)
-  - T2: J Jupiter → J Pallas RA 106.7922 66×φ golden (88.08)
   - star rows: J Ankaa → J Pallas RA 98.9853 99 whole (7.07)
     - source line: S Sun → Ankaa RA 61.0007 61 whole (92.80)
     - source line: S Moon → Ankaa RA 176.9962 177 whole (65.72)
@@ -1707,10 +1515,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Alhena → J Haumea RA 89.0027 89 whole (74.41)
     - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
 - **J Makemake** (same body: S Makemake → J Makemake RA 28.9862 29 whole (9.57))
-  - other chart, star rows: H Antares → H Makemake RA 56.0048 56 whole (57.46)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - other chart, star rows: H Deneb → H Makemake RA 119.0069 119 whole (43.23)
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - other chart, star rows: H Spica → H Makemake Dec 37.9805 38 whole (0.05)
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
 - **J Quaoar** (same body: S Quaoar → J Quaoar Dec 1.9935 2 whole (45.31))
@@ -1726,9 +1530,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **3. runner number = sky number**
   - 122.222 ninth — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
     - S Mercury → H Mercury RA 122.4140 122.222 ninth (loose) = S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
-  - 46 whole — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
-    - H Deneb → H Chiron Dec 46.0017 46 whole (83.28) = S Moon → Deneb Dec 46.0059 46 whole (49.51)
-  - 16 whole — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
+  - 16 whole — also: 1 Bristol De Mai / Sam Twiston-Davies, 7 Two For Gold / David Bass
     - H Sirius → H Chiron Dec 15.9973 16 whole (75.02) = S Moon → Sirius Dec 15.9996 16 whole (96.36)
   - 122.222 ninth — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
     - S Chiron → J Chiron RA 121.9110 122.222 ninth (loose) = S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
@@ -1736,24 +1538,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Vesta → J Vesta RA 100.0299 100 whole (loose) = S Sun → Menkar RA 100.0021 100 whole (79.93)
   - 34 whole — also: 3 Master Tommytucker / Harry Cobden
     - S Jupiter → J Sun Dec 34.0020 34 whole (80.86) = S Sun → Denebola Dec 33.9942 34 whole (50.13)
-  - 7 whole — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
-    - J Alhena → J Sun Dec 7.0186 7 whole (0.50) = S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - 10×φ^5 phi power — also: 6 Lieutenant Rocco / Tom Scudamore
+  - 10×φ^5 phi power — only
     - J Denebola → J Uranus RA 110.9064 10×φ^5 phi power (98.30) = S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
-  - 16 whole — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
+  - 16 whole — also: 1 Bristol De Mai / Sam Twiston-Davies, 7 Two For Gold / David Bass
     - J El Nath → J Mars Dec 16.0068 16 whole (43.55) = S Moon → Sirius Dec 15.9996 16 whole (96.36)
-  - 10×φ^5 phi power — also: 6 Lieutenant Rocco / Tom Scudamore
+  - 10×φ^5 phi power — only
     - J El Nath → J Gonggong RA 110.9457 10×φ^5 phi power (84.77) = S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
-  - 7 whole — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
-    - J Nunki → J Gonggong Dec 7.0133 7 whole (11.23) = S Sun → Antares Dec 7.0061 7 whole (48.51)
   - 108 whole — only
     - J Rigel → J Gonggong RA 108.0080 108 whole (36.05) = S Moon → El Nath RA 107.9956 108 whole (60.79)
   - 34 whole — also: 3 Master Tommytucker / Harry Cobden
     - J Spica → J Mercury Dec 34.0004 34 whole (95.61) = S Sun → Denebola Dec 33.9942 34 whole (50.13)
 - **4. circle divisions**
-  - 60 = 360/6 — also: 3 Master Tommytucker / Harry Cobden
-    - H Deneb → H Venus RA 60.0038 60 whole (65.58)
-  - 12 = 360/30 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
+  - 12 = 360/30 — also: 1 Bristol De Mai / Sam Twiston-Davies, 7 Two For Gold / David Bass
     - H Denebola → H Venus Dec 12.0008 12 whole (92.36)
   - 1 = 360/360 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
     - H Menkar → H Uranus Dec 1.0040 1 whole (63.85)
@@ -1763,10 +1559,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Sirius → H Orcus Dec 9.0086 9 whole (32.21)
   - 2 = 360/180 — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
     - S Quaoar → J Quaoar Dec 1.9935 2 whole (45.31)
-  - 3 = 360/120 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
-    - J Antares → J Rahu Dec 2.9949 3 whole (55.68)
-  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
-    - J Deneb → J Ceres RA 4.0037 4 whole (66.05)
   - 2 = 360/180 — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
     - J Menkar → J Sedna RA 1.9999 2 whole (99.18)
   - 10 = 360/36 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
@@ -1785,37 +1577,26 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 19×φ golden — also: 1 Bristol De Mai / Sam Twiston-Davies
     - S Rahu → H Rahu Dec 30.7305 19×φ golden (loose)
     - S Ketu → H Ketu Dec 30.7305 19×φ golden (loose)
-  - 123 whole — only
-    - H Antares → H Venus RA 123.0058 123 whole (50.32)
-    - S Nunki → J Jupiter RA 123.0182 123 whole (0.81)
-  - 29 whole — also: 7 Two For Gold / David Bass
-    - H Antares → H Venus Dec 29.0034 29 whole (69.15)
-    - S Makemake → J Makemake RA 28.9862 29 whole (9.57)
-    - J Sadalsuud → J Sun Dec 28.9889 29 whole (19.85)
-    - J Sadalsuud → J Ketu Dec 29.0086 29 whole (32.25)
-  - 38 whole — only
-    - H Deneb → H Sedna Dec 37.9818 38 whole (0.78)
-    - H Spica → H Makemake Dec 37.9805 38 whole (0.05)
-    - J Denebola → J Rahu Dec 38.0118 38 whole (16.95)
-    - J El Nath → J Sedna RA 38.0005 38 whole (94.80)
-  - 53 whole — only
-    - H Deneb → H Orcus Dec 52.9904 53 whole (27.15)
-    - H Rigel → H Eris RA 53.0143 53 whole (8.05)
-  - 66×φ golden — only
-    - H Denebola → H Pluto RA 106.7881 66×φ golden (87.08)
-    - J Jupiter → J Pallas RA 106.7922 66×φ golden (88.08)
   - 174 whole — only
     - H Sadalsuud → H Orcus RA 174.0098 174 whole (26.16)
     - J El Nath → J Pallas RA 173.9822 174 whole (1.21)
   - 16 whole — also: 7 Two For Gold / David Bass
     - H Sirius → H Chiron Dec 15.9973 16 whole (75.02)
     - J El Nath → J Mars Dec 16.0068 16 whole (43.55)
+  - 38 whole — only
+    - H Spica → H Makemake Dec 37.9805 38 whole (0.05)
+    - J Denebola → J Rahu Dec 38.0118 38 whole (16.95)
+    - J El Nath → J Sedna RA 38.0005 38 whole (94.80)
   - 93×φ golden — only
     - H Vindemiatrix → H Chiron RA 150.4962 93×φ golden (17.06)
     - J Rigel → J Uranus RA 150.4571 93×φ golden (14.43)
   - 14 whole — also: 3 Master Tommytucker / Harry Cobden
     - H Vindemiatrix → H Eris Dec 13.9924 14 whole (38.57)
     - S Neptune → J Jupiter Dec 13.9995 14 whole (95.47)
+  - 29 whole — also: 7 Two For Gold / David Bass
+    - S Makemake → J Makemake RA 28.9862 29 whole (9.57)
+    - J Sadalsuud → J Sun Dec 28.9889 29 whole (19.85)
+    - J Sadalsuud → J Ketu Dec 29.0086 29 whole (32.25)
   - 2 whole — also: 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
     - S Quaoar → J Quaoar Dec 1.9935 2 whole (45.31)
     - J Menkar → J Sedna RA 1.9999 2 whole (99.18)
@@ -1825,13 +1606,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 7 whole — only
     - J Alhena → J Sun Dec 7.0186 7 whole (0.50)
     - J Nunki → J Gonggong Dec 7.0133 7 whole (11.23)
-  - 3 whole — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
-    - J Antares → J Rahu Dec 2.9949 3 whole (55.68)
-    - J Sadalsuud → J Eris Dec 2.9885 3 whole (18.25)
-  - 166.667 ninth — also: 7 Two For Gold / David Bass
-    - J Deneb → J Mercury RA 166.6220 166.667 ninth (96.17)
-    - J Spica → J Mars RA 166.6542 166.667 ninth (98.93)
-  - 10×φ^5 phi power — also: 6 Lieutenant Rocco / Tom Scudamore
+  - 10×φ^5 phi power — only
     - J Denebola → J Uranus RA 110.9064 10×φ^5 phi power (98.30)
     - J El Nath → J Gonggong RA 110.9457 10×φ^5 phi power (84.77)
   - 19 and 19×φ on H Ketu — only
@@ -1840,28 +1615,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 ### L4 every natal body
 - **Mercury**
   - same body: S Mercury → H Mercury RA 122.4140 122.222 ninth (loose) — also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Sun → Mercury RA 1.2413 conj (2.97)
   - star rows: H Spica → H Mercury Dec 35.0170 35 whole (2.29) — only
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
-  - star rows: J Deneb → J Mercury RA 166.6220 166.667 ninth (96.17) — only
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: J Spica → J Mercury Dec 34.0004 34 whole (95.61) — only
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
 - **Venus**
   - same body: S Venus → H Venus Dec 18.7918 18.8889 ninth (loose) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
   - top rows: S Sun → H Venus Dec 21.9958 22 whole (62.31) — only
-  - star rows: H Antares → H Venus RA 123.0058 123 whole (50.32) — also: 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: H Antares → H Venus Dec 29.0034 29 whole (69.15) — also: 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: H Deneb → H Venus RA 60.0038 60 whole (65.58) — only
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: H Denebola → H Venus Dec 12.0008 12 whole (92.36) — also: 3 Master Tommytucker / Harry Cobden
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
 - **Jupiter**
   - same body: S Jupiter → H Jupiter Dec 33.3007 33.3333 ninth (loose) — also: 1 Bristol De Mai / Sam Twiston-Davies, 7 Two For Gold / David Bass
   - top rows: S Mercury → H Jupiter Dec 39.0035 39 whole (67.73) — also: 3 Master Tommytucker / Harry Cobden
-    - source line: S Sun → Mercury RA 1.2413 conj (2.97)
   - star rows: H Nunki → H Jupiter Dec 49.0133 49 whole (11.06) — also: 3 Master Tommytucker / Harry Cobden
     - source line: S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
   - top rows: S Neptune → J Jupiter Dec 13.9995 14 whole (95.47) — only
@@ -1882,14 +1647,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
 - **Pallas**
   - same body: S Pallas → H Pallas RA 154.8597 155.556 ninth (loose) — also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Jupiter → Pallas Dec 0.2217 conj (6.80)
   - star rows: H Alhena → H Pallas RA 51.9838 52 whole (3.56) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden
     - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
   - star rows: H Spica → H Pallas Dec 24.2727 15×φ golden (86.63) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
   - same body: S Pallas → J Pallas RA 88.9637 55×φ golden (loose) — also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Jupiter → Pallas Dec 0.2217 conj (6.80)
-  - T2: J Jupiter → J Pallas RA 106.7922 66×φ golden (88.08) — also: 7 Two For Gold / David Bass
   - star rows: J Ankaa → J Pallas RA 98.9853 99 whole (7.07) — also: 3 Master Tommytucker / Harry Cobden
     - source line: S Sun → Ankaa RA 61.0007 61 whole (92.80)
     - source line: S Moon → Ankaa RA 176.9962 177 whole (65.72)
@@ -1904,8 +1666,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Jupiter → H Rahu Dec 0.2244 conj (6.36) — only
   - star rows: H El Nath → H Rahu RA 124.5603 77×φ golden (1.60) — only
     - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
-  - star rows: J Antares → J Rahu Dec 2.9949 3 whole (55.68) — also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: J Denebola → J Rahu Dec 38.0118 38 whole (16.95) — also: 3 Master Tommytucker / Harry Cobden
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
 - **Transpluto**
@@ -1952,8 +1712,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
 - **Chiron**
   - top rows: S Moon → H Chiron Dec 0.0004 conj (99.75) — only
-  - star rows: H Deneb → H Chiron Dec 46.0017 46 whole (83.28) — also: 3 Master Tommytucker / Harry Cobden
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: H Sirius → H Chiron Dec 15.9973 16 whole (75.02) — only
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
   - star rows: H Vindemiatrix → H Chiron RA 150.4962 93×φ golden (17.06) — only
@@ -1972,48 +1730,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Sadalsuud → H Pluto Dec 14.5632 9×φ golden (94.45) — only
     - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
   - same body: S Pluto → J Pluto RA 66.5983 66.6667 ninth (loose) — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
-- **Makemake**
-  - star rows: H Antares → H Makemake RA 56.0048 56 whole (57.46) — only
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: H Deneb → H Makemake RA 119.0069 119 whole (43.23) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
-  - star rows: H Spica → H Makemake Dec 37.9805 38 whole (0.05) — only
-    - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
-  - same body: S Makemake → J Makemake RA 28.9862 29 whole (9.57) — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
-- **Sedna**
-  - star rows: H Deneb → H Sedna Dec 37.9818 38 whole (0.78) — also: 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
-  - star rows: H Sirius → H Sedna Dec 24.0173 24 whole (1.82) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
-  - top rows: S Sun → J Sedna RA 97.9970 98 whole (72.12) — only
-  - star rows: J Ankaa → J Sedna RA 36.9964 37 whole (66.86) — also: 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
-    - source line: S Sun → Ankaa RA 61.0007 61 whole (92.80)
-    - source line: S Moon → Ankaa RA 176.9962 177 whole (65.72)
-  - star rows: J El Nath → J Sedna RA 38.0005 38 whole (94.80) — also: 2 Dashel Drasher / Rex Dingle
-    - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
-  - star rows: J Menkar → J Sedna RA 1.9999 2 whole (99.18) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
-    - source line: S Sun → Menkar RA 100.0021 100 whole (79.93)
-    - source line: S Moon → Menkar RA 144.0024 89×φ golden (84.43)
-  - star rows: J Nunki → J Sedna RA 119.7438 74×φ golden (50.91) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
-- **Orcus**
-  - star rows: H Deneb → H Orcus Dec 52.9904 53 whole (27.15) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
-  - star rows: H Sadalsuud → H Orcus RA 174.0098 174 whole (26.16) — also: 1 Bristol De Mai / Sam Twiston-Davies, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
-    - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
-  - star rows: H Sirius → H Orcus Dec 9.0086 9 whole (32.21) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden
-    - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
 - **Ceres**
   - star rows: H El Nath → H Ceres Dec 24.9941 25 whole (49.74) — also: 2 Dashel Drasher / Rex Dingle
     - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
   - star rows: H Spica → H Ceres RA 1.4822 conj (0.01) — also: 1 Bristol De Mai / Sam Twiston-Davies
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
-  - star rows: J Antares → J Ceres RA 67.0103 67 whole (23.31) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: J Antares → J Ceres Dec 0.2075 conj (9.51) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: J Deneb → J Ceres RA 4.0037 4 whole (66.05) — also: 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
 - **Uranus**
   - star rows: H Menkar → H Uranus RA 32.0192 32 whole (0.15) — also: 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
     - source line: S Sun → Menkar RA 100.0021 100 whole (79.93)
@@ -2048,6 +1769,29 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
   - star rows: J Sadalsuud → J Eris Dec 2.9885 3 whole (18.25) — also: 7 Two For Gold / David Bass
     - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
+- **Orcus**
+  - star rows: H Sadalsuud → H Orcus RA 174.0098 174 whole (26.16) — also: 1 Bristol De Mai / Sam Twiston-Davies, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+    - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
+  - star rows: H Sirius → H Orcus Dec 9.0086 9 whole (32.21) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden
+    - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
+- **Sedna**
+  - star rows: H Sirius → H Sedna Dec 24.0173 24 whole (1.82) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
+    - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
+  - top rows: S Sun → J Sedna RA 97.9970 98 whole (72.12) — only
+  - star rows: J Ankaa → J Sedna RA 36.9964 37 whole (66.86) — also: 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
+    - source line: S Sun → Ankaa RA 61.0007 61 whole (92.80)
+    - source line: S Moon → Ankaa RA 176.9962 177 whole (65.72)
+  - star rows: J El Nath → J Sedna RA 38.0005 38 whole (94.80) — also: 2 Dashel Drasher / Rex Dingle
+    - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
+  - star rows: J Menkar → J Sedna RA 1.9999 2 whole (99.18) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
+    - source line: S Sun → Menkar RA 100.0021 100 whole (79.93)
+    - source line: S Moon → Menkar RA 144.0024 89×φ golden (84.43)
+  - star rows: J Nunki → J Sedna RA 119.7438 74×φ golden (50.91) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
+    - source line: S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
+- **Makemake**
+  - star rows: H Spica → H Makemake Dec 37.9805 38 whole (0.05) — only
+    - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
+  - same body: S Makemake → J Makemake RA 28.9862 29 whole (9.57) — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
 - **Sun**
   - same body + top rows: S Sun → J Sun RA 146.9994 147 whole (93.79) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
   - top rows: S Jupiter → J Sun Dec 34.0020 34 whole (80.86) — only
@@ -2097,7 +1841,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Transpluto → J Transpluto RA 14.1414 14.14 sqrt2 (97.86)
 ### L2 what lands on each same body
 - **H Mercury** (same body: S Mercury → H Mercury RA 121.8185 122.222 ninth (loose))
-  - sky line to Mercury: S Sun → Mercury RA 1.2413 conj (2.97)
   - star rows: H Denebola → H Mercury RA 111.1198 111.111 ninth (98.58)
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - other chart, star rows: J Sadalsuud → J Mercury RA 111.1385 111.111 ninth (95.53)
@@ -2123,11 +1866,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Nunki → J Chiron RA 128.0195 128 whole (0.07)
     - source line: S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
 - **H Pallas** (same body: S Pallas → H Pallas RA 87.3637 54×φ golden (loose))
-  - sky line to Pallas: S Jupiter → Pallas Dec 0.2217 conj (6.80)
   - other chart, same body: S Pallas → J Pallas Dec 33.3761 33.3333 ninth (loose)
   - other chart, top rows: S Sun → J Pallas Dec 41.9958 42 whole (62.21)
-  - other chart, star rows: J Antares → J Pallas Dec 49.0032 49 whole (70.15)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - other chart, star rows: J Denebola → J Pallas Dec 7.9978 8 whole (78.78)
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - other chart, star rows: J El Nath → J Pallas RA 111.6730 69×φ golden (1.33)
@@ -2140,8 +1880,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
   - star rows: H Sadalsuud → H Orcus RA 173.1610 107×φ golden (0.09)
     - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
-  - other chart, star rows: J Antares → J Orcus RA 126.0178 126 whole (1.18)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - other chart, star rows: J Spica → J Orcus Dec 19.4136 12×φ golden (83.40)
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
 - **H Transpluto** (same body: S Transpluto → H Transpluto Dec 1.1089 1.11111 ninth (loose))
@@ -2173,10 +1911,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
   - other chart, same body: S Neptune → H Neptune Dec 4.1462 4.14 silver (loose)
 - **J Pallas** (same body: S Pallas → J Pallas Dec 33.3761 33.3333 ninth (loose))
-  - sky line to Pallas: S Jupiter → Pallas Dec 0.2217 conj (6.80)
   - top rows: S Sun → J Pallas Dec 41.9958 42 whole (62.21)
-  - star rows: J Antares → J Pallas Dec 49.0032 49 whole (70.15)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: J Denebola → J Pallas Dec 7.9978 8 whole (78.78)
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - star rows: J El Nath → J Pallas RA 111.6730 69×φ golden (1.33)
@@ -2222,12 +1957,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **3. runner number = sky number**
   - 122.222 ninth — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
     - S Mercury → H Mercury RA 121.8185 122.222 ninth (loose) = S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
-  - 10×φ^5 phi power — also: 5 Itchy Feet / Gavin Sheehan
-    - H Jupiter → H star Antares RA 110.9015 10×φ^5 phi power (99.92) = S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
   - 68×φ golden — also: 1 Bristol De Mai / Sam Twiston-Davies
     - H Alhena → H Chiron RA 110.0264 68×φ golden (99.20) = S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
-  - 10×φ^5 phi power — also: 5 Itchy Feet / Gavin Sheehan
-    - H Antares → H Jupiter RA 110.9015 10×φ^5 phi power (99.92) = S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
   - 111.111 ninth — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
     - H Denebola → H Mercury RA 111.1198 111.111 ninth (98.58) = S Sun → Rahu RA 111.1604 111.111 ninth (91.93)
   - 100 whole — also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan
@@ -2237,9 +1968,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **4. circle divisions**
   - 3 = 360/120 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
     - S Haumea → H Haumea Dec 2.9806 3 whole (0.10)
-  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
     - S Orcus → H Orcus Dec 3.9726 4 whole (loose)
-  - 18 = 360/20 — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
+  - 18 = 360/20 — also: 7 Two For Gold / David Bass
     - S Jupiter → H Sedna Dec 17.9976 18 whole (77.86)
   - 9 = 360/40 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
     - H Alhena → H Venus RA 8.9901 9 whole (25.41)
@@ -2247,8 +1978,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Alhena → H Rahu Dec 20.0109 20 whole (20.87)
   - 9 = 360/40 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
     - H Alhena → H Sedna Dec 8.9848 9 whole (5.88)
-  - 18 = 360/20 — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
-    - H Antares → H Vesta Dec 17.9988 18 whole (87.89)
   - 3 = 360/120 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
     - H Denebola → H Jupiter Dec 3.0102 3 whole (24.06)
   - 15 = 360/24 — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
@@ -2261,7 +1990,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Ankaa → J Gonggong Dec 20.0024 20 whole (77.27)
   - 8 = 360/45 — also: 7 Two For Gold / David Bass
     - J Denebola → J Pallas Dec 7.9978 8 whole (78.78)
-  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
     - J Nunki → J Gonggong Dec 3.9963 4 whole (66.23)
   - 15 = 360/24 — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
     - J Sadalsuud → J Uranus Dec 15.0188 15 whole (0.36)
@@ -2275,18 +2004,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 54×φ golden — only
     - S Pallas → H Pallas RA 87.3637 54×φ golden (loose)
     - S Mars → J Mars RA 87.3581 54×φ golden (loose)
-  - 3 whole — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
+  - 3 whole — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
     - S Haumea → H Haumea Dec 2.9806 3 whole (0.10)
     - H Denebola → H Jupiter Dec 3.0102 3 whole (24.06)
   - 4 whole — also: 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
     - S Orcus → H Orcus Dec 3.9726 4 whole (loose)
     - J Nunki → J Gonggong Dec 3.9963 4 whole (66.23)
-  - 10×φ^5 phi power — also: 5 Itchy Feet / Gavin Sheehan
-    - H Jupiter → H star Antares RA 110.9015 10×φ^5 phi power (99.92)
-    - H Antares → H Jupiter RA 110.9015 10×φ^5 phi power (99.92)
-  - 18 whole — also: 7 Two For Gold / David Bass
-    - S Jupiter → H Sedna Dec 17.9976 18 whole (77.86)
-    - H Antares → H Vesta Dec 17.9988 18 whole (87.89)
   - 9 whole — also: 2 Dashel Drasher / Rex Dingle
     - H Alhena → H Venus RA 8.9901 9 whole (25.41)
     - H Alhena → H Sedna Dec 8.9848 9 whole (5.88)
@@ -2297,7 +2020,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Alhena → H Rahu Dec 20.0109 20 whole (20.87)
     - J Ankaa → J Gonggong Dec 20.0024 20 whole (77.27)
     - J Sirius → J Sedna Dec 19.9932 20 whole (43.44)
-  - 111.111 ninth — also: 3 Master Tommytucker / Harry Cobden
+  - 111.111 ninth — only
     - H Denebola → H Mercury RA 111.1198 111.111 ninth (98.58)
     - J Sadalsuud → J Mercury RA 111.1385 111.111 ninth (95.53)
   - 15 whole — only
@@ -2309,7 +2032,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 81×φ golden — only
     - H Nunki → H Mars RA 131.0557 81×φ golden (71.44)
     - H Nunki → H Sedna RA 131.0889 81×φ golden (1.66)
-  - 22 whole — also: 1 Bristol De Mai / Sam Twiston-Davies, 7 Two For Gold / David Bass
+  - 22 whole — also: 7 Two For Gold / David Bass
     - H Rigel → H Juno Dec 22.0049 22 whole (57.04)
     - J Alhena → J Juno Dec 22.0122 22 whole (15.26)
     - S Vindemiatrix → J Jupiter Dec 22.0175 22 whole (1.59)
@@ -2319,22 +2042,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 92 whole — only
     - H Sadalsuud → H Mars RA 91.9862 92 whole (9.60)
     - H Sadalsuud → H Sedna RA 92.0194 92 whole (0.09)
-  - 42 whole — only
-    - S Sun → J Pallas Dec 41.9958 42 whole (62.21)
-    - J Deneb → J Sedna Dec 41.9949 42 whole (55.45)
   - 8 whole — only
     - J Alhena → J Haumea Dec 8.0001 8 whole (98.73)
     - J Denebola → J Pallas Dec 7.9978 8 whole (78.78)
-  - 49 whole — only
-    - J Ankaa → J Pluto Dec 49.0147 49 whole (7.14)
-    - J Antares → J Pallas Dec 49.0032 49 whole (70.15)
   - 90 whole — only
     - J Vindemiatrix → J Rahu RA 90.0164 90 whole (3.18)
     - J Vindemiatrix → J Ketu RA 89.9836 90 whole (3.18)
 ### L4 every natal body
 - **Mercury**
   - same body: S Mercury → H Mercury RA 121.8185 122.222 ninth (loose) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
-    - source line: S Sun → Mercury RA 1.2413 conj (2.97)
   - star rows: H Denebola → H Mercury RA 111.1198 111.111 ninth (98.58) — also: 7 Two For Gold / David Bass
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - star rows: J Sadalsuud → J Mercury RA 111.1385 111.111 ninth (95.53) — only
@@ -2364,12 +2080,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
 - **Pallas**
   - same body: S Pallas → H Pallas RA 87.3637 54×φ golden (loose) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
-    - source line: S Jupiter → Pallas Dec 0.2217 conj (6.80)
   - same body: S Pallas → J Pallas Dec 33.3761 33.3333 ninth (loose) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
-    - source line: S Jupiter → Pallas Dec 0.2217 conj (6.80)
   - top rows: S Sun → J Pallas Dec 41.9958 42 whole (62.21) — only
-  - star rows: J Antares → J Pallas Dec 49.0032 49 whole (70.15) — only
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: J Denebola → J Pallas Dec 7.9978 8 whole (78.78) — only
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - star rows: J El Nath → J Pallas RA 111.6730 69×φ golden (1.33) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
@@ -2384,8 +2096,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
   - star rows: H Sadalsuud → H Orcus RA 173.1610 107×φ golden (0.09) — also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
     - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
-  - star rows: J Antares → J Orcus RA 126.0178 126 whole (1.18) — also: 1 Bristol De Mai / Sam Twiston-Davies, 7 Two For Gold / David Bass
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: J Spica → J Orcus Dec 19.4136 12×φ golden (83.40) — only
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
 - **Transpluto**
@@ -2404,22 +2114,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Ankaa RA 176.9962 177 whole (65.72)
   - star rows: J Sadalsuud → J Transpluto RA 177.9581 110×φ golden (4.34) — only
     - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
-- **Jupiter**
-  - T1: H Jupiter → H star Antares RA 110.9015 10×φ^5 phi power (99.92) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
-  - star rows: S Antares → H Jupiter Dec 44.0126 44 whole (13.64) — also: 7 Two For Gold / David Bass
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: H Antares → H Jupiter RA 110.9015 10×φ^5 phi power (99.92) — also: 7 Two For Gold / David Bass
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: H Denebola → H Jupiter Dec 3.0102 3 whole (24.06) — also: 2 Dashel Drasher / Rex Dingle
-    - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
-  - top rows: S Pallas → J Jupiter Dec 0.2550 conj (2.25) — only
-    - source line: S Jupiter → Pallas Dec 0.2217 conj (6.80)
-  - star rows: S Sadalsuud → J Jupiter RA 112.0100 112 whole (24.92) — also: 1 Bristol De Mai / Sam Twiston-Davies
-    - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
-  - star rows: S Spica → J Jupiter Dec 0.1012 conj (43.91) — also: 7 Two For Gold / David Bass
-    - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
-  - star rows: S Vindemiatrix → J Jupiter Dec 22.0175 22 whole (1.59) — only
-    - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
 - **Sedna**
   - top rows: S Jupiter → H Sedna Dec 17.9976 18 whole (77.86) — only
   - star rows: H Alhena → H Sedna Dec 8.9848 9 whole (5.88) — only
@@ -2430,8 +2124,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
   - star rows: H Sadalsuud → H Sedna Dec 12.9861 13 whole (9.34) — only
     - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
-  - star rows: J Deneb → J Sedna Dec 41.9949 42 whole (55.45) — also: 5 Itchy Feet / Gavin Sheehan
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: J Sirius → J Sedna Dec 19.9932 20 whole (43.44) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
   - star rows: J Spica → J Sedna Dec 14.4440 14.4444 ninth (99.55) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
@@ -2448,17 +2140,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → H Rahu RA 1.2002 conj (4.00) — only
   - star rows: H Alhena → H Rahu Dec 20.0109 20 whole (20.87) — also: 3 Master Tommytucker / Harry Cobden
     - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
-  - star rows: H Antares → H Rahu RA 58.9840 59 whole (4.04) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: H Deneb → H Rahu RA 121.9856 122 whole (7.92) — also: 1 Bristol De Mai / Sam Twiston-Davies
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: J Vindemiatrix → J Rahu RA 90.0164 90 whole (3.18) — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
     - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
 - **Venus**
   - star rows: H Alhena → H Venus RA 8.9901 9 whole (25.41) — only
     - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
-  - star rows: H Antares → H Venus RA 156.9232 97×φ golden (3.74) — also: 5 Itchy Feet / Gavin Sheehan
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: H Nunki → H Venus RA 166.6145 166.667 ninth (95.53) — only
     - source line: S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
 - **Pluto**
@@ -2477,9 +2163,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
   - star rows: J Nunki → J Pluto Dec 33.0085 33 whole (32.99) — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
     - source line: S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
+- **Jupiter**
+  - star rows: H Denebola → H Jupiter Dec 3.0102 3 whole (24.06) — also: 2 Dashel Drasher / Rex Dingle
+    - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
+  - top rows: S Pallas → J Jupiter Dec 0.2550 conj (2.25) — only
+  - star rows: S Sadalsuud → J Jupiter RA 112.0100 112 whole (24.92) — also: 1 Bristol De Mai / Sam Twiston-Davies
+    - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
+  - star rows: S Spica → J Jupiter Dec 0.1012 conj (43.91) — also: 7 Two For Gold / David Bass
+    - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
+  - star rows: S Vindemiatrix → J Jupiter Dec 22.0175 22 whole (1.59) — only
+    - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
 - **Vesta**
-  - star rows: H Antares → H Vesta Dec 17.9988 18 whole (87.89) — also: 7 Two For Gold / David Bass
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: H Denebola → H Vesta Dec 23.0051 23 whole (55.22) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - star rows: H Rigel → H Vesta Dec 0.2304 conj (5.38) — only
@@ -2492,23 +2186,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
   - star rows: J Vindemiatrix → J Vesta Dec 27.0186 27 whole (0.48) — also: 7 Two For Gold / David Bass
     - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
-- **Ketu**
-  - star rows: H Antares → H Ketu RA 121.0160 121 whole (4.04) — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: H Deneb → H Ketu RA 58.0144 58 whole (7.92) — also: 1 Bristol De Mai / Sam Twiston-Davies
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
-  - star rows: H El Nath → H Ketu Dec 24.9946 25 whole (53.33) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
-    - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
-  - star rows: J Vindemiatrix → J Ketu RA 89.9836 90 whole (3.18) — also: 5 Itchy Feet / Gavin Sheehan
-    - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
-- **Ceres**
-  - star rows: H Deneb → H Ceres RA 0.7056 conj (28.05) — also: 5 Itchy Feet / Gavin Sheehan
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
-  - star rows: J Nunki → J Ceres Dec 17.0198 17 whole (0.01) — only
-    - source line: S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
 - **Makemake**
-  - star rows: H Deneb → H Makemake RA 118.1019 73×φ golden (30.06) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: H Denebola → H Makemake RA 14.9912 15 whole (31.22) — also: 2 Dashel Drasher / Rex Dingle
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
 - **Uranus**
@@ -2518,6 +2196,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
   - star rows: J Sadalsuud → J Uranus Dec 15.0188 15 whole (0.36) — only
     - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
+- **Ketu**
+  - star rows: H El Nath → H Ketu Dec 24.9946 25 whole (53.33) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
+    - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
+  - star rows: J Vindemiatrix → J Ketu RA 89.9836 90 whole (3.18) — also: 5 Itchy Feet / Gavin Sheehan
+    - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
 - **Sun**
   - star rows: H Menkar → H Sun RA 0.6571 conj (31.58) — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
     - source line: S Sun → Menkar RA 100.0021 100 whole (79.93)
@@ -2559,6 +2242,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - star rows: J Spica → J Eris Dec 0.0893 conj (49.32) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
+- **Ceres**
+  - star rows: J Nunki → J Ceres Dec 17.0198 17 whole (0.01) — only
+    - source line: S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)
 
 ## 7 Two For Gold / David Bass
 ### L1 same bodies
@@ -2622,8 +2308,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Juno** (same body: S Juno → H Juno RA 13.0167 13 whole (2.76))
   - star rows: H Alhena → H Juno RA 149.9942 150 whole (50.63)
     - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
-  - star rows: H Deneb → H Juno RA 0.9243 conj (14.73)
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: H Spica → H Juno Dec 4.0165 4 whole (3.12)
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
   - other chart, same body: S Juno → J Juno Dec 27.5288 17×φ golden (loose)
@@ -2634,8 +2318,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Vesta** (same body: S Vesta → H Vesta Dec 45.2908 28×φ golden (loose))
   - star rows: H Alhena → H Vesta RA 13.0077 13 whole (37.93)
     - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
-  - star rows: H Antares → H Vesta Dec 50.1599 31×φ golden (95.10)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: H Sirius → H Vesta Dec 40.4514 25×φ golden (96.37)
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
   - star rows: H Spica → H Vesta RA 114.8848 71×φ golden (74.80)
@@ -2643,8 +2325,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Ankaa → J Vesta RA 141.9898 142 whole (23.93)
     - source line: S Sun → Ankaa RA 61.0007 61 whole (92.80)
     - source line: S Moon → Ankaa RA 176.9962 177 whole (65.72)
-  - other chart, star rows: J Deneb → J Vesta RA 161.8046 100×φ^1 phi power (99.71)
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - other chart, star rows: J El Nath → J Vesta RA 66.9932 67 whole (43.63)
     - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
   - other chart, star rows: J Menkar → J Vesta RA 102.9935 103 whole (45.53)
@@ -2655,16 +2335,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Makemake** (same body: S Makemake → H Makemake Dec 4.9721 5 whole (loose))
   - top rows: S Moon → H Makemake RA 1.3135 conj (1.55)
   - top rows: S Moon → H Makemake Dec 27.9984 28 whole (84.84)
-  - star rows: H Deneb → H Makemake Dec 18.0026 18 whole (75.53)
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: H Sadalsuud → H Makemake RA 132.0003 132 whole (96.54)
     - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
   - star rows: H Sirius → H Makemake Dec 43.9967 44 whole (69.41)
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
 - **H Orcus** (same body: S Orcus → H Orcus RA 9.0056 9 whole (51.88))
   - top rows: S Sun → H Orcus Dec 11.9944 12 whole (51.78)
-  - star rows: H Antares → H Orcus Dec 19.0016 19 whole (84.54)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: H Denebola → H Orcus Dec 22.0012 22 whole (88.80)
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - star rows: H Sadalsuud → H Orcus RA 174.7567 108×φ golden (52.03)
@@ -2693,8 +2369,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Pluto → J Jupiter Dec 41.0024 41 whole (77.79)
   - star rows: J Alhena → J Jupiter Dec 2.0000 2 whole (99.51)
     - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
-  - star rows: S Antares → J Jupiter RA 166.6677 166.667 ninth (99.92)
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - other chart, top rows: S Mars → H Jupiter Dec 46.0020 46 whole (81.25)
   - other chart, top rows: S Makemake → H Jupiter Dec 0.1226 conj (34.97)
   - other chart, top rows: S Orcus → H Jupiter RA 83.9980 84 whole (81.17)
@@ -2716,8 +2390,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, same body: S Juno → H Juno RA 13.0167 13 whole (2.76)
   - other chart, star rows: H Alhena → H Juno RA 149.9942 150 whole (50.63)
     - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
-  - other chart, star rows: H Deneb → H Juno RA 0.9243 conj (14.73)
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - other chart, star rows: H Spica → H Juno Dec 4.0165 4 whole (3.12)
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
 - **J Sedna** (same body: S Sedna → J Sedna RA 16.5803 16.6667 ninth (loose); S Sedna → J Sedna Dec 3.9712 4 whole (loose))
@@ -2752,13 +2424,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **3. runner number = sky number**
   - 11.1111 ninth — also: 1 Bristol De Mai / Sam Twiston-Davies
     - S Quaoar → H Quaoar RA 11.1602 11.1111 ninth (loose) = S Moon → Transpluto Dec 11.1107 11.1111 ninth (99.38)
-  - 46 whole — also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan
-    - S Mars → H Jupiter Dec 46.0020 46 whole (81.25) = S Moon → Deneb Dec 46.0059 46 whole (49.51)
-  - 7 whole — also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan
-    - H Menkar → H Venus Dec 6.9940 7 whole (49.07) = S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - 16 whole — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan
+  - 16 whole — also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan
     - H Menkar → H Saturn Dec 16.0148 16 whole (6.69) = S Moon → Sirius Dec 15.9996 16 whole (96.36)
-  - 16 whole — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan
+  - 16 whole — also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan
     - H Vindemiatrix → H Pallas Dec 16.0060 16 whole (48.81) = S Moon → Sirius Dec 15.9996 16 whole (96.36)
   - 133.333 ninth — also: 3 Master Tommytucker / Harry Cobden
     - S Sun → J Mercury RA 133.3847 133.333 ninth (93.84) = S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
@@ -2769,27 +2437,25 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Orcus → H Orcus RA 9.0056 9 whole (51.88)
   - 1 = 360/360 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
     - S Gonggong → H Gonggong RA 1.0039 1 whole (64.97)
-  - 12 = 360/30 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan
+  - 12 = 360/30 — also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan
     - S Sun → H Orcus Dec 11.9944 12 whole (51.78)
-  - 18 = 360/20 — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore
+  - 18 = 360/20 — also: 6 Lieutenant Rocco / Tom Scudamore
     - H Ankaa → H Sun RA 17.9871 18 whole (12.58)
   - 30 = 360/12 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
     - H Ankaa → H Neptune RA 29.9901 30 whole (25.41)
-  - 18 = 360/20 — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore
-    - H Deneb → H Makemake Dec 18.0026 18 whole (75.53)
   - 1 = 360/360 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
     - H Menkar → H Uranus Dec 1.0018 1 whole (82.40)
   - 3 = 360/120 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
     - H Menkar → H Sedna Dec 2.9821 3 whole (1.09)
-  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
+  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
     - H Spica → H Juno Dec 4.0165 4 whole (3.12)
-  - 12 = 360/30 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan
+  - 12 = 360/30 — also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan
     - H Vindemiatrix → H Mercury Dec 11.9991 12 whole (91.18)
   - 1 = 360/360 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
     - H Vindemiatrix → H Mars Dec 1.0100 1 whole (24.80)
-  - 18 = 360/20 — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore
+  - 18 = 360/20 — also: 6 Lieutenant Rocco / Tom Scudamore
     - S Mars → J Mars Dec 18.0081 18 whole (35.32)
-  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
+  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
     - S Sedna → J Sedna Dec 3.9712 4 whole (loose)
   - 2 = 360/180 — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
     - J Jupiter → J star Alhena Dec 2.0000 2 whole (99.51)
@@ -2799,9 +2465,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Ankaa → J Saturn Dec 19.9907 20 whole (28.70)
   - 8 = 360/45 — also: 6 Lieutenant Rocco / Tom Scudamore
     - J El Nath → J Venus RA 7.9809 8 whole (0.22)
-  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
+  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
     - J Nunki → J Saturn Dec 3.9858 4 whole (8.54)
-  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
+  - 4 = 360/90 — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
     - J Sadalsuud → J Eris Dec 4.0022 4 whole (79.19)
 - **5. same number in more than one place**
   - 16.6667 ninth — only
@@ -2818,9 +2484,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Gonggong → H Gonggong RA 1.0039 1 whole (64.97)
     - H Menkar → H Uranus Dec 1.0018 1 whole (82.40)
     - H Vindemiatrix → H Mars Dec 1.0100 1 whole (24.80)
-  - 69 whole — only
-    - H Jupiter → H Mercury RA 68.9952 69 whole (58.01)
-    - H Menkar → H Neptune RA 68.9893 69 whole (21.79)
   - 12 whole — only
     - S Sun → H Orcus Dec 11.9944 12 whole (51.78)
     - H Vindemiatrix → H Mercury Dec 11.9991 12 whole (91.18)
@@ -2829,11 +2492,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Spica → H Ketu Dec 28.0134 28 whole (10.97)
     - J Alhena → J Orcus RA 28.0179 28 whole (1.10)
     - J Menkar → J Venus RA 28.0194 28 whole (0.11)
-  - 18 whole — also: 6 Lieutenant Rocco / Tom Scudamore
+  - 18 whole — only
     - H Ankaa → H Sun RA 17.9871 18 whole (12.58)
-    - H Deneb → H Makemake Dec 18.0026 18 whole (75.53)
     - S Mars → J Mars Dec 18.0081 18 whole (35.32)
-  - 22 whole — also: 1 Bristol De Mai / Sam Twiston-Davies, 6 Lieutenant Rocco / Tom Scudamore
+  - 22 whole — also: 6 Lieutenant Rocco / Tom Scudamore
     - H Denebola → H Orcus Dec 22.0012 22 whole (88.80)
     - J Sirius → J Ketu Dec 22.0196 22 whole (0.05)
   - 21 whole — only
@@ -2857,21 +2519,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 2 whole — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
     - J Jupiter → J star Alhena Dec 2.0000 2 whole (99.51)
     - J Alhena → J Jupiter Dec 2.0000 2 whole (99.51)
-  - 166.667 ninth — also: 5 Itchy Feet / Gavin Sheehan
-    - J Jupiter → J star Antares RA 166.6585 166.667 ninth (99.30)
-    - S Antares → J Jupiter RA 166.6677 166.667 ninth (99.92)
   - 37 whole — only
     - S Sun → J Saturn RA 37.0021 37 whole (79.75)
     - J Ankaa → J Rahu Dec 36.9932 37 whole (43.59)
-  - 41 whole — only
-    - S Pluto → J Jupiter Dec 41.0024 41 whole (77.79)
-    - J Antares → J Transpluto Dec 40.9855 41 whole (7.49)
   - 67 whole — only
     - J Ankaa → J Venus RA 67.0156 67 whole (4.75)
     - J El Nath → J Vesta RA 66.9932 67 whole (43.63)
-  - 100×φ^1 phi power — only
-    - J Deneb → J Vesta RA 161.8046 100×φ^1 phi power (99.71)
-    - J El Nath → J Neptune RA 161.8772 100×φ^1 phi power (82.58)
 ### L4 every natal body
 - **Sun**
   - same body: S Sun → H Sun RA 78.9835 79 whole (3.08) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
@@ -2919,8 +2572,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Juno → H Juno RA 13.0167 13 whole (2.76) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
   - star rows: H Alhena → H Juno RA 149.9942 150 whole (50.63) — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore
     - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
-  - star rows: H Deneb → H Juno RA 0.9243 conj (14.73) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: H Spica → H Juno Dec 4.0165 4 whole (3.12) — also: 3 Master Tommytucker / Harry Cobden
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
   - same body: S Juno → J Juno Dec 27.5288 17×φ golden (loose) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
@@ -2932,8 +2583,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Vesta → H Vesta Dec 45.2908 28×φ golden (loose) — also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan
   - star rows: H Alhena → H Vesta RA 13.0077 13 whole (37.93) — also: 2 Dashel Drasher / Rex Dingle
     - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
-  - star rows: H Antares → H Vesta Dec 50.1599 31×φ golden (95.10) — also: 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: H Sirius → H Vesta Dec 40.4514 25×φ golden (96.37) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
     - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
   - star rows: H Spica → H Vesta RA 114.8848 71×φ golden (74.80) — also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan
@@ -2941,8 +2590,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Ankaa → J Vesta RA 141.9898 142 whole (23.93) — also: 2 Dashel Drasher / Rex Dingle
     - source line: S Sun → Ankaa RA 61.0007 61 whole (92.80)
     - source line: S Moon → Ankaa RA 176.9962 177 whole (65.72)
-  - star rows: J Deneb → J Vesta RA 161.8046 100×φ^1 phi power (99.71) — also: 3 Master Tommytucker / Harry Cobden
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: J El Nath → J Vesta RA 66.9932 67 whole (43.63) — only
     - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
   - star rows: J Menkar → J Vesta RA 102.9935 103 whole (45.53) — also: 5 Itchy Feet / Gavin Sheehan
@@ -2954,8 +2601,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Makemake → H Makemake Dec 4.9721 5 whole (loose) — also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan
   - top rows: S Moon → H Makemake RA 1.3135 conj (1.55) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
   - top rows: S Moon → H Makemake Dec 27.9984 28 whole (84.84) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
-  - star rows: H Deneb → H Makemake Dec 18.0026 18 whole (75.53) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
   - star rows: H Sadalsuud → H Makemake RA 132.0003 132 whole (96.54) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
     - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
   - star rows: H Sirius → H Makemake Dec 43.9967 44 whole (69.41) — also: 2 Dashel Drasher / Rex Dingle
@@ -2963,8 +2608,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Orcus**
   - same body: S Orcus → H Orcus RA 9.0056 9 whole (51.88) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
   - top rows: S Sun → H Orcus Dec 11.9944 12 whole (51.78) — only
-  - star rows: H Antares → H Orcus Dec 19.0016 19 whole (84.54) — also: 1 Bristol De Mai / Sam Twiston-Davies, 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: H Denebola → H Orcus Dec 22.0012 22 whole (88.80) — also: 2 Dashel Drasher / Rex Dingle
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
   - star rows: H Sadalsuud → H Orcus RA 174.7567 108×φ golden (52.03) — also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
@@ -2984,18 +2627,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Menkar → J Gonggong RA 76.0497 47×φ golden (87.29) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle
     - source line: S Sun → Menkar RA 100.0021 100 whole (79.93)
     - source line: S Moon → Menkar RA 144.0024 89×φ golden (84.43)
-- **Mercury**
-  - T1: H Jupiter → H Mercury RA 68.9952 69 whole (58.01) — only
-  - star rows: H Denebola → H Mercury RA 173.1245 107×φ golden (70.67) — also: 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
-  - star rows: H Menkar → H Mercury RA 41.4217 41.4 silver (99.71) — also: 2 Dashel Drasher / Rex Dingle
-    - source line: S Sun → Menkar RA 100.0021 100 whole (79.93)
-    - source line: S Moon → Menkar RA 144.0024 89×φ golden (84.43)
-  - star rows: H Vindemiatrix → H Mercury Dec 11.9991 12 whole (91.18) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden
-    - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
-  - top rows: S Sun → J Mercury RA 133.3847 133.333 ninth (93.84) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
-  - star rows: J Rigel → J Mercury RA 0.3246 conj (61.40) — only
-    - source line: S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
 - **Jupiter**
   - top rows: S Mars → H Jupiter Dec 46.0020 46 whole (81.25) — only
   - top rows: S Makemake → H Jupiter Dec 0.1226 conj (34.97) — also: 2 Dashel Drasher / Rex Dingle
@@ -3003,13 +2634,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: S Spica → H Jupiter Dec 33.3396 33.3333 ninth (92.43) — also: 6 Lieutenant Rocco / Tom Scudamore
     - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
   - same body: S Jupiter → J Jupiter Dec 28.9835 29 whole (3.09) — also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan
-  - T2: J Jupiter → J star Alhena Dec 2.0000 2 whole (99.51) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
-  - T2: J Jupiter → J star Antares RA 166.6585 166.667 ninth (99.30) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
+  - T2: J Jupiter → J star Alhena Dec 2.0000 2 whole (99.51) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
   - top rows: S Pluto → J Jupiter Dec 41.0024 41 whole (77.79) — only
   - star rows: J Alhena → J Jupiter Dec 2.0000 2 whole (99.51) — only
     - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
-  - star rows: S Antares → J Jupiter RA 166.6677 166.667 ninth (99.92) — also: 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
 - **Sedna**
   - star rows: H Ankaa → H Sedna RA 46.9774 φ^8 phi power (98.89) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
     - source line: S Sun → Ankaa RA 61.0007 61 whole (92.80)
@@ -3033,26 +2661,19 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Rigel → H Transpluto RA 72.8191 45×φ golden (58.65) — also: 1 Bristol De Mai / Sam Twiston-Davies
     - source line: S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
   - top rows: S Sun → J Transpluto Dec 33.9778 21×φ golden (94.39) — only
-  - star rows: J Antares → J Transpluto Dec 40.9855 41 whole (7.49) — only
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
   - star rows: J Denebola → J Transpluto Dec 0.0215 conj (86.15) — also: 2 Dashel Drasher / Rex Dingle
     - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
-- **Ketu**
-  - star rows: H Antares → H Ketu RA 156.9611 97×φ golden (40.50) — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore
-    - source line: S Sun → Antares Dec 7.0061 7 whole (48.51)
-  - star rows: H Menkar → H Ketu RA 1.2474 conj (2.84) — also: 2 Dashel Drasher / Rex Dingle
+- **Mercury**
+  - star rows: H Denebola → H Mercury RA 173.1245 107×φ golden (70.67) — also: 6 Lieutenant Rocco / Tom Scudamore
+    - source line: S Sun → Denebola Dec 33.9942 34 whole (50.13)
+  - star rows: H Menkar → H Mercury RA 41.4217 41.4 silver (99.71) — also: 2 Dashel Drasher / Rex Dingle
     - source line: S Sun → Menkar RA 100.0021 100 whole (79.93)
     - source line: S Moon → Menkar RA 144.0024 89×φ golden (84.43)
-  - star rows: H Spica → H Ketu RA 156.9860 157 whole (8.90) — also: 2 Dashel Drasher / Rex Dingle
-    - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
-  - star rows: H Spica → H Ketu Dec 28.0134 28 whole (10.97) — also: 2 Dashel Drasher / Rex Dingle
-    - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
-  - star rows: J Alhena → J Ketu Dec 11.0921 φ^5 phi power (93.04) — only
-    - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
-  - star rows: J Rigel → J Ketu RA 88.9980 89 whole (81.07) — also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Vindemiatrix → H Mercury Dec 11.9991 12 whole (91.18) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden
+    - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
+  - top rows: S Sun → J Mercury RA 133.3847 133.333 ninth (93.84) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
+  - star rows: J Rigel → J Mercury RA 0.3246 conj (61.40) — only
     - source line: S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
-  - star rows: J Sirius → J Ketu Dec 22.0196 22 whole (0.05) — also: 1 Bristol De Mai / Sam Twiston-Davies
-    - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
 - **Eris**
   - star rows: H El Nath → H Eris Dec 31.9916 32 whole (33.57) — only
     - source line: S Moon → El Nath RA 107.9956 108 whole (60.79)
@@ -3099,6 +2720,20 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Menkar → H Uranus Dec 1.0018 1 whole (82.40) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
     - source line: S Sun → Menkar RA 100.0021 100 whole (79.93)
     - source line: S Moon → Menkar RA 144.0024 89×φ golden (84.43)
+- **Ketu**
+  - star rows: H Menkar → H Ketu RA 1.2474 conj (2.84) — also: 2 Dashel Drasher / Rex Dingle
+    - source line: S Sun → Menkar RA 100.0021 100 whole (79.93)
+    - source line: S Moon → Menkar RA 144.0024 89×φ golden (84.43)
+  - star rows: H Spica → H Ketu RA 156.9860 157 whole (8.90) — also: 2 Dashel Drasher / Rex Dingle
+    - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
+  - star rows: H Spica → H Ketu Dec 28.0134 28 whole (10.97) — also: 2 Dashel Drasher / Rex Dingle
+    - source line: S Jupiter → Spica RA 135.9064 84×φ golden (54.47)
+  - star rows: J Alhena → J Ketu Dec 11.0921 φ^5 phi power (93.04) — only
+    - source line: S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)
+  - star rows: J Rigel → J Ketu RA 88.9980 89 whole (81.07) — also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan
+    - source line: S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
+  - star rows: J Sirius → J Ketu Dec 22.0196 22 whole (0.05) — also: 1 Bristol De Mai / Sam Twiston-Davies
+    - source line: S Moon → Sirius Dec 15.9996 16 whole (96.36)
 - **Haumea**
   - star rows: H Rigel → H Haumea RA 129.9825 130 whole (1.51) — only
     - source line: S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
@@ -3134,9 +2769,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Pallas**
   - star rows: H Vindemiatrix → H Pallas Dec 16.0060 16 whole (48.81) — also: 3 Master Tommytucker / Harry Cobden
     - source line: S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)
-  - T2: J Jupiter → J Pallas Dec 0.0342 conj (78.50) — also: 5 Itchy Feet / Gavin Sheehan
-  - star rows: J Deneb → J Pallas RA 0.4642 conj (47.68) — also: 2 Dashel Drasher / Rex Dingle
-    - source line: S Moon → Deneb Dec 46.0059 46 whole (49.51)
+  - T2: J Jupiter → J Pallas Dec 0.0342 conj (78.50) — only
   - star rows: J Sadalsuud → J Pallas RA 12.9932 13 whole (43.49) — also: 2 Dashel Drasher / Rex Dingle
     - source line: S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
 - **Ceres**

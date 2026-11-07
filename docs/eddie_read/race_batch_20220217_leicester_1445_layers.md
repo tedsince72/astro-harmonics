@@ -7,8 +7,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - Cloth numbers not in the tables workbook: 2
 
 ## Sky (noted lines)
-- S Jupiter → Rigel Dec 0.2047 conj (10.09)
-- S Jupiter → Alphard Dec 0.2514 conj (2.63)
 - S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
 - S Jupiter → Menkent RA 130.9998 131 whole (98.49)
 - S Jupiter → Alphecca RA 108.9962 109 whole (65.79)
@@ -22,7 +20,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Chiron RA 155.0016 155 whole (84.75)
 - S Moon → Mirfak RA 111.9990 112 whole (90.41)
 - S Moon → Acubens Dec 0.1325 conj (31.18)
-- S Moon → Regulus Dec 0.2419 conj (3.75)
 - S Moon → Aculeus RA 102.0008 102 whole (92.02)
 - Hubs: Mercury
 
@@ -51,18 +48,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Juno → H Jupiter RA 158.5719 98×φ golden (73.97)
   - star rows: H Aculeus → H Jupiter RA 160.1735 99×φ golden (40.03)
     - source line: S Moon → Aculeus RA 102.0008 102 whole (92.02)
-  - star rows: S Alphard → H Jupiter RA 36.9884 37 whole (17.57)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - star rows: H Menkent → H Jupiter RA 106.7608 66×φ golden (0.81)
     - source line: S Jupiter → Menkent RA 130.9998 131 whole (98.49)
   - star rows: H Murzim → H Jupiter Dec 40.9849 41 whole (6.09)
     - source line: S Sun → Murzim Dec 5.9982 6 whole (83.01)
   - other chart, top rows: S Rahu → J Jupiter Dec 11.0008 11 whole (91.80)
   - other chart, top rows: S Sedna → J Jupiter Dec 0.2807 conj (0.41)
-  - other chart, star rows: S Alphard → J Jupiter RA 118.9933 119 whole (44.45)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
-  - other chart, star rows: J Alphard → J Jupiter Dec 17.0175 17 whole (1.59)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
 - **H Uranus** (same body: S Uranus → H Uranus Dec 10.0154 10 whole (5.34))
   - star rows: H Acubens → H Uranus RA 121.9857 122 whole (8.00)
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
@@ -70,13 +61,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
   - star rows: H Alphecca → H Uranus Dec 21.9966 22 whole (68.52)
     - source line: S Jupiter → Alphecca RA 108.9962 109 whole (65.79)
-  - star rows: H Rigel → H Uranus RA 65.9934 66 whole (45.03)
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
   - other chart, star rows: J Sadalmelik → J Uranus RA 11.9919 12 whole (35.36)
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **H Neptune** (same body: S Neptune → H Neptune RA 14.0096 14 whole (27.22))
-  - star rows: H Alphard → H Neptune Dec 0.9967 1 whole (69.91)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - other chart, same body: S Neptune → J Neptune Dec 14.5872 9×φ golden (loose)
   - other chart, star rows: J Aculeus → J Neptune RA 41.4257 41.4 silver (95.82)
     - source line: S Moon → Aculeus RA 102.0008 102 whole (92.02)
@@ -84,13 +71,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Aculeus RA 102.0008 102 whole (92.02)
 - **H Pallas** (same body: S Pallas → H Pallas RA 142.0115 142 whole (18.09); S Pallas → H Pallas Dec 19.0000 19 whole (99.66))
   - other chart, same body: S Pallas → J Pallas RA 46.0175 46 whole (1.55)
-  - other chart, star rows: J Alphard → J Pallas Dec 6.9944 7 whole (51.71)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - other chart, star rows: J Mirfak → J Pallas RA 0.2106 conj (73.89)
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
 - **H Gonggong** (same body: S Gonggong → H Gonggong RA 1.0089 1 whole (30.59))
-  - star rows: H Regulus → H Gonggong RA 176.3929 109×φ golden (2.58)
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
   - other chart, star rows: J Acubens → J Gonggong Dec 29.0379 φ^7 phi power (95.27)
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
   - other chart, star rows: J Sadalmelik → J Gonggong RA 1.0088 1 whole (31.34)
@@ -104,14 +87,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
   - star rows: H Deneb Algedi → H Transpluto RA 175.0132 175 whole (11.58)
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
-  - star rows: H Regulus → H Transpluto RA 0.3484 conj (58.94)
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
   - other chart, same body: S Transpluto → J Transpluto RA 7.9786 8 whole (loose)
-  - other chart, star rows: J Alphard → J Transpluto Dec 22.0172 22 whole (1.97)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
 - **J Sun** (same body: S Sun → J Sun Dec 33.3953 33.3333 ninth (loose))
-  - star rows: J Alphard → J Sun RA 76.9963 77 whole (66.25)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
 - **J Mercury** (same body: S Mercury → J Mercury Dec 42.3376 10×φ^3 phi power (loose))
   - sky line to Mercury: S Sun → Mercury RA 26.1839 10×φ^2 phi power (94.68)
   - sky line to Mercury: S Moon → Mercury RA 141.4881 141.4 sqrt2 (82.02)
@@ -127,10 +104,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Alphecca → H Mercury Dec 15.9869 16 whole (11.96)
     - source line: S Jupiter → Alphecca RA 108.9962 109 whole (65.79)
 - **J Mars** (same body: S Mars → J Mars Dec 13.3256 13.3333 ninth (loose))
-  - star rows: J Alphard → J Mars RA 61.0118 61 whole (16.63)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
-  - star rows: J Alphard → J Mars Dec 1.0173 1 whole (1.76)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - other chart, star rows: H Mirfak → H Mars RA 141.9921 142 whole (36.77)
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
 - **J Neptune** (same body: S Neptune → J Neptune Dec 14.5872 9×φ golden (loose))
@@ -139,11 +112,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Aculeus → J Neptune Dec 13.3379 13.3333 ninth (94.57)
     - source line: S Moon → Aculeus RA 102.0008 102 whole (92.02)
   - other chart, same body: S Neptune → H Neptune RA 14.0096 14 whole (27.22)
-  - other chart, star rows: H Alphard → H Neptune Dec 0.9967 1 whole (69.91)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
 - **J Ceres** (same body: S Ceres → J Ceres Dec 6.0198 6 whole (0.01))
-  - star rows: J Alphard → J Ceres RA 44.9877 45 whole (14.76)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - star rows: J Alphecca → J Ceres Dec 0.2152 conj (7.99)
     - source line: S Jupiter → Alphecca RA 108.9962 109 whole (65.79)
   - star rows: J Murzim → J Ceres RA 1.2378 conj (3.06)
@@ -156,8 +125,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Sadalmelik → H Ceres RA 125.0156 125 whole (4.77)
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **J Pallas** (same body: S Pallas → J Pallas RA 46.0175 46 whole (1.55))
-  - star rows: J Alphard → J Pallas Dec 6.9944 7 whole (51.71)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - star rows: J Mirfak → J Pallas RA 0.2106 conj (73.89)
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
   - other chart, same body: S Pallas → H Pallas RA 142.0115 142 whole (18.09)
@@ -165,13 +132,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Vesta** (same body: S Vesta → J Vesta RA 146.0233 146 whole (loose); S Vesta → J Vesta Dec 41.4718 41.4 silver (loose))
   - star rows: J Acubens → J Vesta RA 9.9939 10 whole (48.31)
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
-  - star rows: J Rigel → J Vesta RA 65.9844 66 whole (4.86)
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
-  - other chart, star rows: H Alphard → H Vesta RA 62.0102 62 whole (24.23)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
 - **J Eris** (same body: S Eris → J Eris RA 2.0099 2 whole (25.54))
-  - star rows: J Alphard → J Eris RA 118.0139 118 whole (9.16)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - other chart, star rows: H Sadalmelik → H Eris RA 53.9926 54 whole (39.63)
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 31.0289 31 whole (loose))
@@ -182,8 +143,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Aculeus → H Quaoar RA 1.2914 conj (1.93)
     - source line: S Moon → Aculeus RA 102.0008 102 whole (92.02)
 - **J Transpluto** (same body: S Transpluto → J Transpluto RA 7.9786 8 whole (loose))
-  - star rows: J Alphard → J Transpluto Dec 22.0172 22 whole (1.97)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - other chart, same body: S Transpluto → H Transpluto RA 3.0297 3 whole (loose)
   - other chart, top rows: S Sun → H Transpluto RA 179.0053 179 whole (54.18)
   - other chart, top rows: S Moon → H Transpluto Dec 0.1249 conj (34.05)
@@ -191,8 +150,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
   - other chart, star rows: H Deneb Algedi → H Transpluto RA 175.0132 175 whole (11.58)
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
-  - other chart, star rows: H Regulus → H Transpluto RA 0.3484 conj (58.94)
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
 ### L3 matches
 - **1. same body on both charts**
   - Neptune — only
@@ -218,51 +175,39 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 4 whole — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
     - H Deneb Algedi → H Pluto Dec 3.9821 4 whole (1.07) = S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
   - 6 whole — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
-    - H Regulus → H Juno Dec 6.0078 6 whole (37.22) = S Sun → Murzim Dec 5.9982 6 whole (83.01)
-  - 6 whole — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
     - S Ceres → J Ceres Dec 6.0198 6 whole (0.01) = S Sun → Murzim Dec 5.9982 6 whole (83.01)
   - 155 whole — only
     - S Moon → J Ketu RA 155.0014 155 whole (86.15) = S Moon → Chiron RA 155.0016 155 whole (84.75)
   - 6 whole — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
     - J Spica → J Gonggong Dec 6.0171 6 whole (2.12) = S Sun → Murzim Dec 5.9982 6 whole (83.01)
 - **4. circle divisions**
-  - 10 = 360/36 — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
+  - 10 = 360/36 — also: 4 Nickolson / Jonjo O'Neill Jr
     - S Uranus → H Uranus Dec 10.0154 10 whole (5.34)
-  - 1 = 360/360 — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
+  - 1 = 360/360 — also: 5 Stepney Causeway / Harry Skelton
     - S Gonggong → H Gonggong RA 1.0089 1 whole (30.59)
-  - 3 = 360/120 — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
+  - 3 = 360/120 — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
     - S Transpluto → H Transpluto RA 3.0297 3 whole (loose)
-  - 1 = 360/360 — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
+  - 1 = 360/360 — also: 5 Stepney Causeway / Harry Skelton
     - S Moon → H Mercury Dec 0.9984 1 whole (84.48)
   - 8 = 360/45 — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
     - S Moon → H Ceres Dec 8.0004 8 whole (96.06)
-  - 1 = 360/360 — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
-    - H Alphard → H Neptune Dec 0.9967 1 whole (69.91)
   - 4 = 360/90 — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
     - H Deneb Algedi → H Pluto Dec 3.9821 4 whole (1.07)
   - 6 = 360/60 — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
-    - H Regulus → H Juno Dec 6.0078 6 whole (37.22)
-  - 6 = 360/60 — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
     - S Ceres → J Ceres Dec 6.0198 6 whole (0.01)
-  - 2 = 360/180 — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
+  - 2 = 360/180 — also: 5 Stepney Causeway / Harry Skelton
     - S Eris → J Eris RA 2.0099 2 whole (25.54)
   - 8 = 360/45 — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
     - S Transpluto → J Transpluto RA 7.9786 8 whole (loose)
-  - 10 = 360/36 — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
+  - 10 = 360/36 — also: 4 Nickolson / Jonjo O'Neill Jr
     - J Acubens → J Vesta RA 9.9939 10 whole (48.31)
-  - 10 = 360/36 — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
+  - 10 = 360/36 — also: 4 Nickolson / Jonjo O'Neill Jr
     - J Acubens → J Haumea Dec 9.9952 10 whole (57.75)
-  - 1 = 360/360 — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
-    - J Alphard → J Mars Dec 1.0173 1 whole (1.76)
-  - 45 = 360/8 — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
-    - J Alphard → J Ceres RA 44.9877 45 whole (14.76)
   - 36 = 360/10 — also: 3 Nelson River / Harry Bannister
     - J Menkent → J Orcus Dec 36.0009 36 whole (91.25)
-  - 8 = 360/45 — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
-    - J Rigel → J Chiron Dec 8.0160 8 whole (4.08)
   - 12 = 360/30 — also: 3 Nelson River / Harry Bannister
     - J Sadalmelik → J Uranus RA 11.9919 12 whole (35.36)
-  - 1 = 360/360 — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
+  - 1 = 360/360 — also: 5 Stepney Causeway / Harry Skelton
     - J Sadalmelik → J Gonggong RA 1.0088 1 whole (31.34)
   - 6 = 360/60 — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
     - J Spica → J Gonggong Dec 6.0171 6 whole (2.12)
@@ -273,22 +218,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Uranus → H Uranus Dec 10.0154 10 whole (5.34)
     - J Acubens → J Vesta RA 9.9939 10 whole (48.31)
     - J Acubens → J Haumea Dec 9.9952 10 whole (57.75)
-  - 14 whole — also: 3 Nelson River / Harry Bannister
-    - S Neptune → H Neptune RA 14.0096 14 whole (27.22)
-    - J Regulus → J Rahu RA 14.0116 14 whole (17.43)
   - 142 whole — only
     - S Pallas → H Pallas RA 142.0115 142 whole (18.09)
     - H Mirfak → H Mars RA 141.9921 142 whole (36.77)
   - 1 whole — only
     - S Gonggong → H Gonggong RA 1.0089 1 whole (30.59)
     - S Moon → H Mercury Dec 0.9984 1 whole (84.48)
-    - H Alphard → H Neptune Dec 0.9967 1 whole (69.91)
-    - J Alphard → J Mars Dec 1.0173 1 whole (1.76)
     - J Sadalmelik → J Gonggong RA 1.0088 1 whole (31.34)
-  - 8 whole — also: 5 Stepney Causeway / Harry Skelton
+  - 8 whole — only
     - S Moon → H Ceres Dec 8.0004 8 whole (96.06)
     - S Transpluto → J Transpluto RA 7.9786 8 whole (loose)
-    - J Rigel → J Chiron Dec 8.0160 8 whole (4.08)
   - 23 whole — only
     - H Alkes → H Uranus Dec 23.0166 23 whole (2.81)
     - H Alphecca → H Ceres Dec 22.9889 23 whole (19.95)
@@ -298,22 +237,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 22 whole — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
     - H Alphecca → H Uranus Dec 21.9966 22 whole (68.52)
     - H Spica → H Ketu Dec 21.9889 22 whole (19.81)
-    - J Alphard → J Transpluto Dec 22.0172 22 whole (1.97)
   - 11 whole — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
     - H Deneb Algedi → H Venus Dec 11.0088 11 whole (31.12)
     - S Rahu → J Jupiter Dec 11.0008 11 whole (91.80)
     - J Acubens → J Mercury Dec 10.9963 11 whole (66.41)
-  - 6 whole — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
-    - H Regulus → H Juno Dec 6.0078 6 whole (37.22)
-    - S Ceres → J Ceres Dec 6.0198 6 whole (0.01)
-    - J Spica → J Gonggong Dec 6.0171 6 whole (2.12)
-  - 66 whole — only
-    - H Rigel → H Uranus RA 65.9934 66 whole (45.03)
-    - J Mirfak → J Ketu Dec 66.0130 66 whole (12.12)
-    - J Rigel → J Vesta RA 65.9844 66 whole (4.86)
   - 13.3333 ninth — only
     - S Mars → J Mars Dec 13.3256 13.3333 ninth (loose)
     - J Aculeus → J Neptune Dec 13.3379 13.3333 ninth (94.57)
+  - 6 whole — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
+    - S Ceres → J Ceres Dec 6.0198 6 whole (0.01)
+    - J Spica → J Gonggong Dec 6.0171 6 whole (2.12)
   - 41.4 silver — only
     - S Vesta → J Vesta Dec 41.4718 41.4 silver (loose)
     - J Aculeus → J Neptune RA 41.4257 41.4 silver (95.82)
@@ -321,7 +254,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Acubens → J Ketu Dec 28.0115 28 whole (18.00)
     - J Mirfak → J Haumea Dec 28.0063 28 whole (46.76)
   - 33 whole — only
-    - J Alphard → J Venus Dec 33.0149 33 whole (6.62)
     - J Menkent → J Juno Dec 33.0177 33 whole (1.31)
     - J Spica → J Haumea Dec 33.0160 33 whole (3.95)
 ### L4 every natal body
@@ -330,18 +262,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Juno → H Jupiter RA 158.5719 98×φ golden (73.97) — only
   - star rows: H Aculeus → H Jupiter RA 160.1735 99×φ golden (40.03) — also: 4 Nickolson / Jonjo O'Neill Jr
     - source line: S Moon → Aculeus RA 102.0008 102 whole (92.02)
-  - star rows: S Alphard → H Jupiter RA 36.9884 37 whole (17.57) — only
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - star rows: H Menkent → H Jupiter RA 106.7608 66×φ golden (0.81) — only
     - source line: S Jupiter → Menkent RA 130.9998 131 whole (98.49)
   - star rows: H Murzim → H Jupiter Dec 40.9849 41 whole (6.09) — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
     - source line: S Sun → Murzim Dec 5.9982 6 whole (83.01)
   - top rows: S Rahu → J Jupiter Dec 11.0008 11 whole (91.80) — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
   - top rows: S Sedna → J Jupiter Dec 0.2807 conj (0.41) — also: 3 Nelson River / Harry Bannister
-  - star rows: S Alphard → J Jupiter RA 118.9933 119 whole (44.45) — only
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
-  - star rows: J Alphard → J Jupiter Dec 17.0175 17 whole (1.59) — only
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
 - **Uranus**
   - same body: S Uranus → H Uranus Dec 10.0154 10 whole (5.34) — only
   - star rows: H Acubens → H Uranus RA 121.9857 122 whole (8.00) — also: 5 Stepney Causeway / Harry Skelton
@@ -350,14 +276,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
   - star rows: H Alphecca → H Uranus Dec 21.9966 22 whole (68.52) — also: 5 Stepney Causeway / Harry Skelton
     - source line: S Jupiter → Alphecca RA 108.9962 109 whole (65.79)
-  - star rows: H Rigel → H Uranus RA 65.9934 66 whole (45.03) — only
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
   - star rows: J Sadalmelik → J Uranus RA 11.9919 12 whole (35.36) — only
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **Neptune**
   - same body: S Neptune → H Neptune RA 14.0096 14 whole (27.22) — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
-  - star rows: H Alphard → H Neptune Dec 0.9967 1 whole (69.91) — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - same body: S Neptune → J Neptune Dec 14.5872 9×φ golden (loose) — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
   - star rows: J Aculeus → J Neptune RA 41.4257 41.4 silver (95.82) — only
     - source line: S Moon → Aculeus RA 102.0008 102 whole (92.02)
@@ -367,14 +289,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Pallas → H Pallas RA 142.0115 142 whole (18.09) — also: 5 Stepney Causeway / Harry Skelton
   - same body: S Pallas → H Pallas Dec 19.0000 19 whole (99.66) — also: 5 Stepney Causeway / Harry Skelton
   - same body: S Pallas → J Pallas RA 46.0175 46 whole (1.55) — also: 5 Stepney Causeway / Harry Skelton
-  - star rows: J Alphard → J Pallas Dec 6.9944 7 whole (51.71) — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - star rows: J Mirfak → J Pallas RA 0.2106 conj (73.89) — only
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
 - **Gonggong**
   - same body: S Gonggong → H Gonggong RA 1.0089 1 whole (30.59) — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
-  - star rows: H Regulus → H Gonggong RA 176.3929 109×φ golden (2.58) — only
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
   - star rows: J Acubens → J Gonggong Dec 29.0379 φ^7 phi power (95.27) — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
   - star rows: J Sadalmelik → J Gonggong RA 1.0088 1 whole (31.34) — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
@@ -389,11 +307,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
   - star rows: H Deneb Algedi → H Transpluto RA 175.0132 175 whole (11.58) — only
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
-  - star rows: H Regulus → H Transpluto RA 0.3484 conj (58.94) — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
   - same body: S Transpluto → J Transpluto RA 7.9786 8 whole (loose) — only
-  - star rows: J Alphard → J Transpluto Dec 22.0172 22 whole (1.97) — also: 5 Stepney Causeway / Harry Skelton
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
 - **Mercury**
   - top rows: S Moon → H Mercury Dec 0.9984 1 whole (84.48) — only
   - star rows: H Alphecca → H Mercury Dec 15.9869 16 whole (11.96) — also: 3 Nelson River / Harry Bannister
@@ -415,8 +329,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphecca RA 108.9962 109 whole (65.79)
   - star rows: J Deneb Algedi → J Chiron Dec 0.0920 conj (48.05) — only
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
-  - star rows: J Rigel → J Chiron Dec 8.0160 8 whole (4.08) — also: 4 Nickolson / Jonjo O'Neill Jr
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
 - **Ceres**
   - top rows: S Moon → H Ceres Dec 8.0004 8 whole (96.06) — only
   - star rows: H Alphecca → H Ceres Dec 22.9889 23 whole (19.95) — also: 4 Nickolson / Jonjo O'Neill Jr
@@ -426,8 +338,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Sadalmelik → H Ceres RA 125.0156 125 whole (4.77) — also: 4 Nickolson / Jonjo O'Neill Jr
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
   - same body: S Ceres → J Ceres Dec 6.0198 6 whole (0.01) — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
-  - star rows: J Alphard → J Ceres RA 44.9877 45 whole (14.76) — only
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - star rows: J Alphecca → J Ceres Dec 0.2152 conj (7.99) — also: 4 Nickolson / Jonjo O'Neill Jr
     - source line: S Jupiter → Alphecca RA 108.9962 109 whole (65.79)
   - star rows: J Murzim → J Ceres RA 1.2378 conj (3.06) — only
@@ -447,12 +357,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
   - star rows: H Alphecca → H Makemake Dec 0.1153 conj (37.91) — also: 4 Nickolson / Jonjo O'Neill Jr
     - source line: S Jupiter → Alphecca RA 108.9962 109 whole (65.79)
-  - star rows: H Rigel → H Makemake RA 113.0013 113 whole (87.75) — only
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
   - star rows: H Spica → H Makemake Dec 37.9907 38 whole (28.58) — also: 4 Nickolson / Jonjo O'Neill Jr
     - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
-  - star rows: J Regulus → J Makemake Dec 21.0157 21 whole (4.70) — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
   - star rows: J Sadalmelik → J Makemake RA 153.9864 154 whole (10.09) — only
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **Quaoar**
@@ -479,26 +385,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
   - star rows: J Mirfak → J Ketu Dec 66.0130 66 whole (12.12) — also: 3 Nelson River / Harry Bannister
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
-  - star rows: J Regulus → J Ketu RA 165.9884 166 whole (17.43) — also: 4 Nickolson / Jonjo O'Neill Jr
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
   - star rows: J Spica → J Ketu Dec 4.9907 5 whole (28.56) — only
     - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
-- **Juno**
-  - star rows: H Alphard → H Juno RA 114.0127 114 whole (13.18) — also: 4 Nickolson / Jonjo O'Neill Jr
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
-  - star rows: H Regulus → H Juno Dec 6.0078 6 whole (37.22) — also: 5 Stepney Causeway / Harry Skelton
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
-  - star rows: J Menkent → J Juno Dec 33.0177 33 whole (1.31) — also: 4 Nickolson / Jonjo O'Neill Jr
-    - source line: S Jupiter → Menkent RA 130.9998 131 whole (98.49)
-- **Vesta**
-  - star rows: H Alphard → H Vesta RA 62.0102 62 whole (24.23) — only
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
-  - same body: S Vesta → J Vesta RA 146.0233 146 whole (loose) — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
-  - same body: S Vesta → J Vesta Dec 41.4718 41.4 silver (loose) — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
-  - star rows: J Acubens → J Vesta RA 9.9939 10 whole (48.31) — only
-    - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
-  - star rows: J Rigel → J Vesta RA 65.9844 66 whole (4.86) — only
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
 - **Rahu**
   - star rows: H Alphecca → H Rahu RA 27.5042 17×φ golden (85.72) — only
     - source line: S Jupiter → Alphecca RA 108.9962 109 whole (65.79)
@@ -507,8 +395,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Aculeus RA 102.0008 102 whole (92.02)
   - star rows: J Mirfak → J Rahu RA 87.0082 87 whole (34.68) — only
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
-  - star rows: J Regulus → J Rahu RA 14.0116 14 whole (17.43) — also: 5 Stepney Causeway / Harry Skelton
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
   - star rows: J Sadalmelik → J Rahu RA 166.6342 166.667 ninth (97.21) — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **Venus**
@@ -516,12 +402,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
   - star rows: H Mirfak → H Venus Dec 54.9811 55 whole (0.30) — only
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
-  - star rows: H Regulus → H Venus RA 161.8362 100×φ^1 phi power (92.05) — also: 4 Nickolson / Jonjo O'Neill Jr
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
-  - star rows: J Alphard → J Venus Dec 33.0149 33 whole (6.62) — only
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
-  - star rows: J Rigel → J Venus RA 35.0195 35 whole (0.07) — also: 5 Stepney Causeway / Harry Skelton
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
 - **Pluto**
   - star rows: H Deneb Algedi → H Pluto Dec 3.9821 4 whole (1.07) — also: 4 Nickolson / Jonjo O'Neill Jr
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
@@ -529,20 +409,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Mirfak → H Mars RA 141.9921 142 whole (36.77) — also: 3 Nelson River / Harry Bannister
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
   - same body: S Mars → J Mars Dec 13.3256 13.3333 ninth (loose) — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
-  - star rows: J Alphard → J Mars RA 61.0118 61 whole (16.63) — only
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
-  - star rows: J Alphard → J Mars Dec 1.0173 1 whole (1.76) — only
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
 - **Eris**
   - star rows: H Sadalmelik → H Eris RA 53.9926 54 whole (39.63) — only
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
   - same body: S Eris → J Eris RA 2.0099 2 whole (25.54) — also: 5 Stepney Causeway / Harry Skelton
-  - star rows: J Alphard → J Eris RA 118.0139 118 whole (9.16) — only
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
 - **Sun**
   - same body: S Sun → J Sun Dec 33.3953 33.3333 ninth (loose) — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
-  - star rows: J Alphard → J Sun RA 76.9963 77 whole (66.25) — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
+- **Vesta**
+  - same body: S Vesta → J Vesta RA 146.0233 146 whole (loose) — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
+  - same body: S Vesta → J Vesta Dec 41.4718 41.4 silver (loose) — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
+  - star rows: J Acubens → J Vesta RA 9.9939 10 whole (48.31) — only
+    - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
 - **Haumea**
   - star rows: J Acubens → J Haumea Dec 9.9952 10 whole (57.75) — only
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
@@ -552,8 +429,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
   - star rows: J Mirfak → J Haumea Dec 28.0063 28 whole (46.76) — only
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
-  - star rows: J Regulus → J Haumea RA 42.9809 43 whole (0.20) — only
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
   - star rows: J Spica → J Haumea Dec 33.0160 33 whole (3.95) — only
     - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
 - **Saturn**
@@ -563,6 +438,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Alphecca → J Sedna RA 173.0140 173 whole (9.02) — also: 3 Nelson River / Harry Bannister
     - source line: S Jupiter → Alphecca RA 108.9962 109 whole (65.79)
   - star rows: J Menkent → J Sedna RA 164.9843 165 whole (4.69) — only
+    - source line: S Jupiter → Menkent RA 130.9998 131 whole (98.49)
+- **Juno**
+  - star rows: J Menkent → J Juno Dec 33.0177 33 whole (1.31) — also: 4 Nickolson / Jonjo O'Neill Jr
     - source line: S Jupiter → Menkent RA 130.9998 131 whole (98.49)
 
 ## 3 Nelson River / Harry Bannister
@@ -596,13 +474,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, top rows: S Transpluto → J Jupiter Dec 22.6591 14×φ golden (63.26)
   - other chart, star rows: S Murzim → J Jupiter RA 118.1272 73×φ golden (44.73)
     - source line: S Sun → Murzim Dec 5.9982 6 whole (83.01)
-  - other chart, star rows: J Rigel → J Jupiter Dec 3.9907 4 whole (28.61)
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
 - **H Pluto** (same body: S Pluto → H Pluto RA 13.9840 14 whole (4.05))
   - other chart, star rows: J Alkes → J Pluto Dec 12.9833 13 whole (2.66)
     - source line: S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
-  - other chart, star rows: J Rigel → J Pluto RA 158.5870 98×φ golden (15.47)
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
   - other chart, star rows: J Sadalmelik → J Pluto Dec 4.9976 5 whole (77.58)
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **H Juno** (same body: S Juno → H Juno RA 177.7114 177.778 ninth (94.81))
@@ -611,8 +485,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
   - other chart, star rows: J Mirfak → J Juno RA 148.8773 92×φ golden (19.31)
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
-  - other chart, star rows: J Rigel → J Juno RA 121.3214 75×φ golden (0.14)
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
   - other chart, star rows: J Spica → J Juno RA 1.3511 conj (0.99)
     - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
 - **H Gonggong** (same body: S Gonggong → H Gonggong Dec 1.7775 1.77778 ninth (98.15))
@@ -621,8 +493,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, top rows: S Sun → J Gonggong RA 0.4481 conj (49.17)
   - other chart, star rows: J Acubens → J Gonggong RA 163.4191 101×φ golden (86.38)
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
-  - other chart, star rows: J Alphard → J Gonggong Dec 9.9922 10 whole (37.44)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - other chart, star rows: J Sadalmelik → J Gonggong RA 0.2481 conj (69.65)
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **J Venus** (same body: S Venus → J Venus Dec 40.4533 25×φ golden (85.45))
@@ -643,16 +513,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Aculeus RA 102.0008 102 whole (92.02)
   - other chart, star rows: H Mirfak → H Mars RA 49.9924 50 whole (38.47)
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
-  - other chart, star rows: H Regulus → H Mars RA 151.0101 151 whole (24.48)
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
   - other chart, star rows: H Sadalmelik → H Mars Dec 0.1640 conj (20.56)
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
   - other chart, star rows: H Spica → H Mars Dec 11.0047 11 whole (58.60)
     - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
 - **J Saturn** (same body: S Saturn → J Saturn Dec 7.9878 8 whole (15.14))
   - top rows: S Jupiter → J Saturn Dec 0.1184 conj (36.65)
-  - star rows: J Alphard → J Saturn Dec 0.1325 conj (31.16)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - star rows: J Menkent → J Saturn RA 132.6638 82×φ golden (28.95)
     - source line: S Jupiter → Menkent RA 130.9998 131 whole (98.49)
   - other chart, star rows: H Deneb Algedi → H Saturn RA 83.9934 84 whole (45.22)
@@ -662,20 +528,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
   - star rows: J Mirfak → J Juno RA 148.8773 92×φ golden (19.31)
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
-  - star rows: J Rigel → J Juno RA 121.3214 75×φ golden (0.14)
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
   - star rows: J Spica → J Juno RA 1.3511 conj (0.99)
     - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
   - other chart, same body: S Juno → H Juno RA 177.7114 177.778 ninth (94.81)
 - **J Vesta** (same body: S Vesta → J Vesta Dec 35.9705 36 whole (loose))
   - star rows: J Menkent → J Vesta RA 156.9658 97×φ golden (23.97)
     - source line: S Jupiter → Menkent RA 130.9998 131 whole (98.49)
-  - star rows: J Regulus → J Vesta Dec 3.0173 3 whole (1.85)
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
-  - other chart, star rows: H Regulus → H Vesta RA 163.0046 163 whole (59.54)
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
-  - other chart, star rows: H Regulus → H Vesta Dec 30.7469 19×φ golden (75.53)
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
 - **J Rahu** (same body: S Rahu → J Rahu RA 177.3359 177.778 ninth (loose))
   - top rows: S Jupiter → J Rahu RA 111.1910 111.111 ninth (86.93)
   - other chart, star rows: H Sadalmelik → H Rahu RA 142.0192 142 whole (0.14)
@@ -711,33 +569,21 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Ketu → J Ketu RA 177.3359 177.778 ninth (loose) = S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
   - 4 whole — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
     - J Alphecca → J Haumea Dec 4.0121 4 whole (15.58) = S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
-  - 4 whole — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
-    - J Rigel → J Jupiter Dec 3.9907 4 whole (28.61) = S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
 - **4. circle divisions**
   - 12 = 360/30 — also: 1 Fransham / Jack Andrews
     - H Acubens → H Mars Dec 12.0138 12 whole (9.59)
   - 15 = 360/24 — also: 4 Nickolson / Jonjo O'Neill Jr
     - H Acubens → H Eris Dec 14.9924 15 whole (38.56)
-  - 2 = 360/180 — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
-    - H Alphard → H Sun Dec 1.9909 2 whole (29.56)
-  - 1 = 360/360 — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
-    - H Alphard → H Neptune Dec 1.0067 1 whole (44.09)
-  - 45 = 360/8 — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
+  - 45 = 360/8 — also: 4 Nickolson / Jonjo O'Neill Jr
     - H Alphecca → H Mercury Dec 45.0192 45 whole (0.16)
-  - 18 = 360/20 — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
+  - 18 = 360/20 — also: 4 Nickolson / Jonjo O'Neill Jr
     - H Sadalmelik → H Mercury Dec 17.9872 18 whole (12.88)
   - 8 = 360/45 — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
     - S Saturn → J Saturn Dec 7.9878 8 whole (15.14)
   - 36 = 360/10 — also: 1 Fransham / Jack Andrews
     - S Vesta → J Vesta Dec 35.9705 36 whole (loose)
-  - 10 = 360/36 — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
-    - J Alphard → J Gonggong Dec 9.9922 10 whole (37.44)
   - 4 = 360/90 — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
     - J Alphecca → J Haumea Dec 4.0121 4 whole (15.58)
-  - 3 = 360/120 — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
-    - J Regulus → J Vesta Dec 3.0173 3 whole (1.85)
-  - 4 = 360/90 — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
-    - J Rigel → J Jupiter Dec 3.9907 4 whole (28.61)
   - 15 = 360/24 — also: 4 Nickolson / Jonjo O'Neill Jr
     - J Sadalmelik → J Mars Dec 15.0080 15 whole (35.74)
   - 5 = 360/72 — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
@@ -747,14 +593,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Jupiter → H Jupiter RA 155.6082 155.556 ninth (loose)
     - H Alkes → H Ketu RA 155.5255 155.556 ninth (97.15)
     - S Sedna → J Jupiter RA 155.5073 155.556 ninth (95.43)
-  - 14 whole — also: 1 Fransham / Jack Andrews
-    - S Pluto → H Pluto RA 13.9840 14 whole (4.05)
-    - H Regulus → H Makemake Dec 13.9902 14 whole (25.92)
   - 177.778 ninth — only
     - S Juno → H Juno RA 177.7114 177.778 ninth (94.81)
     - S Rahu → J Rahu RA 177.3359 177.778 ninth (loose)
     - S Ketu → J Ketu RA 177.3359 177.778 ninth (loose)
-  - 15 whole — also: 4 Nickolson / Jonjo O'Neill Jr
+  - 15 whole — only
     - H Acubens → H Eris Dec 14.9924 15 whole (38.56)
     - J Sadalmelik → J Mars Dec 15.0080 15 whole (35.74)
   - 10×φ^6 phi power — only
@@ -769,9 +612,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 35 whole — only
     - H Menkent → H Chiron Dec 35.0125 35 whole (14.12)
     - J Alkes → J Juno RA 35.0063 35 whole (47.24)
-  - 75×φ golden — only
-    - H Murzim → H Sun RA 121.3830 75×φ golden (0.35)
-    - J Rigel → J Juno RA 121.3214 75×φ golden (0.14)
   - 133 whole — only
     - H Spica → H Sun RA 132.9938 133 whole (47.60)
     - J Alkes → J Uranus RA 132.9814 133 whole (0.49)
@@ -781,9 +621,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 125 whole — only
     - J Aculeus → J Pallas RA 125.0197 125 whole (0.03)
     - J Spica → J Ceres RA 125.0155 125 whole (5.06)
-  - 4 whole — only
-    - J Alphecca → J Haumea Dec 4.0121 4 whole (15.58)
-    - J Rigel → J Jupiter Dec 3.9907 4 whole (28.61)
   - 97×φ golden — only
     - J Menkent → J Vesta RA 156.9658 97×φ golden (23.97)
     - J Spica → J Sedna RA 156.9280 97×φ golden (11.62)
@@ -805,14 +642,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Transpluto → J Jupiter Dec 22.6591 14×φ golden (63.26) — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
   - star rows: S Murzim → J Jupiter RA 118.1272 73×φ golden (44.73) — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
     - source line: S Sun → Murzim Dec 5.9982 6 whole (83.01)
-  - star rows: J Rigel → J Jupiter Dec 3.9907 4 whole (28.61) — only
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
 - **Pluto**
   - same body: S Pluto → H Pluto RA 13.9840 14 whole (4.05) — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
   - star rows: J Alkes → J Pluto Dec 12.9833 13 whole (2.66) — only
     - source line: S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
-  - star rows: J Rigel → J Pluto RA 158.5870 98×φ golden (15.47) — also: 5 Stepney Causeway / Harry Skelton
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
   - star rows: J Sadalmelik → J Pluto Dec 4.9976 5 whole (77.58) — only
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **Juno**
@@ -822,8 +655,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
   - star rows: J Mirfak → J Juno RA 148.8773 92×φ golden (19.31) — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
-  - star rows: J Rigel → J Juno RA 121.3214 75×φ golden (0.14) — also: 5 Stepney Causeway / Harry Skelton
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
   - star rows: J Spica → J Juno RA 1.3511 conj (0.99) — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
     - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
 - **Gonggong**
@@ -833,8 +664,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Sun → J Gonggong RA 0.4481 conj (49.17) — also: 4 Nickolson / Jonjo O'Neill Jr
   - star rows: J Acubens → J Gonggong RA 163.4191 101×φ golden (86.38) — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
-  - star rows: J Alphard → J Gonggong Dec 9.9922 10 whole (37.44) — only
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - star rows: J Sadalmelik → J Gonggong RA 0.2481 conj (69.65) — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **Mars**
@@ -844,8 +673,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Aculeus RA 102.0008 102 whole (92.02)
   - star rows: H Mirfak → H Mars RA 49.9924 50 whole (38.47) — also: 1 Fransham / Jack Andrews
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
-  - star rows: H Regulus → H Mars RA 151.0101 151 whole (24.48) — only
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
   - star rows: H Sadalmelik → H Mars Dec 0.1640 conj (20.56) — also: 5 Stepney Causeway / Harry Skelton
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
   - star rows: H Spica → H Mars Dec 11.0047 11 whole (58.60) — also: 4 Nickolson / Jonjo O'Neill Jr
@@ -862,12 +689,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Pallas**
   - star rows: H Acubens → H Pallas RA 126.9841 127 whole (4.27) — only
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
-  - star rows: H Alphard → H Pallas RA 119.7092 74×φ golden (4.76) — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - star rows: J Aculeus → J Pallas RA 125.0197 125 whole (0.03) — only
     - source line: S Moon → Aculeus RA 102.0008 102 whole (92.02)
-  - star rows: J Regulus → J Pallas RA 121.9823 122 whole (1.31) — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
 - **Eris**
   - star rows: H Acubens → H Eris Dec 14.9924 15 whole (38.56) — also: 4 Nickolson / Jonjo O'Neill Jr
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
@@ -875,8 +698,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
   - star rows: H Mirfak → H Eris Dec 53.0003 53 whole (96.68) — only
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
-  - star rows: J Rigel → J Eris Dec 0.1479 conj (25.71) — only
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
   - star rows: J Spica → J Eris RA 177.9665 110×φ golden (21.72) — only
     - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
 - **Mercury**
@@ -911,31 +732,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Menkent RA 130.9998 131 whole (98.49)
   - star rows: J Mirfak → J Ketu RA 0.4052 conj (53.27) — also: 1 Fransham / Jack Andrews
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
-- **Sun**
-  - star rows: H Alphard → H Sun Dec 1.9909 2 whole (29.56) — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
-  - star rows: H Murzim → H Sun RA 121.3830 75×φ golden (0.35) — also: 5 Stepney Causeway / Harry Skelton
-    - source line: S Sun → Murzim Dec 5.9982 6 whole (83.01)
-  - star rows: H Spica → H Sun RA 132.9938 133 whole (47.60) — also: 4 Nickolson / Jonjo O'Neill Jr
-    - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
-  - star rows: J Acubens → J Sun Dec 10.9970 11 whole (72.67) — also: 4 Nickolson / Jonjo O'Neill Jr
-    - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
-  - star rows: J Deneb Algedi → J Sun Dec 38.9811 39 whole (0.32) — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
-    - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
-  - star rows: J Mirfak → J Sun Dec 27.0037 27 whole (66.33) — also: 4 Nickolson / Jonjo O'Neill Jr
-    - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
-  - star rows: J Sadalmelik → J Sun RA 105.0153 105 whole (5.52) — only
-    - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
-  - star rows: J Spica → J Sun Dec 34.0179 34 whole (1.09) — also: 4 Nickolson / Jonjo O'Neill Jr
-    - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
-- **Neptune**
-  - star rows: H Alphard → H Neptune Dec 1.0067 1 whole (44.09) — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
-- **Orcus**
-  - star rows: H Alphard → H Orcus Dec 0.1562 conj (22.97) — also: 4 Nickolson / Jonjo O'Neill Jr
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
-  - star rows: H Regulus → H Orcus RA 1.4904 conj (0.00) — also: 5 Stepney Causeway / Harry Skelton
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
 - **Sedna**
   - star rows: H Alphecca → H Sedna RA 179.4072 10×φ^6 phi power (92.24) — also: 1 Fransham / Jack Andrews
     - source line: S Jupiter → Alphecca RA 108.9962 109 whole (65.79)
@@ -948,8 +744,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
   - same body: S Saturn → J Saturn Dec 7.9878 8 whole (15.14) — only
   - top rows: S Jupiter → J Saturn Dec 0.1184 conj (36.65) — only
-  - star rows: J Alphard → J Saturn Dec 0.1325 conj (31.16) — only
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - star rows: J Menkent → J Saturn RA 132.6638 82×φ golden (28.95) — only
     - source line: S Jupiter → Menkent RA 130.9998 131 whole (98.49)
 - **Haumea**
@@ -964,32 +758,37 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Makemake**
   - star rows: H Mirfak → H Makemake RA 142.3820 88×φ golden (71.39) — only
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
-  - star rows: H Regulus → H Makemake Dec 13.9902 14 whole (25.92) — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
   - star rows: J Menkent → J Makemake Dec 71.0070 71 whole (42.07) — only
     - source line: S Jupiter → Menkent RA 130.9998 131 whole (98.49)
-- **Vesta**
-  - star rows: H Regulus → H Vesta RA 163.0046 163 whole (59.54) — only
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
-  - star rows: H Regulus → H Vesta Dec 30.7469 19×φ golden (75.53) — only
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
-  - same body: S Vesta → J Vesta Dec 35.9705 36 whole (loose) — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
-  - star rows: J Menkent → J Vesta RA 156.9658 97×φ golden (23.97) — only
-    - source line: S Jupiter → Menkent RA 130.9998 131 whole (98.49)
-  - star rows: J Regulus → J Vesta Dec 3.0173 3 whole (1.85) — only
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
-- **Transpluto**
-  - star rows: H Regulus → H Transpluto RA 0.4135 conj (52.47) — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
-  - top rows: S Sun → J Transpluto Dec 25.8817 16×φ golden (62.09) — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
-  - top rows: S Moon → J Transpluto RA 17.9437 φ^6 phi power (98.68) — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
+- **Sun**
+  - star rows: H Murzim → H Sun RA 121.3830 75×φ golden (0.35) — also: 5 Stepney Causeway / Harry Skelton
+    - source line: S Sun → Murzim Dec 5.9982 6 whole (83.01)
+  - star rows: H Spica → H Sun RA 132.9938 133 whole (47.60) — also: 4 Nickolson / Jonjo O'Neill Jr
+    - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
+  - star rows: J Acubens → J Sun Dec 10.9970 11 whole (72.67) — also: 4 Nickolson / Jonjo O'Neill Jr
+    - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
+  - star rows: J Deneb Algedi → J Sun Dec 38.9811 39 whole (0.32) — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
+    - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
+  - star rows: J Mirfak → J Sun Dec 27.0037 27 whole (66.33) — also: 4 Nickolson / Jonjo O'Neill Jr
+    - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
+  - star rows: J Sadalmelik → J Sun RA 105.0153 105 whole (5.52) — only
+    - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
+  - star rows: J Spica → J Sun Dec 34.0179 34 whole (1.09) — also: 4 Nickolson / Jonjo O'Neill Jr
+    - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
 - **Rahu**
   - star rows: H Sadalmelik → H Rahu RA 142.0192 142 whole (0.14) — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
   - same body: S Rahu → J Rahu RA 177.3359 177.778 ninth (loose) — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
   - top rows: S Jupiter → J Rahu RA 111.1910 111.111 ninth (86.93) — also: 5 Stepney Causeway / Harry Skelton
+- **Vesta**
+  - same body: S Vesta → J Vesta Dec 35.9705 36 whole (loose) — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
+  - star rows: J Menkent → J Vesta RA 156.9658 97×φ golden (23.97) — only
+    - source line: S Jupiter → Menkent RA 130.9998 131 whole (98.49)
 - **Quaoar**
   - same body: S Quaoar → J Quaoar Dec 1.5578 1.55556 ninth (loose) — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
+- **Transpluto**
+  - top rows: S Sun → J Transpluto Dec 25.8817 16×φ golden (62.09) — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
+  - top rows: S Moon → J Transpluto RA 17.9437 φ^6 phi power (98.68) — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
 - **Uranus**
   - star rows: J Alkes → J Uranus RA 132.9814 133 whole (0.49) — also: 1 Fransham / Jack Andrews
     - source line: S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
@@ -1044,8 +843,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Sadalmelik → J Rahu RA 168.9958 169 whole (62.38)
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **H Haumea** (same body: S Haumea → H Haumea Dec 3.0278 3 whole (loose))
-  - star rows: H Alphard → H Haumea Dec 26.9980 27 whole (80.77)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - other chart, same body: S Haumea → J Haumea Dec 5.9835 6 whole (2.99)
   - other chart, star rows: J Deneb Algedi → J Haumea RA 131.0129 131 whole (12.42)
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
@@ -1058,13 +855,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Sadalmelik → J Gonggong RA 0.2583 conj (68.52)
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **H Ketu** (same body: S Ketu → H Ketu RA 151.9716 152 whole (loose))
-  - star rows: H Rigel → H Ketu Dec 19.0063 19 whole (47.11)
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
   - other chart, top rows: S Jupiter → J Ketu RA 0.2239 conj (72.37)
   - other chart, star rows: J Murzim → J Ketu RA 113.2349 70×φ golden (2.24)
     - source line: S Sun → Murzim Dec 5.9982 6 whole (83.01)
-  - other chart, star rows: J Regulus → J Ketu Dec 19.4155 12×φ golden (94.57)
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
   - other chart, star rows: J Sadalmelik → J Ketu RA 11.0042 11 whole (62.38)
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **J Sun** (same body: S Sun → J Sun RA 22.0133 22 whole (11.25))
@@ -1099,8 +892,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Deneb Algedi → J Haumea RA 131.0129 131 whole (12.42)
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
   - other chart, same body: S Haumea → H Haumea Dec 3.0278 3 whole (loose)
-  - other chart, star rows: H Alphard → H Haumea Dec 26.9980 27 whole (80.77)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
 ### L3 matches
 - **1. same body on both charts**
   - Mars — only
@@ -1124,27 +915,25 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 131 whole — only
     - J Deneb Algedi → J Haumea RA 131.0129 131 whole (12.42) = S Jupiter → Menkent RA 130.9998 131 whole (98.49)
 - **4. circle divisions**
-  - 3 = 360/120 — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
+  - 3 = 360/120 — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
     - S Haumea → H Haumea Dec 3.0278 3 whole (loose)
   - 6 = 360/60 — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
     - H Acubens → H Sun Dec 6.0096 6 whole (27.01)
-  - 3 = 360/120 — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
+  - 3 = 360/120 — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
     - H Alkes → H Saturn Dec 3.0171 3 whole (2.07)
   - 4 = 360/90 — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
     - H Deneb Algedi → H Pluto Dec 4.0052 4 whole (55.01)
-  - 45 = 360/8 — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister
+  - 45 = 360/8 — also: 3 Nelson River / Harry Bannister
     - H Menkent → H Juno Dec 45.0028 45 whole (74.24)
-  - 15 = 360/24 — also: 3 Nelson River / Harry Bannister
-    - H Regulus → H Eris Dec 15.0039 15 whole (64.65)
   - 6 = 360/60 — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
     - S Haumea → J Haumea Dec 5.9835 6 whole (2.99)
-  - 10 = 360/36 — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister
+  - 10 = 360/36 — also: 1 Fransham / Jack Andrews
     - J Jupiter → J Mercury Dec 10.0007 10 whole (93.41)
-  - 10 = 360/36 — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister
+  - 10 = 360/36 — also: 1 Fransham / Jack Andrews
     - S Mars → J Jupiter Dec 9.9953 10 whole (58.44)
   - 15 = 360/24 — also: 3 Nelson River / Harry Bannister
     - J Acubens → J Juno Dec 14.9978 15 whole (78.98)
-  - 18 = 360/20 — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
+  - 18 = 360/20 — also: 3 Nelson River / Harry Bannister
     - J Deneb Algedi → J Sun RA 18.0167 18 whole (2.71)
   - 8 = 360/45 — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
     - J Spica → J Juno Dec 8.0200 8 whole (0.00)
@@ -1168,12 +957,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Alkes → H Ceres RA 37.9973 38 whole (75.09)
     - H Spica → H Makemake Dec 37.9828 38 whole (1.98)
     - J Alphecca → J Ceres Dec 38.0160 38 whole (3.94)
-  - 7 whole — only
-    - H Alphard → H Orcus RA 6.9833 7 whole (2.67)
-    - J Alkes → J Ceres Dec 6.9941 7 whole (49.91)
-  - 15 whole — also: 3 Nelson River / Harry Bannister
-    - H Regulus → H Eris Dec 15.0039 15 whole (64.65)
-    - J Acubens → J Juno Dec 14.9978 15 whole (78.98)
   - 101×φ golden — only
     - H Spica → H Juno RA 163.4051 101×φ golden (24.66)
     - J Acubens → J Gonggong RA 163.4446 101×φ golden (8.04)
@@ -1183,9 +966,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 10 whole — also: 1 Fransham / Jack Andrews
     - J Jupiter → J Mercury Dec 10.0007 10 whole (93.41)
     - S Mars → J Jupiter Dec 9.9953 10 whole (58.44)
-  - 12×φ golden — only
-    - S Sun → J Rahu Dec 19.4110 12×φ golden (69.35)
-    - J Regulus → J Ketu Dec 19.4155 12×φ golden (94.57)
   - 11 whole — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
     - J Sadalmelik → J Ceres Dec 10.9836 11 whole (3.31)
     - J Sadalmelik → J Ketu RA 11.0042 11 whole (62.38)
@@ -1227,8 +1007,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **Haumea**
   - same body: S Haumea → H Haumea Dec 3.0278 3 whole (loose) — also: 5 Stepney Causeway / Harry Skelton
-  - star rows: H Alphard → H Haumea Dec 26.9980 27 whole (80.77) — only
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - same body: S Haumea → J Haumea Dec 5.9835 6 whole (2.99) — also: 5 Stepney Causeway / Harry Skelton
   - star rows: J Deneb Algedi → J Haumea RA 131.0129 131 whole (12.42) — also: 5 Stepney Causeway / Harry Skelton
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
@@ -1243,13 +1021,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **Ketu**
   - same body: S Ketu → H Ketu RA 151.9716 152 whole (loose) — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
-  - star rows: H Rigel → H Ketu Dec 19.0063 19 whole (47.11) — only
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
   - top rows: S Jupiter → J Ketu RA 0.2239 conj (72.37) — only
   - star rows: J Murzim → J Ketu RA 113.2349 70×φ golden (2.24) — also: 3 Nelson River / Harry Bannister
     - source line: S Sun → Murzim Dec 5.9982 6 whole (83.01)
-  - star rows: J Regulus → J Ketu Dec 19.4155 12×φ golden (94.57) — also: 1 Fransham / Jack Andrews
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
   - star rows: J Sadalmelik → J Ketu RA 11.0042 11 whole (62.38) — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **Mercury**
@@ -1261,8 +1035,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
   - star rows: H Menkent → H Transpluto Dec 47.9876 48 whole (14.40) — only
     - source line: S Jupiter → Menkent RA 130.9998 131 whole (98.49)
-  - star rows: H Regulus → H Transpluto RA 0.3873 conj (55.02) — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
   - top rows: S Sun → J Transpluto RA 176.3685 109×φ golden (83.72) — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister
 - **Jupiter**
   - top rows: S Pluto → H Jupiter RA 168.2681 104×φ golden (59.55) — only
@@ -1293,8 +1065,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
   - star rows: H Menkent → H Eris Dec 33.3373 33.3333 ninth (95.22) — only
     - source line: S Jupiter → Menkent RA 130.9998 131 whole (98.49)
-  - star rows: H Regulus → H Eris Dec 15.0039 15 whole (64.65) — only
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
 - **Uranus**
   - star rows: H Aculeus → H Uranus RA 108.4117 67×φ golden (79.92) — only
     - source line: S Moon → Aculeus RA 102.0008 102 whole (92.02)
@@ -1314,9 +1084,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
   - star rows: J Alphecca → J Saturn Dec 22.9953 23 whole (58.63) — only
     - source line: S Jupiter → Alphecca RA 108.9962 109 whole (65.79)
+- **Makemake**
+  - star rows: H Alphecca → H Makemake Dec 0.1064 conj (41.64) — also: 1 Fransham / Jack Andrews
+    - source line: S Jupiter → Alphecca RA 108.9962 109 whole (65.79)
+  - star rows: H Spica → H Makemake Dec 37.9828 38 whole (1.98) — also: 1 Fransham / Jack Andrews
+    - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
+- **Pallas**
+  - star rows: H Deneb Algedi → H Pallas Dec 29.1272 18×φ golden (84.52) — only
+    - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
+  - star rows: J Alkes → J Pallas RA 152.0695 94×φ golden (4.25) — only
+    - source line: S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
 - **Juno**
-  - star rows: H Alphard → H Juno RA 103.9991 104 whole (91.21) — also: 1 Fransham / Jack Andrews
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - star rows: H Menkent → H Juno Dec 45.0028 45 whole (74.24) — also: 1 Fransham / Jack Andrews
     - source line: S Jupiter → Menkent RA 130.9998 131 whole (98.49)
   - star rows: H Spica → H Juno RA 163.4051 101×φ golden (24.66) — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
@@ -1329,34 +1107,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
   - star rows: J Spica → J Juno Dec 8.0200 8 whole (0.00) — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
     - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
-- **Orcus**
-  - star rows: H Alphard → H Orcus RA 6.9833 7 whole (2.67) — also: 3 Nelson River / Harry Bannister
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
-  - star rows: J Sadalmelik → J Orcus RA 165.0399 102×φ golden (97.24) — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
-    - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
-  - star rows: J Sadalmelik → J Orcus Dec 0.2322 conj (5.10) — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
-    - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
-- **Makemake**
-  - star rows: H Alphecca → H Makemake Dec 0.1064 conj (41.64) — also: 1 Fransham / Jack Andrews
-    - source line: S Jupiter → Alphecca RA 108.9962 109 whole (65.79)
-  - star rows: H Spica → H Makemake Dec 37.9828 38 whole (1.98) — also: 1 Fransham / Jack Andrews
-    - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
-  - star rows: J Regulus → J Makemake Dec 21.0152 21 whole (5.86) — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
-- **Pallas**
-  - star rows: H Deneb Algedi → H Pallas Dec 29.1272 18×φ golden (84.52) — only
-    - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
-  - star rows: H Regulus → H Pallas RA 0.9628 conj (12.83) — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
-  - star rows: J Alkes → J Pallas RA 152.0695 94×φ golden (4.25) — only
-    - source line: S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
 - **Chiron**
   - star rows: H Sadalmelik → H Chiron RA 14.5680 9×φ golden (67.98) — only
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
   - star rows: J Acubens → J Chiron RA 91.0043 91 whole (61.43) — only
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
-  - star rows: J Rigel → J Chiron RA 146.9932 147 whole (43.61) — also: 1 Fransham / Jack Andrews
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
 - **Vesta**
   - star rows: H Sadalmelik → H Vesta RA 131.0542 81×φ golden (63.51) — only
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
@@ -1367,10 +1122,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
   - star rows: J Aculeus → J Venus RA 26.1810 10×φ^2 phi power (99.02) — only
     - source line: S Moon → Aculeus RA 102.0008 102 whole (92.02)
-  - star rows: J Regulus → J Venus RA 139.1611 86×φ golden (47.19) — also: 1 Fransham / Jack Andrews
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
 - **Neptune**
   - same body: S Neptune → J Neptune Dec 15.4873 15.5556 ninth (loose) — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
+- **Orcus**
+  - star rows: J Sadalmelik → J Orcus RA 165.0399 102×φ golden (97.24) — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
+    - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
+  - star rows: J Sadalmelik → J Orcus Dec 0.2322 conj (5.10) — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
+    - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **Sedna**
   - star rows: J Spica → J Sedna Dec 15.9935 16 whole (45.83) — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
     - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
@@ -1405,8 +1163,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Ketu → J Ketu Dec 32.3729 20×φ golden (loose)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun RA 29.9995 30 whole (95.24); S Sun → H Sun Dec 12.2841 12.2222 ninth (loose))
-  - star rows: H Alphard → H Sun Dec 8.9844 9 whole (4.86)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - star rows: H Deneb Algedi → H Sun RA 33.9938 34 whole (47.84)
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
   - other chart, star rows: J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49)
@@ -1417,8 +1173,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Mirfak → H Mercury Dec 43.6855 27×φ golden (91.16)
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
   - other chart, same body: S Mercury → J Mercury RA 119.9840 120 whole (3.94)
-  - other chart, star rows: J Regulus → J Mercury Dec 18.0130 18 whole (12.15)
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
 - **H Venus** (same body: S Venus → H Venus Dec 27.5346 17×φ golden (loose))
   - star rows: H Menkent → H Venus Dec 46.9882 47 whole (16.85)
     - source line: S Jupiter → Menkent RA 130.9998 131 whole (98.49)
@@ -1426,8 +1180,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
   - other chart, star rows: J Acubens → J Venus RA 82.0079 82 whole (36.33)
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
-  - other chart, star rows: J Rigel → J Venus RA 137.9904 138 whole (27.24)
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
 - **H Jupiter** (same body: S Jupiter → H Jupiter Dec 1.9789 2 whole (loose))
   - top rows: S Makemake → H Jupiter RA 0.0444 conj (94.17)
   - top rows: S Transpluto → H Jupiter RA 44.4449 44.4444 ninth (99.50)
@@ -1458,8 +1210,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, same body: S Rahu → J Rahu Dec 32.3729 20×φ golden (loose)
   - other chart, star rows: J Deneb Algedi → J Rahu RA 1.0206 conj (10.21)
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
-  - other chart, star rows: J Regulus → J Rahu Dec 24.9838 25 whole (3.60)
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
 - **H Haumea** (same body: S Haumea → H Haumea RA 4.8498 3×φ golden (loose))
   - top rows: S Sun → H Haumea Dec 29.1273 18×φ golden (84.12)
   - star rows: H Alphecca → H Haumea RA 20.9830 21 whole (2.25)
@@ -1491,32 +1241,20 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Mercury** (same body: S Mercury → J Mercury RA 119.9840 120 whole (3.94))
   - sky line to Mercury: S Sun → Mercury RA 26.1839 10×φ^2 phi power (94.68)
   - sky line to Mercury: S Moon → Mercury RA 141.4881 141.4 sqrt2 (82.02)
-  - star rows: J Regulus → J Mercury Dec 18.0130 18 whole (12.15)
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
   - other chart, same body: S Mercury → H Mercury RA 68.5691 10×φ^4 phi power (loose)
   - other chart, star rows: H Mirfak → H Mercury Dec 43.6855 27×φ golden (91.16)
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
 - **J Neptune** (same body: S Neptune → J Neptune Dec 17.8585 φ^6 phi power (loose))
-  - star rows: J Rigel → J Neptune Dec 13.9880 14 whole (15.94)
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
   - other chart, top rows: S Jupiter → H Neptune RA 1.2417 conj (2.97)
-  - other chart, star rows: H Alphard → H Neptune RA 157.9901 158 whole (25.28)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
 - **J Pluto** (same body: S Pluto → J Pluto RA 74.0240 74 whole (loose))
   - star rows: J Aculeus → J Pluto Dec 31.0125 31 whole (13.94)
     - source line: S Moon → Aculeus RA 102.0008 102 whole (92.02)
-  - other chart, star rows: H Rigel → H Pluto Dec 12.9936 13 whole (45.90)
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
 - **J Ceres** (same body: S Ceres → J Ceres RA 31.0060 31 whole (48.72))
   - other chart, same body: S Ceres → H Ceres RA 16.0155 16 whole (4.99)
   - other chart, star rows: H Alkes → H Ceres RA 122.0022 122 whole (79.39)
     - source line: S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
 - **J Pallas** (same body: S Pallas → J Pallas Dec 0.9876 1 whole (14.35))
-  - star rows: J Regulus → J Pallas RA 137.5605 85×φ golden (2.14)
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
   - other chart, top rows: S Jupiter → H Pallas Dec 6.0016 6 whole (84.43)
-  - other chart, star rows: H Alphard → H Pallas RA 144.4560 144.444 ninth (98.77)
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - other chart, star rows: H Murzim → H Pallas Dec 15.5523 15.5556 ninth (96.94)
     - source line: S Sun → Murzim Dec 5.9982 6 whole (83.01)
   - other chart, star rows: H Sadalmelik → H Pallas RA 26.0034 26 whole (69.24)
@@ -1524,8 +1262,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Juno** (same body: S Juno → J Juno Dec 10.9995 11 whole (94.77))
   - star rows: J Murzim → J Juno Dec 17.7707 17.7778 ninth (94.45)
     - source line: S Sun → Murzim Dec 5.9982 6 whole (83.01)
-  - star rows: J Rigel → J Juno Dec 8.0172 8 whole (2.00)
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
   - star rows: J Sadalmelik → J Juno Dec 0.1361 conj (29.86)
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
   - star rows: J Spica → J Juno RA 11.1155 11.1111 ninth (92.74)
@@ -1536,15 +1272,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
   - other chart, star rows: H Mirfak → H Juno Dec 60.0027 60 whole (74.68)
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
-  - other chart, star rows: H Regulus → H Juno RA 130.0125 130 whole (14.10)
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
 - **J Vesta** (same body: S Vesta → J Vesta Dec 4.9940 5 whole (49.10))
   - other chart, same body: S Vesta → H Vesta RA 177.6063 177.778 ninth (loose)
 - **J Rahu** (same body: S Rahu → J Rahu Dec 32.3729 20×φ golden (loose))
   - star rows: J Deneb Algedi → J Rahu RA 1.0206 conj (10.21)
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
-  - star rows: J Regulus → J Rahu Dec 24.9838 25 whole (3.60)
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
   - other chart, same body: S Rahu → H Rahu Dec 8.8826 8.88889 ninth (loose)
   - other chart, top rows: S Jupiter → H Rahu Dec 18.8844 18.8889 ninth (96.77)
   - other chart, top rows: S Sun → H Rahu RA 175.9972 176 whole (73.58)
@@ -1560,8 +1292,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Sedna** (same body: S Sedna → J Sedna RA 16.0230 16 whole (loose))
   - star rows: J Murzim → J Sedna RA 53.3989 33×φ golden (78.24)
     - source line: S Sun → Murzim Dec 5.9982 6 whole (83.01)
-  - star rows: J Rigel → J Sedna Dec 12.2230 12.2222 ninth (98.86)
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
   - star rows: J Spica → J Sedna RA 159.0181 159 whole (0.87)
     - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
   - other chart, star rows: H Aculeus → H Sedna RA 150.4557 93×φ golden (11.34)
@@ -1583,8 +1313,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Murzim Dec 5.9982 6 whole (83.01)
   - star rows: J Sadalmelik → J Orcus RA 158.5431 98×φ golden (6.34)
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
-  - other chart, star rows: H Regulus → H Orcus RA 0.2413 conj (70.41)
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 44.4563 44.4444 ninth (loose))
   - star rows: J Acubens → J Quaoar Dec 24.9870 25 whole (12.30)
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
@@ -1594,8 +1322,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
   - star rows: J Mirfak → J Quaoar Dec 62.9873 63 whole (13.43)
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
-  - star rows: J Rigel → J Quaoar RA 153.7148 95×φ golden (90.48)
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
 - **J Gonggong** (same body: S Gonggong → J Gonggong RA 7.7743 7.77778 ninth (loose))
   - star rows: J Alkes → J Gonggong RA 163.9965 164 whole (67.89)
     - source line: S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
@@ -1654,7 +1380,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **4. circle divisions**
   - 30 = 360/12 — only
     - S Sun → H Sun RA 29.9995 30 whole (95.24)
-  - 2 = 360/180 — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister
+  - 2 = 360/180 — also: 1 Fransham / Jack Andrews
     - S Jupiter → H Jupiter Dec 1.9789 2 whole (loose)
   - 6 = 360/60 — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
     - H Jupiter → H Gonggong Dec 5.9966 6 whole (68.84)
@@ -1662,8 +1388,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Jupiter → H Pallas Dec 6.0016 6 whole (84.43)
   - 4 = 360/90 — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
     - S Sun → H Ketu RA 4.0028 4 whole (73.58)
-  - 9 = 360/40 — only
-    - H Alphard → H Sun Dec 8.9844 9 whole (4.86)
   - 6 = 360/60 — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
     - H Deneb Algedi → H Juno Dec 5.9901 6 whole (25.30)
   - 8 = 360/45 — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
@@ -1672,22 +1396,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Mirfak → H Juno Dec 60.0027 60 whole (74.68)
   - 120 = 360/3 — only
     - S Mercury → J Mercury RA 119.9840 120 whole (3.94)
-  - 1 = 360/360 — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister
+  - 1 = 360/360 — also: 1 Fransham / Jack Andrews
     - S Pallas → J Pallas Dec 0.9876 1 whole (14.35)
   - 5 = 360/72 — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister
     - S Vesta → J Vesta Dec 4.9940 5 whole (49.10)
-  - 3 = 360/120 — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
+  - 3 = 360/120 — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
     - J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)
   - 60 = 360/6 — only
     - J Menkent → J Uranus RA 59.9979 60 whole (79.83)
-  - 18 = 360/20 — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
-    - J Regulus → J Mercury Dec 18.0130 18 whole (12.15)
-  - 8 = 360/45 — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
-    - J Rigel → J Juno Dec 8.0172 8 whole (2.00)
 - **5. same number in more than one place**
-  - 12.2222 ninth — only
-    - S Sun → H Sun Dec 12.2841 12.2222 ninth (loose)
-    - J Rigel → J Sedna Dec 12.2230 12.2222 ninth (98.86)
   - 16 whole — also: 1 Fransham / Jack Andrews
     - S Ceres → H Ceres RA 16.0155 16 whole (4.99)
     - S Sedna → J Sedna RA 16.0230 16 whole (loose)
@@ -1725,22 +1442,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 93×φ golden — only
     - H Aculeus → H Sedna RA 150.4557 93×φ golden (11.34)
     - J Sadalmelik → J Mars RA 150.4579 93×φ golden (16.37)
-  - 11 whole — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
-    - H Alphard → H Transpluto RA 11.0068 11 whole (43.34)
-    - S Juno → J Juno Dec 10.9995 11 whole (94.77)
-    - J Acubens → J Jupiter Dec 11.0099 11 whole (25.38)
   - 100×φ^1 phi power — only
     - H Alphecca → H Mars RA 161.8722 100×φ^1 phi power (83.72)
     - H Spica → H Venus RA 161.8647 100×φ^1 phi power (85.41)
-  - 8 whole — also: 1 Fransham / Jack Andrews
-    - H Deneb Algedi → H Ketu RA 7.9972 8 whole (73.61)
-    - J Rigel → J Juno Dec 8.0172 8 whole (2.00)
   - 60 whole — only
     - H Mirfak → H Juno Dec 60.0027 60 whole (74.68)
     - J Menkent → J Uranus RA 59.9979 60 whole (79.83)
   - 31 whole — only
     - S Ceres → J Ceres RA 31.0060 31 whole (48.72)
     - J Aculeus → J Pluto Dec 31.0125 31 whole (13.94)
+  - 11 whole — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
+    - S Juno → J Juno Dec 10.9995 11 whole (94.77)
+    - J Acubens → J Jupiter Dec 11.0099 11 whole (25.38)
   - 20×φ golden — only
     - S Rahu → J Rahu Dec 32.3729 20×φ golden (loose)
     - S Ketu → J Ketu Dec 32.3729 20×φ golden (loose)
@@ -1750,15 +1463,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 39 whole — only
     - J Jupiter → J star Deneb Algedi Dec 38.9942 39 whole (50.53)
     - S Deneb Algedi → J Jupiter Dec 39.0002 39 whole (97.85)
-  - 25 whole — only
-    - J Acubens → J Quaoar Dec 24.9870 25 whole (12.30)
-    - J Regulus → J Rahu Dec 24.9838 25 whole (3.60)
 ### L4 every natal body
 - **Sun**
   - same body + top rows: S Sun → H Sun RA 29.9995 30 whole (95.24) — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
   - same body: S Sun → H Sun Dec 12.2841 12.2222 ninth (loose) — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
-  - star rows: H Alphard → H Sun Dec 8.9844 9 whole (4.86) — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - star rows: H Deneb Algedi → H Sun RA 33.9938 34 whole (47.84) — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
   - star rows: J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49) — also: 3 Nelson River / Harry Bannister
@@ -1772,8 +1480,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Mercury → J Mercury RA 119.9840 120 whole (3.94) — also: 1 Fransham / Jack Andrews
     - source line: S Sun → Mercury RA 26.1839 10×φ^2 phi power (94.68)
     - source line: S Moon → Mercury RA 141.4881 141.4 sqrt2 (82.02)
-  - star rows: J Regulus → J Mercury Dec 18.0130 18 whole (12.15) — only
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
 - **Venus**
   - same body: S Venus → H Venus Dec 27.5346 17×φ golden (loose) — also: 3 Nelson River / Harry Bannister
   - star rows: H Menkent → H Venus Dec 46.9882 47 whole (16.85) — only
@@ -1782,8 +1488,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
   - star rows: J Acubens → J Venus RA 82.0079 82 whole (36.33) — only
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
-  - star rows: J Rigel → J Venus RA 137.9904 138 whole (27.24) — also: 1 Fransham / Jack Andrews
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
 - **Jupiter**
   - same body: S Jupiter → H Jupiter Dec 1.9789 2 whole (loose) — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
   - T1: H Jupiter → H star Murzim RA 103.5451 64×φ golden (51.95) — only
@@ -1821,8 +1525,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Rahu → J Rahu Dec 32.3729 20×φ golden (loose) — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
   - star rows: J Deneb Algedi → J Rahu RA 1.0206 conj (10.21) — only
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
-  - star rows: J Regulus → J Rahu Dec 24.9838 25 whole (3.60) — also: 1 Fransham / Jack Andrews
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
 - **Haumea**
   - same body: S Haumea → H Haumea RA 4.8498 3×φ golden (loose) — also: 4 Nickolson / Jonjo O'Neill Jr
   - top rows: S Sun → H Haumea Dec 29.1273 18×φ golden (84.12) — only
@@ -1856,24 +1558,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **Neptune**
   - top rows: S Jupiter → H Neptune RA 1.2417 conj (2.97) — only
-  - star rows: H Alphard → H Neptune RA 157.9901 158 whole (25.28) — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - same body: S Neptune → J Neptune Dec 17.8585 φ^6 phi power (loose) — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
-  - star rows: J Rigel → J Neptune Dec 13.9880 14 whole (15.94) — only
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
 - **Chiron**
   - top rows: S Jupiter → H Chiron RA 11.1110 11.1111 ninth (99.76) — only
 - **Pallas**
   - top rows: S Jupiter → H Pallas Dec 6.0016 6 whole (84.43) — only
-  - star rows: H Alphard → H Pallas RA 144.4560 144.444 ninth (98.77) — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
   - star rows: H Murzim → H Pallas Dec 15.5523 15.5556 ninth (96.94) — only
     - source line: S Sun → Murzim Dec 5.9982 6 whole (83.01)
   - star rows: H Sadalmelik → H Pallas RA 26.0034 26 whole (69.24) — only
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
   - same body: S Pallas → J Pallas Dec 0.9876 1 whole (14.35) — also: 1 Fransham / Jack Andrews
-  - star rows: J Regulus → J Pallas RA 137.5605 85×φ golden (2.14) — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
 - **Uranus**
   - star rows: H Acubens → H Uranus RA 113.2399 70×φ golden (9.33) — also: 1 Fransham / Jack Andrews
     - source line: S Moon → Acubens Dec 0.1325 conj (31.18)
@@ -1891,13 +1585,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
   - star rows: H Mirfak → H Juno Dec 60.0027 60 whole (74.68) — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
-  - star rows: H Regulus → H Juno RA 130.0125 130 whole (14.10) — also: 1 Fransham / Jack Andrews
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
   - same body: S Juno → J Juno Dec 10.9995 11 whole (94.77) — also: 3 Nelson River / Harry Bannister
   - star rows: J Murzim → J Juno Dec 17.7707 17.7778 ninth (94.45) — only
     - source line: S Sun → Murzim Dec 5.9982 6 whole (83.01)
-  - star rows: J Rigel → J Juno Dec 8.0172 8 whole (2.00) — also: 3 Nelson River / Harry Bannister
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
   - star rows: J Sadalmelik → J Juno Dec 0.1361 conj (29.86) — only
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
   - star rows: J Spica → J Juno RA 11.1155 11.1111 ninth (92.74) — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
@@ -1908,34 +1598,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Sedna → J Sedna RA 16.0230 16 whole (loose) — only
   - star rows: J Murzim → J Sedna RA 53.3989 33×φ golden (78.24) — only
     - source line: S Sun → Murzim Dec 5.9982 6 whole (83.01)
-  - star rows: J Rigel → J Sedna Dec 12.2230 12.2222 ninth (98.86) — only
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
   - star rows: J Spica → J Sedna RA 159.0181 159 whole (0.87) — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
     - source line: S Sun → Spica RA 129.4502 80×φ golden (58.94)
-- **Transpluto**
-  - star rows: H Alphard → H Transpluto RA 11.0068 11 whole (43.34) — also: 1 Fransham / Jack Andrews
-    - source line: S Jupiter → Alphard Dec 0.2514 conj (2.63)
-  - star rows: H Murzim → H Transpluto Dec 29.1292 18×φ golden (73.58) — only
-    - source line: S Sun → Murzim Dec 5.9982 6 whole (83.01)
-  - star rows: H Regulus → H Transpluto RA 0.8113 conj (21.08) — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
 - **Mars**
   - star rows: H Alphecca → H Mars RA 161.8722 100×φ^1 phi power (83.72) — only
     - source line: S Jupiter → Alphecca RA 108.9962 109 whole (65.79)
   - star rows: J Sadalmelik → J Mars RA 150.4579 93×φ golden (16.37) — also: 3 Nelson River / Harry Bannister
     - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
-- **Orcus**
-  - star rows: H Regulus → H Orcus RA 0.2413 conj (70.41) — also: 3 Nelson River / Harry Bannister
-    - source line: S Moon → Regulus Dec 0.2419 conj (3.75)
-  - same body: S Orcus → J Orcus Dec 16.1655 10×φ^1 phi power (loose) — only
-    - source line: S Sun → Orcus Dec 0.1585 conj (22.25)
-  - star rows: J Murzim → J Orcus Dec 21.9984 22 whole (84.80) — only
+- **Transpluto**
+  - star rows: H Murzim → H Transpluto Dec 29.1292 18×φ golden (73.58) — only
     - source line: S Sun → Murzim Dec 5.9982 6 whole (83.01)
-  - star rows: J Sadalmelik → J Orcus RA 158.5431 98×φ golden (6.34) — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
-    - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **Pluto**
-  - star rows: H Rigel → H Pluto Dec 12.9936 13 whole (45.90) — also: 3 Nelson River / Harry Bannister
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
   - same body: S Pluto → J Pluto RA 74.0240 74 whole (loose) — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
   - star rows: J Aculeus → J Pluto Dec 31.0125 31 whole (13.94) — only
     - source line: S Moon → Aculeus RA 102.0008 102 whole (92.02)
@@ -1947,6 +1620,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
   - star rows: J Alphecca → J Eris RA 148.8900 92×φ golden (0.20) — only
     - source line: S Jupiter → Alphecca RA 108.9962 109 whole (65.79)
+- **Orcus**
+  - same body: S Orcus → J Orcus Dec 16.1655 10×φ^1 phi power (loose) — only
+    - source line: S Sun → Orcus Dec 0.1585 conj (22.25)
+  - star rows: J Murzim → J Orcus Dec 21.9984 22 whole (84.80) — only
+    - source line: S Sun → Murzim Dec 5.9982 6 whole (83.01)
+  - star rows: J Sadalmelik → J Orcus RA 158.5431 98×φ golden (6.34) — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
+    - source line: S Sun → Sadalmelik RA 0.6895 conj (29.20)
 - **Quaoar**
   - same body: S Quaoar → J Quaoar RA 44.4563 44.4444 ninth (loose) — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister
   - star rows: J Acubens → J Quaoar Dec 24.9870 25 whole (12.30) — also: 1 Fransham / Jack Andrews
@@ -1957,8 +1637,3 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
   - star rows: J Mirfak → J Quaoar Dec 62.9873 63 whole (13.43) — only
     - source line: S Moon → Mirfak RA 111.9990 112 whole (90.41)
-  - star rows: J Rigel → J Quaoar RA 153.7148 95×φ golden (90.48) — only
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)
-- **Saturn**
-  - star rows: J Rigel → J Saturn Dec 14.5643 9×φ golden (88.11) — only
-    - source line: S Jupiter → Rigel Dec 0.2047 conj (10.09)

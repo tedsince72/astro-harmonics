@@ -92,13 +92,6 @@
      "other_chart_same_body": [],
      "on_other_chart": [
       {
-       "text": "J Castor → J Saturn RA 99.9840 100 whole (3.96)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ]
-      },
-      {
        "text": "J Galactic Centre → J Saturn Dec 31.9961 32 whole (64.81)",
        "layer": "star rows",
        "source_lines": [
@@ -293,16 +286,12 @@
       {
        "text": "S Venus → J Jupiter RA 33.9953 34 whole (58.60)",
        "layer": "top rows",
-       "source_lines": [
-        "S Moon → Venus RA 173.1408 107×φ golden (42.72)"
-       ]
+       "source_lines": []
       },
       {
        "text": "S Venus → J Jupiter Dec 0.1343 conj (30.50)",
        "layer": "top rows",
-       "source_lines": [
-        "S Moon → Venus RA 173.1408 107×φ golden (42.72)"
-       ]
+       "source_lines": []
       },
       {
        "text": "S Saturn → J Jupiter RA 0.1337 conj (82.97)",
@@ -547,18 +536,6 @@
         "Saturn"
        ],
        "field": "also: 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello"
-      },
-      {
-       "text": "J Castor → J Saturn RA 99.9840 100 whole (3.96)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Saturn"
-       ],
-       "field": "also: 7 Red Tornado / Jason Hart"
       },
       {
        "text": "J Galactic Centre → J Saturn Dec 31.9961 32 whole (64.81)",
@@ -1034,9 +1011,7 @@
       {
        "text": "S Venus → J Jupiter RA 33.9953 34 whole (58.60)",
        "layer": "top rows",
-       "source_lines": [
-        "S Moon → Venus RA 173.1408 107×φ golden (42.72)"
-       ],
+       "source_lines": [],
        "key": [
         "S Venus",
         "Jupiter"
@@ -1046,9 +1021,7 @@
       {
        "text": "S Venus → J Jupiter Dec 0.1343 conj (30.50)",
        "layer": "top rows",
-       "source_lines": [
-        "S Moon → Venus RA 173.1408 107×φ golden (42.72)"
-       ],
+       "source_lines": [],
        "key": [
         "S Venus",
         "Jupiter"
@@ -1428,18 +1401,6 @@
        "field": "also: 5 Carn A Chlamain / Tom Marquand"
       },
       {
-       "text": "J Castor → J Haumea Dec 10.9857 11 whole (8.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Haumea"
-       ],
-       "field": "only"
-      },
-      {
        "text": "J Meissa → J Haumea RA 111.6583 69×φ golden (32.25)",
        "layer": "star rows",
        "source_lines": [
@@ -1479,18 +1440,6 @@
         "Venus"
        ],
        "field": "also: 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart"
-      },
-      {
-       "text": "J Castor → J Venus Dec 55.9864 56 whole (10.39)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Venus"
-       ],
-       "field": "only"
       },
       {
        "text": "J Facies → J Venus Dec 0.1943 conj (12.41)",
@@ -1920,14 +1869,6 @@
       "field": "also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand"
      },
      {
-      "label": "56 whole",
-      "cells": [
-       "H Facies → H Ceres RA 55.9869 56 whole (11.83)",
-       "J Castor → J Venus Dec 55.9864 56 whole (10.39)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "28 whole",
       "cells": [
        "H Meissa → H Sun Dec 27.9992 28 whole (91.89)",
@@ -2021,9 +1962,7 @@
      "same_body": [
       "S Venus → H Venus RA 90.0206 90 whole (loose)"
      ],
-     "body_lines": [
-      "S Moon → Venus RA 173.1408 107×φ golden (42.72)"
-     ],
+     "body_lines": [],
      "on_this_chart": [
       {
        "text": "H Sadalmelik → H Venus Dec 5.9828 6 whole (1.91)",
@@ -2152,13 +2091,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)"
-       ]
-      },
-      {
-       "text": "H Castor → H Ceres Dec 0.1379 conj (29.18)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
        ]
       },
       {
@@ -2430,13 +2362,6 @@
        ]
       },
       {
-       "text": "H Castor → H Ceres Dec 0.1379 conj (29.18)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ]
-      },
-      {
        "text": "H Galactic Centre → H Ceres RA 135.9804 136 whole (0.03)",
        "layer": "star rows",
        "source_lines": [
@@ -2566,9 +2491,7 @@
       {
        "text": "S Venus → H Venus RA 90.0206 90 whole (loose)",
        "layer": "same body",
-       "source_lines": [
-        "S Moon → Venus RA 173.1408 107×φ golden (42.72)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Venus"
@@ -2794,18 +2717,6 @@
         "Ceres"
        ],
        "field": "also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand"
-      },
-      {
-       "text": "H Castor → H Ceres Dec 0.1379 conj (29.18)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Ceres"
-       ],
-       "field": "only"
       },
       {
        "text": "H Galactic Centre → H Ceres RA 135.9804 136 whole (0.03)",
@@ -4069,21 +3980,21 @@
       "cells": [
        "S Aculeus → H Jupiter Dec 14.9800 15 whole (0.00)"
       ],
-      "field": "also: 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand"
+      "field": "also: 5 Carn A Chlamain / Tom Marquand"
      },
      {
       "label": "30 = 360/12",
       "cells": [
        "H Aculeus → H Eris Dec 30.0179 30 whole (1.15)"
       ],
-      "field": "also: 6 Flamingo Rose / Dougie Costello"
+      "field": "only"
      },
      {
       "label": "72 = 360/5",
       "cells": [
        "H Alkaid → H Saturn RA 72.0111 72 whole (19.78)"
       ],
-      "field": "also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand"
+      "field": "also: 5 Carn A Chlamain / Tom Marquand"
      },
      {
       "label": "6 = 360/60",
@@ -4104,7 +4015,7 @@
       "cells": [
        "J Alkaid → J Vesta Dec 30.0155 30 whole (5.09)"
       ],
-      "field": "also: 6 Flamingo Rose / Dougie Costello"
+      "field": "only"
      },
      {
       "label": "10 = 360/36",
@@ -4691,9 +4602,7 @@
      "same_body": [
       "S Venus → J Venus RA 176.0231 176 whole (loose)"
      ],
-     "body_lines": [
-      "S Moon → Venus RA 173.1408 107×φ golden (42.72)"
-     ],
+     "body_lines": [],
      "on_this_chart": [
       {
        "text": "J Aculeus → J Venus RA 155.5578 155.556 ninth (99.79)",
@@ -4783,13 +4692,6 @@
      "other_chart_same_body": [],
      "on_other_chart": [
       {
-       "text": "H Castor → H Pallas RA 48.9829 49 whole (2.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ]
-      },
-      {
        "text": "H Facies → H Pallas Dec 16.0162 16 whole (3.65)",
        "layer": "star rows",
        "source_lines": [
@@ -4852,15 +4754,7 @@
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Castor → H Rahu Dec 14.9807 15 whole (0.11)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -5407,18 +5301,6 @@
        "field": "also: 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart"
       },
       {
-       "text": "H Castor → H Gonggong Dec 44.0149 44 whole (6.58)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Gonggong"
-       ],
-       "field": "also: 6 Flamingo Rose / Dougie Costello"
-      },
-      {
        "text": "H Deneb Algedi → H Gonggong Dec 4.0034 4 whole (69.03)",
        "layer": "star rows",
        "source_lines": [
@@ -5504,132 +5386,6 @@
         "Mercury"
        ],
        "field": "also: 6 Flamingo Rose / Dougie Costello"
-      }
-     ]
-    },
-    {
-     "body": "Pallas",
-     "cells": [
-      {
-       "text": "H Castor → H Pallas RA 48.9829 49 whole (2.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Pallas"
-       ],
-       "field": "also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello"
-      },
-      {
-       "text": "H Facies → H Pallas Dec 16.0162 16 whole (3.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Facies RA 166.6813 166.667 ninth (98.75)"
-       ],
-       "key": [
-        "Facies",
-        "Pallas"
-       ],
-       "field": "also: 5 Carn A Chlamain / Tom Marquand"
-      },
-      {
-       "text": "S Pallas → J Pallas RA 151.9767 152 whole (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Pallas"
-       ],
-       "field": "also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello"
-      },
-      {
-       "text": "J Galactic Centre → J Pallas RA 110.9868 10×φ^5 phi power (71.66)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Galactic Centre RA 153.9991 154 whole (91.44)"
-       ],
-       "key": [
-        "Galactic Centre",
-        "Pallas"
-       ],
-       "field": "also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart"
-      },
-      {
-       "text": "J Rasalhague → J Pallas Dec 2.0109 2 whole (20.69)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)"
-       ],
-       "key": [
-        "Rasalhague",
-        "Pallas"
-       ],
-       "field": "also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart"
-      },
-      {
-       "text": "J Sadalmelik → J Pallas RA 176.0134 176 whole (11.03)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)"
-       ],
-       "key": [
-        "Sadalmelik",
-        "Pallas"
-       ],
-       "field": "also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart"
-      }
-     ]
-    },
-    {
-     "body": "Rahu",
-     "cells": [
-      {
-       "text": "H Castor → H Rahu Dec 14.9807 15 whole (0.11)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Rahu"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Rahu → J Rahu RA 61.5000 38×φ golden (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Rahu"
-       ],
-       "field": "also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart"
-      },
-      {
-       "text": "J Rasalhague → J Rahu RA 147.2109 91×φ golden (0.43)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)"
-       ],
-       "key": [
-        "Rasalhague",
-        "Rahu"
-       ],
-       "field": "also: 5 Carn A Chlamain / Tom Marquand"
-      },
-      {
-       "text": "J Spica → J Rahu Dec 32.3634 20×φ golden (83.66)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Spica RA 88.8867 88.8889 ninth (98.39)"
-       ],
-       "key": [
-        "Spica",
-        "Rahu"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -5806,6 +5562,69 @@
      ]
     },
     {
+     "body": "Pallas",
+     "cells": [
+      {
+       "text": "H Facies → H Pallas Dec 16.0162 16 whole (3.65)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Facies RA 166.6813 166.667 ninth (98.75)"
+       ],
+       "key": [
+        "Facies",
+        "Pallas"
+       ],
+       "field": "also: 5 Carn A Chlamain / Tom Marquand"
+      },
+      {
+       "text": "S Pallas → J Pallas RA 151.9767 152 whole (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Pallas"
+       ],
+       "field": "also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello"
+      },
+      {
+       "text": "J Galactic Centre → J Pallas RA 110.9868 10×φ^5 phi power (71.66)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Galactic Centre RA 153.9991 154 whole (91.44)"
+       ],
+       "key": [
+        "Galactic Centre",
+        "Pallas"
+       ],
+       "field": "also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart"
+      },
+      {
+       "text": "J Rasalhague → J Pallas Dec 2.0109 2 whole (20.69)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)"
+       ],
+       "key": [
+        "Rasalhague",
+        "Pallas"
+       ],
+       "field": "also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart"
+      },
+      {
+       "text": "J Sadalmelik → J Pallas RA 176.0134 176 whole (11.03)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)"
+       ],
+       "key": [
+        "Sadalmelik",
+        "Pallas"
+       ],
+       "field": "also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart"
+      }
+     ]
+    },
+    {
      "body": "Venus",
      "cells": [
       {
@@ -5823,9 +5642,7 @@
       {
        "text": "S Venus → J Venus RA 176.0231 176 whole (loose)",
        "layer": "same body",
-       "source_lines": [
-        "S Moon → Venus RA 173.1408 107×φ golden (42.72)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Venus"
@@ -6005,6 +5822,45 @@
      ]
     },
     {
+     "body": "Rahu",
+     "cells": [
+      {
+       "text": "S Rahu → J Rahu RA 61.5000 38×φ golden (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Rahu"
+       ],
+       "field": "also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart"
+      },
+      {
+       "text": "J Rasalhague → J Rahu RA 147.2109 91×φ golden (0.43)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)"
+       ],
+       "key": [
+        "Rasalhague",
+        "Rahu"
+       ],
+       "field": "also: 5 Carn A Chlamain / Tom Marquand"
+      },
+      {
+       "text": "J Spica → J Rahu Dec 32.3634 20×φ golden (83.66)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Spica RA 88.8867 88.8889 ninth (98.39)"
+       ],
+       "key": [
+        "Spica",
+        "Rahu"
+       ],
+       "field": "only"
+      }
+     ]
+    },
+    {
      "body": "Jupiter",
      "cells": [
       {
@@ -6153,13 +6009,6 @@
        "S Pluto → H Pluto Dec 1.0176 1 whole (1.43)"
       ],
       "field": "also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart"
-     },
-     {
-      "label": "15 = 360/24",
-      "cells": [
-       "H Castor → H Rahu Dec 14.9807 15 whole (0.11)"
-      ],
-      "field": "also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand"
      },
      {
       "label": "4 = 360/90",
@@ -6402,15 +6251,7 @@
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "J Castor → J Sun RA 72.0109 72 whole (20.67)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "H",
@@ -6745,13 +6586,6 @@
      "body_lines": [],
      "on_this_chart": [
       {
-       "text": "J Castor → J Makemake RA 62.0049 62 whole (57.07)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ]
-      },
-      {
        "text": "J Deneb Algedi → J Makemake Dec 49.9847 50 whole (5.42)",
        "layer": "star rows",
        "source_lines": [
@@ -6930,18 +6764,6 @@
         "Sun"
        ],
        "field": "also: 6 Flamingo Rose / Dougie Costello"
-      },
-      {
-       "text": "J Castor → J Sun RA 72.0109 72 whole (20.67)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Sun"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -7064,30 +6886,6 @@
        "field": "only"
       },
       {
-       "text": "H Castor → H Mars RA 85.0040 85 whole (63.93)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Mars"
-       ],
-       "field": "also: 6 Flamingo Rose / Dougie Costello"
-      },
-      {
-       "text": "H Castor → H Mars Dec 19.9831 20 whole (2.36)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Mars"
-       ],
-       "field": "also: 6 Flamingo Rose / Dougie Costello"
-      },
-      {
        "text": "H Galactic Centre → H Mars RA 122.2318 122.222 ninth (98.67)",
        "layer": "star rows",
        "source_lines": [
@@ -7176,18 +6974,6 @@
        "field": "also: 1 The Dancing Poet / Harry Russell"
       },
       {
-       "text": "H Castor → H Vesta RA 1.3607 conj (0.86)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Vesta"
-       ],
-       "field": "also: 5 Carn A Chlamain / Tom Marquand"
-      },
-      {
        "text": "H Spica → H Vesta RA 89.0114 89 whole (18.40)",
        "layer": "star rows",
        "source_lines": [
@@ -7198,18 +6984,6 @@
         "Vesta"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Castor → J Vesta RA 113.0030 113 whole (72.06)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Vesta"
-       ],
-       "field": "also: 5 Carn A Chlamain / Tom Marquand"
       },
       {
        "text": "J Facies → J Vesta Dec 18.9980 19 whole (80.97)",
@@ -7405,18 +7179,6 @@
         "Makemake"
        ],
        "field": "also: 5 Carn A Chlamain / Tom Marquand"
-      },
-      {
-       "text": "J Castor → J Makemake RA 62.0049 62 whole (57.07)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Makemake"
-       ],
-       "field": "only"
       },
       {
        "text": "J Deneb Algedi → J Makemake Dec 49.9847 50 whole (5.42)",
@@ -7786,71 +7548,6 @@
      ]
     },
     {
-     "body": "Pallas",
-     "cells": [
-      {
-       "text": "H Castor → H Pallas RA 119.7142 74×φ golden (13.75)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Pallas"
-       ],
-       "field": "also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello"
-      },
-      {
-       "text": "H Castor → H Pallas Dec 35.0096 35 whole (26.86)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Pallas"
-       ],
-       "field": "also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello"
-      },
-      {
-       "text": "H Deneb Algedi → H Pallas Dec 13.0086 13 whole (32.31)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 0.1261 conj (83.89)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Pallas"
-       ],
-       "field": "also: 5 Carn A Chlamain / Tom Marquand"
-      },
-      {
-       "text": "H Galactic Centre → H Pallas Dec 25.8856 16×φ golden (82.78)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Galactic Centre RA 153.9991 154 whole (91.44)"
-       ],
-       "key": [
-        "Galactic Centre",
-        "Pallas"
-       ],
-       "field": "also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart"
-      },
-      {
-       "text": "J Fomalhaut → J Pallas Dec 45.9959 46 whole (63.28)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Fomalhaut RA 128.0048 128 whole (57.65)"
-       ],
-       "key": [
-        "Fomalhaut",
-        "Pallas"
-       ],
-       "field": "also: 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart"
-      }
-     ]
-    },
-    {
      "body": "Saturn",
      "cells": [
       {
@@ -7900,6 +7597,47 @@
         "Saturn"
        ],
        "field": "also: 2 Flying Instructor / Dylan Hogan"
+      }
+     ]
+    },
+    {
+     "body": "Pallas",
+     "cells": [
+      {
+       "text": "H Deneb Algedi → H Pallas Dec 13.0086 13 whole (32.31)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Deneb Algedi RA 0.1261 conj (83.89)"
+       ],
+       "key": [
+        "Deneb Algedi",
+        "Pallas"
+       ],
+       "field": "also: 5 Carn A Chlamain / Tom Marquand"
+      },
+      {
+       "text": "H Galactic Centre → H Pallas Dec 25.8856 16×φ golden (82.78)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Galactic Centre RA 153.9991 154 whole (91.44)"
+       ],
+       "key": [
+        "Galactic Centre",
+        "Pallas"
+       ],
+       "field": "also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart"
+      },
+      {
+       "text": "J Fomalhaut → J Pallas Dec 45.9959 46 whole (63.28)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Fomalhaut RA 128.0048 128 whole (57.65)"
+       ],
+       "key": [
+        "Fomalhaut",
+        "Pallas"
+       ],
+       "field": "also: 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart"
       }
      ]
     },
@@ -8325,13 +8063,6 @@
     ],
     "3": [
      {
-      "label": "74×φ golden",
-      "cells": [
-       "H Castor → H Pallas RA 119.7142 74×φ golden (13.75) = S Moon → Neptune RA 119.7408 74×φ golden (65.12)"
-      ],
-      "field": "also: 7 Red Tornado / Jason Hart"
-     },
-     {
       "label": "13 whole",
       "cells": [
        "H Deneb Algedi → H Pallas Dec 13.0086 13 whole (32.31) = S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)"
@@ -8381,13 +8112,6 @@
        "H Alkaid → H Makemake RA 12.0182 12 whole (0.77)"
       ],
       "field": "also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello"
-     },
-     {
-      "label": "20 = 360/18",
-      "cells": [
-       "H Castor → H Mars Dec 19.9831 20 whole (2.36)"
-      ],
-      "field": "also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello"
      },
      {
       "label": "60 = 360/6",
@@ -8460,13 +8184,6 @@
       "field": "also: 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart"
      },
      {
-      "label": "72 = 360/5",
-      "cells": [
-       "J Castor → J Sun RA 72.0109 72 whole (20.67)"
-      ],
-      "field": "also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand"
-     },
-     {
       "label": "12 = 360/30",
       "cells": [
        "J Deneb Algedi → J Ceres RA 11.9987 12 whole (87.31)"
@@ -8511,14 +8228,6 @@
        "H Alphard → H Rahu Dec 19.0066 19 whole (45.20)",
        "J Alphard → J Mercury Dec 18.9937 19 whole (46.95)",
        "J Facies → J Vesta Dec 18.9980 19 whole (80.97)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "20 whole",
-      "cells": [
-       "H Castor → H Mars Dec 19.9831 20 whole (2.36)",
-       "H Fomalhaut → H Orcus Dec 19.9838 20 whole (3.54)"
       ],
       "field": "only"
      },
@@ -8618,9 +8327,7 @@
       {
        "text": "S Venus → H Jupiter Dec 0.2422 conj (3.72)",
        "layer": "top rows",
-       "source_lines": [
-        "S Moon → Venus RA 173.1408 107×φ golden (42.72)"
-       ]
+       "source_lines": []
       },
       {
        "text": "S Saturn → H Jupiter Dec 0.1121 conj (39.22)",
@@ -8721,15 +8428,7 @@
       "S Pluto → H Pluto Dec 1.0047 1 whole (58.15)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "H Castor → H Pluto Dec 53.3927 33×φ golden (85.35)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [
       "S Pluto → J Pluto Dec 13.0274 13 whole (loose)"
      ],
@@ -8975,13 +8674,6 @@
      "other_chart_same_body": [],
      "on_other_chart": [
       {
-       "text": "H Castor → H Uranus RA 87.0052 87 whole (54.99)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ]
-      },
-      {
        "text": "H Rasalhague → H Uranus RA 122.9044 φ^10 phi power (73.56)",
        "layer": "star rows",
        "source_lines": [
@@ -9067,15 +8759,7 @@
      "other_chart_same_body": [
       "S Pluto → H Pluto Dec 1.0047 1 whole (58.15)"
      ],
-     "on_other_chart": [
-      {
-       "text": "H Castor → H Pluto Dec 53.3927 33×φ golden (85.35)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -9367,9 +9051,7 @@
       {
        "text": "S Venus → H Jupiter Dec 0.2422 conj (3.72)",
        "layer": "top rows",
-       "source_lines": [
-        "S Moon → Venus RA 173.1408 107×φ golden (42.72)"
-       ],
+       "source_lines": [],
        "key": [
         "S Venus",
         "Jupiter"
@@ -9555,18 +9237,6 @@
         "Pluto"
        ],
        "field": "also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello"
-      },
-      {
-       "text": "H Castor → H Pluto Dec 53.3927 33×φ golden (85.35)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Pluto"
-       ],
-       "field": "only"
       },
       {
        "text": "S Pluto → J Pluto Dec 13.0274 13 whole (loose)",
@@ -10132,98 +9802,6 @@
      ]
     },
     {
-     "body": "Uranus",
-     "cells": [
-      {
-       "text": "H Castor → H Uranus RA 87.0052 87 whole (54.99)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Uranus"
-       ],
-       "field": "also: 6 Flamingo Rose / Dougie Costello"
-      },
-      {
-       "text": "H Rasalhague → H Uranus RA 122.9044 φ^10 phi power (73.56)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)"
-       ],
-       "key": [
-        "Rasalhague",
-        "Uranus"
-       ],
-       "field": "also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan"
-      },
-      {
-       "text": "H Sadalsuud → H Uranus Dec 16.0115 16 whole (18.18)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sadalsuud RA 3.9980 4 whole (80.68)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Uranus"
-       ],
-       "field": "also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez"
-      },
-      {
-       "text": "S Uranus → J Uranus RA 84.0272 84 whole (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Uranus"
-       ],
-       "field": "also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez"
-      }
-     ]
-    },
-    {
-     "body": "Vesta",
-     "cells": [
-      {
-       "text": "H Castor → H Vesta RA 160.1993 99×φ golden (32.38)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Vesta"
-       ],
-       "field": "also: 4 Deluxe Music / Callum Rodriguez"
-      },
-      {
-       "text": "J Aculeus → J Vesta Dec 45.9891 46 whole (20.86)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)"
-       ],
-       "key": [
-        "Aculeus",
-        "Vesta"
-       ],
-       "field": "also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 6 Flamingo Rose / Dougie Costello"
-      },
-      {
-       "text": "J Sadalsuud → J Vesta RA 84.1385 52×φ golden (95.29)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Sadalsuud RA 3.9980 4 whole (80.68)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Vesta"
-       ],
-       "field": "also: 7 Red Tornado / Jason Hart"
-      }
-     ]
-    },
-    {
      "body": "Rahu",
      "cells": [
       {
@@ -10497,6 +10075,45 @@
      ]
     },
     {
+     "body": "Uranus",
+     "cells": [
+      {
+       "text": "H Rasalhague → H Uranus RA 122.9044 φ^10 phi power (73.56)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)"
+       ],
+       "key": [
+        "Rasalhague",
+        "Uranus"
+       ],
+       "field": "also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan"
+      },
+      {
+       "text": "H Sadalsuud → H Uranus Dec 16.0115 16 whole (18.18)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Sadalsuud RA 3.9980 4 whole (80.68)"
+       ],
+       "key": [
+        "Sadalsuud",
+        "Uranus"
+       ],
+       "field": "also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez"
+      },
+      {
+       "text": "S Uranus → J Uranus RA 84.0272 84 whole (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Uranus"
+       ],
+       "field": "also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez"
+      }
+     ]
+    },
+    {
      "body": "Juno",
      "cells": [
       {
@@ -10643,6 +10260,35 @@
      ]
     },
     {
+     "body": "Vesta",
+     "cells": [
+      {
+       "text": "J Aculeus → J Vesta Dec 45.9891 46 whole (20.86)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)"
+       ],
+       "key": [
+        "Aculeus",
+        "Vesta"
+       ],
+       "field": "also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 6 Flamingo Rose / Dougie Costello"
+      },
+      {
+       "text": "J Sadalsuud → J Vesta RA 84.1385 52×φ golden (95.29)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Sadalsuud RA 3.9980 4 whole (80.68)"
+       ],
+       "key": [
+        "Sadalsuud",
+        "Vesta"
+       ],
+       "field": "also: 7 Red Tornado / Jason Hart"
+      }
+     ]
+    },
+    {
      "body": "Venus",
      "cells": [
       {
@@ -10777,7 +10423,7 @@
       "cells": [
        "H Fomalhaut → H Sedna RA 72.0076 72 whole (38.60)"
       ],
-      "field": "also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez"
+      "field": "also: 2 Flying Instructor / Dylan Hogan"
      },
      {
       "label": "9 = 360/40",
@@ -10798,7 +10444,7 @@
       "cells": [
        "H Meissa → H Makemake Dec 15.0194 15 whole (0.09)"
       ],
-      "field": "also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan"
+      "field": "also: 2 Flying Instructor / Dylan Hogan"
      },
      {
       "label": "18 = 360/20",
@@ -10819,7 +10465,7 @@
       "cells": [
        "S Neptune → J Neptune Dec 15.0180 15 whole (1.05)"
       ],
-      "field": "also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan"
+      "field": "also: 2 Flying Instructor / Dylan Hogan"
      },
      {
       "label": "3 = 360/120",
@@ -10847,7 +10493,7 @@
       "cells": [
        "J Alphard → J Saturn Dec 14.9967 15 whole (69.40)"
       ],
-      "field": "also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan"
+      "field": "also: 2 Flying Instructor / Dylan Hogan"
      },
      {
       "label": "5 = 360/72",
@@ -11039,15 +10685,7 @@
       "S Pallas → H Pallas RA 1.7657 1.77778 ninth (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "H Castor → H Pallas RA 108.4233 67×φ golden (28.79)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [
       "S Pallas → J Pallas Dec 17.8623 φ^6 phi power (loose)"
      ],
@@ -11238,13 +10876,6 @@
        "source_lines": []
       },
       {
-       "text": "J Castor → J Gonggong Dec 53.9932 54 whole (43.66)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ]
-      },
-      {
        "text": "J Deneb Algedi → J Gonggong RA 0.9339 conj (14.24)",
        "layer": "star rows",
        "source_lines": [
@@ -11308,13 +10939,6 @@
        "text": "S Sun → J Mars RA 38.8388 24×φ golden (66.48)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "J Castor → J Mars Dec 30.0060 30 whole (48.95)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ]
       },
       {
        "text": "J Deneb Algedi → J Mars Dec 18.0108 18 whole (21.21)",
@@ -11522,15 +11146,7 @@
      "other_chart_same_body": [
       "S Pallas → H Pallas RA 1.7657 1.77778 ninth (loose)"
      ],
-     "on_other_chart": [
-      {
-       "text": "H Castor → H Pallas RA 108.4233 67×φ golden (28.79)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -11549,13 +11165,6 @@
        "text": "S Sun → J Gonggong RA 0.8052 conj (21.46)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "J Castor → J Gonggong Dec 53.9932 54 whole (43.66)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ]
       },
       {
        "text": "J Deneb Algedi → J Gonggong RA 0.9339 conj (14.24)",
@@ -11725,18 +11334,6 @@
         "Pallas"
        ],
        "field": "also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand"
-      },
-      {
-       "text": "H Castor → H Pallas RA 108.4233 67×φ golden (28.79)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Pallas"
-       ],
-       "field": "also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez"
       },
       {
        "text": "S Pallas → J Pallas Dec 17.8623 φ^6 phi power (loose)",
@@ -12051,18 +11648,6 @@
        "field": "only"
       },
       {
-       "text": "J Castor → J Gonggong Dec 53.9932 54 whole (43.66)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Gonggong"
-       ],
-       "field": "also: 3 Chase The Dollar / Rossa Ryan"
-      },
-      {
        "text": "J Deneb Algedi → J Gonggong RA 0.9339 conj (14.24)",
        "layer": "star rows",
        "source_lines": [
@@ -12092,9 +11677,7 @@
       {
        "text": "S Venus → H Jupiter RA 88.8837 88.8889 ninth (96.23)",
        "layer": "top rows",
-       "source_lines": [
-        "S Moon → Venus RA 173.1408 107×φ golden (42.72)"
-       ],
+       "source_lines": [],
        "key": [
         "S Venus",
         "Jupiter"
@@ -12134,18 +11717,6 @@
         "Jupiter"
        ],
        "field": "only"
-      },
-      {
-       "text": "S Castor → H Jupiter RA 83.0175 83 whole (1.52)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Jupiter"
-       ],
-       "field": "also: 7 Red Tornado / Jason Hart"
       },
       {
        "text": "S Sadalsuud → H Jupiter RA 126.2131 78×φ golden (64.12)",
@@ -12210,18 +11781,6 @@
         "Jupiter"
        ],
        "field": "only"
-      },
-      {
-       "text": "S Castor → J Jupiter Dec 53.0157 53 whole (4.66)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Jupiter"
-       ],
-       "field": "also: 7 Red Tornado / Jason Hart"
       },
       {
        "text": "J Deneb Algedi → J Jupiter Dec 5.0009 5 whole (91.09)",
@@ -12851,18 +12410,6 @@
         "Neptune"
        ],
        "field": "also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart"
-      },
-      {
-       "text": "J Castor → J Neptune RA 155.5457 155.556 ninth (99.07)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Neptune"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -12933,18 +12480,6 @@
         "Uranus"
        ],
        "field": "also: 1 The Dancing Poet / Harry Russell"
-      },
-      {
-       "text": "J Castor → J Uranus RA 133.9824 134 whole (1.47)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Uranus"
-       ],
-       "field": "also: 5 Carn A Chlamain / Tom Marquand"
       }
      ]
     },
@@ -12972,18 +12507,6 @@
         "Mars"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Castor → J Mars Dec 30.0060 30 whole (48.95)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Mars"
-       ],
-       "field": "also: 4 Deluxe Music / Callum Rodriguez"
       },
       {
        "text": "J Deneb Algedi → J Mars Dec 18.0108 18 whole (21.21)",
@@ -13270,13 +12793,6 @@
       "field": "also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez"
      },
      {
-      "label": "30 = 360/12",
-      "cells": [
-       "J Castor → J Mars Dec 30.0060 30 whole (48.95)"
-      ],
-      "field": "also: 2 Flying Instructor / Dylan Hogan"
-     },
-     {
       "label": "5 = 360/72",
       "cells": [
        "J Deneb Algedi → J Jupiter Dec 5.0009 5 whole (91.09)"
@@ -13471,22 +12987,6 @@
        "J Alphard → J Vesta Dec 6.0160 6 whole (4.09)",
        "J Fomalhaut → J Ceres Dec 6.0158 6 whole (4.31)",
        "J Sadalsuud → J Mercury RA 5.9875 6 whole (13.91)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "155.556 ninth",
-      "cells": [
-       "J Castor → J Neptune RA 155.5457 155.556 ninth (99.07)",
-       "J Deneb Algedi → J Orcus RA 155.5459 155.556 ninth (99.09)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "54 whole",
-      "cells": [
-       "J Castor → J Gonggong Dec 53.9932 54 whole (43.66)",
-       "J Fomalhaut → J Sedna RA 54.0102 54 whole (23.88)"
       ],
       "field": "only"
      },
@@ -14395,18 +13895,6 @@
        "field": "also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand"
       },
       {
-       "text": "H Castor → H Saturn RA 94.0012 94 whole (87.96)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Saturn"
-       ],
-       "field": "also: 1 The Dancing Poet / Harry Russell"
-      },
-      {
        "text": "J Alkaid → J Saturn Dec 60.0125 60 whole (14.05)",
        "layer": "star rows",
        "source_lines": [
@@ -14746,52 +14234,6 @@
         "Neptune"
        ],
        "field": "also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez"
-      }
-     ]
-    },
-    {
-     "body": "Jupiter",
-     "cells": [
-      {
-       "text": "H Castor → H Jupiter RA 78.0167 78 whole (2.78)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Jupiter"
-       ],
-       "field": "also: 6 Flamingo Rose / Dougie Costello"
-      },
-      {
-       "text": "S Quaoar → J Jupiter Dec 0.0827 conj (52.47)",
-       "layer": "top rows",
-       "source_lines": [
-        "S Sun → Quaoar RA 50.1519 31×φ golden (60.58)"
-       ],
-       "key": [
-        "S Quaoar",
-        "Jupiter"
-       ],
-       "field": "also: 4 Deluxe Music / Callum Rodriguez"
-      }
-     ]
-    },
-    {
-     "body": "Sedna",
-     "cells": [
-      {
-       "text": "H Castor → H Sedna RA 61.0089 61 whole (30.75)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Castor RA 1.2396 conj (3.01)"
-       ],
-       "key": [
-        "Castor",
-        "Sedna"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -15180,6 +14622,23 @@
      ]
     },
     {
+     "body": "Jupiter",
+     "cells": [
+      {
+       "text": "S Quaoar → J Jupiter Dec 0.0827 conj (52.47)",
+       "layer": "top rows",
+       "source_lines": [
+        "S Sun → Quaoar RA 50.1519 31×φ golden (60.58)"
+       ],
+       "key": [
+        "S Quaoar",
+        "Jupiter"
+       ],
+       "field": "also: 4 Deluxe Music / Callum Rodriguez"
+      }
+     ]
+    },
+    {
      "body": "Ceres",
      "cells": [
       {
@@ -15258,7 +14717,7 @@
       "cells": [
        "J Deneb Algedi → J Mercury RA 119.7095 74×φ golden (5.22) = S Moon → Neptune RA 119.7408 74×φ golden (65.12)"
       ],
-      "field": "also: 4 Deluxe Music / Callum Rodriguez"
+      "field": "only"
      },
      {
       "label": "154 whole",
@@ -15408,14 +14867,6 @@
       "field": "also: 6 Flamingo Rose / Dougie Costello"
      },
      {
-      "label": "78 whole",
-      "cells": [
-       "S Jupiter → H Quaoar RA 77.9994 78 whole (93.92)",
-       "H Castor → H Jupiter RA 78.0167 78 whole (2.78)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "96×φ golden",
       "cells": [
        "H Alkaid → H Mercury RA 155.3567 96×φ golden (4.52)",
@@ -15500,11 +14951,9 @@
    "S Sun → Sadalsuud RA 3.9980 4 whole (80.68)",
    "S Sun → Deneb Algedi RA 0.1261 conj (83.89)",
    "S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)",
-   "S Moon → Venus RA 173.1408 107×φ golden (42.72)",
    "S Moon → Mars Dec 48.5423 30×φ golden (92.44)",
    "S Moon → Saturn RA 152.9975 153 whole (76.77)",
    "S Moon → Neptune RA 119.7408 74×φ golden (65.12)",
-   "S Moon → Castor RA 1.2396 conj (3.01)",
    "S Moon → Spica RA 88.8867 88.8889 ninth (98.39)",
    "S Moon → Galactic Centre RA 153.9991 154 whole (91.44)",
    "S Moon → Facies RA 166.6813 166.667 ninth (98.75)",

@@ -172,7 +172,8 @@ for r in rules:
               and abs(t['chance_w'] - n['cw']) < 1e-9 and abs(t['chance_2'] - n['c2']) < 1e-9, f"backtest {r['id']} {part}")
 b = {k: bt[k]['in_sample'] for k in ('B1', 'B3', 'B4')}
 check(b['B1']['fired'] == 14 and b['B1']['winners'] == 11 and round(b['B1']['chance_w'], 1) == 8.2, 'B1 in-sample 11 of 14 (8.2)')
-check(b['B3']['picks'] == 14 and b['B3']['winners'] == 6 and round(b['B3']['chance_w'], 1) == 2.4, 'version 4 in-sample 6 of 14 (2.4)')
+# noted-line cut (Eddie, 7 Nov 2026): Fontwell 9 Mar 2022 step 2 no longer fires (was Grangeclare Glory, 4th): 6 of 14 (2.4) -> 6 of 13 (2.3)
+check(b['B3']['picks'] == 13 and b['B3']['winners'] == 6 and round(b['B3']['chance_w'], 1) == 2.3, 'version 4 in-sample 6 of 13 (2.3)')
 check(b['B4']['picks'] == 6 and b['B4']['winners'] == 2, 'B4 in-sample 6 picks, 2 won')
 
 print(f'{ok}/{ok + bad}')

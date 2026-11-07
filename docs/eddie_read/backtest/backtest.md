@@ -23,7 +23,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 | B5 | Same body in both planes | 2 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 |
 | B6 | Same body on both charts | 2 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 |
 | B7 | Most sky bodies onto the jockey's Jupiter | 19 | 18 | 22 | 6 (3.6) | 12 (7.4) | 4 |
-| B8 | One line star on the most natal bodies | 19 | 19 | 34 | 8 (5.8) | 14 (11.8) | 5 |
+| B8 | One line star on the most natal bodies | 19 | 19 | 39 | 8 (6.6) | 16 (13.3) | 3 |
 
 ## In-sample races
 
@@ -39,7 +39,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 | R1 | Sun / Moon on one body both charts, sky X to Jupiter | 0 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 |
 | B1 | Natal body on a strong line star (filter) | 18 | 14 | 48 | 11 (8.2) | 18 (16.9) | 0 |
 | B2 | Top natal body on a strong line star | 15 | 12 | 12 | 4 (2.1) | 5 (4.3) | 4 |
-| B3 | Version 4 | 16 | 14 | 14 | 6 (2.4) | 7 (5.0) | 6 |
+| B3 | Version 4 | 16 | 13 | 13 | 6 (2.3) | 7 (4.8) | 6 |
 | B4 | Same body, clear lead | 18 | 6 | 6 | 2 (1.1) | 4 (2.2) | 2 |
 | B5 | Same body in both planes | 18 | 4 | 4 | 1 (0.6) | 2 (1.3) | 1 |
 | B6 | Same body on both charts | 18 | 3 | 4 | 2 (0.7) | 2 (1.4) | 1 |
@@ -60,12 +60,12 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 | R1 | Sun / Moon on one body both charts, sky X to Jupiter | 20 | 3 | 3 | 0 (0.5) | 0 (0.9) | 0 |
 | B1 | Natal body on a strong line star (filter) | 20 | 16 | 53 | 12 (8.9) | 20 (18.3) | 0 |
 | B2 | Top natal body on a strong line star | 20 | 16 | 16 | 5 (2.7) | 7 (5.6) | 5 |
-| B3 | Version 4 | 20 | 17 | 17 | 6 (2.9) | 8 (5.9) | 6 |
+| B3 | Version 4 | 20 | 16 | 16 | 6 (2.7) | 8 (5.6) | 6 |
 | B4 | Same body, clear lead | 20 | 7 | 7 | 2 (1.2) | 5 (2.5) | 2 |
 | B5 | Same body in both planes | 20 | 4 | 4 | 1 (0.6) | 2 (1.3) | 1 |
 | B6 | Same body on both charts | 20 | 3 | 4 | 2 (0.7) | 2 (1.4) | 1 |
 | B7 | Most sky bodies onto the jockey's Jupiter | 20 | 19 | 23 | 7 (3.9) | 13 (7.9) | 5 |
-| B8 | One line star on the most natal bodies | 20 | 20 | 35 | 9 (6.0) | 15 (12.2) | 6 |
+| B8 | One line star on the most natal bodies | 20 | 20 | 40 | 9 (6.8) | 17 (13.7) | 4 |
 
 
 ## Per rule, every race
@@ -304,7 +304,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20220219_haydock_1405 (in-sample, 6 ran): Thomas Darby (5); winner Wholestone
 - 20220223_doncaster_1600 (in-sample, 6 ran): Boss Man Fred (2); winner Silva Eclipse
 - 20220224_newcastle_aw_1830 (in-sample, 5 ran): Gowanlad (won); winner Gowanlad
-- 20220309_fontwell_1440 (in-sample, 7 ran): Grangeclare Glory (4); winner Royaume Uni
+- 20220309_fontwell_1440 (in-sample, 7 ran): none; winner Royaume Uni
 - 20220311_newcastle_1540 (in-sample, 6 ran): Peak Time (won); winner Peak Time
 - 20261106_aintree_1240 (in-sample, 4 ran): Risky Obsession (won); winner Risky Obsession
 - 20261106_aintree_1315 (test, 5 ran): none; winner Off The Jury
@@ -409,16 +409,16 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20220129_doncaster_1410 (test, 5 ran): Western Victory (3); winner Miss Heritage
 - 20220213_southwell_aw_1520 (test, 7 ran): Chase The Dollar (won); winner Chase The Dollar
 - 20220214_catterick_1515 (test, 6 ran): Winds Of Fire (5); winner Omar Maretti
-- 20220215_newcastle_aw_1640 (test, 6 ran): Aced It (3); winner Sir Chauvelin
+- 20220215_newcastle_aw_1640 (test, 6 ran): Onesmoothoperator (2), Resumption (5); winner Sir Chauvelin
 - 20220217_leicester_1445 (test, 4 ran): Fransham (4), Nelson River (won), Stepney Causeway (3); winner Nelson River
-- 20220219_haydock_1405 (test, 6 ran): Third Wind (3), Thomas Darby (5), Molly Ollys Wishes (6); winner Wholestone
+- 20220219_haydock_1405 (test, 6 ran): Thomas Darby (5), Molly Ollys Wishes (6); winner Wholestone
 - 20220223_doncaster_1600 (test, 6 ran): Boss Man Fred (2); winner Silva Eclipse
 - 20220224_newcastle_aw_1830 (test, 5 ran): Blazing Hot (2), Tathmeen (3); winner Gowanlad
-- 20220309_fontwell_1440 (test, 7 ran): Breaking Waves (7), Royaume Uni (won), Hell Red (2), Dreaming Blue (5); winner Royaume Uni
-- 20220311_newcastle_1540 (test, 6 ran): Peak Time (won); winner Peak Time
+- 20220309_fontwell_1440 (test, 7 ran): Royaume Uni (won), Hell Red (2), Dreaming Blue (5); winner Royaume Uni
+- 20220311_newcastle_1540 (test, 6 ran): Edmond Dantes (6), Peak Time (won), Black Opium (4); winner Peak Time
 - 20261106_aintree_1240 (test, 4 ran): Aqua Bleu (2); winner Risky Obsession
 - 20261106_aintree_1315 (in-sample, 5 ran): Off The Jury (won); winner Off The Jury
-- 20261106_aintree_1350 (test, 7 ran): All In You (won); winner All In You
+- 20261106_aintree_1350 (test, 7 ran): Dedicated Hero (6), All In You (won), Lyssenko (2), Star Of Guiting (5), King Ulanda (7); winner All In You
 - 20261106_aintree_1500 (test, 6 ran): Mirabad (3), Rubaud (won), Daytime Dreaming (5); winner Rubaud
 - 20261106_fontwell_1435 (test, 8 ran): Donnie Azoff (7); winner Fire Flyer
 

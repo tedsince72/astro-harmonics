@@ -11,10 +11,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Jupiter → Rahu Dec 27.5018 17×φ golden (72.49)
 - S Jupiter → Rigel Dec 0.0255 conj (83.71)
 - S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
-- S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
 - S Sun → Uranus RA 65.9983 66 whole (83.81)
-- S Sun → Pluto RA 33.0062 33 whole (47.79)
-- S Sun → Juno Dec 0.2494 conj (2.84)
 - S Sun → Gonggong Dec 0.0230 conj (85.28)
 - S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
 - S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
@@ -22,14 +19,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
 - S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
 - S Sun → Spica Dec 0.1018 conj (43.67)
-- S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-- S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - S Moon → Pluto RA 113.2614 70×φ golden (94.02)
 - S Moon → Eris Dec 2.0000 2 whole (99.75)
 - S Moon → Wezen RA 79.2836 49×φ golden (99.53)
-- S Moon → Algorab RA 1.0830 conj (7.73)
 - S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
-- Hubs: Diadem, Juno, Pluto
+- Hubs: Diadem
 
 ## 1 Third Wind / Tom O'Brien
 ### L1 same bodies
@@ -48,7 +42,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 ### L2 what lands on each same body
 - **H Venus** (same body: S Venus → H Venus Dec 14.9915 15 whole (32.79))
 - **H Pluto** (same body: S Pluto → H Pluto RA 15.4703 15.5556 ninth (loose))
-  - sky line to Pluto: S Sun → Pluto RA 33.0062 33 whole (47.79)
   - sky line to Pluto: S Moon → Pluto RA 113.2614 70×φ golden (94.02)
   - star rows: H Castor → H Pluto Dec 52.0077 52 whole (37.85)
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
@@ -72,19 +65,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, top rows: S Moon → J Gonggong Dec 21.9976 22 whole (77.74)
   - other chart, star rows: J Orion Nebula Cluster → J Gonggong RA 116.0032 116 whole (70.72)
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - other chart, star rows: J Sadalmelik → J Gonggong Dec 21.0178 21 whole (1.23)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **J Mercury** (same body: S Mercury → J Mercury Dec 4.9730 5 whole (loose))
-  - star rows: J Algorab → J Mercury RA 36.9886 37 whole (18.45)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - star rows: J Sadalmelik → J Mercury RA 106.9926 107 whole (39.73)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
-  - star rows: J Sadalmelik → J Mercury Dec 14.0073 14 whole (40.30)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
-  - other chart, star rows: H Algorab → H Mercury RA 142.9813 143 whole (0.42)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - other chart, star rows: H Algorab → H Mercury Dec 34.0101 34 whole (24.59)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - other chart, star rows: H Diadem → H Mercury RA 153.0118 153 whole (16.70)
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
@@ -94,10 +75,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Pallas** (same body: S Pallas → J Pallas RA 153.6992 95×φ golden (loose); S Pallas → J Pallas Dec 8.0937 5×φ golden (loose))
   - star rows: J Orion Nebula Cluster → J Pallas RA 128.0129 128 whole (12.45)
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - star rows: J Ras Algethi → J Pallas Dec 14.9874 15 whole (13.51)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-  - star rows: J Sadalmelik → J Pallas Dec 0.2771 conj (0.58)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **J Sedna** (same body: S Sedna → J Sedna RA 17.9670 φ^6 phi power (loose))
 - **J Makemake** (same body: S Makemake → J Makemake RA 32.3715 20×φ golden (loose))
   - star rows: J Meissa → J Makemake RA 82.9956 83 whole (60.57)
@@ -109,8 +86,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
 - **J Orcus** (same body: S Orcus → J Orcus RA 29.1045 18×φ golden (loose))
   - top rows: S Jupiter → J Orcus RA 144.4764 144.444 ninth (96.62)
-  - star rows: J Ras Algethi → J Orcus RA 131.0689 81×φ golden (56.06)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Rigel → J Orcus Dec 13.3353 13.3333 ninth (97.63)
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
   - star rows: J Vindemiatrix → J Orcus RA 67.9544 42×φ golden (82.15)
@@ -127,10 +102,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
   - star rows: J Meissa → J Transpluto RA 59.8671 37×φ golden (98.82)
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
-  - star rows: J Ras Algethi → J Transpluto RA 114.9991 115 whole (91.32)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-  - star rows: J Ras Algethi → J Transpluto Dec 0.0175 conj (88.70)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Rigel → J Transpluto RA 65.0170 65 whole (2.24)
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
   - other chart, star rows: H Orion Nebula Cluster → H Transpluto Dec 17.0005 17 whole (94.77)
@@ -146,13 +117,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Pallas → J Pallas RA 153.6992 95×φ golden (loose)
     - S Pallas → J Pallas Dec 8.0937 5×φ golden (loose)
 - **3. runner number = sky number**
-  - 33 whole — also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
-    - H Diadem → H Saturn Dec 33.0075 33 whole (39.03) = S Sun → Pluto RA 33.0062 33 whole (47.79)
-  - 33 whole — also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
-    - H Diadem → H Quaoar Dec 33.0187 33 whole (0.45) = S Sun → Pluto RA 33.0062 33 whole (47.79)
   - 17×φ golden — also: 5 Wholestone / Sam Twiston-Davies
     - S Rigel → H Jupiter RA 27.5085 17×φ golden (88.74) = S Jupiter → Rahu Dec 27.5018 17×φ golden (72.49)
-  - 11.1111 ninth — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 11.1111 ninth — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - S Transpluto → J Transpluto RA 11.1008 11.1111 ninth (loose) = S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
 - **4. circle divisions**
   - 15 = 360/24 — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
@@ -161,10 +128,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Haumea → H Haumea Dec 2.9805 3 whole (0.05)
   - 1 = 360/360 — also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
     - S Gonggong → H Gonggong RA 0.9856 1 whole (loose)
-  - 6 = 360/60 — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 6 = 360/60 — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - H Diadem → H Makemake RA 5.9935 6 whole (45.41)
-  - 24 = 360/15 — also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - H Ras Algethi → H Neptune Dec 23.9829 24 whole (2.14)
   - 12 = 360/30 — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
     - H Rigel → H Ceres Dec 12.0141 12 whole (8.79)
   - 8 = 360/45 — also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
@@ -173,20 +138,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Mercury → J Mercury Dec 4.9730 5 whole (loose)
   - 9 = 360/40 — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - S Jupiter → J Pluto Dec 8.9941 9 whole (50.04)
-  - 6 = 360/60 — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - J Algorab → J Eris Dec 6.0075 6 whole (39.26)
-  - 24 = 360/15 — also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 24 = 360/15 — also: 3 Emitom / Brian Hughes
     - J Castor → J Rahu Dec 23.9901 24 whole (25.67)
-  - 30 = 360/12 — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 30 = 360/12 — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
     - J Castor → J Transpluto RA 30.0021 30 whole (80.18)
-  - 3 = 360/120 — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - J Ras Algethi → J Chiron Dec 2.9936 3 whole (46.17)
-  - 15 = 360/24 — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
-    - J Ras Algethi → J Pallas Dec 14.9874 15 whole (13.51)
-  - 120 = 360/3 — also: 4 Top Ville Ben / Thomas Dowson
-    - J Ras Algethi → J Rahu RA 120.0016 120 whole (84.85)
-  - 60 = 360/6 — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
-    - J Ras Algethi → J Ketu RA 59.9984 60 whole (84.85)
   - 72 = 360/5 — only
     - J Rigel → J Vesta RA 72.0152 72 whole (5.68)
   - 60 = 360/6 — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
@@ -194,36 +149,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 120 = 360/3 — also: 4 Top Ville Ben / Thomas Dowson
     - J Rigel → J Ketu RA 120.0177 120 whole (1.33)
 - **5. same number in more than one place**
-  - 15 whole — also: 3 Emitom / Brian Hughes
-    - S Venus → H Venus Dec 14.9915 15 whole (32.79)
-    - J Ras Algethi → J Pallas Dec 14.9874 15 whole (13.51)
-  - 3 whole — also: 2 Thomas Darby / Aidan Coleman
-    - S Haumea → H Haumea Dec 2.9805 3 whole (0.05)
-    - J Ras Algethi → J Chiron Dec 2.9936 3 whole (46.17)
   - 28 whole — also: 3 Emitom / Brian Hughes
     - H Castor → H Vesta Dec 28.0162 28 whole (3.59)
     - J Wezen → J Chiron RA 28.0156 28 whole (4.74)
   - 33 whole — also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
     - H Diadem → H Saturn Dec 33.0075 33 whole (39.03)
     - H Diadem → H Quaoar Dec 33.0187 33 whole (0.45)
-  - 141.4 sqrt2 — also: 5 Wholestone / Sam Twiston-Davies
+  - 141.4 sqrt2 — only
     - H Diadem → H Neptune RA 141.4622 141.4 sqrt2 (88.77)
     - S Moon → J Gonggong RA 141.4384 141.4 sqrt2 (95.24)
-  - 6 whole — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - H Diadem → H Makemake RA 5.9935 6 whole (45.41)
-    - J Algorab → J Eris Dec 6.0075 6 whole (39.26)
-  - 14.14 sqrt2 — only
-    - H Fomalhaut → H Saturn Dec 14.1437 14.14 sqrt2 (95.62)
-    - J Rigel → J Neptune Dec 14.1403 14.14 sqrt2 (94.87)
   - 23 whole — also: 4 Top Ville Ben / Thomas Dowson
     - H Meissa → H Gonggong Dec 23.0129 23 whole (12.72)
     - S Moon → J Neptune Dec 23.0018 23 whole (82.67)
-  - 107 whole — only
-    - H Orion Nebula Cluster → H Mars RA 106.9940 107 whole (49.08)
-    - J Sadalmelik → J Mercury RA 106.9926 107 whole (39.73)
-  - 24 whole — only
-    - H Ras Algethi → H Neptune Dec 23.9829 24 whole (2.14)
-    - J Castor → J Rahu Dec 23.9901 24 whole (25.67)
   - 38 whole — also: 4 Top Ville Ben / Thomas Dowson
     - H Spica → H Makemake Dec 37.9953 38 whole (58.21)
     - H Wezen → H Transpluto Dec 38.0042 38 whole (62.10)
@@ -244,25 +181,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 83 whole — only
     - S Moon → J Juno RA 82.9999 83 whole (98.82)
     - J Meissa → J Makemake RA 82.9956 83 whole (60.57)
-  - 120 whole — only
-    - J Ras Algethi → J Rahu RA 120.0016 120 whole (84.85)
-    - J Rigel → J Ketu RA 120.0177 120 whole (1.33)
   - φ^10 phi power — only
-    - J Ras Algethi → J Eris RA 122.9211 φ^10 phi power (78.30)
     - J Regulus → J Neptune RA 122.9214 φ^10 phi power (78.41)
     - J Wezen → J Ceres RA 122.9377 φ^10 phi power (83.15)
-  - 60 whole — only
-    - J Ras Algethi → J Ketu RA 59.9984 60 whole (84.85)
-    - J Rigel → J Rahu RA 59.9823 60 whole (1.33)
-  - 21 whole — also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - J Sadalmelik → J Sun Dec 21.0174 21 whole (1.75)
-    - J Sadalmelik → J Gonggong Dec 21.0178 21 whole (1.23)
 ### L4 every natal body
 - **Venus**
   - same body: S Venus → H Venus Dec 14.9915 15 whole (32.79) — also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
 - **Pluto**
   - same body: S Pluto → H Pluto RA 15.4703 15.5556 ninth (loose) — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
-    - source line: S Sun → Pluto RA 33.0062 33 whole (47.79)
     - source line: S Moon → Pluto RA 113.2614 70×φ golden (94.02)
   - star rows: H Castor → H Pluto Dec 52.0077 52 whole (37.85) — also: 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
@@ -288,33 +214,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → J Gonggong Dec 21.9976 22 whole (77.74) — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
   - star rows: J Orion Nebula Cluster → J Gonggong RA 116.0032 116 whole (70.72) — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - star rows: J Sadalmelik → J Gonggong Dec 21.0178 21 whole (1.23) — also: 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **Saturn**
   - top rows: S Moon → H Saturn RA 42.3687 10×φ^3 phi power (92.56) — only
   - star rows: H Diadem → H Saturn Dec 33.0075 33 whole (39.03) — only
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
-  - star rows: H Fomalhaut → H Saturn Dec 14.1437 14.14 sqrt2 (95.62) — also: 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-- **Mercury**
-  - star rows: H Algorab → H Mercury RA 142.9813 143 whole (0.42) — only
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - star rows: H Algorab → H Mercury Dec 34.0101 34 whole (24.59) — only
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - star rows: H Diadem → H Mercury RA 153.0118 153 whole (16.70) — also: 3 Emitom / Brian Hughes
-    - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
-    - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
-  - star rows: H Diadem → H Mercury Dec 0.0375 conj (76.57) — also: 3 Emitom / Brian Hughes
-    - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
-    - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
-  - same body: S Mercury → J Mercury Dec 4.9730 5 whole (loose) — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-  - star rows: J Algorab → J Mercury RA 36.9886 37 whole (18.45) — only
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - star rows: J Sadalmelik → J Mercury RA 106.9926 107 whole (39.73) — also: 5 Wholestone / Sam Twiston-Davies
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
-  - star rows: J Sadalmelik → J Mercury Dec 14.0073 14 whole (40.30) — also: 5 Wholestone / Sam Twiston-Davies
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **Uranus**
   - star rows: H Castor → H Uranus Dec 27.0085 27 whole (33.09) — also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
@@ -328,12 +232,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
   - star rows: J Rigel → J Vesta RA 72.0152 72 whole (5.68) — also: 3 Emitom / Brian Hughes
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
+- **Mercury**
+  - star rows: H Diadem → H Mercury RA 153.0118 153 whole (16.70) — also: 3 Emitom / Brian Hughes
+    - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
+    - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
+  - star rows: H Diadem → H Mercury Dec 0.0375 conj (76.57) — also: 3 Emitom / Brian Hughes
+    - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
+    - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
+  - same body: S Mercury → J Mercury Dec 4.9730 5 whole (loose) — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
 - **Neptune**
   - star rows: H Diadem → H Neptune RA 141.4622 141.4 sqrt2 (88.77) — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
-  - star rows: H Ras Algethi → H Neptune Dec 23.9829 24 whole (2.14) — also: 5 Wholestone / Sam Twiston-Davies
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: H Regulus → H Neptune RA 173.1312 107×φ golden (90.29) — also: 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
   - top rows: S Moon → J Neptune Dec 23.0018 23 whole (82.67) — only
@@ -347,10 +257,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
   - star rows: H Meissa → H Eris Dec 13.0036 13 whole (67.62) — also: 4 Top Ville Ben / Thomas Dowson
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
-  - star rows: J Algorab → J Eris Dec 6.0075 6 whole (39.26) — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - star rows: J Ras Algethi → J Eris RA 122.9211 φ^10 phi power (78.30) — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
 - **Makemake**
   - star rows: H Diadem → H Makemake RA 5.9935 6 whole (45.41) — also: 2 Thomas Darby / Aidan Coleman
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
@@ -367,32 +273,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Spica → H Quaoar RA 64.9839 65 whole (3.83) — also: 4 Top Ville Ben / Thomas Dowson
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - same body: S Quaoar → J Quaoar Dec 2.4102 2.414 silver (loose) — also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-- **Sun**
-  - star rows: H Fomalhaut → H Sun RA 54.0038 54 whole (65.63) — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - top rows: S Moon → J Sun Dec 21.9972 22 whole (74.03) — also: 6 Molly Ollys Wishes / Harry Skelton
-  - star rows: J Sadalmelik → J Sun Dec 21.0174 21 whole (1.75) — also: 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
-- **Chiron**
-  - star rows: H Fomalhaut → H Chiron RA 1.2619 conj (2.52) — also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: H Ras Algethi → H Chiron RA 87.0065 87 whole (45.30) — only
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-  - star rows: J Diadem → J Chiron Dec 0.1436 conj (27.20) — also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies
-    - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
-    - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
-  - star rows: J Fomalhaut → J Chiron Dec 47.0086 47 whole (32.65) — also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: J Ras Algethi → J Chiron Dec 2.9936 3 whole (46.17) — only
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-  - star rows: J Regulus → J Chiron RA 73.0074 73 whole (39.71) — only
-    - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
-  - star rows: J Rigel → J Chiron RA 0.4471 conj (49.27) — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
-    - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
-  - star rows: J Spica → J Chiron RA 122.2073 122.222 ninth (97.94) — also: 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Spica Dec 0.1018 conj (43.67)
-  - star rows: J Wezen → J Chiron RA 28.0156 28 whole (4.74) — also: 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
 - **Mars**
   - star rows: H Orion Nebula Cluster → H Mars RA 106.9940 107 whole (49.08) — also: 4 Top Ville Ben / Thomas Dowson
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
@@ -413,10 +293,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
   - star rows: J Meissa → J Transpluto RA 59.8671 37×φ golden (98.82) — also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
-  - star rows: J Ras Algethi → J Transpluto RA 114.9991 115 whole (91.32) — also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-  - star rows: J Ras Algethi → J Transpluto Dec 0.0175 conj (88.70) — also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Rigel → J Transpluto RA 65.0170 65 whole (2.24) — also: 5 Wholestone / Sam Twiston-Davies
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
 - **Jupiter**
@@ -424,8 +300,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
   - star rows: H Wezen → H Jupiter RA 0.9504 conj (13.43) — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
-  - star rows: J Fomalhaut → J Jupiter RA 1.2081 conj (3.79) — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - star rows: S Rigel → J Jupiter RA 93.0164 93 whole (3.31) — only
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
 - **Ceres**
@@ -451,8 +325,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
   - star rows: J Meissa → J Ketu RA 114.8678 71×φ golden (37.07) — also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
-  - star rows: J Ras Algethi → J Ketu RA 59.9984 60 whole (84.85) — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Rigel → J Ketu RA 120.0177 120 whole (1.33) — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
 - **Pallas**
@@ -460,17 +332,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Pallas → J Pallas Dec 8.0937 5×φ golden (loose) — also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
   - star rows: J Orion Nebula Cluster → J Pallas RA 128.0129 128 whole (12.45) — also: 3 Emitom / Brian Hughes
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - star rows: J Ras Algethi → J Pallas Dec 14.9874 15 whole (13.51) — also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-  - star rows: J Sadalmelik → J Pallas Dec 0.2771 conj (0.58) — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **Sedna**
   - same body: S Sedna → J Sedna RA 17.9670 φ^6 phi power (loose) — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
 - **Orcus**
   - same body: S Orcus → J Orcus RA 29.1045 18×φ golden (loose) — also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
   - top rows: S Jupiter → J Orcus RA 144.4764 144.444 ninth (96.62) — also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
-  - star rows: J Ras Algethi → J Orcus RA 131.0689 81×φ golden (56.06) — also: 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Rigel → J Orcus Dec 13.3353 13.3333 ninth (97.63) — also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
   - star rows: J Vindemiatrix → J Orcus RA 67.9544 42×φ golden (82.15) — only
@@ -481,10 +347,22 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
   - star rows: J Castor → J Rahu Dec 23.9901 24 whole (25.67) — also: 4 Top Ville Ben / Thomas Dowson
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: J Ras Algethi → J Rahu RA 120.0016 120 whole (84.85) — only
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Rigel → J Rahu RA 59.9823 60 whole (1.33) — also: 2 Thomas Darby / Aidan Coleman
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
+- **Sun**
+  - top rows: S Moon → J Sun Dec 21.9972 22 whole (74.03) — also: 6 Molly Ollys Wishes / Harry Skelton
+- **Chiron**
+  - star rows: J Diadem → J Chiron Dec 0.1436 conj (27.20) — also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies
+    - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
+    - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
+  - star rows: J Regulus → J Chiron RA 73.0074 73 whole (39.71) — only
+    - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
+  - star rows: J Rigel → J Chiron RA 0.4471 conj (49.27) — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
+    - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
+  - star rows: J Spica → J Chiron RA 122.2073 122.222 ninth (97.94) — also: 4 Top Ville Ben / Thomas Dowson
+    - source line: S Sun → Spica Dec 0.1018 conj (43.67)
+  - star rows: J Wezen → J Chiron RA 28.0156 28 whole (4.74) — also: 6 Molly Ollys Wishes / Harry Skelton
+    - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
 
 ## 2 Thomas Darby / Aidan Coleman
 ### L1 same bodies
@@ -505,29 +383,19 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Spica → H Mercury RA 137.5350 85×φ golden (87.25)
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - other chart, top rows: S Jupiter → J Mercury RA 177.7622 177.778 ninth (98.78)
-  - other chart, star rows: J Fomalhaut → J Mercury Dec 38.9982 39 whole (82.85)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - other chart, star rows: J Ras Algethi → J Mercury Dec 5.0142 5 whole (8.46)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
 - **H Eris** (same body: S Eris → H Eris RA 0.9917 1 whole (33.95); S Eris → H Eris Dec 2.2230 2.22222 ninth (89.60))
   - sky line to Eris: S Moon → Eris Dec 2.0000 2 whole (99.75)
-  - star rows: H Ras Algethi → H Eris Dec 17.9491 φ^6 phi power (89.54)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: H Spica → H Eris RA 176.3926 109×φ golden (2.84)
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - other chart, top rows: S Sun → J Eris RA 49.9977 50 whole (78.34)
   - other chart, star rows: J Castor → J Eris RA 90.9935 91 whole (45.90)
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - other chart, star rows: J Ras Algethi → J Eris RA 123.9870 124 whole (12.25)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - other chart, star rows: J Regulus → J Eris RA 129.4372 80×φ golden (68.90)
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
   - other chart, star rows: J Rigel → J Eris RA 55.9809 56 whole (0.22)
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
 - **H Gonggong** (same body: S Gonggong → H Gonggong Dec 2.2276 2.22222 ninth (loose))
   - sky line to Gonggong: S Sun → Gonggong Dec 0.0230 conj (85.28)
-  - star rows: H Algorab → H Gonggong Dec 3.0027 3 whole (74.97)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: H Regulus → H Gonggong RA 177.0007 177 whole (93.55)
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
   - star rows: H Rigel → H Gonggong RA 103.5380 64×φ golden (25.06)
@@ -539,41 +407,26 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Diadem → J Neptune RA 80.9878 81 whole (15.06)
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
-  - other chart, star rows: H Sadalmelik → H Neptune RA 3.9986 4 whole (86.14)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - other chart, star rows: H Spica → H Neptune Dec 0.2891 conj (0.13)
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
 - **J Pluto** (same body: S Pluto → J Pluto RA 76.9837 77 whole (3.46))
-  - sky line to Pluto: S Sun → Pluto RA 33.0062 33 whole (47.79)
   - sky line to Pluto: S Moon → Pluto RA 113.2614 70×φ golden (94.02)
   - star rows: J Castor → J Pluto RA 109.0189 109 whole (0.33)
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: J Ras Algethi → J Pluto RA 36.0006 36 whole (94.12)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Rigel → J Pluto RA 144.0315 89×φ golden (3.34)
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
   - other chart, star rows: H Meissa → H Pluto RA 161.9909 162 whole (29.77)
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
 - **J Vesta** (same body: S Vesta → J Vesta RA 122.0285 122 whole (loose))
   - top rows: S Sun → J Vesta Dec 21.0036 21 whole (67.32)
-  - star rows: J Fomalhaut → J Vesta RA 174.7429 108×φ golden (72.90)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - star rows: J Meissa → J Vesta Dec 0.1960 conj (12.02)
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
-  - star rows: J Ras Algethi → J Vesta RA 88.9900 55×φ golden (89.05)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Vindemiatrix → J Vesta Dec 1.2225 1.22222 ninth (96.61)
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
 - **J Quaoar** (same body: S Quaoar → J Quaoar Dec 2.6082 φ^2 phi power (loose))
   - star rows: J Meissa → J Quaoar RA 146.9936 147 whole (46.31)
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
-  - other chart, star rows: H Algorab → H Quaoar RA 77.6666 48×φ golden (94.32)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
 - **J Transpluto** (same body: S Transpluto → J Transpluto RA 11.0430 φ^5 phi power (loose))
-  - star rows: J Fomalhaut → J Transpluto Dec 44.0088 44 whole (31.20)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: J Ras Algethi → J Transpluto Dec 0.0036 conj (97.64)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - other chart, star rows: H Orion Nebula Cluster → H Transpluto Dec 17.0071 17 whole (41.85)
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
   - other chart, star rows: H Regulus → H Transpluto RA 0.3925 conj (54.52)
@@ -587,113 +440,54 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Eris → H Eris RA 0.9917 1 whole (33.95)
     - S Eris → H Eris Dec 2.2230 2.22222 ninth (89.60)
 - **3. runner number = sky number**
-  - 10×φ^6 phi power — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 10×φ^6 phi power — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
     - S Moon → H Uranus RA 179.4595 10×φ^6 phi power (96.30) = S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
-  - 10×φ^6 phi power — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - H Algorab → H Uranus RA 179.4561 10×φ^6 phi power (97.04) = S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
-  - 11.1111 ninth — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 11.1111 ninth — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - S Sun → J Saturn Dec 11.1118 11.1111 ninth (98.93) = S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
-  - 36 whole — also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - J Ras Algethi → J Pluto RA 36.0006 36 whole (94.12) = S Jupiter → Juno RA 35.9948 36 whole (54.98)
-  - 2 whole — also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
+  - 2 whole — also: 5 Wholestone / Sam Twiston-Davies
     - J Rigel → J Rahu Dec 2.0178 2 whole (1.19) = S Moon → Eris Dec 2.0000 2 whole (99.75)
-  - 141 whole — also: 4 Top Ville Ben / Thomas Dowson
-    - J Sadalmelik → J Juno RA 140.9865 141 whole (10.43) = S Sun → Castor RA 140.9998 141 whole (97.65)
-  - 36 whole — also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - J Sadalmelik → J Makemake Dec 35.9891 36 whole (20.50) = S Jupiter → Juno RA 35.9948 36 whole (54.98)
 - **4. circle divisions**
   - 1 = 360/360 — also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
     - S Eris → H Eris RA 0.9917 1 whole (33.95)
   - 60 = 360/6 — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson
     - H Jupiter → H Uranus RA 60.0005 60 whole (95.07)
-  - 3 = 360/120 — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - H Algorab → H Gonggong Dec 3.0027 3 whole (74.97)
-  - 6 = 360/60 — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 6 = 360/60 — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - H Diadem → H Makemake RA 5.9810 6 whole (0.23)
   - 3 = 360/120 — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - H Meissa → H Sedna Dec 3.0050 3 whole (56.26)
   - 5 = 360/72 — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - H Rigel → H Chiron Dec 5.0061 5 whole (48.54)
-  - 1 = 360/360 — also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - H Sadalmelik → H Mars Dec 1.0073 1 whole (40.11)
-  - 4 = 360/90 — also: 3 Emitom / Brian Hughes
-    - H Sadalmelik → H Neptune RA 3.9986 4 whole (86.14)
   - 18 = 360/20 — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
     - J Castor → J Pallas Dec 18.0115 18 whole (17.96)
-  - 6 = 360/60 — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - J Fomalhaut → J Uranus Dec 5.9890 6 whole (20.04)
   - 18 = 360/20 — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
     - J Orion Nebula Cluster → J Juno Dec 18.0027 18 whole (74.58)
-  - 5 = 360/72 — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - J Ras Algethi → J Mercury Dec 5.0142 5 whole (8.46)
-  - 36 = 360/10 — also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - J Ras Algethi → J Pluto RA 36.0006 36 whole (94.12)
-  - 2 = 360/180 — also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
+  - 2 = 360/180 — also: 5 Wholestone / Sam Twiston-Davies
     - J Rigel → J Rahu Dec 2.0178 2 whole (1.19)
-  - 36 = 360/10 — also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - J Sadalmelik → J Makemake Dec 35.9891 36 whole (20.50)
   - 12 = 360/30 — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
     - J Vindemiatrix → J Haumea Dec 11.9924 12 whole (38.70)
-  - 30 = 360/12 — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 30 = 360/12 — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
     - J Vindemiatrix → J Ketu RA 30.0072 30 whole (41.06)
   - 4 = 360/90 — also: 3 Emitom / Brian Hughes
     - J Wezen → J Saturn Dec 4.0140 4 whole (8.85)
 - **5. same number in more than one place**
-  - 1 whole — also: 6 Molly Ollys Wishes / Harry Skelton
-    - S Eris → H Eris RA 0.9917 1 whole (33.95)
-    - H Sadalmelik → H Mars Dec 1.0073 1 whole (40.11)
   - 2.22222 ninth — only
     - S Eris → H Eris Dec 2.2230 2.22222 ninth (89.60)
     - S Gonggong → H Gonggong Dec 2.2276 2.22222 ninth (loose)
-  - 51×φ golden — only
-    - H Jupiter → H star Fomalhaut RA 82.5189 51×φ golden (95.13)
-    - H Fomalhaut → H Jupiter RA 82.5189 51×φ golden (95.13)
-  - 10×φ^6 phi power — also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
-    - S Moon → H Uranus RA 179.4595 10×φ^6 phi power (96.30)
-    - H Algorab → H Uranus RA 179.4561 10×φ^6 phi power (97.04)
   - φ^5 phi power — only
     - S Moon → H Juno Dec 11.0937 φ^5 phi power (87.73)
     - S Transpluto → J Transpluto RA 11.0430 φ^5 phi power (loose)
-  - 3 whole — also: 1 Third Wind / Tom O'Brien
-    - H Algorab → H Gonggong Dec 3.0027 3 whole (74.97)
-    - H Meissa → H Sedna Dec 3.0050 3 whole (56.26)
   - 39 whole — also: 4 Top Ville Ben / Thomas Dowson
     - H Castor → H Venus Dec 38.9947 39 whole (54.05)
-    - J Fomalhaut → J Mercury Dec 38.9982 39 whole (82.85)
     - J Wezen → J Juno Dec 39.0041 39 whole (63.56)
-  - 108×φ golden — also: 5 Wholestone / Sam Twiston-Davies
-    - H Castor → H Juno RA 174.7304 108×φ golden (21.77)
-    - J Fomalhaut → J Vesta RA 174.7429 108×φ golden (72.90)
-  - 6 whole — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - H Diadem → H Makemake RA 5.9810 6 whole (0.23)
-    - J Fomalhaut → J Uranus Dec 5.9890 6 whole (20.04)
-  - 17 whole — also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
+  - 17 whole — only
     - H Orion Nebula Cluster → H Transpluto Dec 17.0071 17 whole (41.85)
     - J Orion Nebula Cluster → J Saturn Dec 16.9873 17 whole (13.24)
-  - φ^6 phi power — also: 3 Emitom / Brian Hughes
-    - H Ras Algethi → H Eris Dec 17.9491 φ^6 phi power (89.54)
-    - S Neptune → J Neptune Dec 17.9335 φ^6 phi power (loose)
-  - 5 whole — also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
-    - H Rigel → H Chiron Dec 5.0061 5 whole (48.54)
-    - J Ras Algethi → J Mercury Dec 5.0142 5 whole (8.46)
-  - 4 whole — also: 3 Emitom / Brian Hughes
-    - H Sadalmelik → H Neptune RA 3.9986 4 whole (86.14)
-    - J Wezen → J Saturn Dec 4.0140 4 whole (8.85)
-  - 77.7778 ninth — only
-    - J Jupiter → J star Fomalhaut RA 77.7733 77.7778 ninth (96.52)
-    - J Fomalhaut → J Jupiter RA 77.7733 77.7778 ninth (96.52)
   - 133.333 ninth — only
     - J Jupiter → J star Vindemiatrix RA 133.3513 133.333 ninth (97.85)
     - J Vindemiatrix → J Jupiter RA 133.3513 133.333 ninth (97.85)
   - 18 whole — also: 5 Wholestone / Sam Twiston-Davies
     - J Castor → J Pallas Dec 18.0115 18 whole (17.96)
     - J Orion Nebula Cluster → J Juno Dec 18.0027 18 whole (74.58)
-  - 36 whole — only
-    - J Ras Algethi → J Pluto RA 36.0006 36 whole (94.12)
-    - J Sadalmelik → J Makemake Dec 35.9891 36 whole (20.50)
-  - 18 and 18×φ on J Juno — only
-    - J Orion Nebula Cluster → J Juno Dec 18.0027 18 whole (74.58)
-    - J Algorab → J Juno Dec 29.1281 18×φ golden (79.41)
 ### L4 every natal body
 - **Mercury**
   - same body: S Mercury → H Mercury RA 31.9975 32 whole (76.66) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
@@ -703,24 +497,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Spica → H Mercury RA 137.5350 85×φ golden (87.25) — only
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - top rows: S Jupiter → J Mercury RA 177.7622 177.778 ninth (98.78) — also: 4 Top Ville Ben / Thomas Dowson
-  - star rows: J Fomalhaut → J Mercury Dec 38.9982 39 whole (82.85) — also: 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: J Ras Algethi → J Mercury Dec 5.0142 5 whole (8.46) — also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
 - **Eris**
   - same body: S Eris → H Eris RA 0.9917 1 whole (33.95) — also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
     - source line: S Moon → Eris Dec 2.0000 2 whole (99.75)
   - same body: S Eris → H Eris Dec 2.2230 2.22222 ninth (89.60) — also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
     - source line: S Moon → Eris Dec 2.0000 2 whole (99.75)
-  - star rows: H Ras Algethi → H Eris Dec 17.9491 φ^6 phi power (89.54) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: H Spica → H Eris RA 176.3926 109×φ golden (2.84) — also: 5 Wholestone / Sam Twiston-Davies
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - top rows: S Sun → J Eris RA 49.9977 50 whole (78.34) — also: 6 Molly Ollys Wishes / Harry Skelton
   - star rows: J Castor → J Eris RA 90.9935 91 whole (45.90) — also: 3 Emitom / Brian Hughes
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: J Ras Algethi → J Eris RA 123.9870 124 whole (12.25) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Regulus → J Eris RA 129.4372 80×φ golden (68.90) — also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
   - star rows: J Rigel → J Eris RA 55.9809 56 whole (0.22) — also: 4 Top Ville Ben / Thomas Dowson
@@ -728,8 +514,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Gonggong**
   - same body: S Gonggong → H Gonggong Dec 2.2276 2.22222 ninth (loose) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
     - source line: S Sun → Gonggong Dec 0.0230 conj (85.28)
-  - star rows: H Algorab → H Gonggong Dec 3.0027 3 whole (74.97) — also: 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: H Regulus → H Gonggong RA 177.0007 177 whole (93.55) — also: 1 Third Wind / Tom O'Brien
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
   - star rows: H Rigel → H Gonggong RA 103.5380 64×φ golden (25.06) — also: 6 Molly Ollys Wishes / Harry Skelton
@@ -739,11 +523,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Uranus**
   - T1: H Jupiter → H Uranus RA 60.0005 60 whole (95.07) — only
   - top rows: S Moon → H Uranus RA 179.4595 10×φ^6 phi power (96.30) — also: 4 Top Ville Ben / Thomas Dowson
-  - star rows: H Algorab → H Uranus RA 179.4561 10×φ^6 phi power (97.04) — also: 4 Top Ville Ben / Thomas Dowson
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - top rows: S Jupiter → J Uranus RA 76.0038 76 whole (65.39) — only
-  - star rows: J Fomalhaut → J Uranus Dec 5.9890 6 whole (20.04) — only
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - star rows: J Regulus → J Uranus RA 115.0186 115 whole (0.49) — also: 5 Wholestone / Sam Twiston-Davies
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
   - star rows: J Regulus → J Uranus Dec 35.5994 22×φ golden (84.30) — also: 5 Wholestone / Sam Twiston-Davies
@@ -757,46 +537,26 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → H Juno Dec 11.0937 φ^5 phi power (87.73) — also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton
   - star rows: H Castor → H Juno RA 174.7304 108×φ golden (21.77) — also: 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: J Algorab → J Juno Dec 29.1281 18×φ golden (79.41) — only
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: J Castor → J Juno RA 1.2072 conj (3.81) — also: 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
   - star rows: J Orion Nebula Cluster → J Juno Dec 18.0027 18 whole (74.58) — also: 4 Top Ville Ben / Thomas Dowson
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - star rows: J Sadalmelik → J Juno RA 140.9865 141 whole (10.43) — also: 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - star rows: J Wezen → J Juno Dec 39.0041 39 whole (63.56) — only
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
 - **Rahu**
   - T1: H Jupiter → H Rahu RA 158.9981 159 whole (82.32) — also: 5 Wholestone / Sam Twiston-Davies
   - T2: J Jupiter → J Rahu Dec 26.1864 10×φ^2 phi power (90.96) — also: 5 Wholestone / Sam Twiston-Davies
-  - star rows: J Fomalhaut → J Rahu RA 1.1174 conj (6.51) — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - star rows: J Rigel → J Rahu Dec 2.0178 2 whole (1.19) — also: 1 Third Wind / Tom O'Brien
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
   - star rows: J Vindemiatrix → J Rahu RA 149.9928 150 whole (41.06) — also: 3 Emitom / Brian Hughes
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
 - **Jupiter**
-  - T1: H Jupiter → H star Fomalhaut RA 82.5189 51×φ golden (95.13) — also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
   - top rows: S Chiron → H Jupiter Dec 15.5562 15.5556 ninth (99.41) — also: 5 Wholestone / Sam Twiston-Davies
   - top rows: S Ceres → H Jupiter Dec 0.2107 conj (8.86) — also: 4 Top Ville Ben / Thomas Dowson
-  - star rows: H Fomalhaut → H Jupiter RA 82.5189 51×φ golden (95.13) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: S Ras Algethi → H Jupiter RA 168.2672 104×φ golden (54.93) — only
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-  - T2: J Jupiter → J star Fomalhaut RA 77.7733 77.7778 ninth (96.52) — also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
   - T2: J Jupiter → J star Vindemiatrix RA 133.3513 133.333 ninth (97.85) — also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
   - top rows: S Venus → J Jupiter RA 132.9985 133 whole (85.72) — only
-  - star rows: J Fomalhaut → J Jupiter RA 77.7733 77.7778 ninth (96.52) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - star rows: J Vindemiatrix → J Jupiter RA 133.3513 133.333 ninth (97.85) — also: 5 Wholestone / Sam Twiston-Davies
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
-- **Quaoar**
-  - star rows: H Algorab → H Quaoar RA 77.6666 48×φ golden (94.32) — also: 5 Wholestone / Sam Twiston-Davies
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - same body: S Quaoar → J Quaoar Dec 2.6082 φ^2 phi power (loose) — also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-  - star rows: J Meissa → J Quaoar RA 146.9936 147 whole (46.31) — also: 3 Emitom / Brian Hughes
-    - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
 - **Sun**
   - star rows: H Castor → H Sun RA 122.9453 φ^10 phi power (85.44) — also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
@@ -825,56 +585,30 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Diadem → H Makemake RA 5.9810 6 whole (0.23) — also: 1 Third Wind / Tom O'Brien
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
-  - star rows: J Sadalmelik → J Makemake Dec 35.9891 36 whole (20.50) — also: 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - star rows: J Wezen → J Makemake RA 59.8607 37×φ golden (63.39) — only
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
 - **Ketu**
   - star rows: H Diadem → H Ketu Dec 0.2278 conj (5.79) — also: 1 Third Wind / Tom O'Brien
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
-  - star rows: H Fomalhaut → H Ketu Dec 46.9238 29×φ golden (94.78) — also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: H Ras Algethi → H Ketu RA 147.2633 91×φ golden (9.79) — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Vindemiatrix → J Ketu RA 30.0072 30 whole (41.06) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
-- **Saturn**
-  - star rows: H Fomalhaut → H Saturn RA 125.0009 125 whole (90.79) — also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: H Rigel → H Saturn RA 140.7726 87×φ golden (78.63) — also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
-  - top rows: S Jupiter → J Saturn Dec 14.1463 14.14 sqrt2 (88.57) — only
-  - top rows: S Sun → J Saturn Dec 11.1118 11.1111 ninth (98.93) — also: 4 Top Ville Ben / Thomas Dowson
-  - star rows: J Orion Nebula Cluster → J Saturn Dec 16.9873 17 whole (13.24) — only
-    - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - star rows: J Vindemiatrix → J Saturn Dec 33.3378 33.3333 ninth (94.61) — also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
-  - star rows: J Wezen → J Saturn Dec 4.0140 4 whole (8.85) — only
-    - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
-- **Ceres**
-  - star rows: H Fomalhaut → H Ceres RA 97.9854 98 whole (7.25) — also: 4 Top Ville Ben / Thomas Dowson
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: H Meissa → H Ceres RA 1.3915 conj (0.52) — also: 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
-  - star rows: H Orion Nebula Cluster → H Ceres RA 1.4291 conj (0.22) — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - star rows: H Sadalmelik → H Ceres RA 110.9524 10×φ^5 phi power (82.54) — also: 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
-  - star rows: J Vindemiatrix → J Ceres RA 170.9832 171 whole (2.51) — only
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
 - **Pluto**
   - star rows: H Meissa → H Pluto RA 161.9909 162 whole (29.77) — only
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
   - same body: S Pluto → J Pluto RA 76.9837 77 whole (3.46) — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
-    - source line: S Sun → Pluto RA 33.0062 33 whole (47.79)
     - source line: S Moon → Pluto RA 113.2614 70×φ golden (94.02)
   - star rows: J Castor → J Pluto RA 109.0189 109 whole (0.33) — also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: J Ras Algethi → J Pluto RA 36.0006 36 whole (94.12) — also: 5 Wholestone / Sam Twiston-Davies
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Rigel → J Pluto RA 144.0315 89×φ golden (3.34) — also: 4 Top Ville Ben / Thomas Dowson
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
+- **Ceres**
+  - star rows: H Meissa → H Ceres RA 1.3915 conj (0.52) — also: 6 Molly Ollys Wishes / Harry Skelton
+    - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
+  - star rows: H Orion Nebula Cluster → H Ceres RA 1.4291 conj (0.22) — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
+    - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
+  - star rows: J Vindemiatrix → J Ceres RA 170.9832 171 whole (2.51) — only
+    - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
 - **Sedna**
   - star rows: H Meissa → H Sedna Dec 3.0050 3 whole (56.26) — only
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
@@ -890,21 +624,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Wezen → H Transpluto Dec 38.0105 38 whole (22.77) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
   - same body: S Transpluto → J Transpluto RA 11.0430 φ^5 phi power (loose) — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson
-  - star rows: J Fomalhaut → J Transpluto Dec 44.0088 44 whole (31.20) — also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: J Ras Algethi → J Transpluto Dec 0.0036 conj (97.64) — also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-- **Mars**
-  - star rows: H Sadalmelik → H Mars Dec 1.0073 1 whole (40.11) — also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
-  - top rows: S Jupiter → J Mars RA 29.0382 φ^7 phi power (94.84) — also: 6 Molly Ollys Wishes / Harry Skelton
-  - star rows: J Algorab → J Mars Dec 16.1850 10×φ^1 phi power (88.90) — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - star rows: J Sadalmelik → J Mars Dec 0.0113 conj (92.59) — also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
+- **Saturn**
+  - star rows: H Rigel → H Saturn RA 140.7726 87×φ golden (78.63) — also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+    - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
+  - top rows: S Jupiter → J Saturn Dec 14.1463 14.14 sqrt2 (88.57) — only
+  - top rows: S Sun → J Saturn Dec 11.1118 11.1111 ninth (98.93) — also: 4 Top Ville Ben / Thomas Dowson
+  - star rows: J Orion Nebula Cluster → J Saturn Dec 16.9873 17 whole (13.24) — only
+    - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
+  - star rows: J Vindemiatrix → J Saturn Dec 33.3378 33.3333 ninth (94.61) — also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
+    - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
+  - star rows: J Wezen → J Saturn Dec 4.0140 4 whole (8.85) — only
+    - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
 - **Neptune**
-  - star rows: H Sadalmelik → H Neptune RA 3.9986 4 whole (86.14) — also: 5 Wholestone / Sam Twiston-Davies
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - star rows: H Spica → H Neptune Dec 0.2891 conj (0.13) — also: 4 Top Ville Ben / Thomas Dowson
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - same body: S Neptune → J Neptune Dec 17.9335 φ^6 phi power (loose) — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
@@ -912,26 +643,26 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Diadem → J Neptune RA 80.9878 81 whole (15.06) — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
+- **Vesta**
+  - same body: S Vesta → J Vesta RA 122.0285 122 whole (loose) — also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - top rows: S Sun → J Vesta Dec 21.0036 21 whole (67.32) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes
+  - star rows: J Meissa → J Vesta Dec 0.1960 conj (12.02) — only
+    - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
+  - star rows: J Vindemiatrix → J Vesta Dec 1.2225 1.22222 ninth (96.61) — also: 3 Emitom / Brian Hughes
+    - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
+- **Quaoar**
+  - same body: S Quaoar → J Quaoar Dec 2.6082 φ^2 phi power (loose) — also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - star rows: J Meissa → J Quaoar RA 146.9936 147 whole (46.31) — also: 3 Emitom / Brian Hughes
+    - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
+- **Mars**
+  - top rows: S Jupiter → J Mars RA 29.0382 φ^7 phi power (94.84) — also: 6 Molly Ollys Wishes / Harry Skelton
 - **Haumea**
-  - star rows: H Sadalmelik → H Haumea RA 122.2725 122.222 ninth (93.04) — also: 5 Wholestone / Sam Twiston-Davies
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - top rows: S Moon → J Haumea RA 1.1784 conj (4.60) — also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton
   - star rows: J Meissa → J Haumea Dec 13.0189 13 whole (0.28) — also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
   - star rows: J Regulus → J Haumea Dec 10.9850 11 whole (6.19) — only
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
   - star rows: J Vindemiatrix → J Haumea Dec 11.9924 12 whole (38.70) — only
-    - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
-- **Vesta**
-  - same body: S Vesta → J Vesta RA 122.0285 122 whole (loose) — also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-  - top rows: S Sun → J Vesta Dec 21.0036 21 whole (67.32) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes
-  - star rows: J Fomalhaut → J Vesta RA 174.7429 108×φ golden (72.90) — also: 3 Emitom / Brian Hughes
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: J Meissa → J Vesta Dec 0.1960 conj (12.02) — only
-    - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
-  - star rows: J Ras Algethi → J Vesta RA 88.9900 55×φ golden (89.05) — also: 5 Wholestone / Sam Twiston-Davies
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-  - star rows: J Vindemiatrix → J Vesta Dec 1.2225 1.22222 ninth (96.61) — also: 3 Emitom / Brian Hughes
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
 - **Orcus**
   - star rows: J Diadem → J Orcus RA 69.0058 69 whole (50.67) — also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
@@ -967,8 +698,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
 - **H Mars** (same body: S Mars → H Mars RA 101.9489 63×φ golden (36.54))
-  - star rows: H Algorab → H Mars RA 1.0275 conj (9.92)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: H Diadem → H Mars RA 9.0032 9 whole (70.15)
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
@@ -981,15 +710,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
 - **H Chiron** (same body: S Chiron → H Chiron RA 21.9806 22 whole (0.08))
   - other chart, same body: S Chiron → J Chiron Dec 12.1505 12.2222 ninth (loose)
-  - other chart, star rows: J Algorab → J Chiron RA 118.0039 118 whole (64.78)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - other chart, star rows: J Castor → J Chiron Dec 14.0121 14 whole (15.60)
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - other chart, star rows: J Sadalmelik → J Chiron RA 98.0159 98 whole (4.26)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **H Ceres** (same body: S Ceres → H Ceres Dec 17.6738 17.7778 ninth (loose))
-  - star rows: H Ras Algethi → H Ceres Dec 10.9896 11 whole (23.10)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: H Regulus → H Ceres RA 49.9833 50 whole (2.75)
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
   - star rows: H Spica → H Ceres RA 0.7731 conj (23.48)
@@ -1008,16 +731,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Wezen → H Pallas Dec 39.9937 40 whole (47.08)
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
   - other chart, same body: S Pallas → J Pallas Dec 8.0861 5×φ golden (loose)
-  - other chart, star rows: J Fomalhaut → J Pallas Dec 29.0155 29 whole (5.16)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - other chart, star rows: J Ras Algethi → J Pallas Dec 14.9938 15 whole (47.62)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-  - other chart, star rows: J Sadalmelik → J Pallas Dec 0.2836 conj (0.30)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **H Rahu** (same body: S Rahu → H Rahu Dec 30.0129 30 whole (12.59))
   - sky line to Rahu: S Jupiter → Rahu Dec 27.5018 17×φ golden (72.49)
-  - star rows: H Fomalhaut → H Rahu Dec 18.8804 18.8889 ninth (93.92)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - other chart, star rows: J Vindemiatrix → J Rahu RA 150.0011 150 whole (89.04)
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
 - **H Haumea** (same body: S Haumea → H Haumea Dec 3.0143 3 whole (8.25))
@@ -1059,8 +774,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Vindemiatrix → J Ketu RA 29.9989 30 whole (89.04)
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
 - **J Venus** (same body: S Venus → J Venus RA 110.0406 68×φ golden (31.20))
-  - star rows: J Ras Algethi → J Venus Dec 1.9807 2 whole (0.12)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - other chart, star rows: H Meissa → H Venus RA 68.0007 68 whole (93.59)
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
 - **J Mars** (same body: S Mars → J Mars RA 165.6572 166.667 ninth (loose))
@@ -1071,8 +784,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Wezen → J Mars RA 10.9896 11 whole (23.05)
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
   - other chart, same body: S Mars → H Mars RA 101.9489 63×φ golden (36.54)
-  - other chart, star rows: H Algorab → H Mars RA 1.0275 conj (9.92)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - other chart, star rows: H Diadem → H Mars RA 9.0032 9 whole (70.15)
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
@@ -1087,23 +798,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
   - star rows: J Wezen → J Neptune Dec 4.1425 4.14 silver (97.11)
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
-  - other chart, star rows: H Algorab → H Neptune Dec 7.0146 7 whole (7.36)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
 - **J Chiron** (same body: S Chiron → J Chiron Dec 12.1505 12.2222 ninth (loose))
-  - star rows: J Algorab → J Chiron RA 118.0039 118 whole (64.78)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: J Castor → J Chiron Dec 14.0121 14 whole (15.60)
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: J Sadalmelik → J Chiron RA 98.0159 98 whole (4.26)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - other chart, same body: S Chiron → H Chiron RA 21.9806 22 whole (0.08)
 - **J Pallas** (same body: S Pallas → J Pallas Dec 8.0861 5×φ golden (loose))
-  - star rows: J Fomalhaut → J Pallas Dec 29.0155 29 whole (5.16)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: J Ras Algethi → J Pallas Dec 14.9938 15 whole (47.62)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-  - star rows: J Sadalmelik → J Pallas Dec 0.2836 conj (0.30)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - other chart, same body: S Pallas → H Pallas Dec 22.2873 22.2222 ninth (loose)
   - other chart, star rows: H Orion Nebula Cluster → H Pallas Dec 18.9902 19 whole (25.88)
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
@@ -1113,35 +812,21 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
 - **J Eris** (same body: S Eris → J Eris Dec 8.9745 9 whole (loose))
   - sky line to Eris: S Moon → Eris Dec 2.0000 2 whole (99.75)
-  - star rows: J Sadalmelik → J Eris Dec 9.9937 10 whole (46.67)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
-  - other chart, star rows: H Algorab → H Eris RA 161.8090 100×φ^1 phi power (98.61)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - other chart, star rows: H Castor → H Eris RA 87.9852 88 whole (6.79)
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - other chart, star rows: H Ras Algethi → H Eris RA 126.9926 127 whole (39.75)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - other chart, star rows: H Regulus → H Eris Dec 14.9866 15 whole (10.97)
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
   - other chart, star rows: H Vindemiatrix → H Eris RA 169.8874 105×φ golden (65.44)
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
 - **J Sedna** (same body: S Sedna → J Sedna RA 18.0054 18 whole (53.35))
-  - star rows: J Sadalmelik → J Sedna Dec 4.0009 4 whole (91.12)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - star rows: J Spica → J Sedna RA 161.0053 161 whole (53.69)
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
-  - other chart, star rows: H Algorab → H Sedna RA 133.0036 133 whole (66.86)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - other chart, star rows: H Sadalmelik → H Sedna RA 83.0194 83 whole (0.09)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 18.7885 18.8889 ninth (loose))
   - top rows: S Jupiter → J Orcus RA 141.4018 141.4 sqrt2 (94.54)
   - top rows: S Sun → J Orcus Dec 17.9434 φ^6 phi power (98.13)
   - star rows: J Diadem → J Orcus RA 72.9882 73 whole (16.90)
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
-  - star rows: J Sadalmelik → J Orcus Dec 6.9990 7 whole (90.27)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 ### L3 matches
 - **1. same body on both charts**
   - Mars — only
@@ -1157,16 +842,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **3. runner number = sky number**
   - 22.2222 ninth — only
     - S Pallas → H Pallas Dec 22.2873 22.2222 ninth (loose) = S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
-  - 10×φ^6 phi power — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 10×φ^6 phi power — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
     - S Jupiter → J Makemake RA 179.4693 10×φ^6 phi power (94.17) = S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
-  - 2 whole — also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies
-    - J Ras Algethi → J Venus Dec 1.9807 2 whole (0.12) = S Moon → Eris Dec 2.0000 2 whole (99.75)
 - **4. circle divisions**
-  - 30 = 360/12 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 30 = 360/12 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
     - S Rahu → H Rahu Dec 30.0129 30 whole (12.59)
   - 3 = 360/120 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - S Haumea → H Haumea Dec 3.0143 3 whole (8.25)
-  - 30 = 360/12 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 30 = 360/12 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
     - S Ketu → H Ketu Dec 30.0129 30 whole (12.59)
   - 15 = 360/24 — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
     - S Sun → H Vesta Dec 14.9991 15 whole (91.66)
@@ -1180,7 +863,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Spica → H Pluto Dec 8.9818 9 whole (0.84)
   - 10 = 360/36 — also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
     - H Spica → H Makemake RA 10.0122 10 whole (15.31)
-  - 24 = 360/15 — also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 24 = 360/15 — also: 1 Third Wind / Tom O'Brien
     - H Vindemiatrix → H Gonggong Dec 24.0175 24 whole (1.61)
   - 40 = 360/9 — also: 4 Top Ville Ben / Thomas Dowson
     - H Wezen → H Pallas Dec 39.9937 40 whole (47.08)
@@ -1192,23 +875,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Meissa → J Transpluto Dec 4.9922 5 whole (37.08)
   - 10 = 360/36 — also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
     - J Orion Nebula Cluster → J Ceres RA 10.0134 10 whole (10.84)
-  - 9 = 360/40 — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - J Ras Algethi → J Sun Dec 9.0017 9 whole (83.39)
-  - 2 = 360/180 — also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies
-    - J Ras Algethi → J Venus Dec 1.9807 2 whole (0.12)
-  - 15 = 360/24 — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
-    - J Ras Algethi → J Pallas Dec 14.9938 15 whole (47.62)
   - 4 = 360/90 — also: 2 Thomas Darby / Aidan Coleman
     - J Rigel → J Quaoar Dec 4.0127 4 whole (13.42)
   - 9 = 360/40 — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - J Rigel → J Ketu Dec 8.9959 9 whole (63.32)
-  - 10 = 360/36 — also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - J Sadalmelik → J Eris Dec 9.9937 10 whole (46.67)
-  - 4 = 360/90 — also: 2 Thomas Darby / Aidan Coleman
-    - J Sadalmelik → J Sedna Dec 4.0009 4 whole (91.12)
   - 12 = 360/30 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
     - J Vindemiatrix → J Vesta Dec 11.9877 12 whole (14.74)
-  - 30 = 360/12 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 30 = 360/12 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
     - J Vindemiatrix → J Ketu RA 29.9989 30 whole (89.04)
   - 5 = 360/72 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - J Wezen → J Gonggong Dec 4.9843 5 whole (4.68)
@@ -1219,56 +892,37 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 22 whole — also: 1 Third Wind / Tom O'Brien
     - S Chiron → H Chiron RA 21.9806 22 whole (0.08)
     - S Sun → H Ketu Dec 22.0053 22 whole (53.84)
-  - 30 whole — also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
+  - 30 whole — only
     - S Rahu → H Rahu Dec 30.0129 30 whole (12.59)
     - S Ketu → H Ketu Dec 30.0129 30 whole (12.59)
     - J Vindemiatrix → J Ketu RA 29.9989 30 whole (89.04)
   - 28 whole — also: 1 Third Wind / Tom O'Brien
     - H Jupiter → H star Orion Nebula Cluster Dec 28.0042 28 whole (62.28)
     - H Orion Nebula Cluster → H Jupiter Dec 28.0042 28 whole (62.28)
-  - 85×φ golden — also: 5 Wholestone / Sam Twiston-Davies
-    - H Jupiter → H star Sadalmelik RA 137.5281 85×φ golden (72.62)
-    - S Sadalmelik → H Jupiter RA 137.5331 85×φ golden (98.78)
-  - 15 whole — also: 1 Third Wind / Tom O'Brien
+  - 15 whole — only
     - S Sun → H Vesta Dec 14.9991 15 whole (91.66)
     - H Regulus → H Eris Dec 14.9866 15 whole (10.97)
-    - J Ras Algethi → J Pallas Dec 14.9938 15 whole (47.62)
-  - 100×φ^1 phi power — only
-    - S Juno → H Jupiter RA 161.8578 100×φ^1 phi power (87.01)
-    - H Algorab → H Eris RA 161.8090 100×φ^1 phi power (98.61)
-  - 7 whole — only
-    - H Algorab → H Neptune Dec 7.0146 7 whole (7.36)
-    - J Sadalmelik → J Orcus Dec 6.9990 7 whole (90.27)
   - 9 whole — also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - H Diadem → H Mars RA 9.0032 9 whole (70.15)
     - H Spica → H Pluto Dec 8.9818 9 whole (0.84)
     - S Eris → J Eris Dec 8.9745 9 whole (loose)
-    - J Ras Algethi → J Sun Dec 9.0017 9 whole (83.39)
     - J Rigel → J Ketu Dec 8.9959 9 whole (63.32)
-  - 18.8889 ninth — also: 5 Wholestone / Sam Twiston-Davies
-    - H Fomalhaut → H Rahu Dec 18.8804 18.8889 ninth (93.92)
-    - S Orcus → J Orcus Dec 18.7885 18.8889 ninth (loose)
   - 177.778 ninth — only
     - H Meissa → H Quaoar RA 177.7309 177.778 ninth (96.33)
     - H Orion Nebula Cluster → H Quaoar RA 177.7685 177.778 ninth (99.28)
-  - 11 whole — only
-    - H Ras Algethi → H Ceres Dec 10.9896 11 whole (23.10)
-    - J Wezen → J Mars RA 10.9896 11 whole (23.05)
-  - 4 whole — also: 2 Thomas Darby / Aidan Coleman
+  - 4 whole — only
     - H Spica → H Saturn Dec 4.0052 4 whole (54.96)
     - J Rigel → J Quaoar Dec 4.0127 4 whole (13.42)
-    - J Sadalmelik → J Sedna Dec 4.0009 4 whole (91.12)
   - 10 whole — also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
     - H Spica → H Makemake RA 10.0122 10 whole (15.31)
     - J Orion Nebula Cluster → J Ceres RA 10.0134 10 whole (10.84)
-    - J Sadalmelik → J Eris Dec 9.9937 10 whole (46.67)
-  - φ^6 phi power — also: 2 Thomas Darby / Aidan Coleman
+  - φ^6 phi power — only
     - S Neptune → J Neptune Dec 17.9515 φ^6 phi power (loose)
     - S Sun → J Orcus Dec 17.9434 φ^6 phi power (98.13)
-  - 14 whole — also: 6 Molly Ollys Wishes / Harry Skelton
+  - 14 whole — only
     - J Castor → J Chiron Dec 14.0121 14 whole (15.60)
     - J Meissa → J Haumea Dec 13.9918 14 whole (34.81)
-  - 5 whole — also: 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
+  - 5 whole — also: 6 Molly Ollys Wishes / Harry Skelton
     - J Meissa → J Transpluto Dec 4.9922 5 whole (37.08)
     - J Wezen → J Gonggong Dec 4.9843 5 whole (4.68)
 ### L4 every natal body
@@ -1279,8 +933,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
 - **Mars**
   - same body: S Mars → H Mars RA 101.9489 63×φ golden (36.54) — also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-  - star rows: H Algorab → H Mars RA 1.0275 conj (9.92) — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: H Diadem → H Mars RA 9.0032 9 whole (70.15) — only
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
@@ -1294,16 +946,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Chiron**
   - same body: S Chiron → H Chiron RA 21.9806 22 whole (0.08) — also: 5 Wholestone / Sam Twiston-Davies
   - same body: S Chiron → J Chiron Dec 12.1505 12.2222 ninth (loose) — also: 5 Wholestone / Sam Twiston-Davies
-  - star rows: J Algorab → J Chiron RA 118.0039 118 whole (64.78) — only
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: J Castor → J Chiron Dec 14.0121 14 whole (15.60) — also: 4 Top Ville Ben / Thomas Dowson
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: J Sadalmelik → J Chiron RA 98.0159 98 whole (4.26) — only
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **Ceres**
   - same body: S Ceres → H Ceres Dec 17.6738 17.7778 ninth (loose) — also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
-  - star rows: H Ras Algethi → H Ceres Dec 10.9896 11 whole (23.10) — also: 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: H Regulus → H Ceres RA 49.9833 50 whole (2.75) — also: 4 Top Ville Ben / Thomas Dowson
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
   - star rows: H Spica → H Ceres RA 0.7731 conj (23.48) — also: 5 Wholestone / Sam Twiston-Davies
@@ -1323,17 +969,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Wezen → H Pallas Dec 39.9937 40 whole (47.08) — only
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
   - same body: S Pallas → J Pallas Dec 8.0861 5×φ golden (loose) — also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton
-  - star rows: J Fomalhaut → J Pallas Dec 29.0155 29 whole (5.16) — also: 4 Top Ville Ben / Thomas Dowson
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: J Ras Algethi → J Pallas Dec 14.9938 15 whole (47.62) — also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-  - star rows: J Sadalmelik → J Pallas Dec 0.2836 conj (0.30) — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **Rahu**
   - same body: S Rahu → H Rahu Dec 30.0129 30 whole (12.59) — also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Jupiter → Rahu Dec 27.5018 17×φ golden (72.49)
-  - star rows: H Fomalhaut → H Rahu Dec 18.8804 18.8889 ninth (93.92) — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - star rows: J Vindemiatrix → J Rahu RA 150.0011 150 whole (89.04) — also: 2 Thomas Darby / Aidan Coleman
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
 - **Haumea**
@@ -1384,69 +1022,34 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
 - **Jupiter**
   - T1: H Jupiter → H star Orion Nebula Cluster Dec 28.0042 28 whole (62.28) — also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies
-  - T1: H Jupiter → H star Sadalmelik RA 137.5281 85×φ golden (72.62) — also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies
   - top rows: S Saturn → H Jupiter RA 148.8539 92×φ golden (70.05) — only
   - top rows: S Juno → H Jupiter RA 161.8578 100×φ^1 phi power (87.01) — only
     - source line: S Jupiter → Juno RA 35.9948 36 whole (54.98)
-    - source line: S Sun → Juno Dec 0.2494 conj (2.84)
   - top rows: S Makemake → H Jupiter Dec 0.0408 conj (74.67) — also: 6 Molly Ollys Wishes / Harry Skelton
-  - star rows: S Fomalhaut → H Jupiter RA 124.5647 77×φ golden (6.84) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - star rows: H Orion Nebula Cluster → H Jupiter Dec 28.0042 28 whole (62.28) — only
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - star rows: S Sadalmelik → H Jupiter RA 137.5331 85×φ golden (98.78) — also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - star rows: H Wezen → H Jupiter Dec 49.0078 49 whole (37.43) — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
-  - T2: J Jupiter → J star Algorab Dec 0.0823 conj (52.66) — also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies
   - top rows: S Saturn → J Jupiter RA 0.5291 conj (41.90) — only
   - top rows: S Saturn → J Jupiter Dec 0.0126 conj (91.80) — only
   - top rows: S Makemake → J Jupiter Dec 39.0051 39 whole (55.53) — also: 6 Molly Ollys Wishes / Harry Skelton
-  - star rows: J Algorab → J Jupiter Dec 0.0823 conj (52.66) — also: 5 Wholestone / Sam Twiston-Davies
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
 - **Vesta**
   - top rows: S Sun → H Vesta Dec 14.9991 15 whole (91.66) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman
   - star rows: H Rigel → H Vesta RA 120.9812 121 whole (0.33) — also: 1 Third Wind / Tom O'Brien
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
-  - star rows: J Fomalhaut → J Vesta RA 140.0176 140 whole (1.41) — also: 2 Thomas Darby / Aidan Coleman
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - star rows: J Regulus → J Vesta Dec 12.9958 13 whole (62.75) — only
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
   - star rows: J Vindemiatrix → J Vesta Dec 11.9877 12 whole (14.74) — also: 2 Thomas Darby / Aidan Coleman
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
-- **Neptune**
-  - star rows: H Algorab → H Neptune Dec 7.0146 7 whole (7.36) — only
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - same body: S Neptune → J Neptune Dec 17.9515 φ^6 phi power (loose) — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-  - star rows: J Orion Nebula Cluster → J Neptune RA 170.9902 171 whole (25.77) — also: 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - star rows: J Wezen → J Neptune Dec 4.1425 4.14 silver (97.11) — also: 5 Wholestone / Sam Twiston-Davies
-    - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
 - **Eris**
-  - star rows: H Algorab → H Eris RA 161.8090 100×φ^1 phi power (98.61) — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: H Castor → H Eris RA 87.9852 88 whole (6.79) — also: 2 Thomas Darby / Aidan Coleman
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: H Ras Algethi → H Eris RA 126.9926 127 whole (39.75) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: H Regulus → H Eris Dec 14.9866 15 whole (10.97) — also: 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
   - star rows: H Vindemiatrix → H Eris RA 169.8874 105×φ golden (65.44) — also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
   - same body: S Eris → J Eris Dec 8.9745 9 whole (loose) — also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies
     - source line: S Moon → Eris Dec 2.0000 2 whole (99.75)
-  - star rows: J Sadalmelik → J Eris Dec 9.9937 10 whole (46.67) — also: 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
-- **Sedna**
-  - star rows: H Algorab → H Sedna RA 133.0036 133 whole (66.86) — only
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - star rows: H Sadalmelik → H Sedna RA 83.0194 83 whole (0.09) — only
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
-  - same body: S Sedna → J Sedna RA 18.0054 18 whole (53.35) — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-  - star rows: J Sadalmelik → J Sedna Dec 4.0009 4 whole (91.12) — only
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
-  - star rows: J Spica → J Sedna RA 161.0053 161 whole (53.69) — also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Spica Dec 0.1018 conj (43.67)
 - **Quaoar**
   - star rows: H Diadem → H Quaoar RA 68.5491 10×φ^4 phi power (95.33) — also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
@@ -1462,8 +1065,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Meissa → H Venus RA 68.0007 68 whole (93.59) — also: 4 Top Ville Ben / Thomas Dowson
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
   - same body: S Venus → J Venus RA 110.0406 68×φ golden (31.20) — also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton
-  - star rows: J Ras Algethi → J Venus Dec 1.9807 2 whole (0.12) — only
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
 - **Uranus**
   - star rows: H Meissa → H Uranus RA 70.0142 70 whole (8.48) — also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
@@ -1482,24 +1083,25 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
   - star rows: J Orion Nebula Cluster → J Transpluto RA 58.2431 36×φ golden (65.49) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-- **Sun**
-  - star rows: H Ras Algethi → H Sun RA 155.3283 96×φ golden (82.76) — also: 5 Wholestone / Sam Twiston-Davies
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-  - star rows: J Fomalhaut → J Sun Dec 53.0110 53 whole (20.27) — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: J Ras Algethi → J Sun Dec 9.0017 9 whole (83.39) — also: 5 Wholestone / Sam Twiston-Davies
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
 - **Saturn**
   - star rows: H Spica → H Saturn Dec 4.0052 4 whole (54.96) — also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - star rows: H Vindemiatrix → H Saturn RA 32.0103 32 whole (23.49) — also: 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
-  - star rows: J Algorab → J Saturn Dec 0.2692 conj (1.05) — only
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: J Meissa → J Saturn RA 147.2282 91×φ golden (36.14) — only
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
   - star rows: J Meissa → J Saturn Dec 26.1813 10×φ^2 phi power (98.57) — only
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
+- **Neptune**
+  - same body: S Neptune → J Neptune Dec 17.9515 φ^6 phi power (loose) — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
+  - star rows: J Orion Nebula Cluster → J Neptune RA 170.9902 171 whole (25.77) — also: 4 Top Ville Ben / Thomas Dowson
+    - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
+  - star rows: J Wezen → J Neptune Dec 4.1425 4.14 silver (97.11) — also: 5 Wholestone / Sam Twiston-Davies
+    - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
+- **Sedna**
+  - same body: S Sedna → J Sedna RA 18.0054 18 whole (53.35) — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
+  - star rows: J Spica → J Sedna RA 161.0053 161 whole (53.69) — also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
+    - source line: S Sun → Spica Dec 0.1018 conj (43.67)
 - **Orcus**
   - same body: S Orcus → J Orcus Dec 18.7885 18.8889 ninth (loose) — also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
   - top rows: S Jupiter → J Orcus RA 141.4018 141.4 sqrt2 (94.54) — also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton
@@ -1507,8 +1109,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Diadem → J Orcus RA 72.9882 73 whole (16.90) — also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
-  - star rows: J Sadalmelik → J Orcus Dec 6.9990 7 whole (90.27) — also: 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **Juno**
   - T2: J Jupiter → J Juno Dec 22.6554 14×φ golden (82.83) — also: 2 Thomas Darby / Aidan Coleman
 
@@ -1539,15 +1139,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, same body: S Mercury → J Mercury RA 16.1718 10×φ^1 phi power (loose)
   - other chart, star rows: J Castor → J Mercury RA 177.0123 177 whole (14.80)
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - other chart, star rows: J Ras Algethi → J Mercury RA 32.0100 32 whole (25.05)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
 - **H Mars** (same body: S Mars → H Mars Dec 32.0088 32 whole (31.23))
   - star rows: H Orion Nebula Cluster → H Mars Dec 14.5689 9×φ golden (63.48)
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - other chart, star rows: J Algorab → J Mars RA 134.2947 83×φ golden (87.33)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - other chart, star rows: J Ras Algethi → J Mars RA 63.1057 39×φ golden (85.64)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - other chart, star rows: J Spica → J Mars Dec 5.0000 5 whole (99.80)
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - other chart, star rows: J Vindemiatrix → J Mars RA 126.2173 78×φ golden (44.95)
@@ -1556,20 +1150,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Jupiter → H Ceres Dec 20.0007 20 whole (93.26)
   - star rows: H Orion Nebula Cluster → H Ceres RA 39.0041 39 whole (63.20)
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - star rows: H Ras Algethi → H Ceres Dec 2.6180 φ^2 phi power (99.96)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: H Regulus → H Ceres Dec 0.1963 conj (11.94)
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
   - other chart, same body: S Ceres → J Ceres RA 176.9043 177.778 ninth (loose)
-  - other chart, star rows: J Algorab → J Ceres RA 54.9859 55 whole (8.61)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - other chart, star rows: J Fomalhaut → J Ceres RA 101.9519 63×φ golden (26.34)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - other chart, star rows: J Sadalmelik → J Ceres RA 88.9857 89 whole (8.04)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **H Juno** (same body: S Juno → H Juno RA 66.3150 41×φ golden (loose))
   - sky line to Juno: S Jupiter → Juno RA 35.9948 36 whole (54.98)
-  - sky line to Juno: S Sun → Juno Dec 0.2494 conj (2.84)
   - star rows: H Meissa → H Juno Dec 13.0027 13 whole (74.72)
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
   - star rows: H Orion Nebula Cluster → H Juno RA 156.9840 157 whole (3.95)
@@ -1577,8 +1162,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Mercury** (same body: S Mercury → J Mercury RA 16.1718 10×φ^1 phi power (loose))
   - star rows: J Castor → J Mercury RA 177.0123 177 whole (14.80)
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: J Ras Algethi → J Mercury RA 32.0100 32 whole (25.05)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - other chart, same body: S Mercury → H Mercury Dec 36.0073 36 whole (40.14)
   - other chart, top rows: S Jupiter → H Mercury RA 63.9963 64 whole (66.18)
   - other chart, star rows: H Regulus → H Mercury RA 104.9851 105 whole (6.44)
@@ -1601,7 +1184,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Spica → H Neptune Dec 0.1822 conj (15.42)
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
 - **J Pluto** (same body: S Pluto → J Pluto Dec 14.5347 9×φ golden (loose))
-  - sky line to Pluto: S Sun → Pluto RA 33.0062 33 whole (47.79)
   - sky line to Pluto: S Moon → Pluto RA 113.2614 70×φ golden (94.02)
   - top rows: S Jupiter → J Pluto Dec 0.2789 conj (0.49)
   - star rows: J Rigel → J Pluto Dec 0.2528 conj (2.47)
@@ -1611,18 +1193,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Vindemiatrix → H Pluto RA 83.9899 84 whole (24.63)
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
 - **J Ceres** (same body: S Ceres → J Ceres RA 176.9043 177.778 ninth (loose))
-  - star rows: J Algorab → J Ceres RA 54.9859 55 whole (8.61)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - star rows: J Fomalhaut → J Ceres RA 101.9519 63×φ golden (26.34)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: J Sadalmelik → J Ceres RA 88.9857 89 whole (8.04)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - other chart, same body: S Ceres → H Ceres RA 14.5465 9×φ golden (loose)
   - other chart, top rows: S Jupiter → H Ceres Dec 20.0007 20 whole (93.26)
   - other chart, star rows: H Orion Nebula Cluster → H Ceres RA 39.0041 39 whole (63.20)
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - other chart, star rows: H Ras Algethi → H Ceres Dec 2.6180 φ^2 phi power (99.96)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - other chart, star rows: H Regulus → H Ceres Dec 0.1963 conj (11.94)
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
 - **J Vesta** (same body: S Vesta → J Vesta Dec 12.2004 12.2222 ninth (loose))
@@ -1634,15 +1208,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Diadem → J Rahu RA 0.9163 conj (15.14)
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
-  - star rows: J Fomalhaut → J Rahu RA 145.9911 146 whole (30.95)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - other chart, star rows: H Castor → H Rahu Dec 52.9974 53 whole (75.96)
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
 - **J Sedna** (same body: S Sedna → J Sedna RA 14.0182 14 whole (0.83))
   - star rows: J Orion Nebula Cluster → J Sedna Dec 9.9828 10 whole (1.93)
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - star rows: J Ras Algethi → J Sedna RA 145.6244 90×φ golden (92.08)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Spica → J Sedna RA 157.0174 157 whole (1.74)
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - star rows: J Wezen → J Sedna Dec 30.9853 31 whole (6.94)
@@ -1655,14 +1225,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
   - other chart, star rows: H Rigel → H Makemake RA 110.9195 10×φ^5 phi power (93.67)
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
-  - other chart, star rows: H Sadalmelik → H Makemake Dec 28.0160 28 whole (4.03)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - other chart, star rows: H Vindemiatrix → H Makemake RA 5.9984 6 whole (84.20)
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
 - **J Gonggong** (same body: S Gonggong → J Gonggong RA 5.9824 6 whole (1.39))
   - sky line to Gonggong: S Sun → Gonggong Dec 0.0230 conj (85.28)
-  - star rows: J Sadalmelik → J Gonggong RA 0.6910 conj (29.09)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - star rows: J Spica → J Gonggong RA 129.4499 80×φ golden (60.61)
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - other chart, top rows: S Moon → H Gonggong RA 149.0006 149 whole (94.28)
@@ -1670,27 +1236,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
 - **J Transpluto** (same body: S Transpluto → J Transpluto Dec 3.0271 3 whole (loose))
   - top rows: S Moon → J Transpluto RA 40.0056 40 whole (51.99)
-  - star rows: J Algorab → J Transpluto Dec 30.0156 30 whole (4.94)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - other chart, star rows: H Fomalhaut → H Transpluto RA 166.6469 166.667 ninth (98.31)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - other chart, star rows: H Regulus → H Transpluto RA 1.0329 conj (9.70)
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
   - other chart, star rows: H Regulus → H Transpluto Dec 0.1187 conj (36.52)
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
-  - other chart, star rows: H Sadalmelik → H Transpluto RA 179.6135 111×φ golden (40.82)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - other chart, star rows: H Spica → H Transpluto Dec 23.0117 23 whole (17.02)
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
 - **J Ketu** (same body: S Ketu → J Ketu RA 144.6525 144.444 ninth (loose))
-  - star rows: J Fomalhaut → J Ketu RA 34.0089 34 whole (30.95)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: J Ras Algethi → J Ketu RA 119.7577 74×φ golden (8.09)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Rigel → J Ketu Dec 16.0030 16 whole (72.36)
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
-  - star rows: J Sadalmelik → J Ketu RA 46.9751 φ^8 phi power (96.94)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 ### L3 matches
 - **1. same body on both charts**
   - Mercury — also: 6 Molly Ollys Wishes / Harry Skelton
@@ -1701,38 +1255,30 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Ceres → J Ceres RA 176.9043 177.778 ninth (loose)
 - **2. one body in both planes**: none
 - **3. runner number = sky number**
-  - 36 whole — also: 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
+  - 36 whole — also: 6 Molly Ollys Wishes / Harry Skelton
     - S Mercury → H Mercury Dec 36.0073 36 whole (40.14) = S Jupiter → Juno RA 35.9948 36 whole (54.98)
-  - 10×φ^6 phi power — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 10×φ^6 phi power — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
     - S Moon → H Uranus RA 179.4987 10×φ^6 phi power (87.92) = S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
-  - 10×φ^6 phi power — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - H Algorab → H Uranus RA 179.4186 10×φ^6 phi power (94.69) = S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
-  - 141 whole — also: 2 Thomas Darby / Aidan Coleman
+  - 141 whole — only
     - H Diadem → H Sun RA 141.0006 141 whole (93.77) = S Sun → Castor RA 140.9998 141 whole (97.65)
-  - 10×φ^6 phi power — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 10×φ^6 phi power — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
     - H Orion Nebula Cluster → H Quaoar RA 179.4849 10×φ^6 phi power (90.82) = S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
-  - 33 whole — also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies
-    - S Sun → J Haumea Dec 33.0000 33 whole (99.92) = S Sun → Pluto RA 33.0062 33 whole (47.79)
-  - 33 whole — also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies
-    - S Meissa → J Jupiter Dec 33.0139 33 whole (9.17) = S Sun → Pluto RA 33.0062 33 whole (47.79)
-  - 90×φ golden — only
-    - J Ras Algethi → J Sedna RA 145.6244 90×φ golden (92.08) = S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
-  - 11.1111 ninth — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 11.1111 ninth — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
     - J Spica → J Pallas Dec 11.1135 11.1111 ninth (96.17) = S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
 - **4. circle divisions**
-  - 36 = 360/10 — also: 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
+  - 36 = 360/10 — also: 6 Molly Ollys Wishes / Harry Skelton
     - S Mercury → H Mercury Dec 36.0073 36 whole (40.14)
   - 20 = 360/18 — also: 6 Molly Ollys Wishes / Harry Skelton
     - S Jupiter → H Ceres Dec 20.0007 20 whole (93.26)
   - 12 = 360/30 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
     - H Castor → H Sun Dec 12.0155 12 whole (5.03)
-  - 6 = 360/60 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 6 = 360/60 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
     - H Vindemiatrix → H Pallas Dec 5.9892 6 whole (21.35)
-  - 6 = 360/60 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 6 = 360/60 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
     - H Vindemiatrix → H Makemake RA 5.9984 6 whole (84.20)
   - 60 = 360/6 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman
     - H Wezen → H Mercury RA 59.9865 60 whole (10.56)
-  - 6 = 360/60 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 6 = 360/60 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
     - S Gonggong → J Gonggong RA 5.9824 6 whole (1.39)
   - 3 = 360/120 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
     - S Transpluto → J Transpluto Dec 3.0271 3 whole (loose)
@@ -1740,14 +1286,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Jupiter → J Venus RA 8.9963 9 whole (66.09)
   - 40 = 360/9 — also: 3 Emitom / Brian Hughes
     - S Moon → J Transpluto RA 40.0056 40 whole (51.99)
-  - 30 = 360/12 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - J Algorab → J Transpluto Dec 30.0156 30 whole (4.94)
   - 120 = 360/3 — also: 1 Third Wind / Tom O'Brien
     - J Castor → J Saturn RA 120.0081 120 whole (35.69)
   - 40 = 360/9 — also: 3 Emitom / Brian Hughes
     - J Castor → J Chiron Dec 39.9970 40 whole (72.28)
-  - 30 = 360/12 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - J Fomalhaut → J Sun RA 29.9835 30 whole (3.13)
   - 10 = 360/36 — also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
     - J Meissa → J Pallas Dec 9.9816 10 whole (0.67)
   - 18 = 360/20 — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
@@ -1762,30 +1304,25 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Rigel → J Sun Dec 9.0035 9 whole (67.71)
   - 5 = 360/72 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
     - J Spica → J Mars Dec 5.0000 5 whole (99.80)
-  - 6 = 360/60 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 6 = 360/60 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
     - J Wezen → J Uranus Dec 5.9892 6 whole (21.00)
 - **5. same number in more than one place**
-  - 32 whole — only
-    - S Mars → H Mars Dec 32.0088 32 whole (31.23)
-    - J Ras Algethi → J Mercury RA 32.0100 32 whole (25.05)
   - 9×φ golden — only
     - S Ceres → H Ceres RA 14.5465 9×φ golden (loose)
     - H Orion Nebula Cluster → H Mars Dec 14.5689 9×φ golden (63.48)
     - S Pluto → J Pluto Dec 14.5347 9×φ golden (loose)
-  - 10×φ^6 phi power — also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies
+  - 10×φ^6 phi power — also: 5 Wholestone / Sam Twiston-Davies
     - S Moon → H Uranus RA 179.4987 10×φ^6 phi power (87.92)
-    - H Algorab → H Uranus RA 179.4186 10×φ^6 phi power (94.69)
     - H Orion Nebula Cluster → H Quaoar RA 179.4849 10×φ^6 phi power (90.82)
   - 39 whole — also: 2 Thomas Darby / Aidan Coleman
     - S Vesta → H Jupiter Dec 38.9985 39 whole (85.30)
     - H Orion Nebula Cluster → H Ceres RA 39.0041 39 whole (63.20)
-  - 13 whole — also: 5 Wholestone / Sam Twiston-Davies
-    - H Algorab → H Eris Dec 12.9940 13 whole (48.77)
-    - H Castor → H Haumea Dec 13.0065 13 whole (45.81)
-    - H Meissa → H Juno Dec 13.0027 13 whole (74.72)
   - 12 whole — only
     - H Castor → H Sun Dec 12.0155 12 whole (5.03)
     - J Regulus → J Pallas Dec 12.0136 12 whole (10.33)
+  - 13 whole — only
+    - H Castor → H Haumea Dec 13.0065 13 whole (45.81)
+    - H Meissa → H Juno Dec 13.0027 13 whole (74.72)
   - 160 whole — only
     - H Diadem → H Vesta RA 159.9892 160 whole (21.28)
     - J Regulus → J Venus RA 159.9913 160 whole (31.74)
@@ -1804,7 +1341,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 23 whole — also: 1 Third Wind / Tom O'Brien
     - H Spica → H Transpluto Dec 23.0117 23 whole (17.02)
     - S Makemake → J Makemake RA 22.9899 23 whole (24.60)
-  - 6 whole — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+  - 6 whole — also: 6 Molly Ollys Wishes / Harry Skelton
     - H Vindemiatrix → H Pallas Dec 5.9892 6 whole (21.35)
     - H Vindemiatrix → H Makemake RA 5.9984 6 whole (84.20)
     - S Gonggong → J Gonggong RA 5.9824 6 whole (1.39)
@@ -1818,7 +1355,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 9 whole — also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
     - S Jupiter → J Venus RA 8.9963 9 whole (66.09)
     - J Rigel → J Sun Dec 9.0035 9 whole (67.71)
-  - 21 whole — also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton
+  - 21 whole — also: 6 Molly Ollys Wishes / Harry Skelton
     - S Sun → J Saturn RA 20.9944 21 whole (51.59)
     - J Castor → J Orcus RA 20.9845 21 whole (4.96)
   - 33 whole — also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies
@@ -1827,15 +1364,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 40 whole — only
     - S Moon → J Transpluto RA 40.0056 40 whole (51.99)
     - J Castor → J Chiron Dec 39.9970 40 whole (72.28)
-  - 17 whole — also: 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
-    - J Algorab → J Orcus Dec 17.0055 17 whole (52.71)
-    - J Sadalmelik → J Sun RA 17.0173 17 whole (1.80)
-  - 30 whole — also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
-    - J Algorab → J Transpluto Dec 30.0156 30 whole (4.94)
-    - J Fomalhaut → J Sun RA 29.9835 30 whole (3.13)
-  - 146 whole — only
-    - J Fomalhaut → J Rahu RA 145.9911 146 whole (30.95)
-    - J Orion Nebula Cluster → J Neptune RA 146.0157 146 whole (4.61)
   - 10 whole — also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
     - J Meissa → J Pallas Dec 9.9816 10 whole (0.67)
     - J Orion Nebula Cluster → J Sedna Dec 9.9828 10 whole (1.93)
@@ -1853,16 +1381,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Mercury → J Mercury RA 16.1718 10×φ^1 phi power (loose) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
   - star rows: J Castor → J Mercury RA 177.0123 177 whole (14.80) — only
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: J Ras Algethi → J Mercury RA 32.0100 32 whole (25.05) — also: 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
 - **Mars**
   - same body: S Mars → H Mars Dec 32.0088 32 whole (31.23) — also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
   - star rows: H Orion Nebula Cluster → H Mars Dec 14.5689 9×φ golden (63.48) — also: 1 Third Wind / Tom O'Brien
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - star rows: J Algorab → J Mars RA 134.2947 83×φ golden (87.33) — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - star rows: J Ras Algethi → J Mars RA 63.1057 39×φ golden (85.64) — also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Spica → J Mars Dec 5.0000 5 whole (99.80) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - star rows: J Vindemiatrix → J Mars RA 126.2173 78×φ golden (44.95) — also: 5 Wholestone / Sam Twiston-Davies
@@ -1872,21 +1394,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Jupiter → H Ceres Dec 20.0007 20 whole (93.26) — only
   - star rows: H Orion Nebula Cluster → H Ceres RA 39.0041 39 whole (63.20) — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - star rows: H Ras Algethi → H Ceres Dec 2.6180 φ^2 phi power (99.96) — also: 3 Emitom / Brian Hughes
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: H Regulus → H Ceres Dec 0.1963 conj (11.94) — also: 3 Emitom / Brian Hughes
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
   - same body: S Ceres → J Ceres RA 176.9043 177.778 ninth (loose) — also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
-  - star rows: J Algorab → J Ceres RA 54.9859 55 whole (8.61) — also: 5 Wholestone / Sam Twiston-Davies
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - star rows: J Fomalhaut → J Ceres RA 101.9519 63×φ golden (26.34) — also: 2 Thomas Darby / Aidan Coleman
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: J Sadalmelik → J Ceres RA 88.9857 89 whole (8.04) — also: 2 Thomas Darby / Aidan Coleman
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **Juno**
   - same body: S Juno → H Juno RA 66.3150 41×φ golden (loose) — also: 5 Wholestone / Sam Twiston-Davies
     - source line: S Jupiter → Juno RA 35.9948 36 whole (54.98)
-    - source line: S Sun → Juno Dec 0.2494 conj (2.84)
   - star rows: H Meissa → H Juno Dec 13.0027 13 whole (74.72) — also: 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
   - star rows: H Orion Nebula Cluster → H Juno RA 156.9840 157 whole (3.95) — also: 2 Thomas Darby / Aidan Coleman
@@ -1925,8 +1438,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
 - **Uranus**
   - top rows: S Moon → H Uranus RA 179.4987 10×φ^6 phi power (87.92) — also: 2 Thomas Darby / Aidan Coleman
-  - star rows: H Algorab → H Uranus RA 179.4186 10×φ^6 phi power (94.69) — also: 2 Thomas Darby / Aidan Coleman
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: J Orion Nebula Cluster → J Uranus Dec 15.0133 15 whole (11.14) — only
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
   - star rows: J Wezen → J Uranus Dec 5.9892 6 whole (21.00) — also: 2 Thomas Darby / Aidan Coleman
@@ -1938,8 +1449,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Sedna → J Sedna RA 14.0182 14 whole (0.83) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
   - star rows: J Orion Nebula Cluster → J Sedna Dec 9.9828 10 whole (1.93) — also: 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - star rows: J Ras Algethi → J Sedna RA 145.6244 90×φ golden (92.08) — also: 5 Wholestone / Sam Twiston-Davies
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Spica → J Sedna RA 157.0174 157 whole (1.74) — also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - star rows: J Wezen → J Sedna Dec 30.9853 31 whole (6.94) — only
@@ -1950,8 +1459,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
   - same body: S Gonggong → J Gonggong RA 5.9824 6 whole (1.39) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
     - source line: S Sun → Gonggong Dec 0.0230 conj (85.28)
-  - star rows: J Sadalmelik → J Gonggong RA 0.6910 conj (29.09) — also: 1 Third Wind / Tom O'Brien
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - star rows: J Spica → J Gonggong RA 129.4499 80×φ golden (60.61) — only
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
 - **Jupiter**
@@ -1964,32 +1471,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
   - star rows: S Wezen → J Jupiter RA 169.8747 105×φ golden (17.47) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
-- **Eris**
-  - star rows: H Algorab → H Eris Dec 12.9940 13 whole (48.77) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - star rows: H Fomalhaut → H Eris RA 41.0185 41 whole (0.54) — only
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: H Sadalmelik → H Eris RA 53.9851 54 whole (6.49) — also: 3 Emitom / Brian Hughes
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
-  - top rows: S Jupiter → J Eris Dec 0.1734 conj (17.82) — only
-  - star rows: J Meissa → J Eris Dec 17.9898 18 whole (24.03) — also: 1 Third Wind / Tom O'Brien
-    - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
-  - star rows: J Rigel → J Eris Dec 0.1473 conj (25.91) — also: 2 Thomas Darby / Aidan Coleman
-    - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
-  - star rows: J Vindemiatrix → J Eris Dec 19.0131 19 whole (11.74) — also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
 - **Sun**
   - star rows: H Castor → H Sun Dec 12.0155 12 whole (5.03) — also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
   - star rows: H Diadem → H Sun RA 141.0006 141 whole (93.77) — only
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
-  - star rows: J Fomalhaut → J Sun RA 29.9835 30 whole (3.13) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - star rows: J Rigel → J Sun Dec 9.0035 9 whole (67.71) — only
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
-  - star rows: J Sadalmelik → J Sun RA 17.0173 17 whole (1.80) — also: 1 Third Wind / Tom O'Brien
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **Rahu**
   - star rows: H Castor → H Rahu Dec 52.9974 53 whole (75.96) — also: 1 Third Wind / Tom O'Brien
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
@@ -1998,8 +1487,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Diadem → J Rahu RA 0.9163 conj (15.14) — only
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
-  - star rows: J Fomalhaut → J Rahu RA 145.9911 146 whole (30.95) — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
 - **Haumea**
   - star rows: H Castor → H Haumea Dec 13.0065 13 whole (45.81) — only
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
@@ -2013,21 +1500,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
   - same body: S Vesta → J Vesta Dec 12.2004 12.2222 ninth (loose) — also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-- **Transpluto**
-  - star rows: H Fomalhaut → H Transpluto RA 166.6469 166.667 ninth (98.31) — also: 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: H Regulus → H Transpluto RA 1.0329 conj (9.70) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
-  - star rows: H Regulus → H Transpluto Dec 0.1187 conj (36.52) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
-  - star rows: H Sadalmelik → H Transpluto RA 179.6135 111×φ golden (40.82) — also: 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
-  - star rows: H Spica → H Transpluto Dec 23.0117 23 whole (17.02) — only
-    - source line: S Sun → Spica Dec 0.1018 conj (43.67)
-  - same body: S Transpluto → J Transpluto Dec 3.0271 3 whole (loose) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman
-  - top rows: S Moon → J Transpluto RA 40.0056 40 whole (51.99) — only
-  - star rows: J Algorab → J Transpluto Dec 30.0156 30 whole (4.94) — only
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
 - **Pallas**
   - star rows: H Meissa → H Pallas RA 85.7569 53×φ golden (93.36) — also: 5 Wholestone / Sam Twiston-Davies
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
@@ -2035,14 +1507,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
   - star rows: H Vindemiatrix → H Pallas Dec 5.9892 6 whole (21.35) — also: 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
-  - star rows: J Fomalhaut → J Pallas RA 126.0025 126 whole (76.80) — also: 3 Emitom / Brian Hughes
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - star rows: J Meissa → J Pallas Dec 9.9816 10 whole (0.67) — also: 5 Wholestone / Sam Twiston-Davies
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
   - star rows: J Regulus → J Pallas Dec 12.0136 12 whole (10.33) — also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
-  - star rows: J Sadalmelik → J Pallas Dec 0.2731 conj (0.81) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - star rows: J Spica → J Pallas Dec 11.1135 11.1111 ninth (96.17) — also: 2 Thomas Darby / Aidan Coleman
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - star rows: J Vindemiatrix → J Pallas Dec 11.0050 11 whole (56.39) — also: 6 Molly Ollys Wishes / Harry Skelton
@@ -2064,11 +1532,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
   - star rows: H Spica → H Quaoar RA 61.9995 62 whole (95.53) — also: 1 Third Wind / Tom O'Brien
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
+- **Transpluto**
+  - star rows: H Regulus → H Transpluto RA 1.0329 conj (9.70) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+    - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
+  - star rows: H Regulus → H Transpluto Dec 0.1187 conj (36.52) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
+    - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
+  - star rows: H Spica → H Transpluto Dec 23.0117 23 whole (17.02) — only
+    - source line: S Sun → Spica Dec 0.1018 conj (43.67)
+  - same body: S Transpluto → J Transpluto Dec 3.0271 3 whole (loose) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman
+  - top rows: S Moon → J Transpluto RA 40.0056 40 whole (51.99) — only
 - **Makemake**
   - star rows: H Rigel → H Makemake RA 110.9195 10×φ^5 phi power (93.67) — also: 3 Emitom / Brian Hughes
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
-  - star rows: H Sadalmelik → H Makemake Dec 28.0160 28 whole (4.03) — also: 2 Thomas Darby / Aidan Coleman
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - star rows: H Vindemiatrix → H Makemake RA 5.9984 6 whole (84.20) — also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
   - same body: S Makemake → J Makemake RA 22.9899 23 whole (24.60) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes
@@ -2078,7 +1553,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Vindemiatrix → H Pluto RA 83.9899 84 whole (24.63) — only
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
   - same body: S Pluto → J Pluto Dec 14.5347 9×φ golden (loose) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies
-    - source line: S Sun → Pluto RA 33.0062 33 whole (47.79)
     - source line: S Moon → Pluto RA 113.2614 70×φ golden (94.02)
   - top rows: S Jupiter → J Pluto Dec 0.2789 conj (0.49) — also: 1 Third Wind / Tom O'Brien
   - star rows: J Rigel → J Pluto Dec 0.2528 conj (2.47) — also: 2 Thomas Darby / Aidan Coleman
@@ -2087,30 +1561,26 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
 - **Ketu**
   - same body: S Ketu → J Ketu RA 144.6525 144.444 ninth (loose) — also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
-  - star rows: J Fomalhaut → J Ketu RA 34.0089 34 whole (30.95) — also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: J Ras Algethi → J Ketu RA 119.7577 74×φ golden (8.09) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Rigel → J Ketu Dec 16.0030 16 whole (72.36) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
-  - star rows: J Sadalmelik → J Ketu RA 46.9751 φ^8 phi power (96.94) — also: 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
+- **Eris**
+  - top rows: S Jupiter → J Eris Dec 0.1734 conj (17.82) — only
+  - star rows: J Meissa → J Eris Dec 17.9898 18 whole (24.03) — also: 1 Third Wind / Tom O'Brien
+    - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
+  - star rows: J Rigel → J Eris Dec 0.1473 conj (25.91) — also: 2 Thomas Darby / Aidan Coleman
+    - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
+  - star rows: J Vindemiatrix → J Eris Dec 19.0131 19 whole (11.74) — also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
+    - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
 - **Saturn**
   - top rows: S Sun → J Saturn RA 20.9944 21 whole (51.59) — also: 2 Thomas Darby / Aidan Coleman
   - star rows: J Castor → J Saturn RA 120.0081 120 whole (35.69) — only
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: J Ras Algethi → J Saturn RA 94.9896 95 whole (23.20) — only
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Rigel → J Saturn RA 84.9901 85 whole (25.49) — also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
 - **Orcus**
   - top rows: S Moon → J Orcus Dec 0.1708 conj (18.54) — only
-  - star rows: J Algorab → J Orcus Dec 17.0055 17 whole (52.71) — also: 5 Wholestone / Sam Twiston-Davies
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: J Castor → J Orcus RA 20.9845 21 whole (4.96) — only
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: J Ras Algethi → J Orcus RA 124.0179 124 whole (1.14) — also: 1 Third Wind / Tom O'Brien
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Rigel → J Orcus RA 56.0024 56 whole (77.37) — also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
 
@@ -2136,12 +1606,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Orcus → J Orcus Dec 14.4166 14.4444 ninth (loose)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun RA 45.0052 45 whole (54.84); S Sun → H Sun Dec 18.7542 18.8889 ninth (loose))
-  - star rows: H Algorab → H Sun Dec 24.0080 24 whole (35.75)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: H Castor → H Sun RA 95.9904 96 whole (27.08)
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: H Ras Algethi → H Sun RA 118.9941 119 whole (49.50)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: H Spica → H Sun RA 176.3553 109×φ golden (46.12)
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - other chart, star rows: J Meissa → J Sun RA 117.0017 117 whole (83.45)
@@ -2150,15 +1616,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
 - **H Ceres** (same body: S Ceres → H Ceres RA 77.9783 78 whole (loose))
   - top rows: S Moon → H Ceres RA 154.9952 155 whole (57.43)
-  - star rows: H Algorab → H Ceres Dec 0.2725 conj (0.84)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - other chart, star rows: J Castor → J Ceres Dec 62.0025 62 whole (76.20)
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
   - other chart, star rows: J Spica → J Ceres RA 101.9858 102 whole (8.37)
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
 - **H Juno** (same body: S Juno → H Juno Dec 18.8402 18.8889 ninth (loose))
   - sky line to Juno: S Jupiter → Juno RA 35.9948 36 whole (54.98)
-  - sky line to Juno: S Sun → Juno Dec 0.2494 conj (2.84)
   - star rows: H Diadem → H Juno RA 30.0078 30 whole (37.09)
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
@@ -2168,12 +1631,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Vesta** (same body: S Vesta → H Vesta RA 12.9977 13 whole (78.31))
   - star rows: H Orion Nebula Cluster → H Vesta RA 139.1194 86×φ golden (0.07)
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - star rows: H Ras Algethi → H Vesta Dec 32.9873 33 whole (13.25)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-  - other chart, star rows: J Algorab → J Vesta RA 36.9953 37 whole (58.39)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - other chart, star rows: J Sadalmelik → J Vesta RA 106.9925 107 whole (39.03)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **H Eris** (same body: S Eris → H Eris RA 0.9788 1 whole (loose))
   - sky line to Eris: S Moon → Eris Dec 2.0000 2 whole (99.75)
   - star rows: H Spica → H Eris RA 176.3806 109×φ golden (29.19)
@@ -2182,8 +1639,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
 - **H Quaoar** (same body: S Quaoar → H Quaoar RA 14.3647 14.4444 ninth (loose))
-  - star rows: H Algorab → H Quaoar RA 75.0069 75 whole (43.19)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: H Castor → H Quaoar RA 148.8284 92×φ golden (0.25)
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
   - star rows: H Regulus → H Quaoar Dec 27.5059 17×φ golden (95.59)
@@ -2194,33 +1649,19 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
 - **H Gonggong** (same body: S Gonggong → H Gonggong RA 1.7714 1.77778 ninth (loose))
   - sky line to Gonggong: S Sun → Gonggong Dec 0.0230 conj (85.28)
-  - other chart, star rows: J Ras Algethi → J Gonggong Dec 33.9846 34 whole (5.31)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - other chart, star rows: J Vindemiatrix → J Gonggong RA 133.9974 134 whole (75.37)
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
   - other chart, star rows: J Wezen → J Gonggong RA 137.5619 85×φ golden (1.07)
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
 - **J Mars** (same body: S Mars → J Mars RA 177.9911 178 whole (loose))
-  - star rows: J Fomalhaut → J Mars RA 124.0199 124 whole (0.01)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: J Sadalmelik → J Mars RA 136.9873 137 whole (13.28)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - star rows: J Wezen → J Mars RA 1.3376 conj (1.17)
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
-  - other chart, star rows: H Fomalhaut → H Mars RA 21.0030 21 whole (72.64)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - other chart, star rows: H Fomalhaut → H Mars Dec 31.0002 31 whole (98.11)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - other chart, star rows: H Ras Algethi → H Mars Dec 13.0102 13 whole (24.06)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - other chart, star rows: H Vindemiatrix → H Mars RA 169.8634 105×φ golden (0.45)
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
 - **J Jupiter** (same body: S Jupiter → J Jupiter RA 161.6381 100×φ^1 phi power (loose))
   - top rows: S Moon → J Jupiter Dec 0.1147 conj (38.14)
   - top rows: S Eris → J Jupiter RA 155.5712 155.556 ninth (98.52)
     - source line: S Moon → Eris Dec 2.0000 2 whole (99.75)
-  - star rows: S Algorab → J Jupiter RA 5.9962 6 whole (65.71)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: J Diadem → J Jupiter Dec 16.9848 17 whole (5.69)
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
@@ -2230,8 +1671,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, top rows: S Chiron → H Jupiter Dec 0.0486 conj (70.20)
   - other chart, star rows: H Regulus → H Jupiter RA 136.0185 136 whole (0.53)
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
-  - other chart, star rows: S Sadalmelik → H Jupiter Dec 6.0007 6 whole (92.99)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - other chart, star rows: H Spica → H Jupiter RA 174.7738 108×φ golden (3.74)
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - other chart, star rows: S Vindemiatrix → H Jupiter RA 179.4689 10×φ^6 phi power (94.25)
@@ -2253,27 +1692,19 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
   - other chart, star rows: H Regulus → H Uranus RA 150.4841 93×φ golden (61.89)
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
-  - other chart, star rows: H Sadalmelik → H Uranus Dec 0.2506 conj (2.72)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - other chart, star rows: H Spica → H Uranus Dec 11.0920 φ^5 phi power (93.37)
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
 - **J Pluto** (same body: S Pluto → J Pluto RA 66.6385 66.6667 ninth (loose); S Pluto → J Pluto Dec 17.9960 18 whole (64.13))
-  - sky line to Pluto: S Sun → Pluto RA 33.0062 33 whole (47.79)
   - sky line to Pluto: S Moon → Pluto RA 113.2614 70×φ golden (94.02)
-  - star rows: J Ras Algethi → J Pluto Dec 18.8829 18.8889 ninth (95.70)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - other chart, star rows: H Orion Nebula Cluster → H Pluto Dec 13.3361 13.3333 ninth (96.74)
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
 - **J Chiron** (same body: S Chiron → J Chiron RA 133.5319 133.333 ninth (loose))
-  - star rows: J Fomalhaut → J Chiron Dec 37.9830 38 whole (2.29)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - other chart, top rows: S Sun → H Chiron RA 0.8449 conj (19.08)
   - other chart, star rows: H Diadem → H Chiron RA 135.9974 136 whole (75.35)
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
 - **J Juno** (same body: S Juno → J Juno RA 150.4558 93×φ golden (11.54))
   - sky line to Juno: S Jupiter → Juno RA 35.9948 36 whole (54.98)
-  - sky line to Juno: S Sun → Juno Dec 0.2494 conj (2.84)
   - other chart, same body: S Juno → H Juno Dec 18.8402 18.8889 ninth (loose)
   - other chart, star rows: H Diadem → H Juno RA 30.0078 30 whole (37.09)
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
@@ -2281,15 +1712,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Spica → H Juno Dec 18.9887 19 whole (19.04)
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
 - **J Haumea** (same body: S Haumea → J Haumea RA 27.4879 17×φ golden (loose))
-  - star rows: J Sadalmelik → J Haumea RA 141.4017 141.4 sqrt2 (94.53)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - star rows: J Spica → J Haumea Dec 33.0127 33 whole (13.30)
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
-  - other chart, star rows: H Fomalhaut → H Haumea RA 137.5058 85×φ golden (2.63)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 14.4166 14.4444 ninth (loose))
-  - other chart, star rows: H Algorab → H Orcus Dec 9.9858 10 whole (8.52)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - other chart, star rows: H Diadem → H Orcus RA 51.0016 51 whole (84.42)
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
@@ -2306,51 +1731,35 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Pluto → J Pluto RA 66.6385 66.6667 ninth (loose)
     - S Pluto → J Pluto Dec 17.9960 18 whole (64.13)
 - **3. runner number = sky number**
-  - 10×φ^6 phi power — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
+  - 10×φ^6 phi power — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
     - H Jupiter → H star Vindemiatrix RA 179.4714 10×φ^6 phi power (93.71) = S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
-  - 2 whole — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes
+  - 2 whole — also: 2 Thomas Darby / Aidan Coleman
     - H Meissa → H Transpluto Dec 1.9953 2 whole (58.84) = S Moon → Eris Dec 2.0000 2 whole (99.75)
-  - 33 whole — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson
-    - H Ras Algethi → H Vesta Dec 32.9873 33 whole (13.25) = S Sun → Pluto RA 33.0062 33 whole (47.79)
-  - 2 whole — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes
+  - 2 whole — also: 2 Thomas Darby / Aidan Coleman
     - H Regulus → H Mercury Dec 1.9822 2 whole (1.19) = S Moon → Eris Dec 2.0000 2 whole (99.75)
   - 17×φ golden — also: 1 Third Wind / Tom O'Brien
     - H Regulus → H Quaoar Dec 27.5059 17×φ golden (95.59) = S Jupiter → Rahu Dec 27.5018 17×φ golden (72.49)
-  - 10×φ^6 phi power — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
+  - 10×φ^6 phi power — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
     - S Vindemiatrix → H Jupiter RA 179.4689 10×φ^6 phi power (94.25) = S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
   - 17×φ golden — also: 1 Third Wind / Tom O'Brien
     - S Haumea → J Haumea RA 27.4879 17×φ golden (loose) = S Jupiter → Rahu Dec 27.5018 17×φ golden (72.49)
-  - 33 whole — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson
-    - J Meissa → J Uranus Dec 33.0197 33 whole (0.03) = S Sun → Pluto RA 33.0062 33 whole (47.79)
-  - 11.1111 ninth — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - J Ras Algethi → J Pallas RA 11.1132 11.1111 ninth (96.56) = S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
-  - 33 whole — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson
-    - J Spica → J Haumea Dec 33.0127 33 whole (13.30) = S Sun → Pluto RA 33.0062 33 whole (47.79)
-  - 10×φ^6 phi power — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
+  - 10×φ^6 phi power — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
     - J Wezen → J Neptune RA 179.4430 10×φ^6 phi power (99.94) = S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
 - **4. circle divisions**
   - 45 = 360/8 — also: 6 Molly Ollys Wishes / Harry Skelton
     - S Sun → H Sun RA 45.0052 45 whole (54.84)
   - 1 = 360/360 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
     - S Eris → H Eris RA 0.9788 1 whole (loose)
-  - 6 = 360/60 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - H Jupiter → H star Sadalmelik Dec 6.0008 6 whole (91.78)
   - 15 = 360/24 — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
     - S Jupiter → H Sedna Dec 15.0031 15 whole (71.18)
-  - 24 = 360/15 — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
-    - H Algorab → H Sun Dec 24.0080 24 whole (35.75)
-  - 10 = 360/36 — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - H Algorab → H Orcus Dec 9.9858 10 whole (8.52)
-  - 30 = 360/12 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
+  - 30 = 360/12 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
     - H Diadem → H Juno RA 30.0078 30 whole (37.09)
   - 10 = 360/36 — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - H Meissa → H Uranus Dec 10.0043 10 whole (61.72)
-  - 2 = 360/180 — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes
+  - 2 = 360/180 — also: 2 Thomas Darby / Aidan Coleman
     - H Meissa → H Transpluto Dec 1.9953 2 whole (58.84)
-  - 2 = 360/180 — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes
+  - 2 = 360/180 — also: 2 Thomas Darby / Aidan Coleman
     - H Regulus → H Mercury Dec 1.9822 2 whole (1.19)
-  - 6 = 360/60 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - S Sadalmelik → H Jupiter Dec 6.0007 6 whole (92.99)
   - 8 = 360/45 — also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton
     - H Spica → H Saturn RA 8.0104 8 whole (22.98)
   - 18 = 360/20 — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
@@ -2361,21 +1770,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Sun → J Pallas Dec 17.9988 18 whole (88.58)
   - 12 = 360/30 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
     - S Sun → J Rahu Dec 12.0054 12 whole (53.59)
-  - 6 = 360/60 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - S Algorab → J Jupiter RA 5.9962 6 whole (65.71)
   - 10 = 360/36 — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - J Rigel → J Saturn Dec 10.0169 10 whole (2.36)
 - **5. same number in more than one place**
   - 45 whole — only
     - S Sun → H Sun RA 45.0052 45 whole (54.84)
     - S Sun → J Neptune RA 44.9979 45 whole (79.69)
-  - 18.8889 ninth — also: 3 Emitom / Brian Hughes
+  - 18.8889 ninth — only
     - S Sun → H Sun Dec 18.7542 18.8889 ninth (loose)
     - S Juno → H Juno Dec 18.8402 18.8889 ninth (loose)
-    - J Ras Algethi → J Pluto Dec 18.8829 18.8889 ninth (95.70)
-  - 13 whole — also: 4 Top Ville Ben / Thomas Dowson
-    - S Vesta → H Vesta RA 12.9977 13 whole (78.31)
-    - H Ras Algethi → H Mars Dec 13.0102 13 whole (24.06)
   - 14.4444 ninth — only
     - S Quaoar → H Quaoar RA 14.3647 14.4444 ninth (loose)
     - H Wezen → H Neptune Dec 14.4499 14.4444 ninth (94.21)
@@ -2383,58 +1786,37 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 1.77778 ninth — only
     - S Gonggong → H Gonggong RA 1.7714 1.77778 ninth (loose)
     - S Saturn → J Saturn Dec 1.7691 1.77778 ninth (loose)
-  - 6 whole — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - H Jupiter → H star Sadalmelik Dec 6.0008 6 whole (91.78)
-    - S Sadalmelik → H Jupiter Dec 6.0007 6 whole (92.99)
-    - S Algorab → J Jupiter RA 5.9962 6 whole (65.71)
-  - 10×φ^6 phi power — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
+  - 10×φ^6 phi power — also: 4 Top Ville Ben / Thomas Dowson
     - H Jupiter → H star Vindemiatrix RA 179.4714 10×φ^6 phi power (93.71)
     - S Vindemiatrix → H Jupiter RA 179.4689 10×φ^6 phi power (94.25)
     - J Wezen → J Neptune RA 179.4430 10×φ^6 phi power (99.94)
-  - 10 whole — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
-    - H Algorab → H Orcus Dec 9.9858 10 whole (8.52)
-    - H Meissa → H Uranus Dec 10.0043 10 whole (61.72)
-    - J Rigel → J Saturn Dec 10.0169 10 whole (2.36)
-  - 141.4 sqrt2 — also: 1 Third Wind / Tom O'Brien
-    - H Castor → H Neptune RA 141.4018 141.4 sqrt2 (94.54)
-    - J Sadalmelik → J Haumea RA 141.4017 141.4 sqrt2 (94.53)
   - 136 whole — only
     - H Diadem → H Chiron RA 135.9974 136 whole (75.35)
     - H Regulus → H Jupiter RA 136.0185 136 whole (0.53)
-  - 85×φ golden — also: 3 Emitom / Brian Hughes
-    - H Fomalhaut → H Haumea RA 137.5058 85×φ golden (2.63)
-    - J Wezen → J Gonggong RA 137.5619 85×φ golden (1.07)
+  - 10 whole — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
+    - H Meissa → H Uranus Dec 10.0043 10 whole (61.72)
+    - J Rigel → J Saturn Dec 10.0169 10 whole (2.36)
   - 2 whole — only
     - H Meissa → H Transpluto Dec 1.9953 2 whole (58.84)
     - H Regulus → H Mercury Dec 1.9822 2 whole (1.19)
-  - 13.3333 ninth — also: 6 Molly Ollys Wishes / Harry Skelton
+  - 13.3333 ninth — only
     - H Orion Nebula Cluster → H Pluto Dec 13.3361 13.3333 ninth (96.74)
     - J Meissa → J Ketu Dec 13.3343 13.3333 ninth (98.86)
   - 67 whole — only
     - H Orion Nebula Cluster → H Transpluto RA 67.0186 67 whole (0.50)
     - J Rigel → J Transpluto RA 67.0020 67 whole (81.36)
-  - 33 whole — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson
-    - H Ras Algethi → H Vesta Dec 32.9873 33 whole (13.25)
-    - J Meissa → J Uranus Dec 33.0197 33 whole (0.03)
-    - J Spica → J Haumea Dec 33.0127 33 whole (13.30)
-  - 95×φ golden — only
-    - H Ras Algethi → H Sedna RA 153.7014 95×φ golden (40.31)
-    - J Rigel → J Venus RA 153.7432 95×φ golden (0.53)
   - 93×φ golden — only
     - H Regulus → H Uranus RA 150.4841 93×φ golden (61.89)
     - S Juno → J Juno RA 150.4558 93×φ golden (11.54)
   - 17×φ golden — only
     - H Regulus → H Quaoar Dec 27.5059 17×φ golden (95.59)
     - S Haumea → J Haumea RA 27.4879 17×φ golden (loose)
-  - 108×φ golden — also: 2 Thomas Darby / Aidan Coleman
+  - 108×φ golden — only
     - H Spica → H Jupiter RA 174.7738 108×φ golden (3.74)
     - J Diadem → J Eris RA 174.7792 108×φ golden (0.07)
   - 109×φ golden — only
     - H Spica → H Sun RA 176.3553 109×φ golden (46.12)
     - H Spica → H Eris RA 176.3806 109×φ golden (29.19)
-  - 113 whole — only
-    - S Uranus → J Uranus RA 113.0158 113 whole (4.50)
-    - J Ras Algethi → J Transpluto RA 113.0191 113 whole (0.21)
   - 18 whole — also: 2 Thomas Darby / Aidan Coleman
     - S Pluto → J Pluto Dec 17.9960 18 whole (64.13)
     - S Sun → J Pallas Dec 17.9988 18 whole (88.58)
@@ -2444,16 +1826,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 174 whole — only
     - J Castor → J Neptune RA 174.0056 174 whole (51.94)
     - J Meissa → J Pallas RA 174.0154 174 whole (5.33)
+  - 33 whole — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson
+    - J Meissa → J Uranus Dec 33.0197 33 whole (0.03)
+    - J Spica → J Haumea Dec 33.0127 33 whole (13.30)
 ### L4 every natal body
 - **Sun**
   - same body + top rows: S Sun → H Sun RA 45.0052 45 whole (54.84) — also: 6 Molly Ollys Wishes / Harry Skelton
   - same body: S Sun → H Sun Dec 18.7542 18.8889 ninth (loose) — also: 6 Molly Ollys Wishes / Harry Skelton
-  - star rows: H Algorab → H Sun Dec 24.0080 24 whole (35.75) — only
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: H Castor → H Sun RA 95.9904 96 whole (27.08) — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: H Ras Algethi → H Sun RA 118.9941 119 whole (49.50) — also: 3 Emitom / Brian Hughes
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: H Spica → H Sun RA 176.3553 109×φ golden (46.12) — only
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - star rows: J Meissa → J Sun RA 117.0017 117 whole (83.45) — also: 6 Molly Ollys Wishes / Harry Skelton
@@ -2463,8 +1844,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Ceres**
   - same body: S Ceres → H Ceres RA 77.9783 78 whole (loose) — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
   - top rows: S Moon → H Ceres RA 154.9952 155 whole (57.43) — only
-  - star rows: H Algorab → H Ceres Dec 0.2725 conj (0.84) — also: 4 Top Ville Ben / Thomas Dowson
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: J Castor → J Ceres Dec 62.0025 62 whole (76.20) — only
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
   - star rows: J Spica → J Ceres RA 101.9858 102 whole (8.37) — also: 3 Emitom / Brian Hughes
@@ -2472,7 +1851,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Juno**
   - same body: S Juno → H Juno Dec 18.8402 18.8889 ninth (loose) — also: 4 Top Ville Ben / Thomas Dowson
     - source line: S Jupiter → Juno RA 35.9948 36 whole (54.98)
-    - source line: S Sun → Juno Dec 0.2494 conj (2.84)
   - star rows: H Diadem → H Juno RA 30.0078 30 whole (37.09) — only
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
@@ -2480,17 +1858,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - same body: S Juno → J Juno RA 150.4558 93×φ golden (11.54) — also: 4 Top Ville Ben / Thomas Dowson
     - source line: S Jupiter → Juno RA 35.9948 36 whole (54.98)
-    - source line: S Sun → Juno Dec 0.2494 conj (2.84)
 - **Vesta**
   - same body: S Vesta → H Vesta RA 12.9977 13 whole (78.31) — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
   - star rows: H Orion Nebula Cluster → H Vesta RA 139.1194 86×φ golden (0.07) — also: 1 Third Wind / Tom O'Brien
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - star rows: H Ras Algethi → H Vesta Dec 32.9873 33 whole (13.25) — also: 2 Thomas Darby / Aidan Coleman
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-  - star rows: J Algorab → J Vesta RA 36.9953 37 whole (58.39) — only
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - star rows: J Sadalmelik → J Vesta RA 106.9925 107 whole (39.03) — only
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **Eris**
   - same body: S Eris → H Eris RA 0.9788 1 whole (loose) — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes
     - source line: S Moon → Eris Dec 2.0000 2 whole (99.75)
@@ -2501,8 +1872,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
 - **Quaoar**
   - same body: S Quaoar → H Quaoar RA 14.3647 14.4444 ninth (loose) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
-  - star rows: H Algorab → H Quaoar RA 75.0069 75 whole (43.19) — also: 2 Thomas Darby / Aidan Coleman
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: H Castor → H Quaoar RA 148.8284 92×φ golden (0.25) — also: 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
   - star rows: H Regulus → H Quaoar Dec 27.5059 17×φ golden (95.59) — only
@@ -2514,8 +1883,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Gonggong**
   - same body: S Gonggong → H Gonggong RA 1.7714 1.77778 ninth (loose) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
     - source line: S Sun → Gonggong Dec 0.0230 conj (85.28)
-  - star rows: J Ras Algethi → J Gonggong Dec 33.9846 34 whole (5.31) — only
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Vindemiatrix → J Gonggong RA 133.9974 134 whole (75.37) — also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
   - star rows: J Wezen → J Gonggong RA 137.5619 85×φ golden (1.07) — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes
@@ -2526,13 +1893,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Wezen → J Rahu RA 155.5842 155.556 ninth (97.28) — only
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
 - **Jupiter**
-  - T1: H Jupiter → H star Sadalmelik Dec 6.0008 6 whole (91.78) — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes
   - T1: H Jupiter → H star Vindemiatrix RA 179.4714 10×φ^6 phi power (93.71) — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes
   - top rows: S Chiron → H Jupiter Dec 0.0486 conj (70.20) — also: 2 Thomas Darby / Aidan Coleman
   - star rows: H Regulus → H Jupiter RA 136.0185 136 whole (0.53) — only
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
-  - star rows: S Sadalmelik → H Jupiter Dec 6.0007 6 whole (92.99) — also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - star rows: H Spica → H Jupiter RA 174.7738 108×φ golden (3.74) — only
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - star rows: S Vindemiatrix → H Jupiter RA 179.4689 10×φ^6 phi power (94.25) — also: 2 Thomas Darby / Aidan Coleman
@@ -2541,8 +1905,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → J Jupiter Dec 0.1147 conj (38.14) — only
   - top rows: S Eris → J Jupiter RA 155.5712 155.556 ninth (98.52) — only
     - source line: S Moon → Eris Dec 2.0000 2 whole (99.75)
-  - star rows: S Algorab → J Jupiter RA 5.9962 6 whole (65.71) — also: 3 Emitom / Brian Hughes
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: J Diadem → J Jupiter Dec 16.9848 17 whole (5.69) — only
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
@@ -2560,25 +1922,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
 - **Sedna**
   - top rows: S Jupiter → H Sedna Dec 15.0031 15 whole (71.18) — also: 6 Molly Ollys Wishes / Harry Skelton
-  - star rows: H Fomalhaut → H Sedna RA 67.9571 42×φ golden (97.85) — only
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: H Ras Algethi → H Sedna RA 153.7014 95×φ golden (40.31) — also: 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Vindemiatrix → J Sedna RA 152.0150 152 whole (6.23) — only
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
 - **Neptune**
   - top rows: S Sun → H Neptune RA 0.4062 conj (53.18) — also: 4 Top Ville Ben / Thomas Dowson
   - star rows: H Castor → H Neptune RA 141.4018 141.4 sqrt2 (94.54) — also: 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: H Sadalmelik → H Neptune RA 0.8048 conj (21.48) — also: 2 Thomas Darby / Aidan Coleman
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - star rows: H Wezen → H Neptune Dec 14.4499 14.4444 ninth (94.21) — also: 3 Emitom / Brian Hughes
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
   - top rows: S Sun → J Neptune RA 44.9979 45 whole (79.69) — also: 4 Top Ville Ben / Thomas Dowson
   - star rows: J Castor → J Neptune RA 174.0056 174 whole (51.94) — also: 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: J Ras Algethi → J Neptune RA 28.9970 29 whole (72.39) — also: 1 Third Wind / Tom O'Brien
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Rigel → J Neptune RA 150.9819 151 whole (0.94) — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
   - star rows: J Wezen → J Neptune RA 179.4430 10×φ^6 phi power (99.94) — also: 3 Emitom / Brian Hughes
@@ -2589,67 +1943,21 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
   - same body: S Chiron → J Chiron RA 133.5319 133.333 ninth (loose) — also: 3 Emitom / Brian Hughes
-  - star rows: J Fomalhaut → J Chiron Dec 37.9830 38 whole (2.29) — also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
 - **Orcus**
-  - star rows: H Algorab → H Orcus Dec 9.9858 10 whole (8.52) — also: 4 Top Ville Ben / Thomas Dowson
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: H Diadem → H Orcus RA 51.0016 51 whole (84.42) — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
   - same body: S Orcus → J Orcus Dec 14.4166 14.4444 ninth (loose) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
-- **Mars**
-  - star rows: H Fomalhaut → H Mars RA 21.0030 21 whole (72.64) — also: 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: H Fomalhaut → H Mars Dec 31.0002 31 whole (98.11) — also: 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: H Ras Algethi → H Mars Dec 13.0102 13 whole (24.06) — also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-  - star rows: H Vindemiatrix → H Mars RA 169.8634 105×φ golden (0.45) — also: 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
-  - same body: S Mars → J Mars RA 177.9911 178 whole (loose) — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
-  - star rows: J Fomalhaut → J Mars RA 124.0199 124 whole (0.01) — also: 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: J Sadalmelik → J Mars RA 136.9873 137 whole (13.28) — also: 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
-  - star rows: J Wezen → J Mars RA 1.3376 conj (1.17) — also: 3 Emitom / Brian Hughes
-    - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
-- **Haumea**
-  - star rows: H Fomalhaut → H Haumea RA 137.5058 85×φ golden (2.63) — only
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - same body: S Haumea → J Haumea RA 27.4879 17×φ golden (loose) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
-  - star rows: J Sadalmelik → J Haumea RA 141.4017 141.4 sqrt2 (94.53) — also: 2 Thomas Darby / Aidan Coleman
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
-  - star rows: J Spica → J Haumea Dec 33.0127 33 whole (13.30) — also: 1 Third Wind / Tom O'Brien
-    - source line: S Sun → Spica Dec 0.1018 conj (43.67)
-- **Ketu**
-  - star rows: H Fomalhaut → H Ketu Dec 52.9833 53 whole (2.67) — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: H Meissa → H Ketu RA 1.2799 conj (2.15) — also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
-  - star rows: H Orion Nebula Cluster → H Ketu RA 1.2422 conj (2.95) — only
-    - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - top rows: S Sun → J Ketu RA 110.0294 68×φ golden (81.98) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
-  - star rows: J Meissa → J Ketu RA 1.1044 conj (6.96) — also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
-  - star rows: J Meissa → J Ketu Dec 13.3343 13.3333 ninth (98.86) — also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
-  - star rows: J Orion Nebula Cluster → J Ketu RA 1.1419 conj (5.70) — only
-    - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
 - **Mercury**
   - star rows: H Meissa → H Mercury Dec 0.0509 conj (68.94) — only
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
   - star rows: H Regulus → H Mercury Dec 1.9822 2 whole (1.19) — also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
-  - star rows: J Sadalmelik → J Mercury Dec 16.6608 16.6667 ninth (95.01) — also: 1 Third Wind / Tom O'Brien
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **Uranus**
   - star rows: H Meissa → H Uranus Dec 10.0043 10 whole (61.72) — also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
   - star rows: H Regulus → H Uranus RA 150.4841 93×φ golden (61.89) — also: 2 Thomas Darby / Aidan Coleman
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
-  - star rows: H Sadalmelik → H Uranus Dec 0.2506 conj (2.72) — only
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - star rows: H Spica → H Uranus Dec 11.0920 φ^5 phi power (93.37) — only
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - same body: S Uranus → J Uranus RA 113.0158 113 whole (4.50) — also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
@@ -2671,21 +1979,27 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
   - star rows: J Castor → J Transpluto RA 31.9895 32 whole (22.48) — also: 1 Third Wind / Tom O'Brien
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: J Ras Algethi → J Transpluto RA 113.0191 113 whole (0.21) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Rigel → J Transpluto RA 67.0020 67 whole (81.36) — also: 1 Third Wind / Tom O'Brien
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
+- **Ketu**
+  - star rows: H Meissa → H Ketu RA 1.2799 conj (2.15) — also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton
+    - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
+  - star rows: H Orion Nebula Cluster → H Ketu RA 1.2422 conj (2.95) — only
+    - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
+  - top rows: S Sun → J Ketu RA 110.0294 68×φ golden (81.98) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
+  - star rows: J Meissa → J Ketu RA 1.1044 conj (6.96) — also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton
+    - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
+  - star rows: J Meissa → J Ketu Dec 13.3343 13.3333 ninth (98.86) — also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton
+    - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
+  - star rows: J Orion Nebula Cluster → J Ketu RA 1.1419 conj (5.70) — only
+    - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
 - **Pluto**
   - star rows: H Orion Nebula Cluster → H Pluto Dec 13.3361 13.3333 ninth (96.74) — only
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
   - same body: S Pluto → J Pluto RA 66.6385 66.6667 ninth (loose) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Pluto RA 33.0062 33 whole (47.79)
     - source line: S Moon → Pluto RA 113.2614 70×φ golden (94.02)
   - same body: S Pluto → J Pluto Dec 17.9960 18 whole (64.13) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Pluto RA 33.0062 33 whole (47.79)
     - source line: S Moon → Pluto RA 113.2614 70×φ golden (94.02)
-  - star rows: J Ras Algethi → J Pluto Dec 18.8829 18.8889 ninth (95.70) — also: 2 Thomas Darby / Aidan Coleman
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
 - **Makemake**
   - star rows: H Regulus → H Makemake Dec 16.1876 10×φ^1 phi power (82.78) — only
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
@@ -2697,12 +2011,20 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Saturn → J Saturn Dec 1.7691 1.77778 ninth (loose) — also: 6 Molly Ollys Wishes / Harry Skelton
   - star rows: J Rigel → J Saturn Dec 10.0169 10 whole (2.36) — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
+- **Mars**
+  - star rows: H Vindemiatrix → H Mars RA 169.8634 105×φ golden (0.45) — also: 4 Top Ville Ben / Thomas Dowson
+    - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
+  - same body: S Mars → J Mars RA 177.9911 178 whole (loose) — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton
+  - star rows: J Wezen → J Mars RA 1.3376 conj (1.17) — also: 3 Emitom / Brian Hughes
+    - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
+- **Haumea**
+  - same body: S Haumea → J Haumea RA 27.4879 17×φ golden (loose) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton
+  - star rows: J Spica → J Haumea Dec 33.0127 33 whole (13.30) — also: 1 Third Wind / Tom O'Brien
+    - source line: S Sun → Spica Dec 0.1018 conj (43.67)
 - **Pallas**
   - top rows: S Sun → J Pallas Dec 17.9988 18 whole (88.58) — only
   - star rows: J Meissa → J Pallas RA 174.0154 174 whole (5.33) — also: 4 Top Ville Ben / Thomas Dowson
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
-  - star rows: J Ras Algethi → J Pallas RA 11.1132 11.1111 ninth (96.56) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
 
 ## 6 Molly Ollys Wishes / Harry Skelton
 ### L1 same bodies
@@ -2729,10 +2051,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 ### L2 what lands on each same body
 - **H Mercury** (same body: S Mercury → H Mercury RA 26.1897 10×φ^2 phi power (86.14))
   - top rows: S Sun → H Mercury RA 0.3763 conj (56.12)
-  - star rows: H Fomalhaut → H Mercury Dec 17.0025 17 whole (76.57)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: H Ras Algethi → H Mercury Dec 27.0088 27 whole (31.22)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - other chart, same body: S Mercury → J Mercury RA 122.2566 122.222 ninth (95.24)
   - other chart, same body: S Mercury → J Mercury Dec 13.2552 13.3333 ninth (loose)
   - other chart, star rows: J Regulus → J Mercury Dec 18.0130 18 whole (12.15)
@@ -2742,17 +2060,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Mars** (same body: S Mars → H Mars RA 85.7270 53×φ golden (loose))
   - top rows: S Jupiter → H Mars Dec 1.0004 1 whole (96.33)
   - other chart, top rows: S Moon → J Mars Dec 0.1745 conj (17.51)
-  - other chart, star rows: J Algorab → J Mars Dec 16.9995 17 whole (95.41)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - other chart, star rows: J Fomalhaut → J Mars RA 163.4247 101×φ golden (80.71)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - other chart, star rows: J Ras Algethi → J Mars RA 77.6684 48×φ golden (83.58)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-  - other chart, star rows: J Sadalmelik → J Mars RA 150.4579 93×φ golden (16.37)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **H Saturn** (same body: S Saturn → H Saturn RA 88.9775 89 whole (loose))
-  - star rows: H Fomalhaut → H Saturn RA 113.2659 70×φ golden (79.52)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - star rows: H Spica → H Saturn Dec 5.0050 5 whole (56.14)
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - star rows: H Vindemiatrix → H Saturn RA 35.5944 22×φ golden (86.07)
@@ -2786,10 +2094,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
   - other chart, same body: S Mercury → H Mercury RA 26.1897 10×φ^2 phi power (86.14)
   - other chart, top rows: S Sun → H Mercury RA 0.3763 conj (56.12)
-  - other chart, star rows: H Fomalhaut → H Mercury Dec 17.0025 17 whole (76.57)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - other chart, star rows: H Ras Algethi → H Mercury Dec 27.0088 27 whole (31.22)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
 - **J Venus** (same body: S Venus → J Venus Dec 1.2205 1.22222 ninth (loose))
   - star rows: J Rigel → J Venus RA 137.9904 138 whole (27.24)
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
@@ -2799,8 +2103,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Rigel → J Saturn Dec 14.5643 9×φ golden (88.11)
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
   - other chart, same body: S Saturn → H Saturn RA 88.9775 89 whole (loose)
-  - other chart, star rows: H Fomalhaut → H Saturn RA 113.2659 70×φ golden (79.52)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - other chart, star rows: H Spica → H Saturn Dec 5.0050 5 whole (56.14)
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - other chart, star rows: H Vindemiatrix → H Saturn RA 35.5944 22×φ golden (86.07)
@@ -2809,8 +2111,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - sky line to Uranus: S Sun → Uranus RA 65.9983 66 whole (83.81)
   - star rows: J Castor → J Uranus RA 158.0174 158 whole (1.65)
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: J Ras Algethi → J Uranus RA 13.0039 13 whole (64.43)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - other chart, star rows: H Meissa → H Uranus Dec 6.0107 6 whole (21.82)
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
 - **J Neptune** (same body: S Neptune → J Neptune Dec 17.8865 φ^6 phi power (loose))
@@ -2851,17 +2151,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
 - **J Haumea** (same body: S Haumea → J Haumea RA 30.7619 19×φ golden (loose))
   - top rows: S Moon → J Haumea RA 0.3873 conj (55.02)
-  - star rows: J Algorab → J Haumea RA 0.6881 conj (29.30)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - star rows: J Algorab → J Haumea Dec 39.0016 39 whole (84.59)
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: J Meissa → J Haumea RA 102.9884 103 whole (17.67)
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
   - other chart, star rows: H Meissa → H Haumea RA 126.2009 78×φ golden (67.47)
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 16.1556 10×φ^1 phi power (loose))
-  - star rows: J Sadalmelik → J Orcus RA 158.5431 98×φ golden (6.34)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - other chart, top rows: S Jupiter → H Orcus Dec 0.0735 conj (57.00)
   - other chart, star rows: H Rigel → H Orcus Dec 0.0483 conj (70.40)
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
@@ -2876,18 +2170,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Diadem → H Quaoar RA 69.0009 69 whole (90.78)
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
-  - other chart, star rows: H Fomalhaut → H Quaoar Dec 13.9992 14 whole (92.05)
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - other chart, star rows: H Ras Algethi → H Quaoar Dec 30.0121 30 whole (15.46)
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
 - **J Ketu** (same body: S Ketu → J Ketu RA 85.9788 86 whole (loose))
   - top rows: S Sun → J Ketu Dec 24.2792 15×φ golden (53.38)
   - star rows: J Meissa → J Ketu RA 63.9997 64 whole (96.86)
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
-  - star rows: J Sadalmelik → J Ketu RA 176.3341 109×φ golden (0.05)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
-  - star rows: J Sadalmelik → J Ketu Dec 13.3324 13.3333 ninth (98.94)
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - other chart, star rows: H Castor → H Ketu Dec 21.0043 21 whole (61.42)
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
   - other chart, star rows: H Vindemiatrix → H Ketu Dec 0.0728 conj (57.36)
@@ -2912,13 +2198,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Mercury → J Mercury RA 122.2566 122.222 ninth (95.24)
     - S Mercury → J Mercury Dec 13.2552 13.3333 ninth (loose)
 - **3. runner number = sky number**
-  - 70×φ golden — only
-    - H Fomalhaut → H Saturn RA 113.2659 70×φ golden (79.52) = S Moon → Pluto RA 113.2614 70×φ golden (94.02)
-  - 10×φ^6 phi power — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
-    - H Sadalmelik → H Transpluto RA 179.4764 10×φ^6 phi power (92.64) = S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
-  - 36 whole — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
+  - 36 whole — also: 4 Top Ville Ben / Thomas Dowson
     - J Jupiter → J Quaoar Dec 35.9969 36 whole (71.73) = S Jupiter → Juno RA 35.9948 36 whole (54.98)
-  - 11.1111 ninth — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
+  - 11.1111 ninth — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
     - J Spica → J Juno RA 11.1155 11.1111 ninth (92.74) = S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
 - **4. circle divisions**
   - 1 = 360/360 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies
@@ -2927,20 +2209,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Jupiter → H Mars Dec 1.0004 1 whole (96.33)
   - 8 = 360/45 — also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies
     - S Sun → H Eris Dec 7.9965 8 whole (67.70)
-  - 6 = 360/60 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
+  - 6 = 360/60 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
     - H Diadem → H Transpluto Dec 6.0093 6 whole (28.62)
-  - 9 = 360/40 — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
-    - H Fomalhaut → H Gonggong RA 9.0179 9 whole (1.10)
-  - 6 = 360/60 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
+  - 6 = 360/60 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
     - H Meissa → H Uranus Dec 6.0107 6 whole (21.82)
   - 20 = 360/18 — also: 4 Top Ville Ben / Thomas Dowson
     - H Meissa → H Neptune Dec 19.9862 20 whole (9.75)
   - 10 = 360/36 — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
     - H Meissa → H Juno Dec 10.0190 10 whole (0.23)
-  - 30 = 360/12 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
+  - 30 = 360/12 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
     - H Orion Nebula Cluster → H Sedna RA 29.9934 30 whole (45.06)
-  - 30 = 360/12 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
-    - H Ras Algethi → H Quaoar Dec 30.0121 30 whole (15.46)
   - 5 = 360/72 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
     - H Rigel → H Gonggong Dec 5.0144 5 whole (7.95)
   - 5 = 360/72 — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
@@ -2949,7 +2227,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Spica → H Orcus Dec 3.0069 3 whole (42.84)
   - 9 = 360/40 — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
     - S Pallas → J Pallas RA 8.9888 9 whole (19.36)
-  - 36 = 360/10 — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
+  - 36 = 360/10 — also: 4 Top Ville Ben / Thomas Dowson
     - J Jupiter → J Quaoar Dec 35.9969 36 whole (71.73)
   - 9 = 360/40 — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
     - S Castor → J Jupiter Dec 9.0181 9 whole (0.90)
@@ -2957,63 +2235,47 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Castor → J Quaoar Dec 45.0159 45 whole (4.20)
   - 9 = 360/40 — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
     - J Meissa → J Sun Dec 8.9995 9 whole (95.24)
-  - 24 = 360/15 — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
-    - J Ras Algethi → J Eris Dec 23.9881 24 whole (16.34)
   - 18 = 360/20 — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
     - J Regulus → J Mercury Dec 18.0130 18 whole (12.15)
   - 8 = 360/45 — also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies
     - J Rigel → J Juno Dec 8.0172 8 whole (2.00)
 - **5. same number in more than one place**
-  - 1 whole — also: 2 Thomas Darby / Aidan Coleman
+  - 1 whole — only
     - S Sedna → H Sedna Dec 0.9912 1 whole (31.61)
     - S Jupiter → H Mars Dec 1.0004 1 whole (96.33)
   - 8 whole — only
     - S Sun → H Eris Dec 7.9965 8 whole (67.70)
     - J Rigel → J Juno Dec 8.0172 8 whole (2.00)
-  - 21 whole — also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson
+  - 21 whole — also: 4 Top Ville Ben / Thomas Dowson
     - H Castor → H Ketu Dec 21.0043 21 whole (61.42)
     - H Vindemiatrix → H Neptune Dec 21.0101 21 whole (24.36)
   - 19×φ golden — only
     - H Diadem → H Gonggong Dec 30.7463 19×φ golden (78.82)
     - S Haumea → J Haumea RA 30.7619 19×φ golden (loose)
-  - 6 whole — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
+  - 6 whole — also: 4 Top Ville Ben / Thomas Dowson
     - H Diadem → H Transpluto Dec 6.0093 6 whole (28.62)
     - H Meissa → H Uranus Dec 6.0107 6 whole (21.82)
-  - 17 whole — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
-    - H Fomalhaut → H Mercury Dec 17.0025 17 whole (76.57)
-    - J Algorab → J Mars Dec 16.9995 17 whole (95.41)
-    - J Vindemiatrix → J Mercury Dec 17.0057 17 whole (51.12)
-  - 14 whole — also: 3 Emitom / Brian Hughes
-    - H Fomalhaut → H Quaoar Dec 13.9992 14 whole (92.05)
-    - J Rigel → J Neptune Dec 13.9880 14 whole (15.94)
-  - 9 whole — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
-    - H Fomalhaut → H Gonggong RA 9.0179 9 whole (1.10)
-    - S Pallas → J Pallas RA 8.9888 9 whole (19.36)
-    - S Castor → J Jupiter Dec 9.0181 9 whole (0.90)
-    - J Meissa → J Sun Dec 8.9995 9 whole (95.24)
   - 86 whole — only
     - H Meissa → H Sun RA 85.9805 86 whole (0.05)
     - H Orion Nebula Cluster → H Sun RA 86.0181 86 whole (0.94)
     - S Rahu → J Rahu RA 85.9788 86 whole (loose)
     - S Ketu → J Ketu RA 85.9788 86 whole (loose)
-  - 30 whole — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
-    - H Orion Nebula Cluster → H Sedna RA 29.9934 30 whole (45.06)
-    - H Ras Algethi → H Quaoar Dec 30.0121 30 whole (15.46)
   - 67×φ golden — also: 4 Top Ville Ben / Thomas Dowson
     - H Orion Nebula Cluster → H Makemake RA 108.4244 67×φ golden (25.31)
     - H Orion Nebula Cluster → H Gonggong RA 108.4314 67×φ golden (8.14)
   - 127 whole — only
     - H Regulus → H Eris RA 126.9989 127 whole (89.07)
     - S Uranus → J Uranus RA 126.9869 127 whole (11.86)
-  - 5 whole — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes
+  - 5 whole — also: 3 Emitom / Brian Hughes
     - H Rigel → H Gonggong Dec 5.0144 5 whole (7.95)
     - H Spica → H Saturn Dec 5.0050 5 whole (56.14)
   - 12.2222 ninth — only
     - S Sun → J Sun Dec 12.2003 12.2222 ninth (loose)
     - J Rigel → J Sedna Dec 12.2230 12.2222 ninth (98.86)
-  - 13.3333 ninth — also: 5 Wholestone / Sam Twiston-Davies
-    - S Mercury → J Mercury Dec 13.2552 13.3333 ninth (loose)
-    - J Sadalmelik → J Ketu Dec 13.3324 13.3333 ninth (98.94)
+  - 9 whole — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
+    - S Pallas → J Pallas RA 8.9888 9 whole (19.36)
+    - S Castor → J Jupiter Dec 9.0181 9 whole (0.90)
+    - J Meissa → J Sun Dec 8.9995 9 whole (95.24)
   - 10×φ^1 phi power — also: 4 Top Ville Ben / Thomas Dowson
     - S Vesta → J Vesta RA 16.1056 10×φ^1 phi power (loose)
     - S Orcus → J Orcus Dec 16.1556 10×φ^1 phi power (loose)
@@ -3027,10 +2289,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Mercury**
   - same body: S Mercury → H Mercury RA 26.1897 10×φ^2 phi power (86.14) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
   - top rows: S Sun → H Mercury RA 0.3763 conj (56.12) — only
-  - star rows: H Fomalhaut → H Mercury Dec 17.0025 17 whole (76.57) — also: 2 Thomas Darby / Aidan Coleman
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: H Ras Algethi → H Mercury Dec 27.0088 27 whole (31.22) — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - same body: S Mercury → J Mercury RA 122.2566 122.222 ninth (95.24) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
   - same body: S Mercury → J Mercury Dec 13.2552 13.3333 ninth (loose) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
   - star rows: J Regulus → J Mercury Dec 18.0130 18 whole (12.15) — also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
@@ -3041,18 +2299,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Mars → H Mars RA 85.7270 53×φ golden (loose) — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
   - top rows: S Jupiter → H Mars Dec 1.0004 1 whole (96.33) — also: 2 Thomas Darby / Aidan Coleman
   - top rows: S Moon → J Mars Dec 0.1745 conj (17.51) — only
-  - star rows: J Algorab → J Mars Dec 16.9995 17 whole (95.41) — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - star rows: J Fomalhaut → J Mars RA 163.4247 101×φ golden (80.71) — also: 5 Wholestone / Sam Twiston-Davies
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: J Ras Algethi → J Mars RA 77.6684 48×φ golden (83.58) — also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-  - star rows: J Sadalmelik → J Mars RA 150.4579 93×φ golden (16.37) — also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **Saturn**
   - same body: S Saturn → H Saturn RA 88.9775 89 whole (loose) — also: 5 Wholestone / Sam Twiston-Davies
-  - star rows: H Fomalhaut → H Saturn RA 113.2659 70×φ golden (79.52) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - star rows: H Spica → H Saturn Dec 5.0050 5 whole (56.14) — also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - star rows: H Vindemiatrix → H Saturn RA 35.5944 22×φ golden (86.07) — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes
@@ -3072,8 +2320,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
 - **Chiron**
   - top rows: S Jupiter → H Chiron RA 0.4131 conj (52.50) — also: 4 Top Ville Ben / Thomas Dowson
-  - star rows: H Fomalhaut → H Chiron RA 0.8843 conj (16.85) — also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - star rows: J Wezen → J Chiron RA 0.7558 conj (24.61) — also: 1 Third Wind / Tom O'Brien
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
 - **Orcus**
@@ -3083,16 +2329,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Spica → H Orcus Dec 3.0069 3 whole (42.84) — also: 2 Thomas Darby / Aidan Coleman
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
   - same body: S Orcus → J Orcus Dec 16.1556 10×φ^1 phi power (loose) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
-  - star rows: J Sadalmelik → J Orcus RA 158.5431 98×φ golden (6.34) — also: 3 Emitom / Brian Hughes
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **Eris**
   - top rows: S Sun → H Eris Dec 7.9965 8 whole (67.70) — also: 2 Thomas Darby / Aidan Coleman
   - star rows: H Regulus → H Eris RA 126.9989 127 whole (89.07) — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
   - star rows: H Wezen → H Eris RA 82.0020 82 whole (81.27) — only
     - source line: S Moon → Wezen RA 79.2836 49×φ golden (99.53)
-  - star rows: J Ras Algethi → J Eris Dec 23.9881 24 whole (16.34) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - star rows: J Vindemiatrix → J Eris RA 172.9816 173 whole (0.67) — also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
 - **Juno**
@@ -3101,24 +2343,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
   - star rows: H Meissa → H Juno Dec 10.0190 10 whole (0.23) — also: 4 Top Ville Ben / Thomas Dowson
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
-  - star rows: H Ras Algethi → H Juno RA 110.0010 110 whole (90.39) — only
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-  - star rows: H Sadalmelik → H Juno Dec 0.2359 conj (4.56) — also: 2 Thomas Darby / Aidan Coleman
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - star rows: H Vindemiatrix → H Juno RA 173.1155 107×φ golden (31.84) — only
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
   - star rows: J Rigel → J Juno Dec 8.0172 8 whole (2.00) — only
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
-  - star rows: J Sadalmelik → J Juno Dec 0.1361 conj (29.86) — also: 2 Thomas Darby / Aidan Coleman
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
   - star rows: J Spica → J Juno RA 11.1155 11.1111 ninth (92.74) — also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies
     - source line: S Sun → Spica Dec 0.1018 conj (43.67)
 - **Makemake**
   - top rows: S Moon → H Makemake Dec 25.9953 26 whole (58.84) — only
   - star rows: H Orion Nebula Cluster → H Makemake RA 108.4244 67×φ golden (25.31) — only
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
-  - star rows: J Fomalhaut → J Makemake Dec 64.7296 40×φ golden (55.76) — only
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - star rows: J Orion Nebula Cluster → J Makemake RA 85.0138 85 whole (9.61) — only
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
   - star rows: J Vindemiatrix → J Makemake Dec 24.1475 24.14 silver (91.29) — also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
@@ -3128,14 +2362,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Diadem → H Gonggong Dec 30.7463 19×φ golden (78.82) — only
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
-  - star rows: H Fomalhaut → H Gonggong RA 9.0179 9 whole (1.10) — only
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
   - star rows: H Orion Nebula Cluster → H Gonggong RA 108.4314 67×φ golden (8.14) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson
     - source line: S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)
   - star rows: H Rigel → H Gonggong Dec 5.0144 5 whole (7.95) — also: 2 Thomas Darby / Aidan Coleman
     - source line: S Jupiter → Rigel Dec 0.0255 conj (83.71)
-  - star rows: J Algorab → J Gonggong RA 141.4748 141.4 sqrt2 (85.45) — also: 2 Thomas Darby / Aidan Coleman
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: J Diadem → J Gonggong Dec 38.0017 38 whole (83.45) — only
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
@@ -3171,18 +2401,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Sun → J Ketu Dec 24.2792 15×φ golden (53.38) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
   - star rows: J Meissa → J Ketu RA 63.9997 64 whole (96.86) — also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
-  - star rows: J Sadalmelik → J Ketu RA 176.3341 109×φ golden (0.05) — also: 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
-  - star rows: J Sadalmelik → J Ketu Dec 13.3324 13.3333 ninth (98.94) — also: 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **Quaoar**
   - star rows: H Diadem → H Quaoar RA 69.0009 69 whole (90.78) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes
     - source line: S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
-  - star rows: H Fomalhaut → H Quaoar Dec 13.9992 14 whole (92.05) — only
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: H Ras Algethi → H Quaoar Dec 30.0121 30 whole (15.46) — only
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
   - same body: S Quaoar → J Quaoar RA 44.4921 44.4444 ninth (loose) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies
   - T2: J Jupiter → J Quaoar Dec 35.9969 36 whole (71.73) — only
   - star rows: J Castor → J Quaoar Dec 45.0159 45 whole (4.20) — also: 5 Wholestone / Sam Twiston-Davies
@@ -3195,22 +2417,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)
   - star rows: H Regulus → H Transpluto RA 0.1318 conj (83.19) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
     - source line: S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)
-  - star rows: H Sadalmelik → H Transpluto RA 179.4764 10×φ^6 phi power (92.64) — also: 4 Top Ville Ben / Thomas Dowson
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
-  - star rows: J Fomalhaut → J Transpluto RA 159.9958 160 whole (62.48) — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: J Ras Algethi → J Transpluto Dec 0.2341 conj (4.82) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
-- **Jupiter**
-  - star rows: S Fomalhaut → H Jupiter RA 117.0087 117 whole (32.10) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - top rows: S Makemake → J Jupiter Dec 0.2983 conj (0.00) — also: 3 Emitom / Brian Hughes
-  - star rows: S Castor → J Jupiter Dec 9.0181 9 whole (0.90) — only
-    - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: J Fomalhaut → J Jupiter RA 115.0179 115 whole (1.12) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes
-    - source line: S Jupiter → Fomalhaut RA 1.2982 conj (1.81)
-  - star rows: S Sadalmelik → J Jupiter RA 127.9945 128 whole (52.45) — also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
-    - source line: S Sun → Sadalmelik RA 1.2128 conj (3.67)
 - **Sun**
   - star rows: H Meissa → H Sun RA 85.9805 86 whole (0.05) — also: 5 Wholestone / Sam Twiston-Davies
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
@@ -3230,8 +2436,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Uranus RA 65.9983 66 whole (83.81)
   - star rows: J Castor → J Uranus RA 158.0174 158 whole (1.65) — also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies
     - source line: S Sun → Castor RA 140.9998 141 whole (97.65)
-  - star rows: J Ras Algethi → J Uranus RA 13.0039 13 whole (64.43) — only
-    - source line: S Sun → Ras Algethi RA 73.9937 74 whole (46.89)
 - **Ceres**
   - star rows: H Meissa → H Ceres RA 129.4297 80×φ golden (35.84) — also: 2 Thomas Darby / Aidan Coleman
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
@@ -3240,10 +2444,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
   - same body: S Haumea → J Haumea RA 30.7619 19×φ golden (loose) — also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies
   - top rows: S Moon → J Haumea RA 0.3873 conj (55.02) — also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman
-  - star rows: J Algorab → J Haumea RA 0.6881 conj (29.30) — only
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
-  - star rows: J Algorab → J Haumea Dec 39.0016 39 whole (84.59) — only
-    - source line: S Moon → Algorab RA 1.0830 conj (7.73)
   - star rows: J Meissa → J Haumea RA 102.9884 103 whole (17.67) — also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes
     - source line: S Sun → Meissa RA 111.1333 111.111 ninth (96.36)
 - **Venus**
@@ -3269,3 +2469,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)
 - **Vesta**
   - same body: S Vesta → J Vesta RA 16.1056 10×φ^1 phi power (loose) — also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies
+- **Jupiter**
+  - top rows: S Makemake → J Jupiter Dec 0.2983 conj (0.00) — also: 3 Emitom / Brian Hughes
+  - star rows: S Castor → J Jupiter Dec 9.0181 9 whole (0.90) — only
+    - source line: S Sun → Castor RA 140.9998 141 whole (97.65)

@@ -80,7 +80,8 @@ r = runner(L, 'Rubaud')
 sed = next(x for x in L['report'][r]['landings'] if x['chart'] == 'H' and x['body'] == 'Sedna')
 t = [q['text'] for q in sed['on_this_chart']]
 check(any('H Zubenelgenubi → H Sedna RA 166.6568 166.667 ninth (99.15)' in x for x in t), 'Rubaud Sedna Zubenelgenubi')
-check(any('H Zubeneschamali → H Sedna Dec 17.0016 17 whole (84.21)' in x for x in t), 'Rubaud Sedna Zubeneschamali')
+# noted-line cut (Eddie, 7 Nov 2026): S Moon conj Zubeneschamali Dec 0.2198 scores 7.14 < 20, so Zubeneschamali is no longer a noted star
+check(not any('H Zubeneschamali → H Sedna' in x for x in t), 'Rubaud Sedna Zubeneschamali gone with the conj >= 20 cut')
 pal = next(x for x in L['report'][r]['landings'] if x['body'] == 'Pallas' and x['chart'] == 'J')
 check(any('S Moon → Pallas Dec 11.1105' in b for b in pal['body_lines']), 'Rubaud Pallas body line')
 S, L = load('20261106_aintree_1350')

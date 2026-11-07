@@ -10,11 +10,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Jupiter → Uranus RA 84.9993 85 whole (93.10)
 - S Jupiter → Capella Dec 32.0016 32 whole (84.88)
 - S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
-- S Jupiter → Ketu RA 1.4603 conj (0.07)
 - S Sun → Haumea RA 0.6231 conj (34.18)
 - S Sun → Difda Dec 2.0002 2 whole (97.91)
 - S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
-- S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
 - S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
 - S Sun → Deneb RA 88.9987 89 whole (87.17)
 - S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
@@ -90,7 +88,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Sadalsuud → J Transpluto Dec 19.9966 20 whole (68.64)
     - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
 - **H Ketu** (same body: S Ketu → H Ketu RA 161.6637 100×φ^1 phi power (loose))
-  - sky line to Ketu: S Jupiter → Ketu RA 1.4603 conj (0.07)
   - star rows: H Deneb → H Ketu RA 0.1096 conj (85.92)
     - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
   - other chart, star rows: J Deneb → J Ketu RA 110.9248 10×φ^5 phi power (91.85)
@@ -112,7 +109,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Pleiades → H Jupiter RA 166.9874 167 whole (13.71)
     - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
   - other chart, star rows: H Zubenelgenubi → H Jupiter RA 1.1284 conj (6.14)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **J Saturn** (same body: S Saturn → J Saturn RA 122.9257 φ^10 phi power (79.64))
@@ -121,7 +117,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Vindemiatrix → J Saturn Dec 30.9829 31 whole (2.14)
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - star rows: J Zubenelgenubi → J Saturn Dec 3.9823 4 whole (1.32)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **J Chiron** (same body: S Chiron → J Chiron Dec 7.0248 7 whole (loose))
@@ -135,7 +130,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Vindemiatrix → H Pallas Dec 11.0101 11 whole (24.74)
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - other chart, star rows: H Zubenelgenubi → H Pallas Dec 15.9927 16 whole (40.46)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **J Makemake** (same body: S Makemake → J Makemake RA 35.9707 36 whole (loose))
@@ -150,7 +144,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Pleiades → J Gonggong RA 89.0189 89 whole (0.30)
     - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
   - star rows: J Zubenelgenubi → J Gonggong RA 105.1428 65×φ golden (0.85)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - other chart, top rows: S Jupiter → H Gonggong Dec 26.0009 26 whole (91.57)
@@ -297,7 +290,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
 - **Ketu**
   - same body: S Ketu → H Ketu RA 161.6637 100×φ^1 phi power (loose) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - source line: S Jupiter → Ketu RA 1.4603 conj (0.07)
   - star rows: H Deneb → H Ketu RA 0.1096 conj (85.92) — also: 8 The Bellhop / Freddie Mitchell
     - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
   - star rows: J Deneb → J Ketu RA 110.9248 10×φ^5 phi power (91.85) — also: 8 The Bellhop / Freddie Mitchell
@@ -322,7 +314,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Pleiades → J Gonggong RA 89.0189 89 whole (0.30) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
     - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
   - star rows: J Zubenelgenubi → J Gonggong RA 105.1428 65×φ golden (0.85) — only
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Eris**
@@ -341,7 +332,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Pleiades → H Jupiter RA 166.9874 167 whole (13.71) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
     - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
   - star rows: H Zubenelgenubi → H Jupiter RA 1.1284 conj (6.14) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - same body: S Jupiter → J Jupiter RA 161.6366 100×φ^1 phi power (loose) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
@@ -359,7 +349,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Vindemiatrix → H Venus Dec 14.0045 14 whole (60.19) — also: 5 He's A Latchico / Caoilin Quinn
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - star rows: H Zubenelgenubi → H Venus Dec 41.0073 41 whole (40.59) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - star rows: J Capella → J Venus RA 146.0103 146 whole (23.37) — only
@@ -370,7 +359,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Vindemiatrix → H Pallas Dec 11.0101 11 whole (24.74) — also: 2 Lynx De Thaix / Gavin Sheehan
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - star rows: H Zubenelgenubi → H Pallas Dec 15.9927 16 whole (40.46) — only
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - same body: S Pallas → J Pallas RA 179.6607 10×φ^6 phi power (loose) — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn
@@ -441,7 +429,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Vindemiatrix → J Saturn Dec 30.9829 31 whole (2.14) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - star rows: J Zubenelgenubi → J Saturn Dec 3.9823 4 whole (1.32) — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Chiron**
@@ -498,7 +485,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Deneb Algedi → J Saturn Dec 0.1757 conj (17.17)
     - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
   - other chart, star rows: J Zubenelgenubi → J Saturn Dec 0.2583 conj (1.93)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **H Pluto** (same body: S Pluto → H Pluto Dec 1.4482 1.44444 ninth (loose))
@@ -560,7 +546,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Sadalsuud → J Vesta Dec 15.0137 15 whole (9.81)
     - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
   - star rows: J Zubenelgenubi → J Vesta RA 46.0087 46 whole (31.89)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - other chart, star rows: H Orion Nebula Cluster → H Vesta RA 83.9870 84 whole (12.36)
@@ -742,7 +727,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Deneb Algedi → J Saturn Dec 0.1757 conj (17.17) — only
     - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
   - star rows: J Zubenelgenubi → J Saturn Dec 0.2583 conj (1.93) — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Pluto**
@@ -824,7 +808,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Vindemiatrix → H Juno Dec 21.0170 21 whole (2.32) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - star rows: H Zubenelgenubi → H Juno Dec 5.9829 6 whole (2.08) — also: 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - star rows: J Capella → J Juno RA 34.9862 35 whole (9.48) — also: 1 Fire Flyer / Richie McLernon, 8 The Bellhop / Freddie Mitchell
@@ -902,7 +885,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Sadalsuud → J Vesta Dec 15.0137 15 whole (9.81) — also: 5 He's A Latchico / Caoilin Quinn
     - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
   - star rows: J Zubenelgenubi → J Vesta RA 46.0087 46 whole (31.89) — only
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Quaoar**
@@ -976,7 +958,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Algol → H Juno RA 166.6792 166.667 ninth (98.93)
     - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
   - star rows: H Zubenelgenubi → H Juno RA 9.0097 9 whole (26.66)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - other chart, top rows: S Jupiter → J Juno RA 10.9960 11 whole (64.38)
@@ -989,7 +970,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Rigel → H Haumea Dec 25.9851 26 whole (6.61)
     - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
   - star rows: H Zubenelgenubi → H Haumea RA 12.0128 12 whole (12.98)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - other chart, same body: S Haumea → J Haumea RA 21.9890 22 whole (20.09)
@@ -1035,7 +1015,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Sadalsuud → J Mars RA 84.0055 84 whole (52.55)
     - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
   - other chart, star rows: H Zubenelgenubi → H Mars RA 14.5616 9×φ golden (95.73)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **J Saturn** (same body: S Saturn → J Saturn RA 59.8562 37×φ golden (loose))
@@ -1067,7 +1046,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Rigel → H Haumea Dec 25.9851 26 whole (6.61)
     - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
   - other chart, star rows: H Zubenelgenubi → H Haumea RA 12.0128 12 whole (12.98)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **J Transpluto** (same body: S Transpluto → J Transpluto Dec 3.2355 2×φ golden (loose))
@@ -1080,7 +1058,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Vindemiatrix → J Transpluto Dec 2.0046 2 whole (59.51)
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - star rows: J Zubenelgenubi → J Transpluto Dec 29.0046 29 whole (59.45)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - other chart, top rows: S Jupiter → H Transpluto Dec 2.6180 φ^2 phi power (99.80)
@@ -1092,7 +1069,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Difda → H Transpluto RA 141.4604 141.4 sqrt2 (89.27)
     - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
 - **J Ketu** (same body: S Ketu → J Ketu RA 111.1926 111.111 ninth (86.67))
-  - sky line to Ketu: S Jupiter → Ketu RA 1.4603 conj (0.07)
   - star rows: J Algol → J Ketu RA 147.2561 91×φ golden (28.60)
     - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
   - star rows: J Difda → J Ketu RA 111.1114 111.111 ninth (99.96)
@@ -1231,7 +1207,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Algol → H Juno RA 166.6792 166.667 ninth (98.93) — also: 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
     - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
   - star rows: H Zubenelgenubi → H Juno RA 9.0097 9 whole (26.66) — also: 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - top rows: S Jupiter → J Juno RA 10.9960 11 whole (64.38) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn
@@ -1245,7 +1220,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Rigel → H Haumea Dec 25.9851 26 whole (6.61) — also: 5 He's A Latchico / Caoilin Quinn
     - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
   - star rows: H Zubenelgenubi → H Haumea RA 12.0128 12 whole (12.98) — also: 5 He's A Latchico / Caoilin Quinn
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - same body: S Haumea → J Haumea RA 21.9890 22 whole (20.09) — also: 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
@@ -1283,7 +1257,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Pleiades → H Sedna RA 1.1469 conj (5.54) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
     - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
   - star rows: H Zubenelgenubi → H Sedna RA 167.0058 167 whole (50.07) — also: 5 He's A Latchico / Caoilin Quinn
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - star rows: J Algol → J Sedna RA 0.5063 conj (43.89) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
@@ -1318,7 +1291,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Vindemiatrix → J Transpluto Dec 2.0046 2 whole (59.51) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - star rows: J Zubenelgenubi → J Transpluto Dec 29.0046 29 whole (59.45) — only
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Uranus**
@@ -1328,7 +1300,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Pleiades → H Uranus RA 35.5989 22×φ golden (86.96) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
     - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
   - star rows: H Zubenelgenubi → H Uranus RA 158.5421 98×φ golden (4.84) — only
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - T2: J Jupiter → J Uranus RA 127.8340 79×φ golden (50.78) — only
@@ -1377,7 +1348,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Vindemiatrix → J Makemake Dec 20.9883 21 whole (17.14) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - star rows: J Zubenelgenubi → J Makemake Dec 47.9883 48 whole (17.18) — only
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Venus**
@@ -1411,7 +1381,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Sadalsuud → H Eris RA 63.1032 39×φ golden (99.15) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
     - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
   - star rows: J Zubenelgenubi → J Eris RA 160.9859 161 whole (8.83) — only
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Sun**
@@ -1424,7 +1393,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
 - **Mars**
   - star rows: H Zubenelgenubi → H Mars RA 14.5616 9×φ golden (95.73) — only
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - same body: S Mars → J Mars RA 97.0827 60×φ golden (96.01) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
@@ -1444,7 +1412,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Ceres → J Ceres Dec 38.0206 38 whole (loose) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
 - **Ketu**
   - same body: S Ketu → J Ketu RA 111.1926 111.111 ninth (86.67) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - source line: S Jupiter → Ketu RA 1.4603 conj (0.07)
   - star rows: J Algol → J Ketu RA 147.2561 91×φ golden (28.60) — also: 5 He's A Latchico / Caoilin Quinn
     - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
   - star rows: J Difda → J Ketu RA 111.1114 111.111 ninth (99.96) — also: 2 Lynx De Thaix / Gavin Sheehan
@@ -1489,7 +1456,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Pleiades → H Sedna RA 0.7825 conj (22.88)
     - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
   - star rows: H Zubenelgenubi → H Sedna RA 166.6369 166.667 ninth (97.45)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - other chart, same body: S Sedna → J Sedna RA 14.0126 14 whole (13.64)
@@ -1506,7 +1472,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Vindemiatrix → J Venus Dec 6.0095 6 whole (27.48)
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - star rows: J Zubenelgenubi → J Venus Dec 33.0128 33 whole (12.85)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - other chart, star rows: H Vindemiatrix → H Venus RA 177.7566 177.778 ninth (98.34)
@@ -1548,7 +1513,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Pleiades → H Sedna RA 0.7825 conj (22.88)
     - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
   - other chart, star rows: H Zubenelgenubi → H Sedna RA 166.6369 166.667 ninth (97.45)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **J Haumea** (same body: S Haumea → J Haumea RA 24.0028 24 whole (74.05))
@@ -1559,7 +1523,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Vindemiatrix → J Haumea RA 1.1881 conj (4.32)
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - star rows: J Zubenelgenubi → J Haumea RA 25.9900 26 whole (25.21)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - other chart, top rows: S Moon → H Haumea Dec 25.8811 16×φ golden (59.42)
@@ -1584,7 +1547,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Vindemiatrix → H Transpluto Dec 0.0836 conj (52.05)
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
 - **J Ketu** (same body: S Ketu → J Ketu Dec 36.0170 36 whole (2.28))
-  - sky line to Ketu: S Jupiter → Ketu RA 1.4603 conj (0.07)
   - star rows: J Scheat → J Ketu RA 69.0114 69 whole (18.51)
     - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
   - other chart, star rows: H Algol → H Ketu RA 90.6022 56×φ golden (58.22)
@@ -1732,7 +1694,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Pleiades → H Sedna RA 0.7825 conj (22.88) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
     - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
   - star rows: H Zubenelgenubi → H Sedna RA 166.6369 166.667 ninth (97.45) — also: 3 Donnie Azoff / Isabelle Ryder
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - same body: S Sedna → J Sedna RA 14.0126 14 whole (13.64) — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
@@ -1772,7 +1733,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Vindemiatrix → J Haumea RA 1.1881 conj (4.32) — also: 8 The Bellhop / Freddie Mitchell
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - star rows: J Zubenelgenubi → J Haumea RA 25.9900 26 whole (25.21) — also: 3 Donnie Azoff / Isabelle Ryder
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Mercury**
@@ -1783,7 +1743,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Scheat → J Mercury RA 95.9831 96 whole (2.33) — also: 2 Lynx De Thaix / Gavin Sheehan
     - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
   - star rows: J Zubenelgenubi → J Mercury RA 140.7933 87×φ golden (6.16) — also: 8 The Bellhop / Freddie Mitchell
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Neptune**
@@ -1796,7 +1755,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Vindemiatrix → H Neptune Dec 18.0104 18 whole (23.14) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - star rows: H Zubenelgenubi → H Neptune Dec 8.9896 9 whole (22.99) — only
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - star rows: J Deneb → J Neptune RA 0.0771 conj (89.98) — only
@@ -1819,7 +1777,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Vindemiatrix → H Orcus Dec 21.0167 21 whole (2.66) — only
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - star rows: H Zubenelgenubi → H Orcus Dec 5.9832 6 whole (2.62) — only
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - star rows: J Vindemiatrix → J Orcus RA 56.9807 57 whole (0.11) — only
@@ -1830,7 +1787,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Galactic Centre → H Ketu RA 50.0188 50 whole (0.34) — only
     - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
   - same body: S Ketu → J Ketu Dec 36.0170 36 whole (2.28) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - source line: S Jupiter → Ketu RA 1.4603 conj (0.07)
   - star rows: J Scheat → J Ketu RA 69.0114 69 whole (18.51) — also: 7 Motazzen / Paul O'Brien
     - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
 - **Vesta**
@@ -1888,7 +1844,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Orion Nebula Cluster → H Quaoar RA 171.9886 172 whole (18.28) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
     - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
   - star rows: J Zubenelgenubi → J Quaoar RA 25.0051 25 whole (55.40) — also: 7 Motazzen / Paul O'Brien
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Venus**
@@ -1904,7 +1859,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Vindemiatrix → J Venus Dec 6.0095 6 whole (27.48) — also: 1 Fire Flyer / Richie McLernon
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - star rows: J Zubenelgenubi → J Venus Dec 33.0128 33 whole (12.85) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Makemake**
@@ -1966,7 +1920,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Scheat → H Venus Dec 14.9912 15 whole (31.43)
     - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
   - star rows: H Zubenelgenubi → H Venus RA 171.9874 172 whole (13.70)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - other chart, star rows: J Orion Nebula Cluster → J Venus RA 133.0121 133 whole (15.60)
@@ -2013,11 +1966,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: S Vindemiatrix → J Jupiter Dec 26.0171 26 whole (2.13)
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - star rows: S Zubenelgenubi → J Jupiter RA 1.3714 conj (0.73)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - star rows: S Zubenelgenubi → J Jupiter Dec 0.9839 1 whole (3.80)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - other chart, top rows: S Rahu → H Jupiter RA 0.3471 conj (59.07)
@@ -2162,7 +2113,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Scheat → H Venus Dec 14.9912 15 whole (31.43) — also: 5 He's A Latchico / Caoilin Quinn
     - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
   - star rows: H Zubenelgenubi → H Venus RA 171.9874 172 whole (13.70) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - star rows: J Orion Nebula Cluster → J Venus RA 133.0121 133 whole (15.60) — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
@@ -2186,10 +2136,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Gonggong → H Gonggong Dec 0.9819 1 whole (0.92) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
   - star rows: J Difda → J Gonggong Dec 0.9842 1 whole (4.49) — also: 8 The Bellhop / Freddie Mitchell
     - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
-- **Ketu**
-  - T1: H Jupiter → H Ketu RA 79.2805 49×φ golden (81.38) — also: 8 The Bellhop / Freddie Mitchell
-  - star rows: H Deneb Algedi → H Ketu Dec 5.9897 6 whole (23.44) — only
-    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
 - **Jupiter**
   - T1: H Jupiter → H star Orion Nebula Cluster RA 114.8836 71×φ golden (81.26) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
   - T1: H Jupiter → H star Scheat RA 17.0054 17 whole (53.14) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
@@ -2216,11 +2162,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: S Vindemiatrix → J Jupiter Dec 26.0171 26 whole (2.13) — only
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - star rows: S Zubenelgenubi → J Jupiter RA 1.3714 conj (0.73) — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - star rows: S Zubenelgenubi → J Jupiter Dec 0.9839 1 whole (3.80) — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Chiron**
@@ -2243,6 +2187,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Deneb Algedi → H Mars Dec 41.0138 41 whole (9.70) — only
     - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
   - same body: S Mars → J Mars RA 28.9795 29 whole (loose) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+- **Ketu**
+  - star rows: H Deneb Algedi → H Ketu Dec 5.9897 6 whole (23.44) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
 - **Neptune**
   - star rows: H Difda → H Neptune RA 18.0099 18 whole (25.53) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn
     - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
@@ -2278,7 +2225,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Sadalsuud → H Rahu RA 106.7668 66×φ golden (7.66) — only
     - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
   - star rows: J Zubenelgenubi → J Rahu RA 0.4208 conj (51.76) — also: 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Ceres**
@@ -2389,7 +2335,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: S Pleiades → J Jupiter RA 101.9381 63×φ golden (88.12)
     - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
   - star rows: S Zubenelgenubi → J Jupiter Dec 25.8854 16×φ golden (81.26)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - other chart, star rows: H Deneb Algedi → H Jupiter Dec 1.2226 1.22222 ninth (94.78)
@@ -2421,7 +2366,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Scheat → J Rahu RA 61.0098 61 whole (25.79)
     - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
   - other chart, star rows: H Zubenelgenubi → H Rahu RA 85.9872 86 whole (12.95)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **J Eris** (same body: S Eris → J Eris Dec 9.0168 9 whole (2.54))
@@ -2443,7 +2387,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Sadalsuud → H Quaoar Dec 10.0019 10 whole (81.52)
     - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
   - other chart, star rows: H Zubenelgenubi → H Quaoar RA 49.0120 49 whole (15.81)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **J Transpluto** (same body: S Transpluto → J Transpluto Dec 4.1411 4.14 silver (loose))
@@ -2464,7 +2407,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Vindemiatrix → H Transpluto Dec 0.0456 conj (71.88)
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
 - **J Ketu** (same body: S Ketu → J Ketu Dec 9.9988 10 whole (88.74))
-  - sky line to Ketu: S Jupiter → Ketu RA 1.4603 conj (0.07)
   - star rows: J Scheat → J Ketu RA 118.9902 119 whole (25.79)
     - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
   - star rows: J Vindemiatrix → J Ketu RA 90.6016 56×φ golden (55.28)
@@ -2472,7 +2414,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Vindemiatrix → H Ketu Dec 27.5041 17×φ golden (85.47)
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - other chart, star rows: H Zubenelgenubi → H Ketu RA 94.0128 94 whole (12.95)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 ### L3 matches
@@ -2643,7 +2584,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: S Pleiades → J Jupiter RA 101.9381 63×φ golden (88.12) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
     - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
   - star rows: S Zubenelgenubi → J Jupiter Dec 25.8854 16×φ golden (81.26) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Orcus**
@@ -2692,7 +2632,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Rigel → J Saturn RA 135.9216 84×φ golden (62.51) — only
     - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
   - star rows: J Zubenelgenubi → J Saturn RA 80.0013 80 whole (87.83) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Sun**
@@ -2720,7 +2659,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Sadalsuud → H Quaoar Dec 10.0019 10 whole (81.52) — also: 6 So You Know / Tom Bellamy
     - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
   - star rows: H Zubenelgenubi → H Quaoar RA 49.0120 49 whole (15.81) — also: 5 He's A Latchico / Caoilin Quinn
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - same body: S Quaoar → J Quaoar Dec 1.5455 1.55556 ninth (loose) — also: 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy
@@ -2750,29 +2688,24 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Vindemiatrix → H Ketu Dec 27.5041 17×φ golden (85.47) — only
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - star rows: H Zubenelgenubi → H Ketu RA 94.0128 94 whole (12.95) — only
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - same body: S Ketu → J Ketu Dec 9.9988 10 whole (88.74) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
-    - source line: S Jupiter → Ketu RA 1.4603 conj (0.07)
   - star rows: J Scheat → J Ketu RA 118.9902 119 whole (25.79) — also: 5 He's A Latchico / Caoilin Quinn
     - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
   - star rows: J Vindemiatrix → J Ketu RA 90.6016 56×φ golden (55.28) — only
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
 - **Venus**
   - star rows: H Zubenelgenubi → H Venus RA 136.9964 137 whole (67.28) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - star rows: J Orion Nebula Cluster → J Venus Dec 12.9488 8×φ golden (74.01) — also: 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy
     - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
   - star rows: J Zubenelgenubi → J Venus RA 64.9804 65 whole (0.03) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Rahu**
   - star rows: H Zubenelgenubi → H Rahu RA 85.9872 86 whole (12.95) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - same body: S Rahu → J Rahu Dec 9.9988 10 whole (88.74) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
@@ -2834,7 +2767,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Galactic Centre → J Jupiter RA 42.9914 43 whole (32.30)
     - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
   - other chart, star rows: J Zubenelgenubi → J Jupiter RA 0.7087 conj (27.83)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **H Ceres** (same body: S Ceres → H Ceres RA 57.9728 58 whole (loose))
@@ -2857,7 +2789,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Orion Nebula Cluster → J Rahu RA 139.0158 139 whole (4.49)
     - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
   - other chart, star rows: J Zubenelgenubi → J Rahu RA 0.1243 conj (84.11)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **H Eris** (same body: S Eris → H Eris RA 0.9922 1 whole (37.51))
@@ -2881,10 +2812,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Sadalsuud → J Makemake Dec 38.9996 39 whole (95.66)
     - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
 - **H Ketu** (same body: S Ketu → H Ketu Dec 32.3615 20×φ golden (95.14))
-  - sky line to Ketu: S Jupiter → Ketu RA 1.4603 conj (0.07)
   - star rows: H Deneb → H Ketu RA 74.9825 75 whole (1.61)
     - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
-  - other chart, T2: J Jupiter → J Ketu RA 179.4156 10×φ^6 phi power (94.05)
   - other chart, star rows: J Orion Nebula Cluster → J Ketu RA 40.9842 41 whole (4.49)
     - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
   - other chart, star rows: J Sadalsuud → J Ketu Dec 21.9950 22 whole (56.44)
@@ -2906,7 +2835,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Rigel → J Mercury RA 132.6966 82×φ golden (20.29)
     - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
   - star rows: J Zubenelgenubi → J Mercury Dec 0.2550 conj (2.25)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - other chart, star rows: H Algol → H Mercury RA 111.1551 111.111 ninth (92.81)
@@ -2924,7 +2852,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Vindemiatrix → H Mercury Dec 30.0067 30 whole (43.98)
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - other chart, star rows: H Zubenelgenubi → H Mercury Dec 3.0077 3 whole (37.68)
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **J Mars** (same body: S Mars → J Mars RA 22.1857 22.2222 ninth (loose))
@@ -3055,9 +2982,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 2 whole — also: 5 He's A Latchico / Caoilin Quinn
     - S Mercury → J Mercury Dec 2.0112 2 whole (19.36)
     - J Rigel → J Pluto Dec 1.9840 2 whole (4.07)
-  - 10×φ^6 phi power — only
-    - J Jupiter → J Ketu RA 179.4156 10×φ^6 phi power (94.05)
-    - J Deneb Algedi → J Transpluto RA 179.4707 10×φ^6 phi power (93.86)
   - 101×φ golden — only
     - S Eris → J Jupiter RA 163.4121 101×φ golden (50.50)
     - J Difda → J Makemake RA 163.4043 101×φ golden (22.08)
@@ -3080,7 +3004,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Galactic Centre → J Jupiter RA 42.9914 43 whole (32.30) — only
     - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
   - star rows: J Zubenelgenubi → J Jupiter RA 0.7087 conj (27.83) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Ceres**
@@ -3105,7 +3028,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Orion Nebula Cluster → J Rahu RA 139.0158 139 whole (4.49) — only
     - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
   - star rows: J Zubenelgenubi → J Rahu RA 0.1243 conj (84.11) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Eris**
@@ -3132,10 +3054,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
 - **Ketu**
   - same body: S Ketu → H Ketu Dec 32.3615 20×φ golden (95.14) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
-    - source line: S Jupiter → Ketu RA 1.4603 conj (0.07)
   - star rows: H Deneb → H Ketu RA 74.9825 75 whole (1.61) — also: 1 Fire Flyer / Richie McLernon
     - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
-  - T2: J Jupiter → J Ketu RA 179.4156 10×φ^6 phi power (94.05) — also: 6 So You Know / Tom Bellamy
   - star rows: J Orion Nebula Cluster → J Ketu RA 40.9842 41 whole (4.49) — only
     - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
   - star rows: J Sadalsuud → J Ketu Dec 21.9950 22 whole (56.44) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
@@ -3161,7 +3081,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Vindemiatrix → H Juno Dec 22.9997 23 whole (96.62) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - star rows: H Zubenelgenubi → H Juno Dec 3.9994 4 whole (93.66) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - top rows: S Sun → J Juno RA 0.1964 conj (75.53) — only
@@ -3185,7 +3104,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Vindemiatrix → H Mercury Dec 30.0067 30 whole (43.98) — also: 3 Donnie Azoff / Isabelle Ryder
     - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
   - star rows: H Zubenelgenubi → H Mercury Dec 3.0077 3 whole (37.68) — also: 5 He's A Latchico / Caoilin Quinn
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - same body: S Mercury → J Mercury Dec 2.0112 2 whole (19.36) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
@@ -3194,7 +3112,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Rigel → J Mercury RA 132.6966 82×φ golden (20.29) — only
     - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
   - star rows: J Zubenelgenubi → J Mercury Dec 0.2550 conj (2.25) — also: 5 He's A Latchico / Caoilin Quinn
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Venus**
@@ -3210,7 +3127,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Sadalsuud → J Venus RA 100.9841 101 whole (4.24) — also: 1 Fire Flyer / Richie McLernon
     - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
   - star rows: J Zubenelgenubi → J Venus RA 0.8062 conj (21.40) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
-    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
     - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
     - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **Pallas**

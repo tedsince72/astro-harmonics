@@ -23,12 +23,10 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - Saturn RA 152.997524 153 whole (76.77) <- away — applying, exact 15:20 (in 0.3 min)
 - Neptune RA 119.740762 74×φ golden (65.12) <- away — separating, exact 15:19 (0.6 min ago)
 - Fomalhaut RA 128.004815 128 whole (57.65) <- away — separating, exact 15:19 (0.5 min ago)
-- Venus RA 173.140846 107×φ golden (42.72) <- away — applying, exact 15:21 (in 1.2 min)
-- Castor RA 1.239650 conj (3.01) -> toward — applying, exact 17:27 (in 127.7 min)
 - **Hubs** (a point two centres reach): none
 - **Top line** (highest, exact within 5 min of the off): S Sun → Aculeus RA 61.802606 100×φ^-1 (99.49)
-- **Conj points**: S Jupiter conj Alphard Dec 0.1073 (41.25) applying, exact 14 Feb 2022 20:00 (in 1720.8 min); S Sun conj Deneb Algedi RA 0.1261 (83.89) separating, exact 12:13 (186.7 min ago); S Moon conj Castor RA 1.2396 (3.01) applying, exact 17:27 (in 127.7 min)
-- **Noted stars**: Aculeus (Sun), Alkaid (Sun), Alphard (Jupiter), Castor (Moon), Deneb Algedi (Sun), Facies (Moon), Fomalhaut (Moon), Galactic Centre (Moon), Meissa (Jupiter), Rasalhague (Sun), Sadalmelik (Sun), Sadalsuud (Sun), Spica (Moon)
+- **Conj points**: S Jupiter conj Alphard Dec 0.1073 (41.25) applying, exact 14 Feb 2022 20:00 (in 1720.8 min); S Sun conj Deneb Algedi RA 0.1261 (83.89) separating, exact 12:13 (186.7 min ago)
+- **Noted stars**: Aculeus (Sun), Alkaid (Sun), Alphard (Jupiter), Deneb Algedi (Sun), Facies (Moon), Fomalhaut (Moon), Galactic Centre (Moon), Meissa (Jupiter), Rasalhague (Sun), Sadalmelik (Sun), Sadalsuud (Sun), Spica (Moon)
 - **Strong line stars** (>= 90): Aculeus, Facies, Galactic Centre, Spica
 
 ## Flags (shapes found so far; field-checked; no ranking)
@@ -104,8 +102,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - J EXACT: S Moon → Facies RA 166.681283 | J Alpheratz Haumea RA 166.650539 166.667 ninth (98.62)
 - J EXACT: S Moon → Fomalhaut RA 128.004815 | J Zosma Venus RA 127.984263 128 whole (4.54)
 - J EXACT: S Moon → Saturn RA 152.997524 | J Sirius Uranus RA 153.003412 153 whole (68.79)
-- J EXACT: S Moon → Venus RA 173.140846 | J Deneb Orcus RA 173.123052 107×φ golden (63.45)
-- J EXACT: S Moon → Venus RA 173.140846 | J Pollux Mars RA 173.10118 107×φ golden (1.45)
 ### 6. T1 (horse Jupiter)
 - H Jupiter → H Neptune RA 166.6433 166.667 ninth (97.99) [sky number: S Moon → Facies RA 166.6813 166.667 ninth (98.75)] — only
 ### 6. T2 (jockey Jupiter)
@@ -208,12 +204,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Dec midpoints: Juno = Eris 61.66 (between); Venus = Transpluto 45.59 (between); Sun = Sedna 29.58 (between); Juno = Ketu 28.44 (between); Jupiter = Quaoar 28.03 (between); Mars = Rahu 23.21 (between)
   - J RA midpoints: Mercury = Saturn 48.39 (near, between); Pallas = Ketu 38.05 (near, between); Neptune = Ketu 20.66 (near, between)
   - J Dec midpoints: Venus = Transpluto 49.83 (between); Jupiter = Rahu 36.15 (between)
-- **Castor** (sky Moon)
-  - J Castor → J Venus Dec 55.9864 56 whole (10.39) — only
-  - J Castor → J Haumea Dec 10.9857 11 whole (8.00) — only
-  - J Castor → J Saturn RA 99.9840 100 whole (3.96) — only
-  - H RA midpoints: Saturn = Ceres 72.04 (far, far side); Saturn = Gonggong 59.34 (far, far side); Sedna = Rahu 57.21 (near, between); Uranus = Haumea 53.36 (far, far side); Pluto = Pallas 45.77 (far, far side); Vesta = Haumea 43.93 (far, far side); Jupiter = Sedna 34.95 (near, between)
-  - J RA midpoints: Pluto = Ceres 57.69 (far, far side)
 - **Facies** (sky Moon)
   - H Facies → H Neptune RA 61.0109 61 whole (20.64) — only
   - H Facies → H Ceres RA 55.9869 56 whole (11.83) — only
@@ -291,7 +281,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - H EXACT: S Moon → Spica RA 88.886651 | H Antares Gonggong RA 88.881168 88.8889 ninth (94.44)
 - H EXACT: S Moon → Saturn RA 152.997524 | H Galactic Centre Pallas RA 152.990185 153 whole (25.93)
 - H EXACT: S Moon → Neptune RA 119.740762 | H Regulus Quaoar RA 119.74777 74×φ golden (34.86)
-- H EXACT: S Moon → Venus RA 173.140846 | H Zubeneschamali Sedna RA 173.154517 107×φ golden (5.34)
 - J EXACT: S Sun → Sadalmelik Dec 13.004799 | J Unukalhai Pluto Dec 12.987738 13 whole (14.97)
 - J EXACT: S Sun → Sadalmelik Dec 13.004799 | J Diadem Sedna Dec 13.018374 13 whole (0.66)
 - J EXACT: S Sun → Alkaid RA 119.99489 | J Galactic Centre Transpluto RA 120.012955 120 whole (12.41)
@@ -299,9 +288,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - J EXACT: S Moon → Galactic Centre RA 153.999124 | J Markab Haumea RA 154.011191 154 whole (19.4)
 - J EXACT: S Moon → Fomalhaut RA 128.004815 | J Sirius Jupiter RA 127.993343 128 whole (44.51)
 - J EXACT: S Moon → Neptune RA 119.740762 | J Mirach Mars RA 119.739158 74×φ golden (73.36)
-- J EXACT: S Moon → Venus RA 173.140846 | J Pleiades Juno RA 173.126638 107×φ golden (82.32)
-- J EXACT: S Moon → Venus RA 173.140846 | J Deneb Ceres RA 173.125643 107×φ golden (76.84)
-- J EXACT: S Moon → Venus RA 173.140846 | J Jupiter → J body Ketu RA 173.141817 107×φ golden (38.89)
 ### 6. T1 (horse Jupiter)
 - none
 ### 6. T2 (jockey Jupiter)
@@ -398,10 +384,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - J Sadalsuud → J Pluto Dec 0.9903 1 whole (26.72) [360/360] — only
   - H RA midpoints: Mercury = Quaoar 84.60 (near, between); Mercury = Mars 52.74 (near, between)
   - H Dec midpoints: Venus = Ketu 64.23 (between); Saturn = Transpluto 63.35 (between)
-- **Castor** (sky Moon)
-  - H Castor → H Ceres Dec 0.1379 conj (29.18) — only
-  - H RA midpoints: Mercury = Haumea 87.94 (far, far side); Jupiter = Chiron 69.86 (far, far side); Mars = Ketu 69.08 (far, far side); Quaoar = Ketu 49.52 (far, far side)
-  - J RA midpoints: Uranus = Neptune 90.33 (far, far side)
 - **Facies** (sky Moon)
   - H Facies → H Sedna RA 137.0013 137 whole (87.37) — only
   - H Facies → H Saturn RA 0.1964 conj (75.53) — also: 3 Chase The Dollar, 5 Carn A Chlamain
@@ -616,11 +598,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Dec midpoints: Saturn = Transpluto 82.47 (between); Pallas = Juno 43.43 (between); Sun = Quaoar 40.90 (between)
   - J RA midpoints: Mercury = Makemake 93.35 (far, far side); Orcus = Transpluto 50.24 (far, far side)
   - J Dec midpoints: Chiron = Sedna 50.28 (between); Sedna = Gonggong 29.90 (between)
-- **Castor** (sky Moon)
-  - H Castor → H Gonggong Dec 44.0149 44 whole (6.58) — only
-  - H Castor → H Pallas RA 48.9829 49 whole (2.17) — only
-  - H Castor → H Rahu Dec 14.9807 15 whole (0.11) [360/24] — only
-  - H RA midpoints: Quaoar = Ketu 94.45 (far, far side); Jupiter = Chiron 68.49 (far, far side)
 - **Facies** (sky Moon)
   - H Facies → H Ketu Dec 6.9970 7 whole (72.44) — only
   - H Facies → H Saturn RA 0.2755 conj (66.64) — also: 2 Flying Instructor, 5 Carn A Chlamain
@@ -822,16 +799,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Dec midpoints: Chiron = Gonggong 45.05 (between); Saturn = Transpluto 44.60 (between); Neptune = Pallas 34.91 (between); Pluto = Rahu 34.06 (between); Mercury = Neptune 14.87 (between)
   - J RA midpoints: Sun = Quaoar 54.04 (near, between)
   - J Dec midpoints: Mars = Gonggong 39.08 (between); Mars = Ceres 30.45 (between); Chiron = Ketu 8.58 (between)
-- **Castor** (sky Moon)
-  - H Castor → H Mars RA 85.0040 85 whole (63.93) — only
-  - H Castor → H Pallas Dec 35.0096 35 whole (26.86) — only
-  - H Castor → H Pallas RA 119.7142 74×φ golden (13.75) [sky number: S Moon → Neptune RA 119.7408 74×φ golden (65.12)] — only
-  - H Castor → H Mars Dec 19.9831 20 whole (2.36) [360/18] — only
-  - H Castor → H Vesta RA 1.3607 conj (0.86) — only
-  - J Castor → J Vesta RA 113.0030 113 whole (72.06) — only
-  - J Castor → J Makemake RA 62.0049 62 whole (57.07) — only
-  - J Castor → J Sun RA 72.0109 72 whole (20.67) [360/5] — only
-  - J RA midpoints: Venus = Rahu 37.11 (near, between)
 - **Facies** (sky Moon)
   - H Facies → H Rahu RA 124.0017 124 whole (83.41) — only
   - H Facies → H Ketu RA 55.9983 56 whole (83.41) — only
@@ -885,11 +852,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - top rows: S Moon → H Eris RA 87.0007 87 whole (92.81) — only
   - star rows: H Galactic Centre → H Eris RA 118.9973 119 whole (74.96) — only
   - star rows: H Fomalhaut → H Eris RA 41.0048 41 whole (57.50) — only
-- **Makemake**: 4 cells (H 1, J 3; same body, star rows, top rows)
-  - same body: S Makemake → J Makemake Dec 11.3474 7×φ golden (loose) — only
-  - top rows: S Moon → H Makemake Dec 0.0554 conj (66.45) — also: 1 The Dancing Poet, 5 Carn A Chlamain, 6 Flamingo Rose
-  - star rows: J Sadalsuud → J Makemake RA 147.2369 91×φ golden (75.73) — only
-  - star rows: J Castor → J Makemake RA 62.0049 62 whole (57.07) — only
 ### Flags held
 - **line star carries a sky number** (6 of 7 runners)
   - H Galactic Centre → H Pallas Dec 25.8856 16×φ golden (82.78) = S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
@@ -933,7 +895,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - H CONJ STAR: S Sun → Deneb Algedi RA 0.126105 | S Jupiter → H body Haumea Dec 25.889807 16×φ golden (92.35)
 - H EXACT: S Moon → Facies RA 166.681283 | H Deneb Algedi Rahu RA 166.679083 166.667 ninth (98.94)
 - H EXACT: S Moon → Galactic Centre RA 153.999124 | H Unukalhai Sun RA 154.005479 154 whole (52.71)
-- H EXACT: S Moon → Venus RA 173.140846 | H Phact Quaoar RA 173.119517 107×φ golden (47.24)
 - J EXACT: S Jupiter → Meissa RA 102.00573 | J Meissa Ketu RA 101.984805 102 whole (5.77)
 - J EXACT: S Jupiter → Juno RA 37.005591 | J Fomalhaut Mars Dec 36.986689 37 whole (11.18)
 - J EXACT: S Jupiter → Juno RA 37.005591 | J Arcturus Uranus Dec 37.014534 37 whole (7.47)
@@ -1044,12 +1005,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Dec midpoints: Saturn = Transpluto 95.28 (between); Uranus = Pluto 71.98 (between); Mercury = Gonggong 54.77 (between)
   - J RA midpoints: Neptune = Ketu 92.34 (near, between); Uranus = Gonggong 11.53 (near, between)
   - J Dec midpoints: Saturn = Gonggong 77.36 (between); Sun = Quaoar 27.03 (between)
-- **Castor** (sky Moon)
-  - H Castor → H Pluto Dec 53.3927 33×φ golden (85.35) — only
-  - H Castor → H Uranus RA 87.0052 87 whole (54.99) — only
-  - H Castor → H Vesta RA 160.1993 99×φ golden (32.38) — only
-  - H RA midpoints: Vesta = Ketu 99.01 (far, far side); Pallas = Orcus 80.69 (near, between); Jupiter = Chiron 53.25 (far, far side); Pallas = Transpluto 49.26 (near, between)
-  - J RA midpoints: Quaoar = Ketu 88.96 (far, far side)
 - **Facies** (sky Moon)
   - H Facies → H Sun RA 110.9759 10×φ^5 phi power (75.04) — only
   - H Facies → H Saturn RA 0.4972 conj (44.70) — also: 2 Flying Instructor, 3 Chase The Dollar
@@ -1103,11 +1058,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - star rows: H Spica → H Saturn Dec 11.0918 φ^5 phi power (94.30) — only
   - star rows: H Aculeus → H Saturn Dec 9.9975 10 whole (76.16) [360/36] — only
   - star rows: J Alphard → J Saturn Dec 14.9967 15 whole (69.40) [360/24] — only
-- **Pluto**: 4 cells (H 2, J 2; same body, star rows)
-  - same body: S Pluto → H Pluto Dec 1.0047 1 whole (58.15) [360/360] — also: 2 Flying Instructor, 3 Chase The Dollar
-  - same body: S Pluto → J Pluto Dec 13.0274 13 whole (loose) [sky number: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)] — only
-  - star rows: H Castor → H Pluto Dec 53.3927 33×φ golden (85.35) — only
-  - star rows: J Meissa → J Pluto Dec 19.4141 12×φ golden (86.39) — only
 - **Orcus**: 4 cells (H 2, J 2; same body, star rows, top rows)
   - same body: S Orcus → H Orcus RA 4.4462 4.44444 ninth (loose) — only
   - top rows: S Moon → H Orcus Dec 34.9949 35 whole (55.28) — only
@@ -1278,16 +1228,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H RA midpoints: Venus = Pluto 87.07 (near, between); Pluto = Chiron 72.52 (near, between)
   - H Dec midpoints: Saturn = Rahu 54.01 (between); Juno = Eris 1.59 (between)
   - J RA midpoints: Uranus = Sedna 72.03 (near, between); Mars = Pallas 33.79 (near, between)
-- **Castor** (sky Moon)
-  - H Castor → H Pallas RA 108.4233 67×φ golden (28.79) — only
-  - S Castor → H Jupiter RA 83.0175 83 whole (1.52) — only
-  - J Castor → J Neptune RA 155.5457 155.556 ninth (99.07) — only
-  - J Castor → J Mars Dec 30.0060 30 whole (48.95) [360/12] — only
-  - J Castor → J Gonggong Dec 53.9932 54 whole (43.66) — only
-  - S Castor → J Jupiter Dec 53.0157 53 whole (4.66) [same star: J Castor 53.0177 53 whole (1.31)] — only
-  - J Castor → J Uranus RA 133.9824 134 whole (1.47) — only
-  - H RA midpoints: Mercury = Jupiter 68.44 (near, between)
-  - J RA midpoints: Ceres = Pallas 73.71 (far, far side)
 - **Facies** (sky Moon)
   - H Facies → H Ceres RA 132.0055 132 whole (52.58) — only
   - J Facies → J Transpluto Dec 39.0137 39 whole (9.99) — only
@@ -1526,12 +1466,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H RA midpoints: Pluto = Vesta 44.67 (near, between)
   - H Dec midpoints: Eris = Orcus 89.20 (between); Mars = Rahu 68.85 (between); Uranus = Neptune 38.18 (between); Mercury = Gonggong 23.17 (between)
   - J RA midpoints: Mars = Chiron 48.03 (far, far side)
-- **Castor** (sky Moon)
-  - H Castor → H Saturn RA 94.0012 94 whole (87.96) — only
-  - H Castor → H Sedna RA 61.0089 61 whole (30.75) — only
-  - H Castor → H Jupiter RA 78.0167 78 whole (2.78) [same star: S Castor 78.0177 78 whole (1.32)] — only
-  - H RA midpoints: Jupiter = Makemake 38.95 (near, between)
-  - J RA midpoints: Chiron = Pallas 97.88 (near, between); Sun = Ketu 75.19 (near, between); Uranus = Neptune 50.49 (far, far side)
 - **Facies** (sky Moon)
   - H Facies → H Pluto RA 0.4719 conj (46.98) — only
   - J Facies → J Eris Dec 15.5557 15.5556 ninth (99.85) — only

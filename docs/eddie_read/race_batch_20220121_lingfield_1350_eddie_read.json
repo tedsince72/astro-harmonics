@@ -21,18 +21,6 @@
  "lines": [
   {
    "centre": "Jupiter",
-   "point": "Pallas",
-   "plane": "Dec",
-   "value": 0.189999,
-   "plus5": 0.190055,
-   "target": "conj",
-   "family": "conj",
-   "score": 13.44,
-   "arrow": "<- away",
-   "timing": "separating, exact 09 Jan 2022 22:08 (16781.6 min ago)"
-  },
-  {
-   "centre": "Jupiter",
    "point": "Orcus",
    "plane": "RA",
    "value": 179.608692,
@@ -141,18 +129,6 @@
   },
   {
    "centre": "Moon",
-   "point": "Transpluto",
-   "plane": "Dec",
-   "value": 0.298034,
-   "plus5": 0.279517,
-   "target": "conj",
-   "family": "conj",
-   "score": 0.0,
-   "arrow": "-> toward",
-   "timing": "applying, exact 15:10 (in 80.5 min)"
-  },
-  {
-   "centre": "Moon",
    "point": "Mirach",
    "plane": "RA",
    "value": 147.998332,
@@ -225,18 +201,6 @@
   },
   {
    "centre": "Moon",
-   "point": "Vindemiatrix",
-   "plane": "Dec",
-   "value": 0.280026,
-   "plus5": 0.298533,
-   "target": "conj",
-   "family": "conj",
-   "score": 0.44,
-   "arrow": "<- away",
-   "timing": "separating, exact 12:34 (75.7 min ago)"
-  },
-  {
-   "centre": "Moon",
    "point": "Sualocin",
    "plane": "RA",
    "value": 144.472808,
@@ -289,8 +253,7 @@
   "Rigel",
   "Sadalmelik",
   "Scheat",
-  "Sualocin",
-  "Vindemiatrix"
+  "Sualocin"
  ],
  "star_centre": {
   "Al Rescha": [
@@ -332,9 +295,6 @@
   ],
   "Sualocin": [
    "Moon"
-  ],
-  "Vindemiatrix": [
-   "Moon"
   ]
  },
  "strong_stars": [
@@ -357,18 +317,6 @@
   "timing": "separating, exact 13:49 (0.2 min ago)"
  },
  "conj_points": [
-  {
-   "centre": "Jupiter",
-   "point": "Pallas",
-   "plane": "Dec",
-   "value": 0.189999,
-   "plus5": 0.190055,
-   "target": "conj",
-   "family": "conj",
-   "score": 13.44,
-   "arrow": "<- away",
-   "timing": "separating, exact 09 Jan 2022 22:08 (16781.6 min ago)"
-  },
   {
    "centre": "Jupiter",
    "point": "Gonggong",
@@ -395,18 +343,6 @@
   },
   {
    "centre": "Moon",
-   "point": "Transpluto",
-   "plane": "Dec",
-   "value": 0.298034,
-   "plus5": 0.279517,
-   "target": "conj",
-   "family": "conj",
-   "score": 0.0,
-   "arrow": "-> toward",
-   "timing": "applying, exact 15:10 (in 80.5 min)"
-  },
-  {
-   "centre": "Moon",
    "point": "Alkes",
    "plane": "RA",
    "value": 0.486646,
@@ -416,18 +352,6 @@
    "score": 45.64,
    "arrow": "<- away",
    "timing": "separating, exact 13:04 (45.6 min ago)"
-  },
-  {
-   "centre": "Moon",
-   "point": "Vindemiatrix",
-   "plane": "Dec",
-   "value": 0.280026,
-   "plus5": 0.298533,
-   "target": "conj",
-   "family": "conj",
-   "score": 0.44,
-   "arrow": "<- away",
-   "timing": "separating, exact 12:34 (75.7 min ago)"
   }
  ],
  "regulus": [
@@ -1462,42 +1386,6 @@
   },
   {
    "runner": "P01",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Vindemiatrix",
-   "body": "Chiron",
-   "plane": "Dec",
-   "value": 11.990568,
-   "target": "12",
-   "family": "whole",
-   "score": 27.92,
-   "sky_number": null,
-   "circle": "360/30",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Vindemiatrix",
-   "body": "Ketu",
-   "plane": "Dec",
-   "value": 0.126896,
-   "target": "conj",
-   "family": "conj",
-   "score": 33.29,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "also: 7 Beaufort West"
-  },
-  {
-   "runner": "P01",
    "layer": "same body",
    "chart": "J",
    "source": "S Mercury",
@@ -1622,22 +1510,6 @@
    "sky_number": null,
    "circle": "",
    "note": "4-digit",
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "T2",
-   "chart": "J",
-   "source": "J Jupiter",
-   "body": "Pallas",
-   "plane": "Dec",
-   "value": 30.741202,
-   "target": "19×φ",
-   "family": "golden",
-   "score": 91.27,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
    "field": "only"
   },
   {
@@ -2657,114 +2529,6 @@
    "circle": "",
    "note": "",
    "star": "Sualocin",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Mercury",
-   "plane": "Dec",
-   "value": 17.005701,
-   "target": "17",
-   "family": "whole",
-   "score": 51.12,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Neptune",
-   "plane": "RA",
-   "value": 84.996607,
-   "target": "85",
-   "family": "whole",
-   "score": 68.95,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Pallas",
-   "plane": "RA",
-   "value": 178.98851,
-   "target": "179",
-   "family": "whole",
-   "score": 18.1,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Eris",
-   "plane": "RA",
-   "value": 172.981635,
-   "target": "173",
-   "family": "whole",
-   "score": 0.67,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Makemake",
-   "plane": "Dec",
-   "value": 24.147511,
-   "target": "24.14",
-   "family": "silver",
-   "score": 91.29,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Gonggong",
-   "plane": "RA",
-   "value": 133.396253,
-   "target": "133.333",
-   "family": "ninth",
-   "score": 92.45,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
    "copies": [],
    "field": "only"
   },
@@ -4102,60 +3866,6 @@
   },
   {
    "runner": "P03",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Vindemiatrix",
-   "body": "Juno",
-   "plane": "RA",
-   "value": 107.980071,
-   "target": "108",
-   "family": "whole",
-   "score": 0.0,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P03",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Vindemiatrix",
-   "body": "Rahu",
-   "plane": "Dec",
-   "value": 27.984851,
-   "target": "28",
-   "family": "whole",
-   "score": 5.88,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P03",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Vindemiatrix",
-   "body": "Eris",
-   "plane": "Dec",
-   "value": 14.443936,
-   "target": "14.4444",
-   "family": "ninth",
-   "score": 99.46,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P03",
    "layer": "same body",
    "chart": "J",
    "source": "S Sun",
@@ -4248,22 +3958,6 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "loose",
-   "field": "only"
-  },
-  {
-   "runner": "P03",
-   "layer": "T2",
-   "chart": "J",
-   "source": "J Jupiter",
-   "body": "Transpluto",
-   "plane": "Dec",
-   "value": 34.994499,
-   "target": "35",
-   "family": "whole",
-   "score": 52.56,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
    "field": "only"
   },
   {
@@ -4987,114 +4681,6 @@
    "circle": "360/15",
    "note": "",
    "star": "Sualocin",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P03",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Sun",
-   "plane": "RA",
-   "value": 10.995387,
-   "target": "11",
-   "family": "whole",
-   "score": 59.19,
-   "sky_number": "S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P03",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Mercury",
-   "plane": "RA",
-   "value": 0.301059,
-   "target": "conj",
-   "family": "conj",
-   "score": 63.89,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P03",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Venus",
-   "plane": "RA",
-   "value": 0.99762,
-   "target": "1",
-   "family": "whole",
-   "score": 77.61,
-   "sky_number": null,
-   "circle": "360/360",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P03",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Pluto",
-   "plane": "RA",
-   "value": 43.683792,
-   "target": "27×φ",
-   "family": "golden",
-   "score": 81.61,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P03",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Orcus",
-   "plane": "Dec",
-   "value": 10.003562,
-   "target": "10",
-   "family": "whole",
-   "score": 67.55,
-   "sky_number": null,
-   "circle": "360/36",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P03",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Transpluto",
-   "plane": "RA",
-   "value": 49.008609,
-   "target": "49",
-   "family": "whole",
-   "score": 32.44,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
    "copies": [],
    "field": "only"
   },
@@ -5863,60 +5449,6 @@
    "star": "Sualocin",
    "copies": [],
    "field": "also: 4 One True King"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Vindemiatrix",
-   "body": "Chiron",
-   "plane": "RA",
-   "value": 153.983971,
-   "target": "154",
-   "family": "whole",
-   "score": 3.94,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Vindemiatrix",
-   "body": "Vesta",
-   "plane": "RA",
-   "value": 156.995514,
-   "target": "157",
-   "family": "whole",
-   "score": 60.17,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Vindemiatrix",
-   "body": "Vesta",
-   "plane": "Dec",
-   "value": 18.886412,
-   "target": "18.8889",
-   "family": "ninth",
-   "score": 98.22,
-   "sky_number": "S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)",
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
   },
   {
    "runner": "P05",
@@ -6997,96 +6529,6 @@
    "circle": "",
    "note": "",
    "star": "Sualocin",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Mercury",
-   "plane": "RA",
-   "value": 141.434094,
-   "target": "141.4",
-   "family": "sqrt2",
-   "score": 96.43,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Saturn",
-   "plane": "RA",
-   "value": 170.999607,
-   "target": "171",
-   "family": "whole",
-   "score": 96.11,
-   "sky_number": "S Moon → Gonggong RA 170.9993 171 whole (93.54)",
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Uranus",
-   "plane": "RA",
-   "value": 111.16838,
-   "target": "111.111",
-   "family": "ninth",
-   "score": 90.63,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Makemake",
-   "plane": "Dec",
-   "value": 22.981644,
-   "target": "23",
-   "family": "whole",
-   "score": 0.68,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Ketu",
-   "plane": "Dec",
-   "value": 4.998467,
-   "target": "5",
-   "family": "whole",
-   "score": 85.26,
-   "sky_number": null,
-   "circle": "360/72",
-   "note": "",
-   "star": "Vindemiatrix",
    "copies": [],
    "field": "only"
   },
@@ -8987,96 +8429,6 @@
    "field": "only"
   },
   {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Venus",
-   "plane": "Dec",
-   "value": 30.741181,
-   "target": "19×φ",
-   "family": "golden",
-   "score": 91.15,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Sedna",
-   "plane": "RA",
-   "value": 152.015007,
-   "target": "152",
-   "family": "whole",
-   "score": 6.23,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Makemake",
-   "plane": "RA",
-   "value": 22.991005,
-   "target": "23",
-   "family": "whole",
-   "score": 30.28,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Quaoar",
-   "plane": "RA",
-   "value": 40.988972,
-   "target": "41",
-   "family": "whole",
-   "score": 20.13,
-   "sky_number": "S Sun → Fomalhaut RA 40.9968 41 whole (70.51)",
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Gonggong",
-   "plane": "RA",
-   "value": 133.997364,
-   "target": "134",
-   "family": "whole",
-   "score": 75.37,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
    "runner": "P09",
    "layer": "same body",
    "chart": "H",
@@ -10313,24 +9665,6 @@
    "circle": "",
    "note": "",
    "star": "Sualocin",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P09",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Vindemiatrix",
-   "body": "Haumea",
-   "plane": "RA",
-   "value": 12.995459,
-   "target": "13",
-   "family": "whole",
-   "score": 59.75,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
    "copies": [],
    "field": "only"
   },
@@ -12432,60 +11766,6 @@
   },
   {
    "runner": "P11",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Vindemiatrix",
-   "body": "Saturn",
-   "plane": "RA",
-   "value": 23.015723,
-   "target": "23",
-   "family": "whole",
-   "score": 4.57,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Vindemiatrix",
-   "body": "Vesta",
-   "plane": "Dec",
-   "value": 12.013451,
-   "target": "12",
-   "family": "whole",
-   "score": 10.72,
-   "sky_number": null,
-   "circle": "360/30",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Vindemiatrix",
-   "body": "Transpluto",
-   "plane": "RA",
-   "value": 43.992546,
-   "target": "44",
-   "family": "whole",
-   "score": 39.35,
-   "sky_number": "S Sun → Pleiades Dec 44.0004 44 whole (96.38)",
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P11",
    "layer": "same body",
    "chart": "J",
    "source": "S Mercury",
@@ -13297,86 +12577,6 @@
    "circle": "",
    "note": "",
    "star": "Sualocin",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "S Vindemiatrix",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 169.993298,
-   "target": "170",
-   "family": "whole",
-   "score": 44.21,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [
-    {
-     "source": "J Vindemiatrix",
-     "value": 169.989486,
-     "target": "170",
-     "family": "whole",
-     "score": 22.5
-    }
-   ],
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Juno",
-   "plane": "Dec",
-   "value": 24.008613,
-   "target": "24",
-   "family": "whole",
-   "score": 32.42,
-   "sky_number": null,
-   "circle": "360/15",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Sedna",
-   "plane": "RA",
-   "value": 148.833856,
-   "target": "92×φ",
-   "family": "golden",
-   "score": 4.8,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Haumea",
-   "plane": "RA",
-   "value": 1.447574,
-   "target": "conj",
-   "family": "conj",
-   "score": 0.12,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
    "copies": [],
    "field": "only"
   },
@@ -14293,96 +13493,6 @@
    "star": "Sualocin",
    "copies": [],
    "field": "also: 1 Eclair D'Ainay, 5 Cedar Hill"
-  },
-  {
-   "runner": "P13",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Vindemiatrix",
-   "body": "Mercury",
-   "plane": "RA",
-   "value": 173.006604,
-   "target": "173",
-   "family": "whole",
-   "score": 44.86,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Vindemiatrix",
-   "body": "Mars",
-   "plane": "RA",
-   "value": 1.497219,
-   "target": "conj",
-   "family": "conj",
-   "score": 0.0,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Vindemiatrix",
-   "body": "Saturn",
-   "plane": "RA",
-   "value": 33.984694,
-   "target": "34",
-   "family": "whole",
-   "score": 5.51,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Vindemiatrix",
-   "body": "Sedna",
-   "plane": "RA",
-   "value": 141.408793,
-   "target": "141.4",
-   "family": "sqrt2",
-   "score": 96.48,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Vindemiatrix",
-   "body": "Ketu",
-   "plane": "Dec",
-   "value": 0.131915,
-   "target": "conj",
-   "family": "conj",
-   "score": 31.39,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "also: 1 Eclair D'Ainay"
   },
   {
    "runner": "P13",
@@ -15375,114 +14485,6 @@
    "star": "Sualocin",
    "copies": [],
    "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Mercury",
-   "plane": "RA",
-   "value": 34.016746,
-   "target": "34",
-   "family": "whole",
-   "score": 2.65,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Venus",
-   "plane": "RA",
-   "value": 51.992927,
-   "target": "52",
-   "family": "whole",
-   "score": 41.77,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Mars",
-   "plane": "RA",
-   "value": 1.364169,
-   "target": "conj",
-   "family": "conj",
-   "score": 0.82,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Eris",
-   "plane": "RA",
-   "value": 171.998066,
-   "target": "172",
-   "family": "whole",
-   "score": 81.6,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Eris",
-   "plane": "Dec",
-   "value": 18.887665,
-   "target": "18.8889",
-   "family": "ninth",
-   "score": 99.12,
-   "sky_number": "S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)",
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Ketu",
-   "plane": "Dec",
-   "value": 0.097441,
-   "target": "conj",
-   "family": "conj",
-   "score": 45.59,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "star": "Vindemiatrix",
-   "copies": [],
-   "field": "also: 1 Eclair D'Ainay"
   }
  ],
  "mids": {
@@ -15493,7 +14495,6 @@
   "P01|H|Alhena|RA": "Venus = Rahu 68.88 (far, far side); Venus = Ceres 56.61 (far, far side)",
   "P01|H|Alhena|Dec": "Juno = Makemake 25.49 (between)",
   "P01|H|Regulus|Dec": "Eris = Makemake 43.71 (between); Sun = Ketu 37.41 (between)",
-  "P01|H|Vindemiatrix|Dec": "Vesta = Haumea 89.81 (between); Jupiter = Chiron 80.05 (between); Ceres = Haumea 49.44 (between)",
   "P01|H|Galactic Centre|RA": "Pallas = Eris 85.96 (far, far side); Pallas = Ketu 53.37 (far, far side)",
   "P01|H|Sualocin|RA": "Pluto = Gonggong 84.87 (near, between); Ceres = Sedna 65.64 (far, far side); Sedna = Rahu 54.13 (far, far side)",
   "P01|H|Sualocin|Dec": "Uranus = Makemake 33.96 (between)",
@@ -15510,7 +14511,6 @@
   "P01|J|Regulus|Dec": "Sun = Jupiter 54.25 (between)",
   "P01|J|Alkes|RA": "Mercury = Transpluto 16.93 (near, between)",
   "P01|J|Alkes|Dec": "Uranus = Rahu 47.02 (between); Uranus = Quaoar 18.05 (between)",
-  "P01|J|Vindemiatrix|Dec": "Sun = Ceres 87.99 (between); Makemake = Quaoar 80.11 (between); Makemake = Rahu 52.41 (between); Jupiter = Pluto 28.72 (between)",
   "P01|J|Galactic Centre|RA": "Sedna = Orcus 55.45 (far, far side)",
   "P01|J|Sualocin|RA": "Venus = Sedna 40.86 (far, far side)",
   "P01|J|Sadalmelik|RA": "Neptune = Eris 78.77 (near, between)",
@@ -15529,7 +14529,6 @@
   "P03|H|Regulus|RA": "Vesta = Rahu 48.76 (near, between); Saturn = Ceres 36.16 (near, between)",
   "P03|H|Regulus|Dec": "Sedna = Ketu 61.86 (between); Eris = Makemake 36.82 (between); Jupiter = Uranus 23.96 (between)",
   "P03|H|Alkes|Dec": "Pluto = Rahu 20.85 (between)",
-  "P03|H|Vindemiatrix|Dec": "Venus = Jupiter 81.76 (between); Mars = Haumea 38.55 (between)",
   "P03|H|Galactic Centre|RA": "Eris = Orcus 54.65 (far, far side)",
   "P03|H|Sualocin|RA": "Jupiter = Makemake 55.68 (far, far side)",
   "P03|H|Sualocin|Dec": "Mars = Ceres 33.18 (between)",
@@ -15545,7 +14544,6 @@
   "P03|J|Alhena|RA": "Neptune = Juno 88.35 (far, far side); Eris = Makemake 61.48 (near, between)",
   "P03|J|Castor|RA": "Eris = Rahu 48.59 (far, far side); Chiron = Sedna 43.23 (near, between)",
   "P03|J|Alkes|RA": "Venus = Orcus 89.86 (near, between); Mercury = Orcus 38.97 (near, between)",
-  "P03|J|Vindemiatrix|Dec": "Vesta = Transpluto 59.33 (between); Juno = Makemake 39.25 (between)",
   "P03|J|Galactic Centre|RA": "Saturn = Chiron 47.81 (near, between); Neptune = Pluto 21.80 (near, between)",
   "P03|J|Sualocin|Dec": "Haumea = Ketu 58.41 (between)",
   "P03|J|Sadalmelik|RA": "Pallas = Orcus 44.72 (far, far side)",
@@ -15565,8 +14563,6 @@
   "P05|H|Regulus|Dec": "Mars = Ketu 61.14 (between); Jupiter = Uranus 56.12 (between)",
   "P05|H|Alkes|RA": "Neptune = Chiron 46.34 (far, far side); Jupiter = Makemake 24.91 (near, between)",
   "P05|H|Alkes|Dec": "Ceres = Gonggong 56.44 (between)",
-  "P05|H|Vindemiatrix|RA": "Sedna = Gonggong 86.14 (far, far side); Saturn = Orcus 36.45 (near, between)",
-  "P05|H|Vindemiatrix|Dec": "Haumea = Ketu 18.82 (between); Sun = Ketu 18.40 (between)",
   "P05|H|Galactic Centre|RA": "Neptune = Makemake 51.95 (near, between)",
   "P05|H|Sualocin|RA": "Vesta = Quaoar 76.50 (near, between)",
   "P05|H|Sualocin|Dec": "Juno = Haumea 98.73 (between); Sun = Juno 95.18 (between); Mercury = Sedna 74.05 (between); Mars = Transpluto 37.84 (between)",
@@ -15583,7 +14579,6 @@
   "P05|J|Regulus|Dec": "Venus = Orcus 68.12 (between); Sun = Orcus 44.28 (between)",
   "P05|J|Alkes|RA": "Uranus = Eris 63.91 (far, far side)",
   "P05|J|Alkes|Dec": "Jupiter = Quaoar 70.49 (between)",
-  "P05|J|Vindemiatrix|RA": "Ceres = Transpluto 99.70 (near, between); Saturn = Eris 44.70 (far, far side)",
   "P05|J|Galactic Centre|RA": "Jupiter = Ceres 45.58 (near, between)",
   "P05|J|Sualocin|RA": "Ceres = Ketu 47.93 (near, between)",
   "P05|J|Sadalmelik|RA": "Venus = Vesta 82.87 (far, far side)",
@@ -15604,8 +14599,6 @@
   "P07|H|Regulus|Dec": "Jupiter = Uranus 70.51 (between); Chiron = Pallas 45.24 (between)",
   "P07|H|Alkes|RA": "Vesta = Gonggong 86.99 (far, far side); Uranus = Ceres 53.11 (far, far side); Neptune = Chiron 44.52 (far, far side); Jupiter = Makemake 38.93 (near, between)",
   "P07|H|Alkes|Dec": "Ceres = Gonggong 25.82 (between)",
-  "P07|H|Vindemiatrix|RA": "Sedna = Gonggong 90.65 (far, far side)",
-  "P07|H|Vindemiatrix|Dec": "Haumea = Ketu 20.63 (between)",
   "P07|H|Galactic Centre|RA": "Neptune = Makemake 51.62 (near, between)",
   "P07|H|Sualocin|RA": "Mercury = Rahu 44.77 (far, far side)",
   "P07|H|Sualocin|Dec": "Juno = Haumea 62.77 (between)",
@@ -15619,8 +14612,6 @@
   "P07|J|Regulus|Dec": "Jupiter = Ketu 57.81 (between); Haumea = Orcus 33.11 (between); Mars = Jupiter 28.87 (between)",
   "P07|J|Alkes|RA": "Venus = Juno 91.99 (near, between); Uranus = Sedna 48.16 (far, far side); Pluto = Juno 44.74 (near, between)",
   "P07|J|Alkes|Dec": "Mercury = Gonggong 77.54 (between); Uranus = Quaoar 10.59 (between)",
-  "P07|J|Vindemiatrix|RA": "Mercury = Makemake 48.30 (near, between); Sun = Haumea 44.28 (near, between)",
-  "P07|J|Vindemiatrix|Dec": "Chiron = Transpluto 11.88 (between)",
   "P07|J|Galactic Centre|RA": "Mercury = Saturn 35.76 (near, between); Pallas = Rahu 19.66 (near, between)",
   "P07|J|Sualocin|RA": "Eris = Quaoar 51.23 (near, between)",
   "P07|J|Sualocin|Dec": "Chiron = Ketu 32.59 (between)",
@@ -15637,8 +14628,6 @@
   "P09|H|Rigel|Dec": "Mars = Orcus 33.50 (between); Saturn = Ceres 16.37 (between)",
   "P09|H|Castor|RA": "Sun = Jupiter 32.33 (near, between)",
   "P09|H|Regulus|Dec": "Uranus = Haumea 76.13 (between); Vesta = Makemake 59.51 (between)",
-  "P09|H|Vindemiatrix|RA": "Sedna = Gonggong 68.35 (far, far side); Sun = Pluto 40.94 (near, between)",
-  "P09|H|Vindemiatrix|Dec": "Sun = Chiron 36.75 (between)",
   "P09|H|Galactic Centre|RA": "Orcus = Ketu 49.32 (far, far side)",
   "P09|H|Sualocin|RA": "Sun = Transpluto 60.06 (far, far side)",
   "P09|H|Sualocin|Dec": "Pallas = Haumea 87.98 (between); Juno = Haumea 74.01 (between); Sun = Ketu 36.36 (between)",
@@ -15655,7 +14644,6 @@
   "P09|J|Castor|RA": "Pallas = Ketu 71.24 (far, far side); Pallas = Eris 50.08 (far, far side)",
   "P09|J|Regulus|Dec": "Makemake = Rahu 70.18 (between)",
   "P09|J|Alkes|RA": "Haumea = Orcus 31.31 (near, between)",
-  "P09|J|Vindemiatrix|Dec": "Ceres = Makemake 74.16 (between); Haumea = Orcus 57.61 (between)",
   "P09|J|Galactic Centre|RA": "Venus = Ceres 98.34 (near, between); Gonggong = Rahu 77.54 (near, between)",
   "P09|J|Sualocin|RA": "Mercury = Gonggong 84.16 (near, between); Mars = Gonggong 70.47 (near, between)",
   "P09|J|Sadalmelik|Dec": "Juno = Transpluto 91.08 (between); Vesta = Sedna 71.44 (between)",
@@ -15671,7 +14659,6 @@
   "P11|H|Regulus|Dec": "Sedna = Ketu 97.35 (between); Venus = Jupiter 56.81 (between); Eris = Makemake 42.86 (between)",
   "P11|H|Alkes|RA": "Juno = Eris 85.23 (far, far side)",
   "P11|H|Alkes|Dec": "Pluto = Rahu 80.84 (between)",
-  "P11|H|Vindemiatrix|Dec": "Sun = Haumea 67.66 (between); Ceres = Pallas 63.68 (between)",
   "P11|H|Galactic Centre|RA": "Eris = Orcus 55.49 (far, far side)",
   "P11|H|Sualocin|Dec": "Mars = Makemake 99.01 (between)",
   "P11|H|Sadalmelik|Dec": "Saturn = Transpluto 91.60 (between); Sedna = Orcus 73.77 (between); Uranus = Eris 30.13 (between); Venus = Chiron 6.01 (between)",
@@ -15687,8 +14674,6 @@
   "P11|J|Regulus|Dec": "Sedna = Rahu 25.00 (between)",
   "P11|J|Alkes|RA": "Jupiter = Neptune 77.75 (far, far side)",
   "P11|J|Alkes|Dec": "Sun = Mercury 84.96 (between); Pallas = Juno 49.77 (between)",
-  "P11|J|Vindemiatrix|RA": "Juno = Rahu 46.07 (near, between)",
-  "P11|J|Vindemiatrix|Dec": "Jupiter = Transpluto 81.49 (between)",
   "P11|J|Galactic Centre|RA": "Jupiter = Transpluto 44.05 (far, far side)",
   "P11|J|Sualocin|RA": "Uranus = Neptune 82.03 (near, between)",
   "P11|J|Sualocin|Dec": "Saturn = Rahu 96.21 (between)",
@@ -15704,7 +14689,6 @@
   "P13|H|Alhena|Dec": "Jupiter = Pallas 21.80 (between)",
   "P13|H|Castor|RA": "Mercury = Vesta 84.33 (far, far side)",
   "P13|H|Regulus|Dec": "Eris = Makemake 39.47 (between); Juno = Haumea 31.34 (between)",
-  "P13|H|Vindemiatrix|Dec": "Jupiter = Chiron 94.37 (between); Ceres = Haumea 94.22 (between); Vesta = Haumea 19.52 (between)",
   "P13|H|Galactic Centre|RA": "Mars = Neptune 92.44 (near, between); Pallas = Juno 71.72 (far, far side); Pallas = Ketu 66.82 (far, far side)",
   "P13|H|Sualocin|RA": "Pluto = Gonggong 86.07 (near, between); Sedna = Rahu 58.04 (far, far side)",
   "P13|H|Sadalmelik|Dec": "Sedna = Orcus 92.52 (between); Venus = Juno 51.45 (between); Mars = Vesta 10.05 (between)",
@@ -15718,7 +14702,6 @@
   "P13|J|Alhena|Dec": "Haumea = Ketu 34.87 (between); Ceres = Haumea 13.40 (between)",
   "P13|J|Regulus|RA": "Juno = Sedna 75.04 (far, far side); Mercury = Venus 0.65 (near, between)",
   "P13|J|Regulus|Dec": "Pallas = Haumea 64.10 (between)",
-  "P13|J|Vindemiatrix|RA": "Vesta = Quaoar 45.63 (near, between); Jupiter = Transpluto 32.72 (near, between)",
   "P13|J|Galactic Centre|RA": "Transpluto = Ketu 96.21 (far, far side)",
   "P13|J|Sualocin|Dec": "Chiron = Makemake 44.84 (between)",
   "P13|J|Sadalmelik|Dec": "Ceres = Rahu 40.72 (between); Quaoar = Transpluto 32.76 (between)",
@@ -18278,11 +17261,6 @@
     "score": 93.5
    },
    {
-    "runner": "P03",
-    "text": "J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
-    "score": 59.19
-   },
-   {
     "runner": "P05",
     "text": "H Al Rescha → H Juno Dec 10.9942 11 whole (50.36) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
     "score": 50.36
@@ -18294,18 +17272,8 @@
    },
    {
     "runner": "P05",
-    "text": "H Vindemiatrix → H Vesta Dec 18.8864 18.8889 ninth (98.22) = S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)",
-    "score": 98.22
-   },
-   {
-    "runner": "P05",
     "text": "J Regulus → J Gonggong RA 179.6055 111×φ golden (78.47) = S Jupiter → Orcus RA 179.6087 111×φ golden (61.81)",
     "score": 78.47
-   },
-   {
-    "runner": "P05",
-    "text": "J Vindemiatrix → J Saturn RA 170.9996 171 whole (96.11) = S Moon → Gonggong RA 170.9993 171 whole (93.54)",
-    "score": 96.11
    },
    {
     "runner": "P07",
@@ -18366,11 +17334,6 @@
     "runner": "P13",
     "text": "J Sadalmelik → J Vesta RA 179.4510 10×φ^6 phi power (98.17) = S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)",
     "score": 98.17
-   },
-   {
-    "runner": "P13",
-    "text": "J Vindemiatrix → J Eris Dec 18.8877 18.8889 ninth (99.12) = S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)",
-    "score": 99.12
    }
   ],
   "same number on the same body, both charts": [
@@ -18446,25 +17409,6 @@
     ]
    },
    {
-    "body": "Mercury",
-    "cells": 6,
-    "H": 3,
-    "J": 3,
-    "layers": [
-     "same body",
-     "star rows",
-     "top rows"
-    ],
-    "detail": [
-     "same body: S Mercury → J Mercury Dec 10.0129 10 whole (12.50) [360/36] — only",
-     "same body: S Mercury → J Mercury RA 122.4232 122.222 ninth (loose) — also: 3 Frero Banbou",
-     "top rows: S Moon → H Mercury RA 133.3468 133.333 ninth (98.38) — only",
-     "star rows: H Fomalhaut → H Mercury Dec 42.0684 26×φ golden (97.08) — only",
-     "star rows: H Alkes → H Mercury Dec 30.7473 19×φ golden (73.26) — only",
-     "star rows: J Vindemiatrix → J Mercury Dec 17.0057 17 whole (51.12) — only"
-    ]
-   },
-   {
     "body": "Ketu",
     "cells": 5,
     "H": 1,
@@ -18479,6 +17423,24 @@
      "star rows: J Sadalmelik → J Ketu Dec 13.3324 13.3333 ninth (98.94) [sky number: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)] — only",
      "star rows: J Pleiades → J Ketu Dec 11.0907 φ^5 phi power (98.25) — only",
      "star rows: J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12) — only"
+    ]
+   },
+   {
+    "body": "Mercury",
+    "cells": 5,
+    "H": 3,
+    "J": 2,
+    "layers": [
+     "same body",
+     "star rows",
+     "top rows"
+    ],
+    "detail": [
+     "same body: S Mercury → J Mercury Dec 10.0129 10 whole (12.50) [360/36] — only",
+     "same body: S Mercury → J Mercury RA 122.4232 122.222 ninth (loose) — also: 3 Frero Banbou",
+     "top rows: S Moon → H Mercury RA 133.3468 133.333 ninth (98.38) — only",
+     "star rows: H Fomalhaut → H Mercury Dec 42.0684 26×φ golden (97.08) — only",
+     "star rows: H Alkes → H Mercury Dec 30.7473 19×φ golden (73.26) — only"
     ]
    },
    {
@@ -18555,24 +17517,6 @@
     ]
    },
    {
-    "body": "Pluto",
-    "cells": 6,
-    "H": 2,
-    "J": 4,
-    "layers": [
-     "same body",
-     "star rows"
-    ],
-    "detail": [
-     "same body: S Pluto → H Pluto RA 16.6706 16.6667 ninth (loose) — also: 6 Le Ligerien",
-     "same body: S Pluto → J Pluto Dec 15.5312 15.5556 ninth (loose) — only",
-     "star rows: H Sualocin → H Pluto Dec 35.5966 22×φ golden (98.96) — also: 6 Le Ligerien",
-     "star rows: J Sadalmelik → J Pluto RA 92.2271 57×φ golden (94.89) — only",
-     "star rows: J Vindemiatrix → J Pluto RA 43.6838 27×φ golden (81.61) — only",
-     "star rows: J Sualocin → J Pluto Dec 22.9966 23 whole (68.80) — only"
-    ]
-   },
-   {
     "body": "Uranus",
     "cells": 6,
     "H": 1,
@@ -18610,20 +17554,20 @@
     ]
    },
    {
-    "body": "Mercury",
+    "body": "Pluto",
     "cells": 5,
-    "H": 3,
-    "J": 2,
+    "H": 2,
+    "J": 3,
     "layers": [
      "same body",
      "star rows"
     ],
     "detail": [
-     "same body: S Mercury → H Mercury Dec 6.9870 7 whole (12.28) — only",
-     "star rows: H Regulus → H Mercury Dec 21.0356 13×φ golden (92.89) — only",
-     "star rows: H Rigel → H Mercury RA 98.7049 61×φ golden (72.65) — only",
-     "star rows: J Mirach → J Mercury RA 177.7992 177.778 ninth (98.32) — only",
-     "star rows: J Vindemiatrix → J Mercury RA 0.3011 conj (63.89) — only"
+     "same body: S Pluto → H Pluto RA 16.6706 16.6667 ninth (loose) — also: 6 Le Ligerien",
+     "same body: S Pluto → J Pluto Dec 15.5312 15.5556 ninth (loose) — only",
+     "star rows: H Sualocin → H Pluto Dec 35.5966 22×φ golden (98.96) — also: 6 Le Ligerien",
+     "star rows: J Sadalmelik → J Pluto RA 92.2271 57×φ golden (94.89) — only",
+     "star rows: J Sualocin → J Pluto Dec 22.9966 23 whole (68.80) — only"
     ]
    },
    {
@@ -18645,10 +17589,26 @@
     ]
    },
    {
-    "body": "Sun",
-    "cells": 5,
+    "body": "Mercury",
+    "cells": 4,
     "H": 3,
-    "J": 2,
+    "J": 1,
+    "layers": [
+     "same body",
+     "star rows"
+    ],
+    "detail": [
+     "same body: S Mercury → H Mercury Dec 6.9870 7 whole (12.28) — only",
+     "star rows: H Regulus → H Mercury Dec 21.0356 13×φ golden (92.89) — only",
+     "star rows: H Rigel → H Mercury RA 98.7049 61×φ golden (72.65) — only",
+     "star rows: J Mirach → J Mercury RA 177.7992 177.778 ninth (98.32) — only"
+    ]
+   },
+   {
+    "body": "Sun",
+    "cells": 4,
+    "H": 3,
+    "J": 1,
     "layers": [
      "same body",
      "star rows"
@@ -18657,8 +17617,7 @@
      "same body: S Sun → H Sun RA 61.0020 61 whole (80.77) — only",
      "same body: S Sun → J Sun Dec 17.9253 φ^6 phi power (loose) — only",
      "star rows: H Sualocin → H Sun Dec 13.9993 14 whole (93.10) — only",
-     "star rows: H Galactic Centre → H Sun RA 97.9981 98 whole (82.02) — only",
-     "star rows: J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19) [sky number: S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)] — only"
+     "star rows: H Galactic Centre → H Sun RA 97.9981 98 whole (82.02) — only"
     ]
    },
    {
@@ -18729,22 +17688,6 @@
      "star rows: H Sadalmelik → H Transpluto RA 179.4185 10×φ^6 phi power (94.67) [sky number: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)] — also: 4 One True King",
      "star rows: H Regulus → H Transpluto RA 0.0659 conj (91.40) — also: 1 Eclair D'Ainay, 2 Financier, 4 One True King, 5 Cedar Hill, 6 Le Ligerien, 7 Beaufort West",
      "star rows: J Sualocin → J Transpluto Dec 2.2228 2.22222 ninth (91.96) — only"
-    ]
-   },
-   {
-    "body": "Saturn",
-    "cells": 4,
-    "H": 2,
-    "J": 2,
-    "layers": [
-     "same body",
-     "star rows"
-    ],
-    "detail": [
-     "same body: S Saturn → H Saturn Dec 1.0098 1 whole (26.07) [360/360] — only",
-     "same body: S Saturn → H Saturn RA 76.0779 φ^9 phi power (loose) — only",
-     "star rows: J Vindemiatrix → J Saturn RA 170.9996 171 whole (96.11) [sky number: S Moon → Gonggong RA 170.9993 171 whole (93.54)] — only",
-     "star rows: J Sualocin → J Saturn RA 56.6334 35×φ golden (87.00) — only"
     ]
    }
   ],
@@ -18932,23 +17875,6 @@
     ]
    },
    {
-    "body": "Haumea",
-    "cells": 5,
-    "H": 3,
-    "J": 2,
-    "layers": [
-     "same body",
-     "star rows"
-    ],
-    "detail": [
-     "same body: S Haumea → H Haumea RA 8.9761 9 whole (loose) [360/40] — only",
-     "star rows: H Sadalmelik → H Haumea RA 122.9113 φ^10 phi power (75.51) — only",
-     "star rows: H Vindemiatrix → H Haumea RA 12.9955 13 whole (59.75) — only",
-     "star rows: J Fomalhaut → J Haumea Dec 51.0011 51 whole (89.11) — only",
-     "star rows: J Scheat → J Haumea RA 152.0992 94×φ golden (76.65) — only"
-    ]
-   },
-   {
     "body": "Sedna",
     "cells": 5,
     "H": 2,
@@ -19012,6 +17938,22 @@
      "top rows: S Sun → J Uranus Dec 1.0010 1 whole (90.11) [360/360] — only",
      "star rows: H Al Rescha → H Uranus Dec 2.9962 3 whole (65.42) [360/120] — only",
      "star rows: J Pleiades → J Uranus Dec 45.0020 45 whole (80.70) [360/8] — only"
+    ]
+   },
+   {
+    "body": "Haumea",
+    "cells": 4,
+    "H": 2,
+    "J": 2,
+    "layers": [
+     "same body",
+     "star rows"
+    ],
+    "detail": [
+     "same body: S Haumea → H Haumea RA 8.9761 9 whole (loose) [360/40] — only",
+     "star rows: H Sadalmelik → H Haumea RA 122.9113 φ^10 phi power (75.51) — only",
+     "star rows: J Fomalhaut → J Haumea Dec 51.0011 51 whole (89.11) — only",
+     "star rows: J Scheat → J Haumea RA 152.0992 94×φ golden (76.65) — only"
     ]
    }
   ],
@@ -19108,23 +18050,6 @@
     ]
    },
    {
-    "body": "Eris",
-    "cells": 5,
-    "H": 3,
-    "J": 2,
-    "layers": [
-     "same body",
-     "star rows"
-    ],
-    "detail": [
-     "same body: S Eris → H Eris Dec 1.6634 1.66667 ninth (loose) — only",
-     "same body: S Eris → J Eris Dec 6.4758 4×φ golden (loose) — only",
-     "star rows: H Castor → H Eris Dec 35.0023 35 whole (78.31) — also: 1 Eclair D'Ainay",
-     "star rows: H Fomalhaut → H Eris RA 40.9969 41 whole (71.67) [sky number: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)] — only",
-     "star rows: J Vindemiatrix → J Eris Dec 18.8877 18.8889 ninth (99.12) [sky number: S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)] — only"
-    ]
-   },
-   {
     "body": "Neptune",
     "cells": 4,
     "H": 3,
@@ -19154,6 +18079,22 @@
      "same body: S Pluto → J Pluto Dec 16.0264 16 whole (loose) — only",
      "star rows: H Castor → H Pluto Dec 51.9978 52 whole (79.37) — also: 1 Eclair D'Ainay",
      "star rows: J Rigel → J Pluto RA 160.0034 160 whole (68.95) — only"
+    ]
+   },
+   {
+    "body": "Eris",
+    "cells": 4,
+    "H": 3,
+    "J": 1,
+    "layers": [
+     "same body",
+     "star rows"
+    ],
+    "detail": [
+     "same body: S Eris → H Eris Dec 1.6634 1.66667 ninth (loose) — only",
+     "same body: S Eris → J Eris Dec 6.4758 4×φ golden (loose) — only",
+     "star rows: H Castor → H Eris Dec 35.0023 35 whole (78.31) — also: 1 Eclair D'Ainay",
+     "star rows: H Fomalhaut → H Eris RA 40.9969 41 whole (71.67) [sky number: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)] — only"
     ]
    }
   ]

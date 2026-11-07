@@ -115,13 +115,6 @@
         "S Sun → Ankaa RA 61.0007 61 whole (92.80)",
         "S Moon → Ankaa RA 176.9962 177 whole (65.72)"
        ]
-      },
-      {
-       "text": "H Antares → H Ceres RA 106.9814 107 whole (0.51)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
       }
      ],
      "other_chart_same_body": [],
@@ -159,13 +152,6 @@
      "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
-      {
-       "text": "J Antares → J Sedna Dec 30.7420 19×φ golden (96.19)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
-      },
       {
        "text": "J Menkar → J Sedna Dec 0.2185 conj (7.37)",
        "layer": "star rows",
@@ -374,13 +360,6 @@
        ]
       },
       {
-       "text": "J Deneb → J Juno RA 147.2119 91×φ golden (0.99)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ]
-      },
-      {
        "text": "J El Nath → J Juno RA 15.9956 16 whole (61.01)",
        "layer": "star rows",
        "source_lines": [
@@ -461,22 +440,7 @@
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Antares → H Orcus RA 100.9823 101 whole (1.32)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
-      },
-      {
-       "text": "H Deneb → H Orcus RA 163.9851 164 whole (6.41)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     }
    ],
    "bodies": [
@@ -604,18 +568,6 @@
        "field": "also: 2 Dashel Drasher / Rex Dingle"
       },
       {
-       "text": "H Antares → H Ceres RA 106.9814 107 whole (0.51)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Ceres"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan"
-      },
-      {
        "text": "J Denebola → J Ceres RA 126.0176 126 whole (1.40)",
        "layer": "star rows",
        "source_lines": [
@@ -665,18 +617,6 @@
         "Sedna"
        ],
        "field": "also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "J Antares → J Sedna Dec 30.7420 19×φ golden (96.19)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Sedna"
-       ],
-       "field": "only"
       },
       {
        "text": "J Menkar → J Sedna Dec 0.2185 conj (7.37)",
@@ -729,18 +669,6 @@
         "Rahu"
        ],
        "field": "only"
-      },
-      {
-       "text": "H Deneb → H Rahu Dec 68.5485 10×φ^4 phi power (95.71)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Rahu"
-       ],
-       "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
       }
      ]
     },
@@ -756,18 +684,6 @@
         "Eris"
        ],
        "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
-      },
-      {
-       "text": "H Antares → H Eris Dec 22.6534 14×φ golden (94.33)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Eris"
-       ],
-       "field": "also: 3 Master Tommytucker / Harry Cobden"
       },
       {
        "text": "H Sirius → H Eris Dec 12.9426 8×φ golden (90.19)",
@@ -1074,18 +990,6 @@
        "field": "also: 3 Master Tommytucker / Harry Cobden"
       },
       {
-       "text": "H Deneb → H Ketu Dec 22.0033 22 whole (69.61)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Ketu"
-       ],
-       "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
-      },
-      {
        "text": "H El Nath → H Ketu RA 1.2299 conj (3.24)",
        "layer": "star rows",
        "source_lines": [
@@ -1118,18 +1022,6 @@
         "Ketu"
        ],
        "field": "also: 3 Master Tommytucker / Harry Cobden"
-      },
-      {
-       "text": "J Deneb → J Ketu Dec 22.0157 22 whole (4.64)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Ketu"
-       ],
-       "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
       },
       {
        "text": "J El Nath → J Ketu RA 1.1067 conj (6.88)",
@@ -1196,7 +1088,7 @@
         "natal Jupiter",
         "Jupiter"
        ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
+       "field": "also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass"
       },
       {
        "text": "S Menkar → J Jupiter RA 135.9015 84×φ golden (34.45)",
@@ -1437,83 +1329,8 @@
      ]
     },
     {
-     "body": "Orcus",
-     "cells": [
-      {
-       "text": "H Antares → H Orcus RA 100.9823 101 whole (1.32)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Orcus"
-       ],
-       "field": "also: 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "H Deneb → H Orcus RA 163.9851 164 whole (6.41)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Orcus"
-       ],
-       "field": "also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan"
-      },
-      {
-       "text": "S Orcus → J Orcus Dec 14.4964 14.4444 ninth (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Orcus"
-       ],
-       "field": "also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "J Sadalsuud → J Orcus RA 170.0084 170 whole (33.53)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Orcus"
-       ],
-       "field": "also: 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "J Sirius → J Orcus Dec 19.0175 19 whole (1.62)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Sirius Dec 15.9996 16 whole (96.36)"
-       ],
-       "key": [
-        "Sirius",
-        "Orcus"
-       ],
-       "field": "also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan"
-      }
-     ]
-    },
-    {
      "body": "Quaoar",
      "cells": [
-      {
-       "text": "H Antares → H Quaoar Dec 11.0140 11 whole (8.90)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Quaoar"
-       ],
-       "field": "only"
-      },
       {
        "text": "H Denebola → H Quaoar Dec 29.9906 30 whole (28.10)",
        "layer": "star rows",
@@ -1549,100 +1366,6 @@
         "Quaoar"
        ],
        "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
-      }
-     ]
-    },
-    {
-     "body": "Neptune",
-     "cells": [
-      {
-       "text": "H Deneb → H Neptune Dec 56.9807 57 whole (0.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Neptune"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "H Sirius → H Neptune Dec 5.0173 5 whole (1.84)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Sirius Dec 15.9996 16 whole (96.36)"
-       ],
-       "key": [
-        "Sirius",
-        "Neptune"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore"
-      },
-      {
-       "text": "J Rigel → J Neptune RA 150.9819 151 whole (0.94)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)"
-       ],
-       "key": [
-        "Rigel",
-        "Neptune"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden"
-      }
-     ]
-    },
-    {
-     "body": "Pluto",
-     "cells": [
-      {
-       "text": "H Deneb → H Pluto Dec 64.0127 64 whole (13.44)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Pluto"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle"
-      },
-      {
-       "text": "H Sirius → H Pluto Dec 2.0147 2 whole (7.02)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Sirius Dec 15.9996 16 whole (96.36)"
-       ],
-       "key": [
-        "Sirius",
-        "Pluto"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore"
-      },
-      {
-       "text": "H Spica → H Pluto RA 76.0010 76 whole (89.78)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Spica RA 135.9064 84×φ golden (54.47)"
-       ],
-       "key": [
-        "Spica",
-        "Pluto"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Sirius → J Pluto Dec 12.2206 12.2222 ninth (97.82)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Sirius Dec 15.9996 16 whole (96.36)"
-       ],
-       "key": [
-        "Sirius",
-        "Pluto"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore"
       }
      ]
     },
@@ -1740,6 +1463,76 @@
      ]
     },
     {
+     "body": "Neptune",
+     "cells": [
+      {
+       "text": "H Sirius → H Neptune Dec 5.0173 5 whole (1.84)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Sirius Dec 15.9996 16 whole (96.36)"
+       ],
+       "key": [
+        "Sirius",
+        "Neptune"
+       ],
+       "field": "also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore"
+      },
+      {
+       "text": "J Rigel → J Neptune RA 150.9819 151 whole (0.94)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)"
+       ],
+       "key": [
+        "Rigel",
+        "Neptune"
+       ],
+       "field": "also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden"
+      }
+     ]
+    },
+    {
+     "body": "Pluto",
+     "cells": [
+      {
+       "text": "H Sirius → H Pluto Dec 2.0147 2 whole (7.02)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Sirius Dec 15.9996 16 whole (96.36)"
+       ],
+       "key": [
+        "Sirius",
+        "Pluto"
+       ],
+       "field": "also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore"
+      },
+      {
+       "text": "H Spica → H Pluto RA 76.0010 76 whole (89.78)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Spica RA 135.9064 84×φ golden (54.47)"
+       ],
+       "key": [
+        "Spica",
+        "Pluto"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Sirius → J Pluto Dec 12.2206 12.2222 ninth (97.82)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Sirius Dec 15.9996 16 whole (96.36)"
+       ],
+       "key": [
+        "Sirius",
+        "Pluto"
+       ],
+       "field": "also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore"
+      }
+     ]
+    },
+    {
      "body": "Vesta",
      "cells": [
       {
@@ -1803,18 +1596,6 @@
        "field": "only"
       },
       {
-       "text": "J Deneb → J Juno RA 147.2119 91×φ golden (0.99)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Juno"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass"
-      },
-      {
        "text": "J El Nath → J Juno RA 15.9956 16 whole (61.01)",
        "layer": "star rows",
        "source_lines": [
@@ -1838,6 +1619,45 @@
         "Juno"
        ],
        "field": "also: 5 Itchy Feet / Gavin Sheehan"
+      }
+     ]
+    },
+    {
+     "body": "Orcus",
+     "cells": [
+      {
+       "text": "S Orcus → J Orcus Dec 14.4964 14.4444 ninth (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Orcus"
+       ],
+       "field": "also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
+      },
+      {
+       "text": "J Sadalsuud → J Orcus RA 170.0084 170 whole (33.53)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)"
+       ],
+       "key": [
+        "Sadalsuud",
+        "Orcus"
+       ],
+       "field": "also: 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
+      },
+      {
+       "text": "J Sirius → J Orcus Dec 19.0175 19 whole (1.62)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Sirius Dec 15.9996 16 whole (96.36)"
+       ],
+       "key": [
+        "Sirius",
+        "Orcus"
+       ],
+       "field": "also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan"
       }
      ]
     }
@@ -1906,14 +1726,14 @@
       "cells": [
        "J El Nath → J Juno RA 15.9956 16 whole (61.01) = S Moon → Sirius Dec 15.9996 16 whole (96.36)"
       ],
-      "field": "also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass"
+      "field": "also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass"
      },
      {
       "label": "84×φ golden",
       "cells": [
        "S Menkar → J Jupiter RA 135.9015 84×φ golden (34.45) = S Jupiter → Spica RA 135.9064 84×φ golden (54.47)"
       ],
-      "field": "also: 3 Master Tommytucker / Harry Cobden"
+      "field": "only"
      }
     ],
     "4": [
@@ -1936,14 +1756,14 @@
       "cells": [
        "H Menkar → H Venus RA 11.9864 12 whole (10.27)"
       ],
-      "field": "also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass"
+      "field": "also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass"
      },
      {
       "label": "4 = 360/90",
       "cells": [
        "H Rigel → H Chiron Dec 4.0113 4 whole (19.01)"
       ],
-      "field": "also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
+      "field": "also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
      },
      {
       "label": "5 = 360/72",
@@ -2030,7 +1850,6 @@
       "label": "19×φ golden",
       "cells": [
        "S Ceres → H Jupiter RA 30.7469 19×φ golden (75.22)",
-       "J Antares → J Sedna Dec 30.7420 19×φ golden (96.19)",
        "J Vindemiatrix → J Venus Dec 30.7412 19×φ golden (91.15)"
       ],
       "field": "also: 5 Itchy Feet / Gavin Sheehan"
@@ -2050,22 +1869,6 @@
        "J Sirius → J Pluto Dec 12.2206 12.2222 ninth (97.82)"
       ],
       "field": "only"
-     },
-     {
-      "label": "11 whole",
-      "cells": [
-       "H Antares → H Quaoar Dec 11.0140 11 whole (8.90)",
-       "H Menkar → H Mars RA 11.0125 11 whole (14.11)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "22 whole",
-      "cells": [
-       "H Deneb → H Ketu Dec 22.0033 22 whole (69.61)",
-       "J Deneb → J Ketu Dec 22.0157 22 whole (4.64)"
-      ],
-      "field": "also: 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
      },
      {
       "label": "23 whole",
@@ -2088,14 +1891,6 @@
       "cells": [
        "S Sun → J Juno RA 152.0027 152 whole (74.91)",
        "J Vindemiatrix → J Sedna RA 152.0150 152 whole (6.23)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "91 and 91×φ on J Juno",
-      "cells": [
-       "J Ankaa → J Juno RA 90.9947 91 whole (54.17)",
-       "J Deneb → J Juno RA 147.2119 91×φ golden (0.99)"
       ],
       "field": "only"
      }
@@ -2218,20 +2013,6 @@
        "source_lines": []
       },
       {
-       "text": "J Antares → J Pluto RA 0.1618 conj (79.59)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
-      },
-      {
-       "text": "J Deneb → J Pluto Dec 55.0073 55 whole (40.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ]
-      },
-      {
        "text": "J Sirius → J Pluto Dec 6.9905 7 whole (27.56)",
        "layer": "star rows",
        "source_lines": [
@@ -2308,13 +2089,6 @@
        "text": "S Moon → H Makemake RA 1.2469 conj (2.85)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "H Deneb → H Makemake Dec 17.9940 18 whole (49.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ]
       },
       {
        "text": "H Nunki → H Makemake RA 92.9976 93 whole (77.82)",
@@ -2635,13 +2409,6 @@
      "other_chart_same_body": [],
      "on_other_chart": [
       {
-       "text": "H Antares → H Ketu RA 156.9609 97×φ golden (41.25)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
-      },
-      {
        "text": "H Menkar → H Ketu RA 1.2472 conj (2.84)",
        "layer": "star rows",
        "source_lines": [
@@ -2816,30 +2583,6 @@
        "field": "only"
       },
       {
-       "text": "J Antares → J Pluto RA 0.1618 conj (79.59)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Pluto"
-       ],
-       "field": "also: 3 Master Tommytucker / Harry Cobden"
-      },
-      {
-       "text": "J Deneb → J Pluto Dec 55.0073 55 whole (40.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Pluto"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies"
-      },
-      {
        "text": "J Sirius → J Pluto Dec 6.9905 7 whole (27.56)",
        "layer": "star rows",
        "source_lines": [
@@ -2963,18 +2706,6 @@
         "Makemake"
        ],
        "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "H Deneb → H Makemake Dec 17.9940 18 whole (49.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Makemake"
-       ],
-       "field": "also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
       },
       {
        "text": "H Nunki → H Makemake RA 92.9976 93 whole (77.82)",
@@ -3171,16 +2902,6 @@
      "body": "Jupiter",
      "cells": [
       {
-       "text": "H Jupiter → H star Deneb Dec 23.0012 23 whole (88.01)",
-       "layer": "T1",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Jupiter"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
-      },
-      {
        "text": "H Jupiter → H star Sirius Dec 38.9979 39 whole (80.41)",
        "layer": "T1",
        "source_lines": [],
@@ -3188,7 +2909,7 @@
         "natal Jupiter",
         "Jupiter"
        ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
+       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass"
       },
       {
        "text": "S Moon → H Jupiter Dec 22.9998 23 whole (97.94)",
@@ -3209,18 +2930,6 @@
         "Jupiter"
        ],
        "field": "also: 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "H Deneb → H Jupiter Dec 23.0012 23 whole (88.01)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Jupiter"
-       ],
-       "field": "only"
       },
       {
        "text": "S Sirius → H Jupiter Dec 38.9994 39 whole (94.34)",
@@ -3282,18 +2991,6 @@
         "Neptune"
        ],
        "field": "also: 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "H Antares → H Neptune Dec 16.0151 16 whole (6.04)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Neptune"
-       ],
-       "field": "only"
       },
       {
        "text": "H Denebola → H Neptune Dec 24.9879 25 whole (15.56)",
@@ -3369,147 +3066,6 @@
         "Uranus"
        ],
        "field": "also: 3 Master Tommytucker / Harry Cobden"
-      },
-      {
-       "text": "J Deneb → J Uranus RA 0.2769 conj (66.49)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Uranus"
-       ],
-       "field": "also: 3 Master Tommytucker / Harry Cobden"
-      }
-     ]
-    },
-    {
-     "body": "Juno",
-     "cells": [
-      {
-       "text": "H Antares → H Juno RA 63.0154 63 whole (5.36)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Juno"
-       ],
-       "field": "also: 3 Master Tommytucker / Harry Cobden"
-      },
-      {
-       "text": "H Deneb → H Juno RA 0.0151 conj (97.99)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Juno"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "J Alhena → J Juno Dec 20.0115 20 whole (17.89)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)"
-       ],
-       "key": [
-        "Alhena",
-        "Juno"
-       ],
-       "field": "also: 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "J Rigel → J Juno RA 105.9825 106 whole (1.58)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)"
-       ],
-       "key": [
-        "Rigel",
-        "Juno"
-       ],
-       "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
-      }
-     ]
-    },
-    {
-     "body": "Ketu",
-     "cells": [
-      {
-       "text": "H Antares → H Ketu RA 156.9609 97×φ golden (41.25)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Ketu"
-       ],
-       "field": "also: 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "H Menkar → H Ketu RA 1.2472 conj (2.84)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar RA 100.0021 100 whole (79.93)",
-        "S Moon → Menkar RA 144.0024 89×φ golden (84.43)"
-       ],
-       "key": [
-        "Menkar",
-        "Ketu"
-       ],
-       "field": "also: 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "H Spica → H Ketu RA 156.9858 157 whole (8.56)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Spica RA 135.9064 84×φ golden (54.47)"
-       ],
-       "key": [
-        "Spica",
-        "Ketu"
-       ],
-       "field": "also: 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "H Spica → H Ketu Dec 28.0134 28 whole (10.90)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Spica RA 135.9064 84×φ golden (54.47)"
-       ],
-       "key": [
-        "Spica",
-        "Ketu"
-       ],
-       "field": "also: 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "S Ketu → J Ketu Dec 12.9532 8×φ golden (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Ketu"
-       ],
-       "field": "also: 5 Itchy Feet / Gavin Sheehan"
-      },
-      {
-       "text": "J Rigel → J Ketu RA 95.0160 95 whole (4.01)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)"
-       ],
-       "key": [
-        "Rigel",
-        "Ketu"
-       ],
-       "field": "also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass"
       }
      ]
     },
@@ -3729,6 +3285,70 @@
      ]
     },
     {
+     "body": "Ketu",
+     "cells": [
+      {
+       "text": "H Menkar → H Ketu RA 1.2472 conj (2.84)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Menkar RA 100.0021 100 whole (79.93)",
+        "S Moon → Menkar RA 144.0024 89×φ golden (84.43)"
+       ],
+       "key": [
+        "Menkar",
+        "Ketu"
+       ],
+       "field": "also: 7 Two For Gold / David Bass"
+      },
+      {
+       "text": "H Spica → H Ketu RA 156.9858 157 whole (8.56)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Spica RA 135.9064 84×φ golden (54.47)"
+       ],
+       "key": [
+        "Spica",
+        "Ketu"
+       ],
+       "field": "also: 7 Two For Gold / David Bass"
+      },
+      {
+       "text": "H Spica → H Ketu Dec 28.0134 28 whole (10.90)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Spica RA 135.9064 84×φ golden (54.47)"
+       ],
+       "key": [
+        "Spica",
+        "Ketu"
+       ],
+       "field": "also: 7 Two For Gold / David Bass"
+      },
+      {
+       "text": "S Ketu → J Ketu Dec 12.9532 8×φ golden (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Ketu"
+       ],
+       "field": "also: 5 Itchy Feet / Gavin Sheehan"
+      },
+      {
+       "text": "J Rigel → J Ketu RA 95.0160 95 whole (4.01)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)"
+       ],
+       "key": [
+        "Rigel",
+        "Ketu"
+       ],
+       "field": "also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass"
+      }
+     ]
+    },
+    {
      "body": "Mars",
      "cells": [
       {
@@ -3804,18 +3424,6 @@
        ],
        "key": [
         "Sadalsuud",
-        "Pallas"
-       ],
-       "field": "also: 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "J Deneb → J Pallas RA 0.4715 conj (47.01)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
         "Pallas"
        ],
        "field": "also: 7 Two For Gold / David Bass"
@@ -4024,18 +3632,6 @@
        "field": "also: 1 Bristol De Mai / Sam Twiston-Davies"
       },
       {
-       "text": "J Antares → J Ceres Dec 11.9934 12 whole (45.16)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Ceres"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan"
-      },
-      {
        "text": "J Denebola → J Ceres Dec 29.0077 29 whole (37.92)",
        "layer": "star rows",
        "source_lines": [
@@ -4138,31 +3734,31 @@
      ]
     },
     {
-     "body": "Chiron",
+     "body": "Juno",
      "cells": [
       {
-       "text": "J Antares → J Chiron Dec 10.9894 11 whole (22.29)",
+       "text": "J Alhena → J Juno Dec 20.0115 20 whole (17.89)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
+        "S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)"
        ],
        "key": [
-        "Antares",
-        "Chiron"
+        "Alhena",
+        "Juno"
        ],
-       "field": "only"
+       "field": "also: 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
       },
       {
-       "text": "J Denebola → J Chiron Dec 30.0117 30 whole (17.29)",
+       "text": "J Rigel → J Juno RA 105.9825 106 whole (1.58)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Denebola Dec 33.9942 34 whole (50.13)"
+        "S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)"
        ],
        "key": [
-        "Denebola",
-        "Chiron"
+        "Rigel",
+        "Juno"
        ],
-       "field": "only"
+       "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
       }
      ]
     },
@@ -4178,6 +3774,23 @@
        "key": [
         "Denebola",
         "Saturn"
+       ],
+       "field": "only"
+      }
+     ]
+    },
+    {
+     "body": "Chiron",
+     "cells": [
+      {
+       "text": "J Denebola → J Chiron Dec 30.0117 30 whole (17.29)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Denebola Dec 33.9942 34 whole (50.13)"
+       ],
+       "key": [
+        "Denebola",
+        "Chiron"
        ],
        "field": "only"
       }
@@ -4206,32 +3819,11 @@
     "2": [],
     "3": [
      {
-      "label": "16 whole",
-      "cells": [
-       "H Antares → H Neptune Dec 16.0151 16 whole (6.04) = S Moon → Sirius Dec 15.9996 16 whole (96.36)"
-      ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass"
-     },
-     {
       "label": "111.111 ninth",
       "cells": [
        "J Denebola → J Sun RA 111.1754 111.111 ninth (89.47) = S Sun → Rahu RA 111.1604 111.111 ninth (91.93)"
       ],
       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore"
-     },
-     {
-      "label": "7 whole",
-      "cells": [
-       "J Sirius → J Pluto Dec 6.9905 7 whole (27.56) = S Sun → Antares Dec 7.0061 7 whole (48.51)"
-      ],
-      "field": "also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass"
-     },
-     {
-      "label": "46 whole",
-      "cells": [
-       "J Sirius → J Transpluto RA 45.9835 46 whole (3.08) = S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-      ],
-      "field": "also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass"
      },
      {
       "label": "100 whole",
@@ -4262,13 +3854,6 @@
        "S Gonggong → H Gonggong RA 0.9760 1 whole (loose)"
       ],
       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass"
-     },
-     {
-      "label": "18 = 360/20",
-      "cells": [
-       "H Deneb → H Makemake Dec 17.9940 18 whole (49.00)"
-      ],
-      "field": "also: 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
      },
      {
       "label": "36 = 360/10",
@@ -4306,13 +3891,6 @@
       "field": "also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
      },
      {
-      "label": "12 = 360/30",
-      "cells": [
-       "J Antares → J Ceres Dec 11.9934 12 whole (45.16)"
-      ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass"
-     },
-     {
       "label": "30 = 360/12",
       "cells": [
        "J Denebola → J Chiron Dec 30.0117 30 whole (17.29)"
@@ -4345,7 +3923,7 @@
       "cells": [
        "J Vindemiatrix → J Rahu Dec 3.9882 4 whole (16.63)"
       ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
+      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
      }
     ],
     "5": [
@@ -4358,16 +3936,6 @@
       "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
      },
      {
-      "label": "23 whole",
-      "cells": [
-       "H Jupiter → H star Deneb Dec 23.0012 23 whole (88.01)",
-       "S Moon → H Jupiter Dec 22.9998 23 whole (97.94)",
-       "H Deneb → H Jupiter Dec 23.0012 23 whole (88.01)",
-       "H Spica → H Rahu RA 23.0142 23 whole (8.56)"
-      ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies"
-     },
-     {
       "label": "39 whole",
       "cells": [
        "H Jupiter → H star Sirius Dec 38.9979 39 whole (80.41)",
@@ -4375,6 +3943,14 @@
        "J Nunki → J Quaoar RA 38.9871 39 whole (12.68)"
       ],
       "field": "only"
+     },
+     {
+      "label": "23 whole",
+      "cells": [
+       "S Moon → H Jupiter Dec 22.9998 23 whole (97.94)",
+       "H Spica → H Rahu RA 23.0142 23 whole (8.56)"
+      ],
+      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies"
      },
      {
       "label": "149 whole",
@@ -4407,7 +3983,7 @@
        "H Menkar → H Sedna Dec 2.9971 3 whole (73.45)",
        "S Eris → J Eris RA 3.0081 3 whole (35.29)"
       ],
-      "field": "also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore"
+      "field": "also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore"
      },
      {
       "label": "44 whole",
@@ -4515,13 +4091,6 @@
        "text": "S Moon → H Sun Dec 0.0773 conj (55.10)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "H Antares → H Sun RA 111.1557 111.111 ninth (92.71)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
       }
      ],
      "other_chart_same_body": [],
@@ -4531,13 +4100,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)"
-       ]
-      },
-      {
-       "text": "J Deneb → J Sun Dec 60.9930 61 whole (42.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
        ]
       },
       {
@@ -4556,9 +4118,7 @@
       "S Mercury → H Mercury RA 69.9993 70 whole (93.26)",
       "S Mercury → H Mercury Dec 24.1889 24.14 silver (loose)"
      ],
-     "body_lines": [
-      "S Sun → Mercury RA 1.2413 conj (2.97)"
-     ],
+     "body_lines": [],
      "on_this_chart": [],
      "other_chart_same_body": [
       "S Mercury → J Mercury RA 61.8649 100×φ^-1 phi power (loose)"
@@ -4627,13 +4187,6 @@
      ],
      "on_other_chart": [
       {
-       "text": "J Antares → J Saturn RA 140.7648 87×φ golden (76.22)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
-      },
-      {
        "text": "J El Nath → J Saturn Dec 20.0024 20 whole (77.09)",
        "layer": "star rows",
        "source_lines": [
@@ -4648,9 +4201,7 @@
      "same_body": [
       "S Pallas → H Pallas RA 57.9952 58 whole (57.68)"
      ],
-     "body_lines": [
-      "S Jupiter → Pallas Dec 0.2217 conj (6.80)"
-     ],
+     "body_lines": [],
      "on_this_chart": [
       {
        "text": "H Ankaa → H Pallas RA 68.0121 68 whole (15.45)",
@@ -4733,20 +4284,6 @@
      ],
      "other_chart_same_body": [],
      "on_other_chart": [
-      {
-       "text": "J Antares → J Juno RA 30.0077 30 whole (38.10)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
-      },
-      {
-       "text": "J Deneb → J Juno RA 93.0186 93 whole (0.49)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ]
-      },
       {
        "text": "J Spica → J Juno Dec 3.9861 4 whole (9.34)",
        "layer": "star rows",
@@ -4843,9 +4380,7 @@
      "same_body": [
       "S Mercury → J Mercury RA 61.8649 100×φ^-1 phi power (loose)"
      ],
-     "body_lines": [
-      "S Sun → Mercury RA 1.2413 conj (2.97)"
-     ],
+     "body_lines": [],
      "on_this_chart": [
       {
        "text": "S Sun → J Mercury RA 63.1062 39×φ golden (83.02)",
@@ -4916,13 +4451,6 @@
      "body_lines": [],
      "on_this_chart": [
       {
-       "text": "J Antares → J Saturn RA 140.7648 87×φ golden (76.22)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
-      },
-      {
        "text": "J El Nath → J Saturn Dec 20.0024 20 whole (77.09)",
        "layer": "star rows",
        "source_lines": [
@@ -4963,20 +4491,6 @@
      ],
      "body_lines": [],
      "on_this_chart": [
-      {
-       "text": "J Antares → J Eris RA 135.9382 84×φ golden (7.73)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
-      },
-      {
-       "text": "J Antares → J Eris Dec 18.9939 19 whole (48.59)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
-      },
       {
        "text": "J Denebola → J Eris Dec 22.0101 22 whole (24.49)",
        "layer": "star rows",
@@ -5080,13 +4594,6 @@
      "other_chart_same_body": [],
      "on_other_chart": [
       {
-       "text": "H Deneb → H Orcus Dec 51.9826 52 whole (1.66)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ]
-      },
-      {
        "text": "H Sirius → H Orcus Dec 10.0170 10 whole (2.20)",
        "layer": "star rows",
        "source_lines": [
@@ -5121,18 +4628,6 @@
        "field": "also: 5 Itchy Feet / Gavin Sheehan"
       },
       {
-       "text": "H Antares → H Sun RA 111.1557 111.111 ninth (92.71)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Sun"
-       ],
-       "field": "only"
-      },
-      {
        "text": "J Alhena → J Sun RA 121.0015 121 whole (85.70)",
        "layer": "star rows",
        "source_lines": [
@@ -5143,18 +4638,6 @@
         "Sun"
        ],
        "field": "also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "J Deneb → J Sun Dec 60.9930 61 whole (42.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Sun"
-       ],
-       "field": "only"
       },
       {
        "text": "J Sirius → J Sun Dec 1.0053 1 whole (54.34)",
@@ -5176,9 +4659,7 @@
       {
        "text": "S Mercury → H Mercury RA 69.9993 70 whole (93.26)",
        "layer": "same body",
-       "source_lines": [
-        "S Sun → Mercury RA 1.2413 conj (2.97)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Mercury"
@@ -5188,9 +4669,7 @@
       {
        "text": "S Mercury → H Mercury Dec 24.1889 24.14 silver (loose)",
        "layer": "same body",
-       "source_lines": [
-        "S Sun → Mercury RA 1.2413 conj (2.97)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Mercury"
@@ -5200,9 +4679,7 @@
       {
        "text": "S Mercury → J Mercury RA 61.8649 100×φ^-1 phi power (loose)",
        "layer": "same body",
-       "source_lines": [
-        "S Sun → Mercury RA 1.2413 conj (2.97)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Mercury"
@@ -5318,18 +4795,6 @@
        "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore"
       },
       {
-       "text": "J Antares → J Saturn RA 140.7648 87×φ golden (76.22)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Saturn"
-       ],
-       "field": "only"
-      },
-      {
        "text": "J El Nath → J Saturn Dec 20.0024 20 whole (77.09)",
        "layer": "star rows",
        "source_lines": [
@@ -5349,9 +4814,7 @@
       {
        "text": "S Pallas → H Pallas RA 57.9952 58 whole (57.68)",
        "layer": "same body",
-       "source_lines": [
-        "S Jupiter → Pallas Dec 0.2217 conj (6.80)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Pallas"
@@ -5482,30 +4945,6 @@
         "Juno"
        ],
        "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
-      },
-      {
-       "text": "J Antares → J Juno RA 30.0077 30 whole (38.10)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Juno"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle"
-      },
-      {
-       "text": "J Deneb → J Juno RA 93.0186 93 whole (0.49)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Juno"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass"
       },
       {
        "text": "J Spica → J Juno Dec 3.9861 4 whole (9.34)",
@@ -5722,18 +5161,6 @@
        "field": "also: 2 Dashel Drasher / Rex Dingle"
       },
       {
-       "text": "H Antares → H Uranus Dec 25.8891 16×φ golden (96.79)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Uranus"
-       ],
-       "field": "only"
-      },
-      {
        "text": "H Sirius → H Uranus Dec 16.1807 10×φ^1 phi power (99.12)",
        "layer": "star rows",
        "source_lines": [
@@ -5777,18 +5204,6 @@
         "Uranus"
        ],
        "field": "also: 1 Bristol De Mai / Sam Twiston-Davies"
-      },
-      {
-       "text": "J Deneb → J Uranus RA 1.2171 conj (3.56)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Uranus"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle"
       },
       {
        "text": "J El Nath → J Uranus RA 130.0037 130 whole (66.03)",
@@ -5839,18 +5254,6 @@
         "Vesta"
        ],
        "field": "only"
-      },
-      {
-       "text": "H Deneb → H Vesta Dec 64.9977 65 whole (78.44)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Vesta"
-       ],
-       "field": "also: 7 Two For Gold / David Bass"
       },
       {
        "text": "H Denebola → H Vesta RA 118.1280 73×φ golden (41.57)",
@@ -5939,18 +5342,6 @@
        "field": "also: 7 Two For Gold / David Bass"
       },
       {
-       "text": "H Antares → H Rahu Dec 3.0113 3 whole (19.08)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Rahu"
-       ],
-       "field": "also: 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore"
-      },
-      {
        "text": "H Denebola → H Rahu Dec 37.9902 38 whole (25.91)",
        "layer": "star rows",
        "source_lines": [
@@ -6015,18 +5406,6 @@
        "field": "also: 1 Bristol De Mai / Sam Twiston-Davies"
       },
       {
-       "text": "J Deneb → J Makemake Dec 13.3381 13.3333 ninth (94.25)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Makemake"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
-      },
-      {
        "text": "J Menkar → J Makemake RA 133.3209 133.333 ninth (98.51)",
        "layer": "star rows",
        "source_lines": [
@@ -6083,9 +5462,7 @@
       {
        "text": "S Mercury → H Jupiter Dec 20.0000 20 whole (99.64)",
        "layer": "top rows",
-       "source_lines": [
-        "S Sun → Mercury RA 1.2413 conj (2.97)"
-       ],
+       "source_lines": [],
        "key": [
         "S Mercury",
         "Jupiter"
@@ -6112,7 +5489,7 @@
         "natal Jupiter",
         "Jupiter"
        ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
+       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass"
       },
       {
        "text": "S Juno → J Jupiter RA 53.3926 33×φ golden (84.82)",
@@ -6227,18 +5604,6 @@
        "field": "only"
       },
       {
-       "text": "J Deneb → J Quaoar Dec 59.9958 60 whole (62.40)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Quaoar"
-       ],
-       "field": "only"
-      },
-      {
        "text": "J Sirius → J Quaoar Dec 2.0024 2 whole (77.03)",
        "layer": "star rows",
        "source_lines": [
@@ -6249,65 +5614,6 @@
         "Quaoar"
        ],
        "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Orcus",
-     "cells": [
-      {
-       "text": "H Deneb → H Orcus Dec 51.9826 52 whole (1.66)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Orcus"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan"
-      },
-      {
-       "text": "H Sirius → H Orcus Dec 10.0170 10 whole (2.20)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Sirius Dec 15.9996 16 whole (96.36)"
-       ],
-       "key": [
-        "Sirius",
-        "Orcus"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan"
-      },
-      {
-       "text": "S Orcus → J Orcus RA 19.0084 19 whole (33.71)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Orcus"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "S Orcus → J Orcus Dec 11.3233 7×φ golden (82.81)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Orcus"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "S Moon → J Orcus Dec 0.1401 conj (28.40)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Moon",
-        "Orcus"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle"
       }
      ]
     },
@@ -6402,18 +5708,6 @@
        "field": "only"
       },
       {
-       "text": "J Antares → J Pluto RA 0.2575 conj (68.62)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Pluto"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle"
-      },
-      {
        "text": "J Rigel → J Pluto Dec 1.9898 2 whole (24.04)",
        "layer": "star rows",
        "source_lines": [
@@ -6465,18 +5759,53 @@
         "Chiron"
        ],
        "field": "also: 7 Two For Gold / David Bass"
-      },
+      }
+     ]
+    },
+    {
+     "body": "Orcus",
+     "cells": [
       {
-       "text": "J Deneb → J Chiron RA 79.9894 80 whole (22.05)",
+       "text": "H Sirius → H Orcus Dec 10.0170 10 whole (2.20)",
        "layer": "star rows",
        "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
+        "S Moon → Sirius Dec 15.9996 16 whole (96.36)"
        ],
        "key": [
-        "Deneb",
-        "Chiron"
+        "Sirius",
+        "Orcus"
        ],
-       "field": "also: 5 Itchy Feet / Gavin Sheehan"
+       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan"
+      },
+      {
+       "text": "S Orcus → J Orcus RA 19.0084 19 whole (33.71)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Orcus"
+       ],
+       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
+      },
+      {
+       "text": "S Orcus → J Orcus Dec 11.3233 7×φ golden (82.81)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Orcus"
+       ],
+       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
+      },
+      {
+       "text": "S Moon → J Orcus Dec 0.1401 conj (28.40)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Moon",
+        "Orcus"
+       ],
+       "field": "also: 2 Dashel Drasher / Rex Dingle"
       }
      ]
     },
@@ -6572,30 +5901,6 @@
        "field": "also: 2 Dashel Drasher / Rex Dingle"
       },
       {
-       "text": "J Antares → J Eris RA 135.9382 84×φ golden (7.73)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Eris"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies"
-      },
-      {
-       "text": "J Antares → J Eris Dec 18.9939 19 whole (48.59)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Eris"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies"
-      },
-      {
        "text": "J Denebola → J Eris Dec 22.0101 22 whole (24.49)",
        "layer": "star rows",
        "source_lines": [
@@ -6660,18 +5965,6 @@
         "Gonggong"
        ],
        "field": "also: 2 Dashel Drasher / Rex Dingle"
-      },
-      {
-       "text": "J Deneb → J Gonggong Dec 63.1086 39×φ golden (69.87)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Gonggong"
-       ],
-       "field": "only"
       },
       {
        "text": "J Denebola → J Gonggong RA 153.7315 95×φ golden (18.88)",
@@ -6759,30 +6052,9 @@
       "field": "also: 5 Itchy Feet / Gavin Sheehan"
      },
      {
-      "label": "111.111 ninth",
-      "cells": [
-       "H Antares → H Sun RA 111.1557 111.111 ninth (92.71) = S Sun → Rahu RA 111.1604 111.111 ninth (91.93)"
-      ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore"
-     },
-     {
       "label": "33×φ golden",
       "cells": [
        "S Juno → J Jupiter RA 53.3926 33×φ golden (84.82) = S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "84×φ golden",
-      "cells": [
-       "J Antares → J Eris RA 135.9382 84×φ golden (7.73) = S Jupiter → Spica RA 135.9064 84×φ golden (54.47)"
-      ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies"
-     },
-     {
-      "label": "61 whole",
-      "cells": [
-       "J Deneb → J Sun Dec 60.9930 61 whole (42.17) = S Sun → Ankaa RA 61.0007 61 whole (92.80)"
       ],
       "field": "only"
      },
@@ -6814,14 +6086,14 @@
       "cells": [
        "S Transpluto → H Transpluto RA 4.0075 4 whole (38.87)"
       ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
+      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
      },
      {
       "label": "4 = 360/90",
       "cells": [
        "S Sun → H Rahu Dec 3.9955 4 whole (59.83)"
       ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
+      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
      },
      {
       "label": "20 = 360/18",
@@ -6829,13 +6101,6 @@
        "S Mercury → H Jupiter Dec 20.0000 20 whole (99.64)"
       ],
       "field": "also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
-     },
-     {
-      "label": "3 = 360/120",
-      "cells": [
-       "H Antares → H Rahu Dec 3.0113 3 whole (19.08)"
-      ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
      },
      {
       "label": "30 = 360/12",
@@ -6915,20 +6180,6 @@
       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle"
      },
      {
-      "label": "30 = 360/12",
-      "cells": [
-       "J Antares → J Juno RA 30.0077 30 whole (38.10)"
-      ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass"
-     },
-     {
-      "label": "60 = 360/6",
-      "cells": [
-       "J Deneb → J Quaoar Dec 59.9958 60 whole (62.40)"
-      ],
-      "field": "also: 5 Itchy Feet / Gavin Sheehan"
-     },
-     {
       "label": "45 = 360/8",
       "cells": [
        "J Denebola → J Venus RA 44.9802 45 whole (0.01)"
@@ -6975,7 +6226,7 @@
       "cells": [
        "J Spica → J Juno Dec 3.9861 4 whole (9.34)"
       ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
+      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
      }
     ],
     "5": [
@@ -7026,8 +6277,7 @@
       "cells": [
        "S Moon → H Vesta Dec 18.9959 19 whole (63.21)",
        "S Orcus → J Orcus RA 19.0084 19 whole (33.71)",
-       "J Jupiter → J Transpluto Dec 18.9950 19 whole (56.24)",
-       "J Antares → J Eris Dec 18.9939 19 whole (48.59)"
+       "J Jupiter → J Transpluto Dec 18.9950 19 whole (56.24)"
       ],
       "field": "only"
      },
@@ -7038,23 +6288,6 @@
        "J El Nath → J Saturn Dec 20.0024 20 whole (77.09)"
       ],
       "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
-     },
-     {
-      "label": "111.111 ninth",
-      "cells": [
-       "H Antares → H Sun RA 111.1557 111.111 ninth (92.71)",
-       "J El Nath → J Ketu RA 111.1099 111.111 ninth (99.80)"
-      ],
-      "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
-     },
-     {
-      "label": "3 whole",
-      "cells": [
-       "H Antares → H Rahu Dec 3.0113 3 whole (19.08)",
-       "H Sirius → H Vesta Dec 2.9981 3 whole (81.94)",
-       "S Sedna → J Sedna Dec 3.0141 3 whole (8.73)"
-      ],
-      "field": "also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore"
      },
      {
       "label": "107 whole",
@@ -7076,8 +6309,7 @@
       "label": "30 whole",
       "cells": [
        "H Nunki → H Jupiter Dec 30.0101 30 whole (24.36)",
-       "H Spica → H Haumea Dec 29.9826 30 whole (1.65)",
-       "J Antares → J Juno RA 30.0077 30 whole (38.10)"
+       "H Spica → H Haumea Dec 29.9826 30 whole (1.65)"
       ],
       "field": "also: 2 Dashel Drasher / Rex Dingle"
      },
@@ -7088,6 +6320,14 @@
        "H Vindemiatrix → H Mars Dec 16.1847 10×φ^1 phi power (89.60)"
       ],
       "field": "only"
+     },
+     {
+      "label": "3 whole",
+      "cells": [
+       "H Sirius → H Vesta Dec 2.9981 3 whole (81.94)",
+       "S Sedna → J Sedna Dec 3.0141 3 whole (8.73)"
+      ],
+      "field": "also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore"
      },
      {
       "label": "1 whole",
@@ -7120,14 +6360,6 @@
       "cells": [
        "J Jupiter → J star Nunki RA 65.9949 66 whole (55.16)",
        "S Nunki → J Jupiter RA 65.9975 66 whole (76.53)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "39×φ golden",
-      "cells": [
-       "S Sun → J Mercury RA 63.1062 39×φ golden (83.02)",
-       "J Deneb → J Gonggong Dec 63.1086 39×φ golden (69.87)"
       ],
       "field": "only"
      },
@@ -7179,9 +6411,7 @@
      "same_body": [
       "S Mercury → H Mercury RA 122.4140 122.222 ninth (loose)"
      ],
-     "body_lines": [
-      "S Sun → Mercury RA 1.2413 conj (2.97)"
-     ],
+     "body_lines": [],
      "on_this_chart": [
       {
        "text": "H Spica → H Mercury Dec 35.0170 35 whole (2.29)",
@@ -7193,13 +6423,6 @@
      ],
      "other_chart_same_body": [],
      "on_other_chart": [
-      {
-       "text": "J Deneb → J Mercury RA 166.6220 166.667 ninth (96.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ]
-      },
       {
        "text": "J Spica → J Mercury Dec 34.0004 34 whole (95.61)",
        "layer": "star rows",
@@ -7223,27 +6446,6 @@
        "source_lines": []
       },
       {
-       "text": "H Antares → H Venus RA 123.0058 123 whole (50.32)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
-      },
-      {
-       "text": "H Antares → H Venus Dec 29.0034 29 whole (69.15)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
-      },
-      {
-       "text": "H Deneb → H Venus RA 60.0038 60 whole (65.58)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ]
-      },
-      {
        "text": "H Denebola → H Venus Dec 12.0008 12 whole (92.36)",
        "layer": "star rows",
        "source_lines": [
@@ -7265,9 +6467,7 @@
       {
        "text": "S Mercury → H Jupiter Dec 39.0035 39 whole (67.73)",
        "layer": "top rows",
-       "source_lines": [
-        "S Sun → Mercury RA 1.2413 conj (2.97)"
-       ]
+       "source_lines": []
       },
       {
        "text": "H Nunki → H Jupiter Dec 49.0133 49 whole (11.06)",
@@ -7353,9 +6553,7 @@
      "same_body": [
       "S Pallas → H Pallas RA 154.8597 155.556 ninth (loose)"
      ],
-     "body_lines": [
-      "S Jupiter → Pallas Dec 0.2217 conj (6.80)"
-     ],
+     "body_lines": [],
      "on_this_chart": [
       {
        "text": "H Alhena → H Pallas RA 51.9838 52 whole (3.56)",
@@ -7376,11 +6574,6 @@
       "S Pallas → J Pallas RA 88.9637 55×φ golden (loose)"
      ],
      "on_other_chart": [
-      {
-       "text": "J Jupiter → J Pallas RA 106.7922 66×φ golden (88.08)",
-       "layer": "T2",
-       "source_lines": []
-      },
       {
        "text": "J Ankaa → J Pallas RA 98.9853 99 whole (7.07)",
        "layer": "star rows",
@@ -7431,13 +6624,6 @@
      ],
      "other_chart_same_body": [],
      "on_other_chart": [
-      {
-       "text": "J Antares → J Rahu Dec 2.9949 3 whole (55.68)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
-      },
       {
        "text": "J Denebola → J Rahu Dec 38.0118 38 whole (16.95)",
        "layer": "star rows",
@@ -7648,13 +6834,6 @@
        "source_lines": []
       },
       {
-       "text": "H Deneb → H Chiron Dec 46.0017 46 whole (83.28)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ]
-      },
-      {
        "text": "H Sirius → H Chiron Dec 15.9973 16 whole (75.02)",
        "layer": "star rows",
        "source_lines": [
@@ -7676,15 +6855,8 @@
      "same_body": [
       "S Pallas → J Pallas RA 88.9637 55×φ golden (loose)"
      ],
-     "body_lines": [
-      "S Jupiter → Pallas Dec 0.2217 conj (6.80)"
-     ],
+     "body_lines": [],
      "on_this_chart": [
-      {
-       "text": "J Jupiter → J Pallas RA 106.7922 66×φ golden (88.08)",
-       "layer": "T2",
-       "source_lines": []
-      },
       {
        "text": "J Ankaa → J Pallas RA 98.9853 99 whole (7.07)",
        "layer": "star rows",
@@ -7807,20 +6979,6 @@
      "other_chart_same_body": [],
      "on_other_chart": [
       {
-       "text": "H Antares → H Makemake RA 56.0048 56 whole (57.46)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
-      },
-      {
-       "text": "H Deneb → H Makemake RA 119.0069 119 whole (43.23)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ]
-      },
-      {
        "text": "H Spica → H Makemake Dec 37.9805 38 whole (0.05)",
        "layer": "star rows",
        "source_lines": [
@@ -7848,9 +7006,7 @@
       {
        "text": "S Mercury → H Mercury RA 122.4140 122.222 ninth (loose)",
        "layer": "same body",
-       "source_lines": [
-        "S Sun → Mercury RA 1.2413 conj (2.97)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Mercury"
@@ -7865,18 +7021,6 @@
        ],
        "key": [
         "Spica",
-        "Mercury"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Deneb → J Mercury RA 166.6220 166.667 ninth (96.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
         "Mercury"
        ],
        "field": "only"
@@ -7919,42 +7063,6 @@
        "field": "only"
       },
       {
-       "text": "H Antares → H Venus RA 123.0058 123 whole (50.32)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Venus"
-       ],
-       "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
-      },
-      {
-       "text": "H Antares → H Venus Dec 29.0034 29 whole (69.15)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Venus"
-       ],
-       "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
-      },
-      {
-       "text": "H Deneb → H Venus RA 60.0038 60 whole (65.58)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Venus"
-       ],
-       "field": "only"
-      },
-      {
        "text": "H Denebola → H Venus Dec 12.0008 12 whole (92.36)",
        "layer": "star rows",
        "source_lines": [
@@ -7984,9 +7092,7 @@
       {
        "text": "S Mercury → H Jupiter Dec 39.0035 39 whole (67.73)",
        "layer": "top rows",
-       "source_lines": [
-        "S Sun → Mercury RA 1.2413 conj (2.97)"
-       ],
+       "source_lines": [],
        "key": [
         "S Mercury",
         "Jupiter"
@@ -8114,9 +7220,7 @@
       {
        "text": "S Pallas → H Pallas RA 154.8597 155.556 ninth (loose)",
        "layer": "same body",
-       "source_lines": [
-        "S Jupiter → Pallas Dec 0.2217 conj (6.80)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Pallas"
@@ -8150,24 +7254,12 @@
       {
        "text": "S Pallas → J Pallas RA 88.9637 55×φ golden (loose)",
        "layer": "same body",
-       "source_lines": [
-        "S Jupiter → Pallas Dec 0.2217 conj (6.80)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Pallas"
        ],
        "field": "also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore"
-      },
-      {
-       "text": "J Jupiter → J Pallas RA 106.7922 66×φ golden (88.08)",
-       "layer": "T2",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Pallas"
-       ],
-       "field": "also: 7 Two For Gold / David Bass"
       },
       {
        "text": "J Ankaa → J Pallas RA 98.9853 99 whole (7.07)",
@@ -8245,18 +7337,6 @@
         "Rahu"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Antares → J Rahu Dec 2.9949 3 whole (55.68)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Rahu"
-       ],
-       "field": "also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore"
       },
       {
        "text": "J Denebola → J Rahu Dec 38.0118 38 whole (16.95)",
@@ -8540,18 +7620,6 @@
        "field": "only"
       },
       {
-       "text": "H Deneb → H Chiron Dec 46.0017 46 whole (83.28)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Chiron"
-       ],
-       "field": "also: 3 Master Tommytucker / Harry Cobden"
-      },
-      {
        "text": "H Sirius → H Chiron Dec 15.9973 16 whole (75.02)",
        "layer": "star rows",
        "source_lines": [
@@ -8664,187 +7732,6 @@
      ]
     },
     {
-     "body": "Makemake",
-     "cells": [
-      {
-       "text": "H Antares → H Makemake RA 56.0048 56 whole (57.46)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Makemake"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "H Deneb → H Makemake RA 119.0069 119 whole (43.23)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Makemake"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "H Spica → H Makemake Dec 37.9805 38 whole (0.05)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Spica RA 135.9064 84×φ golden (54.47)"
-       ],
-       "key": [
-        "Spica",
-        "Makemake"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Makemake → J Makemake RA 28.9862 29 whole (9.57)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Makemake"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass"
-      }
-     ]
-    },
-    {
-     "body": "Sedna",
-     "cells": [
-      {
-       "text": "H Deneb → H Sedna Dec 37.9818 38 whole (0.78)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Sedna"
-       ],
-       "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
-      },
-      {
-       "text": "H Sirius → H Sedna Dec 24.0173 24 whole (1.82)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Sirius Dec 15.9996 16 whole (96.36)"
-       ],
-       "key": [
-        "Sirius",
-        "Sedna"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore"
-      },
-      {
-       "text": "S Sun → J Sedna RA 97.9970 98 whole (72.12)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Sun",
-        "Sedna"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Ankaa → J Sedna RA 36.9964 37 whole (66.86)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Ankaa RA 61.0007 61 whole (92.80)",
-        "S Moon → Ankaa RA 176.9962 177 whole (65.72)"
-       ],
-       "key": [
-        "Ankaa",
-        "Sedna"
-       ],
-       "field": "also: 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "J El Nath → J Sedna RA 38.0005 38 whole (94.80)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → El Nath RA 107.9956 108 whole (60.79)"
-       ],
-       "key": [
-        "El Nath",
-        "Sedna"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle"
-      },
-      {
-       "text": "J Menkar → J Sedna RA 1.9999 2 whole (99.18)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar RA 100.0021 100 whole (79.93)",
-        "S Moon → Menkar RA 144.0024 89×φ golden (84.43)"
-       ],
-       "key": [
-        "Menkar",
-        "Sedna"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "J Nunki → J Sedna RA 119.7438 74×φ golden (50.91)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)"
-       ],
-       "key": [
-        "Nunki",
-        "Sedna"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore"
-      }
-     ]
-    },
-    {
-     "body": "Orcus",
-     "cells": [
-      {
-       "text": "H Deneb → H Orcus Dec 52.9904 53 whole (27.15)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Orcus"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden"
-      },
-      {
-       "text": "H Sadalsuud → H Orcus RA 174.0098 174 whole (26.16)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Orcus"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "H Sirius → H Orcus Dec 9.0086 9 whole (32.21)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Sirius Dec 15.9996 16 whole (96.36)"
-       ],
-       "key": [
-        "Sirius",
-        "Orcus"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden"
-      }
-     ]
-    },
-    {
      "body": "Ceres",
      "cells": [
       {
@@ -8870,42 +7757,6 @@
         "Ceres"
        ],
        "field": "also: 1 Bristol De Mai / Sam Twiston-Davies"
-      },
-      {
-       "text": "J Antares → J Ceres RA 67.0103 67 whole (23.31)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Ceres"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle"
-      },
-      {
-       "text": "J Antares → J Ceres Dec 0.2075 conj (9.51)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Ceres"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle"
-      },
-      {
-       "text": "J Deneb → J Ceres RA 4.0037 4 whole (66.05)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Ceres"
-       ],
-       "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
       }
      ]
     },
@@ -9100,6 +7951,139 @@
         "Eris"
        ],
        "field": "also: 7 Two For Gold / David Bass"
+      }
+     ]
+    },
+    {
+     "body": "Orcus",
+     "cells": [
+      {
+       "text": "H Sadalsuud → H Orcus RA 174.0098 174 whole (26.16)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)"
+       ],
+       "key": [
+        "Sadalsuud",
+        "Orcus"
+       ],
+       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
+      },
+      {
+       "text": "H Sirius → H Orcus Dec 9.0086 9 whole (32.21)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Sirius Dec 15.9996 16 whole (96.36)"
+       ],
+       "key": [
+        "Sirius",
+        "Orcus"
+       ],
+       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden"
+      }
+     ]
+    },
+    {
+     "body": "Sedna",
+     "cells": [
+      {
+       "text": "H Sirius → H Sedna Dec 24.0173 24 whole (1.82)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Sirius Dec 15.9996 16 whole (96.36)"
+       ],
+       "key": [
+        "Sirius",
+        "Sedna"
+       ],
+       "field": "also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore"
+      },
+      {
+       "text": "S Sun → J Sedna RA 97.9970 98 whole (72.12)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Sun",
+        "Sedna"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Ankaa → J Sedna RA 36.9964 37 whole (66.86)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Ankaa RA 61.0007 61 whole (92.80)",
+        "S Moon → Ankaa RA 176.9962 177 whole (65.72)"
+       ],
+       "key": [
+        "Ankaa",
+        "Sedna"
+       ],
+       "field": "also: 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass"
+      },
+      {
+       "text": "J El Nath → J Sedna RA 38.0005 38 whole (94.80)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → El Nath RA 107.9956 108 whole (60.79)"
+       ],
+       "key": [
+        "El Nath",
+        "Sedna"
+       ],
+       "field": "also: 2 Dashel Drasher / Rex Dingle"
+      },
+      {
+       "text": "J Menkar → J Sedna RA 1.9999 2 whole (99.18)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Menkar RA 100.0021 100 whole (79.93)",
+        "S Moon → Menkar RA 144.0024 89×φ golden (84.43)"
+       ],
+       "key": [
+        "Menkar",
+        "Sedna"
+       ],
+       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass"
+      },
+      {
+       "text": "J Nunki → J Sedna RA 119.7438 74×φ golden (50.91)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)"
+       ],
+       "key": [
+        "Nunki",
+        "Sedna"
+       ],
+       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore"
+      }
+     ]
+    },
+    {
+     "body": "Makemake",
+     "cells": [
+      {
+       "text": "H Spica → H Makemake Dec 37.9805 38 whole (0.05)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Spica RA 135.9064 84×φ golden (54.47)"
+       ],
+       "key": [
+        "Spica",
+        "Makemake"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "S Makemake → J Makemake RA 28.9862 29 whole (9.57)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Makemake"
+       ],
+       "field": "also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass"
       }
      ]
     },
@@ -9323,18 +8307,11 @@
       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore"
      },
      {
-      "label": "46 whole",
-      "cells": [
-       "H Deneb → H Chiron Dec 46.0017 46 whole (83.28) = S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-      ],
-      "field": "also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass"
-     },
-     {
       "label": "16 whole",
       "cells": [
        "H Sirius → H Chiron Dec 15.9973 16 whole (75.02) = S Moon → Sirius Dec 15.9996 16 whole (96.36)"
       ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass"
+      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 7 Two For Gold / David Bass"
      },
      {
       "label": "122.222 ninth",
@@ -9358,39 +8335,25 @@
       "field": "also: 3 Master Tommytucker / Harry Cobden"
      },
      {
-      "label": "7 whole",
-      "cells": [
-       "J Alhena → J Sun Dec 7.0186 7 whole (0.50) = S Sun → Antares Dec 7.0061 7 whole (48.51)"
-      ],
-      "field": "also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass"
-     },
-     {
       "label": "10×φ^5 phi power",
       "cells": [
        "J Denebola → J Uranus RA 110.9064 10×φ^5 phi power (98.30) = S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)"
       ],
-      "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
+      "field": "only"
      },
      {
       "label": "16 whole",
       "cells": [
        "J El Nath → J Mars Dec 16.0068 16 whole (43.55) = S Moon → Sirius Dec 15.9996 16 whole (96.36)"
       ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass"
+      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 7 Two For Gold / David Bass"
      },
      {
       "label": "10×φ^5 phi power",
       "cells": [
        "J El Nath → J Gonggong RA 110.9457 10×φ^5 phi power (84.77) = S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)"
       ],
-      "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
-     },
-     {
-      "label": "7 whole",
-      "cells": [
-       "J Nunki → J Gonggong Dec 7.0133 7 whole (11.23) = S Sun → Antares Dec 7.0061 7 whole (48.51)"
-      ],
-      "field": "also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass"
+      "field": "only"
      },
      {
       "label": "108 whole",
@@ -9409,18 +8372,11 @@
     ],
     "4": [
      {
-      "label": "60 = 360/6",
-      "cells": [
-       "H Deneb → H Venus RA 60.0038 60 whole (65.58)"
-      ],
-      "field": "also: 3 Master Tommytucker / Harry Cobden"
-     },
-     {
       "label": "12 = 360/30",
       "cells": [
        "H Denebola → H Venus Dec 12.0008 12 whole (92.36)"
       ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass"
+      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 7 Two For Gold / David Bass"
      },
      {
       "label": "1 = 360/360",
@@ -9449,20 +8405,6 @@
        "S Quaoar → J Quaoar Dec 1.9935 2 whole (45.31)"
       ],
       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass"
-     },
-     {
-      "label": "3 = 360/120",
-      "cells": [
-       "J Antares → J Rahu Dec 2.9949 3 whole (55.68)"
-      ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
-     },
-     {
-      "label": "4 = 360/90",
-      "cells": [
-       "J Deneb → J Ceres RA 4.0037 4 whole (66.05)"
-      ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass"
      },
      {
       "label": "2 = 360/180",
@@ -9519,50 +8461,6 @@
       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies"
      },
      {
-      "label": "123 whole",
-      "cells": [
-       "H Antares → H Venus RA 123.0058 123 whole (50.32)",
-       "S Nunki → J Jupiter RA 123.0182 123 whole (0.81)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "29 whole",
-      "cells": [
-       "H Antares → H Venus Dec 29.0034 29 whole (69.15)",
-       "S Makemake → J Makemake RA 28.9862 29 whole (9.57)",
-       "J Sadalsuud → J Sun Dec 28.9889 29 whole (19.85)",
-       "J Sadalsuud → J Ketu Dec 29.0086 29 whole (32.25)"
-      ],
-      "field": "also: 7 Two For Gold / David Bass"
-     },
-     {
-      "label": "38 whole",
-      "cells": [
-       "H Deneb → H Sedna Dec 37.9818 38 whole (0.78)",
-       "H Spica → H Makemake Dec 37.9805 38 whole (0.05)",
-       "J Denebola → J Rahu Dec 38.0118 38 whole (16.95)",
-       "J El Nath → J Sedna RA 38.0005 38 whole (94.80)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "53 whole",
-      "cells": [
-       "H Deneb → H Orcus Dec 52.9904 53 whole (27.15)",
-       "H Rigel → H Eris RA 53.0143 53 whole (8.05)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "66×φ golden",
-      "cells": [
-       "H Denebola → H Pluto RA 106.7881 66×φ golden (87.08)",
-       "J Jupiter → J Pallas RA 106.7922 66×φ golden (88.08)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "174 whole",
       "cells": [
        "H Sadalsuud → H Orcus RA 174.0098 174 whole (26.16)",
@@ -9579,6 +8477,15 @@
       "field": "also: 7 Two For Gold / David Bass"
      },
      {
+      "label": "38 whole",
+      "cells": [
+       "H Spica → H Makemake Dec 37.9805 38 whole (0.05)",
+       "J Denebola → J Rahu Dec 38.0118 38 whole (16.95)",
+       "J El Nath → J Sedna RA 38.0005 38 whole (94.80)"
+      ],
+      "field": "only"
+     },
+     {
       "label": "93×φ golden",
       "cells": [
        "H Vindemiatrix → H Chiron RA 150.4962 93×φ golden (17.06)",
@@ -9593,6 +8500,15 @@
        "S Neptune → J Jupiter Dec 13.9995 14 whole (95.47)"
       ],
       "field": "also: 3 Master Tommytucker / Harry Cobden"
+     },
+     {
+      "label": "29 whole",
+      "cells": [
+       "S Makemake → J Makemake RA 28.9862 29 whole (9.57)",
+       "J Sadalsuud → J Sun Dec 28.9889 29 whole (19.85)",
+       "J Sadalsuud → J Ketu Dec 29.0086 29 whole (32.25)"
+      ],
+      "field": "also: 7 Two For Gold / David Bass"
      },
      {
       "label": "2 whole",
@@ -9619,28 +8535,12 @@
       "field": "only"
      },
      {
-      "label": "3 whole",
-      "cells": [
-       "J Antares → J Rahu Dec 2.9949 3 whole (55.68)",
-       "J Sadalsuud → J Eris Dec 2.9885 3 whole (18.25)"
-      ],
-      "field": "also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore"
-     },
-     {
-      "label": "166.667 ninth",
-      "cells": [
-       "J Deneb → J Mercury RA 166.6220 166.667 ninth (96.17)",
-       "J Spica → J Mars RA 166.6542 166.667 ninth (98.93)"
-      ],
-      "field": "also: 7 Two For Gold / David Bass"
-     },
-     {
       "label": "10×φ^5 phi power",
       "cells": [
        "J Denebola → J Uranus RA 110.9064 10×φ^5 phi power (98.30)",
        "J El Nath → J Gonggong RA 110.9457 10×φ^5 phi power (84.77)"
       ],
-      "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
+      "field": "only"
      },
      {
       "label": "19 and 19×φ on H Ketu",
@@ -9678,9 +8578,7 @@
      "same_body": [
       "S Mercury → H Mercury RA 121.8185 122.222 ninth (loose)"
      ],
-     "body_lines": [
-      "S Sun → Mercury RA 1.2413 conj (2.97)"
-     ],
+     "body_lines": [],
      "on_this_chart": [
       {
        "text": "H Denebola → H Mercury RA 111.1198 111.111 ninth (98.58)",
@@ -9803,9 +8701,7 @@
      "same_body": [
       "S Pallas → H Pallas RA 87.3637 54×φ golden (loose)"
      ],
-     "body_lines": [
-      "S Jupiter → Pallas Dec 0.2217 conj (6.80)"
-     ],
+     "body_lines": [],
      "on_this_chart": [],
      "other_chart_same_body": [
       "S Pallas → J Pallas Dec 33.3761 33.3333 ninth (loose)"
@@ -9815,13 +8711,6 @@
        "text": "S Sun → J Pallas Dec 41.9958 42 whole (62.21)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "J Antares → J Pallas Dec 49.0032 49 whole (70.15)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
       },
       {
        "text": "J Denebola → J Pallas Dec 7.9978 8 whole (78.78)",
@@ -9883,13 +8772,6 @@
      ],
      "other_chart_same_body": [],
      "on_other_chart": [
-      {
-       "text": "J Antares → J Orcus RA 126.0178 126 whole (1.18)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
-      },
       {
        "text": "J Spica → J Orcus Dec 19.4136 12×φ golden (83.40)",
        "layer": "star rows",
@@ -10022,21 +8904,12 @@
      "same_body": [
       "S Pallas → J Pallas Dec 33.3761 33.3333 ninth (loose)"
      ],
-     "body_lines": [
-      "S Jupiter → Pallas Dec 0.2217 conj (6.80)"
-     ],
+     "body_lines": [],
      "on_this_chart": [
       {
        "text": "S Sun → J Pallas Dec 41.9958 42 whole (62.21)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "J Antares → J Pallas Dec 49.0032 49 whole (70.15)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
       },
       {
        "text": "J Denebola → J Pallas Dec 7.9978 8 whole (78.78)",
@@ -10154,9 +9027,7 @@
       {
        "text": "S Mercury → H Mercury RA 121.8185 122.222 ninth (loose)",
        "layer": "same body",
-       "source_lines": [
-        "S Sun → Mercury RA 1.2413 conj (2.97)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Mercury"
@@ -10346,9 +9217,7 @@
       {
        "text": "S Pallas → H Pallas RA 87.3637 54×φ golden (loose)",
        "layer": "same body",
-       "source_lines": [
-        "S Jupiter → Pallas Dec 0.2217 conj (6.80)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Pallas"
@@ -10358,9 +9227,7 @@
       {
        "text": "S Pallas → J Pallas Dec 33.3761 33.3333 ninth (loose)",
        "layer": "same body",
-       "source_lines": [
-        "S Jupiter → Pallas Dec 0.2217 conj (6.80)"
-       ],
+       "source_lines": [],
        "key": [
         "same body",
         "Pallas"
@@ -10373,18 +9240,6 @@
        "source_lines": [],
        "key": [
         "S Sun",
-        "Pallas"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Antares → J Pallas Dec 49.0032 49 whole (70.15)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
         "Pallas"
        ],
        "field": "only"
@@ -10478,18 +9333,6 @@
         "Orcus"
        ],
        "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "J Antares → J Orcus RA 126.0178 126 whole (1.18)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Orcus"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 7 Two For Gold / David Bass"
       },
       {
        "text": "J Spica → J Orcus Dec 19.4136 12×φ golden (83.40)",
@@ -10586,105 +9429,6 @@
      ]
     },
     {
-     "body": "Jupiter",
-     "cells": [
-      {
-       "text": "H Jupiter → H star Antares RA 110.9015 10×φ^5 phi power (99.92)",
-       "layer": "T1",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Jupiter"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "S Antares → H Jupiter Dec 44.0126 44 whole (13.64)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Jupiter"
-       ],
-       "field": "also: 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "H Antares → H Jupiter RA 110.9015 10×φ^5 phi power (99.92)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Jupiter"
-       ],
-       "field": "also: 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "H Denebola → H Jupiter Dec 3.0102 3 whole (24.06)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Denebola Dec 33.9942 34 whole (50.13)"
-       ],
-       "key": [
-        "Denebola",
-        "Jupiter"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle"
-      },
-      {
-       "text": "S Pallas → J Jupiter Dec 0.2550 conj (2.25)",
-       "layer": "top rows",
-       "source_lines": [
-        "S Jupiter → Pallas Dec 0.2217 conj (6.80)"
-       ],
-       "key": [
-        "S Pallas",
-        "Jupiter"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Sadalsuud → J Jupiter RA 112.0100 112 whole (24.92)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Jupiter"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies"
-      },
-      {
-       "text": "S Spica → J Jupiter Dec 0.1012 conj (43.91)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Spica RA 135.9064 84×φ golden (54.47)"
-       ],
-       "key": [
-        "Spica",
-        "Jupiter"
-       ],
-       "field": "also: 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "S Vindemiatrix → J Jupiter Dec 22.0175 22 whole (1.59)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)"
-       ],
-       "key": [
-        "Vindemiatrix",
-        "Jupiter"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
      "body": "Sedna",
      "cells": [
       {
@@ -10744,18 +9488,6 @@
         "Sedna"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Deneb → J Sedna Dec 41.9949 42 whole (55.45)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Sedna"
-       ],
-       "field": "also: 5 Itchy Feet / Gavin Sheehan"
       },
       {
        "text": "J Sirius → J Sedna Dec 19.9932 20 whole (43.44)",
@@ -10859,30 +9591,6 @@
        "field": "also: 3 Master Tommytucker / Harry Cobden"
       },
       {
-       "text": "H Antares → H Rahu RA 58.9840 59 whole (4.04)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Rahu"
-       ],
-       "field": "also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan"
-      },
-      {
-       "text": "H Deneb → H Rahu RA 121.9856 122 whole (7.92)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Rahu"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies"
-      },
-      {
        "text": "J Vindemiatrix → J Rahu RA 90.0164 90 whole (3.18)",
        "layer": "star rows",
        "source_lines": [
@@ -10910,18 +9618,6 @@
         "Venus"
        ],
        "field": "only"
-      },
-      {
-       "text": "H Antares → H Venus RA 156.9232 97×φ golden (3.74)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Venus"
-       ],
-       "field": "also: 5 Itchy Feet / Gavin Sheehan"
       },
       {
        "text": "H Nunki → H Venus RA 166.6145 166.667 ninth (95.53)",
@@ -11028,20 +9724,71 @@
      ]
     },
     {
-     "body": "Vesta",
+     "body": "Jupiter",
      "cells": [
       {
-       "text": "H Antares → H Vesta Dec 17.9988 18 whole (87.89)",
+       "text": "H Denebola → H Jupiter Dec 3.0102 3 whole (24.06)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
+        "S Sun → Denebola Dec 33.9942 34 whole (50.13)"
        ],
        "key": [
-        "Antares",
-        "Vesta"
+        "Denebola",
+        "Jupiter"
+       ],
+       "field": "also: 2 Dashel Drasher / Rex Dingle"
+      },
+      {
+       "text": "S Pallas → J Jupiter Dec 0.2550 conj (2.25)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Pallas",
+        "Jupiter"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "S Sadalsuud → J Jupiter RA 112.0100 112 whole (24.92)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)"
+       ],
+       "key": [
+        "Sadalsuud",
+        "Jupiter"
+       ],
+       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies"
+      },
+      {
+       "text": "S Spica → J Jupiter Dec 0.1012 conj (43.91)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Spica RA 135.9064 84×φ golden (54.47)"
+       ],
+       "key": [
+        "Spica",
+        "Jupiter"
        ],
        "field": "also: 7 Two For Gold / David Bass"
       },
+      {
+       "text": "S Vindemiatrix → J Jupiter Dec 22.0175 22 whole (1.59)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)"
+       ],
+       "key": [
+        "Vindemiatrix",
+        "Jupiter"
+       ],
+       "field": "only"
+      }
+     ]
+    },
+    {
+     "body": "Vesta",
+     "cells": [
       {
        "text": "H Denebola → H Vesta Dec 23.0051 23 whole (55.22)",
        "layer": "star rows",
@@ -11117,102 +9864,8 @@
      ]
     },
     {
-     "body": "Ketu",
-     "cells": [
-      {
-       "text": "H Antares → H Ketu RA 121.0160 121 whole (4.04)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Ketu"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass"
-      },
-      {
-       "text": "H Deneb → H Ketu RA 58.0144 58 whole (7.92)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Ketu"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies"
-      },
-      {
-       "text": "H El Nath → H Ketu Dec 24.9946 25 whole (53.33)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → El Nath RA 107.9956 108 whole (60.79)"
-       ],
-       "key": [
-        "El Nath",
-        "Ketu"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan"
-      },
-      {
-       "text": "J Vindemiatrix → J Ketu RA 89.9836 90 whole (3.18)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)"
-       ],
-       "key": [
-        "Vindemiatrix",
-        "Ketu"
-       ],
-       "field": "also: 5 Itchy Feet / Gavin Sheehan"
-      }
-     ]
-    },
-    {
-     "body": "Ceres",
-     "cells": [
-      {
-       "text": "H Deneb → H Ceres RA 0.7056 conj (28.05)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Ceres"
-       ],
-       "field": "also: 5 Itchy Feet / Gavin Sheehan"
-      },
-      {
-       "text": "J Nunki → J Ceres Dec 17.0198 17 whole (0.01)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)"
-       ],
-       "key": [
-        "Nunki",
-        "Ceres"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
      "body": "Makemake",
      "cells": [
-      {
-       "text": "H Deneb → H Makemake RA 118.1019 73×φ golden (30.06)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Makemake"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass"
-      },
       {
        "text": "H Denebola → H Makemake RA 14.9912 15 whole (31.22)",
        "layer": "star rows",
@@ -11265,6 +9918,35 @@
         "Uranus"
        ],
        "field": "only"
+      }
+     ]
+    },
+    {
+     "body": "Ketu",
+     "cells": [
+      {
+       "text": "H El Nath → H Ketu Dec 24.9946 25 whole (53.33)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → El Nath RA 107.9956 108 whole (60.79)"
+       ],
+       "key": [
+        "El Nath",
+        "Ketu"
+       ],
+       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan"
+      },
+      {
+       "text": "J Vindemiatrix → J Ketu RA 89.9836 90 whole (3.18)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)"
+       ],
+       "key": [
+        "Vindemiatrix",
+        "Ketu"
+       ],
+       "field": "also: 5 Itchy Feet / Gavin Sheehan"
       }
      ]
     },
@@ -11514,6 +10196,23 @@
        "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden"
       }
      ]
+    },
+    {
+     "body": "Ceres",
+     "cells": [
+      {
+       "text": "J Nunki → J Ceres Dec 17.0198 17 whole (0.01)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)"
+       ],
+       "key": [
+        "Nunki",
+        "Ceres"
+       ],
+       "field": "only"
+      }
+     ]
     }
    ],
    "cases": {
@@ -11562,25 +10261,11 @@
       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan"
      },
      {
-      "label": "10×φ^5 phi power",
-      "cells": [
-       "H Jupiter → H star Antares RA 110.9015 10×φ^5 phi power (99.92) = S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)"
-      ],
-      "field": "also: 5 Itchy Feet / Gavin Sheehan"
-     },
-     {
       "label": "68×φ golden",
       "cells": [
        "H Alhena → H Chiron RA 110.0264 68×φ golden (99.20) = S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)"
       ],
       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies"
-     },
-     {
-      "label": "10×φ^5 phi power",
-      "cells": [
-       "H Antares → H Jupiter RA 110.9015 10×φ^5 phi power (99.92) = S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)"
-      ],
-      "field": "also: 5 Itchy Feet / Gavin Sheehan"
      },
      {
       "label": "111.111 ninth",
@@ -11617,14 +10302,14 @@
       "cells": [
        "S Orcus → H Orcus Dec 3.9726 4 whole (loose)"
       ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass"
+      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass"
      },
      {
       "label": "18 = 360/20",
       "cells": [
        "S Jupiter → H Sedna Dec 17.9976 18 whole (77.86)"
       ],
-      "field": "also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass"
+      "field": "also: 7 Two For Gold / David Bass"
      },
      {
       "label": "9 = 360/40",
@@ -11646,13 +10331,6 @@
        "H Alhena → H Sedna Dec 8.9848 9 whole (5.88)"
       ],
       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass"
-     },
-     {
-      "label": "18 = 360/20",
-      "cells": [
-       "H Antares → H Vesta Dec 17.9988 18 whole (87.89)"
-      ],
-      "field": "also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass"
      },
      {
       "label": "3 = 360/120",
@@ -11701,7 +10379,7 @@
       "cells": [
        "J Nunki → J Gonggong Dec 3.9963 4 whole (66.23)"
       ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass"
+      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass"
      },
      {
       "label": "15 = 360/24",
@@ -11747,7 +10425,7 @@
        "S Haumea → H Haumea Dec 2.9806 3 whole (0.10)",
        "H Denebola → H Jupiter Dec 3.0102 3 whole (24.06)"
       ],
-      "field": "also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan"
+      "field": "also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden"
      },
      {
       "label": "4 whole",
@@ -11756,22 +10434,6 @@
        "J Nunki → J Gonggong Dec 3.9963 4 whole (66.23)"
       ],
       "field": "also: 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass"
-     },
-     {
-      "label": "10×φ^5 phi power",
-      "cells": [
-       "H Jupiter → H star Antares RA 110.9015 10×φ^5 phi power (99.92)",
-       "H Antares → H Jupiter RA 110.9015 10×φ^5 phi power (99.92)"
-      ],
-      "field": "also: 5 Itchy Feet / Gavin Sheehan"
-     },
-     {
-      "label": "18 whole",
-      "cells": [
-       "S Jupiter → H Sedna Dec 17.9976 18 whole (77.86)",
-       "H Antares → H Vesta Dec 17.9988 18 whole (87.89)"
-      ],
-      "field": "also: 7 Two For Gold / David Bass"
      },
      {
       "label": "9 whole",
@@ -11804,7 +10466,7 @@
        "H Denebola → H Mercury RA 111.1198 111.111 ninth (98.58)",
        "J Sadalsuud → J Mercury RA 111.1385 111.111 ninth (95.53)"
       ],
-      "field": "also: 3 Master Tommytucker / Harry Cobden"
+      "field": "only"
      },
      {
       "label": "15 whole",
@@ -11837,7 +10499,7 @@
        "J Alhena → J Juno Dec 22.0122 22 whole (15.26)",
        "S Vindemiatrix → J Jupiter Dec 22.0175 22 whole (1.59)"
       ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 7 Two For Gold / David Bass"
+      "field": "also: 7 Two For Gold / David Bass"
      },
      {
       "label": "82 whole",
@@ -11856,26 +10518,10 @@
       "field": "only"
      },
      {
-      "label": "42 whole",
-      "cells": [
-       "S Sun → J Pallas Dec 41.9958 42 whole (62.21)",
-       "J Deneb → J Sedna Dec 41.9949 42 whole (55.45)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "8 whole",
       "cells": [
        "J Alhena → J Haumea Dec 8.0001 8 whole (98.73)",
        "J Denebola → J Pallas Dec 7.9978 8 whole (78.78)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "49 whole",
-      "cells": [
-       "J Ankaa → J Pluto Dec 49.0147 49 whole (7.14)",
-       "J Antares → J Pallas Dec 49.0032 49 whole (70.15)"
       ],
       "field": "only"
      },
@@ -12086,13 +10732,6 @@
        ]
       },
       {
-       "text": "H Deneb → H Juno RA 0.9243 conj (14.73)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ]
-      },
-      {
        "text": "H Spica → H Juno Dec 4.0165 4 whole (3.12)",
        "layer": "star rows",
        "source_lines": [
@@ -12136,13 +10775,6 @@
        ]
       },
       {
-       "text": "H Antares → H Vesta Dec 50.1599 31×φ golden (95.10)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
-      },
-      {
        "text": "H Sirius → H Vesta Dec 40.4514 25×φ golden (96.37)",
        "layer": "star rows",
        "source_lines": [
@@ -12165,13 +10797,6 @@
        "source_lines": [
         "S Sun → Ankaa RA 61.0007 61 whole (92.80)",
         "S Moon → Ankaa RA 176.9962 177 whole (65.72)"
-       ]
-      },
-      {
-       "text": "J Deneb → J Vesta RA 161.8046 100×φ^1 phi power (99.71)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
        ]
       },
       {
@@ -12217,13 +10842,6 @@
        "source_lines": []
       },
       {
-       "text": "H Deneb → H Makemake Dec 18.0026 18 whole (75.53)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ]
-      },
-      {
        "text": "H Sadalsuud → H Makemake RA 132.0003 132 whole (96.54)",
        "layer": "star rows",
        "source_lines": [
@@ -12253,13 +10871,6 @@
        "text": "S Sun → H Orcus Dec 11.9944 12 whole (51.78)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "H Antares → H Orcus Dec 19.0016 19 whole (84.54)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
       },
       {
        "text": "H Denebola → H Orcus Dec 22.0012 22 whole (88.80)",
@@ -12390,13 +11001,6 @@
        "source_lines": [
         "S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)"
        ]
-      },
-      {
-       "text": "S Antares → J Jupiter RA 166.6677 166.667 ninth (99.92)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ]
       }
      ],
      "other_chart_same_body": [],
@@ -12492,13 +11096,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)"
-       ]
-      },
-      {
-       "text": "H Deneb → H Juno RA 0.9243 conj (14.73)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
        ]
       },
       {
@@ -12852,18 +11449,6 @@
        "field": "also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore"
       },
       {
-       "text": "H Deneb → H Juno RA 0.9243 conj (14.73)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Juno"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden"
-      },
-      {
        "text": "H Spica → H Juno Dec 4.0165 4 whole (3.12)",
        "layer": "star rows",
        "source_lines": [
@@ -12937,18 +11522,6 @@
        "field": "also: 2 Dashel Drasher / Rex Dingle"
       },
       {
-       "text": "H Antares → H Vesta Dec 50.1599 31×φ golden (95.10)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Vesta"
-       ],
-       "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
-      },
-      {
        "text": "H Sirius → H Vesta Dec 40.4514 25×φ golden (96.37)",
        "layer": "star rows",
        "source_lines": [
@@ -12984,18 +11557,6 @@
         "Vesta"
        ],
        "field": "also: 2 Dashel Drasher / Rex Dingle"
-      },
-      {
-       "text": "J Deneb → J Vesta RA 161.8046 100×φ^1 phi power (99.71)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Vesta"
-       ],
-       "field": "also: 3 Master Tommytucker / Harry Cobden"
       },
       {
        "text": "J El Nath → J Vesta RA 66.9932 67 whole (43.63)",
@@ -13070,18 +11631,6 @@
        "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden"
       },
       {
-       "text": "H Deneb → H Makemake Dec 18.0026 18 whole (75.53)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Makemake"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore"
-      },
-      {
        "text": "H Sadalsuud → H Makemake RA 132.0003 132 whole (96.54)",
        "layer": "star rows",
        "source_lines": [
@@ -13129,18 +11678,6 @@
         "Orcus"
        ],
        "field": "only"
-      },
-      {
-       "text": "H Antares → H Orcus Dec 19.0016 19 whole (84.54)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Orcus"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 6 Lieutenant Rocco / Tom Scudamore"
       },
       {
        "text": "H Denebola → H Orcus Dec 22.0012 22 whole (88.80)",
@@ -13260,80 +11797,6 @@
      ]
     },
     {
-     "body": "Mercury",
-     "cells": [
-      {
-       "text": "H Jupiter → H Mercury RA 68.9952 69 whole (58.01)",
-       "layer": "T1",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Mercury"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "H Denebola → H Mercury RA 173.1245 107×φ golden (70.67)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Denebola Dec 33.9942 34 whole (50.13)"
-       ],
-       "key": [
-        "Denebola",
-        "Mercury"
-       ],
-       "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
-      },
-      {
-       "text": "H Menkar → H Mercury RA 41.4217 41.4 silver (99.71)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Menkar RA 100.0021 100 whole (79.93)",
-        "S Moon → Menkar RA 144.0024 89×φ golden (84.43)"
-       ],
-       "key": [
-        "Menkar",
-        "Mercury"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle"
-      },
-      {
-       "text": "H Vindemiatrix → H Mercury Dec 11.9991 12 whole (91.18)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)"
-       ],
-       "key": [
-        "Vindemiatrix",
-        "Mercury"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden"
-      },
-      {
-       "text": "S Sun → J Mercury RA 133.3847 133.333 ninth (93.84)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Sun",
-        "Mercury"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden"
-      },
-      {
-       "text": "J Rigel → J Mercury RA 0.3246 conj (61.40)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)"
-       ],
-       "key": [
-        "Rigel",
-        "Mercury"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
      "body": "Jupiter",
      "cells": [
       {
@@ -13396,17 +11859,7 @@
         "natal Jupiter",
         "Jupiter"
        ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore"
-      },
-      {
-       "text": "J Jupiter → J star Antares RA 166.6585 166.667 ninth (99.30)",
-       "layer": "T2",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Jupiter"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore"
+       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden"
       },
       {
        "text": "S Pluto → J Jupiter Dec 41.0024 41 whole (77.79)",
@@ -13429,18 +11882,6 @@
         "Jupiter"
        ],
        "field": "only"
-      },
-      {
-       "text": "S Antares → J Jupiter RA 166.6677 166.667 ninth (99.92)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Jupiter"
-       ],
-       "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
       }
      ]
     },
@@ -13571,18 +12012,6 @@
        "field": "only"
       },
       {
-       "text": "J Antares → J Transpluto Dec 40.9855 41 whole (7.49)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
-       ],
-       "key": [
-        "Antares",
-        "Transpluto"
-       ],
-       "field": "only"
-      },
-      {
        "text": "J Denebola → J Transpluto Dec 0.0215 conj (86.15)",
        "layer": "star rows",
        "source_lines": [
@@ -13597,22 +12026,22 @@
      ]
     },
     {
-     "body": "Ketu",
+     "body": "Mercury",
      "cells": [
       {
-       "text": "H Antares → H Ketu RA 156.9611 97×φ golden (40.50)",
+       "text": "H Denebola → H Mercury RA 173.1245 107×φ golden (70.67)",
        "layer": "star rows",
        "source_lines": [
-        "S Sun → Antares Dec 7.0061 7 whole (48.51)"
+        "S Sun → Denebola Dec 33.9942 34 whole (50.13)"
        ],
        "key": [
-        "Antares",
-        "Ketu"
+        "Denebola",
+        "Mercury"
        ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore"
+       "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
       },
       {
-       "text": "H Menkar → H Ketu RA 1.2474 conj (2.84)",
+       "text": "H Menkar → H Mercury RA 41.4217 41.4 silver (99.71)",
        "layer": "star rows",
        "source_lines": [
         "S Sun → Menkar RA 100.0021 100 whole (79.93)",
@@ -13620,69 +12049,43 @@
        ],
        "key": [
         "Menkar",
-        "Ketu"
+        "Mercury"
        ],
        "field": "also: 2 Dashel Drasher / Rex Dingle"
       },
       {
-       "text": "H Spica → H Ketu RA 156.9860 157 whole (8.90)",
+       "text": "H Vindemiatrix → H Mercury Dec 11.9991 12 whole (91.18)",
        "layer": "star rows",
        "source_lines": [
-        "S Jupiter → Spica RA 135.9064 84×φ golden (54.47)"
+        "S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)"
        ],
        "key": [
-        "Spica",
-        "Ketu"
+        "Vindemiatrix",
+        "Mercury"
        ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle"
+       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden"
       },
       {
-       "text": "H Spica → H Ketu Dec 28.0134 28 whole (10.97)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Spica RA 135.9064 84×φ golden (54.47)"
-       ],
+       "text": "S Sun → J Mercury RA 133.3847 133.333 ninth (93.84)",
+       "layer": "top rows",
+       "source_lines": [],
        "key": [
-        "Spica",
-        "Ketu"
+        "S Sun",
+        "Mercury"
        ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle"
+       "field": "also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden"
       },
       {
-       "text": "J Alhena → J Ketu Dec 11.0921 φ^5 phi power (93.04)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)"
-       ],
-       "key": [
-        "Alhena",
-        "Ketu"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Rigel → J Ketu RA 88.9980 89 whole (81.07)",
+       "text": "J Rigel → J Mercury RA 0.3246 conj (61.40)",
        "layer": "star rows",
        "source_lines": [
         "S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)"
        ],
        "key": [
         "Rigel",
-        "Ketu"
+        "Mercury"
        ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan"
-      },
-      {
-       "text": "J Sirius → J Ketu Dec 22.0196 22 whole (0.05)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Sirius Dec 15.9996 16 whole (96.36)"
-       ],
-       "key": [
-        "Sirius",
-        "Ketu"
-       ],
-       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies"
+       "field": "only"
       }
      ]
     },
@@ -13927,6 +12330,84 @@
      ]
     },
     {
+     "body": "Ketu",
+     "cells": [
+      {
+       "text": "H Menkar → H Ketu RA 1.2474 conj (2.84)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Menkar RA 100.0021 100 whole (79.93)",
+        "S Moon → Menkar RA 144.0024 89×φ golden (84.43)"
+       ],
+       "key": [
+        "Menkar",
+        "Ketu"
+       ],
+       "field": "also: 2 Dashel Drasher / Rex Dingle"
+      },
+      {
+       "text": "H Spica → H Ketu RA 156.9860 157 whole (8.90)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Spica RA 135.9064 84×φ golden (54.47)"
+       ],
+       "key": [
+        "Spica",
+        "Ketu"
+       ],
+       "field": "also: 2 Dashel Drasher / Rex Dingle"
+      },
+      {
+       "text": "H Spica → H Ketu Dec 28.0134 28 whole (10.97)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Spica RA 135.9064 84×φ golden (54.47)"
+       ],
+       "key": [
+        "Spica",
+        "Ketu"
+       ],
+       "field": "also: 2 Dashel Drasher / Rex Dingle"
+      },
+      {
+       "text": "J Alhena → J Ketu Dec 11.0921 φ^5 phi power (93.04)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)"
+       ],
+       "key": [
+        "Alhena",
+        "Ketu"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Rigel → J Ketu RA 88.9980 89 whole (81.07)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)"
+       ],
+       "key": [
+        "Rigel",
+        "Ketu"
+       ],
+       "field": "also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan"
+      },
+      {
+       "text": "J Sirius → J Ketu Dec 22.0196 22 whole (0.05)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Sirius Dec 15.9996 16 whole (96.36)"
+       ],
+       "key": [
+        "Sirius",
+        "Ketu"
+       ],
+       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies"
+      }
+     ]
+    },
+    {
      "body": "Haumea",
      "cells": [
       {
@@ -14132,19 +12613,7 @@
         "natal Jupiter",
         "Pallas"
        ],
-       "field": "also: 5 Itchy Feet / Gavin Sheehan"
-      },
-      {
-       "text": "J Deneb → J Pallas RA 0.4642 conj (47.68)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-       ],
-       "key": [
-        "Deneb",
-        "Pallas"
-       ],
-       "field": "also: 2 Dashel Drasher / Rex Dingle"
+       "field": "only"
       },
       {
        "text": "J Sadalsuud → J Pallas RA 12.9932 13 whole (43.49)",
@@ -14251,32 +12720,18 @@
       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies"
      },
      {
-      "label": "46 whole",
-      "cells": [
-       "S Mars → H Jupiter Dec 46.0020 46 whole (81.25) = S Moon → Deneb Dec 46.0059 46 whole (49.51)"
-      ],
-      "field": "also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan"
-     },
-     {
-      "label": "7 whole",
-      "cells": [
-       "H Menkar → H Venus Dec 6.9940 7 whole (49.07) = S Sun → Antares Dec 7.0061 7 whole (48.51)"
-      ],
-      "field": "also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan"
-     },
-     {
       "label": "16 whole",
       "cells": [
        "H Menkar → H Saturn Dec 16.0148 16 whole (6.69) = S Moon → Sirius Dec 15.9996 16 whole (96.36)"
       ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan"
+      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan"
      },
      {
       "label": "16 whole",
       "cells": [
        "H Vindemiatrix → H Pallas Dec 16.0060 16 whole (48.81) = S Moon → Sirius Dec 15.9996 16 whole (96.36)"
       ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan"
+      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan"
      },
      {
       "label": "133.333 ninth",
@@ -14313,14 +12768,14 @@
       "cells": [
        "S Sun → H Orcus Dec 11.9944 12 whole (51.78)"
       ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan"
+      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan"
      },
      {
       "label": "18 = 360/20",
       "cells": [
        "H Ankaa → H Sun RA 17.9871 18 whole (12.58)"
       ],
-      "field": "also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore"
+      "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
      },
      {
       "label": "30 = 360/12",
@@ -14328,13 +12783,6 @@
        "H Ankaa → H Neptune RA 29.9901 30 whole (25.41)"
       ],
       "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden"
-     },
-     {
-      "label": "18 = 360/20",
-      "cells": [
-       "H Deneb → H Makemake Dec 18.0026 18 whole (75.53)"
-      ],
-      "field": "also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore"
      },
      {
       "label": "1 = 360/360",
@@ -14355,14 +12803,14 @@
       "cells": [
        "H Spica → H Juno Dec 4.0165 4 whole (3.12)"
       ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore"
+      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore"
      },
      {
       "label": "12 = 360/30",
       "cells": [
        "H Vindemiatrix → H Mercury Dec 11.9991 12 whole (91.18)"
       ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan"
+      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan"
      },
      {
       "label": "1 = 360/360",
@@ -14376,14 +12824,14 @@
       "cells": [
        "S Mars → J Mars Dec 18.0081 18 whole (35.32)"
       ],
-      "field": "also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore"
+      "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
      },
      {
       "label": "4 = 360/90",
       "cells": [
        "S Sedna → J Sedna Dec 3.9712 4 whole (loose)"
       ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore"
+      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore"
      },
      {
       "label": "2 = 360/180",
@@ -14418,14 +12866,14 @@
       "cells": [
        "J Nunki → J Saturn Dec 3.9858 4 whole (8.54)"
       ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore"
+      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore"
      },
      {
       "label": "4 = 360/90",
       "cells": [
        "J Sadalsuud → J Eris Dec 4.0022 4 whole (79.19)"
       ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore"
+      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore"
      }
     ],
     "5": [
@@ -14464,14 +12912,6 @@
       "field": "also: 3 Master Tommytucker / Harry Cobden"
      },
      {
-      "label": "69 whole",
-      "cells": [
-       "H Jupiter → H Mercury RA 68.9952 69 whole (58.01)",
-       "H Menkar → H Neptune RA 68.9893 69 whole (21.79)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "12 whole",
       "cells": [
        "S Sun → H Orcus Dec 11.9944 12 whole (51.78)",
@@ -14493,10 +12933,9 @@
       "label": "18 whole",
       "cells": [
        "H Ankaa → H Sun RA 17.9871 18 whole (12.58)",
-       "H Deneb → H Makemake Dec 18.0026 18 whole (75.53)",
        "S Mars → J Mars Dec 18.0081 18 whole (35.32)"
       ],
-      "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
+      "field": "only"
      },
      {
       "label": "22 whole",
@@ -14504,7 +12943,7 @@
        "H Denebola → H Orcus Dec 22.0012 22 whole (88.80)",
        "J Sirius → J Ketu Dec 22.0196 22 whole (0.05)"
       ],
-      "field": "also: 1 Bristol De Mai / Sam Twiston-Davies, 6 Lieutenant Rocco / Tom Scudamore"
+      "field": "also: 6 Lieutenant Rocco / Tom Scudamore"
      },
      {
       "label": "21 whole",
@@ -14558,14 +12997,6 @@
       "field": "also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan"
      },
      {
-      "label": "166.667 ninth",
-      "cells": [
-       "J Jupiter → J star Antares RA 166.6585 166.667 ninth (99.30)",
-       "S Antares → J Jupiter RA 166.6677 166.667 ninth (99.92)"
-      ],
-      "field": "also: 5 Itchy Feet / Gavin Sheehan"
-     },
-     {
       "label": "37 whole",
       "cells": [
        "S Sun → J Saturn RA 37.0021 37 whole (79.75)",
@@ -14574,26 +13005,10 @@
       "field": "only"
      },
      {
-      "label": "41 whole",
-      "cells": [
-       "S Pluto → J Jupiter Dec 41.0024 41 whole (77.79)",
-       "J Antares → J Transpluto Dec 40.9855 41 whole (7.49)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "67 whole",
       "cells": [
        "J Ankaa → J Venus RA 67.0156 67 whole (4.75)",
        "J El Nath → J Vesta RA 66.9932 67 whole (43.63)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "100×φ^1 phi power",
-      "cells": [
-       "J Deneb → J Vesta RA 161.8046 100×φ^1 phi power (99.71)",
-       "J El Nath → J Neptune RA 161.8772 100×φ^1 phi power (82.58)"
       ],
       "field": "only"
      }
@@ -14608,20 +13023,17 @@
    "Transpluto"
   ],
   "lines": [
-   "S Jupiter → Pallas Dec 0.2217 conj (6.80)",
    "S Jupiter → Gonggong RA 0.7553 conj (24.65)",
    "S Jupiter → Transpluto RA 177.7848 177.778 ninth (99.45)",
    "S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17)",
    "S Jupiter → Spica RA 135.9064 84×φ golden (54.47)",
    "S Jupiter → Nunki RA 53.3948 33×φ golden (98.03)",
-   "S Sun → Mercury RA 1.2413 conj (2.97)",
    "S Sun → Rahu RA 111.1604 111.111 ninth (91.93)",
    "S Sun → Moon RA 115.9955 116 whole (59.91)",
    "S Sun → Ankaa RA 61.0007 61 whole (92.80)",
    "S Sun → Menkar RA 100.0021 100 whole (79.93)",
    "S Sun → Denebola Dec 33.9942 34 whole (50.13)",
    "S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65)",
-   "S Sun → Antares Dec 7.0061 7 whole (48.51)",
    "S Moon → Sun RA 115.9955 116 whole (59.91)",
    "S Moon → Transpluto Dec 11.1107 11.1111 ninth (99.38)",
    "S Moon → Ankaa RA 176.9962 177 whole (65.72)",
@@ -14629,7 +13041,6 @@
    "S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)",
    "S Moon → El Nath RA 107.9956 108 whole (60.79)",
    "S Moon → Sirius Dec 15.9996 16 whole (96.36)",
-   "S Moon → Deneb Dec 46.0059 46 whole (49.51)",
    "S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)"
   ]
  }

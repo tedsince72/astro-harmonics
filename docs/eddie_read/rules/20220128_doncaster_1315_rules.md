@@ -121,11 +121,6 @@ _The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (sta
 ### B8 One line star on the most natal bodies
 _For each runner and each natal star on one chart (every star-row star is on a sky Jupiter, Sun or Moon line), count the different natal bodies of that chart it reaches with a cell scoring 80 or more (the natal star's own cell; a sky copy of the star does not count). The runner(s) with the highest count are picked; ties: every runner on the top count. Horse and jockey charts count separately._
 - 1 Funambule Sivola / Charlie Deutsch
-  - H Murzim on 4 natal bodies at 80 or more (most in the field; next 3)
-  - H Murzim → H Sedna RA 41.4216 41.4 silver (99.74)
-  - H Murzim → H Quaoar Dec 2.2221 2.22222 ninth (98.79)
-  - H Murzim → H Ceres RA 175.9997 176 whole (96.57)
-  - H Murzim → H Chiron Dec 16.1824 10×φ^1 phi power (95.06)
   - J Sualocin on 4 natal bodies at 80 or more (most in the field; next 3)
   - J Sualocin → J Pluto RA 67.9997 68 whole (97.14)
   - J Sualocin → J Transpluto Dec 2.2228 2.22222 ninth (91.96)

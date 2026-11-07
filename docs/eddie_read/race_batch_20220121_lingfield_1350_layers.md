@@ -7,7 +7,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - Cloth numbers not in the tables workbook: none
 
 ## Sky (noted lines)
-- S Jupiter → Pallas Dec 0.1900 conj (13.44)
 - S Jupiter → Orcus RA 179.6087 111×φ golden (61.81)
 - S Jupiter → Gonggong RA 0.3439 conj (59.41)
 - S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
@@ -17,14 +16,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
 - S Sun → Ketu Dec 0.0774 conj (55.07)
 - S Moon → Gonggong RA 170.9993 171 whole (93.54)
-- S Moon → Transpluto Dec 0.2980 conj (0.00)
 - S Moon → Mirach RA 147.9983 148 whole (84.01)
 - S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)
 - S Moon → Alhena RA 65.9978 66 whole (78.94)
 - S Moon → Castor RA 51.7767 32×φ golden (97.46)
 - S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
 - S Moon → Alkes RA 0.4866 conj (45.64)
-- S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
 - S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
 - S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
@@ -62,7 +59,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, same body: S Haumea → J Haumea RA 30.7414 19×φ golden (92.20)
   - other chart, top rows: S Jupiter → J Haumea RA 150.0012 150 whole (88.05)
 - **H Transpluto** (same body: S Transpluto → H Transpluto Dec 1.2219 1.22222 ninth (loose))
-  - sky line to Transpluto: S Moon → Transpluto Dec 0.2980 conj (0.00)
   - star rows: H Mirach → H Transpluto Dec 24.0167 24 whole (2.78)
     - source line: S Moon → Mirach RA 147.9983 148 whole (84.01)
   - star rows: H Regulus → H Transpluto RA 0.3551 conj (58.25)
@@ -77,8 +73,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Mercury** (same body: S Mercury → J Mercury RA 122.4232 122.222 ninth (loose); S Mercury → J Mercury Dec 10.0129 10 whole (12.50))
   - star rows: J Regulus → J Mercury Dec 18.0130 18 whole (12.15)
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
-  - star rows: J Vindemiatrix → J Mercury Dec 17.0057 17 whole (51.12)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - other chart, top rows: S Moon → H Mercury RA 133.3468 133.333 ninth (98.38)
   - other chart, star rows: H Alkes → H Mercury Dec 30.7473 19×φ golden (73.26)
     - source line: S Moon → Alkes RA 0.4866 conj (45.64)
@@ -153,8 +147,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, top rows: S Moon → H Ketu Dec 0.1538 conj (23.74)
   - other chart, star rows: H Fomalhaut → H Ketu Dec 40.4533 25×φ golden (85.39)
     - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
-  - other chart, star rows: H Vindemiatrix → H Ketu Dec 0.1269 conj (33.29)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 ### L3 matches
 - **1. same body on both charts**
   - Sedna — only
@@ -168,7 +160,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Mercury → J Mercury RA 122.4232 122.222 ninth (loose)
     - S Mercury → J Mercury Dec 10.0129 10 whole (12.50)
 - **3. runner number = sky number**
-  - 171 whole — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
+  - 171 whole — also: 2 Financier / Richard Patrick
     - S Quaoar → H Jupiter RA 171.0047 171 whole (58.49) = S Moon → Gonggong RA 170.9993 171 whole (93.54)
   - 66 whole — also: 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
     - S Moon → J Jupiter RA 65.9961 66 whole (64.92) = S Moon → Alhena RA 65.9978 66 whole (78.94)
@@ -195,13 +187,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Regulus → H Mercury RA 120.0097 120 whole (26.39)
   - 3 = 360/120 — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
     - H Sadalmelik → H Mars Dec 3.0193 3 whole (0.14)
-  - 12 = 360/30 — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
-    - H Vindemiatrix → H Chiron Dec 11.9906 12 whole (27.92)
   - 10 = 360/36 — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
     - S Mercury → J Mercury Dec 10.0129 10 whole (12.50)
   - 4 = 360/90 — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
     - S Sedna → J Sedna Dec 3.9959 4 whole (62.95)
-  - 5 = 360/72 — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - 5 = 360/72 — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
     - S Jupiter → J Venus Dec 4.9954 5 whole (59.47)
   - 4 = 360/90 — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
     - S Ceres → J Jupiter Dec 4.0008 4 whole (92.00)
@@ -227,15 +217,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Jupiter → H Vesta RA 133.3106 133.333 ninth (97.27)
     - S Moon → H Mercury RA 133.3468 133.333 ninth (98.38)
     - J Pleiades → J Juno RA 133.3040 133.333 ninth (96.47)
-    - J Vindemiatrix → J Gonggong RA 133.3963 133.333 ninth (92.45)
   - 32 whole — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
     - H Alhena → H Saturn Dec 31.9936 32 whole (45.94)
     - H Mirach → H Chiron RA 31.9932 32 whole (43.36)
   - 19×φ golden — only
     - H Alkes → H Mercury Dec 30.7473 19×φ golden (73.26)
     - S Haumea → J Haumea RA 30.7414 19×φ golden (92.20)
-    - J Jupiter → J Pallas Dec 30.7412 19×φ golden (91.27)
-  - 52 whole — also: 7 Beaufort West / Page Fuller
+  - 52 whole — only
     - H Castor → H Pluto Dec 52.0014 52 whole (86.34)
     - S Galactic Centre → H Jupiter Dec 52.0075 52 whole (39.25)
   - 45 whole — also: 5 Cedar Hill / Jonathan Burke
@@ -276,9 +264,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 8 whole — only
     - J Pleiades → J Chiron Dec 7.9822 8 whole (1.23)
     - J Rigel → J Juno Dec 8.0172 8 whole (2.00)
-  - 17 whole — only
-    - J Scheat → J Gonggong RA 17.0125 17 whole (14.21)
-    - J Vindemiatrix → J Mercury Dec 17.0057 17 whole (51.12)
 ### L4 every natal body
 - **Pluto**
   - same body: S Pluto → H Pluto RA 14.4543 14.4444 ninth (loose) — also: 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
@@ -301,7 +286,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Jupiter → J Haumea RA 150.0012 150 whole (88.05) — only
 - **Transpluto**
   - same body: S Transpluto → H Transpluto Dec 1.2219 1.22222 ninth (loose) — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Transpluto Dec 0.2980 conj (0.00)
   - star rows: H Mirach → H Transpluto Dec 24.0167 24 whole (2.78) — also: 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
     - source line: S Moon → Mirach RA 147.9983 148 whole (84.01)
   - star rows: H Regulus → H Transpluto RA 0.3551 conj (58.25) — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
@@ -375,8 +359,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Scheat → J Gonggong RA 17.0125 17 whole (14.21) — only
     - source line: S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
     - source line: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
-  - star rows: J Vindemiatrix → J Gonggong RA 133.3963 133.333 ninth (92.45) — also: 4 One True King / Sam Twiston-Davies
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Mars**
   - top rows: S Sun → H Mars RA 110.9559 10×φ^5 phi power (81.41) — also: 5 Cedar Hill / Jonathan Burke
   - star rows: H Sadalmelik → H Mars RA 138.9860 139 whole (9.05) — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
@@ -402,8 +384,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Mercury → J Mercury Dec 10.0129 10 whole (12.50) — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
   - star rows: J Regulus → J Mercury Dec 18.0130 18 whole (12.15) — also: 2 Financier / Richard Patrick
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
-  - star rows: J Vindemiatrix → J Mercury Dec 17.0057 17 whole (51.12) — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Chiron**
   - top rows: S Moon → H Chiron RA 179.9968 180 whole (70.40) — only
   - star rows: H Alhena → H Chiron RA 113.9909 114 whole (29.88) — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
@@ -423,8 +403,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Scheat → H Chiron RA 0.5061 conj (43.91) — also: 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
     - source line: S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
     - source line: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
-  - star rows: H Vindemiatrix → H Chiron Dec 11.9906 12 whole (27.92) — also: 3 Frero Banbou / Charlie Deutsch
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - star rows: J Alhena → J Chiron Dec 0.2769 conj (0.59) — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
     - source line: S Moon → Alhena RA 65.9978 66 whole (78.94)
   - star rows: J Pleiades → J Chiron Dec 7.9822 8 whole (1.23) — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
@@ -435,15 +413,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → H Pallas Dec 0.1378 conj (29.22) — also: 2 Financier / Richard Patrick
   - star rows: H Al Rescha → H Pallas Dec 7.7774 7.77778 ninth (96.82) — only
     - source line: S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)
-  - T2: J Jupiter → J Pallas Dec 30.7412 19×φ golden (91.27) — only
   - star rows: J Al Rescha → J Pallas RA 15.9876 16 whole (14.31) — only
     - source line: S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)
   - star rows: J Alhena → J Pallas Dec 24.2722 15×φ golden (89.89) — only
     - source line: S Moon → Alhena RA 65.9978 66 whole (78.94)
   - star rows: J Regulus → J Pallas RA 137.5605 85×φ golden (2.14) — only
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
-  - star rows: J Vindemiatrix → J Pallas RA 178.9885 179 whole (18.10) — only
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Quaoar**
   - top rows: S Moon → H Quaoar Dec 26.1837 10×φ^2 phi power (94.99) — only
   - star rows: H Galactic Centre → H Quaoar RA 0.0625 conj (91.84) — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
@@ -456,8 +431,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → H Ketu Dec 0.1538 conj (23.74) — also: 7 Beaufort West / Page Fuller
   - star rows: H Fomalhaut → H Ketu Dec 40.4533 25×φ golden (85.39) — only
     - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
-  - star rows: H Vindemiatrix → H Ketu Dec 0.1269 conj (33.29) — also: 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - same body: S Ketu → J Ketu Dec 32.9868 33 whole (11.53) — also: 2 Financier / Richard Patrick
     - source line: S Sun → Ketu Dec 0.0774 conj (55.07)
   - star rows: J Pleiades → J Ketu Dec 11.0907 φ^5 phi power (98.25) — only
@@ -511,15 +484,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alkes RA 0.4866 conj (45.64)
   - star rows: J Galactic Centre → J Eris Dec 19.4139 12×φ golden (85.27) — also: 7 Beaufort West / Page Fuller
     - source line: S Sun → Galactic Centre RA 37.0023 37 whole (77.89)
-  - star rows: J Vindemiatrix → J Eris RA 172.9816 173 whole (0.67) — also: 2 Financier / Richard Patrick, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Neptune**
   - star rows: H Fomalhaut → H Neptune Dec 19.9810 20 whole (0.26) — also: 6 Le Ligerien / Ben Jones
     - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
   - star rows: J Rigel → J Neptune Dec 13.9880 14 whole (15.94) — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
     - source line: S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)
-  - star rows: J Vindemiatrix → J Neptune RA 84.9966 85 whole (68.95) — only
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Orcus**
   - star rows: H Scheat → H Orcus RA 162.9829 163 whole (2.04) — also: 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
     - source line: S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
@@ -534,8 +503,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
   - star rows: J Pleiades → J Makemake Dec 11.0036 11 whole (67.32) — also: 2 Financier / Richard Patrick
     - source line: S Sun → Pleiades Dec 44.0004 44 whole (96.38)
-  - star rows: J Vindemiatrix → J Makemake Dec 24.1475 24.14 silver (91.29) — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 
 ## 2 Financier / Richard Patrick
 ### L1 same bodies
@@ -571,8 +538,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Sualocin → H Sun Dec 13.9993 14 whole (93.10)
     - source line: S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
   - other chart, same body: S Sun → J Sun Dec 17.9253 φ^6 phi power (loose)
-  - other chart, star rows: J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **H Mercury** (same body: S Mercury → H Mercury Dec 6.9870 7 whole (12.28))
   - star rows: H Alkes → H Mercury RA 174.9812 175 whole (0.39)
     - source line: S Moon → Alkes RA 0.4866 conj (45.64)
@@ -585,13 +550,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
   - other chart, star rows: J Mirach → J Mercury RA 177.7992 177.778 ninth (98.32)
     - source line: S Moon → Mirach RA 147.9983 148 whole (84.01)
-  - other chart, star rows: J Vindemiatrix → J Mercury RA 0.3011 conj (63.89)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **H Venus** (same body: S Venus → H Venus Dec 16.6048 16.6667 ninth (loose))
   - star rows: H Rigel → H Venus RA 74.4200 46×φ golden (49.69)
     - source line: S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)
-  - other chart, star rows: J Vindemiatrix → J Venus RA 0.9976 1 whole (77.61)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **H Jupiter** (same body: S Jupiter → H Jupiter Dec 32.3846 20×φ golden (loose))
   - top rows: S Chiron → H Jupiter RA 62.0057 62 whole (50.79)
   - star rows: S Mirach → H Jupiter Dec 13.9892 14 whole (21.09)
@@ -635,8 +596,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
   - other chart, star rows: J Sualocin → J Pluto Dec 22.9966 23 whole (68.80)
     - source line: S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
-  - other chart, star rows: J Vindemiatrix → J Pluto RA 43.6838 27×φ golden (81.61)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **H Rahu** (same body: S Rahu → H Rahu RA 167.9826 168 whole (1.66); S Rahu → H Rahu Dec 37.0000 37 whole (99.61))
   - star rows: H Alkes → H Rahu RA 60.0016 60 whole (84.19)
     - source line: S Moon → Alkes RA 0.4866 conj (45.64)
@@ -645,8 +604,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Scheat → H Rahu RA 120.9902 121 whole (25.82)
     - source line: S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
     - source line: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
-  - star rows: H Vindemiatrix → H Rahu Dec 27.9849 28 whole (5.88)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - other chart, top rows: S Sun → J Rahu RA 98.7048 61×φ golden (72.89)
   - other chart, star rows: J Sualocin → J Rahu Dec 26.1879 10×φ^2 phi power (88.83)
     - source line: S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
@@ -689,8 +646,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
     - source line: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
 - **J Sun** (same body: S Sun → J Sun Dec 17.9253 φ^6 phi power (loose))
-  - star rows: J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - other chart, same body: S Sun → H Sun RA 61.0020 61 whole (80.77)
   - other chart, star rows: H Alhena → H Sun RA 95.0128 95 whole (13.10)
     - source line: S Moon → Alhena RA 65.9978 66 whole (78.94)
@@ -720,14 +675,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
   - star rows: J Sualocin → J Pluto Dec 22.9966 23 whole (68.80)
     - source line: S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
-  - star rows: J Vindemiatrix → J Pluto RA 43.6838 27×φ golden (81.61)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - other chart, same body: S Pluto → H Pluto RA 16.6706 16.6667 ninth (loose)
   - other chart, top rows: S Sun → H Pluto Dec 0.2068 conj (9.66)
   - other chart, star rows: H Sualocin → H Pluto Dec 35.5966 22×φ golden (98.96)
     - source line: S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
 - **J Pallas** (same body: S Pallas → J Pallas Dec 9.9729 10 whole (loose))
-  - sky line to Pallas: S Jupiter → Pallas Dec 0.1900 conj (13.44)
   - top rows: S Moon → J Pallas RA 1.2777 conj (2.20)
   - star rows: J Fomalhaut → J Pallas RA 177.7087 177.778 ninth (94.60)
     - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
@@ -775,9 +727,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Quaoar → H Quaoar RA 11.0198 11 whole (0.02) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
   - 37 whole — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
     - S Ketu → H Ketu Dec 37.0000 37 whole (99.61) = S Sun → Galactic Centre RA 37.0023 37 whole (77.89)
-  - 171 whole — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch
+  - 171 whole — also: 1 Eclair D'Ainay / Harry Skelton
     - H Alkes → H Neptune RA 170.9969 171 whole (71.73) = S Moon → Gonggong RA 170.9993 171 whole (93.54)
-  - 44 whole — also: 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - 44 whole — also: 5 Cedar Hill / Jonathan Burke
     - H Alkes → H Haumea RA 44.0198 44 whole (0.01) = S Sun → Pleiades Dec 44.0004 44 whole (96.38)
   - 32×φ golden — only
     - H Galactic Centre → H Vesta Dec 51.7746 32×φ golden (85.15) = S Moon → Castor RA 51.7767 32×φ golden (97.46)
@@ -787,14 +739,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Fomalhaut → J Eris RA 38.8339 24×φ golden (93.50) = S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
   - 11 whole — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
     - J Regulus → J Orcus Dec 11.0109 11 whole (20.87) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
-  - 11 whole — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
-    - J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
 - **4. circle divisions**
-  - 12 = 360/30 — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
+  - 12 = 360/30 — also: 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
     - S Uranus → H Uranus Dec 12.0033 12 whole (69.56)
   - 6 = 360/60 — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
     - S Neptune → H Neptune Dec 6.0143 6 whole (8.23)
-  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
     - S Sedna → H Sedna RA 5.0152 5 whole (5.87)
   - 18 = 360/20 — also: 1 Eclair D'Ainay / Harry Skelton
     - S Moon → H Ceres Dec 17.9984 18 whole (84.20)
@@ -812,7 +762,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Galactic Centre → H Ceres RA 179.9950 180 whole (56.44)
   - 36 = 360/10 — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
     - H Galactic Centre → H Sedna Dec 35.9917 36 whole (33.94)
-  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
     - H Regulus → H Sedna Dec 4.9813 5 whole (0.41)
   - 6 = 360/60 — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
     - H Scheat → H Mercury RA 6.0106 6 whole (22.24)
@@ -834,10 +784,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Sadalmelik → J Gonggong RA 0.9962 1 whole (65.46)
   - 24 = 360/15 — also: 1 Eclair D'Ainay / Harry Skelton, 6 Le Ligerien / Ben Jones
     - J Sualocin → J Eris Dec 24.0120 24 whole (16.05)
-  - 1 = 360/360 — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
-    - J Vindemiatrix → J Venus RA 0.9976 1 whole (77.61)
-  - 10 = 360/36 — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
-    - J Vindemiatrix → J Orcus Dec 10.0036 10 whole (67.55)
 - **5. same number in more than one place**
   - 16.6667 ninth — also: 4 One True King / Sam Twiston-Davies
     - S Venus → H Venus Dec 16.6048 16.6667 ninth (loose)
@@ -859,7 +805,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 11 whole — also: 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
     - S Quaoar → H Quaoar RA 11.0198 11 whole (0.02)
     - J Regulus → J Orcus Dec 11.0109 11 whole (20.87)
-    - J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19)
   - 24.14 silver — only
     - H Jupiter → H Ketu RA 24.1451 24.14 silver (95.16)
     - S Makemake → J Makemake RA 24.1381 24.14 silver (loose)
@@ -873,14 +818,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 20 whole — also: 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
     - H Al Rescha → H Vesta Dec 20.0056 20 whole (51.48)
     - H Fomalhaut → H Sun RA 20.0072 20 whole (40.69)
-  - 14.4444 ninth — only
-    - H Al Rescha → H Ketu RA 14.4414 14.4444 ninth (96.78)
-    - H Vindemiatrix → H Eris Dec 14.4439 14.4444 ninth (99.46)
-  - 13 whole — also: 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+  - 13 whole — also: 7 Beaufort West / Page Fuller
     - H Alhena → H Mars Dec 13.0016 13 whole (84.91)
     - H Alhena → H Ceres RA 13.0159 13 whole (4.31)
     - H Mirach → H Sun RA 13.0119 13 whole (16.51)
-  - 24 whole — also: 6 Le Ligerien / Ben Jones
+  - 24 whole — only
     - H Alhena → H Orcus Dec 24.0148 24 whole (6.82)
     - J Sualocin → J Eris Dec 24.0120 24 whole (16.05)
   - 14 whole — also: 1 Eclair D'Ainay / Harry Skelton
@@ -902,19 +844,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 10 whole — also: 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
     - H Scheat → H Neptune RA 9.9949 10 whole (55.30)
     - S Pallas → J Pallas Dec 9.9729 10 whole (loose)
-    - J Vindemiatrix → J Orcus Dec 10.0036 10 whole (67.55)
-  - 27×φ golden — only
-    - H Scheat → H Quaoar Dec 43.6854 27×φ golden (91.03)
-    - J Vindemiatrix → J Pluto RA 43.6838 27×φ golden (81.61)
-  - 28 whole — only
-    - H Vindemiatrix → H Rahu Dec 27.9849 28 whole (5.88)
-    - J Alkes → J Ceres RA 28.0043 28 whole (61.73)
   - 177.778 ninth — only
     - J Fomalhaut → J Pallas RA 177.7087 177.778 ninth (94.60)
     - J Mirach → J Mercury RA 177.7992 177.778 ninth (98.32)
-  - 1 whole — also: 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
-    - J Sadalmelik → J Gonggong RA 0.9962 1 whole (65.46)
-    - J Vindemiatrix → J Venus RA 0.9976 1 whole (77.61)
   - 24 and 24×φ on J Eris — only
     - J Sualocin → J Eris Dec 24.0120 24 whole (16.05)
     - J Fomalhaut → J Eris RA 38.8339 24×φ golden (93.50)
@@ -932,8 +864,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Sualocin → H Sun Dec 13.9993 14 whole (93.10) — only
     - source line: S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
   - same body: S Sun → J Sun Dec 17.9253 φ^6 phi power (loose) — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
-  - star rows: J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19) — only
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Mercury**
   - same body: S Mercury → H Mercury Dec 6.9870 7 whole (12.28) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
   - star rows: H Alkes → H Mercury RA 174.9812 175 whole (0.39) — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke
@@ -947,14 +877,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
   - star rows: J Mirach → J Mercury RA 177.7992 177.778 ninth (98.32) — also: 3 Frero Banbou / Charlie Deutsch
     - source line: S Moon → Mirach RA 147.9983 148 whole (84.01)
-  - star rows: J Vindemiatrix → J Mercury RA 0.3011 conj (63.89) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Venus**
   - same body: S Venus → H Venus Dec 16.6048 16.6667 ninth (loose) — also: 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
   - star rows: H Rigel → H Venus RA 74.4200 46×φ golden (49.69) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
     - source line: S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)
-  - star rows: J Vindemiatrix → J Venus RA 0.9976 1 whole (77.61) — also: 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Jupiter**
   - same body: S Jupiter → H Jupiter Dec 32.3846 20×φ golden (loose) — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
   - T1: H Jupiter → H star Pleiades RA 12.2259 12.2222 ninth (94.86) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
@@ -1004,8 +930,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
   - star rows: J Sualocin → J Pluto Dec 22.9966 23 whole (68.80) — also: 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
     - source line: S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
-  - star rows: J Vindemiatrix → J Pluto RA 43.6838 27×φ golden (81.61) — only
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Rahu**
   - same body: S Rahu → H Rahu RA 167.9826 168 whole (1.66) — also: 1 Eclair D'Ainay / Harry Skelton
   - same body: S Rahu → H Rahu Dec 37.0000 37 whole (99.61) — also: 1 Eclair D'Ainay / Harry Skelton
@@ -1016,8 +940,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Scheat → H Rahu RA 120.9902 121 whole (25.82) — also: 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
     - source line: S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
     - source line: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
-  - star rows: H Vindemiatrix → H Rahu Dec 27.9849 28 whole (5.88) — only
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - top rows: S Sun → J Rahu RA 98.7048 61×φ golden (72.89) — only
   - star rows: J Sualocin → J Rahu Dec 26.1879 10×φ^2 phi power (88.83) — only
     - source line: S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
@@ -1093,8 +1015,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
 - **Juno**
   - top rows: S Sun → H Juno RA 0.1147 conj (85.29) — also: 6 Le Ligerien / Ben Jones
-  - star rows: H Vindemiatrix → H Juno RA 107.9801 108 whole (0.00) — also: 6 Le Ligerien / Ben Jones
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - star rows: J Mirach → J Juno RA 113.2683 70×φ golden (66.82) — only
     - source line: S Moon → Mirach RA 147.9983 148 whole (84.01)
 - **Vesta**
@@ -1111,8 +1031,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
   - star rows: J Regulus → J Orcus Dec 11.0109 11 whole (20.87) — only
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
-  - star rows: J Vindemiatrix → J Orcus Dec 10.0036 10 whole (67.55) — only
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Haumea**
   - star rows: H Alkes → H Haumea RA 44.0198 44 whole (0.01) — only
     - source line: S Moon → Alkes RA 0.4866 conj (45.64)
@@ -1132,7 +1050,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Mirach → H Pallas Dec 43.0063 43 whole (46.88) — only
     - source line: S Moon → Mirach RA 147.9983 148 whole (84.01)
   - same body: S Pallas → J Pallas Dec 9.9729 10 whole (loose) — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
-    - source line: S Jupiter → Pallas Dec 0.1900 conj (13.44)
   - top rows: S Moon → J Pallas RA 1.2777 conj (2.20) — also: 1 Eclair D'Ainay / Harry Skelton
   - star rows: J Fomalhaut → J Pallas RA 177.7087 177.778 ninth (94.60) — also: 7 Beaufort West / Page Fuller
     - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
@@ -1149,22 +1066,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Transpluto**
   - star rows: H Regulus → H Transpluto RA 0.5124 conj (43.35) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
-  - T2: J Jupiter → J Transpluto Dec 34.9945 35 whole (52.56) — only
   - star rows: J Al Rescha → J Transpluto RA 116.0143 116 whole (8.26) — also: 4 One True King / Sam Twiston-Davies
     - source line: S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)
-  - star rows: J Vindemiatrix → J Transpluto RA 49.0086 49 whole (32.44) — also: 6 Le Ligerien / Ben Jones
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
-- **Eris**
-  - star rows: H Vindemiatrix → H Eris Dec 14.4439 14.4444 ninth (99.46) — also: 1 Eclair D'Ainay / Harry Skelton, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
-  - star rows: J Castor → J Eris Dec 39.9843 40 whole (4.69) — also: 1 Eclair D'Ainay / Harry Skelton, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Castor RA 51.7767 32×φ golden (97.46)
-  - star rows: J Fomalhaut → J Eris RA 38.8339 24×φ golden (93.50) — also: 7 Beaufort West / Page Fuller
-    - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
-  - star rows: J Rigel → J Eris Dec 0.1021 conj (43.50) — also: 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)
-  - star rows: J Sualocin → J Eris Dec 24.0120 24 whole (16.05) — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke
-    - source line: S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
 - **Makemake**
   - same body: S Makemake → J Makemake RA 24.1381 24.14 silver (loose) — also: 5 Cedar Hill / Jonathan Burke
   - top rows: S Sun → J Makemake Dec 53.0057 53 whole (51.40) — also: 1 Eclair D'Ainay / Harry Skelton, 7 Beaufort West / Page Fuller
@@ -1180,6 +1083,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Pleiades Dec 44.0004 44 whole (96.38)
   - star rows: J Sadalmelik → J Chiron RA 150.0027 150 whole (74.49) — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke
     - source line: S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
+- **Eris**
+  - star rows: J Castor → J Eris Dec 39.9843 40 whole (4.69) — also: 1 Eclair D'Ainay / Harry Skelton, 7 Beaufort West / Page Fuller
+    - source line: S Moon → Castor RA 51.7767 32×φ golden (97.46)
+  - star rows: J Fomalhaut → J Eris RA 38.8339 24×φ golden (93.50) — also: 7 Beaufort West / Page Fuller
+    - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
+  - star rows: J Rigel → J Eris Dec 0.1021 conj (43.50) — also: 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - source line: S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)
+  - star rows: J Sualocin → J Eris Dec 24.0120 24 whole (16.05) — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke
+    - source line: S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
 
 ## 3 Frero Banbou / Charlie Deutsch
 ### L1 same bodies
@@ -1208,8 +1120,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alhena RA 65.9978 66 whole (78.94)
   - other chart, star rows: J Mirach → J Mercury Dec 20.0108 20 whole (21.01)
     - source line: S Moon → Mirach RA 147.9983 148 whole (84.01)
-  - other chart, star rows: J Vindemiatrix → J Mercury RA 141.4341 141.4 sqrt2 (96.43)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **H Venus** (same body: S Venus → H Venus Dec 42.3012 10×φ^3 phi power (loose))
   - other chart, star rows: J Castor → J Venus Dec 8.9981 9 whole (81.56)
     - source line: S Moon → Castor RA 51.7767 32×φ golden (97.46)
@@ -1232,8 +1142,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alhena RA 65.9978 66 whole (78.94)
   - other chart, star rows: J Sualocin → J Saturn RA 56.6334 35×φ golden (87.00)
     - source line: S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
-  - other chart, star rows: J Vindemiatrix → J Saturn RA 170.9996 171 whole (96.11)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **H Eris** (same body: S Eris → H Eris Dec 1.3290 1.33333 ninth (loose))
   - other chart, same body: S Eris → J Eris RA 2.2182 2.22222 ninth (loose)
 - **H Haumea** (same body: S Haumea → H Haumea Dec 3.0057 3 whole (50.82))
@@ -1255,7 +1163,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Fomalhaut → J Orcus Dec 30.7491 19×φ golden (64.04)
     - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
 - **H Transpluto** (same body: S Transpluto → H Transpluto RA 2.9790 3 whole (loose); S Transpluto → H Transpluto Dec 1.1164 1.11111 ninth (loose))
-  - sky line to Transpluto: S Moon → Transpluto Dec 0.2980 conj (0.00)
   - star rows: H Regulus → H Transpluto RA 0.0659 conj (91.40)
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
   - star rows: H Sadalmelik → H Transpluto RA 179.4185 10×φ^6 phi power (94.67)
@@ -1278,10 +1185,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alhena RA 65.9978 66 whole (78.94)
   - other chart, star rows: H Fomalhaut → H Chiron Dec 30.0037 30 whole (66.11)
     - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
-  - other chart, star rows: H Vindemiatrix → H Chiron RA 153.9840 154 whole (3.94)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **J Pallas** (same body: S Pallas → J Pallas RA 143.9673 144.444 ninth (loose))
-  - sky line to Pallas: S Jupiter → Pallas Dec 0.1900 conj (13.44)
   - star rows: J Alkes → J Pallas RA 47.0057 47 whole (51.36)
     - source line: S Moon → Alkes RA 0.4866 conj (45.64)
   - star rows: J Alkes → J Pallas Dec 43.0128 43 whole (13.09)
@@ -1334,8 +1238,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Al Rescha → H Juno Dec 10.9942 11 whole (50.36) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
   - 10×φ^6 phi power — also: 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
     - H Sadalmelik → H Transpluto RA 179.4185 10×φ^6 phi power (94.67) = S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
-  - 18.8889 ninth — also: 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
-    - H Vindemiatrix → H Vesta Dec 18.8864 18.8889 ninth (98.22) = S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)
   - 10×φ^6 phi power — also: 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
     - S Chiron → J Chiron RA 179.5005 10×φ^6 phi power (loose) = S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
   - 144.444 ninth — also: 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
@@ -1346,8 +1248,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Regulus → J Sun Dec 11.0124 11 whole (14.28) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
   - 111×φ golden — only
     - J Regulus → J Gonggong RA 179.6055 111×φ golden (78.47) = S Jupiter → Orcus RA 179.6087 111×φ golden (61.81)
-  - 171 whole — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick
-    - J Vindemiatrix → J Saturn RA 170.9996 171 whole (96.11) = S Moon → Gonggong RA 170.9993 171 whole (93.54)
 - **4. circle divisions**
   - 1 = 360/360 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
     - S Saturn → H Saturn Dec 1.0098 1 whole (26.07)
@@ -1379,10 +1279,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Mirach → J Mercury Dec 20.0108 20 whole (21.01)
   - 6 = 360/60 — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
     - J Regulus → J Ketu Dec 6.0067 6 whole (44.29)
-  - 12 = 360/30 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones
+  - 12 = 360/30 — also: 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones
     - J Rigel → J Neptune Dec 12.0033 12 whole (69.43)
-  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
-    - J Vindemiatrix → J Ketu Dec 4.9985 5 whole (85.26)
 - **5. same number in more than one place**
   - 93×φ golden — also: 1 Eclair D'Ainay / Harry Skelton
     - S Mars → H Mars RA 150.4565 93×φ golden (12.96)
@@ -1413,25 +1311,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 10×φ^6 phi power — also: 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
     - H Sadalmelik → H Transpluto RA 179.4185 10×φ^6 phi power (94.67)
     - S Chiron → J Chiron RA 179.5005 10×φ^6 phi power (loose)
-  - 157 whole — only
-    - H Vindemiatrix → H Vesta RA 156.9955 157 whole (60.17)
-    - J Mirach → J Makemake RA 157.0016 157 whole (84.50)
-    - J Sadalmelik → J Makemake RA 157.0164 157 whole (3.15)
   - 2.22222 ninth — only
     - S Eris → J Eris RA 2.2182 2.22222 ninth (loose)
     - J Sualocin → J Transpluto Dec 2.2228 2.22222 ninth (91.96)
-  - 23 whole — also: 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
-    - S Jupiter → J Juno RA 22.9989 23 whole (89.33)
-    - J Vindemiatrix → J Makemake Dec 22.9816 23 whole (0.68)
   - φ^6 phi power — also: 7 Beaufort West / Page Fuller
     - S Moon → J Pluto Dec 17.9442 φ^6 phi power (99.77)
     - S Moon → J Vesta Dec 17.9450 φ^6 phi power (98.29)
-  - 111.111 ninth — only
-    - S Uranus → J Jupiter RA 111.1053 111.111 ninth (99.04)
-    - J Vindemiatrix → J Uranus RA 111.1684 111.111 ninth (90.63)
   - 29 whole — also: 2 Financier / Richard Patrick
     - J Alkes → J Rahu RA 28.9924 29 whole (38.51)
     - J Pleiades → J Chiron Dec 28.9922 29 whole (37.40)
+  - 157 whole — only
+    - J Mirach → J Makemake RA 157.0016 157 whole (84.50)
+    - J Sadalmelik → J Makemake RA 157.0164 157 whole (3.15)
 ### L4 every natal body
 - **Mercury**
   - same body: S Mercury → H Mercury RA 122.2286 122.222 ninth (99.11) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
@@ -1441,8 +1332,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alhena RA 65.9978 66 whole (78.94)
   - star rows: J Mirach → J Mercury Dec 20.0108 20 whole (21.01) — also: 2 Financier / Richard Patrick
     - source line: S Moon → Mirach RA 147.9983 148 whole (84.01)
-  - star rows: J Vindemiatrix → J Mercury RA 141.4341 141.4 sqrt2 (96.43) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Venus**
   - same body: S Venus → H Venus Dec 42.3012 10×φ^3 phi power (loose) — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
   - star rows: J Castor → J Venus Dec 8.9981 9 whole (81.56) — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies
@@ -1469,8 +1358,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alhena RA 65.9978 66 whole (78.94)
   - star rows: J Sualocin → J Saturn RA 56.6334 35×φ golden (87.00) — only
     - source line: S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
-  - star rows: J Vindemiatrix → J Saturn RA 170.9996 171 whole (96.11) — also: 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Eris**
   - same body: S Eris → H Eris Dec 1.3290 1.33333 ninth (loose) — also: 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
   - same body: S Eris → J Eris RA 2.2182 2.22222 ninth (loose) — also: 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
@@ -1497,9 +1384,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
 - **Transpluto**
   - same body: S Transpluto → H Transpluto RA 2.9790 3 whole (loose) — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Transpluto Dec 0.2980 conj (0.00)
   - same body: S Transpluto → H Transpluto Dec 1.1164 1.11111 ninth (loose) — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Transpluto Dec 0.2980 conj (0.00)
   - star rows: H Regulus → H Transpluto RA 0.0659 conj (91.40) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
   - star rows: H Sadalmelik → H Transpluto RA 179.4185 10×φ^6 phi power (94.67) — also: 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
@@ -1565,8 +1450,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Alhena RA 65.9978 66 whole (78.94)
   - star rows: H Fomalhaut → H Chiron Dec 30.0037 30 whole (66.11) — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
     - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
-  - star rows: H Vindemiatrix → H Chiron RA 153.9840 154 whole (3.94) — also: 1 Eclair D'Ainay / Harry Skelton
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - same body: S Chiron → J Chiron RA 179.5005 10×φ^6 phi power (loose) — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
   - star rows: J Pleiades → J Chiron Dec 28.9922 29 whole (37.40) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick
     - source line: S Sun → Pleiades Dec 44.0004 44 whole (96.38)
@@ -1583,7 +1466,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Castor → H Pallas Dec 9.0060 9 whole (49.26) — also: 6 Le Ligerien / Ben Jones
     - source line: S Moon → Castor RA 51.7767 32×φ golden (97.46)
   - same body: S Pallas → J Pallas RA 143.9673 144.444 ninth (loose) — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
-    - source line: S Jupiter → Pallas Dec 0.1900 conj (13.44)
   - star rows: J Alkes → J Pallas RA 47.0057 47 whole (51.36) — also: 5 Cedar Hill / Jonathan Burke
     - source line: S Moon → Alkes RA 0.4866 conj (45.64)
   - star rows: J Alkes → J Pallas Dec 43.0128 43 whole (13.09) — also: 5 Cedar Hill / Jonathan Burke
@@ -1615,26 +1497,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Scheat → J Makemake RA 171.5125 106×φ golden (94.38) — also: 4 One True King / Sam Twiston-Davies
     - source line: S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
     - source line: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
-  - star rows: J Vindemiatrix → J Makemake Dec 22.9816 23 whole (0.68) — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Uranus**
   - star rows: H Mirach → H Uranus RA 0.3987 conj (53.90) — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies
     - source line: S Moon → Mirach RA 147.9983 148 whole (84.01)
   - top rows: S Sun → J Uranus Dec 0.1152 conj (37.95) — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
   - star rows: J Mirach → J Uranus RA 70.7143 70.7 sqrt2 (97.94) — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies
     - source line: S Moon → Mirach RA 147.9983 148 whole (84.01)
-  - star rows: J Vindemiatrix → J Uranus RA 111.1684 111.111 ninth (90.63) — only
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Vesta**
   - star rows: H Rigel → H Vesta Dec 0.2754 conj (0.67) — also: 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones
     - source line: S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)
   - star rows: H Scheat → H Vesta Dec 36.0077 36 whole (37.72) — also: 5 Cedar Hill / Jonathan Burke
     - source line: S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
     - source line: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
-  - star rows: H Vindemiatrix → H Vesta RA 156.9955 157 whole (60.17) — also: 6 Le Ligerien / Ben Jones
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
-  - star rows: H Vindemiatrix → H Vesta Dec 18.8864 18.8889 ninth (98.22) — also: 6 Le Ligerien / Ben Jones
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - top rows: S Moon → J Vesta Dec 17.9450 φ^6 phi power (98.29) — only
 - **Neptune**
   - same body: S Neptune → J Neptune Dec 15.5335 15.5556 ninth (loose) — also: 2 Financier / Richard Patrick, 7 Beaufort West / Page Fuller
@@ -1666,8 +1540,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Scheat → J Ketu RA 27.9923 28 whole (37.68) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick
     - source line: S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
     - source line: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
-  - star rows: J Vindemiatrix → J Ketu Dec 4.9985 5 whole (85.26) — also: 1 Eclair D'Ainay / Harry Skelton, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 
 ## 4 One True King / Sam Twiston-Davies
 ### L1 same bodies
@@ -1732,7 +1604,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Sualocin → J Orcus RA 177.0103 177 whole (23.75)
     - source line: S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
 - **H Transpluto** (same body: S Transpluto → H Transpluto RA 2.9804 3 whole (0.04); S Transpluto → H Transpluto Dec 1.1170 1.11111 ninth (loose))
-  - sky line to Transpluto: S Moon → Transpluto Dec 0.2980 conj (0.00)
   - star rows: H Regulus → H Transpluto RA 0.0671 conj (91.25)
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
   - star rows: H Sadalmelik → H Transpluto RA 179.4202 10×φ^6 phi power (95.04)
@@ -1766,7 +1637,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Pleiades → J Jupiter RA 124.5968 77×φ golden (55.96)
     - source line: S Sun → Pleiades Dec 44.0004 44 whole (96.38)
   - other chart, top rows: S Transpluto → H Jupiter Dec 6.9991 7 whole (91.55)
-    - source line: S Moon → Transpluto Dec 0.2980 conj (0.00)
   - other chart, star rows: H Fomalhaut → H Jupiter Dec 46.9997 47 whole (97.03)
     - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
 - **J Saturn** (same body: S Saturn → J Saturn RA 1.9749 2 whole (loose))
@@ -1796,7 +1666,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Regulus → H Ceres RA 160.0043 160 whole (61.39)
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
 - **J Pallas** (same body: S Pallas → J Pallas Dec 17.6761 17.7778 ninth (loose))
-  - sky line to Pallas: S Jupiter → Pallas Dec 0.1900 conj (13.44)
   - top rows: S Jupiter → J Pallas RA 67.0027 67 whole (75.21)
 - **J Juno** (same body: S Juno → J Juno RA 161.9749 162 whole (loose))
   - star rows: J Scheat → J Juno RA 111.6241 69×φ golden (14.04)
@@ -1851,8 +1720,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Mirach → J Pluto RA 144.4301 144.444 ninth (98.48) = S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
   - 37 whole — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
     - J Scheat → J Eris Dec 37.0068 37 whole (43.69) = S Sun → Galactic Centre RA 37.0023 37 whole (77.89)
-  - 41 whole — also: 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
-    - J Vindemiatrix → J Quaoar RA 40.9890 41 whole (20.13) = S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
 - **4. circle divisions**
   - 8 = 360/45 — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
     - S Uranus → H Uranus Dec 7.9808 8 whole (0.16)
@@ -1868,7 +1735,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Alhena → H Rahu Dec 19.9814 20 whole (0.48)
   - 6 = 360/60 — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
     - H Castor → H Venus Dec 5.9816 6 whole (0.62)
-  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
     - H Galactic Centre → H Ceres Dec 4.9996 5 whole (96.35)
   - 4 = 360/90 — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
     - H Scheat → H Mercury Dec 3.9999 4 whole (98.82)
@@ -2001,9 +1868,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
 - **Transpluto**
   - same body: S Transpluto → H Transpluto RA 2.9804 3 whole (0.04) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Transpluto Dec 0.2980 conj (0.00)
   - same body: S Transpluto → H Transpluto Dec 1.1170 1.11111 ninth (loose) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Transpluto Dec 0.2980 conj (0.00)
   - star rows: H Regulus → H Transpluto RA 0.0671 conj (91.25) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
   - star rows: H Sadalmelik → H Transpluto RA 179.4202 10×φ^6 phi power (95.04) — also: 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
@@ -2017,7 +1882,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Jupiter**
   - T1: H Jupiter → H star Fomalhaut Dec 46.9997 47 whole (97.03) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
   - top rows: S Transpluto → H Jupiter Dec 6.9991 7 whole (91.55) — only
-    - source line: S Moon → Transpluto Dec 0.2980 conj (0.00)
   - star rows: H Fomalhaut → H Jupiter Dec 46.9997 47 whole (97.03) — also: 1 Eclair D'Ainay / Harry Skelton
     - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
   - same body: S Jupiter → J Jupiter RA 155.3018 155.556 ninth (loose) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
@@ -2041,8 +1905,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)
   - star rows: J Alhena → J Gonggong Dec 35.9912 36 whole (31.52) — only
     - source line: S Moon → Alhena RA 65.9978 66 whole (78.94)
-  - star rows: J Vindemiatrix → J Gonggong RA 133.9974 134 whole (75.37) — also: 1 Eclair D'Ainay / Harry Skelton
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Venus**
   - top rows: S Sun → H Venus RA 155.5102 155.556 ninth (95.71) — also: 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
   - star rows: H Alhena → H Venus RA 0.5000 conj (44.45) — only
@@ -2061,8 +1923,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Sun → J Venus Dec 0.1144 conj (38.28) — also: 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
   - star rows: J Rigel → J Venus RA 153.7432 95×φ golden (0.53) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
     - source line: S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)
-  - star rows: J Vindemiatrix → J Venus Dec 30.7412 19×φ golden (91.15) — also: 2 Financier / Richard Patrick, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Rahu**
   - star rows: H Alhena → H Rahu RA 88.8804 88.8889 ninth (93.89) — also: 1 Eclair D'Ainay / Harry Skelton, 6 Le Ligerien / Ben Jones
     - source line: S Moon → Alhena RA 65.9978 66 whole (78.94)
@@ -2081,8 +1941,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
   - star rows: J Al Rescha → J Quaoar RA 153.9885 154 whole (18.17) — also: 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
     - source line: S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)
-  - star rows: J Vindemiatrix → J Quaoar RA 40.9890 41 whole (20.13) — only
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Saturn**
   - star rows: H Alkes → H Saturn Dec 0.1099 conj (40.15) — also: 3 Frero Banbou / Charlie Deutsch
     - source line: S Moon → Alkes RA 0.4866 conj (45.64)
@@ -2135,8 +1993,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Scheat → J Makemake Dec 5.9830 6 whole (2.25) — also: 3 Frero Banbou / Charlie Deutsch
     - source line: S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
     - source line: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
-  - star rows: J Vindemiatrix → J Makemake RA 22.9910 23 whole (30.28) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Mercury**
   - star rows: H Pleiades → H Mercury Dec 0.0239 conj (84.72) — also: 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
     - source line: S Sun → Pleiades Dec 44.0004 44 whole (96.38)
@@ -2152,8 +2008,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Pleiades Dec 44.0004 44 whole (96.38)
   - star rows: J Al Rescha → J Sedna RA 13.0075 13 whole (39.09) — also: 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones
     - source line: S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)
-  - star rows: J Vindemiatrix → J Sedna RA 152.0150 152 whole (6.23) — also: 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Sun**
   - star rows: H Regulus → H Sun RA 100.3305 62×φ golden (38.02) — also: 3 Frero Banbou / Charlie Deutsch
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
@@ -2176,7 +2030,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
 - **Pallas**
   - same body: S Pallas → J Pallas Dec 17.6761 17.7778 ninth (loose) — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
-    - source line: S Jupiter → Pallas Dec 0.1900 conj (13.44)
   - top rows: S Jupiter → J Pallas RA 67.0027 67 whole (75.21) — only
 - **Pluto**
   - star rows: J Mirach → J Pluto RA 144.4301 144.444 ninth (98.48) — only
@@ -2247,8 +2100,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Haumea** (same body: S Haumea → H Haumea RA 8.9761 9 whole (loose))
   - star rows: H Sadalmelik → H Haumea RA 122.9113 φ^10 phi power (75.51)
     - source line: S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
-  - star rows: H Vindemiatrix → H Haumea RA 12.9955 13 whole (59.75)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - other chart, star rows: J Fomalhaut → J Haumea Dec 51.0011 51 whole (89.11)
     - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
   - other chart, star rows: J Scheat → J Haumea RA 152.0992 94×φ golden (76.65)
@@ -2330,7 +2181,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Fomalhaut → H Makemake Dec 56.0194 56 whole (0.10)
     - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
 - **J Transpluto** (same body: S Transpluto → J Transpluto Dec 3.0150 3 whole (6.23))
-  - sky line to Transpluto: S Moon → Transpluto Dec 0.2980 conj (0.00)
   - top rows: S Jupiter → J Transpluto Dec 24.1457 24.14 silver (94.25)
   - star rows: J Alhena → J Transpluto Dec 3.0050 3 whole (55.99)
     - source line: S Moon → Alhena RA 65.9978 66 whole (78.94)
@@ -2362,9 +2212,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Fomalhaut → H Sedna Dec 37.0172 37 whole (1.94) = S Sun → Galactic Centre RA 37.0023 37 whole (77.89)
   - 37 whole — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies
     - H Scheat → H Mars Dec 36.9809 37 whole (0.22) = S Sun → Galactic Centre RA 37.0023 37 whole (77.89)
-  - 18.8889 ninth — also: 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
+  - 18.8889 ninth — only
     - H Sualocin → H Eris Dec 18.8829 18.8889 ninth (95.71) = S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)
-  - 44 whole — also: 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones
+  - 44 whole — also: 2 Financier / Richard Patrick
     - J Alkes → J Vesta RA 43.9826 44 whole (1.71) = S Sun → Pleiades Dec 44.0004 44 whole (96.38)
   - 37 whole — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies
     - J Castor → J Vesta Dec 37.0153 37 whole (5.52) = S Sun → Galactic Centre RA 37.0023 37 whole (77.89)
@@ -2391,7 +2241,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Sadalmelik → H Chiron RA 15.0059 15 whole (49.79)
   - 40 = 360/9 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick
     - H Scheat → H Eris RA 40.0171 40 whole (2.11)
-  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
     - H Sualocin → H Jupiter Dec 5.0059 5 whole (49.92)
   - 1 = 360/360 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
     - S Juno → J Juno Dec 0.9737 1 whole (loose)
@@ -2419,10 +2269,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Sadalmelik → J Rahu Dec 9.0050 9 whole (55.96)
   - 36 = 360/10 — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
     - J Scheat → J Pluto Dec 35.9927 36 whole (40.51)
-  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
     - J Sualocin → J Venus RA 5.0056 5 whole (52.11)
 - **5. same number in more than one place**
-  - 23 whole — also: 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
+  - 23 whole — also: 6 Le Ligerien / Ben Jones
     - S Uranus → H Uranus RA 23.0164 23 whole (3.19)
     - J Sadalmelik → J Mars Dec 23.0004 23 whole (96.50)
   - 9 whole — also: 3 Frero Banbou / Charlie Deutsch
@@ -2444,9 +2294,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 32 whole — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies
     - H Alkes → H Pallas Dec 32.0141 32 whole (8.80)
     - J Pleiades → J Pluto Dec 32.0140 32 whole (8.99)
-  - 13 whole — also: 2 Financier / Richard Patrick, 7 Beaufort West / Page Fuller
-    - H Alkes → H Transpluto RA 13.0134 13 whole (10.87)
-    - H Vindemiatrix → H Haumea RA 12.9955 13 whole (59.75)
   - 45 whole — also: 1 Eclair D'Ainay / Harry Skelton
     - H Castor → H Gonggong Dec 44.9959 45 whole (63.09)
     - J Pleiades → J Uranus Dec 45.0020 45 whole (80.70)
@@ -2479,7 +2326,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - φ^5 phi power — also: 7 Beaufort West / Page Fuller
     - S Saturn → J Saturn Dec 11.0959 φ^5 phi power (80.48)
     - S Makemake → J Makemake Dec 11.0665 φ^5 phi power (loose)
-  - 1 whole — also: 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones
+  - 1 whole — also: 6 Le Ligerien / Ben Jones
     - S Juno → J Juno Dec 0.9737 1 whole (loose)
     - S Sun → J Uranus Dec 1.0010 1 whole (90.11)
   - 77 whole — only
@@ -2541,8 +2388,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Haumea → H Haumea RA 8.9761 9 whole (loose) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
   - star rows: H Sadalmelik → H Haumea RA 122.9113 φ^10 phi power (75.51) — also: 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
     - source line: S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
-  - star rows: H Vindemiatrix → H Haumea RA 12.9955 13 whole (59.75) — also: 6 Le Ligerien / Ben Jones
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - star rows: J Fomalhaut → J Haumea Dec 51.0011 51 whole (89.11) — also: 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones
     - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
   - star rows: J Scheat → J Haumea RA 152.0992 94×φ golden (76.65) — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
@@ -2677,7 +2522,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Sualocin → H Transpluto RA 157.9896 158 whole (23.16) — also: 3 Frero Banbou / Charlie Deutsch
     - source line: S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
   - same body: S Transpluto → J Transpluto Dec 3.0150 3 whole (6.23) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Transpluto Dec 0.2980 conj (0.00)
   - top rows: S Jupiter → J Transpluto Dec 24.1457 24.14 silver (94.25) — only
   - star rows: J Alhena → J Transpluto Dec 3.0050 3 whole (55.99) — also: 1 Eclair D'Ainay / Harry Skelton
     - source line: S Moon → Alhena RA 65.9978 66 whole (78.94)
@@ -2796,8 +2640,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, top rows: S Eris → J Jupiter RA 0.2596 conj (68.38)
   - other chart, star rows: S Galactic Centre → J Jupiter Dec 38.0096 38 whole (27.27)
     - source line: S Sun → Galactic Centre RA 37.0023 37 whole (77.89)
-  - other chart, star rows: S Vindemiatrix → J Jupiter RA 169.9933 170 whole (44.21)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **H Pluto** (same body: S Pluto → H Pluto RA 16.6353 16.6667 ninth (loose))
   - top rows: S Sun → H Pluto Dec 0.2098 conj (9.04)
   - star rows: H Sualocin → H Pluto Dec 35.5935 22×φ golden (80.88)
@@ -2813,7 +2655,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
   - other chart, same body: S Chiron → J Chiron RA 122.2762 122.222 ninth (92.53)
 - **H Pallas** (same body: S Pallas → H Pallas Dec 3.9971 4 whole (72.96))
-  - sky line to Pallas: S Jupiter → Pallas Dec 0.1900 conj (13.44)
   - star rows: H Castor → H Pallas Dec 38.8330 24×φ golden (98.63)
     - source line: S Moon → Castor RA 51.7767 32×φ golden (97.46)
   - other chart, star rows: J Scheat → J Pallas RA 135.9074 84×φ golden (59.44)
@@ -2827,8 +2668,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Pleiades Dec 44.0004 44 whole (96.38)
   - other chart, star rows: J Regulus → J Juno Dec 25.0162 25 whole (3.58)
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
-  - other chart, star rows: J Vindemiatrix → J Juno Dec 24.0086 24 whole (32.42)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **H Eris** (same body: S Eris → H Eris Dec 2.0176 2 whole (1.40))
   - top rows: S Moon → H Eris Dec 14.1448 14.14 sqrt2 (92.59)
   - other chart, star rows: J Alkes → J Eris Dec 11.0997 φ^5 phi power (68.67)
@@ -2843,8 +2682,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)
   - other chart, star rows: J Pleiades → J Sedna Dec 18.9955 19 whole (60.18)
     - source line: S Sun → Pleiades Dec 44.0004 44 whole (96.38)
-  - other chart, star rows: J Vindemiatrix → J Sedna RA 148.8339 92×φ golden (4.80)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **H Quaoar** (same body: S Quaoar → H Quaoar RA 11.0218 11 whole (loose))
   - star rows: H Alhena → H Quaoar Dec 31.9906 32 whole (28.35)
     - source line: S Moon → Alhena RA 65.9978 66 whole (78.94)
@@ -2932,11 +2769,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Castor → H Pallas Dec 38.8330 24×φ golden (98.63) = S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
   - 11 whole — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
     - H Regulus → H Vesta Dec 11.0047 11 whole (58.67) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
-  - 44 whole — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
-    - H Vindemiatrix → H Transpluto RA 43.9925 44 whole (39.35) = S Sun → Pleiades Dec 44.0004 44 whole (96.38)
   - 144.444 ninth — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
     - J Al Rescha → J Quaoar RA 144.4893 144.444 ninth (95.25) = S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
-  - 41 whole — also: 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
+  - 41 whole — also: 7 Beaufort West / Page Fuller
     - J Galactic Centre → J Ceres Dec 41.0170 41 whole (2.29) = S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
 - **4. circle divisions**
   - 36 = 360/10 — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
@@ -2945,7 +2780,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Pallas → H Pallas Dec 3.9971 4 whole (72.96)
   - 2 = 360/180 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
     - S Eris → H Eris Dec 2.0176 2 whole (1.40)
-  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
     - S Sedna → H Sedna RA 4.9812 5 whole (0.36)
   - 1 = 360/360 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
     - S Sedna → H Sedna Dec 1.0205 1 whole (loose)
@@ -2961,20 +2796,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Galactic Centre → H Sedna Dec 36.0070 36 whole (42.04)
   - 9 = 360/40 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
     - H Rigel → H Ceres RA 9.0108 9 whole (21.20)
-  - 12 = 360/30 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
+  - 12 = 360/30 — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
     - H Sadalmelik → H Saturn Dec 12.0106 12 whole (22.03)
   - 3 = 360/120 — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
     - H Sadalmelik → H Uranus Dec 3.0071 3 whole (41.70)
-  - 12 = 360/30 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
+  - 12 = 360/30 — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
     - H Sadalmelik → H Transpluto Dec 11.9898 12 whole (24.21)
   - 45 = 360/8 — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
     - H Scheat → H Rahu Dec 45.0170 45 whole (2.19)
-  - 12 = 360/30 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
-    - H Vindemiatrix → H Vesta Dec 12.0135 12 whole (10.72)
   - 1 = 360/360 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
     - J Rigel → J Eris Dec 1.0038 1 whole (65.34)
-  - 24 = 360/15 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick
-    - J Vindemiatrix → J Juno Dec 24.0086 24 whole (32.42)
 - **5. same number in more than one place**
   - 36 whole — also: 2 Financier / Richard Patrick, 7 Beaufort West / Page Fuller
     - S Mercury → H Mercury RA 36.0035 36 whole (67.67)
@@ -2983,7 +2814,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Eris → H Eris Dec 2.0176 2 whole (1.40)
     - S Gonggong → H Gonggong Dec 2.0162 2 whole (3.55)
     - H Alhena → H Haumea Dec 1.9801 2 whole (0.00)
-  - 1 whole — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
+  - 1 whole — also: 5 Cedar Hill / Jonathan Burke
     - S Sedna → H Sedna Dec 1.0205 1 whole (loose)
     - J Rigel → J Eris Dec 1.0038 1 whole (65.34)
   - 11 whole — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
@@ -2992,9 +2823,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 26 whole — only
     - H Al Rescha → H Ceres Dec 25.9852 26 whole (6.70)
     - H Castor → H Ceres RA 26.0067 26 whole (44.06)
-  - 24 whole — also: 2 Financier / Richard Patrick
-    - H Alhena → H Orcus Dec 23.9814 24 whole (0.46)
-    - J Vindemiatrix → J Juno Dec 24.0086 24 whole (32.42)
   - 19 whole — only
     - H Fomalhaut → H Neptune Dec 18.9839 19 whole (3.79)
     - J Castor → J Transpluto Dec 18.9927 19 whole (40.05)
@@ -3005,17 +2833,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 12 whole — only
     - H Sadalmelik → H Saturn Dec 12.0106 12 whole (22.03)
     - H Sadalmelik → H Transpluto Dec 11.9898 12 whole (24.21)
-    - H Vindemiatrix → H Vesta Dec 12.0135 12 whole (10.72)
-  - 23 whole — also: 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
-    - H Vindemiatrix → H Saturn RA 23.0157 23 whole (4.57)
-    - J Alkes → J Venus RA 23.0057 23 whole (51.40)
-    - J Regulus → J Rahu RA 22.9889 23 whole (19.96)
   - 122.222 ninth — also: 1 Eclair D'Ainay / Harry Skelton
     - S Chiron → J Chiron RA 122.2762 122.222 ninth (92.53)
     - J Pleiades → J Mars RA 122.2413 122.222 ninth (97.36)
   - 25 whole — only
     - S Sun → J Sedna Dec 25.0054 25 whole (53.34)
     - J Regulus → J Juno Dec 25.0162 25 whole (3.58)
+  - 23 whole — also: 5 Cedar Hill / Jonathan Burke
+    - J Alkes → J Venus RA 23.0057 23 whole (51.40)
+    - J Regulus → J Rahu RA 22.9889 23 whole (19.96)
 ### L4 every natal body
 - **Mercury**
   - same body: S Mercury → H Mercury RA 36.0035 36 whole (67.67) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
@@ -3037,8 +2863,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Eris → J Jupiter RA 0.2596 conj (68.38) — also: 4 One True King / Sam Twiston-Davies
   - star rows: S Galactic Centre → J Jupiter Dec 38.0096 38 whole (27.27) — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke
     - source line: S Sun → Galactic Centre RA 37.0023 37 whole (77.89)
-  - star rows: S Vindemiatrix → J Jupiter RA 169.9933 170 whole (44.21) — only
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Pluto**
   - same body: S Pluto → H Pluto RA 16.6353 16.6667 ninth (loose) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 7 Beaufort West / Page Fuller
   - top rows: S Sun → H Pluto Dec 0.2098 conj (9.04) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 7 Beaufort West / Page Fuller
@@ -3057,7 +2881,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Chiron → J Chiron RA 122.2762 122.222 ninth (92.53) — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
 - **Pallas**
   - same body: S Pallas → H Pallas Dec 3.9971 4 whole (72.96) — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
-    - source line: S Jupiter → Pallas Dec 0.1900 conj (13.44)
   - star rows: H Castor → H Pallas Dec 38.8330 24×φ golden (98.63) — also: 3 Frero Banbou / Charlie Deutsch
     - source line: S Moon → Castor RA 51.7767 32×φ golden (97.46)
   - star rows: J Scheat → J Pallas RA 135.9074 84×φ golden (59.44) — also: 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
@@ -3072,8 +2895,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Pleiades Dec 44.0004 44 whole (96.38)
   - star rows: J Regulus → J Juno Dec 25.0162 25 whole (3.58) — only
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
-  - star rows: J Vindemiatrix → J Juno Dec 24.0086 24 whole (32.42) — also: 2 Financier / Richard Patrick
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Eris**
   - same body: S Eris → H Eris Dec 2.0176 2 whole (1.40) — also: 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
   - top rows: S Moon → H Eris Dec 14.1448 14.14 sqrt2 (92.59) — only
@@ -3091,8 +2912,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)
   - star rows: J Pleiades → J Sedna Dec 18.9955 19 whole (60.18) — also: 4 One True King / Sam Twiston-Davies
     - source line: S Sun → Pleiades Dec 44.0004 44 whole (96.38)
-  - star rows: J Vindemiatrix → J Sedna RA 148.8339 92×φ golden (4.80) — also: 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Quaoar**
   - same body: S Quaoar → H Quaoar RA 11.0218 11 whole (loose) — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
   - star rows: H Alhena → H Quaoar Dec 31.9906 32 whole (28.35) — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
@@ -3170,8 +2989,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
   - star rows: H Sualocin → H Haumea RA 101.0000 101 whole (99.55) — also: 7 Beaufort West / Page Fuller
     - source line: S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
-  - star rows: J Vindemiatrix → J Haumea RA 1.4476 conj (0.12) — also: 5 Cedar Hill / Jonathan Burke
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Orcus**
   - star rows: H Alhena → H Orcus Dec 23.9814 24 whole (0.46) — also: 2 Financier / Richard Patrick, 7 Beaufort West / Page Fuller
     - source line: S Moon → Alhena RA 65.9978 66 whole (78.94)
@@ -3186,8 +3003,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
   - star rows: H Sadalmelik → H Transpluto Dec 11.9898 12 whole (24.21) — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
     - source line: S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
-  - star rows: H Vindemiatrix → H Transpluto RA 43.9925 44 whole (39.35) — also: 2 Financier / Richard Patrick
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - star rows: J Castor → J Transpluto Dec 18.9927 19 whole (40.05) — also: 4 One True King / Sam Twiston-Davies
     - source line: S Moon → Castor RA 51.7767 32×φ golden (97.46)
 - **Mars**
@@ -3210,8 +3025,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)
   - star rows: H Sualocin → H Vesta RA 130.0023 130 whole (78.77) — also: 7 Beaufort West / Page Fuller
     - source line: S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
-  - star rows: H Vindemiatrix → H Vesta Dec 12.0135 12 whole (10.72) — also: 3 Frero Banbou / Charlie Deutsch
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - top rows: S Jupiter → J Vesta Dec 0.2177 conj (7.52) — also: 1 Eclair D'Ainay / Harry Skelton
 - **Ketu**
   - star rows: H Rigel → H Ketu RA 34.0087 34 whole (32.03) — only
@@ -3227,8 +3040,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Saturn**
   - star rows: H Sadalmelik → H Saturn Dec 12.0106 12 whole (22.03) — also: 7 Beaufort West / Page Fuller
     - source line: S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
-  - star rows: H Vindemiatrix → H Saturn RA 23.0157 23 whole (4.57) — also: 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Venus**
   - same body: S Venus → J Venus Dec 14.5361 9×φ golden (loose) — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
   - star rows: J Alkes → J Venus RA 23.0057 23 whole (51.40) — also: 4 One True King / Sam Twiston-Davies
@@ -3265,19 +3076,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Scheat → H Mercury Dec 19.9932 20 whole (43.65)
     - source line: S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
     - source line: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
-  - star rows: H Vindemiatrix → H Mercury RA 173.0066 173 whole (44.86)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - other chart, star rows: J Al Rescha → J Mercury RA 131.0112 131 whole (19.54)
     - source line: S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)
-  - other chart, star rows: J Vindemiatrix → J Mercury RA 34.0167 34 whole (2.65)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **H Mars** (same body: S Mars → H Mars Dec 19.9963 20 whole (66.18))
-  - star rows: H Vindemiatrix → H Mars RA 1.4972 conj (0.00)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - other chart, star rows: J Regulus → J Mars Dec 17.9496 φ^6 phi power (88.53)
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
-  - other chart, star rows: J Vindemiatrix → J Mars RA 1.3642 conj (0.82)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **H Neptune** (same body: S Neptune → H Neptune RA 13.2935 13.3333 ninth (loose); S Neptune → H Neptune Dec 5.0123 5 whole (14.81))
   - star rows: H Mirach → H Neptune Dec 45.3019 28×φ golden (82.26)
     - source line: S Moon → Mirach RA 147.9983 148 whole (84.01)
@@ -3325,12 +3128,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Scheat → J Eris Dec 36.0091 36 whole (29.78)
     - source line: S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
     - source line: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
-  - other chart, star rows: J Vindemiatrix → J Eris RA 171.9981 172 whole (81.60)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
-  - other chart, star rows: J Vindemiatrix → J Eris Dec 18.8877 18.8889 ninth (99.12)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **H Transpluto** (same body: S Transpluto → H Transpluto Dec 1.2151 1.22222 ninth (loose))
-  - sky line to Transpluto: S Moon → Transpluto Dec 0.2980 conj (0.00)
   - star rows: H Regulus → H Transpluto RA 0.3369 conj (60.12)
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
   - other chart, star rows: J Mirach → J Transpluto Dec 22.0177 22 whole (1.33)
@@ -3357,7 +3155,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: S Mirach → J Jupiter RA 133.3837 133.333 ninth (93.96)
     - source line: S Moon → Mirach RA 147.9983 148 whole (84.01)
   - other chart, top rows: S Pallas → H Jupiter Dec 34.0043 34 whole (61.98)
-    - source line: S Jupiter → Pallas Dec 0.1900 conj (13.44)
   - other chart, star rows: H Al Rescha → H Jupiter RA 73.9822 74 whole (1.21)
     - source line: S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)
   - other chart, star rows: H Regulus → H Jupiter Dec 11.0964 φ^5 phi power (78.89)
@@ -3389,10 +3186,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Scheat → J Eris Dec 36.0091 36 whole (29.78)
     - source line: S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
     - source line: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
-  - star rows: J Vindemiatrix → J Eris RA 171.9981 172 whole (81.60)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
-  - star rows: J Vindemiatrix → J Eris Dec 18.8877 18.8889 ninth (99.12)
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - other chart, same body: S Eris → H Eris Dec 1.6634 1.66667 ninth (loose)
   - other chart, star rows: H Alhena → H Eris RA 74.0189 74 whole (0.29)
     - source line: S Moon → Alhena RA 65.9978 66 whole (78.94)
@@ -3430,7 +3223,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **3. runner number = sky number**
   - 13.3333 ninth — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
     - S Neptune → H Neptune RA 13.2935 13.3333 ninth (loose) = S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
-  - 41 whole — also: 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+  - 41 whole — also: 6 Le Ligerien / Ben Jones
     - H Fomalhaut → H Eris RA 40.9969 41 whole (71.67) = S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
   - 66 whole — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies
     - J Rigel → J Sun RA 65.9856 66 whole (7.82) = S Moon → Alhena RA 65.9978 66 whole (78.94)
@@ -3438,12 +3231,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Rigel → J Juno RA 179.4425 10×φ^6 phi power (99.94) = S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
   - 10×φ^6 phi power — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
     - J Sadalmelik → J Vesta RA 179.4510 10×φ^6 phi power (98.17) = S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
-  - 18.8889 ninth — also: 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
-    - J Vindemiatrix → J Eris Dec 18.8877 18.8889 ninth (99.12) = S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)
 - **4. circle divisions**
   - 20 = 360/18 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
     - S Mars → H Mars Dec 19.9963 20 whole (66.18)
-  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
     - S Neptune → H Neptune Dec 5.0123 5 whole (14.81)
   - 9 = 360/40 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
     - H Al Rescha → H Venus Dec 9.0017 9 whole (83.52)
@@ -3451,7 +3242,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Castor → H Gonggong Dec 44.9930 45 whole (42.45)
   - 20 = 360/18 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
     - H Scheat → H Mercury Dec 19.9932 20 whole (43.65)
-  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
     - H Scheat → H Jupiter Dec 5.0172 5 whole (1.95)
   - 36 = 360/10 — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
     - H Sualocin → H Pluto Dec 36.0178 36 whole (1.19)
@@ -3479,9 +3270,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Regulus → H Jupiter Dec 11.0964 φ^5 phi power (78.89)
   - 34 whole — also: 5 Cedar Hill / Jonathan Burke
     - S Pallas → H Jupiter Dec 34.0043 34 whole (61.98)
-    - H Vindemiatrix → H Saturn RA 33.9847 34 whole (5.51)
     - S Sun → J Sun Dec 33.9857 34 whole (8.18)
-    - J Vindemiatrix → J Mercury RA 34.0167 34 whole (2.65)
   - 74 whole — only
     - H Al Rescha → H Jupiter RA 73.9822 74 whole (1.21)
     - H Alhena → H Eris RA 74.0189 74 whole (0.29)
@@ -3489,9 +3278,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Alkes → H Orcus RA 15.9920 16 whole (35.71)
     - H Pleiades → H Mercury Dec 16.0175 16 whole (1.60)
     - S Pluto → J Pluto Dec 16.0264 16 whole (loose)
-  - 52 whole — also: 1 Eclair D'Ainay / Harry Skelton
-    - H Castor → H Pluto Dec 51.9978 52 whole (79.37)
-    - J Vindemiatrix → J Venus RA 51.9929 52 whole (41.77)
   - 35 whole — only
     - H Castor → H Eris Dec 35.0023 35 whole (78.31)
     - J Alhena → J Orcus RA 35.0146 35 whole (7.35)
@@ -3511,7 +3297,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 133.333 ninth — also: 1 Eclair D'Ainay / Harry Skelton
     - J Jupiter → J star Mirach RA 133.3869 133.333 ninth (93.57)
     - S Mirach → J Jupiter RA 133.3837 133.333 ninth (93.96)
-  - 13 whole — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
+  - 13 whole — also: 2 Financier / Richard Patrick
     - J Al Rescha → J Venus Dec 12.9919 13 whole (35.16)
     - J Al Rescha → J Vesta Dec 12.9821 13 whole (1.06)
     - J Rigel → J Uranus Dec 13.0013 13 whole (86.96)
@@ -3532,20 +3318,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Scheat → H Mercury Dec 19.9932 20 whole (43.65) — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
     - source line: S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
     - source line: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
-  - star rows: H Vindemiatrix → H Mercury RA 173.0066 173 whole (44.86) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - star rows: J Al Rescha → J Mercury RA 131.0112 131 whole (19.54) — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
     - source line: S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)
-  - star rows: J Vindemiatrix → J Mercury RA 34.0167 34 whole (2.65) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Mars**
   - same body: S Mars → H Mars Dec 19.9963 20 whole (66.18) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
-  - star rows: H Vindemiatrix → H Mars RA 1.4972 conj (0.00) — only
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - star rows: J Regulus → J Mars Dec 17.9496 φ^6 phi power (88.53) — only
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
-  - star rows: J Vindemiatrix → J Mars RA 1.3642 conj (0.82) — only
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Neptune**
   - same body: S Neptune → H Neptune RA 13.2935 13.3333 ninth (loose) — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
   - same body: S Neptune → H Neptune Dec 5.0123 5 whole (14.81) — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
@@ -3598,13 +3376,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Scheat → J Eris Dec 36.0091 36 whole (29.78) — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
     - source line: S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
     - source line: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
-  - star rows: J Vindemiatrix → J Eris RA 171.9981 172 whole (81.60) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
-  - star rows: J Vindemiatrix → J Eris Dec 18.8877 18.8889 ninth (99.12) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Transpluto**
   - same body: S Transpluto → H Transpluto Dec 1.2151 1.22222 ninth (loose) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
-    - source line: S Moon → Transpluto Dec 0.2980 conj (0.00)
   - star rows: H Regulus → H Transpluto RA 0.3369 conj (60.12) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
   - star rows: J Mirach → J Transpluto Dec 22.0177 22 whole (1.33) — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke
@@ -3614,7 +3387,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Jupiter**
   - T1: H Jupiter → H star Regulus Dec 11.0964 φ^5 phi power (78.89) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
   - top rows: S Pallas → H Jupiter Dec 34.0043 34 whole (61.98) — only
-    - source line: S Jupiter → Pallas Dec 0.1900 conj (13.44)
   - star rows: H Al Rescha → H Jupiter RA 73.9822 74 whole (1.21) — only
     - source line: S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)
   - star rows: H Regulus → H Jupiter Dec 11.0964 φ^5 phi power (78.89) — also: 2 Financier / Richard Patrick
@@ -3661,20 +3433,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)
   - star rows: J Sualocin → J Venus Dec 0.1569 conj (22.76) — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
     - source line: S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
-  - star rows: J Vindemiatrix → J Venus RA 51.9929 52 whole (41.77) — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Ketu**
   - top rows: S Moon → H Ketu Dec 0.1486 conj (25.46) — also: 1 Eclair D'Ainay / Harry Skelton
   - star rows: H Alkes → H Ketu Dec 29.1270 18×φ golden (85.80) — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
     - source line: S Moon → Alkes RA 0.4866 conj (45.64)
   - star rows: H Galactic Centre → H Ketu RA 119.7545 74×φ golden (14.74) — only
     - source line: S Sun → Galactic Centre RA 37.0023 37 whole (77.89)
-  - star rows: H Vindemiatrix → H Ketu Dec 0.1319 conj (31.39) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
   - star rows: J Sualocin → J Ketu Dec 4.8549 3×φ golden (95.15) — also: 6 Le Ligerien / Ben Jones
     - source line: S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
-  - star rows: J Vindemiatrix → J Ketu Dec 0.0974 conj (45.59) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Haumea**
   - star rows: H Alhena → H Haumea RA 110.0429 68×φ golden (23.83) — also: 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
     - source line: S Moon → Alhena RA 65.9978 66 whole (78.94)
@@ -3719,8 +3485,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
   - star rows: H Sadalmelik → H Saturn RA 101.9105 63×φ golden (4.35) — also: 6 Le Ligerien / Ben Jones
     - source line: S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
-  - star rows: H Vindemiatrix → H Saturn RA 33.9847 34 whole (5.51) — also: 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
 - **Chiron**
   - star rows: H Fomalhaut → H Chiron RA 0.8125 conj (21.01) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
     - source line: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
@@ -3737,13 +3501,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
   - top rows: S Moon → J Ceres Dec 0.0634 conj (62.22) — also: 2 Financier / Richard Patrick
   - star rows: J Mirach → J Ceres Dec 25.0059 25 whole (49.82) — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
-    - source line: S Moon → Mirach RA 147.9983 148 whole (84.01)
-- **Sedna**
-  - star rows: H Vindemiatrix → H Sedna RA 141.4088 141.4 sqrt2 (96.48) — also: 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
-    - source line: S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
-  - star rows: J Castor → J Sedna Dec 27.0139 27 whole (9.18) — only
-    - source line: S Moon → Castor RA 51.7767 32×φ golden (97.46)
-  - star rows: J Mirach → J Sedna Dec 30.7448 19×φ golden (87.18) — only
     - source line: S Moon → Mirach RA 147.9983 148 whole (84.01)
 - **Sun**
   - same body: S Sun → J Sun Dec 33.9857 34 whole (8.18) — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
@@ -3762,6 +3519,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
 - **Makemake**
   - top rows: S Sun → J Makemake Dec 53.3904 33×φ golden (72.77) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick
+- **Sedna**
+  - star rows: J Castor → J Sedna Dec 27.0139 27 whole (9.18) — only
+    - source line: S Moon → Castor RA 51.7767 32×φ golden (97.46)
+  - star rows: J Mirach → J Sedna Dec 30.7448 19×φ golden (87.18) — only
+    - source line: S Moon → Mirach RA 147.9983 148 whole (84.01)
 - **Uranus**
   - star rows: J Pleiades → J Uranus Dec 45.3052 28×φ golden (98.25) — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
     - source line: S Sun → Pleiades Dec 44.0004 44 whole (96.38)

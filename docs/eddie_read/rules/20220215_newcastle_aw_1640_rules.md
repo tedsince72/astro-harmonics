@@ -19,16 +19,16 @@ Workbook race_batch_20220215_newcastle_aw_1640_jupiter_tables.xlsx. Runners 6. R
 - **B5 Same body in both planes** (0 of 6): none
 - **B6 Same body on both charts** (0 of 6): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 6): 4 Onesmoothoperator / Harry Russell
-- **B8 One line star on the most natal bodies** (1 of 6): 5 Aced It / Jack Mitchell
+- **B8 One line star on the most natal bodies** (2 of 6): 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
 
 ## Per runner
 
 - 1 Sir Chauvelin / Paul Mulrennan: B1
 - 2 Alba Rose / Joe Fanning: B1
 - 3 Wise Eagle / Graham Lee: R1b, R7, B1, B2, B3
-- 4 Onesmoothoperator / Harry Russell: R1b, R7, B1, B7
-- 5 Aced It / Jack Mitchell: B1, B8
-- 6 Resumption / Tom Marquand: R26
+- 4 Onesmoothoperator / Harry Russell: R1b, R7, B1, B7, B8
+- 5 Aced It / Jack Mitchell: B1
+- 6 Resumption / Tom Marquand: R26, B8
 
 ## Cells
 
@@ -120,10 +120,14 @@ _The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (sta
 
 ### B8 One line star on the most natal bodies
 _For each runner and each natal star on one chart (every star-row star is on a sky Jupiter, Sun or Moon line), count the different natal bodies of that chart it reaches with a cell scoring 80 or more (the natal star's own cell; a sky copy of the star does not count). The runner(s) with the highest count are picked; ties: every runner on the top count. Horse and jockey charts count separately._
-- 5 Aced It / Jack Mitchell
-  - J Difda on 4 natal bodies at 80 or more (most in the field; next 3)
-  - J Difda → J Transpluto RA 133.3345 133.333 ninth (99.86)
-  - J Difda → J Gonggong Dec 2.6181 φ^2 phi power (99.31)
-  - J Difda → J Quaoar RA 137.5332 85×φ golden (97.81)
-  - J Difda → J Mercury Dec 5.9990 6 whole (90.40)
+- 4 Onesmoothoperator / Harry Russell
+  - J Deneb on 3 natal bodies at 80 or more (most in the field; tied with 1, next 2)
+  - J Deneb → J Mercury Dec 70.7167 70.7 sqrt2 (96.63)
+  - J Deneb → J Quaoar Dec 59.9990 60 whole (90.58)
+  - J Deneb → J Eris Dec 52.9979 53 whole (80.03)
+- 6 Resumption / Tom Marquand
+  - J Algorab on 3 natal bodies at 80 or more (most in the field; tied with 1, next 2)
+  - J Algorab → J Gonggong RA 144.4476 144.444 ninth (99.66)
+  - J Algorab → J Saturn RA 166.6530 166.667 ninth (98.83)
+  - J Algorab → J Mars RA 169.0011 169 whole (88.93)
 

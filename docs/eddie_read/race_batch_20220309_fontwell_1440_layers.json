@@ -72,13 +72,6 @@
        "source_lines": [
         "S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)"
        ]
-      },
-      {
-       "text": "J Markab → J Venus Dec 30.0161 30 whole (3.84)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
       }
      ]
     },
@@ -89,22 +82,7 @@
       "S Mars → H Mars Dec 17.6547 17.7778 ninth (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "H Capella → H Mars RA 111.6453 69×φ golden (94.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
-      },
-      {
-       "text": "H Scheat → H Mars Dec 31.0128 31 whole (13.13)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": []
     },
@@ -156,13 +134,6 @@
        ]
       },
       {
-       "text": "S Capella → J Jupiter Dec 59.0055 59 whole (52.70)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
-      },
-      {
        "text": "S Zosma → J Jupiter RA 161.8760 100×φ^1 phi power (82.86)",
        "layer": "star rows",
        "source_lines": [
@@ -211,22 +182,7 @@
       "S Pluto → H Pluto RA 15.9734 16 whole (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "H Capella → H Pluto RA 154.9895 155 whole (22.59)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
-      },
-      {
-       "text": "H Markab → H Pluto RA 62.0103 62 whole (23.30)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": []
     },
@@ -246,31 +202,10 @@
        "source_lines": []
       },
       {
-       "text": "H Markab → H Chiron RA 0.5145 conj (43.16)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      },
-      {
        "text": "H Murzim → H Chiron RA 109.9987 110 whole (87.32)",
        "layer": "star rows",
        "source_lines": [
         "S Moon → Murzim RA 27.5095 17×φ golden (82.56)"
-       ]
-      },
-      {
-       "text": "H Scheat → H Chiron RA 0.2682 conj (67.43)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ]
-      },
-      {
-       "text": "H Scheat → H Chiron Dec 28.9961 29 whole (64.43)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
        ]
       }
      ],
@@ -287,22 +222,7 @@
      "body_lines": [
       "S Moon → Ceres Dec 0.1440 conj (27.02)"
      ],
-     "on_this_chart": [
-      {
-       "text": "H Markab → H Ceres RA 141.4450 141.4 sqrt2 (93.41)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      },
-      {
-       "text": "H Sadalsuud → H Ceres RA 118.1465 73×φ golden (0.54)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -348,39 +268,10 @@
        "source_lines": [
         "S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)"
        ]
-      },
-      {
-       "text": "H Capella → H Vesta RA 122.9980 φ^10 phi power (98.03)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
-      },
-      {
-       "text": "H Markab → H Vesta RA 144.0229 89×φ golden (20.11)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      },
-      {
-       "text": "H Markab → H Vesta Dec 11.3296 7×φ golden (80.52)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "J Scheat → J Vesta RA 39.9893 40 whole (21.64)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "H",
@@ -399,20 +290,6 @@
        "text": "S Moon → H Rahu RA 138.0031 138 whole (71.59)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "H Capella → H Rahu RA 127.0037 127 whole (66.40)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
-      },
-      {
-       "text": "H Markab → H Rahu RA 140.0171 140 whole (2.05)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
       }
      ],
      "other_chart_same_body": [],
@@ -428,20 +305,6 @@
      "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
-      {
-       "text": "J Capella → J Gonggong RA 107.9953 108 whole (58.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
-      },
-      {
-       "text": "J Markab → J Gonggong RA 15.0032 15 whole (70.37)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      },
       {
        "text": "J Murzim → J Gonggong Dec 0.1322 conj (31.29)",
        "layer": "star rows",
@@ -477,20 +340,6 @@
        ]
       },
       {
-       "text": "H Capella → H Ketu RA 52.9963 53 whole (66.40)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
-      },
-      {
-       "text": "H Markab → H Ketu RA 39.9829 40 whole (2.05)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      },
-      {
        "text": "H Zosma → H Ketu RA 142.3607 88×φ golden (3.57)",
        "layer": "star rows",
        "source_lines": [
@@ -505,13 +354,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)"
-       ]
-      },
-      {
-       "text": "J Markab → J Ketu Dec 22.6551 14×φ golden (84.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
        ]
       },
       {
@@ -530,15 +372,7 @@
       "S Mercury → J Mercury RA 41.0022 41 whole (79.64)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "J Capella → J Mercury Dec 69.0087 69 whole (32.10)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -580,13 +414,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)"
-       ]
-      },
-      {
-       "text": "J Markab → J Venus Dec 30.0161 30 whole (3.84)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
        ]
       }
      ],
@@ -657,18 +484,6 @@
         "Venus"
        ],
        "field": "also: 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Markab → J Venus Dec 30.0161 30 whole (3.84)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Venus"
-       ],
-       "field": "also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore"
       }
      ]
     },
@@ -684,30 +499,6 @@
         "Mars"
        ],
        "field": "also: 3 Hell Red / Harry Cobden"
-      },
-      {
-       "text": "H Capella → H Mars RA 111.6453 69×φ golden (94.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Mars"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
-      },
-      {
-       "text": "H Scheat → H Mars Dec 31.0128 31 whole (13.13)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Mars"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -774,7 +565,7 @@
         "natal Jupiter",
         "Jupiter"
        ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien"
+       "field": "also: 2 Royaume Uni / Joshua Moore"
       },
       {
        "text": "S Mercury → J Jupiter RA 1.4482 conj (0.12)",
@@ -797,18 +588,6 @@
         "Jupiter"
        ],
        "field": "only"
-      },
-      {
-       "text": "S Capella → J Jupiter Dec 59.0055 59 whole (52.70)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Jupiter"
-       ],
-       "field": "also: 6 Manvers House / James Best"
       },
       {
        "text": "S Zosma → J Jupiter RA 161.8760 100×φ^1 phi power (82.86)",
@@ -887,30 +666,6 @@
         "Pluto"
        ],
        "field": "also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore"
-      },
-      {
-       "text": "H Capella → H Pluto RA 154.9895 155 whole (22.59)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Pluto"
-       ],
-       "field": "also: 4 Dreaming Blue / Rex Dingle"
-      },
-      {
-       "text": "H Markab → H Pluto RA 62.0103 62 whole (23.30)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Pluto"
-       ],
-       "field": "also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
       }
      ]
     },
@@ -940,18 +695,6 @@
        "field": "also: 5 Grangeclare Glory / Tom Scudamore"
       },
       {
-       "text": "H Markab → H Chiron RA 0.5145 conj (43.16)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Chiron"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden"
-      },
-      {
        "text": "H Murzim → H Chiron RA 109.9987 110 whole (87.32)",
        "layer": "star rows",
        "source_lines": [
@@ -962,30 +705,6 @@
         "Chiron"
        ],
        "field": "also: 6 Manvers House / James Best"
-      },
-      {
-       "text": "H Scheat → H Chiron RA 0.2682 conj (67.43)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Chiron"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore"
-      },
-      {
-       "text": "H Scheat → H Chiron Dec 28.9961 29 whole (64.43)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Chiron"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore"
       }
      ]
     },
@@ -1015,30 +734,6 @@
         "Ceres"
        ],
        "field": "also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "H Markab → H Ceres RA 141.4450 141.4 sqrt2 (93.41)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Ceres"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "H Sadalsuud → H Ceres RA 118.1465 73×φ golden (0.54)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Ceres"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore"
       },
       {
        "text": "J Alkes → J Ceres Dec 6.9941 7 whole (49.91)",
@@ -1113,54 +808,6 @@
         "Vesta"
        ],
        "field": "also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "H Capella → H Vesta RA 122.9980 φ^10 phi power (98.03)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Vesta"
-       ],
-       "field": "also: 5 Grangeclare Glory / Tom Scudamore"
-      },
-      {
-       "text": "H Markab → H Vesta RA 144.0229 89×φ golden (20.11)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Vesta"
-       ],
-       "field": "also: 6 Manvers House / James Best"
-      },
-      {
-       "text": "H Markab → H Vesta Dec 11.3296 7×φ golden (80.52)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Vesta"
-       ],
-       "field": "also: 6 Manvers House / James Best"
-      },
-      {
-       "text": "J Scheat → J Vesta RA 39.9893 40 whole (21.64)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Vesta"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden"
       }
      ]
     },
@@ -1196,30 +843,6 @@
         "Rahu"
        ],
        "field": "also: 5 Grangeclare Glory / Tom Scudamore"
-      },
-      {
-       "text": "H Capella → H Rahu RA 127.0037 127 whole (66.40)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Rahu"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore"
-      },
-      {
-       "text": "H Markab → H Rahu RA 140.0171 140 whole (2.05)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Rahu"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best"
       }
      ]
     },
@@ -1235,30 +858,6 @@
         "Gonggong"
        ],
        "field": "also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Capella → J Gonggong RA 107.9953 108 whole (58.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Gonggong"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore"
-      },
-      {
-       "text": "J Markab → J Gonggong RA 15.0032 15 whole (70.37)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Gonggong"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden"
       },
       {
        "text": "J Murzim → J Gonggong Dec 0.1322 conj (31.29)",
@@ -1320,30 +919,6 @@
        "field": "also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore"
       },
       {
-       "text": "H Capella → H Ketu RA 52.9963 53 whole (66.40)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Ketu"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "H Markab → H Ketu RA 39.9829 40 whole (2.05)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Ketu"
-       ],
-       "field": "also: 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best"
-      },
-      {
        "text": "H Zosma → H Ketu RA 142.3607 88×φ golden (3.57)",
        "layer": "star rows",
        "source_lines": [
@@ -1366,18 +941,6 @@
         "Ketu"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Markab → J Ketu Dec 22.6551 14×φ golden (84.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Ketu"
-       ],
-       "field": "also: 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best"
       },
       {
        "text": "J Murzim → J Ketu RA 113.2349 70×φ golden (2.24)",
@@ -1531,18 +1094,6 @@
        "field": "also: 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien"
       },
       {
-       "text": "H Capella → H Quaoar Dec 61.4870 38×φ golden (89.94)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Quaoar"
-       ],
-       "field": "also: 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-      },
-      {
        "text": "H Diadem → H Quaoar Dec 33.0187 33 whole (0.45)",
        "layer": "star rows",
        "source_lines": [
@@ -1565,30 +1116,6 @@
         "Quaoar"
        ],
        "field": "also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best"
-      },
-      {
-       "text": "J Capella → J Quaoar RA 165.9954 166 whole (59.05)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Quaoar"
-       ],
-       "field": "also: 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Markab → J Quaoar RA 101.0126 101 whole (13.69)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Quaoar"
-       ],
-       "field": "also: 6 Manvers House / James Best"
       }
      ]
     },
@@ -1655,18 +1182,6 @@
         "Mercury"
        ],
        "field": "also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
-      },
-      {
-       "text": "J Capella → J Mercury Dec 69.0087 69 whole (32.10)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Mercury"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden"
       }
      ]
     },
@@ -1742,18 +1257,6 @@
         "Eris"
        ],
        "field": "also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
-      },
-      {
-       "text": "J Sadalsuud → J Eris Dec 2.0033 2 whole (69.42)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Eris"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -1773,18 +1276,6 @@
        "field": "also: 6 Manvers House / James Best"
       },
       {
-       "text": "J Capella → J Makemake Dec 13.0196 13 whole (0.04)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Makemake"
-       ],
-       "field": "also: 6 Manvers House / James Best"
-      },
-      {
        "text": "J Denebola → J Makemake RA 0.9805 conj (11.99)",
        "layer": "star rows",
        "source_lines": [
@@ -1795,77 +1286,12 @@
         "Makemake"
        ],
        "field": "also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Markab → J Makemake Dec 17.7755 17.7778 ninth (98.24)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Makemake"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien"
-      }
-     ]
-    },
-    {
-     "body": "Sun",
-     "cells": [
-      {
-       "text": "H Markab → H Sun Dec 0.1284 conj (32.72)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Sun"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "H Scheat → H Sun Dec 13.0058 13 whole (50.08)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Sun"
-       ],
-       "field": "also: 5 Grangeclare Glory / Tom Scudamore"
-      },
-      {
-       "text": "J Sadalsuud → J Sun RA 14.1464 14.14 sqrt2 (88.23)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Sun"
-       ],
-       "field": "also: 5 Grangeclare Glory / Tom Scudamore"
       }
      ]
     },
     {
      "body": "Juno",
      "cells": [
-      {
-       "text": "H Markab → H Juno Dec 8.0108 8 whole (21.06)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Juno"
-       ],
-       "field": "also: 4 Dreaming Blue / Rex Dingle"
-      },
       {
        "text": "H Zosma → H Juno Dec 13.3317 13.3333 ninth (97.99)",
        "layer": "star rows",
@@ -1884,30 +1310,6 @@
      "body": "Orcus",
      "cells": [
       {
-       "text": "H Markab → H Orcus Dec 22.9936 23 whole (46.41)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Orcus"
-       ],
-       "field": "also: 6 Manvers House / James Best"
-      },
-      {
-       "text": "H Sadalsuud → H Orcus RA 173.9915 174 whole (33.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Orcus"
-       ],
-       "field": "also: 6 Manvers House / James Best"
-      },
-      {
        "text": "J Diadem → J Orcus RA 61.0179 61 whole (1.06)",
        "layer": "star rows",
        "source_lines": [
@@ -1918,48 +1320,12 @@
         "Orcus"
        ],
        "field": "also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best"
-      },
-      {
-       "text": "J Sadalsuud → J Orcus Dec 5.0192 5 whole (0.14)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Orcus"
-       ],
-       "field": "also: 6 Manvers House / James Best"
       }
      ]
     },
     {
      "body": "Uranus",
      "cells": [
-      {
-       "text": "J Capella → J Uranus RA 127.9909 128 whole (29.49)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Uranus"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Markab → J Uranus RA 34.9988 35 whole (88.63)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Uranus"
-       ],
-       "field": "only"
-      },
       {
        "text": "J Murzim → J Uranus RA 144.4930 144.444 ninth (94.86)",
        "layer": "star rows",
@@ -1998,39 +1364,18 @@
     ],
     "3": [
      {
-      "label": "11 whole",
+      "label": "22 whole",
       "cells": [
-       "S Sun → H Saturn Dec 11.0045 11 whole (60.14) = S Moon → Capella RA 11.0061 11 whole (48.14)"
-      ],
-      "field": "also: 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "1 whole",
-      "cells": [
-       "H Aldebaran → H Mercury Dec 0.9840 1 whole (4.06) = S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-      ],
-      "field": "also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "127 whole",
-      "cells": [
-       "H Capella → H Rahu RA 127.0037 127 whole (66.40) = S Moon → Vesta RA 126.9981 127 whole (81.81)"
+       "J Alkes → J Saturn Dec 22.0148 22 whole (6.64) = S Sun → Diadem Dec 22.0013 22 whole (87.07)"
       ],
       "field": "also: 3 Hell Red / Harry Cobden"
      },
      {
       "label": "22 whole",
       "cells": [
-       "J Alkes → J Saturn Dec 22.0148 22 whole (6.64) = S Sun → Diadem Dec 22.0013 22 whole (87.07)"
-      ],
-      "field": "also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore"
-     },
-     {
-      "label": "22 whole",
-      "cells": [
        "J Denebola → J Ketu Dec 22.0199 22 whole (0.00) = S Sun → Diadem Dec 22.0013 22 whole (87.07)"
       ],
-      "field": "also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore"
+      "field": "also: 3 Hell Red / Harry Cobden"
      }
     ],
     "4": [
@@ -2039,7 +1384,7 @@
       "cells": [
        "S Pallas → H Jupiter Dec 29.9948 30 whole (55.02)"
       ],
-      "field": "also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
+      "field": "also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "1 = 360/360",
@@ -2060,81 +1405,24 @@
       "cells": [
        "H Diadem → H Makemake RA 5.9935 6 whole (45.43)"
       ],
-      "field": "also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "8 = 360/45",
-      "cells": [
-       "H Markab → H Juno Dec 8.0108 8 whole (21.06)"
-      ],
-      "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "40 = 360/9",
-      "cells": [
-       "H Markab → H Ketu RA 39.9829 40 whole (2.05)"
-      ],
-      "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore"
+      "field": "also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "36 = 360/10",
       "cells": [
        "H Zosma → H Saturn Dec 36.0016 36 whole (85.10)"
       ],
-      "field": "also: 3 Hell Red / Harry Cobden, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
+      "field": "also: 6 Manvers House / James Best"
      },
      {
       "label": "36 = 360/10",
       "cells": [
        "H Zosma → H Quaoar Dec 36.0127 36 whole (13.32)"
       ],
-      "field": "also: 3 Hell Red / Harry Cobden, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "30 = 360/12",
-      "cells": [
-       "J Markab → J Venus Dec 30.0161 30 whole (3.84)"
-      ],
-      "field": "also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "15 = 360/24",
-      "cells": [
-       "J Markab → J Gonggong RA 15.0032 15 whole (70.37)"
-      ],
-      "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
-     },
-     {
-      "label": "2 = 360/180",
-      "cells": [
-       "J Sadalsuud → J Eris Dec 2.0033 2 whole (69.42)"
-      ],
-      "field": "also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "5 = 360/72",
-      "cells": [
-       "J Sadalsuud → J Orcus Dec 5.0192 5 whole (0.14)"
-      ],
-      "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "40 = 360/9",
-      "cells": [
-       "J Scheat → J Vesta RA 39.9893 40 whole (21.64)"
-      ],
-      "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore"
+      "field": "also: 6 Manvers House / James Best"
      }
     ],
     "5": [
-     {
-      "label": "17.7778 ninth",
-      "cells": [
-       "S Mars → H Mars Dec 17.6547 17.7778 ninth (loose)",
-       "J Markab → J Makemake Dec 17.7755 17.7778 ninth (98.24)"
-      ],
-      "field": "only"
-     },
      {
       "label": "16 whole",
       "cells": [
@@ -2155,8 +1443,7 @@
       "label": "141.4 sqrt2",
       "cells": [
        "S Ceres → H Ceres RA 140.8793 141.4 sqrt2 (loose)",
-       "H Diadem → H Neptune RA 141.4623 141.4 sqrt2 (88.77)",
-       "H Markab → H Ceres RA 141.4450 141.4 sqrt2 (93.41)"
+       "H Diadem → H Neptune RA 141.4623 141.4 sqrt2 (88.77)"
       ],
       "field": "only"
      },
@@ -2175,23 +1462,7 @@
        "J Jupiter → J star Zosma RA 161.8784 100×φ^1 phi power (82.33)",
        "S Zosma → J Jupiter RA 161.8760 100×φ^1 phi power (82.86)"
       ],
-      "field": "also: 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "166 whole",
-      "cells": [
-       "S Pluto → H Jupiter RA 165.9945 166 whole (52.28)",
-       "J Capella → J Quaoar RA 165.9954 166 whole (59.05)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "30 whole",
-      "cells": [
-       "S Pallas → H Jupiter Dec 29.9948 30 whole (55.02)",
-       "J Markab → J Venus Dec 30.0161 30 whole (3.84)"
-      ],
-      "field": "also: 4 Dreaming Blue / Rex Dingle"
+      "field": "also: 7 Island Run / Tom O'Brien"
      },
      {
       "label": "32 whole",
@@ -2203,44 +1474,12 @@
       "field": "also: 3 Hell Red / Harry Cobden"
      },
      {
-      "label": "174 whole",
-      "cells": [
-       "H Alkes → H Neptune RA 174.0179 174 whole (1.15)",
-       "H Sadalsuud → H Orcus RA 173.9915 174 whole (33.12)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "φ^10 phi power",
-      "cells": [
-       "H Capella → H Vesta RA 122.9980 φ^10 phi power (98.03)",
-       "H Denebola → H Sedna RA 122.9987 φ^10 phi power (97.79)"
-      ],
-      "field": "also: 2 Royaume Uni / Joshua Moore"
-     },
-     {
       "label": "33 whole",
       "cells": [
        "H Diadem → H Saturn Dec 33.0075 33 whole (39.02)",
        "H Diadem → H Quaoar Dec 33.0187 33 whole (0.45)"
       ],
       "field": "also: 6 Manvers House / James Best"
-     },
-     {
-      "label": "40 whole",
-      "cells": [
-       "H Markab → H Ketu RA 39.9829 40 whole (2.05)",
-       "J Scheat → J Vesta RA 39.9893 40 whole (21.64)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "13 whole",
-      "cells": [
-       "H Scheat → H Sun Dec 13.0058 13 whole (50.08)",
-       "J Capella → J Makemake Dec 13.0196 13 whole (0.04)"
-      ],
-      "field": "only"
      },
      {
       "label": "36 whole",
@@ -2334,20 +1573,6 @@
        "layer": "top rows",
        "source_lines": [
         "S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)"
-       ]
-      },
-      {
-       "text": "S Markab → J Jupiter RA 176.3574 109×φ golden (55.04)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      },
-      {
-       "text": "J Sadalsuud → J Jupiter Dec 14.0045 14 whole (59.99)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
        ]
       },
       {
@@ -2457,22 +1682,7 @@
      "body_lines": [
       "S Moon → Chiron Dec 16.6620 16.6667 ninth (96.00)"
      ],
-     "on_this_chart": [
-      {
-       "text": "J Sadalsuud → J Chiron Dec 16.6606 16.6667 ninth (94.82)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
-      },
-      {
-       "text": "J Scheat → J Chiron Dec 16.9957 17 whole (61.32)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -2493,15 +1703,7 @@
      "body_lines": [
       "S Moon → Ceres Dec 0.1440 conj (27.02)"
      ],
-     "on_this_chart": [
-      {
-       "text": "J Sadalsuud → J Ceres RA 78.9950 79 whole (56.22)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -2563,15 +1765,7 @@
      "body_lines": [
       "S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)"
      ],
-     "on_this_chart": [
-      {
-       "text": "J Markab → J Sedna Dec 11.0932 φ^5 phi power (89.46)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -2598,20 +1792,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)"
-       ]
-      },
-      {
-       "text": "J Sadalsuud → J Makemake Dec 39.9954 40 whole (59.55)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
-      },
-      {
-       "text": "J Scheat → J Makemake RA 174.0062 174 whole (47.77)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
        ]
       }
      ],
@@ -2714,7 +1894,7 @@
         "natal Jupiter",
         "Jupiter"
        ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien"
+       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
       },
       {
        "text": "S Makemake → H Jupiter RA 0.8418 conj (19.25)",
@@ -2763,16 +1943,6 @@
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien"
       },
       {
-       "text": "J Jupiter → J star Sadalsuud Dec 14.0045 14 whole (59.99)",
-       "layer": "T2",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Jupiter"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien"
-      },
-      {
        "text": "S Saturn → J Jupiter Dec 24.2704 15×φ golden (99.25)",
        "layer": "top rows",
        "source_lines": [
@@ -2818,30 +1988,6 @@
         "Jupiter"
        ],
        "field": "also: 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best"
-      },
-      {
-       "text": "S Markab → J Jupiter RA 176.3574 109×φ golden (55.04)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Jupiter"
-       ],
-       "field": "also: 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Sadalsuud → J Jupiter Dec 14.0045 14 whole (59.99)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Jupiter"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
       },
       {
        "text": "S Zosma → J Jupiter RA 5.9911 6 whole (30.78)",
@@ -2956,18 +2102,6 @@
        "field": "also: 3 Hell Red / Harry Cobden"
       },
       {
-       "text": "J Capella → J Mars RA 144.0330 89×φ golden (1.84)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Mars"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
-      },
-      {
        "text": "J Diadem → J Mars Dec 33.9827 34 whole (1.86)",
        "layer": "star rows",
        "source_lines": [
@@ -2978,18 +2112,6 @@
         "Mars"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Markab → J Mars RA 122.9808 φ^10 phi power (96.42)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Mars"
-       ],
-       "field": "also: 6 Manvers House / James Best"
       }
      ]
     },
@@ -3017,18 +2139,6 @@
         "Uranus"
        ],
        "field": "also: 6 Manvers House / James Best"
-      },
-      {
-       "text": "H Sadalsuud → H Uranus RA 59.0170 59 whole (2.20)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Uranus"
-       ],
-       "field": "also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
       },
       {
        "text": "J Aldebaran → J Uranus RA 147.0070 147 whole (42.16)",
@@ -3085,18 +2195,6 @@
         "Venus"
        ],
        "field": "also: 4 Dreaming Blue / Rex Dingle"
-      },
-      {
-       "text": "H Scheat → H Venus RA 12.0158 12 whole (4.33)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Venus"
-       ],
-       "field": "also: 4 Dreaming Blue / Rex Dingle"
       }
      ]
     },
@@ -3138,83 +2236,6 @@
         "Juno"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Scheat → J Juno RA 48.9866 49 whole (10.73)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Juno"
-       ],
-       "field": "also: 6 Manvers House / James Best"
-      }
-     ]
-    },
-    {
-     "body": "Haumea",
-     "cells": [
-      {
-       "text": "H Capella → H Haumea RA 133.3792 133.333 ninth (94.49)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Haumea"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "H Diadem → H Haumea Dec 0.2692 conj (1.05)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Diadem Dec 22.0013 22 whole (87.07)"
-       ],
-       "key": [
-        "Diadem",
-        "Haumea"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden"
-      },
-      {
-       "text": "H Scheat → H Haumea RA 133.3900 133.333 ninth (93.20)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Haumea"
-       ],
-       "field": "also: 6 Manvers House / James Best"
-      },
-      {
-       "text": "H Zosma → H Haumea RA 44.0164 44 whole (3.33)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Zosma Dec 24.9947 25 whole (54.14)"
-       ],
-       "key": [
-        "Zosma",
-        "Haumea"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden"
-      },
-      {
-       "text": "J Sadalsuud → J Haumea RA 133.3018 133.333 ninth (96.21)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Haumea"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden"
       }
      ]
     },
@@ -3334,18 +2355,6 @@
         "Ceres"
        ],
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Sadalsuud → J Ceres RA 78.9950 79 whole (56.22)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Ceres"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
       }
      ]
     },
@@ -3375,30 +2384,6 @@
         "Rahu"
        ],
        "field": "only"
-      },
-      {
-       "text": "H Markab → H Rahu RA 168.2957 104×φ golden (14.14)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Rahu"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best"
-      },
-      {
-       "text": "J Capella → J Rahu RA 156.9428 97×φ golden (63.73)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Rahu"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
       },
       {
        "text": "J Murzim → J Rahu Dec 5.0104 5 whole (23.15)",
@@ -3455,18 +2440,6 @@
         "Vesta"
        ],
        "field": "also: 6 Manvers House / James Best"
-      },
-      {
-       "text": "H Scheat → H Vesta Dec 1.9845 2 whole (5.16)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Vesta"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden"
       }
      ]
     },
@@ -3508,18 +2481,35 @@
         "Sedna"
        ],
        "field": "also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-      },
+      }
+     ]
+    },
+    {
+     "body": "Haumea",
+     "cells": [
       {
-       "text": "J Markab → J Sedna Dec 11.0932 φ^5 phi power (89.46)",
+       "text": "H Diadem → H Haumea Dec 0.2692 conj (1.05)",
        "layer": "star rows",
        "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
+        "S Sun → Diadem Dec 22.0013 22 whole (87.07)"
        ],
        "key": [
-        "Markab",
-        "Sedna"
+        "Diadem",
+        "Haumea"
        ],
-       "field": "also: 6 Manvers House / James Best"
+       "field": "also: 3 Hell Red / Harry Cobden"
+      },
+      {
+       "text": "H Zosma → H Haumea RA 44.0164 44 whole (3.33)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Zosma Dec 24.9947 25 whole (54.14)"
+       ],
+       "key": [
+        "Zosma",
+        "Haumea"
+       ],
+       "field": "also: 3 Hell Red / Harry Cobden"
       }
      ]
     },
@@ -3539,18 +2529,6 @@
        "field": "also: 7 Island Run / Tom O'Brien"
       },
       {
-       "text": "H Sadalsuud → H Ketu Dec 5.0056 5 whole (51.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Ketu"
-       ],
-       "field": "only"
-      },
-      {
        "text": "S Moon → J Ketu Dec 0.2381 conj (4.26)",
        "layer": "top rows",
        "source_lines": [],
@@ -3559,76 +2537,6 @@
         "Ketu"
        ],
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
-      }
-     ]
-    },
-    {
-     "body": "Transpluto",
-     "cells": [
-      {
-       "text": "H Markab → H Transpluto RA 166.6487 166.667 ninth (98.46)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Transpluto"
-       ],
-       "field": "also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore"
-      },
-      {
-       "text": "H Markab → H Transpluto Dec 4.0056 4 whole (52.16)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Transpluto"
-       ],
-       "field": "also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore"
-      }
-     ]
-    },
-    {
-     "body": "Saturn",
-     "cells": [
-      {
-       "text": "H Sadalsuud → H Saturn RA 55.5520 55.5556 ninth (96.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Saturn"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "H Scheat → H Saturn Dec 50.1563 31×φ golden (83.64)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Saturn"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Denebola → J Saturn Dec 34.9889 35 whole (19.66)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)"
-       ],
-       "key": [
-        "Denebola",
-        "Saturn"
-       ],
-       "field": "also: 4 Dreaming Blue / Rex Dingle"
       }
      ]
     },
@@ -3658,30 +2566,6 @@
         "Chiron"
        ],
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Sadalsuud → J Chiron Dec 16.6606 16.6667 ninth (94.82)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Chiron"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Scheat → J Chiron Dec 16.9957 17 whole (61.32)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Chiron"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
       }
      ]
     },
@@ -3723,30 +2607,6 @@
         "Makemake"
        ],
        "field": "also: 5 Grangeclare Glory / Tom Scudamore"
-      },
-      {
-       "text": "J Sadalsuud → J Makemake Dec 39.9954 40 whole (59.55)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Makemake"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best"
-      },
-      {
-       "text": "J Scheat → J Makemake RA 174.0062 174 whole (47.77)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Makemake"
-       ],
-       "field": "also: 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
       }
      ]
     },
@@ -3768,48 +2628,19 @@
      ]
     },
     {
-     "body": "Gonggong",
+     "body": "Saturn",
      "cells": [
       {
-       "text": "J Capella → J Gonggong RA 109.9991 110 whole (90.75)",
+       "text": "J Denebola → J Saturn Dec 34.9889 35 whole (19.66)",
        "layer": "star rows",
        "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
+        "S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)"
        ],
        "key": [
-        "Capella",
-        "Gonggong"
+        "Denebola",
+        "Saturn"
        ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore"
-      },
-      {
-       "text": "J Markab → J Gonggong RA 17.0128 17 whole (12.89)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Gonggong"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden"
-      }
-     ]
-    },
-    {
-     "body": "Sun",
-     "cells": [
-      {
-       "text": "J Markab → J Sun RA 122.9691 φ^10 phi power (92.72)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Sun"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
+       "field": "also: 4 Dreaming Blue / Rex Dingle"
       }
      ]
     }
@@ -3837,25 +2668,11 @@
     ],
     "3": [
      {
-      "label": "1 whole",
-      "cells": [
-       "H Denebola → H Mercury Dec 0.9892 1 whole (21.27) = S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
-     {
       "label": "43 whole",
       "cells": [
        "H Diadem → H Rahu RA 43.0189 43 whole (0.31) = S Jupiter → Venus RA 43.0014 43 whole (86.77)"
       ],
       "field": "also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "16.6667 ninth",
-      "cells": [
-       "J Sadalsuud → J Chiron Dec 16.6606 16.6667 ninth (94.82) = S Moon → Chiron Dec 16.6620 16.6667 ninth (96.00)"
-      ],
-      "field": "also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
      }
     ],
     "4": [
@@ -3871,14 +2688,14 @@
       "cells": [
        "S Sun → H Orcus Dec 4.9999 5 whole (98.76)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
+      "field": "also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "6 = 360/60",
       "cells": [
        "S Moon → H Mars Dec 5.9964 6 whole (67.29)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
+      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "1 = 360/360",
@@ -3892,7 +2709,7 @@
       "cells": [
        "H Denebola → H Uranus Dec 5.9885 6 whole (18.11)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
+      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "24 = 360/15",
@@ -3916,13 +2733,6 @@
       "field": "also: 4 Dreaming Blue / Rex Dingle"
      },
      {
-      "label": "4 = 360/90",
-      "cells": [
-       "H Markab → H Transpluto Dec 4.0056 4 whole (52.16)"
-      ],
-      "field": "also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
-     },
-     {
       "label": "12 = 360/30",
       "cells": [
        "H Murzim → H Jupiter Dec 11.9969 12 whole (71.32)"
@@ -3930,53 +2740,32 @@
       "field": "also: 3 Hell Red / Harry Cobden"
      },
      {
-      "label": "5 = 360/72",
-      "cells": [
-       "H Sadalsuud → H Ketu Dec 5.0056 5 whole (51.65)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "12 = 360/30",
-      "cells": [
-       "H Scheat → H Venus RA 12.0158 12 whole (4.33)"
-      ],
-      "field": "also: 3 Hell Red / Harry Cobden"
-     },
-     {
-      "label": "2 = 360/180",
-      "cells": [
-       "H Scheat → H Vesta Dec 1.9845 2 whole (5.16)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
-     },
-     {
       "label": "30 = 360/12",
       "cells": [
        "H Zosma → H Orcus Dec 29.9955 30 whole (60.26)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
+      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "15 = 360/24",
       "cells": [
        "S Jupiter → J Jupiter Dec 15.0007 15 whole (93.29)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
+      "field": "also: 6 Manvers House / James Best"
      },
      {
       "label": "5 = 360/72",
       "cells": [
        "S Chiron → J Chiron Dec 5.0270 5 whole (loose)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
+      "field": "also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "8 = 360/45",
       "cells": [
        "S Eris → J Eris Dec 7.9719 8 whole (loose)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
+      "field": "also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "4 = 360/90",
@@ -3990,21 +2779,14 @@
       "cells": [
        "J Murzim → J Rahu Dec 5.0104 5 whole (23.15)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "40 = 360/9",
-      "cells": [
-       "J Sadalsuud → J Makemake Dec 39.9954 40 whole (59.55)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore"
+      "field": "also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "6 = 360/60",
       "cells": [
        "S Zosma → J Jupiter RA 5.9911 6 whole (30.78)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
+      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      }
     ],
     "5": [
@@ -4012,8 +2794,7 @@
       "label": "12 whole",
       "cells": [
        "H Jupiter → H star Murzim Dec 11.9969 12 whole (71.32)",
-       "H Murzim → H Jupiter Dec 11.9969 12 whole (71.32)",
-       "H Scheat → H Venus RA 12.0158 12 whole (4.33)"
+       "H Murzim → H Jupiter Dec 11.9969 12 whole (71.32)"
       ],
       "field": "only"
      },
@@ -4021,7 +2802,6 @@
       "label": "5 whole",
       "cells": [
        "S Sun → H Orcus Dec 4.9999 5 whole (98.76)",
-       "H Sadalsuud → H Ketu Dec 5.0056 5 whole (51.65)",
        "S Chiron → J Chiron Dec 5.0270 5 whole (loose)",
        "J Murzim → J Rahu Dec 5.0104 5 whole (23.15)"
       ],
@@ -4050,34 +2830,15 @@
        "H Aldebaran → H Orcus Dec 25.9813 26 whole (0.44)",
        "H Zosma → H Makemake RA 26.0113 26 whole (18.93)"
       ],
-      "field": "also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
-     },
-     {
-      "label": "133.333 ninth",
-      "cells": [
-       "H Capella → H Haumea RA 133.3792 133.333 ninth (94.49)",
-       "H Scheat → H Haumea RA 133.3900 133.333 ninth (93.20)",
-       "J Sadalsuud → J Haumea RA 133.3018 133.333 ninth (96.21)"
-      ],
-      "field": "only"
+      "field": "also: 6 Manvers House / James Best"
      },
      {
       "label": "4 whole",
       "cells": [
        "H Denebola → H Rahu Dec 3.9910 4 whole (30.09)",
-       "H Markab → H Transpluto Dec 4.0056 4 whole (52.16)",
        "S Sedna → J Sedna Dec 4.0239 4 whole (loose)"
       ],
       "field": "only"
-     },
-     {
-      "label": "17 whole",
-      "cells": [
-       "H Denebola → H Eris Dec 17.0059 17 whole (49.70)",
-       "J Markab → J Gonggong RA 17.0128 17 whole (12.89)",
-       "J Scheat → J Chiron Dec 16.9957 17 whole (61.32)"
-      ],
-      "field": "also: 6 Manvers House / James Best"
      },
      {
       "label": "27 whole",
@@ -4094,22 +2855,6 @@
        "S Saturn → J Jupiter Dec 24.2704 15×φ golden (99.25)"
       ],
       "field": "only"
-     },
-     {
-      "label": "14 whole",
-      "cells": [
-       "J Jupiter → J star Sadalsuud Dec 14.0045 14 whole (59.99)",
-       "J Sadalsuud → J Jupiter Dec 14.0045 14 whole (59.99)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "φ^10 phi power",
-      "cells": [
-       "J Markab → J Sun RA 122.9691 φ^10 phi power (92.72)",
-       "J Markab → J Mars RA 122.9808 φ^10 phi power (96.42)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
      },
      {
       "label": "15 and 15×φ on J Jupiter",
@@ -4147,15 +2892,7 @@
       "S Jupiter → Venus RA 43.0014 43 whole (86.77)",
       "S Moon → Venus RA 124.0035 124 whole (68.42)"
      ],
-     "on_this_chart": [
-      {
-       "text": "H Capella → H Venus RA 81.0143 81 whole (8.21)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -4186,13 +2923,6 @@
        "text": "S Sun → H Mars Dec 25.8827 16×φ golden (67.21)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "H Sadalsuud → H Mars Dec 26.9813 27 whole (0.43)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
       }
      ],
      "other_chart_same_body": [],
@@ -4242,13 +2972,6 @@
        "text": "S Juno → H Jupiter RA 119.0034 119 whole (69.25)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "H Sadalsuud → H Jupiter RA 127.8054 79×φ golden (16.32)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
       }
      ],
      "other_chart_same_body": [],
@@ -4303,15 +3026,7 @@
       "S Jupiter → Vesta RA 45.9960 46 whole (64.02)",
       "S Moon → Vesta RA 126.9981 127 whole (81.81)"
      ],
-     "on_this_chart": [
-      {
-       "text": "H Scheat → H Vesta Dec 3.0097 3 whole (26.59)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -4319,13 +3034,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Moon → Aldebaran RA 0.8126 conj (21.00)"
-       ]
-      },
-      {
-       "text": "J Scheat → J Vesta RA 153.0192 153 whole (0.15)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
        ]
       }
      ]
@@ -4424,18 +3132,6 @@
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
       },
       {
-       "text": "H Capella → H Venus RA 81.0143 81 whole (8.21)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Venus"
-       ],
-       "field": "only"
-      },
-      {
        "text": "J Aldebaran → J Venus Dec 32.0105 32 whole (22.35)",
        "layer": "star rows",
        "source_lines": [
@@ -4480,18 +3176,6 @@
        "source_lines": [],
        "key": [
         "S Sun",
-        "Mars"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "H Sadalsuud → H Mars Dec 26.9813 27 whole (0.43)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
         "Mars"
        ],
        "field": "only"
@@ -4574,18 +3258,6 @@
         "Jupiter"
        ],
        "field": "also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best"
-      },
-      {
-       "text": "H Sadalsuud → H Jupiter RA 127.8054 79×φ golden (16.32)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Jupiter"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
       },
       {
        "text": "S Sun → J Jupiter RA 0.2022 conj (74.86)",
@@ -4675,18 +3347,6 @@
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
       },
       {
-       "text": "H Scheat → H Vesta Dec 3.0097 3 whole (26.59)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Vesta"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore"
-      },
-      {
        "text": "J Aldebaran → J Vesta RA 69.9804 70 whole (0.04)",
        "layer": "star rows",
        "source_lines": [
@@ -4697,18 +3357,6 @@
         "Vesta"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Scheat → J Vesta RA 153.0192 153 whole (0.15)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Vesta"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore"
       }
      ]
     },
@@ -4738,18 +3386,6 @@
        "field": "also: 2 Royaume Uni / Joshua Moore"
       },
       {
-       "text": "H Sadalsuud → H Haumea Dec 23.0096 23 whole (26.96)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Haumea"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore"
-      },
-      {
        "text": "S Sun → J Haumea RA 153.7155 95×φ golden (86.46)",
        "layer": "top rows",
        "source_lines": [],
@@ -4770,18 +3406,6 @@
         "Haumea"
        ],
        "field": "also: 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Sadalsuud → J Haumea RA 127.0000 127 whole (99.60)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Haumea"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore"
       },
       {
        "text": "J Zosma → J Haumea Dec 0.1799 conj (16.02)",
@@ -4811,30 +3435,6 @@
        "field": "only"
       },
       {
-       "text": "H Markab → H Makemake RA 152.0806 94×φ golden (30.03)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Makemake"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "H Sadalsuud → H Makemake Dec 31.0051 31 whole (55.81)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Makemake"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best"
-      },
-      {
        "text": "S Jupiter → J Makemake RA 168.2688 104×φ golden (62.93)",
        "layer": "top rows",
        "source_lines": [],
@@ -4843,18 +3443,6 @@
         "Makemake"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Sadalsuud → J Makemake RA 143.9941 144 whole (49.52)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Makemake"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best"
       }
      ]
     },
@@ -4899,42 +3487,6 @@
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle"
       },
       {
-       "text": "H Markab → H Neptune RA 1.2045 conj (3.88)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Neptune"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "H Scheat → H Neptune RA 0.9583 conj (13.04)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Neptune"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Capella → J Neptune RA 137.5089 85×φ golden (6.76)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Neptune"
-       ],
-       "field": "also: 6 Manvers House / James Best"
-      },
-      {
        "text": "J Murzim → J Neptune RA 154.0087 154 whole (31.80)",
        "layer": "star rows",
        "source_lines": [
@@ -4945,18 +3497,6 @@
         "Neptune"
        ],
        "field": "also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Scheat → J Neptune Dec 48.0165 48 whole (3.05)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Neptune"
-       ],
-       "field": "only"
       },
       {
        "text": "J Zosma → J Neptune Dec 40.4538 25×φ golden (82.71)",
@@ -5085,54 +3625,6 @@
         "Mercury"
        ],
        "field": "also: 4 Dreaming Blue / Rex Dingle"
-      },
-      {
-       "text": "H Capella → H Mercury RA 54.9889 55 whole (19.97)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Mercury"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
-      },
-      {
-       "text": "H Capella → H Mercury Dec 36.0101 36 whole (24.63)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Mercury"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
-      },
-      {
-       "text": "H Markab → H Mercury RA 37.9910 38 whole (30.51)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Mercury"
-       ],
-       "field": "also: 5 Grangeclare Glory / Tom Scudamore"
-      },
-      {
-       "text": "H Sadalsuud → H Mercury Dec 15.5596 15.5556 ninth (96.13)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Mercury"
-       ],
-       "field": "also: 5 Grangeclare Glory / Tom Scudamore"
       }
      ]
     },
@@ -5150,18 +3642,6 @@
         "Gonggong"
        ],
        "field": "also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
-      },
-      {
-       "text": "H Markab → H Gonggong Dec 27.5096 17×φ golden (81.93)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Gonggong"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore"
       },
       {
        "text": "J Aldebaran → J Gonggong RA 97.9925 98 whole (38.77)",
@@ -5198,69 +3678,6 @@
         "Gonggong"
        ],
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
-      }
-     ]
-    },
-    {
-     "body": "Pallas",
-     "cells": [
-      {
-       "text": "H Capella → H Pallas RA 68.9905 69 whole (27.76)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Pallas"
-       ],
-       "field": "also: 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "H Markab → H Pallas RA 23.9894 24 whole (22.31)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Pallas"
-       ],
-       "field": "also: 5 Grangeclare Glory / Tom Scudamore"
-      },
-      {
-       "text": "S Jupiter → J Pallas RA 0.2598 conj (68.36)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Jupiter",
-        "Pallas"
-       ],
-       "field": "also: 4 Dreaming Blue / Rex Dingle"
-      },
-      {
-       "text": "J Markab → J Pallas RA 1.2319 conj (3.19)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Pallas"
-       ],
-       "field": "also: 5 Grangeclare Glory / Tom Scudamore"
-      },
-      {
-       "text": "J Scheat → J Pallas RA 1.4783 conj (0.02)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Pallas"
-       ],
-       "field": "also: 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best"
       }
      ]
     },
@@ -5314,30 +3731,6 @@
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien"
       },
       {
-       "text": "H Sadalsuud → H Sedna RA 93.0076 93 whole (38.51)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Sedna"
-       ],
-       "field": "also: 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Capella → J Sedna Dec 40.9881 41 whole (16.53)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Sedna"
-       ],
-       "field": "also: 6 Manvers House / James Best"
-      },
-      {
        "text": "J Zosma → J Sedna RA 122.2263 122.222 ninth (99.43)",
        "layer": "star rows",
        "source_lines": [
@@ -5348,23 +3741,6 @@
         "Sedna"
        ],
        "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Chiron",
-     "cells": [
-      {
-       "text": "H Markab → H Chiron Dec 12.9876 13 whole (14.53)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Chiron"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
       }
      ]
     },
@@ -5392,18 +3768,6 @@
         "Ceres"
        ],
        "field": "also: 4 Dreaming Blue / Rex Dingle"
-      },
-      {
-       "text": "J Capella → J Ceres Dec 28.9931 29 whole (42.78)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Ceres"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -5450,17 +3814,15 @@
      ]
     },
     {
-     "body": "Transpluto",
+     "body": "Pallas",
      "cells": [
       {
-       "text": "J Scheat → J Transpluto RA 161.8259 100×φ^1 phi power (94.51)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
+       "text": "S Jupiter → J Pallas RA 0.2598 conj (68.36)",
+       "layer": "top rows",
+       "source_lines": [],
        "key": [
-        "Scheat",
-        "Transpluto"
+        "S Jupiter",
+        "Pallas"
        ],
        "field": "also: 4 Dreaming Blue / Rex Dingle"
       }
@@ -5490,32 +3852,11 @@
     ],
     "3": [
      {
-      "label": "81 whole",
-      "cells": [
-       "H Capella → H Venus RA 81.0143 81 whole (8.21) = S Moon → Jupiter RA 81.0021 81 whole (80.22)"
-      ],
-      "field": "also: 5 Grangeclare Glory / Tom Scudamore"
-     },
-     {
-      "label": "1 whole",
-      "cells": [
-       "H Denebola → H Sun Dec 0.9987 1 whole (87.58) = S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
-     {
       "label": "22 whole",
       "cells": [
        "H Denebola → H Juno Dec 21.9852 22 whole (6.82) = S Sun → Diadem Dec 22.0013 22 whole (87.07)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore"
-     },
-     {
-      "label": "17×φ golden",
-      "cells": [
-       "H Markab → H Gonggong Dec 27.5096 17×φ golden (81.93) = S Moon → Murzim RA 27.5095 17×φ golden (82.56)"
-      ],
-      "field": "also: 4 Dreaming Blue / Rex Dingle"
+      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
      },
      {
       "label": "81 whole",
@@ -5528,13 +3869,6 @@
       "label": "22 whole",
       "cells": [
        "J Denebola → J Eris Dec 22.0101 22 whole (24.49) = S Sun → Diadem Dec 22.0013 22 whole (87.07)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore"
-     },
-     {
-      "label": "127 whole",
-      "cells": [
-       "J Sadalsuud → J Haumea RA 127.0000 127 whole (99.60) = S Moon → Vesta RA 126.9981 127 whole (81.81)"
       ],
       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
      }
@@ -5552,14 +3886,7 @@
       "cells": [
        "H Alkes → H Gonggong Dec 5.9938 6 whole (47.48)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "36 = 360/10",
-      "cells": [
-       "H Capella → H Mercury Dec 36.0101 36 whole (24.63)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
+      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "1 = 360/360",
@@ -5567,20 +3894,6 @@
        "H Denebola → H Sun Dec 0.9987 1 whole (87.58)"
       ],
       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "24 = 360/15",
-      "cells": [
-       "H Markab → H Pallas RA 23.9894 24 whole (22.31)"
-      ],
-      "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "3 = 360/120",
-      "cells": [
-       "H Scheat → H Vesta Dec 3.0097 3 whole (26.59)"
-      ],
-      "field": "also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "45 = 360/8",
@@ -5601,18 +3914,10 @@
       "cells": [
        "J Murzim → J Rahu Dec 30.0159 30 whole (4.22)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
+      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      }
     ],
     "5": [
-     {
-      "label": "94×φ golden",
-      "cells": [
-       "S Jupiter → H Jupiter RA 152.0821 94×φ golden (35.40)",
-       "H Markab → H Makemake RA 152.0806 94×φ golden (30.03)"
-      ],
-      "field": "only"
-     },
      {
       "label": "10×φ^6 phi power",
       "cells": [
@@ -5620,14 +3925,6 @@
        "S Sun → J Mars RA 179.4167 10×φ^6 phi power (94.29)"
       ],
       "field": "only"
-     },
-     {
-      "label": "24 whole",
-      "cells": [
-       "S Jupiter → H Haumea Dec 24.0034 24 whole (69.19)",
-       "H Markab → H Pallas RA 23.9894 24 whole (22.31)"
-      ],
-      "field": "also: 5 Grangeclare Glory / Tom Scudamore"
      },
      {
       "label": "32 whole",
@@ -5638,26 +3935,10 @@
       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
      },
      {
-      "label": "100×φ^1 phi power",
-      "cells": [
-       "S Sun → H Orcus RA 161.8644 100×φ^1 phi power (85.49)",
-       "J Scheat → J Transpluto RA 161.8259 100×φ^1 phi power (94.51)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien"
-     },
-     {
       "label": "84 whole",
       "cells": [
        "H Aldebaran → H Neptune RA 83.9931 84 whole (43.00)",
        "H Aldebaran → H Rahu RA 84.0030 84 whole (71.93)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "81 whole",
-      "cells": [
-       "H Capella → H Venus RA 81.0143 81 whole (8.21)",
-       "S Sun → J Ceres RA 81.0026 81 whole (75.94)"
       ],
       "field": "only"
      },
@@ -5674,14 +3955,6 @@
       "cells": [
        "H Murzim → H Ceres RA 39.0022 39 whole (79.25)",
        "J Alkes → J Haumea Dec 38.9994 39 whole (93.66)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "15.5556 ninth",
-      "cells": [
-       "H Sadalsuud → H Mercury Dec 15.5596 15.5556 ninth (96.13)",
-       "H Zosma → H Rahu RA 15.5527 15.5556 ninth (97.30)"
       ],
       "field": "only"
      },
@@ -5770,13 +4043,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)"
-       ]
-      },
-      {
-       "text": "H Scheat → H Pallas Dec 32.3652 20×φ golden (73.80)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
        ]
       }
      ],
@@ -5899,15 +4165,7 @@
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Scheat → H Ceres Dec 18.9853 19 whole (6.94)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -5918,15 +4176,7 @@
      "body_lines": [],
      "on_this_chart": [],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Markab → H Juno RA 70.7180 70.7 sqrt2 (95.89)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -5945,15 +4195,7 @@
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Markab → H Rahu Dec 4.8550 3×φ golden (94.68)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -5966,15 +4208,7 @@
      ],
      "on_this_chart": [],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Sadalsuud → H Sedna Dec 12.9855 13 whole (7.55)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -5991,13 +4225,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)"
-       ]
-      },
-      {
-       "text": "J Sadalsuud → J Makemake RA 144.4961 144.444 ninth (94.53)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
        ]
       }
      ],
@@ -6036,15 +4263,7 @@
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Markab → H Ketu RA 11.0968 φ^5 phi power (77.38)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     }
    ],
    "bodies": [
@@ -6143,18 +4362,6 @@
         "Pallas"
        ],
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
-      },
-      {
-       "text": "H Scheat → H Pallas Dec 32.3652 20×φ golden (73.80)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Pallas"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden, 6 Manvers House / James Best"
       }
      ]
     },
@@ -6228,18 +4435,6 @@
        "field": "also: 7 Island Run / Tom O'Brien"
       },
       {
-       "text": "H Scheat → H Transpluto Dec 16.9997 17 whole (97.08)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Transpluto"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden"
-      },
-      {
        "text": "J Denebola → J Transpluto RA 29.9902 30 whole (25.88)",
        "layer": "star rows",
        "source_lines": [
@@ -6250,18 +4445,6 @@
         "Transpluto"
        ],
        "field": "also: 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Markab → J Transpluto Dec 2.0139 2 whole (9.42)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Transpluto"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore"
       }
      ]
     },
@@ -6466,30 +4649,6 @@
        "field": "also: 2 Royaume Uni / Joshua Moore"
       },
       {
-       "text": "H Markab → H Venus Dec 6.0029 6 whole (73.03)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Venus"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore"
-      },
-      {
-       "text": "H Scheat → H Venus Dec 18.8817 18.8889 ninth (94.84)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Venus"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore"
-      },
-      {
        "text": "H Zosma → H Venus Dec 11.3201 7×φ golden (65.55)",
        "layer": "star rows",
        "source_lines": [
@@ -6500,123 +4659,6 @@
         "Venus"
        ],
        "field": "also: 6 Manvers House / James Best"
-      }
-     ]
-    },
-    {
-     "body": "Juno",
-     "cells": [
-      {
-       "text": "H Markab → H Juno RA 70.7180 70.7 sqrt2 (95.89)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Juno"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
-      },
-      {
-       "text": "S Juno → J Juno RA 129.4643 80×φ golden (11.15)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Juno"
-       ],
-       "field": "also: 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
-      }
-     ]
-    },
-    {
-     "body": "Rahu",
-     "cells": [
-      {
-       "text": "H Markab → H Rahu Dec 4.8550 3×φ golden (94.68)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Rahu"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best"
-      },
-      {
-       "text": "S Rahu → J Rahu RA 111.4462 111.111 ninth (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Rahu"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Alkes → J Rahu RA 1.3233 conj (1.39)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)"
-       ],
-       "key": [
-        "Alkes",
-        "Rahu"
-       ],
-       "field": "also: 5 Grangeclare Glory / Tom Scudamore"
-      }
-     ]
-    },
-    {
-     "body": "Ketu",
-     "cells": [
-      {
-       "text": "H Markab → H Ketu RA 11.0968 φ^5 phi power (77.38)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Ketu"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best"
-      },
-      {
-       "text": "S Ketu → J Ketu RA 111.4462 111.111 ninth (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Ketu"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Alkes → J Ketu Dec 11.3287 7×φ golden (85.29)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)"
-       ],
-       "key": [
-        "Alkes",
-        "Ketu"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore"
-      },
-      {
-       "text": "J Murzim → J Ketu Dec 10.9876 11 whole (14.53)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Murzim RA 27.5095 17×φ golden (82.56)"
-       ],
-       "key": [
-        "Murzim",
-        "Ketu"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
       }
      ]
     },
@@ -6658,149 +4700,6 @@
         "Makemake"
        ],
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Sadalsuud → J Makemake RA 144.4961 144.444 ninth (94.53)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Makemake"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 6 Manvers House / James Best"
-      }
-     ]
-    },
-    {
-     "body": "Vesta",
-     "cells": [
-      {
-       "text": "H Sadalsuud → H Vesta RA 150.0006 150 whole (94.37)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Vesta"
-       ],
-       "field": "also: 5 Grangeclare Glory / Tom Scudamore"
-      },
-      {
-       "text": "J Alkes → J Vesta Dec 19.9803 20 whole (0.02)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)"
-       ],
-       "key": [
-        "Alkes",
-        "Vesta"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien"
-      }
-     ]
-    },
-    {
-     "body": "Sedna",
-     "cells": [
-      {
-       "text": "H Sadalsuud → H Sedna Dec 12.9855 13 whole (7.55)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Sedna"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "S Sedna → J Sedna Dec 3.3335 3.33333 ninth (97.48)",
-       "layer": "same body",
-       "source_lines": [
-        "S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)"
-       ],
-       "key": [
-        "same body",
-        "Sedna"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-      }
-     ]
-    },
-    {
-     "body": "Ceres",
-     "cells": [
-      {
-       "text": "H Scheat → H Ceres Dec 18.9853 19 whole (6.94)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Ceres"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Ceres → J Ceres Dec 37.0190 37 whole (0.23)",
-       "layer": "same body",
-       "source_lines": [
-        "S Moon → Ceres Dec 0.1440 conj (27.02)"
-       ],
-       "key": [
-        "same body",
-        "Ceres"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Jupiter → J Ceres Dec 0.0170 conj (89.00)",
-       "layer": "T2",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Ceres"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Sun → J Ceres RA 0.0271 conj (96.42)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Sun",
-        "Ceres"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden"
-      },
-      {
-       "text": "J Denebola → J Ceres Dec 29.0077 29 whole (37.92)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)"
-       ],
-       "key": [
-        "Denebola",
-        "Ceres"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best"
-      },
-      {
-       "text": "J Diadem → J Ceres RA 152.0816 94×φ golden (33.70)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Diadem Dec 22.0013 22 whole (87.07)"
-       ],
-       "key": [
-        "Diadem",
-        "Ceres"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -6861,6 +4760,165 @@
      ]
     },
     {
+     "body": "Ceres",
+     "cells": [
+      {
+       "text": "S Ceres → J Ceres Dec 37.0190 37 whole (0.23)",
+       "layer": "same body",
+       "source_lines": [
+        "S Moon → Ceres Dec 0.1440 conj (27.02)"
+       ],
+       "key": [
+        "same body",
+        "Ceres"
+       ],
+       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
+      },
+      {
+       "text": "J Jupiter → J Ceres Dec 0.0170 conj (89.00)",
+       "layer": "T2",
+       "source_lines": [],
+       "key": [
+        "natal Jupiter",
+        "Ceres"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "S Sun → J Ceres RA 0.0271 conj (96.42)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Sun",
+        "Ceres"
+       ],
+       "field": "also: 3 Hell Red / Harry Cobden"
+      },
+      {
+       "text": "J Denebola → J Ceres Dec 29.0077 29 whole (37.92)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)"
+       ],
+       "key": [
+        "Denebola",
+        "Ceres"
+       ],
+       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best"
+      },
+      {
+       "text": "J Diadem → J Ceres RA 152.0816 94×φ golden (33.70)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Diadem Dec 22.0013 22 whole (87.07)"
+       ],
+       "key": [
+        "Diadem",
+        "Ceres"
+       ],
+       "field": "only"
+      }
+     ]
+    },
+    {
+     "body": "Juno",
+     "cells": [
+      {
+       "text": "S Juno → J Juno RA 129.4643 80×φ golden (11.15)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Juno"
+       ],
+       "field": "also: 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
+      }
+     ]
+    },
+    {
+     "body": "Rahu",
+     "cells": [
+      {
+       "text": "S Rahu → J Rahu RA 111.4462 111.111 ninth (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Rahu"
+       ],
+       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
+      },
+      {
+       "text": "J Alkes → J Rahu RA 1.3233 conj (1.39)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)"
+       ],
+       "key": [
+        "Alkes",
+        "Rahu"
+       ],
+       "field": "also: 5 Grangeclare Glory / Tom Scudamore"
+      }
+     ]
+    },
+    {
+     "body": "Sedna",
+     "cells": [
+      {
+       "text": "S Sedna → J Sedna Dec 3.3335 3.33333 ninth (97.48)",
+       "layer": "same body",
+       "source_lines": [
+        "S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)"
+       ],
+       "key": [
+        "same body",
+        "Sedna"
+       ],
+       "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
+      }
+     ]
+    },
+    {
+     "body": "Ketu",
+     "cells": [
+      {
+       "text": "S Ketu → J Ketu RA 111.4462 111.111 ninth (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Ketu"
+       ],
+       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
+      },
+      {
+       "text": "J Alkes → J Ketu Dec 11.3287 7×φ golden (85.29)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)"
+       ],
+       "key": [
+        "Alkes",
+        "Ketu"
+       ],
+       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore"
+      },
+      {
+       "text": "J Murzim → J Ketu Dec 10.9876 11 whole (14.53)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Murzim RA 27.5095 17×φ golden (82.56)"
+       ],
+       "key": [
+        "Murzim",
+        "Ketu"
+       ],
+       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
+      }
+     ]
+    },
+    {
      "body": "Gonggong",
      "cells": [
       {
@@ -6908,45 +4966,21 @@
         "Gonggong"
        ],
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Scheat → J Gonggong Dec 46.0038 46 whole (65.52)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Gonggong"
-       ],
-       "field": "also: 6 Manvers House / James Best"
       }
      ]
     },
     {
-     "body": "Pluto",
+     "body": "Vesta",
      "cells": [
       {
-       "text": "J Capella → J Pluto RA 168.0055 168 whole (52.32)",
+       "text": "J Alkes → J Vesta Dec 19.9803 20 whole (0.02)",
        "layer": "star rows",
        "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
+        "S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)"
        ],
        "key": [
-        "Capella",
-        "Pluto"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
-      },
-      {
-       "text": "J Markab → J Pluto RA 99.0022 99 whole (79.58)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Pluto"
+        "Alkes",
+        "Vesta"
        ],
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien"
       }
@@ -7008,7 +5042,7 @@
       "cells": [
        "H Alkes → H Venus Dec 27.5003 17×φ golden (64.74) = S Moon → Murzim RA 27.5095 17×φ golden (82.56)"
       ],
-      "field": "also: 3 Hell Red / Harry Cobden"
+      "field": "only"
      },
      {
       "label": "43 whole",
@@ -7036,7 +5070,7 @@
       "cells": [
        "J Alkes → J Vesta Dec 19.9803 20 whole (0.02) = S Sun → Haumea Dec 19.9944 20 whole (52.20)"
       ],
-      "field": "also: 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
+      "field": "also: 7 Island Run / Tom O'Brien"
      },
      {
       "label": "124 whole",
@@ -7044,37 +5078,9 @@
        "J Denebola → J Neptune RA 124.0130 124 whole (12.21) = S Moon → Venus RA 124.0035 124 whole (68.42)"
       ],
       "field": "only"
-     },
-     {
-      "label": "1 whole",
-      "cells": [
-       "J Murzim → J Uranus Dec 1.0191 1 whole (0.21) = S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "11 whole",
-      "cells": [
-       "J Murzim → J Ketu Dec 10.9876 11 whole (14.53) = S Moon → Capella RA 11.0061 11 whole (48.14)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "46 whole",
-      "cells": [
-       "J Scheat → J Gonggong Dec 46.0038 46 whole (65.52) = S Jupiter → Vesta RA 45.9960 46 whole (64.02)"
-      ],
-      "field": "only"
      }
     ],
     "4": [
-     {
-      "label": "6 = 360/60",
-      "cells": [
-       "H Markab → H Venus Dec 6.0029 6 whole (73.03)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
      {
       "label": "10 = 360/36",
       "cells": [
@@ -7087,28 +5093,21 @@
       "cells": [
        "J Alkes → J Vesta Dec 19.9803 20 whole (0.02)"
       ],
-      "field": "also: 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
+      "field": "also: 7 Island Run / Tom O'Brien"
      },
      {
       "label": "30 = 360/12",
       "cells": [
        "J Denebola → J Chiron Dec 30.0117 30 whole (17.29)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
+      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "30 = 360/12",
       "cells": [
        "J Denebola → J Transpluto RA 29.9902 30 whole (25.88)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "2 = 360/180",
-      "cells": [
-       "J Markab → J Transpluto Dec 2.0139 2 whole (9.42)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien"
+      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "1 = 360/360",
@@ -7122,7 +5121,7 @@
       "cells": [
        "J Murzim → J Neptune Dec 2.0049 2 whole (57.16)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien"
+      "field": "only"
      }
     ],
     "5": [
@@ -7135,21 +5134,13 @@
       "field": "also: 7 Island Run / Tom O'Brien"
      },
      {
-      "label": "144.444 ninth",
-      "cells": [
-       "S Chiron → J Chiron RA 144.9494 144.444 ninth (loose)",
-       "J Sadalsuud → J Makemake RA 144.4961 144.444 ninth (94.53)"
-      ],
-      "field": "also: 7 Island Run / Tom O'Brien"
-     },
-     {
       "label": "111.111 ninth",
       "cells": [
        "S Rahu → J Rahu RA 111.4462 111.111 ninth (loose)",
        "S Ketu → J Ketu RA 111.4462 111.111 ninth (loose)",
        "J Denebola → J Sun RA 111.1754 111.111 ninth (89.47)"
       ],
-      "field": "also: 5 Grangeclare Glory / Tom Scudamore"
+      "field": "only"
      },
      {
       "label": "30 whole",
@@ -7157,15 +5148,7 @@
        "J Denebola → J Chiron Dec 30.0117 30 whole (17.29)",
        "J Denebola → J Transpluto RA 29.9902 30 whole (25.88)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
-     },
-     {
-      "label": "2 whole",
-      "cells": [
-       "J Markab → J Transpluto Dec 2.0139 2 whole (9.42)",
-       "J Murzim → J Neptune Dec 2.0049 2 whole (57.16)"
-      ],
-      "field": "also: 7 Island Run / Tom O'Brien"
+      "field": "only"
      }
     ]
    }
@@ -7198,33 +5181,11 @@
       "S Sun → H Sun Dec 15.5556 15.5556 ninth (100.00)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "H Scheat → H Sun Dec 16.9983 17 whole (83.48)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [
       "S Sun → J Sun RA 69.5872 43×φ golden (loose)"
      ],
      "on_other_chart": [
-      {
-       "text": "J Markab → J Sun RA 73.0044 73 whole (60.72)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      },
-      {
-       "text": "J Sadalsuud → J Sun Dec 25.9966 26 whole (68.90)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
-      },
       {
        "text": "J Zosma → J Sun Dec 0.1003 conj (44.32)",
        "layer": "star rows",
@@ -7242,32 +5203,9 @@
       "S Mercury → H Mercury Dec 29.0799 φ^7 phi power (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "H Markab → H Mercury Dec 0.1194 conj (36.23)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "J Markab → J Mercury Dec 8.0066 8 whole (44.93)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      },
-      {
-       "text": "J Sadalsuud → J Mercury RA 111.1385 111.111 ninth (95.53)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "H",
@@ -7284,13 +5222,6 @@
        "text": "S Moon → H Venus RA 1.2791 conj (2.17)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "H Sadalsuud → H Venus RA 104.0004 104 whole (96.29)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
       }
      ],
      "other_chart_same_body": [
@@ -7302,13 +5233,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Sun → Diadem Dec 22.0013 22 whole (87.07)"
-       ]
-      },
-      {
-       "text": "J Markab → J Venus Dec 8.9818 9 whole (0.82)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
        ]
       }
      ]
@@ -7325,20 +5249,6 @@
        "text": "S Moon → H Pallas RA 157.9951 158 whole (57.08)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "H Capella → H Pallas RA 168.9957 169 whole (61.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
-      },
-      {
-       "text": "H Markab → H Pallas RA 76.0145 φ^9 phi power (99.30)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
       }
      ],
      "other_chart_same_body": [
@@ -7435,20 +5345,6 @@
      "body_lines": [],
      "on_this_chart": [
       {
-       "text": "J Markab → J Sun RA 73.0044 73 whole (60.72)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      },
-      {
-       "text": "J Sadalsuud → J Sun Dec 25.9966 26 whole (68.90)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
-      },
-      {
        "text": "J Zosma → J Sun Dec 0.1003 conj (44.32)",
        "layer": "star rows",
        "source_lines": [
@@ -7459,15 +5355,7 @@
      "other_chart_same_body": [
       "S Sun → H Sun Dec 15.5556 15.5556 ninth (100.00)"
      ],
-     "on_other_chart": [
-      {
-       "text": "H Scheat → H Sun Dec 16.9983 17 whole (83.48)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -7486,13 +5374,6 @@
        "source_lines": [
         "S Sun → Diadem Dec 22.0013 22 whole (87.07)"
        ]
-      },
-      {
-       "text": "J Markab → J Venus Dec 8.9818 9 whole (0.82)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
       }
      ],
      "other_chart_same_body": [
@@ -7503,13 +5384,6 @@
        "text": "S Moon → H Venus RA 1.2791 conj (2.17)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "H Sadalsuud → H Venus RA 104.0004 104 whole (96.29)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
       }
      ]
     },
@@ -7576,20 +5450,6 @@
        "text": "S Moon → H Pallas RA 157.9951 158 whole (57.08)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "H Capella → H Pallas RA 168.9957 169 whole (61.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
-      },
-      {
-       "text": "H Markab → H Pallas RA 76.0145 φ^9 phi power (99.30)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
       }
      ]
     },
@@ -7613,13 +5473,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Sun → Diadem Dec 22.0013 22 whole (87.07)"
-       ]
-      },
-      {
-       "text": "J Sadalsuud → J Juno Dec 0.0411 conj (74.50)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
        ]
       }
      ],
@@ -7707,13 +5560,6 @@
        "source_lines": [
         "S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)"
        ]
-      },
-      {
-       "text": "J Scheat → J Makemake RA 173.0069 173 whole (43.22)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ]
       }
      ],
      "other_chart_same_body": [],
@@ -7748,25 +5594,10 @@
        "source_lines": [
         "S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)"
        ]
-      },
-      {
-       "text": "J Capella → J Gonggong RA 111.1766 111.111 ninth (89.29)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Sadalsuud → H Gonggong RA 12.9935 13 whole (45.47)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     }
    ],
    "bodies": [
@@ -7784,18 +5615,6 @@
        "field": "also: 4 Dreaming Blue / Rex Dingle"
       },
       {
-       "text": "H Scheat → H Sun Dec 16.9983 17 whole (83.48)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Sun"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
-      },
-      {
        "text": "S Sun → J Sun RA 69.5872 43×φ golden (loose)",
        "layer": "same body",
        "source_lines": [],
@@ -7804,30 +5623,6 @@
         "Sun"
        ],
        "field": "also: 4 Dreaming Blue / Rex Dingle"
-      },
-      {
-       "text": "J Markab → J Sun RA 73.0044 73 whole (60.72)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Sun"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Sadalsuud → J Sun Dec 25.9966 26 whole (68.90)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Sun"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
       },
       {
        "text": "J Zosma → J Sun Dec 0.1003 conj (44.32)",
@@ -7865,42 +5660,6 @@
         "Mercury"
        ],
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best"
-      },
-      {
-       "text": "H Markab → H Mercury Dec 0.1194 conj (36.23)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Mercury"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden"
-      },
-      {
-       "text": "J Markab → J Mercury Dec 8.0066 8 whole (44.93)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Mercury"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden"
-      },
-      {
-       "text": "J Sadalsuud → J Mercury RA 111.1385 111.111 ninth (95.53)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Mercury"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden"
       }
      ]
     },
@@ -7931,18 +5690,6 @@
        "field": "also: 7 Island Run / Tom O'Brien"
       },
       {
-       "text": "H Sadalsuud → H Venus RA 104.0004 104 whole (96.29)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Venus"
-       ],
-       "field": "only"
-      },
-      {
        "text": "S Venus → J Venus Dec 22.6393 14×φ golden (loose)",
        "layer": "same body",
        "source_lines": [
@@ -7966,18 +5713,6 @@
         "Venus"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Markab → J Venus Dec 8.9818 9 whole (0.82)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Venus"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle"
       }
      ]
     },
@@ -8003,30 +5738,6 @@
         "Pallas"
        ],
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
-      },
-      {
-       "text": "H Capella → H Pallas RA 168.9957 169 whole (61.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Pallas"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "H Markab → H Pallas RA 76.0145 φ^9 phi power (99.30)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Pallas"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden"
       },
       {
        "text": "S Pallas → J Pallas RA 178.8837 10×φ^6 phi power (loose)",
@@ -8258,18 +5969,6 @@
         "Jupiter"
        ],
        "field": "only"
-      },
-      {
-       "text": "S Sadalsuud → J Jupiter RA 112.0104 112 whole (23.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Jupiter"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien"
       }
      ]
     },
@@ -8393,18 +6092,6 @@
        "field": "also: 4 Dreaming Blue / Rex Dingle"
       },
       {
-       "text": "H Scheat → H Rahu RA 156.9890 157 whole (20.21)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Rahu"
-       ],
-       "field": "only"
-      },
-      {
        "text": "S Moon → J Rahu Dec 0.0521 conj (68.26)",
        "layer": "top rows",
        "source_lines": [],
@@ -8444,18 +6131,6 @@
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle"
       },
       {
-       "text": "H Scheat → H Ketu RA 23.0110 23 whole (20.21)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Ketu"
-       ],
-       "field": "also: 7 Island Run / Tom O'Brien"
-      },
-      {
        "text": "H Zosma → H Ketu Dec 16.6639 16.6667 ninth (97.61)",
        "layer": "star rows",
        "source_lines": [
@@ -8478,86 +6153,6 @@
         "Ketu"
        ],
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best"
-      }
-     ]
-    },
-    {
-     "body": "Mars",
-     "cells": [
-      {
-       "text": "H Capella → H Mars Dec 30.0068 30 whole (43.84)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Mars"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best"
-      }
-     ]
-    },
-    {
-     "body": "Vesta",
-     "cells": [
-      {
-       "text": "H Capella → H Vesta Dec 57.0110 57 whole (20.08)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Vesta"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
-      },
-      {
-       "text": "H Sadalsuud → H Vesta RA 19.9890 20 whole (20.36)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Vesta"
-       ],
-       "field": "also: 4 Dreaming Blue / Rex Dingle"
-      },
-      {
-       "text": "J Jupiter → J Vesta Dec 4.9994 5 whole (94.19)",
-       "layer": "T2",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Vesta"
-       ],
-       "field": "also: 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Denebola → J Vesta RA 146.0030 146 whole (72.34)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)"
-       ],
-       "key": [
-        "Denebola",
-        "Vesta"
-       ],
-       "field": "also: 6 Manvers House / James Best"
-      },
-      {
-       "text": "J Sadalsuud → J Vesta RA 0.3822 conj (55.54)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Vesta"
-       ],
-       "field": "also: 4 Dreaming Blue / Rex Dingle"
       }
      ]
     },
@@ -8606,18 +6201,6 @@
        ],
        "key": [
         "Diadem",
-        "Juno"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Sadalsuud → J Juno Dec 0.0411 conj (74.50)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
         "Juno"
        ],
        "field": "only"
@@ -8693,122 +6276,6 @@
      ]
     },
     {
-     "body": "Uranus",
-     "cells": [
-      {
-       "text": "H Sadalsuud → H Uranus RA 52.9973 53 whole (74.96)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Uranus"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best"
-      },
-      {
-       "text": "H Scheat → H Uranus Dec 21.9850 22 whole (6.25)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Uranus"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Sadalsuud → J Uranus Dec 15.0188 15 whole (0.36)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Uranus"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best"
-      },
-      {
-       "text": "J Scheat → J Uranus RA 105.0165 105 whole (2.98)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Uranus"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Gonggong",
-     "cells": [
-      {
-       "text": "H Sadalsuud → H Gonggong RA 12.9935 13 whole (45.47)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Gonggong"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Gonggong → J Gonggong Dec 11.0970 φ^5 phi power (76.98)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Gonggong"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Aldebaran → J Gonggong RA 100.9865 101 whole (10.60)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Aldebaran RA 0.8126 conj (21.00)"
-       ],
-       "key": [
-        "Aldebaran",
-        "Gonggong"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Alkes → J Gonggong Dec 3.9975 4 whole (76.15)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)"
-       ],
-       "key": [
-        "Alkes",
-        "Gonggong"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden, 6 Manvers House / James Best"
-      },
-      {
-       "text": "J Capella → J Gonggong RA 111.1766 111.111 ninth (89.29)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Gonggong"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore"
-      }
-     ]
-    },
-    {
      "body": "Makemake",
      "cells": [
       {
@@ -8846,18 +6313,72 @@
         "Makemake"
        ],
        "field": "also: 2 Royaume Uni / Joshua Moore"
+      }
+     ]
+    },
+    {
+     "body": "Gonggong",
+     "cells": [
+      {
+       "text": "S Gonggong → J Gonggong Dec 11.0970 φ^5 phi power (76.98)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Gonggong"
+       ],
+       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
       },
       {
-       "text": "J Scheat → J Makemake RA 173.0069 173 whole (43.22)",
+       "text": "J Aldebaran → J Gonggong RA 100.9865 101 whole (10.60)",
        "layer": "star rows",
        "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
+        "S Moon → Aldebaran RA 0.8126 conj (21.00)"
        ],
        "key": [
-        "Scheat",
-        "Makemake"
+        "Aldebaran",
+        "Gonggong"
        ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien"
+       "field": "also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
+      },
+      {
+       "text": "J Alkes → J Gonggong Dec 3.9975 4 whole (76.15)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)"
+       ],
+       "key": [
+        "Alkes",
+        "Gonggong"
+       ],
+       "field": "also: 3 Hell Red / Harry Cobden, 6 Manvers House / James Best"
+      }
+     ]
+    },
+    {
+     "body": "Vesta",
+     "cells": [
+      {
+       "text": "J Jupiter → J Vesta Dec 4.9994 5 whole (94.19)",
+       "layer": "T2",
+       "source_lines": [],
+       "key": [
+        "natal Jupiter",
+        "Vesta"
+       ],
+       "field": "also: 7 Island Run / Tom O'Brien"
+      },
+      {
+       "text": "J Denebola → J Vesta RA 146.0030 146 whole (72.34)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)"
+       ],
+       "key": [
+        "Denebola",
+        "Vesta"
+       ],
+       "field": "also: 6 Manvers House / James Best"
       }
      ]
     },
@@ -8885,35 +6406,6 @@
         "Ceres"
        ],
        "field": "also: 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-      }
-     ]
-    },
-    {
-     "body": "Transpluto",
-     "cells": [
-      {
-       "text": "J Markab → J Transpluto Dec 0.1077 conj (41.11)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Transpluto"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle"
-      },
-      {
-       "text": "J Sadalsuud → J Transpluto RA 177.9581 110×φ golden (4.34)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Transpluto"
-       ],
-       "field": "also: 6 Manvers House / James Best"
       }
      ]
     }
@@ -8965,32 +6457,11 @@
     ],
     "3": [
      {
-      "label": "1 whole",
-      "cells": [
-       "H Denebola → H Juno Dec 1.0171 1 whole (2.17) = S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "20 whole",
-      "cells": [
-       "H Sadalsuud → H Vesta RA 19.9890 20 whole (20.36) = S Sun → Haumea Dec 19.9944 20 whole (52.20)"
-      ],
-      "field": "also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "22 whole",
-      "cells": [
-       "H Scheat → H Uranus Dec 21.9850 22 whole (6.25) = S Sun → Diadem Dec 22.0013 22 whole (87.07)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden"
-     },
-     {
       "label": "16.6667 ninth",
       "cells": [
        "H Zosma → H Ketu Dec 16.6639 16.6667 ninth (97.61) = S Moon → Chiron Dec 16.6620 16.6667 ninth (96.00)"
       ],
-      "field": "also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best"
+      "field": "also: 6 Manvers House / James Best"
      },
      {
       "label": "25 whole",
@@ -9027,7 +6498,7 @@
       "cells": [
        "S Uranus → H Jupiter Dec 2.9964 3 whole (67.45)"
       ],
-      "field": "also: 3 Hell Red / Harry Cobden, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
+      "field": "also: 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "24 = 360/15",
@@ -9035,13 +6506,6 @@
        "H Alkes → H Rahu RA 24.0058 24 whole (50.46)"
       ],
       "field": "also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "30 = 360/12",
-      "cells": [
-       "H Capella → H Mars Dec 30.0068 30 whole (43.84)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "1 = 360/360",
@@ -9055,14 +6519,7 @@
       "cells": [
        "H Murzim → H Neptune Dec 9.0100 9 whole (24.99)"
       ],
-      "field": "also: 6 Manvers House / James Best"
-     },
-     {
-      "label": "20 = 360/18",
-      "cells": [
-       "H Sadalsuud → H Vesta RA 19.9890 20 whole (20.36)"
-      ],
-      "field": "also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
+      "field": "only"
      },
      {
       "label": "24 = 360/15",
@@ -9076,21 +6533,21 @@
       "cells": [
        "S Makemake → J Makemake RA 39.9911 40 whole (30.71)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore"
+      "field": "only"
      },
      {
       "label": "5 = 360/72",
       "cells": [
        "J Jupiter → J Vesta Dec 4.9994 5 whole (94.19)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
+      "field": "also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "6 = 360/60",
       "cells": [
        "J Alkes → J Makemake RA 5.9992 6 whole (92.29)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
+      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "4 = 360/90",
@@ -9104,28 +6561,7 @@
       "cells": [
        "J Denebola → J Pallas Dec 7.9978 8 whole (78.78)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "8 = 360/45",
-      "cells": [
-       "J Markab → J Mercury Dec 8.0066 8 whole (44.93)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "9 = 360/40",
-      "cells": [
-       "J Markab → J Venus Dec 8.9818 9 whole (0.82)"
-      ],
-      "field": "also: 6 Manvers House / James Best"
-     },
-     {
-      "label": "15 = 360/24",
-      "cells": [
-       "J Sadalsuud → J Uranus Dec 15.0188 15 whole (0.36)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best"
+      "field": "also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      }
     ],
     "5": [
@@ -9151,39 +6587,7 @@
        "H Alkes → H Rahu RA 24.0058 24 whole (50.46)",
        "H Zosma → H Makemake RA 24.0190 24 whole (0.23)"
       ],
-      "field": "also: 3 Hell Red / Harry Cobden"
-     },
-     {
-      "label": "9 whole",
-      "cells": [
-       "H Murzim → H Neptune Dec 9.0100 9 whole (24.99)",
-       "J Markab → J Venus Dec 8.9818 9 whole (0.82)"
-      ],
       "field": "only"
-     },
-     {
-      "label": "26 whole",
-      "cells": [
-       "S Uranus → J Jupiter Dec 26.0021 26 whole (80.53)",
-       "J Sadalsuud → J Sun Dec 25.9966 26 whole (68.90)"
-      ],
-      "field": "also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best"
-     },
-     {
-      "label": "111.111 ninth",
-      "cells": [
-       "J Capella → J Gonggong RA 111.1766 111.111 ninth (89.29)",
-       "J Sadalsuud → J Mercury RA 111.1385 111.111 ninth (95.53)"
-      ],
-      "field": "also: 4 Dreaming Blue / Rex Dingle"
-     },
-     {
-      "label": "8 whole",
-      "cells": [
-       "J Denebola → J Pallas Dec 7.9978 8 whole (78.78)",
-       "J Markab → J Mercury Dec 8.0066 8 whole (44.93)"
-      ],
-      "field": "also: 6 Manvers House / James Best, 7 Island Run / Tom O'Brien"
      }
     ]
    }
@@ -9238,15 +6642,7 @@
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "J Sadalsuud → J Uranus Dec 17.9430 φ^6 phi power (97.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "H",
@@ -9291,13 +6687,6 @@
      ],
      "on_this_chart": [
       {
-       "text": "H Markab → H Vesta Dec 8.9842 9 whole (4.31)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      },
-      {
        "text": "H Murzim → H Vesta RA 1.0445 conj (9.22)",
        "layer": "star rows",
        "source_lines": [
@@ -9335,13 +6724,6 @@
        "text": "S Jupiter → H Rahu RA 122.9580 φ^10 phi power (89.30)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "H Markab → H Rahu RA 121.9811 122 whole (0.31)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
       }
      ],
      "other_chart_same_body": [
@@ -9365,13 +6747,6 @@
        "source_lines": [
         "S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)"
        ]
-      },
-      {
-       "text": "H Capella → H Sedna Dec 38.8391 24×φ golden (64.86)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
       }
      ],
      "other_chart_same_body": [
@@ -9384,38 +6759,10 @@
        "source_lines": []
       },
       {
-       "text": "J Capella → J Sedna RA 37.0030 37 whole (72.37)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
-      },
-      {
        "text": "J Diadem → J Sedna RA 155.3175 96×φ golden (32.97)",
        "layer": "star rows",
        "source_lines": [
         "S Sun → Diadem Dec 22.0013 22 whole (87.07)"
-       ]
-      },
-      {
-       "text": "J Markab → J Sedna RA 55.9865 56 whole (10.41)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      },
-      {
-       "text": "J Sadalsuud → J Sedna RA 79.2891 49×φ golden (69.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
-      },
-      {
-       "text": "J Scheat → J Sedna Dec 24.1428 24.14 silver (98.91)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
        ]
       }
      ]
@@ -9427,15 +6774,7 @@
       "S Ketu → H Ketu RA 172.0297 172 whole (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "H Markab → H Ketu RA 58.0189 58 whole (0.31)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [
       "S Ketu → J Ketu RA 110.5641 10×φ^5 phi power (loose)"
      ],
@@ -9488,20 +6827,6 @@
        "text": "S Moon → J Neptune RA 144.0057 89×φ golden (95.86)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "J Capella → J Neptune RA 155.0186 155 whole (0.49)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
-      },
-      {
-       "text": "J Capella → J Neptune Dec 67.9971 68 whole (73.42)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
       },
       {
        "text": "J Murzim → J Neptune RA 171.5188 106×φ golden (60.38)",
@@ -9566,13 +6891,6 @@
        "text": "S Jupiter → H Rahu RA 122.9580 φ^10 phi power (89.30)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "H Markab → H Rahu RA 121.9811 122 whole (0.31)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
       }
      ]
     },
@@ -9592,38 +6910,10 @@
        "source_lines": []
       },
       {
-       "text": "J Capella → J Sedna RA 37.0030 37 whole (72.37)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
-      },
-      {
        "text": "J Diadem → J Sedna RA 155.3175 96×φ golden (32.97)",
        "layer": "star rows",
        "source_lines": [
         "S Sun → Diadem Dec 22.0013 22 whole (87.07)"
-       ]
-      },
-      {
-       "text": "J Markab → J Sedna RA 55.9865 56 whole (10.41)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      },
-      {
-       "text": "J Sadalsuud → J Sedna RA 79.2891 49×φ golden (69.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
-      },
-      {
-       "text": "J Scheat → J Sedna Dec 24.1428 24.14 silver (98.91)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
        ]
       }
      ],
@@ -9636,13 +6926,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)"
-       ]
-      },
-      {
-       "text": "H Capella → H Sedna Dec 38.8391 24×φ golden (64.86)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
        ]
       }
      ]
@@ -9660,13 +6943,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)"
-       ]
-      },
-      {
-       "text": "J Scheat → J Gonggong RA 17.0127 17 whole (13.30)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
        ]
       }
      ],
@@ -9692,15 +6968,7 @@
      "other_chart_same_body": [
       "S Ketu → H Ketu RA 172.0297 172 whole (loose)"
      ],
-     "on_other_chart": [
-      {
-       "text": "H Markab → H Ketu RA 58.0189 58 whole (0.31)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     }
    ],
    "bodies": [
@@ -9745,18 +7013,6 @@
         "Uranus"
        ],
        "field": "also: 2 Royaume Uni / Joshua Moore"
-      },
-      {
-       "text": "J Sadalsuud → J Uranus Dec 17.9430 φ^6 phi power (97.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Uranus"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore"
       }
      ]
     },
@@ -9843,18 +7099,6 @@
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien"
       },
       {
-       "text": "H Markab → H Vesta Dec 8.9842 9 whole (4.31)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Vesta"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
-      },
-      {
        "text": "H Murzim → H Vesta RA 1.0445 conj (9.22)",
        "layer": "star rows",
        "source_lines": [
@@ -9916,18 +7160,6 @@
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
       },
       {
-       "text": "H Markab → H Rahu RA 121.9811 122 whole (0.31)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Rahu"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle"
-      },
-      {
        "text": "S Rahu → J Rahu RA 110.5641 10×φ^5 phi power (loose)",
        "layer": "same body",
        "source_lines": [],
@@ -9967,18 +7199,6 @@
        "field": "also: 5 Grangeclare Glory / Tom Scudamore"
       },
       {
-       "text": "H Capella → H Sedna Dec 38.8391 24×φ golden (64.86)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Sedna"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden"
-      },
-      {
        "text": "S Sedna → J Sedna RA 16.1817 10×φ^1 phi power (96.55)",
        "layer": "same body",
        "source_lines": [
@@ -10001,18 +7221,6 @@
        "field": "only"
       },
       {
-       "text": "J Capella → J Sedna RA 37.0030 37 whole (72.37)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Sedna"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden"
-      },
-      {
        "text": "J Diadem → J Sedna RA 155.3175 96×φ golden (32.97)",
        "layer": "star rows",
        "source_lines": [
@@ -10023,42 +7231,6 @@
         "Sedna"
        ],
        "field": "also: 2 Royaume Uni / Joshua Moore"
-      },
-      {
-       "text": "J Markab → J Sedna RA 55.9865 56 whole (10.41)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Sedna"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore"
-      },
-      {
-       "text": "J Sadalsuud → J Sedna RA 79.2891 49×φ golden (69.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Sedna"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Scheat → J Sedna Dec 24.1428 24.14 silver (98.91)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Sedna"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -10074,18 +7246,6 @@
         "Ketu"
        ],
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "H Markab → H Ketu RA 58.0189 58 whole (0.31)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Ketu"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle"
       },
       {
        "text": "S Ketu → J Ketu RA 110.5641 10×φ^5 phi power (loose)",
@@ -10112,55 +7272,6 @@
      ]
     },
     {
-     "body": "Transpluto",
-     "cells": [
-      {
-       "text": "H Jupiter → H Transpluto Dec 10.9961 11 whole (64.40)",
-       "layer": "T1",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Transpluto"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Moon → H Transpluto Dec 10.9943 11 whole (51.36)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Moon",
-        "Transpluto"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
-      },
-      {
-       "text": "H Denebola → H Transpluto RA 25.8837 16×φ golden (72.20)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)"
-       ],
-       "key": [
-        "Denebola",
-        "Transpluto"
-       ],
-       "field": "also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "H Sadalsuud → H Transpluto RA 171.5073 106×φ golden (74.98)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Transpluto"
-       ],
-       "field": "also: 5 Grangeclare Glory / Tom Scudamore"
-      }
-     ]
-    },
-    {
      "body": "Haumea",
      "cells": [
       {
@@ -10172,30 +7283,6 @@
         "Haumea"
        ],
        "field": "also: 3 Hell Red / Harry Cobden"
-      },
-      {
-       "text": "H Markab → H Haumea RA 137.9881 138 whole (16.27)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Haumea"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Scheat → J Haumea RA 156.9331 97×φ golden (24.99)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Haumea"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore"
       }
      ]
     },
@@ -10247,18 +7334,6 @@
         "Jupiter"
        ],
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore"
-      },
-      {
-       "text": "H Capella → H Jupiter RA 0.5397 conj (40.99)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Jupiter"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
       },
       {
        "text": "S Juno → J Jupiter RA 177.7293 177.778 ninth (96.21)",
@@ -10340,30 +7415,6 @@
        "field": "also: 5 Grangeclare Glory / Tom Scudamore"
       },
       {
-       "text": "J Capella → J Neptune RA 155.0186 155 whole (0.49)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Neptune"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden"
-      },
-      {
-       "text": "J Capella → J Neptune Dec 67.9971 68 whole (73.42)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Neptune"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden"
-      },
-      {
        "text": "J Murzim → J Neptune RA 171.5188 106×φ golden (60.38)",
        "layer": "star rows",
        "source_lines": [
@@ -10374,6 +7425,33 @@
         "Neptune"
        ],
        "field": "also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
+      }
+     ]
+    },
+    {
+     "body": "Transpluto",
+     "cells": [
+      {
+       "text": "S Moon → H Transpluto Dec 10.9943 11 whole (51.36)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Moon",
+        "Transpluto"
+       ],
+       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
+      },
+      {
+       "text": "H Denebola → H Transpluto RA 25.8837 16×φ golden (72.20)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)"
+       ],
+       "key": [
+        "Denebola",
+        "Transpluto"
+       ],
+       "field": "also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
       }
      ]
     },
@@ -10427,18 +7505,6 @@
        "field": "also: 2 Royaume Uni / Joshua Moore"
       },
       {
-       "text": "J Capella → J Mars RA 16.9803 17 whole (0.03)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Mars"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore"
-      },
-      {
        "text": "J Denebola → J Mars Dec 8.0097 8 whole (26.35)",
        "layer": "star rows",
        "source_lines": [
@@ -10449,18 +7515,6 @@
         "Mars"
        ],
        "field": "also: 4 Dreaming Blue / Rex Dingle"
-      },
-      {
-       "text": "J Markab → J Mars RA 76.0091 76 whole (29.59)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Mars"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore"
       }
      ]
     },
@@ -10606,30 +7660,6 @@
         "Makemake"
        ],
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
-      },
-      {
-       "text": "J Capella → J Makemake Dec 11.1185 11.1111 ninth (87.91)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Makemake"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
-      },
-      {
-       "text": "J Sadalsuud → J Makemake Dec 40.4514 25×φ golden (96.76)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Makemake"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle"
       }
      ]
     },
@@ -10659,178 +7689,6 @@
         "Quaoar"
        ],
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore"
-      },
-      {
-       "text": "J Capella → J Quaoar RA 155.9990 156 whole (90.23)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Quaoar"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien"
-      },
-      {
-       "text": "J Markab → J Quaoar RA 111.0116 111 whole (17.79)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Quaoar"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
-      }
-     ]
-    },
-    {
-     "body": "Orcus",
-     "cells": [
-      {
-       "text": "H Markab → H Orcus RA 161.8483 100×φ^1 phi power (89.20)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Orcus"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
-      },
-      {
-       "text": "S Jupiter → J Orcus RA 143.9942 144 whole (50.72)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Jupiter",
-        "Orcus"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Diadem → J Orcus RA 66.3352 41×φ golden (75.96)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Diadem Dec 22.0013 22 whole (87.07)"
-       ],
-       "key": [
-        "Diadem",
-        "Orcus"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore"
-      },
-      {
-       "text": "J Murzim → J Orcus Dec 21.0020 21 whole (81.22)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Murzim RA 27.5095 17×φ golden (82.56)"
-       ],
-       "key": [
-        "Murzim",
-        "Orcus"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Sadalsuud → J Orcus RA 168.2714 104×φ golden (76.04)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Orcus"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
-      }
-     ]
-    },
-    {
-     "body": "Pluto",
-     "cells": [
-      {
-       "text": "H Sadalsuud → H Pluto RA 41.0092 41 whole (28.91)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Pluto"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Pallas",
-     "cells": [
-      {
-       "text": "H Scheat → H Pallas Dec 30.9967 31 whole (69.61)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Pallas"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle"
-      },
-      {
-       "text": "H Zosma → H Pallas RA 114.8875 71×φ golden (61.10)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Zosma Dec 24.9947 25 whole (54.14)"
-       ],
-       "key": [
-        "Zosma",
-        "Pallas"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Aldebaran → J Pallas RA 89.0119 89 whole (16.25)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Aldebaran RA 0.8126 conj (21.00)"
-       ],
-       "key": [
-        "Aldebaran",
-        "Pallas"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien"
-      }
-     ]
-    },
-    {
-     "body": "Juno",
-     "cells": [
-      {
-       "text": "H Scheat → H Juno Dec 32.9811 33 whole (0.32)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Juno"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore"
-      },
-      {
-       "text": "S Sun → J Juno RA 95.0045 95 whole (60.20)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Sun",
-        "Juno"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -10865,6 +7723,35 @@
      ]
     },
     {
+     "body": "Pallas",
+     "cells": [
+      {
+       "text": "H Zosma → H Pallas RA 114.8875 71×φ golden (61.10)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Zosma Dec 24.9947 25 whole (54.14)"
+       ],
+       "key": [
+        "Zosma",
+        "Pallas"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Aldebaran → J Pallas RA 89.0119 89 whole (16.25)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Aldebaran RA 0.8126 conj (21.00)"
+       ],
+       "key": [
+        "Aldebaran",
+        "Pallas"
+       ],
+       "field": "also: 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien"
+      }
+     ]
+    },
+    {
      "body": "Gonggong",
      "cells": [
       {
@@ -10888,33 +7775,58 @@
         "Gonggong"
        ],
        "field": "also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore"
-      },
-      {
-       "text": "J Scheat → J Gonggong RA 17.0127 17 whole (13.30)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Gonggong"
-       ],
-       "field": "also: 4 Dreaming Blue / Rex Dingle"
       }
      ]
     },
     {
-     "body": "Saturn",
+     "body": "Orcus",
      "cells": [
       {
-       "text": "J Markab → J Saturn RA 51.9822 52 whole (1.17)",
+       "text": "S Jupiter → J Orcus RA 143.9942 144 whole (50.72)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Jupiter",
+        "Orcus"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Diadem → J Orcus RA 66.3352 41×φ golden (75.96)",
        "layer": "star rows",
        "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
+        "S Sun → Diadem Dec 22.0013 22 whole (87.07)"
        ],
        "key": [
-        "Markab",
-        "Saturn"
+        "Diadem",
+        "Orcus"
+       ],
+       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore"
+      },
+      {
+       "text": "J Murzim → J Orcus Dec 21.0020 21 whole (81.22)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Murzim RA 27.5095 17×φ golden (82.56)"
+       ],
+       "key": [
+        "Murzim",
+        "Orcus"
+       ],
+       "field": "only"
+      }
+     ]
+    },
+    {
+     "body": "Juno",
+     "cells": [
+      {
+       "text": "S Sun → J Juno RA 95.0045 95 whole (60.20)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Sun",
+        "Juno"
        ],
        "field": "only"
       }
@@ -10968,39 +7880,11 @@
     ],
     "3": [
      {
-      "label": "1 whole",
-      "cells": [
-       "S Sedna → H Sedna Dec 0.9808 1 whole (0.18) = S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "11 whole",
-      "cells": [
-       "H Jupiter → H Transpluto Dec 10.9961 11 whole (64.40) = S Moon → Capella RA 11.0061 11 whole (48.14)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "11 whole",
-      "cells": [
-       "S Moon → H Transpluto Dec 10.9943 11 whole (51.36) = S Moon → Capella RA 11.0061 11 whole (48.14)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
-     },
-     {
       "label": "16.6667 ninth",
       "cells": [
        "S Chiron → H Jupiter Dec 16.6637 16.6667 ninth (97.47) = S Moon → Chiron Dec 16.6620 16.6667 ninth (96.00)"
       ],
-      "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore"
-     },
-     {
-      "label": "11 whole",
-      "cells": [
-       "H Denebola → H Uranus Dec 10.9855 11 whole (7.55) = S Moon → Capella RA 11.0061 11 whole (48.14)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
+      "field": "also: 5 Grangeclare Glory / Tom Scudamore"
      },
      {
       "label": "12×φ golden",
@@ -11015,13 +7899,6 @@
        "S Juno → J Jupiter RA 177.7293 177.778 ninth (96.21) = S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)"
       ],
       "field": "also: 5 Grangeclare Glory / Tom Scudamore"
-     },
-     {
-      "label": "11 whole",
-      "cells": [
-       "J Denebola → J Ceres Dec 11.0077 11 whole (37.88) = S Moon → Capella RA 11.0061 11 whole (48.14)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
      }
     ],
     "4": [
@@ -11030,7 +7907,7 @@
       "cells": [
        "S Ceres → H Ceres Dec 6.0130 6 whole (12.09)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
+      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "1 = 360/360",
@@ -11044,28 +7921,21 @@
       "cells": [
        "H Alkes → H Eris Dec 15.0096 15 whole (26.88)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore"
-     },
-     {
-      "label": "9 = 360/40",
-      "cells": [
-       "H Markab → H Vesta Dec 8.9842 9 whole (4.31)"
-      ],
-      "field": "also: 5 Grangeclare Glory / Tom Scudamore"
+      "field": "also: 2 Royaume Uni / Joshua Moore"
      },
      {
       "label": "36 = 360/10",
       "cells": [
        "H Zosma → H Quaoar Dec 35.9872 36 whole (12.92)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien"
+      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
      },
      {
       "label": "8 = 360/45",
       "cells": [
        "S Gonggong → J Gonggong RA 7.9995 8 whole (95.38)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
+      "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "18 = 360/20",
@@ -11079,21 +7949,21 @@
       "cells": [
        "J Aldebaran → J Chiron Dec 2.9806 3 whole (0.08)"
       ],
-      "field": "also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
+      "field": "also: 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "8 = 360/45",
       "cells": [
        "J Denebola → J Mars Dec 8.0097 8 whole (26.35)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
+      "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "5 = 360/72",
       "cells": [
        "J Denebola → J Vesta Dec 5.0000 5 whole (99.79)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
+      "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
      },
      {
       "label": "4 = 360/90",
@@ -11107,18 +7977,10 @@
       "cells": [
        "J Zosma → J Eris Dec 30.0144 30 whole (7.84)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
+      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien"
      }
     ],
     "5": [
-     {
-      "label": "76 whole",
-      "cells": [
-       "S Mercury → H Mercury RA 76.0008 76 whole (92.41)",
-       "J Markab → J Mars RA 76.0091 76 whole (29.59)"
-      ],
-      "field": "only"
-     },
      {
       "label": "172 whole",
       "cells": [
@@ -11129,9 +7991,16 @@
       "field": "only"
      },
      {
+      "label": "33 whole",
+      "cells": [
+       "S Moon → H Neptune Dec 33.0021 33 whole (80.37)",
+       "H Diadem → H Quaoar Dec 32.9931 33 whole (43.18)"
+      ],
+      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
+     },
+     {
       "label": "11 whole",
       "cells": [
-       "H Jupiter → H Transpluto Dec 10.9961 11 whole (64.40)",
        "S Moon → H Transpluto Dec 10.9943 11 whole (51.36)",
        "H Denebola → H Uranus Dec 10.9855 11 whole (7.55)",
        "J Denebola → J Ceres Dec 11.0077 11 whole (37.88)"
@@ -11139,29 +8008,12 @@
       "field": "also: 7 Island Run / Tom O'Brien"
      },
      {
-      "label": "33 whole",
-      "cells": [
-       "S Moon → H Neptune Dec 33.0021 33 whole (80.37)",
-       "H Diadem → H Quaoar Dec 32.9931 33 whole (43.18)",
-       "H Scheat → H Juno Dec 32.9811 33 whole (0.32)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
-     },
-     {
       "label": "26 whole",
       "cells": [
        "H Aldebaran → H Mars RA 26.0117 26 whole (17.30)",
        "J Aldebaran → J Eris Dec 26.0021 26 whole (79.68)"
       ],
-      "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore"
-     },
-     {
-      "label": "122 whole",
-      "cells": [
-       "H Alkes → H Mars RA 121.9806 122 whole (0.10)",
-       "H Markab → H Rahu RA 121.9811 122 whole (0.31)"
-      ],
-      "field": "only"
+      "field": "also: 2 Royaume Uni / Joshua Moore"
      },
      {
       "label": "7 whole",
@@ -11170,22 +8022,6 @@
        "J Zosma → J Chiron Dec 6.9928 7 whole (41.10)"
       ],
       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
-     },
-     {
-      "label": "106×φ golden",
-      "cells": [
-       "H Sadalsuud → H Transpluto RA 171.5073 106×φ golden (74.98)",
-       "J Murzim → J Neptune RA 171.5188 106×φ golden (60.38)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "φ^6 phi power",
-      "cells": [
-       "S Neptune → J Neptune Dec 17.9621 φ^6 phi power (loose)",
-       "J Sadalsuud → J Uranus Dec 17.9430 φ^6 phi power (97.12)"
-      ],
-      "field": "only"
      },
      {
       "label": "10×φ^5 phi power",
@@ -11201,15 +8037,7 @@
        "S Gonggong → J Gonggong RA 7.9995 8 whole (95.38)",
        "J Denebola → J Mars Dec 8.0097 8 whole (26.35)"
       ],
-      "field": "also: 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien"
-     },
-     {
-      "label": "17 whole",
-      "cells": [
-       "J Capella → J Mars RA 16.9803 17 whole (0.03)",
-       "J Scheat → J Gonggong RA 17.0127 17 whole (13.30)"
-      ],
-      "field": "also: 2 Royaume Uni / Joshua Moore"
+      "field": "only"
      }
     ]
    }
@@ -11287,20 +8115,6 @@
        "text": "S Ketu → H Jupiter Dec 11.3291 7×φ golden (83.00)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "S Markab → H Jupiter RA 144.4640 144.444 ninth (97.93)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      },
-      {
-       "text": "H Sadalsuud → H Jupiter Dec 2.0001 2 whole (99.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
       }
      ],
      "other_chart_same_body": [
@@ -11314,31 +8128,10 @@
        "source_lines": []
       },
       {
-       "text": "S Markab → J Jupiter RA 0.5651 conj (38.85)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      },
-      {
        "text": "S Murzim → J Jupiter RA 110.0567 68×φ golden (0.39)",
        "layer": "star rows",
        "source_lines": [
         "S Moon → Murzim RA 27.5095 17×φ golden (82.56)"
-       ]
-      },
-      {
-       "text": "S Sadalsuud → J Jupiter Dec 2.0032 2 whole (70.38)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
-      },
-      {
-       "text": "S Scheat → J Jupiter RA 0.3189 conj (62.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
        ]
       }
      ]
@@ -11411,13 +8204,6 @@
      ],
      "on_other_chart": [
       {
-       "text": "J Capella → J Chiron RA 0.0928 conj (88.01)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
-      },
-      {
        "text": "J Diadem → J Chiron Dec 0.1436 conj (27.20)",
        "layer": "star rows",
        "source_lines": [
@@ -11443,15 +8229,7 @@
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "J Capella → J Pallas RA 132.6606 82×φ golden (19.09)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "H",
@@ -11511,15 +8289,7 @@
      "body_lines": [
       "S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)"
      ],
-     "on_this_chart": [
-      {
-       "text": "H Sadalsuud → H Sedna Dec 12.9445 8×φ golden (98.76)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [
       "S Sedna → J Sedna RA 18.0250 18 whole (loose)"
      ],
@@ -11577,31 +8347,10 @@
        "source_lines": []
       },
       {
-       "text": "S Markab → J Jupiter RA 0.5651 conj (38.85)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      },
-      {
        "text": "S Murzim → J Jupiter RA 110.0567 68×φ golden (0.39)",
        "layer": "star rows",
        "source_lines": [
         "S Moon → Murzim RA 27.5095 17×φ golden (82.56)"
-       ]
-      },
-      {
-       "text": "S Sadalsuud → J Jupiter Dec 2.0032 2 whole (70.38)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
-      },
-      {
-       "text": "S Scheat → J Jupiter RA 0.3189 conj (62.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
        ]
       }
      ],
@@ -11613,20 +8362,6 @@
        "text": "S Ketu → H Jupiter Dec 11.3291 7×φ golden (83.00)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "S Markab → H Jupiter RA 144.4640 144.444 ninth (97.93)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      },
-      {
-       "text": "H Sadalsuud → H Jupiter Dec 2.0001 2 whole (99.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
       }
      ]
     },
@@ -11640,13 +8375,6 @@
       "S Moon → Chiron Dec 16.6620 16.6667 ninth (96.00)"
      ],
      "on_this_chart": [
-      {
-       "text": "J Capella → J Chiron RA 0.0928 conj (88.01)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
-      },
       {
        "text": "J Diadem → J Chiron Dec 0.1436 conj (27.20)",
        "layer": "star rows",
@@ -11772,15 +8500,7 @@
      "other_chart_same_body": [
       "S Sedna → H Sedna RA 2.9725 3 whole (loose)"
      ],
-     "on_other_chart": [
-      {
-       "text": "H Sadalsuud → H Sedna Dec 12.9445 8×φ golden (98.76)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -11796,20 +8516,6 @@
        "text": "J Jupiter → J Makemake Dec 43.6806 27×φ golden (64.83)",
        "layer": "T2",
        "source_lines": []
-      },
-      {
-       "text": "J Markab → J Makemake RA 179.4052 10×φ^6 phi power (91.81)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ]
-      },
-      {
-       "text": "J Scheat → J Makemake Dec 8.0184 8 whole (0.62)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ]
       }
      ],
      "other_chart_same_body": [],
@@ -11830,15 +8536,7 @@
       "S Quaoar → J Quaoar RA 46.8645 φ^8 phi power (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "J Capella → J Quaoar Dec 59.0001 59 whole (99.24)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -11863,13 +8561,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Sun → Diadem Dec 22.0013 22 whole (87.07)"
-       ]
-      },
-      {
-       "text": "J Scheat → J Ketu Dec 35.9831 36 whole (2.33)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
        ]
       }
      ],
@@ -11944,26 +8635,6 @@
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden"
       },
       {
-       "text": "H Jupiter → H star Markab RA 144.4645 144.444 ninth (97.88)",
-       "layer": "T1",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Jupiter"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore"
-      },
-      {
-       "text": "H Jupiter → H star Sadalsuud Dec 2.0001 2 whole (99.12)",
-       "layer": "T1",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Jupiter"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore"
-      },
-      {
        "text": "S Ketu → H Jupiter Dec 11.3291 7×φ golden (83.00)",
        "layer": "top rows",
        "source_lines": [],
@@ -11972,30 +8643,6 @@
         "Jupiter"
        ],
        "field": "only"
-      },
-      {
-       "text": "S Markab → H Jupiter RA 144.4640 144.444 ninth (97.93)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Jupiter"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore"
-      },
-      {
-       "text": "H Sadalsuud → H Jupiter Dec 2.0001 2 whole (99.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Jupiter"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore"
       },
       {
        "text": "S Jupiter → J Jupiter RA 1.5450 1.55556 ninth (loose)",
@@ -12018,26 +8665,6 @@
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden"
       },
       {
-       "text": "J Jupiter → J star Sadalsuud Dec 2.0057 2 whole (51.17)",
-       "layer": "T2",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Jupiter"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore"
-      },
-      {
-       "text": "J Jupiter → J star Scheat RA 0.3235 conj (61.51)",
-       "layer": "T2",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Jupiter"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore"
-      },
-      {
        "text": "S Ketu → J Jupiter Dec 11.3257 7×φ golden (96.76)",
        "layer": "top rows",
        "source_lines": [],
@@ -12046,18 +8673,6 @@
         "Jupiter"
        ],
        "field": "only"
-      },
-      {
-       "text": "S Markab → J Jupiter RA 0.5651 conj (38.85)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Jupiter"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore"
       },
       {
        "text": "S Murzim → J Jupiter RA 110.0567 68×φ golden (0.39)",
@@ -12070,30 +8685,6 @@
         "Jupiter"
        ],
        "field": "also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden"
-      },
-      {
-       "text": "S Sadalsuud → J Jupiter Dec 2.0032 2 whole (70.38)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Jupiter"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore"
-      },
-      {
-       "text": "S Scheat → J Jupiter RA 0.3189 conj (62.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Jupiter"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -12210,18 +8801,6 @@
        "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle"
       },
       {
-       "text": "J Capella → J Chiron RA 0.0928 conj (88.01)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Chiron"
-       ],
-       "field": "only"
-      },
-      {
        "text": "J Diadem → J Chiron Dec 0.1436 conj (27.20)",
        "layer": "star rows",
        "source_lines": [
@@ -12259,18 +8838,6 @@
         "Pallas"
        ],
        "field": "also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best"
-      },
-      {
-       "text": "J Capella → J Pallas RA 132.6606 82×φ golden (19.09)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Pallas"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore"
       }
      ]
     },
@@ -12363,18 +8930,6 @@
         "Sedna"
        ],
        "field": "also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
-      },
-      {
-       "text": "H Sadalsuud → H Sedna Dec 12.9445 8×φ golden (98.76)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-       ],
-       "key": [
-        "Sadalsuud",
-        "Sedna"
-       ],
-       "field": "also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best"
       },
       {
        "text": "S Sedna → J Sedna RA 18.0250 18 whole (loose)",
@@ -12602,18 +9157,6 @@
         "Quaoar"
        ],
        "field": "also: 4 Dreaming Blue / Rex Dingle"
-      },
-      {
-       "text": "J Capella → J Quaoar Dec 59.0001 59 whole (99.24)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Capella RA 11.0061 11 whole (48.14)"
-       ],
-       "key": [
-        "Capella",
-        "Quaoar"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best"
       }
      ]
     },
@@ -12660,18 +9203,6 @@
         "Pluto"
        ],
        "field": "also: 2 Royaume Uni / Joshua Moore"
-      },
-      {
-       "text": "J Markab → J Pluto Dec 14.4434 14.4444 ninth (98.93)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Pluto"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle"
       }
      ]
     },
@@ -12711,30 +9242,6 @@
         "Makemake"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Markab → J Makemake RA 179.4052 10×φ^6 phi power (91.81)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Makemake"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden"
-      },
-      {
-       "text": "J Scheat → J Makemake Dec 8.0184 8 whole (0.62)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Makemake"
-       ],
-       "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore"
       }
      ]
     },
@@ -12796,23 +9303,6 @@
        "key": [
         "Murzim",
         "Transpluto"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Orcus",
-     "cells": [
-      {
-       "text": "H Scheat → H Orcus RA 166.6296 166.667 ninth (96.82)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Orcus"
        ],
        "field": "only"
       }
@@ -12901,18 +9391,6 @@
         "Ketu"
        ],
        "field": "also: 2 Royaume Uni / Joshua Moore"
-      },
-      {
-       "text": "J Scheat → J Ketu Dec 35.9831 36 whole (2.33)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Scheat RA 1.2262 conj (3.33)"
-       ],
-       "key": [
-        "Scheat",
-        "Ketu"
-       ],
-       "field": "also: 5 Grangeclare Glory / Tom Scudamore"
       }
      ]
     },
@@ -12930,18 +9408,6 @@
         "Sun"
        ],
        "field": "also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle"
-      },
-      {
-       "text": "J Markab → J Sun RA 101.9302 63×φ golden (66.46)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Markab RA 0.9799 conj (12.02)"
-       ],
-       "key": [
-        "Markab",
-        "Sun"
-       ],
-       "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore"
       }
      ]
     }
@@ -12990,14 +9456,7 @@
       "cells": [
        "S Venus → H Venus Dec 19.9830 20 whole (2.28) = S Sun → Haumea Dec 19.9944 20 whole (52.20)"
       ],
-      "field": "also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore"
-     },
-     {
-      "label": "1 whole",
-      "cells": [
-       "S Jupiter → H Jupiter Dec 1.0068 1 whole (43.81) = S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
+      "field": "also: 4 Dreaming Blue / Rex Dingle"
      },
      {
       "label": "43 whole",
@@ -13007,46 +9466,11 @@
       "field": "also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle"
      },
      {
-      "label": "11 whole",
-      "cells": [
-       "H Denebola → H Venus Dec 11.0040 11 whole (63.61) = S Moon → Capella RA 11.0061 11 whole (48.14)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best"
-     },
-     {
       "label": "20 whole",
       "cells": [
        "H Zosma → H Chiron Dec 20.0035 20 whole (68.40) = S Sun → Haumea Dec 19.9944 20 whole (52.20)"
       ],
-      "field": "also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore"
-     },
-     {
-      "label": "1 whole",
-      "cells": [
-       "S Jupiter → J Jupiter Dec 1.0102 1 whole (24.16) = S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
-     },
-     {
-      "label": "11 whole",
-      "cells": [
-       "S Rahu → J Rahu Dec 11.0048 11 whole (57.44) = S Moon → Capella RA 11.0061 11 whole (48.14)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best"
-     },
-     {
-      "label": "11 whole",
-      "cells": [
-       "S Ketu → J Ketu Dec 11.0048 11 whole (57.44) = S Moon → Capella RA 11.0061 11 whole (48.14)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best"
-     },
-     {
-      "label": "11 whole",
-      "cells": [
-       "J Alkes → J Vesta Dec 11.0179 11 whole (1.12) = S Moon → Capella RA 11.0061 11 whole (48.14)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best"
+      "field": "also: 4 Dreaming Blue / Rex Dingle"
      }
     ],
     "4": [
@@ -13055,7 +9479,7 @@
       "cells": [
        "S Venus → H Venus Dec 19.9830 20 whole (2.28)"
       ],
-      "field": "also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore"
+      "field": "also: 4 Dreaming Blue / Rex Dingle"
      },
      {
       "label": "1 = 360/360",
@@ -13076,28 +9500,21 @@
       "cells": [
        "S Sedna → H Sedna RA 2.9725 3 whole (loose)"
       ],
-      "field": "also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
-     },
-     {
-      "label": "2 = 360/180",
-      "cells": [
-       "H Jupiter → H star Sadalsuud Dec 2.0001 2 whole (99.12)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle"
+      "field": "also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
      },
      {
       "label": "6 = 360/60",
       "cells": [
        "S Moon → H Haumea Dec 5.9980 6 whole (81.15)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
+      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
      },
      {
       "label": "3 = 360/120",
       "cells": [
        "H Alkes → H Pluto Dec 2.9816 3 whole (0.65)"
       ],
-      "field": "also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
+      "field": "also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
      },
      {
       "label": "18 = 360/20",
@@ -13114,18 +9531,11 @@
       "field": "also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore"
      },
      {
-      "label": "2 = 360/180",
-      "cells": [
-       "H Sadalsuud → H Jupiter Dec 2.0001 2 whole (99.12)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle"
-     },
-     {
       "label": "20 = 360/18",
       "cells": [
        "H Zosma → H Chiron Dec 20.0035 20 whole (68.40)"
       ],
-      "field": "also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore"
+      "field": "also: 4 Dreaming Blue / Rex Dingle"
      },
      {
       "label": "1 = 360/360",
@@ -13142,53 +9552,25 @@
       "field": "also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
      },
      {
-      "label": "2 = 360/180",
-      "cells": [
-       "J Jupiter → J star Sadalsuud Dec 2.0057 2 whole (51.17)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle"
-     },
-     {
       "label": "30 = 360/12",
       "cells": [
        "S Moon → J Vesta Dec 30.0042 30 whole (62.04)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
+      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best"
      },
      {
       "label": "5 = 360/72",
       "cells": [
        "J Alkes → J Uranus Dec 4.9959 5 whole (63.37)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
+      "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
      },
      {
       "label": "8 = 360/45",
       "cells": [
        "J Denebola → J Haumea RA 8.0199 8 whole (0.00)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
-     },
-     {
-      "label": "2 = 360/180",
-      "cells": [
-       "S Sadalsuud → J Jupiter Dec 2.0032 2 whole (70.38)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle"
-     },
-     {
-      "label": "8 = 360/45",
-      "cells": [
-       "J Scheat → J Makemake Dec 8.0184 8 whole (0.62)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
-     },
-     {
-      "label": "36 = 360/10",
-      "cells": [
-       "J Scheat → J Ketu Dec 35.9831 36 whole (2.33)"
-      ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden, 6 Manvers House / James Best"
+      "field": "also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
      }
     ],
     "5": [
@@ -13225,24 +9607,6 @@
       "field": "only"
      },
      {
-      "label": "144.444 ninth",
-      "cells": [
-       "H Jupiter → H star Markab RA 144.4645 144.444 ninth (97.88)",
-       "S Markab → H Jupiter RA 144.4640 144.444 ninth (97.93)"
-      ],
-      "field": "also: 4 Dreaming Blue / Rex Dingle"
-     },
-     {
-      "label": "2 whole",
-      "cells": [
-       "H Jupiter → H star Sadalsuud Dec 2.0001 2 whole (99.12)",
-       "H Sadalsuud → H Jupiter Dec 2.0001 2 whole (99.12)",
-       "J Jupiter → J star Sadalsuud Dec 2.0057 2 whole (51.17)",
-       "S Sadalsuud → J Jupiter Dec 2.0032 2 whole (70.38)"
-      ],
-      "field": "also: 4 Dreaming Blue / Rex Dingle"
-     },
-     {
       "label": "7×φ golden",
       "cells": [
        "S Ketu → H Jupiter Dec 11.3291 7×φ golden (83.00)",
@@ -13250,14 +9614,6 @@
        "S Ketu → J Jupiter Dec 11.3257 7×φ golden (96.76)"
       ],
       "field": "also: 4 Dreaming Blue / Rex Dingle"
-     },
-     {
-      "label": "8×φ golden",
-      "cells": [
-       "H Aldebaran → H Venus Dec 12.9433 8×φ golden (93.98)",
-       "H Sadalsuud → H Sedna Dec 12.9445 8×φ golden (98.76)"
-      ],
-      "field": "only"
      },
      {
       "label": "21 whole",
@@ -13286,28 +9642,12 @@
       "field": "only"
      },
      {
-      "label": "166.667 ninth",
-      "cells": [
-       "H Scheat → H Orcus RA 166.6296 166.667 ninth (96.82)",
-       "S Ceres → J Ceres RA 166.1774 166.667 ninth (loose)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "100×φ^1 phi power",
       "cells": [
        "S Jupiter → J Haumea RA 161.8803 100×φ^1 phi power (81.89)",
        "S Moon → J Ceres RA 161.8733 100×φ^1 phi power (83.48)"
       ],
-      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden"
-     },
-     {
-      "label": "8 whole",
-      "cells": [
-       "J Denebola → J Haumea RA 8.0199 8 whole (0.00)",
-       "J Scheat → J Makemake Dec 8.0184 8 whole (0.62)"
-      ],
-      "field": "also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best"
+      "field": "also: 1 Breaking Waves / Jonjo O'Neill Jr"
      }
     ]
    }
@@ -13327,9 +9667,6 @@
    "S Jupiter → Moon RA 81.0021 81 whole (80.22)",
    "S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75)",
    "S Jupiter → Denebola RA 169.8981 105×φ golden (74.21)",
-   "S Jupiter → Sadalsuud Dec 0.9931 1 whole (42.58)",
-   "S Jupiter → Scheat RA 1.2262 conj (3.33)",
-   "S Jupiter → Markab RA 0.9799 conj (12.02)",
    "S Sun → Uranus Dec 19.4155 12×φ golden (94.70)",
    "S Sun → Haumea Dec 19.9944 20 whole (52.20)",
    "S Sun → Zosma Dec 24.9947 25 whole (54.14)",
@@ -13342,7 +9679,6 @@
    "S Moon → Vesta RA 126.9981 127 whole (81.81)",
    "S Moon → Makemake Dec 0.0216 conj (86.14)",
    "S Moon → Aldebaran RA 0.8126 conj (21.00)",
-   "S Moon → Capella RA 11.0061 11 whole (48.14)",
    "S Moon → Murzim RA 27.5095 17×φ golden (82.56)"
   ]
  }

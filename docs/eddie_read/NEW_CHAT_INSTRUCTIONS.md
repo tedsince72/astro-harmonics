@@ -1,9 +1,10 @@
-# New chat: race reads from stage 1 + stage 2 (Eddie, 7 Nov 2026)
+# New chat: race reads, stages 1-3 (Eddie, 7 Nov 2026)
 
 Paste this at the start of the new chat. Everything needed is here; nothing depends on earlier chats.
 
 ## Where we are
 - **Stage 1** (`tools/eddie_read.py`) collects every cell from the race's tables workbook in Eddie's order.
+  - Noted sky lines (Eddie, 7 Nov 2026, from his own Haydock 19 Feb 2022 list): a line that is not a conj scores 50 or more (exact within ±120 min of the off, or 90 or more and applying); a conj scores 20 or more; a star line at 40–50 stays only when another centre reaches the same star at 50 or more (Haydock Jupiter → Diadem 47.74, with Moon → Diadem 98.77). A body line never comes in that way (Sun → Pluto 47.79 stays out). Haydock gives exactly Eddie's 16 lines.
 - **Stage 2** (`tools/eddie_layers.py`) lays out the stage 1 data in fixed layers for every runner. It shows data only: no interpretation, no score cut-offs, no centre tags, no ranking, no pick.
   - L0 field check: runners in the tables workbook against the `_active.xlsx`.
   - L1 same bodies.
@@ -15,7 +16,7 @@ Paste this at the start of the new chat. Everything needed is here; nothing depe
   - `docs/eddie_read/rules.json`: every rule in plain words, with the races it was seen on (`in_sample`); every other race is a test race.
   - `tools/eddie_rules.py`: runs every rule on a race and lists the runners each one selects, with their cells. It never reads results.
   - `tools/eddie_backtest.py`: the only script that reads `docs/eddie_read/results/results.json`. Per rule: picks, winners, 1st or 2nd, each against chance, for test races and in-sample races separately.
-  - 14 rules to start: set A (the old register R25, R28, R1b, R7, R26, R40, R42, R1) and set B (B1 strong-line-star filter, B2 top strong-line conj, B3 version 4, B4 same-body clear lead, B5 same body both planes, B6 same body both charts). Back-test so far: `docs/eddie_read/backtest/backtest.md`.
+  - 16 rules so far: set A (the old register R25, R28, R1b, R7, R26, R40, R42, R1) and set B (B1 strong-line-star filter, B2 top strong-line conj, B3 version 4, B4 same-body clear lead, B5 same body both planes, B6 same body both charts, B7 most sky bodies onto the jockey's Jupiter, B8 one line star on the most natal bodies). The full list is in `rules.json`; the back-test so far is in `docs/eddie_read/backtest/backtest.md`.
   - New rules are made race by race with Eddie.
 
 ## What Eddie does
@@ -32,7 +33,7 @@ Paste this at the start of the new chat. Everything needed is here; nothing depe
 7. Commit and push the reports, force-adding the tables xlsx (it is git-ignored), before the result is pasted.
 
 ## Reading with Eddie
-- Show the data; don't judge it. Answer Eddie's questions from the two reports, every cell in full: `source → chart body plane value target family (score)`. Copy the numbers from the report; never invent one.
+- Show the data; don't judge it. Answer Eddie's questions from the reports, every cell in full: `source → chart body plane value target family (score)`. Copy the numbers from the report; never invent one.
 - Follow Eddie's order: same body first, then sky Jupiter, Sun, Moon, MATCH, T1 / T2, T24 top rows, T24 star rows (`claude/race-read-instruction.md`).
 - "Only" / "also" comes from the report's field tags. Don't add a claim of your own without checking every runner.
 - A jockey's own natal cells come with him in every ride.
@@ -43,6 +44,7 @@ Paste this at the start of the new chat. Everything needed is here; nothing depe
 - Show what each rule selected against the result, and what the winner had in the stage 2 report, layer by layer (same body first), against the field.
 - If Eddie names a pattern, write it as a candidate rule in plain words, with the cells it would use. Don't build it until he says go.
 - When Eddie agrees: add it to `rules.json` (with this race and any race it was seen on in `in_sample`) and its function to `RULES` in `tools/eddie_rules.py`; rerun the rules on every race and the back-test; tests; checker; commit and push before the next race. Never change a rule after a result: a change is a new rule with a new id.
+- A change to stage 1 or 2 (what is collected) changes what the rules see: rerun stages 1–3 on every race in `results.json`, then the back-test, and show Eddie the back-test before and after.
 
 ## Rules (standing)
 - Never open any `.csv`, and don't look results up.

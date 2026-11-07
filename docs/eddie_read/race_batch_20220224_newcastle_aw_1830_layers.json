@@ -48,13 +48,6 @@
        "source_lines": []
       },
       {
-       "text": "H Algol → H Sun Dec 37.0026 37 whole (75.77)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ]
-      },
-      {
        "text": "H Vindemiatrix → H Sun Dec 7.0036 7 whole (67.64)",
        "layer": "star rows",
        "source_lines": [
@@ -177,15 +170,7 @@
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Algol → H Mars RA 161.8734 100×φ^1 phi power (83.45)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -365,13 +350,6 @@
      "other_chart_same_body": [],
      "on_other_chart": [
       {
-       "text": "H Algol → H Sedna RA 8.0132 8 whole (11.51)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ]
-      },
-      {
        "text": "H Kaus Australis → H Sedna RA 139.0068 139 whole (43.79)",
        "layer": "star rows",
        "source_lines": [
@@ -394,13 +372,6 @@
        "text": "J Jupiter → J Makemake RA 155.5030 155.556 ninth (95.03)",
        "layer": "T2",
        "source_lines": []
-      },
-      {
-       "text": "J Algol → J Makemake RA 131.0326 81×φ golden (1.73)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ]
       }
      ],
      "other_chart_same_body": [],
@@ -439,18 +410,6 @@
         "Sun"
        ],
        "field": "also: 4 Blazing Hot / Hollie Doyle"
-      },
-      {
-       "text": "H Algol → H Sun Dec 37.0026 37 whole (75.77)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Sun"
-       ],
-       "field": "also: 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie"
       },
       {
        "text": "H Vindemiatrix → H Sun Dec 7.0036 7 whole (67.64)",
@@ -804,162 +763,6 @@
      ]
     },
     {
-     "body": "Mars",
-     "cells": [
-      {
-       "text": "H Algol → H Mars RA 161.8734 100×φ^1 phi power (83.45)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Mars"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Mars → J Mars Dec 14.3854 14.4444 ninth (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Mars"
-       ],
-       "field": "also: 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie"
-      },
-      {
-       "text": "S Jupiter → J Mars RA 0.5969 conj (36.25)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Jupiter",
-        "Mars"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Jupiter → J Mars Dec 0.1702 conj (18.72)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Jupiter",
-        "Mars"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Fomalhaut → J Mars RA 0.7287 conj (26.44)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Fomalhaut RA 0.1339 conj (82.94)"
-       ],
-       "key": [
-        "Fomalhaut",
-        "Mars"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Menkent → J Mars RA 132.0053 132 whole (53.76)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Menkent Dec 11.3233 7×φ golden (82.95)"
-       ],
-       "key": [
-        "Menkent",
-        "Mars"
-       ],
-       "field": "also: 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle"
-      },
-      {
-       "text": "J Vindemiatrix → J Mars Dec 18.8822 18.8889 ninth (95.20)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)"
-       ],
-       "key": [
-        "Vindemiatrix",
-        "Mars"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Sedna",
-     "cells": [
-      {
-       "text": "H Algol → H Sedna RA 8.0132 8 whole (11.51)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Sedna"
-       ],
-       "field": "also: 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie"
-      },
-      {
-       "text": "H Kaus Australis → H Sedna RA 139.0068 139 whole (43.79)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)"
-       ],
-       "key": [
-        "Kaus Australis",
-        "Sedna"
-       ],
-       "field": "also: 4 Blazing Hot / Hollie Doyle"
-      },
-      {
-       "text": "S Sedna → J Sedna Dec 3.2319 2×φ golden (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Sedna"
-       ],
-       "field": "also: 2 Alablaq / George Downing, 5 Tathmeen / Cam Hardie"
-      },
-      {
-       "text": "S Jupiter → J Sedna RA 60.9942 61 whole (50.40)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Jupiter",
-        "Sedna"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Bellatrix → J Sedna RA 36.0166 36 whole (2.93)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Bellatrix RA 174.0057 174 whole (51.29)"
-       ],
-       "key": [
-        "Bellatrix",
-        "Sedna"
-       ],
-       "field": "also: 2 Alablaq / George Downing"
-      },
-      {
-       "text": "J Zubeneschamali → J Sedna RA 176.0176 176 whole (1.42)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Zubeneschamali Dec 0.0034 conj (97.75)"
-       ],
-       "key": [
-        "Zubeneschamali",
-        "Sedna"
-       ],
-       "field": "also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie"
-      }
-     ]
-    },
-    {
      "body": "Gonggong",
      "cells": [
       {
@@ -1050,6 +853,67 @@
      ]
     },
     {
+     "body": "Sedna",
+     "cells": [
+      {
+       "text": "H Kaus Australis → H Sedna RA 139.0068 139 whole (43.79)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)"
+       ],
+       "key": [
+        "Kaus Australis",
+        "Sedna"
+       ],
+       "field": "also: 4 Blazing Hot / Hollie Doyle"
+      },
+      {
+       "text": "S Sedna → J Sedna Dec 3.2319 2×φ golden (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Sedna"
+       ],
+       "field": "also: 2 Alablaq / George Downing, 5 Tathmeen / Cam Hardie"
+      },
+      {
+       "text": "S Jupiter → J Sedna RA 60.9942 61 whole (50.40)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Jupiter",
+        "Sedna"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Bellatrix → J Sedna RA 36.0166 36 whole (2.93)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Bellatrix RA 174.0057 174 whole (51.29)"
+       ],
+       "key": [
+        "Bellatrix",
+        "Sedna"
+       ],
+       "field": "also: 2 Alablaq / George Downing"
+      },
+      {
+       "text": "J Zubeneschamali → J Sedna RA 176.0176 176 whole (1.42)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Zubeneschamali Dec 0.0034 conj (97.75)"
+       ],
+       "key": [
+        "Zubeneschamali",
+        "Sedna"
+       ],
+       "field": "also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie"
+      }
+     ]
+    },
+    {
      "body": "Ceres",
      "cells": [
       {
@@ -1132,18 +996,6 @@
         "Juno"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Algol → J Juno Dec 43.0156 43 whole (4.92)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Juno"
-       ],
-       "field": "also: 4 Blazing Hot / Hollie Doyle"
       },
       {
        "text": "J Meissa → J Juno RA 101.9122 63×φ golden (6.82)",
@@ -1245,18 +1097,6 @@
         "Makemake"
        ],
        "field": "also: 4 Blazing Hot / Hollie Doyle"
-      },
-      {
-       "text": "J Algol → J Makemake RA 131.0326 81×φ golden (1.73)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Makemake"
-       ],
-       "field": "also: 4 Blazing Hot / Hollie Doyle"
       }
      ]
     },
@@ -1298,6 +1138,77 @@
         "Vesta"
        ],
        "field": "also: 2 Alablaq / George Downing, 5 Tathmeen / Cam Hardie"
+      }
+     ]
+    },
+    {
+     "body": "Mars",
+     "cells": [
+      {
+       "text": "S Mars → J Mars Dec 14.3854 14.4444 ninth (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Mars"
+       ],
+       "field": "also: 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie"
+      },
+      {
+       "text": "S Jupiter → J Mars RA 0.5969 conj (36.25)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Jupiter",
+        "Mars"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "S Jupiter → J Mars Dec 0.1702 conj (18.72)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Jupiter",
+        "Mars"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Fomalhaut → J Mars RA 0.7287 conj (26.44)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Fomalhaut RA 0.1339 conj (82.94)"
+       ],
+       "key": [
+        "Fomalhaut",
+        "Mars"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Menkent → J Mars RA 132.0053 132 whole (53.76)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Menkent Dec 11.3233 7×φ golden (82.95)"
+       ],
+       "key": [
+        "Menkent",
+        "Mars"
+       ],
+       "field": "also: 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle"
+      },
+      {
+       "text": "J Vindemiatrix → J Mars Dec 18.8822 18.8889 ninth (95.20)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)"
+       ],
+       "key": [
+        "Vindemiatrix",
+        "Mars"
+       ],
+       "field": "only"
       }
      ]
     },
@@ -1404,18 +1315,6 @@
        "source_lines": [],
        "key": [
         "S Jupiter",
-        "Ketu"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Algol → J Ketu Dec 48.5459 30×φ golden (71.87)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
         "Ketu"
        ],
        "field": "only"
@@ -1551,13 +1450,6 @@
     ],
     "4": [
      {
-      "label": "8 = 360/45",
-      "cells": [
-       "H Algol → H Sedna RA 8.0132 8 whole (11.51)"
-      ],
-      "field": "also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis"
-     },
-     {
       "label": "36 = 360/10",
       "cells": [
        "H Fomalhaut → H Mercury Dec 36.0145 36 whole (7.61)"
@@ -1630,7 +1522,7 @@
        "H Fomalhaut → H Mercury Dec 36.0145 36 whole (7.61)",
        "J Bellatrix → J Sedna RA 36.0166 36 whole (2.93)"
       ],
-      "field": "also: 5 Tathmeen / Cam Hardie"
+      "field": "only"
      },
      {
       "label": "7 whole",
@@ -2007,13 +1899,6 @@
      ],
      "body_lines": [],
      "on_this_chart": [
-      {
-       "text": "J Algol → J Vesta RA 141.4209 141.4 sqrt2 (99.87)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ]
-      },
       {
        "text": "J Meissa → J Vesta Dec 7.0088 7 whole (31.28)",
        "layer": "star rows",
@@ -2554,18 +2439,6 @@
        "field": "only"
       },
       {
-       "text": "S Algol → J Jupiter RA 118.9916 119 whole (33.73)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Jupiter"
-       ],
-       "field": "also: 3 Gowanlad / Phil Dennis"
-      },
-      {
        "text": "J Kaus Australis → J Jupiter RA 110.0170 68×φ golden (50.69)",
        "layer": "star rows",
        "source_lines": [
@@ -2816,18 +2689,6 @@
         "Vesta"
        ],
        "field": "also: 4 Blazing Hot / Hollie Doyle"
-      },
-      {
-       "text": "J Algol → J Vesta RA 141.4209 141.4 sqrt2 (99.87)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Vesta"
-       ],
-       "field": "only"
       },
       {
        "text": "J Meissa → J Vesta Dec 7.0088 7 whole (31.28)",
@@ -3117,20 +2978,25 @@
      ]
     },
     {
-     "body": "Orcus",
+     "body": "Neptune",
      "cells": [
       {
-       "text": "J Algol → J Orcus Dec 37.9849 38 whole (5.99)",
+       "text": "J Vindemiatrix → J Neptune RA 92.9939 93 whole (48.50)",
        "layer": "star rows",
        "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
+        "S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)"
        ],
        "key": [
-        "Algol",
-        "Orcus"
+        "Vindemiatrix",
+        "Neptune"
        ],
-       "field": "only"
-      },
+       "field": "also: 1 James Watt / Ben Robinson, 4 Blazing Hot / Hollie Doyle"
+      }
+     ]
+    },
+    {
+     "body": "Orcus",
+     "cells": [
       {
        "text": "J Vindemiatrix → J Orcus Dec 7.9931 8 whole (42.71)",
        "layer": "star rows",
@@ -3155,23 +3021,6 @@
         "Orcus"
        ],
        "field": "also: 1 James Watt / Ben Robinson"
-      }
-     ]
-    },
-    {
-     "body": "Neptune",
-     "cells": [
-      {
-       "text": "J Vindemiatrix → J Neptune RA 92.9939 93 whole (48.50)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)"
-       ],
-       "key": [
-        "Vindemiatrix",
-        "Neptune"
-       ],
-       "field": "also: 1 James Watt / Ben Robinson, 4 Blazing Hot / Hollie Doyle"
       }
      ]
     }
@@ -3274,7 +3123,7 @@
       "cells": [
        "H Fomalhaut → H Gonggong RA 7.9961 8 whole (64.82)"
       ],
-      "field": "also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis"
+      "field": "also: 3 Gowanlad / Phil Dennis"
      },
      {
       "label": "45 = 360/8",
@@ -3309,7 +3158,7 @@
       "cells": [
        "J Vindemiatrix → J Orcus Dec 7.9931 8 whole (42.71)"
       ],
-      "field": "also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis"
+      "field": "also: 3 Gowanlad / Phil Dennis"
      },
      {
       "label": "9 = 360/40",
@@ -3340,14 +3189,6 @@
       "cells": [
        "S Ceres → H Ceres Dec 9.0154 9 whole (5.25)",
        "J Zubenelgenubi → J Pluto RA 9.0115 9 whole (17.98)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "38 whole",
-      "cells": [
-       "H Aldebaran → H Pluto Dec 37.9990 38 whole (89.90)",
-       "J Algol → J Orcus Dec 37.9849 38 whole (5.99)"
       ],
       "field": "only"
      },
@@ -3475,13 +3316,6 @@
      "body_lines": [],
      "on_this_chart": [
       {
-       "text": "H Algol → H Jupiter RA 149.9925 150 whole (39.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ]
-      },
-      {
        "text": "S Kaus Australis → H Jupiter RA 79.0105 79 whole (22.46)",
        "layer": "star rows",
        "source_lines": [
@@ -3512,13 +3346,6 @@
      ],
      "other_chart_same_body": [],
      "on_other_chart": [
-      {
-       "text": "S Algol → J Jupiter Dec 63.9848 64 whole (5.87)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ]
-      },
       {
        "text": "S Vindemiatrix → J Jupiter RA 87.0074 87 whole (39.77)",
        "layer": "star rows",
@@ -3583,13 +3410,6 @@
      "other_chart_same_body": [],
      "on_other_chart": [
       {
-       "text": "J Algol → J Uranus Dec 61.0151 61 whole (6.06)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ]
-      },
-      {
        "text": "J Meissa → J Uranus Dec 29.9966 30 whole (68.69)",
        "layer": "star rows",
        "source_lines": [
@@ -3633,15 +3453,7 @@
       "S Chiron → J Chiron RA 179.6210 10×φ^6 phi power (loose)",
       "S Chiron → J Chiron Dec 10.9855 11 whole (7.58)"
      ],
-     "on_other_chart": [
-      {
-       "text": "J Algol → J Chiron RA 140.9882 141 whole (16.85)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "H",
@@ -3669,13 +3481,6 @@
      ],
      "other_chart_same_body": [],
      "on_other_chart": [
-      {
-       "text": "J Algol → J Pallas RA 166.9823 167 whole (1.36)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ]
-      },
       {
        "text": "J Menkent → J Pallas Dec 57.0180 57 whole (0.95)",
        "layer": "star rows",
@@ -3902,15 +3707,7 @@
       "S Chiron → J Chiron Dec 10.9855 11 whole (7.58)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "J Algol → J Chiron RA 140.9882 141 whole (16.85)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [
       "S Chiron → H Chiron Dec 3.9710 4 whole (loose)"
      ],
@@ -4064,18 +3861,6 @@
        "field": "also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing, 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie"
       },
       {
-       "text": "H Algol → H Jupiter RA 149.9925 150 whole (39.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Jupiter"
-       ],
-       "field": "also: 2 Alablaq / George Downing"
-      },
-      {
        "text": "S Kaus Australis → H Jupiter RA 79.0105 79 whole (22.46)",
        "layer": "star rows",
        "source_lines": [
@@ -4122,18 +3907,6 @@
         "Jupiter"
        ],
        "field": "also: 4 Blazing Hot / Hollie Doyle"
-      },
-      {
-       "text": "S Algol → J Jupiter Dec 63.9848 64 whole (5.87)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Jupiter"
-       ],
-       "field": "also: 2 Alablaq / George Downing"
       },
       {
        "text": "S Vindemiatrix → J Jupiter RA 87.0074 87 whole (39.77)",
@@ -4237,18 +4010,6 @@
        "field": "also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing, 4 Blazing Hot / Hollie Doyle"
       },
       {
-       "text": "J Algol → J Uranus Dec 61.0151 61 whole (6.06)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Uranus"
-       ],
-       "field": "also: 4 Blazing Hot / Hollie Doyle"
-      },
-      {
        "text": "J Meissa → J Uranus Dec 29.9966 30 whole (68.69)",
        "layer": "star rows",
        "source_lines": [
@@ -4331,18 +4092,6 @@
         "Chiron"
        ],
        "field": "also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing, 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie"
-      },
-      {
-       "text": "J Algol → J Chiron RA 140.9882 141 whole (16.85)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Chiron"
-       ],
-       "field": "also: 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie"
       }
      ]
     },
@@ -4380,18 +4129,6 @@
        ],
        "key": [
         "Zubenelgenubi",
-        "Pallas"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Algol → J Pallas RA 166.9823 167 whole (1.36)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
         "Pallas"
        ],
        "field": "only"
@@ -4865,18 +4602,6 @@
        "field": "only"
       },
       {
-       "text": "J Algol → J Quaoar RA 165.9842 166 whole (4.32)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Quaoar"
-       ],
-       "field": "only"
-      },
-      {
        "text": "J Kaus Australis → J Quaoar RA 34.9946 35 whole (53.21)",
        "layer": "star rows",
        "source_lines": [
@@ -5039,18 +4764,6 @@
         "Haumea"
        ],
        "field": "also: 5 Tathmeen / Cam Hardie"
-      },
-      {
-       "text": "J Algol → J Haumea Dec 18.8840 18.8889 ninth (96.49)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Haumea"
-       ],
-       "field": "only"
       },
       {
        "text": "J Bellatrix → J Haumea RA 110.9146 10×φ^5 phi power (95.39)",
@@ -5470,18 +5183,6 @@
        "field": "also: 5 Tathmeen / Cam Hardie"
       },
       {
-       "text": "J Algol → J Sedna RA 1.4044 conj (0.41)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Sedna"
-       ],
-       "field": "also: 1 James Watt / Ben Robinson, 5 Tathmeen / Cam Hardie"
-      },
-      {
        "text": "J Zubeneschamali → J Sedna RA 176.3802 109×φ golden (30.51)",
        "layer": "star rows",
        "source_lines": [
@@ -5722,7 +5423,7 @@
       "cells": [
        "H Sirius → H Juno Dec 7.9990 8 whole (90.55)"
       ],
-      "field": "also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing"
+      "field": "also: 2 Alablaq / George Downing"
      },
      {
       "label": "30 = 360/12",
@@ -5824,14 +5525,6 @@
       "field": "only"
      },
      {
-      "label": "18.8889 ninth",
-      "cells": [
-       "H Kaus Australis → H Quaoar Dec 18.8850 18.8889 ninth (97.17)",
-       "J Algol → J Haumea Dec 18.8840 18.8889 ninth (96.49)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "24 whole",
       "cells": [
        "H Menkent → H Gonggong Dec 24.0184 24 whole (0.67)",
@@ -5847,14 +5540,6 @@
        "J Zubeneschamali → J Ketu RA 141.4764 141.4 sqrt2 (85.04)"
       ],
       "field": "also: 5 Tathmeen / Cam Hardie"
-     },
-     {
-      "label": "167 whole",
-      "cells": [
-       "H Zubenelgenubi → H Sedna RA 167.0155 167 whole (4.99)",
-       "J Algol → J Pallas RA 166.9823 167 whole (1.36)"
-      ],
-      "field": "only"
      },
      {
       "label": "7 whole",
@@ -5990,13 +5675,6 @@
      "other_chart_same_body": [],
      "on_other_chart": [
       {
-       "text": "J Algol → J Uranus RA 104.0150 104 whole (6.31)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ]
-      },
-      {
        "text": "J Kaus Australis → J Uranus RA 26.9921 27 whole (36.57)",
        "layer": "star rows",
        "source_lines": [
@@ -6078,13 +5756,6 @@
      ],
      "body_lines": [],
      "on_this_chart": [
-      {
-       "text": "H Algol → H Juno RA 132.9950 133 whole (55.99)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ]
-      },
       {
        "text": "H Kaus Australis → H Juno RA 1.9924 2 whole (38.38)",
        "layer": "star rows",
@@ -6314,13 +5985,6 @@
      "other_chart_same_body": [],
      "on_other_chart": [
       {
-       "text": "H Algol → H Chiron RA 55.0152 34×φ golden (87.60)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ]
-      },
-      {
        "text": "H Kaus Australis → H Chiron RA 75.9873 76 whole (13.49)",
        "layer": "star rows",
        "source_lines": [
@@ -6462,24 +6126,10 @@
        "text": "S Jupiter → J Makemake Dec 40.4560 25×φ golden (70.50)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "J Algol → J Makemake RA 129.4297 80×φ golden (35.86)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ]
       }
      ],
      "other_chart_same_body": [],
      "on_other_chart": [
-      {
-       "text": "H Algol → H Makemake Dec 15.9863 16 whole (9.87)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ]
-      },
       {
        "text": "H Mirach → H Makemake RA 177.7329 177.778 ninth (96.48)",
        "layer": "star rows",
@@ -6674,18 +6324,6 @@
        "field": "also: 1 James Watt / Ben Robinson"
       },
       {
-       "text": "J Algol → J Uranus RA 104.0150 104 whole (6.31)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Uranus"
-       ],
-       "field": "also: 3 Gowanlad / Phil Dennis"
-      },
-      {
        "text": "J Kaus Australis → J Uranus RA 26.9921 27 whole (36.57)",
        "layer": "star rows",
        "source_lines": [
@@ -6811,18 +6449,6 @@
         "Juno"
        ],
        "field": "only"
-      },
-      {
-       "text": "H Algol → H Juno RA 132.9950 133 whole (55.99)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Juno"
-       ],
-       "field": "also: 1 James Watt / Ben Robinson"
       },
       {
        "text": "H Kaus Australis → H Juno RA 1.9924 2 whole (38.38)",
@@ -7131,155 +6757,6 @@
         "Venus"
        ],
        "field": "also: 3 Gowanlad / Phil Dennis"
-      }
-     ]
-    },
-    {
-     "body": "Chiron",
-     "cells": [
-      {
-       "text": "H Algol → H Chiron RA 55.0152 34×φ golden (87.60)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Chiron"
-       ],
-       "field": "also: 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie"
-      },
-      {
-       "text": "H Kaus Australis → H Chiron RA 75.9873 76 whole (13.49)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)"
-       ],
-       "key": [
-        "Kaus Australis",
-        "Chiron"
-       ],
-       "field": "also: 5 Tathmeen / Cam Hardie"
-      },
-      {
-       "text": "S Chiron → J Chiron Dec 14.5797 9×φ golden (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Chiron"
-       ],
-       "field": "also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie"
-      }
-     ]
-    },
-    {
-     "body": "Makemake",
-     "cells": [
-      {
-       "text": "H Algol → H Makemake Dec 15.9863 16 whole (9.87)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Makemake"
-       ],
-       "field": "also: 1 James Watt / Ben Robinson"
-      },
-      {
-       "text": "H Mirach → H Makemake RA 177.7329 177.778 ninth (96.48)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Mirach Dec 45.0012 45 whole (88.22)"
-       ],
-       "key": [
-        "Mirach",
-        "Makemake"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "H Vindemiatrix → H Makemake RA 0.3836 conj (55.40)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)"
-       ],
-       "key": [
-        "Vindemiatrix",
-        "Makemake"
-       ],
-       "field": "also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis"
-      },
-      {
-       "text": "H Vindemiatrix → H Makemake Dec 14.0148 14 whole (6.78)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)"
-       ],
-       "key": [
-        "Vindemiatrix",
-        "Makemake"
-       ],
-       "field": "also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis"
-      },
-      {
-       "text": "H Zubenelgenubi → H Makemake Dec 41.0139 41 whole (9.36)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Zubenelgenubi RA 114.8818 71×φ golden (91.73)",
-        "S Moon → Zubenelgenubi Dec 9.0059 9 whole (49.44)"
-       ],
-       "key": [
-        "Zubenelgenubi",
-        "Makemake"
-       ],
-       "field": "also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis"
-      },
-      {
-       "text": "S Makemake → J Makemake RA 22.6240 14×φ golden (loose)",
-       "layer": "same body",
-       "source_lines": [
-        "S Sun → Makemake Dec 32.0040 32 whole (64.00)"
-       ],
-       "key": [
-        "same body",
-        "Makemake"
-       ],
-       "field": "also: 1 James Watt / Ben Robinson"
-      },
-      {
-       "text": "J Jupiter → J Makemake Dec 55.9959 56 whole (63.49)",
-       "layer": "T2",
-       "source_lines": [],
-       "key": [
-        "natal Jupiter",
-        "Makemake"
-       ],
-       "field": "also: 1 James Watt / Ben Robinson"
-      },
-      {
-       "text": "S Jupiter → J Makemake Dec 40.4560 25×φ golden (70.50)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Jupiter",
-        "Makemake"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Algol → J Makemake RA 129.4297 80×φ golden (35.86)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Makemake"
-       ],
-       "field": "also: 1 James Watt / Ben Robinson"
       }
      ]
     },
@@ -7756,6 +7233,119 @@
      ]
     },
     {
+     "body": "Chiron",
+     "cells": [
+      {
+       "text": "H Kaus Australis → H Chiron RA 75.9873 76 whole (13.49)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)"
+       ],
+       "key": [
+        "Kaus Australis",
+        "Chiron"
+       ],
+       "field": "also: 5 Tathmeen / Cam Hardie"
+      },
+      {
+       "text": "S Chiron → J Chiron Dec 14.5797 9×φ golden (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Chiron"
+       ],
+       "field": "also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie"
+      }
+     ]
+    },
+    {
+     "body": "Makemake",
+     "cells": [
+      {
+       "text": "H Mirach → H Makemake RA 177.7329 177.778 ninth (96.48)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Mirach Dec 45.0012 45 whole (88.22)"
+       ],
+       "key": [
+        "Mirach",
+        "Makemake"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "H Vindemiatrix → H Makemake RA 0.3836 conj (55.40)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)"
+       ],
+       "key": [
+        "Vindemiatrix",
+        "Makemake"
+       ],
+       "field": "also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis"
+      },
+      {
+       "text": "H Vindemiatrix → H Makemake Dec 14.0148 14 whole (6.78)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)"
+       ],
+       "key": [
+        "Vindemiatrix",
+        "Makemake"
+       ],
+       "field": "also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis"
+      },
+      {
+       "text": "H Zubenelgenubi → H Makemake Dec 41.0139 41 whole (9.36)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Zubenelgenubi RA 114.8818 71×φ golden (91.73)",
+        "S Moon → Zubenelgenubi Dec 9.0059 9 whole (49.44)"
+       ],
+       "key": [
+        "Zubenelgenubi",
+        "Makemake"
+       ],
+       "field": "also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis"
+      },
+      {
+       "text": "S Makemake → J Makemake RA 22.6240 14×φ golden (loose)",
+       "layer": "same body",
+       "source_lines": [
+        "S Sun → Makemake Dec 32.0040 32 whole (64.00)"
+       ],
+       "key": [
+        "same body",
+        "Makemake"
+       ],
+       "field": "also: 1 James Watt / Ben Robinson"
+      },
+      {
+       "text": "J Jupiter → J Makemake Dec 55.9959 56 whole (63.49)",
+       "layer": "T2",
+       "source_lines": [],
+       "key": [
+        "natal Jupiter",
+        "Makemake"
+       ],
+       "field": "also: 1 James Watt / Ben Robinson"
+      },
+      {
+       "text": "S Jupiter → J Makemake Dec 40.4560 25×φ golden (70.50)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Jupiter",
+        "Makemake"
+       ],
+       "field": "only"
+      }
+     ]
+    },
+    {
      "body": "Transpluto",
      "cells": [
       {
@@ -7886,18 +7476,6 @@
         "Sun"
        ],
        "field": "also: 1 James Watt / Ben Robinson"
-      },
-      {
-       "text": "J Algol → J Sun RA 150.0095 150 whole (27.55)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Sun"
-       ],
-       "field": "also: 1 James Watt / Ben Robinson, 5 Tathmeen / Cam Hardie"
       },
       {
        "text": "J Kaus Australis → J Sun RA 78.9834 79 whole (2.93)",
@@ -8135,14 +7713,6 @@
       "field": "only"
      },
      {
-      "label": "16 whole",
-      "cells": [
-       "H Algol → H Makemake Dec 15.9863 16 whole (9.87)",
-       "J Kaus Australis → J Gonggong Dec 15.9802 16 whole (0.01)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "2 whole",
       "cells": [
        "H Bellatrix → H Ceres Dec 1.9931 2 whole (42.75)",
@@ -8228,14 +7798,6 @@
       "cells": [
        "J Jupiter → J star Kaus Australis Dec 11.0902 φ^5 phi power (99.79)",
        "J Kaus Australis → J Jupiter Dec 11.0902 φ^5 phi power (99.79)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "80×φ golden",
-      "cells": [
-       "J Algol → J Makemake RA 129.4297 80×φ golden (35.86)",
-       "J Kaus Australis → J Sedna RA 129.4652 80×φ golden (9.28)"
       ],
       "field": "only"
      },
@@ -8528,13 +8090,6 @@
      ],
      "on_other_chart": [
       {
-       "text": "J Algol → J Sedna Dec 36.0140 36 whole (8.94)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ]
-      },
-      {
        "text": "J Meissa → J Sedna Dec 4.9929 5 whole (41.77)",
        "layer": "star rows",
        "source_lines": [
@@ -8677,13 +8232,6 @@
      "body_lines": [],
      "on_this_chart": [
       {
-       "text": "J Algol → J Chiron RA 140.0016 140 whole (84.79)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ]
-      },
-      {
        "text": "J Kaus Australis → J Chiron RA 89.0110 89 whole (20.47)",
        "layer": "star rows",
        "source_lines": [
@@ -8783,13 +8331,6 @@
      ],
      "body_lines": [],
      "on_this_chart": [
-      {
-       "text": "J Algol → J Sedna Dec 36.0140 36 whole (8.94)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ]
-      },
       {
        "text": "J Meissa → J Sedna Dec 4.9929 5 whole (41.77)",
        "layer": "star rows",
@@ -9319,18 +8860,6 @@
        "field": "also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing"
       },
       {
-       "text": "J Algol → J Sedna Dec 36.0140 36 whole (8.94)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Sedna"
-       ],
-       "field": "also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis"
-      },
-      {
        "text": "J Meissa → J Sedna Dec 4.9929 5 whole (41.77)",
        "layer": "star rows",
        "source_lines": [
@@ -9491,18 +9020,6 @@
         "Chiron"
        ],
        "field": "also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle"
-      },
-      {
-       "text": "J Algol → J Chiron RA 140.0016 140 whole (84.79)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Chiron"
-       ],
-       "field": "also: 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle"
       },
       {
        "text": "J Kaus Australis → J Chiron RA 89.0110 89 whole (20.47)",
@@ -9887,18 +9404,6 @@
        "field": "only"
       },
       {
-       "text": "J Algol → J Sun RA 0.3045 conj (63.52)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
-       ],
-       "key": [
-        "Algol",
-        "Sun"
-       ],
-       "field": "also: 1 James Watt / Ben Robinson, 4 Blazing Hot / Hollie Doyle"
-      },
-      {
        "text": "J Zubenelgenubi → J Sun RA 175.9947 176 whole (54.01)",
        "layer": "star rows",
        "source_lines": [
@@ -10038,20 +9543,25 @@
      ]
     },
     {
-     "body": "Gonggong",
+     "body": "Uranus",
      "cells": [
       {
-       "text": "J Algol → J Gonggong Dec 58.9971 59 whole (73.37)",
+       "text": "J Bellatrix → J Uranus Dec 26.0164 26 whole (3.27)",
        "layer": "star rows",
        "source_lines": [
-        "S Moon → Algol Dec 66.0062 66 whole (47.70)"
+        "S Moon → Bellatrix RA 174.0057 174 whole (51.29)"
        ],
        "key": [
-        "Algol",
-        "Gonggong"
+        "Bellatrix",
+        "Uranus"
        ],
        "field": "only"
-      },
+      }
+     ]
+    },
+    {
+     "body": "Gonggong",
+     "cells": [
       {
        "text": "J Menkent → J Gonggong RA 120.0198 120 whole (0.01)",
        "layer": "star rows",
@@ -10086,23 +9596,6 @@
        "key": [
         "Zubenelgenubi",
         "Gonggong"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Uranus",
-     "cells": [
-      {
-       "text": "J Bellatrix → J Uranus Dec 26.0164 26 whole (3.27)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Bellatrix RA 174.0057 174 whole (51.29)"
-       ],
-       "key": [
-        "Bellatrix",
-        "Uranus"
        ],
        "field": "only"
       }
@@ -10148,13 +9641,6 @@
       "label": "36 whole",
       "cells": [
        "J Aldebaran → J Mars RA 36.0038 36 whole (65.83) = S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)"
-      ],
-      "field": "also: 1 James Watt / Ben Robinson"
-     },
-     {
-      "label": "36 whole",
-      "cells": [
-       "J Algol → J Sedna Dec 36.0140 36 whole (8.94) = S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)"
       ],
       "field": "also: 1 James Watt / Ben Robinson"
      },
@@ -10255,13 +9741,6 @@
       "label": "36 = 360/10",
       "cells": [
        "J Aldebaran → J Mars RA 36.0038 36 whole (65.83)"
-      ],
-      "field": "also: 1 James Watt / Ben Robinson"
-     },
-     {
-      "label": "36 = 360/10",
-      "cells": [
-       "J Algol → J Sedna Dec 36.0140 36 whole (8.94)"
       ],
       "field": "also: 1 James Watt / Ben Robinson"
      },
@@ -10368,14 +9847,6 @@
       "field": "only"
      },
      {
-      "label": "59 whole",
-      "cells": [
-       "H Menkent → H Transpluto RA 58.9860 59 whole (9.10)",
-       "J Algol → J Gonggong Dec 58.9971 59 whole (73.37)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "26 whole",
       "cells": [
        "H Sirius → H Juno RA 25.9917 26 whole (34.42)",
@@ -10427,14 +9898,6 @@
       "field": "also: 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle"
      },
      {
-      "label": "36 whole",
-      "cells": [
-       "J Aldebaran → J Mars RA 36.0038 36 whole (65.83)",
-       "J Algol → J Sedna Dec 36.0140 36 whole (8.94)"
-      ],
-      "field": "also: 1 James Watt / Ben Robinson"
-     },
-     {
       "label": "29 whole",
       "cells": [
        "J Kaus Australis → J Chiron Dec 28.9913 29 whole (31.66)",
@@ -10461,7 +9924,6 @@
    "S Sun → Zubenelgenubi RA 114.8818 71×φ golden (91.73)",
    "S Sun → Zubeneschamali Dec 0.0034 conj (97.75)",
    "S Sun → Kaus Australis Dec 25.0037 25 whole (66.21)",
-   "S Moon → Algol Dec 66.0062 66 whole (47.70)",
    "S Moon → Bellatrix RA 174.0057 174 whole (51.29)",
    "S Moon → Meissa RA 171.5037 106×φ golden (56.94)",
    "S Moon → Sirius RA 154.0031 154 whole (71.80)",

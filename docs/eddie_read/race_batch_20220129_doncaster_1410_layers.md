@@ -8,21 +8,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 
 ## Sky (noted lines)
 - S Jupiter → Moon RA 66.0010 66 whole (90.00)
-- S Jupiter → Phact Dec 23.9930 24 whole (42.18)
 - S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
 - S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
 - S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
 - S Sun → Neptune RA 40.4536 25×φ golden (83.58)
 - S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)
 - S Sun → Difda Dec 0.0705 conj (58.51)
-- S Sun → Menkar Dec 22.0070 22 whole (42.05)
 - S Sun → Murzim Dec 0.0394 conj (75.49)
 - S Sun → Wezen RA 155.3330 96×φ golden (89.39)
 - S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-- S Sun → Deneb RA 1.4205 conj (0.28)
 - S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
 - S Sun → Scheat Dec 46.0028 46 whole (73.65)
-- S Moon → Mars RA 1.2062 conj (3.84)
 - S Moon → Jupiter RA 66.0010 66 whole (90.00)
 - Hubs: none
 
@@ -50,8 +46,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Sun** (same body: S Sun → H Sun RA 43.9710 44 whole (loose))
 - **H Mercury** (same body: S Mercury → H Mercury RA 39.9743 40 whole (loose))
   - top rows: S Jupiter → H Mercury RA 0.9626 conj (12.83)
-  - star rows: H Deneb → H Mercury Dec 57.0169 57 whole (2.35)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
 - **H Saturn** (same body: S Saturn → H Saturn RA 74.4529 46×φ golden (loose))
   - other chart, same body: S Saturn → J Saturn Dec 11.3474 7×φ golden (loose)
   - other chart, star rows: J Sadalsuud → J Saturn Dec 0.2534 conj (2.42)
@@ -121,22 +115,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Rahu** (same body: S Rahu → J Rahu Dec 33.3151 33.3333 ninth (loose))
   - star rows: J Adhara → J Rahu Dec 15.5543 15.5556 ninth (98.84)
     - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
-  - other chart, star rows: H Menkar → H Rahu Dec 7.9845 8 whole (5.12)
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
 - **J Sedna** (same body: S Sedna → J Sedna RA 14.0914 14.14 sqrt2 (loose))
   - star rows: J Difda → J Sedna RA 33.3326 33.3333 ninth (99.09)
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: J Menkar → J Sedna RA 1.3408 conj (1.13)
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
-  - other chart, star rows: H Deneb → H Sedna RA 104.0194 104 whole (0.10)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 12.2546 12.2222 ninth (loose))
   - star rows: J Alphard → J Makemake RA 32.0058 32 whole (50.44)
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
   - star rows: J Difda → J Makemake RA 163.0135 163 whole (10.52)
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: J Phact → J Makemake RA 88.9959 55×φ golden (76.53)
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: J Sadalsuud → J Makemake RA 148.9819 149 whole (0.87)
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - star rows: J Sualocin → J Makemake RA 136.0027 136 whole (75.06)
@@ -146,8 +132,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Difda → H Makemake RA 177.7630 177.778 ninth (98.84)
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
 - **J Quaoar** (same body: S Quaoar → J Quaoar Dec 1.2205 1.22222 ninth (loose))
-  - star rows: J Deneb → J Quaoar RA 69.0047 69 whole (58.41)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
 - **J Gonggong** (same body: S Gonggong → J Gonggong Dec 6.9851 7 whole (6.55))
   - star rows: J Adhara → J Gonggong RA 133.3614 133.333 ninth (96.63)
     - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
@@ -157,10 +141,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
   - other chart, star rows: H Adhara → H Gonggong Dec 16.0085 16 whole (32.98)
     - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
-  - other chart, star rows: H Deneb → H Gonggong Dec 58.2441 36×φ golden (70.87)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - other chart, star rows: H Menkar → H Gonggong RA 69.9919 70 whole (35.17)
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - other chart, star rows: H Murzim → H Gonggong Dec 4.9917 5 whole (34.47)
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
 - **J Ketu** (same body: S Ketu → J Ketu Dec 33.3151 33.3333 ninth (loose))
@@ -168,8 +148,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - other chart, star rows: H Castor → H Ketu Dec 27.9911 28 whole (30.54)
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - other chart, star rows: H Menkar → H Ketu Dec 0.1904 conj (13.36)
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - other chart, star rows: H Sualocin → H Ketu Dec 12.0119 12 whole (16.60)
     - source line: S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
 ### L3 matches
@@ -189,12 +167,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **4. circle divisions**
   - 40 = 360/9 — only
     - S Mercury → H Mercury RA 39.9743 40 whole (loose)
-  - 1 = 360/360 — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - 1 = 360/360 — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
     - S Transpluto → H Transpluto Dec 0.9889 1 whole (20.01)
   - 40 = 360/9 — only
     - H Adhara → H Venus Dec 40.0171 40 whole (2.17)
-  - 8 = 360/45 — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
-    - H Menkar → H Rahu Dec 7.9845 8 whole (5.12)
   - 5 = 360/72 — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
     - H Murzim → H Gonggong Dec 4.9917 5 whole (34.47)
   - 5 = 360/72 — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
@@ -232,12 +208,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Castor → H Juno Dec 20.9950 21 whole (56.61)
     - J Castor → J Ceres RA 21.0054 21 whole (53.64)
     - J Wezen → J Pallas Dec 20.9899 21 whole (24.33)
-  - 28 whole — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
-    - H Castor → H Ketu Dec 27.9911 28 whole (30.54)
-    - H Menkar → H Ceres Dec 27.9845 28 whole (5.16)
-  - 104 whole — only
-    - H Deneb → H Sedna RA 104.0194 104 whole (0.10)
-    - H Difda → H Pallas RA 104.0039 104 whole (65.06)
   - 116 whole — only
     - H Murzim → H Neptune RA 115.9834 116 whole (2.92)
     - J Wezen → J Saturn RA 116.0190 116 whole (0.27)
@@ -246,9 +216,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Sualocin → H Juno Dec 5.0158 5 whole (4.32)
     - S Pallas → J Pallas Dec 4.9777 5 whole (loose)
     - J Sadalsuud → J Chiron Dec 5.0034 5 whole (68.96)
-  - 35×φ golden — only
-    - H Murzim → H Transpluto RA 56.6312 35×φ golden (99.83)
-    - J Phact → J Haumea Dec 56.6341 35×φ golden (82.93)
   - 43 whole — only
     - H Sualocin → H Pallas RA 43.0166 43 whole (2.93)
     - J Difda → J Vesta Dec 43.0198 43 whole (0.01)
@@ -263,9 +230,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 7 whole — also: 2 Western Victory / Tom Bellamy
     - S Gonggong → J Gonggong Dec 6.9851 7 whole (6.55)
     - J Sadalsuud → J Orcus Dec 7.0111 7 whole (19.95)
-  - 16×φ golden — only
-    - J Jupiter → J star Menkar Dec 25.8884 16×φ golden (99.04)
-    - J Menkar → J Jupiter Dec 25.8884 16×φ golden (99.04)
   - 147 whole — only
     - J Jupiter → J star Wezen RA 146.9980 147 whole (80.59)
     - J Wezen → J Jupiter RA 146.9980 147 whole (80.59)
@@ -275,8 +239,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Mercury**
   - same body: S Mercury → H Mercury RA 39.9743 40 whole (loose) — also: 5 Miss Heritage / Sean Quinlan
   - top rows: S Jupiter → H Mercury RA 0.9626 conj (12.83) — also: 3 Anna Bunina / James Bowen
-  - star rows: H Deneb → H Mercury Dec 57.0169 57 whole (2.35) — also: 3 Anna Bunina / James Bowen
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
 - **Saturn**
   - same body: S Saturn → H Saturn RA 74.4529 46×φ golden (loose) — also: 3 Anna Bunina / James Bowen
   - same body: S Saturn → J Saturn Dec 11.3474 7×φ golden (loose) — also: 3 Anna Bunina / James Bowen
@@ -325,8 +287,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
   - star rows: J Alphard → J Neptune RA 155.5117 155.556 ninth (95.85) — also: 3 Anna Bunina / James Bowen
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
-  - star rows: J Deneb → J Neptune RA 12.9446 8×φ golden (97.84) — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
 - **Juno**
   - top rows: S Sun → H Juno RA 171.5032 106×φ golden (54.67) — only
   - star rows: H Castor → H Juno Dec 20.9950 21 whole (56.61) — also: 5 Miss Heritage / Sean Quinlan
@@ -347,11 +307,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
 - **Jupiter**
   - top rows: S Sedna → H Jupiter RA 77.6624 48×φ golden (81.24) — only
-  - T2: J Jupiter → J star Menkar Dec 25.8884 16×φ golden (99.04) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
   - T2: J Jupiter → J star Wezen RA 146.9980 147 whole (80.59) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
   - top rows: S Vesta → J Jupiter Dec 0.2729 conj (0.82) — only
-  - star rows: J Menkar → J Jupiter Dec 25.8884 16×φ golden (99.04) — also: 3 Anna Bunina / James Bowen
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - star rows: J Wezen → J Jupiter RA 146.9980 147 whole (80.59) — also: 3 Anna Bunina / James Bowen
     - source line: S Sun → Wezen RA 155.3330 96×φ golden (89.39)
 - **Venus**
@@ -364,10 +321,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Gonggong**
   - star rows: H Adhara → H Gonggong Dec 16.0085 16 whole (32.98) — also: 2 Western Victory / Tom Bellamy
     - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
-  - star rows: H Deneb → H Gonggong Dec 58.2441 36×φ golden (70.87) — also: 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - star rows: H Menkar → H Gonggong RA 69.9919 70 whole (35.17) — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - star rows: H Murzim → H Gonggong Dec 4.9917 5 whole (34.47) — also: 2 Western Victory / Tom Bellamy
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
   - same body: S Gonggong → J Gonggong Dec 6.9851 7 whole (6.55) — only
@@ -382,10 +335,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
   - star rows: H Difda → H Ceres RA 73.9834 74 whole (2.96) — also: 4 Dazzling Glory / Harry Skelton
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: H Menkar → H Ceres Dec 27.9845 28 whole (5.16) — only
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
-  - star rows: H Phact → H Ceres RA 148.0026 148 whole (75.51) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: H Sualocin → H Ceres RA 12.9961 13 whole (65.19) — only
     - source line: S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
   - star rows: J Adhara → J Ceres RA 29.9996 30 whole (95.86) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
@@ -396,8 +345,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
   - star rows: J Murzim → J Ceres RA 38.9819 39 whole (0.86) — only
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
-  - star rows: J Phact → J Ceres Dec 63.9853 64 whole (7.11) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: J Sualocin → J Ceres Dec 13.9983 14 whole (83.40) — only
     - source line: S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
 - **Vesta**
@@ -405,14 +352,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
   - star rows: H Difda → H Vesta RA 43.9823 44 whole (1.28) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: H Phact → H Vesta RA 118.0014 118 whole (86.08) — also: 2 Western Victory / Tom Bellamy
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: H Sualocin → H Vesta RA 17.0050 17 whole (56.03) — also: 2 Western Victory / Tom Bellamy
     - source line: S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
   - star rows: J Adhara → J Vesta Dec 54.0079 54 whole (36.47) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
     - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
-  - star rows: J Deneb → J Vesta RA 146.0055 146 whole (52.43) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
   - star rows: J Difda → J Vesta Dec 43.0198 43 whole (0.01) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
   - star rows: J Murzim → J Vesta RA 0.6880 conj (29.31) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
@@ -422,21 +365,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Ketu**
   - star rows: H Castor → H Ketu Dec 27.9911 28 whole (30.54) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - star rows: H Menkar → H Ketu Dec 0.1904 conj (13.36) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - star rows: H Sualocin → H Ketu Dec 12.0119 12 whole (16.60) — only
     - source line: S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
   - same body: S Ketu → J Ketu Dec 33.3151 33.3333 ninth (loose) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
   - star rows: J Sadalsuud → J Ketu Dec 18.9949 19 whole (55.69) — also: 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
-- **Sedna**
-  - star rows: H Deneb → H Sedna RA 104.0194 104 whole (0.10) — also: 4 Dazzling Glory / Harry Skelton
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - same body: S Sedna → J Sedna RA 14.0914 14.14 sqrt2 (loose) — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
-  - star rows: J Difda → J Sedna RA 33.3326 33.3333 ninth (99.09) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: J Menkar → J Sedna RA 1.3408 conj (1.13) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
 - **Makemake**
   - star rows: H Difda → H Makemake RA 177.7630 177.778 ninth (98.84) — also: 2 Western Victory / Tom Bellamy
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
@@ -445,44 +378,36 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
   - star rows: J Difda → J Makemake RA 163.0135 163 whole (10.52) — also: 2 Western Victory / Tom Bellamy
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: J Phact → J Makemake RA 88.9959 55×φ golden (76.53) — also: 5 Miss Heritage / Sean Quinlan
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: J Sadalsuud → J Makemake RA 148.9819 149 whole (0.87) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - star rows: J Sualocin → J Makemake RA 136.0027 136 whole (75.06) — also: 5 Miss Heritage / Sean Quinlan
     - source line: S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
   - star rows: J Wezen → J Makemake Dec 61.0101 61 whole (24.35) — only
     - source line: S Sun → Wezen RA 155.3330 96×φ golden (89.39)
-- **Rahu**
-  - star rows: H Menkar → H Rahu Dec 7.9845 8 whole (5.12) — only
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
-  - same body: S Rahu → J Rahu Dec 33.3151 33.3333 ninth (loose) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
-  - star rows: J Adhara → J Rahu Dec 15.5543 15.5556 ninth (98.84) — also: 3 Anna Bunina / James Bowen
-    - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
-- **Haumea**
-  - star rows: H Phact → H Haumea RA 126.0181 126 whole (0.88) — only
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
-  - star rows: H Phact → H Haumea Dec 51.7711 32×φ golden (66.25) — only
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
-  - star rows: H Scheat → H Haumea RA 135.0081 135 whole (35.12) — only
-    - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
-  - star rows: J Phact → J Haumea Dec 56.6341 35×φ golden (82.93) — only
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
 - **Chiron**
   - star rows: H Scheat → H Chiron RA 0.9057 conj (15.70) — also: 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
   - same body: S Chiron → J Chiron Dec 5.9970 6 whole (72.66) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
   - star rows: J Sadalsuud → J Chiron Dec 5.0034 5 whole (68.96) — only
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
+- **Haumea**
+  - star rows: H Scheat → H Haumea RA 135.0081 135 whole (35.12) — only
+    - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
 - **Pluto**
   - star rows: H Wezen → H Pluto RA 179.0145 179 whole (7.51) — only
     - source line: S Sun → Wezen RA 155.3330 96×φ golden (89.39)
   - same body: S Pluto → J Pluto Dec 15.9759 16 whole (loose) — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
   - top rows: S Sun → J Pluto Dec 11.3202 7×φ golden (65.99) — only
+- **Rahu**
+  - same body: S Rahu → J Rahu Dec 33.3151 33.3333 ninth (loose) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - star rows: J Adhara → J Rahu Dec 15.5543 15.5556 ninth (98.84) — also: 3 Anna Bunina / James Bowen
+    - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
+- **Sedna**
+  - same body: S Sedna → J Sedna RA 14.0914 14.14 sqrt2 (loose) — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - star rows: J Difda → J Sedna RA 33.3326 33.3333 ninth (99.09) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+    - source line: S Sun → Difda Dec 0.0705 conj (58.51)
 - **Quaoar**
   - same body: S Quaoar → J Quaoar Dec 1.2205 1.22222 ninth (loose) — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
-  - star rows: J Deneb → J Quaoar RA 69.0047 69 whole (58.41) — also: 4 Dazzling Glory / Harry Skelton
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
 
 ## 2 Western Victory / Tom Bellamy
 ### L1 same bodies
@@ -506,22 +431,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Sun** (same body: S Sun → H Sun RA 44.4423 44.4444 ninth (97.73))
   - star rows: H Alphard → H Sun Dec 7.0188 7 whole (0.34)
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
-  - other chart, star rows: J Deneb → J Sun RA 130.9833 131 whole (2.77)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - other chart, star rows: J Deneb → J Sun Dec 45.0175 45 whole (1.54)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
 - **H Venus** (same body: S Venus → H Venus RA 72.8110 45×φ golden (96.59))
   - star rows: H Scheat → H Venus RA 8.0136 8 whole (10.13)
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
-  - other chart, star rows: J Phact → J Venus Dec 13.9975 14 whole (76.29)
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - other chart, star rows: J Sualocin → J Venus Dec 35.9872 36 whole (12.90)
     - source line: S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
 - **H Uranus** (same body: S Uranus → H Uranus Dec 12.2244 12.2222 ninth (97.02))
-  - other chart, star rows: J Menkar → J Uranus RA 111.1878 111.111 ninth (87.45)
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
-  - other chart, star rows: J Phact → J Uranus Dec 11.9949 12 whole (55.69)
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - other chart, star rows: J Scheat → J Uranus Dec 50.1596 31×φ golden (96.74)
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
   - other chart, star rows: J Sualocin → J Uranus Dec 37.9897 38 whole (23.65)
@@ -554,8 +469,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
   - other chart, star rows: J Murzim → J Juno RA 122.2366 122.222 ninth (98.01)
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
-  - other chart, star rows: J Phact → J Juno RA 132.9982 133 whole (82.56)
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - other chart, star rows: J Sadalsuud → J Juno RA 104.9828 105 whole (1.93)
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - other chart, star rows: J Sadalsuud → J Juno Dec 0.1827 conj (15.29)
@@ -568,12 +481,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → H Vesta RA 163.4156 101×φ golden (67.22)
   - star rows: H Alphard → H Vesta RA 66.0084 66 whole (33.41)
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
-  - star rows: H Deneb → H Vesta Dec 23.0081 23 whole (35.39)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
   - star rows: H Difda → H Vesta RA 64.9997 65 whole (97.47)
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: H Phact → H Vesta RA 9.0195 9 whole (0.06)
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: H Sadalsuud → H Vesta RA 113.0074 113 whole (39.47)
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - star rows: H Sualocin → H Vesta RA 125.9869 126 whole (11.83)
@@ -592,10 +501,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Jupiter** (same body: S Jupiter → J Jupiter Dec 4.9722 5 whole (loose))
   - sky line to Jupiter: S Moon → Jupiter RA 66.0010 66 whole (90.00)
   - top rows: S Moon → J Jupiter Dec 11.9992 12 whole (92.52)
-  - star rows: S Deneb → J Jupiter RA 89.0083 89 whole (34.34)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - star rows: J Phact → J Jupiter Dec 19.0126 19 whole (13.62)
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: S Scheat → J Jupiter RA 124.5982 77×φ golden (49.60)
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
   - other chart, top rows: S Neptune → H Jupiter Dec 25.9975 26 whole (76.73)
@@ -633,8 +538,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
   - star rows: J Murzim → J Juno RA 122.2366 122.222 ninth (98.01)
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
-  - star rows: J Phact → J Juno RA 132.9982 133 whole (82.56)
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: J Sadalsuud → J Juno RA 104.9828 105 whole (1.93)
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - star rows: J Sadalsuud → J Juno Dec 0.1827 conj (15.29)
@@ -648,13 +551,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Murzim → H Juno Dec 8.0187 8 whole (0.39)
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
 - **J Rahu** (same body: S Rahu → J Rahu RA 166.5468 166.667 ninth (loose))
-  - other chart, star rows: H Deneb → H Rahu RA 84.9977 85 whole (78.46)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
 - **J Haumea** (same body: S Haumea → J Haumea RA 26.1747 10×φ^2 phi power (loose))
-  - star rows: J Deneb → J Haumea RA 118.9884 119 whole (17.78)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - other chart, star rows: H Deneb → H Haumea Dec 27.0189 27 whole (0.30)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
   - other chart, star rows: H Wezen → H Haumea RA 101.9931 102 whole (42.63)
     - source line: S Sun → Wezen RA 155.3330 96×φ golden (89.39)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 11.1299 11.1111 ninth (loose))
@@ -662,13 +559,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - other chart, star rows: H Difda → H Makemake RA 179.4716 10×φ^6 phi power (93.66)
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - other chart, star rows: H Menkar → H Makemake Dec 23.0183 23 whole (0.76)
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
 - **J Ketu** (same body: S Ketu → J Ketu RA 166.5468 166.667 ninth (loose))
-  - other chart, star rows: H Deneb → H Ketu RA 95.0023 95 whole (78.46)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - other chart, star rows: H Menkar → H Ketu RA 0.2116 conj (73.78)
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
 ### L3 matches
 - **1. same body on both charts**
   - Neptune — also: 3 Anna Bunina / James Bowen
@@ -679,28 +570,20 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Juno → J Juno RA 80.8870 50×φ golden (loose)
 - **2. one body in both planes**: none
 - **3. runner number = sky number**
-  - 24 whole — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
-    - S Moon → H Chiron Dec 24.0001 24 whole (99.17) = S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - 101×φ golden — also: 3 Anna Bunina / James Bowen
     - S Moon → H Vesta RA 163.4156 101×φ golden (67.22) = S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
-  - 26 whole — also: 5 Miss Heritage / Sean Quinlan
+  - 26 whole — only
     - S Neptune → H Jupiter Dec 25.9975 26 whole (76.73) = S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
   - 66 whole — only
     - H Alphard → H Vesta RA 66.0084 66 whole (33.41) = S Moon → Jupiter RA 66.0010 66 whole (90.00)
-  - 100×φ^1 phi power — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
-    - H Deneb → H Orcus RA 161.8571 100×φ^1 phi power (87.17) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
   - 11.1111 ninth — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
     - S Makemake → J Makemake Dec 11.1299 11.1111 ninth (loose) = S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
-  - 100×φ^1 phi power — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - 100×φ^1 phi power — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
     - J Jupiter → J Eris RA 161.8328 100×φ^1 phi power (92.86) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - 22 whole — also: 4 Dazzling Glory / Harry Skelton
-    - J Deneb → J Ceres Dec 22.0103 22 whole (23.58) = S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - 96×φ golden — also: 3 Anna Bunina / James Bowen
     - J Difda → J Chiron RA 155.3491 96×φ golden (20.04) = S Sun → Wezen RA 155.3330 96×φ golden (89.39)
   - 101×φ golden — also: 3 Anna Bunina / James Bowen
     - J Murzim → J Neptune RA 163.4156 101×φ golden (67.33) = S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
-  - 22 whole — also: 4 Dazzling Glory / Harry Skelton
-    - J Sualocin → J Pluto Dec 21.9889 22 whole (20.00) = S Sun → Menkar Dec 22.0070 22 whole (42.05)
 - **4. circle divisions**
   - 2 = 360/180 — also: 1 Miranda / Bryony Frost
     - S Juno → H Juno RA 2.0151 2 whole (5.99)
@@ -708,11 +591,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Moon → H Chiron Dec 24.0001 24 whole (99.17)
   - 2 = 360/180 — also: 1 Miranda / Bryony Frost
     - S Ceres → H Jupiter Dec 1.9958 2 whole (62.22)
-  - 8 = 360/45 — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - 8 = 360/45 — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
     - H Murzim → H Juno Dec 8.0187 8 whole (0.39)
-  - 9 = 360/40 — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
-    - H Phact → H Vesta RA 9.0195 9 whole (0.06)
-  - 8 = 360/45 — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - 8 = 360/45 — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
     - H Scheat → H Venus RA 8.0136 8 whole (10.13)
   - 5 = 360/72 — also: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan
     - S Jupiter → J Jupiter Dec 4.9722 5 whole (loose)
@@ -724,24 +605,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Adhara → J Sedna RA 59.9995 60 whole (94.83)
   - 15 = 360/24 — also: 4 Dazzling Glory / Harry Skelton
     - J Adhara → J Quaoar Dec 15.0121 15 whole (15.72)
-  - 45 = 360/8 — also: 4 Dazzling Glory / Harry Skelton
-    - J Deneb → J Sun Dec 45.0175 45 whole (1.54)
-  - 1 = 360/360 — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - 1 = 360/360 — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
     - J Difda → J Gonggong Dec 0.9842 1 whole (4.49)
   - 4 = 360/90 — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
     - J Murzim → J Quaoar Dec 3.9966 4 whole (68.59)
-  - 1 = 360/360 — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - 1 = 360/360 — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
     - J Murzim → J Gonggong Dec 1.0163 1 whole (3.48)
-  - 12 = 360/30 — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
-    - J Phact → J Uranus Dec 11.9949 12 whole (55.69)
   - 5 = 360/72 — also: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan
     - J Sadalsuud → J Saturn Dec 5.0070 5 whole (42.24)
   - 36 = 360/10 — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
     - J Sualocin → J Venus Dec 35.9872 36 whole (12.90)
 - **5. same number in more than one place**
-  - 45×φ golden — only
-    - S Venus → H Venus RA 72.8110 45×φ golden (96.59)
-    - J Deneb → J Eris RA 72.8120 45×φ golden (97.19)
   - 16.6667 ninth — also: 3 Anna Bunina / James Bowen
     - S Neptune → H Neptune RA 16.5777 16.6667 ninth (loose)
     - S Neptune → J Neptune Dec 16.6831 16.6667 ninth (loose)
@@ -760,36 +634,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 38 whole — only
     - H Castor → H Transpluto RA 38.0027 38 whole (74.44)
     - J Sualocin → J Uranus Dec 37.9897 38 whole (23.65)
-  - 23 whole — also: 4 Dazzling Glory / Harry Skelton
-    - H Deneb → H Vesta Dec 23.0081 23 whole (35.39)
-    - H Menkar → H Makemake Dec 23.0183 23 whole (0.76)
-  - 27 whole — only
-    - H Deneb → H Haumea Dec 27.0189 27 whole (0.30)
-    - H Sadalsuud → H Jupiter Dec 26.9913 27 whole (32.10)
-  - 100×φ^1 phi power — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
-    - H Deneb → H Orcus RA 161.8571 100×φ^1 phi power (87.17)
-    - J Jupiter → J Eris RA 161.8328 100×φ^1 phi power (92.86)
-  - 89 whole — only
-    - H Difda → H Pluto RA 89.0010 89 whole (90.54)
-    - S Deneb → J Jupiter RA 89.0083 89 whole (34.34)
   - 8 whole — only
     - H Murzim → H Juno Dec 8.0187 8 whole (0.39)
     - H Scheat → H Venus RA 8.0136 8 whole (10.13)
-  - 28 whole — also: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan
-    - H Sualocin → H Pluto RA 28.0138 28 whole (9.49)
-    - J Phact → J Pluto Dec 27.9957 28 whole (61.68)
   - 5 whole — also: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan
     - S Jupiter → J Jupiter Dec 4.9722 5 whole (loose)
     - J Sadalsuud → J Saturn Dec 5.0070 5 whole (42.24)
   - 166.667 ninth — only
     - S Rahu → J Rahu RA 166.5468 166.667 ninth (loose)
     - S Ketu → J Ketu RA 166.5468 166.667 ninth (loose)
-  - 12 whole — also: 3 Anna Bunina / James Bowen
-    - S Moon → J Jupiter Dec 11.9992 12 whole (92.52)
-    - J Phact → J Uranus Dec 11.9949 12 whole (55.69)
-  - 22 whole — also: 4 Dazzling Glory / Harry Skelton
-    - J Deneb → J Ceres Dec 22.0103 22 whole (23.58)
-    - J Sualocin → J Pluto Dec 21.9889 22 whole (20.00)
   - 1 whole — also: 3 Anna Bunina / James Bowen
     - J Difda → J Gonggong Dec 0.9842 1 whole (4.49)
     - J Murzim → J Gonggong Dec 1.0163 1 whole (3.48)
@@ -798,24 +651,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body + top rows: S Sun → H Sun RA 44.4423 44.4444 ninth (97.73) — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton
   - star rows: H Alphard → H Sun Dec 7.0188 7 whole (0.34) — only
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
-  - star rows: J Deneb → J Sun RA 130.9833 131 whole (2.77) — also: 4 Dazzling Glory / Harry Skelton
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - star rows: J Deneb → J Sun Dec 45.0175 45 whole (1.54) — also: 4 Dazzling Glory / Harry Skelton
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
 - **Venus**
   - same body: S Venus → H Venus RA 72.8110 45×φ golden (96.59) — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
   - star rows: H Scheat → H Venus RA 8.0136 8 whole (10.13) — only
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
-  - star rows: J Phact → J Venus Dec 13.9975 14 whole (76.29) — only
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: J Sualocin → J Venus Dec 35.9872 36 whole (12.90) — only
     - source line: S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
 - **Uranus**
   - same body: S Uranus → H Uranus Dec 12.2244 12.2222 ninth (97.02) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
-  - star rows: J Menkar → J Uranus RA 111.1878 111.111 ninth (87.45) — also: 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
-  - star rows: J Phact → J Uranus Dec 11.9949 12 whole (55.69) — only
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: J Scheat → J Uranus Dec 50.1596 31×φ golden (96.74) — also: 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
   - star rows: J Sualocin → J Uranus Dec 37.9897 38 whole (23.65) — only
@@ -853,8 +696,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
   - star rows: J Murzim → J Juno RA 122.2366 122.222 ninth (98.01) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
-  - star rows: J Phact → J Juno RA 132.9982 133 whole (82.56) — only
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: J Sadalsuud → J Juno RA 104.9828 105 whole (1.93) — only
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - star rows: J Sadalsuud → J Juno Dec 0.1827 conj (15.29) — only
@@ -868,12 +709,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → H Vesta RA 163.4156 101×φ golden (67.22) — only
   - star rows: H Alphard → H Vesta RA 66.0084 66 whole (33.41) — also: 1 Miranda / Bryony Frost
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
-  - star rows: H Deneb → H Vesta Dec 23.0081 23 whole (35.39) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
   - star rows: H Difda → H Vesta RA 64.9997 65 whole (97.47) — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: H Phact → H Vesta RA 9.0195 9 whole (0.06) — also: 1 Miranda / Bryony Frost
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: H Sadalsuud → H Vesta RA 113.0074 113 whole (39.47) — only
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - star rows: H Sualocin → H Vesta RA 125.9869 126 whole (11.83) — also: 1 Miranda / Bryony Frost
@@ -910,10 +747,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - same body: S Jupiter → J Jupiter Dec 4.9722 5 whole (loose) — also: 5 Miss Heritage / Sean Quinlan
   - top rows: S Moon → J Jupiter Dec 11.9992 12 whole (92.52) — only
-  - star rows: S Deneb → J Jupiter RA 89.0083 89 whole (34.34) — only
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - star rows: J Phact → J Jupiter Dec 19.0126 19 whole (13.62) — only
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: S Scheat → J Jupiter RA 124.5982 77×φ golden (49.60) — only
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
 - **Mercury**
@@ -930,31 +763,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - star rows: H Sualocin → H Pluto RA 28.0138 28 whole (9.49) — also: 5 Miss Heritage / Sean Quinlan
     - source line: S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
-  - star rows: J Phact → J Pluto Dec 27.9957 28 whole (61.68) — also: 4 Dazzling Glory / Harry Skelton
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: J Sualocin → J Pluto Dec 21.9889 22 whole (20.00) — also: 5 Miss Heritage / Sean Quinlan
     - source line: S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
-- **Rahu**
-  - star rows: H Deneb → H Rahu RA 84.9977 85 whole (78.46) — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - same body: S Rahu → J Rahu RA 166.5468 166.667 ninth (loose) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
-- **Haumea**
-  - star rows: H Deneb → H Haumea Dec 27.0189 27 whole (0.30) — only
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - star rows: H Wezen → H Haumea RA 101.9931 102 whole (42.63) — only
-    - source line: S Sun → Wezen RA 155.3330 96×φ golden (89.39)
-  - same body: S Haumea → J Haumea RA 26.1747 10×φ^2 phi power (loose) — also: 3 Anna Bunina / James Bowen
-  - star rows: J Deneb → J Haumea RA 118.9884 119 whole (17.78) — only
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-- **Orcus**
-  - star rows: H Deneb → H Orcus RA 161.8571 100×φ^1 phi power (87.17) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-- **Ketu**
-  - star rows: H Deneb → H Ketu RA 95.0023 95 whole (78.46) — also: 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - star rows: H Menkar → H Ketu RA 0.2116 conj (73.78) — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
-  - same body: S Ketu → J Ketu RA 166.5468 166.667 ninth (loose) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
 - **Sedna**
   - star rows: H Difda → H Sedna RA 42.3675 10×φ^3 phi power (93.62) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
@@ -962,15 +772,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
   - star rows: J Castor → J Sedna RA 68.9919 69 whole (35.39) — only
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - star rows: J Menkar → J Sedna RA 0.9180 conj (15.05) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - star rows: J Murzim → J Sedna RA 51.0189 51 whole (0.29) — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
 - **Makemake**
   - star rows: H Difda → H Makemake RA 179.4716 10×φ^6 phi power (93.66) — also: 1 Miranda / Bryony Frost
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: H Menkar → H Makemake Dec 23.0183 23 whole (0.76) — also: 4 Dazzling Glory / Harry Skelton
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - same body: S Makemake → J Makemake Dec 11.1299 11.1111 ninth (loose) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
   - star rows: J Sadalsuud → J Makemake RA 148.8418 92×φ golden (21.45) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
@@ -978,24 +784,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Murzim → H Eris RA 70.7174 70.7 sqrt2 (96.22) — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
   - T2: J Jupiter → J Eris RA 161.8328 100×φ^1 phi power (92.86) — only
-  - star rows: J Deneb → J Eris RA 72.8120 45×φ golden (97.19) — also: 4 Dazzling Glory / Harry Skelton
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
 - **Saturn**
-  - star rows: H Phact → H Saturn RA 134.2808 83×φ golden (25.35) — only
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: H Sadalsuud → H Saturn Dec 6.9969 7 whole (71.60) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - star rows: J Sadalsuud → J Saturn Dec 5.0070 5 whole (42.24) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
 - **Ceres**
-  - star rows: H Phact → H Ceres RA 1.0433 conj (9.27) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: H Sadalsuud → H Ceres RA 120.9837 121 whole (3.37) — only
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
-  - star rows: J Deneb → J Ceres RA 173.1376 107×φ golden (56.87) — only
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - star rows: J Deneb → J Ceres Dec 22.0103 22 whole (23.58) — only
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
   - star rows: J Scheat → J Ceres RA 137.5514 85×φ golden (18.40) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
 - **Mars**
@@ -1003,6 +799,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
   - star rows: J Castor → J Mars RA 1.3474 conj (1.04) — also: 3 Anna Bunina / James Bowen
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
+- **Haumea**
+  - star rows: H Wezen → H Haumea RA 101.9931 102 whole (42.63) — only
+    - source line: S Sun → Wezen RA 155.3330 96×φ golden (89.39)
+  - same body: S Haumea → J Haumea RA 26.1747 10×φ^2 phi power (loose) — also: 3 Anna Bunina / James Bowen
+- **Rahu**
+  - same body: S Rahu → J Rahu RA 166.5468 166.667 ninth (loose) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+- **Ketu**
+  - same body: S Ketu → J Ketu RA 166.5468 166.667 ninth (loose) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
 - **Quaoar**
   - star rows: J Adhara → J Quaoar Dec 15.0121 15 whole (15.72) — also: 5 Miss Heritage / Sean Quinlan
     - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
@@ -1046,8 +850,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Murzim → H Saturn Dec 3.0114 3 whole (18.33)
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
   - other chart, top rows: S Jupiter → J Saturn Dec 27.5100 17×φ golden (80.22)
-  - other chart, star rows: J Menkar → J Saturn Dec 13.3377 13.3333 ninth (94.81)
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - other chart, star rows: J Sadalsuud → J Saturn Dec 22.9986 23 whole (86.61)
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
 - **H Uranus** (same body: S Uranus → H Uranus Dec 8.0992 5×φ golden (loose))
@@ -1064,8 +866,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, top rows: S Sun → J Neptune Dec 0.2372 conj (4.38)
   - other chart, star rows: J Castor → J Neptune RA 163.4451 101×φ golden (7.29)
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - other chart, star rows: J Deneb → J Neptune RA 0.1446 conj (81.65)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
   - other chart, star rows: J Difda → J Neptune Dec 0.1668 conj (19.73)
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
   - other chart, star rows: J Murzim → J Neptune Dec 0.1964 conj (11.91)
@@ -1075,8 +875,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Pluto** (same body: S Pluto → H Pluto RA 11.0792 φ^5 phi power (loose))
   - star rows: H Difda → H Pluto RA 83.0181 83 whole (0.90)
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: H Menkar → H Pluto Dec 24.9853 25 whole (6.92)
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - star rows: H Sadalsuud → H Pluto RA 35.0089 35 whole (30.61)
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - other chart, star rows: J Alphard → J Pluto RA 113.2728 70×φ golden (46.08)
@@ -1084,8 +882,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Chiron** (same body: S Chiron → H Chiron RA 17.9974 18 whole (75.58))
   - star rows: H Castor → H Chiron Dec 31.9986 32 whole (86.22)
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - star rows: H Deneb → H Chiron RA 38.9845 39 whole (5.17)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
   - other chart, top rows: S Sun → J Chiron Dec 0.0511 conj (68.83)
   - other chart, star rows: J Difda → J Chiron Dec 0.1216 conj (35.37)
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
@@ -1099,13 +895,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Scheat → H Ceres RA 0.7066 conj (27.98)
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
   - other chart, same body: S Ceres → J Ceres RA 133.1851 133.333 ninth (loose)
-  - other chart, star rows: J Phact → J Ceres RA 161.8776 100×φ^1 phi power (82.50)
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
 - **H Rahu** (same body: S Rahu → H Rahu Dec 16.5660 16.6667 ninth (loose))
   - star rows: H Alphard → H Rahu Dec 11.9877 12 whole (14.97)
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
-  - star rows: H Phact → H Rahu RA 87.3800 54×φ golden (65.65)
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - other chart, star rows: J Adhara → J Rahu RA 0.8218 conj (20.44)
     - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
 - **H Eris** (same body: S Eris → H Eris Dec 1.4199 1.414 sqrt2 (loose))
@@ -1127,8 +919,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Sun → J Neptune Dec 0.2372 conj (4.38)
   - star rows: J Castor → J Neptune RA 163.4451 101×φ golden (7.29)
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - star rows: J Deneb → J Neptune RA 0.1446 conj (81.65)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
   - star rows: J Difda → J Neptune Dec 0.1668 conj (19.73)
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
   - star rows: J Murzim → J Neptune Dec 0.1964 conj (11.91)
@@ -1139,8 +929,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Alphard → H Neptune Dec 0.1588 conj (22.15)
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
 - **J Ceres** (same body: S Ceres → J Ceres RA 133.1851 133.333 ninth (loose))
-  - star rows: J Phact → J Ceres RA 161.8776 100×φ^1 phi power (82.50)
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - other chart, same body: S Ceres → H Ceres RA 69.5751 43×φ golden (97.60)
   - other chart, star rows: H Adhara → H Ceres RA 118.0149 118 whole (6.62)
     - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
@@ -1149,10 +937,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Scheat → H Ceres RA 0.7066 conj (27.98)
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
 - **J Pallas** (same body: S Pallas → J Pallas RA 102.0036 102 whole (67.38))
-  - star rows: J Phact → J Pallas RA 171.5169 106×φ golden (70.17)
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
-  - other chart, star rows: H Deneb → H Pallas RA 0.9490 conj (13.50)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
   - other chart, star rows: H Sadalsuud → H Pallas Dec 9.9866 10 whole (11.02)
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - other chart, star rows: H Sualocin → H Pallas RA 0.5026 conj (44.22)
@@ -1167,8 +951,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Sadalsuud → J Makemake RA 142.3707 88×φ golden (24.53)
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 27.0298 27 whole (loose))
-  - star rows: J Phact → J Quaoar Dec 19.0122 19 whole (15.27)
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - other chart, star rows: H Alphard → H Quaoar Dec 6.9899 7 whole (24.65)
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
   - other chart, star rows: H Castor → H Quaoar RA 155.3624 96×φ golden (0.13)
@@ -1191,18 +973,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **3. runner number = sky number**
   - 96×φ golden — also: 2 Western Victory / Tom Bellamy
     - H Castor → H Quaoar RA 155.3624 96×φ golden (0.13) = S Sun → Wezen RA 155.3330 96×φ golden (89.39)
-  - 13.3333 ninth — also: 5 Miss Heritage / Sean Quinlan
-    - H Menkar → H Orcus Dec 13.3321 13.3333 ninth (98.47) = S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)
   - 11.1111 ninth — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
     - H Murzim → H Juno Dec 11.1131 11.1111 ninth (96.79) = S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - 18.8889 ninth — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
     - S Makemake → J Makemake RA 18.7884 18.8889 ninth (loose) = S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
   - 101×φ golden — also: 2 Western Victory / Tom Bellamy
     - J Castor → J Neptune RA 163.4451 101×φ golden (7.29) = S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
-  - 13.3333 ninth — also: 5 Miss Heritage / Sean Quinlan
-    - J Menkar → J Saturn Dec 13.3377 13.3333 ninth (94.81) = S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)
-  - 100×φ^1 phi power — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
-    - J Phact → J Ceres RA 161.8776 100×φ^1 phi power (82.50) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
 - **4. circle divisions**
   - 18 = 360/20 — also: 1 Miranda / Bryony Frost
     - S Chiron → H Chiron RA 17.9974 18 whole (75.58)
@@ -1210,18 +986,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Jupiter → H Mercury Dec 6.0045 6 whole (59.77)
   - 12 = 360/30 — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
     - H Adhara → H Venus Dec 12.0068 12 whole (43.44)
-  - 8 = 360/45 — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - 8 = 360/45 — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
     - H Adhara → H Saturn Dec 8.0052 8 whole (55.04)
   - 12 = 360/30 — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
     - H Alphard → H Rahu Dec 11.9877 12 whole (14.97)
   - 3 = 360/120 — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
     - H Difda → H Saturn Dec 2.9814 3 whole (0.52)
-  - 1 = 360/360 — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - 1 = 360/360 — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
     - H Murzim → H Venus Dec 0.9902 1 whole (26.11)
   - 3 = 360/120 — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
     - H Murzim → H Saturn Dec 3.0114 3 whole (18.33)
-  - 18 = 360/20 — also: 1 Miranda / Bryony Frost
-    - H Phact → H Mercury Dec 17.9897 18 whole (23.75)
   - 10 = 360/36 — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
     - H Sadalsuud → H Pallas Dec 9.9866 10 whole (11.02)
   - 30 = 360/12 — also: 1 Miranda / Bryony Frost
@@ -1232,30 +1006,24 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Quaoar → J Jupiter Dec 35.9997 36 whole (96.93)
   - 6 = 360/60 — also: 1 Miranda / Bryony Frost
     - J Alphard → J Uranus Dec 5.9837 6 whole (3.35)
-  - 9 = 360/40 — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
+  - 9 = 360/40 — also: 4 Dazzling Glory / Harry Skelton
     - J Alphard → J Juno Dec 9.0017 9 whole (84.01)
   - 36 = 360/10 — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
     - J Difda → J Sedna RA 36.0104 36 whole (23.12)
-  - 1 = 360/360 — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - 1 = 360/360 — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
     - J Sadalsuud → J Eris Dec 1.0192 1 whole (0.17)
 - **5. same number in more than one place**
   - φ^5 phi power — only
     - S Neptune → H Neptune RA 11.0534 φ^5 phi power (loose)
     - S Pluto → H Pluto RA 11.0792 φ^5 phi power (loose)
-  - 18 whole — only
-    - S Chiron → H Chiron RA 17.9974 18 whole (75.58)
-    - H Phact → H Mercury Dec 17.9897 18 whole (23.75)
   - 16.6667 ninth — also: 2 Western Victory / Tom Bellamy
     - S Rahu → H Rahu Dec 16.5660 16.6667 ninth (loose)
     - S Ketu → H Ketu Dec 16.5660 16.6667 ninth (loose)
-  - 125 whole — only
-    - H Jupiter → H star Menkar RA 125.0029 125 whole (73.22)
-    - S Menkar → H Jupiter RA 125.0000 125 whole (99.88)
   - 6 whole — only
     - S Jupiter → H Mercury Dec 6.0045 6 whole (59.77)
     - S Haumea → J Haumea Dec 6.0290 6 whole (loose)
     - J Alphard → J Uranus Dec 5.9837 6 whole (3.35)
-  - 12 whole — also: 2 Western Victory / Tom Bellamy
+  - 12 whole — only
     - H Adhara → H Venus Dec 12.0068 12 whole (43.44)
     - H Alphard → H Rahu Dec 11.9877 12 whole (14.97)
   - 32 whole — only
@@ -1264,9 +1032,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 3 whole — only
     - H Difda → H Saturn Dec 2.9814 3 whole (0.52)
     - H Murzim → H Saturn Dec 3.0114 3 whole (18.33)
-  - 13.3333 ninth — only
-    - H Menkar → H Orcus Dec 13.3321 13.3333 ninth (98.47)
-    - J Menkar → J Saturn Dec 13.3377 13.3333 ninth (94.81)
   - 1 whole — also: 2 Western Victory / Tom Bellamy
     - H Murzim → H Venus Dec 0.9902 1 whole (26.11)
     - J Sadalsuud → J Eris Dec 1.0192 1 whole (0.17)
@@ -1292,8 +1057,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Murzim → H Saturn Dec 3.0114 3 whole (18.33) — only
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
   - top rows: S Jupiter → J Saturn Dec 27.5100 17×φ golden (80.22) — also: 5 Miss Heritage / Sean Quinlan
-  - star rows: J Menkar → J Saturn Dec 13.3377 13.3333 ninth (94.81) — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - star rows: J Sadalsuud → J Saturn Dec 22.9986 23 whole (86.61) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
 - **Uranus**
@@ -1314,8 +1077,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Sun → J Neptune Dec 0.2372 conj (4.38) — only
   - star rows: J Castor → J Neptune RA 163.4451 101×φ golden (7.29) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - star rows: J Deneb → J Neptune RA 0.1446 conj (81.65) — also: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
   - star rows: J Difda → J Neptune Dec 0.1668 conj (19.73) — only
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
   - star rows: J Murzim → J Neptune Dec 0.1964 conj (11.91) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
@@ -1326,8 +1087,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Pluto → H Pluto RA 11.0792 φ^5 phi power (loose) — also: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan
   - star rows: H Difda → H Pluto RA 83.0181 83 whole (0.90) — also: 2 Western Victory / Tom Bellamy
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: H Menkar → H Pluto Dec 24.9853 25 whole (6.92) — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - star rows: H Sadalsuud → H Pluto RA 35.0089 35 whole (30.61) — also: 2 Western Victory / Tom Bellamy
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - star rows: J Alphard → J Pluto RA 113.2728 70×φ golden (46.08) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
@@ -1336,8 +1095,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Chiron → H Chiron RA 17.9974 18 whole (75.58) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
   - star rows: H Castor → H Chiron Dec 31.9986 32 whole (86.22) — only
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - star rows: H Deneb → H Chiron RA 38.9845 39 whole (5.17) — also: 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
   - top rows: S Sun → J Chiron Dec 0.0511 conj (68.83) — only
   - star rows: J Difda → J Chiron Dec 0.1216 conj (35.37) — also: 2 Western Victory / Tom Bellamy
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
@@ -1352,14 +1109,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Scheat → H Ceres RA 0.7066 conj (27.98) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
   - same body: S Ceres → J Ceres RA 133.1851 133.333 ninth (loose) — only
-  - star rows: J Phact → J Ceres RA 161.8776 100×φ^1 phi power (82.50) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
 - **Rahu**
   - same body: S Rahu → H Rahu Dec 16.5660 16.6667 ninth (loose) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
   - star rows: H Alphard → H Rahu Dec 11.9877 12 whole (14.97) — only
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
-  - star rows: H Phact → H Rahu RA 87.3800 54×φ golden (65.65) — also: 5 Miss Heritage / Sean Quinlan
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: J Adhara → J Rahu RA 0.8218 conj (20.44) — also: 1 Miranda / Bryony Frost
     - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
 - **Eris**
@@ -1372,29 +1125,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Ketu → H Ketu Dec 16.5660 16.6667 ninth (loose) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
   - star rows: H Castor → H Ketu RA 121.3588 75×φ golden (65.19) — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-- **Jupiter**
-  - T1: H Jupiter → H star Menkar RA 125.0029 125 whole (73.22) — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton
-  - top rows: S Chiron → H Jupiter Dec 0.2268 conj (5.95) — also: 5 Miss Heritage / Sean Quinlan
-  - top rows: S Haumea → H Jupiter RA 46.9783 φ^8 phi power (99.62) — also: 4 Dazzling Glory / Harry Skelton
-  - star rows: S Menkar → H Jupiter RA 125.0000 125 whole (99.88) — also: 1 Miranda / Bryony Frost
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
-  - T2: J Jupiter → J star Wezen Dec 46.9215 29×φ golden (90.97) — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton
-  - top rows: S Sun → J Jupiter RA 110.9120 10×φ^5 phi power (96.32) — also: 5 Miss Heritage / Sean Quinlan
-  - top rows: S Mars → J Jupiter RA 148.9993 149 whole (92.75) — only
-    - source line: S Moon → Mars RA 1.2062 conj (3.84)
-  - top rows: S Quaoar → J Jupiter Dec 35.9997 36 whole (96.93) — only
-  - star rows: S Murzim → J Jupiter RA 32.9973 33 whole (74.65) — only
-    - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
-  - star rows: J Wezen → J Jupiter Dec 46.9215 29×φ golden (90.97) — also: 1 Miranda / Bryony Frost
-    - source line: S Sun → Wezen RA 155.3330 96×φ golden (89.39)
 - **Mercury**
   - top rows: S Jupiter → H Mercury Dec 6.0045 6 whole (59.77) — also: 1 Miranda / Bryony Frost
   - star rows: H Castor → H Mercury RA 148.8534 92×φ golden (67.95) — only
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - star rows: H Deneb → H Mercury RA 14.4481 14.4444 ninth (96.11) — also: 1 Miranda / Bryony Frost
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - star rows: H Phact → H Mercury Dec 17.9897 18 whole (23.75) — only
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: H Sualocin → H Mercury Dec 31.9984 32 whole (85.09) — only
     - source line: S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
   - star rows: J Adhara → J Mercury RA 137.5177 85×φ golden (28.12) — also: 2 Western Victory / Tom Bellamy
@@ -1402,6 +1136,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Alphard → J Mercury RA 174.7603 108×φ golden (37.35) — only
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
   - star rows: J Wezen → J Mercury Dec 12.2282 12.2222 ninth (91.71) — also: 2 Western Victory / Tom Bellamy
+    - source line: S Sun → Wezen RA 155.3330 96×φ golden (89.39)
+- **Jupiter**
+  - top rows: S Chiron → H Jupiter Dec 0.2268 conj (5.95) — also: 5 Miss Heritage / Sean Quinlan
+  - top rows: S Haumea → H Jupiter RA 46.9783 φ^8 phi power (99.62) — also: 4 Dazzling Glory / Harry Skelton
+  - T2: J Jupiter → J star Wezen Dec 46.9215 29×φ golden (90.97) — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton
+  - top rows: S Sun → J Jupiter RA 110.9120 10×φ^5 phi power (96.32) — also: 5 Miss Heritage / Sean Quinlan
+  - top rows: S Mars → J Jupiter RA 148.9993 149 whole (92.75) — only
+  - top rows: S Quaoar → J Jupiter Dec 35.9997 36 whole (96.93) — only
+  - star rows: S Murzim → J Jupiter RA 32.9973 33 whole (74.65) — only
+    - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
+  - star rows: J Wezen → J Jupiter Dec 46.9215 29×φ golden (90.97) — also: 1 Miranda / Bryony Frost
     - source line: S Sun → Wezen RA 155.3330 96×φ golden (89.39)
 - **Venus**
   - star rows: H Adhara → H Venus Dec 12.0068 12 whole (43.44) — also: 1 Miranda / Bryony Frost
@@ -1423,27 +1168,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Castor → H Quaoar RA 155.3624 96×φ golden (0.13) — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
   - same body: S Quaoar → J Quaoar RA 27.0298 27 whole (loose) — also: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan
-  - star rows: J Phact → J Quaoar Dec 19.0122 19 whole (15.27) — also: 5 Miss Heritage / Sean Quinlan
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
-- **Pallas**
-  - star rows: H Deneb → H Pallas RA 0.9490 conj (13.50) — only
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - star rows: H Sadalsuud → H Pallas Dec 9.9866 10 whole (11.02) — also: 1 Miranda / Bryony Frost
-    - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
-  - star rows: H Sualocin → H Pallas RA 0.5026 conj (44.22) — also: 1 Miranda / Bryony Frost
-    - source line: S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
-  - same body: S Pallas → J Pallas RA 102.0036 102 whole (67.38) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
-  - star rows: J Phact → J Pallas RA 171.5169 106×φ golden (70.17) — only
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
-- **Orcus**
-  - star rows: H Deneb → H Orcus RA 159.0183 159 whole (0.74) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - star rows: H Menkar → H Orcus Dec 13.3321 13.3333 ninth (98.47) — also: 4 Dazzling Glory / Harry Skelton
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
-  - star rows: H Sualocin → H Orcus RA 158.5719 98×φ golden (73.88) — only
-    - source line: S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
-  - star rows: J Difda → J Orcus Dec 16.1804 10×φ^1 phi power (99.86) — also: 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Difda Dec 0.0705 conj (58.51)
 - **Juno**
   - star rows: H Murzim → H Juno Dec 11.1131 11.1111 ninth (96.79) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
@@ -1451,13 +1175,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Juno → J Juno Dec 12.9148 8×φ golden (loose) — also: 2 Western Victory / Tom Bellamy
   - star rows: J Alphard → J Juno Dec 9.0017 9 whole (84.01) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
-- **Transpluto**
-  - star rows: H Phact → H Transpluto Dec 45.3022 28×φ golden (83.51) — only
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
-  - star rows: J Adhara → J Transpluto Dec 42.0115 42 whole (17.96) — also: 2 Western Victory / Tom Bellamy
-    - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
-  - star rows: J Murzim → J Transpluto Dec 30.9948 31 whole (54.60) — also: 1 Miranda / Bryony Frost
-    - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
+- **Pallas**
+  - star rows: H Sadalsuud → H Pallas Dec 9.9866 10 whole (11.02) — also: 1 Miranda / Bryony Frost
+    - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
+  - star rows: H Sualocin → H Pallas RA 0.5026 conj (44.22) — also: 1 Miranda / Bryony Frost
+    - source line: S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
+  - same body: S Pallas → J Pallas RA 102.0036 102 whole (67.38) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
+- **Orcus**
+  - star rows: H Sualocin → H Orcus RA 158.5719 98×φ golden (73.88) — only
+    - source line: S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
+  - star rows: J Difda → J Orcus Dec 16.1804 10×φ^1 phi power (99.86) — also: 5 Miss Heritage / Sean Quinlan
+    - source line: S Sun → Difda Dec 0.0705 conj (58.51)
 - **Haumea**
   - same body: S Haumea → J Haumea Dec 6.0290 6 whole (loose) — also: 2 Western Victory / Tom Bellamy
 - **Makemake**
@@ -1469,9 +1197,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
   - star rows: J Castor → J Vesta RA 111.9960 112 whole (63.67) — also: 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - star rows: J Deneb → J Vesta Dec 49.9876 50 whole (14.39) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
   - star rows: J Murzim → J Vesta RA 94.0196 94 whole (0.04) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
+    - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
+- **Transpluto**
+  - star rows: J Adhara → J Transpluto Dec 42.0115 42 whole (17.96) — also: 2 Western Victory / Tom Bellamy
+    - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
+  - star rows: J Murzim → J Transpluto Dec 30.9948 31 whole (54.60) — also: 1 Miranda / Bryony Frost
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
 - **Sedna**
   - star rows: J Alphard → J Sedna RA 94.9988 95 whole (87.97) — also: 5 Miss Heritage / Sean Quinlan
@@ -1480,10 +1211,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
   - star rows: J Difda → J Sedna RA 36.0104 36 whole (23.12) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: J Menkar → J Sedna RA 1.3358 conj (1.20) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
-  - star rows: J Phact → J Sedna RA 38.0100 38 whole (24.79) — only
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: J Sadalsuud → J Sedna RA 84.0176 84 whole (1.39) — also: 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - star rows: J Sualocin → J Sedna RA 96.9973 97 whole (74.72) — also: 5 Miss Heritage / Sean Quinlan
@@ -1516,10 +1243,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Sun** (same body: S Sun → J Sun RA 133.9346 133.333 ninth (loose); S Sun → J Sun Dec 18.8548 18.8889 ninth (loose))
   - star rows: J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49)
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
-  - star rows: J Phact → J Sun Dec 35.0053 35 whole (54.20)
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
-  - other chart, star rows: H Deneb → H Sun Dec 40.4505 25×φ golden (98.12)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
   - other chart, star rows: H Difda → H Sun RA 0.3403 conj (59.78)
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
 - **J Chiron** (same body: S Chiron → J Chiron RA 99.0069 99 whole (42.71))
@@ -1528,8 +1251,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Wezen → J Chiron RA 0.7558 conj (24.61)
     - source line: S Sun → Wezen RA 155.3330 96×φ golden (89.39)
 - **J Rahu** (same body: S Rahu → J Rahu RA 88.8053 88.8889 ninth (loose))
-  - other chart, star rows: H Deneb → H Rahu RA 121.3543 75×φ golden (89.51)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
   - other chart, star rows: H Scheat → H Rahu RA 156.9390 97×φ golden (46.34)
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
 - **J Sedna** (same body: S Sedna → J Sedna Dec 4.0085 4 whole (33.08))
@@ -1537,12 +1258,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
   - star rows: J Difda → J Sedna Dec 22.0086 22 whole (32.62)
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: J Menkar → J Sedna Dec 0.0676 conj (60.02)
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - star rows: J Murzim → J Sedna RA 53.3989 33×φ golden (78.24)
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
-  - other chart, star rows: H Deneb → H Sedna Dec 37.9941 38 whole (49.58)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
 - **J Ketu** (same body: S Ketu → J Ketu RA 88.8053 88.8889 ninth (loose))
   - star rows: J Adhara → J Ketu Dec 41.9826 42 whole (1.68)
     - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
@@ -1552,8 +1269,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
   - other chart, star rows: H Castor → H Ketu Dec 28.0089 28 whole (30.69)
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - other chart, star rows: H Menkar → H Ketu Dec 0.2078 conj (9.44)
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
 ### L3 matches
 - **1. same body on both charts**: none
 - **2. one body in both planes**
@@ -1564,33 +1279,23 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Sun → J Sun RA 133.9346 133.333 ninth (loose)
     - S Sun → J Sun Dec 18.8548 18.8889 ninth (loose)
 - **3. runner number = sky number**
-  - 25×φ golden — only
-    - H Deneb → H Sun Dec 40.4505 25×φ golden (98.12) = S Sun → Neptune RA 40.4536 25×φ golden (83.58)
-  - 24 whole — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
-    - H Sadalsuud → H Venus Dec 23.9925 24 whole (39.03) = S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - 18.8889 ninth — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
     - S Sun → J Sun Dec 18.8548 18.8889 ninth (loose) = S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
-  - 100×φ^1 phi power — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+  - 100×φ^1 phi power — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
     - S Mercury → J Jupiter RA 161.8939 100×φ^1 phi power (78.87) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - 22 whole — also: 2 Western Victory / Tom Bellamy
-    - J Difda → J Sedna Dec 22.0086 22 whole (32.62) = S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - 18.8889 ninth — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
     - J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49) = S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
-  - 22 whole — also: 2 Western Victory / Tom Bellamy
-    - J Murzim → J Orcus Dec 21.9984 22 whole (84.80) = S Sun → Menkar Dec 22.0070 22 whole (42.05)
-  - 100×φ^1 phi power — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+  - 100×φ^1 phi power — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
     - J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
 - **4. circle divisions**
   - 12 = 360/30 — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
     - S Neptune → H Neptune RA 11.9727 12 whole (loose)
-  - 1 = 360/360 — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+  - 1 = 360/360 — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
     - S Sun → H Saturn Dec 0.9995 1 whole (94.69)
   - 15 = 360/24 — also: 2 Western Victory / Tom Bellamy
     - H Alphard → H Ceres Dec 14.9827 15 whole (1.89)
   - 36 = 360/10 — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
     - S Difda → H Jupiter Dec 35.9836 36 whole (3.33)
-  - 4 = 360/90 — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
-    - H Menkar → H Mercury Dec 3.9838 4 whole (3.65)
   - 15 = 360/24 — also: 2 Western Victory / Tom Bellamy
     - H Murzim → H Eris Dec 15.0193 15 whole (0.13)
   - 24 = 360/15 — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
@@ -1601,14 +1306,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Sedna → J Sedna Dec 4.0085 4 whole (33.08)
   - 3 = 360/120 — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
     - J Adhara → J Vesta Dec 2.9883 3 whole (17.19)
-  - 9 = 360/40 — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
+  - 9 = 360/40 — also: 3 Anna Bunina / James Bowen
     - S Castor → J Jupiter Dec 9.0176 9 whole (1.41)
-  - 45 = 360/8 — also: 2 Western Victory / Tom Bellamy
+  - 45 = 360/8 — only
     - J Castor → J Quaoar Dec 45.0159 45 whole (4.20)
-  - 8 = 360/45 — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+  - 8 = 360/45 — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
     - J Difda → J Vesta Dec 7.9952 8 whole (57.88)
-  - 180 = 360/2 — only
-    - J Menkar → J Pluto RA 179.9889 180 whole (19.78)
 - **5. same number in more than one place**
   - φ^8 phi power — only
     - H Jupiter → H star Adhara Dec 46.9708 φ^8 phi power (93.41)
@@ -1619,14 +1322,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 133.333 ninth — only
     - H Castor → H Neptune RA 133.3981 133.333 ninth (92.22)
     - S Sun → J Sun RA 133.9346 133.333 ninth (loose)
-  - 4 whole — only
-    - H Menkar → H Mercury Dec 3.9838 4 whole (3.65)
-    - S Sedna → J Sedna Dec 4.0085 4 whole (33.08)
-  - 23 whole — also: 2 Western Victory / Tom Bellamy
-    - H Menkar → H Saturn Dec 23.0057 23 whole (51.29)
-    - J Menkar → J Eris RA 23.0151 23 whole (5.97)
   - 17 whole — only
-    - H Menkar → H Gonggong Dec 16.9872 17 whole (13.10)
     - H Sadalsuud → H Transpluto Dec 17.0120 17 whole (15.86)
     - J Scheat → J Gonggong RA 17.0125 17 whole (14.21)
   - 39 whole — only
@@ -1638,18 +1334,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 88.8889 ninth — only
     - S Rahu → J Rahu RA 88.8053 88.8889 ninth (loose)
     - S Ketu → J Ketu RA 88.8053 88.8889 ninth (loose)
-  - 100×φ^1 phi power — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
+  - 100×φ^1 phi power — also: 5 Miss Heritage / Sean Quinlan
     - S Mercury → J Jupiter RA 161.8939 100×φ^1 phi power (78.87)
     - J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12)
   - 33 whole — only
     - J Adhara → J Sedna Dec 32.9921 33 whole (36.52)
     - J Adhara → J Orcus Dec 33.0139 33 whole (9.17)
-  - 22 whole — also: 2 Western Victory / Tom Bellamy
+  - 22 whole — only
     - J Difda → J Sedna Dec 22.0086 22 whole (32.62)
     - J Murzim → J Orcus Dec 21.9984 22 whole (84.80)
-  - 31 whole — only
-    - J Difda → J Ketu Dec 30.9991 31 whole (91.04)
-    - J Menkar → J Makemake Dec 31.0172 31 whole (1.99)
   - 33 and 33×φ on J Sedna — only
     - J Adhara → J Sedna Dec 32.9921 33 whole (36.52)
     - J Murzim → J Sedna RA 53.3989 33×φ golden (78.24)
@@ -1690,25 +1383,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
   - star rows: J Adhara → J Orcus Dec 33.0139 33 whole (9.17) — also: 5 Miss Heritage / Sean Quinlan
     - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
-  - star rows: J Deneb → J Orcus RA 179.6308 111×φ golden (1.08) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - star rows: J Menkar → J Orcus Dec 0.0457 conj (71.85) — also: 3 Anna Bunina / James Bowen
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - star rows: J Murzim → J Orcus Dec 21.9984 22 whole (84.80) — also: 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
 - **Saturn**
   - top rows: S Sun → H Saturn Dec 0.9995 1 whole (94.69) — only
-  - star rows: H Menkar → H Saturn Dec 23.0057 23 whole (51.29) — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - star rows: H Scheat → H Saturn Dec 46.9986 47 whole (86.47) — also: 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
 - **Pluto**
   - star rows: H Alphard → H Pluto RA 144.4268 144.444 ninth (98.13) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
-  - star rows: H Phact → H Pluto RA 158.5835 98×φ golden (25.07) — also: 2 Western Victory / Tom Bellamy
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
-  - star rows: J Menkar → J Pluto RA 179.9889 180 whole (19.78) — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
 - **Ceres**
   - star rows: H Alphard → H Ceres Dec 14.9827 15 whole (1.89) — also: 1 Miranda / Bryony Frost
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
@@ -1721,8 +1404,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Ketu**
   - star rows: H Castor → H Ketu Dec 28.0089 28 whole (30.69) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - star rows: H Menkar → H Ketu Dec 0.2078 conj (9.44) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - same body: S Ketu → J Ketu RA 88.8053 88.8889 ninth (loose) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
   - star rows: J Adhara → J Ketu Dec 41.9826 42 whole (1.68) — only
     - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
@@ -1731,77 +1412,39 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12) — also: 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
 - **Sun**
-  - star rows: H Deneb → H Sun Dec 40.4505 25×φ golden (98.12) — also: 2 Western Victory / Tom Bellamy
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
   - star rows: H Difda → H Sun RA 0.3403 conj (59.78) — also: 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
   - same body: S Sun → J Sun RA 133.9346 133.333 ninth (loose) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
   - same body: S Sun → J Sun Dec 18.8548 18.8889 ninth (loose) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
   - star rows: J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49) — only
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
-  - star rows: J Phact → J Sun Dec 35.0053 35 whole (54.20) — only
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
-- **Rahu**
-  - star rows: H Deneb → H Rahu RA 121.3543 75×φ golden (89.51) — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - star rows: H Scheat → H Rahu RA 156.9390 97×φ golden (46.34) — also: 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
-  - same body: S Rahu → J Rahu RA 88.8053 88.8889 ninth (loose) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
 - **Eris**
-  - star rows: H Deneb → H Eris RA 75.0001 75 whole (98.57) — also: 2 Western Victory / Tom Bellamy
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
   - star rows: H Murzim → H Eris Dec 15.0193 15 whole (0.13) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
-  - star rows: J Menkar → J Eris RA 23.0151 23 whole (5.97) — only
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
-- **Sedna**
-  - star rows: H Deneb → H Sedna Dec 37.9941 38 whole (49.58) — also: 1 Miranda / Bryony Frost
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - same body: S Sedna → J Sedna Dec 4.0085 4 whole (33.08) — also: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan
-  - star rows: J Adhara → J Sedna Dec 32.9921 33 whole (36.52) — also: 2 Western Victory / Tom Bellamy
-    - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
-  - star rows: J Difda → J Sedna Dec 22.0086 22 whole (32.62) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: J Menkar → J Sedna Dec 0.0676 conj (60.02) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
-  - star rows: J Murzim → J Sedna RA 53.3989 33×φ golden (78.24) — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
-- **Makemake**
-  - star rows: H Deneb → H Makemake Dec 18.9874 19 whole (13.75) — only
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - star rows: J Menkar → J Makemake Dec 31.0172 31 whole (1.99) — also: 2 Western Victory / Tom Bellamy
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
-- **Mercury**
-  - star rows: H Menkar → H Mercury Dec 3.9838 4 whole (3.65) — only
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
-  - star rows: J Menkar → J Mercury RA 139.0100 139 whole (24.89) — only
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
-- **Venus**
-  - star rows: H Menkar → H Venus RA 0.7191 conj (27.10) — only
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
-  - star rows: H Sadalsuud → H Venus Dec 23.9925 24 whole (39.03) — also: 1 Miranda / Bryony Frost
-    - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
-- **Gonggong**
-  - star rows: H Menkar → H Gonggong Dec 16.9872 17 whole (13.10) — also: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
-  - star rows: H Scheat → H Gonggong Dec 40.9802 41 whole (0.01) — only
-    - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
-  - star rows: J Scheat → J Gonggong RA 17.0125 17 whole (14.21) — only
-    - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
 - **Haumea**
   - star rows: H Murzim → H Haumea RA 115.0132 115 whole (11.43) — only
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
   - top rows: S Sun → J Haumea RA 124.9973 125 whole (75.21) — only
+- **Venus**
+  - star rows: H Sadalsuud → H Venus Dec 23.9925 24 whole (39.03) — also: 1 Miranda / Bryony Frost
+    - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
 - **Quaoar**
   - star rows: H Sadalsuud → H Quaoar Dec 9.9947 10 whole (53.75) — also: 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - star rows: J Castor → J Quaoar Dec 45.0159 45 whole (4.20) — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - star rows: J Deneb → J Quaoar RA 78.0127 78 whole (13.28) — also: 1 Miranda / Bryony Frost
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
 - **Transpluto**
   - star rows: H Sadalsuud → H Transpluto Dec 17.0120 17 whole (15.86) — only
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
+- **Rahu**
+  - star rows: H Scheat → H Rahu RA 156.9390 97×φ golden (46.34) — also: 5 Miss Heritage / Sean Quinlan
+    - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
+  - same body: S Rahu → J Rahu RA 88.8053 88.8889 ninth (loose) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+- **Gonggong**
+  - star rows: H Scheat → H Gonggong Dec 40.9802 41 whole (0.01) — only
+    - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
+  - star rows: J Scheat → J Gonggong RA 17.0125 17 whole (14.21) — only
+    - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
 - **Juno**
   - star rows: H Wezen → H Juno RA 17.9487 φ^6 phi power (90.32) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
     - source line: S Sun → Wezen RA 155.3330 96×φ golden (89.39)
@@ -1817,14 +1460,20 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
   - star rows: J Wezen → J Chiron RA 0.7558 conj (24.61) — only
     - source line: S Sun → Wezen RA 155.3330 96×φ golden (89.39)
+- **Sedna**
+  - same body: S Sedna → J Sedna Dec 4.0085 4 whole (33.08) — also: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan
+  - star rows: J Adhara → J Sedna Dec 32.9921 33 whole (36.52) — also: 2 Western Victory / Tom Bellamy
+    - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
+  - star rows: J Difda → J Sedna Dec 22.0086 22 whole (32.62) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+    - source line: S Sun → Difda Dec 0.0705 conj (58.51)
+  - star rows: J Murzim → J Sedna RA 53.3989 33×φ golden (78.24) — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
+    - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
 - **Uranus**
   - top rows: S Moon → J Uranus RA 0.8122 conj (21.03) — only
   - star rows: J Adhara → J Uranus RA 167.0102 167 whole (24.12) — only
     - source line: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
   - star rows: J Castor → J Uranus RA 158.0174 158 whole (1.65) — also: 1 Miranda / Bryony Frost
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - star rows: J Deneb → J Uranus Dec 68.9867 69 whole (11.15) — only
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
   - star rows: J Murzim → J Uranus RA 175.9907 176 whole (28.69) — only
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
 
@@ -1854,21 +1503,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, top rows: S Sun → J Jupiter RA 51.0018 51 whole (83.24)
   - other chart, top rows: S Pluto → J Jupiter Dec 0.2439 conj (3.50)
 - **H Rahu** (same body: S Rahu → H Rahu Dec 30.7467 19×φ golden (76.56))
-  - star rows: H Phact → H Rahu RA 121.3396 75×φ golden (35.88)
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
-  - other chart, star rows: J Deneb → J Rahu RA 124.5830 77×φ golden (68.35)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - other chart, star rows: J Phact → J Rahu RA 9.9834 10 whole (2.85)
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - other chart, star rows: J Scheat → J Rahu RA 88.9936 55×φ golden (89.37)
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
 - **H Ketu** (same body: S Ketu → H Ketu Dec 30.7467 19×φ golden (76.56))
   - star rows: H Castor → H Ketu Dec 21.0349 13×φ golden (97.41)
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - other chart, star rows: J Deneb → J Ketu Dec 68.0026 68 whole (75.49)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - other chart, star rows: J Phact → J Ketu RA 170.0166 170 whole (2.85)
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - other chart, star rows: J Sadalsuud → J Ketu RA 67.9512 42×φ golden (65.33)
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - other chart, star rows: J Scheat → J Ketu RA 91.0064 91 whole (46.50)
@@ -1886,13 +1525,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - sky line to Neptune: S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)
   - other chart, top rows: S Jupiter → H Neptune RA 0.1321 conj (83.16)
   - other chart, top rows: S Jupiter → H Neptune Dec 0.2597 conj (1.80)
-  - other chart, star rows: H Deneb → H Neptune RA 27.9910 28 whole (30.25)
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
 - **J Pluto** (same body: S Pluto → J Pluto Dec 26.1314 10×φ^2 phi power (loose))
   - other chart, star rows: H Castor → H Pluto Dec 51.9949 52 whole (55.81)
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - other chart, star rows: H Menkar → H Pluto RA 121.3361 75×φ golden (24.28)
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - other chart, star rows: H Sualocin → H Pluto Dec 36.0150 36 whole (6.13)
     - source line: S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
 - **J Vesta** (same body: S Vesta → J Vesta RA 161.0144 161 whole (7.81))
@@ -1904,8 +1539,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
   - star rows: J Difda → J Sedna RA 27.9916 28 whole (33.73)
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: J Menkar → J Sedna Dec 1.0088 1 whole (31.26)
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - star rows: J Murzim → J Sedna Dec 21.0370 13×φ golden (85.02)
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
   - star rows: J Sadalsuud → J Sedna RA 76.0030 76 whole (72.07)
@@ -1933,8 +1566,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
   - star rows: J Difda → J Quaoar RA 143.9958 144 whole (62.33)
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: J Phact → J Quaoar RA 141.9835 142 whole (3.00)
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: J Sadalsuud → J Quaoar RA 95.9844 96 whole (4.81)
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - star rows: J Sualocin → J Quaoar RA 83.0028 83 whole (73.73)
@@ -1955,27 +1586,21 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Orcus → J Orcus RA 32.3540 20×φ golden (loose)
     - S Orcus → J Orcus Dec 18.8690 18.8889 ninth (loose)
 - **3. runner number = sky number**
-  - 24 whole — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
-    - S Moon → H Mercury Dec 24.0055 24 whole (52.78) = S Jupiter → Phact Dec 23.9930 24 whole (42.18)
-  - 100×φ^1 phi power — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+  - 100×φ^1 phi power — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
     - H Adhara → H Quaoar RA 161.8432 100×φ^1 phi power (90.39) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
   - 18.8889 ninth — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
     - S Orcus → J Orcus Dec 18.8690 18.8889 ninth (loose) = S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
-  - 13.3333 ninth — also: 3 Anna Bunina / James Bowen
+  - 13.3333 ninth — only
     - J Castor → J Vesta Dec 13.3346 13.3333 ninth (98.50) = S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)
-  - 26 whole — also: 2 Western Victory / Tom Bellamy
-    - J Menkar → J Uranus Dec 26.0086 26 whole (32.50) = S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
   - 11.1111 ninth — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
     - J Murzim → J Juno Dec 11.1146 11.1111 ninth (94.26) = S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
-  - 100×φ^1 phi power — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+  - 100×φ^1 phi power — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
     - J Sadalsuud → J Orcus RA 161.8053 100×φ^1 phi power (99.53) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
 - **4. circle divisions**
   - 24 = 360/15 — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
     - S Moon → H Mercury Dec 24.0055 24 whole (52.78)
   - 10 = 360/36 — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
     - H Difda → H Orcus Dec 9.9930 10 whole (41.93)
-  - 20 = 360/18 — only
-    - H Menkar → H Saturn Dec 20.0148 20 whole (6.78)
   - 10 = 360/36 — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
     - H Sadalsuud → H Quaoar Dec 9.9917 10 whole (34.14)
   - 36 = 360/10 — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
@@ -1988,12 +1613,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Sun → J Uranus Dec 3.9991 4 whole (90.75)
   - 5 = 360/72 — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
     - J Difda → J Sun Dec 5.0085 5 whole (32.85)
-  - 8 = 360/45 — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
-    - J Menkar → J Mars Dec 7.9898 8 whole (24.16)
-  - 1 = 360/360 — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
-    - J Menkar → J Sedna Dec 1.0088 1 whole (31.26)
-  - 10 = 360/36 — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
-    - J Phact → J Rahu RA 9.9834 10 whole (2.85)
 - **5. same number in more than one place**
   - 19×φ golden — only
     - S Rahu → H Rahu Dec 30.7467 19×φ golden (76.56)
@@ -2007,7 +1626,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 21 whole — also: 1 Miranda / Bryony Frost
     - H Adhara → H Orcus Dec 20.9811 21 whole (0.28)
     - S Sun → J Sedna Dec 21.0007 21 whole (92.86)
-  - 100×φ^1 phi power — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
+  - 100×φ^1 phi power — also: 4 Dazzling Glory / Harry Skelton
     - H Adhara → H Quaoar RA 161.8432 100×φ^1 phi power (90.39)
     - J Sadalsuud → J Orcus RA 161.8053 100×φ^1 phi power (99.53)
   - 13 whole — only
@@ -2016,34 +1635,21 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 50 whole — only
     - H Alphard → H Makemake RA 50.0196 50 whole (0.04)
     - J Scheat → J Uranus Dec 50.0031 50 whole (71.45)
-  - 77×φ golden — only
-    - H Alphard → H Quaoar RA 124.5997 77×φ golden (43.34)
-    - J Deneb → J Rahu RA 124.5830 77×φ golden (68.35)
   - 52 whole — only
     - H Castor → H Pluto Dec 51.9949 52 whole (55.81)
     - S Moon → J Saturn RA 51.9990 52 whole (90.10)
   - 13×φ golden — only
     - H Castor → H Ketu Dec 21.0349 13×φ golden (97.41)
     - J Murzim → J Sedna Dec 21.0370 13×φ golden (85.02)
-  - 28 whole — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
-    - H Deneb → H Neptune RA 27.9910 28 whole (30.25)
-    - J Difda → J Sedna RA 27.9916 28 whole (33.73)
   - 10 whole — only
     - H Difda → H Orcus Dec 9.9930 10 whole (41.93)
     - H Sadalsuud → H Quaoar Dec 9.9917 10 whole (34.14)
-    - J Phact → J Rahu RA 9.9834 10 whole (2.85)
-  - 75×φ golden — only
-    - H Menkar → H Pluto RA 121.3361 75×φ golden (24.28)
-    - H Phact → H Rahu RA 121.3396 75×φ golden (35.88)
   - 118 whole — only
     - H Sualocin → H Makemake RA 117.9882 118 whole (16.93)
     - S Jupiter → J Saturn RA 118.0000 118 whole (99.90)
   - 5 whole — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
     - S Venus → J Venus Dec 4.9918 5 whole (34.59)
     - J Difda → J Sun Dec 5.0085 5 whole (32.85)
-  - 29 whole — only
-    - J Deneb → J Chiron Dec 28.9936 29 whole (45.92)
-    - J Murzim → J Orcus RA 29.0115 29 whole (17.98)
 ### L4 every natal body
 - **Mercury**
   - same body: S Mercury → H Mercury Dec 14.4626 14.4444 ninth (loose) — also: 1 Miranda / Bryony Frost
@@ -2057,22 +1663,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Pluto → J Jupiter Dec 0.2439 conj (3.50) — only
 - **Rahu**
   - same body: S Rahu → H Rahu Dec 30.7467 19×φ golden (76.56) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
-  - star rows: H Phact → H Rahu RA 121.3396 75×φ golden (35.88) — also: 3 Anna Bunina / James Bowen
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
-  - star rows: J Deneb → J Rahu RA 124.5830 77×φ golden (68.35) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - star rows: J Phact → J Rahu RA 9.9834 10 whole (2.85) — also: 3 Anna Bunina / James Bowen
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: J Scheat → J Rahu RA 88.9936 55×φ golden (89.37) — also: 4 Dazzling Glory / Harry Skelton
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
 - **Ketu**
   - same body: S Ketu → H Ketu Dec 30.7467 19×φ golden (76.56) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
   - star rows: H Castor → H Ketu Dec 21.0349 13×φ golden (97.41) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - star rows: J Deneb → J Ketu Dec 68.0026 68 whole (75.49) — also: 2 Western Victory / Tom Bellamy
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-  - star rows: J Phact → J Ketu RA 170.0166 170 whole (2.85) — only
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: J Sadalsuud → J Ketu RA 67.9512 42×φ golden (65.33) — also: 1 Miranda / Bryony Frost
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - star rows: J Scheat → J Ketu RA 91.0064 91 whole (46.50) — also: 4 Dazzling Glory / Harry Skelton
@@ -2080,8 +1676,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Neptune**
   - top rows: S Jupiter → H Neptune RA 0.1321 conj (83.16) — also: 1 Miranda / Bryony Frost
   - top rows: S Jupiter → H Neptune Dec 0.2597 conj (1.80) — also: 1 Miranda / Bryony Frost
-  - star rows: H Deneb → H Neptune RA 27.9910 28 whole (30.25) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
   - same body: S Neptune → J Neptune Dec 17.6924 17.7778 ninth (loose) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
     - source line: S Sun → Neptune RA 40.4536 25×φ golden (83.58)
     - source line: S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)
@@ -2122,8 +1716,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
   - star rows: J Difda → J Quaoar RA 143.9958 144 whole (62.33) — only
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: J Phact → J Quaoar RA 141.9835 142 whole (3.00) — also: 3 Anna Bunina / James Bowen
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: J Sadalsuud → J Quaoar RA 95.9844 96 whole (4.81) — also: 4 Dazzling Glory / Harry Skelton
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - star rows: J Sualocin → J Quaoar RA 83.0028 83 whole (73.73) — only
@@ -2133,13 +1725,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
   - star rows: H Difda → H Uranus RA 0.8633 conj (18.02) — only
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: H Menkar → H Uranus Dec 0.2578 conj (1.98) — also: 2 Western Victory / Tom Bellamy
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - star rows: H Wezen → H Uranus Dec 30.7427 19×φ golden (99.94) — also: 1 Miranda / Bryony Frost
     - source line: S Sun → Wezen RA 155.3330 96×φ golden (89.39)
   - top rows: S Sun → J Uranus Dec 3.9991 4 whole (90.75) — only
-  - star rows: J Menkar → J Uranus Dec 26.0086 26 whole (32.50) — also: 2 Western Victory / Tom Bellamy
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - star rows: J Scheat → J Uranus Dec 50.0031 50 whole (71.45) — also: 2 Western Victory / Tom Bellamy
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
   - star rows: J Wezen → J Uranus RA 141.4383 141.4 sqrt2 (95.27) — also: 1 Miranda / Bryony Frost
@@ -2147,8 +1735,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Makemake**
   - star rows: H Alphard → H Makemake RA 50.0196 50 whole (0.04) — also: 1 Miranda / Bryony Frost
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
-  - star rows: H Phact → H Makemake RA 107.0095 107 whole (27.54) — also: 1 Miranda / Bryony Frost
-    - source line: S Jupiter → Phact Dec 23.9930 24 whole (42.18)
   - star rows: H Scheat → H Makemake RA 154.0199 154 whole (0.00) — only
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
   - star rows: H Sualocin → H Makemake RA 117.9882 118 whole (16.93) — also: 1 Miranda / Bryony Frost
@@ -2158,8 +1744,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Pluto**
   - star rows: H Castor → H Pluto Dec 51.9949 52 whole (55.81) — only
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-  - star rows: H Menkar → H Pluto RA 121.3361 75×φ golden (24.28) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - star rows: H Sualocin → H Pluto Dec 36.0150 36 whole (6.13) — also: 2 Western Victory / Tom Bellamy
     - source line: S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
   - same body: S Pluto → J Pluto Dec 26.1314 10×φ^2 phi power (loose) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
@@ -2171,29 +1755,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
   - star rows: J Murzim → J Pallas RA 159.9807 160 whole (0.12) — also: 2 Western Victory / Tom Bellamy
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
-- **Saturn**
-  - star rows: H Menkar → H Saturn Dec 20.0148 20 whole (6.78) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
-  - star rows: H Scheat → H Saturn Dec 44.0075 44 whole (39.06) — also: 4 Dazzling Glory / Harry Skelton
-    - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
-  - top rows: S Jupiter → J Saturn RA 118.0000 118 whole (99.90) — also: 3 Anna Bunina / James Bowen
-  - top rows: S Moon → J Saturn RA 51.9990 52 whole (90.10) — only
-  - star rows: J Wezen → J Saturn Dec 13.0067 13 whole (44.01) — also: 1 Miranda / Bryony Frost
-    - source line: S Sun → Wezen RA 155.3330 96×φ golden (89.39)
 - **Chiron**
-  - star rows: H Menkar → H Chiron RA 61.0102 61 whole (23.92) — only
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - star rows: H Murzim → H Chiron RA 111.1188 111.111 ninth (98.74) — also: 3 Anna Bunina / James Bowen
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
   - star rows: H Scheat → H Chiron RA 1.3843 conj (0.59) — also: 1 Miranda / Bryony Frost
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
-  - star rows: J Deneb → J Chiron Dec 28.9936 29 whole (45.92) — also: 3 Anna Bunina / James Bowen
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
-- **Gonggong**
-  - star rows: H Menkar → H Gonggong RA 69.9912 70 whole (31.55) — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
-  - star rows: J Deneb → J Gonggong RA 16.6678 16.6667 ninth (98.99) — also: 1 Miranda / Bryony Frost
-    - source line: S Sun → Deneb RA 1.4205 conj (0.28)
 - **Mars**
   - star rows: H Sadalsuud → H Mars Dec 0.2339 conj (4.86) — only
     - source line: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
@@ -2201,11 +1767,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Wezen RA 155.3330 96×φ golden (89.39)
   - star rows: J Difda → J Mars RA 177.7911 177.778 ninth (98.95) — only
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: J Menkar → J Mars Dec 7.9898 8 whole (24.16) — only
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - star rows: J Scheat → J Mars Dec 31.9843 32 whole (4.68) — also: 2 Western Victory / Tom Bellamy
     - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
   - star rows: J Wezen → J Mars RA 86.0037 86 whole (66.66) — only
+    - source line: S Sun → Wezen RA 155.3330 96×φ golden (89.39)
+- **Saturn**
+  - star rows: H Scheat → H Saturn Dec 44.0075 44 whole (39.06) — also: 4 Dazzling Glory / Harry Skelton
+    - source line: S Sun → Scheat Dec 46.0028 46 whole (73.65)
+  - top rows: S Jupiter → J Saturn RA 118.0000 118 whole (99.90) — also: 3 Anna Bunina / James Bowen
+  - top rows: S Moon → J Saturn RA 51.9990 52 whole (90.10) — only
+  - star rows: J Wezen → J Saturn Dec 13.0067 13 whole (44.01) — also: 1 Miranda / Bryony Frost
     - source line: S Sun → Wezen RA 155.3330 96×φ golden (89.39)
 - **Venus**
   - same body: S Venus → J Venus Dec 4.9918 5 whole (34.59) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
@@ -2220,8 +1791,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
   - star rows: J Difda → J Sedna RA 27.9916 28 whole (33.73) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
     - source line: S Sun → Difda Dec 0.0705 conj (58.51)
-  - star rows: J Menkar → J Sedna Dec 1.0088 1 whole (31.26) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
-    - source line: S Sun → Menkar Dec 22.0070 22 whole (42.05)
   - star rows: J Murzim → J Sedna Dec 21.0370 13×φ golden (85.02) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
     - source line: S Sun → Murzim Dec 0.0394 conj (75.49)
   - star rows: J Sadalsuud → J Sedna RA 76.0030 76 whole (72.07) — also: 3 Anna Bunina / James Bowen

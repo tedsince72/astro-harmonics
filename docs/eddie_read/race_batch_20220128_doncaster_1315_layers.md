@@ -7,25 +7,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - Cloth numbers not in the tables workbook: none
 
 ## Sky (noted lines)
-- S Jupiter → Pallas Dec 0.2883 conj (0.15)
-- S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
 - S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
-- S Sun → Difda Dec 0.2061 conj (9.80)
 - S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-- S Sun → Murzim Dec 0.2373 conj (4.37)
 - S Sun → Alkes Dec 0.1028 conj (43.21)
 - S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
 - S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
-- S Sun → Altair RA 13.0065 13 whole (45.24)
 - S Sun → Sualocin RA 0.7960 conj (22.03)
 - S Sun → Deneb RA 0.3500 conj (58.78)
-- S Moon → Mercury Dec 8.0060 8 whole (49.15)
 - S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
 - S Moon → Adhara RA 151.0059 151 whole (50.02)
 - S Moon → Menkent RA 44.0012 44 whole (88.65)
 - S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
 - S Moon → Alphecca RA 21.9974 22 whole (76.10)
-- S Moon → Alphecca Dec 51.9929 52 whole (41.36)
 - Hubs: none
 
 ## 1 Funambule Sivola / Charlie Deutsch
@@ -49,27 +42,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 ### L2 what lands on each same body
 - **H Uranus** (same body: S Uranus → H Uranus RA 26.0088 26 whole (31.35))
   - top rows: S Jupiter → H Uranus RA 34.0018 34 whole (83.15)
-  - star rows: H Diadem → H Uranus RA 174.7595 108×φ golden (40.42)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - star rows: H Difda → H Uranus RA 1.3609 conj (0.86)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: H Rasalhague → H Uranus Dec 7.9967 8 whole (70.12)
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
   - star rows: H Zubeneschamali → H Uranus RA 143.0064 143 whole (46.27)
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
-  - other chart, star rows: J Altair → J Uranus RA 9.0156 9 whole (4.93)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
 - **H Pluto** (same body: S Pluto → H Pluto Dec 1.9858 2 whole (8.28))
   - star rows: H Alkes → H Pluto RA 120.0075 120 whole (39.10)
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - other chart, same body: S Pluto → J Pluto RA 57.0054 57 whole (53.12)
   - other chart, star rows: J Alphecca → J Pluto Dec 33.9826 34 whole (1.69)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - other chart, star rows: J Arcturus → J Pluto RA 27.9929 28 whole (41.60)
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - other chart, star rows: J Difda → J Pluto RA 128.9816 129 whole (0.63)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - other chart, star rows: J Sualocin → J Pluto RA 67.9997 68 whole (97.14)
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **H Vesta** (same body: S Vesta → H Vesta RA 24.1362 24.14 silver (loose))
@@ -80,25 +64,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
   - star rows: H Alphecca → H Vesta RA 69.9958 70 whole (62.47)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: H Difda → H Vesta Dec 2.9966 3 whole (68.97)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: H Menkent → H Vesta RA 91.9980 92 whole (80.86)
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
-  - star rows: H Murzim → H Vesta RA 152.0131 152 whole (11.86)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - other chart, star rows: J Alphecca → J Vesta RA 10.9949 11 whole (55.67)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - other chart, star rows: J Alphecca → J Vesta Dec 33.9835 34 whole (3.01)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - other chart, star rows: J Altair → J Vesta RA 75.0173 75 whole (1.88)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - other chart, star rows: J Menkent → J Vesta RA 11.0066 11 whole (44.82)
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
-  - other chart, star rows: J Murzim → J Vesta RA 127.0131 127 whole (11.88)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **H Rahu** (same body: S Rahu → H Rahu RA 134.3072 83×φ golden (loose))
   - top rows: S Sun → H Rahu RA 119.7352 74×φ golden (95.77)
   - star rows: H Alkes → H Rahu RA 26.0187 26 whole (0.42)
@@ -112,8 +85,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - other chart, star rows: J Arcturus → J Rahu RA 19.9845 20 whole (5.06)
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - other chart, star rows: J Murzim → J Rahu Dec 11.9956 12 whole (61.12)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **H Gonggong** (same body: S Gonggong → H Gonggong RA 1.4131 1.414 sqrt2 (loose))
   - top rows: S Jupiter → H Gonggong Dec 3.0026 3 whole (75.56)
   - other chart, top rows: S Sun → J Gonggong RA 20.9968 21 whole (70.92)
@@ -122,15 +93,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - other chart, star rows: J Alphecca → J Gonggong RA 98.0196 98 whole (0.04)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - other chart, star rows: J Altair → J Gonggong RA 33.9973 34 whole (74.45)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
-  - other chart, star rows: J Diadem → J Gonggong Dec 35.5966 22×φ golden (98.99)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - other chart, star rows: J Difda → J Gonggong Dec 0.0807 conj (53.42)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
-  - other chart, star rows: J Murzim → J Gonggong Dec 0.1094 conj (40.37)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - other chart, star rows: J Rasalhague → J Gonggong RA 67.9578 42×φ golden (97.64)
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
   - other chart, star rows: J Sualocin → J Gonggong Dec 33.9767 21×φ golden (87.80)
@@ -143,9 +105,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: H Alphecca → H Ketu Dec 21.9970 22 whole (72.03)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: H Difda → H Ketu RA 0.0692 conj (90.99)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - other chart, same body: S Ketu → J Ketu Dec 25.8685 16×φ golden (loose)
   - other chart, star rows: J Alkes → J Ketu RA 151.0076 151 whole (38.51)
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
@@ -154,25 +113,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Pluto** (same body: S Pluto → J Pluto RA 57.0054 57 whole (53.12))
   - star rows: J Alphecca → J Pluto Dec 33.9826 34 whole (1.69)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Arcturus → J Pluto RA 27.9929 28 whole (41.60)
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: J Difda → J Pluto RA 128.9816 129 whole (0.63)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: J Sualocin → J Pluto RA 67.9997 68 whole (97.14)
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
   - other chart, same body: S Pluto → H Pluto Dec 1.9858 2 whole (8.28)
   - other chart, star rows: H Alkes → H Pluto RA 120.0075 120 whole (39.10)
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
 - **J Chiron** (same body: S Chiron → J Chiron RA 179.2894 10×φ^6 phi power (loose))
-  - star rows: J Altair → J Chiron RA 111.1113 111.111 ninth (99.97)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: J Ankaa → J Chiron RA 179.9801 180 whole (0.00)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - other chart, star rows: H Alkes → H Chiron RA 179.4429 10×φ^6 phi power (99.95)
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
-  - other chart, star rows: H Murzim → H Chiron Dec 16.1824 10×φ^1 phi power (95.06)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **J Ceres** (same body: S Ceres → J Ceres Dec 38.0221 38 whole (loose))
   - star rows: J Zubeneschamali → J Ceres RA 16.0106 16 whole (22.30)
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
@@ -182,18 +134,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - other chart, star rows: H Alphecca → H Ceres RA 46.0093 46 whole (28.80)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - other chart, star rows: H Alphecca → H Ceres Dec 51.0013 51 whole (87.19)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - other chart, star rows: H Altair → H Ceres RA 18.0125 18 whole (14.17)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - other chart, star rows: H Deneb → H Ceres Dec 69.5702 43×φ golden (69.96)
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
   - other chart, star rows: H Menkent → H Ceres RA 68.0114 68 whole (18.31)
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
-  - other chart, star rows: H Murzim → H Ceres RA 175.9997 176 whole (96.57)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **J Rahu** (same body: S Rahu → J Rahu Dec 25.8685 16×φ golden (loose))
   - star rows: J Adhara → J Rahu Dec 23.0124 23 whole (14.31)
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
@@ -201,8 +147,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: J Arcturus → J Rahu RA 19.9845 20 whole (5.06)
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: J Murzim → J Rahu Dec 11.9956 12 whole (61.12)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - other chart, same body: S Rahu → H Rahu RA 134.3072 83×φ golden (loose)
   - other chart, top rows: S Sun → H Rahu RA 119.7352 74×φ golden (95.77)
   - other chart, star rows: H Alkes → H Rahu RA 26.0187 26 whole (0.42)
@@ -217,30 +161,21 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
   - star rows: J Deneb → J Sedna RA 94.9881 95 whole (16.60)
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
-  - star rows: J Difda → J Sedna Dec 23.0034 23 whole (68.98)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - other chart, top rows: S Jupiter → H Sedna RA 76.0033 76 whole (69.68)
   - other chart, top rows: S Sun → H Sedna RA 103.5580 64×φ golden (77.49)
   - other chart, top rows: S Moon → H Sedna Dec 32.3672 20×φ golden (63.86)
   - other chart, star rows: H Alphecca → H Sedna RA 179.4127 10×φ^6 phi power (93.42)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - other chart, star rows: H Murzim → H Sedna RA 41.4216 41.4 silver (99.74)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - other chart, star rows: H Zubeneschamali → H Sedna RA 174.9921 175 whole (36.37)
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 13.3135 13.3333 ninth (loose))
   - star rows: J Deneb → J Orcus RA 176.3771 109×φ golden (41.82)
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
-  - other chart, star rows: H Altair → H Orcus Dec 17.7787 17.7778 ninth (99.31)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - other chart, star rows: H Ankaa → H Orcus RA 144.4056 144.444 ninth (95.89)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
 - **J Quaoar** (same body: S Quaoar → J Quaoar Dec 1.3334 1.33333 ninth (99.25))
   - star rows: J Alnilam → J Quaoar Dec 12.9425 8×φ golden (89.44)
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - star rows: J Altair → J Quaoar Dec 23.0119 23 whole (16.43)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: J Arcturus → J Quaoar Dec 33.3302 33.3333 ninth (96.22)
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
   - star rows: J Menkent → J Quaoar Dec 22.2273 22.2222 ninth (92.92)
@@ -249,10 +184,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
   - other chart, star rows: H Menkent → H Quaoar RA 55.5513 55.5556 ninth (96.00)
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
-  - other chart, star rows: H Murzim → H Quaoar RA 171.5402 106×φ golden (1.32)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
-  - other chart, star rows: H Murzim → H Quaoar Dec 2.2221 2.22222 ninth (98.79)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **J Ketu** (same body: S Ketu → J Ketu Dec 25.8685 16×φ golden (loose))
   - star rows: J Alkes → J Ketu RA 151.0076 151 whole (38.51)
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
@@ -266,9 +197,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - other chart, star rows: H Alphecca → H Ketu Dec 21.9970 22 whole (72.03)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - other chart, star rows: H Difda → H Ketu RA 0.0692 conj (90.99)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
 ### L3 matches
 - **1. same body on both charts**
   - Pluto — only
@@ -287,59 +215,39 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **3. runner number = sky number**
   - 44.4444 ninth — also: 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
     - S Moon → H Haumea RA 44.4408 44.4444 ninth (96.17) = S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - 8 whole — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
-    - H Adhara → H Vesta Dec 7.9884 8 whole (17.81) = S Moon → Mercury Dec 8.0060 8 whole (49.15)
-  - 22 whole — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+  - 22 whole — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
     - H Alphecca → H Ketu Dec 21.9970 22 whole (72.03) = S Moon → Alphecca RA 21.9974 22 whole (76.10)
-  - 8 whole — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
-    - H Murzim → H Neptune Dec 8.0056 8 whole (51.63) = S Moon → Mercury Dec 8.0060 8 whole (49.15)
-  - 10×φ^1 phi power — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - H Murzim → H Chiron Dec 16.1824 10×φ^1 phi power (95.06) = S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
-  - 8 whole — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
-    - H Rasalhague → H Uranus Dec 7.9967 8 whole (70.12) = S Moon → Mercury Dec 8.0060 8 whole (49.15)
   - 151 whole — only
     - J Alkes → J Ketu RA 151.0076 151 whole (38.51) = S Moon → Adhara RA 151.0059 151 whole (50.02)
 - **4. circle divisions**
   - 2 = 360/180 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
     - S Pluto → H Pluto Dec 1.9858 2 whole (8.28)
-  - 3 = 360/120 — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
+  - 3 = 360/120 — also: 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
     - S Jupiter → H Gonggong Dec 3.0026 3 whole (75.56)
   - 30 = 360/12 — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
     - S Moon → H Ketu Dec 29.9960 30 whole (63.77)
-  - 8 = 360/45 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
+  - 8 = 360/45 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - H Adhara → H Vesta Dec 7.9884 8 whole (17.81)
   - 120 = 360/3 — only
     - H Alkes → H Pluto RA 120.0075 120 whole (39.10)
-  - 6 = 360/60 — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
+  - 6 = 360/60 — also: 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
     - H Alkes → H Ceres Dec 5.9921 6 whole (36.65)
   - 40 = 360/9 — also: 7 Gold Des Bois / Conor O'Farrell
     - H Alphecca → H Makemake RA 40.0137 40 whole (9.78)
   - 18 = 360/20 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-    - H Altair → H Ceres RA 18.0125 18 whole (14.17)
-  - 5 = 360/72 — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
-    - H Altair → H Juno Dec 5.0074 5 whole (39.89)
-  - 3 = 360/120 — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
-    - H Difda → H Vesta Dec 2.9966 3 whole (68.97)
-  - 18 = 360/20 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - H Menkent → H Makemake RA 18.0116 18 whole (17.77)
-  - 8 = 360/45 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
-    - H Murzim → H Neptune Dec 8.0056 8 whole (51.63)
-  - 8 = 360/45 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
+  - 8 = 360/45 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - H Rasalhague → H Uranus Dec 7.9967 8 whole (70.12)
-  - 3 = 360/120 — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
+  - 3 = 360/120 — also: 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
     - S Sedna → J Sedna Dec 3.0131 3 whole (11.92)
   - 4 = 360/90 — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
     - J Alnilam → J Venus RA 4.0052 4 whole (54.76)
   - 2 = 360/180 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
     - J Alphecca → J Pallas Dec 2.0038 2 whole (65.82)
-  - 9 = 360/40 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
-    - J Altair → J Uranus RA 9.0156 9 whole (4.93)
   - 180 = 360/2 — only
     - J Ankaa → J Chiron RA 179.9801 180 whole (0.00)
   - 20 = 360/18 — also: 6 Moonlighter / Tom Scudamore
     - J Arcturus → J Rahu RA 19.9845 20 whole (5.06)
-  - 12 = 360/30 — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
-    - J Murzim → J Rahu Dec 11.9956 12 whole (61.12)
 - **5. same number in more than one place**
   - 26 whole — also: 5 Fransham / Jack Andrews
     - S Uranus → H Uranus RA 26.0088 26 whole (31.35)
@@ -350,15 +258,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 83×φ golden — only
     - S Rahu → H Rahu RA 134.3072 83×φ golden (loose)
     - S Ketu → H Ketu RA 134.3072 83×φ golden (loose)
-  - 34 whole — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
+  - 34 whole — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton
     - S Jupiter → H Uranus RA 34.0018 34 whole (83.15)
     - J Adhara → J Sedna Dec 33.9915 34 whole (33.26)
     - J Alphecca → J Pluto Dec 33.9826 34 whole (1.69)
     - J Alphecca → J Vesta Dec 33.9835 34 whole (3.01)
-    - J Altair → J Gonggong RA 33.9973 34 whole (74.45)
-  - 3 whole — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
+  - 3 whole — also: 7 Gold Des Bois / Conor O'Farrell
     - S Jupiter → H Gonggong Dec 3.0026 3 whole (75.56)
-    - H Difda → H Vesta Dec 2.9966 3 whole (68.97)
     - S Sedna → J Sedna Dec 3.0131 3 whole (11.92)
   - 20×φ golden — also: 5 Fransham / Jack Andrews
     - S Moon → H Sedna Dec 32.3672 20×φ golden (63.86)
@@ -368,7 +274,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Zubeneschamali → H Sedna RA 174.9921 175 whole (36.37)
   - 8 whole — also: 3 The Big Bite / Brian Hughes
     - H Adhara → H Vesta Dec 7.9884 8 whole (17.81)
-    - H Murzim → H Neptune Dec 8.0056 8 whole (51.63)
     - H Rasalhague → H Uranus Dec 7.9967 8 whole (70.12)
   - 10×φ^6 phi power — only
     - H Alkes → H Chiron RA 179.4429 10×φ^6 phi power (99.95)
@@ -377,11 +282,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 23 whole — also: 5 Fransham / Jack Andrews
     - H Alkes → H Ketu Dec 23.0122 23 whole (15.05)
     - J Adhara → J Rahu Dec 23.0124 23 whole (14.31)
-    - J Altair → J Quaoar Dec 23.0119 23 whole (16.43)
-    - J Difda → J Sedna Dec 23.0034 23 whole (68.98)
-  - 18 whole — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - H Altair → H Ceres RA 18.0125 18 whole (14.17)
-    - H Menkent → H Makemake RA 18.0116 18 whole (17.77)
   - 43×φ golden — only
     - H Deneb → H Ceres Dec 69.5702 43×φ golden (69.96)
     - S Haumea → J Jupiter RA 69.5774 43×φ golden (88.65)
@@ -391,23 +291,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 68 whole — only
     - H Menkent → H Ceres RA 68.0114 68 whole (18.31)
     - J Sualocin → J Pluto RA 67.9997 68 whole (97.14)
-  - 2.22222 ninth — only
-    - H Murzim → H Quaoar Dec 2.2221 2.22222 ninth (98.79)
-    - S Eris → J Eris RA 2.2278 2.22222 ninth (loose)
-    - J Sualocin → J Transpluto Dec 2.2228 2.22222 ninth (91.96)
   - 22×φ golden — also: 2 Before Midnight / James Bowen
     - H Zubeneschamali → H Makemake RA 35.5931 22×φ golden (78.75)
-    - J Diadem → J Gonggong Dec 35.5966 22×φ golden (98.99)
     - J Rasalhague → J Neptune RA 35.5978 22×φ golden (93.64)
   - 16×φ golden — only
     - S Rahu → J Rahu Dec 25.8685 16×φ golden (loose)
     - S Ketu → J Ketu Dec 25.8685 16×φ golden (loose)
+  - 2.22222 ninth — only
+    - S Eris → J Eris RA 2.2278 2.22222 ninth (loose)
+    - J Sualocin → J Transpluto Dec 2.2228 2.22222 ninth (91.96)
   - 8×φ golden — only
     - S Sedna → J Sedna RA 12.9676 8×φ golden (loose)
     - J Alnilam → J Quaoar Dec 12.9425 8×φ golden (89.44)
-  - 111.111 ninth — only
-    - S Uranus → J Jupiter RA 111.1423 111.111 ninth (94.90)
-    - J Altair → J Chiron RA 111.1113 111.111 ninth (99.97)
   - 11 whole — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
     - J Alphecca → J Vesta RA 10.9949 11 whole (55.67)
     - J Menkent → J Vesta RA 11.0066 11 whole (44.82)
@@ -424,16 +319,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Uranus**
   - same body: S Uranus → H Uranus RA 26.0088 26 whole (31.35) — also: 3 The Big Bite / Brian Hughes
   - top rows: S Jupiter → H Uranus RA 34.0018 34 whole (83.15) — only
-  - star rows: H Diadem → H Uranus RA 174.7595 108×φ golden (40.42) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - star rows: H Difda → H Uranus RA 1.3609 conj (0.86) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: H Rasalhague → H Uranus Dec 7.9967 8 whole (70.12) — also: 5 Fransham / Jack Andrews
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
   - star rows: H Zubeneschamali → H Uranus RA 143.0064 143 whole (46.27) — only
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
-  - star rows: J Altair → J Uranus RA 9.0156 9 whole (4.93) — only
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
 - **Pluto**
   - same body: S Pluto → H Pluto Dec 1.9858 2 whole (8.28) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
   - star rows: H Alkes → H Pluto RA 120.0075 120 whole (39.10) — also: 6 Moonlighter / Tom Scudamore
@@ -441,11 +330,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Pluto → J Pluto RA 57.0054 57 whole (53.12) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
   - star rows: J Alphecca → J Pluto Dec 33.9826 34 whole (1.69) — also: 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Arcturus → J Pluto RA 27.9929 28 whole (41.60) — also: 3 The Big Bite / Brian Hughes
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: J Difda → J Pluto RA 128.9816 129 whole (0.63) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: J Sualocin → J Pluto RA 67.9997 68 whole (97.14) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **Vesta**
@@ -457,25 +343,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
   - star rows: H Alphecca → H Vesta RA 69.9958 70 whole (62.47) — also: 2 Before Midnight / James Bowen
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: H Difda → H Vesta Dec 2.9966 3 whole (68.97) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: H Menkent → H Vesta RA 91.9980 92 whole (80.86) — also: 2 Before Midnight / James Bowen
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
-  - star rows: H Murzim → H Vesta RA 152.0131 152 whole (11.86) — also: 2 Before Midnight / James Bowen
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - star rows: J Alphecca → J Vesta RA 10.9949 11 whole (55.67) — also: 2 Before Midnight / James Bowen
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Alphecca → J Vesta Dec 33.9835 34 whole (3.01) — also: 2 Before Midnight / James Bowen
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: J Altair → J Vesta RA 75.0173 75 whole (1.88) — also: 2 Before Midnight / James Bowen
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: J Menkent → J Vesta RA 11.0066 11 whole (44.82) — also: 2 Before Midnight / James Bowen
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
-  - star rows: J Murzim → J Vesta RA 127.0131 127 whole (11.88) — also: 2 Before Midnight / James Bowen
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **Rahu**
   - same body: S Rahu → H Rahu RA 134.3072 83×φ golden (loose) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
   - top rows: S Sun → H Rahu RA 119.7352 74×φ golden (95.77) — only
@@ -490,8 +365,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: J Arcturus → J Rahu RA 19.9845 20 whole (5.06) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: J Murzim → J Rahu Dec 11.9956 12 whole (61.12) — only
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **Gonggong**
   - same body: S Gonggong → H Gonggong RA 1.4131 1.414 sqrt2 (loose) — also: 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
   - top rows: S Jupiter → H Gonggong Dec 3.0026 3 whole (75.56) — only
@@ -501,15 +374,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: J Alphecca → J Gonggong RA 98.0196 98 whole (0.04) — also: 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: J Altair → J Gonggong RA 33.9973 34 whole (74.45) — also: 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
-  - star rows: J Diadem → J Gonggong Dec 35.5966 22×φ golden (98.99) — also: 4 King D'argent / Harry Skelton
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - star rows: J Difda → J Gonggong Dec 0.0807 conj (53.42) — only
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
-  - star rows: J Murzim → J Gonggong Dec 0.1094 conj (40.37) — only
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - star rows: J Rasalhague → J Gonggong RA 67.9578 42×φ golden (97.64) — also: 3 The Big Bite / Brian Hughes
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
   - star rows: J Sualocin → J Gonggong Dec 33.9767 21×φ golden (87.80) — also: 5 Fransham / Jack Andrews
@@ -523,9 +387,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: H Alphecca → H Ketu Dec 21.9970 22 whole (72.03) — only
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: H Difda → H Ketu RA 0.0692 conj (90.99) — also: 4 King D'argent / Harry Skelton
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - same body: S Ketu → J Ketu Dec 25.8685 16×φ golden (loose) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
   - star rows: J Alkes → J Ketu RA 151.0076 151 whole (38.51) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
@@ -542,17 +403,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Neptune**
   - top rows: S Jupiter → H Neptune RA 0.1075 conj (86.18) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
   - top rows: S Jupiter → H Neptune Dec 0.2198 conj (7.14) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-  - star rows: H Altair → H Neptune RA 40.4548 25×φ golden (77.16) — only
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: H Arcturus → H Neptune Dec 29.1234 18×φ golden (92.91) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: H Murzim → H Neptune Dec 8.0056 8 whole (51.63) — also: 2 Before Midnight / James Bowen
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - star rows: J Alnilam → J Neptune Dec 19.0030 19 whole (72.00) — also: 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
   - star rows: J Alphecca → J Neptune Dec 46.9209 29×φ golden (87.46) — only
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Rasalhague → J Neptune RA 35.5978 22×φ golden (93.64) — only
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
 - **Sedna**
@@ -561,9 +417,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → H Sedna Dec 32.3672 20×φ golden (63.86) — only
   - star rows: H Alphecca → H Sedna RA 179.4127 10×φ^6 phi power (93.42) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: H Murzim → H Sedna RA 41.4216 41.4 silver (99.74) — also: 4 King D'argent / Harry Skelton
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - star rows: H Zubeneschamali → H Sedna RA 174.9921 175 whole (36.37) — also: 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
   - same body: S Sedna → J Sedna RA 12.9676 8×φ golden (loose) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
@@ -572,14 +425,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
   - star rows: J Deneb → J Sedna RA 94.9881 95 whole (16.60) — also: 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
-  - star rows: J Difda → J Sedna Dec 23.0034 23 whole (68.98) — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
 - **Mercury**
   - top rows: S Sun → H Mercury RA 0.2107 conj (73.88) — also: 2 Before Midnight / James Bowen
   - star rows: H Deneb → H Mercury RA 0.1393 conj (82.29) — also: 5 Fransham / Jack Andrews
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
-  - star rows: H Diadem → H Mercury RA 112.9922 113 whole (37.44) — only
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - star rows: H Sualocin → H Mercury RA 0.5854 conj (37.18) — only
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
   - star rows: J Kaus Australis → J Mercury Dec 49.9906 50 whole (28.05) — also: 6 Moonlighter / Tom Scudamore
@@ -588,14 +437,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
 - **Transpluto**
   - top rows: S Sun → H Transpluto RA 157.9995 158 whole (94.91) — only
-  - star rows: H Altair → H Transpluto RA 144.9920 145 whole (35.84) — only
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: J Alkes → J Transpluto Dec 31.9887 32 whole (19.03) — only
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: J Ankaa → J Transpluto Dec 55.9901 56 whole (25.35) — also: 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
-  - star rows: J Murzim → J Transpluto RA 50.1597 31×φ golden (95.97) — also: 2 Before Midnight / James Bowen
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - star rows: J Sualocin → J Transpluto Dec 2.2228 2.22222 ninth (91.96) — also: 3 The Big Bite / Brian Hughes
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **Pallas**
@@ -608,21 +453,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: J Alphecca → J Pallas Dec 2.0038 2 whole (65.82) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: J Altair → J Pallas RA 85.7504 53×φ golden (69.59) — only
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: J Ankaa → J Pallas Dec 67.0141 67 whole (8.67) — only
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
-  - star rows: J Diadem → J Pallas RA 14.4491 14.4444 ninth (95.07) — also: 2 Before Midnight / James Bowen
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - star rows: J Menkent → J Pallas RA 0.2734 conj (66.87) — also: 2 Before Midnight / James Bowen
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
 - **Haumea**
   - top rows: S Moon → H Haumea RA 44.4408 44.4444 ninth (96.17) — also: 4 King D'argent / Harry Skelton
   - star rows: H Ankaa → H Haumea RA 155.3410 96×φ golden (48.94) — also: 4 King D'argent / Harry Skelton
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
-  - star rows: H Diadem → H Haumea Dec 0.2964 conj (0.01) — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - star rows: H Menkent → H Haumea RA 0.4413 conj (49.82) — also: 4 King D'argent / Harry Skelton
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
 - **Jupiter**
@@ -639,18 +477,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: H Alphecca → H Ceres RA 46.0093 46 whole (28.80) — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: H Alphecca → H Ceres Dec 51.0013 51 whole (87.19) — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: H Altair → H Ceres RA 18.0125 18 whole (14.17) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: H Deneb → H Ceres Dec 69.5702 43×φ golden (69.96) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
   - star rows: H Menkent → H Ceres RA 68.0114 68 whole (18.31) — also: 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
-  - star rows: H Murzim → H Ceres RA 175.9997 176 whole (96.57) — also: 5 Fransham / Jack Andrews
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - same body: S Ceres → J Ceres Dec 38.0221 38 whole (loose) — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
   - star rows: J Zubeneschamali → J Ceres RA 16.0106 16 whole (22.30) — also: 6 Moonlighter / Tom Scudamore
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
@@ -659,7 +491,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
   - star rows: H Alphecca → H Makemake RA 40.0137 40 whole (9.78) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: H Menkent → H Makemake RA 18.0116 18 whole (17.77) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
   - star rows: H Zubeneschamali → H Makemake RA 35.5931 22×φ golden (78.75) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
@@ -669,27 +500,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Chiron**
   - star rows: H Alkes → H Chiron RA 179.4429 10×φ^6 phi power (99.95) — only
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
-  - star rows: H Murzim → H Chiron Dec 16.1824 10×φ^1 phi power (95.06) — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - same body: S Chiron → J Chiron RA 179.2894 10×φ^6 phi power (loose) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
-  - star rows: J Altair → J Chiron RA 111.1113 111.111 ninth (99.97) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: J Ankaa → J Chiron RA 179.9801 180 whole (0.00) — only
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
 - **Eris**
   - star rows: H Alkes → H Eris RA 139.9945 140 whole (52.88) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - same body: S Eris → J Eris RA 2.2278 2.22222 ninth (loose) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
-- **Juno**
-  - star rows: H Altair → H Juno Dec 5.0074 5 whole (39.89) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
-  - star rows: H Rasalhague → H Juno RA 136.0148 136 whole (6.81) — only
-    - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
-  - star rows: J Deneb → J Juno Dec 42.0147 42 whole (7.11) — only
-    - source line: S Sun → Deneb RA 0.3500 conj (58.78)
 - **Orcus**
-  - star rows: H Altair → H Orcus Dec 17.7787 17.7778 ninth (99.31) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: H Ankaa → H Orcus RA 144.4056 144.444 ninth (95.89) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - same body: S Orcus → J Orcus Dec 13.3135 13.3333 ninth (loose) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
@@ -700,28 +518,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
   - star rows: H Menkent → H Quaoar RA 55.5513 55.5556 ninth (96.00) — only
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
-  - star rows: H Murzim → H Quaoar RA 171.5402 106×φ golden (1.32) — also: 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
-  - star rows: H Murzim → H Quaoar Dec 2.2221 2.22222 ninth (98.79) — also: 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - same body: S Quaoar → J Quaoar Dec 1.3334 1.33333 ninth (99.25) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
   - star rows: J Alnilam → J Quaoar Dec 12.9425 8×φ golden (89.44) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - star rows: J Altair → J Quaoar Dec 23.0119 23 whole (16.43) — also: 4 King D'argent / Harry Skelton
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: J Arcturus → J Quaoar Dec 33.3302 33.3333 ninth (96.22) — also: 2 Before Midnight / James Bowen
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
   - star rows: J Menkent → J Quaoar Dec 22.2273 22.2222 ninth (92.92) — only
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
-- **Sun**
-  - star rows: H Diadem → H Sun RA 115.9850 116 whole (6.17) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - star rows: H Diadem → H Sun Dec 34.9908 35 whole (29.23) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - star rows: J Arcturus → J Sun RA 135.9181 84×φ golden (81.07) — also: 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: J Zubeneschamali → J Sun Dec 32.3641 20×φ golden (80.01) — only
-    - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
+- **Juno**
+  - star rows: H Rasalhague → H Juno RA 136.0148 136 whole (6.81) — only
+    - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
+  - star rows: J Deneb → J Juno Dec 42.0147 42 whole (7.11) — only
+    - source line: S Sun → Deneb RA 0.3500 conj (58.78)
 - **Mars**
   - star rows: J Ankaa → J Mars RA 49.0133 49 whole (11.24) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
@@ -732,6 +540,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - star rows: J Sualocin → J Saturn RA 56.6334 35×φ golden (87.00) — also: 5 Fransham / Jack Andrews
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
+- **Sun**
+  - star rows: J Arcturus → J Sun RA 135.9181 84×φ golden (81.07) — also: 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
+    - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
+  - star rows: J Zubeneschamali → J Sun Dec 32.3641 20×φ golden (80.01) — only
+    - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
 
 ## 2 Before Midnight / James Bowen
 ### L1 same bodies
@@ -757,7 +570,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
   - star rows: H Alphecca → H Orcus Dec 34.0117 34 whole (17.10)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: H Ankaa → H Orcus RA 141.4784 141.4 sqrt2 (84.52)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - star rows: H Ankaa → H Orcus Dec 35.0071 35 whole (41.63)
@@ -769,17 +581,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, same body: S Orcus → J Orcus RA 18.7638 18.8889 ninth (loose)
   - other chart, star rows: J Arcturus → J Orcus Dec 20.9874 21 whole (13.54)
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - other chart, star rows: J Difda → J Orcus Dec 16.1804 10×φ^1 phi power (99.86)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
 - **H Transpluto** (same body: S Transpluto → H Transpluto Dec 1.3273 1.33333 ninth (loose))
   - top rows: S Jupiter → H Transpluto RA 173.1384 107×φ golden (53.21)
   - star rows: H Alphecca → H Transpluto Dec 14.9853 15 whole (7.08)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - other chart, star rows: J Adhara → J Transpluto Dec 42.0115 42 whole (17.96)
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - other chart, star rows: J Murzim → J Transpluto Dec 30.9948 31 whole (54.60)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - other chart, star rows: J Rasalhague → J Transpluto RA 116.0088 116 whole (31.54)
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
 - **J Sun** (same body: S Sun → J Sun Dec 15.0044 15 whole (60.47))
@@ -789,8 +596,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
   - other chart, star rows: H Ankaa → H Sun RA 34.0040 34 whole (63.85)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
-  - other chart, star rows: H Diadem → H Sun RA 156.9298 97×φ golden (15.71)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - other chart, star rows: H Sualocin → H Sun Dec 0.1645 conj (20.39)
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **J Venus** (same body: S Venus → J Venus RA 92.0007 92 whole (93.06); S Venus → J Venus Dec 30.0043 30 whole (61.74))
@@ -800,8 +605,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - other chart, star rows: H Arcturus → H Venus RA 163.9827 164 whole (1.88)
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - other chart, star rows: H Murzim → H Venus Dec 36.0180 36 whole (1.00)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **J Neptune** (same body: S Neptune → J Neptune RA 41.9881 42 whole (16.53))
   - top rows: S Sun → J Neptune RA 0.4924 conj (45.12)
   - top rows: S Sun → J Neptune Dec 0.0394 conj (75.48)
@@ -809,10 +612,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: J Deneb → J Neptune RA 0.1446 conj (81.65)
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
-  - star rows: J Difda → J Neptune Dec 0.1668 conj (19.73)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
-  - star rows: J Murzim → J Neptune Dec 0.1964 conj (11.91)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - star rows: J Sualocin → J Neptune RA 0.3023 conj (63.76)
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
   - other chart, top rows: S Jupiter → H Neptune RA 1.3161 conj (1.50)
@@ -826,10 +625,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Chiron** (same body: S Chiron → J Chiron RA 99.0026 99 whole (75.88))
   - star rows: J Alnilam → J Chiron Dec 16.6634 16.6667 ninth (97.23)
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - star rows: J Difda → J Chiron Dec 0.1216 conj (35.37)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
-  - star rows: J Murzim → J Chiron Dec 0.0919 conj (48.12)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - other chart, star rows: H Kaus Australis → H Chiron Dec 32.3661 20×φ golden (69.43)
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
 - **J Ceres** (same body: S Ceres → J Ceres RA 133.0993 133.333 ninth (loose))
@@ -837,7 +632,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
   - star rows: J Alphecca → J Ceres Dec 49.9843 50 whole (4.62)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Kaus Australis → J Ceres RA 6.9939 7 whole (48.39)
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - other chart, top rows: S Sun → H Ceres Dec 46.9735 φ^8 phi power (95.61)
@@ -846,19 +640,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Deneb → H Ceres RA 150.4506 93×φ golden (3.23)
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
 - **J Pallas** (same body: S Pallas → J Pallas Dec 21.9874 22 whole (13.54))
-  - sky line to Pallas: S Jupiter → Pallas Dec 0.2883 conj (0.15)
-  - T2: J Jupiter → J Pallas Dec 8.9976 9 whole (77.83)
   - top rows: S Moon → J Pallas RA 0.7613 conj (24.25)
-  - star rows: J Diadem → J Pallas Dec 6.0001 6 whole (99.14)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - other chart, star rows: H Menkent → H Pallas RA 161.8483 100×φ^1 phi power (89.20)
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
   - other chart, star rows: H Zubeneschamali → H Pallas RA 179.4304 10×φ^6 phi power (97.27)
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
 - **J Juno** (same body: S Juno → J Juno RA 74.3987 46×φ golden (loose); S Juno → J Juno Dec 12.9792 13 whole (loose))
 - **J Makemake** (same body: S Makemake → J Makemake RA 18.7921 18.8889 ninth (loose))
-  - star rows: J Diadem → J Makemake RA 16.9873 17 whole (13.42)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - other chart, star rows: H Deneb → H Makemake RA 119.7404 74×φ golden (66.91)
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
   - other chart, star rows: H Deneb → H Makemake Dec 17.9883 18 whole (17.14)
@@ -866,8 +654,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Orcus** (same body: S Orcus → J Orcus RA 18.7638 18.8889 ninth (loose))
   - star rows: J Arcturus → J Orcus Dec 20.9874 21 whole (13.54)
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: J Difda → J Orcus Dec 16.1804 10×φ^1 phi power (99.86)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - other chart, same body: S Orcus → H Orcus RA 9.0175 9 whole (1.61)
   - other chart, star rows: H Alkes → H Orcus Dec 11.0021 11 whole (80.02)
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
@@ -875,7 +661,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
   - other chart, star rows: H Alphecca → H Orcus Dec 34.0117 34 whole (17.10)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - other chart, star rows: H Ankaa → H Orcus RA 141.4784 141.4 sqrt2 (84.52)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - other chart, star rows: H Ankaa → H Orcus Dec 35.0071 35 whole (41.63)
@@ -888,10 +673,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Jupiter → J Quaoar RA 88.8818 88.8889 ninth (94.91)
   - other chart, star rows: H Arcturus → H Quaoar RA 50.9930 51 whole (42.49)
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - other chart, star rows: H Diadem → H Quaoar Dec 33.0138 33 whole (9.64)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - other chart, star rows: H Difda → H Quaoar RA 105.9840 106 whole (4.03)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - other chart, star rows: H Rasalhague → H Quaoar RA 1.1713 conj (4.80)
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
   - other chart, star rows: H Sualocin → H Quaoar RA 45.0006 45 whole (94.08)
@@ -911,22 +692,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **3. runner number = sky number**
   - φ^8 phi power — also: 3 The Big Bite / Brian Hughes
     - S Sun → H Ceres Dec 46.9735 φ^8 phi power (95.61) = S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
-  - 8 whole — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
-    - H Alkes → H Neptune Dec 7.9804 8 whole (0.04) = S Moon → Mercury Dec 8.0060 8 whole (49.15)
   - 133.333 ninth — also: 4 King D'argent / Harry Skelton
     - S Ceres → J Ceres RA 133.0993 133.333 ninth (loose) = S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - 22 whole — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+  - 22 whole — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
     - S Pallas → J Pallas Dec 21.9874 22 whole (13.54) = S Moon → Alphecca RA 21.9974 22 whole (76.10)
-  - 13 whole — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
-    - S Juno → J Juno Dec 12.9792 13 whole (loose) = S Sun → Altair RA 13.0065 13 whole (45.24)
-  - 10×φ^1 phi power — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - J Difda → J Orcus Dec 16.1804 10×φ^1 phi power (99.86) = S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
-  - 22 whole — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+  - 22 whole — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
     - J Zubeneschamali → J Mars RA 21.9993 22 whole (92.94) = S Moon → Alphecca RA 21.9974 22 whole (76.10)
 - **4. circle divisions**
-  - 9 = 360/40 — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
+  - 9 = 360/40 — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - S Orcus → H Orcus RA 9.0175 9 whole (1.61)
-  - 8 = 360/45 — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
+  - 8 = 360/45 — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - H Alkes → H Neptune Dec 7.9804 8 whole (0.04)
   - 15 = 360/24 — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - H Alkes → H Eris Dec 14.9835 15 whole (3.11)
@@ -938,8 +713,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Arcturus → H Rahu Dec 35.9958 36 whole (62.28)
   - 18 = 360/20 — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - H Deneb → H Makemake Dec 17.9883 18 whole (17.14)
-  - 36 = 360/10 — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-    - H Murzim → H Venus Dec 36.0180 36 whole (1.00)
   - 10 = 360/36 — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - H Rasalhague → H Jupiter Dec 10.0100 10 whole (25.11)
   - 45 = 360/8 — also: 7 Gold Des Bois / Conor O'Farrell
@@ -948,10 +721,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Sun → J Sun Dec 15.0044 15 whole (60.47)
   - 30 = 360/12 — also: 1 Funambule Sivola / Charlie Deutsch, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
     - S Venus → J Venus Dec 30.0043 30 whole (61.74)
-  - 9 = 360/40 — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
-    - J Jupiter → J Pallas Dec 8.9976 9 whole (77.83)
-  - 3 = 360/120 — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
-    - J Jupiter → J star Diadem Dec 2.9976 3 whole (77.08)
   - 4 = 360/90 — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
     - S Jupiter → J Mercury Dec 3.9966 4 whole (68.87)
   - 36 = 360/10 — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
@@ -960,26 +729,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Alnilam → J Sun Dec 1.9867 2 whole (11.18)
   - 15 = 360/24 — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - J Alnilam → J Venus Dec 15.0016 15 whole (84.20)
-  - 3 = 360/120 — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
-    - J Diadem → J Jupiter Dec 2.9976 3 whole (77.08)
-  - 6 = 360/60 — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
-    - J Diadem → J Pallas Dec 6.0001 6 whole (99.14)
-  - 36 = 360/10 — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-    - J Difda → J Sedna RA 36.0104 36 whole (23.12)
 - **5. same number in more than one place**
-  - 9 whole — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
-    - S Orcus → H Orcus RA 9.0175 9 whole (1.61)
-    - J Jupiter → J Pallas Dec 8.9976 9 whole (77.83)
-  - 11.1111 ninth — also: 3 The Big Bite / Brian Hughes
-    - H Jupiter → H Mercury Dec 11.1142 11.1111 ninth (94.94)
-    - S Jupiter → J Mercury RA 11.1137 11.1111 ninth (95.82)
-    - S Moon → J Mercury Dec 11.1133 11.1111 ninth (96.46)
-  - 18.8889 ninth — also: 3 The Big Bite / Brian Hughes
-    - H Jupiter → H star Murzim RA 18.8804 18.8889 ninth (93.88)
-    - S Murzim → H Jupiter RA 18.8890 18.8889 ninth (99.92)
-    - S Makemake → J Makemake RA 18.7921 18.8889 ninth (loose)
-    - S Orcus → J Orcus RA 18.7638 18.8889 ninth (loose)
-  - 27 whole — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - 27 whole — also: 6 Moonlighter / Tom Scudamore
     - S Jupiter → H Ketu Dec 26.9945 27 whole (52.47)
     - S Quaoar → J Quaoar RA 27.0052 27 whole (54.75)
   - 15 whole — also: 5 Fransham / Jack Andrews
@@ -990,37 +741,22 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 30 whole — also: 5 Fransham / Jack Andrews
     - H Alnilam → H Ceres Dec 29.9817 30 whole (0.76)
     - S Venus → J Venus Dec 30.0043 30 whole (61.74)
-  - 34 whole — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
+  - 34 whole — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton
     - H Alphecca → H Orcus Dec 34.0117 34 whole (17.10)
     - H Ankaa → H Sun RA 34.0040 34 whole (63.85)
-  - 94 whole — only
-    - H Altair → H Mercury RA 94.0013 94 whole (87.62)
-    - J Murzim → J Vesta RA 94.0196 94 whole (0.04)
-  - 155.556 ninth — only
-    - H Altair → H Vesta RA 155.5929 155.556 ninth (96.46)
-    - J Murzim → J Mars RA 155.5773 155.556 ninth (97.94)
-  - 31 whole — only
-    - H Ankaa → H Gonggong RA 31.0189 31 whole (0.28)
-    - J Murzim → J Transpluto Dec 30.9948 31 whole (54.60)
   - 36 whole — also: 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - H Arcturus → H Rahu Dec 35.9958 36 whole (62.28)
-    - H Murzim → H Venus Dec 36.0180 36 whole (1.00)
     - S Quaoar → J Jupiter Dec 36.0025 36 whole (76.61)
-    - J Difda → J Sedna RA 36.0104 36 whole (23.12)
   - 99×φ golden — only
     - H Arcturus → H Sedna RA 160.1763 99×φ golden (52.02)
     - J Alkes → J Uranus RA 160.1769 99×φ golden (54.75)
   - 74×φ golden — only
     - H Deneb → H Makemake RA 119.7404 74×φ golden (66.91)
     - J Rasalhague → J Eris RA 119.7049 74×φ golden (0.73)
-  - 33 whole — also: 4 King D'argent / Harry Skelton
-    - H Diadem → H Quaoar Dec 33.0138 33 whole (9.64)
-    - S Jupiter → J Rahu Dec 33.0020 33 whole (80.95)
-    - S Murzim → J Jupiter RA 32.9973 33 whole (75.08)
   - 128 whole — also: 3 The Big Bite / Brian Hughes
     - H Kaus Australis → H Orcus RA 128.0019 128 whole (81.54)
     - J Alphecca → J Vesta RA 127.9822 128 whole (1.17)
-  - 100×φ^1 phi power — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
+  - 100×φ^1 phi power — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
     - H Menkent → H Pallas RA 161.8483 100×φ^1 phi power (89.20)
     - H Sualocin → H Orcus RA 161.8653 100×φ^1 phi power (85.29)
   - 150 whole — only
@@ -1033,21 +769,21 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Neptune → J Neptune RA 41.9881 42 whole (16.53)
     - J Adhara → J Transpluto Dec 42.0115 42 whole (17.96)
     - J Arcturus → J Ketu Dec 42.0080 42 whole (36.14)
-  - 22 whole — also: 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
+  - 22 whole — only
     - S Pallas → J Pallas Dec 21.9874 22 whole (13.54)
     - J Zubeneschamali → J Mars RA 21.9993 22 whole (92.94)
-  - 3 whole — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
-    - J Jupiter → J star Diadem Dec 2.9976 3 whole (77.08)
-    - J Diadem → J Jupiter Dec 2.9976 3 whole (77.08)
+  - 18.8889 ninth — also: 3 The Big Bite / Brian Hughes
+    - S Makemake → J Makemake RA 18.7921 18.8889 ninth (loose)
+    - S Orcus → J Orcus RA 18.7638 18.8889 ninth (loose)
+  - 11.1111 ninth — also: 3 The Big Bite / Brian Hughes
+    - S Jupiter → J Mercury RA 11.1137 11.1111 ninth (95.82)
+    - S Moon → J Mercury Dec 11.1133 11.1111 ninth (96.46)
   - 88.8889 ninth — also: 4 King D'argent / Harry Skelton
     - S Jupiter → J Quaoar RA 88.8818 88.8889 ninth (94.91)
     - J Rasalhague → J Sun RA 88.8831 88.8889 ninth (95.82)
   - 50 whole — also: 1 Funambule Sivola / Charlie Deutsch
     - J Alphecca → J Ceres Dec 49.9843 50 whole (4.62)
     - J Deneb → J Vesta Dec 49.9876 50 whole (14.39)
-  - 21 whole — also: 5 Fransham / Jack Andrews
-    - J Altair → J Pluto Dec 21.0016 21 whole (84.84)
-    - J Arcturus → J Orcus Dec 20.9874 21 whole (13.54)
 ### L4 every natal body
 - **Orcus**
   - same body: S Orcus → H Orcus RA 9.0175 9 whole (1.61) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
@@ -1057,7 +793,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
   - star rows: H Alphecca → H Orcus Dec 34.0117 34 whole (17.10) — only
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: H Ankaa → H Orcus RA 141.4784 141.4 sqrt2 (84.52) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - star rows: H Ankaa → H Orcus Dec 35.0071 35 whole (41.63) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
@@ -1069,53 +804,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Orcus → J Orcus RA 18.7638 18.8889 ninth (loose) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
   - star rows: J Arcturus → J Orcus Dec 20.9874 21 whole (13.54) — also: 5 Fransham / Jack Andrews
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: J Difda → J Orcus Dec 16.1804 10×φ^1 phi power (99.86) — also: 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
 - **Transpluto**
   - same body: S Transpluto → H Transpluto Dec 1.3273 1.33333 ninth (loose) — also: 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
   - top rows: S Jupiter → H Transpluto RA 173.1384 107×φ golden (53.21) — only
   - star rows: H Alphecca → H Transpluto Dec 14.9853 15 whole (7.08) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Adhara → J Transpluto Dec 42.0115 42 whole (17.96) — also: 4 King D'argent / Harry Skelton
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - star rows: J Murzim → J Transpluto Dec 30.9948 31 whole (54.60) — also: 1 Funambule Sivola / Charlie Deutsch
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - star rows: J Rasalhague → J Transpluto RA 116.0088 116 whole (31.54) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
-- **Mercury**
-  - T1: H Jupiter → H Mercury Dec 11.1142 11.1111 ninth (94.94) — only
-  - top rows: S Sun → H Mercury RA 81.0006 81 whole (93.96) — also: 1 Funambule Sivola / Charlie Deutsch
-  - star rows: H Altair → H Mercury RA 94.0013 94 whole (87.62) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
-  - star rows: H Arcturus → H Mercury RA 177.7842 177.778 ninth (99.50) — also: 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - top rows: S Jupiter → J Mercury RA 11.1137 11.1111 ninth (95.82) — only
-  - top rows: S Jupiter → J Mercury Dec 3.9966 4 whole (68.87) — only
-  - top rows: S Moon → J Mercury Dec 11.1133 11.1111 ninth (96.46) — only
-  - star rows: J Adhara → J Mercury RA 137.5177 85×φ golden (28.12) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-- **Jupiter**
-  - T1: H Jupiter → H star Murzim RA 18.8804 18.8889 ninth (93.88) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-  - top rows: S Makemake → H Jupiter Dec 0.2189 conj (7.30) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-  - star rows: S Murzim → H Jupiter RA 18.8890 18.8889 ninth (99.92) — also: 5 Fransham / Jack Andrews
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
-  - star rows: H Rasalhague → H Jupiter Dec 10.0100 10 whole (25.11) — also: 3 The Big Bite / Brian Hughes
-    - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
-  - T2: J Jupiter → J star Diadem Dec 2.9976 3 whole (77.08) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-  - top rows: S Vesta → J Jupiter Dec 42.0629 26×φ golden (66.67) — only
-  - top rows: S Quaoar → J Jupiter Dec 36.0025 36 whole (76.61) — only
-  - star rows: J Alphecca → J Jupiter RA 170.9920 171 whole (35.75) — only
-    - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: J Altair → J Jupiter RA 124.9898 125 whole (24.09) — also: 4 King D'argent / Harry Skelton
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
-  - star rows: J Diadem → J Jupiter Dec 2.9976 3 whole (77.08) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - star rows: J Menkent → J Jupiter RA 148.9926 149 whole (39.72) — also: 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
-  - star rows: S Murzim → J Jupiter RA 32.9973 33 whole (75.08) — also: 5 Fransham / Jack Andrews
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **Neptune**
   - top rows: S Jupiter → H Neptune RA 1.3161 conj (1.50) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
   - top rows: S Jupiter → H Neptune Dec 0.1485 conj (25.51) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
@@ -1132,10 +829,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: J Deneb → J Neptune RA 0.1446 conj (81.65) — also: 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
-  - star rows: J Difda → J Neptune Dec 0.1668 conj (19.73) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
-  - star rows: J Murzim → J Neptune Dec 0.1964 conj (11.91) — also: 1 Funambule Sivola / Charlie Deutsch
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - star rows: J Sualocin → J Neptune RA 0.3023 conj (63.76) — also: 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **Eris**
@@ -1148,10 +841,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
 - **Ketu**
   - top rows: S Jupiter → H Ketu Dec 26.9945 27 whole (52.47) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
-  - star rows: H Diadem → H Ketu Dec 0.7071 0.707 sqrt2 (99.80) — only
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - star rows: J Arcturus → J Ketu Dec 42.0080 42 whole (36.14) — also: 1 Funambule Sivola / Charlie Deutsch
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
+- **Mercury**
+  - top rows: S Sun → H Mercury RA 81.0006 81 whole (93.96) — also: 1 Funambule Sivola / Charlie Deutsch
+  - star rows: H Arcturus → H Mercury RA 177.7842 177.778 ninth (99.50) — also: 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+    - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
+  - top rows: S Jupiter → J Mercury RA 11.1137 11.1111 ninth (95.82) — only
+  - top rows: S Jupiter → J Mercury Dec 3.9966 4 whole (68.87) — only
+  - top rows: S Moon → J Mercury Dec 11.1133 11.1111 ninth (96.46) — only
+  - star rows: J Adhara → J Mercury RA 137.5177 85×φ golden (28.12) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+    - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
 - **Ceres**
   - top rows: S Sun → H Ceres Dec 46.9735 φ^8 phi power (95.61) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
   - star rows: H Alnilam → H Ceres Dec 29.9817 30 whole (0.76) — also: 4 King D'argent / Harry Skelton
@@ -1163,16 +863,23 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
   - star rows: J Alphecca → J Ceres Dec 49.9843 50 whole (4.62) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Kaus Australis → J Ceres RA 6.9939 7 whole (48.39) — also: 3 The Big Bite / Brian Hughes
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
+- **Jupiter**
+  - top rows: S Makemake → H Jupiter Dec 0.2189 conj (7.30) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - star rows: H Rasalhague → H Jupiter Dec 10.0100 10 whole (25.11) — also: 3 The Big Bite / Brian Hughes
+    - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
+  - top rows: S Vesta → J Jupiter Dec 42.0629 26×φ golden (66.67) — only
+  - top rows: S Quaoar → J Jupiter Dec 36.0025 36 whole (76.61) — only
+  - star rows: J Alphecca → J Jupiter RA 170.9920 171 whole (35.75) — only
+    - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
+  - star rows: J Menkent → J Jupiter RA 148.9926 149 whole (39.72) — also: 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+    - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
 - **Venus**
   - star rows: H Alkes → H Venus RA 115.0108 115 whole (21.14) — also: 4 King D'argent / Harry Skelton
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: H Arcturus → H Venus RA 163.9827 164 whole (1.88) — only
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: H Murzim → H Venus Dec 36.0180 36 whole (1.00) — only
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - same body: S Venus → J Venus RA 92.0007 92 whole (93.06) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
   - same body: S Venus → J Venus Dec 30.0043 30 whole (61.74) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
   - star rows: J Alnilam → J Venus Dec 15.0016 15 whole (84.20) — also: 1 Funambule Sivola / Charlie Deutsch
@@ -1180,34 +887,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Uranus**
   - star rows: H Alphecca → H Uranus RA 135.9980 136 whole (80.98) — also: 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: H Difda → H Uranus RA 1.2173 conj (3.55) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: H Menkent → H Uranus RA 158.0017 158 whole (83.92) — also: 4 King D'argent / Harry Skelton
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
-  - star rows: H Murzim → H Uranus RA 85.9950 86 whole (56.46) — also: 4 King D'argent / Harry Skelton
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - star rows: J Alkes → J Uranus RA 160.1769 99×φ golden (54.75) — also: 5 Fransham / Jack Andrews
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
-- **Vesta**
-  - star rows: H Altair → H Vesta RA 155.5929 155.556 ninth (96.46) — also: 1 Funambule Sivola / Charlie Deutsch
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
-  - star rows: J Adhara → J Vesta RA 103.0021 103 whole (79.93) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton
-    - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - star rows: J Alphecca → J Vesta RA 127.9822 128 whole (1.17) — also: 1 Funambule Sivola / Charlie Deutsch
-    - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: J Deneb → J Vesta Dec 49.9876 50 whole (14.39) — only
-    - source line: S Sun → Deneb RA 0.3500 conj (58.78)
-  - star rows: J Menkent → J Vesta RA 149.9815 150 whole (0.58) — also: 1 Funambule Sivola / Charlie Deutsch
-    - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
-  - star rows: J Murzim → J Vesta RA 94.0196 94 whole (0.04) — also: 1 Funambule Sivola / Charlie Deutsch
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **Sun**
   - star rows: H Ankaa → H Sun RA 34.0040 34 whole (63.85) — also: 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
-  - star rows: H Diadem → H Sun RA 156.9298 97×φ golden (15.71) — also: 1 Funambule Sivola / Charlie Deutsch, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - star rows: H Sualocin → H Sun Dec 0.1645 conj (20.39) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
   - same body + top rows: S Sun → J Sun Dec 15.0044 15 whole (60.47) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
@@ -1233,17 +919,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
   - star rows: J Arcturus → J Sedna RA 167.0162 167 whole (3.58) — only
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: J Difda → J Sedna RA 36.0104 36 whole (23.12) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: J Sualocin → J Sedna RA 96.9973 97 whole (74.72) — also: 3 The Big Bite / Brian Hughes
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **Quaoar**
   - star rows: H Arcturus → H Quaoar RA 50.9930 51 whole (42.49) — also: 1 Funambule Sivola / Charlie Deutsch
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: H Diadem → H Quaoar Dec 33.0138 33 whole (9.64) — also: 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - star rows: H Difda → H Quaoar RA 105.9840 106 whole (4.03) — also: 4 King D'argent / Harry Skelton
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: H Rasalhague → H Quaoar RA 1.1713 conj (4.80) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
   - star rows: H Sualocin → H Quaoar RA 45.0006 45 whole (94.08) — only
@@ -1256,57 +936,44 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Deneb → H Makemake Dec 17.9883 18 whole (17.14) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
   - same body: S Makemake → J Makemake RA 18.7921 18.8889 ninth (loose) — also: 7 Gold Des Bois / Conor O'Farrell
-  - star rows: J Diadem → J Makemake RA 16.9873 17 whole (13.42) — only
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-- **Pluto**
-  - star rows: H Diadem → H Pluto Dec 37.2185 23×φ golden (78.44) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - star rows: H Sualocin → H Pluto Dec 35.5984 22×φ golden (90.14) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
-  - top rows: S Moon → J Pluto RA 0.4940 conj (44.98) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-  - star rows: J Altair → J Pluto Dec 21.0016 21 whole (84.84) — only
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
 - **Chiron**
   - star rows: H Kaus Australis → H Chiron Dec 32.3661 20×φ golden (69.43) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - same body: S Chiron → J Chiron RA 99.0026 99 whole (75.88) — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
   - star rows: J Alnilam → J Chiron Dec 16.6634 16.6667 ninth (97.23) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - star rows: J Difda → J Chiron Dec 0.1216 conj (35.37) — only
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
-  - star rows: J Murzim → J Chiron Dec 0.0919 conj (48.12) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **Pallas**
   - star rows: H Menkent → H Pallas RA 161.8483 100×φ^1 phi power (89.20) — also: 1 Funambule Sivola / Charlie Deutsch
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
   - star rows: H Zubeneschamali → H Pallas RA 179.4304 10×φ^6 phi power (97.27) — also: 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
   - same body: S Pallas → J Pallas Dec 21.9874 22 whole (13.54) — also: 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Jupiter → Pallas Dec 0.2883 conj (0.15)
-  - T2: J Jupiter → J Pallas Dec 8.9976 9 whole (77.83) — also: 4 King D'argent / Harry Skelton
   - top rows: S Moon → J Pallas RA 0.7613 conj (24.25) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
-  - star rows: J Diadem → J Pallas Dec 6.0001 6 whole (99.14) — also: 1 Funambule Sivola / Charlie Deutsch
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
+- **Pluto**
+  - star rows: H Sualocin → H Pluto Dec 35.5984 22×φ golden (90.14) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+    - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
+  - top rows: S Moon → J Pluto RA 0.4940 conj (44.98) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
 - **Juno**
   - same body: S Juno → J Juno RA 74.3987 46×φ golden (loose) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
   - same body: S Juno → J Juno Dec 12.9792 13 whole (loose) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
 - **Mars**
   - top rows: S Jupiter → J Mars RA 87.0012 87 whole (88.56) — also: 5 Fransham / Jack Andrews
-  - star rows: J Murzim → J Mars RA 155.5773 155.556 ninth (97.94) — also: 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - star rows: J Zubeneschamali → J Mars RA 21.9993 22 whole (92.94) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
   - star rows: J Zubeneschamali → J Mars Dec 12.2292 12.2222 ninth (90.31) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
+- **Vesta**
+  - star rows: J Adhara → J Vesta RA 103.0021 103 whole (79.93) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton
+    - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
+  - star rows: J Alphecca → J Vesta RA 127.9822 128 whole (1.17) — also: 1 Funambule Sivola / Charlie Deutsch
+    - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
+  - star rows: J Deneb → J Vesta Dec 49.9876 50 whole (14.39) — only
+    - source line: S Sun → Deneb RA 0.3500 conj (58.78)
+  - star rows: J Menkent → J Vesta RA 149.9815 150 whole (0.58) — also: 1 Funambule Sivola / Charlie Deutsch
+    - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
 - **Haumea**
   - star rows: J Alphecca → J Haumea RA 35.5966 22×φ golden (99.03) — only
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: J Diadem → J Haumea RA 0.5763 conj (37.92) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-- **Saturn**
-  - star rows: J Diadem → J Saturn Dec 0.1012 conj (43.90) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
 
 ## 3 The Big Bite / Brian Hughes
 ### L1 same bodies
@@ -1329,8 +996,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Ketu → J Ketu RA 11.1118 11.1111 ninth (98.93)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun RA 87.0001 87 whole (99.34))
-  - star rows: H Altair → H Sun RA 100.0010 100 whole (90.23)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - other chart, star rows: J Arcturus → J Sun RA 127.8051 79×φ golden (15.60)
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
 - **H Mars** (same body: S Mars → H Mars RA 122.1601 122.222 ninth (loose))
@@ -1341,23 +1006,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Sualocin → H Mars Dec 2.2228 2.22222 ninth (92.29)
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
   - other chart, same body: S Mars → J Mars RA 176.7544 177.778 ninth (loose)
-  - other chart, star rows: J Murzim → J Mars RA 0.4333 conj (50.57)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **H Juno** (same body: S Juno → H Juno RA 14.1278 14.14 sqrt2 (loose))
-  - star rows: H Diadem → H Juno RA 115.0111 115 whole (19.88)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - other chart, same body: S Juno → J Juno Dec 18.8598 18.8889 ninth (loose)
   - other chart, top rows: S Jupiter → J Juno RA 155.5511 155.556 ninth (99.58)
   - other chart, top rows: S Sun → J Juno RA 127.9963 128 whole (66.76)
-  - other chart, star rows: J Altair → J Juno RA 114.9947 115 whole (53.82)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
 - **H Orcus** (same body: S Orcus → H Orcus RA 9.0089 9 whole (30.64))
   - star rows: H Alkes → H Orcus Dec 10.9803 11 whole (0.03)
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: H Alnilam → H Orcus RA 64.0040 64 whole (64.00)
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - star rows: H Altair → H Orcus Dec 16.1883 10×φ^1 phi power (81.40)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: H Ankaa → H Orcus RA 141.4871 141.4 sqrt2 (82.27)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - star rows: H Ankaa → H Orcus Dec 34.9855 35 whole (7.61)
@@ -1371,30 +1028,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - other chart, star rows: J Ankaa → J Orcus Dec 48.9800 49 whole (0.00)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
-  - other chart, star rows: J Diadem → J Orcus RA 72.9882 73 whole (16.90)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
 - **J Mercury** (same body: S Mercury → J Mercury Dec 42.3260 10×φ^3 phi power (loose))
-  - sky line to Mercury: S Moon → Mercury Dec 8.0060 8 whole (49.15)
   - star rows: J Alphecca → J Mercury Dec 1.6666 1.66667 ninth (99.85)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: J Altair → J Mercury Dec 16.1834 10×φ^1 phi power (92.49)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
-  - star rows: J Murzim → J Mercury Dec 43.0060 43 whole (49.21)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - other chart, star rows: H Adhara → H Mercury Dec 37.9983 38 whole (84.08)
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - other chart, star rows: H Altair → H Mercury Dec 0.1552 conj (23.30)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
-  - other chart, star rows: H Difda → H Mercury Dec 27.0097 27 whole (26.31)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
-  - other chart, star rows: H Murzim → H Mercury Dec 26.9813 27 whole (0.45)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - other chart, star rows: H Zubeneschamali → H Mercury RA 156.9614 97×φ golden (39.35)
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
 - **J Mars** (same body: S Mars → J Mars RA 176.7544 177.778 ninth (loose))
-  - star rows: J Murzim → J Mars RA 0.4333 conj (50.57)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - other chart, same body: S Mars → H Mars RA 122.1601 122.222 ninth (loose)
   - other chart, star rows: H Alkes → H Mars Dec 31.9875 32 whole (14.23)
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
@@ -1406,38 +1047,24 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → J Uranus RA 1.1350 conj (5.92)
   - star rows: J Deneb → J Uranus Dec 67.9876 68 whole (14.62)
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
-  - other chart, star rows: H Difda → H Uranus RA 1.3574 conj (0.90)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
 - **J Neptune** (same body: S Neptune → J Neptune Dec 17.6598 17.7778 ninth (loose))
   - other chart, top rows: S Jupiter → H Neptune RA 1.3711 conj (0.74)
   - other chart, top rows: S Jupiter → H Neptune Dec 0.1681 conj (19.32)
   - other chart, top rows: S Sun → H Neptune RA 26.1837 10×φ^2 phi power (95.00)
   - other chart, star rows: H Arcturus → H Neptune RA 122.9672 φ^10 phi power (92.14)
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - other chart, star rows: H Difda → H Neptune RA 34.0097 34 whole (26.56)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
 - **J Pluto** (same body: S Pluto → J Pluto RA 83.0093 83 whole (28.53))
   - top rows: S Moon → J Pluto Dec 29.0324 φ^7 phi power (97.23)
   - star rows: J Arcturus → J Pluto RA 1.9860 2 whole (9.03)
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: J Difda → J Pluto RA 154.9854 155 whole (7.33)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: J Sualocin → J Pluto RA 94.0040 94 whole (64.29)
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
-  - other chart, star rows: H Diadem → H Pluto Dec 37.2155 23×φ golden (95.54)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - other chart, star rows: H Difda → H Pluto RA 88.8822 88.8889 ninth (95.21)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - other chart, star rows: H Sualocin → H Pluto Dec 35.5955 22×φ golden (92.39)
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **J Juno** (same body: S Juno → J Juno Dec 18.8598 18.8889 ninth (loose))
   - top rows: S Jupiter → J Juno RA 155.5511 155.556 ninth (99.58)
   - top rows: S Sun → J Juno RA 127.9963 128 whole (66.76)
-  - star rows: J Altair → J Juno RA 114.9947 115 whole (53.82)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - other chart, same body: S Juno → H Juno RA 14.1278 14.14 sqrt2 (loose)
-  - other chart, star rows: H Diadem → H Juno RA 115.0111 115 whole (19.88)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
 - **J Rahu** (same body: S Rahu → J Rahu RA 11.1118 11.1111 ninth (98.93))
   - star rows: J Arcturus → J Rahu Dec 1.9942 2 whole (50.50)
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
@@ -1457,28 +1084,21 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: J Alphecca → J Sedna RA 166.6188 166.667 ninth (95.90)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Ankaa → J Sedna Dec 45.9820 46 whole (0.95)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - star rows: J Sualocin → J Sedna Dec 12.2299 12.2222 ninth (89.40)
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
   - other chart, top rows: S Sun → H Sedna RA 103.0040 103 whole (64.26)
-  - other chart, star rows: H Altair → H Sedna RA 116.0049 116 whole (56.98)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 18.8632 18.8889 ninth (loose))
   - star rows: J Alkes → J Orcus Dec 24.9802 25 whole (0.01)
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: J Ankaa → J Orcus Dec 48.9800 49 whole (0.00)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
-  - star rows: J Diadem → J Orcus RA 72.9882 73 whole (16.90)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - other chart, same body: S Orcus → H Orcus RA 9.0089 9 whole (30.64)
   - other chart, star rows: H Alkes → H Orcus Dec 10.9803 11 whole (0.03)
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - other chart, star rows: H Alnilam → H Orcus RA 64.0040 64 whole (64.00)
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - other chart, star rows: H Altair → H Orcus Dec 16.1883 10×φ^1 phi power (81.40)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - other chart, star rows: H Ankaa → H Orcus RA 141.4871 141.4 sqrt2 (82.27)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - other chart, star rows: H Ankaa → H Orcus Dec 34.9855 35 whole (7.61)
@@ -1522,28 +1142,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Orcus → J Orcus Dec 18.8632 18.8889 ninth (loose)
 - **2. one body in both planes**: none
 - **3. runner number = sky number**
-  - 8 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
-    - H Alnilam → H Vesta RA 7.9878 8 whole (15.09) = S Moon → Mercury Dec 8.0060 8 whole (49.15)
-  - 10×φ^1 phi power — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
-    - H Altair → H Orcus Dec 16.1883 10×φ^1 phi power (81.40) = S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - φ^8 phi power — also: 2 Before Midnight / James Bowen
     - J Jupiter → J star Ankaa RA 46.9776 φ^8 phi power (99.04) = S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
   - 44 whole — also: 4 King D'argent / Harry Skelton
     - S Jupiter → J Eris RA 44.0041 44 whole (63.00) = S Moon → Menkent RA 44.0012 44 whole (88.65)
-  - 8 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
-    - J Alkes → J Eris Dec 7.9875 8 whole (14.24) = S Moon → Mercury Dec 8.0060 8 whole (49.15)
-  - 22 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+  - 22 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
     - J Alkes → J Sedna Dec 21.9821 22 whole (1.12) = S Moon → Alphecca RA 21.9974 22 whole (76.10)
-  - 10×φ^1 phi power — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
-    - J Altair → J Mercury Dec 16.1834 10×φ^1 phi power (92.49) = S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - φ^8 phi power — also: 2 Before Midnight / James Bowen
     - S Ankaa → J Jupiter RA 46.9785 φ^8 phi power (99.78) = S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
-  - 8 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
-    - J Sualocin → J Haumea Dec 8.0149 8 whole (6.47) = S Moon → Mercury Dec 8.0060 8 whole (49.15)
 - **4. circle divisions**
-  - 9 = 360/40 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
+  - 9 = 360/40 — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - S Orcus → H Orcus RA 9.0089 9 whole (30.64)
-  - 8 = 360/45 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
+  - 8 = 360/45 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
     - H Alnilam → H Vesta RA 7.9878 8 whole (15.09)
   - 15 = 360/24 — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - H Alphecca → H Transpluto Dec 14.9876 15 whole (14.48)
@@ -1559,24 +1169,19 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Gonggong → J Gonggong Dec 10.0201 10 whole (loose)
   - 1 = 360/360 — also: 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
     - S Sun → J Ketu Dec 0.9978 1 whole (79.34)
-  - 8 = 360/45 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
+  - 8 = 360/45 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
     - J Alkes → J Eris Dec 7.9875 8 whole (14.24)
-  - 9 = 360/40 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
-    - J Altair → J Chiron Dec 9.0118 9 whole (16.92)
   - 2 = 360/180 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
     - J Arcturus → J Pluto RA 1.9860 2 whole (9.03)
   - 2 = 360/180 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
     - J Arcturus → J Rahu Dec 1.9942 2 whole (50.50)
   - 18 = 360/20 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - J Arcturus → J Makemake Dec 17.9925 18 whole (39.31)
-  - 8 = 360/45 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
+  - 8 = 360/45 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
     - J Sualocin → J Haumea Dec 8.0149 8 whole (6.47)
   - 1 = 360/360 — also: 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
     - J Sualocin → J Transpluto Dec 0.9847 1 whole (5.54)
 - **5. same number in more than one place**
-  - 9 whole — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
-    - S Orcus → H Orcus RA 9.0089 9 whole (30.64)
-    - J Altair → J Chiron Dec 9.0118 9 whole (16.92)
   - 78×φ golden — also: 6 Moonlighter / Tom Scudamore
     - H Jupiter → H star Sualocin RA 126.2103 78×φ golden (78.87)
     - H Sualocin → H Jupiter RA 126.2103 78×φ golden (78.87)
@@ -1584,48 +1189,28 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Haumea → H Jupiter RA 141.4256 141.4 sqrt2 (98.80)
     - H Ankaa → H Orcus RA 141.4871 141.4 sqrt2 (82.27)
     - J Alnilam → J Ketu RA 141.4982 141.4 sqrt2 (79.46)
-  - 32 whole — also: 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - 32 whole — also: 6 Moonlighter / Tom Scudamore
     - H Alkes → H Mars Dec 31.9875 32 whole (14.23)
     - J Ankaa → J Eris Dec 31.9874 32 whole (13.62)
   - 11 whole — also: 1 Funambule Sivola / Charlie Deutsch, 5 Fransham / Jack Andrews
     - H Alkes → H Orcus Dec 10.9803 11 whole (0.03)
     - J Alnilam → J Quaoar Dec 11.0123 11 whole (14.85)
-  - 100 whole — also: 6 Moonlighter / Tom Scudamore
-    - H Alkes → H Quaoar RA 100.0046 100 whole (59.21)
-    - H Altair → H Sun RA 100.0010 100 whole (90.23)
   - 8 whole — also: 1 Funambule Sivola / Charlie Deutsch
     - H Alnilam → H Vesta RA 7.9878 8 whole (15.09)
     - J Alkes → J Eris Dec 7.9875 8 whole (14.24)
     - J Sualocin → J Haumea Dec 8.0149 8 whole (6.47)
-  - 43 whole — also: 7 Gold Des Bois / Conor O'Farrell
-    - H Alphecca → H Makemake RA 43.0157 43 whole (4.68)
-    - J Murzim → J Mercury Dec 43.0060 43 whole (49.21)
-  - 100×φ^1 phi power — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
-    - H Altair → H Ceres RA 161.8576 100×φ^1 phi power (87.06)
-    - H Sualocin → H Orcus RA 161.8565 100×φ^1 phi power (87.31)
-    - S Moon → J Ceres RA 161.8384 100×φ^1 phi power (91.55)
-  - 10×φ^1 phi power — only
-    - H Altair → H Orcus Dec 16.1883 10×φ^1 phi power (81.40)
-    - J Altair → J Mercury Dec 16.1834 10×φ^1 phi power (92.49)
-  - 18 whole — also: 1 Funambule Sivola / Charlie Deutsch, 6 Moonlighter / Tom Scudamore
+  - 18 whole — also: 6 Moonlighter / Tom Scudamore
     - H Deneb → H Makemake Dec 17.9866 18 whole (10.74)
     - H Sualocin → H Chiron Dec 17.9809 18 whole (0.19)
     - S Sedna → J Sedna RA 18.0233 18 whole (loose)
     - J Arcturus → J Makemake Dec 17.9925 18 whole (39.31)
-  - 18.8889 ninth — also: 2 Before Midnight / James Bowen
-    - H Diadem → H Saturn RA 18.8839 18.8889 ninth (96.43)
-    - S Juno → J Juno Dec 18.8598 18.8889 ninth (loose)
-    - S Orcus → J Orcus Dec 18.8632 18.8889 ninth (loose)
-  - 115 whole — only
-    - H Diadem → H Juno RA 115.0111 115 whole (19.88)
-    - J Altair → J Juno RA 114.9947 115 whole (53.82)
-  - 27 whole — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
-    - H Difda → H Mercury Dec 27.0097 27 whole (26.31)
-    - H Murzim → H Mercury Dec 26.9813 27 whole (0.45)
   - 128 whole — also: 2 Before Midnight / James Bowen
     - H Kaus Australis → H Orcus RA 127.9931 128 whole (43.12)
     - S Sun → J Juno RA 127.9963 128 whole (66.76)
-  - 177.778 ninth — also: 6 Moonlighter / Tom Scudamore
+  - 100×φ^1 phi power — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton
+    - H Sualocin → H Orcus RA 161.8565 100×φ^1 phi power (87.31)
+    - S Moon → J Ceres RA 161.8384 100×φ^1 phi power (91.55)
+  - 177.778 ninth — only
     - S Mars → J Mars RA 176.7544 177.778 ninth (loose)
     - J Kaus Australis → J Ceres RA 177.7801 177.778 ninth (99.82)
   - 144.444 ninth — only
@@ -1634,6 +1219,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 83 whole — only
     - S Pluto → J Pluto RA 83.0093 83 whole (28.53)
     - J Deneb → J Quaoar RA 82.9807 83 whole (0.12)
+  - 18.8889 ninth — also: 2 Before Midnight / James Bowen
+    - S Juno → J Juno Dec 18.8598 18.8889 ninth (loose)
+    - S Orcus → J Orcus Dec 18.8632 18.8889 ninth (loose)
   - 11.1111 ninth — also: 2 Before Midnight / James Bowen
     - S Rahu → J Rahu RA 11.1118 11.1111 ninth (98.93)
     - S Ketu → J Ketu RA 11.1118 11.1111 ninth (98.93)
@@ -1658,8 +1246,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 ### L4 every natal body
 - **Sun**
   - same body + top rows: S Sun → H Sun RA 87.0001 87 whole (99.34) — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
-  - star rows: H Altair → H Sun RA 100.0010 100 whole (90.23) — also: 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: J Arcturus → J Sun RA 127.8051 79×φ golden (15.60) — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
 - **Mars**
@@ -1671,25 +1257,17 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Sualocin → H Mars Dec 2.2228 2.22222 ninth (92.29) — also: 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
   - same body: S Mars → J Mars RA 176.7544 177.778 ninth (loose) — also: 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-  - star rows: J Murzim → J Mars RA 0.4333 conj (50.57) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **Juno**
   - same body: S Juno → H Juno RA 14.1278 14.14 sqrt2 (loose) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-  - star rows: H Diadem → H Juno RA 115.0111 115 whole (19.88) — also: 6 Moonlighter / Tom Scudamore
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - same body: S Juno → J Juno Dec 18.8598 18.8889 ninth (loose) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
   - top rows: S Jupiter → J Juno RA 155.5511 155.556 ninth (99.58) — only
   - top rows: S Sun → J Juno RA 127.9963 128 whole (66.76) — only
-  - star rows: J Altair → J Juno RA 114.9947 115 whole (53.82) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
 - **Orcus**
   - same body: S Orcus → H Orcus RA 9.0089 9 whole (30.64) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
   - star rows: H Alkes → H Orcus Dec 10.9803 11 whole (0.03) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: H Alnilam → H Orcus RA 64.0040 64 whole (64.00) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - star rows: H Altair → H Orcus Dec 16.1883 10×φ^1 phi power (81.40) — also: 1 Funambule Sivola / Charlie Deutsch, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: H Ankaa → H Orcus RA 141.4871 141.4 sqrt2 (82.27) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - star rows: H Ankaa → H Orcus Dec 34.9855 35 whole (7.61) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
@@ -1703,24 +1281,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: J Ankaa → J Orcus Dec 48.9800 49 whole (0.00) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
-  - star rows: J Diadem → J Orcus RA 72.9882 73 whole (16.90) — only
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
 - **Jupiter**
-  - T1: H Jupiter → H star Sualocin RA 126.2103 78×φ golden (78.87) — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - T1: H Jupiter → H star Sualocin RA 126.2103 78×φ golden (78.87) — also: 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
   - top rows: S Haumea → H Jupiter RA 141.4256 141.4 sqrt2 (98.80) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
   - top rows: S Makemake → H Jupiter Dec 0.1545 conj (23.52) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
-  - star rows: S Diadem → H Jupiter RA 121.3758 75×φ golden (7.85) — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - star rows: H Sualocin → H Jupiter RA 126.2103 78×φ golden (78.87) — also: 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
-  - T2: J Jupiter → J star Ankaa RA 46.9776 φ^8 phi power (99.04) — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-  - T2: J Jupiter → J star Kaus Australis Dec 17.9495 φ^6 phi power (88.75) — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-  - T2: J Jupiter → J star Rasalhague Dec 28.9951 29 whole (57.07) — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - T2: J Jupiter → J star Ankaa RA 46.9776 φ^8 phi power (99.04) — also: 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - T2: J Jupiter → J star Kaus Australis Dec 17.9495 φ^6 phi power (88.75) — also: 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - T2: J Jupiter → J star Rasalhague Dec 28.9951 29 whole (57.07) — also: 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
   - top rows: S Venus → J Jupiter Dec 0.2273 conj (5.87) — only
   - star rows: S Ankaa → J Jupiter RA 46.9785 φ^8 phi power (99.78) — only
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
-  - star rows: S Difda → J Jupiter Dec 1.5551 1.55556 ninth (95.41) — also: 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: J Kaus Australis → J Jupiter Dec 17.9495 φ^6 phi power (88.75) — only
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - star rows: J Rasalhague → J Jupiter Dec 28.9951 29 whole (57.07) — also: 2 Before Midnight / James Bowen
@@ -1731,14 +1303,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Sun → H Neptune RA 26.1837 10×φ^2 phi power (95.00) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
   - star rows: H Arcturus → H Neptune RA 122.9672 φ^10 phi power (92.14) — also: 1 Funambule Sivola / Charlie Deutsch, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: H Difda → H Neptune RA 34.0097 34 whole (26.56) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - same body: S Neptune → J Neptune Dec 17.6598 17.7778 ninth (loose) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
 - **Ceres**
   - top rows: S Jupiter → H Ceres Dec 38.9989 39 whole (89.52) — also: 6 Moonlighter / Tom Scudamore
   - top rows: S Sun → H Ceres RA 148.8566 92×φ golden (85.19) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
-  - star rows: H Altair → H Ceres RA 161.8576 100×φ^1 phi power (87.06) — also: 1 Funambule Sivola / Charlie Deutsch, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: H Ankaa → H Ceres RA 92.9904 93 whole (27.22) — also: 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - top rows: S Moon → J Ceres RA 161.8384 100×φ^1 phi power (91.55) — also: 5 Fransham / Jack Andrews
@@ -1746,14 +1314,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
 - **Sedna**
   - top rows: S Sun → H Sedna RA 103.0040 103 whole (64.26) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
-  - star rows: H Altair → H Sedna RA 116.0049 116 whole (56.98) — also: 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - same body: S Sedna → J Sedna RA 18.0233 18 whole (loose) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
   - star rows: J Alkes → J Sedna Dec 21.9821 22 whole (1.12) — also: 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: J Alphecca → J Sedna RA 166.6188 166.667 ninth (95.90) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Ankaa → J Sedna Dec 45.9820 46 whole (0.95) — only
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - star rows: J Sualocin → J Sedna Dec 12.2299 12.2222 ninth (89.40) — also: 2 Before Midnight / James Bowen
@@ -1764,13 +1329,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
   - star rows: H Alphecca → H Makemake RA 43.0157 43 whole (4.68) — also: 1 Funambule Sivola / Charlie Deutsch, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: H Deneb → H Makemake Dec 17.9866 18 whole (10.74) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
   - star rows: H Menkent → H Makemake RA 21.0121 21 whole (15.54) — also: 1 Funambule Sivola / Charlie Deutsch, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
-  - star rows: H Murzim → H Makemake RA 94.9910 95 whole (30.16) — also: 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - star rows: J Ankaa → J Makemake RA 156.0117 156 whole (17.30) — also: 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - star rows: J Arcturus → J Makemake Dec 17.9925 18 whole (39.31) — only
@@ -1778,23 +1340,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Mercury**
   - star rows: H Adhara → H Mercury Dec 37.9983 38 whole (84.08) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - star rows: H Altair → H Mercury Dec 0.1552 conj (23.30) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
-  - star rows: H Difda → H Mercury Dec 27.0097 27 whole (26.31) — also: 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
-  - star rows: H Murzim → H Mercury Dec 26.9813 27 whole (0.45) — also: 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - star rows: H Zubeneschamali → H Mercury RA 156.9614 97×φ golden (39.35) — also: 1 Funambule Sivola / Charlie Deutsch, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
   - same body: S Mercury → J Mercury Dec 42.3260 10×φ^3 phi power (loose) — also: 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Moon → Mercury Dec 8.0060 8 whole (49.15)
   - star rows: J Alphecca → J Mercury Dec 1.6666 1.66667 ninth (99.85) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: J Altair → J Mercury Dec 16.1834 10×φ^1 phi power (92.49) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
-  - star rows: J Murzim → J Mercury Dec 43.0060 43 whole (49.21) — also: 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **Quaoar**
   - star rows: H Alkes → H Quaoar RA 100.0046 100 whole (59.21) — also: 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
@@ -1814,15 +1364,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - star rows: H Sualocin → H Chiron Dec 17.9809 18 whole (0.19) — also: 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
-  - star rows: J Altair → J Chiron Dec 9.0118 9 whole (16.92) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: J Arcturus → J Chiron RA 144.4594 144.444 ninth (98.42) — only
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
 - **Vesta**
   - star rows: H Alnilam → H Vesta RA 7.9878 8 whole (15.09) — also: 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - star rows: H Difda → H Vesta Dec 42.0673 26×φ golden (90.48) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: H Kaus Australis → H Vesta RA 175.9906 176 whole (28.28) — also: 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - star rows: J Alnilam → J Vesta Dec 0.1743 conj (17.55) — also: 6 Moonlighter / Tom Scudamore
@@ -1830,12 +1376,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Pallas**
   - star rows: H Alphecca → H Pallas RA 174.7368 108×φ golden (44.00) — also: 1 Funambule Sivola / Charlie Deutsch, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - top rows: S Jupiter → J Pallas RA 70.7191 70.7 sqrt2 (95.27) — only
 - **Transpluto**
   - star rows: H Alphecca → H Transpluto Dec 14.9876 15 whole (14.48) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Alnilam → J Transpluto RA 58.0117 58 whole (17.13) — also: 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
   - star rows: J Kaus Australis → J Transpluto RA 133.9903 134 whole (26.29) — also: 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
@@ -1848,39 +1392,29 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Rahu → J Rahu RA 11.1118 11.1111 ninth (98.93) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
   - star rows: J Arcturus → J Rahu Dec 1.9942 2 whole (50.50) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-- **Saturn**
-  - star rows: H Diadem → H Saturn RA 18.8839 18.8889 ninth (96.43) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - star rows: H Rasalhague → H Saturn Dec 24.1473 24.14 silver (91.70) — also: 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
-- **Pluto**
-  - star rows: H Diadem → H Pluto Dec 37.2155 23×φ golden (95.54) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - star rows: H Difda → H Pluto RA 88.8822 88.8889 ninth (95.21) — also: 1 Funambule Sivola / Charlie Deutsch, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
-  - star rows: H Sualocin → H Pluto Dec 35.5955 22×φ golden (92.39) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
-  - same body: S Pluto → J Pluto RA 83.0093 83 whole (28.53) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton
-  - top rows: S Moon → J Pluto Dec 29.0324 φ^7 phi power (97.23) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
-  - star rows: J Arcturus → J Pluto RA 1.9860 2 whole (9.03) — also: 1 Funambule Sivola / Charlie Deutsch
-    - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: J Difda → J Pluto RA 154.9854 155 whole (7.33) — also: 1 Funambule Sivola / Charlie Deutsch, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
-  - star rows: J Sualocin → J Pluto RA 94.0040 94 whole (64.29) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
-- **Uranus**
-  - star rows: H Difda → H Uranus RA 1.3574 conj (0.90) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
-  - same body: S Uranus → J Uranus RA 143.7322 144.444 ninth (loose) — also: 1 Funambule Sivola / Charlie Deutsch
-  - top rows: S Moon → J Uranus RA 1.1350 conj (5.92) — also: 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
-  - star rows: J Deneb → J Uranus Dec 67.9876 68 whole (14.62) — also: 4 King D'argent / Harry Skelton
-    - source line: S Sun → Deneb RA 0.3500 conj (58.78)
 - **Gonggong**
   - star rows: H Kaus Australis → H Gonggong Dec 21.0393 13×φ golden (72.08) — also: 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - same body: S Gonggong → J Gonggong Dec 10.0201 10 whole (loose) — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
   - star rows: J Rasalhague → J Gonggong Dec 33.9707 21×φ golden (56.82) — also: 1 Funambule Sivola / Charlie Deutsch
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
+- **Saturn**
+  - star rows: H Rasalhague → H Saturn Dec 24.1473 24.14 silver (91.70) — also: 6 Moonlighter / Tom Scudamore
+    - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
+- **Pluto**
+  - star rows: H Sualocin → H Pluto Dec 35.5955 22×φ golden (92.39) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+    - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
+  - same body: S Pluto → J Pluto RA 83.0093 83 whole (28.53) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton
+  - top rows: S Moon → J Pluto Dec 29.0324 φ^7 phi power (97.23) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
+  - star rows: J Arcturus → J Pluto RA 1.9860 2 whole (9.03) — also: 1 Funambule Sivola / Charlie Deutsch
+    - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
+  - star rows: J Sualocin → J Pluto RA 94.0040 94 whole (64.29) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+    - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
+- **Uranus**
+  - same body: S Uranus → J Uranus RA 143.7322 144.444 ninth (loose) — also: 1 Funambule Sivola / Charlie Deutsch
+  - top rows: S Moon → J Uranus RA 1.1350 conj (5.92) — also: 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
+  - star rows: J Deneb → J Uranus Dec 67.9876 68 whole (14.62) — also: 4 King D'argent / Harry Skelton
+    - source line: S Sun → Deneb RA 0.3500 conj (58.78)
 - **Eris**
   - same body: S Eris → J Eris Dec 8.8863 8.88889 ninth (loose) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
   - top rows: S Jupiter → J Eris RA 44.0041 44 whole (63.00) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
@@ -1926,18 +1460,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Ketu → J Ketu RA 88.8732 88.8889 ninth (loose)
 ### L2 what lands on each same body
 - **H Mercury** (same body: S Mercury → H Mercury Dec 1.0208 1 whole (loose))
-  - sky line to Mercury: S Moon → Mercury Dec 8.0060 8 whole (49.15)
   - other chart, star rows: J Ankaa → J Mercury RA 178.0064 178 whole (46.14)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
 - **H Jupiter** (same body: S Jupiter → H Jupiter RA 161.9572 100×φ^1 phi power (loose))
   - top rows: S Chiron → H Jupiter Dec 11.0987 φ^5 phi power (71.49)
   - top rows: S Eris → H Jupiter Dec 17.9420 φ^6 phi power (95.01)
-  - star rows: H Diadem → H Jupiter Dec 1.0123 1 whole (14.94)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - other chart, top rows: S Haumea → J Jupiter RA 118.1106 73×φ golden (66.78)
   - other chart, top rows: S Gonggong → J Jupiter RA 122.9372 φ^10 phi power (83.00)
-  - other chart, star rows: S Altair → J Jupiter Dec 14.0000 14 whole (99.70)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
 - **H Pluto** (same body: S Pluto → H Pluto Dec 1.9987 2 whole (87.62))
   - other chart, star rows: J Alnilam → J Pluto Dec 0.0421 conj (73.93)
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
@@ -1950,14 +1479,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
   - star rows: H Alphecca → H Ceres Dec 51.0175 51 whole (1.54)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: H Ankaa → H Ceres Dec 18.0045 18 whole (59.95)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - other chart, same body: S Ceres → J Ceres Dec 1.6685 1.66667 ninth (loose)
   - other chart, star rows: J Adhara → J Ceres Dec 49.9839 50 whole (3.72)
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - other chart, star rows: J Difda → J Ceres Dec 39.0003 39 whole (96.55)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
 - **H Rahu** (same body: S Rahu → H Rahu RA 133.3945 133.333 ninth (92.66))
   - star rows: H Alnilam → H Rahu RA 105.9954 106 whole (59.19)
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
@@ -1975,7 +1501,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - other chart, star rows: J Alphecca → J Eris RA 148.8900 92×φ golden (0.20)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - other chart, star rows: J Ankaa → J Eris RA 15.9813 16 whole (0.41)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - other chart, star rows: J Zubeneschamali → J Eris Dec 0.2131 conj (8.39)
@@ -1983,18 +1508,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Ketu** (same body: S Ketu → H Ketu RA 133.3945 133.333 ninth (92.66))
   - star rows: H Alnilam → H Ketu RA 74.0046 74 whole (59.19)
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - star rows: H Difda → H Ketu RA 0.8430 conj (19.19)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: H Kaus Australis → H Ketu RA 94.0147 94 whole (7.04)
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - other chart, same body: S Ketu → J Ketu RA 88.8732 88.8889 ninth (loose)
   - other chart, star rows: J Adhara → J Ketu Dec 41.9826 42 whole (1.68)
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - other chart, star rows: J Difda → J Ketu Dec 30.9991 31 whole (91.04)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
 - **J Sun** (same body: S Sun → J Sun RA 132.8640 133.333 ninth (loose))
-  - star rows: J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - other chart, star rows: H Ankaa → H Sun RA 47.0066 47 whole (44.94)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - other chart, star rows: H Deneb → H Sun Dec 60.9870 61 whole (12.30)
@@ -2005,8 +1524,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Ceres** (same body: S Ceres → J Ceres Dec 1.6685 1.66667 ninth (loose))
   - star rows: J Adhara → J Ceres Dec 49.9839 50 whole (3.72)
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - star rows: J Difda → J Ceres Dec 39.0003 39 whole (96.55)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - other chart, same body: S Ceres → H Ceres RA 133.9295 133.333 ninth (loose)
   - other chart, same body: S Ceres → H Ceres Dec 43.6547 27×φ golden (loose)
   - other chart, star rows: H Alkes → H Ceres Dec 6.0082 6 whole (34.99)
@@ -2015,14 +1532,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
   - other chart, star rows: H Alphecca → H Ceres Dec 51.0175 51 whole (1.54)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - other chart, star rows: H Ankaa → H Ceres Dec 18.0045 18 whole (59.95)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
 - **J Vesta** (same body: S Vesta → J Vesta Dec 4.4407 4.44444 ninth (loose))
   - star rows: J Adhara → J Vesta Dec 2.9883 3 whole (17.19)
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - star rows: J Difda → J Vesta Dec 7.9952 8 whole (57.88)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: J Kaus Australis → J Vesta RA 0.4469 conj (49.29)
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
 - **J Rahu** (same body: S Rahu → J Rahu RA 88.8732 88.8889 ninth (loose))
@@ -2036,57 +1550,37 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Sedna** (same body: S Sedna → J Sedna Dec 4.0067 4 whole (44.52))
   - star rows: J Adhara → J Sedna Dec 32.9921 33 whole (36.52)
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - star rows: J Difda → J Sedna Dec 22.0086 22 whole (32.62)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: J Kaus Australis → J Sedna RA 126.2315 78×φ golden (5.45)
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
-  - star rows: J Murzim → J Sedna RA 53.3989 33×φ golden (78.24)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - other chart, top rows: S Jupiter → H Sedna RA 75.9967 76 whole (69.38)
   - other chart, top rows: S Sun → H Sedna RA 103.5514 64×φ golden (83.60)
   - other chart, star rows: H Alphecca → H Sedna RA 179.4200 10×φ^6 phi power (95.00)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - other chart, star rows: H Murzim → H Sedna RA 41.4279 41.4 silver (93.80)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - other chart, star rows: H Zubeneschamali → H Sedna RA 174.9993 175 whole (92.98)
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
 - **J Haumea** (same body: S Haumea → J Haumea RA 30.7725 19×φ golden (loose))
-  - star rows: J Altair → J Haumea RA 110.9235 10×φ^5 phi power (92.30)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - other chart, top rows: S Moon → H Haumea RA 44.4460 44.4444 ninth (98.36)
   - other chart, star rows: H Ankaa → H Haumea RA 155.3456 96×φ golden (31.13)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - other chart, star rows: H Deneb → H Haumea Dec 27.9884 28 whole (17.82)
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
-  - other chart, star rows: H Diadem → H Haumea Dec 0.2365 conj (4.48)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - other chart, star rows: H Menkent → H Haumea RA 0.4471 conj (49.27)
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 44.0281 44 whole (loose))
   - star rows: J Alphecca → J Quaoar RA 1.3181 conj (1.47)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: J Altair → J Quaoar Dec 21.9979 22 whole (80.09)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: J Deneb → J Quaoar RA 78.0127 78 whole (13.28)
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
   - other chart, star rows: H Deneb → H Quaoar RA 43.0093 43 whole (28.50)
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
   - other chart, star rows: H Deneb → H Quaoar Dec 61.0035 61 whole (68.21)
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
-  - other chart, star rows: H Difda → H Quaoar RA 103.5543 64×φ golden (99.14)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
 - **J Ketu** (same body: S Ketu → J Ketu RA 88.8732 88.8889 ninth (loose))
   - star rows: J Adhara → J Ketu Dec 41.9826 42 whole (1.68)
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - star rows: J Difda → J Ketu Dec 30.9991 31 whole (91.04)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - other chart, same body: S Ketu → H Ketu RA 133.3945 133.333 ninth (92.66)
   - other chart, star rows: H Alnilam → H Ketu RA 74.0046 74 whole (59.19)
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - other chart, star rows: H Difda → H Ketu RA 0.8430 conj (19.19)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - other chart, star rows: H Kaus Australis → H Ketu RA 94.0147 94 whole (7.04)
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
 ### L3 matches
@@ -2114,58 +1608,37 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Ketu → H Ketu RA 133.3945 133.333 ninth (92.66) = S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
   - 44.4444 ninth — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
     - S Moon → H Haumea RA 44.4460 44.4444 ninth (98.36) = S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - 22 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
-    - H Altair → H Gonggong Dec 22.0147 22 whole (7.06) = S Moon → Alphecca RA 21.9974 22 whole (76.10)
-  - 10×φ^5 phi power — only
-    - H Murzim → H Chiron RA 110.9784 10×φ^5 phi power (74.24) = S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - 133.333 ninth — also: 2 Before Midnight / James Bowen
     - S Sun → J Sun RA 132.8640 133.333 ninth (loose) = S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
   - 44 whole — also: 3 The Big Bite / Brian Hughes
     - S Quaoar → J Quaoar RA 44.0281 44 whole (loose) = S Moon → Menkent RA 44.0012 44 whole (88.65)
-  - 10×φ^5 phi power — only
-    - J Altair → J Haumea RA 110.9235 10×φ^5 phi power (92.30) = S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
-  - 22 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
-    - J Altair → J Quaoar Dec 21.9979 22 whole (80.09) = S Moon → Alphecca RA 21.9974 22 whole (76.10)
-  - 8 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - J Difda → J Vesta Dec 7.9952 8 whole (57.88) = S Moon → Mercury Dec 8.0060 8 whole (49.15)
-  - 22 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
-    - J Difda → J Sedna Dec 22.0086 22 whole (32.62) = S Moon → Alphecca RA 21.9974 22 whole (76.10)
-  - 22 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
-    - J Murzim → J Orcus Dec 21.9984 22 whole (84.80) = S Moon → Alphecca RA 21.9974 22 whole (76.10)
 - **4. circle divisions**
   - 1 = 360/360 — also: 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
     - S Mercury → H Mercury Dec 1.0208 1 whole (loose)
   - 2 = 360/180 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
     - S Pluto → H Pluto Dec 1.9987 2 whole (87.62)
-  - 6 = 360/60 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
+  - 6 = 360/60 — also: 1 Funambule Sivola / Charlie Deutsch, 6 Moonlighter / Tom Scudamore
     - H Alkes → H Ceres Dec 6.0082 6 whole (34.99)
   - 2 = 360/180 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
     - H Alnilam → H Eris Dec 2.0000 2 whole (99.61)
-  - 4 = 360/90 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
-    - H Altair → H Juno Dec 4.0101 4 whole (24.36)
   - 18 = 360/20 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - H Ankaa → H Ceres Dec 18.0045 18 whole (59.95)
-  - 1 = 360/360 — also: 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
-    - H Diadem → H Jupiter Dec 1.0123 1 whole (14.94)
   - 1 = 360/360 — also: 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
     - H Zubeneschamali → H Venus Dec 1.0077 1 whole (37.74)
   - 4 = 360/90 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
     - S Sedna → J Sedna Dec 4.0067 4 whole (44.52)
-  - 3 = 360/120 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
+  - 3 = 360/120 — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
     - J Adhara → J Vesta Dec 2.9883 3 whole (17.19)
   - 1 = 360/360 — also: 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
     - J Alnilam → J Juno Dec 1.0180 1 whole (0.96)
-  - 8 = 360/45 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - J Difda → J Vesta Dec 7.9952 8 whole (57.88)
   - 60 = 360/6 — only
     - J Menkent → J Uranus RA 59.9979 60 whole (79.83)
 - **5. same number in more than one place**
   - 1 whole — also: 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
     - S Mercury → H Mercury Dec 1.0208 1 whole (loose)
-    - H Diadem → H Jupiter Dec 1.0123 1 whole (14.94)
     - H Zubeneschamali → H Venus Dec 1.0077 1 whole (37.74)
     - J Alnilam → J Juno Dec 1.0180 1 whole (0.96)
-  - 100×φ^1 phi power — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - 100×φ^1 phi power — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
     - S Jupiter → H Jupiter RA 161.9572 100×φ^1 phi power (loose)
     - H Alnilam → H Ceres RA 161.8519 100×φ^1 phi power (88.37)
   - 2 whole — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
@@ -2176,28 +1649,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Rahu → H Rahu RA 133.3945 133.333 ninth (92.66)
     - S Ketu → H Ketu RA 133.3945 133.333 ninth (92.66)
     - S Sun → J Sun RA 132.8640 133.333 ninth (loose)
-  - 34 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
+  - 34 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen
     - S Sun → H Chiron RA 34.0009 34 whole (91.55)
     - H Deneb → H Transpluto Dec 34.0127 34 whole (13.35)
     - H Kaus Australis → H Saturn RA 34.0199 34 whole (0.00)
-  - 64×φ golden — only
-    - S Sun → H Sedna RA 103.5514 64×φ golden (83.60)
-    - H Difda → H Quaoar RA 103.5543 64×φ golden (99.14)
-  - 47 whole — only
-    - H Altair → H Chiron RA 47.0082 47 whole (34.93)
-    - H Ankaa → H Sun RA 47.0066 47 whole (44.94)
-  - 4 whole — also: 6 Moonlighter / Tom Scudamore
-    - H Altair → H Juno Dec 4.0101 4 whole (24.36)
-    - S Sedna → J Sedna Dec 4.0067 4 whole (44.52)
-  - 22 whole — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
-    - H Altair → H Gonggong Dec 22.0147 22 whole (7.06)
-    - J Altair → J Quaoar Dec 21.9979 22 whole (80.09)
-    - J Difda → J Sedna Dec 22.0086 22 whole (32.62)
-    - J Murzim → J Orcus Dec 21.9984 22 whole (84.80)
   - 38 whole — also: 6 Moonlighter / Tom Scudamore
     - H Ankaa → H Rahu Dec 37.9846 38 whole (5.28)
     - J Alphecca → J Uranus RA 37.9967 38 whole (69.74)
-    - J Diadem → J Gonggong Dec 38.0017 38 whole (83.45)
   - 61 whole — only
     - H Deneb → H Sun Dec 60.9870 61 whole (12.30)
     - H Deneb → H Quaoar Dec 61.0035 61 whole (68.21)
@@ -2205,47 +1663,29 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Deneb → H Neptune RA 27.9990 28 whole (90.21)
     - H Deneb → H Haumea Dec 27.9884 28 whole (17.82)
     - H Menkent → H Venus Dec 27.9943 28 whole (50.92)
-  - 10×φ^5 phi power — only
-    - H Murzim → H Chiron RA 110.9784 10×φ^5 phi power (74.24)
-    - J Altair → J Haumea RA 110.9235 10×φ^5 phi power (92.30)
   - 88.8889 ninth — also: 2 Before Midnight / James Bowen
     - S Rahu → J Rahu RA 88.8732 88.8889 ninth (loose)
     - S Ketu → J Ketu RA 88.8732 88.8889 ninth (loose)
-  - 19×φ golden — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
-    - S Haumea → J Haumea RA 30.7725 19×φ golden (loose)
-    - J Jupiter → J Pallas Dec 30.7412 19×φ golden (91.27)
-  - 14 whole — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
-    - J Jupiter → J star Altair Dec 13.9990 14 whole (90.63)
-    - S Altair → J Jupiter Dec 14.0000 14 whole (99.70)
   - 16 whole — also: 5 Fransham / Jack Andrews
     - S Moon → J Uranus RA 15.9967 16 whole (69.72)
     - J Ankaa → J Eris RA 15.9813 16 whole (0.41)
   - φ^10 phi power — only
     - S Gonggong → J Jupiter RA 122.9372 φ^10 phi power (83.00)
     - J Zubeneschamali → J Chiron RA 122.9085 φ^10 phi power (74.73)
-  - 33 whole — also: 2 Before Midnight / James Bowen
+  - 33 whole — only
     - J Adhara → J Sedna Dec 32.9921 33 whole (36.52)
     - J Adhara → J Orcus Dec 33.0139 33 whole (9.17)
-  - 33 and 33×φ on J Sedna — only
-    - J Adhara → J Sedna Dec 32.9921 33 whole (36.52)
-    - J Murzim → J Sedna RA 53.3989 33×φ golden (78.24)
 ### L4 every natal body
 - **Mercury**
   - same body: S Mercury → H Mercury Dec 1.0208 1 whole (loose) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Moon → Mercury Dec 8.0060 8 whole (49.15)
   - star rows: J Ankaa → J Mercury RA 178.0064 178 whole (46.14) — also: 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
 - **Jupiter**
   - same body: S Jupiter → H Jupiter RA 161.9572 100×φ^1 phi power (loose) — also: 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
   - top rows: S Chiron → H Jupiter Dec 11.0987 φ^5 phi power (71.49) — only
   - top rows: S Eris → H Jupiter Dec 17.9420 φ^6 phi power (95.01) — only
-  - star rows: H Diadem → H Jupiter Dec 1.0123 1 whole (14.94) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - T2: J Jupiter → J star Altair Dec 13.9990 14 whole (90.63) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
   - top rows: S Haumea → J Jupiter RA 118.1106 73×φ golden (66.78) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
   - top rows: S Gonggong → J Jupiter RA 122.9372 φ^10 phi power (83.00) — only
-  - star rows: S Altair → J Jupiter Dec 14.0000 14 whole (99.70) — also: 2 Before Midnight / James Bowen
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
 - **Pluto**
   - same body: S Pluto → H Pluto Dec 1.9987 2 whole (87.62) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
   - star rows: J Alnilam → J Pluto Dec 0.0421 conj (73.93) — also: 7 Gold Des Bois / Conor O'Farrell
@@ -2261,14 +1701,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
   - star rows: H Alphecca → H Ceres Dec 51.0175 51 whole (1.54) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: H Ankaa → H Ceres Dec 18.0045 18 whole (59.95) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - same body: S Ceres → J Ceres Dec 1.6685 1.66667 ninth (loose) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
   - star rows: J Adhara → J Ceres Dec 49.9839 50 whole (3.72) — also: 1 Funambule Sivola / Charlie Deutsch
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - star rows: J Difda → J Ceres Dec 39.0003 39 whole (96.55) — also: 5 Fransham / Jack Andrews
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
 - **Rahu**
   - same body: S Rahu → H Rahu RA 133.3945 133.333 ninth (92.66) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
   - star rows: H Alnilam → H Rahu RA 105.9954 106 whole (59.19) — only
@@ -2288,7 +1725,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: J Alphecca → J Eris RA 148.8900 92×φ golden (0.20) — only
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Ankaa → J Eris RA 15.9813 16 whole (0.41) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - star rows: J Zubeneschamali → J Eris Dec 0.2131 conj (8.39) — also: 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
@@ -2297,15 +1733,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Ketu → H Ketu RA 133.3945 133.333 ninth (92.66) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
   - star rows: H Alnilam → H Ketu RA 74.0046 74 whole (59.19) — also: 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - star rows: H Difda → H Ketu RA 0.8430 conj (19.19) — also: 1 Funambule Sivola / Charlie Deutsch
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: H Kaus Australis → H Ketu RA 94.0147 94 whole (7.04) — only
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - same body: S Ketu → J Ketu RA 88.8732 88.8889 ninth (loose) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
   - star rows: J Adhara → J Ketu Dec 41.9826 42 whole (1.68) — only
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - star rows: J Difda → J Ketu Dec 30.9991 31 whole (91.04) — also: 1 Funambule Sivola / Charlie Deutsch
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
 - **Neptune**
   - top rows: S Jupiter → H Neptune RA 0.0944 conj (87.81) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
   - top rows: S Jupiter → H Neptune Dec 0.2989 conj (0.00) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
@@ -2318,26 +1750,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Sun → H Sedna RA 103.5514 64×φ golden (83.60) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
   - star rows: H Alphecca → H Sedna RA 179.4200 10×φ^6 phi power (95.00) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: H Murzim → H Sedna RA 41.4279 41.4 silver (93.80) — also: 1 Funambule Sivola / Charlie Deutsch
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - star rows: H Zubeneschamali → H Sedna RA 174.9993 175 whole (92.98) — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
   - same body: S Sedna → J Sedna Dec 4.0067 4 whole (44.52) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
   - star rows: J Adhara → J Sedna Dec 32.9921 33 whole (36.52) — also: 1 Funambule Sivola / Charlie Deutsch
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - star rows: J Difda → J Sedna Dec 22.0086 22 whole (32.62) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: J Kaus Australis → J Sedna RA 126.2315 78×φ golden (5.45) — only
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
-  - star rows: J Murzim → J Sedna RA 53.3989 33×φ golden (78.24) — also: 1 Funambule Sivola / Charlie Deutsch
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **Chiron**
   - top rows: S Sun → H Chiron RA 34.0009 34 whole (91.55) — only
-  - star rows: H Altair → H Chiron RA 47.0082 47 whole (34.93) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
-  - star rows: H Murzim → H Chiron RA 110.9784 10×φ^5 phi power (74.24) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - star rows: J Sualocin → J Chiron Dec 0.2080 conj (9.40) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
   - star rows: J Zubeneschamali → J Chiron RA 122.9085 φ^10 phi power (74.73) — only
@@ -2348,20 +1769,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
   - star rows: H Arcturus → H Pallas Dec 13.3308 13.3333 ninth (96.99) — also: 1 Funambule Sivola / Charlie Deutsch
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - T2: J Jupiter → J Pallas Dec 30.7412 19×φ golden (91.27) — also: 2 Before Midnight / James Bowen
 - **Haumea**
   - top rows: S Moon → H Haumea RA 44.4460 44.4444 ninth (98.36) — also: 1 Funambule Sivola / Charlie Deutsch
   - star rows: H Ankaa → H Haumea RA 155.3456 96×φ golden (31.13) — also: 1 Funambule Sivola / Charlie Deutsch
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - star rows: H Deneb → H Haumea Dec 27.9884 28 whole (17.82) — also: 5 Fransham / Jack Andrews
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
-  - star rows: H Diadem → H Haumea Dec 0.2365 conj (4.48) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - star rows: H Menkent → H Haumea RA 0.4471 conj (49.27) — also: 1 Funambule Sivola / Charlie Deutsch
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
   - same body: S Haumea → J Haumea RA 30.7725 19×φ golden (loose) — also: 7 Gold Des Bois / Conor O'Farrell
-  - star rows: J Altair → J Haumea RA 110.9235 10×φ^5 phi power (92.30) — also: 5 Fransham / Jack Andrews
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
 - **Transpluto**
   - star rows: H Adhara → H Transpluto RA 47.9861 48 whole (9.21) — also: 2 Before Midnight / James Bowen
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
@@ -2381,30 +1797,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Makemake**
   - star rows: H Alnilam → H Makemake Dec 27.0004 27 whole (96.53) — only
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-- **Juno**
-  - star rows: H Altair → H Juno Dec 4.0101 4 whole (24.36) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
-  - star rows: J Alnilam → J Juno Dec 1.0180 1 whole (0.96) — only
-    - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - star rows: J Murzim → J Juno Dec 17.7707 17.7778 ninth (94.45) — also: 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
-  - star rows: J Sualocin → J Juno RA 119.7349 74×φ golden (97.50) — only
-    - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
-- **Gonggong**
-  - star rows: H Altair → H Gonggong Dec 22.0147 22 whole (7.06) — also: 1 Funambule Sivola / Charlie Deutsch, 5 Fransham / Jack Andrews
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
-  - star rows: J Alkes → J Gonggong RA 163.9965 164 whole (67.89) — also: 1 Funambule Sivola / Charlie Deutsch, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
-  - star rows: J Diadem → J Gonggong Dec 38.0017 38 whole (83.45) — also: 1 Funambule Sivola / Charlie Deutsch
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
 - **Sun**
   - star rows: H Ankaa → H Sun RA 47.0066 47 whole (44.94) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - star rows: H Deneb → H Sun Dec 60.9870 61 whole (12.30) — only
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
   - same body: S Sun → J Sun RA 132.8640 133.333 ninth (loose) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
-  - star rows: J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49) — only
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **Uranus**
   - star rows: H Arcturus → H Uranus RA 158.5386 98×φ golden (1.25) — also: 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
@@ -2415,26 +1813,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
   - star rows: J Alphecca → J Uranus RA 37.9967 38 whole (69.74) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Deneb → J Uranus Dec 68.9867 69 whole (11.15) — also: 3 The Big Bite / Brian Hughes
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
   - star rows: J Menkent → J Uranus RA 59.9979 60 whole (79.83) — also: 2 Before Midnight / James Bowen
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
-  - star rows: J Murzim → J Uranus RA 175.9907 176 whole (28.69) — also: 2 Before Midnight / James Bowen
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **Quaoar**
   - star rows: H Deneb → H Quaoar RA 43.0093 43 whole (28.50) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
   - star rows: H Deneb → H Quaoar Dec 61.0035 61 whole (68.21) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
-  - star rows: H Difda → H Quaoar RA 103.5543 64×φ golden (99.14) — also: 2 Before Midnight / James Bowen
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - same body: S Quaoar → J Quaoar RA 44.0281 44 whole (loose) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
   - star rows: J Alphecca → J Quaoar RA 1.3181 conj (1.47) — only
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: J Altair → J Quaoar Dec 21.9979 22 whole (80.09) — also: 1 Funambule Sivola / Charlie Deutsch
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: J Deneb → J Quaoar RA 78.0127 78 whole (13.28) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
 - **Saturn**
@@ -2445,8 +1835,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Vesta → J Vesta Dec 4.4407 4.44444 ninth (loose) — also: 1 Funambule Sivola / Charlie Deutsch, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
   - star rows: J Adhara → J Vesta Dec 2.9883 3 whole (17.19) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - star rows: J Difda → J Vesta Dec 7.9952 8 whole (57.88) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: J Kaus Australis → J Vesta RA 0.4469 conj (49.29) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
 - **Orcus**
@@ -2454,8 +1842,14 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
   - star rows: J Deneb → J Orcus RA 179.6308 111×φ golden (1.08) — also: 1 Funambule Sivola / Charlie Deutsch, 5 Fransham / Jack Andrews
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
-  - star rows: J Murzim → J Orcus Dec 21.9984 22 whole (84.80) — only
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
+- **Gonggong**
+  - star rows: J Alkes → J Gonggong RA 163.9965 164 whole (67.89) — also: 1 Funambule Sivola / Charlie Deutsch, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+    - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
+- **Juno**
+  - star rows: J Alnilam → J Juno Dec 1.0180 1 whole (0.96) — only
+    - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
+  - star rows: J Sualocin → J Juno RA 119.7349 74×φ golden (97.50) — only
+    - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 
 ## 5 Fransham / Jack Andrews
 ### L1 same bodies
@@ -2472,31 +1866,19 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Sun** (same body: S Sun → H Sun Dec 30.7231 19×φ golden (loose))
   - star rows: H Ankaa → H Sun RA 24.2730 15×φ golden (85.13)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
-  - star rows: H Diadem → H Sun RA 166.6615 166.667 ninth (99.56)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - star rows: H Diadem → H Sun Dec 5.0010 5 whole (90.47)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - star rows: H Rasalhague → H Sun Dec 0.0287 conj (81.76)
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
-  - other chart, star rows: J Difda → J Sun RA 54.0048 54 whole (57.59)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - other chart, star rows: J Kaus Australis → J Sun RA 148.8502 92×φ golden (52.25)
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - other chart, star rows: J Sualocin → J Sun RA 114.9868 115 whole (11.63)
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **H Mercury** (same body: S Mercury → H Mercury Dec 28.0013 28 whole (87.21))
-  - sky line to Mercury: S Moon → Mercury Dec 8.0060 8 whole (49.15)
   - star rows: H Alphecca → H Mercury Dec 15.9869 16 whole (11.96)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - other chart, star rows: J Altair → J Mercury Dec 13.9874 14 whole (13.75)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - other chart, star rows: J Deneb → J Mercury RA 117.9890 118 whole (20.42)
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
 - **H Venus** (same body: S Venus → H Venus Dec 11.0868 φ^5 phi power (loose))
   - top rows: S Jupiter → H Venus RA 12.0033 12 whole (69.57)
-  - star rows: H Altair → H Venus Dec 13.9873 14 whole (13.20)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: H Zubeneschamali → H Venus RA 121.0017 121 whole (83.76)
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
   - other chart, star rows: J Adhara → J Venus RA 8.9971 9 whole (72.93)
@@ -2504,7 +1886,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **H Rahu** (same body: S Rahu → H Rahu Dec 30.7326 19×φ golden (loose))
   - star rows: H Alphecca → H Rahu RA 27.5042 17×φ golden (85.72)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: H Arcturus → H Rahu Dec 29.9981 30 whole (81.50)
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
   - other chart, star rows: J Deneb → J Rahu Dec 29.1226 18×φ golden (87.89)
@@ -2512,13 +1893,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Sualocin → J Rahu Dec 0.2438 conj (3.51)
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **H Sedna** (same body: S Sedna → H Sedna RA 4.1451 4.14 silver (loose))
-  - star rows: H Altair → H Sedna RA 116.4750 72×φ golden (7.52)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - other chart, star rows: J Alphecca → J Sedna RA 173.0140 173 whole (9.02)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - other chart, star rows: J Altair → J Sedna RA 108.9925 109 whole (39.11)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - other chart, star rows: J Menkent → J Sedna RA 164.9843 165 whole (4.69)
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
 - **H Quaoar** (same body: S Quaoar → H Quaoar RA 9.9996 10 whole (97.09))
@@ -2531,8 +1907,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **J Mars** (same body: S Mars → J Mars Dec 14.1828 14.14 sqrt2 (loose))
   - star rows: J Arcturus → J Mars RA 11.0131 11 whole (11.75)
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: J Difda → J Mars RA 167.9871 168 whole (12.44)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: J Sualocin → J Mars RA 107.0051 107 whole (55.82)
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
   - star rows: J Zubeneschamali → J Mars Dec 0.2936 conj (0.05)
@@ -2540,8 +1914,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, top rows: S Jupiter → H Mars Dec 6.6664 6.66667 ninth (98.01)
   - other chart, star rows: H Alnilam → H Mars RA 109.0152 109 whole (5.85)
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - other chart, star rows: H Diadem → H Mars Dec 21.0347 13×φ golden (98.29)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - other chart, star rows: H Kaus Australis → H Mars RA 82.9807 83 whole (0.13)
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - other chart, star rows: H Sualocin → H Mars Dec 19.4149 12×φ golden (90.76)
@@ -2550,8 +1922,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, top rows: S Sun → H Vesta RA 106.7916 66×φ golden (91.77)
   - other chart, star rows: H Arcturus → H Vesta RA 10.0078 10 whole (37.48)
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - other chart, star rows: H Difda → H Vesta RA 166.9847 167 whole (5.59)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - other chart, star rows: H Rasalhague → H Vesta Dec 9.0053 9 whole (54.06)
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
   - other chart, star rows: H Sualocin → H Vesta RA 106.0007 106 whole (93.11)
@@ -2560,30 +1930,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **1. same body on both charts**: none
 - **2. one body in both planes**: none
 - **3. runner number = sky number**
-  - 52 whole — also: 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-    - H Jupiter → H star Adhara Dec 52.0019 52 whole (81.65) = S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - 109 whole — only
     - H Jupiter → H star Arcturus RA 109.0025 109 whole (76.67) = S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
-  - 52 whole — also: 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-    - S Adhara → H Jupiter Dec 52.0000 52 whole (99.61) = S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - 109 whole — only
     - H Alnilam → H Mars RA 109.0152 109 whole (5.85) = S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
-  - 22 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
+  - 22 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
     - H Alphecca → H Uranus Dec 21.9966 22 whole (68.52) = S Moon → Alphecca RA 21.9974 22 whole (76.10)
   - 109 whole — only
     - H Arcturus → H Jupiter RA 109.0025 109 whole (76.67) = S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
-  - 109 whole — only
-    - J Altair → J Sedna RA 108.9925 109 whole (39.11) = S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
-  - 13 whole — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
-    - J Altair → J Haumea Dec 12.9863 13 whole (9.97) = S Sun → Altair RA 13.0065 13 whole (45.24)
-  - 109 whole — only
-    - J Diadem → J Neptune RA 109.0145 109 whole (7.53) = S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
-  - 13 whole — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
-    - J Difda → J Eris RA 12.9872 13 whole (12.80) = S Sun → Altair RA 13.0065 13 whole (45.24)
 - **4. circle divisions**
   - 10 = 360/36 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - S Quaoar → H Quaoar RA 9.9996 10 whole (97.09)
-  - 12 = 360/30 — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
+  - 12 = 360/30 — also: 7 Gold Des Bois / Conor O'Farrell
     - S Jupiter → H Venus RA 12.0033 12 whole (69.57)
   - 30 = 360/12 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
     - S Moon → H Uranus Dec 29.9977 30 whole (77.99)
@@ -2593,24 +1951,20 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Arcturus → H Vesta RA 10.0078 10 whole (37.48)
   - 30 = 360/12 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
     - H Arcturus → H Rahu Dec 29.9981 30 whole (81.50)
-  - 5 = 360/72 — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
-    - H Diadem → H Sun Dec 5.0010 5 whole (90.47)
-  - 9 = 360/40 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - 9 = 360/40 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - H Rasalhague → H Vesta Dec 9.0053 9 whole (54.06)
   - 36 = 360/10 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - H Sualocin → H Pluto Dec 36.0198 36 whole (0.01)
-  - 9 = 360/40 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - 9 = 360/40 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - J Adhara → J Venus RA 8.9971 9 whole (72.93)
   - 15 = 360/24 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - J Alnilam → J Chiron Dec 15.0158 15 whole (4.45)
-  - 12 = 360/30 — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
-    - S Difda → J Jupiter RA 12.0124 12 whole (14.45)
   - 36 = 360/10 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - J Menkent → J Orcus Dec 36.0009 36 whole (91.25)
-  - 9 = 360/40 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - 9 = 360/40 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - J Zubeneschamali → J Orcus Dec 9.0125 9 whole (14.22)
 - **5. same number in more than one place**
-  - 19×φ golden — also: 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
+  - 19×φ golden — also: 7 Gold Des Bois / Conor O'Farrell
     - S Sun → H Sun Dec 30.7231 19×φ golden (loose)
     - S Rahu → H Rahu Dec 30.7326 19×φ golden (loose)
     - S Ketu → H Ketu Dec 30.7326 19×φ golden (loose)
@@ -2624,15 +1978,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Jupiter → H star Arcturus RA 109.0025 109 whole (76.67)
     - H Alnilam → H Mars RA 109.0152 109 whole (5.85)
     - H Arcturus → H Jupiter RA 109.0025 109 whole (76.67)
-    - J Altair → J Sedna RA 108.9925 109 whole (39.11)
-    - J Diadem → J Neptune RA 109.0145 109 whole (7.53)
   - 155 whole — only
     - H Jupiter → H star Sualocin RA 155.0046 155 whole (59.55)
     - H Sualocin → H Jupiter RA 155.0046 155 whole (59.55)
-  - 12 whole — only
-    - S Jupiter → H Venus RA 12.0033 12 whole (69.57)
-    - S Difda → J Jupiter RA 12.0124 12 whole (14.45)
-  - 21 whole — also: 2 Before Midnight / James Bowen
+  - 21 whole — only
     - S Jupiter → H Ketu Dec 20.9978 21 whole (79.57)
     - H Zubeneschamali → H Transpluto Dec 20.9830 21 whole (2.32)
     - S Juno → J Jupiter Dec 20.9959 21 whole (63.13)
@@ -2658,16 +2007,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 18×φ golden — only
     - H Alkes → H Ketu Dec 29.1267 18×φ golden (87.53)
     - J Deneb → J Rahu Dec 29.1226 18×φ golden (87.89)
-  - 14 whole — also: 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
-    - H Altair → H Venus Dec 13.9873 14 whole (13.20)
-    - J Altair → J Mercury Dec 13.9874 14 whole (13.75)
-  - 41 whole — only
-    - H Difda → H Jupiter Dec 41.0134 41 whole (10.84)
-    - H Murzim → H Jupiter Dec 40.9849 41 whole (6.09)
-  - 17 whole — only
-    - H Difda → H Juno RA 16.9924 17 whole (38.28)
-    - H Sualocin → H Chiron Dec 16.9809 17 whole (0.22)
-  - 9 whole — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
+  - 9 whole — only
     - H Rasalhague → H Vesta Dec 9.0053 9 whole (54.06)
     - J Adhara → J Venus RA 8.9971 9 whole (72.93)
     - J Zubeneschamali → J Orcus Dec 9.0125 9 whole (14.22)
@@ -2677,9 +2017,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 73 whole — only
     - J Jupiter → J star Sualocin RA 72.9966 73 whole (69.25)
     - J Sualocin → J Jupiter RA 72.9966 73 whole (69.25)
-  - 13 whole — only
-    - J Altair → J Haumea Dec 12.9863 13 whole (9.97)
-    - J Difda → J Eris RA 12.9872 13 whole (12.80)
   - 20×φ golden — also: 1 Funambule Sivola / Charlie Deutsch
     - J Ankaa → J Saturn RA 32.3617 20×φ golden (93.91)
     - J Sualocin → J Uranus Dec 32.3649 20×φ golden (75.79)
@@ -2689,41 +2026,26 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 26 whole — also: 1 Funambule Sivola / Charlie Deutsch
     - J Arcturus → J Eris Dec 25.9873 26 whole (13.31)
     - J Sualocin → J Pluto Dec 25.9921 26 whole (36.40)
-  - 34 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton
-    - J Diadem → J Uranus Dec 33.9849 34 whole (5.88)
-    - J Kaus Australis → J Orcus Dec 34.0123 34 whole (14.99)
 ### L4 every natal body
 - **Sun**
   - same body: S Sun → H Sun Dec 30.7231 19×φ golden (loose) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
   - star rows: H Ankaa → H Sun RA 24.2730 15×φ golden (85.13) — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
-  - star rows: H Diadem → H Sun RA 166.6615 166.667 ninth (99.56) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - star rows: H Diadem → H Sun Dec 5.0010 5 whole (90.47) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - star rows: H Rasalhague → H Sun Dec 0.0287 conj (81.76) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
-  - star rows: J Difda → J Sun RA 54.0048 54 whole (57.59) — also: 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: J Kaus Australis → J Sun RA 148.8502 92×φ golden (52.25) — only
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - star rows: J Sualocin → J Sun RA 114.9868 115 whole (11.63) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **Mercury**
   - same body: S Mercury → H Mercury Dec 28.0013 28 whole (87.21) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Moon → Mercury Dec 8.0060 8 whole (49.15)
   - star rows: H Alphecca → H Mercury Dec 15.9869 16 whole (11.96) — also: 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: J Altair → J Mercury Dec 13.9874 14 whole (13.75) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: J Deneb → J Mercury RA 117.9890 118 whole (20.42) — also: 1 Funambule Sivola / Charlie Deutsch
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
 - **Venus**
   - same body: S Venus → H Venus Dec 11.0868 φ^5 phi power (loose) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
   - top rows: S Jupiter → H Venus RA 12.0033 12 whole (69.57) — also: 1 Funambule Sivola / Charlie Deutsch
-  - star rows: H Altair → H Venus Dec 13.9873 14 whole (13.20) — also: 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: H Zubeneschamali → H Venus RA 121.0017 121 whole (83.76) — also: 4 King D'argent / Harry Skelton
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
   - star rows: J Adhara → J Venus RA 8.9971 9 whole (72.93) — also: 7 Gold Des Bois / Conor O'Farrell
@@ -2732,7 +2054,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Rahu → H Rahu Dec 30.7326 19×φ golden (loose) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
   - star rows: H Alphecca → H Rahu RA 27.5042 17×φ golden (85.72) — also: 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: H Arcturus → H Rahu Dec 29.9981 30 whole (81.50) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
   - star rows: J Deneb → J Rahu Dec 29.1226 18×φ golden (87.89) — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
@@ -2741,13 +2062,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **Sedna**
   - same body: S Sedna → H Sedna RA 4.1451 4.14 silver (loose) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
-  - star rows: H Altair → H Sedna RA 116.4750 72×φ golden (7.52) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: J Alphecca → J Sedna RA 173.0140 173 whole (9.02) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: J Altair → J Sedna RA 108.9925 109 whole (39.11) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: J Menkent → J Sedna RA 164.9843 165 whole (4.69) — only
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
 - **Quaoar**
@@ -2760,10 +2076,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Zubeneschamali → H Ketu RA 156.9174 97×φ golden (0.02) — only
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
 - **Jupiter**
-  - T1: H Jupiter → H star Adhara RA 0.2594 conj (68.41) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-  - T1: H Jupiter → H star Adhara Dec 52.0019 52 whole (81.65) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-  - T1: H Jupiter → H star Arcturus RA 109.0025 109 whole (76.67) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
-  - T1: H Jupiter → H star Sualocin RA 155.0046 155 whole (59.55) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - T1: H Jupiter → H star Adhara RA 0.2594 conj (68.41) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - T1: H Jupiter → H star Adhara Dec 52.0019 52 whole (81.65) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - T1: H Jupiter → H star Arcturus RA 109.0025 109 whole (76.67) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - T1: H Jupiter → H star Sualocin RA 155.0046 155 whole (59.55) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
   - top rows: S Pluto → H Jupiter RA 165.9949 166 whole (55.86) — also: 1 Funambule Sivola / Charlie Deutsch
   - top rows: S Sedna → H Jupiter Dec 14.9948 15 whole (54.45) — only
   - star rows: S Adhara → H Jupiter RA 0.2514 conj (69.29) — only
@@ -2772,31 +2088,21 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
   - star rows: H Arcturus → H Jupiter RA 109.0025 109 whole (76.67) — only
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: S Difda → H Jupiter RA 94.0173 94 whole (1.76) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
-  - star rows: H Difda → H Jupiter Dec 41.0134 41 whole (10.84) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: H Menkent → H Jupiter RA 106.7608 66×φ golden (0.81) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
-  - star rows: H Murzim → H Jupiter Dec 40.9849 41 whole (6.09) — also: 2 Before Midnight / James Bowen
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - star rows: H Sualocin → H Jupiter RA 155.0046 155 whole (59.55) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
-  - T2: J Jupiter → J star Sualocin RA 72.9966 73 whole (69.25) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - T2: J Jupiter → J star Sualocin RA 72.9966 73 whole (69.25) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
   - top rows: S Neptune → J Jupiter Dec 12.9491 8×φ golden (72.49) — only
   - top rows: S Juno → J Jupiter Dec 20.9959 21 whole (63.13) — only
   - star rows: S Arcturus → J Jupiter RA 169.0005 169 whole (95.27) — only
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: S Difda → J Jupiter RA 12.0124 12 whole (14.45) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: J Sualocin → J Jupiter RA 72.9966 73 whole (69.25) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **Mars**
   - top rows: S Jupiter → H Mars Dec 6.6664 6.66667 ninth (98.01) — also: 2 Before Midnight / James Bowen
   - star rows: H Alnilam → H Mars RA 109.0152 109 whole (5.85) — only
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - star rows: H Diadem → H Mars Dec 21.0347 13×φ golden (98.29) — only
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - star rows: H Kaus Australis → H Mars RA 82.9807 83 whole (0.13) — only
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - star rows: H Sualocin → H Mars Dec 19.4149 12×φ golden (90.76) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
@@ -2804,8 +2110,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Mars → J Mars Dec 14.1828 14.14 sqrt2 (loose) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
   - star rows: J Arcturus → J Mars RA 11.0131 11 whole (11.75) — only
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: J Difda → J Mars RA 167.9871 168 whole (12.44) — also: 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: J Sualocin → J Mars RA 107.0051 107 whole (55.82) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
   - star rows: J Zubeneschamali → J Mars Dec 0.2936 conj (0.05) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
@@ -2816,8 +2120,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
   - star rows: J Alnilam → J Neptune RA 137.5329 85×φ golden (99.77) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - star rows: J Diadem → J Neptune RA 109.0145 109 whole (7.53) — only
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
 - **Eris**
   - top rows: S Jupiter → H Eris Dec 7.0713 7.07 sqrt2 (98.91) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
   - star rows: H Arcturus → H Eris RA 171.5200 106×φ golden (55.01) — only
@@ -2826,21 +2128,16 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
   - star rows: J Arcturus → J Eris Dec 25.9873 26 whole (13.31) — only
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: J Difda → J Eris RA 12.9872 13 whole (12.80) — only
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
 - **Makemake**
   - top rows: S Jupiter → H Makemake Dec 36.9996 37 whole (96.35) — only
   - star rows: H Alphecca → H Makemake Dec 0.1153 conj (37.91) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Zubeneschamali → J Makemake Dec 42.3672 10×φ^3 phi power (93.93) — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
 - **Vesta**
   - top rows: S Sun → H Vesta RA 106.7916 66×φ golden (91.77) — only
   - star rows: H Arcturus → H Vesta RA 10.0078 10 whole (37.48) — only
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: H Difda → H Vesta RA 166.9847 167 whole (5.59) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: H Rasalhague → H Vesta Dec 9.0053 9 whole (54.06) — also: 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
   - star rows: H Sualocin → H Vesta RA 106.0007 106 whole (93.11) — only
@@ -2848,8 +2145,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Vesta → J Vesta Dec 42.0251 42 whole (loose) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
 - **Gonggong**
   - top rows: S Sun → H Gonggong RA 25.0014 25 whole (86.16) — also: 1 Funambule Sivola / Charlie Deutsch
-  - star rows: H Altair → H Gonggong RA 38.0029 38 whole (73.06) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: H Sualocin → H Gonggong Dec 29.0056 29 whole (51.56) — also: 1 Funambule Sivola / Charlie Deutsch
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **Uranus**
@@ -2860,11 +2155,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: H Alphecca → H Uranus Dec 21.9966 22 whole (68.52) — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Alnilam → J Uranus RA 124.5934 77×φ golden (72.60) — only
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - star rows: J Diadem → J Uranus Dec 33.9849 34 whole (5.88) — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - star rows: J Rasalhague → J Uranus Dec 29.0139 29 whole (9.39) — also: 1 Funambule Sivola / Charlie Deutsch
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
   - star rows: J Sualocin → J Uranus Dec 32.3649 20×φ golden (75.79) — also: 6 Moonlighter / Tom Scudamore
@@ -2873,16 +2165,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Moon → H Ceres Dec 29.0053 29 whole (54.13) — also: 3 The Big Bite / Brian Hughes
   - star rows: H Alphecca → H Ceres Dec 22.9889 23 whole (19.95) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Alphecca → J Ceres Dec 0.2152 conj (7.99) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Arcturus → J Ceres RA 117.0127 117 whole (13.43) — only
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: J Difda → J Ceres RA 86.0134 86 whole (10.83) — also: 4 King D'argent / Harry Skelton
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
-  - star rows: J Murzim → J Ceres RA 1.2378 conj (3.06) — also: 1 Funambule Sivola / Charlie Deutsch
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - star rows: J Sualocin → J Ceres RA 146.9954 147 whole (59.41) — only
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
   - star rows: J Sualocin → J Ceres Dec 11.0198 11 whole (0.01) — only
@@ -2907,7 +2193,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
   - star rows: H Alphecca → H Chiron RA 111.6745 69×φ golden (0.48) — only
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: H Deneb → H Chiron RA 34.9953 35 whole (58.54) — only
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
   - star rows: H Sualocin → H Chiron Dec 16.9809 17 whole (0.22) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
@@ -2917,15 +2202,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Haumea**
   - star rows: H Deneb → H Haumea Dec 26.9996 27 whole (96.43) — also: 4 King D'argent / Harry Skelton
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
-  - star rows: J Altair → J Haumea Dec 12.9863 13 whole (9.97) — also: 4 King D'argent / Harry Skelton
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
-- **Juno**
-  - star rows: H Difda → H Juno RA 16.9924 17 whole (38.28) — only
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
-  - star rows: J Altair → J Juno Dec 12.2216 12.2222 ninth (99.08) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
-  - star rows: J Menkent → J Juno Dec 33.0177 33 whole (1.31) — also: 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
 - **Transpluto**
   - star rows: H Kaus Australis → H Transpluto Dec 45.9825 46 whole (1.51) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
@@ -2933,8 +2209,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
   - star rows: H Zubeneschamali → H Transpluto Dec 20.9830 21 whole (2.32) — only
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
-  - star rows: J Difda → J Transpluto RA 135.9029 84×φ golden (39.58) — only
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
 - **Pluto**
   - star rows: H Sualocin → H Pluto Dec 36.0198 36 whole (0.01) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
@@ -2952,10 +2226,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - star rows: J Arcturus → J Saturn RA 174.9912 175 whole (31.17) — only
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: J Diadem → J Saturn RA 158.5716 98×φ golden (75.25) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - star rows: J Sualocin → J Saturn RA 89.0169 89 whole (2.37) — also: 1 Funambule Sivola / Charlie Deutsch
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
+- **Juno**
+  - star rows: J Menkent → J Juno Dec 33.0177 33 whole (1.31) — also: 7 Gold Des Bois / Conor O'Farrell
+    - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
 
 ## 6 Moonlighter / Tom Scudamore
 ### L1 same bodies
@@ -2970,8 +2245,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Transpluto → J Transpluto RA 14.1021 14.14 sqrt2 (loose)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun RA 86.9999 87 whole (99.28))
-  - star rows: H Altair → H Sun RA 100.0009 100 whole (91.50)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
 - **H Mars** (same body: S Mars → H Mars RA 122.1600 122.222 ninth (loose))
   - star rows: H Alkes → H Mars Dec 31.9875 32 whole (14.19)
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
@@ -2981,18 +2254,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
   - other chart, same body: S Mars → J Mars Dec 24.1727 24.14 silver (loose)
 - **H Juno** (same body: S Juno → H Juno RA 14.1278 14.14 sqrt2 (loose))
-  - star rows: H Diadem → H Juno RA 115.0111 115 whole (19.90)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - other chart, same body: S Juno → J Juno Dec 7.0259 7 whole (loose)
-  - other chart, star rows: J Diadem → J Juno RA 80.9951 81 whole (56.73)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
 - **H Orcus** (same body: S Orcus → H Orcus RA 9.0089 9 whole (30.67))
   - star rows: H Alkes → H Orcus Dec 10.9803 11 whole (0.03)
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: H Alnilam → H Orcus RA 64.0040 64 whole (63.98)
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - star rows: H Altair → H Orcus Dec 16.1883 10×φ^1 phi power (81.39)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: H Ankaa → H Orcus RA 141.4871 141.4 sqrt2 (82.26)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - star rows: H Ankaa → H Orcus Dec 34.9855 35 whole (7.62)
@@ -3001,8 +2268,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - star rows: H Sualocin → H Orcus RA 161.8565 100×φ^1 phi power (87.31)
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
-  - other chart, star rows: J Altair → J Orcus RA 176.3562 109×φ golden (49.72)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - other chart, star rows: J Rasalhague → J Orcus RA 142.3981 88×φ golden (43.19)
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
 - **J Mars** (same body: S Mars → J Mars Dec 24.1727 24.14 silver (loose))
@@ -3014,37 +2279,22 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: H Sualocin → H Mars Dec 2.2228 2.22222 ninth (92.16)
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **J Jupiter** (same body: S Jupiter → J Jupiter Dec 0.8880 0.888889 ninth (loose))
-  - star rows: J Difda → J Jupiter RA 160.0180 160 whole (0.97)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: S Menkent → J Jupiter RA 0.7925 conj (22.25)
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
   - other chart, top rows: S Haumea → H Jupiter RA 141.4256 141.4 sqrt2 (98.80)
   - other chart, top rows: S Makemake → H Jupiter Dec 0.1545 conj (23.52)
-  - other chart, star rows: S Diadem → H Jupiter RA 121.3759 75×φ golden (7.82)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - other chart, star rows: H Sualocin → H Jupiter RA 126.2103 78×φ golden (78.95)
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **J Saturn** (same body: S Saturn → J Saturn Dec 13.2661 13.3333 ninth (loose))
-  - star rows: J Diadem → J Saturn RA 1.4143 1.414 sqrt2 (99.20)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - star rows: J Murzim → J Saturn Dec 14.0149 14 whole (6.41)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
-  - other chart, star rows: H Diadem → H Saturn RA 18.8839 18.8889 ninth (96.44)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - other chart, star rows: H Rasalhague → H Saturn Dec 24.1473 24.14 silver (91.70)
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
 - **J Juno** (same body: S Juno → J Juno Dec 7.0259 7 whole (loose))
-  - star rows: J Diadem → J Juno RA 80.9951 81 whole (56.73)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - other chart, same body: S Juno → H Juno RA 14.1278 14.14 sqrt2 (loose)
-  - other chart, star rows: H Diadem → H Juno RA 115.0111 115 whole (19.90)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
 - **J Transpluto** (same body: S Transpluto → J Transpluto RA 14.1021 14.14 sqrt2 (loose))
   - star rows: J Ankaa → J Transpluto RA 134.2833 83×φ golden (33.81)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - other chart, star rows: H Alphecca → H Transpluto Dec 14.9876 15 whole (14.47)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
 ### L3 matches
 - **1. same body on both charts**
   - Mars — also: 3 The Big Bite / Brian Hughes
@@ -3054,17 +2304,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Juno → H Juno RA 14.1278 14.14 sqrt2 (loose)
     - S Juno → J Juno Dec 7.0259 7 whole (loose)
 - **2. one body in both planes**: none
-- **3. runner number = sky number**
-  - 8 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
-    - H Alnilam → H Vesta RA 7.9877 8 whole (14.96) = S Moon → Mercury Dec 8.0060 8 whole (49.15)
-  - 10×φ^1 phi power — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
-    - H Altair → H Orcus Dec 16.1883 10×φ^1 phi power (81.39) = S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
-  - 52 whole — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
-    - J Kaus Australis → J Quaoar RA 52.0058 52 whole (50.31) = S Moon → Alphecca Dec 51.9929 52 whole (41.36)
+- **3. runner number = sky number**: none
 - **4. circle divisions**
-  - 9 = 360/40 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
+  - 9 = 360/40 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
     - S Orcus → H Orcus RA 9.0089 9 whole (30.67)
-  - 8 = 360/45 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
+  - 8 = 360/45 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
     - H Alnilam → H Vesta RA 7.9877 8 whole (14.96)
   - 15 = 360/24 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
     - H Alphecca → H Transpluto Dec 14.9876 15 whole (14.47)
@@ -3074,7 +2318,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Deneb → H Makemake Dec 17.9866 18 whole (10.75)
   - 18 = 360/20 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
     - H Sualocin → H Chiron Dec 17.9809 18 whole (0.19)
-  - 6 = 360/60 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton
+  - 6 = 360/60 — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton
     - J Alkes → J Makemake RA 5.9992 6 whole (92.29)
   - 4 = 360/90 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton
     - J Alkes → J Gonggong Dec 3.9975 4 whole (76.15)
@@ -3106,53 +2350,37 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 38 whole — also: 4 King D'argent / Harry Skelton
     - H Adhara → H Mercury Dec 37.9983 38 whole (83.89)
     - J Sualocin → J Neptune Dec 37.9915 38 whole (33.35)
-  - 32 whole — also: 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
+  - 32 whole — also: 3 The Big Bite / Brian Hughes
     - H Alkes → H Mars Dec 31.9875 32 whole (14.19)
     - S Moon → J Pluto Dec 31.9950 32 whole (56.32)
-  - 100 whole — also: 3 The Big Bite / Brian Hughes
-    - H Alkes → H Quaoar RA 100.0046 100 whole (59.25)
-    - H Altair → H Sun RA 100.0009 100 whole (91.50)
-  - 100×φ^1 phi power — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
-    - H Altair → H Ceres RA 161.8576 100×φ^1 phi power (87.06)
-    - H Sualocin → H Orcus RA 161.8565 100×φ^1 phi power (87.31)
   - 36 whole — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
     - H Arcturus → H Rahu Dec 35.9937 36 whole (47.19)
     - J Alphecca → J Ceres Dec 35.9906 36 whole (28.13)
     - J Zubeneschamali → J Pallas RA 36.0177 36 whole (1.37)
-  - 18 whole — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
+  - 18 whole — also: 3 The Big Bite / Brian Hughes
     - H Deneb → H Makemake Dec 17.9866 18 whole (10.75)
     - H Sualocin → H Chiron Dec 17.9809 18 whole (0.19)
-  - 27 whole — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
-    - H Difda → H Mercury Dec 27.0097 27 whole (26.41)
-    - H Murzim → H Mercury Dec 26.9813 27 whole (0.44)
-    - J Arcturus → J Uranus RA 26.9986 27 whole (86.13)
-    - J Sualocin → J Eris Dec 26.9832 27 whole (2.61)
-  - 95 whole — only
-    - H Murzim → H Makemake RA 94.9910 95 whole (30.16)
-    - J Alnilam → J Haumea RA 95.0013 95 whole (87.08)
   - 24.14 silver — only
     - H Rasalhague → H Saturn Dec 24.1473 24.14 silver (91.70)
     - S Mars → J Mars Dec 24.1727 24.14 silver (loose)
-  - 4 whole — also: 4 King D'argent / Harry Skelton
+  - 4 whole — only
     - J Alkes → J Gonggong Dec 3.9975 4 whole (76.15)
     - J Arcturus → J Mercury Dec 4.0176 4 whole (1.48)
   - 10 whole — also: 5 Fransham / Jack Andrews
     - J Alnilam → J Mercury RA 10.0193 10 whole (0.13)
     - J Rasalhague → J Pallas Dec 10.0109 10 whole (20.54)
-  - 177.778 ninth — also: 3 The Big Bite / Brian Hughes
-    - J Alnilam → J Neptune RA 177.7338 177.778 ninth (96.56)
-    - J Diadem → J Venus RA 177.7324 177.778 ninth (96.45)
   - 20 whole — only
     - J Alphecca → J Pluto Dec 20.0019 20 whole (81.92)
     - J Ankaa → J Gonggong Dec 20.0024 20 whole (77.27)
   - 49 whole — also: 3 The Big Bite / Brian Hughes
     - J Alphecca → J Gonggong Dec 49.0141 49 whole (8.60)
     - J Ankaa → J Pluto Dec 49.0147 49 whole (7.14)
+  - 27 whole — also: 2 Before Midnight / James Bowen
+    - J Arcturus → J Uranus RA 26.9986 27 whole (86.13)
+    - J Sualocin → J Eris Dec 26.9832 27 whole (2.61)
 ### L4 every natal body
 - **Sun**
   - same body + top rows: S Sun → H Sun RA 86.9999 87 whole (99.28) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
-  - star rows: H Altair → H Sun RA 100.0009 100 whole (91.50) — also: 3 The Big Bite / Brian Hughes
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
 - **Mars**
   - same body: S Mars → H Mars RA 122.1600 122.222 ninth (loose) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
   - star rows: H Alkes → H Mars Dec 31.9875 32 whole (14.19) — also: 3 The Big Bite / Brian Hughes
@@ -3164,19 +2392,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - same body: S Mars → J Mars Dec 24.1727 24.14 silver (loose) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
 - **Juno**
   - same body: S Juno → H Juno RA 14.1278 14.14 sqrt2 (loose) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
-  - star rows: H Diadem → H Juno RA 115.0111 115 whole (19.90) — also: 3 The Big Bite / Brian Hughes
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - same body: S Juno → J Juno Dec 7.0259 7 whole (loose) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
-  - star rows: J Diadem → J Juno RA 80.9951 81 whole (56.73) — also: 3 The Big Bite / Brian Hughes
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
 - **Orcus**
   - same body: S Orcus → H Orcus RA 9.0089 9 whole (30.67) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
   - star rows: H Alkes → H Orcus Dec 10.9803 11 whole (0.03) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: H Alnilam → H Orcus RA 64.0040 64 whole (63.98) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - star rows: H Altair → H Orcus Dec 16.1883 10×φ^1 phi power (81.39) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: H Ankaa → H Orcus RA 141.4871 141.4 sqrt2 (82.26) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - star rows: H Ankaa → H Orcus Dec 34.9855 35 whole (7.62) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
@@ -3185,21 +2407,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - star rows: H Sualocin → H Orcus RA 161.8565 100×φ^1 phi power (87.31) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
-  - star rows: J Altair → J Orcus RA 176.3562 109×φ golden (49.72) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: J Rasalhague → J Orcus RA 142.3981 88×φ golden (43.19) — only
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
 - **Jupiter**
-  - T1: H Jupiter → H star Sualocin RA 126.2103 78×φ golden (78.95) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+  - T1: H Jupiter → H star Sualocin RA 126.2103 78×φ golden (78.95) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
   - top rows: S Haumea → H Jupiter RA 141.4256 141.4 sqrt2 (98.80) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
   - top rows: S Makemake → H Jupiter Dec 0.1545 conj (23.52) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
-  - star rows: S Diadem → H Jupiter RA 121.3759 75×φ golden (7.82) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - star rows: H Sualocin → H Jupiter RA 126.2103 78×φ golden (78.95) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
   - same body: S Jupiter → J Jupiter Dec 0.8880 0.888889 ninth (loose) — also: 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
-  - star rows: J Difda → J Jupiter RA 160.0180 160 whole (0.97) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: S Menkent → J Jupiter RA 0.7925 conj (22.25) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
 - **Neptune**
@@ -3208,8 +2424,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Sun → H Neptune RA 26.1836 10×φ^2 phi power (95.01) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
   - star rows: H Arcturus → H Neptune RA 122.9672 φ^10 phi power (92.13) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: H Difda → H Neptune RA 34.0097 34 whole (26.54) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: J Alnilam → J Neptune RA 177.7338 177.778 ninth (96.56) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
   - star rows: J Sualocin → J Neptune Dec 37.9915 38 whole (33.35) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
@@ -3217,26 +2431,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Ceres**
   - top rows: S Jupiter → H Ceres Dec 38.9989 39 whole (89.64) — also: 3 The Big Bite / Brian Hughes
   - top rows: S Sun → H Ceres RA 148.8566 92×φ golden (85.04) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
-  - star rows: H Altair → H Ceres RA 161.8576 100×φ^1 phi power (87.06) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: H Ankaa → H Ceres RA 92.9904 93 whole (27.10) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - star rows: J Alphecca → J Ceres Dec 35.9906 36 whole (28.13) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: J Altair → J Ceres RA 70.7181 70.7 sqrt2 (95.83) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: J Zubeneschamali → J Ceres Dec 0.1080 conj (40.94) — also: 1 Funambule Sivola / Charlie Deutsch
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
 - **Sedna**
   - top rows: S Sun → H Sedna RA 103.0040 103 whole (64.27) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
-  - star rows: H Altair → H Sedna RA 116.0049 116 whole (56.95) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: J Alkes → J Sedna RA 126.2117 78×φ golden (71.27) — also: 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: J Alphecca → J Sedna RA 165.0582 102×φ golden (17.80) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Deneb → J Sedna Dec 41.9949 42 whole (55.45) — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
   - star rows: J Rasalhague → J Sedna RA 134.9972 135 whole (73.85) — also: 2 Before Midnight / James Bowen
@@ -3247,24 +2453,15 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
   - star rows: H Alphecca → H Makemake RA 43.0157 43 whole (4.69) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: H Deneb → H Makemake Dec 17.9866 18 whole (10.75) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
   - star rows: H Menkent → H Makemake RA 21.0121 21 whole (15.56) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
-  - star rows: H Murzim → H Makemake RA 94.9910 95 whole (30.16) — also: 3 The Big Bite / Brian Hughes
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - star rows: J Alkes → J Makemake RA 5.9992 6 whole (92.29) — only
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
 - **Mercury**
   - star rows: H Adhara → H Mercury Dec 37.9983 38 whole (83.89) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - star rows: H Altair → H Mercury Dec 0.1552 conj (23.31) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
-  - star rows: H Difda → H Mercury Dec 27.0097 27 whole (26.41) — also: 3 The Big Bite / Brian Hughes
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
-  - star rows: H Murzim → H Mercury Dec 26.9813 27 whole (0.44) — also: 3 The Big Bite / Brian Hughes
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - star rows: H Zubeneschamali → H Mercury RA 156.9613 97×φ golden (39.75) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
   - star rows: J Alnilam → J Mercury RA 10.0193 10 whole (0.13) — only
@@ -3298,8 +2495,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Vesta**
   - star rows: H Alnilam → H Vesta RA 7.9877 8 whole (14.96) — also: 3 The Big Bite / Brian Hughes
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
-  - star rows: H Difda → H Vesta Dec 42.0673 26×φ golden (90.53) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: H Kaus Australis → H Vesta RA 175.9906 176 whole (28.14) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - star rows: J Zubeneschamali → J Vesta RA 94.0151 94 whole (5.90) — only
@@ -3307,7 +2502,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Pallas**
   - star rows: H Alphecca → H Pallas RA 174.7367 108×φ golden (43.84) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Rasalhague → J Pallas Dec 10.0109 10 whole (20.54) — also: 7 Gold Des Bois / Conor O'Farrell
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
   - star rows: J Zubeneschamali → J Pallas RA 36.0177 36 whole (1.37) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
@@ -3315,7 +2509,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Transpluto**
   - star rows: H Alphecca → H Transpluto Dec 14.9876 15 whole (14.47) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - same body: S Transpluto → J Transpluto RA 14.1021 14.14 sqrt2 (loose) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
   - star rows: J Ankaa → J Transpluto RA 134.2833 83×φ golden (33.81) — also: 1 Funambule Sivola / Charlie Deutsch
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
@@ -3324,41 +2517,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
   - star rows: J Adhara → J Rahu RA 0.8811 conj (17.03) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-- **Saturn**
-  - star rows: H Diadem → H Saturn RA 18.8839 18.8889 ninth (96.44) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - star rows: H Rasalhague → H Saturn Dec 24.1473 24.14 silver (91.70) — also: 3 The Big Bite / Brian Hughes
-    - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
-  - same body: S Saturn → J Saturn Dec 13.2661 13.3333 ninth (loose) — also: 4 King D'argent / Harry Skelton
-  - star rows: J Diadem → J Saturn RA 1.4143 1.414 sqrt2 (99.20) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - star rows: J Murzim → J Saturn Dec 14.0149 14 whole (6.41) — only
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
-- **Pluto**
-  - star rows: H Diadem → H Pluto Dec 37.2155 23×φ golden (95.55) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - star rows: H Difda → H Pluto RA 88.8822 88.8889 ninth (95.21) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
-  - star rows: H Sualocin → H Pluto Dec 35.5955 22×φ golden (92.38) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
-  - top rows: S Moon → J Pluto Dec 31.9950 32 whole (56.32) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
-  - star rows: J Alkes → J Pluto Dec 25.0148 25 whole (6.80) — also: 1 Funambule Sivola / Charlie Deutsch
-    - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
-  - star rows: J Alphecca → J Pluto RA 24.2785 15×φ golden (56.77) — also: 1 Funambule Sivola / Charlie Deutsch
-    - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: J Alphecca → J Pluto Dec 20.0019 20 whole (81.92) — also: 1 Funambule Sivola / Charlie Deutsch
-    - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - star rows: J Ankaa → J Pluto Dec 49.0147 49 whole (7.14) — also: 4 King D'argent / Harry Skelton
-    - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
-- **Uranus**
-  - star rows: H Difda → H Uranus RA 1.3574 conj (0.90) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
-  - star rows: J Arcturus → J Uranus RA 26.9986 27 whole (86.13) — also: 4 King D'argent / Harry Skelton
-    - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: J Sualocin → J Uranus RA 68.9869 69 whole (11.86) — also: 5 Fransham / Jack Andrews
-    - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **Gonggong**
   - star rows: H Kaus Australis → H Gonggong Dec 21.0393 13×φ golden (72.09) — also: 3 The Big Bite / Brian Hughes
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
@@ -3366,13 +2524,26 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: J Alphecca → J Gonggong Dec 49.0141 49 whole (8.60) — also: 1 Funambule Sivola / Charlie Deutsch
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Ankaa → J Gonggong Dec 20.0024 20 whole (77.27) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
+    - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
+- **Saturn**
+  - star rows: H Rasalhague → H Saturn Dec 24.1473 24.14 silver (91.70) — also: 3 The Big Bite / Brian Hughes
+    - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
+  - same body: S Saturn → J Saturn Dec 13.2661 13.3333 ninth (loose) — also: 4 King D'argent / Harry Skelton
+- **Pluto**
+  - star rows: H Sualocin → H Pluto Dec 35.5955 22×φ golden (92.38) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+    - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
+  - top rows: S Moon → J Pluto Dec 31.9950 32 whole (56.32) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
+  - star rows: J Alkes → J Pluto Dec 25.0148 25 whole (6.80) — also: 1 Funambule Sivola / Charlie Deutsch
+    - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
+  - star rows: J Alphecca → J Pluto RA 24.2785 15×φ golden (56.77) — also: 1 Funambule Sivola / Charlie Deutsch
+    - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
+  - star rows: J Alphecca → J Pluto Dec 20.0019 20 whole (81.92) — also: 1 Funambule Sivola / Charlie Deutsch
+    - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
+  - star rows: J Ankaa → J Pluto Dec 49.0147 49 whole (7.14) — also: 4 King D'argent / Harry Skelton
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
 - **Eris**
   - T2: J Jupiter → J Eris Dec 0.0132 conj (91.41) — only
-  - star rows: J Altair → J Eris RA 84.0194 84 whole (0.10) — only
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - star rows: J Sualocin → J Eris Dec 26.9832 27 whole (2.61) — also: 5 Fransham / Jack Andrews
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **Haumea**
@@ -3380,9 +2551,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
   - star rows: J Kaus Australis → J Haumea RA 96.9991 97 whole (91.48) — only
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
-- **Venus**
-  - star rows: J Diadem → J Venus RA 177.7324 177.778 ninth (96.45) — only
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
+- **Uranus**
+  - star rows: J Arcturus → J Uranus RA 26.9986 27 whole (86.13) — also: 4 King D'argent / Harry Skelton
+    - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
+  - star rows: J Sualocin → J Uranus RA 68.9869 69 whole (11.86) — also: 5 Fransham / Jack Andrews
+    - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 
 ## 7 Gold Des Bois / Conor O'Farrell
 ### L1 same bodies
@@ -3415,12 +2588,10 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Transpluto → J Transpluto RA 11.1254 11.1111 ninth (loose)
 ### L2 what lands on each same body
 - **H Mercury** (same body: S Mercury → H Mercury RA 53.0169 53 whole (2.44); S Mercury → H Mercury Dec 10.9772 11 whole (loose))
-  - sky line to Mercury: S Moon → Mercury Dec 8.0060 8 whole (49.15)
   - star rows: H Alkes → H Mercury Dec 12.0019 12 whole (81.71)
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: H Alphecca → H Mercury Dec 33.0100 33 whole (25.07)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: H Ankaa → H Mercury Dec 36.0095 36 whole (27.32)
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - star rows: H Arcturus → H Mercury RA 137.5425 85×φ golden (49.37)
@@ -3433,17 +2604,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Adhara → H Venus RA 137.5244 85×φ golden (54.41)
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
   - other chart, same body: S Venus → J Venus Dec 27.5301 17×φ golden (loose)
-  - other chart, star rows: J Altair → J Venus RA 140.9850 141 whole (6.32)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
 - **H Mars** (same body: S Mars → H Mars RA 71.9870 72 whole (12.27); S Mars → H Mars Dec 17.9441 φ^6 phi power (99.71))
-  - star rows: H Murzim → H Mars RA 105.1955 65×φ golden (7.89)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - other chart, star rows: J Adhara → J Mars Dec 42.9926 43 whole (40.01)
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
   - other chart, star rows: J Deneb → J Mars RA 162.0164 162 whole (3.30)
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
-  - other chart, star rows: J Difda → J Mars Dec 32.0064 32 whole (46.08)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - other chart, star rows: J Zubeneschamali → J Mars RA 80.9043 50×φ golden (84.29)
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
 - **H Neptune** (same body: S Neptune → H Neptune RA 14.0007 14 whole (93.21))
@@ -3454,8 +2619,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Sualocin → J Neptune Dec 38.0123 38 whole (14.72)
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **H Chiron** (same body: S Chiron → H Chiron RA 23.0059 23 whole (50.00); S Chiron → H Chiron Dec 6.9702 7 whole (loose))
-  - other chart, star rows: J Diadem → J Chiron RA 95.4679 59×φ golden (77.35)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - other chart, star rows: J Sualocin → J Chiron Dec 1.0036 1 whole (67.51)
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **H Ceres** (same body: S Ceres → H Ceres RA 154.9735 155 whole (loose); S Ceres → H Ceres Dec 16.6751 16.6667 ninth (loose))
@@ -3466,11 +2629,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Deneb → J Ceres RA 122.0079 122 whole (36.82)
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
 - **H Pallas** (same body: S Pallas → H Pallas Dec 14.4552 14.4444 ninth (loose))
-  - sky line to Pallas: S Jupiter → Pallas Dec 0.2883 conj (0.15)
   - top rows: S Sun → H Pallas RA 166.6766 166.667 ninth (99.15)
   - top rows: S Moon → H Pallas RA 111.6447 69×φ golden (97.63)
-  - star rows: H Difda → H Pallas Dec 21.9830 22 whole (2.23)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: H Kaus Australis → H Pallas RA 132.0199 132 whole (0.00)
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - star rows: H Rasalhague → H Pallas RA 119.7122 74×φ golden (9.56)
@@ -3478,14 +2638,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Zubeneschamali → J Pallas RA 147.0179 147 whole (1.15)
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
 - **H Vesta** (same body: S Vesta → H Vesta RA 70.7067 70.7 sqrt2 (loose))
-  - star rows: H Diadem → H Vesta RA 11.3232 7×φ golden (82.08)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - other chart, star rows: J Rasalhague → J Vesta RA 4.9913 5 whole (31.74)
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
 - **H Rahu** (same body: S Rahu → H Rahu Dec 30.7319 19×φ golden (loose))
   - star rows: H Alphecca → H Rahu RA 27.5049 17×φ golden (90.02)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: H Arcturus → H Rahu Dec 29.9964 30 whole (66.97)
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
   - other chart, star rows: J Alkes → J Rahu RA 163.4243 101×φ golden (82.85)
@@ -3513,12 +2670,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, T2: J Jupiter → J Haumea Dec 0.0518 conj (68.44)
   - other chart, star rows: J Adhara → J Haumea Dec 52.0146 52 whole (7.31)
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - other chart, star rows: J Murzim → J Haumea Dec 40.9984 41 whole (84.43)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **H Orcus** (same body: S Orcus → H Orcus Dec 4.1454 4.14 silver (loose))
   - other chart, same body: S Orcus → J Orcus Dec 16.6626 16.6667 ninth (96.48)
-  - other chart, star rows: J Difda → J Orcus RA 117.9955 118 whole (60.12)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
 - **H Gonggong** (same body: S Gonggong → H Gonggong Dec 1.7740 1.77778 ninth (loose))
   - other chart, star rows: J Alkes → J Gonggong Dec 2.0042 2 whole (62.06)
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
@@ -3535,8 +2688,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - other chart, star rows: J Rasalhague → J Ketu Dec 0.2492 conj (2.86)
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
 - **J Venus** (same body: S Venus → J Venus Dec 27.5301 17×φ golden (loose))
-  - star rows: J Altair → J Venus RA 140.9850 141 whole (6.32)
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
   - other chart, same body: S Venus → H Venus RA 45.9788 46 whole (loose)
   - other chart, star rows: H Adhara → H Venus RA 137.5244 85×φ golden (54.41)
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
@@ -3552,11 +2703,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
   - star rows: J Alphecca → J Juno RA 62.0122 62 whole (15.33)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Menkent → J Juno RA 40.0108 40 whole (21.14)
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
-  - star rows: J Murzim → J Juno RA 75.9917 76 whole (34.01)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **J Eris** (same body: S Eris → J Eris RA 2.9796 3 whole (loose))
   - star rows: J Kaus Australis → J Eris RA 106.7910 66×φ golden (95.26)
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
@@ -3581,18 +2729,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
   - other chart, star rows: H Alphecca → H Makemake Dec 0.0389 conj (75.74)
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 16.6626 16.6667 ninth (96.48))
-  - star rows: J Difda → J Orcus RA 117.9955 118 whole (60.12)
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - other chart, same body: S Orcus → H Orcus Dec 4.1454 4.14 silver (loose)
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 44.3571 44.4444 ninth (loose))
-  - star rows: J Murzim → J Quaoar Dec 5.0072 5 whole (41.24)
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - other chart, star rows: H Adhara → H Quaoar RA 161.8574 100×φ^1 phi power (87.09)
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - other chart, star rows: H Diadem → H Quaoar RA 69.0136 69 whole (10.34)
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
 - **J Transpluto** (same body: S Transpluto → J Transpluto RA 11.1254 11.1111 ninth (loose))
   - star rows: J Alnilam → J Transpluto Dec 15.5542 15.5556 ninth (98.71)
     - source line: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)
@@ -3626,26 +2767,18 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - S Jupiter → J Jupiter RA 111.1165 111.111 ninth (99.12)
     - S Jupiter → J Jupiter Dec 33.2687 33.3333 ninth (loose)
 - **3. runner number = sky number**
-  - 13 whole — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
-    - H Diadem → H Sun Dec 13.0055 13 whole (52.65) = S Sun → Altair RA 13.0065 13 whole (45.24)
-  - 22 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
-    - H Difda → H Pallas Dec 21.9830 22 whole (2.23) = S Moon → Alphecca RA 21.9974 22 whole (76.10)
   - 44.4444 ninth — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton
     - S Quaoar → J Quaoar RA 44.3571 44.4444 ninth (loose) = S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - 52 whole — also: 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
-    - J Adhara → J Haumea Dec 52.0146 52 whole (7.31) = S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - 87×φ golden — only
-    - J Alnilam → J Pluto RA 140.7728 87×φ golden (77.71) = S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - 22 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
+  - 22 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
     - J Ankaa → J Gonggong Dec 21.9974 22 whole (75.88) = S Moon → Alphecca RA 21.9974 22 whole (76.10)
 - **4. circle divisions**
   - 72 = 360/5 — only
     - S Mars → H Mars RA 71.9870 72 whole (12.27)
-  - 3 = 360/120 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton
+  - 3 = 360/120 — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton
     - S Haumea → H Haumea Dec 3.0113 3 whole (18.96)
   - 15 = 360/24 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - S Sun → H Eris Dec 14.9961 15 whole (64.58)
-  - 12 = 360/30 — also: 1 Funambule Sivola / Charlie Deutsch, 5 Fransham / Jack Andrews
+  - 12 = 360/30 — also: 5 Fransham / Jack Andrews
     - H Alkes → H Mercury Dec 12.0019 12 whole (81.71)
   - 2 = 360/180 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
     - H Alnilam → H Eris Dec 1.9951 2 whole (56.90)
@@ -3655,13 +2788,11 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Ankaa → H Ceres Dec 44.9812 45 whole (0.36)
   - 30 = 360/12 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
     - H Arcturus → H Rahu Dec 29.9964 30 whole (66.97)
-  - 2 = 360/180 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
-    - H Difda → H Saturn Dec 1.9864 2 whole (10.11)
   - 1 = 360/360 — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
     - H Rasalhague → H Transpluto Dec 1.0000 1 whole (99.51)
   - 36 = 360/10 — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - H Sualocin → H Pluto Dec 36.0166 36 whole (2.84)
-  - 3 = 360/120 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton
+  - 3 = 360/120 — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton
     - S Eris → J Eris RA 2.9796 3 whole (loose)
   - 2 = 360/180 — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
     - J Alkes → J Gonggong Dec 2.0042 2 whole (62.06)
@@ -3671,9 +2802,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - J Menkent → J Juno RA 40.0108 40 whole (21.14)
   - 72 = 360/5 — only
     - J Menkent → J Makemake Dec 71.9874 72 whole (13.84)
-  - 5 = 360/72 — also: 1 Funambule Sivola / Charlie Deutsch, 5 Fransham / Jack Andrews
-    - J Murzim → J Quaoar Dec 5.0072 5 whole (41.24)
-  - 5 = 360/72 — also: 1 Funambule Sivola / Charlie Deutsch, 5 Fransham / Jack Andrews
+  - 5 = 360/72 — only
     - J Rasalhague → J Vesta RA 4.9913 5 whole (31.74)
   - 1 = 360/360 — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
     - J Sualocin → J Chiron Dec 1.0036 1 whole (67.51)
@@ -3683,19 +2812,19 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 72 whole — only
     - S Mars → H Mars RA 71.9870 72 whole (12.27)
     - J Menkent → J Makemake Dec 71.9874 72 whole (13.84)
-  - 14 whole — also: 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
+  - 14 whole — only
     - S Neptune → H Neptune RA 14.0007 14 whole (93.21)
     - J Alnilam → J Ketu Dec 14.0125 14 whole (14.13)
   - 16.6667 ninth — only
     - S Ceres → H Ceres Dec 16.6751 16.6667 ninth (loose)
     - S Orcus → J Orcus Dec 16.6626 16.6667 ninth (96.48)
-  - 19×φ golden — also: 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
+  - 19×φ golden — also: 5 Fransham / Jack Andrews
     - S Rahu → H Rahu Dec 30.7319 19×φ golden (loose)
     - S Ketu → H Ketu Dec 30.7319 19×φ golden (loose)
   - 1.77778 ninth — only
     - S Eris → H Eris Dec 1.7721 1.77778 ninth (loose)
     - S Gonggong → H Gonggong Dec 1.7740 1.77778 ninth (loose)
-  - 3 whole — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen
+  - 3 whole — also: 1 Funambule Sivola / Charlie Deutsch
     - S Haumea → H Haumea Dec 3.0113 3 whole (18.96)
     - S Eris → J Eris RA 2.9796 3 whole (loose)
   - 85×φ golden — only
@@ -3703,7 +2832,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - H Arcturus → H Mercury RA 137.5425 85×φ golden (49.37)
   - 2 whole — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
     - H Alnilam → H Eris Dec 1.9951 2 whole (56.90)
-    - H Difda → H Saturn Dec 1.9864 2 whole (10.11)
     - J Alkes → J Gonggong Dec 2.0042 2 whole (62.06)
   - 17×φ golden — only
     - H Alphecca → H Rahu RA 27.5049 17×φ golden (90.02)
@@ -3715,9 +2843,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 45 whole — only
     - H Ankaa → H Ceres Dec 44.9812 45 whole (0.36)
     - J Zubeneschamali → J Makemake Dec 44.9993 45 whole (92.70)
-  - 22 whole — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton
-    - H Difda → H Pallas Dec 21.9830 22 whole (2.23)
-    - J Ankaa → J Gonggong Dec 21.9974 22 whole (75.88)
   - 66×φ golden — also: 5 Fransham / Jack Andrews
     - H Rasalhague → H Sun RA 106.7812 66×φ golden (51.91)
     - J Alphecca → J Sun RA 106.7640 66×φ golden (3.63)
@@ -3731,29 +2856,20 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - 139 whole — only
     - J Jupiter → J star Deneb RA 139.0058 139 whole (50.71)
     - J Deneb → J Jupiter RA 139.0058 139 whole (50.71)
-  - 43 whole — also: 3 The Big Bite / Brian Hughes
+  - 43 whole — only
     - S Ketu → J Jupiter Dec 43.0035 43 whole (67.90)
     - J Adhara → J Mars Dec 42.9926 43 whole (40.01)
-  - 32 whole — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - J Arcturus → J Rahu Dec 32.0031 32 whole (71.36)
-    - J Difda → J Mars Dec 32.0064 32 whole (46.08)
   - 162 whole — only
     - J Deneb → J Mars RA 162.0164 162 whole (3.30)
     - J Deneb → J Ketu RA 162.0005 162 whole (95.51)
-  - 5 whole — only
-    - J Murzim → J Quaoar Dec 5.0072 5 whole (41.24)
-    - J Rasalhague → J Vesta RA 4.9913 5 whole (31.74)
 ### L4 every natal body
 - **Mercury**
   - same body: S Mercury → H Mercury RA 53.0169 53 whole (2.44) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
-    - source line: S Moon → Mercury Dec 8.0060 8 whole (49.15)
   - same body: S Mercury → H Mercury Dec 10.9772 11 whole (loose) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
-    - source line: S Moon → Mercury Dec 8.0060 8 whole (49.15)
   - star rows: H Alkes → H Mercury Dec 12.0019 12 whole (81.71) — only
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
   - star rows: H Alphecca → H Mercury Dec 33.0100 33 whole (25.07) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: H Ankaa → H Mercury Dec 36.0095 36 whole (27.32) — also: 4 King D'argent / Harry Skelton
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - star rows: H Arcturus → H Mercury RA 137.5425 85×φ golden (49.37) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
@@ -3767,19 +2883,13 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - star rows: H Adhara → H Venus RA 137.5244 85×φ golden (54.41) — also: 5 Fransham / Jack Andrews
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
   - same body: S Venus → J Venus Dec 27.5301 17×φ golden (loose) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
-  - star rows: J Altair → J Venus RA 140.9850 141 whole (6.32) — also: 5 Fransham / Jack Andrews
-    - source line: S Sun → Altair RA 13.0065 13 whole (45.24)
 - **Mars**
   - same body: S Mars → H Mars RA 71.9870 72 whole (12.27) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
   - same body: S Mars → H Mars Dec 17.9441 φ^6 phi power (99.71) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
-  - star rows: H Murzim → H Mars RA 105.1955 65×φ golden (7.89) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
   - star rows: J Adhara → J Mars Dec 42.9926 43 whole (40.01) — only
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
   - star rows: J Deneb → J Mars RA 162.0164 162 whole (3.30) — only
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
-  - star rows: J Difda → J Mars Dec 32.0064 32 whole (46.08) — also: 5 Fransham / Jack Andrews
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: J Zubeneschamali → J Mars RA 80.9043 50×φ golden (84.29) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
 - **Neptune**
@@ -3793,8 +2903,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Chiron**
   - same body: S Chiron → H Chiron RA 23.0059 23 whole (50.00) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen
   - same body: S Chiron → H Chiron Dec 6.9702 7 whole (loose) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen
-  - star rows: J Diadem → J Chiron RA 95.4679 59×φ golden (77.35) — only
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - star rows: J Sualocin → J Chiron Dec 1.0036 1 whole (67.51) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
 - **Ceres**
@@ -3808,11 +2916,8 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
 - **Pallas**
   - same body: S Pallas → H Pallas Dec 14.4552 14.4444 ninth (loose) — also: 2 Before Midnight / James Bowen
-    - source line: S Jupiter → Pallas Dec 0.2883 conj (0.15)
   - top rows: S Sun → H Pallas RA 166.6766 166.667 ninth (99.15) — only
   - top rows: S Moon → H Pallas RA 111.6447 69×φ golden (97.63) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton
-  - star rows: H Difda → H Pallas Dec 21.9830 22 whole (2.23) — only
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: H Kaus Australis → H Pallas RA 132.0199 132 whole (0.00) — only
     - source line: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - star rows: H Rasalhague → H Pallas RA 119.7122 74×φ golden (9.56) — also: 6 Moonlighter / Tom Scudamore
@@ -3821,15 +2926,12 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
 - **Vesta**
   - same body: S Vesta → H Vesta RA 70.7067 70.7 sqrt2 (loose) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
-  - star rows: H Diadem → H Vesta RA 11.3232 7×φ golden (82.08) — only
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - star rows: J Rasalhague → J Vesta RA 4.9913 5 whole (31.74) — also: 5 Fransham / Jack Andrews
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
 - **Rahu**
   - same body: S Rahu → H Rahu Dec 30.7319 19×φ golden (loose) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
   - star rows: H Alphecca → H Rahu RA 27.5049 17×φ golden (90.02) — also: 5 Fransham / Jack Andrews
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: H Arcturus → H Rahu Dec 29.9964 30 whole (66.97) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
   - star rows: J Alkes → J Rahu RA 163.4243 101×φ golden (82.85) — also: 1 Funambule Sivola / Charlie Deutsch
@@ -3859,13 +2961,9 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - T2: J Jupiter → J Haumea Dec 0.0518 conj (68.44) — only
   - star rows: J Adhara → J Haumea Dec 52.0146 52 whole (7.31) — only
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - star rows: J Murzim → J Haumea Dec 40.9984 41 whole (84.43) — only
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **Orcus**
   - same body: S Orcus → H Orcus Dec 4.1454 4.14 silver (loose) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
   - same body: S Orcus → J Orcus Dec 16.6626 16.6667 ninth (96.48) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-  - star rows: J Difda → J Orcus RA 117.9955 118 whole (60.12) — also: 2 Before Midnight / James Bowen
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
 - **Gonggong**
   - same body: S Gonggong → H Gonggong Dec 1.7740 1.77778 ninth (loose) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
   - star rows: J Alkes → J Gonggong Dec 2.0042 2 whole (62.06) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
@@ -3887,7 +2985,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
   - top rows: S Sun → H Jupiter Dec 41.4237 41.4 silver (97.78) — only
   - same body + top rows: S Jupiter → J Jupiter RA 111.1165 111.111 ninth (99.12) — also: 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
   - same body: S Jupiter → J Jupiter Dec 33.2687 33.3333 ninth (loose) — also: 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
-  - T2: J Jupiter → J star Deneb RA 139.0058 139 whole (50.71) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
+  - T2: J Jupiter → J star Deneb RA 139.0058 139 whole (50.71) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
   - top rows: S Ketu → J Jupiter Dec 43.0035 43 whole (67.90) — only
   - star rows: J Deneb → J Jupiter RA 139.0058 139 whole (50.71) — only
     - source line: S Sun → Deneb RA 0.3500 conj (58.78)
@@ -3896,11 +2994,7 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Quaoar**
   - star rows: H Adhara → H Quaoar RA 161.8574 100×φ^1 phi power (87.09) — only
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
-  - star rows: H Diadem → H Quaoar RA 69.0136 69 whole (10.34) — also: 2 Before Midnight / James Bowen
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
   - same body: S Quaoar → J Quaoar RA 44.3571 44.4444 ninth (loose) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
-  - star rows: J Murzim → J Quaoar Dec 5.0072 5 whole (41.24) — also: 1 Funambule Sivola / Charlie Deutsch
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)
 - **Sedna**
   - star rows: H Alkes → H Sedna RA 111.0038 111 whole (66.00) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
     - source line: S Sun → Alkes Dec 0.1028 conj (43.21)
@@ -3911,7 +3005,6 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Makemake**
   - star rows: H Alphecca → H Makemake Dec 0.0389 conj (75.74) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - same body: S Makemake → J Makemake Dec 13.2689 13.3333 ninth (loose) — also: 2 Before Midnight / James Bowen
   - star rows: J Ankaa → J Makemake RA 161.0085 161 whole (33.16) — also: 3 The Big Bite / Brian Hughes
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
@@ -3924,37 +3017,19 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - **Saturn**
   - star rows: H Ankaa → H Saturn RA 135.9320 84×φ golden (22.03) — also: 1 Funambule Sivola / Charlie Deutsch, 5 Fransham / Jack Andrews
     - source line: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
-  - star rows: H Difda → H Saturn Dec 1.9864 2 whole (10.11) — only
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: H Zubeneschamali → H Saturn RA 1.3778 conj (0.66) — also: 5 Fransham / Jack Andrews
     - source line: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
 - **Sun**
-  - star rows: H Diadem → H Sun RA 173.0163 173 whole (3.47) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - star rows: H Diadem → H Sun Dec 13.0055 13 whole (52.65) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - star rows: H Difda → H Sun RA 0.3760 conj (56.15) — also: 5 Fransham / Jack Andrews
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: H Rasalhague → H Sun RA 106.7812 66×φ golden (51.91) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
   - star rows: J Alphecca → J Sun RA 106.7640 66×φ golden (3.63) — only
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Arcturus → J Sun RA 87.0091 87 whole (29.80) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
   - star rows: J Arcturus → J Sun Dec 0.0718 conj (57.85) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
     - source line: S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
-  - star rows: J Difda → J Sun RA 116.0109 116 whole (20.75) — also: 5 Fransham / Jack Andrews
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
   - star rows: J Sualocin → J Sun RA 176.9947 177 whole (54.23) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
     - source line: S Sun → Sualocin RA 0.7960 conj (22.03)
-- **Uranus**
-  - star rows: H Diadem → H Uranus RA 173.9899 174 whole (24.47) — also: 1 Funambule Sivola / Charlie Deutsch, 5 Fransham / Jack Andrews
-    - source line: S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
-  - star rows: H Difda → H Uranus RA 0.5976 conj (36.19) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
-  - star rows: H Difda → H Uranus Dec 22.2213 22.2222 ninth (98.74) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
-    - source line: S Sun → Difda Dec 0.2061 conj (9.80)
 - **Transpluto**
   - star rows: H Rasalhague → H Transpluto Dec 1.0000 1 whole (99.51) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
     - source line: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
@@ -3972,8 +3047,5 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
     - source line: S Moon → Adhara RA 151.0059 151 whole (50.02)
   - star rows: J Alphecca → J Juno RA 62.0122 62 whole (15.33) — only
     - source line: S Moon → Alphecca RA 21.9974 22 whole (76.10)
-    - source line: S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - star rows: J Menkent → J Juno RA 40.0108 40 whole (21.14) — also: 5 Fransham / Jack Andrews
     - source line: S Moon → Menkent RA 44.0012 44 whole (88.65)
-  - star rows: J Murzim → J Juno RA 75.9917 76 whole (34.01) — also: 4 King D'argent / Harry Skelton
-    - source line: S Sun → Murzim Dec 0.2373 conj (4.37)

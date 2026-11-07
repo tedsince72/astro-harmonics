@@ -204,13 +204,6 @@
        "source_lines": [
         "S Jupiter → Alphard Dec 0.0178 conj (88.51)"
        ]
-      },
-      {
-       "text": "J Deneb Algedi → J Orcus Dec 13.9972 14 whole (74.35)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
       }
      ]
     },
@@ -253,8 +246,7 @@
       "S Vesta → J Vesta RA 143.9661 144.444 ninth (loose)"
      ],
      "body_lines": [
-      "S Sun → Vesta RA 38.8398 24×φ golden (61.63)",
-      "S Moon → Vesta RA 163.4101 101×φ golden (42.14)"
+      "S Sun → Vesta RA 38.8398 24×φ golden (61.63)"
      ],
      "on_this_chart": [],
      "other_chart_same_body": [],
@@ -292,15 +284,7 @@
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Deneb Algedi → H Eris Dec 12.9438 8×φ golden (97.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -350,13 +334,6 @@
        "source_lines": [
         "S Jupiter → Alphard Dec 0.0178 conj (88.51)"
        ]
-      },
-      {
-       "text": "J Deneb Algedi → J Orcus Dec 13.9972 14 whole (74.35)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
       }
      ],
      "other_chart_same_body": [
@@ -400,13 +377,6 @@
      ],
      "body_lines": [],
      "on_this_chart": [
-      {
-       "text": "J Deneb Algedi → J Quaoar RA 78.9918 79 whole (34.53)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
-      },
       {
        "text": "J Hamal → J Quaoar RA 144.0274 89×φ golden (9.50)",
        "layer": "star rows",
@@ -697,18 +667,6 @@
         "Orcus"
        ],
        "field": "also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge"
-      },
-      {
-       "text": "J Deneb Algedi → J Orcus Dec 13.9972 14 whole (74.35)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Orcus"
-       ],
-       "field": "also: 5 Brian Boranha / Callum Bewley"
       }
      ]
     },
@@ -724,18 +682,6 @@
         "Gonggong"
        ],
        "field": "also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
-      },
-      {
-       "text": "H Deneb Algedi → H Gonggong Dec 3.0030 3 whole (72.10)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Gonggong"
-       ],
-       "field": "also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
       },
       {
        "text": "J Murzim → J Gonggong Dec 0.9898 1 whole (24.03)",
@@ -1056,70 +1002,6 @@
      ]
     },
     {
-     "body": "Eris",
-     "cells": [
-      {
-       "text": "H Deneb Algedi → H Eris Dec 12.9438 8×φ golden (97.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Eris"
-       ],
-       "field": "also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods"
-      },
-      {
-       "text": "S Eris → J Eris RA 1.9899 2 whole (24.64)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Eris"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Alphard → J Eris RA 118.0074 118 whole (39.54)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Alphard Dec 0.0178 conj (88.51)"
-       ],
-       "key": [
-        "Alphard",
-        "Eris"
-       ],
-       "field": "also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods"
-      },
-      {
-       "text": "J Betelgeuse → J Eris Dec 14.0159 14 whole (4.13)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)",
-        "S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)"
-       ],
-       "key": [
-        "Betelgeuse",
-        "Eris"
-       ],
-       "field": "also: 4 Winds Of Fire / Adam Wedge"
-      },
-      {
-       "text": "J Difda → J Eris RA 12.9839 13 whole (3.71)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Difda Dec 5.0001 5 whole (98.75)"
-       ],
-       "key": [
-        "Difda",
-        "Eris"
-       ],
-       "field": "also: 6 The Paddy Pie / Sean Quinlan"
-      }
-     ]
-    },
-    {
      "body": "Ketu",
      "cells": [
       {
@@ -1306,14 +1188,65 @@
        "text": "S Vesta → J Vesta RA 143.9661 144.444 ninth (loose)",
        "layer": "same body",
        "source_lines": [
-        "S Sun → Vesta RA 38.8398 24×φ golden (61.63)",
-        "S Moon → Vesta RA 163.4101 101×φ golden (42.14)"
+        "S Sun → Vesta RA 38.8398 24×φ golden (61.63)"
        ],
        "key": [
         "same body",
         "Vesta"
        ],
        "field": "also: 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan"
+      }
+     ]
+    },
+    {
+     "body": "Eris",
+     "cells": [
+      {
+       "text": "S Eris → J Eris RA 1.9899 2 whole (24.64)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Eris"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Alphard → J Eris RA 118.0074 118 whole (39.54)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Alphard Dec 0.0178 conj (88.51)"
+       ],
+       "key": [
+        "Alphard",
+        "Eris"
+       ],
+       "field": "also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods"
+      },
+      {
+       "text": "J Betelgeuse → J Eris Dec 14.0159 14 whole (4.13)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)",
+        "S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)"
+       ],
+       "key": [
+        "Betelgeuse",
+        "Eris"
+       ],
+       "field": "also: 4 Winds Of Fire / Adam Wedge"
+      },
+      {
+       "text": "J Difda → J Eris RA 12.9839 13 whole (3.71)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Difda Dec 5.0001 5 whole (98.75)"
+       ],
+       "key": [
+        "Difda",
+        "Eris"
+       ],
+       "field": "also: 6 The Paddy Pie / Sean Quinlan"
       }
      ]
     },
@@ -1326,18 +1259,6 @@
        "source_lines": [],
        "key": [
         "same body",
-        "Quaoar"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Deneb Algedi → J Quaoar RA 78.9918 79 whole (34.53)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
         "Quaoar"
        ],
        "field": "only"
@@ -1497,13 +1418,6 @@
       "field": "also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
      },
      {
-      "label": "101×φ golden",
-      "cells": [
-       "H Alphard → H Neptune RA 163.4151 101×φ golden (64.59) = S Moon → Vesta RA 163.4101 101×φ golden (42.14)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "12×φ golden",
       "cells": [
        "H Unukalhai → H Makemake Dec 19.4159 12×φ golden (96.61) = S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)"
@@ -1545,21 +1459,14 @@
       "cells": [
        "H Alphard → H Pallas Dec 15.0001 15 whole (98.51)"
       ],
-      "field": "also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods"
+      "field": "also: 3 Omar Maretti / Kielan Woods"
      },
      {
       "label": "9 = 360/40",
       "cells": [
        "H Betelgeuse → H Chiron Dec 8.9939 9 whole (48.35)"
       ],
-      "field": "also: 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan"
-     },
-     {
-      "label": "3 = 360/120",
-      "cells": [
-       "H Deneb Algedi → H Gonggong Dec 3.0030 3 whole (72.10)"
-      ],
-      "field": "also: 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan"
+      "field": "also: 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley"
      },
      {
       "label": "1 = 360/360",
@@ -1573,7 +1480,7 @@
       "cells": [
        "H Unukalhai → H Chiron Dec 8.0115 8 whole (18.15)"
       ],
-      "field": "also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley"
+      "field": "also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge"
      },
      {
       "label": "2 = 360/180",
@@ -1653,14 +1560,6 @@
       "field": "only"
      },
      {
-      "label": "8×φ golden",
-      "cells": [
-       "H Deneb Algedi → H Eris Dec 12.9438 8×φ golden (97.17)",
-       "H Vega → H Makemake Dec 12.9420 8×φ golden (86.67)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "1 whole",
       "cells": [
        "H Murzim → H Saturn Dec 0.9869 1 whole (11.90)",
@@ -1682,14 +1581,6 @@
       "cells": [
        "S Vesta → J Vesta RA 143.9661 144.444 ninth (loose)",
        "S Moon → J Ketu RA 144.4312 144.444 ninth (98.60)"
-      ],
-      "field": "only"
-     },
-     {
-      "label": "14 whole",
-      "cells": [
-       "J Betelgeuse → J Eris Dec 14.0159 14 whole (4.13)",
-       "J Deneb Algedi → J Orcus Dec 13.9972 14 whole (74.35)"
       ],
       "field": "only"
      }
@@ -1864,13 +1755,6 @@
        "text": "S Jupiter → J Saturn RA 110.9967 111 whole (69.84)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "J Deneb Algedi → J Saturn Dec 0.1224 conj (35.04)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
       }
      ]
     },
@@ -1972,13 +1856,6 @@
         "S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)",
         "S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)"
        ]
-      },
-      {
-       "text": "J Deneb Algedi → J Gonggong RA 2.0066 2 whole (45.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
       }
      ]
     },
@@ -2023,13 +1900,6 @@
      "body_lines": [],
      "on_this_chart": [
       {
-       "text": "J Deneb Algedi → J Chiron Dec 34.0029 34 whole (73.38)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
-      },
-      {
        "text": "J Unukalhai → J Chiron RA 166.6071 166.667 ninth (94.89)",
        "layer": "star rows",
        "source_lines": [
@@ -2045,13 +1915,6 @@
        "source_lines": [
         "S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)",
         "S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)"
-       ]
-      },
-      {
-       "text": "H Deneb Algedi → H Chiron Dec 14.9954 15 whole (59.07)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
        ]
       },
       {
@@ -2390,18 +2253,6 @@
         "Saturn"
        ],
        "field": "also: 5 Brian Boranha / Callum Bewley"
-      },
-      {
-       "text": "J Deneb Algedi → J Saturn Dec 0.1224 conj (35.04)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Saturn"
-       ],
-       "field": "also: 3 Omar Maretti / Kielan Woods"
       }
      ]
     },
@@ -2563,18 +2414,6 @@
         "Gonggong"
        ],
        "field": "also: 3 Omar Maretti / Kielan Woods"
-      },
-      {
-       "text": "J Deneb Algedi → J Gonggong RA 2.0066 2 whole (45.12)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Gonggong"
-       ],
-       "field": "also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
       }
      ]
     },
@@ -2687,18 +2526,6 @@
        "field": "also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods"
       },
       {
-       "text": "H Deneb Algedi → H Eris Dec 13.0155 13 whole (5.02)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Eris"
-       ],
-       "field": "also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods"
-      },
-      {
        "text": "J Vega → J Eris RA 103.0184 103 whole (0.68)",
        "layer": "star rows",
        "source_lines": [
@@ -2729,18 +2556,6 @@
        "field": "also: 1 Almazhar Garde / Luca Morgan, 5 Brian Boranha / Callum Bewley"
       },
       {
-       "text": "H Deneb Algedi → H Chiron Dec 14.9954 15 whole (59.07)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Chiron"
-       ],
-       "field": "also: 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan"
-      },
-      {
        "text": "H Vega → H Chiron RA 65.9843 66 whole (4.55)",
        "layer": "star rows",
        "source_lines": [
@@ -2761,18 +2576,6 @@
         "Chiron"
        ],
        "field": "also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge"
-      },
-      {
-       "text": "J Deneb Algedi → J Chiron Dec 34.0029 34 whole (73.38)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Chiron"
-       ],
-       "field": "also: 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan"
       },
       {
        "text": "J Unukalhai → J Chiron RA 166.6071 166.667 ninth (94.89)",
@@ -2853,47 +2656,6 @@
         "Makemake"
        ],
        "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Transpluto",
-     "cells": [
-      {
-       "text": "H Deneb Algedi → H Transpluto RA 175.0012 175 whole (88.65)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Transpluto"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Alphard → J Transpluto RA 0.1658 conj (79.11)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Alphard Dec 0.0178 conj (88.51)"
-       ],
-       "key": [
-        "Alphard",
-        "Transpluto"
-       ],
-       "field": "also: 6 The Paddy Pie / Sean Quinlan"
-      },
-      {
-       "text": "J Unukalhai → J Transpluto RA 94.0117 94 whole (17.30)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)"
-       ],
-       "key": [
-        "Unukalhai",
-        "Transpluto"
-       ],
-       "field": "also: 4 Winds Of Fire / Adam Wedge"
       }
      ]
     },
@@ -3045,6 +2807,35 @@
      ]
     },
     {
+     "body": "Transpluto",
+     "cells": [
+      {
+       "text": "J Alphard → J Transpluto RA 0.1658 conj (79.11)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Alphard Dec 0.0178 conj (88.51)"
+       ],
+       "key": [
+        "Alphard",
+        "Transpluto"
+       ],
+       "field": "also: 6 The Paddy Pie / Sean Quinlan"
+      },
+      {
+       "text": "J Unukalhai → J Transpluto RA 94.0117 94 whole (17.30)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)"
+       ],
+       "key": [
+        "Unukalhai",
+        "Transpluto"
+       ],
+       "field": "also: 4 Winds Of Fire / Adam Wedge"
+      }
+     ]
+    },
+    {
      "body": "Pallas",
      "cells": [
       {
@@ -3156,7 +2947,7 @@
       "cells": [
        "S Haumea → H Haumea Dec 2.9809 3 whole (0.20)"
       ],
-      "field": "also: 1 Almazhar Garde / Luca Morgan, 6 The Paddy Pie / Sean Quinlan"
+      "field": "also: 6 The Paddy Pie / Sean Quinlan"
      },
      {
       "label": "1 = 360/360",
@@ -3164,13 +2955,6 @@
        "S Gonggong → H Gonggong RA 0.9958 1 whole (62.21)"
       ],
       "field": "also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley"
-     },
-     {
-      "label": "15 = 360/24",
-      "cells": [
-       "H Deneb Algedi → H Chiron Dec 14.9954 15 whole (59.07)"
-      ],
-      "field": "also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods"
      },
      {
       "label": "120 = 360/3",
@@ -3205,7 +2989,7 @@
       "cells": [
        "J Betelgeuse → J Pallas Dec 8.0104 8 whole (22.81)"
       ],
-      "field": "also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley"
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge"
      },
      {
       "label": "120 = 360/3",
@@ -3213,13 +2997,6 @@
        "J Betelgeuse → J Gonggong RA 120.0187 120 whole (0.42)"
       ],
       "field": "also: 4 Winds Of Fire / Adam Wedge"
-     },
-     {
-      "label": "2 = 360/180",
-      "cells": [
-       "J Deneb Algedi → J Gonggong RA 2.0066 2 whole (45.12)"
-      ],
-      "field": "also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge"
      },
      {
       "label": "2 = 360/180",
@@ -3285,14 +3062,6 @@
        "J Betelgeuse → J Venus Dec 5.0027 5 whole (75.22)"
       ],
       "field": "also: 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
-     },
-     {
-      "label": "2 whole",
-      "cells": [
-       "J Deneb Algedi → J Gonggong RA 2.0066 2 whole (45.12)",
-       "J Hamal → J Ceres Dec 2.0000 2 whole (99.59)"
-      ],
-      "field": "only"
      }
     ]
    }
@@ -3373,13 +3142,6 @@
      ],
      "body_lines": [],
      "on_this_chart": [
-      {
-       "text": "H Deneb Algedi → H Ceres Dec 18.9977 19 whole (78.48)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
-      },
       {
        "text": "H Murzim → H Ceres RA 114.8503 71×φ golden (0.50)",
        "layer": "star rows",
@@ -3682,13 +3444,6 @@
      ],
      "on_other_chart": [
       {
-       "text": "H Deneb Algedi → H Ceres Dec 18.9977 19 whole (78.48)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
-      },
-      {
        "text": "H Murzim → H Ceres RA 114.8503 71×φ golden (0.50)",
        "layer": "star rows",
        "source_lines": [
@@ -3816,18 +3571,6 @@
         "Ceres"
        ],
        "field": "also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge"
-      },
-      {
-       "text": "H Deneb Algedi → H Ceres Dec 18.9977 19 whole (78.48)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Ceres"
-       ],
-       "field": "only"
       },
       {
        "text": "H Murzim → H Ceres RA 114.8503 71×φ golden (0.50)",
@@ -4050,18 +3793,6 @@
        "field": "only"
       },
       {
-       "text": "J Deneb Algedi → J Juno RA 129.9935 130 whole (45.62)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Juno"
-       ],
-       "field": "also: 6 The Paddy Pie / Sean Quinlan"
-      },
-      {
        "text": "J Murzim → J Juno RA 1.0797 conj (7.85)",
        "layer": "star rows",
        "source_lines": [
@@ -4099,18 +3830,6 @@
         "Haumea"
        ],
        "field": "also: 5 Brian Boranha / Callum Bewley"
-      },
-      {
-       "text": "J Deneb Algedi → J Haumea Dec 37.9956 38 whole (60.94)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Haumea"
-       ],
-       "field": "also: 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley"
       }
      ]
     },
@@ -4385,134 +4104,6 @@
      ]
     },
     {
-     "body": "Saturn",
-     "cells": [
-      {
-       "text": "H Deneb Algedi → H Saturn Dec 0.1716 conj (18.32)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Saturn"
-       ],
-       "field": "also: 2 Marown / Brian Hughes"
-      },
-      {
-       "text": "H Murzim → H Saturn Dec 2.0017 2 whole (83.78)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Murzim RA 127.8222 79×φ golden (85.13)"
-       ],
-       "key": [
-        "Murzim",
-        "Saturn"
-       ],
-       "field": "also: 1 Almazhar Garde / Luca Morgan"
-      },
-      {
-       "text": "J Difda → J Saturn Dec 0.2292 conj (5.57)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Difda Dec 5.0001 5 whole (98.75)"
-       ],
-       "key": [
-        "Difda",
-        "Saturn"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Murzim → J Saturn RA 140.9828 141 whole (1.95)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Murzim RA 127.8222 79×φ golden (85.13)"
-       ],
-       "key": [
-        "Murzim",
-        "Saturn"
-       ],
-       "field": "also: 1 Almazhar Garde / Luca Morgan"
-      },
-      {
-       "text": "J Murzim → J Saturn Dec 0.2618 conj (1.62)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Murzim RA 127.8222 79×φ golden (85.13)"
-       ],
-       "key": [
-        "Murzim",
-        "Saturn"
-       ],
-       "field": "also: 1 Almazhar Garde / Luca Morgan"
-      },
-      {
-       "text": "J Vega → J Saturn Dec 57.0021 57 whole (80.06)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Vega Dec 51.7710 32×φ golden (65.83)"
-       ],
-       "key": [
-        "Vega",
-        "Saturn"
-       ],
-       "field": "also: 4 Winds Of Fire / Adam Wedge"
-      }
-     ]
-    },
-    {
-     "body": "Eris",
-     "cells": [
-      {
-       "text": "H Deneb Algedi → H Eris Dec 12.9446 8×φ golden (97.87)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Eris"
-       ],
-       "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes"
-      },
-      {
-       "text": "H Vega → H Eris RA 106.0156 106 whole (4.83)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Vega Dec 51.7710 32×φ golden (65.83)"
-       ],
-       "key": [
-        "Vega",
-        "Eris"
-       ],
-       "field": "also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley"
-      },
-      {
-       "text": "S Jupiter → J Eris Dec 0.2337 conj (4.88)",
-       "layer": "top rows",
-       "source_lines": [],
-       "key": [
-        "S Jupiter",
-        "Eris"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Alphard → J Eris Dec 0.2559 conj (2.17)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Jupiter → Alphard Dec 0.0178 conj (88.51)"
-       ],
-       "key": [
-        "Alphard",
-        "Eris"
-       ],
-       "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes"
-      }
-     ]
-    },
-    {
      "body": "Uranus",
      "cells": [
       {
@@ -4582,6 +4173,71 @@
         "Makemake"
        ],
        "field": "also: 1 Almazhar Garde / Luca Morgan"
+      }
+     ]
+    },
+    {
+     "body": "Saturn",
+     "cells": [
+      {
+       "text": "H Murzim → H Saturn Dec 2.0017 2 whole (83.78)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Murzim RA 127.8222 79×φ golden (85.13)"
+       ],
+       "key": [
+        "Murzim",
+        "Saturn"
+       ],
+       "field": "also: 1 Almazhar Garde / Luca Morgan"
+      },
+      {
+       "text": "J Difda → J Saturn Dec 0.2292 conj (5.57)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Difda Dec 5.0001 5 whole (98.75)"
+       ],
+       "key": [
+        "Difda",
+        "Saturn"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Murzim → J Saturn RA 140.9828 141 whole (1.95)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Murzim RA 127.8222 79×φ golden (85.13)"
+       ],
+       "key": [
+        "Murzim",
+        "Saturn"
+       ],
+       "field": "also: 1 Almazhar Garde / Luca Morgan"
+      },
+      {
+       "text": "J Murzim → J Saturn Dec 0.2618 conj (1.62)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Murzim RA 127.8222 79×φ golden (85.13)"
+       ],
+       "key": [
+        "Murzim",
+        "Saturn"
+       ],
+       "field": "also: 1 Almazhar Garde / Luca Morgan"
+      },
+      {
+       "text": "J Vega → J Saturn Dec 57.0021 57 whole (80.06)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Vega Dec 51.7710 32×φ golden (65.83)"
+       ],
+       "key": [
+        "Vega",
+        "Saturn"
+       ],
+       "field": "also: 4 Winds Of Fire / Adam Wedge"
       }
      ]
     },
@@ -4667,6 +4323,45 @@
         "Rahu"
        ],
        "field": "also: 4 Winds Of Fire / Adam Wedge"
+      }
+     ]
+    },
+    {
+     "body": "Eris",
+     "cells": [
+      {
+       "text": "H Vega → H Eris RA 106.0156 106 whole (4.83)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Vega Dec 51.7710 32×φ golden (65.83)"
+       ],
+       "key": [
+        "Vega",
+        "Eris"
+       ],
+       "field": "also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley"
+      },
+      {
+       "text": "S Jupiter → J Eris Dec 0.2337 conj (4.88)",
+       "layer": "top rows",
+       "source_lines": [],
+       "key": [
+        "S Jupiter",
+        "Eris"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Alphard → J Eris Dec 0.2559 conj (2.17)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Jupiter → Alphard Dec 0.0178 conj (88.51)"
+       ],
+       "key": [
+        "Alphard",
+        "Eris"
+       ],
+       "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes"
       }
      ]
     },
@@ -4863,7 +4558,7 @@
       "cells": [
        "J Hamal → J Chiron Dec 15.0008 15 whole (92.60)"
       ],
-      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes"
+      "field": "also: 1 Almazhar Garde / Luca Morgan"
      }
     ],
     "5": [
@@ -4928,7 +4623,6 @@
       "label": "38 whole",
       "cells": [
        "J Jupiter → J star Vega Dec 37.9954 38 whole (59.47)",
-       "J Deneb Algedi → J Haumea Dec 37.9956 38 whole (60.94)",
        "J Vega → J Jupiter Dec 37.9954 38 whole (59.47)"
       ],
       "field": "only"
@@ -4998,15 +4692,7 @@
       "S Venus → H Venus RA 121.6157 122.222 ninth (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "H Deneb Algedi → H Venus Dec 35.0021 35 whole (79.67)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -5229,25 +4915,9 @@
       "S Neptune → J Neptune Dec 17.7615 17.7778 ninth (loose)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "J Deneb Algedi → J Neptune Dec 6.0067 6 whole (44.13)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Deneb Algedi → H Neptune Dec 7.0101 7 whole (24.32)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -5312,13 +4982,6 @@
        "text": "S Sun → J Rahu Dec 0.1334 conj (30.84)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "J Deneb Algedi → J Rahu RA 1.4748 conj (0.03)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
       },
       {
        "text": "J Vega → J Rahu RA 49.0003 49 whole (97.32)",
@@ -5402,13 +5065,6 @@
      "body_lines": [],
      "on_this_chart": [
       {
-       "text": "J Deneb Algedi → J Ketu Dec 28.9805 29 whole (0.06)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
-      },
-      {
        "text": "J Vega → J Ketu RA 130.9997 131 whole (97.32)",
        "layer": "star rows",
        "source_lines": [
@@ -5422,13 +5078,6 @@
        "text": "S Jupiter → H Ketu RA 26.9993 27 whole (93.06)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "H Deneb Algedi → H Ketu Dec 20.0104 20 whole (23.22)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
       }
      ]
     }
@@ -5495,18 +5144,6 @@
         "Venus"
        ],
        "field": "also: 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan"
-      },
-      {
-       "text": "H Deneb Algedi → H Venus Dec 35.0021 35 whole (79.67)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Venus"
-       ],
-       "field": "only"
       },
       {
        "text": "J Difda → J Venus Dec 22.0075 22 whole (38.76)",
@@ -5747,18 +5384,6 @@
        "field": "only"
       },
       {
-       "text": "J Deneb Algedi → J Rahu RA 1.4748 conj (0.03)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Rahu"
-       ],
-       "field": "only"
-      },
-      {
        "text": "J Vega → J Rahu RA 49.0003 49 whole (97.32)",
        "layer": "star rows",
        "source_lines": [
@@ -5825,18 +5450,6 @@
        "field": "only"
       },
       {
-       "text": "H Deneb Algedi → H Ketu Dec 20.0104 20 whole (23.22)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Ketu"
-       ],
-       "field": "only"
-      },
-      {
        "text": "S Ketu → J Ketu Dec 32.3702 20×φ golden (loose)",
        "layer": "same body",
        "source_lines": [],
@@ -5845,18 +5458,6 @@
         "Ketu"
        ],
        "field": "also: 5 Brian Boranha / Callum Bewley"
-      },
-      {
-       "text": "J Deneb Algedi → J Ketu Dec 28.9805 29 whole (0.06)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Ketu"
-       ],
-       "field": "only"
       },
       {
        "text": "J Vega → J Ketu RA 130.9997 131 whole (97.32)",
@@ -5936,18 +5537,6 @@
         "Gonggong"
        ],
        "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 6 The Paddy Pie / Sean Quinlan"
-      },
-      {
-       "text": "H Deneb Algedi → H Gonggong RA 8.9973 9 whole (74.41)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Gonggong"
-       ],
-       "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan"
       }
      ]
     },
@@ -6219,86 +5808,6 @@
      ]
     },
     {
-     "body": "Neptune",
-     "cells": [
-      {
-       "text": "H Deneb Algedi → H Neptune Dec 7.0101 7 whole (24.32)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Neptune"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Neptune → J Neptune Dec 17.7615 17.7778 ninth (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Neptune"
-       ],
-       "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan"
-      },
-      {
-       "text": "J Deneb Algedi → J Neptune Dec 6.0067 6 whole (44.13)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Neptune"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Haumea",
-     "cells": [
-      {
-       "text": "H Deneb Algedi → H Haumea Dec 33.9896 34 whole (22.98)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Haumea"
-       ],
-       "field": "also: 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley"
-      },
-      {
-       "text": "H Murzim → H Haumea RA 114.9944 115 whole (52.00)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Murzim RA 127.8222 79×φ golden (85.13)"
-       ],
-       "key": [
-        "Murzim",
-        "Haumea"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Deneb Algedi → J Haumea Dec 39.0077 39 whole (37.96)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Haumea"
-       ],
-       "field": "also: 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley"
-      }
-     ]
-    },
-    {
      "body": "Saturn",
      "cells": [
       {
@@ -6358,6 +5867,23 @@
         "Saturn"
        ],
        "field": "also: 3 Omar Maretti / Kielan Woods"
+      }
+     ]
+    },
+    {
+     "body": "Haumea",
+     "cells": [
+      {
+       "text": "H Murzim → H Haumea RA 114.9944 115 whole (52.00)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Murzim RA 127.8222 79×φ golden (85.13)"
+       ],
+       "key": [
+        "Murzim",
+        "Haumea"
+       ],
+       "field": "only"
       }
      ]
     },
@@ -6446,6 +5972,21 @@
         "Mercury"
        ],
        "field": "only"
+      }
+     ]
+    },
+    {
+     "body": "Neptune",
+     "cells": [
+      {
+       "text": "S Neptune → J Neptune Dec 17.7615 17.7778 ninth (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Neptune"
+       ],
+       "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan"
       }
      ]
     },
@@ -6669,20 +6210,6 @@
       "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley"
      },
      {
-      "label": "9 = 360/40",
-      "cells": [
-       "H Deneb Algedi → H Gonggong RA 8.9973 9 whole (74.41)"
-      ],
-      "field": "also: 1 Almazhar Garde / Luca Morgan, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan"
-     },
-     {
-      "label": "20 = 360/18",
-      "cells": [
-       "H Deneb Algedi → H Ketu Dec 20.0104 20 whole (23.22)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "36 = 360/10",
       "cells": [
        "S Difda → H Jupiter Dec 35.9884 36 whole (17.67)"
@@ -6694,7 +6221,7 @@
       "cells": [
        "H Hamal → H Pallas Dec 7.9810 8 whole (0.25)"
       ],
-      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley"
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes"
      },
      {
       "label": "12 = 360/30",
@@ -6729,14 +6256,7 @@
       "cells": [
        "S Jupiter → J Pluto Dec 7.9984 8 whole (84.71)"
       ],
-      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley"
-     },
-     {
-      "label": "6 = 360/60",
-      "cells": [
-       "J Deneb Algedi → J Neptune Dec 6.0067 6 whole (44.13)"
-      ],
-      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan"
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes"
      },
      {
       "label": "5 = 360/72",
@@ -6750,7 +6270,7 @@
       "cells": [
        "J Hamal → J Eris RA 8.9905 9 whole (27.49)"
       ],
-      "field": "also: 1 Almazhar Garde / Luca Morgan, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan"
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 5 Brian Boranha / Callum Bewley"
      },
      {
       "label": "12 = 360/30",
@@ -6795,14 +6315,6 @@
       "field": "only"
      },
      {
-      "label": "9 whole",
-      "cells": [
-       "H Deneb Algedi → H Gonggong RA 8.9973 9 whole (74.41)",
-       "J Hamal → J Eris RA 8.9905 9 whole (27.49)"
-      ],
-      "field": "also: 5 Brian Boranha / Callum Bewley"
-     },
-     {
       "label": "8 whole",
       "cells": [
        "H Hamal → H Pallas Dec 7.9810 8 whole (0.25)",
@@ -6836,14 +6348,6 @@
       "field": "also: 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan"
      },
      {
-      "label": "6 whole",
-      "cells": [
-       "S Saturn → J Saturn Dec 6.0203 6 whole (loose)",
-       "J Deneb Algedi → J Neptune Dec 6.0067 6 whole (44.13)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "20×φ golden",
       "cells": [
        "S Rahu → J Rahu Dec 32.3702 20×φ golden (loose)",
@@ -6866,14 +6370,6 @@
        "J Vega → J Vesta RA 11.0097 11 whole (26.58)"
       ],
       "field": "also: 6 The Paddy Pie / Sean Quinlan"
-     },
-     {
-      "label": "29 whole",
-      "cells": [
-       "J Deneb Algedi → J Ketu Dec 28.9805 29 whole (0.06)",
-       "J Unukalhai → J Makemake Dec 29.0178 29 whole (1.17)"
-      ],
-      "field": "only"
      }
     ]
    }
@@ -7099,13 +6595,6 @@
        ]
       },
       {
-       "text": "H Deneb Algedi → H Sun RA 87.0122 87 whole (15.19)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
-      },
-      {
        "text": "H Hamal → H Sun RA 21.9847 22 whole (5.49)",
        "layer": "star rows",
        "source_lines": [
@@ -7229,8 +6718,7 @@
       "S Vesta → J Vesta RA 155.8775 155.556 ninth (loose)"
      ],
      "body_lines": [
-      "S Sun → Vesta RA 38.8398 24×φ golden (61.63)",
-      "S Moon → Vesta RA 163.4101 101×φ golden (42.14)"
+      "S Sun → Vesta RA 38.8398 24×φ golden (61.63)"
      ],
      "on_this_chart": [
       {
@@ -7238,13 +6726,6 @@
        "layer": "star rows",
        "source_lines": [
         "S Jupiter → Alphard Dec 0.0178 conj (88.51)"
-       ]
-      },
-      {
-       "text": "J Deneb Algedi → J Vesta RA 118.1292 73×φ golden (36.91)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
        ]
       },
       {
@@ -7280,15 +6761,7 @@
       "S Sedna → J Sedna Dec 3.3338 3.33333 ninth (93.79)"
      ],
      "body_lines": [],
-     "on_this_chart": [
-      {
-       "text": "J Deneb Algedi → J Sedna RA 77.9937 78 whole (46.92)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
-      }
-     ],
+     "on_this_chart": [],
      "other_chart_same_body": [],
      "on_other_chart": [
       {
@@ -7774,18 +7247,6 @@
        "field": "also: 2 Marown / Brian Hughes"
       },
       {
-       "text": "H Deneb Algedi → H Sun RA 87.0122 87 whole (15.19)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Sun"
-       ],
-       "field": "only"
-      },
-      {
        "text": "H Hamal → H Sun RA 21.9847 22 whole (5.49)",
        "layer": "star rows",
        "source_lines": [
@@ -7836,18 +7297,6 @@
         "Chiron"
        ],
        "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes"
-      },
-      {
-       "text": "H Deneb Algedi → H Chiron RA 8.0174 8 whole (1.73)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Chiron"
-       ],
-       "field": "also: 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan"
       },
       {
        "text": "H Hamal → H Chiron RA 57.0102 57 whole (24.24)",
@@ -7948,59 +7397,6 @@
         "Sedna"
        ],
        "field": "also: 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan"
-      },
-      {
-       "text": "J Deneb Algedi → J Sedna RA 77.9937 78 whole (46.92)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Sedna"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Orcus",
-     "cells": [
-      {
-       "text": "H Deneb Algedi → H Orcus RA 179.6052 111×φ golden (80.04)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Orcus"
-       ],
-       "field": "also: 1 Almazhar Garde / Luca Morgan"
-      },
-      {
-       "text": "J Hamal → J Orcus RA 101.9329 63×φ golden (80.95)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Moon → Hamal Dec 0.0488 conj (70.13)"
-       ],
-       "key": [
-        "Hamal",
-        "Orcus"
-       ],
-       "field": "also: 1 Almazhar Garde / Luca Morgan"
-      },
-      {
-       "text": "J Vega → J Orcus Dec 36.9940 37 whole (49.23)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Vega Dec 51.7710 32×φ golden (65.83)"
-       ],
-       "key": [
-        "Vega",
-        "Orcus"
-       ],
-       "field": "also: 4 Winds Of Fire / Adam Wedge"
       }
      ]
     },
@@ -8147,8 +7543,7 @@
        "text": "S Vesta → J Vesta RA 155.8775 155.556 ninth (loose)",
        "layer": "same body",
        "source_lines": [
-        "S Sun → Vesta RA 38.8398 24×φ golden (61.63)",
-        "S Moon → Vesta RA 163.4101 101×φ golden (42.14)"
+        "S Sun → Vesta RA 38.8398 24×φ golden (61.63)"
        ],
        "key": [
         "same body",
@@ -8164,18 +7559,6 @@
        ],
        "key": [
         "Alphard",
-        "Vesta"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Deneb Algedi → J Vesta RA 118.1292 73×φ golden (36.91)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
         "Vesta"
        ],
        "field": "only"
@@ -8354,18 +7737,6 @@
        "field": "only"
       },
       {
-       "text": "J Deneb Algedi → J Haumea RA 135.9892 136 whole (21.06)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Haumea"
-       ],
-       "field": "also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge"
-      },
-      {
        "text": "J Difda → J Haumea Dec 39.9888 40 whole (19.51)",
        "layer": "star rows",
        "source_lines": [
@@ -8432,6 +7803,35 @@
        "field": "also: 6 The Paddy Pie / Sean Quinlan"
       }
      ]
+    },
+    {
+     "body": "Orcus",
+     "cells": [
+      {
+       "text": "J Hamal → J Orcus RA 101.9329 63×φ golden (80.95)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Moon → Hamal Dec 0.0488 conj (70.13)"
+       ],
+       "key": [
+        "Hamal",
+        "Orcus"
+       ],
+       "field": "also: 1 Almazhar Garde / Luca Morgan"
+      },
+      {
+       "text": "J Vega → J Orcus Dec 36.9940 37 whole (49.23)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Vega Dec 51.7710 32×φ golden (65.83)"
+       ],
+       "key": [
+        "Vega",
+        "Orcus"
+       ],
+       "field": "also: 4 Winds Of Fire / Adam Wedge"
+      }
+     ]
     }
    ],
    "cases": {
@@ -8472,13 +7872,6 @@
       "field": "also: 4 Winds Of Fire / Adam Wedge"
      },
      {
-      "label": "8 = 360/45",
-      "cells": [
-       "H Deneb Algedi → H Chiron RA 8.0174 8 whole (1.73)"
-      ],
-      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge"
-     },
-     {
       "label": "1 = 360/360",
       "cells": [
        "H Hamal → H Mercury RA 0.9964 1 whole (67.43)"
@@ -8504,14 +7897,14 @@
       "cells": [
        "S Transpluto → J Transpluto RA 8.9922 9 whole (37.08)"
       ],
-      "field": "also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge"
      },
      {
       "label": "9 = 360/40",
       "cells": [
        "S Neptune → J Jupiter Dec 9.0001 9 whole (99.16)"
       ],
-      "field": "also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge"
      },
      {
       "label": "1 = 360/360",
@@ -8631,7 +8024,7 @@
        "S Transpluto → J Transpluto RA 8.9922 9 whole (37.08)",
        "S Neptune → J Jupiter Dec 9.0001 9 whole (99.16)"
       ],
-      "field": "also: 4 Winds Of Fire / Adam Wedge"
+      "field": "only"
      },
      {
       "label": "74 whole",
@@ -8733,13 +8126,6 @@
        "text": "S Venus → J Jupiter Dec 5.9971 6 whole (73.18)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "J Deneb Algedi → J Jupiter RA 65.9877 66 whole (14.63)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
       }
      ]
     },
@@ -8801,13 +8187,6 @@
        "source_lines": []
       },
       {
-       "text": "J Deneb Algedi → J Gonggong RA 0.2640 conj (67.89)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
-      },
-      {
        "text": "J Vega → J Gonggong Dec 60.9988 61 whole (88.40)",
        "layer": "star rows",
        "source_lines": [
@@ -8854,15 +8233,7 @@
       }
      ],
      "other_chart_same_body": [],
-     "on_other_chart": [
-      {
-       "text": "H Deneb Algedi → H Mercury Dec 9.0067 9 whole (43.95)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
-      }
-     ]
+     "on_other_chart": []
     },
     {
      "chart": "J",
@@ -8878,13 +8249,6 @@
        "text": "S Venus → J Jupiter Dec 5.9971 6 whole (73.18)",
        "layer": "top rows",
        "source_lines": []
-      },
-      {
-       "text": "J Deneb Algedi → J Jupiter RA 65.9877 66 whole (14.63)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ]
       }
      ],
      "other_chart_same_body": [
@@ -9012,8 +8376,7 @@
       "S Vesta → J Vesta RA 152.1126 94×φ golden (loose)"
      ],
      "body_lines": [
-      "S Sun → Vesta RA 38.8398 24×φ golden (61.63)",
-      "S Moon → Vesta RA 163.4101 101×φ golden (42.14)"
+      "S Sun → Vesta RA 38.8398 24×φ golden (61.63)"
      ],
      "on_this_chart": [],
      "other_chart_same_body": [],
@@ -9275,18 +8638,6 @@
         "Jupiter"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Deneb Algedi → J Jupiter RA 65.9877 66 whole (14.63)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Jupiter"
-       ],
-       "field": "only"
       }
      ]
     },
@@ -9397,18 +8748,6 @@
        "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge"
       },
       {
-       "text": "J Deneb Algedi → J Gonggong RA 0.2640 conj (67.89)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Gonggong"
-       ],
-       "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge"
-      },
-      {
        "text": "J Vega → J Gonggong Dec 60.9988 61 whole (88.40)",
        "layer": "star rows",
        "source_lines": [
@@ -9431,18 +8770,6 @@
        "source_lines": [],
        "key": [
         "S Jupiter",
-        "Mars"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Deneb Algedi → J Mars Dec 12.2279 12.2222 ninth (92.11)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
         "Mars"
        ],
        "field": "only"
@@ -9656,86 +8983,6 @@
      ]
     },
     {
-     "body": "Mercury",
-     "cells": [
-      {
-       "text": "H Deneb Algedi → H Mercury Dec 9.0067 9 whole (43.95)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Mercury"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "S Mercury → J Mercury RA 21.0260 21 whole (loose)",
-       "layer": "same body",
-       "source_lines": [],
-       "key": [
-        "same body",
-        "Mercury"
-       ],
-       "field": "also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley"
-      },
-      {
-       "text": "J Vega → J Mercury RA 1.1979 conj (4.06)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Vega Dec 51.7710 32×φ golden (65.83)"
-       ],
-       "key": [
-        "Vega",
-        "Mercury"
-       ],
-       "field": "only"
-      }
-     ]
-    },
-    {
-     "body": "Chiron",
-     "cells": [
-      {
-       "text": "H Deneb Algedi → H Chiron Dec 13.0027 13 whole (74.76)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Chiron"
-       ],
-       "field": "also: 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley"
-      },
-      {
-       "text": "H Murzim → H Chiron RA 115.9964 116 whole (67.49)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Murzim RA 127.8222 79×φ golden (85.13)"
-       ],
-       "key": [
-        "Murzim",
-        "Chiron"
-       ],
-       "field": "only"
-      },
-      {
-       "text": "J Unukalhai → J Chiron RA 177.7981 177.778 ninth (98.41)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)"
-       ],
-       "key": [
-        "Unukalhai",
-        "Chiron"
-       ],
-       "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley"
-      }
-     ]
-    },
-    {
      "body": "Juno",
      "cells": [
       {
@@ -9749,18 +8996,6 @@
         "Juno"
        ],
        "field": "only"
-      },
-      {
-       "text": "J Deneb Algedi → J Juno RA 62.9894 63 whole (21.92)",
-       "layer": "star rows",
-       "source_lines": [
-        "S Sun → Deneb Algedi RA 1.1004 conj (7.10)"
-       ],
-       "key": [
-        "Deneb Algedi",
-        "Juno"
-       ],
-       "field": "also: 3 Omar Maretti / Kielan Woods"
       },
       {
        "text": "J Murzim → J Juno Dec 11.1146 11.1111 ninth (94.26)",
@@ -9920,6 +9155,35 @@
      ]
     },
     {
+     "body": "Chiron",
+     "cells": [
+      {
+       "text": "H Murzim → H Chiron RA 115.9964 116 whole (67.49)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Murzim RA 127.8222 79×φ golden (85.13)"
+       ],
+       "key": [
+        "Murzim",
+        "Chiron"
+       ],
+       "field": "only"
+      },
+      {
+       "text": "J Unukalhai → J Chiron RA 177.7981 177.778 ninth (98.41)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)"
+       ],
+       "key": [
+        "Unukalhai",
+        "Chiron"
+       ],
+       "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley"
+      }
+     ]
+    },
+    {
      "body": "Vesta",
      "cells": [
       {
@@ -9938,8 +9202,7 @@
        "text": "S Vesta → J Vesta RA 152.1126 94×φ golden (loose)",
        "layer": "same body",
        "source_lines": [
-        "S Sun → Vesta RA 38.8398 24×φ golden (61.63)",
-        "S Moon → Vesta RA 163.4101 101×φ golden (42.14)"
+        "S Sun → Vesta RA 38.8398 24×φ golden (61.63)"
        ],
        "key": [
         "same body",
@@ -10046,6 +9309,33 @@
         "Sun"
        ],
        "field": "also: 4 Winds Of Fire / Adam Wedge"
+      }
+     ]
+    },
+    {
+     "body": "Mercury",
+     "cells": [
+      {
+       "text": "S Mercury → J Mercury RA 21.0260 21 whole (loose)",
+       "layer": "same body",
+       "source_lines": [],
+       "key": [
+        "same body",
+        "Mercury"
+       ],
+       "field": "also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley"
+      },
+      {
+       "text": "J Vega → J Mercury RA 1.1979 conj (4.06)",
+       "layer": "star rows",
+       "source_lines": [
+        "S Sun → Vega Dec 51.7710 32×φ golden (65.83)"
+       ],
+       "key": [
+        "Vega",
+        "Mercury"
+       ],
+       "field": "only"
       }
      ]
     },
@@ -10264,14 +9554,7 @@
       "cells": [
        "H Alphard → H Venus Dec 3.0066 3 whole (44.81)"
       ],
-      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes"
-     },
-     {
-      "label": "9 = 360/40",
-      "cells": [
-       "H Deneb Algedi → H Mercury Dec 9.0067 9 whole (43.95)"
-      ],
-      "field": "also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley"
+      "field": "also: 2 Marown / Brian Hughes"
      },
      {
       "label": "10 = 360/36",
@@ -10351,14 +9634,6 @@
       "field": "also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge"
      },
      {
-      "label": "12.2222 ninth",
-      "cells": [
-       "S Transpluto → J Transpluto RA 12.2503 12.2222 ninth (loose)",
-       "J Deneb Algedi → J Mars Dec 12.2279 12.2222 ninth (92.11)"
-      ],
-      "field": "only"
-     },
-     {
       "label": "177.778 ninth",
       "cells": [
        "J Difda → J Mars RA 177.7911 177.778 ninth (98.95)",
@@ -10380,8 +9655,7 @@
  },
  "sky": {
   "hubs": [
-   "Betelgeuse",
-   "Vesta"
+   "Betelgeuse"
   ],
   "lines": [
    "S Jupiter → Sun RA 14.1471 14.14 sqrt2 (86.42)",
@@ -10393,8 +9667,6 @@
    "S Sun → Murzim RA 127.8222 79×φ golden (85.13)",
    "S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)",
    "S Sun → Vega Dec 51.7710 32×φ golden (65.83)",
-   "S Sun → Deneb Algedi RA 1.1004 conj (7.10)",
-   "S Moon → Vesta RA 163.4101 101×φ golden (42.14)",
    "S Moon → Hamal Dec 0.0488 conj (70.13)",
    "S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)"
   ]
