@@ -2,7 +2,7 @@
  "R25": {
   "name": "Pallas reached twice",
   "test": {
-   "races": 21,
+   "races": 22,
    "fired": 6,
    "picks": 7,
    "winners": 0,
@@ -26,7 +26,7 @@
    "missed": 0
   },
   "all": {
-   "races": 21,
+   "races": 22,
    "fired": 6,
    "picks": 7,
    "winners": 0,
@@ -239,13 +239,21 @@
     "picks": [],
     "winner": "Steal The Moves",
     "n_sel": 0
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Defence Witness",
+    "n_sel": 0
    }
   ]
  },
  "R28": {
   "name": "Chiron to Jupiter, lit by Sun / Moon",
   "test": {
-   "races": 21,
+   "races": 22,
    "fired": 5,
    "picks": 7,
    "winners": 1,
@@ -269,7 +277,7 @@
    "missed": 0
   },
   "all": {
-   "races": 21,
+   "races": 22,
    "fired": 5,
    "picks": 7,
    "winners": 1,
@@ -481,13 +489,21 @@
     "picks": [],
     "winner": "Steal The Moves",
     "n_sel": 0
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Defence Witness",
+    "n_sel": 0
    }
   ]
  },
  "R1b": {
   "name": "Moon to X, sky X to Jupiter",
   "test": {
-   "races": 21,
+   "races": 22,
    "fired": 12,
    "picks": 18,
    "winners": 1,
@@ -511,7 +527,7 @@
    "missed": 0
   },
   "all": {
-   "races": 21,
+   "races": 22,
    "fired": 12,
    "picks": 18,
    "winners": 1,
@@ -774,22 +790,30 @@
     ],
     "winner": "Steal The Moves",
     "n_sel": 1
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Defence Witness",
+    "n_sel": 0
    }
   ]
  },
  "R7": {
   "name": "Line star on own Jupiter and on one body both charts",
   "test": {
-   "races": 21,
-   "fired": 12,
-   "picks": 20,
+   "races": 22,
+   "fired": 13,
+   "picks": 21,
    "winners": 0,
-   "top2": 2,
-   "chance_w": 3.3333333333333335,
-   "chance_2": 7.095238095238096,
-   "only": 5,
+   "top2": 3,
+   "chance_w": 3.4761904761904763,
+   "chance_2": 7.380952380952381,
+   "only": 6,
    "alone": 0,
-   "missed": 12
+   "missed": 13
   },
   "in_sample": {
    "races": 0,
@@ -804,16 +828,16 @@
    "missed": 0
   },
   "all": {
-   "races": 21,
-   "fired": 12,
-   "picks": 20,
+   "races": 22,
+   "fired": 13,
+   "picks": 21,
    "winners": 0,
-   "top2": 2,
-   "chance_w": 3.3333333333333335,
-   "chance_2": 7.095238095238096,
-   "only": 5,
+   "top2": 3,
+   "chance_w": 3.4761904761904763,
+   "chance_2": 7.380952380952381,
+   "only": 6,
    "alone": 0,
-   "missed": 12
+   "missed": 13
   },
   "races": [
    {
@@ -1075,13 +1099,26 @@
     ],
     "winner": "Steal The Moves",
     "n_sel": 2
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "C'Mon So",
+      2
+     ]
+    ],
+    "winner": "Defence Witness",
+    "n_sel": 1
    }
   ]
  },
  "R26": {
   "name": "Royal line star on own Jupiter",
   "test": {
-   "races": 21,
+   "races": 22,
    "fired": 9,
    "picks": 13,
    "winners": 3,
@@ -1105,7 +1142,7 @@
    "missed": 0
   },
   "all": {
-   "races": 21,
+   "races": 22,
    "fired": 9,
    "picks": 13,
    "winners": 3,
@@ -1345,22 +1382,30 @@
     "picks": [],
     "winner": "Steal The Moves",
     "n_sel": 0
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Defence Witness",
+    "n_sel": 0
    }
   ]
  },
  "R40": {
   "name": "Node axis",
   "test": {
-   "races": 21,
-   "fired": 5,
-   "picks": 7,
+   "races": 22,
+   "fired": 6,
+   "picks": 8,
    "winners": 0,
    "top2": 3,
-   "chance_w": 1.1547619047619047,
-   "chance_2": 2.3095238095238093,
-   "only": 3,
+   "chance_w": 1.2976190476190474,
+   "chance_2": 2.595238095238095,
+   "only": 4,
    "alone": 0,
-   "missed": 5
+   "missed": 6
   },
   "in_sample": {
    "races": 0,
@@ -1375,16 +1420,16 @@
    "missed": 0
   },
   "all": {
-   "races": 21,
-   "fired": 5,
-   "picks": 7,
+   "races": 22,
+   "fired": 6,
+   "picks": 8,
    "winners": 0,
    "top2": 3,
-   "chance_w": 1.1547619047619047,
-   "chance_2": 2.3095238095238093,
-   "only": 3,
+   "chance_w": 1.2976190476190474,
+   "chance_2": 2.595238095238095,
+   "only": 4,
    "alone": 0,
-   "missed": 5
+   "missed": 6
   },
   "races": [
    {
@@ -1587,19 +1632,32 @@
     "picks": [],
     "winner": "Steal The Moves",
     "n_sel": 0
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Walk Tall",
+      7
+     ]
+    ],
+    "winner": "Defence Witness",
+    "n_sel": 1
    }
   ]
  },
  "R42": {
   "name": "Moon on a same body",
   "test": {
-   "races": 21,
-   "fired": 17,
-   "picks": 27,
-   "winners": 1,
-   "top2": 8,
-   "chance_w": 4.586904761904762,
-   "chance_2": 9.459523809523809,
+   "races": 22,
+   "fired": 18,
+   "picks": 29,
+   "winners": 2,
+   "top2": 9,
+   "chance_w": 4.872619047619048,
+   "chance_2": 10.03095238095238,
    "only": 8,
    "alone": 0,
    "missed": 16
@@ -1617,13 +1675,13 @@
    "missed": 0
   },
   "all": {
-   "races": 21,
-   "fired": 17,
-   "picks": 27,
-   "winners": 1,
-   "top2": 8,
-   "chance_w": 4.586904761904762,
-   "chance_2": 9.459523809523809,
+   "races": 22,
+   "fired": 18,
+   "picks": 29,
+   "winners": 2,
+   "top2": 9,
+   "chance_w": 4.872619047619048,
+   "chance_2": 10.03095238095238,
    "only": 8,
    "alone": 0,
    "missed": 16
@@ -1921,13 +1979,30 @@
     ],
     "winner": "Steal The Moves",
     "n_sel": 1
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Defence Witness",
+      1
+     ],
+     [
+      "Aill Dubh",
+      3
+     ]
+    ],
+    "winner": "Defence Witness",
+    "n_sel": 2
    }
   ]
  },
  "R1": {
   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
   "test": {
-   "races": 21,
+   "races": 22,
    "fired": 3,
    "picks": 3,
    "winners": 0,
@@ -1951,7 +2026,7 @@
    "missed": 0
   },
   "all": {
-   "races": 21,
+   "races": 22,
    "fired": 3,
    "picks": 3,
    "winners": 0,
@@ -2145,13 +2220,21 @@
     "picks": [],
     "winner": "Steal The Moves",
     "n_sel": 0
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Defence Witness",
+    "n_sel": 0
    }
   ]
  },
  "B1": {
   "name": "Natal body on a strong line star (filter)",
   "test": {
-   "races": 3,
+   "races": 4,
    "fired": 3,
    "picks": 6,
    "winners": 1,
@@ -2175,7 +2258,7 @@
    "missed": 3
   },
   "all": {
-   "races": 21,
+   "races": 22,
    "fired": 17,
    "picks": 54,
    "winners": 12,
@@ -2587,13 +2670,21 @@
     ],
     "winner": "Steal The Moves",
     "n_sel": 1
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Defence Witness",
+    "n_sel": 0
    }
   ]
  },
  "B2": {
   "name": "Top natal body on a strong line star",
   "test": {
-   "races": 6,
+   "races": 7,
    "fired": 5,
    "picks": 5,
    "winners": 1,
@@ -2617,7 +2708,7 @@
    "missed": 8
   },
   "all": {
-   "races": 21,
+   "races": 22,
    "fired": 17,
    "picks": 17,
    "winners": 5,
@@ -2881,13 +2972,21 @@
     ],
     "winner": "Steal The Moves",
     "n_sel": 1
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Defence Witness",
+    "n_sel": 0
    }
   ]
  },
  "B3": {
   "name": "Version 4",
   "test": {
-   "races": 5,
+   "races": 6,
    "fired": 4,
    "picks": 4,
    "winners": 0,
@@ -2911,7 +3010,7 @@
    "missed": 7
   },
   "all": {
-   "races": 21,
+   "races": 22,
    "fired": 17,
    "picks": 17,
    "winners": 6,
@@ -3175,13 +3274,21 @@
     ],
     "winner": "Steal The Moves",
     "n_sel": 1
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Defence Witness",
+    "n_sel": 0
    }
   ]
  },
  "B4": {
   "name": "Same body, clear lead",
   "test": {
-   "races": 3,
+   "races": 4,
    "fired": 2,
    "picks": 2,
    "winners": 0,
@@ -3205,7 +3312,7 @@
    "missed": 4
   },
   "all": {
-   "races": 21,
+   "races": 22,
    "fired": 8,
    "picks": 8,
    "winners": 2,
@@ -3424,13 +3531,21 @@
     ],
     "winner": "Steal The Moves",
     "n_sel": 1
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Defence Witness",
+    "n_sel": 0
    }
   ]
  },
  "B5": {
   "name": "Same body in both planes",
   "test": {
-   "races": 3,
+   "races": 4,
    "fired": 0,
    "picks": 0,
    "winners": 0,
@@ -3454,7 +3569,7 @@
    "missed": 3
   },
   "all": {
-   "races": 21,
+   "races": 22,
    "fired": 4,
    "picks": 4,
    "winners": 1,
@@ -3653,13 +3768,21 @@
     "picks": [],
     "winner": "Steal The Moves",
     "n_sel": 0
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Defence Witness",
+    "n_sel": 0
    }
   ]
  },
  "B6": {
   "name": "Same body on both charts",
   "test": {
-   "races": 3,
+   "races": 4,
    "fired": 0,
    "picks": 0,
    "winners": 0,
@@ -3683,7 +3806,7 @@
    "missed": 1
   },
   "all": {
-   "races": 21,
+   "races": 22,
    "fired": 3,
    "picks": 4,
    "winners": 2,
@@ -3881,22 +4004,30 @@
     "picks": [],
     "winner": "Steal The Moves",
     "n_sel": 0
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Defence Witness",
+    "n_sel": 0
    }
   ]
  },
  "B7": {
   "name": "Most sky bodies onto the jockey's Jupiter",
   "test": {
-   "races": 20,
-   "fired": 19,
-   "picks": 23,
+   "races": 21,
+   "fired": 20,
+   "picks": 24,
    "winners": 7,
    "top2": 13,
-   "chance_w": 3.784523809523809,
-   "chance_2": 7.711904761904761,
-   "only": 16,
+   "chance_w": 3.9273809523809518,
+   "chance_2": 7.997619047619047,
+   "only": 17,
    "alone": 5,
-   "missed": 12
+   "missed": 13
   },
   "in_sample": {
    "races": 1,
@@ -3911,16 +4042,16 @@
    "missed": 0
   },
   "all": {
-   "races": 21,
-   "fired": 20,
-   "picks": 24,
+   "races": 22,
+   "fired": 21,
+   "picks": 25,
    "winners": 8,
    "top2": 14,
-   "chance_w": 4.034523809523809,
-   "chance_2": 8.211904761904762,
-   "only": 17,
+   "chance_w": 4.177380952380952,
+   "chance_2": 8.497619047619049,
+   "only": 18,
    "alone": 6,
-   "missed": 12
+   "missed": 13
   },
   "races": [
    {
@@ -4206,22 +4337,35 @@
     ],
     "winner": "Steal The Moves",
     "n_sel": 1
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Walk Tall",
+      7
+     ]
+    ],
+    "winner": "Defence Witness",
+    "n_sel": 1
    }
   ]
  },
  "B8": {
   "name": "One line star on the most natal bodies",
   "test": {
-   "races": 20,
-   "fired": 20,
-   "picks": 42,
+   "races": 21,
+   "fired": 21,
+   "picks": 44,
    "winners": 8,
    "top2": 17,
-   "chance_w": 7.0773809523809526,
-   "chance_2": 14.29761904761905,
+   "chance_w": 7.363095238095238,
+   "chance_2": 14.86904761904762,
    "only": 9,
    "alone": 3,
-   "missed": 12
+   "missed": 13
   },
   "in_sample": {
    "races": 1,
@@ -4236,16 +4380,16 @@
    "missed": 0
   },
   "all": {
-   "races": 21,
-   "fired": 21,
-   "picks": 43,
+   "races": 22,
+   "fired": 22,
+   "picks": 45,
    "winners": 9,
    "top2": 18,
-   "chance_w": 7.277380952380953,
-   "chance_2": 14.69761904761905,
+   "chance_w": 7.563095238095238,
+   "chance_2": 15.26904761904762,
    "only": 10,
    "alone": 4,
-   "missed": 12
+   "missed": 13
   },
   "races": [
    {
@@ -4608,13 +4752,30 @@
     ],
     "winner": "Steal The Moves",
     "n_sel": 3
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Walk Tall",
+      7
+     ],
+     [
+      "Croagh Patrick",
+      5
+     ]
+    ],
+    "winner": "Defence Witness",
+    "n_sel": 2
    }
   ]
  },
  "B9": {
   "name": "Jupiter and two of its line stars on one natal body",
   "test": {
-   "races": 20,
+   "races": 21,
    "fired": 8,
    "picks": 13,
    "winners": 3,
@@ -4638,7 +4799,7 @@
    "missed": 0
   },
   "all": {
-   "races": 21,
+   "races": 22,
    "fired": 9,
    "picks": 14,
    "winners": 4,
@@ -4882,19 +5043,27 @@
     ],
     "winner": "Steal The Moves",
     "n_sel": 2
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Defence Witness",
+    "n_sel": 0
    }
   ]
  },
  "B10": {
   "name": "Sun and two of its line stars on one natal body",
   "test": {
-   "races": 20,
-   "fired": 12,
-   "picks": 21,
-   "winners": 8,
-   "top2": 12,
-   "chance_w": 3.3619047619047615,
-   "chance_2": 7.152380952380952,
+   "races": 21,
+   "fired": 13,
+   "picks": 23,
+   "winners": 9,
+   "top2": 14,
+   "chance_w": 3.647619047619047,
+   "chance_2": 7.723809523809523,
    "only": 9,
    "alone": 6,
    "missed": 4
@@ -4912,13 +5081,13 @@
    "missed": 1
   },
   "all": {
-   "races": 21,
-   "fired": 13,
-   "picks": 23,
-   "winners": 8,
-   "top2": 12,
-   "chance_w": 3.6119047619047615,
-   "chance_2": 7.652380952380952,
+   "races": 22,
+   "fired": 14,
+   "picks": 25,
+   "winners": 9,
+   "top2": 14,
+   "chance_w": 3.897619047619047,
+   "chance_2": 8.223809523809523,
    "only": 9,
    "alone": 6,
    "missed": 5
@@ -5196,22 +5365,39 @@
     "picks": [],
     "winner": "Steal The Moves",
     "n_sel": 0
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Defence Witness",
+      1
+     ],
+     [
+      "C'Mon So",
+      2
+     ]
+    ],
+    "winner": "Defence Witness",
+    "n_sel": 2
    }
   ]
  },
  "B11": {
   "name": "Moon and two of its line stars on one natal body",
   "test": {
-   "races": 20,
-   "fired": 12,
-   "picks": 30,
+   "races": 21,
+   "fired": 13,
+   "picks": 31,
    "winners": 8,
    "top2": 12,
-   "chance_w": 5.038095238095238,
-   "chance_2": 10.361904761904762,
-   "only": 3,
+   "chance_w": 5.180952380952381,
+   "chance_2": 10.647619047619049,
+   "only": 4,
    "alone": 2,
-   "missed": 4
+   "missed": 5
   },
   "in_sample": {
    "races": 1,
@@ -5226,16 +5412,16 @@
    "missed": 1
   },
   "all": {
-   "races": 21,
-   "fired": 13,
-   "picks": 32,
+   "races": 22,
+   "fired": 14,
+   "picks": 33,
    "winners": 8,
    "top2": 12,
-   "chance_w": 5.288095238095238,
-   "chance_2": 10.861904761904762,
-   "only": 3,
+   "chance_w": 5.430952380952381,
+   "chance_2": 11.147619047619049,
+   "only": 4,
    "alone": 2,
-   "missed": 5
+   "missed": 6
   },
   "races": [
    {
@@ -5546,13 +5732,26 @@
     ],
     "winner": "Steal The Moves",
     "n_sel": 1
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Croagh Patrick",
+      5
+     ]
+    ],
+    "winner": "Defence Witness",
+    "n_sel": 1
    }
   ]
  },
  "B12": {
   "name": "Same body and two line stars on it",
   "test": {
-   "races": 20,
+   "races": 21,
    "fired": 13,
    "picks": 21,
    "winners": 7,
@@ -5576,7 +5775,7 @@
    "missed": 1
   },
   "all": {
-   "races": 21,
+   "races": 22,
    "fired": 14,
    "picks": 22,
    "winners": 7,
@@ -5857,6 +6056,14 @@
     ],
     "winner": "Steal The Moves",
     "n_sel": 1
+   },
+   {
+    "race": "20261106_hexham_1335",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Defence Witness",
+    "n_sel": 0
    }
   ]
  }
