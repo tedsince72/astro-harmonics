@@ -28,6 +28,18 @@ Paste this at the start of the new chat. Everything needed is here; nothing depe
 - Don't add conditions of your own to a flag. Report what is there.
 - Say what you see, without preconception. Give the read blind, then wait for the result.
 
+## Every race: the seven cases, then the connections (Eddie, 7 Nov 2026; must be done for every race)
+Go through every runner's section and list each case of the following. Write each cell as `value target family (score)`, and say for every case whether another runner in the field has the same thing.
+1. Same body on both charts. The same body scores in both the horse's same-body cells and the jockey's (e.g. S Makemake → H Makemake and S Makemake → J Makemake).
+2. One body in both planes. The same body scores in RA and in Dec, in one chart (e.g. J Sun RA and J Sun Dec).
+3. A runner's number that is also a sky number. A same-body, T1 / T2, T24 or star cell whose target equals the target of a Jupiter, Sun or Moon sky line (e.g. J Makemake 13 = S Moon → Menkar 13).
+4. Circle divisions. A whole number that divides 360 (4 = 360/90, 5 = 360/72, 6 = 360/60, 10 = 360/36 …).
+5. The same number in more than one place for one runner. Different sources, bodies or charts landing on the same target, and the same number with its N×φ.
+6. A star and a sky line on one body. A natal body conj a star, where a sky line from Jupiter, the Sun or the Moon also reaches that body or star.
+7. Jupiter, Sun and Moon meeting. Two or three centres pointing at the same star, body or number for this runner.
+
+Then, for each runner, describe how its pieces connect to each other. Say which runner's pieces join up the most, and how. Don't count or rank by numbers of cells. Leave out jockey-only cells that come with the jockey to every ride.
+
 ## Rules (standing)
 - Never open any `.csv` (the race csv holds the result). Don't look results up; Eddie pastes them.
 - Wait for Eddie's explicit go-ahead before building or changing any code. Running the script is fine.
