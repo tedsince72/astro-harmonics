@@ -176,6 +176,49 @@
    "name": "Sun and two of its line stars on one natal body",
    "selected": [],
    "cells": {}
+  },
+  {
+   "id": "B11",
+   "name": "Moon and two of its line stars on one natal body",
+   "selected": [
+    "P01",
+    "P07",
+    "P09",
+    "P11"
+   ],
+   "cells": {
+    "P01": [
+     "H Transpluto: S Moon and 2 Moon-line stars (Kaus Australis, Zubeneschamali)",
+     "S Moon → H Transpluto Dec 33.0003 33 whole (97.45)",
+     "H Kaus Australis → H Transpluto Dec 45.9982 46 whole (83.13)",
+     "H Zubeneschamali → H Transpluto Dec 20.9984 21 whole (84.60)"
+    ],
+    "P07": [
+     "H Gonggong: S Moon and 2 Moon-line stars (Kaus Australis, Zubeneschamali)",
+     "S Moon → H Gonggong Dec 8.0005 8 whole (95.38)",
+     "H Kaus Australis → H Gonggong Dec 20.9982 21 whole (82.79)",
+     "H Zubeneschamali → H Gonggong Dec 4.0011 4 whole (89.18)"
+    ],
+    "P09": [
+     "J Saturn: S Moon and 2 Moon-line stars (Kaus Australis, Zubeneschamali)",
+     "S Moon → J Saturn Dec 8.0013 8 whole (87.45)",
+     "J Kaus Australis → J Saturn RA 55.5584 55.5556 ninth (97.35)",
+     "J Kaus Australis → J Saturn Dec 20.9996 21 whole (96.24)",
+     "J Zubeneschamali → J Saturn Dec 4.0030 4 whole (71.91)"
+    ],
+    "P11": [
+     "H Uranus: S Moon and 2 Moon-line stars (Kaus Australis, Zubeneschamali)",
+     "S Moon → H Uranus Dec 24.0046 24 whole (59.10)",
+     "H Kaus Australis → H Uranus Dec 37.0024 37 whole (77.70)",
+     "H Zubeneschamali → H Uranus Dec 12.0030 12 whole (72.35)"
+    ]
+   }
+  },
+  {
+   "id": "B12",
+   "name": "Same body and two line stars on it",
+   "selected": [],
+   "cells": {}
   }
  ]
 }

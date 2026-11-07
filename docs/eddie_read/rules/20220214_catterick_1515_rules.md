@@ -22,12 +22,14 @@ Workbook race_batch_20220214_catterick_1515_jupiter_tables.xlsx. Runners 6. Resu
 - **B8 One line star on the most natal bodies** (1 of 6): 4 Winds Of Fire / Adam Wedge
 - **B9 Jupiter and two of its line stars on one natal body** (0 of 6): none
 - **B10 Sun and two of its line stars on one natal body** (1 of 6): 3 Omar Maretti / Kielan Woods
+- **B11 Moon and two of its line stars on one natal body** (0 of 6): none
+- **B12 Same body and two line stars on it** (1 of 6): 3 Omar Maretti / Kielan Woods
 
 ## Per runner
 
 - 1 Almazhar Garde / Luca Morgan: R40, R42
 - 2 Marown / Brian Hughes: none
-- 3 Omar Maretti / Kielan Woods: B10
+- 3 Omar Maretti / Kielan Woods: B10, B12
 - 4 Winds Of Fire / Adam Wedge: R1b, R40, R1, B8
 - 5 Brian Boranha / Callum Bewley: R1b, R7, B7
 - 6 The Paddy Pie / Sean Quinlan: none
@@ -124,6 +126,18 @@ _As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun 
 - 3 Omar Maretti / Kielan Woods
   - H Pallas: S Sun and 2 Sun-line stars (Difda, Murzim)
   - S Sun → H Pallas RA 176.3672 109×φ golden (91.22)
+  - H Difda → H Pallas RA 133.3309 133.333 ninth (99.71)
+  - H Murzim → H Pallas RA 48.5497 30×φ golden (53.33)
+
+### B11 Moon and two of its line stars on one natal body
+_As B9 with the Moon: one natal body X on one chart that sky Moon reaches at 50 or more (stage 1 top rows 'S Moon -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Moon line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- none
+
+### B12 Same body and two line stars on it
+_A same body X on one chart (sky X -> natal X, stage 1 'same body' cell scoring 50 or more) that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter, Sun or Moon line (any centre; stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 3 Omar Maretti / Kielan Woods
+  - H Pallas: same body and 2 line stars (Difda (Sun), Murzim (Sun))
+  - S Pallas → H Pallas Dec 14.1406 14.14 sqrt2 (95.59)
   - H Difda → H Pallas RA 133.3309 133.333 ninth (99.71)
   - H Murzim → H Pallas RA 48.5497 30×φ golden (53.33)
 

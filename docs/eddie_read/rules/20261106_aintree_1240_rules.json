@@ -185,6 +185,43 @@
    "name": "Sun and two of its line stars on one natal body",
    "selected": [],
    "cells": {}
+  },
+  {
+   "id": "B11",
+   "name": "Moon and two of its line stars on one natal body",
+   "selected": [
+    "P01",
+    "P05"
+   ],
+   "cells": {
+    "P01": [
+     "J Quaoar: S Moon and 2 Moon-line stars (Alphard, Nunki)",
+     "S Moon → J Quaoar Dec 4.9999 5 whole (98.76)",
+     "J Alphard → J Quaoar RA 95.0023 95 whole (78.17)",
+     "J Nunki → J Quaoar RA 46.9215 29×φ golden (91.28)"
+    ],
+    "P05": [
+     "J Ceres: S Moon and 2 Moon-line stars (Ankaa, Nunki)",
+     "S Moon → J Ceres RA 168.9961 169 whole (64.86)",
+     "J Ankaa → J Ceres Dec 32.3620 20×φ golden (91.75)",
+     "J Nunki → J Ceres RA 73.9945 74 whole (52.37)"
+    ]
+   }
+  },
+  {
+   "id": "B12",
+   "name": "Same body and two line stars on it",
+   "selected": [
+    "P05"
+   ],
+   "cells": {
+    "P05": [
+     "J Pluto: same body and 2 line stars (Alphard (Jupiter/Moon), Bellatrix (Moon))",
+     "S Pluto → J Pluto RA 58.2456 36×φ golden (79.03)",
+     "J Alphard → J Pluto RA 106.0011 106 whole (89.61)",
+     "J Bellatrix → J Pluto RA 166.6171 166.667 ninth (95.75)"
+    ]
+   }
   }
  ]
 }

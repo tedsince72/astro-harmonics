@@ -26,6 +26,8 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 | B8 | One line star on the most natal bodies | 19 | 19 | 39 | 8 (6.6) | 16 (13.3) | 3 |
 | B9 | Jupiter and two of its line stars on one natal body | 19 | 7 | 11 | 2 (1.8) | 3 (3.7) | 0 |
 | B10 | Sun and two of its line stars on one natal body | 19 | 12 | 21 | 8 (3.4) | 12 (7.2) | 6 |
+| B11 | Moon and two of its line stars on one natal body | 19 | 11 | 29 | 8 (4.9) | 12 (10.0) | 2 |
+| B12 | Same body and two line stars on it | 19 | 12 | 20 | 7 (3.5) | 9 (7.1) | 3 |
 
 ## In-sample races
 
@@ -49,6 +51,8 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 | B8 | One line star on the most natal bodies | 1 | 1 | 1 | 1 (0.2) | 1 (0.4) | 1 |
 | B9 | Jupiter and two of its line stars on one natal body | 1 | 1 | 1 | 1 (0.1) | 1 (0.2) | 1 |
 | B10 | Sun and two of its line stars on one natal body | 1 | 1 | 2 | 0 (0.2) | 0 (0.5) | 0 |
+| B11 | Moon and two of its line stars on one natal body | 1 | 1 | 2 | 0 (0.2) | 0 (0.5) | 0 |
+| B12 | Same body and two line stars on it | 1 | 1 | 1 | 0 (0.1) | 0 (0.2) | 0 |
 
 ## All races
 
@@ -72,6 +76,8 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 | B8 | One line star on the most natal bodies | 20 | 20 | 40 | 9 (6.8) | 17 (13.7) | 4 |
 | B9 | Jupiter and two of its line stars on one natal body | 20 | 8 | 12 | 3 (2.0) | 4 (3.9) | 1 |
 | B10 | Sun and two of its line stars on one natal body | 20 | 13 | 23 | 8 (3.6) | 12 (7.7) | 6 |
+| B11 | Moon and two of its line stars on one natal body | 20 | 12 | 31 | 8 (5.1) | 12 (10.5) | 2 |
+| B12 | Same body and two line stars on it | 20 | 13 | 21 | 7 (3.6) | 9 (7.4) | 3 |
 
 
 ## Per rule, every race
@@ -471,4 +477,48 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (test, 7 ran): Lyssenko (2); winner All In You
 - 20261106_aintree_1500 (test, 6 ran): none; winner Rubaud
 - 20261106_fontwell_1435 (in-sample, 8 ran): Lynx De Thaix (3), Donnie Azoff (7); winner Fire Flyer
+
+### B11 Moon and two of its line stars on one natal body
+- 20220108_lingfield_aw_1345 (test, 5 ran): Trevolli (won); winner Trevolli
+- 20220110_ludlow_1515 (test, 7 ran): none; winner Java Point
+- 20220121_lingfield_1350 (test, 7 ran): Financier (7), Frero Banbou (won), Cedar Hill (5); winner Frero Banbou
+- 20220123_lingfield_1500 (test, 6 ran): Bristol De Mai (3), Dashel Drasher (2), Master Tommytucker (5), Itchy Feet (4), Two For Gold (won); winner Two For Gold
+- 20220128_doncaster_1315 (test, 7 ran): Funambule Sivola (won), King D'argent (5); winner Funambule Sivola
+- 20220129_doncaster_1410 (test, 5 ran): none; winner Miss Heritage
+- 20220213_southwell_aw_1520 (test, 7 ran): Deluxe Music (2), Red Tornado (6); winner Chase The Dollar
+- 20220214_catterick_1515 (test, 6 ran): none; winner Omar Maretti
+- 20220215_newcastle_aw_1640 (test, 6 ran): none; winner Sir Chauvelin
+- 20220217_leicester_1445 (test, 4 ran): none; winner Nelson River
+- 20220219_haydock_1405 (test, 6 ran): none; winner Wholestone
+- 20220223_doncaster_1600 (test, 6 ran): Boss Man Fred (2), Mr Washington (6), Half Track (3), Silva Eclipse (won); winner Silva Eclipse
+- 20220224_newcastle_aw_1830 (test, 5 ran): James Watt (4), Gowanlad (won); winner Gowanlad
+- 20220309_fontwell_1440 (test, 7 ran): none; winner Royaume Uni
+- 20220311_newcastle_1540 (test, 6 ran): Edmond Dantes (6), Sir Apollo (2), Thundersockssundae (3); winner Peak Time
+- 20261106_aintree_1240 (test, 4 ran): Watery Borren (3), Avide (4); winner Risky Obsession
+- 20261106_aintree_1315 (test, 5 ran): Off The Jury (won); winner Off The Jury
+- 20261106_aintree_1350 (test, 7 ran): Dedicated Hero (6), All In You (won), Star Of Guiting (5), King Ulanda (7); winner All In You
+- 20261106_aintree_1500 (test, 6 ran): none; winner Rubaud
+- 20261106_fontwell_1435 (in-sample, 8 ran): Donnie Azoff (7), The Bellhop (5); winner Fire Flyer
+
+### B12 Same body and two line stars on it
+- 20220108_lingfield_aw_1345 (test, 5 ran): Protected Guest (2); winner Trevolli
+- 20220110_ludlow_1515 (test, 7 ran): Java Point (won); winner Java Point
+- 20220121_lingfield_1350 (test, 7 ran): Financier (7), Frero Banbou (won), Cedar Hill (5); winner Frero Banbou
+- 20220123_lingfield_1500 (test, 6 ran): Itchy Feet (4), Two For Gold (won); winner Two For Gold
+- 20220128_doncaster_1315 (test, 7 ran): Funambule Sivola (won); winner Funambule Sivola
+- 20220129_doncaster_1410 (test, 5 ran): none; winner Miss Heritage
+- 20220213_southwell_aw_1520 (test, 7 ran): Red Tornado (6); winner Chase The Dollar
+- 20220214_catterick_1515 (test, 6 ran): Omar Maretti (won); winner Omar Maretti
+- 20220215_newcastle_aw_1640 (test, 6 ran): none; winner Sir Chauvelin
+- 20220217_leicester_1445 (test, 4 ran): Stepney Causeway (3); winner Nelson River
+- 20220219_haydock_1405 (test, 6 ran): none; winner Wholestone
+- 20220223_doncaster_1600 (test, 6 ran): none; winner Silva Eclipse
+- 20220224_newcastle_aw_1830 (test, 5 ran): James Watt (4), Blazing Hot (2); winner Gowanlad
+- 20220309_fontwell_1440 (test, 7 ran): none; winner Royaume Uni
+- 20220311_newcastle_1540 (test, 6 ran): none; winner Peak Time
+- 20261106_aintree_1240 (test, 4 ran): Avide (4); winner Risky Obsession
+- 20261106_aintree_1315 (test, 5 ran): Off The Jury (won), Leader Crik (3), Dixie Mafia (4); winner Off The Jury
+- 20261106_aintree_1350 (test, 7 ran): Bucephalus (3), All In You (won), Star Of Guiting (5); winner All In You
+- 20261106_aintree_1500 (test, 6 ran): none; winner Rubaud
+- 20261106_fontwell_1435 (in-sample, 8 ran): Donnie Azoff (7); winner Fire Flyer
 

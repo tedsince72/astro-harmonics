@@ -230,6 +230,44 @@
      "H Sadalsuud → H Uranus RA 61.9984 62 whole (84.37)"
     ]
    }
+  },
+  {
+   "id": "B11",
+   "name": "Moon and two of its line stars on one natal body",
+   "selected": [
+    "P07",
+    "P13"
+   ],
+   "cells": {
+    "P07": [
+     "H Eris: S Moon and 2 Moon-line stars (Fomalhaut, Galactic Centre)",
+     "S Moon → H Eris RA 87.0007 87 whole (92.81)",
+     "H Fomalhaut → H Eris RA 41.0048 41 whole (57.50)",
+     "H Galactic Centre → H Eris RA 118.9973 119 whole (74.96)"
+    ],
+    "P13": [
+     "J Pallas: S Moon and 2 Moon-line stars (Fomalhaut, Galactic Centre)",
+     "S Moon → J Pallas RA 51.9951 52 whole (57.24)",
+     "J Fomalhaut → J Pallas RA 76.0013 76 whole (87.47)",
+     "J Galactic Centre → J Pallas RA 154.0031 154 whole (71.51)"
+    ]
+   }
+  },
+  {
+   "id": "B12",
+   "name": "Same body and two line stars on it",
+   "selected": [
+    "P13"
+   ],
+   "cells": {
+    "P13": [
+     "H Quaoar: same body and 3 line stars (Alphard (Jupiter), Meissa (Jupiter), Rasalhague (Sun))",
+     "S Quaoar → H Quaoar RA 12.9481 8×φ golden (77.65)",
+     "H Alphard → H Quaoar Dec 6.9989 7 whole (89.06)",
+     "H Meissa → H Quaoar RA 179.9969 180 whole (71.14)",
+     "H Rasalhague → H Quaoar RA 0.0493 conj (93.53)"
+    ]
+   }
   }
  ]
 }

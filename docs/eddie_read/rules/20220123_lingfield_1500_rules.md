@@ -22,15 +22,17 @@ Workbook race_batch_20220123_lingfield_1500_jupiter_tables.xlsx. Runners 6. Resu
 - **B8 One line star on the most natal bodies** (1 of 6): 5 Itchy Feet / Gavin Sheehan
 - **B9 Jupiter and two of its line stars on one natal body** (0 of 6): none
 - **B10 Sun and two of its line stars on one natal body** (5 of 6): 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+- **B11 Moon and two of its line stars on one natal body** (5 of 6): 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+- **B12 Same body and two line stars on it** (2 of 6): 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
 
 ## Per runner
 
-- 1 Bristol De Mai / Sam Twiston-Davies: B1, B10
-- 2 Dashel Drasher / Rex Dingle: B1, B10
-- 3 Master Tommytucker / Harry Cobden: B1, B2, B7, B10
-- 5 Itchy Feet / Gavin Sheehan: R7, R42, B1, B8, B10
+- 1 Bristol De Mai / Sam Twiston-Davies: B1, B10, B11
+- 2 Dashel Drasher / Rex Dingle: B1, B10, B11
+- 3 Master Tommytucker / Harry Cobden: B1, B2, B7, B10, B11
+- 5 Itchy Feet / Gavin Sheehan: R7, R42, B1, B8, B10, B11, B12
 - 6 Lieutenant Rocco / Tom Scudamore: R26, B1
-- 7 Two For Gold / David Bass: R26, B1, B3, B10
+- 7 Two For Gold / David Bass: R26, B1, B3, B10, B11, B12
 
 ## Cells
 
@@ -163,4 +165,54 @@ _As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun 
   - S Sun → J Saturn RA 37.0021 37 whole (79.75)
   - J Ankaa → J Saturn RA 98.0032 98 whole (70.30)
   - J Menkar → J Saturn RA 136.9995 137 whole (95.25)
+
+### B11 Moon and two of its line stars on one natal body
+_As B9 with the Moon: one natal body X on one chart that sky Moon reaches at 50 or more (stage 1 top rows 'S Moon -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Moon line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 1 Bristol De Mai / Sam Twiston-Davies
+  - J Juno: S Moon and 3 Moon-line stars (Ankaa, El Nath, Menkar)
+  - S Moon → J Juno RA 92.0018 92 whole (82.54)
+  - J Ankaa → J Juno RA 90.9947 91 whole (54.17)
+  - J El Nath → J Juno RA 15.9956 16 whole (61.01)
+  - J Menkar → J Juno RA 51.9970 52 whole (72.36)
+- 2 Dashel Drasher / Rex Dingle
+  - J Mercury: S Moon and 2 Moon-line stars (Ankaa, Menkar)
+  - S Moon → J Mercury RA 73.9950 74 whole (56.29)
+  - J Ankaa → J Mercury RA 103.0009 103 whole (90.83)
+  - J Menkar → J Mercury RA 142.0040 142 whole (63.74)
+- 3 Master Tommytucker / Harry Cobden
+  - H Vesta: S Moon and 2 Moon-line stars (Sadalsuud, Sirius)
+  - S Moon → H Vesta Dec 18.9959 19 whole (63.21)
+  - H Sadalsuud → H Vesta Dec 14.1485 14.14 sqrt2 (82.85)
+  - H Sirius → H Vesta Dec 2.9981 3 whole (81.94)
+  - J Uranus: S Moon and 3 Moon-line stars (Ankaa, El Nath, Menkar)
+  - S Moon → J Uranus RA 122.0006 122 whole (94.38)
+  - J Ankaa → J Uranus RA 55.0023 55 whole (78.04)
+  - J El Nath → J Uranus RA 130.0037 130 whole (66.03)
+  - J Menkar → J Uranus RA 94.0011 94 whole (89.54)
+- 5 Itchy Feet / Gavin Sheehan
+  - J Sun: S Moon and 3 Moon-line stars (Ankaa, El Nath, Menkar)
+  - S Moon → J Sun Dec 24.1440 24.14 silver (96.91)
+  - S Moon → J Sun RA 97.0052 97 whole (55.13)
+  - J Ankaa → J Sun RA 85.9987 86 whole (87.77)
+  - J El Nath → J Sun RA 11.0019 11 whole (82.30)
+  - J Menkar → J Sun RA 47.0025 47 whole (76.86)
+- 7 Two For Gold / David Bass
+  - H Makemake: S Moon and 2 Moon-line stars (Sadalsuud, Sirius)
+  - S Moon → H Makemake Dec 27.9984 28 whole (84.84)
+  - H Sadalsuud → H Makemake RA 132.0003 132 whole (96.54)
+  - H Sirius → H Makemake Dec 43.9967 44 whole (69.41)
+
+### B12 Same body and two line stars on it
+_A same body X on one chart (sky X -> natal X, stage 1 'same body' cell scoring 50 or more) that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter, Sun or Moon line (any centre; stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 5 Itchy Feet / Gavin Sheehan
+  - J Sun: same body and 3 line stars (Ankaa (Sun/Moon), El Nath (Moon), Menkar (Sun/Moon))
+  - S Sun → J Sun RA 146.9994 147 whole (93.79)
+  - J Ankaa → J Sun RA 85.9987 86 whole (87.77)
+  - J El Nath → J Sun RA 11.0019 11 whole (82.30)
+  - J Menkar → J Sun RA 47.0025 47 whole (76.86)
+- 7 Two For Gold / David Bass
+  - H Orcus: same body and 2 line stars (Denebola (Sun), Sadalsuud (Moon))
+  - S Orcus → H Orcus RA 9.0056 9 whole (51.88)
+  - H Denebola → H Orcus Dec 22.0012 22 whole (88.80)
+  - H Sadalsuud → H Orcus RA 174.7567 108×φ golden (52.03)
 

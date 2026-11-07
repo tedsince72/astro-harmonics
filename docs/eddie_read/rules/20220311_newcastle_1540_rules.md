@@ -22,14 +22,16 @@ Workbook race_batch_20220311_newcastle_1540_jupiter_tables.xlsx. Runners 6. Resu
 - **B8 One line star on the most natal bodies** (3 of 6): 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
 - **B9 Jupiter and two of its line stars on one natal body** (1 of 6): 1 Vocaliser / Fergus Gregory
 - **B10 Sun and two of its line stars on one natal body** (0 of 6): none
+- **B11 Moon and two of its line stars on one natal body** (3 of 6): 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+- **B12 Same body and two line stars on it** (0 of 6): none
 
 ## Per runner
 
 - 1 Vocaliser / Fergus Gregory: R7, B9
-- 2 Edmond Dantes / Brian Hughes: R42, B8
+- 2 Edmond Dantes / Brian Hughes: R42, B8, B11
 - 3 Peak Time / Conor O'Farrell: B1, B2, B3, B8
-- 5 Sir Apollo / Jonathan England: none
-- 6 Thundersockssundae / Kielan Woods: R7, B1, B7
+- 5 Sir Apollo / Jonathan England: B11
+- 6 Thundersockssundae / Kielan Woods: R7, B1, B7, B11
 - 7 Black Opium / Stephen Mulqueen: B8
 
 ## Cells
@@ -134,5 +136,29 @@ _One natal body X on one chart (X not Jupiter) that sky Jupiter reaches at 50 or
 
 ### B10 Sun and two of its line stars on one natal body
 _As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun reaches at 50 or more (stage 1 top rows 'S Sun -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Sun line. Every runner with such a body is picked._
+- none
+
+### B11 Moon and two of its line stars on one natal body
+_As B9 with the Moon: one natal body X on one chart that sky Moon reaches at 50 or more (stage 1 top rows 'S Moon -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Moon line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 2 Edmond Dantes / Brian Hughes
+  - H Neptune: S Moon and 2 Moon-line stars (Alpheratz, Scheat)
+  - S Moon → H Neptune RA 111.1319 111.111 ninth (96.61)
+  - S Moon → H Neptune Dec 34.0009 34 whole (90.88)
+  - H Alpheratz → H Neptune Dec 37.0050 37 whole (56.27)
+  - H Scheat → H Neptune Dec 35.9989 36 whole (89.11)
+- 5 Sir Apollo / Jonathan England
+  - H Pallas: S Moon and 2 Moon-line stars (Alpheratz, Menkar)
+  - S Moon → H Pallas Dec 3.9942 4 whole (50.59)
+  - H Alpheratz → H Pallas Dec 6.9978 7 whole (79.26)
+  - H Menkar → H Pallas Dec 18.0009 18 whole (91.60)
+- 6 Thundersockssundae / Kielan Woods
+  - J Eris: S Moon and 3 Moon-line stars (Alpheratz, Menkar, Scheat)
+  - S Moon → J Eris Dec 34.9946 35 whole (53.55)
+  - J Alpheratz → J Eris Dec 38.0052 38 whole (54.58)
+  - J Menkar → J Eris Dec 13.0036 13 whole (67.27)
+  - J Scheat → J Eris Dec 36.9976 37 whole (77.25)
+
+### B12 Same body and two line stars on it
+_A same body X on one chart (sky X -> natal X, stage 1 'same body' cell scoring 50 or more) that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter, Sun or Moon line (any centre; stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
 - none
 

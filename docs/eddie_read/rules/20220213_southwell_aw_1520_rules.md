@@ -22,16 +22,18 @@ Workbook race_batch_20220213_southwell_aw_1520_jupiter_tables.xlsx. Runners 7. R
 - **B8 One line star on the most natal bodies** (1 of 7): 3 Chase The Dollar / Rossa Ryan
 - **B9 Jupiter and two of its line stars on one natal body** (1 of 7): 7 Red Tornado / Jason Hart
 - **B10 Sun and two of its line stars on one natal body** (1 of 7): 2 Flying Instructor / Dylan Hogan
+- **B11 Moon and two of its line stars on one natal body** (2 of 7): 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+- **B12 Same body and two line stars on it** (1 of 7): 7 Red Tornado / Jason Hart
 
 ## Per runner
 
 - 1 The Dancing Poet / Harry Russell: B7
 - 2 Flying Instructor / Dylan Hogan: B1, B2, B3, B10
 - 3 Chase The Dollar / Rossa Ryan: B1, B8
-- 4 Deluxe Music / Callum Rodriguez: B1
+- 4 Deluxe Music / Callum Rodriguez: B1, B11
 - 5 Carn A Chlamain / Tom Marquand: R26, R40, B4, B5
 - 6 Flamingo Rose / Dougie Costello: B1
-- 7 Red Tornado / Jason Hart: R25, B9
+- 7 Red Tornado / Jason Hart: R25, B9, B11, B12
 
 ## Cells
 
@@ -143,4 +145,26 @@ _As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun 
   - S Sun → H Uranus RA 58.0016 58 whole (84.61)
   - H Alkaid → H Uranus RA 177.9927 110×φ golden (52.26)
   - H Sadalsuud → H Uranus RA 61.9984 62 whole (84.37)
+
+### B11 Moon and two of its line stars on one natal body
+_As B9 with the Moon: one natal body X on one chart that sky Moon reaches at 50 or more (stage 1 top rows 'S Moon -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Moon line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 4 Deluxe Music / Callum Rodriguez
+  - H Eris: S Moon and 2 Moon-line stars (Fomalhaut, Galactic Centre)
+  - S Moon → H Eris RA 87.0007 87 whole (92.81)
+  - H Fomalhaut → H Eris RA 41.0048 41 whole (57.50)
+  - H Galactic Centre → H Eris RA 118.9973 119 whole (74.96)
+- 7 Red Tornado / Jason Hart
+  - J Pallas: S Moon and 2 Moon-line stars (Fomalhaut, Galactic Centre)
+  - S Moon → J Pallas RA 51.9951 52 whole (57.24)
+  - J Fomalhaut → J Pallas RA 76.0013 76 whole (87.47)
+  - J Galactic Centre → J Pallas RA 154.0031 154 whole (71.51)
+
+### B12 Same body and two line stars on it
+_A same body X on one chart (sky X -> natal X, stage 1 'same body' cell scoring 50 or more) that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter, Sun or Moon line (any centre; stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 7 Red Tornado / Jason Hart
+  - H Quaoar: same body and 3 line stars (Alphard (Jupiter), Meissa (Jupiter), Rasalhague (Sun))
+  - S Quaoar → H Quaoar RA 12.9481 8×φ golden (77.65)
+  - H Alphard → H Quaoar Dec 6.9989 7 whole (89.06)
+  - H Meissa → H Quaoar RA 179.9969 180 whole (71.14)
+  - H Rasalhague → H Quaoar RA 0.0493 conj (93.53)
 

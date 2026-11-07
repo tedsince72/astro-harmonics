@@ -288,6 +288,73 @@
      "J Pleiades → J Sedna Dec 18.9955 19 whole (60.18)"
     ]
    }
+  },
+  {
+   "id": "B11",
+   "name": "Moon and two of its line stars on one natal body",
+   "selected": [
+    "P03",
+    "P05",
+    "P09"
+   ],
+   "cells": {
+    "P03": [
+     "H Ceres: S Moon and 2 Moon-line stars (Alkes, Sadalmelik)",
+     "S Moon → H Ceres Dec 17.9984 18 whole (84.20)",
+     "H Alkes → H Ceres Dec 46.9764 φ^8 phi power (98.04)",
+     "H Sadalmelik → H Ceres Dec 28.9975 29 whole (76.90)"
+    ],
+    "P05": [
+     "J Makemake: S Moon and 2 Moon-line stars (Mirach, Scheat)",
+     "S Moon → J Makemake RA 8.9999 9 whole (98.85)",
+     "J Mirach → J Makemake RA 157.0016 157 whole (84.50)",
+     "J Scheat → J Makemake RA 171.5125 106×φ golden (94.38)"
+    ],
+    "P09": [
+     "J Rahu: S Moon and 2 Moon-line stars (Regulus, Sadalmelik)",
+     "S Moon → J Rahu Dec 20.0020 20 whole (80.85)",
+     "J Regulus → J Rahu RA 50.1588 31×φ golden (98.55)",
+     "J Sadalmelik → J Rahu Dec 9.0050 9 whole (55.96)"
+    ]
+   }
+  },
+  {
+   "id": "B12",
+   "name": "Same body and two line stars on it",
+   "selected": [
+    "P03",
+    "P05",
+    "P09"
+   ],
+   "cells": {
+    "P03": [
+     "H Ketu: same body and 2 line stars (Al Rescha (Sun), Alkes (Moon))",
+     "S Ketu → H Ketu Dec 37.0000 37 whole (99.61)",
+     "H Al Rescha → H Ketu RA 14.4414 14.4444 ninth (96.78)",
+     "H Alkes → H Ketu RA 119.9984 120 whole (84.19)",
+     "H Sun: same body and 2 line stars (Galactic Centre (Sun), Sualocin (Moon))",
+     "S Sun → H Sun RA 61.0020 61 whole (80.77)",
+     "H Galactic Centre → H Sun RA 97.9981 98 whole (82.02)",
+     "H Sualocin → H Sun Dec 13.9993 14 whole (93.10)"
+    ],
+    "P05": [
+     "H Orcus: same body and 2 line stars (Rigel (Moon), Sualocin (Moon))",
+     "S Orcus → H Orcus Dec 4.0004 4 whole (95.56)",
+     "H Rigel → H Orcus Dec 0.0138 conj (91.01)",
+     "H Sualocin → H Orcus RA 160.1859 99×φ golden (96.88)"
+    ],
+    "P09": [
+     "H Sun: same body and 2 line stars (Alhena (Moon), Fomalhaut (Sun))",
+     "S Sun → H Sun Dec 42.3654 10×φ^3 phi power (95.58)",
+     "S Sun → H Sun RA 164.0028 164 whole (73.99)",
+     "H Alhena → H Sun RA 7.9942 8 whole (50.47)",
+     "H Fomalhaut → H Sun RA 122.9990 φ^10 phi power (97.68)",
+     "J Saturn: same body and 2 line stars (Castor (Moon), Galactic Centre (Sun))",
+     "S Saturn → J Saturn Dec 11.0959 φ^5 phi power (80.48)",
+     "J Castor → J Saturn RA 122.9891 φ^10 phi power (99.09)",
+     "J Galactic Centre → J Saturn Dec 22.6593 14×φ golden (62.13)"
+    ]
+   }
   }
  ]
 }

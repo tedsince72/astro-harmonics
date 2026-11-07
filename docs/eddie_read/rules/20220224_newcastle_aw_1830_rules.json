@@ -228,6 +228,51 @@
      "J Zubeneschamali → J Ketu Dec 13.9982 14 whole (82.81)"
     ]
    }
+  },
+  {
+   "id": "B11",
+   "name": "Moon and two of its line stars on one natal body",
+   "selected": [
+    "P01",
+    "P05"
+   ],
+   "cells": {
+    "P01": [
+     "H Sun: S Moon and 2 Moon-line stars (Vindemiatrix, Zubenelgenubi)",
+     "S Moon → H Sun Dec 29.0021 29 whole (79.81)",
+     "H Vindemiatrix → H Sun Dec 7.0036 7 whole (67.64)",
+     "H Zubenelgenubi → H Sun Dec 19.9969 20 whole (71.05)"
+    ],
+    "P05": [
+     "J Mars: S Moon and 2 Moon-line stars (Bellatrix, Menkent)",
+     "S Moon → J Mars Dec 48.5419 30×φ golden (94.63)",
+     "J Bellatrix → J Mars RA 0.4135 conj (52.47)",
+     "J Menkent → J Mars Dec 59.8651 37×φ golden (87.24)"
+    ]
+   }
+  },
+  {
+   "id": "B12",
+   "name": "Same body and two line stars on it",
+   "selected": [
+    "P01",
+    "P07"
+   ],
+   "cells": {
+    "P01": [
+     "H Sun: same body and 3 line stars (Vindemiatrix (Moon), Zubenelgenubi (Sun/Moon), Zubeneschamali (Sun))",
+     "S Sun → H Sun Dec 13.3342 13.3333 ninth (98.92)",
+     "H Vindemiatrix → H Sun Dec 7.0036 7 whole (67.64)",
+     "H Zubenelgenubi → H Sun Dec 19.9969 20 whole (71.05)",
+     "H Zubeneschamali → H Sun Dec 13.3381 13.3333 ninth (94.31)"
+    ],
+    "P07": [
+     "H Neptune: same body and 2 line stars (Meissa (Moon), Vindemiatrix (Moon))",
+     "S Neptune → H Neptune Dec 4.0020 4 whole (80.74)",
+     "H Meissa → H Neptune RA 101.0000 101 whole (99.69)",
+     "H Vindemiatrix → H Neptune RA 147.2406 91×φ golden (97.24)"
+    ]
+   }
   }
  ]
 }

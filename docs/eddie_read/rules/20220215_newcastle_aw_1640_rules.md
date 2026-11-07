@@ -22,6 +22,8 @@ Workbook race_batch_20220215_newcastle_aw_1640_jupiter_tables.xlsx. Runners 6. R
 - **B8 One line star on the most natal bodies** (2 of 6): 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
 - **B9 Jupiter and two of its line stars on one natal body** (0 of 6): none
 - **B10 Sun and two of its line stars on one natal body** (1 of 6): 1 Sir Chauvelin / Paul Mulrennan
+- **B11 Moon and two of its line stars on one natal body** (0 of 6): none
+- **B12 Same body and two line stars on it** (0 of 6): none
 
 ## Per runner
 
@@ -145,4 +147,12 @@ _As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun 
   - J Alkaid → J Venus RA 141.4092 141.4 sqrt2 (96.59)
   - J Mirach → J Venus RA 29.1224 18×φ golden (86.97)
   - J Sadalsuud → J Venus Dec 0.0669 conj (60.40)
+
+### B11 Moon and two of its line stars on one natal body
+_As B9 with the Moon: one natal body X on one chart that sky Moon reaches at 50 or more (stage 1 top rows 'S Moon -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Moon line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- none
+
+### B12 Same body and two line stars on it
+_A same body X on one chart (sky X -> natal X, stage 1 'same body' cell scoring 50 or more) that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter, Sun or Moon line (any centre; stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- none
 

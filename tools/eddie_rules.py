@@ -22,6 +22,8 @@ Rules (Eddie, 7 Nov 2026: "create the rules for all of these"; text in rules.jso
          B8 one natal line star on the most natal bodies of its chart, each cell scoring >= 80 (ties all)
          B9 / B10 one natal body (not the centre itself) reached by sky Jupiter / sky Sun (top rows, >= 50) and by two or more of
             that centre's line stars on the same chart (natal star-row cells, each >= 50)
+         B11 as B9 / B10 with the sky Moon and Moon-line stars
+         B12 a same body X (sky X -> natal X, >= 50) reached on the same chart by two or more line stars of any centre (each >= 50)
          B7 most sky bodies onto the jockey's natal Jupiter (top rows 'S X -> J Jupiter', score >= 80, X not Jupiter; ties all)
 A new rule: its entry in rules.json and a function in RULES below (takes the race context, returns {runner: [cells]}).
 """
@@ -224,8 +226,33 @@ def centre_and_stars(centre):
     return f
 
 
+def b12(ctx):
+    d = ctx['d']
+    lstars = set(d['star_centre'])
+    sb, stars = defaultdict(list), defaultdict(lambda: defaultdict(list))
+    for p in d['pieces']:
+        if p.get('score') is None or p['score'] < 50:
+            continue
+        k = (p['runner'], p['chart'], p['body'])
+        if p['layer'] == 'same body':
+            sb[k].append(p)
+        elif p['layer'] == 'star rows' and p['source'].startswith(p['chart'] + ' ') and p.get('star') in lstars:
+            stars[k][p['star']].append(p)
+    out = defaultdict(list)
+    for k in sorted(sb):
+        if len(stars[k]) >= 2:
+            R, ch, X = k
+            names = ', '.join(f"{st} ({'/'.join(d['star_centre'][st])})" for st in sorted(stars[k]))
+            out[R].append(f"{ch} {X}: same body and {len(stars[k])} line stars ({names})")
+            for p in sorted(sb[k], key=lambda p: -p['score']) + \
+                    [q for st in sorted(stars[k]) for q in sorted(stars[k][st], key=lambda p: -p['score'])]:
+                out[R].append(sbtxt(p))
+    return dict(out)
+
+
 RULES = {rid: reg_rule(rid) for rid in ('R25', 'R28', 'R1b', 'R7', 'R26', 'R40', 'R42', 'R1')}
-RULES.update(B1=b1, B2=b2, B3=b3, B4=b4, B5=b5, B6=b6, B7=b7, B8=b8, B9=centre_and_stars('Jupiter'), B10=centre_and_stars('Sun'))
+RULES.update(B1=b1, B2=b2, B3=b3, B4=b4, B5=b5, B6=b6, B7=b7, B8=b8, B9=centre_and_stars('Jupiter'), B10=centre_and_stars('Sun'),
+             B11=centre_and_stars('Moon'), B12=b12)
 
 
 def run(json_path, rules):

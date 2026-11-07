@@ -22,15 +22,17 @@ Workbook race_batch_20220223_doncaster_1600_jupiter_tables.xlsx. Runners 6. Resu
 - **B8 One line star on the most natal bodies** (1 of 6): 1 Boss Man Fred / Harry Skelton
 - **B9 Jupiter and two of its line stars on one natal body** (0 of 6): none
 - **B10 Sun and two of its line stars on one natal body** (0 of 6): none
+- **B11 Moon and two of its line stars on one natal body** (4 of 6): 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+- **B12 Same body and two line stars on it** (0 of 6): none
 
 ## Per runner
 
-- 1 Boss Man Fred / Harry Skelton: R25, R42, B1, B2, B3, B8
+- 1 Boss Man Fred / Harry Skelton: R25, R42, B1, B2, B3, B8, B11
 - 2 Mister Watson / Kielan Woods: none
 - 3 Gredin / Brian Hughes: none
-- 4 Mr Washington / Jordan Nailor: R42
-- 5 Half Track / Sean Quinlan: B7
-- 6 Silva Eclipse / Thomas Willmott: none
+- 4 Mr Washington / Jordan Nailor: R42, B11
+- 5 Half Track / Sean Quinlan: B7, B11
+- 6 Silva Eclipse / Thomas Willmott: B11
 
 ## Cells
 
@@ -118,5 +120,33 @@ _One natal body X on one chart (X not Jupiter) that sky Jupiter reaches at 50 or
 
 ### B10 Sun and two of its line stars on one natal body
 _As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun reaches at 50 or more (stage 1 top rows 'S Sun -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Sun line. Every runner with such a body is picked._
+- none
+
+### B11 Moon and two of its line stars on one natal body
+_As B9 with the Moon: one natal body X on one chart that sky Moon reaches at 50 or more (stage 1 top rows 'S Moon -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Moon line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 1 Boss Man Fred / Harry Skelton
+  - H Transpluto: S Moon and 2 Moon-line stars (Kaus Australis, Zubeneschamali)
+  - S Moon → H Transpluto Dec 33.0003 33 whole (97.45)
+  - H Kaus Australis → H Transpluto Dec 45.9982 46 whole (83.13)
+  - H Zubeneschamali → H Transpluto Dec 20.9984 21 whole (84.60)
+- 4 Mr Washington / Jordan Nailor
+  - H Gonggong: S Moon and 2 Moon-line stars (Kaus Australis, Zubeneschamali)
+  - S Moon → H Gonggong Dec 8.0005 8 whole (95.38)
+  - H Kaus Australis → H Gonggong Dec 20.9982 21 whole (82.79)
+  - H Zubeneschamali → H Gonggong Dec 4.0011 4 whole (89.18)
+- 5 Half Track / Sean Quinlan
+  - J Saturn: S Moon and 2 Moon-line stars (Kaus Australis, Zubeneschamali)
+  - S Moon → J Saturn Dec 8.0013 8 whole (87.45)
+  - J Kaus Australis → J Saturn RA 55.5584 55.5556 ninth (97.35)
+  - J Kaus Australis → J Saturn Dec 20.9996 21 whole (96.24)
+  - J Zubeneschamali → J Saturn Dec 4.0030 4 whole (71.91)
+- 6 Silva Eclipse / Thomas Willmott
+  - H Uranus: S Moon and 2 Moon-line stars (Kaus Australis, Zubeneschamali)
+  - S Moon → H Uranus Dec 24.0046 24 whole (59.10)
+  - H Kaus Australis → H Uranus Dec 37.0024 37 whole (77.70)
+  - H Zubeneschamali → H Uranus Dec 12.0030 12 whole (72.35)
+
+### B12 Same body and two line stars on it
+_A same body X on one chart (sky X -> natal X, stage 1 'same body' cell scoring 50 or more) that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter, Sun or Moon line (any centre; stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
 - none
 

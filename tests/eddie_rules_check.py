@@ -122,9 +122,19 @@ for race, o in sel.items():
             if p['layer'] == 'star rows' and p['source'].startswith(p['chart'] + ' ') and p.get('star') in ls:
                 stv[k].add(p['star'])
         return {k[0] for k in dr if len(stv[k]) >= 2}
-    e9, e10 = cs('Jupiter'), cs('Sun')
+    e9, e10, e11 = cs('Jupiter'), cs('Sun'), cs('Moon')
+    sbk, stw = set(), defaultdict(set)
+    for p in d['pieces']:
+        if p.get('score') is None or p['score'] < 50:
+            continue
+        k = (p['runner'], p['chart'], p['body'])
+        if p['layer'] == 'same body':
+            sbk.add(k)
+        if p['layer'] == 'star rows' and p['source'].startswith(p['chart'] + ' ') and p.get('star') in d['star_centre']:
+            stw[k].add(p['star'])
+    e12 = {k[0] for k in sbk if len(stw[k]) >= 2}
     for rid, e in (('B1', e1), ('B2', e2), ('B3', e3), ('B4', e4), ('B5', e5), ('B6', e6), ('B7', e7), ('B8', e8),
-                   ('B9', e9), ('B10', e10)):
+                   ('B9', e9), ('B10', e10), ('B11', e11), ('B12', e12)):
         check(got[rid] == e, f'{race} {rid}: {sorted(got[rid])} vs {sorted(e)}')
 
 # known cases

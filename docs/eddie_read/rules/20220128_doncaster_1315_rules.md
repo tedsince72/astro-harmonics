@@ -22,13 +22,15 @@ Workbook race_batch_20220128_doncaster_1315_jupiter_tables.xlsx. Runners 7. Resu
 - **B8 One line star on the most natal bodies** (1 of 7): 1 Funambule Sivola / Charlie Deutsch
 - **B9 Jupiter and two of its line stars on one natal body** (0 of 7): none
 - **B10 Sun and two of its line stars on one natal body** (3 of 7): 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
+- **B11 Moon and two of its line stars on one natal body** (2 of 7): 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton
+- **B12 Same body and two line stars on it** (1 of 7): 1 Funambule Sivola / Charlie Deutsch
 
 ## Per runner
 
-- 1 Funambule Sivola / Charlie Deutsch: B1, B2, B3, B7, B8, B10
+- 1 Funambule Sivola / Charlie Deutsch: B1, B2, B3, B7, B8, B10, B11, B12
 - 2 Before Midnight / James Bowen: B5, B10
 - 3 The Big Bite / Brian Hughes: R7, R42
-- 4 King D'argent / Harry Skelton: R28, B1
+- 4 King D'argent / Harry Skelton: R28, B1, B11
 - 5 Fransham / Jack Andrews: R7, B1, B10
 - 6 Moonlighter / Tom Scudamore: none
 - 7 Gold Des Bois / Conor O'Farrell: R25, R7, R42, B1
@@ -150,4 +152,27 @@ _As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun 
   - S Sun → H Vesta RA 106.7916 66×φ golden (91.77)
   - H Rasalhague → H Vesta Dec 9.0053 9 whole (54.06)
   - H Sualocin → H Vesta RA 106.0007 106 whole (93.11)
+
+### B11 Moon and two of its line stars on one natal body
+_As B9 with the Moon: one natal body X on one chart that sky Moon reaches at 50 or more (stage 1 top rows 'S Moon -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Moon line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 1 Funambule Sivola / Charlie Deutsch
+  - H Vesta: S Moon and 3 Moon-line stars (Adhara, Alphecca, Menkent)
+  - S Moon → H Vesta RA 47.9984 48 whole (84.82)
+  - H Adhara → H Vesta RA 160.9956 161 whole (60.45)
+  - H Alphecca → H Vesta RA 69.9958 70 whole (62.47)
+  - H Menkent → H Vesta RA 91.9980 92 whole (80.86)
+- 4 King D'argent / Harry Skelton
+  - J Uranus: S Moon and 2 Moon-line stars (Alphecca, Menkent)
+  - S Moon → J Uranus RA 15.9967 16 whole (69.72)
+  - J Alphecca → J Uranus RA 37.9967 38 whole (69.74)
+  - J Menkent → J Uranus RA 59.9979 60 whole (79.83)
+
+### B12 Same body and two line stars on it
+_A same body X on one chart (sky X -> natal X, stage 1 'same body' cell scoring 50 or more) that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter, Sun or Moon line (any centre; stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 1 Funambule Sivola / Charlie Deutsch
+  - J Quaoar: same body and 3 line stars (Alnilam (Sun), Arcturus (Moon), Menkent (Moon))
+  - S Quaoar → J Quaoar Dec 1.3334 1.33333 ninth (99.25)
+  - J Alnilam → J Quaoar Dec 12.9425 8×φ golden (89.44)
+  - J Arcturus → J Quaoar Dec 33.3302 33.3333 ninth (96.22)
+  - J Menkent → J Quaoar Dec 22.2273 22.2222 ninth (92.92)
 

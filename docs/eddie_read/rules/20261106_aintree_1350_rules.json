@@ -291,6 +291,99 @@
      "H Pollux → H Juno Dec 37.0037 37 whole (66.05)"
     ]
    }
+  },
+  {
+   "id": "B11",
+   "name": "Moon and two of its line stars on one natal body",
+   "selected": [
+    "P01",
+    "P07",
+    "P11",
+    "P13"
+   ],
+   "cells": {
+    "P01": [
+     "H Sun: S Moon and 2 Moon-line stars (Altair, Facies)",
+     "S Moon → H Sun Dec 16.0041 16 whole (63.44)",
+     "H Altair → H Sun RA 79.0001 79 whole (98.80)",
+     "H Facies → H Sun Dec 31.0025 31 whole (76.61)"
+    ],
+    "P07": [
+     "J Saturn: S Moon and 3 Moon-line stars (Alpheratz, Facies, Menkar)",
+     "S Moon → J Saturn Dec 13.9959 14 whole (63.14)",
+     "J Alpheratz → J Saturn Dec 24.0019 24 whole (81.66)",
+     "J Facies → J Saturn Dec 28.9943 29 whole (51.11)",
+     "J Menkar → J Saturn Dec 0.9980 1 whole (81.41)"
+    ],
+    "P11": [
+     "H Makemake: S Moon and 3 Moon-line stars (Acumen, Alpheratz, Hamal)",
+     "S Moon → H Makemake RA 7.9984 8 whole (84.90)",
+     "H Acumen → H Makemake RA 71.1972 44×φ golden (78.46)",
+     "H Alpheratz → H Makemake Dec 5.5557 5.55556 ninth (99.03)",
+     "H Hamal → H Makemake Dec 0.0710 conj (58.24)",
+     "J Ceres: S Moon and 3 Moon-line stars (Alpheratz, Facies, Menkar)",
+     "S Moon → J Ceres Dec 17.9966 18 whole (68.68)",
+     "J Alpheratz → J Ceres Dec 20.0001 20 whole (99.14)",
+     "J Facies → J Ceres Dec 32.9953 33 whole (58.22)",
+     "J Menkar → J Ceres Dec 5.0021 5 whole (80.27)"
+    ],
+    "P13": [
+     "H Saturn: S Moon and 3 Moon-line stars (Alpheratz, Facies, Menkar)",
+     "S Moon → H Saturn Dec 11.0022 11 whole (78.95)",
+     "H Alpheratz → H Saturn Dec 48.9948 49 whole (54.83)",
+     "H Facies → H Saturn Dec 3.9961 4 whole (64.65)",
+     "H Menkar → H Saturn Dec 23.9960 24 whole (64.29)",
+     "J Jupiter: S Moon and 2 Moon-line stars (Alpheratz, Menkar)",
+     "S Moon → J Jupiter Dec 31.9951 32 whole (57.04)",
+     "J Alpheratz → J Jupiter Dec 5.9982 6 whole (82.66)",
+     "J Menkar → J Jupiter Dec 19.0007 19 whole (92.89)",
+     "J Ketu: S Moon and 3 Moon-line stars (Alpheratz, Facies, Menkar)",
+     "S Moon → J Ketu Dec 14.0014 14 whole (86.22)",
+     "J Alpheratz → J Ketu Dec 51.9947 52 whole (54.15)",
+     "J Facies → J Ketu Dec 0.9968 1 whole (70.74)",
+     "J Menkar → J Ketu Dec 26.9958 27 whole (62.48)"
+    ]
+   }
+  },
+  {
+   "id": "B12",
+   "name": "Same body and two line stars on it",
+   "selected": [
+    "P03",
+    "P07",
+    "P11"
+   ],
+   "cells": {
+    "P03": [
+     "H Vesta: same body and 2 line stars (Capella (Jupiter), Galactic Centre (Jupiter))",
+     "S Vesta → H Vesta RA 108.9960 109 whole (64.37)",
+     "H Capella → H Vesta Dec 22.0047 22 whole (58.45)",
+     "H Galactic Centre → H Vesta Dec 52.9996 53 whole (95.84)"
+    ],
+    "P07": [
+     "J Saturn: same body and 3 line stars (Alpheratz (Sun/Moon), Facies (Moon), Menkar (Moon))",
+     "S Saturn → J Saturn RA 9.9951 10 whole (57.08)",
+     "J Alpheratz → J Saturn Dec 24.0019 24 whole (81.66)",
+     "J Facies → J Saturn Dec 28.9943 29 whole (51.11)",
+     "J Menkar → J Saturn Dec 0.9980 1 whole (81.41)",
+     "J Sun: same body and 2 line stars (Altair (Moon), Pollux (Sun))",
+     "S Sun → J Sun Dec 22.6563 14×φ golden (77.55)",
+     "S Sun → J Sun RA 57.0038 57 whole (65.46)",
+     "J Altair → J Sun RA 133.3753 133.333 ninth (94.97)",
+     "J Pollux → J Sun RA 47.9985 48 whole (85.65)"
+    ],
+    "P11": [
+     "H Makemake: same body and 3 line stars (Acumen (Moon), Alpheratz (Sun/Moon), Hamal (Moon))",
+     "S Makemake → H Makemake RA 4.9988 5 whole (87.93)",
+     "H Acumen → H Makemake RA 71.1972 44×φ golden (78.46)",
+     "H Alpheratz → H Makemake Dec 5.5557 5.55556 ninth (99.03)",
+     "H Hamal → H Makemake Dec 0.0710 conj (58.24)",
+     "J Jupiter: same body and 2 line stars (Capella (Jupiter), Galactic Centre (Jupiter))",
+     "S Jupiter → J Jupiter Dec 28.9951 29 whole (57.13)",
+     "J Capella → J Jupiter Dec 61.0027 61 whole (74.59)",
+     "J Galactic Centre → J Jupiter Dec 14.0054 14 whole (53.02)"
+    ]
+   }
   }
  ]
 }

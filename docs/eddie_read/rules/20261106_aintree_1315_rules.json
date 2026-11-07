@@ -195,6 +195,57 @@
    "name": "Sun and two of its line stars on one natal body",
    "selected": [],
    "cells": {}
+  },
+  {
+   "id": "B11",
+   "name": "Moon and two of its line stars on one natal body",
+   "selected": [
+    "P01",
+    "P03"
+   ],
+   "cells": {
+    "P01": [
+     "J Mercury: S Moon and 2 Moon-line stars (Aculeus, Betelgeuse)",
+     "S Moon → J Mercury Dec 16.1853 10×φ^1 phi power (88.21)",
+     "J Aculeus → J Mercury RA 109.9974 110 whole (75.99)",
+     "J Betelgeuse → J Mercury Dec 0.0003 conj (99.77)"
+    ],
+    "P03": [
+     "J Juno: S Moon and 2 Moon-line stars (Betelgeuse, Procyon)",
+     "S Moon → J Juno Dec 14.9975 15 whole (76.90)",
+     "J Betelgeuse → J Juno RA 65.9981 66 whole (82.07)",
+     "J Procyon → J Juno Dec 0.9949 1 whole (55.32)"
+    ]
+   }
+  },
+  {
+   "id": "B12",
+   "name": "Same body and two line stars on it",
+   "selected": [
+    "P01",
+    "P05",
+    "P11"
+   ],
+   "cells": {
+    "P01": [
+     "J Chiron: same body and 2 line stars (Alhena (Sun), Procyon (Moon))",
+     "S Chiron → J Chiron RA 177.0037 177 whole (66.73)",
+     "J Alhena → J Chiron RA 109.0037 109 whole (66.10)",
+     "J Procyon → J Chiron Dec 16.1896 10×φ^1 phi power (78.40)"
+    ],
+    "P05": [
+     "J Neptune: same body and 2 line stars (Alphard (Jupiter/Moon), Zubenelgenubi (Sun))",
+     "S Neptune → J Neptune Dec 17.9975 18 whole (76.59)",
+     "J Alphard → J Neptune Dec 10.0031 10 whole (71.57)",
+     "J Zubenelgenubi → J Neptune Dec 2.6186 φ^2 phi power (95.15)"
+    ],
+    "P11": [
+     "H Ketu: same body and 2 line stars (Alphard (Jupiter/Moon), Zubenelgenubi (Sun))",
+     "S Ketu → H Ketu RA 148.8624 92×φ golden (80.73)",
+     "H Alphard → H Ketu RA 155.5563 155.556 ninth (99.93)",
+     "H Zubenelgenubi → H Ketu Dec 4.9972 5 whole (73.73)"
+    ]
+   }
   }
  ]
 }

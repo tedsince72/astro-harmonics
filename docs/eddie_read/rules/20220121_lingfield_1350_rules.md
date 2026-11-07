@@ -22,14 +22,16 @@ Workbook race_batch_20220121_lingfield_1350_jupiter_tables.xlsx. Runners 7. Resu
 - **B8 One line star on the most natal bodies** (1 of 7): 3 Frero Banbou / Charlie Deutsch
 - **B9 Jupiter and two of its line stars on one natal body** (0 of 7): none
 - **B10 Sun and two of its line stars on one natal body** (4 of 7): 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+- **B11 Moon and two of its line stars on one natal body** (3 of 7): 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
+- **B12 Same body and two line stars on it** (3 of 7): 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
 
 ## Per runner
 
 - 1 Eclair D'Ainay / Harry Skelton: R1b, R40, B1, B10
-- 2 Financier / Richard Patrick: R7, R26, R42, B1, B2, B3, B10
-- 3 Frero Banbou / Charlie Deutsch: B1, B7, B8
+- 2 Financier / Richard Patrick: R7, R26, R42, B1, B2, B3, B10, B11, B12
+- 3 Frero Banbou / Charlie Deutsch: B1, B7, B8, B11, B12
 - 4 One True King / Sam Twiston-Davies: R26, B1
-- 5 Cedar Hill / Jonathan Burke: R1b, R1, B1, B5, B10
+- 5 Cedar Hill / Jonathan Burke: R1b, R1, B1, B5, B10, B11, B12
 - 6 Le Ligerien / Ben Jones: R42, B1, B10
 - 7 Beaufort West / Page Fuller: R26, R40, B1
 
@@ -174,4 +176,49 @@ _As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun 
   - S Sun → J Sedna Dec 25.0054 25 whole (53.34)
   - J Al Rescha → J Sedna RA 16.1893 10×φ^1 phi power (78.97)
   - J Pleiades → J Sedna Dec 18.9955 19 whole (60.18)
+
+### B11 Moon and two of its line stars on one natal body
+_As B9 with the Moon: one natal body X on one chart that sky Moon reaches at 50 or more (stage 1 top rows 'S Moon -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Moon line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 2 Financier / Richard Patrick
+  - H Ceres: S Moon and 2 Moon-line stars (Alkes, Sadalmelik)
+  - S Moon → H Ceres Dec 17.9984 18 whole (84.20)
+  - H Alkes → H Ceres Dec 46.9764 φ^8 phi power (98.04)
+  - H Sadalmelik → H Ceres Dec 28.9975 29 whole (76.90)
+- 3 Frero Banbou / Charlie Deutsch
+  - J Makemake: S Moon and 2 Moon-line stars (Mirach, Scheat)
+  - S Moon → J Makemake RA 8.9999 9 whole (98.85)
+  - J Mirach → J Makemake RA 157.0016 157 whole (84.50)
+  - J Scheat → J Makemake RA 171.5125 106×φ golden (94.38)
+- 5 Cedar Hill / Jonathan Burke
+  - J Rahu: S Moon and 2 Moon-line stars (Regulus, Sadalmelik)
+  - S Moon → J Rahu Dec 20.0020 20 whole (80.85)
+  - J Regulus → J Rahu RA 50.1588 31×φ golden (98.55)
+  - J Sadalmelik → J Rahu Dec 9.0050 9 whole (55.96)
+
+### B12 Same body and two line stars on it
+_A same body X on one chart (sky X -> natal X, stage 1 'same body' cell scoring 50 or more) that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter, Sun or Moon line (any centre; stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 2 Financier / Richard Patrick
+  - H Ketu: same body and 2 line stars (Al Rescha (Sun), Alkes (Moon))
+  - S Ketu → H Ketu Dec 37.0000 37 whole (99.61)
+  - H Al Rescha → H Ketu RA 14.4414 14.4444 ninth (96.78)
+  - H Alkes → H Ketu RA 119.9984 120 whole (84.19)
+  - H Sun: same body and 2 line stars (Galactic Centre (Sun), Sualocin (Moon))
+  - S Sun → H Sun RA 61.0020 61 whole (80.77)
+  - H Galactic Centre → H Sun RA 97.9981 98 whole (82.02)
+  - H Sualocin → H Sun Dec 13.9993 14 whole (93.10)
+- 3 Frero Banbou / Charlie Deutsch
+  - H Orcus: same body and 2 line stars (Rigel (Moon), Sualocin (Moon))
+  - S Orcus → H Orcus Dec 4.0004 4 whole (95.56)
+  - H Rigel → H Orcus Dec 0.0138 conj (91.01)
+  - H Sualocin → H Orcus RA 160.1859 99×φ golden (96.88)
+- 5 Cedar Hill / Jonathan Burke
+  - H Sun: same body and 2 line stars (Alhena (Moon), Fomalhaut (Sun))
+  - S Sun → H Sun Dec 42.3654 10×φ^3 phi power (95.58)
+  - S Sun → H Sun RA 164.0028 164 whole (73.99)
+  - H Alhena → H Sun RA 7.9942 8 whole (50.47)
+  - H Fomalhaut → H Sun RA 122.9990 φ^10 phi power (97.68)
+  - J Saturn: same body and 2 line stars (Castor (Moon), Galactic Centre (Sun))
+  - S Saturn → J Saturn Dec 11.0959 φ^5 phi power (80.48)
+  - J Castor → J Saturn RA 122.9891 φ^10 phi power (99.09)
+  - J Galactic Centre → J Saturn Dec 22.6593 14×φ golden (62.13)
 

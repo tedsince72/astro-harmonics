@@ -242,6 +242,45 @@
      "H Sualocin → H Vesta RA 106.0007 106 whole (93.11)"
     ]
    }
+  },
+  {
+   "id": "B11",
+   "name": "Moon and two of its line stars on one natal body",
+   "selected": [
+    "P01",
+    "P07"
+   ],
+   "cells": {
+    "P01": [
+     "H Vesta: S Moon and 3 Moon-line stars (Adhara, Alphecca, Menkent)",
+     "S Moon → H Vesta RA 47.9984 48 whole (84.82)",
+     "H Adhara → H Vesta RA 160.9956 161 whole (60.45)",
+     "H Alphecca → H Vesta RA 69.9958 70 whole (62.47)",
+     "H Menkent → H Vesta RA 91.9980 92 whole (80.86)"
+    ],
+    "P07": [
+     "J Uranus: S Moon and 2 Moon-line stars (Alphecca, Menkent)",
+     "S Moon → J Uranus RA 15.9967 16 whole (69.72)",
+     "J Alphecca → J Uranus RA 37.9967 38 whole (69.74)",
+     "J Menkent → J Uranus RA 59.9979 60 whole (79.83)"
+    ]
+   }
+  },
+  {
+   "id": "B12",
+   "name": "Same body and two line stars on it",
+   "selected": [
+    "P01"
+   ],
+   "cells": {
+    "P01": [
+     "J Quaoar: same body and 3 line stars (Alnilam (Sun), Arcturus (Moon), Menkent (Moon))",
+     "S Quaoar → J Quaoar Dec 1.3334 1.33333 ninth (99.25)",
+     "J Alnilam → J Quaoar Dec 12.9425 8×φ golden (89.44)",
+     "J Arcturus → J Quaoar Dec 33.3302 33.3333 ninth (96.22)",
+     "J Menkent → J Quaoar Dec 22.2273 22.2222 ninth (92.92)"
+    ]
+   }
   }
  ]
 }

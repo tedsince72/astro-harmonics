@@ -22,6 +22,8 @@ Workbook race_batch_20220129_doncaster_1410_jupiter_tables.xlsx. Runners 5. Resu
 - **B8 One line star on the most natal bodies** (1 of 5): 2 Western Victory / Tom Bellamy
 - **B9 Jupiter and two of its line stars on one natal body** (0 of 5): none
 - **B10 Sun and two of its line stars on one natal body** (1 of 5): 5 Miss Heritage / Sean Quinlan
+- **B11 Moon and two of its line stars on one natal body** (0 of 5): none
+- **B12 Same body and two line stars on it** (0 of 5): none
 
 ## Per runner
 
@@ -125,4 +127,12 @@ _As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun 
   - S Sun → J Uranus Dec 3.9991 4 whole (90.75)
   - J Scheat → J Uranus Dec 50.0031 50 whole (71.45)
   - J Wezen → J Uranus RA 141.4383 141.4 sqrt2 (95.27)
+
+### B11 Moon and two of its line stars on one natal body
+_As B9 with the Moon: one natal body X on one chart that sky Moon reaches at 50 or more (stage 1 top rows 'S Moon -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Moon line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- none
+
+### B12 Same body and two line stars on it
+_A same body X on one chart (sky X -> natal X, stage 1 'same body' cell scoring 50 or more) that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter, Sun or Moon line (any centre; stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- none
 

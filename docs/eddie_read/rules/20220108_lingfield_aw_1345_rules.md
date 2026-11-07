@@ -22,13 +22,15 @@ Workbook race_batch_20220108_lingfield_aw_1345_jupiter_tables.xlsx. Runners 5. R
 - **B8 One line star on the most natal bodies** (2 of 5): 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry
 - **B9 Jupiter and two of its line stars on one natal body** (0 of 5): none
 - **B10 Sun and two of its line stars on one natal body** (1 of 5): 4 Trevolli / Kieran O'Neill
+- **B11 Moon and two of its line stars on one natal body** (1 of 5): 4 Trevolli / Kieran O'Neill
+- **B12 Same body and two line stars on it** (1 of 5): 1 Protected Guest / Jane Elliott
 
 ## Per runner
 
-- 1 Protected Guest / Jane Elliott: R26, B1, B4, B7, B8
+- 1 Protected Guest / Jane Elliott: R26, B1, B4, B7, B8, B12
 - 2 Supakalanistic / Liam Keniry: R28, R1b, R7, R42, B8
 - 3 Creationist / Connor Murtagh: B1, B2, B3
-- 4 Trevolli / Kieran O'Neill: R42, B10
+- 4 Trevolli / Kieran O'Neill: R42, B10, B11
 - 5 Eleven Eleven / Joey Haynes: R28, R7, B1
 
 ## Cells
@@ -146,4 +148,21 @@ _As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun 
   - S Sun → H Uranus RA 96.0033 96 whole (70.03)
   - H Sadalmelik → H Uranus RA 54.0039 54 whole (64.85)
   - H Sadalsuud → H Uranus Dec 15.5578 15.5556 ninth (97.85)
+
+### B11 Moon and two of its line stars on one natal body
+_As B9 with the Moon: one natal body X on one chart that sky Moon reaches at 50 or more (stage 1 top rows 'S Moon -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Moon line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 4 Trevolli / Kieran O'Neill
+  - H Uranus: S Moon and 3 Moon-line stars (Ankaa, Meissa, Praesepe)
+  - S Moon → H Uranus Dec 12.9995 13 whole (95.17)
+  - H Ankaa → H Uranus RA 18.8803 18.8889 ninth (93.81)
+  - H Meissa → H Uranus Dec 0.0520 conj (68.36)
+  - H Praesepe → H Uranus Dec 9.9980 10 whole (81.18)
+
+### B12 Same body and two line stars on it
+_A same body X on one chart (sky X -> natal X, stage 1 'same body' cell scoring 50 or more) that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter, Sun or Moon line (any centre; stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 1 Protected Guest / Jane Elliott
+  - J Pluto: same body and 2 line stars (Ankaa (Moon), Praesepe (Moon))
+  - S Pluto → J Pluto RA 56.9942 57 whole (50.20)
+  - J Ankaa → J Pluto Dec 35.5928 22×φ golden (77.28)
+  - J Praesepe → J Pluto RA 111.1928 111.111 ninth (86.63)
 

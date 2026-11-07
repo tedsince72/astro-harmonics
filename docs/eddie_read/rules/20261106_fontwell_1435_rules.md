@@ -22,16 +22,18 @@ Workbook race_batch_20261106_fontwell_1435_jupiter_tables.xlsx. Runners 7. Resul
 - **B8 One line star on the most natal bodies** (1 of 7): 3 Donnie Azoff / Isabelle Ryder
 - **B9 Jupiter and two of its line stars on one natal body** (1 of 7): 1 Fire Flyer / Richie McLernon
 - **B10 Sun and two of its line stars on one natal body** (2 of 7): 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+- **B11 Moon and two of its line stars on one natal body** (2 of 7): 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+- **B12 Same body and two line stars on it** (1 of 7): 3 Donnie Azoff / Isabelle Ryder
 
 ## Per runner
 
 - 1 Fire Flyer / Richie McLernon: R26, B1, B9
 - 2 Lynx De Thaix / Gavin Sheehan: B10
-- 3 Donnie Azoff / Isabelle Ryder: B1, B8, B10
+- 3 Donnie Azoff / Isabelle Ryder: B1, B8, B10, B11, B12
 - 5 He's A Latchico / Caoilin Quinn: B1
 - 6 So You Know / Tom Bellamy: B1, B2, B3
 - 7 Motazzen / Paul O'Brien: R28, R42, B7
-- 8 The Bellhop / Freddie Mitchell: none
+- 8 The Bellhop / Freddie Mitchell: B11
 
 ## Cells
 
@@ -148,4 +150,36 @@ _As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun 
   - S Sun → H Transpluto RA 69.0028 69 whole (74.19)
   - H Deneb Algedi → H Transpluto Dec 27.5023 17×φ golden (75.13)
   - H Difda → H Transpluto RA 141.4604 141.4 sqrt2 (89.27)
+
+### B11 Moon and two of its line stars on one natal body
+_As B9 with the Moon: one natal body X on one chart that sky Moon reaches at 50 or more (stage 1 top rows 'S Moon -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Moon line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 3 Donnie Azoff / Isabelle Ryder
+  - J Transpluto: S Moon and 3 Moon-line stars (Algol, Vindemiatrix, Zubenelgenubi)
+  - S Moon → J Transpluto Dec 22.0045 22 whole (60.33)
+  - J Algol → J Transpluto Dec 27.9947 28 whole (53.66)
+  - J Vindemiatrix → J Transpluto Dec 2.0046 2 whole (59.51)
+  - J Zubenelgenubi → J Transpluto Dec 29.0046 29 whole (59.45)
+- 8 The Bellhop / Freddie Mitchell
+  - H Juno: S Moon and 3 Moon-line stars (Algol, Vindemiatrix, Zubenelgenubi)
+  - S Moon → H Juno Dec 2.9999 3 whole (98.86)
+  - H Algol → H Juno Dec 53.0009 53 whole (91.32)
+  - H Vindemiatrix → H Juno Dec 22.9997 23 whole (96.62)
+  - H Zubenelgenubi → H Juno Dec 3.9994 4 whole (93.66)
+
+### B12 Same body and two line stars on it
+_A same body X on one chart (sky X -> natal X, stage 1 'same body' cell scoring 50 or more) that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter, Sun or Moon line (any centre; stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 3 Donnie Azoff / Isabelle Ryder
+  - J Ketu: same body and 2 line stars (Difda (Sun), Sadalsuud (Moon))
+  - S Ketu → J Ketu RA 111.1926 111.111 ninth (86.67)
+  - J Difda → J Ketu RA 111.1114 111.111 ninth (99.96)
+  - J Sadalsuud → J Ketu RA 63.1054 39×φ golden (87.79)
+  - J Mars: same body and 3 line stars (Algol (Moon), Difda (Sun), Sadalsuud (Moon))
+  - S Mars → J Mars RA 97.0827 60×φ golden (96.01)
+  - J Algol → J Mars RA 0.1453 conj (81.57)
+  - J Difda → J Mars RA 35.9995 36 whole (94.97)
+  - J Sadalsuud → J Mars RA 84.0055 84 whole (52.55)
+  - J Rahu: same body and 2 line stars (Pleiades (Moon), Scheat (Sun))
+  - S Rahu → J Rahu RA 111.1926 111.111 ninth (86.67)
+  - J Pleiades → J Rahu Dec 0.9982 1 whole (82.85)
+  - J Scheat → J Rahu RA 93.8424 58×φ golden (79.33)
 

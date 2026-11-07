@@ -64,6 +64,14 @@
     {"id": "B10", "set": "B", "name": "Sun and two of its line stars on one natal body",
      "text": "As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun reaches at 50 or more (stage 1 top rows 'S Sun -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Sun line. Every runner with such a body is picked.",
      "origin": "Eddie, 7 Nov 2026 ('lets make both of those'): the Sun version of B9, written at Fontwell 14:35 6 Nov 2026 (it picked Lynx De Thaix and Donnie Azoff there, not the winner). Its result on the other 19 races was looked at once before the rule was fixed (21 picks, 8 won, 3.4 by chance).", "added": "2026-11-07",
+     "in_sample": ["20261106_fontwell_1435"]},
+    {"id": "B11", "set": "B", "name": "Moon and two of its line stars on one natal body",
+     "text": "As B9 with the Moon: one natal body X on one chart that sky Moon reaches at 50 or more (stage 1 top rows 'S Moon -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Moon line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked.",
+     "origin": "Eddie, 7 Nov 2026 ('yes, please do'): the Moon version of B9 / B10, after Fontwell 14:35 6 Nov 2026. Its result on all 20 races was looked at once before the rule was fixed (31 picks, 8 won, 5.1 by chance).", "added": "2026-11-07",
+     "in_sample": ["20261106_fontwell_1435"]},
+    {"id": "B12", "set": "B", "name": "Same body and two line stars on it",
+     "text": "A same body X on one chart (sky X -> natal X, stage 1 'same body' cell scoring 50 or more) that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter, Sun or Moon line (any centre; stage 1 star rows, the natal star's own cell). Every runner with such a body is picked.",
+     "origin": "Eddie, 7 Nov 2026 ('yes, please do'): READ 1 (same body) joined to the star lines, after Fontwell 14:35 6 Nov 2026. Its result on all 20 races was looked at once before the rule was fixed (21 picks, 7 won, 3.6 by chance).", "added": "2026-11-07",
      "in_sample": ["20261106_fontwell_1435"]}
   ]
 }

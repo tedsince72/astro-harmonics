@@ -248,6 +248,80 @@
      "J Menkar → J Saturn RA 136.9995 137 whole (95.25)"
     ]
    }
+  },
+  {
+   "id": "B11",
+   "name": "Moon and two of its line stars on one natal body",
+   "selected": [
+    "P01",
+    "P03",
+    "P05",
+    "P07",
+    "P11"
+   ],
+   "cells": {
+    "P01": [
+     "J Juno: S Moon and 3 Moon-line stars (Ankaa, El Nath, Menkar)",
+     "S Moon → J Juno RA 92.0018 92 whole (82.54)",
+     "J Ankaa → J Juno RA 90.9947 91 whole (54.17)",
+     "J El Nath → J Juno RA 15.9956 16 whole (61.01)",
+     "J Menkar → J Juno RA 51.9970 52 whole (72.36)"
+    ],
+    "P03": [
+     "J Mercury: S Moon and 2 Moon-line stars (Ankaa, Menkar)",
+     "S Moon → J Mercury RA 73.9950 74 whole (56.29)",
+     "J Ankaa → J Mercury RA 103.0009 103 whole (90.83)",
+     "J Menkar → J Mercury RA 142.0040 142 whole (63.74)"
+    ],
+    "P05": [
+     "H Vesta: S Moon and 2 Moon-line stars (Sadalsuud, Sirius)",
+     "S Moon → H Vesta Dec 18.9959 19 whole (63.21)",
+     "H Sadalsuud → H Vesta Dec 14.1485 14.14 sqrt2 (82.85)",
+     "H Sirius → H Vesta Dec 2.9981 3 whole (81.94)",
+     "J Uranus: S Moon and 3 Moon-line stars (Ankaa, El Nath, Menkar)",
+     "S Moon → J Uranus RA 122.0006 122 whole (94.38)",
+     "J Ankaa → J Uranus RA 55.0023 55 whole (78.04)",
+     "J El Nath → J Uranus RA 130.0037 130 whole (66.03)",
+     "J Menkar → J Uranus RA 94.0011 94 whole (89.54)"
+    ],
+    "P07": [
+     "J Sun: S Moon and 3 Moon-line stars (Ankaa, El Nath, Menkar)",
+     "S Moon → J Sun Dec 24.1440 24.14 silver (96.91)",
+     "S Moon → J Sun RA 97.0052 97 whole (55.13)",
+     "J Ankaa → J Sun RA 85.9987 86 whole (87.77)",
+     "J El Nath → J Sun RA 11.0019 11 whole (82.30)",
+     "J Menkar → J Sun RA 47.0025 47 whole (76.86)"
+    ],
+    "P11": [
+     "H Makemake: S Moon and 2 Moon-line stars (Sadalsuud, Sirius)",
+     "S Moon → H Makemake Dec 27.9984 28 whole (84.84)",
+     "H Sadalsuud → H Makemake RA 132.0003 132 whole (96.54)",
+     "H Sirius → H Makemake Dec 43.9967 44 whole (69.41)"
+    ]
+   }
+  },
+  {
+   "id": "B12",
+   "name": "Same body and two line stars on it",
+   "selected": [
+    "P07",
+    "P11"
+   ],
+   "cells": {
+    "P07": [
+     "J Sun: same body and 3 line stars (Ankaa (Sun/Moon), El Nath (Moon), Menkar (Sun/Moon))",
+     "S Sun → J Sun RA 146.9994 147 whole (93.79)",
+     "J Ankaa → J Sun RA 85.9987 86 whole (87.77)",
+     "J El Nath → J Sun RA 11.0019 11 whole (82.30)",
+     "J Menkar → J Sun RA 47.0025 47 whole (76.86)"
+    ],
+    "P11": [
+     "H Orcus: same body and 2 line stars (Denebola (Sun), Sadalsuud (Moon))",
+     "S Orcus → H Orcus RA 9.0056 9 whole (51.88)",
+     "H Denebola → H Orcus Dec 22.0012 22 whole (88.80)",
+     "H Sadalsuud → H Orcus RA 174.7567 108×φ golden (52.03)"
+    ]
+   }
   }
  ]
 }

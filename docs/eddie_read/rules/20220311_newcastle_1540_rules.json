@@ -203,6 +203,43 @@
    "name": "Sun and two of its line stars on one natal body",
    "selected": [],
    "cells": {}
+  },
+  {
+   "id": "B11",
+   "name": "Moon and two of its line stars on one natal body",
+   "selected": [
+    "P03",
+    "P07",
+    "P09"
+   ],
+   "cells": {
+    "P03": [
+     "H Neptune: S Moon and 2 Moon-line stars (Alpheratz, Scheat)",
+     "S Moon → H Neptune RA 111.1319 111.111 ninth (96.61)",
+     "S Moon → H Neptune Dec 34.0009 34 whole (90.88)",
+     "H Alpheratz → H Neptune Dec 37.0050 37 whole (56.27)",
+     "H Scheat → H Neptune Dec 35.9989 36 whole (89.11)"
+    ],
+    "P07": [
+     "H Pallas: S Moon and 2 Moon-line stars (Alpheratz, Menkar)",
+     "S Moon → H Pallas Dec 3.9942 4 whole (50.59)",
+     "H Alpheratz → H Pallas Dec 6.9978 7 whole (79.26)",
+     "H Menkar → H Pallas Dec 18.0009 18 whole (91.60)"
+    ],
+    "P09": [
+     "J Eris: S Moon and 3 Moon-line stars (Alpheratz, Menkar, Scheat)",
+     "S Moon → J Eris Dec 34.9946 35 whole (53.55)",
+     "J Alpheratz → J Eris Dec 38.0052 38 whole (54.58)",
+     "J Menkar → J Eris Dec 13.0036 13 whole (67.27)",
+     "J Scheat → J Eris Dec 36.9976 37 whole (77.25)"
+    ]
+   }
+  },
+  {
+   "id": "B12",
+   "name": "Same body and two line stars on it",
+   "selected": [],
+   "cells": {}
   }
  ]
 }

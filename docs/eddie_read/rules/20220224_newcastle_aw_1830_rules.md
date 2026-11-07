@@ -22,13 +22,15 @@ Workbook race_batch_20220224_newcastle_aw_1830_jupiter_tables.xlsx. Runners 5. R
 - **B8 One line star on the most natal bodies** (2 of 5): 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
 - **B9 Jupiter and two of its line stars on one natal body** (0 of 5): none
 - **B10 Sun and two of its line stars on one natal body** (1 of 5): 3 Gowanlad / Phil Dennis
+- **B11 Moon and two of its line stars on one natal body** (2 of 5): 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis
+- **B12 Same body and two line stars on it** (2 of 5): 1 James Watt / Ben Robinson, 4 Blazing Hot / Hollie Doyle
 
 ## Per runner
 
-- 1 James Watt / Ben Robinson: R7, R26
+- 1 James Watt / Ben Robinson: R7, R26, B11, B12
 - 2 Alablaq / George Downing: R42, B1
-- 3 Gowanlad / Phil Dennis: R26, B1, B2, B3, B10
-- 4 Blazing Hot / Hollie Doyle: R1b, B4, B8
+- 3 Gowanlad / Phil Dennis: R26, B1, B2, B3, B10, B11
+- 4 Blazing Hot / Hollie Doyle: R1b, B4, B8, B12
 - 5 Tathmeen / Cam Hardie: R7, R42, B1, B8
 
 ## Cells
@@ -147,4 +149,31 @@ _As B9 with the Sun: one natal body X on one chart (X not the Sun) that sky Sun 
   - J Mirach → J Ketu Dec 31.0028 31 whole (73.93)
   - J Zubeneschamali → J Ketu RA 141.4764 141.4 sqrt2 (85.04)
   - J Zubeneschamali → J Ketu Dec 13.9982 14 whole (82.81)
+
+### B11 Moon and two of its line stars on one natal body
+_As B9 with the Moon: one natal body X on one chart that sky Moon reaches at 50 or more (stage 1 top rows 'S Moon -> X') and that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Moon line (stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 1 James Watt / Ben Robinson
+  - H Sun: S Moon and 2 Moon-line stars (Vindemiatrix, Zubenelgenubi)
+  - S Moon → H Sun Dec 29.0021 29 whole (79.81)
+  - H Vindemiatrix → H Sun Dec 7.0036 7 whole (67.64)
+  - H Zubenelgenubi → H Sun Dec 19.9969 20 whole (71.05)
+- 3 Gowanlad / Phil Dennis
+  - J Mars: S Moon and 2 Moon-line stars (Bellatrix, Menkent)
+  - S Moon → J Mars Dec 48.5419 30×φ golden (94.63)
+  - J Bellatrix → J Mars RA 0.4135 conj (52.47)
+  - J Menkent → J Mars Dec 59.8651 37×φ golden (87.24)
+
+### B12 Same body and two line stars on it
+_A same body X on one chart (sky X -> natal X, stage 1 'same body' cell scoring 50 or more) that two or more different natal stars of the same chart reach at 50 or more, each star being on a sky Jupiter, Sun or Moon line (any centre; stage 1 star rows, the natal star's own cell). Every runner with such a body is picked._
+- 1 James Watt / Ben Robinson
+  - H Sun: same body and 3 line stars (Vindemiatrix (Moon), Zubenelgenubi (Sun/Moon), Zubeneschamali (Sun))
+  - S Sun → H Sun Dec 13.3342 13.3333 ninth (98.92)
+  - H Vindemiatrix → H Sun Dec 7.0036 7 whole (67.64)
+  - H Zubenelgenubi → H Sun Dec 19.9969 20 whole (71.05)
+  - H Zubeneschamali → H Sun Dec 13.3381 13.3333 ninth (94.31)
+- 4 Blazing Hot / Hollie Doyle
+  - H Neptune: same body and 2 line stars (Meissa (Moon), Vindemiatrix (Moon))
+  - S Neptune → H Neptune Dec 4.0020 4 whole (80.74)
+  - H Meissa → H Neptune RA 101.0000 101 whole (99.69)
+  - H Vindemiatrix → H Neptune RA 147.2406 91×φ golden (97.24)
 
