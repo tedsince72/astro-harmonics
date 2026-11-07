@@ -681,22 +681,16 @@
    "sky_number": null,
    "circle": "360/24",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Al Rescha",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 15.005359,
-   "target": "15",
-   "family": "whole",
-   "score": 53.59,
-   "sky_number": null,
-   "circle": "360/24",
-   "note": "",
+   "star": "Al Rescha",
+   "copies": [
+    {
+     "source": "H Al Rescha",
+     "value": 15.005359,
+     "target": "15",
+     "family": "whole",
+     "score": 53.59
+    }
+   ],
    "field": "only"
   },
   {
@@ -713,6 +707,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -729,6 +725,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -745,6 +743,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -761,6 +761,8 @@
    "sky_number": null,
    "circle": "360/24",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -777,6 +779,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "also: 2 Isolate, 3 Une De La Seniere, 6 Method Madness"
   },
   {
@@ -793,6 +797,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "also: 3 Une De La Seniere"
   },
   {
@@ -809,6 +815,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -825,6 +833,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "also: 3 Une De La Seniere"
   },
   {
@@ -841,6 +851,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -857,22 +869,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Altair",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 161.853648,
-   "target": "100×φ^1",
-   "family": "phi power",
-   "score": 87.96,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Altair",
+   "copies": [
+    {
+     "source": "H Altair",
+     "value": 161.853648,
+     "target": "100×φ^1",
+     "family": "phi power",
+     "score": 87.96
+    }
+   ],
    "field": "only"
   },
   {
@@ -889,6 +895,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -905,6 +913,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "also: 3 Une De La Seniere, 6 Method Madness"
   },
   {
@@ -921,6 +931,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -937,6 +949,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -953,6 +967,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -969,6 +985,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -985,6 +1003,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1001,6 +1021,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1017,6 +1039,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1033,6 +1057,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "also: 3 Une De La Seniere"
   },
   {
@@ -1049,6 +1075,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "also: 3 Une De La Seniere"
   },
   {
@@ -1065,6 +1093,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1081,6 +1111,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1097,6 +1129,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1113,6 +1147,8 @@
    "sky_number": "S Moon → Alphard Dec 16.9991 17 whole (91.06)",
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1129,6 +1165,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "also: 3 Une De La Seniere"
   },
   {
@@ -1145,23 +1183,9 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "also: 3 Une De La Seniere"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "S Vega",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 21.01694,
-   "target": "21",
-   "family": "whole",
-   "score": 2.34,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
   },
   {
    "runner": "P01",
@@ -1177,6 +1201,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [
+    {
+     "source": "S Vega",
+     "value": 21.01694,
+     "target": "21",
+     "family": "whole",
+     "score": 2.34
+    }
+   ],
    "field": "only"
   },
   {
@@ -1193,6 +1227,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1209,6 +1245,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1225,6 +1263,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1241,6 +1281,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1257,6 +1299,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1545,6 +1589,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1561,6 +1607,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1577,6 +1625,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1593,6 +1643,8 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1609,6 +1661,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1625,6 +1679,8 @@
    "sky_number": "S Moon → Pluto Dec 31.0058 31 whole (50.26)",
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1641,6 +1697,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1657,6 +1715,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "also: 6 Method Madness"
   },
   {
@@ -1673,6 +1733,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1689,6 +1751,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1705,6 +1769,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1721,6 +1787,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1737,6 +1805,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1753,6 +1823,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1769,6 +1841,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1785,6 +1859,8 @@
    "sky_number": null,
    "circle": "360/10",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1801,6 +1877,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1817,6 +1895,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1833,6 +1913,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1849,6 +1931,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1865,6 +1949,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1881,6 +1967,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1897,6 +1985,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1913,6 +2003,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1929,6 +2021,8 @@
    "sky_number": null,
    "circle": "360/360",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1945,6 +2039,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1961,6 +2057,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1977,6 +2075,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1993,6 +2093,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2009,6 +2111,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2025,6 +2129,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2041,6 +2147,8 @@
    "sky_number": "S Moon → Alphard Dec 16.9991 17 whole (91.06)",
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2057,6 +2165,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2265,6 +2375,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2281,6 +2393,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2297,6 +2411,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "also: 1 Java Point, 3 Une De La Seniere, 6 Method Madness"
   },
   {
@@ -2313,6 +2429,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2329,6 +2447,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2345,6 +2465,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "also: 4 Wildfire Warrior"
   },
   {
@@ -2361,6 +2483,8 @@
    "sky_number": null,
    "circle": "360/9",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2377,6 +2501,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2393,6 +2519,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2409,6 +2537,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2425,6 +2555,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2441,6 +2573,8 @@
    "sky_number": "S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)",
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2457,6 +2591,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2473,6 +2609,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2489,6 +2627,8 @@
    "sky_number": null,
    "circle": "360/120",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2505,6 +2645,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2521,6 +2663,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2537,6 +2681,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2553,6 +2699,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2569,6 +2717,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2585,6 +2735,8 @@
    "sky_number": null,
    "circle": "360/8",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2601,6 +2753,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "also: 3 Une De La Seniere"
   },
   {
@@ -2617,6 +2771,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2633,6 +2789,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2841,6 +2999,8 @@
    "sky_number": "S Moon → Alphard Dec 16.9991 17 whole (91.06)",
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2857,6 +3017,8 @@
    "sky_number": null,
    "circle": "360/90",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2873,6 +3035,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2889,6 +3053,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2905,6 +3071,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2921,6 +3089,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2937,6 +3107,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2953,6 +3125,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2969,6 +3143,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2985,6 +3161,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3001,6 +3179,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3017,6 +3197,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3033,6 +3215,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3049,6 +3233,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3065,6 +3251,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3081,6 +3269,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3097,6 +3287,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3113,6 +3305,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3129,6 +3323,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3145,6 +3341,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3161,6 +3359,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3177,6 +3377,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3193,6 +3395,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3209,6 +3413,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3385,6 +3591,8 @@
    "sky_number": null,
    "circle": "360/8",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3401,6 +3609,8 @@
    "sky_number": null,
    "circle": "360/360",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3417,6 +3627,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3433,6 +3645,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3449,6 +3663,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "also: 1 Java Point, 2 Isolate, 6 Method Madness"
   },
   {
@@ -3465,6 +3681,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "also: 1 Java Point"
   },
   {
@@ -3481,6 +3699,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3497,6 +3717,8 @@
    "sky_number": null,
    "circle": "360/45",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3513,6 +3735,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3529,6 +3753,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3545,6 +3771,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "also: 1 Java Point"
   },
   {
@@ -3561,6 +3789,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3577,6 +3807,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3593,6 +3825,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3609,6 +3843,8 @@
    "sky_number": null,
    "circle": "360/12",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "also: 4 Wildfire Warrior"
   },
   {
@@ -3625,6 +3861,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "also: 1 Java Point, 6 Method Madness"
   },
   {
@@ -3641,6 +3879,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3657,6 +3897,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3673,6 +3915,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "also: 1 Java Point"
   },
   {
@@ -3689,6 +3933,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "also: 1 Java Point"
   },
   {
@@ -3705,6 +3951,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3721,6 +3969,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3737,6 +3987,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "also: 1 Java Point"
   },
   {
@@ -3753,6 +4005,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "also: 1 Java Point"
   },
   {
@@ -3769,6 +4023,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3785,6 +4041,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3801,6 +4059,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "also: 6 Method Madness"
   },
   {
@@ -3817,6 +4077,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3833,6 +4095,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3849,6 +4113,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "also: 2 Isolate"
   },
   {
@@ -3865,6 +4131,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3881,6 +4149,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4089,6 +4359,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4105,6 +4377,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4121,6 +4395,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4137,6 +4413,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4153,6 +4431,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4169,6 +4449,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4185,6 +4467,8 @@
    "sky_number": "S Moon → Vega RA 110.0023 110 whole (78.36)",
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4201,6 +4485,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4217,6 +4503,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4233,6 +4521,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4249,6 +4539,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4265,6 +4557,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4281,6 +4575,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4297,6 +4593,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4313,6 +4611,8 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4329,6 +4629,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4345,6 +4647,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4361,6 +4665,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4377,6 +4683,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4393,6 +4701,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4409,6 +4719,8 @@
    "sky_number": "S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)",
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4425,6 +4737,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4441,6 +4755,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4457,6 +4773,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4473,6 +4791,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4489,6 +4809,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4505,6 +4827,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4521,6 +4845,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4537,6 +4863,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4553,6 +4881,8 @@
    "sky_number": "S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)",
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4569,6 +4899,8 @@
    "sky_number": "S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)",
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4585,6 +4917,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4601,6 +4935,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4617,6 +4953,8 @@
    "sky_number": "S Sun → Altair RA 6.0052 6 whole (54.90)",
    "circle": "360/60",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4633,6 +4971,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4649,6 +4989,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4665,6 +5007,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4681,6 +5025,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4697,6 +5043,8 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4713,6 +5061,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4729,6 +5079,8 @@
    "sky_number": null,
    "circle": "360/12",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4745,6 +5097,8 @@
    "sky_number": null,
    "circle": "360/15",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4761,6 +5115,8 @@
    "sky_number": null,
    "circle": "360/45",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4777,6 +5133,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4793,6 +5151,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4809,6 +5169,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4825,6 +5187,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5097,6 +5461,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5113,6 +5479,8 @@
    "sky_number": "S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)",
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5129,6 +5497,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5145,6 +5515,8 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5161,6 +5533,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5177,6 +5551,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "also: 7 Fanamix"
   },
   {
@@ -5193,6 +5569,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5209,6 +5587,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "also: 2 Isolate"
   },
   {
@@ -5225,6 +5605,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5241,6 +5623,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5257,6 +5641,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5273,6 +5659,8 @@
    "sky_number": "S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)",
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5289,6 +5677,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5305,6 +5695,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5321,6 +5713,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5337,6 +5731,8 @@
    "sky_number": null,
    "circle": "360/12",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "also: 3 Une De La Seniere"
   },
   {
@@ -5353,6 +5749,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5369,6 +5767,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "also: 5 Jimmy The Digger"
   },
   {
@@ -5385,6 +5785,8 @@
    "sky_number": null,
    "circle": "360/8",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5401,6 +5803,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5417,6 +5821,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "also: 5 Jimmy The Digger"
   },
   {
@@ -5433,6 +5839,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5449,6 +5857,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5465,6 +5875,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5481,6 +5893,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [
+    {
+     "source": "H Rukbat",
+     "value": 153.724178,
+     "target": "95×φ",
+     "family": "golden",
+     "score": 43.78
+    }
+   ],
    "field": "only"
   },
   {
@@ -5497,22 +5919,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Rukbat",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 153.724178,
-   "target": "95×φ",
-   "family": "golden",
-   "score": 43.78,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5529,6 +5937,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5545,22 +5955,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "S Vega",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 141.986185,
-   "target": "142",
-   "family": "whole",
-   "score": 9.56,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5577,6 +5973,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [
+    {
+     "source": "S Vega",
+     "value": 141.986185,
+     "target": "142",
+     "family": "whole",
+     "score": 9.56
+    }
+   ],
    "field": "only"
   },
   {
@@ -5593,6 +5999,8 @@
    "sky_number": null,
    "circle": "360/4",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5609,6 +6017,8 @@
    "sky_number": null,
    "circle": "360/4",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5625,6 +6035,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5641,6 +6053,8 @@
    "sky_number": null,
    "circle": "360/12",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5657,6 +6071,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5673,6 +6089,8 @@
    "sky_number": null,
    "circle": "360/15",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5897,6 +6315,8 @@
    "sky_number": null,
    "circle": "360/180",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5913,6 +6333,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5929,6 +6351,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5945,6 +6369,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5961,6 +6387,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5977,6 +6405,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5993,6 +6423,8 @@
    "sky_number": null,
    "circle": "360/90",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "also: 6 Method Madness"
   },
   {
@@ -6009,6 +6441,8 @@
    "sky_number": null,
    "circle": "360/4",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6025,6 +6459,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6041,6 +6477,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6057,6 +6495,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6073,6 +6513,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6089,6 +6531,8 @@
    "sky_number": null,
    "circle": "360/24",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6105,6 +6549,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6121,6 +6567,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6137,6 +6585,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6153,6 +6603,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6169,6 +6621,8 @@
    "sky_number": null,
    "circle": "360/45",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6185,6 +6639,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6201,6 +6657,8 @@
    "sky_number": null,
    "circle": "360/120",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6217,6 +6675,8 @@
    "sky_number": null,
    "circle": "360/24",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6233,6 +6693,8 @@
    "sky_number": null,
    "circle": "360/3",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6249,6 +6711,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6265,6 +6729,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6281,6 +6747,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6297,6 +6765,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "also: 6 Method Madness"
   },
   {
@@ -6313,6 +6783,8 @@
    "sky_number": null,
    "circle": "360/6",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6329,6 +6801,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6345,6 +6819,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6361,6 +6837,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6377,6 +6855,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6649,6 +7129,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6665,6 +7147,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6681,6 +7165,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6697,6 +7183,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6713,6 +7201,8 @@
    "sky_number": null,
    "circle": "360/360",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6729,6 +7219,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "also: 7 Fanamix"
   },
   {
@@ -6745,6 +7237,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [
+    {
+     "source": "H Alphecca",
+     "value": 165.058669,
+     "target": "102×φ",
+     "family": "golden",
+     "score": 16.53
+    }
+   ],
    "field": "only"
   },
   {
@@ -6761,6 +7263,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6777,22 +7281,8 @@
    "sky_number": "S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)",
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P09",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Alphecca",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 165.058669,
-   "target": "102×φ",
-   "family": "golden",
-   "score": 16.53,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6809,6 +7299,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6825,6 +7317,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6841,6 +7335,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6857,6 +7353,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6873,6 +7371,8 @@
    "sky_number": "S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)",
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6889,6 +7389,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "also: 4 Wildfire Warrior"
   },
   {
@@ -6905,6 +7407,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6921,6 +7425,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [
+    {
+     "source": "H Denebola",
+     "value": 6.990462,
+     "target": "7",
+     "family": "whole",
+     "score": 27.36
+    }
+   ],
    "field": "only"
   },
   {
@@ -6937,23 +7451,9 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "also: 4 Wildfire Warrior"
-  },
-  {
-   "runner": "P09",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Denebola",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 6.990462,
-   "target": "7",
-   "family": "whole",
-   "score": 27.36,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
   },
   {
    "runner": "P09",
@@ -6969,6 +7469,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6985,6 +7487,8 @@
    "sky_number": null,
    "circle": "360/15",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7001,6 +7505,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7017,6 +7523,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7033,6 +7541,8 @@
    "sky_number": null,
    "circle": "360/12",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7049,6 +7559,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7065,6 +7577,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7081,6 +7595,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7097,6 +7613,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "also: 7 Fanamix"
   },
   {
@@ -7113,6 +7631,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7129,6 +7649,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7145,6 +7667,8 @@
    "sky_number": null,
    "circle": "360/90",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7433,6 +7957,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7449,6 +7975,8 @@
    "sky_number": null,
    "circle": "360/180",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7465,6 +7993,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7481,6 +8011,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7497,6 +8029,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7513,6 +8047,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7529,6 +8065,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7545,6 +8083,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7561,6 +8101,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7577,6 +8119,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7593,6 +8137,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7609,6 +8155,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7625,6 +8173,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [
+    {
+     "source": "J Ankaa",
+     "value": 118.003452,
+     "target": "118",
+     "family": "whole",
+     "score": 68.46
+    }
+   ],
    "field": "only"
   },
   {
@@ -7641,22 +8199,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P09",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Ankaa",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 118.003452,
-   "target": "118",
-   "family": "whole",
-   "score": 68.46,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7673,6 +8217,8 @@
    "sky_number": null,
    "circle": "360/5",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7689,6 +8235,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7705,6 +8253,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7721,6 +8271,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7737,6 +8289,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7753,6 +8307,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7769,6 +8325,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7785,6 +8343,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7801,6 +8361,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7817,6 +8379,8 @@
    "sky_number": null,
    "circle": "360/9",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7833,6 +8397,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7849,6 +8415,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7865,6 +8433,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7881,6 +8451,8 @@
    "sky_number": null,
    "circle": "360/360",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7897,6 +8469,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7913,6 +8487,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7929,6 +8505,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8137,6 +8715,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8153,6 +8733,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8169,6 +8751,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "also: 1 Java Point, 2 Isolate, 3 Une De La Seniere"
   },
   {
@@ -8185,6 +8769,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8201,6 +8787,8 @@
    "sky_number": null,
    "circle": "360/72",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8217,6 +8805,8 @@
    "sky_number": "S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)",
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8233,6 +8823,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8249,6 +8841,8 @@
    "sky_number": null,
    "circle": "360/15",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8265,6 +8859,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "also: 1 Java Point"
   },
   {
@@ -8281,6 +8877,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8297,6 +8895,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8313,6 +8913,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "also: 1 Java Point, 3 Une De La Seniere"
   },
   {
@@ -8329,22 +8931,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Ankaa",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 133.362327,
-   "target": "133.333",
-   "family": "ninth",
-   "score": 96.52,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Ankaa",
+   "copies": [
+    {
+     "source": "H Ankaa",
+     "value": 133.362327,
+     "target": "133.333",
+     "family": "ninth",
+     "score": 96.52
+    }
+   ],
    "field": "only"
   },
   {
@@ -8361,6 +8957,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8377,6 +8975,8 @@
    "sky_number": "S Moon → Alphard Dec 16.9991 17 whole (91.06)",
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8393,6 +8993,8 @@
    "sky_number": null,
    "circle": "360/2",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8409,6 +9011,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8425,6 +9029,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8441,6 +9047,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8457,6 +9065,8 @@
    "sky_number": null,
    "circle": "360/12",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8473,6 +9083,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8489,6 +9101,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8505,6 +9119,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8521,6 +9137,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8537,6 +9155,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8553,6 +9173,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8569,6 +9191,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8585,6 +9209,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8601,6 +9227,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "also: 3 Une De La Seniere"
   },
   {
@@ -8617,6 +9245,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8633,6 +9263,8 @@
    "sky_number": null,
    "circle": "360/90",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8649,6 +9281,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8665,6 +9299,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8681,6 +9317,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8697,6 +9335,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8937,6 +9577,8 @@
    "sky_number": null,
    "circle": "360/72",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8953,6 +9595,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8969,6 +9613,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8985,6 +9631,8 @@
    "sky_number": null,
    "circle": "360/90",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "also: 4 Wildfire Warrior"
   },
   {
@@ -9001,6 +9649,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9017,6 +9667,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9033,6 +9685,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9049,6 +9703,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9065,6 +9721,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9081,6 +9739,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9097,6 +9757,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9113,6 +9775,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9129,6 +9793,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9145,6 +9811,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9161,6 +9829,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9177,6 +9847,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "also: 4 Wildfire Warrior"
   },
   {
@@ -9193,6 +9865,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9209,6 +9883,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9225,6 +9901,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9241,6 +9919,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9257,6 +9937,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9273,6 +9955,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9289,54 +9973,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "S Vindemiatrix",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 102.992614,
-   "target": "103",
-   "family": "whole",
-   "score": 39.78,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Sun",
-   "plane": "RA",
-   "value": 113.246685,
-   "target": "70×φ",
-   "family": "golden",
-   "score": 26.52,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Mercury",
-   "plane": "Dec",
-   "value": 31.985801,
-   "target": "32",
-   "family": "whole",
-   "score": 8.41,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9353,6 +9991,52 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [
+    {
+     "source": "S Vindemiatrix",
+     "value": 102.992614,
+     "target": "103",
+     "family": "whole",
+     "score": 39.78
+    }
+   ],
+   "field": "only"
+  },
+  {
+   "runner": "P11",
+   "layer": "star rows",
+   "chart": "J",
+   "source": "J Vindemiatrix",
+   "body": "Sun",
+   "plane": "RA",
+   "value": 113.246685,
+   "target": "70×φ",
+   "family": "golden",
+   "score": 26.52,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
+   "field": "only"
+  },
+  {
+   "runner": "P11",
+   "layer": "star rows",
+   "chart": "J",
+   "source": "J Vindemiatrix",
+   "body": "Mercury",
+   "plane": "Dec",
+   "value": 31.985801,
+   "target": "32",
+   "family": "whole",
+   "score": 8.41,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9369,6 +10053,8 @@
    "sky_number": "S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)",
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9545,6 +10231,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [
+    {
+     "source": "H Al Rescha",
+     "value": 14.0032,
+     "target": "14",
+     "family": "whole",
+     "score": 70.56
+    }
+   ],
    "field": "only"
   },
   {
@@ -9561,22 +10257,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Al Rescha",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 14.0032,
-   "target": "14",
-   "family": "whole",
-   "score": 70.56,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9593,6 +10275,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9609,6 +10293,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9625,6 +10311,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9641,6 +10329,8 @@
    "sky_number": "S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)",
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9657,6 +10347,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "also: 4 Wildfire Warrior"
   },
   {
@@ -9673,6 +10365,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "also: 5 Jimmy The Digger"
   },
   {
@@ -9689,6 +10383,8 @@
    "sky_number": "S Jupiter → Vindemiatrix RA 138.9961 139 whole (64.46)",
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9705,6 +10401,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9721,6 +10419,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9737,6 +10437,8 @@
    "sky_number": "S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)",
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9753,6 +10455,8 @@
    "sky_number": "S Moon → Ankaa RA 22.6600 14×φ golden (59.07)",
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9769,6 +10473,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9785,6 +10491,8 @@
    "sky_number": "S Moon → Alphard Dec 16.9991 17 whole (91.06)",
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9801,6 +10509,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9817,6 +10527,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9833,6 +10545,8 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9849,6 +10563,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9865,6 +10581,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9881,6 +10599,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ankaa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9897,6 +10617,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9913,6 +10635,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9929,6 +10653,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9945,6 +10671,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9961,6 +10689,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9977,6 +10707,8 @@
    "sky_number": "S Moon → Alphecca RA 155.5623 155.556 ninth (99.36)",
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9993,22 +10725,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "S Vega",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 22.018869,
-   "target": "22",
-   "family": "whole",
-   "score": 0.32,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10025,6 +10743,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [
+    {
+     "source": "S Vega",
+     "value": 22.018869,
+     "target": "22",
+     "family": "whole",
+     "score": 0.32
+    }
+   ],
    "field": "only"
   },
   {
@@ -10041,6 +10769,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "also: 5 Jimmy The Digger"
   },
   {
@@ -10057,6 +10787,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10073,6 +10805,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10089,6 +10823,8 @@
    "sky_number": null,
    "circle": "360/180",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10233,6 +10969,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10249,6 +10987,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10265,6 +11005,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10281,22 +11023,8 @@
    "sky_number": null,
    "circle": "360/24",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "S Altair",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 0.132087,
-   "target": "conj",
-   "family": "conj",
-   "score": 31.33,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10313,6 +11041,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [
+    {
+     "source": "S Altair",
+     "value": 0.132087,
+     "target": "conj",
+     "family": "conj",
+     "score": 31.33
+    }
+   ],
    "field": "only"
   },
   {
@@ -10329,6 +11067,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10345,6 +11085,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10361,6 +11103,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10377,6 +11121,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10393,6 +11139,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10409,6 +11157,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Altair",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10425,6 +11175,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10441,6 +11193,8 @@
    "sky_number": "S Moon → Alphard Dec 16.9991 17 whole (91.06)",
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10457,6 +11211,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Denebola",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10473,6 +11229,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Ras Algethi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10489,6 +11247,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10505,6 +11265,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10521,6 +11283,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rukbat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10537,6 +11301,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10553,6 +11319,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10569,22 +11337,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 169.989486,
-   "target": "170",
-   "family": "whole",
-   "score": 22.5,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Vindemiatrix",
+   "copies": [
+    {
+     "source": "J Vindemiatrix",
+     "value": 169.989486,
+     "target": "170",
+     "family": "whole",
+     "score": 22.5
+    }
+   ],
    "field": "only"
   },
   {
@@ -10601,6 +11363,8 @@
    "sky_number": null,
    "circle": "360/15",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10617,6 +11381,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10633,6 +11399,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   }
  ],
@@ -13684,38 +14452,6 @@
   ]
  },
  "flags": {
-  "locked line star on natal Jupiter": [
-   {
-    "runner": "P01",
-    "chart": "H",
-    "text": "H Al Rescha → H Jupiter Dec 15.0054 15 whole (53.59) | S Al Rescha → H Jupiter Dec 15.0041 15 whole (63.40)",
-    "score": 53.58643374387047
-   },
-   {
-    "runner": "P01",
-    "chart": "H",
-    "text": "H Altair → H Jupiter RA 161.8536 100×φ^1 phi power (87.96) | S Altair → H Jupiter RA 161.8476 100×φ^1 phi power (89.36)",
-    "score": 87.96358052189254
-   },
-   {
-    "runner": "P09",
-    "chart": "J",
-    "text": "J Ankaa → J Jupiter RA 118.0035 118 whole (68.46) | S Ankaa → J Jupiter RA 117.9972 118 whole (74.19)",
-    "score": 68.45747683768259
-   },
-   {
-    "runner": "P11",
-    "chart": "H",
-    "text": "H Ankaa → H Jupiter RA 133.3623 133.333 ninth (96.52) | S Ankaa → H Jupiter RA 133.3607 133.333 ninth (96.72)",
-    "score": 96.52076549256341
-   },
-   {
-    "runner": "P13",
-    "chart": "H",
-    "text": "H Al Rescha → H Jupiter Dec 14.0032 14 whole (70.56) | S Al Rescha → H Jupiter Dec 14.0021 14 whole (79.69)",
-    "score": 70.55789685246349
-   }
-  ],
   "hub point onto natal Jupiter": [
    {
     "runner": "P07",
@@ -13849,18 +14585,17 @@
    },
    {
     "runner": "P11",
+    "text": "S Vindemiatrix → H Jupiter Dec 5.5559 5.55556 ninth (97.05) | J Vindemiatrix → J Jupiter RA 102.9966 103 whole (68.93)",
+    "score": null
+   },
+   {
+    "runner": "P11",
     "text": "H Vindemiatrix → H Pallas Dec 14.4401 14.4444 ninth (95.38) | J Vindemiatrix → J Pallas RA 179.4160 10×φ^6 phi power (94.13)",
     "score": null
    }
   ]
  },
  "flag_holders": {
-  "locked line star on natal Jupiter": [
-   "P01",
-   "P09",
-   "P11",
-   "P13"
-  ],
   "hub point onto natal Jupiter": [
    "P07",
    "P09",
@@ -13895,8 +14630,8 @@
   "P01": [
    {
     "body": "Jupiter",
-    "cells": 9,
-    "H": 8,
+    "cells": 7,
+    "H": 6,
     "J": 1,
     "layers": [
      "same body",
@@ -13909,10 +14644,8 @@
      "top rows: S Eris → H Jupiter RA 110.0342 68×φ golden (57.33) — only",
      "top rows: S Venus → J Jupiter Dec 5.9981 6 whole (81.81) [360/60] [sky number: S Sun → Altair RA 6.0052 6 whole (54.90)] — only",
      "star rows: H Denebola → H Jupiter RA 41.4208 41.4 silver (99.50) — only",
-     "star rows: S Altair → H Jupiter RA 161.8476 100×φ^1 phi power (89.36) — only",
-     "star rows: H Altair → H Jupiter RA 161.8536 100×φ^1 phi power (87.96) — only",
-     "star rows: S Al Rescha → H Jupiter Dec 15.0041 15 whole (63.40) [360/24] — only",
-     "star rows: H Al Rescha → H Jupiter Dec 15.0054 15 whole (53.59) [360/24] — only"
+     "star rows: S Altair → H Jupiter RA 161.8476 100×φ^1 phi power (89.36) [same star: H Altair 161.8536 100×φ^1 phi power (87.96)] — only",
+     "star rows: S Al Rescha → H Jupiter Dec 15.0041 15 whole (63.40) [same star: H Al Rescha 15.0054 15 whole (53.59)] [360/24] — only"
     ]
    },
    {
@@ -14020,6 +14753,22 @@
   ],
   "P05": [
    {
+    "body": "Neptune",
+    "cells": 4,
+    "H": 2,
+    "J": 2,
+    "layers": [
+     "star rows",
+     "top rows"
+    ],
+    "detail": [
+     "top rows: S Sun → J Neptune Dec 0.0593 conj (64.37) — also: 6 Method Madness",
+     "star rows: H Alphecca → H Neptune Dec 35.5978 22×φ golden (93.54) — only",
+     "star rows: H Alphard → H Neptune RA 160.9969 161 whole (71.78) — only",
+     "star rows: J Alphard → J Neptune Dec 13.3400 13.3333 ninth (92.03) — only"
+    ]
+   },
+   {
     "body": "Juno",
     "cells": 4,
     "H": 1,
@@ -14035,42 +14784,9 @@
      "T2: J Jupiter → J Juno Dec 1.0053 1 whole (53.78) [360/360] — only",
      "top rows: S Sun → J Juno Dec 21.0013 21 whole (87.71) — only"
     ]
-   },
-   {
-    "body": "Neptune",
-    "cells": 4,
-    "H": 2,
-    "J": 2,
-    "layers": [
-     "star rows",
-     "top rows"
-    ],
-    "detail": [
-     "top rows: S Sun → J Neptune Dec 0.0593 conj (64.37) — also: 6 Method Madness",
-     "star rows: H Alphecca → H Neptune Dec 35.5978 22×φ golden (93.54) — only",
-     "star rows: H Alphard → H Neptune RA 160.9969 161 whole (71.78) — only",
-     "star rows: J Alphard → J Neptune Dec 13.3400 13.3333 ninth (92.03) — only"
-    ]
    }
   ],
   "P07": [
-   {
-    "body": "Eris",
-    "cells": 5,
-    "H": 1,
-    "J": 4,
-    "layers": [
-     "same body",
-     "star rows"
-    ],
-    "detail": [
-     "same body: S Eris → H Eris Dec 1.6133 1×φ golden (loose) — only",
-     "same body: S Eris → J Eris RA 4.2344 φ^3 phi power (loose) — only",
-     "same body: S Eris → J Eris Dec 9.0253 9 whole (loose) [360/40] — only",
-     "star rows: J Ras Algethi → J Eris RA 122.9211 φ^10 phi power (78.30) — only",
-     "star rows: J Ankaa → J Eris RA 15.0038 15 whole (65.64) [360/24] — only"
-    ]
-   },
    {
     "body": "Orcus",
     "cells": 5,
@@ -14087,6 +14803,23 @@
      "star rows: H Altair → H Orcus RA 147.2449 91×φ golden (77.84) — only",
      "star rows: J Vindemiatrix → J Orcus RA 67.9544 42×φ golden (82.15) — only",
      "star rows: J Ras Algethi → J Orcus RA 131.0689 81×φ golden (56.06) — only"
+    ]
+   },
+   {
+    "body": "Eris",
+    "cells": 5,
+    "H": 1,
+    "J": 4,
+    "layers": [
+     "same body",
+     "star rows"
+    ],
+    "detail": [
+     "same body: S Eris → H Eris Dec 1.6133 1×φ golden (loose) — only",
+     "same body: S Eris → J Eris RA 4.2344 φ^3 phi power (loose) — only",
+     "same body: S Eris → J Eris Dec 9.0253 9 whole (loose) [360/40] — only",
+     "star rows: J Ras Algethi → J Eris RA 122.9211 φ^10 phi power (78.30) — only",
+     "star rows: J Ankaa → J Eris RA 15.0038 15 whole (65.64) [360/24] — only"
     ]
    },
    {
@@ -14127,23 +14860,6 @@
     ]
    },
    {
-    "body": "Pluto",
-    "cells": 5,
-    "H": 2,
-    "J": 3,
-    "layers": [
-     "same body",
-     "star rows"
-    ],
-    "detail": [
-     "same body: S Pluto → H Pluto Dec 2.9749 3 whole (loose) [360/120] — only",
-     "same body: S Pluto → J Pluto Dec 15.5842 15.5556 ninth (loose) — only",
-     "star rows: H Rukbat → H Pluto RA 8.9982 9 whole (82.90) [360/40] — only",
-     "star rows: J Alphecca → J Pluto RA 5.5552 5.55556 ninth (96.96) — only",
-     "star rows: J Vindemiatrix → J Pluto RA 43.6838 27×φ golden (81.61) — only"
-    ]
-   },
-   {
     "body": "Quaoar",
     "cells": 5,
     "H": 3,
@@ -14162,36 +14878,20 @@
     ]
    },
    {
-    "body": "Mercury",
-    "cells": 4,
-    "H": 1,
+    "body": "Pluto",
+    "cells": 5,
+    "H": 2,
     "J": 3,
     "layers": [
      "same body",
      "star rows"
     ],
     "detail": [
-     "same body: S Mercury → H Mercury RA 27.0039 27 whole (65.06) — only",
-     "star rows: J Vega → J Mercury RA 83.9965 84 whole (67.78) — only",
-     "star rows: J Vindemiatrix → J Mercury RA 0.3011 conj (63.89) — only",
-     "star rows: J Denebola → J Mercury Dec 25.0053 25 whole (54.06) — only"
-    ]
-   },
-   {
-    "body": "Venus",
-    "cells": 4,
-    "H": 2,
-    "J": 2,
-    "layers": [
-     "same body",
-     "star rows",
-     "top rows"
-    ],
-    "detail": [
-     "same body: S Venus → H Venus Dec 15.9785 16 whole (loose) — only",
-     "top rows: S Jupiter → J Venus RA 139.9971 140 whole (73.04) — only",
-     "star rows: H Altair → H Venus RA 63.1063 39×φ golden (82.67) — only",
-     "star rows: J Vindemiatrix → J Venus RA 0.9976 1 whole (77.61) [360/360] — only"
+     "same body: S Pluto → H Pluto Dec 2.9749 3 whole (loose) [360/120] — only",
+     "same body: S Pluto → J Pluto Dec 15.5842 15.5556 ninth (loose) — only",
+     "star rows: H Rukbat → H Pluto RA 8.9982 9 whole (82.90) [360/40] — only",
+     "star rows: J Alphecca → J Pluto RA 5.5552 5.55556 ninth (96.96) — only",
+     "star rows: J Vindemiatrix → J Pluto RA 43.6838 27×φ golden (81.61) — only"
     ]
    },
    {
@@ -14226,13 +14926,46 @@
      "star rows: H Al Rescha → H Ceres RA 55.0164 34×φ golden (80.71) — only",
      "star rows: J Ankaa → J Ceres Dec 44.4485 44.4444 ninth (95.72) — only"
     ]
+   },
+   {
+    "body": "Venus",
+    "cells": 4,
+    "H": 2,
+    "J": 2,
+    "layers": [
+     "same body",
+     "star rows",
+     "top rows"
+    ],
+    "detail": [
+     "same body: S Venus → H Venus Dec 15.9785 16 whole (loose) — only",
+     "top rows: S Jupiter → J Venus RA 139.9971 140 whole (73.04) — only",
+     "star rows: H Altair → H Venus RA 63.1063 39×φ golden (82.67) — only",
+     "star rows: J Vindemiatrix → J Venus RA 0.9976 1 whole (77.61) [360/360] — only"
+    ]
+   },
+   {
+    "body": "Mercury",
+    "cells": 4,
+    "H": 1,
+    "J": 3,
+    "layers": [
+     "same body",
+     "star rows"
+    ],
+    "detail": [
+     "same body: S Mercury → H Mercury RA 27.0039 27 whole (65.06) — only",
+     "star rows: J Vega → J Mercury RA 83.9965 84 whole (67.78) — only",
+     "star rows: J Vindemiatrix → J Mercury RA 0.3011 conj (63.89) — only",
+     "star rows: J Denebola → J Mercury Dec 25.0053 25 whole (54.06) — only"
+    ]
    }
   ],
   "P11": [
    {
     "body": "Jupiter",
-    "cells": 8,
-    "H": 4,
+    "cells": 7,
+    "H": 3,
     "J": 4,
     "layers": [
      "same body",
@@ -14245,9 +14978,8 @@
      "top rows: S Pallas → H Jupiter RA 147.2416 91×φ golden (97.10) — only",
      "top rows: S Sun → J Jupiter Dec 45.3057 28×φ golden (95.62) — only",
      "star rows: S Vindemiatrix → H Jupiter Dec 5.5559 5.55556 ninth (97.05) — only",
-     "star rows: S Ankaa → H Jupiter RA 133.3607 133.333 ninth (96.72) — only",
-     "star rows: H Ankaa → H Jupiter RA 133.3623 133.333 ninth (96.52) — only",
-     "star rows: J Vindemiatrix → J Jupiter RA 102.9966 103 whole (68.93) — only"
+     "star rows: S Ankaa → H Jupiter RA 133.3607 133.333 ninth (96.72) [same star: H Ankaa 133.3623 133.333 ninth (96.52)] — only",
+     "star rows: J Vindemiatrix → J Jupiter RA 102.9966 103 whole (68.93) [same star: S Vindemiatrix 102.9926 103 whole (39.78)] — only"
     ]
    },
    {
@@ -14271,19 +15003,19 @@
   ],
   "P13": [
    {
-    "body": "Pluto",
+    "body": "Gonggong",
     "cells": 4,
     "H": 2,
     "J": 2,
     "layers": [
-     "same body",
-     "star rows"
+     "star rows",
+     "top rows"
     ],
     "detail": [
-     "same body: S Pluto → H Pluto RA 12.9466 8×φ golden (85.98) — only",
-     "star rows: H Al Rescha → H Pluto RA 105.1692 65×φ golden (81.99) — only",
-     "star rows: J Altair → J Pluto Dec 20.0009 20 whole (91.58) [360/18] — only",
-     "star rows: J Altair → J Pluto RA 47.9984 48 whole (84.84) — only"
+     "top rows: S Moon → J Gonggong RA 58.0056 58 whole (52.14) — only",
+     "star rows: H Alphard → H Gonggong RA 166.6862 166.667 ninth (98.33) — also: 5 Jimmy The Digger",
+     "star rows: H Ras Algethi → H Gonggong Dec 27.5054 17×φ golden (92.66) — only",
+     "star rows: J Vega → J Gonggong RA 51.9964 52 whole (67.12) — only"
     ]
    },
    {
@@ -14300,39 +15032,6 @@
      "star rows: H Ras Algethi → H Sedna RA 155.5927 155.556 ninth (96.48) [sky number: S Moon → Alphecca RA 155.5623 155.556 ninth (99.36)] — only",
      "star rows: H Alphecca → H Sedna RA 179.4203 10×φ^6 phi power (95.05) [sky number: S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)] — only",
      "star rows: J Al Rescha → J Sedna RA 16.1893 10×φ^1 phi power (78.97) — only"
-    ]
-   },
-   {
-    "body": "Jupiter",
-    "cells": 4,
-    "H": 2,
-    "J": 2,
-    "layers": [
-     "same body",
-     "star rows",
-     "top rows"
-    ],
-    "detail": [
-     "same body: S Jupiter → J Jupiter RA 51.0117 51 whole (17.34) — only",
-     "top rows: S Eris → J Jupiter RA 0.2612 conj (68.21) — only",
-     "star rows: S Al Rescha → H Jupiter Dec 14.0021 14 whole (79.69) — only",
-     "star rows: H Al Rescha → H Jupiter Dec 14.0032 14 whole (70.56) — only"
-    ]
-   },
-   {
-    "body": "Gonggong",
-    "cells": 4,
-    "H": 2,
-    "J": 2,
-    "layers": [
-     "star rows",
-     "top rows"
-    ],
-    "detail": [
-     "top rows: S Moon → J Gonggong RA 58.0056 58 whole (52.14) — only",
-     "star rows: H Alphard → H Gonggong RA 166.6862 166.667 ninth (98.33) — also: 5 Jimmy The Digger",
-     "star rows: H Ras Algethi → H Gonggong Dec 27.5054 17×φ golden (92.66) — only",
-     "star rows: J Vega → J Gonggong RA 51.9964 52 whole (67.12) — only"
     ]
    }
   ]

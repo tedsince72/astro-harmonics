@@ -573,22 +573,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Acubens",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 0.030741,
-   "target": "conj",
-   "family": "conj",
-   "score": 80.56,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Acubens",
+   "copies": [
+    {
+     "source": "H Acubens",
+     "value": 0.030741,
+     "target": "conj",
+     "family": "conj",
+     "score": 80.56
+    }
+   ],
    "field": "only"
   },
   {
@@ -605,6 +599,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -621,6 +617,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -637,6 +635,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -653,6 +653,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -669,6 +671,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "also: 3 Peak Time"
   },
   {
@@ -685,6 +689,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -701,6 +707,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -717,6 +725,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -733,6 +743,8 @@
    "sky_number": "S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)",
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -749,6 +761,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -765,6 +779,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -781,6 +797,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -797,6 +815,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -813,6 +833,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -829,6 +851,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -845,6 +869,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -861,6 +887,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -877,6 +905,8 @@
    "sky_number": null,
    "circle": "360/15",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -893,6 +923,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -909,6 +941,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -925,6 +959,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -941,6 +977,8 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -957,6 +995,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -973,6 +1013,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -989,6 +1031,8 @@
    "sky_number": null,
    "circle": "360/15",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1005,6 +1049,8 @@
    "sky_number": "S Moon → Alpheratz Dec 3.0052 3 whole (55.10)",
    "circle": "360/120",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1021,6 +1067,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1037,6 +1085,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1053,6 +1103,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1069,6 +1121,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1085,6 +1139,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1101,22 +1157,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Scheat",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 46.016247,
-   "target": "46",
-   "family": "whole",
-   "score": 3.52,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Scheat",
+   "copies": [
+    {
+     "source": "H Scheat",
+     "value": 46.016247,
+     "target": "46",
+     "family": "whole",
+     "score": 3.52
+    }
+   ],
    "field": "only"
   },
   {
@@ -1133,6 +1183,8 @@
    "sky_number": "S Jupiter → Mirach Dec 41.9959 42 whole (63.40)",
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1149,6 +1201,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1389,6 +1443,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1405,6 +1461,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1421,6 +1479,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1437,6 +1497,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1453,22 +1515,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Algol",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 32.368812,
-   "target": "20×φ",
-   "family": "golden",
-   "score": 56.05,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Algol",
+   "copies": [
+    {
+     "source": "J Algol",
+     "value": 32.368812,
+     "target": "20×φ",
+     "family": "golden",
+     "score": 56.05
+    }
+   ],
    "field": "only"
   },
   {
@@ -1485,6 +1541,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1501,6 +1559,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "also: 6 Thundersockssundae"
   },
   {
@@ -1517,6 +1577,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1533,6 +1595,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1549,6 +1613,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1565,6 +1631,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1581,6 +1649,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1597,6 +1667,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1613,6 +1685,8 @@
    "sky_number": "S Moon → Menkar Dec 21.9956 22 whole (60.56)",
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1629,6 +1703,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1645,6 +1721,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "also: 3 Peak Time, 5 Sir Apollo, 6 Thundersockssundae, 7 Black Opium"
   },
   {
@@ -1661,6 +1739,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1677,6 +1757,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1693,6 +1775,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1709,6 +1793,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1725,6 +1811,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1741,6 +1829,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "also: 3 Peak Time"
   },
   {
@@ -1757,6 +1847,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1773,6 +1865,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1789,6 +1883,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "also: 6 Thundersockssundae"
   },
   {
@@ -1805,6 +1901,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1821,6 +1919,8 @@
    "sky_number": "S Jupiter → Mirach Dec 41.9959 42 whole (63.40)",
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1837,6 +1937,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 6 Thundersockssundae"
   },
   {
@@ -1853,6 +1955,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1869,6 +1973,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1885,6 +1991,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1901,22 +2009,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "S Zubeneschamali",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 66.011117,
-   "target": "66",
-   "family": "whole",
-   "score": 19.73,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1933,6 +2027,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [
+    {
+     "source": "S Zubeneschamali",
+     "value": 66.011117,
+     "target": "66",
+     "family": "whole",
+     "score": 19.73
+    }
+   ],
    "field": "only"
   },
   {
@@ -1949,6 +2053,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1965,6 +2071,8 @@
    "sky_number": null,
    "circle": "360/10",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1981,6 +2089,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "also: 3 Peak Time, 5 Sir Apollo"
   },
   {
@@ -1997,6 +2107,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2285,6 +2397,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2301,6 +2415,8 @@
    "sky_number": "S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49)",
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2317,6 +2433,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2333,6 +2451,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2349,6 +2469,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2365,6 +2487,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2381,6 +2505,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2397,6 +2523,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2413,6 +2541,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2429,6 +2559,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2445,22 +2577,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P03",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "S Alpheratz",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 165.068552,
-   "target": "102×φ",
-   "family": "golden",
-   "score": 1.02,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2477,6 +2595,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [
+    {
+     "source": "S Alpheratz",
+     "value": 165.068552,
+     "target": "102×φ",
+     "family": "golden",
+     "score": 1.02
+    }
+   ],
    "field": "only"
   },
   {
@@ -2493,6 +2621,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2509,6 +2639,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2525,6 +2657,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2541,6 +2675,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2557,6 +2693,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2573,6 +2711,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2589,6 +2729,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2605,6 +2747,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2621,6 +2765,8 @@
    "sky_number": null,
    "circle": "360/90",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2637,6 +2783,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2653,6 +2801,8 @@
    "sky_number": null,
    "circle": "360/8",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2669,6 +2819,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2685,6 +2837,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2701,6 +2855,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2717,6 +2873,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "also: 6 Thundersockssundae, 7 Black Opium"
   },
   {
@@ -2733,6 +2891,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2749,6 +2909,8 @@
    "sky_number": "S Jupiter → Acubens RA 147.0032 147 whole (70.45)",
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2765,6 +2927,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2781,6 +2945,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2797,6 +2963,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2813,6 +2981,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2829,6 +2999,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2845,6 +3017,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2861,6 +3035,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2877,6 +3053,8 @@
    "sky_number": "S Moon → Alpheratz Dec 3.0052 3 whole (55.10)",
    "circle": "360/120",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2893,6 +3071,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2909,6 +3089,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2925,6 +3107,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2941,6 +3125,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2957,6 +3143,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2973,6 +3161,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2989,6 +3179,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3005,6 +3197,8 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3021,6 +3215,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3037,6 +3233,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3053,6 +3251,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 7 Black Opium"
   },
   {
@@ -3069,6 +3269,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3085,6 +3287,8 @@
    "sky_number": null,
    "circle": "360/10",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3101,6 +3305,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3117,6 +3323,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3133,6 +3341,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3149,6 +3359,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3165,6 +3377,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3181,6 +3395,8 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3197,6 +3413,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3213,6 +3431,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3357,6 +3577,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3373,6 +3595,8 @@
    "sky_number": "S Jupiter → Mirach Dec 41.9959 42 whole (63.40)",
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3389,6 +3613,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3405,6 +3631,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3421,6 +3649,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3437,6 +3667,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3453,6 +3685,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3469,6 +3703,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3485,6 +3721,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3501,6 +3739,8 @@
    "sky_number": "S Moon → Scheat Dec 1.9986 2 whole (86.84)",
    "circle": "360/180",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3517,6 +3757,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3533,6 +3775,8 @@
    "sky_number": "S Moon → Menkar Dec 21.9956 22 whole (60.56)",
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3549,6 +3793,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3565,6 +3811,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3581,6 +3829,8 @@
    "sky_number": "S Moon → Menkent RA 117.0014 117 whole (86.48)",
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3597,6 +3847,8 @@
    "sky_number": null,
    "circle": "360/2",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3613,6 +3865,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3629,6 +3883,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3645,6 +3901,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3661,6 +3919,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3677,6 +3937,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3693,6 +3955,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3709,6 +3973,8 @@
    "sky_number": null,
    "circle": "360/90",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3725,6 +3991,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3741,6 +4009,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3757,6 +4027,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "also: 7 Black Opium"
   },
   {
@@ -3933,6 +4205,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3949,6 +4223,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "also: 1 Vocaliser"
   },
   {
@@ -3965,6 +4241,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3981,6 +4259,8 @@
    "sky_number": "S Jupiter → Menkent Dec 29.9964 30 whole (67.39)",
    "circle": "360/12",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3997,6 +4277,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4013,6 +4295,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4029,6 +4313,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4045,6 +4331,8 @@
    "sky_number": null,
    "circle": "360/24",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4061,6 +4349,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4077,6 +4367,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4093,6 +4385,8 @@
    "sky_number": null,
    "circle": "360/90",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4109,6 +4403,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4125,6 +4421,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4141,6 +4439,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4157,6 +4457,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4173,6 +4475,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4189,6 +4493,8 @@
    "sky_number": null,
    "circle": "360/45",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "also: 6 Thundersockssundae"
   },
   {
@@ -4205,6 +4511,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4221,6 +4529,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4237,6 +4547,8 @@
    "sky_number": null,
    "circle": "360/24",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4253,6 +4565,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4269,6 +4583,8 @@
    "sky_number": "S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)",
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4285,6 +4601,8 @@
    "sky_number": "S Moon → Alpheratz Dec 3.0052 3 whole (55.10)",
    "circle": "360/120",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4301,6 +4619,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4317,6 +4637,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4333,6 +4655,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4349,6 +4673,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4557,6 +4883,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "also: 6 Thundersockssundae"
   },
   {
@@ -4573,6 +4901,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4589,6 +4919,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4605,6 +4937,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4621,6 +4955,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4637,22 +4973,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "S Alpheratz",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 5.991812,
-   "target": "6",
-   "family": "whole",
-   "score": 34.88,
-   "sky_number": null,
-   "circle": "360/60",
-   "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4669,6 +4991,16 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [
+    {
+     "source": "S Alpheratz",
+     "value": 5.991812,
+     "target": "6",
+     "family": "whole",
+     "score": 34.88
+    }
+   ],
    "field": "only"
   },
   {
@@ -4685,6 +5017,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4701,38 +5035,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "S Menkar",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 19.008906,
-   "target": "19",
-   "family": "whole",
-   "score": 30.77,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Menkar",
-   "body": "Venus",
-   "plane": "RA",
-   "value": 111.145962,
-   "target": "111.111",
-   "family": "ninth",
-   "score": 94.3,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4749,6 +5053,34 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [
+    {
+     "source": "S Menkar",
+     "value": 19.008906,
+     "target": "19",
+     "family": "whole",
+     "score": 30.77
+    }
+   ],
+   "field": "only"
+  },
+  {
+   "runner": "P05",
+   "layer": "star rows",
+   "chart": "J",
+   "source": "J Menkar",
+   "body": "Venus",
+   "plane": "RA",
+   "value": 111.145962,
+   "target": "111.111",
+   "family": "ninth",
+   "score": 94.3,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4765,6 +5097,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "also: 1 Vocaliser, 5 Sir Apollo, 6 Thundersockssundae, 7 Black Opium"
   },
   {
@@ -4781,6 +5115,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4797,6 +5133,8 @@
    "sky_number": null,
    "circle": "360/9",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4813,6 +5151,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4829,6 +5169,8 @@
    "sky_number": null,
    "circle": "360/5",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4845,6 +5187,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4861,6 +5205,8 @@
    "sky_number": null,
    "circle": "360/8",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4877,6 +5223,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "also: 1 Vocaliser"
   },
   {
@@ -4893,6 +5241,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4909,6 +5259,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4925,6 +5277,8 @@
    "sky_number": null,
    "circle": "360/72",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4941,6 +5295,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4957,6 +5313,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4973,6 +5331,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4989,6 +5349,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5005,22 +5367,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "S Scheat",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 4.985295,
-   "target": "5",
-   "family": "whole",
-   "score": 7.01,
-   "sky_number": null,
-   "circle": "360/72",
-   "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5037,6 +5385,16 @@
    "sky_number": null,
    "circle": "360/72",
    "note": "",
+   "star": "Scheat",
+   "copies": [
+    {
+     "source": "S Scheat",
+     "value": 4.985295,
+     "target": "5",
+     "family": "whole",
+     "score": 7.01
+    }
+   ],
    "field": "only"
   },
   {
@@ -5053,6 +5411,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5069,6 +5429,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5085,6 +5447,8 @@
    "sky_number": "S Jupiter → Acubens RA 147.0032 147 whole (70.45)",
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5101,6 +5465,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5117,6 +5483,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "also: 1 Vocaliser, 5 Sir Apollo"
   },
   {
@@ -5133,6 +5501,8 @@
    "sky_number": null,
    "circle": "360/8",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5357,6 +5727,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5373,6 +5745,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5389,6 +5763,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5405,6 +5781,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5421,6 +5799,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5437,6 +5817,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5453,6 +5835,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [
+    {
+     "source": "H Alpheratz",
+     "value": 134.27722,
+     "target": "83×φ",
+     "family": "golden",
+     "score": 15.55
+    }
+   ],
    "field": "only"
   },
   {
@@ -5469,22 +5861,8 @@
    "sky_number": null,
    "circle": "360/72",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Alpheratz",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 134.27722,
-   "target": "83×φ",
-   "family": "golden",
-   "score": 15.55,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5501,6 +5879,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5517,6 +5897,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5533,6 +5915,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5549,6 +5933,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5565,6 +5951,8 @@
    "sky_number": null,
    "circle": "360/15",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5581,6 +5969,8 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5597,6 +5987,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5613,6 +6005,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5629,6 +6023,8 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5645,38 +6041,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "S Menkent",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 53.980162,
-   "target": "54",
-   "family": "whole",
-   "score": 0.01,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Menkent",
-   "body": "Mars",
-   "plane": "Dec",
-   "value": 56.007951,
-   "target": "56",
-   "family": "whole",
-   "score": 36.3,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5693,6 +6059,34 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [
+    {
+     "source": "S Menkent",
+     "value": 53.980162,
+     "target": "54",
+     "family": "whole",
+     "score": 0.01
+    }
+   ],
+   "field": "only"
+  },
+  {
+   "runner": "P07",
+   "layer": "star rows",
+   "chart": "H",
+   "source": "H Menkent",
+   "body": "Mars",
+   "plane": "Dec",
+   "value": 56.007951,
+   "target": "56",
+   "family": "whole",
+   "score": 36.3,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5709,6 +6103,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5725,38 +6121,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "S Mirach",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 18.012181,
-   "target": "18",
-   "family": "whole",
-   "score": 15.28,
-   "sky_number": null,
-   "circle": "360/20",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Mirach",
-   "body": "Mars",
-   "plane": "Dec",
-   "value": 15.983582,
-   "target": "16",
-   "family": "whole",
-   "score": 3.21,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5773,6 +6139,34 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Mirach",
+   "copies": [
+    {
+     "source": "S Mirach",
+     "value": 18.012181,
+     "target": "18",
+     "family": "whole",
+     "score": 15.28
+    }
+   ],
+   "field": "only"
+  },
+  {
+   "runner": "P07",
+   "layer": "star rows",
+   "chart": "H",
+   "source": "H Mirach",
+   "body": "Mars",
+   "plane": "Dec",
+   "value": 15.983582,
+   "target": "16",
+   "family": "whole",
+   "score": 3.21,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5789,6 +6183,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5805,6 +6201,8 @@
    "sky_number": null,
    "circle": "360/10",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5821,6 +6219,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5837,6 +6237,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5853,6 +6255,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5869,6 +6273,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5885,6 +6291,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5901,6 +6309,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5917,6 +6327,8 @@
    "sky_number": null,
    "circle": "360/90",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5933,6 +6345,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5949,6 +6363,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5965,38 +6381,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "S Zubeneschamali",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 26.991831,
-   "target": "27",
-   "family": "whole",
-   "score": 34.99,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Zubeneschamali",
-   "body": "Mars",
-   "plane": "Dec",
-   "value": 29.018145,
-   "target": "29",
-   "family": "whole",
-   "score": 0.86,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6013,6 +6399,34 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [
+    {
+     "source": "S Zubeneschamali",
+     "value": 26.991831,
+     "target": "27",
+     "family": "whole",
+     "score": 34.99
+    }
+   ],
+   "field": "only"
+  },
+  {
+   "runner": "P07",
+   "layer": "star rows",
+   "chart": "H",
+   "source": "H Zubeneschamali",
+   "body": "Mars",
+   "plane": "Dec",
+   "value": 29.018145,
+   "target": "29",
+   "family": "whole",
+   "score": 0.86,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6029,6 +6443,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6189,6 +6605,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6205,6 +6623,8 @@
    "sky_number": "S Moon → Alpheratz Dec 3.0052 3 whole (55.10)",
    "circle": "360/120",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6221,6 +6641,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6237,6 +6659,8 @@
    "sky_number": null,
    "circle": "360/72",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6253,6 +6677,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6269,6 +6695,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6285,6 +6713,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6301,6 +6731,8 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6317,6 +6749,8 @@
    "sky_number": null,
    "circle": "360/90",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6333,6 +6767,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6349,6 +6785,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6365,6 +6803,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6381,6 +6821,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6397,6 +6839,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6413,6 +6857,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6429,6 +6875,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [
+    {
+     "source": "J Menkar",
+     "value": 81.018093,
+     "target": "81",
+     "family": "whole",
+     "score": 0.91
+    }
+   ],
    "field": "only"
   },
   {
@@ -6445,6 +6901,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6461,22 +6919,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Menkar",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 81.018093,
-   "target": "81",
-   "family": "whole",
-   "score": 0.91,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6493,6 +6937,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "also: 1 Vocaliser, 3 Peak Time, 6 Thundersockssundae, 7 Black Opium"
   },
   {
@@ -6509,6 +6955,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6525,6 +6973,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6541,6 +6991,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6557,6 +7009,8 @@
    "sky_number": "S Moon → Murzim RA 1.0066 1 whole (45.23)",
    "circle": "360/360",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6573,6 +7027,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6589,6 +7045,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6605,6 +7063,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6621,6 +7081,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6637,6 +7099,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6653,6 +7117,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 7 Black Opium"
   },
   {
@@ -6669,6 +7135,8 @@
    "sky_number": "S Moon → Alpheratz Dec 3.0052 3 whole (55.10)",
    "circle": "360/120",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6685,6 +7153,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6701,6 +7171,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "also: 6 Thundersockssundae"
   },
   {
@@ -6717,6 +7189,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6733,6 +7207,8 @@
    "sky_number": "S Moon → Menkent RA 117.0014 117 whole (86.48)",
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6749,6 +7225,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "also: 1 Vocaliser, 3 Peak Time"
   },
   {
@@ -7005,6 +7483,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [
+    {
+     "source": "H Acubens",
+     "value": 0.50196,
+     "target": "conj",
+     "family": "conj",
+     "score": 44.27
+    }
+   ],
    "field": "only"
   },
   {
@@ -7021,6 +7509,8 @@
    "sky_number": null,
    "circle": "360/90",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7037,22 +7527,8 @@
    "sky_number": "S Moon → Scheat Dec 1.9986 2 whole (86.84)",
    "circle": "360/180",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P09",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Acubens",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 0.50196,
-   "target": "conj",
-   "family": "conj",
-   "score": 44.27,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7069,6 +7545,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7085,6 +7563,8 @@
    "sky_number": null,
    "circle": "360/45",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7101,6 +7581,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7117,6 +7599,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7133,6 +7617,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7149,6 +7635,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7165,6 +7653,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7181,6 +7671,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7197,6 +7689,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7213,6 +7707,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7229,6 +7725,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7245,6 +7743,8 @@
    "sky_number": "S Moon → Scheat Dec 1.9986 2 whole (86.84)",
    "circle": "360/180",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7261,6 +7761,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7277,6 +7779,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7293,6 +7797,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7309,6 +7815,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7325,6 +7833,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7341,6 +7851,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7357,6 +7869,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7373,6 +7887,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7389,6 +7905,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "also: 2 Edmond Dantes, 7 Black Opium"
   },
   {
@@ -7405,6 +7923,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7421,6 +7941,8 @@
    "sky_number": "S Moon → Scheat Dec 1.9986 2 whole (86.84)",
    "circle": "360/180",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7437,6 +7959,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7453,6 +7977,8 @@
    "sky_number": null,
    "circle": "360/45",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "also: 3 Peak Time"
   },
   {
@@ -7469,6 +7995,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7485,6 +8013,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7501,6 +8031,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7517,6 +8049,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7533,6 +8067,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7549,6 +8085,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7565,6 +8103,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7581,6 +8121,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7597,6 +8139,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7613,6 +8157,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7629,6 +8175,8 @@
    "sky_number": "S Moon → Uranus Dec 11.1153 11.1111 ninth (93.22)",
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7901,6 +8449,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7917,6 +8467,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7933,6 +8485,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7949,6 +8503,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "also: 3 Peak Time"
   },
   {
@@ -7965,6 +8521,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7981,6 +8539,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7997,6 +8557,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8013,6 +8575,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8029,6 +8593,8 @@
    "sky_number": null,
    "circle": "360/10",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8045,6 +8611,8 @@
    "sky_number": "S Jupiter → Mirach Dec 41.9959 42 whole (63.40)",
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8061,6 +8629,8 @@
    "sky_number": null,
    "circle": "360/72",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8077,6 +8647,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "also: 1 Vocaliser"
   },
   {
@@ -8093,6 +8665,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8109,6 +8683,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8125,6 +8701,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8141,6 +8719,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8157,6 +8737,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8173,6 +8755,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8189,6 +8773,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8205,6 +8791,8 @@
    "sky_number": null,
    "circle": "360/72",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8221,6 +8809,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8237,6 +8827,8 @@
    "sky_number": null,
    "circle": "360/3",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8253,6 +8845,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8269,6 +8863,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "also: 1 Vocaliser, 3 Peak Time, 5 Sir Apollo, 7 Black Opium"
   },
   {
@@ -8285,6 +8881,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8301,6 +8899,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8317,6 +8917,8 @@
    "sky_number": "S Jupiter → Menkent Dec 29.9964 30 whole (67.39)",
    "circle": "360/12",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8333,6 +8935,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8349,6 +8953,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8365,6 +8971,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8381,6 +8989,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8397,6 +9007,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8413,6 +9025,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "also: 1 Vocaliser"
   },
   {
@@ -8429,6 +9043,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8445,6 +9061,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8461,6 +9079,8 @@
    "sky_number": null,
    "circle": "360/24",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8477,6 +9097,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8493,6 +9115,8 @@
    "sky_number": "S Jupiter → Menkent Dec 29.9964 30 whole (67.39)",
    "circle": "360/12",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8509,6 +9133,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 1 Vocaliser"
   },
   {
@@ -8525,6 +9151,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8541,22 +9169,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P09",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Scheat",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 165.053366,
-   "target": "102×φ",
-   "family": "golden",
-   "score": 32.54,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Scheat",
+   "copies": [
+    {
+     "source": "J Scheat",
+     "value": 165.053366,
+     "target": "102×φ",
+     "family": "golden",
+     "score": 32.54
+    }
+   ],
    "field": "only"
   },
   {
@@ -8573,6 +9195,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8589,6 +9213,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8605,6 +9231,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "also: 5 Sir Apollo"
   },
   {
@@ -8621,6 +9249,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8637,6 +9267,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8653,6 +9285,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8669,6 +9303,8 @@
    "sky_number": "S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50)",
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8685,6 +9321,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8947,22 +9585,6 @@
    "runner": "P11",
    "layer": "star rows",
    "chart": "H",
-   "source": "S Acubens",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 11.093878,
-   "target": "φ^5",
-   "family": "phi power",
-   "score": 87.07,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "H",
    "source": "H Acubens",
    "body": "Jupiter",
    "plane": "Dec",
@@ -8973,6 +9595,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [
+    {
+     "source": "S Acubens",
+     "value": 11.093878,
+     "target": "φ^5",
+     "family": "phi power",
+     "score": 87.07
+    }
+   ],
    "field": "only"
   },
   {
@@ -8989,6 +9621,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9005,6 +9639,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9021,6 +9657,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9037,6 +9675,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9053,6 +9693,16 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Algol",
+   "copies": [
+    {
+     "source": "H Algol",
+     "value": 18.008431,
+     "target": "18",
+     "family": "whole",
+     "score": 33.46
+    }
+   ],
    "field": "only"
   },
   {
@@ -9069,22 +9719,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Algol",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 18.008431,
-   "target": "18",
-   "family": "whole",
-   "score": 33.46,
-   "sky_number": null,
-   "circle": "360/20",
-   "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9101,6 +9737,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9117,6 +9755,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9133,6 +9773,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9149,6 +9791,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9165,6 +9809,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9181,6 +9827,8 @@
    "sky_number": null,
    "circle": "360/8",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9197,6 +9845,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9213,6 +9863,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9229,6 +9881,8 @@
    "sky_number": "S Moon → Alpheratz Dec 3.0052 3 whole (55.10)",
    "circle": "360/120",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9245,6 +9899,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9261,6 +9917,8 @@
    "sky_number": null,
    "circle": "360/15",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9277,6 +9935,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9293,6 +9953,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9309,6 +9971,8 @@
    "sky_number": "S Moon → Menkar Dec 21.9956 22 whole (60.56)",
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9325,6 +9989,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9341,6 +10007,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9357,6 +10025,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9373,6 +10043,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "also: 2 Edmond Dantes, 6 Thundersockssundae"
   },
   {
@@ -9389,6 +10061,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9405,6 +10079,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9421,6 +10097,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9437,6 +10115,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9453,6 +10133,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9469,6 +10151,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9485,6 +10169,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9501,6 +10187,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9517,6 +10205,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 2 Edmond Dantes"
   },
   {
@@ -9533,6 +10223,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9549,6 +10241,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9565,6 +10259,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9581,6 +10277,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9597,6 +10295,8 @@
    "sky_number": "S Moon → Scheat Dec 1.9986 2 whole (86.84)",
    "circle": "360/180",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9613,6 +10313,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9629,6 +10331,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9645,6 +10349,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9661,6 +10367,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9901,6 +10609,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9917,6 +10627,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9933,6 +10645,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Acubens",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9949,6 +10663,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9965,6 +10681,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9981,38 +10699,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "S Alphecca",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 30.992254,
-   "target": "31",
-   "family": "whole",
-   "score": 37.54,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Alphecca",
-   "body": "Mars",
-   "plane": "Dec",
-   "value": 0.091892,
-   "target": "conj",
-   "family": "conj",
-   "score": 48.12,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Algol",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10029,6 +10717,34 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [
+    {
+     "source": "S Alphecca",
+     "value": 30.992254,
+     "target": "31",
+     "family": "whole",
+     "score": 37.54
+    }
+   ],
+   "field": "only"
+  },
+  {
+   "runner": "P11",
+   "layer": "star rows",
+   "chart": "J",
+   "source": "J Alphecca",
+   "body": "Mars",
+   "plane": "Dec",
+   "value": 0.091892,
+   "target": "conj",
+   "family": "conj",
+   "score": 48.12,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10045,6 +10761,8 @@
    "sky_number": "S Jupiter → Mirach Dec 41.9959 42 whole (63.40)",
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10061,6 +10779,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10077,6 +10797,8 @@
    "sky_number": "S Moon → Alpheratz Dec 3.0052 3 whole (55.10)",
    "circle": "360/120",
    "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10093,22 +10815,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "S Alpheratz",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 168.296591,
-   "target": "104×φ",
-   "family": "golden",
-   "score": 12.2,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Alphecca",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10125,6 +10833,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [
+    {
+     "source": "S Alpheratz",
+     "value": 168.296591,
+     "target": "104×φ",
+     "family": "golden",
+     "score": 12.2
+    }
+   ],
    "field": "only"
   },
   {
@@ -10141,6 +10859,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alpheratz",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10157,6 +10877,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10173,6 +10895,8 @@
    "sky_number": null,
    "circle": "360/90",
    "note": "",
+   "star": "Markab",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10189,6 +10913,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10205,6 +10931,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10221,6 +10949,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkar",
+   "copies": [],
    "field": "also: 1 Vocaliser, 3 Peak Time, 5 Sir Apollo, 6 Thundersockssundae"
   },
   {
@@ -10237,6 +10967,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10253,6 +10985,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10269,22 +11003,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "S Mirach",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 176.366759,
-   "target": "109×φ",
-   "family": "golden",
-   "score": 93.59,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Menkent",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10301,6 +11021,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [
+    {
+     "source": "S Mirach",
+     "value": 176.366759,
+     "target": "109×φ",
+     "family": "golden",
+     "score": 93.59
+    }
+   ],
    "field": "only"
   },
   {
@@ -10317,6 +11047,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10333,6 +11065,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10349,6 +11083,8 @@
    "sky_number": "S Moon → Menkar Dec 21.9956 22 whole (60.56)",
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10365,6 +11101,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 5 Sir Apollo"
   },
   {
@@ -10381,22 +11119,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Scheat",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 32.364106,
-   "target": "20×φ",
-   "family": "golden",
-   "score": 79.95,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Scheat",
+   "copies": [
+    {
+     "source": "J Scheat",
+     "value": 32.364106,
+     "target": "20×φ",
+     "family": "golden",
+     "score": 79.95
+    }
+   ],
    "field": "only"
   },
   {
@@ -10413,6 +11145,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10429,6 +11163,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10445,6 +11181,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10461,6 +11199,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10477,6 +11217,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10493,6 +11235,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10509,6 +11253,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Zubeneschamali",
+   "copies": [],
    "field": "also: 2 Edmond Dantes"
   }
  ],
@@ -13188,38 +13934,6 @@
   ]
  },
  "flags": {
-  "locked line star on natal Jupiter": [
-   {
-    "runner": "P01",
-    "chart": "H",
-    "text": "H Acubens → H Jupiter Dec 0.0307 conj (80.56) | S Acubens → H Jupiter Dec 0.0307 conj (80.56)",
-    "score": 80.55599371783269
-   },
-   {
-    "runner": "P01",
-    "chart": "J",
-    "text": "J Algol → J Jupiter Dec 32.3688 20×φ golden (56.05) | S Algol → J Jupiter Dec 32.3680 20×φ golden (59.83)",
-    "score": 56.05284506617333
-   },
-   {
-    "runner": "P11",
-    "chart": "H",
-    "text": "H Acubens → H Jupiter Dec 11.0937 φ^5 phi power (87.72) | S Acubens → H Jupiter Dec 11.0939 φ^5 phi power (87.07)",
-    "score": 87.07433775579477
-   },
-   {
-    "runner": "P11",
-    "chart": "J",
-    "text": "J Mirach → J Jupiter RA 176.3667 109×φ golden (93.91) | S Mirach → J Jupiter RA 176.3668 109×φ golden (93.59)",
-    "score": 93.58931892413061
-   },
-   {
-    "runner": "P11",
-    "chart": "J",
-    "text": "J Scheat → J Jupiter Dec 32.3641 20×φ golden (79.95) | S Scheat → J Jupiter Dec 32.3638 20×φ golden (81.71)",
-    "score": 79.94542581311234
-   }
-  ],
   "natal body on a strong line star": [
    {
     "runner": "P05",
@@ -13350,10 +14064,6 @@
   ]
  },
  "flag_holders": {
-  "locked line star on natal Jupiter": [
-   "P01",
-   "P11"
-  ],
   "natal body on a strong line star": [
    "P05",
    "P09"
@@ -13401,8 +14111,8 @@
    },
    {
     "body": "Gonggong",
-    "cells": 6,
-    "H": 3,
+    "cells": 5,
+    "H": 2,
     "J": 3,
     "layers": [
      "same body",
@@ -13412,16 +14122,15 @@
      "same body: S Gonggong → J Gonggong RA 7.0169 7 whole (2.40) — only",
      "star rows: H Alpheratz → H Gonggong Dec 43.0003 43 whole (96.53) — only",
      "star rows: H Menkar → H Gonggong Dec 17.9983 18 whole (83.87) [360/20] — only",
-     "star rows: H Menkar → H Gonggong RA 71.0026 71 whole (75.55) — only",
      "star rows: J Scheat → J Gonggong RA 16.0019 16 whole (81.94) — only",
      "star rows: J Alpheratz → J Gonggong Dec 48.5442 30×φ golden (81.33) — only"
     ]
    },
    {
     "body": "Saturn",
-    "cells": 5,
+    "cells": 4,
     "H": 2,
-    "J": 3,
+    "J": 2,
     "layers": [
      "same body",
      "star rows"
@@ -13430,42 +14139,7 @@
      "same body: S Saturn → H Saturn Dec 6.9711 7 whole (loose) — only",
      "star rows: H Markab → H Saturn Dec 24.0024 24 whole (77.66) [360/15] — only",
      "star rows: J Murzim → J Saturn Dec 0.0282 conj (82.06) — also: 6 Thundersockssundae",
-     "star rows: J Murzim → J Saturn RA 141.4882 141.4 sqrt2 (82.00) — only",
      "star rows: J Markab → J Saturn RA 31.9944 32 whole (52.17) — only"
-    ]
-   },
-   {
-    "body": "Rahu",
-    "cells": 5,
-    "H": 3,
-    "J": 2,
-    "layers": [
-     "same body",
-     "star rows"
-    ],
-    "detail": [
-     "same body: S Rahu → H Rahu Dec 41.0165 41 whole (3.07) — only",
-     "same body: S Rahu → J Rahu Dec 42.0384 26×φ golden (loose) — only",
-     "star rows: H Acubens → H Rahu Dec 33.9734 21×φ golden (69.95) — only",
-     "star rows: H Acubens → H Rahu RA 115.0043 115 whole (61.46) — only",
-     "star rows: J Acubens → J Rahu Dec 34.9955 35 whole (60.08) — only"
-    ]
-   },
-   {
-    "body": "Jupiter",
-    "cells": 5,
-    "H": 3,
-    "J": 2,
-    "layers": [
-     "star rows",
-     "top rows"
-    ],
-    "detail": [
-     "top rows: S Gonggong → H Jupiter RA 55.0026 55 whole (75.47) — only",
-     "star rows: S Acubens → H Jupiter Dec 0.0307 conj (80.56) — only",
-     "star rows: H Acubens → H Jupiter Dec 0.0307 conj (80.56) — only",
-     "star rows: S Algol → J Jupiter Dec 32.3680 20×φ golden (59.83) — only",
-     "star rows: J Algol → J Jupiter Dec 32.3688 20×φ golden (56.05) — only"
     ]
    },
    {
@@ -13482,6 +14156,22 @@
      "same body: S Sedna → J Sedna Dec 4.0091 4 whole (29.75) [360/90] — also: 3 Peak Time",
      "star rows: H Alphecca → H Sedna Dec 20.0052 20 whole (54.64) [360/18] — only",
      "star rows: J Menkar → J Sedna Dec 0.0485 conj (70.29) — also: 3 Peak Time, 5 Sir Apollo, 6 Thundersockssundae, 7 Black Opium"
+    ]
+   },
+   {
+    "body": "Rahu",
+    "cells": 4,
+    "H": 2,
+    "J": 2,
+    "layers": [
+     "same body",
+     "star rows"
+    ],
+    "detail": [
+     "same body: S Rahu → H Rahu Dec 41.0165 41 whole (3.07) — only",
+     "same body: S Rahu → J Rahu Dec 42.0384 26×φ golden (loose) — only",
+     "star rows: H Acubens → H Rahu Dec 33.9734 21×φ golden (69.95) — only",
+     "star rows: J Acubens → J Rahu Dec 34.9955 35 whole (60.08) — only"
     ]
    }
   ],
@@ -13521,7 +14211,7 @@
      "top rows: S Sedna → J Jupiter RA 31.0019 31 whole (81.83) — only",
      "top rows: S Ketu → J Jupiter Dec 41.9953 42 whole (58.17) [sky number: S Jupiter → Mirach Dec 41.9959 42 whole (63.40)] — only",
      "top rows: S Pallas → J Jupiter Dec 29.9945 30 whole (52.38) [360/12] [sky number: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)] — only",
-     "star rows: J Menkar → J Jupiter Dec 19.0054 19 whole (53.39) — only"
+     "star rows: J Menkar → J Jupiter Dec 19.0054 19 whole (53.39) [same star: S Menkar 19.0089 19 whole (30.77)] — only"
     ]
    },
    {
@@ -13543,23 +14233,6 @@
   ],
   "P07": [
    {
-    "body": "Jupiter",
-    "cells": 5,
-    "H": 3,
-    "J": 2,
-    "layers": [
-     "same body",
-     "top rows"
-    ],
-    "detail": [
-     "same body: S Jupiter → H Jupiter Dec 23.9837 24 whole (3.50) [360/15] — only",
-     "top rows: S Sedna → H Jupiter RA 78.0011 78 whole (89.18) — only",
-     "top rows: S Quaoar → H Jupiter RA 140.7596 87×φ golden (50.41) — only",
-     "top rows: S Transpluto → J Jupiter RA 27.9955 28 whole (60.19) — only",
-     "top rows: S Neptune → J Jupiter Dec 23.9954 24 whole (59.49) [360/15] — only"
-    ]
-   },
-   {
     "body": "Pallas",
     "cells": 5,
     "H": 4,
@@ -13575,6 +14248,23 @@
      "star rows: H Menkar → H Pallas Dec 18.0009 18 whole (91.60) [360/20] — only",
      "star rows: H Alpheratz → H Pallas Dec 6.9978 7 whole (79.26) — only",
      "star rows: J Mirach → J Pallas Dec 24.1467 24.14 silver (92.57) — only"
+    ]
+   },
+   {
+    "body": "Jupiter",
+    "cells": 5,
+    "H": 3,
+    "J": 2,
+    "layers": [
+     "same body",
+     "top rows"
+    ],
+    "detail": [
+     "same body: S Jupiter → H Jupiter Dec 23.9837 24 whole (3.50) [360/15] — only",
+     "top rows: S Sedna → H Jupiter RA 78.0011 78 whole (89.18) — only",
+     "top rows: S Quaoar → H Jupiter RA 140.7596 87×φ golden (50.41) — only",
+     "top rows: S Transpluto → J Jupiter RA 27.9955 28 whole (60.19) — only",
+     "top rows: S Neptune → J Jupiter Dec 23.9954 24 whole (59.49) [360/15] — only"
     ]
    }
   ],
@@ -13597,14 +14287,14 @@
      "top rows: S Neptune → H Jupiter Dec 22.0056 22 whole (51.49) [sky number: S Moon → Menkar Dec 21.9956 22 whole (60.56)] — only",
      "top rows: S Pallas → J Jupiter RA 168.0011 168 whole (89.12) — only",
      "top rows: S Saturn → J Jupiter RA 141.4959 141.4 sqrt2 (80.02) — only",
-     "star rows: S Scheat → J Jupiter RA 165.0444 102×φ golden (71.96) — only"
+     "star rows: S Scheat → J Jupiter RA 165.0444 102×φ golden (71.96) [same star: J Scheat 165.0534 102×φ golden (32.54)] — only"
     ]
    },
    {
     "body": "Haumea",
-    "cells": 7,
+    "cells": 6,
     "H": 3,
-    "J": 4,
+    "J": 3,
     "layers": [
      "T1/T2",
      "star rows"
@@ -13614,7 +14304,6 @@
      "star rows: H Murzim → H Haumea RA 114.8858 71×φ golden (69.51) — only",
      "star rows: H Menkar → H Haumea RA 164.9942 165 whole (50.32) — only",
      "star rows: J Menkar → J Haumea Dec 17.7779 17.7778 ninth (99.91) — only",
-     "star rows: J Menkar → J Haumea RA 144.4100 144.444 ninth (96.35) — only",
      "star rows: J Sadalmelik → J Haumea RA 141.4646 141.4 sqrt2 (88.15) — also: 1 Vocaliser",
      "star rows: J Alphecca → J Haumea RA 43.6820 27×φ golden (71.82) — only"
     ]
@@ -13639,6 +14328,22 @@
     ]
    },
    {
+    "body": "Makemake",
+    "cells": 4,
+    "H": 1,
+    "J": 3,
+    "layers": [
+     "same body",
+     "top rows"
+    ],
+    "detail": [
+     "same body: S Makemake → J Makemake Dec 11.3083 7×φ golden (loose) — only",
+     "top rows: S Sun → H Makemake Dec 30.0004 30 whole (95.72) [360/12] [sky number: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)] — only",
+     "top rows: S Jupiter → J Makemake Dec 40.4503 25×φ golden (96.70) — only",
+     "top rows: S Sun → J Makemake RA 179.0021 179 whole (79.73) — only"
+    ]
+   },
+   {
     "body": "Neptune",
     "cells": 4,
     "H": 2,
@@ -13654,45 +14359,9 @@
      "top rows: S Jupiter → J Neptune RA 59.9966 60 whole (69.01) [360/6] — only",
      "star rows: H Algol → H Neptune Dec 49.9978 50 whole (79.00) — only"
     ]
-   },
-   {
-    "body": "Makemake",
-    "cells": 4,
-    "H": 1,
-    "J": 3,
-    "layers": [
-     "same body",
-     "top rows"
-    ],
-    "detail": [
-     "same body: S Makemake → J Makemake Dec 11.3083 7×φ golden (loose) — only",
-     "top rows: S Sun → H Makemake Dec 30.0004 30 whole (95.72) [360/12] [sky number: S Jupiter → Menkent Dec 29.9964 30 whole (67.39)] — only",
-     "top rows: S Jupiter → J Makemake Dec 40.4503 25×φ golden (96.70) — only",
-     "top rows: S Sun → J Makemake RA 179.0021 179 whole (79.73) — only"
-    ]
    }
   ],
   "P11": [
-   {
-    "body": "Jupiter",
-    "cells": 8,
-    "H": 3,
-    "J": 5,
-    "layers": [
-     "star rows",
-     "top rows"
-    ],
-    "detail": [
-     "top rows: S Sedna → H Jupiter RA 46.0042 46 whole (62.56) — only",
-     "top rows: S Vesta → J Jupiter RA 108.4105 67×φ golden (86.71) — only",
-     "star rows: H Acubens → H Jupiter Dec 11.0937 φ^5 phi power (87.72) — only",
-     "star rows: S Acubens → H Jupiter Dec 11.0939 φ^5 phi power (87.07) — only",
-     "star rows: J Mirach → J Jupiter RA 176.3667 109×φ golden (93.91) — only",
-     "star rows: S Mirach → J Jupiter RA 176.3668 109×φ golden (93.59) — only",
-     "star rows: S Scheat → J Jupiter Dec 32.3638 20×φ golden (81.71) — only",
-     "star rows: J Scheat → J Jupiter Dec 32.3641 20×φ golden (79.95) — only"
-    ]
-   },
    {
     "body": "Juno",
     "cells": 6,
@@ -13727,6 +14396,23 @@
      "same body: S Makemake → J Makemake Dec 12.2389 12.2222 ninth (loose) — only",
      "top rows: S Moon → H Makemake Dec 0.0159 conj (89.70) — also: 5 Sir Apollo, 6 Thundersockssundae",
      "star rows: H Acubens → H Makemake RA 58.2422 36×φ golden (61.06) — only"
+    ]
+   },
+   {
+    "body": "Jupiter",
+    "cells": 5,
+    "H": 2,
+    "J": 3,
+    "layers": [
+     "star rows",
+     "top rows"
+    ],
+    "detail": [
+     "top rows: S Sedna → H Jupiter RA 46.0042 46 whole (62.56) — only",
+     "top rows: S Vesta → J Jupiter RA 108.4105 67×φ golden (86.71) — only",
+     "star rows: H Acubens → H Jupiter Dec 11.0937 φ^5 phi power (87.72) [same star: S Acubens 11.0939 φ^5 phi power (87.07)] — only",
+     "star rows: J Mirach → J Jupiter RA 176.3667 109×φ golden (93.91) [same star: S Mirach 176.3668 109×φ golden (93.59)] — only",
+     "star rows: S Scheat → J Jupiter Dec 32.3638 20×φ golden (81.71) [same star: J Scheat 32.3641 20×φ golden (79.95)] — only"
     ]
    },
    {

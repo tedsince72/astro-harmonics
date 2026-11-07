@@ -47,9 +47,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - 4 Dazzling Glory / Harry Skelton: J Murzim → J Orcus Dec 21.9984 22 whole (84.80) = S Sun → Menkar Dec 22.0070 22 whole (42.05)
 - 3 Anna Bunina / James Bowen: J Phact → J Ceres RA 161.8776 100×φ^1 phi power (82.50) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
 - 2 Western Victory / Tom Bellamy: J Murzim → J Neptune RA 163.4156 101×φ golden (67.33) = S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
-### locked line star on natal Jupiter — held by 2 of 5: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
-- 1 Miranda / Bryony Frost: J Menkar → J Jupiter Dec 25.8884 16×φ golden (99.04) | S Menkar → J Jupiter Dec 25.8887 16×φ golden (98.91)
-- 3 Anna Bunina / James Bowen: H Menkar → H Jupiter RA 125.0029 125 whole (73.22) | S Menkar → H Jupiter RA 125.0000 125 whole (99.88)
 ### same source on the same body, both charts — held by 2 of 5: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan
 - 1 Miranda / Bryony Frost: H Sualocin → H Ceres RA 12.9961 13 whole (65.19) | J Sualocin → J Ceres Dec 13.9983 14 whole (83.40)
 - 1 Miranda / Bryony Frost: H Phact → H Haumea Dec 51.7711 32×φ golden (66.25) | J Phact → J Haumea Dec 56.6341 35×φ golden (82.93)
@@ -193,8 +190,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Menkar → H Ketu Dec 0.1904 conj (13.36) — also: 4 Dazzling Glory
   - H Menkar → H Ceres Dec 27.9845 28 whole (5.16) — only
   - H Menkar → H Rahu Dec 7.9845 8 whole (5.12) [360/45] — only
-  - J Menkar → J Jupiter Dec 25.8884 16×φ golden (99.04) — only
-  - S Menkar → J Jupiter Dec 25.8887 16×φ golden (98.91) — only
+  - J Menkar → J Jupiter Dec 25.8884 16×φ golden (99.04) [same star: S Menkar 25.8887 16×φ golden (98.91)] — only
   - J Menkar → J Sedna RA 1.3408 conj (1.13) — also: 2 Western Victory, 3 Anna Bunina
   - H RA midpoints: Juno = Vesta 38.80 (near, between)
   - H Dec midpoints: Neptune = Haumea 48.26 (between); Venus = Eris 41.45 (between); Jupiter = Neptune 33.39 (between); Eris = Transpluto 33.32 (between); Pallas = Rahu 29.32 (between)
@@ -233,40 +229,32 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - **Wezen** (sky Sun)
   - H Wezen → H Uranus RA 92.9960 93 whole (64.20) — only
   - H Wezen → H Pluto RA 179.0145 179 whole (7.51) — only
-  - J Wezen → J Jupiter RA 146.9980 147 whole (80.59) — only
+  - J Wezen → J Jupiter RA 146.9980 147 whole (80.59) [same star: S Wezen 146.9915 147 whole (33.20)] — only
   - J Wezen → J Juno Dec 17.9964 18 whole (67.20) [360/20] — only
-  - S Wezen → J Jupiter RA 146.9915 147 whole (33.20) — only
   - J Wezen → J Makemake Dec 61.0101 61 whole (24.35) — only
   - J Wezen → J Pallas Dec 20.9899 21 whole (24.33) — only
   - J Wezen → J Saturn RA 116.0190 116 whole (0.27) — only
   - H RA midpoints: Eris = Rahu 95.15 (near, between)
   - J RA midpoints: Chiron = Sedna 77.26 (near, between); Eris = Haumea 44.90 (near, between)
 ### Threads (4 or more cells on one body, both charts, 2 or more layers)
-- **Pallas**: 5 cells (H 3, J 2; same body, star rows)
-  - same body: S Pallas → H Pallas Dec 22.2346 22.2222 ninth (loose) — only
-  - same body: S Pallas → J Pallas RA 78.9918 79 whole (35.06) — only
-  - same body: S Pallas → J Pallas Dec 4.9777 5 whole (loose) [360/72] — only
-  - star rows: H Difda → H Pallas RA 104.0039 104 whole (65.06) — only
-  - star rows: H Sadalsuud → H Pallas RA 55.9960 56 whole (64.07) — only
 - **Makemake**: 5 cells (H 1, J 4; same body, star rows)
   - same body: S Makemake → J Makemake Dec 12.2546 12.2222 ninth (loose) — only
   - star rows: H Difda → H Makemake RA 177.7630 177.778 ninth (98.84) — only
   - star rows: J Phact → J Makemake RA 88.9959 55×φ golden (76.53) — only
   - star rows: J Sualocin → J Makemake RA 136.0027 136 whole (75.06) — only
   - star rows: J Alphard → J Makemake RA 32.0058 32 whole (50.44) — only
-- **Jupiter**: 4 cells (H 1, J 3; star rows, top rows)
-  - top rows: S Sedna → H Jupiter RA 77.6624 48×φ golden (81.24) — only
-  - star rows: J Menkar → J Jupiter Dec 25.8884 16×φ golden (99.04) — only
-  - star rows: S Menkar → J Jupiter Dec 25.8887 16×φ golden (98.91) — only
-  - star rows: J Wezen → J Jupiter RA 146.9980 147 whole (80.59) — only
+- **Pallas**: 5 cells (H 3, J 2; same body, star rows)
+  - same body: S Pallas → H Pallas Dec 22.2346 22.2222 ninth (loose) — only
+  - same body: S Pallas → J Pallas RA 78.9918 79 whole (35.06) — only
+  - same body: S Pallas → J Pallas Dec 4.9777 5 whole (loose) [360/72] — only
+  - star rows: H Difda → H Pallas RA 104.0039 104 whole (65.06) — only
+  - star rows: H Sadalsuud → H Pallas RA 55.9960 56 whole (64.07) — only
 - **Gonggong**: 4 cells (H 1, J 3; same body, star rows)
   - same body: S Gonggong → J Gonggong Dec 6.9851 7 whole (6.55) — only
   - star rows: H Deneb → H Gonggong Dec 58.2441 36×φ golden (70.87) — only
   - star rows: J Adhara → J Gonggong RA 133.3614 133.333 ninth (96.63) — only
   - star rows: J Alphard → J Gonggong Dec 9.7089 6×φ golden (95.94) — only
 ### Flags held
-- **locked line star on natal Jupiter** (2 of 5 runners)
-  - J Menkar → J Jupiter Dec 25.8884 16×φ golden (99.04) | S Menkar → J Jupiter Dec 25.8887 16×φ golden (98.91)
 - **same source on the same body, both charts** (2 of 5 runners)
   - H Sualocin → H Ceres RA 12.9961 13 whole (65.19) | J Sualocin → J Ceres Dec 13.9983 14 whole (83.40)
   - H Phact → H Haumea Dec 51.7711 32×φ golden (66.25) | J Phact → J Haumea Dec 56.6341 35×φ golden (82.93)
@@ -439,8 +427,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Sadalsuud → H Saturn Dec 6.9969 7 whole (71.60) — only
   - H Sadalsuud → H Pluto RA 40.9933 41 whole (44.09) — only
   - H Sadalsuud → H Vesta RA 113.0074 113 whole (39.47) — only
-  - H Sadalsuud → H Jupiter Dec 26.9913 27 whole (32.10) — only
-  - S Sadalsuud → H Jupiter Dec 26.9909 27 whole (29.96) — only
+  - H Sadalsuud → H Jupiter Dec 26.9913 27 whole (32.10) [same star: S Sadalsuud 26.9909 27 whole (29.96)] — only
   - H Sadalsuud → H Ceres RA 120.9837 121 whole (3.37) — only
   - J Sadalsuud → J Saturn Dec 5.0070 5 whole (42.24) [360/72] — only
   - J Sadalsuud → J Makemake RA 148.8418 92×φ golden (21.45) — only
@@ -480,26 +467,26 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - star rows: H Adhara → H Transpluto RA 46.9958 47 whole (62.70) — only
   - star rows: H Difda → H Transpluto RA 140.7613 87×φ golden (58.33) — only
   - star rows: J Scheat → J Transpluto RA 160.1913 99×φ golden (66.70) — only
-- **Uranus**: 4 cells (H 1, J 3; same body, star rows)
-  - same body: S Uranus → H Uranus Dec 12.2244 12.2222 ninth (97.02) — only
-  - star rows: J Scheat → J Uranus Dec 50.1596 31×φ golden (96.74) — only
-  - star rows: J Menkar → J Uranus RA 111.1878 111.111 ninth (87.45) — only
-  - star rows: J Phact → J Uranus Dec 11.9949 12 whole (55.69) [360/30] — only
-- **Neptune**: 4 cells (H 2, J 2; same body, star rows)
-  - same body: S Neptune → H Neptune RA 16.5777 16.6667 ninth (loose) — only
-  - same body: S Neptune → J Neptune Dec 16.6831 16.6667 ninth (loose) — only
-  - star rows: H Castor → H Neptune RA 138.0050 138 whole (56.26) — only
-  - star rows: J Murzim → J Neptune RA 163.4156 101×φ golden (67.33) [sky number: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)] — only
 - **Pallas**: 4 cells (H 2, J 2; same body, star rows, top rows)
   - same body: S Pallas → J Pallas Dec 3.0091 3 whole (29.59) [360/120] — only
   - top rows: S Jupiter → H Pallas Dec 1.6664 1.66667 ninth (97.74) — only
   - star rows: H Difda → H Pallas RA 17.7992 11×φ golden (94.73) — only
   - star rows: J Wezen → J Pallas Dec 12.9946 13 whole (53.47) — only
+- **Uranus**: 4 cells (H 1, J 3; same body, star rows)
+  - same body: S Uranus → H Uranus Dec 12.2244 12.2222 ninth (97.02) — only
+  - star rows: J Scheat → J Uranus Dec 50.1596 31×φ golden (96.74) — only
+  - star rows: J Menkar → J Uranus RA 111.1878 111.111 ninth (87.45) — only
+  - star rows: J Phact → J Uranus Dec 11.9949 12 whole (55.69) [360/30] — only
 - **Jupiter**: 4 cells (H 2, J 2; same body, top rows)
   - same body: S Jupiter → J Jupiter Dec 4.9722 5 whole (loose) [360/72] — only
   - top rows: S Neptune → H Jupiter Dec 25.9975 26 whole (76.73) [sky number: S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)] — only
   - top rows: S Ceres → H Jupiter Dec 1.9958 2 whole (62.22) [360/180] — only
   - top rows: S Moon → J Jupiter Dec 11.9992 12 whole (92.52) [360/30] — only
+- **Neptune**: 4 cells (H 2, J 2; same body, star rows)
+  - same body: S Neptune → H Neptune RA 16.5777 16.6667 ninth (loose) — only
+  - same body: S Neptune → J Neptune Dec 16.6831 16.6667 ninth (loose) — only
+  - star rows: H Castor → H Neptune RA 138.0050 138 whole (56.26) — only
+  - star rows: J Murzim → J Neptune RA 163.4156 101×φ golden (67.33) [sky number: S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)] — only
 ### Flags held
 - **line star carries a sky number** (4 of 5 runners)
   - H Deneb → H Orcus RA 161.8571 100×φ^1 phi power (87.17) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
@@ -650,9 +637,8 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - J RA midpoints: Mercury = Saturn 50.69 (near, between)
   - J Dec midpoints: Mercury = Mars 17.89 (between); Mars = Uranus 2.82 (between)
 - **Menkar** (sky Sun)
-  - S Menkar → H Jupiter RA 125.0000 125 whole (99.88) — only
+  - S Menkar → H Jupiter RA 125.0000 125 whole (99.88) [same star: H Menkar 125.0029 125 whole (73.22)] — only
   - H Menkar → H Orcus Dec 13.3321 13.3333 ninth (98.47) [sky number: S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)] — only
-  - H Menkar → H Jupiter RA 125.0029 125 whole (73.22) — only
   - H Menkar → H Pluto Dec 24.9853 25 whole (6.92) — only
   - J Menkar → J Saturn Dec 13.3377 13.3333 ninth (94.81) [sky number: S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)] — only
   - J Menkar → J Sedna RA 1.3358 conj (1.20) — also: 1 Miranda, 2 Western Victory
@@ -663,10 +649,9 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Murzim → H Venus Dec 0.9902 1 whole (26.11) [360/360] — only
   - H Murzim → H Saturn Dec 3.0114 3 whole (18.33) [360/120] — only
   - J Murzim → J Mars RA 155.5773 155.556 ninth (97.94) — only
-  - S Murzim → J Jupiter RA 32.9973 33 whole (74.65) — only
+  - S Murzim → J Jupiter RA 32.9973 33 whole (74.65) [same star: J Murzim 32.9937 33 whole (47.05)] — only
   - J Murzim → J Transpluto Dec 30.9948 31 whole (54.60) — only
   - J Murzim → J Chiron Dec 0.0919 conj (48.12) — only
-  - J Murzim → J Jupiter RA 32.9937 33 whole (47.05) — only
   - J Murzim → J Neptune Dec 0.1964 conj (11.91) — only
   - J Murzim → J Vesta RA 94.0196 94 whole (0.04) — only
   - J RA midpoints: Chiron = Ceres 97.78 (far, far side); Sun = Haumea 49.65 (far, far side); Chiron = Ketu 47.98 (far, far side)
@@ -692,45 +677,42 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H RA midpoints: Chiron = Juno 57.49 (far, far side)
   - J RA midpoints: Uranus = Quaoar 72.57 (far, far side)
 ### Threads (4 or more cells on one body, both charts, 2 or more layers)
-- **Jupiter**: 8 cells (H 3, J 5; star rows, top rows)
+- **Jupiter**: 7 cells (H 2, J 5; star rows, top rows)
   - top rows: S Haumea → H Jupiter RA 46.9783 φ^8 phi power (99.62) — only
   - top rows: S Quaoar → J Jupiter Dec 35.9997 36 whole (96.93) [360/10] — only
   - top rows: S Sun → J Jupiter RA 110.9120 10×φ^5 phi power (96.32) — only
   - top rows: S Mars → J Jupiter RA 148.9993 149 whole (92.75) — only
-  - star rows: S Menkar → H Jupiter RA 125.0000 125 whole (99.88) — only
-  - star rows: H Menkar → H Jupiter RA 125.0029 125 whole (73.22) — only
+  - star rows: S Menkar → H Jupiter RA 125.0000 125 whole (99.88) [same star: H Menkar 125.0029 125 whole (73.22)] — only
   - star rows: J Wezen → J Jupiter Dec 46.9215 29×φ golden (90.97) — only
-  - star rows: S Murzim → J Jupiter RA 32.9973 33 whole (74.65) — only
-- **Saturn**: 5 cells (H 2, J 3; same body, star rows, top rows)
-  - same body: S Saturn → H Saturn RA 62.9861 63 whole (9.33) — only
-  - top rows: S Jupiter → J Saturn Dec 27.5100 17×φ golden (80.22) — only
-  - star rows: H Adhara → H Saturn Dec 8.0052 8 whole (55.04) [360/45] — only
-  - star rows: J Menkar → J Saturn Dec 13.3377 13.3333 ninth (94.81) [sky number: S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)] — only
-  - star rows: J Sadalsuud → J Saturn Dec 22.9986 23 whole (86.61) — only
+  - star rows: S Murzim → J Jupiter RA 32.9973 33 whole (74.65) [same star: J Murzim 32.9937 33 whole (47.05)] — only
 - **Mercury**: 5 cells (H 4, J 1; star rows, top rows)
   - top rows: S Jupiter → H Mercury Dec 6.0045 6 whole (59.77) [360/60] — only
   - star rows: H Deneb → H Mercury RA 14.4481 14.4444 ninth (96.11) — only
   - star rows: H Sualocin → H Mercury Dec 31.9984 32 whole (85.09) — only
   - star rows: H Castor → H Mercury RA 148.8534 92×φ golden (67.95) — only
   - star rows: J Wezen → J Mercury Dec 12.2282 12.2222 ninth (91.71) — only
-- **Neptune**: 4 cells (H 1, J 3; same body, star rows)
-  - same body: S Neptune → H Neptune RA 11.0534 φ^5 phi power (loose) — only
-  - same body: S Neptune → J Neptune RA 42.0166 42 whole (2.89) — only
-  - star rows: J Deneb → J Neptune RA 0.1446 conj (81.65) — only
-  - star rows: J Sualocin → J Neptune RA 0.3023 conj (63.76) — only
+- **Saturn**: 5 cells (H 2, J 3; same body, star rows, top rows)
+  - same body: S Saturn → H Saturn RA 62.9861 63 whole (9.33) — only
+  - top rows: S Jupiter → J Saturn Dec 27.5100 17×φ golden (80.22) — only
+  - star rows: H Adhara → H Saturn Dec 8.0052 8 whole (55.04) [360/45] — only
+  - star rows: J Menkar → J Saturn Dec 13.3377 13.3333 ninth (94.81) [sky number: S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)] — only
+  - star rows: J Sadalsuud → J Saturn Dec 22.9986 23 whole (86.61) — only
 - **Juno**: 4 cells (H 1, J 3; same body, star rows)
   - same body: S Juno → J Juno RA 73.9843 74 whole (4.71) — only
   - same body: S Juno → J Juno Dec 12.9148 8×φ golden (loose) — only
   - star rows: H Murzim → H Juno Dec 11.1131 11.1111 ninth (96.79) [sky number: S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)] — also: 5 Miss Heritage
   - star rows: J Alphard → J Juno Dec 9.0017 9 whole (84.01) [360/40] — only
+- **Neptune**: 4 cells (H 1, J 3; same body, star rows)
+  - same body: S Neptune → H Neptune RA 11.0534 φ^5 phi power (loose) — only
+  - same body: S Neptune → J Neptune RA 42.0166 42 whole (2.89) — only
+  - star rows: J Deneb → J Neptune RA 0.1446 conj (81.65) — only
+  - star rows: J Sualocin → J Neptune RA 0.3023 conj (63.76) — only
 ### Flags held
 - **line star carries a sky number** (4 of 5 runners)
   - H Menkar → H Orcus Dec 13.3321 13.3333 ninth (98.47) = S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)
   - H Murzim → H Juno Dec 11.1131 11.1111 ninth (96.79) = S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
   - J Menkar → J Saturn Dec 13.3377 13.3333 ninth (94.81) = S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)
   - J Phact → J Ceres RA 161.8776 100×φ^1 phi power (82.50) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
-- **locked line star on natal Jupiter** (2 of 5 runners)
-  - H Menkar → H Jupiter RA 125.0029 125 whole (73.22) | S Menkar → H Jupiter RA 125.0000 125 whole (99.88)
 
 ## 4 Dazzling Glory / Harry Skelton
 ### 1. Same body
@@ -826,8 +808,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H RA midpoints: Neptune = Rahu 54.00 (far, far side); Saturn = Pluto 52.93 (far, far side)
   - J RA midpoints: Eris = Ketu 53.74 (near, between)
 - **Sualocin** (sky Jupiter)
-  - H Sualocin → H Jupiter RA 174.7219 108×φ golden (4.09) — only
-  - S Sualocin → H Jupiter RA 174.7187 108×φ golden (1.09) — only
+  - H Sualocin → H Jupiter RA 174.7219 108×φ golden (4.09) [same star: S Sualocin 174.7187 108×φ golden (1.09)] — only
   - J Sualocin → J Juno RA 119.7349 74×φ golden (97.50) — only
   - J Sualocin → J Chiron Dec 0.2080 conj (9.40) — only
   - H RA midpoints: Jupiter = Juno 64.58 (far, far side)
@@ -838,8 +819,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Castor → H Ketu Dec 28.0089 28 whole (30.69) — also: 1 Miranda
   - J Castor → J Quaoar Dec 45.0159 45 whole (4.20) [360/8] — only
   - J Castor → J Uranus RA 158.0174 158 whole (1.65) — only
-  - S Castor → J Jupiter Dec 9.0176 9 whole (1.41) [360/40] — only
-  - J Castor → J Jupiter Dec 9.0190 9 whole (0.27) [360/40] — only
+  - S Castor → J Jupiter Dec 9.0176 9 whole (1.41) [same star: J Castor 9.0190 9 whole (0.27)] [360/40] — only
   - J RA midpoints: Mercury = Sedna 59.97 (near, between)
 - **Deneb** (sky Sun)
   - H Deneb → H Eris RA 75.0001 75 whole (98.57) — only
@@ -853,8 +833,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H RA midpoints: Jupiter = Juno 61.01 (far, far side); Pluto = Vesta 27.77 (near, between)
 - **Difda** (sky Sun)
   - H Difda → H Sun RA 0.3403 conj (59.78) — only
-  - S Difda → H Jupiter Dec 35.9836 36 whole (3.33) [360/10] — only
-  - H Difda → H Jupiter Dec 35.9829 36 whole (2.04) [360/10] — only
+  - S Difda → H Jupiter Dec 35.9836 36 whole (3.33) [same star: H Difda 35.9829 36 whole (2.04)] [360/10] — only
   - J Difda → J Ceres Dec 39.0003 39 whole (96.55) — only
   - J Difda → J Ketu Dec 30.9991 31 whole (91.04) — only
   - J Difda → J Vesta Dec 7.9952 8 whole (57.88) [360/45] — only
@@ -913,13 +892,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - J Wezen → J Chiron RA 0.7558 conj (24.61) — only
   - H RA midpoints: Eris = Rahu 83.51 (near, between)
 ### Threads (4 or more cells on one body, both charts, 2 or more layers)
-- **Jupiter**: 6 cells (H 2, J 4; star rows, top rows)
-  - top rows: S Eris → H Jupiter Dec 19.4180 12×φ golden (90.67) — only
-  - top rows: S Haumea → J Jupiter RA 118.1138 73×φ golden (83.96) — only
-  - top rows: S Pallas → J Jupiter RA 101.0020 101 whole (80.69) — only
-  - top rows: S Gonggong → J Jupiter RA 122.9268 φ^10 phi power (79.95) — only
-  - top rows: S Mercury → J Jupiter RA 161.8939 100×φ^1 phi power (78.87) [sky number: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)] — only
-  - star rows: H Adhara → H Jupiter Dec 46.9708 φ^8 phi power (93.41) — only
 - **Sun**: 6 cells (H 2, J 4; same body, star rows)
   - same body: S Sun → J Sun RA 133.9346 133.333 ninth (loose) — only
   - same body: S Sun → J Sun Dec 18.8548 18.8889 ninth (loose) [sky number: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)] — only
@@ -927,6 +899,13 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - star rows: H Difda → H Sun RA 0.3403 conj (59.78) — only
   - star rows: J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49) [sky number: S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)] — only
   - star rows: J Phact → J Sun Dec 35.0053 35 whole (54.20) — only
+- **Jupiter**: 6 cells (H 2, J 4; star rows, top rows)
+  - top rows: S Eris → H Jupiter Dec 19.4180 12×φ golden (90.67) — only
+  - top rows: S Haumea → J Jupiter RA 118.1138 73×φ golden (83.96) — only
+  - top rows: S Pallas → J Jupiter RA 101.0020 101 whole (80.69) — only
+  - top rows: S Gonggong → J Jupiter RA 122.9268 φ^10 phi power (79.95) — only
+  - top rows: S Mercury → J Jupiter RA 161.8939 100×φ^1 phi power (78.87) [sky number: S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)] — only
+  - star rows: H Adhara → H Jupiter Dec 46.9708 φ^8 phi power (93.41) — only
 ### Flags held
 - **N and N×φ on one Jupiter** (only this runner)
   - S Mirach → J Jupiter RA 82.0031 82 whole (71.46) | S Deneb Algedi → J Jupiter RA 132.6788 82×φ golden (99.99)
@@ -1137,16 +1116,16 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - top rows: S Chiron → H Jupiter RA 95.4678 59×φ golden (78.10) — only
   - top rows: S Juno → H Jupiter RA 164.0030 164 whole (72.02) — only
   - top rows: S Sun → J Jupiter RA 51.0018 51 whole (83.24) — only
-- **Ketu**: 4 cells (H 2, J 2; same body, star rows)
-  - same body: S Ketu → H Ketu Dec 30.7467 19×φ golden (76.56) — only
-  - star rows: H Castor → H Ketu Dec 21.0349 13×φ golden (97.41) — only
-  - star rows: J Deneb → J Ketu Dec 68.0026 68 whole (75.49) — only
-  - star rows: J Sadalsuud → J Ketu RA 67.9512 42×φ golden (65.33) — only
 - **Uranus**: 4 cells (H 1, J 3; star rows, top rows)
   - top rows: S Sun → J Uranus Dec 3.9991 4 whole (90.75) [360/90] — only
   - star rows: H Wezen → H Uranus Dec 30.7427 19×φ golden (99.94) — only
   - star rows: J Wezen → J Uranus RA 141.4383 141.4 sqrt2 (95.27) — only
   - star rows: J Scheat → J Uranus Dec 50.0031 50 whole (71.45) — only
+- **Ketu**: 4 cells (H 2, J 2; same body, star rows)
+  - same body: S Ketu → H Ketu Dec 30.7467 19×φ golden (76.56) — only
+  - star rows: H Castor → H Ketu Dec 21.0349 13×φ golden (97.41) — only
+  - star rows: J Deneb → J Ketu Dec 68.0026 68 whole (75.49) — only
+  - star rows: J Sadalsuud → J Ketu RA 67.9512 42×φ golden (65.33) — only
 ### Flags held
 - **line star carries a sky number** (4 of 5 runners)
   - J Sadalsuud → J Orcus RA 161.8053 100×φ^1 phi power (99.53) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)

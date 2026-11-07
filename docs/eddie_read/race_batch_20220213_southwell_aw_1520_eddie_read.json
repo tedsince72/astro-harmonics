@@ -619,6 +619,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -635,6 +637,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -651,6 +655,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -667,6 +673,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -683,6 +691,8 @@
    "sky_number": "S Sun → Alkaid RA 119.9949 120 whole (55.43)",
    "circle": "360/3",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -699,22 +709,16 @@
    "sky_number": null,
    "circle": "360/8",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Alkaid",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 44.992271,
-   "target": "45",
-   "family": "whole",
-   "score": 37.65,
-   "sky_number": null,
-   "circle": "360/8",
-   "note": "",
+   "star": "Alkaid",
+   "copies": [
+    {
+     "source": "H Alkaid",
+     "value": 44.992271,
+     "target": "45",
+     "family": "whole",
+     "score": 37.65
+    }
+   ],
    "field": "only"
   },
   {
@@ -731,6 +735,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -747,6 +753,8 @@
    "sky_number": "S Moon → Facies RA 166.6813 166.667 ninth (98.75)",
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -763,6 +771,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -779,6 +789,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -795,6 +807,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -811,6 +825,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -827,6 +843,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -843,6 +861,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -859,6 +879,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -875,6 +897,8 @@
    "sky_number": "S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)",
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -891,6 +915,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -907,6 +933,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -923,6 +951,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -939,6 +969,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -955,6 +987,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1227,6 +1261,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1243,6 +1279,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1259,6 +1297,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "also: 2 Flying Instructor"
   },
   {
@@ -1275,22 +1315,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "S Alphard",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 7.988733,
-   "target": "8",
-   "family": "whole",
-   "score": 19.07,
-   "sky_number": null,
-   "circle": "360/45",
-   "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1307,6 +1333,16 @@
    "sky_number": null,
    "circle": "360/45",
    "note": "",
+   "star": "Alphard",
+   "copies": [
+    {
+     "source": "S Alphard",
+     "value": 7.988733,
+     "target": "8",
+     "family": "whole",
+     "score": 19.07
+    }
+   ],
    "field": "only"
   },
   {
@@ -1323,6 +1359,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1339,6 +1377,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1355,6 +1395,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1371,6 +1413,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1387,6 +1431,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1403,6 +1449,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1419,6 +1467,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1435,6 +1485,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1451,6 +1503,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1467,6 +1521,8 @@
    "sky_number": "S Sun → Sadalsuud RA 3.9980 4 whole (80.68)",
    "circle": "360/90",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1483,6 +1539,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [
+    {
+     "source": "J Facies",
+     "value": 40.456039,
+     "target": "25×φ",
+     "family": "golden",
+     "score": 70.5
+    }
+   ],
    "field": "only"
   },
   {
@@ -1499,22 +1565,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Facies",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 40.456039,
-   "target": "25×φ",
-   "family": "golden",
-   "score": 70.5,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1531,6 +1583,8 @@
    "sky_number": "S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)",
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1547,6 +1601,8 @@
    "sky_number": "S Jupiter → Meissa RA 102.0057 102 whole (50.91)",
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1563,6 +1619,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1579,6 +1637,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1595,6 +1655,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1611,6 +1673,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1627,6 +1691,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1643,6 +1709,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "also: 5 Carn A Chlamain"
   },
   {
@@ -1659,6 +1727,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1675,6 +1745,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1691,6 +1763,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1707,6 +1781,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1723,6 +1799,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1739,6 +1817,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1755,6 +1835,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1771,6 +1853,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1787,6 +1871,8 @@
    "sky_number": null,
    "circle": "360/10",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1803,6 +1889,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1819,6 +1907,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1835,6 +1925,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1851,6 +1943,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 5 Carn A Chlamain"
   },
   {
@@ -1867,6 +1961,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 2 Flying Instructor, 3 Chase The Dollar, 4 Deluxe Music, 5 Carn A Chlamain, 7 Red Tornado"
   },
   {
@@ -1883,6 +1979,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1899,6 +1997,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1915,6 +2015,8 @@
    "sky_number": "S Sun → Sadalsuud RA 3.9980 4 whole (80.68)",
    "circle": "360/90",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1931,6 +2033,8 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1947,6 +2051,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1963,6 +2069,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1979,6 +2087,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1995,6 +2105,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2011,6 +2123,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2027,6 +2141,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2235,22 +2351,16 @@
    "sky_number": null,
    "circle": "360/24",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P03",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Aculeus",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 14.980015,
-   "target": "15",
-   "family": "whole",
-   "score": 0.0,
-   "sky_number": null,
-   "circle": "360/24",
-   "note": "",
+   "star": "Aculeus",
+   "copies": [
+    {
+     "source": "H Aculeus",
+     "value": 14.980015,
+     "target": "15",
+     "family": "whole",
+     "score": 0.0
+    }
+   ],
    "field": "only"
   },
   {
@@ -2267,6 +2377,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2283,6 +2395,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2299,6 +2413,8 @@
    "sky_number": null,
    "circle": "360/12",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2315,6 +2431,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2331,6 +2449,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "also: 1 The Dancing Poet"
   },
   {
@@ -2347,6 +2467,8 @@
    "sky_number": null,
    "circle": "360/5",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2363,6 +2485,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2379,6 +2503,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2395,6 +2521,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2411,6 +2539,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2427,6 +2557,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2443,6 +2575,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2459,6 +2593,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2475,6 +2611,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2491,6 +2629,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2507,6 +2647,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2523,6 +2665,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2539,6 +2683,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "also: 3 Chase The Dollar, 5 Carn A Chlamain"
   },
   {
@@ -2555,6 +2701,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2571,6 +2719,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2587,6 +2737,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "also: 4 Deluxe Music, 6 Flamingo Rose"
   },
   {
@@ -2603,6 +2755,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2619,6 +2773,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2635,6 +2791,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2651,6 +2809,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2667,6 +2827,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2683,6 +2845,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2699,6 +2863,8 @@
    "sky_number": "S Moon → Saturn RA 152.9975 153 whole (76.77)",
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2715,6 +2881,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2731,6 +2899,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2747,6 +2917,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "also: 3 Chase The Dollar"
   },
   {
@@ -2763,6 +2935,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2779,6 +2953,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2795,6 +2971,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2811,6 +2989,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2827,6 +3007,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2843,6 +3025,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2859,6 +3043,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2875,6 +3061,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2891,6 +3079,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2907,6 +3097,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2923,6 +3115,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2939,6 +3133,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2955,6 +3151,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2971,6 +3169,8 @@
    "sky_number": null,
    "circle": "360/360",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2987,6 +3187,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3211,6 +3413,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3227,6 +3431,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "also: 7 Red Tornado"
   },
   {
@@ -3243,6 +3449,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3259,6 +3467,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3275,6 +3485,8 @@
    "sky_number": null,
    "circle": "360/12",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3291,6 +3503,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3307,6 +3521,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3323,6 +3539,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3339,6 +3557,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3355,6 +3575,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3371,6 +3593,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3387,6 +3611,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3403,6 +3629,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3419,6 +3647,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3435,6 +3665,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3451,6 +3683,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3467,6 +3701,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3483,6 +3719,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3499,6 +3737,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3515,6 +3755,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3531,6 +3773,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3547,6 +3791,8 @@
    "sky_number": "S Sun → Alkaid RA 119.9949 120 whole (55.43)",
    "circle": "360/3",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3563,6 +3809,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3579,6 +3827,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3595,6 +3845,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3611,6 +3863,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3627,6 +3881,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3643,6 +3899,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3659,6 +3917,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3675,6 +3935,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3691,6 +3953,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3707,6 +3971,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 1 The Dancing Poet, 3 Chase The Dollar, 4 Deluxe Music, 5 Carn A Chlamain, 7 Red Tornado"
   },
   {
@@ -3723,6 +3989,8 @@
    "sky_number": null,
    "circle": "360/360",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3739,54 +4007,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P03",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "S Spica",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 27.983489,
-   "target": "28",
-   "family": "whole",
-   "score": 3.04,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P03",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Spica",
-   "body": "Sun",
-   "plane": "Dec",
-   "value": 2.987975,
-   "target": "3",
-   "family": "whole",
-   "score": 15.9,
-   "sky_number": null,
-   "circle": "360/120",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P03",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Spica",
-   "body": "Mercury",
-   "plane": "RA",
-   "value": 1.197479,
-   "target": "conj",
-   "family": "conj",
-   "score": 4.07,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3803,6 +4025,52 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [
+    {
+     "source": "S Spica",
+     "value": 27.983489,
+     "target": "28",
+     "family": "whole",
+     "score": 3.04
+    }
+   ],
+   "field": "only"
+  },
+  {
+   "runner": "P03",
+   "layer": "star rows",
+   "chart": "J",
+   "source": "J Spica",
+   "body": "Sun",
+   "plane": "Dec",
+   "value": 2.987975,
+   "target": "3",
+   "family": "whole",
+   "score": 15.9,
+   "sky_number": null,
+   "circle": "360/120",
+   "note": "",
+   "star": "Spica",
+   "copies": [],
+   "field": "only"
+  },
+  {
+   "runner": "P03",
+   "layer": "star rows",
+   "chart": "J",
+   "source": "J Spica",
+   "body": "Mercury",
+   "plane": "RA",
+   "value": 1.197479,
+   "target": "conj",
+   "family": "conj",
+   "score": 4.07,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3819,6 +4087,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3835,6 +4105,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3851,6 +4123,8 @@
    "sky_number": null,
    "circle": "360/120",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4011,6 +4285,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4027,6 +4303,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4043,6 +4321,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4059,6 +4339,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4075,6 +4357,8 @@
    "sky_number": null,
    "circle": "360/24",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4091,6 +4375,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4107,6 +4393,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4123,6 +4411,8 @@
    "sky_number": "S Sun → Sadalsuud RA 3.9980 4 whole (80.68)",
    "circle": "360/90",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4139,6 +4429,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4155,6 +4447,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4171,6 +4465,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "also: 2 Flying Instructor, 5 Carn A Chlamain"
   },
   {
@@ -4187,6 +4483,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4203,6 +4501,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4219,6 +4519,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4235,6 +4537,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4251,6 +4555,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4267,6 +4573,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4283,6 +4591,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "also: 2 Flying Instructor"
   },
   {
@@ -4299,6 +4609,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4315,6 +4627,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4331,6 +4645,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4347,6 +4663,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4363,6 +4681,8 @@
    "sky_number": null,
    "circle": "360/120",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4379,6 +4699,8 @@
    "sky_number": null,
    "circle": "360/45",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4395,6 +4717,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4411,6 +4735,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4427,6 +4753,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4443,6 +4771,8 @@
    "sky_number": null,
    "circle": "360/45",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4459,6 +4789,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4795,6 +5127,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4811,6 +5145,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4827,6 +5163,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4843,6 +5181,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4859,6 +5199,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4875,6 +5217,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4891,6 +5235,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4907,22 +5253,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Deneb Algedi",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 35.590804,
-   "target": "22×φ",
-   "family": "golden",
-   "score": 66.64,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Deneb Algedi",
+   "copies": [
+    {
+     "source": "J Deneb Algedi",
+     "value": 35.590804,
+     "target": "22×φ",
+     "family": "golden",
+     "score": 66.64
+    }
+   ],
    "field": "only"
   },
   {
@@ -4939,6 +5279,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4955,6 +5297,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4971,6 +5315,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "also: 7 Red Tornado"
   },
   {
@@ -4987,6 +5333,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5003,6 +5351,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5019,6 +5369,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5035,6 +5387,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5051,6 +5405,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5067,6 +5423,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5083,6 +5441,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5099,6 +5459,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5115,6 +5477,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5131,6 +5495,8 @@
    "sky_number": "S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)",
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5147,6 +5513,8 @@
    "sky_number": null,
    "circle": "360/180",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5163,6 +5531,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5179,6 +5549,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5195,6 +5567,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5211,6 +5585,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5227,6 +5603,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5243,6 +5621,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 1 The Dancing Poet, 2 Flying Instructor, 4 Deluxe Music, 5 Carn A Chlamain, 7 Red Tornado"
   },
   {
@@ -5259,6 +5639,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5275,6 +5657,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5291,6 +5675,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5307,6 +5693,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5323,6 +5711,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5339,6 +5729,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5355,6 +5747,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5371,6 +5765,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5531,6 +5927,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5547,6 +5945,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5563,6 +5963,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5579,6 +5981,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5595,6 +5999,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5611,6 +6017,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5627,6 +6035,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5643,6 +6053,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5659,6 +6071,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5675,6 +6089,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5691,6 +6107,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5707,6 +6125,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5723,6 +6143,8 @@
    "sky_number": "S Moon → Neptune RA 119.7408 74×φ golden (65.12)",
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5739,6 +6161,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5755,6 +6179,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5771,6 +6197,8 @@
    "sky_number": null,
    "circle": "360/6",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5787,6 +6215,8 @@
    "sky_number": "S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)",
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5803,6 +6233,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5819,6 +6251,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5835,6 +6269,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5851,6 +6287,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5867,6 +6305,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5883,6 +6323,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5899,6 +6341,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "also: 2 Flying Instructor, 6 Flamingo Rose"
   },
   {
@@ -5915,6 +6359,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5931,6 +6377,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5947,6 +6395,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5963,6 +6413,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5979,6 +6431,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "also: 6 Flamingo Rose"
   },
   {
@@ -5995,6 +6449,8 @@
    "sky_number": "S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)",
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6011,6 +6467,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6027,6 +6485,8 @@
    "sky_number": "S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)",
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6043,6 +6503,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6059,6 +6521,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6075,6 +6539,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6091,6 +6557,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6107,6 +6575,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6123,6 +6593,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6139,6 +6611,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6155,6 +6629,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6171,6 +6647,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6187,6 +6665,8 @@
    "sky_number": "S Moon → Fomalhaut RA 128.0048 128 whole (57.65)",
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6203,6 +6683,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6219,6 +6701,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6235,22 +6719,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Spica",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 1.103381,
-   "target": "conj",
-   "family": "conj",
-   "score": 6.99,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Spica",
+   "copies": [
+    {
+     "source": "H Spica",
+     "value": 1.103381,
+     "target": "conj",
+     "family": "conj",
+     "score": 6.99
+    }
+   ],
    "field": "only"
   },
   {
@@ -6267,6 +6745,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6571,6 +7051,8 @@
    "sky_number": "S Jupiter → Juno RA 37.0056 37 whole (51.90)",
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6587,6 +7069,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6603,6 +7087,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6619,6 +7105,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6635,6 +7123,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6651,6 +7141,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6667,6 +7159,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6683,6 +7177,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6699,6 +7195,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6715,6 +7213,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6731,6 +7231,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6747,6 +7249,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6763,6 +7267,8 @@
    "sky_number": null,
    "circle": "360/180",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6779,6 +7285,8 @@
    "sky_number": null,
    "circle": "360/5",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6795,6 +7303,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6811,6 +7321,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6827,6 +7339,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6843,6 +7357,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6859,6 +7375,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6875,6 +7393,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6891,6 +7411,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6907,6 +7429,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6923,6 +7447,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6939,6 +7465,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6955,6 +7483,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6971,6 +7501,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6987,6 +7519,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7003,6 +7537,8 @@
    "sky_number": "S Sun → Sadalsuud RA 3.9980 4 whole (80.68)",
    "circle": "360/90",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7019,6 +7555,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7035,6 +7573,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7051,6 +7591,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7067,6 +7609,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7083,6 +7627,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7099,6 +7645,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 1 The Dancing Poet, 2 Flying Instructor, 3 Chase The Dollar, 5 Carn A Chlamain, 7 Red Tornado"
   },
   {
@@ -7115,22 +7663,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Sadalsuud",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 0.345593,
-   "target": "conj",
-   "family": "conj",
-   "score": 59.23,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Sadalsuud",
+   "copies": [
+    {
+     "source": "J Sadalsuud",
+     "value": 0.345593,
+     "target": "conj",
+     "family": "conj",
+     "score": 59.23
+    }
+   ],
    "field": "only"
   },
   {
@@ -7147,6 +7689,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7163,6 +7707,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7179,6 +7725,8 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7451,6 +7999,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7467,6 +8017,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7483,6 +8035,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7499,6 +8053,8 @@
    "sky_number": null,
    "circle": "360/9",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7515,6 +8071,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7531,6 +8089,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7547,6 +8107,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7563,6 +8125,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7579,6 +8143,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7595,6 +8161,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7611,6 +8179,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7627,6 +8197,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7643,6 +8215,8 @@
    "sky_number": "S Moon → Facies RA 166.6813 166.667 ninth (98.75)",
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7659,6 +8233,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7675,6 +8251,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "also: 2 Flying Instructor, 3 Chase The Dollar"
   },
   {
@@ -7691,6 +8269,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7707,6 +8287,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7723,6 +8305,8 @@
    "sky_number": null,
    "circle": "360/5",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7739,6 +8323,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7755,6 +8341,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7771,6 +8359,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7787,6 +8377,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7803,6 +8395,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7819,6 +8413,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7835,6 +8431,8 @@
    "sky_number": null,
    "circle": "360/24",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7851,6 +8449,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7867,6 +8467,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7883,6 +8485,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7899,6 +8503,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7915,6 +8521,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7931,6 +8539,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7947,6 +8557,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7963,6 +8575,8 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7979,6 +8593,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7995,6 +8611,8 @@
    "sky_number": null,
    "circle": "360/15",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8011,6 +8629,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8027,6 +8647,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8043,6 +8665,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8059,6 +8683,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8379,6 +9005,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8395,6 +9023,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8411,6 +9041,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8427,6 +9059,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8443,6 +9077,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8459,6 +9095,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8475,6 +9113,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8491,6 +9131,8 @@
    "sky_number": null,
    "circle": "360/24",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8507,6 +9149,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8523,6 +9167,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8539,6 +9185,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [
+    {
+     "source": "J Fomalhaut",
+     "value": 0.164789,
+     "target": "conj",
+     "family": "conj",
+     "score": 79.24
+    }
+   ],
    "field": "only"
   },
   {
@@ -8555,22 +9211,8 @@
    "sky_number": "S Jupiter → Juno RA 37.0056 37 whole (51.90)",
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P09",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Fomalhaut",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 0.164789,
-   "target": "conj",
-   "family": "conj",
-   "score": 79.24,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8587,6 +9229,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8603,6 +9247,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "also: 1 The Dancing Poet"
   },
   {
@@ -8619,6 +9265,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8635,6 +9283,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8651,6 +9301,8 @@
    "sky_number": null,
    "circle": "360/72",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8667,6 +9319,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8683,6 +9337,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8699,6 +9355,8 @@
    "sky_number": "S Jupiter → Meissa RA 102.0057 102 whole (50.91)",
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8715,6 +9373,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8731,6 +9391,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8747,6 +9409,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8763,6 +9427,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 1 The Dancing Poet"
   },
   {
@@ -8779,6 +9445,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 1 The Dancing Poet, 2 Flying Instructor, 3 Chase The Dollar, 4 Deluxe Music, 7 Red Tornado"
   },
   {
@@ -8795,22 +9463,16 @@
    "sky_number": null,
    "circle": "360/180",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P09",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Sadalsuud",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 2.01828,
-   "target": "2",
-   "family": "whole",
-   "score": 0.74,
-   "sky_number": null,
-   "circle": "360/180",
-   "note": "",
+   "star": "Sadalsuud",
+   "copies": [
+    {
+     "source": "J Sadalsuud",
+     "value": 2.01828,
+     "target": "2",
+     "family": "whole",
+     "score": 0.74
+    }
+   ],
    "field": "only"
   },
   {
@@ -8827,6 +9489,8 @@
    "sky_number": null,
    "circle": "360/72",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8843,6 +9507,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8859,6 +9525,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8875,6 +9543,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9115,6 +9785,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9131,6 +9803,8 @@
    "sky_number": null,
    "circle": "360/4",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9147,6 +9821,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9163,6 +9839,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9179,6 +9857,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9195,6 +9875,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9211,6 +9893,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9227,6 +9911,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9243,6 +9929,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9259,6 +9947,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9275,6 +9965,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9291,6 +9983,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9307,6 +10001,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "also: 2 Flying Instructor, 4 Deluxe Music"
   },
   {
@@ -9323,6 +10019,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9339,6 +10037,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9355,6 +10055,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9371,6 +10073,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "also: 4 Deluxe Music"
   },
   {
@@ -9387,6 +10091,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9403,6 +10109,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9419,6 +10127,8 @@
    "sky_number": null,
    "circle": "360/45",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9435,6 +10145,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9451,6 +10163,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9467,6 +10181,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9483,6 +10199,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9499,38 +10217,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "S Sadalsuud",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 0.192634,
-   "target": "conj",
-   "family": "conj",
-   "score": 12.81,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Sadalsuud",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 126.215945,
-   "target": "78×φ",
-   "family": "golden",
-   "score": 50.81,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Sadalsuud",
+   "copies": [
+    {
+     "source": "H Sadalsuud",
+     "value": 126.215945,
+     "target": "78×φ",
+     "family": "golden",
+     "score": 50.81
+    }
+   ],
    "field": "only"
   },
   {
@@ -9547,6 +10243,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [
+    {
+     "source": "S Sadalsuud",
+     "value": 0.192634,
+     "target": "conj",
+     "family": "conj",
+     "score": 12.81
+    }
+   ],
    "field": "only"
   },
   {
@@ -9563,6 +10269,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9579,6 +10287,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9595,6 +10305,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9611,6 +10323,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9627,6 +10341,8 @@
    "sky_number": "S Moon → Mars Dec 48.5423 30×φ golden (92.44)",
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9643,6 +10359,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10011,6 +10729,8 @@
    "sky_number": "S Jupiter → Meissa RA 102.0057 102 whole (50.91)",
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10027,6 +10747,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10043,6 +10765,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10059,6 +10783,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10075,6 +10801,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10091,6 +10819,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10107,6 +10837,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10123,6 +10855,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10139,6 +10873,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10155,6 +10891,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [
+    {
+     "source": "J Castor",
+     "value": 53.017708,
+     "target": "53",
+     "family": "whole",
+     "score": 1.31
+    }
+   ],
    "field": "only"
   },
   {
@@ -10171,22 +10917,8 @@
    "sky_number": null,
    "circle": "360/12",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Castor",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 53.017708,
-   "target": "53",
-   "family": "whole",
-   "score": 1.31,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10203,6 +10935,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10219,6 +10953,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10235,38 +10971,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "S Deneb Algedi",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 4.997453,
-   "target": "5",
-   "family": "whole",
-   "score": 76.15,
-   "sky_number": null,
-   "circle": "360/72",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Deneb Algedi",
-   "body": "Mars",
-   "plane": "Dec",
-   "value": 18.010788,
-   "target": "18",
-   "family": "whole",
-   "score": 21.21,
-   "sky_number": null,
-   "circle": "360/20",
-   "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10283,6 +10989,34 @@
    "sky_number": null,
    "circle": "360/72",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [
+    {
+     "source": "S Deneb Algedi",
+     "value": 4.997453,
+     "target": "5",
+     "family": "whole",
+     "score": 76.15
+    }
+   ],
+   "field": "only"
+  },
+  {
+   "runner": "P11",
+   "layer": "star rows",
+   "chart": "J",
+   "source": "J Deneb Algedi",
+   "body": "Mars",
+   "plane": "Dec",
+   "value": 18.010788,
+   "target": "18",
+   "family": "whole",
+   "score": 21.21,
+   "sky_number": null,
+   "circle": "360/20",
+   "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10299,6 +11033,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10315,6 +11051,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10331,6 +11069,8 @@
    "sky_number": null,
    "circle": "360/72",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10347,6 +11087,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10363,6 +11105,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10379,6 +11123,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10395,6 +11141,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10411,6 +11159,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10427,6 +11177,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10443,6 +11195,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10459,6 +11213,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10475,6 +11231,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10491,6 +11249,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10507,6 +11267,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10523,6 +11285,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10539,6 +11303,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10555,22 +11321,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Meissa",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 165.046148,
-   "target": "102×φ",
-   "family": "golden",
-   "score": 62.97,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Meissa",
+   "copies": [
+    {
+     "source": "J Meissa",
+     "value": 165.046148,
+     "target": "102×φ",
+     "family": "golden",
+     "score": 62.97
+    }
+   ],
    "field": "only"
   },
   {
@@ -10587,6 +11347,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10603,6 +11365,8 @@
    "sky_number": "S Jupiter → Meissa RA 102.0057 102 whole (50.91)",
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10619,6 +11383,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10635,6 +11401,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10651,6 +11419,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10667,6 +11437,8 @@
    "sky_number": null,
    "circle": "360/10",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10683,6 +11455,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10699,6 +11473,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10715,6 +11491,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10731,6 +11509,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [
+    {
+     "source": "J Sadalsuud",
+     "value": 15.555393,
+     "target": "15.5556",
+     "family": "ninth",
+     "score": 99.85
+    }
+   ],
    "field": "only"
   },
   {
@@ -10747,6 +11535,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10763,22 +11553,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Sadalsuud",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 15.555393,
-   "target": "15.5556",
-   "family": "ninth",
-   "score": 99.85,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10795,6 +11571,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10811,6 +11589,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10827,6 +11607,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10843,6 +11625,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10859,6 +11643,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11003,6 +11789,8 @@
    "sky_number": "S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)",
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11019,6 +11807,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11035,6 +11825,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11051,6 +11843,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11067,6 +11861,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11083,6 +11879,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11099,6 +11897,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11115,6 +11915,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11131,6 +11933,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11147,6 +11951,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11163,6 +11969,8 @@
    "sky_number": null,
    "circle": "360/120",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11179,22 +11987,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "S Castor",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 78.017703,
-   "target": "78",
-   "family": "whole",
-   "score": 1.32,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11211,6 +12005,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [
+    {
+     "source": "S Castor",
+     "value": 78.017703,
+     "target": "78",
+     "family": "whole",
+     "score": 1.32
+    }
+   ],
    "field": "only"
   },
   {
@@ -11227,6 +12031,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11243,6 +12049,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11259,6 +12067,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11275,6 +12085,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11291,6 +12103,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11307,6 +12121,8 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11323,6 +12139,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11339,6 +12157,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11355,6 +12175,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11371,6 +12193,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11387,6 +12211,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11403,6 +12229,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11419,6 +12247,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11435,6 +12265,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11451,6 +12283,8 @@
    "sky_number": null,
    "circle": "360/2",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11467,6 +12301,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11483,6 +12319,8 @@
    "sky_number": null,
    "circle": "360/180",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11499,6 +12337,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11515,6 +12355,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11531,6 +12373,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11547,6 +12391,8 @@
    "sky_number": "S Sun → Sadalsuud RA 3.9980 4 whole (80.68)",
    "circle": "360/90",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11563,6 +12409,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11579,6 +12427,8 @@
    "sky_number": null,
    "circle": "360/2",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11595,6 +12445,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11611,6 +12463,8 @@
    "sky_number": null,
    "circle": "360/15",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11627,6 +12481,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11643,6 +12499,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Spica",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11787,6 +12645,8 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11803,6 +12663,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "also: 2 Flying Instructor"
   },
   {
@@ -11819,6 +12681,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Aculeus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11835,6 +12699,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11851,6 +12717,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11867,6 +12735,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11883,6 +12753,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11899,6 +12771,8 @@
    "sky_number": null,
    "circle": "360/6",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11915,6 +12789,8 @@
    "sky_number": null,
    "circle": "360/9",
    "note": "",
+   "star": "Alkaid",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11931,6 +12807,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11947,6 +12825,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11963,6 +12843,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11979,6 +12861,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11995,6 +12879,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12011,6 +12897,8 @@
    "sky_number": "S Moon → Neptune RA 119.7408 74×φ golden (65.12)",
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12027,6 +12915,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12043,6 +12933,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12059,6 +12951,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "also: 3 Chase The Dollar"
   },
   {
@@ -12075,6 +12969,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12091,6 +12987,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12107,6 +13005,8 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12123,6 +13023,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Facies",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12139,6 +13041,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12155,6 +13059,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12171,6 +13077,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12187,6 +13095,8 @@
    "sky_number": "S Moon → Galactic Centre RA 153.9991 154 whole (91.44)",
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12203,6 +13113,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12219,6 +13131,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12235,6 +13149,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Meissa",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12251,6 +13167,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12267,6 +13185,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12283,6 +13203,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12299,6 +13221,8 @@
    "sky_number": null,
    "circle": "360/360",
    "note": "",
+   "star": "Rasalhague",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12315,6 +13239,8 @@
    "sky_number": "S Moon → Galactic Centre RA 153.9991 154 whole (91.44)",
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12331,6 +13257,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 1 The Dancing Poet, 2 Flying Instructor, 3 Chase The Dollar, 4 Deluxe Music, 5 Carn A Chlamain"
   },
   {
@@ -12347,6 +13275,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12363,6 +13293,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12379,6 +13311,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12395,6 +13329,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12411,6 +13347,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12427,6 +13365,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalsuud",
+   "copies": [],
    "field": "only"
   }
  ],
@@ -15638,56 +16578,6 @@
   ]
  },
  "flags": {
-  "locked line star on natal Jupiter": [
-   {
-    "runner": "P01",
-    "chart": "J",
-    "text": "J Facies → J Jupiter RA 40.4560 25×φ golden (70.50) | S Facies → J Jupiter RA 40.4549 25×φ golden (76.68)",
-    "score": 70.50145742350831
-   },
-   {
-    "runner": "P05",
-    "chart": "J",
-    "text": "J Deneb Algedi → J Jupiter Dec 35.5908 22×φ golden (66.64) | S Deneb Algedi → J Jupiter Dec 35.5961 22×φ golden (96.06)",
-    "score": 66.63776385201865
-   },
-   {
-    "runner": "P07",
-    "chart": "J",
-    "text": "J Sadalsuud → J Jupiter RA 0.3456 conj (59.23) | S Sadalsuud → J Jupiter RA 0.3409 conj (59.71)",
-    "score": 59.229101942671775
-   },
-   {
-    "runner": "P09",
-    "chart": "J",
-    "text": "J Fomalhaut → J Jupiter RA 0.1648 conj (79.24) | S Fomalhaut → J Jupiter RA 0.1626 conj (79.49)",
-    "score": 79.23508811817649
-   },
-   {
-    "runner": "P11",
-    "chart": "H",
-    "text": "H Sadalsuud → H Jupiter RA 126.2159 78×φ golden (50.81) | S Sadalsuud → H Jupiter RA 126.2131 78×φ golden (64.12)",
-    "score": 50.80965230167802
-   },
-   {
-    "runner": "P11",
-    "chart": "J",
-    "text": "J Deneb Algedi → J Jupiter Dec 5.0009 5 whole (91.09) | S Deneb Algedi → J Jupiter Dec 4.9975 5 whole (76.15)",
-    "score": 76.15416871035713
-   },
-   {
-    "runner": "P11",
-    "chart": "J",
-    "text": "J Meissa → J Jupiter RA 165.0461 102×φ golden (62.97) | S Meissa → J Jupiter RA 165.0443 102×φ golden (72.18)",
-    "score": 62.97165312269395
-   },
-   {
-    "runner": "P11",
-    "chart": "J",
-    "text": "J Sadalsuud → J Jupiter Dec 15.5554 15.5556 ninth (99.85) | S Sadalsuud → J Jupiter Dec 15.5555 15.5556 ninth (99.91)",
-    "score": 99.8458008375209
-   }
-  ],
   "natal body on a strong line star": [
    {
     "runner": "P03",
@@ -15790,11 +16680,6 @@
    },
    {
     "runner": "P11",
-    "text": "H Sadalsuud → H Jupiter RA 126.2159 78×φ golden (50.81) | J Sadalsuud → J Jupiter Dec 15.5554 15.5556 ninth (99.85)",
-    "score": null
-   },
-   {
-    "runner": "P11",
     "text": "H Rasalhague → H Transpluto RA 110.9758 10×φ^5 phi power (75.05) | J Rasalhague → J Transpluto RA 122.2437 122.222 ninth (97.02)",
     "score": null
    },
@@ -15811,13 +16696,6 @@
   ]
  },
  "flag_holders": {
-  "locked line star on natal Jupiter": [
-   "P01",
-   "P05",
-   "P07",
-   "P09",
-   "P11"
-  ],
   "natal body on a strong line star": [
    "P03",
    "P05",
@@ -15842,9 +16720,9 @@
   "P01": [
    {
     "body": "Jupiter",
-    "cells": 10,
+    "cells": 9,
     "H": 3,
-    "J": 7,
+    "J": 6,
     "layers": [
      "same body",
      "star rows",
@@ -15859,8 +16737,7 @@
      "top rows: S Saturn → J Jupiter RA 0.1337 conj (82.97) — only",
      "top rows: S Haumea → J Jupiter RA 101.9961 102 whole (64.47) [sky number: S Jupiter → Meissa RA 102.0057 102 whole (50.91)] — only",
      "top rows: S Venus → J Jupiter RA 33.9953 34 whole (58.60) — only",
-     "star rows: S Facies → J Jupiter RA 40.4549 25×φ golden (76.68) — only",
-     "star rows: J Facies → J Jupiter RA 40.4560 25×φ golden (70.50) — only"
+     "star rows: S Facies → J Jupiter RA 40.4549 25×φ golden (76.68) [same star: J Facies 40.4560 25×φ golden (70.50)] — only"
     ]
    },
    {
@@ -15882,24 +16759,6 @@
   ],
   "P03": [
    {
-    "body": "Pallas",
-    "cells": 5,
-    "H": 2,
-    "J": 3,
-    "layers": [
-     "same body",
-     "star rows",
-     "top rows"
-    ],
-    "detail": [
-     "same body: S Pallas → H Pallas Dec 1.0190 1 whole (0.23) [360/360] — only",
-     "top rows: S Jupiter → J Pallas Dec 16.6661 16.6667 ninth (99.48) — only",
-     "star rows: H Fomalhaut → H Pallas RA 74.9984 75 whole (84.51) — only",
-     "star rows: J Rasalhague → J Pallas RA 155.0032 155 whole (70.67) — only",
-     "star rows: J Rasalhague → J Pallas Dec 37.9965 38 whole (67.81) — only"
-    ]
-   },
-   {
     "body": "Uranus",
     "cells": 5,
     "H": 3,
@@ -15914,6 +16773,23 @@
      "star rows: H Alkaid → H Uranus RA 177.9927 110×φ golden (52.26) — only",
      "star rows: J Galactic Centre → J Uranus Dec 7.0003 7 whole (96.60) — only",
      "star rows: J Rasalhague → J Uranus RA 31.0031 31 whole (71.41) — only"
+    ]
+   },
+   {
+    "body": "Pallas",
+    "cells": 4,
+    "H": 2,
+    "J": 2,
+    "layers": [
+     "same body",
+     "star rows",
+     "top rows"
+    ],
+    "detail": [
+     "same body: S Pallas → H Pallas Dec 1.0190 1 whole (0.23) [360/360] — only",
+     "top rows: S Jupiter → J Pallas Dec 16.6661 16.6667 ninth (99.48) — only",
+     "star rows: H Fomalhaut → H Pallas RA 74.9984 75 whole (84.51) — only",
+     "star rows: J Rasalhague → J Pallas RA 155.0032 155 whole (70.67) — only"
     ]
    },
    {
@@ -15934,22 +16810,6 @@
     ]
    },
    {
-    "body": "Ceres",
-    "cells": 4,
-    "H": 3,
-    "J": 1,
-    "layers": [
-     "same body",
-     "star rows"
-    ],
-    "detail": [
-     "same body: S Ceres → H Ceres Dec 11.1655 11.1111 ninth (loose) — only",
-     "same body: S Ceres → J Ceres RA 79.0161 79 whole (3.79) — only",
-     "star rows: H Aculeus → H Ceres Dec 64.0027 64 whole (74.89) — only",
-     "star rows: H Sadalmelik → H Ceres RA 158.9952 159 whole (57.75) — only"
-    ]
-   },
-   {
     "body": "Makemake",
     "cells": 4,
     "H": 2,
@@ -15964,9 +16824,41 @@
      "star rows: H Fomalhaut → H Makemake RA 148.8501 92×φ golden (51.90) — only",
      "star rows: J Sadalsuud → J Makemake RA 148.0043 148 whole (61.36) — only"
     ]
+   },
+   {
+    "body": "Ceres",
+    "cells": 4,
+    "H": 3,
+    "J": 1,
+    "layers": [
+     "same body",
+     "star rows"
+    ],
+    "detail": [
+     "same body: S Ceres → H Ceres Dec 11.1655 11.1111 ninth (loose) — only",
+     "same body: S Ceres → J Ceres RA 79.0161 79 whole (3.79) — only",
+     "star rows: H Aculeus → H Ceres Dec 64.0027 64 whole (74.89) — only",
+     "star rows: H Sadalmelik → H Ceres RA 158.9952 159 whole (57.75) — only"
+    ]
    }
   ],
   "P05": [
+   {
+    "body": "Venus",
+    "cells": 4,
+    "H": 1,
+    "J": 3,
+    "layers": [
+     "same body",
+     "star rows"
+    ],
+    "detail": [
+     "same body: S Venus → J Venus RA 176.0231 176 whole (loose) — only",
+     "star rows: H Galactic Centre → H Venus RA 122.9430 φ^10 phi power (84.73) — only",
+     "star rows: J Aculeus → J Venus RA 155.5578 155.556 ninth (99.79) — only",
+     "star rows: J Alphard → J Venus RA 32.3608 20×φ golden (99.30) — only"
+    ]
+   },
    {
     "body": "Uranus",
     "cells": 4,
@@ -15999,30 +16891,14 @@
      "star rows: H Spica → H Juno Dec 7.9973 8 whole (74.39) [360/45] — only",
      "star rows: H Sadalsuud → H Juno RA 24.2785 15×φ golden (56.64) — only"
     ]
-   },
-   {
-    "body": "Venus",
-    "cells": 4,
-    "H": 1,
-    "J": 3,
-    "layers": [
-     "same body",
-     "star rows"
-    ],
-    "detail": [
-     "same body: S Venus → J Venus RA 176.0231 176 whole (loose) — only",
-     "star rows: H Galactic Centre → H Venus RA 122.9430 φ^10 phi power (84.73) — only",
-     "star rows: J Aculeus → J Venus RA 155.5578 155.556 ninth (99.79) — only",
-     "star rows: J Alphard → J Venus RA 32.3608 20×φ golden (99.30) — only"
-    ]
    }
   ],
   "P07": [
    {
     "body": "Jupiter",
-    "cells": 7,
+    "cells": 6,
     "H": 2,
-    "J": 5,
+    "J": 4,
     "layers": [
      "same body",
      "star rows",
@@ -16034,8 +16910,24 @@
      "top rows: S Quaoar → J Jupiter Dec 0.0119 conj (92.25) — also: 7 Red Tornado",
      "top rows: S Ceres → J Jupiter Dec 36.0033 36 whole (69.83) [360/10] — only",
      "star rows: S Alkaid → J Jupiter Dec 64.7268 40×φ golden (69.02) — only",
-     "star rows: S Sadalsuud → J Jupiter RA 0.3409 conj (59.71) — only",
-     "star rows: J Sadalsuud → J Jupiter RA 0.3456 conj (59.23) — only"
+     "star rows: S Sadalsuud → J Jupiter RA 0.3409 conj (59.71) [same star: J Sadalsuud 0.3456 conj (59.23)] — only"
+    ]
+   },
+   {
+    "body": "Quaoar",
+    "cells": 4,
+    "H": 1,
+    "J": 3,
+    "layers": [
+     "T1/T2",
+     "same body",
+     "star rows"
+    ],
+    "detail": [
+     "same body: S Quaoar → J Quaoar Dec 1.0122 1 whole (15.26) [360/360] — only",
+     "T2: J Jupiter → J Quaoar Dec 1.0003 1 whole (96.79) [360/360] — only",
+     "star rows: H Aculeus → H Quaoar Dec 16.6604 16.6667 ninth (94.60) — only",
+     "star rows: J Sadalsuud → J Quaoar RA 79.2867 49×φ golden (82.23) — only"
     ]
    },
    {
@@ -16071,45 +16963,9 @@
      "star rows: J Sadalsuud → J Makemake RA 147.2369 91×φ golden (75.73) — only",
      "star rows: J Castor → J Makemake RA 62.0049 62 whole (57.07) — only"
     ]
-   },
-   {
-    "body": "Quaoar",
-    "cells": 4,
-    "H": 1,
-    "J": 3,
-    "layers": [
-     "T1/T2",
-     "same body",
-     "star rows"
-    ],
-    "detail": [
-     "same body: S Quaoar → J Quaoar Dec 1.0122 1 whole (15.26) [360/360] — only",
-     "T2: J Jupiter → J Quaoar Dec 1.0003 1 whole (96.79) [360/360] — only",
-     "star rows: H Aculeus → H Quaoar Dec 16.6604 16.6667 ninth (94.60) — only",
-     "star rows: J Sadalsuud → J Quaoar RA 79.2867 49×φ golden (82.23) — only"
-    ]
    }
   ],
   "P09": [
-   {
-    "body": "Jupiter",
-    "cells": 6,
-    "H": 3,
-    "J": 3,
-    "layers": [
-     "same body",
-     "star rows",
-     "top rows"
-    ],
-    "detail": [
-     "same body: S Jupiter → H Jupiter Dec 7.7736 7.77778 ninth (loose) — only",
-     "top rows: S Rahu → H Jupiter RA 173.0021 173 whole (80.02) — only",
-     "top rows: S Ketu → H Jupiter RA 6.9979 7 whole (80.02) — only",
-     "top rows: S Pallas → J Jupiter RA 18.8875 18.8889 ninth (99.02) — only",
-     "star rows: S Fomalhaut → J Jupiter RA 0.1626 conj (79.49) — only",
-     "star rows: J Fomalhaut → J Jupiter RA 0.1648 conj (79.24) — only"
-    ]
-   },
    {
     "body": "Sedna",
     "cells": 6,
@@ -16130,9 +16986,27 @@
     ]
    },
    {
-    "body": "Rahu",
-    "cells": 6,
+    "body": "Jupiter",
+    "cells": 5,
     "H": 3,
+    "J": 2,
+    "layers": [
+     "same body",
+     "star rows",
+     "top rows"
+    ],
+    "detail": [
+     "same body: S Jupiter → H Jupiter Dec 7.7736 7.77778 ninth (loose) — only",
+     "top rows: S Rahu → H Jupiter RA 173.0021 173 whole (80.02) — only",
+     "top rows: S Ketu → H Jupiter RA 6.9979 7 whole (80.02) — only",
+     "top rows: S Pallas → J Jupiter RA 18.8875 18.8889 ninth (99.02) — only",
+     "star rows: S Fomalhaut → J Jupiter RA 0.1626 conj (79.49) [same star: J Fomalhaut 0.1648 conj (79.24)] — only"
+    ]
+   },
+   {
+    "body": "Rahu",
+    "cells": 5,
+    "H": 2,
     "J": 3,
     "layers": [
      "same body",
@@ -16144,8 +17018,23 @@
      "top rows: S Sun → J Rahu Dec 21.0390 13×φ golden (73.55) — only",
      "star rows: H Deneb Algedi → H Rahu RA 166.6791 166.667 ninth (98.94) [sky number: S Moon → Facies RA 166.6813 166.667 ninth (98.75)] — only",
      "star rows: H Sadalmelik → H Rahu Dec 17.7945 11×φ golden (77.46) — only",
-     "star rows: H Sadalmelik → H Rahu RA 161.9949 162 whole (55.51) — only",
      "star rows: J Rasalhague → J Rahu RA 101.9368 63×φ golden (96.17) — only"
+    ]
+   },
+   {
+    "body": "Saturn",
+    "cells": 4,
+    "H": 2,
+    "J": 2,
+    "layers": [
+     "same body",
+     "star rows"
+    ],
+    "detail": [
+     "same body: S Saturn → J Saturn Dec 22.9885 23 whole (17.94) — only",
+     "star rows: H Spica → H Saturn Dec 11.0918 φ^5 phi power (94.30) — only",
+     "star rows: H Aculeus → H Saturn Dec 9.9975 10 whole (76.16) [360/36] — only",
+     "star rows: J Alphard → J Saturn Dec 14.9967 15 whole (69.40) [360/24] — only"
     ]
    },
    {
@@ -16180,30 +17069,14 @@
      "top rows: S Jupiter → J Orcus RA 153.7201 95×φ golden (61.87) — only",
      "star rows: J Spica → J Orcus Dec 10.9953 11 whole (58.58) — only"
     ]
-   },
-   {
-    "body": "Saturn",
-    "cells": 4,
-    "H": 2,
-    "J": 2,
-    "layers": [
-     "same body",
-     "star rows"
-    ],
-    "detail": [
-     "same body: S Saturn → J Saturn Dec 22.9885 23 whole (17.94) — only",
-     "star rows: H Spica → H Saturn Dec 11.0918 φ^5 phi power (94.30) — only",
-     "star rows: H Aculeus → H Saturn Dec 9.9975 10 whole (76.16) [360/36] — only",
-     "star rows: J Alphard → J Saturn Dec 14.9967 15 whole (69.40) [360/24] — only"
-    ]
    }
   ],
   "P11": [
    {
     "body": "Jupiter",
-    "cells": 13,
-    "H": 6,
-    "J": 7,
+    "cells": 9,
+    "H": 5,
+    "J": 4,
     "layers": [
      "star rows",
      "top rows"
@@ -16214,32 +17087,10 @@
      "top rows: S Neptune → H Jupiter Dec 0.9969 1 whole (71.03) [360/360] — only",
      "top rows: S Gonggong → H Jupiter RA 139.9957 140 whole (61.55) — only",
      "top rows: S Vesta → J Jupiter Dec 0.0203 conj (86.95) — only",
-     "star rows: S Sadalsuud → H Jupiter RA 126.2131 78×φ golden (64.12) — only",
-     "star rows: H Sadalsuud → H Jupiter RA 126.2159 78×φ golden (50.81) — only",
-     "star rows: S Sadalsuud → J Jupiter Dec 15.5555 15.5556 ninth (99.91) — only",
-     "star rows: J Sadalsuud → J Jupiter Dec 15.5554 15.5556 ninth (99.85) — only",
-     "star rows: J Deneb Algedi → J Jupiter Dec 5.0009 5 whole (91.09) [360/72] — only",
-     "star rows: S Deneb Algedi → J Jupiter Dec 4.9975 5 whole (76.15) [360/72] — only",
-     "star rows: S Meissa → J Jupiter RA 165.0443 102×φ golden (72.18) — only",
-     "star rows: J Meissa → J Jupiter RA 165.0461 102×φ golden (62.97) — only"
-    ]
-   },
-   {
-    "body": "Transpluto",
-    "cells": 6,
-    "H": 3,
-    "J": 3,
-    "layers": [
-     "same body",
-     "star rows"
-    ],
-    "detail": [
-     "same body: S Transpluto → J Transpluto RA 13.3233 13.3333 ninth (loose) — only",
-     "star rows: H Spica → H Transpluto RA 48.5424 30×φ golden (91.85) [sky number: S Moon → Mars Dec 48.5423 30×φ golden (92.44)] — only",
-     "star rows: H Deneb Algedi → H Transpluto RA 173.9975 174 whole (76.81) — only",
-     "star rows: H Rasalhague → H Transpluto RA 110.9758 10×φ^5 phi power (75.05) — only",
-     "star rows: J Rasalhague → J Transpluto RA 122.2437 122.222 ninth (97.02) — only",
-     "star rows: J Alphard → J Transpluto RA 0.4137 conj (52.45) — only"
+     "star rows: S Sadalsuud → H Jupiter RA 126.2131 78×φ golden (64.12) [same star: H Sadalsuud 126.2159 78×φ golden (50.81)] — only",
+     "star rows: S Sadalsuud → J Jupiter Dec 15.5555 15.5556 ninth (99.91) [same star: J Sadalsuud 15.5554 15.5556 ninth (99.85)] — only",
+     "star rows: J Deneb Algedi → J Jupiter Dec 5.0009 5 whole (91.09) [same star: S Deneb Algedi 4.9975 5 whole (76.15)] [360/72] — only",
+     "star rows: S Meissa → J Jupiter RA 165.0443 102×φ golden (72.18) [same star: J Meissa 165.0461 102×φ golden (62.97)] — only"
     ]
    },
    {
@@ -16261,20 +17112,21 @@
     ]
    },
    {
-    "body": "Chiron",
-    "cells": 4,
-    "H": 1,
+    "body": "Transpluto",
+    "cells": 6,
+    "H": 3,
     "J": 3,
     "layers": [
      "same body",
-     "star rows",
-     "top rows"
+     "star rows"
     ],
     "detail": [
-     "same body: S Chiron → H Chiron RA 12.9539 8×φ golden (loose) — only",
-     "same body: S Chiron → J Chiron RA 43.9759 44 whole (loose) — only",
-     "top rows: S Sun → J Chiron RA 84.9991 85 whole (91.37) — only",
-     "star rows: J Sadalsuud → J Chiron RA 88.9968 55×φ golden (71.62) — only"
+     "same body: S Transpluto → J Transpluto RA 13.3233 13.3333 ninth (loose) — only",
+     "star rows: H Spica → H Transpluto RA 48.5424 30×φ golden (91.85) [sky number: S Moon → Mars Dec 48.5423 30×φ golden (92.44)] — only",
+     "star rows: H Deneb Algedi → H Transpluto RA 173.9975 174 whole (76.81) — only",
+     "star rows: H Rasalhague → H Transpluto RA 110.9758 10×φ^5 phi power (75.05) — only",
+     "star rows: J Rasalhague → J Transpluto RA 122.2437 122.222 ninth (97.02) — only",
+     "star rows: J Alphard → J Transpluto RA 0.4137 conj (52.45) — only"
     ]
    },
    {
@@ -16295,6 +17147,22 @@
     ]
    },
    {
+    "body": "Ketu",
+    "cells": 4,
+    "H": 3,
+    "J": 1,
+    "layers": [
+     "star rows",
+     "top rows"
+    ],
+    "detail": [
+     "top rows: S Jupiter → H Ketu Dec 2.0009 2 whole (91.59) [360/180] — only",
+     "star rows: H Sadalsuud → H Ketu RA 11.0910 φ^5 phi power (97.20) — only",
+     "star rows: H Spica → H Ketu RA 132.6748 82×φ golden (76.97) — only",
+     "star rows: J Sadalmelik → J Ketu RA 59.8629 37×φ golden (74.79) — only"
+    ]
+   },
+   {
     "body": "Gonggong",
     "cells": 4,
     "H": 2,
@@ -16312,41 +17180,24 @@
     ]
    },
    {
-    "body": "Ketu",
+    "body": "Chiron",
     "cells": 4,
-    "H": 3,
-    "J": 1,
+    "H": 1,
+    "J": 3,
     "layers": [
+     "same body",
      "star rows",
      "top rows"
     ],
     "detail": [
-     "top rows: S Jupiter → H Ketu Dec 2.0009 2 whole (91.59) [360/180] — only",
-     "star rows: H Sadalsuud → H Ketu RA 11.0910 φ^5 phi power (97.20) — only",
-     "star rows: H Spica → H Ketu RA 132.6748 82×φ golden (76.97) — only",
-     "star rows: J Sadalmelik → J Ketu RA 59.8629 37×φ golden (74.79) — only"
+     "same body: S Chiron → H Chiron RA 12.9539 8×φ golden (loose) — only",
+     "same body: S Chiron → J Chiron RA 43.9759 44 whole (loose) — only",
+     "top rows: S Sun → J Chiron RA 84.9991 85 whole (91.37) — only",
+     "star rows: J Sadalsuud → J Chiron RA 88.9968 55×φ golden (71.62) — only"
     ]
    }
   ],
   "P13": [
-   {
-    "body": "Sun",
-    "cells": 6,
-    "H": 1,
-    "J": 5,
-    "layers": [
-     "same body",
-     "star rows"
-    ],
-    "detail": [
-     "same body: S Sun → H Sun RA 19.4016 12×φ golden (loose) — only",
-     "same body: S Sun → J Sun RA 143.0085 143 whole (33.16) — only",
-     "star rows: J Deneb Algedi → J Sun Dec 14.4456 14.4444 ninth (98.77) — only",
-     "star rows: J Facies → J Sun Dec 22.2248 22.2222 ninth (96.45) — only",
-     "star rows: J Alkaid → J Sun Dec 50.9962 51 whole (65.34) — only",
-     "star rows: J Alkaid → J Sun RA 23.0042 23 whole (62.55) — only"
-    ]
-   },
    {
     "body": "Pallas",
     "cells": 6,
@@ -16363,6 +17214,23 @@
      "star rows: J Rasalhague → J Pallas Dec 27.5040 17×φ golden (84.94) — only",
      "star rows: J Galactic Centre → J Pallas RA 154.0031 154 whole (71.51) [sky number: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)] — only",
      "star rows: J Aculeus → J Pallas RA 155.3367 96×φ golden (68.99) — only"
+    ]
+   },
+   {
+    "body": "Sun",
+    "cells": 5,
+    "H": 1,
+    "J": 4,
+    "layers": [
+     "same body",
+     "star rows"
+    ],
+    "detail": [
+     "same body: S Sun → H Sun RA 19.4016 12×φ golden (loose) — only",
+     "same body: S Sun → J Sun RA 143.0085 143 whole (33.16) — only",
+     "star rows: J Deneb Algedi → J Sun Dec 14.4456 14.4444 ninth (98.77) — only",
+     "star rows: J Facies → J Sun Dec 22.2248 22.2222 ninth (96.45) — only",
+     "star rows: J Alkaid → J Sun Dec 50.9962 51 whole (65.34) — only"
     ]
    },
    {

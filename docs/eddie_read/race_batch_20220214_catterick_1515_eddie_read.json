@@ -471,6 +471,8 @@
    "sky_number": "S Sun → Difda Dec 5.0001 5 whole (98.75)",
    "circle": "360/72",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -487,6 +489,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -503,6 +507,8 @@
    "sky_number": "S Moon → Vesta RA 163.4101 101×φ golden (42.14)",
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -519,6 +525,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -535,6 +543,8 @@
    "sky_number": null,
    "circle": "360/24",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -551,6 +561,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -567,6 +579,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -583,6 +597,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "also: 4 Winds Of Fire"
   },
   {
@@ -599,6 +615,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -615,6 +633,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -631,6 +651,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "also: 2 Marown, 3 Omar Maretti, 4 Winds Of Fire"
   },
   {
@@ -647,6 +669,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -663,6 +687,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "also: 3 Omar Maretti"
   },
   {
@@ -679,6 +705,8 @@
    "sky_number": null,
    "circle": "360/120",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -695,6 +723,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -711,6 +741,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -727,6 +759,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -743,6 +777,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -759,22 +795,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "S Murzim",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 44.007708,
-   "target": "44",
-   "family": "whole",
-   "score": 37.77,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -791,6 +813,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [
+    {
+     "source": "S Murzim",
+     "value": 44.007708,
+     "target": "44",
+     "family": "whole",
+     "score": 37.77
+    }
+   ],
    "field": "only"
   },
   {
@@ -807,6 +839,8 @@
    "sky_number": null,
    "circle": "360/360",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -823,6 +857,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -839,6 +875,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -855,6 +893,8 @@
    "sky_number": null,
    "circle": "360/45",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -871,6 +911,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -887,6 +929,8 @@
    "sky_number": "S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)",
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -903,6 +947,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -919,6 +965,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -935,6 +983,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1143,6 +1193,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1159,6 +1211,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1175,6 +1229,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1191,6 +1247,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1207,6 +1265,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1223,6 +1283,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1239,6 +1301,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1255,6 +1319,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1271,6 +1337,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1287,6 +1355,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1303,6 +1373,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1319,6 +1391,16 @@
    "sky_number": null,
    "circle": "360/360",
    "note": "",
+   "star": "Hamal",
+   "copies": [
+    {
+     "source": "J Hamal",
+     "value": 1.019712,
+     "target": "1",
+     "family": "whole",
+     "score": 0.02
+    }
+   ],
    "field": "only"
   },
   {
@@ -1335,6 +1417,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1351,22 +1435,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Hamal",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 1.019712,
-   "target": "1",
-   "family": "whole",
-   "score": 0.02,
-   "sky_number": null,
-   "circle": "360/360",
-   "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1383,6 +1453,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1399,6 +1471,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1415,6 +1489,8 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1431,6 +1507,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1447,6 +1525,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1463,6 +1543,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1479,6 +1561,8 @@
    "sky_number": null,
    "circle": "360/360",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1495,6 +1579,8 @@
    "sky_number": "S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)",
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1511,6 +1597,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1527,6 +1615,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1543,6 +1633,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1559,6 +1651,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1575,6 +1669,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1591,6 +1687,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1831,6 +1929,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1847,6 +1947,8 @@
    "sky_number": "S Sun → Jupiter RA 14.1471 14.14 sqrt2 (86.42)",
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1863,6 +1965,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1879,6 +1983,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1895,6 +2001,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1911,6 +2019,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "also: 1 Almazhar Garde, 3 Omar Maretti, 4 Winds Of Fire"
   },
   {
@@ -1927,6 +2037,8 @@
    "sky_number": "S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)",
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1943,6 +2055,8 @@
    "sky_number": null,
    "circle": "360/24",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1959,6 +2073,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1975,6 +2091,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1991,6 +2109,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2007,6 +2127,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2023,6 +2145,8 @@
    "sky_number": null,
    "circle": "360/3",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2039,22 +2163,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P03",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "S Vega",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 174.74246,
-   "target": "108×φ",
-   "family": "golden",
-   "score": 70.39,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2071,6 +2181,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [
+    {
+     "source": "S Vega",
+     "value": 174.74246,
+     "target": "108×φ",
+     "family": "golden",
+     "score": 70.39
+    }
+   ],
    "field": "only"
   },
   {
@@ -2087,6 +2207,8 @@
    "sky_number": "S Sun → Difda Dec 5.0001 5 whole (98.75)",
    "circle": "360/72",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "also: 3 Omar Maretti"
   },
   {
@@ -2103,6 +2225,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2119,6 +2243,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2375,6 +2501,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2391,6 +2519,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2407,6 +2537,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "also: 6 The Paddy Pie"
   },
   {
@@ -2423,6 +2555,8 @@
    "sky_number": "S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)",
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2439,6 +2573,8 @@
    "sky_number": "S Sun → Difda Dec 5.0001 5 whole (98.75)",
    "circle": "360/72",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2455,6 +2591,8 @@
    "sky_number": null,
    "circle": "360/45",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2471,6 +2609,8 @@
    "sky_number": null,
    "circle": "360/3",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2487,6 +2627,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "also: 3 Omar Maretti"
   },
   {
@@ -2503,6 +2645,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2519,6 +2663,8 @@
    "sky_number": null,
    "circle": "360/180",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2535,6 +2681,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2551,6 +2699,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2567,6 +2717,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2583,6 +2735,8 @@
    "sky_number": null,
    "circle": "360/180",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2599,6 +2753,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2615,6 +2771,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2631,6 +2789,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2647,6 +2807,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2663,6 +2825,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2679,6 +2843,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "also: 3 Omar Maretti"
   },
   {
@@ -2695,6 +2861,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "also: 6 The Paddy Pie"
   },
   {
@@ -2711,6 +2879,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2727,6 +2897,8 @@
    "sky_number": null,
    "circle": "360/3",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2743,6 +2915,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2759,6 +2933,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2775,6 +2951,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2983,6 +3161,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2999,6 +3179,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "also: 1 Almazhar Garde, 2 Marown, 4 Winds Of Fire"
   },
   {
@@ -3015,6 +3197,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3031,6 +3215,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3047,6 +3233,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "also: 2 Marown"
   },
   {
@@ -3063,6 +3251,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3079,6 +3269,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "also: 1 Almazhar Garde"
   },
   {
@@ -3095,6 +3287,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3111,6 +3305,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3127,54 +3323,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "S Hamal",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 0.252534,
-   "target": "conj",
-   "family": "conj",
-   "score": 2.5,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Hamal",
-   "body": "Sun",
-   "plane": "Dec",
-   "value": 17.770906,
-   "target": "17.7778",
-   "family": "ninth",
-   "score": 94.62,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Hamal",
-   "body": "Mars",
-   "plane": "Dec",
-   "value": 29.031554,
-   "target": "φ^7",
-   "family": "phi power",
-   "score": 96.06,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3191,6 +3341,52 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [
+    {
+     "source": "S Hamal",
+     "value": 0.252534,
+     "target": "conj",
+     "family": "conj",
+     "score": 2.5
+    }
+   ],
+   "field": "only"
+  },
+  {
+   "runner": "P05",
+   "layer": "star rows",
+   "chart": "H",
+   "source": "H Hamal",
+   "body": "Sun",
+   "plane": "Dec",
+   "value": 17.770906,
+   "target": "17.7778",
+   "family": "ninth",
+   "score": 94.62,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "star": "Hamal",
+   "copies": [],
+   "field": "only"
+  },
+  {
+   "runner": "P05",
+   "layer": "star rows",
+   "chart": "H",
+   "source": "H Hamal",
+   "body": "Mars",
+   "plane": "Dec",
+   "value": 29.031554,
+   "target": "φ^7",
+   "family": "phi power",
+   "score": 96.06,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3207,6 +3403,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3223,6 +3421,8 @@
    "sky_number": null,
    "circle": "360/180",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3239,6 +3439,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3255,6 +3457,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3271,6 +3475,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3287,6 +3493,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3303,6 +3511,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "also: 4 Winds Of Fire"
   },
   {
@@ -3319,6 +3529,8 @@
    "sky_number": "S Sun → Difda Dec 5.0001 5 whole (98.75)",
    "circle": "360/72",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "also: 2 Marown"
   },
   {
@@ -3335,6 +3547,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "also: 5 Brian Boranha"
   },
   {
@@ -3351,6 +3565,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3367,6 +3583,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3383,6 +3601,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3399,6 +3619,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3415,6 +3637,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3677,22 +3901,6 @@
    "runner": "P05",
    "layer": "star rows",
    "chart": "J",
-   "source": "S Alphard",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 38.992343,
-   "target": "39",
-   "family": "whole",
-   "score": 38.09,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "J",
    "source": "J Alphard",
    "body": "Jupiter",
    "plane": "RA",
@@ -3703,6 +3911,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [
+    {
+     "source": "S Alphard",
+     "value": 38.992343,
+     "target": "39",
+     "family": "whole",
+     "score": 38.09
+    }
+   ],
    "field": "only"
   },
   {
@@ -3719,6 +3937,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3735,6 +3955,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3751,6 +3973,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3767,6 +3991,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3783,6 +4009,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3799,6 +4027,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3815,6 +4045,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3831,6 +4063,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3847,6 +4081,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3863,22 +4099,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Difda",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 169.992282,
-   "target": "170",
-   "family": "whole",
-   "score": 37.71,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Difda",
+   "copies": [
+    {
+     "source": "J Difda",
+     "value": 169.992282,
+     "target": "170",
+     "family": "whole",
+     "score": 37.71
+    }
+   ],
    "field": "only"
   },
   {
@@ -3895,6 +4125,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3911,6 +4143,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3927,6 +4161,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "also: 5 Brian Boranha"
   },
   {
@@ -3943,6 +4179,8 @@
    "sky_number": null,
    "circle": "360/24",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3959,6 +4197,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3975,6 +4215,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3991,6 +4233,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "also: 5 Brian Boranha"
   },
   {
@@ -4007,6 +4251,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4023,6 +4269,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4039,6 +4287,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4055,6 +4305,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4071,6 +4323,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4087,6 +4341,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4103,6 +4359,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "also: 2 Marown"
   },
   {
@@ -4119,6 +4377,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4135,22 +4395,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "S Vega",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 37.989111,
-   "target": "38",
-   "family": "whole",
-   "score": 20.75,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4167,6 +4413,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [
+    {
+     "source": "S Vega",
+     "value": 37.989111,
+     "target": "38",
+     "family": "whole",
+     "score": 20.75
+    }
+   ],
    "field": "only"
   },
   {
@@ -4183,6 +4439,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4439,6 +4697,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4455,6 +4715,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4471,6 +4733,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4487,6 +4751,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4503,6 +4769,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "also: 1 Almazhar Garde"
   },
   {
@@ -4519,6 +4787,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "also: 1 Almazhar Garde, 2 Marown, 3 Omar Maretti"
   },
   {
@@ -4535,6 +4805,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4551,6 +4823,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4567,6 +4841,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4583,6 +4859,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4599,6 +4877,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4615,6 +4895,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4631,6 +4913,16 @@
    "sky_number": null,
    "circle": "360/10",
    "note": "",
+   "star": "Difda",
+   "copies": [
+    {
+     "source": "H Difda",
+     "value": 35.987448,
+     "target": "36",
+     "family": "whole",
+     "score": 13.87
+    }
+   ],
    "field": "only"
   },
   {
@@ -4647,6 +4939,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4663,22 +4957,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Difda",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 35.987448,
-   "target": "36",
-   "family": "whole",
-   "score": 13.87,
-   "sky_number": null,
-   "circle": "360/10",
-   "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4695,6 +4975,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4711,6 +4993,8 @@
    "sky_number": null,
    "circle": "360/45",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4727,6 +5011,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4743,6 +5029,8 @@
    "sky_number": null,
    "circle": "360/3",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4759,6 +5047,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4775,6 +5065,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4791,6 +5083,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "also: 3 Omar Maretti"
   },
   {
@@ -4807,6 +5101,8 @@
    "sky_number": "S Sun → Difda Dec 5.0001 5 whole (98.75)",
    "circle": "360/72",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4823,6 +5119,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5143,6 +5441,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5159,6 +5459,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5175,6 +5477,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5191,6 +5495,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5207,6 +5513,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5223,6 +5531,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5239,6 +5549,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5255,6 +5567,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5271,6 +5585,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5287,6 +5603,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5303,6 +5621,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5319,6 +5639,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5335,6 +5657,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5351,6 +5675,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5367,6 +5693,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5383,6 +5711,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5399,6 +5729,8 @@
    "sky_number": "S Sun → Difda Dec 5.0001 5 whole (98.75)",
    "circle": "360/72",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5415,6 +5747,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5431,6 +5765,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5447,6 +5783,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5463,6 +5801,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5479,6 +5819,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5495,6 +5837,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5511,6 +5855,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5527,6 +5873,8 @@
    "sky_number": "S Sun → Difda Dec 5.0001 5 whole (98.75)",
    "circle": "360/72",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5543,22 +5891,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Unukalhai",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 16.663471,
-   "target": "16.6667",
-   "family": "ninth",
-   "score": 97.26,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Unukalhai",
+   "copies": [
+    {
+     "source": "J Unukalhai",
+     "value": 16.663471,
+     "target": "16.6667",
+     "family": "ninth",
+     "score": 97.26
+    }
+   ],
    "field": "only"
   },
   {
@@ -5575,6 +5917,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5591,6 +5935,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5607,6 +5953,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5623,6 +5971,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5639,6 +5989,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5655,6 +6007,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5671,6 +6025,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5687,6 +6043,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5959,6 +6317,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5975,6 +6335,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5991,6 +6353,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6007,6 +6371,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6023,6 +6389,8 @@
    "sky_number": null,
    "circle": "360/10",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6039,6 +6407,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6055,6 +6425,8 @@
    "sky_number": null,
    "circle": "360/45",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6071,6 +6443,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6087,22 +6461,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P09",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Difda",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 26.982921,
-   "target": "27",
-   "family": "whole",
-   "score": 2.13,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Difda",
+   "copies": [
+    {
+     "source": "H Difda",
+     "value": 26.982921,
+     "target": "27",
+     "family": "whole",
+     "score": 2.13
+    }
+   ],
    "field": "only"
   },
   {
@@ -6119,6 +6487,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6135,6 +6505,8 @@
    "sky_number": null,
    "circle": "360/360",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6151,6 +6523,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6167,6 +6541,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6183,6 +6559,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6199,6 +6577,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6215,6 +6595,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6231,6 +6613,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "also: 3 Omar Maretti"
   },
   {
@@ -6247,6 +6631,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6263,6 +6649,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6279,6 +6667,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6295,6 +6685,8 @@
    "sky_number": null,
    "circle": "360/360",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6311,6 +6703,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6327,6 +6721,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6343,6 +6739,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6359,6 +6757,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6679,6 +7079,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6695,6 +7097,8 @@
    "sky_number": null,
    "circle": "360/360",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6711,6 +7115,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6727,6 +7133,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6743,6 +7151,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6759,6 +7169,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6775,6 +7187,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6791,6 +7205,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6807,6 +7223,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6823,6 +7241,8 @@
    "sky_number": null,
    "circle": "360/90",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6839,6 +7259,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6855,6 +7277,8 @@
    "sky_number": null,
    "circle": "360/9",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6871,6 +7295,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6887,6 +7313,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "also: 3 Omar Maretti"
   },
   {
@@ -6903,6 +7331,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6919,6 +7349,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6935,6 +7367,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6951,6 +7385,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6967,6 +7403,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6983,6 +7421,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6999,6 +7439,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7015,6 +7457,8 @@
    "sky_number": null,
    "circle": "360/10",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7031,6 +7475,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "also: 3 Omar Maretti"
   },
   {
@@ -7047,6 +7493,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7063,6 +7511,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7239,6 +7689,16 @@
    "sky_number": null,
    "circle": "360/12",
    "note": "",
+   "star": "Alphard",
+   "copies": [
+    {
+     "source": "H Alphard",
+     "value": 30.010906,
+     "target": "30",
+     "family": "whole",
+     "score": 20.68
+    }
+   ],
    "field": "only"
   },
   {
@@ -7255,22 +7715,8 @@
    "sky_number": null,
    "circle": "360/120",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Alphard",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 30.010906,
-   "target": "30",
-   "family": "whole",
-   "score": 20.68,
-   "sky_number": null,
-   "circle": "360/12",
-   "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7287,6 +7733,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7303,6 +7751,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7319,6 +7769,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7335,6 +7787,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7351,6 +7805,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7367,6 +7823,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7383,6 +7841,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7399,6 +7859,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7415,6 +7877,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7431,6 +7895,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7447,6 +7913,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7463,6 +7931,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7479,6 +7949,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7495,6 +7967,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7511,6 +7985,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7527,6 +8003,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7543,6 +8021,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7559,6 +8039,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7575,6 +8057,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7591,6 +8075,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7607,6 +8093,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7943,6 +8431,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7959,6 +8449,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7975,6 +8467,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alphard",
+   "copies": [],
    "field": "also: 2 Marown"
   },
   {
@@ -7991,38 +8485,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "S Deneb Algedi",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 65.987314,
-   "target": "66",
-   "family": "whole",
-   "score": 13.37,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Deneb Algedi",
-   "body": "Mars",
-   "plane": "Dec",
-   "value": 12.227921,
-   "target": "12.2222",
-   "family": "ninth",
-   "score": 92.11,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Betelgeuse",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8039,6 +8503,34 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [
+    {
+     "source": "S Deneb Algedi",
+     "value": 65.987314,
+     "target": "66",
+     "family": "whole",
+     "score": 13.37
+    }
+   ],
+   "field": "only"
+  },
+  {
+   "runner": "P11",
+   "layer": "star rows",
+   "chart": "J",
+   "source": "J Deneb Algedi",
+   "body": "Mars",
+   "plane": "Dec",
+   "value": 12.227921,
+   "target": "12.2222",
+   "family": "ninth",
+   "score": 92.11,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8055,6 +8547,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8071,6 +8565,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Deneb Algedi",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8087,6 +8583,8 @@
    "sky_number": "S Sun → Difda Dec 5.0001 5 whole (98.75)",
    "circle": "360/72",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8103,6 +8601,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8119,6 +8619,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8135,6 +8637,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Difda",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8151,6 +8655,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Hamal",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8167,6 +8673,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8183,6 +8691,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8199,6 +8709,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8215,6 +8727,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8231,6 +8745,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Murzim",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8247,6 +8763,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8263,6 +8781,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8279,6 +8799,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Unukalhai",
+   "copies": [],
    "field": "also: 2 Marown"
   },
   {
@@ -8295,6 +8817,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8311,6 +8835,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8327,6 +8853,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8343,6 +8871,8 @@
    "sky_number": null,
    "circle": "360/15",
    "note": "",
+   "star": "Vega",
+   "copies": [],
    "field": "only"
   }
  ],
@@ -10926,20 +11456,6 @@
     "score": 59.24306995942629
    }
   ],
-  "locked line star on natal Jupiter": [
-   {
-    "runner": "P03",
-    "chart": "H",
-    "text": "H Vega → H Jupiter RA 174.7495 108×φ golden (88.75) | S Vega → H Jupiter RA 174.7425 108×φ golden (70.39)",
-    "score": 70.39023081879095
-   },
-   {
-    "runner": "P07",
-    "chart": "J",
-    "text": "J Unukalhai → J Jupiter Dec 16.6635 16.6667 ninth (97.26) | S Unukalhai → J Jupiter Dec 16.6678 16.6667 ninth (99.01)",
-    "score": 97.26068611851976
-   }
-  ],
   "sky centre conj natal Jupiter": [
    {
     "runner": "P05",
@@ -11026,10 +11542,6 @@
    "P01",
    "P03"
   ],
-  "locked line star on natal Jupiter": [
-   "P03",
-   "P07"
-  ],
   "sky centre conj natal Jupiter": [
    "P05"
   ],
@@ -11053,22 +11565,6 @@
  "threads": {
   "P01": [
    {
-    "body": "Orcus",
-    "cells": 4,
-    "H": 2,
-    "J": 2,
-    "layers": [
-     "same body",
-     "star rows"
-    ],
-    "detail": [
-     "same body: S Orcus → H Orcus RA 5.9764 6 whole (loose) [360/60] — only",
-     "same body: S Orcus → J Orcus Dec 10.0038 10 whole (65.78) [360/36] — only",
-     "star rows: H Betelgeuse → H Orcus RA 62.0057 62 whole (51.39) — only",
-     "star rows: J Deneb Algedi → J Orcus Dec 13.9972 14 whole (74.35) — only"
-    ]
-   },
-   {
     "body": "Neptune",
     "cells": 4,
     "H": 1,
@@ -11084,13 +11580,29 @@
      "star rows: H Alphard → H Neptune RA 163.4151 101×φ golden (64.59) [sky number: S Moon → Vesta RA 163.4101 101×φ golden (42.14)] — only",
      "star rows: J Alphard → J Neptune Dec 10.0007 10 whole (93.57) [360/36] — only"
     ]
+   },
+   {
+    "body": "Orcus",
+    "cells": 4,
+    "H": 2,
+    "J": 2,
+    "layers": [
+     "same body",
+     "star rows"
+    ],
+    "detail": [
+     "same body: S Orcus → H Orcus RA 5.9764 6 whole (loose) [360/60] — only",
+     "same body: S Orcus → J Orcus Dec 10.0038 10 whole (65.78) [360/36] — only",
+     "star rows: H Betelgeuse → H Orcus RA 62.0057 62 whole (51.39) — only",
+     "star rows: J Deneb Algedi → J Orcus Dec 13.9972 14 whole (74.35) — only"
+    ]
    }
   ],
   "P03": [
    {
     "body": "Jupiter",
-    "cells": 8,
-    "H": 5,
+    "cells": 7,
+    "H": 4,
     "J": 3,
     "layers": [
      "same body",
@@ -11103,25 +11615,8 @@
      "top rows: S Mars → H Jupiter RA 177.9927 110×φ golden (52.29) — only",
      "top rows: S Saturn → J Jupiter RA 0.0559 conj (92.69) — only",
      "top rows: S Sedna → J Jupiter RA 98.7054 61×φ golden (69.54) — only",
-     "star rows: H Vega → H Jupiter RA 174.7495 108×φ golden (88.75) — only",
-     "star rows: S Vega → H Jupiter RA 174.7425 108×φ golden (70.39) — only",
+     "star rows: H Vega → H Jupiter RA 174.7495 108×φ golden (88.75) [same star: S Vega 174.7425 108×φ golden (70.39)] — only",
      "star rows: S Difda → J Jupiter Dec 1.5552 1.55556 ninth (96.68) — only"
-    ]
-   },
-   {
-    "body": "Mars",
-    "cells": 4,
-    "H": 1,
-    "J": 3,
-    "layers": [
-     "same body",
-     "star rows"
-    ],
-    "detail": [
-     "same body: S Mars → H Mars Dec 19.4478 12×φ golden (loose) [sky number: S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)] — only",
-     "star rows: J Vega → J Mars Dec 14.5642 9×φ golden (88.72) — only",
-     "star rows: J Unukalhai → J Mars Dec 17.7919 11×φ golden (63.87) — only",
-     "star rows: J Murzim → J Mars RA 0.4333 conj (50.57) — only"
     ]
    },
    {
@@ -11138,6 +11633,22 @@
      "star rows: H Deneb Algedi → H Chiron Dec 14.9954 15 whole (59.07) [360/24] — only",
      "star rows: J Unukalhai → J Chiron RA 166.6071 166.667 ninth (94.89) — only",
      "star rows: J Deneb Algedi → J Chiron Dec 34.0029 34 whole (73.38) — only"
+    ]
+   },
+   {
+    "body": "Mars",
+    "cells": 4,
+    "H": 1,
+    "J": 3,
+    "layers": [
+     "same body",
+     "star rows"
+    ],
+    "detail": [
+     "same body: S Mars → H Mars Dec 19.4478 12×φ golden (loose) [sky number: S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)] — only",
+     "star rows: J Vega → J Mars Dec 14.5642 9×φ golden (88.72) — only",
+     "star rows: J Unukalhai → J Mars Dec 17.7919 11×φ golden (63.87) — only",
+     "star rows: J Murzim → J Mars RA 0.4333 conj (50.57) — only"
     ]
    }
   ],
@@ -11156,9 +11667,9 @@
      "same body: S Jupiter → J Jupiter RA 161.1092 100×φ^1 phi power (loose) — only",
      "top rows: S Moon → H Jupiter RA 23.0037 23 whole (66.81) — only",
      "top rows: S Chiron → J Jupiter Dec 4.8541 3×φ golden (99.77) — only",
-     "star rows: J Alphard → J Jupiter RA 39.0003 39 whole (96.80) — only",
-     "star rows: S Difda → J Jupiter RA 169.9995 170 whole (94.61) — only",
-     "star rows: J Vega → J Jupiter Dec 37.9954 38 whole (59.47) — only"
+     "star rows: J Alphard → J Jupiter RA 39.0003 39 whole (96.80) [same star: S Alphard 38.9923 39 whole (38.09)] — only",
+     "star rows: S Difda → J Jupiter RA 169.9995 170 whole (94.61) [same star: J Difda 169.9923 170 whole (37.71)] — only",
+     "star rows: J Vega → J Jupiter Dec 37.9954 38 whole (59.47) [same star: S Vega 37.9891 38 whole (20.75)] — only"
     ]
    },
    {
@@ -11216,6 +11727,22 @@
     ]
    },
    {
+    "body": "Makemake",
+    "cells": 4,
+    "H": 1,
+    "J": 3,
+    "layers": [
+     "same body",
+     "star rows"
+    ],
+    "detail": [
+     "same body: S Makemake → J Makemake Dec 12.9253 8×φ golden (loose) — only",
+     "star rows: H Betelgeuse → H Makemake Dec 18.8891 18.8889 ninth (99.83) — only",
+     "star rows: J Murzim → J Makemake Dec 53.3988 33×φ golden (78.35) — only",
+     "star rows: J Alphard → J Makemake RA 25.9974 26 whole (75.61) — only"
+    ]
+   },
+   {
     "body": "Pluto",
     "cells": 4,
     "H": 2,
@@ -11247,39 +11774,6 @@
      "top rows: S Jupiter → H Rahu RA 153.0007 153 whole (93.06) — only",
      "top rows: S Sun → J Rahu RA 0.3830 conj (55.46) — only",
      "star rows: J Vega → J Rahu RA 49.0003 49 whole (97.32) — only"
-    ]
-   },
-   {
-    "body": "Jupiter",
-    "cells": 4,
-    "H": 1,
-    "J": 3,
-    "layers": [
-     "same body",
-     "star rows",
-     "top rows"
-    ],
-    "detail": [
-     "same body: S Jupiter → J Jupiter RA 110.6261 10×φ^5 phi power (loose) — only",
-     "top rows: S Juno → H Jupiter RA 170.0058 170 whole (50.21) — only",
-     "star rows: S Unukalhai → J Jupiter Dec 16.6678 16.6667 ninth (99.01) — only",
-     "star rows: J Unukalhai → J Jupiter Dec 16.6635 16.6667 ninth (97.26) — only"
-    ]
-   },
-   {
-    "body": "Makemake",
-    "cells": 4,
-    "H": 1,
-    "J": 3,
-    "layers": [
-     "same body",
-     "star rows"
-    ],
-    "detail": [
-     "same body: S Makemake → J Makemake Dec 12.9253 8×φ golden (loose) — only",
-     "star rows: H Betelgeuse → H Makemake Dec 18.8891 18.8889 ninth (99.83) — only",
-     "star rows: J Murzim → J Makemake Dec 53.3988 33×φ golden (78.35) — only",
-     "star rows: J Alphard → J Makemake RA 25.9974 26 whole (75.61) — only"
     ]
    }
   ],
@@ -11326,22 +11820,6 @@
   ],
   "P11": [
    {
-    "body": "Jupiter",
-    "cells": 4,
-    "H": 2,
-    "J": 2,
-    "layers": [
-     "same body",
-     "top rows"
-    ],
-    "detail": [
-     "same body: S Jupiter → H Jupiter Dec 30.0278 30 whole (loose) [360/12] — only",
-     "same body: S Jupiter → J Jupiter Dec 14.1404 14.14 sqrt2 (95.15) [sky number: S Sun → Jupiter RA 14.1471 14.14 sqrt2 (86.42)] — only",
-     "top rows: S Pluto → H Jupiter RA 127.8231 79×φ golden (90.64) [sky number: S Sun → Murzim RA 127.8222 79×φ golden (85.13)] — only",
-     "top rows: S Venus → J Jupiter Dec 5.9971 6 whole (73.18) [360/60] — only"
-    ]
-   },
-   {
     "body": "Gonggong",
     "cells": 4,
     "H": 2,
@@ -11356,6 +11834,22 @@
      "top rows: S Moon → H Gonggong RA 150.4774 93×φ golden (98.54) — only",
      "star rows: J Vega → J Gonggong Dec 60.9988 61 whole (88.40) — only",
      "star rows: J Deneb Algedi → J Gonggong RA 0.2640 conj (67.89) — only"
+    ]
+   },
+   {
+    "body": "Jupiter",
+    "cells": 4,
+    "H": 2,
+    "J": 2,
+    "layers": [
+     "same body",
+     "top rows"
+    ],
+    "detail": [
+     "same body: S Jupiter → H Jupiter Dec 30.0278 30 whole (loose) [360/12] — only",
+     "same body: S Jupiter → J Jupiter Dec 14.1404 14.14 sqrt2 (95.15) [sky number: S Sun → Jupiter RA 14.1471 14.14 sqrt2 (86.42)] — only",
+     "top rows: S Pluto → H Jupiter RA 127.8231 79×φ golden (90.64) [sky number: S Sun → Murzim RA 127.8222 79×φ golden (85.13)] — only",
+     "top rows: S Venus → J Jupiter Dec 5.9971 6 whole (73.18) [360/60] — only"
     ]
    }
   ]

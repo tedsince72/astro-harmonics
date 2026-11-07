@@ -148,6 +148,9 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   two layers counts once); flags held listed with their cells; T24 top rows = S Jupiter / Sun / Moon -> natal body, then S body -> natal
   Jupiter (bodies only), order Jupiter, Sun, Moon, horse then jockey, score; S star -> natal Jupiter moved under its star in the star rows;
   every cell (sky notes, MATCH, flags) written 'value target family (score)'. Tests 5602/5602; independent checker 0 mismatches.
+  One fixed star on one natal body counts once (Eddie, 7 Nov 2026): a star's natal and sky copies onto the same natal body (same plane)
+  are one star-row line (best copy kept, the others in '[same star: ...]'), a thread counts a star once per body, and the 'locked line
+  star on natal Jupiter' flag is gone. Tests 8070/8070; independent checker 0 mismatches. Version 4 back-test unchanged (6 of 14).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
 - On the Mac: see `docs/MAC_SETUP.md` (venv with Python 3.12+, `pip install openpyxl`). Scripts call `python3.12`; inside the venv

@@ -124,7 +124,7 @@ for wbname, (runner, cells) in CASES.items():
 
     # field flags
     def key(p):
-        src = p['source'][2:] if p['source'][:2] in ('H ', 'J ') else p['source']
+        src = p['star'] if p.get('star') else p['source'][2:] if p['source'][:2] in ('H ', 'J ') else p['source']
         return (p['layer'] if p['layer'] not in ('T1', 'T2') else 'T1/T2', src, p['body'], p['plane'], p['family'], p['target'])
     hold = defaultdict(set)
     for p in D['pieces']:
@@ -167,6 +167,26 @@ for wbname, (runner, _) in CASES.items():
                 for x in D['flags'][k]:
                     if x['runner'] == R:
                         check(f"  - {x['text']}" in sec[sec.index('### Flags held'):], f'{wbname} {R}: flag line {k}')
+
+# one fixed star on one natal body counts once (Eddie, 7 Nov 2026)
+for wbname in CASES:
+    D = E.read(os.path.join(REF, wbname))
+    seen = set()
+    for p in D['pieces']:
+        if p['layer'] == 'star rows':
+            k = (p['runner'], p['chart'], p['body'], p['plane'], p['star'])
+            check(k not in seen, f'{wbname}: star twice on one body {k}')
+            seen.add(k)
+            check(all((q['score'] or 0) <= (p['score'] or 0) for q in p['copies']), f'{wbname}: copy above the kept cell {k}')
+    check('locked line star' not in E.report(D), f'{wbname}: locked flag still there')
+    for R, ths in D['threads'].items():
+        for th in ths:
+            stars = [d for d in th['detail'] if d.startswith('star rows: ')]
+            names = [(d.split(': ', 1)[1].split(' → ')[0][2:], d.split(' → ')[1][0]) for d in stars]   # star, chart of the body
+            check(len(names) == len(set(names)), f'{wbname} {R}: a star twice in thread {th["body"]}')
+md = E.report(E.read(os.path.join(REF, 'race_batch_20220219_haydock_1405_jupiter_tables.xlsx')))
+check('S Vindemiatrix → H Jupiter RA 179.4689 10×φ^6 phi power (94.25) [same star: H Vindemiatrix 179.4714 10×φ^6 phi power (93.71)]' in md,
+      'Haydock: Vindemiatrix copies not on one line')
 
 # every race runs
 for f in sorted(os.listdir(REF)):

@@ -20,6 +20,9 @@ Eddie's order (6 Nov 2026):
                        and the sky star onto natal Jupiter (S star -> H / J Jupiter)
   Part 2               threads in detail; every piece flagged 'only' or 'also: ...'
   Flags                the shapes found so far (named, field-checked, no ranking), each with its cells
+  One star, one body   a fixed star's natal and sky copies onto the same natal body (same plane) are one line, the best
+                       copy, the others beside it; a thread counts a star once per body (Eddie, 7 Nov 2026). The old
+                       'locked line star on natal Jupiter' flag (natal and sky copy on the same number) is gone.
 
 Rules fixed here so the output repeats race to race (Claude's choices, 6 Nov 2026; change only with Eddie):
   noted line   : a SKY block line of S Jupiter / Sun / Moon scoring >= 40 and exact within +-120 min of the off,
@@ -297,9 +300,35 @@ def read(path):
                                 or (X in CENTRES and e['score'] >= CELL_MIN)):
                             add(R, 'star rows', ch, f'{ch} {st}', X, pl, v, e)
 
+    # ------------------------------------------------ one fixed star on one natal body counts once (Eddie, 7 Nov 2026)
+    # A star barely moves between birth and race day, so the natal copy (H / J star) and the sky copy (S star) of a
+    # star onto the same natal body are one connection: one line, the best-scoring copy, the other copies beside it.
+    grp, order = {}, []
+    for p in pieces:
+        if p['layer'] != 'star rows':
+            order.append(p)
+            continue
+        k = (p['runner'], p['chart'], p['body'], p['plane'], p['source'][2:])
+        if k not in grp:
+            grp[k] = [p]
+            order.append(k)
+        else:
+            grp[k].append(p)
+    pieces = []
+    for x in order:
+        if isinstance(x, dict):
+            pieces.append(x)
+            continue
+        g = sorted(grp[x], key=lambda q: -(q['score'] or 0))
+        keep = dict(g[0])
+        keep['star'] = x[4]
+        keep['copies'] = [dict(source=q['source'], value=q['value'], target=q['target'], family=q['family'], score=q['score'])
+                          for q in g[1:]]
+        pieces.append(keep)
+
     # ------------------------------------------------ field flags
     def key(p):
-        src = p['source'][2:] if p['source'][:2] in ('H ', 'J ') else p['source']
+        src = p['star'] if p.get('star') else p['source'][2:] if p['source'][:2] in ('H ', 'J ') else p['source']
         return (p['layer'] if p['layer'] not in ('T1', 'T2') else 'T1/T2', src, p['body'], p['plane'], p['family'], p['target'])
     short = {r: names.get(r, r).split(' / ')[0] for r in runners}
     holders = defaultdict(set)
@@ -326,17 +355,6 @@ def read(path):
                         if e and e['family'] == 'conj' and e['score'] >= CELL_MIN:
                             flags['natal body on a strong line star'].append(
                                 dict(runner=R, text=cell(f"{ch} {st} → {ch} {X}", pl, x, e), score=e['score']))
-            # locked line star on natal Jupiter (natal and sky star on the same number)
-            for st in noted_stars:
-                if nat(ch, st) is None or S(st) is None:
-                    continue
-                for pl in ('RA', 'Dec'):
-                    a, b = dist(nat(ch, st), J, pl), dist(S(st), J, pl)
-                    e1, e2 = best(a, pl), best(b, pl)
-                    if e1 and e2 and e1['score'] >= CELL_MIN and e2['score'] >= CELL_MIN and e1['target'] == e2['target']:
-                        flags['locked line star on natal Jupiter'].append(
-                            dict(runner=R, chart=ch, text=cell(f"{ch} {st} → {ch} Jupiter", pl, a, e1) + ' | ' + cell(f"S {st} → {ch} Jupiter", pl, b, e2),
-                                 score=min(e1['score'], e2['score'])))
             # centre in conj with natal Jupiter
             for c in CENTRES:
                 for pl in ('RA', 'Dec'):
@@ -428,7 +446,7 @@ def read(path):
     # cross-chart: same source on the same body on both charts, same number on the same body on both charts
     for R in runners:
         mine = [p for p in pieces if p['runner'] == R and p['score'] is not None and p['score'] >= CELL_MIN]
-        src = lambda p: p['source'][2:] if p['source'][:2] in ('H ', 'J ') else p['source']
+        src = lambda p: p['star'] if p.get('star') else p['source'][2:] if p['source'][:2] in ('H ', 'J ') else p['source']
         for b in sorted({p['body'] for p in mine}):
             H = [p for p in mine if p['body'] == b and p['chart'] == 'H']
             Jc = [p for p in mine if p['body'] == b and p['chart'] == 'J']
@@ -446,9 +464,10 @@ def read(path):
     threads = defaultdict(list)
     for R in runners:
         mine = [p for p in pieces if p['runner'] == R and (p['score'] or 0) >= CELL_MIN or (p['runner'] == R and p['layer'] == 'same body')]
+        mine.sort(key=lambda p: -(p['score'] or 0))   # the best cell of a repeated star / cell is the one kept
         byb, seen = defaultdict(list), set()
-        for p in mine:   # a cell found by two layers (e.g. S Sun → H Sun: same body and top row) counts once
-            k = (p['source'], p['chart'], p['body'], p['plane'])
+        for p in mine:   # a cell found by two layers (e.g. S Sun → H Sun: same body and top row) counts once; a star once per body
+            k = (('star', p['star']) if p.get('star') else (p['source'], p['plane']), p['chart'], p['body'])   # a star once per body
             if k not in seen:
                 seen.add(k)
                 byb[p['body']].append(p)
@@ -486,6 +505,8 @@ def fmt_cell(p):
 
 def fmt_piece(p):
     s = fmt_cell(p)
+    for q in p.get('copies', []):
+        s += f" [same star: {q['source']} {q['value']:.4f} " + (f"conj ({q['score']:.2f})]" if q['family'] == 'conj' else f"{q['target']} {q['family']} ({q['score']:.2f})]")
     if p['circle']:
         s += f" [{p['circle']}]"
     if p['sky_number']:

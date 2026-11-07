@@ -764,6 +764,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -780,6 +782,8 @@
    "sky_number": null,
    "circle": "360/180",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -796,6 +800,8 @@
    "sky_number": null,
    "circle": "360/360",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -812,6 +818,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -828,6 +836,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -844,6 +854,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -860,6 +872,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -876,6 +890,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -892,6 +908,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -908,6 +926,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -924,6 +944,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -940,6 +962,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "also: 7 Beaufort West"
   },
   {
@@ -956,6 +980,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "also: 7 Beaufort West"
   },
   {
@@ -972,6 +998,8 @@
    "sky_number": null,
    "circle": "360/8",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "also: 5 Cedar Hill, 7 Beaufort West"
   },
   {
@@ -988,6 +1016,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1004,6 +1034,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1020,6 +1052,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "also: 7 Beaufort West"
   },
   {
@@ -1036,6 +1070,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1052,22 +1088,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Galactic Centre",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 52.007542,
-   "target": "52",
-   "family": "whole",
-   "score": 38.8,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Galactic Centre",
+   "copies": [
+    {
+     "source": "H Galactic Centre",
+     "value": 52.007542,
+     "target": "52",
+     "family": "whole",
+     "score": 38.8
+    }
+   ],
    "field": "only"
   },
   {
@@ -1084,6 +1114,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1100,6 +1132,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1116,6 +1150,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "also: 2 Financier, 3 Frero Banbou, 4 One True King, 5 Cedar Hill, 6 Le Ligerien, 7 Beaufort West"
   },
   {
@@ -1132,6 +1168,8 @@
    "sky_number": null,
    "circle": "360/9",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1148,6 +1186,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1164,6 +1204,8 @@
    "sky_number": null,
    "circle": "360/15",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1180,6 +1222,8 @@
    "sky_number": null,
    "circle": "360/3",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1196,6 +1240,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1212,6 +1258,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1228,6 +1276,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1244,6 +1294,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "also: 2 Financier, 3 Frero Banbou, 4 One True King, 5 Cedar Hill, 6 Le Ligerien, 7 Beaufort West"
   },
   {
@@ -1260,6 +1312,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1276,6 +1330,8 @@
    "sky_number": null,
    "circle": "360/120",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1292,6 +1348,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1308,6 +1366,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1324,6 +1384,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "also: 5 Cedar Hill, 7 Beaufort West"
   },
   {
@@ -1340,6 +1402,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "also: 7 Beaufort West"
   },
   {
@@ -1356,6 +1420,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1372,6 +1438,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1388,6 +1456,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "also: 5 Cedar Hill, 7 Beaufort West"
   },
   {
@@ -1404,6 +1474,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1420,6 +1492,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "also: 7 Beaufort West"
   },
   {
@@ -1740,6 +1814,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1756,6 +1832,8 @@
    "sky_number": null,
    "circle": "360/90",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1772,6 +1850,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1788,22 +1868,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Alhena",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 0.00833,
-   "target": "conj",
-   "family": "conj",
-   "score": 98.89,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Alhena",
+   "copies": [
+    {
+     "source": "J Alhena",
+     "value": 0.00833,
+     "target": "conj",
+     "family": "conj",
+     "score": 98.89
+    }
+   ],
    "field": "only"
   },
   {
@@ -1820,6 +1894,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1836,6 +1912,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1852,6 +1930,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1868,6 +1948,8 @@
    "sky_number": null,
    "circle": "360/8",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1884,6 +1966,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "also: 5 Cedar Hill"
   },
   {
@@ -1900,6 +1984,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1916,22 +2002,16 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Castor",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 9.018964,
-   "target": "9",
-   "family": "whole",
-   "score": 0.27,
-   "sky_number": null,
-   "circle": "360/40",
-   "note": "",
+   "star": "Castor",
+   "copies": [
+    {
+     "source": "J Castor",
+     "value": 9.018964,
+     "target": "9",
+     "family": "whole",
+     "score": 0.27
+    }
+   ],
    "field": "only"
   },
   {
@@ -1948,6 +2028,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1964,6 +2046,8 @@
    "sky_number": null,
    "circle": "360/8",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1980,6 +2064,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -1996,6 +2082,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2012,6 +2100,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2028,6 +2118,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2044,6 +2136,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2060,6 +2154,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2076,6 +2172,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2092,6 +2190,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2108,22 +2208,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Mirach",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 81.996845,
-   "target": "82",
-   "family": "whole",
-   "score": 70.94,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Mirach",
+   "copies": [
+    {
+     "source": "J Mirach",
+     "value": 81.996845,
+     "target": "82",
+     "family": "whole",
+     "score": 70.94
+    }
+   ],
    "field": "only"
   },
   {
@@ -2140,6 +2234,8 @@
    "sky_number": null,
    "circle": "360/45",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2156,6 +2252,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2172,6 +2270,8 @@
    "sky_number": "S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2188,6 +2288,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2204,6 +2306,8 @@
    "sky_number": null,
    "circle": "360/20",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2220,6 +2324,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2236,6 +2342,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2252,6 +2360,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2268,6 +2378,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2284,6 +2396,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2300,6 +2414,8 @@
    "sky_number": null,
    "circle": "360/45",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2316,6 +2432,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2332,6 +2450,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2348,6 +2468,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [
+    {
+     "source": "J Sadalmelik",
+     "value": 127.984712,
+     "target": "128",
+     "family": "whole",
+     "score": 5.55
+    }
+   ],
    "field": "only"
   },
   {
@@ -2364,22 +2494,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Sadalmelik",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 127.984712,
-   "target": "128",
-   "family": "whole",
-   "score": 5.55,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2396,6 +2512,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2412,6 +2530,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2428,6 +2548,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2444,6 +2566,8 @@
    "sky_number": "S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)",
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2460,6 +2584,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2476,6 +2602,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2492,6 +2620,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2508,6 +2638,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2524,6 +2656,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2540,6 +2674,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2556,6 +2692,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2572,6 +2710,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2588,6 +2728,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2604,6 +2746,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -2620,6 +2764,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3052,6 +3198,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "also: 6 Le Ligerien"
   },
   {
@@ -3068,6 +3216,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3084,6 +3234,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3100,6 +3252,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3116,6 +3270,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3132,6 +3288,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3148,6 +3306,8 @@
    "sky_number": null,
    "circle": "360/15",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "also: 6 Le Ligerien"
   },
   {
@@ -3164,6 +3324,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "also: 6 Le Ligerien"
   },
   {
@@ -3180,6 +3342,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3196,6 +3360,8 @@
    "sky_number": "S Moon → Gonggong RA 170.9993 171 whole (93.54)",
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3212,6 +3378,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3228,6 +3396,8 @@
    "sky_number": null,
    "circle": "360/6",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3244,6 +3414,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3260,6 +3432,8 @@
    "sky_number": "S Sun → Pleiades Dec 44.0004 44 whole (96.38)",
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3276,6 +3450,8 @@
    "sky_number": null,
    "circle": "360/3",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3292,6 +3468,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3308,6 +3486,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3324,6 +3504,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3340,6 +3522,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3356,6 +3540,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3372,6 +3558,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3388,6 +3576,8 @@
    "sky_number": null,
    "circle": "360/2",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3404,6 +3594,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3420,6 +3612,8 @@
    "sky_number": "S Moon → Castor RA 51.7767 32×φ golden (97.46)",
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3436,6 +3630,8 @@
    "sky_number": null,
    "circle": "360/10",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "also: 6 Le Ligerien"
   },
   {
@@ -3452,6 +3648,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay, 3 Frero Banbou, 4 One True King, 5 Cedar Hill, 6 Le Ligerien, 7 Beaufort West"
   },
   {
@@ -3468,6 +3666,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3484,6 +3684,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [
+    {
+     "source": "H Mirach",
+     "value": 13.986059,
+     "target": "14",
+     "family": "whole",
+     "score": 9.18
+    }
+   ],
    "field": "only"
   },
   {
@@ -3500,22 +3710,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P03",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Mirach",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 13.986059,
-   "target": "14",
-   "family": "whole",
-   "score": 9.18,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3532,6 +3728,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3548,6 +3746,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3564,6 +3764,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3580,6 +3782,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3596,6 +3800,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [
+    {
+     "source": "H Regulus",
+     "value": 83.002797,
+     "target": "83",
+     "family": "whole",
+     "score": 73.99
+    }
+   ],
    "field": "only"
   },
   {
@@ -3612,22 +3826,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P03",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Regulus",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 83.002797,
-   "target": "83",
-   "family": "whole",
-   "score": 73.99,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3644,6 +3844,8 @@
    "sky_number": "S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)",
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3660,6 +3862,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3676,6 +3880,8 @@
    "sky_number": null,
    "circle": "360/72",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3692,6 +3898,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay, 3 Frero Banbou, 4 One True King, 5 Cedar Hill, 6 Le Ligerien, 7 Beaufort West"
   },
   {
@@ -3708,6 +3916,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3724,6 +3934,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3740,6 +3952,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "also: 6 Le Ligerien"
   },
   {
@@ -3756,6 +3970,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3772,6 +3988,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3788,6 +4006,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3804,6 +4024,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3820,6 +4042,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3836,6 +4060,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3852,6 +4078,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3868,6 +4096,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "also: 6 Le Ligerien"
   },
   {
@@ -3884,6 +4114,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3900,6 +4132,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -3916,6 +4150,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4156,6 +4392,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4172,6 +4410,8 @@
    "sky_number": null,
    "circle": "360/180",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4188,6 +4428,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4204,6 +4446,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4220,6 +4464,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4236,6 +4482,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4252,6 +4500,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4268,6 +4518,8 @@
    "sky_number": null,
    "circle": "360/9",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4284,6 +4536,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4300,6 +4554,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4316,6 +4572,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4332,6 +4590,8 @@
    "sky_number": "S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)",
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4348,6 +4608,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4364,6 +4626,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4380,6 +4644,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4396,6 +4662,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4412,6 +4680,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4428,6 +4698,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4444,6 +4716,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4460,6 +4734,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4476,6 +4752,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4492,6 +4770,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4508,6 +4788,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4524,6 +4806,8 @@
    "sky_number": "S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4540,6 +4824,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "also: 5 Cedar Hill, 7 Beaufort West"
   },
   {
@@ -4556,6 +4842,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4572,6 +4860,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4588,6 +4878,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4604,6 +4896,8 @@
    "sky_number": null,
    "circle": "360/360",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4620,6 +4914,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4636,6 +4932,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4652,6 +4950,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4668,6 +4968,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4684,6 +4986,8 @@
    "sky_number": null,
    "circle": "360/15",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4700,6 +5004,8 @@
    "sky_number": "S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4716,6 +5022,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4732,6 +5040,8 @@
    "sky_number": null,
    "circle": "360/360",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4748,6 +5058,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4764,6 +5076,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -4780,6 +5094,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5068,6 +5384,8 @@
    "sky_number": "S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5084,6 +5402,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5100,6 +5420,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5116,6 +5438,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "also: 4 One True King"
   },
   {
@@ -5132,6 +5456,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5148,6 +5474,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5164,6 +5492,8 @@
    "sky_number": null,
    "circle": "360/12",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5180,6 +5510,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "also: 5 Cedar Hill"
   },
   {
@@ -5196,6 +5528,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay, 2 Financier, 4 One True King, 5 Cedar Hill, 6 Le Ligerien, 7 Beaufort West"
   },
   {
@@ -5212,6 +5546,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5228,6 +5564,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "also: 4 One True King"
   },
   {
@@ -5244,6 +5582,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "also: 4 One True King"
   },
   {
@@ -5260,6 +5600,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "also: 4 One True King"
   },
   {
@@ -5276,6 +5618,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5292,6 +5636,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5308,6 +5654,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5324,6 +5672,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay, 2 Financier, 4 One True King, 5 Cedar Hill, 6 Le Ligerien, 7 Beaufort West"
   },
   {
@@ -5340,6 +5690,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5356,23 +5708,9 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "also: 4 One True King"
-  },
-  {
-   "runner": "P05",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "S Sadalmelik",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 17.792113,
-   "target": "11×φ",
-   "family": "golden",
-   "score": 65.05,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
   },
   {
    "runner": "P05",
@@ -5388,6 +5726,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [
+    {
+     "source": "S Sadalmelik",
+     "value": 17.792113,
+     "target": "11×φ",
+     "family": "golden",
+     "score": 65.05
+    }
+   ],
    "field": "only"
   },
   {
@@ -5404,6 +5752,8 @@
    "sky_number": "S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)",
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 4 One True King"
   },
   {
@@ -5420,6 +5770,8 @@
    "sky_number": null,
    "circle": "360/10",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5436,6 +5788,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5452,6 +5806,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5468,6 +5824,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "also: 4 One True King"
   },
   {
@@ -5484,6 +5842,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5500,6 +5860,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "also: 4 One True King"
   },
   {
@@ -5516,6 +5878,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5532,6 +5896,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5548,6 +5914,8 @@
    "sky_number": "S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)",
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5836,6 +6204,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5852,6 +6222,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5868,6 +6240,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5884,6 +6258,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5900,6 +6276,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5916,6 +6294,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5932,6 +6312,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5948,6 +6330,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "also: 5 Cedar Hill, 7 Beaufort West"
   },
   {
@@ -5964,6 +6348,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5980,6 +6366,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -5996,6 +6384,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6012,6 +6402,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6028,6 +6420,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6044,6 +6438,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6060,6 +6456,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6076,6 +6474,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6092,6 +6492,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6108,6 +6510,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6124,6 +6528,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6140,6 +6546,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6156,6 +6564,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6172,6 +6582,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6188,6 +6600,8 @@
    "sky_number": "S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6204,6 +6618,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6220,6 +6636,8 @@
    "sky_number": "S Jupiter → Orcus RA 179.6087 111×φ golden (61.81)",
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6236,6 +6654,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6252,6 +6672,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6268,6 +6690,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6284,6 +6708,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6300,6 +6726,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6316,6 +6744,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6332,6 +6762,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6348,6 +6780,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6364,6 +6798,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6380,6 +6816,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 5 Cedar Hill, 6 Le Ligerien, 7 Beaufort West"
   },
   {
@@ -6396,6 +6834,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6412,6 +6852,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6428,6 +6870,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6444,6 +6888,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6460,6 +6906,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6476,6 +6924,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6492,6 +6942,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6508,6 +6960,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6524,6 +6978,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6540,6 +6996,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6556,6 +7014,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6572,6 +7032,8 @@
    "sky_number": "S Moon → Gonggong RA 170.9993 171 whole (93.54)",
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6588,6 +7050,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6604,6 +7068,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6620,6 +7086,8 @@
    "sky_number": null,
    "circle": "360/72",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6828,6 +7296,8 @@
    "sky_number": "S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)",
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6844,6 +7314,8 @@
    "sky_number": "S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)",
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6860,6 +7332,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6876,6 +7350,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6892,6 +7368,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6908,6 +7386,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6924,6 +7404,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6940,6 +7422,8 @@
    "sky_number": "S Moon → Alhena RA 65.9978 66 whole (78.94)",
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6956,6 +7440,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "also: 3 Frero Banbou"
   },
   {
@@ -6972,6 +7458,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -6988,6 +7476,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7004,6 +7494,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7020,6 +7512,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7036,22 +7530,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "S Fomalhaut",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 47.004421,
-   "target": "47",
-   "family": "whole",
-   "score": 60.68,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7068,6 +7548,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [
+    {
+     "source": "S Fomalhaut",
+     "value": 47.004421,
+     "target": "47",
+     "family": "whole",
+     "score": 60.68
+    }
+   ],
    "field": "only"
   },
   {
@@ -7084,6 +7574,8 @@
    "sky_number": null,
    "circle": "360/72",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7100,6 +7592,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay, 2 Financier, 3 Frero Banbou, 5 Cedar Hill, 6 Le Ligerien, 7 Beaufort West"
   },
   {
@@ -7116,6 +7610,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "also: 3 Frero Banbou"
   },
   {
@@ -7132,6 +7628,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7148,6 +7646,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "also: 3 Frero Banbou"
   },
   {
@@ -7164,6 +7664,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7180,6 +7682,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7196,6 +7700,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "also: 3 Frero Banbou"
   },
   {
@@ -7212,6 +7718,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7228,6 +7736,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7244,6 +7754,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7260,6 +7772,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay, 2 Financier, 3 Frero Banbou, 5 Cedar Hill, 6 Le Ligerien, 7 Beaufort West"
   },
   {
@@ -7276,6 +7790,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7292,6 +7808,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7308,6 +7826,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7324,6 +7844,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "also: 3 Frero Banbou"
   },
   {
@@ -7340,6 +7862,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7356,6 +7880,8 @@
    "sky_number": "S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)",
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 3 Frero Banbou"
   },
   {
@@ -7372,6 +7898,8 @@
    "sky_number": null,
    "circle": "360/90",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7388,6 +7916,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7404,6 +7934,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "also: 3 Frero Banbou"
   },
   {
@@ -7420,6 +7952,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7436,6 +7970,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7452,6 +7988,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "also: 3 Frero Banbou"
   },
   {
@@ -7788,6 +8326,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7804,6 +8344,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7820,6 +8362,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7836,6 +8380,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7852,6 +8398,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7868,6 +8416,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7884,6 +8434,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7900,6 +8452,8 @@
    "sky_number": "S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7916,6 +8470,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7932,6 +8488,8 @@
    "sky_number": null,
    "circle": "360/10",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7948,6 +8506,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "also: 3 Frero Banbou"
   },
   {
@@ -7964,6 +8524,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7980,6 +8542,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -7996,6 +8560,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8012,6 +8578,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8028,6 +8596,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8044,6 +8614,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8060,6 +8632,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8076,6 +8650,8 @@
    "sky_number": "S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)",
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8092,38 +8668,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "S Pleiades",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 124.598587,
-   "target": "77×φ",
-   "family": "golden",
-   "score": 47.88,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Pleiades",
-   "body": "Mars",
-   "plane": "Dec",
-   "value": 0.993724,
-   "target": "1",
-   "family": "whole",
-   "score": 47.09,
-   "sky_number": null,
-   "circle": "360/360",
-   "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8140,6 +8686,34 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [
+    {
+     "source": "S Pleiades",
+     "value": 124.598587,
+     "target": "77×φ",
+     "family": "golden",
+     "score": 47.88
+    }
+   ],
+   "field": "only"
+  },
+  {
+   "runner": "P07",
+   "layer": "star rows",
+   "chart": "J",
+   "source": "J Pleiades",
+   "body": "Mars",
+   "plane": "Dec",
+   "value": 0.993724,
+   "target": "1",
+   "family": "whole",
+   "score": 47.09,
+   "sky_number": null,
+   "circle": "360/360",
+   "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8156,6 +8730,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8172,6 +8748,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8188,6 +8766,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8204,6 +8784,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8220,6 +8802,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8236,6 +8820,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8252,6 +8838,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8268,6 +8856,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8284,6 +8874,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8300,6 +8892,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8316,6 +8910,8 @@
    "sky_number": "S Sun → Galactic Centre RA 37.0023 37 whole (77.89)",
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8332,6 +8928,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8348,6 +8946,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8364,6 +8964,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8380,6 +8982,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8396,6 +9000,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8412,6 +9018,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8428,6 +9036,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8444,6 +9054,8 @@
    "sky_number": "S Sun → Fomalhaut RA 40.9968 41 whole (70.51)",
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8460,6 +9072,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8764,6 +9378,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8780,6 +9396,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8796,6 +9414,8 @@
    "sky_number": null,
    "circle": "360/120",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8812,6 +9432,8 @@
    "sky_number": null,
    "circle": "360/45",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8828,6 +9450,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8844,6 +9468,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8860,6 +9486,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8876,6 +9504,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8892,6 +9522,8 @@
    "sky_number": null,
    "circle": "360/180",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8908,6 +9540,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8924,6 +9558,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8940,6 +9576,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8956,6 +9594,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8972,6 +9612,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -8988,6 +9630,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9004,6 +9648,8 @@
    "sky_number": null,
    "circle": "360/8",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay, 7 Beaufort West"
   },
   {
@@ -9020,6 +9666,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9036,6 +9684,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9052,6 +9702,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9068,6 +9720,8 @@
    "sky_number": "S Sun → Galactic Centre RA 37.0023 37 whole (77.89)",
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9084,6 +9738,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "also: 3 Frero Banbou"
   },
   {
@@ -9100,6 +9756,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9116,6 +9774,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9132,6 +9792,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9148,6 +9810,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay, 2 Financier, 3 Frero Banbou, 4 One True King, 6 Le Ligerien, 7 Beaufort West"
   },
   {
@@ -9164,6 +9828,8 @@
    "sky_number": null,
    "circle": "360/4",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9180,6 +9846,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9196,6 +9864,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9212,6 +9882,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9228,6 +9900,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9244,6 +9918,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay, 2 Financier, 3 Frero Banbou, 4 One True King, 6 Le Ligerien, 7 Beaufort West"
   },
   {
@@ -9260,6 +9936,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9276,6 +9954,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9292,6 +9972,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9308,6 +9990,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9324,6 +10008,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9340,6 +10026,8 @@
    "sky_number": null,
    "circle": "360/24",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9356,6 +10044,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9372,6 +10062,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9388,6 +10080,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [
+    {
+     "source": "H Scheat",
+     "value": 134.268311,
+     "target": "83×φ",
+     "family": "golden",
+     "score": 1.42
+    }
+   ],
    "field": "only"
   },
   {
@@ -9404,6 +10106,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9420,22 +10124,8 @@
    "sky_number": "S Sun → Galactic Centre RA 37.0023 37 whole (77.89)",
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P09",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Scheat",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 134.268311,
-   "target": "83×φ",
-   "family": "golden",
-   "score": 1.42,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9452,6 +10142,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay, 7 Beaufort West"
   },
   {
@@ -9468,6 +10160,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9484,6 +10178,8 @@
    "sky_number": null,
    "circle": "360/9",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9500,6 +10196,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9516,22 +10214,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P09",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "S Sualocin",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 5.00664,
-   "target": "5",
-   "family": "whole",
-   "score": 44.62,
-   "sky_number": null,
-   "circle": "360/72",
-   "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9548,6 +10232,16 @@
    "sky_number": null,
    "circle": "360/72",
    "note": "",
+   "star": "Sualocin",
+   "copies": [
+    {
+     "source": "S Sualocin",
+     "value": 5.00664,
+     "target": "5",
+     "family": "whole",
+     "score": 44.62
+    }
+   ],
    "field": "only"
   },
   {
@@ -9564,6 +10258,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9580,6 +10276,8 @@
    "sky_number": "S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)",
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9596,6 +10294,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay, 7 Beaufort West"
   },
   {
@@ -9612,6 +10312,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9628,6 +10330,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9900,6 +10604,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9916,6 +10622,8 @@
    "sky_number": null,
    "circle": "360/120",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9932,6 +10640,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9948,6 +10658,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9964,6 +10676,8 @@
    "sky_number": "S Sun → Pleiades Dec 44.0004 44 whole (96.38)",
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -9980,6 +10694,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay"
   },
   {
@@ -9996,6 +10712,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10012,23 +10730,9 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "also: 3 Frero Banbou, 7 Beaufort West"
-  },
-  {
-   "runner": "P09",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "S Castor",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 153.733368,
-   "target": "95×φ",
-   "family": "golden",
-   "score": 14.26,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
   },
   {
    "runner": "P09",
@@ -10044,6 +10748,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [
+    {
+     "source": "S Castor",
+     "value": 153.733368,
+     "target": "95×φ",
+     "family": "golden",
+     "score": 14.26
+    }
+   ],
    "field": "only"
   },
   {
@@ -10060,6 +10774,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10076,6 +10792,8 @@
    "sky_number": "S Sun → Galactic Centre RA 37.0023 37 whole (77.89)",
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10092,6 +10810,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10108,6 +10828,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10124,6 +10846,8 @@
    "sky_number": null,
    "circle": "360/6",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10140,6 +10864,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10156,6 +10882,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10172,6 +10900,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10188,22 +10918,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P09",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Galactic Centre",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 0.977772,
-   "target": "conj",
-   "family": "conj",
-   "score": 12.12,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Galactic Centre",
+   "copies": [
+    {
+     "source": "J Galactic Centre",
+     "value": 0.977772,
+     "target": "conj",
+     "family": "conj",
+     "score": 12.12
+    }
+   ],
    "field": "only"
   },
   {
@@ -10220,6 +10944,8 @@
    "sky_number": "S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)",
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10236,6 +10962,8 @@
    "sky_number": null,
    "circle": "360/24",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10252,6 +10980,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10268,6 +10998,8 @@
    "sky_number": null,
    "circle": "360/4",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10284,6 +11016,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10300,22 +11034,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P09",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Mirach",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 110.046682,
-   "target": "68×φ",
-   "family": "golden",
-   "score": 13.73,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Mirach",
+   "copies": [
+    {
+     "source": "J Mirach",
+     "value": 110.046682,
+     "target": "68×φ",
+     "family": "golden",
+     "score": 13.73
+    }
+   ],
    "field": "only"
   },
   {
@@ -10332,6 +11060,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10348,6 +11078,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10364,6 +11096,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10380,6 +11114,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10396,6 +11132,8 @@
    "sky_number": null,
    "circle": "360/8",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10412,6 +11150,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10428,6 +11168,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10444,6 +11186,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10460,6 +11204,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10476,6 +11222,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "also: 2 Financier, 7 Beaufort West"
   },
   {
@@ -10492,6 +11240,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10508,6 +11258,8 @@
    "sky_number": null,
    "circle": "360/90",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10524,6 +11276,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10540,6 +11294,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 3 Frero Banbou, 6 Le Ligerien, 7 Beaufort West"
   },
   {
@@ -10556,6 +11312,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10572,6 +11330,8 @@
    "sky_number": null,
    "circle": "360/10",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10588,6 +11348,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10604,6 +11366,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10620,6 +11384,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10636,6 +11402,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10652,6 +11420,8 @@
    "sky_number": null,
    "circle": "360/72",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -10972,6 +11742,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "also: 2 Financier"
   },
   {
@@ -10988,6 +11760,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11004,6 +11778,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11020,6 +11796,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11036,6 +11814,8 @@
    "sky_number": null,
    "circle": "360/180",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11052,6 +11832,8 @@
    "sky_number": null,
    "circle": "360/15",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "also: 2 Financier"
   },
   {
@@ -11068,6 +11850,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "also: 2 Financier"
   },
   {
@@ -11084,6 +11868,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11100,6 +11886,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11116,6 +11904,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11132,6 +11922,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11148,6 +11940,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11164,6 +11958,8 @@
    "sky_number": "S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)",
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11180,6 +11976,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11196,6 +11994,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11212,6 +12012,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11228,6 +12030,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11244,6 +12048,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11260,6 +12066,8 @@
    "sky_number": null,
    "circle": "360/10",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "also: 2 Financier"
   },
   {
@@ -11276,6 +12084,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11292,6 +12102,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay, 2 Financier, 3 Frero Banbou, 4 One True King, 5 Cedar Hill, 7 Beaufort West"
   },
   {
@@ -11308,6 +12120,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11324,6 +12138,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11340,6 +12156,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11356,6 +12174,8 @@
    "sky_number": "S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11372,6 +12192,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay, 2 Financier, 3 Frero Banbou, 4 One True King, 5 Cedar Hill, 7 Beaufort West"
   },
   {
@@ -11388,6 +12210,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11404,6 +12228,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11420,6 +12246,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "also: 2 Financier"
   },
   {
@@ -11436,6 +12264,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11452,6 +12282,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11468,6 +12300,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11484,6 +12318,8 @@
    "sky_number": null,
    "circle": "360/120",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11500,6 +12336,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11516,6 +12354,8 @@
    "sky_number": null,
    "circle": "360/8",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11532,6 +12372,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11548,6 +12390,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "also: 2 Financier"
   },
   {
@@ -11564,6 +12408,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11580,6 +12426,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11596,6 +12444,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11612,6 +12462,8 @@
    "sky_number": null,
    "circle": "360/30",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11628,6 +12480,8 @@
    "sky_number": "S Sun → Pleiades Dec 44.0004 44 whole (96.38)",
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11804,6 +12658,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11820,6 +12676,8 @@
    "sky_number": "S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)",
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11836,6 +12694,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11852,6 +12712,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11868,6 +12730,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11884,6 +12748,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11900,6 +12766,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11916,6 +12784,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11932,6 +12802,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11948,6 +12820,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11964,6 +12838,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11980,6 +12856,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -11996,6 +12874,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12012,6 +12892,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12028,22 +12910,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Galactic Centre",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 38.010099,
-   "target": "38",
-   "family": "whole",
-   "score": 24.51,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Galactic Centre",
+   "copies": [
+    {
+     "source": "J Galactic Centre",
+     "value": 38.010099,
+     "target": "38",
+     "family": "whole",
+     "score": 24.51
+    }
+   ],
    "field": "only"
   },
   {
@@ -12060,6 +12936,8 @@
    "sky_number": "S Sun → Fomalhaut RA 40.9968 41 whole (70.51)",
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12076,6 +12954,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12092,6 +12972,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12108,6 +12990,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12124,6 +13008,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12140,6 +13026,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12156,6 +13044,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12172,6 +13062,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12188,6 +13080,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12204,6 +13098,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12220,6 +13116,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12236,6 +13134,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12252,6 +13152,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12268,6 +13170,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12284,6 +13188,8 @@
    "sky_number": null,
    "circle": "360/360",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12300,6 +13206,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 3 Frero Banbou, 5 Cedar Hill, 7 Beaufort West"
   },
   {
@@ -12316,6 +13224,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12332,6 +13242,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12348,6 +13260,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12364,6 +13278,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12380,6 +13296,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12396,22 +13314,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P11",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Vindemiatrix",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 169.989486,
-   "target": "170",
-   "family": "whole",
-   "score": 22.5,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Vindemiatrix",
+   "copies": [
+    {
+     "source": "J Vindemiatrix",
+     "value": 169.989486,
+     "target": "170",
+     "family": "whole",
+     "score": 22.5
+    }
+   ],
    "field": "only"
   },
   {
@@ -12428,6 +13340,8 @@
    "sky_number": null,
    "circle": "360/15",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12444,6 +13358,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12460,6 +13376,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12716,6 +13634,8 @@
    "sky_number": null,
    "circle": "360/40",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12732,6 +13652,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12748,6 +13670,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12764,6 +13688,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12780,6 +13706,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12796,6 +13724,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12812,6 +13742,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12828,6 +13760,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12844,6 +13778,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12860,6 +13796,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay"
   },
   {
@@ -12876,6 +13814,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay"
   },
   {
@@ -12892,6 +13832,8 @@
    "sky_number": null,
    "circle": "360/8",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay, 5 Cedar Hill"
   },
   {
@@ -12908,6 +13850,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12924,6 +13868,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay"
   },
   {
@@ -12940,6 +13886,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12956,6 +13904,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12972,6 +13922,8 @@
    "sky_number": "S Sun → Fomalhaut RA 40.9968 41 whole (70.51)",
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -12988,6 +13940,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13004,6 +13958,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13020,6 +13976,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay, 2 Financier, 3 Frero Banbou, 4 One True King, 5 Cedar Hill, 6 Le Ligerien"
   },
   {
@@ -13036,6 +13994,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13052,6 +14012,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13068,6 +14030,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13084,6 +14048,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13100,38 +14066,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "S Regulus",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 11.097177,
-   "target": "φ^5",
-   "family": "phi power",
-   "score": 76.32,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "star rows",
-   "chart": "H",
-   "source": "H Regulus",
-   "body": "Venus",
-   "plane": "RA",
-   "value": 165.000247,
-   "target": "165",
-   "family": "whole",
-   "score": 97.54,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13148,6 +14084,34 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [
+    {
+     "source": "S Regulus",
+     "value": 11.097177,
+     "target": "φ^5",
+     "family": "phi power",
+     "score": 76.32
+    }
+   ],
+   "field": "only"
+  },
+  {
+   "runner": "P13",
+   "layer": "star rows",
+   "chart": "H",
+   "source": "H Regulus",
+   "body": "Venus",
+   "plane": "RA",
+   "value": 165.000247,
+   "target": "165",
+   "family": "whole",
+   "score": 97.54,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13164,6 +14128,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13180,6 +14146,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay, 2 Financier, 3 Frero Banbou, 4 One True King, 5 Cedar Hill, 6 Le Ligerien"
   },
   {
@@ -13196,6 +14164,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13212,6 +14182,8 @@
    "sky_number": null,
    "circle": "360/18",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13228,6 +14200,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13244,6 +14218,8 @@
    "sky_number": null,
    "circle": "360/72",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13260,6 +14236,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay, 5 Cedar Hill"
   },
   {
@@ -13276,6 +14254,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay"
   },
   {
@@ -13292,6 +14272,8 @@
    "sky_number": null,
    "circle": "360/10",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13308,6 +14290,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay, 5 Cedar Hill"
   },
   {
@@ -13324,6 +14308,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13340,6 +14326,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13356,6 +14344,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13372,6 +14362,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13388,6 +14380,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay"
   },
   {
@@ -13596,6 +14590,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13612,6 +14608,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13628,6 +14626,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13644,6 +14644,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Al Rescha",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13660,6 +14662,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13676,6 +14680,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alhena",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13692,6 +14698,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Alkes",
+   "copies": [],
    "field": "also: 3 Frero Banbou, 5 Cedar Hill"
   },
   {
@@ -13708,6 +14716,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13724,6 +14734,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13740,6 +14752,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13756,6 +14770,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Castor",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13772,6 +14788,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Fomalhaut",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13788,6 +14806,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13804,6 +14824,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Galactic Centre",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13820,22 +14842,16 @@
    "sky_number": null,
    "circle": "",
    "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "star rows",
-   "chart": "J",
-   "source": "J Mirach",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 133.386934,
-   "target": "133.333",
-   "family": "ninth",
-   "score": 93.57,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
+   "star": "Mirach",
+   "copies": [
+    {
+     "source": "J Mirach",
+     "value": 133.386934,
+     "target": "133.333",
+     "family": "ninth",
+     "score": 93.57
+    }
+   ],
    "field": "only"
   },
   {
@@ -13852,6 +14868,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13868,6 +14886,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13884,6 +14904,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13900,6 +14922,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Mirach",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13916,6 +14940,8 @@
    "sky_number": null,
    "circle": "360/36",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13932,6 +14958,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13948,6 +14976,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Pleiades",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13964,6 +14994,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13980,6 +15012,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -13996,6 +15030,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Regulus",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14012,6 +15048,8 @@
    "sky_number": "S Moon → Alhena RA 65.9978 66 whole (78.94)",
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14028,6 +15066,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14044,6 +15084,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14060,6 +15102,8 @@
    "sky_number": "S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)",
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14076,6 +15120,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Rigel",
+   "copies": [],
    "field": "also: 2 Financier, 5 Cedar Hill"
   },
   {
@@ -14092,6 +15138,8 @@
    "sky_number": "S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)",
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14108,6 +15156,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14124,6 +15174,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14140,6 +15192,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sadalmelik",
+   "copies": [],
    "field": "also: 3 Frero Banbou, 5 Cedar Hill, 6 Le Ligerien"
   },
   {
@@ -14156,6 +15210,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14172,6 +15228,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14188,6 +15246,8 @@
    "sky_number": null,
    "circle": "360/10",
    "note": "",
+   "star": "Scheat",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14204,6 +15264,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14220,6 +15282,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14236,6 +15300,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14252,6 +15318,8 @@
    "sky_number": null,
    "circle": "360/60",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14268,6 +15336,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14284,6 +15354,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14300,6 +15372,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Sualocin",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14316,6 +15390,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14332,6 +15408,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14348,6 +15426,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14364,6 +15444,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14380,6 +15462,8 @@
    "sky_number": "S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)",
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "only"
   },
   {
@@ -14396,6 +15480,8 @@
    "sky_number": null,
    "circle": "",
    "note": "",
+   "star": "Vindemiatrix",
+   "copies": [],
    "field": "also: 1 Eclair D'Ainay"
   }
  ],
@@ -17082,50 +18168,6 @@
     "score": 60.1239895441194
    }
   ],
-  "locked line star on natal Jupiter": [
-   {
-    "runner": "P01",
-    "chart": "J",
-    "text": "J Alhena → J Jupiter RA 0.0083 conj (98.89) | S Alhena → J Jupiter RA 0.0017 conj (99.78)",
-    "score": 98.8923546569548
-   },
-   {
-    "runner": "P01",
-    "chart": "J",
-    "text": "J Mirach → J Jupiter RA 81.9968 82 whole (70.94) | S Mirach → J Jupiter RA 82.0022 82 whole (79.06)",
-    "score": 70.9418262123158
-   },
-   {
-    "runner": "P03",
-    "chart": "H",
-    "text": "H Regulus → H Jupiter RA 83.0028 83 whole (73.99) | S Regulus → H Jupiter RA 83.0025 83 whole (76.74)",
-    "score": 73.98695095045296
-   },
-   {
-    "runner": "P05",
-    "chart": "H",
-    "text": "H Sadalmelik → H Jupiter Dec 17.7923 11×φ golden (65.96) | S Sadalmelik → H Jupiter Dec 17.7921 11×φ golden (65.05)",
-    "score": 65.04823422683462
-   },
-   {
-    "runner": "P07",
-    "chart": "H",
-    "text": "H Fomalhaut → H Jupiter Dec 46.9997 47 whole (97.03) | S Fomalhaut → H Jupiter Dec 47.0044 47 whole (60.68)",
-    "score": 60.67686284433699
-   },
-   {
-    "runner": "P13",
-    "chart": "H",
-    "text": "H Regulus → H Jupiter Dec 11.0964 φ^5 phi power (78.89) | S Regulus → H Jupiter Dec 11.0972 φ^5 phi power (76.32)",
-    "score": 76.32470345683288
-   },
-   {
-    "runner": "P13",
-    "chart": "J",
-    "text": "J Mirach → J Jupiter RA 133.3869 133.333 ninth (93.57) | S Mirach → J Jupiter RA 133.3837 133.333 ninth (93.96)",
-    "score": 93.56788945550225
-   }
-  ],
   "hub point onto natal Jupiter": [
    {
     "runner": "P01",
@@ -17349,13 +18391,6 @@
    "P11",
    "P13"
   ],
-  "locked line star on natal Jupiter": [
-   "P01",
-   "P03",
-   "P05",
-   "P07",
-   "P13"
-  ],
   "hub point onto natal Jupiter": [
    "P01",
    "P05"
@@ -17390,9 +18425,9 @@
   "P01": [
    {
     "body": "Jupiter",
-    "cells": 11,
+    "cells": 9,
     "H": 2,
-    "J": 9,
+    "J": 7,
     "layers": [
      "same body",
      "star rows",
@@ -17406,10 +18441,8 @@
      "top rows: S Moon → J Jupiter RA 65.9961 66 whole (64.92) [sky number: S Moon → Alhena RA 65.9978 66 whole (78.94)] — only",
      "top rows: S Gonggong → J Jupiter RA 123.0045 123 whole (59.74) — only",
      "star rows: H Castor → H Jupiter Dec 8.8888 8.88889 ninth (99.50) — only",
-     "star rows: S Alhena → J Jupiter RA 0.0017 conj (99.78) — only",
-     "star rows: J Alhena → J Jupiter RA 0.0083 conj (98.89) — only",
-     "star rows: S Mirach → J Jupiter RA 82.0022 82 whole (79.06) — only",
-     "star rows: J Mirach → J Jupiter RA 81.9968 82 whole (70.94) — only"
+     "star rows: S Alhena → J Jupiter RA 0.0017 conj (99.78) [same star: J Alhena 0.0083 conj (98.89)] — only",
+     "star rows: S Mirach → J Jupiter RA 82.0022 82 whole (79.06) [same star: J Mirach 81.9968 82 whole (70.94)] — only"
     ]
    },
    {
@@ -17432,6 +18465,23 @@
     ]
    },
    {
+    "body": "Ketu",
+    "cells": 5,
+    "H": 1,
+    "J": 4,
+    "layers": [
+     "same body",
+     "star rows"
+    ],
+    "detail": [
+     "same body: S Ketu → J Ketu Dec 32.9868 33 whole (11.53) — only",
+     "star rows: H Fomalhaut → H Ketu Dec 40.4533 25×φ golden (85.39) — only",
+     "star rows: J Sadalmelik → J Ketu Dec 13.3324 13.3333 ninth (98.94) [sky number: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)] — only",
+     "star rows: J Pleiades → J Ketu Dec 11.0907 φ^5 phi power (98.25) — only",
+     "star rows: J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12) — only"
+    ]
+   },
+   {
     "body": "Transpluto",
     "cells": 5,
     "H": 2,
@@ -17447,23 +18497,6 @@
      "star rows: H Regulus → H Transpluto RA 0.3551 conj (58.25) — also: 2 Financier, 3 Frero Banbou, 4 One True King, 5 Cedar Hill, 6 Le Ligerien, 7 Beaufort West",
      "star rows: J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33) — only",
      "star rows: J Fomalhaut → J Transpluto RA 159.9958 160 whole (62.48) — only"
-    ]
-   },
-   {
-    "body": "Ketu",
-    "cells": 5,
-    "H": 1,
-    "J": 4,
-    "layers": [
-     "same body",
-     "star rows"
-    ],
-    "detail": [
-     "same body: S Ketu → J Ketu Dec 32.9868 33 whole (11.53) — only",
-     "star rows: H Fomalhaut → H Ketu Dec 40.4533 25×φ golden (85.39) — only",
-     "star rows: J Sadalmelik → J Ketu Dec 13.3324 13.3333 ninth (98.94) [sky number: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)] — only",
-     "star rows: J Pleiades → J Ketu Dec 11.0907 φ^5 phi power (98.25) — only",
-     "star rows: J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12) — only"
     ]
    },
    {
@@ -17522,22 +18555,21 @@
     ]
    },
    {
-    "body": "Jupiter",
+    "body": "Pluto",
     "cells": 6,
-    "H": 5,
-    "J": 1,
+    "H": 2,
+    "J": 4,
     "layers": [
      "same body",
-     "star rows",
-     "top rows"
+     "star rows"
     ],
     "detail": [
-     "same body: S Jupiter → H Jupiter Dec 32.3846 20×φ golden (loose) — only",
-     "top rows: S Chiron → H Jupiter RA 62.0057 62 whole (50.79) — only",
-     "top rows: S Vesta → J Jupiter Dec 0.0140 conj (90.89) — only",
-     "star rows: H Pleiades → H Jupiter RA 12.2259 12.2222 ninth (94.86) — only",
-     "star rows: S Regulus → H Jupiter RA 83.0025 83 whole (76.74) — only",
-     "star rows: H Regulus → H Jupiter RA 83.0028 83 whole (73.99) — only"
+     "same body: S Pluto → H Pluto RA 16.6706 16.6667 ninth (loose) — also: 6 Le Ligerien",
+     "same body: S Pluto → J Pluto Dec 15.5312 15.5556 ninth (loose) — only",
+     "star rows: H Sualocin → H Pluto Dec 35.5966 22×φ golden (98.96) — also: 6 Le Ligerien",
+     "star rows: J Sadalmelik → J Pluto RA 92.2271 57×φ golden (94.89) — only",
+     "star rows: J Vindemiatrix → J Pluto RA 43.6838 27×φ golden (81.61) — only",
+     "star rows: J Sualocin → J Pluto Dec 22.9966 23 whole (68.80) — only"
     ]
    },
    {
@@ -17560,38 +18592,21 @@
     ]
    },
    {
-    "body": "Pluto",
-    "cells": 6,
-    "H": 2,
-    "J": 4,
-    "layers": [
-     "same body",
-     "star rows"
-    ],
-    "detail": [
-     "same body: S Pluto → H Pluto RA 16.6706 16.6667 ninth (loose) — also: 6 Le Ligerien",
-     "same body: S Pluto → J Pluto Dec 15.5312 15.5556 ninth (loose) — only",
-     "star rows: H Sualocin → H Pluto Dec 35.5966 22×φ golden (98.96) — also: 6 Le Ligerien",
-     "star rows: J Sadalmelik → J Pluto RA 92.2271 57×φ golden (94.89) — only",
-     "star rows: J Vindemiatrix → J Pluto RA 43.6838 27×φ golden (81.61) — only",
-     "star rows: J Sualocin → J Pluto Dec 22.9966 23 whole (68.80) — only"
-    ]
-   },
-   {
-    "body": "Sun",
+    "body": "Rahu",
     "cells": 5,
     "H": 3,
     "J": 2,
     "layers": [
      "same body",
-     "star rows"
+     "star rows",
+     "top rows"
     ],
     "detail": [
-     "same body: S Sun → H Sun RA 61.0020 61 whole (80.77) — only",
-     "same body: S Sun → J Sun Dec 17.9253 φ^6 phi power (loose) — only",
-     "star rows: H Sualocin → H Sun Dec 13.9993 14 whole (93.10) — only",
-     "star rows: H Galactic Centre → H Sun RA 97.9981 98 whole (82.02) — only",
-     "star rows: J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19) [sky number: S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)] — only"
+     "same body: S Rahu → H Rahu Dec 37.0000 37 whole (99.61) [sky number: S Sun → Galactic Centre RA 37.0023 37 whole (77.89)] — only",
+     "same body: S Rahu → H Rahu RA 167.9826 168 whole (1.66) — only",
+     "top rows: S Sun → J Rahu RA 98.7048 61×φ golden (72.89) — only",
+     "star rows: H Alkes → H Rahu RA 60.0016 60 whole (84.19) [360/6] — only",
+     "star rows: J Sualocin → J Rahu Dec 26.1879 10×φ^2 phi power (88.83) — only"
     ]
    },
    {
@@ -17612,21 +18627,38 @@
     ]
    },
    {
-    "body": "Rahu",
+    "body": "Jupiter",
     "cells": 5,
-    "H": 3,
-    "J": 2,
+    "H": 4,
+    "J": 1,
     "layers": [
      "same body",
      "star rows",
      "top rows"
     ],
     "detail": [
-     "same body: S Rahu → H Rahu Dec 37.0000 37 whole (99.61) [sky number: S Sun → Galactic Centre RA 37.0023 37 whole (77.89)] — only",
-     "same body: S Rahu → H Rahu RA 167.9826 168 whole (1.66) — only",
-     "top rows: S Sun → J Rahu RA 98.7048 61×φ golden (72.89) — only",
-     "star rows: H Alkes → H Rahu RA 60.0016 60 whole (84.19) [360/6] — only",
-     "star rows: J Sualocin → J Rahu Dec 26.1879 10×φ^2 phi power (88.83) — only"
+     "same body: S Jupiter → H Jupiter Dec 32.3846 20×φ golden (loose) — only",
+     "top rows: S Chiron → H Jupiter RA 62.0057 62 whole (50.79) — only",
+     "top rows: S Vesta → J Jupiter Dec 0.0140 conj (90.89) — only",
+     "star rows: H Pleiades → H Jupiter RA 12.2259 12.2222 ninth (94.86) — only",
+     "star rows: S Regulus → H Jupiter RA 83.0025 83 whole (76.74) [same star: H Regulus 83.0028 83 whole (73.99)] — only"
+    ]
+   },
+   {
+    "body": "Sun",
+    "cells": 5,
+    "H": 3,
+    "J": 2,
+    "layers": [
+     "same body",
+     "star rows"
+    ],
+    "detail": [
+     "same body: S Sun → H Sun RA 61.0020 61 whole (80.77) — only",
+     "same body: S Sun → J Sun Dec 17.9253 φ^6 phi power (loose) — only",
+     "star rows: H Sualocin → H Sun Dec 13.9993 14 whole (93.10) — only",
+     "star rows: H Galactic Centre → H Sun RA 97.9981 98 whole (82.02) — only",
+     "star rows: J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19) [sky number: S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)] — only"
     ]
    },
    {
@@ -17649,8 +18681,8 @@
   "P05": [
    {
     "body": "Jupiter",
-    "cells": 7,
-    "H": 4,
+    "cells": 6,
+    "H": 3,
     "J": 3,
     "layers": [
      "star rows",
@@ -17662,8 +18694,7 @@
      "top rows: S Uranus → J Jupiter RA 111.1053 111.111 ninth (99.04) — only",
      "top rows: S Gonggong → J Jupiter Dec 11.0935 φ^5 phi power (88.41) — only",
      "top rows: S Ketu → J Jupiter RA 50.1571 31×φ golden (88.37) — only",
-     "star rows: H Sadalmelik → H Jupiter Dec 17.7923 11×φ golden (65.96) — only",
-     "star rows: S Sadalmelik → H Jupiter Dec 17.7921 11×φ golden (65.05) — only"
+     "star rows: H Sadalmelik → H Jupiter Dec 17.7923 11×φ golden (65.96) [same star: S Sadalmelik 17.7921 11×φ golden (65.05)] — only"
     ]
    },
    {
@@ -17720,9 +18751,9 @@
   "P07": [
    {
     "body": "Uranus",
-    "cells": 9,
-    "H": 5,
-    "J": 4,
+    "cells": 7,
+    "H": 4,
+    "J": 3,
     "layers": [
      "same body",
      "star rows",
@@ -17734,16 +18765,14 @@
      "top rows: S Sun → J Uranus RA 17.7776 17.7778 ninth (99.85) — only",
      "star rows: H Al Rescha → H Uranus RA 13.3370 13.3333 ninth (95.60) [sky number: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)] — only",
      "star rows: H Mirach → H Uranus Dec 28.9987 29 whole (87.49) — only",
-     "star rows: H Mirach → H Uranus RA 0.2587 conj (68.48) — also: 3 Frero Banbou",
      "star rows: J Sualocin → J Uranus Dec 38.9997 39 whole (96.98) — only",
-     "star rows: J Rigel → J Uranus RA 153.0015 153 whole (85.29) — only",
-     "star rows: J Sualocin → J Uranus RA 24.2747 15×φ golden (75.83) — only"
+     "star rows: J Rigel → J Uranus RA 153.0015 153 whole (85.29) — only"
     ]
    },
    {
     "body": "Jupiter",
-    "cells": 7,
-    "H": 3,
+    "cells": 6,
+    "H": 2,
     "J": 4,
     "layers": [
      "same body",
@@ -17755,9 +18784,8 @@
      "same body: S Jupiter → J Jupiter Dec 11.2978 7×φ golden (loose) — only",
      "top rows: S Transpluto → H Jupiter Dec 6.9991 7 whole (91.55) — only",
      "top rows: S Eris → J Jupiter Dec 1.9963 2 whole (66.38) [360/180] — only",
-     "star rows: H Fomalhaut → H Jupiter Dec 46.9997 47 whole (97.03) — only",
-     "star rows: S Fomalhaut → H Jupiter Dec 47.0044 47 whole (60.68) — only",
-     "star rows: J Pleiades → J Jupiter RA 124.5968 77×φ golden (55.96) — only"
+     "star rows: H Fomalhaut → H Jupiter Dec 46.9997 47 whole (97.03) [same star: S Fomalhaut 47.0044 47 whole (60.68)] — only",
+     "star rows: J Pleiades → J Jupiter RA 124.5968 77×φ golden (55.96) [same star: S Pleiades 124.5986 77×φ golden (47.88)] — only"
     ]
    },
    {
@@ -17778,23 +18806,6 @@
     ]
    },
    {
-    "body": "Transpluto",
-    "cells": 5,
-    "H": 4,
-    "J": 1,
-    "layers": [
-     "same body",
-     "star rows"
-    ],
-    "detail": [
-     "same body: S Transpluto → H Transpluto RA 2.9804 3 whole (0.04) [360/120] — also: 3 Frero Banbou",
-     "same body: S Transpluto → H Transpluto Dec 1.1170 1.11111 ninth (loose) — also: 3 Frero Banbou",
-     "star rows: H Sadalmelik → H Transpluto RA 179.4202 10×φ^6 phi power (95.04) [sky number: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)] — also: 3 Frero Banbou",
-     "star rows: H Regulus → H Transpluto RA 0.0671 conj (91.25) — also: 1 Eclair D'Ainay, 2 Financier, 3 Frero Banbou, 5 Cedar Hill, 6 Le Ligerien, 7 Beaufort West",
-     "star rows: J Rigel → J Transpluto RA 67.0020 67 whole (81.36) — only"
-    ]
-   },
-   {
     "body": "Ceres",
     "cells": 5,
     "H": 2,
@@ -17810,6 +18821,23 @@
      "star rows: H Galactic Centre → H Ceres Dec 4.9996 5 whole (96.35) [360/72] — only",
      "star rows: H Regulus → H Ceres RA 160.0043 160 whole (61.39) — only",
      "star rows: J Castor → J Ceres Dec 62.0025 62 whole (76.20) — only"
+    ]
+   },
+   {
+    "body": "Transpluto",
+    "cells": 5,
+    "H": 4,
+    "J": 1,
+    "layers": [
+     "same body",
+     "star rows"
+    ],
+    "detail": [
+     "same body: S Transpluto → H Transpluto RA 2.9804 3 whole (0.04) [360/120] — also: 3 Frero Banbou",
+     "same body: S Transpluto → H Transpluto Dec 1.1170 1.11111 ninth (loose) — also: 3 Frero Banbou",
+     "star rows: H Sadalmelik → H Transpluto RA 179.4202 10×φ^6 phi power (95.04) [sky number: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)] — also: 3 Frero Banbou",
+     "star rows: H Regulus → H Transpluto RA 0.0671 conj (91.25) — also: 1 Eclair D'Ainay, 2 Financier, 3 Frero Banbou, 5 Cedar Hill, 6 Le Ligerien, 7 Beaufort West",
+     "star rows: J Rigel → J Transpluto RA 67.0020 67 whole (81.36) — only"
     ]
    },
    {
@@ -17850,6 +18878,24 @@
     ]
    },
    {
+    "body": "Saturn",
+    "cells": 6,
+    "H": 2,
+    "J": 4,
+    "layers": [
+     "same body",
+     "star rows"
+    ],
+    "detail": [
+     "same body: S Saturn → J Saturn Dec 11.0959 φ^5 phi power (80.48) — only",
+     "same body: S Saturn → J Saturn RA 34.0095 34 whole (27.71) — only",
+     "star rows: H Castor → H Saturn RA 111.1398 111.111 ninth (95.31) — only",
+     "star rows: H Galactic Centre → H Saturn Dec 14.4500 14.4444 ninth (94.15) — only",
+     "star rows: J Castor → J Saturn RA 122.9891 φ^10 phi power (99.09) — only",
+     "star rows: J Galactic Centre → J Saturn Dec 22.6593 14×φ golden (62.13) [sky number: S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)] — only"
+    ]
+   },
+   {
     "body": "Mars",
     "cells": 6,
     "H": 4,
@@ -17868,21 +18914,21 @@
     ]
    },
    {
-    "body": "Saturn",
-    "cells": 6,
-    "H": 2,
+    "body": "Transpluto",
+    "cells": 5,
+    "H": 1,
     "J": 4,
     "layers": [
      "same body",
-     "star rows"
+     "star rows",
+     "top rows"
     ],
     "detail": [
-     "same body: S Saturn → J Saturn Dec 11.0959 φ^5 phi power (80.48) — only",
-     "same body: S Saturn → J Saturn RA 34.0095 34 whole (27.71) — only",
-     "star rows: H Castor → H Saturn RA 111.1398 111.111 ninth (95.31) — only",
-     "star rows: H Galactic Centre → H Saturn Dec 14.4500 14.4444 ninth (94.15) — only",
-     "star rows: J Castor → J Saturn RA 122.9891 φ^10 phi power (99.09) — only",
-     "star rows: J Galactic Centre → J Saturn Dec 22.6593 14×φ golden (62.13) [sky number: S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)] — only"
+     "same body: S Transpluto → J Transpluto Dec 3.0150 3 whole (6.23) [360/120] — only",
+     "top rows: S Jupiter → J Transpluto Dec 24.1457 24.14 silver (94.25) — only",
+     "star rows: H Regulus → H Transpluto RA 0.1628 conj (79.47) — also: 1 Eclair D'Ainay, 2 Financier, 3 Frero Banbou, 4 One True King, 6 Le Ligerien, 7 Beaufort West",
+     "star rows: J Mirach → J Transpluto Dec 22.2298 22.2222 ninth (89.48) — only",
+     "star rows: J Alhena → J Transpluto Dec 3.0050 3 whole (55.99) [360/120] — only"
     ]
    },
    {
@@ -17920,41 +18966,6 @@
     ]
    },
    {
-    "body": "Transpluto",
-    "cells": 5,
-    "H": 1,
-    "J": 4,
-    "layers": [
-     "same body",
-     "star rows",
-     "top rows"
-    ],
-    "detail": [
-     "same body: S Transpluto → J Transpluto Dec 3.0150 3 whole (6.23) [360/120] — only",
-     "top rows: S Jupiter → J Transpluto Dec 24.1457 24.14 silver (94.25) — only",
-     "star rows: H Regulus → H Transpluto RA 0.1628 conj (79.47) — also: 1 Eclair D'Ainay, 2 Financier, 3 Frero Banbou, 4 One True King, 6 Le Ligerien, 7 Beaufort West",
-     "star rows: J Mirach → J Transpluto Dec 22.2298 22.2222 ninth (89.48) — only",
-     "star rows: J Alhena → J Transpluto Dec 3.0050 3 whole (55.99) [360/120] — only"
-    ]
-   },
-   {
-    "body": "Uranus",
-    "cells": 4,
-    "H": 2,
-    "J": 2,
-    "layers": [
-     "same body",
-     "star rows",
-     "top rows"
-    ],
-    "detail": [
-     "same body: S Uranus → H Uranus RA 23.0164 23 whole (3.19) — only",
-     "top rows: S Sun → J Uranus Dec 1.0010 1 whole (90.11) [360/360] — only",
-     "star rows: H Al Rescha → H Uranus Dec 2.9962 3 whole (65.42) [360/120] — only",
-     "star rows: J Pleiades → J Uranus Dec 45.0020 45 whole (80.70) [360/8] — only"
-    ]
-   },
-   {
     "body": "Rahu",
     "cells": 4,
     "H": 1,
@@ -17984,6 +18995,23 @@
      "star rows: H Scheat → H Mercury RA 99.9964 100 ninth (97.63) — only",
      "star rows: H Alkes → H Mercury RA 78.9948 79 whole (54.96) — only",
      "star rows: J Pleiades → J Mercury Dec 48.5484 30×φ golden (59.62) — only"
+    ]
+   },
+   {
+    "body": "Uranus",
+    "cells": 4,
+    "H": 2,
+    "J": 2,
+    "layers": [
+     "same body",
+     "star rows",
+     "top rows"
+    ],
+    "detail": [
+     "same body: S Uranus → H Uranus RA 23.0164 23 whole (3.19) — only",
+     "top rows: S Sun → J Uranus Dec 1.0010 1 whole (90.11) [360/360] — only",
+     "star rows: H Al Rescha → H Uranus Dec 2.9962 3 whole (65.42) [360/120] — only",
+     "star rows: J Pleiades → J Uranus Dec 45.0020 45 whole (80.70) [360/8] — only"
     ]
    }
   ],
@@ -18025,23 +19053,6 @@
     ]
    },
    {
-    "body": "Mercury",
-    "cells": 4,
-    "H": 3,
-    "J": 1,
-    "layers": [
-     "same body",
-     "star rows",
-     "top rows"
-    ],
-    "detail": [
-     "same body: S Mercury → H Mercury RA 36.0035 36 whole (67.67) [360/10] — only",
-     "same body: S Mercury → J Mercury RA 76.9705 77 whole (loose) — only",
-     "top rows: S Sun → H Mercury Dec 11.3245 7×φ golden (89.27) — only",
-     "star rows: H Castor → H Mercury Dec 40.4586 25×φ golden (57.85) — only"
-    ]
-   },
-   {
     "body": "Eris",
     "cells": 4,
     "H": 2,
@@ -18057,14 +19068,31 @@
      "star rows: J Alkes → J Eris Dec 11.0997 φ^5 phi power (68.67) — only",
      "star rows: J Rigel → J Eris Dec 1.0038 1 whole (65.34) [360/360] — only"
     ]
+   },
+   {
+    "body": "Mercury",
+    "cells": 4,
+    "H": 3,
+    "J": 1,
+    "layers": [
+     "same body",
+     "star rows",
+     "top rows"
+    ],
+    "detail": [
+     "same body: S Mercury → H Mercury RA 36.0035 36 whole (67.67) [360/10] — only",
+     "same body: S Mercury → J Mercury RA 76.9705 77 whole (loose) — only",
+     "top rows: S Sun → H Mercury Dec 11.3245 7×φ golden (89.27) — only",
+     "star rows: H Castor → H Mercury Dec 40.4586 25×φ golden (57.85) — only"
+    ]
    }
   ],
   "P13": [
    {
     "body": "Jupiter",
-    "cells": 8,
-    "H": 3,
-    "J": 5,
+    "cells": 6,
+    "H": 2,
+    "J": 4,
     "layers": [
      "same body",
      "star rows",
@@ -18075,17 +19103,15 @@
      "top rows: S Pallas → H Jupiter Dec 34.0043 34 whole (61.98) — only",
      "top rows: S Pluto → J Jupiter Dec 1.8882 1.88889 ninth (94.78) — only",
      "top rows: S Makemake → J Jupiter Dec 43.0057 43 whole (51.24) — only",
-     "star rows: H Regulus → H Jupiter Dec 11.0964 φ^5 phi power (78.89) — only",
-     "star rows: S Regulus → H Jupiter Dec 11.0972 φ^5 phi power (76.32) — only",
-     "star rows: S Mirach → J Jupiter RA 133.3837 133.333 ninth (93.96) — only",
-     "star rows: J Mirach → J Jupiter RA 133.3869 133.333 ninth (93.57) — only"
+     "star rows: H Regulus → H Jupiter Dec 11.0964 φ^5 phi power (78.89) [same star: S Regulus 11.0972 φ^5 phi power (76.32)] — only",
+     "star rows: S Mirach → J Jupiter RA 133.3837 133.333 ninth (93.96) [same star: J Mirach 133.3869 133.333 ninth (93.57)] — only"
     ]
    },
    {
     "body": "Eris",
-    "cells": 6,
+    "cells": 5,
     "H": 3,
-    "J": 3,
+    "J": 2,
     "layers": [
      "same body",
      "star rows"
@@ -18095,8 +19121,7 @@
      "same body: S Eris → J Eris Dec 6.4758 4×φ golden (loose) — only",
      "star rows: H Castor → H Eris Dec 35.0023 35 whole (78.31) — also: 1 Eclair D'Ainay",
      "star rows: H Fomalhaut → H Eris RA 40.9969 41 whole (71.67) [sky number: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)] — only",
-     "star rows: J Vindemiatrix → J Eris Dec 18.8877 18.8889 ninth (99.12) [sky number: S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)] — only",
-     "star rows: J Vindemiatrix → J Eris RA 171.9981 172 whole (81.60) — only"
+     "star rows: J Vindemiatrix → J Eris Dec 18.8877 18.8889 ninth (99.12) [sky number: S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)] — only"
     ]
    },
    {

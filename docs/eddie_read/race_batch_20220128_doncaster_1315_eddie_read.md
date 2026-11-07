@@ -40,13 +40,11 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - 2 Before Midnight / James Bowen: J Difda → J Orcus Dec 16.1804 10×φ^1 phi power (99.86) = S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
 - 3 The Big Bite / Brian Hughes: S Ankaa → J Jupiter RA 46.9785 φ^8 phi power (99.78) = S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
 - 5 Fransham / Jack Andrews: S Adhara → H Jupiter Dec 52.0000 52 whole (99.61) = S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-- 3 The Big Bite / Brian Hughes: J Ankaa → J Jupiter RA 46.9776 φ^8 phi power (99.04) = S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
 - 1 Funambule Sivola / Charlie Deutsch: H Murzim → H Chiron Dec 16.1824 10×φ^1 phi power (95.06) = S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
 - 2 Before Midnight / James Bowen: J Zubeneschamali → J Mars RA 21.9993 22 whole (92.94) = S Moon → Alphecca RA 21.9974 22 whole (76.10)
 - 3 The Big Bite / Brian Hughes: J Altair → J Mercury Dec 16.1834 10×φ^1 phi power (92.49) = S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
 - 4 King D'argent / Harry Skelton: J Altair → J Haumea RA 110.9235 10×φ^5 phi power (92.30) = S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
 - 4 King D'argent / Harry Skelton: J Murzim → J Orcus Dec 21.9984 22 whole (84.80) = S Moon → Alphecca RA 21.9974 22 whole (76.10)
-- 5 Fransham / Jack Andrews: H Adhara → H Jupiter Dec 52.0019 52 whole (81.65) = S Moon → Alphecca Dec 51.9929 52 whole (41.36)
 - 3 The Big Bite / Brian Hughes: H Altair → H Orcus Dec 16.1883 10×φ^1 phi power (81.40) = S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
 - 6 Moonlighter / Tom Scudamore: H Altair → H Orcus Dec 16.1883 10×φ^1 phi power (81.39) = S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
 - 4 King D'argent / Harry Skelton: J Altair → J Quaoar Dec 21.9979 22 whole (80.09) = S Moon → Alphecca RA 21.9974 22 whole (76.10)
@@ -58,21 +56,9 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - 1 Funambule Sivola / Charlie Deutsch: H Rasalhague → H Uranus Dec 7.9967 8 whole (70.12) = S Moon → Mercury Dec 8.0060 8 whole (49.15)
 - 5 Fransham / Jack Andrews: H Alphecca → H Uranus Dec 21.9966 22 whole (68.52) = S Moon → Alphecca RA 21.9974 22 whole (76.10)
 - 4 King D'argent / Harry Skelton: J Difda → J Vesta Dec 7.9952 8 whole (57.88) = S Moon → Mercury Dec 8.0060 8 whole (49.15)
-- 5 Fransham / Jack Andrews: S Arcturus → H Jupiter RA 108.9946 109 whole (53.07) = S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
 - 7 Gold Des Bois / Conor O'Farrell: H Diadem → H Sun Dec 13.0055 13 whole (52.65) = S Sun → Altair RA 13.0065 13 whole (45.24)
 - 1 Funambule Sivola / Charlie Deutsch: H Murzim → H Neptune Dec 8.0056 8 whole (51.63) = S Moon → Mercury Dec 8.0060 8 whole (49.15)
 - 6 Moonlighter / Tom Scudamore: J Kaus Australis → J Quaoar RA 52.0058 52 whole (50.31) = S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-### locked line star on natal Jupiter — held by 5 of 7: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
-- 3 The Big Bite / Brian Hughes: J Ankaa → J Jupiter RA 46.9776 φ^8 phi power (99.04) | S Ankaa → J Jupiter RA 46.9785 φ^8 phi power (99.78)
-- 2 Before Midnight / James Bowen: H Murzim → H Jupiter RA 18.8804 18.8889 ninth (93.88) | S Murzim → H Jupiter RA 18.8890 18.8889 ninth (99.92)
-- 4 King D'argent / Harry Skelton: J Altair → J Jupiter Dec 13.9990 14 whole (90.63) | S Altair → J Jupiter Dec 14.0000 14 whole (99.70)
-- 5 Fransham / Jack Andrews: H Adhara → H Jupiter Dec 52.0019 52 whole (81.65) | S Adhara → H Jupiter Dec 52.0000 52 whole (99.61)
-- 2 Before Midnight / James Bowen: J Diadem → J Jupiter Dec 2.9976 3 whole (77.08) | S Diadem → J Jupiter Dec 2.9968 3 whole (70.76)
-- 5 Fransham / Jack Andrews: H Adhara → H Jupiter RA 0.2594 conj (68.41) | S Adhara → H Jupiter RA 0.2514 conj (69.29)
-- 5 Fransham / Jack Andrews: J Sualocin → J Jupiter RA 72.9966 73 whole (69.25) | S Sualocin → J Jupiter RA 73.0047 73 whole (58.22)
-- 5 Fransham / Jack Andrews: H Arcturus → H Jupiter RA 109.0025 109 whole (76.67) | S Arcturus → H Jupiter RA 108.9946 109 whole (53.07)
-- 6 Moonlighter / Tom Scudamore: H Sualocin → H Jupiter RA 126.2103 78×φ golden (78.95) | S Sualocin → H Jupiter RA 126.2161 78×φ golden (50.29)
-- 3 The Big Bite / Brian Hughes: H Sualocin → H Jupiter RA 126.2103 78×φ golden (78.87) | S Sualocin → H Jupiter RA 126.2161 78×φ golden (50.20)
 ### natal body on a strong line star — held by 4 of 7: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
 - 1 Funambule Sivola / Charlie Deutsch: J Ankaa → J Saturn RA 0.0220 conj (97.08)
 - 5 Fransham / Jack Andrews: H Rasalhague → H Sun Dec 0.0287 conj (81.76)
@@ -88,7 +74,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - 2 Before Midnight / James Bowen: S Murzim → H Jupiter RA 18.8890 18.8889 ninth (99.92) | S Murzim → J Jupiter RA 32.9973 33 whole (75.08)
 - 3 The Big Bite / Brian Hughes: H Sualocin → H Pluto Dec 35.5955 22×φ golden (92.39) | J Sualocin → J Pluto RA 94.0040 94 whole (64.29)
 - 4 King D'argent / Harry Skelton: H Murzim → H Sedna RA 41.4279 41.4 silver (93.80) | J Murzim → J Sedna RA 53.3989 33×φ golden (78.24)
-- 5 Fransham / Jack Andrews: S Arcturus → H Jupiter RA 108.9946 109 whole (53.07) | S Arcturus → J Jupiter RA 169.0005 169 whole (95.27)
+- 5 Fransham / Jack Andrews: H Arcturus → H Jupiter RA 109.0025 109 whole (76.67) | S Arcturus → J Jupiter RA 169.0005 169 whole (95.27)
 - 5 Fransham / Jack Andrews: H Sualocin → H Jupiter RA 155.0046 155 whole (59.55) | J Sualocin → J Jupiter RA 72.9966 73 whole (69.25)
 - 5 Fransham / Jack Andrews: H Sualocin → H Mars Dec 19.4149 12×φ golden (90.76) | J Sualocin → J Mars RA 107.0051 107 whole (55.82)
 - 5 Fransham / Jack Andrews: H Jupiter → H star Sualocin RA 155.0046 155 whole (59.55) | J Jupiter → J star Sualocin RA 72.9966 73 whole (69.25)
@@ -220,8 +206,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - J Alnilam → J Quaoar Dec 12.9425 8×φ golden (89.44) — only
   - J Alnilam → J Neptune Dec 19.0030 19 whole (72.00) — only
   - J Alnilam → J Venus RA 4.0052 4 whole (54.76) [360/90] — only
-  - S Alnilam → J Jupiter RA 156.9344 97×φ golden (29.21) — only
-  - J Alnilam → J Jupiter RA 156.9247 97×φ golden (5.79) — only
+  - S Alnilam → J Jupiter RA 156.9344 97×φ golden (29.21) [same star: J Alnilam 156.9247 97×φ golden (5.79)] — only
   - H RA midpoints: Venus = Rahu 83.61 (far, far side); Makemake = Gonggong 51.38 (far, far side); Neptune = Rahu 41.10 (far, far side)
   - H Dec midpoints: Jupiter = Saturn 46.39 (between); Mars = Uranus 34.95 (between)
   - J RA midpoints: Jupiter = Quaoar 53.01 (far, far side); Jupiter = Pluto 44.39 (far, far side)
@@ -349,15 +334,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - J Menkent → J Pallas RA 0.2734 conj (66.87) — only
   - J Menkent → J Vesta RA 11.0066 11 whole (44.82) — only
 ### Threads (4 or more cells on one body, both charts, 2 or more layers)
-- **Gonggong**: 8 cells (H 2, J 6; same body, star rows, top rows)
-  - same body: S Gonggong → H Gonggong RA 1.4131 1.414 sqrt2 (loose) — only
-  - top rows: S Jupiter → H Gonggong Dec 3.0026 3 whole (75.56) [360/120] — only
-  - top rows: S Sun → J Gonggong RA 20.9968 21 whole (70.92) — only
-  - star rows: J Diadem → J Gonggong Dec 35.5966 22×φ golden (98.99) — only
-  - star rows: J Rasalhague → J Gonggong RA 67.9578 42×φ golden (97.64) — only
-  - star rows: J Sualocin → J Gonggong Dec 33.9767 21×φ golden (87.80) — only
-  - star rows: J Altair → J Gonggong RA 33.9973 34 whole (74.45) — only
-  - star rows: J Difda → J Gonggong Dec 0.0807 conj (53.42) — only
 - **Sedna**: 8 cells (H 5, J 3; same body, star rows, top rows)
   - same body: S Sedna → J Sedna Dec 3.0131 3 whole (11.92) [360/120] — only
   - same body: S Sedna → J Sedna RA 12.9676 8×φ golden (loose) — only
@@ -367,14 +343,15 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - star rows: H Murzim → H Sedna RA 41.4216 41.4 silver (99.74) — also: 4 King D'argent
   - star rows: H Alphecca → H Sedna RA 179.4127 10×φ^6 phi power (93.42) — also: 4 King D'argent
   - star rows: J Difda → J Sedna Dec 23.0034 23 whole (68.98) — only
-- **Vesta**: 7 cells (H 6, J 1; same body, star rows, top rows)
-  - same body: S Vesta → H Vesta RA 24.1362 24.14 silver (loose) — only
-  - top rows: S Moon → H Vesta RA 47.9984 48 whole (84.82) — only
-  - star rows: H Menkent → H Vesta RA 91.9980 92 whole (80.86) — only
-  - star rows: H Difda → H Vesta Dec 2.9966 3 whole (68.97) [360/120] — only
-  - star rows: H Alphecca → H Vesta RA 69.9958 70 whole (62.47) — only
-  - star rows: H Adhara → H Vesta RA 160.9956 161 whole (60.45) — only
-  - star rows: J Alphecca → J Vesta RA 10.9949 11 whole (55.67) — only
+- **Gonggong**: 8 cells (H 2, J 6; same body, star rows, top rows)
+  - same body: S Gonggong → H Gonggong RA 1.4131 1.414 sqrt2 (loose) — only
+  - top rows: S Jupiter → H Gonggong Dec 3.0026 3 whole (75.56) [360/120] — only
+  - top rows: S Sun → J Gonggong RA 20.9968 21 whole (70.92) — only
+  - star rows: J Diadem → J Gonggong Dec 35.5966 22×φ golden (98.99) — only
+  - star rows: J Rasalhague → J Gonggong RA 67.9578 42×φ golden (97.64) — only
+  - star rows: J Sualocin → J Gonggong Dec 33.9767 21×φ golden (87.80) — only
+  - star rows: J Altair → J Gonggong RA 33.9973 34 whole (74.45) — only
+  - star rows: J Difda → J Gonggong Dec 0.0807 conj (53.42) — only
 - **Neptune**: 7 cells (H 4, J 3; star rows, top rows)
   - top rows: S Jupiter → H Neptune RA 0.1075 conj (86.18) — also: 2 Before Midnight, 3 The Big Bite, 4 King D'argent, 5 Fransham, 6 Moonlighter, 7 Gold Des Bois
   - star rows: H Arcturus → H Neptune Dec 29.1234 18×φ golden (92.91) — only
@@ -383,6 +360,14 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - star rows: J Rasalhague → J Neptune RA 35.5978 22×φ golden (93.64) — only
   - star rows: J Alphecca → J Neptune Dec 46.9209 29×φ golden (87.46) — only
   - star rows: J Alnilam → J Neptune Dec 19.0030 19 whole (72.00) — only
+- **Vesta**: 7 cells (H 6, J 1; same body, star rows, top rows)
+  - same body: S Vesta → H Vesta RA 24.1362 24.14 silver (loose) — only
+  - top rows: S Moon → H Vesta RA 47.9984 48 whole (84.82) — only
+  - star rows: H Menkent → H Vesta RA 91.9980 92 whole (80.86) — only
+  - star rows: H Difda → H Vesta Dec 2.9966 3 whole (68.97) [360/120] — only
+  - star rows: H Alphecca → H Vesta RA 69.9958 70 whole (62.47) — only
+  - star rows: H Adhara → H Vesta RA 160.9956 161 whole (60.45) — only
+  - star rows: J Alphecca → J Vesta RA 10.9949 11 whole (55.67) — only
 - **Quaoar**: 6 cells (H 2, J 4; same body, star rows)
   - same body: S Quaoar → J Quaoar Dec 1.3334 1.33333 ninth (99.25) — only
   - star rows: H Murzim → H Quaoar Dec 2.2221 2.22222 ninth (98.79) — only
@@ -396,11 +381,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - top rows: S Moon → H Ketu Dec 29.9960 30 whole (63.77) [360/12] — only
   - star rows: H Difda → H Ketu RA 0.0692 conj (90.99) — also: 4 King D'argent
   - star rows: H Alphecca → H Ketu Dec 21.9970 22 whole (72.03) [sky number: S Moon → Alphecca RA 21.9974 22 whole (76.10)] — only
-- **Rahu**: 4 cells (H 2, J 2; same body, star rows, top rows)
-  - same body: S Rahu → H Rahu RA 134.3072 83×φ golden (loose) — only
-  - same body: S Rahu → J Rahu Dec 25.8685 16×φ golden (loose) — only
-  - top rows: S Sun → H Rahu RA 119.7352 74×φ golden (95.77) — only
-  - star rows: J Murzim → J Rahu Dec 11.9956 12 whole (61.12) [360/30] — only
 - **Chiron**: 4 cells (H 2, J 2; same body, star rows)
   - same body: S Chiron → J Chiron RA 179.2894 10×φ^6 phi power (loose) — only
   - star rows: H Alkes → H Chiron RA 179.4429 10×φ^6 phi power (99.95) — only
@@ -411,6 +391,11 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - star rows: H Murzim → H Ceres RA 175.9997 176 whole (96.57) — only
   - star rows: H Alphecca → H Ceres Dec 51.0013 51 whole (87.19) — also: 4 King D'argent
   - star rows: H Deneb → H Ceres Dec 69.5702 43×φ golden (69.96) — only
+- **Rahu**: 4 cells (H 2, J 2; same body, star rows, top rows)
+  - same body: S Rahu → H Rahu RA 134.3072 83×φ golden (loose) — only
+  - same body: S Rahu → J Rahu Dec 25.8685 16×φ golden (loose) — only
+  - top rows: S Sun → H Rahu RA 119.7352 74×φ golden (95.77) — only
+  - star rows: J Murzim → J Rahu Dec 11.9956 12 whole (61.12) [360/30] — only
 ### Flags held
 - **centre conj star landing with the centre** (only this runner)
   - H Deneb → H Mercury RA 0.1393 conj (82.29) | S Sun → H Mercury RA 0.2107 conj (73.88)
@@ -515,8 +500,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Diadem → H Sun RA 156.9298 97×φ golden (15.71) — only
   - H Diadem → H Quaoar Dec 33.0138 33 whole (9.64) — only
   - J Diadem → J Pallas Dec 6.0001 6 whole (99.14) [360/60] — only
-  - J Diadem → J Jupiter Dec 2.9976 3 whole (77.08) [360/120] — only
-  - S Diadem → J Jupiter Dec 2.9968 3 whole (70.76) [360/120] — only
+  - J Diadem → J Jupiter Dec 2.9976 3 whole (77.08) [same star: S Diadem 2.9968 3 whole (70.76)] [360/120] — only
   - J Diadem → J Saturn Dec 0.1012 conj (43.90) — only
   - J Diadem → J Haumea RA 0.5763 conj (37.92) — only
   - J Diadem → J Makemake RA 16.9873 17 whole (13.42) — only
@@ -557,8 +541,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Altair → H Vesta RA 155.5929 155.556 ninth (96.46) — only
   - H Altair → H Mercury RA 94.0013 94 whole (87.62) — only
   - J Altair → J Pluto Dec 21.0016 21 whole (84.84) — only
-  - J Altair → J Jupiter RA 124.9898 125 whole (24.09) — only
-  - S Altair → J Jupiter RA 124.9891 125 whole (20.60) — only
+  - J Altair → J Jupiter RA 124.9898 125 whole (24.09) [same star: S Altair 124.9891 125 whole (20.60)] — only
   - H RA midpoints: Makemake = Ketu 54.52 (far, far side); Pluto = Juno 53.94 (near, between)
   - H Dec midpoints: Mars = Uranus 44.86 (between)
   - J RA midpoints: Mercury = Chiron 93.19 (near, between); Saturn = Makemake 47.17 (far, far side)
@@ -588,15 +571,13 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H RA midpoints: Sun = Transpluto 86.82 (far, far side); Orcus = Ketu 83.06 (far, far side); Saturn = Gonggong 62.94 (near, between)
   - J RA midpoints: Chiron = Ketu 88.70 (near, between); Saturn = Orcus 69.01 (far, far side); Chiron = Ceres 3.15 (near, between)
 - **Murzim** (sky Sun)
-  - S Murzim → H Jupiter RA 18.8890 18.8889 ninth (99.92) — only
-  - H Murzim → H Jupiter RA 18.8804 18.8889 ninth (93.88) — only
+  - S Murzim → H Jupiter RA 18.8890 18.8889 ninth (99.92) [same star: H Murzim 18.8804 18.8889 ninth (93.88)] — only
   - H Murzim → H Uranus RA 85.9950 86 whole (56.46) — only
   - H Murzim → H Venus Dec 36.0180 36 whole (1.00) [360/10] — only
   - J Murzim → J Mars RA 155.5773 155.556 ninth (97.94) — only
-  - S Murzim → J Jupiter RA 32.9973 33 whole (75.08) — only
+  - S Murzim → J Jupiter RA 32.9973 33 whole (75.08) [same star: J Murzim 32.9937 33 whole (47.05)] — only
   - J Murzim → J Transpluto Dec 30.9948 31 whole (54.60) — only
   - J Murzim → J Chiron Dec 0.0919 conj (48.12) — only
-  - J Murzim → J Jupiter RA 32.9937 33 whole (47.05) — only
   - J Murzim → J Neptune Dec 0.1964 conj (11.91) — only
   - J Murzim → J Vesta RA 94.0196 94 whole (0.04) — only
   - H RA midpoints: Saturn = Gonggong 66.88 (far, far side); Sun = Transpluto 46.66 (near, between); Chiron = Haumea 43.67 (far, far side); Orcus = Ketu 34.26 (near, between)
@@ -604,8 +585,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - J Dec midpoints: Mercury = Mars 35.32 (between)
 - **Rasalhague** (sky Sun)
   - H Rasalhague → H Sedna RA 150.0019 150 whole (81.69) — only
-  - H Rasalhague → H Jupiter Dec 10.0100 10 whole (25.11) [360/36] — only
-  - S Rasalhague → H Jupiter Dec 10.0104 10 whole (23.25) [360/36] — only
+  - H Rasalhague → H Jupiter Dec 10.0100 10 whole (25.11) [same star: S Rasalhague 10.0104 10 whole (23.25)] [360/36] — only
   - H Rasalhague → H Quaoar RA 1.1713 conj (4.80) — also: 3 The Big Bite, 6 Moonlighter
   - J Rasalhague → J Sun RA 88.8831 88.8889 ninth (95.82) — only
   - J Rasalhague → J Transpluto RA 116.0088 116 whole (31.54) — only
@@ -633,8 +613,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Alphecca → H Orcus Dec 34.0117 34 whole (17.10) — only
   - H Alphecca → H Transpluto Dec 14.9853 15 whole (7.08) [360/24] — also: 3 The Big Bite, 6 Moonlighter
   - J Alphecca → J Haumea RA 35.5966 22×φ golden (99.03) — only
-  - J Alphecca → J Jupiter RA 170.9920 171 whole (35.75) — only
-  - S Alphecca → J Jupiter RA 170.9882 171 whole (16.66) — only
+  - J Alphecca → J Jupiter RA 170.9920 171 whole (35.75) [same star: S Alphecca 170.9882 171 whole (16.66)] — only
   - J Alphecca → J Ceres Dec 49.9843 50 whole (4.62) — only
   - J Alphecca → J Vesta RA 127.9822 128 whole (1.17) — only
   - J RA midpoints: Chiron = Haumea 26.40 (near, between)
@@ -662,8 +641,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - **Menkent** (sky Moon)
   - H Menkent → H Pallas RA 161.8483 100×φ^1 phi power (89.20) — only
   - H Menkent → H Uranus RA 158.0017 158 whole (83.92) — only
-  - J Menkent → J Jupiter RA 148.9926 149 whole (39.72) — only
-  - S Menkent → J Jupiter RA 148.9844 149 whole (4.93) — only
+  - J Menkent → J Jupiter RA 148.9926 149 whole (39.72) [same star: S Menkent 148.9844 149 whole (4.93)] — only
   - J Menkent → J Vesta RA 149.9815 150 whole (0.58) — only
   - H RA midpoints: Uranus = Sedna 93.08 (far, far side); Mars = Eris 48.49 (far, far side)
   - J RA midpoints: Jupiter = Vesta 43.63 (far, far side)
@@ -685,14 +663,12 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - top rows: S Jupiter → J Mercury Dec 3.9966 4 whole (68.87) [360/90] — only
   - star rows: H Arcturus → H Mercury RA 177.7842 177.778 ninth (99.50) — only
   - star rows: H Altair → H Mercury RA 94.0013 94 whole (87.62) — only
-- **Jupiter**: 7 cells (H 2, J 5; star rows, top rows)
+- **Jupiter**: 5 cells (H 1, J 4; star rows, top rows)
   - top rows: S Quaoar → J Jupiter Dec 36.0025 36 whole (76.61) [360/10] — only
   - top rows: S Vesta → J Jupiter Dec 42.0629 26×φ golden (66.67) — only
-  - star rows: S Murzim → H Jupiter RA 18.8890 18.8889 ninth (99.92) — only
-  - star rows: H Murzim → H Jupiter RA 18.8804 18.8889 ninth (93.88) — only
-  - star rows: J Diadem → J Jupiter Dec 2.9976 3 whole (77.08) [360/120] — only
-  - star rows: S Murzim → J Jupiter RA 32.9973 33 whole (75.08) — only
-  - star rows: S Diadem → J Jupiter Dec 2.9968 3 whole (70.76) [360/120] — only
+  - star rows: S Murzim → H Jupiter RA 18.8890 18.8889 ninth (99.92) [same star: H Murzim 18.8804 18.8889 ninth (93.88)] — only
+  - star rows: J Diadem → J Jupiter Dec 2.9976 3 whole (77.08) [same star: S Diadem 2.9968 3 whole (70.76)] [360/120] — only
+  - star rows: S Murzim → J Jupiter RA 32.9973 33 whole (75.08) [same star: J Murzim 32.9937 33 whole (47.05)] — only
 - **Pallas**: 5 cells (H 2, J 3; T1/T2, same body, star rows)
   - same body: S Pallas → J Pallas Dec 21.9874 22 whole (13.54) [sky number: S Moon → Alphecca RA 21.9974 22 whole (76.10)] — only
   - T2: J Jupiter → J Pallas Dec 8.9976 9 whole (77.83) [360/40] — only
@@ -703,9 +679,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - **line star carries a sky number** (7 of 7 runners)
   - J Difda → J Orcus Dec 16.1804 10×φ^1 phi power (99.86) = S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - J Zubeneschamali → J Mars RA 21.9993 22 whole (92.94) = S Moon → Alphecca RA 21.9974 22 whole (76.10)
-- **locked line star on natal Jupiter** (5 of 7 runners)
-  - H Murzim → H Jupiter RA 18.8804 18.8889 ninth (93.88) | S Murzim → H Jupiter RA 18.8890 18.8889 ninth (99.92)
-  - J Diadem → J Jupiter Dec 2.9976 3 whole (77.08) | S Diadem → J Jupiter Dec 2.9968 3 whole (70.76)
 - **same number on the same body, both charts** (2 of 7 runners)
   - H Jupiter → H Mercury Dec 11.1142 11.1111 ninth (94.94) | S Jupiter → J Mercury RA 11.1137 11.1111 ninth (95.82) | S Moon → J Mercury Dec 11.1133 11.1111 ninth (96.46)
 - **same source on the same body, both charts** (7 of 7 runners)
@@ -786,8 +759,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Diadem → H Saturn RA 18.8839 18.8889 ninth (96.43) — also: 6 Moonlighter
   - H Diadem → H Pluto Dec 37.2155 23×φ golden (95.54) — also: 2 Before Midnight, 6 Moonlighter
   - H Diadem → H Juno RA 115.0111 115 whole (19.88) — also: 6 Moonlighter
-  - S Diadem → H Jupiter RA 121.3758 75×φ golden (7.85) — also: 6 Moonlighter
-  - H Diadem → H Jupiter RA 121.3802 75×φ golden (2.09) — also: 6 Moonlighter
+  - S Diadem → H Jupiter RA 121.3758 75×φ golden (7.85) [same star: H Diadem 121.3802 75×φ golden (2.09)] — also: 6 Moonlighter
   - J Diadem → J Orcus RA 72.9882 73 whole (16.90) — only
   - H RA midpoints: Uranus = Eris 91.55 (far, far side); Mercury = Uranus 48.76 (far, far side); Chiron = Sedna 48.05 (far, far side)
   - J Dec midpoints: Chiron = Rahu 61.39 (between)
@@ -868,9 +840,8 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - **Rasalhague** (sky Sun)
   - H Rasalhague → H Saturn Dec 24.1473 24.14 silver (91.70) — also: 6 Moonlighter
   - H Rasalhague → H Quaoar RA 1.2114 conj (3.70) — also: 2 Before Midnight, 6 Moonlighter
-  - J Rasalhague → J Jupiter Dec 28.9951 29 whole (57.07) — only
+  - J Rasalhague → J Jupiter Dec 28.9951 29 whole (57.07) [same star: S Rasalhague 28.9907 29 whole (28.86)] — only
   - J Rasalhague → J Gonggong Dec 33.9707 21×φ golden (56.82) — only
-  - S Rasalhague → J Jupiter Dec 28.9907 29 whole (28.86) — only
   - J Rasalhague → J Venus Dec 0.1513 conj (24.56) — only
   - H RA midpoints: Neptune = Makemake 92.27 (near, between); Jupiter = Vesta 51.21 (far, far side)
   - H Dec midpoints: Ceres = Pallas 79.65 (between); Chiron = Makemake 64.71 (between)
@@ -880,8 +851,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Sualocin → H Pluto Dec 35.5955 22×φ golden (92.39) — also: 2 Before Midnight, 6 Moonlighter
   - H Sualocin → H Mars Dec 2.2228 2.22222 ninth (92.29) — also: 6 Moonlighter
   - H Sualocin → H Orcus RA 161.8565 100×φ^1 phi power (87.31) — also: 2 Before Midnight, 6 Moonlighter
-  - H Sualocin → H Jupiter RA 126.2103 78×φ golden (78.87) — also: 6 Moonlighter
-  - S Sualocin → H Jupiter RA 126.2161 78×φ golden (50.20) — also: 6 Moonlighter
+  - H Sualocin → H Jupiter RA 126.2103 78×φ golden (78.87) [same star: S Sualocin 126.2161 78×φ golden (50.20)] — also: 6 Moonlighter
   - H Sualocin → H Chiron Dec 17.9809 18 whole (0.19) [360/20] — also: 6 Moonlighter
   - J Sualocin → J Sedna Dec 12.2299 12.2222 ninth (89.40) — only
   - J Sualocin → J Pluto RA 94.0040 94 whole (64.29) — only
@@ -904,8 +874,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Ankaa → H Mars Dec 55.9927 56 whole (40.43) — also: 6 Moonlighter
   - H Ankaa → H Ceres RA 92.9904 93 whole (27.22) — also: 6 Moonlighter
   - H Ankaa → H Orcus Dec 34.9855 35 whole (7.61) — also: 2 Before Midnight, 6 Moonlighter
-  - S Ankaa → J Jupiter RA 46.9785 φ^8 phi power (99.78) [sky number: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)] — only
-  - J Ankaa → J Jupiter RA 46.9776 φ^8 phi power (99.04) [sky number: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)] — only
+  - S Ankaa → J Jupiter RA 46.9785 φ^8 phi power (99.78) [same star: J Ankaa 46.9776 φ^8 phi power (99.04)] [sky number: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)] — only
   - J Ankaa → J Makemake RA 156.0117 156 whole (17.30) — only
   - J Ankaa → J Eris Dec 31.9874 32 whole (13.62) — only
   - J Ankaa → J Sedna Dec 45.9820 46 whole (0.95) — only
@@ -928,22 +897,13 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H RA midpoints: Uranus = Sedna 88.99 (far, far side); Sun = Eris 75.29 (far, far side); Sun = Mercury 56.09 (far, far side)
   - J RA midpoints: Eris = Sedna 47.44 (far, far side); Ceres = Gonggong 46.77 (far, far side)
 ### Threads (4 or more cells on one body, both charts, 2 or more layers)
-- **Jupiter**: 8 cells (H 3, J 5; star rows, top rows)
+- **Jupiter**: 6 cells (H 2, J 4; star rows, top rows)
   - top rows: S Haumea → H Jupiter RA 141.4256 141.4 sqrt2 (98.80) — also: 6 Moonlighter
-  - star rows: H Sualocin → H Jupiter RA 126.2103 78×φ golden (78.87) — also: 6 Moonlighter
-  - star rows: S Sualocin → H Jupiter RA 126.2161 78×φ golden (50.20) — also: 6 Moonlighter
-  - star rows: S Ankaa → J Jupiter RA 46.9785 φ^8 phi power (99.78) [sky number: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)] — only
-  - star rows: J Ankaa → J Jupiter RA 46.9776 φ^8 phi power (99.04) [sky number: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)] — only
+  - star rows: H Sualocin → H Jupiter RA 126.2103 78×φ golden (78.87) [same star: S Sualocin 126.2161 78×φ golden (50.20)] — also: 6 Moonlighter
+  - star rows: S Ankaa → J Jupiter RA 46.9785 φ^8 phi power (99.78) [same star: J Ankaa 46.9776 φ^8 phi power (99.04)] [sky number: S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)] — only
   - star rows: S Difda → J Jupiter Dec 1.5551 1.55556 ninth (95.41) — only
   - star rows: J Kaus Australis → J Jupiter Dec 17.9495 φ^6 phi power (88.75) — only
-  - star rows: J Rasalhague → J Jupiter Dec 28.9951 29 whole (57.07) — only
-- **Orcus**: 6 cells (H 5, J 1; same body, star rows)
-  - same body: S Orcus → H Orcus RA 9.0089 9 whole (30.64) [360/40] — also: 2 Before Midnight, 6 Moonlighter
-  - same body: S Orcus → J Orcus Dec 18.8632 18.8889 ninth (loose) — only
-  - star rows: H Sualocin → H Orcus RA 161.8565 100×φ^1 phi power (87.31) — also: 2 Before Midnight, 6 Moonlighter
-  - star rows: H Ankaa → H Orcus RA 141.4871 141.4 sqrt2 (82.27) — also: 2 Before Midnight, 6 Moonlighter
-  - star rows: H Altair → H Orcus Dec 16.1883 10×φ^1 phi power (81.40) [sky number: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)] — also: 6 Moonlighter
-  - star rows: H Alnilam → H Orcus RA 64.0040 64 whole (64.00) — also: 2 Before Midnight, 6 Moonlighter
+  - star rows: J Rasalhague → J Jupiter Dec 28.9951 29 whole (57.07) [same star: S Rasalhague 28.9907 29 whole (28.86)] — only
 - **Pluto**: 6 cells (H 3, J 3; same body, star rows, top rows)
   - same body: S Pluto → J Pluto RA 83.0093 83 whole (28.53) — only
   - top rows: S Moon → J Pluto Dec 29.0324 φ^7 phi power (97.23) — only
@@ -951,43 +911,46 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - star rows: H Difda → H Pluto RA 88.8822 88.8889 ninth (95.21) — also: 6 Moonlighter
   - star rows: H Sualocin → H Pluto Dec 35.5955 22×φ golden (92.39) — also: 2 Before Midnight, 6 Moonlighter
   - star rows: J Sualocin → J Pluto RA 94.0040 94 whole (64.29) — only
-- **Juno**: 5 cells (H 1, J 4; same body, star rows, top rows)
-  - same body: S Juno → H Juno RA 14.1278 14.14 sqrt2 (loose) — also: 6 Moonlighter
-  - same body: S Juno → J Juno Dec 18.8598 18.8889 ninth (loose) — only
-  - top rows: S Jupiter → J Juno RA 155.5511 155.556 ninth (99.58) — only
-  - top rows: S Sun → J Juno RA 127.9963 128 whole (66.76) — only
-  - star rows: J Altair → J Juno RA 114.9947 115 whole (53.82) — only
+- **Orcus**: 6 cells (H 5, J 1; same body, star rows)
+  - same body: S Orcus → H Orcus RA 9.0089 9 whole (30.64) [360/40] — also: 2 Before Midnight, 6 Moonlighter
+  - same body: S Orcus → J Orcus Dec 18.8632 18.8889 ninth (loose) — only
+  - star rows: H Sualocin → H Orcus RA 161.8565 100×φ^1 phi power (87.31) — also: 2 Before Midnight, 6 Moonlighter
+  - star rows: H Ankaa → H Orcus RA 141.4871 141.4 sqrt2 (82.27) — also: 2 Before Midnight, 6 Moonlighter
+  - star rows: H Altair → H Orcus Dec 16.1883 10×φ^1 phi power (81.40) [sky number: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)] — also: 6 Moonlighter
+  - star rows: H Alnilam → H Orcus RA 64.0040 64 whole (64.00) — also: 2 Before Midnight, 6 Moonlighter
 - **Ceres**: 5 cells (H 3, J 2; star rows, top rows)
   - top rows: S Jupiter → H Ceres Dec 38.9989 39 whole (89.52) — also: 6 Moonlighter
   - top rows: S Sun → H Ceres RA 148.8566 92×φ golden (85.19) — also: 6 Moonlighter
   - top rows: S Moon → J Ceres RA 161.8384 100×φ^1 phi power (91.55) — only
   - star rows: H Altair → H Ceres RA 161.8576 100×φ^1 phi power (87.06) — also: 6 Moonlighter
   - star rows: J Kaus Australis → J Ceres RA 177.7801 177.778 ninth (99.82) — only
+- **Juno**: 5 cells (H 1, J 4; same body, star rows, top rows)
+  - same body: S Juno → H Juno RA 14.1278 14.14 sqrt2 (loose) — also: 6 Moonlighter
+  - same body: S Juno → J Juno Dec 18.8598 18.8889 ninth (loose) — only
+  - top rows: S Jupiter → J Juno RA 155.5511 155.556 ninth (99.58) — only
+  - top rows: S Sun → J Juno RA 127.9963 128 whole (66.76) — only
+  - star rows: J Altair → J Juno RA 114.9947 115 whole (53.82) — only
 - **Sedna**: 5 cells (H 2, J 3; same body, star rows, top rows)
   - same body: S Sedna → J Sedna RA 18.0233 18 whole (loose) [360/20] — only
   - top rows: S Sun → H Sedna RA 103.0040 103 whole (64.26) — also: 6 Moonlighter
   - star rows: H Altair → H Sedna RA 116.0049 116 whole (56.98) — also: 6 Moonlighter
   - star rows: J Alphecca → J Sedna RA 166.6188 166.667 ninth (95.90) — only
   - star rows: J Sualocin → J Sedna Dec 12.2299 12.2222 ninth (89.40) — only
-- **Mars**: 4 cells (H 2, J 2; same body, star rows)
-  - same body: S Mars → H Mars RA 122.1601 122.222 ninth (loose) — also: 6 Moonlighter
-  - same body: S Mars → J Mars RA 176.7544 177.778 ninth (loose) — only
-  - star rows: H Sualocin → H Mars Dec 2.2228 2.22222 ninth (92.29) — also: 6 Moonlighter
-  - star rows: J Murzim → J Mars RA 0.4333 conj (50.57) — only
 - **Mercury**: 4 cells (H 1, J 3; same body, star rows)
   - same body: S Mercury → J Mercury Dec 42.3260 10×φ^3 phi power (loose) — only
   - star rows: H Adhara → H Mercury Dec 37.9983 38 whole (84.08) — also: 6 Moonlighter
   - star rows: J Alphecca → J Mercury Dec 1.6666 1.66667 ninth (99.85) — only
   - star rows: J Altair → J Mercury Dec 16.1834 10×φ^1 phi power (92.49) [sky number: S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)] — only
+- **Mars**: 4 cells (H 2, J 2; same body, star rows)
+  - same body: S Mars → H Mars RA 122.1601 122.222 ninth (loose) — also: 6 Moonlighter
+  - same body: S Mars → J Mars RA 176.7544 177.778 ninth (loose) — only
+  - star rows: H Sualocin → H Mars Dec 2.2228 2.22222 ninth (92.29) — also: 6 Moonlighter
+  - star rows: J Murzim → J Mars RA 0.4333 conj (50.57) — only
 ### Flags held
 - **line star carries a sky number** (7 of 7 runners)
   - S Ankaa → J Jupiter RA 46.9785 φ^8 phi power (99.78) = S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
-  - J Ankaa → J Jupiter RA 46.9776 φ^8 phi power (99.04) = S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79)
   - J Altair → J Mercury Dec 16.1834 10×φ^1 phi power (92.49) = S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - H Altair → H Orcus Dec 16.1883 10×φ^1 phi power (81.40) = S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
-- **locked line star on natal Jupiter** (5 of 7 runners)
-  - J Ankaa → J Jupiter RA 46.9776 φ^8 phi power (99.04) | S Ankaa → J Jupiter RA 46.9785 φ^8 phi power (99.78)
-  - H Sualocin → H Jupiter RA 126.2103 78×φ golden (78.87) | S Sualocin → H Jupiter RA 126.2161 78×φ golden (50.20)
 - **same number on the same body, both charts** (2 of 7 runners)
   - H Altair → H Ceres RA 161.8576 100×φ^1 phi power (87.06) | S Moon → J Ceres RA 161.8384 100×φ^1 phi power (91.55)
 - **same source on the same body, both charts** (7 of 7 runners)
@@ -1058,8 +1021,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - S Haumea → J Jupiter RA 118.1106 73×φ golden (66.78) — only
 ### 8. T24 star rows
 - **Diadem** (sky Jupiter)
-  - H Diadem → H Jupiter Dec 1.0123 1 whole (14.94) [360/360] — only
-  - S Diadem → H Jupiter Dec 1.0127 1 whole (13.47) [360/360] — only
+  - H Diadem → H Jupiter Dec 1.0123 1 whole (14.94) [same star: S Diadem 1.0127 1 whole (13.47)] [360/360] — only
   - H Diadem → H Haumea Dec 0.2365 conj (4.48) — also: 1 Funambule Sivola
   - J Diadem → J Gonggong Dec 38.0017 38 whole (83.45) — only
   - H RA midpoints: Eris = Ketu 97.21 (far, far side); Saturn = Transpluto 65.38 (near, between)
@@ -1101,9 +1063,8 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Altair → H Chiron RA 47.0082 47 whole (34.93) — only
   - H Altair → H Juno Dec 4.0101 4 whole (24.36) [360/90] — only
   - H Altair → H Gonggong Dec 22.0147 22 whole (7.06) [sky number: S Moon → Alphecca RA 21.9974 22 whole (76.10)] — only
-  - S Altair → J Jupiter Dec 14.0000 14 whole (99.70) — only
+  - S Altair → J Jupiter Dec 14.0000 14 whole (99.70) [same star: J Altair 13.9990 14 whole (90.63)] — only
   - J Altair → J Haumea RA 110.9235 10×φ^5 phi power (92.30) [sky number: S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)] — only
-  - J Altair → J Jupiter Dec 13.9990 14 whole (90.63) — only
   - J Altair → J Quaoar Dec 21.9979 22 whole (80.09) [sky number: S Moon → Alphecca RA 21.9974 22 whole (76.10)] — only
   - H RA midpoints: Neptune = Pallas 85.08 (near, between); Eris = Haumea 43.06 (near, between)
   - J RA midpoints: Chiron = Orcus 44.76 (far, far side)
@@ -1199,14 +1160,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H RA midpoints: Sedna = Ketu 44.15 (far, far side); Jupiter = Ceres 38.24 (near, between)
   - J RA midpoints: Vesta = Ketu 94.63 (near, between); Saturn = Transpluto 41.79 (near, between); Juno = Quaoar 21.41 (near, between)
 ### Threads (4 or more cells on one body, both charts, 2 or more layers)
-- **Jupiter**: 7 cells (H 3, J 4; same body, star rows, top rows)
-  - same body: S Jupiter → H Jupiter RA 161.9572 100×φ^1 phi power (loose) — only
-  - top rows: S Eris → H Jupiter Dec 17.9420 φ^6 phi power (95.01) — only
-  - top rows: S Chiron → H Jupiter Dec 11.0987 φ^5 phi power (71.49) — only
-  - top rows: S Gonggong → J Jupiter RA 122.9372 φ^10 phi power (83.00) — only
-  - top rows: S Haumea → J Jupiter RA 118.1106 73×φ golden (66.78) — only
-  - star rows: S Altair → J Jupiter Dec 14.0000 14 whole (99.70) — only
-  - star rows: J Altair → J Jupiter Dec 13.9990 14 whole (90.63) — only
 - **Sedna**: 7 cells (H 5, J 2; same body, star rows, top rows)
   - same body: S Sedna → J Sedna Dec 4.0067 4 whole (44.52) [360/90] — only
   - top rows: S Sun → H Sedna RA 103.5514 64×φ golden (83.60) — also: 1 Funambule Sivola
@@ -1215,6 +1168,13 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - star rows: H Murzim → H Sedna RA 41.4279 41.4 silver (93.80) — also: 1 Funambule Sivola
   - star rows: H Zubeneschamali → H Sedna RA 174.9993 175 whole (92.98) — also: 1 Funambule Sivola
   - star rows: J Murzim → J Sedna RA 53.3989 33×φ golden (78.24) — only
+- **Jupiter**: 6 cells (H 3, J 3; same body, star rows, top rows)
+  - same body: S Jupiter → H Jupiter RA 161.9572 100×φ^1 phi power (loose) — only
+  - top rows: S Eris → H Jupiter Dec 17.9420 φ^6 phi power (95.01) — only
+  - top rows: S Chiron → H Jupiter Dec 11.0987 φ^5 phi power (71.49) — only
+  - top rows: S Gonggong → J Jupiter RA 122.9372 φ^10 phi power (83.00) — only
+  - top rows: S Haumea → J Jupiter RA 118.1106 73×φ golden (66.78) — only
+  - star rows: S Altair → J Jupiter Dec 14.0000 14 whole (99.70) [same star: J Altair 13.9990 14 whole (90.63)] — only
 - **Ceres**: 6 cells (H 4, J 2; same body, star rows)
   - same body: S Ceres → H Ceres RA 133.9295 133.333 ninth (loose) [sky number: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)] — also: 2 Before Midnight
   - same body: S Ceres → H Ceres Dec 43.6547 27×φ golden (loose) — only
@@ -1227,16 +1187,16 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - star rows: H Alnilam → H Eris Dec 2.0000 2 whole (99.61) [360/180] — also: 7 Gold Des Bois
   - star rows: H Zubeneschamali → H Eris Dec 6.1800 10×φ^-1 phi power (98.02) — only
   - star rows: J Alkes → J Eris RA 142.3814 88×φ golden (68.48) — only
-- **Ketu**: 4 cells (H 2, J 2; same body, star rows)
-  - same body: S Ketu → H Ketu RA 133.3945 133.333 ninth (92.66) [sky number: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)] — only
-  - same body: S Ketu → J Ketu RA 88.8732 88.8889 ninth (loose) — only
-  - star rows: H Alnilam → H Ketu RA 74.0046 74 whole (59.19) — only
-  - star rows: J Difda → J Ketu Dec 30.9991 31 whole (91.04) — only
 - **Quaoar**: 4 cells (H 2, J 2; same body, star rows)
   - same body: S Quaoar → J Quaoar RA 44.0281 44 whole (loose) [sky number: S Moon → Menkent RA 44.0012 44 whole (88.65)] — only
   - star rows: H Difda → H Quaoar RA 103.5543 64×φ golden (99.14) — only
   - star rows: H Deneb → H Quaoar Dec 61.0035 61 whole (68.21) — also: 1 Funambule Sivola
   - star rows: J Altair → J Quaoar Dec 21.9979 22 whole (80.09) [sky number: S Moon → Alphecca RA 21.9974 22 whole (76.10)] — only
+- **Ketu**: 4 cells (H 2, J 2; same body, star rows)
+  - same body: S Ketu → H Ketu RA 133.3945 133.333 ninth (92.66) [sky number: S Sun → Alnilam RA 133.3574 133.333 ninth (97.11)] — only
+  - same body: S Ketu → J Ketu RA 88.8732 88.8889 ninth (loose) — only
+  - star rows: H Alnilam → H Ketu RA 74.0046 74 whole (59.19) — only
+  - star rows: J Difda → J Ketu Dec 30.9991 31 whole (91.04) — only
 ### Flags held
 - **N and N×φ on one Jupiter** (only this runner)
   - S Mirach → J Jupiter RA 82.0030 82 whole (72.32) | S Deneb Algedi → J Jupiter RA 132.6788 82×φ golden (99.84)
@@ -1246,8 +1206,6 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - J Altair → J Quaoar Dec 21.9979 22 whole (80.09) = S Moon → Alphecca RA 21.9974 22 whole (76.10)
   - H Murzim → H Chiron RA 110.9784 10×φ^5 phi power (74.24) = S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
   - J Difda → J Vesta Dec 7.9952 8 whole (57.88) = S Moon → Mercury Dec 8.0060 8 whole (49.15)
-- **locked line star on natal Jupiter** (5 of 7 runners)
-  - J Altair → J Jupiter Dec 13.9990 14 whole (90.63) | S Altair → J Jupiter Dec 14.0000 14 whole (99.70)
 - **natal body on a strong line star** (4 of 7 runners)
   - J Alnilam → J Pluto Dec 0.0421 conj (73.93)
 - **same source on the same body, both charts** (7 of 7 runners)
@@ -1389,17 +1347,15 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - J RA midpoints: Venus = Transpluto 74.41 (far, far side); Sun = Haumea 46.80 (far, far side)
 - **Difda** (sky Sun)
   - H Difda → H Juno RA 16.9924 17 whole (38.28) — only
-  - H Difda → H Jupiter Dec 41.0134 41 whole (10.84) — only
-  - S Difda → H Jupiter Dec 41.0151 41 whole (6.01) — only
+  - H Difda → H Jupiter Dec 41.0134 41 whole (10.84) [same star: S Difda 41.0151 41 whole (6.01)] — only
   - H Difda → H Vesta RA 166.9847 167 whole (5.59) — only
   - S Difda → H Jupiter RA 94.0173 94 whole (1.76) — only
   - J Difda → J Sun RA 54.0048 54 whole (57.59) — only
   - J Difda → J Transpluto RA 135.9029 84×φ golden (39.58) — only
-  - S Difda → J Jupiter RA 12.0124 12 whole (14.45) [360/30] — only
+  - S Difda → J Jupiter RA 12.0124 12 whole (14.45) [same star: J Difda 12.0146 12 whole (7.17)] [360/30] — only
   - J Difda → J Eris RA 12.9872 13 whole (12.80) [sky number: S Sun → Altair RA 13.0065 13 whole (45.24)] — only
   - J Difda → J Mars RA 167.9871 168 whole (12.44) — only
   - J Difda → J Ceres RA 86.0134 86 whole (10.83) — only
-  - J Difda → J Jupiter RA 12.0146 12 whole (7.17) [360/30] — only
   - H RA midpoints: Saturn = Transpluto 49.23 (far, far side); Sun = Venus 27.00 (near, between)
   - H Dec midpoints: Saturn = Pluto 2.56 (between)
   - J RA midpoints: Quaoar = Orcus 67.84 (far, far side); Juno = Orcus 54.22 (far, far side)
@@ -1411,8 +1367,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H RA midpoints: Chiron = Ceres 69.36 (near, between); Chiron = Rahu 51.69 (near, between)
   - J RA midpoints: Neptune = Quaoar 76.20 (near, between); Vesta = Sedna 46.31 (far, far side); Neptune = Juno 32.26 (near, between)
 - **Murzim** (sky Sun)
-  - H Murzim → H Jupiter Dec 40.9849 41 whole (6.09) — only
-  - S Murzim → H Jupiter Dec 40.9839 41 whole (3.78) — only
+  - H Murzim → H Jupiter Dec 40.9849 41 whole (6.09) [same star: S Murzim 40.9839 41 whole (3.78)] — only
   - J Murzim → J Ceres RA 1.2378 conj (3.06) — only
   - H RA midpoints: Chiron = Rahu 81.83 (far, far side); Chiron = Ceres 62.04 (far, far side); Pluto = Quaoar 49.28 (far, far side)
   - H Dec midpoints: Saturn = Pluto 11.69 (between)
@@ -1428,16 +1383,14 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 - **Sualocin** (sky Sun)
   - H Sualocin → H Vesta RA 106.0007 106 whole (93.11) — only
   - H Sualocin → H Mars Dec 19.4149 12×φ golden (90.76) — only
-  - H Sualocin → H Jupiter RA 155.0046 155 whole (59.55) — only
+  - H Sualocin → H Jupiter RA 155.0046 155 whole (59.55) [same star: S Sualocin 155.0097 155 whole (26.57)] — only
   - H Sualocin → H Gonggong Dec 29.0056 29 whole (51.56) — only
-  - S Sualocin → H Jupiter RA 155.0097 155 whole (26.57) — only
   - H Sualocin → H Eris Dec 19.0100 19 whole (24.75) — only
   - H Sualocin → H Chiron Dec 16.9809 17 whole (0.22) — only
   - H Sualocin → H Pluto Dec 36.0198 36 whole (0.01) [360/10] — also: 7 Gold Des Bois
   - J Sualocin → J Uranus Dec 32.3649 20×φ golden (75.79) — only
-  - J Sualocin → J Jupiter RA 72.9966 73 whole (69.25) — only
+  - J Sualocin → J Jupiter RA 72.9966 73 whole (69.25) [same star: S Sualocin 73.0047 73 whole (58.22)] — only
   - J Sualocin → J Ceres RA 146.9954 147 whole (59.41) — only
-  - S Sualocin → J Jupiter RA 73.0047 73 whole (58.22) — only
   - J Sualocin → J Mars RA 107.0051 107 whole (55.82) — only
   - J Sualocin → J Pluto Dec 25.9921 26 whole (36.40) — only
   - J Sualocin → J Sun RA 114.9868 115 whole (11.63) — only
@@ -1448,10 +1401,8 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Dec midpoints: Uranus = Makemake 28.78 (between)
   - J RA midpoints: Sun = Haumea 85.02 (far, far side); Venus = Transpluto 53.45 (far, far side)
 - **Adhara** (sky Moon)
-  - S Adhara → H Jupiter Dec 52.0000 52 whole (99.61) [sky number: S Moon → Alphecca Dec 51.9929 52 whole (41.36)] — only
-  - H Adhara → H Jupiter Dec 52.0019 52 whole (81.65) [sky number: S Moon → Alphecca Dec 51.9929 52 whole (41.36)] — only
-  - S Adhara → H Jupiter RA 0.2514 conj (69.29) — only
-  - H Adhara → H Jupiter RA 0.2594 conj (68.41) — only
+  - S Adhara → H Jupiter Dec 52.0000 52 whole (99.61) [same star: H Adhara 52.0019 52 whole (81.65)] [sky number: S Moon → Alphecca Dec 51.9929 52 whole (41.36)] — only
+  - S Adhara → H Jupiter RA 0.2514 conj (69.29) [same star: H Adhara 0.2594 conj (68.41)] — only
   - H Adhara → H Uranus RA 92.0172 92 whole (1.97) — only
   - J Adhara → J Venus RA 8.9971 9 whole (72.93) [360/40] — only
   - J RA midpoints: Sun = Vesta 76.13 (near, between); Uranus = Pluto 58.84 (far, far side)
@@ -1474,14 +1425,12 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - J RA midpoints: Haumea = Makemake 54.50 (far, far side)
 - **Arcturus** (sky Moon)
   - H Arcturus → H Rahu Dec 29.9981 30 whole (81.50) [360/12] — also: 7 Gold Des Bois
-  - H Arcturus → H Jupiter RA 109.0025 109 whole (76.67) [sky number: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)] — only
+  - H Arcturus → H Jupiter RA 109.0025 109 whole (76.67) [same star: S Arcturus 108.9946 109 whole (53.07)] [sky number: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)] — only
   - H Arcturus → H Eris RA 171.5200 106×φ golden (55.01) — only
-  - S Arcturus → H Jupiter RA 108.9946 109 whole (53.07) [sky number: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)] — only
   - H Arcturus → H Vesta RA 10.0078 10 whole (37.48) [360/36] — only
   - H Arcturus → H Orcus RA 64.9818 65 whole (0.85) — only
-  - S Arcturus → J Jupiter RA 169.0005 169 whole (95.27) — only
+  - S Arcturus → J Jupiter RA 169.0005 169 whole (95.27) [same star: J Arcturus 168.9886 169 whole (18.30)] — only
   - J Arcturus → J Saturn RA 174.9912 175 whole (31.17) — only
-  - J Arcturus → J Jupiter RA 168.9886 169 whole (18.30) — only
   - J Arcturus → J Ceres RA 117.0127 117 whole (13.43) — only
   - J Arcturus → J Eris Dec 25.9873 26 whole (13.31) — only
   - J Arcturus → J Mars RA 11.0131 11 whole (11.75) — only
@@ -1495,25 +1444,19 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H RA midpoints: Mars = Saturn 11.92 (near, between)
   - J RA midpoints: Makemake = Quaoar 85.90 (near, between); Saturn = Eris 57.40 (far, far side)
 ### Threads (4 or more cells on one body, both charts, 2 or more layers)
-- **Jupiter**: 14 cells (H 9, J 5; star rows, top rows)
+- **Jupiter**: 9 cells (H 5, J 4; star rows, top rows)
   - top rows: S Pluto → H Jupiter RA 165.9949 166 whole (55.86) — only
   - top rows: S Sedna → H Jupiter Dec 14.9948 15 whole (54.45) [360/24] — only
   - top rows: S Neptune → J Jupiter Dec 12.9491 8×φ golden (72.49) — only
   - top rows: S Juno → J Jupiter Dec 20.9959 21 whole (63.13) — only
-  - star rows: S Adhara → H Jupiter Dec 52.0000 52 whole (99.61) [sky number: S Moon → Alphecca Dec 51.9929 52 whole (41.36)] — only
-  - star rows: H Adhara → H Jupiter Dec 52.0019 52 whole (81.65) [sky number: S Moon → Alphecca Dec 51.9929 52 whole (41.36)] — only
-  - star rows: H Arcturus → H Jupiter RA 109.0025 109 whole (76.67) [sky number: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)] — only
-  - star rows: S Adhara → H Jupiter RA 0.2514 conj (69.29) — only
-  - star rows: H Adhara → H Jupiter RA 0.2594 conj (68.41) — only
-  - star rows: H Sualocin → H Jupiter RA 155.0046 155 whole (59.55) — only
-  - star rows: S Arcturus → H Jupiter RA 108.9946 109 whole (53.07) [sky number: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)] — only
-  - star rows: S Arcturus → J Jupiter RA 169.0005 169 whole (95.27) — only
-  - star rows: J Sualocin → J Jupiter RA 72.9966 73 whole (69.25) — only
-  - star rows: S Sualocin → J Jupiter RA 73.0047 73 whole (58.22) — only
-- **Sun**: 7 cells (H 5, J 2; same body, star rows)
+  - star rows: S Adhara → H Jupiter Dec 52.0000 52 whole (99.61) [same star: H Adhara 52.0019 52 whole (81.65)] [sky number: S Moon → Alphecca Dec 51.9929 52 whole (41.36)] — only
+  - star rows: H Arcturus → H Jupiter RA 109.0025 109 whole (76.67) [same star: S Arcturus 108.9946 109 whole (53.07)] [sky number: S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)] — only
+  - star rows: H Sualocin → H Jupiter RA 155.0046 155 whole (59.55) [same star: S Sualocin 155.0097 155 whole (26.57)] — only
+  - star rows: S Arcturus → J Jupiter RA 169.0005 169 whole (95.27) [same star: J Arcturus 168.9886 169 whole (18.30)] — only
+  - star rows: J Sualocin → J Jupiter RA 72.9966 73 whole (69.25) [same star: S Sualocin 73.0047 73 whole (58.22)] — only
+- **Sun**: 6 cells (H 4, J 2; same body, star rows)
   - same body: S Sun → H Sun Dec 30.7231 19×φ golden (loose) — only
   - star rows: H Diadem → H Sun RA 166.6615 166.667 ninth (99.56) — only
-  - star rows: H Diadem → H Sun Dec 5.0010 5 whole (90.47) [360/72] — only
   - star rows: H Ankaa → H Sun RA 24.2730 15×φ golden (85.13) — only
   - star rows: H Rasalhague → H Sun Dec 0.0287 conj (81.76) — only
   - star rows: J Difda → J Sun RA 54.0048 54 whole (57.59) — only
@@ -1524,21 +1467,21 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - star rows: H Diadem → H Mars Dec 21.0347 13×φ golden (98.29) — only
   - star rows: H Sualocin → H Mars Dec 19.4149 12×φ golden (90.76) — only
   - star rows: J Sualocin → J Mars RA 107.0051 107 whole (55.82) — only
-- **Venus**: 4 cells (H 3, J 1; same body, star rows, top rows)
-  - same body: S Venus → H Venus Dec 11.0868 φ^5 phi power (loose) — only
-  - top rows: S Jupiter → H Venus RA 12.0033 12 whole (69.57) [360/30] — only
-  - star rows: H Zubeneschamali → H Venus RA 121.0017 121 whole (83.76) — only
-  - star rows: J Adhara → J Venus RA 8.9971 9 whole (72.93) [360/40] — only
-- **Rahu**: 4 cells (H 3, J 1; same body, star rows)
-  - same body: S Rahu → H Rahu Dec 30.7326 19×φ golden (loose) — also: 7 Gold Des Bois
-  - star rows: H Alphecca → H Rahu RA 27.5042 17×φ golden (85.72) — also: 7 Gold Des Bois
-  - star rows: H Arcturus → H Rahu Dec 29.9981 30 whole (81.50) [360/12] — also: 7 Gold Des Bois
-  - star rows: J Deneb → J Rahu Dec 29.1226 18×φ golden (87.89) — only
 - **Vesta**: 4 cells (H 3, J 1; same body, star rows, top rows)
   - same body: S Vesta → J Vesta Dec 42.0251 42 whole (loose) — only
   - top rows: S Sun → H Vesta RA 106.7916 66×φ golden (91.77) — only
   - star rows: H Sualocin → H Vesta RA 106.0007 106 whole (93.11) — only
   - star rows: H Rasalhague → H Vesta Dec 9.0053 9 whole (54.06) [360/40] — only
+- **Rahu**: 4 cells (H 3, J 1; same body, star rows)
+  - same body: S Rahu → H Rahu Dec 30.7326 19×φ golden (loose) — also: 7 Gold Des Bois
+  - star rows: H Alphecca → H Rahu RA 27.5042 17×φ golden (85.72) — also: 7 Gold Des Bois
+  - star rows: H Arcturus → H Rahu Dec 29.9981 30 whole (81.50) [360/12] — also: 7 Gold Des Bois
+  - star rows: J Deneb → J Rahu Dec 29.1226 18×φ golden (87.89) — only
+- **Venus**: 4 cells (H 3, J 1; same body, star rows, top rows)
+  - same body: S Venus → H Venus Dec 11.0868 φ^5 phi power (loose) — only
+  - top rows: S Jupiter → H Venus RA 12.0033 12 whole (69.57) [360/30] — only
+  - star rows: H Zubeneschamali → H Venus RA 121.0017 121 whole (83.76) — only
+  - star rows: J Adhara → J Venus RA 8.9971 9 whole (72.93) [360/40] — only
 - **Uranus**: 4 cells (H 2, J 2; star rows, top rows)
   - top rows: S Moon → H Uranus Dec 29.9977 30 whole (77.99) [360/12] — only
   - star rows: H Alphecca → H Uranus Dec 21.9966 22 whole (68.52) [sky number: S Moon → Alphecca RA 21.9974 22 whole (76.10)] — only
@@ -1547,19 +1490,12 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
 ### Flags held
 - **line star carries a sky number** (7 of 7 runners)
   - S Adhara → H Jupiter Dec 52.0000 52 whole (99.61) = S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-  - H Adhara → H Jupiter Dec 52.0019 52 whole (81.65) = S Moon → Alphecca Dec 51.9929 52 whole (41.36)
   - H Arcturus → H Jupiter RA 109.0025 109 whole (76.67) = S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
   - H Alphecca → H Uranus Dec 21.9966 22 whole (68.52) = S Moon → Alphecca RA 21.9974 22 whole (76.10)
-  - S Arcturus → H Jupiter RA 108.9946 109 whole (53.07) = S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36)
-- **locked line star on natal Jupiter** (5 of 7 runners)
-  - H Adhara → H Jupiter Dec 52.0019 52 whole (81.65) | S Adhara → H Jupiter Dec 52.0000 52 whole (99.61)
-  - H Adhara → H Jupiter RA 0.2594 conj (68.41) | S Adhara → H Jupiter RA 0.2514 conj (69.29)
-  - J Sualocin → J Jupiter RA 72.9966 73 whole (69.25) | S Sualocin → J Jupiter RA 73.0047 73 whole (58.22)
-  - H Arcturus → H Jupiter RA 109.0025 109 whole (76.67) | S Arcturus → H Jupiter RA 108.9946 109 whole (53.07)
 - **natal body on a strong line star** (4 of 7 runners)
   - H Rasalhague → H Sun Dec 0.0287 conj (81.76)
 - **same source on the same body, both charts** (7 of 7 runners)
-  - S Arcturus → H Jupiter RA 108.9946 109 whole (53.07) | S Arcturus → J Jupiter RA 169.0005 169 whole (95.27)
+  - H Arcturus → H Jupiter RA 109.0025 109 whole (76.67) | S Arcturus → J Jupiter RA 169.0005 169 whole (95.27)
   - H Sualocin → H Jupiter RA 155.0046 155 whole (59.55) | J Sualocin → J Jupiter RA 72.9966 73 whole (69.25)
   - H Sualocin → H Mars Dec 19.4149 12×φ golden (90.76) | J Sualocin → J Mars RA 107.0051 107 whole (55.82)
   - H Jupiter → H star Sualocin RA 155.0046 155 whole (59.55) | J Jupiter → J star Sualocin RA 72.9966 73 whole (69.25)
@@ -1618,8 +1554,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Diadem → H Saturn RA 18.8839 18.8889 ninth (96.44) — also: 3 The Big Bite
   - H Diadem → H Pluto Dec 37.2155 23×φ golden (95.55) — also: 2 Before Midnight, 3 The Big Bite
   - H Diadem → H Juno RA 115.0111 115 whole (19.90) — also: 3 The Big Bite
-  - S Diadem → H Jupiter RA 121.3759 75×φ golden (7.82) — also: 3 The Big Bite
-  - H Diadem → H Jupiter RA 121.3802 75×φ golden (2.07) — also: 3 The Big Bite
+  - S Diadem → H Jupiter RA 121.3759 75×φ golden (7.82) [same star: H Diadem 121.3802 75×φ golden (2.07)] — also: 3 The Big Bite
   - J Diadem → J Saturn RA 1.4143 1.414 sqrt2 (99.20) — only
   - J Diadem → J Venus RA 177.7324 177.778 ninth (96.45) — only
   - J Diadem → J Juno RA 80.9951 81 whole (56.73) — only
@@ -1711,8 +1646,7 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H Sualocin → H Pluto Dec 35.5955 22×φ golden (92.38) — also: 2 Before Midnight, 3 The Big Bite
   - H Sualocin → H Mars Dec 2.2228 2.22222 ninth (92.16) — also: 3 The Big Bite
   - H Sualocin → H Orcus RA 161.8565 100×φ^1 phi power (87.31) — also: 2 Before Midnight, 3 The Big Bite
-  - H Sualocin → H Jupiter RA 126.2103 78×φ golden (78.95) — also: 3 The Big Bite
-  - S Sualocin → H Jupiter RA 126.2161 78×φ golden (50.29) — also: 3 The Big Bite
+  - H Sualocin → H Jupiter RA 126.2103 78×φ golden (78.95) [same star: S Sualocin 126.2161 78×φ golden (50.29)] — also: 3 The Big Bite
   - H Sualocin → H Chiron Dec 17.9809 18 whole (0.19) [360/20] — also: 3 The Big Bite
   - J Sualocin → J Chiron RA 101.9289 63×φ golden (60.07) — only
   - J Sualocin → J Neptune Dec 37.9915 38 whole (33.35) — also: 7 Gold Des Bois
@@ -1758,45 +1692,36 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - J Dec midpoints: Mars = Makemake 68.26 (between); Mercury = Transpluto 36.75 (between)
 - **Menkent** (sky Moon)
   - H Menkent → H Makemake RA 21.0121 21 whole (15.56) — also: 3 The Big Bite
-  - S Menkent → J Jupiter RA 0.7925 conj (22.25) — only
-  - J Menkent → J Jupiter RA 0.8050 conj (21.47) — only
+  - S Menkent → J Jupiter RA 0.7925 conj (22.25) [same star: J Menkent 0.8050 conj (21.47)] — only
   - H RA midpoints: Uranus = Sedna 88.98 (far, far side); Sun = Eris 75.28 (far, far side); Sun = Mercury 56.10 (far, far side)
   - J RA midpoints: Saturn = Ceres 58.10 (near, between); Mars = Uranus 26.91 (near, between)
 ### Threads (4 or more cells on one body, both charts, 2 or more layers)
-- **Pluto**: 6 cells (H 3, J 3; star rows, top rows)
+- **Pluto**: 5 cells (H 3, J 2; star rows, top rows)
   - top rows: S Moon → J Pluto Dec 31.9950 32 whole (56.32) — only
   - star rows: H Diadem → H Pluto Dec 37.2155 23×φ golden (95.55) — also: 2 Before Midnight, 3 The Big Bite
   - star rows: H Difda → H Pluto RA 88.8822 88.8889 ninth (95.21) — also: 3 The Big Bite
   - star rows: H Sualocin → H Pluto Dec 35.5955 22×φ golden (92.38) — also: 2 Before Midnight, 3 The Big Bite
   - star rows: J Alphecca → J Pluto Dec 20.0019 20 whole (81.92) [360/18] — only
-  - star rows: J Alphecca → J Pluto RA 24.2785 15×φ golden (56.77) — only
 - **Sedna**: 5 cells (H 2, J 3; star rows, top rows)
   - top rows: S Sun → H Sedna RA 103.0040 103 whole (64.27) — also: 3 The Big Bite
   - star rows: H Altair → H Sedna RA 116.0049 116 whole (56.95) — also: 3 The Big Bite
   - star rows: J Rasalhague → J Sedna RA 134.9972 135 whole (73.85) — only
   - star rows: J Alkes → J Sedna RA 126.2117 78×φ golden (71.27) — only
   - star rows: J Deneb → J Sedna Dec 41.9949 42 whole (55.45) — only
-- **Ceres**: 4 cells (H 3, J 1; star rows, top rows)
-  - top rows: S Jupiter → H Ceres Dec 38.9989 39 whole (89.64) — also: 3 The Big Bite
-  - top rows: S Sun → H Ceres RA 148.8566 92×φ golden (85.04) — also: 3 The Big Bite
-  - star rows: H Altair → H Ceres RA 161.8576 100×φ^1 phi power (87.06) — also: 3 The Big Bite
-  - star rows: J Altair → J Ceres RA 70.7181 70.7 sqrt2 (95.83) — only
-- **Jupiter**: 4 cells (H 3, J 1; same body, star rows, top rows)
-  - same body: S Jupiter → J Jupiter Dec 0.8880 0.888889 ninth (loose) — only
-  - top rows: S Haumea → H Jupiter RA 141.4256 141.4 sqrt2 (98.80) — also: 3 The Big Bite
-  - star rows: H Sualocin → H Jupiter RA 126.2103 78×φ golden (78.95) — also: 3 The Big Bite
-  - star rows: S Sualocin → H Jupiter RA 126.2161 78×φ golden (50.29) — also: 3 The Big Bite
 - **Saturn**: 4 cells (H 2, J 2; same body, star rows)
   - same body: S Saturn → J Saturn Dec 13.2661 13.3333 ninth (loose) — only
   - star rows: H Diadem → H Saturn RA 18.8839 18.8889 ninth (96.44) — also: 3 The Big Bite
   - star rows: H Rasalhague → H Saturn Dec 24.1473 24.14 silver (91.70) — also: 3 The Big Bite
   - star rows: J Diadem → J Saturn RA 1.4143 1.414 sqrt2 (99.20) — only
+- **Ceres**: 4 cells (H 3, J 1; star rows, top rows)
+  - top rows: S Jupiter → H Ceres Dec 38.9989 39 whole (89.64) — also: 3 The Big Bite
+  - top rows: S Sun → H Ceres RA 148.8566 92×φ golden (85.04) — also: 3 The Big Bite
+  - star rows: H Altair → H Ceres RA 161.8576 100×φ^1 phi power (87.06) — also: 3 The Big Bite
+  - star rows: J Altair → J Ceres RA 70.7181 70.7 sqrt2 (95.83) — only
 ### Flags held
 - **line star carries a sky number** (7 of 7 runners)
   - H Altair → H Orcus Dec 16.1883 10×φ^1 phi power (81.39) = S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44)
   - J Kaus Australis → J Quaoar RA 52.0058 52 whole (50.31) = S Moon → Alphecca Dec 51.9929 52 whole (41.36)
-- **locked line star on natal Jupiter** (5 of 7 runners)
-  - H Sualocin → H Jupiter RA 126.2103 78×φ golden (78.95) | S Sualocin → H Jupiter RA 126.2161 78×φ golden (50.29)
 - **same source on the same body, both charts** (7 of 7 runners)
   - H Altair → H Ceres RA 161.8576 100×φ^1 phi power (87.06) | J Altair → J Ceres RA 70.7181 70.7 sqrt2 (95.83)
   - H Kaus Australis → H Quaoar RA 11.0971 φ^5 phi power (76.53) | J Kaus Australis → J Quaoar RA 52.0058 52 whole (50.31)
@@ -2019,21 +1944,13 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - H RA midpoints: Saturn = Makemake 24.76 (near, between)
   - J RA midpoints: Saturn = Transpluto 74.70 (near, between)
 ### Threads (4 or more cells on one body, both charts, 2 or more layers)
-- **Eris**: 7 cells (H 3, J 4; same body, star rows, top rows)
+- **Eris**: 6 cells (H 3, J 3; same body, star rows, top rows)
   - same body: S Eris → H Eris Dec 1.7721 1.77778 ninth (loose) — also: 4 King D'argent
   - same body: S Eris → J Eris RA 2.9796 3 whole (loose) [360/120] — only
   - top rows: S Sun → H Eris Dec 14.9961 15 whole (64.58) [360/24] — only
   - star rows: H Alnilam → H Eris Dec 1.9951 2 whole (56.90) [360/180] — also: 4 King D'argent
   - star rows: J Zubeneschamali → J Eris Dec 0.0002 conj (99.84) — also: 4 King D'argent
   - star rows: J Kaus Australis → J Eris RA 106.7910 66×φ golden (95.26) — only
-  - star rows: J Kaus Australis → J Eris Dec 25.0019 25 whole (81.93) — only
-- **Rahu**: 6 cells (H 3, J 3; same body, star rows)
-  - same body: S Rahu → H Rahu Dec 30.7319 19×φ golden (loose) — also: 5 Fransham
-  - star rows: H Alphecca → H Rahu RA 27.5049 17×φ golden (90.02) — also: 5 Fransham
-  - star rows: H Arcturus → H Rahu Dec 29.9964 30 whole (66.97) [360/12] — also: 5 Fransham
-  - star rows: J Deneb → J Rahu RA 17.9995 18 whole (95.51) [360/20] — only
-  - star rows: J Alkes → J Rahu RA 163.4243 101×φ golden (82.85) — only
-  - star rows: J Arcturus → J Rahu Dec 32.0031 32 whole (71.36) — only
 - **Jupiter**: 6 cells (H 1, J 5; same body, star rows, top rows)
   - same body: S Jupiter → J Jupiter RA 111.1165 111.111 ninth (99.12) — only
   - same body: S Jupiter → J Jupiter Dec 33.2687 33.3333 ninth (loose) — only
@@ -2041,16 +1958,13 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - top rows: S Ketu → J Jupiter Dec 43.0035 43 whole (67.90) — only
   - star rows: S Menkent → J Jupiter RA 122.2958 122.222 ninth (89.82) — only
   - star rows: J Deneb → J Jupiter RA 139.0058 139 whole (50.71) — only
-- **Chiron**: 4 cells (H 2, J 2; same body, star rows)
-  - same body: S Chiron → H Chiron RA 23.0059 23 whole (50.00) — only
-  - same body: S Chiron → H Chiron Dec 6.9702 7 whole (loose) — only
-  - star rows: J Diadem → J Chiron RA 95.4679 59×φ golden (77.35) — only
-  - star rows: J Sualocin → J Chiron Dec 1.0036 1 whole (67.51) [360/360] — only
-- **Haumea**: 4 cells (H 2, J 2; T1/T2, same body, star rows)
-  - same body: S Haumea → H Haumea Dec 3.0113 3 whole (18.96) [360/120] — only
-  - T2: J Jupiter → J Haumea Dec 0.0518 conj (68.44) — only
-  - star rows: H Zubeneschamali → H Haumea Dec 27.5100 17×φ golden (80.19) — only
-  - star rows: J Murzim → J Haumea Dec 40.9984 41 whole (84.43) — only
+- **Rahu**: 6 cells (H 3, J 3; same body, star rows)
+  - same body: S Rahu → H Rahu Dec 30.7319 19×φ golden (loose) — also: 5 Fransham
+  - star rows: H Alphecca → H Rahu RA 27.5049 17×φ golden (90.02) — also: 5 Fransham
+  - star rows: H Arcturus → H Rahu Dec 29.9964 30 whole (66.97) [360/12] — also: 5 Fransham
+  - star rows: J Deneb → J Rahu RA 17.9995 18 whole (95.51) [360/20] — only
+  - star rows: J Alkes → J Rahu RA 163.4243 101×φ golden (82.85) — only
+  - star rows: J Arcturus → J Rahu Dec 32.0031 32 whole (71.36) — only
 - **Ketu**: 4 cells (H 3, J 1; same body, star rows, top rows)
   - same body: S Ketu → H Ketu Dec 30.7319 19×φ golden (loose) — also: 5 Fransham
   - top rows: S Jupiter → H Ketu Dec 20.9971 21 whole (73.02) — also: 5 Fransham
@@ -2061,6 +1975,16 @@ Collected by tools/eddie_read.py. No lead, no ranking. Every piece says whether 
   - star rows: H Alphecca → H Makemake Dec 0.0389 conj (75.74) — also: 5 Fransham
   - star rows: J Zubeneschamali → J Makemake Dec 44.9993 45 whole (92.70) [360/8] — only
   - star rows: J Kaus Australis → J Makemake Dec 70.0014 70 whole (86.59) — only
+- **Haumea**: 4 cells (H 2, J 2; T1/T2, same body, star rows)
+  - same body: S Haumea → H Haumea Dec 3.0113 3 whole (18.96) [360/120] — only
+  - T2: J Jupiter → J Haumea Dec 0.0518 conj (68.44) — only
+  - star rows: H Zubeneschamali → H Haumea Dec 27.5100 17×φ golden (80.19) — only
+  - star rows: J Murzim → J Haumea Dec 40.9984 41 whole (84.43) — only
+- **Chiron**: 4 cells (H 2, J 2; same body, star rows)
+  - same body: S Chiron → H Chiron RA 23.0059 23 whole (50.00) — only
+  - same body: S Chiron → H Chiron Dec 6.9702 7 whole (loose) — only
+  - star rows: J Diadem → J Chiron RA 95.4679 59×φ golden (77.35) — only
+  - star rows: J Sualocin → J Chiron Dec 1.0036 1 whole (67.51) [360/360] — only
 ### Flags held
 - **line star carries a sky number** (7 of 7 runners)
   - J Alnilam → J Pluto RA 140.7728 87×φ golden (77.71) = S Jupiter → Diadem RA 140.7588 87×φ golden (47.27)
